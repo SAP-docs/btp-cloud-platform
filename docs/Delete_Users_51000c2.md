@@ -1,0 +1,114 @@
+<!-- loio51000c2254864a39b9f8629715f2c5f1 -->
+
+# Delete Users
+
+As an administrator, you can delete users from your subaccount. When you delete a user, you also delete the user's role collection assignments.
+
+
+
+<a name="loio51000c2254864a39b9f8629715f2c5f1__prereq_kyb_mkt_bnb"/>
+
+## Prerequisites
+
+You have the required authorizations.
+
+For more information, see [Security Administration: Managing Authentication and Authorization](Security_Administration_Managing_Authentication_and_Authorization_1ff47b2.md) or [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](Role_Collections_and_Roles_in_Global_Accounts,_Directories,_and_Subaccounts_Feature_Set_B_0039cf0.md).
+
+
+
+<a name="loio51000c2254864a39b9f8629715f2c5f1__context_lny_4b5_bnb"/>
+
+## Context
+
+All users in the subaccounts of SAP BTP are shadow users. As an administrator, you might want to clean up users from your subaccount. Or for data protection and privacy reasons, it might be a legal obligation that administrators delete shadow users who belonged to employees who left the company. For more information, see [Working with Users](Working_with_Users_2c91f88.md).
+
+It's also possible to delete users using APIs. For more information, see the related links.
+
+Keep in mind that you also delete the user's role collection assignments.
+
+> ### Caution:  
+> You cannot undo the deletion of a user.
+
+
+
+<a name="loio51000c2254864a39b9f8629715f2c5f1__steps_b4y_4b5_bnb"/>
+
+## Procedure
+
+1.  Open the SAP BTP cockpit.
+
+2.  Go to your global account, directory, or subaccount \(see [Navigate in the Cockpit](Navigate_in_the_Cockpit_0874895.md)\).
+
+3.  Choose *Security* \> *Users*.
+
+    > ### Note:  
+    > For directories, choose *Users*. There is no *Security* menu item.
+
+4.  Choose from the following options:
+
+
+    <table>
+    <tr>
+    <th>
+
+    Options
+
+
+    
+    </th>
+    <th>
+
+    Procedure
+
+
+    
+    </th>
+    </tr>
+    <tr>
+    <td>
+
+    **Delete a single user**
+
+
+    
+    </td>
+    <td>
+
+    1.  Select the row of a user.
+
+    2.  Choose   Delete .
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    **Delete multiple users**
+
+
+    
+    </td>
+    <td>
+
+    1.  Choose   Select multiple users  and select users \(see the related link\).
+
+    2.  Choose *Delete*.
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
+
+**Related Information**  
+
+
+[Working with Users](Working_with_Users_2c91f88.md "In the SAP BTP cockpit, you can see the users of your global account or subaccount, user-related identity provider information, and their authorizations. In a user's overview, you can create and delete users, and assign role collections. You can also display an overview of the role collections, where you can drill down all the way to the role, and see the application that the role is belongs to.")
+
+[Deletion](Deletion_25e3cc6.md "The processing of personal data is subject to applicable laws related to the deletion of this data when the specified, explicit, and legitimate purpose for processing this personal data has expired. If there is no longer a legitimate purpose that requires the retention and use of personal data, it must be deleted.")
+
+[Delete Shadow Users for Data Protection and Privacy Using APIs](Delete_Shadow_Users_for_Data_Protection_and_Privacy_Using_APIs_eb70f16.md "Data privacy regulations or policies may require you to delete this data, for example, when the user has left your organization. To delete shadow users using APIs, set up access to the API and then use the SCIM REST APIs to retrieve and delete the users.")
+
