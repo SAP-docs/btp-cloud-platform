@@ -1,8 +1,8 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: YOUR-REPOSITORY
-Upstream-Contact: NAME SURNAME (EMAIL)
-Source: https://github.com/sap-docs/YOUR-REPOSITORY
+Upstream-Name: btp
+Upstream-Contact: Nikolay Stoykov (nikolay.stoykov@sap.com)
+Source: https://github.com/sap-docs/btp
 
 Files: *
-Copyright:  2021 SAP SE or an SAP affiliate company and YOUR-REPOSITORY contributors
+Copyright:  2021 SAP SE or an SAP affiliate company and https://github.com/sap-docs/btp contributors
 License: CC-BY-4.0
