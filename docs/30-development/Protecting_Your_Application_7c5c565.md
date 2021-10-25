@@ -24,28 +24,28 @@ The tasks required to set up authorization artifacts are performed by two distin
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Step
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 User Role
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Tool
 
@@ -54,28 +54,28 @@ Tool
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specify the application security descriptor file containing the functional authorization scopes for your application.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application developer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Text editor
 
@@ -84,28 +84,28 @@ Text editor
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(If applicable\) If you want to create an OAuth 2.0 client in an application-related subaccount, you must use a separate security descriptor file where you specify the subaccount.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application developer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF command line interface
 
@@ -114,28 +114,28 @@ CF command line interface
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create role templates for the application using the application security descriptor file.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application developer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Text editor
 
@@ -144,28 +144,28 @@ Text editor
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 3
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create a service instance from the `xsuaa` service using the service broker
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application developer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF command line interface
 
@@ -174,28 +174,28 @@ CF command line interface
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 4
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Bind the service instance to the application by including it into the manifest file
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application developer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Text editor
 
@@ -204,28 +204,28 @@ Text editor
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 5
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Deploy the application
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application developer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF command line interface or SAP BTP cockpit
 
@@ -251,21 +251,21 @@ CF command line interface or SAP BTP cockpit
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 User Role
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Tool
 
@@ -274,7 +274,7 @@ Tool
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Use an existing role or create a new one using role templates
 
@@ -283,14 +283,14 @@ Use an existing role or create a new one using role templates
 
 
 </td>
-<td>
+<td valign="top">
 
 Administrator of the Cloud Foundry environment
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP BTP cockpit
 
@@ -301,7 +301,7 @@ Command line interface for SAP BTP
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Create a role collection and assign roles to it
 
@@ -310,14 +310,14 @@ Create a role collection and assign roles to it
 
 
 </td>
-<td>
+<td valign="top">
 
 Administrator of the Cloud Foundry environment
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP BTP cockpit
 
@@ -328,7 +328,7 @@ Command line interface for SAP BTP
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Assign the role collections to users
 
@@ -337,14 +337,14 @@ Assign the role collections to users
 
 
 </td>
-<td>
+<td valign="top">
 
 Administrator of the Cloud Foundry environment
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP BTP cockpit
 
@@ -355,7 +355,7 @@ Command line interface for SAP BTP
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 \(If you do not use `SAP ID Service`\) Assign the role collections to user groups \(cloud management tools feature set A regions\)
 
@@ -364,14 +364,14 @@ Command line interface for SAP BTP
 
 
 </td>
-<td>
+<td valign="top">
 
 Administrator of the Cloud Foundry environment
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP BTP cockpit
 
@@ -380,7 +380,7 @@ SAP BTP cockpit
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Assign the role collection to the business users provided by an identity provider \(cloud management tools feature set A\)
 
@@ -389,14 +389,14 @@ Assign the role collection to the business users provided by an identity provide
 
 
 </td>
-<td>
+<td valign="top">
 
 Administrator of the Cloud Foundry environment
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP BTP cockpit
 
@@ -405,21 +405,6 @@ SAP BTP cockpit
 </td>
 </tr>
 </table>
-
--   **[Add Authentication and Functional Authorization Checks to Your Application](Add_Authentication_and_Functional_Authorization_Checks_to_Your_Application_0a69484.md "Learn how to create a security application descriptor file and use it to create a service instance of the Authorization and Trust
-    Management service.")**  
-Learn how to create a security application descriptor file and use it to create a service instance of the Authorization and Trust Management service.
--   **[Propagate User Information Between Applications or Services](Propagate_User_Information_Between_Applications_or_Services_7daed6d.md "When a business application communicates with a service, you must decide whether you want to propagate the identity of the user that
-		called the business application, or if a call from machine-to-machine is sufficient.")**  
-When a business application communicates with a service, you must decide whether you want to propagate the identity of the user that called the business application, or if a call from machine-to-machine is sufficient.
--   **[Set Up Your Application for Multitenancy](Set_Up_Your_Application_for_Multitenancy_6083d3c.md "Learn how to add multitenancy to your application and make it available for other
-		subaccounts using the SaaS Provisioning service and the SAP Authorization and Trust
-                                    Management service.")**  
-Learn how to add multitenancy to your application and make it available for other subaccounts using the SaaS Provisioning service and the SAP Authorization and Trust Management service.
--   **[Setting Up Instance-Based Authorizations](Setting_Up_Instance-Based_Authorizations_519965c.md "Instance-based authorizations are authorization checks based on the value of some authorization-relevant attribute defined by the
-		application. Functional authorizations define whether you've permission to edit or view some function in the application, while instance-based
-		authorizations define what data you can act upon.")**  
-Instance-based authorizations are authorization checks based on the value of some authorization-relevant attribute defined by the application. Functional authorizations define whether you've permission to edit or view some function in the application, while instance-based authorizations define what data you can act upon.
 
 **Related Information**  
 

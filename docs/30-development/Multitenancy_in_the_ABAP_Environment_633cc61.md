@@ -8,11 +8,11 @@
 
 ## Multitenancy
 
-Multitenancy in the ABAP environment enables independent software vendors or partners \(referred to as “**providers**”\) to develop and run ABAP solutions as Software-as-a-Service \(SaaS\) leveraging SAP BTP infrastructure while hosting several consumers on the same ABAP system.
+Multitenancy in the ABAP environment enables independent software vendors or partners \(referred to as “**providers**”\) to develop and run ABAP solutions as software as a service \(SaaS\) leveraging SAP BTP infrastructure while hosting several consumers on the same ABAP system.
 
 **Consumers** \(= end customers of the provider\) subscribe to a provider’s multitenant SaaS application and use it in a specific tenant. Consumers access the provider’s SaaS application via a tenant-specific link, see [Consumer Access](Consumer_Access_a197d6f.md).
 
-The *Landscape Portal* app functions as a central plane for tenant management that allows providers to perform lifecycle management operations such as add-on updates, creating test tenants or support users and more. For more information on how to access and use the *Landscape Portal*, see [Landscape Portal](Landscape_Portal_5eb70fb.md).
+The *Landscape Portal* functions as a central plane for tenant management that allows providers to perform lifecycle management operations such as add-on updates, creating test tenants or support users and more. For more information on how to access and use the *Landscape Portal*, see [Landscape Portal](Landscape_Portal_5eb70fb.md).
 
 When building tenant-aware applications on top of the ABAP environment, providers need to follow dedicated rules to ensure a content separation between different consumers. To view these guidelines, see [Development Guideline to Enable Multitenancy of Products Built on the ABAP Environment](Development_Guideline_to_Enable_Multitenancy_of_Products_Built_on_the_ABAP_Environment_9d994c8.md).
 
@@ -49,24 +49,15 @@ To use multitenancy in the ABAP environment, you need to fulfill the following p
             -   abap\_compute\_unit
             -   for add-on based delivery: saas\_oem
             -   for delivery via gCTS: standard
+
         -   ABAP Solution
         -   Cloud Foundry Runtime
+
     -   Applications:
 
         -   Landscape Portal
         -   Web Access for ABAP
 
--   **[Development Guideline to Enable Multitenancy of Products Built on the ABAP Environment](Development_Guideline_to_Enable_Multitenancy_of_Products_Built_on_the_ABAP_Environment_9d994c8.md "Multitenancy is required if you want to run several customers on the same ABAP system.
-		When building tenant-aware applications on top of the ABAP
-                                environment, you must
-		follow dedicated rules to ensure, for example, a content separation between different
-		customers.")**  
-Multitenancy is required if you want to run several customers on the same ABAP system. When building tenant-aware applications on top of the ABAP environment, you must follow dedicated rules to ensure, for example, a content separation between different customers.
--   **[Landscape Portal](Landscape_Portal_5eb70fb.md)**  
-
--   **[Developing Multitenant Applications in the ABAP Environment](Developing_Multitenant_Applications_in_the_ABAP_Environment_195031f.md)**  
-
--   **[Consumer Offboarding](Consumer_Offboarding_c882a2a.md)**  
 
 
 **Related Information**  

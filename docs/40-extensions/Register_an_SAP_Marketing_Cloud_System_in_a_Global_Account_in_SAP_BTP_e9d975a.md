@@ -53,6 +53,7 @@ The registration process has the following states displayed in the SAP BTP cockp
 
     3.  Choose *Register*.
 
+
     The cloud platform generates an integration token that the tenant administrator of the extended SAP Marketing Cloud system uses when configuring the integration between your SAP Marketing Cloud system and the cloud platform on the respective SAP Marketing Cloud system side.
 
 4.  Copy the integration token and send it to the tenant administrator for the respective SAP Marketing Cloud system. You need it for configuring the integration on the extended SAP Marketing Cloud system side.
@@ -98,8 +99,4 @@ The registration process has the following states displayed in the SAP BTP cockp
 ## Next Steps
 
 [Trigger the Registration in the SAP Marketing Cloud Tenant](Trigger_the_Registration_in_the_SAP_Marketing_Cloud_Tenant_d7416c3.md)
-
--   **[Trigger the Registration in the SAP Marketing Cloud Tenant](Trigger_the_Registration_in_the_SAP_Marketing_Cloud_Tenant_d7416c3.md "Use this procedure to trigger the registration process for an SAP Marketing Cloud system
-		that you want to pair with your global account in SAP BTP.")**  
-Use this procedure to trigger the registration process for an SAP Marketing Cloud system that you want to pair with your global account in SAP BTP.
 

@@ -1,5 +1,7 @@
 <!-- loio7596a0bdab4649ac8a6f6721dc72db19 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Add Roles to Role Collections on the Application Level
 
 Roles are used to define the type of access granted to an application.
@@ -23,7 +25,7 @@ A role is an instance of a role template; you can build a role based on a role t
 
 1.  Open the SAP BTP cockpit.
 
-2.  Go to your global account and subaccount \(see [Navigate to Orgs and Spaces](Navigate_to_Orgs_and_Spaces_5bf8735.md)\).
+2.  Go to your global account and subaccount \(see [Navigate in the Cockpit](Navigate_in_the_Cockpit_0874895.md)\).
 
 3.  Choose *Security* in the navigation pane or go to *Cloud Foundry* \> *Spaces* \> *<your\_space\>* \> *<your\_application\>*.
 
@@ -34,7 +36,7 @@ A role is an instance of a role template; you can build a role based on a role t
     > ### Note:  
     > You cannot edit or delete predefined roles for default role collections. For this reason, the action buttons are grayed out. For more information, see the related link.
 
-5.  To directly assign a role to role collections, choose the action button     \(Add\) in the same row.
+5.  To directly assign a role to role collections, choose the action button <span class="SAP-icons"></span> \(Add\) in the same row.
 
     A new window shows all role collections that are available in your global account \(cloud management tools feature set B \) orsubaccount \(cloud management tools feature set A\).
 

@@ -18,5 +18,5 @@ The job catalog entry mainly contains the reference to the implementation class 
 
 [Setting up the Authorizations](Setting_up_the_Authorizations_bb559a5.md "Some further activities in ADT and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app Application Jobs.")
 
-[Scheduling an Application Job](../50-administration-and-ops/Scheduling_an_Application_Job_147d689.md "Find out how to schedule an Application Job.")
+[Scheduling an Application Job](Scheduling_an_Application_Job_147d689.md "Find out how to schedule an Application Job.")
 

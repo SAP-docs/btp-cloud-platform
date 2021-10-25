@@ -33,14 +33,14 @@ The following options are available for each command. They need to be typed righ
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Options
 
 
 
 </th>
-<th>
+<th valign="top">
 
  
 
@@ -49,14 +49,14 @@ Options
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 --config
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies the location of the configuration file. See [Specify the Location of the Configuration File](Specify_the_Location_of_the_Configuration_File_e57288d.md).
 
@@ -65,14 +65,14 @@ Specifies the location of the configuration file. See [Specify the Location of t
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 --info
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Displays version and current context. Note that this option only works on its own \(`btp --info)` and cannot be added to other command calls. You can also just use `btp` to display the info. See [View Version and Current Context](View_Version_and_Current_Context_9c29222.md).
 
@@ -81,14 +81,14 @@ Displays version and current context. Note that this option only works on its ow
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 --help
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Displays help. See [Get Help](Get_Help_f8fd1e5.md).
 
@@ -97,14 +97,14 @@ Displays help. See [Get Help](Get_Help_f8fd1e5.md).
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 --verbose
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Prints tracing information for support. See [Troubleshooting and Support](Troubleshooting_and_Support_4023e15.md).
 
@@ -113,14 +113,14 @@ Prints tracing information for support. See [Troubleshooting and Support](Troubl
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 --format
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Changes the output format of a command to JSON. See [Change the Output Format to JSON](Change_the_Output_Format_to_JSON_dcb85b7.md).
 
@@ -129,25 +129,6 @@ Changes the output format of a command to JSON. See [Change the Output Format to
 </td>
 </tr>
 </table>
-
--   **[Get Help](Get_Help_f8fd1e5.md "Get help in the btp CLI with the --help option.")**  
-Get help in the btp CLI with the `--help` option.
--   **[View Version and Current Context](View_Version_and_Current_Context_9c29222.md "To find out the current context you’re working in, run the command btp --info or simply
-		btp.")**  
-To find out the current context you’re working in, run the command `btp --info` or simply `btp`.
--   **[Log in](Log_in_e241b30.md "Log in with the btp CLI is on global account level.")**  
-Log in with the btp CLI is on global account level.
--   **[Log out](Log_out_9f1c87a.md "Logging out of the configured server removes all user-specific data from the configuration file.")**  
-Logging out of the configured server removes all user-specific data from the configuration file.
--   **[Enable Command Autocompletion](Enable_Command_Autocompletion_46355fa.md "Use command autocompletion to save keystrokes when entering command actions, group-object combinations, and their parameters in the SAP BTP command line interface (btp CLI).")**  
-Use command autocompletion to save keystrokes when entering command actions, group-object combinations, and their parameters in the SAP BTP command line interface \(btp CLI\).
--   **[Set the Default Command Context](Set_the_Default_Command_Context_720645a.md "Change the default context for all command calls to the global account, a directory, or a subaccount by using the btp
-			target command.")**  
-Change the default context for all command calls to the global account, a directory, or a subaccount by using the `btp target` command.
--   **[Change the Output Format to JSON](Change_the_Output_Format_to_JSON_dcb85b7.md "Use the --format json option to change the output format of a command to JSON.")**  
-Use the `--format json` option to change the output format of a command to JSON.
--   **[Specify the Location of the Configuration File](Specify_the_Location_of_the_Configuration_File_e57288d.md "You can change the location of the configuration file by using the --config option.")**  
-You can change the location of the configuration file by using the `--config` option.
 
 **Related Information**  
 

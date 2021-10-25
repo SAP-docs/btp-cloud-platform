@@ -17,14 +17,14 @@ To access business services, the following applies:
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Grant Type
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Description
 
@@ -33,14 +33,14 @@ To access business services, the following applies:
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `user_token`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The application router performs a token exchange between the login JWT token and the Business Service token, and uses it to trigger a request to the Business Service endpoint.
 
@@ -49,14 +49,14 @@ To access business services, the following applies:
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `client_credentials`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The application router generates a `client_credentials` token and uses it to trigger a request to the Business Service endpoint.
 
@@ -72,21 +72,21 @@ To bind a Business Service instance to the application router, provide the follo
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Information
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Mandatory
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -95,21 +95,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 sap.cloud.service
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Service name as referenced from `xs-app.json` route and business service prefix, if provided by the Business Service UI.
 
@@ -118,21 +118,21 @@ Service name as referenced from `xs-app.json` route and business service prefix,
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 sap.cloud.service.alias
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Short service name alias for user friendly URL business service prefix. Make sure the alias is unique in the context of the application router.
 
@@ -141,21 +141,21 @@ Short service name alias for user friendly URL business service prefix. Make sur
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 endpoints
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 One or more endpoints that can be used to access Business Service data.
 
@@ -164,21 +164,21 @@ One or more endpoints that can be used to access Business Service data.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 html5-apps-repo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The `html5-apps-repo.app_host_id` contains one or more `html5-apps-repo` service instance GUIDs that can be used to retrieve Business Service UIs.
 
@@ -187,21 +187,21 @@ The `html5-apps-repo.app_host_id` contains one or more `html5-apps-repo` service
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 saasregistryenabled
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Indicates that this Business Service supports SaaS Registry subscription. If provided, the application router returns this Business Service xsappname in the SaaS Registry `getDependencies` callback.
 
@@ -210,21 +210,21 @@ Indicates that this Business Service supports SaaS Registry subscription. If pro
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 grant\_type
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The grant type that should be used to trigger requests to the Business Service. Allowed values: `user_token` \(default\) or `client_credentials`.
 
@@ -239,35 +239,35 @@ The value of the `endpoints` is an object containing the following properties:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Optional
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Default
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -276,35 +276,35 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 url
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 URL to access the Business Service data.
 
@@ -313,35 +313,35 @@ URL to access the Business Service data.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 timeout
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 30000ms
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Positive integer representing the maximum wait time for a response \(in milliseconds\) from the Business Service.
 
@@ -375,13 +375,6 @@ The following example shows how to provide the required information. This inform
 >      "grant_type": "user_token"
 >    ....
 > ```
-
--   **[Accessing Business Service Data](Accessing_Business_Service_Data_783809d.md "This section describes how the application router accesses the Business Service
-        data.")**  
-This section describes how the application router accesses the Business Service data.
--   **[Accessing Business Service UI](Accessing_Business_Service_UI_0f1f92e.md "This section provides information about accessing Business Services UIs that are stored
-		in HTML5 Application Repository.")**  
-This section provides information about accessing Business Services UIs that are stored in HTML5 Application Repository.
 
 **Related Information**  
 

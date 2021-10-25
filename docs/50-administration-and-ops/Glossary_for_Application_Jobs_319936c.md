@@ -11,21 +11,21 @@ Overview of terminology used for application jobs
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Area
 
@@ -34,21 +34,21 @@ Area
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Job chain
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A series of jobs that should be performed in a specific sequence.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application Jobs
 

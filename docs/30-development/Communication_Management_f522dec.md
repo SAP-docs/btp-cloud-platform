@@ -11,14 +11,14 @@ The following classes and methods allow you to read communication scenarios, com
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Class/Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -27,14 +27,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CL\_COM\_SCENARIO\_FACTORY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Factory class for IF\_COM\_SCENARIO\_FACTORY
 
@@ -43,14 +43,14 @@ Factory class for IF\_COM\_SCENARIO\_FACTORY
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IF\_COM\_SCENARIO\_FACTORY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Allows you to query and retrieve communication scenarios
 
@@ -59,14 +59,14 @@ Allows you to query and retrieve communication scenarios
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IF\_COM\_SCENARIO
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Allows you to read attributes of communication scenarios
 
@@ -81,14 +81,14 @@ Allows you to read attributes of communication scenarios
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Class/Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -97,14 +97,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CL\_COM\_USER\_FACTORY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Factory class for IF\_COM\_USER\_FACTORY
 
@@ -113,14 +113,14 @@ Factory class for IF\_COM\_USER\_FACTORY
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IF\_COM\_USER\_FACTORY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Allows you to query and retrieve communication users
 
@@ -129,14 +129,14 @@ Allows you to query and retrieve communication users
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IF\_COM\_USER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Allows you to read attributes of communication users
 
@@ -151,14 +151,14 @@ Allows you to read attributes of communication users
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Class/Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -167,14 +167,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CL\_COM\_SYSTEM\_FACTORY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Factory class for IF\_COM\_SYSTEM\_FACTORY
 
@@ -183,14 +183,14 @@ Factory class for IF\_COM\_SYSTEM\_FACTORY
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IF\_COM\_SYSTEM\_FACTORY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Allows you to query and retrieve communication systems
 
@@ -199,14 +199,14 @@ Allows you to query and retrieve communication systems
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IF\_COM\_SYSTEM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Allows you to read attributes of communication systems
 
@@ -221,14 +221,14 @@ Allows you to read attributes of communication systems
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Class/Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -237,14 +237,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CL\_COM\_ARRANGEMENT\_FACTORY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Factory class for IF\_COM\_ARRANGEMENT\_FACTORY
 
@@ -253,14 +253,14 @@ Factory class for IF\_COM\_ARRANGEMENT\_FACTORY
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IF\_COM\_ARRANGEMENT\_FACTORY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Allows you to query and retrieve communication arrangements
 
@@ -269,14 +269,14 @@ Allows you to query and retrieve communication arrangements
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IF\_COM\_ ARRANGEMENT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Allows you to read attributes of communication arrangements
 

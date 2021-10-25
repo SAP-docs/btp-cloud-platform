@@ -23,6 +23,7 @@ To identify the largest or most rapidly growing tables, follow these steps:
     -   For a quick overview, you can choose the *Database System Dashboard* tile.
 
     -   For an in-depth analysis of your largest tables, you may as well directly choose the *Table Analysis* tile.
+
     ![](images/User_Story_TMC_Table_Analysis_Fiori_Launchpad_ded7083.png)
 
     Let’s go with the *Database System Dashboard* first.

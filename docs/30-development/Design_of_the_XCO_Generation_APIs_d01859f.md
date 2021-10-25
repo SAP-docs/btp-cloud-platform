@@ -60,6 +60,7 @@ As with the whole XCO library, the design of the XCO Generation APIs is governed
 
     -   Skip activation: Create or update the objects of the PUT operation but do not perform a mass activation afterwards
 
+
     Using an option is as simple as supplying it to the EXECUTE method invocation of the corresponding PUT operation:
 
     > ### Sample Code:  
@@ -102,6 +103,7 @@ As with the whole XCO library, the design of the XCO Generation APIs is governed
 
     -   DELETE Delete the specified part of the object. If the specified part does not exist no action will be performed
 
+
     *DELETE operations*
 
     Upon execution, a DELETE operation will delete all its objects \(in case they exist in the system\). DELETE operations are always built and executed for a given type and it is the responsibility of the caller to ensure that objects of different types are deleted in the correct order \(e.g. a domain still in use by a data element cannot be deleted; the data element must be deleted first\).
@@ -119,6 +121,7 @@ As with the whole XCO library, the design of the XCO Generation APIs is governed
     -   CX\_XCO\_GEN\_DELETE\_EXCEPTION for a failed DELETE operation
 
     -   CX\_XCO\_GEN\_PATCH\_EXCEPTION for a failed PATCH operation
+
 
     Each exception provides access to the findings, i.e. all the messages and which object they belong to, that were encountered when attempting to execute the operation.
 
@@ -154,6 +157,7 @@ As with the whole XCO library, the design of the XCO Generation APIs is governed
     -   TABL \(Database tables and structures\)
 
     -   TTYP \(Table types\)
+
 
     Using templates, it is e.g. possible to easily copy an existing object. The following code sample uses the active version of domain ZSOURCE\_DOMAIN as a template and will create \(resp. update\) domain ZCOPIED\_DOMAIN to reflect the content of ZSOURCE\_DOMAIN:
 

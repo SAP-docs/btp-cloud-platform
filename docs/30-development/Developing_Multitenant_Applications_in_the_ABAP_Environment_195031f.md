@@ -19,24 +19,6 @@ As a service provider, you need to fulfill the following prerequisites.
 
 Instead of transporting software components \(via gCTS\) for software delivery, software components can be contained into add-on products for a more sophisticated lifecycle management process. These add-on products are built and published with the ABAP Environment Pipeline. For more information see [Build and Publish Add-on Products on SAP BTP ABAP Environment](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/).
 
--   **[Define Your ABAP Solution](Define_Your_ABAP_Solution_1697387.md "Follow these steps to define your ABAP Solution.")**  
-Follow these steps to define your ABAP Solution.
--   **[Create an XSUAA Instance](Create_an_XSUAA_Instance_2ce1a96.md)**  
-
--   **[Develop the Approuter Application](Develop_the_Approuter_Application_44dbd0a.md)**  
-
--   **[Configure the Approuter Application](Configure_the_Approuter_Application_3725815.md)**  
-
--   **[Register the Multitenant Application to the SaaS Provisioning Service](Register_the_Multitenant_Application_to_the_SaaS_Provisioning_Service_2cd8913.md)**  
-
--   **[Bind the approuter Application to the xsuaa and the ABAP Solution Service Instance](Bind_the_approuter_Application_to_the_xsuaa_and_the_ABAP_Solution_Service_Instance_04b9258.md)**  
-
--   **[MTA-Based Approach \(Recommended\)](MTA-Based_Approach_(Recommended)_ca0cc10.md "The previous steps can also be done in a descriptive way using a so called multitarget
-		application (MTA).")**  
-The previous steps can also be done in a descriptive way using a so called multitarget application \(MTA\).
--   **[Create a Destination for the Cloud Foundry Cloud Controller Access](Create_a_Destination_for_the_Cloud_Foundry_Cloud_Controller_Access_35b5acb.md)**  
-
-
 **Related Information**  
 
 

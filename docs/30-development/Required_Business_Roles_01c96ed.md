@@ -7,6 +7,7 @@ Different actions require different roles as well. In the process description, t
 -   System Administrator
     -   Creates ABAP systems in the SAP BTP Cockpit
     -   Needs authorization for space/organization management in the Cloud Foundry environment subaccount
+
 -   User Administrator
     -   Maintains business roles and assigns users to them
     -   Needs authorization for business catalogs
@@ -14,21 +15,21 @@ Different actions require different roles as well. In the process description, t
 
         <table>
         <tr>
-        <th>
+        <th valign="top">
 
         Catalog ID
 
 
         
         </th>
-        <th>
+        <th valign="top">
 
         Catalog Description
 
 
         
         </th>
-        <th>
+        <th valign="top">
 
         Needed For
 
@@ -37,21 +38,21 @@ Different actions require different roles as well. In the process description, t
         </th>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `SAP_CORE_BC_IAM_UM`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Identity and Access Management – User Management
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Creating and maintaining business users with Manage Business Users app
 
@@ -60,21 +61,21 @@ Different actions require different roles as well. In the process description, t
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `SAP_CORE_BC_IAM_RM`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Identity and Access Management –Role Management
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Maintaining business roles with Manage Business Roles app
 
@@ -84,28 +85,30 @@ Different actions require different roles as well. In the process description, t
         </tr>
         </table>
         
+
 -   Release Manager
 
     -   Performs tasks that are executed centrally for a release, such as software component creation and import, making the release decision, approving corrections, creating and releasing transports etc.
     -   Needs authorization for business catalogs
 
+
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Catalog ID
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Catalog Description
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Needed For
 
@@ -114,21 +117,21 @@ Different actions require different roles as well. In the process description, t
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `SAP_A4C_BC_MSCL_PC`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Lifecycle Management - Software Components
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Creating and importing software components with Manage Software Components app
 
@@ -137,21 +140,21 @@ Different actions require different roles as well. In the process description, t
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `SAP_A4C_BC_TRN_REL_PC`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Development - Transport Release Management
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Releasing transport requests in Eclipse with ADT
 
@@ -160,21 +163,21 @@ Different actions require different roles as well. In the process description, t
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `SAP_CORE_BC_IAM_UM`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Identity and Access Management - User Management
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Un-/locking developers for corrections in correction ABAP systems with Manage Business Users app
 
@@ -183,21 +186,21 @@ Different actions require different roles as well. In the process description, t
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `SAP_CORE_BC_IAM_RA`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Identity and Access Management – Role Assignment
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     En-/disabling developers for corrections in correction ABAP Systems by role assignment with Manage Business Users app
 
@@ -214,21 +217,21 @@ Different actions require different roles as well. In the process description, t
 
         <table>
         <tr>
-        <th>
+        <th valign="top">
 
         Catalog ID
 
 
         
         </th>
-        <th>
+        <th valign="top">
 
         Catalog Description
 
 
         
         </th>
-        <th>
+        <th valign="top">
 
         Needed For
 
@@ -237,21 +240,21 @@ Different actions require different roles as well. In the process description, t
         </th>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `SAP_A4C_BC_DEV_PC`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Development – ABAP Development Tools
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Developing in ADT for Eclipse
 
@@ -260,21 +263,21 @@ Different actions require different roles as well. In the process description, t
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `SAP_A4C_BC_TRN_MNG_PC`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Development – Transport Management
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Creating transport requests in ADT for Eclipse
 
@@ -284,6 +287,7 @@ Different actions require different roles as well. In the process description, t
         </tr>
         </table>
         
+
 -   Tester
     -   Tests the software
 
@@ -296,5 +300,6 @@ Different actions require different roles as well. In the process description, t
         > Do not assign catalog `SAP_CORE_BC_EXT_TST` \(Extensibility - Custom Apps and Services\) to a tester.
         > 
         > As this catalog is used to provide an easy test of custom apps or their underlying services in a development ABAP system only by adding them automatically to it during activation, real service tests with own catalogs might not be tested securely. In non-development systems, automatic authorization via business catalog`SAP_CORE_BC_EXT_TST` is not enabled, instead custom authorization is required.
+
 
 

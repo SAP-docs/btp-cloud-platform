@@ -24,19 +24,6 @@ In this scenario, the authentication to SAP Cloud for Customer extension applica
 
 You can use a third-party identity provider \(which means a different from SAP BTP\) as well to ensure the required security for your landscape. In this case you also need to perform a few configuration tasks on all the sides - SAP BTP, SAP Cloud for Customer, and the identity provider that you are using.
 
--   **[Configuring Single Sign-On Using Identity Authentication](Configuring_Single_Sign-On_Using_Identity_Authentication_5a31ca1.md "To ensure the required security for your landscape you need to perform a few
-		configuration tasks on all the sides - SAP BTP, Identity
-                                Authentication and SAP Cloud for
-                            Customer.")**  
-To ensure the required security for your landscape you need to perform a few configuration tasks on all the sides - SAP BTP, Identity Authentication and SAP Cloud for Customer.
--   **[Configuring Single Sign-On Using Third-Party Identity Provider](Configuring_Single_Sign-On_Using_Third-Party_Identity_Provider_755fb0d.md "To ensure the required security for your landscape you need to perform a few
-		configuration tasks on all the sides - SAP BTP, SAP Cloud for
-                            Customer, and the
-		identity provider that you are using (if this provider is different from Identity
-                                Authentication, for which there
-		is a dedicated section).")**  
-To ensure the required security for your landscape you need to perform a few configuration tasks on all the sides - SAP BTP, SAP Cloud for Customer, and the identity provider that you are using \(if this provider is different from Identity Authentication, for which there is a dedicated section\).
-
 **Related Information**  
 
 

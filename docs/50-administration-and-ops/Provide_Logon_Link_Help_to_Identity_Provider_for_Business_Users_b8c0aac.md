@@ -21,15 +21,3 @@ To implement this, configure the following:
     [Rename the Logon Link Text for Custom Identity Providers](Rename_the_Logon_Link_Text_for_Custom_Identity_Providers_f0e6259.md)
 
 
--   **[Hide Logon Link for Default Identity Provider](Hide_Logon_Link_for_Default_Identity_Provider_9e3d457.md "You use one or multiple custom identity providers for business users as well as the
-		default identity provider primarily for platform users. To provide a good logon experience
-		for your business users, you want to hide the default identity provider, which remains
-		active.")**  
-You use one or multiple custom identity providers for business users as well as the default identity provider primarily for platform users. To provide a good logon experience for your business users, you want to hide the default identity provider, which remains active.
--   **[Display Logon Link for Custom Identity Provider for Business Users](Display_Logon_Link_for_Custom_Identity_Provider_for_Business_Users_affb201.md "You want to display a logon link of the custom identity provider that business users
-		should use to log on to an application.")**  
-You want to display a logon link of the custom identity provider that business users should use to log on to an application.
--   **[Rename the Logon Link Text for Custom Identity Providers](Rename_the_Logon_Link_Text_for_Custom_Identity_Providers_f0e6259.md "You can provide a logon link and give the link a name the business users understand.
-		That way, they know which link they should use to log on.")**  
-You can provide a logon link and give the link a name the business users understand. That way, they know which link they should use to log on.
-

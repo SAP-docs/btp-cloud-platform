@@ -26,6 +26,7 @@ The [Kyma Environment](../10-concepts/Kyma_Environment_468c2f3.md#loio468c2f3c3c
     -   SAP Marketing Cloud
 
 
+
 > ### Note:  
 > Currently, it’s not possible to define your own [Kubernetes custom resources \(CRs\)](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) in the Kyma runtime. Because of this, you can't deploy your own operators and controllers in Kyma. You also can't use any third-party open-source controllers that aren't yet available in Kyma.
 
@@ -88,14 +89,4 @@ To help you get started with the development process, go through the set of tuto
 
     Access the Kyma environment and start creating extensions for SAP systems using Functions.
 
-
--   **[Using Services in the Kyma Environment](Using_Services_in_the_Kyma_Environment_ea4dd81.md "With the Kyma environment, you can extend the SAP and non-SAP services to build and
-		deploy your own applications.")**  
-With the Kyma environment, you can extend the SAP and non-SAP services to build and deploy your own applications.
--   **[Creating Functions](Creating_Functions_fe4ba5b.md "Access the Kyma environment and start creating extensions for SAP systems using
-        Functions.")**  
-Access the Kyma environment and start creating extensions for SAP systems using Functions.
--   **[Using Kyma Eventing with SAP Event Mesh](Using_Kyma_Eventing_with_SAP_Event_Mesh_407d126.md "Learn more about Kyma runtime's event service and how to use it with SAP Event
-                                        Mesh.")**  
-Learn more about Kyma runtime's event service and how to use it with SAP Event Mesh.
 

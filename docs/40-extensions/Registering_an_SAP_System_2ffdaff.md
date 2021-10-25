@@ -67,6 +67,7 @@ The registration process has the following states displayed in the cockpit:
 
 
 
+
 <a name="loio2ffdaff0f1454acdb046876045321c91__result_ytq_hrh_jlb"/>
 
 ## Results
@@ -98,6 +99,7 @@ The registration process has the following states displayed in the cockpit:
     -   Systems of type *SAP Commerce Cloud*, *SAP Cloud for Customer*, and *SAP Field Service Management* can be assigned to a formation directly before the integration is complete on the respective SAP Customer Experience \(SAP CX\) system side. However, to enable the API access, you first need to complete the integration.
 
     -   For systems of type *SAP S/4HANA Cloud* and *SAP SuccessFactors*, you first need to configure the integration on the respective SAP system side.
+
 
     For more information, see: [Assigning SAP Systems to a Formation](Assigning_SAP_Systems_to_a_Formation_68b04fa.md).
 

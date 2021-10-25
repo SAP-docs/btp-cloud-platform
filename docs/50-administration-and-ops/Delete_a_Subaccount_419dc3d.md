@@ -20,6 +20,7 @@ Delete subaccounts using the SAP BTP cockpit.
 
 
 
+
 <a name="loio419dc3d380e74f1abb06ba44d61e71ae__context_usz_pr2_qbb"/>
 
 ## Context

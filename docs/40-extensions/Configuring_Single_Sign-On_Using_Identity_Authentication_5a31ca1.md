@@ -26,31 +26,3 @@ The following procedure describes how to configure Identity Authentication and S
 2.  Configure the SAP BTP trust settings and add the tenant of Identity Authentication available for your company as a SAML identity provider. For more information, see [Setting Up Trust Between Identity Authentication and SAP BTP](Setting_Up_Trust_Between_Identity_Authentication_and_SAP_BTP_9dba751.md).
 
 
--   **[Setting Up Trust Between Identity Authentication and SAP Cloud for Customer](Setting_Up_Trust_Between_Identity_Authentication_and_SAP_Cloud_for_Customer_2903a3c.md "To use Identity
-                                Authentication
-		as a common identity provider between SAP BTP, Cloud Foundry
-		environment and SAP Cloud for
-                            Customer, first you
-		need to configure it for the SAP Cloud for
-                            Customer
-		system.")**  
-To use Identity Authentication as a common identity provider between SAP BTP, Cloud Foundry environment and SAP Cloud for Customer, first you need to configure it for the SAP Cloud for Customer system.
--   **[Uploading Users to Identity Authentication](Uploading_Users_to_Identity_Authentication_c6d983a.md "When you configure the Identity
-                                Authentication service as the
-		SAML identity provider for your SAP Cloud for
-                            Customer system, you
-		have to make sure that all users from SAP Cloud for
-                            Customer will have an
-		identity record in the Identity
-                                Authentication service. For this
-		purpose, you have to export the user details in a CSV file format and then use this CSV file
-		to import these users into the Identity
-                                Authentication tenant of your
-		company that will be used as the identity provider.")**  
-When you configure the Identity Authentication service as the SAML identity provider for your SAP Cloud for Customer system, you have to make sure that all users from SAP Cloud for Customer will have an identity record in the Identity Authentication service. For this purpose, you have to export the user details in a CSV file format and then use this CSV file to import these users into the Identity Authentication tenant of your company that will be used as the identity provider.
--   **[Setting Up Trust Between Identity Authentication and SAP BTP](Setting_Up_Trust_Between_Identity_Authentication_and_SAP_BTP_9dba751.md "Use this procedure to configure the SAP BTP, Cloud Foundry
-		environment trust settings and to add the tenant of Identity
-                                Authentication registered for
-		your current SAP user as an identity provider.")**  
-Use this procedure to configure the SAP BTP, Cloud Foundry environment trust settings and to add the tenant of Identity Authentication registered for your current SAP user as an identity provider.
-

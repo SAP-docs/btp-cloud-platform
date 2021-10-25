@@ -16,21 +16,6 @@ Exchange user ID information between systems or environments in SAP BTP.
 -   [Connectivity in the Cloud Foundry Environment: Principal Propagation](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e2cbb48def4342048362039cc157b12e.html)
 -   [Connectivity in the Neo Environment: Principal Propagation](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/d4d3e1e9b2dd44318b49a4812cd51383.html)
 
--   **[Principal Propagation from the Neo to the Cloud Foundry Environment](Principal_Propagation_from_the_Neo_to_the_Cloud_Foundry_Environment_6e194f8.md#loio6e194f8e919a40bab7e39cd992677cb7 "Enable an application in your subaccount in the Neo environment to access another
-		application in a subaccount in the Cloud Foundry environment without user login (and user
-		interaction) in the second application. For this scenario to work, the two subaccounts need
-		to be in mutual trust, and in trust with the same Identity Authentication tenant. The second
-		application will propagate its logged-in user to the first application using an
-		OAuth2SAMLBearer destination. ")**  
-Enable an application in your subaccount in the Neo environment to access another application in a subaccount in the Cloud Foundry environment without user login \(and user interaction\) in the second application. For this scenario to work, the two subaccounts need to be in mutual trust, and in trust with the same Identity Authentication tenant. The second application will propagate its logged-in user to the first application using an OAuth2SAMLBearer destination.
--   **[Principal Propagation from the Cloud Foundry to the Neo Environment](Principal_Propagation_from_the_Cloud_Foundry_to_the_Neo_Environment_391e9ed.md#loio391e9ed92ff448e0b4bacac69f853516 "Enable an application in your subaccount in the Cloud Foundry environment to access an
-		OAuth-protected application in a subaccount in the Neo environment without user login (and
-		user interaction) in the second application. For this scenario to work, the two subaccounts
-		need to be in mutual trust, and in trust with the same identity provider. The first
-		application will propagate its logged-in user to the second application using an
-		OAuth2SAMLBearer destination. ")**  
-Enable an application in your subaccount in the Cloud Foundry environment to access an OAuth-protected application in a subaccount in the Neo environment without user login \(and user interaction\) in the second application. For this scenario to work, the two subaccounts need to be in mutual trust, and in trust with the same identity provider. The first application will propagate its logged-in user to the second application using an OAuth2SAMLBearer destination.
-
 **Related Information**  
 
 

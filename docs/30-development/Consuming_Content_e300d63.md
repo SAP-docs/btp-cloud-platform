@@ -43,7 +43,7 @@ Application router can consume content from the HTML5 Application Repository by 
     >  
     >      "target": "$1",
     >  
-    >      "service": "MyHtml5AppsRepoRuntimeInstance",
+    >      "service": "html5-apps-repo-rt",
     >  
     >      "authenticationType": "xsuaa"
     >  

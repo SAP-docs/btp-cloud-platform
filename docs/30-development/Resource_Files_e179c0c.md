@@ -13,21 +13,21 @@ The application router is used to serve static content, authenticate users, rewr
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 File
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Mandatory
 
@@ -36,21 +36,21 @@ Mandatory
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `package.json` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The package descriptor is used by the Node.js package manager \(`npm`\) to start the application router; in the `“dependencies”: {} section` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -59,21 +59,21 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `xs-app.json` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The application descriptor contains the configuration used by the application router \(for example, destinations for request forwarding\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -82,14 +82,14 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `resources/` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A folder that contains all static resources which should be served by the application router. If no `resources/` folder is present, the application router will not serve any static content. However, it still forwards requests to the configured destinations.
 
@@ -99,7 +99,7 @@ A folder that contains all static resources which should be served by the applic
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
@@ -108,21 +108,21 @@ No
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `local-destinations.json` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provides the required destinations information for local development
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
@@ -131,21 +131,21 @@ No
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `default-services.json` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines the configuration for one or more special User Account and Authentication \(UAA\) services for local development
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 

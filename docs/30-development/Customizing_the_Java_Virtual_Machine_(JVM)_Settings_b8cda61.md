@@ -4,11 +4,11 @@
 
 
 
- <a name="loiob8cda61d3d984e259f1de8816e52ec47 loio2255375136f645cb96c26fb3d0105d5c__loio2255375136f645cb96c26fb3d0105d5c"/>
+ <a name="loio2255375136f645cb96c26fb3d0105d5c"/>
 
 <!-- loio2255375136f645cb96c26fb3d0105d5c -->
 
-# Java Options
+## Java Options
 
 You can configure the Java properties by defining the JBP\_CONFIG\_JAVA\_OPTS environment variable.
 
@@ -35,7 +35,7 @@ cf set-env myapp JBP_CONFIG_JAVA_OPTS "[from_environment: false, java_opts: '-Dt
 
 
 
-<a name="loiob8cda61d3d984e259f1de8816e52ec47 loio2255375136f645cb96c26fb3d0105d5c__section_ed4_jrv_42b"/>
+<a name="loio2255375136f645cb96c26fb3d0105d5c__section_ed4_jrv_42b"/>
 
 ## Escaping Strings
 
@@ -72,11 +72,11 @@ In case you need to specify a option value, which has blank spaces in it, you ne
 >      JBP_CONFIG_JAVA_OPTS: '[from_environment: false, java_opts: ''-DtestJBPConfig=\$PATH -DtestJBPConfig1="test test" -DtestJBPConfig2="$PATH"'']'
 > ```
 
- <a name="loiob8cda61d3d984e259f1de8816e52ec47 loio604fdb57c97744a0b6bff91d503f99a8__loio604fdb57c97744a0b6bff91d503f99a8"/>
+ <a name="loio604fdb57c97744a0b6bff91d503f99a8"/>
 
 <!-- loio604fdb57c97744a0b6bff91d503f99a8 -->
 
-# Java Memory Assistant \[AWS, Azure, or GCP Regions\]
+## Java Memory Assistant \[AWS, Azure, or GCP Regions\]
 
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
@@ -98,11 +98,11 @@ When enabled in the buildpack, the agent will generate two files – `*.hprof` \
 
 See [Java Memory Assistant Framework](https://github.com/cloudfoundry/java-buildpack/blob/master/docs/framework-java_memory_assistant.md).
 
- <a name="loiob8cda61d3d984e259f1de8816e52ec47 loio588cfd95fbab41178c21ceefd916a311__loio588cfd95fbab41178c21ceefd916a311"/>
+ <a name="loio588cfd95fbab41178c21ceefd916a311"/>
 
 <!-- loio588cfd95fbab41178c21ceefd916a311 -->
 
-# Java Out Of Memory Behavior
+## Java Out Of Memory Behavior
 
 The SAP Java Buildpack prints a histogram of the heap to the logs, when the JVM encounters a terminal failure. In addition to that, if the application is bound to a volume service with name or tag that contains *heap-dump*, a heap dump file is also generated and stored in the mounted volume.
 
@@ -142,11 +142,11 @@ This functionality is activated by default. It is possible to deactivate it by a
 
 For more information about the *jmvkill* agent, see [Cloud Foundry jvmkill documentation](https://github.com/cloudfoundry/jvmkill).
 
- <a name="loiob8cda61d3d984e259f1de8816e52ec47 loio156fa7509e76454db330e8e874d7acb7__loio156fa7509e76454db330e8e874d7acb7"/>
+ <a name="loio156fa7509e76454db330e8e874d7acb7"/>
 
 <!-- loio156fa7509e76454db330e8e874d7acb7 -->
 
-# Using an Agent
+## Using an Agent
 
 You can use any agent with the SAP Java Build pack. The agent must be included in the `.jar` or `.war` archive of your application. The SAP Java Build pack extracts the agent when the application is deployed. You can check if the agent is extracted to the expected location by using the `cf ssh` command.
 
@@ -166,17 +166,17 @@ You can also use a native agent. Since a native agent is a dynamic library, it m
     JBP_CONFIG_JAVA_OPTS: '[java_opts: "-agentpath:<PathToYourAgent>"]'
 ```
 
- <a name="loiob8cda61d3d984e259f1de8816e52ec47 loio785d6b390b834bee818e242160f87df5__loio785d6b390b834bee818e242160f87df5"/>
+ <a name="loio785d6b390b834bee818e242160f87df5"/>
 
 <!-- loio785d6b390b834bee818e242160f87df5 -->
 
-# SapMachine
+## SapMachine
 
 [SapMachine](https://sap.github.io/SapMachine/) is an alternative to SAP JVM. It provides a Java Runtime Environment \(JRE\) with Java 11, while SAP JVM provides a JRE with Java 8. It works only with the [Tomcat](Application_Containers_83d2416.md#loioddfc10180fe844049cc71f6989942dc2) and [Java Main](Application_Containers_83d2416.md#loio8a1786acd70445768b35e50f3038a2a9) application containers.
 
 
 
-<a name="loiob8cda61d3d984e259f1de8816e52ec47 loio785d6b390b834bee818e242160f87df5__section_lly_ftm_33b"/>
+<a name="loio785d6b390b834bee818e242160f87df5__section_lly_ftm_33b"/>
 
 ## Activation
 

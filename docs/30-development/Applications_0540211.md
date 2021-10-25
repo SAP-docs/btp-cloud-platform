@@ -25,6 +25,7 @@ The MTA deployment is an incremental process. This means that the state of the a
 
 -   The application bits are reuploaded if:
     -   The application content is changed and there is no cache of the same content for a different application, even in a different space. The Cloud Foundry environment has global caching of application bits without organizational and space isolation.
+
 -   The application is restaged and restarted if:
     -   The application attributes, such as commands, buildpacks, memory, `health-check-url`, and so on, are changed
     -   The application environment is changed
@@ -37,6 +38,7 @@ The MTA deployment is an incremental process. This means that the state of the a
     -   The application is bound to service configuration parameters that have been changed. This requires an update of the service instance and rebind, restage, and restart of the application.
     -   The service binding parameters are changed. This requires an update of the service binding and restage of the application.
     -   The MTA version is changed, which requires a change of special application environment variables, managed by the deploy service.
+
 
 **Related Information**  
 

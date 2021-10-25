@@ -8,11 +8,11 @@ Accounts are structured according to global accounts, subaccounts, and directori
 
 To learn more about managing your account model, see [Account Administration](../50-administration-and-ops/Account_Administration_5d62ec8.md).
 
- <a name="loio8ed4a705efa0431b910056c0acdbf377 loioc165d95ee700407eb181770901caec94__loioc165d95ee700407eb181770901caec94"/>
+ <a name="loioc165d95ee700407eb181770901caec94"/>
 
 <!-- loioc165d95ee700407eb181770901caec94 -->
 
-# Global Accounts
+## Global Accounts
 
 A **global account** is the realization of a contract you made with SAP.
 
@@ -26,11 +26,11 @@ Global accounts are region- and environment-independent. Within a global account
 
 SaaS applications are usually displayed in a separate global account.
 
- <a name="loio8ed4a705efa0431b910056c0acdbf377 loio8d6e3a0fa4ab43e4a421d3ed08128afa__loio8d6e3a0fa4ab43e4a421d3ed08128afa"/>
+ <a name="loio8d6e3a0fa4ab43e4a421d3ed08128afa"/>
 
 <!-- loio8d6e3a0fa4ab43e4a421d3ed08128afa -->
 
-# Subaccounts
+## Subaccounts
 
 **Subaccounts** let you structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements.
 
@@ -54,11 +54,11 @@ When you enable the Cloud Foundry environment in one of your subaccounts, the sy
 
 For more information about Cloud Foundry orgs and spaces, see the Cloud Foundry documentation at [https://docs.cloudfoundry.org/concepts/roles.html](https://docs.cloudfoundry.org/concepts/roles.html).
 
- <a name="loio8ed4a705efa0431b910056c0acdbf377 loioa92721fc75524ec09a7a7255997dbd94__loioa92721fc75524ec09a7a7255997dbd94"/>
+ <a name="loioa92721fc75524ec09a7a7255997dbd94"/>
 
 <!-- loioa92721fc75524ec09a7a7255997dbd94 -->
 
-# Directories \[Feature Set B\]
+## Directories \[Feature Set B\]
 
 **Directories** allow you to organize and manage your subaccounts according to your technical and business needs.
 
@@ -103,11 +103,11 @@ In addition, you can also add the following features to your directories \(optio
 
 [Working with Global Accounts, Directories, and Subaccounts Using the btp CLI](../50-administration-and-ops/Working_with_Global_Accounts,_Directories,_and_Subaccounts_Using_the_btp_CLI_85a683e.md "Use the SAP BTP command line interface (btp CLI) to manage operations with global accounts, directories, and subaccounts.")
 
- <a name="loio8ed4a705efa0431b910056c0acdbf377 loioeeda449cf252418a97e0f7c9abd30b9a__loioeeda449cf252418a97e0f7c9abd30b9a"/>
+ <a name="loioeeda449cf252418a97e0f7c9abd30b9a"/>
 
 <!-- loioeeda449cf252418a97e0f7c9abd30b9a -->
 
-# Relationship Between Global Accounts and Subaccounts \[Feature Set A\]
+## Relationship Between Global Accounts and Subaccounts \[Feature Set A\]
 
 A global account can group together different subaccounts that an administrator makes available to users. Administrators can assign the available quotas of a global account to its different subaccounts and move it between subaccounts that belong to the same global account.
 
@@ -117,11 +117,11 @@ The hierarchical structure of global accounts and subaccounts lets you define an
 
 For more information about the relationship between a global account and its subaccounts, see the graphic in [Basic Platform Concepts](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/38ecf59cdda64150a102cfaa62d5faab.html#loio38ecf59cdda64150a102cfaa62d5faab "SAP BTP offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:. For best practices, see [Setting Up Your Account Model](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/2db81f42f5194454beecde6cd4994dda.html "The hierarchical structure between global accounts, directories, and subaccounts lets you define an account model that accurately fits your business and development needs.") :arrow_upper_right:.
 
- <a name="loio8ed4a705efa0431b910056c0acdbf377 loio20828fc639954939890d3d74a22c5f66__loio20828fc639954939890d3d74a22c5f66"/>
+ <a name="loio20828fc639954939890d3d74a22c5f66"/>
 
 <!-- loio20828fc639954939890d3d74a22c5f66 -->
 
-# Relationship Between Global Accounts, Subaccounts, and Directories \[Feature Set B\]
+## Relationship Between Global Accounts, Subaccounts, and Directories \[Feature Set B\]
 
 A global account can group together different directories and subaccounts that an administrator makes available to users. Administrators can assign the available entitlements and quotas of a global account to its different subaccounts and move it between subaccounts that belong to the same global account.
 
@@ -132,11 +132,11 @@ A global account can group together different directories and subaccounts that a
 
 The hierarchical structure of global accounts, directories, and subaccounts lets you define an account model that accurately fits your business and development needs. For example, if you want to separate development, testing, and productive usage for different departments in your organization, you can create a directory for each department, and within each directory, you group subaccounts for development, testing, and production.
 
- <a name="loio8ed4a705efa0431b910056c0acdbf377 loioe8663c08ead648faa673b0d63c5b478e__loioe8663c08ead648faa673b0d63c5b478e"/>
+ <a name="loioe8663c08ead648faa673b0d63c5b478e"/>
 
 <!-- loioe8663c08ead648faa673b0d63c5b478e -->
 
-# Custom Properties \[Feature Set B\]
+## Custom Properties \[Feature Set B\]
 
 Custom properties allow you to label or tag your directories and subaccounts according to your own business and technical needs. This makes organizing and filtering your directories and subaccounts easier within your global account.
 
@@ -147,14 +147,14 @@ Each custom property has a name \(also referred to as a key\) and typically one 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Custom Property \(Name\)
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Property Values
 
@@ -163,14 +163,14 @@ Property Values
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Landscape
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Dev  
  Test  
@@ -181,14 +181,14 @@ Dev
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Department
 
 
 
 </td>
-<td>
+<td valign="top">
 
 HR  
  IT  
@@ -200,14 +200,14 @@ HR
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cost Center
 
 
 
 </td>
-<td>
+<td valign="top">
 
 000001134789  
  000002155534  
@@ -218,14 +218,14 @@ Cost Center
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Flagged for Deletion
 
 
 
 </td>
-<td>
+<td valign="top">
 
 *\(no values\)*
 
@@ -234,14 +234,14 @@ Flagged for Deletion
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Important
 
 
 
 </td>
-<td>
+<td valign="top">
 
 *\(no values\)*
 
@@ -265,7 +265,7 @@ Consider the following when working with custom properties:
 
 -   To remove a custom property that is assigned to a directory or subaccount, or to change the assigned value of a property, or to add a property, you must edit the directory or subaccount.
 
--   Currently, you cannot manage all custom properties for all directories and subaccounts from a central page. Custom properties can only be maanged on the level of individual directories and subaccounts.
+-   Currently, you cannot manage all custom properties for all directories and subaccounts from a central page. Custom properties can only be managed on the level of individual directories and subaccounts.
 
 
 > ### Tip:  

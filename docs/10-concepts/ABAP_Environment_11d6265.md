@@ -8,12 +8,6 @@ The ABAP environment is based on the latest ABAP platform cloud release that is 
 
 For information about regional availability, see [Regions and API Endpoints for the ABAP Environment](Regions_350356d.md#loio879f37370d9b45e99a16538e0f37ff2c).
 
--   **[Eclipse Tool for the ABAP Environment](Eclipse_Tool_for_the_ABAP_Environment_54dd712.md "")**  
-
--   **[Tutorials](Tutorials_8d8822c.md "Follow the tutorials below to get familiar with the ABAP
-                                environment.")**  
-Follow the tutorials below to get familiar with the ABAP environment.
-
 **Related Information**  
 
 

@@ -69,28 +69,12 @@ The application operations are specific to the ABAP environment. For more inform
 
 The administrators of the Kyma environment take care of setting it up and make sure it's ready for developers to work with.
 
--   [Assign Roles in the Kyma Environment](Assign_Roles_in_the_Kyma_Environment_148ae38.md)
+-   [Roles in the Kyma Environment](Roles_in_the_Kyma_Environment_148ae38.md)
 
--   [Enable Kyma Environment](Enable_Kyma_Environment_09dd313.md)
+-   [Create the Kyma Environment Instance](Create_the_Kyma_Environment_Instance_09dd313.md)
 
 -   [Kyma Environment Backup](Kyma_Environment_Backup_ab959cf.md)
 
-
--   **[Account Administration](Account_Administration_5d62ec8.md "Learn how to manage global accounts, directories, and subaccounts on SAP BTP using different tools.")**  
-Learn how to manage global accounts, directories, and subaccounts on SAP BTP using different tools.
--   **[Administration and Operations in the Cloud Foundry Environment](Administration_and_Operations_in_the_Cloud_Foundry_Environment_a6b3b81.md "Learn about the different account administration and application operation tasks which you can perform in the Cloud
-                                Foundry environment. ")**  
-Learn about the different account administration and application operation tasks which you can perform in the Cloud Foundry environment.
--   **[Administration and Operations in the ABAP Environment](Administration_and_Operations_in_the_ABAP_Environment_c4fd102.md "Learn about the different account administration and operational tasks that you can perform in the ABAP environment.")**  
-Learn about the different account administration and operational tasks that you can perform in the ABAP environment.
--   **[Administration and Operations in the Kyma Environment](Administration_and_Operations_in_the_Kyma_Environment_b8e1686.md "This is the managed offering of Kyma, which gives you a managed Kubernetes cluster with
-		SAP BTP, Kyma runtime (based on the
-		open-source project &quot;Kyma&quot;). The
-		administrators of the Kyma environment take care of setting it up and make sure it is ready
-		for developers to work with. Enable Kyma to build applications and extensions to SAP and
-		third-party solutions, manage roles, have your Kubernetes objects backed up, and view
-		metrics and logs. ")**  
-This is the managed offering of Kyma, which gives you a managed **[Kubernetes](../../../../../../../../../../../../https://kubernetes.io)** cluster with SAP BTP, Kyma runtime \(based on the open-source project "Kyma"\). The administrators of the Kyma environment take care of setting it up and make sure it is ready for developers to work with. Enable Kyma to build applications and extensions to SAP and third-party solutions, manage roles, have your Kubernetes objects backed up, and view metrics and logs.
 
 **Related Information**  
 

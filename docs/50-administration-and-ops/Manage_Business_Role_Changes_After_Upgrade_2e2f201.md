@@ -52,21 +52,6 @@ You can use this app to:
 
 If you need support or experience issues, please report an incident under component `BC-SRV-APS-IAM`.
 
--   **[Manage Business Role Changes After Upgrade: Background](Manage_Business_Role_Changes_After_Upgrade_Background_ffa1535.md "")**  
-
--   **[Best Practices for Managing Business Role Changes After an Upgrade](Best_Practices_for_Managing_Business_Role_Changes_After_an_Upgrade_b362b0a.md "")**  
-
--   **[How to Manage Changed Restriction Types After an Upgrade](How_to_Manage_Changed_Restriction_Types_After_an_Upgrade_cbddbef.md "")**  
-
--   **[How to Manage Changed Business Catalog Dependencies After an Upgrade](How_to_Manage_Changed_Business_Catalog_Dependencies_After_an_Upgrade_b6d4237.md "")**  
-
--   **[How to Manage Deprecated Business Catalogs After an Upgrade](How_to_Manage_Deprecated_Business_Catalogs_After_an_Upgrade_5bf8728.md "")**  
-
--   **[How to Manage Business Role Template Changes After an Upgrade](How_to_Manage_Business_Role_Template_Changes_After_an_Upgrade_4d0c745.md "")**  
-
--   **[Phase-In Status](Phase-In_Status_c340e07.md "")**  
-
-
 **Related Information**  
 
 

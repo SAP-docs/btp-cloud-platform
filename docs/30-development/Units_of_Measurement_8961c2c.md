@@ -14,16 +14,6 @@ We provide a subset of common standardized units, dimensions, and ISO codes for 
 
 Units are related to a dimension. In each dimension, a unit is defined as an SI unit \(International System of Units\). This is the basis for the conversion from one unit to another.
 
--   **[Maintaining Dimensions](Maintaining_Dimensions_834e1b9.md "Class CL_UOM_DIM_MAINTENANCE provides methods
-		for maintaining a dimension.")**  
-Class `CL_UOM_DIM_MAINTENANCE` provides methods for maintaining a dimension.
--   **[Maintaining Units of Measurement](Maintaining_Units_of_Measurement_238be94.md "Class CL_UOM_MAINTENANCE provides methods for
-		maintaining units of measurement.")**  
-Class `CL_UOM_MAINTENANCE` provides methods for maintaining units of measurement.
--   **[Conversion Functions for Units of Measurement](Conversion_Functions_for_Units_of_Measurement_73109c6.md "Class CL_UOM_CONVERSION provides methods for
-		simple conversion functions for units of measurement.")**  
-Class `CL_UOM_CONVERSION` provides methods for simple conversion functions for units of measurement.
-
 **Related Information**  
 
 

@@ -19,14 +19,14 @@ SAP BTP enables you to consume APIs and publish your own ones through the follow
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Offering
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -35,14 +35,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
-**[SAP BTP on the SAP API Business Hub](https://api.sap.com/themes/SAPCloudPlatformService)**
+**[SAP BTP on the SAP API Business Hub](https://api.sap.com/products/SAPCloudPlatform/overview)**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The SAP API Business Hub provides you with one central repository for browsing and accessing APIs from SAP and select partners. Test APIs and try out mock data in your systems.
 
@@ -53,14 +53,14 @@ It is also the official place where REST and OData REST API references are publi
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **[SAP BTP API Management](https://help.sap.com/viewer/p/SAP_CLOUD_PLATFORM_API_MANAGEMENT)**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 API Management allows you to build, manage, publish, and monetize your own APIs within one secure and scalable environment.
 
@@ -69,14 +69,14 @@ API Management allows you to build, manage, publish, and monetize your own APIs 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **SDKs**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The software development kits \(SDKs\) available for SAP BTP offer APIs to, for example, accelerate enterprise app development.
 

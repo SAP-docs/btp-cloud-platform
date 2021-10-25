@@ -34,14 +34,14 @@ To integrate the cloud platform and SAP S/4HANA Cloud so that you can build exte
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Process Step
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Related Documentation
 
@@ -50,7 +50,7 @@ Related Documentation
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1. Connect the SAP S/4HANA Cloud system you want to extend with the corresponding global account in SAP BTP.
 
@@ -59,7 +59,7 @@ During the pairing process you create an integration token which is then used by
 
 
 </td>
-<td>
+<td valign="top">
 
  [Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](Register_an_SAP_S4HANA_Cloud_System_in_a_Global_Account_in_SAP_BTP_28171b6.md) 
 
@@ -68,7 +68,7 @@ During the pairing process you create an integration token which is then used by
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 2. Make the SAP S/4HANA Cloud system accessible in the SAP BTP subaccounts in which you want to build your extension applications.
 
@@ -77,7 +77,7 @@ To do so, you configure the entitlements and assign the corresponding quota and 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Configure the Entitlements for the SAP S/4HANA Cloud Extensibility Service](Configure_the_Entitlements_for_the_SAP_S4HANA_Cloud_Extensibility_Service_65ad330.md) 
 
@@ -86,7 +86,7 @@ To do so, you configure the entitlements and assign the corresponding quota and 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 3. Configure the communication flow.
 
@@ -102,6 +102,7 @@ You have the following options:
     -   OAuth 2.0 SAML Bearer Assertion \(inbound connections\)
     -   OAuth 2.0 Client Credentials \(outbound Connections\)
     -   No Authentication \(outbound connections\)
+
     Both predefined and custom communication scenarios are supported.
 
 -   Enable the consumption of SAP S/4HANA Cloud events.
@@ -113,7 +114,7 @@ You have the following options:
 
 
 </td>
-<td>
+<td valign="top">
 
 -   [Creating a Service Instance to Consume the SAP S/4HANA Cloud APIs](Create_a_Service_Instance_to_Consume_the_SAP_S4HANA_Cloud_APIs_a735641.md)
 
@@ -125,30 +126,6 @@ You have the following options:
 </td>
 </tr>
 </table>
-
--   **[Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](Register_an_SAP_S4HANA_Cloud_System_in_a_Global_Account_in_SAP_BTP_28171b6.md "To connect an SAP S/4HANA Cloud system with a global account in SAP BTP, you need to register the
-		system in the corresponding global account. ")**  
-To connect an SAP S/4HANA Cloud system with a global account in SAP BTP, you need to register the system in the corresponding global account.
--   **[Configure the Entitlements for the SAP S/4HANA Cloud Extensibility Service](Configure_the_Entitlements_for_the_SAP_S4HANA_Cloud_Extensibility_Service_65ad330.md "Configure the required entitlements to make the APIs of the registered SAP S/4HANA Cloud
-		system accessible in your subaccount in which your extension applications will
-		reside.")**  
-Configure the required entitlements to make the APIs of the registered SAP S/4HANA Cloud system accessible in your subaccount in which your extension applications will reside.
--   **[Create a Service Instance to Consume the SAP S/4HANA Cloud APIs](Create_a_Service_Instance_to_Consume_the_SAP_S4HANA_Cloud_APIs_a735641.md " To enable the integration of your extension applications with the SAP S/4HANA Cloud
-		system you have registered in the SAP BTP global account, and
-		to configure the communication flow, you create a service instance of the SAP S/4HANA Cloud
-		Extensibility service.")**  
- To enable the integration of your extension applications with the SAP S/4HANA Cloud system you have registered in the SAP BTP global account, and to configure the communication flow, you create a service instance of the SAP S/4HANA Cloud Extensibility service.
--   **[Enable the Consumption of SAP S/4HANA Cloud Events](Enable_the_Consumption_of_SAP_S4HANA_Cloud_Events_d476ff0.md "To create event-based extensions for SAP S/4HANA Cloud you need to set up the messaging
-		between the SAP S/4HANA Cloud system and the SAP Event
-                                        Mesh.")**  
-To create event-based extensions for SAP S/4HANA Cloud you need to set up the messaging between the SAP S/4HANA Cloud system and the SAP Event Mesh.
--   **[Supported Service Plans for SAP S/4HANA Cloud](Supported_Service_Plans_for_SAP_S4HANA_Cloud_925c00a.md "The following service plans are available for subaccounts in SAP BTP paired with
-		an SAP S4/HANA Cloud tenant.")**  
-The following service plans are available for subaccounts in SAP BTP paired with an SAP S4/HANA Cloud tenant.
--   **[Auditing and Logging Information](Auditing_and_Logging_Information_b250a8d.md "Here you can find a list of the events that are logged by SAP S/4HANA Cloud
-            Extensibility service. To retrieve the audit logs stored for SAP S/4HANA
-            Cloud Extensibility create a support ticket in component BC-NEO-EXT-S4C.")**  
-Here you can find a list of the events that are logged by SAP S/4HANA Cloud Extensibility service. To retrieve the audit logs stored for SAP S/4HANA Cloud Extensibility create a support ticket in component BC-NEO-EXT-S4C.
 
 **Related Information**  
 

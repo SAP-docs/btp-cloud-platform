@@ -16,7 +16,7 @@ You can use existing role templates to create new roles. A SAP BTP cockpit wizar
 
 1.  Open the SAP BTP cockpit.
 
-2.  Go to your global account and subaccount \(see [Navigate to Orgs and Spaces](Navigate_to_Orgs_and_Spaces_5bf8735.md)\).
+2.  Go to your global account and subaccount \(see [Navigate in the Cockpit](Navigate_in_the_Cockpit_0874895.md)\).
 
 3.  Choose *Security* in the navigation pane.
 

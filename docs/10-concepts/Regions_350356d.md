@@ -48,83 +48,83 @@ When using cloud management tools feature set B: Choose [https://cockpit.eu10.ha
 
 For more information, see [Cloud Management Tools — Feature Set Overview](Cloud_Management_Tools_—_Feature_Set_Overview_caf4e4e.md).
 
- <a name="loio350356d1dc314d3199dca15bd2ab9b0e loiof344a57233d34199b2123b9620d0bb41__loiof344a57233d34199b2123b9620d0bb41"/>
+ <a name="loiof344a57233d34199b2123b9620d0bb41"/>
 
 <!-- loiof344a57233d34199b2123b9620d0bb41 -->
 
-# Regions and API Endpoints Available for the Cloud Foundry Environment
+## Regions and API Endpoints Available for the Cloud Foundry Environment
 
 
 
-<a name="loio350356d1dc314d3199dca15bd2ab9b0e loiof344a57233d34199b2123b9620d0bb41__table_cb4_gj4_lpb"/>Regions for Enterprise Accounts
+<a name="loiof344a57233d34199b2123b9620d0bb41__table_cb4_gj4_lpb"/>Regions for Enterprise Accounts
 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 IaaS Provider
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Region
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Region Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Technical Key
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Technical Key of IaaS Provider
 
 
 
 </th>
-<th>
+<th valign="top">
 
 NAT IPs \(egress, IPs for requests from a Cloud Foundry app\)
 
 
 
 </th>
-<th>
+<th valign="top">
 
 LB IPs \(ingress, for incoming requests\)
 
 
 
 </th>
-<th>
+<th valign="top">
 
 API Endpoint
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Domain
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Cockpit Logon
 
@@ -133,70 +133,70 @@ Cockpit Logon
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 eu20
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Europe \(Netherlands\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-eu20
 
 
 
 </td>
-<td>
+<td valign="top">
 
 West Europe
 
 
 
 </td>
-<td>
+<td valign="top">
 
 52.149.67.35, 20.82.96.175, 20.82.96.178, 20.82.96.211, 20.82.96.244, 20.82.96.220, 20.82.96.227, 20.82.97.50, 20.82.96.240, 20.82.96.234, 20.82.97.38, 20.82.96.222, 20.82.96.233, 20.82.96.248, 20.82.97.31, 20.82.97.45, 52.149.96.147, 20.56.169.152, 20.56.169.69, 20.56.169.0, 20.56.169.41, 20.56.169.58, 20.56.169.161, 20.56.169.116, 20.56.169.167, 20.56.169.50, 20.56.169.175, 20.56.169.131, 20.56.169.66, 20.56.169.71, 20.56.169.138, 20.56.169.91, 52.142.226.14, 20.86.1.84, 20.86.1.80, 20.86.0.233, 20.86.1.131, 20.86.1.54, 20.86.1.128, 20.86.1.134, 20.86.1.163, 20.86.1.15, 20.86.0.250, 20.86.1.107, 20.86.1.157, 20.86.0.253, 20.86.1.12, 20.86.1.97
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40.119.153.88
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.eu20.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 eu20.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Feature Set A ](https://account.eu1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-eu20)
 
@@ -207,70 +207,70 @@ eu20.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ap20
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Australia \(Sydney\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-ap20
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Australia East
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40.82.211.52, 40.82.206.131, 20.70.176.247
 
 
 
 </td>
-<td>
+<td valign="top">
 
 20.53.99.41
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.ap20.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ap20.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Feature Set A](https://account.ap1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ap20)
 
@@ -281,70 +281,70 @@ ap20.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ap21
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Singapore
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-ap21
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Southeast Asia
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40.90.179.153, 20.198.169.214, 20.198.168.45, 20.198.169.5, 40.90.170.226, 20.198.225.78, 20.198.225.102, 20.198.225.27, 40.90.162.117, 20.191.154.174, 20.191.154.191, 20.191.154.193
 
 
 
 </td>
-<td>
+<td valign="top">
 
 20.184.61.122
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.ap21.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ap21.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Feature Set A](https://account.ap1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ap21)
 
@@ -355,70 +355,70 @@ ap21.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 us20
 
 
 
 </td>
-<td>
+<td valign="top">
 
 US West \(WA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-us20
 
 
 
 </td>
-<td>
+<td valign="top">
 
 West US 2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40.90.195.191, 20.57.129.106, 20.57.128.95, 20.57.128.118, 40.90.209.71, 20.72.210.109, 20.72.209.240, 20.72.209.187, 40.90.200.224, 40.90.201.197, 40.90.201.85, 40.90.200.237
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40.91.120.100
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.us20.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 us20.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Feature Set A](https://account.us2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-us20)
 
@@ -429,70 +429,70 @@ us20.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 jp20
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Japan \(Tokyo\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-jp20
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Japan East
 
 
 
 </td>
-<td>
+<td valign="top">
 
 52.185.186.130, 20.194.193.229, 20.194.193.167, 20.194.194.97, 40.81.200.207, 20.78.122.9, 20.78.121.237, 20.78.122.8, 20.40.96.175, 20.78.2.104, 20.78.2.106, 20.78.2.107
 
 
 
 </td>
-<td>
+<td valign="top">
 
 20.43.89.91
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.jp20.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 jp20.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Feature Set A](https://account.jp1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-jp20)
 
@@ -503,70 +503,70 @@ jp20.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 us21
 
 
 
 </td>
-<td>
+<td valign="top">
 
 US East \(VA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-us21
 
 
 
 </td>
-<td>
+<td valign="top">
 
 East US
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40.90.251.147, 52.146.1.155, 20.51.255.236, 52.146.1.223, 40.90.232.167, 20.55.49.185, 20.55.49.92, 20.55.49.186, 40.90.231.101, 52.151.248.29, 52.146.15.82, 52.146.10.227
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40.88.52.17
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.us21.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 us21.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Feature Set A](https://account.us1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-us21)
 
@@ -577,70 +577,70 @@ us21.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 br10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Brazil \(São Paulo\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-br10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 sa-east-1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 52.67.245.111, 18.231.45.151, 54.207.173.126, 18.229.169.29, 54.94.110.127, 18.231.101.158, 18.230.81.234, 54.232.227.140, 52.67.251.43, 54.232.20.181, 177.71.170.199, 54.94.136.11, 52.67.221.224, 18.229.54.222, 54.232.250.83
 
 
 
 </td>
-<td>
+<td valign="top">
 
 18.229.91.150, 52.67.135.4, 54.232.179.204
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.br10.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 br10.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Feature Set A](https://account.br1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-br10)
 
@@ -651,70 +651,70 @@ br10.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 jp10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Japan \(Tokyo\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-jp10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ap-northeast-1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 18.177.86.79, 35.74.144.49, 3.114.115.232, 35.74.54.33, 54.249.134.63, 18.179.66.68, 54.250.33.48, 18.179.150.168, 52.198.77.221, 35.73.255.50, 54.178.62.192, 54.95.22.24, 54.238.10.97, 54.250.43.250, 52.192.218.156
 
 
 
 </td>
-<td>
+<td valign="top">
 
 3.113.252.15, 3.114.248.68, 13.114.117.83
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.jp10.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 jp10.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Feature Set A](https://account.jp1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-jp10)
 
@@ -725,70 +725,70 @@ jp10.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ap10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Australia \(Sydney\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-ap10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ap-southeast-2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 13.210.173.131, 13.54.77.205, 13.237.182.31, 13.55.239.117, 54.79.72.145, 13.236.142.207, 54.79.43.227, 52.65.102.82, 54.79.26.135, 13.54.220.129, 13.236.59.235, 13.54.252.220, 52.62.223.36, 13.55.100.204, 13.54.168.75
 
 
 
 </td>
-<td>
+<td valign="top">
 
 3.105.95.184, 13.211.73.244, 13.236.220.84
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.ap10.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ap10.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Feature Set A](https://account.ap1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ap10)
 
@@ -799,70 +799,70 @@ ap10.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ap11
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Asia Pacific \(Singapore\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-ap11
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ap-southeast-1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 13.229.13.240, 54.251.74.134, 52.220.111.202, 52.76.185.92, 52.76.123.164, 54.179.253.138, 13.213.119.83, 54.179.77.154, 52.76.114.209, 13.213.105.43, 13.213.132.88, 3.1.38.48, 13.251.40.148, 13.228.68.14, 13.251.49.36
 
 
 
 </td>
-<td>
+<td valign="top">
 
 3.0.9.102, 18.139.147.53, 18.140.39.70
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.ap11.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ap11.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Feature Set A](https://account.ap1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ap11)
 
@@ -873,70 +873,70 @@ ap11.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ap12
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Asia Pacific \(Seoul\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-ap12
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ap-northeast-2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 15.164.33.162, 3.34.19.116, 3.36.2.67, 52.78.49.16, 15.164.254.80, 3.36.165.189, 52.78.38.74, 3.35.57.231, 13.124.251.247, 13.124.16.17, 15.165.83.237, 15.165.249.251, 15.165.116.197, 54.180.53.68, 3.35.252.222
 
 
 
 </td>
-<td>
+<td valign="top">
 
 3.35.255.45, 3.35.106.215, 3.35.215.12
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.ap12.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ap12.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Feature Set A](https://account.ap1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ap12)
 
@@ -947,70 +947,70 @@ ap12.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ca10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Canada \(Montreal\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-ca10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ca-central-1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 35.182.198.31, 35.182.118.205,3.98.159.3, 15.222.120.34, 3.96.14.215, 3.97.48.154, 3.96.101.45, 35.182.95.49, 3.97.228.23, 35.182.185.156, 3.97.119.250, 3.98.252.245, 15.223.62.0, 99.79.181.241, 3.98.167.60
 
 
 
 </td>
-<td>
+<td valign="top">
 
 35.182.75.101, 35.183.74.34, 3.98.102.153
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.ca10.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ca10.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Feature Set A](https://account.ca1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ca10)
 
@@ -1021,42 +1021,42 @@ ca10.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 eu10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Europe \(Frankfurt\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-eu10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 eu-central-1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 3.68.51.135, 3.124.174.204, 3.68.31.37, 3.67.58.183, 3.67.0.172, 3.67.244.62, 3.126.117.58, 3.67.200.70, 3.68.13.226, 3.126.45.133, 3.67.249.135, 18.194.183.183, 3.67.246.74, 3.66.68.201, 3.68.0.70, 3.66.100.105, 3.126.95.250, 3.66.68.127, 18.195.244.40, 3.67.107.121, 3.67.24.253, 18.193.50.255, 3.121.35.143, 52.28.56.202, 52.59.128.222, 52.28.241.88, 18.184.81.94
 
@@ -1071,7 +1071,7 @@ eu-central-1
 
 
 </td>
-<td>
+<td valign="top">
 
 3.124.222.77, 3.122.209.241, 3.124.208.223
 
@@ -1086,21 +1086,21 @@ eu-central-1
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.eu10.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 eu10.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-eu10)
 
@@ -1111,70 +1111,70 @@ eu10.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 eu11
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Europe \(Frankfurt\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-eu11
 
 
 
 </td>
-<td>
+<td valign="top">
 
 eu-central-1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 18.185.57.85, 3.121.79.209, 3.67.237.8, 52.59.77.121, 3.65.63.251, 3.122.176.63, 18.198.13.57, 35.156.31.32, 18.184.172.97, 18.159.180.188, 35.157.5.44, 18.157.114.142, 18.156.140.38, 3.121.55.100, 35.156.198.246
 
 
 
 </td>
-<td>
+<td valign="top">
 
 3.124.207.41, 18.157.105.117, 18.156.209.198
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.eu11.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 eu11.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-eu11)
 
@@ -1185,42 +1185,42 @@ eu11.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 us10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 US East \(VA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-us10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 us-east-1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 18.211.235.11, 54.156.172.106, 34.234.191.59, 34.192.134.47, 18.204.173.15, 3.213.197.54, 184.73.43.82, 18.210.47.160, 3.216.16.207, 34.225.190.250, 52.2.110.230, 54.234.93.200, 35.153.88.132, 52.204.111.138, 3.88.250.160, 52.20.242.182, 52.71.83.110, 52.200.165.163, 54.208.119.130, 34.202.136.35, 34.192.100.96, 54.85.65.82, 54.205.71.200, 54.221.30.91, 52.200.16.71, 52.23.123.125, 52.202.170.155
 
@@ -1235,7 +1235,7 @@ us-east-1
 
 
 </td>
-<td>
+<td valign="top">
 
 52.23.189.23, 52.4.101.240, 52.23.1.211
 
@@ -1246,21 +1246,21 @@ us-east-1
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.us10.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 us10.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Feature Set A](https://account.us1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-us10)
 
@@ -1271,70 +1271,70 @@ us10.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Google Cloud Platform
 
 
 
 </td>
-<td>
+<td valign="top">
 
 us30
 
 
 
 </td>
-<td>
+<td valign="top">
 
 US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-us30
 
 
 
 </td>
-<td>
+<td valign="top">
 
 us-central-1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 35.202.96.192, 35.193.171.152, 35.193.168.31, 35.202.69.204, 35.202.175.147, 35.193.69.164, 35.202.1.6, 23.236.63.113, 35.193.30.116, 35.202.66.196, 34.68.152.205, 35.222.158.222, 104.197.20.168, 35.232.105.70, 35.224.211.196, 35.222.192.158, 35.193.8.172
 
 
 
 </td>
-<td>
+<td valign="top">
 
 35.184.169.79
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.us30.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 us30.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Feature Set A](https://account.us1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-us30)
 
@@ -1345,70 +1345,70 @@ us30.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Alibaba Cloud
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cn40
 
 
 
 </td>
-<td>
+<td valign="top">
 
 China \(Shanghai\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-cn40
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cn-shanghai
 
 
 
 </td>
-<td>
+<td valign="top">
 
 101.132.190.155, 106.14.165.33, 106.14.184.113
 
 
 
 </td>
-<td>
+<td valign="top">
 
 139.224.7.71
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.cn40.platform.sapcloud.cn
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cn40.platform.sapcloud.cn
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Feature Set B](https://cockpit.cn40.platform.sapcloud.cn/cockpit) 
 
@@ -1418,75 +1418,75 @@ cn40.platform.sapcloud.cn
 </tr>
 </table>
 
-<a name="loio350356d1dc314d3199dca15bd2ab9b0e loiof344a57233d34199b2123b9620d0bb41__table_db4_gj4_lpb"/>Regions for Trial Accounts
+<a name="loiof344a57233d34199b2123b9620d0bb41__table_db4_gj4_lpb"/>Regions for Trial Accounts
 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 IaaS Provider
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Region
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Region Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Technical Key
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Technical Key of IaaS Provider
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Trial NAT IPs \(egress, IPs for requests from a Cloud Foundry app\)
 
 
 
 </th>
-<th>
+<th valign="top">
 
 LB IPs \(ingress, for incoming requests\)
 
 
 
 </th>
-<th>
+<th valign="top">
 
 API Endpoint
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Domain
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Cockpit Logon
 
@@ -1495,70 +1495,70 @@ Cockpit Logon
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 eu10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Europe \(Frankfurt\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-eu10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 eu-central-1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 3.124.22.250, 3.124.41.239, 52.29.53.204
 
 
 
 </td>
-<td>
+<td valign="top">
 
 3.124.222.77, 3.122.209.241, 3.124.208.223
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.eu10.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 eu10.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Trial](https://cockpit.eu10.hana.ondemand.com/trial) 
 
@@ -1567,70 +1567,70 @@ eu10.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 us10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 US East \(VA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-us10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 us-east-1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 3.218.99.154, 52.72.147.227, 3.218.112.63
 
 
 
 </td>
-<td>
+<td valign="top">
 
 52.23.189.23, 52.4.101.240, 52.23.1.211
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.us10.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 us10.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Trial](https://cockpit.us10.hana.ondemand.com/trial)
 
@@ -1639,70 +1639,70 @@ us10.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ap21
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Singapore
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-ap21
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Southeast Asia
 
 
 
 </td>
-<td>
+<td valign="top">
 
 52.139.216.172, 20.195.24.178, 20.195.9.169
 
 
 
 </td>
-<td>
+<td valign="top">
 
 20.184.61.122
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.ap21.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ap21.hana.ondemand.com
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Trial](https://cockpit.ap21.hana.ondemand.com/trial) 
 
@@ -1715,64 +1715,76 @@ ap21.hana.ondemand.com
 
 
 > ### Note:  
+> Trial accounts and subaccounts on trial can no longer be created on the eu10, Europe \(Frankfurt\).
+> 
+> Existing trial accounts and subaccounts are not affected.
+
+> ### Note:  
 > In the Cloud Foundry environment, IPs are controlled by the respective IaaS provider \(AWS, Azure, or GCP\). IPs may change due to network updates on the provider side. Any planned changes will be announced at least four weeks before they take effect.
 
- <a name="loio350356d1dc314d3199dca15bd2ab9b0e loio879f37370d9b45e99a16538e0f37ff2c__loio879f37370d9b45e99a16538e0f37ff2c"/>
+ <a name="loio879f37370d9b45e99a16538e0f37ff2c"/>
 
 <!-- loio879f37370d9b45e99a16538e0f37ff2c -->
 
-# Regions and API Endpoints for the ABAP Environment
+## Regions and API Endpoints for the ABAP Environment
 
 
 
-<a name="loio350356d1dc314d3199dca15bd2ab9b0e loio879f37370d9b45e99a16538e0f37ff2c__table_xps_cr3_3z"/>Regions and API Endpoints for the ABAP Environment
+<a name="loio879f37370d9b45e99a16538e0f37ff2c__table_xps_cr3_3z"/>Regions and API Endpoints for the ABAP Environment
 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Global Account Type
 
 
 
 </th>
-<th>
-
-Region
-
-
-
-</th>
-<th>
+<th valign="top">
 
 IaaS Provider
 
 
 
 </th>
-<th>
+<th valign="top">
+
+Region Name
+
+
+
+</th>
+<th valign="top">
+
+Region
+
+
+
+</th>
+<th valign="top">
 
 Technical Key
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Technical Key of IaaS Provider
 
 
 
 </th>
-<th>
+<th valign="top">
 
 API Endpoint & Domain
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Cockpit Logon
 
@@ -1781,42 +1793,49 @@ Cockpit Logon
 </th>
 </tr>
 <tr>
-<td rowspan="3">
+<td valign="top">
 
-Enterprise & trial account
-
-
-
-</td>
-<td>
-
-Europe \(Frankfurt\)
+Enterprise account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
+
+Europe \(Frankfurt\)
+
+
+
+</td>
+<td valign="top">
+
+eu10
+
+
+
+</td>
+<td valign="top">
 
 cf-eu10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 eu-central-1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.eu10.hana.ondemand.com
 
@@ -1825,7 +1844,7 @@ Domain: eu10.hana.ondemand.com
 
 
 </td>
-<td>
+<td valign="top">
 
 [Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-eu10)
 
@@ -1838,35 +1857,49 @@ Domain: eu10.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
-US East \(VA\)
+Enterprise account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
+
+US East \(VA\)
+
+
+
+</td>
+<td valign="top">
+
+us10
+
+
+
+</td>
+<td valign="top">
 
 cf-us10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 us-east-1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.us10.hana.ondemand.com
 
@@ -1875,7 +1908,7 @@ Domain: us10.hana.ondemand.com
 
 
 </td>
-<td>
+<td valign="top">
 
 [Feature Set A](https://account.us1.hana.ondemand.com/cockpit#/home/allaccounts/%3Fdatacenter=cf-us10)
 
@@ -1886,35 +1919,49 @@ Domain: us10.hana.ondemand.com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
-Japan \(Tokyo\)
+Trial account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
+
+Japan \(Tokyo\)
+
+
+
+</td>
+<td valign="top">
+
+jp10
+
+
+
+</td>
+<td valign="top">
 
 cf-jp10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ap-northeast-1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 api.cf.jp10.hana.ondemand.com
 
@@ -1923,7 +1970,7 @@ Domain: ap21.hana.ondemand.com
 
 
 </td>
-<td>
+<td valign="top">
 
 [Feature Set A](https://account.jp1.hana.ondemand.com/cockpit#/home/allaccounts/%3Fdatacenter=cf-jp10)
 
@@ -1937,14 +1984,19 @@ Domain: ap21.hana.ondemand.com
 </tr>
 </table>
 
+> ### Restriction:  
+> Trial accounts and subaccounts on trial can no longer be created on eu10, Europe \(Frankfurt\).
+> 
+> Existing trial accounts and subaccounts are not affected.
+
 > ### Caution:  
 > Some customer contracts include EU access, which means that we only use European subprocessors to access personal data in cloud services, such as when we provide support. We currently cannot guarantee EU access in the ABAP environment. If your contract includes EU access, we cannot move services to the ABAP environment, without changing your contract.
 
- <a name="loio350356d1dc314d3199dca15bd2ab9b0e loio557ec3adc3174ed4914ec9d6d13487cf__loio557ec3adc3174ed4914ec9d6d13487cf"/>
+ <a name="loio557ec3adc3174ed4914ec9d6d13487cf"/>
 
 <!-- loio557ec3adc3174ed4914ec9d6d13487cf -->
 
-# Regions for the Kyma Environment
+## Regions for the Kyma Environment
 
 To work with the Kyma environment, you need to specify the region for both your subaccount and the cluster.
 
@@ -1959,40 +2011,40 @@ To work with the Kyma environment, you need to specify the region for both your 
 
 The table lists the regions you can choose from when creating a subaccount.
 
-<a name="loio350356d1dc314d3199dca15bd2ab9b0e loio557ec3adc3174ed4914ec9d6d13487cf__table_xps_cr3_3z"/>Subaccount Regions for the Kyma Environment
+<a name="loio557ec3adc3174ed4914ec9d6d13487cf__table_xps_cr3_3z"/>Subaccount Regions for the Kyma Environment
 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Global Account Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Region
 
 
 
 </th>
-<th>
+<th valign="top">
 
 IaaS Provider
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Technical Key
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Technical Key of IaaS Provider
 
@@ -2001,35 +2053,35 @@ Technical Key of IaaS Provider
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Enterprise and trial account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Singapore
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-ap21
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Southeast Asia
 
@@ -2038,35 +2090,35 @@ Southeast Asia
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Enterprise and trial account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 US East \(VA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-us10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 US East \(VA\)
 
@@ -2075,72 +2127,35 @@ US East \(VA\)
 </td>
 </tr>
 <tr>
-<td>
-
-Enterprise and trial account
-
-
-
-</td>
-<td>
-
-Europe \(Frankfurt\)
-
-
-
-</td>
-<td>
-
-Amazon Web Services
-
-
-
-</td>
-<td>
-
-cf-eu10
-
-
-
-</td>
-<td>
-
-Europe \(Frankfurt\)
-
-
-
-</td>
-</tr>
-<tr>
-<td>
+<td valign="top">
 
 Enterprise account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 US West \(WA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-us20
 
 
 
 </td>
-<td>
+<td valign="top">
 
 West US 2
 
@@ -2149,35 +2164,35 @@ West US 2
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Enterprise account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Japan \(Tokyo\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-jp20
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Japan East
 
@@ -2186,35 +2201,35 @@ Japan East
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Enterprise account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 US East \(VA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-us21
 
 
 
 </td>
-<td>
+<td valign="top">
 
 East US
 
@@ -2223,35 +2238,35 @@ East US
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Enterprise account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Europe \(Netherlands\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-eu20
 
 
 
 </td>
-<td>
+<td valign="top">
 
 West Europe
 
@@ -2260,35 +2275,72 @@ West Europe
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Enterprise account
 
 
 
 </td>
-<td>
+<td valign="top">
 
-Brazil \(São Paulo\)
+Europe \(Frankfurt\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
+
+cf-eu10
+
+
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+
+
+</td>
+<td valign="top">
+
+Brazil \(São Paulo\)
+
+
+
+</td>
+<td valign="top">
+
+Amazon Web Services
+
+
+
+</td>
+<td valign="top">
 
 cf-br10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Brazil \(São Paulo\)
 
@@ -2297,35 +2349,35 @@ Brazil \(São Paulo\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Enterprise account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Japan \(Tokyo\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-jp10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Japan \(Tokyo\)
 
@@ -2334,35 +2386,35 @@ Japan \(Tokyo\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Enterprise account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Canada \(Montreal\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-ca10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Canada \(Montreal\)
 
@@ -2371,35 +2423,35 @@ Canada \(Montreal\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Enterprise account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 South Korea \(Seoul\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-ap12
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Asia Pacific \(Seoul\)
 
@@ -2408,35 +2460,35 @@ Asia Pacific \(Seoul\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Enterprise account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Australia \(Sydney\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-ap10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Asia Pacific \(Sydney\)
 
@@ -2445,35 +2497,35 @@ Asia Pacific \(Sydney\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Enterprise account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Singapore
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cf-ap11
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Asia Pacific \(Singapore\)
 
@@ -2485,32 +2537,32 @@ Asia Pacific \(Singapore\)
 
 
 
-<a name="loio350356d1dc314d3199dca15bd2ab9b0e loio557ec3adc3174ed4914ec9d6d13487cf__section_uqf_2sl_wlb"/>
+<a name="loio557ec3adc3174ed4914ec9d6d13487cf__section_uqf_2sl_wlb"/>
 
 ## Cluster Regions
 
 When you enable a Kyma environment for a given subaccount, you must select a plan and region where the cluster is going to be created. You can select one of the following regions:
 
-<a name="loio350356d1dc314d3199dca15bd2ab9b0e loio557ec3adc3174ed4914ec9d6d13487cf__table_kyma_cluster_regions"/>Kyma Cluster Regions
+<a name="loio557ec3adc3174ed4914ec9d6d13487cf__table_kyma_cluster_regions"/>Kyma Cluster Regions
 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Plan
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Region
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Region Name
 
@@ -2519,21 +2571,21 @@ Region Name
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `centralus`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Central US \(Iowa\)
 
@@ -2542,21 +2594,21 @@ Central US \(Iowa\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `eastus`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 East US \(Virginia\)
 
@@ -2565,21 +2617,21 @@ East US \(Virginia\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `westus2`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 West US2 \(Washington\)
 
@@ -2588,21 +2640,21 @@ West US2 \(Washington\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `northeurope`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 North EU \(Ireland\)
 
@@ -2611,21 +2663,21 @@ North EU \(Ireland\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `uksouth`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 UK South \(London\)
 
@@ -2634,21 +2686,21 @@ UK South \(London\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `japaneast`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Japan East \(Tokyo\)
 
@@ -2657,21 +2709,21 @@ Japan East \(Tokyo\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `southeastasia`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Southeast Asia \(Singapore\)
 
@@ -2680,21 +2732,21 @@ Southeast Asia \(Singapore\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `westeurope`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 West Europe \(Netherlands\)
 
@@ -2703,21 +2755,21 @@ West Europe \(Netherlands\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `eu-central-1`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Europe \(Frankfurt\)
 
@@ -2726,21 +2778,21 @@ Europe \(Frankfurt\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `eu-west-2`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Europe \(London\)
 
@@ -2749,21 +2801,21 @@ Europe \(London\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `ca-central-1`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Canada \(Central\)
 
@@ -2772,21 +2824,21 @@ Canada \(Central\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `sa-east-1`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 South America \(São Paulo\)
 
@@ -2795,21 +2847,21 @@ South America \(São Paulo\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `us-east-1`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 US East \(N. Virginia\)
 
@@ -2818,21 +2870,21 @@ US East \(N. Virginia\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `us-west-1`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 US West \(N. California\)
 
@@ -2841,21 +2893,21 @@ US West \(N. California\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `ap-northeast-1`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Asia Pacific \(Tokyo\)
 
@@ -2864,21 +2916,21 @@ Asia Pacific \(Tokyo\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `ap-northeast-2`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Asia Pacific \(Seoul\)
 
@@ -2887,21 +2939,21 @@ Asia Pacific \(Seoul\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `ap-south-1`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Asia Pacific \(Mumbai\)
 
@@ -2910,21 +2962,21 @@ Asia Pacific \(Mumbai\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `ap-southeast-1`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Asia Pacific \(Singapore\)
 
@@ -2933,21 +2985,21 @@ Asia Pacific \(Singapore\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `ap-southeast-2`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Asia Pacific \(Sydney\)
 
@@ -2960,19 +3012,19 @@ Asia Pacific \(Sydney\)
 **Related Information**  
 
 
-[Enable Kyma Environment](../50-administration-and-ops/Enable_Kyma_Environment_09dd313.md "Set up a Kubernetes cluster with project &quot;Kyma&quot; and use it to build applications and extensions to your SAP and third-party solutions.")
+[Create the Kyma Environment Instance](../50-administration-and-ops/Create_the_Kyma_Environment_Instance_09dd313.md "Set up a Kubernetes cluster with project &quot;Kyma&quot; and use it to build applications and extensions to your SAP and third-party solutions.")
 
- <a name="loio350356d1dc314d3199dca15bd2ab9b0e loioe3ac4f7c25a3442ca585950095eec599__loioe3ac4f7c25a3442ca585950095eec599"/>
+ <a name="loioe3ac4f7c25a3442ca585950095eec599"/>
 
 <!-- loioe3ac4f7c25a3442ca585950095eec599 -->
 
-# Resilience, High Availability, and Disaster Recovery
+## Resilience, High Availability, and Disaster Recovery
 
 SAP has a number of processes in place to support resilience in SAP BTP, and provides different offerings so that you can support the high availability of your applications.
 
 
 
-<a name="loio350356d1dc314d3199dca15bd2ab9b0e loioe3ac4f7c25a3442ca585950095eec599__section_pxk_bqk_ylb"/>
+<a name="loioe3ac4f7c25a3442ca585950095eec599__section_pxk_bqk_ylb"/>
 
 ## How SAP Provides Resilience
 
@@ -2983,21 +3035,21 @@ SAP BTP provides resilience through the following:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Processes and Offerings
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Regional Availability
 
@@ -3006,21 +3058,21 @@ Regional Availability
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Availability Zones** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 To achieve better fault-tolerance in the Cloud Foundry environment, we deploy our services across multiple AZs, which improves the availability of a service if there are issues with the infrastructure of one AZ. For more information, see [Availability Zones in the Cloud Foundry Environment](Cloud_Foundry_Environment_9c7092c.md#loiob6a7e11c3a58416a9ab1175bba17193a).
 
 
 
 </td>
-<td>
+<td valign="top">
 
 All regions that support the Cloud Foundry environment. See [Regions and API Endpoints Available for the Cloud Foundry Environment](Regions_350356d.md#loiof344a57233d34199b2123b9620d0bb41).
 
@@ -3029,21 +3081,21 @@ All regions that support the Cloud Foundry environment. See [Regions and API End
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Backups in the Kyma environment** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The Kyma environment relies on managed Kubernetes clusters for periodic backups of Kubernetes objects. For more information, see [Kyma Environment Backup](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/ab959cfbd07b46af97aecfd6577bfb10.html).
 
 
 
 </td>
-<td>
+<td valign="top">
 
 All regions that support the Kyma environment. See [Regions for the Kyma Environment](Regions_350356d.md#loio557ec3adc3174ed4914ec9d6d13487cf).
 
@@ -3052,21 +3104,21 @@ All regions that support the Kyma environment. See [Regions for the Kyma Environ
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Backup and Recovery for SAP HANA Cloud** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If you use SAP HANA Cloud, your SAP HANA Cloud instances are continually backed up to safeguard your database and ensure that it can be recovered speedily. For more information, see [Backup and Recovery](https://help.sap.com/viewer/db19c7071e5f4101837e23f06e576495/cloud/en-US/89d71f01daca4ecaaa069d6a060167f5.html).
 
 
 
 </td>
-<td>
+<td valign="top">
 
 All regions where SAP HANA Cloud is available. See [Availability of SAP HANA Cloud](https://help.sap.com/doc/aa1ccd10da6c4337aa737df2ead1855b/Cloud/en-US/3b642f68227b4b1398d2ce1a5351389a.html?scp-name=SAP%20HANA%20Cloud).
 
@@ -3075,21 +3127,21 @@ All regions where SAP HANA Cloud is available. See [Availability of SAP HANA Clo
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Disaster Recovery** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The SAP BTP Disaster Recovery \(DR\) Plan is part of the overall SAP BTP Business Continuity Plan, which includes crisis management and process continuity activities that are triggered by a declared disaster. For more information, see [Disaster Recovery as Part of the Business Continuity Plan](Regions_350356d.md#loio001180644f8a428bb422cd41caebb95f).
 
 
 
 </td>
-<td>
+<td valign="top">
 
 All regions.
 
@@ -3101,7 +3153,7 @@ All regions.
 
 
 
-<a name="loio350356d1dc314d3199dca15bd2ab9b0e loioe3ac4f7c25a3442ca585950095eec599__section_n1c_dqk_ylb"/>
+<a name="loioe3ac4f7c25a3442ca585950095eec599__section_n1c_dqk_ylb"/>
 
 ## Best Practices for Resilient Applications
 
@@ -3116,17 +3168,17 @@ In addition to the services offered by SAP BTP, you can follow our best practice
     To benefit from the high availability mechanisms in Cloud Foundry, set up your applications with multiple instances. For more information, see [Developing Resilient Applications in the Cloud Foundry Environment](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/b1b929a5aea64571b2f74e810b622568.html "Our best practices about resilient application design help you to make your applications running on SAP BTP stable and highly available.") :arrow_upper_right:.
 
 
- <a name="loio350356d1dc314d3199dca15bd2ab9b0e loioe3ac4f7c25a3442ca585950095eec599 loio001180644f8a428bb422cd41caebb95f__loio001180644f8a428bb422cd41caebb95f"/>
+ <a name="loio001180644f8a428bb422cd41caebb95f"/>
 
 <!-- loio001180644f8a428bb422cd41caebb95f -->
 
-# Disaster Recovery as Part of the Business Continuity Plan
+### Disaster Recovery as Part of the Business Continuity Plan
 
 The cloud platform disaster recovery \(DR\) plan is part of the overall cloud platform business continuity plan, which includes crisis management and process continuity activities that are triggered by a declared disaster.
 
 
 
-<a name="loio350356d1dc314d3199dca15bd2ab9b0e loioe3ac4f7c25a3442ca585950095eec599 loio001180644f8a428bb422cd41caebb95f__section_knl_qqp_j3b"/>
+<a name="loio001180644f8a428bb422cd41caebb95f__section_knl_qqp_j3b"/>
 
 ## Standard Disaster Recovery
 

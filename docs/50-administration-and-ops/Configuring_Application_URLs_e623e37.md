@@ -31,17 +31,6 @@ For more information, read the [Custom Domain service user guide](https://help.s
 
 If you want to make your application reachable on another route, you can add additional routes using the Cloud Foundry CLI. If your application is available under the route `https://myapp.cfapps.eu10.hana.ondemand.com`, you could add a route that reads `https://expenses.cfapps.eu10.hana.ondemand.com` that leads to the same application.
 
--   **[About Routes in the Cockpit](About_Routes_in_the_Cockpit_4af288c.md "Routes are the URLs that enable your end users to reach your application.")**  
-Routes are the URLs that enable your end users to reach your application.
--   **[Create Routes](Create_Routes_9fddeea.md "You can configure the URLs through which end users can reach your
-		applications.")**  
-You can configure the URLs through which end users can reach your applications.
--   **[Map Routes to Applications Using the Cockpit](Map_Routes_to_Applications_Using_the_Cockpit_b25cf8a.md "Once a route has been created, you can map it to an application to make this application reachable for end users.")**  
-Once a route has been created, you can map it to an application to make this application reachable for end users.
--   **[Using Custom Domains](Using_Custom_Domains_2291aea.md "SAP BTP allows subaccount owners to make their SAP BTP applications reachable and secure via a custom domain that is different
-		from the default domain  – for example, subdomain.mydomain.com.")**  
-SAP BTP allows subaccount owners to make their SAP BTP applications reachable and secure via a custom domain that is different from the default domain – for example, **subdomain.mydomain.com**.
-
 **Related Information**  
 
 

@@ -1,5 +1,7 @@
 <!-- loioab089a9bb3c541e798dd4c9111417246 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Specify Attributes in a New Role
 
 As an administrator of the Cloud Foundry environment, you can specify attributes in a new role to refine authorizations of business users. Depending on these attributes, business users with this role have restricted access to data.
@@ -23,7 +25,7 @@ You have maintained the attributes of the users in your identity provider if you
 
 1.  Open the SAP BTP cockpit.
 
-2.  Go to your global account \(China \(Shanghai\) region\) orsubaccount. For more information, see [Navigate to Orgs and Spaces](Navigate_to_Orgs_and_Spaces_5bf8735.md).
+2.  Go to your global account \(China \(Shanghai\) region\) orsubaccount. For more information, see [Navigate in the Cockpit](Navigate_in_the_Cockpit_0874895.md).
 
 3.  Choose your space in *Cloud Foundry* \> *Spaces* or, in the case of subscriptions, see [Configure Application Roles and Assign Roles to Users](Configure_Application_Roles_and_Assign_Roles_to_Users_56a7153.md).
 
@@ -31,7 +33,7 @@ You have maintained the attributes of the users in your identity provider if you
 
 5.  Choose *Security* \> *Roles*.
 
-6.  To create a new role, choose     \(Add\) in the first row.
+6.  To create a new role, choose <span class="SAP-icons"></span> \(Add\) in the first row.
 
     A wizard guides you through the role creation process.
 
@@ -48,14 +50,14 @@ You have maintained the attributes of the users in your identity provider if you
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Source
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Value/SAML Attribute
 
@@ -64,14 +66,14 @@ You have maintained the attributes of the users in your identity provider if you
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *Static* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter a static value, for example ***USA*** to refine the role depending on the country.
 
@@ -80,14 +82,14 @@ You have maintained the attributes of the users in your identity provider if you
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *Identity Provider \(SAML\)* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter an assertion attribute as defined in your identity provider. Check in your identity provider for the exact syntax of the assertion attribute identifier.
 
@@ -101,14 +103,14 @@ You have maintained the attributes of the users in your identity provider if you
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *Unrestricted* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     In this case, you want to express that it is not necessary to set a specific value for this attribute. The behavior is the same as if the attribute would not exist for this role.
 

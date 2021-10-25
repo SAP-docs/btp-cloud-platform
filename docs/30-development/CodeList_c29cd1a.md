@@ -16,21 +16,21 @@
 
 <table>
 <tr>
-<th colspan="3">
+<th valign="top" colspan="3">
 
 Node or Field
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Cardinality
 
@@ -39,21 +39,21 @@ Cardinality
 </th>
 </tr>
 <tr>
-<td colspan="3">
+<td valign="top" colspan="3">
 
 `FieldName`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Name of the field.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1..1
 
@@ -62,7 +62,7 @@ Name of the field.
 </td>
 </tr>
 <tr>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 `FieldCodeList`
 
@@ -71,21 +71,21 @@ Cardinality: 0..unbounded
 
 
 </td>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 `FieldValue`
 
 
 
 </td>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 This node provides the available code lists for SAP specific codes. For example country/region code, academic title.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1..1
 
@@ -94,21 +94,21 @@ This node provides the available code lists for SAP specific codes. For example 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `FieldDescription`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `languageCode`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..unbounded
 

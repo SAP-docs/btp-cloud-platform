@@ -47,6 +47,3 @@ Navigate to *Maintain Business User*
 
 If you need support or experience issues, please report an incident under component `CA-GTF-BUM`.
 
--   **[How to Select an Employee for Archiving](How_to_Select_an_Employee_for_Archiving_ac6348c.md "")**  
-
-

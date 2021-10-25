@@ -29,11 +29,14 @@ These CDS view entities must meet **all** of the following criteria:
 
         -   They don’t contain the header annotation @ObjectModel.transactionalProcessingEnaled
 
+
+
 -   They don’t represent an analytical query.
 
     -   Reason: Access on SQL-/DB-level doesn’t compute the “correct” results as query contains features that can only be interpreted by an OLAP engine.
 
     -   Criteria: They don’t contain the header annotation @Analytical.query.
+
 
 -   They don’t represent an \(enterprise\) search model.
 
@@ -41,15 +44,18 @@ These CDS view entities must meet **all** of the following criteria:
 
     -   Criteria: They don’t contain the header annotation @EnterpriseSearch.enabled.
 
+
 -   They aren’t implemented via a custom query.
 
     -   Reason: Access on SQL-/DB-level doesn’t compute the correct results as the query is implemented on ABAP-level.
 
     -   Criteria: They don’t contain the header annotation @ObjectModel.query.implementedBy.
 
+
 -   They aren’t implemented via an ABAP-implemented analytical cube.
 
     -   Criteria: They don’t contain the header annotation @Analytics.readClassName.
+
 
 -   They are no private views.
 
@@ -57,11 +63,13 @@ These CDS view entities must meet **all** of the following criteria:
 
     -   Criteria: They don’t contain the header annotation @VDM.private.
 
+
 -   They are no extension include views.
 
     -   Reason: Even access on SQL-/DB-level would compute the correct results, those views should only be called locally in the system.
 
     -   Criteria: They don’t contain the header annotation @VDM.viewType: \#EXTENSION.
+
 
 -   They don’t represent derivation functions.
 
@@ -73,6 +81,8 @@ These CDS view entities must meet **all** of the following criteria:
 
         -   No header annotation @ObjectModel.derivationFunction
 
+
+
 -   They don’t contain elements that meet one of the following criteria:
 
     -   Virtual elements
@@ -83,12 +93,17 @@ These CDS view entities must meet **all** of the following criteria:
 
             -   They don’t contain the header annotations @ObjectModel.virtualElement or @ObjectModel.virtualElementCalculatedBy.
 
+
+
     -   Private elements
 
         -   Criteria: They don’t contain the header annotation @Consumption.hidden.
 
+
     -   Derived elements
 
         -   Criteria: They don’t contain the header annotation @ObjectModel.value.derivedFrom.
+
+
 
 

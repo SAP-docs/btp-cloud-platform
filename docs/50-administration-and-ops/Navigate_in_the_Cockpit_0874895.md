@@ -1,5 +1,7 @@
 <!-- loio0874895f1f78459f9517da55a11ffebd -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Navigate in the Cockpit
 
 Learn how to navigate to your global accounts and subaccounts in the SAP BTP cockpit.
@@ -24,18 +26,20 @@ Learn how to navigate to your global accounts and subaccounts in the SAP BTP coc
 2.  Become familiar with the navigation behavior in the SAP BTP cockpit.
 
     -    [Navigate in the Cockpit to Global Accounts and Subaccounts \[Feature Set A\]](Navigate_in_the_Cockpit_0874895.md#loio0874895f1f78459f9517da55a11ffebd__Navigate-FSA) 
+
     -   [Navigate in the Cockpit to Global Accounts and Subaccounts \[Feature Set B\]](Navigate_in_the_Cockpit_0874895.md#loio0874895f1f78459f9517da55a11ffebd__Navigate-FSB)
+
 
 **Related Information**  
 
 
 [Cloud Management Tools — Feature Set Overview](../10-concepts/Cloud_Management_Tools_—_Feature_Set_Overview_caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 
- <a name="loio0874895f1f78459f9517da55a11ffebd Navigate-FSA__Navigate-FSA"/>
+ <a name="Navigate-FSA"/>
 
 <!-- Navigate-FSA -->
 
-# Navigate in the Cockpit to Global Accounts and Subaccounts \[Feature Set A\]
+## Navigate in the Cockpit to Global Accounts and Subaccounts \[Feature Set A\]
 
 
 
@@ -47,7 +51,7 @@ Learn how to navigate to your global accounts and subaccounts in the SAP BTP coc
 
     You can see the following path in the breadcrumbs:
 
-        Home /     <global\_account\>
+    <span class="SAP-icons"></span> Home / <span class="SAP-icons"></span> <global\_account\>
 
 2.  Navigate to a subaccount.
 
@@ -55,16 +59,17 @@ Learn how to navigate to your global accounts and subaccounts in the SAP BTP coc
 
     2.  Select the subaccount.
 
+
     You can see the following path in the breadcrumbs:
 
-        Home /     <global\_account\> /     <subaccount\>
+    <span class="SAP-icons"></span> Home / <span class="SAP-icons"></span> <global\_account\> / <span class="SAP-icons"></span> <subaccount\>
 
 
- <a name="loio0874895f1f78459f9517da55a11ffebd Navigate-FSB__Navigate-FSB"/>
+ <a name="Navigate-FSB"/>
 
 <!-- Navigate-FSB -->
 
-# Navigate to Global Accounts, Directories, and Subaccounts \[Feature Set B\]
+## Navigate to Global Accounts, Directories, and Subaccounts \[Feature Set B\]
 
 
 
@@ -89,23 +94,27 @@ Learn how to navigate to your global accounts and subaccounts in the SAP BTP coc
         > 
         > To change it, choose the desired new default global account from the list, select *Save new selection as default global account* and choose *Continue*. Your new default is savedand you’re redirected to that global account.
         > 
-        > To delete the default global account and go back to seeing the selection dialog after each logon, simply choose the     icon next to your default global account name in the dialog and choose *Close*.
+        > To delete the default global account and go back to seeing the selection dialog after each logon, simply choose the <span class="SAP-icons"></span> icon next to your default global account name in the dialog and choose *Close*.
 
-    You can see which global account you are in at any time by looking at the first item in the breadcrumbs. It looks like this:     *<global account name\>*
+
+    You can see which global account you are in at any time by looking at the first item in the breadcrumbs. It looks like this: <span class="SAP-icons"></span> *<global account name\>*
 
 2.  Navigate to a different global account.
 
     -   Navigate to the *Account Explorer* page at global account level and choose *Switch Global Account*.
 
-    -   Use the dropdown menu next to the     *<global account name\>*.
+    -   Use the dropdown menu next to the <span class="SAP-icons"></span> *<global account name\>*.
+
 3.  \(Optional\) Navigate to directories.
 
     1.  When you enter your global account, you are by default taken to the *Account Explorer* page of that global account. To navigate to a directory, choose the corresponding entry in one of the views in the *Directories & Subaccounts* tab.
+
 
 4.  Navigate to subaccounts.
 
     1.  When you enter your global account, you are by default taken to the *Account Explorer* page of that global account. To navigate to a subaccount, choose the corresponding entry from one of the views.
 
-        Once you've entered a subaccount, the breadcrumbs look like this:     *<global account name\> /*     *<subaccount name\>*
+        Once you've entered a subaccount, the breadcrumbs look like this: <span class="SAP-icons"></span> *<global account name\> /* <span class="SAP-icons"></span> *<subaccount name\>*
+
 
 

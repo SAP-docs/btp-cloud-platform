@@ -1,6 +1,6 @@
 <!-- loiocc16fd0c10ef4ed39a50ac718c71e5a8 -->
 
-# Working in the Export Customizing Transports App {#exp_cust_transports_title}
+# Working in the Export Customizing Transports App
 
 Find out how to create, check, and release customizing transports using the*Export Customizing Transports* app.
 

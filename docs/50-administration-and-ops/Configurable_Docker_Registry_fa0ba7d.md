@@ -31,6 +31,7 @@ The Kyma environment gives you an option to switch at runtime to a chosen extern
 
 
 
+
 See this example:
 
 > ### Sample Code:  

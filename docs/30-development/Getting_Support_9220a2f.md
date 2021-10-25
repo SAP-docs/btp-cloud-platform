@@ -9,14 +9,14 @@ Create an incident in the SAP Support Portal using one of the following componen
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Service
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Component
 
@@ -25,14 +25,14 @@ Component
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 HTML5 Application Repository
 
 
 
 </td>
-<td>
+<td valign="top">
 
 BC-CP-CF-HTML5
 
@@ -41,14 +41,14 @@ BC-CP-CF-HTML5
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Application Router
 
 
 
 </td>
-<td>
+<td valign="top">
 
 BC-XS-APR
 

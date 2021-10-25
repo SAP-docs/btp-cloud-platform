@@ -14,12 +14,6 @@ In the context of Multitarget applications, you have the following options for u
 -   [Legacy Blue-Green Deployment](Legacy_Blue-Green_Deployment_764308c.md) - where the productive environments are called “blue” and “green”
 -   [Blue-Green Deployment Strategy](Blue-Green_Deployment_Strategy_7c83810.md) - where the production environments are called “live” and “idle”.
 
--   **[Legacy Blue-Green Deployment](Legacy_Blue-Green_Deployment_764308c.md "Use the legacy blue-green deployment strategy of Multitarget
-		applications.")**  
-Use the legacy blue-green deployment strategy of Multitarget applications.
--   **[Blue-Green Deployment Strategy](Blue-Green_Deployment_Strategy_7c83810.md "Use the current blue-green deployment of Multitarget applications.")**  
-Use the current blue-green deployment of Multitarget applications.
-
 **Related Information**  
 
 

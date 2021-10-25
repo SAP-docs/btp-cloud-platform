@@ -18,21 +18,21 @@ The deploy service supports the following methods for the specification of servi
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Method A
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Method B
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Combination of the two methods
 
@@ -41,7 +41,7 @@ Combination of the two methods
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > MTA deployment descriptor or extension
@@ -59,7 +59,7 @@ Combination of the two methods
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > `MTA deployment descriptor or extension`
@@ -92,7 +92,7 @@ Combination of the two methods
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > ```

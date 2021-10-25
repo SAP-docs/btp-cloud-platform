@@ -36,6 +36,7 @@ You have logged into the cockpit and opened the *Destinations* editor.
     1.  In the **Additional Properties** panel, choose *New Property*.
     2.  Enter a key \(name\) or choose one from the dropdown menu and specify a value for the property. You can add as many properties as you need. Each key of an additional property must start with "mail.".
     3.  To delete a property, choose the ![](images/Delete_property_cockpit_321c7c7.png) button next to it.
+
 8.  When you are done, choose *Save*.
 
 

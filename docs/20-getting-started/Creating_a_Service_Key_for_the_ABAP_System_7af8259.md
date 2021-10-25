@@ -41,3 +41,4 @@ You can use service keys to generate credentials to communicate directly with a 
     -   The content of the `clientsecret` element in the `uaa` section
     -   The URL from the `url` element in the `uaa` section
 
+

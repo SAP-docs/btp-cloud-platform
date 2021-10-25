@@ -25,8 +25,3 @@ For each of the scenarios, we show you how to proceed here.
 
 For using SQL EXPLAIN and SQL trace analysis, you need a business role based on the business role template `SAP_BR_DEVELOPER`.
 
--   **[Analyzing SQL Statements of Your Application](Analyzing_SQL_Statements_of_Your_Application_b72f289.md "")**  
-
--   **[Analyzing SQL Statements in the Context of What Else Is Going On on the Database](Analyzing_SQL_Statements_in_the_Context_of_What_Else_Is_Going_On_on_the_Database_bae88ec.md "")**  
-
-

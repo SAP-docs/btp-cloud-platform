@@ -12,10 +12,3 @@ Changes to the operating model defined for the services in scope are published u
 
 It isn't the intent of this document to supplement or modify the contractual agreement between the operator and the customer for the purchase of any of the services in scope. In the event of a conflict, the contractual agreement between the operator and the customer as set out in the Order Form, the General Terms and Conditions, the supplemental terms and conditions, and any resources referenced by those documents always takes precedence over this document.
 
--   **[Operating Model in the Cloud Foundry Environment](Operating_Model_in_the_Cloud_Foundry_Environment_de55b6e.md "This operating model clearly defines the separation of tasks between the operator and
-		the customer during all phases of an integration project.")**  
-This operating model clearly defines the separation of tasks between the operator and the customer during all phases of an integration project.
--   **[Operating Model in the Kyma Environment](Operating_Model_in_the_Kyma_Environment_862b96b.md "This operating model clearly defines the separation of tasks between SAP and the
-		customer during all phases of an integration project.")**  
-This operating model clearly defines the separation of tasks between SAP and the customer during all phases of an integration project.
-

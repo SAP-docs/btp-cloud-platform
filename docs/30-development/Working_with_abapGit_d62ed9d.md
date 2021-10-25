@@ -22,21 +22,6 @@ Learn how to:
 > 
 > For issues related to the community open-source distribution of abapGit, create an issue at [https://github.com/abapGit/abapGit/issues](https://github.com/abapGit/abapGit/issues).
 
--   **[Install and Set Up abapGit](Install_and_Set_Up_abapGit_2002380.md "Learn how to install and set up abapGit.")**  
-Learn how to install and set up abapGit.
--   **[Create Content in an On-Premise System and Push it to abapGit Repository](Create_Content_in_an_On-Premise_System_and_Push_it_to_abapGit_Repository_2af08ee.md "")**  
-
--   **[Import Content from abapGit Repository into the ABAP Environment](Import_Content_from_abapGit_Repository_into_the_ABAP_Environment_0b0d894.md "Learn how to import content from your abapGit repository into your ABAP
-                                environment, and
-		transfer it across multiple instances.")**  
-Learn how to import content from your abapGit repository into your ABAP environment, and transfer it across multiple instances.
--   **[Transfer your ABAP Source Code via abapGit](Transfer_your_ABAP_Source_Code_via_abapGit_3d734be.md "Use abapGit to transfer your ABAP source code from an ABAP
-                                environment	 instance back to your
-		repository.")**  
-Use abapGit to transfer your ABAP source code from an ABAP environment instance back to your repository.
--   **[Released ABAP Object Types](Released_ABAP_Object_Types_b31aa03.md "")**  
-
-
 **Related Information**  
 
 

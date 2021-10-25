@@ -42,19 +42,6 @@ In addition, the app supports the integration with Git.
 -   Smartphone
 
 
--   **[How to Display Available Software Components](How_to_Display_Available_Software_Components_8a501fa.md "")**  
-
--   **[How to Create Software Components](How_to_Create_Software_Components_67e2f2e.md "")**  
-
--   **[How to Clone Software Components](How_to_Clone_Software_Components_18564c5.md "")**  
-
--   **[How to Pull Software Component](How_to_Pull_Software_Component_90b9b9d.md "")**  
-
--   **[How to Delete Software Components](How_to_Delete_Software_Components_a982ba3.md "")**  
-
--   **[How to Work with Branches](How_to_Work_with_Branches_6b2f0bf.md "")**  
-
-
 **Related Information**  
 
 

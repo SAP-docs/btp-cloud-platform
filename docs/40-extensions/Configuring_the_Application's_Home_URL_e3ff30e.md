@@ -53,7 +53,9 @@ To configure the *Home URL*, proceed as follows:
     > -   In the *Single Sign-On URL Handling* section, copy and save the URL from the *SSO URL* field. If this URL starts with uppercase *HTTPS* protocol, replace it with ***https***.
 
     -   If you are configuring the URL for the first time, type the address in the pop-up dialog that appears.
+
     -   If you are editing the URL, choose *Edit* from the list item, and type the new address in the pop-up dialog.
+
 5.  Save your changes.
 
     Once the application has been updated, the system displays the message ***Application <name of application\> updated***.

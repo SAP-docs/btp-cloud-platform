@@ -8,10 +8,3 @@ This CF CLI plugin is only available for ServiceFabrik broker, so it can only be
 
 To use the functionality, use the SAP BTP cockpit or the extended Cloud Foundry commands in the command line interface.
 
--   **[Install the Service Fabrik Plugin](Install_the_Service_Fabrik_Plugin_c952fe4.md "The Service Fabrik plugin lets you manage backups of a service instance by extending
-		Cloud Foundry commands.")**  
-The Service Fabrik plugin lets you manage backups of a service instance by extending Cloud Foundry commands.
--   **[Extended Cloud Foundry Commands of Service Fabrik](Extended_Cloud_Foundry_Commands_of_Service_Fabrik_10dbd46.md "The Service Fabrik plugin provides commands that support backup and restore
-		operations.")**  
-The Service Fabrik plugin provides commands that support backup and restore operations.
-

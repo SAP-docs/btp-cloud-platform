@@ -40,15 +40,3 @@ For setting up SAP Business Application Studio, you need the following:
 3.  Create a service key for your ABAP system, which you will need to set up a service destination \(see [Creating a Service Key for the ABAP System](Creating_a_Service_Key_for_the_ABAP_System_7af8259.md)\).
 4.  To connect your ABAP system with SAP Business Application Studio, set up a destination in the same subaccount in which you have subscribed to SAP Business Application Studio \(see [Creating a Destination to the ABAP System for SAP Business Application Studio](Creating_a_Destination_to_the_ABAP_System_for_SAP_Business_Application_Studio_e597948.md)\).
 
--   **[Subscribing to SAP Business Application Studio](Subscribing_to_SAP_Business_Application_Studio_0a9b42e.md "If developers want to use SAP Business Application Studio as development environment for UIs, you need to subscribe to SAP Business
-		Application Studio in your subaccount.")**  
-If developers want to use SAP Business Application Studio as development environment for UIs, you need to subscribe to SAP Business Application Studio in your subaccount.
--   **[Assigning Permissions for SAP Business Application Studio](Assigning_Permissions_for_SAP_Business_Application_Studio_a08c1cb.md "Use the available role collection  Business_Application_Studio_Developer to assign the relevant
-		permissions to your developers to work in SAP Business Application Studio.")**  
-Use the available role collection `Business_Application_Studio_Developer` to assign the relevant permissions to your developers to work in SAP Business Application Studio.
--   **[Creating a Service Key for the ABAP System](Creating_a_Service_Key_for_the_ABAP_System_7af8259.md "Create a service key for the ABAP system, which will later be needed to configure a destination from SAP Business Application Studio to
-		the ABAP system.")**  
-Create a service key for the ABAP system, which will later be needed to configure a destination from SAP Business Application Studio to the ABAP system.
--   **[Creating a Destination to the ABAP System for SAP Business Application Studio](Creating_a_Destination_to_the_ABAP_System_for_SAP_Business_Application_Studio_e597948.md "")**  
-
-

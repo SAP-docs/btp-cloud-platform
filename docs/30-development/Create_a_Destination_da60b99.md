@@ -17,14 +17,14 @@ In the SAP BTP cockpit, you need to create a destination to enable the communica
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Field
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Value
 
@@ -33,14 +33,14 @@ In the SAP BTP cockpit, you need to create a destination to enable the communica
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Name
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter the destination name. This name is also used in the SAP Web IDE as the destination name in the service task properties.
 
@@ -49,14 +49,14 @@ In the SAP BTP cockpit, you need to create a destination to enable the communica
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Type
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Select *HTTP*.
 
@@ -65,14 +65,14 @@ In the SAP BTP cockpit, you need to create a destination to enable the communica
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Description
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter a description.
 
@@ -81,14 +81,14 @@ In the SAP BTP cockpit, you need to create a destination to enable the communica
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     URL
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     URL for the ABAP environment. The format is: `https://*****.ondemand.com/`.
 
@@ -99,14 +99,14 @@ In the SAP BTP cockpit, you need to create a destination to enable the communica
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Proxy Type
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
      *Internet* 
 
@@ -115,14 +115,14 @@ In the SAP BTP cockpit, you need to create a destination to enable the communica
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Authentication
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Select *BasicAuthentication*.
 
@@ -131,14 +131,14 @@ In the SAP BTP cockpit, you need to create a destination to enable the communica
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     User
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Set the user to the client ID as specified for the inbound communication.
 
@@ -147,14 +147,14 @@ In the SAP BTP cockpit, you need to create a destination to enable the communica
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Password
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Set the password to the secret.
 

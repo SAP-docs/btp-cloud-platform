@@ -18,47 +18,49 @@ To configure an RFC destination in the SAP BTP cockpit, perform the following st
 6.  \(Optional\) Enter a description for the destination.
 7.  Specify the destination *<URL\>*.
 8.  For *<Proxy Type\>*, select ***Internet*** or ***OnPremise*** from the value help.
-9.  For *<Authentication\>*, select one of these authentication methods for your proxy type:
+9.  Depending on the selected proxy type, choose one of these options for logon:
     -    **Internet**:
-        -   ***BasicAuthentication***
+        -   ***BasicAuthentication***: Fill the *<User\>* and *<Password\>* fields. If an alias logon is required, use the field *<Alias User\>*.
 
-        -   ***ClientCertificateAuthentication*** 
+        -   ***ClientCertificateAuthentication***: Use the additional property `jco.client.tls_client_certificate_logon` with value ***1*** to enable client certificate authentication.
 
             > ### Note:  
             > For client certificate authentication, you must upload the X.509 client certificate in P12 format on the client side, using the *Maintain Client Certificates* application. For more information, see [Maintain Client Certificates](../50-administration-and-ops/Maintain_Client_Certificates_7f6a8fb.md). Uploading the client certificate via the Destination service is not supported.
 
-    -   **OnPremise**:
-        -   ***BasicAuthentication***
 
-        -   ***PrincipalPropagation***
+    -   **OnPremise**:
+        -   ***BasicAuthentication***: Fill the *<User\>* and *<Password\>* fields.
+
+        -   ***PrincipalPropagation***: Use the additional property `jco.destination.auth_type` with value ***PrincipalPropagation*** to enable principal propagation.
 
             > ### Note:  
             > The use of authentication type `PrincipalPropagation` for a destination is not supported in the ADT class runner.
 
-10. If you use basic authentication, set a user name and credentials for the destination.
-11. If you are using more than one Cloud Connector for on-premise connectivity in your subaccount, you must enter the *<Location ID\>* of the target Cloud Connector. See also [Managing Subaccounts](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/f16df12fab9f4fe1b8a4122f0fd54b6e.html) \(section **Procedure**, step 4\).
-12. Depending on the proxy type of your RFC destination, specify at least the following JCo properties in section *Additional Properties*.
+
+
+10. If you are using more than one Cloud Connector for on-premise connectivity in your subaccount, you must enter the *<Location ID\>* of the target Cloud Connector. See also [Managing Subaccounts](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/f16df12fab9f4fe1b8a4122f0fd54b6e.html) \(section **Procedure**, step 4\).
+11. Depending on the proxy type of your RFC destination, specify at least the following JCo properties in section *Additional Properties*.
     1.  In the *Additional Properties* panel, choose *New Property*.
     2.  Add each required property from the dropdown menu and specify its value:
 
 
         <table>
         <tr>
-        <th>
+        <th valign="top">
 
         Proxy Type
 
 
         
         </th>
-        <th>
+        <th valign="top">
 
         Property
 
 
         
         </th>
-        <th>
+        <th valign="top">
 
         Description
 
@@ -67,14 +69,14 @@ To configure an RFC destination in the SAP BTP cockpit, perform the following st
         </th>
         </tr>
         <tr>
-        <td rowspan="9">
+        <td valign="top" rowspan="9">
 
         **OnPremise**
 
 
         
         </td>
-        <td colspan="2">
+        <td valign="top" colspan="2">
 
         **Load Balancing Connections**
 
@@ -83,14 +85,14 @@ To configure an RFC destination in the SAP BTP cockpit, perform the following st
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `jco.client.r3name`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Three-letter system ID of your backend system \(as configured in the Cloud Connector\).
 
@@ -99,14 +101,14 @@ To configure an RFC destination in the SAP BTP cockpit, perform the following st
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `jco.client.mshost`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Message server host \(as configured in the Cloud Connector\).
 
@@ -115,14 +117,14 @@ To configure an RFC destination in the SAP BTP cockpit, perform the following st
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `jco.client.group`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         \(Optional\) The group of application servers that is used \(logon group\). If not specified, the group `PUBLIC` is used.
 
@@ -131,14 +133,14 @@ To configure an RFC destination in the SAP BTP cockpit, perform the following st
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `jco.client.client`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Three-digit ABAP client number \(defines the client of your backend ABAP system\).
 
@@ -147,7 +149,7 @@ To configure an RFC destination in the SAP BTP cockpit, perform the following st
         </td>
         </tr>
         <tr>
-        <td colspan="2">
+        <td valign="top" colspan="2">
 
         **Direct Connections** 
 
@@ -156,14 +158,14 @@ To configure an RFC destination in the SAP BTP cockpit, perform the following st
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `jco.client.ashost`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Application server name of your backend system \(as configured in the Cloud Connector\).
 
@@ -172,14 +174,14 @@ To configure an RFC destination in the SAP BTP cockpit, perform the following st
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `jco.client.sysnr`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Instance number of the application server \(as configured in the Cloud Connector\).
 
@@ -188,14 +190,14 @@ To configure an RFC destination in the SAP BTP cockpit, perform the following st
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `jco.client.client`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Three-digit ABAP client number \(defines the client of your backend ABAP system\).
 
@@ -204,21 +206,21 @@ To configure an RFC destination in the SAP BTP cockpit, perform the following st
         </td>
         </tr>
         <tr>
-        <td rowspan="4">
+        <td valign="top" rowspan="3">
 
         **Internet**
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         `jco.client.wshost`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         WebSocket RFC server host on which the target ABAP system is running. The system must be exposed to the Internet.
 
@@ -227,14 +229,14 @@ To configure an RFC destination in the SAP BTP cockpit, perform the following st
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `jco.client.wsport`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         WebSocket RFC server port on which the target ABAP system is listening.
 
@@ -243,32 +245,16 @@ To configure an RFC destination in the SAP BTP cockpit, perform the following st
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `jco.client.client`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Three-digit ABAP client number \(defines the client of the target ABAP system\).
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td>
-
-        `jco.client.tls_client_certificate_logon`
-
-
-        
-        </td>
-        <td>
-
-        Enables client certificate authentication if set to ***1***.
 
 
         
@@ -278,7 +264,8 @@ To configure an RFC destination in the SAP BTP cockpit, perform the following st
         
         For a detailed description of RFC-specific properties \(JCo properties\), see [RFC Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/238d027c154541f597201a0002713c86.html).
 
-13. Press *Save*.
+
+12. Press *Save*.
 
 
 

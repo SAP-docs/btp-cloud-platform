@@ -48,14 +48,14 @@ In order to access this service, you need to:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Service Entity
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -64,14 +64,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Branches](Branches_bbaf3c1.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Branches of a software component
 
@@ -80,14 +80,14 @@ Branches of a software component
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Clones](Clones_9cfbb42.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Clone job of a software component
 
@@ -96,14 +96,14 @@ Clone job of a software component
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Execution Log](Execution_Log_3c1ec56.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Execution Log of a software component
 
@@ -112,14 +112,14 @@ Execution Log of a software component
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Pull](Pull_3198c2a.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Pull job of a software component
 
@@ -128,14 +128,14 @@ Pull job of a software component
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Transport Log](Transport_Log_ed88be1.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Transport log of an impored transport
 
@@ -144,15 +144,4 @@ Transport log of an impored transport
 </td>
 </tr>
 </table>
-
--   **[Branches](Branches_bbaf3c1.md "")**  
-
--   **[Clones](Clones_9cfbb42.md "")**  
-
--   **[Execution Log](Execution_Log_3c1ec56.md "")**  
-
--   **[Pull](Pull_3198c2a.md "")**  
-
--   **[Transport Log](Transport_Log_ed88be1.md "")**  
-
 

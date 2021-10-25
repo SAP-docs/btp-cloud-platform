@@ -50,6 +50,8 @@ We recommend this method of logging on if you want to use an automated script an
 
         3.  Find the `*<origin\>*` value of your user in the table.
 
+
     -   If two-factor authentication is enabled, concatenate your password and the passcode in a single string.
+
 
 

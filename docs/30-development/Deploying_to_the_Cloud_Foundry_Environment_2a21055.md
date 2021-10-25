@@ -38,20 +38,3 @@ If you prefer to develop on your local machine, you can deploy your application 
 
 If you want a higher degree of freedom when realizing your project, you can also deploy your applications and services using Docker images and the Cloud Foundry Command Line Interface \(CF CLI\). Note that Docker images can't be used in combination with buildpacks. For more information, see [Deploy Docker Images in the Cloud Foundry Environment](Deploy_Docker_Images_in_the_Cloud_Foundry_Environment_c190ad6.md).
 
--   **[Multitarget Applications in the Cloud Foundry Environment](Multitarget_Applications_in_the_Cloud_Foundry_Environment_d04fc0e.md "A Multitarget application (MTA) is logically a single application comprised of
-		multiple parts created with different technologies, which share the same
-		lifecycle.")**  
-A Multitarget application \(MTA\) is logically a single application comprised of multiple parts created with different technologies, which share the same lifecycle.
--   **[Continuous Integration and Delivery](Continuous_Integration_and_Delivery_fdead30.md#loiofdead30953d24c0ca75768e2c3bcdd2c "Learn how to integrate CI/CD into your development with the SAP Cloud Application
-		Programming Model (CAP).")**  
-Learn how to integrate CI/CD into your development with the SAP Cloud Application Programming Model \(CAP\).
--   **[Deploy Business Applications in the Cloud Foundry Environment](Deploy_Business_Applications_in_the_Cloud_Foundry_Environment_4946ea5.md "When an application for the Cloud
-                                Foundry
-		environment resides in a folder on your local machine, you can deploy it and start it by
-		executing the command line interface (CLI) command push. To deploy
-		business applications bundled in a multitarget application archive, you have to use the
-		command deploy-mta.")**  
-When an application for the Cloud Foundry environment resides in a folder on your local machine, you can deploy it and start it by executing the command line interface \(CLI\) command `push`. To deploy business applications bundled in a multitarget application archive, you have to use the command `deploy-mta`.
--   **[Deploy Docker Images in the Cloud Foundry Environment](Deploy_Docker_Images_in_the_Cloud_Foundry_Environment_c190ad6.md "The high-level steps to application deployment using Docker images. ")**  
-The high-level steps to application deployment using Docker images.
-

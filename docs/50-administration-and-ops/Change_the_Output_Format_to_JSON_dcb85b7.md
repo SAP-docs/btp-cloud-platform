@@ -91,8 +91,6 @@ btp list --format json accounts/subaccount
 } 
 ```
 
-**Parent topicColonSymbol** [General Commands and Options in the btp CLI](General_Commands_and_Options_in_the_btp_CLI_11d9f67.md "Learn how to work with the SAP BTP command line interface (btp CLI). For example, how to log in, get help, and set a default context for commands.")
-
 **Related Information**  
 
 

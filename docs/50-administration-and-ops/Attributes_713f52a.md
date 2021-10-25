@@ -33,14 +33,14 @@ For each attribute, administrators have multiple options to specify the value wh
     > 
     > <table>
     > <tr>
-    > <th>
+    > <th valign="top">
     > 
     > Attribute from Identity Provider
     > 
     > 
     > 
     > </th>
-    > <th>
+    > <th valign="top">
     > 
     > Automatically Mapped to Attribute
     > 
@@ -49,14 +49,14 @@ For each attribute, administrators have multiple options to specify the value wh
     > </th>
     > </tr>
     > <tr>
-    > <td>
+    > <td valign="top">
     > 
     >  *first\_name* 
     > 
     > 
     > 
     > </td>
-    > <td>
+    > <td valign="top">
     > 
     >  *given\_name* 
     > 
@@ -65,14 +65,14 @@ For each attribute, administrators have multiple options to specify the value wh
     > </td>
     > </tr>
     > <tr>
-    > <td>
+    > <td valign="top">
     > 
     >  *last\_name* 
     > 
     > 
     > 
     > </td>
-    > <td>
+    > <td valign="top">
     > 
     >  *family\_name* 
     > 
@@ -81,14 +81,14 @@ For each attribute, administrators have multiple options to specify the value wh
     > </td>
     > </tr>
     > <tr>
-    > <td>
+    > <td valign="top">
     > 
     >  *mail* 
     > 
     > 
     > 
     > </td>
-    > <td>
+    > <td valign="top">
     > 
     >  *email* 
     > 
@@ -102,19 +102,6 @@ For each attribute, administrators have multiple options to specify the value wh
 
     In this case, you want to express that it is not necessary to set a specific value for this attribute. The behavior is the same as if the attribute would not exist for this role.
 
-
--   **[Specify Attributes in a Role](Specify_Attributes_in_a_Role_4827f0b.md "As an administrator of the Cloud
-                                Foundry
-		environment, you can specify attributes in roles to refine authorizations of the business
-		users. Depending on these attributes, business users with this role have restricted access
-		to data.")**  
-As an administrator of the Cloud Foundry environment, you can specify attributes in roles to refine authorizations of the business users. Depending on these attributes, business users with this role have restricted access to data.
--   **[Specify Attributes in a New Role](Specify_Attributes_in_a_New_Role_ab089a9.md "As an administrator of the Cloud
-                                Foundry
-		environment, you can specify attributes in a new role to refine authorizations of business
-		users. Depending on these attributes, business users with this role have restricted access
-		to data.")**  
-As an administrator of the Cloud Foundry environment, you can specify attributes in a new role to refine authorizations of business users. Depending on these attributes, business users with this role have restricted access to data.
 
 **Related Information**  
 

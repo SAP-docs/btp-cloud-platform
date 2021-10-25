@@ -14,6 +14,7 @@
 
     -   [Create an SAP S/4HANA Extensibility Service Instance in the Kyma Environment](Create_an_SAP_S4HANA_Extensibility_Service_Instance_in_the_Kyma_Environment_55d876e.md)
 
+
 -   You have configured event topics for the channel inside SAP S/4HANA Cloud tenant. See [Configure Event Topics in SAP S/4HANA Cloud](Configure_Event_Topics_in_SAP_S4HANA_Cloud_f5bbc57.md).
 
 
@@ -43,14 +44,14 @@ Define the details of your message client in SAP Event Mesh as parameters in a d
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Process Step
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Related Documentation
 
@@ -59,14 +60,14 @@ Related Documentation
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1. Create an SAP Event Mesh service instance with service plan `default`.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   [Create an SAP Event Mesh Service Instance in the Cloud Foundry Environment](Create_an_SAP_Event_Mesh_Service_Instance_in_the_Cloud_Foundry_Environment_c2d4d87.md)
 
@@ -78,14 +79,14 @@ Related Documentation
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 2. Define a dedicated JSON file that you add either when creating the SAP Event Mesh service instance, or after that.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Define SAP Event Mesh Service Descriptor JSON File](Define_SAP_Event_Mesh_Service_Descriptor_JSON_File_5722fc4.md) 
 
@@ -94,14 +95,14 @@ Related Documentation
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 3. Create a queue in the message client that refers to the SAP Event Mesh service instance and then subscribe the topic of the namespace of the SAP S/4HANA Cloud Extensibility service to that queue.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Create Queues and Subscribe to Them](Create_Queues_and_Subscribe_to_Them_e54e609.md) 
 
@@ -110,21 +111,4 @@ Related Documentation
 </td>
 </tr>
 </table>
-
--   **[Create an SAP Event Mesh Service Instance in the Cloud Foundry Environment](Create_an_SAP_Event_Mesh_Service_Instance_in_the_Cloud_Foundry_Environment_c2d4d87.md "Use this procedure to enable the SAP Event
-                                        Mesh service for the
-		subaccount where your extension application will reside.")**  
-Use this procedure to enable the SAP Event Mesh service for the subaccount where your extension application will reside.
--   **[Create an SAP Event Mesh Service Instance in the Kyma Environment](Create_an_SAP_Event_Mesh_Service_Instance_in_the_Kyma_Environment_3de02d2.md "Use this procedure to enable the SAP Event
-                                        Mesh service for the
-		subaccount where your extension application will reside.")**  
-Use this procedure to enable the SAP Event Mesh service for the subaccount where your extension application will reside.
--   **[Define SAP Event Mesh Service Descriptor JSON File](Define_SAP_Event_Mesh_Service_Descriptor_JSON_File_5722fc4.md "The SAP Event
-                                        Mesh service descriptor defines details of a
-        message client and needs to be provided when provisioning new SAP Event
-                                        Mesh service
-        instances with service plan default.")**  
-The SAP Event Mesh service descriptor defines details of a message client and needs to be provided when provisioning new SAP Event Mesh service instances with service plan `default`.
--   **[Create Queues and Subscribe to Them](Create_Queues_and_Subscribe_to_Them_e54e609.md "")**  
-
 

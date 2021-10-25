@@ -15,14 +15,14 @@ Use method `READ` to read a unit of measurement.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -31,14 +31,14 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 UNIT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Internal unit of measurement
 
@@ -59,21 +59,21 @@ Internal unit of measurement
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Field Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -82,21 +82,21 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 UNIT\_ST
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Structure for reading a unit of measurement
 
@@ -105,21 +105,21 @@ Structure for reading a unit of measurement
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 UNIT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Internal unit of measurement
 
@@ -128,21 +128,21 @@ Internal unit of measurement
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 COMMERCIAL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Commercial/external measurement unit format
 
@@ -151,21 +151,21 @@ Commercial/external measurement unit format
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 TECHNICAL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Technical measurement unit format
 
@@ -174,21 +174,21 @@ Technical measurement unit format
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEC\_ROUND
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number of decimal places to which this measurement unit should be rounded for conversion
 
@@ -197,21 +197,21 @@ Number of decimal places to which this measurement unit should be rounded for co
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DIMID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Dimension key
 
@@ -220,21 +220,21 @@ Dimension key
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 NUMERATOR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Numerator for conversion to SI unit
 
@@ -243,21 +243,21 @@ Numerator for conversion to SI unit
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DENOMINATOR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Denominator for conversion into SI unit
 
@@ -266,21 +266,21 @@ Denominator for conversion into SI unit
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 EXPONENT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Base ten exponent for conversion to SI unit
 
@@ -289,21 +289,21 @@ Base ten exponent for conversion to SI unit
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CONSTANT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Additive constant for conversion to SI unit
 
@@ -312,21 +312,21 @@ Additive constant for conversion to SI unit
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEC\_DISP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number of decimal places with which this measurement unit is displayed
 
@@ -335,21 +335,21 @@ Number of decimal places with which this measurement unit is displayed
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ISOCODE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ISO code for measurement units. An ISO code can be assigned to several internal measurement units of a dimension.
 
@@ -358,21 +358,21 @@ ISO code for measurement units. An ISO code can be assigned to several internal 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 PRIMARY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Unit of measure flagged as a primary unit for an ISO code
 
@@ -385,21 +385,21 @@ Unit of measure flagged as a primary unit for an ISO code
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 TEXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Description of a unit of measurement
 
@@ -408,21 +408,21 @@ Description of a unit of measurement
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 LONG\_TEXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Long description of a unit of measurement
 

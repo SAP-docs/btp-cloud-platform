@@ -13,21 +13,21 @@ You assign business catalogs to business roles that are assigned to business use
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Business Role Catalog
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Authorizations
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Restrictions
 
@@ -36,7 +36,7 @@ Restrictions
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Identity and Access Management*
 
@@ -45,14 +45,14 @@ SAP\_CORE\_BC\_IAM
 
 
 </td>
-<td>
+<td valign="top">
 
 All authorizations for the IAM apps
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Business catalog was set to obsolete due to potential SoD \(segregation of duties\) conflicts. Please use the other three catalogs listed below.
 
@@ -61,7 +61,7 @@ Business catalog was set to obsolete due to potential SoD \(segregation of dutie
 </td>
 </tr>
 <tr>
-<td rowspan="3">
+<td valign="top" rowspan="3">
 
 *User Management*
 
@@ -70,14 +70,14 @@ SAP\_CORE\_BC\_IAM\_UM
 
 
 </td>
-<td>
+<td valign="top">
 
 Maintain Business Users
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Not possible to assign business roles to the business users
 
@@ -86,14 +86,14 @@ Not possible to assign business roles to the business users
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Display Technical Users
 
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
@@ -102,14 +102,14 @@ None
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IAM Information System
 
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
@@ -118,7 +118,7 @@ None
 </td>
 </tr>
 <tr>
-<td rowspan="4">
+<td valign="top" rowspan="4">
 
 *Role Management*
 
@@ -127,14 +127,14 @@ SAP\_CORE\_BC\_IAM\_RM
 
 
 </td>
-<td>
+<td valign="top">
 
 Maintain Business Roles
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Not possible to assign business roles to the business users
 
@@ -143,14 +143,14 @@ Not possible to assign business roles to the business users
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Business Role Templates
 
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
@@ -159,14 +159,14 @@ None
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Business Catalogs
 
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
@@ -175,14 +175,14 @@ None
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IAM Information System
 
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
@@ -191,7 +191,7 @@ None
 </td>
 </tr>
 <tr>
-<td rowspan="3">
+<td valign="top" rowspan="3">
 
 *Role Assignment*
 
@@ -200,14 +200,14 @@ SAP\_CORE\_BC\_IAM\_RA
 
 
 </td>
-<td>
+<td valign="top">
 
 Maintain Business Users
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Only possible to assign business roles to the business users. Not possible to change the user data.
 
@@ -216,14 +216,14 @@ Only possible to assign business roles to the business users. Not possible to ch
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Maintain Business Roles
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Only possible to assign business roles to the business users. Not possible to change the business roles
 
@@ -232,14 +232,14 @@ Only possible to assign business roles to the business users. Not possible to ch
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IAM Information System
 
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 

@@ -19,21 +19,21 @@
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 HTTP Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Operation
 
@@ -42,21 +42,21 @@ Operation
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 GET
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Read pull
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -65,21 +65,21 @@ Read pull
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 POST
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Trigger a pull job
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -98,28 +98,28 @@ Trigger a pull job
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 HTTP Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Operation
 
 
 
 </th>
-<th>
+<th valign="top">
 
 URI
 
@@ -128,28 +128,28 @@ URI
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 GET
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Associationl
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 /sap/opu/odata/sap/MANAGE\_GIT\_REPOSITORY /Pull\(guid’UUID’\)/to\_Executiong\_log
 
@@ -158,28 +158,28 @@ Associationl
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 GET
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Associationl
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 /sap/opu/odata/sap/MANAGE\_GIT\_REPOSITORY /Pull\(guid’UUID’\)/to\_Transport\_log
 
@@ -198,14 +198,14 @@ Associationl
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -214,14 +214,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 uuid
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ID of the job
 
@@ -230,14 +230,14 @@ ID of the job
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 sc\_name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Name of the software component
 
@@ -246,14 +246,14 @@ Name of the software component
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 branch\_name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Name of the branch
 
@@ -262,14 +262,14 @@ Name of the branch
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 commit\_id
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Commit ID
 
@@ -278,14 +278,14 @@ Commit ID
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 import\_type
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Type of import
 
@@ -294,14 +294,14 @@ Type of import
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 status
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Status of the job
 
@@ -310,14 +310,14 @@ Status of the job
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 status\_descr
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Status description
 
@@ -326,14 +326,14 @@ Status description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 user\_name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Name of the user who triggered the action
 
@@ -342,14 +342,14 @@ Name of the user who triggered the action
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 start\_time
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Start time of the job
 
@@ -358,14 +358,14 @@ Start time of the job
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 change\_time
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Last update of the job
 
@@ -374,9 +374,4 @@ Last update of the job
 </td>
 </tr>
 </table>
-
--   **[Read Pull](Read_Pull_5de83f9.md "")**  
-
--   **[Create Pull](Create_Pull_c4b8a97.md "")**  
-
 

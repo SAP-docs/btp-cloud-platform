@@ -24,6 +24,7 @@ Use abapGit to transfer your ABAP source code from an ABAP environment instance 
         ![](images/image4_002c889.png)
 
     6.  Save and activate.
+
 2.  Open abapGit repositories:
 
     1.  Select your **ABAP system** in the Project Explorer and select *Windows* \> *Show View* \> *Other...* to open the *abapGit* repositories.
@@ -33,6 +34,7 @@ Use abapGit to transfer your ABAP source code from an ABAP environment instance 
     2.  Search for *abapGit repositories*, select it and click *Open*.
 
         ![](images/img6_ab280cf.png)
+
 
 3.  Stage and commit your ABAP development objects.
     1.  Right-click your *TESTABAPGIT* package and click *Stage and Push*.
@@ -52,5 +54,6 @@ Use abapGit to transfer your ABAP source code from an ABAP environment instance 
     6.  The staged objects have now been transferred to your repository.
 
         ![](images/img100_17a4575.png)
+
 
 

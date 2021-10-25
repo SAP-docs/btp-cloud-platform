@@ -11,11 +11,11 @@ A **global account** is the realization of a contract you made with SAP. A globa
 -   [Get an Enterprise Account](Getting_a_Global_Account_d61c281.md#loio82f9ff522f754e26ae89e0cd7ec7aa11)
 
 
- <a name="loiod61c2819034b48e68145c45c36acba6e loio42e7e54590424e65969fced1acd47694__loio42e7e54590424e65969fced1acd47694"/>
+ <a name="loio42e7e54590424e65969fced1acd47694"/>
 
 <!-- loio42e7e54590424e65969fced1acd47694 -->
 
-# Get a Trial Account
+## Get a Trial Account
 
 Get a trial account to experience SAP BTP for free and gain access to a comprehensive set of platform services.
 
@@ -70,21 +70,21 @@ Trial accounts are intended for personal exploration, and not for production use
 11. Choose *Go to Space*.
 
 
- <a name="loiod61c2819034b48e68145c45c36acba6e loio82f9ff522f754e26ae89e0cd7ec7aa11__loio82f9ff522f754e26ae89e0cd7ec7aa11"/>
+ <a name="loio82f9ff522f754e26ae89e0cd7ec7aa11"/>
 
 <!-- loio82f9ff522f754e26ae89e0cd7ec7aa11 -->
 
-# Get an Enterprise Account
+## Get an Enterprise Account
 
 To use an enterprise account, you can either purchase a customer account or join the partner program to purchase a partner account.
 
 For more information about the scope of our enterprise offering, see [Enterprise Accounts](../10-concepts/Enterprise_Accounts_171511c.md).
 
- <a name="loiod61c2819034b48e68145c45c36acba6e loio82f9ff522f754e26ae89e0cd7ec7aa11 loioa71a081b39e343e097046bf487f57af3__loioa71a081b39e343e097046bf487f57af3"/>
+ <a name="loioa71a081b39e343e097046bf487f57af3"/>
 
 <!-- loioa71a081b39e343e097046bf487f57af3 -->
 
-# Purchase a Customer Account
+### Purchase a Customer Account
 
 A customer account is an enterprise account that allows you to host productive, business-critical applications with 24x7 support.
 
@@ -96,7 +96,7 @@ After you have purchased your customer account, you will receive an e-mail with 
 
 
 
-<a name="loiod61c2819034b48e68145c45c36acba6e loio82f9ff522f754e26ae89e0cd7ec7aa11 loioa71a081b39e343e097046bf487f57af3__section_pdc_gpc_4kb"/>
+<a name="loioa71a081b39e343e097046bf487f57af3__section_pdc_gpc_4kb"/>
 
 ## Getting a Customer Account in China
 
@@ -107,11 +107,11 @@ If you are located in China and want to buy a global account on SAP BTP, you nee
 
 [Commercial Models](../10-concepts/Commercial_Models_263d400.md "SAP BTP offers two different commercial models for enterprise accounts.")
 
- <a name="loiod61c2819034b48e68145c45c36acba6e loio82f9ff522f754e26ae89e0cd7ec7aa11 loio0730b01feb484396b5a3daaa5115d73d__loio0730b01feb484396b5a3daaa5115d73d"/>
+ <a name="loio0730b01feb484396b5a3daaa5115d73d"/>
 
 <!-- loio0730b01feb484396b5a3daaa5115d73d -->
 
-# Join the Partner Program
+### Join the Partner Program
 
 A partner account is an enterprise account that enables you to build applications and to sell them to your customers.
 
@@ -123,7 +123,7 @@ General information about the partner program is available on [https://www.sap.c
 
 
 
-<a name="loiod61c2819034b48e68145c45c36acba6e loio82f9ff522f754e26ae89e0cd7ec7aa11 loio0730b01feb484396b5a3daaa5115d73d__section_vlj_kkq_qmb"/>
+<a name="loio0730b01feb484396b5a3daaa5115d73d__section_vlj_kkq_qmb"/>
 
 ## Next Steps
 

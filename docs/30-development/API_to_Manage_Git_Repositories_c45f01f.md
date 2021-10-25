@@ -10,13 +10,6 @@ You can use the `MANAGE_GIT_REPOSITORY` API to pull or clone Git repositories to
 > ### Note:  
 > It is currently not possible to execute/trigger multiple actions \(clones/pulls/deletes\) in parallel on one system, regardless of the fact that the calls run asynchronously.
 
--   **[Cloning Git Repositories to an ABAP Environment System](Cloning_Git_Repositories_to_an_ABAP_Environment_System_0552763.md "")**  
-
--   **[Pulling Git Repositories to an ABAP Environment System](Pulling_Git_Repositories_to_an_ABAP_Environment_System_80a8d52.md "")**  
-
--   **[Working with Branches on a Git Repository](Working_with_Branches_on_a_Git_Repository_f571353.md "")**  
-
-
 **Related Information**  
 
 

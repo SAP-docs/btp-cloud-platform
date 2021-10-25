@@ -1,5 +1,7 @@
 <!-- loiode6f0db8919f4e6f97e54bc4ddaf2ab8 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Monitoring Usage and Consumption Costs in Your Global Account
 
 In a global account that uses the consumption-based commercial model, you can monitor the usage of billed services and your consumption costs in the SAP BTP cockpit.
@@ -61,7 +63,7 @@ The global account's *Usage Analytics* page provides information about the usage
 -   In the resource usage views, use the filters to specify which information to display. The *Period* filter applies only to the chart display.
 -   Some rounding or shortening is applied to large values. Mouse over values in the table to view the exact values in the tooltips.
 -   Choose a row in the table to view its historic information in the *Monthly Usage* chart.
--   To display a larger view of a chart, choose the   \(Zoom\)  button.
+-   To display a larger view of a chart, choose the <span style="font-size:16px;"><span class="SAP-icons"></span></span> \(Zoom\) button.
 
 
 
@@ -72,21 +74,21 @@ The global account's *Usage Analytics* page provides information about the usage
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 View
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Action
 
@@ -95,21 +97,21 @@ Action
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Global Account Info** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Displays general information about the global account, including the number of directories and subaccounts it contains, and the number of regions which have these subaccounts.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \[Feature Set B\]: Click the *Directories* or *Subaccounts* links to navigate directly to the *Account Explorer* page.
 
@@ -120,7 +122,7 @@ Displays general information about the global account, including the number of d
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Cloud Credits Usage**
 
@@ -129,7 +131,7 @@ Displays general information about the global account, including the number of d
 
 
 </td>
-<td>
+<td valign="top">
 
 Displays the current balance and monthly usage of cloud credits as a percentage of the cloud credits allocated per contract period.
 
@@ -145,7 +147,7 @@ Alerts are displayed when you have used more than 90% and when you reach 100% of
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -154,7 +156,7 @@ Alerts are displayed when you have used more than 90% and when you reach 100% of
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Global Account Costs**
 
@@ -163,7 +165,7 @@ Alerts are displayed when you have used more than 90% and when you reach 100% of
 
 
 </td>
-<td>
+<td valign="top">
 
 Displays the total cost per month for usage of services in the global account from the contract start date.
 
@@ -174,7 +176,7 @@ Actual costs are updated after the monthly statement is generated.
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -183,14 +185,14 @@ Actual costs are updated after the monthly statement is generated.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Global Account Overview** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Displays usage and costs of all services in the global account. The information is broken down according to service plans. All the regions in which a service plan is available are displayed; however, actual usage is only in the regions of your subaccounts.
 
@@ -205,7 +207,7 @@ The charts display information for each month for all service plans in the table
 
 
 </td>
-<td>
+<td valign="top">
 
 Use the *View By* options to switch the view between service plan usage and costs for the global account.
 
@@ -218,21 +220,21 @@ For the chart display, select a row, and filter by period. If no row is selected
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Service Usage** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Displays resource usage according to service. Some service plans may display usage according to multiple metrics.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Use the filter to select the service and directory or subaccount for which to display usage.
 
@@ -243,21 +245,21 @@ For the chart display, select a row, and filter by period. If no row is selected
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Directory/Subaccount Usage** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Displays resource usage according to subaccount or directory. Some service plans may display usage according to multiple metrics.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Use the filter to select the directory or subaccount for which to display usage.
 
@@ -285,21 +287,21 @@ The document with the relevant data is downloaded. The document contains several
 
 <table>
 <tr>
-<th rowspan="2">
+<th valign="top" rowspan="2">
 
 Sheet Name
 
 
 
 </th>
-<th rowspan="2">
+<th valign="top" rowspan="2">
 
 Description
 
 
 
 </th>
-<th colspan="2">
+<th valign="top" colspan="2">
 
 Commercial Model
 
@@ -308,14 +310,14 @@ Commercial Model
 </th>
 </tr>
 <tr>
-<th>
+<th valign="top">
 
 Subscription-Based
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Consumption-Based
 
@@ -324,28 +326,28 @@ Consumption-Based
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Global Account Info
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provides general information about your global account. If there is a cloud-credit balance for the global account, then its cloud-credit usage, per month as a percentage of your total cloud credits for the current contract period, is also shown.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -354,14 +356,14 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Global Account Costs
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Allows you to view total monthly usage data and costs for all billable services and plans consumed at the level of your global account.
 
@@ -370,14 +372,14 @@ The items listed are all the billed items that are created in the accounting sys
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -386,14 +388,14 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Subaccount Costs by Service
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Allows you to view monthly usage data and costs of all billable services consumed by plan and subaccount.
 
@@ -409,14 +411,14 @@ This sheet is not included in the spreadsheet if your global account is licensed
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -425,14 +427,14 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Actual Usage
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Allows to you to view the actual monthly usage data of all consumed services by plan, subaccount, and space.
 
@@ -443,14 +445,14 @@ The aggregated usage for each service is based on a formula that is specific to 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -466,14 +468,14 @@ Yes
 > 
 > <table>
 > <tr>
-> <td rowspan="2">
+> <td valign="top" rowspan="2">
 > 
 > Subaccount 1
 > 
 > 
 > 
 > </td>
-> <td>
+> <td valign="top">
 > 
 > 1x SAP HANA 256 GB, 200 MB of Application Runtime, and 300 API calls of Destination 
 > 
@@ -482,7 +484,7 @@ Yes
 > </td>
 > </tr>
 > <tr>
-> <td>
+> <td valign="top">
 > 
 > 200 MB of Application Runtime and 300 API calls of Destination 
 > 
@@ -491,14 +493,14 @@ Yes
 > </td>
 > </tr>
 > <tr>
-> <td>
+> <td valign="top">
 > 
 > Subaccount 2
 > 
 > 
 > 
 > </td>
-> <td>
+> <td valign="top">
 > 
 > 1x SAP HANA 512 GB, 600 MB of Application Runtime, and 300 API calls of Destination 
 > 
@@ -513,14 +515,14 @@ Yes
 > 
 > <table>
 > <tr>
-> <th>
+> <th valign="top">
 > 
 > Sheet
 > 
 > 
 > 
 > </th>
-> <th>
+> <th valign="top">
 > 
 > Sample Usage and Cost Data Displayed in Spreadsheet
 > 
@@ -529,14 +531,14 @@ Yes
 > </th>
 > </tr>
 > <tr>
-> <td>
+> <td valign="top">
 > 
 > Global Account Costs
 > 
 > 
 > 
 > </td>
-> <td>
+> <td valign="top">
 > 
 > -   1 instance of SAP HANA 256 = EUR 1024
 > 
@@ -550,14 +552,14 @@ Yes
 > </td>
 > </tr>
 > <tr>
-> <td>
+> <td valign="top">
 > 
 > Subaccount Costs by Service
 > 
 > 
 > 
 > </td>
-> <td>
+> <td valign="top">
 > 
 > -   Subaccount 1: 1 instance of SAP HANA 256 = EUR 1024
 > 
@@ -573,14 +575,14 @@ Yes
 > </td>
 > </tr>
 > <tr>
-> <td>
+> <td valign="top">
 > 
 > Actual Usage
 > 
 > 
 > 
 > </td>
-> <td>
+> <td valign="top">
 > 
 > -   Subaccount 1 | Space A: 1 instance of SAP HANA 256
 > 
@@ -616,5 +618,5 @@ Yes
 
 [View Directory Usage Analytics \[Feature Set B\]](View_Directory_Usage_Analytics_Feature_Set_B_a287782.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your directory.")
 
-[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](Monitoring_Usage_Information_Using_APIs_of_the_SAP_Usage_Data_Management_Service_Feature_Set_B_bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
+[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](Monitoring_Usage_Information_Using_APIs_bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
 

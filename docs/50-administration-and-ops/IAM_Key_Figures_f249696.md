@@ -42,6 +42,3 @@ You can use this app to display the following information:
 
 If you need support or experience issues, please report an incident under component `BC-SRV-APS-IAM`.
 
--   **[IAM Key Figures - Background](IAM_Key_Figures_-_Background_0fdefc5.md "")**  
-
-

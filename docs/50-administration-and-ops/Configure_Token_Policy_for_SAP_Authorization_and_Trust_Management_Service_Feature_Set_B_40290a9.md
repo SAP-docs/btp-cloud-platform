@@ -39,14 +39,14 @@ With a valid access or ID token, you can access a protected resource. Once an ac
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Token Setting
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Description
 
@@ -55,14 +55,14 @@ With a valid access or ID token, you can access a protected resource. Once an ac
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Access Token Validity***
+    *Access Token Validity*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Sets the token lifetime in seconds for access and ID tokens issued by SAP Authorization and Trust Management service. The value ranges from 300 seconds to 99,999,999 seconds, in other words, from 5 minutes to more than 3 years.
 
@@ -73,14 +73,14 @@ With a valid access or ID token, you can access a protected resource. Once an ac
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Refresh Token Validity***
+    *Refresh Token Validity*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Sets the token lifetime in seconds for refresh tokens issued by SAP Authorization and Trust Management service. The value ranges from 600 seconds to 99,999,999 seconds, in other words, from 10 minutes to more than 3 years.
 

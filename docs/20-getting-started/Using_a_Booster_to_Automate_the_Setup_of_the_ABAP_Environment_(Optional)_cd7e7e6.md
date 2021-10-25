@@ -40,6 +40,8 @@ A booster is a set of guided interactive steps that enable you to select, config
         -   A quota for the Cloud Foundry runtime is only needed for the ABAP environment if your developers want to deploy their own apps in Cloud Foundry.
         -   The SAP Launchpad service enables organizations to establish a central point of access to SAP, custom-built, and third party applications and extensions, both in the cloud and on premise.
         -   SAP Business Application Studio is a UI development environment.
+
+
 7.  On the *Prepare an Account for ABAP Development* dialog, follow the instructions on the screen to enter subaccount name, provider, region, and so on.
 
 8.  On the *Add Users* dialog, add the e-mail addresses of new users in the ABAP environment.

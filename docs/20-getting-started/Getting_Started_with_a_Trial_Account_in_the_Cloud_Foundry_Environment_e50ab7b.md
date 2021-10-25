@@ -93,26 +93,6 @@ If you want to familiarize yourself with the Cloud Foundry environment, see [Clo
 > ### Tip:  
 > Also check out the tutorial [Create Your First App on Cloud Foundry](https://developers.sap.com/group.scp-3-first-app.html) to see how you can deploy a pre-bundled set of artifacts using the SAP BTP cockpit, access the app from your web browser, and create an instance of a service available on Cloud Foundry and bind it to your app.
 
--   **[Setting Up Your Trial Account](Setting_Up_Your_Trial_Account_fa5deb9.md#loiofa5deb9cc4be4ca58070456cd2c47647 "Your trial account is set up automatically, so that you can start using it right away. However, if one or more of the automatic steps
-		fail, you can also finalize the setup manually, by following the steps below. ")**  
-Your trial account is set up automatically, so that you can start using it right away. However, if one or more of the automatic steps fail, you can also finalize the setup manually, by following the steps below.
--   **[Setting Up a Trial Account via the Command Line \[Feature Set B\]](Setting_Up_a_Trial_Account_via_the_Command_Line_Feature_Set_B_a21360f.md "If your trial account is running on the cloud management tools feature set
-                                    B, you can use the
-		command-line interfaces to set it up. For all tasks on global account and subaccount level,
-		you use the 
-			SAP BTP command line
-			interface (btp CLI). Once you’ve created a Cloud
-                                Foundry
-		environment instance (a Cloud
-                                Foundry org),
-		you use the Cloud
-                                Foundry CLI (cf
-		CLI). This procedure works without the SAP BTP
-                                    cockpit (except that you need the
-		global account subdomain to log in, which you may have to look up in the
-		cockpit).")**  
-If your trial account is running on the cloud management tools feature set B, you can use the command-line interfaces to set it up. For all tasks on global account and subaccount level, you use the ** SAP BTP command line interface** \(**btp CLI**\). Once you’ve created a Cloud Foundry environment instance \(a Cloud Foundry org\), you use the Cloud Foundry CLI \(cf CLI\). This procedure works without the SAP BTP cockpit \(except that you need the global account subdomain to log in, which you may have to look up in the cockpit\).
-
 **Related Information**  
 
 

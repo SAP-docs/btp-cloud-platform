@@ -18,6 +18,7 @@ Configure the Single Sign-On \(SSO\) to Identity Authentication in the SAP Cloud
 
     2.  Save the content of the page locally on your file system as an XML file.
 
+
 2.  Log on to your SAP Cloud for Customer system as an administrator.
 
 3.  Choose *ADMINISTRATOR* \> *Common Tasks* and then choose *Configure Single Sign-On*.

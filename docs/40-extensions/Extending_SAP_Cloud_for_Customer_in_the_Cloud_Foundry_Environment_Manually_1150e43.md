@@ -48,9 +48,11 @@ The connectivity configuration steps are required on both systems and can be imp
     -   [Configure the OAuth Client for OData Access](Configure_the_OAuth_Client_for_OData_Access_2c9c02d.md)
 
 
+
 -   On the SAP BTP side:
 
     -   Create an HTTP destination with OAuthSAMLBearerAssertion for authentication method. For more details, see [Create and Configure the HTTP Destination](Create_and_Configure_the_HTTP_Destination_21e50d8.md).
+
 
 
 **Using Basic Authentication**
@@ -60,9 +62,11 @@ The connectivity configuration steps are required on both systems and can be imp
     -   \(If not available\) Create a technical user with permissions to access the required SAP Cloud for Customer OData APIs and use it for the HTTP destination configuration when you choose Basic authentication for protecting the connectivity.
 
 
+
 -   On the SAP BTP side:
 
     -   Create an HTTP destination with Basic authentication using the credentials of a technical user in the SAP Cloud for Customer system. For more details, see [Create and Configure the HTTP Destination](Create_and_Configure_the_HTTP_Destination_21e50d8.md).
+
 
 
 
@@ -72,12 +76,4 @@ The connectivity configuration steps are required on both systems and can be imp
 The extension capabilities of the cloud platform allow developers to embed the user interface of the new solution in the SAP Cloud for Customer screens and this way to offer seamless end-user experience.
 
 The UI integration is via the HTML mashups of the SAP Cloud for Customer solution. For more details how to create an HTML mashup for your new extension solution and how to make it visible in the SAP Cloud for Customer screens, see [Add Mashups on Screens](https://help.sap.com/viewer/5d3ae4aa1f174b2cb6ec625c93ef8884/CLOUD/en-US/98b729dd6d8e1014821a8a1b078819be.html).
-
--   **[Configuring Single Sign-On on Cloud Foundry Environment](Configuring_Single_Sign-On_on_Cloud_Foundry_Environment_6080a92.md "You can configure the cloud platform extension integration with SAP Cloud for
-                            Customer to enable the
-		use of applications running on top of the platform from SAP Cloud for
-                            Customer. ")**  
-You can configure the cloud platform extension integration with SAP Cloud for Customer to enable the use of applications running on top of the platform from SAP Cloud for Customer.
--   **[Configuring the Extension Application](Configuring_the_Extension_Application_aca7040.md "")**  
-
 

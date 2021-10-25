@@ -1,5 +1,7 @@
 <!-- loio75cde5383e8d42dabd039b7dceef9511 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Providing Details for SAP HANA Service Database Problems
 
 If your problem is related to a SAP HANA service database, the details you need to provide differ depending on the environment or infrastructure provider the database is provisioned in.
@@ -9,21 +11,21 @@ If your problem is related to a SAP HANA service database, the details you need 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Infrastructure Provider
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Details You Need to Provide
 
 
 
 </th>
-<th>
+<th valign="top">
 
 How to Find the Details You Need
 
@@ -32,21 +34,21 @@ How to Find the Details You Need
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Azure regions
 
 
 
 </td>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 The URL of the space the database is provisioned in
 
 
 
 </td>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 1.  In the SAP BTP cockpit, navigate to the org and space the database is provisioned in.
 
@@ -66,7 +68,7 @@ The URL of the space the database is provisioned in
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 AWS regions
 
@@ -77,7 +79,7 @@ AWS regions
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 AWS regions
 
@@ -86,18 +88,18 @@ AWS regions
 
 
 </td>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 The service instance ID
 
 
 
 </td>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 1.  In the SAP BTP cockpit, navigate to the space the SAP HANA service instance is provisioned in.
 2.  In the navigation area, choose *Services* \> *Service Instances*.
-3.  In the list of available services, find your SAP HANA service instance and choose   Open Dashboard  from the *Actions* column.
+3.  In the list of available services, find your SAP HANA service instance and choose <span class="SAP-icons"></span> Open Dashboard from the *Actions* column.
 4.  Copy the service instance GUID under *Details* \> *ID*.
 
     Example GUID: ad539b83-39bd-4ff4-8b41-1a5dfdfca7ea
@@ -108,7 +110,7 @@ The service instance ID
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 GCP regions
 
@@ -117,21 +119,21 @@ GCP regions
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  China \(Shanghai\) region
 
 
 
 </td>
-<td>
+<td valign="top">
 
 See [Getting Support](https://help.sap.com/viewer/cc53ad464a57404b8d453bbadbc81ceb/alibabacloud/en-US/7d64c7f819f246a59d8860146567c0e9.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -140,14 +142,14 @@ See [Getting Support](https://help.sap.com/viewer/cc53ad464a57404b8d453bbadbc81c
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Government Cloud \(US\) region
 
 
 
 </td>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 Please contact your operator.
 

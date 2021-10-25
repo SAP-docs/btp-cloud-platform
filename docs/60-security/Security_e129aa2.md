@@ -107,31 +107,6 @@ SAP Credential Store provides a repository for passwords and keys for applicatio
 
 See [SAP SAP Credential Store](https://help.sap.com/viewer/product/CREDENTIAL_STORE/Cloud/en-US).
 
--   **[SAP Authorization and Trust Management Service in the Cloud Foundry Environment](SAP_Authorization_and_Trust_Management_Service_in_the_Cloud_Foundry_Environment_6373bb7.md "The global account and subaccounts get their users from identity providers.
-		Administrators make sure that users can only access their dedicated subaccount by making
-		sure that there is a dedicated trust relationship only between the identity providers and
-		the respective subaccounts. Developers configure and deploy application-based security
-		artifacts containing authorizations, and administrators assign these authorizations using
-		the SAP BTP
-		cockpit.")**  
-The global account and subaccounts get their users from identity providers. Administrators make sure that users can only access their dedicated subaccount by making sure that there is a dedicated trust relationship only between the identity providers and the respective subaccounts. Developers configure and deploy application-based security artifacts containing authorizations, and administrators assign these authorizations using the SAP BTP cockpit.
--   **[Default Role Collections of SAP BTP Cloud Foundry Environment \[Feature Set B\]](Default_Role_Collections_of_SAP_BTP_Cloud_Foundry_Environment_Feature_Set_B_a6a0072.md "The following table displays the default role collections available with cloud management tools feature set
-                                    B after initially deploying your accounts. For more information,
-		see the related links.")**  
-The following table displays the default role collections available with cloud management tools feature set B after initially deploying your accounts. For more information, see the related links.
--   **[Trusted Certificate Authentication](Trusted_Certificate_Authentication_790cb76.md "All components of SAP BTP rely on a list of trusted Certificate
-		Authorities (CAs), which differ depending on the runtimes used.")**  
-All components of SAP BTP rely on a list of trusted Certificate Authorities \(CAs\), which differ depending on the runtimes used.
--   **[Principal Propagation](Principal_Propagation_f70fcf1.md "Exchange user ID information between systems or
-                environments in SAP BTP.")**  
-Exchange user ID information between systems or environments in SAP BTP.
--   **[Data Protection and Privacy](Data_Protection_and_Privacy_7e513d3.md "Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data
-		protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries.")**  
-Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries.
--   **[Security in the Kyma Environment](Security_in_the_Kyma_Environment_ee08fdf.md "The Kyma environment-specific security aspects include guidelines on personal data
-		protection and details on processing and storing logs.")**  
-The Kyma environment-specific security aspects include guidelines on personal data protection and details on processing and storing logs.
-
 **Related Information**  
 
 

@@ -24,14 +24,14 @@ To create a new software component, perform the following steps:
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Software Component Type
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Description
 
@@ -40,14 +40,14 @@ To create a new software component, perform the following steps:
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Development
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Used for standard ABAP application development.
 
@@ -56,14 +56,14 @@ To create a new software component, perform the following steps:
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Business Configuration
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Used to transport customizing content from one ABAP environment system to another ABAP environment system.
 
@@ -93,6 +93,7 @@ To create a new software component, perform the following steps:
     3.  After the transport of the structure package, the software component becomes available for all instances and can be cloned to other system instances.
 
         As soon as the structure package is transported, for example, to provide a new version of the software component, the date and time of the transport as well as the user who triggered the transport are displayed in the list of available software components \(*<Changed On\>* and *<Created By\>*\).
+
 
 
 > ### Note:  

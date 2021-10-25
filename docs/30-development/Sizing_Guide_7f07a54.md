@@ -13,21 +13,21 @@ Using the following table, estimate how much application runtime allocation you 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 T-Shirt Size
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Concurrent Users
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Required Application Runtime \(GBs\)
 
@@ -36,21 +36,21 @@ Required Application Runtime \(GBs\)
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 S
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1000
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -59,21 +59,21 @@ S
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 M
 
 
 
 </td>
-<td>
+<td valign="top">
 
 10000
 
 
 
 </td>
-<td>
+<td valign="top">
 
 4
 
@@ -82,21 +82,21 @@ M
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 L
 
 
 
 </td>
-<td>
+<td valign="top">
 
 30000
 
 
 
 </td>
-<td>
+<td valign="top">
 
 8
 
@@ -105,21 +105,21 @@ L
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 XL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 80000
 
 
 
 </td>
-<td>
+<td valign="top">
 
 16
 

@@ -120,9 +120,3 @@ The authorization model ensures the following rules apply:
 -   Only users with the role “SpaceDeveloper” in the configuration-data provider's space can modify \(edit or delete\) configuration data.
 
 
--   **[Plug-ins](Plug-ins_791e17e.md "The SAP Cloud Deployment
-                                    service
-		supports a method that allows a multitarget applicaton to consume multiple configuration
-		entries for each requires dependency. ")**  
-The SAP Cloud Deployment service supports a method that allows a multitarget applicaton to consume multiple configuration entries for each `requires` dependency.
-

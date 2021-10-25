@@ -14,4 +14,6 @@
 -   RFC Metadata Integration \(SAP\_COM\_0636\). See [Develop a Remote-Enabled Function Module \(RFM\)](Develop_a_Remote-Enabled_Function_Module_(RFM)_abf7105.md).
 -   SAP Analytics Cloud Integration \(SAP\_COM\_0065\). See [Integrating SAP Analytics Cloud](Integrating_SAP_Analytics_Cloud_587aec4.md).
 -   Application Monitoring Integration \(SAP\_COM\_0454\)
+-   Adobe Document Service \(ADT\) Integration \(SAP\_COM\_0503\). See [Print Forms](Print_Forms_959664f.md)
+
 

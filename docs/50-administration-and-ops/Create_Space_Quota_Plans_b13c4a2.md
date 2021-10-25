@@ -33,6 +33,7 @@ You have the Org Manager role for the org in which you want to create a space qu
 
     -   \(Optional\) App Instances: Total number of application instances
     -   \(Optional\) Allow paid services: Select if you'd like to allow the provisioning of instances of paid service plans
+
     > ### Note:  
     > The org quota limit is applicable for a resource if you don’t enter a space quota limit. If the space quota limit for a resource exceeds the org quota limit, the org quota limit applies.
 

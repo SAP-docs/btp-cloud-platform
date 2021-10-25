@@ -17,11 +17,6 @@ You can import or export the following data from the app *Read Access Logging Co
 -   Recordings
 
 
--   **[How to Export Read Access Logging Data](How_to_Export_Read_Access_Logging_Data_944a0d4.md "")**  
-
--   **[How to Import Read Access Logging Data](How_to_Import_Read_Access_Logging_Data_96f7501.md "")**  
-
-
 **Related Information**  
 
 

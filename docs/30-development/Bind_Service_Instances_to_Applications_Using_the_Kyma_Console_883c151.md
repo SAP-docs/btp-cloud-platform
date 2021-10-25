@@ -20,6 +20,7 @@ You can bind the service instance to any workload running in the Kyma environmen
 
     3.  *Select existing credentials* - if you already have a set of credentials in place, you can add them to your binding. For details, see [Create Credentials Using the Kyma Console](Create_Credentials_Using_the_Kyma_Console_87576fe.md).
 
+
 4.  Confirm with *Bind Application*.
 
     You can see the bound application on the list. Go to the *Credentials* tab to view the Secret resource.

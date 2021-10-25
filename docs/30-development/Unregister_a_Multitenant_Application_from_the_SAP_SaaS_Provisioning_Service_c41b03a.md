@@ -57,6 +57,7 @@ The procedure described in this section uses the cf CLI.
         cf delete-service SERVICE-INSTANCE-NAME
         ```
 
+
 2.  The deletion process is asynchronous. Run `cf services` to view the current status of the process.
 
 

@@ -18,14 +18,14 @@ Use method `UNIT_CONVERSION_SIMPLE` to convert values from one measurement unit 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -34,14 +34,14 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 INPUT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Input value
 
@@ -50,14 +50,14 @@ Input value
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NO\_TYPE\_CHECK
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Conversion factor type check
 
@@ -70,14 +70,14 @@ Conversion factor type check
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ROUND\_SIGN
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Rounding flag
 
@@ -92,14 +92,14 @@ Rounding flag
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 UNIT\_IN
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Unit of input value
 
@@ -120,14 +120,14 @@ Unit of input value
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -136,14 +136,14 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ADD\_CONST
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Additive constant for conversion
 
@@ -152,14 +152,14 @@ Additive constant for conversion
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DECIMALS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number of decimal places for rounding
 
@@ -168,14 +168,14 @@ Number of decimal places for rounding
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DENOMINATOR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Denominator for conversion
 
@@ -184,14 +184,14 @@ Denominator for conversion
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NUMERATOR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Numerator for conversion
 
@@ -200,14 +200,14 @@ Numerator for conversion
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OUTPUT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Output value
 
@@ -228,14 +228,14 @@ Output value
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Exception Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -244,14 +244,14 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CONVERSION\_NOT\_FOUND
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Conversion factor could not be determined
 
@@ -260,14 +260,14 @@ Conversion factor could not be determined
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DIVISION\_BY\_ZERO
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Division by zero caught
 
@@ -276,14 +276,14 @@ Division by zero caught
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 INPUT\_INVALID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Input value is not a number
 
@@ -292,14 +292,14 @@ Input value is not a number
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OUTPUT\_INVALID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Output parameter is not a number
 
@@ -308,14 +308,14 @@ Output parameter is not a number
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OVERFLOW
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Field overflow
 
@@ -324,14 +324,14 @@ Field overflow
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 TYPE\_INVALID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Output parameter is not a number
 
@@ -340,14 +340,14 @@ Output parameter is not a number
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 UNITS\_MISSING
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No units specified
 
@@ -356,14 +356,14 @@ No units specified
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 UNIT\_IN\_NOT\_FOUND
 
 
 
 </td>
-<td>
+<td valign="top">
 
 UNIT\_IN is not maintained
 
@@ -372,14 +372,14 @@ UNIT\_IN is not maintained
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 UNIT\_OUT\_NOT\_FOUND
 
 
 
 </td>
-<td>
+<td valign="top">
 
 UNIT\_OUT is not maintained
 

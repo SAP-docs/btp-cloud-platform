@@ -25,10 +25,12 @@ In addition, we provide the middleware `@sap/asp-middleware` component \(see [he
 
     1.  Create a new folder called “router” and open a commant prompt \(terminal/cmd\) in this folder.
     2.  Create a new project by executing `npm init`. In the upcoming wizard flow you can leave the defaults or define you own values if preferred.
+
     Result: After the project is initialized, the following two files are created in your “router” folder:
 
     -   package.json
     -   package-lock.json
+
     The package.json should look as follows \(if the defaults are kept\):
 
     ```lang-json
@@ -48,9 +50,10 @@ In addition, we provide the middleware `@sap/asp-middleware` component \(see [he
 
 2.  Install the necessary dependencies.
 
-    The `@sap/approuter` and the `@sap/asp-middleware` must be installed so that they can be used in the start script:
+    The `@sap/approuter` and the `@sap/asp-middleware` must be installed so that they can be used in the start script. Supported `@sap/approuter` versions: ^8.0.0.
 
     1.  Execute `npm install @sap/approuter @sap/asp-middleware` in the command prompt to install `@sap/approuter` and `@sap/asp-middleware`.
+
     Result: The two modules will be listed in the package.json as “dependencies” and are downloaded into the node\_modules folder. Excerpt from `package.json` \(versions might differ\):
 
     ```lang-json
@@ -97,25 +100,25 @@ In addition, we provide the middleware `@sap/asp-middleware` component \(see [he
     	"authenticationMethod": "route",
     	"welcomeFile": "/ui",
     	"logout": {
-    		"/sap/public/bc/icf/logoff": "/public/logout",
-        "logoutPage": "/ui"
+    		"logoutEndpoint": "/sap/public/bc/icf/logoff",
+        		"logoutPage": "/ui"
     	},
-      "routes": [
-    	{
-    		"source": "^/sap/(.*)$",
-    		"target": "/sap/$1",
-    		"authenticationType": "xsuaa",
-    		"service": "com.sap.cloud.abap.solution",
-    		"csrfProtection": false
-    	},
-    	{
-    		"source": "^/ui(.*)$",
-    		"target": "/ui$1",
-    		"authenticationType": "xsuaa",
-    		"service": "com.sap.cloud.abap.solution",
-    		"csrfProtection": false
-    	}
-      ]
+      	"routes": [
+    		{
+    			"source": "^/sap/(.*)$",
+    			"target": "/sap/$1",
+    			"authenticationType": "xsuaa",
+    			"service": "com.sap.cloud.abap.solution",
+    			"csrfProtection": false
+    		},
+    		{
+    			"source": "^/ui(.*)$",
+    			"target": "/ui$1",
+    			"authenticationType": "xsuaa",
+    			"service": "com.sap.cloud.abap.solution",
+    			"csrfProtection": false
+    		}
+    	]
     }
     ```
 

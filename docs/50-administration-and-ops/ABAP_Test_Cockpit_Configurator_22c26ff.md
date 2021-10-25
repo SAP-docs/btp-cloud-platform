@@ -37,6 +37,3 @@ BC-DWB-TOO-ATF
 
 -   Desktop
 
--   **[Enable Usage of the ABAP Test Cockpit Configurator App](Enable_Usage_of_the_ABAP_Test_Cockpit_Configurator_App_f8896e3.md "")**  
-
-

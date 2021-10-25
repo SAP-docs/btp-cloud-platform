@@ -64,6 +64,7 @@ The following actions and functions for the execution of operations are availabl
 
         Used to set the values of the non-binding parameters for the function call.
 
+
     The interface is implemented in class `/IWBEP/CL_CP_RESOURCE`. Setting the non-binding parameter data for functions at the resource object enables an easy handling of composable functions once implemented. Furthermore, when invoking an OData V4 function, the non-binding parameters are part of the URI in contrast to actions where the non-binding parameters are part of the request body. This is reflected by the different handling in the client proxy.
 
 -   An instance of interface `/IWBEP/IF_CP_REQUEST_FUNCTION` is returned by method `CREATE_REQUEST` of interface `/IWBEP/IF_CP_RESOURCE_FUNCTION`.
@@ -76,11 +77,13 @@ The following actions and functions for the execution of operations are availabl
 
     -   `GET_RESPONSE`. This method returns an instance of interface `/IWBEP/IF_CP_RESPONSE_FUNCTION`.
 
+
     The interface is implemented in class `/IWBEP/CL_CP_REQUEST`.
 
 -   An instance of interface `/IWBEP/IF_CP_RESPONSE_FUNCTION` is returned by the methods `GET_RESPONSE` and `EXECUTE` of interface `/IWBEP/IF_CP_REQUEST_OPERATION`. It offers the following methods:
 
     -   `GET_BUSINESS_DATA`. This method returns the business data of the successful executed function request.
+
 
     The interface is implemented in class `/IWBEP/CL_CP_RESPONSE`.
 
@@ -90,6 +93,7 @@ The following actions and functions for the execution of operations are availabl
 
     -   `TO_V2_FUNCTION_INFO`. This method returns required information \(e.g. the function name or non-binding parameter values\) for the V2 request context in order to be able to invoke the function.
 
+
     These methods are implemented in class `/IWBEP/CL_CP_RESOURCE`.
 
 -   `/IWBEP/CL_CP_REQUEST`:
@@ -97,6 +101,7 @@ The following actions and functions for the execution of operations are availabl
     -   Method `/IWBEP/IF_CP_REQUEST_FW~TO_V2_REQUEST_CONTEXT` sets the required information for invoking a function into the V2 request context.
 
     -   Method `/IWBEP/IF_CP_REQUEST_FW~TO_URI_REPRESENTATION` calculates the URI representation of functions.
+
 
 -   `/IWBEP/CL_CP_RESOURCE`
 

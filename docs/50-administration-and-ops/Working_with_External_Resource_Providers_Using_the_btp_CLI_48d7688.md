@@ -12,14 +12,14 @@ Creating a resource provider instance allows your global account to connect to y
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Run the command...
 
@@ -28,14 +28,14 @@ Run the command...
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 List all resource provider instances in a global account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp list accounts/resource-provider`
 
@@ -44,14 +44,14 @@ List all resource provider instances in a global account
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Get details about a resource provider instance
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp get accounts/resource-provider`
 
@@ -60,14 +60,14 @@ Get details about a resource provider instance
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Create a resource provider instance
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp create accounts/resource-provider`
 
@@ -76,14 +76,14 @@ Create a resource provider instance
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Update a resource provider instance
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp update accounts/resource-provider`
 
@@ -92,14 +92,14 @@ Update a resource provider instance
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Delete a resource provider instance
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp delete accounts/resource-provider`
 
@@ -110,8 +110,6 @@ Delete a resource provider instance
 </table>
 
 For more information, see [Managing Resource Providers](Managing_Resource_Providers_e2c250d.md).
-
-**Parent topicColonSymbol** [Commands in the btp CLI](Commands_in_the_btp_CLI_a03a555.md "A list of all tasks and respective commands that are available in the SAP BTP command line interface (btp CLI).")
 
 **Related Information**  
 

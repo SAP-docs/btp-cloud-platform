@@ -22,13 +22,3 @@ These are the steps you need to follow:
 2.  Configure the extension application and create the respective destination in the SAP BTP cockpit. See [Extension Application Configuration](Extension_Application_Configuration_c73342d.md).
 
 
--   **[SAP BTP Extension Onboarding for SAP S/4HANA Cloud](SAP_BTP_Extension_Onboarding_for_SAP_S4HANA_Cloud_8ea90d1.md "The SAP BTP, Cloud
-		Foundry environment extension onboarding enables the integration between the cloud platform
-		and SAP S/4HANA Cloud. This allows the SAP
-			S/4HANA Cloud side-by-side extension applications to run on top of the cloud
-		platform.")**  
-The SAP BTP, Cloud Foundry environment extension onboarding enables the integration between the cloud platform and SAP S/4HANA Cloud. This allows the SAP S/4HANA Cloud side-by-side extension applications to run on top of the cloud platform.
--   **[Extension Application Configuration](Extension_Application_Configuration_c73342d.md "Use this procedure to configure the authentication flow between the extension
-		application and the SAP S/4HANA Cloud system.")**  
-Use this procedure to configure the authentication flow between the extension application and the SAP S/4HANA Cloud system.
-

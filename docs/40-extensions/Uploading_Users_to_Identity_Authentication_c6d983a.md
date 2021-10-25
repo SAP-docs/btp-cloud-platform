@@ -23,14 +23,3 @@ To upload the users of your SAP Cloud for Customer company into Identity Authent
 2.  Import the users \(user names and user IDs\) in the Identity Authentication tenant with the CSV file you have exported from your SAP Cloud for Customer system. For more information, see [Importing or Updating SAP Cloud for Customer Users in Identity Authentication](Importing_or_Updating_SAP_Cloud_for_Customer_Users_in_Identity_Authentication_7c4ce35.md).
 
 
--   **[Exporting SAP Cloud for Customer Users](Exporting_SAP_Cloud_for_Customer_Users_096332d.md "Use this procedure to export SAP Cloud for
-                            Customer users and
-		save the user data in CSV format.")**  
-Use this procedure to export SAP Cloud for Customer users and save the user data in CSV format.
--   **[Importing or Updating SAP Cloud for Customer Users in Identity Authentication](Importing_or_Updating_SAP_Cloud_for_Customer_Users_in_Identity_Authentication_7c4ce35.md "As a tenant administrator of the Identity
-                                Authentication, you can import
-		new users or update existing ones for a specific application with a CSV file, and send
-		activtation e-mails to the users that have not received activation e-mails for that
-		application so far.")**  
-As a tenant administrator of the Identity Authentication, you can import new users or update existing ones for a specific application with a CSV file, and send activtation e-mails to the users that have not received activation e-mails for that application so far.
-

@@ -50,6 +50,3 @@ To access the app, you need to have the `SAP_CORE_BC_RAL` business catalog assig
 
 If you need support or experience issues, please report an incident under component `BC-SEC-RAL`.
 
--   **[How to Monitor the Read Access Log](How_to_Monitor_the_Read_Access_Log_5a1011a.md "")**  
-
-

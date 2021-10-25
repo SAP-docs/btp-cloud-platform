@@ -9,14 +9,14 @@ To add a new free text to an application log, an object of class `CL_BALI_FREE_T
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -25,7 +25,7 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CATEGORY
 
@@ -34,7 +34,7 @@ CATEGORY
 
 
 </td>
-<td>
+<td valign="top">
 
 Category of the item
 
@@ -57,14 +57,14 @@ Create an instance of the free text class and set the text and the severity:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -73,7 +73,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Importing parameters**
 
@@ -82,14 +82,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SEVERITY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(Optional\): Severity of the message \('Error', 'Warning', etc\)
 
@@ -100,14 +100,14 @@ Default: IF\_BALI\_CONSTANTS=\>C\_SEVERITY\_STATUS
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 TEXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Free text
 
@@ -116,7 +116,7 @@ Free text
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -125,14 +125,14 @@ Free text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 FREE\_TEXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Free text object: A reference to interface IF\_BALI\_FREE\_TEXT\_SETTER
 
@@ -151,14 +151,14 @@ Set the free text and severity:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -167,7 +167,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Importing parameters**
 
@@ -176,14 +176,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SEVERITY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(Optional\): Severity of the message \('Error', 'Warning', etc\)
 
@@ -194,14 +194,14 @@ Default: IF\_BALI\_CONSTANTS=\>C\_SEVERITY\_STATUS
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 TEXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Free text
 
@@ -210,7 +210,7 @@ Free text
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -219,14 +219,14 @@ Free text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NEW\_FREE\_TEXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Reference to current free text object
 
@@ -245,14 +245,14 @@ Set the level of detail of the free text:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -261,7 +261,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Importing parameter**
 
@@ -270,14 +270,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DETAIL\_LEVEL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Detail level of the free text
 
@@ -288,7 +288,7 @@ Allowed values: Number between '1' and '9' or ' '
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -297,14 +297,14 @@ Allowed values: Number between '1' and '9' or ' '
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NEW\_FREE\_TEXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Reference to current free text object
 
@@ -323,14 +323,14 @@ Get all free text values:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -339,7 +339,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Exporting parameters**
 
@@ -348,14 +348,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DETAIL\_LEVEL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Detail level of the free text
 
@@ -366,14 +366,14 @@ Number between '1' and '9' or ' '
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SEVERITY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Severity of the free text \('Error', 'Warning', etc\)
 
@@ -382,14 +382,14 @@ Severity of the free text \('Error', 'Warning', etc\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 TEXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Content of the free text
 

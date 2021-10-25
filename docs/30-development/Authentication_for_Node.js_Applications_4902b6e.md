@@ -27,14 +27,14 @@ The `SAP CLIENT LIB 1.0` package contains the following modules:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Package Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -43,14 +43,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [`@sap/approuter`](Authentication_for_Node.js_Applications_4902b6e.md#loio4902b6e66cbd42648b5d9eaddc6a363d__section_zrn_flt_vt) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The application router is the single entry point for the \(business\) application.
 
@@ -59,14 +59,14 @@ The application router is the single entry point for the \(business\) applicatio
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [`@sap/xssec`](Authentication_for_Node.js_Applications_4902b6e.md#loio4902b6e66cbd42648b5d9eaddc6a363d__section_atx_2vt_vt) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The client security library, including the XS advanced container security API for Node.js
 
@@ -138,14 +138,14 @@ Path to the NPM registries:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 NPM Registry
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Path
 
@@ -154,14 +154,14 @@ Path
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP NPM registry
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `@sap:registry = "https://registry.npmjs.org` 
 
@@ -170,14 +170,14 @@ SAP NPM registry
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Default NPM registry
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `registry = "http://registry.npmjs.org/"` 
 
@@ -222,14 +222,14 @@ We recommend that you disable the session as in the example above. Each request 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 API
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -238,14 +238,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `createSecurityContext` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Creates the “security context” by validating the received access token against credentials put into the application's environment via the UAA service binding
 
@@ -273,14 +273,14 @@ Returns a structure with the following properties:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `checkLocalScope` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Checks a scope that is published by the current application in the `xs-security.json` file
 
@@ -289,14 +289,14 @@ Checks a scope that is published by the current application in the `xs-security.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `checkScope` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Checks a scope that is published by an application
 
@@ -305,14 +305,14 @@ Checks a scope that is published by an application
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `getToken` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Returns a token that can be used to connect to the SAP HANA database. If the token that the security context has been instantiated with is a foreign token \(meaning that the OAuth client contained in the token and the OAuth client of the current application do not match\), “`null`” is returned instead of a token; the following attributes are available:
 
@@ -330,14 +330,14 @@ Returns a token that can be used to connect to the SAP HANA database. If the tok
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `hasAttributes` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Returns “`true`” if the token contains any XS advanced user attributes; otherwise “`false`”.
 
@@ -346,14 +346,14 @@ Returns “`true`” if the token contains any XS advanced user attributes; othe
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `getAttribute` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Returns the attribute exactly as it is contained in the access token. If no attribute with the given name is contained in the access token, “`null`” is returned. If the token that the security context has been instantiated with is a foreign token \(meaning that the OAuth client contained in the token and the OAuth client of the current application do not match\), “`null`” is returned regardless of whether the requested attribute is contained in the token or not. The following attributes are available:
 
@@ -367,14 +367,14 @@ Returns the attribute exactly as it is contained in the access token. If no attr
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `isInForeignMode` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Returns “`true`” if the token, that the security context has been instantiated with, is a foreign token that was not originally issued for the current application, otherwise “`false`”.
 
@@ -383,14 +383,14 @@ Returns “`true`” if the token, that the security context has been instantiat
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `getIdentityZone` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Returns the subaccount that the access token has been issued for.
 

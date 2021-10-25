@@ -1,5 +1,7 @@
 <!-- loioa2877827b9f644a29e508a4d2864b2e8 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # View Directory Usage Analytics \[Feature Set B\]
 
 You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your directory.
@@ -22,14 +24,14 @@ The directory *Usage Analytics* page contains two views that display the same us
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 View
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -38,14 +40,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Service Usage** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Displays high-level usage information for a selected service or business application subscriptions according to the directory from which you accessed the *Usage Analytics* page. You can also drill down and view usage data for specific subdirectories and subaccounts that are located in this directory.
 
@@ -54,14 +56,14 @@ Displays high-level usage information for a selected service or business applica
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Directory/Subaccount Usage** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Displays high-level usage information for all services and business application subscriptions according to the directory from which you accessed the *Usage Analytics* page. You can also drill down and view usage data for specific subdirectories and subaccounts that are located in this directory.
 
@@ -96,7 +98,7 @@ Select a table row to display the usage information in the chart. You can also c
 
 In the charts, you can view the data as a column chart or as a line chart.
 
-To display a larger view of a chart, choose the   \(Zoom\)  button.
+To display a larger view of a chart, choose the <span style="font-size:16px;"><span class="SAP-icons"></span></span> \(Zoom\) button.
 
 Some rounding or shortening is applied to large values. You can mouse over values in the table to view the exact values as tooltips.
 
@@ -113,7 +115,7 @@ Some rounding or shortening is applied to large values. You can mouse over value
 
 [View Subaccount Usage Analytics](View_Subaccount_Usage_Analytics_8f4d9db.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your subaccount.")
 
-[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](Monitoring_Usage_Information_Using_APIs_of_the_SAP_Usage_Data_Management_Service_Feature_Set_B_bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
+[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](Monitoring_Usage_Information_Using_APIs_bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
 
 [Manage Users in Directories \[Feature Set B\]](Manage_Users_in_Directories_Feature_Set_B_ff4d4a4.md "Manage members in your directory using the SAP BTP cockpit.")
 

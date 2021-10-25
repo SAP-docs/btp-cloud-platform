@@ -27,21 +27,21 @@ The service nodes contain the service's business data.
 
 <table>
 <tr>
-<th colspan="2">
+<th valign="top" colspan="2">
 
 Node or Field
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Cardinality
 
@@ -50,7 +50,7 @@ Cardinality
 </th>
 </tr>
 <tr>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 `BusinessPartnerRoleCategoryInterval`
 
@@ -59,14 +59,14 @@ Cardinality: 0..unbounded
 
 
 </td>
-<td>
+<td valign="top">
 
 `IntervalBoundaryTypeCode`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can only use the following value:
 
@@ -76,7 +76,7 @@ You can only use the following value:
 
 
 </td>
-<td>
+<td valign="top">
 
 1..1
 
@@ -85,21 +85,21 @@ You can only use the following value:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `LowerBoundaryBusinessPartnerRoleCategoryCode`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 For example: `BUP003` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -141,21 +141,21 @@ For example: `BUP003`
 
 <table>
 <tr>
-<th colspan="2">
+<th valign="top" colspan="2">
 
 Service Node
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Link to Details
 
@@ -164,28 +164,28 @@ Link to Details
 </th>
 </tr>
 <tr>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 `BusinessUserMetaData`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `RoleCategoryDependentMetaData` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 This node contains all metadata, which depends on the role category of a business user, such as the role category with its role, external ID category with its external ID type or relationship category.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [RoleCategoryDependentMetaData](RoleCategoryDependentMetaData_bfaaf02.md)
 
@@ -194,21 +194,21 @@ This node contains all metadata, which depends on the role category of a busines
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `CodeList` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 This node provides the available code lists for SAP specific codes. For example country/region code, academic title.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [CodeList](CodeList_c29cd1a.md)
 
@@ -217,21 +217,21 @@ This node provides the available code lists for SAP specific codes. For example 
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `Log` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 This nodes displays occurred messages.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Log](Log_8599598.md)
 
@@ -250,21 +250,21 @@ This nodes displays occurred messages.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Error Code
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Message
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -273,21 +273,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 112
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Interval Boundary Type Code &1 is not supported for BusinessPartnerRoleCategoryInterval.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can only use the following value:
 
@@ -299,21 +299,21 @@ You can only use the following value:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 118
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No data found by given search criteria.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 To display all data, don't enter any value.
 
@@ -349,11 +349,4 @@ If you have any issues, report an incident for component `CA-GTF-BUM`.
 
 > ### Note:  
 > For more information about the API, choose the *Details* tab on the SAP API Business Hub.
-
--   **[RoleCategoryDependentMetaData](RoleCategoryDependentMetaData_bfaaf02.md)**  
-
--   **[CodeList](CodeList_c29cd1a.md)**  
-
--   **[Log](Log_8599598.md)**  
-
 

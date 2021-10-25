@@ -6,8 +6,10 @@ Let’s start by mapping the entities we defined in the previous chapters to the
 
 -   **MTA Modules**:
     -   Modified Approuter \(approuter\)
+
 -   **MTA Resources**:
     -   XSUAA \(xsuaa\)
     -   SaaS Provisioning \(saas-registry\)
     -   ABAP Solution \(abap-solution\)
+
 

@@ -4,11 +4,11 @@
 
 Learn more about the system landscape/account model, ABAP environment pipeline, as well as versioning and branches.
 
- <a name="loio9482e7eef4634cb993a4ae296b2029fa loio4ca756395fc24e56a42b77632a6bd862__loio4ca756395fc24e56a42b77632a6bd862"/>
+ <a name="loio4ca756395fc24e56a42b77632a6bd862"/>
 
 <!-- loio4ca756395fc24e56a42b77632a6bd862 -->
 
-# System Landscape/Account Model
+## System Landscape/Account Model
 
 To separate development and productive systems, the recommended account model involves two global accounts in the Cloud Foundry environment. For both, a partner contract is required.
 
@@ -27,6 +27,7 @@ To separate development and productive systems, the recommended account model in
 
     -   The add-on installation test as part of the add-on build pipeline
     -   ABAP systems to provide the SaaS solution to consumer accounts. These consumer subaccounts are also created in the global production account.
+
     All ABAP systems in this global account use the `abap/saas_oem` service.
 
     > ### Note:  
@@ -38,7 +39,7 @@ To separate development and productive systems, the recommended account model in
 
 
 
-<a name="loio9482e7eef4634cb993a4ae296b2029fa loio4ca756395fc24e56a42b77632a6bd862__section_wtx_qvj_xnb"/>
+<a name="loio4ca756395fc24e56a42b77632a6bd862__section_wtx_qvj_xnb"/>
 
 ## Global Development Account
 
@@ -59,7 +60,7 @@ To separate development and productive systems, the recommended account model in
 
 
 
-<a name="loio9482e7eef4634cb993a4ae296b2029fa loio4ca756395fc24e56a42b77632a6bd862__section_mbj_tvj_xnb"/>
+<a name="loio4ca756395fc24e56a42b77632a6bd862__section_mbj_tvj_xnb"/>
 
 ## Global Production Account
 
@@ -96,6 +97,7 @@ To separate development and productive systems, the recommended account model in
         > As of now, you can only expose SaaS applications for subscription from the provider global account and therefore the subscription in the subaccount needs to be done by the provider.
 
 
+
 Using different subaccounts for the different phases has multiple advantages: Trust settings and destination/connectivity settings can be adjusted for each subaccount. That means, you can connect the development subaccount to the developer user identity provider and the test subaccount to the tester user identity provider. In terms of connectivity, the development subaccount can be connected to the development on-premise system and the test subaccount can be connected to the test on-premise system.
 
 The ABAP environment pipeline is executed in a Jenkins CI/CD server that is connected to the test, build/assemble, and build/test subaccounts by authenticating via a technical Cloud Foundry platform user.
@@ -111,17 +113,28 @@ For development and maintenance processes, a use case similar to [Use Case 2: On
 -   Upon release date, all defects must be fixed. If you make the decision during testing in the QAS system that a complete functionality isn’t delivered, developers must delete, revert, or disable the functionality in the COR system and release the corresponding transport requests. You cannot remove objects from the release branch, e.g. by deselecting transport requests. To revert objects to an older transported state, use the compare editor of the Eclipse *History* view. If you want to withdraw the functionality in the DEV system as well, it’s considered a correction and you have to perform double maintenance of corrections into the DEV system. See [Double Maintenance of Corrections into Development](Double_Maintenance_of_Corrections_into_Development_1241b14.md).
 -   Users in ABAP system COR are locked during ongoing development and only unlocked when a correction has to be implemented
 
+
+
 ![](images/Pipeline_Overview_0e1c881.png)
+
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/initialChecks/](https://www.project-piper.io/pipelines/abapEnvironment/stages/initialChecks/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/prepareSystem/](https://www.project-piper.io/pipelines/abapEnvironment/stages/prepareSystem/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/cloneRepositories/](https://www.project-piper.io/pipelines/abapEnvironment/stages/cloneRepositories/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/ATC/](https://www.project-piper.io/pipelines/abapEnvironment/stages/ATC/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/build/](https://www.project-piper.io/pipelines/abapEnvironment/stages/build/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/integrationTest/](https://www.project-piper.io/pipelines/abapEnvironment/stages/integrationTest/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/confirm/](https://www.project-piper.io/pipelines/abapEnvironment/stages/confirm/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/publish/](https://www.project-piper.io/pipelines/abapEnvironment/stages/publish/)
 
 On top of these static systems, as part of the add-on build, transient systems are used for add-on assembly \(BLD\) and installation tests \(ATI\).
 
 For the consumption of the add-on as a SaaS solution, instead of importing a release branch into a productive system, software components are installed via add-on packages into multitenancy-enabled production systems \(AMT\) provisioned via the ABAP Solution service. See [Define Your ABAP Solution](Define_Your_ABAP_Solution_1697387.md).
 
- <a name="loio9482e7eef4634cb993a4ae296b2029fa loio52fb6a9e22714843b6e83b7f333b184b__loio52fb6a9e22714843b6e83b7f333b184b"/>
+ <a name="loio52fb6a9e22714843b6e83b7f333b184b"/>
 
 <!-- loio52fb6a9e22714843b6e83b7f333b184b -->
 
-# ABAP System Types: Transient and Permanent Systems
+## ABAP System Types: Transient and Permanent Systems
 
 The add-on process requires an add-on assembly system \(BLD\) and add-on installation test system \(ATI\). We recommend creating these systems from scratch each time a new add-on version is built.
 
@@ -137,21 +150,21 @@ However, for certain scenarios, it is advisable to reuse a permanent system inst
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **Transient System**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **Permanent System**
 
@@ -160,21 +173,21 @@ However, for certain scenarios, it is advisable to reuse a permanent system inst
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Build Costs**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A transient system is more cost-efficient as the system only exists during the ongoing pipeline execution.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A permanent system results in higher costs as the system is not used during periods where no add-on build is executed \(idle time\)
 
@@ -183,21 +196,21 @@ A permanent system results in higher costs as the system is not used during peri
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Build Time**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A transient system has a negative impact on build performance as a new system is provisioned from scratch and a software component must be cloned \(duration depending on size of software component\) or rather an add-on is installed from scratch. See [Software Components](Software_Components_58480f4.md).
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Reusing a system results in a shorter build time as no system provisioning is required and only the latest changes are imported into software components via software component pull or add-on update.
 
@@ -211,7 +224,7 @@ The configuration of the add-on build pipeline depends on the use of transient o
 
 
 
-<a name="loio9482e7eef4634cb993a4ae296b2029fa loio52fb6a9e22714843b6e83b7f333b184b__section_mnd_32z_cpb"/>
+<a name="loio52fb6a9e22714843b6e83b7f333b184b__section_mnd_32z_cpb"/>
 
 ## Add-On Assembly System
 
@@ -234,13 +247,26 @@ Especially, when several codelines are mixed up by switching branches, which is 
 > 4.  A new maintenance branch v1.1.0 is created before build of a new add-on version 1.1.0.
 > 5.  The previous add-on assembly system is deleted and a new add-on assembly system is created.
 
- <a name="loio9482e7eef4634cb993a4ae296b2029fa loio2398b874f7c5445db188b780ff0cef89__loio2398b874f7c5445db188b780ff0cef89"/>
+ <a name="loio2398b874f7c5445db188b780ff0cef89"/>
 
 <!-- loio2398b874f7c5445db188b780ff0cef89 -->
 
-# ABAP Environment Pipeline
+## ABAP Environment Pipeline
+
+
 
 ![](images/Pipeline_Stage_1_ed049b4.png)
+
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/initialChecks/](https://www.project-piper.io/pipelines/abapEnvironment/stages/initialChecks/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/prepareSystem/](https://www.project-piper.io/pipelines/abapEnvironment/stages/prepareSystem/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/cloneRepositories/](https://www.project-piper.io/pipelines/abapEnvironment/stages/cloneRepositories/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/ATC/](https://www.project-piper.io/pipelines/abapEnvironment/stages/ATC/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/build/](https://www.project-piper.io/pipelines/abapEnvironment/stages/build/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/integrationTest/](https://www.project-piper.io/pipelines/abapEnvironment/stages/integrationTest/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/confirm/](https://www.project-piper.io/pipelines/abapEnvironment/stages/confirm/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/publish/](https://www.project-piper.io/pipelines/abapEnvironment/stages/publish/)
+
+
 
 For continuous import of software components into a test system and add-on build, the ABAP environment pipeline is provided. See [ABAP Environment Pipeline](https://sap.github.io/jenkins-library/pipelines/abapEnvironment/introduction/). You can configure it for different scenarios, where different pipeline stages are enabled:
 
@@ -278,9 +304,12 @@ For continuous import of software components into a test system and add-on build
 
         -   Add-on Installation test system
 
+
     -   Provided as part of SAP support backbone
 
         -   Add-on Assembly Kit as a Service for registering and publishing the software product. See [Add-On Assembly Kit as a Service](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/#add-on-assembly-kit-as-a-service-aakaas).
+
+
 
 The configuration of the ABAP environment pipeline follows the same approach regardless of the scenario that you want to configure:
 
@@ -305,26 +334,26 @@ For more information on how to configure the ABAP environment pipeline, see [Con
 
 The resulting pipeline for the add-on build can be divided into separate groups of project "Piper" steps:
 
-<a name="loio9482e7eef4634cb993a4ae296b2029fa loio2398b874f7c5445db188b780ff0cef89__table_zt2_ssq_xnb"/>Add-On Product Build
+<a name="loio2398b874f7c5445db188b780ff0cef89__table_zt2_ssq_xnb"/>Add-On Product Build
 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Stage
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Step
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -333,21 +362,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Init
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The pipeline is initialized.
 
@@ -356,14 +385,14 @@ The pipeline is initialized.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Initial Checks
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [abapAddonAssemblyKitCheckPV](https://sap.github.io/jenkins-library/steps/abapAddonAssemblyKitCheckPV/)
 
@@ -372,23 +401,23 @@ Initial Checks
 
 
 </td>
-<td>
+<td valign="top">
 
-This stage is executed if the Build stage is configured. It contains checks to verify the validity of the provided add-on descriptor.
+This stage is executed if the Build stage is configured. It contains checks to verify the validity of the provided add-on descriptor. See [Initial Checks](https://www.project-piper.io/pipelines/abapEnvironment/stages/initialChecks/).
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Prepare System
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [https://sap.github.io/jenkins-library/steps/abapEnvironmentCreateSystem/](https://sap.github.io/jenkins-library/steps/abapEnvironmentCreateSystem/)
 
@@ -397,25 +426,25 @@ Prepare System
 
 
 </td>
-<td>
+<td valign="top">
 
 The ABAP environment system is created. This is done with step `abapEnvironmentCreateSystem`.
 
-After the confirmation, communication arrangement `SAP_COM_0510` \(SAP BTP ABAP Environment - Software Component Test Integration\) is created using step `cloudFoundryCreateServiceKey`. With the creation of the communication arrangement, a user and password are created in the ABAP environment system for the APIs that are used in the following stages.
+After the confirmation, communication arrangement `SAP_COM_0510` \(SAP BTP ABAP Environment - Software Component Test Integration\) is created using step `cloudFoundryCreateServiceKey`. With the creation of the communication arrangement, a user and password are created in the ABAP environment system for the APIs that are used in the following stages. See [Prepare System](https://www.project-piper.io/pipelines/abapEnvironment/stages/prepareSystem/).
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Clone Repositories
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [abapEnvironmentPullGitRepo](https://sap.github.io/jenkins-library/steps/abapEnvironmentPullGitRepo/)
 
@@ -426,46 +455,46 @@ Clone Repositories
 
 
 </td>
-<td>
+<td valign="top">
 
-The software components/Git repositories are pulled to the ABAP system. The step can receive a list of software components/repositories and pulls them successively.
+The software components/Git repositories are pulled to the ABAP system. The step can receive a list of software components/repositories and pulls them successively. See [Clone Repositories](https://www.project-piper.io/pipelines/abapEnvironment/stages/cloneRepositories/).
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ATC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [abapEnvironmentRunATCCheck](https://sap.github.io/jenkins-library/steps/abapEnvironmentRunATCCheck/)
 
 
 
 </td>
-<td>
+<td valign="top">
 
-ATC checks can be executed using `abapEnvironmentRunATCCheck`. The step can receive software components or packages configured in a YML file. The results are returned in check style format. With the use of a pipeline extension, quality gates can be configured.
+ATC checks can be executed using `abapEnvironmentRunATCCheck`. The step can receive software components or packages configured in a YML file. The results are returned in check style format. With the use of a pipeline extension, quality gates can be configured. See [ATC](https://www.project-piper.io/pipelines/abapEnvironment/stages/ATC/).
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Build
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [cloudFoundryCreateServiceKey](https://sap.github.io/jenkins-library/steps/cloudFoundryCreateServiceKey/)
 
@@ -484,9 +513,9 @@ Build
 
 
 </td>
-<td>
+<td valign="top">
 
-The add-on for the ABAP environment is built. The build process of an ABAP system is performed with the help of the ABAP Addon Assembly Kit as a Service \(AAKaaS\). After executing this stage successfully, the add-on is ready to be tested.
+The add-on for the ABAP environment is built. The build process of an ABAP system is performed with the help of the ABAP Addon Assembly Kit as a Service \(AAKaaS\). After executing this stage successfully, the add-on is ready to be tested. See [Build](https://www.project-piper.io/pipelines/abapEnvironment/stages/build/).
 
 
 
@@ -494,26 +523,26 @@ The add-on for the ABAP environment is built. The build process of an ABAP syste
 </tr>
 </table>
 
-<a name="loio9482e7eef4634cb993a4ae296b2029fa loio2398b874f7c5445db188b780ff0cef89__table_ulq_5sq_xnb"/>Add-On Product Test
+<a name="loio2398b874f7c5445db188b780ff0cef89__table_ulq_5sq_xnb"/>Add-On Product Test
 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Stage
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Step
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -522,23 +551,23 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Integration Tests
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [cloudFoundryCreateService](https://sap.github.io/jenkins-library/steps/cloudFoundryCreateService/)
 
 
 
 </td>
-<td>
+<td valign="top">
 
-The add-on built in the Build stage is tested. In this stage, another ABAP system is created including the add-on if configured correctly.
+The add-on built in the Build stage is tested. In this stage, another ABAP system is created including the add-on if configured correctly. See [Integration Tests](https://www.project-piper.io/pipelines/abapEnvironment/stages/integrationTest/).
 
 
 
@@ -546,26 +575,26 @@ The add-on built in the Build stage is tested. In this stage, another ABAP syste
 </tr>
 </table>
 
-<a name="loio9482e7eef4634cb993a4ae296b2029fa loio2398b874f7c5445db188b780ff0cef89__table_r5l_wsq_xnb"/>Add-On Product Release
+<a name="loio2398b874f7c5445db188b780ff0cef89__table_r5l_wsq_xnb"/>Add-On Product Release
 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Stage
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Step
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -574,71 +603,71 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Confirm
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 This stage is executed if the Publish stage is configured.
 
-A manual confirmation is prompted to confirm the publishing of the add-on.
+A manual confirmation is prompted to confirm the publishing of the add-on. See [Confirm](https://www.project-piper.io/pipelines/abapEnvironment/stages/confirm/).
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Publish
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [abapAddonAssemblyKitPublishTargetVector](https://sap.github.io/jenkins-library/steps/abapAddonAssemblyKitPublishTargetVector/)
 
 
 
 </td>
-<td>
+<td valign="top">
 
-The add-on built with this pipeline is published. After that, it’s ready to be delivered to productive systems.
+The add-on built with this pipeline is published. After that, it’s ready to be delivered to productive systems. See [Publish](https://www.project-piper.io/pipelines/abapEnvironment/stages/publish/).
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Post
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [cloudFoundryDeleteService](https://sap.github.io/jenkins-library/steps/cloudFoundryDeleteService/)
 
 
 
 </td>
-<td>
+<td valign="top">
 
-At the end of every pipeline execution \(successful or unsuccessful\), the system is deprovisioned using step `cloudFoundryDeleteService`.
+At the end of every pipeline execution \(successful or unsuccessful\), the system is deprovisioned using step `cloudFoundryDeleteService`. See [Post](https://www.project-piper.io/pipelines/abapEnvironment/stages/post/).
 
 
 
@@ -646,11 +675,11 @@ At the end of every pipeline execution \(successful or unsuccessful\), the syste
 </tr>
 </table>
 
- <a name="loio9482e7eef4634cb993a4ae296b2029fa loioc8730736a52645b49ca76c08214bf181__loioc8730736a52645b49ca76c08214bf181"/>
+ <a name="loioc8730736a52645b49ca76c08214bf181"/>
 
 <!-- loioc8730736a52645b49ca76c08214bf181 -->
 
-# Multitenancy
+## Multitenancy
 
 Multitenancy defines the capability to host different customers \(tenants\) on a single, shared computing infrastructure to optimize administration and significantly reduce TCO. A tenant is an organizationally independent unit whose IT business or parts of it are operated together with the businesses of other tenants by a hosting provider. Multitenancy is especially relevant in a software as a service \(SaaS\) business model, where customers subscribe to hosted software solutions rather than buying and installing them. From the perspective of a hosting provider, the operation costs per user per tenant are a decisive factor. This applies even more to the SME market, where typically each tenant only has a small number of users \(10 – 50\) accessing the hosted solution. The hosting provider can only operate profitably if administration and maintenance costs for the hosted solution can be kept to a minimum. This cost pressure also limits the degree of individualization and customization a hosting provider is willing to accept for a hosted solution for many tenants.
 
@@ -667,15 +696,15 @@ The way ABAP service instances and tenants are used for consumer subscriptions a
 > ### Tip:  
 > You should align your decision whether to enable multitenancy mode for your solution based on the [Development Guideline to Enable Multitenancy of Products Built on the ABAP Environment](Development_Guideline_to_Enable_Multitenancy_of_Products_Built_on_the_ABAP_Environment_9d994c8.md).
 
- <a name="loio9482e7eef4634cb993a4ae296b2029fa loio8c087bca40584f9b899282b4ec515753__loio8c087bca40584f9b899282b4ec515753"/>
+ <a name="loio8c087bca40584f9b899282b4ec515753"/>
 
 <!-- loio8c087bca40584f9b899282b4ec515753 -->
 
-# Versioning and Branches
+## Versioning and Branches
 
 
 
-<a name="loio9482e7eef4634cb993a4ae296b2029fa loio8c087bca40584f9b899282b4ec515753__section_uvc_jbr_xnb"/>
+<a name="loio8c087bca40584f9b899282b4ec515753__section_uvc_jbr_xnb"/>
 
 ## Add-On Versioning
 
@@ -689,7 +718,7 @@ Instead of importing software components into productive systems, when providing
 
 You can only install one add-on product for each system using the ABAP environment `saas_oem` service plan instead of the `standard` service. During provisioning of this service, parameters `addon_product_name` and `addon_product_version` are used to install a certain add-on product version into the system, after the system has been provisioned. See [Define Your ABAP Solution](Define_Your_ABAP_Solution_1697387.md).
 
-The add-on product name includes a reserved development namespace to separate the name from other customers/partners. See SAP note [84282](https://launchpad.support.sap.com/#/notes/).
+The add-on product name includes a reserved development namespace to separate the name from other customers/partners. See SAP note [84282](https://launchpad.support.sap.com/#/notes/84282).
 
 The versioning pattern `<Release>.<Support Package Level>.<Patch Level>` applies to the add-on product version.
 
@@ -729,7 +758,7 @@ For the patch level, there is a technical limit of 36³, limited to 9999. The pa
 
 
 
-<a name="loio9482e7eef4634cb993a4ae296b2029fa loio8c087bca40584f9b899282b4ec515753__section_snh_3dr_xnb"/>
+<a name="loio8c087bca40584f9b899282b4ec515753__section_snh_3dr_xnb"/>
 
 ## Add-On Package Types
 
@@ -772,7 +801,7 @@ For more information on the add-on package types and how these are determined ba
 
 
 
-<a name="loio9482e7eef4634cb993a4ae296b2029fa loio8c087bca40584f9b899282b4ec515753__section_ks3_f2r_xnb"/>
+<a name="loio8c087bca40584f9b899282b4ec515753__section_ks3_f2r_xnb"/>
 
 ## Branching
 
@@ -792,7 +821,7 @@ All corrections to a software component based on a certain support package level
 
 
 
-<a name="loio9482e7eef4634cb993a4ae296b2029fa loio8c087bca40584f9b899282b4ec515753__section_dcn_34r_xnb"/>
+<a name="loio8c087bca40584f9b899282b4ec515753__section_dcn_34r_xnb"/>
 
 ## Delivery Models
 
@@ -829,8 +858,7 @@ With this delivery model, support packages not only include the corrections for 
 
 > ### Recommendation:  
 > We recommend shipping new software component releases on a quarterly basis. These AOI packages contain every object that has been built and delivered with the support packages, including all the patches.
-
-> ### Recommendation:  
+> 
 > In a continuous delivery model, we recommend building and deploying a new CSP on a weekly or biweekly basis.
 
 
@@ -857,7 +885,7 @@ This delivery model is similar to processes commonly used to ship on-premise sol
 
 
 
-<a name="loio9482e7eef4634cb993a4ae296b2029fa loio8c087bca40584f9b899282b4ec515753__section_pfl_r4r_xnb"/>
+<a name="loio8c087bca40584f9b899282b4ec515753__section_pfl_r4r_xnb"/>
 
 ## Multiple Software Components
 
@@ -869,7 +897,7 @@ Having this in mind, you can structure development into reuse components that ar
 
 In this example, one add-on product consists of software component A and software component C, whereas another add-on product consists of software component B and C. Software component A and B use released objects of software component C, and thereby depend on this software component.
 
-Once you have released an object, we recommend not changing it incompatibly because this can lead to errors in its consumers.
+Once you have released an object, we recommend not changing it incompatibly because this can lead to errors for its consumers.
 
 Software components must not have cyclic dependencies. In the example above, software component C must not use objects from software component A. For more information on software component restrictions, see [Software Components](Software_Components_58480f4.md).
 
@@ -921,4 +949,233 @@ The system setup regarding the testing and quality assurance for corrections dep
 
 
 The number of required systems for DEV, COR, TST, and QAS depends on the number of branches that are actively used in dev, test, and build processes. Whenever more than one branch is actively used, one ABAP system is required per branch because an ABAP system always checks out only one branch of a software component.
+
+ <a name="loio438d7ebfdc4a41de82dcdb156f01857e"/>
+
+<!-- loio438d7ebfdc4a41de82dcdb156f01857e -->
+
+## Delivery via Add-On or gCTS
+
+For SaaS solutions in the ABAP environment, software components including ABAP development objects have to be delivered to the customer production system. This is referred to as upstream process.
+
+Afterwards, the SaaS solution is provided by offering a multitenant application that facilitates a subscription mechanism. This is referred to as downstream process.
+
+There are multiple options to deliver software components to the systems. The delivery process described in this documentation mainly focuses on using add-on products as a means to deliver software components by installing or updating delivery packages in a system. See [The Add-On Product](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#the-add-on-product).
+
+As an alternative, you can choose a delivery process using the gCTS-based import of software components. See [Transport Mechanisms](Transport_Mechanisms_aa7f169.md).
+
+
+<table>
+<tr>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+**Add-On-Based Delivery**
+
+
+
+</td>
+<td valign="top">
+
+**gCTS-Based Delivery**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Versioning**
+
+
+
+</td>
+<td valign="top">
+
+-   Add-ons induce explicit versioning on product and software component level
+-   The add-on product version is visible in the system details in the Landscape Portal application. See [View Tenants and Systems](View_Tenants_and_Systems_99c975e.md).
+-   Different version numbers correspond to different types of delivery packages on software component level
+-   The way various package types are imported into the systems is different
+
+
+
+</td>
+<td valign="top">
+
+-   Explicit versioning is not integrated into the gCTS transport technology
+-   No different import package types
+-   When following this gCTS-based delivery approach, versioning needs to be managed and tracked manually. See [Use Case 2: One Development and Correction Codeline in a 5-ABAP-System Landscape](Use_Case_2_One_Development_and_Correction_Codeline_in_a_5-ABAP-System_Landscape_4e53874.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Tool Support**
+
+
+
+</td>
+<td valign="top">
+
+-   ABAP environment pipeline needs to be executed in a Jenkins CI/CD Server
+-   Initial configuration effort and requires to setup Jenkins Server [Infrastructure](https://www.project-piper.io/infrastructure/overview/).
+-   Resulting delivery packages are either installed as part of an add-on during system provisioning or updated centrally in the systems using the *Landscape Portal*application. See [Perform Add-on Updates](Perform_Add-on_Updates_8c5cb9e.md).
+
+
+
+</td>
+<td valign="top">
+
+-   Changes to software components are released and exported to a central remote repository using transport requests
+-   The *Manage Software Components* app that is part of every ABAP system is used to trigger the import of new changes locally per system
+-   As an alternative, software component import can be triggered by using the ABAP environment pipeline. See [ABAP Environment Pipeline](https://www.project-piper.io/pipelines/abapEnvironment/introduction/).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**ABAP Service Plan**
+
+
+
+</td>
+<td valign="top">
+
+-   ABAP systems for development/testing purposes are of type `abap/standard` and provisioned in the global development account
+-   ABAP systems including the installed add-on are of type `abap/saas_oem` and provisioned in the global production account
+
+
+
+</td>
+<td valign="top">
+
+All ABAP systems are of type `abap/standard` and provisioned in the same global development account
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**System Landscape/Account Model**
+
+
+
+</td>
+<td valign="top">
+
+-   Global development account and global production account
+-   Software components are made available across these different global accounts by using add-ons
+-   For execution of the add-on build pipeline, an add-on assembly system BLD and add-on installation test system ATI are \(temporarily\) required
+
+
+
+</td>
+<td valign="top">
+
+-   •Single global development account because gCTS repositories are only shared among ABAP systems in the same region in the same global account
+-   No additional ABAP systems are required to facilitate a build process
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Initial Deployment**
+
+
+
+</td>
+<td valign="top">
+
+-   Add-ons are automatically installed during system provisioning of ABAP systems
+-   Application content is available immediately in systems provisioned after subscription to the multitenant application
+
+
+
+</td>
+<td valign="top">
+
+-   Application content is initially not available
+-   Software components need to be cloned into the systems provisioned after subscription to the multitenant application using the *Manage Software Components* app locally. See [How to Clone Software Components](../50-administration-and-ops/How_to_Clone_Software_Components_18564c5.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Update Deployment**
+
+
+
+</td>
+<td valign="top">
+
+Add-on update can be triggered centrally in a system using the *Landscape Portal* application. See [Perform Add-on Updates](Perform_Add-on_Updates_8c5cb9e.md).
+
+
+
+</td>
+<td valign="top">
+
+Latest changes can be pulled into a system by using the *Manage Software Components* app locally. See [How to Pull Software Component](../50-administration-and-ops/How_to_Pull_Software_Component_90b9b9d.md).
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loio438d7ebfdc4a41de82dcdb156f01857e__section_uv2_jzr_2rb"/>
+
+## Add-On-Based Delivery Process
+
+![](images/Add-On-Based_Delivery_Process_f47ed18.png)
+
+An add-on is a bundle of software components. To create an add-on, a build process orchestrated by an add-on build pipeline has to be triggered.
+
+With delivery tools, the software components are packaged into deliveries that are then further processed. Eventually, the deliveries are stored as delivery packages using the deployment tools provided by SAP.
+
+Add-on deployment is either performed by using an add-on installation during system provisioning or as an add-on update triggered in the *Landscape Portal* application.
+
+Delivery packages are of different types, which means that the build and deployment of these packages differ accordingly. For example, the import of a software component for an add-on installation package or delta-import for correction packages.
+
+BLD and AMT systems are based on different service plans: `abap/standard` for a plain ABAP system and `abap/saas_oem` for an ABAP system with installed add-on. The usage of these service plans is separated in two different global accounts. Making software components available across different global accounts is only possible by using the add-on delivery process.
+
+Once a first customer is using the SaaS solution, there is no migration path available to switch from add-on-based delivery to gCTS-based delivery.
+
+
+
+<a name="loio438d7ebfdc4a41de82dcdb156f01857e__section_byp_kzr_2rb"/>
+
+## gCTS-Based Delivery Process
+
+![](images/gCTS-Based_Delivery_Process_f6dfab0.png)
+
+The gCTS-based delivery process takes place in the global development account only. This is due to the fact that the underlying gCTS repository is only shared among systems in the same region in the same global account.
+
+ABAP development objects are released with a transport request in a particular software component in the development system. The transport request release automatically exports the changes into an SAP-managed gCTS repository by creating a new commit. Once the changes are exported into the gCTS repository, they are centrally available and can be imported into any other systems in the same region in the same global account. By cloning a software component into a customer production system using the *Manage Software Components* app, implemented ABAP objects become available to customers subscribed to the multitenant application.
+
+> ### Note:  
+> The customer production system AMT of type `abap/standard` is provisioned during the initial subscription to the multitenant application. Since the SaaS solution needs to include the implemented software, software components have to be cloned right after the first subscription. As a SaaS solution operator, you can use a separate test subscription that is not related to a customer to trigger the creation of the system before the real customer subscribing to the solution. This initial system creation and import of the software components needs to be performed for each customer production system. If an ABAP solution is configured with `tenant_mode = single` \(see Define Your ABAP Solution\), a dedicated system is created per subscription. In that case, a gCTS-based delivery is only recommended if the SaaS solution is expecting a small set of customers or if the subscription is performed together with the customer.
 

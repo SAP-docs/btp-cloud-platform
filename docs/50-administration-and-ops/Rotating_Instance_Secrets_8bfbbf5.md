@@ -14,5 +14,5 @@ When configured for instance secrets, a service instance of the SAP Authorizatio
 **Related Information**  
 
 
-[Service Instance Secrets](Service_Instance_Secrets_5578ec4.md "When an application consumes a service instance of the SAP Authorization and Trust Management service (XSUAA), the application identifies itself to the service instance with a client ID and client secret. The client ID and client secret are the credentials with which an application authenticates itself to the service instance.")
+[Service Instance Secrets](Service_Instance_Secrets_5578ec4.md "When an application consumes a service instance of the SAP Authorization and Trust Management service (XSUAA), the application identifies itself to the service instance with a client ID and a secret. The client ID and secret are the credentials with which an application authenticates itself to the service instance.")
 

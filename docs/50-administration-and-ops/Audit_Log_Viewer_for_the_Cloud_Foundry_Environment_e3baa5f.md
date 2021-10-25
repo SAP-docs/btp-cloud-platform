@@ -34,6 +34,7 @@ The default displayed columns are:
     -   `audit.data-modification`
 
 
+
 The appearance of the UI can be modified by selecting the rows to be displayed on a single page, as well as the columns that you want to be visible.
 
 

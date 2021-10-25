@@ -60,28 +60,28 @@ Member management happens at global account, directory, subaccount, org, and spa
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
  
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Global Accounts
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Directories
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Subaccounts
 
@@ -90,14 +90,14 @@ Subaccounts
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Feature Set A
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You add global account administrators on the *Members* page at global account level in the cockpit. All members/administrators of the lower levels \(e.g subaccounts or spaces\) are automatically global account members.
 
@@ -110,14 +110,14 @@ See [Add Members to Your Global Account](../50-administration-and-ops/Add_Member
 
 
 </td>
-<td>
+<td valign="top">
 
 Not available
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You don't have member management at subaccount level directly.
 
@@ -134,14 +134,14 @@ See [Managing Security Administrators in Your Subaccount \[Feature Set A\]](../5
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Feature Set B
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You manage global account members by assigning role collections to platform users. Use the following predefined role collections:
 
@@ -159,7 +159,7 @@ See:
 
 
 </td>
-<td>
+<td valign="top">
 
 You manage directory members by assigning role collections to platform users. Use the following predefined role collections:
 
@@ -173,7 +173,7 @@ See:
 
 
 </td>
-<td>
+<td valign="top">
 
 You manage subaccount members by assigning role collections to platform users.
 
@@ -206,14 +206,14 @@ See:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Orgs
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Spaces
 
@@ -222,7 +222,7 @@ Spaces
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Manage org members on the *Members* page at subaccount level in the cockpit or with the Cloud Foundry CLI.
 
@@ -237,7 +237,7 @@ See:
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage space members on the *Members* page at space level in the cockpit or with the Cloud Foundry CLI.
 
@@ -269,18 +269,6 @@ To manage your business users:
 
 
 To learn more about user management, see [Security Administration: Managing Authentication and Authorization](../50-administration-and-ops/Security_Administration_Managing_Authentication_and_Authorization_1ff47b2.md).
-
--   **[Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](Role_Collections_and_Roles_in_Global_Accounts,_Directories,_and_Subaccounts_Feature_Set_B_0039cf0.md "In the cloud management tools feature set
-                                    B, SAP BTP provides a set of role collections to set up administrator access to
-		your global account and subaccounts.")**  
-In the cloud management tools feature set B, SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.
--   **[Bringing Your Corporate Identity Provider for Platform Users \[Feature Set A\]](Bringing_Your_Corporate_Identity_Provider_for_Platform_Users_Feature_Set_A_783ff50.md "SAP BTP supports the use of your own identity provider for platform
-		users. The use of your own identity provider requires integration between the user bases of Cloud
-                                Foundry and Neo environments.")**  
-SAP BTP supports the use of your own identity provider for platform users. The use of your own identity provider requires integration between the user bases of Cloud Foundry and Neo environments.
--   **[Impact of Upgrading from Feature Set A to Feature Set B on User and Account Management](Impact_of_Upgrading_from_Feature_Set_A_to_Feature_Set_B_on_User_and_Account_Management_1ac8143.md "Upgrading your account management feature set affects the authorizations of your platform users. To help you find your way, we've
-			gathered a summary of changes you can expect in your accounts.")**  
-Upgrading your account management feature set affects the authorizations of your platform users. To help you find your way, we've gathered a summary of changes you can expect in your accounts.
 
 **Related Information**  
 

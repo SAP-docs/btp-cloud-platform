@@ -32,31 +32,6 @@ Both options allow you to serve static content from HTML5 application repository
 
 Therefore, we recommend running your own [application router](Application_Router_01c5f9b.md) only in advanced cases, for example when application router extensibility is required.
 
--   **[HTML5 Application Repository](HTML5_Application_Repository_f8520f5.md "HTML5 application repository enables central storage of HTML5 applications' static
-		content on the SAP BTP, Cloud Foundry
-                                    environment. This service can be consumed from the SAP BTP, Cloud Foundry
-                                    Runtime and the
-			SAP BTP, Kyma runtime.")**  
-HTML5 application repository enables central storage of HTML5 applications' static content on the SAP BTP, Cloud Foundry environment. This service can be consumed from the SAP BTP, Cloud Foundry Runtime and the SAP BTP, Kyma runtime.
--   **[Application Router](Application_Router_01c5f9b.md "The application router is the single point-of-entry for an application running in the
-			Cloud
-                                Foundry
-		environment on SAP BTP.
-		The application router is used to serve static content, authenticate users, rewrite URLs,
-		and forward or proxy requests to other micro services while propagating user
-		information.")**  
-The application router is the single point-of-entry for an application running in the Cloud Foundry environment on SAP BTP. The application router is used to serve static content, authenticate users, rewrite URLs, and forward or proxy requests to other micro services while propagating user information.
--   **[Managed Application Router](Managed_Application_Router_589a239.md "")**  
-
--   **[Sizing Guide](Sizing_Guide_7f07a54.md "This guide explains how much application runtime you must purchase to run HTML5
-		applications. ")**  
-This guide explains how much application runtime you must purchase to run HTML5 applications.
--   **[Getting Support](Getting_Support_9220a2f.md "If you have questions or encounter an issue while working with HTML5 Application
-		Repository, there are various ways to address them.")**  
-If you have questions or encounter an issue while working with HTML5 Application Repository, there are various ways to address them.
--   **[Troubleshooting](Troubleshooting_ae1d53e.md "A troubleshooting guide for HTML5 application repository. ")**  
-A troubleshooting guide for HTML5 application repository.
-
 **Related Information**  
 
 

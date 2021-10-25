@@ -44,9 +44,6 @@ You can use this app to:
 
 If you need support or experience issues, please report an incident under component `BC-SRV-APS-COM`.
 
--   **[How to Create Communication Users](How_to_Create_Communication_Users_0377ade.md "")**  
-
-
 **Related Information**  
 
 

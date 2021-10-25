@@ -35,14 +35,6 @@ When the application router is bound to HTML5 Application Repository, the follow
 -   A mixed scenario of modeling part of the static content in a local resources folder and also retrieving static content from HTML5 Application Repository is not supported.
 
 
--   **[Processing a Request at Runtime](Processing_a_Request_at_Runtime_5038f1e.md "At runtime, the application router tries to fetch the xs-app.json file
-		from the HTML5 application in the HTML5 Application Repository, and to use it for routing
-		the request.")**  
-At runtime, the application router tries to fetch the `xs-app.json` file from the HTML5 application in the HTML5 Application Repository, and to use it for routing the request.
--   **[Multitenancy of HTML5 Application Repository](Multitenancy_of_HTML5_Application_Repository_36f266b.md "The HTML5 Application Repository is a multitenant service. Non-public HTML5 Applications are visible only to the application providers
-		(with provider subaccounts) and the consumers subscribed to the applications (with consumer subaccounts).")**  
-The HTML5 Application Repository is a multitenant service. Non-public HTML5 Applications are visible only to the application providers \(with provider subaccounts\) and the consumers subscribed to the applications \(with consumer subaccounts\).
-
 **Related Information**  
 
 

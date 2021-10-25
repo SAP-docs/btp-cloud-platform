@@ -45,9 +45,3 @@ In the Fiori launchpad, you can also find apps that support you as a developer. 
 
 For more information, see [SAP Fiori Apps in the ABAP Environment](SAP_Fiori_Apps_in_the_ABAP_Environment_dbfaac8.md).
 
--   **[Technical Operations](Technical_Operations_181ce28.md "Learn more about what you can do to operate your ABAP environment.")**  
-Learn more about what you can do to operate your ABAP environment.
--   **[SAP Fiori Apps in the ABAP Environment](SAP_Fiori_Apps_in_the_ABAP_Environment_dbfaac8.md "In the SAP Fiori launchpad for the ABAP environment, you can use apps to help you with your tasks as administrator and
-		developer.")**  
-In the SAP Fiori launchpad for the ABAP environment, you can use apps to help you with your tasks as administrator and developer.
-

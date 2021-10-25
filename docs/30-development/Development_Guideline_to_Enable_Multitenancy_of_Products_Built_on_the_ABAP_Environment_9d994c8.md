@@ -48,7 +48,7 @@ The ABAP environment is a Platform as a Service \(PaaS\) offering for ABAP. In a
 
 -   Transport of objects isn't supported in a multitenant environment.
 
-    Business configuration content is usually transported to a productive environment by transporting the transport API `IF_A4C_BC_HANDLER`, in this case, the user interface doesn't have to be implemented. To transport business configurations between systems, you can use the download/upload functionality, see
+    Business configuration content is usually transported to a productive environment by using the transport API `IF_A4C_BC_HANDLER`, in this case, the user interface doesn't have to be implemented. To transport business configurations between systems, you can use the download/upload functionality, see
 
     [Upload Business Configuration](../50-administration-and-ops/Upload_Business_Configuration_c8ca7be.md).
 
@@ -60,8 +60,6 @@ The ABAP environment is a Platform as a Service \(PaaS\) offering for ABAP. In a
 
     > ### Note:  
     > If you don't comply with these aspects of the guideline, this causes issues where SAP, you as a provider, and the consumer are involved.
-
--   There is no system-controlled process to ensure that you as a provider build your application in a tenant lifecycle management-compliant way.
 
 -   Security and system logs store data in a cross-client persistence together.
 
@@ -114,6 +112,7 @@ You have to classify database tables according to their content. There are the f
     -   Tenant temporary data – tables with delivery class “L”
 
 
+
 Database tables for tenant content must be client-dependent. This means that the first field of the table must be of datatype “CLNT”. We recommend using the inline declaration „abap.clnt“.
 
 Only the content of client-dependent “C” and “A” tables is considered during tenant copy and tenant move. Content of client-independent tables which are not delivered from the development system and “L” tables are lost during tenant lifecycle processes such as tenant move.
@@ -127,6 +126,7 @@ The delivery classes “E”, “G” and “W” are not supported in the ABAP 
 -   System Content \(client-independent\)
 
     -   System configuration data – tables with delivery class “S”
+
 
 Store data that is defined by the service provider and not specific for any tenant in a client-independent “S” table. Define the content in the respective development system and export it as TABU entries via a development transport request. The content is considered as code and imported like other development artifacts into subsequent systems such as the provider system.
 

@@ -42,22 +42,6 @@ The SAP Developer Center provides further resources to get you started:
 -   [Start Developing on SAP BTP Tutorials](https://developers.sap.com/mission.scp-1-start-developing.html)
 
 
--   **[Getting a Global Account](Getting_a_Global_Account_d61c281.md#loiod61c2819034b48e68145c45c36acba6e "SAP BTP offers two types of
-		global accounts: Trial accounts and enterprise accounts.")**  
-SAP BTP offers two types of global accounts: Trial accounts and enterprise accounts.
--   **[Getting Started in the Cloud Foundry Environment](Getting_Started_in_the_Cloud_Foundry_Environment_b328cc8.md "Get onboarded in the Cloud
-                                Foundry environment of SAP BTP. Follow the workflows for trial or customer accounts or subscribe to
-		business applications. ")**  
-Get onboarded in the Cloud Foundry environment of SAP BTP. Follow the workflows for trial or customer accounts or subscribe to business applications.
--   **[Getting Started in the ABAP Environment](Getting_Started_in_the_ABAP_Environment_2ffdd24.md "Get onboarded in the SAP BTP, ABAP
-                                    environment. Follow the
-		workflows for trial or customer accounts.")**  
-Get onboarded in the SAP BTP, ABAP environment. Follow the workflows for trial or customer accounts.
--   **[Getting Started in the Kyma Environment](Getting_Started_in_the_Kyma_Environment_d1abd18.md "The getting started document describes the full list of steps you must complete as an
-		administrator to set up a fully operational Kyma environment to which you can connect the
-		chosen SAP solutions.")**  
-The getting started document describes the full list of steps you must complete as an administrator to set up a fully operational Kyma environment to which you can connect the chosen SAP solutions.
-
 **Related Information**  
 
 

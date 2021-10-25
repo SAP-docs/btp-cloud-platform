@@ -32,14 +32,14 @@ Define the SAP S/4HANA Cloud Extensibility service descriptor in a JSON structur
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -48,14 +48,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `systemName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the system you have registered in the global account in SAP BTP.
 
@@ -71,14 +71,14 @@ The name of the system you have registered in the global account in SAP BTP.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `emClientId` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Using default patterns, it generates **communication arrangement name**, **channel name**, **emname**, and **namespace**, when these parameters are not explicitly provided. The default values are described in the table bellow containing the parameters required to configure SAP Event Mesh service.
 
@@ -99,14 +99,14 @@ Using default patterns, it generates **communication arrangement name**, **chann
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `communicationArrangement` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines the communication arrangement for the SAP S4/HANA Cloud tenant.
 
@@ -115,14 +115,14 @@ Defines the communication arrangement for the SAP S4/HANA Cloud tenant.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `communicationArrangementName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `communicationArrangement` property.
 
@@ -144,14 +144,14 @@ The name of the communication arrangement for the SAP S/4HANA Cloud tenant.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `attributes` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `communicationArrangement` property.
 
@@ -164,14 +164,14 @@ The name of the property is equivalent to the *Technical Property Name* column i
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `CHANNEL NAME` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `attributes` property.
 
@@ -196,14 +196,14 @@ The name of the communication channel.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `DESCRIPTION` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `attributes` property.
 
@@ -225,14 +225,14 @@ Short description.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `TOPIC SPACE` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `attributes` property.
 
@@ -258,14 +258,14 @@ The identifier for the events that originate from the same source. This is the t
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `MQTT_QOS` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `attributes` property.
 
@@ -291,14 +291,14 @@ Defines the quality of service.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `RECONNECT ATTEMPTS` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `attributes` property.
 
@@ -318,14 +318,14 @@ The number of attempts the Enterprise Event Enablement framework tries to reesta
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `WAIT TIME` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `attributes` property.
 
@@ -349,14 +349,14 @@ Specifies the time \(in seconds\) for which the Enterprise Event Enablement fram
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -365,14 +365,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `emname` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies the name of the Enterprise Messaging client. It is used by SAP Event Mesh to identify clients.
 
@@ -394,14 +394,14 @@ Specifies the name of the Enterprise Messaging client. It is used by SAP Event M
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `namespace` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Namespace for the message client.
 
@@ -427,14 +427,14 @@ Namespace for the message client.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `rules` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines the access privileges of the message client.
 
@@ -450,14 +450,14 @@ Defines the access privileges of the message client.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `topicRules` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `rules` attribute.
 
@@ -471,14 +471,14 @@ A `rules` attribute.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `inboundFilter` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `topicRules` attribute.
 

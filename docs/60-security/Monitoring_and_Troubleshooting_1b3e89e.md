@@ -32,17 +32,6 @@ Our troubleshooting information can be found in our Guided Answers [Troubleshoot
 -   [502 Error: Call to /oauth/token Was Not Successful](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:40211)
 
 
--   **[Enable and Provide Application Logs](Enable_and_Provide_Application_Logs_f22d510.md "If there are authentication problems in your application, enable logging for the container security library in question, reproduce the
-		problem, and attach the application logs. To obtain more details, set the environment variables for the
-		application.")**  
-If there are authentication problems in your application, enable logging for the container security library in question, reproduce the problem, and attach the application logs. To obtain more details, set the environment variables for the application.
--   **[Auditing and Logging Information for SAP Authorization and Trust Management Service](Auditing_and_Logging_Information_for_SAP_Authorization_and_Trust_Management_Service_d8f4b7c.md "Here you can find a list of the security events that are logged by SAP Authorization and Trust
-                                    Management service (XSUAA). These events are provided in addition to the events of
-        the Cloud
-                                Foundry
-        User Account and Authentication service (UAA).")**  
-Here you can find a list of the security events that are logged by SAP Authorization and Trust Management service \(XSUAA\). These events are provided in addition to the events of the Cloud Foundry User Account and Authentication service \(UAA\).
-
 **Related Information**  
 
 

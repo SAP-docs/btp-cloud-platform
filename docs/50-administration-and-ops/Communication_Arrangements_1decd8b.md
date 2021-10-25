@@ -42,6 +42,3 @@ You can use this app to:
 
 If you need support or experience issues, please report an incident under component `BC-SRV-APS-COM`.
 
--   **[How to Create a Communication Arrangement](How_to_Create_a_Communication_Arrangement_a0771f6.md "")**  
-
-

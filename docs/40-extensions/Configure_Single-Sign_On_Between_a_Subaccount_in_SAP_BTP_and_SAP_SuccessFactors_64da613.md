@@ -33,12 +33,3 @@ If you have an account in the Cloud Foundry environment, you need to set up the 
 3.  Register an Assertion Consumer Service for every extension application in SAP SuccessFactors. See [Register the Assertion Consumer Service for Every Extension Application in SAP SuccessFactors](Register_the_Assertion_Consumer_Service_for_Every_Extension_Application_in_SAP_SuccessFactors_ebc8341.md).
 
 
--   **[Establish Trust Between SAP SuccessFactors and SAP BTP](Establish_Trust_Between_SAP_SuccessFactors_and_SAP_BTP_80a3fd1.md "Use this procedure to configure the subaccount in SAP BTP trust settings and
-		add SAP SuccessFactors as an identity provider. ")**  
-Use this procedure to configure the subaccount in SAP BTP trust settings and add SAP SuccessFactors as an identity provider.
--   **[Register the Assertion Consumer Service of the Subaccount in SAP BTP in SAP SuccessFactors](Register_the_Assertion_Consumer_Service_of_the_Subaccount_in_SAP_BTP_in_SAP_SuccessFactors_8072e48.md "You need to register the assertion consumer service of the subaccount in SAP BTP as an authorized
-		assertion consumer service in Provisioning of SAP SuccessFactors.")**  
-You need to register the assertion consumer service of the subaccount in SAP BTP as an authorized assertion consumer service in Provisioning of SAP SuccessFactors.
--   **[Register the Assertion Consumer Service for Every Extension Application in SAP SuccessFactors](Register_the_Assertion_Consumer_Service_for_Every_Extension_Application_in_SAP_SuccessFactors_ebc8341.md "")**  
-
-

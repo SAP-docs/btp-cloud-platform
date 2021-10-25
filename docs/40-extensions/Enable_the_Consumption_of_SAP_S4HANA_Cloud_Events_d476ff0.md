@@ -53,18 +53,9 @@ To configure the connectivity between SAP Event Mesh and the SAP S/4HANA Cloud t
         > This service plan has been renamed from *sap\_com\_0092*.
 
     2.  Assign the required number of SAP Event Mesh instances to the subaccount in SAP BTP that you want to pair with the SAP S/4HANA Cloud tenant. See [Configure the Entitlements for SAP Event Mesh](Configure_the_Entitlements_for_SAP_Event_Mesh_b7e88ab.md).
+
 2.  Configure the connectivity between SAP Event Mesh and the SAP S/4HANA Cloud tenant, and then configure event topics for the channel inside SAP S/4HANA Cloud tenant. See [Set Up the Connectivity Between Event Mesh and the SAP S/4HANA Cloud Tenant](Set_Up_the_Connectivity_Between_Event_Mesh_and_the_SAP_S4HANA_Cloud_Tenant_13c0366.md).
 3.  Enable the SAP Event Mesh for your subaccount in SAP BTP, create a queue that is specific to your application, and then subscribe this queue to the channel topic that the SAP S/4HANA Cloud tenant uses to produce events. See [Enable the SAP Event Mesh Service for Your Subaccount in SAP BTP](Enable_the_SAP_Event_Mesh_Service_for_Your_Subaccount_in_SAP_BTP_fddd263.md).
-
--   **[Configure the Entitlements for SAP Event Mesh](Configure_the_Entitlements_for_SAP_Event_Mesh_b7e88ab.md "To be able to consume SAP S/4HANA Cloud events, you need to configure the entitlements
-		for SAP Event
-                                        Mesh
-		for the subaccount in SAP BTP.")**  
-To be able to consume SAP S/4HANA Cloud events, you need to configure the entitlements for SAP Event Mesh for the subaccount in SAP BTP.
--   **[Set Up the Connectivity Between Event Mesh and the SAP S/4HANA Cloud Tenant](Set_Up_the_Connectivity_Between_Event_Mesh_and_the_SAP_S4HANA_Cloud_Tenant_13c0366.md "")**  
-
--   **[Enable the SAP Event Mesh Service for Your Subaccount in SAP BTP](Enable_the_SAP_Event_Mesh_Service_for_Your_Subaccount_in_SAP_BTP_fddd263.md "")**  
-
 
 **Related Information**  
 

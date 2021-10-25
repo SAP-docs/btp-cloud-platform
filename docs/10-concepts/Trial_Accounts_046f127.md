@@ -33,11 +33,13 @@ A **trial account** lets you try out SAP BTP for free. Access is open to everyon
 
     -   If you don't sign into your trial account regularly, your account will be suspended after your current 30-day interval. You aren’t able to use applications or services in suspended accounts. To reactivate a suspended trial account, click *Extend Trial Account* in the popup window that appears when you try to sign in. You'll be then able to use your account again.
 
+
 -   **Delete your SAP BTP trial account.**
 
     -   365 days after you registered for your trial account, your account is deleted automatically.
 
     -   If you ever want to proactively delete your SAP BTP trial account, you can navigate to the global accounts scope and select the *Account Explorer* page, then click the *Delete Trial Account* button.
+
 
 
 After your trial account has been deleted, you can create a new trial account, anytime.

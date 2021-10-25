@@ -12,7 +12,9 @@ Upon successful login, the btp CLI creates a folder \(`btp`\) and a configuratio
 
 -   Microsoft Windows: `C:\Users\*<username\>*\AppData\Local\SAP\btp\config.json`
 
--   Apple macOS / Linux: `$HOME/.btp/config.json`
+-   Apple macOS ; `~/Library/Caches/.btp/config.json`
+
+-   Linux: `~/.cache/.btp/config.json`
 
 
 This folder serves as the working directory of the btp CLI, that is, it’s necessary for its proper functioning, and is used with each command execution.
@@ -44,14 +46,14 @@ Let's assume you want to work in two subaccounts in parallel, using two terminal
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Terminal A
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Terminal B
 
@@ -60,7 +62,7 @@ Terminal B
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1. Log in to your global account using the default location of the configuration file:
 
@@ -73,7 +75,7 @@ Run all commands as usual. The btp CLI uses the default configuration file.
 
 
 </td>
-<td>
+<td valign="top">
 
 1. Log in to your global account using a different location of the configuration file:
 
@@ -88,7 +90,7 @@ Use this option with each command call.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 2. Set the default context to subaccount 1000:
 
@@ -99,7 +101,7 @@ btp target --subaccount 1000
 
 
 </td>
-<td>
+<td valign="top">
 
 2. Set the default context to subaccount 2000:
 
@@ -112,7 +114,7 @@ btp --config "C:\my-cli-folder" target --subaccount 2000
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 3. List the users of subaccount 1000:
 
@@ -123,7 +125,7 @@ btp list security/user
 
 
 </td>
-<td>
+<td valign="top">
 
 3. List the users of subaccount 2000:
 
@@ -136,8 +138,6 @@ btp --config "C:\my-cli-folder" list security/user
 </td>
 </tr>
 </table>
-
-**Parent topicColonSymbol** [General Commands and Options in the btp CLI](General_Commands_and_Options_in_the_btp_CLI_11d9f67.md "Learn how to work with the SAP BTP command line interface (btp CLI). For example, how to log in, get help, and set a default context for commands.")
 
 **Related Information**  
 

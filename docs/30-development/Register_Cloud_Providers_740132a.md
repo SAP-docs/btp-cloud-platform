@@ -10,7 +10,7 @@ Kyma environment allows you to register cloud providers, such as Amazon Web Serv
 
 ## Prerequisites
 
-Enable the Kyma environment. For details, see [Enable Kyma Environment](../50-administration-and-ops/Enable_Kyma_Environment_09dd313.md).
+Enable the Kyma environment. For details, see [Create the Kyma Environment Instance](../50-administration-and-ops/Create_the_Kyma_Environment_Instance_09dd313.md).
 
 
 

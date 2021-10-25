@@ -92,13 +92,6 @@ SAP applications may contain predefined configurations. However, the customer's 
 
 You can view all log entries using the Read Access Logging monitor. For more information, see [How to Monitor the Read Access Log](How_to_Monitor_the_Read_Access_Log_5a1011a.md).
 
--   **[Read Access Logging for Data Protection](Read_Access_Logging_for_Data_Protection_828ef72.md "")**  
-
--   **[Read Access Logging Configuration](Read_Access_Logging_Configuration_f96bc25.md)**  
-
--   **[Read Access Logging: Monitor](Read_Access_Logging_Monitor_c65808a.md)**  
-
-
 **Related Information**  
 
 

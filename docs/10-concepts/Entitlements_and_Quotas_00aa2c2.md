@@ -102,14 +102,14 @@ SAP BTP currently supports the following vendors and their consumable services:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Cloud Vendor
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Supported Services
 
@@ -118,14 +118,14 @@ Supported Services
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Amazon Relational Database Service \(RDS\) - PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US) 
 
@@ -134,14 +134,14 @@ Amazon Web Services
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Azure Database for PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US).
 

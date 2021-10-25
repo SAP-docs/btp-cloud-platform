@@ -9,11 +9,11 @@ The *Explore* view provides you with two data sources you can query to obtain in
 -   [Prometheus](https://prometheus.io/docs/introduction/overview/), an open-source toolkit used for system monitoring and alerting.
 -   [Loki](https://grafana.com/oss/loki/), a log aggregation system that collects the logs and indexes their labels for faster log retrieval.
 
- <a name="loio469a37ffccf648ceb453a4a2416af497 loio58828805fce64c66a479e88904d276ac__loio58828805fce64c66a479e88904d276ac"/>
+ <a name="loio58828805fce64c66a479e88904d276ac"/>
 
 <!-- loio58828805fce64c66a479e88904d276ac -->
 
-# Explore Metrics
+## Explore Metrics
 
 Query the system metrics collected by Prometheus to closely monitor the health of Kyma components.
 
@@ -33,11 +33,11 @@ Query the system metrics collected by Prometheus to closely monitor the health o
     > Prometheus provides fixed metrics retention time and size. It stores up to 15 GB of data for a maximum period of 30 days. If this default size or time is exceeded, the oldest metrics get removed first.
 
 
- <a name="loio469a37ffccf648ceb453a4a2416af497 loio19f6d318499a4b64b269f31f94549a07__loio19f6d318499a4b64b269f31f94549a07"/>
+ <a name="loio19f6d318499a4b64b269f31f94549a07"/>
 
 <!-- loio19f6d318499a4b64b269f31f94549a07 -->
 
-# Check Logs
+## Check Logs
 
 Use Grafana Loki to check logs collected for specific Kyma components.
 

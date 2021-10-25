@@ -9,14 +9,14 @@ If a new item, such as a message or an exception, is added to an application log
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -25,14 +25,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CATEGORY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Category of the item
 

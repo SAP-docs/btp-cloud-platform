@@ -7,14 +7,14 @@ Create an HTTP destination and use the HTTP client to enable HTTP communication 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 [Set Up an HTTP Destination](Set_Up_an_HTTP_Destination_3884bc3.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Set up HTTP connectivity for the ABAP environment by configuring an HTTP destination.
 
@@ -23,14 +23,14 @@ Set up HTTP connectivity for the ABAP environment by configuring an HTTP destina
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Enable HTTP Communication in Your ABAP Code](Enable_HTTP_Communication_in_Your_ABAP_Code_cef1ada.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Use the HTTP client to enable HTTP communication from the ABAP environment.
 
@@ -39,11 +39,4 @@ Use the HTTP client to enable HTTP communication from the ABAP environment.
 </td>
 </tr>
 </table>
-
--   **[Set Up an HTTP Destination](Set_Up_an_HTTP_Destination_3884bc3.md "Set up HTTP connectivity for the ABAP environment by configuring an HTTP
-		destination.")**  
-Set up HTTP connectivity for the ABAP environment by configuring an HTTP destination.
--   **[Enable HTTP Communication in Your ABAP Code](Enable_HTTP_Communication_in_Your_ABAP_Code_cef1ada.md "Use the HTTP client to enable HTTP communication from SAP BTP, ABAP
-		environment.")**  
-Use the HTTP client to enable HTTP communication from SAP BTP, ABAP environment.
 

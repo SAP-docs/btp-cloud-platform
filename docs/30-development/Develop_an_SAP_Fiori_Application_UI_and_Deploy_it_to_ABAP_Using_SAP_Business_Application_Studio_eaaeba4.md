@@ -49,6 +49,7 @@ Get an overview about how to create and deploy an SAP Fiori application to ABAP 
         > -   Only one intent is supported
         > -   If you change the ID of the intent, the existing SAP Fiori launchpad content content will break
 
+
 2.  Continue with the development of the UI, for example, with the help of guided development. See [Implement Features using Guided Development](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/0c9e518ecf704b2f80a2bed0eaca60ae.html).
 3.  Now you can preview the generated SAP Fiori application. See [Preview an Application](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/b962685bdf9246f6bced1d1cc1d9ba1c.html).
 4.  Deploy the SAP Fiori UI by executing command ***npm run deploy*** in the terminal of your project. See section *Deployment to ABAP* in [Deploy an Application](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/607014e278d941fda4440f92f4a324a6.html).
@@ -72,9 +73,6 @@ Get an overview about how to create and deploy an SAP Fiori application to ABAP 
 
 
 To launch your app in SAP Fiori launchpad, see [Launch Your App in SAP Fiori Launchpad](Launch_Your_App_in_SAP_Fiori_Launchpad_ea41912.md).
-
--   **[Launch Your App in SAP Fiori Launchpad](Launch_Your_App_in_SAP_Fiori_Launchpad_ea41912.md "")**  
-
 
 **Related Information**  
 

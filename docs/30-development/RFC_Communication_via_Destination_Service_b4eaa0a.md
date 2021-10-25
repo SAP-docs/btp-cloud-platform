@@ -9,14 +9,14 @@ Alternatively, you can use proxies for RFC communication. For more information, 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 [Set Up an RFC Destination](Set_Up_an_RFC_Destination_a69e99c.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Set up RFC connectivity for the ABAP environment by configuring a destination of type RFC.
 
@@ -25,14 +25,14 @@ Set up RFC connectivity for the ABAP environment by configuring a destination of
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Enable RFC Communication in Your ABAP Code](Enable_RFC_Communication_in_Your_ABAP_Code_bbbd142.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Use the *CALL FUNCTION ... DESTINATION* statement with a destination that is defined in the Destination service to call other systems from the ABAP environment.
 
@@ -41,12 +41,4 @@ Use the *CALL FUNCTION ... DESTINATION* statement with a destination that is def
 </td>
 </tr>
 </table>
-
--   **[Set Up an RFC Destination](Set_Up_an_RFC_Destination_a69e99c.md "Set up RFC connectivity for the ABAP environment by configuring a destination of type
-		RFC.")**  
-Set up RFC connectivity for the ABAP environment by configuring a destination of type RFC.
--   **[Enable RFC Communication in Your ABAP Code](Enable_RFC_Communication_in_Your_ABAP_Code_bbbd142.md "Use the CALL FUNCTION ... DESTINATION statement with a destination of
-		proxy type Internet or OnPremise that is defined
-		in the Destination service to call other systems from the ABAP environment.")**  
-Use the *CALL FUNCTION ... DESTINATION* statement with a destination of proxy type `Internet` or `OnPremise` that is defined in the Destination service to call other systems from the ABAP environment.
 

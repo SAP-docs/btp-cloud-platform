@@ -24,6 +24,3 @@ Additionally, there is an example pipeline for a Build process \(see [ABAP Envir
 
 Please find the documentation regarding project "Piper" here: [Project "Piper"](https://sap.github.io/jenkins-library/)
 
--   **[Assembling a Software Package](Assembling_a_Software_Package_afbcbba.md "")**  
-
-

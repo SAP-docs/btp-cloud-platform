@@ -38,6 +38,7 @@ Your global account admin has entitled at least SAP ONE Service service plan fro
 
     -   `PLAN:` The name of the service plan you want to use. See [SAP Cloud Management Service - Service Plans](SAP_Cloud_Management_Service_-_Service_Plans_a508b72.md).
     -   `SERVICE_INSTANCE:` Name of the service instance.
+
     There are several options available to create instances depending on the environment you use.
 
     -   To create a service instance in the Cloud Foundry environment using the SAP BTP cockpit or the cf CLI, see [Creating Service Instances](../30-development/Creating_Service_Instances_8221b74.md).
@@ -49,14 +50,14 @@ Your global account admin has entitled at least SAP ONE Service service plan fro
 
         <table>
         <tr>
-        <th>
+        <th valign="top">
 
         URL
 
 
         
         </th>
-        <th>
+        <th valign="top">
 
         Name
 
@@ -65,14 +66,14 @@ Your global account admin has entitled at least SAP ONE Service service plan fro
         </th>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `POST/accounts/v1/subaccounts/{subaccountGUID}/serviceManagementBinding`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         `Create a Service Management binding`
 
@@ -81,14 +82,14 @@ Your global account admin has entitled at least SAP ONE Service service plan fro
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `GET/accounts/v1/subaccounts/{subaccountGUID}/serviceManagementBinding`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         `Get a Service Management binding`
 
@@ -97,14 +98,14 @@ Your global account admin has entitled at least SAP ONE Service service plan fro
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `DELETE/accounts/v1/subaccounts/{subaccountGUID}/serviceManagementBinding`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         `Delete a Service Management binding`
 
@@ -122,6 +123,7 @@ Your global account admin has entitled at least SAP ONE Service service plan fro
         > If you don't specify this parameter, the Password grant type is chosen by default.
 
     -   To create a service instance in Kyma using the Kyma dashboard, see [Create Service Instances Using the Kyma Console](../30-development/Create_Service_Instances_Using_the_Kyma_Console_0453ffb.md).
+
     > ### Recommendation:  
     > If you aren't working in Cloud Foundry, Kyma, or Kubernetes, use the SAP Service Manager to create and manage service instances. These instances are platform agnostic and can be deployed and integrated with any other environment of your choice.
 
@@ -131,6 +133,7 @@ Your global account admin has entitled at least SAP ONE Service service plan fro
 
     -   `SERVICE_INSTANCE:` Name of the service instance for which to create the service key.
     -   `SERVICE_KEY:` Name for the service key.
+
     There are several options available to create service keys depending on the environment you use.
 
     -   To create a service key in the Cloud Foundry environment using the SAP BTP cockpit or the cf CLI, see [Creating Service Keys](../30-development/Creating_Service_Keys_4514a14.md).
@@ -138,6 +141,7 @@ Your global account admin has entitled at least SAP ONE Service service plan fro
     -   To create bindings in other environments, see [Consuming Services in Other Environments Using the Service Management Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/0714ac254e83492281d95e25548b388c.html).
 
     -   To create credentials for calling the service and retrieving information in the Kyma environment, see [Creating Credentials](../30-development/Creating_Credentials_945498c.md).
+
 
     > ### Sample Code:  
     > The following example shows the service key information displayed in the Cloud Foundry environment:
@@ -246,6 +250,7 @@ Your global account admin has entitled at least SAP ONE Service service plan fro
         > ### Note:  
         > Use the `<access_token>` that you received in the step 3to compose the `api_key` in the format: `bearer` *<access\_token\>*
 
+
 5.  Choose the API that you want to call, provide the relevant parameters, and choose *Try it out!*
 
 
@@ -265,15 +270,6 @@ To start working with SAP Cloud Management Service APIs in SAP API Business Hub,
 > You configure an environment by populating all mandatory fields in the *Create New Environment* wizard.
 > 
 > Refer to steps 2 and 3 of this topic to see how to get the values for Client ID, Client Secret, and Token URL fields.
-
--   **[SAP Cloud Management Service - Service Plans](SAP_Cloud_Management_Service_-_Service_Plans_a508b72.md "Describes the service plans for the SAP Cloud Management service
-                                    for SAP BTP and the scopes that
-		they provide. The techncial name for this service is cis.")**  
-Describes the service plans for the SAP Cloud Management service for SAP BTP and the scopes that they provide. The techncial name for this service is `cis`.
--   **[Getting an Access Token in SAP API Business Hub to Work with the SAP Cloud Management Service APIs](Getting_an_Access_Token_in_SAP_API_Business_Hub_to_Work_with_the_SAP_Cloud_Management_Service_APIs_8c3e090.md "Learn how to try out the SAP Cloud Management
-                                    Service APIs
-		in the SAP API Business Hub.")**  
-Learn how to try out the SAP Cloud Management Service APIs in the SAP API Business Hub.
 
 **Related Information**  
 

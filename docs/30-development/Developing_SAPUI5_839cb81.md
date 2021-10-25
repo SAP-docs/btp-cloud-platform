@@ -36,7 +36,7 @@ Select the tiles to discover SAPUI5 Development. The references guide you to the
 
 
 
-### SAP Web IDE Full-Stack {#subsectiontitle_ht1_sgw_1cb}
+### SAP Web IDE Full-Stack
 
 Use the SAP Web IDE Full-Stack to develop on Cloud Foundry. Even though the SAP Web IDE Full-Stack is running on the Neo Environment, you can define your space in the Cloud Foundry environment in the project settings of your project. The possibility to define space settings is limited to Multi-Target Application projects.
 
@@ -51,7 +51,7 @@ Use the SAP Web IDE Full-Stack to develop on Cloud Foundry. Even though the SAP 
 
 
 
-### Tutorials {#subsectiontitle_qqq_rgw_1cb}
+### Tutorials
 
 In an HTML5 module in SAP Web IDE Full-Stack, more files are created than described in these tutorials, but you can run through it and at the end you have a running application on the Cloud Foundry environment.
 

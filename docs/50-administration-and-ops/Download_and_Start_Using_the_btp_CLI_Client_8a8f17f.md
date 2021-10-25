@@ -32,6 +32,7 @@ The client is available for 64-bit versions of the following operating systems:
 
     -   [Latest version of CLI client for Linux](https://tools.hana.ondemand.com/additional/btp-cli-linux-amd64-latest.tar.gz)
 
+
     > ### Note:  
     > You can also find older versions of the client at: [https://tools.hana.ondemand.com/\#cloud-btpcli](https://tools.hana.ondemand.com/#cloud-btpcli). In exceptional cases, when your client is too new for the configured server, an error message tells you which version you need and where to find it.
 
@@ -79,12 +80,6 @@ The client is available for 64-bit versions of the following operating systems:
 
 7.  To find out the current context and version, use `btp`.
 
-
--   **[Get Updates](Get_Updates_e92aa78.md "We recommend updating the CLI client regularly to ensure that you can always use all new features. ")**  
-We recommend updating the CLI client regularly to ensure that you can always use all new features.
--   **[Migrating from sapcp to btp](Migrating_from_sapcp_to_btp_4f1fe8d.md " The executable file was renamed from sapcp to btp, which makes it necessary to update
-		all scripts to call btp instead of sapcp. ")**  
- The executable file was renamed from sapcp to btp, which makes it necessary to update all scripts to call btp instead of sapcp.
 
 **Related Information**  
 

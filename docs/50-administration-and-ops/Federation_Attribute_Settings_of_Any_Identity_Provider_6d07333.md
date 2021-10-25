@@ -13,21 +13,21 @@ Since there are multiple identity providers you can use, we display the paramete
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 UI Element
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Recommended Value
 
@@ -36,21 +36,21 @@ Recommended Value
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  *SAML 2.0 Configuration* 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Configures the trust with a service provider using an uploaded metadata file.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Upload the metadata file from the UAA service.
 
@@ -59,14 +59,14 @@ Upload the metadata file from the UAA service.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  *Default Name ID Format* 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Configures the attribute that the identity provider uses to identify the users. The attribute is sent as the name ID for the authenticated user in SAML assertions.
 
@@ -86,7 +86,7 @@ Possible settings:
 
 
 </td>
-<td>
+<td valign="top">
 
 *E-Mail*
 
@@ -98,14 +98,14 @@ Possible settings:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  *Select Assertion Attributes* 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 To define the user authorizations in the UAA service, provide the user groups in the assertion attribute ***Groups*** \(capitalized\). This assertion attribute is required for the assignment of roles in the UAA service.
 
@@ -127,7 +127,7 @@ You can choose from a number of user attributes and add them.
 
 
 </td>
-<td>
+<td valign="top">
 
 Select the *Groups* user attribute and enter ***Groups*** as assertion attribute. You must set this attribute to enable that the assignment from role collection to user groups has an effect. For more information, see the related link.
 

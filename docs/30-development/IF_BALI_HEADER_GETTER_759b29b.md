@@ -9,14 +9,14 @@ If the header attributes of an application log are read, they are returned in an
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -25,14 +25,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Object of the log
 
@@ -41,14 +41,14 @@ Object of the log
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SUBOBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Subobject of the log
 
@@ -57,14 +57,14 @@ Subobject of the log
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 EXTERNAL\_ID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 External identifier of the log
 
@@ -73,14 +73,14 @@ External identifier of the log
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 LOG\_TIMESTAMP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 UTC time stamp of the log \(usually the creation time\)
 
@@ -89,14 +89,14 @@ UTC time stamp of the log \(usually the creation time\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 LOG\_USER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Log user \(usually the user who created the log\)
 
@@ -105,14 +105,14 @@ Log user \(usually the user who created the log\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 EXPIRY\_DATE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Date when the log expires and can be deleted
 
@@ -121,14 +121,14 @@ Date when the log expires and can be deleted
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 KEEP\_UNTIL\_EXPIRY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If set: It is not allowed to delete the log before the expiry date
 
@@ -149,14 +149,14 @@ Get description text of the log object in the logon language:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -165,7 +165,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -174,14 +174,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OBJECT\_DESCRIPTION
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Description of the object in the logon language
 
@@ -200,14 +200,14 @@ Get description text of log subobject in the logon language:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -216,7 +216,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -225,14 +225,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SUBOBJECT\_DESCRIPTION
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Description of the subobject in the logon language
 

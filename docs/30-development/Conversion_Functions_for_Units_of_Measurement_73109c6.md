@@ -13,12 +13,3 @@ For more information, see the following:
 -   [Determining the Conversion Factors](Determining_the_Conversion_Factors_b4f5ab1.md)
 
 
--   **[Simple Conversion Between Two Units](Simple_Conversion_Between_Two_Units_4083add.md "")**  
-
--   **[Determining the SI Unit](Determining_the_SI_Unit_9563ec6.md "Use method SI_UNIT_GET to determine the SI
-		unit.")**  
-Use method `SI_UNIT_GET` to determine the SI unit.
--   **[Determining the Conversion Factors](Determining_the_Conversion_Factors_b4f5ab1.md "Use method UNIT_PARAMETERS_GET to determine the
-		data conversion factors of a unit.")**  
-Use method `UNIT_PARAMETERS_GET` to determine the data conversion factors of a unit.
-

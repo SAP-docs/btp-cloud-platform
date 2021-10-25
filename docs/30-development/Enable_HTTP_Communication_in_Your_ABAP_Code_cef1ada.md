@@ -76,21 +76,21 @@ Create a destination object using class `cl_http_destination_provider` and metho
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Value
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Proxy Type *Internet*
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Proxy Type *OnPremise*
 
@@ -99,23 +99,24 @@ Create a destination object using class `cl_http_destination_provider` and metho
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `if_a4c_cp_service=>user_propagation`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -   [OAuth User Token Exchange Authentication](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e3c333f9de6245fca326993f2397c13a.html)
 
     -   [Oauth SAML Bearer Assertion Authentication](https://help.sap.com/viewer/DRAFT/cca91383641e40ffbe03bdc78f00f681/Validation/en-US/c69ea6aacd714ad2ae8ceb5fc3ceea56.html)
 
 
+
     
     </td>
-    <td>
+    <td valign="top">
 
      [Principal Propagation Authentication](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/73194cc419894433994c5f0444b4c6a1.html) 
 
@@ -124,14 +125,14 @@ Create a destination object using class `cl_http_destination_provider` and metho
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `if_a4c_cp_service=>service_specific`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -   No Authentication
 
@@ -140,12 +141,14 @@ Create a destination object using class `cl_http_destination_provider` and metho
     -   [OAuth Client Credentials Authentication](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/4e1d742a3d45472d83b411e141729795.html)
 
 
+
     
     </td>
-    <td>
+    <td valign="top">
 
     -   No Authentication
     -   Basic Authentication
+
 
     
     </td>
@@ -212,11 +215,4 @@ The actual **processing of an HTTP request** and its response is shown in the fo
 [Example: HTTP Multipart Request](Example_HTTP_Multipart_Request_4e3cc67.md)
 
 [Connectivity in the Cloud Foundry Environment](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html)
-
--   **[Use OAuth Client Credentials Authentication](Use_OAuth_Client_Credentials_Authentication_60bfb24.md "")**  
-
--   **[Use OAuth SAML Bearer Assertion Authentication](Use_OAuth_SAML_Bearer_Assertion_Authentication_d6e2db5.md "")**  
-
--   **[Example: HTTP Multipart Request](Example_HTTP_Multipart_Request_4e3cc67.md "Using multipart requests for HTTP communication from the ABAP environment.")**  
-Using multipart requests for HTTP communication from the ABAP environment.
 

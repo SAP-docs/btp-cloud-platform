@@ -58,6 +58,3 @@ You can use this app to:
 
 If you need support or experience issues, please report an incident under component `CA-GTF-BUM`.
 
--   **[How to Delete an Employee](How_to_Delete_an_Employee_1e2615e.md "")**  
-
-

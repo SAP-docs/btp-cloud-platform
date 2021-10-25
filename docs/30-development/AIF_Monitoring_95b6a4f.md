@@ -12,11 +12,6 @@ AIF \(Application Interface Framework\) enables you to monitor inbound and outbo
 
 First, you need to assign business roles to a business user and then to assign recipients to this user.
 
--   **[Maintain Business Roles and Business Users](Maintain_Business_Roles_and_Business_Users_cb058dc.md "As a preparation to monitor messages for background workflow processes, you create a business role and a business user.")**  
-As a preparation to monitor messages for background workflow processes, you create a business role and a business user.
--   **[Monitor Messages for Workflow Capability Integration](Monitor_Messages_for_Workflow_Capability_Integration_d280fcc.md "You can monitor the background processes for workflow capability integration.")**  
-You can monitor the background processes for workflow capability integration.
-
 **Related Information**  
 
 

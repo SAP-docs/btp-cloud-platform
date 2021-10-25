@@ -14,14 +14,14 @@ The consumption-based commercial model is available in two flavors; the **CPEA**
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **CPEA**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Your organization makes a prepaid investment in cloud credits for the contract duration with an annual commitment to consume SAP BTP services.
 -   This model is suitable for customers that have well-established and planned use cases, and who want the flexibility of turning services on and off, and switching between services, without the commitment of being tied to a single service throughout the duration of the contract.
@@ -35,14 +35,14 @@ The consumption-based commercial model is available in two flavors; the **CPEA**
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Pay-As-You-Go for SAP BTP**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   You have the same access to all the services that are available in CPEA, but with a highly flexible zero-commitment model – you pay nothing upfront and there is no minimum usage requirement or annual commitment.
 -   You pay only for the SAP BTP services that you want, when you use them.
@@ -59,7 +59,7 @@ The consumption-based commercial model is available in two flavors; the **CPEA**
 
 > ### Note:  
 > -   In global accounts that use the consumption-based commercial model, SAP BTP, Cloud Foundry Runtime is not listed in the *Entitlements* pages in the SAP BTP cockpit. A quota limit of 50 GB of Cloud Foundry Runtime memory is assigned by default to every subaccount.
-> -   If you need to increase this limit, report an incident to [SAP support](https://support.sap.com) on the BC-NEO-CIS component. This also applies to other services that have technical quota limit.
+> -   If you need to increase this limit, report an incident to [SAP support](https://support.sap.com) on the BC-NEO-CIS component. This also applies to other services that have a technical quota limit.
 
 > ### Tip:  
 > You can monitor costs and service usage throughout the contract period. See [Monitoring Usage and Consumption Costs in Your Global Account](../50-administration-and-ops/Monitoring_Usage_and_Consumption_Costs_in_Your_Global_Account_de6f0db.md) and [View Subaccount Usage Analytics](../50-administration-and-ops/View_Subaccount_Usage_Analytics_8f4d9db.md).

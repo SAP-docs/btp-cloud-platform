@@ -1,5 +1,7 @@
 <!-- loioff4d4a4caff94b0486b6427eaa8a0b91 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Manage Users in Directories \[Feature Set B\]
 
 Manage members in your directory using the SAP BTP cockpit.
@@ -34,11 +36,12 @@ You manage directory members by assigning role collections to platform users. Us
 
 3.  Click *Edit*.
 
-    1.  To add a new user, click    , then enter the e-mail address and assigned role collection.
+    1.  To add a new user, click <span class="SAP-icons"></span>, then enter the e-mail address and assigned role collection.
 
     2.  To change a user's role collection assignment, select a new role collection in the dropdown in the *Assigned Role Collection* column.
 
-    3.  To delete a user, click    
+    3.  To delete a user, click <span class="SAP-icons"></span>
+
 
 4.  Click *Save*.
 

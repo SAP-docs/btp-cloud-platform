@@ -4,15 +4,11 @@
 
 To establish trust, configure the trust configuration of the SAML 2.0 identity provider in your subaccount using the SAP BTP cockpit. Next, register your subaccount in User Account and Authentication service using the administration console of your SAML 2.0 identity provider. To complete federation, maintain the federation attributes of the SAML 2.0 user groups. This makes sure that you can assign authorizations to user groups.
 
-
-
-## Context
-
- <a name="loio2ce3938c66d94479848bff3090999027 loio8a213ea1a8664e6b96c0593e71339e0e__loio8a213ea1a8664e6b96c0593e71339e0e"/>
+ <a name="loio8a213ea1a8664e6b96c0593e71339e0e"/>
 
 <!-- loio8a213ea1a8664e6b96c0593e71339e0e -->
 
-# Establish Trust with Any SAML 2.0 Identity Provider in a Subaccount
+## Establish Trust with Any SAML 2.0 Identity Provider in a Subaccount
 
 You want to use an SAML 2.0 identity provider. This is where the business users for SAP BTP are stored.
 
@@ -37,7 +33,7 @@ You must establish a trust relationship with an SAML 2.0 identity provider in yo
 
 ## Procedure
 
-1.  Go to your subaccount\(see [Navigate to Orgs and Spaces](Navigate_to_Orgs_and_Spaces_5bf8735.md)\) and choose *Security* \> *Trust Configuration* \> ** in the SAP BTP cockpit.
+1.  Go to your subaccount\(see [Navigate in the Cockpit](Navigate_in_the_Cockpit_0874895.md)\) and choose *Security* \> *Trust Configuration* \> ** in the SAP BTP cockpit.
 
 2.  Choose *New Trust Configuration*.
 
@@ -70,11 +66,11 @@ You must establish a trust relationship with an SAML 2.0 identity provider in yo
 
 [Managing Security Administrators in Your Subaccount \[Feature Set A\]](Managing_Security_Administrators_in_Your_Subaccount_Feature_Set_A_6752c4b.md "Running on the cloud management tools feature set A: When you create a subaccount, SAP BTP automatically grants your user the role for the administration of business users and their authorizations in the subaccount. Having this role, you can also add or remove other users who will then also be user and role administrators of this subaccount.")
 
- <a name="loio2ce3938c66d94479848bff3090999027 loio2bf08c7e91794ddfa0702a353be4c61d__loio2bf08c7e91794ddfa0702a353be4c61d"/>
+ <a name="loio2bf08c7e91794ddfa0702a353be4c61d"/>
 
 <!-- loio2bf08c7e91794ddfa0702a353be4c61d -->
 
-# Register SAP BTP Subaccount in Any SAML 2.0 Identity Provider
+## Register SAP BTP Subaccount in Any SAML 2.0 Identity Provider
 
 An SAML service provider interacts with an SAML 2.0 identity provider to authenticate users signing in by means of a single sign-on \(SSO\) mechanism. In this scenario, the User Account and Authentication \(UAA\) service acts as a service provider representing a single subaccount. To establish trust between an identity provider and a subaccount, you must register your subaccount by providing the SAML details for web-based authentication in the identity provider itself.
 
@@ -129,4 +125,6 @@ To establish trust from a tenant of your identity provider to a subaccount, assi
 
 
 [Federation Attribute Settings of Any Identity Provider](Federation_Attribute_Settings_of_Any_Identity_Provider_6d07333.md "This table is supposed to display the attribute settings of the identity provider and the values administrators use to establish trust between the SAML 2.0 identity provider and a new subaccount.")
+
+[SAP Developers](https://developers.sap.com/tutorials/cp-azure-ad-saml.html)
 

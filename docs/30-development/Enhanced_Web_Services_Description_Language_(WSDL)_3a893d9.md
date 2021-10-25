@@ -15,21 +15,21 @@ For any applicable node of a WSDL, the corresponding enhanced WSDL contains addi
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Node name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Technical Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -38,21 +38,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 abap:prefix
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Up to 20 characters, case insensitive
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ABAP prefix \(only used if the object is represented by an ABAP object such as `CLAS`, `INTF`, `TABL`, `DTEL`\)
 
@@ -61,21 +61,21 @@ ABAP prefix \(only used if the object is represented by an ABAP object such as `
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 abap:name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Up to 30 characters, case insensitive
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ABAP name
 
@@ -84,21 +84,21 @@ ABAP name
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 abap:type
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String, comma-separated list of 30 characters
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Possible ABAP types \(only for simple types\)
 
@@ -107,21 +107,21 @@ Possible ABAP types \(only for simple types\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 abap:availableTypes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Maintain Business Roles
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Only services whose originals reside in the current system
 
@@ -130,21 +130,21 @@ Only services whose originals reside in the current system
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 abap:description
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Up to 60 characters
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Description
 
@@ -153,21 +153,21 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 abap:prefixT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 See prefix
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Prefix for corresponding table type \(if `maxOccurs` \> 1 and additional table type is generated and a prefix is required\)
 
@@ -176,21 +176,21 @@ Prefix for corresponding table type \(if `maxOccurs` \> 1 and additional table t
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 abap:nameT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 See name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Name for corresponding table type \(if `maxOccurs` \> 1 and additional table type is generated\)
 
@@ -199,21 +199,21 @@ Name for corresponding table type \(if `maxOccurs` \> 1 and additional table typ
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 abap:descriptionT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 See description
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Description for corresponding table type \(if maxOccurs \> 1 and additional table type is generated\)
 

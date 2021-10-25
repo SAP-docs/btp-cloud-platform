@@ -85,27 +85,6 @@ For more information on the supported programming languages, see:
 
 If you already have monolithic applications running on SAP BTP and are looking for a way to run them in the Cloud Foundry environment, read our migration best practice guide. See [Migrating from the Neo Environment to the Multi-Cloud Foundation (Cloud Foundry and Kyma)](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/aae4e0ae1cdf434b908c3c8cf3ea942a.html "Learn why and how to migrate your scenarios on SAP Business Technology Platform (SAP BTP) from the Neo environment to the multi-cloud foundation.") :arrow_upper_right:.
 
--   **[Best Practices](Best_Practices_0859096.md "Choose the development environment, tools, APIs, and programming model that best suit your needs with recommendations from SAP. ")**  
-Choose the development environment, tools, APIs, and programming model that best suit your needs with recommendations from SAP.
--   **[Developing Your First Application](Developing_Your_First_Application_bc8d5c0.md "Follow any of these tutorials to develop your first application on SAP BTP. Choose your
-			preferred programming model and technology.")**  
-Follow any of these tutorials to develop your first application on SAP BTP. Choose your preferred programming model and technology.
--   **[Developing Applications and Services](Developing_Applications_and_Services_68e2ece.md "Get started with developing applications and services in the Cloud
-                                Foundry environment.")**  
-Get started with developing applications and services in the Cloud Foundry environment.
--   **[Developing User Interface](Developing_User_Interface_a6ea5f0.md "Get information on user interface development in the SAP BTP, Cloud Foundry
-                                    environment.")**  
-Get information on user interface development in the SAP BTP, Cloud Foundry environment.
--   **[Consuming APIs](Consuming_APIs_d4cae3e.md "Discover APIs available on SAP BTP.")**  
-Discover APIs available on SAP BTP.
--   **[Adding Authentication and Authorization](Adding_Authentication_and_Authorization_419ae2e.md "Developers create authorization information for business users in their environment and deploy this information in an application. They
-		make this available to administrators, who complete the authorization setup and assign the authorizations to business users.")**  
-Developers create authorization information for business users in their environment and deploy this information in an application. They make this available to administrators, who complete the authorization setup and assign the authorizations to business users.
--   **[Setting Up Database Artifacts](Setting_Up_Database_Artifacts_3cd6954.md "Learn how to set up database artifacts using SAP HANA. ")**  
-Learn how to set up database artifacts using SAP HANA.
--   **[Deploying to the Cloud Foundry Environment](Deploying_to_the_Cloud_Foundry_Environment_2a21055.md "Get an overview of available deployment options.")**  
-Get an overview of available deployment options.
-
 **Related Information**  
 
 

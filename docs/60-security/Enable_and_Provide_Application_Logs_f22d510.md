@@ -93,14 +93,14 @@ If there are authentication problems in your application, enable logging for the
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Environment Variables
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Description
 
@@ -109,14 +109,14 @@ If there are authentication problems in your application, enable logging for the
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      ***SAP\_EXT\_TRC*** 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enablement of logs
 
@@ -125,14 +125,14 @@ If there are authentication problems in your application, enable logging for the
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      ***SAP\_EXT\_TRL*** 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Log level ranging from off to high
 
@@ -147,6 +147,7 @@ If there are authentication problems in your application, enable logging for the
     -   ***3*** \(high\)
 
 
+
     
     </td>
     </tr>
@@ -157,14 +158,14 @@ If there are authentication problems in your application, enable logging for the
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Environment Variables
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Description
 
@@ -173,14 +174,14 @@ If there are authentication problems in your application, enable logging for the
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      ***DEBUG*** 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Detailed logs of the security API for Node.js
 

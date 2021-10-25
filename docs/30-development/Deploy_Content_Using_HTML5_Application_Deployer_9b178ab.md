@@ -118,10 +118,12 @@ You can deploy your content to the HTML5 Application Repository using the HTML5 
         > }
         > ```
 
+
 3.  Create an `mtad.yaml` file:
 
     -   Under `modules`, add your app.
     -   Add a dependency to the `html5-apps-repo` service and the `app-host` service instance.
+
     > ### Sample Code:  
     > ```
     > ID: html5.repo.deployer.myHTML5App
@@ -174,12 +176,8 @@ You can deploy your content to the HTML5 Application Repository using the HTML5 
 
         -   Deploy the content to the HTML5 application repository: passing on the zip archives and the client credential token.
 
+
     -   Stop the HTML5 application deployer application.
 
 
--   **[Asynchronous Upload Using the HTML5 Application Deployer](Asynchronous_Upload_Using_the_HTML5_Application_Deployer_18c1edc.md "You can specify that the upload of content is performed asynchronously by adding the
-		environment variable ASYNC_UPLOAD to the
-			manifest.yaml or
-			mta.yaml files.")**  
-You can specify that the upload of content is performed asynchronously by adding the environment variable `ASYNC_UPLOAD` to the `manifest.yaml` or `mta.yaml` files.
 

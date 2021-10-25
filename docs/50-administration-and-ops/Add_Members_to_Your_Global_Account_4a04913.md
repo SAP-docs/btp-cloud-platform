@@ -1,5 +1,7 @@
 <!-- loio4a0491330a164f5a873fa630c7f45f06 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Add Members to Your Global Account
 
 Add users as global account members using the SAP BTP cockpit.
@@ -25,6 +27,7 @@ You have the Administrator role in the global account.
     -   [Add Members to Your Global Account \[Feature Set A\]](Add_Members_to_Your_Global_Account_4a04913.md#loio4a0491330a164f5a873fa630c7f45f06__AddMembers-FSA) 
     -   [Add Members to Your Global Account \[Feature Set B\]](Add_Members_to_Your_Global_Account_4a04913.md#loio4a0491330a164f5a873fa630c7f45f06__AddMembers-FSB)
 
+
 **Related Information**  
 
 
@@ -32,11 +35,11 @@ You have the Administrator role in the global account.
 
 [User and Member Management](../10-concepts/User_and_Member_Management_cc1c676.md "On the cloud platform, member management happens at all levels from global account to space, while user management is done for deployed applications.")
 
- <a name="loio4a0491330a164f5a873fa630c7f45f06 AddMembers-FSA__AddMembers-FSA"/>
+ <a name="AddMembers-FSA"/>
 
 <!-- AddMembers-FSA -->
 
-# Add Members to Your Global Account \[Feature Set A\]
+## Add Members to Your Global Account \[Feature Set A\]
 
 Add users as global account members using the SAP BTP cockpit.
 
@@ -81,13 +84,13 @@ On the *Members* page at the global account level in the cockpit, all global acc
 
 ## Next Steps
 
-To delete members at global account level, choose   \(Delete\)  next to the user's ID.
+To delete members at global account level, choose <span class="SAP-icons"></span> \(Delete\) next to the user's ID.
 
- <a name="loio4a0491330a164f5a873fa630c7f45f06 AddMembers-FSB__AddMembers-FSB"/>
+ <a name="AddMembers-FSB"/>
 
 <!-- AddMembers-FSB -->
 
-# Add Members to Your Global Account \[Feature Set B\]
+## Add Members to Your Global Account \[Feature Set B\]
 
 Add members to your global account by assigning them a predefined role collection.
 

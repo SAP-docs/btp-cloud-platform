@@ -9,21 +9,21 @@ Use the `READ` method to get the properties of number range intervals.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Field Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -32,21 +32,21 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NR\_RANGE\_NR1
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Interval Number \(internal interval\)
 
@@ -55,21 +55,21 @@ Interval Number \(internal interval\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NR\_RANGE\_NR2
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Interval Number \(external interval\)
 
@@ -78,21 +78,21 @@ Interval Number \(external interval\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number Range Object
 
@@ -101,21 +101,21 @@ Number Range Object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SUBOBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Sub-object
 

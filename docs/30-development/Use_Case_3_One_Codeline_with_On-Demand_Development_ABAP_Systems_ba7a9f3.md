@@ -38,35 +38,35 @@ We thus strongly recommend developing with [Use Case 1: One Codeline in a 3-ABAP
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Step
 
 
 
 </th>
-<th>
+<th valign="top">
 
 System
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Role
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Tool
 
@@ -75,35 +75,35 @@ Tool
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV, PRD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 System Administrator
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provision a development and a production ABAP system
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP BTP cockpit 
 
@@ -112,35 +112,35 @@ SAP BTP cockpit
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV, PRD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 User Administrator
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create users and maintain roles
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage Business Users and Manage Business Roles app
 
@@ -149,35 +149,35 @@ Manage Business Users and Manage Business Roles app
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 3
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create a software component
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage Software Components app
 
@@ -186,35 +186,35 @@ Manage Software Components app
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 4
 
 
 
 </td>
-<td>
+<td valign="top">
 
 PRD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Pull \(empty\) software component
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage Software Components app
 
@@ -223,35 +223,35 @@ Manage Software Components app
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 5
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Developer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Develop new functional requirements or correct existing functionalities. All required changes are collected in transport requests
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Eclipse for ADT
 
@@ -260,35 +260,35 @@ Eclipse for ADT
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 6
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Tester
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Test the change and report the test results
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ADT for Eclipse with and custom SAP Fiori apps as well as external test tools
 
@@ -299,35 +299,35 @@ External documentation tool
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If changes are required, repeat steps 5-6
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -336,35 +336,35 @@ If changes are required, repeat steps 5-6
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 7
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release decision: the changes are successfully tested and approved.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 External documentation tool
 
@@ -373,35 +373,35 @@ External documentation tool
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 8
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release the transport request
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ADT for Eclipse: Transport Organizer view
 
@@ -410,35 +410,35 @@ ADT for Eclipse: Transport Organizer view
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 9
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create a release branch YYYY-<nn\>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage Software Components app
 
@@ -447,35 +447,35 @@ Manage Software Components app
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 PRD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Check out the release branch YYYY-<nn\> of the software component
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage Software Components app
 
@@ -484,35 +484,35 @@ Manage Software Components app
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 11
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 System Administrator
 
 
 
 </td>
-<td>
+<td valign="top">
 
 De-provision ABAP system DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
  SAP BTP cockpit
 
@@ -542,37 +542,38 @@ De-provision ABAP system DEV
     -   All software components are imported
 
 
+
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Step
 
 
 
 </th>
-<th>
+<th valign="top">
 
 System
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Role
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Tool
 
@@ -581,35 +582,35 @@ Tool
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provision a new development ABAP system
 
 
 
 </td>
-<td>
+<td valign="top">
 
  SAP BTP cockpit
 
@@ -618,35 +619,35 @@ Provision a new development ABAP system
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create users, maintain and assign roles
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage Business Users and Manage Business Roles app
 
@@ -655,35 +656,35 @@ Manage Business Users and Manage Business Roles app
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 3
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Import main branch of software component
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage Software Components app
 
@@ -692,35 +693,35 @@ Manage Software Components app
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 4
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Developer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Develop features
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ADT for Eclipse
 
@@ -729,35 +730,35 @@ ADT for Eclipse
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 5
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Developer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release all transport requests
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ADT for Eclipse
 
@@ -766,35 +767,35 @@ ADT for Eclipse
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 6
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Tester
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Test new developments/fixes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ADT for Eclipse and custom SAP Fiori apps as well as external test tools
 
@@ -803,35 +804,35 @@ ADT for Eclipse and custom SAP Fiori apps as well as external test tools
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If changes are required, repeat steps 3-5
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -840,35 +841,35 @@ If changes are required, repeat steps 3-5
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 7
 
 
 
 </td>
-<td>
+<td valign="top">
 
 PRD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Pull the main branch into the PRD ABAP system
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage Software Components app
 
@@ -877,35 +878,35 @@ Manage Software Components app
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 8
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Delete the development ABAP system
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP BTP cockpit
 

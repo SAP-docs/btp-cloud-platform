@@ -12,3 +12,4 @@ To eliminate potential security risks when using Functions, bear in mind these f
     -   Source code of all Functions within this Namespace
     -   Internal Docker registry that contains Function images
 
+

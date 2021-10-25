@@ -17,11 +17,11 @@ You can configure your application to use a database connection so that the appl
 -   [SAP HANA HDI Data Source Usage](Configuring_a_Database_Connection_7568c3d.md#loioc9d288e60f0942208c76bd99905dda15)
 
 
- <a name="loio7568c3d036f34a64bb6595b55805bffb loio820994a3e11d48dfaa3d3e251521a6ec__loio820994a3e11d48dfaa3d3e251521a6ec"/>
+ <a name="loio820994a3e11d48dfaa3d3e251521a6ec"/>
 
 <!-- loio820994a3e11d48dfaa3d3e251521a6ec -->
 
-# Configure a Database Connection for the Tomcat Application Container
+## Configure a Database Connection for the Tomcat Application Container
 
 
 
@@ -71,11 +71,11 @@ You can configure your application to use a database connection so that the appl
 
 When the application starts, the factory named `com.sap.xs.jdbc.datasource.TomcatDataSourceFactory` takes the parameters bound for service *my-local-special-di-core-hdi* from the environment, creates a data source, and binds it under `jdbc/DefaultDB`. The application then uses the Java Naming and Directory Interface \(JNDI\) to look up how to connect with the database.
 
- <a name="loio7568c3d036f34a64bb6595b55805bffb loiocf1499da58144c94868ce12bd25a970f__loiocf1499da58144c94868ce12bd25a970f"/>
+ <a name="loiocf1499da58144c94868ce12bd25a970f"/>
 
 <!-- loiocf1499da58144c94868ce12bd25a970f -->
 
-# Configure a Database Connection for the TomEE Application Container
+## Configure a Database Connection for the TomEE Application Container
 
 
 
@@ -118,11 +118,11 @@ When the application starts, the factory named `com.sap.xs.jdbc.datasource.Tomca
     ```
 
 
- <a name="loio7568c3d036f34a64bb6595b55805bffb loio03cfb10c5b2042bd9cc0a1bc6bc6ba92__loio03cfb10c5b2042bd9cc0a1bc6bc6ba92"/>
+ <a name="loio03cfb10c5b2042bd9cc0a1bc6bc6ba92"/>
 
 <!-- loio03cfb10c5b2042bd9cc0a1bc6bc6ba92 -->
 
-# Configure a Database Connection for the TomEE 7 Application Container
+## Configure a Database Connection for the TomEE 7 Application Container
 
 
 
@@ -211,17 +211,17 @@ As a result of this configuration, when the application starts, the *com.sap.xs.
 
 [Configuring a Database Connection](Configuring_a_Database_Connection_7568c3d.md#loio7568c3d036f34a64bb6595b55805bffb "Define details of the database connection used by your Java Web Application running on Cloud Foundry Environment with the SAP Java Buildpack.")
 
- <a name="loio7568c3d036f34a64bb6595b55805bffb loiof0d2d059b43c48098772bd05d7c51d25__loiof0d2d059b43c48098772bd05d7c51d25"/>
+ <a name="loiof0d2d059b43c48098772bd05d7c51d25"/>
 
 <!-- loiof0d2d059b43c48098772bd05d7c51d25 -->
 
-# Database Connection Configuration Details
+## Database Connection Configuration Details
 
 Define details of the database connection used by your Java Web Application running on Cloud Foundry Environment with the SAP Java Buildpack.
 
 
 
-<a name="loio7568c3d036f34a64bb6595b55805bffb loiof0d2d059b43c48098772bd05d7c51d25__section_i4y_pld_p2b"/>
+<a name="loiof0d2d059b43c48098772bd05d7c51d25__section_i4y_pld_p2b"/>
 
 ## Configuration Files
 
@@ -285,7 +285,7 @@ Sample `resource_configuration.yml`.
 
 
 
-<a name="loio7568c3d036f34a64bb6595b55805bffb loiof0d2d059b43c48098772bd05d7c51d25__section_zq3_qld_p2b"/>
+<a name="loiof0d2d059b43c48098772bd05d7c51d25__section_zq3_qld_p2b"/>
 
 ## Placeholders
 
@@ -348,11 +348,11 @@ Sample `manifest.yml`.
 >   JBP_CONFIG_RESOURCE_CONFIGURATION: "['tomcat/webapps/ROOT/META-INF/context.xml': {'service_name_for_DefaultDB' : 'my-local-special-di-core-hdi' , 'max_Active_Connections_For_DefaultDB' : '30', 'service_name_for_DefaultXADB' : 'my-local-special-xa-di-core-hdi' , 'max_Active_Connections_For_DefaultXADB' : '20'  }]"
 > ```
 
- <a name="loio7568c3d036f34a64bb6595b55805bffb loioc9d288e60f0942208c76bd99905dda15__loioc9d288e60f0942208c76bd99905dda15"/>
+ <a name="loioc9d288e60f0942208c76bd99905dda15"/>
 
 <!-- loioc9d288e60f0942208c76bd99905dda15 -->
 
-# SAP HANA HDI Data Source Usage
+## SAP HANA HDI Data Source Usage
 
 
 
@@ -405,5 +405,6 @@ Sample `manifest.yml`.
         Context ctx = new InitialContext(); 
         return (DataSource) ctx.lookup("java:comp/env/jdbc/my-hdi-container");
         ```
+
 
 

@@ -9,14 +9,14 @@ If a free text is read from an application log, an object instance of interface 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -25,7 +25,7 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CATEGORY
 
@@ -34,7 +34,7 @@ CATEGORY
 
 
 </td>
-<td>
+<td valign="top">
 
 Category of the item
 
@@ -45,7 +45,7 @@ Contains fixed value: IF\_BALI\_CONSTANTS=\>C\_CATEGORY\_FREE\_TEXT
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 LOG\_ITEM\_NUMBER
 
@@ -54,7 +54,7 @@ LOG\_ITEM\_NUMBER
 
 
 </td>
-<td>
+<td valign="top">
 
 Serial number which is the position of the free text in the log
 
@@ -63,7 +63,7 @@ Serial number which is the position of the free text in the log
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SEVERITY
 
@@ -72,7 +72,7 @@ SEVERITY
 
 
 </td>
-<td>
+<td valign="top">
 
 Severity of the free text \('Error', 'Warning', etc\)
 
@@ -81,7 +81,7 @@ Severity of the free text \('Error', 'Warning', etc\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DETAIL\_LEVEL
 
@@ -90,7 +90,7 @@ DETAIL\_LEVEL
 
 
 </td>
-<td>
+<td valign="top">
 
 Detail level of the free text \(number between '1' and '9' or ' '\)
 
@@ -99,7 +99,7 @@ Detail level of the free text \(number between '1' and '9' or ' '\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 TIMESTAMP
 
@@ -108,7 +108,7 @@ TIMESTAMP
 
 
 </td>
-<td>
+<td valign="top">
 
 UTC time stamp of the free text creation
 
@@ -129,14 +129,14 @@ Get the content of the free text:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -145,7 +145,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -154,14 +154,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 MESSAGE\_TEXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Content of the free text
 

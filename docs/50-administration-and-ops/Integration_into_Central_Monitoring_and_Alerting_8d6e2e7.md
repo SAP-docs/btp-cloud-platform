@@ -29,21 +29,21 @@ In the health monitoring of SAP Focused Run and SAP Cloud ALM, the following met
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Metric Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Metric Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -52,21 +52,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Performance
 
 
 
 </td>
-<td>
+<td valign="top">
 
 abap\_core\_dump\_count\_5m
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The number of core short dumps during the last 5 minutes
 
@@ -75,21 +75,21 @@ The number of core short dumps during the last 5 minutes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Performance
 
 
 
 </td>
-<td>
+<td valign="top">
 
 abap\_core\_fail\_appl\_jobs\_ratio\_5m
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The ratio of failed application jobs during the last 5 minutes
 
@@ -98,21 +98,21 @@ The ratio of failed application jobs during the last 5 minutes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Performance
 
 
 
 </td>
-<td>
+<td valign="top">
 
 hana\_db\_oom\_event\_count\_5m
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The number of out-of-memory events on the SAP HANA index server during the last 5 minutes
 
@@ -121,21 +121,21 @@ The number of out-of-memory events on the SAP HANA index server during the last 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Quota
 
 
 
 </td>
-<td>
+<td valign="top">
 
 abap\_acu\_used\_count\_5m \(type: memory\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Used quota of ABAP system memory \(in ABAP computing units\)
 
@@ -144,21 +144,21 @@ Used quota of ABAP system memory \(in ABAP computing units\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Quota
 
 
 
 </td>
-<td>
+<td valign="top">
 
 hana\_hcu\_used\_count\_5m \(type: cpu\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Used quota of CPU utilization for the SAP HANA database \(in HANA computing units\)
 
@@ -167,21 +167,21 @@ Used quota of CPU utilization for the SAP HANA database \(in HANA computing unit
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Quota
 
 
 
 </td>
-<td>
+<td valign="top">
 
 hana\_hcu\_used\_count\_5m \(type: disk\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Used quota of disk space for the SAP HANA database \(in HANA computing units\)
 
@@ -190,21 +190,21 @@ Used quota of disk space for the SAP HANA database \(in HANA computing units\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Quota
 
 
 
 </td>
-<td>
+<td valign="top">
 
 hana\_hcu\_used\_count\_5m \(type: memory\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Used quota of memory utilization for the SAP HANA database \(in HANA computing units\)
 

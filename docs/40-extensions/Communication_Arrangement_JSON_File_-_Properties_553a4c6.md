@@ -27,14 +27,14 @@ For specific sample JSON files, see [Communication Arrangement JSON File - Examp
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -43,14 +43,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `systemName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the system you have registered in SAP BTP global account.
 
@@ -67,14 +67,14 @@ The name of the system you have registered in SAP BTP global account.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `communicationArrangement` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Represents a communication arrangement in SAP S/4HANA Cloud.
 
@@ -88,14 +88,14 @@ Represents a communication arrangement in SAP S/4HANA Cloud.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `communicationArrangementName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `communicationArrangement` property.
 
@@ -115,14 +115,14 @@ Meaningful name of the communication arrangement that will be created for the SA
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `scenarioId` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `communicationArrangement` property.
 
@@ -142,14 +142,14 @@ The ID of the SAP S/4HANA Cloud communication scenario.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `inboundAuthentication` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `communicationArrangement` property.
 
@@ -177,14 +177,14 @@ The authentication type for the SAP S/4HANA Cloud API access.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `outboundAuthentication` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `communicationArrangement` property.
 
@@ -211,14 +211,14 @@ The type of the authentication used by SAP S/4HANA Cloud to call SAP BTP APIs.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `communicationSystem` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `communicationArrangement` property.
 
@@ -234,14 +234,14 @@ This represents the *Communication System* view of the communication arrangement
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `communicationSystemHostname` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `communicationSystem` property.
 
@@ -259,14 +259,14 @@ This is equivalent to *Technical Data* \> *General* \> *Host Name* in the*Commun
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `port` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `communicationSystem` property.
 
@@ -288,14 +288,14 @@ The port for outbound calls to the remote system hosting the APIs that will be c
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `oAuthAuthEndpoint` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `communicationSystem` property.
 
@@ -311,14 +311,14 @@ The OAuth authorization endpoint of the remote OAuth service in case the communi
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `oAuthTokenEndpoint` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `communicationSystem` property.
 
@@ -334,14 +334,14 @@ The OAuth token endpoint. This is equivalent to *Technical Data* \> *OAuth 2.0 S
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `outboundCommunicationUser` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `communicationSystem` property.
 
@@ -360,14 +360,14 @@ The communication user used for outbound authentication. This is equivalent to a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `username` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `outboundCommunicationUser` property.
 
@@ -383,14 +383,14 @@ The username of the communication user.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `password` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `outboundCommunicationUser` property.
 
@@ -406,14 +406,14 @@ The password of the communication user.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `outboundServices` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `communicationArrangement` property.
 
@@ -431,14 +431,14 @@ This is equivalent to the *Outbound Services* section in the SAP S/4HANA Cloud *
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `outboundService` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `outboundServices` object.
 
@@ -454,14 +454,14 @@ A specific outbound service object.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `name` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `outboundService` property.
 
@@ -477,14 +477,14 @@ The name of the outbound service. It must be an exact match of the name displaye
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `urlPath` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `outboundService` property.
 
@@ -500,14 +500,14 @@ This is equivalent to the *Path* field in the SAP S/4HANA Cloud system. It is us
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `isServiceActive` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `outboundService` property.
 
@@ -525,14 +525,14 @@ This is equivalent to the *Service Status* checkbox in the SAP S/4HANA Cloud sys
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `attributes` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `outboundService` parameter.
 
@@ -550,14 +550,14 @@ This is equivalent to the *Additional Properties* section of the outbound servic
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `attribute` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `attributes` object.
 
@@ -573,14 +573,14 @@ A specific attribute object. Represents an additional property in the outbound s
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `name` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `attribute` property.
 
@@ -596,14 +596,14 @@ The name of the additional property of the outbound service. It is equivalent to
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `value` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `attribute` property.
 
@@ -619,14 +619,14 @@ Enter value for the additional property of the outbound service.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `attributes` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `communicationArrangement` parameter.
 
@@ -644,14 +644,14 @@ This is equivalent to the *Additional Properties* section of the communication a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `attribute` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `attributes` object.
 
@@ -667,14 +667,14 @@ A specific attribute object. Represents an additional property in the communicat
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `name` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `attribute` property.
 
@@ -690,14 +690,14 @@ It is equivalent to the *Technical Property Name* section in the *Additional Pro
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `value` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `attribute` property.
 

@@ -35,10 +35,3 @@ For monitoring an entire system landscape, consider using a central monitoring a
 
 For more information, see [Integration into Central Monitoring and Alerting](Integration_into_Central_Monitoring_and_Alerting_8d6e2e7.md).
 
--   **[Common Tasks: Quick Reference](Common_Tasks_Quick_Reference_165b715.md "Learn how you can perform typical tasks during technical operations using the available tools in the ABAP environment.")**  
-Learn how you can perform typical tasks during technical operations using the available tools in the ABAP environment.
--   **[Technical Monitoring Cockpit](Technical_Monitoring_Cockpit_251bfb3.md "The technical monitoring cockpit is a monitoring and analysis tool for the ABAP environment.")**  
-The technical monitoring cockpit is a monitoring and analysis tool for the ABAP environment.
--   **[Integration into Central Monitoring and Alerting](Integration_into_Central_Monitoring_and_Alerting_8d6e2e7.md "Learn more about how you can monitor the ABAP environment using SAP Focused Run.")**  
-Learn more about how you can monitor the ABAP environment using SAP Focused Run.
-

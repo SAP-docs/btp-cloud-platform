@@ -14,12 +14,6 @@ One software component is comparable to a repository in Git. These "repositories
 
 Once you have pulled a new software component to a service instance, a new structure package is created. The structure package name corresponds to the software component name. A software component itself is developed in ABAP packages in ABAP Developments Tools \(ADT\). The development objects are then uploaded to the structure package, and the software component is made available for the import to other service instances.
 
--   **[Supported ABAP Object Types](Supported_ABAP_Object_Types_aa9742d.md "")**  
-
--   **[Manage Software Components](Manage_Software_Components_3dcf76a.md "You can use this app to create, display, pull and delete software components in your
-		ABAP environment landscape.")**  
-You can use this app to create, display, pull and delete software components in your ABAP environment landscape.
-
 **Related Information**  
 
 

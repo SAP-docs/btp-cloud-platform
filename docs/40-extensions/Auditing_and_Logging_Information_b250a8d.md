@@ -9,28 +9,28 @@ Here you can find a list of the events that are logged by SAP S/4HANA Cloud Exte
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Event grouping
 
 
 
 </th>
-<th>
+<th valign="top">
 
 What events are logged
 
 
 
 </th>
-<th>
+<th valign="top">
 
 How to identify related log events
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Additional information
 
@@ -39,21 +39,21 @@ Additional information
 </th>
 </tr>
 <tr>
-<td rowspan="4">
+<td valign="top" rowspan="4">
 
 Creating an integration
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Start creating integration
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `"type":"s4Integration"`
 
@@ -65,7 +65,7 @@ Start creating integration
 
 
 </td>
-<td>
+<td valign="top">
 
 Event that signifies an integration of a global account with an SAP S/4HANA Cloud system has been started. The log contains integration details such as the SAP S/4HANA Cloud tenant host name and ID, the Identity Authenticattion tenant ID, the integration ID, and other.
 
@@ -76,14 +76,14 @@ The `customDetails` attribute contains the SAP S/4HANA Cloud user ID of the user
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Created integration
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `"type":"s4Integration"`
 
@@ -95,7 +95,7 @@ Created integration
 
 
 </td>
-<td>
+<td valign="top">
 
 Event that signifies an integration of a global account with an SAP S/4HANA Cloud system has been completed. The log contains integration details such as the SAP S/4HANA Cloud tenant host name and ID, the Identity Authenticattion tenant ID, the integration ID, and other.
 
@@ -106,14 +106,14 @@ The `customDetails` attribute contains the SAP S/4HANA Cloud user ID of the user
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Delete integration
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `"type":"s4Integration"`
 
@@ -124,7 +124,7 @@ Delete integration
 
 
 </td>
-<td>
+<td valign="top">
 
 Event that signifies a deletion of an integration of a global account with an SAP S/4HANA Cloud system has been triggered. The log contains integration details such as the SAP S/4HANA Cloud tenant host name and ID, the Identity Authenticattion tenant ID, the integration ID, and other.
 
@@ -135,14 +135,14 @@ The `customDetails` attribute contains the SAP S/4HANA Cloud user ID of the user
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Deleted integration
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `"type":"s4Integration"`
 
@@ -153,7 +153,7 @@ Deleted integration
 
 
 </td>
-<td>
+<td valign="top">
 
 Event that signifies a deletion of an integration of a global account with an SAP S/4HANA Cloud system has been completed. The log contains integration details such as the SAP S/4HANA Cloud tenant host name and ID, the Identity Authenticattion tenant ID, the integration ID, and other.
 
@@ -164,21 +164,21 @@ The `customDetails` attribute contains the SAP S/4HANA Cloud user ID of the user
 </td>
 </tr>
 <tr>
-<td rowspan="4">
+<td valign="top" rowspan="4">
 
 Setting up the connectivity
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Start creating connectivity configuration
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `"type":"s4Configuration"`
 
@@ -190,7 +190,7 @@ Start creating connectivity configuration
 
 
 </td>
-<td>
+<td valign="top">
 
 Event that signifies a creation of a service instance of the SAP S/4HANA Cloud Extensibility service has been triggered. The log contains details such as the global account ID, the subaccount ID, the communication arrangement, and the authentication mechanism.
 
@@ -199,14 +199,14 @@ Event that signifies a creation of a service instance of the SAP S/4HANA Cloud E
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Created connectivity configuration
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `"type":"s4Configuration"`
 
@@ -218,7 +218,7 @@ Created connectivity configuration
 
 
 </td>
-<td>
+<td valign="top">
 
 Event that signifies a creation of a service instance of the SAP S/4HANA Cloud Extensibility service has been completed. The log contains details such as the global account ID, the subaccount ID, the communication arrangement, and the authentication mechanism.
 
@@ -227,14 +227,14 @@ Event that signifies a creation of a service instance of the SAP S/4HANA Cloud E
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Start deleting connectivity configuration
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `"type":"s4Configuration"`
 
@@ -246,7 +246,7 @@ Start deleting connectivity configuration
 
 
 </td>
-<td>
+<td valign="top">
 
 Event that signifies the deletion of a service instance of the SAP S/4HANA Cloud Extensibility service has been started. The log contains details such as the global account ID, the subaccount ID, the communication arrangement, and the authentication mechanism.
 
@@ -255,14 +255,14 @@ Event that signifies the deletion of a service instance of the SAP S/4HANA Cloud
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Deleted connectivity configuration
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `"type":"s4Configuration"`
 
@@ -274,7 +274,7 @@ Deleted connectivity configuration
 
 
 </td>
-<td>
+<td valign="top">
 
 Event that signifies the deletion of a service instance of the SAP S/4HANA Cloud Extensibility service has been completed. The log contains details such as the global account ID, the subaccount ID, the communication arrangement, and the authentication mechanism.
 

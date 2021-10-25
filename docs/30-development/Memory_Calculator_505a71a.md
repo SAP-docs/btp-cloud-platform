@@ -21,15 +21,15 @@ The SAP Java Buildpack provides two options for a memory calculator:
     ```
 
 
- <a name="loio505a71ae53e84c7a972bb6c34b4316fb loio8eef9590a1d24e87af239d7c7e15fffe__loio8eef9590a1d24e87af239d7c7e15fffe"/>
+ <a name="loio8eef9590a1d24e87af239d7c7e15fffe"/>
 
 <!-- loio8eef9590a1d24e87af239d7c7e15fffe -->
 
-# Memory Calculator V2
+## Memory Calculator V2
 
 
 
-<a name="loio505a71ae53e84c7a972bb6c34b4316fb loio8eef9590a1d24e87af239d7c7e15fffe__section_ytm_f2x_42b"/>
+<a name="loio8eef9590a1d24e87af239d7c7e15fffe__section_ytm_f2x_42b"/>
 
 ## Customization
 
@@ -68,15 +68,15 @@ applications:
 
 [Java Buildpack Memory Calculator](https://github.com/cloudfoundry/java-buildpack-memory-calculator)
 
- <a name="loio505a71ae53e84c7a972bb6c34b4316fb loioc1059e056aad406297addcd177a4fb7c__loioc1059e056aad406297addcd177a4fb7c"/>
+ <a name="loioc1059e056aad406297addcd177a4fb7c"/>
 
 <!-- loioc1059e056aad406297addcd177a4fb7c -->
 
-# Memory Calculator V1 \(SAP JVM Memory Calculator\)
+## Memory Calculator V1 \(SAP JVM Memory Calculator\)
 
 
 
-<a name="loio505a71ae53e84c7a972bb6c34b4316fb loioc1059e056aad406297addcd177a4fb7c__section_sgj_4ky_13b"/>
+<a name="loioc1059e056aad406297addcd177a4fb7c__section_sgj_4ky_13b"/>
 
 ## General Information
 
@@ -95,7 +95,7 @@ There are three memory types, which can be sized - heap, metaspace and stack. Fo
 
 
 
-<a name="loio505a71ae53e84c7a972bb6c34b4316fb loioc1059e056aad406297addcd177a4fb7c__section_w11_n5w_42b"/>
+<a name="loioc1059e056aad406297addcd177a4fb7c__section_w11_n5w_42b"/>
 
 ## Default Settings
 
@@ -154,21 +154,21 @@ The *memory\_calculator* section encloses the input data for the memory calculat
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Syntax
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Range
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Value that satisfies the Range
 
@@ -177,21 +177,21 @@ The *memory\_calculator* section encloses the input data for the memory calculat
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     120M
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     120M
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     120M
 
@@ -200,21 +200,21 @@ The *memory\_calculator* section encloses the input data for the memory calculat
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     120M..
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     \[120M\)
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     \>=120M
 
@@ -223,21 +223,21 @@ The *memory\_calculator* section encloses the input data for the memory calculat
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     120M..150M
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     \[120M, 150M\]
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     \>=120M & <=150M
 
@@ -256,7 +256,7 @@ The *memory\_calculator* section encloses the input data for the memory calculat
 
 
 
-<a name="loio505a71ae53e84c7a972bb6c34b4316fb loioc1059e056aad406297addcd177a4fb7c__section_x32_fww_42b"/>
+<a name="loioc1059e056aad406297addcd177a4fb7c__section_x32_fww_42b"/>
 
 ## Customizing the Default Settings
 
@@ -326,7 +326,7 @@ There are several ways to customize the SAP JVM Memory Calcolator's settings dur
 
 
 
-<a name="loio505a71ae53e84c7a972bb6c34b4316fb loioc1059e056aad406297addcd177a4fb7c__section_zwr_gzw_42b"/>
+<a name="loioc1059e056aad406297addcd177a4fb7c__section_zwr_gzw_42b"/>
 
 ## Algorithm
 
@@ -339,14 +339,14 @@ When given certain memory limit the memory calculator will try to calculate memo
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Memory limit
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Memory calculator settings
 
@@ -355,14 +355,14 @@ Memory calculator settings
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1G
 
 
 
 </td>
-<td>
+<td valign="top">
 
 default
 
@@ -410,14 +410,14 @@ First the algorithm will try to estimate the number of threads for the given mem
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Memory limit
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Memory calculator settings
 
@@ -426,14 +426,14 @@ Memory calculator settings
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1G
 
 
 
 </td>
-<td>
+<td valign="top">
 
 *memory\_sizes*:
 

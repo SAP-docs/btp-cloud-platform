@@ -53,35 +53,35 @@ The matrix below shows which kinds of operations are supported for which object 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
  
 
 
 
 </th>
-<th>
+<th valign="top">
 
 PUT
 
 
 
 </th>
-<th>
+<th valign="top">
 
 POST
 
 
 
 </th>
-<th>
+<th valign="top">
 
 PATCH
 
 
 
 </th>
-<th>
+<th valign="top">
 
 DELETE
 
@@ -90,35 +90,35 @@ DELETE
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 BDEF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
@@ -127,35 +127,35 @@ X
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CLAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
@@ -164,35 +164,35 @@ X
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DCLS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
@@ -201,35 +201,35 @@ X
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DDLS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
@@ -238,35 +238,35 @@ X
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DDLX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
@@ -275,35 +275,35 @@ X
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DEVC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
@@ -312,35 +312,35 @@ X
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DOMA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
@@ -349,35 +349,35 @@ X
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DTEL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
@@ -386,35 +386,35 @@ X
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 FUGR
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
@@ -423,35 +423,35 @@ X
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 INTF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
@@ -460,35 +460,35 @@ X
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 MSAG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
@@ -497,35 +497,35 @@ X
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SRVB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
@@ -534,35 +534,35 @@ X
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SRVD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
@@ -571,35 +571,35 @@ X
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 TABL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
@@ -608,35 +608,35 @@ X
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 TTYP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
@@ -645,7 +645,4 @@ X
 </td>
 </tr>
 </table>
-
--   **[Design of the XCO Generation APIs](Design_of_the_XCO_Generation_APIs_d01859f.md "")**  
-
 

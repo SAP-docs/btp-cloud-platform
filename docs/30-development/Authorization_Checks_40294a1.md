@@ -17,21 +17,21 @@ Use method `IF_CHDO_OBJECT_TOOLS_REL~CHECK_AUTHORIZATION` to run an additional a
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Field Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -40,21 +40,21 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_OBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Name of Change Document Object
 
@@ -63,21 +63,21 @@ Name of Change Document Object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_ACTIVITY
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Activity to be checked. Existing values:
 
@@ -95,21 +95,21 @@ Activity to be checked. Existing values:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_DEVCLASS
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -124,21 +124,21 @@ IV\_DEVCLASS
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Field Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -147,21 +147,21 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 RV\_IS\_AUTHORIZED
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ABAP\_TRUE if the authority check was successfully
 

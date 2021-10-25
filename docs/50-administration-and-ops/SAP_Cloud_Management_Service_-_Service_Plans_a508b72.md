@@ -7,28 +7,28 @@ Describes the service plans for the SAP Cloud Management service for SAP BTP and
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Service Display Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Technical Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Service Plan
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Scopes
 
@@ -37,28 +37,28 @@ Scopes
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cloud Management Service
 
 
 
 </td>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 cis
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **central:** Service plan for using SAP Cloud Management service APIs to manage your global accounts, subaccounts, directories, and entitlements.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   global-account.read
 -   global-account.update
@@ -86,21 +86,21 @@ cis
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cloud Management Service
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **local:** Service plan for using SAP Cloud Management service APIs to manage your environments and subscriptions to multitenant applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   subaccount.entitlement.read
 -   subaccount.environment.read
@@ -117,28 +117,28 @@ Cloud Management Service
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SaaS Provisioning Service
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `saas-registry`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **application:** Service plan for application owners to manage the lifecycle of multitenant applications with SAP Software-as-a-Service Provisioning service APIs.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   job.read
 -   subscription.read

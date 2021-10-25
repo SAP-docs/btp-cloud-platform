@@ -28,6 +28,7 @@ The termination process is triggered when a customer contract expires or a custo
     -   Access is blocked to the global account, and to deployed and subscribed applications.
     -   No data is deleted, and backups are still ongoing.
     -   The global account is displayed in the cockpit with the label *Expired*, and the number of days left in the grace period is displayed.
+
     The customer can contact SAP to restore their account to a fully active account without data loss.
 
 4.  At the end of the grace period, all customer-related data for the account and services is deleted and cannot be restored. The global account tile is removed from the cockpit.

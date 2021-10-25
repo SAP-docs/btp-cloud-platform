@@ -30,14 +30,14 @@ Use class `CL_SCAL_API` that contains the following list of methods to access fa
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -46,14 +46,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DAY\_ATTRIBUTES\_GET
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provides a list of days \(by date\) with their attributes. These attributes contain the information if the date is a working day or holiday, the name of the holiday, the weekday, and so on. See the code sample for this method below.
 
@@ -62,14 +62,14 @@ Provides a list of days \(by date\) with their attributes. These attributes cont
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DATE\_COMPUTE\_DAY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provides the name and number of the weekday for a specified date
 
@@ -78,14 +78,14 @@ Provides the name and number of the weekday for a specified date
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 FACTORY\_CALENDAR\_GET
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provides a list of factory calendars
 
@@ -94,14 +94,14 @@ Provides a list of factory calendars
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 HOLIDAY\_CALENDAR\_GET
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provides a list of holiday calendars
 
@@ -110,14 +110,14 @@ Provides a list of holiday calendars
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 FACTORY\_CALENDAR\_ATTRIBUTE\_GET
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provides the attributes of a factory calendar
 
@@ -126,14 +126,14 @@ Provides the attributes of a factory calendar
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DATE\_CONVERT\_TO\_FACTORYDATE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Converts a date to a factory date
 
@@ -142,14 +142,14 @@ Converts a date to a factory date
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 FACTORYDATE\_CONVERT\_TO\_DATE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Converts a factory date to a date
 
@@ -158,14 +158,14 @@ Converts a factory date to a date
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 START\_TIME\_DETERMINE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Determines the start date and start time
 
@@ -174,14 +174,14 @@ Determines the start date and start time
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 END\_TIME\_DETERMINE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Determines the end date and end time
 
@@ -223,14 +223,14 @@ Independently from the above factory calendar information, you can use class `CL
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -239,14 +239,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 MONTH\_NAMES\_GET
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provides the names of the months
 
@@ -255,14 +255,14 @@ Provides the names of the months
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 WEEK\_GET\_FIRST\_DAY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provides the first day of a week
 
@@ -271,14 +271,14 @@ Provides the first day of a week
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DATE\_GET\_WEEK
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provides the year and week of a date
 

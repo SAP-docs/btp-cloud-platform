@@ -1,5 +1,7 @@
 <!-- loio1cc5a1da02594b93a70f6c0fe2bfdfe8 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Create a Communication Arrangement for Inbound Communication with Service Key Type Basic
 
 Learn how to quickly create a communication user and communication arrangement for an inbound communication scenario by using a service key of type basic.
@@ -24,7 +26,7 @@ Learn how to quickly create a communication user and communication arrangement f
 
 3.  Select *Services* \> *Instances* from the navigation area and find your ABAP system service instance.
 
-4.  Click on     and select *Create Service Key*.
+4.  Click on <span class="SAP-icons"></span>  and select *Create Service Key*.
 
 5.  In the *New Service Key* dialog, enter a name for your service key and specify the parameters in JSON format as follows:
 

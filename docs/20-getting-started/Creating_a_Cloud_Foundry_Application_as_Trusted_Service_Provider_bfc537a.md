@@ -94,14 +94,14 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     User Attribute
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Assertion Attribute
 
@@ -110,14 +110,14 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *First Name*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***first\_name***
 
@@ -126,14 +126,14 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Last Name*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***last\_name***
 
@@ -142,14 +142,14 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *E-Mail*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***mail***
 
@@ -158,14 +158,14 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Groups*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***Groups***
 

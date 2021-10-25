@@ -10,6 +10,7 @@ gCTS and the SAP Fiori app Manage Software Components provide a simplified git U
     -   there is only one branch of a software component at a time
     -   all developers work on the same object versions
     -   an object can be edited by one developer at once
+
 -   Pulling a software component does not simply copy object files, but, depending on the object type, also activates the objects, for example a data element, or even generates additional invisible objects in Eclipse, for example authorization artifacts for business catalogs used in business roles.
 -   You have no merge functionality. If you pull the current branch while changes have been added from another ABAP system, all the changes in the ABAP system the branch is pulled into are discarded. Consequently, you should not work on the same branch in two different ABAP systems.
 -   Before being able to pull a software component again or before checking out a different branch, you have to release all open transport requests. There is no way of saving them without releasing, like a git stash.

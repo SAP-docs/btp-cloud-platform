@@ -64,24 +64,11 @@ See the following workflows to learn how to set up a global account with the CLI
 
     -   For enterprise accounts: [Setting Up a Global Account via the Command Line \[Feature Set B\]](../20-getting-started/Setting_Up_a_Global_Account_via_the_Command_Line_Feature_Set_B_accd5b2.md)
 
+
 -   Learn how to automate the global account setup: [Automate Account Operations with the Command Line Interface](https://developers.sap.com/tutorials/cp-cli-automate-operations.html)
 
 
 
-
--   **[Download and Start Using the btp CLI Client](Download_and_Start_Using_the_btp_CLI_Client_8a8f17f.md "To use the SAP BTP command line interface (btp CLI), you need to download the client
-		first.")**  
-To use the SAP BTP command line interface \(btp CLI\), you need to download the client first.
--   **[Command Syntax of the btp CLI](Command_Syntax_of_the_btp_CLI_69606f4.md "Each command consists of the base call btp followed by a verb (the action), a combination of group and object, and
-		parameters.")**  
-Each command consists of the base call `btp` followed by a verb \(the action\), a combination of group and object, and parameters.
--   **[General Commands and Options in the btp CLI](General_Commands_and_Options_in_the_btp_CLI_11d9f67.md "Learn how to work with the SAP BTP command line interface (btp CLI). For example, how
-		to log in, get help, and set a default context for commands.")**  
-Learn how to work with the SAP BTP command line interface \(btp CLI\). For example, how to log in, get help, and set a default context for commands.
--   **[Commands in the btp CLI](Commands_in_the_btp_CLI_a03a555.md "A list of all tasks and respective commands that are available in the SAP BTP command line interface (btp CLI).")**  
-A list of all tasks and respective commands that are available in the SAP BTP command line interface \(btp CLI\).
--   **[Troubleshooting and Support](Troubleshooting_and_Support_4023e15.md "Troubleshooting and support information for the btp CLI.")**  
-Troubleshooting and support information for the btp CLI.
 
 **Related Information**  
 

@@ -27,14 +27,14 @@ For more information, see [Consuming Services in Other Environments Using the SA
 
         <table>
         <tr>
-        <th>
+        <th valign="top">
 
         API
 
 
         
         </th>
-        <th>
+        <th valign="top">
 
         Role Collection Required
 
@@ -43,14 +43,14 @@ For more information, see [Consuming Services in Other Environments Using the SA
         </th>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `monthlyUsage`, `/monthlySubaccountsCost`, and `subaccountUsage`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Global Account Administrator and Global Account Viewer
 
@@ -61,6 +61,7 @@ For more information, see [Consuming Services in Other Environments Using the SA
         </table>
         
         For more information, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/Role_Collections_and_Roles_in_Global_Accounts,_Directories,_and_Subaccounts_Feature_Set_B_0039cf0.md).
+
 
 
 > ### Note:  
@@ -78,6 +79,7 @@ For more information, see [Consuming Services in Other Environments Using the SA
 
     -   `PLAN:` The name of the service plan that you want to use. See [SAP Usage Data Management Service - Service Plans](SAP_Usage_Data_Management_Service_-_Service_Plans_c94c85e.md).
     -   `SERVICE_INSTANCE:` Name of the service instance.
+
     There are several options available to create instances depending on the environment you use.
 
     -   To create a service instance in other environments using the Service Manager Control \(SMCTL\) CLI or SAP Service Manager APIs, see [Consuming Services in Other Environments Using the SAP Service Manager Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/0714ac254e83492281d95e25548b388c.html).
@@ -85,6 +87,7 @@ For more information, see [Consuming Services in Other Environments Using the SA
     -   To create a service instance in the Cloud Foundry environment using the SAP BTP cockpit or the cf CLI, see [Creating Service Instances](../30-development/Creating_Service_Instances_8221b74.md).
 
     -   To create a service instance in Kyma using the Kyma dashboard, see [Create Service Instances Using the Kyma Console](../30-development/Create_Service_Instances_Using_the_Kyma_Console_0453ffb.md).
+
     > ### Recommendation:  
     > If you are not working in Cloud Foundry, Kyma, or Kubernetes, use the SAP Service Manager to create and manage service instances. These instances are platform-agnostic and can be deployed and integrated with any other environment of your choice.
 
@@ -94,6 +97,7 @@ For more information, see [Consuming Services in Other Environments Using the SA
     -   To create a service key in the Cloud Foundry environment using the SAP BTP cockpit or the cf CLI, see [Creating Service Keys](../30-development/Creating_Service_Keys_4514a14.md).
 
     -   To create credentials for calling the service and retrieving information in the Kyma environment, see [Creating Credentials](../30-development/Creating_Credentials_945498c.md).
+
 
 3.  Use `uaa_url`, `clientid`, and `clientsecret` to request an access token using the following commands:
 
@@ -167,7 +171,12 @@ For more information, see [Consuming Services in Other Environments Using the SA
         > ### Note:  
         > Use the `<access_token>` that you received in step 3 to compose the `api_key` in the format `Bearer` *<access\_token\>*.
 
+
 5.  Choose the API that you want to call, provide the relevant parameters, and choose *Try it out!*.
+
+-   To learn more about SAP API Business Hub, see [What Is the SAP API Business Hub?](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/54871d308811444d8d84fbb3fb82cf4c.html)
+-   To start working with the *Resource Consumption* APIs in SAP API Business Hub, you'll need to configure an environment. See [Trying Out APIs in a Configured Environment](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/f7796baaef6a48e9867298827f5028ff.html).
+-   To configure an environment using the *Create New Environment* wizard, see [Getting an Access Token for SAP Cloud Management Service APIs](Getting_an_Access_Token_for_SAP_Cloud_Management_Service_APIs_3670474.md).
 
 **Related Information**  
 

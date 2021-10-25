@@ -28,28 +28,28 @@ Modify the following MTA module types by providing specific properties or parame
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Module Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Default Parameter Values and Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Module Properties
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Result
 
@@ -58,14 +58,14 @@ Result
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `javascript.nodejs`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No default parameter.
 
@@ -75,14 +75,14 @@ No default parameter.
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF application with automatic buildpack detection
 
@@ -91,28 +91,28 @@ CF application with automatic buildpack detection
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `nodejs`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `buildpack`\(`nodejs_buildpack`\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF application with Node.js runtime
 
@@ -121,14 +121,14 @@ CF application with Node.js runtime
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `custom`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No default parameter.
 
@@ -138,14 +138,14 @@ No default parameter.
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF application with automatic buildpack detection
 
@@ -154,14 +154,14 @@ CF application with automatic buildpack detection
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `application`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No default parameter.
 
@@ -171,14 +171,14 @@ No default parameter.
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF application with automatic buildpack detection
 
@@ -187,28 +187,28 @@ CF application with automatic buildpack detection
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `java`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `buildpack` \(`sap_java_buildpack`\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF application with Automatic runtime detection by `sap_java_buildpack`
 
@@ -217,28 +217,28 @@ CF application with Automatic runtime detection by `sap_java_buildpack`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `java.tomcat`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `buildpack` \(`sap_java_buildpack`\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `TARGET_RUNTIME` \(tomcat\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF application with Tomcat runtime of sap\_java\_buildpack
 
@@ -247,28 +247,28 @@ CF application with Tomcat runtime of sap\_java\_buildpack
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `java.tomee`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `buildpack` \(`sap_java_buildpack`\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `TARGET_RUNTIME` \(tomee\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF application with TomEE runtime of sap\_java\_buildpack
 
@@ -277,14 +277,14 @@ CF application with TomEE runtime of sap\_java\_buildpack
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.xs.hdi`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `no-route` \(`true`\)
 
@@ -305,14 +305,14 @@ CF application with TomEE runtime of sap\_java\_buildpack
 
 
 </td>
-<td>
+<td valign="top">
 
 `EXIT (1)`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF application with HDI content activation
 
@@ -321,28 +321,28 @@ CF application with HDI content activation
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.xs.hdi-dynamic`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `buildpack`\(`nodejs_buildpack`\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF application with Node.js runtime
 
@@ -351,14 +351,14 @@ CF application with Node.js runtime
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.portal.content`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Note:  
 > Before using this module type, update the content deployer applications to their latest version.
@@ -375,14 +375,14 @@ CF application with Node.js runtime
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF application with SAP Fiori launchpad content
 
@@ -391,14 +391,14 @@ CF application with SAP Fiori launchpad content
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.portal.site-content`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 This module type is **deprecated**.
 
@@ -407,14 +407,14 @@ You have to use `com.sap.portal.content` instead.
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF application with SAP Fiori launchpad content
 
@@ -423,14 +423,14 @@ CF application with SAP Fiori launchpad content
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.application.content`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Required dependency parameters:
 
@@ -442,14 +442,14 @@ Required dependency parameters:
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Direct content deployment to backing services
 
@@ -458,14 +458,14 @@ Direct content deployment to backing services
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.html5.application-content`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `no-route` \(`true`\). Defines if a route should be assigned to the application.
 -   `memory` \(`256M`\). Defines the memory allocated to the application.
@@ -480,14 +480,14 @@ Direct content deployment to backing services
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Deploys a content deployment application, and creates a task that performs the content deployment.
 
@@ -496,14 +496,14 @@ Deploys a content deployment application, and creates a task that performs the c
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.business-logging.content`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Note:  
 > Before using this module type, update the content deployer applications to their latest version.
@@ -520,14 +520,14 @@ Deploys a content deployment application, and creates a task that performs the c
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Deploys the Business Logging for configuring text resources
 
@@ -536,14 +536,14 @@ Deploys the Business Logging for configuring text resources
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `business-logging`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 This module type is **deprecated**.
 
@@ -552,14 +552,14 @@ You have to use `com.sap.business-logging.content` instead.
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Deploys the Business Logging for configuring text resources
 
@@ -568,28 +568,28 @@ Deploys the Business Logging for configuring text resources
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `staticfile`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `buildpack` \(`staticfile_buildpack`\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF application with static file runtime
 
@@ -598,28 +598,28 @@ CF application with static file runtime
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `ruby`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `buildpack`\(`ruby_buildpack`\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF application with Ruby runtime
 
@@ -628,28 +628,28 @@ CF application with Ruby runtime
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `go`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `buildpack`\(`go_buildpack`\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF application with Go runtime
 
@@ -658,28 +658,28 @@ CF application with Go runtime
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `python`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `buildpack`\(`python_buildpack`\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF application with Python runtime
 
@@ -688,28 +688,28 @@ CF application with Python runtime
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `php`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `buildpack`\(`php_buildpack`\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF application with PHP runtime
 
@@ -718,28 +718,28 @@ CF application with PHP runtime
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `binary`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `buildpack`\(`binary_buildpack`\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF application with Binary runtime
 
@@ -748,28 +748,28 @@ CF application with Binary runtime
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `dotnet_core`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `buildpack`\(`dotnet_core_buildpack`\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 None
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CF application with Dotnet runtime
 
@@ -808,35 +808,35 @@ The following parameters are supported:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Read-Only \(System\)
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Default Value
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Example
 
@@ -845,35 +845,35 @@ Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `app-name`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the application in the Cloud Foundry environment to be deployed for this module, based on the module name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `${default-app-name`\}
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `node-hello-world`
 
@@ -884,35 +884,35 @@ The name of the application in the Cloud Foundry environment to be deployed for 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `buildpack`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name or the URL of a custom buildpack required by the application
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Empty, or as specified in the deploy service configuration
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `buildpack: git://github.acme.com/xs2-java/xs2javabuildpack` 
 
@@ -921,35 +921,35 @@ Empty, or as specified in the deploy service configuration
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `buildpacks`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An array of buildpacks. If a buildpack parameter already exists, it will be overwritten by the buildpacks listed in the buildpacks parameter, so that you have to include it in the array.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Empty, or as specified in the deploy service configuration
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `buildpacks: [java_buildpack, nodejs_buildpack, staticfile_buildpack]` 
 
@@ -958,35 +958,35 @@ Empty, or as specified in the deploy service configuration
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `command`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A custom command required to start the application
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Empty, or as specified in the deploy service configuration
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `command: node index.js` 
 
@@ -995,35 +995,35 @@ Empty, or as specified in the deploy service configuration
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `create-service-broker`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies whether \[true|false\] a service broker should be registered for the application module
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `false`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `create-service-broker: true`
 
@@ -1032,35 +1032,35 @@ Specifies whether \[true|false\] a service broker should be registered for the a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `default-app-name`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the application in the Cloud Foundry environment to be deployed for this module, based on the module name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The module name with or without a name-space prefix
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `node-hello-world`
 
@@ -1071,21 +1071,21 @@ The module name with or without a name-space prefix
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `default-host`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The default host name, which is composed based on the module name to ensure uniqueness. Used with host-based routing to compose the default URI, see below. It follows the convention `${org}-${space}-<module_name>`.
 
@@ -1101,14 +1101,14 @@ The default host name, which is composed based on the module name to ensure uniq
 
 
 </td>
-<td>
+<td valign="top">
 
 Generated as described in the description
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `trial-a007007-node-hello-world`
 
@@ -1117,35 +1117,35 @@ Generated as described in the description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `default-instances`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The number of application instances that are started during the deployment
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `default-instances: 1`
 
@@ -1154,35 +1154,35 @@ The number of application instances that are started during the deployment
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `default-uri`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The default URI, composed as `${host}.${domain}` \(host-based routing\). Note that `${host}` will be the same as `${default-host}`, unless specified explicitly as a parameter. Similarly, `${domain}` would be the same as `${default-domain}`, unless specified explicitly.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Generated as described in the description.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `trial-a007007-node-hello-world.cfapps.acme.ondemand.com`
 
@@ -1191,35 +1191,35 @@ Generated as described in the description.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `default-url`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The default URL, composed as `${protocol}://${default-uri}`. Note that the `${default-uri}` placeholder is resolved as `${host}.${domain}` \(host-based routing\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Generated as described in the description.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `${protocol}://${default-uri}`
 
@@ -1228,35 +1228,35 @@ Generated as described in the description.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `dependency-type`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Deployment order of modules with circular dependencies
 
 
 
 </td>
-<td>
+<td valign="top">
 
 soft
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `dependency-type: hard`
 
@@ -1267,35 +1267,35 @@ soft
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `disk-quota`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The disk space that will be available to the application. This parameter requires a unit of measurement M, MB, G, or GB in upper or lower case.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1, or as specified in module-type
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `disk-quota: 1G`
 
@@ -1304,21 +1304,21 @@ The disk space that will be available to the application. This parameter require
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `docker`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Write
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Creates a module from a docker image. When using a docker image parameter, we do not need to specify the module in the `MANIFEST.mf` file. An image parameter is a docker image from the Docker Hub or somewhere else. The username and the password are optional, but if a Docker image from a private repository is uploaded, then they are mandatory.
 
@@ -1327,14 +1327,14 @@ When uploading a docker image, the content of a module is not needed.
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > ```
@@ -1353,35 +1353,35 @@ n/a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `domain`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The domain on which the application is available later
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `${default-domain}`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `domain: ${default-domain}.acme.com`
 
@@ -1390,35 +1390,35 @@ The domain on which the application is available later
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `domains`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The domains on which the application is available later. The resulting application routes are the Cartesian product of the domains and hosts. That is, a separate route for each host is constructed on each domain.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `domains: - ${default}`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `domains: - ${default-domain}.acme.com - test-${default-domain}.acme.com`
 
@@ -1427,35 +1427,35 @@ The domains on which the application is available later. The resulting applicati
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `default-domain`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The value of this parameter is the default domain for the current organization.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1464,35 +1464,35 @@ The value of this parameter is the default domain for the current organization.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `enable-ssh`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enables use of SSH within an application. Supported for the Diego container runtime environment only.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `"enable-ssh": true`
 
@@ -1503,35 +1503,35 @@ n/a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `enable-parallel-service-bindings`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enables or disables the parallel binding or unbinding of services during deployment. If disabled, the services are bound and unbound sequentially in the order provided in the deployment descriptor.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `true`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > ```
@@ -1547,35 +1547,35 @@ Enables or disables the parallel binding or unbinding of services during deploym
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `health-check-http-endpoint`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If the `health-check-type` parameter is set to `http`, the controller will do a `GET` request to this endpoint. The application will be considered as healthy if the response is 200 OK.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If health-check-type is set to `http`, the default value is `/`, otherwise there is no default value
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `health-check-type: http`
 
@@ -1586,35 +1586,35 @@ If health-check-type is set to `http`, the default value is `/`, otherwise there
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `health-check-timeout`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The application health check timeout in seconds
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `health-check-timeout:120`
 
@@ -1623,35 +1623,35 @@ n/a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `health-check-invocation-timeout`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The time period in seconds, within which the application health check should be automatically started. If the health check does not start within the defined time period, it is omitted, and the deployment process continues.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `health-check-invocation-timeout:16`
 
@@ -1660,35 +1660,35 @@ n/a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `upload-timeout`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The application upload timeout in seconds
 
 
 
 </td>
-<td>
+<td valign="top">
 
 3600
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `upload-timeout: 1800`
 
@@ -1697,35 +1697,35 @@ The application upload timeout in seconds
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `health-check-type`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The application health check type
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `port`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `health-check-type: port`
 
@@ -1738,21 +1738,21 @@ The application health check type
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `host`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The hostname or subdomain where an application is available later.
 
@@ -1761,14 +1761,14 @@ If you want to create a wildcard hostname, use an asterisk in quotes \("\*"\).
 
 
 </td>
-<td>
+<td valign="top">
 
 `${default-host}`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `host: ${space}-node-hello-world`
 
@@ -1779,21 +1779,21 @@ If you want to create a wildcard hostname, use an asterisk in quotes \("\*"\).
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `hosts`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The hostnames or subdomain where an application is available later.
 
@@ -1802,14 +1802,14 @@ If you want to create a wildcard hostname, use an asterisk in quotes \("\*"\).
 
 
 </td>
-<td>
+<td valign="top">
 
 `hosts: - ${host}`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 modules:
@@ -1827,21 +1827,21 @@ modules:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `idle-domain`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Valid for a blue-green deployment when a new application version is started on a temporary route.
 
@@ -1850,14 +1850,14 @@ Specify this parameter if you want to use another domain for temporary routes.
 
 
 </td>
-<td>
+<td valign="top">
 
 `${default-domain}`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 modules:
@@ -1872,21 +1872,21 @@ modules:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `idle-domains`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Valid for a blue-green deployment when a new application version is started on several temporary routes.
 
@@ -1895,14 +1895,14 @@ Specify this parameter if you want to use other domains for temporary routes by 
 
 
 </td>
-<td>
+<td valign="top">
 
 `${default-domain}`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 modules:
@@ -1917,21 +1917,21 @@ modules:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `idle-host`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Valid for a blue-green deployment when a new application version is started on a temporary route.
 
@@ -1943,14 +1943,14 @@ Specify this parameter if you want to use another host for a temporary route.
 
 
 </td>
-<td>
+<td valign="top">
 
 `${default-host}-idle`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 modules:
@@ -1965,21 +1965,21 @@ modules:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `idle-hosts`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Valid for a blue-green deployment when a new application version is started on temporary routes.
 
@@ -1991,14 +1991,14 @@ Specify this parameter if you want to use other hosts for temporary routes by li
 
 
 </td>
-<td>
+<td valign="top">
 
 `${default-host}-idle`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 modules:
@@ -2013,21 +2013,21 @@ modules:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `idle-routes`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Valid for a blue-green deployment when a new application version is started on temporary routes.
 
@@ -2036,14 +2036,14 @@ Specify this parameter if you want to use other routes for the application.
 
 
 </td>
-<td>
+<td valign="top">
 
 `${default-uri}-idle`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 modules:
@@ -2059,35 +2059,35 @@ modules:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `instances`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The number of application instances that will be started during the deployment
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `${default-instances}`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `instances: 2`
 
@@ -2096,35 +2096,35 @@ The number of application instances that will be started during the deployment
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `keep-existing`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines the application attributes which will be kept after the deployment or blue-green deployment has finished. The supported attributes which could be kept are application environment, application bindings and application routes. If not specified, the default values are false, which indicates that each application attribute will be updated with the new values presented in the deployment descriptor
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `false`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > ```
@@ -2139,21 +2139,21 @@ Defines the application attributes which will be kept after the deployment or bl
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `keep-existing-routes`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Write
 
 
 
 </td>
-<td>
+<td valign="top">
 
 When specified on module level, it indicates if the existing routes of the module's corresponding application should be kept even if they are not defined within the deployment and/or extension descriptors.
 
@@ -2166,14 +2166,14 @@ When specified on global level, under the `parameters` section of the descriptor
 
 
 </td>
-<td>
+<td valign="top">
 
 `false`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > ```
@@ -2195,35 +2195,35 @@ When specified on global level, under the `parameters` section of the descriptor
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `memory`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The memory limit for all instances of an application. This parameter requires a unit of measurement M, MB, G, or GB in upper or lower case.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 256M, or as specified in module-type
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `memory: 128M`
 
@@ -2232,35 +2232,35 @@ The memory limit for all instances of an application. This parameter requires a 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-route`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Write
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Configures the deployer to create or skip the creation of a route for the application described by the module
 
 
 
 </td>
-<td>
+<td valign="top">
 
 false
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `no-route: true`
 
@@ -2269,21 +2269,21 @@ false
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-start`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Start/do not start the application during deployment.
 
@@ -2295,14 +2295,14 @@ If you explicitly set the `no-start` to `false` for the module `foo` in the exam
 
 
 </td>
-<td>
+<td valign="top">
 
 Depends on the command line option `--no-start`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `no-stsart: true`
 
@@ -2311,21 +2311,21 @@ Depends on the command line option `--no-start`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `restart-on-env-change`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Write
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies whether an application should be restarted if an environment variable has been changed in one of the following categories:
 
@@ -2339,7 +2339,7 @@ Specifies whether an application should be restarted if an environment variable 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > ```
@@ -2352,7 +2352,7 @@ Specifies whether an application should be restarted if an environment variable 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > ```
@@ -2367,35 +2367,35 @@ Specifies whether an application should be restarted if an environment variable 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `routes`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A parameter that lists multiple HTTP routes. For more information, see [Routes](Routes_53daaaf.md) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `${default-uri}`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > ```
@@ -2415,35 +2415,35 @@ A parameter that lists multiple HTTP routes. For more information, see [Routes](
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `route-path`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The context “route-path” which is part of the application default URI. Context path routing is routing based not only on domain names \(host header\) but also the path specified in the URL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `route-path: /myapp`
 
@@ -2452,35 +2452,35 @@ n/a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `service-broker-name`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the service broker in the Cloud Foundry environment to be created and registered for the specified application module
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `${app-name}`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `service-broker-name: jobscheduler`
 
@@ -2491,35 +2491,35 @@ The name of the service broker in the Cloud Foundry environment to be created an
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `service-broker-password`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The password used for authentication by the XS controller at the service broker when performing service-related requests. The parameter is mandatory if `create-service-broker: true`.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `service-broker-password: ${generated-password}` 
 
@@ -2528,35 +2528,35 @@ The password used for authentication by the XS controller at the service broker 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `service-broker-space-scoped`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Makes the service plans of the broker visible only within the targeted space.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `false`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `service-broker-space-scoped: true`
 
@@ -2565,35 +2565,35 @@ Makes the service plans of the broker visible only within the targeted space.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `service-broker-url`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies the value of the service broker universal resource locator \(URL\) to register; service requests are sent to this URL. The parameter is mandatory if `create-service-broker: true`.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `service-broker-url: ${default-url}`
 
@@ -2602,35 +2602,35 @@ Specifies the value of the service broker universal resource locator \(URL\) to 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `service-broker-user`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the user required for authentication by the XS controller at the service broker when performing service-related requests. The parameter is mandatory if `create-service-broker: true`.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `service-broker-user: ${generated-user}` 
 
@@ -2639,35 +2639,35 @@ The name of the user required for authentication by the XS controller at the ser
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `stack`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Use this parameter to define which prebuilt root file system \(`rootfs`\) you want to use.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > ```
@@ -2684,35 +2684,35 @@ n/a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `tasks`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specify tasks, which are available for execution in the current droplet of the application. Also provide use of environment variables which are specified with the `env` scope.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 tasks: 
@@ -2728,35 +2728,35 @@ env:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `tcp`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies whether the application should have `TCP` type routes.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `false`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `tcp:true`
 
@@ -2765,35 +2765,35 @@ Specifies whether the application should have `TCP` type routes.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `tcps`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies whether the application should have `TCPS` type routes.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `false`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `tcps:true`
 
@@ -2802,35 +2802,35 @@ Specifies whether the application should have `TCPS` type routes.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `timestamp`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Current timestamp in milliseconds
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Generated as described in the description.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -2839,35 +2839,35 @@ Generated as described in the description.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `zdm-mode`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Parameter value of the `com.sap.xs.hdi` module type that if set to `true`, runs the deployment in a ZDM mode.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `zdm-mode: true`
 

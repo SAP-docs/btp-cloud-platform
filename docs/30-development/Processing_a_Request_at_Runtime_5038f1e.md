@@ -22,21 +22,21 @@ For example:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Placeholder
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Mandatory
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -45,21 +45,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 bsPrefix
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Used when the application is provided by a business service bound to this approuter.
 
@@ -68,21 +68,21 @@ Used when the application is provided by a business service bound to this approu
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 appName
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Used to uniquely identify the application in HTML5 Application Repository.
 
@@ -94,21 +94,21 @@ Used to uniquely identify the application in HTML5 Application Repository.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 appVersion
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Used to uniquely identify a specific application version in HTML5 Application Repository. If no version is provided, the default application version will be used.
 
@@ -117,21 +117,21 @@ Used to uniquely identify a specific application version in HTML5 Application Re
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 resourcePath
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The path to the file as it was stored in HTML5 Application Repository.
 

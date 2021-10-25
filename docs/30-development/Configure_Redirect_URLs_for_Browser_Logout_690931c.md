@@ -131,18 +131,6 @@ You’ve deployed an application in the Cloud Foundry environment of SAP BTP. Bu
     You’ve implemented a valid redirect after logout, and `xsuaa` checks the redirect URL against the list of allowed URIs in the OAuth 2.0 configuration.
 
 
--   **[Browser Redirects Using Wildcards](Browser_Redirects_Using_Wildcards_88eb3e8.md "You want to configure browser redirect URLs for multiple external web sites of your company. We recommend that you specify absolute
-		URLs and avoid using wildcards.")**  
-You want to configure browser redirect URLs for multiple external web sites of your company. We recommend that you specify absolute URLs and avoid using wildcards.
--   **[Domain Checks at Browser Login and Logout](Domain_Checks_at_Browser_Login_and_Logout_22a7d69.md "When a user logs in to a web application or logs out using a browser, the xsuaa component checks
-		the domain in the URL of the application routes. To avoid open redirect attacks, xsuaa checks the
-		URLs, which are defined in xs-app.json, against a list of allowed redirect URIs in the application security descriptor
-		file (xs-security.json).")**  
-When a user logs in to a web application or logs out using a browser, the `xsuaa` component checks the domain in the URL of the application routes. To avoid open redirect attacks, `xsuaa` checks the URLs, which are defined in `xs-app.json`, against a list of allowed redirect URIs in the application security descriptor file \(`xs-security.json`\).
--   **[Valid Redirect URIs for OAuth 2.0 Authorization Code Flow](Valid_Redirect_URIs_for_OAuth_2.0_Authorization_Code_Flow_4f28d33.md "After logging on to an application, you want to be redirected exactly to the page of the application in question. It should therefore
-		not be possible to use an open redirect, which might take you to the wrong page for example, or to a malicious page.")**  
-After logging on to an application, you want to be redirected exactly to the page of the application in question. It should therefore not be possible to use an open redirect, which might take you to the wrong page for example, or to a malicious page.
-
 **Related Information**  
 
 

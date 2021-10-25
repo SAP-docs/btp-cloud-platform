@@ -55,15 +55,6 @@ You can use this app to:
 
 If you need support or experience issues, please report an incident under component `BC-SRV-APS-APJ`.
 
--   **[Creating a Job Catalog Entry and a Job Template in ADT](Creating_a_Job_Catalog_Entry_and_a_Job_Template_in_ADT_949ba00.md "Follow these steps to create a Job Catalog Entry and a Job Template in ADT.")**  
-Follow these steps to create a Job Catalog Entry and a Job Template in ADT.
--   **[Maintaining Application Jobs using an API](Maintaining_Application_Jobs_using_an_API_1491e6c.md "")**  
-
--   **[Setting up the Authorizations](Setting_up_the_Authorizations_bb559a5.md "Some further activities in ADT and in the administrator’s launchpad are necessary to
-		be able to schedule the job template in the Fiori app Application
-			Jobs.")**  
-Some further activities in ADT and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app *Application Jobs*.
-
 **Related Information**  
 
 

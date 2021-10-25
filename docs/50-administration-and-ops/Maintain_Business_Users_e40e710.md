@@ -37,11 +37,6 @@ You can use this app to:
 -   Tablet
 
 
--   **[How to Maintain Business Users](How_to_Maintain_Business_Users_db1d0b4.md "")**  
-
--   **[How to Lock Unused Business Users](How_to_Lock_Unused_Business_Users_a817aef.md "Lock inactive business users")**  
-Lock inactive business users
-
 **Related Information**  
 
 

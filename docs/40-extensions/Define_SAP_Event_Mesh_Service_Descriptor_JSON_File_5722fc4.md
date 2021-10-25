@@ -30,6 +30,7 @@ The service instance of SAP Event Mesh is the message client which consumes the 
 
     -   Use unique namespace per subaccount, for example ***a/b/c***
 
+
 -   When creating a service instance of the SAP Event Mesh service:
 
     -   Use unique emname per subaccount
@@ -51,6 +52,7 @@ The service instance of SAP Event Mesh is the message client which consumes the 
     -   Subscribe this queue to the topic defined in the namespace of the SAP S/4HANA Cloud Extensibility JSON file
 
 
+
 ![](images/Enterprise_Messaging_JSON_e078231.png)
 
 ![](images/Enterprise_Messaging_JSON_Legend_8945703.png)
@@ -66,14 +68,14 @@ Define the JSON file for the SAP Event Mesh service instance following the requi
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -82,14 +84,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `emname`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies the name of the SAP Event Mesh client. It is used by SAP Event Mesh to identify clients.
 
@@ -112,14 +114,14 @@ Specifies the name of the SAP Event Mesh client. It is used by SAP Event Mesh to
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `version`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 It specifies the version of the service descriptor.
 
@@ -138,14 +140,14 @@ It specifies the version of the service descriptor.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `namespace`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Namespace for the messaging client.
 
@@ -170,14 +172,14 @@ Namespace for the messaging client.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `options`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines the access channels for the message client.
 
@@ -186,14 +188,14 @@ Defines the access channels for the message client.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `management`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `options` attribute.
 
@@ -211,7 +213,7 @@ Enables/disables the usage of the management REST APIs.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 -   `messagingrest`
 
@@ -219,7 +221,7 @@ Enables/disables the usage of the management REST APIs.
 
 
 </td>
-<td>
+<td valign="top">
 
 An `options` attribute.
 
@@ -237,14 +239,14 @@ Enables/Disables the usage of the messaging REST APIs.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `messaging`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `options` attribute.
 
@@ -262,14 +264,14 @@ Enables/disables the usage of the messaging gateway.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `rules`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines the access privileges of the messaging client.
 
@@ -285,14 +287,14 @@ Defines the access privileges of the messaging client.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `topicRules`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `rules` attribute.
 
@@ -306,14 +308,14 @@ A `rules` attribute.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `subscribeFilter`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `topicRules` attribute.
 

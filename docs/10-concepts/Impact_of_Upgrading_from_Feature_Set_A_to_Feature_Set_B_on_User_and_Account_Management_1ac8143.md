@@ -52,21 +52,21 @@ The following table lists the role collections for account administration that a
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Authorizations in Feature Set A
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Authorizations in Feature Set B
 
 
 
 </th>
-<th>
+<th valign="top">
 
 More Information
 
@@ -75,21 +75,21 @@ More Information
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Administrator of global account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 *Global Account Administrator* in global account and *Subaccount Administrator* in multi-environment subaccounts
 
 
 
 </td>
-<td>
+<td valign="top">
 
 In cloud management tools feature set A, members of the global account have global account administrator privileges. Such users can create and manage subscriptions for subaccounts.
 
@@ -101,21 +101,21 @@ In cloud management tools feature set A, members of the global account have glob
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Security administrator in multi-environment subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 *Subaccount Administrator* in multi-environment subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Security administrators rely mostly on the *User & Role Administrator* role for their authorizations. In cloud management tools feature set B, these authorizations are bundled in the *Subaccount Administrator* role collection.
 
@@ -138,21 +138,21 @@ The following table lists the roles and role collections a user receives, based 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Authorizations in Feature Set A
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Authorizations in Feature Set B
 
 
 
 </th>
-<th>
+<th valign="top">
 
 More Information
 
@@ -161,7 +161,7 @@ More Information
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Org Manager*
 
@@ -172,7 +172,7 @@ More Information
 
 
 </td>
-<td>
+<td valign="top">
 
 *Org Manager*
 
@@ -186,7 +186,7 @@ More Information
 
 
 </td>
-<td>
+<td valign="top">
 
 In cloud management tools feature set A, a user with the *Org Manager*, *Space Manager*, or *Space Developer* roles could also manage cloud connectors and destinations. To make sure that such users don't lose any authorizations, we check the users authorizations and add the required role collections.
 
@@ -195,7 +195,7 @@ In cloud management tools feature set A, a user with the *Org Manager*, *Space M
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Org Auditor*
 
@@ -204,7 +204,7 @@ In cloud management tools feature set A, a user with the *Org Manager*, *Space M
 
 
 </td>
-<td>
+<td valign="top">
 
 *Org Auditor*
 
@@ -213,7 +213,7 @@ In cloud management tools feature set A, a user with the *Org Manager*, *Space M
 
 
 </td>
-<td>
+<td valign="top">
 
 No change.
 

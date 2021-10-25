@@ -80,8 +80,3 @@ This topic focuses on how to get started with a customer or partner account usin
 5.  Alternatively, you can also create and use service keys. See [Creating Service Keys](../30-development/Creating_Service_Keys_4514a14.md). For more information on using services and creating service keys, see [About Services](../30-development/About_Services_d1d0fc8.md).
 6.  You can also create instances of user-provided services. See [Creating User-Provided Service Instances](../30-development/Creating_User-Provided_Service_Instances_a44355e.md).
 
--   **[Setting Up a Global Account via the Command Line \[Feature Set B\]](Setting_Up_a_Global_Account_via_the_Command_Line_Feature_Set_B_accd5b2.md "Your global account is the entry point for managing the resources, landscape, and
-		entitlements for your departments and projects in a self-service manner in SAP BTP. You can use the
-		command-line tool btp CLI  to set it up.")**  
-Your global account is the entry point for managing the resources, landscape, and entitlements for your departments and projects in a self-service manner in SAP BTP. You can use the command-line tool **btp CLI** to set it up.
-

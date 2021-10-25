@@ -40,11 +40,3 @@ For more information, see
 -   [How to Use the Fiori Reuse Library](How_to_Use_the_Fiori_Reuse_Library_a094e54.md)
 
 
--   **[Design Time API](Design_Time_API_0bc1e5f.md "")**  
-
--   **[Runtime API](Runtime_API_55c2083.md "Use a class-based API to create and read application logs.")**  
-Use a class-based API to create and read application logs.
--   **[How to Use the Fiori Reuse Library](How_to_Use_the_Fiori_Reuse_Library_a094e54.md "You can use the Reuse Library to implement a reusable component
-		that can display an application log.")**  
-You can use the *Reuse Library* to implement a reusable component that can display an application log.
-

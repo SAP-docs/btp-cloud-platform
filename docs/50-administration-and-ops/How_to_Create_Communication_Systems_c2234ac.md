@@ -48,6 +48,7 @@ To create a communication system perform the following steps:
 
         Enter name, e-mail or phone number of a contact person.
 
+
 4.  Add technical users for inbound communication. You can either select a user from the list or create a new user. If you decide to create a new user, you will be redirected to the *Maintain Communication User* app.
 
     > ### Note:  

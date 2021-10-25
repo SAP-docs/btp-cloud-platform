@@ -1,5 +1,7 @@
 <!-- loio48bcc77bf94341a4846ba694b7fd6e1c -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Configure Timeout of @sap/approuter Component of a Communication Arrangement for Inbound Communication with Service Key OAuth
 
 By default, communication between the approuter and connected services is timed out after 30 seconds. This default value is suitable for most applications. However, for long-lasting data transfer, communication lasts longer. If you experience timeouts, you can set the service key parameter `abap_endpoint_timeout` to a value higher than 30 seconds.
@@ -25,7 +27,7 @@ By default, communication between the approuter and connected services is timed 
 
 3.  Select *Services* \> *Instances* from the navigation area and navigate to your ABAP system service instance.
 
-4.  Click on     and select *Create Service Key*.
+4.  Click on <span class="SAP-icons"></span>  and select *Create Service Key*.
 
 5.  In the *New Service Key* dialog, enter a name for your service key and specify the parameter in JSON format as follows:
 

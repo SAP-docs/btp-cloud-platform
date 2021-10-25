@@ -2,43 +2,44 @@
 
 # Service Instance Secrets
 
-When an application consumes a service instance of the SAP Authorization and Trust Management service \(XSUAA\), the application identifies itself to the service instance with a client ID and client secret. The client ID and client secret are the credentials with which an application authenticates itself to the service instance.
+When an application consumes a service instance of the SAP Authorization and Trust Management service \(XSUAA\), the application identifies itself to the service instance with a client ID and a secret. The client ID and secret are the credentials with which an application authenticates itself to the service instance.
 
 The system creates these credentials either when you bind the application to the service instance or when you create a service key for the service instance.
 
 The service instance can use multiple secrets in the ***application*** plan.
 
--   The instance secret is the default secret. The secret is the same for all bindings of the service instance. The secret remains valid as long as the instance exists.
+-   The instance secret is the default secret type. The secret is the same for all bindings of the service instance. The secret remains valid as long as the instance exists.
 
--   The binding secret must be enabled in the application security descriptor \(`xs-security.json`\) when you deploy the application. The secret remains valid as long as the binding or the service key exists.
+-   Binding secrets must be enabled in the application security descriptor \(`xs-security.json`\) when you create the service instance. When you bind an application to a service instance or create a service key, you can pass a `parameters.json` to use a binding secret. The secret remains valid as long as the binding or the service key exists.
 
+    > ### Note:  
+    > The ***apiaccess*** plan only uses binding secrets. However, some old instances of the ***apiaccess*** plan might still use the instance secret.
 
-> ### Note:  
-> The ***apiaccess*** plan only uses binding secrets. However, some old instances of the ***apiaccess*** plan might still use the instance secret.
+-   X.509 secrets must be enabled in the application security descriptor \(`xs-security.json`\) when you create the service instance. When you bind an application to a service instance or create a service key, you can pass a `parameters.json` to use an X.509 secret. The X.509 secret remains valid as long as the certificate itself is valid. SAP Authorization and Trust Management service can generate an X.509 certificate for you or you can provide your own.
 
-The following figure illustrates the XSUAA app and its information about the OAuth 2.0 client as part of a SAP Authorization and Trust Management service instance. A consuming application, functioning as an OAuth 2.0 client is bound to the SAP Authorization and Trust Management service instance. The instance secret is part of the environment of the consuming application and the information about the OAuth 2.0 client saved with the XSUAA app. Alternatively, this information is saved as part of a service key.
+The following figure illustrates the XSUAA app and its information about the OAuth 2.0 client as part of an instanceSAP Authorization and Trust Management service. A consuming application, functioning as an OAuth 2.0 client is bound to the SAP Authorization and Trust Management service instance. The secret is part of the environment of the consuming application and the information about the OAuth 2.0 client saved with the XSUAA app. Alternatively, this information is saved as part of a service key.
 
    
   
-<a name="loio5578ec4b20e84d61b34fd0fe0d6deed5__fig_eyd_prh_sjb"/>Binding Between a SAP Authorization and Trust Management Service Instance and a Consuming Application
+<a name="loio5578ec4b20e84d61b34fd0fe0d6deed5__fig_eyd_prh_sjb"/>Binding Between an SAP Authorization and Trust Management Service Instance and a Consuming Application
 
- ![](images/BindingInformation_4bcb021.png "Binding Between a SAP
+ ![](images/BindingInformation_4bcb021.png "Binding Between an SAP
 									Authorization and Trust Management Service
 				Instance and a Consuming Application") 
 
 The `credential-types` parameter of the OAuth client configuration in the application security descriptor \(`xs-security.json`\) determines which secrets bindings support.
 
-In the following example, the service instance creates a binding secret for all new bindings, but still accepts the instance secret.
+In the following example, the service instance creates a binding secret for all new bindings. It allows the creation of X.509 secrets and still accepts instance secrets.
 
 > ### Example:  
 > > ### Sample Code:  
 > > ```
 > > "oauth2-configuration": {
-> >     "credential-types": ["binding-secret","instance-secret"]
+> >     "credential-types": ["binding-secret","x509","instance-secret"]
 > > }
 > > ```
 
-In the following example, the service instance creates a binding secret for all new bindings, but doesn’t accept the instance secret.
+In the following example, the service instance creates a binding secret for all new bindings, but doesn’t accept the instance secret or the use of X.509 secrets.
 
 > ### Example:  
 > > ### Sample Code:  

@@ -53,6 +53,3 @@ Find out how to create, check out and switch between different branches:
 > ### Note:  
 > Note that a maximum of 25 branches can be created per software component.
 
--   **[How to Tag Commits](How_to_Tag_Commits_10139f4.md "")**  
-
-

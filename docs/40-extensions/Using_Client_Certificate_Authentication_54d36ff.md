@@ -8,11 +8,11 @@
 
 To be able to use client certificate authentication, you need to configure both SAP S/4HANA Cloud and SAP BTP sides.
 
- <a name="loio54d36ff122d64c59a10b803463d82f0b loiod8e98a9d49b844479049208bf00593a1__loiod8e98a9d49b844479049208bf00593a1"/>
+ <a name="loiod8e98a9d49b844479049208bf00593a1"/>
 
 <!-- loiod8e98a9d49b844479049208bf00593a1 -->
 
-# Set Up SAP S/4HANA Cloud Side
+## Set Up SAP S/4HANA Cloud Side
 
 
 
@@ -58,16 +58,17 @@ To use client certificate authentication, you first start with creating and conf
 
     10. Choose *Save*.
 
+
 4.  Create a communication arrangement using an existing or create a new scenario that supports client certificate authentication. See [Maintain Communication Arrangements](https://help.sap.com/viewer/f544846954f24b9183eddadcc41bdc3b/1808.500/en-US/fab3fd449cf74c6384622b98831e989e.html).
 
     You can use the already created communication system. The settings in the *Inbound Communication* section are filled in automatically. Save the value from the *URL* field, you will need it when creating a destination in the subaccount in SAP BTP.
 
 
- <a name="loio54d36ff122d64c59a10b803463d82f0b loio311edbe5befa4e06b434c2130bc493b2__loio311edbe5befa4e06b434c2130bc493b2"/>
+ <a name="loio311edbe5befa4e06b434c2130bc493b2"/>
 
 <!-- loio311edbe5befa4e06b434c2130bc493b2 -->
 
-# Set Up SAP BTP Side
+## Set Up SAP BTP Side
 
 
 
@@ -92,14 +93,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Parameter
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Value
 
@@ -108,14 +109,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `Name`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter a meaningful name.
 
@@ -124,14 +125,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `Type`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***HTTP***
 
@@ -140,14 +141,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `Description`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     \(Optional\) Enter a meaningful description.
 
@@ -156,14 +157,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `URL`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The service URL from the communication arrangement.
 
@@ -174,14 +175,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `Proxy Type`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
      ***Internet*** 
 
@@ -190,14 +191,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `Authentication`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***ClientCertificateAuthentication***
 
@@ -210,7 +211,113 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     </tr>
     </table>
     
-4.  Choose *Upload and Delete Certificate* link to upload your keystore. The keystore format .jks. When you finish uploading, choose *Close*.
+4.  \(Optional\) If you are using SAP Business Application Studio to develop your application, you have to specify another set of additional properties. See [What is SAP Business Application Studio](https://help.sap.com/products/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/8f46c6e6f86641cc900871c903761fd4.html?version=Cloud).
+
+    In the *Additional Properties*, choose *New Property* to define the following properties related to the SAP Business Application Studio:
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Parameter
+
+
+    
+    </th>
+    <th valign="top">
+
+    Value
+
+
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    `WebIDEUsage`
+
+
+    
+    </td>
+    <td valign="top">
+
+    Specify this property with value ***odata\_gen*** to consume an OData service in your application.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    `WebIDEEnabled`
+
+
+    
+    </td>
+    <td valign="top">
+
+    If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to ***true***.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    `HTML5.DynamicDestination`
+
+
+    
+    </td>
+    <td valign="top">
+
+    If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to ***true***.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    `product.name`
+
+
+    
+    </td>
+    <td valign="top">
+
+    ***SAP S/4HANA Cloud***
+
+    The type of the SAP System for which you create this HTTP destination.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    `communicationScenarioID`
+
+
+    
+    </td>
+    <td valign="top">
+
+    The ID of the communication scenario.
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
+5.  Choose *Upload and Delete Certificate* link to upload your keystore. The keystore format .jks. When you finish uploading, choose *Close*.
 
     The keystore contains the key/pair signed by the trusted certificate authority \(CA\) in [Set Up SAP S/4HANA Cloud Side](Using_Client_Certificate_Authentication_54d36ff.md#loiod8e98a9d49b844479049208bf00593a1), **step 1**.
 
@@ -218,9 +325,10 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
 
     2.  In the *Key Store Password*, enter the keystore password.
 
-5.  Select the *Use default JDK truststore* checkbox.
 
-6.  Save your entries.
+6.  Select the *Use default JDK truststore* checkbox.
+
+7.  Save your entries.
 
 
 **Related Information**  

@@ -11,11 +11,11 @@ Debugging an application helps you detect and diagnose errors in your code. You 
 -   [Debug an Application Running on Java SE](Debugging_Java_Applications_1e7376f.md#loio0d6e305f08574bca811d42b55c3c0b47)
 
 
- <a name="loio1e7376fa1a8a4cefbed5c87693af4e6a loioef7fbdb61ae44d83a96c0ba48e829032__loioef7fbdb61ae44d83a96c0ba48e829032"/>
+ <a name="loioef7fbdb61ae44d83a96c0ba48e829032"/>
 
 <!-- loioef7fbdb61ae44d83a96c0ba48e829032 -->
 
-# Debug an Application Running on SAP JVM
+## Debug an Application Running on SAP JVM
 
 You can debug an application running on a Cloud Foundry container that is using SAP JVM. By using SAP JVM, you can enable debugging on-demand without having to restart the application or the JVM.
 
@@ -70,11 +70,11 @@ After enabling the debugging port, you need to open an SSH tunnel, which connect
 6.  Connect a Java debugger to your application. For example, use the standard Java debugger provided by Eclipse IDE and connect to `localhost:8000`.
 
 
- <a name="loio1e7376fa1a8a4cefbed5c87693af4e6a loiof7fa9f367c644e34b87e6518f7724ccb__loiof7fa9f367c644e34b87e6518f7724ccb"/>
+ <a name="loiof7fa9f367c644e34b87e6518f7724ccb"/>
 
 <!-- loiof7fa9f367c644e34b87e6518f7724ccb -->
 
-# Debug a Java Web Application Running on SAPMachine
+## Debug a Java Web Application Running on SAPMachine
 
 Debug an application running on a Cloud Foundry container that is using SAPMachine.
 
@@ -138,11 +138,11 @@ To debug an application you need to open a debugging port on your Cloud Foundry 
     > The connection is active until you close the SSH tunnel. After you have finished debugging, close the SSH tunnel by pressing  [Ctrl\] + [C\]  . Connect a Java debugger to your application. For example, use the standard Java debugger provided by Eclipse IDE and connect to `localhost:8000`.
 
 
- <a name="loio1e7376fa1a8a4cefbed5c87693af4e6a loio0d6e305f08574bca811d42b55c3c0b47__loio0d6e305f08574bca811d42b55c3c0b47"/>
+ <a name="loio0d6e305f08574bca811d42b55c3c0b47"/>
 
 <!-- loio0d6e305f08574bca811d42b55c3c0b47 -->
 
-# Debug an Application Running on Java SE
+## Debug an Application Running on Java SE
 
 You can debug an application running on a Cloud Foundry container that is using the standard Java community build pack.
 

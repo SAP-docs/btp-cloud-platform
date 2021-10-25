@@ -32,14 +32,14 @@ To integrate SAP BTP and SAP Marketing Cloud so that you can build extension app
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Process Step
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Related Documentation
 
@@ -48,7 +48,7 @@ Related Documentation
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1. Connect the SAP Marketing Cloud system you want to extend with the corresponding global account in SAP BTP.
 
@@ -57,7 +57,7 @@ During the pairing process you create an integration token which is then used by
 
 
 </td>
-<td>
+<td valign="top">
 
  [Register an SAP Marketing Cloud System in a Global Account in SAP BTP](Register_an_SAP_Marketing_Cloud_System_in_a_Global_Account_in_SAP_BTP_e9d975a.md) 
 
@@ -66,7 +66,7 @@ During the pairing process you create an integration token which is then used by
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 2. Make the SAP Marketing Cloud system accessible in the subaccounts in SAP BTP in which you want to build your extension applications.
 
@@ -75,7 +75,7 @@ To do so, you configure the entitlements and assign the corresponding quota and 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Configure the Entitlements for the SAP S/4HANA Cloud Extensibility Service](Configure_the_Entitlements_for_the_SAP_S4HANA_Cloud_Extensibility_Service_65ad330.md) 
 
@@ -84,7 +84,7 @@ To do so, you configure the entitlements and assign the corresponding quota and 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 3. Configure the communication flow.
 
@@ -100,6 +100,7 @@ You have the following options:
     -   OAuth 2.0 SAML Bearer Assertion \(inbound connections\)
     -   OAuth 2.0 Client Credentials \(outbound Connections\)
     -   No Authentication \(outbound connections\)
+
     Both predefined and custom communication scenarios are supported.
 
 -   Enable the consumption of SAP Marketing Cloud events.
@@ -111,7 +112,7 @@ You have the following options:
 
 
 </td>
-<td>
+<td valign="top">
 
 -   [Creating a Service Instance to Consume the SAP S/4HANA Cloud APIs](Create_a_Service_Instance_to_Consume_the_SAP_S4HANA_Cloud_APIs_a735641.md)
 
@@ -123,8 +124,4 @@ You have the following options:
 </td>
 </tr>
 </table>
-
--   **[Register an SAP Marketing Cloud System in a Global Account in SAP BTP](Register_an_SAP_Marketing_Cloud_System_in_a_Global_Account_in_SAP_BTP_e9d975a.md "To connect an SAP Marketing Cloud system with a global account in SAP BTP, you need to register the
-		system in the corresponding global account. ")**  
-To connect an SAP Marketing Cloud system with a global account in SAP BTP, you need to register the system in the corresponding global account.
 

@@ -23,7 +23,7 @@ You want to define an understandable name for the logon link of the custom ident
 
 ## Procedure
 
-1.  Go to your subaccount\(see [Navigate to Orgs and Spaces](Navigate_to_Orgs_and_Spaces_5bf8735.md)\) and choose *Security* \> *Trust Configuration* in the SAP BTP cockpit.
+1.  Go to your subaccount\(see [Navigate in the Cockpit](Navigate_in_the_Cockpit_0874895.md)\) and choose *Security* \> *Trust Configuration* in the SAP BTP cockpit.
 
     You see the list of trust configurations: the default trust configuration and the custom trust configuration\(s\).
 

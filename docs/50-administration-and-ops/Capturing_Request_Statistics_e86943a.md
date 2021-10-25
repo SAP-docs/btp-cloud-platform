@@ -33,14 +33,14 @@ With the activation of a capture profile, you can capture system activities. Req
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Field
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     What to enter
 
@@ -49,14 +49,14 @@ With the activation of a capture profile, you can capture system activities. Req
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Profile ID***
+    *Profile ID*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter a short, meaningful name for your profile. Don't use the prefix `SAP_` because this is reserved for profiles predefined by SAP.
 
@@ -65,14 +65,14 @@ With the activation of a capture profile, you can capture system activities. Req
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Description***
+    *Description*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     If needed, you can enter a longer description of your profile.
 
@@ -81,14 +81,14 @@ With the activation of a capture profile, you can capture system activities. Req
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Start/End Time***
+    *Start/End Time*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The start and end time specify when request statistics are captured by the app. Only requests are considered that are started after the start time of the profile and that end before the end time of the profile.
 
@@ -97,14 +97,14 @@ With the activation of a capture profile, you can capture system activities. Req
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Retention Time***
+    *Retention Time*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Select how long you want to keep the captured request statistics stored in the system.
 
@@ -113,14 +113,14 @@ With the activation of a capture profile, you can capture system activities. Req
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Record Limit***
+    *Record Limit*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter the maximum number of records that you want the system to capture per minute.
 
@@ -134,14 +134,14 @@ With the activation of a capture profile, you can capture system activities. Req
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Target User Group***
+    *Target User Group*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Choose one of the target groups starting with *Customer*.
 
@@ -150,14 +150,14 @@ With the activation of a capture profile, you can capture system activities. Req
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Profile Type***
+    *Profile Type*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     This field is automatically populated by the system. Only static profile types \(with fixed values\) are possible.
 
@@ -166,14 +166,14 @@ With the activation of a capture profile, you can capture system activities. Req
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Profile Owner***
+    *Profile Owner*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The profile owner is automatically set to *Customer* when you create a new profile. Predefined profiles have the profile owner *SAP*.
 

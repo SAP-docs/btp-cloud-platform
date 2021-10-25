@@ -39,21 +39,21 @@ These are the system types that can take part of a single formation and the resp
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 System Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Cloud Foundry Environment
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Kyma Environment
 
@@ -62,21 +62,21 @@ Kyma Environment
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP S/4HANA Cloud
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Supported
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Supported
 
@@ -85,21 +85,21 @@ Supported
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP Marketing Cloud
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Supported
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Supported
 
@@ -108,21 +108,21 @@ Supported
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP SuccessFactors
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Supported
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Supported
 
@@ -131,21 +131,21 @@ Supported
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP Commerce Cloud
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Supported
 
@@ -154,21 +154,21 @@ Supported
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP Cloud for Customer
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Supported
 
@@ -177,21 +177,21 @@ Supported
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP Field Service Management
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Supported
 
@@ -224,6 +224,7 @@ Supported
 
     -   All the systems of the different SAP systems that will be assigned to this formation
 
+
 6.  Choose *Create*.
 
 
@@ -252,10 +253,12 @@ For the systems of type SAP S/4HANA Cloud, SAP Marketing Cloud, and SAP SuccessF
 
     2.  [Create a Service Instance to Consume the SAP S/4HANA Cloud APIs](Create_a_Service_Instance_to_Consume_the_SAP_S4HANA_Cloud_APIs_a735641.md)
 
+
 -   SAP SuccessFactors:
 
     1.  [Configure the Entitlements for the SAP SuccessFactors Extensibility Service](Configure_the_Entitlements_for_the_SAP_SuccessFactors_Extensibility_Service_b01e625.md)
 
     2.  [Create a Service Instance to Consume the SAP SuccessFactors HXM Suite OData API](Create_a_Service_Instance_to_Consume_the_SAP_SuccessFactors_HXM_Suite_OData_API_46c5ea1.md)
+
 
 

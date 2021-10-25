@@ -40,8 +40,3 @@ You can use this app to:
 
 If you need support or experience issues, please report an incident under component `BC-CUS-TOL-ALO`.
 
--   **[Viewing a Change Log](Viewing_a_Change_Log_ddd9de0.md "
-		
-	")**  
- 
-

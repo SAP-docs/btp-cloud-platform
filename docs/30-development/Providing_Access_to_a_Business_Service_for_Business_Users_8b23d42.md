@@ -47,15 +47,3 @@ In addition to this documentation, the following tutorial is also available:
 
 [Create Authorization Model with SAP BTP, ABAP Environment](https://developers.sap.com/group.abap-env-authorizations.html)
 
--   **[Considerations for Implementing Access and Authorizations](Considerations_for_Implementing_Access_and_Authorizations_c324022.md "You can implement data access and authorizations for a service differently, depending on how you want to implement differences on the UI
-		for different target groups. It also matters how you want  to design business roles. Therefore, before you start with the actual
-		implementation of data access and authorizations, you need to consider how you want to proceed.")**  
-You can implement data access and authorizations for a service differently, depending on how you want to implement differences on the UI for different target groups. It also matters how you want to design business roles. Therefore, before you start with the actual implementation of data access and authorizations, you need to consider how you want to proceed.
--   **[Providing \(Unrestricted\) Access for Business Users](Providing_(Unrestricted)_Access_for_Business_Users_41f3639.md "In this scenario, you get information about how to provide unrestricted access with a few steps.")**  
-In this scenario, you get information about how to provide unrestricted access with a few steps.
--   **[Providing Access Based on Activities for Business Users](Providing_Access_Based_on_Activities_for_Business_Users_f070f5d.md "In this scenario, you provide access depending on what the user should be allowed to do, for example, read or write access. ")**  
-In this scenario, you provide access depending on what the user should be allowed to do, for example, read or write access.
--   **[Providing Access Based on Field Values for Business Users](Providing_Access_Based_on_Field_Values_for_Business_Users_d60c7fb.md "You can enable access to a service in such a way that it's dependent on the field values of a business object. As a result, business users
-		can view or change only business object instances where the field values match their authorizations.")**  
-You can enable access to a service in such a way that it's dependent on the field values of a business object. As a result, business users can view or change only business object instances where the field values match their authorizations.
-

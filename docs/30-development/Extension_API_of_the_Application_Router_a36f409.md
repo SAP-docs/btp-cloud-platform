@@ -26,14 +26,14 @@ The application router uses the “Connect” framework for the insertion of mid
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
  `approuter()` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Creates a new instance of the application router
 
@@ -42,14 +42,14 @@ Creates a new instance of the application router
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `first` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines a “middleware slot” \(a slot for the insertion of middleware\) immediately after the `connect` application is created, and before any application router middleware
 
@@ -61,14 +61,14 @@ Defines a “middleware slot” \(a slot for the insertion of middleware\) immed
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `beforeRequestHandler` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines a “middleware slot” before the standard application router request handling, that is; static resource serving or forwarding to destinations.
 
@@ -80,14 +80,14 @@ Defines a “middleware slot” before the standard application router request h
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `beforeErrorHandler` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines a “middleware slot” before the standard application router error handling
 
@@ -99,14 +99,14 @@ Defines a “middleware slot” before the standard application router error han
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `start(options, callback)` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Starts the application router with the given options.
 
@@ -116,6 +116,7 @@ Starts the application router with the given options.
     -   `workingDir` - the working directory for the application router, should contain the `xs-app.json` file \(string, optional\)
     -   `extensions` - an array of extensions, each one is an object as defined in Application Router Extensions \(optional\)
     -   `xsappContext` - An object representing the content which is usually put in `xs-app.json` file. If this property is present it will take precedence over the content of `xs-app.json`.
+
 -   `callback` - optional function with signature `callback(err)`. It is invoked when the application router has started or an error has occurred. If not provided and an error occurs \(for example the port is busy\), the application will abort.
 
 
@@ -124,14 +125,14 @@ Starts the application router with the given options.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `close(callback)` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Stops the application router.
 
@@ -155,14 +156,14 @@ Manage the insertion of middleware slots with the application router.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
  `use(path, handler)` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Inserts a request handling middleware in the current slot.
 

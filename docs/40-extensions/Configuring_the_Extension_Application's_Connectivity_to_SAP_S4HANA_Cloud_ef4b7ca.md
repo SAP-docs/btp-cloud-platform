@@ -41,13 +41,6 @@ You can use the SAML Bearer assertion flow for consuming OAuth-protected resourc
 
 See [Using SAML Bearer Assertion Authentication](Using_SAML_Bearer_Assertion_Authentication_f9d5adc.md#loiof9d5adca9e414d9b8c42513a8890d782).
 
--   **[Using Basic Authentication](Using_Basic_Authentication_c573baf.md#loioc573bafd1f2c4282b26966647e46f309 "")**  
-
--   **[Using Client Certificate Authentication](Using_Client_Certificate_Authentication_54d36ff.md#loio54d36ff122d64c59a10b803463d82f0b "")**  
-
--   **[Using SAML Bearer Assertion Authentication](Using_SAML_Bearer_Assertion_Authentication_f9d5adc.md#loiof9d5adca9e414d9b8c42513a8890d782 "")**  
-
-
 **Related Information**  
 
 

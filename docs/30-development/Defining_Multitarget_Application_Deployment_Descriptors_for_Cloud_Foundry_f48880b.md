@@ -19,6 +19,3 @@ Writing `YAML` descriptors in plain text is often hard, so we have contributed a
 
 For more information, see [https://github.com/cloudfoundry-incubator/multiapps-controller/wiki/Deployment-Descriptor\#editor-schema-support](https://github.com/cloudfoundry-incubator/multiapps-controller/wiki/Deployment-Descriptor#editor-schema-support)
 
--   **[MTA Deployment Descriptor Examples](MTA_Deployment_Descriptor_Examples_66a7033.md "Examples of MTA deployment descriptors.")**  
-Examples of MTA deployment descriptors.
-

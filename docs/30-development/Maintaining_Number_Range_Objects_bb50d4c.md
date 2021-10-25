@@ -15,12 +15,3 @@ For more information, see
 -   [Reading Number Range Objects](Reading_Number_Range_Objects_aeb774b.md)
 
 
--   **[Creating Number Range Objects](Creating_Number_Range_Objects_d72f78f.md "")**  
-
--   **[Changing Number Range Objects](Changing_Number_Range_Objects_2f61648.md "")**  
-
--   **[Deleting Number Range Objects](Deleting_Number_Range_Objects_5213a1d.md "")**  
-
--   **[Reading Number Range Objects](Reading_Number_Range_Objects_aeb774b.md "")**  
-
-

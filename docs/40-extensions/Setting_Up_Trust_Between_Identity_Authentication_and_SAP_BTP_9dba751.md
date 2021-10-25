@@ -38,11 +38,13 @@ Identity Authentication is closely integrated with SAP BTP, and it is offered as
 
     3.  Choose *Save*.
 
+
 6.  In the cockpit, download the service provider SAML metadata file. Open the link `https://<subaccount_subdomain>.authentication.<region_host>/saml/medatada` where:
 
     -   `<subdomain>` is part of the subaccount details in the cockpit.
 
     -   `<region_host>` is the API endpoint without `api.cf.`. See [Regions and Hosts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html).
+
 
     When you are prompted, save the XML file on your local file system. This file contains the SAML 2.0 metadata describing SAP BTP as a service provider.
 
@@ -71,6 +73,7 @@ Identity Authentication is closely integrated with SAP BTP, and it is offered as
         On service provider metadata upload, the fields are populated with the parsed data from the XML file.
 
     4.  Save the configuration settings.
+
 
 
 

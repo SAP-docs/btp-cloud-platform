@@ -45,7 +45,3 @@ You can use this app to:
 
 If you need support or experience issues, please report an incident under component `BC-SRV-APS-IAM`.
 
--   **[How to Enable the Recreation of Blocked Business Users](How_to_Enable_the_Recreation_of_Blocked_Business_Users_b1494fe.md "Sometimes the person with whom a deleted business user was associated must access the
-		system again.")**  
-Sometimes the person with whom a deleted business user was associated must access the system again.
-

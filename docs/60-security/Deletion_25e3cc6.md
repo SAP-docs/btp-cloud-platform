@@ -41,16 +41,6 @@ We maintain backups of the data for disaster recovery. When your account is dele
 > 
 > We cannot restore data you have in your local system.
 
--   **[Delete Shadow Users for Data Protection and Privacy Using the Cockpit](Delete_Shadow_Users_for_Data_Protection_and_Privacy_Using_the_Cockpit_893c5ac.md "Data privacy regulations or policies may require you to delete this data, for example,
-		when the user has left your organization. SAP BTP
-                                    cockpit offers an application to
-		select and delete shadow users.")**  
-Data privacy regulations or policies may require you to delete this data, for example, when the user has left your organization. SAP BTP cockpit offers an application to select and delete shadow users.
--   **[Delete Shadow Users for Data Protection and Privacy Using APIs](Delete_Shadow_Users_for_Data_Protection_and_Privacy_Using_APIs_eb70f16.md "Data privacy regulations or policies may require you to delete this data, for example,
-		when the user has left your organization. To delete shadow users using APIs, set up access
-		to the API and then use the SCIM REST APIs to retrieve and delete the  users.")**  
-Data privacy regulations or policies may require you to delete this data, for example, when the user has left your organization. To delete shadow users using APIs, set up access to the API and then use the SCIM REST APIs to retrieve and delete the users.
-
 **Related Information**  
 
 

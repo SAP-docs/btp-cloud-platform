@@ -49,23 +49,6 @@ Closely related to the IF\_XCO\_NEWS abstraction is the IF\_XCO\_TEXT interface.
 
 Like IF\_XCO\_NEWS it provides a common ground for many different XCO modules. It is furthermore the basis of the IF\_XCO\_PRINTABLE interface which allows to define a print version for any object that is used when the object is written to the console via the XCO ADT functionality \(see [ADT](ADT_0bf9b10.md)\).
 
--   **[ADT](ADT_0bf9b10.md "")**  
-
--   **[JSON](JSON_492ccdb.md "")**  
-
--   **[Regular Expression](Regular_Expression_4c0585e.md "")**  
-
--   **[String](String_063ad16.md "")**  
-
--   **[Tenant](Tenant_bbb4dc2.md "")**  
-
--   **[Time Library](Time_Library_6213705.md)**  
-
--   **[UUID](UUID_ceb1a4e.md "")**  
-
--   **[XString](XString_0c7aa66.md "")**  
-
-
 **Related Information**  
 
 

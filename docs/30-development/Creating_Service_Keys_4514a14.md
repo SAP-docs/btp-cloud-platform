@@ -13,9 +13,3 @@ You can usethe SAP BTP cockpit or the Cloud Foundry Command Line Interface to cr
 
 For more information on service keys, see [https://docs.cloudfoundry.org/devguide/services/service-keys.html](https://docs.cloudfoundry.org/devguide/services/service-keys.html).
 
--   **[Create Service Keys Using the Cockpit](Create_Service_Keys_Using_the_Cockpit_cdf4f20.md "")**  
-
--   **[Create Service Keys Using the Cloud Foundry Command Line Interface](Create_Service_Keys_Using_the_Cloud_Foundry_Command_Line_Interface_7de6b31.md "Use the Cloud Foundry Command Line
-		Interface to create a service key. ")**  
-Use the Cloud Foundry Command Line Interface to create a service key.
-

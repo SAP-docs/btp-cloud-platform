@@ -1,0 +1,7 @@
+# For the documentation folder, use git's auto-detect meachnism to check
+# if a file is a text file. If so, enforce lf as line endings
+# for commits and checkouts regardless of local OS settings. 
+docs/** text=auto eol=lf
+
+# Isolate images in case the auto-detection algorithm fails.
+*.{png,jpg,jpeg,gif} binary

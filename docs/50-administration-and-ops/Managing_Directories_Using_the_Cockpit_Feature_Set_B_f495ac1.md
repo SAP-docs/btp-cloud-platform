@@ -24,23 +24,6 @@ Learn how to organize and manage your subaccounts according to your technical an
 4.  Learn how to [View Directory Usage Analytics \[Feature Set B\]](View_Directory_Usage_Analytics_Feature_Set_B_a287782.md).
 
 
--   **[Create a Directory \[Feature Set B\]](Create_a_Directory_Feature_Set_B_b8ef1c4.md "Create a directory using the SAP BTP
-                                    cockpit to organize and manage
-		your subaccounts. For example, you can group subaccounts by project, team, or
-		department.")**  
-Create a directory using the SAP BTP cockpit to organize and manage your subaccounts. For example, you can group subaccounts by project, team, or department.
--   **[Manage the Account Explorer Hierarchy \[Feature Set B\]](Manage_the_Account_Explorer_Hierarchy_Feature_Set_B_2e2a5b6.md "Create an account structure by creating a hierarchy of directories and subaccounts
-		using the SAP BTP
-                                    cockpit. Add, move, and
-		delete subaccounts and directories in your structure.")**  
-Create an account structure by creating a hierarchy of directories and subaccounts using the SAP BTP cockpit. Add, move, and delete subaccounts and directories in your structure.
--   **[Manage Users in Directories \[Feature Set B\]](Manage_Users_in_Directories_Feature_Set_B_ff4d4a4.md "Manage members in your directory using the SAP BTP
-                                    cockpit.")**  
-Manage members in your directory using the SAP BTP cockpit.
--   **[View Directory Usage Analytics \[Feature Set B\]](View_Directory_Usage_Analytics_Feature_Set_B_a287782.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your
-		directory.")**  
-You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your directory.
-
 **Related Information**  
 
 

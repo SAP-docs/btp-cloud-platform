@@ -17,7 +17,3 @@ There are two git-based transport mechanisms in the ABAP environment.
 
 For a quick start on transportation, see [Transport a Software Component Between Two ABAP Systems](https://developers.sap.com/tutorials/abap-environment-gcts.html).
 
--   **[Working with abapGit](Working_with_abapGit_d62ed9d.md "abapGit is an open source developed Git client for the ABAP server to import and export
-		ABAP objects between ABAP systems. ")**  
-abapGit is an open source developed Git client for the ABAP server to import and export ABAP objects between ABAP systems.
-

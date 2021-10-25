@@ -77,6 +77,7 @@ For more information, see:
 
     -   `forwardAuthToken`: Set to `true`
 
+
     > ### Sample Code:  
     > manifest.yml for a development phase:
     > 

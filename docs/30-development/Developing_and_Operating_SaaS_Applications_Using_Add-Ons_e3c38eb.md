@@ -38,6 +38,8 @@ The [Concepts](Concepts_9482e7e.md#loio9482e7eef4634cb993a4ae296b2029fa) chapter
 
 [Order and Provide](Order_and_Provide_975bd3e.md#loio975bd3e54cbe4e52af346740658d1a4a) illustrates how a developed add-on can be deployed and made available to consumers. It also shows how consumers order solutions and what steps you, as the provider, need to perform to provision said solution.
 
+[Configure and Implement a Customer Project](Configure_and_Implement_a_Customer_Project_363d2ea.md#loio363d2ea033b14ecfa5c67cf8d3e7cb01) describes how to configure and implement a customer project in the consumer tenant, including the setup of identity and authentication management, integration with other systems or services, and adjustment of business configuration.
+
 [Maintain](Maintain_9721f0f.md#loio9721f0fb92a84e2a95309acf445cb0a9) gives you an overview about the activities involved in maintaining an already commercialized product, as you usually continue to support the add-on, fix bugs, and potentially offer new functionalities as time goes on.
 
 The [Glossary](Glossary_6e251fa.md) contains a list of all the technical terms and phrases used in this scenario.
@@ -56,28 +58,14 @@ The [Glossary](Glossary_6e251fa.md) contains a list of all the technical terms a
 -   [Order and Provide](Order_and_Provide_975bd3e.md#loioa24217a0d6fa434bbce97869dfb70dda)
 -   [Order and Provide](Order_and_Provide_975bd3e.md#loioa24217a0d6fa434bbce97869dfb70dda)
 -   [Maintain](Maintain_9721f0f.md#loio9721f0fb92a84e2a95309acf445cb0a9)
--   [Maintain](Maintain_9721f0f.md#loio9721f0fb92a84e2a95309acf445cb0a9)
 -   [Order and Provide](Order_and_Provide_975bd3e.md#loio975bd3e54cbe4e52af346740658d1a4a)
 -   [Develop, Test, Build](Develop,_Test,_Build_3bf575a.md#loio3bf575a3dc5043f895f8bd411d2a86a1)
-
--   **[Overview](Overview_9640543.md "")**  
-
--   **[Users and Roles](Users_and_Roles_4b4deee.md "")**  
-
--   **[Concepts](Concepts_9482e7e.md#loio9482e7eef4634cb993a4ae296b2029fa "Learn more about the system landscape/account model, ABAP
-                                environment	 pipeline, as well as versioning
-		and branches.")**  
-Learn more about the system landscape/account model, ABAP environment pipeline, as well as versioning and branches.
--   **[Glossary](Glossary_6e251fa.md "")**  
-
--   **[Develop, Test, Build](Develop,_Test,_Build_3bf575a.md#loio3bf575a3dc5043f895f8bd411d2a86a1 "")**  
-
--   **[Order and Provide](Order_and_Provide_975bd3e.md#loio975bd3e54cbe4e52af346740658d1a4a "After the initial add-on version has been built, you have to deploy and provide it as a
-		SaaS solution so that the add-on can be consumed by customers via a subscription in the SAP BTP
-                                    cockpit.")**  
-After the initial add-on version has been built, you have to deploy and provide it as a SaaS solution so that the add-on can be consumed by customers via a subscription in the SAP BTP cockpit.
--   **[Maintain](Maintain_9721f0f.md#loio9721f0fb92a84e2a95309acf445cb0a9 "")**  
-
+-   [Configure and Implement a Customer Project](Configure_and_Implement_a_Customer_Project_363d2ea.md#loio363d2ea033b14ecfa5c67cf8d3e7cb01)
+-   [Set Up Maintenance System Landscape](Maintain_9721f0f.md#loio44035458f01e4142a18d44f9c0301e62)
+-   [Create Update for SaaS Solution](Maintain_9721f0f.md#loioa35582346bff4914a5b4b0bcb776668c)
+-   [Trigger Add-On Product Build](Maintain_9721f0f.md#loio7f6988a9a9f94845825d8c7ff66990fb)
+-   [Apply Update for SaaS Solution](Maintain_9721f0f.md#loio0a80d4c5c079435e9aca4eb9e6841de9)
+-   [Restore Deleted Tenant](Maintain_9721f0f.md#loio7b3a50175b904841b141446bfae331ca)
 
 **Related Information**  
 

@@ -43,11 +43,13 @@ To create a business role for the administrator, proceed as follows:
 
     3.  Select *Back to Main Page* to save the changes.
 
+
 4.  On the *Assigned Business Users* tab, all users that are assigned to the selected catalogs are listed. To add a business user, proceed as follows:
 
     1.  Select *Add*.
 
     2.  In the *Add Business Users* window, search for your own business user and select *Apply*.
+
 
 5.  Save the business role to activate it.
 

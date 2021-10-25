@@ -11,14 +11,14 @@ The following key combinations are provided in the web-based editor:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Key Combination
 
 
 
 </th>
-<th>
+<th valign="top">
 
 What Is It Used for?
 
@@ -27,14 +27,14 @@ What Is It Used for?
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
   [Ctrl\] + [Space\]  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 To turn on code completion
 
@@ -43,7 +43,7 @@ To turn on code completion
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Ctrl\] + [/\] 
 
@@ -52,7 +52,7 @@ To turn on code completion
 
 
 </td>
-<td>
+<td valign="top">
 
 To uncomment or comment out a code block
 
@@ -61,14 +61,14 @@ To uncomment or comment out a code block
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
   [Shift\] + [F1\]  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 To use pretty printer
 

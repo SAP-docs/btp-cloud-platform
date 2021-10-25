@@ -28,10 +28,3 @@ If an application wants to read the content of an application log from the datab
 -   [Get Items from the Log](Get_Items_from_the_Log_c4783e6.md)
 
 
--   **[Creating an Application Log](Creating_an_Application_Log_7911b76.md "")**  
-
--   **[Reading an Application Log](Reading_an_Application_Log_c75fe47.md "")**  
-
--   **[Classes and Interfaces of the Application Log API](Classes_and_Interfaces_of_the_Application_Log_API_59023fc.md "")**  
-
-

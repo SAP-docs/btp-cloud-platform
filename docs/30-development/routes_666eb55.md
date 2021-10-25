@@ -18,28 +18,28 @@ Defines all route objects, for example: `source`, `target`, and, `destination`.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Mandatory
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -48,28 +48,28 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `source` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 RegEx
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Describes a regular expression that matches the incoming request URL.
 
@@ -83,28 +83,28 @@ A request matches a particular route when its path contains the given pattern. T
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `[httpMethods](routes_666eb55.md#loio666eb55032d849beabb906b18712509b__section_httpMethods)` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Array of uppercase HTTP methods
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 HTTP methods that are served by this route; the supported methods are: `DELETE`, `GET`, `HEAD`, `OPTIONS`, `POST`, `PUT`, `TRACE`, and `PATCH`.
 
@@ -116,28 +116,28 @@ HTTP methods that are served by this route; the supported methods are: `DELETE`,
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `target` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines how the incoming request path is rewritten for the corresponding destination or static resource.
 
@@ -146,28 +146,28 @@ Defines how the incoming request path is rewritten for the corresponding destina
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `destination` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the destination to which the incoming request is forwarded. The destination name can be a static string or a regular expression that defines how to dynamically fetch the destination name from the source property or from the host.
 
@@ -178,28 +178,28 @@ For more information about additional destination properties, see [Application R
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `service`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the service to which the incoming request is forwarded.
 
@@ -208,28 +208,28 @@ The name of the service to which the incoming request is forwarded.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `endpoint`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the endpoint within the service to which the incoming request is forwarded. It must only be used in a route containing a service attribute.
 
@@ -238,28 +238,28 @@ The name of the endpoint within the service to which the incoming request is for
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `[localDir](routes_666eb55.md#loio666eb55032d849beabb906b18712509b__section_localDir)` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The directory from which application router serves static content \(for example, from the application's `web/` module\).
 
@@ -268,28 +268,28 @@ The directory from which application router serves static content \(for example,
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `[replace](routes_666eb55.md#loio666eb55032d849beabb906b18712509b__section_replace)` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Object
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An object that contains the configuration for replacing placeholders with values from the environment.
 
@@ -301,28 +301,28 @@ An object that contains the configuration for replacing placeholders with values
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `authenticationType`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The value can be “`xsuaa`”, “`basic`” or “`none`”. The default value is “`xsuaa`”. When “`xsuaa`” is used, the specified UAA server handles the authentication \(the user is redirected to the UAA's logon form\). If “`none`” is used then no authentication is needed for this route.
 
@@ -331,28 +331,28 @@ The value can be “`xsuaa`”, “`basic`” or “`none`”. The default value
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `csrfProtection` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Boolean
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Toggle whether this route needs CSRF token protection. The default value is “true”. The application router enforces CSRF protection for any HTTP request that changes state on the server side, for example: PUT, POST, or DELETE.
 
@@ -361,28 +361,28 @@ Toggle whether this route needs CSRF token protection. The default value is “t
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `scope`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Array/String/Object
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The authorization scope required to access the target path. The scope itself is defined in the application's security descriptor \(`xs-security.json`\), for example, `“$XSAPPNAME.Display”` or `“$XSAPPNAME.Create”`.
 
@@ -391,28 +391,28 @@ The authorization scope required to access the target path. The scope itself is 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `cacheControl`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A string representing the value of the Cache-Control header, which is set on the response when serving static resources. By default the Cache-Control header isn’t set.
 
@@ -428,28 +428,28 @@ The cacheControl property is only effective when one of the following settings i
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `identityProvider`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the identity provider you use if it’s provided in the definition of the route. If it isn’t provided, the route is authenticated with the default identity provider.
 
@@ -615,21 +615,21 @@ The `replace` keyword requires the following properties:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -638,21 +638,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `pathSuffixes` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Array
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An array defining the path suffixes that are relative to `localDir`. Only files with a path ending with any of these suffixes are processed.
 
@@ -661,21 +661,21 @@ An array defining the path suffixes that are relative to `localDir`. Only files 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `vars` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Array
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A whitelist with the environment variables that are replaced in the files matching the suffix specified in `pathSuffixes`.
 
@@ -741,14 +741,14 @@ The following table illustrates some examples of the `pathSuffixes` properties:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Example
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Result
 
@@ -757,14 +757,14 @@ Result
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `{ "pathSuffixes": [".html"] }` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 All files with the extension `.html` under `localDir` and its subfolders are processed .
 
@@ -773,14 +773,14 @@ All files with the extension `.html` under `localDir` and its subfolders are pro
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `{ "pathSuffixes": ["/abc/main.html", "some.html"] }` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 For the suffix `/abc/main.html`, all files named `main.html` that are inside a folder named `abc` are processed.
 
@@ -791,14 +791,14 @@ For the suffix `some.html`, all files with a name that ends with “`some.html`�
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `{ "pathSuffixes": [".html"] }` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 All files with the name “`some.html`” are processed. For example: `some.html` , `/abc/some.html`.
 

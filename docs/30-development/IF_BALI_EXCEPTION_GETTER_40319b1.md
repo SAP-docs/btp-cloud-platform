@@ -9,14 +9,14 @@ If an exception is read from an application log, an object instance of interface
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -25,7 +25,7 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CATEGORY
 
@@ -34,7 +34,7 @@ CATEGORY
 
 
 </td>
-<td>
+<td valign="top">
 
 Category of the item
 
@@ -45,7 +45,7 @@ Contains fixed value: IF\_BALI\_CONSTANTS=\>C\_CATEGORY\_EXCEPTION
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 LOG\_ITEM\_NUMBER
 
@@ -54,7 +54,7 @@ LOG\_ITEM\_NUMBER
 
 
 </td>
-<td>
+<td valign="top">
 
 Serial number which is the position of the exception in the log
 
@@ -63,7 +63,7 @@ Serial number which is the position of the exception in the log
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SEVERITY
 
@@ -72,7 +72,7 @@ SEVERITY
 
 
 </td>
-<td>
+<td valign="top">
 
 Severity of the exception \('Error', 'Warning', etc\)
 
@@ -81,7 +81,7 @@ Severity of the exception \('Error', 'Warning', etc\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DETAIL\_LEVEL
 
@@ -90,7 +90,7 @@ DETAIL\_LEVEL
 
 
 </td>
-<td>
+<td valign="top">
 
 Detail level of the exception \(number between '1' and '9' or ' '\)
 
@@ -99,7 +99,7 @@ Detail level of the exception \(number between '1' and '9' or ' '\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 TIMESTAMP
 
@@ -108,7 +108,7 @@ TIMESTAMP
 
 
 </td>
-<td>
+<td valign="top">
 
 UTC time stamp of the exception creation
 
@@ -117,14 +117,14 @@ UTC time stamp of the exception creation
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 EXCEPTION\_CLASS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Name of the ABAP exception class
 
@@ -133,14 +133,14 @@ Name of the ABAP exception class
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 EXCEPTION\_ID\_NAME
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Name of the Text ID of the ABAP exception
 
@@ -161,14 +161,14 @@ Get the message short text of the exception \(the output of method GET\_TEXT of 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -177,7 +177,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -186,14 +186,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 MESSAGE\_TEXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message short text of the exception in the logon language
 

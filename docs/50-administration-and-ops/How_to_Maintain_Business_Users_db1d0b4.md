@@ -33,6 +33,7 @@ You can change user data \(for example, the user name\) and regional settings \(
 
         The name the user enters to log on to the SAP Fiori launchpad. The user name can only contain uppercase letters, numbers, and underscores. It must have a maximum length of 40 characters and must not start with an underscore, or with SAP.
 
+
 -   **Assigning Roles to Business Users**
 -   To grant users access to applications, you assign the respective business roles to them.
 
@@ -48,12 +49,14 @@ You can change user data \(for example, the user name\) and regional settings \(
 
         The user then sees the respective app tiles in the tile catalogs.
 
+
 -   **Removing Role Assignments from Business Users**
 -   To remove a role assignment from a user, proceed as follows:
 
     1.  Select the business user and then the assigned business role.
 
     2.  Choose *Remove* above the list or *Remove Business Roles* at the bottom of the screen.
+
 
 -   **Updating User Role Assignments**
 -   To update the assignments of roles to a user individually, edit the affected business user.
@@ -66,14 +69,14 @@ You can change user data \(for example, the user name\) and regional settings \(
     > 
     > <table>
     > <tr>
-    > <td>
+    > <td valign="top">
     > 
     >  `User Name` 
     > 
     > 
     > 
     > </td>
-    > <td>
+    > <td valign="top">
     > 
     >  `Role ID` 
     > 
@@ -82,14 +85,14 @@ You can change user data \(for example, the user name\) and regional settings \(
     > </td>
     > </tr>
     > <tr>
-    > <td>
+    > <td valign="top">
     > 
     >  *<User name 1\>* 
     > 
     > 
     > 
     > </td>
-    > <td>
+    > <td valign="top">
     > 
     >  *<Business role ID 2\>* 
     > 
@@ -98,14 +101,14 @@ You can change user data \(for example, the user name\) and regional settings \(
     > </td>
     > </tr>
     > <tr>
-    > <td>
+    > <td valign="top">
     > 
     >  *<User name 1\>* 
     > 
     > 
     > 
     > </td>
-    > <td>
+    > <td valign="top">
     > 
     >  *<Business role ID 6\>* 
     > 
@@ -114,14 +117,14 @@ You can change user data \(for example, the user name\) and regional settings \(
     > </td>
     > </tr>
     > <tr>
-    > <td>
+    > <td valign="top">
     > 
     >  *<User name 2\>* 
     > 
     > 
     > 
     > </td>
-    > <td>
+    > <td valign="top">
     > 
     >  *<Business role ID 2\>* 
     > 
@@ -130,14 +133,14 @@ You can change user data \(for example, the user name\) and regional settings \(
     > </td>
     > </tr>
     > <tr>
-    > <td>
+    > <td valign="top">
     > 
     >  *<User name n\>* 
     > 
     > 
     > 
     > </td>
-    > <td>
+    > <td valign="top">
     > 
     >  *<Business role ID n\>* 
     > 
@@ -161,6 +164,7 @@ You can change user data \(for example, the user name\) and regional settings \(
         > ### Note:  
         > Make sure that the `CSV` file is not opened with any program before the upload.
 
+
 -   Changing the Default Settings for a Business User
 
     To change the default settings for a business user, select it for editing and adjust the values as required.
@@ -172,14 +176,14 @@ You can change user data \(for example, the user name\) and regional settings \(
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Field
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Default Value
 
@@ -188,14 +192,14 @@ You can change user data \(for example, the user name\) and regional settings \(
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Valid From*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     01/01/1901
 
@@ -204,14 +208,14 @@ You can change user data \(for example, the user name\) and regional settings \(
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Valid To*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     12/31/9999
 
@@ -220,14 +224,14 @@ You can change user data \(for example, the user name\) and regional settings \(
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Decimal Format*
 
 
     
     </td>
-    <td rowspan="5">
+    <td valign="top" rowspan="5">
 
     This default value is derived from the standard setting that is valid in the country of the workplace address. If the workplace address is not maintained, the value is derived from the business user’s private address.
 
@@ -236,7 +240,7 @@ You can change user data \(for example, the user name\) and regional settings \(
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Date Format*
 
@@ -245,7 +249,7 @@ You can change user data \(for example, the user name\) and regional settings \(
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Time Format*
 
@@ -254,7 +258,7 @@ You can change user data \(for example, the user name\) and regional settings \(
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Time Zone*
 
@@ -263,7 +267,7 @@ You can change user data \(for example, the user name\) and regional settings \(
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Language*
 

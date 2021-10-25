@@ -13,14 +13,14 @@ The following table lists the log domains that are part of the delivered sample 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Log Domain Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -29,14 +29,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `BANK` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data referring to a bank account
 
@@ -45,14 +45,14 @@ Data referring to a bank account
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `BIOMETRIC`\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data referring to biometric data
 
@@ -61,14 +61,14 @@ Data referring to biometric data
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `CRIME`\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data referring to criminal or administrative offenses or suspected criminal or administrative offenses
 
@@ -77,14 +77,14 @@ Data referring to criminal or administrative offenses or suspected criminal or a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `ETHNIC_ORIGIN`\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data referring to racial or ethnic origin
 
@@ -93,14 +93,14 @@ Data referring to racial or ethnic origin
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `GENETIC`\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data referring to genetic data
 
@@ -109,14 +109,14 @@ Data referring to genetic data
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `HEALTH`\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data referring to health data
 
@@ -125,14 +125,14 @@ Data referring to health data
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `POLITICAL_OPINION`\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data referring to political opinion
 
@@ -141,14 +141,14 @@ Data referring to political opinion
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `PROFILE`\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data which is usually based on profiling like: scoring, rating, unwanted customer
 
@@ -157,14 +157,14 @@ Data which is usually based on profiling like: scoring, rating, unwanted custome
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `RELIGION`\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data referring to religious or philosophical beliefs
 
@@ -173,14 +173,14 @@ Data referring to religious or philosophical beliefs
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `SECRECY`\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data referring to professional secrecy
 
@@ -189,14 +189,14 @@ Data referring to professional secrecy
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `SEX_LIFE`\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data referring to sex life
 
@@ -205,14 +205,14 @@ Data referring to sex life
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `SEXUAL_ORIENTATION`\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data referring to sexual orientation
 
@@ -221,14 +221,14 @@ Data referring to sexual orientation
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `SSN` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data referring to social security number
 
@@ -237,14 +237,14 @@ Data referring to social security number
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `TRADE_UNION`\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data referring to trade union membership
 

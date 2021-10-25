@@ -23,6 +23,7 @@ The following options are available to establish logical receiver determination 
     -   Your own properties, such as plant, country, or company, which can be derived from the business context during runtime. You can define your own properties for the communication scenario and maintain them in the communication arrangements.
 
 
+
 The sample codes below show how to find the correct reference to a destination and how to use it when calling a service.
 
 
@@ -148,7 +149,4 @@ Find the destination based on the communication scenario and a customer-defined 
 >     endtry.
 > 
 > ```
-
--   **[Define Specific Properties for Communication Scenarios](Define_Specific_Properties_for_Communication_Scenarios_fae8f0f.md "")**  
-
 

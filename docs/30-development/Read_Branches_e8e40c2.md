@@ -25,21 +25,21 @@ Read one or multiple branches .
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Header
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Required
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Values
 
@@ -48,21 +48,21 @@ Values
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Accept
 
 
 
 </td>
-<td>
+<td valign="top">
 
 no
 
 
 
 </td>
-<td>
+<td valign="top">
 
 application/json
 
@@ -73,21 +73,21 @@ application/xml
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 x-csrf-token
 
 
 
 </td>
-<td>
+<td valign="top">
 
 no
 
 
 
 </td>
-<td>
+<td valign="top">
 
 fetch
 
@@ -106,35 +106,35 @@ fetch
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Required
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Data Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Parameter Type
 
@@ -143,35 +143,35 @@ Parameter Type
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 sc\_name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 string
 
 
 
 </td>
-<td>
+<td valign="top">
 
 name of the software component
 
 
 
 </td>
-<td>
+<td valign="top">
 
 query string
 
@@ -180,35 +180,35 @@ query string
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 branch\_name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 string
 
 
 
 </td>
-<td>
+<td valign="top">
 
 name of the branch
 
 
 
 </td>
-<td>
+<td valign="top">
 
 query string
 
@@ -247,14 +247,14 @@ query string
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Header
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -263,14 +263,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 x-csrf-token
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Token, which can be used for POST requests
 
@@ -289,21 +289,21 @@ Token, which can be used for POST requests
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Code
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Reason
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -312,21 +312,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 200
 
 
 
 </td>
-<td>
+<td valign="top">
 
 OK
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Branch was read successfully
 
@@ -335,21 +335,21 @@ Branch was read successfully
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 404
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Not foumd
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Could not read branch; software component or branch may not exist..
 

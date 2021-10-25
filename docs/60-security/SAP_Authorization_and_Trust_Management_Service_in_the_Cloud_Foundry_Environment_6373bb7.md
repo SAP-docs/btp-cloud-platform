@@ -44,21 +44,21 @@ Follow the tutorials below to get familiar with the SAP Authorization and Trust 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Tutorials for the SAP Authorization and Trust Management service in the Cloud Foundry environment
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Language / Framework
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Link
 
@@ -67,21 +67,21 @@ Link
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Learn how to secure a basic single-tenant Node.js application. Start with a Node.js application that uses the express framework and SAPUI5 to display a list of products and add the security components step by step.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Node.js
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [SAP Developers](https://developers.sap.com/tutorials/cp-cf-security-xsuaa-create.html) 
 
@@ -90,21 +90,21 @@ Node.js
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Learn how to secure a basic java application. This tutorial starts with a Hello World Java application built with SAP Cloud SDK.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Java, SAP Cloud SDK
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [SAP Developers](https://developers.sap.com/tutorials/s4sdk-secure-cloudfoundry.html) 
 
@@ -113,21 +113,21 @@ Java, SAP Cloud SDK
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Learn how to secure microservices in SAP BTP using `spring-xsuaa` and Spring security. Furthermore, learn how to test the secured application using the`java-security-test` utilities.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Spring \(Boot\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [GitHub](https://github.com/SAP/cloud-security-xsuaa-integration/tree/master/samples/spring-security-xsuaa-usage) 
 
@@ -136,21 +136,21 @@ Spring \(Boot\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Learn how to add multitenancy to a node.js application and make it available for other subaccounts using the SaaS Provisioning service and the XSUAA.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Node.js
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [SAP Developers](https://developers.sap.com/tutorials/cp-cf-security-xsuaa-multi-tenant.html) 
 
@@ -159,21 +159,21 @@ Node.js
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Learn how to secure microservices in SAP BTP. This sample provides J2EE Configuration using web.xml and uses the SAP Java Buildpack.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 J2EE, SAP Java Buildpack
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [GitHub \(SAP Java Buildpack version <= 1.26.0\)](https://github.com/SAP/cloud-security-xsuaa-integration/tree/master/samples/sap-java-buildpack-api-usage)
 
@@ -184,21 +184,21 @@ J2EE, SAP Java Buildpack
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Learn how to build a cloud-native Node.js application that features secured service-to-service communication. The application shows you two different ways of securing service-to-service-communication \(by propagating a business user or using a technical user\).
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Node.js
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [GitHub](https://github.com/SAP-samples/cloud-nodejs-oflm#readme) 
 
@@ -207,21 +207,21 @@ Node.js
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Learn how to use `java-security` to perform JWT Validation as part of your Java application. Furthermore, learn how to test the secured application using the `java-security-test` utilities.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Java
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [GitHub](https://github.com/SAP/cloud-security-xsuaa-integration/tree/master/samples/java-security-usage) 
 
@@ -230,21 +230,21 @@ Java
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Learn in this reference application how the service fits into a complete architecture of microservices that interact with each other propagating user information.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Java
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [GitHub](https://github.com/SAP-samples/cloud-espm-cloud-native#security-implementation) 
 
@@ -311,7 +311,7 @@ For business users:
 
 For platform users:
 
--   [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](../50-administration-and-ops/Establish_Trust_and_Federation_of_Custom_Identity_Providers_for_Platform_Users_in_Multi-Environment_Subaccounts_Feature_Set_A_8600afb.md)
+-   [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](../50-administration-and-ops/Establish_Trust_and_Federation_of_Custom_Identity_Providers_8600afb.md)
 
 
 For default identity provider:
@@ -337,21 +337,21 @@ In the Cloud Foundry environment, application developers create and deploy appli
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 User Role
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Tool
 
@@ -360,7 +360,7 @@ Tool
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Use an existing role or create a new one using role templates
 
@@ -369,14 +369,14 @@ Use an existing role or create a new one using role templates
 
 
 </td>
-<td>
+<td valign="top">
 
 Administrator of the Cloud Foundry environment
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP BTP cockpit
 
@@ -387,7 +387,7 @@ Command line interface for SAP BTP
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Create a role collection and assign roles to it
 
@@ -396,14 +396,14 @@ Create a role collection and assign roles to it
 
 
 </td>
-<td>
+<td valign="top">
 
 Administrator of the Cloud Foundry environment
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP BTP cockpit
 
@@ -414,7 +414,7 @@ Command line interface for SAP BTP
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Assign the role collections to users
 
@@ -423,14 +423,14 @@ Assign the role collections to users
 
 
 </td>
-<td>
+<td valign="top">
 
 Administrator of the Cloud Foundry environment
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP BTP cockpit
 
@@ -441,7 +441,7 @@ Command line interface for SAP BTP
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 \(If you do not use `SAP ID Service`\) Assign the role collections to user groups \(cloud management tools feature set A regions\)
 
@@ -450,14 +450,14 @@ Command line interface for SAP BTP
 
 
 </td>
-<td>
+<td valign="top">
 
 Administrator of the Cloud Foundry environment
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP BTP cockpit
 
@@ -466,7 +466,7 @@ SAP BTP cockpit
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Assign the role collection to the business users provided by an identity provider \(cloud management tools feature set A\)
 
@@ -475,14 +475,14 @@ Assign the role collection to the business users provided by an identity provide
 
 
 </td>
-<td>
+<td valign="top">
 
 Administrator of the Cloud Foundry environment
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP BTP cockpit
 
@@ -537,46 +537,6 @@ The following sections contain the process of adding authentication and authoriz
 -   [Protecting Your Application](../30-development/Protecting_Your_Application_7c5c565.md)
 -   [Tutorials for the SAP Authorization and Trust Management Service](../30-development/Tutorials_for_the_SAP_Authorization_and_Trust_Management_Service_902ae80.md)
 -   [Application Security Descriptor Configuration Syntax](../30-development/Application_Security_Descriptor_Configuration_Syntax_517895a.md)
-
--   **[What Is the SAP Authorization and Trust Management Service?](What_Is_the_SAP_Authorization_and_Trust_Management_Service_649961f.md "Get a high-level overview of the concepts that underpin the
-                        SAP Authorization and Trust
-                                    Management service for
-                        SAP BTP in
-                    the Cloud
-                                Foundry environment.")**  
-Get a high-level overview of the concepts that underpin the SAP Authorization and Trust Management service for SAP BTP in the Cloud Foundry environment.
--   **[Web Access Control](Web_Access_Control_70a62d1.md "The Cloud
-                                Foundry environment extends SAP BTP. It provides platform security functions such as business user
-		authentication, authorization management, and other security functions for access to the applications in the runtime container. To access the
-		runtime container, the business user can use a browser or a browser-based user interface.")**  
-The Cloud Foundry environment extends SAP BTP. It provides platform security functions such as business user authentication, authorization management, and other security functions for access to the applications in the runtime container. To access the runtime container, the business user can use a browser or a browser-based user interface.
--   **[API Access Control](API_Access_Control_3a23d64.md "The Cloud
-                                Foundry environment extends SAP BTP. It provides platform security functions such as business system
-		authentication, authorization management, and other security functions to enable business systems to access the applications (for example,
-		Java or Node.js) in the runtime container. Business systems use APIs to access the runtime container.")**  
-The Cloud Foundry environment extends SAP BTP. It provides platform security functions such as business system authentication, authorization management, and other security functions to enable business systems to access the applications \(for example, Java or Node.js\) in the runtime container. Business systems use APIs to access the runtime container.
--   **[Authorization Entities](Authorization_Entities_5d8ed75.md "Business users in an application require different authorizations because they work in different jobs.")**  
-Business users in an application require different authorizations because they work in different jobs.
--   **[Monitoring and Troubleshooting](Monitoring_and_Troubleshooting_1b3e89e.md "This section provides information on troubleshooting-related
-                activities for the SAP Authorization and Trust
-                                    Management service in the
-                    Cloud
-                                Foundry
-                environment.")**  
-This section provides information on troubleshooting-related activities for the SAP Authorization and Trust Management service in the Cloud Foundry environment.
--   **[Security Considerations for the SAP Authorization and Trust Management Service](Security_Considerations_for_the_SAP_Authorization_and_Trust_Management_Service_f117cab.md#loiof117cab6b92d438cb2a0b5204713994b "Decisions you make when using or administrating the SAP Authorization and Trust
-                                    Management service (XSUAA) can
-		have an impact on the security of your applications. The information provided is meant to
-		help you in decide.")**  
-Decisions you make when using or administrating the SAP Authorization and Trust Management service \(XSUAA\) can have an impact on the security of your applications. The information provided is meant to help you in decide.
--   **[Configuration Options for the SAP Authorization and Trust Management Service](Configuration_Options_for_the_SAP_Authorization_and_Trust_Management_Service_3654087.md#loio3654087e15864b49a1bca3967a54a095 "The following configuration options enable you to manipulate the operation of the SAP Authorization and Trust
-                                    Management service (XSUAA). Set
-		these options in the application security descriptor (xs-security.json)
-		at design time for your application.")**  
-The following configuration options enable you to manipulate the operation of the SAP Authorization and Trust Management service \(XSUAA\). Set these options in the application security descriptor \(`xs-security.json`\) at design time for your application.
--   **[Rate Limiting](Rate_Limiting_d203e2d.md "This section provides information on the rate limiting in the SAP Authorization and Trust
-                                    Management service.")**  
-This section provides information on the rate limiting in the SAP Authorization and Trust Management service.
 
 **Related Information**  
 

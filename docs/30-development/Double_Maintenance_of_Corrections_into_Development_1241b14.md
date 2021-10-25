@@ -17,35 +17,35 @@ To make a comparison, from the context menu of the object in the *Project Explor
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Step
 
 
 
 </th>
-<th>
+<th valign="top">
 
 System
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Role
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Tool
 
@@ -54,28 +54,28 @@ Tool
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 COR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Developer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Select the corrected objects in the transport request and open them.
 
@@ -84,7 +84,7 @@ This can be done selectively object by object.
 
 
 </td>
-<td>
+<td valign="top">
 
 ADT for Eclipse: Transport Organizer View
 
@@ -93,28 +93,28 @@ ADT for Eclipse: Transport Organizer View
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 COR, DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Developer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1.  Select the resources in the Project Explorer in the correction ABAP system COR
 2.  From the resource's pop-up menu, select Compare With
@@ -123,7 +123,7 @@ Developer
 
 
 </td>
-<td>
+<td valign="top">
 
 ADT for Eclipse: Project Explorer
 
@@ -132,35 +132,35 @@ ADT for Eclipse: Project Explorer
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 3
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Developer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Merge the changes into the ABAP system DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ADT for Eclipse
 

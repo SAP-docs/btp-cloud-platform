@@ -38,6 +38,7 @@ When creating this service instance, you create the required configurations in b
 
     4.  Choose *New Instance*.
 
+
 6.  In the *Create Instance* wizard:
 
     1.  In the *Plan* dropdown list select the *messaging* service plan, and then in the *System Name* dropdown list select the SAP S/4HANA Cloud system that you have registered. Choose *Next*.
@@ -49,6 +50,7 @@ When creating this service instance, you create the required configurations in b
     3.  \(Optional\) If you have already deployed an application that you want to bind to the new service instance, choose it from the list. Choose *Next*.
 
     4.  Enter a name for your instance and choose *Finish*.
+
 
     Alternatively, you can create the instance using cf CLI. To do so, execute the following command
 

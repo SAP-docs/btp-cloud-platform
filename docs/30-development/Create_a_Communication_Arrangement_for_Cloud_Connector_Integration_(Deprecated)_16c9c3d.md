@@ -50,14 +50,14 @@ To set up your ABAP environment, you have to create a communication arrangement 
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Field
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Action
 
@@ -66,14 +66,14 @@ To set up your ABAP environment, you have to create a communication arrangement 
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Host Name*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter the name of the region host of your Neo subaccount.
 
@@ -84,14 +84,14 @@ To set up your ABAP environment, you have to create a communication arrangement 
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *HTTPS Port*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter ***443***.
 
@@ -100,14 +100,14 @@ To set up your ABAP environment, you have to create a communication arrangement 
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Checkbox *Use Cloud Connector*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Make sure this checkbox is **not checked** .
 
@@ -116,14 +116,14 @@ To set up your ABAP environment, you have to create a communication arrangement 
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     User for Outbound Communication
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     a\) Scroll down to this section.
 
@@ -154,14 +154,14 @@ To set up your ABAP environment, you have to create a communication arrangement 
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Field
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Action
 
@@ -170,14 +170,14 @@ To set up your ABAP environment, you have to create a communication arrangement 
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Communication System*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter the name of the communication system created in steps 1-3, or select it from the value help.
 
@@ -186,14 +186,14 @@ To set up your ABAP environment, you have to create a communication arrangement 
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Additional Properties* \> *Account Name*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter the name of your Neo subaccount.
 
@@ -202,14 +202,14 @@ To set up your ABAP environment, you have to create a communication arrangement 
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Outbound Communication* \> *User Name*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
      
 

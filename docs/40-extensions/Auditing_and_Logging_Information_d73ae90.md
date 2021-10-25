@@ -9,28 +9,28 @@ Here you can find a list of the events that are logged by SAP SuccessFactors Ext
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Event grouping
 
 
 
 </th>
-<th>
+<th valign="top">
 
 What events are logged
 
 
 
 </th>
-<th>
+<th valign="top">
 
 How to identify related log events
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Additional information
 
@@ -39,21 +39,21 @@ Additional information
 </th>
 </tr>
 <tr>
-<td rowspan="6">
+<td valign="top" rowspan="6">
 
 Creating an integration
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Start of create-integration process
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `"type":"integration"`
 
@@ -65,7 +65,7 @@ Start of create-integration process
 
 
 </td>
-<td>
+<td valign="top">
 
 Event that signifies an integration of a global account with an SAP SuccessFactors system has been started.
 
@@ -76,14 +76,14 @@ The `customDetails` attribute contains details such as the issuer of the integra
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 End of create-integration process
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `"success":true`
 
@@ -97,7 +97,7 @@ End of create-integration process
 
 
 </td>
-<td>
+<td valign="top">
 
 Event that signifies an integration of a global account with an SAP SuccessFactors system has been completed.
 
@@ -108,14 +108,14 @@ The `customDetails` attribute contains details such as the issuer of the integra
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Failure of create-integration process
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `"success":true`
 
@@ -129,7 +129,7 @@ Failure of create-integration process
 
 
 </td>
-<td>
+<td valign="top">
 
 Event that signifies an integration of a global account with an SAP SuccessFactors system could not be completed.
 
@@ -140,14 +140,14 @@ The `customDetails` attribute contains details such as the issuer of the integra
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Start of delete-integration
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `"type":"integration"`
 
@@ -159,7 +159,7 @@ Start of delete-integration
 
 
 </td>
-<td>
+<td valign="top">
 
 Event that signifies a deletion of the integration of a global account with an SAP SuccessFactors system has been triggered.
 
@@ -170,14 +170,14 @@ The `customDetails` attribute contains details such as the issuer of the integra
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 End of delete-integration
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `"success":true`
 
@@ -191,7 +191,7 @@ End of delete-integration
 
 
 </td>
-<td>
+<td valign="top">
 
 Event that signifies a deletion of the integration of a global account with an SAP SuccessFactors system has been completed.
 
@@ -202,14 +202,14 @@ The `customDetails` attribute contains details such as the issuer of the integra
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Failure of delete-integration
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `"success":false`
 
@@ -223,7 +223,7 @@ Failure of delete-integration
 
 
 </td>
-<td>
+<td valign="top">
 
 Event that signifies a deletion of the integration of a global account with an SAP SuccessFactors system could not be completed.
 
@@ -234,21 +234,21 @@ The `customDetails` attribute contains details such as the issuer of the integra
 </td>
 </tr>
 <tr>
-<td rowspan="5">
+<td valign="top" rowspan="5">
 
 Setting up the connectivity
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Start of create-inbound-connection process
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `"type":"inboundConnection"`
 
@@ -260,7 +260,7 @@ Start of create-inbound-connection process
 
 
 </td>
-<td>
+<td valign="top">
 
 Event that signifies a creation of a service instance of the SAP SuccessFactors Extensibility service has been triggered.
 
@@ -271,14 +271,14 @@ The `customDetails` attribute contains details such as the subaccount ID, the gl
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 End of create-inbound-connection process
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `"type":"inboundConnection"`
 
@@ -290,7 +290,7 @@ End of create-inbound-connection process
 
 
 </td>
-<td>
+<td valign="top">
 
 Event that signifies a creation of a service instance of the SAP SuccessFactors Extensibility service has been completed.
 
@@ -301,14 +301,14 @@ The `customDetails` attribute contains details such as the subaccount ID, the gl
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Start of delete-inbound-connection
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `"type":"inboundConnection"`
 
@@ -320,7 +320,7 @@ Start of delete-inbound-connection
 
 
 </td>
-<td>
+<td valign="top">
 
 Event that signifies the deletion of a service instance of the SAP SuccessFactors Extensibility service has been started.
 
@@ -331,14 +331,14 @@ The `customDetails` attribute contains details such as the subaccount ID, the gl
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 End of delete-inbound-connection
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `"success":true`
 
@@ -352,7 +352,7 @@ End of delete-inbound-connection
 
 
 </td>
-<td>
+<td valign="top">
 
 Event that signifies the deletion of a service instance of the SAP SuccessFactors Extensibility service has been completed.
 
@@ -363,14 +363,14 @@ The `customDetails` attribute contains details such as the subaccount ID, the gl
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Failure of delete-inbound-connection
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `"success":false`
 
@@ -384,7 +384,7 @@ Failure of delete-inbound-connection
 
 
 </td>
-<td>
+<td valign="top">
 
 Event that signifies the deletion of a service instance of the SAP SuccessFactors Extensibility service could not be completed.
 

@@ -20,6 +20,7 @@ Use this procedure to configure the service provider \(SAP Cloud for Customer\) 
 
     4.  Choose the *SP Metadata* link, to download the SAP Cloud for Customer metadata XML file. Save it locally on your file system to import in later on in the Identity Authentication.
 
+
 2.  Create a custom application to use it as a SAML2.0 service provider. Access the tenant's administration console for Identity Authentication by using the console's URL.
 
     The URL has the `https://*<tenant ID\>*.accounts.ondemand.com/admin` pattern.
@@ -35,6 +36,7 @@ Use this procedure to configure the service provider \(SAP Cloud for Customer\) 
 
     3.  Choose *Save*.
 
+
     The system creates an application and adds it to the list of applications.
 
 3.  Configure the SAML 2.0 trust with SAP Cloud for Customer as a service provider. In the tenant's administration console for Identity Authentication, execute the following steps:
@@ -49,6 +51,7 @@ Use this procedure to configure the service provider \(SAP Cloud for Customer\) 
 
     4.  Save the configuration settings.
 
+
 4.  Configure the identity federation on Identity Authentication. To do so, proceed as follows:
 
     1.  In the tenant's administration console for Identity Authentication, choose your SAP Cloud for Customer application, and navigate to *Trust* \> *Name ID Attribute*, and then select *Login Name*.
@@ -59,5 +62,6 @@ Use this procedure to configure the service provider \(SAP Cloud for Customer\) 
         > E-mail is not supported by the SAP Cloud for Customer system.
 
     2.  Save your selection.
+
 
 

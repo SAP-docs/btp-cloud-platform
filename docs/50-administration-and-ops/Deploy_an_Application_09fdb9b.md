@@ -32,6 +32,7 @@ You can use the cockpit to deploy a new application in the Cloud Foundry environ
         > ### Note:  
         > When you enter an app name, the *Host* field is automatically filled with the same name. You can make changes to it or leave it as is. After deciding on a host and domain, you can see a preview of your final application route at the bottom of the form.
 
+
 6.  Choose *Deploy*.
 
 

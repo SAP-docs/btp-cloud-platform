@@ -21,8 +21,3 @@ Additionally, there is an example pipeline for a Continuous Integration process 
 
 Please find the documentation regarding project "Piper" here: [https://sap.github.io/jenkins-library/](https://sap.github.io/jenkins-library/).
 
--   **[API to Manage Git Repositories](API_to_Manage_Git_Repositories_c45f01f.md "")**  
-
--   **[Executing ABAP Test Cockpit \(ATC\) Check Runs](Executing_ABAP_Test_Cockpit_(ATC)_Check_Runs_d8cec78.md "")**  
-
-

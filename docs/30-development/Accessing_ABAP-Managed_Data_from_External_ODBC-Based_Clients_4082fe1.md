@@ -40,13 +40,3 @@ The ODBC driver for ABAP supports the use of a communication user in the ABAP sy
 
 You can access the data as read-only using an external ODBC-based client tool, including loading the data into the client tool and searching for data using embedded SQL queries. The ODBC-based client can be any client tool capable of loading an ODBC driver, such as Microsoft Excel or LibreOffice.
 
--   **[Setup of the ABAP System and the ODBC Driver for ABAP](Setup_of_the_ABAP_System_and_the_ODBC_Driver_for_ABAP_cd31e8e.md "To access CDS view entities in an ABAP system via ODBC, these entities first need to be properly exposed in the back-end system before
-		accessing them using the ODBC driver for ABAP in an ODBC application. Therefore, some setup steps are required.")**  
-To access CDS view entities in an ABAP system via ODBC, these entities first need to be properly exposed in the back-end system before accessing them using the ODBC driver for ABAP in an ODBC application. Therefore, some setup steps are required.
--   **[Example: Loading and Transforming Data Using Microsoft Excel](Example_Loading_and_Transforming_Data_Using_Microsoft_Excel_52a0550.md "After creating a DSN, you can use this DSN in an ODBC client tool of your choice. Learn how you can use Microsoft Excel for loading and
-		transforming data as an example.")**  
-After creating a DSN, you can use this DSN in an ODBC client tool of your choice. Learn how you can use Microsoft Excel for loading and transforming data as an example.
--   **[Example: Loading and Transforming Data Using LibreOffice](Example_Loading_and_Transforming_Data_Using_LibreOffice_f488fd4.md "After the successful configuration of the ABAP system and the installation of the ODBC driver for ABAP, you can load and transform data
-		from the exposed CDS view entities. You can use external tools such as LibreOffice on Linux, for example. ")**  
-After the successful configuration of the ABAP system and the installation of the ODBC driver for ABAP, you can load and transform data from the exposed CDS view entities. You can use external tools such as LibreOffice on Linux, for example.
-

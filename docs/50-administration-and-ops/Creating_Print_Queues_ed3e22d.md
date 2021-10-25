@@ -22,6 +22,7 @@ You want to set up print queues to manage the printing of documents.
     -   **Format**: The format is the printer language type of the queue. The following language types are available: `PDF, CAB 203 dpi, CAB 300 dpi, Datamax 203dpi, Datamax 300 dpi, Datamax 406 dpi, Datamax 600 dpi, HP Laserjet 4350 PCL 5e, HP LaserJet 4350 PS, PCL 5c (Color), PCL 5e (Monochrome), Intermec 203 dpi, Intermec 300 dpi, Intermec 400 dpi, Lexmark T644 PCL 5e, Lexmark T644 PS, PostScript 2, Postscript 3, Toshiba 203 dpi, Toshiba 305 dpi, XMLDATA, Zebra 203 dpi, Zebra 300 dpi, Zebra 600 dpi.`
     -   **Communication User**: Technical user with which the *SAP Cloud Print Manager for Pull Integration* logs on to the system. You have to define a communication user in the communication scenario `SAP_COM_0466` first. You can connect several queues to the same *SAP Cloud Print Manager for Pull Integration* - in this case all queues must use the same communication user.
     -   **Retention**: Spool Retention Period. The retention period is the number of days after which the print queue items that are in final state \(*successful* or *failed*\) will be deleted automatically.
+
 5.  Click *Create* to create a new print queue.
 
 

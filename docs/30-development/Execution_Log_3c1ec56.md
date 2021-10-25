@@ -19,14 +19,14 @@
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 HTTP Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -35,14 +35,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 GET
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Read Execution Log](Read_Execution_Log_cb553bd.md)
 
@@ -61,14 +61,14 @@ GET
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -77,14 +77,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 uuid
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ID of the job
 
@@ -93,14 +93,14 @@ ID of the job
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 index\_no
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Index number of the log entry
 
@@ -109,14 +109,14 @@ Index number of the log entry
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 type
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Type of the log \(information, warning, etc...\)
 
@@ -125,14 +125,14 @@ Type of the log \(information, warning, etc...\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 descry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Description text of this log entry
 
@@ -141,14 +141,14 @@ Description text of this log entry
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 timestamp
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Timestamp of the log entry
 
@@ -157,7 +157,4 @@ Timestamp of the log entry
 </td>
 </tr>
 </table>
-
--   **[Read Execution Log](Read_Execution_Log_cb553bd.md "Read the execution log of a specific job.")**  
-Read the execution log of a specific job.
 

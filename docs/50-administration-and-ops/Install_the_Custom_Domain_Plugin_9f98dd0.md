@@ -34,6 +34,7 @@ Install the Cloud Foundry command-line interface \(CLI\) for the plugin to work.
         cf install-plugin <path to the downloaded folder>\custom-domain-cli.exe
         ```
 
+
     > ### Note:  
     > If you are reinstalling the plugin, first uninstall the previous version using: `cf uninstall-plugin "Custom Domain"` 
 

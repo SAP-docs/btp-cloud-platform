@@ -33,35 +33,35 @@ Follow these steps to define your ABAP Solution.
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Name
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Data Type
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Description
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Purpose
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Updateable
 
@@ -70,35 +70,35 @@ Follow these steps to define your ABAP Solution.
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     name
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     string
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Name of the solution as defined by the provider. Must be unique in the scope of the Global Account \(or globally if this information is not available\)
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Used to identify the solution and will be passed through to ABAP System \(saas\_oem plan\)
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     No
 
@@ -107,7 +107,7 @@ Follow these steps to define your ABAP Solution.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     sap\_system\_name
 
@@ -116,28 +116,28 @@ Follow these steps to define your ABAP Solution.
 
     
     </td>
-    <td>
+    <td valign="top">
 
     string
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Name of the system as defined by the provider.​ If a value is supplied, the new system\(s\) will be created with this parameter.
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Passed through ABAP System
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Yes
 
@@ -146,7 +146,7 @@ Follow these steps to define your ABAP Solution.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     addon\_product\_name
 
@@ -155,28 +155,28 @@ Follow these steps to define your ABAP Solution.
 
     
     </td>
-    <td>
+    <td valign="top">
 
     string
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Registered name of the add-on product
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Passed through ABAP System \(saas\_oem plan\)
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     No
 
@@ -185,7 +185,7 @@ Follow these steps to define your ABAP Solution.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     addon\_product\_version
 
@@ -194,28 +194,28 @@ Follow these steps to define your ABAP Solution.
 
     
     </td>
-    <td>
+    <td valign="top">
 
     string
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Version of the add-on product to be installed
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Passed through ABAP System \(saas\_oem plan\)
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Yes \(updated value applies for new systems only\)
 
@@ -224,7 +224,7 @@ Follow these steps to define your ABAP Solution.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     consumer\_tenant\_limit
 
@@ -233,30 +233,30 @@ Follow these steps to define your ABAP Solution.
 
     
     </td>
-    <td>
+    <td valign="top">
 
     int
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
-    Maximum number of tenants in the multitenant ABAP system​. If the consumer tenant limit is exceeded, a new multitenant system will be created. ​
+    Maximum number of tenants in the multitenant ABAP system​. If the consumer tenant limit is exceeded, a new multitenant system will be created. ​The maximum value possible for the consumer\_tenant\_limit parameter is 798.
 
     **Note**: A recently deleted tenant will be counted towards the limit, in case it is restored during the grace period . After the 30-day grace period is up, it will no longer be considered for the limit. See [Consumer Offboarding](Consumer_Offboarding_c882a2a.md).
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Passed through ABAP System \(saas\_oem plan\)​
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Yes
 
@@ -265,35 +265,35 @@ Follow these steps to define your ABAP Solution.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     size\_of\_runtime
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     int
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Default sizing for solution
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Passed through to ABAP System
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Yes \(updated value applies for new systems only\)
 
@@ -302,35 +302,35 @@ Follow these steps to define your ABAP Solution.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     size\_of\_persistence
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     int
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Default sizing for solution
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Passed through to ABAP System
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Yes \(updated value applies for new systems only\)
 
@@ -339,14 +339,14 @@ Follow these steps to define your ABAP Solution.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     tenant\_mode
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     enum \(string\):
 
@@ -357,14 +357,14 @@ Follow these steps to define your ABAP Solution.
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Tenant Mode of the solution
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Decides whether a customer will have a tenant in
 
@@ -381,7 +381,7 @@ Follow these steps to define your ABAP Solution.
 
     
     </td>
-    <td>
+    <td valign="top">
 
     No
 
@@ -390,28 +390,28 @@ Follow these steps to define your ABAP Solution.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     consumer\_id\_pattern
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     string \(regex\)
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     String containing a regular expression with a capturing group. The **subdomain of the consumer** is matched against this regular expression. The value of the first capturing group is used as consumer id.
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     To allow the provider to group his consumer subaccounts based on an self choosen consumer identifier.
 
@@ -420,7 +420,7 @@ Follow these steps to define your ABAP Solution.
 
     
     </td>
-    <td>
+    <td valign="top">
 
     No
 
@@ -429,35 +429,35 @@ Follow these steps to define your ABAP Solution.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     provider\_admin\_email
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     email
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Email address of initial provider user
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Passed through to ABAP System \(saas\_oem plan\).
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Yes
 
@@ -466,7 +466,7 @@ Follow these steps to define your ABAP Solution.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     xs-security/xsappname
 
@@ -475,14 +475,14 @@ Follow these steps to define your ABAP Solution.
 
     
     </td>
-    <td>
+    <td valign="top">
 
     string
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     xsappname used for the OAuth clone during instance creation. Will be visible in the security section of SAP BTP Cockpit when assigning the initial onboarder role. Will be the "Application Name" shown in the Roles UI.
 
@@ -493,14 +493,14 @@ Follow these steps to define your ABAP Solution.
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Allows providing a meaningful application name to assign the onboarding roles.
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     No
 
@@ -509,14 +509,14 @@ Follow these steps to define your ABAP Solution.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     usage
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     enum \(string\):
 
@@ -527,21 +527,21 @@ Follow these steps to define your ABAP Solution.
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Specifies whether it is a test or production solution.
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Will be passed on to the Landscape Portal during the onboarding request and is used to determine the right tenant role code
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     No
 
@@ -559,6 +559,7 @@ Follow these steps to define your ABAP Solution.
     1.  Log into your subaccount in the SAP BTP cockpit, then go into your space by navigating to *Cloud Foundry* \> *Spaces* and selecting your space.
     2.  Navigate to *Services* \> *Service Marketplace* and click on the tile *ABAP Solution*.
     3.  Go to *Instances* and click *New Instance*. Specify your parameters in JSON format and save your changes.
+
 
 
 

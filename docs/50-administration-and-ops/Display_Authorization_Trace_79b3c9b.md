@@ -27,14 +27,14 @@ The following authorization check statuses are possible:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Status
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Meaning
 
@@ -43,14 +43,14 @@ Meaning
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Successful
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The authorization check was successful.
 
@@ -59,14 +59,14 @@ The authorization check was successful.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Failed
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The authorization check failed.
 
@@ -75,14 +75,14 @@ The authorization check failed.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Filtered
 
 
 
 </td>
-<td>
+<td valign="top">
 
 When reading an object, an authorization check is taking place and certain data is filtered out defined by a DCL \(Data Control Language\).
 

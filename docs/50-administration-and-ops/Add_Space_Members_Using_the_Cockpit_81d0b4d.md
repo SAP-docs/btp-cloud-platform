@@ -1,5 +1,7 @@
 <!-- loio81d0b4dcfbc84016b6b3c1465d4272f4 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Add Space Members Using the Cockpit
 
 You can add space members and assign roles to them at the space level in the cockpit.
@@ -54,7 +56,7 @@ If you’re the Org Manager, you don’t need to first add the users as org memb
 
 5.  Feature Set A: Choose the *Origin*.
 
-    If you want to use a custom user base, choose *Other* for *Origin* and then enter the corresponding Identity Authentication tenant name. For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](Establish_Trust_and_Federation_of_Custom_Identity_Providers_for_Platform_Users_in_Multi-Environment_Subaccounts_Feature_Set_A_8600afb.md).
+    If you want to use a custom user base, choose *Other* for *Origin* and then enter the corresponding Identity Authentication tenant name. For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](Establish_Trust_and_Federation_of_Custom_Identity_Providers_8600afb.md).
 
 6.  Select the roles for the users and save your changes.
 
@@ -67,8 +69,8 @@ If you’re the Org Manager, you don’t need to first add the users as org memb
 
 You also have the following options:
 
--   To select or unselect roles for a member, choose   \(Edit\) . The changes you make to the roles of a member take effect immediately.
--   To remove all the roles of a member, choose    . This removes the member from the space.
+-   To select or unselect roles for a member, choose <span class="SAP-icons"></span> \(Edit\). The changes you make to the roles of a member take effect immediately.
+-   To remove all the roles of a member, choose <span class="SAP-icons"></span>. This removes the member from the space.
 
 **Related Information**  
 

@@ -23,11 +23,13 @@ Interface `IF_BALI_LOG_FILTER` contains the following methods to set the filter 
 
     -   Select a table of external identifiers \(wildcards allowed\)
 
+
 -   SET\_CREATE\_INFO: Set a filter for the attribute which identifies the creator of the log. It offers the following parameters:
 
     -   Select a single user \(wildcards allowed\)
 
     -   Select a table of users \(wildcards allowed\)
+
 
 -   SET\_TIME\_INTERVAL: Set a time interval for the creation date and time of the log. The start and end time of the interval are set using UTC time stamps.
 

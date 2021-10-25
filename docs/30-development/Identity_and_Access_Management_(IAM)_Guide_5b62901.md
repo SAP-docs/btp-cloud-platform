@@ -37,15 +37,3 @@ The guide outlines the following main scenarios how you can implement and provid
 
 OData services that you develop using ADT can also be consumed in SAP Fiori applications \(developed using the Business Application Studio\). In this guide, you also learn how to provide access to an SAP Fiori application that consumes a business service.
 
--   **[Authorization Basics](Authorization_Basics_3461653.md "If you haven’t worked with an ABAP system before, you might find this introduction to the basic authorization concepts useful before you
-		proceed.")**  
-If you haven’t worked with an ABAP system before, you might find this introduction to the basic authorization concepts useful before you proceed.
--   **[Example: Authorizations for a Bonus Calculation Service](Example_Authorizations_for_a_Bonus_Calculation_Service_825942f.md "Let’s assume that you have a bonus calculation service, which, in the example used here, is represented by an active service binding. You
-		want to model authorizations for this service. ")**  
-Let’s assume that you have a bonus calculation service, which, in the example used here, is represented by an active service binding. You want to model authorizations for this service.
--   **[Providing Access to a Business Service](Providing_Access_to_a_Business_Service_ab87ca2.md "For business and communication users, you must provide access to a newly created service because access isn’t automatically
-		available.")**  
-For business and communication users, you must provide access to a newly created service because access isn’t automatically available.
--   **[Troubleshooting](Troubleshooting_4bc934b.md "Learn more about apps and tools that help you identify and solve authorization issues.")**  
-Learn more about apps and tools that help you identify and solve authorization issues.
-

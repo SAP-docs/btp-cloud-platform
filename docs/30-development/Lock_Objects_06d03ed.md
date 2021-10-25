@@ -17,11 +17,13 @@ Since the direct usage of these function modules is not permitted, the function 
 
     -   Release all locks of the current LUW using method `DEQUEUE_ALL`
 
+
 -   Use the created lock object instance to do the following:
 
     -   Set a lock using method `ENQUEUE`
 
     -   Release a lock using method `DEQUEUE`
+
 
 
 For more information, see the ABAP Doc comments of class `CL_ABAP_LOCK_OBJECT_FACTORY` and interface`IF_ABAP_LOCK_OBJECT`. The interface`IF_ABAP_LOCK_OBJECT` also contains constants to be used for parameterization of lock methods.

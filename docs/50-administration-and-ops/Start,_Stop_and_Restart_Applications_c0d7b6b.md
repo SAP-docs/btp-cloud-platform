@@ -1,5 +1,7 @@
 <!-- loioc0d7b6b288084495958a50627ad02c5f -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Start, Stop and Restart Applications
 
 You can start and stop applications in the Cloud Foundry environment to control whether they can be accessed by end users.
@@ -31,14 +33,14 @@ The first start of the application occurs when you deploy the app, if enough quo
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Page
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Actions
 
@@ -47,20 +49,21 @@ The first start of the application occurs when you deploy the app, if enough quo
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Applications* page**
+    *Applications* page
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     For the application that you'd like to start or stop, choose the respective icon from the *Actions* column:
 
-    -       \(*Start*\) - This starts the first instance of your application and makes it available to users.
+    -   <span style="color:#346187;"><span class="SAP-icons"></span></span> \(*Start*\) - This starts the first instance of your application and makes it available to users.
 
-    -       \(*Stop*\) - This stops all running instances of the application.
+    -   <span style="color:#346187;"><span class="SAP-icons"></span></span> \(*Stop*\) - This stops all running instances of the application.
+
 
     You cannot directly restart an application from this page.
 
@@ -72,14 +75,14 @@ The first start of the application occurs when you deploy the app, if enough quo
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Overview* page of your application**
+    *Overview* page of your application
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Choose the button corresponding to the desired action:
 
@@ -88,6 +91,7 @@ The first start of the application occurs when you deploy the app, if enough quo
     -   *Stop* - This stops all running instances of the application.
 
     -   *Restart* - This restarts the application.
+
 
     > ### Note:  
     > The Cloud Foundry restage action cannot be peformed from the cockpit. If you'd like to restage your application, you must use the CF CLI.

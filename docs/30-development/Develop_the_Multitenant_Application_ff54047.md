@@ -85,6 +85,7 @@ When developing tenant-aware applications in the Cloud Foundry environment, keep
         > ]
         > ```
 
+
     For more information about the subscription callbacks and dependencies, see [Register the Multitenant Application to the SAP SaaS Provisioning Service](Register_the_Multitenant_Application_to_the_SAP_SaaS_Provisioning_Service_3971151.md).
 
 3.  Configure the application's authentication and authorization for the SAP HANA XS advanced Java run time.
@@ -104,6 +105,7 @@ When developing tenant-aware applications in the Cloud Foundry environment, keep
         ```
         "grant-as-authority-to-apps" : [ "$XSAPPNAME(application,sap-provisioning,tenant-onboarding)"]
         ```
+
 
     > ### Sample Code:  
     > Security descriptor file in JSON format:
@@ -137,14 +139,14 @@ When developing tenant-aware applications in the Cloud Foundry environment, keep
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Parameter
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Description
 
@@ -153,14 +155,14 @@ When developing tenant-aware applications in the Cloud Foundry environment, keep
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `XSUAA_INSTANCE_NAME`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The new name for the `xsuaa` service instance. Use only alphanumeric characters, hyphens, and underscores.
 
@@ -169,14 +171,14 @@ When developing tenant-aware applications in the Cloud Foundry environment, keep
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `<XS_SECURITY_JSON>`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Name of the security descriptor file from the previous step.
 

@@ -19,7 +19,7 @@ You can use the Cloud Foundry Command Line Interface \(cf CLI\) to add space mem
 
 ## Context
 
-When you logged on with a platform user in a custom platform identity provider using the Cloud Foundry Command Line Interface, you can't use the ***--origin*** option. This isn't possible with the current version of the Cloud Foundry Command Line Interface \(cf CLI\). For more information, see [Supported Tools and Services When Using Custom Identity Providers for Platform Users\[Feature Set A\]](Supported_Tools_and_Services_When_Using_Custom_Identity_Providers_for_Platform_UsersFeature_Set_A_94ef515.md).
+When you logged on with a platform user in a custom platform identity provider using the Cloud Foundry Command Line Interface, you can't use the ***--origin*** option. This isn't possible with the current version of the Cloud Foundry Command Line Interface \(cf CLI\). For more information, see [Supported Tools and Services When Using Custom Identity Providers for Platform Users\[Feature Set A\]](Supported_Tools_and_Services_When_Using_Custom_Identity_Providers_94ef515.md).
 
 
 

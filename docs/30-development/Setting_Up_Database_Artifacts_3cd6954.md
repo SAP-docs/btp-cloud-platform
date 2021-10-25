@@ -15,7 +15,3 @@ We recommend using SAP HANA Cloud when following a multitarget application \(MTA
 
 To find out more about the tools, data modeling strategy, and development scenarios, see [Developing SAP HANA in the Cloud Foundry Environment](Developing_SAP_HANA_in_the_Cloud_Foundry_Environment_14224d7.md#loio14224d75f6c64b499d189e3ebd131ec2).
 
--   **[Developing SAP HANA in the Cloud Foundry Environment](Developing_SAP_HANA_in_the_Cloud_Foundry_Environment_14224d7.md#loio14224d75f6c64b499d189e3ebd131ec2 "Find here selected information for SAP HANA database development and references to more
-		detailed sources.")**  
-Find here selected information for SAP HANA database development and references to more detailed sources.
-

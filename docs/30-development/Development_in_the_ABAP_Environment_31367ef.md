@@ -54,24 +54,6 @@ With your ABAP applications, you can **consume**:
 
 [Working with abapGit](Working_with_abapGit_d62ed9d.md)
 
--   **[Getting Started as a Developer in the ABAP Environment](Getting_Started_as_a_Developer_in_the_ABAP_Environment_7bf1d7c.md "Learn about your first steps to get started as a developer in the ABAP
-                                environment.")**  
-Learn about your first steps to get started as a developer in the ABAP environment.
--   **[ABAP Development User Guides](ABAP_Development_User_Guides_40bae48.md "Get an overview of the ABAP development user guides.")**  
-Get an overview of the ABAP development user guides.
--   **[ABAP Keyword Documentation](ABAP_Keyword_Documentation_1632c79.md "The ABAP keyword documentation describes the syntax and meaning of the keywords of the
-		ABAP language and its object-oriented part – ABAP objects.")**  
-The ABAP keyword documentation describes the syntax and meaning of the keywords of the ABAP language and its object-oriented part – ABAP objects.
--   **[ABAP RESTful Application Programming Model](ABAP_RESTful_Application_Programming_Model_33a301e.md "")**  
-
--   **[ABAP Lifecycle Management](ABAP_Lifecycle_Management_5c7b17d.md "")**  
-
--   **[Identity and Access Management \(IAM\) Guide](Identity_and_Access_Management_(IAM)_Guide_5b62901.md "This guide introduces you to the basic concepts and procedures for defining authorizations for business services that you create in the
-		ABAP environment. You also learn to provide access to a Fiori application based on a business service.")**  
-This guide introduces you to the basic concepts and procedures for defining authorizations for business services that you create in the ABAP environment. You also learn to provide access to a Fiori application based on a business service.
--   **[Multitenancy in the ABAP Environment](Multitenancy_in_the_ABAP_Environment_633cc61.md)**  
-
-
 **Related Information**  
 
 

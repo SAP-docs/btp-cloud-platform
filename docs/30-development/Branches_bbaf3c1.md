@@ -19,14 +19,14 @@
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 HTTP Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Operation
 
@@ -35,14 +35,14 @@ Operation
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 GET
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Read Branches](Read_Branches_e8e40c2.md)
 
@@ -51,14 +51,14 @@ GET
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 POST
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Create Branch](Create_Branch_a9ce22e.md)
 
@@ -67,14 +67,14 @@ POST
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DELETE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Delete Branches](Delete_Branches_425717b.md)
 
@@ -93,28 +93,28 @@ DELETE
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 HTTP Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Operation Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Operation
 
 
 
 </th>
-<th>
+<th valign="top">
 
 URI
 
@@ -123,28 +123,28 @@ URI
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 POST
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Action
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Checkout Branches](Checkout_Branches_069b979.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 /sap/opu/odata/sap/MANAGE\_GIT\_REPOSITORY/checkout\_branch
 
@@ -163,14 +163,14 @@ Action
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -179,14 +179,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 branch\_name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 name of the branch
 
@@ -195,14 +195,14 @@ name of the branch
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 sc\_name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 name of the software component
 
@@ -211,14 +211,14 @@ name of the software component
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 is\_active
 
 
 
 </td>
-<td>
+<td valign="top">
 
 indicates if the branch is active in the system
 
@@ -227,28 +227,28 @@ indicates if the branch is active in the system
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 critivality
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 derived\_from
 
 
 
 </td>
-<td>
+<td valign="top">
 
 name of the original branch from which the branch was derived
 
@@ -257,14 +257,14 @@ name of the original branch from which the branch was derived
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 created\_by
 
 
 
 </td>
-<td>
+<td valign="top">
 
 user who created the branch
 
@@ -273,14 +273,14 @@ user who created the branch
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 created\_on
 
 
 
 </td>
-<td>
+<td valign="top">
 
 date when the branch was created
 
@@ -289,14 +289,14 @@ date when the branch was created
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 commit\_id
 
 
 
 </td>
-<td>
+<td valign="top">
 
 latest commit ID on the branch
 
@@ -305,14 +305,14 @@ latest commit ID on the branch
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 commit\_message
 
 
 
 </td>
-<td>
+<td valign="top">
 
 commit message of the latest commit
 
@@ -321,14 +321,14 @@ commit message of the latest commit
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 last\_commit\_by
 
 
 
 </td>
-<td>
+<td valign="top">
 
 user who commited the last commit
 
@@ -337,14 +337,14 @@ user who commited the last commit
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 last\_commit\_on
 
 
 
 </td>
-<td>
+<td valign="top">
 
 date of the latest commit
 
@@ -353,13 +353,4 @@ date of the latest commit
 </td>
 </tr>
 </table>
-
--   **[Read Branches](Read_Branches_e8e40c2.md "")**  
-
--   **[Create Branch](Create_Branch_a9ce22e.md "")**  
-
--   **[Delete Branches](Delete_Branches_425717b.md "")**  
-
--   **[Checkout Branches](Checkout_Branches_069b979.md "")**  
-
 

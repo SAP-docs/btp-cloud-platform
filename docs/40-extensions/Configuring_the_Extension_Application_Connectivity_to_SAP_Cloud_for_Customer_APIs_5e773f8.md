@@ -15,17 +15,6 @@ These are the steps you need to follow:
 3.  [Create and Configure the HTTP Destination](Create_and_Configure_the_HTTP_Destination_21e50d8.md)
 
 
--   **[Configure OAuth Identity Provider in SAP Cloud for Customer](Configure_OAuth_Identity_Provider_in_SAP_Cloud_for_Customer_40d20a2.md "You need to add the SAP BTP service provider
-		as a trusted OAuth identity provider.")**  
-You need to add the SAP BTP service provider as a trusted OAuth identity provider.
--   **[Configure the OAuth Client for OData Access](Configure_the_OAuth_Client_for_OData_Access_2c9c02d.md "In SAP Cloud for Customer, use this procedure to configure the OAuth
-		client for OData access to SAP Cloud for
-                            Customer OData
-		APIs.")**  
-In SAP Cloud for Customer, use this procedure to configure the OAuth client for OData access to SAP Cloud for Customer OData APIs.
--   **[Create and Configure the HTTP Destination](Create_and_Configure_the_HTTP_Destination_21e50d8.md "")**  
-
-
 **Related Information**  
 
 

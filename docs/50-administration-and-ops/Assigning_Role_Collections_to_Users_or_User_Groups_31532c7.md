@@ -23,6 +23,7 @@ You can assign role collections to users and user groups.
 
 
 
+
 You perform the following tasks to assign role collections to users and user groups stored by identity providers. The identity providers are connected to SAP BTP using trust configurations.
 
 > ### Note:  
@@ -36,17 +37,4 @@ You perform the following tasks to assign role collections to users and user gro
 
 -   [Delete User Groups from Role Collections](Delete_User_Groups_from_Role_Collections_bcc818a.md)
 
-
--   **[Assign Users to Role Collections](Assign_Users_to_Role_Collections_c576676.md "You can assign users to a role collection by adding them to the role
-		collection.")**  
-You can assign users to a role collection by adding them to the role collection.
--   **[Delete Users from Role Collections](Delete_Users_from_Role_Collections_4f8a242.md "You can unassign users from a role collection by deleting them from the role
-		collection.")**  
-You can unassign users from a role collection by deleting them from the role collection.
--   **[Assign User Groups to Role Collections](Assign_User_Groups_to_Role_Collections_9562d9d.md "You can assign users groups to a role collection by adding them to the role
-		collection.")**  
-You can assign users groups to a role collection by adding them to the role collection.
--   **[Delete User Groups from Role Collections](Delete_User_Groups_from_Role_Collections_bcc818a.md "You can unassign users groups from a role collection by deleting them from the role
-		collection.")**  
-You can unassign users groups from a role collection by deleting them from the role collection.
 

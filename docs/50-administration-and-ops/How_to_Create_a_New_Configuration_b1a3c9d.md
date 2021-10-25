@@ -1,5 +1,7 @@
 <!-- loiob1a3c9df868e416097a3c146859724df -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # How to Create a New Configuration
 
 You can define what to log by creating your own read access logging configuration or modifying a template delivered by SAP.
@@ -22,17 +24,20 @@ You can define what to log by creating your own read access logging configuratio
 
     -   To copy a configuration from SAP, do the following.
 
+
     1.  Under *Search Criteria*, filter with **Owner** is **SAP Template**.
+
 
     1.  From the search results, select a template from SAP.
 
-        Templates from SAP use the   \(SAP\)  icon under *Owner*.
+        Templates from SAP use the <span class="SAP-icons"></span> \(SAP\) icon under *Owner*.
 
-    2.  Under *Actions*, choose   \(Copy\) .
+    2.  Under *Actions*, choose <span class="SAP-icons"></span> \(Copy\).
 
         For channels that use recordings, copy the recording that comes with the template under the same name or enter a new name.
 
-    3.  Find the channel you just copied and choose   \(Edit Configuration\) .
+    3.  Find the channel you just copied and choose <span class="SAP-icons"></span> \(Edit Configuration\).
+
 
 4.  Depending on the channel, select the object you want to create a configuration for.
 
@@ -45,12 +50,13 @@ You can define what to log by creating your own read access logging configuratio
     -   For Dynpro, choose *Application / Software Component*.
 
     -   For Dynpro and Web Dynpro, specify a *Log Context*.
+
 6.  Create log groups.
 
     > ### Note:  
     > For a logging purpose, only create one logging group.
 
-    1.  Under *Log Groups*, choose   \(Create Log Group\) .
+    1.  Under *Log Groups*, choose <span class="SAP-icons"></span> \(Create Log Group\).
 
     2.  Specify a logging purpose and a description for the log group.
 
@@ -71,12 +77,14 @@ You can define what to log by creating your own read access logging configuratio
 
         -   For Dynpro and Web Dynpro, specify the *Field Type*, which is whether an input field, an output \(display\) field, or both.
 
+
         > ### Note:  
         > Values for password fields cannot be included in logs. The*Logging Type* is *Without Value* and cannot be changed.
 
+
 7.  Create conditions.
 
-    1.  Under *Conditions* choose   \(Create Condition\) .
+    1.  Under *Conditions* choose <span class="SAP-icons"></span> \(Create Condition\).
 
         If you do not assign any conditions, select the *Without Condition* checkbox in the log group attributes and continue with the next step.
 
@@ -100,7 +108,8 @@ You can define what to log by creating your own read access logging configuratio
 
         To assign a condition, select the Log Group, choose *Assign Condition* and select a condition. Activate the assignment if you want to apply the condition to the log group. The log groups and conditions do not need to be activated, however.
 
-8.  To check the configuration for consistency and function: choose   \(Check Configuration\)  *Check*.
+
+8.  To check the configuration for consistency and function: choose <span class="SAP-icons"></span> \(Check Configuration\) *Check*.
 
 9.  Save your entries.
 

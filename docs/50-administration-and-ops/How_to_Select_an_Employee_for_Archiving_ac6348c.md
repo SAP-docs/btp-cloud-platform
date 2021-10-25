@@ -1,5 +1,7 @@
 <!-- loioac6348cd353e4ff39d73e7e2f56f5ec5 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # How to Select an Employee for Archiving
 
 
@@ -15,7 +17,7 @@ You can't delete an employee in the *Maintain Employees* app. You can only selec
 
 The employee consists of a business partner in the role category `BUP003` \(Employee\), a workplace address, and a user. An employee cannot be deleted immediately and in one step for business process reasons. If you need to permanently delete an employee, you have to delete the user first. Afterwards, you're able to delete the business partner, which also contains the workplace address. Therefore, to physically delete an employee you need to refer to your Information Lifecycle Management \(ILM\) apps.
 
-In the *Maintain Employees* app, the *Select for Archiving* filter is set to *No* by default. This means, only employees that are not selected for archiving are displayed. Choose the arrow icon    to expand the header and see all filter options. If you want to see employees that are selected for archiving choose *Yes* from the dropdown and *Go*. To see both, select the empty field from the dropdown.
+In the *Maintain Employees* app, the *Select for Archiving* filter is set to *No* by default. This means, only employees that are not selected for archiving are displayed. Choose the arrow icon<span class="SAP-icons"></span> to expand the header and see all filter options. If you want to see employees that are selected for archiving choose *Yes* from the dropdown and *Go*. To see both, select the empty field from the dropdown.
 
 This is how you can select an employee for archiving:
 

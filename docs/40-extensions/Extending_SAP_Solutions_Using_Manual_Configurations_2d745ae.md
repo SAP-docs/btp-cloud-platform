@@ -37,16 +37,3 @@ Using manual configurations, you can extend the following SAP solutions on SAP B
 -   SAP Cloud for Customer. See [Extending SAP Cloud for Customer in the Cloud Foundry Environment Manually](Extending_SAP_Cloud_for_Customer_in_the_Cloud_Foundry_Environment_Manually_1150e43.md).
 
 
--   **[Extending SAP S/4HANA Cloud in the Cloud Foundry Environment Manually](Extending_SAP_S4HANA_Cloud_in_the_Cloud_Foundry_Environment_Manually_6b9c4be.md "")**  
-
--   **[Extending SAP SuccessFactors in the Cloud Foundry Environment Manually](Extending_SAP_SuccessFactors_in_the_Cloud_Foundry_Environment_Manually_0f0d3ae.md "This section guides you through the configuration tasks that you need to perform to
-		enable the SAP BTP, Cloud
-		Foundry environment for developing extension applications for your SAP SuccessFactors
-		system.")**  
-This section guides you through the configuration tasks that you need to perform to enable the SAP BTP, Cloud Foundry environment for developing extension applications for your SAP SuccessFactors system.
--   **[Extending SAP Cloud for Customer in the Cloud Foundry Environment Manually](Extending_SAP_Cloud_for_Customer_in_the_Cloud_Foundry_Environment_Manually_1150e43.md "This section guides you through the configuration tasks that you need to perform to
-		enable the SAP BTP, Cloud Foundry environment for developing
-		extension applications for your SAP Cloud for
-                            Customer system. ")**  
-This section guides you through the configuration tasks that you need to perform to enable the SAP BTP, Cloud Foundry environment for developing extension applications for your SAP Cloud for Customer system.
-

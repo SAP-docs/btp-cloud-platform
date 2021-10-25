@@ -31,35 +31,35 @@ This process can also be used for deferrable corrections, which do not need to r
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Step
 
 
 
 </th>
-<th>
+<th valign="top">
 
 System
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Role
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Tool
 
@@ -68,35 +68,35 @@ Tool
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 0
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 At Go Live only: Create the software component and pull it initially
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage Software Components app
 
@@ -105,35 +105,35 @@ Manage Software Components app
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Developer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Develop new functionality or a deferrable correction. All changes are collected in transport requests
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ADT for Eclipse
 
@@ -142,35 +142,35 @@ ADT for Eclipse
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release the transport request. The changes are now in the release branch YYYY-<nn\>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ADT for Eclipse: Transport Organizer
 
@@ -179,35 +179,35 @@ ADT for Eclipse: Transport Organizer
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 3
 
 
 
 </td>
-<td>
+<td valign="top">
 
 QAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Check out main branch/at Go Live: pull software component into QAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage Software Components app
 
@@ -216,35 +216,35 @@ Manage Software Components app
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 4
 
 
 
 </td>
-<td>
+<td valign="top">
 
 QAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Test the change and report test result
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ADT for Eclipse and custom SAP Fiori apps & External test tools
 
@@ -255,35 +255,35 @@ External documentation tool
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If changes are required, repeat steps 1-4
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -292,35 +292,35 @@ If changes are required, repeat steps 1-4
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 5
 
 
 
 </td>
-<td>
+<td valign="top">
 
 QAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release decision: the changes are successfully tested and approved
 
 
 
 </td>
-<td>
+<td valign="top">
 
 External documentation tool
 
@@ -329,35 +329,35 @@ External documentation tool
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 6
 
 
 
 </td>
-<td>
+<td valign="top">
 
 QAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create a release branch YYYY-<nn+1\> \(at Go Live: YYYY-01\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage Software Components app
 
@@ -366,35 +366,35 @@ Manage Software Components app
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 7
 
 
 
 </td>
-<td>
+<td valign="top">
 
 QAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Check out the new release branch YYYY-<nn+1\> \(@Go Live: YYYY-01\) into QAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage Software Components app
 
@@ -403,35 +403,35 @@ Manage Software Components app
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 8
 
 
 
 </td>
-<td>
+<td valign="top">
 
 PRD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Check out the new release branch YYYY-<nn+1\> \(at Go Live: YYYY-01\) into PRD
 
 
 
 </td>
-<td>
+<td valign="top">
 
  app
 
@@ -455,35 +455,35 @@ This process differs from the previous one in the branch it is developed in. As 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Step
 
 
 
 </th>
-<th>
+<th valign="top">
 
 System
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Role
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Tool
 
@@ -492,35 +492,35 @@ Tool
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Check out the release branch YYYY-<nn\>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage Software Components app
 
@@ -529,35 +529,35 @@ Manage Software Components app
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Developer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Fix existing functionality. All changes are collected in transport requests
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ADT for Eclipse
 
@@ -566,35 +566,35 @@ ADT for Eclipse
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 3
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release the transport request. The changes are now in the main branch
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ADT: Transport Organizer
 
@@ -603,35 +603,35 @@ ADT: Transport Organizer
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 4
 
 
 
 </td>
-<td>
+<td valign="top">
 
 QAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Pull the software component to get correction into already checked out release branch YYYY-<nn\>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage Software Components app
 
@@ -640,35 +640,35 @@ Manage Software Components app
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 5
 
 
 
 </td>
-<td>
+<td valign="top">
 
 QAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Tester
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Test the change and report the test result
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ADT for Eclipse and custom SAP Fiori apps as well as external test tools
 
@@ -679,35 +679,35 @@ External documentation tool
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If changes are required, repeat steps 2-5
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -716,35 +716,35 @@ If changes are required, repeat steps 2-5
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 6
 
 
 
 </td>
-<td>
+<td valign="top">
 
 QAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Fix is successfully tested and approved
 
 
 
 </td>
-<td>
+<td valign="top">
 
 External documentation tool
 
@@ -753,35 +753,35 @@ External documentation tool
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 7
 
 
 
 </td>
-<td>
+<td valign="top">
 
 PRD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Pull the software component to get correction into already checked out release branch YYYY-<nn\>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage Software Components app
 
@@ -790,35 +790,35 @@ Manage Software Components app
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 8
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Release Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Check out the main branch in DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage Software Components app
 
@@ -827,35 +827,35 @@ Manage Software Components app
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 9
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Developer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Perform the same changes as for the correction in the main branch and release them
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ADT for Eclipse
 

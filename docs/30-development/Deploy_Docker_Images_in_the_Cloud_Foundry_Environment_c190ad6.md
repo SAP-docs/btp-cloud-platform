@@ -1,5 +1,7 @@
 <!-- loioc190ad6eeb78428c91a2b66e5557f962 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Deploy Docker Images in the Cloud Foundry Environment
 
 The high-level steps to application deployment using Docker images.
@@ -35,14 +37,14 @@ Here are some features of the Cloud Foundry environment you have to implement yo
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Supported with SAP Java buildpack
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -51,14 +53,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Dynatrace
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enable applications for Dynatrace based monitoring.
 
@@ -67,14 +69,14 @@ Enable applications for Dynatrace based monitoring.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 XSUAA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Automatic validation of OAuth token and mapping of OAuth scopes to JEE roles, if `auth-method` is set to XSUAA in `web.xml`.
 
@@ -83,14 +85,14 @@ Automatic validation of OAuth token and mapping of OAuth scopes to JEE roles, if
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Dynamic Logging
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Set of log level via CLI without restart.
 
@@ -99,14 +101,14 @@ Set of log level via CLI without restart.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Switch to debug via CLI
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -115,14 +117,14 @@ Switch to debug via CLI
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OS & JVM management
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Consume newer versions \(especially patches\) of the underlying OS and JVM regularly..
 
@@ -173,5 +175,5 @@ Consume newer versions \(especially patches\) of the underlying OS and JVM regul
 
 ## Results
 
-Was this topic helpful? Did you miss something? Let us know and use the feedback function   \(feedback\). 
+Was this topic helpful? Did you miss something? Let us know and use the feedback function <span class="SAP-icons"></span> \(feedback\).
 

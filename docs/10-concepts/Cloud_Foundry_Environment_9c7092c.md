@@ -19,11 +19,11 @@ For more information about Cloud Foundry, see the official Cloud Foundry documen
 
 [Administration and Operations in the Cloud Foundry Environment](../50-administration-and-ops/Administration_and_Operations_in_the_Cloud_Foundry_Environment_a6b3b81.md "Learn about the different account administration and application operation tasks which you can perform in the Cloud Foundry environment.")
 
- <a name="loio9c7092c7b7ae4d49bc8ae35fdd0e0b18 loiof8a351c8d81544a2942c911dccaba3c7__loiof8a351c8d81544a2942c911dccaba3c7"/>
+ <a name="loiof8a351c8d81544a2942c911dccaba3c7"/>
 
 <!-- loiof8a351c8d81544a2942c911dccaba3c7 -->
 
-# Supported and Unsupported Cloud Foundry Features
+## Supported and Unsupported Cloud Foundry Features
 
 Find out which Cloud Foundry features the Cloud Foundry environment on SAP BTP supports and doesn't support.
 
@@ -32,14 +32,14 @@ Find out which Cloud Foundry features the Cloud Foundry environment on SAP BTP s
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Supported Features
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Unsupported Features
 
@@ -48,7 +48,7 @@ Unsupported Features
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 -   Diego runtime. See [https://docs.cloudfoundry.org/concepts/diego/diego-architecture.html](https://docs.cloudfoundry.org/concepts/diego/diego-architecture.html).
 
@@ -65,7 +65,7 @@ Unsupported Features
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Container-to-Container Networking. See [https://docs.cloudfoundry.org/concepts/understand-cf-networking.html](https://docs.cloudfoundry.org/concepts/understand-cf-networking.html) .
 
@@ -78,11 +78,11 @@ Unsupported Features
 </tr>
 </table>
 
- <a name="loio9c7092c7b7ae4d49bc8ae35fdd0e0b18 loio9809fa4f02cb4696baea5c23d6eaac94__loio9809fa4f02cb4696baea5c23d6eaac94"/>
+ <a name="loio9809fa4f02cb4696baea5c23d6eaac94"/>
 
 <!-- loio9809fa4f02cb4696baea5c23d6eaac94 -->
 
-# SAP BTP-Specific Configurations
+## SAP BTP-Specific Configurations
 
 
 
@@ -111,17 +111,17 @@ The following technical configurations are specific to SAP BTP and differ from t
 -   In the Cloud Foundry environment, the SAP HANA database supports up to 1,000 simultaneous connections per database.
 
 
- <a name="loio9c7092c7b7ae4d49bc8ae35fdd0e0b18 loiob6a7e11c3a58416a9ab1175bba17193a__loiob6a7e11c3a58416a9ab1175bba17193a"/>
+ <a name="loiob6a7e11c3a58416a9ab1175bba17193a"/>
 
 <!-- loiob6a7e11c3a58416a9ab1175bba17193a -->
 
-# Availability Zones in the Cloud Foundry Environment
+## Availability Zones in the Cloud Foundry Environment
 
 The Cloud Foundry environment follows the recommendations of our partner IaaS providers by leveraging the availability zones \(AZ\) concept.
 
 
 
-<a name="loio9c7092c7b7ae4d49bc8ae35fdd0e0b18 loiob6a7e11c3a58416a9ab1175bba17193a__section_nty_twt_wjb"/>
+<a name="loiob6a7e11c3a58416a9ab1175bba17193a__section_nty_twt_wjb"/>
 
 ## About Availability Zones
 
@@ -129,7 +129,7 @@ The Cloud Foundry environment follows the recommendations of our partner IaaS pr
 
    
   
-<a name="loio9c7092c7b7ae4d49bc8ae35fdd0e0b18 loiob6a7e11c3a58416a9ab1175bba17193a__fig_tzn_zvs_mmb"/>2-AZ and 3-AZ Deployments
+<a name="loiob6a7e11c3a58416a9ab1175bba17193a__fig_tzn_zvs_mmb"/>2-AZ and 3-AZ Deployments
 
  ![](images/Availability_Zone_af5d046.png "2-AZ and 3-AZ Deployments") 
 
@@ -137,7 +137,7 @@ To achieve better fault-tolerance, our partners recommend deploying services acr
 
 
 
-<a name="loio9c7092c7b7ae4d49bc8ae35fdd0e0b18 loiob6a7e11c3a58416a9ab1175bba17193a__section_av2_yvs_mmb"/>
+<a name="loiob6a7e11c3a58416a9ab1175bba17193a__section_av2_yvs_mmb"/>
 
 ## High Availability at Platform and Application Level
 
@@ -149,6 +149,7 @@ The SAP BTP Cloud Foundry environment follows these recommendations to support h
 
     -   The technology that manages the deployment of the Cloud Foundry environment monitors the health of the platform. If there are infrastructure failures, it re-creates the faulty components.
 
+
 -   **Health monitoring of application instances:**
 
     -   Cloud Foundry is constantly monitoring the health state of application instances and restarts instances that are considered unhealthy. See also [Using App Health Checks](https://docs.cloudfoundry.org/devguide/deploy-apps/healthchecks.html).
@@ -157,11 +158,12 @@ The SAP BTP Cloud Foundry environment follows these recommendations to support h
 
     -   The scheduler takes care of distributing the different instances of one application on virtual machines in different AZs.
 
- <a name="loio9c7092c7b7ae4d49bc8ae35fdd0e0b18 loio1c6cba872ce24f2ba24f53feb6dbce6d__loio1c6cba872ce24f2ba24f53feb6dbce6d"/>
+
+ <a name="loio1c6cba872ce24f2ba24f53feb6dbce6d"/>
 
 <!-- loio1c6cba872ce24f2ba24f53feb6dbce6d -->
 
-# Additional Information About Cloud Foundry
+## Additional Information About Cloud Foundry
 
 Links to additional information about Cloud Foundry that is useful to know but not necessarily directly connected to the SAP BTP, Cloud Foundry environment.
 
@@ -170,14 +172,14 @@ Links to additional information about Cloud Foundry that is useful to know but n
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Content
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Location
 
@@ -186,14 +188,14 @@ Location
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 BOSH
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [http://bosh.cloudfoundry.org](http://bosh.cloudfoundry.org) 
 
@@ -202,14 +204,14 @@ BOSH
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 BOSH documentation
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [http://bosh.io/docs](http://bosh.io/docs) 
 
@@ -218,14 +220,14 @@ BOSH documentation
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Buildpacks
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [http://docs.cloudfoundry.org/buildpacks](http://docs.cloudfoundry.org/buildpacks) 
 
@@ -234,14 +236,14 @@ Buildpacks
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Components of Cloud Foundry 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [http://docs.cloudfoundry.org/concepts/architecture/](http://docs.cloudfoundry.org/concepts/architecture/) 
 
@@ -250,14 +252,14 @@ Components of Cloud Foundry
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Cloud Foundry Concepts
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [http://docs.cloudfoundry.org/concepts/](http://docs.cloudfoundry.org/concepts/) 
 
@@ -266,14 +268,14 @@ Components of Cloud Foundry
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Deployment of Cloud Foundry 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [http://docs.cloudfoundry.org/deploying](http://docs.cloudfoundry.org/deploying) 
 
@@ -282,14 +284,14 @@ Deployment of Cloud Foundry
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Developer Guide for Cloud Foundry 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [http://docs.cloudfoundry.org/devguide](http://docs.cloudfoundry.org/devguide) 
 
@@ -298,14 +300,14 @@ Developer Guide for Cloud Foundry
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Diego Application Process Balancing
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [https://docs.cloudfoundry.org/concepts/diego/diego-auction.html](https://docs.cloudfoundry.org/concepts/diego/diego-auction.html) 
 
@@ -314,14 +316,14 @@ Diego Application Process Balancing
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Glossary for Cloud Foundry 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [http://docs.cloudfoundry.org/concepts/glossary.html](http://docs.cloudfoundry.org/concepts/glossary.html) 
 
@@ -330,14 +332,14 @@ Glossary for Cloud Foundry
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Overview of Cloud Foundry 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [http://docs.cloudfoundry.org/concepts/overview.html](http://docs.cloudfoundry.org/concepts/overview.html) 
 
@@ -346,14 +348,14 @@ Overview of Cloud Foundry
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Sample applications for Cloud Foundry 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [https://github.com/cloudfoundry-samples](https://github.com/cloudfoundry-samples) 
 
@@ -362,14 +364,14 @@ Sample applications for Cloud Foundry
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Security settings for Cloud Foundry 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [http://docs.cloudfoundry.org/concepts/security.html](http://docs.cloudfoundry.org/concepts/security.html) 
 
@@ -378,14 +380,14 @@ Security settings for Cloud Foundry
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Cloud Foundry Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [http://docs.cloudfoundry.org/services](http://docs.cloudfoundry.org/services)
 
@@ -396,14 +398,14 @@ Security settings for Cloud Foundry
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Considerations for designing and running an application in the cloud
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [http://docs.cloudfoundry.org/devguide/deploy-apps/prepare-to-deploy.html](http://docs.cloudfoundry.org/devguide/deploy-apps/prepare-to-deploy.html) 
 
@@ -412,14 +414,14 @@ Considerations for designing and running an application in the cloud
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Installing the Cloud Foundry command line interface
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [http://docs.cloudfoundry.org/devguide/installcf/install-go-cli.html](http://docs.cloudfoundry.org/devguide/installcf/install-go-cli.html) 
 
@@ -428,14 +430,14 @@ Installing the Cloud Foundry command line interface
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Blog about Cloud Foundry 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [http://blog.cloudfoundry.org/](http://blog.cloudfoundry.org/) 
 

@@ -1,5 +1,7 @@
 <!-- loio0c93f02062ee48e99ca8421c3c19a9e1 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # How to Compare an Existing Configuration With an SAP Template
 
 You can compare an existing configuration that has been created based on an SAP template with the current SAP template to see if there are any deviations.
@@ -24,10 +26,10 @@ Because SAP templates are updated from time to time, it can be useful to compare
 
 5.  Choose one of the search results.
 
-6.  Choose *More* and select   Compare with SAP Template .
+6.  Choose *More* and select <span class="SAP-icons"></span> Compare with SAP Template.
 
     > ### Note:  
-    > If you want to rebuild a configuration based on an updated version of the SAP Template, close the pop-up window, choose the configuration, then choose *More* and select   Rebuild from SAP Template .
+    > If you want to rebuild a configuration based on an updated version of the SAP Template, close the pop-up window, choose the configuration, then choose *More* and select <span class="SAP-icons"></span> Rebuild from SAP Template.
 
 
 

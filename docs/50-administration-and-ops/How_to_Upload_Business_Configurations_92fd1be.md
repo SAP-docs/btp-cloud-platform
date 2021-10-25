@@ -25,11 +25,13 @@ You want to import your configuration content via ".xlsx" file upload.
     -   **View\(V\)**: This is created when the table maintenance is generated for a *Maintenance View*. Export via *SM30* \(see prerequisites\).
     -   **Table\(S\)**: This is created when the table maintenance is generated for a *Transparent Table* \(optionally with Text Table\). Export via *SM30* \(see prerequisites\).
     -   **Undefined Table\(U\)**: This is a table without customizing objects. Export via *SE16* \(see prerequisites\).
+
 3.  Select one of the following operations from the drop-down menu:
 
     -   *Upsert \(Update or/and Insert\)*: Updates existing entries and inserts new entries.
     -   *Insert \(Insert Only\)*: Inserts new entries but doesn't overwrite/update existing entries.
     -   *Replace \(Replace Existing Records\)*: Replaces any existing entries with the new list of entries. Keep in mind that existing entries will be deleted. This action cannot be undone.
+
     Click *Step 2* to continue.
 
 4.  Upload the file which contains the configuration content for the selected object using the *Add* button. You also have the option to download a templatized example of the object you selected by clicking *Download File Template*. You can then add to and customize this excel file according to your requirements before you upload it. Click *Step 3* to continue.
@@ -51,5 +53,6 @@ You want to import your configuration content via ".xlsx" file upload.
     -   For client dependent objects, the client field is not part of the file.
 
     -   The contents in the file are in an external data format. Content exported to the file from transaction *SM30* will automatically be in an external format. For text tables, exported via transaction *SE16*, make sure to mark the checkbox *Respect conversion exit* as "true" before exporting the content to the file. This is done under *Settings* \> *User Parameters*.
+
 
 

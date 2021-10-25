@@ -15,12 +15,3 @@ For more information, see
 -   [Reading Intervals of Number Range Objects](Reading_Intervals_of_Number_Range_Objects_0cb77ec.md)
 
 
--   **[Creating Intervals of Number Range Objects](Creating_Intervals_of_Number_Range_Objects_dd0076e.md "")**  
-
--   **[Changing Intervals of Number Range Objects](Changing_Intervals_of_Number_Range_Objects_b11dd58.md "")**  
-
--   **[Deleting Intervals of Number Range Objects](Deleting_Intervals_of_Number_Range_Objects_832caf0.md "")**  
-
--   **[Reading Intervals of Number Range Objects](Reading_Intervals_of_Number_Range_Objects_0cb77ec.md "")**  
-
-

@@ -25,17 +25,3 @@ To use functionality provided by external services in your applications, perform
 3.  Create credentials that allow your application to communicate with the service \(see [Creating Credentials](Creating_Credentials_945498c.md)\).
 
 
--   **[Creating Service Instances](Creating_Service_Instances_979735b.md " Create instances of services and use them to extend your own applications.")**  
- Create instances of services and use them to extend your own applications.
--   **[Binding Service Instances to Applications](Binding_Service_Instances_to_Applications_d1aa23c.md "Bind the service instances to your applications so that they can communicate with one
-		another.")**  
-Bind the service instances to your applications so that they can communicate with one another.
--   **[Creating Credentials](Creating_Credentials_945498c.md "Create service credentials your application will use to call the service and retrieve
-		information from it. ")**  
-Create service credentials your application will use to call the service and retrieve information from it.
-
-**Related Information**  
-
-
-[Read more about the provisioning and binding flow in Kyma](https://kyma-project.io/docs/components/service-catalog#details-provisioning-and-binding-flow)
-

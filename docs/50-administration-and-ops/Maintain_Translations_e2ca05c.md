@@ -55,14 +55,3 @@ You can use this app to:
 
 If you need support or experience issues, please report an incident under component `BC-DOC-TTL-MTR`.
 
--   **[Create a Translation Project](Create_a_Translation_Project_b07e69e.md)**  
-
--   **[Select Your Text Sources](Select_Your_Text_Sources_b93df3e.md)**  
-
--   **[Select your Source and Target Language\(s\)](Select_your_Source_and_Target_Language(s)_85823ef.md)**  
-
--   **[Generate and Download the XLIFF File](Generate_and_Download_the_XLIFF_File_bd697ad.md)**  
-
--   **[Upload and Publish the Translated XLIFF File to the System](Upload_and_Publish_the_Translated_XLIFF_File_to_the_System_ef1faa8.md)**  
-
-

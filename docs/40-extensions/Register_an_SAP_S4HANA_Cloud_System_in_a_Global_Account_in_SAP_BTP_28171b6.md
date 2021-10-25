@@ -51,6 +51,7 @@ The registration process has the following states displayed in the SAP BTP cockp
 
     3.  Choose *Register*.
 
+
     The cloud platform generates an integration token that the tenant administrator of the extended SAP S/4HANA Cloud system uses when configuring the integration between your SAP S/4HANA Cloud system and the cloud platform on the respective SAP S/4HANA Cloud system side.
 
 4.  Copy the integration token and send it to the tenant administrator for the respective SAP S/4HANA Cloud system. You need it for configuring the integration on the extended SAP S/4HANA Cloud system side.
@@ -96,8 +97,4 @@ The registration process has the following states displayed in the SAP BTP cockp
 ## Next Steps
 
 [Trigger the Registration in the SAP S/4HANA Cloud Tenant](Trigger_the_Registration_in_the_SAP_S4HANA_Cloud_Tenant_cadf8f6.md)
-
--   **[Trigger the Registration in the SAP S/4HANA Cloud Tenant](Trigger_the_Registration_in_the_SAP_S4HANA_Cloud_Tenant_cadf8f6.md "Use this procedure to trigger the registration process for an SAP S/4HANA Cloud system
-		that you want to pair with your global account in SAP BTP.")**  
-Use this procedure to trigger the registration process for an SAP S/4HANA Cloud system that you want to pair with your global account in SAP BTP.
 

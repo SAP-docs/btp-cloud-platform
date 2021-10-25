@@ -28,14 +28,14 @@ To administer your Cloud Foundry environment, navigate to orgs, and spaces in th
 1.  
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Entity You'd Like to Navigate to
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Navigation Path
 
@@ -44,14 +44,14 @@ Navigation Path
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
-**Org**
+Org
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Navigate to the subaccount that contains the Cloud Foundry org. If you've already enabled the Cloud Foundry environment in your subaccount, you see the name of your organization, the number of its spaces and members, and its API endpoint on the *Overview* page of your subaccount. If you haven't enabled Cloud Foundry yet, choose *Enable Cloud Foundry* to create a Cloud Foundry org.
 
@@ -63,19 +63,20 @@ Navigate to the subaccount that contains the Cloud Foundry org. If you've alread
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
-**Space**
+Space
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Navigate to the subaccount that contains the space you'd like to navigate to.
 
 1.  On the subaccount *Overview* page, you have table with all your spaces. Choose the space you want to navigate to.
 2.  In the navigation area, choose *Cloud Foundry* \> *Spaces*.
+
 
 
 </td>

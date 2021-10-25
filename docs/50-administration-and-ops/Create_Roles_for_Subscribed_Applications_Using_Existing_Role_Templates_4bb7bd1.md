@@ -1,5 +1,7 @@
 <!-- loio4bb7bd1804a8437287abff56f4956814 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Create Roles for Subscribed Applications Using Existing Role Templates
 
 Use the SAP BTP cockpit to create a role for a subscribed application using an existing role template. You can refine the role by assigning attributes and add the role to role collections.
@@ -20,7 +22,7 @@ You can use existing role templates to create new roles. A SAP BTP cockpit wizar
 
 1.  Open the SAP BTP cockpit.
 
-2.  Go to your global account and subaccount \(see [Navigate to Orgs and Spaces](Navigate_to_Orgs_and_Spaces_5bf8735.md)\).
+2.  Go to your global account and subaccount \(see [Navigate in the Cockpit](Navigate_in_the_Cockpit_0874895.md)\).
 
 3.  Choose *Services* \> ***Instances and Subscriptions* in the navigation pane.
 
@@ -30,7 +32,7 @@ You can use existing role templates to create new roles. A SAP BTP cockpit wizar
 
     Here you see a complete list of all existing roles sorted by the role template. It also contains the role names and the role description. On the right side, you find the action buttons.
 
-6.  \(Optional\) To add more roles, choose     \(Add a role\).
+6.  \(Optional\) To add more roles, choose <span class="SAP-icons"></span> \(Add a role\).
 
     The *Create Role* wizard opens.
 

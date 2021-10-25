@@ -13,16 +13,19 @@ You can provide an application to multiple customers as a SaaS solution in the A
 -   You've set up the following accounts:
     -   **Global development account** with a *01 Develop* subaccount for development, a *02 Test* subaccount for testing, and a *03 Build/Assemble* subaccount \(for example with the Cloud Foundry organization name `saas-build-assemble` and a development space with the name `Build/Assemble`\) for assembling the add-on product. See [Set Up a Development Account](Develop,_Test,_Build_3bf575a.md#loio9f2150f2b15e414aacd46c1723ce48fb).
     -   **Global production account** with a *04 Build/Test* subaccount \(for example with the Cloud Foundry organization name `saas-build-test` and a development space with the name `Build/Test`\) for installing and testing the add-on, a *05 Provide* subaccount \(for example with Region `cf-eu10`\) for providing the add-on to customers, and a *06 Consume* subaccount \(for example with the subdomain `my consumer subdomain`\) to access the solution as a customer. See [Set Up a Production Account](Develop,_Test,_Build_3bf575a.md#loio2e7b4b631e814de1b8fe3959af4105bc).
+
 -   You've purchased entitlements that are necessary for the account setup. See [Prepare](Develop,_Test,_Build_3bf575a.md#loio4338854e3133407abb47d3a281dbd1e1).
 -   You've registered a namespace at SAP, for example /NAMESPC/. See [Register a Namespace](Develop,_Test,_Build_3bf575a.md#loiocc5a3c6f78cf4889960c314dd09a5060).
 -   You've registered your add-on at SAP, for example /NAMESPC/PRODUCTX. See [Build](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/3bf575a3dc5043f895f8bd411d2a86a1.html#loio25049720bde447e395b3df0bc05e5a50).
 -   You've set up Jenkins build pipeline and have ensured that an external Git repository is available for the pipeline definition. See [ABAP Environment Pipeline](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9482e7eef4634cb993a4ae296b2029fa.html#loio2398b874f7c5445db188b780ff0cef89).
     -   You've created a technical communication user, for example with the credentials ID `TechUserAAKaaS`.
     -   You've created a technical platform user, for example with the credentials ID `CFPlatform`.
+
 -   You've developed your software component /NAMESPC/COMPONENT1 in the development system of your *01 Develop* subaccount.
     -   For more information on software components, see [Manage Software Components](../50-administration-and-ops/Manage_Software_Components_3dcf76a.md).
     -   For more information on the ABAP RESTful Application Programming Model, see [ABAP RESTful Application Programming Model](ABAP_RESTful_Application_Programming_Model_33a301e.md) or [Develop a Fiori App Using the ABAP RESTful Programming Model \(Managed Scenario\)](https://developers.sap.com/group.abap-env-restful-managed.html).
     -   For more information on how to develop a user interface for the application, see [Develop an SAP Fiori Application UI and Deploy it to ABAP Using SAP Business Application Studio](Develop_an_SAP_Fiori_Application_UI_and_Deploy_it_to_ABAP_Using_SAP_Business_Application_Studio_eaaeba4.md).
+
 
 -   You've subscribed to SAP Business Application Studio in your *01 Develop* subaccount.
 
@@ -100,6 +103,7 @@ You can provide an application to multiple customers as a SaaS solution in the A
                 cfDeleteServiceKeys: true
             ```
 
+
         Section general:
 
         -   Imperatively adapt the following parameters:
@@ -120,6 +124,8 @@ You can provide an application to multiple customers as a SaaS solution in the A
                 > ### Note:  
                 > You find the API Endpoint, the Cloud Foundry organization name displayed as Org Name, and the name of your development space in your *03 Build/Assemble* subaccount under *Overview*.
 
+
+
         Section stages:
 
         -   Imperatively adapt the following parameters:
@@ -132,6 +138,8 @@ You can provide an application to multiple customers as a SaaS solution in the A
 
                 > ### Note:  
                 > You find the Cloud Foundry organization name displayed as Org Name and the name of your development space in your *04 Build/Test* subaccount under *Overview*.
+
+
 
         Keep all other parameters as set in the example.
 
@@ -151,10 +159,12 @@ You can provide an application to multiple customers as a SaaS solution in the A
 
             -   For the name of the repository, enter the name of the respective software component /NAMESPC/COMPONENT1.
 
-            -   Optionally, enter the required commitID.
+            -   Enter the required commitID of the software component state that shall be used.
 
                 > ### Note:  
                 > You find the latest **commitID** in the development system of your *01 Develop* subaccount in the *Manage Software Components* app. To view a history of all commits and their IDs, click the required branch.
+
+
 
         -   Create the following `atcConfig.yml` file in the root folder:
 
@@ -192,6 +202,7 @@ You can provide an application to multiple customers as a SaaS solution in the A
             }
             ```
 
+
         The final structure looks like this:
 
          ![](images/Pipeline_definition_8a9a4e5.png) 
@@ -199,6 +210,7 @@ You can provide an application to multiple customers as a SaaS solution in the A
     3.  Start the build pipeline.
 
     4.  Once the build was successful, publish your initial add-on version: hover over the *Publish* stage in your pipeline and click *confirm*.
+
 
 2.  **Deploy your add-on to the Cloud Foundry infrastructure by creating a multitarget application in SAP Business Application Studio**.
 
@@ -337,11 +349,12 @@ You can provide an application to multiple customers as a SaaS solution in the A
                 > You can only use ASCII letters and digits. Do not use a hyphen in the beginning or end of the appname.
 
             -   For **addon-product-name**, enter the registered name of the addon product.
-            -   For **provider-admin-email**, enter the email address of the initial provider user.
+            -   For **provider-admin-email**, enter the e-mail address of the initial provider user.
             -   The **saas-display-name** defines the name of the tile in the cloud.
             -   The **saas-description** is displayed as a short description of the application in the cloud.
 
             -   The **tenant-mode** defines the tenant mode \(multi or single\).
+
             > ### Note:  
             > Once you switch the approuter to the production phase, create and use a new extension file \(see [Production Descriptor](Production_Descriptor_38ff6d0.md).\)
 
@@ -408,6 +421,8 @@ You can provide an application to multiple customers as a SaaS solution in the A
                 }
                 ```
 
+
+
         The final structure looks like this:
 
          ![](images/Folder_structure_multitarget_application_894aa3f.png) 
@@ -422,6 +437,7 @@ You can provide an application to multiple customers as a SaaS solution in the A
         ```
         cf deploy mta_archives/product1-saas-solution_1.0.0.mtar -e extensions/dev.mtaext
         ```
+
 
     > ### Note:  
     > During the MTA build, an MTA archive file is automatically created with the MTA ID acting as the file name. For example, `product1-saas-solution_1.0.0.mtar` is created for MTA ID `product1-saas-solution`.
@@ -443,10 +459,11 @@ You can provide an application to multiple customers as a SaaS solution in the A
         -   For **Domain**, enter the appropriate domain by changing the default domain **cfapps.<region\>.hana.ondemand.com** according to the region of your *05 Provide* subaccount.
 
         -   For **Hostname**, enter the subdomain as displayed in your *06 Consume* subaccount under *Overview* and the appname as defined in your `dev.mtaext` file.
+
         > ### Note:  
         > This sub-step is no longer required once you switch to the production phase of the approuter configuration and define a route with wildcard hostname. See [Configure the Approuter Application](Configure_the_Approuter_Application_3725815.md).
 
-    2.  Assign the route to the deplyoyed approuter application.
+    2.  Assign the route to the deployed approuter application.
 
     3.  Subscribe to the solution: Navigate to *Service Marketplace* in your *06 Consume* subaccount and search for your service. Click *create* \> *create*.
 
@@ -455,6 +472,7 @@ You can provide an application to multiple customers as a SaaS solution in the A
     5.  Create a first user with the Initial User Onboarding process.
 
         You are now logged on to the FLP of the SaaS solution.
+
 
 4.  **Maintain your solution**. See [Maintain](Maintain_9721f0f.md#loio9721f0fb92a84e2a95309acf445cb0a9).
 
@@ -484,6 +502,7 @@ You can provide an application to multiple customers as a SaaS solution in the A
     5.  *Commit Changes* and start the build pipeline.
 
     6.  To provide the new version 1.1.0 to customers, open the *Landscape Portal* in your *05 Provide* subaccount. Select the system in question and click *Add-On Update*.
+
 
 
 **Related Information**  

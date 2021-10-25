@@ -15,13 +15,6 @@ Once you have created a role collection, you can pick the roles that apply to th
 
 Finally, you assign the role collection to the users provided by the `SAP ID service` or by your identity provider or to SAML 2.0 user groups, for example, sales representatives. For more information, see the related link.
 
--   **[Managing SAML 2.0 Identity Provider](Managing_SAML_2.0_Identity_Provider_8e0038c.md "If you want to use assertion attributes, set up SAML trust to configure the SAML
-		identity providers (IDP) for runtime of the Cloud
-                                Foundry
-		environment. You must perform this step if you want your applications to use SAML assertions
-		as the logon authentication method.")**  
-If you want to use assertion attributes, set up SAML trust to configure the SAML identity providers \(IDP\) for runtime of the Cloud Foundry environment. You must perform this step if you want your applications to use SAML assertions as the logon authentication method.
-
 **Related Information**  
 
 

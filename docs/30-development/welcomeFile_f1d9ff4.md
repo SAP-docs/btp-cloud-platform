@@ -11,28 +11,28 @@ The Web page served by default if the HTTP request does not include a specific p
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Mandatory
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Values
 
@@ -41,28 +41,28 @@ Values
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `welcomeFile` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 HTML page, for example, `index.html`
 

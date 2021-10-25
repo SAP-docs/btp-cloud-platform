@@ -25,7 +25,7 @@ If an application developer has defined the role templates accordingly, the role
 
 1.  Navigate to to the relevant account.
 
-    Running on the cloud management tools feature set A: Go to your subaccount \(see [Navigate to Orgs and Spaces](Navigate_to_Orgs_and_Spaces_5bf8735.md)\).
+    Running on the cloud management tools feature set A: Go to your subaccount \(see [Navigate in the Cockpit](Navigate_in_the_Cockpit_0874895.md)\).
 
     Running on the cloud management tools feature set B: Go to your global account.
 

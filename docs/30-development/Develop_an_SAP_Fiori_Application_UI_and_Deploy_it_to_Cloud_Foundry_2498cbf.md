@@ -10,9 +10,9 @@ Get an overview about how to create and deploy an SAP Fiori application to Cloud
 > SAP Fiori tools extensions can be used in both SAP Business Application Studio and Visual Studio \(VS\) Code. See [Introduction](https://help.sap.com/viewer/454b7fb9aacd4e369e5be8f7e909d3ec/Latest/en-US/fd9e32d52c9e46e4ba77aba343656610.html).
 
 > ### Recommendation:  
-> We recommend using the same UI5 version that your apps run on.
+> We recommend using the same UI5 version that is being used by the ABAP environment system.
 > 
-> To check the UI5 version, use command ***Alt+Cntrl+Shift+P*** or navigate to the user actions menu in your app and select *About*. See <?sap-ot O2O class="- topic/xref " href="27834b1aacf344f38910686d8fb0eb0a.xml" text="" desc="" xtrc="xref:2" xtrf="file:/d:/dita/wjg1630305115057/src/cms/content/localization/en-US/2498cbfce1b14f3b9f62fab9fa4407f7.xml" ?>.
+> To check the UI5 version in the SAP Fiori launchpad of your ABAP environment system, use command ***Alt+Ctrl+Shift+P*** or navigate to the user actions menu and select *About*. See [User Actions Menu](https://help.sap.com/viewer/fd8f9fda63fa4c7a92bb1d4b4ac5582c/Cloud/en-US/27834b1aacf344f38910686d8fb0eb0a.html "The user actions menu offers user-related options e.g. to open apps, to change the launchpad layout or to contact support.") :arrow_upper_right:.
 
 
 
@@ -51,6 +51,7 @@ You have set up SAP Business Application Studio. See [Setup of UI Development in
         > -   The UIAD object is created upon deployment only if the intent is defined in the manifest
         > -   Only one intent is supported
         > -   If you change the ID of the intent, the existing SAP Fiori launchpad content content will break
+
 
 2.  Continue with the development of the UI, for example, with the help of guided development. See [Implement Features using Guided Development](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/0c9e518ecf704b2f80a2bed0eaca60ae.html).
 3.  Now you can preview the generated SAP Fiori application. See [Preview an Application](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/b962685bdf9246f6bced1d1cc1d9ba1c.html).

@@ -1,5 +1,7 @@
 <!-- loio90380a61db3f4fd4872e428a577ec758 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Find Inactive Users
 
 As an administrator, you want to have an overview of the users in your subaccount, no matter which identity provider stores them. You want to clean them up if necessary.
@@ -19,7 +21,7 @@ As an administrator, you want to have an overview of the users in your subaccoun
 
 1.  Open the SAP BTP cockpit.
 
-2.  Go to your global account and/or subaccount \(see [Navigate to Orgs and Spaces](Navigate_to_Orgs_and_Spaces_5bf8735.md)\).
+2.  Go to your global account and/or subaccount \(see [Navigate in the Cockpit](Navigate_in_the_Cockpit_0874895.md)\).
 
 3.  Choose *Security* \> *Users*.
 
@@ -37,6 +39,7 @@ As an administrator, you want to have an overview of the users in your subaccoun
 
     -   This year
 
+
     If you want to see the users who haven't logged on at a certain point in time, use the *Hasn't Logged On* field. You can filter the list according to the following filter criteria:
 
     -   All
@@ -51,13 +54,14 @@ As an administrator, you want to have an overview of the users in your subaccoun
 
     -   Choose a Date
 
+
     The SAP BTP cockpit displays the filtered list of users. The *Last Updated* column shows you the point in time when the user was updated last. The *Last Logon* column shows you the point of time of the user's last logon.
 
 5.  \(Optional\) To see whether a user has never logged on, choose the user to displays the user's overview section.
 
     The SAP BTP cockpit displays the user's overview section. If the user has never logged on, the *Last Logon* field shows the message *User has never logged on*.
 
-6.  \(Optional\) To delete the user, close the overview section and choose     \(Delete\).
+6.  \(Optional\) To delete the user, close the overview section and choose <span class="SAP-icons"></span> \(Delete\).
 
     > ### Remember:  
     > You can't undo the deletion of a user.

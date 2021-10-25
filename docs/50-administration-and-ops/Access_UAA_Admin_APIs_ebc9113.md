@@ -18,6 +18,7 @@ To enable programmatic access to the XS user authentication and authorization \(
     -   `xs_idp.write`
     -   `xs_user.read`
     -   `xs_user.write`
+
 -   You have an org and a space where you can create a service instance.
 
 

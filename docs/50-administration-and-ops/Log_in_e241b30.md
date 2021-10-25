@@ -11,9 +11,9 @@ Log in with the btp CLI is on global account level.
 ## Prerequisites
 
 -   Your global account is on feature set B. See [Cloud Management Tools — Feature Set Overview](../10-concepts/Cloud_Management_Tools_—_Feature_Set_Overview_caf4e4e.md).
--   To log in to your global account, you need the subdomain of your global account, which you find in the cockpit in the global account view or under *Switch Global Account*.
+-   You have the subdomain of your global account ready. You can find it in the cockpit in the global account view or under *Switch Global Account*.
 
--   If your operator has provided you with a CLI server URL, you'll need to enter it at login. If not, you can use the one proposed by the btp CLI at login.
+-   You have the CLI server URL: `https://cpcli.cf.eu10.hana.ondemand.com` . Only if your operator has provided you with a different server URL, you'll have to enter this.
 
 
 
@@ -39,30 +39,33 @@ Alternatively, you can also log in with single sign-on directly at your identity
 
     <table>
     <tr>
-    <td>
+    <td valign="top">
 
     `--url` *<URL\>*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The client proposes this URL: `https://cpcli.cf.eu10.hana.ondemand.com`, which you can confirm by pressing [ENTER\]. If your operator has provided you with a different server URL, you can specify it here. Note that when you enter a new server URL for the first time, you’re asked to confirm that you trust it.
+
+    > ### Note:  
+    > There is just one central CLI server, independent of the regions of your subaccounts. Unless you're in a private cloud and have received a CLI server URL from your operator, you should not change the proposed URL.
 
 
     
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `--subdomain` *<GLOBALACCOUNT\>*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The subdomain of the global account you want to log in to. You should have obtained the subdomain from your operator; but you can also find it in the cockpit in the global account view or under *Switch Global Account* dialog.
 
@@ -76,14 +79,14 @@ Alternatively, you can also log in with single sign-on directly at your identity
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `--user` *<USER\>*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Your user name, usually an email address.
 
@@ -92,14 +95,14 @@ Alternatively, you can also log in with single sign-on directly at your identity
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `--password` *<PASSWORD\>*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Your password. Note that if two-factor authentication is enabled, concatenate your password and the passcode in a single string.
 
@@ -146,19 +149,15 @@ Upon successful login, the btp CLI creates a folder \(`btp`\) and a configuratio
 
 -   Microsoft Windows: `C:\Users\*<username\>*\AppData\Local\SAP\btp\config.json`
 
--   Apple macOS / Linux: `$HOME/.btp/config.json`
+-   Apple macOS ; `~/Library/Caches/.btp/config.json`
+
+-   Linux: `~/.cache/.btp/config.json`
 
     To change this location, use the `SAPCP_CLIENTCONFIG` environment variable or the `--config` option, which you can append to each command call. See [Specify the Location of the Configuration File](Specify_the_Location_of_the_Configuration_File_e57288d.md).
 
 
 > ### Tip:  
 > You’ve logged in to the global account and all commands are executed in the context of this global account. To change this default context for subsequent commands to a subaccount or directory of this global account, use `btp target`. See [Set the Default Command Context](Set_the_Default_Command_Context_720645a.md).
-
--   **[Log In Through a Browser](Log_In_Through_a_Browser_b2a56a8.md "Use the single sign-on flag (btp login --sso) to log in to your identity provider through a browser instead of passing
-		username and password on the command line. ")**  
-Use the single sign-on flag \(`btp login --sso`\) to log in to your identity provider through a browser instead of passing username and password on the command line.
-
-**Parent topicColonSymbol** [General Commands and Options in the btp CLI](General_Commands_and_Options_in_the_btp_CLI_11d9f67.md "Learn how to work with the SAP BTP command line interface (btp CLI). For example, how to log in, get help, and set a default context for commands.")
 
 **Related Information**  
 

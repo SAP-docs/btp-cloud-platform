@@ -34,14 +34,14 @@ To integrate SAP BTP and SAP SuccessFactors so that you can build extension appl
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Process Step
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Related Documentation
 
@@ -50,7 +50,7 @@ Related Documentation
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1. Connect the SAP SuccessFactors system that you want to extend with the corresponding global account in SAP BTP.
 
@@ -59,7 +59,7 @@ During the pairing process you create an integration token which is then used by
 
 
 </td>
-<td>
+<td valign="top">
 
  [Register an SAP SuccessFactors System in a Global Account in SAP BTP](Register_an_SAP_SuccessFactors_System_in_a_Global_Account_in_SAP_BTP_e956ba2.md).
 
@@ -68,7 +68,7 @@ During the pairing process you create an integration token which is then used by
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 2. Make the SAP SuccessFactors system accessible in the subaccounts in which you want to build your extension applications.
 
@@ -77,7 +77,7 @@ To do so, you configure the entitlements and assign the corresponding quota wher
 
 
 </td>
-<td>
+<td valign="top">
 
  [Configure the Entitlements for the SAP SuccessFactors Extensibility Service](Configure_the_Entitlements_for_the_SAP_SuccessFactors_Extensibility_Service_b01e625.md) 
 
@@ -86,7 +86,7 @@ To do so, you configure the entitlements and assign the corresponding quota wher
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 3. Configure the communication flow.
 
@@ -104,7 +104,7 @@ SAP BTP supports the following authentication scenarios for SAP SuccessFactors:
 
 
 </td>
-<td>
+<td valign="top">
 
  [Create a Service Instance to Consume the SAP SuccessFactors HXM Suite OData API](Create_a_Service_Instance_to_Consume_the_SAP_SuccessFactors_HXM_Suite_OData_API_46c5ea1.md) 
 
@@ -113,7 +113,7 @@ SAP BTP supports the following authentication scenarios for SAP SuccessFactors:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 4. Configure the Single-Sign On \(SSO\) between the subaccount in SAP BTP and the SAP SuccessFactors system.
 
@@ -122,7 +122,7 @@ To ensure the required security for accessing the applications, you need to conf
 
 
 </td>
-<td>
+<td valign="top">
 
  [Configure Single-Sign On Between a Subaccount in SAP BTP and SAP SuccessFactors](Configure_Single-Sign_On_Between_a_Subaccount_in_SAP_BTP_and_SAP_SuccessFactors_64da613.md) 
 
@@ -131,14 +131,14 @@ To ensure the required security for accessing the applications, you need to conf
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 5. If you have performed an automated instance refresh or your cloud operators have performed a manual instance refresh, you need to restore some of the extension configuration settings.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Restore Configuration Settings After an Instance Refresh](Restore_Configuration_Settings_After_an_Instance_Refresh_4c1bf98.md)
 
@@ -147,27 +147,4 @@ To ensure the required security for accessing the applications, you need to conf
 </td>
 </tr>
 </table>
-
--   **[Register an SAP SuccessFactors System in a Global Account in SAP BTP](Register_an_SAP_SuccessFactors_System_in_a_Global_Account_in_SAP_BTP_e956ba2.md "To connect an SAP SuccessFactors system with a global account in SAP BTP, you need to register
-		the system in the corresponding global account.")**  
-To connect an SAP SuccessFactors system with a global account in SAP BTP, you need to register the system in the corresponding global account.
--   **[Configure the Entitlements for the SAP SuccessFactors Extensibility Service](Configure_the_Entitlements_for_the_SAP_SuccessFactors_Extensibility_Service_b01e625.md "Configure the required entitlements to make the SAP SuccessFactors HXM Suite OData APIs
-		of the registered SAP SuccessFactors system accessible in your subaccount in which your
-		extension applications will reside.")**  
-Configure the required entitlements to make the SAP SuccessFactors HXM Suite OData APIs of the registered SAP SuccessFactors system accessible in your subaccount in which your extension applications will reside.
--   **[Create a Service Instance to Consume the SAP SuccessFactors HXM Suite OData API](Create_a_Service_Instance_to_Consume_the_SAP_SuccessFactors_HXM_Suite_OData_API_46c5ea1.md "To enable the integration of your extension applications with the SAP SuccessFactors
-		system you have registered in the global account in SAP BTP, you first need to
-		create a service instance of the corresponding service. ")**  
-To enable the integration of your extension applications with the SAP SuccessFactors system you have registered in the global account in SAP BTP, you first need to create a service instance of the corresponding service.
--   **[Configure Single-Sign On Between a Subaccount in SAP BTP and SAP SuccessFactors](Configure_Single-Sign_On_Between_a_Subaccount_in_SAP_BTP_and_SAP_SuccessFactors_64da613.md "Use this procedure to configure the Single-Sign On (SSO) between the subaccount in
-			SAP BTP and the SAP
-		SuccessFactors system.")**  
-Use this procedure to configure the Single-Sign On \(SSO\) between the subaccount in SAP BTP and the SAP SuccessFactors system.
--   **[Restore Configuration Settings After an Instance Refresh](Restore_Configuration_Settings_After_an_Instance_Refresh_4c1bf98.md "After an instance refresh, you must restore some of your extension integration artifacts
-		and configuration settings for the SAP SuccessFactors target company.")**  
-After an instance refresh, you must restore some of your extension integration artifacts and configuration settings for the SAP SuccessFactors target company.
--   **[Auditing and Logging Information](Auditing_and_Logging_Information_d73ae90.md "Here you can find a list of the events that are logged by SAP SuccessFactors
-            Extensibility service. To retrieve the audit logs stored for SAP
-            SuccessFactors Extensibility create a support ticket in component BC-NEO-EXT-SF. ")**  
-Here you can find a list of the events that are logged by SAP SuccessFactors Extensibility service. To retrieve the audit logs stored for SAP SuccessFactors Extensibility create a support ticket in component BC-NEO-EXT-SF.
 

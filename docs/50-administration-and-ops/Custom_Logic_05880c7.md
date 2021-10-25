@@ -23,6 +23,7 @@ You can use this app to:
 
     -   Create filter conditions to define when an implementation is executed
 
+
 -   Publish implementation to your test system
 
 -   Edit implementation descriptions that have already been published
@@ -48,13 +49,4 @@ You can use this app to:
 ## Component for Customer Incidents
 
 If you need support or experience issues, please report an incident under component `BC-SRV-APS-EXT-BL`.
-
--   **[Creating Custom Logic](Creating_Custom_Logic_ff3abba.md "Get an overview of how to create custom logic, and how to publish your custom
-		logic.")**  
-Get an overview of how to create custom logic, and how to publish your custom logic.
--   **[Statements in ABAP for Key Users](Statements_in_ABAP_for_Key_Users_2004071.md "This topic provides you with an overview of ABAP keywords and ABAP system fields that
-		are available with the ABAP version for key users.")**  
-This topic provides you with an overview of ABAP keywords and ABAP system fields that are available with the ABAP version for key users.
--   **[Keyboard Shortcuts in Web-Based Editor](Keyboard_Shortcuts_in_Web-Based_Editor_2a7a64d.md "You can use keyboard shortcuts while working in the web-based editor.")**  
-You can use keyboard shortcuts while working in the web-based editor.
 

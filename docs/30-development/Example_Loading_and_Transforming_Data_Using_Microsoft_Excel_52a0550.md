@@ -32,6 +32,6 @@ After creating a DSN, you can use this DSN in an ODBC client tool of your choice
 
 9.  In the new control, you can enter a `SELECT` statement.
 
-    In the `SELECT` statement, you must prefix all view names by your schema name \(in the example used here, `ZOrders`\). Apart from these necessary prefixes, you can use ANSI-like SQL syntax. The result set shows up in an Excel preview window.
+    In the `SELECT` statement, you must prefix all view names by your schema name \(in the example used here, `ZOrders`\). Apart from these necessary prefixes, you can use an ANSI-like SQL syntax. The result set shows up in an Excel preview window.
 
 

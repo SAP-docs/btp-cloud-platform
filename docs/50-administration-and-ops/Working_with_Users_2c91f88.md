@@ -37,16 +37,17 @@ SAP BTP creates a copy of the user in the global account or in the subaccount wh
 
 
 
+
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Use Case
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -55,14 +56,14 @@ Description
 </th>
 </tr>
 <tr>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 Enable a new hire to log on to the subaccount and have access to necessary resources.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If automatic creation of shadow users was switched off for this identity provider, shadow users aren't created automatically in the subaccount \(see the related link\). This means that the new user can't log on to the subaccount. As an administrator, create a shadow user that corresponds to the user in the identity provider and assign the necessary role collections to this user.
 
@@ -73,7 +74,7 @@ See [Create Users](Create_Users_a3bc7e8.md).
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 If automatic creation of shadow users was switched off for this identity provider, shadow users aren't created automatically in the subaccount \(see the related link\). Add the user group to the role collections that are necessary for this user if the user belongs to a user group in the identity provider.
 
@@ -84,14 +85,14 @@ See [Assign User Groups to Role Collections](Assign_User_Groups_to_Role_Collecti
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Enable a new hire to have access to necessary resources.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A shadow user is automatically created in the subaccount. This means that the new user can log on to the subaccount, but the user doesn't have any authorizations. As an administrator, you have created new role collections or you want to use existing ones for the new hire. You grant authorizations by assigning the role collections to this user.
 
@@ -102,14 +103,14 @@ See [Assign Users to Role Collections](Assign_Users_to_Role_Collections_c576676.
 </td>
 </tr>
 <tr>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 Enable a new hire to log on.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If automatic creation of shadow users was switched off for this identity provider, shadow users aren't created automatically in the subaccount \(see the related link\). As an administrator, create a new shadow user in the subaccount.
 
@@ -120,7 +121,7 @@ See [Create Users](Create_Users_a3bc7e8.md).
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 If your subaccount uses the default trust configuration, you can also create a shadow user there.
 
@@ -131,14 +132,14 @@ See [Add Users from SAP ID Service for Multi-Environment Subaccounts](Add_Users_
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Review authorizations of individual users.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You want to find out which authorizations have been granted to users. To do so, access the list of all users, find the users you want to review, and check the role collection assignments. From the user's role collection, you can drill down to the roles of the role collection. You can also assign and remove role collections.
 
@@ -149,14 +150,14 @@ See [Find Users and Their Role Collection Assignments](Find_Users_and_Their_Role
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Delete users of employees who have left the company.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You want to find and delete users of employees who have left the company, but their users still exist in the system.
 
@@ -169,14 +170,14 @@ How to delete users, see [Delete Users](Delete_Users_51000c2.md).
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Find users who have never logged on.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You want to find users who never logged on. For example, they could be manually created shadow users with a typo in their user ID, so they don't match the user ID provided by the identity provider. They were never used, and it might make sense to delete them.
 
@@ -187,14 +188,14 @@ See [Delete Users](Delete_Users_51000c2.md).
 </td>
 </tr>
 <tr>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 Delete shadows user to comply with data protection and privacy regulations.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 For data protection and privacy reasons, administrators might be legallly obliged to delete shadow users who belonged to employees who left the company. You can find and delete the shadow users in the SAP BTP cockpit.
 
@@ -205,7 +206,7 @@ See [Delete Users](Delete_Users_51000c2.md).
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 You can also delete the users using APIs.
 
@@ -216,22 +217,6 @@ See [Delete Shadow Users for Data Protection and Privacy Using APIs](../60-secur
 </td>
 </tr>
 </table>
-
--   **[Find Users and Their Role Collection Assignments](Find_Users_and_Their_Role_Collection_Assignments_870533e.md "You want to find the authorizations granted to specific users in your subaccount. You
-		can search or sort the list of users, and view their role collection
-		assignments.")**  
-You want to find the authorizations granted to specific users in your subaccount. You can search or sort the list of users, and view their role collection assignments.
--   **[Find Inactive Users](Find_Inactive_Users_90380a6.md "As an administrator, you want to have an overview of the users in your subaccount, no
-		matter which identity provider stores them. You want to clean them up if
-		necessary.")**  
-As an administrator, you want to have an overview of the users in your subaccount, no matter which identity provider stores them. You want to clean them up if necessary.
--   **[Create Users](Create_Users_a3bc7e8.md "As an administrator, you can create shadow users in your subaccount. When you create
-		a shadow user, you must know and specify which identity provider stores the
-		user.")**  
-As an administrator, you can create shadow users in your subaccount. When you create a shadow user, you must know and specify which identity provider stores the user.
--   **[Delete Users](Delete_Users_51000c2.md "As an administrator, you can delete users from your subaccount. When you delete a user,
-		you also delete the user's role collection assignments.")**  
-As an administrator, you can delete users from your subaccount. When you delete a user, you also delete the user's role collection assignments.
 
 **Related Information**  
 

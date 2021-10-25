@@ -13,12 +13,3 @@ If an application wants to collect messages and exceptions which occur during ru
 -   [Writing Application Logs to the Database](Writing_Application_Logs_to_the_Database_d15d974.md)
 
 
--   **[Create a new Application Log](Create_a_new_Application_Log_f7c20f7.md "")**  
-
--   **[Set Header Information](Set_Header_Information_b962eb9.md "")**  
-
--   **[Add Items](Add_Items_31f564e.md "")**  
-
--   **[Writing Application Logs to the Database](Writing_Application_Logs_to_the_Database_d15d974.md "")**  
-
-

@@ -60,30 +60,3 @@ Find information and tutorials for the main development languages supported in t
 
 If you want to make your applications and services available for use to other SAP BTP users, you can design them as multitenant applications. This allows consumers, who are called tenants in this scenario, to access what you've created through dedicated URLs. For more information, see [Developing Multitenant Applications in the Cloud Foundry Environment](Developing_Multitenant_Applications_in_the_Cloud_Foundry_Environment_5e8a2b7.md).
 
--   **[SAP Business Application Studio](SAP_Business_Application_Studio_c736960.md "SAP Business Application
-                                Studio is a new cloud service in the SAP BTP, Cloud Foundry
-                                    environment offering a modern development environment tailored for efficient
-		development of business applications. ")**  
-SAP Business Application Studio is a new cloud service in the SAP BTP, Cloud Foundry environment offering a modern development environment tailored for efficient development of business applications.
--   **[Business Application Pattern](Business_Application_Pattern_a1de162.md "In the Cloud Foundry environment, SAP is promoting a pattern for building applications.
-		We use the term Business Application to distinguish from single
-		applications in the context of the Cloud Foundry environment.")**  
-In the Cloud Foundry environment, SAP is promoting a pattern for building applications. We use the term**Business Application** to distinguish from single applications in the context of the Cloud Foundry environment.
--   **[Developing with the SAP Cloud Application Programming Model](Developing_with_the_SAP_Cloud_Application_Programming_Model_00823f9.md "The SAP Cloud Application Programming
-                                    Model (CAP) is a framework of languages, libraries, and tools for building
-		enterprise-grade services and applications. It guides developers along a ‘golden path’ of proven best practices and a great wealth of
-		out-of-the-box solutions to recurring tasks.")**  
-The SAP Cloud Application Programming Model \(CAP\) is a framework of languages, libraries, and tools for building enterprise-grade services and applications. It guides developers along a ‘golden path’ of proven best practices and a great wealth of out-of-the-box solutions to recurring tasks.
--   **[Using Services in the Cloud Foundry Environment](Using_Services_in_the_Cloud_Foundry_Environment_f22029f.md "
-		Learn more about using services in the Cloud
-                                Foundry
-			environment, how to create (user-provided) service instances and bind them to
-			applications, and how to create service keys. ")**  
- Learn more about using services in the Cloud Foundry environment, how to create \(user-provided\) service instances and bind them to applications, and how to create service keys.
--   **[Development Languages](Development_Languages_2d0ff22.md "Learn about the development languages supported in the Cloud Foundry environment.")**  
-Learn about the development languages supported in the Cloud Foundry environment.
--   **[Developing Multitenant Applications in the Cloud Foundry Environment](Developing_Multitenant_Applications_in_the_Cloud_Foundry_Environment_5e8a2b7.md "In the Cloud
-                                Foundry environment, you can develop and run
-			multitenant applications, and share them with multiple consumers simultaneously on SAP BTP.")**  
-In the Cloud Foundry environment, you can develop and run multitenant applications, and share them with multiple consumers simultaneously on SAP BTP.
-

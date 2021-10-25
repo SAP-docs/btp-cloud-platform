@@ -23,19 +23,19 @@ The main features of enterprise accounts are described for use by customers and 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Customer Account
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Partner Account
 
@@ -44,14 +44,14 @@ Partner Account
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Use case** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A global account that enables you to host productive, business-critical applications with 24/7 support.
 
@@ -60,7 +60,7 @@ You can purchase a global account just like any other SAP software. You can upgr
 
 
 </td>
-<td>
+<td valign="top">
 
 A global account that enables you to build applications and to sell them to your customers.
 
@@ -69,21 +69,21 @@ A global account that enables you to build applications and to sell them to your
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Benefits** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Support for productive applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Includes SAP Application Development licenses that enable you to get started with scenarios across cloud and on-premise applications.
 
@@ -97,21 +97,21 @@ Support for productive applications.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Services available** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Productive services.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Productive and beta services.
 
@@ -120,21 +120,21 @@ Productive and beta services.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Limitations** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Resources according to your contract.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Predefined resources according to your partner package. You can purchase additional resources if necessary.
 
@@ -143,14 +143,14 @@ Predefined resources according to your partner package. You can purchase additio
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Registration** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 For more information about SAP Integration Suite and SAP Extension Suite pricing, see [https://www.sap.com/products/extension-suite/pricing.html](https://www.sap.com/products/extension-suite/pricing.html) and [https://www.sap.com/products/integration-suite/pricing.html](https://www.sap.com/products/integration-suite/pricing.html).
 
@@ -161,7 +161,7 @@ If you are located in China and want to buy a global account on SAP BTP, you nee
 
 
 </td>
-<td>
+<td valign="top">
 
 To join the partner program, sign up for [SAP Partner Edge - Build](https://www.sap.com/partner/become/partneredge-build.html).
 
@@ -170,21 +170,21 @@ To join the partner program, sign up for [SAP Partner Edge - Build](https://www.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Available Regions** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 See [Regions](Regions_350356d.md#loio350356d1dc314d3199dca15bd2ab9b0e).
 
 
 
 </td>
-<td>
+<td valign="top">
 
 See [Regions](Regions_350356d.md#loio350356d1dc314d3199dca15bd2ab9b0e).
 
@@ -210,14 +210,6 @@ Some customer contracts include EU Access, which restricts processing of persona
 
 
 For the commercial models available for enterprise accounts, see [Commercial Models](Commercial_Models_263d400.md).
-
--   **[Commercial Models](Commercial_Models_263d400.md "SAP BTP offers two different commercial models for enterprise
-		accounts.")**  
-SAP BTP offers two different commercial models for enterprise accounts.
--   **[Using Free Service Plans](Using_Free_Service_Plans_524e108.md "The free tier model for  SAP BTP lets you try out
-		services in global accounts without any additional cost using the consumption-based
-		commercial model.")**  
-The free tier model for SAP BTP lets you try out services in global accounts without any additional cost using the consumption-based commercial model.
 
 **Related Information**  
 

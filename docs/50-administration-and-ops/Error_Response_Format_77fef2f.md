@@ -26,21 +26,21 @@ HTTP/1.1 400 Bad Request
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
@@ -49,21 +49,21 @@ Type
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `error.code`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A unique application error code. Common values are listed below.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number
 
@@ -72,21 +72,21 @@ Number
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `error.message`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A description of the error.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
@@ -95,21 +95,21 @@ String
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `error.target`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The resource URL of the request.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
@@ -118,21 +118,21 @@ String
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `error.details`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An array of additional error codes and descriptions with further details about the error and its root cause. If this field exists, the array will contain at least one element.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Array
 
@@ -155,14 +155,14 @@ Provides a list of error codes and the details of the errors.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Error Code
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -171,14 +171,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 10XXX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Server errors
 
@@ -187,14 +187,14 @@ Server errors
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 11XXX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 General request errors
 
@@ -203,14 +203,14 @@ General request errors
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 12XXX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 General operations failures
 
@@ -219,14 +219,14 @@ General operations failures
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 2XXXX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Accounts service errors
 
@@ -235,14 +235,14 @@ Accounts service errors
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 3XXXX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Entitlements service errors
 
@@ -251,14 +251,14 @@ Entitlements service errors
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 40XXX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Tenants operations failures
 
@@ -267,14 +267,14 @@ Tenants operations failures
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 41XXX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Environment instances operations failures
 
@@ -283,14 +283,14 @@ Environment instances operations failures
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 42XXX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provisioning service errors
 
@@ -299,14 +299,14 @@ Provisioning service errors
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 5XXXX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Service Management service proxy errors
 
@@ -315,14 +315,14 @@ Service Management service proxy errors
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 6XXXX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Order Processing service errors
 
@@ -331,14 +331,14 @@ Order Processing service errors
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 7XXXX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CLI backend errors
 
@@ -347,14 +347,14 @@ CLI backend errors
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 8XXXX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Asynchronous jobs failures
 
@@ -363,14 +363,14 @@ Asynchronous jobs failures
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 9XXXX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SaaS Provisioning service errors
 
@@ -379,14 +379,14 @@ SaaS Provisioning service errors
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 10XXXX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Events service errors
 

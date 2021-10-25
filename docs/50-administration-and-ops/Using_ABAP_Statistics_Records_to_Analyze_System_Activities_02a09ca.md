@@ -29,10 +29,3 @@ You typically use ABAP statistics records in the following scenarios:
     For more information, see [Capturing Request Statistics](Capturing_Request_Statistics_e86943a.md) and [Analyzing Captured Request Statistics](Analyzing_Captured_Request_Statistics_af3e856.md).
 
 
--   **[Capturing Request Statistics](Capturing_Request_Statistics_e86943a.md "With the Capture Workloads (Capture Request Statistics) app, you can capture request
-		statistics to find out which activities are running in your ABAP system.")**  
-With the *Capture Workloads* \(*Capture Request Statistics*\) app, you can capture request statistics to find out which activities are running in your ABAP system.
--   **[Analyzing Captured Request Statistics](Analyzing_Captured_Request_Statistics_af3e856.md "Get an overview of the request statistics that you have captured using the Capture Request Statistics app. View the
-		server response time contribution or the database connections of a single request.")**  
-Get an overview of the request statistics that you have captured using the *Capture Request Statistics* app. View the server response time contribution or the database connections of a single request.
-

@@ -9,14 +9,14 @@ If a message is read from an application log, an object instance of interface `I
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -25,7 +25,7 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CATEGORY
 
@@ -34,7 +34,7 @@ CATEGORY
 
 
 </td>
-<td>
+<td valign="top">
 
 Category of the item
 
@@ -45,7 +45,7 @@ Contains fixed value: IF\_BALI\_CONSTANTS=\>C\_CATEGORY\_MESSAGE
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 LOG\_ITEM\_NUMBER
 
@@ -54,7 +54,7 @@ LOG\_ITEM\_NUMBER
 
 
 </td>
-<td>
+<td valign="top">
 
 Serial number which is the position of the message in the log
 
@@ -63,7 +63,7 @@ Serial number which is the position of the message in the log
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SEVERITY
 
@@ -72,7 +72,7 @@ SEVERITY
 
 
 </td>
-<td>
+<td valign="top">
 
 Severity of the message \('Error', 'Warning', etc\)
 
@@ -81,7 +81,7 @@ Severity of the message \('Error', 'Warning', etc\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DETAIL\_LEVEL
 
@@ -90,7 +90,7 @@ DETAIL\_LEVEL
 
 
 </td>
-<td>
+<td valign="top">
 
 Detail level of the message \(number between '1' and '9' or ' '\)
 
@@ -99,7 +99,7 @@ Detail level of the message \(number between '1' and '9' or ' '\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 TIMESTAMP
 
@@ -108,7 +108,7 @@ TIMESTAMP
 
 
 </td>
-<td>
+<td valign="top">
 
 UTC time stamp of the message creation
 
@@ -117,14 +117,14 @@ UTC time stamp of the message creation
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message ID
 
@@ -133,14 +133,14 @@ Message ID
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NUMBER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message number
 
@@ -149,14 +149,14 @@ Message number
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 VARIABLE\_1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message variable 1
 
@@ -165,14 +165,14 @@ Message variable 1
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 VARIABLE\_2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message variable 2
 
@@ -181,14 +181,14 @@ Message variable 2
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 VARIABLE\_3
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message variable 3
 
@@ -197,14 +197,14 @@ Message variable 3
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 VARIABLE\_4
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message variable 4
 
@@ -213,14 +213,14 @@ Message variable 4
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 COUNT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Count of cumulated messages
 
@@ -239,14 +239,14 @@ Get the message text of the message \(the output of ABAP command ***MESSAGE***\)
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -255,7 +255,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -264,14 +264,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 MESSAGE\_TEXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Text of the message in the logon language
 

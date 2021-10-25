@@ -12,11 +12,13 @@ The remote proxy is used when an OData service is consumed remotely using a HTTP
 
     -   HTTP-header \(such as eTag\)
 
+
 -   It serializes the response to
 
     -   Business data \(such as an ABAP data container\)
 
     -   Status information
+
 
     *Header*
 
@@ -56,6 +58,7 @@ The remote proxy is used when an OData service is consumed remotely using a HTTP
 
     -   Your request has a wrong navigation, e.g. you ask for the name of all employees beginning with a "B" and navigate to the department and not to the list of employees.
 
+
     If this is the case, the error handling executes the following exception:
 
     > ### Sample Code:  
@@ -82,6 +85,7 @@ The remote proxy is used when an OData service is consumed remotely using a HTTP
     -   OData Error Details
 
     -   HTTP Client Error Details
+
 
     > ### Note:  
     > The exception is also executed, wenn the HTTP Status Code is 4xx or 5xx.

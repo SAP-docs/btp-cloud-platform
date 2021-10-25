@@ -4,11 +4,11 @@
 
 Learn how to integrate CI/CD into your development with the SAP Cloud Application Programming Model \(CAP\).
 
- <a name="loiofdead30953d24c0ca75768e2c3bcdd2c loio31cbeccf367e465fa3fc83e367c9c6f1__loio31cbeccf367e465fa3fc83e367c9c6f1"/>
+ <a name="loio31cbeccf367e465fa3fc83e367c9c6f1"/>
 
 <!-- loio31cbeccf367e465fa3fc83e367c9c6f1 -->
 
-# What Are Continuous Integration and Delivery?
+## What Are Continuous Integration and Delivery?
 
 **Continuous integration \(CI\)** describes a software development process in which various team members integrate their contributions frequently into a single main line. Before each integration, the changes are verified through builds and automated testing. Thereby, you can detect errors as quickly as possible and prevent integration problems before completing the development.
 
@@ -84,11 +84,11 @@ The continuous delivery process makes sure that the most current version of the 
 
 For more information about the concepts and principles of continuous integration and delivery, see the [Continuous Integration and Delivery Introduction Guide](https://help.sap.com/viewer/Continuous-Integration-and-Delivery-Introduction-Guide/7fc38a80cda446ef856c01f748dbede8.html).
 
- <a name="loiofdead30953d24c0ca75768e2c3bcdd2c loio862ec834e72842a6b027d8d1518055dd__loio862ec834e72842a6b027d8d1518055dd"/>
+ <a name="loio862ec834e72842a6b027d8d1518055dd"/>
 
 <!-- loio862ec834e72842a6b027d8d1518055dd -->
 
-# CI/CD Solutions by SAP for the SAP Cloud Application Programming Model
+## CI/CD Solutions by SAP for the SAP Cloud Application Programming Model
 
 SAP offers two different solutions that help you apply CI/CD in your development with the SAP Cloud Application Programming Model \(CAP\):
 
@@ -117,26 +117,26 @@ For more information about the CI/CD solutions by SAP, see [SAP Solutions for Co
 
 The following links guide you to the SAP Cloud Application Programming Model \(CAP\) sections of our CI/CD solutions:
 
-<a name="loiofdead30953d24c0ca75768e2c3bcdd2c loio862ec834e72842a6b027d8d1518055dd__table_nvb_fzj_vnb"/>CI/CD for CAP Development
+<a name="loio862ec834e72842a6b027d8d1518055dd__table_nvb_fzj_vnb"/>CI/CD for CAP Development
 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 CI/CD Solution
 
 
 
 </th>
-<th>
+<th valign="top">
 
 CAP Section
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -145,21 +145,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP Continuous Integration and Delivery
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [sap-cloud-sdk](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/bfe48a4b12ed41868f92fa564829f752.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Configure a CI/CD pipeline for the development of applications that follow the SAP Cloud Application Programming Model in the Cloud Foundry environment.
 
@@ -168,21 +168,21 @@ Configure a CI/CD pipeline for the development of applications that follow the S
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Project “Piper”
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Build and Deploy SAP Cloud Application Programming Model Applications](https://sap.github.io/jenkins-library/scenarios/CAP_Scenario/) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Set up a CI/CD Pipeline for an SAP Cloud Application Programming Model \(CAP\) project.
 

@@ -38,6 +38,3 @@ Learn about your first steps to get started as a developer in the ABAP environme
 
 For more information about ABAP development, see [Development in the ABAP Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/31367ef6c3e947059e0d7c1cbfcaae93.html).
 
--   **[Connect to the ABAP System](Connect_to_the_ABAP_System_7379dbd.md "Set up your ABAP cloud project to connect to the ABAP system.")**  
-Set up your ABAP cloud project to connect to the ABAP system.
-

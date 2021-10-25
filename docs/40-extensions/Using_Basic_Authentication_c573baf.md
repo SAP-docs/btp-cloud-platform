@@ -8,11 +8,11 @@
 
 To be able to use Basic authentication, you need to configure both SAP S/4HANA Cloud and SAP BTP sides.
 
- <a name="loioc573bafd1f2c4282b26966647e46f309 loio9d6c6593bd504912a21b6d0ab688ee40__loio9d6c6593bd504912a21b6d0ab688ee40"/>
+ <a name="loio9d6c6593bd504912a21b6d0ab688ee40"/>
 
 <!-- loio9d6c6593bd504912a21b6d0ab688ee40 -->
 
-# Set Up SAP S/4HANA Cloud Side
+## Set Up SAP S/4HANA Cloud Side
 
 
 
@@ -56,6 +56,7 @@ From the SAP S/4HANA Cloud side you need to maintain the communication settings 
 
     10. Choose *Save*.
 
+
 3.  Create a communication arrangement and select a communication scenario. See [Maintain Communication Arrangements](https://help.sap.com/viewer/f544846954f24b9183eddadcc41bdc3b/1808.500/en-US/fab3fd449cf74c6384622b98831e989e.html).
 
 
@@ -64,11 +65,11 @@ From the SAP S/4HANA Cloud side you need to maintain the communication settings 
 
 [Communication Management](https://help.sap.com/viewer/f544846954f24b9183eddadcc41bdc3b/1808.500/en-US/2e84a10c430645a88bdbfaaa23ac9ff7.html)
 
- <a name="loioc573bafd1f2c4282b26966647e46f309 loio213518e3fc7e487f9a6ff6a7cc072f76__loio213518e3fc7e487f9a6ff6a7cc072f76"/>
+ <a name="loio213518e3fc7e487f9a6ff6a7cc072f76"/>
 
 <!-- loio213518e3fc7e487f9a6ff6a7cc072f76 -->
 
-# Set Up SAP BTP Side
+## Set Up SAP BTP Side
 
 
 
@@ -93,14 +94,14 @@ You have logged into the SAP BTPSAP BTP cockpit from the SAP BTP landing page fo
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Parameter
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Value
 
@@ -109,14 +110,14 @@ You have logged into the SAP BTPSAP BTP cockpit from the SAP BTP landing page fo
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `Name`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter a meaningful name.
 
@@ -125,14 +126,14 @@ You have logged into the SAP BTPSAP BTP cockpit from the SAP BTP landing page fo
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `Type`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***HTTP***
 
@@ -141,14 +142,14 @@ You have logged into the SAP BTPSAP BTP cockpit from the SAP BTP landing page fo
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `Description`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     \(Optional\) Enter a meaningful description.
 
@@ -157,14 +158,14 @@ You have logged into the SAP BTPSAP BTP cockpit from the SAP BTP landing page fo
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `URL`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The service URL from the communication arrangement.
 
@@ -173,14 +174,14 @@ You have logged into the SAP BTPSAP BTP cockpit from the SAP BTP landing page fo
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `Proxy Type`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***Internet***
 
@@ -189,14 +190,14 @@ You have logged into the SAP BTPSAP BTP cockpit from the SAP BTP landing page fo
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `Authentication`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***BasicAuthentication***
 
@@ -205,14 +206,14 @@ You have logged into the SAP BTPSAP BTP cockpit from the SAP BTP landing page fo
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `User`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The name of the communication user you have in the SAP S/4HANA Cloud tenant.
 
@@ -221,14 +222,14 @@ You have logged into the SAP BTPSAP BTP cockpit from the SAP BTP landing page fo
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `Password`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The password for the communication user.
 
@@ -238,9 +239,115 @@ You have logged into the SAP BTPSAP BTP cockpit from the SAP BTP landing page fo
     </tr>
     </table>
     
-4.  Select the *Use default JDK truststore* checkbox.
+4.  \(Optional\) If you are using SAP Business Application Studio to develop your application, you have to specify another set of additional properties. See [What is SAP Business Application Studio](https://help.sap.com/products/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/8f46c6e6f86641cc900871c903761fd4.html?version=Cloud).
 
-5.  Save your entries.
+    In the *Additional Properties*, choose *New Property* to define the following properties related to the SAP Business Application Studio:
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Parameter
+
+
+    
+    </th>
+    <th valign="top">
+
+    Value
+
+
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    `WebIDEUsage`
+
+
+    
+    </td>
+    <td valign="top">
+
+    Specify this property with value ***odata\_gen*** to consume an OData service in your application.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    `WebIDEEnabled`
+
+
+    
+    </td>
+    <td valign="top">
+
+    If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to ***true***.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    `HTML5.DynamicDestination`
+
+
+    
+    </td>
+    <td valign="top">
+
+    If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to ***true***.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    `product.name`
+
+
+    
+    </td>
+    <td valign="top">
+
+    ***SAP S/4HANA Cloud***
+
+    The type of the SAP System for which you create this HTTP destination.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    `communicationScenarioID`
+
+
+    
+    </td>
+    <td valign="top">
+
+    The ID of the communication scenario.
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
+5.  6.  Select the *Use default JDK truststore* checkbox.
+
+7.  Save your entries.
 
 
 **Related Information**  

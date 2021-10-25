@@ -11,21 +11,21 @@ Method `CHANGEDOCUMENT_READ` reads the change documents for one change document 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Field Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -34,21 +34,21 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ET\_CDREDADD\_TAB
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Table type for structure `CDREDADD`, change documents return table
 
@@ -57,21 +57,21 @@ Table type for structure `CDREDADD`, change documents return table
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 I\_OBJECTCLAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Name of change document object
 
@@ -80,21 +80,21 @@ Name of change document object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IT\_OBJECTID
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Range table of application object IDs
 
@@ -103,21 +103,21 @@ Range table of application object IDs
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 I\_DATE\_OF\_CHANGE
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 From-change date for search. All change documents are selected written on the specified date or later are found.
 
@@ -126,21 +126,21 @@ From-change date for search. All change documents are selected written on the sp
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 I\_TIME\_OF\_CHANGE
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 From-change time for search. If no change time is specified, a selection is made from the time '000000'.
 
@@ -149,21 +149,21 @@ From-change time for search. If no change time is specified, a selection is made
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 I\_DATE\_UNTIL
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Change date up to which you want to search. All change documents are selected written up to and including this date.
 
@@ -172,21 +172,21 @@ Change date up to which you want to search. All change documents are selected wr
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 I\_TIME\_UNTIL
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Latest change time in search. Time to which change documents are read on the "To" change date. If no time is passed, all change documents on the "To" change date are read.
 
@@ -195,21 +195,21 @@ Latest change time in search. Time to which change documents are read on the "To
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IT\_USERNAME
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Username of the person responsible in change document. Only those change documents are selected that document changes made by this user. If no user name is passed, change documents are read for all users.
 
@@ -218,42 +218,42 @@ Username of the person responsible in change document. Only those change documen
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IT\_READ\_OPTIONS
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 local\_time
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If it is set, the date and time information in the formatted change documents is displayed in the local time of the user.
 
@@ -262,21 +262,21 @@ If it is set, the date and time information in the formatted change documents is
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 time\_zone
 
 
 
 </td>
-<td>
+<td valign="top">
 
 It contains the time zone in which the change documents were written. If it’s not set UTC applies.
 
@@ -289,21 +289,21 @@ If the change documents were saved in CET, the parameter must be set to CET.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 it\_changenr
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Range table for change document number. Change document numbers were created internally as part of key of change documents. The key of change document is represented by Object name, Object ID of the application object and a change number. During creation of change documents using the write method of class `<name space>CL_<change document object name>_CHDO`
 
@@ -320,21 +320,21 @@ Change documents numbers were received by export paramter `CHANGENUMBER`.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Field Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -343,19 +343,19 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 OBJECTCLAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Name of Change Document Object
 
@@ -364,19 +364,19 @@ Name of Change Document Object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 OBJECTID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Object ID of application object
 
@@ -385,19 +385,19 @@ Object ID of application object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 OBJECTID\_DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Object value
 
@@ -406,19 +406,19 @@ Object value
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CHANGENR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Change Number of Document
 
@@ -427,19 +427,19 @@ Change Number of Document
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 OBJECTTXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Object Description
 
@@ -448,19 +448,19 @@ Object Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 USERNAME
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Username of the person responsible in change document
 
@@ -469,19 +469,19 @@ Username of the person responsible in change document
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 USERNAME\_DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Username of the person responsible in change document
 
@@ -490,19 +490,19 @@ Username of the person responsible in change document
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 UDATE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Creation date of the change document
 
@@ -511,19 +511,19 @@ Creation date of the change document
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 UDATE\_DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Creation date of the change document
 
@@ -532,19 +532,19 @@ Creation date of the change document
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 UTIME
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Time changed
 
@@ -553,19 +553,19 @@ Time changed
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 UTIME\_DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Time changed
 
@@ -574,19 +574,19 @@ Time changed
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 TCODE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Transaction in which a change was made
 
@@ -595,19 +595,19 @@ Transaction in which a change was made
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 APPLNAME
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application Object
 
@@ -616,19 +616,19 @@ Application Object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 APPLTYPE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application Type
 
@@ -637,19 +637,19 @@ Application Type
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 TABNAME
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Change document creation: Table name
 
@@ -658,19 +658,19 @@ Change document creation: Table name
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 TABNAME\_DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Change document creation: Table name
 
@@ -679,19 +679,19 @@ Change document creation: Table name
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 TABKEY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Key of Changed Table Line
 
@@ -700,19 +700,19 @@ Key of Changed Table Line
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 TABKEY\_DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Key of Changed Table Line
 
@@ -721,19 +721,19 @@ Key of Changed Table Line
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 KEYLEN
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Table key length
 
@@ -742,19 +742,19 @@ Table key length
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CHNGIND
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Type of Change
 
@@ -763,19 +763,19 @@ Type of Change
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 FNAME
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Field Name
 
@@ -784,19 +784,19 @@ Field Name
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 FNAME\_DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Field Name
 
@@ -805,19 +805,19 @@ Field Name
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 FTEXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Explanatory Short Text
 
@@ -826,19 +826,19 @@ Explanatory Short Text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 TEXTART
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create change document: Text type
 
@@ -847,19 +847,19 @@ Create change document: Text type
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SPRACHE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Language Key
 
@@ -868,19 +868,19 @@ Language Key
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 TEXT\_CASE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Text change flag \('X'\)
 
@@ -889,19 +889,19 @@ Text change flag \('X'\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 OUTLEN
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Output length of the old and new value
 
@@ -910,19 +910,19 @@ Output length of the old and new value
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 F\_OLD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Old contents of changed field
 
@@ -931,19 +931,19 @@ Old contents of changed field
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 F\_NEW
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New contents of changed field
 
@@ -952,19 +952,19 @@ New contents of changed field
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 F\_NEW\_DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New contents of changed field
 
@@ -973,19 +973,19 @@ New contents of changed field
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 VALUE\_OLD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Old Extended Value \(Long\)
 
@@ -994,19 +994,19 @@ Old Extended Value \(Long\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 VALUE\_OLD\_DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Old Extended Value \(Long\)
 
@@ -1015,19 +1015,19 @@ Old Extended Value \(Long\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 VALUE\_NEW
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New Extended Value \(Long\)
 
@@ -1036,19 +1036,19 @@ New Extended Value \(Long\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 VALUE\_NEW\_DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New Extended Value \(Long\)
 
@@ -1057,19 +1057,19 @@ New Extended Value \(Long\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 VALUE\_RAWSTR\_OLD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Old Change Document Value for RAWSTRING Variable
 
@@ -1078,19 +1078,19 @@ Old Change Document Value for RAWSTRING Variable
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 VALUE\_RAWSTR\_OLD\_DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Old Change Document Value for RAWSTRING Variable
 
@@ -1099,19 +1099,19 @@ Old Change Document Value for RAWSTRING Variable
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 VALUE\_RAWSTR\_NEW
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New Change Document Value for RAWSTRING Variable
 
@@ -1120,19 +1120,19 @@ New Change Document Value for RAWSTRING Variable
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 VALUE\_RAWSTR\_NEW\_DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New Change Document Value for RAWSTRING Variable
 
@@ -1141,19 +1141,19 @@ New Change Document Value for RAWSTRING Variable
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 VALUE\_SHSTR\_OLD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Old Extended Value \(Short\)
 
@@ -1162,19 +1162,19 @@ Old Extended Value \(Short\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 VALUE\_SHSTR\_OLD\_DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Old Extended Value \(Short\)
 
@@ -1183,19 +1183,19 @@ Old Extended Value \(Short\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 VALUE\_SHSTR\_NEW
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New Extended Value \(Short\)
 
@@ -1204,19 +1204,19 @@ New Extended Value \(Short\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 VALUE\_SHSTR\_NEW\_DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New Extended Value \(Short\)
 
@@ -1225,19 +1225,19 @@ New Extended Value \(Short\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 KEYGUID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 KEYGUID for Link to CDPOS\_UID
 
@@ -1246,19 +1246,19 @@ KEYGUID for Link to CDPOS\_UID
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 TABKEY254
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Key of Modified Table Row
 
@@ -1267,19 +1267,19 @@ Key of Modified Table Row
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 TABKEY254\_DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Key of Modified Table Row
 
@@ -1288,19 +1288,19 @@ Key of Modified Table Row
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 EXT\_KEYLEN
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Table key length
 
@@ -1309,19 +1309,19 @@ Table key length
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 KEYGUID\_STR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 KEYGUID for Link to CDPOS\_STR
 
@@ -1330,19 +1330,19 @@ KEYGUID for Link to CDPOS\_STR
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 VERSION
 
 
 
 </td>
-<td>
+<td valign="top">
 
 3-Byte field
 

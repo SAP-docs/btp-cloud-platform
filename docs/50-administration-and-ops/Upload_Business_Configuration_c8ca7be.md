@@ -55,6 +55,7 @@ All of these business catalogs are contained in the business role template SAP\_
 
 
 
+
 ### 
 
 **Use case 2:** Import content for your custom C tables using this app.
@@ -74,7 +75,4 @@ All of these business catalogs are contained in the business role template SAP\_
 ## Component for Customer Incidents
 
 If you need support or experience issues, please report an incident under component BC-CUS-TOL-BCD.
-
--   **[How to Upload Business Configurations](How_to_Upload_Business_Configurations_92fd1be.md)**  
-
 

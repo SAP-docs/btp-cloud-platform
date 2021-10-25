@@ -15,21 +15,21 @@ Before you proceed, make sure you addressed the prerequisites listed in the tabl
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Action
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Mandatory
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Link / Remarks
 
@@ -38,21 +38,21 @@ Link / Remarks
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Install and set up **kubectl**.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 
@@ -61,67 +61,67 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Download the **kubeconfig** file to access the cluster using the command line.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
-To download the kubeconfig file from the Kyma Console, click on the user icon in the top right corner of the page and choose *Get Kubeconfig*. For more information, read [this](https://kyma-project.io/docs/components/security/#tutorials-get-the-kubeconfig-file) document.
+To download the kubeconfig file from the Kyma Console, click on the user icon in the top right corner of the page and choose *Get Kubeconfig*.
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Enable the Kyma environment.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
-[Enable Kyma Environment](../50-administration-and-ops/Enable_Kyma_Environment_09dd313.md)
+[Create the Kyma Environment Instance](../50-administration-and-ops/Create_the_Kyma_Environment_Instance_09dd313.md)
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Register cloud providers if you want to use the services they provide.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Register Cloud Providers](Register_Cloud_Providers_740132a.md)
 

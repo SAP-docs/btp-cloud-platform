@@ -7,14 +7,14 @@ Follow the tutorials below to get familiar with the ABAP environment.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 To learn about the ABAP environment
 
 
 
 </th>
-<th>
+<th valign="top">
 
 See
 
@@ -23,7 +23,7 @@ See
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Trial Account**
 
@@ -32,7 +32,7 @@ Getting Started
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -45,14 +45,14 @@ Getting Started
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ABAP RESTful Programming Model
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Managed Scenario
 
@@ -71,7 +71,7 @@ Unmanaged Scenario
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Customer Account**
 
@@ -80,7 +80,7 @@ Getting Started
 
 
 </td>
-<td>
+<td valign="top">
 
  [Create a Developer User](https://developers.sap.com/tutorials/abap-environment-developer-user.html) 
 
@@ -89,14 +89,14 @@ Getting Started
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ABAP RESTful Programming Model
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Managed Scenario
 
@@ -115,14 +115,14 @@ Unmanaged Scenario
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Connectivity
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Create Business Partner in S/4HANA Cloud Using ABAP Environment Data](https://developers.sap.com/tutorials/abap-environment-business-partner.html)
 
@@ -141,14 +141,14 @@ Connect to SAP S/4HANA Cloud with ABAP Environment
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Authorization
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Create Lock Object](https://developers.sap.com/tutorials/abap-environment-lock-object.html)
 
@@ -165,14 +165,14 @@ Authorization
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Lifecycle Management
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Transport a Software Component Between Two ABAP Instances](https://developers.sap.com/tutorials/abap-environment-gcts.html)
 
@@ -183,14 +183,14 @@ Lifecycle Management
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Advanced Tutorials
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Create an ABAP Table Type](https://developers.sap.com/tutorials/abap-env-create-table-type.html)
 

@@ -8,7 +8,7 @@
 
 ## Context
 
-Multitenancy allows service providers to host different consumers \(tenants\) on a single shared system. But how do you, as a service provider, keep track of all your tenants and systems? This is where the *Landscape Portal* comes in. The *Landscape Portal* app acts as a central tool to allow service providers to perform lifecycle management operations such as add-on updates, provisioning new consumers as new tenants, and more.
+Multitenancy allows service providers to host different consumers \(tenants\) on a single shared system. But how do you, as a service provider, keep track of all your tenants and systems? This is where the *Landscape Portal* comes in. The *Landscape Portal* acts as a central tool to allow service providers to perform lifecycle management operations such as add-on updates, provisioning new consumers as new tenants, and more.
 
 
 
@@ -36,10 +36,7 @@ You can currently use the *Landscape Portal* to do the following:
 
 
 > ### Note:  
-> Keep in mind that a consumer subscription-based multitenancy is only possible in those systems in which you provide your software as a service \(SaaS\) solution to consumers, i.e. your production and test systems. It is not available in development systems. However, in development systems, in addition to your development tenant, you can create further test tenants within the Landscape Portal if required.
-
--   **[Accessing the Landscape Portal](Accessing_the_Landscape_Portal_2e1e393.md)**  
-
+> Keep in mind that a consumer subscription-based multitenancy is only possible in those systems in which you provide your software as a service \(SaaS\) solution to consumers, i.e. your production and test systems. It is not available in development systems. However, in development systems, in addition to your development tenant, you can create further test tenants within the *Landscape Portal* if required.
 
 **Related Information**  
 

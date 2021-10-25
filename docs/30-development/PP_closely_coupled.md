@@ -100,7 +100,3 @@ In this scenario, we enable the service to accept the JSON Web Token \(JWT\) of 
     Your test user can use the scopes delivered from the `Viewer` template to access business application A or service B directly or indirectly.
 
 
--   **[Use Foreign Scope Option for Principal Propagation with Tightly Coupled Developments](Use_Foreign_Scope_Option_for_Principal_Propagation_with_Tightly_Coupled_Developments_9cad9e3.md "With foreign scope reference, configure the business application to accept new scopes for the service without having to modify the
-		business application.")**  
-With foreign scope reference, configure the business application to accept new scopes for the service without having to modify the business application.
-

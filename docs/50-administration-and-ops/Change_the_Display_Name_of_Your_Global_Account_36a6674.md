@@ -1,5 +1,7 @@
 <!-- loio36a6674cf7184907aca3f062f83588e8 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Change the Display Name of Your Global Account
 
 Change the display name for the global account using the SAP BTP cockpit.
@@ -13,11 +15,11 @@ Change the display name for the global account using the SAP BTP cockpit.
 > ### Tip:  
 > To find out how to tell which cloud management tools feature set your global account uses, see [Cloud Management Tools — Feature Set Overview](../10-concepts/Cloud_Management_Tools_—_Feature_Set_Overview_caf4e4e.md).
 
- <a name="loio36a6674cf7184907aca3f062f83588e8 task_af5_xsw_2qb__task_af5_xsw_2qb"/>
+ <a name="task_af5_xsw_2qb"/>
 
 <!-- task\_af5\_xsw\_2qb -->
 
-# Changing the global account name \[Feature Set A\]
+## Changing the global account name \[Feature Set A\]
 
 
 
@@ -50,11 +52,11 @@ The overview of global accounts available to you is your starting point for view
 3.  Save your changes.
 
 
- <a name="loio36a6674cf7184907aca3f062f83588e8 task_o14_g5w_2qb__task_o14_g5w_2qb"/>
+ <a name="task_o14_g5w_2qb"/>
 
 <!-- task\_o14\_g5w\_2qb -->
 
-# Changing the global account name \[Feature Set B\]
+## Changing the global account name \[Feature Set B\]
 
 
 
@@ -83,7 +85,7 @@ You are an admin of the global account that you'd like to edit.
 
 2.  Navigate to the *Account Explorer* page.
 
-3.  In the *Directories & Subaccounts* view, locate the first entry in your account structure, which is your global account, and click   Actions . Then select *Edit*.
+3.  In the *Directories & Subaccounts* view, locate the first entry in your account structure, which is your global account, and click <span class="SAP-icons"></span> Actions. Then select *Edit*.
 
 4.  In the *Edit Global Account* dialog box, enter the new human-readable name for the global account.
 

@@ -30,14 +30,14 @@ Targeting works along the hierarchy of your account model:
 
     <table>
     <tr>
-    <td>
+    <td valign="top">
 
     `--global-account, -ga` *<SUBDOMAIN\>*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Only the global account of the active login can be targeted. As only one active login is possible, SUBDOMAIN can be omitted.
 
@@ -46,14 +46,14 @@ Targeting works along the hierarchy of your account model:
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `--directory, -dir`*<ID\>*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The ID of the directory to be targeted. You can find the directory ID by running `btp get accounts/global-account --show-hierarchy`
 
@@ -62,14 +62,14 @@ Targeting works along the hierarchy of your account model:
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `--subaccount, -sa` *<ID\>*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The ID of the subaccount to be targeted. You can find this ID by running `btp list accounts/subaccount`.
 
@@ -94,8 +94,6 @@ Once you have set the context to a subaccount, all subsequent commands are execu
 
 
 To set the context back to the global account, use `btp target -ga`.
-
-**Parent topicColonSymbol** [General Commands and Options in the btp CLI](General_Commands_and_Options_in_the_btp_CLI_11d9f67.md "Learn how to work with the SAP BTP command line interface (btp CLI). For example, how to log in, get help, and set a default context for commands.")
 
 **Related Information**  
 

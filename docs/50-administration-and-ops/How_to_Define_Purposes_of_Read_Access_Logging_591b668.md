@@ -1,5 +1,7 @@
 <!-- loio591b668e8ce345b9af3311249c88a2c5 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # How to Define Purposes of Read Access Logging
 
 Read Access Logging is always based on a logging purpose that is freely defined according to the requirements of an organization. It describes why specific data is logged.
@@ -26,13 +28,15 @@ In each Read Access Logging configuration, assign a logging purpose. When you de
 
     -   To copy a purpose from SAP, do the following.
 
+
     1.  Under *Search Criteria*, choose *Search*.
 
     2.  From the search results, select a template from SAP.
 
-        Templates from SAP use the   \(SAP Template\)  icon under *Owner* or list ***SAP*** under *Created By* or *Changed By*.
+        Templates from SAP use the <span class="SAP-icons"></span> \(SAP Template\) icon under *Owner* or list ***SAP*** under *Created By* or *Changed By*.
 
-    3.  Under *Actions*, choose   \(Copy\) .
+    3.  Under *Actions*, choose <span class="SAP-icons"></span> \(Copy\).
+
 
 3.  Enter the required data.
 

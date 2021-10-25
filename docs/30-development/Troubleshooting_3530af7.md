@@ -56,6 +56,7 @@ There might be different reasons for a deployment failure. This section describe
 
     -   <application-name\>.log – there is a separate file for each application. It holds the logs, related to the application during staging and starting
 
+
     Command: ***cf dmol -i <process-id\>*** 
 
     > ### Example:  
@@ -159,6 +160,7 @@ Usually, this error happens when the service provider for the service fails to i
     1.  ***cf bind-service <application-name\> <service-name\> \[ADDITIONAL OPTIONS\]*** - binds the application with the given name to service.
 
     2.  ***cf unbind-service <application-name\> <service-name\>*** - unbinds the application with the given name from service.
+
 
 
 

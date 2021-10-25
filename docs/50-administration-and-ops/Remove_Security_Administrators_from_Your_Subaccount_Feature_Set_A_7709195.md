@@ -1,5 +1,7 @@
 <!-- loio7709195cab8d4807be08b0b5167e1940 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Remove Security Administrators from Your Subaccount Feature Set A
 
 Running on the cloud management tools feature set A: You can remove security administrators from your subaccount by deleting them.
@@ -19,6 +21,7 @@ Running on the cloud management tools feature set A: You can remove security adm
     -   They are members of the Cloud Foundry spaces that belong to the organization.
 
     -   They are members of the global account that contains your subaccount.
+
 
 
 
@@ -43,7 +46,7 @@ To remove security administrators from your subaccount, take the following steps
 
     You see a list of the security adminstrators with their respective roles.
 
-4.  To remove a security administrator from your subaccount, choose   \(Delete\) .
+4.  To remove a security administrator from your subaccount, choose <span class="SAP-icons"></span> \(Delete\).
 
 
 **Related Information**  

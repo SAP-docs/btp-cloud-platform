@@ -11,21 +11,21 @@ You can use the `CL_BALI_OBJECT_HANDLER` class as *Application Log Design Time A
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -34,21 +34,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 RO\_OBJ\_HANDLER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Returning
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create, change or delete application log objects
 
@@ -65,21 +65,21 @@ Create a new application log object, optionally with subobjects.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -88,21 +88,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_OBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Importing
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New application log object
 
@@ -111,21 +111,21 @@ New application log object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_OBJECT\_TEXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Importing
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Description for new application log object
 
@@ -134,21 +134,21 @@ Description for new application log object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IT\_SUBOBJECTS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Importing
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Table of new application log subobjects
 
@@ -157,21 +157,21 @@ Table of new application log subobjects
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_PACKAGE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Importing
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Package
 
@@ -180,21 +180,21 @@ Package
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_TRANSPORT\_REQUEST
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Importing
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Transport request
 
@@ -214,21 +214,21 @@ Delete an application log object and all of its subobjects.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -237,21 +237,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_OBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Importing
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application log object
 
@@ -260,21 +260,21 @@ Application log object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_TRANSPORT\_REQUEST
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Importing
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Transport request
 
@@ -291,21 +291,21 @@ Add a new subobject to an existing application log object.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -314,21 +314,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_OBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Importing
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application log object
 
@@ -337,21 +337,21 @@ Application log object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_SUBOBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Importing
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New application log subobject
 
@@ -360,21 +360,21 @@ New application log subobject
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_SUBOBJECT\_TEXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Importing
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Description for new application log subobject
 
@@ -383,21 +383,21 @@ Description for new application log subobject
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_TRANSPORT\_REQUEST
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Importing
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Transport request
 
@@ -414,21 +414,21 @@ Delete a subobject from an application log object.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -437,21 +437,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_OBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Importing
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application log object
 
@@ -460,21 +460,21 @@ Application log object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_SUBOBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Importing
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application log subobject
 
@@ -483,21 +483,21 @@ Application log subobject
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_TRANSPORT\_REQUEST
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Importing
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Transport request
 
@@ -514,21 +514,21 @@ Read an application log object and all of its subobjects
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -537,21 +537,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_OBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Importing
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application log object
 
@@ -560,21 +560,21 @@ Application log object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 EV\_OBJECT\_TEXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Importing
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Description for an application log object
 
@@ -583,21 +583,21 @@ Description for an application log object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ET\_SUBOBJECTS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Importing
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Table of application log subobjects
 

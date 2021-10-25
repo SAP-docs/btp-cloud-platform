@@ -55,10 +55,3 @@ For more information, see:
 -   [Checking Properties of a Number Range Object](Checking_Properties_of_a_Number_Range_Object_8620028.md)
 
 
--   **[Checking Properties of a Number Range Object](Checking_Properties_of_a_Number_Range_Object_8620028.md "")**  
-
--   **[Maintaining Number Range Intervals](Maintaining_Number_Range_Intervals_3184769.md "")**  
-
--   **[Changing the Number Range Status](Changing_the_Number_Range_Status_1d31b5a.md "")**  
-
-

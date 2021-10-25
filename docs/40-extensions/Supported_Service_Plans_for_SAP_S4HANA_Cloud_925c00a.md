@@ -21,6 +21,7 @@ This service plan enables all communication scenarios, both predefined and custo
     -   [Custom Communication Scenarios](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/41b6543c04864dc298123c3ef5efd7a3.html?q=communication%20scenario)
 
 
+
 > ### Note:  
 > These service plans have been deprecated:
 > 

@@ -22,6 +22,8 @@ To undeploy content you need to delete the content from the repository and delet
 
         -   Check the `mtad.yaml ID`.
 
+
+
     > ### Note:  
     > If you do not want to use the `–delete-services` option, you can delete the `app-host` service plan instance manually using the CLI command: `cf delete-service SERVICE-NAME`.
 

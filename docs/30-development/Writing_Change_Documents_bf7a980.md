@@ -12,14 +12,14 @@ The `WRITE` method in the generated class `<name space>CL_<change document objec
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -28,14 +28,14 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OBJECTID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Identifier of the changed application object
 
@@ -44,14 +44,14 @@ Identifier of the changed application object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 UTIME
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Time of change
 
@@ -60,14 +60,14 @@ Time of change
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 UDATE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Date of change
 
@@ -76,14 +76,14 @@ Date of change
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 USERNAME
 
 
 
 </td>
-<td>
+<td valign="top">
 
 User name of the person responsible in change document
 
@@ -92,14 +92,14 @@ User name of the person responsible in change document
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 PLANNED\_CHANGE\_NUMBER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Planned change number \(only for writing planned changes\)
 
@@ -108,14 +108,14 @@ Planned change number \(only for writing planned changes\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OBJECT\_CHANGE\_INDICATOR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Type of Change to Application Object. Possible values are:
 
@@ -131,14 +131,14 @@ Type of Change to Application Object. Possible values are:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 PLANNED\_OR\_REAL\_CHANGES
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can use this parameter to control whether the changes to be logged are actual or planned changes.
 
@@ -156,14 +156,14 @@ Available values:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NO\_CHANGE\_POINTERS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ‘X’: no change pointers will be written. Change pointers are used for Application Link Enabling \(ALE\) master data scenarios. Currently, this parameter is obsolete for SAP Business Technology Platform \(SAP BTP\), ABAP Environment.
 
@@ -172,14 +172,14 @@ NO\_CHANGE\_POINTERS
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ICDTXT\_<change document object name\>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 In this structure, the change document-relevant texts are collected with the corresponding specifications:
 
@@ -197,14 +197,14 @@ In this structure, the change document-relevant texts are collected with the cor
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 UPD\_ICDTXT\_<change document object name\>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Change flag for text table:
 
@@ -218,14 +218,14 @@ Change flag for text table:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 O\_<table name\>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Object-specific parameter for single case tables with the same table structure as <table name\>. The workarea must contain the original data.
 
@@ -234,14 +234,14 @@ Object-specific parameter for single case tables with the same table structure a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 N\_<table name\>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Object-specific parameter for single case tables with the same table structure as <table name\>. The workarea must contain the original data.
 
@@ -250,14 +250,14 @@ Object-specific parameter for single case tables with the same table structure a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Y<table name\>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Object-specific parameter for multiple case tables.
 
@@ -268,14 +268,14 @@ The table must contain the original version of the changed or deleted records. T
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 X<table name\>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The table must contain the current version of the changed or created records. The structure is the same as Y<table name\> \(see above\). The following values for the processing flag exist:
 
@@ -291,14 +291,14 @@ The parameter UPD\_<table name \> \(see below\) initially determines whether the
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 UPD\_<table name \>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 With this flag, you determine the processing logic. The following values exist:
 
@@ -319,6 +319,7 @@ With this flag, you determine the processing logic. The following values exist:
 
 
 
+
 </td>
 </tr>
 </table>
@@ -328,14 +329,14 @@ With this flag, you determine the processing logic. The following values exist:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -344,14 +345,14 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CHANGENUMBER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Change number of the document
 

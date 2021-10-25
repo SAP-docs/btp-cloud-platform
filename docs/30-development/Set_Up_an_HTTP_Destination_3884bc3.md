@@ -35,9 +35,12 @@ To configure an HTTP destination in the SAP BTP cockpit, perform the following s
             > ### Note:  
             > For client certificate authentication, you must upload the X.509 client certificate in P12 format in the ABAP environment, using the *Maintain Client Certificates* application \(for more information, see [Maintain Client Certificates](../50-administration-and-ops/Maintain_Client_Certificates_7f6a8fb.md)\).
 
+
     -   **OnPremise**:
         -   ***BasicAuthentication*** or
         -   ***PrincipalPropagation***.
+
+
 10. If you are using ***ClientCertificateAuthentication*** as authentication method, set the *<Use client-provided certificate\>* flag.
 
     > ### Note:  

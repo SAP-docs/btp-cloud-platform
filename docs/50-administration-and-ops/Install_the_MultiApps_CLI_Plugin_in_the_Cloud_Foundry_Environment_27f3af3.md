@@ -40,6 +40,7 @@ You have installed the Cloud Foundry command line interface version 6.40 or high
 
         ***cf install-plugin multiapps -f***
 
+
     > ### Note:  
     > Alternatively, if you want to install a specific version of the plugin, proceed as follows:
     > 

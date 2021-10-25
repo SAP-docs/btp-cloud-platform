@@ -15,14 +15,14 @@ Create an instance of the log class:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -31,7 +31,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -40,14 +40,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 LOG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Log object: A reference to interface IF\_BALI\_LOG
 
@@ -56,7 +56,7 @@ Log object: A reference to interface IF\_BALI\_LOG
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
@@ -65,14 +65,14 @@ Log object: A reference to interface IF\_BALI\_LOG
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_INTERNAL\_ERROR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Internal error during processing
 
@@ -91,14 +91,14 @@ Create an instance of the log class and set the header:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -107,7 +107,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Importing parameter**
 
@@ -116,14 +116,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 HEADER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Header which is put into the log: Reference to interface IF\_BALI\_HEADER\_SETTER
 
@@ -132,7 +132,7 @@ Header which is put into the log: Reference to interface IF\_BALI\_HEADER\_SETTE
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -141,14 +141,14 @@ Header which is put into the log: Reference to interface IF\_BALI\_HEADER\_SETTE
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 LOG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Log object: A reference to interface IF\_BALI\_LOG
 
@@ -157,7 +157,7 @@ Log object: A reference to interface IF\_BALI\_LOG
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
@@ -166,14 +166,14 @@ Log object: A reference to interface IF\_BALI\_LOG
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>OBJECT\_NOT\_ALLOWED:
 
@@ -184,14 +184,14 @@ Access to the log object of the header is not allowed
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_INVALID\_PARAMETER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The log object or subobject of the header don't exist
 
@@ -200,14 +200,14 @@ The log object or subobject of the header don't exist
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_INTERNAL\_ERROR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Internal error during processing
 
@@ -226,14 +226,14 @@ Get the log handle which is the unique identifier of the log:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -242,7 +242,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -251,14 +251,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 HANDLE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Log handle
 
@@ -277,14 +277,14 @@ Get the log header:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -293,7 +293,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -302,14 +302,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 HEADER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Log header: References to interface IF\_BALI\_HEADER\_GETTER
 
@@ -318,7 +318,7 @@ Log header: References to interface IF\_BALI\_HEADER\_GETTER
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
@@ -327,14 +327,14 @@ Log header: References to interface IF\_BALI\_HEADER\_GETTER
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_INTERNAL\_ERROR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Internal error during processing
 
@@ -353,14 +353,14 @@ Set the log header:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -369,7 +369,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Importing parameter**
 
@@ -378,14 +378,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 HEADER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Header which is put into the log: References to interface IF\_BALI\_HEADER\_SETTER
 
@@ -394,7 +394,7 @@ Header which is put into the log: References to interface IF\_BALI\_HEADER\_SETT
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
@@ -403,14 +403,14 @@ Header which is put into the log: References to interface IF\_BALI\_HEADER\_SETT
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>OBJECT\_NOT\_ALLOWED:
 
@@ -421,14 +421,14 @@ Access to the log object of the header is not allowed
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_INVALID\_PARAMETER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The log object or subobject of the header don't exist
 
@@ -437,14 +437,14 @@ The log object or subobject of the header don't exist
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_INTERNAL\_ERROR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Internal error during processing
 
@@ -463,14 +463,14 @@ Add an item \(e.g. a message\) to the log:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -479,7 +479,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Importing parameter**
 
@@ -488,14 +488,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ITEM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Item which is added: Reference to interface IF\_BALI\_ITEM\_SETTER
 
@@ -504,7 +504,7 @@ Item which is added: Reference to interface IF\_BALI\_ITEM\_SETTER
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
@@ -513,14 +513,14 @@ Item which is added: Reference to interface IF\_BALI\_ITEM\_SETTER
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>OBJECT\_NOT\_ALLOWED:
 
@@ -531,14 +531,14 @@ Access to the log object of the header is not allowed
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_INVALID\_PARAMETER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The log object or subobject of the header don't exist
 
@@ -547,14 +547,14 @@ The log object or subobject of the header don't exist
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_INTERNAL\_ERROR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Internal error during processing
 
@@ -576,14 +576,14 @@ If the item is a message, it is checked whether the log already contains another
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -592,7 +592,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Importing parameter**
 
@@ -601,14 +601,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ITEM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Item which is cumulated or added: Reference to interface IF\_BALI\_ITEM\_SETTER
 
@@ -617,7 +617,7 @@ Item which is cumulated or added: Reference to interface IF\_BALI\_ITEM\_SETTER
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
@@ -626,14 +626,14 @@ Item which is cumulated or added: Reference to interface IF\_BALI\_ITEM\_SETTER
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>OBJECT\_NOT\_ALLOWED:
 
@@ -644,14 +644,14 @@ Access to the log object of the header is not allowed
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_INVALID\_PARAMETER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The log object or subobject of the header don't exist
 
@@ -660,14 +660,14 @@ The log object or subobject of the header don't exist
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_INTERNAL\_ERROR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Internal error during processing
 
@@ -689,14 +689,14 @@ Add all messages from an internal table of type `BAPIRETTAB` table to the log:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -705,7 +705,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Importing parameter**
 
@@ -714,14 +714,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 MESSAGE\_TABLE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An internal table with messages which use type BAPIRETTAB
 
@@ -730,7 +730,7 @@ An internal table with messages which use type BAPIRETTAB
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
@@ -739,14 +739,14 @@ An internal table with messages which use type BAPIRETTAB
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>TOO\_MANY\_ITEMS:
 
@@ -757,14 +757,14 @@ The maximum number 999999 of items was reached
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_INVALID\_PARAMETER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The message ID of one of the messages is initial
 
@@ -773,14 +773,14 @@ The message ID of one of the messages is initial
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_INTERNAL\_ERROR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Internal error during processing
 
@@ -802,14 +802,14 @@ Get a single item from the log:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -818,7 +818,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Importing parameter**
 
@@ -827,14 +827,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 LOG\_ITEM\_NUMBER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Serial number of the item which shall be read \(it is the position of the item in the log\)
 
@@ -843,7 +843,7 @@ Serial number of the item which shall be read \(it is the position of the item i
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -852,14 +852,14 @@ Serial number of the item which shall be read \(it is the position of the item i
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ITEM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Item which was read: Reference to interface IF\_BALI\_ITEM\_GETTER
 
@@ -868,7 +868,7 @@ Item which was read: Reference to interface IF\_BALI\_ITEM\_GETTER
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
@@ -877,14 +877,14 @@ Item which was read: Reference to interface IF\_BALI\_ITEM\_GETTER
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_NOT\_FOUND
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An item with the requested log item number does not exist
 
@@ -893,14 +893,14 @@ An item with the requested log item number does not exist
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_INTERNAL\_ERROR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Internal error during processing
 
@@ -919,14 +919,14 @@ Get all items from the log:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -935,7 +935,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -944,14 +944,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ITEM\_TABLE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Table of all items which are stored in the log. The table has the following structure:
 
@@ -965,7 +965,7 @@ Table of all items which are stored in the log. The table has the following stru
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
@@ -974,14 +974,14 @@ Table of all items which are stored in the log. The table has the following stru
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_NOT\_FOUND
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No item was found in the log
 
@@ -990,14 +990,14 @@ No item was found in the log
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_INTERNAL\_ERROR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Internal error during processing
 

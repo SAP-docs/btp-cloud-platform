@@ -30,21 +30,21 @@ For more information about permissions, see [Getting an Access Token for SAP Clo
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 HTTP Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Action
 
 
 
 </th>
-<th>
+<th valign="top">
 
 URI
 
@@ -53,21 +53,21 @@ URI
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 GET
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Get events
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `events-service.*<app domain\>*.*<landscape domain\>*/cloud-management/v1/events`
 
@@ -76,21 +76,21 @@ Get events
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 GET
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Get event types
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `events-service.*<app domain\>*.*<landscape domain\>*/cloud-management/v1/events/types`
 
@@ -99,11 +99,6 @@ Get event types
 </td>
 </tr>
 </table>
-
--   **[Get Events](Get_Events_0fd393a.md "Get all events associated with administrative operations in your accounts.")**  
-Get all events associated with administrative operations in your accounts.
--   **[Get Event Types](Get_Event_Types_61b71bf.md "Get all available event types, including their categories and their available search parameters.")**  
-Get all available event types, including their categories and their available search parameters.
 
 **Related Information**  
 

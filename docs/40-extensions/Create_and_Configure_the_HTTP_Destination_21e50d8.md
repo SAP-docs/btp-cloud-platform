@@ -29,14 +29,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
 
         <table>
         <tr>
-        <th>
+        <th valign="top">
 
         Parameter
 
 
         
         </th>
-        <th>
+        <th valign="top">
 
         Value
 
@@ -45,14 +45,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </th>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `Name`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Enter a meaningful name.
 
@@ -61,14 +61,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `Type`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         ***HTTP***
 
@@ -77,14 +77,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `Description`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         \(Optional\) Enter a meaningful description.
 
@@ -93,14 +93,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `URL`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         ***https://*<my\_SAP\_Cloud\_for\_Customer\_system\_name\>*.crm.ondemand.com/sap/c4c/odata/v1/c4codataapi***
 
@@ -109,14 +109,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `Proxy Type`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         ***Internet***
 
@@ -125,14 +125,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `Authentication`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         ***OAuth2SAMLBearerAssertion***
 
@@ -141,14 +141,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `Audience`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Go to the SAP Cloud for Customer administration view, then navigate to *Configure Single Sign-On* under *General Settings* and copy the value from the *Local Service Provider* field.
 
@@ -157,14 +157,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `Client Key`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Client ID
 
@@ -175,14 +175,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `Token Service URL`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         ***https://*<my\_SAP\_Cloud\_for\_Customer\_system\_name\>*.crm.ondemand.com/sap/bc/sec/oauth2/token***
 
@@ -191,14 +191,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `Token Service User`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Client ID
 
@@ -209,14 +209,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `Token Service Password`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Client secret
 
@@ -236,14 +236,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
 
         <table>
         <tr>
-        <th>
+        <th valign="top">
 
         Parameter
 
 
         
         </th>
-        <th>
+        <th valign="top">
 
         Value
 
@@ -252,14 +252,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </th>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `authnContextClassRef`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
          ***urn:none*** 
 
@@ -268,14 +268,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `nameIdFormat`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
          ***urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress*** 
 
@@ -284,14 +284,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `scope`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         Scope ID entries separated by space.
 
@@ -304,14 +304,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         </tr>
         <tr>
-        <td>
+        <td valign="top">
 
         `userIdSource`
 
 
         
         </td>
-        <td>
+        <td valign="top">
 
         email
 
@@ -322,6 +322,7 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </table>
         
     3.  Select the *Use default JDK truststore* checkbox.
+
 4.  Save your entries.
 
 

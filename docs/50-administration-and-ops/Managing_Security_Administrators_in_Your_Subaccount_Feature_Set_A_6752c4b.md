@@ -15,15 +15,6 @@ You can also remove the users who are not supposed to have this role.
 > ### Note:  
 > All users with the `User & Role Administrator` role can manage this subaccount, including the security administration tasks.
 
--   **[Add Security Administrators to Your Subaccount \[Feature Set A\]](Add_Security_Administrators_to_Your_Subaccount_Feature_Set_A_fea877c.md "Running on the cloud management tools feature set
-                                    A: Security administrators manage the user and role
-			assignments in their subaccounts. They also determine which identity providers their subaccounts trust.")**  
-Running on the cloud management tools feature set A: Security administrators manage the user and role assignments in their subaccounts. They also determine which identity providers their subaccounts trust.
--   **[Remove Security Administrators from Your Subaccount Feature Set A](Remove_Security_Administrators_from_Your_Subaccount_Feature_Set_A_7709195.md "Running on the cloud management tools feature set
-                                    A: You can remove
-		security administrators from your subaccount by deleting them.")**  
-Running on the cloud management tools feature set A: You can remove security administrators from your subaccount by deleting them.
-
 **Related Information**  
 
 

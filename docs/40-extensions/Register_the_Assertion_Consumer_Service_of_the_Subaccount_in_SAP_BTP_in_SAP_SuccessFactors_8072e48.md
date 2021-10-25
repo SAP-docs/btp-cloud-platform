@@ -32,6 +32,8 @@ You need to register the assertion consumer service of the subaccount in SAP BTP
 
         -   The value of the `EntityID` attribute of `EntityDescriptor` element of the XML file: this is the value of the Audience URL.
 
+
+
 2.  In Provisioning of SAP SuccessFactors, go to your company and choose *Authorized SP Assertion Consumer Service Settings* under the *Service Provider Settings* section.
 
 3.  Choose *Add another Service Provider ACS* and fill in the following fields:
@@ -39,14 +41,14 @@ You need to register the assertion consumer service of the subaccount in SAP BTP
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Field
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Value
 
@@ -55,14 +57,14 @@ You need to register the assertion consumer service of the subaccount in SAP BTP
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Assertion Consumer Service***
+    *Assertion Consumer Service*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The assertion consumer service URL
 
@@ -73,14 +75,14 @@ You need to register the assertion consumer service of the subaccount in SAP BTP
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Logout URL***
+    *Logout URL*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The logout URL
 
@@ -91,14 +93,14 @@ You need to register the assertion consumer service of the subaccount in SAP BTP
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Audience Url***
+    *Audience Url*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The audience URL
 
@@ -109,20 +111,21 @@ You need to register the assertion consumer service of the subaccount in SAP BTP
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***SHA-256 Certificate***
+    *SHA-256 Certificate*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Select the checkbox, if you are using:
 
     -   SAP SuccessFactors, First Half 2021 Release or later
 
     -   The SHA-256 certificate for the identity provider `http://<sap_successfactors_system>/idp/samlmetadata?company=<company_id>&cert=sha2` as it has been set up when establishing the trust between SAP SuccessFactors and SAP BTP. See [Establish Trust Between SAP SuccessFactors and SAP BTP](Establish_Trust_Between_SAP_SuccessFactors_and_SAP_BTP_80a3fd1.md).
+
 
 
     

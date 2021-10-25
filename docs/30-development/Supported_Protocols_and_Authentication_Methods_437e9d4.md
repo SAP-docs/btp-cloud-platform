@@ -15,21 +15,21 @@ Each communication scenario defines which authentication methods can be used. Th
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Protocol
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Available Authentication Methods via Destination Service
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Available Authentication via Outbound Communication User
 
@@ -38,14 +38,14 @@ Available Authentication via Outbound Communication User
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 HTTP \(Internet\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No Authentication
 
@@ -62,7 +62,7 @@ Oauth2 User Token Exchange
 
 
 </td>
-<td>
+<td valign="top">
 
 No Authentication
 
@@ -77,14 +77,14 @@ Oauth2 Client Credentials
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 HTTP \(Cloud Connector\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No Authentication
 
@@ -95,7 +95,7 @@ JWT Principal Propagation
 
 
 </td>
-<td>
+<td valign="top">
 
 No Authentication
 
@@ -106,14 +106,14 @@ Basic Authentication
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SOAP \(Internet\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No Authentication
 
@@ -124,7 +124,7 @@ Client Certificate Authentication
 
 
 </td>
-<td>
+<td valign="top">
 
 No Authentication
 
@@ -137,14 +137,14 @@ Client Certficate Authentication
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SOAP \(Cloud Connector\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No Authentication
 
@@ -153,7 +153,7 @@ Basic Authentication
 
 
 </td>
-<td>
+<td valign="top">
 
 No Authentication
 
@@ -164,14 +164,14 @@ Basic Authentication
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 RFC \(Internet\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Basic Authentication
 
@@ -180,7 +180,7 @@ Client Certificate Authentication
 
 
 </td>
-<td>
+<td valign="top">
 
 Basic Authentication
 
@@ -191,14 +191,14 @@ Client Certificate Authentication
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 RFC \(Cloud Connector\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Basic Authentication
 
@@ -207,7 +207,7 @@ JWT Principal Propagation
 
 
 </td>
-<td>
+<td valign="top">
 
 Basic Authentication
 
@@ -226,14 +226,14 @@ Basic Authentication
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Protocol
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Available Authentication via Inbound Communication User
 
@@ -242,14 +242,14 @@ Available Authentication via Inbound Communication User
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 HTTP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Basic Authentication
 
@@ -260,14 +260,14 @@ Client Certificate Authentication
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SOAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Basic Authentication
 
@@ -278,14 +278,14 @@ Client Certificate Authentication
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 RFC \(Internet\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Basic Authentication
 
@@ -296,14 +296,30 @@ Client Certificate Authentication
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 RFC \(Cloud Connector\)
 
 
 
 </td>
-<td>
+<td valign="top">
+
+Basic Authentication
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SQL-Service
+
+
+
+</td>
+<td valign="top">
 
 Basic Authentication
 
@@ -312,4 +328,9 @@ Basic Authentication
 </td>
 </tr>
 </table>
+
+**Related Information**  
+
+
+[Accessing ABAP-Managed Data from External ODBC-Based Clients](Accessing_ABAP-Managed_Data_from_External_ODBC-Based_Clients_4082fe1.md "As a developer in the ABAP environment, you can access CDS view entities in an ABAP system using SQL and the open database connectivity (ODBC), a standard API for accessing databases. As a result, you can use SQL statements in external analytical tools to access data in database tables that reside in the ABAP environment.")
 

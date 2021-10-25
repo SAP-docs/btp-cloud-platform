@@ -146,6 +146,3 @@ Use method `READ_OBJECT` to read an application log object with its subobjects.
 > ENDTRY.
 > ```
 
--   **[Classes and Interfaces of the Design Time API](Classes_and_Interfaces_of_the_Design_Time_API_e325155.md "")**  
-
-

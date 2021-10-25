@@ -31,6 +31,7 @@ During developing and operating applications on your ABAP environment, these sit
 
         ![](images/SQL_Trace_Directory_a274f4d.png) 
 
+
 2.  On the *Trace Directory* tab page of the SQL trace analysis, choose the new trace you just took.
 
     The default view shows you all SQL traces taken by your ABAP user in the last 24 hours.

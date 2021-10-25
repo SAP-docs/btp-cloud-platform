@@ -26,6 +26,7 @@ You need to have Cloud Foundry Command Line Interface \(CF CLI\) installed for t
 
     -   Mac and Linux: `cf install-plugin` *<path to the downloaded folder\>**</service-fabrik-cli-plugin \[Linux/Mac\]\>*
     -   Windows : `cf install-plugin`*<path to the downloaded folder\>**<\\service-fabrik-cli-plugin.exe \[Windows\]\>*
+
     > ### Note:  
     > If you are reinstalling the plugin, first uninstall the previous version using: `cf uninstall-plugin ServiceFabrikPlugin` 
 

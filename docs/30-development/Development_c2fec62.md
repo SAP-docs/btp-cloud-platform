@@ -11,28 +11,28 @@ SAP BTP supports multiple environments. It features a number of tools and progra
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
  
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Cloud Foundry
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Kyma
 
 
 
 </th>
-<th>
+<th valign="top">
 
 ABAP
 
@@ -41,14 +41,14 @@ ABAP
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Benefits**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Simplified developer experience for business application development
 -   Large choice of programming languages
@@ -60,7 +60,7 @@ ABAP
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Free choice of programming languages and models \(containerized deployments\)
 -   Combines microservices and serverless functions
@@ -71,7 +71,7 @@ ABAP
 
 
 </td>
-<td>
+<td valign="top">
 
 -   ABAP programming language
 -   Fast prototyping with ABAP RESTful Programming Model \(RAP\)
@@ -83,14 +83,14 @@ ABAP
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Shared Benefits**
 
 
 
 </td>
-<td colspan="3">
+<td valign="top" colspan="3">
 
 -   No infrastructure vendor lock-in
 
@@ -106,14 +106,14 @@ ABAP
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Good For**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Managed build-on approach
 -   Enterprise-grade business applications and services
@@ -124,7 +124,7 @@ ABAP
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Open build-on approach
 -   Cloud-native development of apps and services
@@ -134,7 +134,7 @@ ABAP
 
 
 </td>
-<td>
+<td valign="top">
 
 -   User-centric process extensions
 -   Robust, transactional cloud applications
@@ -147,14 +147,14 @@ ABAP
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Skills**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Any major programming languages
 -   SAP Fiori/UI5 and SAP HANA
@@ -162,7 +162,7 @@ ABAP
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Kubernetes knowledge
 -   Docker
@@ -173,7 +173,7 @@ ABAP
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Ability to write modern ABAP code
 -   Core data services
@@ -186,14 +186,6 @@ ABAP
 </table>
 
 We provide detailed information about developing, configuring, and deploying your applications depending on your preferred environment and development approach.
-
--   **[Development in the Cloud Foundry Environment](Development_in_the_Cloud_Foundry_Environment_40a8f8f.md "Learn more about developing applications on the SAP BTP, Cloud Foundry
-                                    environment.")**  
-Learn more about developing applications on the SAP BTP, Cloud Foundry environment.
--   **[Development in the ABAP Environment](Development_in_the_ABAP_Environment_31367ef.md "Learn more about developing applications in the ABAP environment.")**  
-Learn more about developing applications in the ABAP environment.
--   **[Development in the Kyma Environment](Development_in_the_Kyma_Environment_606ec61.md "Learn more about developing applications in the Kyma environment.")**  
-Learn more about developing applications in the Kyma environment.
 
 **Related Information**  
 

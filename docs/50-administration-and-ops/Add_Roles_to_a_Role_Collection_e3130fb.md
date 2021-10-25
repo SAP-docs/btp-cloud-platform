@@ -1,5 +1,7 @@
 <!-- loioe3130fb95aa64970b07d4dc65b24df1a -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Add Roles to a Role Collection
 
 You can add roles to a role collection.
@@ -16,7 +18,7 @@ The roles are derived from role templates that are provided by applications. For
 
 1.  Open the SAP BTP cockpit.
 
-2.  Go to your global account and subaccount \(see [Navigate to Orgs and Spaces](Navigate_to_Orgs_and_Spaces_5bf8735.md)\).
+2.  Go to your global account and subaccount \(see [Navigate in the Cockpit](Navigate_in_the_Cockpit_0874895.md)\).
 
 3.  Choose *Security* \> *Role Collections*.
 
@@ -26,7 +28,7 @@ The roles are derived from role templates that are provided by applications. For
 
 6.  To add a role to the role collection, choose the input field. The role selection screen opens.
 
-    If you accidentally deleted the input field for the new roles, choose     \(Add a role\) to display a new input field.
+    If you accidentally deleted the input field for the new roles, choose <span class="SAP-icons"></span> \(Add a role\) to display a new input field.
 
 7.  Use the dropdown list or the F4 function key under *Role Name* to display the roles that are available. The roles are sorted alphabetically. Choose the role you want to add. You can also select multiple roles from the list below.
 

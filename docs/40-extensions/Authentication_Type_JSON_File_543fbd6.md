@@ -9,14 +9,14 @@ Use the authentication type JSON descriptor to define the authentication type fo
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -25,14 +25,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `systemName`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the system you have registered in a global account in SAP BTP.
 
@@ -57,14 +57,14 @@ The name of the system you have registered in a global account in SAP BTP.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `technicalUser`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the technical user for consuming the SAP SuccessFactors HXM Suite OData API without a logged-in user.
 
@@ -82,14 +82,14 @@ The name of the technical user for consuming the SAP SuccessFactors HXM Suite OD
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 

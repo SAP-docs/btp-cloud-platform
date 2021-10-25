@@ -13,14 +13,14 @@ Use the SAP BTP command line interface \(btp CLI\) to manage operations with glo
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Run the command...
 
@@ -29,14 +29,14 @@ Run the command...
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Get details about a global account, and the account structure \(directories and subaccounts\) of the global account.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp get accounts/global-account`
 
@@ -45,14 +45,14 @@ Get details about a global account, and the account structure \(directories and 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Update the display name and/or description of a global account.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp update accounts/global-account`
 
@@ -75,14 +75,14 @@ Directories allow you to organize and manage your subaccounts according to your 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Run the command...
 
@@ -91,14 +91,14 @@ Run the command...
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Get details about a directory and list the subaccounts and subdirectories in the directory
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp get accounts/directory`
 
@@ -107,14 +107,14 @@ Get details about a directory and list the subaccounts and subdirectories in the
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Create a directory
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp create accounts/directory`
 
@@ -123,14 +123,14 @@ Create a directory
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Update a directory
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp update accounts/directory`
 
@@ -139,14 +139,14 @@ Update a directory
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Delete a directory
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp delete accounts/directory`
 
@@ -155,14 +155,14 @@ Delete a directory
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Change the set of enabled features \(user and entitlement management\) for a directory
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp enable accounts/directory`
 
@@ -171,14 +171,14 @@ Change the set of enabled features \(user and entitlement management\) for a dir
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 List the custom properties assigned to a directory
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp list accounts/custom-property`
 
@@ -199,14 +199,14 @@ For more information, see [Directories \[Feature Set B\]](../10-concepts/Account
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Run the command...
 
@@ -215,14 +215,14 @@ Run the command...
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 List all subaccounts in a global account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp list accounts/subaccount`
 
@@ -231,14 +231,14 @@ List all subaccounts in a global account
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Get details about a subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp get accounts/subaccount`
 
@@ -247,14 +247,14 @@ Get details about a subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Create a subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp create accounts/subaccount`
 
@@ -263,14 +263,14 @@ Create a subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Update a subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp update accounts/subaccount`
 
@@ -279,14 +279,14 @@ Update a subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Delete a subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp delete accounts/subaccount`
 
@@ -295,14 +295,14 @@ Delete a subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Move a subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp move accounts/subaccount`
 
@@ -311,14 +311,14 @@ Move a subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 List the custom properties assigned to a subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp list accounts/custom-property`
 
@@ -327,14 +327,14 @@ List the custom properties assigned to a subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Get all available regions for global account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp list accounts/available-region`
 
@@ -345,8 +345,6 @@ Get all available regions for global account
 </table>
 
 For more information, see [Subaccounts](../10-concepts/Account_Model_8ed4a70.md#loio8d6e3a0fa4ab43e4a421d3ed08128afa).
-
-**Parent topicColonSymbol** [Commands in the btp CLI](Commands_in_the_btp_CLI_a03a555.md "A list of all tasks and respective commands that are available in the SAP BTP command line interface (btp CLI).")
 
 **Related Information**  
 

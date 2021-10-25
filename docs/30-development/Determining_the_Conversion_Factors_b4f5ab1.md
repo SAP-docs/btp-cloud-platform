@@ -15,14 +15,14 @@ Use method `UNIT_PARAMETERS_GET` to determine the data conversion factors of a u
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -31,14 +31,14 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 UNIT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Unit of measurement
 
@@ -59,14 +59,14 @@ Unit of measurement
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -75,14 +75,14 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DECIMALS 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number of decimal places for rounding
 
@@ -91,14 +91,14 @@ Number of decimal places for rounding
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DIMENSION
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Dimension key
 
@@ -107,14 +107,14 @@ Dimension key
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NUMERATOR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Numerator for conversion to SI unit
 
@@ -123,14 +123,14 @@ Numerator for conversion to SI unit
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DENOMINATOR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Denominator for conversion to SI unit
 
@@ -139,14 +139,14 @@ Denominator for conversion to SI unit
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 EXPONENT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Base ten exponent for conversion to SI unit
 
@@ -155,14 +155,14 @@ Base ten exponent for conversion to SI unit
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ADD\_CONST
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Additive constant for conversion to SI unit
 
@@ -171,14 +171,14 @@ Additive constant for conversion to SI unit
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DECAN
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number of decimal places for number display
 
@@ -187,14 +187,14 @@ Number of decimal places for number display
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 FAMUNIT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Unit of measurement family
 
@@ -215,14 +215,14 @@ Unit of measurement family
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Exception Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -231,14 +231,14 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 UNIT\_NOT\_FOUND
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Unit of measurement is not maintained
 

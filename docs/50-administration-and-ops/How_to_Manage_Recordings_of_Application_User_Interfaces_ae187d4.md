@@ -1,5 +1,7 @@
 <!-- loioae187d46129b45bca1622fdaa377ab3f -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # How to Manage Recordings of Application User Interfaces
 
 To use Read Access Logging with user interface technologies like Web Dynpro and Dynpro, you first identify the log-relevant fields. Read Access Logging provides a user interface recorder to identify those fields.
@@ -30,13 +32,15 @@ When read access to remote APIs is logged, their contents are already known at d
 
     -   To copy a recording from SAP, do the following.
 
+
     1.  Under *Search Criteria*, choose *Search*.
 
     2.  From the search results, select a template from SAP.
 
-        Templates from SAP use the   \(SAP Template\)  icon under *Owner*.
+        Templates from SAP use the <span class="SAP-icons"></span> \(SAP Template\) icon under *Owner*.
 
-    3.  Under *Actions*, choose   \(Copy\) .
+    3.  Under *Actions*, choose <span class="SAP-icons"></span> \(Copy\).
+
 
 3.  Enter the required data.
 
@@ -47,6 +51,7 @@ When read access to remote APIs is logged, their contents are already known at d
     -   If you created your own recording, the recording is created and started. You can now start the user interface you want to record. The recorder stays in the *Recording* state until you stop it \(choosing the *Stop Recording* icon\). You can restart the recording at a later point in time by choosing the *Start Recording* icon.
 
         Perform the steps as follows.
+
 
 5.  Start the application that you want to record.
 

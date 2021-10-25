@@ -34,14 +34,14 @@ You can pull \(remotely available\) changes of your software component to the se
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Column Name
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Description
 
@@ -50,14 +50,14 @@ You can pull \(remotely available\) changes of your software component to the se
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *<Software Component\>* \(Column initially hidden\)
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Name of the software component that has to be unique per service instance. The maximum length of the name is restricted to 18 characters.
 
@@ -68,14 +68,14 @@ You can pull \(remotely available\) changes of your software component to the se
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *<ID\>* \(UUID, Column initially hidden\)
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     A unique key of the software component.
 
@@ -84,14 +84,14 @@ You can pull \(remotely available\) changes of your software component to the se
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *<Status\>* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Displays whether the pull or checkout process has been successful, is still running, or there has been an error.
 
@@ -105,14 +105,14 @@ You can pull \(remotely available\) changes of your software component to the se
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *<Started By\>* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     E-Mail address of the user who started the pull.
 
@@ -121,14 +121,14 @@ You can pull \(remotely available\) changes of your software component to the se
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *<Start Time\>* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Date and time when the pull has been triggered.
 
@@ -137,14 +137,14 @@ You can pull \(remotely available\) changes of your software component to the se
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *<Change Time\>* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Date and time of the changes during the pull procedure.
 
@@ -168,14 +168,14 @@ You can pull \(remotely available\) changes of your software component to the se
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Column Name
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Description
 
@@ -184,14 +184,14 @@ You can pull \(remotely available\) changes of your software component to the se
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *<Type\>*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The type of a logline can either be "Information", "Success", "Error" or "Warning". Each level is represented with a colored criticality icon.
 
@@ -200,14 +200,14 @@ You can pull \(remotely available\) changes of your software component to the se
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *<Description\>*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Displays a single log entry message.
 
@@ -216,14 +216,14 @@ You can pull \(remotely available\) changes of your software component to the se
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *<Timestamp\>*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Date and time when the entry was logged.
 
@@ -232,14 +232,14 @@ You can pull \(remotely available\) changes of your software component to the se
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *<Index \(Initially hidden\)\>*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The index column is initially hidden but can be enabled when clicking the *Settings* button in the table toolbar.
 

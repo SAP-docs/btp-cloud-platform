@@ -64,6 +64,7 @@ You can use the communication scenario `SAP_COM_0510` to work with Git repositor
     1.  "sc\_name": the name of your Git repository
     2.  "branch\_name": the name of your new branch
     3.  "derived\_from": the branch that your new branch should derive from
+
     **Request**
 
     ```

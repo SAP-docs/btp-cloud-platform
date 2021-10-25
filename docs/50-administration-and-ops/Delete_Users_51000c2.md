@@ -1,5 +1,7 @@
 <!-- loio51000c2254864a39b9f8629715f2c5f1 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Delete Users
 
 As an administrator, you can delete users from your subaccount. When you delete a user, you also delete the user's role collection assignments.
@@ -49,14 +51,14 @@ Keep in mind that you also delete the user's role collection assignments.
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Options
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Procedure
 
@@ -65,36 +67,38 @@ Keep in mind that you also delete the user's role collection assignments.
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    **Delete a single user**
+    Delete a single user
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     1.  Select the row of a user.
 
-    2.  Choose   Delete .
+    2.  Choose <span class="SAP-icons"></span> Delete.
+
 
 
     
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    **Delete multiple users**
+    Delete multiple users
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
-    1.  Choose   Select multiple users  and select users \(see the related link\).
+    1.  Choose <span class="SAP-icons"></span> Select multiple users and select users \(see the related link\).
 
     2.  Choose *Delete*.
+
 
 
     

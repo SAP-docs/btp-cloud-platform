@@ -1,5 +1,7 @@
 <!-- loio37f8871865114f44aebee3db6ac64b72 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Configure Entitlements and Quotas for Directories \[Feature Set B\]
 
 > ### Note:  
@@ -7,11 +9,11 @@
 
 Assign entitlements to directories by adding service plans and distribute the quotas available in your global account to your directories using the SAP BTP cockpit.
 
- <a name="loio37f8871865114f44aebee3db6ac64b72 task_amv_krf_mqb__task_amv_krf_mqb"/>
+ <a name="task_amv_krf_mqb"/>
 
 <!-- task\_amv\_krf\_mqb -->
 
-# Configure Entitlements and Quotas for a Single Directory \[Feature Set B\]
+## Configure Entitlements and Quotas for a Single Directory \[Feature Set B\]
 
 
 
@@ -40,14 +42,14 @@ Assign entitlements to directories by adding service plans and distribute the qu
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Action
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Steps
 
@@ -56,14 +58,14 @@ Assign entitlements to directories by adding service plans and distribute the qu
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     **Add new service plans to the directory**
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the directory. Choose *Add <x\> Service Plans* in the dialog to confirm.
 
@@ -82,16 +84,16 @@ Assign entitlements to directories by adding service plans and distribute the qu
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     **Edit the quota for one or more service plans**
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
-    Use     and     to increase or decrease the quota for each service plan.
+    Use <span class="SAP-icons"></span> and <span class="SAP-icons"></span> to increase or decrease the quota for each service plan.
 
     If you would like to have quota automatically assigned to subaccounts that are created or moved to the directory, follow the same process to set the amount that should be auto-assigned to each subaccount.
 
@@ -105,16 +107,16 @@ Assign entitlements to directories by adding service plans and distribute the qu
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     **Delete a service plan and its quota from the directory**
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
-    Choose     from the *Actions* column.
+    Choose <span class="SAP-icons"></span> from the *Actions* column.
 
 
     
@@ -125,11 +127,11 @@ Assign entitlements to directories by adding service plans and distribute the qu
 6.  Once you're done, choose *Save* to save the changes and exit edit mode for that directory.
 
 
- <a name="loio37f8871865114f44aebee3db6ac64b72 task_mtd_ssf_mqb__task_mtd_ssf_mqb"/>
+ <a name="task_mtd_ssf_mqb"/>
 
 <!-- task\_mtd\_ssf\_mqb -->
 
-# Configure Entitlements and Quotas for Multiple Directories \[Feature Set B\]
+## Configure Entitlements and Quotas for Multiple Directories \[Feature Set B\]
 
 
 
@@ -166,14 +168,14 @@ Assign entitlements to directories by adding service plans and distribute the qu
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Action
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Steps
 
@@ -182,14 +184,14 @@ Assign entitlements to directories by adding service plans and distribute the qu
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     **Add new service plans to the directory**
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the directory. Choose *Add <x\> Service Plans* in the dialog to confirm.
 
@@ -208,16 +210,16 @@ Assign entitlements to directories by adding service plans and distribute the qu
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     **Edit the quota for one or more service plans**
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
-    Use     and     to increase or decrease the quota for each service plan.
+    Use <span class="SAP-icons"></span> and <span class="SAP-icons"></span> to increase or decrease the quota for each service plan.
 
     If you would like to have quota automatically assigned to subaccounts that are created or moved to the directory, follow the same process to set the amount that should be auto-assigned to each subaccount.
 
@@ -231,16 +233,16 @@ Assign entitlements to directories by adding service plans and distribute the qu
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     **Delete a service plan and its quota from the directory**
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
-    Choose     from the *Actions* column.
+    Choose <span class="SAP-icons"></span> from the *Actions* column.
 
 
     

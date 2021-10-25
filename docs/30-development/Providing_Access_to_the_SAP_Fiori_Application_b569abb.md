@@ -41,10 +41,3 @@ In addition to this documentation, the following tutorial is available:
 
 [Integrate List Report into ABAP Fiori Launchpad](https://developers.sap.com/tutorials/abap-environment-abap-flp.html)
 
--   **[Assign the SAP Fiori Application to the IAM App \(Developer\)](Assign_the_SAP_Fiori_Application_to_the_IAM_App_(Developer)_04330b9.md "To ensure consistent authorizations for the business service and its UI, you need to assign the SAP Fiori launchpad app descriptor item
-		and the business service to the same IAM app.")**  
-To ensure consistent authorizations for the business service and its UI, you need to assign the SAP Fiori launchpad app descriptor item and the business service to the same IAM app.
--   **[Integrating the SAP Fiori Application into the SAP Fiori Launchpad \(Administrator\)](Integrating_the_SAP_Fiori_Application_into_the_SAP_Fiori_Launchpad_(Administrator)_e9c4108.md "To ensure that an SAP Fiori application appears in the SAP Fiori launchpad of the business users, you, as an administrator, need to
-		perform a few configuration steps.")**  
-To ensure that an SAP Fiori application appears in the SAP Fiori launchpad of the business users, you, as an administrator, need to perform a few configuration steps.
-

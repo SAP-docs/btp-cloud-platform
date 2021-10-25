@@ -65,5 +65,5 @@ The API access plan only uses binding secrets.
 
 [Creating Service Keys](../30-development/Creating_Service_Keys_4514a14.md "You can use service keys to generate credentials to communicate directly with a service instance. Once you configure them for your service, local clients, apps in other spaces, or entities outside your deployment can access your service with these keys.")
 
-[Service Instance Secrets](Service_Instance_Secrets_5578ec4.md "When an application consumes a service instance of the SAP Authorization and Trust Management service (XSUAA), the application identifies itself to the service instance with a client ID and client secret. The client ID and client secret are the credentials with which an application authenticates itself to the service instance.")
+[Service Instance Secrets](Service_Instance_Secrets_5578ec4.md "When an application consumes a service instance of the SAP Authorization and Trust Management service (XSUAA), the application identifies itself to the service instance with a client ID and a secret. The client ID and secret are the credentials with which an application authenticates itself to the service instance.")
 

@@ -65,12 +65,3 @@ As an administrator in the ABAP environment, you can now grant authorizations to
 
 As a result, business users can view, create, update, or delete bonus calculations again, depending on their business roles.
 
--   **[Protecting the Service \(Developer\)](Protecting_the_Service_(Developer)_4134d8a.md "With creating an authorization object for your service and with the implementation of a protection against unauthorized creation and
-		change activities, you implement a basic protection of your service.")**  
-With creating an authorization object for your service and with the implementation of a protection against unauthorized creation and change activities, you implement a basic protection of your service.
--   **[Developing Authorizations for Business Users \(Developer\)](Developing_Authorizations_for_Business_Users_(Developer)_6466244.md "After you’ve protected your service against unauthorized use, you can now create the objects that are needed to grant authorizations for
-		business users: authorization default values, an IAM app, a business catalog, and a business role.")**  
-After you’ve protected your service against unauthorized use, you can now create the objects that are needed to grant authorizations for business users: authorization default values, an IAM app, a business catalog, and a business role.
--   **[Creating a Business Role and Assigning Business Users \(Administrator\)](Creating_a_Business_Role_and_Assigning_Business_Users_(Administrator)_f5c49ec.md "To be able grant authorizations to business users, you need to create a business role that you then assign to the users.")**  
-To be able grant authorizations to business users, you need to create a business role that you then assign to the users.
-

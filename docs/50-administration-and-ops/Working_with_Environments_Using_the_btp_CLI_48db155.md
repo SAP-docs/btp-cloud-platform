@@ -7,14 +7,14 @@ Use the SAP BTP command line interface \(btp CLI\) to manage runtime environment
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Run the command ...
 
@@ -23,14 +23,14 @@ Run the command ...
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Get all available environments for a subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp list accounts/available-environment`
 
@@ -39,14 +39,14 @@ Get all available environments for a subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Get details about an environment available for a subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp get accounts/available-environment`
 
@@ -55,14 +55,14 @@ Get details about an environment available for a subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Get all environment instances of a subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp list accounts/environment-instance`
 
@@ -71,14 +71,14 @@ Get all environment instances of a subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Get a specific environment instance of a subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp get accounts/environment-instance`
 
@@ -87,14 +87,14 @@ Get a specific environment instance of a subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Create an environment instance in a subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp create accounts/environment-instance`
 
@@ -103,14 +103,14 @@ Create an environment instance in a subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Update the plan and/or configuration parameters of an environment in a subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp update accounts/environment-instance`
 
@@ -119,14 +119,14 @@ Update the plan and/or configuration parameters of an environment in a subaccoun
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Delete environment instances of a subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp delete accounts/environment-instance`
 
@@ -135,8 +135,6 @@ Delete environment instances of a subaccount
 </td>
 </tr>
 </table>
-
-**Parent topicColonSymbol** [Commands in the btp CLI](Commands_in_the_btp_CLI_a03a555.md "A list of all tasks and respective commands that are available in the SAP BTP command line interface (btp CLI).")
 
 **Related Information**  
 

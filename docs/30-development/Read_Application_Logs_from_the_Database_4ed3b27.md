@@ -14,6 +14,7 @@ Interface `IF_BALI_LOG_DB` contains the following methods which can be used to r
 
     -   If the optional parameter `READ_ONLY_HEADER` is set, only the log header is read from the database. The log items are not read yet.
 
+
 -   LOAD\_LOGS\_VIA\_FILTER: Load one or more logs from the database.
 
     -   The logs are identified by a filter object of interface `IF_BALI_LOG_FILTER`.
@@ -21,6 +22,7 @@ Interface `IF_BALI_LOG_DB` contains the following methods which can be used to r
     -   The method returns an internal table of objects of interface `IF_BALI_LOG`.
 
     -   If the optional parameter `READ_ONLY_HEADER` is set, only the log headers are read from the database. The log items are not read yet.
+
 
 
 The following authorization is checked before a log is read from the database:

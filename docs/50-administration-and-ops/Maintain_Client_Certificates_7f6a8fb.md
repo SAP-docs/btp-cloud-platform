@@ -49,9 +49,6 @@ Once you have uploaded your certificate in the *Maintain Client Certificates* ap
 
 If you need support or experience issues, please report an incident under component `BC-SRV-APS-COM`.
 
--   **[Prerequisites for Maintaining Client Certificates](Prerequisites_for_Maintaining_Client_Certificates_6c4feea.md "")**  
-
-
 **Related Information**  
 
 

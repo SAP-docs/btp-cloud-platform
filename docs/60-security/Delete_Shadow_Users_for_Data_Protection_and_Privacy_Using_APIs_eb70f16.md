@@ -54,6 +54,7 @@ The User Account and Authentication service stores user-related data records in 
     > 
     > -   Not be so long that the filter no longer meets your data protection and privacy requirements.
     > 
+    > 
     > Account for users on parental leave or on a longer leave of absence, too.
 
     > ### Caution:  

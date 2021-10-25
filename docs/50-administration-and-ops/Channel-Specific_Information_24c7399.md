@@ -13,14 +13,14 @@ The following table shows the objects for each channel that can be logged.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Channel
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Data Logged
 
@@ -29,14 +29,14 @@ Data Logged
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Remote Function Call
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Remote-enabled function modules:
 
@@ -50,14 +50,14 @@ Read Access Logging takes place when data leaves the system.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Dynpro
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Configuration is based on Dynpro recordings that list the UI elements from a Dynpro application. Read access to these UI elements is then logged.
 
@@ -73,14 +73,14 @@ For more information, see:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Web Dynpro
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Configuration is based on Web Dynpro recordings that contain UI elements from a Web Dynpro application. When recording, UI elements from more than one Web Dynpro application can be gathered, but each configuration is based on UI elements from only one Web Dynpro application within a recording.
 
@@ -97,14 +97,14 @@ For more information, see:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Web Service
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Web service operations:
 
@@ -125,14 +125,14 @@ Web service operations:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ALE/IDoc Communication
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IDoc outbound
 
@@ -150,14 +150,14 @@ Read Access Logging takes place when IDoc data leaves the system, right before t
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP BW
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Query requests
 -   Query results or outputs
@@ -170,14 +170,14 @@ SAP BW
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 KPro
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Read Access Logging takes place when Knowledge Provider \(KPro\) is used to access the documents.
 
@@ -188,14 +188,14 @@ Logging is done for specific PHIO classes for which the Read Access Logging is a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Output Forms \(DDIC Interface\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Read Access Logging takes place when an Output Form is rendered for Print Output, Preview or next processing by application. You can configure logging for the name of the Output Form as well as for its fields. Note that the name of the form is logged as the field `FORM_NAME`.
 
@@ -204,14 +204,14 @@ Read Access Logging takes place when an Output Form is rendered for Print Output
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP Gateway \(OData\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 For OData version 2 \(V2\) and version 4 \(V4\) both output logging and input logging is supported: In the RAL configuration users can define the requests for which a service should be logged, so the data that is returned by an OData service. The data which is marked as confidential, is logged.
 
@@ -229,14 +229,14 @@ For more information, see:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Electronic Document
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Administrative eDocument data
 -   Administrative eDocument file data
@@ -249,15 +249,8 @@ Electronic Document
 
 
 
+
 </td>
 </tr>
 </table>
-
--   **[Web Dynpro UI Elements that Can Be Logged](Web_Dynpro_UI_Elements_that_Can_Be_Logged_bba5760.md "")**  
-
--   **[Dynpro Screen Elements that Can Be Logged](Dynpro_Screen_Elements_that_Can_Be_Logged_e9ea224.md "A list of screen elements in Dynpro applications that can have read access
-		logged.")**  
-A list of screen elements in Dynpro applications that can have read access logged.
--   **[Tips for Configurations with Log Contexts](Tips_for_Configurations_with_Log_Contexts_91d64bf.md)**  
-
 

@@ -10,6 +10,7 @@ After an application log was read from the database, the items stored in the log
 
     -   The method returns the reference to the item object.
 
+
 -   GET\_ALL\_ITEMS: Read all items from the application log.
 
     -   The method returns an internal table with the following structure:
@@ -17,6 +18,8 @@ After an application log was read from the database, the items stored in the log
         -   The *Log Item Number* of the item
 
         -   The reference to the item object
+
+
 
 
 The item object contains all attributes of the item, for example the severity. Each item object uses interface `IF_BALI_ITEM_GETTER`.
@@ -51,6 +54,7 @@ The category of the item restricts which other attributes of the item are availa
 
     -   Interface of a message is `IF_BALI_MESSAGE_GETTER`.
 
+
     For more information, see [Get a Message](Get_a_Message_670d6d4.md).
 
 -   Free Text
@@ -59,6 +63,7 @@ The category of the item restricts which other attributes of the item are availa
 
     -   Interface of a free text is IF\_BALI\_FREE\_TEXT\_GETTER.
 
+
     For more information, see [Get a Free Text](Get_a_Free_Text_08f1c7d.md).
 
 -   Exception
@@ -66,6 +71,7 @@ The category of the item restricts which other attributes of the item are availa
     -   Attribute CATEGORY contains the value IF\_BALI\_CONSTANTS=\>C\_CATEGORY\_EXCEPTION.
 
     -   Interface of an exception is IF\_BALI\_EXCEPTION\_GETTER.
+
 
     For more information, see [Get an Exception](Get_an_Exception_b1f6ffa.md).
 
@@ -98,11 +104,4 @@ The category of the item restricts which other attributes of the item are availa
 > >  ENDTRY.
 > > ...
 > > ```
-
--   **[Get a Free Text](Get_a_Free_Text_08f1c7d.md "")**  
-
--   **[Get a Message](Get_a_Message_670d6d4.md "")**  
-
--   **[Get an Exception](Get_an_Exception_b1f6ffa.md "")**  
-
 

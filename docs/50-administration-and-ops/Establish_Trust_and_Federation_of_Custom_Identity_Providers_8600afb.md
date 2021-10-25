@@ -29,7 +29,7 @@ By default, platform users in multi-environment subaccounts are users in SAP ID 
 
     You need this subaccount in the Neo environment to access the SAP BTP cockpit. We’re using the subaccount in the Neo environment with a configured trust to an Identity Authentication tenant, and then establish trust between the Identity Authentication tenant and multi-environment subaccounts.
 
-    For more information setting up a Neo subaccount, see <?sap-ot O2O class="- topic/xref " href="c48c2985de5a4fa692f03b7ee3f563b2.xml" text="" desc="" xtrc="xref:3" xtrf="file:/d:/dita/wjg1630305115057/src/cms/content/localization/en-US/8600afb350114462ae8b3475a3ccea54.xml" ?> and <?sap-ot O2O class="- topic/xref " href="80edbe70b8f3478d8a59c21a91a47aa6.xml" text="" desc="" xtrc="xref:4" xtrf="file:/d:/dita/wjg1630305115057/src/cms/content/localization/en-US/8600afb350114462ae8b3475a3ccea54.xml" ?>.
+    For more information setting up a Neo subaccount, see [Create a Subaccount](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/c48c2985de5a4fa692f03b7ee3f563b2.html "Create subaccounts in your global account using the SAP BTP cockpit.") :arrow_upper_right: and [Platform Identity Provider](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/80edbe70b8f3478d8a59c21a91a47aa6.html "The platform identity provider is the user base for access to your SAP BTP subaccount in the Neo environment. The default user base is provided by SAP ID Service. You can switch to an Identity Authentication tenant if you want to use a custom user base.") :arrow_upper_right:.
 
     If you run you own identity provider, connect it to the Identity Authentication service, which has a custom trust configuration with SAP BTP.
 
@@ -51,7 +51,7 @@ Platform users perform technical development, deployment, and administration tas
 -   Enforce your own password and authentication policies, such as stronger passwords or multifactor authentication.
 
 
-For more information, see [Supported Tools and Services When Using Custom Identity Providers for Platform Users\[Feature Set A\]](Supported_Tools_and_Services_When_Using_Custom_Identity_Providers_for_Platform_UsersFeature_Set_A_94ef515.md).
+For more information, see [Supported Tools and Services When Using Custom Identity Providers for Platform Users\[Feature Set A\]](Supported_Tools_and_Services_When_Using_Custom_Identity_Providers_94ef515.md).
 
 
 
@@ -61,7 +61,7 @@ For more information, see [Supported Tools and Services When Using Custom Identi
 
 1.  Connect your Identity Authentication tenant to your subaccount in the Neo environment.
 
-    For more information, see *Create Trust with the Identity Authentication Tenant* under <?sap-ot O2O class="- topic/xref " href="80edbe70b8f3478d8a59c21a91a47aa6.xml" text="" desc="" xtrc="xref:7" xtrf="file:/d:/dita/wjg1630305115057/src/cms/content/localization/en-US/8600afb350114462ae8b3475a3ccea54.xml" ?> in the documentation for SAP BTP, Neo Environment.
+    For more information, see *Create Trust with the Identity Authentication Tenant* under [Platform Identity Provider](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/80edbe70b8f3478d8a59c21a91a47aa6.html "The platform identity provider is the user base for access to your SAP BTP subaccount in the Neo environment. The default user base is provided by SAP ID Service. You can switch to an Identity Authentication tenant if you want to use a custom user base.") :arrow_upper_right: in the documentation for SAP BTP, Neo Environment.
 
 2.  In your Identity Authentication tenant, create an application of type *OpenID Connect*, and configure it. For configuring the Identity Authentication tenant, see [Configure OpenID Connect Application for Resource Owner Password Credentials Flow](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/cafba7730eeb4d4bbfaa0b200e8cfbac.html) in the documentation for Identity Authentication service.
 
@@ -100,7 +100,9 @@ For more information, see [Supported Tools and Services When Using Custom Identi
         > 
         > -   `acme-test` from `https://acme-test.accounts.ondemand.com`
         > 
+        > 
         > Or choose a name that's easier for you to remember. Whatever you choose, choose your origin carefully. We don't support changing the origin after configuration.
+
 
     > ### Note:  
     > Our operations team needs to make manual adjustments in the SAP BTP regions to establish trust between the Identity Authentication tenant and Neo regions.
@@ -140,7 +142,7 @@ For more information, see [Supported Tools and Services When Using Custom Identi
 
 -   Work in the Cloud Foundry command-line interface.
 
-    For more information, see [Log On with a Custom Identity Provider to the Cloud Foundry Environment Using the Cloud Foundry Command-Line Interface](Log_On_with_a_Custom_Identity_Provider_to_the_Cloud_Foundry_Environment_Using_the_Cloud_Foundry_Command-Line_Interface_d477618.md).
+    For more information, see [Log On with a Custom Identity Provider to the Cloud Foundry Environment Using the Cloud Foundry Command-Line Interface](Log_On_with_a_Custom_Identity_Provider_d477618.md).
 
 -   If you want to impose, for example, two-factor authentication to protect your subaccounts, you must configure two-factor authentication in all Identity Authentication applications involved.
 
@@ -151,19 +153,6 @@ For more information, see [Supported Tools and Services When Using Custom Identi
     -   In the application of the Identity Authentication tenant for the Cloud Foundry environment
 
 
--   **[Supported Tools and Services When Using Custom Identity Providers for Platform Users\[Feature Set A\]](Supported_Tools_and_Services_When_Using_Custom_Identity_Providers_for_Platform_UsersFeature_Set_A_94ef515.md "Not all tools and services of SAP BTP support the use of custom identity
-		providers with platform users. We provide a list of tools and services, which support this feature and any restrictions that
-		apply.")**  
-Not all tools and services of SAP BTP support the use of custom identity providers with platform users. We provide a list of tools and services, which support this feature and any restrictions that apply.
--   **[Log On with a Custom Identity Provider to the Cloud Foundry Environment Using the Cloud Foundry Command-Line Interface](Log_On_with_a_Custom_Identity_Provider_to_the_Cloud_Foundry_Environment_Using_the_Cloud_Foundry_Command-Line_Interface_d477618.md "Learn how to use different methods to log on to Cloud
-                                Foundry
-		using a custom identity provider (IdP).")**  
-Learn how to use different methods to log on to Cloud Foundry using a custom identity provider \(IdP\).
--   **[Log on with a Browser to the Cloud Foundry User Account and Authentication service](Log_on_with_a_Browser_to_the_Cloud_Foundry_User_Account_and_Authentication_service_7eb0943.md "Platform users of the Cloud
-                                Foundry
-		environment  have the option to log on with a custom identity provider or the default
-		identity provider. ")**  
-Platform users of the Cloud Foundry environment have the option to log on with a custom identity provider or the default identity provider.
 
 **Related Information**  
 

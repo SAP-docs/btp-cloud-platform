@@ -49,6 +49,8 @@ After both instances are created and configured, you can create the topic-to-que
 
         2.  In the *Plan* dropdown list, select the *standard* service plan. Choose *Create*.
 
+
+
 2.  Assign the necessary roles to your user.
 
     1.  In the SAP BTP cockpit, navigate to your subaccount.
@@ -67,7 +69,9 @@ After both instances are created and configured, you can create the topic-to-que
 
         -   *Enterprise Messaging Subscription Administrator*
 
+
     5.  Choose *Assign Role Collection*.
+
 
 3.  Open the SAP Event Mesh application.
 
@@ -82,6 +86,7 @@ After both instances are created and configured, you can create the topic-to-que
         > ### Note:  
         > If you are using the sample JSON files when creating the SAP S/4HANA Extensibility and the Event Mesh service instances, you should see 2 message clients in the SAP Event Mesh application, *s4hc* and *ems-s4hc*.
 
+
 4.  Create a queue that is specific to your application.
 
     1.  Open the message client created when creating the Event Mesh service instance. For example, choose the *ems-s4hc* tile.
@@ -89,6 +94,7 @@ After both instances are created and configured, you can create the topic-to-que
     2.  Choose the *Queues* tab in the message client page and then choose *Create Queue*.
 
     3.  Enter a queue name. Note that in the blue field of the *Create a New Queue* wizard, the final queue name is displayed. For example, if you write ***my-queue*** in the *Queue Name* field, the final queue name would be *sap/S4HANAOD/ems-s4hc/my-queue*. Choose *Create*.
+
 
 5.  Subscribe this queue to the channel topic that SAP S/4HANA Cloud tenant uses to produce events.
 
@@ -99,8 +105,11 @@ After both instances are created and configured, you can create the topic-to-que
     3.  Choose *Add*.
 
 
+
 **Related Information**  
 
 
 [Manage Queues](https://help.sap.com/viewer/bf82e6b26456494cbdd197057c09979f/Cloud/en-US/57af1bd4e8f54b0a9b36414a5ec6b800.html)
+
+[REST APIs for Events](https://help.sap.com/viewer/bf82e6b26456494cbdd197057c09979f/Cloud/en-US/00d56d697c7549408cfacc8cb6a46b11.html)
 

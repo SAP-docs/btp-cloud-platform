@@ -18,63 +18,63 @@ A list of support components for SAP BTP services and tools. Filter for the serv
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Service Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Short Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Support Component
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Environment
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Capability
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Infrastructure
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Region
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Available as Trial
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Release Status
 
@@ -83,49 +83,49 @@ Release Status
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Agentry](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/f2ae8487f264418e9b6ee49f350124a3.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Develop and run Agentry metadata-driven mobile applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   MOB-CLD-AGS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -145,13 +145,13 @@ Develop and run Agentry metadata-driven mobile applications.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -160,49 +160,49 @@ Develop and run Agentry metadata-driven mobile applications.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Alert Notification](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create and receive real-time alerts about your services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-LCM-ANS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -222,14 +222,14 @@ Create and receive real-time alerts about your services
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -238,49 +238,49 @@ Create and receive real-time alerts about your services
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Alert Notification](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create and receive real-time alerts about your services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-LCM-ANS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -295,14 +295,14 @@ Create and receive real-time alerts about your services
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -311,49 +311,49 @@ Create and receive real-time alerts about your services
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Alert Notification](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create and receive real-time alerts about your services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-LCM-ANS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -365,14 +365,14 @@ Create and receive real-time alerts about your services
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -381,63 +381,63 @@ Create and receive real-time alerts about your services
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Alert Notification](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create and receive real-time alerts about your services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-LCM-ANS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -446,49 +446,49 @@ Create and receive real-time alerts about your services
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Expose your data and processes as APIs and manage their lifecycles.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   OPU-API-OD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -507,14 +507,14 @@ Expose your data and processes as APIs and manage their lifecycles.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -523,49 +523,49 @@ Expose your data and processes as APIs and manage their lifecycles.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Expose your data and processes as APIs and manage their lifecycles.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   OPU-API-OD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -578,14 +578,14 @@ Expose your data and processes as APIs and manage their lifecycles.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -594,49 +594,49 @@ Expose your data and processes as APIs and manage their lifecycles.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Expose your data and processes as APIs and manage their lifecycles.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   OPU-API-OD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Japan \(Tokyo\)
 -   Europe \(Netherlands\)
@@ -648,14 +648,14 @@ Expose your data and processes as APIs and manage their lifecycles.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -664,63 +664,63 @@ Expose your data and processes as APIs and manage their lifecycles.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Expose your data and processes as APIs and manage their lifecycles.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   OPU-API-OD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -729,49 +729,49 @@ Expose your data and processes as APIs and manage their lifecycles.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Mobile App and Device Management](http://help.sap.com/hcp-mobileservice-security) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage your mobile devices.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   MOB-SEC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   US East \(Ashburn\)
@@ -783,14 +783,14 @@ Manage your mobile devices.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -799,49 +799,49 @@ Manage your mobile devices.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Application Autoscaler](https://help.sap.com/viewer/product/Application_Autoscaler/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Automatically increase or decrease the number of application instances.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-AUTOSCALE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
@@ -855,14 +855,14 @@ Automatically increase or decrease the number of application instances.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -871,49 +871,49 @@ Automatically increase or decrease the number of application instances.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Application Autoscaler](https://help.sap.com/viewer/product/Application_Autoscaler/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Automatically increase or decrease the number of application instances.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-AUTOSCALE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -925,14 +925,14 @@ Automatically increase or decrease the number of application instances.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -941,63 +941,63 @@ Automatically increase or decrease the number of application instances.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Application Autoscaler](https://help.sap.com/viewer/product/Application_Autoscaler/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Automatically increase or decrease the number of application instances.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-AUTOSCALE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -1006,63 +1006,63 @@ Automatically increase or decrease the number of application instances.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Application Autoscaler](https://help.sap.com/viewer/product/Application_Autoscaler/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Automatically increase or decrease the number of application instances.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-AUTOSCALE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -1071,49 +1071,49 @@ Automatically increase or decrease the number of application instances.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create, store, access, and analyze application logs.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-LOG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -1132,14 +1132,14 @@ Create, store, access, and analyze application logs.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -1148,49 +1148,49 @@ Create, store, access, and analyze application logs.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create, store, access, and analyze application logs.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-APPLOG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
@@ -1205,14 +1205,14 @@ Create, store, access, and analyze application logs.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -1221,49 +1221,49 @@ Create, store, access, and analyze application logs.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create, store, access, and analyze application logs.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-APPLOG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -1275,14 +1275,14 @@ Create, store, access, and analyze application logs.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -1291,63 +1291,63 @@ Create, store, access, and analyze application logs.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create, store, access, and analyze application logs.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-APPLOG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -1356,63 +1356,63 @@ Create, store, access, and analyze application logs.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create, store, access, and analyze application logs.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-APPLOG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -1421,49 +1421,49 @@ Create, store, access, and analyze application logs.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage application authorizations and trusted connections to identity providers.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-SEC-IAM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -1483,14 +1483,14 @@ Manage application authorizations and trusted connections to identity providers.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -1499,49 +1499,49 @@ Manage application authorizations and trusted connections to identity providers.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage application authorizations and trusted connections to identity providers.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-XS-SEC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US East \(VA\)
 -   Europe \(Frankfurt\)
@@ -1556,14 +1556,14 @@ Manage application authorizations and trusted connections to identity providers.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -1572,49 +1572,49 @@ Manage application authorizations and trusted connections to identity providers.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage application authorizations and trusted connections to identity providers.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-XS-SEC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -1626,14 +1626,14 @@ Manage application authorizations and trusted connections to identity providers.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -1642,63 +1642,63 @@ Manage application authorizations and trusted connections to identity providers.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage application authorizations and trusted connections to identity providers.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-XS-SEC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -1707,63 +1707,63 @@ Manage application authorizations and trusted connections to identity providers.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage application authorizations and trusted connections to identity providers.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-XS-SEC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -1772,61 +1772,61 @@ Manage application authorizations and trusted connections to identity providers.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Big Data Services](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_BIG_DATA_SERVICES/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Ready-to-use, fully managed Hadoop and Spark.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-BDS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   This service does not run on standard SAP Cloud Platform regions. Check out [this note](https://help.sap.com/doc/aa1ccd10da6c4337aa737df2ead1855b/Cloud/en-US/3b642f68227b4b1398d2ce1a5351389a.html#loio3b642f68227b4b1398d2ce1a5351389a__otherregions) for further details.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -1835,49 +1835,49 @@ Ready-to-use, fully managed Hadoop and Spark.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Blockchain Application Enablement](https://help.sap.com/viewer/p/BLOCKCHAIN_APPLICATION_ENABLEMENT/) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Deliver blockchain-based services on any connected blockchain network.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-BCS-VAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -1885,14 +1885,14 @@ Deliver blockchain-based services on any connected blockchain network.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -1901,49 +1901,49 @@ Deliver blockchain-based services on any connected blockchain network.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Build](https://help.sap.com/viewer/product/SAP_BUILD/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create interactive prototypes based on end-user feedback without code writing.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   MOB-UIA-BLD-ADM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -1963,14 +1963,14 @@ Create interactive prototypes based on end-user feedback without code writing.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -1979,63 +1979,63 @@ Create interactive prototypes based on end-user feedback without code writing.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Business Entity Recognition](https://help.sap.com/ber) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Detect and highlight entities from unstructured text using machine learning.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-ML-BER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -2044,49 +2044,49 @@ Detect and highlight entities from unstructured text using machine learning.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Business Rules](https://help.sap.com/viewer/product/BUSINESS_RULES/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enrich cloud offerings with decision modeling, management, and execution service.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-BPM-RUL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Process Automation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -2106,13 +2106,13 @@ Enrich cloud offerings with decision modeling, management, and execution service
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -2121,49 +2121,49 @@ Enrich cloud offerings with decision modeling, management, and execution service
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Business Rules](https://help.sap.com/viewer/product/BUSINESS_RULES/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enrich cloud offerings with decision modeling, management, and execution service.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-BPM-RUL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Process Automation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Australia \(Sydney\)
@@ -2178,14 +2178,14 @@ Enrich cloud offerings with decision modeling, management, and execution service
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -2194,49 +2194,49 @@ Enrich cloud offerings with decision modeling, management, and execution service
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Business Rules](https://help.sap.com/viewer/product/BUSINESS_RULES/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enrich cloud offerings with decision modeling, management, and execution service.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-BPM-RUL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Process Automation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -2248,14 +2248,14 @@ Enrich cloud offerings with decision modeling, management, and execution service
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -2264,63 +2264,63 @@ Enrich cloud offerings with decision modeling, management, and execution service
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Business Rules](https://help.sap.com/viewer/product/BUSINESS_RULES/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enrich cloud offerings with decision modeling, management, and execution service.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-BPM-RUL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Process Automation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -2329,49 +2329,49 @@ Enrich cloud offerings with decision modeling, management, and execution service
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Process Integration](https://help.sap.com/viewer/product/CLOUD_INTEGRATION/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Seamlessly orchestrate business processes and integrate data in real time.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-HCI-PI-OPS-PROV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -2391,13 +2391,13 @@ Seamlessly orchestrate business processes and integrate data in real time.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -2406,49 +2406,49 @@ Seamlessly orchestrate business processes and integrate data in real time.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Connectivity](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e6c7616abb5710148cfcf3e75d96d596.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Establish connections between cloud applications and on-premise systems.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-CON
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -2468,14 +2468,14 @@ Establish connections between cloud applications and on-premise systems.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -2484,49 +2484,49 @@ Establish connections between cloud applications and on-premise systems.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Connectivity](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e6c7616abb5710148cfcf3e75d96d596.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Establish connections between cloud applications and on-premise systems.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CON-CF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
@@ -2541,14 +2541,14 @@ Establish connections between cloud applications and on-premise systems.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -2557,49 +2557,49 @@ Establish connections between cloud applications and on-premise systems.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Connectivity](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e6c7616abb5710148cfcf3e75d96d596.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Establish connections between cloud applications and on-premise systems.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CON-CF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -2611,14 +2611,14 @@ Establish connections between cloud applications and on-premise systems.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -2627,63 +2627,63 @@ Establish connections between cloud applications and on-premise systems.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Connectivity](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e6c7616abb5710148cfcf3e75d96d596.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Establish connections between cloud applications and on-premise systems.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CON-CF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -2692,63 +2692,63 @@ Establish connections between cloud applications and on-premise systems.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Connectivity](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e6c7616abb5710148cfcf3e75d96d596.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Establish connections between cloud applications and on-premise systems.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CON-CF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -2757,49 +2757,49 @@ Establish connections between cloud applications and on-premise systems.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Continuous Integration and Delivery](https://help.sap.com/viewer/product/CONTINUOUS_DELIVERY/Cloud) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Configure and run predefined pipelines for continuous integration and delivery.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-CICD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -2808,14 +2808,14 @@ Configure and run predefined pipelines for continuous integration and delivery.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -2824,49 +2824,49 @@ Configure and run predefined pipelines for continuous integration and delivery.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Data Integration](https://help.sap.com/viewer/p/SAP_CLOUD_PLATFORM_INTEGRATION_FOR_DATA_SERVICES) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Integrate data between on-premise and cloud applications on a scheduled \(batch\) basis.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-HCI-DS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   UAE \(Dubai\)
 -   Australia \(Sydney\)
@@ -2879,13 +2879,13 @@ Integrate data between on-premise and cloud applications on a scheduled \(batch\
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -2894,49 +2894,49 @@ Integrate data between on-premise and cloud applications on a scheduled \(batch\
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Credential Store](https://help.sap.com/viewer/product/CREDENTIAL_STORE/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Store and retrieve credentials such as cryptographic keys and passwords.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-SEC-CPG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Australia \(Sydney\)
@@ -2949,14 +2949,14 @@ Store and retrieve credentials such as cryptographic keys and passwords.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -2965,49 +2965,49 @@ Store and retrieve credentials such as cryptographic keys and passwords.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Credential Store](https://help.sap.com/viewer/product/CREDENTIAL_STORE/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Store and retrieve credentials such as cryptographic keys and passwords.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-SEC-CPG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Japan \(Tokyo\)
 -   Europe \(Netherlands\)
@@ -3018,14 +3018,14 @@ Store and retrieve credentials such as cryptographic keys and passwords.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -3034,63 +3034,63 @@ Store and retrieve credentials such as cryptographic keys and passwords.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Credential Store](https://help.sap.com/viewer/product/CREDENTIAL_STORE/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Store and retrieve credentials such as cryptographic keys and passwords.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-SEC-CPG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -3099,49 +3099,49 @@ Store and retrieve credentials such as cryptographic keys and passwords.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Custom Domain Service](https://help.sap.com/viewer/product/CUSTOM_DOMAINS/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Configure and expose your application under your own domain.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-INFR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -3161,13 +3161,13 @@ Configure and expose your application under your own domain.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -3176,49 +3176,49 @@ Configure and expose your application under your own domain.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Custom Domain Service](https://help.sap.com/viewer/product/CUSTOM_DOMAINS/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Configure and expose your application under your own domain.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-SEC-DOM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
@@ -3233,14 +3233,14 @@ Configure and expose your application under your own domain.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -3249,49 +3249,49 @@ Configure and expose your application under your own domain.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Custom Domain Service](https://help.sap.com/viewer/product/CUSTOM_DOMAINS/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Configure and expose your application under your own domain.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-SEC-DOM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Japan \(Tokyo\)
 -   Europe \(Netherlands\)
@@ -3303,14 +3303,14 @@ Configure and expose your application under your own domain.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -3319,63 +3319,63 @@ Configure and expose your application under your own domain.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Custom Domain Service](https://help.sap.com/viewer/product/CUSTOM_DOMAINS/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Configure and expose your application under your own domain.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-SEC-DOM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -3384,63 +3384,63 @@ Configure and expose your application under your own domain.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Custom Domain Service](https://help.sap.com/viewer/product/CUSTOM_DOMAINS/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Configure and expose your application under your own domain.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-SEC-DOM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -3449,63 +3449,63 @@ Configure and expose your application under your own domain.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Data Attribute Recommendation](https://help.sap.com/dar) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
-Apply machine learning to match and classify data records automatically.
+Apply machine learning to predict and classify data records.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-ML-DAR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -3514,49 +3514,49 @@ Apply machine learning to match and classify data records automatically.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Data Enrichment](https://help.sap.com/viewer/product/Cloud_Platform_Data_Enrichment/latest/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create or enrich master data using trusted third-party data.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-MDM-DE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -3565,14 +3565,14 @@ Create or enrich master data using trusted third-party data.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -3581,49 +3581,49 @@ Create or enrich master data using trusted third-party data.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Data Quality Services](https://help.sap.com/viewer/product/SAP_Data_Quality_Management_microservices_for_location_data/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Embed data quality services to validate addresses and enrich with geocodes.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   EIM-DQM-SVS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -3631,14 +3631,14 @@ Embed data quality services to validate addresses and enrich with geocodes.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -3647,49 +3647,49 @@ Embed data quality services to validate addresses and enrich with geocodes.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Java Debugging](https://help.sap.com/viewer/product/DEBUGGING_SERVICE/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Debug your Java application even through networks with high latency.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-JVM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -3709,14 +3709,14 @@ Debug your Java application even through networks with high latency.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -3725,49 +3725,49 @@ Debug your Java application even through networks with high latency.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Destination](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Retrieve information about destinations in the Cloud Foundry environment.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-DEST-CF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
@@ -3782,14 +3782,14 @@ Retrieve information about destinations in the Cloud Foundry environment.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -3798,49 +3798,49 @@ Retrieve information about destinations in the Cloud Foundry environment.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Destination](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Retrieve information about destinations in the Cloud Foundry environment.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-DEST-CF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Japan \(Tokyo\)
 -   Europe \(Netherlands\)
@@ -3852,14 +3852,14 @@ Retrieve information about destinations in the Cloud Foundry environment.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -3868,63 +3868,63 @@ Retrieve information about destinations in the Cloud Foundry environment.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Destination](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Retrieve information about destinations in the Cloud Foundry environment.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-DEST-CF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -3933,63 +3933,63 @@ Retrieve information about destinations in the Cloud Foundry environment.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Destination](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Retrieve information about destinations in the Cloud Foundry environment.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-DEST-CF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -3998,49 +3998,49 @@ Retrieve information about destinations in the Cloud Foundry environment.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Build and run mobile apps for B2E and B2B use cases.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   MOB-CLD-OPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -4060,14 +4060,14 @@ Build and run mobile apps for B2E and B2B use cases.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -4076,49 +4076,49 @@ Build and run mobile apps for B2E and B2B use cases.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Build and run mobile apps for B2E and B2B use cases.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   MOB-CLD-OPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Australia \(Sydney\)
 -   Brazil \(São Paulo\)
@@ -4133,14 +4133,14 @@ Build and run mobile apps for B2E and B2B use cases.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -4149,49 +4149,49 @@ Build and run mobile apps for B2E and B2B use cases.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Build and run mobile apps for B2E and B2B use cases.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   MOB-CLD-OPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -4202,14 +4202,14 @@ Build and run mobile apps for B2E and B2B use cases.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -4218,63 +4218,63 @@ Build and run mobile apps for B2E and B2B use cases.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Build and run mobile apps for B2E and B2B use cases.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   MOB-CLD-OPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -4283,49 +4283,49 @@ Build and run mobile apps for B2E and B2B use cases.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Build and run mobile apps for B2C use cases.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   MOB-CLD-OPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -4345,13 +4345,13 @@ Build and run mobile apps for B2C use cases.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -4360,49 +4360,49 @@ Build and run mobile apps for B2C use cases.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Build and run mobile apps for B2C use cases.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   MOB-CLD-OPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Australia \(Sydney\)
 -   Brazil \(São Paulo\)
@@ -4417,14 +4417,14 @@ Build and run mobile apps for B2C use cases.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -4433,49 +4433,49 @@ Build and run mobile apps for B2C use cases.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Build and run mobile apps for B2C use cases.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   MOB-CLD-OPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -4486,14 +4486,14 @@ Build and run mobile apps for B2C use cases.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -4502,63 +4502,63 @@ Build and run mobile apps for B2C use cases.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Build and run mobile apps for B2C use cases.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   MOB-CLD-OPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -4567,63 +4567,63 @@ Build and run mobile apps for B2C use cases.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Document Classification](https://help.sap.com/dc) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Classify business documents automatically using machine learning.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-ML-BDP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -4632,66 +4632,67 @@ Classify business documents automatically using machine learning.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Document Information Extraction](https://help.sap.com/dox) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Automate your document information extraction processes.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-ML-BDP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
 -   Japan \(Tokyo\)
 -   US East \(VA\)
+-   Australia \(Sydney\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -4700,49 +4701,49 @@ Automate your document information extraction processes.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Document Management Service, Integration Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provide API and UI based document management capabilities to your business applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-SDM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -4757,14 +4758,14 @@ Provide API and UI based document management capabilities to your business appli
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -4773,49 +4774,49 @@ Provide API and UI based document management capabilities to your business appli
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Document Management Service, Integration Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provide API and UI based document management capabilities to your business applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-SDM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -4826,14 +4827,14 @@ Provide API and UI based document management capabilities to your business appli
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -4842,49 +4843,49 @@ Provide API and UI based document management capabilities to your business appli
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Document Service](https://help.sap.com/viewer/product/DOCUMENT_SERVICE/) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Store and manage your documents.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-ECM-DS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -4904,14 +4905,14 @@ Store and manage your documents.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -4920,49 +4921,49 @@ Store and manage your documents.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Dynatrace Agent Activation](https://help.sap.com/viewer/p/DYNATRACE_AGENT_ACTIVATION) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Connect your Java applications to a Dynatrace SaaS monitoring environment.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-MON-APM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -4982,14 +4983,14 @@ Connect your Java applications to a Dynatrace SaaS monitoring environment.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -4998,49 +4999,49 @@ Connect your Java applications to a Dynatrace SaaS monitoring environment.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Enhanced Disaster Recovery](https://help.sap.com/viewer/p/DISASTER_RECOVERY) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Restore your cloud production environment with minimal data loss.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-DR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   US East \(Ashburn\)
@@ -5051,13 +5052,13 @@ Restore your cloud production environment with minimal data loss.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -5066,49 +5067,49 @@ Restore your cloud production environment with minimal data loss.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Connect applications, services and systems across different landscapes.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-MES
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US East \(VA\)
 -   Australia \(Sydney\)
@@ -5121,14 +5122,14 @@ Connect applications, services and systems across different landscapes.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -5137,49 +5138,49 @@ Connect applications, services and systems across different landscapes.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Connect applications, services and systems across different landscapes.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-MES
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Japan \(Tokyo\)
 -   Europe \(Netherlands\)
@@ -5190,14 +5191,14 @@ Connect applications, services and systems across different landscapes.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -5206,63 +5207,63 @@ Connect applications, services and systems across different landscapes.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Connect applications, services and systems across different landscapes.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-MES
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -5271,49 +5272,49 @@ Connect applications, services and systems across different landscapes.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Extension Factory, serverless runtime](https://help.sap.com/viewer/product/XF_SERVERLESS_RUNTIME/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Allows you to create, manage, configure extensions on SAP Cloud Platform
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-XF-SRT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -5327,14 +5328,14 @@ Allows you to create, manage, configure extensions on SAP Cloud Platform
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -5343,49 +5344,49 @@ Allows you to create, manage, configure extensions on SAP Cloud Platform
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Extension Factory, serverless runtime](https://help.sap.com/viewer/product/XF_SERVERLESS_RUNTIME/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Allows you to create, manage, configure extensions on SAP Cloud Platform
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-XF-SRT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -5396,14 +5397,14 @@ Allows you to create, manage, configure extensions on SAP Cloud Platform
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -5412,49 +5413,49 @@ Allows you to create, manage, configure extensions on SAP Cloud Platform
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Feature Flags](https://help.sap.com/viewer/product/FEATURE_FLAGS/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Control the rollout of new features.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-FEATUREFLG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
@@ -5470,14 +5471,14 @@ Control the rollout of new features.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -5486,49 +5487,49 @@ Control the rollout of new features.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Feature Flags](https://help.sap.com/viewer/product/FEATURE_FLAGS/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Control the rollout of new features.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-FEATUREFLG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Japan \(Tokyo\)
 -   Europe \(Netherlands\)
@@ -5540,14 +5541,14 @@ Control the rollout of new features.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -5556,63 +5557,63 @@ Control the rollout of new features.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Feature Flags](https://help.sap.com/viewer/product/FEATURE_FLAGS/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Control the rollout of new features.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-FEATUREFLG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -5621,63 +5622,63 @@ Control the rollout of new features.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Feature Flags](https://help.sap.com/viewer/product/FEATURE_FLAGS/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Control the rollout of new features.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-FEATUREFLG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -5686,49 +5687,49 @@ Control the rollout of new features.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Fiori Cloud](https://help.sap.com/viewer/p/SAP_FIORI_CLOUD_ALL) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Revamp your user experience with SAP Fiori on SAP Cloud Platform.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   EP-CPP-NEO-OPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -5748,14 +5749,14 @@ Revamp your user experience with SAP Fiori on SAP Cloud Platform.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -5764,49 +5765,49 @@ Revamp your user experience with SAP Fiori on SAP Cloud Platform.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Fiori Mobile](https://help.sap.com/viewer/product/MOBILE_SERVICE_FOR_SAP_FIORI/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Optimize, build, manage, and monitor SAP Fiori apps on mobile devices.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   MOB-FM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   US East \(Ashburn\)
@@ -5821,14 +5822,14 @@ Optimize, build, manage, and monitor SAP Fiori apps on mobile devices.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -5837,49 +5838,49 @@ Optimize, build, manage, and monitor SAP Fiori apps on mobile devices.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Forms Service by Adobe](https://help.sap.com/viewer/product/CP_FORMS_BY_ADOBE/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Generate print and interactive forms using Adobe Document Services.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-SRV-FP-NEO
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   US East \(Ashburn\)
@@ -5899,14 +5900,14 @@ Generate print and interactive forms using Adobe Document Services.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -5915,49 +5916,49 @@ Generate print and interactive forms using Adobe Document Services.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Gamification](https://help.sap.com/viewer/product/GAMIFICATION/) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Introduce gamification concepts into your applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-SVC-GAM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -5977,14 +5978,14 @@ Introduce gamification concepts into your applications.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -5993,49 +5994,49 @@ Introduce gamification concepts into your applications.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Git Service](https://help.sap.com/viewer/product/GIT_SERVICE/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Store and version source code in Git repositories.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-GIT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -6055,14 +6056,14 @@ Store and version source code in Git repositories.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -6071,49 +6072,49 @@ Store and version source code in Git repositories.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [HTML5 Application Repository Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/11d77aa154f64c2e83cc9652a78bb985.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enables storage of HTML5 applications and provides runtime environment for HTML5 applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-HTML5
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
@@ -6128,14 +6129,14 @@ Enables storage of HTML5 applications and provides runtime environment for HTML5
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -6144,49 +6145,49 @@ Enables storage of HTML5 applications and provides runtime environment for HTML5
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [HTML5 Application Repository Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/11d77aa154f64c2e83cc9652a78bb985.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enables storage of HTML5 applications and provides runtime environment for HTML5 applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-HTML5
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Japan \(Tokyo\)
 -   Europe \(Netherlands\)
@@ -6197,14 +6198,14 @@ Enables storage of HTML5 applications and provides runtime environment for HTML5
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -6213,63 +6214,63 @@ Enables storage of HTML5 applications and provides runtime environment for HTML5
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [HTML5 Application Repository Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/11d77aa154f64c2e83cc9652a78bb985.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enables storage of HTML5 applications and provides runtime environment for HTML5 applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-HTML5
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -6278,63 +6279,63 @@ Enables storage of HTML5 applications and provides runtime environment for HTML5
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [HTML5 Application Repository Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/11d77aa154f64c2e83cc9652a78bb985.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enables storage of HTML5 applications and provides runtime environment for HTML5 applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-HTML5
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -6343,49 +6344,49 @@ Enables storage of HTML5 applications and provides runtime environment for HTML5
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Hyperledger Fabric](https://help.sap.com/viewer/p/HYPERLEDGER_FABRIC/) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create Hyperledger Fabric nodes and connect them to a blockchain network.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-BCS-HL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -6393,14 +6394,14 @@ Create Hyperledger Fabric nodes and connect them to a blockchain network.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -6409,61 +6410,61 @@ Create Hyperledger Fabric nodes and connect them to a blockchain network.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Identity Authentication - Additional Tenant](https://help.sap.com/viewer/product/IDENTITY_AUTHENTICATION/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Secure authentication and single sign-on for users in the cloud.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-IAM-IDS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   This service does not run on standard SAP Cloud Platform regions. Check out [this note](https://help.sap.com/doc/aa1ccd10da6c4337aa737df2ead1855b/Cloud/en-US/3b642f68227b4b1398d2ce1a5351389a.html#loio3b642f68227b4b1398d2ce1a5351389a__otherregions) for further details.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -6472,61 +6473,61 @@ Secure authentication and single sign-on for users in the cloud.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Identity Authentication](https://help.sap.com/viewer/product/IDENTITY_AUTHENTICATION/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Secure authentication and single sign-on for users in the cloud.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-IAM-IDS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   This service does not run on standard SAP Cloud Platform regions. Check out [this note](https://help.sap.com/doc/aa1ccd10da6c4337aa737df2ead1855b/Cloud/en-US/3b642f68227b4b1398d2ce1a5351389a.html#loio3b642f68227b4b1398d2ce1a5351389a__otherregions) for further details.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -6535,49 +6536,49 @@ Secure authentication and single sign-on for users in the cloud.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Identity Provisioning](https://help.sap.com/viewer/product/IDENTITY_PROVISIONING/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage identity lifecycle processes for cloud and on-premise systems.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-IAM-IPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   UAE \(Dubai\)
 -   Australia \(Sydney\)
@@ -6597,14 +6598,14 @@ Manage identity lifecycle processes for cloud and on-premise systems.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -6613,49 +6614,49 @@ Manage identity lifecycle processes for cloud and on-premise systems.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Intelligent Product Design](https://help.sap.com/viewer/p/PLM_CP) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Accelerate product innovation with instant collaboration and live product intelligence.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   PLM-DC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -6663,13 +6664,13 @@ Accelerate product innovation with instant collaboration and live product intell
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -6678,63 +6679,63 @@ Accelerate product innovation with instant collaboration and live product intell
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Intelligent Product Design](https://help.sap.com/viewer/p/PLM_CP) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Accelerate product innovation with instant collaboration and live product intelligence.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   PLM-DC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -6743,49 +6744,49 @@ Accelerate product innovation with instant collaboration and live product intell
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Internet of Things](https://help.sap.com/viewer/product/SAP_CP_IOT_CF/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Develop, customize, and operate IoT business applications in the cloud.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-SVC-IOT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -6793,14 +6794,14 @@ Develop, customize, and operate IoT business applications in the cloud.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -6809,63 +6810,63 @@ Develop, customize, and operate IoT business applications in the cloud.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Invoice Object Recommendation](https://help.sap.com/viewer/product/Invoice_Object_Recommendation) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Recommendation of the G/L accounts using machine learning.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-ML-AR-GL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -6874,62 +6875,62 @@ Recommendation of the G/L accounts using machine learning.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Peppol Exchange](https://help.sap.com/viewer/product/DC_PEPPOL/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Meet compliance requirements by exchanging documents with the Peppol network.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-LH-DCS-PAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -6938,49 +6939,49 @@ Meet compliance requirements by exchanging documents with the Peppol network.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Java Server](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7613c8c7711e1014839a8273b0e91070.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Develop and run Java Web applications on SAP Cloud Platform Neo Environment.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-RT-JAV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -7000,14 +7001,14 @@ Develop and run Java Web applications on SAP Cloud Platform Neo Environment.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -7016,49 +7017,49 @@ Develop and run Java Web applications on SAP Cloud Platform Neo Environment.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Define and manage your jobs or Cloud Foundry tasks that run on one-time or recurring schedules.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-XS-SRV-JBS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
@@ -7073,14 +7074,14 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -7089,49 +7090,49 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Define and manage your jobs or Cloud Foundry tasks that run on one-time or recurring schedules.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-XS-SRV-JBS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Japan \(Tokyo\)
 -   Europe \(Netherlands\)
@@ -7143,14 +7144,14 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -7159,63 +7160,63 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Define and manage your jobs or Cloud Foundry tasks that run on one-time or recurring schedules.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-XS-SRV-JBS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -7224,63 +7225,63 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Define and manage your jobs or Cloud Foundry tasks that run on one-time or recurring schedules.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-XS-SRV-JBS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -7289,49 +7290,49 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Keystore Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/a18327e4b1a34bd6844384ae1c7f3d51.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage cryptographic keys and certificates.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-SEC-CPG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -7351,14 +7352,14 @@ Manage cryptographic keys and certificates.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -7367,49 +7368,49 @@ Manage cryptographic keys and certificates.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Kyma runtime](https://help.sap.com/viewer/3504ec5ef16548778610c7e89cc0eac3/Cloud/en-US/468c2f3c3ca24c2c8497ef9f83154c44.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Extend SAP solutions using cloud-native microservices and serverless Functions.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-XF-KYMA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -7417,14 +7418,14 @@ Extend SAP solutions using cloud-native microservices and serverless Functions.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -7433,49 +7434,49 @@ Extend SAP solutions using cloud-native microservices and serverless Functions.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Java Apps Lifecycle Management](https://help.sap.com/viewer/product/LIFECYCLE_MGMT/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage the lifecycle of Java applications by using a REST API.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-INFR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -7495,14 +7496,14 @@ Manage the lifecycle of Java applications by using a REST API.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -7511,61 +7512,61 @@ Manage the lifecycle of Java applications by using a REST API.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Live Link 365 for Authentication](https://livelink.sapmobileservices.com/documentation/#/integrate/apiReferences) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Generate and validate configurable one-time PINs or verification codes.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-IAM-IDS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   This service does not run on standard SAP Cloud Platform regions. Check out [this note](https://help.sap.com/doc/aa1ccd10da6c4337aa737df2ead1855b/Cloud/en-US/3b642f68227b4b1398d2ce1a5351389a.html#loio3b642f68227b4b1398d2ce1a5351389a__otherregions) for further details.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -7574,61 +7575,61 @@ Generate and validate configurable one-time PINs or verification codes.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Live Link 365 for SMS](https://livelink.sapmobileservices.com/documentation/#/integrate/apiReferences) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Send and receive SMSs globally via REST APIs. View traffic logs and analytics.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CEC-DI-INE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   This service does not run on standard SAP Cloud Platform regions. Check out [this note](https://help.sap.com/doc/aa1ccd10da6c4337aa737df2ead1855b/Cloud/en-US/3b642f68227b4b1398d2ce1a5351389a.html#loio3b642f68227b4b1398d2ce1a5351389a__otherregions) for further details.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -7637,61 +7638,61 @@ Send and receive SMSs globally via REST APIs. View traffic logs and analytics.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Rapid Application Development by Mendix](https://help.sap.com/viewer/product/Mendix/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Develop SAP business applications with a low-code, graphical toolset.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   XX-PART-MDX-RAD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   This service does not run on standard SAP Cloud Platform regions. Check out [this note](https://help.sap.com/doc/aa1ccd10da6c4337aa737df2ead1855b/Cloud/en-US/3b642f68227b4b1398d2ce1a5351389a.html#loio3b642f68227b4b1398d2ce1a5351389a__otherregions) for further details.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -7700,49 +7701,49 @@ Develop SAP business applications with a low-code, graphical toolset.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [MongoDB](https://help.sap.com/viewer/product/MongoDB/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Implement a NoSQL document store.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-BS-MONGO
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
@@ -7757,14 +7758,14 @@ Implement a NoSQL document store.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -7773,49 +7774,49 @@ Implement a NoSQL document store.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [MongoDB](https://help.sap.com/viewer/product/MongoDB/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Implement a NoSQL document store.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-BS-MONGO
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -7827,14 +7828,14 @@ Implement a NoSQL document store.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -7843,63 +7844,63 @@ Implement a NoSQL document store.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [MongoDB](https://help.sap.com/viewer/product/MongoDB/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Implement a NoSQL document store.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-BS-MONGO
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -7908,49 +7909,49 @@ Implement a NoSQL document store.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Monitoring](https://help.sap.com/viewer/product/MONITORING_SERVICE/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Monitor Java and SAP HANA XS applications, and databases.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-MON
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -7970,14 +7971,14 @@ Monitor Java and SAP HANA XS applications, and databases.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -7986,49 +7987,49 @@ Monitor Java and SAP HANA XS applications, and databases.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [MultiChain](https://help.sap.com/viewer/p/MULTICHAIN/) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create MultiChain nodes and connect them to a blockchain network.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-BCS-MC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -8036,14 +8037,14 @@ Create MultiChain nodes and connect them to a blockchain network.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -8052,49 +8053,49 @@ Create MultiChain nodes and connect them to a blockchain network.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [OAuth 2.0](https://help.hana.ondemand.com/help/frameset.htm?7e658b3e4cea4a79b035d0f1d2798c1f.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Protect applications and APIs with OAuth 2.0.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-SEC-IAM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -8114,14 +8115,14 @@ Protect applications and APIs with OAuth 2.0.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -8130,49 +8131,49 @@ Protect applications and APIs with OAuth 2.0.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Object Store](https://help.sap.com/viewer/product/ObjectStore/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Supports storage and management of unstructured data \(files, BLOBs\).
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-OSAAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
@@ -8187,14 +8188,14 @@ Supports storage and management of unstructured data \(files, BLOBs\).
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -8203,49 +8204,49 @@ Supports storage and management of unstructured data \(files, BLOBs\).
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Object Store](https://help.sap.com/viewer/product/ObjectStore/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Supports storage and management of unstructured data \(files, BLOBs\).
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-OSAAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Japan \(Tokyo\)
 -   Europe \(Netherlands\)
@@ -8257,14 +8258,14 @@ Supports storage and management of unstructured data \(files, BLOBs\).
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -8273,63 +8274,63 @@ Supports storage and management of unstructured data \(files, BLOBs\).
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Object Store](https://help.sap.com/viewer/product/ObjectStore/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Supports storage and management of unstructured data \(files, BLOBs\).
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-OSAAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -8338,49 +8339,49 @@ Supports storage and management of unstructured data \(files, BLOBs\).
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [OData Provisioning](https://help.sap.com/viewer/product/ODATA_PROVISIONING/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Access data in SAP Business Suite using OData services.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   OPU-GW-OD-FW
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -8399,14 +8400,14 @@ Access data in SAP Business Suite using OData services.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -8415,49 +8416,49 @@ Access data in SAP Business Suite using OData services.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [OData Provisioning](https://help.sap.com/viewer/product/ODATA_PROVISIONING/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Access data in SAP Business Suite using OData services.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   OPU-GW-OD-FW
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -8465,14 +8466,14 @@ Access data in SAP Business Suite using OData services.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -8481,49 +8482,49 @@ Access data in SAP Business Suite using OData services.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [OData Provisioning](https://help.sap.com/viewer/product/ODATA_PROVISIONING/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Access data in SAP Business Suite using OData services.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   OPU-GW-OD-FW
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -8532,14 +8533,14 @@ Access data in SAP Business Suite using OData services.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -8548,49 +8549,49 @@ Access data in SAP Business Suite using OData services.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Open Connectors](https://help.sap.com/viewer/p/OPEN_CONNECTORS) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Simplify integration via APIs
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-OCN-OPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -8601,14 +8602,14 @@ Simplify integration via APIs
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -8617,49 +8618,49 @@ Simplify integration via APIs
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Open Connectors](https://help.sap.com/viewer/p/OPEN_CONNECTORS) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Simplify integration via APIs
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-OCN-OPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -8672,14 +8673,14 @@ Simplify integration via APIs
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -8688,49 +8689,49 @@ Simplify integration via APIs
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Open Connectors](https://help.sap.com/viewer/p/OPEN_CONNECTORS) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Simplify integration via APIs
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-OCN-OPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -8742,14 +8743,14 @@ Simplify integration via APIs
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -8758,49 +8759,49 @@ Simplify integration via APIs
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP S/4HANA Cloud for Intelligent Product Selection](https://help.sap.com/viewer/product/S4H_CLOUD_INT_PROD_SEL) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enable an intelligent customer experience for complex configurable products
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-PCI
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -8808,14 +8809,14 @@ Enable an intelligent customer experience for complex configurable products
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -8824,49 +8825,49 @@ Enable an intelligent customer experience for complex configurable products
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Platform Identity Provider](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/80edbe70b8f3478d8a59c21a91a47aa6.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Use your user base from the identity authentication tenant for admin tasks.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-SEC-IAM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -8886,13 +8887,13 @@ Use your user base from the identity authentication tenant for admin tasks.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -8901,49 +8902,49 @@ Use your user base from the identity authentication tenant for admin tasks.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Portal](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create role based, multi-channel sites to access business apps and content.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   EP-CPP-NEO-OPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -8963,14 +8964,14 @@ Create role based, multi-channel sites to access business apps and content.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -8979,49 +8980,49 @@ Create role based, multi-channel sites to access business apps and content.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Portal](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create role based, multi-channel sites to access business apps and content.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   EP-CPP-CF-OPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -9036,14 +9037,14 @@ Create role based, multi-channel sites to access business apps and content.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -9052,49 +9053,49 @@ Create role based, multi-channel sites to access business apps and content.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Portal](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create role based, multi-channel sites to access business apps and content.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   EP-CPP-CF-OPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Singapore
 -   US West \(WA\)
@@ -9106,14 +9107,14 @@ Create role based, multi-channel sites to access business apps and content.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -9122,63 +9123,63 @@ Create role based, multi-channel sites to access business apps and content.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Portal](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create role based, multi-channel sites to access business apps and content.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   EP-CPP-CF-OPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -9187,63 +9188,63 @@ Create role based, multi-channel sites to access business apps and content.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Portal](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create role based, multi-channel sites to access business apps and content.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   EP-CPP-CF-OPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -9252,49 +9253,49 @@ Create role based, multi-channel sites to access business apps and content.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Consume an object-relational database with PostgreSQL.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-BS-POSTGRES
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
@@ -9309,14 +9310,14 @@ Consume an object-relational database with PostgreSQL.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -9325,49 +9326,49 @@ Consume an object-relational database with PostgreSQL.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Consume an object-relational database with PostgreSQL.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-BS-POSTGRES
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -9379,14 +9380,14 @@ Consume an object-relational database with PostgreSQL.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -9395,63 +9396,63 @@ Consume an object-relational database with PostgreSQL.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Consume an object-relational database with PostgreSQL.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-BS-POSTGRES
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -9460,49 +9461,49 @@ Consume an object-relational database with PostgreSQL.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Pricing service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Calculate prices for configurable- and non-configurable products
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-CPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -9511,14 +9512,14 @@ Calculate prices for configurable- and non-configurable products
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -9527,63 +9528,63 @@ Calculate prices for configurable- and non-configurable products
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Print Service](https://help.sap.com/viewer/product/SCP_PRINT_SERVICE/SHIP/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage print queues, connect print clients and monitor print status
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CCM-PRN-OM-SCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -9592,49 +9593,49 @@ Manage print queues, connect print clients and monitor print status
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Process Visibility](https://help.sap.com/viewer/product/VISIBILITY_SERVICE/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Cloud Offering with End-to-End visibility on Business Processes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-BPM-VIS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Process Automation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -9649,14 +9650,14 @@ Cloud Offering with End-to-End visibility on Business Processes
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -9665,49 +9666,49 @@ Cloud Offering with End-to-End visibility on Business Processes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Process Visibility](https://help.sap.com/viewer/product/VISIBILITY_SERVICE/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Cloud Offering with End-to-End visibility on Business Processes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-BPM-VIS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Process Automation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -9719,14 +9720,14 @@ Cloud Offering with End-to-End visibility on Business Processes
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -9735,63 +9736,63 @@ Cloud Offering with End-to-End visibility on Business Processes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Process Visibility](https://help.sap.com/viewer/product/VISIBILITY_SERVICE/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Cloud Offering with End-to-End visibility on Business Processes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-BPM-VIS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Process Automation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -9800,49 +9801,49 @@ Cloud Offering with End-to-End visibility on Business Processes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Variant Configuration service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-CPS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -9851,14 +9852,14 @@ Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -9867,49 +9868,49 @@ Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Java Profiling](https://help.sap.com/viewer/product/PROFILING_SERVICE/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Profile and analyze your Java applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-JVM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -9929,14 +9930,14 @@ Profile and analyze your Java applications.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -9945,49 +9946,49 @@ Profile and analyze your Java applications.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Quorum](https://help.sap.com/viewer/p/QUORUM) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create Quorum nodes and connect them to a blockchain network.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-BCS-QRM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -9995,14 +9996,14 @@ Create Quorum nodes and connect them to a blockchain network.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -10011,257 +10012,49 @@ Create Quorum nodes and connect them to a blockchain network.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [RabbitMQ](https://help.sap.com/viewer/product/RabbitMQ/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Get robust asynchronous messaging between applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-BS-RABBITMQ
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
-
--   Europe \(Frankfurt\)
--   Europe \(Frankfurt\) EU Access
--   US East \(VA\)
--   Brazil \(São Paulo\)
--   Japan \(Tokyo\)
--   Australia \(Sydney\)
--   Singapore
--   South Korea \(Seoul\)
--   Canada \(Montreal\)
-
-
-
-</td>
-<td>
-
--   Yes
-
-
-
-</td>
-<td>
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td>
-
- [RabbitMQ](https://help.sap.com/viewer/product/RabbitMQ/Cloud/en-US) 
-
-
-
-</td>
-<td>
-
-Get robust asynchronous messaging between applications.
-
-
-
-</td>
-<td>
-
--   BC-NEO-BS-RABBITMQ
-
-
-
-</td>
-<td>
-
--   Cloud Foundry
-
-
-
-</td>
-<td>
-
--   Integration Suite
-
-
-
-</td>
-<td>
-
--   Azure
-
-
-
-</td>
-<td>
-
--   Europe \(Netherlands\)
--   US West \(WA\)
--   US East \(VA\)
--   Australia \(Sydney\)
--   Singapore
--   Japan \(Tokyo\)
-
-
-
-</td>
-<td>
-
--   Yes
-
-
-
-</td>
-<td>
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td>
-
- [RabbitMQ](https://help.sap.com/viewer/product/RabbitMQ/Cloud/en-US) 
-
-
-
-</td>
-<td>
-
-Get robust asynchronous messaging between applications.
-
-
-
-</td>
-<td>
-
--   BC-NEO-BS-RABBITMQ
-
-
-
-</td>
-<td>
-
--   Cloud Foundry
-
-
-
-</td>
-<td>
-
--   Integration Suite
-
-
-
-</td>
-<td>
-
--   GCP
-
-
-
-</td>
-<td>
-
--   US Central \(IA\)
-
-
-
-</td>
-<td>
-
--   Yes
-
-
-
-</td>
-<td>
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td>
-
- [Redis](https://help.sap.com/viewer/product/Redis/Cloud/en-US) 
-
-
-
-</td>
-<td>
-
-Implement an in-memory caching layer with Redis.
-
-
-
-</td>
-<td>
-
--   BC-NEO-BS-REDIS
-
-
-
-</td>
-<td>
-
--   Cloud Foundry
-
-
-
-</td>
-<td>
-
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td>
-
--   AWS
-
-
-
-</td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
@@ -10276,14 +10069,14 @@ Implement an in-memory caching layer with Redis.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -10292,49 +10085,49 @@ Implement an in-memory caching layer with Redis.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
- [Redis](https://help.sap.com/viewer/product/Redis/Cloud/en-US) 
-
-
-
-</td>
-<td>
-
-Implement an in-memory caching layer with Redis.
+ [RabbitMQ](https://help.sap.com/viewer/product/RabbitMQ/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
--   BC-NEO-BS-REDIS
+Get robust asynchronous messaging between applications.
 
 
 
 </td>
-<td>
+<td valign="top">
+
+-   BC-NEO-BS-RABBITMQ
+
+
+
+</td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
--   Extension Suite - Development Efficiency
+-   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -10346,14 +10139,14 @@ Implement an in-memory caching layer with Redis.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -10362,63 +10155,63 @@ Implement an in-memory caching layer with Redis.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
- [Redis](https://help.sap.com/viewer/product/Redis/Cloud/en-US) 
-
-
-
-</td>
-<td>
-
-Implement an in-memory caching layer with Redis.
+ [RabbitMQ](https://help.sap.com/viewer/product/RabbitMQ/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
--   BC-NEO-BS-REDIS
+Get robust asynchronous messaging between applications.
 
 
 
 </td>
-<td>
+<td valign="top">
+
+-   BC-NEO-BS-RABBITMQ
+
+
+
+</td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
--   Extension Suite - Development Efficiency
+-   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -10427,49 +10220,257 @@ Implement an in-memory caching layer with Redis.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
+
+ [Redis](https://help.sap.com/viewer/product/Redis/Cloud/en-US) 
+
+
+
+</td>
+<td valign="top">
+
+Implement an in-memory caching layer with Redis.
+
+
+
+</td>
+<td valign="top">
+
+-   BC-NEO-BS-REDIS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Extension Suite - Development Efficiency
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   Europe \(Frankfurt\) EU Access
+-   US East \(VA\)
+-   Brazil \(São Paulo\)
+-   Japan \(Tokyo\)
+-   Australia \(Sydney\)
+-   Singapore
+-   South Korea \(Seoul\)
+-   Canada \(Montreal\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Redis](https://help.sap.com/viewer/product/Redis/Cloud/en-US) 
+
+
+
+</td>
+<td valign="top">
+
+Implement an in-memory caching layer with Redis.
+
+
+
+</td>
+<td valign="top">
+
+-   BC-NEO-BS-REDIS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Extension Suite - Development Efficiency
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
+-   US West \(WA\)
+-   US East \(VA\)
+-   Australia \(Sydney\)
+-   Singapore
+-   Japan \(Tokyo\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Redis](https://help.sap.com/viewer/product/Redis/Cloud/en-US) 
+
+
+
+</td>
+<td valign="top">
+
+Implement an in-memory caching layer with Redis.
+
+
+
+</td>
+<td valign="top">
+
+-   BC-NEO-BS-REDIS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Extension Suite - Development Efficiency
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   US Central \(IA\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
 
  [Remote Data Sync](https://help.hana.ondemand.com/help/frameset.htm?ee09ac72de1b46128c7ae9ebda69afc1.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Synchronize data between remote databases and a cloud SAP HANA database.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-CON
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -10482,14 +10483,14 @@ Synchronize data between remote databases and a cloud SAP HANA database.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -10498,49 +10499,49 @@ Synchronize data between remote databases and a cloud SAP HANA database.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Data Retention Manager](https://help.sap.com/viewer/p/DATA_RETENTION_MANAGER) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage retention and residence rules to block or delete personal data.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-GDP-RM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -10549,14 +10550,14 @@ Manage retention and residence rules to block or delete personal data.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -10565,49 +10566,49 @@ Manage retention and residence rules to block or delete personal data.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Data Retention Manager](https://help.sap.com/viewer/p/DATA_RETENTION_MANAGER) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage retention and residence rules to block or delete personal data.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-GDP-RM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -10615,14 +10616,14 @@ Manage retention and residence rules to block or delete personal data.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -10631,49 +10632,49 @@ Manage retention and residence rules to block or delete personal data.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Develop, debug, test, and deploy SAP business applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-BAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -10688,14 +10689,14 @@ Develop, debug, test, and deploy SAP business applications.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -10704,49 +10705,49 @@ Develop, debug, test, and deploy SAP business applications.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Develop, debug, test, and deploy SAP business applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-BAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -10757,14 +10758,14 @@ Develop, debug, test, and deploy SAP business applications.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -10773,63 +10774,63 @@ Develop, debug, test, and deploy SAP business applications.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Develop, debug, test, and deploy SAP business applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-BAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -10838,63 +10839,63 @@ Develop, debug, test, and deploy SAP business applications.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Develop, debug, test, and deploy SAP business applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-BAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -10903,49 +10904,49 @@ Develop, debug, test, and deploy SAP business applications.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Document Management Service, Application Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Organize your documents with ready-to-use document management capabilities.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-SDM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -10960,14 +10961,14 @@ Organize your documents with ready-to-use document management capabilities.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -10976,49 +10977,49 @@ Organize your documents with ready-to-use document management capabilities.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Document Management Service, Application Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Organize your documents with ready-to-use document management capabilities.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-SDM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -11029,14 +11030,14 @@ Organize your documents with ready-to-use document management capabilities.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -11045,49 +11046,49 @@ Organize your documents with ready-to-use document management capabilities.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Digitize workflows, manage decisions and gain end-to-end process visibility
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-BPM-PFS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Process Automation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Australia \(Sydney\)
@@ -11102,14 +11103,14 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -11118,49 +11119,49 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Digitize workflows, manage decisions and gain end-to-end process visibility
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-BPM-PFS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Process Automation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -11172,14 +11173,14 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -11188,63 +11189,63 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Digitize workflows, manage decisions and gain end-to-end process visibility
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-BPM-PFS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Process Automation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -11253,49 +11254,49 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Analytics Cloud, embedded edition](https://help.sap.com/viewer/product/SAC_EMBEDDED_EDITION/1.0/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Analyze data via live connection to your business application's SAP HANA database.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-ANA-OEM-CP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -11307,14 +11308,14 @@ Analyze data via live connection to your business application's SAP HANA databas
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -11323,61 +11324,61 @@ Analyze data via live connection to your business application's SAP HANA databas
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP API Business Hub](https://help.sap.com/viewer/84b35b9c39b247e3ba2a31f02beee46d/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Discover, explore and test the APIs offered by SAP.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-CHB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   This service does not run on standard SAP Cloud Platform regions. Check out [this note](https://help.sap.com/doc/aa1ccd10da6c4337aa737df2ead1855b/Cloud/en-US/3b642f68227b4b1398d2ce1a5351389a.html#loio3b642f68227b4b1398d2ce1a5351389a__otherregions) for further details.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -11386,49 +11387,49 @@ Discover, explore and test the APIs offered by SAP.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP ASE Service](https://help.sap.com/viewer/product/ASE_SERVICE/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create and consume SAP ASE databases.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-PERS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -11448,14 +11449,14 @@ Create and consume SAP ASE databases.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -11464,49 +11465,49 @@ Create and consume SAP ASE databases.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Analytics Cloud](https://help.sap.com/cloud4analytics) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Carry out business intelligence, planning, and predictive analysis tasks.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-ANA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   US East \(Ashburn\)
@@ -11523,13 +11524,13 @@ Carry out business intelligence, planning, and predictive analysis tasks.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -11538,49 +11539,49 @@ Carry out business intelligence, planning, and predictive analysis tasks.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Analytics Cloud](https://help.sap.com/cloud4analytics) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Carry out business intelligence, planning, and predictive analysis tasks.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-ANA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -11594,14 +11595,14 @@ Carry out business intelligence, planning, and predictive analysis tasks.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -11610,49 +11611,49 @@ Carry out business intelligence, planning, and predictive analysis tasks.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Analytics Cloud](https://help.sap.com/cloud4analytics) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Carry out business intelligence, planning, and predictive analysis tasks.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-ANA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US West \(WA\)
 -   Europe \(Netherlands\)
@@ -11660,14 +11661,14 @@ Carry out business intelligence, planning, and predictive analysis tasks.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -11676,63 +11677,63 @@ Carry out business intelligence, planning, and predictive analysis tasks.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Analytics Cloud](https://help.sap.com/cloud4analytics) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Carry out business intelligence, planning, and predictive analysis tasks.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-ANA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -11741,49 +11742,49 @@ Carry out business intelligence, planning, and predictive analysis tasks.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Operate polyglot cloud applications in Cloud Foundry.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US East \(VA\)
 -   Europe \(Frankfurt\)
@@ -11798,14 +11799,14 @@ Operate polyglot cloud applications in Cloud Foundry.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -11814,49 +11815,49 @@ Operate polyglot cloud applications in Cloud Foundry.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Operate polyglot cloud applications in Cloud Foundry.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -11868,14 +11869,14 @@ Operate polyglot cloud applications in Cloud Foundry.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -11884,63 +11885,63 @@ Operate polyglot cloud applications in Cloud Foundry.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Operate polyglot cloud applications in Cloud Foundry.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -11949,63 +11950,63 @@ Operate polyglot cloud applications in Cloud Foundry.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Operate polyglot cloud applications in Cloud Foundry.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -12014,49 +12015,49 @@ Operate polyglot cloud applications in Cloud Foundry.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Integration Suite](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_INTEGRATION_SUITE) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Integrate applications, services, and systems across landscapes.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-HCI-PI
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -12069,14 +12070,14 @@ Integrate applications, services, and systems across landscapes.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -12085,49 +12086,49 @@ Integrate applications, services, and systems across landscapes.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Integration Suite](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_INTEGRATION_SUITE) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Integrate applications, services, and systems across landscapes.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-HCI-PI
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -12138,14 +12139,14 @@ Integrate applications, services, and systems across landscapes.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -12154,63 +12155,63 @@ Integrate applications, services, and systems across landscapes.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Integration Suite](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_INTEGRATION_SUITE) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Integrate applications, services, and systems across landscapes.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-HCI-PI
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -12219,63 +12220,63 @@ Integrate applications, services, and systems across landscapes.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Conversational AI](https://help.sap.com/viewer/p/SAP_CONVERSATIONAL_AI) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Build and deploy innovative chatbots using this comprehensive end-to-end platform.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-ML-CAI
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -12284,63 +12285,63 @@ Build and deploy innovative chatbots using this comprehensive end-to-end platfor
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Customer Order Sourcing](https://help.sap.com/viewer/product/SAP_CUSTOMER_ORDER_SOURCING/Cloud/) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Calculate sourcing results based on your own sourcing strategies.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-CID-OSR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -12349,49 +12350,49 @@ Calculate sourcing results based on your own sourcing strategies.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Data Intelligence](https://help.sap.com/viewer/product/SAP_DATA_INTELLIGENCE/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Orchestrate, refine, enrich, apply intelligence on your governed data across your entire distributed data landscape.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-DI
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -12401,14 +12402,14 @@ Orchestrate, refine, enrich, apply intelligence on your governed data across you
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -12417,49 +12418,49 @@ Orchestrate, refine, enrich, apply intelligence on your governed data across you
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Data Intelligence](https://help.sap.com/viewer/product/SAP_DATA_INTELLIGENCE/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Orchestrate, refine, enrich, apply intelligence on your governed data across your entire distributed data landscape.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-DI
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -12467,14 +12468,14 @@ Orchestrate, refine, enrich, apply intelligence on your governed data across you
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -12483,49 +12484,49 @@ Orchestrate, refine, enrich, apply intelligence on your governed data across you
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Document Center](http://help.sap.com/mdocs) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Use uniform standard-based file access and mobilize your business content.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-ECM-APP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Amsterdam\)
@@ -12544,14 +12545,14 @@ Use uniform standard-based file access and mobilize your business content.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -12560,63 +12561,63 @@ Use uniform standard-based file access and mobilize your business content.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Excise Tax Management](https://help.sap.com/viewer/p/EXCISE_TAX) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Help Excise Tax customers calculate, track, and comply with excise duty tax requirements in real time
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-ET-INT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -12625,49 +12626,49 @@ Help Excise Tax customers calculate, track, and comply with excise duty tax requ
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP HANA Cloud](https://help.sap.com/viewer/p/HANA_CLOUD) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A single gateway to all your data.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   HAN-CLS-HC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Australia \(Sydney\)
 -   Singapore
@@ -12680,14 +12681,14 @@ A single gateway to all your data.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -12696,49 +12697,49 @@ A single gateway to all your data.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP HANA Cloud](https://help.sap.com/viewer/p/HANA_CLOUD) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A single gateway to all your data.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   HAN-CLS-HC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Singapore
 -   Europe \(Netherlands\)
@@ -12749,14 +12750,14 @@ A single gateway to all your data.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -12765,63 +12766,64 @@ A single gateway to all your data.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP HANA spatial services](https://help.sap.com/viewer/product/SAP_HANA_SPATIAL_SERVICES/latest/) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP HANA spatial services provides a set of APIs for location-based services.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-CF-HSS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
+-   US East \(VA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -12830,49 +12832,49 @@ SAP HANA spatial services provides a set of APIs for location-based services.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP HANA Service](https://help.sap.com/viewer/product/HANA_SERVICE/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create and consume SAP HANA databases.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-PERS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -12892,14 +12894,14 @@ Create and consume SAP HANA databases.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -12908,49 +12910,49 @@ Create and consume SAP HANA databases.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP HANA Service](https://help.sap.com/viewer/product/HANA_SERVICE/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create and consume SAP HANA databases.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   HAN-CLS-DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -12963,14 +12965,14 @@ Create and consume SAP HANA databases.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -12979,49 +12981,49 @@ Create and consume SAP HANA databases.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP HANA Service](https://help.sap.com/viewer/product/HANA_SERVICE/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create and consume SAP HANA databases.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   HAN-CLS-DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -13033,14 +13035,14 @@ Create and consume SAP HANA databases.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -13049,63 +13051,63 @@ Create and consume SAP HANA databases.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP HANA Service](https://help.sap.com/viewer/product/HANA_SERVICE/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create and consume SAP HANA databases.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   HAN-CLS-DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -13114,63 +13116,63 @@ Create and consume SAP HANA databases.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP HANA Service](https://help.sap.com/viewer/product/HANA_SERVICE/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create and consume SAP HANA databases.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   HAN-CLS-DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -13179,49 +13181,49 @@ Create and consume SAP HANA databases.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Intelligent Robotic Process Automation](https://help.sap.com/viewer/p/IRPA) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Design, configure, and execute automation projects.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-ML-IPA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Process Automation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
@@ -13232,14 +13234,14 @@ Design, configure, and execute automation projects.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -13248,63 +13250,63 @@ Design, configure, and execute automation projects.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Intelligent Robotic Process Automation](https://help.sap.com/viewer/p/IRPA) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Design, configure, and execute automation projects.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-ML-IPA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Process Automation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -13313,49 +13315,49 @@ Design, configure, and execute automation projects.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP IoT](https://help.sap.com/viewer/p/SAP_Leonardo_IoT) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Put raw sensor data into business context and leverage it in analytical or transactional applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   IOT-BSV-APB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -13363,14 +13365,14 @@ Put raw sensor data into business context and leverage it in analytical or trans
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -13379,63 +13381,63 @@ Put raw sensor data into business context and leverage it in analytical or trans
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP IoT](https://help.sap.com/viewer/p/SAP_Leonardo_IoT) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Put raw sensor data into business context and leverage it in analytical or transactional applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   IOT-BSV-APB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -13444,61 +13446,61 @@ Put raw sensor data into business context and leverage it in analytical or trans
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP IoT Connect 365](https://community.sapmobileservices.com/t5/SAP-IoT-Connect-365/bd-p/SAPIoTConnect365) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Simplify the complex connectivity, scalability, and management of IoT.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-SVC-IOT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   This service does not run on standard SAP Cloud Platform regions. Check out [this note](https://help.sap.com/doc/aa1ccd10da6c4337aa737df2ead1855b/Cloud/en-US/3b642f68227b4b1398d2ce1a5351389a.html#loio3b642f68227b4b1398d2ce1a5351389a__otherregions) for further details.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -13507,49 +13509,49 @@ Simplify the complex connectivity, scalability, and management of IoT.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Launchpad Service](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Simplify access to applications by establishing a central launchpad.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   EP-CPP-CF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -13564,14 +13566,14 @@ Simplify access to applications by establishing a central launchpad.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -13580,49 +13582,49 @@ Simplify access to applications by establishing a central launchpad.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Launchpad Service](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Simplify access to applications by establishing a central launchpad.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   EP-CPP-CF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Singapore
 -   US West \(WA\)
@@ -13634,14 +13636,14 @@ Simplify access to applications by establishing a central launchpad.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -13650,63 +13652,63 @@ Simplify access to applications by establishing a central launchpad.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Launchpad Service](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Simplify access to applications by establishing a central launchpad.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   EP-CPP-CF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -13715,49 +13717,49 @@ Simplify access to applications by establishing a central launchpad.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Leonardo ML Foundation](https://help.sap.com/viewer/p/SAP_LEONARDO_MACHINE_LEARNING_FOUNDATION) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Infuse your applications with intelligent, easy-to-use services based on Machine Learning.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-ML-PLT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
@@ -13767,14 +13769,14 @@ Infuse your applications with intelligent, easy-to-use services based on Machine
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -13783,63 +13785,63 @@ Infuse your applications with intelligent, easy-to-use services based on Machine
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Leonardo ML Foundation](https://help.sap.com/viewer/p/SAP_LEONARDO_MACHINE_LEARNING_FOUNDATION) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Infuse your applications with intelligent, easy-to-use services based on Machine Learning.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-ML-PLT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -13848,49 +13850,49 @@ Infuse your applications with intelligent, easy-to-use services based on Machine
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Market Rates, Bring Your Own Rates](https://help.sap.com/viewer/p/SAP_CP_BUS_REUSE_SERVICE_MRM_APP) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Upload market rates and download the same multiple times from different systems.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-CBS-CS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -13898,14 +13900,14 @@ Upload market rates and download the same multiple times from different systems.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -13914,63 +13916,63 @@ Upload market rates and download the same multiple times from different systems.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Market Rates, Refinitiv](https://help.sap.com/viewer/p/SAP_CP_BUS_REUSE_SERVICE_MRM_TR) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Get daily and historical Exchange Rates and Interest Rates from Refinitiv.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-CBS-CS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -13979,63 +13981,63 @@ Get daily and historical Exchange Rates and Interest Rates from Refinitiv.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Omnichannel Promotion Pricing](https://help.sap.com/viewer/p/OPP) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Calculate effective sales prices by applying promotional rules.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-CID-OPP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -14044,63 +14046,63 @@ Calculate effective sales prices by applying promotional rules.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Process Mining by Celonis, cloud edition](https://help.sap.com/viewer/product/SAP_PROCESS_MINING_BY_CELONIS/latest/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Mine data from your operational systems, visualize processes, and transform your business with AI.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   XX-PART-CEL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Process Automation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -14109,63 +14111,63 @@ Mine data from your operational systems, visualize processes, and transform your
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Procurement Intelligence](https://help.sap.com/viewer/product/SAP_S4HANA_CLOUD_INTELLIGENT_INSIGHTS/2005/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Automate and simplify your business processes by applying machine learning intelligence.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-ML-PA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Integration Suite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -14174,49 +14176,49 @@ Automate and simplify your business processes by applying machine learning intel
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP RealSpend](https://help.sap.com/viewer/p/SAP_RealSpend) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manage and track expenses, and compare them against your budget in real time.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-MAP-RS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -14224,13 +14226,13 @@ Manage and track expenses, and compare them against your budget in real time.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -14239,49 +14241,49 @@ Manage and track expenses, and compare them against your budget in real time.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP S/4HANA Cloud Extensibility](https://help.sap.com/viewer/7b98ddc13f8d4a3ba08a74042a0baa7f/Cloud/en-US/346864df64f24011b49abee07bbd79af.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Connects extension applications running in a subaccount in SAP BTP to an SAP S/4HANA Cloud system.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-EXT-S4C
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -14294,14 +14296,14 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP S/4
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -14310,49 +14312,49 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP S/4
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP S/4HANA Cloud Extensibility](https://help.sap.com/viewer/7b98ddc13f8d4a3ba08a74042a0baa7f/Cloud/en-US/346864df64f24011b49abee07bbd79af.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Connects extension applications running in a subaccount in SAP BTP to an SAP S/4HANA Cloud system.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-EXT-S4C
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -14361,14 +14363,14 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP S/4
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -14377,63 +14379,63 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP S/4
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP S/4HANA Cloud Extensibility](https://help.sap.com/viewer/7b98ddc13f8d4a3ba08a74042a0baa7f/Cloud/en-US/346864df64f24011b49abee07bbd79af.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Connects extension applications running in a subaccount in SAP BTP to an SAP S/4HANA Cloud system.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-EXT-S4C
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -14442,49 +14444,49 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP S/4
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP SuccessFactors Extensibility](https://help.sap.com/viewer/7b98ddc13f8d4a3ba08a74042a0baa7f/Cloud/en-US/346864df64f24011b49abee07bbd79af.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Connects extension applications running in a subaccount in SAP BTP to an SAP SuccessFactors system.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-EXT-SF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Brazil \(São Paulo\)
 -   Australia \(Sydney\)
@@ -14497,14 +14499,14 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP Suc
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -14513,49 +14515,49 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP Suc
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP SuccessFactors Extensibility](https://help.sap.com/viewer/7b98ddc13f8d4a3ba08a74042a0baa7f/Cloud/en-US/346864df64f24011b49abee07bbd79af.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Connects extension applications running in a subaccount in SAP BTP to an SAP SuccessFactors system.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-EXT-SF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -14564,14 +14566,14 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP Suc
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -14580,63 +14582,63 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP Suc
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP SuccessFactors Extensibility](https://help.sap.com/viewer/7b98ddc13f8d4a3ba08a74042a0baa7f/Cloud/en-US/346864df64f24011b49abee07bbd79af.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Connects extension applications running in a subaccount in SAP BTP to an SAP SuccessFactors system.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-EXT-SF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -14645,49 +14647,49 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP Suc
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Translation Hub](https://help.sap.com/viewer/product/SAP_TRANSLATION_HUB/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Translate UI texts and get suggestions for UI texts during development.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-TH
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Amsterdam\)
@@ -14701,14 +14703,14 @@ Translate UI texts and get suggestions for UI texts during development.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -14717,49 +14719,49 @@ Translate UI texts and get suggestions for UI texts during development.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Web IDE Full-Stack](https://help.sap.com/viewer/product/SAP_Web_IDE/CF/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create and extend SAP full-stack applications for browsers and mobile devices.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-WDE-PLFRM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -14779,14 +14781,14 @@ Create and extend SAP full-stack applications for browsers and mobile devices.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -14795,49 +14797,49 @@ Create and extend SAP full-stack applications for browsers and mobile devices.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Service Manager](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/3a27b85a47fc4dff99184dd5bf181e14.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The central registry for service brokers and platforms in SAP BTP.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-SVCMGR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -14850,14 +14852,14 @@ The central registry for service brokers and platforms in SAP BTP.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -14866,49 +14868,49 @@ The central registry for service brokers and platforms in SAP BTP.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Service Manager](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/3a27b85a47fc4dff99184dd5bf181e14.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The central registry for service brokers and platforms in SAP BTP.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-SVCMGR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -14919,14 +14921,14 @@ The central registry for service brokers and platforms in SAP BTP.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -14935,63 +14937,63 @@ The central registry for service brokers and platforms in SAP BTP.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Service Manager](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/3a27b85a47fc4dff99184dd5bf181e14.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The central registry for service brokers and platforms in SAP BTP.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-SVCMGR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -15000,49 +15002,49 @@ The central registry for service brokers and platforms in SAP BTP.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Service Ticket Intelligence](https://help.sap.com/stint) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Build a self-driven customer service powered by machine learning.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-ML-STI
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
@@ -15050,14 +15052,14 @@ Build a self-driven customer service powered by machine learning.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -15066,63 +15068,63 @@ Build a self-driven customer service powered by machine learning.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Service Ticket Intelligence](https://help.sap.com/stint) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Build a self-driven customer service powered by machine learning.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-ML-STI
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -15131,49 +15133,49 @@ Build a self-driven customer service powered by machine learning.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Smart Business Service](https://help.sap.com/viewer/product/SAP_Smart_Business_Service/Cloud_Dev/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Expose KPIs and OPIs as SAP Fiori applications without the need to write any code.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-GTF-SB-HCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -15191,14 +15193,14 @@ Expose KPIs and OPIs as SAP Fiori applications without the need to write any cod
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -15207,49 +15209,49 @@ Expose KPIs and OPIs as SAP Fiori applications without the need to write any cod
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [SAP Smart Business Service](https://help.sap.com/viewer/product/SAP_Smart_Business_Service/Cloud_Dev/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Expose KPIs and OPIs as SAP Fiori applications without the need to write any code.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-GTF-SB-HCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -15257,14 +15259,14 @@ Expose KPIs and OPIs as SAP Fiori applications without the need to write any cod
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -15273,49 +15275,49 @@ Expose KPIs and OPIs as SAP Fiori applications without the need to write any cod
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Solutions Lifecycle Management](https://help.sap.com/viewer/product/SOLUTIONS_LIFECYCLE_MANAGEMENT/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Deploy, subscribe and transport solutions using multi-target applications \(MTAs\).
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-LCM-SRV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -15335,14 +15337,14 @@ Deploy, subscribe and transport solutions using multi-target applications \(MTAs
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -15351,49 +15353,49 @@ Deploy, subscribe and transport solutions using multi-target applications \(MTAs
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Streaming Analytics](https://help.sap.com/viewer/p/Streaming_Analytics) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Process continuous streams of event data in real time and act on the results.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   HAN-SDS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   US East \(Ashburn\)
@@ -15412,13 +15414,13 @@ Process continuous streams of event data in real time and act on the results.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -15427,65 +15429,63 @@ Process continuous streams of event data in real time and act on the results.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Tax Service](https://help.sap.com/viewer/product/SLH_tax_service/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Determine and calculate indirect taxes to support tax compliance.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-LH-TAX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
--   US West \(Chandler\)
 -   US East \(Sterling\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
--   Yes
-
+-   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -15494,49 +15494,49 @@ Determine and calculate indirect taxes to support tax compliance.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Tax Service](https://help.sap.com/viewer/product/SLH_tax_service/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Determine and calculate indirect taxes to support tax compliance.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-LH-TAX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -15544,14 +15544,14 @@ Determine and calculate indirect taxes to support tax compliance.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -15560,63 +15560,63 @@ Determine and calculate indirect taxes to support tax compliance.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Tax Service](https://help.sap.com/viewer/product/SLH_tax_service/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Determine and calculate indirect taxes to support tax compliance.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-LH-TAX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US West \(WA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -15625,49 +15625,49 @@ Determine and calculate indirect taxes to support tax compliance.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Cloud Transport Management](https://help.sap.com/viewer/p/TRANSPORT_MANAGEMENT_SERVICE) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provides programmatic access to Cloud Transport Management.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-LCM-TMS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
@@ -15682,14 +15682,14 @@ Provides programmatic access to Cloud Transport Management.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -15698,49 +15698,49 @@ Provides programmatic access to Cloud Transport Management.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Cloud Transport Management](https://help.sap.com/viewer/p/TRANSPORT_MANAGEMENT_SERVICE) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provides programmatic access to Cloud Transport Management.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-CP-LCM-TMS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -15752,14 +15752,14 @@ Provides programmatic access to Cloud Transport Management.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -15768,49 +15768,114 @@ Provides programmatic access to Cloud Transport Management.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
+
+ [Cloud Transport Management](https://help.sap.com/viewer/p/TRANSPORT_MANAGEMENT_SERVICE) 
+
+
+
+</td>
+<td valign="top">
+
+Provides programmatic access to Cloud Transport Management.
+
+
+
+</td>
+<td valign="top">
+
+-   BC-CP-LCM-TMS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Extension Suite - Development Efficiency
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   US Central \(IA\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
 
  [UI Theme Designer](https://help.sap.com/viewer/product/UI_THEME_DESIGNER/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Apply your corporate branding to applications based on SAPUI5 technology.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-UI2-THD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
@@ -15830,14 +15895,14 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -15846,49 +15911,49 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [UI Theme Designer](https://help.sap.com/viewer/product/UI_THEME_DESIGNER/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Apply your corporate branding to applications based on SAPUI5 technology.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-UI2-THD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   Brazil \(São Paulo\)
@@ -15901,14 +15966,14 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -15917,49 +15982,49 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [UI Theme Designer](https://help.sap.com/viewer/product/UI_THEME_DESIGNER/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Apply your corporate branding to applications based on SAPUI5 technology.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-UI2-THD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -15970,14 +16035,14 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -15986,63 +16051,63 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [UI Theme Designer](https://help.sap.com/viewer/product/UI_THEME_DESIGNER/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Apply your corporate branding to applications based on SAPUI5 technology.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-UI2-THD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -16051,63 +16116,63 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [UI Theme Designer](https://help.sap.com/viewer/product/UI_THEME_DESIGNER/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Apply your corporate branding to applications based on SAPUI5 technology.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-UI2-THD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -16116,49 +16181,49 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [UI5 flexibility for key users](https://help.sap.com/viewer/product/UI5_FLEXIBILITY_KEY_USER/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Add UI adaptation to your UI5 applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-UI5-FL-CLS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -16173,14 +16238,14 @@ Add UI adaptation to your UI5 applications.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -16189,49 +16254,49 @@ Add UI adaptation to your UI5 applications.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [UI5 flexibility for key users](https://help.sap.com/viewer/product/UI5_FLEXIBILITY_KEY_USER/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Add UI adaptation to your UI5 applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-UI5-FL-CLS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   Australia \(Sydney\)
@@ -16243,14 +16308,14 @@ Add UI adaptation to your UI5 applications.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -16259,63 +16324,63 @@ Add UI adaptation to your UI5 applications.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [UI5 flexibility for key users](https://help.sap.com/viewer/product/UI5_FLEXIBILITY_KEY_USER/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Add UI adaptation to your UI5 applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-UI5-FL-CLS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   GCP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   US Central \(IA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -16324,49 +16389,49 @@ Add UI adaptation to your UI5 applications.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Virtual Machines](https://help.sap.com/viewer/product/VIRTUAL_MACHINES/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Virtualized hardware resources \(CPU, RAM, disk space, installed OS\) to install and maintain the Linux-based software.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   BC-NEO-INFR-VM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Development Efficiency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Rot\)\*
 -   Australia \(Sydney\)
@@ -16375,13 +16440,13 @@ Virtualized hardware resources \(CPU, RAM, disk space, installed OS\) to install
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -16390,49 +16455,49 @@ Virtualized hardware resources \(CPU, RAM, disk space, installed OS\) to install
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Web Analytics](https://help.sap.com/viewer/product/SAP_WEB_ANALYTICS/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Analyze usage of your websites and web applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-SWA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
@@ -16444,14 +16509,14 @@ Analyze usage of your websites and web applications.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -16460,49 +16525,49 @@ Analyze usage of your websites and web applications.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Web Analytics](https://help.sap.com/viewer/product/SAP_WEB_ANALYTICS/Cloud/en-US) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Analyze usage of your websites and web applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CA-SWA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Experience
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
@@ -16513,14 +16578,14 @@ Analyze usage of your websites and web applications.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -16529,49 +16594,49 @@ Analyze usage of your websites and web applications.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Workflow](https://help.sap.com/viewer/p/WORKFLOW_SERVICE) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Automate business processes using workflow technology.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-BPM-WFS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Process Automation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   UAE \(Dubai\)
 -   Australia \(Sydney\)
@@ -16591,13 +16656,13 @@ Automate business processes using workflow technology.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -16606,49 +16671,49 @@ Automate business processes using workflow technology.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Workflow](https://help.sap.com/viewer/p/WORKFLOW_SERVICE) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Automate business processes using workflow technology.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-BPM-WFS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Process Automation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AWS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Australia \(Sydney\)
 -   Singapore
@@ -16663,14 +16728,14 @@ Automate business processes using workflow technology.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -16679,49 +16744,49 @@ Automate business processes using workflow technology.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Workflow](https://help.sap.com/viewer/p/WORKFLOW_SERVICE) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Automate business processes using workflow technology.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-BPM-WFS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Process Automation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Australia \(Sydney\)
 -   Singapore
@@ -16733,14 +16798,14 @@ Automate business processes using workflow technology.
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -16749,63 +16814,63 @@ Automate business processes using workflow technology.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Workflow](https://help.sap.com/viewer/p/WORKFLOW_SERVICE) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Automate business processes using workflow technology.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   LOD-BPM-WFS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Extension Suite - Digital Process Automation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Alibaba
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   China \(Shanghai\)\*\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Available
 
@@ -16828,14 +16893,14 @@ Automate business processes using workflow technology.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Support Component
 
@@ -16844,14 +16909,14 @@ Support Component
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP BTP Cockpit
 
 
 
 </td>
-<td>
+<td valign="top">
 
 BC-NEO-CPT \[Feature Set A\]
 
@@ -16864,14 +16929,14 @@ BC-CP-CF-CPT \[Cloud Foundry environment UI\]
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  SAP BTP Command Line Interface
 
 
 
 </td>
-<td>
+<td valign="top">
 
 BC-CP-TOOLS-CLI
 
@@ -16880,14 +16945,14 @@ BC-CP-TOOLS-CLI
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP BTP Console Client
 
 
 
 </td>
-<td>
+<td valign="top">
 
 BC-NEO-CMDTOOL
 
@@ -16896,14 +16961,14 @@ BC-NEO-CMDTOOL
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP UI Development Toolkit for HTML5 \(SAPUI5\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CA-WDE
 
@@ -16912,14 +16977,14 @@ CA-WDE
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SDK for SAP BTP, Neo Environment
 
 
 
 </td>
-<td>
+<td valign="top">
 
 BC-NEO-SDK
 
@@ -16928,14 +16993,14 @@ BC-NEO-SDK
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP HANA Cockpit 2.0
 
 
 
 </td>
-<td>
+<td valign="top">
 
 HAN-CLS-CPT
 
@@ -16952,14 +17017,14 @@ HAN-CLS-CPT
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Support Component
 
@@ -16968,14 +17033,14 @@ Support Component
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Deployment \(Neo Environment\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 BC-NEO-DPL
 
@@ -16984,14 +17049,14 @@ BC-NEO-DPL
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Deployment \(Cloud Foundry Environment\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 BC-XS-SL-DS
 
@@ -17008,14 +17073,14 @@ BC-XS-SL-DS
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Support Component
 
@@ -17024,14 +17089,14 @@ Support Component
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Infrastructure \(Neo environment\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 BC-NEO-IT-NW
 
@@ -17040,14 +17105,14 @@ BC-NEO-IT-NW
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP Cloud Management Service
 
 
 
 </td>
-<td>
+<td valign="top">
 
 BC-NEO-CIS
 
@@ -17056,14 +17121,14 @@ BC-NEO-CIS
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP Usage Data Management Service
 
 
 
 </td>
-<td>
+<td valign="top">
 
 BC-NEO-MET-REP
 
@@ -17072,14 +17137,14 @@ BC-NEO-MET-REP
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP Audit Log service
 
 
 
 </td>
-<td>
+<td valign="top">
 
 BC-NEO-AUDITLOG \(Neo environment\)
 
@@ -17090,14 +17155,14 @@ BC-CP-CF-SEC-AUDITLG \(Cloud Foundry environment\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP Streaming Analytics
 
 
 
 </td>
-<td>
+<td valign="top">
 
 HAN-SDS
 
@@ -17106,14 +17171,14 @@ HAN-SDS
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP Cloud Application Programming Model \(CAP\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 BC-XS-CDX
 

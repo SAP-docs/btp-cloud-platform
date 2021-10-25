@@ -18,6 +18,7 @@ The SAP Audit Log service stores audit logs representing different actions taken
 
     -   *audit.data-modification* data modification logging records for sensitive personal data.
 
+
     Security related
 
     -   *audit.security-events* logging of general security events like login, logout, and other;
@@ -25,27 +26,12 @@ The SAP Audit Log service stores audit logs representing different actions taken
     -   *audit.configuration* logging of security critical configuration changes.
 
 
+
 See [Change Logging and Read-Access Logging](../60-security/Change_Logging_and_Read-Access_Logging_93fac8d.md).
 
 
 
 If your subaccount audit logs contain other log types or information, create a support ticket with component BC-CP-CF-SEC-AUDITLG.
-
--   **[Audit Log Retrieval API Usage for the Cloud Foundry Environment](Audit_Log_Retrieval_API_Usage_for_the_Cloud_Foundry_Environment_30ece35.md "The audit log retrieval API allows you to retrieve the audit logs for your SAP BTP
-		Cloud
-                                Foundry
-		environment account. It provides the audit log results as a collection of JSON
-		entities.")**  
-The audit log retrieval API allows you to retrieve the audit logs for your SAP BTP Cloud Foundry environment account. It provides the audit log results as a collection of JSON entities.
--   **[Audit Log Retention for the Cloud Foundry Environment](Audit_Log_Retention_for_the_Cloud_Foundry_Environment_adaefa6.md "The audit log data stored for your account will be retained for 90 days, after which it
-		will be deleted. ")**  
-The audit log data stored for your account will be retained for 90 days, after which it will be deleted.
--   **[Audit Log Viewer for the Cloud Foundry Environment](Audit_Log_Viewer_for_the_Cloud_Foundry_Environment_e3baa5f.md "The SAP Audit Log Viewer
-                                    service
-		displays the audit logs for your Cloud
-                                Foundry account,
-		produced by SAP applications and services you’ve subscribed to. ")**  
-The SAP Audit Log Viewer service displays the audit logs for your Cloud Foundry account, produced by SAP applications and services you’ve subscribed to.
 
 **Related Information**  
 

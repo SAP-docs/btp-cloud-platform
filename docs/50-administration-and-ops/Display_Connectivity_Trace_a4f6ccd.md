@@ -40,6 +40,3 @@ You can use this app to:
 
 If you need support or experience issues, please report an incident under component ``BC-SRV-APS-COM``.
 
--   **[How to Create a Trace](How_to_Create_a_Trace_779e1d5.md "")**  
-
-

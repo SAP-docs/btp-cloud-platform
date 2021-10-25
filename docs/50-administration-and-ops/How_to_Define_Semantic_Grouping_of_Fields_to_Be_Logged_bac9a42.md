@@ -1,5 +1,7 @@
 <!-- loiobac9a426b5154b69ae59dcc02b89a193 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # How to Define Semantic Grouping of Fields to Be Logged
 
 Within an application, the data to be logged must be defined on a semantic level, before the actual fields and rules are defined. Log domains are semantic descriptions of semantically identical or related fields that have different technical representations.
@@ -26,13 +28,15 @@ For a log domain, specify a name and a business area that the data element is re
 
     -   To copy a log domain from SAP, do the following.
 
+
     1.  Under *Search Criteria*, choose *Search*.
 
     2.  From the search results, select a template from SAP.
 
-        Templates from SAP use the   \(SAP\)  icon under *Owner* or list ***SAP*** under *Created By* or *Changed By*.
+        Templates from SAP use the <span class="SAP-icons"></span> \(SAP\) icon under *Owner* or list ***SAP*** under *Created By* or *Changed By*.
 
-    3.  Under *Actions*, choose   \(Copy\) .
+    3.  Under *Actions*, choose <span class="SAP-icons"></span> \(Copy\).
+
 
 3.  Enter the required data.
 

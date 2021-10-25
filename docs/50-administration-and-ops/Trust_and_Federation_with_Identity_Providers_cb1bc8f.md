@@ -37,7 +37,7 @@ For business users:
 
 For platform users:
 
--   [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](Establish_Trust_and_Federation_of_Custom_Identity_Providers_for_Platform_Users_in_Multi-Environment_Subaccounts_Feature_Set_A_8600afb.md)
+-   [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](Establish_Trust_and_Federation_of_Custom_Identity_Providers_8600afb.md)
 
 
 For default identity provider:
@@ -51,43 +51,6 @@ For default identity provider:
 
     The identity provider hosts the business users, who belong to user groups. It’s efficient to use federation by assigning role collections to one or more user groups. The role collection contains all the authorizations that are necessary for this user group. This method saves time when you add a new business user. Simply add the users to the respective user groups and the new business users automatically get all the authorizations that are included in the role collection.
 
-
--   **[Establish Trust and Federation Between UAA and Identity Authentication](Establish_Trust_and_Federation_Between_UAA_and_Identity_Authentication_161f8f0.md#loio161f8f0cfac64c4fa2d973bc5f08a894 "Use your SAP Cloud Identity Services - Identity
-                                    Authentication tenant as an identity provider or a proxy to your own
-		identity provider hosting your business users. This method avoids the upload and download of SAML meta data by using Open ID Connect (OIDC) to
-		establish trust.")**  
-Use your SAP Cloud Identity Services - Identity Authentication tenant as an identity provider or a proxy to your own identity provider hosting your business users. This method avoids the upload and download of SAML meta data by using Open ID Connect \(OIDC\) to establish trust.
--   **[Manually Establish Trust and Federation Between UAA and Identity Authentication](Manually_Establish_Trust_and_Federation_Between_UAA_and_Identity_Authentication_7c6aa87.md#loio7c6aa87459764b179aeccadccd4f91f3 "Use your SAP Cloud Identity Services - Identity
-                                    Authentication tenant as an identity provider or a proxy to your own
-		identity provider hosting your business users. Exchange SAML metadata to establish trust with the Identity
-                                Authentication tenant and then register your subaccount with the tenant. To complete
-		federation, maintain the federation attributes of the user groups.")**  
-Use your SAP Cloud Identity Services - Identity Authentication tenant as an identity provider or a proxy to your own identity provider hosting your business users. Exchange SAML metadata to establish trust with the Identity Authentication tenant and then register your subaccount with the tenant. To complete federation, maintain the federation attributes of the user groups.
--   **[Establish Trust and Federation with UAA Using Any SAML Identity Provider](Establish_Trust_and_Federation_with_UAA_Using_Any_SAML_Identity_Provider_2ce3938.md#loio2ce3938c66d94479848bff3090999027 "To establish trust, configure the trust configuration of the SAML 2.0 identity provider
-		in your subaccount using the SAP BTP
-                                    cockpit. Next, register your
-		subaccount in User Account and Authentication service using the
-		administration console of your SAML 2.0 identity provider. To complete federation, maintain
-		the federation attributes of the SAML 2.0 user groups. This makes sure that you can assign
-		authorizations to user groups.")**  
-To establish trust, configure the trust configuration of the SAML 2.0 identity provider in your subaccount using the SAP BTP cockpit. Next, register your subaccount in User Account and Authentication service using the administration console of your SAML 2.0 identity provider. To complete federation, maintain the federation attributes of the SAML 2.0 user groups. This makes sure that you can assign authorizations to user groups.
--   **[Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](Establish_Trust_and_Federation_of_Custom_Identity_Providers_for_Platform_Users_in_Multi-Environment_Subaccounts_Feature_Set_A_8600afb.md "By default, platform users in multi-environment subaccounts are users in SAP ID service. The use of your own identity provider requires integration between the
-			user bases of  multi-environment and Neo subaccounts.")**  
-By default, platform users in multi-environment subaccounts are users in SAP ID service. The use of your own identity provider requires integration between the user bases of multi-environment and Neo subaccounts.
--   **[Default Identity Federation with SAP ID Service in the Cloud Foundry Environment](Default_Identity_Federation_with_SAP_ID_Service_in_the_Cloud_Foundry_Environment_36d21ac.md "The default identity provider of SAP BTP is SAP ID service.")**  
-The default identity provider of SAP BTP is SAP ID service.
--   **[Federation Attribute Settings of Any Identity Provider](Federation_Attribute_Settings_of_Any_Identity_Provider_6d07333.md "This table is supposed to display the attribute settings of the identity provider and
-		the values administrators use to establish trust between the SAML 2.0 identity provider and
-		a new subaccount.")**  
-This table is supposed to display the attribute settings of the identity provider and the values administrators use to establish trust between the SAML 2.0 identity provider and a new subaccount.
--   **[Provide Logon Link Help to Identity Provider for Business Users](Provide_Logon_Link_Help_to_Identity_Provider_for_Business_Users_b8c0aac.md "You have configured trust configurations for multiple identity providers. You want to
-		provide an understandable link on the logon page so that business users know where to log
-		on.")**  
-You have configured trust configurations for multiple identity providers. You want to provide an understandable link on the logon page so that business users know where to log on.
--   **[Switch Off Automatic Creation of Shadow Users](Switch_Off_Automatic_Creation_of_Shadow_Users_d852567.md "To switch off the creation of shadow users in the trust configuration of custom
-		identity providers, administrators must explicitly allow users to log on. Administrators
-		then have full control over who is allowed to log on.")**  
-To switch off the creation of shadow users in the trust configuration of custom identity providers, administrators must explicitly allow users to log on. Administrators then have full control over who is allowed to log on.
 
 **Related Information**  
 

@@ -43,6 +43,7 @@ At the moment, SAP offers three different solutions that help you apply CI/CD in
 
     -   A [set of Docker images](https://github.com/SAP/devops-docker-images) that can be used to implement best practice processes
 
+
 -   **[Continuous Integration and Delivery Best Practices Guide](https://help.sap.com/viewer/3324745951b44b578bd65221d2ff8f9a/Cloud/en-US)**
 
     The CI/CD Best Practices Guide provides best practice procedures to implement continuous delivery pipelines on any CI/CD stack and demonstrates how to apply the principles of CI/CD to SAP-specific technologies.

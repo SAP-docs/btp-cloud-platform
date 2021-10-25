@@ -12,8 +12,3 @@ The new RAP-based Information Access \(InA\) service exposure enables ABAP envir
 
 This guide provides you with all the information you need to get started, explains the concepts and gives detailed step-by-step instructions for the entire process, from start to finish.
 
--   **[Getting Started](Getting_Started_e4ec558.md "")**  
-
--   **[Develop](Develop_df5c477.md "")**  
-
-

@@ -1,5 +1,7 @@
 <!-- loio8f4d9db9ecb34b08865c2c7a61d7719f -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # View Subaccount Usage Analytics
 
 You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your subaccount.
@@ -17,14 +19,14 @@ The subaccount *Usage Analytics* page contains views that display usage at diffe
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 View
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -33,14 +35,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Subaccount** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Displays high-level usage information for your subaccount relating to services, business application subscriptions, and Cloud Foundry org spaces.
 
@@ -51,14 +53,14 @@ Some information in this view is displayed only for global account admins.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Services** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Displays usage per service plan for the region of the subaccount, and the selected metric and period. Information is shown for all services whose metered consumption in the subaccount is greater than zero.
 
@@ -67,14 +69,14 @@ Displays usage per service plan for the region of the subaccount, and the select
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Spaces** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(Cloud Foundry environment only\) Displays service plan usage per space for the services shown in the *Services* view.
 
@@ -114,8 +116,9 @@ You can perform various actions within the tables and charts:
 -   In the *Services* and *Spaces* views, select a table row to display the usage information in the chart. You can also select multiple rows to compare usage in the following ways:
     -   In the *Services* view, you can compare usage between service plans in the same service. Multi-row selection in the table is possible only when you have selected a single service in the *Service* filter and the row items share the same metric.
     -   In the *Spaces* view, you can compare usage between spaces for the same service and service plan. Multi-row selection in the table is possible only when you have selected a single service plan in the *Service Plan* filter.
+
 -   In the charts, you can view the data as a column chart or as a line chart.
--   To display a larger view of a chart, choose the   \(Zoom\)  button.
+-   To display a larger view of a chart, choose the <span style="font-size:16px;"><span class="SAP-icons"></span></span> \(Zoom\) button.
 -   Some rounding or shortening is applied to large values. You can mouse over values in the table to view the exact values as tooltips.
 
 
@@ -130,7 +133,7 @@ The *Spaces* view inherits the filter settings, except for the *Period*, from th
 
 In the *Services* view, you can apply the *Metric* filter only when you have selected a service with more than one metric.
 
-Click the   \(Reset\)  icon in each view to reset the filters to their default settings. If you reset the filters in the *Services* view, the filters in the *Spaces* are also reset.
+Click the <span style="font-size:16px;"><span class="SAP-icons"></span></span> \(Reset\) icon in each view to reset the filters to their default settings. If you reset the filters in the *Services* view, the filters in the *Spaces* are also reset.
 
 **Related Information**  
 
@@ -145,5 +148,5 @@ Click the   \(Reset\)  icon in each view to reset the filters to their defaul
 
 [View Directory Usage Analytics \[Feature Set B\]](View_Directory_Usage_Analytics_Feature_Set_B_a287782.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your directory.")
 
-[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](Monitoring_Usage_Information_Using_APIs_of_the_SAP_Usage_Data_Management_Service_Feature_Set_B_bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
+[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](Monitoring_Usage_Information_Using_APIs_bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
 

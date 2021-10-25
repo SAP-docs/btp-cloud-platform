@@ -85,6 +85,7 @@ The following examples show various ways that you can use autocompletion:
     -   `bash`
     -   `powershell`
     -   `zsh`
+
     > ### Sample Code:  
     > `btp enable autocomplete zsh`
 
@@ -133,8 +134,6 @@ You can run either `btp` or `btp --info` to see if command autocompletion is cur
 Whenever you start a new btp CLI terminal session, the installed autocomplete scripts are automatically updated to include the latest commands. If a script is updated, you're prompted to restart your terminal session to load the newest autocomplete information.
 
 If disabling the command autocompletion fails or you have uninstalled the btp CLI client without disabling autocompletion, you can manually remove traces of the autocomplete installation in your shell initialization file \(RC or profile file depending on your shell\) by deleting the line that starts with `SAPCP_CLI_AUTOCOMPLETE`.
-
-**Parent topicColonSymbol** [General Commands and Options in the btp CLI](General_Commands_and_Options_in_the_btp_CLI_11d9f67.md "Learn how to work with the SAP BTP command line interface (btp CLI). For example, how to log in, get help, and set a default context for commands.")
 
 **Related Information**  
 

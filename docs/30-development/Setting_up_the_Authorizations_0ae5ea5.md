@@ -1,4 +1,4 @@
-<!-- loiobb559a5a4b654996a167d72273f28542 -->
+<!-- copy0ae5ea5f730d4e0084ba040e184e26c5 -->
 
 # Setting up the Authorizations
 
@@ -8,7 +8,7 @@ Some further activities in ADT and in the administrator’s launchpad are necess
 
 1.  Create an Identity and Access Management \(IAM\) Business Catalog.
 
-    When you create a job catalog entry and a job template as explained in [Creating a Job Catalog Entry and a Job Template in ADT](Creating_a_Job_Catalog_Entry_and_a_Job_Template_in_ADT_949ba00.md), an object of the type **IAM App** is created automatically. It has the name **<job catalog entry name\>\_SAJC**.
+    When you create a job catalog entry and a job template as explained in [Creating a Job Catalog Entry and a Job Template in ADT](../50-administration-and-ops/Creating_a_Job_Catalog_Entry_and_a_Job_Template_in_ADT_949ba00.md), an object of the type **IAM App** is created automatically. It has the name **<job catalog entry name\>\_SAJC**.
 
     Create an IAM business catalog via ADT:
 
@@ -23,6 +23,7 @@ Some further activities in ADT and in the administrator’s launchpad are necess
     9.  Enter the name of the IAM app mentioned in step **e** \(`ZTEST_MY_SIMPLE_JOB_SAJC`\).
     10. Select *Save*.
     11. Press *Publish Locally* on the top right corner of the screen.
+
 2.  Create a business role.
 
     Open the Fiori App *Maintain Business Roles* in the Fiori Launchpad of the administrator and perform the following steps:
@@ -41,6 +42,7 @@ Some further activities in ADT and in the administrator’s launchpad are necess
         > Add the business catalog `SAP_CORE_BC_APJ_JCE` to the business role created following the steps above, or assign it to a separate business role.
 
     6.  Select *Save*.
+
 3.  Assign the business role to a user.
 
     For more information, see [How to Maintain Business Users](../50-administration-and-ops/How_to_Maintain_Business_Users_db1d0b4.md).
@@ -48,7 +50,7 @@ Some further activities in ADT and in the administrator’s launchpad are necess
 
 
 
-<a name="loiobb559a5a4b654996a167d72273f28542__section_zrj_2wb_s4b"/>
+<a name="copy0ae5ea5f730d4e0084ba040e184e26c5__section_zrj_2wb_s4b"/>
 
 ## Assigning Further Authorizations
 

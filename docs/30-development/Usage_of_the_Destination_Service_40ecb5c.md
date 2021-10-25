@@ -31,6 +31,7 @@ You can use the destination service to establish a connection for outbound commu
         > i_service_instance_name      = 'Service Instance Name' ).
         > ```
 
+
 2.  Developing a configuration app to maintain the destination name or service instance name depending on the configuration of the administrator \(credentials via destination in the subaccount or credentials via a destination service instance\)
 
 > ### Tip:  

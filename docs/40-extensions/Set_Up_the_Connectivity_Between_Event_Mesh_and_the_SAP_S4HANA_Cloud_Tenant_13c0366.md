@@ -28,14 +28,14 @@ After you have created the `SAP S/4HANA Cloud Extensibility` service instance, e
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Process Step
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Related Documentation
 
@@ -44,14 +44,14 @@ Related Documentation
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1. Create an `SAP S/4HANA Cloud Extensibility` service instance with service plan `messaging`.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   [Create an SAP S/4HANA Extensibility Service Instance in the Cloud Foundry Environment](Create_an_SAP_S4HANA_Extensibility_Service_Instance_in_the_Cloud_Foundry_Environment_531a909.md)
 
@@ -63,14 +63,14 @@ Related Documentation
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 2. Define a dedicated JSON file that you add either when creating the `SAP S/4HANA Cloud Extensibility` service instance, or after that.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON File](Define_SAP_S4HANA_Cloud_Extensibility_Service_Descriptor_JSON_File_2d50d91.md) 
 
@@ -79,14 +79,14 @@ Related Documentation
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 3. Configure event topics for the channel inside SAP S/4HANA Cloud tenant.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Configure Event Topics in SAP S/4HANA Cloud](Configure_Event_Topics_in_SAP_S4HANA_Cloud_f5bbc57.md) 
 
@@ -95,18 +95,4 @@ Related Documentation
 </td>
 </tr>
 </table>
-
--   **[Create an SAP S/4HANA Extensibility Service Instance in the Cloud Foundry Environment](Create_an_SAP_S4HANA_Extensibility_Service_Instance_in_the_Cloud_Foundry_Environment_531a909.md "Use this procedure to configure the communication between SAP S/4HANA Cloud and SAP Event
-                                        Mesh.")**  
-Use this procedure to configure the communication between SAP S/4HANA Cloud and SAP Event Mesh.
--   **[Create an SAP S/4HANA Extensibility Service Instance in the Kyma Environment](Create_an_SAP_S4HANA_Extensibility_Service_Instance_in_the_Kyma_Environment_55d876e.md "Use this procedure to configure the communication between SAP S/4HANA Cloud and SAP Event
-                                        Mesh
-		in the Kyma environment.")**  
-Use this procedure to configure the communication between SAP S/4HANA Cloud and SAP Event Mesh in the Kyma environment.
--   **[Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON File](Define_SAP_S4HANA_Cloud_Extensibility_Service_Descriptor_JSON_File_2d50d91.md "The SAP S/4HANA Cloud Extensibility service descriptor defines details of a messagе
-		client and needs to be provided when provisioning new SAP S/4HANA Cloud Extensibility
-		service instances with service plan messaging.")**  
-The SAP S/4HANA Cloud Extensibility service descriptor defines details of a messagе client and needs to be provided when provisioning new SAP S/4HANA Cloud Extensibility service instances with service plan `messaging`.
--   **[Configure Event Topics in SAP S/4HANA Cloud](Configure_Event_Topics_in_SAP_S4HANA_Cloud_f5bbc57.md "Configure event topics for the channel inside the SAP S/4HANA Cloud tenant.")**  
-Configure event topics for the channel inside the SAP S/4HANA Cloud tenant.
 

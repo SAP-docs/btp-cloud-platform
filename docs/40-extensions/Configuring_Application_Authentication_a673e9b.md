@@ -42,9 +42,6 @@ You need your own application router that connects your extension application to
     4.  After a successful login, you will get redirected to the welcome page of you extension application if you have defined one.
 
 
--   **[Establish Trust Between the Identity Authentication Service and SAP BTP](Establish_Trust_Between_the_Identity_Authentication_Service_and_SAP_BTP_ffa4868.md "Use this procedure to configure the SAP BTP trust settings and add the Identity
-                                Authentication tenant as an identity provider.")**  
-Use this procedure to configure the SAP BTP trust settings and add the Identity Authentication tenant as an identity provider.
 
 **Related Information**  
 

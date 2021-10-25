@@ -36,14 +36,14 @@ The multitenancy concept involves two main user roles:
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 Application provider
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An SAP global account owner that uses SAP BTP to own, build, run, and offer custom-developed applications to its consumers.
 
@@ -52,14 +52,14 @@ An SAP global account owner that uses SAP BTP to own, build, run, and offer cust
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Application consumer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A consumer of the application provider, such as a department or organizational unit, whose users use the multitenant application.
 
@@ -129,44 +129,6 @@ This is the workflow and requirements for developing and deploying a multitenant
     Create a subaccount in your global account for each application consumer, subscribe each consumer subaccount to the hosted application deployed in the provider account, and then set up application roles and assign users.
 
 
--   **[Develop the Multitenant Application](Develop_the_Multitenant_Application_ff54047.md "In the Cloud
-                                Foundry environment of SAP BTP, you can develop and run multitenant applications that can be accessed
-		by multiple consumers (tenants) through a dedicated URL.")**  
-In the Cloud Foundry environment of SAP BTP, you can develop and run multitenant applications that can be accessed by multiple consumers \(tenants\) through a dedicated URL.
--   **[Deploy the Multitenant Application to the Provider Subaccount](Deploy_the_Multitenant_Application_to_the_Provider_Subaccount_2204416.md "After you have developed your multitenant application and authorizations, you need to deploy the application in a Cloud
-                                Foundry space in the provider's subaccount.")**  
-After you have developed your multitenant application and authorizations, you need to deploy the application in a Cloud Foundry space in the provider's subaccount.
--   **[Configure the approuter Application](Configure_the_approuter_Application_5af9067.md "To authenticate business users of the application at runtime, use the tenant-aware
-			approuter application and SAP Authorization and Trust
-                                    Management service (technical
-		name: xsuaa) in SAP BTP.")**  
-To authenticate business users of the application at runtime, use the tenant-aware `approuter` application and SAP Authorization and Trust Management service \(technical name: `xsuaa`\) in SAP BTP.
--   **[Bind the Multitenant Application and Application Router to the xsuaa Service Instance](Bind_the_Multitenant_Application_and_Application_Router_to_the_xsuaa_Service_Instance_f56d74d.md "Bind your multitenant application and the
-			approuter application to the SAP Authorization and Trust
-                                    Management service (technical
-		name: xsuaa) instance, which acts as an OAuth 2.0
-		client to your application.")**  
-Bind your multitenant application and the `approuter` application to the SAP Authorization and Trust Management service \(technical name: `xsuaa`\) instance, which acts as an OAuth 2.0 client to your application.
--   **[Register the Multitenant Application to the SAP SaaS Provisioning Service](Register_the_Multitenant_Application_to_the_SAP_SaaS_Provisioning_Service_3971151.md "To make a multitenant application available for subscription to SaaS consumer tenants,
-		you (the application provider) must register the application in the Cloud
-                                Foundry
-		environment via the SAP Software-as-a-Service
-                                    Provisioning service (technical
-		name: saas-registry).")**  
-To make a multitenant application available for subscription to SaaS consumer tenants, you \(the application provider\) must register the application in the Cloud Foundry environment via the SAP Software-as-a-Service Provisioning service \(technical name: `saas-registry`\).
--   **[Providing Multitenant Applications to Consumers in the Cloud Foundry Environment](Providing_Multitenant_Applications_to_Consumers_in_the_Cloud_Foundry_Environment_7a013f1.md "Once you have built a multitenant application in the Cloud
-                                Foundry environment using SAP BTP, you can then share the application with
-			multiple consumers, such as business units in your organization.")**  
-Once you have built a multitenant application in the Cloud Foundry environment using SAP BTP, you can then share the application with multiple consumers, such as business units in your organization.
--   **[Using SAP SaaS Provisioning Service APIs to Manage Multitenant Applications](Using_SAP_SaaS_Provisioning_Service_APIs_to_Manage_Multitenant_Applications_ed08c7d.md "You can use the SAP Software-as-a-Service
-                                    Provisioning service (technical
-		name: saas-registry) APIs to manage your
-		multitenant application.")**  
-You can use the SAP Software-as-a-Service Provisioning service \(technical name: `saas-registry`\) APIs to manage your multitenant application.
--   **[Using the Subscription Management Dashboard](Using_the_Subscription_Management_Dashboard_434be69.md "Learn how to use the SAP BTPsubscription management dashboard to manage
-		your multitenant applications through a user interface.")**  
-Learn how to use the SAP BTPsubscription management dashboard to manage your multitenant applications through a user interface.
-
 **Related Information**  
 
 
@@ -174,5 +136,5 @@ Learn how to use the SAP BTPsubscription management dashboard to manage your mul
 
 [Data Protection and Privacy](../60-security/Data_Protection_and_Privacy_7e513d3.md "Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries.")
 
-[Using the Subscription Management Dashboard](Using_the_Subscription_Management_Dashboard_434be69.md "Learn how to use the SAP BTPsubscription management dashboard to manage your multitenant applications through a user interface.")
+[Using the Subscription Management Dashboard](Using_the_Subscription_Management_Dashboard_434be69.md "Learn how to use the SAP BTP subscription management dashboard to manage your multitenant applications through a user interface.")
 

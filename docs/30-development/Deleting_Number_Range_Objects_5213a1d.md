@@ -9,21 +9,21 @@ Use method `DELETE` to delete number range objects.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Field Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -32,21 +32,21 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number Range Object
 
@@ -55,21 +55,21 @@ Number Range Object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CORRNR
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Correction number for transport
 

@@ -39,3 +39,4 @@ You are an SAP Marketing Cloud tenant administrator.
         > Before deleting an integration, make sure you have deleted any SAP S/4HANA Cloud Extensibility service instances for this integration in the SAP BTP cockpit. See [Create a Service Instance to Consume the SAP S/4HANA Cloud APIs](Create_a_Service_Instance_to_Consume_the_SAP_S4HANA_Cloud_APIs_a735641.md).
 
 
+

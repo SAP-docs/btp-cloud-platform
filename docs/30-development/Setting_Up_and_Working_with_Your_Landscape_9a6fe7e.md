@@ -10,18 +10,3 @@ The number of ABAP systems = \(number of branches x DEV systems\) + \(number of 
 
 This is due to the fact that an ABAP system always checks out only one branch of a software component. Yet, several software components represented by one branch can run in one ABAP system in parallel.
 
--   **[Required Tools](Required_Tools_0b95882.md "")**  
-
--   **[Required Business Roles](Required_Business_Roles_01c96ed.md "")**  
-
--   **[Important Notes](Important_Notes_6d9a1b2.md "")**  
-
--   **[Use Case 1: One Codeline in a 3-ABAP-System Landscape](Use_Case_1_One_Codeline_in_a_3-ABAP-System_Landscape_2276142.md "")**  
-
--   **[Use Case 2: One Development and Correction Codeline in a 5-ABAP-System Landscape](Use_Case_2_One_Development_and_Correction_Codeline_in_a_5-ABAP-System_Landscape_4e53874.md "")**  
-
--   **[Use Case 3: One Codeline with On-Demand Development ABAP Systems](Use_Case_3_One_Codeline_with_On-Demand_Development_ABAP_Systems_ba7a9f3.md "")**  
-
--   **[Double Maintenance of Corrections into Development](Double_Maintenance_of_Corrections_into_Development_1241b14.md "")**  
-
-

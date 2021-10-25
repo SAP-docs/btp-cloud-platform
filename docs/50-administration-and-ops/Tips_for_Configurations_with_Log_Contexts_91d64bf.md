@@ -34,28 +34,28 @@ The table below shows how to configure the screen sequence depicted in the graph
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Screen Number
 
 
 
 </th>
-<th>
+<th valign="top">
 
 UI Element
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Recommended Logging Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Comment
 
@@ -64,28 +64,28 @@ Comment
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Screen 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Employee No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Log with value and define as log context
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The employee number is an input field, we recommend that you log it. As the other fields on Screen 2 depend on the employee number, we recommend defining it as the log context.
 
@@ -96,28 +96,28 @@ In the log, the field that is the log context is marked for easy identification.
 </td>
 </tr>
 <tr>
-<td rowspan="3">
+<td valign="top" rowspan="3">
 
 Screen 2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Employee No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No logging necessary
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The employee number has been entered on Screen 1 and is repeated here as an output field. As you have already specified it as the log context, you do not need to log this field.
 
@@ -129,21 +129,21 @@ The employee number has been entered on Screen 1 and is repeated here as an outp
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Social Security No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Log without value \(for example, legal regulations may prohibit logging social security numbers\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The social security number of this employee is displayed within the same log entry as the log context. If you configure to log it without the value, only the fact that the field was accessed is logged, but not the value.
 
@@ -152,21 +152,21 @@ The social security number of this employee is displayed within the same log ent
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Religion
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Log with value
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The religion of this employee is displayed within the same log entry. If you configure to log it with value, the religion is displayed in the log.
 
@@ -175,28 +175,28 @@ The religion of this employee is displayed within the same log entry. If you con
 </td>
 </tr>
 <tr>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 Screen 3
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Employee No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No logging necessary
 
 
 
 </td>
-<td>
+<td valign="top">
 
 As you have specified the employee number from Screen 1 as the log context, you do not need to log this field.
 
@@ -208,21 +208,21 @@ As you have specified the employee number from Screen 1 as the log context, you 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Salary
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Log with value
 
 
 
 </td>
-<td>
+<td valign="top">
 
 As it is the only field that is configured on this screen, the salary of this employee will be displayed with the log context from Screen 1 in one log entry.
 

@@ -45,6 +45,3 @@ You can download and consume SAP developed Node.js packages via the SAP NPM Regi
 
 For selected tips and tricks for your Node.js development, see [Tips and Tricks for Node.js Applications](Tips_and_Tricks_for_Node.js_Applications_3a5fe88.md).
 
--   **[Tips and Tricks for Node.js Applications](Tips_and_Tricks_for_Node.js_Applications_3a5fe88.md "")**  
-
-

@@ -1,5 +1,7 @@
 <!-- loio9e3d4578e6cb4ad09a819e78e6adf309 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Hide Logon Link for Default Identity Provider
 
 You use one or multiple custom identity providers for business users as well as the default identity provider primarily for platform users. To provide a good logon experience for your business users, you want to hide the default identity provider, which remains active.
@@ -27,11 +29,11 @@ To hide the default identity provider at logon time, proceed as follows:
 
 ## Procedure
 
-1.  Go to your subaccount\(see [Navigate to Orgs and Spaces](Navigate_to_Orgs_and_Spaces_5bf8735.md)\) and choose *Security* \> *Trust Configuration* in the SAP BTP cockpit.
+1.  Go to your subaccount\(see [Navigate in the Cockpit](Navigate_in_the_Cockpit_0874895.md)\) and choose *Security* \> *Trust Configuration* in the SAP BTP cockpit.
 
     You see the list of trust configurations: the default trust configuration and the custom trust configuration\(s\).
 
-2.  Choose     \(Edit\) for the default trust configuration. It has the status *Default*.
+2.  Choose <span class="SAP-icons"></span> \(Edit\) for the default trust configuration. It has the status *Default*.
 
 3.  To hide the default trust configuration \(`SAP ID service`\) for logon, uncheck the *Available for User Logon* checkbox.
 

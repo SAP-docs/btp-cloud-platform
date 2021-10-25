@@ -14,19 +14,6 @@ Once your account model is set up, you can move on to managing the different env
 -   [Administration and Operations in the ABAP Environment](Administration_and_Operations_in_the_ABAP_Environment_c4fd102.md)
 -   [Administration and Operations in the Kyma Environment](Administration_and_Operations_in_the_Kyma_Environment_b8e1686.md)
 
--   **[Account Administration in the Cockpit](Account_Administration_in_the_Cockpit_8061ecc.md "Learn about frequent administrative tasks you can perform using the SAP BTP
-                                    cockpit, such as managing global
-		accounts, directories, subaccounts, entitlements, and members.")**  
-Learn about frequent administrative tasks you can perform using the SAP BTP cockpit, such as managing global accounts, directories, subaccounts, entitlements, and members.
--   **[Account Administration Using the SAP BTP Command Line Interface \(btp CLI\) \[Feature Set B\]](Account_Administration_Using_the_SAP_BTP_Command_Line_Interface_(btp_CLI)_Feature_Set_B_7c6df2d.md "Use the SAP BTP command
-			line interface (btp CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and
-			working with service brokers and platforms. It is an alternative to the SAP BTP cockpit for all users who like to work in a terminal or want to automate operations using scripts. ")**  
-Use the SAP BTP command line interface \(btp CLI\) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the SAP BTP cockpit for all users who like to work in a terminal or want to automate operations using scripts.
--   **[Account Administration Using APIs](Account_Administration_Using_APIs_1c8db14.md "SAP BTP provides REST APIs that enable you to perform administrative
-		tasks on the global account, directory, and subaccount level, such as creating or updating subaccounts, monitoring usage information, managing
-		access, and managing service resources.")**  
-SAP BTP provides REST APIs that enable you to perform administrative tasks on the global account, directory, and subaccount level, such as creating or updating subaccounts, monitoring usage information, managing access, and managing service resources.
-
 **Related Information**  
 
 

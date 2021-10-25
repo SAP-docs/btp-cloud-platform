@@ -32,21 +32,6 @@ version: 1.0.0
 
 You can pick your own ID and version; the schema-version should be kept as is.
 
--   **[Mapping to MTA Structure](Mapping_to_MTA_Structure_b728ebf.md)**  
-
--   **[Definition of Parameters](Definition_of_Parameters_06c0c9b.md)**  
-
--   **[Definition of MTA Modules](Definition_of_MTA_Modules_af521ff.md)**  
-
--   **[Definition of the MTA Resources](Definition_of_the_MTA_Resources_1764436.md)**  
-
--   **[Full MTA Descriptor](Full_MTA_Descriptor_ea445c6.md "")**  
-
--   **[Using MTA Extension Descriptors](Using_MTA_Extension_Descriptors_383f3a3.md)**  
-
--   **[Build and Deploy](Build_and_Deploy_faf5106.md)**  
-
-
 **Related Information**  
 
 

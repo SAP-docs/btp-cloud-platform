@@ -15,14 +15,14 @@ Use method `DELETE` to delete a dimension. For customer dimensions, the name of 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -31,14 +31,14 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DIMID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Dimension key
 
@@ -59,14 +59,14 @@ Dimension key
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -75,14 +75,14 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ERROR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ***Space***: No error
 

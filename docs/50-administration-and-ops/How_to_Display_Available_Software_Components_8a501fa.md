@@ -21,14 +21,14 @@ You want to see which software components already exist in the environment and a
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Column Name
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Description
 
@@ -37,14 +37,14 @@ You want to see which software components already exist in the environment and a
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *<Name\>* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Name of the software component that has to be unique per service instance. The maximum length of the name is restricted to 18 characters.
 
@@ -53,14 +53,14 @@ You want to see which software components already exist in the environment and a
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *<Description\>* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Description of the software component, which can only contain 60 characters.
 
@@ -69,14 +69,14 @@ You want to see which software components already exist in the environment and a
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *<Type\>* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Type of the software component. The software component must either be *Development* or *Business Configuration*.
 
@@ -85,14 +85,14 @@ You want to see which software components already exist in the environment and a
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *<Checked Out Branch\>* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The name of the branch that is checked out.
 
@@ -101,14 +101,14 @@ You want to see which software components already exist in the environment and a
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *<Cloned\>* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Shows whether or not the software component has been cloned.
 
@@ -117,14 +117,14 @@ You want to see which software components already exist in the environment and a
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *<Last Change\>* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The amount of days that has passed since the last change.
 
@@ -133,14 +133,14 @@ You want to see which software components already exist in the environment and a
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *<Changes Available\>* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Shows if a new version of the software component is centrally available.
 
@@ -149,14 +149,14 @@ You want to see which software components already exist in the environment and a
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *<Created On\>* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Date and time when the software component was created.
 
@@ -165,14 +165,14 @@ You want to see which software components already exist in the environment and a
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *<Created By\>* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Email address of the technical user who created the software component.
 
@@ -181,14 +181,14 @@ You want to see which software components already exist in the environment and a
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *<Changed On\>* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Date and time when last changes were made to the software component.
 
@@ -197,14 +197,14 @@ You want to see which software components already exist in the environment and a
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      *<Changed By\>* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Email address of the technical user who performed the last changes on the software component.
 

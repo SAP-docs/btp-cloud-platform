@@ -19,14 +19,14 @@ You can change to the following subaccount details:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Field
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Details
 
@@ -35,14 +35,14 @@ Details
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Display Name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specify a human-readable name for your subaccount and change it later on, if necessary. This way you can distinguish between multiple subaccounts.
 
@@ -51,14 +51,14 @@ Specify a human-readable name for your subaccount and change it later on, if nec
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Description
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specify a short descriptive text about the subaccount.
 
@@ -67,14 +67,14 @@ Specify a short descriptive text about the subaccount.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Used for production
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Select this option if your subaccount is being used for production purposes.
 
@@ -87,14 +87,14 @@ Do not select this option if your account is used for non-production purposes, s
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Enable beta features
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enable the subaccount to use services and applications which are occasionally made available by SAP for beta usage on SAP BTP. This option is available to administrators only and is, by default, unselected.
 
@@ -115,14 +115,14 @@ Enable the subaccount to use services and applications which are occasionally ma
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Field
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Details
 
@@ -131,14 +131,14 @@ Details
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Display Name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specify a human-readable name for your subaccount and change it later on, if necessary. This way you can distinguish between multiple subaccounts.
 
@@ -147,14 +147,14 @@ Specify a human-readable name for your subaccount and change it later on, if nec
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Description
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specify a short descriptive text about the subaccount.
 
@@ -163,14 +163,14 @@ Specify a short descriptive text about the subaccount.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Parent
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Change the parent of your subaccount.
 
@@ -181,14 +181,14 @@ When you create a subaccount, this is added as a direct child of the global acco
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Used for production
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Select this option if your subaccount is being used for production purposes.
 
@@ -201,14 +201,14 @@ Do not select this option if your account is used for non-production purposes, s
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Custom Properties
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Asssign, change, or remove custom properties from your subaccount. Custom properties help to make organizing and filtering your subaccounts easier.
 
@@ -217,14 +217,14 @@ Asssign, change, or remove custom properties from your subaccount. Custom proper
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Enable beta features
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enable the subaccount to use services and applications which are occasionally made available by SAP for beta usage on SAP BTP. This option is available to administrators only and is, by default, unselected.
 

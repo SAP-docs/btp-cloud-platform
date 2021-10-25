@@ -10,7 +10,7 @@ Download the trust certificate from the Cloud Foundry subaccount. You will need 
 
 ## Prerequisites
 
-You are a member of the corresponding global account. You are a security administrator in the Cloud Foundry subaccount \(see also [Security Administrators in Your Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6752c4b8435c456ebf67a97ddbbcb267.html)\).
+You are a member of the corresponding global account. You are a security administrator in the Cloud Foundry subaccount \(feature set A, see also [Security Administrators in Your Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6752c4b8435c456ebf67a97ddbbcb267.html)\) or a subaccount administrator \(feature set B\).
 
 
 

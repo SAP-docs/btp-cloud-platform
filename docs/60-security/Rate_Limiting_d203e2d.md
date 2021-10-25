@@ -23,21 +23,21 @@ To protect the SAP Authorization and Trust Management service from overload of m
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Endpoint
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Subaccount Limit
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Effect
 
@@ -46,21 +46,21 @@ Effect
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 https//*<subdomain\>*.authentication.*<landscape\>*/oauth/token
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Up to 60 request per second
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The requests are executed at once
 
@@ -69,21 +69,21 @@ The requests are executed at once
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 https//*<subdomain\>*.authentication.*<landscape\>*/oauth/token
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Slightly exceeding 60 request per second
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The requests are being queued and then executed.
 
@@ -92,21 +92,21 @@ The requests are being queued and then executed.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 https//*<subdomain\>*.authentication.*<landscape\>*/oauth/token
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Significantly exceeding 60 request per second
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An `HTTP 429 Too Many Requests` response status code is sent.
 

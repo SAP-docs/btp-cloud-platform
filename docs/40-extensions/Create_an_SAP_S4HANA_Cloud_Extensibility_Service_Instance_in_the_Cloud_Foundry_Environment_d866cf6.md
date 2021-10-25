@@ -52,6 +52,7 @@ During the creation of the service instance, a destination on a subaccount level
 
     4.  Choose *New Instance*.
 
+
 6.  In the *Create Instance* wizard:
 
     1.  In the *Plan* dropdown list select the *api-access* service plan, and then in the *System Name* dropdown list select the SAP S/4HANA Cloud system that you have registered. Choose *Next*.
@@ -64,11 +65,13 @@ During the creation of the service instance, a destination on a subaccount level
 
     4.  Enter a name for your instance and choose *Finish*.
 
+
     After you have created the service instance:
 
     -   The newly created instance appears in the list of instances in the *Instance* panel.
 
     -   An HTTP destination on a subaccount level with the same name as the service instance name is automatically generated in this subaccount.
+
 
     Alternatively, you can use the Cloud Foundry Command Line Interface \(cf CLI\) to create the service instance using the technical name of the SAP S/4HANA Cloud Extensibility service which is ***s4-hana-cloud***.
 
@@ -123,4 +126,5 @@ After creating the *SAP S/4HANA Cloud Extensibility* service instance, you have 
     -   For more information about consuming the destination service using the application router, see [Application Routes and Destinations](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/3cc788ebc00e40a091505c6b3fa485e7.html).
 
     -   For more information about consuming the destination service directly, see [Consuming the Destination Service \(Cloud Foundry Environment\)](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/7e306250e08340f89d6c103e28840f30.html).
+
 

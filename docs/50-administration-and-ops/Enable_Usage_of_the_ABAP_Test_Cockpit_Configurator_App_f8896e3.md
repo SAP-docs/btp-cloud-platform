@@ -21,9 +21,11 @@
 
         Choose the template `SAP_BR_ADMINISTRATOR_SW_DEV`.
 
+
     -   To create a role from scratch, see [How to Create a Business Role from Scratch](How_to_Create_a_Business_Role_from_Scratch_f65e51a.md).
 
         Choose `ABAP Test Cockpit Configuration` \(business catalog ID: `SAP_CORE_BC_ATC_CONFIG`\) as catalog for this role \(step 3\).
+
 
 2.  Assign the business role you created to a business user.
 

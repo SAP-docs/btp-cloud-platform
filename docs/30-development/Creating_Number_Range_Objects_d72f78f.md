@@ -16,21 +16,21 @@ When creating a number range object, the following naming-rules apply:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Field Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -39,21 +39,21 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ATTRIBUTES
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number Range Object Definition.
 
@@ -62,21 +62,21 @@ Number Range Object Definition.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 OBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Name Range Object.
 
@@ -85,21 +85,21 @@ Name Range Object.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DTELSOBJ
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data element for sub-object.
 
@@ -108,21 +108,21 @@ Data element for sub-object.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 YEARIND
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Flag, whether number range object is to- year relevant.
 
@@ -131,21 +131,21 @@ Flag, whether number range object is to- year relevant.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DOMLEN
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Domain, which determines the length of the numbers.
 
@@ -154,21 +154,21 @@ Domain, which determines the length of the numbers.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 PERCENTAGE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Percentage of numbers remaining in an interval after having identified in which number assignment a warning is given.
 
@@ -177,21 +177,21 @@ Percentage of numbers remaining in an interval after having identified in which 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CODE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Transaction code to call interval maintenance \(obsolete for ABAP CP\).
 
@@ -200,21 +200,21 @@ Transaction code to call interval maintenance \(obsolete for ABAP CP\).
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 BUFFER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Buffering type for number assignment.
 
@@ -223,21 +223,21 @@ Buffering type for number assignment.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 NOIVBUFFER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number of numbers in the buffer.
 
@@ -246,21 +246,21 @@ Number of numbers in the buffer.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 NRSWAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Selecting the flag prevents the intervals from automatically starting from the beginning at the upper limit.
 
@@ -269,21 +269,21 @@ Selecting the flag prevents the intervals from automatically starting from the b
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 NRCHECKASCII
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -292,21 +292,21 @@ NRCHECKASCII
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DEVCLASS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Development class of the object.
 
@@ -315,21 +315,21 @@ Development class of the object.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OBJ\_TEXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CORRNR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Correction number for transport.
 
@@ -338,21 +338,21 @@ Correction number for transport.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Texts for objects for change document object creation.
 
@@ -361,21 +361,21 @@ Texts for objects for change document object creation.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 LANGU
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Language.
 
@@ -384,21 +384,21 @@ Language.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 TXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Description of object, long text.
 
@@ -407,21 +407,21 @@ Description of object, long text.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 TXTSHORT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Description of object, short text.
 
@@ -436,21 +436,21 @@ Description of object, short text.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Field Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -459,21 +459,21 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ERRORS
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -482,21 +482,21 @@ ERRORS
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 MSGID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message class \(NR\)
 
@@ -505,21 +505,21 @@ Message class \(NR\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 MSGTYPE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message type
 
@@ -528,21 +528,21 @@ Message type
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 MSGNUMBER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message number
 
@@ -551,21 +551,21 @@ Message number
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 MSGVAR1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Variable to message
 
@@ -574,21 +574,21 @@ Variable to message
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 MSGVAR2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Variable to message
 
@@ -597,21 +597,21 @@ Variable to message
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 MSGVAR3
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Variable to message
 
@@ -620,21 +620,21 @@ Variable to message
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 MSGVAR4
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Variable to message
 
@@ -643,21 +643,21 @@ Variable to message
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 TABLENAME
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Table
 
@@ -666,21 +666,21 @@ Table
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 FIELDNAME
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Field
 
@@ -689,21 +689,21 @@ Field
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CRITCHANGE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Critical change
 
@@ -712,21 +712,21 @@ Critical change
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 RETURNCODE
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Space: no error
 

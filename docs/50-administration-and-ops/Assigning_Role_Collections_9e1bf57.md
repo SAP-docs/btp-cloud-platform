@@ -21,14 +21,14 @@ How you assign users to their authorizations depends on the type of trust config
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Trust Configuration
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Assignment Options
 
@@ -37,14 +37,14 @@ Assignment Options
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Default trust configuration \(SAP ID service\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Directly Assign Role Collections to Users](Directly_Assign_Role_Collections_to_Users_a55a3fe.md) 
 
@@ -53,14 +53,14 @@ Default trust configuration \(SAP ID service\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Custom trust configuration \(for example: a tenant of the Identity Authentication service\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   [Directly Assign Role Collections to Users](Directly_Assign_Role_Collections_to_Users_a55a3fe.md)
 
@@ -74,23 +74,6 @@ Custom trust configuration \(for example: a tenant of the Identity Authenticatio
 </td>
 </tr>
 </table>
-
--   **[Directly Assign Role Collections to Users](Directly_Assign_Role_Collections_to_Users_a55a3fe.md "You want to directly assign a role collection to a business user. Running on the cloud management tools feature set
-                                    A: you can use this option for default and custom trust
-			configurations.")**  
-You want to directly assign a role collection to a business user. Running on the cloud management tools feature set A: you can use this option for default and custom trust configurations.
--   **[Map Role Collections to User Groups](Map_Role_Collections_to_User_Groups_51acfc8.md "You want to assign a role collection to a user group provided by an identity provider
-		that has a custom trust configuration in SAP BTP. In this case, the
-		assignment is a mapping of a user group to a role collection. Your identity provider
-		provides the user groups using the assertion attribute called
-			Groups. Each value of the attribute is mapped
-		to a role collection as described in this procedure.")**  
-You want to assign a role collection to a user group provided by an identity provider that has a custom trust configuration in SAP BTP. In this case, the assignment is a mapping of a user group to a role collection. Your identity provider provides the user groups using the assertion attribute called `Groups`. Each value of the attribute is mapped to a role collection as described in this procedure.
--   **[Map Role Collections to User Attributes](Map_Role_Collections_to_User_Attributes_b3fbb1a.md "Map role collections to users dynamically through the use of user attributes. When user
-		agents present the attributes of their users, the SAP Authorization and Trust
-                                    Management service can assign role
-		collections based on the values of those attributes.")**  
-Map role collections to users dynamically through the use of user attributes. When user agents present the attributes of their users, the SAP Authorization and Trust Management service can assign role collections based on the values of those attributes.
 
 **Related Information**  
 

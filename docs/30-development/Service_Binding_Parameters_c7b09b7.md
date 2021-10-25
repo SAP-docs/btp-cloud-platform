@@ -20,21 +20,21 @@ In the MTA deployment descriptor, the `requires` dependency between a module and
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Method 1
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Method 2
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Combination of the two methods
 
@@ -43,7 +43,7 @@ Combination of the two methods
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > `MTA deployment descriptor or extension`
@@ -62,7 +62,7 @@ Combination of the two methods
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > `A JSON file with the required service-configuration parameters`
@@ -97,7 +97,7 @@ Combination of the two methods
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > ```

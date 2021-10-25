@@ -31,6 +31,7 @@ For more information about creating Cloud Foundry spaces, see [Create Spaces](ht
 
     2.  On the *Create Cloud Foundry Organization* dialog, enter a name for the Cloud Foundry organization and choose *Create*.
 
+
 5.  On the *Cloud Foundry* screen area, choose the link for spaces.
 
 6.  If the Cloud Foundry space in the Cloud Foundry organization does not exist yet, proceed as follows:
@@ -40,5 +41,6 @@ For more information about creating Cloud Foundry spaces, see [Create Spaces](ht
     2.  On the *New Space* dialog, enter a name for the new Cloud Foundry space, for example, ***dev***, and leave the checkboxes for space manager and space developer checked.
 
     3.  Choose *Create*.
+
 
 

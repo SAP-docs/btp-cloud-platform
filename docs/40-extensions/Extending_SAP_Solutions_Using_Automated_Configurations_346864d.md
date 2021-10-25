@@ -65,25 +65,6 @@ To enable the integration, you need to:
     -   Bind the service instance to the extension application
 
 
--   **[Registering an SAP System](Registering_an_SAP_System_2ffdaff.md "To connect an SAP solution system with a global account in SAP BTP, you first need to
-		register the system.")**  
-To connect an SAP solution system with a global account in SAP BTP, you first need to register the system.
--   **[Assigning SAP Systems to a Formation](Assigning_SAP_Systems_to_a_Formation_68b04fa.md "You can create a formation and assign to it the different SAP systems of the different
-		SAP solutions that you want to extend in the context of the same business case.")**  
-You can create a formation and assign to it the different SAP systems of the different SAP solutions that you want to extend in the context of the same business case.
--   **[Extending SAP S/4HANA Cloud in the Cloud Foundry and Kyma Environment](Extending_SAP_S4HANA_Cloud_in_the_Cloud_Foundry_and_Kyma_Environment_40b9e6c.md "Extend SAP S/4HANA Cloud with extension applications running on the cloud platform
-		using automated integration configuration.")**  
-Extend SAP S/4HANA Cloud with extension applications running on the cloud platform using automated integration configuration.
--   **[Extending SAP Marketing Cloud in the Cloud Foundry and Kyma Environment](Extending_SAP_Marketing_Cloud_in_the_Cloud_Foundry_and_Kyma_Environment_18bb3d9.md "")**  
-
--   **[Extending SAP SuccessFactors in the Cloud Foundry and Kyma Environment](Extending_SAP_SuccessFactors_in_the_Cloud_Foundry_and_Kyma_Environment_9e33934.md "Use SAP BTP to
-		extend SAP SuccessFactors with extension applications running on the cloud
-		platform.")**  
-Use SAP BTP to extend SAP SuccessFactors with extension applications running on the cloud platform.
--   **[Extending SAP Customer Experience Products in the Kyma Environment](Extending_SAP_Customer_Experience_Products_in_the_Kyma_Environment_83df31a.md "You can configure the integration between SAP BTP and SAP Customer Experience
-		automatically to extend SAP Customer Experience products with applications running on the
-		cloud platform.")**  
-You can configure the integration between SAP BTP and SAP Customer Experience automatically to extend SAP Customer Experience products with applications running on the cloud platform.
 
 **Related Information**  
 

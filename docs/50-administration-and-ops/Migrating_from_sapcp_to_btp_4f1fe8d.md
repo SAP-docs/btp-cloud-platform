@@ -10,8 +10,6 @@ The executable file was renamed from sapcp to btp, which makes it necessary to u
 
 From version 1.32.0 to version 2.0.0, the executable file was renamed from**sapcp** to **btp**. All commands remain compatible, but all scripts must be updated to call btp instead of sapcp. A new configuration file is created for you automatically.
 
-The sapcp client version 1.32.0 will be supported until September 2021.
-
 
 
 ## Procedure
@@ -26,7 +24,10 @@ The sapcp client version 1.32.0 will be supported until September 2021.
 
     -   Microsoft Windows: `C:\Users\*<username\>*\AppData\Local\SAP\btp`
 
-    -   Apple macOS / Linux: `$HOME/.btp`
+    -   Apple macOS ; `~/Library/Caches/.btp`
+
+    -   Linux: `~/.cache/.btp`
+
 
     The old sapcp configuration folder in the same directory is kept, so you can still use the sapcp client. If you no longer need it, you can delete the folder.
 

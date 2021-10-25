@@ -19,7 +19,9 @@ Use this procedure to configure the subaccount in SAP BTP trust settings and add
 
         -   `<company_id>` is the ID of your SAP SuccessFactors company
 
+
     2.  When you are prompted, save the file on your local file system and change its extension to **.xml**.
+
 
 2.  Register the SAP SuccessFactors identity provider in the SAP BTP cockpit.
 
@@ -34,6 +36,7 @@ Use this procedure to configure the subaccount in SAP BTP trust settings and add
     5.  In the *Name* field, enter a meaningful name for the trust configuration.
 
     6.  Save the changes.
+
 
 3.  Make the trust configuration to the SAP SuccessFactors identity provider the only configuration that is active.
 

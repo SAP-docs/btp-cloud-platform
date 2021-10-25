@@ -1,5 +1,7 @@
 <!-- loiocaf4e4e23aef4666ad8f125af393dfb2 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Cloud Management Tools — Feature Set Overview
 
 Cloud management tools represent the group of technologies designed for managing SAP BTP.
@@ -12,7 +14,7 @@ We're currently renovating and adding core functionalities to SAP BTP. As part o
 
 ## How can I know which cloud management tools feature set I'm using?
 
-There’s an easy way to check if you're currently using cloud management tools feature set A or B. Access the SAP BTP cockpit and choose your username from the top right-hand corner of the screen. From the menu, select     *About* to get information about the cloud management tools feature set you're using.
+There’s an easy way to check if you're currently using cloud management tools feature set A or B. Access the SAP BTP cockpit and choose your username from the top right-hand corner of the screen. From the menu, select <span class="SAP-icons"></span> *About* to get information about the cloud management tools feature set you're using.
 
 ![The screenshot is explained in the accompanying text.](images/About_7be640f.png)
 
@@ -37,21 +39,21 @@ When using cloud management tools feature set B: Choose [https://cockpit.eu10.ha
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 New/Changed Features and Behaviors
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Feature Set A
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Feature Set B
 
@@ -60,21 +62,21 @@ Feature Set B
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Directories — NEW**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 *Not applicable*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Summary:
 
@@ -102,21 +104,21 @@ See:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Custom properties — NEW**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 *Not applicable*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Summary:
 
@@ -134,21 +136,21 @@ See [Custom Properties \[Feature Set B\]](Account_Model_8ed4a70.md#loioe8663c08e
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **APIs for SAP BTP — NEW**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 *Not applicable*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Summary:
 
@@ -165,28 +167,28 @@ Discover and consume REST APIs to manage, build, and extend the cloud operation 
 -   Generate reports based on the resource and cost consumption within your accounts.
 
 
-See [Account Administration Using APIs of the SAP Cloud Management Service \[Feature Set B\]](../50-administration-and-ops/Account_Administration_Using_APIs_of_the_SAP_Cloud_Management_Service_Feature_Set_B_17b6a17.md) and [Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](../50-administration-and-ops/Monitoring_Usage_Information_Using_APIs_of_the_SAP_Usage_Data_Management_Service_Feature_Set_B_bf2b304.md).
+See [Account Administration Using APIs of the SAP Cloud Management Service \[Feature Set B\]](../50-administration-and-ops/Account_Administration_Using_APIs_of_the_SAP_Cloud_Management_Service_Feature_Set_B_17b6a17.md) and [Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](../50-administration-and-ops/Monitoring_Usage_Information_Using_APIs_bf2b304.md).
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **SAP BTP command line interface \(btp CLI\) — NEW**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 *Not applicable*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Summary:
 
@@ -216,14 +218,14 @@ See:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Global account navigation — CHANGED**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Summary:
 
@@ -243,7 +245,7 @@ See [Navigate in the Cockpit](../50-administration-and-ops/Navigate_in_the_Cockp
 
 
 </td>
-<td>
+<td valign="top">
 
 Summary:
 
@@ -266,14 +268,14 @@ See [Navigate in the Cockpit](../50-administration-and-ops/Navigate_in_the_Cockp
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Entitlements — CHANGED**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Summary:
 
@@ -294,7 +296,7 @@ See:
 
 
 </td>
-<td>
+<td valign="top">
 
 Summary:
 
@@ -325,14 +327,14 @@ See:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Global account security — CHANGED**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Summary:
 
@@ -354,7 +356,7 @@ See:
 
 
 </td>
-<td>
+<td valign="top">
 
 Summary:
 
@@ -386,14 +388,14 @@ See:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Subaccount security — CHANGED**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Summary:
 
@@ -415,7 +417,7 @@ See:
 
 
 </td>
-<td>
+<td valign="top">
 
 Summary:
 
@@ -447,14 +449,14 @@ See:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Custom Identity Provider — CHANGED**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Summary:
 
@@ -467,7 +469,7 @@ See: [Trust and Federation with Identity Providers](../50-administration-and-ops
 
 
 </td>
-<td>
+<td valign="top">
 
 Summary:
 
@@ -480,21 +482,21 @@ See: [Trust and Federation with Identity Providers](../50-administration-and-ops
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **\(Trial Only\) Automatic Setup of Trial Account — CHANGED**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 *Not applicable*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Summary:
 
@@ -509,21 +511,21 @@ With feature set B, you can access the trial homepage in the cockpit before your
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **\(Trial Only\) Trial Account Extension - CHANGED**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 *Not applicable*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Summary:
 
@@ -538,21 +540,21 @@ With feature set B, it's not possible anymore to access expired trial global acc
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **\(Trial Only\) Deletion of SAP BTP Trial - NEW**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 *Not applicable*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Summary:
 

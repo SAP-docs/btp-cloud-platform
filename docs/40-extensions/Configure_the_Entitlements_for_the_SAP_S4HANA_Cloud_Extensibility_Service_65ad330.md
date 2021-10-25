@@ -1,5 +1,7 @@
 <!-- loio65ad330d11ac49a196948aa8db6470fb -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Configure the Entitlements for the SAP S/4HANA Cloud Extensibility Service
 
 Configure the required entitlements to make the APIs of the registered SAP S/4HANA Cloud system accessible in your subaccount in which your extension applications will reside.
@@ -38,12 +40,15 @@ An entitlement is your right to provision and consume a resource. In other words
         2.  Select your subaccount from the drop down menu, choose *Go*, and then choose *Configure Entitlements*.
 
             > ### Tip:  
-            > If your global account contains more than 20 subaccounts, choose     to open up the value help dialog. There you can filter subaccounts by role, environment and region to make your selection easier and faster. You can only select a maximum of 50 subaccounts at once.
+            > If your global account contains more than 20 subaccounts, choose <span class="SAP-icons"></span> to open up the value help dialog. There you can filter subaccounts by role, environment and region to make your selection easier and faster. You can only select a maximum of 50 subaccounts at once.
+
 
     -   If you are using feature set B, you have to:
         1.  In the navigation area, choose *Entitlements* \> *Entity Assignments*.
         2.  On the *Entity Assignments* screen, select your subaccount in the*Select Entities* field.
         3.  Choose *Go*, and then choose *Configure Entitlements*.
+
+
 3.  Choose *Add Service Plans*, and then select the *SAP S/4HANA Cloud Extensibility* service.
 
     > ### Note:  

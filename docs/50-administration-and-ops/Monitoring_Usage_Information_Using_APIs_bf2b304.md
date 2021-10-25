@@ -43,21 +43,21 @@ Your global account admin has entitled the service plan for the SAP Usage Data M
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 HTTP Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Action
 
 
 
 </th>
-<th>
+<th valign="top">
 
 URI
 
@@ -66,21 +66,21 @@ URI
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 GET
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Get monthly usage-reporting data for a global account and a specified time period.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `/monthlyUsage`
 
@@ -89,21 +89,21 @@ Get monthly usage-reporting data for a global account and a specified time perio
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 GET
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Get usage-reporting data for a subaccount.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `/subaccountUsage`
 
@@ -112,21 +112,21 @@ Get usage-reporting data for a subaccount.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 GET
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Get monthly cost reporting data for all subaccounts for the Cloud Platform Enterprise Agreement \(CPEA\) consumption-based commercial model.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `/monthlySubaccountsCost`
 
@@ -135,15 +135,6 @@ Get monthly cost reporting data for all subaccounts for the Cloud Platform Enter
 </td>
 </tr>
 </table>
-
--   **[Getting an Access Token for Resource Consumption APIs](Getting_an_Access_Token_for_Resource_Consumption_APIs_4bfe9c7.md "The Resource Consumption APIs of the SAP Usage Data Management
-                                    service for SAP BTP are protected
-		with OAuth 2.0 Client Credentials grant type and in some cases, also the Password grant
-		type.")**  
-The **Resource Consumption** APIs of the SAP Usage Data Management service for SAP BTP are protected with OAuth 2.0 Client Credentials grant type and in some cases, also the Password grant type.
--   **[SAP Usage Data Management Service - Service Plans](SAP_Usage_Data_Management_Service_-_Service_Plans_c94c85e.md "Describes the plans available for the  SAP Usage Data Management
-                                    service for SAP BTP.")**  
-Describes the plans available for the SAP Usage Data Management service for SAP BTP.
 
 **Related Information**  
 

@@ -1,5 +1,7 @@
 <!-- loio524e1081d8dc4b0f9d055a6bec383ec3 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Using Free Service Plans
 
 The free tier model for SAP BTP lets you try out services in global accounts without any additional cost using the consumption-based commercial model.
@@ -89,7 +91,7 @@ Once you've reached the limits of the free plan, you can easily upgrade the free
 
 1.  In your subaccount, navigate to the *Instances and Subscriptions* page.
 
-2.  Find the instance of the service and click   \(Actions\)  and *Update*.
+2.  Find the instance of the service and click <span class="SAP-icons"></span> \(Actions\) and *Update*.
 
 3.  In the *Update Instance* dialog, change the plan to a paid service plan.
 

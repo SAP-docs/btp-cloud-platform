@@ -12,13 +12,6 @@ In this scenario, to provide access to the business service, you must create an 
 
 This scenario requires only a few steps to provide authorizations, and it's the minimum that you must do to make your service available to business users. However, with this scenario, you always provide unrestricted write **and** read access. If you want to fine-tune the authorizations in more detail, check the scenarios *Providing Access Based on Activities* and *Providing Access Based on Field Values*.
 
--   **[Developing Authorizations for Business Users \(Developer\)](Developing_Authorizations_for_Business_Users_(Developer)_18587ed.md "For providing unrestricted access to a business service for business users, as a developer, you first create an IAM app, a business
-		catalog, and, optionally, a business role template.")**  
-For providing unrestricted access to a business service for business users, as a developer, you first create an IAM app, a business catalog, and, optionally, a business role template.
--   **[Creating a Business Role and Assigning Business Users \(Administrator\)](Creating_a_Business_Role_and_Assigning_Business_Users_(Administrator)_362a851.md "As an administrator, to be able to grant authorizations to business users, you need to create a business role that you then assign to the
-		business users.")**  
-As an administrator, to be able to grant authorizations to business users, you need to create a business role that you then assign to the business users.
-
 **Related Information**  
 
 

@@ -9,14 +9,14 @@ To add a new exception to an application log, an object of class `CL_BALI_EXCEPT
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -25,7 +25,7 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CATEGORY
 
@@ -34,7 +34,7 @@ CATEGORY
 
 
 </td>
-<td>
+<td valign="top">
 
 Category of the item
 
@@ -57,14 +57,14 @@ Create an instance of the exception class. Set the reference of the ABAP excepti
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -73,7 +73,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Importing parameters**
 
@@ -82,14 +82,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SEVERITY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(Optional\): Severity of the message \('Error', 'Warning', etc\)
 
@@ -100,14 +100,14 @@ Default: IF\_BALI\_CONSTANTS=\>C\_SEVERITY\_STATUS
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 EXCEPTION
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Reference to ABAP exception class instance
 
@@ -116,7 +116,7 @@ Reference to ABAP exception class instance
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -125,14 +125,14 @@ Reference to ABAP exception class instance
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 EXCEPTION\_OBJ
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Exception object: A reference to interface IF\_BALI\_EXCEPTION\_SETTER
 
@@ -151,14 +151,14 @@ Set the ABAP exception class instance and severity:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -167,7 +167,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Importing parameters**
 
@@ -176,14 +176,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SEVERITY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(Optional\): Severity of the message \('Error', 'Warning', etc\)
 
@@ -194,14 +194,14 @@ Default: IF\_BALI\_CONSTANTS=\>C\_SEVERITY\_STATUS
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 EXCEPTION
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Reference to ABAP exception class instance
 
@@ -210,7 +210,7 @@ Reference to ABAP exception class instance
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -219,14 +219,14 @@ Reference to ABAP exception class instance
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NEW\_EXCEPTION\_OBJ
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Reference to current application log exception object
 
@@ -245,14 +245,14 @@ Set the level of detail of the exception:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -261,7 +261,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Importing parameter**
 
@@ -270,14 +270,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DETAIL\_LEVEL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Detail level of the exception
 
@@ -288,7 +288,7 @@ Allowed values: Number between '1' and '9' or ' '
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -297,14 +297,14 @@ Allowed values: Number between '1' and '9' or ' '
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NEW\_EXCEPTION\_OBJ
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Reference to current application log exception object
 
@@ -325,14 +325,14 @@ Get all exception values:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -341,7 +341,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Exporting parameters**
 
@@ -350,14 +350,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DETAIL\_LEVEL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Detail level of the exception \(number between '1' and '9' or ' '\)
 
@@ -366,14 +366,14 @@ Detail level of the exception \(number between '1' and '9' or ' '\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SEVERITY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Severity of the exception \('Error', 'Warning', etc\)
 
@@ -382,14 +382,14 @@ Severity of the exception \('Error', 'Warning', etc\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 EXCEPTION
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Reference to ABAP exception class instance
 

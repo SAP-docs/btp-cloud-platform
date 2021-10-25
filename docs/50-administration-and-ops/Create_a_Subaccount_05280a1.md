@@ -4,11 +4,11 @@
 
 Create subaccounts in your global account using the SAP BTP cockpit.
 
- <a name="loio05280a123d3044ae97457a25b3013918 task_pdx_hmd_cqb__task_pdx_hmd_cqb"/>
+ <a name="task_pdx_hmd_cqb"/>
 
 <!-- task\_pdx\_hmd\_cqb -->
 
-# Create a Subaccount \[Feature Set A\]
+## Create a Subaccount \[Feature Set A\]
 
 
 
@@ -86,11 +86,11 @@ A new tile appears in the global account page with the subaccount details.
 
 Once you've created your subaccount, navigate to it to enable the environment that you wish to use.
 
- <a name="loio05280a123d3044ae97457a25b3013918 task_dvg_gmd_cqb__task_dvg_gmd_cqb"/>
+ <a name="task_dvg_gmd_cqb"/>
 
 <!-- task\_dvg\_gmd\_cqb -->
 
-# Create a Subaccount \[Feature Set B\]
+## Create a Subaccount \[Feature Set B\]
 
 
 

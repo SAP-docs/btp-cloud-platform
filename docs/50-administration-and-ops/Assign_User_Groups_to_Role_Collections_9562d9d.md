@@ -1,5 +1,7 @@
 <!-- loio9562d9d094784215afd424176a82abd9 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Assign User Groups to Role Collections
 
 You can assign users groups to a role collection by adding them to the role collection.
@@ -16,7 +18,7 @@ You can assign user groups from custom identity providers to a role collection. 
 
 1.  Open the SAP BTP cockpit.
 
-2.  Go to your global account and subaccount \(see [Navigate to Orgs and Spaces](Navigate_to_Orgs_and_Spaces_5bf8735.md)\).
+2.  Go to your global account and subaccount \(see [Navigate in the Cockpit](Navigate_in_the_Cockpit_0874895.md)\).
 
 3.  Choose *Security* \> *Role Collections*.
 
@@ -31,7 +33,7 @@ You can assign user groups from custom identity providers to a role collection. 
     > ### Note:  
     > If you're using SAP Cloud Identity Services - Identity Authentication, you can find the name of the user group in the administration console under *Users & Authorizations* \> *User Groups*. For more information, see the related link.
 
-8.  \(Optional\) To add other user groups, choose     \(Add a user group\).
+8.  \(Optional\) To add other user groups, choose <span class="SAP-icons"></span> \(Add a user group\).
 
 9.  Save your changes.
 

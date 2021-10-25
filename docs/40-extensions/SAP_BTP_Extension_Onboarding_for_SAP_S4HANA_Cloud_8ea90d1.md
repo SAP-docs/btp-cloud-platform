@@ -13,8 +13,3 @@ To ensure the required security for accessing the applications, you need to conf
 > ### Note:  
 > You own an SAP S/4HANA Cloud tenant with an Identity Authentication tenant configured. You need to use the same Identity Authentication tenant for your subaccount in SAP BTP.
 
--   **[Configure Single Sign-On with the Identity Authentication Service](Configure_Single_Sign-On_with_the_Identity_Authentication_Service_8d3c376.md "To use the SAML 2.0 bearer assertion authentication for the communication flow between
-		the extension application and SAP S/4HANA Cloud, you need to configure single-sign on
-		(SSO).")**  
-To use the SAML 2.0 bearer assertion authentication for the communication flow between the extension application and SAP S/4HANA Cloud, you need to configure single-sign on \(SSO\).
-

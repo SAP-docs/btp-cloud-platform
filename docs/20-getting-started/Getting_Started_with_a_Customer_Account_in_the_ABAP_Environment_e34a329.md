@@ -131,6 +131,7 @@ Even if you have used the booster, some manual setup steps are still required. I
 
     5.  Assign the administrator role for the ABAP environment to the new users \(see [Assigning the ABAP Environment Administrator Role to the New Administrator User](Assigning_the_ABAP_Environment_Administrator_Role_to_the_New_Administrator_User_ad888b0.md)\).
 
+
 2.  For your developers, create business users and assign them to the developer business role as follows:
 
     1.  \(Not required if you have used the booster\):
@@ -140,6 +141,7 @@ Even if you have used the booster, some manual setup steps are still required. I
     2.  Create employee records for the new developer users \(see [Creating an Employee Record for a New Developer](Creating_an_Employee_Record_for_a_New_Developer_a66fdc5.md)\).
 
     3.  Assign the ABAP developer users to the ABAP developer role \(see [Assigning the ABAP Developer User to the ABAP Developer Role](Assigning_the_ABAP_Developer_User_to_the_ABAP_Developer_Role_13b2cfb.md)\).
+
 
 
 
@@ -161,24 +163,6 @@ As next steps, you can optionally set up additional tools for your developers or
 -   [Setup of UI Development in SAP Business Application Studio \(Optional\)](Setup_of_UI_Development_in_SAP_Business_Application_Studio_(Optional)_37a896b.md)
 -   [Setup of a Custom Identity Service \(Optional\)](Setup_of_a_Custom_Identity_Service_(Optional)_550251a.md)
 -   [Setup of UI Development in SAP Web IDE \(Optional\)](Setup_of_UI_Development_in_SAP_Web_IDE_(Optional)_43d1a08.md)
-
--   **[Using a Booster to Automate the Setup of the ABAP Environment \(Optional\)](Using_a_Booster_to_Automate_the_Setup_of_the_ABAP_Environment_(Optional)_cd7e7e6.md "You can use a booster to automate some of the required steps for setting up the ABAP environment. Automation includes creating a
-		subaccount and space, configuring the required entitlements, and assigning administrators and developers to the subaccount.")**  
-You can use a booster to automate some of the required steps for setting up the ABAP environment. Automation includes creating a subaccount and space, configuring the required entitlements, and assigning administrators and developers to the subaccount.
--   **[ABAP Environment: Initial Settings](ABAP_Environment_Initial_Settings_a999fac.md "With the initial settings, you as an administrator and your ABAP developers can get started in the ABAP environment.")**  
-With the initial settings, you as an administrator and your ABAP developers can get started in the ABAP environment.
--   **[Setup of UI Development in SAP Business Application Studio \(Optional\)](Setup_of_UI_Development_in_SAP_Business_Application_Studio_(Optional)_37a896b.md "If developers want to use SAP Business Application Studio to create and deploy SAP Fiori application UIs, you need to perform some
-		administrative activities to set it up.")**  
-If developers want to use SAP Business Application Studio to create and deploy SAP Fiori application UIs, you need to perform some administrative activities to set it up.
--   **[Setup of a Custom Identity Service \(Optional\)](Setup_of_a_Custom_Identity_Service_(Optional)_550251a.md "Optionally, you can set up a custom identity service as an alternative to SAP ID, which is the default identity provider of SAP
-		BTP.")**  
-Optionally, you can set up a custom identity service as an alternative to SAP ID, which is the default identity provider of SAP BTP.
--   **[Setup of UI Development in SAP Web IDE \(Optional\)](Setup_of_UI_Development_in_SAP_Web_IDE_(Optional)_43d1a08.md "If your developers want to use SAP Web IDE as a development tool for creating UIs, you as an administrator need to perform some additional
-		settings.")**  
-If your developers want to use SAP Web IDE as a development tool for creating UIs, you as an administrator need to perform some additional settings.
--   **[Getting Started as a Developer in the ABAP Environment](Getting_Started_as_a_Developer_in_the_ABAP_Environment_4b896c9.md "Learn about your first steps to get started as a developer in the ABAP
-                                environment.")**  
-Learn about your first steps to get started as a developer in the ABAP environment.
 
 **Related Information**  
 

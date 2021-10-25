@@ -55,7 +55,9 @@ The registration process has the following states displayed in the cockpit:
 
         -   SAP Cloud for Customer
 
+
     3.  Choose *Register*.
+
 
     The cloud platform generates an integration token that you use to configure the integration between your SAP Customer Experience system and the global account in SAP BTP on the respective SAP Customer Experience system side.
 

@@ -6,5 +6,5 @@
 
 [Integrating the ABAP Environment with SAP Document Management Service](Integrating_the_ABAP_Environment_with_SAP_Document_Management_Service_6192078.md)
 
-[Proxy API for SAP Workflow Service](Proxy_API_for_SAP_Workflow_Service_059470b.md)
+[Proxy API for the Workflow Capability](Proxy_API_for_the_Workflow_Capability_059470b.md)
 

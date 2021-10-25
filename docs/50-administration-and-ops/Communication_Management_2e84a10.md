@@ -32,25 +32,6 @@ The communication management apps allow you to establish secure communication be
 4.  Select *Save* to activate the communication arrangement.
 
 
--   **[Maintain Communication Users](Maintain_Communication_Users_eef80dd.md "You can use this app to create and edit communication users. Communication users are
-		used by solutions to authenticate themselves to be able to post data.")**  
-You can use this app to create and edit communication users. Communication users are used by solutions to authenticate themselves to be able to post data.
--   **[Display Communication Scenarios](Display_Communication_Scenarios_baa798b.md "You can use this app to get an overview of available communication
-		scenarios.")**  
-You can use this app to get an overview of available communication scenarios.
--   **[Communication Arrangements](Communication_Arrangements_1decd8b.md)**  
-
--   **[Maintain Communication Systems](Maintain_Communication_Systems_15663c1.md "You can use this app to create communication systems. Communication systems are created
-		to enable the communication among different systems.")**  
-You can use this app to create communication systems. Communication systems are created to enable the communication among different systems.
--   **[Maintain Extensions on SAP BTP](Maintain_Extensions_on_SAP_BTP_cb81f1b.md "You can use this app to create SAP Business Technology Platform (SAP
-			BTP) extensions to build extension applications.")**  
-You can use this app to create *SAP Business Technology Platform \(SAP BTP\)* extensions to build extension applications.
--   **[Glossary for Communication Management](Glossary_for_Communication_Management_3248fff.md "Overview of terminology used for communication management")**  
-Overview of terminology used for communication management
--   **[Display Connectivity Trace](Display_Connectivity_Trace_a4f6ccd.md)**  
-
-
 **Related Information**  
 
 

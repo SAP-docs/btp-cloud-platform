@@ -8,10 +8,3 @@ The “type” defines the service. We only use MTA resources that define a CF s
 
 The parameter “service-plan” defines the plan of the service. The parameter “service-name” defines the name of the service instance that will be created.
 
--   **[XSUAA](XSUAA_6069e4e.md)**  
-
--   **[SaaS Provisioning Service](SaaS_Provisioning_Service_8be9a3a.md)**  
-
--   **[ABAP Solution Service](ABAP_Solution_Service_4370115.md)**  
-
-

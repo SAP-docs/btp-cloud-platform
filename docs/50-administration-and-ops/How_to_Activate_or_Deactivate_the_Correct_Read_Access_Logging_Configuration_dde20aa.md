@@ -19,6 +19,7 @@ To activate or deactivate Read Access Logging for certain apps, follow the steps
 3.  Click the *About* icon.
 
     -   If the app has an app ID such as `F1492`, please proceed with the steps in the section *Activating and Deactivating Read Access Logging for Apps with App ID*.
+
 4.  **Activating and Deactivating Read Access Logging for Apps with App ID:**
 5.  Copy the app ID.
 

@@ -20,6 +20,7 @@ To connect the ABAP environment and the SAP BTP cockpit, you need a communicatio
 
     5.  Select one entry, and copy the service key.
 
+
 2.  Open the *Communication Arrangements* app in your ABAP environment.
 
 3.  Create a communication arrangement.
@@ -43,11 +44,11 @@ To connect the ABAP environment and the SAP BTP cockpit, you need a communicatio
 
 You’ve created the communication arrangement, the communication system, and an inbound user. The communication arrangement is assigned to the DEFAULT consumer type. The consumer type is used to identify the communication arrangement. Therefore, you must only assign it to exactly one communication arrangement. You can assign one communication arrangement to multiple consumer types.
 
- <a name="loioe66e8449fad54caf929d675fb649378a copyf51d48f2a6d34ec8b98468e67ef55c46__copyf51d48f2a6d34ec8b98468e67ef55c46"/>
+ <a name="copyf51d48f2a6d34ec8b98468e67ef55c46"/>
 
 <!-- copyf51d48f2a6d34ec8b98468e67ef55c46 -->
 
-# Adjust the Consumer Type
+## Adjust the Consumer Type
 
 
 

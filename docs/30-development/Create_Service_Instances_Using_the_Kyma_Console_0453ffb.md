@@ -15,21 +15,21 @@ Before you proceed, make sure you addressed the prerequisites listed in the tabl
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Action
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Mandatory
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Link
 
@@ -38,44 +38,44 @@ Link
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Enable the Kyma environment.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
-[Enable Kyma Environment](../50-administration-and-ops/Enable_Kyma_Environment_09dd313.md)
+[Create the Kyma Environment Instance](../50-administration-and-ops/Create_the_Kyma_Environment_Instance_09dd313.md)
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Ensure you are entitled to provision and consume a service using the Service Catalog.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/Configure_Entitlements_and_Quotas_for_Subaccounts_5ba357b.md)
 
@@ -84,21 +84,21 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Register cloud providers if you want to use the services they provide.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Register Cloud Providers](Register_Cloud_Providers_740132a.md)
 
@@ -133,6 +133,7 @@ Follow the steps to create a service instance:
 
     -   *Plan* - a consumption plan for your service instance. The service plan is the representation of the costs and benefits for a given variant of a particular service.
     -   *Parameters* - click *Add parameters* to provide specific parameters for your plan in the JSON format.
+
     > ### Tip:  
     > For details on available service plans and parameters, see [Supported Service Plans for SAP S/4HANA Cloud](../40-extensions/Supported_Service_Plans_for_SAP_S4HANA_Cloud_925c00a.md) and [Communication Arrangement JSON File - Properties](../40-extensions/Communication_Arrangement_JSON_File_-_Properties_553a4c6.md).
 

@@ -31,6 +31,7 @@
         > ### Note:  
         > This parameter is used to call the destination service with OAuth2 client credential grant.
 
+
 3.  Create an HTTP client object with class `cl_web_http_client_manager` and method `create_by_http_destination` providing the destination object you have created as a parameter.
 
 4.  Execute the request using method `execute` on the HTTP client object.

@@ -11,21 +11,21 @@ The following roles can be assigned to users in the Cloud Foundry environment on
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Level
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Role
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Role Description
 
@@ -34,21 +34,21 @@ Role Description
 </th>
 </tr>
 <tr>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 Organization
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Org Manager
 
 
 
 </td>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 See [https://docs.cloudfoundry.org/concepts/roles.html\#orgs](https://docs.cloudfoundry.org/concepts/roles.html#orgs).
 
@@ -60,7 +60,7 @@ See [https://docs.cloudfoundry.org/concepts/roles.html\#orgs](https://docs.cloud
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Org Auditor
 
@@ -69,21 +69,21 @@ Org Auditor
 </td>
 </tr>
 <tr>
-<td rowspan="3">
+<td valign="top" rowspan="3">
 
 Space
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Space Manager
 
 
 
 </td>
-<td rowspan="3">
+<td valign="top" rowspan="3">
 
 See [https://docs.cloudfoundry.org/concepts/roles.html\#orgs](https://docs.cloudfoundry.org/concepts/roles.html#orgs).
 
@@ -92,7 +92,7 @@ See [https://docs.cloudfoundry.org/concepts/roles.html\#orgs](https://docs.cloud
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Space Developer
 
@@ -101,7 +101,7 @@ Space Developer
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Space Auditor
 

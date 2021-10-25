@@ -9,14 +9,14 @@ If an item like a message or exception is read from an application log, its obje
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -25,14 +25,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CATEGORY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Category of the item
 
@@ -50,14 +50,14 @@ Possible values:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 LOG\_ITEM\_NUMBER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Serial number which is the position of the item in the log
 
@@ -66,14 +66,14 @@ Serial number which is the position of the item in the log
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SEVERITY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Severity of the item \('Error', 'Warning', etc\)
 
@@ -82,14 +82,14 @@ Severity of the item \('Error', 'Warning', etc\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DETAIL\_LEVEL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Detail level of the item \(number between '1' and '9' or ' '\)
 
@@ -98,7 +98,7 @@ Detail level of the item \(number between '1' and '9' or ' '\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 TIMESTAMP
 
@@ -107,7 +107,7 @@ TIMESTAMP
 
 
 </td>
-<td>
+<td valign="top">
 
 UTC time stamp of the item creation
 
@@ -135,14 +135,14 @@ Get the message text of the item. It is:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -151,7 +151,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -160,14 +160,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 MESSAGE\_TEXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ext of the item message in the logon language
 

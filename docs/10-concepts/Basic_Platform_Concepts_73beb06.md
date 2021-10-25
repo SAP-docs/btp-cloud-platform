@@ -113,7 +113,7 @@ SAP BTP offers two different commercial models:
 
 -   **Subscription-based commercial model:** Your organization subscribes only to the services that you plan to use. You can then use these services at a fixed cost, irrespective of consumption.
 
-    For more information, see [What Is the Subscription-Based Commercial Model?](What_Is_the_Subscription-Based_Commercial_Model_239b6e0.md).
+    For more information, see [What Is the Subscription-Based Commercial Model?](What_Is_the_Subscription-Based_Commercial_Model_239b6e0.md)
 
 
 
@@ -218,36 +218,4 @@ SAP BTP provides various programming languages and tools for your development pr
 
 -   Discover and consume APIs to manage, build, and extend the core capabilities of SAP BTP. For more information, see [APIs](APIs_d1d1107.md).
 
-
--   **[Solutions and Services](Solutions_and_Services_7613d9c.md#loio7613d9ce711e1014839a8273b0e91070 "Consume the solutions and services by SAP BTP according to your preferred development environment and use cases.")**  
-Consume the solutions and services by SAP BTP according to your preferred development environment and use cases.
--   **[Regions](Regions_350356d.md#loio350356d1dc314d3199dca15bd2ab9b0e "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or
-                                services are hosted. 
-	")**  
-You can deploy applications in different **regions**. Each region represents a geographical location \(for example, Europe, US East\) where applications, data, or services are hosted. 
--   **[Environments](Environments_15547f7.md "Environments constitute
-                                                  the actual platform-as-a-service offering of
-                                                  SAP BTP that allows for the development and
-                                                  administration of business applications.
-                                                  Environments are anchored in SAP BTP on subaccount level.
-	")**  
-Environments constitute the actual platform-as-a-service offering of SAP BTP that allows for the development and administration of business applications. Environments are anchored in SAP BTP on subaccount level. 
--   **[Trial Accounts](Trial_Accounts_046f127.md "Trial accounts let you try out SAP BTP for free with a restricted use of
-		the platform resources and services.")**  
-Trial accounts let you try out SAP BTP for free with a restricted use of the platform resources and services.
--   **[Enterprise Accounts](Enterprise_Accounts_171511c.md "Enterprise accounts are associated with SAP customer or partner contracts and contain
-		their purchased entitlements to platform resources and services.")**  
-Enterprise accounts are associated with SAP customer or partner contracts and contain their purchased entitlements to platform resources and services.
--   **[Account Model](Account_Model_8ed4a70.md#loio8ed4a705efa0431b910056c0acdbf377 "Learn more about the different types of accounts on SAP BTP and how they relate
-		to each other. ")**  
-Learn more about the different types of accounts on SAP BTP and how they relate to each other.
--   **[Entitlements and Quotas](Entitlements_and_Quotas_00aa2c2.md "When you purchase an enterprise account, you’re entitled to use a specific set of resources, such as the
-                amount of memory that can be allocated to your applications.")**  
-When you purchase an enterprise account, you’re entitled to use a specific set of resources, such as the amount of memory that can be allocated to your applications.
--   **[User and Member Management](User_and_Member_Management_cc1c676.md "On the cloud platform, member management happens at all levels from global account to space, while user
-				management is done for deployed applications. ")**  
-On the cloud platform, member management happens at all levels from global account to space, while user management is done for deployed applications.
--   **[Tools, Programming Models, Programming Languages, and APIs](Tools,_Programming_Models,_Programming_Languages,_and_APIs_9b15170.md "SAP BTP provides various programming languages and tools for your
-		development project. ")**  
-SAP BTP provides various programming languages and tools for your development project.
 

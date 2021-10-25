@@ -72,16 +72,6 @@ If the automated integration is not supported for your scenario, you can configu
 
 To get interactive support to help troubleshoot issues related to extensions, see [Guided Answers for Extensions](https://ga.support.sap.com/dtp/viewer/#/tree/2065/actions/26547:28984).
 
--   **[Extending SAP Solutions Using Automated Configurations](Extending_SAP_Solutions_Using_Automated_Configurations_346864d.md "The extension capabilities of SAP Business Technology Platform (SAP BTP) enables
-		developers to implement loosely coupled extension applications securely, thus implementing
-		additional workflows or modules on top of the existing SAP cloud solution they already
-		have.")**  
-The extension capabilities of SAP Business Technology Platform \(SAP BTP\) enables developers to implement loosely coupled extension applications securely, thus implementing additional workflows or modules on top of the existing SAP cloud solution they already have.
--   **[Extending SAP Solutions Using Manual Configurations](Extending_SAP_Solutions_Using_Manual_Configurations_2d745ae.md "If your scenario requires a configuration setup that is not included in the automated
-		extension configurations, you can optionally configure the integration between SAP BTP and your SAP solution
-		manually.")**  
-If your scenario requires a configuration setup that is not included in the automated extension configurations, you can optionally configure the integration between SAP BTP and your SAP solution manually.
-
 **Related Information**  
 
 

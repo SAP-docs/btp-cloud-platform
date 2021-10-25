@@ -36,6 +36,7 @@ As a provider, you need to create a destination for the Cloud Foundry Cloud Cont
     -   Client ID: cf
     -   Client Secret <needs to be left blank\>
     -   Token Service URL: http://uaa.<landscape-host\>/oauth/token Example: https://uaa.cf.eu10.hana.ondemand.com/oauth/token \(For more information, see [Regions and API Endpoints for the ABAP Environment](https://help.sap.com/viewer/3504ec5ef16548778610c7e89cc0eac3/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html#879f37370d9b45e99a16538e0f37ff2c.html)\)
+
 3.  Save your changes.
 
 > ### Note:  

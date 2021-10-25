@@ -44,20 +44,16 @@ Users are stored in the platform identity provider.
 -   Platform users are stored in platform identity provider, a tenant of SAP Cloud Identity Services - Identity Authentication, or your own identity provider.
 -   Business users are stored in a tenant of SAP Cloud Identity Services - Identity Authentication or your own identity provider.
 
--   **[Glossary for Data Protection and Privacy](Glossary_for_Data_Protection_and_Privacy_a57e0ab.md "The following terms are general to SAP products. Not all terms may be relevant for SAP BTP.")**  
-The following terms are general to SAP products. Not all terms may be relevant for SAP BTP.
--   **[Change Logging and Read-Access Logging](Change_Logging_and_Read-Access_Logging_93fac8d.md "Change logging records changes to personal data, while read-access logging records access to sensitive personal data. You may be required
-		to gather this information for auditing purposes or legal requirements.")**  
-Change logging records changes to personal data, while read-access logging records access to sensitive personal data. You may be required to gather this information for auditing purposes or legal requirements.
--   **[Personal Data Record](Personal_Data_Record_817f6ac.md "A personal data record is a collection of data relating to a data subject. A data privacy specialist may be required to provide such a
-		record or an application may offer a self-service.")**  
-A personal data record is a collection of data relating to a data subject. A data privacy specialist may be required to provide such a record or an application may offer a self-service.
--   **[Deletion](Deletion_25e3cc6.md "The processing of personal data is subject to applicable laws related to the deletion
-		of this data when the specified, explicit, and legitimate purpose for processing this
-		personal data has expired. If there is no longer a legitimate purpose that requires the
-		retention and use of personal data, it must be deleted.")**  
-The processing of personal data is subject to applicable laws related to the deletion of this data when the specified, explicit, and legitimate purpose for processing this personal data has expired. If there is no longer a legitimate purpose that requires the retention and use of personal data, it must be deleted.
--   **[Consent](Consent_419c135.md "SAP BTP supports you in collecting and managing the consent of data
-		subjects in the following ways:")**  
-SAP BTP supports you in collecting and managing the consent of data subjects in the following ways:
+**Related Information**  
+
+
+[Glossary for Data Protection and Privacy](Glossary_for_Data_Protection_and_Privacy_a57e0ab.md "The following terms are general to SAP products. Not all terms may be relevant for SAP BTP.")
+
+[Change Logging and Read-Access Logging](Change_Logging_and_Read-Access_Logging_93fac8d.md "Change logging records changes to personal data, while read-access logging records access to sensitive personal data. You may be required to gather this information for auditing purposes or legal requirements.")
+
+[Personal Data Record](Personal_Data_Record_817f6ac.md "A personal data record is a collection of data relating to a data subject. A data privacy specialist may be required to provide such a record or an application may offer a self-service.")
+
+[Deletion](Deletion_25e3cc6.md "The processing of personal data is subject to applicable laws related to the deletion of this data when the specified, explicit, and legitimate purpose for processing this personal data has expired. If there is no longer a legitimate purpose that requires the retention and use of personal data, it must be deleted.")
+
+[Consent](Consent_419c135.md "SAP BTP supports you in collecting and managing the consent of data subjects in the following ways:")
 

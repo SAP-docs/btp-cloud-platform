@@ -19,14 +19,14 @@
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Field
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     User Input
 
@@ -35,14 +35,14 @@
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Name***
+    *Name*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***S4BusinessPartnerOAuth2***
 
@@ -51,14 +51,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ** *Type* **
+     *Type* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
      *HTTP* 
 
@@ -67,14 +67,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Description***
+    *Description*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     *S/4HANA Cloud Business Partner OAuth2​*
 
@@ -83,14 +83,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***URL***
+    *URL*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     *<Host name of the service URL from the communication arrangement​\>*, for example, ***https://my303291-api.s4hana.ondemand.com*** \(see [Copying the Inbound Service URL and Other Communication Details](Copying_the_Inbound_Service_URL_and_Other_Communication_Details_a14394b.md)\)
 
@@ -99,14 +99,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Proxy Type***
+    *Proxy Type*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     *Internet*
 
@@ -115,14 +115,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Authentication***
+    *Authentication*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     *OAuth2SAMLBearerAssertion​*
 
@@ -131,14 +131,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Audience***
+    *Audience*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     *<SAML2 Audience from Oauth 2.0 Details\>* \(see [Copying the Inbound Service URL and Other Communication Details](Copying_the_Inbound_Service_URL_and_Other_Communication_Details_a14394b.md)\)
 
@@ -147,14 +147,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***authnContextClassRef***
+    *authnContextClassRef*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***urn:oasis:names:tc:SAML:2.0:ac:classes:X509​***
 
@@ -163,14 +163,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Client Key***
+    *Client Key*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     *<Client ID from Oauth 2.0 Details\>* \(see [Copying the Inbound Service URL and Other Communication Details](Copying_the_Inbound_Service_URL_and_Other_Communication_Details_a14394b.md)\)
 
@@ -179,14 +179,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Token Service URL***
+    *Token Service URL*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     *<Token Service URL from Oauth 2.0 Details\>* \(see [Copying the Inbound Service URL and Other Communication Details](Copying_the_Inbound_Service_URL_and_Other_Communication_Details_a14394b.md)\)
 
@@ -195,14 +195,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Token Service User***
+    *Token Service User*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     *<Communication user name​ from Oauth 2.0 Details\>* \(see [Copying the Inbound Service URL and Other Communication Details](Copying_the_Inbound_Service_URL_and_Other_Communication_Details_a14394b.md)\)
 
@@ -211,14 +211,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Token Service Password​***
+    *Token Service Password​*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     *<Password of communication user\>* \(see [Creating a Communication Arrangement in SAP S/4HANA Cloud](Creating_a_Communication_Arrangement_in_SAP_S4HANA_Cloud_889fbe3.md)\)
 
@@ -233,14 +233,14 @@
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Property
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Value
 
@@ -249,14 +249,14 @@
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***nameIdFormat*​**
+    *nameIdFormat*​
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress​***
 

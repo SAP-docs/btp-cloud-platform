@@ -29,14 +29,6 @@ No browser is involved here. Users are propagated in the following ways:
 -   Using a bearer assertion or client credentials \(JSON web tokens\) to propagate named users.
 
 
--   **[Technical Communication with Tightly Coupled Developments](tech_comm_same_subacct.md " When a business application and a service are developed for the same subaccount, the two developments are tightly coupled together.
-		The service is designed to be used with this particular application.")**  
- When a business application and a service are developed for the same subaccount, the two developments are tightly coupled together. The service is designed to be used with this particular application.
--   **[Principal Propagation with Tightly Coupled Developments](PP_closely_coupled.md " A scenario is tightly coupled when a business application calls a service within the same subaccount in the Cloud
-                                Foundry environment. The business application calls the service
-		with principal propagation, meaning information about the current user is carried over with the service call.")**  
- A scenario is tightly coupled when a business application calls a service within the same subaccount in the Cloud Foundry environment. The business application calls the service with principal propagation, meaning information about the current user is carried over with the service call.
-
 **Related Information**  
 
 

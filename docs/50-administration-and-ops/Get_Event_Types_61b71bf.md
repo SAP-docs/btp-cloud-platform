@@ -45,14 +45,14 @@ Returns the event types, their descriptions and categories.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Code
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -61,14 +61,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 200
 
 
 
 </td>
-<td>
+<td valign="top">
 
 OK
 
@@ -77,14 +77,14 @@ OK
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 401
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Unauthorized
 
@@ -98,14 +98,14 @@ Possible reasons:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 403
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Forbidden
 
@@ -114,14 +114,14 @@ Forbidden
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 404
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Not Found
 
@@ -130,14 +130,14 @@ Not Found
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 429
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Rate Limit Exceeded
 
@@ -146,14 +146,14 @@ Rate Limit Exceeded
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 500
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Internal Server Error
 
@@ -181,21 +181,21 @@ A JSON object that contains details about event types.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Parameter Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -204,21 +204,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `category`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Category to which the event type belongs.
 
@@ -234,21 +234,21 @@ Possible values:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `description`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The description of the event type.
 
@@ -257,21 +257,21 @@ The description of the event type.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `searchParams`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Array
 
 
 
 </td>
-<td>
+<td valign="top">
 
 List of all the search parameters for the event type.
 
@@ -285,21 +285,21 @@ Provided inline.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `type`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The type of the event that was triggered.
 

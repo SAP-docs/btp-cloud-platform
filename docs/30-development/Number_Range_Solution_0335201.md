@@ -7,10 +7,3 @@ Many business applications require unique numbers, for example, to complete the 
 > ### Note:  
 > Creation, change, and deletion of number range objects and intervals require developer role authorization. Changes to objects and intervals can only be performed in the same software layer.
 
--   **[Maintaining Number Range Objects](Maintaining_Number_Range_Objects_bb50d4c.md "")**  
-
--   **[Maintaining Intervals of Number Range Objects](Maintaining_Intervals_of_Number_Range_Objects_8ae7a7c.md "")**  
-
--   **[Getting Numbers from an Interval](Getting_Numbers_from_an_Interval_c9b48a1.md "")**  
-
-

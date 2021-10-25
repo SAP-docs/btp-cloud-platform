@@ -4,11 +4,25 @@
 
 After the initial add-on release has been shipped as a SaaS solution offering, the development of maintenance patches, support packages, and consequent add-on releases comes into play.
 
- <a name="loio9721f0fb92a84e2a95309acf445cb0a9 loio44035458f01e4142a18d44f9c0301e62__loio44035458f01e4142a18d44f9c0301e62"/>
+Once everything is implemented, built, and the maintenance delivery is deployed, the corresponding changes become available in the customer production system AMT.
+
+
+
+<a name="loio9721f0fb92a84e2a95309acf445cb0a9__section_qhv_tdp_drb"/>
+
+## Prerequisites
+
+-   To set up the maintenance system landscape, you need the relevant entitlements in the global development account. See [Entitlements and Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00aa2c23479d42568b18882b1ca90d79.html).
+-   To create updates for the SaaS solution, you need a maintenance system landscape. Business users with authorization to use the Manage Software Components apps and developer users using ABAP Development Tools have to be available in the systems. See [Manage Software Components](../50-administration-and-ops/Manage_Software_Components_3dcf76a.md) and [Getting Started as a Developer in the ABAP Environment](../20-getting-started/Getting_Started_as_a_Developer_in_the_ABAP_Environment_4b896c9.md).
+-   To configure new add-on versions, you need the existing pipeline configuration for an add-on build pipeline. See [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
+-   To trigger the add-on product build, you need a Jenkins pipeline and a pipeline configuration including the new add-on version.
+-   To apply updates for the SaaS solution, you need a subscription to the Landscape Portal application and a user assigned to role collection `LandscapePortalAdminRoleCollection`.
+
+ <a name="loio44035458f01e4142a18d44f9c0301e62"/>
 
 <!-- loio44035458f01e4142a18d44f9c0301e62 -->
 
-# Set Up Maintenance System Landscape
+## Set Up Maintenance System Landscape
 
 ![](images/Prepare_a_Development_Account_e29111f.png)
 
@@ -19,35 +33,35 @@ The ABAP systems that you use for development, testing, and add-on assembly are 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Global Account
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Subaccount
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Space
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Entitlements
 
 
 
 </th>
-<th>
+<th valign="top">
 
 ABAP System
 
@@ -56,28 +70,28 @@ ABAP System
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Global Development Account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 01 Develop
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Develop
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1x abap/standard
 
@@ -88,7 +102,7 @@ abap/abap\_compute\_unit \(standard: 1\)
 
 
 </td>
-<td>
+<td valign="top">
 
 COR
 
@@ -97,28 +111,28 @@ COR
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Global Development Account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 02 Test
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Test
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1x abap/standard
 
@@ -129,7 +143,7 @@ abap/abap\_compute\_unit \(standard: 1\)
 
 
 </td>
-<td>
+<td valign="top">
 
 QAS
 
@@ -151,16 +165,18 @@ Users in the ABAP correction system COR might be locked and need to be unlocked 
 > ### Tip:  
 > For in-depth information about the system landscape/account model, check out [System Landscape/Account Model](Concepts_9482e7e.md#loio4ca756395fc24e56a42b77632a6bd862).
 
- <a name="loio9721f0fb92a84e2a95309acf445cb0a9 loioa35582346bff4914a5b4b0bcb776668c__loioa35582346bff4914a5b4b0bcb776668c"/>
+ <a name="loioa35582346bff4914a5b4b0bcb776668c"/>
 
 <!-- loioa35582346bff4914a5b4b0bcb776668c -->
 
-# Create Update for SaaS Solution
+## Create Update for SaaS Solution
+
+> ### gCTS Delivery:  
+> If you use gCTS for delivery, the process of creating an update for SaaS solutions is grouped into urgent corrections \(patch version\) and new releases \(release version\). See [Use Case 2: One Development and Correction Codeline in a 5-ABAP-System Landscape](Use_Case_2_One_Development_and_Correction_Codeline_in_a_5-ABAP-System_Landscape_4e53874.md).
+> 
+> See [Delivery via Add-On or gCTS](Concepts_9482e7e.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 As an add-on administrator, you can provide different kinds of updates. The decision regarding which one to use depends on the motivation behind a given update.
-
-> ### gCTS:  
-> If you use gCTS, the process of creating an update for SaaS solutions is grouped into urgent corrections \(patch version\) and new releases \(release version\). See [Use Case 2: One Development and Correction Codeline in a 5-ABAP-System Landscape](Use_Case_2_One_Development_and_Correction_Codeline_in_a_5-ABAP-System_Landscape_4e53874.md).
 
 -   Small and urgent corrections are delivered as patches
 -   Collections of less urgent corrections and other functional enhancements should be delivered as support packages
@@ -173,7 +189,7 @@ As an add-on administrator, you can provide different kinds of updates. The deci
 
 **Create new patch version \(emergency patch\)**
 
-> ### gCTS:  
+> ### gCTS Delivery:  
 > For delivering an emergency patch via gCTS instead of using add-ons, see section *Urgent Corrections* in [Use Case 2: One Development and Correction Codeline in a 5-ABAP-System Landscape](Use_Case_2_One_Development_and_Correction_Codeline_in_a_5-ABAP-System_Landscape_4e53874.md) and follow the steps.
 > 
 > -   **Develop**
@@ -191,9 +207,12 @@ As an add-on administrator, you can provide different kinds of updates. The deci
 > -   **Double Maintenance of Corrections**
 > 
 >     Perform the same corrections in your development system DEV. Release the corrections to maintain them on the main branch of your software component and pull it into your test system TST, see step 9-10.
+> 
+> 
+> See [Delivery via Add-On or gCTS](Concepts_9482e7e.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 > ### Note:  
-> For the new patch version, you can use a permanent add-on assembly system to save build time. See [ABAP System Types: Transient and Permanent Systems](Concepts_9482e7e.md#loio52fb6a9e22714843b6e83b7f333b184b).
+> For a new patch version, you can use a permanent add-on assembly system to save build time. See [ABAP System Types: Transient and Permanent Systems](Concepts_9482e7e.md#loio52fb6a9e22714843b6e83b7f333b184b).
 
 Small corrections are delivered as patches, also known as emergency patches.
 
@@ -212,6 +231,7 @@ Small corrections are delivered as patches, also known as emergency patches.
 
         After releasing the transport tasks and requests in the correction system, the changes are imported into and tested in the quality assurance system.
 
+
 -   **Test**
     -   Import the maintenance branch in the ABAP quality assurance system
 
@@ -224,6 +244,7 @@ Small corrections are delivered as patches, also known as emergency patches.
         As a tester, test the corrections in the QAS system to validate that the provided bug fixes are solving the problem and are working properly.As an add-on admin, use the software components app to import the latest changes into the quality assurance system QAS. See
 
         Required testing can involve anything from maintaining business roles, creating communication arrangements to more complex testing scenarios where connectivity is involved. See [Maintain Business Roles](../50-administration-and-ops/Maintain_Business_Roles_8980ad0.md), [How to Create a Communication Arrangement](../50-administration-and-ops/How_to_Create_a_Communication_Arrangement_a0771f6.md), and [Connectivity](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html). What needs to be tested is related to the implemented corrections.
+
 
 -   **Double maintenance of corrections into development**
 
@@ -269,6 +290,7 @@ Larger collections of corrections and smaller function enhancements are delivere
 
         After releasing the transport task and request in the development system, you can import the changes for testing in the ABAP test system TST.
 
+
 -   **Test**
     -   Import main branch into ABAP test system
 
@@ -284,6 +306,7 @@ Larger collections of corrections and smaller function enhancements are delivere
         As a tester, test the new implemented features in the TST system to validate the functionality.
 
         Required testing can involve anything from maintaining business roles, creating communication arrangements to more complex testing scenarios where connectivity is involved. What needs to be tested is of course related to the implemented features.
+
 
 -   **Create maintenance branch**
 
@@ -312,18 +335,17 @@ Larger collections of corrections and smaller function enhancements are delivere
 
     The branch of software component `/NAMESPC/PRODUCTX` is pointing to the maintenance branch that was created for support package level 1. The commit ID is referencing the short commit ID for the latest changes in the maintenance branch. You can retrieve these software component details from the *Manage Software Components* app.
 
-    > ### Note:  
-    > Maintenance branch v1.1.0, created based on the main branch, is used later on for any necessary bug fixes delivered via patches on support package level 1. This assures that these bug fixes can be implemented in the correction code line to not block ongoing development on the main branch.
 
+Maintenance branch v1.1.0, created based on the main branch, is used later on for any necessary bug fixes delivered via patches on support package level 1. This assures that these bug fixes can be implemented in the correction code line to not block ongoing development on the main branch.
 
 **Create new release version \(product version\)**
 
-> ### gCTS:  
-> For delivering a new product version via gCTS instead of using add-ons, see section *For Go Live/Development after Go Live \(Including Deferrable Corrections\)* in [Use Case 2: One Development and Correction Codeline in a 5-ABAP-System Landscape](Use_Case_2_One_Development_and_Correction_Codeline_in_a_5-ABAP-System_Landscape_4e53874.md) and follow the steps.
+> ### gCTS Delivery:  
+> For delivering a new major version via gCTS instead of using add-ons, see section *For Go Live/Development after Go Live \(Including Deferrable Corrections\)* in [Use Case 2: One Development and Correction Codeline in a 5-ABAP-System Landscape](Use_Case_2_One_Development_and_Correction_Codeline_in_a_5-ABAP-System_Landscape_4e53874.md) and follow the steps.
 > 
 > -   **Develop**
 > 
->     For a new product version, implement your new release deliveries in the main branch of your development system DEV and release it, see step 1-2.
+>     For a new major version, implement your new release deliveries in the main branch of your development system DEV and release it, see step 1-2.
 > 
 > -   **Test**
 > 
@@ -331,7 +353,7 @@ Larger collections of corrections and smaller function enhancements are delivere
 > 
 > -   **Create Maintenance Branch**
 > 
->     In the *Manage Software Components* app in your quality and assurance system QAS, create a new maintenance branch for your new product version. Check out the maintenance branch and test your changes, see step 5-7.
+>     In the *Manage Software Components* app in your quality and assurance system QAS, create a new maintenance branch for your new major version. Check out the maintenance branch and test your changes, see step 5-7.
 > 
 > -   In your correction system COR, check out and pull the maintenance branch. In case of a deferrable correction, implement your correction in the maintenance branch of your correction system and release it \(step 8-10\). Pull the changes to your quality and assurance system \(QAS\) and test the changes, see step 12-14.
 > -   **Release**
@@ -341,9 +363,9 @@ Larger collections of corrections and smaller function enhancements are delivere
 > -   **Double Maintenance of Corrections**
 > 
 >     If you want to implement deferrable corrections, perform the same changes in your development system DEV. Release it to maintain it on the main branch of your software component and pull it into your test system TST, see step 16-18.
-
-> ### Note:  
-> The software components that are part of an add-on product can only be changed as part of a release delivery.
+> 
+> 
+> See [Delivery via Add-On or gCTS](Concepts_9482e7e.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 Release deliveries that contain the whole software component and deliver new functionalities as well as enhancements of existing functionalities.
 
@@ -353,6 +375,7 @@ Release deliveries that contain the whole software component and deliver new fun
         As a developer, implement the new feature in the main branch in the ABAP development system DEV. Bug fixes should be delivered via patches or support packages instead.
 
         After releasing the transport task and request in the development system, the changes are available for testing in the ABAP test system TST.
+
 
 -   **Test**
     -   Import the main branch into the ABAP test system
@@ -367,6 +390,7 @@ Release deliveries that contain the whole software component and deliver new fun
 
         Required testing can involve anything from maintaining business roles, creating communication arrangements to more complex testing scenarios where connectivity is involved.
 
+
 -   **Create maintenance branch**
 
     For each new release version of a software component, you, as an add-on admin user, create a maintenance branch v1.1.0 based on the main branch in development system DEV using the *Manage Software Components* app.
@@ -374,6 +398,7 @@ Release deliveries that contain the whole software component and deliver new fun
     1.  In the test system, open the *Manage Software Components* app.
     2.  Open the software component.
     3.  Create branch v2.0.0 based on the main branch.
+
 -   **Configure addon.yml file**
 
     As an add-on admin, change the add-on descriptor file according to the add-on product version that you want to build.
@@ -403,33 +428,48 @@ Release deliveries that contain the whole software component and deliver new fun
     > Only with new release deliveries, you can change the software component version bundle in a new release.
 
 
- <a name="loio9721f0fb92a84e2a95309acf445cb0a9 loio7f6988a9a9f94845825d8c7ff66990fb__loio7f6988a9a9f94845825d8c7ff66990fb"/>
+ <a name="loio7f6988a9a9f94845825d8c7ff66990fb"/>
 
 <!-- loio7f6988a9a9f94845825d8c7ff66990fb -->
 
-# Trigger Add-On Product Build
+## Trigger Add-On Product Build
 
-> ### gCTS:  
-> If you are using gCTS instead of add-on for delivering software components into production systems, an add-on build is not required.
+If you are using gCTS instead of add-ons for delivering software components into production systems, an add-on build is not required.
 
 Similar to the build of the initial add-on version, you, as an add-on administrator, need to trigger the execution of the configured ABAP environment pipeline for an add-on build.
 
 ![](images/Pipeline_add-on_build_d36cfe1.png)
 
- <a name="loio9721f0fb92a84e2a95309acf445cb0a9 loio0a80d4c5c079435e9aca4eb9e6841de9__loio0a80d4c5c079435e9aca4eb9e6841de9"/>
+ <a name="loio0a80d4c5c079435e9aca4eb9e6841de9"/>
 
 <!-- loio0a80d4c5c079435e9aca4eb9e6841de9 -->
 
-# Apply Update for SaaS Solution
+## Apply Update for SaaS Solution
 
-> ### gCTS:  
-> If you are using gCTS instead of add-on for delivering software components into production systems, an add-on build is not required.
+> ### gCTS Delivery:  
+> To create a new software component or update an existing one, we recommend using the development and correction codeline in a 5-ABAP-System landscape. See [Use Case 2: One Development and Correction Codeline in a 5-ABAP-System Landscape](Use_Case_2_One_Development_and_Correction_Codeline_in_a_5-ABAP-System_Landscape_4e53874.md).
+> 
+> Following this codeline, the developed software component is developed in the development system and runs through a test, correction, and quality and assurance system before it can be deployed to the production system.
+> 
+> See [Delivery via Add-On or gCTS](Concepts_9482e7e.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 As a SaaS solution operator, you can apply add-on updates to existing systems via the Landscape Portal. See [Landscape Portal](Landscape_Portal_5eb70fb.md).
 
-> ### Note:  
-> Keep in mind that you can't select the target version of the update. The latest released version \(target vector for add-on product published with productive scope\) is automatically determined. The target vector is created as part of the add-on build process and is published in the productive scope after the release decision. See [The Add-On Product](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/#the-add-on-product).
+You can't select the target version of the update. The latest released version \(target vector for add-on product published with productive scope\) is automatically determined. The target vector is created as part of the add-on build process and is published in the productive scope after the release decision. See [The Add-On Product](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/#the-add-on-product).
 
 > ### Note:  
 > If you need support or experience issues, please report an incident under component `BC-CP-ABA-LP`.
+
+ <a name="loio7b3a50175b904841b141446bfae331ca"/>
+
+<!-- loio7b3a50175b904841b141446bfae331ca -->
+
+## Restore Deleted Tenant
+
+After unsubscribing from a consumer subaccount, the associated tenant is not immediately deleted, and it can be restored within a given period of time.
+
+As a SaaS solution operator, you can restore the tenant from the Landscape Portal. See [Restore Tenants](Restore_Tenants_619c40e.md).
+
+> ### Note:  
+> The retention time within which a tenant can be restored depends on the global account where the provider subaccount is set up, and it might be a time window of only a few minutes.
 

@@ -9,21 +9,21 @@ The following classes and interfaces are available:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Class Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Public Interface
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -32,21 +32,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CL\_BALI\_LOG\_DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IF\_BALI\_LOG\_DB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Handles database access like reading or writing of logs in the database.
 
@@ -55,21 +55,21 @@ Handles database access like reading or writing of logs in the database.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CL\_BALI\_LOG\_FILTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IF\_BALI\_LOG\_FILTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines a filter for reading of logs from the database.
 
@@ -84,21 +84,21 @@ Defines a filter for reading of logs from the database.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Class Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Public Interface
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -107,21 +107,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CL\_BALI\_LOG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IF\_BALI\_LOG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Reads and writes the header and items of a log
 
@@ -136,21 +136,21 @@ Reads and writes the header and items of a log
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Class Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Public Interface
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -159,21 +159,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CL\_BALI\_HEADER\_SETTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IF\_BALI\_HEADER\_SETTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Log header which can be put into a log
 
@@ -188,21 +188,21 @@ Log header which can be put into a log
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Class Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Public Interface
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -211,21 +211,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IF\_BALI\_HEADER\_GETTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Log header which was read from the log
 
@@ -240,21 +240,21 @@ Log header which was read from the log
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Class Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Public Interface
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -263,19 +263,19 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IF\_BALI\_ITEM\_SETTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Each item contains this interface
 
@@ -284,21 +284,21 @@ Each item contains this interface
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CL\_BALI\_MESSAGE\_SETTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IF\_BALI\_MESSAGE\_SETTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message which can be put into a log
 
@@ -307,21 +307,21 @@ Message which can be put into a log
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CL\_BALI\_FREE\_TEXT\_SETTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IF\_BALI\_FREE\_TEXT\_SETTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Free text which can be put into a log
 
@@ -330,21 +330,21 @@ Free text which can be put into a log
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CL\_BALI\_EXCEPTION\_SETTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IF\_BALI\_EXCEPTION\_SETTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Exception which can be put into a log
 
@@ -359,21 +359,21 @@ Exception which can be put into a log
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Class Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Public Interface
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -382,19 +382,19 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IF\_BALI\_ITEM\_GETTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Each item contains this interface
 
@@ -403,19 +403,19 @@ Each item contains this interface
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IF\_BALI\_MESSAGE\_GETTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message which was read from the log
 
@@ -424,19 +424,19 @@ Message which was read from the log
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IF\_BALI\_FREE\_TEXT\_GETTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Free text which was read from the log
 
@@ -445,19 +445,19 @@ Free text which was read from the log
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IF\_BALI\_EXCEPTION\_GETTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Exception which was read from the log
 
@@ -472,21 +472,21 @@ Exception which was read from the log
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Class Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Public Interface
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -495,19 +495,19 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IF\_BALI\_CONSTANTS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Some constants, such as available item categories and severities
 
@@ -526,14 +526,14 @@ If one of the class methods cannot be processed or cannot return the requested r
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Class Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -542,14 +542,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `CX_BALI_INVALID_PARAMETER` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An input parameter of the method is invalid \(e.g. the log object doesn't exist\).
 
@@ -558,14 +558,14 @@ An input parameter of the method is invalid \(e.g. the log object doesn't exist\
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `CX_BALI_NOT_FOUND` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The entry which shall be read or changed was not found.
 
@@ -574,14 +574,14 @@ The entry which shall be read or changed was not found.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `CX_BALI_NOT_POSSIBLE` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The requested processing is not possible.
 
@@ -603,14 +603,14 @@ Possible values of class attribute `ERROR_CODE`:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `CX_BALI_INTERNAL_ERROR` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Internal error during processing
 
@@ -622,31 +622,4 @@ Internal error during processing
 
 > ### Note:  
 > Find more information about classes and interfaces of the *Application Log API* in the ABAB Development Tools \(ADT\).
-
--   **[CL\_BALI\_LOG\_DB \(Interface IF\_BALI\_LOG\_DB\)](CL_BALI_LOG_DB_(Interface_IF_BALI_LOG_DB)_069179d.md "")**  
-
--   **[CL\_BALI\_LOG\_FILTER \(Interface IF\_BALI\_LOG\_FILTER\)](CL_BALI_LOG_FILTER_(Interface_IF_BALI_LOG_FILTER)_ec89f52.md "")**  
-
--   **[CL\_BALI\_LOG \(Interface IF\_BALI\_LOG\)](CL_BALI_LOG_(Interface_IF_BALI_LOG)_5e25cf7.md "")**  
-
--   **[CL\_BALI\_HEADER\_SETTER \(Interface IF\_BALI\_HEADER\_SETTER\)](CL_BALI_HEADER_SETTER_(Interface_IF_BALI_HEADER_SETTER)_83c9ad5.md "")**  
-
--   **[CL\_BALI\_MESSAGE\_SETTER \(Interface IF\_BALI\_MESSAGE\_SETTER\)](CL_BALI_MESSAGE_SETTER_(Interface_IF_BALI_MESSAGE_SETTER)_e35417e.md "")**  
-
--   **[CL\_BALI\_FREE\_TEXT\_SETTER \(Interface IF\_BALI\_FREE\_TEXT\_SETTER\)](CL_BALI_FREE_TEXT_SETTER_(Interface_IF_BALI_FREE_TEXT_SETTER)_f838778.md "")**  
-
--   **[CL\_BALI\_EXCEPTION\_SETTER \(Interface IF\_BALI\_EXCEPTION\_SETTER\)](CL_BALI_EXCEPTION_SETTER_(Interface_IF_BALI_EXCEPTION_SETTER)_f6be5a9.md "")**  
-
--   **[IF\_BALI\_HEADER\_GETTER](IF_BALI_HEADER_GETTER_759b29b.md "")**  
-
--   **[IF\_BALI\_EXCEPTION\_GETTER](IF_BALI_EXCEPTION_GETTER_40319b1.md "")**  
-
--   **[IF\_BALI\_FREE\_TEXT\_GETTER](IF_BALI_FREE_TEXT_GETTER_6921b78.md "")**  
-
--   **[IF\_BALI\_ITEM\_GETTER](IF_BALI_ITEM_GETTER_5ff735c.md "")**  
-
--   **[IF\_BALI\_ITEM\_SETTER](IF_BALI_ITEM_SETTER_ec892a2.md "")**  
-
--   **[IF\_BALI\_MESSAGE\_GETTER](IF_BALI_MESSAGE_GETTER_44f2646.md "")**  
-
 

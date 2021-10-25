@@ -10,14 +10,14 @@ The following table contains all the released ABAP object types that can be impo
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 APIS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 API Release State of Objects
 
@@ -26,14 +26,14 @@ API Release State of Objects
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 APLO
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application Log Object
 
@@ -42,14 +42,14 @@ Application Log Object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 AUTH
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Authorization Check Fields
 
@@ -58,14 +58,14 @@ Authorization Check Fields
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 BDEF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Behavior Definition
 
@@ -74,14 +74,14 @@ Behavior Definition
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CLAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Class
 
@@ -90,14 +90,14 @@ Class
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CHDO
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Change Documents Object
 
@@ -106,14 +106,14 @@ Change Documents Object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DCLS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ABAP Data Control Language Sources
 
@@ -122,14 +122,14 @@ ABAP Data Control Language Sources
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DDLS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data Definition Language Source
 
@@ -138,14 +138,14 @@ Data Definition Language Source
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DDLX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CDS Metadata Extensions
 
@@ -154,14 +154,14 @@ CDS Metadata Extensions
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DEVC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Package
 
@@ -170,14 +170,14 @@ Package
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DOMA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Domain
 
@@ -186,14 +186,14 @@ Domain
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DTEL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data Element
 
@@ -202,14 +202,14 @@ Data Element
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ENQU
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Lock Object
 
@@ -218,14 +218,14 @@ Lock Object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ENHO
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enhancement Implementation Object
 
@@ -234,14 +234,14 @@ Enhancement Implementation Object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ENHS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enhancement Spot Implementation Object
 
@@ -250,14 +250,14 @@ Enhancement Spot Implementation Object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 FUGR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Function Group
 
@@ -266,14 +266,14 @@ Function Group
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 FUNC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Function Module
 
@@ -282,14 +282,14 @@ Function Module
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 INTF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Interface
 
@@ -298,14 +298,14 @@ Interface
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 MSAG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message Class
 
@@ -314,14 +314,14 @@ Message Class
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NROB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number Range Object
 
@@ -330,14 +330,14 @@ Number Range Object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SCO1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Communication Scenario
 
@@ -346,14 +346,14 @@ Communication Scenario
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SCO2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Inbound Service
 
@@ -362,14 +362,14 @@ Inbound Service
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SCO3
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Outbound Service
 
@@ -378,14 +378,14 @@ Outbound Service
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SIAD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Business Role Template Fiori Space Assignment
 
@@ -394,14 +394,14 @@ Business Role Template Fiori Space Assignment
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SIA1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Business Catalog
 
@@ -410,14 +410,14 @@ Business Catalog
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SIA2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Restriction Type
 
@@ -426,14 +426,14 @@ Restriction Type
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SIA3
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Authorization Object Extension
 
@@ -442,14 +442,14 @@ Authorization Object Extension
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SIA5
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Restriction Field
 
@@ -458,14 +458,14 @@ Restriction Field
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SIA6
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IAM: App
 
@@ -474,14 +474,14 @@ IAM: App
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SIA7
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Business Catalog App Assignment
 
@@ -490,14 +490,14 @@ Business Catalog App Assignment
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SIA8
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Business Role Template
 
@@ -506,14 +506,14 @@ Business Role Template
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SIA9
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Business Role Template Business Catalog Assignment
 
@@ -522,14 +522,14 @@ Business Role Template Business Catalog Assignment
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SKTD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Knowledge Transfer Document
 
@@ -538,14 +538,14 @@ Knowledge Transfer Document
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SRVB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Service Binding
 
@@ -554,14 +554,14 @@ Service Binding
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SRVD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Service Definition
 
@@ -570,14 +570,14 @@ Service Definition
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SUSH
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Authorization Default Values
 
@@ -586,14 +586,14 @@ Authorization Default Values
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SUSO
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Authorization Object
 
@@ -602,14 +602,14 @@ Authorization Object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 TABL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Table Definition
 
@@ -618,14 +618,14 @@ Table Definition
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 TTYP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Table Type
 
@@ -634,14 +634,14 @@ Table Type
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 XSLT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Transformation
 

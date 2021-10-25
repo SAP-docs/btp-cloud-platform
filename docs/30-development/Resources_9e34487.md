@@ -101,6 +101,7 @@ In the above example:
         > Service names that do not comply with the Cloud Foundry limitation of 50 symbols are automatically corrected. In such cases, the name is shortened and its end is replaced with a hash code.
 
     -   \(Required\) `service-plan` - Name of the service to create.
+
     For example:
 
     > ### Sample Code:  
@@ -132,6 +133,7 @@ In the above example:
     То аssume that the named service exists, but to not manage its lifecycle, you define the service name by using the `org.cloudfoundry.managed-service` resource type with the following parameters:
 
     -   \(Optional\) `service-name` - Service instance name. Default value is the resource name.
+
 -   `org.cloudfoundry.existing-service-key`
 
     Existing service keys can be modeled as a resource of type `org.cloudfoundry.existing-service-key`, which checks and uses their credentials. For more information, see [Service Keys](Service_Keys_32297f1.md).
@@ -146,6 +148,7 @@ In the above example:
         > Service names that do not comply with the Cloud Foundry limitation of 50 symbols are automatically corrected. In such cases, the name is shortened and its end is replaced with a hash code.
 
     -   \(Required\) `config` - Map value, containing the service creation configuration, for example, url and user credentials \(user and password\)
+
     > ### Example:  
 
     > ### Sample Code:  
@@ -178,28 +181,28 @@ Modify the default MTA resource types by providing specific properties or parame
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Resource Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Service
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Service Plan
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Created Service
 
@@ -208,28 +211,28 @@ Created Service
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.xs.hana-sbss`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `hana`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `sbss`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Service-broker security
 
@@ -238,7 +241,7 @@ Service-broker security
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.xs.hana-schema`
 
@@ -257,21 +260,21 @@ Service-broker security
 
 
 </td>
-<td>
+<td valign="top">
 
 `hana`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `schema`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Plain schema
 
@@ -280,28 +283,28 @@ Plain schema
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.xs.hana-securestore`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `hana`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `securestore`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP HANA secure store
 
@@ -310,7 +313,7 @@ SAP HANA secure store
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.xs.hdi-container`
 
@@ -329,21 +332,21 @@ SAP HANA secure store
 
 
 </td>
-<td>
+<td valign="top">
 
 `hana`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `hdi-shared`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 HDI container
 
@@ -352,28 +355,28 @@ HDI container
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.xs.jobscheduler`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `jobscheduler`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `lite`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Job Scheduler
 
@@ -382,28 +385,28 @@ Job Scheduler
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.xs.uaa`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `xsuaa`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `applicaton`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application UAA
 
@@ -412,28 +415,28 @@ Application UAA
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.xs.uaa-application`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `xsuaa`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `application`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application UAA
 
@@ -442,28 +445,28 @@ Application UAA
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.xs.uaa-devuser`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `xsuaa`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `application`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application UAA
 
@@ -472,28 +475,28 @@ Application UAA
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.xs.uaa-space`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `xsuaa`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `application`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application UAA
 
@@ -502,7 +505,7 @@ Application UAA
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.xs.application-logs`
 
@@ -512,21 +515,21 @@ Application UAA
 
 
 </td>
-<td>
+<td valign="top">
 
 `application-logs`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `lite`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Streams logs of bound applications to a central application logging stack
 
@@ -535,7 +538,7 @@ Streams logs of bound applications to a central application logging stack
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.portal.site-content`
 
@@ -545,21 +548,21 @@ Streams logs of bound applications to a central application logging stack
 
 
 </td>
-<td>
+<td valign="top">
 
 `portal-services`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `site-content`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Portal services
 
@@ -568,7 +571,7 @@ Portal services
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.portal.site-host`
 
@@ -578,21 +581,21 @@ Portal services
 
 
 </td>
-<td>
+<td valign="top">
 
 `portal-services`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `site-host`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Portal services
 
@@ -601,28 +604,28 @@ Portal services
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.xs.auditlog`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `auditlog`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `standard`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Audit log service
 
@@ -631,28 +634,28 @@ Audit log service
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `auditlog`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `auditlog`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `standard`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Audit log service
 
@@ -661,28 +664,28 @@ Audit log service
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `autoscaler`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `autoscaler`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `lite`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Automatically increase or decrease the number of application instances based on a policy you define.
 
@@ -691,28 +694,28 @@ Automatically increase or decrease the number of application instances based on 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `application-logs`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `application-logs`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `lite`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Streams logs of bound applications to a central application logging stack
 
@@ -721,28 +724,28 @@ Streams logs of bound applications to a central application logging stack
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `connectivity`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `connectivity` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `lite`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Establishes a secure and reliable connectivity between cloud applications and on-premise systems
 
@@ -751,28 +754,28 @@ Establishes a secure and reliable connectivity between cloud applications and on
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `destination`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `destination`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `lite`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provides a secure and a reliable access to destination configurations
 
@@ -781,28 +784,28 @@ Provides a secure and a reliable access to destination configurations
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `feature-flags`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `feature-flags` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `lite`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Feature Flags service for controlling feature rollout
 
@@ -811,28 +814,28 @@ Feature Flags service for controlling feature rollout
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `ml-foundation-services`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `ml-foundation-services`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `lite`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -841,28 +844,28 @@ Feature Flags service for controlling feature rollout
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `objectstore`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `objectstore`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `s3-standard`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Highly available and distributed consistent object store
 
@@ -871,7 +874,7 @@ Highly available and distributed consistent object store
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `org.mongodb`
 
@@ -881,21 +884,21 @@ Highly available and distributed consistent object store
 
 
 </td>
-<td>
+<td valign="top">
 
 `mongodb`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `v3.0-container`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 MongoDB document-oriented database system.
 
@@ -904,28 +907,28 @@ MongoDB document-oriented database system.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `mongodb`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `mongodb`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `v3.0-container`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 MongoDB document-oriented database system
 
@@ -934,7 +937,7 @@ MongoDB document-oriented database system
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `org.postgresql`
 
@@ -944,21 +947,21 @@ MongoDB document-oriented database system
 
 
 </td>
-<td>
+<td valign="top">
 
 `postgresql`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `v9.4-container`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 PostgreSQL object-relational database system
 
@@ -967,28 +970,28 @@ PostgreSQL object-relational database system
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `postgresql`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `postgresql`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `v9.4-container`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 PostgreSQL object-relational database system
 
@@ -997,7 +1000,7 @@ PostgreSQL object-relational database system
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.rabbitmq`
 
@@ -1007,21 +1010,21 @@ PostgreSQL object-relational database system
 
 
 </td>
-<td>
+<td valign="top">
 
 `rabbitmq`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `v3.6-container`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 RabbitMQ messaging
 
@@ -1030,28 +1033,28 @@ RabbitMQ messaging
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `rabbitmq`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `rabbitmq`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `v3.6-container`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 RabbitMQ messaging
 
@@ -1060,7 +1063,7 @@ RabbitMQ messaging
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `io.redis`
 
@@ -1070,21 +1073,21 @@ RabbitMQ messaging
 
 
 </td>
-<td>
+<td valign="top">
 
 `redis`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `v3.0-container`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Redis in-memory data structure store
 
@@ -1093,28 +1096,28 @@ Redis in-memory data structure store
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `redis`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `redis`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `v3.0-container`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Redis in-memory data structure store
 
@@ -1142,35 +1145,35 @@ The following parameters are supported:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Read-Only \(System\)
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Default Value
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Example
 
@@ -1179,35 +1182,35 @@ Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `default-container-name`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Default value for the container-name parameter that is used during HDI creation. It is based on the organization, space and service name, which are combined in a way that conforms to the container-name restrictions for length and legal characters.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Generated as described in the description.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `INITIAL_INITIAL_SERVICE_NAME` 
 
@@ -1216,35 +1219,35 @@ Generated as described in the description.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `default-service-name`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the service in the Cloud Foundry environment to be created for this resource, based on the resource name with or without a name-space prefix
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The resource name with or without a name-space prefix
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `nodejs-hdi-container`
 
@@ -1255,35 +1258,35 @@ The resource name with or without a name-space prefix
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `default-xsappname`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Default value for the `xsappname` parameter that is used during UAA creation. It is based on the service name, which is modified in a way that conforms to the `xsappname` restrictions for length and legal characters.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Generated as described in the description.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `xs_-deploy-service-database` \(if the service name is “`xs@-deploy-service-database`”\)
 
@@ -1292,35 +1295,35 @@ Generated as described in the description.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `service`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The type of the created service
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Empty, or as specified in resource-type
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `service: hana`
 
@@ -1329,35 +1332,35 @@ Empty, or as specified in resource-type
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `service-key-name`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Write
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Used when consuming an existing service key. Specifies the name of the service key. See Consumption of existing service keys for more information.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the resource.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `service-key-name: my-service-key`
 
@@ -1366,21 +1369,21 @@ The name of the resource.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `service-name`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the service in the Cloud Foundry environment to be created for this resource, based on the resource name with or without a name-space prefix.
 
@@ -1390,14 +1393,14 @@ The name of the service in the Cloud Foundry environment to be created for this 
 
 
 </td>
-<td>
+<td valign="top">
 
 `${default-service-name}`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `nodejs-hdi-container`
 
@@ -1408,35 +1411,35 @@ The name of the service in the Cloud Foundry environment to be created for this 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `service-plan`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The plan of the created service
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Empty, or as specified in resource-type
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `service-plan: hdi-shared`
 
@@ -1445,35 +1448,35 @@ Empty, or as specified in resource-type
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `service-tags`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Write
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Some services employ a list of custom tags, which provide an easier way for applications to parse `<VCAP_SERVICES>` for credentials. You can provide custom tags when creating a service instance. For more information, see [Service Tags](Service_Tags_3e36d13.md).
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 resources: 
@@ -1488,35 +1491,35 @@ resources:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `service-broker`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Use this parameter to specify the service broker you want to employ when you create your service. This can be useful for testing purposes, among others.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Name of service broker you want to be used.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 resources: 
@@ -1533,35 +1536,35 @@ resources:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `skip-service-updates`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 This parameter allows you to specify the service configuration changes to `ignore`, when deciding if you want to update a service instance – in particular changes of service `parameters`, `plan`, or `tags`.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The default value for all is `false`. The service instance would be updated on change in any of the configurations.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 

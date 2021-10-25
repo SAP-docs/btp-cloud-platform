@@ -49,10 +49,6 @@ You can use this app to:
 
 If you need support or experience issues, please report an incident under component `BC-SRV-APS-EXT-FLD`.
 
--   **[Configuring Predefined Custom Fields](Configuring_Predefined_Custom_Fields_0033cbc.md "Get an overview of how to configure predefined custom fields, and how to publish your
-		configured custom fields.")**  
-Get an overview of how to configure predefined custom fields, and how to publish your configured custom fields.
-
 **Related Information**  
 
 

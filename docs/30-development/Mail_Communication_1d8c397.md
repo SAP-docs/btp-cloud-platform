@@ -7,14 +7,14 @@ Create a mail destination and enable mail communication from SAP BTP, ABAP envir
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 [Set Up a Mail Destination](Set_Up_a_Mail_Destination_6a45f42.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Set up mail connectivity for the SAP BTP, ABAP environment by configuring a MAIL destination.
 
@@ -23,14 +23,14 @@ Set up mail connectivity for the SAP BTP, ABAP environment by configuring a MAIL
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Sending Mails Using SMTP](Sending_Mails_Using_SMTP_8d1f989.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Send mails with the *Simple Message Transfer Protocol* \(SMTP\), using a mail server that is connected via the Cloud Connector.
 
@@ -39,10 +39,4 @@ Send mails with the *Simple Message Transfer Protocol* \(SMTP\), using a mail se
 </td>
 </tr>
 </table>
-
--   **[Set Up a Mail Destination](Set_Up_a_Mail_Destination_6a45f42.md "Set up mail connectivity for the SAP BTP ABAP environment by
-		configuring a MAIL destination.")**  
-Set up mail connectivity for the SAP BTP ABAP environment by configuring a MAIL destination.
--   **[Sending Mails Using SMTP](Sending_Mails_Using_SMTP_8d1f989.md "Send mails using the Simple Message Transfer Protocol  (SMTP).")**  
-Send mails using the Simple Message Transfer Protocol \(SMTP\).
 

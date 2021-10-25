@@ -37,6 +37,7 @@ Set up your ABAP cloud project to connect to the ABAP system.
 
         On the *System Connection Using a Service Key* page, paste your existing service key from the clipboard into the *Service Key in JSON Format* text box, or choose *Import* to import a text file containing your service key.
 
+
 3.  Select *Next*.
 
 4.  To log on to the service instance on the *System Connection Using a Service Key* page, you have the following options:
@@ -51,6 +52,7 @@ Set up your ABAP cloud project to connect to the ABAP system.
     3.  **Using another browser**: Choose the *Copy Logon URL* button.
 
         The URL is copied to the clipboard of your computer.
+
 
 5.  To connect to your service instance, select *Log On*.
 
@@ -70,6 +72,7 @@ Set up your ABAP cloud project to connect to the ABAP system.
 
         > ### Note:  
         > Currently, English is the only logon language.
+
 
 6.  Select *Next*.
 

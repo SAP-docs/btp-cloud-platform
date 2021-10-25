@@ -29,14 +29,14 @@ SAP includes a selection of Python packages, which are available for download an
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Package
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -45,14 +45,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap_instance_manager` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Python package for creating and deleting service instances per tenant within an application at runtime.
 
@@ -61,14 +61,14 @@ Python package for creating and deleting service instances per tenant within an 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap_audit_logging` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provides audit logging functionalities for Python applications.
 
@@ -77,14 +77,14 @@ Provides audit logging functionalities for Python applications.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap_xssec` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 XS Advanced Container Security API for Python.
 
@@ -93,14 +93,14 @@ XS Advanced Container Security API for Python.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap_cf_logging` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 This is a collection of support libraries for Python applications running on Cloud Foundry that:
 
@@ -112,14 +112,14 @@ This is a collection of support libraries for Python applications running on Clo
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [`hdbcli`](https://help.sap.com/viewer/0eec0d68141541d1b07893a39944924e/2.0.02/en-US/f3b8fabf34324302b123297cdbe710f0.html) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The SAP HANA Database Client, provides means for database connectivity.
 
@@ -134,7 +134,4 @@ The SAP HANA Database Client, provides means for database connectivity.
 ## Tips and Tricks
 
 Selected tips and tricks for your Python development. See [Tips and Tricks for Python Applications](Tips_and_Tricks_for_Python_Applications_b5e1c82.md).
-
--   **[Tips and Tricks for Python Applications](Tips_and_Tricks_for_Python_Applications_b5e1c82.md)**  
-
 

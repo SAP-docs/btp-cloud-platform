@@ -1,5 +1,7 @@
 <!-- loio5ba357b4fa1e4de4b9fcc4ae771609da -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Configure Entitlements and Quotas for Subaccounts
 
 Assign entitlements to subaccounts by adding service plans and distribute the quotas available in your global account to your subaccounts using the SAP BTP cockpit.
@@ -32,11 +34,11 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](M
 > 
 > -   \[Feature Set B\] Before a subaccount admin can enable a quota-based environment, such as Kyma, the subaccount admin must first assign the environment as an entitlement to the subaccount. Other non-quota-based environments, such as Cloud Foundry, are available by default to all subaccounts, and therefore aren’t available as entitlements.
 
- <a name="loio5ba357b4fa1e4de4b9fcc4ae771609da task_lzl_bpb_vhb__task_lzl_bpb_vhb"/>
+ <a name="task_lzl_bpb_vhb"/>
 
 <!-- task\_lzl\_bpb\_vhb -->
 
-# Configure Entitlements and Quotas from Your Global Account
+## Configure Entitlements and Quotas from Your Global Account
 
 
 
@@ -54,7 +56,7 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](M
 3.  At the top of the page, select all the subaccounts for which you would like to configure or display entitlements.
 
     > ### Tip:  
-    > If your global account contains more than 20 subaccounts, choose     to open up the value help dialog. There you can filter subaccounts by role, environment, and region to make your selection easier and faster. You can only select a maximum of 50 subaccounts at once.
+    > If your global account contains more than 20 subaccounts, choose <span class="SAP-icons"></span> to open up the value help dialog. There you can filter subaccounts by role, environment, and region to make your selection easier and faster. You can only select a maximum of 50 subaccounts at once.
 
 4.  Choose *Go* to apply the filter.
 
@@ -70,14 +72,14 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](M
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Action
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Steps
 
@@ -86,14 +88,14 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](M
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     **Add new service plans to the subaccount**
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the subaccount.
 
@@ -107,50 +109,50 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](M
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     **Edit the quota for one or more service plans**
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
-    Use     and     to increase or decrease the quota for each service plan.
+    Use <span class="SAP-icons"></span> and <span class="SAP-icons"></span> to increase or decrease the quota for each service plan.
 
 
     
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     **Assign quota to unlimited service plans in global accounts using the consumption-based commercial model.**
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Use the checkbox in the *Assign Quota* column to enable or disable the *Subaccount Assignment* column for editing.
 
-    Now, you can increase or decrease the quota for this service plan by using     and    .
+    Now, you can increase or decrease the quota for this service plan by using <span class="SAP-icons"></span> and <span class="SAP-icons"></span>.
 
 
     
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     **Delete a service plan and its quota from the subaccount**
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
-    Choose     from the *Actions* column.
+    Choose <span class="SAP-icons"></span> from the *Actions* column.
 
 
     
@@ -170,11 +172,11 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](M
 
 [Cloud Management Tools — Feature Set Overview](../10-concepts/Cloud_Management_Tools_—_Feature_Set_Overview_caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 
- <a name="loio5ba357b4fa1e4de4b9fcc4ae771609da task_h3v_xmb_vhb__task_h3v_xmb_vhb"/>
+ <a name="task_h3v_xmb_vhb"/>
 
 <!-- task\_h3v\_xmb\_vhb -->
 
-# Configure Entitlements and Quotas from Your Subaccount
+## Configure Entitlements and Quotas from Your Subaccount
 
 If you’re working in a subaccount and realize you’re missing entitlements or quota, you can edit the entitlements directly from that subaccount.
 
@@ -203,14 +205,14 @@ In addition to being a global account administrator, you must also be a member o
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Action
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Steps
 
@@ -219,14 +221,14 @@ In addition to being a global account administrator, you must also be a member o
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     **Add new service plans to the subaccount**
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the subaccount.
 
@@ -240,32 +242,32 @@ In addition to being a global account administrator, you must also be a member o
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     **Edit the quota for one or more service plans**
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
-    Use     and     to increase or decrease the quota for each service plan.
+    Use <span class="SAP-icons"></span> and <span class="SAP-icons"></span> to increase or decrease the quota for each service plan.
 
 
     
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     **Delete a service plan and its quota from the subaccount**
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
-    Choose     from the *Actions* column.
+    Choose <span class="SAP-icons"></span> from the *Actions* column.
 
 
     

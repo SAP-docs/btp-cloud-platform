@@ -22,6 +22,7 @@ The graphic below illustrates the overall setup of the scenario.
 -   Both accounts have a trust configuration to the same Identity Authentication tenant. See:
     -   [Identity Authentication Tenant as an Application Identity Provider](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/d3df5b457d0c43fca117da0dc14e2f0d.html "You can register a tenant for Identity Authentication service as an identity provider for your subaccount.") :arrow_upper_right: \(for the Neo environment\)
     -   [Manually Establish Trust and Federation Between UAA and Identity Authentication](../50-administration-and-ops/Manually_Establish_Trust_and_Federation_Between_UAA_and_Identity_Authentication_7c6aa87.md#loio7c6aa87459764b179aeccadccd4f91f3) \(for the Cloud Foundry environment\)
+
 -   You have developed and deployed both applications, each in the corresponding subaccount.
 
 > ### Note:  
@@ -167,11 +168,11 @@ See:
 > ### Note:  
 > You can use the [XSA Security Sample Application](https://github.com/raepple/cfsectest) in GitHub \(instructions and code\) to develop and deploy an application compliant with the above requirements.
 
- <a name="loio6e194f8e919a40bab7e39cd992677cb7 loioa4025821716e443a9091c2fa180415ab__loioa4025821716e443a9091c2fa180415ab"/>
+ <a name="loioa4025821716e443a9091c2fa180415ab"/>
 
 <!-- loioa4025821716e443a9091c2fa180415ab -->
 
-# Create a Destination
+## Create a Destination
 
 
 
@@ -188,6 +189,7 @@ Before you create the required destination, you need to note down a few properti
     -   clientid
     -   clientsecret
     -   url
+
 
 
 
@@ -210,14 +212,14 @@ Connect the first subaccount to the second subaccount by describing the source c
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Field
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Description
 
@@ -226,14 +228,14 @@ Connect the first subaccount to the second subaccount by describing the source c
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Name
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Technical name of the destination. It can be used later on to get an instance of that destination. It must be unique for the global account.
 
@@ -245,14 +247,14 @@ Connect the first subaccount to the second subaccount by describing the source c
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     URL
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The URL of the protected resource in the Cloud Foundry environment. See [Configuring Application URLs](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7ceeaa5e528140c48ae53b68433293ba.html "By default, all applications running on SAP BTP are accessed on the hana.ondemand.com domain.") :arrow_upper_right:.
 
@@ -263,14 +265,14 @@ Connect the first subaccount to the second subaccount by describing the source c
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Authentication
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     OAuth2SAMLBearerAssertion
 
@@ -279,14 +281,14 @@ Connect the first subaccount to the second subaccount by describing the source c
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Proxy Type
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Internet
 
@@ -295,14 +297,14 @@ Connect the first subaccount to the second subaccount by describing the source c
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Audience
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Copy the value of `entityID` property of the SAML 2.0 metadata representing your subaccount in the Cloud Foundry environment.
 
@@ -326,14 +328,14 @@ Connect the first subaccount to the second subaccount by describing the source c
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Client Key
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     In the cloud cockpit, navigate to the application in the Cloud Foundry environment \(*<path to your subaccount\>* \> *Spaces* \> *<your space\>* \> *Applications* \> *<your application\>*\). Open *Environment Variables*. Copy the value of the *clientid* property in *VCAP\_SERVICES* \> *xsuaa* \> *credentials*.
 
@@ -342,14 +344,14 @@ Connect the first subaccount to the second subaccount by describing the source c
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Token Service URL
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Get the **token service URL** from the SAML 2.0 metadata representing your subaccount in the Cloud Foundry environment. The **token service URL** is defined in the `Location` attribute of the element marked as `AssertionConsumerService`, like this :
 
@@ -375,14 +377,14 @@ Connect the first subaccount to the second subaccount by describing the source c
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Token Service User
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     In the cloud cockpit, navigate to the application in the Cloud Foundry environment \(*<path to your subaccount\>* \> *Spaces* \> *<your space\>* \> *Applications* \> *<your application\>*\). Open *Environment Variables*. Copy the value of the *clientid* property in *VCAP\_SERVICES* \> *xsuaa* \> *credentials*.
 
@@ -391,14 +393,14 @@ Connect the first subaccount to the second subaccount by describing the source c
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Token Service Password
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     In the cloud cockpit, navigate to the application in the Cloud Foundry environment \(*<path to your subaccount\>* \> *Spaces* \> *<your space\>* \> *Applications* \> *<your application\>*\). Open *Environment Variables*. Copy the value of the *clientsecret* property in *VCAP\_SERVICES* \> *xsuaa* \> *credentials*.
 
@@ -407,14 +409,14 @@ Connect the first subaccount to the second subaccount by describing the source c
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     System User
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Empty.
 
@@ -427,11 +429,11 @@ Connect the first subaccount to the second subaccount by describing the source c
 4.  Save the changes.
 
 
- <a name="loio6e194f8e919a40bab7e39cd992677cb7 loio561b0623e9a34a1c9bfc20efa1e773c5__loio561b0623e9a34a1c9bfc20efa1e773c5"/>
+ <a name="loio561b0623e9a34a1c9bfc20efa1e773c5"/>
 
 <!-- loio561b0623e9a34a1c9bfc20efa1e773c5 -->
 
-# Create Trust Between the Subaccounts
+## Create Trust Between the Subaccounts
 
 
 
@@ -447,6 +449,7 @@ Connect the first subaccount to the second subaccount by describing the source c
 
     3.  Choose *Get Metadata* and save the metadata file representing this subaccount.
 
+
 3.  In the subaccount in the Cloud Foundry environment, create trust to the subaccount in the Neo environment.
 
     1.  Navigate to the subaccount in the Cloud Foundry environment.
@@ -460,6 +463,7 @@ Connect the first subaccount to the second subaccount by describing the source c
     5.  Upload the service provider metadata file representing the subaccount in the Neo environment.
 
     6.  Save the new trust configuration.
+
 
     After this procedure, you can use the security context from the application in the Neo environment to the application in the Cloud Foundry environment. The assigned groups from the Neo environment can be used as role collections in the Cloud Foundry environment.
 

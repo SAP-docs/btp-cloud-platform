@@ -1,6 +1,6 @@
 <!-- loiobefe01d5d8864e59bf847fa5a5f3d669 -->
 
-# Available Plans
+# Available Plans in the Kyma Environment
 
 Depending on your global account type, you will have access to a different plan that specifies cluster parameters for the Kyma environment.
 
@@ -17,21 +17,21 @@ See the specification for the enterprise account.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Field
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Default value
 
@@ -40,21 +40,21 @@ Default value
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Cluster Name*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines the name of your cluster. Use only alphanumeric characters and hyphens.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
@@ -63,21 +63,21 @@ n/a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Region*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines a region \(set of datacenters\) where your cluster will run.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `eu-central-1` \(Europe\)
 -   `us-east-1` \(Americas\)
@@ -88,21 +88,21 @@ Defines a region \(set of datacenters\) where your cluster will run.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Machine Type*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies memory and CPU limits for one virtual machine. See [AWS docs](https://aws.amazon.com/ec2/instance-types/) for details. The available machine types are `m5.2xlarge`, `m5.4xlarge`, `m5.8xlarge`, and `m5.12xlarge`.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `m5.2xlarge`
 
@@ -111,21 +111,21 @@ Specifies memory and CPU limits for one virtual machine. See [AWS docs](https://
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Auto Scaler Min*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies the minimum number of virtual machines to create.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `2`
 
@@ -134,21 +134,21 @@ Specifies the minimum number of virtual machines to create.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Auto Scaler Max*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies the maximum number of virtual machines to create. This number cannot be greater than `40`.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `10`
 
@@ -171,21 +171,21 @@ See the specification for the enterprise account.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Field
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Default value
 
@@ -194,21 +194,21 @@ Default value
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Cluster Name*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines the name of your cluster. Use only alphanumeric characters and hyphens.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
@@ -217,21 +217,21 @@ n/a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Region*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines a region \(set of datacenters\) where your cluster will run.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `eastus`
 
@@ -240,21 +240,21 @@ Defines a region \(set of datacenters\) where your cluster will run.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Machine Type*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies memory and CPU limits for one virtual machine. See [Azure docs](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-sizes-specs#dv3-series) for details.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `Standard_D8_v3`
 
@@ -263,21 +263,21 @@ Specifies memory and CPU limits for one virtual machine. See [Azure docs](https:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Auto Scaler Min*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies the minimum number of virtual machines to create.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `2`
 
@@ -286,21 +286,21 @@ Specifies the minimum number of virtual machines to create.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Auto Scaler Max*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies the maximum number of virtual machines to create. This number cannot be greater than `40`.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `10`
 
@@ -323,21 +323,21 @@ See the specification for the partner's test, demo, and development account.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Field
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Default value
 
@@ -346,21 +346,21 @@ Default value
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Cluster Name*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines the name of your cluster. Use only alphanumeric characters and hyphens.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
@@ -369,21 +369,21 @@ n/a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Region*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines a region \(set of datacenters\) where your cluster will run.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `eastus`
 
@@ -392,21 +392,21 @@ Defines a region \(set of datacenters\) where your cluster will run.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Machine Type*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies memory and CPU limits for one virtual machine. See [Azure docs](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-sizes-specs#dv3-series) for details.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `Standard_D4_v3`
 
@@ -415,21 +415,21 @@ Specifies memory and CPU limits for one virtual machine. See [Azure docs](https:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Auto Scaler Min*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies the minimum number of virtual machines to create.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `2`
 
@@ -438,21 +438,21 @@ Specifies the minimum number of virtual machines to create.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Auto Scaler Max*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies the maximum number of virtual machines to create.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `4`
 
@@ -475,21 +475,21 @@ See the specification for the free plan.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Field
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Default value
 
@@ -498,21 +498,21 @@ Default value
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Cluster Name*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines the name of your cluster. Use only alphanumeric characters and hyphens.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
@@ -521,21 +521,21 @@ n/a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Region*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines a region \(set of datacenters\) where your cluster will run.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `eu-central-1`
 
@@ -561,21 +561,21 @@ See the specification for the SAP BTP trial account.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Field
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Default value
 
@@ -584,21 +584,21 @@ Default value
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Cluster Name*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines the name of your cluster. Use only alphanumeric characters and hyphens.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 

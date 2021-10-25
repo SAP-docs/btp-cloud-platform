@@ -1,5 +1,7 @@
 <!-- loio7a3e39622be14413b2a4df7c02ca1170 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Subscribe to Multitenant Applications Using the Cockpit
 
 Subscribe to multitenant applications from the *Subscriptions* page in the SAP BTP cockpit.
@@ -19,11 +21,13 @@ Subscribe to multitenant applications from the *Subscriptions* page in the SAP B
 
     -   You have created a multi-environment subaccount. See [Create a Subaccount](Create_a_Subaccount_05280a1.md).
 
+
 -   If you are an application owner who is subscribing consumer tenants to your own multitenant application that you created in the Cloud Foundry environment:
 
     -   The application must be deployed to your provider subaccount, configured, and registered as described in [Developing Multitenant Applications in the Cloud Foundry Environment](../30-development/Developing_Multitenant_Applications_in_the_Cloud_Foundry_Environment_5e8a2b7.md).
 
     -   You have created a multi-environment subaccount for each application consumer in the region in which the application is deployed. See [Providing Multitenant Applications to Consumers in the Cloud Foundry Environment](../30-development/Providing_Multitenant_Applications_to_Consumers_in_the_Cloud_Foundry_Environment_7a013f1.md).
+
 
 -   \[Feature Set A\] You are an administrator of the global account.
 
@@ -52,6 +56,7 @@ The instructions provided here apply whether you are an SAP customer subscribing
 
     -   If you are subscribing to an SAP application, open your subaccount.
     -   If you are sharing your multitenant application with other consumers in your global account, open the subaccount of each consumer.
+
     See [Navigate in the Cockpit](Navigate_in_the_Cockpit_0874895.md).
 
 3.  In the navigation area of each subaccount, choose *Services* \> *Service Marketplace*.
@@ -91,7 +96,7 @@ The instructions provided here apply whether you are an SAP customer subscribing
 
     The *Go to Application* link becomes available once the subscription is activated. Choose the link to launch the application and obtain its URL.
 
-    To find the link, either click on the application's name or click on the   \(Go to Application\)  icon in the *Application* column.
+    To find the link, either click on the application's name or click on the <span class="SAP-icons"></span> \(Go to Application\) icon in the *Application* column.
 
     > ### Tip:  
     > To update an existing subscription plan, select the three dots at the end of the subscription row, and from the menu, select *Update*.
@@ -115,11 +120,6 @@ The instructions provided here apply whether you are an SAP customer subscribing
 
 2.  If the application consumer isn't the subaccount owner or administrator, provide the consumer-specific URL of the application to the consumer or the users of the application.
 
-
--   **[Configure Application Roles and Assign Roles to Users](Configure_Application_Roles_and_Assign_Roles_to_Users_56a7153.md "View, create, and modify application roles and then assign users to these roles using
-		the SAP BTP
-                                    cockpit.")**  
-View, create, and modify application roles and then assign users to these roles using the SAP BTP cockpit.
 
 **Related Information**  
 

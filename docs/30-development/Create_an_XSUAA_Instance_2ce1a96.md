@@ -66,6 +66,7 @@
 
         For more information, see [Quick Start: Create Role Collections \(with Predefined Roles\)](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/fe750543788a40b79a49854590ad0b11.html).
 
+
 2.  Create an xsuaa service instance:
 
     In the Cloud Foundry space in the provider's subaccount where your application is going to be deployed \(see [Deploy the Multitenant Application to the Provider Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2204416a491f4068ba36066ca1aa9ca0.html)\), create an xsuaa service instance with the security configurations, which you defined in the security descriptor file in the previous step, by executing this command in the Cloud Foundry command line interface \(cf CLI\):
@@ -79,14 +80,14 @@
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Parameter
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Description
 
@@ -95,14 +96,14 @@
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     XSUAA\_INSTANCE\_NAME
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The new name for the xsuaa service instance. Use only alphanumeric characters, hyphens, and underscores.
 
@@ -111,14 +112,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     <XS\_SECURITY\_JSON\>
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The name of the security descriptor file from the previous step.
 

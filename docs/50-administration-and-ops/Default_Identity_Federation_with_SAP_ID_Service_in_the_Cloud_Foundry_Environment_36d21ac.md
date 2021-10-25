@@ -17,7 +17,7 @@ The default identity provider of SAP BTP is SAP ID service.
 
 ## SAP ID Service
 
-SAP ID service is the place where you register to get initial access to SAP BTP. If you are a new user, you can use the self-service registration option of [SAP ID service](https://account.hanatrial.ondemand.com/cockpit).
+SAP ID service is the place where you register to get initial access to SAP BTP. If you are a new user, you can use the self-service registration option of [SAP ID service](https://accounts.sap.com).
 
 Trust to SAP ID service in your subaccount is pre-configured in the Cloud Foundry environment of SAP BTP by default, so you can start using it without further configuration. Optionally, you can add additional trust settingsor set the default trust to inactive \(for cloud management tools feature set A, for example if you prefer to use another SAML 2.0 identity provider. Using the SAP BTP cockpit you can make changes by navigating to your respective subaccount and by choosing *Security* \> *Trust Configuration*.
 

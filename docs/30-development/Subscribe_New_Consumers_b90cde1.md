@@ -39,5 +39,6 @@
 
     1.  Log into the subaccount and navigate to *Security* \> *Role Collection*.
     2.  Click on the role collection you defined in the chapter [Create an XSUAA Instance](Create_an_XSUAA_Instance_2ce1a96.md). Then click *Edit*, scroll down to *Users* and click *+*. Enter the email address of the initial consumer, select SAP ID Service as Identity Provider or use your preferred consumer IDP, and save your changes.
+
 5.  Supply your consumer with their consumer-specific URL so that they can access the application.
 

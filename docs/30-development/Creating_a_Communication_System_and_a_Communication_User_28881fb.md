@@ -24,7 +24,7 @@ The final preparation tasks in the ABAP system can't be performed in ADT and nee
 
 6.  Enter a user name \(for example, ***SQL\_CLIENT\_USER***\), a description, and a password.
 
-    Remember user name and password for later.
+    Remember the user name and password for later.
 
 7.  Choose *Create*.
 

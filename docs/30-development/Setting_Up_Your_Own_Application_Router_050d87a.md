@@ -119,6 +119,7 @@ The application router is configured in the `xs-app.json` file. The `package.jso
         > 		] 
         > ```
 
+
 6.  Add a package descriptor \(`package.json`\) for the application router to the root folder of your application's Web resources module \(`web/`\) and execute `npm install` to download the approuter npm module from the SAP npm registry.
 
     The package descriptor describes the prerequisites and dependencies that apply to the application router and starts the application router, too.

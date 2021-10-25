@@ -23,6 +23,7 @@ You can manage role collections by creating new ones from scratch or by copying 
 
 
 
+
 You can perform the following tasks:
 
 -   [Define a Role Collection](Define_a_Role_Collection_4b20383.md)
@@ -30,6 +31,7 @@ You can perform the following tasks:
     -   [Add Roles to a Role Collection](Add_Roles_to_a_Role_Collection_e3130fb.md)
 
     -   [Delete Roles from a Role Collection](Delete_Roles_from_a_Role_Collection_b06be74.md)
+
 
 
 -   [Assigning Role Collections to Users or User Groups](Assigning_Role_Collections_to_Users_or_User_Groups_31532c7.md)
@@ -43,11 +45,6 @@ You can perform the following tasks:
     -   [Delete User Groups from Role Collections](Delete_User_Groups_from_Role_Collections_bcc818a.md)
 
 
--   **[Define a Role Collection](Define_a_Role_Collection_4b20383.md "To define a role collection, you can create a new role collection or copy an existing
-		one. Add the roles, users, and user groups as needed.")**  
-To define a role collection, you can create a new role collection or copy an existing one. Add the roles, users, and user groups as needed.
--   **[Assigning Role Collections to Users or User Groups](Assigning_Role_Collections_to_Users_or_User_Groups_31532c7.md "You can assign role collections to users and user groups.")**  
-You can assign role collections to users and user groups.
 
 **Related Information**  
 

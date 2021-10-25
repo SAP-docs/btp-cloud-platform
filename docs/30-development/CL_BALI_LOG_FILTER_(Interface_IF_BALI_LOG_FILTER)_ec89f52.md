@@ -15,14 +15,14 @@ Create an instance of the filter class:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -31,7 +31,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -40,14 +40,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 FILTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Filter object: A reference to interface IF\_BALI\_LOG\_FILTER
 
@@ -66,14 +66,14 @@ Set object, subobject and external identifier of the log. It overwrites all prev
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -82,7 +82,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Importing parameters**
 
@@ -91,14 +91,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(Optional\): Object of the log \(no wildcards\)
 
@@ -107,14 +107,14 @@ OBJECT
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SUBOBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(Optional\): Subobject of the log \(wildcards allowed\)
 
@@ -123,14 +123,14 @@ SUBOBJECT
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SUBOBJECT\_TABLE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(Optional\): Table with subobjects \(wildcards allowed\)
 
@@ -139,14 +139,14 @@ SUBOBJECT\_TABLE
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 EXTERNAL\_ID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(Optional\): External identifier of the log \(wildcards allowed\)
 
@@ -155,14 +155,14 @@ EXTERNAL\_ID
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 EXTERNAL\_ID\_TABLE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(Optional\): Table with external identifiers \(wildcards allowed\)
 
@@ -171,7 +171,7 @@ EXTERNAL\_ID\_TABLE
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -180,14 +180,14 @@ EXTERNAL\_ID\_TABLE
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NEW\_FILTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Reference to current filter object
 
@@ -196,7 +196,7 @@ Reference to current filter object
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
@@ -205,14 +205,14 @@ Reference to current filter object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>OBJECT\_NOT\_ALLOWED:
 
@@ -238,14 +238,14 @@ Set information about the log creation like the user. It overwrites all previous
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -254,7 +254,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Importing parameters**
 
@@ -263,14 +263,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 USER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(Optional\): Log user \(wildcards allowed\)
 
@@ -279,14 +279,14 @@ USER
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 USER\_TABLE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(Optional\): Table with log users \(wildcards allowed\)
 
@@ -295,7 +295,7 @@ USER\_TABLE
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -304,14 +304,14 @@ USER\_TABLE
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NEW\_FILTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Reference to current filter object
 
@@ -333,14 +333,14 @@ Set the date and time interval of the log creation. It overwrites all previous f
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -349,7 +349,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Importing parameters**
 
@@ -358,14 +358,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 START\_TIME
 
 
 
 </td>
-<td>
+<td valign="top">
 
 UTC time stamp of the start time of the time interval
 
@@ -374,14 +374,14 @@ UTC time stamp of the start time of the time interval
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 END\_TIME
 
 
 
 </td>
-<td>
+<td valign="top">
 
 UTC time stamp of the end time of the time interval
 
@@ -390,7 +390,7 @@ UTC time stamp of the end time of the time interval
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -399,14 +399,14 @@ UTC time stamp of the end time of the time interval
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NEW\_FILTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Reference to current filter object
 
@@ -425,14 +425,14 @@ Set the maximum number of logs which are processed:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -441,7 +441,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Importing parameters**
 
@@ -450,14 +450,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 MAX\_LOG\_NUMBER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Maximum number of logs which are processed \(0 = all logs are processed which is the default\)
 
@@ -466,7 +466,7 @@ Maximum number of logs which are processed \(0 = all logs are processed which is
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Returning parameter**
 
@@ -475,14 +475,14 @@ Maximum number of logs which are processed \(0 = all logs are processed which is
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NEW\_FILTER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Reference to current filter object
 
@@ -501,14 +501,14 @@ Get all filter values:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -517,7 +517,7 @@ Description
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 **Exporting parameters**
 
@@ -526,14 +526,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OBJECT\_TABLE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Table of objects \(no wildcards\)
 
@@ -542,14 +542,14 @@ Table of objects \(no wildcards\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SUBOBJECT\_TABLE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Table of subobjects \(wildcards allowed\)
 
@@ -558,14 +558,14 @@ Table of subobjects \(wildcards allowed\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 EXTERNAL\_ID\_TABLE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Table of external identifiers \(wildcards allowed\)
 
@@ -574,28 +574,28 @@ Table of external identifiers \(wildcards allowed\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 USER\_TABLE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 TIME\_INTERVAL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Date and time interval
 
@@ -604,14 +604,14 @@ Date and time interval
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 MAX\_LOG\_NUMBER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Maximum number of logs processed
 

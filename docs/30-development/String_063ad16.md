@@ -15,42 +15,42 @@ The methods TO and FROM provide flexible ways to extract a substring from a stri
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 A
 
 
 
 </th>
-<th>
+<th valign="top">
 
 B
 
 
 
 </th>
-<th>
+<th valign="top">
 
 C
 
 
 
 </th>
-<th>
+<th valign="top">
 
 D
 
 
 
 </th>
-<th>
+<th valign="top">
 
 E
 
 
 
 </th>
-<th>
+<th valign="top">
 
 F
 
@@ -59,42 +59,42 @@ F
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 3
 
 
 
 </td>
-<td>
+<td valign="top">
 
 4
 
 
 
 </td>
-<td>
+<td valign="top">
 
 5
 
 
 
 </td>
-<td>
+<td valign="top">
 
 6
 
@@ -103,42 +103,42 @@ F
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 -6
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -5
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -4
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -3
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -1
 

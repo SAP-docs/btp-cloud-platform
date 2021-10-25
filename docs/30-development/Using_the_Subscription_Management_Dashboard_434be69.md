@@ -1,8 +1,10 @@
 <!-- loio434be695f9e946ccb4c28911dd1e16d0 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Using the Subscription Management Dashboard
 
-Learn how to use the SAP BTPsubscription management dashboard to manage your multitenant applications through a user interface.
+Learn how to use the SAP BTP subscription management dashboard to manage your multitenant applications through a user interface.
 
 
 
@@ -67,7 +69,7 @@ For more information about roles, see [Configure Application Roles and Assign Ro
 
     Details about the instance open to the right.
 
-3.  In the top-right corner, select     and from the dropdown menu, choose *View Dashboard*.
+3.  In the top-right corner, select <span class="SAP-icons"></span> and from the dropdown menu, choose *View Dashboard*.
 
     A new tab with the subscription management dashboard opens.
 
@@ -89,7 +91,7 @@ You can apply various search and filtering criteria such as plan, subscription s
 
 Clicking on a subscription row opens details about the subscription to the rightwhere you can find more information about the subscription and analyze errors if the subscription status is `Failed`.
 
-You can also perform additional operations, such as update subscription dependencies, if you are assigned to the`Subscription Management Dashboard Administrator`role.
+You can also perform additional operations, such as update subscription dependencies, if you are assigned to the `Subscription Management Dashboard Administrator`role.
 
  ![](images/For_Dashboard2_9b943b5.png) 
 

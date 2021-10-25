@@ -6,7 +6,7 @@ Use the SAP BTP command line interface to perform various operations related to 
 
 You can also get information about the service plans and service offerings associated with your subaccount.
 
-For more information about the SAP Service Manager, see [SAP Service Manager](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Development/en-US/3a27b85a47fc4dff99184dd5bf181e14.html "SAP Service Manager service is the central registry for service brokers and platforms in SAP BTP.") :arrow_upper_right:.
+For more information about the,SAP Service Manager see [SAP Service Manager](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/3a27b85a47fc4dff99184dd5bf181e14.html).
 
 > ### Tip:  
 > All of these commands are executed for a specific subaccount. We recommend using the `btp target` command to set the default context to a subaccount. See [Set the Default Command Context](Set_the_Default_Command_Context_720645a.md).
@@ -22,14 +22,14 @@ For detailed descriptions of all SAP Service Manager CLI commands, see [SAP Serv
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Run the command ...
 
@@ -38,14 +38,14 @@ Run the command ...
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 List all registered platforms in the current subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp list services/platform`
 
@@ -54,14 +54,14 @@ List all registered platforms in the current subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Get details about a specific platform registered in the current subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp get services/platform`
 
@@ -70,14 +70,14 @@ Get details about a specific platform registered in the current subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Register a new platform in the current subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp register services/platform`
 
@@ -86,14 +86,14 @@ Register a new platform in the current subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
-Update an existng platform registered in the current subaccount
+Update an existing platform registered in the current subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp update services/platform`
 
@@ -102,14 +102,14 @@ Update an existng platform registered in the current subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Unregister an existing platform in the current subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp unregister services/platform`
 
@@ -128,14 +128,14 @@ Unregister an existing platform in the current subaccount
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Run the command ...
 
@@ -144,14 +144,14 @@ Run the command ...
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 List all registered brokers in the current subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp list services/broker`
 
@@ -160,14 +160,14 @@ List all registered brokers in the current subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Get a specific service broker in the current subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp get services/broker`
 
@@ -176,14 +176,14 @@ Get a specific service broker in the current subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Register a new service broker in the current subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp register services/broker`
 
@@ -192,14 +192,14 @@ Register a new service broker in the current subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Update an existing service broker in the current subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp update services/broker`
 
@@ -208,14 +208,14 @@ Update an existing service broker in the current subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Unregister an existing service broker in the current subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp unregister services/broker`
 
@@ -234,14 +234,14 @@ Unregister an existing service broker in the current subaccount
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Run the command ...
 
@@ -250,14 +250,14 @@ Run the command ...
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 List all service instances associated with the current subaccount.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp list services/instance`
 
@@ -266,14 +266,14 @@ List all service instances associated with the current subaccount.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Get details about a specific service instance associated with the current subaccount.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp get services/instance`
 
@@ -282,14 +282,14 @@ Get details about a specific service instance associated with the current subacc
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Create a new service instance of the service you want to consume.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp create services/instance`
 
@@ -298,14 +298,14 @@ Create a new service instance of the service you want to consume.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Delete an existing service instance.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp delete services/instance`
 
@@ -324,14 +324,14 @@ Delete an existing service instance.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Run the command ...
 
@@ -340,14 +340,14 @@ Run the command ...
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 List all service bindings associated with the current subaccount.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp list services/binding`
 
@@ -356,14 +356,14 @@ List all service bindings associated with the current subaccount.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Get details about a specific service binding associated with the current subaccount.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp get services/binding`
 
@@ -372,14 +372,14 @@ Get details about a specific service binding associated with the current subacco
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Create a new binding between an existing service instance and an application.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp create services/binding`
 
@@ -388,14 +388,14 @@ Create a new binding between an existing service instance and an application.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Delete an existing binding between a service instance and an application.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp delete services/instance`
 
@@ -414,14 +414,14 @@ Delete an existing binding between a service instance and an application.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Run the command ...
 
@@ -430,14 +430,14 @@ Run the command ...
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 List all service plans of services available for consumption that are associated with your current subaccount.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp list services/plan`
 
@@ -446,14 +446,14 @@ List all service plans of services available for consumption that are associated
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Get details about a specific service plan of a service that is available for consumption and associated with your current subaccount.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp get services/plan`
 
@@ -472,14 +472,14 @@ Get details about a specific service plan of a service that is available for con
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Run the command ...
 
@@ -488,14 +488,14 @@ Run the command ...
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 List all service offerings associated with your current subaccount.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp list services/offering`
 
@@ -504,14 +504,14 @@ List all service offerings associated with your current subaccount.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Get details about a specific service offering associated with your subaccount.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp get services/offering`
 
@@ -520,8 +520,6 @@ Get details about a specific service offering associated with your subaccount.
 </td>
 </tr>
 </table>
-
-**Parent topicColonSymbol** [Commands in the btp CLI](Commands_in_the_btp_CLI_a03a555.md "A list of all tasks and respective commands that are available in the SAP BTP command line interface (btp CLI).")
 
 **Related Information**  
 

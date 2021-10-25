@@ -30,9 +30,3 @@ For each tenant of SAP BTP ABAP environment, a service instance of SAP Document 
 
 You can build and edit communication arrangements that your organization has set up with a communication partner using the *Communication Arrangement* application. The system provides communication scenarios for inbound and outbound communication that you can use to create communication arrangements. Inbound communication describes how a communication partner receives business documents, while outbound communication describes how a communication partner sends business documents to a communication partner. The communication scenario specifies the authorizations, inbound and outbound services, and supported authentication methods that are necessary for the communication.
 
--   **[Create a Communication Arrangement](Create_a_Communication_Arrangement_b7a87fd.md "Create a communication arrangement in the ABAP environment.")**  
-Create a communication arrangement in the ABAP environment.
--   **[Sample Code](Sample_Code_76b08e1.md "This topic contains a set of sample codes that can be used to create various classes in
-		an ABAP environment.")**  
-This topic contains a set of sample codes that can be used to create various classes in an ABAP environment.
-

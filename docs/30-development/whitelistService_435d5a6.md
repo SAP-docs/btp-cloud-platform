@@ -30,28 +30,28 @@ The allowlist service reads a list of allowed host names and domains defined in 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Mandatory
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -60,28 +60,28 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `protocol` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 URI scheme, for example “HTTP”.
 
@@ -90,28 +90,28 @@ URI scheme, for example “HTTP”.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `host` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A valid host name, for example, `acme.com.hostname`, or a domain name defined with an asterisk \(\*\) `*.acme.com`.
 
@@ -120,28 +120,28 @@ A valid host name, for example, `acme.com.hostname`, or a domain name defined wi
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `port` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String/Number
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Port string or number containing a valid port.
 

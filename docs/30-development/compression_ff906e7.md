@@ -37,28 +37,28 @@ You can disable compression in the following ways:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Mandatory
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -67,28 +67,28 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `minSize` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Text resources larger than this size will be compressed.
 
@@ -97,28 +97,28 @@ Text resources larger than this size will be compressed.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `enabled` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Boolean
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Globally disables or enables compression. The default value is true.
 

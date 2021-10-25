@@ -13,19 +13,25 @@ User authorizations are managed by assigning role collections to users \(for exa
 
 ## Managing Users and Assigning Role Collections
 
-Role collections are user-related authorizations that restrict access to resources and services based on defined user permissions. You give user permissions by assigning role collections to them. For example, after creating a subaccount, assign the role collection "Subaccount Administrator" to a user. You can also display users and their authorizations. See [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/Role_Collections_and_Roles_in_Global_Accounts,_Directories,_and_Subaccounts_Feature_Set_B_0039cf0.md).
+Role collections are user-related authorizations that allow access to resources and services. You give users permissions by assigning role collections to them. Note that together with the first assignment to a role collection, you need to initially add the user with parameter `--add-user-if-missing`. This creates a shadow user in the current context. For example, after creating a subaccount, assign the role collection "Subaccount Administrator" to a user with the following command:
+
+```nocode
+`btp assign security/role-collection "Subaccount Administrator" --to-user name@example.com --create-user-if-missing --subaccount "my-subaccount-id"`
+```
+
+See [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/Role_Collections_and_Roles_in_Global_Accounts,_Directories,_and_Subaccounts_Feature_Set_B_0039cf0.md).
 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Run the command ...
 
@@ -34,14 +40,14 @@ Run the command ...
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 List all users
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp list security/user`
 
@@ -50,14 +56,14 @@ List all users
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Get details about a specific user, including role collections
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp get security/user` 
 
@@ -66,14 +72,14 @@ Get details about a specific user, including role collections
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Delete a user
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp delete security/user`
 
@@ -82,30 +88,30 @@ Delete a user
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Assign a role collection to a user
 
 
 
 </td>
-<td>
+<td valign="top">
 
- `btp assign security/role-collection` 
+`btp assign security/role-collection`
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Unassign a role collection from a user
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp unassign security/role-collection`
 
@@ -126,14 +132,14 @@ A role is an instance of a role template; you can build a role based on a role t
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Run the command ...
 
@@ -142,14 +148,14 @@ Run the command ...
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 List all apps of the global account
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp list security/app`
 
@@ -158,14 +164,14 @@ List all apps of the global account
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Get details about a specific application
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp get security/app`
 
@@ -174,30 +180,14 @@ Get details about a specific application
 </td>
 </tr>
 <tr>
-<td>
-
-List all role templates of an application
-
-
-
-</td>
-<td>
-
-`btp list security/role-template`
-
-
-
-</td>
-</tr>
-<tr>
-<td>
+<td valign="top">
 
 List all roles
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp list security/role`
 
@@ -206,14 +196,14 @@ List all roles
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 List all roles of a specific application
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp list security/role`
 
@@ -222,14 +212,14 @@ List all roles of a specific application
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Get details about a specific role
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp get security/role`
 
@@ -238,14 +228,14 @@ Get details about a specific role
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Create a role
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp create security/role`
 
@@ -254,14 +244,14 @@ Create a role
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Delete a role
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp delete security/role`
 
@@ -270,14 +260,14 @@ Delete a role
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Add a role to a role collection
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp add security/role`
 
@@ -286,14 +276,14 @@ Add a role to a role collection
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Remove a role from a role collection
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp remove security/role`
 
@@ -309,19 +299,19 @@ Remove a role from a role collection
 
 ## Managing Role Collections
 
-Role collections are user-related authorizations that restrict access to resources and services based on defined user permissions. They consist of individual roles, which, in turn, are based on role templates. There are four predefined role collections: Global Account Administrator, Subaccount Administrator, Global Account Viewer, and Subaccount Viewer. For more information, see [Building Roles and Role Collections for Applications](Building_Roles_and_Role_Collections_for_Applications_eaa6a26.md).
+Role collections consits of roles, which, in turn, are based on role templates. Role colections are account-specific, i.e. there are different role collections in global accounts, subaccounts, and directories. There are several predefined role collections, such as Global Account Administrator, Subaccount Administrator, Global Account Viewer, and Subaccount Viewer. For more information, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/Role_Collections_and_Roles_in_Global_Accounts,_Directories,_and_Subaccounts_Feature_Set_B_0039cf0.md).
 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Run the command ...
 
@@ -330,14 +320,14 @@ Run the command ...
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 List all role collections
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp list security/role-collection`
 
@@ -346,14 +336,14 @@ List all role collections
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Get details about a specific role collection
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp get security/role-collection`
 
@@ -362,14 +352,14 @@ Get details about a specific role collection
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Create a role collection
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp create security/role-collection`
 
@@ -378,14 +368,14 @@ Create a role collection
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Change the description of a role collection
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp update security/role-collection`
 
@@ -394,14 +384,14 @@ Change the description of a role collection
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Delete a role collection
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `btp delete security/role-collection`
 
@@ -410,8 +400,6 @@ Delete a role collection
 </td>
 </tr>
 </table>
-
-**Parent topicColonSymbol** [Commands in the btp CLI](Commands_in_the_btp_CLI_a03a555.md "A list of all tasks and respective commands that are available in the SAP BTP command line interface (btp CLI).")
 
 **Related Information**  
 

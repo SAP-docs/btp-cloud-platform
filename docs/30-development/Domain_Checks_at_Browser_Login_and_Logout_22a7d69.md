@@ -49,7 +49,7 @@ For more information, see the related links.
 
 [Configuring Application URLs](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7ceeaa5e528140c48ae53b68433293ba.html "By default, all applications running on SAP BTP are accessed on the hana.ondemand.com domain.") :arrow_upper_right:
 
-[2668456 on setting custom domains](https://launchpad.support.sap.com/#/notes/)
+[SAP Note 2668456 on setting custom domains](https://launchpad.support.sap.com/#/notes/2668456 on setting custom domains)
 
 [Cloud Foundry documentation about redirect parameters for logout](https://docs.cloudfoundry.org/api/uaa/version/4.24.0/index.html#session-management)
 

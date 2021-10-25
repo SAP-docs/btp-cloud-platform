@@ -43,6 +43,7 @@ You declare your application security descriptor with JSON syntax and store it i
 
     4.  Save the file.
 
+
 2.  Update the manifest.
 
     In this step, you need to complete the following tasks:
@@ -50,6 +51,7 @@ You declare your application security descriptor with JSON syntax and store it i
     -   Add a new routing pattern.
 
     -   Add the service binding for the SaaS Provisioning service.
+
 
     1.  Go to your application folder and open the `manifest.yml` file.
 
@@ -82,6 +84,7 @@ You declare your application security descriptor with JSON syntax and store it i
         >   - xsuaa-service-tutorial
         >   - saas-registry-tutorial
         > ```
+
 
 3.  Implement the subscribe/unsubscribe endpoints.
 
@@ -127,6 +130,7 @@ You declare your application security descriptor with JSON syntax and store it i
         > }
         > ```
 
+
 4.  Create a SaaS configuration file.
 
     To make your multitenant application endpoints available for subscription to consumer subaccounts, you need to register the application in the Cloud Foundry environment by using the SaaS Provisioning service.
@@ -149,6 +153,7 @@ You declare your application security descriptor with JSON syntax and store it i
         >   "category" : "Custom SaaS Applications"
         > }
         > ```
+
 
 5.  Delete the old service instance of the SAP Authorization and Trust Management service.
 
@@ -187,6 +192,7 @@ You declare your application security descriptor with JSON syntax and store it i
         > cf delete-service xsuaa-service-tutorial
         > ```
 
+
 6.  Create service instances and redeploy your application.
 
     1.  Log in to your Cloud Foundry account with the Cloud Foundry CLI.
@@ -220,6 +226,7 @@ You declare your application security descriptor with JSON syntax and store it i
         > cf push
         > ```
 
+
 7.  Create a route for a consumer subaccount.
 
     Make your application reachable for consumer subaccounts by adding a new route in the Cloud Foundry CLI. The route is composed of the subdomain of the subscribing subaccount and the `TENANT_HOST_PATTERN` of the application router that you defined in the `manifest.yml` file. You have to create a new route for every subaccount \(tenant\) that subscribes to the application.
@@ -240,6 +247,7 @@ You declare your application security descriptor with JSON syntax and store it i
         > cf map-route approuter cfapps.eu10.hana.ondemand.com --hostname consumer-tenant-ap25-approuter-product-list-ap25
         > ```
 
+
 8.  Access the application with the consumer subaccount.
 
     To access the application you need to subscribe to it. Follow these steps to subscribe to the SaaS application with the consumer subaccount and call the application URL.
@@ -255,6 +263,7 @@ You declare your application security descriptor with JSON syntax and store it i
     5.  Choose *Subscribe*.
 
     6.  Choose *Go to Application*.
+
 
     You’ll now see the application with the message `no data` because you have to assign the role collection to your user in the consumer subaccount.
 
@@ -284,6 +293,7 @@ You declare your application security descriptor with JSON syntax and store it i
         > ```
         > https://consumer-tenant-ap25-approuter-product-list-ap25.cfapps.eu10.hana.ondemand.com/products
         > ```
+
 
     The application will now show you the products.
 

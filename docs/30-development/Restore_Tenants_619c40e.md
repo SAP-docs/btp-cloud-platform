@@ -8,7 +8,12 @@
 
 ## Context
 
-When a consumer unsubscribes from a provider's SaaS production or test solution, a tenant decommisioning process will take place taking a grace period of 30 days into account \(see [Consumer Offboarding](Consumer_Offboarding_c882a2a.md)\). During the grace period, the tenant is in what is referred to as retention time and can no longer be accessed by you as the provider, nor by your consumer. If the consumer decides to re-subscribe to the SaaS solution during this time, or if the consumer requests important data before the tenant will be deleted, you, as a provider, can trigger the tenant recovery directly in the *Landscape Portal*. Note that tenant recovery is only possible for tenants which were created via consumer subscription. Tenants which can be created and deleted directly in the *Landscape Portal* for test purposes cannot be restored.
+When a consumer unsubscribes from a provider's SaaS production or test solution, a tenant decommisioning process will take place taking a grace period of 30 days into account \(see [Consumer Offboarding](Consumer_Offboarding_c882a2a.md)\). During the grace period, the tenant is in what is referred to as retention time and can no longer be accessed by you as the provider, nor by your consumer. If the consumer decides to re-subscribe to the SaaS solution during this time, or if the consumer requests important data before the tenant will be deleted, you, as a provider, can trigger the tenant recovery directly in the *Landscape Portal*.
+
+> ### Note:  
+> Tenant recovery is only possible for tenants which were created via consumer subscription. Tenants which can be created and deleted directly in the *Landscape Portal* for test purposes can't be restored.
+> 
+> If a consumer provisions a tenant but doesn't complete the onboarding process by signing in as initial administrator, then the tenant can't be restored after it has been deleted.
 
 
 

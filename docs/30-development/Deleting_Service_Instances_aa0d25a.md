@@ -17,10 +17,3 @@ You can also delete service instances using the Multitarget Application plug-in 
 -   [Multitarget Application Commands for the Cloud Foundry Environment](../50-administration-and-ops/Multitarget_Application_Commands_for_the_Cloud_Foundry_Environment_65ddb1b.md)
 
 
--   **[Delete Service Instances Using the Cockpit](Delete_Service_Instances_Using_the_Cockpit_f56d4ae.md "")**  
-
--   **[Delete Service Instances Using the Cloud Foundry Command Line Interface](Delete_Service_Instances_Using_the_Cloud_Foundry_Command_Line_Interface_302f2a3.md "You can use the Cloud
-                                Foundry Command
-		Line Interface (cf CLI) to delete service instances. ")**  
-You can use the Cloud Foundry Command Line Interface \(cf CLI\) to delete service instances.
-

@@ -54,15 +54,3 @@ Availability and Performance
 
 If you want to learn more about services in the SAP BTP, Cloud Foundry environment, see [Using Services in the Cloud Foundry Environment](Using_Services_in_the_Cloud_Foundry_Environment_f22029f.md).
 
--   **[Deploying Content](Deploying_Content_480a5a7.md "Learn how to deploy your content using the preferred Generic Application Content
-		Deployer or deploy , redeploy, and undeploy content from the HTML5 Application
-		Repository.")**  
-Learn how to deploy your content using the preferred Generic Application Content Deployer or deploy , redeploy, and undeploy content from the HTML5 Application Repository.
--   **[Service Plans](Service_Plans_845389c.md "")**  
-
--   **[Consuming Content](Consuming_Content_e300d63.md "Use the app-runtime service plan to consume HTML5 applications from the
-		HTML5 Application Repository.")**  
-Use the `app-runtime` service plan to consume HTML5 applications from the HTML5 Application Repository.
--   **[Security and Data Privacy Configuration](Security_and_Data_Privacy_Configuration_9ae3a7a.md "This section provides information about security and data privacy.")**  
-This section provides information about security and data privacy.
-

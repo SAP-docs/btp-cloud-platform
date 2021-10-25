@@ -10,7 +10,7 @@
 
 
 
-### ABAP Development Tools
+### ABAP Development Tools \(ADT\)
 
 ABAP Development Tools is the integrated development environment \(IDE\) for ABAP development on the open Eclipse platform.
 
@@ -42,24 +42,11 @@ ABAP Development Tools supports ABAP developers with the following features:
 -   Built-in extensibility of the IDE using the established Eclipse plug-in technology
 
 
-You can download the ABAP Development Tools installation packages from the[SAP Development Tools](https://tools.hana.ondemand.com/#abap) page.
 
 
+### Installing ABAP Development Tools
 
-### Installation of ABAP Development Tools
-
-When installing ABAP Development Tools in the context of the ABAP environment, the following items from the installation packages are required:
-
--   ABAP Core Development Tools \(Developer Edition\)
-
--   ABAP Development Tools for SAP HANA \(Developer Edition\)
-
--   UI development toolkit for HTML5 \(Developer Edition\)
-
--   SAP UI5 ABAP Repository Team Provider \(Developer Edition\)
-
-
-For more information, see [Installing ABAP Development Tools](https://help.sap.com/doc/2e9cf4a457d84c7a81f33d8c3fdd9694/LATEST/en-US/inst_guide_abap_development_tools.pdf)
+To install ADT, follow the [ADT installation guide](https://help.sap.com/doc/2e9cf4a457d84c7a81f33d8c3fdd9694/LATEST/en-US/inst_guide_abap_development_tools.pdf). Alternatively, you may get ADT from the[SAP Development Tools](https://tools.hana.ondemand.com/#abap) page under the terms of the [SAP DEVELOPER LICENSE AGREEMENT](https://tools.hana.ondemand.com/developer-license-3_1.txt).
 
 
 

@@ -1,5 +1,7 @@
 <!-- loio75836f1b68ce439e9c169b05597f97e4 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Add or Remove Application Instances
 
 To increase the availability of your Cloud Foundry application, you can run multiple instances of it.
@@ -22,8 +24,9 @@ You must have one application deployed in your Cloud Foundry space.
 
 3.  In the *Overview* page of your application choose:
 
-    -       *Instance* to start an additional instance of your application
-    -       *Instance* to remove one of the running instances of your application.
+    -   <span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span> *Instance* to start an additional instance of your application
+    -   <span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span> *Instance* to remove one of the running instances of your application.
+
 
 **Related Information**  
 

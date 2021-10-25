@@ -2,7 +2,7 @@
 
 # Use Test Tenants
 
-As a SAP BTP ABAP environment user, you might want to test your solution on a test tenant. While you could create a new subaccount and provision a new tenant for yourself for test purposes, the *Landscape Portal* app offers a much simpler and faster way for you to create a test tenant.
+As a SAP BTP ABAP environment user, you might want to test your solution on a test tenant. While you could create a new subaccount and provision a new tenant for yourself for test purposes, the *Landscape Portal* offers a much simpler and faster way for you to create a test tenant.
 
 > ### Note:  
 > The business type of the test tenant depends on the system type. In a development system, a tenant of type "Partner Test Tenant" is created. In non-development systems, a tenant of type "Test Tenant" is created. Unlike consumer tenants, created via subscription, test tenants can be created in any type of system.

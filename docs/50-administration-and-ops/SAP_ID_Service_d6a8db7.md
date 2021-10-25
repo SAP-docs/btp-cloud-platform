@@ -17,13 +17,6 @@ If you want to add new users to a subscribed app, or if you want to add users to
 > 
 > For more information, see [Trust and Federation with Identity Providers](Trust_and_Federation_with_Identity_Providers_cb1bc8f.md).
 
--   **[Create SAP User Accounts](Create_SAP_User_Accounts_ebe42f6.md "If you want to grant authorizations to users from SAP ID service in your subaccount, you
-		must ensure that they have a user account in SAP ID service.")**  
-If you want to grant authorizations to users from SAP ID service in your subaccount, you must ensure that they have a user account in SAP ID service.
--   **[Add Users from SAP ID Service for Multi-Environment Subaccounts](Add_Users_from_SAP_ID_Service_for_Multi-Environment_Subaccounts_760ab77.md "Before you can assign role collection to a user from SAP ID service, you've to ensure that
-		this user exists in SAP ID service.")**  
-Before you can assign role collection to a user from SAP ID service, you've to ensure that this user exists in SAP ID service.
-
 **Related Information**  
 
 

@@ -16,28 +16,28 @@ The method used to authenticate user requests, for example: “route” or “no
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Mandatory
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Values
 
@@ -46,28 +46,28 @@ Values
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `authenticationMethod` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   `route` \(default\)
 

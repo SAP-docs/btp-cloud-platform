@@ -25,7 +25,7 @@ A role is an instance of a role template; you can build a role based on a role t
 
 <a name="loio14a877c6e2f14832999df500ffa6e05e__section_ezb_xb5_rt"/>
 
-## Role Collection {#title_hbm_5b5_rt}
+## Role Collection
 
 Roles are assigned to role collections which are assigned in turn to users or user groups if an SAML 2.0 identity provider stores the users. Using the SAP BTP cockpit, you can display information about the role collections that have been maintained as well as the roles available in a role collection. Additional information includes: which templates the roles are based on, and which applications the roles apply to. Role collections enable you to group together the roles you create. The role collections you define can be assigned as follows:
 

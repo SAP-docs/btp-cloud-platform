@@ -13,21 +13,21 @@ You assign business catalogs to business roles that are assigned to business use
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Business Catalog
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Authorizations
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Restrictions
 
@@ -36,7 +36,7 @@ Restrictions
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Development - ABAP Development Tools*
 
@@ -45,14 +45,14 @@ SAP\_A4C\_BC\_DEV\_PC
 
 
 </td>
-<td>
+<td valign="top">
 
 ADT Development
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No transport request management \(transport tasks only\)
 
@@ -61,7 +61,7 @@ No transport request management \(transport tasks only\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Development - Analysis and Support*
 
@@ -70,14 +70,14 @@ SAP\_A4C\_BC\_DEV\_SUP\_PC
 
 
 </td>
-<td>
+<td valign="top">
 
 Troubleshooting tools such as logs, traces, and the debugger.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -86,7 +86,7 @@ Troubleshooting tools such as logs, traces, and the debugger.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Development - API Test*
 
@@ -95,14 +95,14 @@ SAP\_A4C\_BC\_DEV\_TST\_PC
 
 
 </td>
-<td>
+<td valign="top">
 
 Testing ABAP-based APIs released by SAP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -111,7 +111,7 @@ Testing ABAP-based APIs released by SAP
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Development - Class Runner Execution*
 
@@ -120,14 +120,14 @@ SAP\_A4C\_BC\_DEV\_CLA\_RUN\_PC
 
 
 </td>
-<td>
+<td valign="top">
 
 Executing class runners in ABAP Development Tools
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -136,7 +136,7 @@ Executing class runners in ABAP Development Tools
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Development - Data Preview*
 
@@ -145,14 +145,14 @@ SAP\_A4C\_BC\_DEV\_DAT\_PRV\_PC
 
 
 </td>
-<td>
+<td valign="top">
 
 Using data preview in ABAP Development Tools
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -161,7 +161,7 @@ Using data preview in ABAP Development Tools
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Development - Development Objects Display*
 
@@ -170,14 +170,14 @@ SAP\_A4C\_BC\_DEV\_OBJ\_DIS\_PC
 
 
 </td>
-<td>
+<td valign="top">
 
 Viewing \(read-only\) development objects in ABAP Development Tools
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -186,7 +186,7 @@ Viewing \(read-only\) development objects in ABAP Development Tools
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Development - Transport Management*
 
@@ -195,14 +195,14 @@ SAP\_A4C\_BC\_TRN\_MNG\_PC
 
 
 </td>
-<td>
+<td valign="top">
 
 ADT Transport Management
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No release of transport requests and no customizing requests
 
@@ -211,7 +211,7 @@ No release of transport requests and no customizing requests
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Development - Transport Release Management*
 
@@ -220,14 +220,14 @@ SAP\_A4C\_BC\_TRN\_REL\_PC
 
 
 </td>
-<td>
+<td valign="top">
 
 ADT Transport Release Management
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No customizing requests
 
@@ -236,7 +236,7 @@ No customizing requests
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Development - UI Deployment*
 
@@ -245,14 +245,14 @@ SAP\_A4C\_BC\_DEV\_UID\_PC
 
 
 </td>
-<td>
+<td valign="top">
 
 Deployment of UIs into the ABAP system repository
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 

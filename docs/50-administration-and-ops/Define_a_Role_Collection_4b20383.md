@@ -1,5 +1,7 @@
 <!-- loio4b20383efab341f181becf0a947a5498 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Define a Role Collection
 
 To define a role collection, you can create a new role collection or copy an existing one. Add the roles, users, and user groups as needed.
@@ -18,11 +20,11 @@ If you have an existing role collection that you want to use as a template, it's
 
 1.  Open the SAP BTP cockpit.
 
-2.  Go to your global account and subaccount \(see [Navigate to Orgs and Spaces](Navigate_to_Orgs_and_Spaces_5bf8735.md)\).
+2.  Go to your global account and subaccount \(see [Navigate in the Cockpit](Navigate_in_the_Cockpit_0874895.md)\).
 
 3.  Choose *Security* \> *Role Collections*.
 
-4.  To create a new role collection, choose     \(Create New Role Collection\). To copy an existing role collection, choose *Copy* at the end of the row.
+4.  To create a new role collection, choose <span class="SAP-icons"></span> \(Create New Role Collection\). To copy an existing role collection, choose *Copy* at the end of the row.
 
 5.  Enter a new name and description. If you copied an existing role collection, you can see the included roles.
 
@@ -30,9 +32,4 @@ If you have an existing role collection that you want to use as a template, it's
 
     You can now add or remove roles and assign users or user groups.
 
-
--   **[Add Roles to a Role Collection](Add_Roles_to_a_Role_Collection_e3130fb.md "You can add roles to a role collection.")**  
-You can add roles to a role collection.
--   **[Delete Roles from a Role Collection](Delete_Roles_from_a_Role_Collection_b06be74.md "You can delete roles from a role collection.")**  
-You can delete roles from a role collection.
 

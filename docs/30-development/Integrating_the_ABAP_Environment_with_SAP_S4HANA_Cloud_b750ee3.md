@@ -41,15 +41,3 @@ This document is available in two shipment modes:
     For more information, see SAP Note [2608492](https://launchpad.support.sap.com/#/notes/2608492).
 
 
--   **[Overview of Administration Activities](Overview_of_Administration_Activities_83b39d2.md "Get an overview of the example used in this documentation and what kind of administration activities you need to expect and
-		why.")**  
-Get an overview of the example used in this documentation and what kind of administration activities you need to expect and why.
--   **[Prerequisites Check](Prerequisites_Check_28d942e.md "Before you integrate the ABAP environment with S/4HANA Cloud, the ABAP environment needs to be set up, and certain roles and communication
-		arrangements need to be available.")**  
-Before you integrate the ABAP environment with S/4HANA Cloud, the ABAP environment needs to be set up, and certain roles and communication arrangements need to be available.
--   **[Integrating the ABAP Environment and the SAP S/4HANA Cloud System](Integrating_the_ABAP_Environment_and_the_SAP_S4HANA_Cloud_System_0fc600c.md "In this section, you'll find a step-by-step instruction how to integrate the ABAP environment and the SAP S/4HANA Cloud
-		system.")**  
-In this section, you'll find a step-by-step instruction how to integrate the ABAP environment and the SAP S/4HANA Cloud system.
--   **[Implementing an Outbound Service Call to SAP S/4HANA Cloud](Implementing_an_Outbound_Service_Call_to_SAP_S4HANA_Cloud_a4e21bd.md "")**  
-
-

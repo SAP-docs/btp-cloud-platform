@@ -27,6 +27,7 @@ Using the *Maintain Business Roles* app, you have the following options for main
     -   *Value Help* \(value help access\)
     -   *Read, Value Help* \(read access\)
     -   *Write, Read, Value Help* \(write access\)
+
     The business role aggregates these restrictions.
 
     The available restriction fields represent the authorization-relevant attributes of the business objects that are used in a role and for which instanced based access restrictions for value help, read and write access can be granted \(for example for a particular sales area\).
@@ -38,6 +39,7 @@ Using the *Maintain Business Roles* app, you have the following options for main
     -   *Value Help*
     -   *Read, Value Help*
     -   *Write, Read, Value Help*
+
     > ### Note:  
     > When you set an access category to *Restricted* and it is not included implicitly according to the rule above, you either need to maintain a particular field value or you need to grant unrestricted access for this restriction field.
 

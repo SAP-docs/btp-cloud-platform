@@ -18,6 +18,7 @@ As a preparation to monitor messages for background workflow processes, you crea
 
     2.  To grant access to the *Message Dashboard* app, add the business catalog *Business Network Integration* \(SAP\_CA\_BC\_COM\_ERR\_PC\) to a business role.
 
+
 3.  With the *Maintain Business User* app, provide business users with access rights.
 
 

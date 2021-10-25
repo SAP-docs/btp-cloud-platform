@@ -60,6 +60,7 @@ The syntax required to set the properties and values defined in the `xs-security
  "[oauth2-configuration](Application_Security_Descriptor_Configuration_Syntax_517895a.md#loio517895a9612241259d6941dbf9ad81cb__section_zfs_lj3_rz)": {
                     "token-validity": 900, 
                     "redirect-uris": ["https://myapp.cfapps.eu10.hana.ondemand.com","http://myapp.mydomain.com/my/logout"] 
+                    "credential-types": ["binding-secret","x509"]
  },
  "[xsenableasyncservice](Application_Security_Descriptor_Configuration_Syntax_517895a.md#loio517895a9612241259d6941dbf9ad81cb__section_qjs_vys_rnb)":"true"
 }
@@ -67,7 +68,7 @@ The syntax required to set the properties and values defined in the `xs-security
 ```
 
 > ### Tip:  
-> Try out the tutorials for the Authorization and Trust Management Service to get familiar with using the application security descriptor in the Cloud Foundry environment of SAP BTP.
+> Try out the tutorials for the SAP Authorization and Trust Management service to get familiar with using the application security descriptor in the Cloud Foundry environment of SAP BTP.
 > 
 > See [Tutorials for the SAP Authorization and Trust Management Service](Tutorials_for_the_SAP_Authorization_and_Trust_Management_Service_902ae80.md).
 
@@ -127,14 +128,14 @@ The following tenant modes are available:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Value
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -143,14 +144,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `dedicated` \(default\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An OAuth client gets a separate client secret for each subaccount.
 
@@ -159,14 +160,14 @@ An OAuth client gets a separate client secret for each subaccount.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `shared` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An OAuth client always gets the same client secret. It’s valid in all subaccounts. The application service plan uses this tenant mode.
 
@@ -175,14 +176,14 @@ An OAuth client always gets the same client secret. It’s valid in all subaccou
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `external` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A tenant has multiple subscriptions to applications. For each subscription to an application, the tenant gets an OAuth client with a client secret.
 
@@ -325,21 +326,21 @@ The `attributes` definition can take the following parameters:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Key
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Example
 
@@ -348,21 +349,21 @@ Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `name` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the attribute with a value to apply when building the role template
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Country` 
 
@@ -371,21 +372,21 @@ The name of the attribute with a value to apply when building the role template
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `description` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A short summary of the attribute defined
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Country` 
 
@@ -394,21 +395,21 @@ A short summary of the attribute defined
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `valueType` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The type of value expected for the defined attribute; possible values are: `string` \(or `s`\), `int` \(integer\), or `date` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `int` 
 
@@ -417,14 +418,14 @@ The type of value expected for the defined attribute; possible values are: `stri
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `valueRequired`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 By default, every attribute needs dedicated attribute values. The default value is `true`.
 
@@ -433,7 +434,7 @@ For more information, see [Relationship Between `default-values` of `attribute-r
 
 
 </td>
-<td>
+<td valign="top">
 
  `true` 
 
@@ -496,21 +497,21 @@ A role template must be instantiated. This is especially true with regard to any
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Key
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Example
 
@@ -519,21 +520,21 @@ Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `name` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the role to build from the role template
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Viewer` 
 
@@ -542,21 +543,21 @@ The name of the role to build from the role template
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `description` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A short summary of the role to build
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `View all books` 
 
@@ -565,14 +566,14 @@ A short summary of the role to build
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `default-role-name` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the role in Unicode
 
@@ -581,7 +582,7 @@ The name can be up to 255 characters long. The naming conventions of `role-templ
 
 
 </td>
-<td>
+<td valign="top">
 
  `Viewer: Authorized to Read All Books` 
 
@@ -590,21 +591,21 @@ The name can be up to 255 characters long. The naming conventions of `role-templ
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `scope-references` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The security **scope** to apply to the application-related role
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `$XSAPPNAME.Display` 
 
@@ -613,14 +614,14 @@ The security **scope** to apply to the application-related role
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `attribute-references` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 One or more attributes to apply to the built role. You can use a JSON array of objects or of string.
 
@@ -636,7 +637,7 @@ For more information, see [Relationship between default-values of attribute-refe
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > ```
@@ -697,21 +698,21 @@ The `role-collections` property only makes sense if application developers refer
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Key
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Example
 
@@ -720,21 +721,21 @@ Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `name` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the role collection to build
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Employee` 
 
@@ -743,21 +744,21 @@ The name of the role collection to build
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `description` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A short summary of the role collection to build
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Employee roles` 
 
@@ -766,21 +767,21 @@ A short summary of the role collection to build
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `role-template-references` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The role templates referenced by the `role collections` property
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `$XSAPPNAME.Employee`
 
@@ -873,10 +874,11 @@ The `xsuaa` service broker registers and uses these values for the configuration
 > ```lang-json
 > "oauth2-configuration": {
 >      "token-validity": 43200, 
->      "redirect-uris": [	
->                       "https://myapp.cfapps.eu10.hana.ondemand.com",
->                       "http://myapp.mydomain.com/my/content"],
+>      "redirect-uris": [
+> 	     "https://myapp.cfapps.eu10.hana.ondemand.com",
+>           "http://myapp.mydomain.com/my/content"],
 >      "refresh-token-validity": 1800,
+>      "credential-types": ["binding-secret","x509"],
 >      "system-attributes ": ["groups","rolecollections"],
 >      "allowedproviders ": ["orgin_key1","origin_key2"]
 >      }
@@ -889,21 +891,21 @@ The following configuration keys are available:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Key
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Example
 
@@ -912,14 +914,14 @@ Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `token-validity` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Sets the token lifetime in seconds for access and ID tokens issued by SAP Authorization and Trust Management service. The value ranges from 300 seconds to 99,999,999 seconds, in other words, from 5 minutes to more than 3 years.
 
@@ -928,7 +930,7 @@ Default: 43200 seconds \(12 hours\)
 
 
 </td>
-<td>
+<td valign="top">
 
  `900` \(15 minutes\)
 
@@ -937,14 +939,14 @@ Default: 43200 seconds \(12 hours\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `refresh-token-validity` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Sets the token lifetime in seconds for refresh tokens issued by SAP Authorization and Trust Management service. The value ranges from 600 seconds to 99,999,999 seconds, in other words, from 10 minutes to more than 3 years.
 
@@ -953,7 +955,7 @@ Default: 24192000 seconds \(28 days\)
 
 
 </td>
-<td>
+<td valign="top">
 
  `604800` \(7 days\)
 
@@ -962,14 +964,14 @@ Default: 24192000 seconds \(28 days\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `redirect-uris` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 This key contains a list of the redirect URIs that SAP BTP checks for when redirecting. If your landscape domain or custom domain aren't on this list, including wildcards, the Authorization and Trust Management Service won't redirect users there.
 
@@ -983,7 +985,7 @@ For more information, see [Domain Checks at Browser Login and Logout](Domain_Che
 
 
 </td>
-<td>
+<td valign="top">
 
  `["http://*<application\_ hostname1\>*.*<landscape\_domain\>**<path\>*","http://*<application\_ hostname2\>*.*<custom\_domain\>**<path\>*"]` 
 
@@ -992,14 +994,46 @@ For more information, see [Domain Checks at Browser Login and Logout](Domain_Che
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
+
+ `credential-type` 
+
+
+
+</td>
+<td valign="top">
+
+Specifies the types of secrets available for binding applications to the service instance. The first type listed is the default type of secret. Otherwise, specify the type of secret when you create the binding or service key.
+
+For more information, see [Service Instance Secrets](../50-administration-and-ops/Service_Instance_Secrets_5578ec4.md).
+
+The default value is `instance-secret`. With `instance-secret` all bindings of a service instance of the SAP Authorization and Trust Management service share a single instance secret.
+
+> ### Recommendation:  
+> Use `binding-secret` or `x509` so you can rotate the secret of a single binding without affecting other bindings of the service instance.
+> 
+> For more information, see [Rotating Secrets](../60-security/Security_Considerations_for_the_SAP_Authorization_and_Trust_Management_Service_f117cab.md#loio74c07afd318d46218db291ffb8c25b23).
+
+
+
+</td>
+<td valign="top">
+
+ `["binding-secret"]` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
 
  `system-attributes` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Includes the system attributes in the JWT. If you don't define a value, the system includes the attributes for SAML groups and role collections by default. If the size of the JWT becomes an issue for you, you can explicitly remove them. For example: `"system-attributes": [],`
 
@@ -1012,7 +1046,7 @@ Values:
 
 
 </td>
-<td>
+<td valign="top">
 
  `["groups","rolecollections"]` 
 
@@ -1021,14 +1055,14 @@ Values:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `allowedproviders` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Includes an array of allowed identity providers. The default is that all identity providers are allowed.
 
@@ -1040,7 +1074,7 @@ As an option, developers can configure on application level which identity provi
 
 
 </td>
-<td>
+<td valign="top">
 
  `["origin_key1","origin_key2"]` 
 
@@ -1049,14 +1083,14 @@ As an option, developers can configure on application level which identity provi
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `credential-types` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 When an application consumes a service instance of the SAP Authorization and Trust Management Service \(XSUAA\), the application identifies itself to the service instance with a client ID and client secret. The client ID and client secret are the credentials with which an application authenticates itself to the service instance.
 
@@ -1074,7 +1108,7 @@ For more information, see [Managing Secrets of the SAP Authorization and Trust M
 
 
 </td>
-<td>
+<td valign="top">
 
  `["binding-secret"]` 
 
@@ -1110,14 +1144,14 @@ Syntax
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Value
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -1126,14 +1160,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `false` \(default\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Cloud Foundry command line interface commands are executed synchronously.
 
@@ -1142,14 +1176,14 @@ Cloud Foundry command line interface commands are executed synchronously.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `true` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Cloud Foundry command line interface commands are executed asynchronously.
 
@@ -1177,14 +1211,14 @@ If you want to grant scopes to an application for example, you must reference th
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Syntax
 
@@ -1193,14 +1227,14 @@ Syntax
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Application in the current `xs-security.json` file
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `$XSAPPNAME` 
 
@@ -1209,14 +1243,14 @@ Application in the current `xs-security.json` file
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Application in the same subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `$XSAPPNAME(*<service\_plan\>*,*<xsappname\>*)`
 
@@ -1231,14 +1265,14 @@ Application in the same subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Reference to any service instance in the same subaccount and space
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `$XSSERVICENAME(*<service\_instance\_name\>*)`
 
@@ -1257,21 +1291,21 @@ You can use these references with the following properties:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Example
 
@@ -1280,21 +1314,21 @@ Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `granted-apps` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Granting scopes to other applications.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > ```
@@ -1310,21 +1344,21 @@ Granting scopes to other applications.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `grant-as-authority-to-apps` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Use this property if you want to grant a scope to other applications for a client credential scenario.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > ```
@@ -1340,21 +1374,21 @@ Use this property if you want to grant a scope to other applications for a clien
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `authorities` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Granting authorities \(for a client credentials scenario\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > ```
@@ -1366,21 +1400,21 @@ Granting authorities \(for a client credentials scenario\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `scope-references` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Referencing scopes in role templates
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > ```
@@ -1392,21 +1426,21 @@ Referencing scopes in role templates
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `foreign-scope-references` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Using this property, you can reference scopes in foreign applications \(for a user scenario\).
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Sample Code:  
 > ```
@@ -1438,21 +1472,21 @@ This means that an attribute can be referenced in multiple role templates. You c
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Use Case
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Role Template
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Attribute
 
@@ -1461,14 +1495,14 @@ Attribute
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 A default role with default values is generated automatically. Administrators must set attribute values for their roles.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "default-values": ["*<attribute\_value\>*"]
@@ -1477,7 +1511,7 @@ A default role with default values is generated automatically. Administrators mu
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "valueRequired" : true
@@ -1490,14 +1524,14 @@ or no `valueRequired` key at all
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 A default role with default values is generated automatically. Administrators don't have to set attribute values for their role. A role that isn't restricted by attributes \(unrestricted\) is created.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "default-values": ["*<attribute\_value\>*"]
@@ -1506,7 +1540,7 @@ A default role with default values is generated automatically. Administrators do
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "valueRequired" : false
@@ -1517,21 +1551,21 @@ A default role with default values is generated automatically. Administrators do
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 A default role can't be created automatically. Administrators must set attribute values for their roles.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No `default-values` element
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "valueRequired" : true
@@ -1544,21 +1578,21 @@ or no `valueRequired` key at all
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 A default role is generated automatically. Administrators don't have to set attribute values for their roles. A role that isn't restricted by attributes \(unrestricted\) is created.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No `default-values` element
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "valueRequired" : false
@@ -1577,7 +1611,7 @@ No `default-values` element
 
 [Tutorials for the SAP Authorization and Trust Management Service](Tutorials_for_the_SAP_Authorization_and_Trust_Management_Service_902ae80.md "Follow the tutorials below to get familiar with the SAP Authorization and Trust Management service in the Cloud Foundry environment of SAP BTP.")
 
-[Security Considerations for the SAP Authorization and Trust Management Service](../60-security/Security_Considerations_for_the_SAP_Authorization_and_Trust_Management_Service_f117cab.md#loiof117cab6b92d438cb2a0b5204713994b "Decisions you make when using or administrating the SAP Authorization and Trust Management service (XSUAA) can have an impact on the security of your applications. The information provided is meant to help you in decide.")
+[Security Considerations for the SAP Authorization and Trust Management Service](../60-security/Security_Considerations_for_the_SAP_Authorization_and_Trust_Management_Service_f117cab.md#loiof117cab6b92d438cb2a0b5204713994b "Decisions you make when using or administrating the SAP Authorization and Trust Management service (XSUAA) can have an impact on the security of your applications. The information provided is meant to help you decide.")
 
 [Configuration Options for the SAP Authorization and Trust Management Service](../60-security/Configuration_Options_for_the_SAP_Authorization_and_Trust_Management_Service_3654087.md#loio3654087e15864b49a1bca3967a54a095 "The following configuration options enable you to manipulate the operation of the SAP Authorization and Trust Management service (XSUAA). Set these options in the application security descriptor (xs-security.json) at design time for your application.")
 

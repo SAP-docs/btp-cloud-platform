@@ -6,8 +6,3 @@ The parameters defined in the MTA can be adapted for the corresponding landscape
 
 For more information on MTA extension descriptors, see:[Defining MTA Extension Descriptors](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/50df803465324d36851c79fd07e8972c.html). The extension descriptor files are usually in the folder “extensions” next to the mta.yaml.
 
--   **[Development Descriptor](Development_Descriptor_767fb00.md)**  
-
--   **[Production Descriptor](Production_Descriptor_38ff6d0.md)**  
-
-

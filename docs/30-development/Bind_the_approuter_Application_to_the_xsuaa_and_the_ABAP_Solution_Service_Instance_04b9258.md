@@ -21,14 +21,14 @@ cf bind-service <APPROUTER_APP_NAME> <XSUAA_INSTANCE_NAME>
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -37,14 +37,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 APP\_NAME
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the deployed multitenant application.
 
@@ -53,14 +53,14 @@ The name of the deployed multitenant application.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 XSUAA\_INSTANCE\_NAME
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the xsuaa service instance you created in [Create an XSUAA Instance](Create_an_XSUAA_Instance_2ce1a96.md)
 
@@ -69,14 +69,14 @@ The name of the xsuaa service instance you created in [Create an XSUAA Instance]
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 APPROUTER\_APP\_NAME
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the xsuaa application you deployed in [Configure the Approuter Application](Configure_the_Approuter_Application_3725815.md)
 

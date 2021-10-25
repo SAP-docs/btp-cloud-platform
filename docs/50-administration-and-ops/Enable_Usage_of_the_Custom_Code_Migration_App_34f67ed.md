@@ -77,6 +77,7 @@ To set up the connection from the ABAP system in the ABAP environment to your on
 
     6.  Confirm with *Save*.
 
+
 6.  Select the communication system created in step 5 for your communication arrangement and confirm with *Save*.
 
 
@@ -93,7 +94,7 @@ To analyze your custom code in your on-premise system using the `Custom Code Mig
 **Related Information**  
 
 
-[2436688](https://launchpad.support.sap.com/#/notes/)
+[SAP Note 2436688](https://launchpad.support.sap.com/#/notes/2436688)
 
 [Custom Code Migration Guide for SAP S/4HANA](https://help.sap.com/doc/9dcbc5e47ba54a5cbb509afaa49dd5a1/latest/en-US/CustomCodeMigration_EndtoEnd.pdf)
 

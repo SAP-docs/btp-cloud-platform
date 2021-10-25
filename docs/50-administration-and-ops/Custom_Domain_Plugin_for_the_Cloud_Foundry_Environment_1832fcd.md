@@ -6,12 +6,6 @@ The Custom Domain CLI plugin provides functions for creating private keys and ce
 
 To use the functionality of the Custom Domain plugin, use the extended Cloud Foundry commands in the command-line interface.
 
--   **[Install the Custom Domain Plugin](Install_the_Custom_Domain_Plugin_9f98dd0.md "Use the Custom Domain CLI plugin to configure and manage your custom
-		domains.")**  
-Use the Custom Domain CLI plugin to configure and manage your custom domains.
--   **[Extended Cloud Foundry Commands of Custom Domains](Extended_Cloud_Foundry_Commands_of_Custom_Domains_4333dc9.md "The Custom Domain plugin includes commands that you can use to configure and manage your custom domains.")**  
-The Custom Domain plugin includes commands that you can use to configure and manage your custom domains.
-
 **Related Information**  
 
 

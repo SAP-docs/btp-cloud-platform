@@ -31,6 +31,7 @@
         > ### Note:  
         > This parameter is used to call the destination service with `OAuth 2.0 SAML Bearer Assertion Flow`. By default, it is set to `user_propagation`.
 
+
 3.  Create an HTTP client object with class `cl_web_http_client_manager` and method `create_by_http_destination` providing the destination object you have created as a parameter.
 
 4.  Execute the request using method `execute` on the HTTP client object.

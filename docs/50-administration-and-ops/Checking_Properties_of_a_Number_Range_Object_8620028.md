@@ -30,6 +30,7 @@ To check the properties of a number range object, proceed as follows:
     -   Warning at Remaining: This parameter displays the percentage of numbers remaining in a number range. When reaching the percentage in number assignment, a warning is given. Assuming an interval from 1 to 1000 and a percentage of 10 \(%\) is used, a notification will be triggered if number 900 has been reached.
 
 
+
 You can maintain number range objects using the ABAP Development Tool \(ADT\) or APIs. For more information, see
 
 -   ADT:

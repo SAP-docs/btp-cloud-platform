@@ -41,7 +41,7 @@ Configuring platform users for multi-environment subaccounts has no impact on yo
 **Related Information**  
 
 
-[Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](../50-administration-and-ops/Establish_Trust_and_Federation_of_Custom_Identity_Providers_for_Platform_Users_in_Multi-Environment_Subaccounts_Feature_Set_A_8600afb.md "By default, platform users in multi-environment subaccounts are users in SAP ID service. The use of your own identity provider requires integration between the user bases of multi-environment and Neo subaccounts.")
+[Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](../50-administration-and-ops/Establish_Trust_and_Federation_of_Custom_Identity_Providers_8600afb.md "By default, platform users in multi-environment subaccounts are users in SAP ID service. The use of your own identity provider requires integration between the user bases of multi-environment and Neo subaccounts.")
 
-[Log On with a Custom Identity Provider to the Cloud Foundry Environment Using the Cloud Foundry Command-Line Interface](../50-administration-and-ops/Log_On_with_a_Custom_Identity_Provider_to_the_Cloud_Foundry_Environment_Using_the_Cloud_Foundry_Command-Line_Interface_d477618.md "Learn how to use different methods to log on to Cloud Foundry using a custom identity provider (IdP).")
+[Log On with a Custom Identity Provider to the Cloud Foundry Environment Using the Cloud Foundry Command-Line Interface](../50-administration-and-ops/Log_On_with_a_Custom_Identity_Provider_d477618.md "Learn how to use different methods to log on to Cloud Foundry using a custom identity provider (IdP).")
 

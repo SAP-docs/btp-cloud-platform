@@ -42,27 +42,3 @@ You can use this app to:
 -   Tablet
 
 
--   **[How to Create a Business Role from Scratch](How_to_Create_a_Business_Role_from_Scratch_f65e51a.md "Get an overview of how to create a business role from scratch based on selected
-		business catalogs.")**  
-Get an overview of how to create a business role from scratch based on selected business catalogs.
--   **[How to Create a Business Role from a Template](How_to_Create_a_Business_Role_from_a_Template_ec310a8.md "Get an overview of how to create a business role from a template.")**  
-Get an overview of how to create a business role from a template.
--   **[How to Create a Business Role for the Administrator](How_to_Create_a_Business_Role_for_the_Administrator_8fa28e0.md "Get an overview of how to create a business role for the administrator if you haven't
-		used the system before.")**  
-Get an overview of how to create a business role for the administrator if you haven't used the system before.
--   **[How to Edit Active Business Roles](How_to_Edit_Active_Business_Roles_2e9d7ef.md "")**  
-
--   **[How to Maintain Restrictions](How_to_Maintain_Restrictions_c926d69.md "")**  
-
--   **[How to Download and Upload Business Roles](How_to_Download_and_Upload_Business_Roles_a58f695.md "Download business roles from the test system and then upload them to the productive
-		system to make them available there.")**  
-Download business roles from the test system and then upload them to the productive system to make them available there.
--   **[How to Import and Export Business Roles](How_to_Import_and_Export_Business_Roles_83c1cd6.md "")**  
-
--   **[How to Create Leading and Derived Business Roles](How_to_Create_Leading_and_Derived_Business_Roles_9b09af6.md "")**  
-
--   **[How to Compare Business Roles](How_to_Compare_Business_Roles_9d5893e.md "")**  
-
--   **[How to Create Spaces and Pages for a Business Role](How_to_Create_Spaces_and_Pages_for_a_Business_Role_18cdb97.md "")**  
-
-

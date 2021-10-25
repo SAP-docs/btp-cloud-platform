@@ -39,9 +39,3 @@ To measure resource consumption, the SAP JVM Profiler enables you to run differe
     > To use the thread annotation filters, complete the fields under the *Analysis Options* section. By default, all filters are set to \*, which means that all annotations pass the filter.
 
 
--   **[Install the SAP JVM Tools in Eclipse](Install_the_SAP_JVM_Tools_in_Eclipse_6321379.md "The SAP JVM Profiler is included in the SAP JVM Tools.")**  
-The SAP JVM Profiler is included in the SAP JVM Tools.
--   **[\(Optional\) Add your SAP JVM to the VM Explorer]((Optional)_Add_your_SAP_JVM_to_the_VM_Explorer_c9640b6.md "You can add your SAP JVM to the VM Explorer view of the SAP JVM
-		Profiler.")**  
-You can add your SAP JVM to the *VM Explorer* view of the SAP JVM Profiler.
-

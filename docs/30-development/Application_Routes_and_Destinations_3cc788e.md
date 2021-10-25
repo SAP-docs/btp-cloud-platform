@@ -74,14 +74,14 @@ The following guidelines apply to the configuration of the mandatory properties 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -90,14 +90,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Type
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Only HTTP is supported.
 
@@ -106,14 +106,14 @@ Only HTTP is supported.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Authentication
 
 
 
 </td>
-<td>
+<td valign="top">
 
 All authentication types are supported.
 
@@ -129,14 +129,14 @@ All authentication types are supported.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ProxyType
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Supported types:
 
@@ -160,14 +160,14 @@ The following guidelines apply to the configuration of the additional properties
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -176,14 +176,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 HTML5.ForwardAuthToken
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If `true`, the OAuth token is sent to the destination. The default value is `false`. This token contains the user identity, scopes, and other attributes. It’s signed by the UAA so it can be used for user authentication and authorization with back-end services.
 
@@ -197,14 +197,14 @@ If `true`, the OAuth token is sent to the destination. The default value is `fal
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 HTML5.Timeout
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Positive integer representing the maximum time to wait for a response \(in milliseconds\) from the destination. The default value is 30000 ms.
 
@@ -216,14 +216,14 @@ Positive integer representing the maximum time to wait for a response \(in milli
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 HTML5.PreserveHostHeader
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If `true`, the application router preserves the host header in the back-end request.
 
@@ -234,14 +234,14 @@ This is expected by some back-end systems like AS ABAP, which don’t process `x
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 HTML5.DynamicDestination
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If `true`, the application router allows this destination to be used dynamically on the host or path level.
 
@@ -250,14 +250,14 @@ If `true`, the application router allows this destination to be used dynamically
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 HTML5.SetXForwardedHeaders
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If true , the application router adds X-Forwarded-\(Host, Path, Proto\) headers to the back-end request. The default value is `true`.
 
@@ -266,14 +266,14 @@ If true , the application router adds X-Forwarded-\(Host, Path, Proto\) headers 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 sap-client
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If `true`, the application router propagates the `sap-client` and its value as a header in the back-end request.
 

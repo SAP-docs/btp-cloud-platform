@@ -15,11 +15,11 @@ The following application containers are available for usage with the SAP Java B
 -   [Java Main](Application_Containers_83d2416.md#loio8a1786acd70445768b35e50f3038a2a9)
 
 
- <a name="loio83d241613dcd41c99ccc308ed0d26399 loioddfc10180fe844049cc71f6989942dc2__loioddfc10180fe844049cc71f6989942dc2"/>
+ <a name="loioddfc10180fe844049cc71f6989942dc2"/>
 
 <!-- loioddfc10180fe844049cc71f6989942dc2 -->
 
-# Tomcat
+## Tomcat
 
 By default web applications pushed with the SAP Java buildpack are running in an Apache Tomcat container.
 
@@ -39,7 +39,7 @@ Applications could explicitly define the targeted application container by using
 
 
 
-<a name="loio83d241613dcd41c99ccc308ed0d26399 loioddfc10180fe844049cc71f6989942dc2__section_lnr_2bv_42b"/>
+<a name="loioddfc10180fe844049cc71f6989942dc2__section_lnr_2bv_42b"/>
 
 ## Provided APIs
 
@@ -48,21 +48,21 @@ The tomcat application runtime container provides the following standard APIs:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Runtime
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Tomcat
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Supported Specification Version
 
@@ -71,21 +71,21 @@ Supported Specification Version
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 tomcat
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Apache Tomcat 8
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Java Servlets 3.1
 
@@ -105,7 +105,7 @@ Java API for WebSocket 1.1
 
 
 
-<a name="loio83d241613dcd41c99ccc308ed0d26399 loioddfc10180fe844049cc71f6989942dc2__section_cq3_nbv_42b"/>
+<a name="loioddfc10180fe844049cc71f6989942dc2__section_cq3_nbv_42b"/>
 
 ## Customizing the SAP Java Buildpack Defaults
 
@@ -116,21 +116,21 @@ Below is a list with all of the placeholders which could be customized by the ap
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Placeholder
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Default Value
 
@@ -139,21 +139,21 @@ Default Value
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 connector.maxHttpHeaderSize
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The maximum size of the request and response HTTP header, specified in bytes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 8192
 
@@ -162,21 +162,21 @@ The maximum size of the request and response HTTP header, specified in bytes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 connector.maxThreads
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The maximum number of request processing threads to be created by this Connector, which therefore determines the maximum number of simultaneous requests that can be handled
 
 
 
 </td>
-<td>
+<td valign="top">
 
 200
 
@@ -185,21 +185,21 @@ The maximum number of request processing threads to be created by this Connector
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 connector.allowTrace
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A boolean value which can be used to enable or disable the TRACE HTTP method
 
 
 
 </td>
-<td>
+<td valign="top">
 
 false
 
@@ -232,7 +232,7 @@ env:
 
 
 
-<a name="loio83d241613dcd41c99ccc308ed0d26399 loioddfc10180fe844049cc71f6989942dc2__section_w3t_zc4_2fb"/>
+<a name="loioddfc10180fe844049cc71f6989942dc2__section_w3t_zc4_2fb"/>
 
 ## Configure the maximum number of active sessions
 
@@ -246,7 +246,7 @@ The SAP Java Buildpack provides the default configurations for unlimited session
 
 
 
-<a name="loio83d241613dcd41c99ccc308ed0d26399 loioddfc10180fe844049cc71f6989942dc2__section_i33_1d4_2fb"/>
+<a name="loioddfc10180fe844049cc71f6989942dc2__section_i33_1d4_2fb"/>
 
 ## Configure the session timeout value
 
@@ -260,7 +260,7 @@ To set session timeout value of active sessions set the *session-config* tag in 
 
 
 
-<a name="loio83d241613dcd41c99ccc308ed0d26399 loioddfc10180fe844049cc71f6989942dc2__section_lbp_bw5_sfb"/>
+<a name="loioddfc10180fe844049cc71f6989942dc2__section_lbp_bw5_sfb"/>
 
 ## Configure the context path attribute
 
@@ -273,11 +273,11 @@ The default value of context path in `server.xml` is ***""*** \(Empty String\). 
 ...
 ```
 
- <a name="loio83d241613dcd41c99ccc308ed0d26399 loioa9590c2f5ebc4d1586d9f0f53a60cfdc__loioa9590c2f5ebc4d1586d9f0f53a60cfdc"/>
+ <a name="loioa9590c2f5ebc4d1586d9f0f53a60cfdc"/>
 
 <!-- loioa9590c2f5ebc4d1586d9f0f53a60cfdc -->
 
-# TomEE
+## TomEE
 
 By default web applications pushed with the SAP Java buildpack are running in an Apache Tomcat container.
 
@@ -297,7 +297,7 @@ Applications could explicitly define the targeted application container - Apache
 
 
 
-<a name="loio83d241613dcd41c99ccc308ed0d26399 loioa9590c2f5ebc4d1586d9f0f53a60cfdc__section_lnr_2bv_42b"/>
+<a name="loioa9590c2f5ebc4d1586d9f0f53a60cfdc__section_lnr_2bv_42b"/>
 
 ## Provided APIs
 
@@ -306,21 +306,21 @@ The *tomee* application runtime container provides the following standard APIs:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Runtime
 
 
 
 </th>
-<th>
+<th valign="top">
 
 TomEE
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Supported Specification Version
 
@@ -329,21 +329,21 @@ Supported Specification Version
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 tomee
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Apache TomEE JAX-RS \(Java EE 6\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Java Servlets 3.0
 
@@ -385,7 +385,7 @@ Java API for RESTful Web Services \(JAX-RS\) 1.1
 
 
 
-<a name="loio83d241613dcd41c99ccc308ed0d26399 loioa9590c2f5ebc4d1586d9f0f53a60cfdc__section_cq3_nbv_42b"/>
+<a name="loioa9590c2f5ebc4d1586d9f0f53a60cfdc__section_cq3_nbv_42b"/>
 
 ## Customizing the SAP Java Buildpack Defaults
 
@@ -396,21 +396,21 @@ Below is a list with all of the placeholders which could be customized by the ap
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Placeholder
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Default Value
 
@@ -419,21 +419,21 @@ Default Value
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 connector.maxHttpHeaderSize
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The maximum size of the request and response HTTP header, specified in bytes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 8192
 
@@ -442,21 +442,21 @@ The maximum size of the request and response HTTP header, specified in bytes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 connector.maxThreads
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The maximum number of request processing threads to be created by this Connector, which therefore determines the maximum number of simultaneous requests that can be handled
 
 
 
 </td>
-<td>
+<td valign="top">
 
 200
 
@@ -465,21 +465,21 @@ The maximum number of request processing threads to be created by this Connector
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 connector.allowTrace
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A boolean value which can be used to enable or disable the TRACE HTTP method
 
 
 
 </td>
-<td>
+<td valign="top">
 
 false
 
@@ -512,7 +512,7 @@ env:
 
 
 
-<a name="loio83d241613dcd41c99ccc308ed0d26399 loioa9590c2f5ebc4d1586d9f0f53a60cfdc__section_w3t_zc4_2fb"/>
+<a name="loioa9590c2f5ebc4d1586d9f0f53a60cfdc__section_w3t_zc4_2fb"/>
 
 ## Configure the maximum number of active sessions
 
@@ -526,7 +526,7 @@ The SAP Java Buildpack provides the default configurations for unlimited session
 
 
 
-<a name="loio83d241613dcd41c99ccc308ed0d26399 loioa9590c2f5ebc4d1586d9f0f53a60cfdc__section_i33_1d4_2fb"/>
+<a name="loioa9590c2f5ebc4d1586d9f0f53a60cfdc__section_i33_1d4_2fb"/>
 
 ## Configure the session timeout value
 
@@ -540,7 +540,7 @@ To set session timeout value of active sessions set the *session-config* tag in 
 
 
 
-<a name="loio83d241613dcd41c99ccc308ed0d26399 loioa9590c2f5ebc4d1586d9f0f53a60cfdc__section_lbp_bw5_sfb"/>
+<a name="loioa9590c2f5ebc4d1586d9f0f53a60cfdc__section_lbp_bw5_sfb"/>
 
 ## Configure the context path attribute
 
@@ -553,11 +553,11 @@ The default value of context path in `server.xml` is ***""*** \(Empty String\). 
 ...
 ```
 
- <a name="loio83d241613dcd41c99ccc308ed0d26399 loio79c039ab43b946a7b50c5d0326a3b40b__loio79c039ab43b946a7b50c5d0326a3b40b"/>
+ <a name="loio79c039ab43b946a7b50c5d0326a3b40b"/>
 
 <!-- loio79c039ab43b946a7b50c5d0326a3b40b -->
 
-# TomEE 7
+## TomEE 7
 
 By default web applications pushed with the SAP Java buildpack are running in an Apache Tomcat container.
 
@@ -577,7 +577,7 @@ Applications could explicitly define the targeted application container - Apache
 
 
 
-<a name="loio83d241613dcd41c99ccc308ed0d26399 loio79c039ab43b946a7b50c5d0326a3b40b__section_lnr_2bv_42b"/>
+<a name="loio79c039ab43b946a7b50c5d0326a3b40b__section_lnr_2bv_42b"/>
 
 ## Provided APIs
 
@@ -586,21 +586,21 @@ The tomee7 application runtime container provides the following standard APIs:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Runtime
 
 
 
 </th>
-<th>
+<th valign="top">
 
 TomEE 7
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Supported Specification Version
 
@@ -609,21 +609,21 @@ Supported Specification Version
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 tomee7
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Apache TomEE 7 \(Java EE 7 Web Profile\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Java Servlet 3.1
 
@@ -667,7 +667,7 @@ Contexts and Dependency Injection for Java EE platform 1.1
 
 
 
-<a name="loio83d241613dcd41c99ccc308ed0d26399 loio79c039ab43b946a7b50c5d0326a3b40b__section_cq3_nbv_42b"/>
+<a name="loio79c039ab43b946a7b50c5d0326a3b40b__section_cq3_nbv_42b"/>
 
 ## Customizing the SAP Java Buildpack Defaults
 
@@ -678,21 +678,21 @@ Below is a list with all of the placeholders which could be customized by the ap
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Placeholder
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Default Value
 
@@ -701,21 +701,21 @@ Default Value
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 connector.maxHttpHeaderSize
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The maximum size of the request and response HTTP header, specified in bytes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 8192
 
@@ -724,21 +724,21 @@ The maximum size of the request and response HTTP header, specified in bytes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 connector.maxThreads
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The maximum number of request processing threads to be created by this Connector, which therefore determines the maximum number of simultaneous requests that can be handled
 
 
 
 </td>
-<td>
+<td valign="top">
 
 200
 
@@ -747,21 +747,21 @@ The maximum number of request processing threads to be created by this Connector
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 connector.allowTrace
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A boolean value which can be used to enable or disable the TRACE HTTP method
 
 
 
 </td>
-<td>
+<td valign="top">
 
 false
 
@@ -794,7 +794,7 @@ env:
 
 
 
-<a name="loio83d241613dcd41c99ccc308ed0d26399 loio79c039ab43b946a7b50c5d0326a3b40b__section_w3t_zc4_2fb"/>
+<a name="loio79c039ab43b946a7b50c5d0326a3b40b__section_w3t_zc4_2fb"/>
 
 ## Configure the maximum number of active sessions
 
@@ -808,7 +808,7 @@ The SAP Java Buildpack provides the default configurations for unlimited session
 
 
 
-<a name="loio83d241613dcd41c99ccc308ed0d26399 loio79c039ab43b946a7b50c5d0326a3b40b__section_i33_1d4_2fb"/>
+<a name="loio79c039ab43b946a7b50c5d0326a3b40b__section_i33_1d4_2fb"/>
 
 ## Configure the session timeout value
 
@@ -822,7 +822,7 @@ To set session timeout value of active sessions set the *session-config* tag in 
 
 
 
-<a name="loio83d241613dcd41c99ccc308ed0d26399 loio79c039ab43b946a7b50c5d0326a3b40b__section_lbp_bw5_sfb"/>
+<a name="loio79c039ab43b946a7b50c5d0326a3b40b__section_lbp_bw5_sfb"/>
 
 ## Configure the context path attribute
 
@@ -835,11 +835,11 @@ The default value of context path in `server.xml` is ***""*** \(Empty String\). 
 ...
 ```
 
- <a name="loio83d241613dcd41c99ccc308ed0d26399 loio8a1786acd70445768b35e50f3038a2a9__loio8a1786acd70445768b35e50f3038a2a9"/>
+ <a name="loio8a1786acd70445768b35e50f3038a2a9"/>
 
 <!-- loio8a1786acd70445768b35e50f3038a2a9 -->
 
-# Java Main
+## Java Main
 
 You can create a Java application that starts its own run time. This allows the usage of frameworks and java runtimes, such as Spring Boot, Jetty, Undertow, or Netty.
 
@@ -885,6 +885,7 @@ In this section such applications will be referred to as Java Main applications.
         > ```
 
     3.  You have packaged all your dependent libraries in the JAR file, also known as creating an uber JAR or a fat JAR.
+
 
     If you are using Maven as your build tool, you can use the `maven-shade-plugin` to perform the above tasks.
 

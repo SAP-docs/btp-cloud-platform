@@ -27,6 +27,7 @@ Before you report an incident, ensure the following:
 
     -   availability by region on the *Data Center* tab page.
 
+
     For more information about selected platform incidents, see [Root Cause Analyses](https://help.sap.com/viewer/product/SCP_RCA/Latest/en-US).
 
 -   **Running on the China \(Shanghai\) region:** check [https://status.cn40.platform.sapcloud.cn/](https://status.cn40.platform.sapcloud.cn/).
@@ -43,36 +44,19 @@ Make sure that you've the latest versions of the tools you're using \(recommende
 > ### Note:  
 > Trial users \(without an S-user\) can ask for support by posting a question in [SAP Community](https://www.sap.com/community/topic/cloud-platform.html). However, they should first check for answers in [SAP Community](https://www.sap.com/community/topic/cloud-platform.html) and [Guided Answers](https://ga.support.sap.com/dtp/viewer/#/tree/2065/actions/26547).
 
--   **[Providing Details for SAP HANA Service Database Problems](Providing_Details_for_SAP_HANA_Service_Database_Problems_75cde53.md "If your problem is related to a SAP HANA service database, the details you need to provide differ depending on the environment or
-		infrastructure provider the database is provisioned in.")**  
-If your problem is related to a SAP HANA service database, the details you need to provide differ depending on the environment or infrastructure provider the database is provisioned in.
--   **[Gather Support Information](Gather_Support_Information_6daa475.md "The Eclipse tools come with a wizard for gathering support information in case you need
-		help with a feature or operation (during deploying/debugging applications, logging,
-		configurations, and so on).")**  
-The Eclipse tools come with a wizard for gathering support information in case you need help with a feature or operation \(during deploying/debugging applications, logging, configurations, and so on\).
--   **[Platform Updates and Notifications](Platform_Updates_and_Notifications_99070c7.md "")**  
-
--   **[Operating Model](Operating_Model_9aafc94.md "An operating model clearly defines the separation of tasks between the operator and the
-		customer during all phases of an integration project.")**  
-An operating model clearly defines the separation of tasks between the operator and the customer during all phases of an integration project.
--   **[Support Components](Support_Components_08d1103.md "A list of support components for SAP BTP services and tools.
-		Filter for the service you want to find the component for or have a look at the tools and
-		software logistics section.")**  
-A list of support components for SAP BTP services and tools. Filter for the service you want to find the component for or have a look at the tools and software logistics section.
-
- <a name="loio5dd739823b824b539eee47b7860a00be concept_tbg_yzt_mqb__concept_tbg_yzt_mqb"/>
+ <a name="concept_tbg_yzt_mqb"/>
 
 <!-- concept\_tbg\_yzt\_mqb -->
 
-# Procedure
+## Procedure
 
 To report an incident \(issue\) in SAP Support Portal, proceed as follows:
 
- <a name="loio5dd739823b824b539eee47b7860a00be task_hpg_4tm_s2b__task_hpg_4tm_s2b"/>
+ <a name="task_hpg_4tm_s2b"/>
 
 <!-- task\_hpg\_4tm\_s2b -->
 
-# 1. Log On to SAP ONE Support Launchpad
+## 1. Log On to SAP ONE Support Launchpad
 
 
 
@@ -82,11 +66,11 @@ To report an incident \(issue\) in SAP Support Portal, proceed as follows:
 
 Open [SAP ONE Support Launchpad](https://launchpad.support.sap.com/).
 
- <a name="loio5dd739823b824b539eee47b7860a00be task_d4t_cvc_t4b__task_d4t_cvc_t4b"/>
+ <a name="task_d4t_cvc_t4b"/>
 
 <!-- task\_d4t\_cvc\_t4b -->
 
-# 2. \(Optional\) Search in the Knowledge Base for Existing Solutions
+## 2. \(Optional\) Search in the Knowledge Base for Existing Solutions
 
 
 
@@ -111,11 +95,11 @@ You can search in Knowledge Base for existing solutions in:
 
 ![](images/Knowledge_Base_Search_f053486.png)
 
- <a name="loio5dd739823b824b539eee47b7860a00be task_jf1_4vc_t4b__task_jf1_4vc_t4b"/>
+ <a name="task_jf1_4vc_t4b"/>
 
 <!-- task\_jf1\_4vc\_t4b -->
 
-# 3. Choose Report an Incident
+## 3. Choose Report an Incident
 
 
 
@@ -126,11 +110,11 @@ You can search in Knowledge Base for existing solutions in:
 > ### Caution:  
 > If your S-user is assigned to several customer numbers, select a customer number from the drop-down list.
 
- <a name="loio5dd739823b824b539eee47b7860a00be task_z4m_25m_s2b__task_z4m_25m_s2b"/>
+ <a name="task_z4m_25m_s2b"/>
 
 <!-- task\_z4m\_25m\_s2b -->
 
-# 4. Provide System Information
+## 4. Provide System Information
 
 
 
@@ -168,11 +152,11 @@ You can see recommended knowledge resources for the selected product area on the
 > 
 > Not choosing the appropriate system and product area may negatively affect the processing of the incident.
 
- <a name="loio5dd739823b824b539eee47b7860a00be task_smh_4vm_s2b__task_smh_4vm_s2b"/>
+ <a name="task_smh_4vm_s2b"/>
 
 <!-- task\_smh\_4vm\_s2b -->
 
-# 5. Provide Description
+## 5. Provide Description
 
 
 
@@ -191,9 +175,12 @@ You can see recommended knowledge resources for the selected product area on the
         -   Java application name and URL \(if the problem is related to Java applications\). In the cockpit, open the respective Java application’s Overview page.
         -   Database-related details based on your environment and infrastructure provider \(if the problem is related to SAP HANA\). See [Providing Details for SAP HANA Service Database Problems](Providing_Details_for_SAP_HANA_Service_Database_Problems_75cde53.md).
 
+
     -   For the Kyma environment, provide:
         -   the subaccount name, or
         -   the URL to the Kyma Console
+
+
     You can see SAP Knowledge Base Articles and SAP Notes recommended by Incident solution matching service as potential solutions. See [Incident Solution Matching](https://support.sap.com/en/my-support/product-support.html/section_903672625.html#section_1903672625)
 
 3.  Select a category. You can either select:
@@ -216,11 +203,12 @@ You can see recommended knowledge resources for the selected product area on the
         ![](images/Component_32c1772.png)
 
 
- <a name="loio5dd739823b824b539eee47b7860a00be task_gg4_qrb_q4b__task_gg4_qrb_q4b"/>
+
+ <a name="task_gg4_qrb_q4b"/>
 
 <!-- task\_gg4\_qrb\_q4b -->
 
-# 6. Provide Attachments
+## 6. Provide Attachments
 
 
 
@@ -230,11 +218,11 @@ You can see recommended knowledge resources for the selected product area on the
 
 Upload attachments complying with the required size and file types.
 
- <a name="loio5dd739823b824b539eee47b7860a00be task_g4p_p4b_q4b__task_g4p_p4b_q4b"/>
+ <a name="task_g4p_p4b_q4b"/>
 
 <!-- task\_g4p\_p4b\_q4b -->
 
-# 7. Set Priority
+## 7. Set Priority
 
 
 
@@ -247,11 +235,11 @@ Upload attachments complying with the required size and file types.
 -   \(Optional\) Define any additional contacts, apart from the reporter \(who is filled in automatically\).
 
 
- <a name="loio5dd739823b824b539eee47b7860a00be id_ofw_ssb_q4b__id_ofw_ssb_q4b"/>
+ <a name="id_ofw_ssb_q4b"/>
 
 <!-- id\_ofw\_ssb\_q4b -->
 
-# 8. Choose Support Channel
+## 8. Choose Support Channel
 
 
 
@@ -287,10 +275,12 @@ To submit an incident, you can use one of the following support channels:
 ## Results
 
 > ### Note:  
-> If you have problems creating and sending an incident, or your incident isn’t processed as fast as you need, contact the 24/7 phone hotlines. See SAP Note [560499](https://launchpad.support.sap.com/#/notes/).
+> If you have problems creating and sending an incident, or your incident isn’t processed as fast as you need, contact the 24/7 phone hotlines. See SAP Note [560499](https://launchpad.support.sap.com/#/notes/560499).
 
 **Related Information**  
 
+
+[Users & Authorizations](https://support.sap.com/en/my-support/users.html)
 
 [Cloud Management Tools — Feature Set Overview](../10-concepts/Cloud_Management_Tools_—_Feature_Set_Overview_caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 

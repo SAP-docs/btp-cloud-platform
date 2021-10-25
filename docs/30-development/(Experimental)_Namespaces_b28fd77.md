@@ -72,6 +72,7 @@ To deploy several entities of a multitarget application using namespaces, procee
         >     apply-namespace: false
         > ```
 
+
 2.  Using the CF CLI, deploy the initial MTA archive by using the following command:
 
     ***$ cf deploy ./MyMTA.mtar***
@@ -105,6 +106,7 @@ To deploy several entities of a multitarget application using namespaces, procee
     1.  when using a route without a namespace ***curl https://route-without-namespace.<domain\>***
     2.  when using a route with a namespace ***curl https://<your namespace\>-route-with-namespace.<domain\>***
 
+
 You might have one of the following results, depending on your usage
 
 -    ![](images/MTA_namespaces_01_image_3b94992.png) 
@@ -112,6 +114,7 @@ You might have one of the following results, depending on your usage
     -   This image shows an MTA deployed in the same space - once without namespace \(default behaviour\), and once with namespace `foo`. The second deployment creates applications `foo-appA` and `foo-appB` from modules `appA` and `appB` and service instance `foo-service` from resource `service`
     -   If `appA` is bound to `appA.my-domain.com`, then `foo-appA` is automatically bound to `foo-appA.my-domain.com` upon deployment
     -   If `appA` requires service instance `service` then `foo-appA` is bound to a different service instance called `foo-service`.
+
 -   ![](images/MTA_namespaces_02_image_932794a.png)
 
     In the above image, the third MTA is deployed in namespace `bar`, but with `appA` and `service` having the `apply-namespace: false` parameter. This causes the MTAs to share them, and the application and service are not recreated. However, their metadata is updated, so they are only detected as part of the latest deployed MTA.

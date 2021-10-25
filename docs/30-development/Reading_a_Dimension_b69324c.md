@@ -15,14 +15,14 @@ Use method `READ` to read a dimension.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -31,14 +31,14 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DIMID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Dimension key
 
@@ -59,21 +59,21 @@ Dimension key
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Field Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -82,21 +82,21 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DIM\_ST
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Structure for reading a dimension
 
@@ -105,21 +105,21 @@ Structure for reading a dimension
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 DIMID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Dimension key
 
@@ -128,21 +128,21 @@ Dimension key
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 TXDIM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Description of the dimension key
 
@@ -151,21 +151,21 @@ Description of the dimension key
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SI\_UNIT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Base unit of a dimension
 
@@ -174,21 +174,21 @@ Base unit of a dimension
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SI\_TXT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Description of the base unit
 
@@ -197,21 +197,21 @@ Description of the base unit
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 LENGTH
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Length exponent of the dimension
 
@@ -220,21 +220,21 @@ Length exponent of the dimension
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 MASS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Mass exponent of the dimension
 
@@ -243,21 +243,21 @@ Mass exponent of the dimension
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 TIME
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Time exponent of the dimension
 
@@ -266,21 +266,21 @@ Time exponent of the dimension
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 CURRENT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Electric current exponent of the dimension
 
@@ -289,21 +289,21 @@ Electric current exponent of the dimension
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 TEMPERATURE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Temperature exponent of the dimension
 
@@ -312,21 +312,21 @@ Temperature exponent of the dimension
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 MOLE\_QTY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Mole quantity exponent of the dimension
 
@@ -335,21 +335,21 @@ Mole quantity exponent of the dimension
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 LUMINOSITY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Light exponent of the dimension
 

@@ -32,7 +32,7 @@ As an administrator, you can create shadow users in your subaccount and you must
 
 1.  Open the SAP BTP cockpit.
 
-2.  Go to your global account and/or subaccount \(see [Navigate to Orgs and Spaces](Navigate_to_Orgs_and_Spaces_5bf8735.md)\).
+2.  Go to your global account and/or subaccount \(see [Navigate in the Cockpit](Navigate_in_the_Cockpit_0874895.md)\).
 
 3.  Choose *Security* \> *Users*.
 

@@ -71,18 +71,6 @@ Depending on whether you are using Cloud Foundry or Kyma environment, you have t
 -   [Create an SAP S/4HANA Cloud Extensibility Service Instance in the Kyma Environment](Create_an_SAP_S4HANA_Cloud_Extensibility_Service_Instance_in_the_Kyma_Environment_32bd423.md)
 
 
--   **[Create an SAP S/4HANA Cloud Extensibility Service Instance in the Cloud Foundry Environment](Create_an_SAP_S4HANA_Cloud_Extensibility_Service_Instance_in_the_Cloud_Foundry_Environment_d866cf6.md "")**  
-
--   **[Create an SAP S/4HANA Cloud Extensibility Service Instance in the Kyma Environment](Create_an_SAP_S4HANA_Cloud_Extensibility_Service_Instance_in_the_Kyma_Environment_32bd423.md "")**  
-
--   **[Communication Arrangement JSON File - Properties](Communication_Arrangement_JSON_File_-_Properties_553a4c6.md "Use the service JSON descriptor to define the communication arrangement and the
-		authentication type for the SAP S4/HANA Cloud API access.")**  
-Use the service JSON descriptor to define the communication arrangement and the authentication type for the SAP S4/HANA Cloud API access.
--   **[Communication Arrangement JSON File - Examples](Communication_Arrangement_JSON_File_-_Examples_80a7613.md "The examples in this section will help you to create the service JSON descriptor used
-		for defining the communication arrangement and the authentication type for the SAP S4/HANA
-		Cloud API access.")**  
-The examples in this section will help you to create the service JSON descriptor used for defining the communication arrangement and the authentication type for the SAP S4/HANA Cloud API access.
-
 **Related Information**  
 
 

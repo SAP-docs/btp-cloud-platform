@@ -15,21 +15,21 @@ The object will be deleted if no exception and no error messages of kind ‘E-�
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Field Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -38,21 +38,21 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_OBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Change document object name
 
@@ -61,21 +61,21 @@ Change document object name
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_CORRNR
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Transport request where deletion should be logged
 
@@ -84,21 +84,21 @@ Transport request where deletion should be logged
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IV\_DEL\_CL\_WHEN\_USED
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Delete generated class "CL\_<change document object name\>\_CHDO" even if it is currently used.
 
@@ -113,21 +113,21 @@ Delete generated class "CL\_<change document object name\>\_CHDO" even if it is 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Field Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -136,21 +136,21 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ET\_ERRORS
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -159,21 +159,21 @@ ET\_ERRORS
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 kind
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message type \(emtpy means information message, ‚E-‚ means error\)
 
@@ -182,21 +182,21 @@ Message type \(emtpy means information message, ‚E-‚ means error\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 msgid
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message class \(CD\)
 
@@ -205,21 +205,21 @@ Message class \(CD\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 msgnr
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message ID
 
@@ -228,21 +228,21 @@ Message ID
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 v1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Variable to message
 
@@ -251,21 +251,21 @@ Variable to message
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 v2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Variable to message
 
@@ -274,21 +274,21 @@ Variable to message
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 v3
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Variable to message
 
@@ -297,21 +297,21 @@ Variable to message
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 v4
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Variable to message
 
@@ -320,21 +320,21 @@ Variable to message
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 text
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Short text of the message
 

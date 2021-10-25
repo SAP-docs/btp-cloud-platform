@@ -1,5 +1,7 @@
 <!-- loioc5e997235f724ec686dc5dc101a1ccfb -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Configure Trusted Domains for SAP Authorization and Trust Management Service \[Feature Set B\]
 
 By default, login pages of the SAP Authorization and Trust Management service \(XSUAA\) can’t be framed by other applications in different domains for security reasons.
@@ -34,7 +36,7 @@ To prevent clickjacking or overlay attacks, web browsers follow a same origin po
 
 1.  Go to your subaccount \(see [Navigate in the Cockpit](Navigate_in_the_Cockpit_0874895.md)\) and choose *Security* \> *Settings*.
 
-2.  Choose   \(Add\) .
+2.  Choose <span class="SAP-icons"></span> \(Add\).
 
 3.  Enter the host name for the trusted domain.
 

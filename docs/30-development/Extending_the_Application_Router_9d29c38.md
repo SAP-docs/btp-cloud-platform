@@ -107,6 +107,9 @@ An extension is defined by an object with the following properties:
                 The middleware function to invoke
 
 
+
+
+
 > ### Sample Code:  
 > Example Approuter Extension Configuration \(`my-ext.js`\)
 > 

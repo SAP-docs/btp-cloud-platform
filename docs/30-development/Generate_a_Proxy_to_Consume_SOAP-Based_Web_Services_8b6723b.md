@@ -33,6 +33,7 @@ The metadata of your service consumption model display the so-called enhanced We
     -   No authentication
     -   Basic authentication
     -   ClientCertificateAuthentication
+
 -   gCTS support
 -   Support for proxy type ***Internet*** and ***OnPremise***
 
@@ -61,10 +62,6 @@ The metadata of your service consumption model display the so-called enhanced We
 -   The idea of persisted logical ports shifted towards a transient concept. The corresponding data, such as the endpoint URL and authentication method, now reside in a destination, that can be retrieved from a destination service
 -   The enhanced WSDL is similar to the Design Time WSDL in the Proxy Editor in SAP GUI enhanced by ABAP properties
 -   The enhanced WSDL replaces the Proxy Editor in SAP GUI
-
--   **[Enhanced Web Services Description Language \(WSDL\)](Enhanced_Web_Services_Description_Language_(WSDL)_3a893d9.md "The enhanced Web Services Description Language (WSDL) is a WSDL enriched by ABAP
-		information that are relevant for design time.")**  
-The enhanced Web Services Description Language \(WSDL\) is a WSDL enriched by ABAP information that are relevant for design time.
 
 **Related Information**  
 

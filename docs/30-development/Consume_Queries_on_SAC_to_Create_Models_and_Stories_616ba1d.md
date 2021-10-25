@@ -18,6 +18,7 @@ Once a successful connection has been established, you can start creating models
     -   *System Type*: SAP BW
     -   *Connection*: The name of the connection defined in [Connect the ABAP Environment System to SAP Analytics Cloud](Connect_the_ABAP_Environment_System_to_SAP_Analytics_Cloud_a102853.md).
     -   *Data Source*: The technical name of the query. This name can be found in your service binding as *External Service Name*.
+
     Click *Ok*.
 
 5.  Save your model by clicking the save icon. Select a pre-existing folder or create a new one. Give your model a *Name* and *Desription* and click *Ok*.

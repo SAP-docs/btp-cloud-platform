@@ -6,14 +6,6 @@ The destination service is a service provided by SAP Connectivity service. Using
 
 The destination service allows you to read and manage the address of a remote service and the user authentication information for the connection on subaccount and service instance level.
 
--   **[Usage of the Destination Service](Usage_of_the_Destination_Service_40ecb5c.md "You can use the destination service to establish a connection for outbound
-		communication.")**  
-You can use the destination service to establish a connection for outbound communication.
--   **[Create a Destination](Create_a_Destination_3fa7934.md "If your business application uses external services, you have to set up a destination
-		for outbound communication either in your subaccount, which is recommended, or in your ABAP
-		service instance. ")**  
-If your business application uses external services, you have to set up a destination for outbound communication either in your subaccount, which is recommended, or in your ABAP service instance.
-
 **Related Information**  
 
 

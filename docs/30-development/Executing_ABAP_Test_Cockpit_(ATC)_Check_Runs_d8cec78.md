@@ -51,14 +51,14 @@ For more information about ABAP Test Cockpit, see [Checking Quality of ABAP Code
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     KEY
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     VALUE
 
@@ -67,14 +67,14 @@ For more information about ABAP Test Cockpit, see [Checking Quality of ABAP Code
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     accept
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     application/vnd.sap.atc.run.v1+xml
 
@@ -83,14 +83,14 @@ For more information about ABAP Test Cockpit, see [Checking Quality of ABAP Code
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     x-csrf-token
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     fetch
 
@@ -118,14 +118,14 @@ For more information about ABAP Test Cockpit, see [Checking Quality of ABAP Code
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     KEY
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     VALUE
 
@@ -134,14 +134,14 @@ For more information about ABAP Test Cockpit, see [Checking Quality of ABAP Code
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     x-csrf-token
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     <token\>
 
@@ -150,14 +150,14 @@ For more information about ABAP Test Cockpit, see [Checking Quality of ABAP Code
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     location
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     /sap/bc/adt/atc/runs/00000000000000000000000000000000
 
@@ -178,14 +178,14 @@ For more information about ABAP Test Cockpit, see [Checking Quality of ABAP Code
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     KEY
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     VALUE
 
@@ -194,14 +194,14 @@ For more information about ABAP Test Cockpit, see [Checking Quality of ABAP Code
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     x-csrf-token
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     <token\>
 
@@ -210,14 +210,14 @@ For more information about ABAP Test Cockpit, see [Checking Quality of ABAP Code
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     content type
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     application/vnd.sap.atc.run.parameters.v1+xml
 
@@ -265,14 +265,14 @@ For more information about ABAP Test Cockpit, see [Checking Quality of ABAP Code
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     KEY
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     VALUE
 
@@ -281,14 +281,14 @@ For more information about ABAP Test Cockpit, see [Checking Quality of ABAP Code
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     location
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     /sap/bc/adt/api/atc/runs/<UUID\>
 
@@ -309,14 +309,14 @@ For more information about ABAP Test Cockpit, see [Checking Quality of ABAP Code
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     KEY
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     VALUE
 
@@ -325,14 +325,14 @@ For more information about ABAP Test Cockpit, see [Checking Quality of ABAP Code
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     accept
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     application/vnd.sap.atc.run.v1+xml
 
@@ -374,14 +374,14 @@ For more information about ABAP Test Cockpit, see [Checking Quality of ABAP Code
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     KEY
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     VALUE
 
@@ -390,14 +390,14 @@ For more information about ABAP Test Cockpit, see [Checking Quality of ABAP Code
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Accept
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     application/vnd.sap.atc.checkstyle.v1+xml
 

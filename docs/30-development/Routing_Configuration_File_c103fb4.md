@@ -82,21 +82,21 @@ The following table lists the properties that either must be set or can be speci
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -105,21 +105,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [welcomeFile](welcomeFile_f1d9ff4.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The Web page served by default if the HTTP request does not include a specific path, for example, index.html.
 
@@ -128,21 +128,21 @@ The Web page served by default if the HTTP request does not include a specific p
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [authenticationMethod](authenticationMethod_ff58bb0.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The method used to authenticate user requests, for example: “route” or “none” \(no authentication\).
 
@@ -151,21 +151,21 @@ The method used to authenticate user requests, for example: “route” or “no
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [sessionTimeout](sessionTimeout_9d24198.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Define the amount of time \(in minutes\) for which a session can remain inactive before it closes automatically \(times out\); the default time out is 15 minutes.
 
@@ -174,21 +174,21 @@ Define the amount of time \(in minutes\) for which a session can remain inactive
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [routes](routes_666eb55.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Array
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines all route objects, for example: `source`, `target`, and, `destination`.
 
@@ -197,21 +197,21 @@ Defines all route objects, for example: `source`, `target`, and, `destination`.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [login](login_0698797.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Object
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A redirect to the application router at a specific endpoint takes place during OAuth2 authentication with the User Account and Authentication service \(UAA\).
 
@@ -220,21 +220,21 @@ A redirect to the application router at a specific endpoint takes place during O
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [logout](logout_2296b4d.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Object
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can define any options that apply if you want your application to have central log out end point.
 
@@ -243,21 +243,21 @@ You can define any options that apply if you want your application to have centr
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [destinations](destinations_6b303d0.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Object
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specify any additional options for your destinations.
 
@@ -266,21 +266,21 @@ Specify any additional options for your destinations.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [services](services_92741fa.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Object
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specify options for a service in your application.
 
@@ -289,21 +289,21 @@ Specify options for a service in your application.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [responseHeaders](responseHeaders_4393490.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Array
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Add custom response headers to your application.
 
@@ -312,21 +312,21 @@ Add custom response headers to your application.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [compression](compression_ff906e7.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Object
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The `compression` keyword enables you to define if the application router compresses text resources before sending them.
 
@@ -335,21 +335,21 @@ The `compression` keyword enables you to define if the application router compre
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [pluginMetadataEndpoint](pluginMetadataEndpoint_df4ca32.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Adds an endpoint that serves a JSON string representing all configured plugins.
 
@@ -358,21 +358,21 @@ Adds an endpoint that serves a JSON string representing all configured plugins.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [whitelistService](whitelistService_435d5a6.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Object
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enable the allowlist service to help preventing click-jacking attacks.
 
@@ -381,21 +381,21 @@ Enable the allowlist service to help preventing click-jacking attacks.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [websockets](websockets_44bc1e7.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Object
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The application router can forward web-socket communication. Web-socket communication must be enabled in the application router configuration.
 
@@ -404,21 +404,21 @@ The application router can forward web-socket communication. Web-socket communic
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [errorPage](errorPage_0377013.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Array
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Errors originating in the application router show the HTTP status code of the error. It is possible to display a custom error page using the `errorPage` property.
 
@@ -427,48 +427,6 @@ Errors originating in the application router show the HTTP status code of the er
 </td>
 </tr>
 </table>
-
--   **[welcomeFile](welcomeFile_f1d9ff4.md "The Web page served by default if the HTTP request does not include a specific path, for
-		example, index.html.")**  
-The Web page served by default if the HTTP request does not include a specific path, for example, `index.html`.
--   **[authenticationMethod](authenticationMethod_ff58bb0.md "The method used to authenticate user requests, for example: “route” or “none”
-		(no authentication).")**  
-The method used to authenticate user requests, for example: “route” or “none” \(no authentication\).
--   **[sessionTimeout](sessionTimeout_9d24198.md "Define the amount of time (in minutes) for which a session can remain inactive before it
-		closes automatically (times out); the default time out is 15 minutes.")**  
-Define the amount of time \(in minutes\) for which a session can remain inactive before it closes automatically \(times out\); the default time out is 15 minutes.
--   **[routes](routes_666eb55.md "Defines all route objects, for example: source,
-		target, and, destination.")**  
-Defines all route objects, for example: `source`, `target`, and, `destination`.
--   **[login](login_0698797.md "A redirect to the application router at a specific endpoint takes place during OAuth2
-		authentication with the service that you are using for the authentication (User Account and
-		Authentication service (UAA) or Identity Authentication service).")**  
-A redirect to the application router at a specific endpoint takes place during OAuth2 authentication with the service that you are using for the authentication \(User Account and Authentication service \(UAA\) or Identity Authentication service\).
--   **[logout](logout_2296b4d.md "You can define any options that apply if you want your application to have a central log
-		out end point.")**  
-You can define any options that apply if you want your application to have a central log out end point.
--   **[destinations](destinations_6b303d0.md "Specify any additional options for your destinations.")**  
-Specify any additional options for your destinations.
--   **[services](services_92741fa.md "Specify options for a service in your application.")**  
-Specify options for a service in your application.
--   **[responseHeaders](responseHeaders_4393490.md "You can add headers that the application router returns to the client in its
-		responses.")**  
-You can add headers that the application router returns to the client in its responses.
--   **[compression](compression_ff906e7.md "The compression keyword enables you to define if the application router
-		compresses text resources before sending them.")**  
-The `compression` keyword enables you to define if the application router compresses text resources before sending them.
--   **[pluginMetadataEndpoint](pluginMetadataEndpoint_df4ca32.md "Adds an endpoint that serves a JSON string representing all configured
-		plugins.")**  
-Adds an endpoint that serves a JSON string representing all configured plugins.
--   **[whitelistService](whitelistService_435d5a6.md "Enable the allowlist service to help prevent against click-jacking attacks.")**  
-Enable the allowlist service to help prevent against click-jacking attacks.
--   **[websockets](websockets_44bc1e7.md "The application router can forward web-socket communication. Web-socket communication
-		must be enabled in the application router configuration.")**  
-The application router can forward web-socket communication. Web-socket communication must be enabled in the application router configuration.
--   **[errorPage](errorPage_0377013.md "Errors originating in the application router show the HTTP status code of the error. It
-		is possible to display a custom error page using the errorPage
-		property.")**  
-Errors originating in the application router show the HTTP status code of the error. It is possible to display a custom error page using the `errorPage` property.
 
 **Related Information**  
 

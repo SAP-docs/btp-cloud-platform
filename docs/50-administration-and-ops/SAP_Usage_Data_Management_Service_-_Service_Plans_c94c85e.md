@@ -10,28 +10,28 @@ Describes the plans available for the SAP Usage Data Management service for SAP 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Display Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Technical Service Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Service Plans
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Scopes
 
@@ -40,28 +40,28 @@ Scopes
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Usage Data Management Service \(UDM\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `uas`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **`reporting-ga-admin:`** Service plan for using the SAP Usage Data Management service APIs. This microservice is responsible for generating reports based on the resource and cost consumption.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `Reporting.GA_Admin`
 

@@ -24,6 +24,3 @@ This section provides information about security and data privacy.
 > ### Note:  
 > The HTML5 application repository service does not provide the technical capabilities to support the collection, processing, and storage of personal data. The file names used for deploying the HTML5 applications are not intended for personal data.
 
--   **[Configure the Credential Type for HTML5 Application Repository Service Instances](Configure_the_Credential_Type_for_HTML5_Application_Repository_Service_Instances_d63930f.md "")**  
-
-

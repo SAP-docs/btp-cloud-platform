@@ -46,16 +46,6 @@ For more information, see [Create Role Collections with Predefined Roles](Create
 
 For the syntax required to set the properties and values defined in the application security descriptor file \(`xs-security.json`\), see [Application Security Descriptor Configuration Syntax](Application_Security_Descriptor_Configuration_Syntax_517895a.md).
 
--   **[Protecting Your Application](Protecting_Your_Application_7c5c565.md "Developers create authorization information for business users in their environment; this information is deployed in an application and
-		made available to administrators who complete the authorization setup and assign the authorizations to business users.")**  
-Developers create authorization information for business users in their environment; this information is deployed in an application and made available to administrators who complete the authorization setup and assign the authorizations to business users.
--   **[Tutorials for the SAP Authorization and Trust Management Service](Tutorials_for_the_SAP_Authorization_and_Trust_Management_Service_902ae80.md "Follow the tutorials below to get familiar with the SAP Authorization and Trust
-                                    Management service in the
-                    Cloud
-                                Foundry
-                environment of SAP BTP.")**  
-Follow the tutorials below to get familiar with the SAP Authorization and Trust Management service in the Cloud Foundry environment of SAP BTP.
-
 **Related Information**  
 
 

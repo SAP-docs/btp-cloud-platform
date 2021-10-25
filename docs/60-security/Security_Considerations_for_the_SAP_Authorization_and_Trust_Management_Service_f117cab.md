@@ -2,18 +2,18 @@
 
 # Security Considerations for the SAP Authorization and Trust Management Service
 
-Decisions you make when using or administrating the SAP Authorization and Trust Management service \(XSUAA\) can have an impact on the security of your applications. The information provided is meant to help you in decide.
+Decisions you make when using or administrating the SAP Authorization and Trust Management service \(XSUAA\) can have an impact on the security of your applications. The information provided is meant to help you decide.
 
 **Related Information**  
 
 
 [Configuration Options for the SAP Authorization and Trust Management Service](Configuration_Options_for_the_SAP_Authorization_and_Trust_Management_Service_3654087.md#loio3654087e15864b49a1bca3967a54a095 "The following configuration options enable you to manipulate the operation of the SAP Authorization and Trust Management service (XSUAA). Set these options in the application security descriptor (xs-security.json) at design time for your application.")
 
- <a name="loiof117cab6b92d438cb2a0b5204713994b loioea351dd76f8946c995145bc6a4b235f3__loioea351dd76f8946c995145bc6a4b235f3"/>
+ <a name="loioea351dd76f8946c995145bc6a4b235f3"/>
 
 <!-- loioea351dd76f8946c995145bc6a4b235f3 -->
 
-# Implications of Using IFrames
+## Implications of Using IFrames
 
 By default, login pages of the SAP Authorization and Trust Management service can’t be framed by other applications for security reasons.
 
@@ -23,7 +23,7 @@ To change configure the trusted domains, use one of the following methods:
 
 -   Enter trusted domains in SAP BTP cockpit.
 
-    For more information, see [Configure Trusted Domains for SAP Authorization and Trust Management Service \[Feature Set B\]](../50-administration-and-ops/Configure_Trusted_Domains_for_SAP_Authorization_and_Trust_Management_Service_Feature_Set_B_c5e9972.md).
+    For more information, see [Configure Trusted Domains for SAP Authorization and Trust Management Service \[Feature Set B\]](../50-administration-and-ops/Configure_Trusted_Domains_for_SAP_Authorization_c5e9972.md).
 
 -   Access the Security Settings API.
 
@@ -35,9 +35,9 @@ To change configure the trusted domains, use one of the following methods:
 
 
 > ### Remember:  
-> To use IFrames with SAP Authorization and Trust Management service, configure the embedding of the login page of your identity provider. Not all identity providers support framing. This function only works if the identity provider supports framing and is configured, too.
+> To use iFrames with SAP Authorization and Trust Management service, configure the embedding of the login page of your identity provider. Not all identity providers support framing. This function only works if the identity provider supports framing and is configured, too.
 > 
-> To configure IFrames for SAP Cloud Identity Services - Identity Authentication, see [Configure Trusted Domains](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/08fa1fe816704d99a6bcab245158ebca.html) in the Identity Authentication documentation.
+> To configure iFrames for SAP Cloud Identity Services - Identity Authentication, see [Configure Trusted Domains](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/08fa1fe816704d99a6bcab245158ebca.html) in the Identity Authentication documentation.
 
 When configured, the SAP Authorization and Trust Management service sends a content security policy header allowing framing of the login page of the service for the domains you specified.
 
@@ -54,11 +54,11 @@ This configuration has several security implications like:
 
 Ensure that no attacker can add malicious web pages or Javascript to any of the hosts allowed to frame the login page. This recommendation also includes hosts that act as reverse proxies, where an attacker can put their content on a different host behind the reverse proxy. Ensure that everything exposed by those framing hosts is safe.
 
- <a name="loiof117cab6b92d438cb2a0b5204713994b loio88b7d9d4c6ff4498b48dbc0b7be8a294__loio88b7d9d4c6ff4498b48dbc0b7be8a294"/>
+ <a name="loio88b7d9d4c6ff4498b48dbc0b7be8a294"/>
 
 <!-- loio88b7d9d4c6ff4498b48dbc0b7be8a294 -->
 
-# Listing Allowed Redirect URIs
+## Listing Allowed Redirect URIs
 
 The application security descriptor \(`xs-security.json`\) includes the *redirect-uris* parameter. This parameter contains a list of the redirect URIs that SAP BTP checks for when redirecting. If your landscape domain or custom domain isn't on this list, including wildcards, the SAP Authorization and Trust Management service won't redirect users there.
 
@@ -85,11 +85,11 @@ For more information, see [Domain Checks at Browser Login and Logout](../30-deve
 
 For more information about the application security descriptor, see [Application Security Descriptor Configuration Syntax](../30-development/Application_Security_Descriptor_Configuration_Syntax_517895a.md).
 
- <a name="loiof117cab6b92d438cb2a0b5204713994b loio74c07afd318d46218db291ffb8c25b23__loio74c07afd318d46218db291ffb8c25b23"/>
+ <a name="loio74c07afd318d46218db291ffb8c25b23"/>
 
 <!-- loio74c07afd318d46218db291ffb8c25b23 -->
 
-# Rotating Secrets
+## Rotating Secrets
 
 By default, all bindings of a service instance of the SAP Authorization and Trust Management service share a single instance secret. \(Exception: Service instances with the apiaccess plan use a secret per binding by default.\) In the application security descriptor \(`xs-security.json`\), enable individual secrets for each binding of a service instance.
 
@@ -109,27 +109,27 @@ For more information, see [Managing Secrets of the SAP Authorization and Trust M
 
 For more information about the application security descriptor, see [Application Security Descriptor Configuration Syntax](../30-development/Application_Security_Descriptor_Configuration_Syntax_517895a.md).
 
- <a name="loiof117cab6b92d438cb2a0b5204713994b loioc8770b0b43084d838e475bd76eeb4715__loioc8770b0b43084d838e475bd76eeb4715"/>
+ <a name="loioc8770b0b43084d838e475bd76eeb4715"/>
 
 <!-- loioc8770b0b43084d838e475bd76eeb4715 -->
 
-# Setting Token Policy
+## Setting Token Policy
 
 By default, SAP Authorization and Trust Management service sets the validity of tokens as shown in the following table.
 
-<a name="loiof117cab6b92d438cb2a0b5204713994b loioc8770b0b43084d838e475bd76eeb4715__table_k53_g25_rqb"/>Default Validity of Tokens
+<a name="loioc8770b0b43084d838e475bd76eeb4715__table_k53_g25_rqb"/>Default Validity of Tokens
 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Token Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Validity
 
@@ -138,14 +138,14 @@ Validity
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Access and ID tokens
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Default: 43200 seconds \(12 hours\)
 
@@ -154,14 +154,14 @@ Default: 43200 seconds \(12 hours\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Refresh tokens
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Default: 24192000 seconds \(28 days\)
 

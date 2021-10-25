@@ -32,10 +32,12 @@ For more information about creating IAM apps, see the ABAP development user guid
 
     3.  Enter the name of the service and choose *OK*.
 
+
 5.  On the *Authorizations* tab, proceed as follows:
 
     1.  If you added your service to an existing IAM app, choose *Synchronize* to get all current default authorization values as standard values.
 
     2.  Add all possible restriction field values \(\*\).
+
 
 

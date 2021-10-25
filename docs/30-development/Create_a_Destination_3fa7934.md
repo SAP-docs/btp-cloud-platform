@@ -1,5 +1,7 @@
 <!-- loio3fa7934f5a714bf88d8490958211382f -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Create a Destination
 
 If your business application uses external services, you have to set up a destination for outbound communication either in your subaccount, which is recommended, or in your ABAP service instance.
@@ -29,7 +31,7 @@ If your business application uses external services, you have to set up a destin
 1.  Log on to the SAP BTP and go to the subaccount that contains the space you'd like to navigate to. See [Navigate in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html).
 2.  In the navigation area, go to *Cloud Foundry* \> *Spaces* and select the space that contains the ABAP system service instance.
 3.  Select *Services* \> *Instances* and navigate to your ABAP system service instance.
-4.  To open the administration launchpad, click on      and select *View Dashboard*.
+4.  To open the administration launchpad, click on <span class="SAP-icons"></span>   and select *View Dashboard*.
 5.  If necessary, provide your logon credentials to access the administration launchpad.
 6.  In the *Communication Management* section, select the *Communication Arrangements* tile.
 7.  On the *Communication Arrangements* page, select *New*.

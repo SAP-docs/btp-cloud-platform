@@ -41,3 +41,4 @@ Connect your ABAP environment system to SAP Analytics Cloud \(SAC\) using commun
     -   Client: 100
     -   Authentication Method: SAML Single Sign-on \(Standard Compliant\)
 
+

@@ -9,21 +9,21 @@ The following table contains all released ABAP object types that are supported i
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Object Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Generated
 
@@ -32,21 +32,21 @@ Generated
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 BDEF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Behavior Definition
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -55,21 +55,21 @@ Behavior Definition
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CLAS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Class
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -78,21 +78,21 @@ Class
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DCLS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ABAP Data Control Language Sources
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -101,21 +101,21 @@ ABAP Data Control Language Sources
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DDLS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data Definition Language Source
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -124,21 +124,21 @@ Data Definition Language Source
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DEVC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Package
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -147,21 +147,21 @@ Package
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DOMA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Domain
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -170,21 +170,21 @@ Domain
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DTEL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data Element
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -193,21 +193,21 @@ Data Element
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ENQU
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Lock Object
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -216,21 +216,21 @@ Lock Object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 FUGR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Function Group
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -239,21 +239,21 @@ Function Group
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 FUNC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Function Module
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -262,21 +262,21 @@ Function Module
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 HTTP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 HTTP Service
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -285,21 +285,21 @@ HTTP Service
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 INTF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Interface
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -308,21 +308,21 @@ Interface
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IWMO
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP Gateway Business Suite Enablement - Model
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -331,21 +331,21 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IWOM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP Gateway: Model Metadata
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -354,21 +354,21 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IWSG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP Gateway: Service Groups Metadata
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -377,21 +377,21 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IWSV
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP Gateway Business Suite Enablement - Service
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -400,21 +400,21 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IWVB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP Gateway Business Suite Enablement -Vocabulary Annotation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -423,21 +423,21 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 MSAG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message Class
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -446,21 +446,21 @@ Message Class
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OA2S
 
 
 
 </td>
-<td>
+<td valign="top">
 
 OAuth2 Scope
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -469,21 +469,21 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 PROG
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Program \(read only\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -492,21 +492,21 @@ Program \(read only\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SCO1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Communication: Communication Scenario
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -515,21 +515,21 @@ Communication: Communication Scenario
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SCO2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Communication: Inbound Service
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -538,21 +538,21 @@ Communication: Inbound Service
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SIA1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IAM: Business Catalog
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -561,21 +561,21 @@ IAM: Business Catalog
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SIA2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IAM: Restriction Type
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -584,21 +584,21 @@ IAM: Restriction Type
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SIA5
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IAM: Restriction Field
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -607,21 +607,21 @@ IAM: Restriction Field
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SIA6
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IAM: App
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -630,21 +630,21 @@ IAM: App
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SIA7
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IAM: Business Catalog App Assignment
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -653,21 +653,21 @@ IAM: Business Catalog App Assignment
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SRVB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Service Binding
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -676,21 +676,21 @@ Service Binding
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SRVD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Service Definition
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -699,21 +699,21 @@ Service Definition
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 TABL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Table Definition
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -722,21 +722,21 @@ Table Definition
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 TTYP
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Table Type
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -745,21 +745,21 @@ Table Type
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 XSLT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Transformation
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -768,21 +768,21 @@ Transformation
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 APIS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 API Release State of Objects
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -791,21 +791,21 @@ API Release State of Objects
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SRVC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Service Consumption Model
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -814,21 +814,21 @@ Service Consumption Model
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SUSH
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Authorization Default Values
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -837,21 +837,21 @@ Authorization Default Values
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 AUTH
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Authorization Check Fields
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -860,21 +860,21 @@ Authorization Check Fields
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SUSO
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Authorization Object
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -883,21 +883,21 @@ Authorization Object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SICF
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ICF Service
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -906,21 +906,21 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SIA3
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IAM: Authorization Object Extension
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -929,21 +929,21 @@ IAM: Authorization Object Extension
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DDLX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Core Data Services Metadata Extensions
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -952,21 +952,21 @@ Core Data Services Metadata Extensions
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DTDC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Dictionary Dynamic Cache
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -975,21 +975,21 @@ Dictionary Dynamic Cache
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CHDO
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Change Document
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -998,21 +998,21 @@ Change Document
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NROB
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number Range Object
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1021,21 +1021,21 @@ Number Range Object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ENHO
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enhancement Implementation Object
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1044,21 +1044,21 @@ Enhancement Implementation Object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAJC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application Job Catalog Entry
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1067,21 +1067,21 @@ Application Job Catalog Entry
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAJT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application Job Template
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1090,21 +1090,21 @@ Application Job Template
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SKTD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Knowledge Transfer Document
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1113,21 +1113,21 @@ Knowledge Transfer Document
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ENHS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ENHS Enhancement Spot
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1136,21 +1136,21 @@ ENHS Enhancement Spot
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SPRX
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Proxy Object
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -1159,21 +1159,21 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SMBC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Maintainable Business Configuration
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1182,21 +1182,21 @@ Maintainable Business Configuration
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SIA8
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IAM: Business Role Template
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1205,21 +1205,21 @@ IAM: Business Role Template
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SIA9
 
 
 
 </td>
-<td>
+<td valign="top">
 
 IAM: Business Role Templ. Bus. Catalog Assignment
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1228,21 +1228,21 @@ IAM: Business Role Templ. Bus. Catalog Assignment
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 UIAD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 UIAD: Application Descriptors for the Fiori Launchpad Environment
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1251,21 +1251,21 @@ UIAD: Application Descriptors for the Fiori Launchpad Environment
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 WAPA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 BSP Page
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -1274,21 +1274,21 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SMIM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 MIME Object
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -1297,21 +1297,21 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 APLO
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application Log Object
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1329,14 +1329,14 @@ Application Log Object
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Object Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -1345,14 +1345,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 TABU
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Table Entries
 
@@ -1361,14 +1361,14 @@ Table Entries
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SNUMS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number Range Configuration
 

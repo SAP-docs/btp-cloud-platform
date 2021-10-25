@@ -62,7 +62,3 @@ You can use this app to:
 
 If you need support or experience issues, please report an incident under component `BC-CUS-TOL-CTO`.
 
--   **[Working in the Export Customizing Transports App](Working_in_the_Export_Customizing_Transports_App_cc16fd0.md "Find out how to create, check, and release customizing
-		transports using the Export Customizing Transports app.")**  
-Find out how to create, check, and release customizing transports using the*Export Customizing Transports* app.
-

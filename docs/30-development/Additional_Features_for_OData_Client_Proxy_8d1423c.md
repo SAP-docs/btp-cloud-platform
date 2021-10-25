@@ -9,21 +9,21 @@ OData Client Proxy provides the following additional features:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Feature
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Available as of Release
 
@@ -32,21 +32,21 @@ Available as of Release
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Delete delta links In case of a new initial load
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If you want to delete delta links in case of new initial load, you can use method `DELETE_DELTA_LINK()` of class `CL_CP_DELTA_REQU_CONFIG`.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  SAP BTP, ABAP environment 2105
 
@@ -55,21 +55,21 @@ If you want to delete delta links in case of new initial load, you can use metho
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Update Collections
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can update collections on client side to support Master Data Integration \(MDI\).
 
 
 
 </td>
-<td>
+<td valign="top">
 
  SAP BTP, ABAP environment 2105
 
@@ -78,14 +78,14 @@ You can update collections on client side to support Master Data Integration \(M
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Add custom query options
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can add custom query options using the following interface and class:
 
@@ -103,7 +103,7 @@ You can add custom query options using the following interface and class:
 
 
 </td>
-<td>
+<td valign="top">
 
  SAP BTP, ABAP environment 2105
 
@@ -112,21 +112,21 @@ You can add custom query options using the following interface and class:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Create a new version of a stored delta link
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can create a new version of a stored delta link to be used by a newly created request using the USE\_DELTA\_LINK\(\) method.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  SAP BTP, ABAP environment 2105
 
@@ -135,21 +135,21 @@ You can create a new version of a stored delta link to be used by a newly create
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Invoking V2 Functions via *Local Client Proxy*.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can use the *Local Client Proxy* to invoke V2 Functions.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  SAP BTP, ABAP environment 2102
 
@@ -158,14 +158,14 @@ You can use the *Local Client Proxy* to invoke V2 Functions.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Range conversion exit of a property with $filter.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can use the USE\_RANGES\_4\_FILTER\_CONVERSION model feature to change the filter expression determination logic.
 
@@ -178,7 +178,7 @@ Not supported request formation example: /sap/opu/odata/sap/Northwind/Customers$
 
 
 </td>
-<td>
+<td valign="top">
 
  SAP BTP, ABAP environment 2102
 
@@ -187,14 +187,14 @@ Not supported request formation example: /sap/opu/odata/sap/Northwind/Customers$
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Writing statistics for tests running with the *Local Client Proxy* to enable coverage reporting.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 For the *Local Client Proxy* V2 and V4, the `iv_do_write_traces` method in class `/IWBEP/CL_CP_CLIENT_PROXY_FACT` parameter controls writing statistics.
 
@@ -207,7 +207,7 @@ When an operation is executed and `iv_do_write_traces` is set to true, the gatew
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP BTP, ABAP environment
 
@@ -218,21 +218,21 @@ SAP BTP, ABAP environment
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Filtering by conversion exits.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 For OData V4, filtering by correctly applying conversion exits \(e.g. CUNIT\), is supported.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  SAP BTP, ABAP environment 2102
 
@@ -241,14 +241,14 @@ For OData V4, filtering by correctly applying conversion exits \(e.g. CUNIT\), i
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 V4 local consumption in *Local Client Proxy*.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Example for the use of method `CREATE_V4_LOCAL_PROXY` in class `CL_WEB_ODATA_CLIENT_FACTORY`:
 
@@ -279,7 +279,7 @@ Example for the use of method `CREATE_V4_LOCAL_PROXY` in class `CL_WEB_ODATA_CLI
 
 
 </td>
-<td>
+<td valign="top">
 
  SAP BTP, ABAP environment 2102
 
@@ -288,21 +288,21 @@ Example for the use of method `CREATE_V4_LOCAL_PROXY` in class `CL_WEB_ODATA_CLI
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  *Deep Create* for V4 local consumption.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  *Deep Create* for V4 local consumption is combined with partial business data/provided properties. For more information, see classes `/IWBEP/CL_CP_DATA_DESC_NODE` and`/IWBEP/CL_V4_EXPAND_NODE` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP BTP, ABAP environment 2102
 
@@ -311,14 +311,14 @@ SAP BTP, ABAP environment 2102
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  *Local Client Proxy* consumption supports $batch.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The *OData Client Proxy* supports $batch changesets for the local consumption of a V2 service.
 
@@ -348,7 +348,7 @@ There are two options available in the V2 runtime how a changeset is processed:
 
 
 </td>
-<td>
+<td valign="top">
 
  SAP BTP, ABAP environment 2102
 
@@ -357,14 +357,14 @@ There are two options available in the V2 runtime how a changeset is processed:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Catalog service supports recommended services.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The `RecommendedServices` entity set returns all V4 services registered in the backend or only subset of recommended ones:
 
@@ -373,7 +373,7 @@ GET /sap/opu/odata4/iwfnd/config/default/iwfnd/catalog/0002/ServiceGroups?$expan
 
 
 </td>
-<td>
+<td valign="top">
 
  SAP BTP, ABAP environment 2102
 

@@ -16,14 +16,14 @@ The following table provides an overview of the APIs. For more information about
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 API
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -32,14 +32,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Authorizations
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provides functions to administrate the SAP Authorization and Trust Management service of Cloud Foundry environment. Manage service instances of the SAP Authorization and Trust Management service. You can also manage roles, role templates, and role collections of your subaccount.
 
@@ -48,14 +48,14 @@ Provides functions to administrate the SAP Authorization and Trust Management se
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Identity Provider Management
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provides functions to manage identity providers in in the Cloud Foundry environment.
 
@@ -64,14 +64,14 @@ Provides functions to manage identity providers in in the Cloud Foundry environm
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Security Settings
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provides functions to manage the security settings of an account in Cloud Foundry environment. Use this API to manage access token validity and signing keys.
 
@@ -80,14 +80,14 @@ Provides functions to manage the security settings of an account in Cloud Foundr
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 User Management System for Cross-domain Identity Management \(SCIM\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provides functions to administrate the SAP Authorization and Trust Management service of the Cloud Foundry environment. Provision users from identity providers and manage roles and role collections. Use this API to manage shadow users; users the service provisions from your identity provider to the subaccount.
 
@@ -96,14 +96,6 @@ Provides functions to administrate the SAP Authorization and Trust Management se
 </td>
 </tr>
 </table>
-
--   **[Access UAA Admin APIs](Access_UAA_Admin_APIs_ebc9113.md "To enable programmatic access to the XS user authentication and authorization (UAA) service in your subaccount of the Cloud
-                                Foundry environment, create an XSUAA service instance under the
-			apiaccess plan.")**  
-To enable programmatic access to the XS user authentication and authorization \(UAA\) service in your subaccount of the Cloud Foundry environment, create an XSUAA service instance under the `apiaccess` plan.
--   **[Call an API](Call_an_API_764abf2.md "Use the different endpoints of the Authorization and Trust Management service APIs to manage users roles and other authorization
-		configurations.")**  
-Use the different endpoints of the Authorization and Trust Management service APIs to manage users roles and other authorization configurations.
 
 **Related Information**  
 

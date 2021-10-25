@@ -15,14 +15,14 @@ Use method `SI_UNIT_GET` to determine the SI unit.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -31,14 +31,14 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DIMENSION
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Dimension key
 
@@ -47,14 +47,14 @@ Dimension key
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 UNIT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Unit of measurement
 
@@ -75,14 +75,14 @@ Unit of measurement
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -91,14 +91,14 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SI\_UNIT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Base unit/SI unit of a dimension
 
@@ -119,14 +119,14 @@ Base unit/SI unit of a dimension
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Exception Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -135,14 +135,14 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 DIMENSION\_NOT\_FOUND
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Dimension is not defined
 
@@ -151,14 +151,14 @@ Dimension is not defined
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 UNIT\_NOT\_FOUND
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Unit of measurement is not maintained
 
@@ -167,14 +167,14 @@ Unit of measurement is not maintained
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SI\_UNIT\_NOT\_FOUND
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SI unit is not defined
 

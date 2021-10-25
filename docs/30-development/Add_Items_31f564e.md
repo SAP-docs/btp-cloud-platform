@@ -56,10 +56,3 @@ To add a log item to an application log, the `IF_BALI_LOG` interface provides th
 > ...
 > ```
 
--   **[Create a Message](Create_a_Message_f6ca36b.md "")**  
-
--   **[Create a Free Text](Create_a_Free_Text_31f749f.md "")**  
-
--   **[Create an Exception](Create_an_Exception_9a82de7.md "")**  
-
-

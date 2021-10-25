@@ -11,14 +11,14 @@ Overview of terminology used for identity and access management
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -27,14 +27,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Access category
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A category that defines what kind of access is granted to the users assigned to a business role, for example, *Read*, *Write*, or *Value Help*.
 
@@ -43,14 +43,14 @@ A category that defines what kind of access is granted to the users assigned to 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Business role
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A business role provides users with authorizations to access apps.
 
@@ -59,14 +59,14 @@ A business role provides users with authorizations to access apps.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Business role template
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A pre-defined set of authorizations and assigned business catalogs you can use as a basis for creating new business roles.
 
@@ -75,14 +75,14 @@ A pre-defined set of authorizations and assigned business catalogs you can use a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Business user
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Any person who can log on to the system, including administrators.
 
@@ -91,14 +91,14 @@ Any person who can log on to the system, including administrators.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Restriction
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An access limitation that is defined on business role level.
 
@@ -109,14 +109,14 @@ You can determine what kind of access is granted to specific objects, such as *c
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Restriction field
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A field that is used to restrict the access to a specific business object, for example, *organizational area*.
 
@@ -125,14 +125,14 @@ A field that is used to restrict the access to a specific business object, for e
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Restriction type
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An authorization entity that bundles the available restriction fields to a logical definition, for example, company code.
 
@@ -141,14 +141,14 @@ An authorization entity that bundles the available restriction fields to a logic
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Leading restriction
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A property that defines a certain restriction field as leading restriction. No matter in which restriction types the restriction field is being used, the field will have the same restriction assigned in all types.
 
@@ -157,14 +157,14 @@ A property that defines a certain restriction field as leading restriction. No m
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Technical user
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A technical user corresponds to a local or remote process which is typically part of the cloud management process \(e.g. system provisioning, support\) or intrinsic system processes \(e.g. periodic clean-up of logs\). There are technical users that belong to the software or service provider and there are technical users that belong to the customer.
 

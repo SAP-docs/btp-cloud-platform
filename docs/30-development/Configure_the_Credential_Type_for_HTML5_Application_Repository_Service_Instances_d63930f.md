@@ -37,6 +37,7 @@ If you have older HTML5 application repository service instances, the `client_se
 
     3.  Copy the UUID. In this example: **fec39a25-a570-46b0-8ac9-1691f8d663cc** 
 
+
 2.  Create a file `instance-xs-security.json`, such as the following:
 
     > ### Sample Code:  
@@ -80,5 +81,6 @@ If you have older HTML5 application repository service instances, the `client_se
         >                                …….
         > 
         > ```
+
 
 

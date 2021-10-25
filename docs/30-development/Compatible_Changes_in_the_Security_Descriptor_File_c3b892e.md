@@ -11,14 +11,14 @@ If you update a service instance, you can add, change, and/or delete scopes, att
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Security Artifacts in the xs-security.json File
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Action
 
@@ -27,14 +27,14 @@ Action
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Scope
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Add
 
@@ -48,17 +48,18 @@ Scope
 
 
 
+
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Attribute
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Add
 
@@ -69,6 +70,7 @@ Attribute
     -   `description`
 
 
+
 > ### Note:  
 > Do not change the `valueType` of the attribute.
 
@@ -77,14 +79,14 @@ Attribute
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Role template
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Add
 
@@ -96,6 +98,7 @@ Role template
 
     -   `scope-references`
     -   `attribute-references` \(can be deleted only\)
+
 
 
 

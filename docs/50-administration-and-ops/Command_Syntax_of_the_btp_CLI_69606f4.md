@@ -95,9 +95,6 @@ The same command in verbose mode:
 `btp --verbose assign security/role-collection "Global Account Administrator" --to-user "name@example.com" --of-idp "my-idp"`
 ```
 
--   **[Passing JSON Parameters in the Command Line](Passing_JSON_Parameters_in_the_Command_Line_899fe34.md "")**  
-
-
 **Related Information**  
 
 

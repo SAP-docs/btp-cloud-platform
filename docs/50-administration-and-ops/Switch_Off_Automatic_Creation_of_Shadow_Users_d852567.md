@@ -23,7 +23,7 @@ To switch off creation of shadow users during logon, proceed as follows:
 
 ## Procedure
 
-1.  In the SAP BTP cockpit, go to your subaccount\(see [Navigate to Orgs and Spaces](Navigate_to_Orgs_and_Spaces_5bf8735.md)\) and choose *Security* \> *Trust Configuration*.
+1.  In the SAP BTP cockpit, go to your subaccount\(see [Navigate in the Cockpit](Navigate_in_the_Cockpit_0874895.md)\) and choose *Security* \> *Trust Configuration*.
 
 2.  Choose your custom trust configuration.
 

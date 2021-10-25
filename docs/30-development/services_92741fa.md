@@ -28,28 +28,28 @@ The following syntax rules apply:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Mandatory
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -58,28 +58,28 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `endpoint`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the attribute in the VCAP\_SERVICES that contains the URL of the service.
 
@@ -88,28 +88,28 @@ The name of the attribute in the VCAP\_SERVICES that contains the URL of the ser
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `logoutPath` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The log out end point for your destination. The `logoutPath` will be called when central log out is triggered or a session is deleted due to a time out. The request to `logoutPath` contains additional headers, including the JWT token.
 
@@ -118,28 +118,28 @@ The log out end point for your destination. The `logoutPath` will be called when
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `logoutMethod` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 String
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The `logoutMethod` property specifies the HTTP method with which the `logoutPath` will be requested, for example, POST, PUT, GET; the default value is POST
 

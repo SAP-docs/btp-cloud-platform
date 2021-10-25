@@ -1,5 +1,7 @@
 <!-- loio667f34ba9222450491c2b848cd17e189 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Managing Global Accounts Using the Cockpit
 
 Your SAP BTP global account is the entry point for managing the resources, landscape, and entitlements for your departments and projects in a self-service manner.
@@ -10,39 +12,11 @@ Your SAP BTP global account is the entry point for managing the resources, lands
 
 ## Feature Set B: Global Account Settings
 
-As a global account administrator, you can access the global account settings by clicking     in the SAP BTP cockpit.
+As a global account administrator, you can access the global account settings by clicking <span class="SAP-icons"></span> in the SAP BTP cockpit.
 
 In the *General* tab of the global account settings, you can identify your global account subdomain.
 
 In the *Subaccount Defaults* tab in the global account settings, you can set the supported providers, the default provider, and the default region. These defaults are used when creating a new subaccount in this global account.
-
--   **[Log On to Your Global Account](Log_On_to_Your_Global_Account_77be288.md "Use the SAP BTP
-                                    cockpit to log on
-		to your global account and start working in SAP BTP.")**  
-Use the SAP BTP cockpit to log on to your global account and start working in SAP BTP.
--   **[Change the Display Name of Your Global Account](Change_the_Display_Name_of_Your_Global_Account_36a6674.md "Change the display name for the global account using the SAP BTP
-                                    cockpit.")**  
-Change the display name for the global account using the SAP BTP cockpit.
--   **[Add Members to Your Global Account](Add_Members_to_Your_Global_Account_4a04913.md "Add users as global account members using the SAP BTP
-                                    cockpit.")**  
-Add users as global account members using the SAP BTP cockpit.
--   **[Managing Resource Providers](Managing_Resource_Providers_e2c250d.md "
-			SAP BTP allows you to
-			connect your global account in the SAP BTP
-                                    cockpit to your provider
-			account from a non-SAP cloud vendor, and consume remote service resources that you
-			already own and which are supported by SAP through this channel.")**  
- SAP BTP allows you to connect your global account in the SAP BTP cockpit to your provider account from a non-SAP cloud vendor, and consume remote service resources that you already own and which are supported by SAP through this channel.
--   **[Monitoring Usage and Consumption Costs in Your Global Account](Monitoring_Usage_and_Consumption_Costs_in_Your_Global_Account_de6f0db.md "In a global account that uses the consumption-based commercial model, you can monitor
-		the usage of billed
-		services and your consumption costs in the SAP BTP
-                                    cockpit.")**  
-In a global account that uses the consumption-based commercial model, you can monitor the usage of billed services and your consumption costs in the SAP BTP cockpit.
--   **[Configure Legal Information](Configure_Legal_Information_f4e2b81.md "Administrators can define legal links per enterprise global account in the SAP BTP
-                                    cockpit.")**  
-Administrators can define legal links per enterprise global account in the SAP BTP cockpit.
--   **[Global Account Termination](Global_Account_Termination_0b35205.md "")**  
-
 
 **Related Information**  
 

@@ -20,6 +20,7 @@ You can create and deploy a Multitarget Application in the Cloud Foundry environ
     -   [https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/a71bf8281254489ea8be6e323199b304.html](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/a71bf8281254489ea8be6e323199b304.html)
     -   [https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/3b533e3723674fad90f94510b92f10af.html](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/3b533e3723674fad90f94510b92f10af.html)
     -   [https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/1b0a7a0938944c7fac978d4b8e23a63f.html](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/1b0a7a0938944c7fac978d4b8e23a63f.html)
+
 -   Using the [Cloud MTA Build Tool](https://sap.github.io/cloud-mta-build-tool/). Afterward, you deploy the MTA using the Cloud Foundry Command Line Interface.
 
     > ### Note:  
@@ -30,6 +31,7 @@ You can create and deploy a Multitarget Application in the Cloud Foundry environ
     -   [https://sap.github.io/cloud-mta-build-tool/](https://sap.github.io/cloud-mta-build-tool/)
     -   [https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/65ddb1b51a0642148c6b468a759a8a2e.html](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/65ddb1b51a0642148c6b468a759a8a2e.html)
     -   [https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c2d31e70a86440a19e47ead0cb349fdb.html](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c2d31e70a86440a19e47ead0cb349fdb.html)
+
 -   Manually - create the required files manually and deploy them using the Cloud Foundry Command Line Interface
 
     > ### Note:  
@@ -44,16 +46,18 @@ You can create and deploy a Multitarget Application in the Cloud Foundry environ
 
 
 
+
+
 <table>
 <tr>
-<th>
+<th valign="top">
 
 To learn more about
 
 
 
 </th>
-<th>
+<th valign="top">
 
 See
 
@@ -62,14 +66,14 @@ See
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Multitarget Application deployment descriptor
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Defining Multitarget Application Deployment Descriptors for Cloud Foundry](Defining_Multitarget_Application_Deployment_Descriptors_for_Cloud_Foundry_f48880b.md)
 
@@ -78,14 +82,14 @@ Multitarget Application deployment descriptor
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Multitarget Application archive
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Defining Multitarget Application Archives](Defining_Multitarget_Application_Archives_33a0e0e.md)
 
@@ -94,14 +98,14 @@ Multitarget Application archive
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Multitarget Application extension descriptor
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Defining MTA Extension Descriptors](Defining_MTA_Extension_Descriptors_50df803.md)
 
@@ -110,30 +114,30 @@ Multitarget Application extension descriptor
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Multitarget Application module types and parameters
 
 
 
 </td>
-<td>
+<td valign="top">
 
-[[DEPRECATED AND DECUPLED] MTA Module Types, Resource Types, and Parameters for Applications in the Cloud Foundry Environment](https://help.sap.com/viewer/6cdb9cff1d9b4877b9da90e5020a32d2//en-US/37eedfdf814d4845ad784334d7ad6f8e.html "This section contains information about the supported MTA modules, their default parameters, properties, and supported resource types available in the Cloud Foundry environment.") :arrow_upper_right:
+
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 How to deploy the Multitarget Application
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Multitarget Application Plug-In for the Cloud Foundry Command Line Interface](../50-administration-and-ops/Multitarget_Application_Plug-In_for_the_Cloud_Foundry_Command_Line_Interface_e93b231.md)
 
@@ -154,14 +158,14 @@ How to deploy the Multitarget Application
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -170,14 +174,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Multitarget application \(MTA\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An application comprised of multiple software modules, which are created with different technologies and deployed to different runtimes.
 
@@ -186,14 +190,14 @@ An application comprised of multiple software modules, which are created with di
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Development descriptor
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `YAML` file named `mta.yaml` that contains a list of all entities, such as modules, resources, and properties that belong to an application or are used by it at runtime, and the dependencies between them. It is automatically generated when an MTA project is created or modified, or when a module is added or removed. The developer needs to edit the descriptor manually to define resources, properties, and dependencies, as well as fill in missing information.
 
@@ -202,14 +206,14 @@ A `YAML` file named `mta.yaml` that contains a list of all entities, such as mod
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Deployment descriptor
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A `YAML` file named `mtad.yaml` that contains a list of all entities which is created from the WEB IDE or from Multitarget Application Archive Builder tool or manually. This file is similar to Development Descriptor but is used from the MTA Deployer.
 
@@ -218,14 +222,14 @@ A `YAML` file named `mtad.yaml` that contains a list of all entities which is cr
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Module
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A self-contained application of a certain type, which is developed, packaged, and deployed.
 
@@ -234,14 +238,14 @@ A self-contained application of a certain type, which is developed, packaged, an
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Module type
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A type that defines the structure and the development technology of a module. You can see a list of the module types at [Modules](Modules_177d34d.md).
 
@@ -250,14 +254,14 @@ A type that defines the structure and the development technology of a module. Yo
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Resource
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Any resource, such as an external service that is required by a module at runtime but not provided by the module itself.
 
@@ -266,14 +270,14 @@ Any resource, such as an external service that is required by a module at runtim
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Property
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A property \(key-value pair\) of an application, module, or resource, that is used during deployment or at runtime.
 
@@ -282,14 +286,14 @@ A property \(key-value pair\) of an application, module, or resource, that is us
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Parameter
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A reserved variable belonging to a module or resource, whose value is used during deployment or at runtime.
 
@@ -298,14 +302,14 @@ A reserved variable belonging to a module or resource, whose value is used durin
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Dependency
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A relationship between a module and another module, resource, or property, such as provides and requires.
 
@@ -319,14 +323,14 @@ A relationship between a module and another module, resource, or property, such 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 MTA archive \(MTAR\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Archive containing a deployment descriptor, the module and resource binaries, and configuration files. The archive follows the JAR file specification.
 
@@ -348,45 +352,6 @@ You have to consider the following limits for the MTA artifacts, which can be ha
 -   Maximum size of MTA module content: 1 GB
 -   Maximum size of MTA resource content: 1 GB
 -   Maximum size of MTA descriptors \(`mtad.yaml` and `MANIFEST.MF`\): 1 MB
-
--   **[Benefits of the Multitarget Application Model for the Cloud Foundry Environment](Benefits_of_the_Multitarget_Application_Model_for_the_Cloud_Foundry_Environment_8d2a68a.md "The benefits of the multitarget application (MTA) approach can be related to the three
-			“A”s that the MTA offers - Abstraction, Automation, and Assembly.")**  
-The benefits of the multitarget application \(MTA\) approach can be related to the three “A”s that the MTA offers - Abstraction, Automation, and Assembly.
--   **[Getting Started](Getting_Started_0ce9938.md "This section lists the example steps to deploy your first multitarget application. An
-		mtar archive and an extension descriptor (optional) are used to execute the
-		deployment.")**  
-This section lists the example steps to deploy your first multitarget application. An mtar archive and an extension descriptor \(optional\) are used to execute the deployment.
--   **[Defining Multitarget Application Development Descriptors](Defining_Multitarget_Application_Development_Descriptors_c2d31e7.md "Multitarget Applications are defined in a development descriptor required for
-		design-time purposes.")**  
-Multitarget Applications are defined in a development descriptor required for design-time purposes.
--   **[Defining Multitarget Application Archives](Defining_Multitarget_Application_Archives_33a0e0e.md "You package the MTA deployment descriptor and module binaries in an MTA archive. You can
-		manually do so as described below, or alternatively use the Cloud MTA Build
-		tool.")**  
-You package the MTA deployment descriptor and module binaries in an MTA archive. You can manually do so as described below, or alternatively use the Cloud MTA Build tool.
--   **[Defining Multitarget Application Deployment Descriptors for Cloud Foundry](Defining_Multitarget_Application_Deployment_Descriptors_for_Cloud_Foundry_f48880b.md)**  
-
--   **[Multitarget Application Structure](Multitarget_Application_Structure_f443b9f.md "The following chapter contains information about:")**  
-The following chapter contains information about:
--   **[Defining MTA Extension Descriptors](Defining_MTA_Extension_Descriptors_50df803.md)**  
-
--   **[SAP Business Technology Platform Capabilities](SAP_Business_Technology_Platform_Capabilities_1d6f3ca.md "This section contains information about how to manage standard Cloud
-                                Foundry entities
-		with MTA modelling.")**  
-This section contains information about how to manage standard Cloud Foundry entities with MTA modelling.
--   **[Features](Features_d50d040.md "The section describes multitarget application-specific features available in the Cloud
-                                Foundry
-		environment of the SAP Business Technology
-                                Platform.")**  
-The section describes multitarget application-specific features available in the Cloud Foundry environment of the SAP Business Technology Platform.
--   **[Transporting Multitarget Applications in Cloud Foundry using CTS+](Transporting_Multitarget_Applications_in_Cloud_Foundry_using_CTS+_c9a4069.md "You can enable transport of SAP BTP applications and
-		application content that is available as Multitarget Applications (MTA) using the Enhanced
-		Change and Transport System (CTS+).")**  
-You can enable transport of SAP BTP applications and application content that is available as Multitarget Applications \(MTA\) using the Enhanced Change and Transport System \(CTS+\).
--   **[Frequently Asked Questions](Frequently_Asked_Questions_6062ecc.md "")**  
-
--   **[Troubleshooting](Troubleshooting_3530af7.md "This section contains information about the following problems that may occur during the
-		Multitarget Application deployment:")**  
-This section contains information about the following problems that may occur during the Multitarget Application deployment:
 
 **Related Information**  
 

@@ -21,9 +21,11 @@ Making a `GET` request to “`/my/logout`” triggers a client-initiated central
     -   Deletes the user session
     -   Requests the log out paths for all your back-end services \(if you provided these paths in the `destinations` and `service` properties\).
     -   Redirects to the authentication service \(UAA or Indentity Authentication - depending on which service you are using for the authentication\), if such a service is provided, and logs out from there.
+
 -   Session time out
     -   Deletes the user session
     -   Requests the log out paths for all your back-end services \(if you provided these paths in the `destinations` and `service` properties\).
+
 
 You can use the `logoutPage` property to specify the Web page in one of the following ways:
 

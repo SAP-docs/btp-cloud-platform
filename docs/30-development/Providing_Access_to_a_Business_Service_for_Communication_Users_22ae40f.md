@@ -19,8 +19,3 @@ You can provide access the following ways:
 -   Unrestricted access
 -   Access based on activties from an authorization object
 
--   **[Granting \(Unrestricted\) Access for Communication Users](Granting_(Unrestricted)_Access_for_Communication_Users_3cd6f05.md "In this scenario, you get information about how to grant unrestricted access for communication users with a few steps.")**  
-In this scenario, you get information about how to grant unrestricted access for communication users with a few steps.
--   **[Granting Access Based on Activities for Communication Users](Granting_Access_Based_on_Activities_for_Communication_Users_bc9c2c9.md "In this scenario, you grant access depending on what the communication user should be allowed to do, for example, read or write access. ")**  
-In this scenario, you grant access depending on what the communication user should be allowed to do, for example, read or write access.
-

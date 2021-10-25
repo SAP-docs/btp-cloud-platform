@@ -25,21 +25,21 @@ Create a new branch.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Header
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Required
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Values
 
@@ -48,21 +48,21 @@ Values
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Accept
 
 
 
 </td>
-<td>
+<td valign="top">
 
 no
 
 
 
 </td>
-<td>
+<td valign="top">
 
 application/json
 
@@ -73,21 +73,21 @@ application/xml
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Content-Type
 
 
 
 </td>
-<td>
+<td valign="top">
 
 no
 
 
 
 </td>
-<td>
+<td valign="top">
 
 application/json
 
@@ -98,21 +98,21 @@ application/xml
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 x-csrf-token
 
 
 
 </td>
-<td>
+<td valign="top">
 
 yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Value of x-csrf-token
 
@@ -131,35 +131,35 @@ Value of x-csrf-token
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Required
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Data Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Parameter Type
 
@@ -168,35 +168,35 @@ Parameter Type
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 sc\_name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 string
 
 
 
 </td>
-<td>
+<td valign="top">
 
 name of the software component
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Request body
 
@@ -205,35 +205,35 @@ Request body
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 branch\_name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 string
 
 
 
 </td>
-<td>
+<td valign="top">
 
 name of the branch
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Request body
 
@@ -242,35 +242,35 @@ Request body
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 derived\_from
 
 
 
 </td>
-<td>
+<td valign="top">
 
 yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 string
 
 
 
 </td>
-<td>
+<td valign="top">
 
 name of the original branch form which the branch was derived
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Request body
 
@@ -315,21 +315,21 @@ Request body
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Code
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Reason
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -338,21 +338,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 201
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Created
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Branch was created successfully
 
@@ -361,21 +361,21 @@ Branch was created successfully
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 400
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Bad Request
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Could not create a branch due to the values passed in the request body.
 

@@ -43,9 +43,11 @@ To set up outbound communication between two communication partners, developers 
 
 -   **Step 1, option 1**: Creating a communication system that represents the communication partner. See [How To Create Communication Systems](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c2234acd55774ebcbedb66744199273e.html).
     -   Maintaining the host name and port of the communication partner and the user credentials via a communication user. See [How to Create Communication Users](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0377adea0401467f939827242c1f4014.html).
+
 -   **Step 1, option 2**: Creating a communication system that represents a destination. See [Using the Destinations Editor in the Cockpit](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/565fdb3dd19d4cda80864341dc5a0451.html).
     -   **Option a**: Maintaing the credentials in a destination of your subaccount by enabling the destination service in the technical data.
     -   **Option b**: Maintaining the credentials in a destination service instance. See [Create and Bind a Destination Service Instance](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/9fdad3cad92e4b63b73d5772014b380e.html) and [Create a Destination](Create_a_Destination_3fa7934.md).
+
 -   **Step 2**: Creating a communication arrangement by enabling the destination service. See [How To Create Communication Arrangements](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/a0771f6765f54e1c8193ad8582a32edb.html) and [Service Consumption via Communication Arrangements](Service_Consumption_via_Communication_Arrangements_86aece6.md).
 
 > ### Recommendation:  
@@ -69,9 +71,6 @@ DATA(lv_dest) = cl_http_destination_provider=>create_by_url( i_url = 'https://ww
 
 > ### Recommendation:  
 > We recommend using the `create_by_comm_arrangement` method for outbound communication.
-
--   **[Service Consumption Model](Service_Consumption_Model_beda304.md "")**  
-
 
 **Related Information**  
 

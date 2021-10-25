@@ -15,13 +15,13 @@ To enable the *Landscape Portal*, you need to subscribe to it in the SAP BTP coc
 
 1.  Sign into your account in the *SAP BTP Cockpit*.
 2.  Select your global account, then navigate to *Subaccounts* and select your production subaccount.
-3.  Navigate to *Subscriptions*.
-4.  The *Landscape Portal*tile is now visible but still says "*Not subscribed*".
-5.  Click the tile to subscribe to it. The subscription process might take a few minutes. When everything is ready, the tile will say *Subscribed*. From now on, you can open the Landscape Portal simply by navigating to the tile and clicking on*Go to application*.
+3.  Navigate to *Service Marketplace*.
+4.  The *Landscape Portal*tile is now visible and says "*Not subscribed*".
+5.  Click the tile to subscribe to it. The subscription process might take a few minutes. When everything is ready, the tile will say *Subscribed*. From now on, you can open the *Landscape Portal* simply by navigating to the tile and clicking on*Go to application*.
 
 
 
-In order to log into the *Landscape Portal* app, a user first needs to be assigned the necessary role collection. This is done by the security administrators in the SAP BTP cockpit. For more information on how to add security administrators, see [Add Security Administrators to Your Subaccount \[Feature Set A\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/fea877c449ba4c5fbb0aafd92a80afb4.html).
+In order to log into the *Landscape Portal*, a user first needs to be assigned the necessary role collection. This is done by the security administrators in the SAP BTP cockpit. For more information on how to add security administrators, see [Add Security Administrators to Your Subaccount \[Feature Set A\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/fea877c449ba4c5fbb0aafd92a80afb4.html).
 
 
 

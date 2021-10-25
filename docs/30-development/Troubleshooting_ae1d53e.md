@@ -17,14 +17,14 @@ A troubleshooting guide for HTML5 application repository.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -33,14 +33,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Issue
 
 
 
 </td>
-<td>
+<td valign="top">
 
 HTML5 Application Deployment fails with error "Application metadata for application xyz already exists."
 
@@ -49,14 +49,14 @@ HTML5 Application Deployment fails with error "Application metadata for applicat
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cause
 
 
 
 </td>
-<td>
+<td valign="top">
 
 There is already an app-host service instance that contains a manifest.json with app.id = xyz in this space it is not possible to have multiple app-hosts containing the same app.id.
 
@@ -65,14 +65,14 @@ There is already an app-host service instance that contains a manifest.json with
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Solution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Delete or do not deploy the old app-host instance or use another app.id in the resources folder for a new app-host.
 
@@ -89,14 +89,14 @@ Delete or do not deploy the old app-host instance or use another app.id in the r
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -105,14 +105,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Issue
 
 
 
 </td>
-<td>
+<td valign="top">
 
 After subscribing to the application router using the <subdomain\>-<myapprouter\>.<scp domain\> format, the calling the application router fails with error "route not found".
 
@@ -121,14 +121,14 @@ After subscribing to the application router using the <subdomain\>-<myapprouter\
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cause
 
 
 
 </td>
-<td>
+<td valign="top">
 
 In order to support subscriptions out of the box, a route with format \*.<custom-domain\> should be created and mapped to the application router. The \* host represents a wildcard that is replaced by the actual subscriber subdomain during runtime.
 
@@ -139,14 +139,14 @@ Without a custom domain, this type of route \(wildcard host\) cannot be created;
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Solution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 In development setups, if you don't have a custom domain before subscription, then create a route with the expected subscriber subdomain.
 
@@ -163,14 +163,14 @@ In development setups, if you don't have a custom domain before subscription, th
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -179,14 +179,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Issue
 
 
 
 </td>
-<td>
+<td valign="top">
 
 When trying to upload content, it fails with error: "Upload failed".
 
@@ -195,14 +195,14 @@ When trying to upload content, it fails with error: "Upload failed".
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cause
 
 
 
 </td>
-<td>
+<td valign="top">
 
 One or more of the input validations performed by HTML5 application repository failed. The possible validation failures are:
 
@@ -220,14 +220,14 @@ One or more of the input validations performed by HTML5 application repository f
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Solution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Check if one of the causes is your issue. For example, check the size of your html5-app-deployer resources folder, check manifest.json. If you are not sure if another service instance already uses your app.id, try making a small change to your app.id and deploy it again.
 
@@ -244,14 +244,14 @@ Check if one of the causes is your issue. For example, check the size of your ht
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -260,14 +260,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Issue
 
 
 
 </td>
-<td>
+<td valign="top">
 
 HTML5 application repository deployment fails with error "app-host is being modified by another process."
 
@@ -276,14 +276,14 @@ HTML5 application repository deployment fails with error "app-host is being modi
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cause
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The HTML5 application repository deployer attempts to upload content while another deployer is also uploading content using the same app-host.
 
@@ -292,14 +292,14 @@ The HTML5 application repository deployer attempts to upload content while anoth
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Solution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Try again after the first HTML5 application repository deployer has completed its upload.
 
@@ -316,14 +316,14 @@ Try again after the first HTML5 application repository deployer has completed it
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -332,14 +332,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Issue
 
 
 
 </td>
-<td>
+<td valign="top">
 
 HTML5 application repository deployment fails with error "Deploy in progress" or "Redeploy in progress" and response type 409 for a long time or any other issue.
 
@@ -348,14 +348,14 @@ HTML5 application repository deployment fails with error "Deploy in progress" or
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cause
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If something happens during the upload, it might cause some inconsistencies.
 
@@ -364,14 +364,14 @@ If something happens during the upload, it might cause some inconsistencies.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Solution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Delete the content of one or more multiple app-hosts, and reset the state to initial without deleting the service instances. Use the following command line in the CF CLI HTML5 application repository plug-in:
 
@@ -392,14 +392,14 @@ cf html5-delete --content <app-host-id> [...]
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -408,14 +408,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Issue
 
 
 
 </td>
-<td>
+<td valign="top">
 
 When trying to upload content, it fails with error: "Error while parsing request; Error: maximum file length exceeded".
 
@@ -424,14 +424,14 @@ When trying to upload content, it fails with error: "Error while parsing request
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cause
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The zipped application file length exceeds the size limit of the app-host service instance.
 
@@ -440,14 +440,14 @@ The zipped application file length exceeds the size limit of the app-host servic
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Solution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Increase the app-host size limit using the update service. For example: `cf update-service my-app-host -c '{"sizeLimit":100}'`.
 
@@ -464,14 +464,14 @@ Increase the app-host size limit using the update service. For example: `cf upda
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -480,14 +480,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Issue
 
 
 
 </td>
-<td>
+<td valign="top">
 
 When trying to upload content using the `cf push` command, it fails with error: "Failed to make TCP connection to port 8080: connection refused. Timed out after 1m0s: health check never passed."
 
@@ -496,14 +496,14 @@ When trying to upload content using the `cf push` command, it fails with error: 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cause
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The `cf push` plugin checks if the start process is finished. If the process times out, then it tries to start it again.
 
@@ -512,14 +512,14 @@ The `cf push` plugin checks if the start process is finished. If the process tim
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Solution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Set `health-check-type` to `none` in the manifest.yaml of the HTML5 Application Deployer.
 
@@ -536,14 +536,14 @@ Set `health-check-type` to `none` in the manifest.yaml of the HTML5 Application 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -552,14 +552,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Issue
 
 
 
 </td>
-<td>
+<td valign="top">
 
 When trying to upload content, you receive the following error: "Uploading application content failed: application's size exceeds the maximum size limit of 100 MB".
 
@@ -568,14 +568,14 @@ When trying to upload content, you receive the following error: "Uploading appli
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cause
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The unzipped applications content exceeds the size limit \(deprecated\) of the app-host service instance.
 
@@ -584,14 +584,14 @@ The unzipped applications content exceeds the size limit \(deprecated\) of the a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Solution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Deploy an application that is less than 100 MB or remove some of your applications and move them to another app-host. .
 
@@ -614,14 +614,14 @@ Deploy an application that is less than 100 MB or remove some of your applicatio
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -630,14 +630,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Issue
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Serving content from the HTML5 application repository fails with error "Invalid App Host ID. Please check with business service provider if the requested App Host ID is valid".
 
@@ -646,14 +646,14 @@ Serving content from the HTML5 application repository fails with error "Invalid 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Caution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 HTML5 application repository belongs to a business service and the app host ID is invalid or incompatible.
 
@@ -662,14 +662,14 @@ HTML5 application repository belongs to a business service and the app host ID i
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Solution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Ask the business service owner to define`"public" : true` in the app manifest.json or wait until the HTML5 application repository is restarted.
 
@@ -686,14 +686,14 @@ Ask the business service owner to define`"public" : true` in the app manifest.js
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -702,14 +702,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Issue
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Serving content from the application router fails with error "Unauthorized. Please check with the business service UI provider if the requested UI is defined as public".
 
@@ -718,14 +718,14 @@ Serving content from the application router fails with error "Unauthorized. Plea
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cause
 
 
 
 </td>
-<td>
+<td valign="top">
 
 HTML5 application repository belongs to a business service and it is not public.
 
@@ -734,14 +734,14 @@ HTML5 application repository belongs to a business service and it is not public.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Solution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Ask the business service owner to define `"public": true` in the app manifest.json.
 
@@ -758,14 +758,14 @@ Ask the business service owner to define `"public": true` in the app manifest.js
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -774,14 +774,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Issue
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The HTML5 application repository fails to serve content. The application log states: "Application xyz does not exist" is printed to the console.
 
@@ -790,14 +790,14 @@ The HTML5 application repository fails to serve content. The application log sta
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cause
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The application name provided in URL is not correct. Application names are stored in HTML5 application repository without using full stops as separators in the URL. If *manifest.json app.id* equals *country.list*, then the application name is *countrylist* and the same application name should be used in URL.
 
@@ -806,14 +806,14 @@ The application name provided in URL is not correct. Application names are store
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Solution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Check the application name.
 
@@ -830,14 +830,14 @@ Check the application name.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -846,14 +846,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Issue
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You have defined routes in a UI app's local xs-app.json but calls do not get routed and instead return a 404 error.
 
@@ -862,14 +862,14 @@ You have defined routes in a UI app's local xs-app.json but calls do not get rou
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cause
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The routes in the xs-app.json file are processed top to bottom. If a route maps the pattern, it is picked even if a route below it is a better match. The route for the HTML5 application repository typically is a "catch all" route, and if any routes are defined below it, then they are never reached.
 
@@ -878,14 +878,14 @@ The routes in the xs-app.json file are processed top to bottom. If a route maps 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Solution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Move the route leading to the html5-apps-repo-rt to be the last entry in the xs-app.json file.
 
@@ -902,14 +902,14 @@ Move the route leading to the html5-apps-repo-rt to be the last entry in the xs-
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -918,14 +918,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Issue
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Serving content fails with error "Error while retrieving xsApp configuration".
 
@@ -934,14 +934,14 @@ Serving content fails with error "Error while retrieving xsApp configuration".
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cause
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The HTML5 application repository is not available.
 
@@ -950,14 +950,14 @@ The HTML5 application repository is not available.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Solution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Wait until HTML5 application repository is restarted.
 
@@ -974,14 +974,14 @@ Wait until HTML5 application repository is restarted.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -990,14 +990,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Issue
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Serving content from the application router failed with an internal server error. In the approuter application log, an error: "Destination <destinationName\> is not defined as a dynamic destination in destination service, configure additional property HTML5.DynamicDestination true" appears.
 
@@ -1006,14 +1006,14 @@ Serving content from the application router failed with an internal server error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cause
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The destination name provided on the host or path level is not defined as a dynamic destination in destination service.
 
@@ -1022,14 +1022,14 @@ The destination name provided on the host or path level is not defined as a dyna
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Solution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 In the additional properties section of the destination section of the SAP BTP cockpit, add the `HTML5.DynamicDestination` property and set the value to *true*.
 
@@ -1046,14 +1046,14 @@ In the additional properties section of the destination section of the SAP BTP c
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
  
 
 
 
 </th>
-<th>
+<th valign="top">
 
  
 
@@ -1062,14 +1062,14 @@ In the additional properties section of the destination section of the SAP BTP c
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Issue
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Serving content from the application router fails with error "Application does not have xs-app.json".
 
@@ -1078,14 +1078,14 @@ Serving content from the application router fails with error "Application does n
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cause
 
 
 
 </td>
-<td>
+<td valign="top">
 
 xs-app.json file is missing in HTML5 Application.
 
@@ -1094,14 +1094,14 @@ xs-app.json file is missing in HTML5 Application.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Solution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Redeploy the HTML5 Application with xs-app.json file or ask the business service owner to add the xs-app.json.
 
@@ -1118,14 +1118,14 @@ Redeploy the HTML5 Application with xs-app.json file or ask the business service
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -1134,14 +1134,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Issue
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The `app-router` token exchange with a business service token fails. XSUAA returns the following error: "Bearer token invalid, requesting client does not have grant\_type=user\_token or no scopes were granted."
 
@@ -1150,14 +1150,14 @@ The `app-router` token exchange with a business service token fails. XSUAA retur
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cause
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The uaa.user scope in XSUAA instance configuration is missing or the target business service is not subscribed.
 
@@ -1166,14 +1166,14 @@ The uaa.user scope in XSUAA instance configuration is missing or the target busi
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Solution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1.  If missing, add the following to the `n xs-security.json` file:
 
@@ -1201,14 +1201,14 @@ Solution
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -1217,14 +1217,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Issue
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Your application does not work properly after logging out and when you try to log back in, for example, click anywhere on the application screen, nothing happens.
 
@@ -1233,14 +1233,14 @@ Your application does not work properly after logging out and when you try to lo
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cause
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The main page of your application, that appears after you log in, is cached by the browser. Clicking links does not reach the backend \(application router\) and the log in process does not work.
 
@@ -1249,14 +1249,14 @@ The main page of your application, that appears after you log in, is cached by t
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Solution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Check that the main page is not configured to be cached by the browser in your xs-app.json file. The best practice is to model the cacheControl as follows:
 
@@ -1287,14 +1287,14 @@ Check that the main page is not configured to be cached by the browser in your x
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Term
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -1303,14 +1303,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Issue
 
 
 
 </td>
-<td>
+<td valign="top">
 
 After subscribing to the application router using `<subdomain>-<myapprouter>.<scp domain>` format, it fails and returns the following error, "route not found."
 
@@ -1319,14 +1319,14 @@ After subscribing to the application router using `<subdomain>-<myapprouter>.<sc
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cause
 
 
 
 </td>
-<td>
+<td valign="top">
 
 In order to support subscriptions out-of-the-box, create a route using `*.<custom-domain>` format and map it to the application router. The `* host` represents a wildcard that during runtime should be replaced by the actual subscriber sub-domain.
 
@@ -1337,14 +1337,14 @@ Without a custom domain, this type of route \(wildcard host\) cannot be created,
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Solution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If you do not have a custom domain before subscribing to the application router, create a route with the expected subscriber sub-domain.
 

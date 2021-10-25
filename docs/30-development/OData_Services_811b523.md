@@ -23,16 +23,3 @@ OData Services provide the following:
 -   [Conditional Handling](Conditional_Handling_80fac43.md)
 
 
--   **[OData Client Proxy](OData_Client_Proxy_0d92f49.md "")**  
-
--   **[Action Advertisement](Action_Advertisement_be7bea1.md "")**  
-
--   **[Asynchronous Processing for Service Provisioning](Asynchronous_Processing_for_Service_Provisioning_985a0fd.md "A Prefer header with a
-			respond-async preference allows clients to
-		process a data service request asynchronously.")**  
-A *Prefer* header with a `respond-async` preference allows clients to process a data service request asynchronously.
--   **[Conditional Handling](Conditional_Handling_80fac43.md "")**  
-
--   **[Amount and Measure Conversion Handling](Amount_and_Measure_Conversion_Handling_1d821f4.md "")**  
-
-

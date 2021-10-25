@@ -28,13 +28,3 @@ The process for creating a service instance depends on the environment you are u
 -   For Kyma environment, see [Create an SAP SuccessFactors Extensibility Service Instance in the Kyma Environment](Create_an_SAP_SuccessFactors_Extensibility_Service_Instance_in_the_Kyma_Environment_f371f81.md).
 
 
--   **[Create an SAP SuccessFactors Extensibility Service Instance in the Cloud Foundry Environment](Create_an_SAP_SuccessFactors_Extensibility_Service_Instance_in_the_Cloud_Foundry_Environment_8b774e4.md "To enable the integration of your extension applications with the SAP SuccessFactors
-		system you have registered in the global account in SAP BTP, you first need to
-		create a service instance of the corresponding service. ")**  
-To enable the integration of your extension applications with the SAP SuccessFactors system you have registered in the global account in SAP BTP, you first need to create a service instance of the corresponding service.
--   **[Create an SAP SuccessFactors Extensibility Service Instance in the Kyma Environment](Create_an_SAP_SuccessFactors_Extensibility_Service_Instance_in_the_Kyma_Environment_f371f81.md "")**  
-
--   **[Authentication Type JSON File](Authentication_Type_JSON_File_543fbd6.md "Use the authentication type JSON descriptor to define the authentication type for the
-		inbound connectivity to the SAP SuccessFactors HXM Suite OData API.")**  
-Use the authentication type JSON descriptor to define the authentication type for the inbound connectivity to the SAP SuccessFactors HXM Suite OData API.
-

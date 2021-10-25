@@ -46,6 +46,3 @@ You can use this app to:
 
 If you need support or experience issues, please report an incident under component `BC-SRV-APS-IAM`.
 
--   **[How to Handle Deprecated Business Catalogs](How_to_Handle_Deprecated_Business_Catalogs_b727290.md "")**  
-
-

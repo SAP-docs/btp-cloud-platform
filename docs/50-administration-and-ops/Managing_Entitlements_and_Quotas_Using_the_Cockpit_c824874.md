@@ -18,28 +18,28 @@ There are two places in the SAP BTP cockpit where you can view and configure ent
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Page in cockpit
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Navigation Level
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Visible to
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Permissions
 
@@ -48,28 +48,28 @@ Permissions
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Entitlements* \> *Subaccount Assignments*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Global account level
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Global account administrators only
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   View & Edit - Global account administrators
 
@@ -78,28 +78,28 @@ Global account administrators only
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Entitlements* \> *Service Assignments*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Global account level
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Global account administrators only
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   View - Global account administrators \(you cannot make changes to entitlements or quota assignments from this page\)
 
@@ -108,28 +108,28 @@ Global account administrators only
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Entitlements*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Subaccount level
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Subaccount members \(regardless of whether they are also global account administrators or not\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   View - Subaccount members who are not global account administrators
 -   View & Edit - Global account administrators who are also subaccount members
@@ -145,28 +145,28 @@ Subaccount members \(regardless of whether they are also global account administ
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Page in cockpit
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Navigation Level
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Visible to
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Permissions
 
@@ -175,28 +175,28 @@ Permissions
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Entitlements* \> *Entity Assignments*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Global account level
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Global account administrators only
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   View & Edit - Global account administrators
 
@@ -205,28 +205,28 @@ Global account administrators only
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Entitlements* \> *Service Assignments*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Global account level
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Global account administrators only
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   View - Global account administrators \(you cannot make changes to entitlements or quota assignments from this page\)
 
@@ -235,28 +235,28 @@ Global account administrators only
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Entitlements*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Subaccount level
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Subaccount members \(regardless of whether they are also global account administrators or not\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   View - Subaccount members who are not global account administrators
 -   View & Edit - Global account administrators who are also subaccount members
@@ -284,16 +284,7 @@ In the Cloud Foundry environment, you can further distribute the quotas that are
 
 > ### Note:  
 > -   In global accounts that use the consumption-based commercial model, SAP BTP, Cloud Foundry Runtime is not listed in the *Entitlements* pages in the SAP BTP cockpit. A quota limit of 50 GB of Cloud Foundry Runtime memory is assigned by default to every subaccount.
-> -   If you need to increase this limit, report an incident to [SAP support](https://support.sap.com) on the BC-NEO-CIS component. This also applies to other services that have technical quota limit.
-
--   **[Configure Entitlements and Quotas for Directories \[Feature Set B\]](Configure_Entitlements_and_Quotas_for_Directories_Feature_Set_B_37f8871.md "Assign entitlements to directories by adding service plans and distribute the
-			quotas available in your global account to your directories using the SAP BTP
-                                    cockpit.")**  
-Assign entitlements to directories by adding service plans and distribute the quotas available in your global account to your directories using the SAP BTP cockpit.
--   **[Configure Entitlements and Quotas for Subaccounts](Configure_Entitlements_and_Quotas_for_Subaccounts_5ba357b.md "Assign entitlements to subaccounts by adding service plans and distribute the quotas
-		available in your global account to your subaccounts using the SAP BTP
-                                    cockpit.")**  
-Assign entitlements to subaccounts by adding service plans and distribute the quotas available in your global account to your subaccounts using the SAP BTP cockpit.
+> -   If you need to increase this limit, report an incident to [SAP support](https://support.sap.com) on the BC-NEO-CIS component. This also applies to other services that have a technical quota limit.
 
 **Related Information**  
 

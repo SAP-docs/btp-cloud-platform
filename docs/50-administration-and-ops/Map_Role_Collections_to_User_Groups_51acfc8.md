@@ -36,7 +36,7 @@ You can also map role collections to attributes other than groups. For more info
 
 ## Procedure
 
-1.  Go to your subaccount \(see [Navigate to Orgs and Spaces](Navigate_to_Orgs_and_Spaces_5bf8735.md)\) and choose *Security* \> *Role Collections*.
+1.  Go to your subaccount \(see [Navigate in the Cockpit](Navigate_in_the_Cockpit_0874895.md)\) and choose *Security* \> *Role Collections*.
 
 2.  Search for and choose a role collection.
 

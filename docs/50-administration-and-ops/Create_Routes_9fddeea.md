@@ -1,5 +1,7 @@
 <!-- loio9fddeea396b34b528bc8d286f3d5d9cf -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Create Routes
 
 You can configure the URLs through which end users can reach your applications.
@@ -27,14 +29,14 @@ The following steps guide you through the procedure of creating routes by using 
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Parameter
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Details
 
@@ -43,14 +45,14 @@ The following steps guide you through the procedure of creating routes by using 
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ****Domain****
+    **Domain**
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     From the dropdown menu, you can choose either a shared domain \(for example, the default `**cfapps.<region\>.hana.ondemand.com**`\) or a private domain that you've previously created using the CF CLI.
 
@@ -63,14 +65,14 @@ The following steps guide you through the procedure of creating routes by using 
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ****Host Name** **
+    **Host Name** 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The host name is your desired subdomain. In the URL, it’s added before the selected domain, as follows:
 
@@ -83,14 +85,14 @@ The following steps guide you through the procedure of creating routes by using 
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ****Path****
+    **Path**
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     In addition to the domain and subdomain, you can also add a path. You can use paths if you want to create routes for multiple applications available for the same host name and domain. The path becomes part of the URL as follows:
 
@@ -113,7 +115,7 @@ The following steps guide you through the procedure of creating routes by using 
 
 ## Next Steps
 
-Once you’ve created a route, you must map it to your application. Additionally, you also have the option to bind it to a route service instance, by choosing     \(Bind Route Service\) from the *Actions* column.
+Once you’ve created a route, you must map it to your application. Additionally, you also have the option to bind it to a route service instance, by choosing <span class="SAP-icons"></span> \(Bind Route Service\) from the *Actions* column.
 
 **Related Information**  
 

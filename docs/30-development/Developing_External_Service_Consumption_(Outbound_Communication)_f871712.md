@@ -43,11 +43,6 @@ Usage of communication arrangements is generally recommended for new development
 
 To enable simple receiver determination, you as a developer can allow multiple instances of communication arrangements of the same communication scenario. By using CL\_COM\_ARRANGEMENT\_FACTORY, you can evaluate the customer-specific properties of a communication arrangement to decide at runtime, which communication system should be chosen for outbound communication.
 
--   **[Service Consumption via Communication Arrangements](Service_Consumption_via_Communication_Arrangements_86aece6.md "")**  
-
--   **[OData Services](OData_Services_811b523.md "")**  
-
-
 **Related Information**  
 
 

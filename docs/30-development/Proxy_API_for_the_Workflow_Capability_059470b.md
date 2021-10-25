@@ -1,8 +1,8 @@
 <!-- loio059470b6349d482f89eb9993be14ec00 -->
 
-# Proxy API for SAP Workflow Service
+# Proxy API for the Workflow Capability
 
-With this proxy API, you can start workflows of SAP Workflow service out of your ABAP Environment.
+With this proxy API, you can start workflows of the workflow capability within SAP Workflow Management out of your ABAP Environment.
 
 
 
@@ -19,7 +19,7 @@ You've executed the integration steps in your ABAP environment. See [Workflow In
 
 
 > ### Sample Code:  
-> This coding sample shows how to start a workflow of SAP Workflow service.
+> This coding sample shows how to start a workflow of the workflow capability.
 > 
 > ```lang-abap
 > 
@@ -122,8 +122,4 @@ You've executed the integration steps in your ABAP environment. See [Workflow In
 >     ENDTRY.
 > 
 > ```
-
--   **[Workflow Integration](Workflow_Integration_b7931f7.md "You can enable the communication between the ABAP environment and the workflow capability within the SAP Workflow Management
-		service.")**  
-You can enable the communication between the ABAP environment and the workflow capability within the SAP Workflow Management service.
 

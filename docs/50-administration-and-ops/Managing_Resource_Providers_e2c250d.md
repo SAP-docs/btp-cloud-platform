@@ -1,5 +1,7 @@
 <!-- loioe2c250dc5abd468a81f4f619206157a2 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Managing Resource Providers
 
  SAP BTP allows you to connect your global account in the SAP BTP cockpit to your provider account from a non-SAP cloud vendor, and consume remote service resources that you already own and which are supported by SAP through this channel.
@@ -18,14 +20,14 @@ SAP BTP currently supports the following vendors and their consumable services:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Cloud Vendor
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Supported Services
 
@@ -34,14 +36,14 @@ Supported Services
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Amazon Web Services
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Amazon Relational Database Service \(RDS\) - PostgreSQL
 
@@ -50,14 +52,14 @@ Amazon Relational Database Service \(RDS\) - PostgreSQL
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Microsoft Azure
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Azure Database for PostgreSQL
 
@@ -69,11 +71,11 @@ Azure Database for PostgreSQL
 
 More information: [PostgreSQL on SAP BTP - Product Documentation](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US) 
 
- <a name="loioe2c250dc5abd468a81f4f619206157a2 task_mjl_zgl_g3b__task_mjl_zgl_g3b"/>
+ <a name="task_mjl_zgl_g3b"/>
 
 <!-- task\_mjl\_zgl\_g3b -->
 
-# Configure a New Resource Provider
+## Configure a New Resource Provider
 
 
 
@@ -143,11 +145,11 @@ To consume the resources provisioned by your provider account, you need to first
 
 After you configure a new resource provider, its supported services are added as entitlements in your global account. In the *Entitlements* page in the cockpit, you can then allocate the required services and quotas to the relevant directories and subaccounts in your global account.
 
- <a name="loioe2c250dc5abd468a81f4f619206157a2 task_vvv_12l_3cb__task_vvv_12l_3cb"/>
+ <a name="task_vvv_12l_3cb"/>
 
 <!-- task\_vvv\_12l\_3cb -->
 
-# Manage Resource Providers and Service Entitlements
+## Manage Resource Providers and Service Entitlements
 
 
 
@@ -174,14 +176,14 @@ Follow these steps to manage the resource providers that you have already config
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Action
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Description
 
@@ -190,16 +192,16 @@ Follow these steps to manage the resource providers that you have already config
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    **       Manage Entitlements and Quotas
-    
-    **
+    <span class="SAP-icons"></span>
+
+    Manage Entitlements and Quotas
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     View the subaccount entitlements and quotas of services that are consumed from a resource provider.
 
@@ -213,16 +215,16 @@ Follow these steps to manage the resource providers that you have already config
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    **       Edit Resource Provider
-    
-    **
+    <span class="SAP-icons"></span>
+
+    Edit Resource Provider
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Edit the display name, description, and configuration properties of a resource provider.
 
@@ -234,16 +236,16 @@ Follow these steps to manage the resource providers that you have already config
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    **       Delete
-    
-    **
+    <span class="SAP-icons"></span>
+
+    Delete
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Delete a resource provider.
 

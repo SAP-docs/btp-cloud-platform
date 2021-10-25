@@ -35,6 +35,7 @@ You have completed the following steps:
 
     -   Annotation `@AnalyticsDetails.query.display: #KEY_TEXT` is used to display the text of the key.
 
+
     For more information on all the different query annotations, see [AnalyticsDetails Annotations](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/362d98c100ed4497aead426b72a64e16.html).
 
      **Query Annotations**

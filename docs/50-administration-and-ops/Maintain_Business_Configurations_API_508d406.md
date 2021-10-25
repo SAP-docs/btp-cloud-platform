@@ -25,6 +25,7 @@ Before using any of the following methods, first obtain an interface handle by c
     -   It must not exceed 20 characters in length.
     -   It must start with a letter and can only contain letters, numbers and underscores. The API uppercases the identifier before storing it in the metadata table.
 
+
 If an error occurs while calling the following methods, an exception of type `cx_mbc_api_exception` will be raised. Use the method `if_xco_news~get_messages` to retrieve all messages that the exception carries.
 
 

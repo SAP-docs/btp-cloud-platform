@@ -21,14 +21,14 @@
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Field
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     User Input
 
@@ -37,14 +37,14 @@
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Name***
+    *Name*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter a name for the destination, for example, ***SAP\_Business\_Application\_Studio***.
 
@@ -53,14 +53,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ** *Type* **
+     *Type* 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
      *HTTP* 
 
@@ -69,14 +69,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Description***
+    *Description*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
      
 
@@ -85,14 +85,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***URL***
+    *URL*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter the URL of the ABAP system that you copied from the `<url>` element in the service key \(see [Creating a Service Key for the ABAP System](Creating_a_Service_Key_for_the_ABAP_System_7af8259.md)\).
 
@@ -101,14 +101,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Proxy Type***
+    *Proxy Type*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     *Internet*
 
@@ -117,14 +117,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Authentication***
+    *Authentication*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     *OAuth2UserTokenExchange​*
 
@@ -133,14 +133,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Client ID***
+    *Client ID*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter the content of the `<clientID>` element that you copied from the `uaa` section of the service key \(see [Creating a Service Key for the ABAP System](Creating_a_Service_Key_for_the_ABAP_System_7af8259.md)\).
 
@@ -149,14 +149,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Client Secret***
+    *Client Secret*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter the content of the `<clientsecret>` element that you copied from the `uaa` section of the service key \(see [Creating a Service Key for the ABAP System](Creating_a_Service_Key_for_the_ABAP_System_7af8259.md)\).
 
@@ -165,14 +165,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Token Service URL Type***
+    *Token Service URL Type*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Choose *Dedicated*.
 
@@ -181,14 +181,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***Token Service URL***
+    *Token Service URL*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter `<uaa-url>/oauth/token`, where `<uaa-url>` is the content of the `<url>` element that you copied from the `uaa` section of the service key \(see [Creating a Service Key for the ABAP System](Creating_a_Service_Key_for_the_ABAP_System_7af8259.md)\).
 
@@ -203,14 +203,14 @@
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Property
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Value
 
@@ -219,14 +219,14 @@
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***HTML5.DynamicDestination***
+    *HTML5.DynamicDestination*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***true***
 
@@ -235,14 +235,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***HTML5.Timeout*​**
+    *HTML5.Timeout*​
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***60000***
 
@@ -251,14 +251,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***WebIDEEnabled***
+    *WebIDEEnabled*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***true***
 
@@ -267,14 +267,14 @@
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
-    ***WebIDEUsage***
+    *WebIDEUsage*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***odata\_abap,dev\_abap,abap\_cloud***
 

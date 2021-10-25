@@ -20,14 +20,14 @@ To create a Cloud Foundry org in a subaccount, you use the Cloud Foundry Runtime
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Plan Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -36,14 +36,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `standard` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 This is an enterprise-grade plan that allows you to create an org in your Cloud Foundry environment to start developing polyglot cloud-native applications.
 
@@ -54,14 +54,14 @@ By default, a Cloud Foundry org that is created with this plan does not have any
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `free` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Use this plan to try out the Cloud Foundry environment without an additional charge before switching to the `standard` plan that supports enterprise-grade productivity.
 
@@ -90,35 +90,35 @@ The btp CLI offers the following environment instance command actions to manage 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Action
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Command
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Parameters
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Additional Info
 
@@ -127,35 +127,35 @@ Additional Info
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `list` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `btp list accounts/environment-instance --subaccount *<SUBACCOUNT\_ID\>*` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 List all the Cloud Foundry orgs and other environment instances in a subaccount.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `SUBACCOUNT_ID`: The ID of the subaccount.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -164,28 +164,28 @@ List all the Cloud Foundry orgs and other environment instances in a subaccount.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `get` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `btp get accounts/environment-instance *<ID\>* --subaccount *<SUBACCOUNT\_ID\>*` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Get the details of a specific Cloud Foundry org in a subaccount.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `ID`: The ID of the environment instance to view.
 
@@ -194,7 +194,7 @@ Get the details of a specific Cloud Foundry org in a subaccount.
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -203,28 +203,28 @@ Get the details of a specific Cloud Foundry org in a subaccount.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `create` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `btp create accounts/environment-instance --subaccount *<SUBACCOUNT\_ID\>* --display-name *<DISPLAY\_NAME\>* --service *<SERVICE\>* --plan *<PLAN\>* --environment cloudfoundry --parameters "{\"instance_name\":\"*<ORG\_NAME\>*\"}"` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Create a Cloud Foundry org in a subaccount.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `SUBACCOUNT_ID`: The ID of the subaccount in which to create the Cloud Foundry org.
 
@@ -237,7 +237,7 @@ Create a Cloud Foundry org in a subaccount.
 
 
 </td>
-<td>
+<td valign="top">
 
 For examples that show how to pass JSON parameters in the command line with different operating systems and shells, see the [Passing JSON Parameters in the Command Line](Passing_JSON_Parameters_in_the_Command_Line_899fe34.md).
 
@@ -246,28 +246,28 @@ For examples that show how to pass JSON parameters in the command line with diff
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `update` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `btp update accounts/environment-instance *<ID\>* --subaccount *<SUBACCOUNT\_ID\>* --plan *<PLAN\>*` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Update an existing Cloud Foundry org in a subaccount.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `ID`: The ID of the environment instance to update
 
@@ -278,7 +278,7 @@ Update an existing Cloud Foundry org in a subaccount.
 
 
 </td>
-<td>
+<td valign="top">
 
 For the Cloud Foundry environment, you can use this command to change only the plan of an existing Cloud Foundry environment instance. In other words, update an org created with the `free` plan of the Cloud Foundry Runtime to the `standard` plan \(not vice versa\).
 
@@ -290,28 +290,28 @@ For the Cloud Foundry environment, you can use this command to change only the p
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `delete` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `btp delete accounts/ environment-instance *<ID\>* --subaccount *<SUBACCOUNT\_ID\>*` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Delete a Cloud Foundry org created in a subaccount.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `ID`: The ID of the environment instance to delete.
 
@@ -320,7 +320,7 @@ Delete a Cloud Foundry org created in a subaccount.
 
 
 </td>
-<td>
+<td valign="top">
 
 The Cloud Foundry org and all its data will be lost.
 

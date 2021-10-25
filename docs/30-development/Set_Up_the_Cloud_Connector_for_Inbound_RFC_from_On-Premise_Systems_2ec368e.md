@@ -66,6 +66,7 @@ In the Cloud Connector, you create a service channel with a local instance numbe
     -   **Do not use load balancing**. As target host, enter the hostname of Cloud Connector. As instance number, enter the local instance number you have used in the configuration of the service channel in the Cloud Connector.
     -   Provide logon credentials for a *communication* user.
     -   Use the connection test in transaction SM59 to verify that the service channel works correctly.
+
     > ### Note:  
     > When calling an RFM, you must write its name in *upper case*.
 

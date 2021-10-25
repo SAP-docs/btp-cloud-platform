@@ -30,6 +30,7 @@ You have assigned business roles and business users.
 
         -   REC\_RAISE\_EVT \(Recipient for raise of event\)
 
+
     3.  Choose the message types the user is allowed to view:
 
         -   Application Error or Technical Error
@@ -45,6 +46,8 @@ You have assigned business roles and business users.
         -   Technical Error
 
         -   None
+
+
 
     For more information, see [Assigning Users to Recipients](https://help.sap.com/viewer/1cefaed5b7a3471cb08564e54d5ba866/4.0/en-US/2e8e31dff6e747249240601291384bc3.html).
 

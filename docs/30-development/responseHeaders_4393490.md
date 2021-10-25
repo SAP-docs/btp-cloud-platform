@@ -11,21 +11,21 @@ The `responseHeaders` property is an array of objects, each object having the fo
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -34,21 +34,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 string
 
 
 
 </td>
-<td>
+<td valign="top">
 
 response header name
 
@@ -57,21 +57,21 @@ response header name
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 value
 
 
 
 </td>
-<td>
+<td valign="top">
 
 string
 
 
 
 </td>
-<td>
+<td valign="top">
 
 response header value
 

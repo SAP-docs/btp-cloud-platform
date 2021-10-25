@@ -65,21 +65,21 @@ For more information, see the example of the binding object in the [Getting an A
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 URL
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Name
 
@@ -88,21 +88,21 @@ Name
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *GET*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `*<URL\>*/saas-manager/v1/application`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `Get application details`
 
@@ -111,21 +111,21 @@ Name
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *POST*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `*<URL\>*/saas-manager/v1/application/tenants/*<tenantId\>*/subscriptions`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `Subscribe the tenant to an application`
 
@@ -134,21 +134,21 @@ Name
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *DELETE*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `*<URL\>*/saas-manager/v1/application/tenants/*<tenantId\>*/subscriptions`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `Unsubscribe the tenant from an application`
 
@@ -157,21 +157,21 @@ Name
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *GET*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `*<URL\>*/saas-manager/v1/application/subscriptions`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `Get application subscriptions`
 
@@ -180,21 +180,21 @@ Name
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *PATCH*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `*<URL\>*/saas-manager/v1/application/tenants/*<tenantId\>*/subscriptions`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `Update subscription dependencies`
 
@@ -203,21 +203,21 @@ Name
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *GET*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `*<URL\>*/api/v2.0/jobs/*<jobId\>*`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `Get subscription job information`
 
@@ -235,21 +235,21 @@ Name
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *PATCH*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `*<URL\>*/saas-manager/v1/applications/*<appName\>*/subscription`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `Update subscription plan`
 
@@ -266,9 +266,4 @@ Name
 > You can use a dedicated interface to manage your multitenant application's subscriptions.
 > 
 > For more information, see [Using the Subscription Management Dashboard](Using_the_Subscription_Management_Dashboard_434be69.md).
-
--   **[Getting an Application Access Token](Getting_an_Application_Access_Token_6391b5d.md "Use this API to get the application access token from the SAP Software-as-a-Service
-                                    Provisioning service
-		instance.")**  
-Use this API to get the application access token from the SAP Software-as-a-Service Provisioning service instance.
 

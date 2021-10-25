@@ -64,6 +64,3 @@ BC-DWB-CEX
 -   Desktop
 
 
--   **[Enable Usage of the Custom Code Migration App](Enable_Usage_of_the_Custom_Code_Migration_App_34f67ed.md "")**  
-
-

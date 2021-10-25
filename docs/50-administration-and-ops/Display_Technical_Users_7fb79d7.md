@@ -34,6 +34,3 @@ You can use this app to:
 -   Tablet
 
 
--   **[SAP Support User Request Log](SAP_Support_User_Request_Log_934a027.md "")**  
-
-

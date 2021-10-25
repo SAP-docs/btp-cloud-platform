@@ -1,5 +1,7 @@
 <!-- loio2e2a5b67f5ba4782a9070534148e8426 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Manage the Account Explorer Hierarchy \[Feature Set B\]
 
 Create an account structure by creating a hierarchy of directories and subaccounts using the SAP BTP cockpit. Add, move, and delete subaccounts and directories in your structure.
@@ -35,19 +37,22 @@ You can create a hierarchical structure that is 7 levels deep. The highest level
 
     1.  When creating a new directory or subaccount, you can choose the parent directory directly in the creation dialog.
 
+
 2.  Move subaccounts in the account structure.
 
-    1.  Click   Actions  and select *Edit*. Then select a new parent.
+    1.  Click <span class="SAP-icons"></span> Actions and select *Edit*. Then select a new parent.
 
-    2.  Click   Actions  and select *Move*. Then select a new parent.
+    2.  Click <span class="SAP-icons"></span> Actions and select *Move*. Then select a new parent.
 
-    3.  Click   Move  to move subaccounts by drag and dropping.
+    3.  Click <span class="SAP-icons"></span> Move to move subaccounts by drag and dropping.
+
 
 3.  Delete directories and subaccounts from the account structure.
 
-    1.  Click   Actions  and select *Delete*.
+    1.  Click <span class="SAP-icons"></span> Actions and select *Delete*.
 
     2.  To delete a subaccount, you can also navigate into the subaccount and click *Delete Subaccount*.
+
 
 
 **Related Information**  

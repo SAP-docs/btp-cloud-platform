@@ -37,6 +37,7 @@ To add a message to an application log, an instance of interface `IF_BALI_MESSAG
 
     -   SY-MSGV4
 
+
 -   `CREATE_FROM_BAPIRET2`: It allows to set all message parameters via structure `BAPIRET2`.
 
 

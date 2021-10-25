@@ -27,14 +27,14 @@ To integrate SAP BTP and SAP Customer Experience products so that you can build 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Process Step
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Related Documentation
 
@@ -43,7 +43,7 @@ Related Documentation
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1. Connect the SAP Customer Experience system you want to extend with the corresponding global account in SAP BTP.
 
@@ -52,7 +52,7 @@ During the registration process you create an integration token which is then us
 
 
 </td>
-<td>
+<td valign="top">
 
 [Register an SAP Customer Experience System](Register_an_SAP_Customer_Experience_System_1582d72.md)
 
@@ -61,7 +61,7 @@ During the registration process you create an integration token which is then us
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 2. Configure the integration on SAP Customer Experience side.
 
@@ -70,7 +70,7 @@ To do so, you pair the integration token with your SAP Customer Experience syste
 
 
 </td>
-<td>
+<td valign="top">
 
 -   For an SAP Commerce Cloud system, see **steps 2-7** in [Retrieving Client Certificate](https://help.sap.com/viewer/bad9b0b66bac476f8a4a5c4a08e4ab6b/v2011/en-US/becb28f8b8ee45d496ba968a4e3a6f28.html).
 
@@ -82,14 +82,14 @@ To do so, you pair the integration token with your SAP Customer Experience syste
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 3. Assign the SAP Customer Experience system to a formation to enable the API access to the corresponding SAP Customer Experience product's APIs.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Assigning SAP Systems to a Formation](Assigning_SAP_Systems_to_a_Formation_68b04fa.md)
 
@@ -98,7 +98,7 @@ To do so, you pair the integration token with your SAP Customer Experience syste
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 4. Create a service instance of the required SAP Customer Experience Cloud services in the Kyma Service Catalog.
 
@@ -108,7 +108,7 @@ To do so, you pair the integration token with your SAP Customer Experience syste
 
 
 </td>
-<td>
+<td valign="top">
 
 [Provisioning and Binding Flow](https://kyma-project.io/docs/components/service-catalog#details-provisioning-and-binding-flow)
 
@@ -117,9 +117,6 @@ To do so, you pair the integration token with your SAP Customer Experience syste
 </td>
 </tr>
 </table>
-
--   **[Register an SAP Customer Experience System](Register_an_SAP_Customer_Experience_System_1582d72.md "Register an SAP Customer Experience system to connect it with a global account in SAP BTP. ")**  
-Register an SAP Customer Experience system to connect it with a global account in SAP BTP.
 
 **Related Information**  
 

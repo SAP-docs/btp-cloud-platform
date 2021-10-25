@@ -11,14 +11,14 @@ The following classes and methods allow you to read, create and modify business 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Class/Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -27,14 +27,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CL\_IAM\_BUSINESS\_ROLE\_FACTORY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Factory class for IF\_IAM\_BUSINESS\_ROLE\_FACTORY
 
@@ -43,14 +43,14 @@ Factory class for IF\_IAM\_BUSINESS\_ROLE\_FACTORY
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IF\_IAM\_BUSINESS\_ROLE\_FACTORY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Allows you to query and retrieve business role instances
 
@@ -59,14 +59,14 @@ Allows you to query and retrieve business role instances
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IF\_IAM\_BUSINESS\_ROLE
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Allows you to read and modify attributes of business roles
 
@@ -264,14 +264,14 @@ Allows you to read and modify attributes of business roles
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Class/Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -280,14 +280,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CL\_IAM\_BUSINESS\_USER\_FACTORY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Factory class for IF\_IAM\_BUSINESS\_USER\_FACTORY
 
@@ -296,14 +296,14 @@ Factory class for IF\_IAM\_BUSINESS\_USER\_FACTORY
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IF\_IAM\_BUSINESS\_USER\_FACTORY
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Allows you to query and retrieve business user instances
 
@@ -312,14 +312,14 @@ Allows you to query and retrieve business user instances
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IF\_IAM\_BUSINESS\_USER
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Allows you to read and modify attributes of business users
 

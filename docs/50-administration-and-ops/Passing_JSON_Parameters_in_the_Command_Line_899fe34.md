@@ -9,14 +9,14 @@ The table below gives an overview of the escaping rules in these commonly used s
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Shell
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Correct Escaping and Quotes
 
@@ -25,14 +25,14 @@ Correct Escaping and Quotes
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Bash
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Use `--parameter "VALUE"` and escape quotes with `\"` within `VALUE`
 
@@ -43,14 +43,14 @@ Use `--parameter 'VALUE'` and do not escape quotes within `VALUE`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Windows Command Prompt
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Use `--param "VALUE"` and escape quotes with `\"` within `VALUE` 
 
@@ -59,14 +59,14 @@ Use `--param "VALUE"` and escape quotes with `\"` within `VALUE`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Windows PowerShell
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Use `--param 'VALUE'` and escape quotes with `\'` within `VALUE` 
 

@@ -55,15 +55,4 @@ Every application object type has its own change document object type, which is 
         One log entry per field of the inserted table entry.
 
 
--   **[Authorization Checks](Authorization_Checks_40294a1.md "")**  
-
--   **[Managing Change Document Objects](Managing_Change_Document_Objects_0d84bb3.md "")**  
-
--   **[Writing Change Documents](Writing_Change_Documents_bf7a980.md "")**  
-
--   **[Reading Change Documents](Reading_Change_Documents_c34f02d.md "")**  
-
--   **[How to Use the Fiori Reuse Library for Change Document Solution](How_to_Use_the_Fiori_Reuse_Library_for_Change_Document_Solution_9cea375.md "You can use the Reuse Library to implement a reusable component
-		that can display change documents.")**  
-You can use the *Reuse Library* to implement a reusable component that can display change documents.
 

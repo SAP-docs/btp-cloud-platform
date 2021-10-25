@@ -28,10 +28,3 @@ Audit logs are records that provide evidence of events, actions, or operations. 
 
 For general information on data protection and privacy, see [Data Protection and Privacy](Data_Protection_and_Privacy_7e513d3.md).
 
--   **[Function Security](Function_Security_1be599b.md "When creating Functions, make sure you understand how they work to avoid potential
-		threats. ")**  
-When creating Functions, make sure you understand how they work to avoid potential threats.
--   **[Data Protection and Privacy in the Kyma Environment](Data_Protection_and_Privacy_in_the_Kyma_Environment_935e241.md "Protect any confidential and personal data from leakage or misuse by not storing or
-		processing it in an unsafe manner.")**  
-Protect any confidential and personal data from leakage or misuse by not storing or processing it in an unsafe manner.
-

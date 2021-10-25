@@ -54,6 +54,7 @@ During the creation of the service instance, a destination on a subaccount level
 
     4.  Choose *New Instance*.
 
+
 6.  In the *Create Instance* wizard:
 
     1.  In the *Plan* dropdown list select the *api-access* service plan, and then in the *System Name* dropdown list select the SAP SuccessFactors system that you have registered. Choose *Next*.
@@ -65,6 +66,7 @@ During the creation of the service instance, a destination on a subaccount level
     3.  \(Optional\) If you have already deployed an application that you want to bind to the new service instance, choose it from the list. For more information about why you may need to bind an application to the service instance, see the **Next Steps** section in this document. Choose *Next*.
 
     4.  Enter a name for your instance and choose *Finish*.
+
 
 
 
@@ -111,4 +113,5 @@ After creating the *SAP SuccessFactors Extensibility* service instance, you have
     -   For more information about consuming the destination service using the application router, see [Application Routes and Destinations](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/3cc788ebc00e40a091505c6b3fa485e7.html).
 
     -   For more information about consuming the destination service directly, see [Consuming the Destination Service \(Cloud Foundry Environment\)](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/7e306250e08340f89d6c103e28840f30.html).
+
 

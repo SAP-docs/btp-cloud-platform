@@ -20,6 +20,7 @@ SAP Analytics Cloud is used as analytics client consuming ABAP environment data 
 
 
 
+
 ## Context
 
 You can configure a live data connection in SAP Analytics Cloud and create an SAP Analytics Cloud model based on an ABAP environment analytical query to consume the result set in an SAP Analytics Cloud Story. The analytical query is delivered as CDS content and is exposed via the analytical engine and the InA protocol via the REST services under `/sap/bw/ina/...` to SAP Analytics Cloud.
@@ -32,13 +33,4 @@ You set up the scenario using the following tasks:
 2.  [Create a Communication System](Create_a_Communication_System_268ea65.md)
 3.  [Create a Communication Arrangement](Create_a_Communication_Arrangement_0448835.md)
 4.  [Configure Live Data Connection](Configure_Live_Data_Connection_e8cfea3.md)
-
--   **[Configure Identity Authentication](Configure_Identity_Authentication_70c9c8f.md "Configure your Identity Authentication tenant as the identity provider.")**  
-Configure your Identity Authentication tenant as the identity provider.
--   **[Create a Communication System](Create_a_Communication_System_268ea65.md "You can create a communication system in the ABAP environment.")**  
-You can create a communication system in the ABAP environment.
--   **[Create a Communication Arrangement](Create_a_Communication_Arrangement_0448835.md "You create a communication arrangement in the ABAP environment.")**  
-You create a communication arrangement in the ABAP environment.
--   **[Configure Live Data Connection](Configure_Live_Data_Connection_e8cfea3.md "You configure a live data connection in SAP Analytics Cloud.")**  
-You configure a live data connection in SAP Analytics Cloud.
 

@@ -25,21 +25,21 @@ Read a pull jon.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Header
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Required
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Values
 
@@ -48,21 +48,21 @@ Values
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Accept
 
 
 
 </td>
-<td>
+<td valign="top">
 
 no
 
 
 
 </td>
-<td>
+<td valign="top">
 
 application/json
 
@@ -73,21 +73,21 @@ application/xml
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 x-csrf-token
 
 
 
 </td>
-<td>
+<td valign="top">
 
 no
 
 
 
 </td>
-<td>
+<td valign="top">
 
 fetch
 
@@ -106,35 +106,35 @@ fetch
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Required
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Data Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Parameter Type
 
@@ -143,35 +143,35 @@ Parameter Type
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 uuid
 
 
 
 </td>
-<td>
+<td valign="top">
 
 yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 string
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ID of the job
 
 
 
 </td>
-<td>
+<td valign="top">
 
 query string
 
@@ -210,14 +210,14 @@ query string
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Header
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -226,14 +226,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 x-csrf-token
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Token, which can be used for POST requests
 
@@ -252,21 +252,21 @@ Token, which can be used for POST requests
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Code
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Reason
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -275,21 +275,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 200
 
 
 
 </td>
-<td>
+<td valign="top">
 
 OK
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Read pull succesfully
 
@@ -298,21 +298,21 @@ Read pull succesfully
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 400
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Bad Request
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Could not find a pull entity with the specified UUID.
 

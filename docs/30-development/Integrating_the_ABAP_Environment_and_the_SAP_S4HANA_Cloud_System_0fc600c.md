@@ -9,7 +9,3 @@ In this section, you'll find a step-by-step instruction how to integrate the ABA
 > 
 > Such optional steps are indicated. Note that if you want to use the example service used in this documentation, you must follow all steps.
 
--   **[Downloading the Trust Certificate from Cloud Foundry](Downloading_the_Trust_Certificate_from_Cloud_Foundry_dbb7d4d.md "Download the trust certificate from the Cloud Foundry subaccount. You will need the certificate to set up OAuth 2.0 authentication to
-		remote systems such as SAP S/4HANA Cloud.")**  
-Download the trust certificate from the Cloud Foundry subaccount. You will need the certificate to set up OAuth 2.0 authentication to remote systems such as SAP S/4HANA Cloud.
-

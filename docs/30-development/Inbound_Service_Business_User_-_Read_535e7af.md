@@ -25,28 +25,28 @@ The service node contains the search parameters.
 
 <table>
 <tr>
-<th colspan="2">
+<th valign="top" colspan="2">
 
 Field or Node
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Maximum Field Length
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Cardinality
 
@@ -55,7 +55,7 @@ Cardinality
 </th>
 </tr>
 <tr>
-<td rowspan="3">
+<td valign="top" rowspan="3">
 
 `PersonExternalIdInterval`
 
@@ -64,14 +64,14 @@ Cardinality: 0..unbounded
 
 
 </td>
-<td>
+<td valign="top">
 
  `IntervalBoundaryTypeCode` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can use the following values:
 
@@ -105,14 +105,14 @@ This field is mandatory if `LowerBoundaryPersonExtId` is set.
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -121,28 +121,28 @@ This field is mandatory if `LowerBoundaryPersonExtId` is set.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `LowerBoundaryPersonExtId` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Employee name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 60
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -151,26 +151,26 @@ Employee name
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `UpperBoundaryPersonExtId` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 60
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -179,7 +179,7 @@ Employee name
 </td>
 </tr>
 <tr>
-<td rowspan="3">
+<td valign="top" rowspan="3">
 
 `PersonIDInterval`
 
@@ -188,14 +188,14 @@ Cardinality: 0..unbounded
 
 
 </td>
-<td>
+<td valign="top">
 
  `IntervalBoundaryTypeCode` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can use the following values:
 
@@ -229,14 +229,14 @@ This field is mandatory if `LowerBoundaryPersonId` is set.
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -245,26 +245,26 @@ This field is mandatory if `LowerBoundaryPersonId` is set.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `LowerBoundaryPersonId` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -273,26 +273,26 @@ This field is mandatory if `LowerBoundaryPersonId` is set.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `UpperBoundaryPersonId` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -301,7 +301,7 @@ This field is mandatory if `LowerBoundaryPersonId` is set.
 </td>
 </tr>
 <tr>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 `BusinessPartnerRoleCodeInterval`
 
@@ -310,14 +310,14 @@ Cardinality: 0..unbounded
 
 
 </td>
-<td>
+<td valign="top">
 
  `IntervalBoundaryTypeCode` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can use the following values:
 
@@ -351,14 +351,14 @@ This field is mandatory if `LowerBoundaryBusinessPartnerRoleCode` is set.
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -367,28 +367,28 @@ This field is mandatory if `LowerBoundaryBusinessPartnerRoleCode` is set.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `LowerBoundaryBusinessPartnerRoleCode` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Only business partner role code BUP003 \(Employee\) is supported.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 6
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -397,7 +397,7 @@ Only business partner role code BUP003 \(Employee\) is supported.
 </td>
 </tr>
 <tr>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 `MarketForArchivingIndicator`
 
@@ -406,14 +406,14 @@ Cardinality: 0..unbounded
 
 
 </td>
-<td>
+<td valign="top">
 
  `IntervalBoundaryTypeCode` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can use the following values:
 
@@ -425,14 +425,14 @@ You can use the following values:
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -441,28 +441,28 @@ You can use the following values:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `LowerBoundaryMarkedForArchivingIndicator` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -471,7 +471,7 @@ You can use the following values:
 </td>
 </tr>
 <tr>
-<td rowspan="3">
+<td valign="top" rowspan="3">
 
 `UserIdInterval`
 
@@ -480,14 +480,14 @@ Cardinality: 0..unbounded
 
 
 </td>
-<td>
+<td valign="top">
 
  `IntervalBoundaryTypeCode` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can use the following values:
 
@@ -521,14 +521,14 @@ This field is mandatory if `LowerBoundaryUserId` is set.
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -537,26 +537,26 @@ This field is mandatory if `LowerBoundaryUserId` is set.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `LowerBoundaryUserId` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 12
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -565,26 +565,26 @@ This field is mandatory if `LowerBoundaryUserId` is set.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `UpperBoundaryUserId` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 12
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -593,7 +593,7 @@ This field is mandatory if `LowerBoundaryUserId` is set.
 </td>
 </tr>
 <tr>
-<td rowspan="3">
+<td valign="top" rowspan="3">
 
 `UserNameInterval`
 
@@ -602,14 +602,14 @@ Cardinality: 0..unbounded
 
 
 </td>
-<td>
+<td valign="top">
 
  `IntervalBoundaryTypeCode` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can use the following values:
 
@@ -643,14 +643,14 @@ This field is mandatory if `LowerBoundaryUserName` is set.
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -659,26 +659,26 @@ This field is mandatory if `LowerBoundaryUserName` is set.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `LowerBoundaryUserName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -687,26 +687,26 @@ This field is mandatory if `LowerBoundaryUserName` is set.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `UpperBoundaryUserName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -715,7 +715,7 @@ This field is mandatory if `LowerBoundaryUserName` is set.
 </td>
 </tr>
 <tr>
-<td rowspan="3">
+<td valign="top" rowspan="3">
 
 `FirstNameInterval`
 
@@ -724,14 +724,14 @@ Cardinality: 0..unbounded
 
 
 </td>
-<td>
+<td valign="top">
 
  `IntervalBoundaryTypeCode` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can use the following values:
 
@@ -765,14 +765,14 @@ This field is mandatory if `LowerBoundaryFirstName` is set.
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -781,26 +781,26 @@ This field is mandatory if `LowerBoundaryFirstName` is set.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `LowerBoundaryFirstName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 35
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -809,26 +809,26 @@ This field is mandatory if `LowerBoundaryFirstName` is set.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `UpperBoundaryFirstName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 35
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -837,7 +837,7 @@ This field is mandatory if `LowerBoundaryFirstName` is set.
 </td>
 </tr>
 <tr>
-<td rowspan="3">
+<td valign="top" rowspan="3">
 
 `LastNameInterval`
 
@@ -846,14 +846,14 @@ Cardinality: 0..unbounded
 
 
 </td>
-<td>
+<td valign="top">
 
  `IntervalBoundaryTypeCode` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can use the following values:
 
@@ -887,14 +887,14 @@ This field is mandatory if `LowerBoundaryLastName` is set.
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -903,28 +903,28 @@ This field is mandatory if `LowerBoundaryLastName` is set.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `LowerBoundaryLastName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -933,28 +933,28 @@ This field is mandatory if `LowerBoundaryLastName` is set.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `UpperBoundaryLastName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -963,7 +963,7 @@ This field is mandatory if `LowerBoundaryLastName` is set.
 </td>
 </tr>
 <tr>
-<td rowspan="3">
+<td valign="top" rowspan="3">
 
 `EmailAddressInterval`
 
@@ -972,28 +972,28 @@ Cardinality: 0..unbounded
 
 
 </td>
-<td>
+<td valign="top">
 
  `IntervalBoundaryTypeCode` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -1002,26 +1002,26 @@ Cardinality: 0..unbounded
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `LowerBoundaryEmailAddress` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 241
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1030,26 +1030,26 @@ Cardinality: 0..unbounded
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `UpperBoundaryEmailAddress` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 241
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1068,28 +1068,28 @@ The service nodes contain the service's business data.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Field
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Maximum Field Length
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Cardinality
 
@@ -1098,14 +1098,14 @@ Cardinality
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `QueryHitsTotalNumberIndicator` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can use the following values:
 
@@ -1117,14 +1117,14 @@ You can use the following values:
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -1133,28 +1133,28 @@ You can use the following values:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `QueryHitsMaximumNumberValue` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enter the maximum number of hits. If no value is entered, the default is automatically set to 1000.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 999999999
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1163,14 +1163,14 @@ Enter the maximum number of hits. If no value is entered, the default is automat
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `QueryHitsUnlimitedIndicator` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can use the following values:
 
@@ -1184,12 +1184,12 @@ Set **True** to get all data based on selection criteria.
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -1198,14 +1198,14 @@ Set **True** to get all data based on selection criteria.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `QueryLastReturnedObjectID` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can use the following values:
 
@@ -1219,14 +1219,14 @@ If `QueryHitsMaximumNumberValue` is set and more data is available, you can set 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1283,28 +1283,28 @@ If `QueryHitsMaximumNumberValue` is set and more data is available, you can set 
 
 <table>
 <tr>
-<th colspan="3">
+<th valign="top" colspan="3">
 
 Node or Field
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Maximum Field Length
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Cardinality
 
@@ -1313,28 +1313,28 @@ Cardinality
 </th>
 </tr>
 <tr>
-<td colspan="3">
+<td valign="top" colspan="3">
 
  `PersonExternalID` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Person External ID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 60
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1343,28 +1343,28 @@ Person External ID
 </td>
 </tr>
 <tr>
-<td colspan="3">
+<td valign="top" colspan="3">
 
  `PersonID` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Person ID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -1373,28 +1373,28 @@ Person ID
 </td>
 </tr>
 <tr>
-<td colspan="3">
+<td valign="top" colspan="3">
 
  `PersonUUID` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Person UUID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 36
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -1403,28 +1403,28 @@ Person UUID
 </td>
 </tr>
 <tr>
-<td colspan="3">
+<td valign="top" colspan="3">
 
  `BusinessPartnerRoleCode` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Business Partner Role Code
 
 
 
 </td>
-<td>
+<td valign="top">
 
 6
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -1433,14 +1433,14 @@ Business Partner Role Code
 </td>
 </tr>
 <tr>
-<td colspan="3">
+<td valign="top" colspan="3">
 
  `MarkedForArchivingIndicator` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   True
 
@@ -1450,14 +1450,14 @@ Business Partner Role Code
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -1466,7 +1466,7 @@ Business Partner Role Code
 </td>
 </tr>
 <tr>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 `ValidityPeriod`
 
@@ -1475,14 +1475,14 @@ Cardinality: 0..1
 
 
 </td>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `StartDate` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Format:
 
@@ -1491,12 +1491,12 @@ YYYY-MM-DD
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -1505,14 +1505,14 @@ YYYY-MM-DD
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `EndDate` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Format:
 
@@ -1521,12 +1521,12 @@ YYYY-MM-DD
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -1535,7 +1535,7 @@ YYYY-MM-DD
 </td>
 </tr>
 <tr>
-<td rowspan="15">
+<td valign="top" rowspan="15">
 
 `PersonalInformation`
 
@@ -1544,28 +1544,28 @@ Cardinality: 0..1
 
 
 </td>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `FormOfAddress` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Form of address
 
 
 
 </td>
-<td>
+<td valign="top">
 
 4
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1574,28 +1574,28 @@ Form of address
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `FirstName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 First name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1604,28 +1604,28 @@ First name
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `LastName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Last name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1634,28 +1634,28 @@ Last name
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `PersonFullName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Person full name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 80
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1664,28 +1664,28 @@ Person full name
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `AcademicTitle` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Academic title
 
 
 
 </td>
-<td>
+<td valign="top">
 
 4
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1694,28 +1694,28 @@ Academic title
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `CorrespondenceLanguage` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Correspondence language
 
 
 
 </td>
-<td>
+<td valign="top">
 
 9
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1724,28 +1724,28 @@ Correspondence language
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `MiddleName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Middle name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1754,28 +1754,28 @@ Middle name
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `AdditionalLastName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Additional last name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1784,28 +1784,28 @@ Additional last name
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `BirthName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Birth name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1814,28 +1814,28 @@ Birth name
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `NickName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Nick name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1844,28 +1844,28 @@ Nick name
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `Initials` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Initials
 
 
 
 </td>
-<td>
+<td valign="top">
 
 10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1874,28 +1874,28 @@ Initials
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `AcademicSecondTitle` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Academic second title
 
 
 
 </td>
-<td>
+<td valign="top">
 
 4
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1904,28 +1904,28 @@ Academic second title
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `LastNamePrefix` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Last name prefix
 
 
 
 </td>
-<td>
+<td valign="top">
 
 4
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1934,28 +1934,28 @@ Last name prefix
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `LastNameSecondPrefix` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Last name second prefix
 
 
 
 </td>
-<td>
+<td valign="top">
 
 4
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1964,28 +1964,28 @@ Last name second prefix
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `NameSupplement` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Name supplement
 
 
 
 </td>
-<td>
+<td valign="top">
 
 4
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -1994,7 +1994,7 @@ Name supplement
 </td>
 </tr>
 <tr>
-<td rowspan="11">
+<td valign="top" rowspan="11">
 
 `User`
 
@@ -2003,28 +2003,28 @@ Cardinality: 0..1
 
 
 </td>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `UserID` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 User ID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 12
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -2033,28 +2033,28 @@ User ID
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `UserName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 User name/Alias
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -2063,28 +2063,28 @@ User name/Alias
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `LogonLanguageCode` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Logon language
 
 
 
 </td>
-<td>
+<td valign="top">
 
 9
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -2093,14 +2093,14 @@ Logon language
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `DateFormatCode` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can use the following values:
 
@@ -2132,14 +2132,14 @@ You can use the following values:
 
 
 </td>
-<td>
+<td valign="top">
 
 2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -2148,14 +2148,14 @@ You can use the following values:
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `DecimalFormatCode` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can use the following values:
 
@@ -2169,14 +2169,14 @@ You can use the following values:
 
 
 </td>
-<td>
+<td valign="top">
 
 2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -2185,28 +2185,28 @@ You can use the following values:
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `TimeZoneCode` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Time zone
 
 
 
 </td>
-<td>
+<td valign="top">
 
 10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -2215,14 +2215,14 @@ Time zone
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `TimeFormatCode` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can use the following values:
 
@@ -2240,14 +2240,14 @@ You can use the following values:
 
 
 </td>
-<td>
+<td valign="top">
 
 2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -2256,28 +2256,28 @@ You can use the following values:
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `LockedIndicator` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Locked indicator
 
 
 
 </td>
-<td>
+<td valign="top">
 
 5
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -2286,7 +2286,7 @@ Locked indicator
 </td>
 </tr>
 <tr>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 `ValidityPeriod`
 
@@ -2295,14 +2295,14 @@ Cardinality: 1
 
 
 </td>
-<td>
+<td valign="top">
 
  `StartDate` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Format:
 
@@ -2313,14 +2313,14 @@ If no start date is maintained for the `User`, the `StartDate` for the `Business
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -2329,14 +2329,14 @@ If no start date is maintained for the `User`, the `StartDate` for the `Business
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `EndDate` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Format:
 
@@ -2347,14 +2347,14 @@ If no `EndDate` is maintained, it is set to 9999-12-31.
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -2363,7 +2363,7 @@ If no `EndDate` is maintained, it is set to 9999-12-31.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `Role`
 
@@ -2372,28 +2372,28 @@ Cardinality: 0..unbounded
 
 
 </td>
-<td>
+<td valign="top">
 
  `RoleName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Role name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -2402,7 +2402,7 @@ Role name
 </td>
 </tr>
 <tr>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 `UserAssignment`
 
@@ -2411,28 +2411,28 @@ Cardinality: 0..1
 
 
 </td>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `UserID` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 User ID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 12
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -2441,26 +2441,26 @@ User ID
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `UserName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -2469,7 +2469,7 @@ User ID
 </td>
 </tr>
 <tr>
-<td rowspan="10">
+<td valign="top" rowspan="10">
 
 `WorkplaceInformation`
 
@@ -2478,28 +2478,28 @@ Cardinality: 0..1
 
 
 </td>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `EmailAddress` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Email address
 
 
 
 </td>
-<td>
+<td valign="top">
 
 241
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -2508,7 +2508,7 @@ Email address
 </td>
 </tr>
 <tr>
-<td rowspan="5">
+<td valign="top" rowspan="5">
 
 `PhoneInformation`
 
@@ -2519,28 +2519,28 @@ One set of phone information per phone type supported.
 
 
 </td>
-<td>
+<td valign="top">
 
  `PhoneType` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Phone type
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -2549,28 +2549,28 @@ Phone type
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `CountryDialingCode` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Country dialing code
 
 
 
 </td>
-<td>
+<td valign="top">
 
 10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -2579,28 +2579,28 @@ Country dialing code
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `PhoneNumberAreaID` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Phone number area code
 
 
 
 </td>
-<td>
+<td valign="top">
 
 10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -2609,28 +2609,28 @@ Phone number area code
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `PhoneNumberSubscriberID` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Phone number subscriber ID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 30
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -2639,28 +2639,28 @@ Phone number subscriber ID
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `PhoneNumberExtension` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Phone number extension
 
 
 
 </td>
-<td>
+<td valign="top">
 
 10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -2669,28 +2669,28 @@ Phone number extension
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `FunctionalTitleName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Functional title name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -2699,28 +2699,28 @@ Functional title name
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `Department` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Department name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -2729,28 +2729,28 @@ Department name
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `RoomNumber` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Room number
 
 
 
 </td>
-<td>
+<td valign="top">
 
 10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -2759,28 +2759,28 @@ Room number
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `Building` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Building name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -2795,28 +2795,28 @@ Building name
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Field
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Maximum Field Length
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Cardinality
 
@@ -2825,28 +2825,28 @@ Cardinality
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `HitsTotalNumberValue` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Contains the number of users based on given criteria.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 999999999
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -2855,28 +2855,28 @@ Contains the number of users based on given criteria.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `ReturnedQueryHitsNumberValue` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Contains the number of found data sets for business users.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 999999999
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -2885,26 +2885,26 @@ Contains the number of found data sets for business users.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `MoreHitsAvailableIndiactor` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The indicator is set if the query was limited to a number of hits, but more business user data sets are available based on the query.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -2913,28 +2913,28 @@ The indicator is set if the query was limited to a number of hits, but more busi
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `LastReturnedObjectID` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Displays the last row of the found results list, limited by the found hits or by the value given for `QueryHitsMaximumNumberValue`.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 999999999
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -2951,28 +2951,28 @@ If errors occur, the log contains the information shown in the table below:
 
 <table>
 <tr>
-<th colspan="2">
+<th valign="top" colspan="2">
 
 Field or Node
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Maximum Field Length
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Cardinality
 
@@ -2981,26 +2981,26 @@ Cardinality
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 `BusinessDocumentProcessingResultCode`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -3009,28 +3009,28 @@ Cardinality
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
  `MaximumLogItemSeverityCode` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If several messages are stored for a business user, the maximum of all dropped severity codes worst level will be shown.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -3039,7 +3039,7 @@ If several messages are stored for a business user, the maximum of all dropped s
 </td>
 </tr>
 <tr>
-<td rowspan="5">
+<td valign="top" rowspan="5">
 
 `Item`
 
@@ -3048,28 +3048,28 @@ Cardinality: 0..unbounded
 
 
 </td>
-<td>
+<td valign="top">
 
 TypeID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message number
 
 
 
 </td>
-<td>
+<td valign="top">
 
 40
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -3078,28 +3078,28 @@ Message number
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CateoryCode
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Not in use
 
 
 
 </td>
-<td>
+<td valign="top">
 
 15
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -3108,14 +3108,14 @@ Not in use
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SeverityCode
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Severity code definition:
 
@@ -3129,14 +3129,14 @@ Severity code definition:
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 
@@ -3145,28 +3145,28 @@ Severity code definition:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Note
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Contains the message texts.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 200
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1
 
@@ -3175,26 +3175,26 @@ Contains the message texts.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 WebURI
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Not in use
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0..1
 

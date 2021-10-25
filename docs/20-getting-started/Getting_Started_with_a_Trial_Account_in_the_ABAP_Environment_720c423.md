@@ -1,5 +1,7 @@
 <!-- loio720c423ef1a8498ab690cf0e5512ba50 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Getting Started with a Trial Account in the ABAP Environment
 
 Quickly get started with a trial account.
@@ -38,7 +40,7 @@ Before you begin, sign up for a free trial account. See [Get a Free Trial Accoun
     > ### Note:  
     > You should see the following path in the breadcrumbs:
     > 
-    >     Home /     <global\_account\> /     <subaccount\> /     <space\>
+    > <span class="SAP-icons"></span> Home / <span class="SAP-icons"></span> <global\_account\> / <span class="SAP-icons"></span> <subaccount\> / <span class="SAP-icons"></span> <space\>
 
 2.  Go to your trial service by selecting *ABAP environment* from the list of services that are available to you in *Services* \> *Service Marketplace*.
 
@@ -88,11 +90,6 @@ Now that you have registered for a trial account and navigated to your ABAP envi
 
 1.  Create a service key for your trial system. See [Creating Service Keys](../30-development/Creating_Service_Keys_4514a14.md).
 2.  To start developing in your trial system, you need to create a new project in your ADT installation. Set up an ABAP cloud project to connect to your ABAP trial system. See [Connect to the ABAP System](../30-development/Connect_to_the_ABAP_System_7379dbd.md).
-
--   **[Create Your ABAP Trial Instance](Create_Your_ABAP_Trial_Instance_a2f7a8e.md "Learn how to create your ABAP
-                                environment trial
-		instance.")**  
-Learn how to create your ABAP environment trial instance.
 
 **Related Information**  
 

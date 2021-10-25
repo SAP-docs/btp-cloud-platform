@@ -17,21 +17,21 @@ Use the `NUMBER_CHECK` method to check whether a number is within an external in
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Field Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -40,21 +40,21 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NR\_RANGE\_NR
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Interval number
 
@@ -63,21 +63,21 @@ Interval number
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NUMBER
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number to be checked
 
@@ -86,21 +86,21 @@ Number to be checked
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NUMERIC\_CHECK
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Numeric check \(for numeric intervals only\)
 
@@ -109,21 +109,21 @@ Numeric check \(for numeric intervals only\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number range object
 
@@ -132,21 +132,21 @@ Number range object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SUBOBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Sub-object
 
@@ -155,21 +155,21 @@ Sub-object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 TOYEAR
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 To fiscal year
 
@@ -184,21 +184,21 @@ To fiscal year
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Field Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -207,21 +207,21 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 RETURNCODE
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Return code
 
@@ -244,21 +244,21 @@ Use the `NUMBER_GET` method to determine the next number of a number range inter
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Field Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -267,21 +267,21 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 IGNORE\_BUFFER
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Ignore Buffer
 
@@ -290,21 +290,21 @@ Ignore Buffer
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NR\_RANGE\_NR
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Interval Number
 
@@ -313,21 +313,21 @@ Interval Number
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number Range Object
 
@@ -336,21 +336,21 @@ Number Range Object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 QUANTITY
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number of Numbers in Buffer
 
@@ -359,21 +359,21 @@ Number of Numbers in Buffer
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SUBOBJECT
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Sub-object
 
@@ -382,21 +382,21 @@ Sub-object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 TOYEAR
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 To Fiscal Year
 
@@ -411,21 +411,21 @@ To Fiscal Year
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Field Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Value Help
 
@@ -434,21 +434,21 @@ Value Help
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NUMBER
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Returned number
 
@@ -457,21 +457,21 @@ Returned number
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 RETURNCODE
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Return code
 
@@ -480,21 +480,21 @@ Return code
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 RETURNED\_QUANTITY
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Number of returned numbers
 

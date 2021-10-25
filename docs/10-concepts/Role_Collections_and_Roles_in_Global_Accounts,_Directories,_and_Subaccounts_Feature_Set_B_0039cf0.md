@@ -64,14 +64,14 @@ If you assign the *Global Account Administrator* role collection to a user, this
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Roles Included
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -80,14 +80,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Global Account Admin 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Includes read-write authorizations for updating the global account, setting entitlements, and creating, updating, and deleting subaccounts.
 
@@ -101,14 +101,14 @@ The *GlobalAccount\_Admin* role template contains this role. You find the role t
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Global Account Usage Reporting Viewer 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Includes read-only authorizations for viewing global account usage information.
 
@@ -119,14 +119,14 @@ The *GlobalAccount\_Usage\_Reporting\_Viewer* role template provides this role. 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  User and Role Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Includes read-write authorizations for trusted identity providers, role collections, roles and users.
 
@@ -140,14 +140,14 @@ The *xsuaa\_admin* role template provides this role. You find the role template 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  System Landscape Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Includes read-write authorizations for registering SAP systems and assigning SAP systems to formations.
 
@@ -169,14 +169,14 @@ If you assign the *Subaccount Administrator* role collection to a user, you gran
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Roles Included
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -185,14 +185,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Cloud Connector Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Operate the data transmission tunnels used by the Cloud connector. 
 
@@ -201,14 +201,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Destination Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Manage destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
 
@@ -217,14 +217,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Subaccount Admin 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Includes read-write authorizations for viewing subaccount entitlements and for creating and deleting environment instances. 
 
@@ -233,14 +233,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Subaccount Service Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Administrative access to service brokers and environments on a subaccount level. 
 
@@ -249,14 +249,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  User and Role Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Includes read-write authorizations for trusted identity providers, role collections, roles and users. 
 
@@ -273,14 +273,14 @@ If you assign the *Cloud Connector Administrator* role collection to a user, you
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Roles Included
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -289,14 +289,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Cloud Connector Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Operate the data transmission tunnels used by the Cloud connector. 
 
@@ -313,14 +313,14 @@ If you assign the *Connectivity and Destination Administrator* role collection t
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Roles Included
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -329,14 +329,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Cloud Connector Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Operate the data transmission tunnels used by the Cloud connector. 
 
@@ -345,14 +345,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Destination Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Manage destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
 
@@ -369,14 +369,14 @@ If you assign the *Destination Administrator* role collection to a user, you gra
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Roles Included
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -385,14 +385,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Destination Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Manage destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
 
@@ -409,14 +409,14 @@ If you assign the *Subaccount Service Administrator* role collection to a user, 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Roles Included
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -425,14 +425,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Subaccount Service Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Administrative access to service brokers and environments on a subaccount level. 
 
@@ -455,14 +455,14 @@ If you assign the *Global Account Viewer* role collection to a user, you grant r
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Roles Included
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -471,14 +471,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Global Account Viewer 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Includes read authorizations for viewing subaccount entitlements and for creating and deleting environment instances. 
 
@@ -487,14 +487,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Global Account Usage Reporting Viewer 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Includes read-only authorizations for viewing global account usage information. 
 
@@ -503,14 +503,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  User and Role Auditor 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Includes read authorizations for trusted identity providers and users 
 
@@ -527,14 +527,14 @@ If you assign the *Subaccount Viewer* role collection to a user, you restrict a 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Roles Included
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -543,14 +543,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Cloud Connector Auditor 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  View the data transmission tunnels used by the Cloud connector to communicate with back-end systems. 
 
@@ -559,14 +559,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Destination Viewer 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  View destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
 
@@ -575,14 +575,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Subaccount Service Auditor 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Read-only access to service brokers and environments on a subaccount level 
 
@@ -591,14 +591,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Subaccount Viewer 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Includes read authorizations for viewing subaccount entitlements and for creating and deleting environment instances. 
 
@@ -607,14 +607,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  User and Role Auditor 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Includes read authorizations for trusted identity providers and users 
 
@@ -639,14 +639,14 @@ The *Directory Administrator* role collection grants a user administration permi
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Roles Included
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -655,14 +655,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Directory Admin 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Role for directory members with read-write authorizations for core commercialization operations, such as updating directories, setting entitlements, and creating, updating, and deleting subaccounts. 
 
@@ -671,14 +671,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Directory Usage Reporting Viewer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Role for directory members with read-only authorizations for core commercialization operations, such as viewing directory usage information.
 
@@ -687,14 +687,14 @@ Role for directory members with read-only authorizations for core commercializat
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  User and Role Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Includes read-write authorizations for trusted identity providers, role collections, roles and users. 
 
@@ -711,14 +711,14 @@ The *Directory Viewer* role collection grants a user read access to the same inf
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Roles Included
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -727,14 +727,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Directory Usage Reporting Viewer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Role for directory members with read-only authorizations for core commercialization operations, such as viewing directory usage information.
 
@@ -743,14 +743,14 @@ Role for directory members with read-only authorizations for core commercializat
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Directory Viewer 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Role for directory members with read-only authorizations for core commercialization operations, such as viewing directories, subaccounts, entitlements, and regions. 
 
@@ -759,14 +759,14 @@ Role for directory members with read-only authorizations for core commercializat
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  User and Role Auditor 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Includes read authorizations for trusted identity providers and users 
 
@@ -797,28 +797,28 @@ The following table provides the information about the roles that are available.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Roles
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Available in
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Role Templates
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Application Identifier
 
@@ -827,28 +827,28 @@ Application Identifier
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Cloud Connector Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Cloud\_Connector\_Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  connectivity!*<suffix\>* 
 
@@ -857,28 +857,28 @@ Subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Cloud Connector Auditor 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Cloud\_Connector\_Auditor 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  connectivity!*<suffix\>* 
 
@@ -887,28 +887,28 @@ Subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Destination Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Destination\_Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  destination-xsappname!*<suffix\>* 
 
@@ -917,28 +917,28 @@ Subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Destination Viewer 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Destination\_Viewer 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  destination-xsappname!*<suffix\>* 
 
@@ -947,28 +947,28 @@ Subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Directory Admin 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Directory
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Directory\_Viewer 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  cis-central!*<suffix\>* 
 
@@ -977,28 +977,28 @@ Directory
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Directory Usage Reporting Viewer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Directory
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Directory\_Usage\_Reporting\_Viewer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 uas!*<suffix\>* 
 
@@ -1007,28 +1007,28 @@ uas!*<suffix\>*
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Directory Viewer 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Directory
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Directory\_Admin 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  cis-central!*<suffix\>* 
 
@@ -1037,28 +1037,28 @@ Directory
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Global Account Admin 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Global account
 
 
 
 </td>
-<td>
+<td valign="top">
 
  GlobalAccount\_Admin 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  cis-central!*<suffix\>* 
 
@@ -1067,28 +1067,28 @@ Global account
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Global Account Viewer 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Global account
 
 
 
 </td>
-<td>
+<td valign="top">
 
  GlobalAccount\_Viewer 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  cis-central!*<suffix\>* 
 
@@ -1097,28 +1097,28 @@ Global account
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Global Account Usage Reporting Viewer 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Global account
 
 
 
 </td>
-<td>
+<td valign="top">
 
  GlobalAccount\_Usage\_Reporting\_Viewer 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  uas!*<suffix\>*  
 
@@ -1127,28 +1127,28 @@ Global account
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  System Landscape Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Global account
 
 
 
 </td>
-<td>
+<td valign="top">
 
  GlobalAccount\_System\_Landscape\_Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  cmp!*<suffix\>*  
 
@@ -1157,28 +1157,28 @@ Global account
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Subaccount Admin 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Subaccount\_Admin 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  cis-local!*<suffix\>* 
 
@@ -1187,28 +1187,28 @@ Subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Subaccount Viewer 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Subaccount\_Viewer 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  cis-local!*<suffix\>* 
 
@@ -1217,28 +1217,28 @@ Subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Subaccount Service Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Subaccount\_Service\_Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  service-manager!*<suffix\>* 
 
@@ -1247,28 +1247,28 @@ Subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  Subaccount Service Auditor 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
  Subaccount\_Service\_Auditor 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  service-manager!*<suffix\>* 
 
@@ -1277,28 +1277,28 @@ Subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  User and Role Administrator 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Global account and subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
  xsuaa\_admin 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  xsuaa!*<suffix\>* 
 
@@ -1307,28 +1307,28 @@ Global account and subaccount
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  User and Role Auditor 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Global account and subaccount
 
 
 
 </td>
-<td>
+<td valign="top">
 
  xsuaa\_auditor 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  xsuaa!*<suffix\>* 
 
@@ -1348,7 +1348,7 @@ If you've enabled environments in your subaccount, manage the roles for those en
 
 -   [About Roles in the Cloud Foundry Environment](../50-administration-and-ops/About_Roles_in_the_Cloud_Foundry_Environment_0907638.md)
 
--   [Assign Roles in the Kyma Environment](../50-administration-and-ops/Assign_Roles_in_the_Kyma_Environment_148ae38.md)
+-   [Roles in the Kyma Environment](../50-administration-and-ops/Roles_in_the_Kyma_Environment_148ae38.md)
 
 
 > ### Note:  

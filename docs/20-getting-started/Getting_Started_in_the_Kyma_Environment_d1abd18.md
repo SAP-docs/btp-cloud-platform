@@ -10,7 +10,7 @@ The getting started document describes the full list of steps you must complete 
 
 ## Prerequisites
 
-To perform administrative and development tasks, you need a global account and one or several subaccounts for which you can provision the Kyma environment. For details, see [Enable Kyma Environment](../50-administration-and-ops/Enable_Kyma_Environment_09dd313.md). Additionally, the subaccount admin must assign the Kyma environment as an entitlement to the subaccount. For details, see [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/Configure_Entitlements_and_Quotas_for_Subaccounts_5ba357b.md).
+To perform administrative and development tasks, you need a global account and one or several subaccounts for which you can provision the Kyma environment. For details, see [Create the Kyma Environment Instance](../50-administration-and-ops/Create_the_Kyma_Environment_Instance_09dd313.md). Additionally, the subaccount admin must assign the Kyma environment as an entitlement to the subaccount. For details, see [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/Configure_Entitlements_and_Quotas_for_Subaccounts_5ba357b.md).
 
 
 
@@ -21,21 +21,21 @@ As an administrator, perform the following steps to have a fully operational Kym
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 No.
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Step
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -44,21 +44,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1.
 
 
 
 </td>
-<td>
+<td valign="top">
 
-[Enable Kyma Environment](../50-administration-and-ops/Enable_Kyma_Environment_09dd313.md)
+[Create the Kyma Environment Instance](../50-administration-and-ops/Create_the_Kyma_Environment_Instance_09dd313.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Set up a Kubernetes cluster with the project "Kyma" to connect and extend SAP systems.
 
@@ -67,21 +67,21 @@ Set up a Kubernetes cluster with the project "Kyma" to connect and extend SAP sy
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 2.
 
 
 
 </td>
-<td>
+<td valign="top">
 
-[Assign Roles in the Kyma Environment](../50-administration-and-ops/Assign_Roles_in_the_Kyma_Environment_148ae38.md)
+[Roles in the Kyma Environment](../50-administration-and-ops/Roles_in_the_Kyma_Environment_148ae38.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 As a KymaRuntimeNamespaceAdministrator, you can assign the role of a KymaRuntimeNamespaceDeveloper. This way, you allow the administrators to manage Kyma and the developers to create Functions.
 
@@ -93,21 +93,21 @@ As a KymaRuntimeNamespaceAdministrator, you can assign the role of a KymaRuntime
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 3.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Register an SAP Customer Experience System](../40-extensions/Register_an_SAP_Customer_Experience_System_1582d72.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can now start using the Kyma environment to integrate external systems.
 
@@ -121,21 +121,21 @@ Your options are as follows:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 4.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Extending SAP S/4HANA Cloud in the Cloud Foundry and Kyma Environment](../40-extensions/Extending_SAP_S4HANA_Cloud_in_the_Cloud_Foundry_and_Kyma_Environment_40b9e6c.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Extend SAP S/4HANA Cloud by developing event-driven extensions and applications.
 
@@ -144,21 +144,21 @@ Extend SAP S/4HANA Cloud by developing event-driven extensions and applications.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 5.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Assigning SAP Systems to a Formation](../40-extensions/Assigning_SAP_Systems_to_a_Formation_68b04fa.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Group several solutions into one formation to meet the requirements of your business scenario.
 
@@ -175,9 +175,4 @@ Group several solutions into one formation to meet the requirements of your busi
 ## Developer Operations
 
 Once the administrator sets up the environment, the developers can access the Kyma environment through the Console URL link that is available on the given subaccount. Upon logging, developers can start creating extensions for the SAP systems either from the Kyma Console or from the terminal after downloading the kubeconfig file with the cluster configuration. For details, see [Development in the Kyma Environment](../30-development/Development_in_the_Kyma_Environment_606ec61.md).
-
--   **[Getting Started with an Enterprise Account in the Kyma Environment](Getting_Started_with_an_Enterprise_Account_in_the_Kyma_Environment_1903e9c.md "Quickly get started with an enterprise account.")**  
-Quickly get started with an enterprise account.
--   **[Getting Started with a Trial Account in the Kyma Environment](Getting_Started_with_a_Trial_Account_in_the_Kyma_Environment_ccb83c7.md "Quickly get started with a trial account.")**  
-Quickly get started with a trial account.
 

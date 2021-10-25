@@ -41,9 +41,6 @@ With this app you can:
 
 If you need support or experience issues, please report an incident under component `BC-CCM-PRN-OM-PQ` or `BC-CCM-PRN-OM-PM`.
 
--   **[Before Getting Started](Before_Getting_Started_3e3ea05.md)**  
-
-
 **Related Information**  
 
 

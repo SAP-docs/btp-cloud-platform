@@ -34,10 +34,3 @@ SAPUI5 is a JavaScript framework for building cross-platform, enterprise-grade w
 
 On SAP BTP, you can access and run HTML5 applications in a cloud environment without the need to maintain your own runtime infrastructure. For more information, see [Developing HTML5 Applications in the Cloud Foundry Environment](Developing_HTML5_Applications_in_the_Cloud_Foundry_Environment_11d77aa.md).
 
--   **[Developing SAPUI5](Developing_SAPUI5_839cb81.md "Get to know certain aspects of SAPUI5 development, to get up and running quickly. ")**  
-Get to know certain aspects of SAPUI5 development, to get up and running quickly.
--   **[Developing HTML5 Applications in the Cloud Foundry Environment](Developing_HTML5_Applications_in_the_Cloud_Foundry_Environment_11d77aa.md "SAP BTP enables you to
-		access and run HTML5 applications in a cloud environment without the need to maintain your
-		own runtime infrastructure.")**  
-SAP BTP enables you to access and run HTML5 applications in a cloud environment without the need to maintain your own runtime infrastructure.
-

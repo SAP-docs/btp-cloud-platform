@@ -13,14 +13,14 @@ There are multiple scenarios when you start using SAP HANA Cloud in the SAP BTP,
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Scenario
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Recommendation
 
@@ -29,14 +29,14 @@ Recommendation
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 You're starting a new project and want to leverage SAP HANA capabilities in the cloud.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 We recommend using the SAP Cloud Application Programming Model and SAP HANA Cloud.
 
@@ -47,14 +47,14 @@ See [SAP HANA Cloud](Developing_SAP_HANA_in_the_Cloud_Foundry_Environment_14224d
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 You're using SAP HANA service for SAP BTP and SAP HANA Platform 2.0 \(XS advanced\) on-premise.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Get to know the differences. Read about features that have been supported by other SAP HANA versions but aren’t supported by SAP HANA Cloud: [SAP HANA Cloud Compatibility Reference](https://help.sap.com/viewer/3c53bc7b58934a9795b6dd8c7e28cf05/cloud/en-US/3101cb652bb74739a3e39593ea969bc5.html) 
 
@@ -63,36 +63,39 @@ Get to know the differences. Read about features that have been supported by oth
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 You're using SAP HANA Platform 2.0 \(XS advanced\) on-premise.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP HANA extended application services, advanced model, \(XS advanced\) as the runtime environment for SAP HANA Platform was built similar to the Cloud Foundry environment. It has been developed further and therefore contains features that aren’t available in Cloud Foundry. Some features aren’t supported from the SAP HANA versions in the cloud. So, there’s always some effort, at least when you reach a decent amount of complexity, to make an XS advanced application run in the cloud.
 
-The new SAP HANA Cloud service made significant moves to reduce footprint and be cloud-ready. Therefore, previously deprecated features have been removed. Read about features that have been supported by other SAP HANA versions but aren’t supported by SAP HANA Cloud: [SAP HANA Cloud Compatibility Reference](https://help.sap.com/viewer/3c53bc7b58934a9795b6dd8c7e28cf05/cloud/en-US/3101cb652bb74739a3e39593ea969bc5.html) 
+The new SAP HANA Cloud service made significant moves to reduce footprint and be cloud-ready. Therefore, previously deprecated features have been removed. Read about [SAP HANA Cloud Compatibility and Migration Information](https://help.sap.com/viewer/3c53bc7b58934a9795b6dd8c7e28cf05/hanacloud/en-US/9c8656d9c1a34c829fab426cb77b4639.html):
+
+-   [High Level Feature Compatibility](https://help.sap.com/viewer/3c53bc7b58934a9795b6dd8c7e28cf05/hanacloud/en-US/e131e792973348d1ac072590fe3d137c.html)
+
+-   [Design-time Content Compatibility](https://help.sap.com/viewer/3c53bc7b58934a9795b6dd8c7e28cf05/hanacloud/en-US/9c8656d9c1a34c829fab426cb77b4639.html)
+
 
 You can find another collection of these features and elements in the following SAP Note:[2868742](https://launchpad.support.sap.com/#/notes/2868742) 
-
-Have a look at the section *HDI features are not available with SAP HANA Cloud*, which is the most important part in this scenario.
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 You're using SAP HANA Platform 1.0 \(XS classic\) on-premise. This scenario also includes any usage of XS classic artifacts even if you use XS advanced \(compatibility\) or the Neo environment
 
 
 
 </td>
-<td>
+<td valign="top">
 
 This scenario is presumably a bigger project. The task isn’t only to use a different version of SAP HANA but also to make architectural changes: from monolithic applications to microservice-based applications. To give you an overview on things you need to consider, have a look at our guide: [Migrating from the Neo Environment to the Multi-Cloud Foundation (Cloud Foundry and Kyma)](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/aae4e0ae1cdf434b908c3c8cf3ea942a.html "Learn why and how to migrate your scenarios on SAP Business Technology Platform (SAP BTP) from the Neo environment to the multi-cloud foundation.") :arrow_upper_right: 
 
@@ -102,11 +105,11 @@ This scenario is presumably a bigger project. The task isn’t only to use a dif
 </tr>
 </table>
 
- <a name="loio14224d75f6c64b499d189e3ebd131ec2 loioa697b1b1b5ad4b598378ff0fa091fa35__loioa697b1b1b5ad4b598378ff0fa091fa35"/>
+ <a name="loioa697b1b1b5ad4b598378ff0fa091fa35"/>
 
 <!-- loioa697b1b1b5ad4b598378ff0fa091fa35 -->
 
-# SAP HANA Cloud
+## SAP HANA Cloud
 
 
 
@@ -118,19 +121,28 @@ This section is a quick introduction to the latest SAP HANA offering on SAP BTP,
 
 There are two tools you need to know, SAP Web IDE Full-Stack and SAP HANA Cockpit.
 
--   SAP Web IDE Full-Stack
+-   SAP Business Application Studio
 
-    SAP Web IDE Full-Stack is the recommended tool to develop your SAP HANA database artifacts, see [SAP Web IDE Full-Stack \> Getting Started](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/995af3aa09074ceca20e59011ef78529.html)
+    SAP Business Application Studio is the recommended tool to develop your SAP HANA database artifacts.
 
-    For an SAP Cloud Application Programming Model project, we recommend starting your project in SAP Web IDE Full-Stack and synchronize it with GitHub, see [SAP Web IDE Full-Stack \> Using Source Control \(Git\)](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/4eddb4cfc29946f6b059306cbdfcb392.html)
+    You can use an [SAP HANA Native Application](https://help.sap.com/products/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/7eae9c5e799e4f70946114f74f413ae9.html?version=Cloud) dev space, which is preconfigured to support the creation of database artifacts.
 
-    That way, you leverage the power of SAP Web IDE for developing database artifacts. At the same time you can use the more mature tooling for service development, which resides in Visual Studio Code and SAP Business Application Studio.
+    For SAP Cloud Application Programming Model projects, we recommend to create a [Full Stack Cloud Application](https://help.sap.com/products/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/de0af65a0d764bf3b40d2c2352c08393.html?version=Cloud) dev space and add the following extensions:
+
+    -   SAP HANA Calculation View Editor
+
+    -   SAP HANA Tools
+
+    -   SAP HANA Smart Data Integration Tools
+
+
+    With that configuration you have the editors and tools for the programming model and SAP HANA database artifacts.
 
 -   SAP HANA Cockpit
 
-    The SAP HANA Cockpit is used to monitor and administer your SAP HANA instances, see [Set Up SAP HANA Cockpit for the First Time](https://help.sap.com/viewer/afa922439b204e9caf22c78b6b69e4f2/2.12.0.0/en-US/3188e43e196c46e5a26989f22e18f130.html)
+    The SAP HANA Cockpit is used to monitor and administer your SAP HANA instances, see [Open the SAP HANA Cockpit](https://help.sap.com/viewer/9ae9104a46f74a6583ce5182e7fb20cb/hanacloud/en-US/18fde2ad1da742d79aebd943a1aa71cd.html)
 
-    To learn how to access the SAP HANA Cockpit from the SAP Cloud Cockpit, see [Accessing SAP HANA Cockpit for SAP HANA Cloud](https://help.sap.com/viewer/9630e508caef4578b34db22014998dba/cloud/en-US/ef52446052e14f7ca0783113c08fd515.html)
+    To learn how to access the SAP HANA Cockpit, see [Accessing SAP HANA Cockpit for SAP HANA Cloud](https://help.sap.com/viewer/9630e508caef4578b34db22014998dba/cloud/en-US/ef52446052e14f7ca0783113c08fd515.html)
 
 
 

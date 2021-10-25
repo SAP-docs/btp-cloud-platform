@@ -88,6 +88,3 @@ For more information about creating service instances, see [Create Service Insta
     The ABAP system is being set up, which might take a while. Wait for an email that is sent when the setup is completed and the system up and running. The email is sent to the email address that you specified as admin email in the previous steps.
 
 
--   **[Updating an ABAP System](Updating_an_ABAP_System_7890ffa.md "Learn how to update your ABAP system.")**  
-Learn how to update your ABAP system.
-

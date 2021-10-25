@@ -11,14 +11,14 @@ Not all tools and services of SAP BTP support the use of custom identity provide
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Supported
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -27,53 +27,55 @@ Description
 </th>
 </tr>
 <tr>
-<td>
-
- Cloud Foundry command-line interface \(CF CLI\)
-
-
-
-</td>
-<td>
-
-Make sure you use the Cloud Foundry command-line interface \(CF CLI v7\). For more information, see [https://docs.cloudfoundry.org/cf-cli/v7.html](https://docs.cloudfoundry.org/cf-cli/v7.html).
-
-> ### Restriction:  
-> With v6 of the CF CLI, you can't use the ***--origin*** option in ***cf set-org-role*** and ***cf set-space-role***. Use the *Members* tab in the SAP BTP cockpit. Go to the SAP BTP cockpit under **<my\_global\_account\>** \> **<my\_subaccount\>** \> *Security* \> *Members* to set the user's permissions.
-
-For more information, see [Log On with a Custom Identity Provider to the Cloud Foundry Environment Using the Cloud Foundry Command-Line Interface](Log_On_with_a_Custom_Identity_Provider_to_the_Cloud_Foundry_Environment_Using_the_Cloud_Foundry_Command-Line_Interface_d477618.md).
-
-
-
-</td>
-</tr>
-<tr>
-<td>
+<td valign="top">
 
  Cloud Connector 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can connect a Cloud Connector with a multi-environment subaccount of SAP BTP.
 
-For more information, see <?sap-ot O2O class="- topic/xref " href="202261235a204db5ba0b35bbaa6d40ff.xml" text="" desc="" xtrc="xref:3" xtrf="file:/d:/dita/wjg1630305115057/src/cms/content/localization/en-US/94ef5154e384408796c035a82b043f82.xml" ?>.
+For more information, see [Use a Custom IDP for Subaccount Configuration](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/202261235a204db5ba0b35bbaa6d40ff.html "Enable custom identity provider (IDP) authentication to configure a Cloud Foundry subaccount in the Cloud Connector by using a one-time passcode.") :arrow_upper_right:.
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
+
+ Cloud Foundry command-line interface \(CF CLI\)
+
+
+
+</td>
+<td valign="top">
+
+Make sure you use the Cloud Foundry command-line interface \(CF CLI v7\). For more information, see [https://docs.cloudfoundry.org/cf-cli/v7.html](https://docs.cloudfoundry.org/cf-cli/v7.html).
+
+> ### Restriction:  
+> With v6 of the CF CLI, you can't use the ***--origin*** option in ***cf set-org-role*** and ***cf set-space-role***. Use the *Members* tab in the SAP BTP cockpit. Go to the SAP BTP cockpit under **<my\_global\_account\>** \> **<my\_subaccount\>** \> *Security* \> *Members* to set the user's permissions.
+
+For more information, see [Log On with a Custom Identity Provider to the Cloud Foundry Environment Using the Cloud Foundry Command-Line Interface](Log_On_with_a_Custom_Identity_Provider_d477618.md).
+
+See also [Using the Cloud Foundry CLI with SAP HANA Cloud](https://help.sap.com/viewer/9ae9104a46f74a6583ce5182e7fb20cb/hanacloud/en-US/921f3e46247947779d69b8c85c9b9985.html)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
 
  SAP Application Logging service and Kibana
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Users logged on using custom identity providers can analyze logs written using the SAP Application Logging service.
 
@@ -84,14 +86,14 @@ For more information, see the [SAP Application Logging service](https://help.sap
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  SAP BTP cockpit 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Platform users logged on using custom identity providers can use the full range of the SAP BTP cockpit.
 
@@ -100,30 +102,14 @@ Platform users logged on using custom identity providers can use the full range 
 </td>
 </tr>
 <tr>
-<td>
-
- SAP Job Scheduling service 
-
-
-
-</td>
-<td>
-
-Platform users logged on using custom identity providers can use the SAP Job Scheduling service dashboard.
-
-
-
-</td>
-</tr>
-<tr>
-<td>
+<td valign="top">
 
 SAP Cloud Transport Management
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Platform users logged on to SAP Cloud Transport Management service using custom identity providers can use all functions of the service as described in the SAP Cloud Transport Management documentation.
 
@@ -134,14 +120,48 @@ For more information, see [SAP Cloud Transport Management](https://help.sap.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
+
+ SAP HANA Cloud Cockpit
+
+
+
+</td>
+<td valign="top">
+
+Platform users logged on using custom identity providers can use the full range of SAP HANA Cloud Cockpit.
+
+For more information, see [SAP HANA Cockpit](https://help.sap.com/viewer/9630e508caef4578b34db22014998dba/cloud/en-US/6a42679ed8574fb79e94f3e03e6d57bf.html).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Job Scheduling service 
+
+
+
+</td>
+<td valign="top">
+
+Platform users logged on using custom identity providers can use the SAP Job Scheduling service dashboard.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
 
  SAP Mobile Services 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Supported.
 
@@ -152,14 +172,14 @@ For more information, see [Configuring App Security](https://help.sap.com/viewer
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Service Fabrik
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can use the Service Fabrik backing service.
 
@@ -174,14 +194,14 @@ You can use the Service Fabrik backing service.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Supported with Restrictions
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -190,14 +210,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  SAP Business Application Studio 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP Business Application Studio supports custom identity providers with the following restrictions.
 
@@ -213,14 +233,14 @@ For more information, see [Terminal](https://help.sap.com/viewer/9d1db9835307451
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  SAP HANA Service Dashboard
 
 
 
 </td>
-<td>
+<td valign="top">
 
 This tool doesn't support log on with a platform user from a custom identity provider. You can only log on with a user from the default identity provider.
 
@@ -234,14 +254,14 @@ This tool doesn't support log on with a platform user from a custom identity pro
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  SAP Rapid Application Development by Mendix 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can't perform operations on multi-environment subaccounts, like deployments with SAP Rapid Application Development by Mendix when using a custom identity provider for platform users.
 
@@ -252,14 +272,14 @@ For more information, see [SAP Rapid Application Development by Mendix](https://
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Service dashboards of services that aren't listed as supported.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If you use services with dashboards, you can't access these dashboards with a platform user from a custom identity provider. Using service dashboards is only possible with the default identity provider \(SAP ID service\).
 
@@ -268,14 +288,14 @@ If you use services with dashboards, you can't access these dashboards with a pl
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  SAP Web IDE 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 SAP Web IDE running in a multi-environment subaccount of SAP BTP only supports users from SAP ID service.
 
