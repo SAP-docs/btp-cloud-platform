@@ -1184,6 +1184,53 @@ Example
 <tr>
 <td valign="top">
 
+`syslog-drain-url`
+
+
+
+</td>
+<td valign="top">
+
+Write
+
+
+
+</td>
+<td valign="top">
+
+The URL to which logs for bound applications are streamed.
+
+> ### Note:  
+> This feature only works for user-provided services.
+
+
+
+</td>
+<td valign="top">
+
+n/a
+
+
+
+</td>
+<td valign="top">
+
+```
+resources: 
+  - name: service-name 
+    type: org.cloudfoundry.user-provided-service 
+    parameters: 
+      syslog-drain-url: syslog://example.log-aggregator.com
+
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `default-container-name`
 
 
@@ -1235,7 +1282,7 @@ Yes
 </td>
 <td valign="top">
 
-The name of the service in the Cloud Foundry environment to be created for this resource, based on the resource name with or without a name-space prefix
+The name of the service in the Cloud Foundry environment to be created for this resource, based on the resource name with or without a name-space prefix.
 
 
 

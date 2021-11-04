@@ -115,9 +115,6 @@ After creating the *SAP S/4HANA Cloud Extensibility* service instance, you have 
 
 -   Consume the automatically generated destination.
 
-    > ### Note:  
-    > This option is not available for OAuth 2.0 SAML Bearer Assertion communication flow.
-
     To consume the destination, you use the destination service. You can either consume the Destination service directly, or configure the application router to consume it.
 
     > ### Note:  

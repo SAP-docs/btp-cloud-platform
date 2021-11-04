@@ -26,4 +26,7 @@ You can download one or more business roles from the test system and then upload
 
 4.  Browse for the `XML` file and click *OK*.
 
+    > ### Caution:  
+    > Please do not modify the XML file on your hard drive before uploading it to the productive system. This can lead to technical issues.
+
 

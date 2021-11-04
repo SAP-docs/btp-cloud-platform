@@ -45,9 +45,7 @@ To create a communication arrangement, proceed as follows:
 
 5.  If the selected communication system already has a communication user for outbound communication, the user and required authentication type will be displayed in the field *User Name* under *Outbound Communication*.
 
-6.  Depending on the underlying communication scenario, the *Job Execution Details* area may be visible in your communication arrangement. Please enter the required parameters, such as *Package Size*. For more information, see the documentation for your communication scenario.
-
-7.  Save the arrangement.
+6.  Save the arrangement.
 
 
 **Related Information**  
@@ -56,6 +54,4 @@ To create a communication arrangement, proceed as follows:
 [Maintain Communication Users](Maintain_Communication_Users_eef80dd.md "You can use this app to create and edit communication users. Communication users are used by solutions to authenticate themselves to be able to post data.")
 
 [Maintain Communication Systems](Maintain_Communication_Systems_15663c1.md "You can use this app to create communication systems. Communication systems are created to enable the communication among different systems.")
-
-[Application Jobs](Application_Jobs_37e7a01.md)
 

@@ -2,13 +2,15 @@
 
 # Maintain Business Configurations API
 
+Find out how to maintain your business configurations API.
+
 
 
 <a name="loio508d406ac92043dba95f694144803c26__section_ygr_l3x_clb"/>
 
 ## Prerequisites
 
-You have created a business configuration by following [this tutorial](https://developers.sap.com/mission.abap-dev-factory-calendar.html). Please note that the Maintain Business Configurations API only supports one level of sub nodes, i.e. your root entity can have associations to an arbitrary amount of entities but these sub entities cannot have associations to further sub entities. The data model must consist only of client-dependent tables.
+You have created a business configuration by following [this tutorial](https://developers.sap.com/mission.abap-dev-factory-calendar.html). Please note that the *Maintain Business Configurations API*only supports one level of sub nodes. This means that your root entity can have associations to an arbitrary amount of entities, but these sub entities can't have associations to further sub entities. The data model must consist only of client-dependent tables.
 
 
 
@@ -16,15 +18,12 @@ You have created a business configuration by following [this tutorial](https://d
 
 ## Maintain Business Configurations Cloud Platform API
 
-The ABAP API *mbc\_cp\_api* offers methods for creating, updating, deleting and reading business configuration registrations. After a business configuration has been registered, it will be shown on the list of all maintainable business configurations in the Fiori App *Maintain Business Configurations* if the user has the necessary authorizations regarding the service of the business configuration \(see **Provide Authorizations for a Business Configuration** below\) . The end user can then maintain data for the registered business configuration from the frontend.
+The ABAP API *mbc\_cp\_api* offers methods for creating, updating, deleting and reading business configuration registrations. After a business configuration has been registered, it will be shown on the list of all maintainable business configurations in the Fiori app *Maintain Business Configurations* if the user has the necessary authorizations regarding the service of the business configuration \(see **Provide Authorizations for a Business Configuration** below\) . The end user can then maintain data for the registered business configuration from the frontend.
 
-Before using any of the following methods, first obtain an interface handle by calling `mbc_cp_api=>business_configuration` with your namespace and an identifier for your business configuration.
+Before using any of the following methods, first obtain an interface handle by calling `mbc_cp_api=>business_configuration_api` with an identifier for your business configuration.
 
--   The namespace is the development namespace that was assigned to you for ABAP development in the SAP BTP ABAP environment.
--   The identifier is used to identify a single business configuration in the registration table. The following rules apply:
-    -   It must not exceed 20 characters in length.
-    -   It must start with a letter and can only contain letters, numbers and underscores. The API uppercases the identifier before storing it in the metadata table.
-
+> ### Note:  
+> The identifier is used to identify a single business configuration in the registration table. The development namespace that was assigned to you for ABAP development in the SAP BTP ABAP environment can be part of the identifier.
 
 If an error occurs while calling the following methods, an exception of type `cx_mbc_api_exception` will be raised. Use the method `if_xco_news~get_messages` to retrieve all messages that the exception carries.
 
@@ -47,7 +46,7 @@ Use the `create` method of the obtained business configuration interface handle 
 
 -   The name of an entity set as exposed by the service definition. This entity set is used as the root node for the UI. Only for this root entity set and its associations a UI is shown. Keep in mind that only one level of sub nodes is supported.
 
--   A transport request of type Workbench to write the business configuration registration to. An entry of type "SMBC" \(Business Configuration Object\) will be written to that transport request.
+-   A transport request of type `Workbench` to write the business configuration registration to. An entry of type "SMBC" \(Business Configuration Object\) will be written to that transport request.
 
 
 > ### Sample Code:  
@@ -61,10 +60,7 @@ Use the `create` method of the obtained business configuration interface handle 
 > 
 > CLASS zcl_ys_register_bc IMPLEMENTATION.
 >   METHOD main.
->     DATA(lo_business_configuration) = mbc_cp_api=>business_configuration(
->       iv_identifier = 'HOLIDAY_CALENDAR'
->       iv_namespace  = '/Y123456/'
->     ).
+>     DATA(lo_business_configuration) = mbc_cp_api=>business_configuration_api('/Y123456/HOLIDAY_CALENDAR').
 > 
 >     TRY.
 >         lo_business_configuration->create(
@@ -88,11 +84,11 @@ Use the `create` method of the obtained business configuration interface handle 
 > 
 > ```
 
-The supplied information plus an application component is stored in the registration table. The application component is derived from the package that contains the registered service binding. It will be shown within a message on the frontend if an error occurs while using the business configuration.
+The supplied information and an application component are stored in the registration table. The application component is derived from the package that contains the registered service binding. If an error occurs while using the business configuration, it will be shown in an error message on the frontend.
 
-The create method also has two optional parameters:
+The `create` method also has two optional parameters:
 
--   skip root entity list report: If abap\_true, the UI automatically navigates to the object page of the root entity skipping the list report. Exactly one root entity must exist.
+-   skip root entity list report: If `abap_true`, the UI automatically navigates to the object page of the root entity skipping the list report. Exactly one root entity must exist.
 -   app configuration: Configuration of root entity list report and object pages. It is sufficient to maintain only those attributes that should deviate from the standard behavior.
 
 
@@ -129,5 +125,5 @@ To retrieve the details of a business configuration registration, use the method
 
 To grant frontend users the rights to use a business configuration, first create an *Identity and Access Management \(IAM\) App* and assign it to an *IAM Business Catalog*. Follow [this user guide](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/032faaf4f9184484ba9295c81756e831.html) but make sure to select the IAM App Type *Business Configuration App*.
 
-Once you have created the IAM Business Catalog, assign the catalog to a Business Role on the Fiori Launchpad by following [this user guide](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8980ad05330b4585ab96a8e09cef4688.html). Finally, follow [this user guide](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e40e710321c74f28916affa9ae984bce.html) to assign the Business Role to Business Users to grant the rights to use your business configuration inside the *Maintain Business Configurations* Fiori App.
+Once you have created the IAM Business Catalog, assign the catalog to a Business Role on the Fiori Launchpad by following [this user guide](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8980ad05330b4585ab96a8e09cef4688.html). Finally, follow [this user guide](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e40e710321c74f28916affa9ae984bce.html) to assign the business role to business users to grant the rights to use your business configuration inside the *Maintain Business Configurations* Fiori app.
 

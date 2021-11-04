@@ -17,7 +17,7 @@ To create a new software component, perform the following steps:
 ## Procedure
 
 1.  On the *Manage Software Components* screen, select *Create*.
-2.  In the *Software Component* dialog, enter a name of the software component \(max. 18 characters\). Optionally you can also enter a description \(max. 60 characters\), which explains the functions of the component and is displayed in the app. Choose a type for your software component. Select either *Development* or *Business Configuration* from the drop-down.
+2.  In the *New Software Component* popup, select your namespace from the drop-down menu and enter a name for the software component. Optionally you can also enter a description \(max. 60 characters\), which explains the functions of the component and is displayed in the app. Choose a type for your software component: Select either *Development* or *Business Configuration* from the drop-down menu.
 
     <a name="loio67e2f2e1fbcf48a4801bad004133e0a7__table_ob4_r41_qjb"/>Software Component Types
 

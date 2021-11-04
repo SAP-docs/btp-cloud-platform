@@ -25,7 +25,7 @@ SAP BTP creates a copy of the user in the global account or in the subaccount wh
 
 ## Prerequisites
 
--   You have administration rights in this global account or subaccount. For more information, see [Security Administration: Managing Authentication and Authorization](Security_Administration_Managing_Authentication_and_Authorization_1ff47b2.md) or [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/Role_Collections_and_Roles_in_Global_Accounts,_Directories,_and_Subaccounts_Feature_Set_B_0039cf0.md).
+-   You have administration rights in this global account, subaccount, or directory. For more information, see [Security Administration: Managing Authentication and Authorization](Security_Administration_Managing_Authentication_and_Authorization_1ff47b2.md) or [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/Role_Collections_and_Roles_in_Global_Accounts,_Directories,_and_Subaccounts_Feature_Set_B_0039cf0.md).
 
 -   The users are stored in identity providers that are connected to SAP BTP.
 

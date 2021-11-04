@@ -747,6 +747,8 @@ The versioning pattern `<Release>.<Support Package Level>.<Patch Level>` also ap
 
 > ### Note:  
 > Software component versions are delivered with delivery packages. However, software component versions are not individual shipment entities. They can only be delivered to customers as part of a software product version.
+> 
+> Software component versions are only built once, independent from add-on product versions where the software component version was referenced. If an add-on product version is referring to a software component version that has already been created as part of a different add-on build, the created delivery package is reused.
 
 Technically, the allowed number range is 1.0.0 to 9999.9999.9999.
 
@@ -921,10 +923,9 @@ repositories:
 
 In this case, component `/NAMESPC/COMPONENT_C` is the reuse component. It has no dependencies to any other top components and is therefore listed first. This is important for the right order during software component import. `/NAMESPC/COMPONENT_C` needs to be imported before `/NAMESPC/COMPONENT_A` to avoid import errors. In addition to that, software components in the bundle can use different namespaces in the software component name.
 
-> ### Note:  
-> In a software component bundle with a reuse component, this component is assembled whenever the software component version is defined for the first time in the add-on descriptor file. Therefore, make sure to define the correct software component version to prevent building the wrong software component version for`/NAMESPC/COMPONENT_C`.
-
 > ### Recommendation:  
+> In a software component bundle with a reuse component, this component is assembled whenever the software component version is defined for the first time in the add-on descriptor file. Therefore, make sure to define the correct software component version to prevent building the wrong software component version for `/NAMESPC/COMPONENT_C`.
+> 
 > We recommend following the same delivery model \(identical shipment cycles\) for all involved software components in a delivery scenario with a reuse component.
 
 ![](images/Software_Components_and_Add-On_Products_Scenario_1_6c15e35.png)
@@ -1136,7 +1137,7 @@ Add-on update can be triggered centrally in a system using the *Landscape Portal
 </td>
 <td valign="top">
 
-Latest changes can be pulled into a system by using the *Manage Software Components* app locally. See [How to Pull Software Component](../50-administration-and-ops/How_to_Pull_Software_Component_90b9b9d.md).
+Latest changes can be pulled into a system by using the *Manage Software Components* app locally. See [How to Pull Software Components](../50-administration-and-ops/How_to_Pull_Software_Components_90b9b9d.md).
 
 
 

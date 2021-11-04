@@ -47,7 +47,7 @@ Getting Started
 <tr>
 <td valign="top">
 
-ABAP RESTful Programming Model
+ABAP RESTful Application Programming Model
 
 
 
@@ -91,7 +91,7 @@ Getting Started
 <tr>
 <td valign="top">
 
-ABAP RESTful Programming Model
+ABAP RESTful Application Programming Model
 
 
 
@@ -208,9 +208,7 @@ Advanced Tutorials
 
 ## More Tutorials
 
-[openSAP Course Videos: Introduction to SAP BTP](https://blogs.sap.com/2014/01/08/videos-of-opensap-course-introduction-to-sap-hana-cloud-platform/)
+[Tutorial Navigator](https://developers.sap.com/tutorial-navigator.html?tag=software-product%3Atechnology-platform%2Fsap-business-technology-platform%2Fsap-btp-abap-environment)
 
-[Tutorial Navigator](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-cloud-platform/sap-cloud-platform-abap-environment)
-
-[ABAP Environment Video Tutorials](https://www.sap.com/documents/2018/08/7a62516c-157d-0010-87a3-c30de2ffd8ff.html)
+[ABAP Environment Video Tutorials](https://www.youtube.com/playlist?list=PLkzo92owKnVxWqJSoFLGe1VRkzOs4Ucdr)
 

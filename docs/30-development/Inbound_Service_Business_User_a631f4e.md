@@ -2532,7 +2532,5 @@ This service does not support:
 ## Additional Information
 
 > ### Note:  
-> For more information about the API, choose the *Details* tab on the SAP API Business Hub.
-> 
 > For more details about Communication Management, see [Communication Management](../50-administration-and-ops/Communication_Management_2e84a10.md).
 

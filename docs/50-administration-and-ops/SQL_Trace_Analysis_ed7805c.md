@@ -42,11 +42,3 @@ This app provides the following key features:
 
 If you need support or experience issues, please report an incident under component `BC-OP-MON`.
 
-
-
-<a name="loioed7805cb65af4eb3a88c9f2b98da8084__section_bt3_wxg_wnb"/>
-
-## More Information
-
-The SQL trace analysis is part of the technical monitoring cockpit. For more information about the technical monitoring cockpit, see the documentation at [https://help.sap.com/viewer/tmc\_cloud](https://help.sap.com/viewer/tmc_cloud).
-

@@ -49,7 +49,7 @@ In addition, the app supports the integration with Git.
 
 [How to Create Software Components](How_to_Create_Software_Components_67e2f2e.md "")
 
-[How to Pull Software Component](How_to_Pull_Software_Component_90b9b9d.md "")
+[How to Pull Software Components](How_to_Pull_Software_Components_90b9b9d.md "")
 
 [How to Delete Software Components](How_to_Delete_Software_Components_a982ba3.md "")
 

@@ -23,7 +23,7 @@ For information about regional availability, see [Regions and API Endpoints for 
 
 [Learning Journey](https://help.sap.com/doc/221f8f84afef43d29ad37ef2af0c4adf/HP_2.0/en-US/49047e7668844d419ccee567923a475e.html)
 
-[Tutorials](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-business-technology-platform/sap-btp-abap-environment)
+[Tutorials](https://developers.sap.com/tutorial-navigator.html?tag=software-product%3Atechnology-platform%2Fsap-business-technology-platform%2Fsap-btp-abap-environment)
 
 [Video Tutorials](https://www.youtube.com/playlist?list=PLkzo92owKnVxWqJSoFLGe1VRkzOs4Ucdr)
 

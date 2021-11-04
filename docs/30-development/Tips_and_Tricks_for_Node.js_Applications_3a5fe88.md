@@ -8,9 +8,10 @@
 
 ## Get to Know the Node.js Buildpack for the Cloud Foundry Environment
 
-Check the Tips and Tricks for Node.js applications in the [Cloud Foundry Node.js Buildpack](https://docs.cloudfoundry.org/buildpacks/node/index.html) documentation.
+Check the following Cloud Foundry documentation:
 
- 
+-   [Node.js Buildpack](https://docs.cloudfoundry.org/buildpacks/node/index.html)
+-   [Tips for Node.js Developers](https://docs.cloudfoundry.org/buildpacks/node/node-tips.html)
 
 
 
@@ -47,14 +48,14 @@ Alternatively, you can specify the *npm* version in the **package.json** file:
 
 ## Vendor Application Dependencies
 
-Vendoring of Node.js application dependencies is discussed in the documentation for the Cloud Foundry environment. Even though SAP BTP is a connected environment, for productive applications we recommend that you vendor application dependencies.
+Vendoring of Node.js application dependencies is discussed in the documentation for the Cloud Foundry environment. Even though SAP BTP Cloud Foundry is a connected environment, for productive applications we recommend that you vendor application dependencies.
 
 There are various reasons for this. For example, productive applications usually rely on security scans and because `npm` doesn't provide reliable dependency fetch, it's possible that your application ends up with different dependencies in case such are installed during deployment. Additionally, `npm` downloads any missing dependencies from its registry, so if this registry isn't accessible for some reason, the deployment can fail.
 
 > ### Note:  
-> Be aware when using dependencies containing native code that you need to reinstall in the same environment as the Cloud Foundry container, or that the package has built-in support for it.
+> Bear in mind when using dependencies containing native code that you need to reinstall in the same environment as the Cloud Foundry container, or that the package has built-in support for it.
 
-To ensure that prepackaged dependencies are pushed to the Cloud Foundry environment and on-premise runtime, make sure that `node_modules` directory isn’t listed in the `.cfignore` file. It’s also preferable that development dependencies aren't deployed for productive deployments. To ensure that, run this command:
+To ensure that prepackaged dependencies are pushed to the Cloud Foundry environment and on-premise runtime, make sure that `node_modules` directory isn’t listed in the `.cfignore` file. It’s also preferable that development dependencies aren't deployed for productive deployments. To ensure that, execute:
 
 ```
 npm prune --production
@@ -66,18 +67,18 @@ npm prune --production
 
 ## Out of Memory at Runtime
 
-For performance reasons, Node.js \(V8\) has lazy garbage collection. Even if there are no memory leaks in your application, this can cause occasional restarts, as explained in the [Tips for Node.js Applications](https://docs.cloudfoundry.org/buildpacks/node/node-tips.html) section in the Node.js Buildpack documentation for the Cloud Foundry Environment.
+For performance reasons, Node.js \(V8\) has lazy garbage collection. Even if there are no memory leaks in your application, this can cause occasional restarts, as explained in the [Tips for Node.js Applications](https://docs.cloudfoundry.org/buildpacks/node/node-tips.html) section in the Node.js Buildpack documentation for the Cloud Foundry environment.
 
 Enforce the garbage collector to run before the memory is consumed by limiting the V8 application’s heap size at about ~75% of the available memory.
 
-You can either use the `OPTIMIZE_MEMORY` environment variable supported by Node.js buildpack, or specify the V8 heap size directly in your application start command \(recommended\). Example for an application started with 256M of RAM:
+You can either use the `OPTIMIZE_MEMORY` environment variable supported by the Node.js buildpack, or specify the V8 heap size directly in your application *start* command \(recommended\). Example for an application started with 256M of RAM:
 
 > ### Sample Code:  
 > ```
 > node --max_old_space_size=192 server.js
 > ```
 
-You can optimize V8 behavior using additional options. You can list them using the command:
+You can optimize V8 behavior using additional options. To list these options, execute:
 
 ```
 node --v8-options
@@ -91,5 +92,5 @@ node --v8-options
 
 When deploying an application in the Cloud Foundry environment without specifying the application memory requirements, the controller of the Cloud Foundry environment assigns the default \(1G of RAM currently\) for your application. Many Node.js applications require less memory and assigning the default is a waste of resources.
 
-To save memory from your quota, specify the memory size in the descriptor of the deployment in the Cloud Foundry environment – `manifest.yml`. To learn how to do that, see the open source Cloud Foundry environment documentation under [Deploying with Application Manifests](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html#memory).
+To save memory from your quota, specify the memory size in the descriptor of the deployment in the Cloud Foundry environment – `manifest.yml`. To learn how to do that, see [Deploying with Application Manifests](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html#memory).
 

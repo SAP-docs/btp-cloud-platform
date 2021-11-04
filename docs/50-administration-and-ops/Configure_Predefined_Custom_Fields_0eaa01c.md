@@ -6,7 +6,7 @@
 
 You, as a system administrator can use this app to configure your predefined custom fields to customize applications and their UIs.
 
-Different companies and business processses require different document layouts or application functionalities. To address these specific needs, you can adapt predelivered fields accordingly. This app offers the option to configure predelivered custom fields in your apps to your needs.
+Different companies and business processes require different document layouts or application functionalities. To address these specific needs, you can adapt predelivered fields accordingly. This app offers the option to configure predelivered custom fields in your apps to your needs.
 
 
 

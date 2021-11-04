@@ -23,10 +23,15 @@ You can schedule a job to automatically lock business users who haven't logged o
 
 1.  Open the *Application Jobs* app.
 
-2.  Under *Job Templates*, select *Lock Unused Business Users*.
+2.  Under *Job Templates*, select *Lock Unused Business Users* and click *Step 2*.
 
-3.  Under *Parameters*, enter the required number of days you want to use for the automatic lock.
+3.  Define the recurrence pattern of your job and click *Step 3*.
 
-4.  Click *Schedule*.
+4.  Under *Parameters*, enter the required number of days you want to use for the automatic lock.
+
+5.  Click *Schedule*.
+
+    > ### Note:  
+    > You can exclude business users from this scheduling job if required.
 
 

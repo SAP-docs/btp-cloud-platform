@@ -185,6 +185,8 @@ As an add-on administrator, you can provide different kinds of updates. The deci
 > ### Note:  
 > New features are developed on different code lines \(branches\). If you create a so-called maintenance branch to implement patches while new features are implemented in the main branch of a software component, you can implement new features and provide bug fixes at the same time. For more information, see [Versioning and Branches](Concepts_9482e7e.md#loio8c087bca40584f9b899282b4ec515753).
 > 
+> Only by changing the version string of a software component in the add-on descriptor file `addon.yml`, the build of a new delivery package with the latest changes is created.
+> 
 > To learn more about terminology related to software lifecycle management in the ABAP environment, such as cloning and checkout, see [Basic Concepts and Terms](Basic_Concepts_and_Terms_fb3a076.md).
 
 **Create new patch version \(emergency patch\)**
@@ -237,7 +239,7 @@ Small corrections are delivered as patches, also known as emergency patches.
 
         You need to test the implemented corrections by importing the maintenance branch for the current support package level, where the transports for necessary bug fixes were released, in the dedicated test system, which is the ABAP quality assurance system QAS.
 
-        [How to Pull Software Component](../50-administration-and-ops/How_to_Pull_Software_Component_90b9b9d.md).
+        [How to Pull Software Components](../50-administration-and-ops/How_to_Pull_Software_Components_90b9b9d.md).
 
     -   Test bugfix in ABAP quality assurance system
 
@@ -251,6 +253,9 @@ Small corrections are delivered as patches, also known as emergency patches.
     As an add-on admin, useAs a developer, you have to maintain the corrections that have been developed and tested in the ABAP correction system COR and quality assurance system QAS in the development system DEV \(so called double-maintenance\). See [Double Maintenance of Corrections into Development](Double_Maintenance_of_Corrections_into_Development_1241b14.md).
 
 -   **Configure addon.yml file**
+
+    > ### Note:  
+    > While creating patch versions for the same support package level or release version, the same maintenance branch should be used.
 
     As an add-on admin, change the add-on descriptor file according to the add-on product version that you want to build.
 
@@ -459,17 +464,4 @@ You can't select the target version of the update. The latest released version \
 
 > ### Note:  
 > If you need support or experience issues, please report an incident under component `BC-CP-ABA-LP`.
-
- <a name="loio7b3a50175b904841b141446bfae331ca"/>
-
-<!-- loio7b3a50175b904841b141446bfae331ca -->
-
-## Restore Deleted Tenant
-
-After unsubscribing from a consumer subaccount, the associated tenant is not immediately deleted, and it can be restored within a given period of time.
-
-As a SaaS solution operator, you can restore the tenant from the Landscape Portal. See [Restore Tenants](Restore_Tenants_619c40e.md).
-
-> ### Note:  
-> The retention time within which a tenant can be restored depends on the global account where the provider subaccount is set up, and it might be a time window of only a few minutes.
 

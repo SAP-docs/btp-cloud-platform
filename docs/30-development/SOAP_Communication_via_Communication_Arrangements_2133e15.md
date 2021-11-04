@@ -2,76 +2,55 @@
 
 # SOAP Communication via Communication Arrangements
 
-To enable SOAP \(Simple Object Access Protocol\) communication, you need to create an outbound service of the type SOAP and use the proxy to call the respective web service from the ABAP environment.
+To set up SOAP communication via communication arrangement, proceed as follows:
 
-1.  Launch the ABAP Development Tools.
+1.  Create a Service Consumption model of the type Web service as described in [Creating Service Consumption Model](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/96132822b3554016b653d3601bb9ff1a.html).
+2.  Create a corresponding outbound service of type `SOAP` and include it in a communication scenario. See [Communication Scenario](Communication_Scenario_7ea7276.md).
+3.  Create a communication arrangement as described in [How to Create a Communication Arrangement](../50-administration-and-ops/How_to_Create_a_Communication_Arrangement_a0771f6.md).
+4.  Call the Web service as described in the sample code below.
 
-2.  In your ABAP project, select the relevant package node in the *Project Explorer*.
-
-3.  Open the context menu and choose *File* \> *New* \> *Other ABAP Repository Object* \> *Cloud Communication Management* \> *Outbound Service* \> *Next*to launch the creation wizard.
-
-4.  Enter the name of the outbound service.
-
-    Note: The name of the outbound service needs to the follow the naming convention to end with the suffix SPRX: <service\>\_SPRX.
-
-5.  Select *SOAP* in the *Service Type* dropdown list.
-
-6.  Choose *Next* and select a transport request.
-
-7.  In the detail screen, select the required SOAP proxy class.
-
-8.  Add the newly created outbound service to a communication scenario
-
-9.  Maintain the URL to call the service in the communcation scenario.
-
-10. Create a communication system and communication arrangement for the communication scenario and maintain the required data, such as host name, and credentials in the *Communication Systems* and *Communication Arrangements* apps.
-
-
-**SOAP Communication in your ABAP Code**
+> ### Note:  
+> The parameters `SERVICE_ID` and `COMM_SYSTEM_ID` are optional and only need to be specified if unique identification of the communication arrangement is not possible without them.
 
 > ### Sample Code:  
 > ```
->    data: lr_cscn type if_com_scenario_factory=>ty_query-cscn_id_range.
-> 
-> * Find CA by scenario
->     lr_cscn = value #( ( sign = 'I' option = 'EQ' low = '<Scenario ID>' ) ).
->     data(lo_factory) = cl_com_arrangement_factory=>create_instance( ).
->     lo_factory->query_ca(
->       exporting
->         is_query           = value #( cscn_id_range = lr_cscn )
->       importing
->         et_com_arrangement = data(lt_ca) ).
-> 
->     if lt_ca is initial.
->       exit.
->     endif.
-> 
-> * take the first one
->     read table lt_ca into data(lo_ca) index 1.
-> 
-> * get destination based on Communication Arrangement
->     try.
->         data(lv_cs_id) = lo_ca->get_comm_system_id( ).
->         data(lo_dest) = cl_soap_destination_provider=>create_by_comm_arrangement(
->                                          comm_scenario  = '<Scenario ID>'
->                                          service_id     = '<Outbound Service ID>'
->                                          comm_system_id = lv_cs_id ).
-> 
->         data(proxy) = new zco_proxy_class( destination = lo_dest ).
-> 
->         proxy->query(
->           exporting
->             input = ls_request
->           importing
->             output = data(ls_response) ).
-> 
->       catch cx_soap_destination_error.
->         "handle error
->       catch cx_ai_system_fault.
->         "handle error
->       catch zjbcx_standard_message_fault.
->         "handle error
->       catch cx_rfc_dest_provider_error into data(lx_error).
-> 
+> TRY.
+>     DATA(soap_destination) = cl_soap_destination_provider=>create_by_comm_arrangement(
+>                                comm_scenario  = '<test scenario>'
+>                                service_id     = '<service id>'
+>                                comm_system    = '<comm system>' ).
+>  
+>     DATA(proxy) = NEW zsc_co_epm_product_soap( destination = soap_destination ).
+>  
+>     DATA(request) = VALUE zsc_req_msg_type( req_msg_type-product = '<product name>' ).
+>     proxy->get_price(
+>       EXPORTING
+>         input = request
+>       IMPORTING
+>         output = DATA(response) ).
+>  
+>     "handle response
+>   CATCH cx_soap_destination_error.
+>     "handle error
+>   CATCH cx_ai_system_fault.
+>     "handle error
+>   CATCH zsc_cx_fault_msg_type.
+>     "handle error
+>  
+> ENDTRY.
 > ```
+
+> ### Note:  
+> For the approach via communication arrangement, you can't set the properties programmatically by using setter methods. See [Communication Arrangement](Communication_Arrangement_201de48.md) for more information.
+
+**Related Information**  
+
+
+[Enable SOAP Communication in Your ABAP Code](Enable_SOAP_Communication_in_Your_ABAP_Code_6ab460e.md "SOAP-based Web service outbound communication within the ABAP environment is enabled by using SOAP destination objects.")
+
+[Overview of Communication Management](Overview_of_Communication_Management_5b8ff39.md "")
+
+[Communication Arrangement](Communication_Arrangement_201de48.md "A communication arrangement is a runtime description of a specific communication scenario. It describes which communication partners communicate with each other in the scenario and how they communicate.")
+
+[Developing External Service Consumption \(Outbound Communication\)](Developing_External_Service_Consumption_(Outbound_Communication)_f871712.md "Get more information about consuming external services.")
 

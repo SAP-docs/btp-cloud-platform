@@ -10,7 +10,7 @@ You can enable transport of SAP BTP applications and application content that is
 
 ## Prerequisites
 
--   You have configured your SAP BTP subaccounts for transport with CTS+ as described in [How To... Configure SAP BTP Cloud Foundry for CTS](https://help.sap.com/doc/9aad207e90fa4da793d34114113e9254/Cloud/en-US/HowToCTS%2B_GuideSCP_v1.0-CF.pdf) 
+-   You have configured your SAP BTP subaccounts for transport with CTS+ as described in [How to...Configure SAP BTP, Cloud Foundry environment for CTS](https://help.sap.com/doc/9aad207e90fa4da793d34114113e9254/Cloud/en-US/HowToCTS%2B_Guide_SCP_CF.pdf) 
 -   The content that you want to transport can be made available as a Multitarget Application \(MTA\) archive as described in [Multitarget Applications in the Cloud Foundry Environment](Multitarget_Applications_in_the_Cloud_Foundry_Environment_d04fc0e.md).
 
 

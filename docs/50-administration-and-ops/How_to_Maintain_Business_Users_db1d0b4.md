@@ -8,7 +8,7 @@
 
 ## Context
 
-You can change user data \(for example, the user name\) and regional settings \(for example, the date and time format\).
+Business users are replicated from your central HR system. You can change user data \(for example, the user name\) and regional settings \(for example, the date and time format\).
 
    
   

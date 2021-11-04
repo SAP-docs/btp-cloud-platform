@@ -23,19 +23,63 @@ The user executing the procedure is expected to have the `Space Developer` role 
 
 <a name="loio30ece35bac024ca69de8b16bff79c413__section_yfz_xrt_pfb"/>
 
-## Create instance of the "auditlog-management" service
+## Create instance of the `auditlog-management` service
 
 1.  Create a Cloud Foundry Org and Space, in case you do not have any. See [Create Spaces](Create_Spaces_2f6ed22.md).
 
 2.  Login to the Cloud Foundry landscape using the corresponding Cloud Foundry API \(Infrastructure/Landscape Overview\).
 
-    `cf login -a <API_URL> -o <ORG> -s <SPACE> -u <USER>`
+    ```
+    cf login -a <API_URL> -o <ORG> -s <SPACE> -u <USER>
+    ```
 
-3.  Create a service instance of the service `“auditlog-management”`
+3.  Create a service instance of the service `auditlog-management`
+
+    > ### Note:  
+    > For security reasons, we strongly recommend you to adopt the provided mutual TLS authentication \(mTLS\). The mTLS authentication relies on X.509 certificates for the verification of the parties in the network connection, by creating the `auditlog-managenment` service instances with the additional parameters, as explained in the following mTLS points.
+
+    -   \(Recommended\) For mTLS authentication using X.509 certificates, use:
+
+        ```
+        cf create-service auditlog-management default <SERVICE_INSTANCE> -c '{
+        "xs-security": {"xsappname": "auditlog",
+        "oauth2-configuration": {
+        "credential-types": ["x509"],
+        "grant-types": ["client_x509","client_credentials"]
+        }
+        }
+        }
+        ```
+
+    -   For non-mTLS authetnication, use
+
 
     `cf create-service auditlog-management default <SERVICE_INSTANCE>`
 
+    > ### Note:  
+    > If there's a previously created auditlog-management service instance without the security parameters for mTLS, we recommend you to delete that instance and create a new instance with mTLS authentication using the parameters from the previous \(recommended\) scenario.
+
 4.  Create a key for the service instance:
+
+    -   For service instances with mTLS, use:
+
+        ```
+        cf create-service-key <SERVICE_INSTANCE> <SERVICE_KEY> -c '{
+        "xsuaa": {
+        "credential-type": "x509",
+        "x509": {
+        "key-length": 2048,
+        "validity": 1,
+        "validity-type": "DAYS"
+        }
+        }
+        }
+        ```
+
+        > ### Note:  
+        > You can specify the validity period of the service key for each use case. To use the service instance, once the key validity expires, create a new key. By default and for security reasons, the key from this code example is created with a validity of 1 day.
+
+    -   For service instances without mTLS, use:
 
     `cf create-service-key <SERVICE_INSTANCE> <SERVICE_KEY>`
 
@@ -43,7 +87,30 @@ The user executing the procedure is expected to have the `Space Developer` role 
 
     `cf service-key <SERVICE_INSTANCE> <SERVICE_KEY>`
 
-6.  Extract values for `"uaa.url"`, `"uaa.clientid"` and `"uaa.clientsecret"` of the key of the service instance for access token creation. Extract the `"url"` to be used for later request to retrieve audit logs.
+6.  Extract data from the service key.
+
+    -   For mTLS scenario:
+
+        -   Extract the values for `uaa.clientid` and `uaa.certurl` of the key of the service instance for access token creation.
+        -   Extract the value for `url` and use it for later request to retrieve audit logs.
+        -   Extract the value for `uaa.certificate`, remove all `\n` entries from the X.509 certificate and save it as a file in the `.pem` format.
+        -   Extract the value for `uaa.key`, remove all `\n` entries from the RSA private key and save it as a file in the `.pem` format.
+
+        > ### Note:  
+        > To extract of the values and avoid errors while copying or removing characters, you can use the sed and jq tools:
+        > 
+        > ```
+        > cf service-key <SERVICE_INSTANCE> <SERVICE_KEY> | sed '/Getting key/d' | jq --raw-output .uaa.certurl
+        > cf service-key <SERVICE_INSTANCE> <SERVICE_KEY> | sed '/Getting key/d' | jq --raw-output .uaa.clientid
+        > cf service-key <SERVICE_INSTANCE> <SERVICE_KEY> | sed '/Getting key/d' | jq --raw-output .url
+        > # the following two commands save the output to .pem files on the location, where the command is executed
+        > cf service-key <SERVICE_INSTANCE> <SERVICE_KEY> | sed '/Getting key/d' | jq --raw-output .uaa.certificate > mtls-certificate.pem
+        > cf service-key <SERVICE_INSTANCE> <SERVICE_KEY> | sed '/Getting key/d' | jq --raw-output .uaa.key > mtls-private-key.pem
+        > ```
+
+    -   For non-mTLS scenario:
+
+    Extract values for `uaa.url`, `uaa.clientid` and `uaa.clientsecret` of the key of the service instance for access token creation. Extract the `url` to be used for later request to retrieve audit logs.
 
 
 
@@ -52,7 +119,31 @@ The user executing the procedure is expected to have the `Space Developer` role 
 
 ## Create an OAuth Access Token
 
-1.  Request the OAuth access token via the OAuth client credentials flow, by executing an HTTP POST request with the following parameters:
+1.  Request an OAuth access token
+
+    -   For mTLS scenario
+
+        To request the OAuth access token via the mTLS extracted X.509 certificates and RSA private key flow, execute an HTTP POST request with the following parameters:
+
+        ```
+        URL: <value of "uaa.certurl">/oauth/token?grant_type=client_credentials&client_id=<value of "uaa.clientid">
+        Method: POST
+        Authentication Method: Client Certificates
+        Certificate: <Value of "uaa.certificate">
+        Key: <Value of "uaa.key">
+        grant_type: client_credentials
+        client_id: <Value of "uaa.clientid">
+        ```
+
+        Example:
+
+        ```
+        curl --cert <path to certificate.pem> --key <path to key.pem> --request POST https://<value of "uaa.certurl">/oauth/token -d 'grant_type=client_credentials&client_id=<Value of "uaa.clientid">'
+        ```
+
+    -   For non-mTLS scenario
+
+    Request the OAuth access token via the OAuth client credentials flow, by executing an HTTP POST request with the following parameters:
 
     ```
     **URL:** <value of "uaa.url">/oauth/token?grant_type=client_credentials
@@ -63,7 +154,7 @@ The user executing the procedure is expected to have the `Space Developer` role 
     
     ```
 
-2.  Extract the value of the `"access_token"` attribute from the JSON response.
+2.  Extract the value of the `access_token` attribute from the JSON response.
 
     This token grants access to the audit logs of the subaccount on the landscape where the service instance is created.
 

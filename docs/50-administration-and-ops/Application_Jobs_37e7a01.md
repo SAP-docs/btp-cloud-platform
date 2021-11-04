@@ -55,8 +55,3 @@ You can use this app to:
 
 If you need support or experience issues, please report an incident under component `BC-SRV-APS-APJ`.
 
-
-
-> ### Note:  
-> Currently you cannot differentiate between the read-only access and read-and-write access. If the business catalog *Application Jobs* has been assigned to a business role, a user with this business role has the full access to the app.
-

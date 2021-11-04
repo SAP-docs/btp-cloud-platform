@@ -30,7 +30,7 @@ a\) You can use this app to:
 
 **Note:**
 
-Once you have uploaded your certificate in the *Maintain Client Certificates* app, you have to edit it to enable it for usage in the SAP Cloud Platform ABAP Environment. You do this by selecting *Client Default for ABAP on SCP* in the *Certificate Category* dropdown.
+Once you have uploaded your certificate in the *Maintain Client Certificates* app, you have to edit it to enable it for usage in the SAP Cloud Platform ABAP Environment. You do this by selecting *Client Default for ABAP on BTP* in the *Certificate Category* dropdown.
 
 
 

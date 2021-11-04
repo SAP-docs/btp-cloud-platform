@@ -238,11 +238,13 @@ When tenant or system provisioning has been completed, you receive a confirmatio
 
 
 
-### Prerequisites
+<a name="loioa24217a0d6fa434bbce97869dfb70dda__section_sxb_gms_vnb"/>
+
+## Prerequisites
 
 -   To create a consumer subaccount, all the details, such as the account name, provider, region and subdomain should be known. See [Account Model](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loio8d6e3a0fa4ab43e4a421d3ed08128afa) and [Regions and API Endpoints for the ABAP Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html#loio879f37370d9b45e99a16538e0f37ff2c).
 -   To subscribe to the SaaS solution, you need a consumer subaccount. To monitor system and tenant provisioning, you have to subscribe to the Landscape Portal app and configure user access using the `LandscapePortalAdminRoleCollection`. See [Accessing the Landscape Portal](Accessing_the_Landscape_Portal_2e1e393.md).
--   To configure the consumer subaccount, the details for destinations, cloud connectors and trust configuration need to be available to you. To delegate access to the consumer subaccount, a consumer subaccount admin user of the customer isrequired. See [Using the Destinations Editor in the Cockpit](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/565fdb3dd19d4cda80864341dc5a0451.html), [Cloud Connector](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e6c7616abb5710148cfcf3e75d96d596.html), [Trust and Federation with Identity Providers](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cb1bc8f1bd5c482e891063960d7acd78.html), and [Add Members to Your Subaccount \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/1e1b7b60bb1b4764a2d4bb96bd73182d.html).
+-   To configure the consumer subaccount, the details for destinations, cloud connectors and trust configuration need to be available to you. To delegate access to the consumer subaccount, a consumer subaccount admin user of the customer is required. See [Using the Destinations Editor in the Cockpit](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/565fdb3dd19d4cda80864341dc5a0451.html), [Cloud Connector](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e6c7616abb5710148cfcf3e75d96d596.html), [Trust and Federation with Identity Providers](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cb1bc8f1bd5c482e891063960d7acd78.html), and [Add Members to Your Subaccount \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/1e1b7b60bb1b4764a2d4bb96bd73182d.html).
 -   For the initial user onboarding, you need a consumer subaccount administrator in the consumer subaccount. See [Consumer Access](Consumer_Access_a197d6f.md).
 
 
@@ -251,9 +253,11 @@ When tenant or system provisioning has been completed, you receive a confirmatio
 
 Depending on the marketplace platform \(for example SAP App Center\) or other distribution channels, customers can buy the SaaS solution.
 
--   Customer name and email address for the creation of a consumer subaccount admin userFor the following process of creating a consumer subaccount for your customer, you should have the following information readily available:
--   Name and scope of the SaaS solution for the subscription to the SaaS solution
--   Quantity of users, t-shirt size of solution etc. to determine necessary configuration steps
+-   Customer name and email address for the creation of a consumer subaccount admin user
+-   For the following process of creating a consumer subaccount for your customer, you should have the following information readily available:
+    -   Name and scope of the SaaS solution for the subscription to the SaaS solution
+    -   Quantity of users, t-shirt size of solution etc. to determine necessary configuration steps
+
 
  <a name="loio8b92024cc5d44268bf4737551e4fa981"/>
 

@@ -184,7 +184,7 @@ Development artifacts such as Data Dictionary objects, classes, or interfaces, w
 
 -   Usage of System Information \(sy-sysid and sy-mandt\)
 
-    Storing SY-SYSID and SY-MANDT explicitly in database tables is not allowed. This would lead to issues after tenant copy or tenant move, because both values are not unique and not stable in the system landscape. A dedicated API is provided to get a unique and stable identifier for the tenant.
+    Storing SY-SYSID and SY-MANDT explicitly in database tables is not allowed. This would lead to issues after tenant copy or tenant move, because both values are not unique and not stable in the system landscape. A dedicated API is provided to get a unique and stable identifier for the tenant. See [Tenant](Tenant_bbb4dc2.md).
 
 
 

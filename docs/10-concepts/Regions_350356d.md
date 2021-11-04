@@ -2129,6 +2129,43 @@ US East \(VA\)
 <tr>
 <td valign="top">
 
+Enterprise and trial account
+
+
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
+
+
+
+</td>
+<td valign="top">
+
+Amazon Web Services
+
+
+
+</td>
+<td valign="top">
+
+cf-eu10
+
+
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Enterprise account
 
 
@@ -2269,43 +2306,6 @@ cf-eu20
 <td valign="top">
 
 West Europe
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Enterprise account
-
-
-
-</td>
-<td valign="top">
-
-Europe \(Frankfurt\)
-
-
-
-</td>
-<td valign="top">
-
-Amazon Web Services
-
-
-
-</td>
-<td valign="top">
-
-cf-eu10
-
-
-
-</td>
-<td valign="top">
-
-Europe \(Frankfurt\)
 
 
 

@@ -258,7 +258,7 @@
     </td>
     <td valign="top">
 
-    ***urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress​***
+    ***urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress***
 
 
     

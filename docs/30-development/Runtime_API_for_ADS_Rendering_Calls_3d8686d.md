@@ -2,7 +2,7 @@
 
 # Runtime API for ADS Rendering Calls
 
-The `CL_FP_ADS_UTIL` class provides the ABAP Runtime API for *Adobe Document Service* \(ADS\) rendering calls. It contains the following *Public* methods to be used for the corresponding functions:
+The `CL_FP_ADS_UTIL` class provides the ABAP Runtime API for *Adobe Document Services* \(ADS\) rendering calls. It contains the following *Public* methods to be used for the corresponding functions:
 
 <a name="loio3d8686d312bc426d8b2aa323473996b0__table_fcg_fcv_pqb"/>Public Methods
 

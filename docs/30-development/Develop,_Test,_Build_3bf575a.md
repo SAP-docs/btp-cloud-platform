@@ -543,7 +543,7 @@ You can set up the transport of your development from a development to a test sy
 
 **Manually import into test system via gCTS**
 
-As an add-on admin user, you can pull the latest released changes of a software component to the test system by using the main branch. You can test these changes in the test system independent from ongoing development. See [How to Pull Software Component](../50-administration-and-ops/How_to_Pull_Software_Component_90b9b9d.md) and [ABAP Lifecycle Management](ABAP_Lifecycle_Management_5c7b17d.md).
+As an add-on admin user, you can pull the latest released changes of a software component to the test system by using the main branch. You can test these changes in the test system independent from ongoing development. See [How to Pull Software Components](../50-administration-and-ops/How_to_Pull_Software_Components_90b9b9d.md) and [ABAP Lifecycle Management](ABAP_Lifecycle_Management_5c7b17d.md).
 
 **\[Optional\] Set up a CI server and pipeline for automatic testing**
 
@@ -734,7 +734,7 @@ If the solution is successfully tested and works correctly, you can proceed with
 
 **Import Software Components**
 
-Before testing new developments in a software component in the test system, as an add-on admin, you have to import the latest changes from the remote repository. After you have cloned a software component into the test system TST, you can import the latest changes by pulling the software component in the *Manage Software Components* app. See [How to Pull Software Component](../50-administration-and-ops/How_to_Pull_Software_Component_90b9b9d.md).
+Before testing new developments in a software component in the test system, as an add-on admin, you have to import the latest changes from the remote repository. After you have cloned a software component into the test system TST, you can import the latest changes by pulling the software component in the *Manage Software Components* app. See [How to Pull Software Components](../50-administration-and-ops/How_to_Pull_Software_Components_90b9b9d.md).
 
 **Create and Assign Business Roles**
 
@@ -830,7 +830,7 @@ Once the build and test installation have been completed successfully, an add-on
 ## Prerequisites
 
 -   For the add-on build, you have to set up a Jenkins CI/CD server that is provisioned using the Cx server, an S user in SAP One Support Launchpad with user management authorization as well as authorization to create a customer incident for add-on registration. See [https://www.jenkins.io/](https://www.jenkins.io/), [Cx Server](https://www.project-piper.io/infrastructure/overview/#cx-server-recommended), and SAP note [1271482](https://launchpad.support.sap.com/#/notes/1271482).
--   To build the first add-on version, you have to set up a Jenkins CI/CD server that is provisioned using the Cx Server tool and configure the add-on build pipeline. See [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
+-   To build the first add-on version, you have to configure the add-on build pipeline. See [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
 
  <a name="loioccf0c1ef30ce4d6aa6e39bb583fb8ba1"/>
 

@@ -18,7 +18,7 @@ You can use this app to:
 
 
 
--   Lock or unlock the following types of technical users: Print users, communication users, and initial user \(`SAP_CUST_INI`\) that comes with the new system
+-   Lock or unlock the following types of technical users: Print users and communication users
 
 -   Change user name and password of some types of technical users
 

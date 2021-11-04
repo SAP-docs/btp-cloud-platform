@@ -284,6 +284,40 @@ User Interface Configuration
 <tr>
 <td valign="top">
 
+User Interface Monitoring
+
+
+
+</td>
+<td valign="top">
+
+ [Display Launchpad Content Exposure Logs](Display_Launchpad_Content_Exposure_Logs_3f4fc64.md) 
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_UI_MON`
+
+*User Interface - Monitoring* 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 ABAP Test Cockpit
 
 
@@ -518,6 +552,40 @@ Application Jobs
 `SAP_CORE_BC_APJ_JCE`
 
 *Application Jobs*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Application Job Templates
+
+
+
+</td>
+<td valign="top">
+
+ [Application Job Templates](Application_Job_Templates_9c930d5.md) 
+
+
+
+</td>
+<td valign="top">
+
+ `SAP_BR_ADMINISTRATOR` 
+
+*Administrator*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_APJ_TPL`
+
+*Application Job Templates*
 
 
 
@@ -1034,6 +1102,48 @@ Security
 <tr>
 <td valign="top">
 
+Security
+
+
+
+</td>
+<td valign="top">
+
+[Display Security Audit Log](Display_Security_Audit_Log_7eed4ab.md)
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+`SAP_BR_DATA_PRIVACY_SPECIALIST`
+
+*Data Privacy Specialist*
+
+`SAP_BR_EXTERNAL_AUDITOR`
+
+*External Auditor*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_SEC_SAL`
+
+*Security Audit Log*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Communication Management
 
 
@@ -1230,6 +1340,74 @@ Communication Management
 `SAP_CORE_BC_COM`
 
 *Communication Management*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Communication Management
+
+
+
+</td>
+<td valign="top">
+
+ [Monitor bgRFC Queues](Monitor_bgRFC_Queues_e7d35d3.md) 
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR` 
+
+*Administrator*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_COM`
+
+*Communication Management*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+i18n Services
+
+
+
+</td>
+<td valign="top">
+
+ [Language Configuration](Language_Configuration_9e501ed.md) 
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR` 
+
+*Administrator*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_I18N_LANG`
+
+*Language Configuration*
 
 
 
@@ -1536,6 +1714,10 @@ Technical Monitoring
 
 *Administrator*
 
+`SAP_BR_DEVELOPER`
+
+*Developer*
+
 
 
 </td>
@@ -1569,6 +1751,10 @@ Technical Monitoring
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
+
+`SAP_BR_DEVELOPER`
+
+*Developer*
 
 
 
@@ -1604,6 +1790,10 @@ Technical Monitoring
 
 *Administrator*
 
+`SAP_BR_DEVELOPER`
+
+*Developer*
+
 
 
 </td>
@@ -1637,6 +1827,10 @@ Technical Monitoring
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
+
+`SAP_BR_DEVELOPER`
+
+*Developer*
 
 
 
@@ -1672,6 +1866,10 @@ Technical Monitoring
 
 *Administrator*
 
+`SAP_BR_DEVELOPER`
+
+*Developer*
+
 
 
 </td>
@@ -1706,6 +1904,10 @@ Technical Monitoring
 
 *Administrator*
 
+`SAP_BR_DEVELOPER`
+
+*Developer*
+
 
 
 </td>
@@ -1729,7 +1931,7 @@ Technical Monitoring
 </td>
 <td valign="top">
 
- [Capture Workloads \(Request Statistics\)](Capture_Workloads_(Request_Statistics)_01e93f2.md) 
+ [Capture Request Statistics](Capture_Request_Statistics_01e93f2.md) 
 
 
 
@@ -1739,6 +1941,48 @@ Technical Monitoring
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
+
+`SAP_BR_DEVELOPER`
+
+*Developer*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_TMC`
+
+*Technical Monitoring*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Technical Monitoring
+
+
+
+</td>
+<td valign="top">
+
+ [Perform System Sizing](Perform_System_Sizing_1b2be3f.md) 
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+`SAP_BR_DEVELOPER`
+
+*Developer*
 
 
 

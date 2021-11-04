@@ -57,15 +57,15 @@ You can also add the `serverless.kyma-project.io/managed-by: user` label to the 
 
 
 
-For detailed steps, see the [tutorial on switching between registries at runtime.](https://kyma-project.io/docs/components/serverless/#tutorials-switch-to-an-external-docker-registry-at-runtime)
+For detailed steps, see the [tutorial on switching between registries at runtime](https://kyma-project.io/docs/kyma/latest/03-tutorials/00-serverless/svls-08-switch-to-external-registry/).
 
 
 
 Learn more about:
 
--   [Registries in the Kyma environment](https://kyma-project.io/docs/components/serverless/#details-internal-and-external-registries)
+-   [Registries in the Kyma environment](https://kyma-project.io/docs/kyma/latest/01-overview/main-areas/serverless/svls-03-container-registries/)
 
 
--   [Admission webhook and its role in the registry change process](https://kyma-project.io/docs/components/serverless/#details-supported-webhooks-admission-webhook)
+-   [Admission webhook and its role in the registry change process](https://kyma-project.io/docs/kyma/latest/05-technical-reference/svls-07-supported-webhooks/#admission-webhook)
 
 

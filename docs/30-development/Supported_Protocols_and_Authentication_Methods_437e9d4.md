@@ -6,7 +6,7 @@ Get an overview about supported protocols and authentication methods in the ABAP
 
 
 
-Each communication scenario defines which authentication methods can be used. The tables below gives you an overview of all the authentication methods.
+Each communication scenario defines which authentication methods can be used. The tables below gives you an overview of all the authentication methods for communication management.
 
 
 
@@ -53,11 +53,11 @@ Basic Authentication
 
 Client Certificate Authentication
 
-Oauth2 Client Credentials
+OAuth 2.0 Client Credentials Grant
 
-Oauth2 SAML Bearer Assertion
+OAuth 2.0 SAML Bearer Assertion
 
-Oauth2 User Token Exchange
+OAuth 2.0 User Token Exchange
 
 
 
@@ -70,7 +70,7 @@ Basic Authentication
 
 Client Certificate Authentication
 
-Oauth2 Client Credentials
+OAuth 2.0 Client Credentials Grant
 
 
 
@@ -90,7 +90,7 @@ No Authentication
 
 Basic Authentication
 
-JWT Principal Propagation
+Principal Propagation
 
 
 
@@ -121,6 +121,8 @@ Basic Authentication
 
 Client Certificate Authentication
 
+OAuth 2.0 Client Credentials Grant
+
 
 
 </td>
@@ -131,6 +133,8 @@ No Authentication
 Basic Authentication
 
 Client Certficate Authentication
+
+OAuth 2.0 Client Credentials Grant
 
 
 
@@ -149,6 +153,8 @@ SOAP \(Cloud Connector\)
 No Authentication
 
 Basic Authentication
+
+Principal Propagation \(only via service destination\)
 
 
 
@@ -202,7 +208,7 @@ RFC \(Cloud Connector\)
 
 Basic Authentication
 
-JWT Principal Propagation
+Principal Propagation
 
 
 
@@ -255,6 +261,10 @@ Basic Authentication
 
 Client Certificate Authentication
 
+SAML Assertion Authentication
+
+OpenID Connect Bearer Token
+
 
 
 </td>
@@ -263,6 +273,9 @@ Client Certificate Authentication
 <td valign="top">
 
 SOAP
+
+> ### Note:  
+> You can only use it in communication scenarios delivered by SAP.
 
 
 
@@ -314,7 +327,7 @@ Basic Authentication
 <tr>
 <td valign="top">
 
-SQL-Service
+SQL service
 
 
 
@@ -323,14 +336,15 @@ SQL-Service
 
 Basic Authentication
 
+OpenID Connect Bearer Token
+
 
 
 </td>
 </tr>
 </table>
 
-**Related Information**  
+-   For more information about the SQL service, see [Accessing ABAP-Managed Data from External ODBC-Based Clients](Accessing_ABAP-Managed_Data_from_External_ODBC-Based_Clients_4082fe1.md).
 
-
-[Accessing ABAP-Managed Data from External ODBC-Based Clients](Accessing_ABAP-Managed_Data_from_External_ODBC-Based_Clients_4082fe1.md "As a developer in the ABAP environment, you can access CDS view entities in an ABAP system using SQL and the open database connectivity (ODBC), a standard API for accessing databases. As a result, you can use SQL statements in external analytical tools to access data in database tables that reside in the ABAP environment.")
+-   For more information about the OpenID Connect Bearer Token, see [How to Create Communication Systems](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/1bfe32ae08074b7186e375ab425fb114.html).
 

@@ -29,10 +29,10 @@ If a software component is not in your system yet, you will first need to clone 
 
 
 > ### Note:  
-> It is currently not possible to execute/trigger multiple actions \(clones/pulls/deletes\) in parallel on one system, regardless of the fact that the calls run asynchronously.
+> It is recommended to clone multiple software components one by one. Please clone software components with objects that are reused by other components first.
 
 **Related Information**  
 
 
-[How to Pull Software Component](How_to_Pull_Software_Component_90b9b9d.md "")
+[How to Pull Software Components](How_to_Pull_Software_Components_90b9b9d.md "")
 

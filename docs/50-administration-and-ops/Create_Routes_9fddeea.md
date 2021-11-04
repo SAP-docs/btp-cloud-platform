@@ -78,7 +78,7 @@ The following steps guide you through the procedure of creating routes by using 
 
     `https://**<host name\>**.<domain>`
 
-    The host name can include no more than 63 characters.
+    The host name can contain up to 63 characters.
 
 
     

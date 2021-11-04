@@ -604,6 +604,98 @@ Create an initial administrator user for the customer.
 
 
 
+<a name="loio964054384acd445fae9e3a80278096a8__section_amh_p15_hrb"/>
+
+## Configure and Implement a Customer Project
+
+
+<table>
+<tr>
+<th valign="top">
+
+Phase
+
+
+
+</th>
+<th valign="top">
+
+Step
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top" rowspan="3">
+
+[Configure and Implement a Customer Project](Configure_and_Implement_a_Customer_Project_363d2ea.md#loio363d2ea033b14ecfa5c67cf8d3e7cb01)
+
+
+
+</td>
+<td valign="top">
+
+Set up Identity and Access Management.
+
+
+
+</td>
+<td valign="top">
+
+Create and assign business roles.
+
+Create spaces and pages for business roles.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Integrate the customer project.
+
+
+
+</td>
+<td valign="top">
+
+Create communication arrangements.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Configure the customer project.
+
+
+
+</td>
+<td valign="top">
+
+Create business configuration.
+
+Configure key user extemsibility.
+
+
+
+</td>
+</tr>
+</table>
+
+
+
 <a name="loio964054384acd445fae9e3a80278096a8__section_o2b_q1j_l4b"/>
 
 ## Maintain
@@ -701,6 +793,78 @@ Apply update for SaaS solution \(=add-on product\). See [Apply Update for SaaS S
 Deploy your add-on update by using the Landscape Portal.
 
 See [Landscape Portal](Landscape_Portal_5eb70fb.md).
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loio964054384acd445fae9e3a80278096a8__section_gdf_415_hrb"/>
+
+## Dismantle
+
+
+<table>
+<tr>
+<th valign="top">
+
+Phase
+
+
+
+</th>
+<th valign="top">
+
+Step
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top" rowspan="2">
+
+[Dismantle](Dismantle_35a5882.md)
+
+
+
+</td>
+<td valign="top">
+
+Delete tenants.
+
+
+
+</td>
+<td valign="top">
+
+Unsubscribe the SaaS solution. See [Consumer Offboarding](Consumer_Offboarding_c882a2a.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+\(Optional\) Restore deleted tenants.
+
+
+
+</td>
+<td valign="top">
+
+Restore the deleted tenants within a grace period of 30 days. See [Consumer Offboarding](Consumer_Offboarding_c882a2a.md).
 
 
 

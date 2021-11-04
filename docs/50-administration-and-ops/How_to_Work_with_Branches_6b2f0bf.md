@@ -22,6 +22,8 @@ Find out how to create, check out and switch between different branches:
 
 2.  Scroll down to *Branching* to see a list of all available branches for your component. The table shows you which branch the different branches originally derived from and which branch is currently checked out. The first branch is always named 'main'. It is created when releasing a transport request for this software component using ABAP Development Tools. In the initial \(development\) system, the 'main' branch will not be visible until you've released a transport request. If you pull the software component on your test or production system afterwards, you'll see all branches even before you've released an ABAP transport request.
 
+    The column *Delta Available* shows information about the currently active/checked-out branch. It indicates if the commit id which is currently imported in the local system instance is also the last remote commit. If that is the case, the column has the value *Synchronized \(no delta\)*. If the remote repository has a new commit available that is not yet cloned, it has the value *Yes \(Not Synced\)*. This information is only valid for the currently active branch.
+
 3.  Note that you need to pull the repository once before you can check out a branch. Pull the repository by clicking *Pull*.
 
 4.  To create a new branch, select the branch that you want to create it from and click *+*. Choose a name for your new branch and confirm with *Create*.
@@ -46,6 +48,8 @@ Find out how to create, check out and switch between different branches:
 > **Branch Deletion**:
 > 
 > While it is possible to delete branches, please consider the possible negative effects of branch deletion, like losing the commit history.
+> 
+> The branch will be deleted locally and also on the remote repository. After the branch deletion, a pull of this branch is no longer possible on all system instances.
 
 > ### Note:  
 > The merging of branches is currently not supported.

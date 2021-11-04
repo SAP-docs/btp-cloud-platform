@@ -2,57 +2,43 @@
 
 # SOAP Communication via Destination Service
 
-Create a SOAP destination and enable SOAP communication from the ABAP environment.
+To configure a SOAP-specific destination, create an HTTP destination as described in [Set Up an HTTP Destination](Set_Up_an_HTTP_Destination_3884bc3.md).
+
+You can set Web service-specific properties by maintaining the following *Additional Properties* in the destination:
+
+-   `ws.soapVersion`: Sets the SOAP version.
+-   `ws.maxWaitTime`: Sets the maximum waiting time for the consumer \(in seconds\).
+-   `ws.compressMessage`: Enables compression of the message.
+-   `ws.soapAction.<operationName>`: Sets the SOAP action for a given operation with name `<operationName>`.
+
+> ### Sample Code:  
+> ```
+> TRY.
+>     DATA(lo_soap_dest) = cl_soap_destination_provider=>create_by_cloud_destination(
+>                            i_name                   = '<destination name>'
+>                            i_service_instance_name  = '<destination service instance name>').
+>  
+>     DATA(request) = VALUE zsc_req_msg_type(
+>               req_msg_type-product = '<product name>' ).
+>     proxy->get_price(
+>       EXPORTING
+>         input = request
+>       IMPORTING
+>         output = DATA(response) ).
+>  
+>     "handle response
+>   CATCH cx_soap_destination_error.
+>     "handle error
+>   CATCH cx_ai_system_fault.
+>     "handle error
+>   CATCH zsc_cx_fault_msg_type.
+>     "handle error
+>  
+> ENDTRY.
+> ```
+
+**Related Information**  
 
 
-<table>
-<tr>
-<td valign="top">
-
-[Set Up a SOAP Destination](Set_Up_a_SOAP_Destination_7e22ed9.md)
-
-
-
-</td>
-<td valign="top">
-
-Set up SOAP connectivity for the ABAP environment by configuring a SOAP destination.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Enable SOAP Communication in Your ABAP Code](Enable_SOAP_Communication_in_Your_ABAP_Code_6ab460e.md)
-
-
-
-</td>
-<td valign="top">
-
-Using the `cl_soap_destination_provider` class in your ABAP Code.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Generate a Proxy to Consume SOAP-Based Web Services](Generate_a_Proxy_to_Consume_SOAP-Based_Web_Services_8b6723b.md)
-
-
-
-</td>
-<td valign="top">
-
-Consume synchronous SOAP-based web services for outbound communication.
-
-
-
-</td>
-</tr>
-</table>
+[Enable SOAP Communication in Your ABAP Code](Enable_SOAP_Communication_in_Your_ABAP_Code_6ab460e.md "SOAP-based Web service outbound communication within the ABAP environment is enabled by using SOAP destination objects.")
 

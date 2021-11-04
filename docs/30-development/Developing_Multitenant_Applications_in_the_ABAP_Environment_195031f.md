@@ -19,6 +19,27 @@ As a service provider, you need to fulfill the following prerequisites.
 
 Instead of transporting software components \(via gCTS\) for software delivery, software components can be contained into add-on products for a more sophisticated lifecycle management process. These add-on products are built and published with the ABAP Environment Pipeline. For more information see [Build and Publish Add-on Products on SAP BTP ABAP Environment](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/).
 
+
+
+<a name="loio195031ff8f484b51af16fe392ec2ae6e__section_bx2_fgd_1rb"/>
+
+## Regions:
+
+As a provider, you can deploy your SaaS solution in a subaccount that is located in one of the regions available for the ABAP environment:
+
+-   cf-eu10 Europe \(Frankfurt\)
+
+-   cf-us10 US East \(VA\)
+
+-   cf-jp10 Japan \(Tokyo\)
+
+
+A consumer can then subscribe to and access your SaaS solution from a subaccount. The consumer subaccount needs to be located in the same region as the subaccount which you deployed the SaaS solution in.
+
+Keep in mind that regions are chosen on the subaccount level: For each subaccount, you select exactly one region. This is done when creating the subaccount. The *Landscape Portal* can only be accessed from subaccounts located in region cf-eu10. You thus need to make sure that the subaccount from which you want to access the*Landscape Portal* has the region attribute cf-eu10. For more information on regions, see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html).
+
+ 
+
 **Related Information**  
 
 

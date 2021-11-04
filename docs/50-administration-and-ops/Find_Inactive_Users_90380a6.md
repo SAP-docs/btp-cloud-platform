@@ -57,7 +57,7 @@ As an administrator, you want to have an overview of the users in your subaccoun
 
     The SAP BTP cockpit displays the filtered list of users. The *Last Updated* column shows you the point in time when the user was updated last. The *Last Logon* column shows you the point of time of the user's last logon.
 
-5.  \(Optional\) To see whether a user has never logged on, choose the user to displays the user's overview section.
+5.  \(Optional\) To see whether a user has never logged on, choose the user to display the user's overview section.
 
     The SAP BTP cockpit displays the user's overview section. If the user has never logged on, the *Last Logon* field shows the message *User has never logged on*.
 

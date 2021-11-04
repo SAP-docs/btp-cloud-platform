@@ -138,7 +138,7 @@ Executing class runners in ABAP Development Tools
 <tr>
 <td valign="top">
 
-*Development - Data Preview*
+*Development - Data Preview - Released Objects*
 
 SAP\_A4C\_BC\_DEV\_DAT\_PRV\_PC
 
@@ -248,6 +248,65 @@ SAP\_A4C\_BC\_DEV\_UID\_PC
 <td valign="top">
 
 Deployment of UIs into the ABAP system repository
+
+
+
+</td>
+<td valign="top">
+
+-
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Development Support - Data Preview - Business Data*
+
+SAP\_A4C\_BC\_DAT\_PRV\_DFT\_PC
+
+
+
+</td>
+<td valign="top">
+
+Usage of the data preview in ABAP Development Tools for objects that are considered to contain business data:
+
+-   CDS views in language version 5
+-   Client-dependent tables in language version 5 with delivery class A and L
+
+Data of CDS views can be viewed with or without application of the DCL.
+
+
+
+</td>
+<td valign="top">
+
+-
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Development Support - Data Preview - Cross-Client and Customizing Data*
+
+SAP\_A4C\_BC\_DAT\_PRV\_RDO\_PC
+
+
+
+</td>
+<td valign="top">
+
+Usage of the data preview in ABAP Development Tools for objects that are considered to contain customizing and cross-client data:
+
+-   Client-independent tables in language version 5 with delivery class A and L
+-   Tables in language version 5 with delivery class S, E, and W \(metadata\)
+-   Tables in language version 5 with delivery class C and G \(customizing\)
 
 
 

@@ -8,7 +8,7 @@ Some further activities in ADT and in the administrator’s launchpad are necess
 
 1.  Create an Identity and Access Management \(IAM\) Business Catalog.
 
-    When you create a job catalog entry and a job template as explained in [Creating a Job Catalog Entry and a Job Template in ADT](../50-administration-and-ops/Creating_a_Job_Catalog_Entry_and_a_Job_Template_in_ADT_949ba00.md), an object of the type **IAM App** is created automatically. It has the name **<job catalog entry name\>\_SAJC**.
+    When you create a job catalog entry and a job template as explained in , an object of the type **IAM App** is created automatically. It has the name **<job catalog entry name\>\_SAJC**.
 
     Create an IAM business catalog via ADT:
 
