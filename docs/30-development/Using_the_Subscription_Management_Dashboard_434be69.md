@@ -14,7 +14,7 @@ Learn how to use the SAP BTP subscription management dashboard to manage your mu
 
 SaaS application providers can now use the new subscription management dashboard to manage their multitenant application's subscriptions.
 
-The tool is based on the SAP SaaS Provisioning service APIs that you can now work with using a user interface too simplify your operation and maintenance work.
+The tool is based on the SaaS Provisioning service APIs that you can now work with using a user interface too simplify your operation and maintenance work.
 
 
 

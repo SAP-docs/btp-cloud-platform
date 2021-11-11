@@ -3494,6 +3494,7 @@ Apply machine learning to predict and classify data records.
 <td valign="top">
 
 -   Europe \(Frankfurt\)
+-   US East \(VA\)
 
 
 
@@ -16794,6 +16795,71 @@ Automate business processes using workflow technology.
 -   Japan \(Tokyo\)
 -   US West \(WA\)
 -   US East \(VA\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Workflow](https://help.sap.com/viewer/p/WORKFLOW_SERVICE) 
+
+
+
+</td>
+<td valign="top">
+
+Automate business processes using workflow technology.
+
+
+
+</td>
+<td valign="top">
+
+-   LOD-BPM-WFS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Extension Suite - Digital Process Automation
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   US Central \(IA\)
 
 
 

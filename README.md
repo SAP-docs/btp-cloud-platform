@@ -1,4 +1,5 @@
-[![REUSE status]()]()
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-docs/btp-cloud-platform)](https://api.reuse.software/info/github.com/SAP-docs/btp-cloud-platform)
+
 
 # Contributions to the SAP BTP Documentation
 
