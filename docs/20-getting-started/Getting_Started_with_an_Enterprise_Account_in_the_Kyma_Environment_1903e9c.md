@@ -33,7 +33,7 @@ After you have purchased your enterprise account, you will receive an e-mail wit
     > ### Note:  
     > If you cannot see the *Enable Kyma* button in your subacccount view, make sure that your subaccount has entitlements for Kyma Runtime configured. For more information, read [Managing Entitlements and Quotas Using the Cockpit](../50-administration-and-ops/Managing_Entitlements_and_Quotas_Using_the_Cockpit_c824874.md).
 
-2.  Now that you've set up your account model, it's time to think about member management. You can add members at different levels. For Kyma-specific role assignment, see [Roles in the Kyma Environment](../50-administration-and-ops/Roles_in_the_Kyma_Environment_148ae38.md). You can also have a look at [User and Member Management](../10-concepts/User_and_Member_Management_cc1c676.md) to learn more about how user roles are assigned in SAP BTP.
+2.  Now that you've set up your account model, it's time to think about member management. You can add members at different levels. For Kyma-specific role assignment, see [Assign Roles in the Kyma Environment](../50-administration-and-ops/Assign_Roles_in_the_Kyma_Environment_148ae38.md). You can also have a look at [User and Member Management](../10-concepts/User_and_Member_Management_cc1c676.md) to learn more about how user roles are assigned in SAP BTP.
 
 
 

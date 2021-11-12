@@ -1360,7 +1360,7 @@
     -   [Administration and Operations in the Kyma Environment](50-administration-and-ops/Administration_and_Operations_in_the_Kyma_Environment_b8e1686.md)
         -   [Create the Kyma Environment Instance](50-administration-and-ops/Create_the_Kyma_Environment_Instance_09dd313.md)
         -   [Available Plans in the Kyma Environment](50-administration-and-ops/Available_Plans_in_the_Kyma_Environment_befe01d.md)
-        -   [Roles in the Kyma Environment](50-administration-and-ops/Roles_in_the_Kyma_Environment_148ae38.md)
+        -   [Assign Roles in the Kyma Environment](50-administration-and-ops/Assign_Roles_in_the_Kyma_Environment_148ae38.md)
         -   [Kyma Environment Backup](50-administration-and-ops/Kyma_Environment_Backup_ab959cf.md)
         -   [Kyma Metrics and Logs](50-administration-and-ops/Kyma_Metrics_and_Logs_d71a7cd.md)
         -   [Configurable Docker Registry](50-administration-and-ops/Configurable_Docker_Registry_fa0ba7d.md)

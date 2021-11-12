@@ -66,5 +66,5 @@ To manage access to the Kyma environment and Kyma Console, assign roles as neede
 
 [Available Plans in the Kyma Environment](Available_Plans_in_the_Kyma_Environment_befe01d.md "Depending on your global account type, you will have access to a different plan that specifies cluster parameters for the Kyma environment.")
 
-[Roles in the Kyma Environment](Roles_in_the_Kyma_Environment_148ae38.md "Kyma uses roles and groups to manage access within the cluster.")
+[Assign Roles in the Kyma Environment](Assign_Roles_in_the_Kyma_Environment_148ae38.md "Kyma uses roles and groups to manage access within the cluster. Every Kyma cluster comes with predefined roles for admins and developers, which give the assigned users the permissions suitable for their purposes.")
 

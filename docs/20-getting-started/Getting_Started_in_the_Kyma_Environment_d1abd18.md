@@ -76,7 +76,7 @@ Set up a Kubernetes cluster with the project "Kyma" to connect and extend SAP sy
 </td>
 <td valign="top">
 
-[Roles in the Kyma Environment](../50-administration-and-ops/Roles_in_the_Kyma_Environment_148ae38.md)
+[Assign Roles in the Kyma Environment](../50-administration-and-ops/Assign_Roles_in_the_Kyma_Environment_148ae38.md)
 
 
 

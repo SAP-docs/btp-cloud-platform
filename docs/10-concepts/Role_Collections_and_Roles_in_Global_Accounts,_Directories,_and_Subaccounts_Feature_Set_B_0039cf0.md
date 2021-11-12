@@ -1348,7 +1348,7 @@ If you've enabled environments in your subaccount, manage the roles for those en
 
 -   [About Roles in the Cloud Foundry Environment](../50-administration-and-ops/About_Roles_in_the_Cloud_Foundry_Environment_0907638.md)
 
--   [Roles in the Kyma Environment](../50-administration-and-ops/Roles_in_the_Kyma_Environment_148ae38.md)
+-   [Assign Roles in the Kyma Environment](../50-administration-and-ops/Assign_Roles_in_the_Kyma_Environment_148ae38.md)
 
 
 > ### Note:  

@@ -8762,6 +8762,71 @@ Simplify integration via APIs
 <tr>
 <td valign="top">
 
+ [Open Connectors](https://help.sap.com/viewer/p/OPEN_CONNECTORS) 
+
+
+
+</td>
+<td valign="top">
+
+Simplify integration via APIs
+
+
+
+</td>
+<td valign="top">
+
+-   LOD-OCN-OPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Integration Suite
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   US Central \(IA\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
  [SAP S/4HANA Cloud for Intelligent Product Selection](https://help.sap.com/viewer/product/S4H_CLOUD_INT_PROD_SEL) 
 
 

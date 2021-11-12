@@ -160,6 +160,160 @@ Specifies the maximum number of virtual machines to create. This number cannot b
 
 
 
+<a name="loiobefe01d5d8864e59bf847fa5a5f3d669__section_yq5_513_grb"/>
+
+## Google Cloud Platform \(GCP\)
+
+See the specification for the enterprise account.
+
+<a name="loiobefe01d5d8864e59bf847fa5a5f3d669__table_ym3_jb3_grb"/>GCP plan specification
+
+
+<table>
+<tr>
+<th valign="top">
+
+Field
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+<th valign="top">
+
+Default value
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+*Cluster Name*
+
+
+
+</td>
+<td valign="top">
+
+Defines the name of your cluster. Use only alphanumeric characters and hyphens.
+
+
+
+</td>
+<td valign="top">
+
+n/a
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Region*
+
+
+
+</td>
+<td valign="top">
+
+Defines a region \(set of datacenters\) where your cluster will run.
+
+
+
+</td>
+<td valign="top">
+
+-   `europe-west3` \(Europe\)
+-   `us-central1` \(Americas\)
+-   `asia-northeast1` \(Asia Pacific\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Machine Type*
+
+
+
+</td>
+<td valign="top">
+
+Specifies memory and CPU limits for one virtual machine. See [GCP docs](https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines) for details. The available machine types are `n2-standard-8`, `n2-standard-16`, `n2-standard-32`, and `n2-standard-64`.
+
+
+
+</td>
+<td valign="top">
+
+`n2-standard-8`
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Auto Scaler Min*
+
+
+
+</td>
+<td valign="top">
+
+Specifies the minimum number of virtual machines to create.
+
+
+
+</td>
+<td valign="top">
+
+`2`
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Auto Scaler Max*
+
+
+
+</td>
+<td valign="top">
+
+Specifies the maximum number of virtual machines to create. This number cannot be greater than `40`.
+
+
+
+</td>
+<td valign="top">
+
+`10`
+
+
+
+</td>
+</tr>
+</table>
+
+
+
 <a name="loiobefe01d5d8864e59bf847fa5a5f3d669__section_whn_t5z_1pb"/>
 
 ## Azure

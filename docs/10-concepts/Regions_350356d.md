@@ -2129,43 +2129,6 @@ US East \(VA\)
 <tr>
 <td valign="top">
 
-Enterprise and trial account
-
-
-
-</td>
-<td valign="top">
-
-Europe \(Frankfurt\)
-
-
-
-</td>
-<td valign="top">
-
-Amazon Web Services
-
-
-
-</td>
-<td valign="top">
-
-cf-eu10
-
-
-
-</td>
-<td valign="top">
-
-Europe \(Frankfurt\)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Enterprise account
 
 
@@ -2306,6 +2269,43 @@ cf-eu20
 <td valign="top">
 
 West Europe
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
+
+
+
+</td>
+<td valign="top">
+
+Amazon Web Services
+
+
+
+</td>
+<td valign="top">
+
+cf-eu10
+
+
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
 
 
 
@@ -2528,6 +2528,43 @@ cf-ap11
 <td valign="top">
 
 Asia Pacific \(Singapore\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+
+
+</td>
+<td valign="top">
+
+US Central \(Iowa\)
+
+
+
+</td>
+<td valign="top">
+
+Google Cloud Services
+
+
+
+</td>
+<td valign="top">
+
+cf-us30
+
+
+
+</td>
+<td valign="top">
+
+US Central \(Iowa\)
 
 
 
@@ -3002,6 +3039,75 @@ Amazon Web Services
 <td valign="top">
 
 Asia Pacific \(Sydney\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud Services
+
+
+
+</td>
+<td valign="top">
+
+`europe-west3`
+
+
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud Services
+
+
+
+</td>
+<td valign="top">
+
+`us-central1`
+
+
+
+</td>
+<td valign="top">
+
+US Central \(Iowa\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud Services
+
+
+
+</td>
+<td valign="top">
+
+`asia-northeast1`
+
+
+
+</td>
+<td valign="top">
+
+Asia Northeast \(Tokyo\)
 
 
 
