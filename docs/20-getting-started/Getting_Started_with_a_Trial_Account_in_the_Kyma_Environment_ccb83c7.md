@@ -12,7 +12,7 @@ Quickly get started with a trial account.
 
 1.  Get a global account.
 
-    Sign up for a free trial account. See [Get a Free Trial Account](Getting_a_Global_Account_d61c281.md#loio42e7e54590424e65969fced1acd47694). For more information about the scope of our trial offering, see [Trial Accounts](../10-concepts/Trial_Accounts_046f127.md) .
+    Sign up for a free trial account. See [Get a Free Trial Account](Getting_a_Global_Account_d61c281.md#loio42e7e54590424e65969fced1acd47694). For more information about the scope of our trial offering, see [Trial Accounts and Free Tier](../10-concepts/Trial_Accounts_and_Free_Tier_046f127.md) .
 
 2.  Set up your subaccount.
 

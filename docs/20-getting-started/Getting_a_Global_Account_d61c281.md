@@ -2,9 +2,13 @@
 
 # Getting a Global Account
 
-SAP BTP offers two types of global accounts: Trial accounts and enterprise accounts.
+SAP BTP offers two types of global accounts: Trial accounts \(completely free of charge\) and enterprise accounts. Within an enterprise account, you can use both free and paid plans.
 
-A **global account** is the realization of a contract you made with SAP. A global account is used to manage subaccounts, members, entitlements and quotas. You receive entitlements and quotas to use platform resources per global account and then distribute the entitlements and quotas to the subaccount for actual consumption. There are two types of global accounts: enterprise accounts \(paid\) and trial accounts \(free\).
+A **global account** is the realization of a contract you made with SAP. A global account is used to manage subaccounts, members, entitlements and quotas. You receive entitlements and quotas to use platform resources per global account and then distribute the entitlements and quotas to the subaccount for actual consumption. There are two types of global accounts: enterprise accounts \(paid, unless you only use free tier service plans\) and trial accounts \(free\).
+
+-   [Trial Accounts and Free Tier](../10-concepts/Trial_Accounts_and_Free_Tier_046f127.md)
+
+-   [Enterprise Accounts](../10-concepts/Enterprise_Accounts_171511c.md)
 
 -   [Get a Trial Account](Getting_a_Global_Account_d61c281.md#loio42e7e54590424e65969fced1acd47694)
 
@@ -28,7 +32,7 @@ Get a trial account to experience SAP BTP for free and gain access to a comprehe
 > ### Restriction:  
 > There’s currently no trial account available for SAP BTP in the China \(Shanghai\) region.
 
-Trial accounts are intended for personal exploration, and not for production use or team development. They allow restricted use of the platform resources and services. For more information about the scope of our trial offering, see [Trial Accounts](../10-concepts/Trial_Accounts_046f127.md).
+Trial accounts are intended for personal exploration, and not for production use or team development. They allow restricted use of the platform resources and services. For more information about the scope of our trial offering, see [Trial Accounts and Free Tier](../10-concepts/Trial_Accounts_and_Free_Tier_046f127.md).
 
 
 
@@ -76,17 +80,24 @@ Trial accounts are intended for personal exploration, and not for production use
 
 ## Get an Enterprise Account
 
-To use an enterprise account, you can either purchase a customer account or join the partner program to purchase a partner account.
+To use an enterprise account, you can either purchase a customer account, join the partner program to purchase a partner account, or self-register for an enterprise account to try out free tier service plans.
 
-For more information about the scope of our enterprise offering, see [Enterprise Accounts](../10-concepts/Enterprise_Accounts_171511c.md).
+For more information about the scope of our enterprise offering, see [Enterprise Accounts](../10-concepts/Enterprise_Accounts_171511c.md). For more information about free tier within an enterprise account, see [Trial Accounts and Free Tier](../10-concepts/Trial_Accounts_and_Free_Tier_046f127.md) and [Using Free Service Plans](../10-concepts/Using_Free_Service_Plans_524e108.md).
+
+**Related Information**  
+
+
+[Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html)
 
  <a name="loioa71a081b39e343e097046bf487f57af3"/>
 
 <!-- loioa71a081b39e343e097046bf487f57af3 -->
 
-### Purchase a Customer Account
+### Sign up for a Customer Account
 
 A customer account is an enterprise account that allows you to host productive, business-critical applications with 24x7 support.
+
+If you want to to try out services for free, with the option of easily upgrading them later, you can get an enterprise account and use free tier service plans only. This will not create costs, unless you upgrade to paid plans. See [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html).
 
 When you want to purchase a customer account, you can select from a set of predefined packages. For information about service availability, prices, and estimators, see [https://www.sap.com/products/extension-suite/pricing.html](https://www.sap.com/products/extension-suite/pricing.html) and [https://www.sap.com/products/integration-suite/pricing.html](https://www.sap.com/products/integration-suite/pricing.html). You can also view the service catalog via the [SAP Discovery Center](https://discovery-center.cloud.sap). Contact us on [SAP BTP](https://www.sap.com/products/business-technology-platform.html) or via an SAP sales representative.
 
@@ -106,6 +117,8 @@ If you are located in China and want to buy a global account on SAP BTP, you nee
 
 
 [Commercial Models](../10-concepts/Commercial_Models_263d400.md "SAP BTP offers two different commercial models for enterprise accounts.")
+
+[Using Free Service Plans](../10-concepts/Using_Free_Service_Plans_524e108.md "The free tier model for SAP BTP lets you try out services in global accounts without any additional cost using the consumption-based commercial model.")
 
  <a name="loio0730b01feb484396b5a3daaa5115d73d"/>
 

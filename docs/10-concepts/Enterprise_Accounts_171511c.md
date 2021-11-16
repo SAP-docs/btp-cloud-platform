@@ -2,15 +2,13 @@
 
 # Enterprise Accounts
 
-Enterprise accounts are associated with SAP customer or partner contracts and contain their purchased entitlements to platform resources and services.
+Enterprise accounts are usually associated with SAP customer or partner contracts and contain their purchased entitlements to platform resources and services. However, it's also possible to create an enterprise account for personal exploration.
 
 SAP BTP provides different types of global accounts, **enterprise** and **trial**. The type you choose determines pricing, conditions of use, resources, available services, and hosts.
 
-![Types of Global Accounts: Trial and Enterprise](images/Types_of_Global_Account_0b86365.png)
+If you want to start out using services for free, you can create a personal enterprise account and only use free tier service plans: The major benefit of using such an account for exploration purposes is that you can upgrade your services to productive use without losing any of your data. Check out the [Free Tier Services](https://discovery-center.cloud.sap/#/viewServices?provider=all&regions=all&category=freetierservices) in SAP Discovery Center and learn the details about [Using Free Service Plans](Using_Free_Service_Plans_524e108.md) in your enterprise account.
 
-It depends on your use case whether you choose a free trial account or a paid enterprise account. You may want to start out with an SAP BTP trial account that also gives you access to our community, including free technical resources such as tutorials and blog posts. If you plan to use your global account in productive mode, you must purchase a paid enterprise account. It is important that you are aware of these differences when you are planning and setting up your account model. For more information, see [Trial Accounts](Trial_Accounts_046f127.md).
-
-An **enterprise account** is usually associated with one SAP customer or partner and contains their purchased entitlements to platform resources and services. It groups together different subaccounts that an administrator makes available to users for deploying applications. Administrators can assign the available quotas to the different subaccounts and move it between subaccounts that belong to the same enterprise account.
+Another way to start out using services for free is to create a trial account. But keep in mind that when you want to use your global account productively, there’s no way to migrate your data from the trial account to a productive enterprise account. For more information, see [Trial Accounts and Free Tier](Trial_Accounts_and_Free_Tier_046f127.md).
 
 
 
@@ -57,12 +55,16 @@ A global account that enables you to host productive, business-critical applicat
 
 You can purchase a global account just like any other SAP software. You can upgrade and refine your resources later on. You can also contact your SAP sales representative and opt for a configuration, tailored to your needs.
 
+If you want to start out exploring services for free, you can sign up for a Pay-As-You-Go for SAP BTP global account and make use of the free tier services only. See [Using Free Service Plans](Using_Free_Service_Plans_524e108.md).
+
 
 
 </td>
 <td valign="top">
 
 A global account that enables you to build applications and to sell them to your customers.
+
+If you want to start out exploring services for free, you can sign up for a Pay-As-You-Go for SAP BTP global account and make use of the free tier services only. See [Using Free Service Plans](Using_Free_Service_Plans_524e108.md).
 
 
 
@@ -156,7 +158,7 @@ For more information about SAP Integration Suite and SAP Extension Suite pricing
 
 Contact us on [SAP BTP](https://www.sap.com/products/business-technology-platform.html) or via an SAP sales representative.
 
-If you are located in China and want to buy a global account on SAP BTP, you need to contact an SAP sales representative: [https://www.sap.cn/registration/contact.html](https://www.sap.cn/registration/contact.html).
+If you’re located in China and want to buy a global account onSAP BTP you need to contact an SAP sales representative: [https://www.sap.cn/registration/contact.html](https://www.sap.cn/registration/contact.html).
 
 
 
@@ -203,7 +205,7 @@ See [Regions](Regions_350356d.md#loio350356d1dc314d3199dca15bd2ab9b0e).
 Some customer contracts include EU Access, which restricts processing of personal data to EEA/Switzerland. If the global account is marked with EU Access, the actual EU Access compliance status of subaccounts will be displayed during creation of subaccounts.
 
 > ### Note:  
-> If you need a subaccount with EU Access, make sure to select a provider and region, where EU Access is available. For more information, see [Regions](Regions_350356d.md#loio350356d1dc314d3199dca15bd2ab9b0e)
+> If you need a subaccount with EU Access, make sure to select a provider and region,, where EU Access is available. For more information, see [Regions](Regions_350356d.md#loio350356d1dc314d3199dca15bd2ab9b0e)
 > 
 > For some services, EU Access is generally not available, not even if the provider and region support EU Access.
 

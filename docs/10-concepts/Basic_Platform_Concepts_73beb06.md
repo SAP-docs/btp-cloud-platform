@@ -90,7 +90,7 @@ SAP BTP provides different types of global accounts, **enterprise** and **trial*
 
 -   A **trial account** lets you try out the platform for free. Access is open to everyone. Trial accounts are intended for personal exploration, and not for production use or team development. They allow restricted use of the platform resources and services. The trial period varies depending on the environment.
 
-    For more information, see [Trial Accounts](Trial_Accounts_046f127.md).
+    For more information, see [Trial Accounts and Free Tier](Trial_Accounts_and_Free_Tier_046f127.md).
 
 -   An **enterprise account** is usually associated with one SAP customer or partner and contains their purchased entitlements to platform resources and services. It groups together different subaccounts that an administrator makes available to users for deploying applications.
 
@@ -126,7 +126,7 @@ The SAP BTP cockpit is structured according to global accounts and subaccounts:
 
 ![Global Accounts and Subaccounts](images/Global_Accounts_Subaccounts_Small_e06a85d.png)
 
--   A **global account** is the realization of a contract you made with SAP. A global account is used to manage subaccounts, members, entitlements and quotas. You receive entitlements and quotas to use platform resources per global account and then distribute the entitlements and quotas to the subaccount for actual consumption. There are two types of global accounts: enterprise accounts \(paid\) and trial accounts \(free\).
+-   A **global account** is the realization of a contract you made with SAP. A global account is used to manage subaccounts, members, entitlements and quotas. You receive entitlements and quotas to use platform resources per global account and then distribute the entitlements and quotas to the subaccount for actual consumption. There are two types of global accounts: enterprise accounts \(paid, unless you only use free tier service plans\) and trial accounts \(free\).
 
 -   **Subaccounts** let you structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements.
 
@@ -145,7 +145,7 @@ The SAP BTP cockpit is structured according to global accounts, directories, and
 
 ![Directories and Subaccounts](images/Relationship_Between_Directories_and_Subaccounts_d60105c.png)
 
--   A **global account** is the realization of a contract you made with SAP. A global account is used to manage subaccounts, members, entitlements and quotas. You receive entitlements and quotas to use platform resources per global account and then distribute the entitlements and quotas to the subaccount for actual consumption. There are two types of global accounts: enterprise accounts \(paid\) and trial accounts \(free\).
+-   A **global account** is the realization of a contract you made with SAP. A global account is used to manage subaccounts, members, entitlements and quotas. You receive entitlements and quotas to use platform resources per global account and then distribute the entitlements and quotas to the subaccount for actual consumption. There are two types of global accounts: enterprise accounts \(paid, unless you only use free tier service plans\) and trial accounts \(free\).
 
 -   **Directories** allow you to organize and manage your subaccounts according to your technical and business needs.
 

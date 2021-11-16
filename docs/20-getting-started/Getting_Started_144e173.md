@@ -2,7 +2,7 @@
 
 # Getting Started
 
-Once you are familiar with the basic concepts of SAP BTP, you can start your first workflows or check out further resources that help you get started quickly.
+Once you're familiar with the basic concepts of SAP BTP, you can start your first workflows or check out further resources that help you get started quickly.
 
 
 
@@ -18,7 +18,9 @@ The guide [Best Practices for SAP BTP](https://help.sap.com/viewer/df50977d8bfa4
 
 ## Getting Started Workflows
 
-Learn how to get a global account and get started with trial or enterprise accounts on SAP BTP and follow the appropriate workflows for your use case:
+Learn how to get a global account and get started with a trial or an enterprise account on SAP BTP. A trial account lets you you try out SAP BTP for free, and within an enterprise account, you can use so-called free tier service plans for free. See [Trial Accounts and Free Tier](../10-concepts/Trial_Accounts_and_Free_Tier_046f127.md).
+
+Depending on your use case, follow the appropriate workflow:
 
 -   [Getting a Global Account](Getting_a_Global_Account_d61c281.md#loiod61c2819034b48e68145c45c36acba6e)
 
@@ -36,6 +38,8 @@ Learn how to get a global account and get started with trial or enterprise accou
 ## Additional Ressources
 
 The SAP Developer Center provides further resources to get you started:
+
+-   [SAP Discovery Center](https://discovery-center.cloud.sap/servicessearch/Free%20Tier/?regions=all&provider=all)
 
 -   [SAP BTP in SAP Developer Center](https://developers.sap.com/topics/cloud-platform.html)
 

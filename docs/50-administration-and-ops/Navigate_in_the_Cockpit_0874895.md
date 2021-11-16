@@ -12,7 +12,7 @@ Learn how to navigate to your global accounts and subaccounts in the SAP BTP coc
 
 ## Prerequisites
 
--   Sign up for an enterprise or a trial account and receive your logon data. For more information, see [Get a Trial Account](../20-getting-started/Getting_a_Global_Account_d61c281.md#loio42e7e54590424e65969fced1acd47694) or [Purchase a Customer Account](../20-getting-started/Getting_a_Global_Account_d61c281.md#loioa71a081b39e343e097046bf487f57af3).
+-   Sign up for an enterprise or a trial account and receive your logon data. For more information, see [Get a Trial Account](../20-getting-started/Getting_a_Global_Account_d61c281.md#loio42e7e54590424e65969fced1acd47694) or [Sign up for a Customer Account](../20-getting-started/Getting_a_Global_Account_d61c281.md#loioa71a081b39e343e097046bf487f57af3).
 
 
 

@@ -18,7 +18,7 @@ A **global account** is the realization of a contract you made with SAP.
 
 
 
-A global account is used to manage subaccounts, members, entitlements and quotas. You receive entitlements and quotas to use platform resources per global account and then distribute the entitlements and quotas to the subaccount for actual consumption. There are two types of global accounts: enterprise accounts \(paid\) and trial accounts \(free\). The type determines pricing, conditions of use, resources, available services, scope of the functionality that you can use, and the level of support you can receive.
+A global account is used to manage subaccounts, members, entitlements and quotas. You receive entitlements and quotas to use platform resources per global account and then distribute the entitlements and quotas to the subaccount for actual consumption. There are two types of global accounts: enterprise accounts \(paid, unless you only use free tier service plans\) and trial accounts \(free\). The type determines pricing, conditions of use, resources, available services, scope of the functionality that you can use, and the level of support you can receive.
 
 Global accounts are region- and environment-independent. Within a global account, you manage all of your subaccounts, which in turn are specific to one region.
 
@@ -91,7 +91,7 @@ In addition, you can also add the following features to your directories \(optio
 
 [Manage the Account Explorer Hierarchy \[Feature Set B\]](../50-administration-and-ops/Manage_the_Account_Explorer_Hierarchy_Feature_Set_B_2e2a5b6.md "Create an account structure by creating a hierarchy of directories and subaccounts using the SAP BTP cockpit. Add, move, and delete subaccounts and directories in your structure.")
 
-[Getting a Global Account](../20-getting-started/Getting_a_Global_Account_d61c281.md#loiod61c2819034b48e68145c45c36acba6e "SAP BTP offers two types of global accounts: Trial accounts and enterprise accounts.")
+[Getting a Global Account](../20-getting-started/Getting_a_Global_Account_d61c281.md#loiod61c2819034b48e68145c45c36acba6e "SAP BTP offers two types of global accounts: Trial accounts (completely free of charge) and enterprise accounts. Within an enterprise account, you can use both free and paid plans.")
 
 [Setting Up Your Account Model](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/2db81f42f5194454beecde6cd4994dda.html "The hierarchical structure between global accounts, directories, and subaccounts lets you define an account model that accurately fits your business and development needs.") :arrow_upper_right:
 

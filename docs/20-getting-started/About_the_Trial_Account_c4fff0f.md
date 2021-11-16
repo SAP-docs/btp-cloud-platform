@@ -29,5 +29,5 @@ A trial account enables you to explore and use the basic functionality of the Ky
 **Related Information**  
 
 
-[Trial Accounts](../10-concepts/Trial_Accounts_046f127.md "Trial accounts let you try out SAP BTP for free with a restricted use of the platform resources and services.")
+[Trial Accounts and Free Tier](../10-concepts/Trial_Accounts_and_Free_Tier_046f127.md "Explore the different options for trying out SAP BTP.")
 
