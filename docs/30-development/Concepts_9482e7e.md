@@ -130,19 +130,110 @@ On top of these static systems, as part of the add-on build, transient systems a
 
 For the consumption of the add-on as a SaaS solution, instead of importing a release branch into a productive system, software components are installed via add-on packages into multitenancy-enabled production systems \(AMT\) provisioned via the ABAP Solution service. See [Define Your ABAP Solution](Define_Your_ABAP_Solution_1697387.md).
 
+ <a name="loio2398b874f7c5445db188b780ff0cef89"/>
+
+<!-- loio2398b874f7c5445db188b780ff0cef89 -->
+
+## ABAP Environment Pipeline
+
+
+
+![](images/Pipeline_Stage_1_ed049b4.png)
+
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/initialChecks/](https://www.project-piper.io/pipelines/abapEnvironment/stages/initialChecks/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/prepareSystem/](https://www.project-piper.io/pipelines/abapEnvironment/stages/prepareSystem/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/cloneRepositories/](https://www.project-piper.io/pipelines/abapEnvironment/stages/cloneRepositories/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/ATC/](https://www.project-piper.io/pipelines/abapEnvironment/stages/ATC/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/build/](https://www.project-piper.io/pipelines/abapEnvironment/stages/build/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/integrationTest/](https://www.project-piper.io/pipelines/abapEnvironment/stages/integrationTest/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/confirm/](https://www.project-piper.io/pipelines/abapEnvironment/stages/confirm/)
+-   [https://www.project-piper.io/pipelines/abapEnvironment/stages/publish/](https://www.project-piper.io/pipelines/abapEnvironment/stages/publish/)
+
+
+
+For continuous import of software components into a test system and add-on build, the ABAP environment pipeline is provided. See [ABAP Environment Pipeline](https://sap.github.io/jenkins-library/pipelines/abapEnvironment/introduction/). You can configure it for different scenarios, where different pipeline stages are enabled:
+
+-   **Transport from dev to test system via gCTS**
+
+    The development and test system stay on the same development branch. To provide the latest implementations for testing in the test system, the developed software components are imported on a regular basis to the test system and checked with ABAP Test Cockpit checks. See [ABAP Test Cockpit Configurator](../50-administration-and-ops/ABAP_Test_Cockpit_Configurator_22c26ff.md) and [Continuous Testing on SAP BTP ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentTest/).
+
+    As part of this pipeline scenario, a test system including an instance of communication scenario `SAP_COM_0510` is used. See [Test Integration \(SAP\_COM\_0510\)](Test_Integration_(SAP_COM_0510)_b04a9ae.md).
+
+-   **Build add-on version**
+
+    The add-on build and assembly process are automated in a different pipeline scenario. From creating a combined data file in the assembly system to publishing the add-on release, all steps are part of this pipeline that has to be triggered by you as an add-on admin. See [Build and Publish Add-on Products on SAP BTP ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
+
+    The add-on product that you want to build is defined in an `addon.yml` configuration file that is checked into the pipeline repository.
+
+    > ### Note:  
+    > To define the add-on descriptor file, follow the best practices mentioned in [Add-On Descriptor File](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#add-on-descriptor-file).
+
+    ```
+    ---
+    addonProduct: /NAMESPC/PRODUCTX
+    addonVersion: 1.2.0
+    repositories:
+      - name: /NAMESPC/COMPONENTA
+        branch: v1.2.0
+        version: 1.2.0
+        commitID: 7d4516e9
+    
+    ```
+
+    As part of this pipeline scenario, the following systems and services are being used:
+
+    -   Provisioned by you, as the provider, via the add-on build pipeline
+
+        -   ABAP environment system for assembly including an instance of communication scenario `SAP_COM_0510` and an instance of communication scenario `SAP_COM_0582`. See [Test Integration \(SAP\_COM\_0510\)](Test_Integration_(SAP_COM_0510)_b04a9ae.md) and [Software Assembly Integration \(SAP\_COM\_0582\)](Software_Assembly_Integration_(SAP_COM_0582)_26b8df5.md).
+
+        -   Add-on Installation test system
+
+
+    -   Provided as part of SAP support backbone
+
+        -   Add-on Assembly Kit as a Service \(AAKaaS\) for registering and publishing the software product.
+
+            AAKaaS is a service offered in the SAP Service and Support systems, which means that access is granted via a technical communication user\), that packs the delivery into an importable package format. It is similar to the Software Delivery Assembler \(SDA, transaction SSDA\) as a part of the [SAP Add-On Assembly Kit](https://help.sap.com/viewer/product/SAP_ADD-ON_ASSEMBLY_KIT/).
+
+            See [Add-On Assembly Kit as a Service](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/#add-on-assembly-kit-as-a-service-aakaas).
+
+
+
+
+The configuration of the ABAP environment pipeline follows the same approach regardless of the scenario that you want to configure:
+
+1.  **Prepare Git Repository**
+
+    As a DevOps engineer, you need to prepare a Git repository by including the Jenkins file, initializing the pipeline, and the pipeline configuration file `.pipeline/config.yml`. See [Jenkins File](https://sap.github.io/jenkins-library/pipelines/abapEnvironment/configuration/#2-jenkinsfile) and [Technical Pipeline Configuration](https://sap.github.io/jenkins-library/pipelines/abapEnvironment/configuration/#6-technical-pipeline-configuration).
+
+2.  **Create Service User for Git Repository**
+
+    To enable read access to the Git repository, you have to create a service user and assign it to the repository. Later, this user’s access credentials are stored in the Jenkins credentials by the Jenkins administrator. See [Using Credentials](https://www.jenkins.io/doc/book/using/using-credentials/).
+
+3.  **Create Jenkins Instance via Cx Server**
+
+    As a Jenkins administrator, you need to set up a new Jenkins instance using Cx Server Lifecycle Management. After initializing the Cx server that is based on a set of docker images, you can start the Jenkins server with `./cx-server start`. See [Cx Server](https://sap.github.io/jenkins-library/infrastructure/overview/#cx-server-recommended) and [Docker Hub](https://hub.docker.com/u/ppiper).
+
+4.  **Configure Jenkins Instance**
+
+    As a Jenkins administrator, you need to add technical Git user credentials and platform user credentials to the integrated secure store. Make sure that a shared library piper-lib-os is configured pointing to the project "Piper" library. See [Piper Library](https://github.com/SAP/jenkins-library.git).
+
+
+For more information on how to configure the ABAP environment steps and stages, see [Configuration](https://sap.github.io/jenkins-library/pipelines/abapEnvironment/configuration/).
+
  <a name="loio52fb6a9e22714843b6e83b7f333b184b"/>
 
 <!-- loio52fb6a9e22714843b6e83b7f333b184b -->
 
-## ABAP System Types: Transient and Permanent Systems
+## Permanent Add-On Assembly System
 
-The add-on process requires an add-on assembly system \(BLD\) and add-on installation test system \(ATI\). We recommend creating these systems from scratch each time a new add-on version is built.
+The add-on process requires an add-on assembly system \(BLD\). We recommend creating the system from scratch for each new add-on version.
 
 However, for certain scenarios, it is advisable to reuse a permanent system instead:
 
 -   **Build Cost**: The costs of an ABAP system relate to the creation of a service instance. See [Create an ABAP System](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/50b32f144e184154987a06e4b55ce447.html).
 
--   **Build Time**: Provisioning an ABAP system takes some time. The time it takes to complete the add-on build process mostly depends on the creation of the BLD and ATI systems. Additionally, importing a software component that has not been cloned yet to the system takes longer than importing a software component that has already been checked out. An add-on installation/update of installation packages usually takes longer than correction/support packages that are assembled based on a delta of previous packages and therefore includes less objects to be imported.
+-   **Build Time**: Provisioning an ABAP system takes some time. The time it takes to complete the add-on build process mostly depends on the creation of the BLD and ATI system. Additionally, importing a software component that has not been cloned yet to the system takes longer than importing a software component that has already been checked out.
 
     See [Cloning Git Repositories to an ABAP Environment System](Cloning_Git_Repositories_to_an_ABAP_Environment_System_0552763.md) and [Pulling Git Repositories to an ABAP Environment System](Pulling_Git_Repositories_to_an_ABAP_Environment_System_80a8d52.md).
 
@@ -205,7 +296,7 @@ A permanent system results in higher costs as the system is not used during peri
 </td>
 <td valign="top">
 
-A transient system has a negative impact on build performance as a new system is provisioned from scratch and a software component must be cloned \(duration depending on size of software component\) or rather an add-on is installed from scratch. See [Software Components](Software_Components_58480f4.md).
+A transient system has a negative impact on build performance as a new system is provisioned from scratch and a software component must be cloned \(duration depending on size of software component\). See [Software Components](Software_Components_58480f4.md).
 
 
 
@@ -220,7 +311,7 @@ Reusing a system results in a shorter build time as no system provisioning is re
 </tr>
 </table>
 
-The configuration of the add-on build pipeline depends on the use of transient or permanent systems: For an add-on build using a transient system, see [Example Build Add-Ons on a Transient System](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/addon-build). When using a permanent system, see [Example Build Add-Ons on a Permanent System](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/addon-build-static).
+The configuration of the add-on build pipeline depends on the use of a transient or permanent system: For a pipeline configuration using a transient system, see [Example Build Add-Ons on a Transient System](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/addon-build). When using a permanent system, see [Example Build Add-Ons on a Permanent System](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/addon-build-static).
 
 
 
@@ -234,10 +325,6 @@ However, you have the option to use a permanent add-on assembly system instead t
 
 System provisioning is one of the most time consuming tasks performed by the pipeline, therefore, reusing an existing system leads to improved build time.
 
-Nevertheless, only by using a transient add-on assembly system, it can be assured that the state of imported software components is as expected and no local objects interfere.
-
-Especially, when several codelines are mixed up by switching branches, which is the case for feature development and maintenance development, this can result in errors during import.
-
 > ### Recommendation:  
 > Whenever you create a new maintenance branch \(e.g. v1.0.0\), you should also create a new add-on assembly system. To do so, use the pipeline configuration for using a permanent ABAP system. See [Build Add-Ons on a Permanent ABAP Environment System](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/addon-build-static). This system is used for the duration of a maintenance branch and gets deleted afterwards:
 > 
@@ -246,434 +333,6 @@ Especially, when several codelines are mixed up by switching branches, which is 
 > 3.  A new patch version 1.0.1 of the add-on is being built in the same add-on assembly system.
 > 4.  A new maintenance branch v1.1.0 is created before build of a new add-on version 1.1.0.
 > 5.  The previous add-on assembly system is deleted and a new add-on assembly system is created.
-
- <a name="loio2398b874f7c5445db188b780ff0cef89"/>
-
-<!-- loio2398b874f7c5445db188b780ff0cef89 -->
-
-## ABAP Environment Pipeline
-
-
-
-![](images/Pipeline_Stage_1_ed049b4.png)
-
--   [https://www.project-piper.io/pipelines/abapEnvironment/stages/initialChecks/](https://www.project-piper.io/pipelines/abapEnvironment/stages/initialChecks/)
--   [https://www.project-piper.io/pipelines/abapEnvironment/stages/prepareSystem/](https://www.project-piper.io/pipelines/abapEnvironment/stages/prepareSystem/)
--   [https://www.project-piper.io/pipelines/abapEnvironment/stages/cloneRepositories/](https://www.project-piper.io/pipelines/abapEnvironment/stages/cloneRepositories/)
--   [https://www.project-piper.io/pipelines/abapEnvironment/stages/ATC/](https://www.project-piper.io/pipelines/abapEnvironment/stages/ATC/)
--   [https://www.project-piper.io/pipelines/abapEnvironment/stages/build/](https://www.project-piper.io/pipelines/abapEnvironment/stages/build/)
--   [https://www.project-piper.io/pipelines/abapEnvironment/stages/integrationTest/](https://www.project-piper.io/pipelines/abapEnvironment/stages/integrationTest/)
--   [https://www.project-piper.io/pipelines/abapEnvironment/stages/confirm/](https://www.project-piper.io/pipelines/abapEnvironment/stages/confirm/)
--   [https://www.project-piper.io/pipelines/abapEnvironment/stages/publish/](https://www.project-piper.io/pipelines/abapEnvironment/stages/publish/)
-
-
-
-For continuous import of software components into a test system and add-on build, the ABAP environment pipeline is provided. See [ABAP Environment Pipeline](https://sap.github.io/jenkins-library/pipelines/abapEnvironment/introduction/). You can configure it for different scenarios, where different pipeline stages are enabled:
-
--   **Transport from dev to test system via gCTS**
-
-    The development and test system stay on the same development branch. To provide the latest implementations for testing in the test system, the developed software components are imported on a regular basis to the test system and checked with ABAP Test Cockpit checks. See [ABAP Test Cockpit Configurator](../50-administration-and-ops/ABAP_Test_Cockpit_Configurator_22c26ff.md) and [Continuous Testing on SAP BTP ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentTest/).
-
-    As part of this pipeline scenario, a test system including an instance of communication scenario `SAP_COM_0510` is used. See [Test Integration \(SAP\_COM\_0510\)](Test_Integration_(SAP_COM_0510)_b04a9ae.md).
-
--   **Build add-on version**
-
-    The add-on build and assembly process are automated in a different pipeline scenario. From creating a combined data file in the assembly system to publishing the add-on release, all steps are part of this pipeline that has to be triggered by you as an add-on admin. See [Build and Publish Add-on Products on SAP BTP ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
-
-    The add-on product that you want to build is defined in an `addon.yml` configuration file that is checked into the pipeline repository:
-
-    ```
-    ---
-    addonProduct: /NAMESPC/PRODUCTX
-    addonVersion: 1.2.0
-    repositories:
-      - name: /NAMESPC/COMPONENTA
-        branch: v1.2.0
-        version: 1.2.0
-        commitID: 7d4516e9
-    
-    ```
-
-    As part of this pipeline scenario, the following systems and services are being used:
-
-    -   Provisioned by you, as the provider, via the add-build pipeline
-
-        -   ABAP environment system for assembly including an instance of communication scenario `SAP_COM_0510`. See [Test Integration \(SAP\_COM\_0510\)](Test_Integration_(SAP_COM_0510)_b04a9ae.md).
-
-        -   ABAP environment system for assembly including an instance of communication scenario `SAP_COM_0582`. See [Software Assembly Integration \(SAP\_COM\_0582\)](Software_Assembly_Integration_(SAP_COM_0582)_26b8df5.md).
-
-        -   Add-on Installation test system
-
-
-    -   Provided as part of SAP support backbone
-
-        -   Add-on Assembly Kit as a Service for registering and publishing the software product. See [Add-On Assembly Kit as a Service](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/#add-on-assembly-kit-as-a-service-aakaas).
-
-
-
-The configuration of the ABAP environment pipeline follows the same approach regardless of the scenario that you want to configure:
-
-1.  **Prepare Git Repository**
-
-    As a DevOps engineer, you need to prepare a Git repository by including the Jenkins file, initializing the pipeline, and the pipeline configuration file `.pipeline/config.yml`. See [Jenkins File](https://sap.github.io/jenkins-library/pipelines/abapEnvironment/configuration/#2-jenkinsfile) and [Technical Pipeline Configuration](https://sap.github.io/jenkins-library/pipelines/abapEnvironment/configuration/#6-technical-pipeline-configuration).
-
-2.  **Create Service User for Git Repository**
-
-    To enable read access to the Git repository, you have to create a service user and assign it to the repository. Later, this user’s access credentials are stored in the Jenkins credentials by the Jenkins administrator. See [Using Credentials](https://www.jenkins.io/doc/book/using/using-credentials/).
-
-3.  **Create Jenkins Instance via Cx Server**
-
-    As a Jenkins administrator, you need to set up a new Jenkins instance using Cx Server Lifecycle Management. After initializing the Cx server that is based on a set of docker images, you can start the Jenkins server with `./cx-server start`. See [Cx Server](https://sap.github.io/jenkins-library/infrastructure/overview/#cx-server-recommended) and [Docker Hub](https://hub.docker.com/u/ppiper).
-
-4.  **Configure Jenkins Instance**
-
-    As a Jenkins administrator, you need to add technical Git user credentials and platform user credentials to the integrated secure store. Make sure that a shared library piper-lib-os is configured pointing to the project "Piper" library. See [Piper Library](https://github.com/SAP/jenkins-library.git).
-
-
-For more information on how to configure the ABAP environment pipeline, see [Configuration](https://sap.github.io/jenkins-library/pipelines/abapEnvironment/configuration/).
-
-The resulting pipeline for the add-on build can be divided into separate groups of project "Piper" steps:
-
-<a name="loio2398b874f7c5445db188b780ff0cef89__table_zt2_ssq_xnb"/>Add-On Product Build
-
-
-<table>
-<tr>
-<th valign="top">
-
-Stage
-
-
-
-</th>
-<th valign="top">
-
-Step
-
-
-
-</th>
-<th valign="top">
-
-Description
-
-
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-Init
-
-
-
-</td>
-<td valign="top">
-
--
-
-
-
-</td>
-<td valign="top">
-
-The pipeline is initialized.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Initial Checks
-
-
-
-</td>
-<td valign="top">
-
-[abapAddonAssemblyKitCheckPV](https://sap.github.io/jenkins-library/steps/abapAddonAssemblyKitCheckPV/)
-
-[abapAddonAssemblyKitCheckCVs](https://sap.github.io/jenkins-library/steps/abapAddonAssemblyKitCheckCVs/)
-
-
-
-</td>
-<td valign="top">
-
-This stage is executed if the Build stage is configured. It contains checks to verify the validity of the provided add-on descriptor. See [Initial Checks](https://www.project-piper.io/pipelines/abapEnvironment/stages/initialChecks/).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Prepare System
-
-
-
-</td>
-<td valign="top">
-
-[https://sap.github.io/jenkins-library/steps/abapEnvironmentCreateSystem/](https://sap.github.io/jenkins-library/steps/abapEnvironmentCreateSystem/)
-
-[cloudFoundryCreateServiceKey](https://sap.github.io/jenkins-library/steps/cloudFoundryCreateServiceKey/)
-
-
-
-</td>
-<td valign="top">
-
-The ABAP environment system is created. This is done with step `abapEnvironmentCreateSystem`.
-
-After the confirmation, communication arrangement `SAP_COM_0510` \(SAP BTP ABAP Environment - Software Component Test Integration\) is created using step `cloudFoundryCreateServiceKey`. With the creation of the communication arrangement, a user and password are created in the ABAP environment system for the APIs that are used in the following stages. See [Prepare System](https://www.project-piper.io/pipelines/abapEnvironment/stages/prepareSystem/).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Clone Repositories
-
-
-
-</td>
-<td valign="top">
-
-[abapEnvironmentPullGitRepo](https://sap.github.io/jenkins-library/steps/abapEnvironmentPullGitRepo/)
-
-[abapEnvironmentCloneGitRepo](https://sap.github.io/jenkins-library/steps/abapEnvironmentCloneGitRepo/)
-
-[abapEnvironmentCheckoutBranch](https://sap.github.io/jenkins-library/steps/abapEnvironmentCheckoutBranch/)
-
-
-
-</td>
-<td valign="top">
-
-The software components/Git repositories are pulled to the ABAP system. The step can receive a list of software components/repositories and pulls them successively. See [Clone Repositories](https://www.project-piper.io/pipelines/abapEnvironment/stages/cloneRepositories/).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-ATC
-
-
-
-</td>
-<td valign="top">
-
-[abapEnvironmentRunATCCheck](https://sap.github.io/jenkins-library/steps/abapEnvironmentRunATCCheck/)
-
-
-
-</td>
-<td valign="top">
-
-ATC checks can be executed using `abapEnvironmentRunATCCheck`. The step can receive software components or packages configured in a YML file. The results are returned in check style format. With the use of a pipeline extension, quality gates can be configured. See [ATC](https://www.project-piper.io/pipelines/abapEnvironment/stages/ATC/).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Build
-
-
-
-</td>
-<td valign="top">
-
-[cloudFoundryCreateServiceKey](https://sap.github.io/jenkins-library/steps/cloudFoundryCreateServiceKey/)
-
-[abapAddonAssemblyKitReserveNextPackages](https://sap.github.io/jenkins-library/steps/abapAddonAssemblyKitReserveNextPackages/)
-
-[abapEnvironmentAssemblePackages](https://sap.github.io/jenkins-library/steps/abapEnvironmentAssemblePackages/)
-
-[abapAddonAssemblyKitRegisterPackages](https://sap.github.io/jenkins-library/steps/abapAddonAssemblyKitRegisterPackages/)
-
-[abapAddonAssemblyKitReleasePackages](https://sap.github.io/jenkins-library/steps/abapAddonAssemblyKitReleasePackages/)
-
-[abapAddonAssemblyKitCreateTargetVector](https://sap.github.io/jenkins-library/steps/abapAddonAssemblyKitCreateTargetVector/)
-
-[abapAddonAssemblyKitPublishTargetVector](https://sap.github.io/jenkins-library/steps/abapAddonAssemblyKitPublishTargetVector/)
-
-
-
-</td>
-<td valign="top">
-
-The add-on for the ABAP environment is built. The build process of an ABAP system is performed with the help of the ABAP Addon Assembly Kit as a Service \(AAKaaS\). After executing this stage successfully, the add-on is ready to be tested. See [Build](https://www.project-piper.io/pipelines/abapEnvironment/stages/build/).
-
-
-
-</td>
-</tr>
-</table>
-
-<a name="loio2398b874f7c5445db188b780ff0cef89__table_ulq_5sq_xnb"/>Add-On Product Test
-
-
-<table>
-<tr>
-<th valign="top">
-
-Stage
-
-
-
-</th>
-<th valign="top">
-
-Step
-
-
-
-</th>
-<th valign="top">
-
-Description
-
-
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-Integration Tests
-
-
-
-</td>
-<td valign="top">
-
-[cloudFoundryCreateService](https://sap.github.io/jenkins-library/steps/cloudFoundryCreateService/)
-
-
-
-</td>
-<td valign="top">
-
-The add-on built in the Build stage is tested. In this stage, another ABAP system is created including the add-on if configured correctly. See [Integration Tests](https://www.project-piper.io/pipelines/abapEnvironment/stages/integrationTest/).
-
-
-
-</td>
-</tr>
-</table>
-
-<a name="loio2398b874f7c5445db188b780ff0cef89__table_r5l_wsq_xnb"/>Add-On Product Release
-
-
-<table>
-<tr>
-<th valign="top">
-
-Stage
-
-
-
-</th>
-<th valign="top">
-
-Step
-
-
-
-</th>
-<th valign="top">
-
-Description
-
-
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-Confirm
-
-
-
-</td>
-<td valign="top">
-
--
-
-
-
-</td>
-<td valign="top">
-
-This stage is executed if the Publish stage is configured.
-
-A manual confirmation is prompted to confirm the publishing of the add-on. See [Confirm](https://www.project-piper.io/pipelines/abapEnvironment/stages/confirm/).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Publish
-
-
-
-</td>
-<td valign="top">
-
-[abapAddonAssemblyKitPublishTargetVector](https://sap.github.io/jenkins-library/steps/abapAddonAssemblyKitPublishTargetVector/)
-
-
-
-</td>
-<td valign="top">
-
-The add-on built with this pipeline is published. After that, it’s ready to be delivered to productive systems. See [Publish](https://www.project-piper.io/pipelines/abapEnvironment/stages/publish/).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Post
-
-
-
-</td>
-<td valign="top">
-
-[cloudFoundryDeleteService](https://sap.github.io/jenkins-library/steps/cloudFoundryDeleteService/)
-
-
-
-</td>
-<td valign="top">
-
-At the end of every pipeline execution \(successful or unsuccessful\), the system is deprovisioned using step `cloudFoundryDeleteService`. See [Post](https://www.project-piper.io/pipelines/abapEnvironment/stages/post/).
-
-
-
-</td>
-</tr>
-</table>
 
  <a name="loioc8730736a52645b49ca76c08214bf181"/>
 
@@ -735,7 +394,7 @@ The patch level count starts again from 0 with each support package.
 
 While providing a specific add-on version, leading zeroes should be omitted \(1.2.3 instead of 0001.0002.0003\).
 
-For more information on the software product versioning, see [Software Component Version](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/#software-component-version).
+For more information on software product versioning, see [Add-On Product Version](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#add-on-product-version).
 
 
 
@@ -758,6 +417,8 @@ The support package level can only go up until 369 because of technical limitati
 
 For the patch level, there is a technical limit of 36³, limited to 9999. The patch level count starts again from 0 with each support package.
 
+For more information on software component versioning, see [Software Component Version](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#software-component-version).
+
 
 
 <a name="loio8c087bca40584f9b899282b4ec515753__section_snh_3dr_xnb"/>
@@ -769,7 +430,7 @@ For the delivery of add-ons, there are three package types that serve different 
 Depending on the purpose, the development objects to be included in the object list of the package are calculated differently based on the state of the software component.
 
 > ### Note:  
-> The required type of delivery is automatically determined by the delivery production tools.
+> The required type of delivery is automatically determined by the delivery production tools based on how the version number of software components is changed.
 
 
 

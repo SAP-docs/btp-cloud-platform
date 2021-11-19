@@ -569,7 +569,7 @@ Internal error during processing
 
 
 
-If the item is a message, it is checked whether the log already contains another message with identical message attributes. These are the attributes: severity, message ID, message number and message variable 1 - 4. If this message exist, the message counter of the message is increased by 1. Otherwise, a new message is added to the log. Also free texts and exceptions are always added to the log without cumulation.
+If the item is a message, it's checked whether the log already contains another message with identical message attributes. These are the attributes: severity, message ID, message number and message variable 1 - 4. If this message exist, the message counter of the message is increased by 1. Otherwise, a new message is added to the log. Also free texts and exceptions are always added to the log without cumulation.
 
 <a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_sgn_xwh_xlb"/>**CUMULATE\_ITEM**
 
@@ -791,7 +791,118 @@ Internal error during processing
 </table>
 
 > ### Note:  
-> If a message of the message table cannot be added to the log, it is skipped and the processing continues until the end of the table is reached. Afterwards, an exception is raised to notify the caller that some of the messages could not be added to the log.
+> If a message of the message table can't be added to the log, it's skipped and the processing continues until the end of the table is reached. Afterwards, an exception is raised to notify the caller that some of the messages couldn't be added to the log.
+
+
+
+Add all items from another log to this log:
+
+<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_h3k_2d4_krb"/>**ADD\_ALL\_ITEMS\_FROM\_OTHER\_LOG**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Name
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Importing parameter**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SOURCE\_LOG
+
+
+
+</td>
+<td valign="top">
+
+Reference to the log whose items are to be copied
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CX\_BALI\_NOT\_POSSIBLE
+
+
+
+</td>
+<td valign="top">
+
+ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>TOO\_MANY\_ITEMS: The maximum number of 999999 items was reached
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CX\_BALI\_INVALID\_PARAMETER
+
+
+
+</td>
+<td valign="top">
+
+The source log is invalid. It contains a log handle which doesn't exist
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CX\_BALI\_INTERNAL\_ERROR
+
+
+
+</td>
+<td valign="top">
+
+Internal error during processing
+
+
+
+</td>
+</tr>
+</table>
+
+> ### Note:  
+> If the parameter `SOURCE_LOG` is initial, the processing is skipped and no exception is raised.
 
 
 

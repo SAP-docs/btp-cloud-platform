@@ -6,6 +6,5 @@ ADS Rendering in ABAP environment
 
 The *Adobe Document Services* \(ADS\) can render Adobe XML Forms \(XFA\) to PDF documents and other print formats. The application sends the data and the form template using a secure connection and the service returns the rendered document. The rendered documents can be used by your applications for the screen output or for the output into the print queue. For more information, see [Maintain Print Queues](../50-administration-and-ops/Maintain_Print_Queues_9dd6f64.md).
 
-> ### Note:  
-> You can only use the ADS when you have activated the `SAP_COM_0503` communication scenario.
+For more information, see [Connecting the SAP Forms Service to ABAP](https://help.sap.com/viewer/DRAFT/9aa65244c65849fba9c59b3e58d5270f/Internal/en-US/3a3655f996ad4c22bb21ebe7a7cf2d0a.html).
 

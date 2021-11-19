@@ -4,6 +4,9 @@
 
 Depending on your global account type, you will have access to a different plan that specifies cluster parameters for the Kyma environment.
 
+> ### Note:  
+> You can configure the *Auto Scaler Min* and *Auto Scaler Max* parameters during both provisioning and update operations.
+
 
 
 <a name="loiobefe01d5d8864e59bf847fa5a5f3d669__section_y4g_qld_hpb"/>
@@ -251,7 +254,7 @@ Defines a region \(set of datacenters\) where your cluster will run.
 </td>
 <td valign="top">
 
-Specifies memory and CPU limits for one virtual machine. See [GCP docs](https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines) for details. The available machine types are `n2-standard-8`, `n2-standard-16`, `n2-standard-32`, and `n2-standard-64`.
+Specifies memory and CPU limits for one virtual machine. See [GCP docs](https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines) for details. The available machine types are `n2-standard-8`, `n2-standard-16`, `n2-standard-32`, and `n2-standard-48`.
 
 
 

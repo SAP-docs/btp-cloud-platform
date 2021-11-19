@@ -10,7 +10,8 @@ You can enable transport of SAP BTP applications and application content that is
 
 ## Prerequisites
 
--   You have configured your SAP BTP subaccounts for transport with CTS+ as described in [How to...Configure SAP BTP, Cloud Foundry environment for CTS](https://help.sap.com/doc/9aad207e90fa4da793d34114113e9254/Cloud/en-US/HowToCTS%2B_Guide_SCP_CF.pdf) 
+-   Open the document [How to...Configure SAP BTP, Cloud Foundry environment for CTS](https://help.sap.com/doc/9aad207e90fa4da793d34114113e9254/Cloud/en-US/HowToCTS%2B_Guide_SCP_CF.pdf).
+-   You have configured your SAP BTP subaccounts for transport with CTS+ as described in the document `How to...Configure SAP BTP, Cloud Foundry environment for CTS`.
 -   The content that you want to transport can be made available as a Multitarget Application \(MTA\) archive as described in [Multitarget Applications in the Cloud Foundry Environment](Multitarget_Applications_in_the_Cloud_Foundry_Environment_d04fc0e.md).
 
 
@@ -29,9 +30,9 @@ You use the Change and Transport System \(CTS\) of ABAP to transport and deploy 
 
 1.  Package the application in a Multitarget Application \(MTA\) archive using the Archive Builder Tool as described in [Defining Multitarget Application Archives](Defining_Multitarget_Application_Archives_33a0e0e.md).
 
-2.  Attach the MTA archive to a CTS+ transport request as described in [How to...Configure SAP BTP, Cloud Foundry environment for CTS](https://help.sap.com/doc/9aad207e90fa4da793d34114113e9254/Cloud/en-US/HowToCTS%2B_Guide_SCP_CF.pdf).
+2.  Attach the MTA archive to a CTS+ transport request as described in `How to...Configure SAP BTP, Cloud Foundry environment for CTS`.
 
-3.  Trigger the import of an SAP BTP application as described in [How to...Configure SAP BTP, Cloud Foundry environment for CTS](https://help.sap.com/doc/9aad207e90fa4da793d34114113e9254/Cloud/en-US/HowToCTS%2B_Guide_SCP_CF.pdf).
+3.  Trigger the import of an SAP BTP application as described in `How to...Configure SAP BTP, Cloud Foundry environment for CTS`.
 
 
 **Related Information**  

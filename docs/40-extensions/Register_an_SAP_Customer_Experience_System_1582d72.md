@@ -30,6 +30,9 @@ The registration process has the following states displayed in the cockpit:
 -   *Registered* - the integration token has been used and the automated registration process has been successfully completed. The system can be assigned to a formation on the *Formations* page in the cockpit. You can use the corresponding SAP Customer Experience Cloud product APIs.
 -   *Error* - the registration has failed.
 
+> ### Note:  
+> When registering a system or creating a formation, the data you provide in the given input fields is not encrypted with your customer managed key. The data you enter is only encrypted at rest.
+
 
 
 ## Procedure
@@ -69,7 +72,7 @@ The registration process has the following states displayed in the cockpit:
 
 6.  \(Optional\) For systems in status *Pending*, you can generate a new token and copy it. To do so, choose the ![](images/ViewIntegrationToken_b8ec588.png) \(Display token\) button.
 
-7.  \(Recommended\) Follow the steps in [Assigning SAP Systems to a Formation](Assigning_SAP_Systems_to_a_Formation_68b04fa.md) before proceeding with step 8.
+7.  \(Recommended\) Follow the steps in [Including SAP Systems in a Formation](Including_SAP_Systems_in_a_Formation_68b04fa.md) before proceeding with step 8.
 
 8.  Configure the integration on the SAP Customer Experience system side. See [Extending SAP Customer Experience Products in the Kyma Environment](Extending_SAP_Customer_Experience_Products_in_the_Kyma_Environment_83df31a.md).
 

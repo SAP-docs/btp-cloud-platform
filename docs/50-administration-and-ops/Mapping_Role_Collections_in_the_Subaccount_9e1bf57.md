@@ -1,10 +1,10 @@
 <!-- loio9e1bf57130ef466e8017eab298b40e5e -->
 
-# Assigning Role Collections
+# Mapping Role Collections in the Subaccount
 
-You have arranged roles in role collections, and now want to assign these role collections to business users.
+You have arranged roles in role collections, and now want to assign or map these role collections to business users.
 
-How you assign users to their authorizations depends on the type of trust configuration and on whether or not you prefer to maintain the authorizations of invididual users rather in the identity provider or in SAP BTP.The following options are available:
+How you assign users to their authorizations depends on the type of trust configuration and on whether or not you prefer to maintain the authorizations of invididual users rather in the identity provider or in SAP BTP. The following options are available:
 
 -   Directly assign role collections to users.
 
@@ -46,7 +46,7 @@ Default trust configuration \(SAP ID service\)
 </td>
 <td valign="top">
 
- [Directly Assign Role Collections to Users](Directly_Assign_Role_Collections_to_Users_a55a3fe.md) 
+ [Assign Users to Role Collections](Assign_Users_to_Role_Collections_c576676.md) 
 
 
 
@@ -62,7 +62,7 @@ Custom trust configuration \(for example: a tenant of the Identity Authenticatio
 </td>
 <td valign="top">
 
--   [Directly Assign Role Collections to Users](Directly_Assign_Role_Collections_to_Users_a55a3fe.md)
+-   [Assigning Role Collections to Users or User Groups](Assigning_Role_Collections_to_Users_or_User_Groups_31532c7.md)
 
 -   [Map Role Collections to User Groups](Map_Role_Collections_to_User_Groups_51acfc8.md)
 
@@ -77,6 +77,8 @@ Custom trust configuration \(for example: a tenant of the Identity Authenticatio
 
 **Related Information**  
 
+
+[Working with Role Collections](Working_with_Role_Collections_393ea0b.md "You can manage role collections by creating new ones from scratch or by copying an existing one and editing it. You can add or remove roles. You can also add or remove users or user groups to the role collections. This is the assignment or unassignment action. You can drill down all the way to the role definition or to the individual role, user, and user group, and make changes there.")
 
 [Trust and Federation with Identity Providers](Trust_and_Federation_with_Identity_Providers_cb1bc8f.md "When setting up accounts you need to assign users. While we provide you with your first users to get you started, your organization has its own user bases which you want to integrate.")
 

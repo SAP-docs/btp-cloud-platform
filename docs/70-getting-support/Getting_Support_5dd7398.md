@@ -280,7 +280,7 @@ To submit an incident, you can use one of the following support channels:
 **Related Information**  
 
 
-[Users & Authorizations](https://support.sap.com/en/my-support/users.html)
+[Users and Authorizations for SAP One Support Launchpad](https://support.sap.com/en/my-support/users.html)
 
 [Cloud Management Tools — Feature Set Overview](../10-concepts/Cloud_Management_Tools_—_Feature_Set_Overview_caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 

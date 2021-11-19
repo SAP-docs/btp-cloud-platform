@@ -82,9 +82,7 @@ Summary:
 
 -   Group and filter directories and subaccounts
 
--   Monitor usage and, for contracts that use the consumption-based model, cost
-
--   Set custom properties and tags for identification and reporting purposes
+-   Monitor usage and costs for contracts that use the consumption-based commercial model
 
 
 **Directories** allow you to organize and manage your subaccounts according to your technical and business needs.
@@ -204,6 +202,8 @@ Use the btp CLI for convenient account management tasks on the command line and 
 
 -   Manage users and their authorizations
 
+
+To log in to a global account, you need the CLI server URL `https://cpcli.cf.eu10.hana.ondemand.com` and the global account subdomain. Only global accounts on feature set B have global account subdomains \(see cockpit\).
 
 See:
 

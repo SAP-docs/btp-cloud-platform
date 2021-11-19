@@ -938,6 +938,19 @@ The `COMPRESSION` environment variable enables you to configure the compression 
 
 `cf set-env *<myApp1\>* COMPRESSION`
 
+Here is a complete example of the compression environment variable:
+
+> ### Sample Code:  
+> ```
+>  env:
+>    COMPRESSION: >
+>         { 
+> 	  "enabled": true,
+> 	  "minSize": 2048,
+> 	  "compressResponseMixedTypeContent": true
+> 	  }
+> ```
+
 
 
 <a name="loioba527058dc4d423a9e0a69ecc67f4593__section_wpy_yfg_2z"/>

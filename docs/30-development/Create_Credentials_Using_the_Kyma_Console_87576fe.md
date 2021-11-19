@@ -10,7 +10,7 @@ To access and use a given service, you need credentials.
 
 ## Context
 
-When you use the Kyma Console to bind a service instance to the application, the system **automatically** creates a [ServiceBindingUsage](https://kyma-project.io/docs/components/service-catalog#custom-resource-service-binding-usage) Kyma custom resource under the hood, along with the Kubernetes Secret resource with credentials necessary to access the service.
+When you use the Kyma Console to bind a service instance to the application, the system **automatically** creates a [ServiceBindingUsage](https://kyma-project-old.netlify.app/docs/components/service-catalog/#custom-resource-service-binding-usage) Kyma custom resource under the hood, along with the Kubernetes Secret resource with credentials necessary to access the service.
 
 You can add multiple Secrets that you can use when binding your service instances to applications. Follow the steps to create additional credentials for your service:
 

@@ -46,6 +46,9 @@ The registration process has the following states displayed in the SAP BTP cockp
 -   *Registered* - the integration token has been used and the automated registration process has been successfully completed.
 -   *Error* - the registration has failed.
 
+> ### Note:  
+> When registering a system or creating a formation, the data you provide in the given input fields is not encrypted with your customer managed key. The data you enter is only encrypted at rest.
+
 
 
 <a name="loioe956ba209f30447cb55140e38c15e345__steps_xls_dvz_w3b"/>

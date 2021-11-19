@@ -15,9 +15,9 @@ Quickly get started with a trial account.
 ![](images/Trial_1-Getting_a_Global_Account_0f1ece7.png)
 
 -   [Get a Trial Account](Getting_a_Global_Account_d61c281.md#loio42e7e54590424e65969fced1acd47694)
--   [Trial Accounts and Free Tier](../10-concepts/Trial_Accounts_and_Free_Tier_046f127.md)
+-   [Trial Accounts](../10-concepts/Trial_Accounts_046f127.md)
 
-Before you begin, sign up for a free trial account. See [Get a Free Trial Account](Getting_a_Global_Account_d61c281.md#loio42e7e54590424e65969fced1acd47694). For more information about trial accounts, see [Trial Accounts and Free Tier](../10-concepts/Trial_Accounts_and_Free_Tier_046f127.md).
+Before you begin, sign up for a free trial account. See [Get a Free Trial Account](Getting_a_Global_Account_d61c281.md#loio42e7e54590424e65969fced1acd47694). For more information about trial accounts, see [Trial Accounts](../10-concepts/Trial_Accounts_046f127.md).
 
 > ### Restriction:  
 > Note that you can only select *Amazon Web Services \(AWS\)* as your provider and either *Europe \(Frankfurt\)* or *US East \(VA\)* as your region to get access to ABAP trial.

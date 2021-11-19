@@ -42,7 +42,7 @@ For multitenancy offerings, there’s no sizing/quota per customer. You must dec
 
 ### Multitenancy
 
-As a DevOps engineer using parameter `tenant_mode` in the ABAP Solution service, you can define whether a customer gets a tenant in a dedicated system \(single\) or a shared system \(multi\).
+As a DevOps engineer using parameter `tenant_mode` in the ABAP Solution service, you can define whether a customer gets a tenant in a dedicated system \(single\) or a shared system \(multi\). See [Define Your ABAP Solution](Define_Your_ABAP_Solution_1697387.md).
 
 > ### Note:  
 > As of now, there is no consumer tenant threshold available to specify the number of tenants to be onboarded per system.
@@ -146,7 +146,7 @@ For more information on how to create multitenant-enabled applications in the AB
 
 
 > ### Recommendation:  
-> We recommend following the MTA-based implementation approach.
+> We recommend following the MTA-based implementation approach. See [MTA-Based Approach \(Recommended\)](MTA-Based_Approach_(Recommended)_ca0cc10.md).
 
 > ### Note:  
 > If you need support or experience issues, please report an incident by using component `BC-CP-ABA`.

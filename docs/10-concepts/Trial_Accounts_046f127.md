@@ -1,25 +1,16 @@
 <!-- loio046f127f2a614438b616ccfc575fdb16 -->
 
-# Trial Accounts and Free Tier
+# Trial Accounts
 
-Explore the different options for trying out SAP BTP.
+Trial accounts let you try out SAP BTP for free with a restricted use of the platform resources and services.
 
+ SAP BTP provides different types of global accounts, **enterprise and** **trial**. The type you choose determines pricing, conditions of use, resources, available services, and hosts.
 
+![Types of Global Accounts: Trial and Enterprise](images/Types_of_Global_Account_0b86365.png)
 
-<a name="loio046f127f2a614438b616ccfc575fdb16__section_ykc_swd_4rb"/>
+It depends on your use case whether you choose a free trial account or a paid enterprise account. You may want to start out with an SAP BTP trial account that also gives you access to our community, including free technical resources such as tutorials and blog posts. If you plan to use your global account in productive mode, you must purchase a paid enterprise account. It’s important that you’re aware of these differences when you’re planning and setting up your account model. For more information, see [Enterprise Accounts](Enterprise_Accounts_171511c.md).
 
-## Trial Account vs Free Tier Account: When to Use Which?
-
-Before setting up your account, you need to decide which free offering for SAP BTP is suitable for your needs:
-
--   An **enterprise account with free tier service plans** lets you try out SAP BTP for free without time limits, enabling you to test your scenarios in an environment that allows you to upgrade your service plans to productive use. This account also allows you to store data long-term and move projects to production easily. You also get access to our community, including free technical resources such as tutorials and blog posts. For more information, see [Enterprise Accounts](Enterprise_Accounts_171511c.md) and [Using Free Service Plans](Using_Free_Service_Plans_524e108.md).
-
-    You can self-register for an enterprise account with free tier service plans. For more information, see [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html).
-
--   A **trial account** lets you try out SAP BTP for free for 365 days. Access is open to everyone. Trial accounts are intended for personal exploration, and not for production use or team development. They allow restricted use of the platform resources and services.
-
-    You can self-register for a trial account. For more information, see [Get a Free Trial Account](../20-getting-started/Getting_a_Global_Account_d61c281.md#loio42e7e54590424e65969fced1acd47694).
-
+A **trial account** lets you try out SAP BTP for free. Access is open to everyone. Trial accounts are intended for personal exploration, and not for production use or team development. They allow restricted use of the platform resources and services.
 
 
 
@@ -27,9 +18,13 @@ Before setting up your account, you need to decide which free offering for SAP B
 
 ## Trial Lifecycle
 
+-   **Create a SAP BTP trial account.**
+
+    You can self-register for a trial account. For more information, see [Get a Free Trial Account](../20-getting-started/Getting_a_Global_Account_d61c281.md#loio42e7e54590424e65969fced1acd47694).
+
 -   **Use your SAP BTP trial account.**
 
-    To find out how you can use your trial account, see [Trial Scope](Trial_Accounts_and_Free_Tier_046f127.md#loio046f127f2a614438b616ccfc575fdb16__section_trial-scope) or try out one of our [Starter Scenarios](https://developers.sap.com/tutorial-navigator.html?tag=tutorial:topic/cp-starter-scenario) on the [Tutorial Navigator](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-business-technology-platform).
+    To find out how you can use your trial account, see [Trial Scope](Trial_Accounts_046f127.md#loio046f127f2a614438b616ccfc575fdb16__section_trial-scope) or try out one of our [Starter Scenarios](https://developers.sap.com/tutorial-navigator.html?tag=tutorial:topic/cp-starter-scenario) on the [Tutorial Navigator](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-business-technology-platform).
 
 -   **Extend your SAP BTP trial account in 30-day intervals.**
     -   Extend your trial account by clicking *Extend Trial Account* in the popup window that appears once 30 days have passed.
@@ -67,7 +62,7 @@ After your trial account has been deleted, you can create a new trial account, a
 
 -   You can use productive and beta services. To consume beta services, you must enable the subaccount for beta features during the subaccount creation or when you edit the subaccount details.
 
--   You can manage security users in your subaccounts by assigning them role collections. For more information, see [Working with Role Collections](../50-administration-and-ops/Working_with_Role_Collections_393ea0b.md).
+-   You can manage security useres in your subaccounts by assigning them role collections. For more information, see [Working with Role Collections](../50-administration-and-ops/Working_with_Role_Collections_393ea0b.md).
 
 -   A trial account includes 4 GB of memory for applications.
 
@@ -84,7 +79,7 @@ After your trial account has been deleted, you can create a new trial account, a
 -   For cleanup purposes, applications stop automatically on a daily basis. You need to manually restart them when needed.
 
     > ### Note:  
-    > Applications are stopped at midnight \(or some time thereafter depending on server load\) relative to the region in which you created your trial account. If you’re working in a time zone that is far from the region where your trial account was created, then your applications may stop during business hours.
+    > Applications are stopped at midnight \(or some time thereafter depending on server load\) relative to the region in which you created your trial account. If you’re working in a time zone that is far from the region where you trial account was created, then your applications may stop during business hours.
 
 
 **Related Information**  
@@ -94,5 +89,5 @@ After your trial account has been deleted, you can create a new trial account, a
 
 [Getting Started with a Trial Account in the ABAP Environment](../20-getting-started/Getting_Started_with_a_Trial_Account_in_the_ABAP_Environment_720c423.md "Quickly get started with a trial account.")
 
-[Getting Started with a Trial Account in the Kyma Environment](../20-getting-started/Getting_Started_with_a_Trial_Account_in_the_Kyma_Environment_ccb83c7.md "Quickly get started with a trial account.")
+[Getting Started with a Trial Account in the Kyma Environment](../20-getting-started/Getting_Started_with_a_Trial_Account_in_the_Kyma_Environment_ccb83c7.md "Quickly get started with a trial account in the Kyma environment.")
 

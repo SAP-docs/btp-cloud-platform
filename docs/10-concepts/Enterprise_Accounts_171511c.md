@@ -8,7 +8,7 @@ SAP BTP provides different types of global accounts, **enterprise** and **trial*
 
 If you want to start out using services for free, you can create a personal enterprise account and only use free tier service plans: The major benefit of using such an account for exploration purposes is that you can upgrade your services to productive use without losing any of your data. Check out the [Free Tier Services](https://discovery-center.cloud.sap/#/viewServices?provider=all&regions=all&category=freetierservices) in SAP Discovery Center and learn the details about [Using Free Service Plans](Using_Free_Service_Plans_524e108.md) in your enterprise account.
 
-Another way to start out using services for free is to create a trial account. But keep in mind that when you want to use your global account productively, there’s no way to migrate your data from the trial account to a productive enterprise account. For more information, see [Trial Accounts and Free Tier](Trial_Accounts_and_Free_Tier_046f127.md).
+Another way to start out using services for free is to create a trial account. But keep in mind that when you want to use your global account productively, there’s no way to migrate your data from the trial account to a productive enterprise account. For more information, see [Trial Accounts](Trial_Accounts_046f127.md).
 
 
 
@@ -216,7 +216,7 @@ For the commercial models available for enterprise accounts, see [Commercial Mod
 **Related Information**  
 
 
-[Getting Started in the Kyma Environment](../20-getting-started/Getting_Started_in_the_Kyma_Environment_d1abd18.md "The getting started document describes the full list of steps you must complete as an administrator to set up a fully operational Kyma environment to which you can connect the chosen SAP solutions.")
+[Getting Started in the Kyma Environment](../20-getting-started/Getting_Started_in_the_Kyma_Environment_d1abd18.md "As an administrator, you must perform several steps to set up a fully operational Kyma environment to which you can connect the chosen SAP solutions.")
 
 [Getting Started with a Customer Account in the ABAP Environment](../20-getting-started/Getting_Started_with_a_Customer_Account_in_the_ABAP_Environment_e34a329.md "After you have purchased a customer account, learn how to get started in the ABAP environment.")
 

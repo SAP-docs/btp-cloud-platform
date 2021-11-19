@@ -1,6 +1,6 @@
 <!-- loio68b04fa73aa740cb96ed380a85a4761a -->
 
-# Assigning SAP Systems to a Formation
+# Including SAP Systems in a Formation
 
 You can create a formation and assign to it the different SAP systems of the different SAP solutions that you want to extend in the context of the same business case.
 
@@ -200,6 +200,9 @@ Supported
 </td>
 </tr>
 </table>
+
+> ### Note:  
+> When registering a system or creating a formation, the data you provide in the given input fields is not encrypted with your customer managed key. The data you enter is only encrypted at rest.
 
 
 

@@ -116,14 +116,14 @@ Multitarget Application extension descriptor
 <tr>
 <td valign="top">
 
-Multitarget Application module types and parameters
+Multitarget Application structure
 
 
 
 </td>
 <td valign="top">
 
-
+[Multitarget Application Structure](Multitarget_Application_Structure_f443b9f.md)
 
 
 

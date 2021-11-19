@@ -72,9 +72,7 @@ Directories allow you to:
 
 -   Group and filter directories and subaccounts
 
--   Monitor usage and, for contracts that use the consumption-based model, cost
-
--   Set custom properties and tags for identification and reporting purposes
+-   Monitor usage and costs for contracts that use the consumption-based commercial model
 
 
 In addition, you can also add the following features to your directories \(optional\):

@@ -13,7 +13,9 @@
 -   E-Mail Integration \(SAP\_COM\_0548\). See [Sending Mails Using SMTP](Sending_Mails_Using_SMTP_8d1f989.md).
 -   RFC Metadata Integration \(SAP\_COM\_0636\). See [Develop a Remote-Enabled Function Module \(RFM\)](Develop_a_Remote-Enabled_Function_Module_(RFM)_abf7105.md).
 -   SAP Analytics Cloud Integration \(SAP\_COM\_0065\). See [Integrating SAP Analytics Cloud](Integrating_SAP_Analytics_Cloud_587aec4.md).
--   Application Monitoring Integration \(SAP\_COM\_0454\)
+-   Application Monitoring Integration \(SAP\_COM\_0454\). See [Integration into Central Monitoring and Alerting](../50-administration-and-ops/Integration_into_Central_Monitoring_and_Alerting_8d6e2e7.md).
+-   SAP Cloud ALM for Operations - Application Monitoring Push Integration \(SAP\_COM\_0527\). See [Integration into Central Monitoring and Alerting](../50-administration-and-ops/Integration_into_Central_Monitoring_and_Alerting_8d6e2e7.md).
 -   Adobe Document Services \(SAP Forms service by Adobe\) Integration \(SAP\_COM\_0503\). See [Print Forms](Print_Forms_959664f.md)
 
+-   FLP Content Exposure Integration \(SAP\_COM\_0647\). See [Expose Launchpad Content to Launchpads on SAP BTP](https://help.sap.com/viewer/10fd1742ea914256abedb34bf15bd069/Cloud/en-US/811789b79045440faf6dfdf02beb35aa.html).
 

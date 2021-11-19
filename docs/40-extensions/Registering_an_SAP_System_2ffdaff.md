@@ -42,6 +42,9 @@ The registration process has the following states displayed in the cockpit:
 -   *Registered* - the integration token has been used and the automated registration process has been successfully completed. The system can be assigned to a formation on the *Formations* page in the cockpit.
 -   *Error* - the registration has failed.
 
+> ### Note:  
+> When registering a system or creating a formation, the data you provide in the given input fields is not encrypted with your customer managed key. The data you enter is only encrypted at rest.
+
 
 
 ## Procedure
@@ -101,7 +104,7 @@ The registration process has the following states displayed in the cockpit:
     -   For systems of type *SAP S/4HANA Cloud* and *SAP SuccessFactors*, you first need to configure the integration on the respective SAP system side.
 
 
-    For more information, see: [Assigning SAP Systems to a Formation](Assigning_SAP_Systems_to_a_Formation_68b04fa.md).
+    For more information, see: [Including SAP Systems in a Formation](Including_SAP_Systems_in_a_Formation_68b04fa.md).
 
 
 **Related Information**  

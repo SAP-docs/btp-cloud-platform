@@ -3100,14 +3100,14 @@ Google Cloud Services
 </td>
 <td valign="top">
 
-`asia-northeast1`
+`asia-south1`
 
 
 
 </td>
 <td valign="top">
 
-Asia Northeast \(Tokyo\)
+Asia South \(Mumbai\)
 
 
 

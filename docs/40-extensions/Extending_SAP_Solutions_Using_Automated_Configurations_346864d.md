@@ -48,7 +48,7 @@ To enable the integration, you need to:
 
 2.  Make the SAP system accessible in the subaccounts in which you want to build your extension applications.
 
-    To do so, you create a formation containing one or more different systems assigned to a common subaccount. See [Assigning SAP Systems to a Formation](Assigning_SAP_Systems_to_a_Formation_68b04fa.md).
+    To do so, you create a formation containing one or more different systems assigned to a common subaccount. See [Including SAP Systems in a Formation](Including_SAP_Systems_in_a_Formation_68b04fa.md).
 
     For the systems of type SAP Commerce Cloud, SAP Cloud for Customer, and SAP Field Service Management, you can continue with developing your extension application.
 

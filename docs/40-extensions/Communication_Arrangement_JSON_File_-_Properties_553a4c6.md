@@ -717,5 +717,5 @@ Enter a value for the additional property of the communication arrangement.
 **Related Information**  
 
 
-[Communication Arrangement JSON File - Examples](Communication_Arrangement_JSON_File_-_Examples_80a7613.md "The examples in this section will help you to create the service JSON descriptor used for defining the communication arrangement and the authentication type for the SAP S4/HANA Cloud API access.")
+[Communication Arrangement JSON File - Examples](Communication_Arrangement_JSON_File_-_Examples_80a7613.md "The examples in this section will help you to create the service JSON descriptor used for defining the communication arrangement and the authentication type for the SAP S/4HANA Cloud API access.")
 

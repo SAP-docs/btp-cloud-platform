@@ -332,7 +332,7 @@ Command line interface for SAP BTP
 
 Assign the role collections to users
 
-[Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/Managing_Users_and_Their_Authorizations_Using_the_btp_CLI_94bb593.md) or [Assigning Role Collections](../50-administration-and-ops/Assigning_Role_Collections_9e1bf57.md)
+[Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/Managing_Users_and_Their_Authorizations_Using_the_btp_CLI_94bb593.md) or [Mapping Role Collections in the Subaccount](../50-administration-and-ops/Mapping_Role_Collections_in_the_Subaccount_9e1bf57.md)
 
 
 
@@ -382,9 +382,9 @@ SAP BTP cockpit
 <tr>
 <td valign="top">
 
-Assign the role collection to the business users provided by an identity provider \(cloud management tools feature set A\)
+Assign the role collection to the business users provided by an identity provider
 
-[Directly Assign Role Collections to Users](../50-administration-and-ops/Directly_Assign_Role_Collections_to_Users_a55a3fe.md)
+[Working with Role Collections](../50-administration-and-ops/Working_with_Role_Collections_393ea0b.md)
 
 
 

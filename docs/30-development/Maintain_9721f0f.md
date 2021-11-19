@@ -185,7 +185,7 @@ As an add-on administrator, you can provide different kinds of updates. The deci
 > ### Note:  
 > New features are developed on different code lines \(branches\). If you create a so-called maintenance branch to implement patches while new features are implemented in the main branch of a software component, you can implement new features and provide bug fixes at the same time. For more information, see [Versioning and Branches](Concepts_9482e7e.md#loio8c087bca40584f9b899282b4ec515753).
 > 
-> Only by changing the version string of a software component in the add-on descriptor file `addon.yml`, the build of a new delivery package with the latest changes is created.
+> Only by changing the version string of a software component in the add-on descriptor file `addon.yml`, the build of a new delivery package with the latest changes is created. When defining an addon.yml file, please follow the best practices. See [Add-On Descriptor File](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#add-on-descriptor-file).
 > 
 > To learn more about terminology related to software lifecycle management in the ABAP environment, such as cloning and checkout, see [Basic Concepts and Terms](Basic_Concepts_and_Terms_fb3a076.md).
 
@@ -214,7 +214,7 @@ As an add-on administrator, you can provide different kinds of updates. The deci
 > See [Delivery via Add-On or gCTS](Concepts_9482e7e.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 > ### Note:  
-> For a new patch version, you can use a permanent add-on assembly system to save build time. See [ABAP System Types: Transient and Permanent Systems](Concepts_9482e7e.md#loio52fb6a9e22714843b6e83b7f333b184b).
+> For a new patch version, you can use a permanent add-on assembly system to save build time. See [Permanent Add-On Assembly System](Concepts_9482e7e.md#loio52fb6a9e22714843b6e83b7f333b184b).
 
 Small corrections are delivered as patches, also known as emergency patches.
 
@@ -250,7 +250,7 @@ Small corrections are delivered as patches, also known as emergency patches.
 
 -   **Double maintenance of corrections into development**
 
-    As an add-on admin, useAs a developer, you have to maintain the corrections that have been developed and tested in the ABAP correction system COR and quality assurance system QAS in the development system DEV \(so called double-maintenance\). See [Double Maintenance of Corrections into Development](Double_Maintenance_of_Corrections_into_Development_1241b14.md).
+    As a developer, you have to maintain the corrections that have been developed and tested in the ABAP correction system COR and quality assurance system QAS in the development system DEV \(so called double-maintenance\). See [Double Maintenance of Corrections into Development](Double_Maintenance_of_Corrections_into_Development_1241b14.md).
 
 -   **Configure addon.yml file**
 
@@ -372,7 +372,7 @@ Maintenance branch v1.1.0, created based on the main branch, is used later on fo
 > 
 > See [Delivery via Add-On or gCTS](Concepts_9482e7e.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
-Release deliveries that contain the whole software component and deliver new functionalities as well as enhancements of existing functionalities.
+Release versions are used to deliver new major, planned functional enhancements. Typically, they include multiple new implemented features. For example, multiple new apps could be introduced with such a major release.
 
 -   **Develop**
     -   Implement a new feature in the ABAP development system

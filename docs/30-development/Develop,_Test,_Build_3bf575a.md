@@ -600,13 +600,13 @@ Once you’ve completed these development activities, the solution is ready to b
 
 ### ABAP Development
 
-As a developer user, implement your custom business services with the ABAP RESTful application programming model. See [ABAP RESTful Application Programming Model](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/289477a81eec4d4e84c0302fb6835035.html). Maintain business catalogs \(see [Identity and Access Management \(IAM\) Guide](Identity_and_Access_Management_(IAM)_Guide_5b62901.md)\) and communication scenarios \(see [Overview of Communication Management](Overview_of_Communication_Management_5b8ff39.md)\) to expose services to business users and communication users.
+As a developer user, implement your custom business services with the ABAP RESTful application programming model. See [ABAP RESTful Application Programming Model](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/289477a81eec4d4e84c0302fb6835035.html). Maintain business catalogs \(see [Identity and Access Management \(IAM\)](Identity_and_Access_Management_(IAM)_5b62901.md)\) and communication scenarios \(see [Overview of Communication Management](Overview_of_Communication_Management_5b8ff39.md)\) to expose services to business users and communication users.
 
 **Identity and Access Management**
 
 SAP Fiori applications and business services are represented by IAM apps and can be used to define the necessary authorizations. In an IAM business catalog, you bundle multiple IAM apps and their predefined authorizations, for example, for a specific business area.
 
-Additionally, you can define business role templates to make it easier for administrators to find the relevant business catalogs. See [Identity and Access Management \(IAM\) Guide](Identity_and_Access_Management_(IAM)_Guide_5b62901.md).
+Additionally, you can define business role templates to make it easier for administrators to find the relevant business catalogs. See [Identity and Access Management \(IAM\)](Identity_and_Access_Management_(IAM)_5b62901.md).
 
 **Communication Management**
 
@@ -640,7 +640,7 @@ See [Supported Protocols and Authentication Methods](Supported_Protocols_and_Aut
 
 **Business Configuration**
 
-Business configuration plays a major role in SaaS solutions. It refers to a predefined set of configuration options that affect its functionality and behavior. See [Business Configuration for SAP BTP ABAP Environment](https://blogs.sap.com/2019/12/20/business-configuration-for-sap-cloud-platform-abap-environment/).
+Business configuration plays a major role in SaaS solutions. It refers to a predefined set of configuration options that affect its functionality and behavior. See [Business Configuration in SAP BTP ABAP Environment \(1\): Overview and BC Maintenance Apps](https://blogs.sap.com/2021/09/22/business-configuration-in-sap-btp-abap-environment-1-overview-and-bc-maintenance-apps/).
 
 To maintain these configuration options, you have to create dedicated apps using the ABAP RESTful Application Programming Model. See [Create a Business Configuration App for Factory Calendar Using the ABAP RESTful Application Programming Model](https://developers.sap.com/mission.abap-dev-factory-calendar.html).
 
@@ -856,13 +856,13 @@ For the add-on build process, you must use a CI server and pipeline to automate 
 
     The credentials for an instance of these scenarios are retrieved by creating a service key in the system. See [Create a Communication Arrangement for Inbound Communication with Service Key Type Basic](Create_a_Communication_Arrangement_for_Inbound_Communication_with_Service_Key_Type_Basic_1cc5a1d.md).
 
-    To do so, assign a technical platform user to the global development account as an administrator and as a space developer in the build/assemble space. Later, this user’s credentials are stored in the Jenkins credentials. See [User and Member Management](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cc1c676b43904066abb2a4838cbd0c37.html).
+    To do so, as an operator, assign a technical platform user to the global development account as an administrator and as a space developer in the build/assemble space. Later, this user’s credentials are stored in the Jenkins credentials. See [User and Member Management](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cc1c676b43904066abb2a4838cbd0c37.html).
 
 -   **Add technical platform user to *04 Build/Test* space**
 
     For the add-on installation test, a test system in the *04 Build/Test* space is created in the global production account.
 
-    To do so, assign a technical platform user to the global production account as an administrator and as a space developer in the build/test space. Later, this user’s credentials are stored in the Jenkins credentials. See [Creating New Space Members and Assigning Space Developer Roles to Them](../20-getting-started/Creating_New_Space_Members_and_Assigning_Space_Developer_Roles_to_Them_967fc4e.md).
+    To do so, as an operator, assign a technical platform user to the global production account as an administrator and as a space developer in the build/test space. Later, this user’s credentials are stored in the Jenkins credentials. See [Creating New Space Members and Assigning Space Developer Roles to Them](../20-getting-started/Creating_New_Space_Members_and_Assigning_Space_Developer_Roles_to_Them_967fc4e.md).
 
 -   **Configure pipeline**
 
@@ -951,13 +951,12 @@ For the software components in the repositories section of the `addon.yml` file,
 
 > ### Tip:  
 > For in-depth information about versioning and branches, check out [Versioning and Branches](Concepts_9482e7e.md#loio8c087bca40584f9b899282b4ec515753).
-
-> ### Tip:  
-> To learn how software lifecycle management in the ABAP environment works with software components, see [Basic Concepts and Terms](Basic_Concepts_and_Terms_fb3a076.md).
+> 
+> To learn how software lifecycle management in the ABAP environment works with software components, see [Basic Concepts and Terms](Basic_Concepts_and_Terms_fb3a076.md). Please follow the best practices on how to define the addon.yml file. See [Add-On Descriptor File](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#add-on-descriptor-file).
 
 **Trigger add-on product build**
 
-As an add-on administrator, trigger the execution of the configured ABAP environment pipeline for the add-on build.
+As an add-on administrator, trigger the execution of the configured ABAP environment pipeline for the add-on build. During the add-on build, delivery packages corresponding to included software component versions are created. For the add-on product version, a target vector is created and published in test scope. See [Target Vector](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#target-vector).
 
 ![](images/Pipeline_add-on_build_d36cfe1.png)
 
@@ -966,11 +965,11 @@ As an add-on administrator, trigger the execution of the configured ABAP environ
 
 **Trigger add-on product test**
 
-The integration tests stage of the ABAP environment pipeline creates the add-on installation test system ATI. After the system and the add-on have been provisioned successfully, a provisioning mail is sent to the system administrator and the pipeline stage can be confirmed by the add-on administrator.
+Based on the target vector published in the build stage, the integration tests stage of the ABAP environment pipeline creates the add-on installation test system ATI. After the system and the add-on have been provisioned successfully, a provisioning mail is sent to the system administrator and the pipeline stage can be confirmed by the add-on administrator.
 
 **Trigger add-on product release**
 
-Finally, the add-on product is published after the release decision is confirmed in the *Confirm* stage by the add-on administrator.
+Finally, the previously created target vector for the new add-on product version is published in production scope after the release decision is confirmed in the *Confirm* stage by the add-on administrator.
 
 After a successful build, all ABAP systems used are deprovisioned.
 

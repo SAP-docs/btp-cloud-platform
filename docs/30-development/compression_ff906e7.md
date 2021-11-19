@@ -126,6 +126,36 @@ Globally disables or enables compression. The default value is true.
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+ `compressResponseMixedTypeContent` 
+
+
+
+</td>
+<td valign="top">
+
+Boolean
+
+
+
+</td>
+<td valign="top">
+
+No
+
+
+
+</td>
+<td valign="top">
+
+Determines whether response content of the multipart / mixed content type should be compressed. The default value is `false`.
+
+
+
+</td>
+</tr>
 </table>
 
 > ### Note:  

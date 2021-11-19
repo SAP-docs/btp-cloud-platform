@@ -4,7 +4,7 @@
 
 After you have set up the consumer subaccount, tenant, and tenant user, a remaining customer implementation project in the consumer tenant can start. This includes the setup of identity and authentication management, integration with other systems or services, and adjustment of business configuration.
 
-Once you have configured and implemented the customer project, the SaaS solution matches the requirements of the customer.
+Once you have configured and implemented the customer project, the SaaS solution matches the requirements of the customer and you can provide the SaaS application URL to the customer.
 
 > ### gCTS Delivery:  
 > As the consumer subaccount administrator, access the SAP Fiori launchpad of the SaaS Solution from the consumer subaccount account by navigating to *Services* \> *Instances and Subscriptions*.

@@ -13,7 +13,7 @@ Log in with the btp CLI is on global account level.
 -   Your global account is on feature set B. See [Cloud Management Tools — Feature Set Overview](../10-concepts/Cloud_Management_Tools_—_Feature_Set_Overview_caf4e4e.md).
 -   You have the subdomain of your global account ready. You can find it in the cockpit in the global account view or under *Switch Global Account*.
 
--   You have the CLI server URL: `https://cpcli.cf.eu10.hana.ondemand.com` . Only if your operator has provided you with a different server URL, you'll have to enter this.
+-   You have the CLI server URL ready: `https://cpcli.cf.eu10.hana.ondemand.com` . This URL is proposed by the CLI at login - you can accept it with [ENTER\]. Only if your operator has provided you with a different server URL, you'll have to enter that one.
 
 
 

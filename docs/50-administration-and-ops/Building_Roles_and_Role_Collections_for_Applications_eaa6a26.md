@@ -25,7 +25,7 @@ You can perform the following tasks:
 
 [Maintain Role Collections](Maintain_Role_Collections_d5f1612.md "Role collections group together different roles that can be applied to the application users.")
 
-[Assigning Role Collections](Assigning_Role_Collections_9e1bf57.md "You have arranged roles in role collections, and now want to assign these role collections to business users.")
+[Mapping Role Collections in the Subaccount](Mapping_Role_Collections_in_the_Subaccount_9e1bf57.md "You have arranged roles in role collections, and now want to assign or map these role collections to business users.")
 
 [Protecting Your Application](../30-development/Protecting_Your_Application_7c5c565.md "Developers create authorization information for business users in their environment; this information is deployed in an application and made available to administrators who complete the authorization setup and assign the authorizations to business users.")
 

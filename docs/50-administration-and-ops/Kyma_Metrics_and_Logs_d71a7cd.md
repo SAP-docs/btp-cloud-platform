@@ -139,7 +139,7 @@ There's a fixed metrics retention time and size. Prometheus stores up to 15 GB o
 </td>
 <td valign="top">
 
-There's s fixed logs retention time: Loki stores the logs for a maximum of 1 day. If the default time is exceeded, the oldest logs are removed first.
+There's a fixed logs retention time and size. Loki stores up to 30 GB of data for a maximum of 5 days, with maximum ingestion rate of 3MB/s. If the default size or time is exceeded, the oldest logs are removed first.
 
 
 

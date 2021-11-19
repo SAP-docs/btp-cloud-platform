@@ -212,21 +212,21 @@ Once you have a subaccount \(whether it was created automatically or you followe
 
 ## Enable Trial Kyma Environment
 
-After you have sucessfully added the entitlements, you can enable your trial Kyma environment and start developing.
+After you’ve successfully added the entitlements, you can enable your trial Kyma environment and start developing.
 
 
 
 ## Procedure
 
-1.  Navigate to your subaccount by choosing its tile.
+1.  Navigate to your subaccount.
 
-2.  In the *Overview* section, click *Enable Kyma*.
+2.  Create your Kyma environment. For details, see [Create the Kyma Environment Instance](../50-administration-and-ops/Create_the_Kyma_Environment_Instance_09dd313.md).
 
-3.  In the pop-up window, provide the name of your cluster and, optionally, a description.
+3.  Provide the name of your cluster and, optionally, a description.
 
-    Now you need to wait a bit until the environment is provisioned. Once this step is completed, you will see the link to the Kyma Console.
+    Now you need to wait a bit until the environment is provisioned. Once this step is completed, you see the link to the Kyma Console.
 
-4.  Click *Link to dashboard* to access the Console. For further information on the development options, see [Development in the Kyma Environment](../30-development/Development_in_the_Kyma_Environment_606ec61.md).
+4.  Access the Kyma Console. For further information on the development options, see [Development in the Kyma Environment](../30-development/Development_in_the_Kyma_Environment_606ec61.md).
 
 
 

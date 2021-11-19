@@ -27,9 +27,6 @@ The [Kyma Environment](../10-concepts/Kyma_Environment_468c2f3.md#loio468c2f3c3c
 
 
 
-> ### Note:  
-> Currently, it’s not possible to define your own [Kubernetes custom resources \(CRs\)](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) in the Kyma runtime. Because of this, you can't deploy your own operators and controllers in Kyma. You also can't use any third-party open-source controllers that aren't yet available in Kyma.
-
 
 
 <a name="loio606ec610ee4746c09d5d2bef5a85a124__section_och_bhb_g4b"/>

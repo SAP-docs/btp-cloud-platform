@@ -88,7 +88,7 @@ You can do the following using an extension descriptor:
 
 -   Overwrite an existing data \(in depth\) in modules, resources, parameters, properties, provides, requires sections
 
--   As of schema version 3.xx, by default parameters and properties are overwritable and optional. If you want to make a certain parameter or property non-overwritable or required, you need to add specific metadata. See[Metadata for Properties and Parameters](Metadata_for_Properties_and_Parameters_fca2ced.md).
+-   As of schema version 3.xx, by default parameters and properties are overwritable and optional. If you want to make a certain parameter or property non-overwritable or required, you need to add specific metadata. See [Metadata for Properties and Parameters](Metadata_for_Properties_and_Parameters_fca2ced.md).
 
 You cannot use an extension descriptor to:
 

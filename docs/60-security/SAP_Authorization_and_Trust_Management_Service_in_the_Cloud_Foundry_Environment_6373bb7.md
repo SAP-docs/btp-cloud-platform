@@ -321,7 +321,7 @@ For default identity provider:
     > ### Note:  
     > How you assign users to their authorizations depends on the type of trust configuration. If you’re using the default trust configuration via SAP ID service, you can assign users directly to role collections. For more information, see [Default Identity Federation with SAP ID Service in the Cloud Foundry Environment](../50-administration-and-ops/Default_Identity_Federation_with_SAP_ID_Service_in_the_Cloud_Foundry_Environment_36d21ac.md).
     > 
-    > However, if you’re using a custom trust configuration as described in this topic, you can assign individual users or groups to role collections. Assigning users to their authorizations is part of application administration, which is described here. For more information, see [Assigning Role Collections](../50-administration-and-ops/Assigning_Role_Collections_9e1bf57.md).
+    > However, if you’re using a custom trust configuration as described in this topic, you can assign individual users or groups to role collections. Assigning users to their authorizations is part of application administration, which is described here. For more information, see [Mapping Role Collections in the Subaccount](../50-administration-and-ops/Mapping_Role_Collections_in_the_Subaccount_9e1bf57.md).
 
     The identity provider hosts the business users, who belong to user groups. It’s efficient to use federation by assigning role collections to one or more user groups. The role collection contains all the authorizations that are necessary for this user group. This method saves time when you add a new business user. Simply add the users to the respective user groups and the new business users automatically get all the authorizations that are included in the role collection.
 
@@ -418,7 +418,7 @@ Command line interface for SAP BTP
 
 Assign the role collections to users
 
-[Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/Managing_Users_and_Their_Authorizations_Using_the_btp_CLI_94bb593.md) or [Assigning Role Collections](../50-administration-and-ops/Assigning_Role_Collections_9e1bf57.md)
+[Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/Managing_Users_and_Their_Authorizations_Using_the_btp_CLI_94bb593.md) or [Mapping Role Collections in the Subaccount](../50-administration-and-ops/Mapping_Role_Collections_in_the_Subaccount_9e1bf57.md)
 
 
 
@@ -468,9 +468,9 @@ SAP BTP cockpit
 <tr>
 <td valign="top">
 
-Assign the role collection to the business users provided by an identity provider \(cloud management tools feature set A\)
+Assign the role collection to the business users provided by an identity provider
 
-[Directly Assign Role Collections to Users](../50-administration-and-ops/Directly_Assign_Role_Collections_to_Users_a55a3fe.md)
+[Working with Role Collections](../50-administration-and-ops/Working_with_Role_Collections_393ea0b.md)
 
 
 

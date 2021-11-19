@@ -2,13 +2,9 @@
 
 # Consuming Content in SAP Launchpad Service
 
-Get an overview of the communication scenario `SAP_COM_0472` - SAP Central Fiori Launchpad Integration.
-
 **Prerequisite**
 
 Launchpad content from the same system/client has been transferred to SAP Launchpad service using `SAP_COM_0647` - SAP Fiori Launchpad Content Exposure Integration.
-
-For a description of the steps required to set up the communication scenario `SAP_COM_0472`, see the following guides:
 
 [Content Consumption - Launchpad Service](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/d92cf2f5dfea4959beddc28b005da441.html)
 

@@ -130,7 +130,103 @@ KEEP\_UNTIL\_EXPIRY
 </td>
 <td valign="top">
 
-If set: It is not allowed to delete the log before the expiry date
+If set: It's not allowed to delete the log before the expiry date
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+NUMBER\_ALL\_ITEMS
+
+
+
+</td>
+<td valign="top">
+
+Total number of items which are stored in the log
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+NUMBER\_ABORT\_ITEMS
+
+
+
+</td>
+<td valign="top">
+
+Number of abort items which are stored in the log
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+NUMBER\_ERROR\_ITEMS
+
+
+
+</td>
+<td valign="top">
+
+Number of error items which are stored in the log
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+NUMBER\_WARNING\_ITEMS
+
+
+
+</td>
+<td valign="top">
+
+Number of warning items which are stored in the log
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+NUMBER\_INFORMATION\_ITEMS
+
+
+
+</td>
+<td valign="top">
+
+Number of information items which are stored in the log
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+NUMBER\_STATUS\_ITEMS
+
+
+
+</td>
+<td valign="top">
+
+Number of status items which are stored in the log
 
 
 

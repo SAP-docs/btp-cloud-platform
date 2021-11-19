@@ -91,7 +91,7 @@ To do so, you pair the integration token with your SAP Customer Experience syste
 </td>
 <td valign="top">
 
-[Assigning SAP Systems to a Formation](Assigning_SAP_Systems_to_a_Formation_68b04fa.md)
+[Including SAP Systems in a Formation](Including_SAP_Systems_in_a_Formation_68b04fa.md)
 
 
 
@@ -102,15 +102,12 @@ To do so, you pair the integration token with your SAP Customer Experience syste
 
 4. Create a service instance of the required SAP Customer Experience Cloud services in the Kyma Service Catalog.
 
-> ### Note:  
-> When the KymaRuntimeNamespaceAdmin binds a service to the Namespace, the credentials are made available to the KymaRuntimeNamespaceDevelopers who have access to this Namespace.
-
 
 
 </td>
 <td valign="top">
 
-[Provisioning and Binding Flow](https://kyma-project.io/docs/components/service-catalog#details-provisioning-and-binding-flow)
+[Provisioning and Binding Flow](https://kyma-project-old.netlify.app/docs/components/service-catalog/#details-provisioning-and-binding-flow)
 
 
 
@@ -121,9 +118,9 @@ To do so, you pair the integration token with your SAP Customer Experience syste
 **Related Information**  
 
 
-[Getting Started in the Kyma Environment](../20-getting-started/Getting_Started_in_the_Kyma_Environment_d1abd18.md "The getting started document describes the full list of steps you must complete as an administrator to set up a fully operational Kyma environment to which you can connect the chosen SAP solutions.")
+[Getting Started in the Kyma Environment](../20-getting-started/Getting_Started_in_the_Kyma_Environment_d1abd18.md "As an administrator, you must perform several steps to set up a fully operational Kyma environment to which you can connect the chosen SAP solutions.")
 
 [Development in the Kyma Environment](../30-development/Development_in_the_Kyma_Environment_606ec61.md "Learn more about developing applications in the Kyma environment.")
 
-[Administration and Operations in the Kyma Environment](../50-administration-and-ops/Administration_and_Operations_in_the_Kyma_Environment_b8e1686.md "This is the managed offering of Kyma, which gives you a managed Kubernetes cluster with SAP BTP, Kyma runtime (based on the open-source project &quot;Kyma&quot;). The administrators of the Kyma environment take care of setting it up and make sure it is ready for developers to work with. Enable Kyma to build applications and extensions to SAP and third-party solutions, manage roles, have your Kubernetes objects backed up, and view metrics and logs.")
+[Administration and Operations in the Kyma Environment](../50-administration-and-ops/Administration_and_Operations_in_the_Kyma_Environment_b8e1686.md "This is the managed offering of SAP BTP, Kyma runtime (based on the open-source project &quot;Kyma&quot;). The administrators of the Kyma environment take care of setting it up and make sure it is ready for developers to work with. Enable Kyma to build applications and extensions to SAP and third-party solutions, manage roles, have your Kubernetes objects backed up, and view metrics and logs.")
 

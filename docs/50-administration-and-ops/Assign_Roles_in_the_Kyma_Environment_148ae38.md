@@ -37,11 +37,9 @@ The roles predefined for the Kyma environment are:
 
 ## Procedure
 
-1.   
+1.  Log in to the SAP BTP cockpit and choose the subaccount you want to assign roles to.
 
-2.  Log in to the SAP BTP cockpit and choose the subaccount you want to assign roles to.
-
-3.  Follow the instructions in [Assign Users to Role Collections](Assign_Users_to_Role_Collections_c576676.md).
+2.  Follow the instructions in [Assign Users to Role Collections](Assign_Users_to_Role_Collections_c576676.md).
 
     If you’ve already enabled the Kyma environment in your subaccount, you see the following predefined role collections:
 
@@ -57,18 +55,18 @@ The roles predefined for the Kyma environment are:
     > 
     > -   For users who were assigned the KymaRuntimeDeveloper role, now a KymaRuntimeNamespaceAdmin must assign the role in the Kyma Console.
 
-4.  To assign the KymaRuntimeDeveloper role, log in to the Kyma Console. The URL is in the *Overview* section of your subaccount.
+3.  To assign the KymaRuntimeDeveloper role, log in to the Kyma Console. The URL is in the *Overview* section of your subaccount.
 
-5.  In the Kyma Console, select or create the Namespace you want to assign roles to.
+4.  In the Kyma Console, select or create the Namespace you want to assign roles to.
 
-6.  To create a binding to your role collection, go to *Configuration* \> *Permissions* \> *+ Create Binding*. Choose *User Group* and fill in the required fields:
+5.  To create a binding to your role collection, go to *Configuration* \> *Permissions* \> *+ Create Binding*. Choose *User Group* and fill in the required fields:
 
     1.  As *Name*, insert *runtimeDeveloper*.
 
     2.  As *Role*, choose *kyma-developer*.
 
 
-7.  Save your configuration.
+6.  Save your configuration.
 
 
 

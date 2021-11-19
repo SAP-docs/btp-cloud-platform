@@ -20,6 +20,18 @@ Interface `IF_BALI_HEADER_GETTER` contains the following attributes:
 
 -   KEEP\_UNTIL\_EXPIRY: A flag which defines whether or not it is allowed to delete the log before the expiry date. If the flag is set, the standard reports which delete application logs do not delete the log before the expiry date. The application is still able to delete the log before this date.
 
+-   NUMBER\_ALL\_ITEMS: Total number of items which are stored in the log.
+
+-   NUMBER\_ABORT\_ITEMS: Number of abort items which are stored in the log.
+
+-   NUMBER\_ERROR\_ITEMS: Number of error items which are stored in the log.
+
+-   NUMBER\_WARNING\_ITEMS: Number of warning items which are stored in the log.
+
+-   NUMBER\_INFORMATION\_ITEMS: Number of information items which are stored in the log.
+
+-   NUMBER\_STATUS\_ITEMS: Number of status items which are stored in the log.
+
 
 Interface `IF_BALI_HEADER_GETTER` contains the following methods:
 

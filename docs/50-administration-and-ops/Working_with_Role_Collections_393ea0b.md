@@ -22,6 +22,9 @@ You can manage role collections by creating new ones from scratch or by copying 
 
 
 
+> ### Note:  
+> SAP BTP provides default role collections. You can use the default role collections, but you can’t change or delete them. For this reason, the *Delete* icon of a default role collection is grayed out.
+
 
 
 You can perform the following tasks:

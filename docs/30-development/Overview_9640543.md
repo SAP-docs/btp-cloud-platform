@@ -307,7 +307,7 @@ See [ABAP Test Cockpit in the Cloud – What is already possible](https://blogs.
 </td>
 <td valign="top">
 
-Build your add-on. See [Set Up Add-On Build](Develop,_Test,_Build_3bf575a.md#loioccf0c1ef30ce4d6aa6e39bb583fb8ba1).
+Prepare your add-on build. See [Set Up Add-On Build](Develop,_Test,_Build_3bf575a.md#loioccf0c1ef30ce4d6aa6e39bb583fb8ba1).
 
 
 
@@ -344,7 +344,7 @@ Build your first add-on version. See [Build the First Add-On Version](Develop,_T
 
 Create a maintenance branch.
 
-Configure the add-on yml.file.
+Configure the add-on .yml file.
 
 Trigger the add-on product build/test/release.
 
@@ -404,10 +404,6 @@ Configure the sizing of the SaaS application. See [Sizing](Order_and_Provide_975
 
 Decide on the metric of your offering \(e.g. users, documents, space\) and map the metric of your offering to the service plan of the ABAP environment service plan.
 
-Implement the sizing via `abap_compute_unit` and `hana_compute_unit` parameters in the ABAP Solution Provider.
-
-See [Developing Multitenant Applications in the ABAP Environment](Developing_Multitenant_Applications_in_the_ABAP_Environment_195031f.md).
-
 > ### Note:  
 > For multitenancy offerings, there is no sizing/quota per customer \(client\). You must decide on an overall sizing depending on the expected load in a region \(e.g. Europe/Frankfurt\).
 
@@ -450,7 +446,7 @@ Determine the number of ABAP compute units and HANA compute units for the creati
 <tr>
 <td valign="top">
 
-SaaS registry. See [Multitenant Application](Order_and_Provide_975bd3e.md#loiof3305f65648248318028e02c84375323).
+Implement and deploy multitenant application. See [Multitenant Application](Order_and_Provide_975bd3e.md#loiof3305f65648248318028e02c84375323).
 
 
 
@@ -568,7 +564,7 @@ Subscribe to the SaaS solution. See [Subscribe to SaaS Solution](Order_and_Provi
 <tr>
 <td valign="top">
 
-Configure consumer subaccount. See [Configure Consumer Subaccount \(Feature Set A\)](Order_and_Provide_975bd3e.md#loio3c44b19161d742a5a96576d64e70d505).
+Configure consumer subaccount. See [Configure Consumer Subaccount \(Feature Set A\)](Order_and_Provide_975bd3e.md#loio3c44b19161d742a5a96576d64e70d505) and [Configure Consumer Subaccount \(Feature Set B\)](Order_and_Provide_975bd3e.md#loio6301a275af664613a51147e3451386e6).
 
 
 

@@ -6,7 +6,7 @@ SAP BTP offers two types of global accounts: Trial accounts \(completely free of
 
 A **global account** is the realization of a contract you made with SAP. A global account is used to manage subaccounts, members, entitlements and quotas. You receive entitlements and quotas to use platform resources per global account and then distribute the entitlements and quotas to the subaccount for actual consumption. There are two types of global accounts: enterprise accounts \(paid, unless you only use free tier service plans\) and trial accounts \(free\).
 
--   [Trial Accounts and Free Tier](../10-concepts/Trial_Accounts_and_Free_Tier_046f127.md)
+-   [Trial Accounts](../10-concepts/Trial_Accounts_046f127.md)
 
 -   [Enterprise Accounts](../10-concepts/Enterprise_Accounts_171511c.md)
 
@@ -32,7 +32,7 @@ Get a trial account to experience SAP BTP for free and gain access to a comprehe
 > ### Restriction:  
 > There’s currently no trial account available for SAP BTP in the China \(Shanghai\) region.
 
-Trial accounts are intended for personal exploration, and not for production use or team development. They allow restricted use of the platform resources and services. For more information about the scope of our trial offering, see [Trial Accounts and Free Tier](../10-concepts/Trial_Accounts_and_Free_Tier_046f127.md).
+Trial accounts are intended for personal exploration, and not for production use or team development. They allow restricted use of the platform resources and services. For more information about the scope of our trial offering, see [Trial Accounts](../10-concepts/Trial_Accounts_046f127.md).
 
 
 
@@ -82,7 +82,7 @@ Trial accounts are intended for personal exploration, and not for production use
 
 To use an enterprise account, you can either purchase a customer account, join the partner program to purchase a partner account, or self-register for an enterprise account to try out free tier service plans.
 
-For more information about the scope of our enterprise offering, see [Enterprise Accounts](../10-concepts/Enterprise_Accounts_171511c.md). For more information about free tier within an enterprise account, see [Trial Accounts and Free Tier](../10-concepts/Trial_Accounts_and_Free_Tier_046f127.md) and [Using Free Service Plans](../10-concepts/Using_Free_Service_Plans_524e108.md).
+For more information about the scope of our enterprise offering, see [Enterprise Accounts](../10-concepts/Enterprise_Accounts_171511c.md). For more information about free tier within an enterprise account, see [Trial Accounts](../10-concepts/Trial_Accounts_046f127.md) and [Using Free Service Plans](../10-concepts/Using_Free_Service_Plans_524e108.md).
 
 **Related Information**  
 

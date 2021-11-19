@@ -67,20 +67,20 @@ For more information about authorization control, see [Authorization Control](ht
     >                  WITH CORRESPONDING #( it_bonus_calc_keys )
     >              RESULT DATA(lt_bonus_calcs).
     > 
-    > *     fill result list with authorizations per bonus calculation
+    > "     fill result list with authorizations per bonus calculation
     >     LOOP AT lt_bonus_calcs INTO DATA(ls_bonus_calc).
     > 
-    > *       check update authorization for bonus calculation incl. bonus variant dependency
+    > "       check update authorization for bonus calculation incl. bonus variant dependency
     >       AUTHORITY-CHECK OBJECT 'ZBNSCLC_AO' ID 'ACTVT' FIELD '02' ID 'ZBNS_VARNT' FIELD ls_bonus_calc-bonusvariant.
-    > *       set variable for update authorization
+    > "       set variable for update authorization
     >       DATA(lv_update_allowed) = COND #( WHEN sy-subrc = 0 THEN if_abap_behv=>auth-allowed ELSE if_abap_behv=>auth-unauthorized ).
     > 
-    > *       check delete authorization for bonus calculation incl. bonus variant dependency
+    > "       check delete authorization for bonus calculation incl. bonus variant dependency
     >       AUTHORITY-CHECK OBJECT 'ZBNSCLC_AO' ID 'ACTVT' FIELD '06' ID 'ZBNS_VARNT' FIELD ls_bonus_calc-bonusvariant.
-    > *       set variable for delete authorization
+    > "       set variable for delete authorization
     >       DATA(lv_delete_allowed) = COND #( WHEN sy-subrc = 0 THEN if_abap_behv=>auth-allowed ELSE if_abap_behv=>auth-unauthorized ).
     > 
-    > *       fill result list
+    > "       fill result list
     >       APPEND VALUE #( id = ls_bonus_calc-id %update = lv_update_allowed %delete = lv_delete_allowed ) TO result.
     >     ENDLOOP.
     > 

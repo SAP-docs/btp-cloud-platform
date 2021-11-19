@@ -34,7 +34,7 @@ The extension capabilities of SAP BTP provide a standard way for extending SAP s
 -   Central catalog per customer for all connected SAP systems where data such as APIs, events, credentials and other is stored. You can benefit from business services and actionable events across end-to-end business processes.
 
 
-If you have to group the systems of different SAP solutions in the same business case, you can set up the connectivity between all these systems and a global account in SAP BTP in a single formation in the SAP BTP cockpit. See [Assigning SAP Systems to a Formation](Assigning_SAP_Systems_to_a_Formation_68b04fa.md).
+If you have to group the systems of different SAP solutions in the same business case, you can set up the connectivity between all these systems and a global account in SAP BTP in a single formation in the SAP BTP cockpit. See [Including SAP Systems in a Formation](Including_SAP_Systems_in_a_Formation_68b04fa.md).
 
 The following SAP solutions currently support the automated configurations:
 

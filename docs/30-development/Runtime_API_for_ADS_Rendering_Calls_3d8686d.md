@@ -239,18 +239,18 @@ Trace string
 > ```
 > 
 > TRY.
-> * Simple render pdf
->     cl_fp_ads_util=>render_pdf( EXPORTING iv_xml_data      = gv_xml_data 
->                                           iv_xdp_layout    = gv_xdp
+> *Render PDF
+>     cl_fp_ads_util=>render_pdf( EXPORTING iv_xml_data      = lv_xml_data
+>                                           iv_xdp_layout    = lv_xdp
 >                                           iv_locale        = 'de_DE'
->                                           is_options       = lv_options
+>                                           is_options       = ls_options
 >                                 IMPORTING ev_pdf           = ev_pdf
 >                                           ev_pages         = ev_pages
 >                                           ev_trace_string  = ev_trace_string
 >                                           ).
->   CATCH cx_fp_ads_util INTO lx_fp_ads_util.
 > 
->   ENDTRY.
+>   CATCH cx_fp_ads_util INTO lx_fp_ads_util.    
+> ENDTRY.
 > 
 > ```
 
@@ -438,18 +438,20 @@ Trace string
 > ```
 > 
 > TRY.
->     cl_fp_ads_util=>render_4_pq( EXPORTING iv_xml_data      = gv_xml_data
->                                            iv_xdp_layout    = gv_xdp
->                                            iv_locale        = 'en_US'
->                                            iv_pq_name       = 'PQ1'
->                                            is_options       = lv_options
->                                  IMPORTING ev_pdl           = ev_pdl
->                                            ev_pages         = ev_pages
->                                            ev_trace_string  = ev_trace_string
->                                            ).
->     CATCH cx_fp_ads_util INTO lx_fp_ads_util.
+> *Render in Print Queue Format
+>     cl_fp_ads_util=>render_pdf( EXPORTING iv_xml_data      = lv_xml_data
+>                                           iv_xdp_layout    = lv_xdp
+>                                           iv_locale        = 'en_US'
+>                                           iv_pq_name       = 'PQ1'
+>                                           is_options       = ls_options
 > 
->     ENDTRY.
+>                                 IMPORTING ev_pdf           = ev_pdf
+>                                           ev_pages         = ev_pages
+>                                           ev_trace_string  = ev_trace_string
+>                                           ).
+> 
+>   CATCH cx_fp_ads_util INTO lx_fp_ads_util.
+> ENDTRY.
 > 
 > ```
 
