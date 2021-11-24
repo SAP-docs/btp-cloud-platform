@@ -10,7 +10,7 @@ Set up the Cloud Connector to enable communication from the ABAP environment to 
 
 ## Concept
 
-For each subaccount, both a default Connectivity und Destination service instance are set up automatically in the SAP provider account. Using these default instances, you only need to configure the required destinations on subaccount level to enable communication to your on-premise systems.
+For each subaccount, both a default Connectivity and Destination service instance are set up automatically in the SAP provider account. Using these default instances, you only need to configure the required destinations on subaccount level to enable communication to your on-premise systems.
 
 In this default scenario, you must connect the Cloud Connector to and configure trust for your Cloud Foundry subaccount as described in [SAP BTP Connectivity: Cloud Connector](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e6c7616abb5710148cfcf3e75d96d596.html).
 
