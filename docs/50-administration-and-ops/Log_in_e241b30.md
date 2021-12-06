@@ -13,7 +13,7 @@ Log in with the btp CLI is on global account level.
 -   Your global account is on feature set B. See [Cloud Management Tools — Feature Set Overview](../10-concepts/Cloud_Management_Tools_—_Feature_Set_Overview_caf4e4e.md).
 -   You have the subdomain of your global account ready. You can find it in the cockpit in the global account view or under *Switch Global Account*.
 
--   You have the CLI server URL ready: `https://cpcli.cf.eu10.hana.ondemand.com` . This URL is proposed by the CLI at login - you can accept it with [ENTER\]. Only if your operator has provided you with a different server URL, you'll have to enter that one.
+-   You have the CLI server URL: `https://cpcli.cf.eu10.hana.ondemand.com` . Only if your operator has provided you with a different server URL, you'll have to enter this.
 
 
 
@@ -72,7 +72,7 @@ Alternatively, you can also log in with single sign-on directly at your identity
      ![](images/cli_subdomain_dc4961c.png) 
 
     > ### Note:  
-    > If you don't find the subdomain of the global account in your cockpit, ensure that you’re using a global account on SAP BTP feature set B. See [Cloud Management Tools — Feature Set Overview](../10-concepts/Cloud_Management_Tools_—_Feature_Set_Overview_caf4e4e.md).
+    > If you don't find the subdomain of the global account in your cockpit, your global accoiunt is probably not on SAP BTP feature set B, which means you cannot access it with the btp CLI. See [Cloud Management Tools — Feature Set Overview](../10-concepts/Cloud_Management_Tools_—_Feature_Set_Overview_caf4e4e.md).
 
 
     
@@ -147,14 +147,14 @@ Alternatively, you can also log in with single sign-on directly at your identity
 
 Upon successful login, the btp CLI creates a folder \(`btp`\) and a configuration file \(`config.json`\) in the default location of your user data directory:
 
--   Microsoft Windows: `C:\Users\*<username\>*\AppData\Local\SAP\btp\config.json`
+-   Microsoft Windows: `C:\Users\*<username\>*\AppData\Roaming\SAP\btp\config.json`
 
--   Apple macOS ; `~/Library/Caches/.btp/config.json`
+-   Apple macOS ; `~/Library/Application Support/.btp/config.json`
 
--   Linux: `~/.cache/.btp/config.json`
+-   Linux: `~/.config/.btp/config.json`
 
-    To change this location, use the `SAPCP_CLIENTCONFIG` environment variable or the `--config` option, which you can append to each command call. See [Specify the Location of the Configuration File](Specify_the_Location_of_the_Configuration_File_e57288d.md).
 
+To change this location, use the `--config` option or the environmnet variable. See [Specify the Location of the Configuration File](Specify_the_Location_of_the_Configuration_File_e57288d.md).
 
 > ### Tip:  
 > You’ve logged in to the global account and all commands are executed in the context of this global account. To change this default context for subsequent commands to a subaccount or directory of this global account, use `btp target`. See [Set the Default Command Context](Set_the_Default_Command_Context_720645a.md).
@@ -162,7 +162,7 @@ Upon successful login, the btp CLI creates a folder \(`btp`\) and a configuratio
 **Related Information**  
 
 
-[Get Help](Get_Help_f8fd1e5.md "Get help in the btp CLI with the --help option.")
+[Get Help](Get_Help_f8fd1e5.md "There is extensive help in the btp CLI about every command. You can get help with the help action or the --help option.")
 
 [View Version and Current Context](View_Version_and_Current_Context_9c29222.md "To find out the current context you’re working in, run the command btp --info or simply btp.")
 
@@ -174,7 +174,7 @@ Upon successful login, the btp CLI creates a folder \(`btp`\) and a configuratio
 
 [Change the Output Format to JSON](Change_the_Output_Format_to_JSON_dcb85b7.md "Use the --format json option to change the output format of a command to JSON.")
 
-[Specify the Location of the Configuration File](Specify_the_Location_of_the_Configuration_File_e57288d.md "You can change the location of the configuration file by using the --config option.")
+[Specify the Location of the Configuration File](Specify_the_Location_of_the_Configuration_File_e57288d.md "You can change the location of the configuration file by using the --config option or the environment variable.")
 
 [Commands in the btp CLI](Commands_in_the_btp_CLI_a03a555.md "A list of all tasks and respective commands that are available in the SAP BTP command line interface (btp CLI).")
 

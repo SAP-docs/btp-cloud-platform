@@ -2,19 +2,19 @@
 
 # Specify the Location of the Configuration File
 
-You can change the location of the configuration file by using the `--config` option.
+You can change the location of the configuration file by using the `--config` option or the environment variable.
 
 
 
 ## Context
 
-Upon successful login, the btp CLI creates a folder \(`btp`\) and a configuration file \(`config.json`\) in the default location of your user data directory:
+Upon successful login, the btp CLI creates a configuration file \(`config.json`\) in the default location of your user config directory:
 
--   Microsoft Windows: `C:\Users\*<username\>*\AppData\Local\SAP\btp\config.json`
+-   Microsoft Windows: `C:\Users\*<username\>*\AppData\Roaming\SAP\btp\config.json`
 
--   Apple macOS ; `~/Library/Caches/.btp/config.json`
+-   Apple macOS ; `~/Library/Application Support/.btp/config.json`
 
--   Linux: `~/.cache/.btp/config.json`
+-   Linux: `~/.config/.btp/config.json`
 
 
 This folder serves as the working directory of the btp CLI, that is, it’s necessary for its proper functioning, and is used with each command execution.
@@ -31,12 +31,15 @@ If you want the configuration file to be created in a different folder, you can 
     `btp --config "*<file path\>*" login`
     ```
 
-2.  Specify this location either with the `SAPCP_CLIENTCONFIG` environment variable, or use the `--config` option with each subsequent command call.
+2.  Specify this location either with the `BTP_CLIENTCONFIG` environment variable, or use the `--config` option with each subsequent command call.
 
     > ### Sample Code:  
     > ```
     > `btp --config "*<file path\>*"`
     > ```
+
+    > ### Note:  
+    > In version 2.14, the environment variable `BTP_CLIENTCONFIG` was introduced. If you use an older client version, you need to use `SAPCP_CLIENTCONFIG`. Although the old one is kept, we recommend to switch to `BTP_CLIENTCONFIG`.
 
 
 
@@ -142,7 +145,7 @@ btp --config "C:\my-cli-folder" list security/user
 **Related Information**  
 
 
-[Get Help](Get_Help_f8fd1e5.md "Get help in the btp CLI with the --help option.")
+[Get Help](Get_Help_f8fd1e5.md "There is extensive help in the btp CLI about every command. You can get help with the help action or the --help option.")
 
 [View Version and Current Context](View_Version_and_Current_Context_9c29222.md "To find out the current context you’re working in, run the command btp --info or simply btp.")
 

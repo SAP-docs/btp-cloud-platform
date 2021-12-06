@@ -29,3 +29,5 @@ You can perform the following tasks:
 
 [Protecting Your Application](../30-development/Protecting_Your_Application_7c5c565.md "Developers create authorization information for business users in their environment; this information is deployed in an application and made available to administrators who complete the authorization setup and assign the authorizations to business users.")
 
+[Working with Role Collections](Working_with_Role_Collections_393ea0b.md "You can manage role collections by creating new ones from scratch or by copying an existing one and editing it. You can add or remove roles. You can also add or remove users or user groups to the role collections. This is the assignment or unassignment action. You can drill down all the way to the role definition or to the individual role, user, and user group, and make changes there.")
+

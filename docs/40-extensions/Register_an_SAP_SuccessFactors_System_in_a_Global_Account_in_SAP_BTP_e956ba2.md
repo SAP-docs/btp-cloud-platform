@@ -16,20 +16,26 @@ To connect an SAP SuccessFactors system with a global account in SAP BTP, you ne
 
 -   You have a dedicated SAP SuccessFactors company instance.
 
--   SAP SuccessFactors, First Half 2021 Release, you need a user with permissions to access SAP SuccessFactors Provisioning to configure the integration on the SAP SuccessFactors system side.
-
--   For SAP SuccessFactors, Second Half 2021 Release or later, you need a user with permissions to access *Extension Center* in SAP SuccessFactors Admin Center that include:
+-   You have a user with permissions to access *Extension Center* in SAP SuccessFactors Admin Center that include:
 
     -   *Configure Object Definitions* and *Admin Access to MDF OData API* permissions from the *Metadata Framework* category
 
     -   *Create Integration with SAP BTP* permission from the *Manage Extensions on SAP BTP* category
 
 
-    See:
+    To assign these permissions to your user, you might need the help of an administrator.
 
-    -   [Permission to Access Admin Center](https://help.sap.com/viewer/6c9f794920b947648737d914a669f195/latest/en-US/83c5a81ecd51478db1dcc23835f80339.html)
+    To get a user with the respective permissions, follow these steps:
 
-    -   [Role-Based Permissions for Extension Center](https://help.sap.com/viewer/d4a86924740742048029a71b1d674130/latest/en-US/9c61e2ba02a145069fd1f7d8bcfc4455.html)
+    1.  Make sure you have an access to the SAP SuccessFactors Admin Center. See [Permission to Access Admin Center](https://help.sap.com/viewer/6c9f794920b947648737d914a669f195/latest/en-US/83c5a81ecd51478db1dcc23835f80339.html).
+
+    2.  Add your user to an already existing group or create a new dedicated group and add your user. See [Creating Dynamic Permission Groups](https://help.sap.com/viewer/b569eee64d3f4159b2b5272ba7d6b127/LATEST/en-US/6adf50f40a86406a917a54ce7fd2131b.html).
+
+    3.  Use an already existing role or create a new dedicated role. See [Creating Permission Roles](https://help.sap.com/viewer/b569eee64d3f4159b2b5272ba7d6b127/LATEST/en-US/6d8998d9504843a58fe299ff6935a268.html).
+
+    4.  Assign the respective permissions to your role. See [Assigning Permissions to a Role](https://help.sap.com/viewer/b569eee64d3f4159b2b5272ba7d6b127/LATEST/en-US/f412b2160c2348b8b357fb3f6290d4b8.html).
+
+    5.  Add your role to the dedicated group. See [Assigning Roles to Groups](https://help.sap.com/viewer/b569eee64d3f4159b2b5272ba7d6b127/LATEST/en-US/fbaadf758e00485893d6f099e9f342fa.html).
 
 
 
@@ -37,7 +43,7 @@ To connect an SAP SuccessFactors system with a global account in SAP BTP, you ne
 
 ## Context
 
-The registration process is based on an integration token that is used for the pairing of the SAP SuccessFactors company and the corresponding SAP BTP global account. You create the token in the global account, and then start the automated registration process on the SAP SuccessFactors company side using this token.
+The registration process is based on an integration token that is used for the pairing of the SAP SuccessFactors company and the corresponding global account in SAP BTP. You create the token in the global account, and then start the automated registration process on the SAP SuccessFactors company side using this token.
 
 The registration process has the following states displayed in the SAP BTP cockpit:
 
@@ -71,14 +77,7 @@ The registration process has the following states displayed in the SAP BTP cockp
     3.  Choose *Register*.
 
 
-    The cloud platform generates an integration token that is used for triggering the automated integration on the SAP SuccessFactors company side.
-
-    > ### Note:  
-    > To use the token:
-    > 
-    > -   For SAP SuccessFactors, Second Half 2021 Release or later, you need a user with access to Extension Center.
-    > 
-    > -   For SAP SuccessFactors, First Half 2021 Release, you need a user with access to SAP SuccessFactors Provisioning.
+    The cloud platform generates an integration token that is used for triggering the automated integration on the SAP SuccessFactors company side. To use the token, you need a user with access to Extension Center.
 
 4.  Copy the integration token. The token is required for configuring the integration on the SAP SuccessFactors company side.
 
@@ -97,34 +96,19 @@ The registration process has the following states displayed in the SAP BTP cockp
 
 7.  Start the automated integration process on the SAP SuccessFactors company side:
 
-    -   SAP SuccessFactors, Second Half 2021 Release or later, proceed as follows:
-        1.  In SAP SuccessFactors *Admin Center*, navigate to *Extension Center*.
+    > ### Note:  
+    > If you do not have permissions to access the Extension Center for the corresponding SAP SuccessFactors system, you need to send the integration token to a user with such permissions who will configure the integration on the SAP SuccessFactors system side. For the requires permissions, check the prerequisites.
 
-            If you do not have permissions to access the Extension Center for the corresponding SAP SuccessFactors system, you need to send the integration token to a user with such permissions who will configure the integration on the SAP SuccessFactors system side.
+    1.  In SAP SuccessFactors *Admin Center*, navigate to *Extension Center*.
 
-        2.  On the *Extensions on SAP BTP* tab page, navigate to the *Add Integration with SAP BTP* screen area, and paste the integration token in the *Integration Token* input field.
+    2.  On the *Extensions on SAP BTP* tab page, navigate to the *Add Integration with SAP BTP* screen area, and paste the integration token in the *Integration Token* input field.
 
-        3.  Choose *Add*.
-
-            The system appears in the integration list in the *Multi-Cloud Environment* screen area, and the status of the integration is displayed in the *Integration Status* column. To refresh the status of the process, choose the *Check Status* icon. Wait for the integration to finish.
+    3.  Choose *Add*.
 
 
-    -   SAP SuccessFactors, First Half 2021 Release, proceed as follows:
-        1.  Open SAP SuccessFactors Provisioning.
+    The system appears in the integration list in the *Multi-Cloud Environment* screen area, and the status of the integration is displayed in the *Integration Status* column. To refresh the status of the process, choose the *Check Status* icon. Wait for the integration to finish.
 
-            If you do not have permissions to access SAP SuccessFactors Provisioning for the corresponding SAP SuccessFactors system, you need to send the integration token to a user with such permissions who will configure the integration on the SAP SuccessFactors system side.
-
-        2.  In the *List of Companies*, choose your SAP SuccessFactors company.
-
-        3.  In the *Edit Company Settings* section, choose *Extension Management Configuration*.
-
-        4.  In the *Integration Token* input field, paste the integration token.
-
-        5.  Choose *Add*.
-
-            Wait for the integration to finish. You can check the status of the process with the *Check Status* button next to your system name.
-
-
+    ![](images/Configure_Integration_in_the_Extension_Center_42b1105.png)
 
 8.  In the cockpit, check the status of the registration process. To do so, navigate to your global account, and on the *Systems* page, check if the status of the SAP System has changed to *Registered*.
 

@@ -94,7 +94,7 @@ btp list --format json accounts/subaccount
 **Related Information**  
 
 
-[Get Help](Get_Help_f8fd1e5.md "Get help in the btp CLI with the --help option.")
+[Get Help](Get_Help_f8fd1e5.md "There is extensive help in the btp CLI about every command. You can get help with the help action or the --help option.")
 
 [View Version and Current Context](View_Version_and_Current_Context_9c29222.md "To find out the current context you’re working in, run the command btp --info or simply btp.")
 
@@ -106,5 +106,5 @@ btp list --format json accounts/subaccount
 
 [Set the Default Command Context](Set_the_Default_Command_Context_720645a.md "Change the default context for all command calls to the global account, a directory, or a subaccount by using the btp target command.")
 
-[Specify the Location of the Configuration File](Specify_the_Location_of_the_Configuration_File_e57288d.md "You can change the location of the configuration file by using the --config option.")
+[Specify the Location of the Configuration File](Specify_the_Location_of_the_Configuration_File_e57288d.md "You can change the location of the configuration file by using the --config option or the environment variable.")
 

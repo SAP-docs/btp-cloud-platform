@@ -253,7 +253,7 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     [-u *<URL\>*] [-t *<TIMEOUT\>*] [-v *<VERSION\_RULE\>*]
     [--no-start] [--namespace]
     [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
-    [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions]`
+    [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]`
     ```
 
 -   **Deployment using an URL to the MTA archive**
@@ -265,7 +265,7 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     [-u *<MTA controller URL\>*] [-t *<TIMEOUT\>*] [-v *<VERSION\_RULE\>*]
     [--no-start] [--namespace]
     [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
-    [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions]`
+    [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]`
     ```
 
     > ### Note:  
@@ -284,7 +284,7 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     [-u *<URL\>*] [-t *<TIMEOUT\>*] [-v *<VERSION\_RULE\>*]
     [--no-start] [--namespace]
     [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
-    [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions]`
+    [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]`
     ```
 
 
@@ -726,15 +726,14 @@ Check the archive signature by verifying that:
 
 `*--strategy*`
 
-> ### Note:  
-> This option is currently experimental.
-
 
 
 </td>
 <td valign="top">
 
 Announce to the platform a special deployment approach, for example when performing a “blue-green” deployment. See [Blue-Green Deployment Strategy](../30-development/Blue-Green_Deployment_Strategy_7c83810.md).
+
+Using this option, you will not be asked to manually confirm the deletion of the older version of the MTA applications. This means that the deployment process is performed without any interruptions and you are not prompted to confirm the switch of routes to the new version of the MTA applications.
 
 
 
@@ -745,15 +744,17 @@ Announce to the platform a special deployment approach, for example when perform
 
 `*--skip-testing-phase*`
 
-> ### Note:  
-> This option is currently experimental.
-
 
 
 </td>
 <td valign="top">
 
-When using the *--strategy* option for “blue-green” deployment, you can choose to skip the phase for testing the correct operation of the application using productive data.
+When using the *--strategy* option for “blue-green”, you can choose to skip the phase for testing and you will not be asked to manually confirm the deletion of the older version of the MTA applications. The deployment process is performed without any interruptions and you are not prompted to confirm the switch of routes to the new version of the MTA applications.
+
+> ### Note:  
+> This option is equivalent to *--no-confrim* from “bg-deploy”.
+
+Note
 
 
 
@@ -773,6 +774,25 @@ When using the *--strategy* option for “blue-green” deployment, you can choo
 <td valign="top">
 
 Namespace for the MTA. They are also applied to the application and service names. For more information, see [\(Experimental\) Namespaces](../30-development/(Experimental)_Namespaces_b28fd77.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*--skip-idle-start*
+
+> ### Note:  
+> This option is currently experimental.
+
+
+
+</td>
+<td valign="top">
+
+When using the *--strategy* option for “blue-green”, you can choose to skip the starting of the newly deployed applications on idle routes. This means that the newly deployed applications will be mapped directly to live routes. Under the hood this option includes *--skip-testing-phase*.
 
 
 
@@ -813,7 +833,7 @@ Deploy a new Multitarget Application using “blue-green” deployment:
 [-u *<URL\>*] [-t *<TIMEOUT\>*] [-v *<VERSION\_RULE\>*]
 [--no-start] [--use-namespaces] [--no-namespaces-for-services]
 [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
-[--keep-files] [--no-restart-subscribed-apps] [--no-confirm] [--do-not-fail-on-missing-permissions]`
+[--keep-files] [--no-restart-subscribed-apps] [--no-confirm] [--do-not-fail-on-missing-permissions][--skip-idle-start]`
 ```
 
 Interact with an active MTA deploy operation, for example, by performing an action:
@@ -1275,6 +1295,25 @@ Check the archive signature by verifying that:
 
 > ### Example:  
 > ***cf bg-deploy <mtar\_name\> --verify-archive-signature***
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*--skip-idle-start*
+
+> ### Note:  
+> This option is currently experimental.
+
+
+
+</td>
+<td valign="top">
+
+You can choose to skip the starting of the newly deployed applications on idle routes. This means that the newly deployed applications will be mapped directly to live routes. Under the hood this option includes *--no-confirm*.
 
 
 

@@ -45,7 +45,14 @@ You have a previously deployed MTA, with functional productive applications and 
         > ```
 
 
-2.  Optionally, test the “green” version using the temporary routes. You can skip this step using the command line option `--no-confirm` when starting the process.
+2.  Optionally, test the “green” version using the temporary routes.
+
+    > ### Note:  
+    > You can skip this step by using one of the following command line options:
+    > 
+    > -   *--no-confirm* - you have to use it when starting the process.
+    > 
+    > -   *--skip-idle-start* - this option will also skip the start of the newly deployed applications on temporary routes.
 
 3.  If you do not want to make the “green” version available, abort the process using `cf deploy -i <operation ID> -a abort`.
 

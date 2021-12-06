@@ -55,7 +55,14 @@ You have a previously deployed MTA, with functional productive applications and 
         > ```
 
 
-2.  Optionally, test the idle version of the application using the temporary routes. You can skip this step using the command line option ***--skip-testing-phase*** when starting the process.
+2.  Optionally, test the idle version of the application using the temporary routes.
+
+    > ### Note:  
+    > You can skip this step by using one of the following command line options:
+    > 
+    > -   *--skip-testing-phase* - you have to use it when starting the process.
+    > 
+    > -   *--skip-idle-start* - this option will also skip the start of the newly deployed applications on idle routes.
 
 3.  If you do not want to make the “idle” version available, abort the process using cf deploy ***-i <operation ID\> -a abort***.
 

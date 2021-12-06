@@ -68,7 +68,7 @@ The first thing that is needed in the setup of your trial account is the creatio
     </td>
     <td valign="top">
 
-    Optional
+    \(Optional\) Any text that describes your subaccount
 
 
     
@@ -127,16 +127,14 @@ The first thing that is needed in the setup of your trial account is the creatio
     <tr>
     <td valign="top">
 
-    **Enable beta features**
+    **\[Advanced\] Enable beta features**
 
 
     
     </td>
     <td valign="top">
 
-    Optional
-
-    Enables the use of beta services and applications.
+    \(Optional\) Enables the use of beta services and applications.
 
 
     
@@ -145,16 +143,14 @@ The first thing that is needed in the setup of your trial account is the creatio
     <tr>
     <td valign="top">
 
-    **Custom Properties**
+    **\[Advanced\] Labels**
 
 
     
     </td>
     <td valign="top">
 
-    Optional
-
-    You can use custom properties to identify and organize the subaccounts in your global account. For example, you can filter subaccounts by custom property in some cockpit pages.
+    \(Optional\) You can assign labels to help identify and organize the subaccounts in your global account. For example, you can filter subaccounts by custom property in the *Account Explorer* page. See [Labels \[Feature Set B\]](../10-concepts/Account_Model_8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
 
 
     

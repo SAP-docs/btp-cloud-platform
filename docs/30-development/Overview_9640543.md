@@ -32,6 +32,13 @@ Description
 
 
 </th>
+<th valign="top">
+
+User/Role
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top" rowspan="7">
@@ -60,6 +67,13 @@ A namespace is mandatory and must be reserved at [https://support.sap.com/namesp
 
 
 </td>
+<td valign="top">
+
+S-user
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -82,6 +96,13 @@ Required entitlements:
 
 
 See [SAPPartnerEdge Test, Demo and Development Price List](https://partneredge.sap.com/en/library/assets/partnership/sales/order_license/pl_pl_part_price_list.html).
+
+
+
+</td>
+<td valign="top">
+
+Operator
 
 
 
@@ -118,6 +139,13 @@ See [SAPPartnerEdge: Resources for OEM Partners](https://partneredge.sap.com/en/
 
 
 </td>
+<td valign="top">
+
+Operator
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -142,6 +170,13 @@ See [Getting Started with a Customer Account: Workflow in the ABAP Environment](
 
 
 </td>
+<td valign="top">
+
+Operator
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -154,6 +189,13 @@ Set up UI development. See [Set Up UI Development](Develop,_Test,_Build_3bf575a.
 <td valign="top">
 
 Configure SAP Business Application Studio for UI development. Decide on your UI/SAP SAP Fiori launchpad setup and deployment model: ABAP or Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Operator
 
 
 
@@ -178,6 +220,13 @@ Plan and set up your test and maintenance system landscape and processes.
 
 
 </td>
+<td valign="top">
+
+Add-on administrator
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -190,6 +239,13 @@ Set up add-on development. [Set Up Add-On Development](Develop,_Test,_Build_3bf5
 <td valign="top">
 
 Create a new software component for add-on development and clone the main branch of the software component to the development and test system.
+
+
+
+</td>
+<td valign="top">
+
+Add-on administrator
 
 
 
@@ -219,6 +275,13 @@ See [Development Guideline to Enable Multitenancy of Products Built on the ABAP 
 
 
 </td>
+<td valign="top">
+
+Developer
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -231,6 +294,13 @@ UI development. See [UI Development](Develop,_Test,_Build_3bf575a.md#loiof3be824
 <td valign="top">
 
 Develop UIs using SAP Business Application Studio. See [Develop an SAP Fiori Application UI and Deploy it to ABAP Using SAP Business Application Studio](Develop_an_SAP_Fiori_Application_UI_and_Deploy_it_to_ABAP_Using_SAP_Business_Application_Studio_eaaeba4.md).
+
+
+
+</td>
+<td valign="top">
+
+Developer
 
 
 
@@ -249,6 +319,13 @@ Develop UIs using SAP Business Application Studio. See [Develop an SAP Fiori App
 Migrate your ABAP code from on-premise.
 
 See [Blog: How to bring your ABAP custom to the ABAP Environment](https://blogs.sap.com/2019/11/11/how-to-bring-your-abap-custom-code-to-sap-cloud-platform-abap-environment/) and [Blog: How to check your custom ABAP code for the ABAP Environment](https://blogs.sap.com/2018/10/02/how-to-check-your-custom-abap-code-for-sap-cloud-platform-abap-environment/).
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 
@@ -278,6 +355,13 @@ Create a role and assign it to users, then execute the service and UI.
 
 
 </td>
+<td valign="top">
+
+Test user
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -292,6 +376,13 @@ ABAP Test Cockpit. See [Test in the ABAP Test Cockpit](Develop,_Test,_Build_3bf5
 Run ATC checks in DEV and/or TST systems.
 
 See [ABAP Test Cockpit in the Cloud – What is already possible](https://blogs.sap.com/2020/08/14/abap-test-cockpit-in-the-cloud-what-is-already-possible/) and [ABAP Test Cockpit Configurator](../50-administration-and-ops/ABAP_Test_Cockpit_Configurator_22c26ff.md).
+
+
+
+</td>
+<td valign="top">
+
+Developer
 
 
 
@@ -331,6 +422,16 @@ Register the add-on product/global production account by creating an incident un
 
 
 </td>
+<td valign="top">
+
+-   Jenkins administrator for access to CI/CD Server
+-   S-user to create technical communication user and customer incident for add-on registration
+-   Operator to assign technical platform user as Space Developer
+-   DevOps engineer to configure the pipeline
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -347,6 +448,13 @@ Create a maintenance branch.
 Configure the add-on .yml file.
 
 Trigger the add-on product build/test/release.
+
+
+
+</td>
+<td valign="top">
+
+Add-on administrator to create maintenance branch, configure addon.yml file, and trigger build pipeline
 
 
 
@@ -384,9 +492,16 @@ Description
 
 
 </th>
+<th valign="top">
+
+User/Role
+
+
+
+</th>
 </tr>
 <tr>
-<td valign="top" rowspan="5">
+<td valign="top" rowspan="3">
 
 [Deploy](Order_and_Provide_975bd3e.md#loio4e35eb027f284b7fa6219bc70561fb4e)
 
@@ -395,7 +510,7 @@ Description
 </td>
 <td valign="top">
 
-Configure the sizing of the SaaS application. See [Sizing](Order_and_Provide_975bd3e.md#loio1782f253e102484dac378887b3d6d769).
+Configure the sizing of the SaaS application. See [Sizing](Sizing_1782f25.md#loio1782f253e102484dac378887b3d6d769).
 
 
 
@@ -406,6 +521,17 @@ Decide on the metric of your offering \(e.g. users, documents, space\) and map t
 
 > ### Note:  
 > For multitenancy offerings, there is no sizing/quota per customer \(client\). You must decide on an overall sizing depending on the expected load in a region \(e.g. Europe/Frankfurt\).
+> 
+> As a DevOps engineer using parameter tenant\_mode in the ABAP Solution service, you can define whether a customer gets a tenant in a dedicated system \(single\) or a shared system \(multi\).
+> 
+> Determine the number of ABAP compute units and HANA compute units for the creation of an ABAP system by using parameters `size_of_runtime` and `size_of_persistence`.
+
+
+
+</td>
+<td valign="top">
+
+DevOps engineer
 
 
 
@@ -414,39 +540,7 @@ Decide on the metric of your offering \(e.g. users, documents, space\) and map t
 <tr>
 <td valign="top">
 
-Set up multitenancy. See [Multitenancy](Order_and_Provide_975bd3e.md#loio6cb128101a6f40f3a8f234a1d9bb8b01).
-
-
-
-</td>
-<td valign="top">
-
-As a DevOps engineer using parameter tenant\_mode in the ABAP Solution service, you can define whether a customer gets a tenant in a dedicated system \(single\) or a shared system \(multi\).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Runtime and persistence. See [Runtime and Persistence](Order_and_Provide_975bd3e.md#loiobb8bc1e3c99145c79106ecafc73f5a4f).
-
-
-
-</td>
-<td valign="top">
-
-Determine the number of ABAP compute units and HANA compute units for the creation of an ABAP system by using parameters `size_of_runtime` and `size_of_persistence`.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Implement and deploy multitenant application. See [Multitenant Application](Order_and_Provide_975bd3e.md#loiof3305f65648248318028e02c84375323).
+Implement and deploy a multitenant application. See [Multitenant Application](Order_and_Provide_975bd3e.md#loiof3305f65648248318028e02c84375323).
 
 
 
@@ -456,6 +550,13 @@ Implement and deploy multitenant application. See [Multitenant Application](Orde
 Create the multitenant application with SaaS registry, XSUAA and ABAP Solution Provider subscription.
 
 See [Definition of the MTA Resources](Definition_of_the_MTA_Resources_1764436.md).
+
+
+
+</td>
+<td valign="top">
+
+DevOps engineer
 
 
 
@@ -474,6 +575,13 @@ Access to Landscape Portal. See [Access to Landscape Portal](Order_and_Provide_9
 Subscribe to the Landscape Portal application.
 
 See [Accessing the Landscape Portal](Accessing_the_Landscape_Portal_2e1e393.md).
+
+
+
+</td>
+<td valign="top">
+
+Operator
 
 
 
@@ -503,6 +611,13 @@ See [https://store.sap.com/en/](https://store.sap.com/en/).
 
 
 </td>
+<td valign="top">
+
+ 
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -517,6 +632,13 @@ See [https://store.sap.com/en/](https://store.sap.com/en/).
 Get an optional certification for your product.
 
 See [Certification](https://www.sap.com/documents/2016/10/7cf3eaec-907c-0010-82c7-eda71af511fa.html) and [Certified Solutions](https://www.sap.com/dmc/exp/2013_09_adpd/enEN/#/partners)
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 
@@ -544,6 +666,13 @@ Set the account structure for the consumer subaccount.
 
 
 </td>
+<td valign="top">
+
+Operator
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -556,6 +685,13 @@ Subscribe to the SaaS solution. See [Subscribe to SaaS Solution](Order_and_Provi
 <td valign="top">
 
  
+
+
+
+</td>
+<td valign="top">
+
+Operator
 
 
 
@@ -579,6 +715,13 @@ Configure customer subaccount.
 
 
 </td>
+<td valign="top">
+
+Consumer subaccount administrator
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -591,6 +734,13 @@ Initial User Onboarding. See [Initial User Onboarding](Order_and_Provide_975bd3e
 <td valign="top">
 
 Create an initial administrator user for the customer.
+
+
+
+</td>
+<td valign="top">
+
+Consumer subaccount administrator
 
 
 
@@ -628,6 +778,13 @@ Description
 
 
 </th>
+<th valign="top">
+
+User/Role
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top" rowspan="3">
@@ -653,6 +810,13 @@ Create spaces and pages for business roles.
 
 
 </td>
+<td valign="top">
+
+Business user
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -665,6 +829,13 @@ Integrate the customer project.
 <td valign="top">
 
 Create communication arrangements.
+
+
+
+</td>
+<td valign="top">
+
+Business user
 
 
 
@@ -683,6 +854,13 @@ Configure the customer project.
 Create business configuration.
 
 Configure key user extemsibility.
+
+
+
+</td>
+<td valign="top">
+
+Business user
 
 
 
@@ -720,6 +898,13 @@ Description
 
 
 </th>
+<th valign="top">
+
+User/Role
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top" rowspan="4">
@@ -743,6 +928,13 @@ Set up your test and maintenance system landscape and processes. See [Set Up Mai
 
 
 </td>
+<td valign="top">
+
+Operator
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -755,6 +947,15 @@ Create an update. See [Create Update for SaaS Solution](Maintain_9721f0f.md#loio
 <td valign="top">
 
 Create a new patch version, support package version, or release/product version.
+
+
+
+</td>
+<td valign="top">
+
+-   Add-on administrator to check out maintenance branch, import software components into test systems, configure addon.yml file
+-   Test user to verify changes in test systems
+-   Developer to implement update and double-maintenance
 
 
 
@@ -775,6 +976,13 @@ Trigger the execution of the configured ABAP environment pipeline for an add-on 
 
 
 </td>
+<td valign="top">
+
+Add-on administrator
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -789,6 +997,13 @@ Apply update for SaaS solution \(=add-on product\). See [Apply Update for SaaS S
 Deploy your add-on update by using the Landscape Portal.
 
 See [Landscape Portal](Landscape_Portal_5eb70fb.md).
+
+
+
+</td>
+<td valign="top">
+
+Operator
 
 
 
@@ -826,6 +1041,13 @@ Description
 
 
 </th>
+<th valign="top">
+
+User/Role
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top" rowspan="2">
@@ -849,6 +1071,13 @@ Unsubscribe the SaaS solution. See [Consumer Offboarding](Consumer_Offboarding_c
 
 
 </td>
+<td valign="top">
+
+Consumer subaccount administrator or operator using Subscription Management Dashboard
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -861,6 +1090,13 @@ Unsubscribe the SaaS solution. See [Consumer Offboarding](Consumer_Offboarding_c
 <td valign="top">
 
 Restore the deleted tenants within a grace period of 30 days. See [Consumer Offboarding](Consumer_Offboarding_c882a2a.md).
+
+
+
+</td>
+<td valign="top">
+
+Operator
 
 
 

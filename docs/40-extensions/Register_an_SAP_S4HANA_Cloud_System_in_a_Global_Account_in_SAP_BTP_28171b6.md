@@ -10,9 +10,7 @@ To connect an SAP S/4HANA Cloud system with a global account in SAP BTP, you nee
 
 ## Prerequisites
 
--   See
-
-    [Registering an SAP System](Registering_an_SAP_System_2ffdaff.md)
+-   See [Registering an SAP System](Registering_an_SAP_System_2ffdaff.md).
 
 -   You are an administrator of the global account where you want to register your SAP S/4HANA Cloud system.
 

@@ -104,7 +104,7 @@ See:
 <tr>
 <td valign="top">
 
-**Custom properties — NEW**
+**Labels — NEW**
 
 
 
@@ -120,14 +120,16 @@ See:
 
 Summary:
 
--   Label or tag subaccounts and directories
+-   Set labels for categorization and identification purposes
 -   Additional filtering options
 
-Custom properties allow you to label or tag your directories and subaccounts according to your own business and technical needs. This makes organizing and filtering your directories and subaccounts easier within your global account.
+Labels allow you to categorize your directories, subaccounts, multitenant application subscriptions, service instances, and environment instances so that you identify them more easily within your global account. For example, the *Account Explorer* and *Instances and Subscriptions* pages in the cockpit allow you search by label name or value.
 
-You create and assign custom properties when you create or edit a directory or subaccount. Using custom properties is optional.
+Labels are user-defined so you can apply them as you wish according to your own business and technical needs.
 
-See [Custom Properties \[Feature Set B\]](Account_Model_8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
+You can manage labels for the supported entities using the SAP BTP cockpit, command line interface \(btp CLI\), or REST APIs.
+
+See [Labels \[Feature Set B\]](Account_Model_8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
 
 
 

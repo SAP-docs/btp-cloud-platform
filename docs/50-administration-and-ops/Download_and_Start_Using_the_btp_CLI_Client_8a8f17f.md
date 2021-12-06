@@ -38,13 +38,17 @@ The client is available for 64-bit versions of the following operating systems:
 
 2.  Extract the client file \(for example: `btp.exe`\) to your local system and open a terminal session in the target folder.
 
-    On Windows, you can use powershell or an external program, such as WinRar, to extract the tar.gz file. Once you've unpacked the executable, you can enter `cmd` in the address bar of the folder. This opens the command prompt in this folder.
+    On Windows, you can use powershell or an external program, such as WinRar, to extract the tar.gz file. Once you've unpacked the executable, you can enter `cmd` or `powershell` in the address bar of the folder. This opens the command prompt or PowerShell in this folder.
 
     On macOS, you can open the tar.gz file by double-clicking in. Make sure that the executable is in your PATH, and open a terminal session.
 
     On Linux, use the terminal to open the tar.gz file with `tar -xzf btp-cli-linux-amd64-latest.tar.gz` and make sure the executable is in your PATH.
 
-3.  Run `btp`. Note that you need read and write permissions in the target folder to run this executable.
+3.  \(Optional\) If you have a proxy server configured in your environment, you need to specify its address and port as environment variable `HTTPS_PROXY` or `https_proxy` to access SAP BTP. For example, `HTTPS_PROXY=https://my-https-proxy:1234`.
+
+    The specified proxy server is then used for HTTPS requests, unless overriden by the `NO_PROXY` or `no_proxy`, environment variables, which define a comma-separated list of hosts to be excluded from proxying.
+
+4.  Run `btp`. Note that you need read and write permissions in the target folder to run this executable.
 
     > ### Note:  
     > On macOS, opening btp CLI may be blocked because it is from "an unidentifed developer". Please refer to the macOS documentation to learn how to bypass this.
@@ -53,9 +57,9 @@ The client is available for 64-bit versions of the following operating systems:
 
     The CLI creates a configuration file \(`config.json`\) in your user data directory.
 
-4.  Log in to your global account with `btp login`, which is interactive and will prompt for all required login information. Note that you need to provide the **subdomain of the global account** to log in. You can find this in the global account view in the cockpit. If you have more than one global account, see the *Switch Global Account* dialog. For details, see [Log in](Log_in_e241b30.md).
+5.  Log in to your global account with `btp login`, which is interactive and will prompt for all required login information. Note that you need to provide the **subdomain of the global account** to log in. You can find this in the global account view in the cockpit. If you have more than one global account, see the *Switch Global Account* dialog. For details, see [Log in](Log_in_e241b30.md).
 
-5.  Once you're logged in, familiarize yourself with the btp CLI, for example with [General Commands and Options in the btp CLI](General_Commands_and_Options_in_the_btp_CLI_11d9f67.md), [Command Syntax of the btp CLI](Command_Syntax_of_the_btp_CLI_69606f4.md), or simply by trying out a few commands, such as the following:
+6.  Once you're logged in, familiarize yourself with the btp CLI, for example with [How to Work with the btp CLI](How_to_Work_with_the_btp_CLI_11d9f67.md), [Command Syntax of the btp CLI](Command_Syntax_of_the_btp_CLI_69606f4.md), or simply by trying out a few commands, such as the following:
 
     ```
     `btp list accounts/subaccount`
@@ -76,9 +80,9 @@ The client is available for 64-bit versions of the following operating systems:
     > ### Tip:  
     > You can use the command autocompletion feature in the btp CLI to save keystrokes when entering command actions, group-object combinations, and their parameters in the command line. For more information, see [Enable Command Autocompletion](Enable_Command_Autocompletion_46355fa.md).
 
-6.  If you’re going to work in a subaccount of this global account, consider setting the default context to this subaccount using `btp target --subaccount *<ID\>*`. See [Set the Default Command Context](Set_the_Default_Command_Context_720645a.md). Tip: Use `btp list accounts/subaccount` to see the subaccounts of the global account.
+7.  If you’re going to work in a subaccount of this global account, consider setting the default context to this subaccount using `btp target --subaccount *<ID\>*`. See [Set the Default Command Context](Set_the_Default_Command_Context_720645a.md). Tip: Use `btp list accounts/subaccount` to see the subaccounts of the global account.
 
-7.  To find out the current context and version, use `btp`.
+8.  To find out the current context and version, use `btp`.
 
 
 **Related Information**  
@@ -88,9 +92,9 @@ The client is available for 64-bit versions of the following operating systems:
 
 [Command Syntax of the btp CLI](Command_Syntax_of_the_btp_CLI_69606f4.md "Each command consists of the base call btp followed by a verb (the action), a combination of group and object, and parameters.")
 
-[Get Help](Get_Help_f8fd1e5.md "Get help in the btp CLI with the --help option.")
+[Get Help](Get_Help_f8fd1e5.md "There is extensive help in the btp CLI about every command. You can get help with the help action or the --help option.")
 
 [Commands in the btp CLI](Commands_in_the_btp_CLI_a03a555.md "A list of all tasks and respective commands that are available in the SAP BTP command line interface (btp CLI).")
 
-[General Commands and Options in the btp CLI](General_Commands_and_Options_in_the_btp_CLI_11d9f67.md "Learn how to work with the SAP BTP command line interface (btp CLI). For example, how to log in, get help, and set a default context for commands.")
+[How to Work with the btp CLI](How_to_Work_with_the_btp_CLI_11d9f67.md "Learn how to work with the SAP BTP command line interface (btp CLI). For example, how to log in, get help, and set a default context for commands.")
 

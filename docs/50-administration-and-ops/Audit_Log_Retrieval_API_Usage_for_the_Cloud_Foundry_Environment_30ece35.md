@@ -206,7 +206,7 @@ Execute the following HTTP GET request:
 
 Execute the following HTTP GET request:
 
-`<url_from_service_key>/auditlog/v2/auditlogrecords?handle=2018-06-14T10:11:18.968%3C4f932695-8616-4e1f-ac9a-1cdfb758f01d`
+`<url_from_service_key>/auditlog/v2/auditlogrecords?handle=2018-06-14T10:11:18.968<4f932695-8616-4e1f-ac9a-1cdfb758f01d<2018-06-14T10:11:00.000`
 
 `<url_from_service_key>/auditlog/v2/auditlogrecords?handle=<handle value>`
 

@@ -1,0 +1,31 @@
+<!-- loioab4f1086295847eda5be678ba68907e2 -->
+
+# Backups
+
+The ABAP environment relies on continuous backups from SAP HANA Cloud:
+
+-   Daily backups are retained up to 15 days.
+
+-   The recovery point objective \(RPO\), which is the maximum data loss, is no more than 15 minutes.
+
+
+You can initiate a restore via a service request by using component `BC-CP-ABA`. To perform a restore, please provide the following information:
+
+-   The ID \(GUID\) of the ABAP environment service instance
+
+-   The target point-in-time to which the instance should be restored specified in coordinated universal time \(UTC\)
+
+    > ### Caution:  
+    > All data stored between the specified time and the time at which the service request is processed by SAP cannot be retrieved.
+
+    > ### Restriction:  
+    > In case of SAP-managed software updates, that are part of scheduled maintenance, the target point-in-time can only be set after the last software update.
+
+
+**Related Information**  
+
+
+[SAP HANA Service for SAP BTP Getting Started Guide - Backup and Recovery](https://help.sap.com/viewer/cc53ad464a57404b8d453bbadbc81ceb/Cloud/en-US/addc108e3aad4ee7b4f20a02d454eefd.html)
+
+[SAP HANA Cloud Administration with SAP HANA Cloud Central - Backup and Recovery](https://help.sap.com/viewer/9ae9104a46f74a6583ce5182e7fb20cb/hanacloud/en-US/89d71f01daca4ecaaa069d6a060167f5.html)
+

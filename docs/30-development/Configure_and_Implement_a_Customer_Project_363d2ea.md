@@ -33,7 +33,7 @@ To start with the customer project, you have to know the requirements of the cus
 
 **Create and Assign Business Roles**
 
-You configure the authorization to access the applications that are part of the SaaS solution via business roles. With the *Maintain Business Roles* app, you define business roles by combining predefined business catalogs and, if necessary, define value help, read and write access by maintaining the allowed values for fields.
+As a business user, you configure the authorization to access the applications that are part of the SaaS solution via business roles. With the *Maintain Business Roles* app, you define business roles by combining predefined business catalogs and, if necessary, define value help, read and write access by maintaining the allowed values for fields.
 
 Instead of creating a business role from scratch, you can also use business role templates. See [How to Create a Business Role from a Template](../50-administration-and-ops/How_to_Create_a_Business_Role_from_a_Template_ec310a8.md).
 
@@ -41,7 +41,7 @@ Instead of creating a business role from scratch, you can also use business role
 
 The spaces mode offers more flexibility to adjust the SAP Fiori launchpad layout for specific user groups.
 
-To create a launchpad space and page, see [How to Create Spaces and Pages for a Business Role](../50-administration-and-ops/How_to_Create_Spaces_and_Pages_for_a_Business_Role_18cdb97.md).
+As a business user, to create a launchpad space and page, see [How to Create Spaces and Pages for a Business Role](../50-administration-and-ops/How_to_Create_Spaces_and_Pages_for_a_Business_Role_18cdb97.md).
 
 
 
@@ -51,7 +51,7 @@ To create a launchpad space and page, see [How to Create Spaces and Pages for a 
 
 **Create Communication Arrangements**
 
-A communication arrangement is a runtime description of a specific communication scenario. It describes which communication partners communicate with each other in the scenario and how they communicate. See [How to Create a Communication Arrangement](../50-administration-and-ops/How_to_Create_a_Communication_Arrangement_a0771f6.md).
+A communication arrangement is a runtime description of a specific communication scenario created by you as a business user. It describes which communication partners communicate with each other in the scenario and how they communicate. See [How to Create a Communication Arrangement](../50-administration-and-ops/How_to_Create_a_Communication_Arrangement_a0771f6.md).
 
 > ### Note:  
 > Depending on whether you want to use an authentication method for outbound communication that requires a business user context \(Oauth2 SAML Bearer Assertion, Oauth2 User Token Exchange, JWT Principal Propagation\), you need to configure a destination for communication arrangements in the TST test system instead of maintaining credentials by using an outbound communication user. See [Supported Protocols and Authentication Methods](Supported_Protocols_and_Authentication_Methods_437e9d4.md) and [Create a Destination](Create_a_Destination_3fa7934.md).
@@ -66,7 +66,7 @@ See [Integrating On-Premise Systems](Integrating_On-Premise_Systems_c95327f.md) 
 
 **Create Business Configuration**
 
-You can use the *Maintain Business Configurations* app to adjust business configuration objects to change and influence the system behavior.
+As a business user, you can use the *Maintain Business Configurations* app to adjust business configuration objects to change and influence the system behavior.
 
 See [Maintain Business Configurations App](../50-administration-and-ops/Maintain_Business_Configurations_App_76384d8.md) on how to adjust configuration objects provided in the SaaS solution.
 

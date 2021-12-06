@@ -13,9 +13,9 @@ Quickly get started with a trial account.
 ![](images/Trial_1-Getting_a_Global_Account_0f1ece7.png)
 
 -   [Get a Trial Account](Getting_a_Global_Account_d61c281.md#loio42e7e54590424e65969fced1acd47694)
--   [Trial Accounts](../10-concepts/Trial_Accounts_046f127.md)
+-   [Trial Accounts and Free Tier](../10-concepts/Trial_Accounts_and_Free_Tier_046f127.md)
 
-Before you begin, sign up for a free trial account. See [Get a Free Trial Account](Getting_a_Global_Account_d61c281.md#loio42e7e54590424e65969fced1acd47694). For more information about the scope of our trial offering, see [Trial Accounts](../10-concepts/Trial_Accounts_046f127.md).
+Before you begin, sign up for a free trial account. See [Get a Free Trial Account](Getting_a_Global_Account_d61c281.md#loio42e7e54590424e65969fced1acd47694). For more information about the scope of our trial offering, see [Trial Accounts and Free Tier](../10-concepts/Trial_Accounts_and_Free_Tier_046f127.md).
 
 If you want to familiarize yourself with the Cloud Foundry environment, see [Cloud Foundry Environment](../10-concepts/Cloud_Foundry_Environment_9c7092c.md#loio9c7092c7b7ae4d49bc8ae35fdd0e0b18).
 
@@ -98,7 +98,7 @@ If you want to familiarize yourself with the Cloud Foundry environment, see [Clo
 
 [Cloud Foundry Environment](../10-concepts/Cloud_Foundry_Environment_9c7092c.md#loio9c7092c7b7ae4d49bc8ae35fdd0e0b18 "The Cloud Foundry environment allows you to create polyglot cloud applications in Cloud Foundry. It contains the SAP BTP, Cloud Foundry runtime service, which is based on the open-source application platform managed by the Cloud Foundry Foundation.")
 
-[Trial Accounts](../10-concepts/Trial_Accounts_046f127.md "Trial accounts let you try out SAP BTP for free with a restricted use of the platform resources and services.")
+[Trial Accounts and Free Tier](../10-concepts/Trial_Accounts_and_Free_Tier_046f127.md "Explore the different options for trying out SAP BTP.")
 
 [Account Model](../10-concepts/Account_Model_8ed4a70.md#loio8ed4a705efa0431b910056c0acdbf377 "Learn more about the different types of accounts on SAP BTP and how they relate to each other.")
 

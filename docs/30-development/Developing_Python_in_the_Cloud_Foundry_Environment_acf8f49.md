@@ -131,6 +131,17 @@ The SAP HANA Database Client, provides means for database connectivity.
 
 
 
+<a name="loioacf8f49356d047fbb1a4d04dcec3fd36__section_w1d_tr1_krb"/>
+
+## Supported Versions
+
+The standard SAP `python_buildpack` supports the following versions:
+
+-   Python **3.7** and higher – recommended versions
+-   Python **3.6** – going out of maintenance soon, as per [Python release roadmap](https://www.python.org/downloads/). We strongly recommend that you switch to version 3.7 or higher.
+
+
+
 ## Tips and Tricks
 
 Selected tips and tricks for your Python development. See [Tips and Tricks for Python Applications](Tips_and_Tricks_for_Python_Applications_b5e1c82.md).

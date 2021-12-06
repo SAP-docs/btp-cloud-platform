@@ -43,8 +43,8 @@ You can download and consume SAP developed Node.js packages via the SAP NPM Regi
 
 The standard SAP `nodejs_buildpack` supports the following versions:
 
--   **Node.js 14** - recommended version
--   **Node.js 12** - it's supported but not recommended to use, due to its upcoming removal as per the [Node.js release roadmap](https://nodejs.org/en/about/releases/).
+-   Node.js **14** - recommended version
+-   Node.js **12** - it's supported but not recommended to use, due to its upcoming removal as per the [Node.js release roadmap](https://nodejs.org/en/about/releases/).
 
 
 

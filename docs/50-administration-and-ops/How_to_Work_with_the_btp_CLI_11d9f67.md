@@ -1,6 +1,6 @@
 <!-- loio11d9f67d2c68485ca2f435b955d3b85b -->
 
-# General Commands and Options in the btp CLI
+# How to Work with the btp CLI
 
 Learn how to work with the SAP BTP command line interface \(btp CLI\). For example, how to log in, get help, and set a default context for commands.
 
@@ -9,6 +9,10 @@ Learn how to work with the SAP BTP command line interface \(btp CLI\). For examp
 <a name="loio11d9f67d2c68485ca2f435b955d3b85b__section_dw1_wg3_xkb"/>
 
 ## General Commands
+
+```
+`btp help`
+```
 
 ```
 `btp login`
@@ -20,6 +24,14 @@ Learn how to work with the SAP BTP command line interface \(btp CLI\). For examp
 
 ```
 `btp target`
+```
+
+```
+`btp enable autocomplete`
+```
+
+```
+`btp disable autocomplete`
 ```
 
 

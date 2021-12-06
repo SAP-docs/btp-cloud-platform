@@ -25,7 +25,7 @@ A list of all tasks and respective commands that are available in the SAP BTP co
 
 [Command Syntax of the btp CLI](Command_Syntax_of_the_btp_CLI_69606f4.md "Each command consists of the base call btp followed by a verb (the action), a combination of group and object, and parameters.")
 
-[Get Help](Get_Help_f8fd1e5.md "Get help in the btp CLI with the --help option.")
+[Get Help](Get_Help_f8fd1e5.md "There is extensive help in the btp CLI about every command. You can get help with the help action or the --help option.")
 
 [Set the Default Command Context](Set_the_Default_Command_Context_720645a.md "Change the default context for all command calls to the global account, a directory, or a subaccount by using the btp target command.")
 

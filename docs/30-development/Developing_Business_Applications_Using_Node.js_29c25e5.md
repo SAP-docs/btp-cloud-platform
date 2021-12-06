@@ -22,14 +22,14 @@ The following sections describe how to set up a development environment to get y
 
 -   [Deploying to Cloud](https://cap.cloud.sap/docs/advanced/deploy-to-cloud)
 
--   [Model Processing in Node.js](https://cap.cloud.sap/docs/cds/js-api)
+-   [Model Processing in Node.js](https://cap.cloud.sap/docs/cds/compiler)
 
 -   [The cds Facade Object](https://cap.cloud.sap/docs/node.js/facade)
 
--   [Node.js Core Services API](https://cap.cloud.sap/docs/node.js/api)
+-   [Node.js Core Services API](https://cap.cloud.sap/docs/node.js)
 
 -   [Authentication](https://cap.cloud.sap/docs/node.js/authentication)
 
--   [Best Practices](https://cap.cloud.sap/docs/node.js/bestpractices)
+-   [Best Practices](https://cap.cloud.sap/docs/node.js/best-practices)
 
 

@@ -9,7 +9,6 @@ After an instance refresh, you must restore some of your extension integration a
 ## Prerequisites
 
 -   You have a dedicated SAP SuccessFactors company instance.
--   For SAP SuccessFactors, First Half 2021 Release, you have Provisioning access and administrator permissions to restore the settings if a configuration has been performed manually.
 -   You have a registered SAP SuccessFactors system in your global account in SAP BTP.
 -   You have performed the instance refresh with the *Instance Refresh* tool or your cloud operators have performed an instance refresh manually.
 
@@ -50,25 +49,13 @@ However, if you have the following artifacts, you must reconfigure them in the S
 
 
     -   After a manual instance refresh:
-        1.  -   For SAP SuccessFactors, Second Half 2021 Release or later, proceed as follows:
+        1.  For SAP SuccessFactors, Second Half 2021 Release or later, proceed as follows:
 
-    1.  Recreate the *SAP SuccessFactors Extensibility* service instance. See [Create a Service Instance to Consume the SAP SuccessFactors HXM Suite OData API](Create_a_Service_Instance_to_Consume_the_SAP_SuccessFactors_HXM_Suite_OData_API_46c5ea1.md).
+            1.  Recreate the *SAP SuccessFactors Extensibility* service instance. See [Create a Service Instance to Consume the SAP SuccessFactors HXM Suite OData API](Create_a_Service_Instance_to_Consume_the_SAP_SuccessFactors_HXM_Suite_OData_API_46c5ea1.md).
 
-    2.  If you have configured permission roles and permission groups, you need to reconfigure them. See [Custom Home Page Tiles](https://help.sap.com/viewer/59f821da545a4bdb94f1eb8fa22e4b36/latest/en-US/82a5f1bc52854218a4d0078b6acfbbcb.html).
+            2.  If you have configured permission roles and permission groups, you need to reconfigure them. See [Custom Home Page Tiles](https://help.sap.com/viewer/59f821da545a4bdb94f1eb8fa22e4b36/latest/en-US/82a5f1bc52854218a4d0078b6acfbbcb.html).
 
-    3.  Reconfigure the permission roles and permission groups. See [What Are Role-Based Permissions?](https://help.sap.com/viewer/b569eee64d3f4159b2b5272ba7d6b127/latest/en-US/b95c4a4e43aa48d4a962f6b6e878d3a9.html).
-
-
--   For SAP SuccessFactors, First Half 2021 Release, proceed as follows:
-
-    1.  Recreate the *SAP SuccessFactors Extensibility* service instance. See [Create a Service Instance to Consume the SAP SuccessFactors HXM Suite OData API](Create_a_Service_Instance_to_Consume_the_SAP_SuccessFactors_HXM_Suite_OData_API_46c5ea1.md).
-
-    2.  To restore the integration details on the *Extension Management Configuration* page, log on to SAP SuccessFactors *Provisioning*, navigate to *List of Companies* \> **<your\_company\_instance\>** \> *Edit Company Settings* \> *Extension Management Configuration*, and then choose *Prepare*.
-
-    3.  If you have configured permission roles and permission groups, you need to reconfigure them. See [Custom Home Page Tiles](https://help.sap.com/viewer/59f821da545a4bdb94f1eb8fa22e4b36/latest/en-US/82a5f1bc52854218a4d0078b6acfbbcb.html).
-
-    4.  Reconfigure the permission roles and permission groups. See [What Are Role-Based Permissions?](https://help.sap.com/viewer/b569eee64d3f4159b2b5272ba7d6b127/latest/en-US/b95c4a4e43aa48d4a962f6b6e878d3a9.html).
-
+            3.  Reconfigure the permission roles and permission groups. See [What Are Role-Based Permissions?](https://help.sap.com/viewer/b569eee64d3f4159b2b5272ba7d6b127/latest/en-US/b95c4a4e43aa48d4a962f6b6e878d3a9.html).
 
 
 

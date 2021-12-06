@@ -8,7 +8,7 @@ SAP BTP provides different types of global accounts, **enterprise** and **trial*
 
 If you want to start out using services for free, you can create a personal enterprise account and only use free tier service plans: The major benefit of using such an account for exploration purposes is that you can upgrade your services to productive use without losing any of your data. Check out the [Free Tier Services](https://discovery-center.cloud.sap/#/viewServices?provider=all&regions=all&category=freetierservices) in SAP Discovery Center and learn the details about [Using Free Service Plans](Using_Free_Service_Plans_524e108.md) in your enterprise account.
 
-Another way to start out using services for free is to create a trial account. But keep in mind that when you want to use your global account productively, there’s no way to migrate your data from the trial account to a productive enterprise account. For more information, see [Trial Accounts](Trial_Accounts_046f127.md).
+Another way to start out using services for free is to create a trial account. But keep in mind that when you want to use your global account productively, there’s no way to migrate your data from the trial account to a productive enterprise account. For more information, see [Trial Accounts and Free Tier](Trial_Accounts_and_Free_Tier_046f127.md).
 
 
 

@@ -141,7 +141,7 @@ You create subaccounts in your global account. Once you create a new subaccount,
     > 
     > You can change your selection at any time by editing the subaccount properties. Do not select this option if your account is used for non-production purposes, such as development, testing, and demos.
 
-9.  To use beta services and applications in the subaccount, select *Enable beta features*.
+9.  To use beta services and applications in the subaccount, under *Advanced*, select *Enable beta features*.
 
     > ### Caution:  
     > You shouldn't use SAP BTP beta features in subaccounts that belong to productive enterprise accounts. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).
@@ -149,7 +149,13 @@ You create subaccounts in your global account. Once you create a new subaccount,
     > ### Note:  
     > Once you have enabled this setting in a subaccount you cannot disable it.
 
-10. Save your changes.
+10. Under *Advanced* \> *Labels*, assign labels to the subaccount to make organizing and filtering your subaccounts easier. For more information, see [Labels \[Feature Set B\]](../10-concepts/Account_Model_8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
+
+    > ### Tip:  
+    > -   When adding multiple values to a label, press [Enter\] after each value.
+    > -   When you start typing, any matching label names and values that are already assigned to other subaccounts in your global account are offered as suggestions.
+
+11. Save your changes.
 
 
 

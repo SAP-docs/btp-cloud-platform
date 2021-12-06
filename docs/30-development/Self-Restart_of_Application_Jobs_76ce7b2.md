@@ -45,7 +45,7 @@ The method `SCHEDULE_ME_AGAIN` creates a copy of the current application job fro
 
 The import parameter `IV_MIN_OFFSET TYPE I` is optional. By default, the start condition of the self-restart job is 'immediate start'. Using this parameter, you can decide to postpone the self-restart for a few minutes.
 
-The import parameter `IV_FORCE_RESCHEDULE TYPE ABAP_BOOL` is optional. If an application job is running for less than a day, the method `SCHEDULE_ME_AGAIN` won't affect the job, since the next job is scheduled very soon and will run regardless of the last job. This behavior can be overruled by the setting `IV_FORCE_RESCHEDULE = 'X'`.
+The import parameter `IV_FORCE_RESCHEDULE TYPE ABAP_BOOL` is optional. If the recurrence pattern of an application job is less than a day, the method `SCHEDULE_ME_AGAIN` won't affect the job, since the next job is scheduled very soon and will run regardless of the last job. This behavior can be overruled by setting the parameter `IV_FORCE_RESCHEDULE = 'X'`.
 
 **Export parameter:**
 
@@ -68,22 +68,14 @@ The return parameter for this method is `RV_LENGTH TYPE I`.
 **Example:**
 
 ```lang-abap
-data: rr            type abap_bool.
-data: was_restarted type abap_bool value abap_false.
-data: new_job       type CL_APJ_SCP_TOOLS=>TY_NEW_JOB_INFO.
- rr = cl_apj_scp_tools=>is_restart_required( ).
-if rr = abap_true.
-*  do cleanup actions
-   was_restarted = cl_apj_scp_tools=>schedule_me_again(
-                      importing
-                           es_new_job = new_job ).
+DATA: new_job TYPE cl_apj_scp_tools=>ty_new_job_info.
+IF cl_apj_scp_tools=>is_restart_required( ) = abap_true.
+"  if necessary, implement coding to do cleanup actions
+   DATA(was_restarted) = cl_apj_scp_tools=>schedule_me_again(
+                           IMPORTING
+                              es_new_job = new_job ).
 
-    exit. "Attention, see explanations below
- endif.
-
+"  implement coding that finishes the job
+ENDIF.
 ```
-
-**Terminating a job:**
-
-In the example above, the command ‘exit’ is used. This works only if the job is a one-step job and if ‘exit’ is called within the main program outside any modularization unit. In this case the job will terminate with the status ‘finished’. If the job is a multi-step job, you can only terminate it by writing a message of type E \(= Error\). The job will then terminate with the status ‘canceled’.
 

@@ -1,8 +1,8 @@
-<!-- copye2afd5e96eef4266a862c3e2b1090d7a -->
+<!-- loio1f04ad22db0147b99ebc476708b749b6 -->
 
 # Creating the Job Template
 
-The creation of a *Job Template* follows the same technical rules as a *Job Catalog Entry* as described in .
+The creation of a *Job Template* follows the same technical rules as a *Job Catalog Entry* as described in [Creating the Job Catalog Entry](Creating_the_Job_Catalog_Entry_1cff59e.md).
 
 The job template represents a set of default parameters for the assigned job catalog entry. The job template is mandatory for the Fiori app *Application Jobs* to choose a job definition to be executed. A job catalog entry can have more than one job template.
 
@@ -92,5 +92,5 @@ The following code example shows a console application that generates the minima
 **Related Information**  
 
 
-
+[Setting up the Authorizations](Setting_up_the_Authorizations_bb559a5.md "Some further activities in ADT and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app Application Jobs.")
 

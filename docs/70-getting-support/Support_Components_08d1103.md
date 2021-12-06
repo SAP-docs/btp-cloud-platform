@@ -2024,6 +2024,9 @@ Detect and highlight entities from unstructured text using machine learning.
 <td valign="top">
 
 -   Europe \(Frankfurt\)
+-   US East \(VA\)
+-   Japan \(Tokyo\)
+-   Europe \(Frankfurt\) EU Access
 
 
 
@@ -13698,6 +13701,71 @@ Simplify access to applications by establishing a central launchpad.
 -   Europe \(Netherlands\)
 -   Japan \(Tokyo\)
 -   Australia \(Sydney\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Launchpad Service](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
+
+
+
+</td>
+<td valign="top">
+
+Simplify access to applications by establishing a central launchpad.
+
+
+
+</td>
+<td valign="top">
+
+-   EP-CPP-CF
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Extension Suite - Digital Experience
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   US Central \(IA\)
 
 
 

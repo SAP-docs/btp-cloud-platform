@@ -15,7 +15,11 @@ The service instance can use multiple secrets in the ***application*** plan.
     > ### Note:  
     > The ***apiaccess*** plan only uses binding secrets. However, some old instances of the ***apiaccess*** plan might still use the instance secret.
 
--   X.509 secrets must be enabled in the application security descriptor \(`xs-security.json`\) when you create the service instance. When you bind an application to a service instance or create a service key, you can pass a `parameters.json` to use an X.509 secret. The X.509 secret remains valid as long as the certificate itself is valid. SAP Authorization and Trust Management service can generate an X.509 certificate for you or you can provide your own.
+-   X.509 secrets must be enabled in the application security descriptor \(`xs-security.json`\) when you create the service instance. When you bind an application to a service instance or create a service key, you can pass a `parameters.json` to use an X.509 secret. SAP Authorization and Trust Management service can generate an X.509 certificate for you or you can provide your own. The X.509 secret remains valid as long as the certificate itself is valid.
+
+    > ### Note:  
+    > The service doesn't check for certificate revocation. The only way to revoke an X.509 secret is to rotate the secret.
+
 
 The following figure illustrates the XSUAA app and its information about the OAuth 2.0 client as part of an instanceSAP Authorization and Trust Management service. A consuming application, functioning as an OAuth 2.0 client is bound to the SAP Authorization and Trust Management service instance. The secret is part of the environment of the consuming application and the information about the OAuth 2.0 client saved with the XSUAA app. Alternatively, this information is saved as part of a service key.
 
@@ -57,4 +61,6 @@ In the following example, the service instance creates a binding secret for all 
 [Rotating Instance Secrets](Rotating_Instance_Secrets_8bfbbf5.md "When configured for instance secrets, a service instance of the SAP Authorization and Trust Management service uses the same instance secret for all bindings. You can't really rotate instance secrets, but must rotate the applications and service instance together.")
 
 [Migrate from Instance Secrets to Binding Secrets](Migrate_from_Instance_Secrets_to_Binding_Secrets_dcee867.md "To simplify the management of secrets for service instances of the SAP Authorization and Trust Management service, we recommend that you configure service instances to use binding secrets.")
+
+[Application Security Descriptor Configuration Syntax](../30-development/Application_Security_Descriptor_Configuration_Syntax_517895a.md "The syntax required to set the properties and values defined in the xs-security.json application security descriptor file.")
 

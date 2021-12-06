@@ -1,5 +1,7 @@
 <!-- loio8ed4a705efa0431b910056c0acdbf377 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Account Model
 
 Learn more about the different types of accounts on SAP BTP and how they relate to each other.
@@ -134,27 +136,45 @@ The hierarchical structure of global accounts, directories, and subaccounts lets
 
 <!-- loioe8663c08ead648faa673b0d63c5b478e -->
 
-## Custom Properties \[Feature Set B\]
+## Labels \[Feature Set B\]
 
-Custom properties allow you to label or tag your directories and subaccounts according to your own business and technical needs. This makes organizing and filtering your directories and subaccounts easier within your global account.
+Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.
 
-You create and assign custom properties when you create or edit a directory or subaccount. Using custom properties is optional.
+For example, in the *Account Explorer* page in the cockpit, you can quickly filter for directories and subaccounts by label.
 
-Each custom property has a name \(also referred to as a key\) and typically one or more values that are associated with the property. You can also assign a custom property to a directory or subaccount without giving a specific value. When no value is given, the custom property behaves like a tag. Here are some examples of custom properties:
+You can assign labels to these entities when you create or edit them using the SAP BTP cockpit, command line interface \(btp CLI\), or REST APIs:
+
+-   Directories
+
+-   Subaccounts
+
+-   Multitenant application subscriptions
+
+-   Service instances
+
+-   Environment instances
+
+    > ### Note:  
+    > For environment instances, these custom labels are user defined and apply only to SAP BTP. They are not the same labels that might be defined by your environment broker.
+
+
+Labels are made up of a *label name* \(also referred to as a *key*\) and up to 10 *values* associated with the label. You can apply label names and values in any way that suits your business and technical needs.
+
+<a name="loioe8663c08ead648faa673b0d63c5b478e__table_j1x_3v5_prb"/>Types of labels and examples
 
 
 <table>
 <tr>
 <th valign="top">
 
-Custom Property \(Name\)
+Types of Labels
 
 
 
 </th>
 <th valign="top">
 
-Property Values
+Examples
 
 
 
@@ -163,35 +183,25 @@ Property Values
 <tr>
 <td valign="top">
 
-Landscape
+Single-value labels are useful for labels that have an identifier, or for labels with fixed lists.
 
 
 
 </td>
 <td valign="top">
 
-Dev  
- Test  
- Production
+-   Label Name: ***Cost Object***
 
+    Value: The ID of a cost center number or internal order that is associated with the entity, such as: ***000001134789***
 
+-   Label Name: ***Status***
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+    Value: ***Active*** or ***Inactive***
 
-Department
+-   Label Name: ***Landscape***
 
+    Value: ***Dev*** or ***Test*** or ***Production***
 
-
-</td>
-<td valign="top">
-
-HR  
- IT  
- Finance  
- Sales
 
 
 
@@ -200,32 +210,17 @@ HR
 <tr>
 <td valign="top">
 
-Cost Center
+Multi-value labels make them useful for labels that typically have more than one value assigned to them.
 
 
 
 </td>
 <td valign="top">
 
-000001134789  
- 000002155534  
- To be defined
+-   Label Name: ***Contacts***
 
+    Value: The e-mail addresses or names of users that are responsible for the entity, such as: ***admin-1@example.com*** and ***admin-2@example.com***
 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Flagged for Deletion
-
-
-
-</td>
-<td valign="top">
-
-*\(no values\)*
 
 
 
@@ -234,14 +229,21 @@ Flagged for Deletion
 <tr>
 <td valign="top">
 
-Important
+Labels can also be assigned with a name only and no value. In such cases, the label behaves like tag.
+
+Note that currently for service instances, labels must have at least value.
 
 
 
 </td>
 <td valign="top">
 
-*\(no values\)*
+-   Label Name: ***For demo only***
+
+-   Label Name: ***Audited***
+
+-   Label Name: ***Flagged for deletion***
+
 
 
 
@@ -249,36 +251,49 @@ Important
 </tr>
 </table>
 
-Consider the following when working with custom properties:
+> ### Note:  
+> Labels replace what were previously called "custom properties". Custom properties supported only single values per label and were available only to directories and subaccounts. As a result of the move to labels, all relevant commands in the SAP BTP command line interface \(btp CLI\) and in the relevant REST APIs in the SAP Cloud Management service have been updated accordingly. The `custom-properties` parameter in the btp CLI and the `customProperties` field in the relevant REST APIs are deprecated.
 
--   Each directory or subaccount can have up to 10 custom properties assigned to it.
-
--   You cannot add the same custom property with a different value to the same directory or subaccount.
-
--   Directories do not share their custom properties with subaccounts, and vice versa. However, when you view the custom properties of a subaccount, it also shows the custom properties assigned to its parent directory, if one exists.
-
--   When you create a custom property or assign a new value to a property in a directory, they become available for use across all the directories in your global account. The also applies to subaccounts.
-
--   Property names \(keys\) are case-insensitive, which means you cannot create variants of the same property name with different casing \(for example, "MyKey" and "myKey" cannot coexist\). Property values on the other hand are case-sensitive; be careful not to create unwanted variants of the same names or values with a different casing or styling.
-
--   To remove a custom property that is assigned to a directory or subaccount, or to change the assigned value of a property, or to add a property, you must edit the directory or subaccount.
-
--   Currently, you cannot manage all custom properties for all directories and subaccounts from a central page. Custom properties can only be managed on the level of individual directories and subaccounts.
-
+You can assign labels when you create an entity, and then later add, change, or remove labels by editing the entity.
 
 > ### Tip:  
-> -   You can view the custom properties that are assigned to a directory or subaccount by choosing the *More Info* option of each directory and subaccount in the *Account Explorer* page in the SAP BTP cockpit. Assigned custom properties are also listed when in the *Overview* page of every directory and subaccount.
+> -   In the *Account Explorer* and *Instances and Subscriptions* pages in the SAP BTP cockpit, you can display assigned labels by unhiding the *Labels* column. To display the column if it is not shown, click <span class="SAP-icons"></span> \(Configure Table Columns\).
 > 
-> -   In the *Account Explorer* page in the cockpit, you can filter the displayed directories and subaccounts by their assigned custom properties.
+> -   In the *Account Explorer* page, you can view the labels that are assigned to a directory or subaccount by choosing the *More Info* option of each directory and subaccount.
+> 
+>     Assigned labels are also listed under the *Labels* tab when you display the *Overview* page of every directory and subaccount.
+> 
+> -   In the *Account Explorer* and *Instances and Subscriptions* pages, you can filter the displayed entities by their assigned labels in the *Search* field.
+> 
+> -   In the *Instances and Subscriptions* page, you can also view the labels that are assigned to a subscription or instance by expanding its details panel.
 
-**Related Information**  
+When working with labels, consider the following aspects:
+
+-   In the cockpit, each entity can have up to 10 labels assigned to it.
+
+-   You cannot add the same label name more than once to the same entity.
+
+-   Existing label names and values are offered as suggestions when you or anyone else assigns a label to other entities of the same type in your global account.
+
+    When you view a subaccount in the cockpit, the subaccount also shows the labels that are assigned to its parent directory and to other directories that are above it in the same path in your account structure. And in the *Account Explorer*, when you filter by labels that are assigned to a directory, the subaccounts in that directory path are also listed. We refer to these as inherited labels.
+
+-   Label names and values are case-sensitive, which means you can create variants of the same label name with a different casing; for example, ***My Label*** and ***My label*** can coexist as separate labels. We recommend that you avoid using different casing or styling to create variants of the same names or values.
 
 
-[Create a Subaccount](../50-administration-and-ops/Create_a_Subaccount_05280a1.md "Create subaccounts in your global account using the SAP BTP cockpit.")
 
-[Change Subaccount Details](../50-administration-and-ops/Change_Subaccount_Details_567d4a8.md "Edit subaccounts using the SAP BTP cockpit.")
 
-[Create a Directory \[Feature Set B\]](../50-administration-and-ops/Create_a_Directory_Feature_Set_B_b8ef1c4.md "Create a directory using the SAP BTP cockpit to organize and manage your subaccounts. For example, you can group subaccounts by project, team, or department.")
+<a name="loioe8663c08ead648faa673b0d63c5b478e__section_css_zg4_rrb"/>
 
-[Cloud Management Tools — Feature Set Overview](Cloud_Management_Tools_—_Feature_Set_Overview_caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
+## Related Links
+
+-   [Create a Subaccount](../50-administration-and-ops/Create_a_Subaccount_05280a1.md)
+-   [Change Subaccount Details](../50-administration-and-ops/Change_Subaccount_Details_567d4a8.md)
+-   [Create a Directory \[Feature Set B\]](../50-administration-and-ops/Create_a_Directory_Feature_Set_B_b8ef1c4.md)
+-   [Cloud Management Tools — Feature Set Overview](Cloud_Management_Tools_—_Feature_Set_Overview_caf4e4e.md)
+-   [Commands in the btp CLI](../50-administration-and-ops/Commands_in_the_btp_CLI_a03a555.md)
+-   [Account Administration Using APIs of the SAP Cloud Management Service \[Feature Set B\]](../50-administration-and-ops/Account_Administration_Using_APIs_of_the_SAP_Cloud_Management_Service_Feature_Set_B_17b6a17.md)
+-   [Managing Service Resources Using the APIs of the SAP Service Manager](../50-administration-and-ops/Managing_Service_Resources_Using_the_APIs_of_the_SAP_Service_Manager_ee4f871.md)
+-   [Creating Service Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/fad874a99a434ae58c59d7340a528bdc.html)
+-   [Working with Environment Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/1d6897d22f90443c8a3f9f6c8bb41bb8.html#loio1d6897d22f90443c8a3f9f6c8bb41bb8__section_usz_bfz_qrb)
+-   [Subscribe to Multitenant Applications Using the Cockpit](../50-administration-and-ops/Subscribe_to_Multitenant_Applications_Using_the_Cockpit_7a3e396.md)
 

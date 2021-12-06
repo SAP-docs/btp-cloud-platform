@@ -107,6 +107,24 @@ The instructions provided here apply whether you are an SAP customer subscribing
     > ### Tip:  
     > To remove an existing subscription, select the three dots at the end of the subscription row, and from the menu, select *Delete*. All data related to the multitenant application will be deleted in the respective subaccount.
 
+8.  **Optional:** Assign labels to the subscription to make it searchable and organized within the subaccount according to various criteria.
+
+    1.  In the navigation area, choose *Services* \> *Instances and Subscriptions*.
+
+    2.  Find the subscription to which you want to assign labels under the *Subscriptions* section of the page.
+
+    3.  Select the actions \(<span class="SAP-icons"></span>\) menu and from the dropdown list, choose *Add Labels*.
+
+        > ### Note:  
+        > If there are already labels assigned to the subscription, the action becomes *Change Labels*.
+        > 
+        > You can see the existing labels under the *Labels* column.
+        > 
+        > If you do not see the column, unhide it by clicking on <span class="SAP-icons"></span> \(Configure Table Columns\).
+
+
+    For more information, see [Labels \[Feature Set B\]](../10-concepts/Account_Model_8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
+
 
 
 

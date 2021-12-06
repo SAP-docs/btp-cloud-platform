@@ -2,7 +2,7 @@
 
 # Enabling SaaS Applications for Customers
 
-You can provide an application to multiple customers as a SaaS solution in the ABAP environment. This process comprises the following steps: the build of an add-on version, its deployment to the cloud with a multitarget application, its ordering and provisioning, and a possible updating process. The following concrete example guides you step by step through this process.
+You can provide an application to multiple customers as a SaaS solution in the ABAP environment. This process comprises the following steps: the build of an add-on version, its deployment, its ordering and provisioning with a multitenant application, and a possible updating process. The following concrete example guides you step by step through this process.
 
  <a name="loio73ebc486aa7f46eb9783799c924b7556"/>
 
@@ -10,7 +10,7 @@ You can provide an application to multiple customers as a SaaS solution in the A
 
 ## Build
 
-**Build a first version of your add-on. See [Build](Develop,_Test,_Build_3bf575a.md#loio25049720bde447e395b3df0bc05e5a50)**
+Build a first version of your add-on. See [Build](Develop,_Test,_Build_3bf575a.md#loio25049720bde447e395b3df0bc05e5a50).
 
 
 
@@ -20,16 +20,16 @@ You can provide an application to multiple customers as a SaaS solution in the A
 
 -   You've set up the following accounts:
     -   **Global development account** with a *01 Develop* subaccount for development, a *02 Test* subaccount for testing, and a *03 Build/Assemble* subaccount \(for example with the Cloud Foundry organization name `saas-build-assemble` and a development space with the name `Build/Assemble`\) for assembling the add-on product. See [Set Up a Development Account](Develop,_Test,_Build_3bf575a.md#loio9f2150f2b15e414aacd46c1723ce48fb).
-    -   **Global production account** with a *04 Build/Test* subaccount \(for example with the Cloud Foundry organization name `saas-build-test` and a development space with the name `Build/Test`\) for installing and testing the add-on, a *05 Provide* subaccount \(for example with Region `cf-eu10`\) for providing the add-on to customers, and a *06 Consume* subaccount \(for example with the subdomain `my consumer subdomain`\) to access the solution as a customer. See [Set Up a Production Account](Develop,_Test,_Build_3bf575a.md#loio2e7b4b631e814de1b8fe3959af4105bc).
+    -   **Global production account** with a *04 Build/Test* subaccount \(for example with the Cloud Foundry organization name `saas-build-test` and a development space with the name `Build/Test`\) for installing and testing the add-on, a *05 Provide* subaccount \(for example with Region `cf-eu10`\) for providing the add-on to customers, and a *06 Consume* subaccount \(for example with the subdomain `my-consumer-subdomain`\) to access the solution as a customer. See [Set Up a Production Account](Develop,_Test,_Build_3bf575a.md#loio2e7b4b631e814de1b8fe3959af4105bc).
 
 -   You've purchased entitlements that are necessary for the account setup. See [Prepare](Develop,_Test,_Build_3bf575a.md#loio4338854e3133407abb47d3a281dbd1e1).
 -   You've registered a namespace at SAP, for example /NAMESPC/. See [Register a Namespace](Develop,_Test,_Build_3bf575a.md#loiocc5a3c6f78cf4889960c314dd09a5060).
 -   You've registered your add-on at SAP, for example /NAMESPC/PRODUCTX. See [Build](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/3bf575a3dc5043f895f8bd411d2a86a1.html#loio25049720bde447e395b3df0bc05e5a50).
 -   You've set up Jenkins build pipeline and have ensured that an external Git repository is available for the pipeline definition. See [ABAP Environment Pipeline](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9482e7eef4634cb993a4ae296b2029fa.html#loio2398b874f7c5445db188b780ff0cef89).
     -   You've created a technical communication user, for example with the credentials ID `TechUserAAKaaS`.
-    -   You've created a technical platform user, for example with the credentials ID `CFPlatform`.
+    -   You've created a technical platform user as a space member in Cloud Foundry , for example with the credentials ID `CFPlatform`.
 
--   You've developed your software component /NAMESPC/COMPONENT1 in the development system of your *01 Develop* subaccount.
+-   You've developed your software component /NAMESPC/COMPONENT1 in the development system DEV of your *01 Develop* subaccount.
     -   For more information on software components, see [Manage Software Components](../50-administration-and-ops/Manage_Software_Components_3dcf76a.md).
     -   For more information on the ABAP RESTful Application Programming Model, see [ABAP RESTful Application Programming Model](ABAP_RESTful_Application_Programming_Model_33a301e.md) or [Develop a Fiori App Using the ABAP RESTful Programming Model \(Managed Scenario\)](https://developers.sap.com/group.abap-env-restful-managed.html).
     -   For more information on how to develop a user interface for the application, see [Develop an SAP Fiori Application UI and Deploy it to ABAP Using SAP Business Application Studio](Develop_an_SAP_Fiori_Application_UI_and_Deploy_it_to_ABAP_Using_SAP_Business_Application_Studio_eaaeba4.md).
@@ -37,17 +37,11 @@ You can provide an application to multiple customers as a SaaS solution in the A
 
 -   You've subscribed to SAP Business Application Studio in your *01 Develop* subaccount.
 
-    > ### Note:  
-    > We recommend using SAP Business Application Studio for developing user interfaces. You can also use other tools, such as Visual Studio Code. This guide relies on SAP Business Application Studio.
-
--   You've tested the application in your software component in the test system of your *02 Test* subaccount. See [Test](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/3bf575a3dc5043f895f8bd411d2a86a1.html#loio023cf9d301b1479484e70b17cd5cf587).
--   You've assigned the `LandscapePortalAdminRoleCollection` in your *05 Provide* subaccount under *Role Collections*. See [Access to Landscape Portal](Order_and_Provide_975bd3e.md#loio195a685a71f84953813e7b3bd255e849).
--   You've assigned a technical Cloud Foundry platform user as space developer in the *Provide* space of the *05 Provide* subaccount. See [Creating New Space Members and Assigning Space Developer Roles to Them](../20-getting-started/Creating_New_Space_Members_and_Assigning_Space_Developer_Roles_to_Them_967fc4e.md).
--   You've configured an ASP\_CC destination for cloud controller access in the *05 Provide* subaccount based on the credentials of the technical Cloud Foundry platform user. See [Create a Destination for the Cloud Foundry Cloud Controller Access](Create_a_Destination_for_the_Cloud_Foundry_Cloud_Controller_Access_35b5acb.md).
+-   You've tested the application in your software component in the test system TST of your *02 Test* subaccount. See [Test](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/3bf575a3dc5043f895f8bd411d2a86a1.html#loio023cf9d301b1479484e70b17cd5cf587).
 
 
 
-1.  To capture the current state of your software component, create a branch in the development system of your *01 Develop* subaccount. See [How to Work with Branches](../50-administration-and-ops/How_to_Work_with_Branches_6b2f0bf.md)
+1.  To capture the current state of your software component, create a branch in the development system DEV of your *01 Develop* subaccount. See [How to Work with Branches](../50-administration-and-ops/How_to_Work_with_Branches_6b2f0bf.md)
 
     > ### Recommendation:  
     > We recommend naming this first branch v1.0.0 and to create a new branch when updating the application with a support package \(v1.1.0\) or a new release \(v2.0.0\).
@@ -114,12 +108,12 @@ You can provide an application to multiple customers as a SaaS solution in the A
 
         -   For **abapAddonAssemblyKitCredentialsId**, enter the credentials ID of your technical communication user.
 
-        -   For **cfCredentialsId**, enter the credentials ID of your technical platform user.
+        -   For **cfCredentialsId**, enter the credentials ID of your technical platform user in Cloud Foundry.
 
             > ### Note:  
             > You find the credentials ID of your technical communication user and your technical platform user in your Jenkins pipeline repository under *Manage Jenkins* \> *Manage Credentials*.
 
-        -   For **cfApiEndpoint**, enter the link to your API Endpoint.
+        -   For **cfApiEndpoint**, enter the link to your Cloud Foundry API Endpoint.
 
         -   For **cfOrg**, enter the Cloud Foundry organization name.
 
@@ -166,7 +160,7 @@ You can provide an application to multiple customers as a SaaS solution in the A
         -   Enter the required commitID of the software component state that shall be used.
 
             > ### Note:  
-            > You find the latest **commitID** in the development system of your *01 Develop* subaccount in the *Manage Software Components* app. To view a history of all commits and their IDs, click the required branch.
+            > You find the latest **commitID** in the development system DEV of your *01 Develop* subaccount in the *Manage Software Components* app. To view a history of all commits and their IDs, click the required branch.
 
 
 
@@ -220,11 +214,11 @@ You can provide an application to multiple customers as a SaaS solution in the A
 
 ## Deploy
 
-**Deploy your add-on to the Cloud Foundry infrastructure by creating a multitarget application in SAP Business Application Studio**.
+To provision multitenant-enabled systems in the ABAP environment, a multitenant application is implemented as multitarget application and deployed to Cloud Foundry.
 
 
 
-1.  To prepare the creation of your multitarget application, navigate to your dev space in SAP Business Application Studio. Select *Start from Template* \> *Basic Multitarget Application*.
+1.  To prepare the creation of your multitenant application, navigate to your dev space in SAP Business Application Studio. Select *Start from Template* \> *Basic Multitarget Application*.
 
     -   In the automatically created descriptor file `mta.yaml`, enter the following content:
 
@@ -353,7 +347,7 @@ You can provide an application to multiple customers as a SaaS solution in the A
         
         ```
 
-        -   The **appname** is a technical name that defines the SaaS solution and appears, for example, as prefix in the service instance of your *05 Provide* subaccount.
+        -   The **appname** is a technical name that defines the SaaS solution and appears, for example, as a prefix in the title of your service instances of your *05 Provide* subaccount.
 
             > ### Note:  
             > You can only use ASCII letters and digits. Do not use a hyphen in the beginning or end of the appname.
@@ -444,7 +438,7 @@ You can provide an application to multiple customers as a SaaS solution in the A
     > ### Note:  
     > Depending on the setup of your development environment, you need to run command `npm install` within the approuter folder to install the dependencies in the local `node_modules` folder.
 
-2.  To create the multitarget application, right-click the folder `mta.yaml` and select *Build MTA Project*.
+2.  To build the multitarget application, right-click the folder `mta.yaml` and select *Build MTA Project*.
 3.  To deploy the multitarget application with extensions to the *05 Provide* subaccount in your global production account, open a new terminal for the project and enter:
 
     ```
@@ -461,7 +455,16 @@ You can provide an application to multiple customers as a SaaS solution in the A
 
 ## Order and Provide
 
-**Order and provide your solution**. See [Order and Provide](Order_and_Provide_975bd3e.md#loio975bd3e54cbe4e52af346740658d1a4a).
+Order and provide your solution. See [Order and Provide](Order_and_Provide_975bd3e.md#loio975bd3e54cbe4e52af346740658d1a4a).
+
+
+
+<a name="loio1d90459d98ca4ba0bc8857c24e328c03__section_i4v_pzl_4rb"/>
+
+## Prerequisites
+
+-   You've assigned a technical Cloud Foundry platform user as space developer in the *Provide* space of the *05 Provide* subaccount. See [Creating New Space Members and Assigning Space Developer Roles to Them](../20-getting-started/Creating_New_Space_Members_and_Assigning_Space_Developer_Roles_to_Them_967fc4e.md).
+-   You've configured an ASP\_CC destination for cloud controller access in the *05 Provide* subaccount based on the credentials of the technical Cloud Foundry platform user. See [Create a Destination for the Cloud Foundry Cloud Controller Access](Create_a_Destination_for_the_Cloud_Foundry_Cloud_Controller_Access_35b5acb.md).
 
 
 
@@ -484,10 +487,6 @@ You can provide an application to multiple customers as a SaaS solution in the A
     > The subdomain can only contain letters, digits, and hyphens, see [Create Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html).
     > 
     > When you create the route, you have to provide a hostname and domain.
-    > 
-    > Domain: ***cfapps.eu10.hana.ondemand.com***
-    > 
-    > Hostname: ***my-consumer-subdomain-product1-saas-solution-dev***
     > 
     > The hostname can include no more than 63 characters.
     > 
@@ -513,7 +512,7 @@ You can provide an application to multiple customers as a SaaS solution in the A
 
 ## Maintain
 
-**Maintain your solution**. See [Maintain](Maintain_9721f0f.md#loio9721f0fb92a84e2a95309acf445cb0a9).
+**Maintain your solution**. See [Create Update for SaaS Solution](Maintain_9721f0f.md#loioa35582346bff4914a5b4b0bcb776668c).
 
 > ### Note:  
 > You can update your solution with patches, support packages, or new releases. Create a new branch from the main branch in your *01 Develop* subaccount for every support package or new release. For minor changes, continue developing in the respective active branch.
@@ -522,10 +521,51 @@ You can provide an application to multiple customers as a SaaS solution in the A
 
 
 
-1.  Continue the development in the main branch.
-2.  To test the development, pull the new state of the main branch to the software component in your *02 Test* subaccount in the *Manage Software Components* app.
-3.  Create a new branch v1.1.0 from the main branch for your software component in your *01 Develop* subaccount.
-4.  Prepare the build process of your Jenkins pipeline by adjusting the `addon.yml` file as follows:
+<a name="loio874dd6060ac64c56a1741d3b6401cf1e__section_gps_fzl_4rb"/>
+
+## Prerequisites
+
+-   You've assigned the `LandscapePortalAdminRoleCollection` in your *05 Provide* subaccount under *Role Collections*. See [Access to Landscape Portal](Order_and_Provide_975bd3e.md#loio195a685a71f84953813e7b3bd255e849).
+-   You’ve set up the maintenance system landscape. See [Set Up Maintenance System Landscape](Maintain_9721f0f.md#loio44035458f01e4142a18d44f9c0301e62).
+
+
+
+**Create new patch version**
+
+Patch versions are used to deliver unplanned and urgent corrections that are required to keep the application up and running.
+
+1.  Import maintenance branch v1.0.0 in ABAP correction system COR.
+2.  Implement the bug fix in the ABAP correction system.
+3.  Import maintenance branch v1.0.0 in ABAP quality assurance system QAS.
+4.  Test the bugfix in ABAP quality assurance system QAS.
+5.  Maintain the corrections that have been developed and tested in ABAP correction system COR and quality assurance system QAS in the development system DEV \(so called double-maintenance\). See [Double Maintenance of Corrections into Development](Double_Maintenance_of_Corrections_into_Development_1241b14.md).
+6.  Configure the `addon.yml` file.
+
+    ```
+    addonProduct: /NAMESPC/PRODUCTX
+    addonVersion: 1.0.1
+    repositories:
+       - name: /NAMESPC/COMPONENT1
+         branch: v1.0.0
+         version: 1.0.1
+         commitID: abcd1234
+    
+    ```
+
+7.  Select *Commit Changes* and start the build pipeline.
+8.  To provide the new version 1.0.1 to customers, open the *Landscape Portal* in your *05 Provide* subaccount. Select the desired system and choose *Add-On Update*.
+
+
+
+**Create new support package version**
+
+Support package versions are used to deliver planned functional enhancements outside of new major releases. They are often used to bundle multiple patch versions to a hotfix collection.
+
+1.  Implement the new feature in the main branch in ABAP development system DEV.
+2.  Import the main branch into ABAP test system TST.
+3.  Test new feature in ABAP test system TST.
+4.   *In the Manage Software Components* app, create a new maintenance branch v1.1.0 that is based on the main branch.
+5.  Configure the `addon.yml` file.
 
     ```
     addonProduct: /NAMESPC/PRODUCTX
@@ -535,10 +575,37 @@ You can provide an application to multiple customers as a SaaS solution in the A
          branch: v1.1.0
          version: 1.1.0
          commitID: abcd1234
+    
     ```
 
-5.  *Commit Changes* and start the build pipeline.
-6.  To provide the new version 1.1.0 to customers, open the *Landscape Portal* in your *05 Provide* subaccount. Select the system in question and click *Add-On Update*.
+6.  Select *Commit Changes* and start the build pipeline.
+7.  To provide the new version 1.1.0 to customers, open the *Landscape Portal* in your *05 Provide* subaccount. Select the desired system and choose *Add-On Update*.
+
+
+
+**Create new release version**
+
+Release versions are used to deliver new major, planned functional enhancements. Typically, they include multiple new implemented features. For example, multiple new apps could be introduced with such a major release.
+
+1.  Implement the new feature in the main branch in ABAP development system DEV.
+2.  Import the main branch into ABAP test system TST.
+3.  Test new feature in ABAP test system TST.
+4.   *In the Manage Software Components* app, create a new maintenance branch v2.0.0 that is based on the main branch.
+5.  Configure the `addon.yml` file.
+
+    ```
+    addonProduct: /NAMESPC/PRODUCTX
+    addonVersion: 2.0.0
+    repositories:
+       - name: /NAMESPC/COMPONENT1
+         branch: v2.0.0
+         version: 2.0.0
+         commitID: abcd1234
+    
+    ```
+
+6.  Select *Commit Changes* and start the build pipeline.
+7.  To provide the new version v2.0.0 to customers, open the *Landscape Portal* in your *05 Provide* subaccount. Select the desired system and choose *Add-On Update*.
 
 **Related Information**  
 

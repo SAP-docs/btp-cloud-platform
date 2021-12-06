@@ -6,11 +6,11 @@ To help you create concise and comprehensible models with CDS, we have put toget
 
 -   [Domain Modeling](https://cap.cloud.sap/docs/guides/domain-models) - Find here an introduction to the basics of domain modeling with CDS, complemented with recommended best practices.
 
--   [Providing and Consuming Services](https://cap.cloud.sap/docs/guides/services) - Learn in this guide how to define services exposed through REST and OData APIs, including an overview of generic features to serve metadata as well as most CRUD requests out of the box, input validations and more.
+-   [Providing Services](https://cap.cloud.sap/docs/guides/providing-services) - Learn in this guide how to define services exposed through REST and OData APIs, including an overview of generic features to serve metadata as well as most CRUD requests out of the box, input validations and more.
 
--   [Using Generic Providers](https://cap.cloud.sap/docs/guides/generic) - CAP provides manifold generic handlers for common, recurring tasks, which serve many requests out-of-the-box, thereby capturing proven best practices collected from a wealth of successful SAP applications.
+-   [Consuming Services](https://cap.cloud.sap/docs/guides/consuming-services) - CAP provides manifold generic handlers for common, recurring tasks, which serve many requests out-of-the-box, thereby capturing proven best practices collected from a wealth of successful SAP applications.
 
--   [Using Databases](https://cap.cloud.sap/docs/guides/databases/) - This guide is about defining, providing, implementing, deploying, and publishing services — so about Service Providers in general.
+-   [Using Databases](https://cap.cloud.sap/docs/guides/databases) - This guide is about defining, providing, implementing, deploying, and publishing services — so about Service Providers in general.
 
 -   [Localization](https://cap.cloud.sap/docs/guides/i18n) - Guides you through the steps to internationalize your application to provide localized versions with respect to both Localized Models as well as Localized Data.
 

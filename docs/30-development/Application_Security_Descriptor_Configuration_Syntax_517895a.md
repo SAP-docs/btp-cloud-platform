@@ -202,7 +202,7 @@ A tenant has multiple subscriptions to applications. For each subscription to an
 
 ## scopes
 
-In the application security file \(An OAuth client always gets the same client secret. It’s valid in all subaccounts. The application service plan uses this tenant mode.`xs-security.json`\), the `scopes` property defines an array of one or more security scopes that apply for an application. You can define multiple `scopes`; each scope has a name and a short description. The list of scopes defined in the `xs-security.json`**local** and **foreign** scopes; that is, the permissions the application requires to be able to respond to all requests. file is used to authorize the OAuth client of the application with the correct set of
+In the application security file \(`xs-security.json`\), the `scopes` property defines an array of one or more security scopes that apply for an application. You can define multiple `scopes`; each scope has a name and a short description. The list of scopes defined in the `xs-security.json`**local** and **foreign** scopes; that is, the permissions the application requires to be able to respond to all requests. file is used to authorize the OAuth client of the application with the correct set of
 
 ```lang-json
 "scopes": [ 

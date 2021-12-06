@@ -100,7 +100,7 @@ The DevOps engineer is responsible for the configuration of the pipeline and imp
 
 -   Initial configuration of add-on pipeline, especially `config.yml`file in git repository
 
--   Implementing pipeline extensions if required
+-   Implementing pipeline extensions if necessary
 
 -   Implementing and deploying multitenant application \(SaaS Registry and ABAP Solution Provider\). See [Developing Multitenant Applications in the ABAP Environment](Developing_Multitenant_Applications_in_the_ABAP_Environment_195031f.md).
 
@@ -158,9 +158,12 @@ Test users are business users in test systems TST and QAS that validate the corr
 
 -   Maintaining business roles. See [Maintain Business Roles](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8980ad05330b4585ab96a8e09cef4688.html).
 
+-   Creating spaces and pages for business roles. See [How to Create and Assign Spaces and Pages](https://help.sap.com/viewer/10fd1742ea914256abedb34bf15bd069/Cloud/en-US/a2318ca9a44b474daadaad85feb2f364.html).
 -   Maintaining communication arrangements. See [Communication Arrangements](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/1decd8b8747443ee8839ce4474a3643e.html).
 
--   Tesingt ABAP backend services
+-   Creating business configuration
+-   Creating key user extensibility
+-   Testing ABAP backend services
 
 -   Testing SAP Fiori UIs
 
@@ -317,7 +320,7 @@ Technical Cloud Foundry Platform User
 </td>
 <td valign="top">
 
-A P-user \(SAP ID Service\) or S-user \(created via SAP ONE Support Launchpad\) is added as a member to subaccounts in the Cloud Foundry environment to create or delete ABAP service instances, create service keys etc. This user does not need authoriziations in SAP ONE Support Launchpad since only authentication via SAP ID Service is used. See [SAP ID Service](../50-administration-and-ops/SAP_ID_Service_d6a8db7.md) and SAP note [1271482](https://launchpad.support.sap.com/#/notes/1271482).
+A P-user \(SAP ID Service\) or S-user \(created via SAP ONE Support Launchpad\) is added as a member to subaccounts in the Cloud Foundry environment to create or delete ABAP service instances, create service keys etc. This user does not need authorizations in SAP ONE Support Launchpad since only authentication via SAP ID Service is used. See [SAP ID Service](../50-administration-and-ops/SAP_ID_Service_d6a8db7.md) and SAP note [1271482](https://launchpad.support.sap.com/#/notes/1271482).
 
 
 
@@ -356,7 +359,7 @@ Jenkins pipeline definitions are source-code-based and stored in a source code r
 
 -   Pulling changes in git repository of pipeline configuration
 
--   Pulling changes in SAP/Jenkins library to Piper library steps
+-   Pulling changes in SAP/Jenkins library to project "Piper" library steps
 
 
 
@@ -495,8 +498,11 @@ Business users make use of the SaaS solution in the consumer tenant for their da
 
 -   Creating business roles
 
+-   Creating spaces and pages for business roles. See [How to Create and Assign Spaces and Pages](https://help.sap.com/viewer/10fd1742ea914256abedb34bf15bd069/Cloud/en-US/a2318ca9a44b474daadaad85feb2f364.html).
 -   Creating communication arrangements
 
+-   Creating business configuration
+-   Creating key user extensibility
 -   Using SAP Fiori UIs
 
 

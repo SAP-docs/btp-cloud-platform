@@ -173,7 +173,26 @@ Change the set of enabled features \(user and entitlement management\) for a dir
 <tr>
 <td valign="top">
 
+List the user-defined labels assigned to a directory
+
+
+
+</td>
+<td valign="top">
+
+`btp list accounts/labels`
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 List the custom properties assigned to a directory
+
+> ### Note:  
+> Custom properties are deprecated. Custom properties support only single values per key and are now replaced by the string array `labels`, which supports multiple values per key. Use `btp list accounts/labels` instead.
 
 
 
@@ -313,7 +332,26 @@ Move a subaccount
 <tr>
 <td valign="top">
 
+List the user-defined labels assigned to a subaccount
+
+
+
+</td>
+<td valign="top">
+
+`btp list accounts/labels`
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 List the custom properties assigned to a subaccount
+
+> ### Note:  
+> Custom properties are deprecated. Custom properties support only single values per key and are now replaced by the string array `labels`, which supports multiple values per key. Use `btp list accounts/labels` instead.
 
 
 
@@ -363,5 +401,5 @@ For more information, see [Subaccounts](../10-concepts/Account_Model_8ed4a70.md#
 
 [Set the Default Command Context](Set_the_Default_Command_Context_720645a.md "Change the default context for all command calls to the global account, a directory, or a subaccount by using the btp target command.")
 
-[Custom Properties \[Feature Set B\]](../10-concepts/Account_Model_8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e "Custom properties allow you to label or tag your directories and subaccounts according to your own business and technical needs. This makes organizing and filtering your directories and subaccounts easier within your global account.")
+[Labels \[Feature Set B\]](../10-concepts/Account_Model_8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.")
 

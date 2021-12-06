@@ -90,7 +90,7 @@ SAP BTP provides different types of global accounts, **enterprise** and **trial*
 
 -   A **trial account** lets you try out the platform for free. Access is open to everyone. Trial accounts are intended for personal exploration, and not for production use or team development. They allow restricted use of the platform resources and services. The trial period varies depending on the environment.
 
-    For more information, see [Trial Accounts](Trial_Accounts_046f127.md).
+    For more information, see [Trial Accounts and Free Tier](Trial_Accounts_and_Free_Tier_046f127.md).
 
 -   An **enterprise account** is usually associated with one SAP customer or partner and contains their purchased entitlements to platform resources and services. It groups together different subaccounts that an administrator makes available to users for deploying applications.
 

@@ -2,26 +2,138 @@
 
 # Get Help
 
-Get help in the btp CLI with the `--help` option.
+There is extensive help in the btp CLI about every command. You can get help with the `help` action or the `--help` option.
 
--   To display general help, use `btp --help`. This lists all commands, ordered in group/object combinations, with the possible actions.
+There are several ways to call help in the btp CLI, and there is help on all levels, from a basic entry page thats explains the syntax to very detailed command-specific help that explains the usage of a command and its parameters in detail.
 
--   To display help for a specific command, type `--help` at the beginning or end of the the respective command. This displays information about the usage, its parameters, a description, helpful tips, and examples.
+The easiest way to get help is probably the `help` action \(for basic help, use `btp help`, as shown in the examples below. But you can also place `--help` at the end or beginning of a command call, for example, `btp list help`, `btp --help list`, and `btp list --help` are interchangeable.
+
+Here's the help syntax:
+
+-   `btp help`
+
+-   `btp help <ACTION>`
+
+-   `btp help <GROUP>`
+
+-   `btp help <GROUP>/<OBJECT>`
 
 
 
+<table>
+<tr>
+<th valign="top">
 
-> ### Sample Code:  
-> ```
-> btp --help list accounts/subaccount
-> ```
+Example Help Calls \(progressing in level of detail\)
 
-> ### Sample Code:  
-> ```
-> btp list accounts/subaccount --help
-> ```
 
-![](images/cli_get_help_dae28be.png)
+
+</th>
+<th valign="top">
+
+What to Expect
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`btp help`
+
+
+
+</td>
+<td valign="top">
+
+Explains the syntax and shows plenty of examples.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`btp help all`
+
+
+
+</td>
+<td valign="top">
+
+Displays an overview of all available commands, ordered according to their group/object combinations.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`btp help list`
+
+
+
+</td>
+<td valign="top">
+
+Displays *list* commands with short summaries.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`btp help accounts`
+
+
+
+</td>
+<td valign="top">
+
+Displays all objects in *accounts* group, and all available actions per group/object combination.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`btp help accounts/subaccount`
+
+
+
+</td>
+<td valign="top">
+
+Displays all available commands for this group/object combination.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`btp help list accounts/subaccount`
+
+
+
+</td>
+<td valign="top">
+
+Displays command-specific help, such as usage, a list of all parameters with descriptions, helpful tips, examples, and links to further documentation.
+
+
+
+</td>
+</tr>
+</table>
 
 **Related Information**  
 
@@ -38,5 +150,7 @@ Get help in the btp CLI with the `--help` option.
 
 [Change the Output Format to JSON](Change_the_Output_Format_to_JSON_dcb85b7.md "Use the --format json option to change the output format of a command to JSON.")
 
-[Specify the Location of the Configuration File](Specify_the_Location_of_the_Configuration_File_e57288d.md "You can change the location of the configuration file by using the --config option.")
+[Specify the Location of the Configuration File](Specify_the_Location_of_the_Configuration_File_e57288d.md "You can change the location of the configuration file by using the --config option or the environment variable.")
+
+[Command Syntax of the btp CLI](Command_Syntax_of_the_btp_CLI_69606f4.md "Each command consists of the base call btp followed by a verb (the action), a combination of group and object, and parameters.")
 

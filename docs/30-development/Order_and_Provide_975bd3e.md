@@ -26,95 +26,6 @@ After the multitenant application has been deployed, the SaaS solution is ready 
 -   To implement and deploy a multitenant application for a SaaS solution, you have to assign the necessary entitlements in the provider subaccount, for example for the ABAP Solution service. See [Developing Multitenant Applications in the ABAP Environment](Developing_Multitenant_Applications_in_the_ABAP_Environment_195031f.md) and [Entitlements and Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00aa2c23479d42568b18882b1ca90d79.html).
 -   To subscribe to the Landscape Portal application, you need the corresponding entitlement. See [Landscape Portal](Landscape_Portal_5eb70fb.md).
 
- <a name="loio1782f253e102484dac378887b3d6d769"/>
-
-<!-- loio1782f253e102484dac378887b3d6d769 -->
-
-### Sizing
-
-The sizing of the SaaS application determines the scope and metric of your offering.
-
-For multitenancy offerings, there’s no sizing/quota per customer. You must decide on an overall sizing depending on the expected load in a region. Sizing can be configured via parameters in the ABAP Solution service, that is managing systems and tenants for systems used to provide the SaaS application.
-
- <a name="loio6cb128101a6f40f3a8f234a1d9bb8b01"/>
-
-<!-- loio6cb128101a6f40f3a8f234a1d9bb8b01 -->
-
-### Multitenancy
-
-As a DevOps engineer using parameter `tenant_mode` in the ABAP Solution service, you can define whether a customer gets a tenant in a dedicated system \(single\) or a shared system \(multi\). See [Define Your ABAP Solution](Define_Your_ABAP_Solution_1697387.md).
-
-> ### Note:  
-> As of now, there is no consumer tenant threshold available to specify the number of tenants to be onboarded per system.
-
-> ### Tip:  
-> For in-depth information about multitenancy, check out [Multitenancy](Concepts_9482e7e.md#loioc8730736a52645b49ca76c08214bf181).
-
- <a name="loiobb8bc1e3c99145c79106ecafc73f5a4f"/>
-
-<!-- loiobb8bc1e3c99145c79106ecafc73f5a4f -->
-
-### Runtime and Persistence
-
-Parameters `size_of_runtime` and `size_of_persistence` are used to determine the number of ABAP compute units and HANA compute units for the creation of an ABAP system.
-
-For systems and tenants created automatically by the ABAP Solution service, the following parameters can be used to determine the sizing of runtime and persistence:
-
-
-<table>
-<tr>
-<td valign="top">
-
-`size_of_runtime`
-
-
-
-</td>
-<td valign="top">
-
-Default sizing for solution
-
-
-
-</td>
-<td valign="top">
-
-Parameter `size_of_runtime` is part of the quota plan `abap/abap_compute_unit`, with the ABAP compute unit representing the number of 16 GB blocks. The following sizes are available: 1, 2, 4, 6, 8 \(16, 32, 64, 96, 128 GB RAM\).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`size_of_persistence`
-
-
-
-</td>
-<td valign="top">
-
-Default sizing for solution
-
-
-
-</td>
-<td valign="top">
-
-Parameter `size_of_persistence` is part of the quota plan `abap/hana_compute_unit`, with the HANA compute unit representing the number of 16 GB blocks. The following sizes are available: 4, 8, 16 \(64, 128, 256 GB RAM\).
-
-
-
-</td>
-</tr>
-</table>
-
-See [Define Your ABAP Solution](Define_Your_ABAP_Solution_1697387.md).
-
-> ### Note:  
-> If the quota for a system is exceeded, you can request a resizing of the ABAP runtime or persistency depending on the needs of the SaaS application.
-
  <a name="loiof3305f65648248318028e02c84375323"/>
 
 <!-- loiof3305f65648248318028e02c84375323 -->
@@ -126,6 +37,9 @@ See [Define Your ABAP Solution](Define_Your_ABAP_Solution_1697387.md).
 As a DevOps engineer, you can implement the multitenancy functionality using SAP Business Application Studio in the development subaccount.
 
 For more information on how to create multitenant-enabled applications in the ABAP environment, see [Developing Multitenant Applications in the ABAP Environment](Developing_Multitenant_Applications_in_the_ABAP_Environment_195031f.md).
+
+> ### Recommendation:  
+> We recommend following the MTA-based implementation approach. See [MTA-Based Approach \(Recommended\)](MTA-Based_Approach_(Recommended)_ca0cc10.md).
 
 1.  You start off by defining your ABAP solution, for example, the parameters explained in the previous chapter need to be configured. See [Define Your ABAP Solution](Define_Your_ABAP_Solution_1697387.md).
 
@@ -144,9 +58,6 @@ For more information on how to create multitenant-enabled applications in the AB
 
 5.  Bind your approuter application to the xsuaa service instance, which acts as an OAuth 2.0 client to your application, and to the ABAP Solution service instance, which represents your ABAP solution. See [Bind the approuter Application to the xsuaa and the ABAP Solution Service Instance](Bind_the_approuter_Application_to_the_xsuaa_and_the_ABAP_Solution_Service_Instance_04b9258.md).
 
-
-> ### Recommendation:  
-> We recommend following the MTA-based implementation approach. See [MTA-Based Approach \(Recommended\)](MTA-Based_Approach_(Recommended)_ca0cc10.md).
 
 > ### Note:  
 > If you need support or experience issues, please report an incident by using component `BC-CP-ABA`.
@@ -180,7 +91,7 @@ The *Landscape Portal* acts as a central tool that allows you to perform lifecyc
 As an operator of the provider subaccount, subscribe to the Landscape Portal application. The `LandscapePortalAdminRoleCollection` needs to be assigned to the users in the configured default identity provider of the subaccount that you want to provide access to the *Landscape Portal* app. See [Accessing the Landscape Portal](Accessing_the_Landscape_Portal_2e1e393.md).
 
 > ### gCTS Delivery:  
-> In the Landscape Portal, you can access the provider system and choose the provider tenant. Via the provider tenant, you get access to Fiori Apps, for example the *Manage Software Components* app, which is used for importing software components via gCTS. For the initial import, you have to clone the software component first and pull the maintenance branch.
+> In the Landscape Portal, you can access the provider system and choose the provider tenant. Via the provider tenant, you get access to Fiori Apps, for example the *Manage Software Components* app, which is used for importing software components via gCTS.
 > 
 > See [Delivery via Add-On or gCTS](Concepts_9482e7e.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 

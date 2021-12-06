@@ -22,6 +22,6 @@ For further information, please refer to the following sections:
 
 -   [Common Annotations](https://cap.cloud.sap/docs/cds/annotations) - A reference and glossary of common annotations intrinsically supported by the CDS compiler and runtimes.
 
--   [Node.js API](https://cap.cloud.sap/docs/cds/js-api) - The CDS compiler is implemented in Node.js. Find here the reference documentation for the respective APIs which can be used in CLI tools as well at runtime in CDS service implementations.
+-   [Node.js API](https://cap.cloud.sap/docs/node.js/cds-compile) - The CDS compiler is implemented in Node.js. Find here the reference documentation for the respective APIs which can be used in CLI tools as well at runtime in CDS service implementations.
 
 

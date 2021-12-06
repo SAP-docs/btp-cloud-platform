@@ -8,7 +8,7 @@ The `CL_FP_FDP_SERVICES` class provides the ABAP API to receive the following:
 
 -   data in xml format for the use in print forms
 
--   XML Schema Definition \(XSD\) used for the design of print forms in the *Adobe LiveCycle Designer*.
+-   data structures used for the design of print forms in the *Adobe LiveCycle Designer*.
 
 
 
@@ -28,15 +28,6 @@ To supply the rendering operation with business data, a reuse service can be app
 
 3.  Once you have retrieved the array with key values, assign the keys that fit to the document you want to output: `lt_keys[ name = 'UUID' ]-value = 'FA163EE47BDD1ED9A682A2E6F1ECF696'`.
 
-
-> ### Sample Code:  
-> ```
-> 
-> DATA(lo_fdp_api) = cl_fp_fdp_services=>get_instance( `FP_FDP_SERVICE_EX1` ).
-> DATA(lt_keys)    = lo_fdp_api->get_keys( ).
-> 
->   lt_keys[ name = 'UUID' ]-value = 'FA163EE47BDD1ED9A682A2E6F1ECF696'.
-> ```
 
 
 
@@ -143,12 +134,15 @@ Resulting XML as XSTRING
 > ### Sample Code:  
 > ```
 > 
-> TRY.
->     DATA(lt_keys)    = lo_fdp_api->get_keys(  ).
->     lt_keys[ name = 'UUID' ]-VALUE = 'FA163EE47BDD1ED9A682A2E6F1ECF696'.
->     DATA(lv_data) = lo_fdp_api->read_to_xml( lt_keys ).
->  CATCH cx_fp_fdp_error INTO DATA(lo_exception).
-> ENDTRY.
+> try.
+>   data(lo_fdp_api) = cl_fp_fdp_services=>get_instance( `FP_FDP_AUNIT_SO` ).
+>   data(lt_keys) = lo_fdp_api->get_keys(  ).
+>   lt_keys[ name = 'UUID' ]-value = 'FA163EE47BDD1ED9A682A2E6F1ECF696'.
+> 
+>   data(lv_data) = lo_fdp_api->read_to_xml( lt_keys ).
+> catch cx_fp_fdp_error into data(lo_exception).
+>   
+> endtry.
 > 
 > ```
 
@@ -156,9 +150,9 @@ Resulting XML as XSTRING
 
 <a name="loioa104660468324090b601ee2969a54d99__section_w5r_cwv_pqb"/>
 
-## Retrieve XML Schema Definition from Service Definition
+## Retrieve XML Data from Service Definition
 
-The `GET_XSD` method retrieves the XML Schema Definition \(XSD\) for the service definition. It has the following returning parameters:
+The `GET_XSD` method retrieves the structure for a service definition. It has the following returning parameters:
 
 <a name="loioa104660468324090b601ee2969a54d99__table_ddr_hwv_pqb"/>Returning Paramaters
 
@@ -201,10 +195,12 @@ Resulting XSD as XSTRING
 > ### Sample Code:  
 > ```
 > 
-> TRY.
->    DATA(lv_xml)     = lo_fdp_api->get_xsd(  ).
->  CATCH cx_fp_fdp_error INTO DATA(lo_exception).
-> ENDTRY.
+> try.
+>   data(lo_fdp_api) = cl_fp_fdp_services=>get_instance( `FP_FDP_AUNIT_SO` ).
+>   data(lv_xml)     = lo_service->get_xsd(  ).
+> catch cx_fp_fdp_error into data(lo_exception).
+>   
+> endtry.
 > 
 > ```
 

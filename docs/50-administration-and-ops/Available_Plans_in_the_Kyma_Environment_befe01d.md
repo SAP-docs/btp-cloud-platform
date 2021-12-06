@@ -238,7 +238,7 @@ Defines a region \(set of datacenters\) where your cluster will run.
 
 -   `europe-west3` \(Europe\)
 -   `us-central1` \(Americas\)
--   `asia-northeast1` \(Asia Pacific\)
+-   `asia-south1` \(Asia Pacific\)
 
 
 
@@ -604,14 +604,14 @@ Specifies the minimum number of virtual machines to create.
 </td>
 <td valign="top">
 
-Specifies the maximum number of virtual machines to create.
+Specifies the maximum number of virtual machines to create. This number cannot be greater than `40`.
 
 
 
 </td>
 <td valign="top">
 
-`4`
+`10`
 
 
 

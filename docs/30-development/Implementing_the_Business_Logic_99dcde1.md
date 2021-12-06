@@ -1,4 +1,4 @@
-<!-- copy15125f5a131e4f7a9c48797305ec7208 -->
+<!-- loio99dcde1a72ed4e7fb0959ead46a7fbf5 -->
 
 # Implementing the Business Logic
 
@@ -96,11 +96,11 @@ Please refer to the example code for an application jobs main class. Literals ar
 **Related Information**  
 
 
+[Creating the Job Catalog Entry](Creating_the_Job_Catalog_Entry_1cff59e.md "")
 
+[Creating the Job Template](Creating_the_Job_Template_1f04ad2.md "")
 
-
-
-
+[Setting up the Authorizations](Setting_up_the_Authorizations_bb559a5.md "Some further activities in ADT and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app Application Jobs.")
 
 [Scheduling an Application Job](../50-administration-and-ops/Scheduling_an_Application_Job_147d689.md "Find out how to schedule an Application Job.")
 

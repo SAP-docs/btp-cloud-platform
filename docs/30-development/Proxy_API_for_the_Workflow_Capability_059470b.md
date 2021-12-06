@@ -2,7 +2,7 @@
 
 # Proxy API for the Workflow Capability
 
-With this proxy API, you can start workflows of the workflow capability within SAP Workflow Management out of your ABAP Environment.
+With the proxy API, you can start workflows of the workflow capability within SAP Workflow Management out of your ABAP Environment.
 
 
 
@@ -37,7 +37,7 @@ You've executed the integration steps in your ABAP environment. See [Workflow In
 >     ).
 > 
 >     DATA(lv_cpwf_handle) = lo_cpwf_api->start_workflow(
->       iv_cp_workflow_def_id = 'myprocess'
+>       iv_cp_workflow_def_id = 'SAP Workflow Management Workflow Definition ID'
 >       iv_context            = lv_context_json
 >       iv_retention_time     = 30
 >       iv_callback_class     = 'ZCL_SWF_CPWF_CALLBACK'
@@ -87,8 +87,8 @@ You've executed the integration steps in your ABAP environment. See [Workflow In
 >              value TYPE int4,
 >            END OF ty_example_context.
 > 
->     CONSTANTS: lc_cp_workflow_def_id TYPE if_swf_cpwf_api=>cpwf_def_id 		VALUE '<Your Workflow Definition ID>',
->                lc_event_def_id       TYPE if_swf_cpwf_api=>cpwf_evt_def_id 	VALUE '<Your Event Definition ID>'.
+>     CONSTANTS: lc_cp_workflow_def_id TYPE if_swf_cpwf_api=>cpwf_def_id 		VALUE '<SAP Workflow Management Workflow Definition ID>',
+>                lc_event_def_id       TYPE if_swf_cpwf_api=>cpwf_evt_def_id 	VALUE '<SAP Workflow Management Event Definition ID>'.
 > 
 >     TRY.
 >         " Get a Instance for the CPWF Integration API

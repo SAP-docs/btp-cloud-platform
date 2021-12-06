@@ -460,6 +460,38 @@ Yes
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Labels
+
+
+
+</td>
+<td valign="top">
+
+Lists the user-defined labels that are assigned directly to each subaccount that has usage data. Also lists the labels that are inherited by the subaccounts from their parent directories, and the IDs of those subaccounts.
+
+This sheet does not display any usage data; however, you can use this information to determine usage by label, by extrapolating the subaccount usage data in the other sheets to the labels assigned to the subaccounts in this sheet.
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+</tr>
 </table>
 
 > ### Example:  

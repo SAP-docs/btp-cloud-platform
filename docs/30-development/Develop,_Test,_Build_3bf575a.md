@@ -568,7 +568,7 @@ Clone the main branch of the software component to the development and test syst
 Software components in the development and test system should always stay on the main branch. If you want to work on maintenance branches to develop bug fixes and other maintenance deliveries, create a dedicated hotfix development and test system \(correction codeline\).
 
 > ### Tip:  
-> For in-depth information about versioning and branches, check out [Versioning and Branches](Concepts_9482e7e.md#loio8c087bca40584f9b899282b4ec515753).
+> For in-depth information about versioning and branches, check out [Versioning and Branches](Versioning_and_Branches_8c087bc.md#loio8c087bca40584f9b899282b4ec515753).
 
  <a name="loio9464e3af139d4e0581cb4e819886b0c8"/>
 
@@ -910,7 +910,7 @@ This step can be triggered by you or by SAP partner management \(governance proc
 **Create maintenance branch**
 
 > ### Recommendation:  
-> For each release and support package level, as an add-on admin, create a maintenance branch that is used for development of bug fixes and maintenance deliveries. See [Versioning and Branches](Concepts_9482e7e.md#loio8c087bca40584f9b899282b4ec515753).
+> For each release and support package level, as an add-on admin, create a maintenance branch that is used for development of bug fixes and maintenance deliveries. See [Versioning and Branches](Versioning_and_Branches_8c087bc.md#loio8c087bca40584f9b899282b4ec515753).
 
 In the test system, create branch ***v1.0.0*** that is based on the main branch.
 
@@ -950,7 +950,7 @@ For the software components in the repositories section of the `addon.yml` file,
 -   commitID = short commit ID of changes to be included, can be retrieved from commit history in the *Manage Software Components* app
 
 > ### Tip:  
-> For in-depth information about versioning and branches, check out [Versioning and Branches](Concepts_9482e7e.md#loio8c087bca40584f9b899282b4ec515753).
+> For in-depth information about versioning and branches, check out [Versioning and Branches](Versioning_and_Branches_8c087bc.md#loio8c087bca40584f9b899282b4ec515753).
 > 
 > To learn how software lifecycle management in the ABAP environment works with software components, see [Basic Concepts and Terms](Basic_Concepts_and_Terms_fb3a076.md). Please follow the best practices on how to define the addon.yml file. See [Add-On Descriptor File](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#add-on-descriptor-file).
 

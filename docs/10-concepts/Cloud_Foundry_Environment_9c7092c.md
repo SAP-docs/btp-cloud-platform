@@ -111,6 +111,8 @@ The following technical configurations are specific to SAP BTP and differ from t
 
 -   In the Cloud Foundry environment, the SAP HANA database supports up to 1,000 simultaneous connections per database.
 
+-   Cloud Foundry Audit Events have a retention period of 14 days. For more information on Audit Events, see [https://docs.cloudfoundry.org/running/managing-cf/audit-events.html](https://docs.cloudfoundry.org/running/managing-cf/audit-events.html).
+
 
  <a name="loiob6a7e11c3a58416a9ab1175bba17193a"/>
 

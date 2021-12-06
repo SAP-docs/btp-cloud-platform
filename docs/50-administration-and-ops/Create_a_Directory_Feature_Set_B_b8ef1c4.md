@@ -21,9 +21,16 @@ For more information on directories, see [Directories \[Feature Set B\]](../10-c
 
 2.  In the *Create* dropdown, choose *Directory*.
 
-3.  In the dialog, enter a display name for your new directory and choose a parent.
+3.  In the dialog, enter a display name for your new directory and choose a parent. The parent can be the global account or another directory.
 
-4.  \(Optional - Set Custom Properties\) Assign custom properties to the directory to make organizing and filtering your directories easier.
+4.  Under *Advanced* \> *Labels*, assign labels to the directory to make organizing and filtering your directories and their subaccounts easier. For more information, see [Labels \[Feature Set B\]](../10-concepts/Account_Model_8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
+
+    > ### Tip:  
+    > -   When adding multiple values to a label, press [Enter\] after each value.
+    > -   When you start typing, any matching label names and values that are already assigned to other directories in your global account are offered as suggestions.
+
+    > ### Note:  
+    > All subaccounts in the path of this directory also inherit all labels that are assigned to this directory.
 
 5.  Review the details of your directory and choose *Create* to finalize the process.
 
@@ -44,9 +51,9 @@ Your directory is created.
 
 Once you've created a directory you can perform the following actions:
 
--   Edit the directory - you can edit the name, description, entitlements and custom properties of the directory.
+-   Edit the directory - you can edit the name, description, entitlements and labels of the directory.
 -   Add subaccounts to the directory - [Manage the Account Explorer Hierarchy \[Feature Set B\]](Manage_the_Account_Explorer_Hierarchy_Feature_Set_B_2e2a5b6.md).
--   Delete the directory - you can only delete a directory that contains no subaccounts.
+-   Delete the directory - you can only delete a directory that does not contain any subaccounts or subdirectories.
 
 **Related Information**  
 
@@ -63,5 +70,5 @@ Once you've created a directory you can perform the following actions:
 
 [View Directory Usage Analytics \[Feature Set B\]](View_Directory_Usage_Analytics_Feature_Set_B_a287782.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your directory.")
 
-[Custom Properties \[Feature Set B\]](../10-concepts/Account_Model_8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e "Custom properties allow you to label or tag your directories and subaccounts according to your own business and technical needs. This makes organizing and filtering your directories and subaccounts easier within your global account.")
+[Labels \[Feature Set B\]](../10-concepts/Account_Model_8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.")
 

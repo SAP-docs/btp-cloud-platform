@@ -60,7 +60,7 @@ Description
 </td>
 <td valign="top">
 
-Specify a short descriptive text about the subaccount.
+\(Optional\) Specify a short descriptive text about the subaccount.
 
 
 
@@ -96,7 +96,7 @@ Enable beta features
 </td>
 <td valign="top">
 
-Enable the subaccount to use services and applications which are occasionally made available by SAP for beta usage on SAP BTP. This option is available to administrators only and is, by default, unselected.
+\(Optional\) Enable the subaccount to use services and applications which are occasionally made available by SAP for beta usage on SAP BTP. This option is available to administrators only and is, by default, unselected.
 
 > ### Caution:  
 > You shouldn't use SAP BTP beta features in subaccounts that belong to productive enterprise accounts. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).
@@ -156,7 +156,7 @@ Description
 </td>
 <td valign="top">
 
-Specify a short descriptive text about the subaccount.
+\(Optional\) Specify a short descriptive text about the subaccount.
 
 
 
@@ -190,7 +190,7 @@ Used for production
 </td>
 <td valign="top">
 
-Select this option if your subaccount is being used for production purposes.
+\(Optional\) Select this option if your subaccount is being used for production purposes.
 
 This does not change the configuration of your subaccount. Use this flag for your internal use to operate your production subaccounts in your global account and systems more efficiently. Your cloud operator may also use this flag to take appropriate action when handling incidents related to mission-critical accounts in production systems.
 
@@ -203,14 +203,18 @@ Do not select this option if your account is used for non-production purposes, s
 <tr>
 <td valign="top">
 
-Custom Properties
+Labels
 
 
 
 </td>
 <td valign="top">
 
-Asssign, change, or remove custom properties from your subaccount. Custom properties help to make organizing and filtering your subaccounts easier.
+\(Optional\) Assign, change, or remove labels from your subaccount. Labels help to make organizing and filtering your subaccounts easier. For more information, see [Labels \[Feature Set B\]](../10-concepts/Account_Model_8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
+
+> ### Tip:  
+> -   When adding multiple values to a label, press [Enter\] after each value.
+> -   When you start typing, any matching label names and values that are already assigned to other subaccounts in your global account are offered as suggestions.
 
 
 
@@ -226,7 +230,7 @@ Enable beta features
 </td>
 <td valign="top">
 
-Enable the subaccount to use services and applications which are occasionally made available by SAP for beta usage on SAP BTP. This option is available to administrators only and is, by default, unselected.
+\(Optional\) Enable the subaccount to use services and applications which are occasionally made available by SAP for beta usage on SAP BTP. This option is available to administrators only and is, by default, unselected.
 
 > ### Caution:  
 > You shouldn't use SAP BTP beta features in subaccounts that belong to productive enterprise accounts. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).

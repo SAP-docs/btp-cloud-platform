@@ -72,5 +72,5 @@ The [Glossary](Glossary_6e251fa.md) contains a list of all the technical terms a
 **Related Information**  
 
 
-[Enabling SaaS Applications for Customers](Enabling_SaaS_Applications_for_Customers_72b0b11.md#loio72b0b1130ee243179b0905ea2cd5adb1 "You can provide an application to multiple customers as a SaaS solution in the ABAP environment. This process comprises the following steps: the build of an add-on version, its deployment to the cloud with a multitarget application, its ordering and provisioning, and a possible updating process. The following concrete example guides you step by step through this process.")
+[Enabling SaaS Applications for Customers](Enabling_SaaS_Applications_for_Customers_72b0b11.md#loio72b0b1130ee243179b0905ea2cd5adb1 "You can provide an application to multiple customers as a SaaS solution in the ABAP environment. This process comprises the following steps: the build of an add-on version, its deployment, its ordering and provisioning with a multitenant application, and a possible updating process. The following concrete example guides you step by step through this process.")
 

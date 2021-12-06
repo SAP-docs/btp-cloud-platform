@@ -176,18 +176,18 @@ Users in the ABAP correction system COR might be locked and need to be unlocked 
 > 
 > See [Delivery via Add-On or gCTS](Concepts_9482e7e.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
+> ### Note:  
+> New features are developed on different code lines \(branches\). If you create a so-called maintenance branch to implement patches while new features are implemented in the main branch of a software component, you can implement new features and provide bug fixes at the same time. For more information, see [Versioning and Branches](Versioning_and_Branches_8c087bc.md#loio8c087bca40584f9b899282b4ec515753).
+> 
+> Only by changing the version string of a software component in the add-on descriptor file `addon.yml`, the build of a new delivery package with the latest changes is created. When defining an addon.yml file, please follow the best practices. See [Add-On Descriptor File](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#add-on-descriptor-file).
+> 
+> To learn more about terminology related to software lifecycle management in the ABAP environment, such as cloning and checkout, see [Basic Concepts and Terms](Basic_Concepts_and_Terms_fb3a076.md).
+
 As an add-on administrator, you can provide different kinds of updates. The decision regarding which one to use depends on the motivation behind a given update.
 
 -   Small and urgent corrections are delivered as patches
 -   Collections of less urgent corrections and other functional enhancements should be delivered as support packages
 -   New release versions are released with updates containing significant enhancements and new features
-
-> ### Note:  
-> New features are developed on different code lines \(branches\). If you create a so-called maintenance branch to implement patches while new features are implemented in the main branch of a software component, you can implement new features and provide bug fixes at the same time. For more information, see [Versioning and Branches](Concepts_9482e7e.md#loio8c087bca40584f9b899282b4ec515753).
-> 
-> Only by changing the version string of a software component in the add-on descriptor file `addon.yml`, the build of a new delivery package with the latest changes is created. When defining an addon.yml file, please follow the best practices. See [Add-On Descriptor File](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#add-on-descriptor-file).
-> 
-> To learn more about terminology related to software lifecycle management in the ABAP environment, such as cloning and checkout, see [Basic Concepts and Terms](Basic_Concepts_and_Terms_fb3a076.md).
 
 **Create new patch version \(emergency patch\)**
 
@@ -216,7 +216,7 @@ As an add-on administrator, you can provide different kinds of updates. The deci
 > ### Note:  
 > For a new patch version, you can use a permanent add-on assembly system to save build time. See [Permanent Add-On Assembly System](Concepts_9482e7e.md#loio52fb6a9e22714843b6e83b7f333b184b).
 
-Small corrections are delivered as patches, also known as emergency patches.
+Patch versions are used to deliver unplanned and most likely urgent corrections that are required to keep the application up and running. These changes could be for example required for a service consumption model of an OData Client Proxy. See [OData Client Proxy](OData_Client_Proxy_0d92f49.md).
 
 -   **Develop**
     -   Import the maintenance branch in the ABAP correction system
@@ -286,7 +286,9 @@ Small corrections are delivered as patches, also known as emergency patches.
 
 **Create new support package version \(hotfix collection\)**
 
-Larger collections of corrections and smaller function enhancements are delivered as support packages.
+Support package versions are used to deliver planned functional enhancements outside of new major releases. They are often used to bundle multiple patch versions to a hotfix collection.
+
+A support package version could be used for example to deliver a new simple business configuration UI. See [Business Configuration in SAP BTP ABAP Environment \(1\): Overview and BC Maintenance Apps](https://blogs.sap.com/2021/09/22/business-configuration-in-sap-btp-abap-environment-1-overview-and-bc-maintenance-apps/).
 
 -   **Develop**
     -   Implement new feature in ABAP development system
@@ -398,7 +400,7 @@ Release versions are used to deliver new major, planned functional enhancements.
 
 -   **Create maintenance branch**
 
-    For each new release version of a software component, you, as an add-on admin user, create a maintenance branch v1.1.0 based on the main branch in development system DEV using the *Manage Software Components* app.
+    For each new release version of a software component, you, as an add-on admin user, create a maintenance branch based on the main branch in development system DEV using the *Manage Software Components* app.
 
     1.  In the test system, open the *Manage Software Components* app.
     2.  Open the software component.
@@ -439,7 +441,8 @@ Release versions are used to deliver new major, planned functional enhancements.
 
 ## Trigger Add-On Product Build
 
-If you are using gCTS instead of add-ons for delivering software components into production systems, an add-on build is not required.
+> ### gCTS Delivery:  
+> If you are using gCTS instead of add-ons for delivering software components into production systems, an add-on build is not required.
 
 Similar to the build of the initial add-on version, you, as an add-on administrator, need to trigger the execution of the configured ABAP environment pipeline for an add-on build.
 

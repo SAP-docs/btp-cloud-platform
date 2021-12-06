@@ -1,4 +1,4 @@
-<!-- copydd74de51600f49fca781cbae31130d9f -->
+<!-- loio1cff59ef893a4a17a478a54b7ba27353 -->
 
 # Creating the Job Catalog Entry
 
@@ -14,9 +14,9 @@ The job catalog entry mainly contains the reference to the implementation class 
 **Related Information**  
 
 
+[Creating the Job Template](Creating_the_Job_Template_1f04ad2.md "")
 
-
-
+[Setting up the Authorizations](Setting_up_the_Authorizations_bb559a5.md "Some further activities in ADT and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app Application Jobs.")
 
 [Scheduling an Application Job](../50-administration-and-ops/Scheduling_an_Application_Job_147d689.md "Find out how to schedule an Application Job.")
 
