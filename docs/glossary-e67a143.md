@@ -33,7 +33,7 @@ Software hosted on SAP BTP and used by business users to fulfill certain tasks. 
 <tr>
 <td valign="top">
 
-[application router](30_development/application-router-01c5f9b.md)
+[application router](30-development/application-router-01c5f9b.md)
 
 
 
@@ -81,7 +81,7 @@ A physically separate location with its own power supply, network, and cooling. 
 <tr>
 <td valign="top">
 
-[boosters](30_development/boosters-fb1b561.md)
+[boosters](30-development/boosters-fb1b561.md)
 
 
 
@@ -97,7 +97,7 @@ A set of guided interactive steps that enable you to select, configure, and cons
 <tr>
 <td valign="top">
 
-[buildpack](10_concepts/cloud-foundry-environment-9c7092c.md#loio9c7092c7b7ae4d49bc8ae35fdd0e0b18)
+[buildpack](10-concepts/cloud-foundry-environment-9c7092c.md#loio9c7092c7b7ae4d49bc8ae35fdd0e0b18)
 
 
 
@@ -113,7 +113,7 @@ In the Cloud Foundry environment, buildpacks provide framework and runtime suppo
 <tr>
 <td valign="top">
 
-[business service](30_development/integration-with-business-services-f6337cd.md)
+[business service](30-development/integration-with-business-services-f6337cd.md)
 
 
 
@@ -129,7 +129,7 @@ Platform services that enable, facilitate, or accelerate the development of busi
 <tr>
 <td valign="top">
 
-[cockpit](10_concepts/tools-abcae5b.md) 
+[cockpit](10-concepts/tools-abcae5b.md) 
 
 
 
@@ -193,7 +193,7 @@ Cloud Connector serves as the link between on-demand applications in SAP BTP and
 <tr>
 <td valign="top">
 
-[cloud management tools](10_concepts/cloud-management-tools-feature-set-overview-caf4e4e.md)
+[cloud management tools](10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md)
 
 
 
@@ -259,7 +259,7 @@ The ability of a system to permanently store data without loss or corruption.
 <tr>
 <td valign="top">
 
-[enterprise account](10_concepts/enterprise-accounts-171511c.md)
+[enterprise account](10-concepts/enterprise-accounts-171511c.md)
 
 
 
@@ -275,7 +275,7 @@ An enterprise account is usually associated with one SAP customer or partner and
 <tr>
 <td valign="top">
 
-[environment](10_concepts/environments-15547f7.md)
+[environment](10-concepts/environments-15547f7.md)
 
 
 
@@ -307,7 +307,7 @@ The automated or manually triggered process of switching from one system to anot
 <tr>
 <td valign="top">
 
-[formation](40_extensions/including-sap-systems-in-a-formation-68b04fa.md)
+[formation](40-extensions/including-sap-systems-in-a-formation-68b04fa.md)
 
 
 
@@ -323,7 +323,7 @@ A logical grouping of SAP systems that can be extended in a single business scen
 <tr>
 <td valign="top">
 
-[global account](10_concepts/account-model-8ed4a70.md#loio8ed4a705efa0431b910056c0acdbf377)
+[global account](10-concepts/account-model-8ed4a70.md#loio8ed4a705efa0431b910056c0acdbf377)
 
 
 
@@ -349,7 +349,7 @@ The realization of a contract you made with SAP. A global account is region- and
 <tr>
 <td valign="top">
 
-[identity provider](60_security/security-e129aa2.md)
+[identity provider](60-security/security-e129aa2.md)
 
 
 
@@ -365,7 +365,7 @@ An authorization authority containing all user information and credentials. In S
 <tr>
 <td valign="top">
 
-[member](10_concepts/user-and-member-management-cc1c676.md)
+[member](10-concepts/user-and-member-management-cc1c676.md)
 
 
 
@@ -397,7 +397,7 @@ Widely adopted security protocol for protection of resources over the Internet. 
 <tr>
 <td valign="top">
 
-[org](10_concepts/user-and-member-management-cc1c676.md)
+[org](10-concepts/user-and-member-management-cc1c676.md)
 
 
 
@@ -445,7 +445,7 @@ A set of concepts used to create applications on SAP BTP. For example, a program
 <tr>
 <td valign="top">
 
-[quota](10_concepts/entitlements-and-quotas-00aa2c2.md)
+[quota](10-concepts/entitlements-and-quotas-00aa2c2.md)
 
 
 
@@ -461,7 +461,7 @@ A numeric quantity that defines the maximum allowed consumption of a specific te
 <tr>
 <td valign="top">
 
-[region](10_concepts/regions-350356d.md#loio350356d1dc314d3199dca15bd2ab9b0e)
+[region](10-concepts/regions-350356d.md#loio350356d1dc314d3199dca15bd2ab9b0e)
 
 
 
@@ -535,7 +535,7 @@ An engine or context for executing programs, such as Java Web Tomcat 8 or Node.j
 <tr>
 <td valign="top">
 
-[SAP BTP, Cloud Foundry environment](10_concepts/cloud-foundry-environment-9c7092c.md#loio9c7092c7b7ae4d49bc8ae35fdd0e0b18)
+[SAP BTP, Cloud Foundry environment](10-concepts/cloud-foundry-environment-9c7092c.md#loio9c7092c7b7ae4d49bc8ae35fdd0e0b18)
 
 
 
@@ -551,7 +551,7 @@ An open Platform-as-a-Service, which provides a scalable runtime container and a
 <tr>
 <td valign="top">
 
-[SAP BTP, Neo environment](10_concepts/neo-environment-0f79436.md)
+[SAP BTP, Neo environment](10-concepts/neo-environment-0f79436.md)
 
 
 
@@ -567,7 +567,7 @@ An enterprise Platform-as-a-Service, providing a range of services to our custom
 <tr>
 <td valign="top">
 
-[SAP BTP, Kyma runtime](10_concepts/kyma-environment-468c2f3.md#loio468c2f3c3ca24c2c8497ef9f83154c44)
+[SAP BTP, Kyma runtime](10-concepts/kyma-environment-468c2f3.md#loio468c2f3c3ca24c2c8497ef9f83154c44)
 
 
 
@@ -583,7 +583,7 @@ A runtime the developers can use to build cloud-native Kubernetes-based extensio
 <tr>
 <td valign="top">
 
-[Pay-As-You-Go for SAP BTP](10_concepts/what-is-the-consumption-based-commercial-model-7047eb4.md)
+[Pay-As-You-Go for SAP BTP](10-concepts/what-is-the-consumption-based-commercial-model-7047eb4.md)
 
 
 
@@ -599,7 +599,7 @@ A variant to the consumption-based commercial model of SAP BTP in which customer
 <tr>
 <td valign="top">
 
-[btp CLI](50_administration_and_ops/account-administration-using-the-sap-btp-command-line-interface-btp-cli-feature-set-b-7c6df2d.md)
+[btp CLI](50-administration-and-ops/account-administration-using-the-sap-btp-command-line-interface-btp-cli-feature-set-b-7c6df2d.md)
 
 
 
@@ -615,7 +615,7 @@ The command line tool for all tasks on global account, directory, and subaccount
 <tr>
 <td valign="top">
 
-[SAP ID service](60_security/security-e129aa2.md)
+[SAP ID service](60-security/security-e129aa2.md)
 
 
 
@@ -631,7 +631,7 @@ The default identity provider for SAP BTP applications. It manages the user base
 <tr>
 <td valign="top">
 
-[SAPUI5](30_development/developing-sapui5-839cb81.md)
+[SAPUI5](30-development/developing-sapui5-839cb81.md)
 
 
 
@@ -647,7 +647,7 @@ A development toolkit providing UI controls for developing Web applications.
 <tr>
 <td valign="top">
 
-[service broker](30_development/service-broker-creation-ee1189a.md)
+[service broker](30-development/service-broker-creation-ee1189a.md)
 
 
 
@@ -663,7 +663,7 @@ When a developer provisions and binds a service to an application, the service b
 <tr>
 <td valign="top">
 
-[service plan](10_concepts/entitlements-and-quotas-00aa2c2.md)
+[service plan](10-concepts/entitlements-and-quotas-00aa2c2.md)
 
 
 
@@ -695,7 +695,7 @@ SAP's own implementation of a Java Virtual Machine on which the SAP BTP infrastr
 <tr>
 <td valign="top">
 
-[space](50_administration_and_ops/create-spaces-2f6ed22.md)
+[space](50-administration-and-ops/create-spaces-2f6ed22.md)
 
 
 
@@ -727,7 +727,7 @@ The process in the Cloud Foundry environment by which the raw bits of an applica
 <tr>
 <td valign="top">
 
-[subaccount](10_concepts/account-model-8ed4a70.md#loio8ed4a705efa0431b910056c0acdbf377)
+[subaccount](10-concepts/account-model-8ed4a70.md#loio8ed4a705efa0431b910056c0acdbf377)
 
 
 
@@ -745,7 +745,7 @@ In the Cloud Foundry environment, a global account can have as many subaccounts 
 <tr>
 <td valign="top">
 
-[subscription](10_concepts/what-is-the-subscription-based-commercial-model-239b6e0.md)
+[subscription](10-concepts/what-is-the-subscription-based-commercial-model-239b6e0.md)
 
 
 
@@ -761,7 +761,7 @@ One of the SAP BTP commercial models \("subscription-based"\), where the custome
 <tr>
 <td valign="top">
 
-[technical service](10_concepts/solutions-and-services-7613d9c.md#loio7613d9ce711e1014839a8273b0e91070)
+[technical service](10-concepts/solutions-and-services-7613d9c.md#loio7613d9ce711e1014839a8273b0e91070)
 
 
 
@@ -777,7 +777,7 @@ Platform services that enable, facilitate, or accelerate the generic development
 <tr>
 <td valign="top">
 
-[tool](10_concepts/tools-abcae5b.md)
+[tool](10-concepts/tools-abcae5b.md)
 
 
 
@@ -793,7 +793,7 @@ A means for users to develop, configure, monitor and administer a service or ent
 <tr>
 <td valign="top">
 
-[user-provided service instances](30_development/creating-user-provided-service-instances-a44355e.md)
+[user-provided service instances](30-development/creating-user-provided-service-instances-a44355e.md)
 
 
 
