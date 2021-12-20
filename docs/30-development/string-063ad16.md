@@ -217,19 +217,3 @@ The following example illustrates how the camel case composition and decompositi
 >   )->value.
 > ```
 
-
-
-### Converting strings to xstrings
-
-Converting a given string to its xstring representation for a given code page can be easily accomplished by making use of `IF_XCO_CHAR_CODE_PAGE`s which are available via `XCO_CP_CHARACTER`:
-
-> ### Sample Code:  
-> ```lang-abap
-> DATA(lv_string) = |ABC|.
-> 
-> " The representation of LV_STRING as an XSTRING where the given character
-> " code page is used for the conversion.
-> DATA(lv_xstring) = xco_cp=>string( lv_string
->   )->as_xstring( xco_cp_character=>code_page->utf_8 ).
-> ```
-

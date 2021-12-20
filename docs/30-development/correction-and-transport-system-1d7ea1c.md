@@ -133,6 +133,16 @@ As an example, obtaining a list of transport requests for a given target on whic
 > ENDLOOP.
 > ```
 
+Given a transport, it is furthermore possible to read its attributes:
+
+> ### Sample Code:  
+> ```lang-abap
+> DATA(ls_properties) = lo_transport_request->properties( )->get( ).
+> 
+> " LS_PROPERTIES is a structure providing the short description, owner, target,
+> " status and last changed moment of the transport request.
+> ```
+
 
 
 <a name="loio1d7ea1c8757740f6bfd9977f72d60b99__section_u2x_krj_hmb"/>

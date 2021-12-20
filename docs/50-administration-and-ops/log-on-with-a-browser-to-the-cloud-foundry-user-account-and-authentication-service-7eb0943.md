@@ -16,7 +16,7 @@ Platform users of the Cloud Foundry environment have the option to log on with a
 
     To log on with a custom identity provider, you must know the origin key of the identity provider.
 
-    For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](Establish_Trust_and_Federation_of_Custom_Identity_Providers_8600afb.md).
+    For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-e-8600afb.md).
 
 -   You don't already have a session with the Cloud Foundry environment.
 
@@ -45,5 +45,5 @@ When you're accessing a web application like a service dashboard \(for example `
 **Related Information**  
 
 
-[Log On with a Custom Identity Provider to the Cloud Foundry Environment Using the Cloud Foundry Command-Line Interface](Log_On_with_a_Custom_Identity_Provider_d477618.md "Learn how to use different methods to log on to Cloud Foundry using a custom identity provider (IdP).")
+[Log On with a Custom Identity Provider to the Cloud Foundry Environment Using the Cloud Foundry Command-Line Interface](log-on-with-a-custom-identity-provider-to-the-cloud-foundry-environment-using-the-cloud-f-d477618.md "Learn how to use different methods to log on to Cloud Foundry using a custom identity provider (IdP).")
 

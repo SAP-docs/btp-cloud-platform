@@ -23,7 +23,7 @@ To change configure the trusted domains, use one of the following methods:
 
 -   Enter trusted domains in SAP BTP cockpit.
 
-    For more information, see [Configure Trusted Domains for SAP Authorization and Trust Management Service \[Feature Set B\]](../50-administration-and-ops/Configure_Trusted_Domains_for_SAP_Authorization_c5e9972.md).
+    For more information, see [Configure Trusted Domains for SAP Authorization and Trust Management Service \[Feature Set B\]](../50-administration-and-ops/configure-trusted-domains-for-sap-authorization-and-trust-management-service-feature-set-c5e9972.md).
 
 -   Access the Security Settings API.
 

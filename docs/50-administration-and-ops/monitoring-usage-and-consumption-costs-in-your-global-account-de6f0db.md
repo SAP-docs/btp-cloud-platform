@@ -650,5 +650,5 @@ Yes
 
 [View Directory Usage Analytics \[Feature Set B\]](view-directory-usage-analytics-feature-set-b-a287782.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your directory.")
 
-[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](Monitoring_Usage_Information_Using_APIs_bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
+[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](monitoring-usage-information-using-apis-of-the-sap-usage-data-management-service-feature-bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
 

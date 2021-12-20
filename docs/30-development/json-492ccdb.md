@@ -55,7 +55,7 @@ Note that the XCO library uses the following terminology:
 
 ### Creating JSON strings
 
-JSON strings can be created in two ways, either from scratch or from a corresponding ABAP data structure. Using the XCO JSON data builder, JSON data can be built like:
+JSON strings can be created in two ways, either from scratch or from a corresponding ABAP data structure. Using the XCO JSON data builder, JSON data can be built like
 
 > ### Sample Code:  
 > ```lang-abap

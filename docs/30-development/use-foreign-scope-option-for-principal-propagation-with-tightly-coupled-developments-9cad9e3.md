@@ -93,5 +93,5 @@ With foreign scope reference, configure the business application to accept new s
 **Related Information**  
 
 
-[Principal Propagation with Tightly Coupled Developments](PP_closely_coupled.md "A scenario is tightly coupled when a business application calls a service within the same subaccount in the Cloud Foundry environment. The business application calls the service with principal propagation, meaning information about the current user is carried over with the service call.")
+[Principal Propagation with Tightly Coupled Developments](principal-propagation-with-tightly-coupled-developments-5ad748d.md "A scenario is tightly coupled when a business application calls a service within the same subaccount in the Cloud Foundry environment. The business application calls the service with principal propagation, meaning information about the current user is carried over with the service call.")
 

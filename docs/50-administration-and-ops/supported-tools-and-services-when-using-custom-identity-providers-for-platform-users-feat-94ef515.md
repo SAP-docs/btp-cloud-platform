@@ -38,7 +38,7 @@ Description
 
 You can connect a Cloud Connector with a multi-environment subaccount of SAP BTP.
 
-For more information, see [Use a Custom IDP for Subaccount Configuration](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/202261235a204db5ba0b35bbaa6d40ff.html "Enable custom identity provider (IDP) authentication to configure a Cloud Foundry subaccount in the Cloud Connector by using a one-time passcode.") :arrow_upper_right:.
+For more information, see <?sap-ot O2O class="- topic/xref " href="202261235a204db5ba0b35bbaa6d40ff.xml" text="" desc="" xtrc="xref:1" xtrf="file:/c:/dita/irb1637568998101/src/cms/content/localization/en-US/94ef5154e384408796c035a82b043f82.xml" ?>.
 
 
 
@@ -59,7 +59,7 @@ Make sure you use the Cloud Foundry command-line interface \(CF CLI v7\). For mo
 > ### Restriction:  
 > With v6 of the CF CLI, you can't use the ***--origin*** option in ***cf set-org-role*** and ***cf set-space-role***. Use the *Members* tab in the SAP BTP cockpit. Go to the SAP BTP cockpit under **<my\_global\_account\>** \> **<my\_subaccount\>** \> *Security* \> *Members* to set the user's permissions.
 
-For more information, see [Log On with a Custom Identity Provider to the Cloud Foundry Environment Using the Cloud Foundry Command-Line Interface](Log_On_with_a_Custom_Identity_Provider_d477618.md).
+For more information, see [Log On with a Custom Identity Provider to the Cloud Foundry Environment Using the Cloud Foundry Command-Line Interface](log-on-with-a-custom-identity-provider-to-the-cloud-foundry-environment-using-the-cloud-f-d477618.md).
 
 See also [Using the Cloud Foundry CLI with SAP HANA Cloud](https://help.sap.com/viewer/9ae9104a46f74a6583ce5182e7fb20cb/hanacloud/en-US/921f3e46247947779d69b8c85c9b9985.html)
 
