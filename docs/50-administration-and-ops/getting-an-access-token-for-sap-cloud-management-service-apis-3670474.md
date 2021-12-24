@@ -169,7 +169,7 @@ Your global account admin has entitled at least SAP ONE Service service plan fro
     > }
     > ```
 
-3.  Use the `uaa_url`, `clientid`, and `clientsecret` to request an access token using the following commands:
+3.  Use the `uaa.url`, `uaa.clientid`, and `uaa.clientsecret` to request an access token using the following commands:
 
     > ### Sample Code:  
     > For Windows OS \(Password grant type\):
