@@ -42,12 +42,12 @@ jobs:
       run: "echo ::add-matcher::.github/workflows/markdownlint/problem-matcher.json"
 
     - id: install_linter
-      name: Install linting tool and custom rule
+      name: Install linting tool, custom rule and rule helpers
       run: |
         npm install \
           --no-package-lock \
           --no-save \
-          markdownlint-cli markdownlint-rule-titlecase
+          markdownlint-cli markdownlint-rule-titlecase markdownlint-rule-helpers
 
     - id: run_linter
       if: steps.check_files_changed.outputs.changed_files
@@ -55,5 +55,6 @@ jobs:
       run: |
         npx markdownlint \
           --config .github/workflows/markdownlint/config.yaml \
+          --rules .github/workflows/markdownlint/md901 \
           --rules markdownlint-rule-titlecase \
           ${{ steps.check_files_changed.outputs.changed_files }}
