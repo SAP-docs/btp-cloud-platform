@@ -199,10 +199,10 @@ Your global account admin has entitled at least SAP ONE Service service plan fro
     > For Mac OS \(Password grant type\):
     > 
     > ```
-    > curl -L -X POST '*<uaa\_url\>*/oauth/token' \ 
-    > -H 'Content-Type: application/x-www-form-urlencoded' \ 
-    > -u '*<clientid\>*:*<clientsecret\>*' \ 
-    > -d 'grant_type=password' \ 
+    > curl -L -X POST '*<uaa\_url\>*/oauth/token' \
+    > -H 'Content-Type: application/x-www-form-urlencoded' \
+    > -u '*<clientid\>*:*<clientsecret\>*' \
+    > -d 'grant_type=password' \
     > -d 'username=*<user email\>*' \
     > -d 'password=*<password\>*'
     > 
@@ -212,10 +212,10 @@ Your global account admin has entitled at least SAP ONE Service service plan fro
     > For Mac OS \(Client Credentials grant type\):
     > 
     > ```
-    > curl -L -X POST '*<uaa\_url\>*/oauth/token' \ 
-    > -H 'Content-Type: application/x-www-form-urlencoded' \ 
-    > -u '*<clientid\>*:*<clientsecret\>*' \ 
-    > -d 'grant_type=client_credentials' \ 
+    > curl -L -X POST '*<uaa\_url\>*/oauth/token' \
+    > -H 'Content-Type: application/x-www-form-urlencoded' \
+    > -u '*<clientid\>*:*<clientsecret\>*' \
+    > -d 'grant_type=client_credentials'
     > 
     > ```
 
