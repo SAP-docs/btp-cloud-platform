@@ -178,9 +178,9 @@ Your global account admin has entitled at least SAP ONE Service service plan fro
     > curl -L -X POST "*<uaa\_url\>*/oauth/token" ^ 
     > -H "Content-Type: application/x-www-form-urlencoded" ^ 
     > -u "*<clientid\>*:*<clientsecret\>*" ^ 
-    > -d "grant_type=password" ^ 
-    > -d "username=*<user email\>*" ^ 
-    > -d "password=*<password\>*" 
+    > --data-urlencode "grant_type=password" ^ 
+    > --data-urlencode "username=*<user email\>*" ^ 
+    > --data-urlencode "password=*<password\>*" 
     > 
     > ```
 
@@ -202,9 +202,9 @@ Your global account admin has entitled at least SAP ONE Service service plan fro
     > curl -L -X POST '*<uaa\_url\>*/oauth/token' \
     > -H 'Content-Type: application/x-www-form-urlencoded' \
     > -u '*<clientid\>*:*<clientsecret\>*' \
-    > -d 'grant_type=password' \
-    > -d 'username=*<user email\>*' \
-    > -d 'password=*<password\>*'
+    > --data-urlencode 'grant_type=password' \
+    > --data-urlencode 'username=*<user email\>*' \
+    > --data-urlencode 'password=*<password\>*'
     > 
     > ```
 
