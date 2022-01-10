@@ -30,7 +30,7 @@ Learn how to install and set up abapGit.
 
     Your repository is set up.
 
-4.  Copy the content of the latest build from program `zabapgit` to your clipboard. You can find the content in the abapGit repository [https://github.com/larshp/abapGit](https://github.com/larshp/abapGit).
+4.  Copy the content of the latest build from program `zabapgit` to your clipboard. You can find the content in the abapGit repository [https://github.com/abapGit/abapGit](https://github.com/abapGit/abapGit).
 
     > ### Caution:  
     > Check with your system administrator before installing `zabapgit`.
@@ -62,4 +62,3 @@ Learn how to install and set up abapGit.
 ## Next Steps
 
 [Create Content in an On-Premise System and Push it to abapGit Repository](create-content-in-an-on-premise-system-and-push-it-to-abapgit-repository-2af08ee.md)
-
