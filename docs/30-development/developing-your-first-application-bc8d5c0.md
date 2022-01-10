@@ -27,7 +27,7 @@ Technology
 <tr>
 <td valign="top">
 
-[Use the Application Programming Model in our Starter Scenario](https://developers.sap.com/mission.cp-starter-extensions-cap.html)
+[Use the SAP Cloud Application Programming Model (CAP) in our Starter Scenario](https://developers.sap.com/mission.cp-starter-extensions-cap.html)
 
 
 
