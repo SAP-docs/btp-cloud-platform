@@ -34,7 +34,7 @@ Technology
 </td>
 <td valign="top">
 
-Application Programming Model \(CDS and Node.js\)
+SAP Cloud Application Programming Model \(CDS and Node.js\)
 
 
 
