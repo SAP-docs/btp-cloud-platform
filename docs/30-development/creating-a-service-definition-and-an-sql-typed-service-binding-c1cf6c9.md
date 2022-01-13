@@ -39,7 +39,7 @@ To expose the new CDS view entities using the ODBC driver for ABAP, you need to 
 
     You can use a mixed-case name for the service binding. The service binding name acts as the schema name for external ODBC consumers.
 
-7.  As binding type, select *SQL1 – Web API* and choose *Next* and *Finish*.
+7.  As binding type, select *SQL – Web API* and choose *Next* and *Finish*.
 
 8.  Activate the service binding.
 

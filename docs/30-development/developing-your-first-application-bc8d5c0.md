@@ -27,7 +27,7 @@ Technology
 <tr>
 <td valign="top">
 
-[Use the SAP Cloud Application Programming Model (CAP) in our Starter Scenario](https://developers.sap.com/mission.cp-starter-extensions-cap.html)
+[Build a Business Application Using CAP for Node.js](https://developers.sap.com/mission.cp-starter-extensions-cap.html)
 
 
 
@@ -59,14 +59,14 @@ SAPUI5
 <tr>
 <td valign="top">
 
-[Create and Deploy Your First Node.js App](https://developers.sap.com/group.scp-5-node.html)
+[Create a Python Application via cf CLI](https://developers.sap.com/tutorials/btp-cf-buildpacks-python-create.html)
 
 
 
 </td>
 <td valign="top">
 
-Node.js
+Python
 
 
 

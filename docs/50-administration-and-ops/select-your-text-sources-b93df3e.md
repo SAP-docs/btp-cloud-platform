@@ -18,13 +18,36 @@ Select the text sources that you want to have translated.
 
 1.  In the *Maintain Translations*app, open the project you want to add text sources to.
 2.  Scroll down to *Text Sources* and click *Add*.
-3.  Here you can select which objects to add. There are eight objects that are supported: Data definitions, data elements, domains, message classes, text tables \(see below\), metadata extensions, application log objects and business configuration objects. It’s also possible to specify a package from which all supported translatable elements will be pulled into the translation project. Please note that translatable elements in sub packages are not included.
-4.  Once you select your *Type*, you can either enter a *Name* or open the value help to see a list of available objects and select one. Click *Add* to add your object.
+3.  Here you can select which text sources to add. The following text source types are supported:
+
+    -   Domains
+
+    -   Data Elements
+
+    -   Data Definitions
+
+    -   Message Classes
+
+    -   Metadata Extensions
+
+    -   Application Log Objects
+
+    -   Business Configuration Objects
+
+    -   Text Pools
+
+    -   Text Tables
+
+    -   IAM business catalogs
+
+
+    It’s also possible to specify a package from which all supported translatable elements will be pulled into the translation project. Please note that translatable elements in sub packages are not included.
+
+4.  Select *Add* to open the *Add Text Source* dialog which displays all text sources that can be added to the translation project. By filtering the type and name, you can choose the text sources you want to add. Select *Add* to add the text sources you selected to your translation project.
 
     > ### Note:  
-    > Objects that can be translated by a translation project need to reside in the same software component as the translation project.
+    > Text sources that can be translated by a translation project need to reside in the same software component as the translation project.
 
-5.  Repeat this step until you have added all objects you want to translate.
 
 
 
@@ -49,10 +72,13 @@ Select the text sources that you want to have translated.
 > -   When the translations are published, the rows containing the texts in the target language will be added to the selected transport via R3TR TABU.
 > 
 > 
-> In this tutorial \([Create Business Configuration for Factory Calendar](https://developers.sap.com/tutorials/abap-environment-service-binding.html)\) on how to create a business configuration application to maintain holidays, for instance, the language-dependent texts for the respective holidays are stored as entries in the database table ZCAL\_HOLIDAY\_XXX. The non-key field for which translations can be maintained is field FCAL\_DESCRIPTION.
+> In this tutorial \([Create Business Configuration for Factory Calendar](https://developers.sap.com/tutorials/abap-environment-service-binding.html)\) on how to create a business configuration application to maintain holidays, for instance, the language-dependent texts for the respective holidays are stored as entries in the database table `HOLITXT`. The non-key field for which translations can be maintained is field `FCAL_DESCRIPTION`.
+
+> ### Note:  
+> Please note that the translation of text table entries is only available in environments that support transporting client-specific data.
 
 **Related Information**  
 
 
-[Select your Source and Target Language\(s\)](select-your-source-and-target-language-s-85823ef.md)
+[Select your Source and Target Language](select-your-source-and-target-language-85823ef.md)
 

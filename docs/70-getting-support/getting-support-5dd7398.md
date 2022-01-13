@@ -7,7 +7,7 @@ Use SAP Community, get guided answers, or explore SAP Support Portal.
 
 
 > ### Note:  
-> This section is applicable for all multicloud environments. To find which environments are available in your region, see [Regions](../10-concepts/regions-350356d.md#loio350356d1dc314d3199dca15bd2ab9b0e).
+> This section is applicable for all multicloud environments. To find which environments are available in your region, see [Regions](../10-concepts/regions-350356d.md).
 
 
 

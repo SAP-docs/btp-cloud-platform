@@ -533,26 +533,6 @@ As a developer user, you can then create an SAP Fiori dev space and generate UI 
 > ### Recommendation:  
 > For frontend development, we recommend using SAP Business Application Studio. See [Develop an SAP Fiori Application UI and Deploy it to ABAP Using SAP Business Application Studio](develop-an-sap-fiori-application-ui-and-deploy-it-to-abap-using-sap-business-application-eaaeba4.md).
 
- <a name="loiobf557544f90f4bc88911c4865ec78207"/>
-
-<!-- loiobf557544f90f4bc88911c4865ec78207 -->
-
-### Set Up Transport from Development to Test System via gCTS
-
-You can set up the transport of your development from a development to a test system either manually with the *Manage Software Components* app or in an automated fashion.
-
-**Manually import into test system via gCTS**
-
-As an add-on admin user, you can pull the latest released changes of a software component to the test system by using the main branch. You can test these changes in the test system independent from ongoing development. See [How to Pull Software Components](../50-administration-and-ops/how-to-pull-software-components-90b9b9d.md) and [ABAP Lifecycle Management](abap-lifecycle-management-5c7b17d.md).
-
-**\[Optional\] Set up a CI server and pipeline for automatic testing**
-
-To schedule a regular import of new changes into the test system, you can use a CI server and pipeline to automate this process.
-
-![](images/Pipeline_dev_to_test_8d52073.png)
-
-As a DevOps engineer, you can configure the ABAP environment pipeline for an automated DEV to TST transport. To do so, a static and preconfigured system is used.With the pipeline, the pulling of specified software components/Git repositories is automated, triggered by the pipeline execution of the add-on administrator. See [Continuous Testing on SAP BTP ABAP Environment](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentTest/) and [Running ATC Checks on a Static ABAP Environment System](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/atc-static) for further details and an example.
-
  <a name="loio89a353151e534380a03b2a572a227731"/>
 
 <!-- loio89a353151e534380a03b2a572a227731 -->
@@ -569,6 +549,27 @@ Software components in the development and test system should always stay on the
 
 > ### Tip:  
 > For in-depth information about versioning and branches, check out [Versioning and Branches](versioning-and-branches-8c087bc.md#loio8c087bca40584f9b899282b4ec515753).
+
+ <a name="loiobf557544f90f4bc88911c4865ec78207"/>
+
+<!-- loiobf557544f90f4bc88911c4865ec78207 -->
+
+### Set Up Transport from Development to Test System
+
+You can perform the import of your software components into a test system either manually by using the *Manage Software Components* app or in an automated way using the [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
+
+**Manually import into test system via gCTS**
+
+As an add-on admin user, you can pull the latest released changes of a software component to the test system by using the main branch. You can test these changes in the test system independent from ongoing development. See [How to Pull Software Components](../50-administration-and-ops/how-to-pull-software-components-90b9b9d.md) and [ABAP Lifecycle Management](abap-lifecycle-management-5c7b17d.md).
+
+> ### Note:  
+> A CI server that is running the ABAP Environment Pipeline is required. See [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
+
+To schedule a regular import of new changes into the test system, you can use a CI server and pipeline to automate this process.
+
+![](images/Pipeline_dev_to_test_8d52073.png)
+
+As a DevOps engineer, you can configure the ABAP environment pipeline for an automated DEV to TST transport. To do so, a static and preconfigured system is used. With the pipeline, the pulling of specified software components/Git repositories is automated, triggered by the pipeline execution of the add-on administrator. See [Continuous Testing on SAP BTP ABAP Environment](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentTest/) and [Running ATC Checks on a Static ABAP Environment System](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/atc-static) for further details and an example.
 
  <a name="loio9464e3af139d4e0581cb4e819886b0c8"/>
 

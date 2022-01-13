@@ -6,7 +6,10 @@
 
 ## Context
 
-You want to translate your RAP-based Fiori app. Before you can select your text sources and target languages, you need to create a translation project.
+You want to translate your developer extension. Before you can select your text sources and target languages, you need to create a translation project.
+
+> ### Note:  
+> Please assign the business catalog `SAP_A4C_BC_TRN_MNG_PC` to ensure that changes can be recorded on transport requests.
 
 
 

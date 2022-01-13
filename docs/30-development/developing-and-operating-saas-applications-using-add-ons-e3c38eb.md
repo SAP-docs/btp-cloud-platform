@@ -44,6 +44,8 @@ Chapter [Maintain](maintain-9721f0f.md#loio9721f0fb92a84e2a95309acf445cb0a9) giv
 
 Chapter [Dismantle](dismantle-35a5882.md) provides information about consumer offboarding, in particular about deleting and restoring tenants.
 
+In chapter [Troubleshooting](troubleshooting-3687b52.md), you can find further information related to common issues concerning multitenant applications, ABAP Solution service, or Landscape Portal as well as for issues that might occur during the add-on build.
+
 The [Glossary](glossary-6e251fa.md) contains a list of all the technical terms and phrases used in this scenario.
 
 > ### Tip:  

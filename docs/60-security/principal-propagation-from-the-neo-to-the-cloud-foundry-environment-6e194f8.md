@@ -317,7 +317,7 @@ Connect the first subaccount to the second subaccount by describing the source c
     > 
     > `https://demo.authentication.eu10.hana.ondemand.com/saml/metadata`
     > 
-    > For the `<region host>`, see [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-350356d.md#loiof344a57233d34199b2123b9620d0bb41).
+    > For the `<region host>`, see [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md).
 
     Example of audience/entityID:
 
@@ -366,7 +366,7 @@ Connect the first subaccount to the second subaccount by describing the source c
     > 
     > `https://demo.authentication.eu10.hana.ondemand.com/saml/metadata`
     > 
-    > For the `<region host>`, see [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-350356d.md#loiof344a57233d34199b2123b9620d0bb41).
+    > For the `<region host>`, see [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md).
 
     Example of token service URL:
 

@@ -26,7 +26,7 @@ Identity Authentication is closely integrated with SAP BTP, and it is offered as
 
 2.  You have to save the metadata of your Identity Authentication tenant on your local file system as an XML file. You can either find the tenant at `https://*<tenant ID\>*.accounts.ondemand.com/saml2/metadata` or access it via *Applications & Resources* \> *Tenant Settings* \> *SAML 2.0 Configuration*. Then choose the *Download Metadata File* link. You will need this metadata in **Step 5**.
 
-3.  Open the SAP BTP cockpit and select the region in which your subaccount is hosted. Select the global account that contains your subaccount, and then choose the tile of your subaccount. For more information about regions, see [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-350356d.md#loiof344a57233d34199b2123b9620d0bb41).
+3.  Open the SAP BTP cockpit and select the region in which your subaccount is hosted. Select the global account that contains your subaccount, and then choose the tile of your subaccount. For more information about regions, see [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md).
 
 4.  Choose *Security* \> *Trust Configuration*.
 

@@ -10,6 +10,9 @@ You can configure the integration between SAP BTP and SAP Customer Experience au
 
 ## Overview
 
+> ### Note:  
+> The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
+
 SAP BTP offers a standard way for extending SAP solutions.
 
 You can extend SAP Customer Experience products in SAP BTP, Kyma runtime without disrupting the performance and the core processes. You can build extension applications for SAP Commerce Cloud, SAP Field Management, and SAP Cloud for Customer. When building extension applications, you can also benefit from the automation of the integration between the cloud platform and SAP Customer Experience.

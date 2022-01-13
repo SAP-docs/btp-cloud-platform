@@ -23,9 +23,7 @@ A quota for the Cloud Foundry runtime is optional. It's only needed for the ABAP
 
 2.  Go to your global account.
 
-3.  \[Feature Set A\]: From the navigation area, choose *Entitlements* \> *Subaccount Entitlements* and enter your subaccount.
-
-    \[Feature Set B\]: From the navigation area, choose *Entitlements* \> *Entity Assignments*.
+3.  From the navigation area, choose *Entitlements* \> *Entity Assignments*.
 
 4.  If there is no entry for the Cloud Foundry runtime, choose *Configure Entitlements* and *Add Service Plans*.
 

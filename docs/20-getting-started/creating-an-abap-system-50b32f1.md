@@ -76,9 +76,9 @@ For more information about creating service instances, see [Create Service Insta
     > 
     > With the parameters `size_of_persistence` and `size_of_runtime`, you control the sizing of your new system.
     > 
-    > Parameter `size_of_persistence` refers to the size of SAP HANA memory. It's part of the quota plan *hana\_compute\_unit*, with one HANA compute unit representing the suitable block size for the underlying SAP HANA Cloud instance \(15 GB on AWS, 16 GB on Azure\). The number of hana\_compute\_unit per HANA instance may vary between 2 and 16. Larger sizes can be made available upon request.
+    > Parameter `size_of_persistence` refers to the size of SAP HANA memory. It's part of the quota plan *hana\_compute\_unit*, with one HANA compute unit representing the suitable block size for the underlying SAP HANA Cloud instance \(15 GB on AWS\). The supported number of hana\_compute\_unit per HANA instance is 2, 4, 8, or 16. Larger sizes can be made available upon request..
     > 
-    > Parameter `size_of_runtime` refers to the size of the ABAP runtime. It's part of the quota plan *abap\_compute\_unit*, with one ABAP compute unit representing 16 GB blocks. The number of abap\_compute\_unit may vary between 1 and 8.
+    > Parameter `size_of_runtime` refers to the size of the ABAP runtime. It's part of the quota plan *abap\_compute\_unit*, with one ABAP compute unit representing 16 GB. The number of abap\_compute\_unit may vary between 1 and 8.
     > 
     > Make sure that you don't choose more compute units than you have assigned to your subaccount for the ABAP environment \(see [Increasing the Quota for the ABAP Environment](increasing-the-quota-for-the-abap-environment-c40cb18.md)\).
 

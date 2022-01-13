@@ -21,6 +21,9 @@ You can create a formation and assign to it the different SAP systems of the dif
 
 ## Context
 
+> ### Note:  
+> The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
+
 You can create a formation and assign to it the different SAP systems of the different SAP solutions that you want to extend.
 
 Extension business cases often involve extending several SAP solutions at a time. For example, for a single business case you have to extend the functionality and/or the UI of:

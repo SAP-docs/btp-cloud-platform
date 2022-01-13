@@ -17,6 +17,9 @@ The extension capabilities of SAP BTP offer a standard way for extending SAP S/4
 
 You can extend SAP S/4HANA Cloud without disrupting its performance and core processes. When building extension applications, you can also benefit from the automation of the integration between the cloud platform and SAP S/4HANA Cloud.
 
+> ### Note:  
+> The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
+
 The following graphic provides a high-level overview of the integration between the cloud platform and SAP S/4HANA Cloud:
 
 ![](images/SAPCPExtensionFactory_11bf994.png)

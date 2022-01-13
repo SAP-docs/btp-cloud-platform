@@ -67,7 +67,7 @@ You can switch the Kyma Eventing backend from NATS to SAP Event Mesh by followin
     ```
 
     > ### Note:  
-    > The **\{EVENT\_MESH\_NAMESPACE\}** field cannot exceed 64 characters, or begin or end with a dot or hyphen. This is because it's necessary to follow the SAP Event Specification, which is based on the [CloudEvents Specification](https://github.com/cloudevents/spec/blob/v1.0/spec.md). For more information, read .
+    > The **\{EVENT\_MESH\_NAMESPACE\}** field cannot exceed 64 characters, or begin or end with a dot or hyphen. This is because it's necessary to follow the SAP Event Specification, which is based on the [CloudEvents Specification](https://github.com/cloudevents/spec/blob/v1.0/spec.md). For more information, read the [SAP Event Mesh documentation](https://help.sap.com/viewer/bf82e6b26456494cbdd197057c09979f/Cloud/en-US/00d56d697c7549408cfacc8cb6a46b11.html).
 
 3.  Go to *Service Management* \> *Instances* and select the new Service Instance.
 

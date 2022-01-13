@@ -37,6 +37,8 @@ To connect an SAP SuccessFactors system with a global account in SAP BTP, you ne
 
     5.  Add your role to the dedicated group. See [Assigning Roles to Groups](https://help.sap.com/viewer/b569eee64d3f4159b2b5272ba7d6b127/LATEST/en-US/fbaadf758e00485893d6f099e9f342fa.html).
 
+    6.  To fully activate the permissions, log out and log in again to the SAP SuccessFactors company instance.
+
 
 
 

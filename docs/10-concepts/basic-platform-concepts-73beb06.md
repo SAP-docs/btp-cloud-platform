@@ -47,7 +47,7 @@ Regions are provided either by SAP or by our Infrastructure-as-a-Service \(IaaS\
 
 A region is chosen at the subaccount level. For each subaccount, you select exactly one region \(that is one data center\).
 
-For more information, see [Regions](regions-350356d.md#loio350356d1dc314d3199dca15bd2ab9b0e).
+For more information, see [Regions](regions-350356d.md).
 
 
 

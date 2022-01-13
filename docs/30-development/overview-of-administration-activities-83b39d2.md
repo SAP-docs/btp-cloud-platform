@@ -44,8 +44,6 @@ Communication arrangements help you to configure the electronic data exchange be
 
 ## More Information
 
-For more information about how to use the communication management apps in SAP S4/HANA systems to integrate with other systems see [Communication Management](https://help.sap.com/viewer/f544846954f24b9183eddadcc41bdc3b/latest/en-US/2e84a10c430645a88bdbfaaa23ac9ff7.html).
-
 For more information about available services in SAP S/4HANA Cloud that can be consumed by external systems, search for services on the SAP API Business Hub at [http://api.sap.com](http://api.sap.com) or follow this [direct link](https://api.sap.com/package/SAPS4HANACloud?section=Artifacts).
 
 For more information about how to consume services offered as part of SAP S/4HANA Cloud or other SAP products, see [API Management](https://help.sap.com/viewer/66d066d903c2473f81ec33acfe2ccdb4/Cloud/en-US/adcbc07b031b4ac285b22867a1216306.html).

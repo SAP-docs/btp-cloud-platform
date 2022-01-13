@@ -6,6 +6,14 @@ Set up a Kubernetes cluster with project "Kyma" and use it to build applications
 
 
 
+<a name="loio09dd313bf6644250a14f8f38c3d644c0__prereq_drc_4yb_zrb"/>
+
+## Prerequisites
+
+Your subaccount has entitlements for Kyma runtime configured. For more information, read [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
+
+
+
 <a name="loio09dd313bf6644250a14f8f38c3d644c0__context_er4_224_5pb"/>
 
 ## Context
@@ -14,8 +22,6 @@ To set up the Kyma environment on your subaccount, you must create an instance o
 
 > ### Note:  
 > The legacy method to set up a Kubernetes cluster is to select *Enable Kyma* in the *Kyma Environment* section of your subaccount overview. However, this way offers fewer configuration options, so we recommend the Service Marketplace.
-> 
-> This is available only if your subaccount has entitlements for Kyma runtime configured. For more information, read [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
 
 
 

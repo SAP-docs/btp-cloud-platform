@@ -154,7 +154,7 @@ For each ABAP system, only one branch can be active at a time. Therefore, in dev
 Based on the mentioned software component versioning principles, the add-on package types, and branching approach, you can use different delivery models.
 
 > ### Recommendation:  
-> You should choose the delivery model based on the existing processes in your development/shipment environment. As faster delivery cycles have certain advantages, especially for a software that is provided as a SaaS solution \(all consumers should be able to use the latest product version\), we recommend following the continous delivery approach whenever possible.
+> You should choose the delivery model based on the existing processes in your development/shipment environment. Shorter delivery cycles have the advantage that new features are delivered more frequently. Therefore, we recommend following the continuous delivery approach whenever possible.
 
 
 
@@ -180,10 +180,17 @@ The new support package build for version 1.1.0 is derived from the main branch 
 
 For a new release, add-on version 2.0.0 is released. The resulting AOI package includes all features and bug fixes since the last AOI build for version 1.0.0 has been released.
 
+Branch v1.1.0, that is based on the main branch, includes same commits as the main branch \(Z, B, C, and E\). For the build of CPK v1.0.2 and CSP v1.1.0, however, only the objects that have been changed since the previous CSP/AOI are included in the object list.
+
 > ### Note:  
 > With this delivery model, support packages not only include the corrections for the current support package level but also new features allowing shorter development cycles.
 
 > ### Recommendation:  
+> In a continuous delivery model, we recommend:
+> 
+> -   Building and deploying a new CSP on a weekly or biweekly basis.
+> -   Shipping new software component releases on a quarterly basis. These AOI packages contain every object that has been built and delivered with the support packages, including all the patches.
+> 
 > We recommend shipping new software component releases on a quarterly basis. These AOI packages contain every object that has been built and delivered with the support packages, including all the patches.
 > 
 > In a continuous delivery model, we recommend building and deploying a new CSP on a weekly or biweekly basis.
@@ -203,13 +210,9 @@ That way, support packages are only used for the purpose of patch collections: o
 > ### Note:  
 > With this delivery model, new features are only delivered with new release versions \(AOI packages\). The build for version 1.1.0 does not include commit C. As late as with the build for version 2.0.0, this feature is shipped. Consequently, new features take longer until they are available in production systems.
 
-> ### Note:  
-> Since only major software component releases are based on the main branch for this delivery model, the double maintenance of corrections in the maintenance branches is even more important.
-
 This delivery model is similar to processes commonly used to ship on-premise solutions where upgrades are much more complex and usually performed on a quarterly basis. Instead of shipping more often but in smaller packages, this approach promotes building larger shipment packages with a lot of new features.
 
-> ### Recommendation:  
-> We recommend following the continuous delivery approach whenever possible to mitigate risks during installation and updates by shipping smaller packages.
+Branch v1.1.0, that is based on branch v1.0.0, includes the same commits as branch v1.0.0 \(Z, A, and D\). For the build of CPK v1.0.2 and CSP v1.1.0, however, only the objects that have been changed since the previous CSP/AOI are included in the object list.
 
  <a name="loio919be04888aa4e07b1a99416fb8bb68d"/>
 

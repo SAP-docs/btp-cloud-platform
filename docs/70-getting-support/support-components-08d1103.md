@@ -2476,7 +2476,7 @@ Seamlessly orchestrate business processes and integrate data in real time.
 <tr>
 <td valign="top">
 
- [Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e6c7616abb5710148cfcf3e75d96d596.html) 
+ [Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html) 
 
 
 
@@ -2554,7 +2554,7 @@ Establish connections between cloud applications and on-premise systems.
 <tr>
 <td valign="top">
 
- [Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e6c7616abb5710148cfcf3e75d96d596.html) 
+ [Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html) 
 
 
 
@@ -2627,7 +2627,7 @@ Establish connections between cloud applications and on-premise systems.
 <tr>
 <td valign="top">
 
- [Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e6c7616abb5710148cfcf3e75d96d596.html) 
+ [Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html) 
 
 
 
@@ -2697,7 +2697,7 @@ Establish connections between cloud applications and on-premise systems.
 <tr>
 <td valign="top">
 
- [Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e6c7616abb5710148cfcf3e75d96d596.html) 
+ [Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html) 
 
 
 
@@ -2762,7 +2762,7 @@ Establish connections between cloud applications and on-premise systems.
 <tr>
 <td valign="top">
 
- [Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e6c7616abb5710148cfcf3e75d96d596.html) 
+ [Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html) 
 
 
 
@@ -11247,279 +11247,6 @@ Organize your documents with ready-to-use document management capabilities.
 <tr>
 <td valign="top">
 
- [Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
-
-
-
-</td>
-<td valign="top">
-
-Digitize workflows, manage decisions and gain end-to-end process visibility
-
-
-
-</td>
-<td valign="top">
-
--   LOD-BPM-PFS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Process Automation
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   Australia \(Sydney\)
--   US East \(VA\)
--   Singapore
--   Japan \(Tokyo\)
--   Brazil \(São Paulo\)
--   South Korea \(Seoul\)
--   Europe \(Frankfurt\) EU Access
--   Canada \(Montreal\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- [Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
-
-
-
-</td>
-<td valign="top">
-
-Digitize workflows, manage decisions and gain end-to-end process visibility
-
-
-
-</td>
-<td valign="top">
-
--   LOD-BPM-PFS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Process Automation
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Netherlands\)
--   US West \(WA\)
--   US East \(VA\)
--   Singapore
--   Japan \(Tokyo\)
--   Australia \(Sydney\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- [Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
-
-
-
-</td>
-<td valign="top">
-
-Digitize workflows, manage decisions and gain end-to-end process visibility
-
-
-
-</td>
-<td valign="top">
-
--   LOD-BPM-PFS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Process Automation
-
-
-
-</td>
-<td valign="top">
-
--   GCP
-
-
-
-</td>
-<td valign="top">
-
--   US Central \(IA\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- [Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
-
-
-
-</td>
-<td valign="top">
-
-Digitize workflows, manage decisions and gain end-to-end process visibility
-
-
-
-</td>
-<td valign="top">
-
--   LOD-BPM-PFS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Process Automation
-
-
-
-</td>
-<td valign="top">
-
--   Alibaba
-
-
-
-</td>
-<td valign="top">
-
--   China \(Shanghai\)\*\*
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
  [SAP Analytics Cloud, embedded edition](https://help.sap.com/viewer/product/SAC_EMBEDDED_EDITION/1.0/en-US) 
 
 
@@ -16903,6 +16630,279 @@ Analyze usage of your websites and web applications.
 -   US East \(VA\)
 -   Singapore
 -   Japan \(Tokyo\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
+
+
+
+</td>
+<td valign="top">
+
+Digitize workflows, manage decisions and gain end-to-end process visibility
+
+
+
+</td>
+<td valign="top">
+
+-   LOD-BPM-PFS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Extension Suite - Digital Process Automation
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   Australia \(Sydney\)
+-   US East \(VA\)
+-   Singapore
+-   Japan \(Tokyo\)
+-   Brazil \(São Paulo\)
+-   South Korea \(Seoul\)
+-   Europe \(Frankfurt\) EU Access
+-   Canada \(Montreal\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
+
+
+
+</td>
+<td valign="top">
+
+Digitize workflows, manage decisions and gain end-to-end process visibility
+
+
+
+</td>
+<td valign="top">
+
+-   LOD-BPM-PFS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Extension Suite - Digital Process Automation
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
+-   US West \(WA\)
+-   US East \(VA\)
+-   Singapore
+-   Japan \(Tokyo\)
+-   Australia \(Sydney\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
+
+
+
+</td>
+<td valign="top">
+
+Digitize workflows, manage decisions and gain end-to-end process visibility
+
+
+
+</td>
+<td valign="top">
+
+-   LOD-BPM-PFS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Extension Suite - Digital Process Automation
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   US Central \(IA\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
+
+
+
+</td>
+<td valign="top">
+
+Digitize workflows, manage decisions and gain end-to-end process visibility
+
+
+
+</td>
+<td valign="top">
+
+-   LOD-BPM-PFS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Extension Suite - Digital Process Automation
+
+
+
+</td>
+<td valign="top">
+
+-   Alibaba
+
+
+
+</td>
+<td valign="top">
+
+-   China \(Shanghai\)\*\*
 
 
 

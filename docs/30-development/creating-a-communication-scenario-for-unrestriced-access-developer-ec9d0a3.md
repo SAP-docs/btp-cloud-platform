@@ -33,3 +33,8 @@ For more information, see [Consuming Services in the Context of API with Technic
 7.  If you want to test your communication scenario directly in the development system, publish it locally to make sure that the required services have been generated.
 
 
+**Related Information**  
+
+
+[Overview of Communication Management](overview-of-communication-management-5b8ff39.md "")
+

@@ -26,7 +26,7 @@ You can use service keys to generate credentials to communicate directly with a 
 
 4.  Choose the tile for the ABAP environment space.
 
-5.  From the navigation area, choose *Services* \> *Instances and Subscriptions*.
+5.  From the navigation area, choose *Services* \> *Instances*.
 
 6.  Choose the service instance for the ABAP system.
 

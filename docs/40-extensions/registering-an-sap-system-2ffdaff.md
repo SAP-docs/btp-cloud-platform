@@ -18,6 +18,9 @@ You are a global account administrator, or you are a system landscape administra
 
 ## Context
 
+> ### Note:  
+> The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
+
 The registration process is based on an integration token that is used for the pairing of the system and the corresponding global account. You create the token in the SAP BTP cockpit, and then use it to configure the integration on the corresponding SAP solution side.
 
 The following SAP system types are supported:

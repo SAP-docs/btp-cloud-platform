@@ -86,7 +86,40 @@ The SAP SaaS Provisioning service allows application providers to register multi
         </td>
         <td valign="top">
 
-        \(Optional\) Any URL that the application exposes for `GET` dependencies. If the application doesn’t have dependencies and the callback isn’t implemented, it shouldn’t be declared.
+        \(Optional\) Implement a callback API that is executed by the SAP SaaS Provisioning Service to retrieve your application's dependencies.
+
+        > ### Note:  
+        > Implement only if your application has dependencies.
+
+        **API Structure**
+
+        -   Request:
+
+            -   GET
+
+            -   URL: Define the endpoint to which SAP SaaS Provisioning Service executes the request. For example: `https://*<app url\>*/callback/v1.0/dependencies`
+
+        -   Response:
+            -   HTTP Status Code: 200 \(Ok\)
+
+            -   Header: `content-type: application/json`
+            -   Response Body:
+
+                Specify the `xsappname` of each of your dependencies.
+
+                ```nocode
+                
+                    {
+                        "xsappname": "..."     # The xsappname of the reusable service instance that the application consumes.
+                                                 Find it in the following environment variable of your application:
+                                                 *<VCAP\_SERVICES.<service\>.credentials.xsappname
+                \>*
+                    },
+                    ....
+                
+                ```
+
+
 
         > ### Note:  
         > The JSON response of the callback must be encoded as either UTF8, UTF16, or UTF32, otherwise an error is returned.

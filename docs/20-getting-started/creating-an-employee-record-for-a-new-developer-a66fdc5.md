@@ -18,7 +18,7 @@ Create an employee record for a new developer user for the ABAP environment.
 
 4.  Enter the data for the new developer, including employee ID, name, and e-mail address.
 
-    The entered e-mail is important because it is the default approach to authorization and represents the mapping between the user in the identity provider and in the ABAP environment.
+    The entered e-mail is important because it represents the mapping between the user in the identity provider and in the ABAP environment.
 
 5.  Choose *Save*.
 

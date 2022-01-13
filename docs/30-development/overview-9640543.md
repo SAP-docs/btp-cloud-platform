@@ -204,18 +204,14 @@ Operator
 <tr>
 <td valign="top">
 
-Transport \(DEV, TST\) with gCTS. See [Set Up Transport from Development to Test System via gCTS](develop-test-build-3bf575a.md#loiobf557544f90f4bc88911c4865ec78207).
+Set up add-on development. [Set Up Add-On Development](develop-test-build-3bf575a.md#loio89a353151e534380a03b2a572a227731).
 
 
 
 </td>
 <td valign="top">
 
-Plan and set up your test and maintenance system landscape and processes.
-
-[Tutorial: Transport a Software Component Between two Systems](https://developers.sap.com/tutorials/abap-environment-gcts.html)
-
-\[Optional\] Set up a CI server and pipeline for testing. See [ABAP Environment Pipeline](https://sap.github.io/jenkins-library/pipelines/abapEnvironment/introduction/).
+Create a new software component for add-on development and clone the main branch of the software component to the development and test system.
 
 
 
@@ -231,14 +227,19 @@ Add-on administrator
 <tr>
 <td valign="top">
 
-Set up add-on development. [Set Up Add-On Development](develop-test-build-3bf575a.md#loio89a353151e534380a03b2a572a227731).
+Transport \(DEV, TST\) with gCTS. See [Set Up Transport from Development to Test System](develop-test-build-3bf575a.md#loiobf557544f90f4bc88911c4865ec78207).
 
 
 
 </td>
 <td valign="top">
 
-Create a new software component for add-on development and clone the main branch of the software component to the development and test system.
+Plan and set up your test and maintenance system landscape and processes.
+
+[Tutorial: Transport a Software Component Between two Systems](https://developers.sap.com/tutorials/abap-environment-gcts.html)
+
+> ### Note:  
+> A CI server that is running the ABAP Environment Pipeline is required. See [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
 
 
 

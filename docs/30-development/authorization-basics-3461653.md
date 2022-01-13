@@ -32,7 +32,7 @@ You can assign a check table to each authorization field. This table will serve 
 
 An authorization object groups up to 10 authorization fields that are related by `AND`. An authorization object ensures that complex authorization checks can run for multiple conditions. For example, you can create an authorization object that defines which products users can access, such as products of type *Material*, of type *Service*, or both. Typically, you have the authorization field *Activity* in an authorization object because you want to define what kind of activities users can perform or not. Depending on the business context, you add more authorization fields, such as a purchase order type. In an authorization object, you also define which values of the *Activity* field you think are relevant.
 
-After you have created authority fields and authority objects, you must implement checks against the authorization object to make sure that only authorized users can perform certain activities. During this check, the values specified in the program are compared with the values contained in the user's authorizations.
+After you have created authorization fields and authorization objects, you must implement checks against the authorization object to make sure that only authorized users can perform certain activities. During this check, the values specified in the program are compared with the values contained in the user's authorizations.
 
 
 

@@ -23,9 +23,7 @@ If you are working in an enterprise account, you need to add quotas to the servi
 
 2.  Go to your global account.
 
-3.  \[Feature Set A\]: From the navigation area, choose *Entitlements* \> *Subaccount Entitlements* and enter your subaccount.
-
-    \[Feature Set B\]: From the navigation area, choose *Entitlements* \> *Entity Assignments*.
+3.  From the navigation area, choose *Entitlements* \> *Entity Assignments*.
 
 4.  Enter the subaccount for the ABAP environment and choose *Go*.
 

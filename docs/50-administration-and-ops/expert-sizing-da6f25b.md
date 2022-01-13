@@ -8,7 +8,7 @@ Expert sizing involves the following steps:
 
 1.  Identify the sizing-relevant \(main\) business scenarios and their variable dimensions.
 
-2.  Determine the throughput requirements during defined time periods and their day-time distribution. As part of the requirement determination, separate scenarios that are time-critical from those scenarios that can be postponed to low load times.
+2.  Determine the throughput requirements during defined time periods and their day-time distribution. As part of the requirement determination, separate scenarios that are time-critical from those scenarios that can be postponed to times with lower load.
 
 3.  Define test cases for each relevant scenario with a reasonable number of input parameters and assumptions. These test cases must be self-contained and idempotent, which means repeatable with a stable load profile.
 

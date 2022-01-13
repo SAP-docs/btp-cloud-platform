@@ -181,33 +181,20 @@ To join the partner program, sign up for [SAP Partner Edge - Build](https://www.
 </td>
 <td valign="top">
 
-See [Regions](regions-350356d.md#loio350356d1dc314d3199dca15bd2ab9b0e).
+See [Regions](regions-350356d.md).
 
 
 
 </td>
 <td valign="top">
 
-See [Regions](regions-350356d.md#loio350356d1dc314d3199dca15bd2ab9b0e).
+See [Regions](regions-350356d.md).
 
 
 
 </td>
 </tr>
 </table>
-
-
-
-<a name="loio171511cc425c4e079d0684936486eee6__section_hbn_sbl_v4b"/>
-
-## EU Access
-
-Some customer contracts include EU Access, which restricts processing of personal data to EEA/Switzerland. If the global account is marked with EU Access, the actual EU Access compliance status of subaccounts will be displayed during creation of subaccounts.
-
-> ### Note:  
-> If you need a subaccount with EU Access, make sure to select a provider and region,, where EU Access is available. For more information, see [Regions](regions-350356d.md#loio350356d1dc314d3199dca15bd2ab9b0e)
-> 
-> For some services, EU Access is generally not available, not even if the provider and region support EU Access.
 
 
 

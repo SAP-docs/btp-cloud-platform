@@ -24,13 +24,13 @@ Defining the JBP\_CONFIG\_JAVA\_OPTS environment variable in the `manifest.yml` 
 >   memory: 512M
 > ...
 >   env:
->      JBP_CONFIG_JAVA_OPTS: '[from_environment: false, java_opts: ''-DtestJBPConfig=^%PATH^% -DtestJBPConfig1="test test" -DtestJBPConfig2="%PATH%"'']'
+>      JBP_CONFIG_JAVA_OPTS: 'java_opts: ''-DtestJBPConfig=^%PATH^% -DtestJBPConfig1="test test" -DtestJBPConfig2="%PATH%"'''
 > ```
 
 Defining the JBP\_CONFIG\_JAVA\_OPTS environment variable by using the `cf set-env` command of the Cloud Foundry Command Line Interface \(cf CLI\).
 
 ```
-cf set-env myapp JBP_CONFIG_JAVA_OPTS "[from_environment: false, java_opts: '-DtestJBPConfig=^%PATH^% -DtestJBPConfig1=\"test test\" -DtestJBPConfig2=\"^%PATH^%\"']"
+cf set-env myapp JBP_CONFIG_JAVA_OPTS "[java_opts: '-DtestJBPConfig=^%PATH^% -DtestJBPConfig1=\"test test\" -DtestJBPConfig2=\"^%PATH^%\"']"
 ```
 
 
@@ -69,7 +69,7 @@ In case you need to specify a option value, which has blank spaces in it, you ne
 >    memory: 512M
 > ...
 >    env:
->      JBP_CONFIG_JAVA_OPTS: '[from_environment: false, java_opts: ''-DtestJBPConfig=\$PATH -DtestJBPConfig1="test test" -DtestJBPConfig2="$PATH"'']'
+>      JBP_CONFIG_JAVA_OPTS: 'java_opts: ''-DtestJBPConfig=\$PATH -DtestJBPConfig1="test test" -DtestJBPConfig2="$PATH"'''
 > ```
 
  <a name="loio604fdb57c97744a0b6bff91d503f99a8"/>
@@ -154,7 +154,7 @@ To use an agent with the SAP Java Build pack, set the *<JBP\_CONFIG\_JAVA\_OPTS\
 
 ```
 env:
-    JBP_CONFIG_JAVA_OPTS: '[java_opts: "-javaagent:<PathToYourAgent>"]'
+    JBP_CONFIG_JAVA_OPTS: 'java_opts: "-javaagent:<PathToYourAgent>"'
 ```
 
 The Java agent is platform-agnostic, but must be compatible to the version of the JVM you are using.
@@ -163,7 +163,7 @@ You can also use a native agent. Since a native agent is a dynamic library, it m
 
 ```
  env:
-    JBP_CONFIG_JAVA_OPTS: '[java_opts: "-agentpath:<PathToYourAgent>"]'
+    JBP_CONFIG_JAVA_OPTS: 'java_opts: "-agentpath:<PathToYourAgent>"'
 ```
 
  <a name="loio785d6b390b834bee818e242160f87df5"/>
@@ -188,7 +188,7 @@ applications:
 - name: <app-name>
   ...
   env:
-    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
+    JBP_CONFIG_COMPONENTS: "jres: 'com.sap.xs.java.buildpack.jdk.SAPMachineJDK'"
   ...
 ```
 

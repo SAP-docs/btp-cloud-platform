@@ -31,28 +31,29 @@ Before setting up your account, you need to decide which free offering for SAP B
 
     To find out how you can use your trial account, see [Trial Scope](trial-accounts-and-free-tier-046f127.md#loio046f127f2a614438b616ccfc575fdb16__section_trial-scope) or try out one of our [Starter Scenarios](https://developers.sap.com/tutorial-navigator.html?tag=tutorial:topic/cp-starter-scenario) on the [Tutorial Navigator](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-business-technology-platform).
 
+-   **Delete your SAP BTP trial account.** 
+
+    After 365 days, your trial account is automatically deleted. If you want to proactively delete your SAP BTP trial account, you can navigate to the global accounts scope and select the Account Explorer page, then click the *Delete Trial Account* button.
+
+    -   If you want to continue to use an SAP BTP trial account, you need to register for a new account.
+
+    -   If you want to explore SAP BTP without time limit, create an enterprise account with free tier service plans allowing you to test your scenarios. See: [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html).
+
+
+    > ### Note:  
+    > Your trial account will be deleted permanently, if you haven't logged in for more than 90 days.
+
 -   **Extend your SAP BTP trial account in 30-day intervals.**
-    -   Extend your trial account by clicking *Extend Trial Account* in the popup window that appears once 30 days have passed.
+
+     ![](images/ExtendTrial_987e111.png) 
 
     -   If you sign into your trial account regularly, the 30-day intervals are extended automatically for you.
 
-    -   If you don't sign into your trial account regularly, your account will be suspended after your current 30-day interval. You'ren’t able to use applications or services in suspended accounts. To reactivate a suspended trial account, click *Extend Trial Account* in the popup window that appears when you try to sign in. You'll be then able to use your account again.
+    -   Extend your trial account by clicking *Extend Trial Account* in the popup window that appears once 30 days have passed.
+
+    -   If you don't sign into your trial account regularly, your account will be suspended after your current 30-day interval. You aren't able to use applications or services in suspended accounts. To reactivate a suspended trial account, click *Extend Trial Account* in the popup window that appears when you try to sign in. You'll then be able to use your account again.
 
 
--   **Delete your SAP BTP trial account.**
-
-    -   365 days after you registered for your trial account, your account is deleted automatically.
-
-        > ### Note:  
-        > Your trial account will be deleted permanently, if you haven’t logged in for more than 90 days.
-
-    -   If you ever want to proactively delete your SAP BTP trial account, you can navigate to the global accounts scope and select the *Account Explorer* page, then click the *Delete Trial Account* button.
-
-
-
-After your trial account has been deleted, you can create a new trial account, anytime.
-
- ![](images/ExtendTrial_987e111.png) 
 
 
 
@@ -60,11 +61,11 @@ After your trial account has been deleted, you can create a new trial account, a
 
 ## Trial Scope
 
--   A trial account enables you to explore the basic functionality of SAP BTP for 365 days.
+-   A trial account enables you to explore the basic functionality of SAP BTP.
 
 -   SAP BTP trial accounts use cloud management tools feature set B. For more information, see [Cloud Management Tools — Feature Set Overview](cloud-management-tools-feature-set-overview-caf4e4e.md).
 
--   SAP BTP trial accounts are available in several regions. For more information, see [Regions](regions-350356d.md#loio350356d1dc314d3199dca15bd2ab9b0e).
+-   SAP BTP trial accounts are available in several regions. For more information, see [Regions](regions-350356d.md).
 
 -   You can create directories in your trial account. For more information, see [Managing Directories Using the Cockpit \[Feature Set B\]](../50-administration-and-ops/managing-directories-using-the-cockpit-feature-set-b-f495ac1.md)
 
@@ -82,12 +83,12 @@ After your trial account has been deleted, you can create a new trial account, a
 
 -   There’s no service level agreement with regards to the availability of the platform.
 
--   You can use HDI containers in a shared SAP HANA database \(only available on cf-eu10 or cf-us10\).
+-   You can use HDI containers in a shared SAP HANA database \(only available on cf-us10\).
 
 -   For cleanup purposes, applications stop automatically on a daily basis. You need to manually restart them when needed.
 
     > ### Note:  
-    > Applications are stopped at midnight \(or some time thereafter depending on server load\) relative to the region in which you created your trial account. If you’re working in a time zone that is far from the region where your trial account was created, then your applications may stop during business hours.
+    > Applications are stopped at midnight \(or some time later depending on server load\) relative to the region in which you created your trial account. If you're working in a time zone that is far from the region where your trial account was created, then your applications may stop during business hours.
 
 
 **Related Information**  

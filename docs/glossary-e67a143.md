@@ -461,7 +461,7 @@ A numeric quantity that defines the maximum allowed consumption of a specific te
 <tr>
 <td valign="top">
 
-[region](10-concepts/regions-350356d.md#loio350356d1dc314d3199dca15bd2ab9b0e)
+[region](10-concepts/regions-350356d.md)
 
 
 

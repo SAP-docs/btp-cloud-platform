@@ -142,6 +142,17 @@ The standard SAP `python_buildpack` supports the following versions:
 
 
 
+## Python Tutorial
+
+The following tutorial will guide you through creating a Python application in cf CLI, consuming Cloud Foundry services, and setting up authentication and authorization checks. See:
+
+[Create a Python Application via Cloud Foundry Command Line Interface](https://developers.sap.com/tutorials/btp-cf-buildpacks-python-create.html)
+
+> ### Note:  
+> The tutorial is executed in a **trial** account but you can just as well apply it for **productive** use. The only difference is that, in [Section 3](https://developers.sap.com/tutorials/btp-cf-buildpacks-python-create.html#a7b970ca-97ca-4288-abfd-5b7194676861) → step **1**, you have to replace the `hanatrial` service with *hana*, and the `securestore` plan with *hdi-shared*.
+
+
+
 ## Tips and Tricks
 
 Selected tips and tricks for your Python development. See [Tips and Tricks for Python Applications](tips-and-tricks-for-python-applications-b5e1c82.md).

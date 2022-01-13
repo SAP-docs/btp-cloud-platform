@@ -2,7 +2,7 @@
 
 # Maintain Translations
 
-The *Maintain Translations* app provides an easy way to translate your RAP-based apps into other languages.
+The *Maintain Translations* app provides an easy way to translate developer extensions into other languages.
 
 
 
@@ -10,7 +10,7 @@ The *Maintain Translations* app provides an easy way to translate your RAP-based
 
 ## Context
 
-You’ve built a RAP-based Fiori app and would now like to translate it into other languages. The *Maintain Translations*app allows you to select your text sources and generate an XLIFF \(1.2\) file containing the translatable texts as well as useful notes on them. XLIFF \(XML Localization Interchange File Format\) is a standard used in localization. The XLIFF file can then be forwarded to a dedicated translator or translation agency. Once the XLIFF file has been translated, you can use the *Maintain Translations* app to upload it and publish the translated texts into your system.
+You’ve built a developer extension and would now like to translate it into other languages. The *Maintain Translations* app allows you to select your text sources and generate an XLIFF \(1.2\) file containing the translatable texts as well as useful notes on them. XLIFF \(XML Localization Interchange File Format\) is a standard used in localization. The XLIFF file can then be forwarded to a dedicated translator or translation agency. Once the XLIFF file has been translated, you can use the *Maintain Translations* app to upload it and publish the translated texts into your system.
 
 
 
@@ -18,7 +18,7 @@ You’ve built a RAP-based Fiori app and would now like to translate it into oth
 
 -   [Create a Translation Project](create-a-translation-project-b07e69e.md)
 -   [Select Your Text Sources](select-your-text-sources-b93df3e.md)
--   [Select your Source and Target Language\(s\)](select-your-source-and-target-language-s-85823ef.md)
+-   [Select your Source and Target Language](select-your-source-and-target-language-85823ef.md)
 -   [Generate and Download the XLIFF File](generate-and-download-the-xliff-file-bd697ad.md)
 -   [Upload and Publish the Translated XLIFF File to the System](upload-and-publish-the-translated-xliff-file-to-the-system-ef1faa8.md)
 

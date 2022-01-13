@@ -22,7 +22,7 @@ Your texts have been translated and a new XLIFF file has been sent back to you. 
 
 5.  Now the translations have been uploaded to the system. They still need to be published, however. Select the entry and click *Publish*.
 
-6.  Select a transport to which you want to add the corresponding language \(LANG\) transport entries and click *Select*.
+6.  Select a transport to which you want to add the corresponding language \(LANG\) transport entries or R3TR TABU entries \(in case of text tables\) and click *Select*.
 
     Your translations have now been published.
 

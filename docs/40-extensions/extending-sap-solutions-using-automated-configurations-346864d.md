@@ -10,6 +10,9 @@ The extension capabilities of SAP Business Technology Platform \(SAP BTP\) enabl
 
 ## Overview
 
+> ### Note:  
+> The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
+
 With the automated configuration you have the following key benefits:
 
 -   A way of extending standard SAP solutions without disrupting their performance and core processes

@@ -15,17 +15,11 @@ In this object you can define an application's central log out end point by usin
 > }
 > ```
 
-Making a `GET` request to “`/my/logout`” triggers a client-initiated central log out. Central log out can be initiated by a client or triggered due to a session timeout, with the following consequences:
+Making a `GET` or `POST` request to “`/my/logout`” triggers a client-initiated central log out with the following consequences:
 
--   Client-initiated central log out
-    -   Deletes the user session
-    -   Requests the log out paths for all your back-end services \(if you provided these paths in the `destinations` and `service` properties\).
-    -   Redirects to the authentication service \(UAA or Indentity Authentication - depending on which service you are using for the authentication\), if such a service is provided, and logs out from there.
-
--   Session time out
-    -   Deletes the user session
-    -   Requests the log out paths for all your back-end services \(if you provided these paths in the `destinations` and `service` properties\).
-
+-   Deletes the user session
+-   Requests the log out paths for all your back-end services \(if you provided these paths in the `destinations` and `service` properties\).
+-   Redirects to the authentication service \(UAA or Indentity Authentication - depending on which service you are using for the authentication\), if such a service is provided, and logs out from there.
 
 You can use the `logoutPage` property to specify the Web page in one of the following ways:
 

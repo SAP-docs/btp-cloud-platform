@@ -40,7 +40,7 @@ We recommend this method of logging on if you want to use an automated script an
     > 
     > ```
 
-    -   Find the `*<region\>*` value, that applies to you in the section [Regions](../10-concepts/regions-350356d.md#loio350356d1dc314d3199dca15bd2ab9b0e).
+    -   Find the `*<region\>*` value, that applies to you in the section [Regions](../10-concepts/regions-350356d.md).
 
     -   Find the `*<origin\>*` value for the user that you want to use in the cockpit.
 

@@ -13,7 +13,7 @@ User authorizations are managed by assigning role collections to users \(for exa
 
 ## Managing Users and Assigning Role Collections
 
-Role collections are user-related authorizations that allow access to resources and services. You give users permissions by assigning role collections to them. Note that together with the first assignment to a role collection, you need to initially add the user with parameter `--add-user-if-missing`. This creates a shadow user in the current context. For example, after creating a subaccount, assign the role collection "Subaccount Administrator" to a user with the following command:
+Role collections are user-related authorizations that allow access to resources and services. You give users permissions by assigning role collections to them. Note that together with the first assignment to a role collection, you need to initially add the user with parameter `--create-user-if-missing`. This creates a shadow user in the current context. For example, after creating a subaccount, assign the role collection "Subaccount Administrator" to a user with the following command:
 
 ```nocode
 `btp assign security/role-collection "Subaccount Administrator" --to-user name@example.com --create-user-if-missing --subaccount "my-subaccount-id"`

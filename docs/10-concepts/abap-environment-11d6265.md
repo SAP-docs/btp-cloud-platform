@@ -6,7 +6,7 @@ Within the Cloud Foundry environment, you can create a new space for ABAP develo
 
 The ABAP environment is based on the latest ABAP platform cloud release that is also used for SAP S/4HANA Cloud. It leverages the innovations provided by SAP HANA. The software stack contains standard technology components that are familiar from the standalone Application Server ABAP. The ABAP environment supports the ABAP RESTful Application Programming Model including SAP Fiori and Core Data Services \(CDS\). SAP services and APIs are offered according to a new whitelisting approach. The ABAP environment provides you technical access to SAP BTP services, such as destination service, integration, machine learning, and IoT.
 
-For information about regional availability, see [Regions and API Endpoints for the ABAP Environment](regions-350356d.md#loio879f37370d9b45e99a16538e0f37ff2c).
+For information about regional availability, see [Regions and API Endpoints for the ABAP Environment](regions-and-api-endpoints-for-the-abap-environment-879f373.md).
 
 **Related Information**  
 

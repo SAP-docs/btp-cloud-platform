@@ -14,7 +14,7 @@ Some further activities in ADT and in the administrator’s launchpad are necess
 
     1.  Right-click the package where the objects are located that have already been created.
     2.  Select *New \> Other ABAP Repository Object*.
-    3.  Expand *Cloud Identity and Access Management*.
+    3.  Collapse *Cloud Identity and Access Management*.
     4.  Double-click *Business Catalog*.
     5.  Enter a name \(e.g. `ZTEST_MY_SIMPLE_JOBS`\) and a description.
     6.  Select *Save* and choose the appropriate transport request.
@@ -32,7 +32,7 @@ Some further activities in ADT and in the administrator’s launchpad are necess
     2.  Choose a name \(e.g. `ZTEST_MY_SIMPLE_JOBS`\) and a description.
     3.  Click on *Assigned Business Catalogs*.
     4.  Select *Add*.
-    5.  Select the business catalog created in the previous step \(e.g. `ZTEST_MY_SIMPLE_JOBS`\).
+    5.  Select the business role created in the previous step \(e.g. `ZTEST_MY_SIMPLE_JOBS`\).
 
         > ### Note:  
         > A business user who shall be able to schedule application jobs needs to have access to the *Application Jobs* tile. This tile was provided by the business catalog `SAP_CORE_BC_APJ`, which is contained in the business role `SAP_BR_ADMINISTRATOR`.

@@ -132,7 +132,7 @@ All regions
 </tr>
 </table>
 
-<sup>\(1\)</sup> For more information about available regions, see [Regions](../10-concepts/regions-350356d.md#loio350356d1dc314d3199dca15bd2ab9b0e).
+<sup>\(1\)</sup> For more information about available regions, see [Regions](../10-concepts/regions-350356d.md).
 
 <sup>\(2\)</sup> Refers to the eu10 Europe \(Frankfurt\) region, unless your global account is located in the China \(Shanghai\) and Government Cloud \(US\) regions then use the landscape domain of your central region.
 

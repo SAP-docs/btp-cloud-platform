@@ -82,9 +82,7 @@ Defines a region \(set of datacenters\) where your cluster will run.
 </td>
 <td valign="top">
 
--   `eu-central-1` \(Europe\)
--   `us-east-1` \(Americas\)
--   `ap-southeast-1` \(Asia Pacific\)
+-   `eu-central-1`
 
 
 
@@ -100,14 +98,14 @@ Defines a region \(set of datacenters\) where your cluster will run.
 </td>
 <td valign="top">
 
-Specifies the provider-specific virtual machine type. See [AWS docs](https://aws.amazon.com/ec2/instance-types/) for details. The available machine types are `m6i.2xlarge`, `m6i.4xlarge`, `m6i.8xlarge`, and `m6i.12xlarge`.
+Specifies the provider-specific virtual machine type. See [AWS docs](https://aws.amazon.com/ec2/instance-types/) for details.
 
 
 
 </td>
 <td valign="top">
 
-`m6i.2xlarge`
+`m5.2xlarge`
 
 
 
@@ -236,9 +234,7 @@ Defines a region \(set of datacenters\) where your cluster will run.
 </td>
 <td valign="top">
 
--   `europe-west3` \(Europe\)
--   `us-central1` \(Americas\)
--   `asia-south1` \(Asia Pacific\)
+-   `europe-west3`
 
 
 
@@ -771,5 +767,5 @@ n/a
 **Related Information**  
 
 
-[Regions for the Kyma Environment](../10-concepts/regions-350356d.md#loio557ec3adc3174ed4914ec9d6d13487cf "To work with the Kyma environment, you need to specify the region for both your subaccount and the cluster.")
+[Regions for the Kyma Environment](../10-concepts/regions-for-the-kyma-environment-557ec3a.md "To work with the Kyma environment, you need to specify the region for both your subaccount and the cluster.")
 

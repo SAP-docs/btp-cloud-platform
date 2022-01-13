@@ -2,7 +2,7 @@
 
 # Capturing Request Statistics
 
-With the *Capture Workloads* \(*Capture Request Statistics*\) app, you can capture request statistics to find out which activities are running in your ABAP system.
+With the *Capture Request Statistics* app, you can capture request statistics to find out which activities are running in your ABAP system.
 
 
 
@@ -14,21 +14,17 @@ With the activation of a capture profile, you can capture system activities. Req
 
 ## Procedure
 
-1.  In the SAP Fiori launchpad of the ABAP environment, under *Technical Monitoring*, choose the *Capture Workloads* tile.
-
-    ![](images/SAP_Fiori_Launchpad_Capture_Workload_c1dfdd7.png)
+1.  In the SAP Fiori launchpad of the ABAP environment, under *Technical Monitoring*, choose the *Capture Request Statistics* tile.
 
     The *Capture Request Statistics* app opens.
-
-2.  To display all available capture profiles, choose the *Go* button.
 
     ![](images/Capture_Request_Statistics_Entry_Screen_54a4fb1.png)
 
     All existing capture profiles are shown, including the predefined profiles for capturing expensive requests \(with names starting with`SAP_EXP_REQ`\). These predefined capture profiles are active by default, and you cannot edit or deactivate them. You can view the captured data from these profiles in the details of *System Workload* and *Tenant Workload* screens in the technical monitoring cockpit.
 
-3.  To create a new capture profile, choose *Create*.
+2.  To create a new capture profile, choose *Create*.
 
-4.  Enter the following data:
+3.  Enter the following data:
 
 
     <table>
@@ -183,23 +179,23 @@ With the activation of a capture profile, you can capture system activities. Req
     </tr>
     </table>
     
-5.  Choose *Create*.
+4.  Choose *Create*.
 
     The profile has been created, but is still inactive and has no filter conditions yet.
 
-6.  To define the filter conditions under which request statistics are captured, choose *Create*.
+5.  To define the filter conditions under which request statistics are captured, choose *Create*.
 
-7.  With *Field ID*, *Operator*, *High*, and *Low*, you can select a filter condition that determines what kind of data is captured. For example, you might be interested in requests with a high ABAP CPU or network time. Alternatively, you can also select a program name to capture requests relating to that program, for example
+6.  With *Field ID*, *Operator*, *High*, and *Low*, you can select a filter condition that determines what kind of data is captured. For example, you might be interested in requests with a high ABAP CPU or network time. Alternatively, you can also select a program name to capture requests relating to that program, for example
 
     > ### Note:  
     > If you don’t need to define a range \(lower and upper limit\), but only a single value, enter the value in the *Low* field.
 
     For example, you can select *User ID* as field ID, *include equal to* as operator and your business user name to capture all request statistics relating to your business user.
 
-8.  Choose *Create*.
+7.  Choose *Create*.
 
     A new filter condition has been created.
 
-9.  To start capturing request statistics using the profile, choose *Activate*.
+8.  To start capturing request statistics using the profile, choose *Activate*.
 
 

@@ -30,7 +30,7 @@ Use the Cloud Foundry Command Line Interface \(cf CLI\) to log on to the Cloud F
 
 2.  Set the target API endpoint to the cloud controller.
 
-    For more information, see [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-350356d.md#loiof344a57233d34199b2123b9620d0bb41).
+    For more information, see [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md).
 
     > ### Note:  
     > There is no specific endpoint for trial accounts. Both enterprise and trial accounts use the same API endpoints.
