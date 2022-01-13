@@ -108,7 +108,7 @@ The name of the technical user for consuming the SAP SuccessFactors HXM Suite OD
 ```lang-json
 {
    "systemName":"MY_SYSTEM",
-   "technicalUser":"technicalonboarder",
+   "technicalUser":"technicalonboarder"
 }
 
 ```
