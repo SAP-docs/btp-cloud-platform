@@ -217,7 +217,7 @@ Short description.
 
 -   Allowed characters: ***\[a-zA-Z0-9\_-\]***
 
--   Deafult value: ***"Communication arrangement for integration with Enterprise Messaging for EM Client: <emclientId\>"***
+-   Default value: ***"Communication arrangement for integration with Enterprise Messaging for EM Client: <emclientId\>"***
 
 
 
@@ -248,7 +248,7 @@ The identifier for the events that originate from the same source. This is the t
 
 -   Contains exactly three segments, for example ***a/b/c***.
 
--   Deafult value: ***"sap/S4HANAOD/<emclientId\>"***
+-   Default value: ***"sap/S4HANAOD/<emclientId\>"***
 
 -   The `subscribeFilter` in the SAP Event Mesh configuration must be use the topic space as a prefix.
 
