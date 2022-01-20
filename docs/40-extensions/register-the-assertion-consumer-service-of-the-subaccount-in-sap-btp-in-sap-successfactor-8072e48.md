@@ -113,6 +113,21 @@ You need to register the assertion consumer service of the subaccount in SAP BTP
     <tr>
     <td valign="top">
 
+    *Application Name*
+
+
+    
+    </td>
+    <td valign="top">
+
+    Select *_Other Application_* from the drop-down list.
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
     *SHA-256 Certificate*
 
 
