@@ -536,7 +536,7 @@ This descriptor is equivalent to:
         },
         {
            "name": "DESCRIPTION",
-           "value": "Integration with Enterprise Messaging for message Client: s4hc"
+           "value": "Integration with Enterprise Messaging for message Client"
         },
         {
            "name": "TOPIC SPACE",
