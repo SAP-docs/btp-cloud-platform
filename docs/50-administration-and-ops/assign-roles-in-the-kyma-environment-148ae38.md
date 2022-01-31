@@ -2,11 +2,17 @@
 
 # Assign Roles in the Kyma Environment
 
-Kyma uses roles and groups to manage access within the cluster. Every Kyma cluster comes with predefined roles for admins and developers, which give the assigned users the permissions suitable for their purposes.
+Kyma uses roles to manage access within the cluster. Every Kyma cluster comes with predefined roles, for example, for admins and developers, which give the assigned users the permissions suitable for their purposes.
+
+ <a name="task_pyf_bv2_hsb"/>
+
+<!-- task\_pyf\_bv2\_hsb -->
+
+## 
 
 
 
-<a name="loio148ae38b7d6f4e61bbb696bbfb3996b2__prereq_mx3_tyv_pqb"/>
+<a name="task_pyf_bv2_hsb__prereq_mx3_tyv_pqb"/>
 
 ## Prerequisites
 
@@ -17,13 +23,13 @@ Kyma uses roles and groups to manage access within the cluster. Every Kyma clust
 
 
 
-<a name="loio148ae38b7d6f4e61bbb696bbfb3996b2__context_y3l_ywh_3rb"/>
+<a name="task_pyf_bv2_hsb__context_alm_yx2_hsb"/>
 
 ## Context
 
 The roles predefined for the Kyma environment are:
 
--   **KymaRuntimeNamespaceAdmin**: Can access Kubernetes and Kyma resources and components with administrative rights, create their own Namespaces, and assign the KymaRuntimeDeveloper role to SAP BTP users. This role **does not** give access to [Kyma system Namespaces](https://github.com/kyma-project/kyma/blob/master/resources/permission-controller/values.yaml#L25) and grants only read access to [AddonsConfigurations](https://kyma-project.io/docs/master/components/helm-broker#custom-resource-addons-configuration) because administration of these resources is restricted to Kyma system admins.
+-   **KymaRuntimeNamespaceAdmin**: Can access Kubernetes and Kyma resources and components with administrative rights, create their own Namespaces, and assign the KymaRuntimeDeveloper role to SAP BTP users. This role **does not** give access to [Kyma system Namespaces](https://github.com/kyma-project/kyma/blob/release-1.25/resources/permission-controller/values.yaml) and grants only read access to [AddonsConfigurations](https://kyma-project-old.netlify.app/docs/components/helm-broker/#custom-resource-addons-configuration) because administration of these resources is restricted to Kyma system admins.
 
 -   **KymaRuntimeDeveloper**: Can list and edit Kubernetes and Kyma-specific resources scoped to specific Namespaces in order to build implementations with Kyma.
 
@@ -33,7 +39,7 @@ The roles predefined for the Kyma environment are:
 
 
 
-<a name="loio148ae38b7d6f4e61bbb696bbfb3996b2__steps_sql_ryv_pqb"/>
+<a name="task_pyf_bv2_hsb__steps_sql_ryv_pqb"/>
 
 ## Procedure
 
@@ -71,7 +77,7 @@ The roles predefined for the Kyma environment are:
 
 
 
-<a name="loio148ae38b7d6f4e61bbb696bbfb3996b2__result_qgx_51w_pqb"/>
+<a name="task_pyf_bv2_hsb__result_qgx_51w_pqb"/>
 
 ## Results
 

@@ -5,7 +5,7 @@
 User authorizations are managed by assigning role collections to users \(for example, Subaccount Administrator\). Use the SAP BTP command line interface \(btp CLI\) to manage roles and role collections, and to assign role collections to users.
 
 > ### Tip:  
-> All of these commands can be executed in the global account, a directory, or in a subaccount. You can set one of these as the default context using the `btp target` command. See [Set the Default Command Context](set-the-default-command-context-720645a.md).
+> All of these commands can be executed in the global account, a directory, or in a subaccount. You can set one of these as the target using the `btp target` command. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
 
 
 
@@ -13,7 +13,7 @@ User authorizations are managed by assigning role collections to users \(for exa
 
 ## Managing Users and Assigning Role Collections
 
-Role collections are user-related authorizations that allow access to resources and services. You give users permissions by assigning role collections to them. Note that together with the first assignment to a role collection, you need to initially add the user with parameter `--create-user-if-missing`. This creates a shadow user in the current context. For example, after creating a subaccount, assign the role collection "Subaccount Administrator" to a user with the following command:
+Role collections are user-related authorizations that allow access to resources and services. You give users permissions by assigning role collections to them. Note that together with the first assignment to a role collection, you need to initially add the user to the global account, directory, or subaccount with parameter `--create-user-if-missing`. This creates a shadow user in the current account entity. For example, after creating a subaccount, assign the role collection "Subaccount Administrator" to a user with the following command:
 
 ```nocode
 `btp assign security/role-collection "Subaccount Administrator" --to-user name@example.com --create-user-if-missing --subaccount "my-subaccount-id"`
@@ -418,7 +418,7 @@ Delete a role collection
 
 [Security Administration: Managing Authentication and Authorization](security-administration-managing-authentication-and-authorization-1ff47b2.md "This section describes the tasks of administrators in the Cloud Foundry environment of SAP BTP. Administrators ensure user authentication and assign authorization information to users and user groups.")
 
-[Set the Default Command Context](set-the-default-command-context-720645a.md "Change the default context for all command calls to the global account, a directory, or a subaccount by using the btp target command.")
+[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Change the target for command calls to a directory, a subaccount, or the global account, by using the btp target command.")
 
 [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md "In the cloud management tools feature set B, SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.")
 

@@ -119,10 +119,16 @@ Link
 <tr>
 <td valign="top">
 
-5. Configure your Function to react to the selected events sent by an external system.
+5. Configure your Function to react to events. To subscribe to events, you need to create a [Subcription](https://kyma-project.io/docs/kyma/latest/02-get-started/04-trigger-workload-with-event/#create-a-subscription)including the following parameters:
 
-> ### Caution:  
-> Make sure that the Function is error-free. For example, it cannot include any syntactic errors or return an intentional HTTP error, as this may lead to loss of event data. If you use the default Kyma NATS Eventing, Kyma will try to reach the Function every 2 minutes and discard the event after 30 minutes. If you use the SAP Event Mesh backend, the event will be discarded after 30 days.
+-   **Application name**: the name of the external Application connected to Kyma Runtime. Typically, it starts with**mp-\***. This name can be found in the UI under **Integration \> Applications**. It needs to be bound to the Namespace.
+-   **Event name**: The event name will depend on your CX solution:
+    -   [Commerce Cloud](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/2105/en-US/81d15ea98eaa451594dac05a9d3f06b5.html)\(for custom events, check the configuration of your [Destination Target](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/2105/en-US/3e882f46581a46f0ba9518a90d268c56.html) for the Kyma Runtime\)
+    -   [FSM](https://help.sap.com/viewer/fsm_integration/Cloud/en-US/kyma-connector.html)
+    -   [C4C](https://help.sap.com/viewer/d5fec61c279741048109d851d4d3d1ad/LATEST/en-US/f9d56b2aeb3f42ddb8770fd31d4a115f.html) - the event name is manually configured by the user. You can check the event specification in the**Event Notification Monitoring** tab.
+
+
+-   **Event version**: **v1** for legacy events or **v2** for CloudEvents
 
 
 

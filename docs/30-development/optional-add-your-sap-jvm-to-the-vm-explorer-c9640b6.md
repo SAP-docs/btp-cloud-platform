@@ -10,9 +10,11 @@ You can add your SAP JVM to the *VM Explorer* view of the SAP JVM Profiler.
 
 ## Prerequisites
 
--   Install the SAP JVM Tools for Eclipse. For more information, see [Install the SAP JVM Tools in Eclipse](install-the-sap-jvm-tools-in-eclipse-6321379.md).
+-   [Install the SAP JVM Tools in Eclipse](install-the-sap-jvm-tools-in-eclipse-6321379.md).
 
--   Download and install the Cloud Foundry Command Line Interface \(cf CLI\) and log on to Cloud Foundry. For more information, see [Download and Install the Cloud Foundry Command Line Interface](../50-administration-and-ops/download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md) and [Log On to the Cloud Foundry Environment Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/log-on-to-the-cloud-foundry-environment-using-the-cloud-foundry-command-line-interface-7a37d66.md).
+-   [Download and Install the Cloud Foundry Command Line Interface](../50-administration-and-ops/download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md)
+
+-   [Log On to the Cloud Foundry Environment Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/log-on-to-the-cloud-foundry-environment-using-the-cloud-foundry-command-line-interface-7a37d66.md)
 
 
 
@@ -39,7 +41,7 @@ From the *VM Explorer,* you can debug, monitor or profile your SAP JVM. For more
 2.  To enable an SSH tunnel for these ports, execute:
 
     ```
-    `cf ssh app name -N -T -L 50003:127.0.0.1:50003 -L 50004:127.0.0.1:50004 -L 50005:127.0.0.1:50005`
+    cf ssh <app name> -N -T -L 50003:127.0.0.1:50003 -L 50004:127.0.0.1:50004 -L 50005:127.0.0.1:50005
     ```
 
 3.  In your Eclipse IDE, open the *Profiling* perspective, and from the *VM Explorer* view choose *Manage Hosts*.

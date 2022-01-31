@@ -4,36 +4,28 @@
 
 # Updating an ABAP System
 
-Learn how to update your ABAP system.
+Learn how to update your ABAP environment instance.
 
 
 
 ## Context
 
 > ### Note:  
-> After you have created an ABAP system, only the parameter `description` can be changed later.
+> After you have created an ABAP environment instance, you can only change the ABAP system description and ABAP runtime size.
 
 
 
 ## Procedure
 
-1.  In the SAP BTP cockpit, choose your Cloud Foundry subaccount for the ABAP environment and navigate to the space in which you have created your ABAP system.
+1.  In the SAP BTP cockpit, choose your Cloud Foundry subaccount and navigate to the space, in which you have created your ABAP environment instance. See [Navigate in the Cockpit](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/0874895f1f78459f9517da55a11ffebd.html).
 
-2.  From the navigation area, choose *Services* \> *Instances*.
+2.  From the navigation area, choose *Services* \> *Instances and Subscriptions*.
 
     You see a list of all instances that have been created.
 
-3.  Select your *ABAP System* instance and choose *Update* by clicking on <span class="SAP-icons"></span> at the end of the row.
+3.  Select your *ABAP environment* instance and choose *Update* by clicking on <span class="SAP-icons"></span> at the end of the row.
 
-4.  In the *Update Instance* wizard, update the description of your ABAP system instance as in the following example:
-
-    ```
-    {
-    			"description": "Main Development System",
-    					
-    			
-    }
-    ```
+4.  In the *Update Instance* wizard, you can update the description of your ABAP environment instance and the size of the ABAP runtime. See [Increasing the Quota for the ABAP Environment](increasing-the-quota-for-the-abap-environment-c40cb18.md).
 
 5.  Choose *Update Instance* to save your changes.
 
@@ -44,5 +36,5 @@ Learn how to update your ABAP system.
 
 ## Results
 
-Your ABAP system instance is being updated. This might take a while.
+Your ABAP environment instance is being updated. This might take a while.
 

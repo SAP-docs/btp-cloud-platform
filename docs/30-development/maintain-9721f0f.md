@@ -263,13 +263,13 @@ Patch versions are used to deliver unplanned and most likely urgent corrections 
 
     ```
     ---
-    addonProduct: /NAMESPC/PRODUCTX
-    addonVersion: 1.0.1
+    addonProduct: "/NAMESPC/PRODUCTX"
+    addonVersion: "1.0.1"
     repositories:
-       - name: /NAMESPC/PRODUCTX
-         branch: v1.0.0
-         version: 1.0.1
-         commitID: 12345xy
+       - name: "/NAMESPC/PRODUCTX"
+         branch: "v1.0.0"
+         version: "1.0.1"
+         commitID: "12345xy"
     
     ```
 
@@ -330,13 +330,13 @@ A support package version could be used for example to deliver a new simple busi
 
     ```
     ---
-    addonProduct: /NAMESPC/PRODUCTX
-    addonVersion: 1.1.0
+    addonProduct: "/NAMESPC/PRODUCTX"
+    addonVersion: "1.1.0"
     repositories:
-       - name: /NAMESPC/PRODUCTX
-         branch: v1.1.0
-         version: 1.1.0
-         commit ID: 12345xy
+       - name: "/NAMESPC/PRODUCTX"
+         branch: "v1.1.0"
+         version: "1.1.0"
+         commit ID: "12345xy"
     ```
 
     `addonProduct` must include the development namespace prefix.
@@ -419,13 +419,13 @@ Release versions are used to deliver new major, planned functional enhancements.
 
     ```
     ---
-    addonProduct: /NAMESPC/PRODUCTX
-    addonVersion: 2.0.0
+    addonProduct: "/NAMESPC/PRODUCTX"
+    addonVersion: "2.0.0"
     repositories:
-       - name: /NAMESPC/PRODUCTX
-         branch: v2.0.0
-         version: 2.0.0
-         commitID: 12345xy
+       - name: "/NAMESPC/PRODUCTX"
+         branch: "v2.0.0"
+         version: "2.0.0"
+         commitID: "12345xy"
     ```
 
     `addonProduct` must include a development namespace prefix.

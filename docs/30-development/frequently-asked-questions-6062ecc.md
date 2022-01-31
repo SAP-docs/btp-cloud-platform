@@ -8,13 +8,13 @@
 
 ### My MTA deployment failed. What could be done?
 
-Check the [Deployment Failed](troubleshooting-3530af7.md#loio3530af7ff2b449fbbc591dd3e2c0d151__section_ih3_xm2_p3b) section.
+Check the [MTA Operation Failure](https://gad5158842f.us2.hana.ondemand.com/dtp/viewer/#/tree/2798/actions/40943:40911) section.
 
 
 
 ### What to do when my application start-up/staging failed?
 
-Check the [Application Start-up Failed](troubleshooting-3530af7.md#loio3530af7ff2b449fbbc591dd3e2c0d151__section_ksz_pzk_p3b) section.
+Check the [Application Start-up Failed](https://gad5158842f.us2.hana.ondemand.com/dtp/viewer/#/tree/2798/actions/40943:41937) section.
 
 
 
@@ -22,21 +22,22 @@ Check the [Application Start-up Failed](troubleshooting-3530af7.md#loio3530af7ff
 
 There are several ways to find the application logs:
 
--   Use the `cf dmol -i <operation-id>` command in order to download the logs of the deployment of an operation with id `<operation-id>`. The id of the operation could be obtained using the `cf mta-ops` command. In the downloaded deployment logs, there will be a `<application-name>.log` file which contains the logs of the application.
+-   `OPERATION.LOG` – contains the whole deployment log
 
--   Use `cf logs <application-name> --recent` in order to retrieve the recent logs of the application.
+-   `<application-name>.log` – there is a separate file for each application. It holds the logs related to the application during staging and starting.
 
     > ### Note:  
-    > The recent logs are available for only 10 minutes.
+    > Note that the operation logs are kept for 3 days. Make sure that you download them before the retention period expires.
 
-    For more information, check the options for downloading the deployment logs in the [Deployment Failed](troubleshooting-3530af7.md#loio3530af7ff2b449fbbc591dd3e2c0d151__section_ih3_xm2_p3b) section.
+    To download the logs, execute the following command:
 
+    `cf dmol -i <process-id>`
 
+    > ### Sample Code:  
+    > ```
+    > cf dmol -i cbe58aeb-0c40-4a3e-972d-82a499815745
+    > ```
 
-
-### How to find more information about the problematic deployment?
-
-Use the `cf dmol -i <operation-id>` command in order to download the deployment operation logs as described in the [Deployment Failed](troubleshooting-3530af7.md#loio3530af7ff2b449fbbc591dd3e2c0d151__section_ih3_xm2_p3b) section. After downloading the deployment logs, locate the file with name `MAIN_LOG` which contains the whole logs of the deployment. You will find a detailed error message in it.
 
 
 
@@ -65,13 +66,13 @@ Use the `cf mtas` command and locate the ID of the desired MTA. After locating t
 
 ### What can I do with my deployment?
 
--   If the deployment fails, see [Deployment Failed](troubleshooting-3530af7.md#loio3530af7ff2b449fbbc591dd3e2c0d151__section_ih3_xm2_p3b)
+-   If the deployment fails, see [MTA Operation Failure](https://gad5158842f.us2.hana.ondemand.com/dtp/viewer/#/tree/2798/actions/40943:40911)
 
 -   If the deployment finishes successfully, you can check the deployment logs.
 
 -   If the deployment is still running, you can abort or monitor it.
 
-    The **Abort** action is described in more details in the [Deployment Failed](troubleshooting-3530af7.md#loio3530af7ff2b449fbbc591dd3e2c0d151__section_ih3_xm2_p3b) section.
+    The **Abort** action is described in more details in the [MTA Operation Failure](https://gad5158842f.us2.hana.ondemand.com/dtp/viewer/#/tree/2798/actions/40943:40911) section.
 
     The **Monitor** action can be executed with the following command:
 

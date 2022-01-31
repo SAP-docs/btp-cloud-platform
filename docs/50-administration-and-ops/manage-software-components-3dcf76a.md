@@ -2,13 +2,13 @@
 
 # Manage Software Components
 
-You can use this app to create, display, pull and delete software components in your ABAP environment landscape.
+You can use this app to create, display, clone, delete and configurate software components in your ABAP environment landscape. Moreover, you can pull \(import\) changes from the central software component into other instances.
 
 
 
 ## Purpose
 
-This app allows you to create a software component on a service instance and make it locally available on other instances within the landscape by pulling them.
+This app allows you to create a software component on a service instance and make with a 'Clone' and import changes \(=commits = transport requests\) on other instances after an initial clone using a 'Pull'.
 
 
 
@@ -25,6 +25,18 @@ You can use this app to:
 -   pull software components and display pulls
 
 -   delete software components
+
+-   display logs for performed actions like Clone, Pull, and other
+
+-   create and delete branches
+
+-   display pushed commits \(= released transport request\)
+
+-   create and delete tags on commits
+
+-   configure the repository role \(Source or Target\)
+
+-   enable or disable a rollback mechanism for failed pull operations
 
 
 In addition, the app supports the integration with Git.

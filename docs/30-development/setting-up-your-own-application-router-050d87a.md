@@ -104,19 +104,19 @@ The application router is configured in the `xs-app.json` file. The `package.jso
         > 
         > ```
         > - name: node-hello-world
-        > 	host: myHost-node-hello-world 
-        > 	domain: xsapps.acme.ondemand.com 
+        > 	routes:
+        > 	- route: myHost-node-hello-world.xsapps.acme.ondemand.com
         > 	memory: 100M 
         > 	path: web 
         > 	env: 
-        > 	**    destinations: \> 
-        > 		\[ 
-        > 			\{ 
+        > 	    destinations: > 
+        > 		[ 
+        > 			{ 
         > 				"name":"backend", 
         > 				"url":"http://myHost-node-hello-world-backend.xsapps.acme.ondemand.com", 
         > 				"forwardAuthToken": true 
-        > 			\} **
-        > 		] 
+        > 			} 
+        > 		]
         > ```
 
 

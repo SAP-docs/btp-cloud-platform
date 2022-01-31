@@ -19,7 +19,7 @@ Check the following Cloud Foundry documentation:
 
 ## NPM Version
 
-When deploying an application in Cloud Foundry environment without specifying the *npm* version in **package.json**, it will install the default version \(currently 6.4.13\) during the build step. A version mismatch \(especially if using *npm* v.7 and higher\) can cause the build step to fail.
+When deploying an application in Cloud Foundry environment without specifying the `npm` version in **package.json**, it will install the default version \(currently 8.1.4\) during the build step. A version mismatch \(especially if using `npm` v.7 and higher\) can cause the build step to fail.
 
 To check your *npm* version, you can execute:
 
@@ -28,18 +28,17 @@ npm --version
 ```
 
 > ### Tip:  
-> We recommend that you use the same *npm* version as the one on the Cloud Foundry environment.
+> We recommend that you use the same `npm` version as the one on the Cloud Foundry environment.
 
-Alternatively, you can specify the *npm* version in the **package.json** file:
+Alternatively, you can specify the `npm` version in the **package.json** file:
 
 ```
 
-```javascript
-### Sample Code
+
 "engines": {
-"npm": "^7.20.2"
-}
-```
+"npm": "^8.1.4"
+},
+
 ```
 
 
@@ -48,14 +47,21 @@ Alternatively, you can specify the *npm* version in the **package.json** file:
 
 ## Vendor Application Dependencies
 
-Vendoring of Node.js application dependencies is discussed in the documentation for the Cloud Foundry environment. Even though SAP BTP Cloud Foundry is a connected environment, for productive applications we recommend that you vendor application dependencies.
+Sometimes, productive Cloud Foundry applications might need to be deployed as self-contained. That means, they need to carry all of their dependencies so that the staging process does not require any network calls. For more information, see: [Vendoring App Dependencies](https://docs.cloudfoundry.org/buildpacks/node/index.html#vendoring) 
 
-There are various reasons for this. For example, productive applications usually rely on security scans and because `npm` doesn't provide reliable dependency fetch, it's possible that your application ends up with different dependencies in case such are installed during deployment. Additionally, `npm` downloads any missing dependencies from its registry, so if this registry isn't accessible for some reason, the deployment can fail.
+Depending on the region where the application is deployed:
+
+-   Running on the China \(Shanghai\) region: it is **mandatory** for the application to be deployed as self-contained
+
+-   Running on the AWS, Azure, or GCP regions: it is only **recommended** but not mandatory for the application to be deployed as self-contained.
+
+
+There are various reasons for using vendoring. For example, productive applications usually rely on security scans and because `npm` doesn't provide reliable dependency fetch, it's possible that your Node.js application ends up with different dependencies in case such are installed during deployment. Additionally, `npm` downloads any missing dependencies from its registry, so if this registry isn't accessible for some reason, the deployment can fail.
 
 > ### Note:  
 > Bear in mind when using dependencies containing native code that you need to reinstall in the same environment as the Cloud Foundry container, or that the package has built-in support for it.
 
-To ensure that prepackaged dependencies are pushed to the Cloud Foundry environment and on-premise runtime, make sure that `node_modules` directory isn’t listed in the `.cfignore` file. It’s also preferable that development dependencies aren't deployed for productive deployments. To ensure that, execute:
+To ensure that prepackaged dependencies are pushed to the Cloud Foundry environment and on-premise runtime, make sure that the `node_modules` directory isn’t listed in the `.cfignore` file. It’s also preferable that development dependencies are not deployed for productive deployments. To ensure that, execute:
 
 ```
 npm prune --production
@@ -67,7 +73,7 @@ npm prune --production
 
 ## Out of Memory at Runtime
 
-For performance reasons, Node.js \(V8\) has lazy garbage collection. Even if there are no memory leaks in your application, this can cause occasional restarts, as explained in the [Tips for Node.js Applications](https://docs.cloudfoundry.org/buildpacks/node/node-tips.html) section in the Node.js Buildpack documentation for the Cloud Foundry environment.
+For performance reasons, Node.js \(powered by V8\) has lazy garbage collection. Even if there are no memory leaks in your application, this can cause occasional restarts, as explained in the [Tips for Node.js Applications](https://docs.cloudfoundry.org/buildpacks/node/node-tips.html) section in the Node.js Buildpack documentation for the Cloud Foundry environment.
 
 Enforce the garbage collector to run before the memory is consumed by limiting the V8 application’s heap size at about ~75% of the available memory.
 
@@ -92,5 +98,15 @@ node --v8-options
 
 When deploying an application in the Cloud Foundry environment without specifying the application memory requirements, the controller of the Cloud Foundry environment assigns the default \(1G of RAM currently\) for your application. Many Node.js applications require less memory and assigning the default is a waste of resources.
 
-To save memory from your quota, specify the memory size in the descriptor of the deployment in the Cloud Foundry environment – `manifest.yml`. To learn how to do that, see [Deploying with Application Manifests](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html#memory).
+To save memory from your quota, specify the memory size in the descriptor of the deployment in the Cloud Foundry environment – `manifest.yml`. For example:
+
+```
+
+---
+applications:
+- name: myapp
+  memory: 128M
+  buildpack: nodejs_buildpack
+...
+```
 

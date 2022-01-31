@@ -352,6 +352,40 @@ ABAP Test Cockpit
 <tr>
 <td valign="top">
 
+ABAP Test Cockpit
+
+
+
+</td>
+<td valign="top">
+
+  
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR_SW_DEV`
+
+*Administrator - Software Development*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_ARS_PC`
+
+*Lifecycle Management - API Snapshots* 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Business Configuration
 
 
@@ -586,6 +620,142 @@ Application Job Templates
 `SAP_CORE_BC_APJ_TPL`
 
 *Application Job Templates*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System Management
+
+
+
+</td>
+<td valign="top">
+
+  
+
+
+
+</td>
+<td valign="top">
+
+ `SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_CST_DP_MAS_PC`
+
+*System Management - Sessions* 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Factory Calendar
+
+
+
+</td>
+<td valign="top">
+
+  
+
+
+
+</td>
+<td valign="top">
+
+ `SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CA_BC_IC_LND_CAL_CA1_PC`
+
+*Factory Calendar - Configuration* 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Factory Calendar
+
+
+
+</td>
+<td valign="top">
+
+  
+
+
+
+</td>
+<td valign="top">
+
+ `SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CA_BC_IC_LND_CAL_CA1_PC`
+
+*Factory Calendar - Configuration* 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Factory Calendar
+
+
+
+</td>
+<td valign="top">
+
+  
+
+
+
+</td>
+<td valign="top">
+
+ `SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CA_BC_IC_LND_CAL_CA1_PC`
+
+*Factory Calendar - Configuration* 
 
 
 

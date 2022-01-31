@@ -98,14 +98,14 @@ Defines a region \(set of datacenters\) where your cluster will run.
 </td>
 <td valign="top">
 
-Specifies the provider-specific virtual machine type. See [AWS docs](https://aws.amazon.com/ec2/instance-types/) for details.
+Specifies the provider-specific virtual machine type. See [AWS docs](https://aws.amazon.com/ec2/instance-types/) for details. The available machine types are `m6i.2xlarge`, `m6i.4xlarge`, `m6i.8xlarge`, and `m6i.12xlarge`.
 
 
 
 </td>
 <td valign="top">
 
-`m5.2xlarge`
+`m6i.2xlarge`
 
 
 

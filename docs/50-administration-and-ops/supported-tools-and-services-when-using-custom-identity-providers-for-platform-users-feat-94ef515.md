@@ -38,7 +38,7 @@ Description
 
 You can connect a Cloud Connector with a multi-environment subaccount of SAP BTP.
 
-For more information, see <?sap-ot O2O class="- topic/xref " href="202261235a204db5ba0b35bbaa6d40ff.xml" text="" desc="" xtrc="xref:1" xtrf="file:/d:/dita/jao1638776800681/src/cms/content/localization/en-US/94ef5154e384408796c035a82b043f82.xml" ?>.
+For more information, see <?sap-ot O2O class="- topic/xref " href="202261235a204db5ba0b35bbaa6d40ff.xml" text="" desc="" xtrc="xref:1" xtrf="file:/d:/dita/sqm1639991874032/src/cms/content/localization/en-US/94ef5154e384408796c035a82b043f82.xml" ?>.
 
 
 

@@ -2,22 +2,22 @@
 
 # Continuous Integration and Delivery \(CI/CD\)
 
-Depending on your use case, you can choose between different offerings for continuous integration and delivery.
+Configure and run predefined continuous integration and delivery \(CI/CD\) pipelines that automatically build, test, and deploy your code changes to speed up your development and delivery cycles.
 
 > ### Note:  
 > For links to all SAP solutions for CI/CD, blog posts, presentations, and tutorials, have a look at our [Continuous Integration and Delivery by SAP](https://help.sap.com/viewer/product/CICD_OVERVIEW/Cloud/en-US?task=discover_task) overview.
 
 **Continuous integration \(CI\)** describes a software development process, in which various team members integrate their contributions frequently into a single main line. Before each integration, the changes are verified through builds and automated testing. Thereby, you can detect errors as quickly as possible and prevent integration problems before completing the development.
 
-The following graphic shows the basic flow for continuous integration:
+The **continuous delivery \(CD\)** concept expands on the one of continuous integration. It adds the aspect that any change that has successfully passed the tests is immediately ready to be deployed to production, both from a technical and a qualitative point of view.
+
+The following graphic shows the basic flow for continuous integration and delivery:
 
    
   
 Continuous Integration Basic Flow
 
- ![Continuous Integration Basic Flow](images/Continuous_Integration_Basic_Flow_87a814e.png "Continuous Integration Basic Flow") 
-
-The **continuous delivery \(CD\)** concept expands on the one of continuous integration. It adds the aspect that any change that has successfully passed the tests is immediately ready to be deployed to production, both from a technical and a qualitative point of view.
+ ![](images/ci-basic-flow-copy_b835ff9.png "Continuous Integration Basic Flow") 
 
 For more information about the continuous integration and continuous delivery concepts, see [What Are Continuous Integration and Continuous Delivery?](https://help.sap.com/viewer/8cacec64ed854b2a88e9a0973e0f97a2/Cloud/en-US/5ba483a2c97b4ad5ab0148f4a6c5a9ee.html).
 
@@ -27,31 +27,60 @@ For more information about the continuous integration and continuous delivery co
 
 ## Use
 
-At the moment, SAP offers three different solutions that help you apply CI/CD in your software development:
+Depending on your use case, you can choose between different CI/CD pipelines to help you implement continuous integration and delivery in your software development.
 
--   [**SAP Continuous Integration and Delivery**](https://help.sap.com/viewer/product/CONTINUOUS_DELIVERY/Cloud/en-US)
+SAP Continuous Integration and Delivery lets you configure and run predefined pipelines for the development of the following applications:
 
-    SAP Continuous Integration and Delivery is a service on SAP BTP, which lets you configure and run predefined continuous integration and delivery pipelines that test, build, and deploy your code changes. At the moment, it supports the development of SAP Cloud Application Programming Model \(CAP\) and SAPUI5/SAP Fiori applications.
+-   [SAP Cloud Application Programming Model](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/7c2a049670f64993b9d67c8f84ba0969.html)
 
-    For more information, see [Meet Our New Continuous Integration and Delivery Solution](https://blogs.sap.com/2020/08/17/meet-our-new-continuous-integration-and-delivery-solution/).
+    Configure a CI/CD pipeline for the development of applications that follow the SAP Cloud Application Programming Model in the Cloud Foundry environment.
 
--   **[Project "Piper"](https://sap.github.io/jenkins-library/)**
+-   [SAP Fiori in the Cloud Foundry Environment](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/8887fe3c5445442b915d3c066c010d75.html)
 
-    Project "Piper" is an open-source project that provides preconfigured Jenkins pipelines, which you can use in your own Jenkins master infrastructure and adapt according to your needs, if necessary. It consists of two components:
+    Configure a CI/CD pipeline for the development of SAPUI5/SAP Fiori applications in the Cloud Foundry environment.
 
-    -   A [shared library](https://github.com/SAP/jenkins-library), which contains the description of steps, scenarios, and utilities required to use Jenkins pipelines
+-   [SAP Fiori in the Neo environment](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/1302e9ae408b4dc38d7109c75db9aa75.html)
 
-    -   A [set of Docker images](https://github.com/SAP/devops-docker-images) that can be used to implement best practice processes
+    Configure a CI/CD pipeline for the development of SAPUI5/SAP Fiori applications in the Neo environment.
+
+-   [SAP Integration Suite Artifacts](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/019ed685a19b4efab4f7df0e108d1697.html)
+
+    Configure a CI/CD pipeline for the development of SAP Cloud Integration artifacts in the Cloud Foundry environment.
+
+-   [Container-Based Applications](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/10970393828c46498806d1b322cf05a4.html)
+
+    Configure a CI/CD pipeline for the development of container-based applications.
 
 
--   **[Continuous Integration and Delivery Best Practices Guide](https://help.sap.com/viewer/3324745951b44b578bd65221d2ff8f9a/Cloud/en-US)**
-
-    The CI/CD Best Practices Guide provides best practice procedures to implement continuous delivery pipelines on any CI/CD stack and demonstrates how to apply the principles of CI/CD to SAP-specific technologies.
-
-    For more information, see [We’ve Finished Our Renovations: Our New CI/CD Best Practices](https://blogs.sap.com/2020/02/20/weve-finished-our-renovations-our-new-ci-cd-best-practices/).
+To learn more about the CI/CD pipelines supported by SAP Continuous Integration and Delivery and the stages each pipeline can comprise, see [Supported Pipelines](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/e293286b06df426ab1cfa235332a2606.html).
 
 
-To find your appropriate SAP solution for applying CI/CD, see [Which SAP Solution for CI/CD Meets Your Needs?](https://help.sap.com/viewer/Continuous-Integration-and-Delivery-by-SAP/e9fa320181124fa9808d4446a1bf69dd.html#loioa49d1ba1ecef4e9d96deffd127c4522d).
+
+<a name="loiofe74df55b0f54e99bf6e13a3b53e1db0__section_bq2_rvv_gsb"/>
+
+## Get Started with CI/CD
+
+SAP Continuous Integration and Delivery provides an easy, UI-guided way to set up the service and configure and run your pipelines, without hosting your own Jenkins instance.
+
+To set up SAP Continuous Integration and Delivery:
+
+1.  Enable the service in the SAP BTP cockpit.
+2.  Assign either the *Administrator* or *Developer* role to your user.
+3.  Enable the API usage to connect SAP Continuous Integration and Delivery to other services, if necessary.
+
+To configure SAP Continuous Integration and Delivery:
+
+> ### Note:  
+> Only administrators of SAP Continuous Integration and Delivery can configure the service.
+
+1.  Configure credentials for connecting SAP Continuous Integration and Delivery to other services \(for example, GitHub, GitLab or Bitbucket Server to clone your sources, and SAP BTP to deploy your built application\).
+
+2.  Add your repository.
+
+
+Now you can create and modify your CI/CD jobs and monitor their outcome. If you want to automate your builds, you can configure a webhook between your repository and the service. You can create and modify timed triggers for your jobs, if necessary.
+
+For more information, see [Initial Setup](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/719acaf61e4b4bf0a496483155c52570.html) and [Configuration](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/39d0c2f0626f4303872e49b627b5c616.html), or follow the tutorial [Configure and Run a Predefined SAP Continuous Integration and Delivery \(CI/CD\) Pipeline](https://developers.sap.com/tutorials/btp-app-ci-cd-btp.html).
 
 
 

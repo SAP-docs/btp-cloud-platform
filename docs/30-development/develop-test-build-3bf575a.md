@@ -923,17 +923,17 @@ Maintain a metadata file that defines the add-on version and store it in a Git r
 
 ```
 ---
-addonProduct: /NAMESPC/PRODUCTX
-addonVersion: 1.2.0
+addonProduct: "/NAMESPC/PRODUCTX"
+addonVersion: "1.2.0"
 repositories:
-  - name: /NAMESPC/COMPONENTA
-    branch: v1.2.0
-    version: 1.2.0
-    commitID: 7d4516e9
-  - name: /NAMESPC/COMPONENTB
-    branch: v2.0.0
-    version: 2.0.0
-    commitID: 9f102ffb
+  - name: "/NAMESPC/COMPONENTA"
+    branch: "v1.2.0"
+    version: "1.2.0"
+    commitID: "7d4516e9"
+  - name: "/NAMESPC/COMPONENTB"
+    branch: "v2.0.0"
+    version: "2.0.0"
+    commitID: "9f102ffb"
 
 ```
 

@@ -14104,6 +14104,71 @@ Calculate effective sales prices by applying promotional rules.
 <tr>
 <td valign="top">
 
+ [SAP Omnichannel Promotion Pricing](https://help.sap.com/viewer/p/OPP) 
+
+
+
+</td>
+<td valign="top">
+
+Calculate effective sales prices by applying promotional rules.
+
+
+
+</td>
+<td valign="top">
+
+-   LOD-CID-OPP
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Extension Suite - Development Efficiency
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
  [SAP Process Mining by Celonis, cloud edition](https://help.sap.com/viewer/product/SAP_PROCESS_MINING_BY_CELONIS/latest/en-US) 
 
 

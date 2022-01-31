@@ -95,11 +95,13 @@ To do so, you configure the entitlements and assign the corresponding quota and 
 
 You have the following options:
 
--   Consume the SAP S/4HANA Cloud APIs \(inbound connection\) or consume APIs exposed by the extension application from SAP S/4 HANA Cloud \(outbound connection\)
+-   Consume the SAP S/4HANA Cloud APIs \(inbound connection\) or consume APIs exposed by the extension application from SAPS/4 HANA Cloud \(outbound connection\)
 
     To do so, you create a service instance of the *SAP S/4HANA Cloud Extensibility* service using the *api-access* service plan.
 
-    During the service instance creation an HTTP destination on a subaccount level is automatically generated in this subaccount. It contains all instance binding properties which are sufficient to establish connection to the SAP S/4HANA Cloud system. When creating the service instance, you configure the communication arrangement and the authentication type for the connection. The following authentication scenarios for SAP S/4HANA Cloud are supported:
+    For communication arrangements with inbound connections, an HTTP destination on a subaccount level is automatically generated in this subaccount during the service instance creation. It contains all instance binding properties which are sufficient to establish connection to the SAP S/4HANA Cloud system. When creating the service instance, you configure the communication arrangement and the authentication type for the connection.
+
+    The following authentication scenarios for SAP S/4HANA Cloud are supported:
 
     -   Basic Authentication \(inbound and outbound connections\)
     -   OAuth 2.0 SAML Bearer Assertion \(inbound connections\)

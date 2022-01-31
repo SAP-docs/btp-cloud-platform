@@ -9,7 +9,7 @@ You can also get information about the service plans and service offerings assoc
 For more information about the,SAP Service Manager see [SAP Service Manager](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/3a27b85a47fc4dff99184dd5bf181e14.html).
 
 > ### Tip:  
-> All of these commands are executed for a specific subaccount. We recommend using the `btp target` command to set the default context to a subaccount. See [Set the Default Command Context](set-the-default-command-context-720645a.md).
+> All of these commands are executed in subaccounts. If you know you'll be working in a specific subaccount, we recommend using the `btp target` command to set the target to this subaccount. Then you won't have to provide the subaccount ID with every command call. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
 
 For detailed descriptions of all SAP Service Manager CLI commands, see [SAP Service Manager Commands for SAP BTP command line interface \[Feature Set B\]](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/4dceb6a597274c65b255a400bb837400.html).
 

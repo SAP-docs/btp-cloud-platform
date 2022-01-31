@@ -29,7 +29,7 @@ If the number of attributes cause the token size to exceed 16k, you get HTTP err
 
 For more information about the application security descriptor, see [Application Security Descriptor Configuration Syntax](../30-development/application-security-descriptor-configuration-syntax-517895a.md).
 
-See also [502 Error: Call to /oauth/token Was Not Successful](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:40211) in *Guided Answers*.
+See also [400 Error: Call to /oauth/token Was Not Successful](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:40211) in *Guided Answers*.
 
  <a name="loio6f51fa1ac4ab472ebdf5b38afd4d65bc"/>
 

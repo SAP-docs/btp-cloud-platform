@@ -257,7 +257,7 @@ Note that currently for service instances, labels must have at least value.
 You can assign labels when you create an entity, and then later add, change, or remove labels by editing the entity.
 
 > ### Tip:  
-> -   In the *Account Explorer* and *Instances and Subscriptions* pages in the SAP BTP cockpit, you can display assigned labels by unhiding the *Labels* column. To display the column if it is not shown, click <span class="SAP-icons"></span> \(Configure Table Columns\).
+> -   In the *Account Explorer* and *Instances and Subscriptions* pages in the SAP BTP cockpit, assigned labels are shown in the *Labels* column. To display the column if it is not shown, click <span class="SAP-icons"></span> \(Configure Table Columns\).
 > 
 > -   In the *Account Explorer* page, you can view the labels that are assigned to a directory or subaccount by choosing the *More Info* option of each directory and subaccount.
 > 

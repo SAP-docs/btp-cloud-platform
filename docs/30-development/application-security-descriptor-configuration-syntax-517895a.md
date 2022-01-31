@@ -996,7 +996,7 @@ For more information, see [Domain Checks at Browser Login and Logout](domain-che
 <tr>
 <td valign="top">
 
- `credential-type` 
+ `credential-types` 
 
 
 
@@ -1077,40 +1077,6 @@ As an option, developers can configure on application level which identity provi
 <td valign="top">
 
  `["origin_key1","origin_key2"]` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `credential-types` 
-
-
-
-</td>
-<td valign="top">
-
-When an application consumes a service instance of the SAP Authorization and Trust Management Service \(XSUAA\), the application identifies itself to the service instance with a client ID and client secret. The client ID and client secret are the credentials with which an application authenticates itself to the service instance.
-
-The service instance can use multiple secrets in the application plan.
-
-The instance secret is the default secret. The secret is the same for all bindings of the service instance. The secret remains valid as long as the instance exists.
-
-The binding secret must be enabled in the application security descriptor \(xs-security.json\) when you deploy the application. The secret remains valid as long as the binding or the service key exists.
-
-> ### Recommendation:  
-> Use binding secrets whenever possible.
-
-For more information, see [Managing Secrets of the SAP Authorization and Trust Management Service](../50-administration-and-ops/managing-secrets-of-the-sap-authorization-and-trust-management-service-22f4a5c.md).
-
-
-
-</td>
-<td valign="top">
-
- `["binding-secret"]` 
 
 
 

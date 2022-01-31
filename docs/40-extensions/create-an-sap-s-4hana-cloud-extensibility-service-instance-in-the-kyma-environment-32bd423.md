@@ -23,7 +23,9 @@
 
 ## Context
 
-During the creation of the service instance, a destination on a subaccount level with the same name as the service instance name is automatically created in this subaccount. It contains all instance binding properties which are sufficient to establish connection to the SAP S/4HANA Cloud system.
+To consume the SAP S/4HANA Cloud APIs \(inbound connection\) or consume APIs exposed by the extension application from SAP S/4HANA Cloud \(outbound connection\), you create an SAP S/4HANA Cloud Extensibility service instance. When creating the service instance, you configure the communication arrangement and the authentication type for the connection.
+
+For communication arrangements with inbound connections, a destination on a subaccount level with the same name as the service instance name is automatically created in this subaccount. It contains all instance binding properties which are sufficient to establish connection to the SAP S/4HANA Cloud system.
 
 > ### Note:  
 > Make sure that you don't already have a destination with the same name as the service instance. If you do, you will not be able to create the service instance.
@@ -36,9 +38,9 @@ During the creation of the service instance, a destination on a subaccount level
 
 2.  On the subaccount *Overview* page, in the *Kyma Environment* section, open the Kyma Console.
 
-3.  Choose *Namespaces* from the left hand-side navidation and open the *default* Namespace.
+3.  Choose *Namespaces* from the left-hand side navigation and open the namespace in which you want to create a service instance.
 
-4.  Go to *Service Management* \> *Catalog* in the left-hand side navigation.
+4.  Choose *Service Management* \> *Catalog* from the left-hand side navigation.
 
 5.  In the *Services* tab, search for the *SAP S/4HANA Cloud Extensibility* tile.
 

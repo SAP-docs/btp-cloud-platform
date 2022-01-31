@@ -144,13 +144,13 @@ Build a first version of your add-on. See [Build](develop-test-build-3bf575a.md#
     -   Create the following `addon.yml` file:
 
         ```
-        addonProduct: /NAMESPC/PRODUCTX
-        addonVersion: 1.0.0
+        addonProduct: "/NAMESPC/PRODUCTX"
+        addonVersion: "1.0.0"
         repositories:
-           - name: /NAMESPC/COMPONENT1
-             branch: v1.0.0
-             version: 1.0.0
-             commitID: abcd1234
+           - name: "/NAMESPC/COMPONENT1"
+             branch: "v1.0.0"
+             version: "1.0.0"
+             commitID: "abcd1234"
         ```
 
         -   For **addonProduct**, enter the reserved development namespace /NAMESPC/ and your product name PRODUCTX.
@@ -542,13 +542,13 @@ Patch versions are used to deliver unplanned and urgent corrections that are req
 6.  Configure the `addon.yml` file.
 
     ```
-    addonProduct: /NAMESPC/PRODUCTX
-    addonVersion: 1.0.1
+    addonProduct: "/NAMESPC/PRODUCTX"
+    addonVersion: "1.0.1"
     repositories:
-       - name: /NAMESPC/COMPONENT1
-         branch: v1.0.0
-         version: 1.0.1
-         commitID: abcd1234
+       - name: "/NAMESPC/COMPONENT1"
+         branch: "v1.0.0"
+         version: "1.0.1"
+         commitID: "abcd1234"
     
     ```
 
@@ -568,13 +568,13 @@ Support package versions are used to deliver planned functional enhancements out
 5.  Configure the `addon.yml` file.
 
     ```
-    addonProduct: /NAMESPC/PRODUCTX
-    addonVersion: 1.1.0
+    addonProduct: "/NAMESPC/PRODUCTX"
+    addonVersion: "1.1.0"
     repositories:
-       - name: /NAMESPC/COMPONENT1
-         branch: v1.1.0
-         version: 1.1.0
-         commitID: abcd1234
+       - name: "/NAMESPC/COMPONENT1"
+         branch: "v1.1.0"
+         version: "1.1.0"
+         commitID: "abcd1234"
     
     ```
 
@@ -594,13 +594,13 @@ Release versions are used to deliver new major, planned functional enhancements.
 5.  Configure the `addon.yml` file.
 
     ```
-    addonProduct: /NAMESPC/PRODUCTX
-    addonVersion: 2.0.0
+    addonProduct: "/NAMESPC/PRODUCTX"
+    addonVersion: "2.0.0"
     repositories:
-       - name: /NAMESPC/COMPONENT1
-         branch: v2.0.0
-         version: 2.0.0
-         commitID: abcd1234
+       - name: "/NAMESPC/COMPONENT1"
+         branch: "v2.0.0"
+         version: "2.0.0"
+         commitID: "abcd1234"
     
     ```
 

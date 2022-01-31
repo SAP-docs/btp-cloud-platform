@@ -19,15 +19,18 @@ You can pull \(remotely available\) changes of your software component to the se
 
 ## Procedure
 
-1.  Select a software component \(radio button\) from the list and choose *Pull* to pull this software components. Alternatively, you can navigate to the detail page of a software component and choose *Pull* in the page header.
+1.  Navigate to the detail page of a software component from the list and choose *Pull* in the page header.
 
-    In both cases, you pull the latest version of the software component. If the pull is finished and the software component is locally available on the instance, the value in the *In System* column turns to *Yes*.
+2.  Select how you want to pull the software component. By selecting *Latest*, the last remote commit will be pulled into the system. The option *By Commit ID* pulls the software component with the entered commit ID. Select *By Tag* if you want to pull a specific git tag, which has been assigned to a commit.
 
-2.  Display the list of all pulls and checkouts by navigating to the *History* tab.
+    > ### Note:  
+    > To pull a specific tag, at least one tag has to exist on a commit on the currently active branch.
+
+3.  Display the list of all pulls, checkouts and other actions by navigating to the *History* tab.
 
     To display pulls and checkouts that have been triggered for a particular software component, first select the component from the list and then scroll down to the *History* section where all actions are listed in the *Recent Actions* tables. In both cases, you will be navigated to the *Software Component Details* screen.
 
-3.  To display or refresh the list of *Recent Actions*, choose *Go*.
+4.  To display or refresh the list of *Recent Actions*, choose *Go* or click on the refresh button inside the search bar.
 
     **Field Description**
 
@@ -52,16 +55,14 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
 
-     *<Software Component\>* \(Column initially hidden\)
+     *<ID\>* 
 
 
     
     </td>
     <td valign="top">
 
-    Name of the software component that has to be unique per service instance. The maximum length of the name is restricted to 18 characters.
-
-    We recommend that you use a namespace for the software component \(`Z` or `Y`\). It used to check if the software component can be pulled to the service instance.
+    A unique key \(UUID\) of the software component. This column is initially hidden.
 
 
     
@@ -70,14 +71,62 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
 
-     *<ID\>* \(UUID, Column initially hidden\)
+     *<Branch Name\>* 
 
 
     
     </td>
     <td valign="top">
 
-    A unique key of the software component.
+    The branch which was used for the executed action.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+     *<Short Commit ID\>* 
+
+
+    
+    </td>
+    <td valign="top">
+
+    The short commit id that was used for the executed action.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+     *<Tag\>* 
+
+
+    
+    </td>
+    <td valign="top">
+
+    The name of the tag which is eventually assigned to the used commit.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+     *<Last Status Change\>* 
+
+
+    
+    </td>
+    <td valign="top">
+
+    The relative time from current system time and the timestamp of the last status change.
 
 
     
@@ -154,7 +203,10 @@ You can pull \(remotely available\) changes of your software component to the se
     </tr>
     </table>
     
-4.  You can display the pull details by choosing the entry from the list.
+    > ### Note:  
+    > The *<ID\>*, which is a unique key \(UUID\) of the software component is not in the table, but visible in the action detail page.
+
+5.  You can display the pull details by choosing the entry from the list.
 
     The *Execution Log* and *Transport Log* are displayed as a table. You can find the new tables when navigating to the detail page of every pull entry. Additionally, every log line is classified with a criticality level. A logline can have the criticality level "Information", "Success", "Warning" or "Error". Each level is represented with a colored criticality icon.
 
@@ -234,7 +286,7 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
 
-    *<Index \(Initially hidden\)\>*
+    *<Index\>*
 
 
     

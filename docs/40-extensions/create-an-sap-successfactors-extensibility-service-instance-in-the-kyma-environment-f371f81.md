@@ -36,9 +36,9 @@ During the creation of the service instance, a destination on the subaccount lev
 
 2.  On the subaccount *Overview* page, in the *Kyma Environment* section, open the Kyma Console.
 
-3.  Choose *Namespaces* from the left-hand side navigation and open the *default* Namespace.
+3.  Choose *Namespaces* from the left-hand side navigation and open the namespace in which you want to create a service instance.
 
-4.  Choose *Catalog* from the left-hand side navigation.
+4.  Choose *Service Management* \> *Catalog* from the left-hand side navigation.
 
 5.  In the *Services* tab, search for the *SAP SuccessFactors Extensibility* tile.
 

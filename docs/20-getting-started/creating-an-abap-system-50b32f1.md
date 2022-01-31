@@ -10,7 +10,7 @@ Create a service instance for the ABAP environment from the Service Marketplace.
 
 ## Prerequisites
 
-You have increased the quota for the ABAP environment \(see [Increasing the Quota for the ABAP Environment](increasing-the-quota-for-the-abap-environment-c40cb18.md)\).
+You have increased the quota for the ABAP environment. See [Increasing the Quota for the ABAP Environment](increasing-the-quota-for-the-abap-environment-c40cb18.md).
 
 
 
@@ -27,68 +27,55 @@ For more information about creating service instances, see [Create Service Insta
 
 ## Procedure
 
-1.  Log on to the SAP BTP cockpit and navigate to your Cloud Foundry subaccount for the ABAP environment.
+1.  Log on to the SAP BTP cockpit and navigate to the Cloud Foundry subaccount. See [Navigate in the Cockpit](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/0874895f1f78459f9517da55a11ffebd.html).
 
-2.  Navigate to the space that you created for your ABAP system
-
-3.  From the navigation area, choose *Services* \> *Service Marketplace.* 
+2.  From the navigation area, choose *Services* \> *Service Marketplace.* 
 
     You see a list of all services that are available to you.
 
-4.  Choose *ABAP Environment*.
+3.  Choose *ABAP environment*.
 
-5.  Choose *Create*.
-
-    > ### Tip:  
-    > To see a list of all instances that have already been created in your space, choose *Instances* from the navigation area. Here, you can also create a new instance.
-
-6.  Choose *New Instance*.
+4.  Choose *Create*.
 
     A wizard opens that helps you create your instance.
 
-7.  From the *Service Plan* dropdown menu, select the `standard` plan.
+    > ### Tip:  
+    > To see a list of all instances that have already been created in your subaccount, choose *Services* \> *Instances and Subscriptions* from the navigation area. Here, you can also create a new ABAP environment instance.
+
+5.  Select the `standard` service plan.
+
+6.  Choose *Cloud Foundry* as your runtime environment.
+
+7.  Select a space.
 
 8.  Enter a CLI-friendly instance name, and choose *Next*.
 
     The instance name identifies the service instance in the Cloud Foundry environment. Specify an instance name that is unique among all the service instances in a space and only contains alphanumeric characters \(A-Z, a-z\), periods, underscores, and hyphens.
 
-9.  Provide additional instance parameters for the configuration by creating and uploading a JSON file from your computer or by specifying the parameters in JSON format, as shown in the example below, in the dialog window of the wizard:
-
-    ```
-    {
-    			"admin_email": "administrator@example.com",
-    			"description": "Main development system",
-    			"is_development_allowed": true,
-    			"sapsystemname": "H01",
-    			"size_of_persistence": 4,
-    			"size_of_runtime": 1
-    			
-    			
-    }
-    ```
+9.  Provide additional instance parameters for the configuration by either using the default **form** or by uploading a **JSON file** from your computer or by specifying the parameters in JSON format.
 
     > ### Note:  
-    > The email address is used to create the initial user for the ABAP system automatically, including the assignment of the administrator role to this user. You can access the ABAP system only with this specified user.
+    > The admin email address is used to create the initial user for the ABAP system automatically, including the assignment of the administrator role to this user. You can access the ABAP environment system only with this specified user.
     > 
-    > The description and system name are optional. You can specify a description and a three-character name of your choice for your system to make it easier to refer to the corresponding system in the development environment. You can also simply use the default name H01. The system name does not have to be technically unique.
+    > The ABAP system description is optional.
     > 
-    > With parameter `is_development_allowed`, you can control the changeability of development objects in the system. Please use the default setting ***true*** for your development system. If you want to protect all your customer-related software components and ABAP namespaces against manual changes via ABAP Development Tools, use `is_development_allowed = false`. This setting is used for test and productive systems, where changes must be imported only.
+    > The Development System checkbox is checked by default. By using this setting, you can control the changeability of development objects in the system. If you want to protect all your customer-related software components and ABAP namespaces against manual changes via ABAP Development Tools, uncheck the box. This setting is used for test and productive systems, where changes must be imported only.
     > 
-    > With the parameters `size_of_persistence` and `size_of_runtime`, you control the sizing of your new system.
+    > The ABAP system ID must consist of exactly three alphanumeric characters. Only uppercase letters are allowed. The first character must be a letter \(not a digit\). The ID does not have to be technically unique.
     > 
-    > Parameter `size_of_persistence` refers to the size of SAP HANA memory. It's part of the quota plan *hana\_compute\_unit*, with one HANA compute unit representing the suitable block size for the underlying SAP HANA Cloud instance \(15 GB on AWS\). The supported number of hana\_compute\_unit per HANA instance is 2, 4, 8, or 16. Larger sizes can be made available upon request..
+    > ABAP runtime size \(parameter `size_of_runtime`\) refers to the size of the ABAP runtime. It's part of the quota plan *abap\_compute\_unit*, with one ABAP compute unit representing 16 GB. The number of abap\_compute\_unit may vary between 1 and 8.
     > 
-    > Parameter `size_of_runtime` refers to the size of the ABAP runtime. It's part of the quota plan *abap\_compute\_unit*, with one ABAP compute unit representing 16 GB. The number of abap\_compute\_unit may vary between 1 and 8.
+    > HANA memory size \(parameter `size_of_persistence`\) refers to the size of SAP HANA memory. It's part of the quota plan *hana\_compute\_unit*, with one HANA compute unit representing the suitable block size for the underlying SAP HANA Cloud instance \(15 GB on AWS\). The supported number of hana\_compute\_unit per HANA instance is 2, 4, 8, 16, or 32. Larger sizes can be made available upon request.
     > 
     > Make sure that you don't choose more compute units than you have assigned to your subaccount for the ABAP environment \(see [Increasing the Quota for the ABAP Environment](increasing-the-quota-for-the-abap-environment-c40cb18.md)\).
 
     > ### Caution:  
-    > Only the parameter `description` can be changed later \(see also [Updating an ABAP System](updating-an-abap-system-7890ffa.md)\).
+    > If you update your ABAP system, you can only change the system description and ABAP runtime size \(parameter `size_of_runtime`\). See [Updating an ABAP System](updating-an-abap-system-7890ffa.md).
 
 10. Choose *Next* to review and verify your instance details.
 
 11. Choose *Create*.
 
-    The ABAP system is being set up, which might take a while. Wait for an email that is sent when the setup is completed and the system up and running. The email is sent to the email address that you specified as admin email in the previous steps.
+    The ABAP environment instance is being set up, which might take a while. Wait for an email that is sent when the setup is completed and the system up and running. The email is sent to the email address that you specified as admin email in the previous steps.
 
 

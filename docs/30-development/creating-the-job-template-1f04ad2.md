@@ -1,12 +1,12 @@
 <!-- loio1f04ad22db0147b99ebc476708b749b6 -->
 
-# Defining the Job Template
+# Creating the Job Template
 
-The creation of a Job Template follows the same technical rules as a Job Catalog Entry as described in [Defining the Job Catalog Entry](defining-the-job-catalog-entry-1cff59e.md).
+The creation of a *Job Template* follows the same technical rules as a *Job Catalog Entry* as described in [Creating the Job Catalog Entry](creating-the-job-catalog-entry-1cff59e.md).
 
-The Job Template represents a set of default parameters for the assigned Job Catalog Entry. The Job Template is mandatory for the Fiori app Application Jobs to choose a job definition to be executed. A Job Catalog Entry can have more than one Job Template.
+The job template represents a set of default parameters for the assigned job catalog entry. The job template is mandatory for the Fiori app *Application Jobs* to choose a job definition to be executed. A job catalog entry can have more than one job template.
 
-The following code example shows a console application that generates the minimal number of required development objects: One Job Catalog Entry and one related Job Template.
+The following code example shows a console application that generates the minimal number of required development objects: One *Job Catalog* entry and one related *Job Template*.
 
 > ### Sample Code:  
 > ```lang-abap

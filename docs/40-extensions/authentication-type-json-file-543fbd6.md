@@ -46,7 +46,7 @@ The name of the system you have registered in a global account in SAP BTP.
 
 -   It is unique within a subaccount.
 
--   The name must be the same as the one defined during the system registration in the global account. See[Register an SAP SuccessFactors System in a Global Account in SAP BTP](register-an-sap-successfactors-system-in-a-global-account-in-sap-btp-e956ba2.md).
+-   The name must be the same as the one defined during the system registration in the global account. See [Register an SAP SuccessFactors System in a Global Account in SAP BTP](register-an-sap-successfactors-system-in-a-global-account-in-sap-btp-e956ba2.md).
 
 
 > ### Note:  
@@ -68,6 +68,9 @@ The name of the system you have registered in a global account in SAP BTP.
 
 The name of the technical user for consuming the SAP SuccessFactors HXM Suite OData API without a logged-in user.
 
+> ### Note:  
+> The technical user can be any user with the respective permissions. These permissions depend on the use case and the API you want to access. To find out which permission you need to assign to the technical user, go to [SAP API Business Hub](https://api.sap.com/), find the SAP SuccessFactors API you want to access and from the *Overview* tab go to the *Documentation* section and open the *help.sap.com* link. There you find the right information for each API.
+
 **Rules/Guidelines**
 
 -   Required: No
@@ -76,22 +79,6 @@ The name of the technical user for consuming the SAP SuccessFactors HXM Suite OD
 
 -   Max length: 100
 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
 
 
 
@@ -108,7 +95,7 @@ The name of the technical user for consuming the SAP SuccessFactors HXM Suite OD
 ```lang-json
 {
    "systemName":"MY_SYSTEM",
-   "technicalUser":"technicalonboarder",
+   "technicalUser":"technicalonboarder"
 }
 
 ```

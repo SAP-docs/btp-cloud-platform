@@ -1,14 +1,14 @@
 <!-- loio720645a3ed3945bd8d97a670b948ac07 -->
 
-# Set the Default Command Context
+# Set a Target for Subsequent Commands with `btp target`
 
-Change the default context for all command calls to the global account, a directory, or a subaccount by using the `btp target` command.
+Change the target for command calls to a directory, a subaccount, or the global account, by using the `btp target` command.
 
 
 
 ## Context
 
-If you know you need to work in one particular subaccount or directory, you can change the default context for command execution, so you won't have to enter that subaccount's or directory's ID with every command call. Targeting works along the hierarchy of your account model:
+If you know you need to work in one particular subaccount or directory, you can change the target, so you won't have to enter that subaccount's or directory's ID with every command call. Targeting works along the hierarchy of your account model:
 
 -   After login, the global account is targeted by default.
 
@@ -21,7 +21,7 @@ If you know you need to work in one particular subaccount or directory, you can 
 
 ## Procedure
 
-1.  Use `btp target [PARAMS]` to set the context for subsequent commands.
+1.  Use `btp target [PARAMS]` to set the target for subsequent commands.
 
     Usage: `btp [OPTIONS] target [PARAMS]`
 
@@ -55,7 +55,7 @@ If you know you need to work in one particular subaccount or directory, you can 
     </td>
     <td valign="top">
 
-    The ID of the directory to be targeted. You can find the directory ID by running `btp get accounts/global-account --show-hierarchy`
+    The ID of the directory to be targeted. You can find the directory ID by using `btp get accounts/global-account --show-hierarchy`
 
 
     
@@ -71,7 +71,7 @@ If you know you need to work in one particular subaccount or directory, you can 
     </td>
     <td valign="top">
 
-    The ID of the subaccount to be targeted. You can find this ID by running `btp list accounts/subaccount`.
+    The ID of the subaccount to be targeted. You can find this ID by using `btp list accounts/subaccount`.
 
 
     
@@ -86,14 +86,14 @@ If you know you need to work in one particular subaccount or directory, you can 
 
 ## Results
 
-Once you have set the context to a subaccount, all subsequent commands are executed there, unless you specify a different one by providing one of the parameters directly in a command call.
+Once you have set the target to a subaccount, all subsequent commands are executed there, unless you specify a different one by providing one of the parameters directly in a command call.
 
 > ### Tip:  
-> To find out your current context, use `btp --info` or simply `btp`.
+> To find out your current target, use `btp --info` or simply `btp`.
 
 
 
-To set the context back to the global account, use `btp target -ga`.
+To set the target back to the global account, use `btp target -ga`.
 
 **Related Information**  
 

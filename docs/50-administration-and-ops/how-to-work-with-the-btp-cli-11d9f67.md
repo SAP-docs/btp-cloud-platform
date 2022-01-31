@@ -86,7 +86,7 @@ Specifies the location of the configuration file. See [Specify the Location of t
 </td>
 <td valign="top">
 
-Displays version and current context. Note that this option only works on its own \(`btp --info)` and cannot be added to other command calls. You can also just use `btp` to display the info. See [View Version and Current Context](view-version-and-current-context-9c29222.md).
+Displays client and server versions, target, and context. Note that this option only works on its own \(`btp --info)` and cannot be added to other command calls. You can also just use `btp` to display this info. See [View Version and Current Context](view-version-and-current-context-9c29222.md).
 
 
 

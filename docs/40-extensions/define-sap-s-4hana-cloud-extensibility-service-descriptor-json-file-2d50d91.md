@@ -217,7 +217,7 @@ Short description.
 
 -   Allowed characters: ***\[a-zA-Z0-9\_-\]***
 
--   Default value: ***"Communication arrangement for integration with Enterprise Messaging for EM Client: <emclientId\>"***
+-   Default value: ***"Integration with Enterprise Messaging for EM Client: <emclientId\>"***
 
 
 
@@ -536,7 +536,7 @@ This descriptor is equivalent to:
         },
         {
            "name": "DESCRIPTION",
-           "value": "Integration with Enterprise Messaging for message Client: s4hc"
+           "value": "Integration with Enterprise Messaging for EM Client: s4hc"
         },
         {
            "name": "TOPIC SPACE",

@@ -238,17 +238,17 @@ In the add-on descriptor, dependencies are reflected by the order of the compone
 
 ```
 ---
-addonProduct: /NAMESPC/PRODUCT_X
-addonVersion: 1.2.0
+addonProduct: "/NAMESPC/PRODUCT_X"
+addonVersion: "1.2.0"
 repositories:
-  - name: /NAMESPC/COMPONENT_C
-    branch: v1.2.0
-    version: 1.2.0 
-    commitID: 7d4516e9
-  - name: /NAMESPC/COMPONENT_A
-    branch: v2.0.0
-    version: 2.0.0 
-    commitID: 9f102ffb 
+  - name: "/NAMESPC/COMPONENT_C"
+    branch: "v1.2.0"
+    version: "1.2.0" 
+    commitID: "7d4516e9"
+  - name: "/NAMESPC/COMPONENT_A"
+    branch: "v2.0.0"
+    version: "2.0.0" 
+    commitID: "9f102ffb" 
     
 ```
 

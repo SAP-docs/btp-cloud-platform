@@ -20,6 +20,11 @@ Optional resource attributes include:
 -   `properties`
 -   `parameters`
 -   `active` - its value can be `true` or `false` and the default value is `true`. If set to `false`, the resource is not processed and it is ignored in the `requires` list of the application that requires it.
+-   `processed-after` - the resource is used to create an order, in which services should be processed. If a resource has this attribute, it will be processed after the other resources in a higher position are processed.
+
+    > ### Tip:  
+    > By default recourses process in parallel, but if you want to enable an order of resources, see [Sequential Resource Processing](sequential-resource-processing-b93db81.md).
+
 -   `optional`
 
 

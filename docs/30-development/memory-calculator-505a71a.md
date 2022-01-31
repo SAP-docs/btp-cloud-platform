@@ -80,17 +80,17 @@ applications:
 
 ## General Information
 
-When pushing applications to Cloud Foundry application developers could specify the memory limit of the application.
+When pushing applications to Cloud Foundry, application developers could specify the memory limit of the application.
 
 The main goal of the SAP JVM Memory Calculator is to provide mechanism to fine tune the Java Virtual Machine \(JVM\) in terms of restricting the JVM's memory to grow below this memory limit.
 
-There are three memory types, which can be sized - heap, metaspace and stack. For each memory type there is an command line option, which must be passed to the JVM:
+There are three memory types, which can be sized - **heap**, **metaspace** and **stack**. For each memory type there is a command-line option, which must be passed to the JVM:
 
--   The initial and maximum size of the *heap* memory is controlled by the *-Xms* and *-Xmx* options respectively
+-   The initial and maximum size of the *heap* memory is controlled by the `-Xms` and `-Xmx` options, respectively.
 
--   The initial and maximum size of the *metaspace* memory is controlled by the *-XX:MetaspaceSize* and *-XX:MaxMetaspaceSize* options respectively
+-   The initial and maximum size of the *metaspace* memory is controlled by the `-XX:MetaspaceSize` and `-XX:MaxMetaspaceSize` options, respectively.
 
--   The size of the *stack* is controlled by the *-Xss* option
+-   The size of the *stack* is controlled by the `-Xss` option.
 
 
 
@@ -99,7 +99,7 @@ There are three memory types, which can be sized - heap, metaspace and stack. Fo
 
 ## Default Settings
 
-The SAP Java Buildpack is delivered with a default built-in configuration of the memory sizing options in YML format - `config/sapjvm.yml` \(path relative to the buildpack archive\). That configuration file is parsed during application staging and the memory configuration specified in it is used for calculating the memory sizes of the *heap*, *metaspace* and *stack*.
+The SAP Java Buildpack is delivered with a default built-in configuration of the memory sizing options in YML format - `config/sapjvm.yml` \(path related to the buildpack archive\). That configuration file is parsed during application staging, and the memory configuration specified in it is used for calculating the memory sizes of the *heap*, *metaspace* and *stack*.
 
 The default structure of the `config/sapjvm.yml` configuration file is the following:
 
@@ -137,19 +137,19 @@ The default structure of the `config/sapjvm.yml` configuration file is the follo
 >   stack_threads: 250
 > ```
 
-The *memory\_calculator* section encloses the input data for the memory calculation techniques utilized in determining the JVM memory sizing options.
+The **memory\_calculator** section encloses the input data for the memory calculation techniques utilized in determining the JVM memory sizing options.
 
--   *heap* - configure sizing options for the java heap. Affects *-Xms*,*-Xmx* JVM options
+-   *heap* – configure sizing options for the Java heap. Affects JVM options `-Xms` and `-Xmx`
 
--   *metaspace* - configure sizing options for the metaspace. Affects *-XX:MetaspaceSize*, *-XX:MaxMetaspaceSize* JVM options
+-   *metaspace* – configure sizing options for the metaspace. Affects JVM options `-XX:MetaspaceSize` and `-XX:MaxMetaspaceSize`
 
--   *stack* - configure sizing options for the stack. Affects *-Xss* JVM option
+-   *stack* – configure sizing options for the stack. Affects JVM option `-Xss`
 
--   *native* - serves to represent the rest of the memory \(different to heap, stack, metaspace\) in the calculations performed by the SAP JVM Memory Calculator. No JVM options are affected from this setting.
+-   *native* – serves to represent the rest of the memory \(different from *heap*, *stack*, *metaspace*\) in the calculations performed by the SAP JVM Memory Calculator. No JVM options are affected by this setting.
 
--   *memory\_heuristics* - this section defines the proportions between the memory regions addressed by the memory calculator. The ratios above will result in a heap space which is about 7.5 times larger than the metaspace and native; stack will be about half of the metaspace size.
+-   *memory\_heuristics* – this section defines the proportions between the memory regions addressed by the memory calculator. The ratios above will result in a *heap* space that is about 7.5 times larger than the *metaspace* and *native*; *stack* will be about half of the *metaspace* size.
 
--   *memory\_sizes* - this section defines sizes of the corresponding memory regions. The size of the memory region could be specified in kilobytes \(by using the K symbol\), megabytes \(by using the M symbol\) and gigabytes \(by using the G symbol\).
+-   *memory\_sizes* – this section defines sizes of the corresponding memory regions. The size of the memory region could be specified in kilobytes \(by using the K symbol\), megabytes \(by using the M symbol\) and gigabytes \(by using the G symbol\).
 
 
     <table>
@@ -247,11 +247,11 @@ The *memory\_calculator* section encloses the input data for the memory calculat
     </tr>
     </table>
     
--   *memory\_initials* - this section defines initial and maximum values for heap and metaspace. By defualt the initial values for heap and metaspace are set to 100% meaning that the memory calculation will result in -Xms=-Xmx and -XX:MetaspaceSize=-XX:MaxMetaspaceSize. If those values are set to 50% the -Xmx = 2\*-Xms and -XX:MaxMetaspaceSize=2\*-XX:MetaspaceSize.
+-   *memory\_initials* - this section defines initial and maximum values for *heap* and *metaspace*. By default, the initial values for *heap* and *metaspace* are set to 100%. That means, the memory calculation will result in **-Xms=-Xmx** and **-XX:MetaspaceSize=-XX:MaxMetaspaceSize**. If those values are set to 50%, then **-Xmx = 2\*-Xms** and **-XX:MaxMetaspaceSize=2\*-XX:MetaspaceSize**.
 
--   *memory\_settings* - for details see OutOfMemory error
+-   *memory\_settings* - for details, see [Java Out Of Memory Behavior](customizing-the-java-virtual-machine-jvm-settings-b8cda61.md#loio588cfd95fbab41178c21ceefd916a311)
 
--   *memory\_calculator\_v2* - for details see Memory Calculator V2
+-   *memory\_calculator\_v2* - for details, see [Memory Calculator V2](memory-calculator-505a71a.md#loio8eef9590a1d24e87af239d7c7e15fffe)
 
 
 
@@ -260,7 +260,7 @@ The *memory\_calculator* section encloses the input data for the memory calculat
 
 ## Customizing the Default Settings
 
-There are two possible ways to customize the default settings - during application staging and during the application runtime.
+There are two ways to customize the default settings - during application staging and during application runtime.
 
 
 
@@ -297,7 +297,7 @@ There are two possible ways to customize the default settings - during applicati
 
 ### Customizing the defaults during application runtime
 
-There are several ways to customize the SAP JVM Memory Calcolator's settings during the application runtime and all of them include using the `set-env` command either on XS advanced or on Cloud Foundry. Below are some examples:
+There are several ways to customize the SAP JVM Memory Calculator's settings during the application runtime. All of them include executing the `set-env` command – either on XSA or on Cloud Foundry. Below are some examples:
 
 -   By using the JBP\_CONFIG\_SAPJVM environment variable
 
@@ -330,7 +330,9 @@ There are several ways to customize the SAP JVM Memory Calcolator's settings dur
 
 ## Algorithm
 
-When given certain memory limit the memory calculator will try to calculate memory sizes for heap, metaspace, stack and native in a way which satisfies the proportions configured with the memory\_heuristics. Then the calculator will validate and adjust those sizes against the configured memory\_sizes. Let's say that the calculated value for heap according to the memory\_heuristics is 120M. Let's say that the memory\_sizes configuration for heap is 10M..100M. 120M goes beyond the configured range. No matter than according to memory\_heuristics 120M could be allocated for heap the chosen value for heap size would be 100M. The calculation goes on until sizes are calculated for all of the regions - heap, metaspace, stack, native. Finally, the memory\_initials will be respected. This would affect the values for -Xms, -Xms, -XX:MetaspaceSize, -XX:MaxMetaspaceSize.
+When given certain memory limit, the memory calculator will try to calculate memory sizes for *heap*, *metaspace*, *stack* and *native* in a way that satisfies the proportions configured with the *memory\_heuristics*. Then the calculator will validate and adjust those sizes against the configured *memory\_sizes*.
+
+Let's say that the calculated value for *heap*, according to the *memory\_heuristics*, is 120M. Let's assume that the *memory\_sizes* configuration for heap is 10M..100M. Even though 120M goes beyond the configured range, according to *memory\_heuristics*, 120M could be allocated for heap and the chosen value for *heap* size would be 100M. The calculation goes on until sizes \(*heap*, *metaspace*, *stack*, and *native*\) are calculated for all of the regions. Finally, the *memory\_initials* will be respected. This would affect the values of `-Xms`, `-Xms`, `-XX:MetaspaceSize`, and `-XX:MaxMetaspaceSize`.
 
 
 
@@ -372,35 +374,37 @@ default
 </tr>
 </table>
 
-First the algorithm will try to estimate the number of threads for the given memory\_limit and memory\_heuristics given 1M per thread. This way we have estimated\_number\_of\_threads=\(\(5/100\)\*1024M\) = 51.2M space for stack. Considering 1M per thread \(which is by default the -Xss size of the SAPJVM\) we get estimated\_number\_of\_threads=51.2
+First, the algorithm will try to estimate the number of threads for the given *memory\_limit* and *memory\_heuristics* given 1M per thread. This way, we'll have `estimated_number_of_threads`=*\(\(5/100\)\*1024M\)* = *51.2M* space for *stack*. Considering 1M per thread \(which by default is the `-Xss` size of the SAP JVM\), we'll get `estimated_number_of_threads`=*51.2*
 
-1.  Apply the configured *memory\_heuristics*
+1.  Apply the configured `memory_heuristics`:
 
-    *heap*: \(75/100\)\* 1024M = 768M
+    -   *heap*: \(75/100\)\* 1024M = 768M
 
-    *metaspace*: \(10/100\) \* 1024M = 104857K
+    -   *metaspace*: \(10/100\) \* 1024M = 104857K
 
-    *stack*: \(5/100\) \* 1024M = 51.2M
+    -   *stack*: \(5/100\) \* 1024M = 51.2M
 
-    *native*: \(10/100\) \* 1024M = 104858K
+    -   *native*: \(10/100\) \* 1024M = 104858K
 
-2.  Apply the configured *memory\_sizes*
 
-    There is a memory range defined for metaspace which is 64.
+2.  Apply the configured `memory_sizes`:
 
-    The value 104857K calculated in step1 for metaspace satisfies the range.
+    There is a memory range defined for *metaspace*, which is 64.
 
-3.  Apply the *memory\_initials*
+    The value 104857K calculated in step1 for *metaspace* satisfies the range.
 
-    *-Xms*: 100% \* 768M = 768M
+3.  Apply the `memory_initials`:
 
-    *-Xmx*: 768M
+    -   *-Xms*: 100% \* 768M = 768M
 
-    *-XX:MetaspaceSize*: 100% \* 104857K = 104857K
+    -   *-Xmx*: 768M
 
-    *-XX:MaxMetaspaceSize*: 104857K
+    -   *-XX:MetaspaceSize*: 100% \* 104857K = 104857K
 
-    *-Xss: stack* / estimated\_number\_of\_threads = 51.2M / 51.2 = 1M
+    -   *-XX:MaxMetaspaceSize*: 104857K
+
+    -   *-Xss: stack* / estimated\_number\_of\_threads = 51.2M / 51.2 = 1M
+
 
 
 
@@ -435,25 +439,28 @@ Memory calculator settings
 </td>
 <td valign="top">
 
-*memory\_sizes*:
+`memory_sizes`:
 
-metaspace: 64m..70m
+-    *metaspace*: 64m..70m
 
-*memory\_heuristics*:
 
-heap: 75
+`memory_heuristics`:
 
-metaspace: 10,
+-   *heap*: 75
 
-stack: 5
+-   *metaspace*: 10,
 
-native: 10
+-   *stack*: 5
 
-*memory\_initials*:
+-   *native*: 10
 
-heap: 100%
 
-metaspace: 50%
+`memory_initials`:
+
+-   *heap*: 100%
+
+    *metaspace*: 50%
+
 
 
 
@@ -461,54 +468,57 @@ metaspace: 50%
 </tr>
 </table>
 
-First the algorithm will try to estimate the number of threads for the given memory\_limit and memory\_heuristics given 1M per thread. This way we have estimated\_number\_of\_threads=\(\(5/100\)\*1024M\) = 51.2M space for stack. Considering 1M per thread \(which is by default the -Xss size of the SAPJVM\) we get estimated\_number\_of\_threads=51.2.
+First, the algorithm will try to estimate the number of threads for the given *memory\_limit* and *memory\_heuristics* given 1M per thread. This way, we'll have `estimated_number_of_threads`=*\(\(5/100\)\*1024M\)* = *51.2M* space for *stack*. Considering 1M per thread \(which by default is the `-Xss` size of the SAP JVM\), we'll get `estimated_number_of_threads`=*51.2*.
 
-*Round 1*:
+**Round 1:**
 
-1.  Apply the configured *memory\_heuristics*
+1.  Apply the configured `memory_heuristics`:
 
-    *heap* = \(75/100\) \* 1024M = 768M
+    -   *heap* = \(75/100\) \* 1024M = 768M
 
-    *metaspace* = \(10/100\) \* 1024M = 104857K
+    -   *metaspace* = \(10/100\) \* 1024M = 104857K
 
-    *stack* = \(5/100\) \* 1024M = 51.2M
+    -   *stack* = \(5/100\) \* 1024M = 51.2M
 
-    *native*: \(10/100\) \* 1024M = 104857K
-
-2.  Apply the configured *memory\_sizes*
-
-    *metaspace* should be between 60m and 70m. Since the value calculated in step 1 goes beyond this range the chosen value for *metaspace* becomes 70M. This leads to second round of calculation since there are \(104857K - 70M\) = 33177K which are available to be distributed among the other regions - heap, stack, native.
+    -   *native*: \(10/100\) \* 1024M = 104857K
 
 
-*Round 2*:
+2.  Apply the configured `memory_sizes`:
 
-The metaspace is already calculated so its size is substracted from the memory limit leading to memory available for distribution is now \(1G - 70M\) = 954M.
+    The *metaspace* should be between 60m and 70m. Since the value calculated in step 1 goes beyond this range, the chosen value for *metaspace* becomes 70M. This leads to a second round of calculation since there are \(104857K - 70M\) = 33177K, which are available to be distributed among the other regions - heap, stack, native.
 
-The same calculation takes place, this time the metaspace is not considered because its already calculated.
 
-1.  Apply the *memory\_heuristics*
+**Round 2:**
 
-    *heap* = \(75/90\) \* 954M = 795M
+The *metaspace* is already calculated, so its size is substracted from the memory limit leading to memory available for distribution, which is \(1G - 70M\) = 954M.
 
-    *stack* = \(5/90\) \* 954M = 53
+The same calculation takes place, this time the *metaspace* is not considered because it's already calculated.
 
-    *native* = \(10/90\) \* 954M = 106M
+1.  Apply the `memory_heuristics`:
 
-2.  Apply the *memory\_sizes*
+    -   *heap* = \(75/90\) \* 954M = 795M
 
-    No settings for *heap*, *stack* or *native* so no changes are needed in the calculations from step 1.
+    -   *stack* = \(5/90\) \* 954M = 53
 
-3.  Apply the *memory\_initials*
+    -   *native* = \(10/90\) \* 954M = 106M
 
-    *-Xms*: 100% \* 795M = 795M
 
-    *-Xmx*: 795M
+2.  Apply the `memory_sizes`:
 
-    *-XX:MetaspaceSize*: 50% \* 70M = 35M
+    No settings for *heap*, *stack* or *native*, thus no changes are needed in the calculations from step 1.
 
-    *-XX:MaxMetaspaceSize*: 70M
+3.  Apply the `memory_initials`:
 
-    *-Xss*: stack / estimated\_number\_of\_threads = 53 / 51.2 = 1060K
+    -   *-Xms*: 100% \* 795M = 795M
+
+    -   *-Xmx*: 795M
+
+    -   *-XX:MetaspaceSize*: 50% \* 70M = 35M
+
+    -   *-XX:MaxMetaspaceSize*: 70M
+
+    -   *-Xss*: stack / estimated\_number\_of\_threads = 53 / 51.2 = 1060K
+
 
 
 **Related Information**  

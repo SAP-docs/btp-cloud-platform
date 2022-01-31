@@ -76,10 +76,15 @@ Exchange keys and certificates between the subaccounts, and configure trust betw
 
         -   In the *Name* field, enter the following:
 
-            `<your Cloud Foundry API endpoint host>/<Cloud Foundry subaccount ID>`
+            `<your Cloud Foundry domain host>/<Cloud Foundry subaccount ID>`
 
             > ### Tip:  
-            > You can view the **API endpoint host** and **subaccount ID** from *cloud cockpit* \> *<your global account\>* \> *<your subaccount\>* \> *<your space\>* \> *Overview*.
+            > You can view the **Cloud Foundry domain host** in *cockpit* \> *<your global account\>* \> *<your subaccount\>* \> *<your space\>* \> *Routes*.
+
+            ![](images/CF_Domain_8747d4c.png)
+
+            > ### Tip:  
+            > You can view the **subaccount ID** in *cockpit* \> *<your global account\>* \> *<your subaccount\>* \> *Overview*.
 
             ![](images/CF_Subaccount_Overview_396929b.png)
 
@@ -104,13 +109,21 @@ You need an OAuth client to get an access token for the OAuth-protected resource
 
 
 
+<a name="loiofb9a98644f674d7481e179f97ae26c72__context_mlr_kfn_fsb"/>
+
+## Context
+
+For more information about working with OAuth clients, see [Create an OAuth Client](principal-propagation-from-the-cloud-foundry-to-the-neo-environment-391e9ed.md#loiofb9a98644f674d7481e179f97ae26c72).
+
+
+
 ## Procedure
 
-1.  In the cloud cockpit, navigate to the subaccount in the Neo environment.
+1.  In the cockpit, navigate to the subaccount in the Neo environment.
 
 2.  Navigate to *Security* \> *OAuth* \> *Clients*, and choose *Register New Client*.
 
-3.  Enter the following information:
+3.  Create an OAuth client with the following configuration settings:
 
     -   *Name* - the OAuth client name. You will need to provide this name as value of the *Token Service User* property of the destination below.
     -   *Authorization Grant* - choose the *Authorization Code* option.
@@ -118,10 +131,8 @@ You need an OAuth client to get an access token for the OAuth-protected resource
 
 4.  Save the client.
 
-    ![](images/CFtoNeoOAuthClient_d972bff.png)
-
     > ### Note:  
-    > When creating the required OAuthSAMLBearer destination later, you will need the following information from the OAuth client you created:
+    > When creating the required **OAuthSAMLBearer destination** later, you will need the following information from the OAuth client:
     > 
     > -   *ID*
     > -   *Secret*
@@ -281,7 +292,7 @@ Connect the two subaccounts by describing the connection properties in a destina
 
     The value of the local service provider name in the subaccount in the Neo environment.
 
-    Copy the value from *cloud cockpit* \> *<your Neo subaccount\>* \> *Security* \> *Trust* \> *Local Service Provider* \> *Local Service Provider Name*.
+    Copy the value from *cockpit* \> *<your Neo subaccount\>* \> *Security* \> *Trust* \> *Local Service Provider* \> *Local Service Provider Name*.
 
     ![](images/NeoLocalProvider_7f8b61b.png)
 
@@ -315,7 +326,7 @@ Connect the two subaccounts by describing the connection properties in a destina
     </td>
     <td valign="top">
 
-    Copy the value of *Token Endpoint* from the following place: cloud cockpit *cloud cockpit* \> *<your Neo subaccount\>* \> *Security* \> *OAuth* \> *Branding*.
+    Copy the value of *Token Endpoint* from the following place: *cockpit* \> *<your Neo subaccount\>* \> *Security* \> *OAuth* \> *Branding*.
 
     ![](images/OAuthTokenEndpoint_b08846c.png)
 

@@ -120,7 +120,8 @@ You need to register the assertion consumer service of the subaccount in SAP BTP
     </td>
     <td valign="top">
 
-    Select *_Other Application_* from the drop-down list.
+    Select *Other Application* from the drop-down list.
+
 
     
     </td>

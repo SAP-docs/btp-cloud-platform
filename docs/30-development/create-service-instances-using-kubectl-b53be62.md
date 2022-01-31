@@ -160,8 +160,8 @@ Open the terminal and follow the steps to create a service instance:
       name: {INSTANCE_NAME}
       namespace: {YOUR_NAMESPACE}
     spec:
-      ServiceClassExternalName: {SERVICE_NAME}
-      ServicePlanExternalName: {PLAN_NAME}
+      clusterServiceClassExternalName: {SERVICE_NAME}
+      clusterServicePlanExternalName: {PLAN_NAME}
       parameters:
         param-1: value-1
         param-2: value-2
@@ -172,25 +172,25 @@ Open the terminal and follow the steps to create a service instance:
     > To list the services available in your Namespace, run:
     > 
     > ```
-    > kubectl get serviceclasses -n {YOUR_NAMESPACE}
+    > kubectl get clusterserviceclasses -n {YOUR_NAMESPACE}
     > ```
     > 
     > To view the details of the external service, run:
     > 
     > ```
-    > kubectl get serviceclasses -n {YOUR_NAMESPACE} {SERVICE_NAME} -o yaml
+    > kubectl get clusterserviceclasses -n {YOUR_NAMESPACE} {SERVICE_NAME} -o yaml
     > ```
     > 
     > To list service plans available in your Namespace, run:
     > 
     > ```
-    > kubectl get serviceplans -n {YOUR_NAMESPACE}
+    > kubectl get clusterserviceplans -n {YOUR_NAMESPACE}
     > ```
     > 
     > To view the details of a particular service plan, run:
     > 
     > ```
-    > kubectl get serviceplans -n {YOUR_NAMESPACE} {SERVICE_NAME} -o yaml
+    > kubectl get clusterserviceplans -n {YOUR_NAMESPACE} {SERVICE_NAME} -o yaml
     > ```
 
 

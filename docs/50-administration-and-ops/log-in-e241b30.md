@@ -10,10 +10,12 @@ Log in with the btp CLI is on global account level.
 
 ## Prerequisites
 
--   Your global account is on feature set B. See [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
--   You have the subdomain of your global account ready. You can find it in the cockpit in the global account view or under *Switch Global Account*.
+-   Your global account must be on feature set B. See [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
+-   You have to enter the subdomain of your global account. You can find it in the cockpit in the global account view or under *Switch Global Account*.
 
--   You have the CLI server URL: `https://cpcli.cf.eu10.hana.ondemand.com` . Only if your operator has provided you with a different server URL, you'll have to enter this.
+-   You have to enter the correct CLI server URL. Usually, this is: `https://cpcli.cf.eu10.hana.ondemand.com` . If your operator has provided you with a different server URL, you'll have to enter that one.
+
+-   Your user is assigned to the `Global Account Viewer` or the `Global Account Administrator` role collection. See [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md).
 
 
 
@@ -104,7 +106,7 @@ Alternatively, you can also log in with single sign-on directly at your identity
     </td>
     <td valign="top">
 
-    Your password. Note that if two-factor authentication is enabled, concatenate your password and the passcode in a single string.
+    Your password. Note that if two-factor authentication is enabled, concatenate your password, followed by the passcode, in a single string.
 
     > ### Tip:  
     > We don’t recommend to provide the password with this parameter, as it appears in plain text and may be recorded in your shell history. Rather, enter it when you’re prompted.
@@ -157,7 +159,7 @@ Upon successful login, the btp CLI creates a folder \(`btp`\) and a configuratio
 To change this location, use the `--config` option or the environmnet variable. See [Specify the Location of the Configuration File](specify-the-location-of-the-configuration-file-e57288d.md).
 
 > ### Tip:  
-> You’ve logged in to the global account and all commands are executed in the context of this global account. To change this default context for subsequent commands to a subaccount or directory of this global account, use `btp target`. See [Set the Default Command Context](set-the-default-command-context-720645a.md).
+> You’ve logged in to the global account and all commands are executed in this global account, unless you provide a subaccount or directory ID with the command. To change this default context for subsequent commands, you can target a subaccount or directory of this global account by using `btp target`. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
 
 **Related Information**  
 
@@ -170,7 +172,7 @@ To change this location, use the `--config` option or the environmnet variable. 
 
 [Enable Command Autocompletion](enable-command-autocompletion-46355fa.md "Use command autocompletion to save keystrokes when entering command actions, group-object combinations, and their parameters in the SAP BTP command line interface (btp CLI).")
 
-[Set the Default Command Context](set-the-default-command-context-720645a.md "Change the default context for all command calls to the global account, a directory, or a subaccount by using the btp target command.")
+[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Change the target for command calls to a directory, a subaccount, or the global account, by using the btp target command.")
 
 [Change the Output Format to JSON](change-the-output-format-to-json-dcb85b7.md "Use the --format json option to change the output format of a command to JSON.")
 

@@ -16,7 +16,9 @@ Before creating an SAP S/4HANA Cloud Extensibility service instance in the Cloud
 
 ## Context
 
-During the creation of the service instance, a destination on a subaccount level with the same name as the service instance name is automatically created in this subaccount. It contains all instance binding properties which are sufficient to establish connection to the SAP S/4HANA Cloud system.
+To consume the SAP S/4HANA Cloud APIs \(inbound connection\) or consume APIs exposed by the extension application from SAP S/4HANA Cloud \(outbound connection\), you create an SAP S/4HANA Cloud Extensibility service instance. When creating the service instance, you configure the communication arrangement and the authentication type for the connection.
+
+For communication arrangements with inbound connections, a destination on a subaccount level with the same name as the service instance name is automatically created in this subaccount. It contains all instance binding properties which are sufficient to establish connection to the SAP S/4HANA Cloud system.
 
 > ### Note:  
 > Make sure that you don't already have a destination with the same name as the service instance. If you do, you will not be able to create the service instance.

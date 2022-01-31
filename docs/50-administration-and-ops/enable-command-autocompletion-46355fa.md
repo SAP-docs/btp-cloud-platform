@@ -146,7 +146,7 @@ If disabling the command autocompletion fails or you have uninstalled the btp CL
 
 [Log out](log-out-9f1c87a.md "Logging out of the configured server removes all user-specific data from the configuration file.")
 
-[Set the Default Command Context](set-the-default-command-context-720645a.md "Change the default context for all command calls to the global account, a directory, or a subaccount by using the btp target command.")
+[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Change the target for command calls to a directory, a subaccount, or the global account, by using the btp target command.")
 
 [Change the Output Format to JSON](change-the-output-format-to-json-dcb85b7.md "Use the --format json option to change the output format of a command to JSON.")
 

@@ -201,7 +201,7 @@ For more information, see [Application Security Descriptor Configuration Syntax]
 </td>
 <td valign="top">
 
-In this parameter, you define the certificate options of keylength, validity period, and unit of length. This parameter is optional.
+In this parameter, you define the certificate options of key length, validity period, and unit of length. This parameter is optional.
 
 
 
@@ -217,7 +217,7 @@ In this parameter, you define the certificate options of keylength, validity per
 </td>
 <td valign="top">
 
-Specifies the byte length of the generated private key. The default length is 2048 bytes.
+Specifies the byte length of the generated private key. The default length is 2048 bytes. You can also choose 4096 or 8192 bytes.
 
 
 
@@ -234,6 +234,8 @@ Specifies the byte length of the generated private key. The default length is 20
 <td valign="top">
 
 Specifies the number of time units for `validity-type`. The default value is 7.
+
+Together with the `validity-type` the range of validity runs from `1 DAYS` to `1 YEARS`.
 
 
 
@@ -342,6 +344,17 @@ In this parameter, you include the certificate and the options of uniqueness and
 
 Provide the certificate string in privacy-enhanced mail \(PEM\) format. This parameter is required.
 
+> ### Restriction:  
+> You can only use each certificate once per service instance. The uniqueness of the certificate among all bindings and keys of a service instance is dependent on the value of `certificate-pinning`:
+> 
+> -   true
+> 
+>     The certificate hash must be unique.
+> 
+> -   false
+> 
+>     The combination of subject and issuer DN must be unique.
+
 
 
 </td>
@@ -372,7 +385,11 @@ Ensures that the certificate is unique among all following instances. The defaul
 </td>
 <td valign="top">
 
-Set to false to enable an easier rotation of credentials: The incoming certificate's subject and issuer DN is compared to the subject and issuer of the stored certificate. If the values match and the certificate was issued on or after the stored issuer date, the authentication is accepted. Afterwards the incoming certificate's issuer date is stored for future authentication attempts. The default value is `true` for compatibility reasons. We recommend setting the value to `false` for easier rotation.
+Set to false for applications that are rarely updated or deployed. The incoming certificate's subject and issuer DN is compared to the subject and issuer of the stored certificate. If the values match and the certificate was issued on or after the stored issuer date, the authentication is accepted. Afterwards the incoming certificate's issuer date is stored for future authentication attempts.
+
+Set to true for blue and green deployments, where you deploy a new application or version of an application regularly and rotate the certificate in parallel. For this use case, you need a new certificate to use in the binding of the new application.
+
+The default value is `true`.
 
 
 

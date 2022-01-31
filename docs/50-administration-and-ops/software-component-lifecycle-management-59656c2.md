@@ -17,5 +17,5 @@ Once you have pulled a new software component to a service instance, a new struc
 **Related Information**  
 
 
-[Manage Software Components](manage-software-components-3dcf76a.md "You can use this app to create, display, pull and delete software components in your ABAP environment landscape.")
+[Manage Software Components](manage-software-components-3dcf76a.md "You can use this app to create, display, clone, delete and configurate software components in your ABAP environment landscape. Moreover, you can pull (import) changes from the central software component into other instances.")
 

@@ -46,7 +46,7 @@ You want to see which software components already exist in the environment and a
     </td>
     <td valign="top">
 
-    Name of the software component that has to be unique per service instance. The maximum length of the name is restricted to 18 characters.
+    Name of the software component that has to be unique per service instance. The maximum length of the name is restricted to 18 characters including a namespace.
 
 
     
@@ -111,38 +111,6 @@ You want to see which software components already exist in the environment and a
     <td valign="top">
 
     Shows whether or not the software component has been cloned.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-     *<Last Change\>* 
-
-
-    
-    </td>
-    <td valign="top">
-
-    The amount of days that has passed since the last change.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-     *<Changes Available\>* 
-
-
-    
-    </td>
-    <td valign="top">
-
-    Shows if a new version of the software component is centrally available.
 
 
     

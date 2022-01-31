@@ -29,7 +29,7 @@ By default, platform users in multi-environment subaccounts are users in SAP ID 
 
     You need this subaccount in the Neo environment to access the SAP BTP cockpit. We’re using the subaccount in the Neo environment with a configured trust to an Identity Authentication tenant, and then establish trust between the Identity Authentication tenant and multi-environment subaccounts.
 
-    For more information setting up a Neo subaccount, see <?sap-ot O2O class="- topic/xref " href="c48c2985de5a4fa692f03b7ee3f563b2.xml" text="" desc="" xtrc="xref:3" xtrf="file:/d:/dita/jao1638776800681/src/cms/content/localization/en-US/8600afb350114462ae8b3475a3ccea54.xml" ?> and <?sap-ot O2O class="- topic/xref " href="80edbe70b8f3478d8a59c21a91a47aa6.xml" text="" desc="" xtrc="xref:4" xtrf="file:/d:/dita/jao1638776800681/src/cms/content/localization/en-US/8600afb350114462ae8b3475a3ccea54.xml" ?>.
+    For more information setting up a Neo subaccount, see <?sap-ot O2O class="- topic/xref " href="c48c2985de5a4fa692f03b7ee3f563b2.xml" text="" desc="" xtrc="xref:3" xtrf="file:/d:/dita/sqm1639991874032/src/cms/content/localization/en-US/8600afb350114462ae8b3475a3ccea54.xml" ?> and <?sap-ot O2O class="- topic/xref " href="80edbe70b8f3478d8a59c21a91a47aa6.xml" text="" desc="" xtrc="xref:4" xtrf="file:/d:/dita/sqm1639991874032/src/cms/content/localization/en-US/8600afb350114462ae8b3475a3ccea54.xml" ?>.
 
     If you run you own identity provider, connect it to the Identity Authentication service, which has a custom trust configuration with SAP BTP.
 
@@ -61,7 +61,7 @@ For more information, see [Supported Tools and Services When Using Custom Identi
 
 1.  Connect your Identity Authentication tenant to your subaccount in the Neo environment.
 
-    For more information, see *Create Trust with the Identity Authentication Tenant* under <?sap-ot O2O class="- topic/xref " href="80edbe70b8f3478d8a59c21a91a47aa6.xml" text="" desc="" xtrc="xref:7" xtrf="file:/d:/dita/jao1638776800681/src/cms/content/localization/en-US/8600afb350114462ae8b3475a3ccea54.xml" ?> in the documentation for SAP BTP, Neo Environment.
+    For more information, see *Create Trust with the Identity Authentication Tenant* under <?sap-ot O2O class="- topic/xref " href="80edbe70b8f3478d8a59c21a91a47aa6.xml" text="" desc="" xtrc="xref:7" xtrf="file:/d:/dita/sqm1639991874032/src/cms/content/localization/en-US/8600afb350114462ae8b3475a3ccea54.xml" ?> in the documentation for SAP BTP, Neo Environment.
 
 2.  In your Identity Authentication tenant, create an application of type *OpenID Connect*, and configure it. For configuring the Identity Authentication tenant, see [Configure OpenID Connect Application for Resource Owner Password Credentials Flow](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/cafba7730eeb4d4bbfaa0b200e8cfbac.html) in the documentation for Identity Authentication service.
 

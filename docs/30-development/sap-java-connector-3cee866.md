@@ -12,7 +12,7 @@ The SAP Java buildpack provides an option to use the SAP Java Connector.
 
 The SAP Java buildpack provides an option to use the [SAP Java Connector \(SAP JCo\)](https://support.sap.com/en/product/connectors/jco.html).
 
-To activate SAP JCo in the SAP Java buildpack, set the environment variable *<USE\_JCO\>* to `true`:
+To activate SAP JCo in the SAP Java buildpack, set the environment variable `USE_JCO` to *true*.
 
 > ### Sample Code:  
 > manifest.yml
@@ -20,15 +20,15 @@ To activate SAP JCo in the SAP Java buildpack, set the environment variable *<US
 > ```
 > ---
 > applications:
-> - name: <APP_NAME>
+> - name: <app_name>
 >   ...
 >   env:
 >     USE_JCO: true
 > ```
 
-The previous method of activating the SAP JCo feature by defining a service instance for both the connectivity and destination services in the `manifest.yml` has been deprecated and stops working at the end of a transition phase.
+The previous method of activating the SAP JCo feature, by defining a service instance for both the connectivity and destination services in the `manifest.yml` file, has been deprecated and stops working at the end of a transition phase.
 
-The activation of SAP JCo will provide all relevant libraries in the application container, so the [Java Connector API](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/d917276b236f45f9960442bebf262dab.html "The Java Connector (JCo) is a middleware component that enables you to develop ABAP-compliant components and applications in Java.") :arrow_upper_right: can be used. To use SAP JCo during runtime, a destination and XSUAA service instance are mandatory. Additionally, if you want to set up on-premise connectivity, a connectivity service instance is required.
+The activation of SAP JCo will provide all relevant libraries in the application container, so the [Java Connector API](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/d917276b236f45f9960442bebf262dab.html "The Java Connector (JCo) is a middleware component that enables you to develop ABAP-compliant components and applications in Java.") :arrow_upper_right: can be used. To use SAP JCo during runtime, a destination and an XSUAA service instance are mandatory. Additionally, if you want to set up on-premise connectivity, a connectivity service instance is required.
 
 
 

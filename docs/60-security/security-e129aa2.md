@@ -24,7 +24,7 @@ See [User and Member Management](../10-concepts/user-and-member-management-cc1c6
 
 ## Authorizations
 
-You can configure authorizations using **roles** and **role collections** for your subaccount or individual applications.
+You can configure authorizations using **roles** and **role collections** for your global account, subaccount, directory or individual applications.
 
 See [Security Administration: Managing Authentication and Authorization](../50-administration-and-ops/security-administration-managing-authentication-and-authorization-1ff47b2.md).
 
@@ -88,6 +88,11 @@ SAP BTP uses encrypted communication channels based on HTTPS/TLS, supporting TLS
 > TLS versions 1.0 and 1.1 are no longer supported.
 
 Make sure you use HTTP clients \(such as Web browsers\) that support TLS version 1.2 or higher for connecting to SAP BTP.
+
+> ### Note:  
+> You can optionally use TLS 1.3 in the Custom Domain Manager. This allows the use of TLS 1.3 with applications running on SAP BTP. It's not allowed to use TLS 1.3, for example for the SAP BTP cockpit or SAP Cloud Identity Services. These services are still using TLS 1.2.
+> 
+> See [What Is Custom Domain?](https://help.sap.com/viewer/6f35a23466ee4df0b19085c9c52f9c29/Cloud/en-US/4f4c3ff62fd2413089dce8a973620167.html "Configure and expose your application under your own domain.") :arrow_upper_right:.
 
 
 

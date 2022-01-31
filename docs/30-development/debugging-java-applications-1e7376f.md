@@ -25,11 +25,17 @@ You can debug an application running on a Cloud Foundry container that is using 
 
 ## Prerequisites
 
--   Download and install the Cloud Foundry Command Line Interface \(cf CLI\) and log on to Cloud Foundry. See [Download and Install the Cloud Foundry Command Line Interface](../50-administration-and-ops/download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md) and [Log On to the Cloud Foundry Environment Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/log-on-to-the-cloud-foundry-environment-using-the-cloud-foundry-command-line-interface-7a37d66.md).
+-   [Download and Install the Cloud Foundry Command Line Interface](../50-administration-and-ops/download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md) 
 
--   Deploy your application using the SAP Java Buildpack. From the cf CLI, execute `cf push *<app name\>* -p *<my war file\>* -b sap_java_buildpack`.
+-   [Log On to the Cloud Foundry Environment Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/log-on-to-the-cloud-foundry-environment-using-the-cloud-foundry-command-line-interface-7a37d66.md)
 
--   Ensure that SSH is enabled for the application. See [https://docs.cloudfoundry.org/devguide/deploy-apps/ssh-apps.html](https://docs.cloudfoundry.org/devguide/deploy-apps/ssh-apps.html) 
+-   Deploy your application using the SAP Java Buildpack. To do that, from the cf CLI execute:
+
+    ```
+    cf push <app name> -p <war file> -b sap_java_buildpack
+    ```
+
+-   Ensure that SSH is enabled for the application. See [Accessing Apps with SSH](https://docs.cloudfoundry.org/devguide/deploy-apps/ssh-apps.html) 
 
 
 > ### Note:  
@@ -45,11 +51,23 @@ After enabling the debugging port, you need to open an SSH tunnel, which connect
 
 ## Procedure
 
-1.  To enable debugging or to check the debugging state of your JVM, run `jvmmon` in your Cloud Foundry container by executing `cf ssh *<app name\>* -c "app/META-INF/.sap_java_buildpack/sapjvm/bin/jvmmon"`.
+1.  To enable debugging or to check the debugging state of your JVM, run `jvmmon` in your Cloud Foundry container by executing:
 
-2.  From the `jvmmon` command line window, execute `start debugging`.
+    ```
+    cf ssh <app name> -c "app/META-INF/.sap_java_buildpack/sapjvm/bin/jvmmon"
+    ```
 
-3.  \(Optional\) To confirm that debugging is enabled and see which port is open, execute `print debugging information`.
+2.  From the `jvmmon` command line window, execute:
+
+    ```
+    start debugging
+    ```
+
+3.  \(Optional\) To confirm that debugging is enabled and see which port is open, execute:
+
+    ```
+    print debugging information
+    ```
 
     The following is an example of the information displayed by `jvmmon`:
 
@@ -63,11 +81,15 @@ After enabling the debugging port, you need to open an SSH tunnel, which connect
     > ### Note:  
     > The default port is 8000.
 
-4.  To exit `jvmmon`, execute `q`.
+4.  To exit `jvmmon`, execute: `q`
 
-5.  From the cf CLI, open the SSH tunnel by executing `cf ssh *<app name\>* -N -T -L 8000:127.0.0.1:8000`.
+5.  From the cf CLI, open the SSH tunnel by executing:
 
-6.  Connect a Java debugger to your application. For example, use the standard Java debugger provided by Eclipse IDE and connect to `localhost:8000`.
+    ```
+    cf ssh <app name> -N -T -L 8000:127.0.0.1:8000
+    ```
+
+6.  Connect a Java debugger to your application. For example, use the standard Java debugger provided by Eclipse IDE and connect to `localhost:8000`
 
 
  <a name="loiof7fa9f367c644e34b87e6518f7724ccb"/>
@@ -84,19 +106,22 @@ Debug an application running on a Cloud Foundry container that is using SAPMachi
 
 ## Prerequisites
 
-Download and Install the Cloud Foundry Command Line Interface \(cf CLI\) and log on to Cloud Foundry. See [Download and Install the Cloud Foundry Command Line Interface](../50-administration-and-ops/download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md) and [Log On to the Cloud Foundry Environment Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/log-on-to-the-cloud-foundry-environment-using-the-cloud-foundry-command-line-interface-7a37d66.md).
+-   [Download and Install the Cloud Foundry Command Line Interface](../50-administration-and-ops/download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md)
+
+-   [Log On to the Cloud Foundry Environment Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/log-on-to-the-cloud-foundry-environment-using-the-cloud-foundry-command-line-interface-7a37d66.md)
+
 
 
 
 ## Context
 
-To debug an application you need to open a debugging port on your Cloud Foundry containter and open an SSH tunnel that will connect to that port.
+To debug an application, you need to open a debugging port on your Cloud Foundry container and open an SSH tunnel that will connect to that port.
 
 
 
 ## Procedure
 
-1.  To open the debugging port, you need to configure the `JAVA_OPTS` parameter in your JVM. By default the *agentlib*, which enables the debug is pre-configured. It could be turned off by setting the following property in the environment:
+1.  To open the debugging port, you need to configure the `JAVA_OPTS` parameter in your JVM. By default, the *agentlib*, which enables the debug is pre-configured. It could be turned off by setting the following property in the environment:
 
     ```
     env
@@ -110,12 +135,12 @@ To debug an application you need to open a debugging port on your Cloud Foundry 
     JBP_CONFIG_JAVA_OPTS: "[java_opts: '-agentlib:jdwp=transport=dt_socket,address=8000,server=y,suspend=n,onjcmd=y']"
     ```
 
-    You may change the default port 8000 in the command.
+    You can change the default port 8000 in the command.
 
 2.  To enable debugging or to check the debugging state of your JVM, run `jcmd` in your Cloud Foundry container by executing:
 
     ```
-    cf ssh <APPLICATION_NAME> -c 'export JAVA_PID=`ps -C java -o pid=` && app/META-INF/.sap_java_buildpack/sap_machine_jdk/bin/jcmd $JAVA_PID VM.start_java_debugging'
+    cf ssh <app name> -c 'export JAVA_PID=`ps -C java -o pid=` && app/META-INF/.sap_java_buildpack/sap_machine_jdk/bin/jcmd $JAVA_PID VM.start_java_debugging'
     ```
 
     The following is an example of the information displayed by `jcmd`:
@@ -130,12 +155,22 @@ To debug an application you need to open a debugging port on your Cloud Foundry 
     > ### Note:  
     > The default port is 8000.
 
-3.  To enable SSH tunneling in your application, execute `cf enable-ssh`.
+3.  To enable SSH tunneling in your application, execute:
 
-4.  To open the SSH tunnel, execute `cf ssh -N -T -L 8000:127.0.0.1:8000` . Your local port 8000 is connected to the debugging port 8000 of the JVM, which running in the Cloud Foundry container.
+    ```
+    cf enable-ssh
+    ```
+
+4.  To open the SSH tunnel, execute:
+
+    ```
+    cf ssh -N -T -L 8000:127.0.0.1:8000
+    ```
+
+    Your local port 8000 is connected to the debugging port 8000 of the JVM, which running in the Cloud Foundry container.
 
     > ### Caution:  
-    > The connection is active until you close the SSH tunnel. After you have finished debugging, close the SSH tunnel by pressing  [Ctrl\] + [C\]  . Connect a Java debugger to your application. For example, use the standard Java debugger provided by Eclipse IDE and connect to `localhost:8000`.
+    > The connection is active until you close the SSH tunnel. When you finish debugging, close the SSH tunnel by pressing  [Ctrl\] + [C\] . Connect a Java debugger to your application. For example, use the standard Java debugger provided by Eclipse IDE and connect to `localhost:8000`
 
 
  <a name="loio0d6e305f08574bca811d42b55c3c0b47"/>
@@ -144,33 +179,52 @@ To debug an application you need to open a debugging port on your Cloud Foundry 
 
 ## Debug an Application Running on Java SE
 
-You can debug an application running on a Cloud Foundry container that is using the standard Java community build pack.
+You can debug an application running on a Cloud Foundry container that is using the standard Java community buildpack.
 
 
 
-<a name="loio0d6e305f08574bca811d42b55c3c0b47__prereq_jzx_s2t_gcb"/>
+<a name="loio0d6e305f08574bca811d42b55c3c0b47__prereq_ih3_1v5_gjb"/>
 
 ## Prerequisites
 
-Download and install the Cloud Foundry Command Line Interface \(cf CLI\) and log on to Cloud Foundry. For more information, see [Download and Install the Cloud Foundry Command Line Interface](../50-administration-and-ops/download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md) and [Log On to the Cloud Foundry Environment Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/log-on-to-the-cloud-foundry-environment-using-the-cloud-foundry-command-line-interface-7a37d66.md).
+-   [Download and Install the Cloud Foundry Command Line Interface](../50-administration-and-ops/download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md)
+
+-   [Log On to the Cloud Foundry Environment Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/log-on-to-the-cloud-foundry-environment-using-the-cloud-foundry-command-line-interface-7a37d66.md)
+
 
 
 
 ## Context
 
-To debug an application you need to open a debugging port on your Cloud Foundry container and open an SSH tunnel that will connect to that port.
+To debug an application, you need to open a debugging port on your Cloud Foundry container and open an SSH tunnel that will connect to that port.
 
 
 
 ## Procedure
 
-1.  To open the debugging port, you need to configure the `JAVA_OPTS` parameter in your JVM. From the cf CLI, execute `cf set-env *<app name\>* JAVA_OPTS '-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000'`.
+1.  To open the debugging port, you need to configure the `JAVA_OPTS` parameter in your JVM. From the cf CLI, execute:
 
-2.  To enable SSH tunneling for your application, execute `cf enable-ssh *<app name\>*`.
+    ```
+    cf set-env <app name> JAVA_OPTS '-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000'
+    ```
 
-3.  To activate the previous changes, restart the application by executing `cf restart *<app name\>*`.
+2.  To enable SSH tunneling for your application, execute:
 
-4.  To open the SSH tunnel, execute `cf ssh *<app name\>* -N -T -L 8000:127.0.0.1:8000`.
+    ```
+    cf enable-ssh <app name>
+    ```
+
+3.  To activate the previous changes, restart the application by executing:
+
+    ```
+    cf restart <app name>
+    ```
+
+4.  To open the SSH tunnel, execute:
+
+    ```
+    cf ssh <app name> -N -T -L 8000:127.0.0.1:8000
+    ```
 
     Your local port 8000 is connected to the debugging port 8000 of the JVM running in the Cloud Foundry container.
 
@@ -178,8 +232,8 @@ To debug an application you need to open a debugging port on your Cloud Foundry 
     > The default port is 8000.
 
     > ### Caution:  
-    > The connection is active until you close the SSH tunnel. After you have finished debugging, close the SSH tunnel by pressing  [Ctrl\] + [C\] .
+    > The connection is active until you close the SSH tunnel. When you finish debugging, close the SSH tunnel by pressing  [Ctrl\] + [C\] .
 
-5.  Connect a Java debugger to your application. For example, use the standard Java debugger provided by Eclipse IDE and connect to `localhost:8000`.
+5.  Connect a Java debugger to your application. For example, use the standard Java debugger provided by Eclipse IDE and connect to `localhost:8000`
 
 

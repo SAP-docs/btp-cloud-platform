@@ -5,7 +5,7 @@
 Use the SAP BTP command line interface \(btp CLI\) to manage the multitenant applications to which a subaccount is entitled to subscribe.
 
 > ### Tip:  
-> By default, all commands are executed in the context of the global account you're logged in to. To change this default command context to a subaccount, use `btp target -sa *<my-subaccount-id\>*`. See [Set the Default Command Context](set-the-default-command-context-720645a.md).
+> By default, all commands are executed in the global account you're logged in to. To change this target to a subaccount, use `btp target -sa *<my-subaccount-id\>*`. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
 
 
 <table>

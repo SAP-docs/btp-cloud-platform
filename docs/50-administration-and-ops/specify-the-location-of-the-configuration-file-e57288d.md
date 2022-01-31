@@ -95,7 +95,7 @@ Use this option with each command call.
 <tr>
 <td valign="top">
 
-2. Set the default context to subaccount 1000:
+2. Set the target to subaccount 1000:
 
 ```
 btp target --subaccount 1000
@@ -106,7 +106,7 @@ btp target --subaccount 1000
 </td>
 <td valign="top">
 
-2. Set the default context to subaccount 2000:
+2. Set the target to subaccount 2000:
 
 ```
 btp --config "C:\my-cli-folder" target --subaccount 2000
@@ -155,7 +155,7 @@ btp --config "C:\my-cli-folder" list security/user
 
 [Enable Command Autocompletion](enable-command-autocompletion-46355fa.md "Use command autocompletion to save keystrokes when entering command actions, group-object combinations, and their parameters in the SAP BTP command line interface (btp CLI).")
 
-[Set the Default Command Context](set-the-default-command-context-720645a.md "Change the default context for all command calls to the global account, a directory, or a subaccount by using the btp target command.")
+[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Change the target for command calls to a directory, a subaccount, or the global account, by using the btp target command.")
 
 [Change the Output Format to JSON](change-the-output-format-to-json-dcb85b7.md "Use the --format json option to change the output format of a command to JSON.")
 

@@ -168,18 +168,6 @@ For continuous import of software components into a test system and add-on build
     > ### Note:  
     > To define the add-on descriptor file, follow the best practices mentioned in [Add-On Descriptor File](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#add-on-descriptor-file).
 
-    ```
-    ---
-    addonProduct: /NAMESPC/PRODUCTX
-    addonVersion: 1.2.0
-    repositories:
-      - name: /NAMESPC/COMPONENTA
-        branch: v1.2.0
-        version: 1.2.0
-        commitID: 7d4516e9
-    
-    ```
-
     As part of this pipeline scenario, the following systems and services are being used:
 
     -   Provisioned by you, as the provider, via the add-on build pipeline

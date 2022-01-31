@@ -5,7 +5,7 @@
 Use the SAP BTP command line interface \(btp CLI\) to set entitlements to define the functionality or permissions available for users of global accounts, directories, and subaccounts.
 
 > ### Tip:  
-> By default, all commands are executed in the context of the global account you're logged in to. To change this default command context to a directory or subaccount, use `btp target`. See [Set the Default Command Context](set-the-default-command-context-720645a.md).
+> By default, all commands are executed in the global account you're logged into. To change this to a directory or subaccount, use `btp target`. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
 
 
 <table>
