@@ -51,5 +51,5 @@ To learn more about why and how to migrate your scenarios in the Neo environment
 
 ## All SAP BTP Resources
 
-Access all of our resources on the product page: [SAP Business Technology Platform \(SAP BTP\)](https://help.sap.com/viewer/product/CP/Cloud/en-US?task=discover_task).
+Access all of our resources on the product page: [SAP Business Technology Platform \(SAP BTP\)](https://help.sap.com/viewer/product/CP/Cloud/en-US?task=discover_task). 
 
