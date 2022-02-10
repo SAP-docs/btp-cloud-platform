@@ -19,7 +19,7 @@ Here are some examples of scenarios that can be implemented or built by reacting
 
 For more information about permissions, see [Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md).
 
-**Base URI:** `https://events-service.*<app domain\>*.*<landscape domain\>*`
+**Base URI:** <code>https://events-service.<i class="varname">&lt;app domain&gt;</i>.<i class="varname">&lt;landscape domain&gt;</i></code>
 
 
 
@@ -69,7 +69,7 @@ Get events
 </td>
 <td valign="top">
 
-`events-service.*<app domain\>*.*<landscape domain\>*/cloud-management/v1/events`
+<code>events-service.<i class="varname">&lt;app domain&gt;</i>.<i class="varname">&lt;landscape domain&gt;</i>/cloud-management/v1/events</code>
 
 
 
@@ -92,7 +92,7 @@ Get event types
 </td>
 <td valign="top">
 
-`events-service.*<app domain\>*.*<landscape domain\>*/cloud-management/v1/events/types`
+<code>events-service.<i class="varname">&lt;app domain&gt;</i>.<i class="varname">&lt;landscape domain&gt;</i>/cloud-management/v1/events/types</code>
 
 
 

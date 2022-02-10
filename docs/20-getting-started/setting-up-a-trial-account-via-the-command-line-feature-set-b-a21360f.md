@@ -220,7 +220,7 @@ Global account admin
 
 Run this command in the btp CLI:
 
-`btp create accounts/subaccount --display-name *<my-subaccount\>* --region *<my-region\>* --subdomain *<my-subaccount-subdomain\>* `
+<code>btp create accounts/subaccount --display-name <i class="varname">&lt;my-subaccount&gt;</i> --region <i class="varname">&lt;my-region&gt;</i> --subdomain <i class="varname">&lt;my-subaccount-subdomain&gt;</i> </code>
 
 
 
@@ -259,7 +259,7 @@ Global account admin or viewer
 
 Run this command in the btp CLI:
 
-`btp get accounts/subaccount *<ID of new subaccount\>*`
+<code>btp get accounts/subaccount <i class="varname">&lt;ID of new subaccount&gt;</i></code>
 
 
 
@@ -298,7 +298,7 @@ Subaccount admin
 
 Assign the role collection `Subaccount Administrator` to the user by running the following command in the btp CLI:
 
-`btp assign security/role-collection "Subaccount Administrator" --to-user *<user\>* --create-user-if-missing`
+<code>btp assign security/role-collection "Subaccount Administrator" --to-user <i class="varname">&lt;user&gt;</i> --create-user-if-missing</code>
 
 
 
@@ -376,7 +376,7 @@ Global account admin
 
 Run this command in the btp CLI:
 
-`btp assign accounts/entitlement --to-subaccount *<my-subaccount-id\>* --for-service *<my-service\>* --plan *<my-service-plan\>* --amount *<number\>*`
+<code>btp assign accounts/entitlement --to-subaccount <i class="varname">&lt;my-subaccount-id&gt;</i> --for-service <i class="varname">&lt;my-service&gt;</i> --plan <i class="varname">&lt;my-service-plan&gt;</i> --amount <i class="varname">&lt;number&gt;</i></code>
 
 Validate with this command:
 
@@ -419,7 +419,7 @@ Subaccount admin or viewer
 
 Run this command in the btp CLI:
 
-`btp list accounts/entitlement --subaccount *<my-subaccount-id\>*`
+<code>btp list accounts/entitlement --subaccount <i class="varname">&lt;my-subaccount-id&gt;</i></code>
 
 
 
@@ -458,7 +458,7 @@ Subaccount admin
 
 Run this command in the btp CLI:
 
-`btp create accounts/environment-instance --subaccount *<my-subaccount-id\>* --display-name *<my-environment\>* --environment *<cloudfoundry\>*`
+<code>btp create accounts/environment-instance --subaccount <i class="varname">&lt;my-subaccount-id&gt;</i> --display-name <i class="varname">&lt;my-environment&gt;</i> --environment <i class="varname">&lt;cloudfoundry&gt;</i></code>
 
 
 
@@ -497,7 +497,7 @@ Subaccount admin or viewer
 
 Run this command in the btp CLI:
 
-`btp list accounts/environment-instance --subaccount *<my-subaccount-id\>*`
+<code>btp list accounts/environment-instance --subaccount <i class="varname">&lt;my-subaccount-id&gt;</i></code>
 
 
 
@@ -577,9 +577,9 @@ Org manager
 
 Run these cf CLI commands:
 
-`cf set-org-role *<USERNAME\>* *<ORG\>* *<ROLE\>*`
+<code>cf set-org-role <i class="varname">&lt;USERNAME&gt;</i> <i class="varname">&lt;ORG&gt;</i> <i class="varname">&lt;ROLE&gt;</i></code>
 
-`cf set-space-role *<USERNAME\>**<ORG\>**<SPACE\>**<ROLE\>*`
+<code>cf set-space-role <i class="varname">&lt;USERNAME&gt;</i><i class="varname">&lt;ORG&gt;</i><i class="varname">&lt;SPACE&gt;</i><i class="varname">&lt;ROLE&gt;</i></code>
 
 
 
@@ -619,7 +619,7 @@ Org manager
 Run this cf CLI command:
 
 ```
-`cf marketplace`
+cf marketplace
 ```
 
 
@@ -645,7 +645,7 @@ Subaccount members can also use the btp CLI to work with multitenant application
 
 ## Next Steps
 
-Org/space members can create service instances, which are entitled to the subaccount, using also the `cf create-service *<allowed-service-plan\>*` command in the cf CLI. Use the cf CLI command cf services to verify that the service instances exist.
+Org/space members can create service instances, which are entitled to the subaccount, using also the <code>cf create-service <i class="varname">&lt;allowed-service-plan&gt;</i></code> command in the cf CLI. Use the cf CLI command cf services to verify that the service instances exist.
 
 For further documentation about developer tasks, see [Development in the Cloud Foundry Environment](../30-development/development-in-the-cloud-foundry-environment-40a8f8f.md).
 

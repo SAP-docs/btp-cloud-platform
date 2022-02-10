@@ -2,7 +2,7 @@
 
 # ABAP Compute Units
 
-When you order an ABAP environment in SAP BTP, the ABAP system size is specified in ABAP compute units \(ACUs\). One ABAP compute unit comprises total ABAP memory usable by applications, ABAP work process time per minute, and CPU time per minute.
+When you order an ABAP environment in SAP BTP, the ABAP system size is specified in ABAP compute units \(ACUs\). One ABAP compute unit comprises the total ABAP memory usable by applications, the ABAP work process time per minute, and the ABAP CPU time per minute.
 
 When you create an ABAP system, you must decide on the system size in ABAP compute units.
 

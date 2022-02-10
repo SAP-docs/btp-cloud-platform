@@ -199,11 +199,11 @@ Create instance.
 </td>
 <td valign="top">
 
-`Attribute with name "complete" and value ""ServiceInstanceId: *<Instance\_ID\>*`
+<code>Attribute with name "complete" and value ""ServiceInstanceId: <i class="varname">&lt;Instance_ID&gt;</i></code>
 
 …
 
-`object with type "*<Instance\_Name\>*" and id consisting of: crudType "CREATE"`
+<code>object with type "<i class="varname">&lt;Instance_Name&gt;</i>" and id consisting of: crudType "CREATE"</code>
 
 
 
@@ -226,11 +226,11 @@ Update instance.
 </td>
 <td valign="top">
 
-`Attribute with name "complete" and value ""ServiceInstanceId: *<Instance\_ID\>*`
+<code>Attribute with name "complete" and value ""ServiceInstanceId: <i class="varname">&lt;Instance_ID&gt;</i></code>
 
 …
 
-`object with type "*<Instance\_Name\>*" and id consisting of: crudType "UPDATE"`
+<code>object with type "<i class="varname">&lt;Instance_Name&gt;</i>" and id consisting of: crudType "UPDATE"</code>
 
 
 
@@ -253,11 +253,11 @@ Delete instance.
 </td>
 <td valign="top">
 
-`Attribute with name "complete" and value ""ServiceInstanceId: *<Instance\_ID\>*`
+<code>Attribute with name "complete" and value ""ServiceInstanceId: <i class="varname">&lt;Instance_ID&gt;</i></code>
 
 …
 
-`object with type "*<Instance\_Name\>*" and id consisting of: crudType "DELETE"`
+<code>object with type "<i class="varname">&lt;Instance_Name&gt;</i>" and id consisting of: crudType "DELETE"</code>
 
 
 
@@ -584,7 +584,7 @@ Authentication error
 
 `SAMLAuthenticationError`
 
-`Response issue time is either too old or with date in the future. Sync IdP to match skew *<skew\>*`
+<code>Response issue time is either too old or with date in the future. Sync IdP to match skew <i class="varname">&lt;skew&gt;</i></code>
 
 audit.security-events
 
@@ -606,7 +606,7 @@ Check the time skew between the identity provider and SAP Authorization and Trus
 
 `SAMLAuthenticationError`
 
-`Unexpected AuthnResponse : Existing authentication - *<user\>*`
+<code>Unexpected AuthnResponse : Existing authentication - <i class="varname">&lt;user&gt;</i></code>
 
 audit.security-events
 
@@ -626,7 +626,7 @@ The user has probably chosen the back button on the browser, triggering a second
 
 `SAMLAuthenticationError`
 
-`AuthnRequest expired - ID: *<request\_id\>* Destination: *<identity\_provider\_destination\>*`
+<code>AuthnRequest expired - ID: <i class="varname">&lt;request_id&gt;</i> Destination: <i class="varname">&lt;identity_provider_destination&gt;</i></code>
 
 audit.security-events
 
@@ -727,7 +727,7 @@ SAML responses
 </td>
 <td valign="top">
 
-`"msgNo":*<index\>*,"msgId":"*<message\_id\>*",`
+<code>"msgNo":<i class="varname">&lt;index&gt;</i>,"msgId":"<i class="varname">&lt;message_id&gt;</i>",</code>
 
 audit.security-events
 

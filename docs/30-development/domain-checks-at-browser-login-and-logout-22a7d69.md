@@ -17,7 +17,7 @@ A web application in the Cloud Foundry environment of SAP BTP has application ro
 Usually, the application uses the default domain in the application route URL. For this reason, enter the relevant application route.
 
 > ### Example:  
-> `*<application\_hostname\>*.*<landscape\_domain\>*`
+> <code><i class="varname">&lt;application_hostname&gt;</i>.<i class="varname">&lt;landscape_domain&gt;</i></code>
 > 
 > Example for the `eu10` landscape:
 > 
@@ -26,7 +26,7 @@ Usually, the application uses the default domain in the application route URL. F
 > ### Example:  
 > For China \(Shanghai\) region:
 > 
-> `*<application\_hostname\>*.*<custom\_domain\>*`
+> <code><i class="varname">&lt;application_hostname&gt;</i>.<i class="varname">&lt;custom_domain&gt;</i></code>
 
 
 

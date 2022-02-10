@@ -227,7 +227,7 @@ Access to the log object is not allowed
 > ### Note:  
 > If parameter EXTERNAL\_ID is supplied and empty, the filter searches for logs with empty external identifier.
 > 
-> If parameters OBJECT or SUBOBJECT are supplied and empty, they are ignored
+> If parameters OBJECT, SUBOBJECT, SUBOBJECT\_TABLE, or EXTERNAL\_ID\_TABLE are supplied and empty, they are ignored
 
 
 
@@ -322,7 +322,7 @@ Reference to current filter object
 </table>
 
 > ### Note:  
-> If parameter USER is supplied and empty, it is ignored.
+> If parameters USER or USER\_TABLE are supplied and empty, they are ignored.
 
 
 

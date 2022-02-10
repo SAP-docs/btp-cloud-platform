@@ -1,6 +1,6 @@
 <!-- loio6162756cdbd447e6a14fe58c21619124 -->
 
-# Database System Dashboard
+# Database System Overview
 
 
 
@@ -46,5 +46,5 @@ If you need support or experience issues, please report an incident under compon
 
 ## More Information
 
-The database system dashboard is part of the technical monitoring cockpit. For more information about the technical monitoring cockpit, see the documentation at [https://help.sap.com/viewer/tmc\_cloud](https://help.sap.com/viewer/tmc_cloud).
+The database system overview is part of the technical monitoring cockpit. For more information about the technical monitoring cockpit, see the documentation at [https://help.sap.com/viewer/tmc\_cloud](https://help.sap.com/viewer/tmc_cloud).
 

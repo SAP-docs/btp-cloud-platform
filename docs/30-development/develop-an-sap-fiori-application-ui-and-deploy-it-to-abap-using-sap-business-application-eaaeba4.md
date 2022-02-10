@@ -32,7 +32,7 @@ Get an overview on how to create and deploy an SAP Fiori application to ABAP usi
 > -   Business catalog `SAP_CORE_BC_EXT_TST` is assigned to your user, which allows you to preview your application and discover available OData services. See [Business Catalog for Key User Tasks](../50-administration-and-ops/business-catalog-for-key-user-tasks-65b70bf.md).
 > -   You have an open transport request.
 
-![](images/BAS_1S4HC_Step_2_3311af7.png)
+![](images/BAS_Deploy_to_ABAP_14eae97.png)
 
 1.  As a developer user in SAP Business Application Studio, generate an SAP Fiori application. See [Generate an Application](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/db44d45051794d778f1dd50def0fa267.html).
     1.  Use the destination that you have created for the SAP Business Application studio integration \(`SAP_Business_Application_Studio`\). See [Creating a Destination to the ABAP System for SAP Business Application Studio](../20-getting-started/creating-a-destination-to-the-abap-system-for-sap-business-application-studio-e597948.md).
@@ -53,6 +53,10 @@ Get an overview on how to create and deploy an SAP Fiori application to ABAP usi
 2.  Continue with the development of the UI, for example, with the help of guided development. See [Implement Features using Guided Development](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/0c9e518ecf704b2f80a2bed0eaca60ae.html).
 3.  Now you can preview the generated SAP Fiori application. See [Preview an Application](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/b962685bdf9246f6bced1d1cc1d9ba1c.html).
 4.  Deploy the SAP Fiori UI by executing command ***npm run deploy*** in the terminal of your project. See section *Deployment to ABAP* in [Deploy an Application](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/607014e278d941fda4440f92f4a324a6.html).
+
+    > ### Note:  
+    > The SAP Fiori UI is deployed in ABAP language version `ABAP for Cloud Development`. The language version restricts access to data sources: Data sources must be released for system-internal use in cloud development or must be in the same software component.
+
 
 
 

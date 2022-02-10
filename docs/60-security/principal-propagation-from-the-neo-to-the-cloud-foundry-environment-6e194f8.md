@@ -355,7 +355,7 @@ Connect the first subaccount to the second subaccount by describing the source c
 
     Get the **token service URL** from the SAML 2.0 metadata representing your subaccount in the Cloud Foundry environment. The **token service URL** is defined in the `Location` attribute of the element marked as `AssertionConsumerService`, like this :
 
-    `<md:AssertionConsumerService Location="**<Token Service URL\>**" Binding="urn:oasis:names:tc:SAML:2.0:bindings:URI" index="1"/>`
+    <code>&lt;md:AssertionConsumerService Location="<b>&lt;Token Service URL&gt;</b>" Binding="urn:oasis:names:tc:SAML:2.0:bindings:URI" index="1"/&gt;</code>
 
     > ### Tip:  
     > You can open the metadata of the subaccount in the Cloud Foundry envirnoment using the following URL:

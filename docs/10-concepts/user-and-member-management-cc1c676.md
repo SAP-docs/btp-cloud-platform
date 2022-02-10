@@ -148,13 +148,15 @@ You manage global account members by assigning role collections to platform user
 -   Global Account Administrator
 -   Global Account Viewer
 
-Assign these role collections from the cockpit or the sapcp CLI.
+Assign these role collections from the cockpit or the btp CLI. By assigning a role collection to a user, a so-called shadow user is created.
 
 See:
 
  [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md) 
 
 [Add Members to Your Global Account](../50-administration-and-ops/add-members-to-your-global-account-4a04913.md)
+
+[Create Users](../50-administration-and-ops/create-users-a3bc7e8.md)
 
 
 
@@ -166,9 +168,15 @@ You manage directory members by assigning role collections to platform users. Us
 -   Directory Administrator
 -   Directory Viewer
 
+Assign these role collections from the SAP BTP cockpit or the btp CLI.
+
 See:
 
  [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md) 
+
+[Create Users](../50-administration-and-ops/create-users-a3bc7e8.md)
+
+[Manage Users in Directories \[Feature Set B\]](../50-administration-and-ops/manage-users-in-directories-feature-set-b-ff4d4a4.md)
 
 
 
@@ -187,13 +195,15 @@ Use the following predefined role collections:
 -   Subaccount Administrator
 -   Subaccount Viewer
 
-Assign these role collections from the SAP BTP cockpit or the sapcp CLI.
+Assign these role collections from the SAP BTP cockpit or the btp CLI.
 
 See:
 
  [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md) 
 
 [Add Members to Your Subaccount \[Feature Set B\]](../50-administration-and-ops/add-members-to-your-subaccount-feature-set-b-1e1b7b6.md)
+
+[Create Users](../50-administration-and-ops/create-users-a3bc7e8.md)
 
 
 

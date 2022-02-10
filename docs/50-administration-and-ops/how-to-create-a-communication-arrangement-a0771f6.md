@@ -37,7 +37,7 @@ To create a communication arrangement, proceed as follows:
 
 2.  Select *New*. In the *New Communication Arrangement* window, select a communication scenario and define the arrangement name. Select *Create*.
 
-3.  New screen *Communication Arrangements* is now open. Under *Common Data* in the field *Communication System*select a communication system that you want your system to connect to.
+3.  The new *Communication Arrangements*screen is now open. In the *Communication System* field under *Common Data*, select a communication system that you want your system to connect to. Alternatively, you can click *New* to create a new communication system.
 
 4.  If the selected communication system already has a communication user for inbound communication, the user and required authentication type will be displayed in the field *User Name* under *Inbound Communication*. In the *Inbound Services* section, the URLs to the service endpoints are displayed.
 

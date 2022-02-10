@@ -56,6 +56,6 @@ Use the Cloud Foundry Command Line Interface \(cf CLI\) to log on to the Cloud F
     > 
     > For more information, see SAP Note [3085908](https://launchpad.support.sap.com/#/notes/3085908).
 
-5.  To view the help for the CLI, execute `***cf help***`, which lists the most common CLI commands with a short description, or ***cf help -a***, which lists all commands. To get help for a specific command, execute `***cf help *<command\>****`.
+5.  To view the help for the CLI, execute <code><b><i>cf help</i></b></code>, which lists the most common CLI commands with a short description, or ***cf help -a***, which lists all commands. To get help for a specific command, execute <code><b><i>cf help <i class="varname">&lt;command&gt;</i></i></b></code>.
 
 

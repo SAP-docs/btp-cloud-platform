@@ -35,7 +35,7 @@ To expose the new CDS view entities using the ODBC driver for ABAP, you need to 
 
 5.  To create a service binding, right-click on the service definition and choose *New Service Binding*.
 
-6.  In the following popup, enter a name and description.
+6.  In the following popup, enter a name and description, for example, `ZData`.
 
     You can use a mixed-case name for the service binding. The service binding name acts as the schema name for external ODBC consumers.
 

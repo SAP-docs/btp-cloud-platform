@@ -918,6 +918,82 @@ Reference to current message object
 
 
 
+Check whether the message can pass an item filter:
+
+<a name="loioe35417e877b84d3aab807c3a99c136e4__table_a4v_d2r_lsb"/>CHECK\_PASSING\_ITEM\_FILTER \(from IF\_BALI\_ITEM\_SETTER\)
+
+
+<table>
+<tr>
+<th valign="top">
+
+Name
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Importing parameter**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ITEM\_FILTER
+
+
+
+</td>
+<td valign="top">
+
+Reference to the item filter that is being checked
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Returning parameter**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+FILTER\_PASSED
+
+
+
+</td>
+<td valign="top">
+
+If set, the message can pass the item filter
+
+
+
+</td>
+</tr>
+</table>
+
+
+
 > ### Note:  
 > If the severity of the message contains a value which is not allowed, it is changed to `IF_BALI_CONSTANTS=>C_SEVERITY_DEFAULT`. Allowed values of the severity can be found in interface`IF_BALI_CONSTANTS`.
 > 

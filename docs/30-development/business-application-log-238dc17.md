@@ -6,6 +6,21 @@ The XCO BAL module provides APIs and abstractions that allow a smooth integratio
 
 
 
+<a name="loio238dc17aeea4498d8cf687f890f2194c__section_vs5_3yh_wrb"/>
+
+## Terminology
+
+Within the BAL module of the XCO Library, the following terminology is used:
+
+-   **Log object**: The design time ABAP Repository object \(type APLO\) defining an application log object together with its subobjects.
+
+-   **Log**: A single log instance for a given log object and subobject with an optional external ID into which messages can be written and read from. Represented by an object of type `IF_XCO_CP_BAL_LOG` and uniquely identified by a log handle.
+
+-   **Log handle**: A unique identifier for a log \(UUID in CHAR22 format\) associated with a log \(available through attribute `LOG_HANDLE` of interface `IF_XCO_CP_BAL_LOG`.
+
+
+
+
 <a name="loio238dc17aeea4498d8cf687f890f2194c__section_cbs_4mj_hmb"/>
 
 ## Persistence

@@ -41,8 +41,3 @@ We maintain backups of the data for disaster recovery. When your account is dele
 > 
 > We cannot restore data you have in your local system.
 
-**Related Information**  
-
-
-[Global Account Termination](../50-administration-and-ops/global-account-termination-0b35205.md "")
-

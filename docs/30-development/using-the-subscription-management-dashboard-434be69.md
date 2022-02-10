@@ -54,7 +54,7 @@ Add the relevant role to a role collection and assign yourself or another user t
 For more information about roles, see [Configure Application Roles and Assign Roles to Users](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/56a71531fc154717bf221f9e293ba215.html).
 
 > ### Note:  
-> If you don't see the roles, you need to update the instance of the service \(technical name: `saas-registry`\) associated with your application \(`application` plan\). This enables the new roles.
+> If you don't see the roles, you need to update the instance of the SaaS Provisioning service \(technical name: `saas-registry`\) associated with your application \(`application` plan\). This enables the new roles.
 
 
 
@@ -65,7 +65,7 @@ For more information about roles, see [Configure Application Roles and Assign Ro
     > ### Note:  
     > Only users who are assigned to one of the roles specified in the previous section can see the link to the dashboard and open it.
 
-2.  In the *Instances* section, find the instance of the service \(technical name: `saas-registry`\) with the `application` plan and click on it.
+2.  In the *Instances* section, find the instance of the SaaS Provisioning service \(technical name: `saas-registry`\) with the `application` plan and click on it.
 
     Details about the instance open to the right.
 
@@ -91,7 +91,7 @@ You can apply various search and filtering criteria such as plan, subscription s
 
 Clicking on a subscription row opens details about the subscription to the rightwhere you can find more information about the subscription and analyze errors if the subscription status is `Failed`.
 
-You can also perform additional operations, such as update subscription dependencies, if you are assigned to the `Subscription Management Dashboard Administrator`role.
+You can also perform additional operations, such as update subscription dependencies, if you are assigned to the `Subscription Management Dashboard Administrator` role.
 
  ![](images/For_Dashboard2_9b943b5.png) 
 

@@ -20,8 +20,8 @@ In the view definition file \(*<MY\_LOG\_DISPLAY\_VIEW.view.xml\>*\), the log di
 
     > ### Sample Code:  
     > ```
-    > `<!-- xmlns:core="sap.ui.core" --> 
-    > <core:ComponentContainer id="LogMessagesControlContainer" />`
+    > <!-- xmlns:core="sap.ui.core" --> 
+    > <core:ComponentContainer id="LogMessagesControlContainer" />
     > ```
 
 2.  In the controller file \(*<MY\_LOG\_DISPLAY\_VIEW.controller.js\>*\), the relevant coding goes into the handler for the *onlnit* event. Create the component and place it into the container control:
@@ -31,7 +31,7 @@ In the view definition file \(*<MY\_LOG\_DISPLAY\_VIEW.view.xml\>*\), the log di
 
     > ### Sample Code:  
     > ```
-    > `var sLogDataServiceUrl = "/sap/opu/odata/sap/APL_LOG_MANAGEMENT_SRV/";
+    > var sLogDataServiceUrl = "/sap/opu/odata/sap/APL_LOG_MANAGEMENT_SRV/";
     > this.oComp = sap.ui.getCore().createComponent({
     >     name: "sap.nw.core.applogs.lib.reuse.applogs",
     >     id: this.createId("LogMessagesControlComponent"),
@@ -42,7 +42,7 @@ In the view definition file \(*<MY\_LOG\_DISPLAY\_VIEW.view.xml\>*\), the log di
     >         "logDataServiceUrl": sLogDataServiceUrl
     >     }
     > });
-    > this.byId("LogMessagesControlContainer").setComponent(this.oComp);`
+    > this.byId("LogMessagesControlContainer").setComponent(this.oComp);
     > ```
 
     > ### Note:  
@@ -52,7 +52,7 @@ In the view definition file \(*<MY\_LOG\_DISPLAY\_VIEW.view.xml\>*\), the log di
 
     > ### Sample Code:  
     > ```
-    > `var that = this;
+    > var that = this;
     > this.oRouter.attachRoutePatternMatched(function(oEvent) {
     >     if (oEvent.getParameter("name") === "ShowMsgHandle") {
     >         that._sLogHandle = decodeURIComponent(oEvent.getParameter("arguments").logHandle);
@@ -63,7 +63,7 @@ In the view definition file \(*<MY\_LOG\_DISPLAY\_VIEW.view.xml\>*\), the log di
     >         that.oComp.setLogNumber(that._sLogNumber);
     >         that.oComp.refresh();
     >     }
-    > }, this);`
+    > }, this);
     > ```
 
 4.  Adapt your *<manifest.json\>* file and add the *nw.core.applogs.lib.reuse* library under the `dependencies` section:

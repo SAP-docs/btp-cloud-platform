@@ -1,6 +1,6 @@
 <!-- loio619c40e93cb2420198aa096492f0a9ef -->
 
-# Restore Tenants
+# Restore Consumer Tenants
 
 *Partner Customer Production* tenants and*Partner Customer Test*tenants in status *Torn Down* \(i.e. they are currently being deleted\) can be restored while they are still in retention time. You, as a provider, can restore these tenants in the *Landscape Portal*.
 
@@ -21,7 +21,7 @@ When a consumer unsubscribes from a provider's SaaS production or test solution,
 
 1.  Check the BTP Cockpit to make sure that the concerned consumer is unsubscribed from the SaaS solution in their subaccount.
 
-2.  Sign in to the *Landscape Portal* and click on the tile *Tenant Restore* to see a list of tenants that are currently in retention time.
+2.  Sign in to the *Landscape Portal* and click on the tile *Restore Consumer Tenant* to see a list of tenants that are currently in retention time.
 
 3.  Select the tenant you would like to restore for the consumer and click *Restore*. Confirm your selection with *OK*.
 

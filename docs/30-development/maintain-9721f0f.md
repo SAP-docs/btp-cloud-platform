@@ -216,7 +216,7 @@ As an add-on administrator, you can provide different kinds of updates. The deci
 > ### Note:  
 > For a new patch version, you can use a permanent add-on assembly system to save build time. See [Permanent Add-On Assembly System](concepts-9482e7e.md#loio52fb6a9e22714843b6e83b7f333b184b).
 
-Patch versions are used to deliver unplanned and most likely urgent corrections that are required to keep the application up and running. These changes could be for example required for a service consumption model of an OData Client Proxy. See [OData Client Proxy](odata-client-proxy-0d92f49.md).
+Patch versions are used to deliver unplanned and most likely urgent corrections that are required to keep the application up and running. These changes could be for example required for a service consumption model of an OData Client Proxy. See [OData Client Proxy - Introduction](odata-client-proxy-introduction-0d92f49.md).
 
 -   **Develop**
     -   Import the maintenance branch in the ABAP correction system

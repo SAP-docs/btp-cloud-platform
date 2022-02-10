@@ -30,6 +30,9 @@ In order to grant access and authorizations to the *Application Job Templates* a
     > ### Note:  
     > The possible values for the layer field are *Global*, *Shared*, and *Private*. These are described in *Application Job Templates* linked below. The restriction type *Global* is predelivered by SAP and therefore can't be edited or deleted, but you can modify the restriction types *Shared* and *Private* to your needs.
 
+    > ### Note:  
+    > If you want to schedule multistep templates with the *Application Jobs* app, you'll need the appropriate authorizations for all steps.
+
 
 **Related Information**  
 

@@ -28,9 +28,9 @@ As an alternative to the credential type `binding_secret`, you can also use the 
         > 
         > cf service-key <serviceInstanceName> <serviceInstanceKeyName>
         > ……
-        > "clientsecret": "HksDYy9RxYFUQeOHIzprqBam3vQ=", **//Old instance secret**
+        > "clientsecret": "HksDYy9RxYFUQeOHIzprqBam3vQ=", //Old instance secret
         > …
-        >   "xsappname": "**fec39a25-a570-46b0-8ac9-1691f8d663cc**!b6711|html5-apps-repo-uaa!b6711",
+        >   "xsappname": "fec39a25-a570-46b0-8ac9-1691f8d663cc!b6711|html5-apps-repo-uaa!b6711",
         > ……
         > 
         > ```
@@ -45,7 +45,7 @@ As an alternative to the credential type `binding_secret`, you can also use the 
     > 
     >  {
     >   "xs-security": {
-    >     "xsappname": "**fec39a25-a570-46b0-8ac9-1691f8d663cc**",
+    >     "xsappname": "fec39a25-a570-46b0-8ac9-1691f8d663cc",
     >     "oauth2-configuration": {
     >       "credential-types": ["binding-secret"]
     >     }
@@ -58,7 +58,7 @@ As an alternative to the credential type `binding_secret`, you can also use the 
 
     > ### Sample Code:  
     > ```
-    > cf update-service <serviceInstanceName>  -c **instance-xs-security.json**
+    > cf update-service <serviceInstanceName>  -c instance-xs-security.json
     > ```
 
 4.  Check that the instance now creates binding secrets as follows:
@@ -74,8 +74,8 @@ As an alternative to the credential type `binding_secret`, you can also use the 
         > cf service-key <serviceInstanceName>  <serviceInstanceKeyNameNew>
         >  ……..
         > "clientid": "sb-fec39a25-a570-46b0-8ac9-1691f8d663cc!b6711|html5-apps-repo-uaa!b6711",
-        >   "clientsecret": "**8c902673-00d4-471f-9ebb-4463d4073fda$7NIo5batSFZCF1RNGcpNkRfo4mDj6vq-cElDFIcvcwg=", //New binding secret \(long\)
-        > **
+        >   "clientsecret": "8c902673-00d4-471f-9ebb-4463d4073fda$7NIo5batSFZCF1RNGcpNkRfo4mDj6vq-cElDFIcvcwg=", //New binding secret (long)
+        > 
         >   "identityzone": …..,
         >   "identityzoneid": …..,
         >                                …….
@@ -94,11 +94,11 @@ To use the HTML5 application repository service and authenticate with X.509 cert
 
 When you bind an HTML5 applications repository service instance to an application, you have to explicitly provide the required configuration parameters for the authentication with x.509:
 
-`cf bind-service <application> <service-instance> **-c parameters.json**`
+<code>cf bind-service &lt;application&gt; &lt;service-instance&gt; <b>-c parameters.json</b></code>
 
 The same applies if you create service keys:
 
-`cf create-service-key <service-instance> <key-name> **-c parameters.json**`
+<code>cf create-service-key &lt;service-instance&gt; &lt;key-name&gt; <b>-c parameters.json</b></code>
 
 The configuration for the credential type x509 must be wrapped with xsuaa. You have to use exactly the following format for the configuration:
 
@@ -124,7 +124,7 @@ The configuration for the credential type x509 must be wrapped with xsuaa. You h
 > 
 > Before you create a binding to a service instance or a service key as described above, you have to update of the service instance of your existing HTML5 application repository service instance. Use parameters to provide the configuration during the update of the existing service instance:
 > 
-> `cf update-service <service-instance> **-c update-instance-xs-security.json**`
+> <code>cf update-service &lt;service-instance&gt; <b>-c update-instance-xs-security.json</b></code>
 > 
 > To configure the credential type x509 for existing HTML5 application repository service Instances, please follow the instructions below:
 
@@ -142,7 +142,7 @@ To configure the credential type x509 for your existing HTML5 application reposi
         > ……
         > "clientsecret": "HksDYy9RxYFUQeOHIzprqBam3vQ=", //Old instance secret
         > …
-        > "xsappname": "**fec39a25-a570-46b0-8ac9-1691f8d663cc**!b6711|html5-apps-repo-uaa!b6711",
+        > "xsappname": "fec39a25-a570-46b0-8ac9-1691f8d663cc!b6711|html5-apps-repo-uaa!b6711",
         > ……
         > ```
 

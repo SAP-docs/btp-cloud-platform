@@ -17,7 +17,7 @@ The standard output format of the btp CLI is text, formatted in a way that an in
 1.  Start commands with `--format json`. Currently, the only valid value is `json`.
 
     ```
-    `btp --format json list accounts/subaccount`
+    btp --format json list accounts/subaccount
     ```
 
 
@@ -104,7 +104,7 @@ btp list --format json accounts/subaccount
 
 [Enable Command Autocompletion](enable-command-autocompletion-46355fa.md "Use command autocompletion to save keystrokes when entering command actions, group-object combinations, and their parameters in the SAP BTP command line interface (btp CLI).")
 
-[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Change the target for command calls to a directory, a subaccount, or the global account, by using the btp target command.")
+[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Set the target for command calls to a subaccount, a directory, or the global account with the btp target command.")
 
 [Specify the Location of the Configuration File](specify-the-location-of-the-configuration-file-e57288d.md "You can change the location of the configuration file by using the --config option or the environment variable.")
 

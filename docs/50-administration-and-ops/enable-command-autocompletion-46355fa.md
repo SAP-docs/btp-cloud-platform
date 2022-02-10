@@ -33,7 +33,8 @@ The following examples show various ways that you can use autocompletion:
 -   Enter `btp` and press [Tab\] to display all available actions:
 
     ```nocode
-    ./btp ***TAB***
+    ./btp [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/strong/emph
+         {""}) TAB (emph]
     add          create       enable       list         logout       register     subscribe    unassign     unsubscribe
     assign       delete       get          login        move         remove       target       unregister   update 
     
@@ -42,7 +43,8 @@ The following examples show various ways that you can use autocompletion:
 -   Partially enter `btp cre` and press [Tab\] to autocomplete the command to `btp create`. Then, press [Tab\] again to display a suggested list of group-object combinations:
 
     ```nocode
-    ./btp create ***TAB***
+    ./btp create [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/strong/emph
+         {""}) TAB (emph]
     accounts/directory             accounts/resource-provider     security/role                  services/binding
     accounts/environment-instance  accounts/subaccount            security/role-collection       services/instance
     
@@ -51,14 +53,16 @@ The following examples show various ways that you can use autocompletion:
 -   Partially enter a group and press [Tab\] to display a suggested list of objects:
 
     ```nocode
-    ./btp create accounts***TAB***
+    ./btp create accounts[/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/strong/emph
+         {""}) TAB (emph]
     accounts/directory             accounts/environment-instance  accounts/resource-provider     accounts/subaccount
     ```
 
 -   Partially enter a parameter and press [Tab\] to display a suggested list of parameters:
 
     ```nocode
-    ./btp create accounts/subaccount -***TAB***
+    ./btp create accounts/subaccount -[/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/strong/emph
+         {""}) TAB (emph]
     --beta-enabled
     --custom-properties
     --description
@@ -78,7 +82,7 @@ The following examples show various ways that you can use autocompletion:
 
 ## Procedure
 
-1.  Use `btp enable autocomplete *<SHELL\>*` to enable command autocompletion for a specified shell.
+1.  Use <code>btp enable autocomplete <i class="varname">&lt;SHELL&gt;</i></code> to enable command autocompletion for a specified shell.
 
     The valid values for the supported shells are:
 
@@ -105,8 +109,8 @@ The following examples show various ways that you can use autocompletion:
     Which RCFile should be used for the installation?
     1: C:\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
     2: Custom
-    Enter option>**2**
-    Enter the full path of your RCFile>**C:\\Documents\\WindowsPowerShell\\Microsoft.PowerShell\_my-custom-profile.ps1**
+    Enter option>2
+    Enter the full path of your RCFile>C:\Documents\WindowsPowerShell\Microsoft.PowerShell_my-custom-profile.ps1
     ```
 
 4.  Start a new terminal session to activate the installed autocomplete script.
@@ -123,7 +127,7 @@ When you enable command autocompletion, a script containing all the autocomplete
 The autocompletion option remains enabled in future sessions in your current client, until you disable it. To disable command autocompletion and uninstall the autocomplete script, run the following command:
 
 ```
-btp disable autocomplete *<SHELL\>*
+btp disable autocomplete <SHELL>
 ```
 
 You can run either `btp` or `btp --info` to see if command autocompletion is currently enabled and where the autocomplete script for your shell is located. If you don't see a line specifying the location of the autocomplete script, then it’s disabled.
@@ -146,7 +150,7 @@ If disabling the command autocompletion fails or you have uninstalled the btp CL
 
 [Log out](log-out-9f1c87a.md "Logging out of the configured server removes all user-specific data from the configuration file.")
 
-[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Change the target for command calls to a directory, a subaccount, or the global account, by using the btp target command.")
+[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Set the target for command calls to a subaccount, a directory, or the global account with the btp target command.")
 
 [Change the Output Format to JSON](change-the-output-format-to-json-dcb85b7.md "Use the --format json option to change the output format of a command to JSON.")
 

@@ -24,7 +24,7 @@ The technical monitoring cockpit is available as part of the ABAP environment.
 
 1.  Log on to the SAP Fiori launchpad of the ABAP environment.
 
-2.  In the SAP Fiori launchpad, under *Technical Monitoring*, choose any tile, for example, the tile *Database System Dashboard* or *Application System Dashboard*.
+2.  In the SAP Fiori launchpad, under *Technical Monitoring*, choose any tile, for example, the tile *Database System Overview* or *Application System Overview*.
 
     All tiles – except for *Capture Request Statistics* and *Perform System Sizing* – lead you directly into the technical monitoring cockpit.
 

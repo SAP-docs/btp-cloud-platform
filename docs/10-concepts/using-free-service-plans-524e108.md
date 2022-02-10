@@ -59,7 +59,7 @@ To try out the free tier model for SAP BTP, you must entitle your subaccount for
 
 1.  Enter your CPEA or Pay-As-You-Go for SAP BTP global account.
 
-    For more information, see [Accessing the SAP BTP Cockpit](regions-350356d.md#loio350356d1dc314d3199dca15bd2ab9b0e__access-cockpit).
+    For more information, see [Access the Cockpit](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/4e750660b72e4fd6b2485ffb0b3cbdca.html?version=Cloud).
 
 2.  Configure entitlements for the subaccount in which you want to use the free service plans. Select the service and choose the free plan.
 

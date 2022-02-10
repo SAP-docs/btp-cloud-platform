@@ -89,9 +89,9 @@ You must edit the access control code to implement access control for the CDS vi
 
     > ### Sample Code:  
     > ```lang-abap
-    > @EndUserText.label: '*<your access control description\>*'
+    > @EndUserText.label: '<your access control description>'
     > @MappingRole: true
-    > define role *<your access control name\>* {
+    > define role <your access control name> {
     >     grant
     >         select
     >             on
@@ -124,13 +124,13 @@ You must edit the access control code to implement access control for the CDS vi
 
     > ### Sample Code:  
     > ```
-    > @EndUserText.label: '*<your access control description\>*'
+    > @EndUserText.label: '<your access control description>'
     > @MappingRole: true
-    > define role *<your access control name\>* {
+    > define role <your access control name> {
     >     grant
     >         select
     >             on
-    >                 *<your projection view name\>*
+    >                 <your projection view name>
     >                     where
     >                         inheriting conditions from entity z_i_bonus_calculation;
     > }

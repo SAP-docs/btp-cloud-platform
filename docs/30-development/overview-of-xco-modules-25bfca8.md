@@ -56,6 +56,10 @@ The Cloud Platform \(CP\) edition of the XCO library is comprised of the followi
 
     Provides access to text attributes specific to business configuration objects.
 
+-   Call stack \(XCO\_CP\_CALL\_STACK\)
+
+    Provides access to abstractions for programmatically working with all stacks \(e.g. supported formats\)
+
 -   Core Data Services \(XCO\_CP\_CDS\)
 
     Provides access to enumerations specific to the field of Core Data Services \(CDS\) as well as conceptual abstractions for behavior definitions, data definitions, metadata extensions and CDS entities.
@@ -63,6 +67,10 @@ The Cloud Platform \(CP\) edition of the XCO library is comprised of the followi
 -   CDS Annotation \(XCO\_CP\_CDS\_ANNOTATION\)
 
     Provides ways to build CDS annotation values to be used when generating DDLS, DDLX or SRVD objects via the XCO Generation APIs.
+
+-   Character \(XCO\_CP\_CHARACTER\)
+
+    Provides access to abstractions useful when working with character-like data, e.g. code pages which can be used to translate between STRINGs and XSTRINGs
 
 -   Correction and Transport System \(XCO\_CP\_CTS\)
 
@@ -99,6 +107,14 @@ The Cloud Platform \(CP\) edition of the XCO library is comprised of the followi
 -   Internationalization \(XCO\_CP\_I18N\)
 
     Provides access to the XCO I18N APIs, i.e. allows to obtain domain, data element, data definition and message class targets which can be used to programmatically maintain language-dependent texts.
+
+-   Identify and Access Management \(XCO\_CP\_IAM\)
+
+    Provides access to standard abstractions \(e.g. for IAM business catalogs\) within the area of Identify and Access Management.
+
+-   IAM Business Catalog
+
+    Provides access to text attributes specific to IAM business catalogs.
 
 -   JSON \(XCO\_CP\_JSON\)
 

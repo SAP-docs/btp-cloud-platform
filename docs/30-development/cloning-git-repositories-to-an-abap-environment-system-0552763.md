@@ -54,7 +54,7 @@ If a software component is not in your system yet, you will first need to clone 
     
     ```
 
-2.  **\(Cloning a Git repository\)**To trigger the clone, you need to insert the x-csrf-token that was retrieved in the first request in the header parameters. The Git repository and the branch you want to clone are passed in the body of the request. If you don’t enter a branch name, the main branch is automatically selected.
+2.  **\(Cloning a Git repository\)**To trigger the clone, you need to insert the x-csrf-token that was retrieved in the first request in the header parameters. The Git repository and the branch you want to clone are passed in the body of the request. If you don’t enter a branch name, the main branch is automatically selected. Alternatively you can clone a specific tag by entering the tag name. Make sure that the tag exists on the branch. If that's not the case, no clone is executed.
 
     **Request**
 
@@ -67,8 +67,9 @@ If a software component is not in your system yet, you will first need to clone 
     Accept: application/json
      
     {
-            "sc_name" : "/DMO/GIT_REPOSITORY"
-            "branch_name": "main"
+            "sc_name" : "/DMO/GIT_REPOSITORY",
+            "branch_name": "main",
+            "tag_name": "my-release-tag"
     }
     
     ```

@@ -21,7 +21,11 @@ To add a log item to an application log, the `IF_BALI_LOG` interface provides th
 
 -   `ADD_MESSAGES_FROM_BAPIRETTAB`: Append several messages to the application log. The message attributes are stored in an internal table of type `BAPIRETTAB`.
 
+-   `ADD_ABAP_BEHAVIOR_MESSAGE`: Append an ABAP behavior message, which uses the interface `IF_ABAP_BEHV_MESSAGE`, to the log.
+
 -   `ADD_ALL_ITEMS_FROM_OTHER_LOG`: Read all items from another application log and append them to this log. This method can be used if the items of different application logs are merged into one log.
+
+    Sometimes it's required to filter items which are put into an application log by using the method `ADD_ITEM`. For example, there may be an encapsulated application class which writes error and status messages into an application log, and the caller of this application class only requires the error messages. In this case, the caller can define an item filter \(see [Define a Filter](define-a-filter-8e17d0d.md)\). The caller can then add this item filter to the log using the method `SET_FILTER_FOR_ADD_ITEM`. If an item filter is set for a log object, only those items that pass this filter are added to the log object.
 
 
 > ### Note:  
@@ -30,7 +34,7 @@ To add a log item to an application log, the `IF_BALI_LOG` interface provides th
 > When an item is added to the application log, it can probably be converted internally. For example, an exception which is based on a message \(which contains a message ID and message number\) is internally converted into a message.
 
 > ### Sample Code:  
-> ```
+> ```lang-abap
 > 
 > ...
 >  TRY.
@@ -59,7 +63,7 @@ To add a log item to an application log, the `IF_BALI_LOG` interface provides th
 > ```
 
 > ### Sample Code:  
-> ```
+> ```lang-abap
 > ...
 >  TRY.
 >      DATA(l_log_target) = cl_bali_log=>create( ).
@@ -81,5 +85,33 @@ To add a log item to an application log, the `IF_BALI_LOG` interface provides th
 >      out->write( l_exception->get_text(  ) ).
 >  ENDTRY.
 >  ...
+> ```
+
+> ### Sample Code:  
+> ```lang-abap
+> ...
+>  TRY.
+>      DATA(l_log) = cl_bali_log=>create( ).
+>     
+>      " Add item filter to the log which only allows error messages
+>      DATA(l_filter) = cl_bali_item_filter=>create( )->set_severity( severity_table = VALUE #( ( 'E' ) ) ).
+>      l_log->set_filter_for_add_item( filter = l_filter ).
+> 
+>      MESSAGE ID 'ZTEST' TYPE 'W' NUMBER '002' INTO DATA(l_text).
+>      l_log->add_item( item = cl_bali_message_setter=>create_from_sy( ) ).  " Message is not added, because it is a warning
+> 
+>      MESSAGE ID 'ZTEST' TYPE 'E' NUMBER '002' INTO l_text.
+>      l_log->add_item( item = cl_bali_message_setter=>create_from_sy( ) ). " Message is added, because it is an error
+> 
+>      " Get the current item filter
+>      data(l_item_filter) = l_log->get_filter_for_add_item( ).
+>      
+>      " Clear the current item filter
+>      l_log->set_filter_for_add_item( filter = value #( ) ).
+> 
+>    CATCH cx_bali_runtime INTO DATA(l_exception).
+>      out->write( l_exception->get_text(  ) ).
+>  ENDTRY.
+> ...
 > ```
 

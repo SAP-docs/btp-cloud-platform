@@ -15,7 +15,7 @@ You want to assign a role collection to a user group provided by an identity pro
     > ### Remember:  
     > The name of the trust configuration is different from SAP ID service. The name of a custom trust configuration to SAP Cloud Identity Services - Identity Authentication could be as follows:
     > 
-    > `https://*<tenant\_id\>*.accounts.ondemand.com`
+    > <code>https://<i class="varname">&lt;tenant_id&gt;</i>.accounts.ondemand.com</code>
 
 -   You've configured the identity provider so that it conveys the user's group memberships in the *Groups* assertion attribute.
 

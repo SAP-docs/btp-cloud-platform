@@ -10,10 +10,7 @@ Use this procedure to configure the subaccount in SAP BTP trust settings and add
 
 1.  Download SAML metadata from the SAP SuccessFactors system.
 
-    1.  Go to `https://<sap_successfactors_system>/idp/samlmetadata?company=<company_id>` where:
-
-        > ### Note:  
-        > As of SAP SuccessFactors, First Half 2021 Release, you have to use a new certificate for the identity provider `https://<sap_successfactors_system>/idp/samlmetadata?company=<company_id>&cert=sha2`
+    1.  Go to `https://<sap_successfactors_system>/idp/samlmetadata?company=<company_id>&cert=sha2` where:
 
         -   `<sap_successfactors_system>` is the hostname of your SAP SuccessFactors system
 

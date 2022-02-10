@@ -2,7 +2,7 @@
 
 # Getting Numbers from an Interval
 
-The `CL_NUMBERRANGE_INTERVALS` class provides methods for getting numbers from an interval at runtime.
+The `CL_NUMBERRANGE_RUNTIME` class provides methods for getting numbers from an interval at runtime.
 
 
 
@@ -172,6 +172,52 @@ TOYEAR
 <td valign="top">
 
 To fiscal year
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+NUMBER\_ALPHA
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+Obsolete. Please use parameter NUMBER
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+LENGTH\_CHECK
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+Check of number length
 
 
 

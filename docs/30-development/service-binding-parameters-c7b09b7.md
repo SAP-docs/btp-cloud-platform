@@ -142,5 +142,5 @@ Method 2 shows how to define the service-binding parameters for a service-bind r
 Note that when you use the combination of the two methods, the parameters defined in the descriptor have higher priority than the ones defined in the JSON file.
 
 > ### Note:  
-> To avoid ambiguities, the name of the module is added as a prefix to the name of the `requires` dependency; the name of the manifest attribute uses the following format: `*<module-name\>*#*<requires-dependency-name\>*`.
+> To avoid ambiguities, the name of the module is added as a prefix to the name of the `requires` dependency; the name of the manifest attribute uses the following format: <code><i class="varname">&lt;module-name&gt;</i>#<i class="varname">&lt;requires-dependency-name&gt;</i></code>.
 

@@ -11,7 +11,7 @@ To create an object of class `CL_BALI_LOG`, the class provides two methods:
 
 > ### Example:  
 > > ### Sample Code:  
-> > ```
+> > ```lang-abap
 > > 
 > > CLASS zcl_test_write DEFINITION
 > >   PUBLIC
@@ -79,7 +79,7 @@ To create an object of class `CL_BALI_LOG`, the class provides two methods:
 > > ```
 
 > ### Sample Code:  
-> ```
+> ```lang-abap
 > 
 > ...
 >     TRY.
@@ -96,7 +96,7 @@ To create an object of class `CL_BALI_LOG`, the class provides two methods:
 If the header information is not known when the application log is created, you can use the `CREATE` method. It creates an empty application log. In this case, the header should be set later using the `SET_HEADER` method.
 
 > ### Sample Code:  
-> ```
+> ```lang-abap
 > 
 > ...
 >     TRY.
@@ -109,5 +109,42 @@ If the header information is not known when the application log is created, you 
 >         out->write( l_exception->get_text(  ) ).
 >     ENDTRY.
 > ...
+> ```
+
+If the application log is no longer needed in the memory, for example because it was saved into the database, it's possible to release its memory. This can be done using the method RELEASE\_MEMORY.
+
+After calling the method RELEASE\_MEMORY, the log object is invalidated and can no longer be used. The method IS\_INVALIDATED can be used to check whether the memory of the log object was already released by a previous call of the method RELEASE\_MEMORY.
+
+> ### Sample Code:  
+> ```lang-abap
+> ...
+>  TRY.
+>      DATA(l_log) = cl_bali_log=>create( ).
+>      ...
+>      " Add items to the log and e.g. write the log to the database
+>      ...
+>      " Release the memory of the log
+>      l_log->release_memory( ).  
+>    CATCH cx_bali_runtime INTO DATA(l_exception).
+>      out->write( l_exception->get_text(  ) ).
+>  ENDTRY.
+>  ...
+> ```
+
+> ### Sample Code:  
+> ```lang-abap
+>  ...
+>  TRY.
+>      DATA(l_log) = cl_bali_log=>create( ).
+>      ...
+>      " Check whether the log was already invalidated
+>      IF l_log->is_invalidated( ) = abap_true.
+>        " Start some error handling
+>      ENDIF.
+>      ...
+>    CATCH cx_bali_runtime INTO DATA(l_exception).
+>      out->write( l_exception->get_text(  ) ).
+>  ENDTRY.
+>  ...
 > ```
 

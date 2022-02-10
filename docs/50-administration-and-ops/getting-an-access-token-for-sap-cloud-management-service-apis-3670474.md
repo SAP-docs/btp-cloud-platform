@@ -21,7 +21,7 @@ The scopes included in the access token depend on the service plan you chose for
 
 ## Prerequisites
 
-Your global account admin has entitled at least SAP ONE Service service plan from the SAP Cloud Management service in your subaccount. See [SAP Cloud Management Service - Service Plans](sap-cloud-management-service-service-plans-a508b72.md) and [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
+Your global account admin has entitled at least one of the plans of the SAP Cloud Management service in your subaccount. See [SAP Cloud Management Service - Service Plans](sap-cloud-management-service-service-plans-a508b72.md) and [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
 
 > ### Note:  
 > The service plan for the SaaS Provisioning Service APIs is entitled by default to all subaccounts.
@@ -175,12 +175,12 @@ Your global account admin has entitled at least SAP ONE Service service plan fro
     > For Windows OS \(Password grant type\):
     > 
     > ```
-    > curl -L -X POST "*<uaa\_url\>*/oauth/token" ^ 
+    > curl -L -X POST "<uaa_url>/oauth/token" ^ 
     > -H "Content-Type: application/x-www-form-urlencoded" ^ 
-    > -u "*<clientid\>*:*<clientsecret\>*" ^ 
+    > -u "<clientid>:<clientsecret>" ^ 
     > -d "grant_type=password" ^ 
-    > -d "username=*<user email\>*" ^ 
-    > -d "password=*<password\>*" 
+    > -d "username=<user email>" ^ 
+    > -d "password=<password>" 
     > 
     > ```
 
@@ -188,9 +188,9 @@ Your global account admin has entitled at least SAP ONE Service service plan fro
     > For Windows OS \(Client Credentials grant type\):
     > 
     > ```
-    > curl -L -X POST "*<uaa\_url\>*/oauth/token" ^ 
+    > curl -L -X POST "<uaa_url>/oauth/token" ^ 
     > -H "Content-Type: application/x-www-form-urlencoded" ^ 
-    > -u "*<clientid\>*:*<clientsecret\>*" ^ 
+    > -u "<clientid>:<clientsecret>" ^ 
     > -d "grant_type=client_credentials" ^
     > 
     > ```
@@ -199,12 +199,12 @@ Your global account admin has entitled at least SAP ONE Service service plan fro
     > For Mac OS \(Password grant type\):
     > 
     > ```
-    > curl -L -X POST '*<uaa\_url\>*/oauth/token' \ 
+    > curl -L -X POST '<uaa_url>/oauth/token' \ 
     > -H 'Content-Type: application/x-www-form-urlencoded' \ 
-    > -u '*<clientid\>*:*<clientsecret\>*' \ 
+    > -u '<clientid>:<clientsecret>' \ 
     > -d 'grant_type=password' \ 
-    > -d 'username=*<user email\>*' \
-    > -d 'password=*<password\>*'
+    > -d 'username=<user email>' \
+    > -d 'password=<password>'
     > 
     > ```
 
@@ -212,9 +212,9 @@ Your global account admin has entitled at least SAP ONE Service service plan fro
     > For Mac OS \(Client Credentials grant type\):
     > 
     > ```
-    > curl -L -X POST '*<uaa\_url\>*/oauth/token' \ 
+    > curl -L -X POST '<uaa_url>/oauth/token' \ 
     > -H 'Content-Type: application/x-www-form-urlencoded' \ 
-    > -u '*<clientid\>*:*<clientsecret\>*' \ 
+    > -u '<clientid>:<clientsecret>' \ 
     > -d 'grant_type=client_credentials' \ 
     > 
     > ```

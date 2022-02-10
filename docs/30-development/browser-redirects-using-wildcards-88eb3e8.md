@@ -40,7 +40,7 @@ The following example allows redirects to all web sites with `sap.com` as domain
 > "oauth2-configuration": {
 >                        "token-validity": 900, 
 >                        "redirect-uris": ["http*://*.sap.com/**",
->                                          "https://*<application\_hostname\>*.*<landscape\_domain\>*/**"
+>                                          "https://<application_hostname>.<landscape_domain>/**"
 >                                          ]
 > ```
 
@@ -51,7 +51,7 @@ The following example allows redirects to all web sites with `sap.com` as domain
 > "oauth2-configuration": {
 >                        "token-validity": 900, 
 >                        "redirect-uris": ["http*://*.sap.com/**",
->                                          "https://*<application\_hostname\>*.*<custom\_domain\>*/**"
+>                                          "https://<application_hostname>.<custom_domain>/**"
 >                                          ]
 > ```
 

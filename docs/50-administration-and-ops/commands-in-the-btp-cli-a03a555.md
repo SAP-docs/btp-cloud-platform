@@ -11,15 +11,15 @@ A list of all tasks and respective commands that are available in the SAP BTP co
 > You can find extensive help about each command directly in the btp CLI. For example, use one of the following commands for help on `btp list accounts/subaccount`:
 > 
 > ```
-> `btp help list accounts/subaccount`
+> btp help list accounts/subaccount
 > ```
 > 
 > ```
-> `btp --help list accounts/subaccount`
+> btp --help list accounts/subaccount
 > ```
 > 
 > ```
-> `btp list accounts/subaccount --help`
+> btp list accounts/subaccount --help
 > ```
 
 **Related Information**  
@@ -31,5 +31,5 @@ A list of all tasks and respective commands that are available in the SAP BTP co
 
 [Get Help](get-help-f8fd1e5.md "There is extensive help in the btp CLI about every command. You can get help with the help action or the --help option.")
 
-[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Change the target for command calls to a directory, a subaccount, or the global account, by using the btp target command.")
+[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Set the target for command calls to a subaccount, a directory, or the global account with the btp target command.")
 

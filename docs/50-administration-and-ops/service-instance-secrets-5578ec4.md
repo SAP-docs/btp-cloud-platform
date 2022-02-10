@@ -13,12 +13,16 @@ The service instance can use multiple secrets in the ***application*** plan.
 -   Binding secrets must be enabled in the application security descriptor \(`xs-security.json`\) when you create the service instance. When you bind an application to a service instance or create a service key, you can pass a `parameters.json` to use a binding secret. The secret remains valid as long as the binding or the service key exists.
 
     > ### Note:  
-    > The ***apiaccess*** plan only uses binding secrets. However, some old instances of the ***apiaccess*** plan might still use the instance secret.
+    > The ***apiaccess*** plan only uses binding secrets. However, some old instances of the ***apiaccess*** plan still use the instance secret.
 
 -   X.509 secrets must be enabled in the application security descriptor \(`xs-security.json`\) when you create the service instance. When you bind an application to a service instance or create a service key, you can pass a `parameters.json` to use an X.509 secret. SAP Authorization and Trust Management service can generate an X.509 certificate for you or you can provide your own. The X.509 secret remains valid as long as the certificate itself is valid.
 
     > ### Note:  
-    > The service doesn't check for certificate revocation. The only way to revoke an X.509 secret is to rotate the secret.
+    > The service doesn't check for certificate revocation. To stop the service from accepting a certificate that is still valid, delete the relevant bindings or service keys. As soon as the binding is deleted, the service stops accepting the certificate.
+    > 
+    > For bindings with self-managed certificates and the `certificate-pinning` parameter set to ***false***, you can rotate the secrets without deleting bindings. Just use a new certificate with the same subject and issuer distinguished name \(DN\). The service saves the new validity date of the new certificate.
+    > 
+    > For more information, see [Parameters for Self-Managed X.509 Certificates](parameters-for-self-managed-x-509-certificates-5168df6.md).
 
 
 The following figure illustrates the XSUAA app and its information about the OAuth 2.0 client as part of an instanceSAP Authorization and Trust Management service. A consuming application, functioning as an OAuth 2.0 client is bound to the SAP Authorization and Trust Management service instance. The secret is part of the environment of the consuming application and the information about the OAuth 2.0 client saved with the XSUAA app. Alternatively, this information is saved as part of a service key.

@@ -10,7 +10,7 @@ With this app you can display information about the usage of business roles, bus
 
 If you want to look up more information about a business role, derived business role, business user, business catalog, business role template or restriction, you can jump directly to the respective app by clicking the entity.
 
-You can use this app as part of your daily work as SAP S/4 HANA Cloud administrator.
+You can use this app for administrative tasks as part of your daily work.
 
 
 

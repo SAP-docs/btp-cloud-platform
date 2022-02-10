@@ -8,7 +8,7 @@
 
 ## Context
 
-The authorization concept for business roles is based on the concept of granting authorizations \(as opposed to denying them\). By adding business catalogs to a business role and assigning the business role to a business user, you can control which applications the business user is authorized to carry out. As a next step, you define how the customer data can be accessed. You do this by adding authorization values to the restriction fields. Restriction fields are organized in restriction types. Restriction types that contain general organizational restriction fields can be found in the top section called *General*. These restriction types contain only one restriction field.
+The authorization concept for business roles is based on the concept of granting authorizations \(as opposed to denying them\). By adding business catalogs to a business role and assigning the business role to a business user, you can control which applications the business user is authorized to carry out. As a next step, you define how the customer data can be accessed. You do this by adding authorization values to the restriction fields. Restriction fields are organized in restriction types. Restriction types that contain general organizational restriction fields can be found in the top section called *General*. These restriction types contain only one restriction field. The settings you make for the single restriction types sum up to the authorization that is granted to the business role and therefore to the assigned business users.
 
 > ### Caution:  
 > Please note that assigning multiple business roles to a business user increases the risk of overriding existing authorizations.
@@ -83,6 +83,10 @@ Using the *Maintain Business Roles* app, you have the following options for main
     That means the value in this field is automatically inherited to other restriction types the field is used in as well.
 
     You want to, for example, define that the values for the country templates for Austria and Switzerland are applied in all restriction types the *Company Code* field is used in. So you select the values ***AU01*** \(for Austria\) and ***CH01*** \(for Switzerland\) and switch *Leading Restriction* on. Then these values are automatically inherited to all occurrences of the *Company Code* field.
+
+-   **Default Values from Business Catalogs**
+
+    Business catalogs can contain default values. In rare cases, these might overwrite the values defined by you in the Restrictions and Values section. The system then displays a message listing the default values that are added from the business catalog. To avoid this, you then need to remove the respective business catalog from the business role.
 
 
 **Related Information**  

@@ -10,16 +10,10 @@ You can use the Cloud Foundry Command Line Interface \(cf CLI\) to add space mem
 
 ## Prerequisites
 
--   The Space Manager role for the space
--   The e-mail addresses of the users that you want to add
+-   The Space Manager role for the space.
+-   The e-mail addresses of the users that you want to add. The user must already exist in the connected identity provider. For more information, see [Managing Users and Assigning Role Collections](managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md#loio94bb5935d4b64cff945c181fffa85282__section_l1j_mgj_rhb)
 -   Download and install the cf CLI and log on to Cloud Foundry. For more information, see [Download and Install the Cloud Foundry Command Line Interface](download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md) and [Log On to the Cloud Foundry Environment Using the Cloud Foundry Command Line Interface](log-on-to-the-cloud-foundry-environment-using-the-cloud-foundry-command-line-interface-7a37d66.md).
 
-
-
-
-## Context
-
-When you logged on with a platform user in a custom platform identity provider using the Cloud Foundry Command Line Interface, you can't use the ***--origin*** option. This isn't possible with the current version of the Cloud Foundry Command Line Interface \(cf CLI\). For more information, see [Supported Tools and Services When Using Custom Identity Providers for Platform Users\[Feature Set A\]](supported-tools-and-services-when-using-custom-identity-providers-for-platform-users-feat-94ef515.md).
 
 
 
@@ -45,4 +39,9 @@ To remove a space role from a user, enter the following string, specifying the u
 ```
 cf unset-space-role USERNAME ORG SPACE ROLE 
 ```
+
+**Related Information**  
+
+
+[Supported Tools and Services When Using Custom Identity Providers for Platform Users\[Feature Set A\]](supported-tools-and-services-when-using-custom-identity-providers-for-platform-users-feat-94ef515.md "Not all tools and services of SAP BTP support the use of custom identity providers with platform users. We provide a list of tools and services, which support this feature and any restrictions that apply.")
 

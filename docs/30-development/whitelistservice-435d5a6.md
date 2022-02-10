@@ -182,19 +182,19 @@ The allowlist service accepts only `GET` requests, and returns a JSON object as 
 > 
 > ```
 
-The response is a JSON object with the following properties; property `“active”` has the value `false` only if *<CJ\_PROTECT\_WHITELIST\>* is not provided:
+The response is a JSON object with the following properties; property <code>“active”</code> has the value `false` only if *<CJ\_PROTECT\_WHITELIST\>* is not provided:
 
 > ### Sample Code:  
 > ```
 > {
 >   "version" : "1.0",
 >   "active" : true | false, 
->   "origin" : "*<same as passed to service\>*", 
+>   "origin" : "<same as passed to service>", 
 >   "framing" : true | false
 > }
 > ```
 
-The `“active”` property enables framing control; the `“framing”` property specifies if framing should be allowed. By default, the application router \(`approuter.js`\) sends the `X-Frame-Options` header with value the `SAMEORIGIN`.
+The <code>“active”</code> property enables framing control; the <code>“framing”</code> property specifies if framing should be allowed. By default, the application router \(`approuter.js`\) sends the `X-Frame-Options` header with value the `SAMEORIGIN`.
 
 > ### Tip:  
 > If the allowlist service is enabled, the header value probably needs to be changed, see the *X-Frame-Options* header section for details about how to change it.

@@ -24,12 +24,12 @@ You can declare metadata for the parameters and properties that are already defi
 >    parameters: 
 >      memory: 128M  
 >      domain: ${default-domain} 
-> **   parameters-metadata:  
+>    parameters-metadata:  
 >      memory:  
 >        optional: true  
 >        overwritable: true  
 >      domain:  
->        overwritable: false  **
+>        overwritable: false  
 >    properties:  
 >      secret_token: ${generated-password}
 >      backend_types:  

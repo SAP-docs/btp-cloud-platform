@@ -28,8 +28,8 @@ We recommend this method of logging on if you want to use an automated script an
 1.  Set up a script with the following code:
 
     ```nocode
-    cf api https://api.cf.*<region\>*.hana.ondemand.com
-    cf login --origin *<origin\>* -u *<user\>* -p *<password\>*
+    cf api https://api.cf.<region>.hana.ondemand.com
+    cf login --origin <origin> -u <user> -p <password>
     
     ```
 
@@ -40,15 +40,15 @@ We recommend this method of logging on if you want to use an automated script an
     > 
     > ```
 
-    -   Find the `*<region\>*` value, that applies to you in the section [Regions](../10-concepts/regions-350356d.md).
+    -   Find the <code><i class="varname">&lt;region&gt;</i></code> value, that applies to you in the section [Regions](../10-concepts/regions-350356d.md).
 
-    -   Find the `*<origin\>*` value for the user that you want to use in the cockpit.
+    -   Find the <code><i class="varname">&lt;origin&gt;</i></code> value for the user that you want to use in the cockpit.
 
         1.  Navigate to the subaccount of your user.
 
         2.  Choose *Members*.
 
-        3.  Find the `*<origin\>*` value of your user in the table.
+        3.  Find the <code><i class="varname">&lt;origin&gt;</i></code> value of your user in the table.
 
 
     -   If two-factor authentication is enabled, concatenate your password and the passcode in a single string.

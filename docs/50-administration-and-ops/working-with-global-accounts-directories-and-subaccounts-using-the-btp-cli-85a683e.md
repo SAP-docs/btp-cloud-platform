@@ -76,7 +76,7 @@ For more information, see [Global Accounts](../10-concepts/account-model-8ed4a70
 Directories allow you to organize and manage your subaccounts according to your technical and business needs.
 
 > ### Tip:  
-> By default, all commands are executed in the global account you're logged in to. To change the target to a directory, use `btp target -dir *<my-directory-id\>*`. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
+> By default, all commands are executed in the global account you're logged in to. To change the target to a directory, use <code>btp target -dir <i class="varname">&lt;my-directory-id&gt;</i></code>. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
 
 
 <table>
@@ -222,7 +222,7 @@ For more information, see [Directories \[Feature Set B\]](../10-concepts/account
 ## Working with Subaccounts
 
 > ### Tip:  
-> By default, all commands are executed in the global account you're logged in to. To change the target to a subaccount, use `btp target -sa *<my-subaccount-id\>*`. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
+> By default, all commands are executed in the global account you're logged in to. To change the target to a subaccount, use <code>btp target -sa <i class="varname">&lt;my-subaccount-id&gt;</i></code>. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
 
 
 <table>
@@ -408,7 +408,7 @@ For more information, see [Subaccounts](../10-concepts/account-model-8ed4a70.md#
 
 [Working With Resources of the SAP Service Manager Using the btp CLI](working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md "Use the SAP BTP command line interface to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.")
 
-[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Change the target for command calls to a directory, a subaccount, or the global account, by using the btp target command.")
+[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Set the target for command calls to a subaccount, a directory, or the global account with the btp target command.")
 
 [Labels \[Feature Set B\]](../10-concepts/account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.")
 

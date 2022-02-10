@@ -97,7 +97,7 @@ The SAP SaaS Provisioning service allows application providers to register multi
 
             -   GET
 
-            -   URL: Define the endpoint to which SAP SaaS Provisioning Service executes the request. For example: `https://*<app url\>*/callback/v1.0/dependencies`
+            -   URL: Define the endpoint to which SAP SaaS Provisioning Service executes the request. For example: <code>https://<i class="varname">&lt;app url&gt;</i>/callback/v1.0/dependencies</code>
 
         -   Response:
             -   HTTP Status Code: 200 \(Ok\)
@@ -112,8 +112,8 @@ The SAP SaaS Provisioning service allows application providers to register multi
                     {
                         "xsappname": "..."     # The xsappname of the reusable service instance that the application consumes.
                                                  Find it in the following environment variable of your application:
-                                                 *<VCAP\_SERVICES.<service\>.credentials.xsappname
-                \>*
+                                                 <VCAP_SERVICES.<service>.credentials.xsappname
+                >
                     },
                     ....
                 

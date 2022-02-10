@@ -112,11 +112,11 @@ In a typical deployment scenario, your node application consists of several part
 
 -   Application logic
 
-    This application module \(`*<myAppName\>*/js/`\) contains the application logic: code written in Node.js. This module can make use of this *XS Advanced Container Security API* for Node.js\).
+    This application module \(<code><i class="varname">&lt;myAppName&gt;</i>/js/</code>\) contains the application logic: code written in Node.js. This module can make use of this *XS Advanced Container Security API* for Node.js\).
 
 -   UI client
 
-    This application module \(`*<myAppName\>*/web/`\) is responsible for the UI layer; this module can make use of the application router functionality \(defined in the file `xs-app.json`\).
+    This application module \(<code><i class="varname">&lt;myAppName&gt;</i>/web/</code>\) is responsible for the UI layer; this module can make use of the application router functionality \(defined in the file `xs-app.json`\).
 
 
 > ### Note:  

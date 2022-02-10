@@ -4,7 +4,7 @@
 
 OData Services provide the following:
 
--   [OData Client Proxy](odata-client-proxy-0d92f49.md)
+-   [OData Client Proxy - Introduction](odata-client-proxy-introduction-0d92f49.md)
 
 -   [Local Client Proxy](local-client-proxy-287674d.md)
 

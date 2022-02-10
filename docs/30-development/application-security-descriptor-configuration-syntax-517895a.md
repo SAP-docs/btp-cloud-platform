@@ -9,8 +9,8 @@ The syntax required to set the properties and values defined in the `xs-security
 ```nocode
 {
   "xsappname" : "node-hello-world", 
-  "[scopes](application-security-descriptor-configuration-syntax-517895a.md#loio517895a9612241259d6941dbf9ad81cb__section_tch_vqr_xs)"     : [ { 
-                    "name" : "[$XSAPPNAME](application-security-descriptor-configuration-syntax-517895a.md#loio517895a9612241259d6941dbf9ad81cb__section_fm2_wsk_pdb).Display", 
+  "scopes"     : [ { 
+                    "name" : "$XSAPPNAME.Display", 
                     "description" : "display" }, 
                    { 
                     "name" : "$XSAPPNAME.Edit", 
@@ -21,22 +21,22 @@ The syntax required to set the properties and values defined in the `xs-security
                     "granted-apps": ["$XSAPPNAME(application,business-partner)"]
                    }
 ],
- "[attributes](application-security-descriptor-configuration-syntax-517895a.md#loio517895a9612241259d6941dbf9ad81cb__section_pv5_5qr_xs)" : [ { 
+ "attributes" : [ { 
                     "name" : "Country", 
                     "description" : "Country", 
-                    "[valueType](application-security-descriptor-configuration-syntax-517895a.md#loio517895a9612241259d6941dbf9ad81cb__section_pv5_5qr_xs)" : "string" }, 
+                    "valueType" : "string" }, 
                    {
                     "name" : "CostCenter", 
                     "description" : "CostCenter", 
                     "valueType" : "string" } 
                  ], 
- "[role-templates](application-security-descriptor-configuration-syntax-517895a.md#loio517895a9612241259d6941dbf9ad81cb__section_atm_5qr_xs)": [ { 
+ "role-templates": [ { 
                     "name"                : "Viewer", 
                     "description"         : "View all books", 
                     "default-role-name": "Viewer: Authorized to Read All Books",
-                    "[scope-references](application-security-descriptor-configuration-syntax-517895a.md#loio517895a9612241259d6941dbf9ad81cb__section_atm_5qr_xs)"    : [ 
+                    "scope-references"    : [ 
                                          "$XSAPPNAME.Display" ], 
-                    "[attribute-references](application-security-descriptor-configuration-syntax-517895a.md#loio517895a9612241259d6941dbf9ad81cb__section_atm_5qr_xs)": [
+                    "attribute-references": [
                                             {
                                             "name" : "Country",
                                             "default-values" : [
@@ -56,13 +56,13 @@ The syntax required to set the properties and values defined in the `xs-security
                                           "CostCenter"] 
                     } 
                    ], 
- "[authorities](application-security-descriptor-configuration-syntax-517895a.md#loio517895a9612241259d6941dbf9ad81cb__section_d1m_1nq_zy)":["$ACCEPT_GRANTED_AUTHORITIES"],
- "[oauth2-configuration](application-security-descriptor-configuration-syntax-517895a.md#loio517895a9612241259d6941dbf9ad81cb__section_zfs_lj3_rz)": {
+ "authorities":["$ACCEPT_GRANTED_AUTHORITIES"],
+ "oauth2-configuration": {
                     "token-validity": 900, 
                     "redirect-uris": ["https://myapp.cfapps.eu10.hana.ondemand.com","http://myapp.mydomain.com/my/logout"] 
                     "credential-types": ["binding-secret","x509"]
  },
- "[xsenableasyncservice](application-security-descriptor-configuration-syntax-517895a.md#loio517895a9612241259d6941dbf9ad81cb__section_qjs_vys_rnb)":"true"
+ "xsenableasyncservice":"true"
 }
 
 ```
@@ -82,7 +82,7 @@ Use the `xsappname` property to specify the name of the application that the sec
 
 ```lang-json
 
-  "xsappname" : "*<app-name\>*",
+  "xsappname" : "<app-name>",
 
 ```
 
@@ -240,7 +240,7 @@ In the `xs-security.json` file, “local”scopes must be prefixed with the vari
 
 Usually, “foreign” scopes include the service plan and the name of the application to which the scope belongs. For more information, see [Referencing the Application](application-security-descriptor-configuration-syntax-517895a.md#loio517895a9612241259d6941dbf9ad81cb__section_fm2_wsk_pdb)An OAuth client always gets the same client secret. It’s valid in all subaccounts. The. Use the following syntax:
 
-`$XSAPPNAME(*<service\_plan\>*,*<xsappname\>*).*<local\_scope\_name\>*`
+<code>$XSAPPNAME(<i class="varname">&lt;service_plan&gt;</i>,<i class="varname">&lt;xsappname&gt;</i>).<i class="varname">&lt;local_scope_name&gt;</i></code>
 
 > ### Example:  
 > `"$XSAPPNAME(application,business-partner).Create"`
@@ -249,11 +249,11 @@ Usually, “foreign” scopes include the service plan and the name of the appli
 
 ### Granting Scopes to Another Application
 
-If you want to grant a scope from this application to another application for a user scenario, this application needs to grant access to the scope for the application that wants to use this scope. Using the `granted-apps` property in the `scopes` section, you can specify the application you want to grant your scope to. The other application \(referenced as `*<service\_plan\>*,*<foreign\_xsappname\>*`\) receives the scope as a “foreign”scope. For more information, see the related link.
+If you want to grant a scope from this application to another application for a user scenario, this application needs to grant access to the scope for the application that wants to use this scope. Using the `granted-apps` property in the `scopes` section, you can specify the application you want to grant your scope to. The other application \(referenced as <code><i class="varname">&lt;service_plan&gt;</i>,<i class="varname">&lt;foreign_xsappname&gt;</i></code>\) receives the scope as a “foreign”scope. For more information, see the related link.
 
 Here is the syntax in the security descriptor of the application that grants the scope. For more information, see [Referencing the Application](application-security-descriptor-configuration-syntax-517895a.md#loio517895a9612241259d6941dbf9ad81cb__section_fm2_wsk_pdb).
 
-`"granted-apps" : [ "$XSAPPNAME(*<service\_plan\>*,*<foreign\_xsappname\>*)"]`
+<code>"granted-apps" : [ "$XSAPPNAME(<i class="varname">&lt;service_plan&gt;</i>,<i class="varname">&lt;foreign_xsappname&gt;</i>)"]</code>
 
 > ### Example:  
 > `"granted-apps" : [ "$XSAPPNAME(application,business-partner)"]`
@@ -262,7 +262,7 @@ If you want to grant a scope from this application to another application for a 
 
 Here is the syntax in the security descriptor of the application that grants the scope:
 
-`"grant-as-authority-to-apps" : [ "$XSAPPNAME(*<service\_plan\>*,*<foreign\_xsappname\>*)"]`
+<code>"grant-as-authority-to-apps" : [ "$XSAPPNAME(<i class="varname">&lt;service_plan&gt;</i>,<i class="varname">&lt;foreign_xsappname&gt;</i>)"]</code>
 
 > ### Example:  
 > `"grant-as-authority-to-apps" : [ "$XSAPPNAME(application,business-partner)"]`
@@ -807,7 +807,7 @@ Bear in mind the following restrictions regarding the length and content of `rol
 -   The `role-template-references` \(mandatory\) element is an array with references to role template definitions from the Cloud Foundry application or from other Cloud Foundry applications.
 
     > ### Tip:  
-    > We recommend that you reference all role templates using either the `$XSAPPNAME` or `$XSAPPNAME(*<service\_plan\>*,*<XSAPPNAME\>*)` prefix to link to the correct application where the role template is defined \(see [Referencing the Application](application-security-descriptor-configuration-syntax-517895a.md#loio517895a9612241259d6941dbf9ad81cb__section_fm2_wsk_pdb)\).
+    > We recommend that you reference all role templates using either the `$XSAPPNAME` or <code>$XSAPPNAME(<i class="varname">&lt;service_plan&gt;</i>,<i class="varname">&lt;XSAPPNAME&gt;</i>)</code> prefix to link to the correct application where the role template is defined \(see [Referencing the Application](application-security-descriptor-configuration-syntax-517895a.md#loio517895a9612241259d6941dbf9ad81cb__section_fm2_wsk_pdb)\).
 
 
 **Conditions**
@@ -844,7 +844,7 @@ To enable one \(sending\) application to accept and use the authorization scopes
     > Specifying Scope Authorities in the Sending Application's Security Descriptor
     > 
     > ```lang-json
-    > "authorities":["*<ReceivingApp\>*.ForeignCall", "*<ReceivingApp2\>*.ForeignCall",]
+    > "authorities":["<ReceivingApp>.ForeignCall", "<ReceivingApp2>.ForeignCall",]
     > ```
 
 
@@ -987,7 +987,7 @@ For more information, see [Domain Checks at Browser Login and Logout](domain-che
 </td>
 <td valign="top">
 
- `["http://*<application\_ hostname1\>*.*<landscape\_domain\>**<path\>*","http://*<application\_ hostname2\>*.*<custom\_domain\>**<path\>*"]` 
+ <code>["http://<i class="varname">&lt;application_ hostname1&gt;</i>.<i class="varname">&lt;landscape_domain&gt;</i><i class="varname">&lt;path&gt;</i>","http://<i class="varname">&lt;application_ hostname2&gt;</i>.<i class="varname">&lt;custom_domain&gt;</i><i class="varname">&lt;path&gt;</i>"]</code> 
 
 
 
@@ -1218,7 +1218,7 @@ Application in the same subaccount
 </td>
 <td valign="top">
 
-`$XSAPPNAME(*<service\_plan\>*,*<xsappname\>*)`
+<code>$XSAPPNAME(<i class="varname">&lt;service_plan&gt;</i>,<i class="varname">&lt;xsappname&gt;</i>)</code>
 
 > ### Note:  
 > Currently, you can only use the `application` service plan.
@@ -1240,7 +1240,7 @@ Reference to any service instance in the same subaccount and space
 </td>
 <td valign="top">
 
-`$XSSERVICENAME(*<service\_instance\_name\>*)`
+<code>$XSSERVICENAME(<i class="varname">&lt;service_instance_name&gt;</i>)</code>
 
 This is the service instance name you used when you created it.
 
@@ -1471,7 +1471,7 @@ A default role with default values is generated automatically. Administrators mu
 <td valign="top">
 
 ```
-"default-values": ["*<attribute\_value\>*"]
+"default-values": ["<attribute_value>"]
 ```
 
 
@@ -1500,7 +1500,7 @@ A default role with default values is generated automatically. Administrators do
 <td valign="top">
 
 ```
-"default-values": ["*<attribute\_value\>*"]
+"default-values": ["<attribute_value>"]
 ```
 
 

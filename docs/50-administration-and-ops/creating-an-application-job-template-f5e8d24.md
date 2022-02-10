@@ -28,4 +28,7 @@ You can use the *Application Job Templates* app to create a job template for a s
 
 7.  If you are done editing, you can now choose whether to check your parameters, or display, save, or cancel your job template.
 
+    > ### Note:  
+    > If you want to schedule multistep templates with the *Application Jobs* app, you'll need the appropriate authorizations for all steps.
+
 

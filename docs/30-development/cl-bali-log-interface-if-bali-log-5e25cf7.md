@@ -329,6 +329,24 @@ Log header: References to interface IF\_BALI\_HEADER\_GETTER
 <tr>
 <td valign="top">
 
+CX\_BALI\_NOT\_POSSIBLE
+
+
+
+</td>
+<td valign="top">
+
+ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED:
+
+The memory of the log was released. The log can't be used
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 CX\_BALI\_INTERNAL\_ERROR
 
 
@@ -412,9 +430,14 @@ CX\_BALI\_NOT\_POSSIBLE
 </td>
 <td valign="top">
 
-ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>OBJECT\_NOT\_ALLOWED:
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>OBJECT\_NOT\_ALLOWED:
 
-Access to the log object of the header is not allowed
+    Access to the log object of the header is not allowed
+
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED:
+
+    The memory of the log was released. The log can't be used
+
 
 
 
@@ -522,9 +545,14 @@ CX\_BALI\_NOT\_POSSIBLE
 </td>
 <td valign="top">
 
-ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>OBJECT\_NOT\_ALLOWED:
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>OBJECT\_NOT\_ALLOWED:
 
-Access to the log object of the header is not allowed
+    Access to the log object of the header is not allowed
+
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED:
+
+    The memory of the log was released. The log can't be used
+
 
 
 
@@ -635,9 +663,14 @@ CX\_BALI\_NOT\_POSSIBLE
 </td>
 <td valign="top">
 
-ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>OBJECT\_NOT\_ALLOWED:
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>OBJECT\_NOT\_ALLOWED:
 
-Access to the log object of the header is not allowed
+    Access to the log object of the header is not allowed
+
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED:
+
+    The memory of the log was released. The log can't be used
+
 
 
 
@@ -748,9 +781,14 @@ CX\_BALI\_NOT\_POSSIBLE
 </td>
 <td valign="top">
 
-ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>TOO\_MANY\_ITEMS:
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>TOO\_MANY\_ITEMS:
 
-The maximum number 999999 of items was reached
+    The maximum number 999999 of items was reached
+
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED:
+
+    The memory of the log was released. The log can't be used
+
 
 
 
@@ -792,6 +830,117 @@ Internal error during processing
 
 > ### Note:  
 > If a message of the message table can't be added to the log, it's skipped and the processing continues until the end of the table is reached. Afterwards, an exception is raised to notify the caller that some of the messages couldn't be added to the log.
+
+
+
+Add a message from the ABAP Restful Application Programming Model \(interface IF\_ABAP\_BEHV\_MESSAGE\) to the log:
+
+<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_ets_vxq_lsb"/>ADD\_ABAP\_BEHAVIOR\_MESSAGE
+
+
+<table>
+<tr>
+<th valign="top">
+
+Name
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Importing parameter**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+MESSAGE
+
+
+
+</td>
+<td valign="top">
+
+A reference to the interface IF\_ABAP\_BEHV\_MESSAGE
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CX\_BALI\_NOT\_POSSIBLE
+
+
+
+</td>
+<td valign="top">
+
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>TOO\_MANY\_ITEMS: The maximum number 999999 of items was reached
+
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED: The memory of the log was released. The log can't be used
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CX\_BALI\_INVALID\_PARAMETER
+
+
+
+</td>
+<td valign="top">
+
+The message ID of the messages is initial
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CX\_BALI\_INTERNAL\_ERROR
+
+
+
+</td>
+<td valign="top">
+
+Internal error during processing
+
+
+
+</td>
+</tr>
+</table>
 
 
 
@@ -861,7 +1010,10 @@ CX\_BALI\_NOT\_POSSIBLE
 </td>
 <td valign="top">
 
-ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>TOO\_MANY\_ITEMS: The maximum number of 999999 items was reached
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>TOO\_MANY\_ITEMS: The maximum number of 999999 items was reached
+
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED: The memory of the log was released. The log can't be used
+
 
 
 
@@ -903,6 +1055,165 @@ Internal error during processing
 
 > ### Note:  
 > If the parameter `SOURCE_LOG` is initial, the processing is skipped and no exception is raised.
+
+
+
+Add an item filter to the log. The item filter is checked before an item is added to the log using the methods ADD\_ITEM, CUMULATE\_ITEM, ADD\_MESSAGES\_FROM\_BAPIRETTAB, or ADD\_ABAP\_BEHAVIOR\_MESSAGE. If an item doesn't pass the filter, it's ignored.
+
+<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_xdd_ccr_lsb"/>**SET\_FILTER\_FOR\_ADD\_ITEM**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Name
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Importing parameter**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+FILTER
+
+
+
+</td>
+<td valign="top">
+
+A reference to the item filter
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CX\_BALI\_NOT\_POSSIBLE
+
+
+
+</td>
+<td valign="top">
+
+ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED: The memory of the log was released. The log can't be used
+
+
+
+</td>
+</tr>
+</table>
+
+> ### Note:  
+> -   If FILTER is initial, any item filter is removed from the log. The log then no longer uses an item filter.
+> 
+> -   Since the method ADD\_ALL\_ITEMS\_FROM\_OTHER\_LOG is intended for the mass-processing of items, it ignores the item filter because of performance reasons.
+> 
+> -   The filter is only used by methods of the class CL\_BALI\_LOG. If an application uses the application log function modules to add an item to the log, the filter is ignored.
+
+
+
+Get the item filter which was set using SET\_FILTER\_FOR\_ADD\_ITEM.
+
+<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_fzb_jbr_lsb"/>**GET\_FILTER\_FOR\_ADD\_ITEM**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Name
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Returning parameter**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+FILTER
+
+
+
+</td>
+<td valign="top">
+
+A reference to the item filter which is currently used by the log
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CX\_BALI\_NOT\_POSSIBLE
+
+
+
+</td>
+<td valign="top">
+
+ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED: The memory of the log was released. The log can't be used
+
+
+
+</td>
+</tr>
+</table>
 
 
 
@@ -998,6 +1309,22 @@ CX\_BALI\_NOT\_FOUND
 <td valign="top">
 
 An item with the requested log item number does not exist
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CX\_BALI\_NOT\_POSSIBLE
+
+
+
+</td>
+<td valign="top">
+
+ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED: The memory of the log was released. The log can't be used
 
 
 
@@ -1103,6 +1430,22 @@ No item was found in the log
 <tr>
 <td valign="top">
 
+CX\_BALI\_NOT\_POSSIBLE
+
+
+
+</td>
+<td valign="top">
+
+ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED: The memory of the log was released. The log can't be used
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 CX\_BALI\_INTERNAL\_ERROR
 
 
@@ -1111,6 +1454,65 @@ CX\_BALI\_INTERNAL\_ERROR
 <td valign="top">
 
 Internal error during processing
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loio5e25cf7682d9432b840aa11144f2c2ac__section_zgr_ycr_lsb"/>
+
+## RELEASE\_MEMORY
+
+Remove the log from the memory. After this, the log is invalidated and can no longer be used.
+
+
+
+Check whether the memory of the log was released in order to verify that the log is invalidated and can no longer be used.
+
+<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_vv4_hdr_lsb"/>IS\_INVALIDATED
+
+
+<table>
+<tr>
+<th valign="top">
+
+Name
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Returning parameter**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+IS\_INVALIDATED
+
+
+
+</td>
+<td valign="top">
+
+If set, the log is invalidated and can no longer be used
 
 
 

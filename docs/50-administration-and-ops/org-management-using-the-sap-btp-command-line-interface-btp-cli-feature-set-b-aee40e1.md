@@ -136,7 +136,7 @@ Additional Info
 </td>
 <td valign="top">
 
- `btp list accounts/environment-instance --subaccount *<SUBACCOUNT\_ID\>*` 
+ <code>btp list accounts/environment-instance --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i></code> 
 
 
 
@@ -173,7 +173,7 @@ List all the Cloud Foundry orgs and other environment instances in a subaccount.
 </td>
 <td valign="top">
 
- `btp get accounts/environment-instance *<ID\>* --subaccount *<SUBACCOUNT\_ID\>*` 
+ <code>btp get accounts/environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i></code> 
 
 
 
@@ -212,7 +212,7 @@ Get the details of a specific Cloud Foundry org in a subaccount.
 </td>
 <td valign="top">
 
- `btp create accounts/environment-instance --subaccount *<SUBACCOUNT\_ID\>* --display-name *<DISPLAY\_NAME\>* --service *<SERVICE\>* --plan *<PLAN\>* --environment cloudfoundry --parameters "{\"instance_name\":\"*<ORG\_NAME\>*\"}"` 
+ <code>btp create accounts/environment-instance --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --display-name <i class="varname">&lt;DISPLAY_NAME&gt;</i> --service <i class="varname">&lt;SERVICE&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i> --environment cloudfoundry --parameters "{\"instance_name\":\"<i class="varname">&lt;ORG_NAME&gt;</i>\"}"</code> 
 
 
 
@@ -255,7 +255,7 @@ For examples that show how to pass JSON parameters in the command line with diff
 </td>
 <td valign="top">
 
- `btp update accounts/environment-instance *<ID\>* --subaccount *<SUBACCOUNT\_ID\>* --plan *<PLAN\>*` 
+ <code>btp update accounts/environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i></code> 
 
 
 
@@ -299,7 +299,7 @@ For the Cloud Foundry environment, you can use this command to change only the p
 </td>
 <td valign="top">
 
- `btp delete accounts/ environment-instance *<ID\>* --subaccount *<SUBACCOUNT\_ID\>*` 
+ <code>btp delete accounts/ environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i></code> 
 
 
 
@@ -331,7 +331,7 @@ The Cloud Foundry org and all its data will be lost.
 </table>
 
 > ### Note:  
-> You can obtain the subaccount ID by running `btp list accounts/subaccount`. You can also target the subaccount using `btp target --subaccount *<ID\>*`, and then omit the `subaccount` parameter from the rest of the commands.
+> You can obtain the subaccount ID by running `btp list accounts/subaccount`. You can also target the subaccount using <code>btp target --subaccount <i class="varname">&lt;ID&gt;</i></code>, and then omit the `subaccount` parameter from the rest of the commands.
 
 **Related Information**  
 

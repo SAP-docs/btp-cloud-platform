@@ -97,7 +97,7 @@ The remote proxy is used when an OData service is consumed remotely using a HTTP
     > 
     > DATA:	lt_employee      TYPE STANDARD TABLE OF /iwbep/s_tea_employee,
     >           lt_employee_a    TYPE STANDARD TABLE OF /iwbep/s_tea_employee_a (abstract entity from the service consumption model). If etag is used in the consumption model,
-    >           the response has an `etag__etag` field.
+    >           the response has an etag__etag field.
     >           lo_client_proxy  TYPE REF TO /iwbep/if_cp_client_proxy,
     >           lo_read_request  TYPE REF TO /iwbep/if_cp_request_read_list,
     >           lo_read_response TYPE REF TO /iwbep/if_cp_response_read_lst,

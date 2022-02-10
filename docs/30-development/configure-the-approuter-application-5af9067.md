@@ -18,7 +18,7 @@ When a consumer accesses the application, their consumer tenant calls the multit
 
 -   **During a development phase** of your multitenant application, the following URL structure applies:
 
-    `*<SUBSCRIBER\_TENANT\_SUBDOMAIN\>*-*<APPROUTER\_APPLICATION\_HOST\>*.*<SAP-PROVIDED\_STANDARD\_DOMAIN\>*`
+    <code><i class="varname">&lt;SUBSCRIBER_TENANT_SUBDOMAIN&gt;</i>-<i class="varname">&lt;APPROUTER_APPLICATION_HOST&gt;</i>.<i class="varname">&lt;SAP-PROVIDED_STANDARD_DOMAIN&gt;</i></code>
 
     In each development landscape, SAP provides a different standard domain you can use to create URLs.
 
@@ -32,7 +32,7 @@ When a consumer accesses the application, their consumer tenant calls the multit
 
 -   **During a production phase** of your multitenant application, apply for a custom domain via the custom domain service, then create a URL using the following structure:
 
-    `*.*<YOUR\_CUSTOM\_DOMAIN\>*`.
+    <code>*.<i class="varname">&lt;YOUR_CUSTOM_DOMAIN&gt;</i></code>.
 
     Where: `*` is the wildcard hostname.
 

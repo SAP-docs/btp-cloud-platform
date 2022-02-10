@@ -18,7 +18,7 @@ Follow these steps to create a Job Catalog Entry and a Job Template in ADT.
 **Related Information**  
 
 
-[Scheduling an Application Job](../50-administration-and-ops/scheduling-an-application-job-147d689.md "Find out how to schedule an Application Job.")
+
 
 [Setting up the Authorizations](setting-up-the-authorizations-bb559a5.md "Some further activities in ADT and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app Application Jobs.")
 

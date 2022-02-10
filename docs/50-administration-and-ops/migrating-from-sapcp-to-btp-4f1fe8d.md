@@ -24,14 +24,14 @@ The sapcp client version 1.32.0 will be supported until September 2021.
 
     Your sapcp configration file \(`config.json`\) is carried over into a new btp configuration folder in your user data directory:
 
-    -   Microsoft Windows: `C:\Users\*<username\>*\AppData\Local\SAP\btp`
+    -   Microsoft Windows: <code>C:\Users\<i class="varname">&lt;username&gt;</i>\AppData\Local\SAP\btp</code>
 
     -   Apple macOS / Linux: `$HOME/.btp`
 
 
     The old sapcp configuration folder in the same directory is kept, so you can still use the sapcp client. If you no longer need it, you can delete the folder.
 
-4.  If you want to use command autocompletion, you can enable it with `btp enable autocomplete *<SHELL\>*`.
+4.  If you want to use command autocompletion, you can enable it with <code>btp enable autocomplete <i class="varname">&lt;SHELL&gt;</i></code>.
 
 
 **Related Information**  

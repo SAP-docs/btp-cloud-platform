@@ -20,5 +20,5 @@ Alternatively, as a SaaS solution operator, your can use the *Subscription Manag
 
 After unsubscribing from a consumer subaccount, the associated tenant is not immediately deleted, and it can be restored within a given period of time.
 
-As a SaaS solution operator, you can restore the tenant from the Landscape Portal. See [Restore Tenants](restore-tenants-619c40e.md).
+As a SaaS solution operator, you can restore the tenant from the Landscape Portal. See [Restore Consumer Tenants](restore-consumer-tenants-619c40e.md).
 

@@ -40,6 +40,9 @@ Interface `IF_BALI_HEADER_GETTER` contains the following methods:
 -   GET\_SUBOBJECT\_DESCRIPTION: Returns the description text of the log subobject in the logon language.
 
 
+> ### Note:  
+> The header object contains the header attributes that were valid when the method GET\_HEADER was called. If the log is changed after this call \(for example, when new items are added to the log\), these changes are not automatically visible in the header object. To refresh the header object it's necessary to call the method GET\_HEADER again.
+
 > ### Example:  
 > Load a single log from the database which uses log handle l\_handle, and output some fields of the log header:
 > 

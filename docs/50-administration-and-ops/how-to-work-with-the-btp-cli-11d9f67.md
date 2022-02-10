@@ -11,27 +11,27 @@ Learn how to work with the SAP BTP command line interface \(btp CLI\). For examp
 ## General Commands
 
 ```
-`btp help`
+btp help
 ```
 
 ```
-`btp login`
+btp login
 ```
 
 ```
-`btp logout`
+btp logout
 ```
 
 ```
-`btp target`
+btp target
 ```
 
 ```
-`btp enable autocomplete`
+btp enable autocomplete
 ```
 
 ```
-`btp disable autocomplete`
+btp disable autocomplete
 ```
 
 

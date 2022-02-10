@@ -169,18 +169,18 @@ You can customize the service keys created as part of the content deployment by 
 >     - name: workflow_service
 >       parameters:
 >          content-target: true
->         ** service-key:
->            name: workflow\_service-key
+>          service-key:
+>            name: workflow_service-key
 >            config:
->              <map entries for creation parameters\>
-> **
+>              <map entries for creation parameters>
+> 
 >     - name: xsuaa_service
 >       parameters:
->          **service-key:
->            name: xsuaa\_service-key
+>          service-key:
+>            name: xsuaa_service-key
 >            config:
->              <map entries for creation parameters\>
-> **
+>              <map entries for creation parameters>
+> 
 >  
 > resources:
 > - name: workflow_service

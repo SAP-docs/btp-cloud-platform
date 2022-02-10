@@ -12,7 +12,7 @@ You can set Web service-specific properties by maintaining the following *Additi
 -   `ws.soapAction.<operationName>`: Sets the SOAP action for a given operation with name `<operationName>`.
 
 > ### Sample Code:  
-> ```
+> ```lang-abap
 > TRY.
 >     DATA(lo_soap_dest) = cl_soap_destination_provider=>create_by_cloud_destination(
 >                            i_name                   = '<destination name>'

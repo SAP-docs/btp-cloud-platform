@@ -16,5 +16,5 @@ If an application does not want to get exceptions in these cases then the V4 sta
 
 Lambda operators can be combined with amount and currency: The use of currency in $filter with the lambda operator `ANY` or `ALL` is supported, even if the currency is not directly connected to the amount.
 
-Example: `/sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0001/Departments?$filter=DEPARTMENT_2_TEAMS/**any\(d:d/**Budget gt 4000 and **d/**BudgetCurrency eq 'JPY')`
+Example: <code>/sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0001/Departments?$filter=DEPARTMENT_2_TEAMS/<b>any(d:d/</b>Budget gt 4000 and <b>d/</b>BudgetCurrency eq 'JPY')</code>
 

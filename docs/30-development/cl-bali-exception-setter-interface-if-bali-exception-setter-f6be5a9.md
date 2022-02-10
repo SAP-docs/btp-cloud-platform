@@ -401,6 +401,82 @@ Reference to ABAP exception class instance
 
 
 
+Check whether the exception can pass an item filter:
+
+<a name="loiof6be5a9b0d124920b51c626f2e7669cf__table_a4v_d2r_lsb"/>CHECK\_PASSING\_ITEM\_FILTER \(from IF\_BALI\_ITEM\_SETTER\)
+
+
+<table>
+<tr>
+<th valign="top">
+
+Name
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Importing parameter**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ITEM\_FILTER
+
+
+
+</td>
+<td valign="top">
+
+Reference to the item filter that is being checked
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Returning parameter**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+FILTER\_PASSED
+
+
+
+</td>
+<td valign="top">
+
+If set, the exception can pass the item filter
+
+
+
+</td>
+</tr>
+</table>
+
+
+
 > ### Note:  
 > If the severity of the exception contains a value which is not allowed, it is changed to `IF_BALI_CONSTANTS=>C_SEVERITY_DEFAULT`. Allowed values of the severity can be found in interface `IF_BALI_CONSTANTS`.
 > 

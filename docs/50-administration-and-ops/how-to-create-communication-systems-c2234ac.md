@@ -38,15 +38,27 @@ To create a communication system perform the following steps:
         > ### Note:  
         > A predefined instance is selected by default. If you want to add your own instance, deselect this instance.
 
-    -   *SAML Bearer Assertion Provider*
-
-        Before you can authenticate using SAML2 Bearer assertions transmitted via the authorization header, you have to configure a trusted relationship to the required identity provider. Upload the signing certificate of the trusted provider and define the provider name.
-
-        Define the required *User ID Mapping Mode* if it is unspecified and you don't use e-mail addresses, but either logon name or user UUID.
-
     -   *Contact Information*
 
         Enter name, e-mail or phone number of a contact person.
+
+    -   *SAML Bearer Assertion Provider*
+
+        Before you can authenticate using SAML2 Bearer assertions transmitted via the authorization header, you have to configure a trusted relationship to the required *SAML Identity Provider* \(token issuer\).
+
+        Upload the signing certificate of the trusted provider and define the provider name.
+
+        Define the required *User ID Mapping Mode* if it is unspecified and you don't use e-mail addresses, but either logon name or user UUID.
+
+        The *User ID Mapping Mode* is required when the *SAML Identity Provider* is creating SAML assertions with the *NameIdentifierFormat* ***unspecified*** .
+
+        This setting is ignored when then SAML assertion is using the *NameIdentifierFormat****eMailAddress***.
+
+    -   *OpenID Connect* switch
+
+        Before you can authenticate using OpenID Connect, you have to configure a trusted *OpenID Connect Provider*.
+
+        Define the required *User ID Mapping Mode*, the *OpenID Connect Provider* and *Client ID*. Click *Import Metadata*. This is necessary to ensure that the configuration is validated and complete.
 
 
 4.  Add technical users for inbound communication. You can either select a user from the list or create a new user. If you decide to create a new user, you will be redirected to the *Maintain Communication User* app.

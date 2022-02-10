@@ -249,11 +249,18 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     You have the option to deploy or synchronize an MTA, the source of which is contained in a local directory:
 
     ```
-    `cf deploy *<MTA\_ARCHIVE\>*|*<DIRECTORY\_PATH\>* [-e *<EXT\_DESCRIPTOR\_1\>*[,*<EXT\_DESCRIPTOR\_2\>*]] 
-    [-u *<URL\>*] [-t *<TIMEOUT\>*] [-v *<VERSION\_RULE\>*]
+    cf deploy [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+         {"varname"}) <MTA_ARCHIVE> (varname]|[/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+         {"varname"}) <DIRECTORY_PATH> (varname] [-e [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+         {"varname"}) <EXT_DESCRIPTOR_1> (varname][,[/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+         {"varname"}) <EXT_DESCRIPTOR_2> (varname]]] 
+    [-u [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+         {"varname"}) <URL> (varname]] [-t [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+         {"varname"}) <TIMEOUT> (varname]] [-v [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+         {"varname"}) <VERSION_RULE> (varname]]
     [--no-start] [--namespace]
     [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
-    [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]`
+    [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]
     ```
 
 -   **Deployment using an URL to the MTA archive**
@@ -261,11 +268,17 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     You have the option to deploy or synchronize an MTA, the source of which is contained at a URL address.When you use this command, the request prompts the backend to download the archive and then dеploy it:
 
     ```
-    `cf deploy *<URL to MTA archive\>* [-e *<EXT\_DESCRIPTOR\_1\>*[,*<EXT\_DESCRIPTOR\_2\>*]] 
-    [-u *<MTA controller URL\>*] [-t *<TIMEOUT\>*] [-v *<VERSION\_RULE\>*]
+    cf deploy [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+         {"varname"}) <URL to MTA archive> (varname] [-e [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+         {"varname"}) <EXT_DESCRIPTOR_1> (varname][,[/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+         {"varname"}) <EXT_DESCRIPTOR_2> (varname]]] 
+    [-u [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+         {"varname"}) <MTA controller URL> (varname]] [-t [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+         {"varname"}) <TIMEOUT> (varname]] [-v [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+         {"varname"}) <VERSION_RULE> (varname]]
     [--no-start] [--namespace]
     [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
-    [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]`
+    [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]
     ```
 
     > ### Note:  
@@ -280,18 +293,25 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     You have the option to deploy the content of the directory you are currently in. The MultiApps CLI plugin packages the content in accordance with the deployment descriptor definition, so that the Cloud Deployment service can then upload and deploy the MTA.
 
     ```
-    `cf deploy [-e *<EXT\_DESCRIPTOR\_1\>*[,*<EXT\_DESCRIPTOR\_2\>*]] 
-    [-u *<URL\>*] [-t *<TIMEOUT\>*] [-v *<VERSION\_RULE\>*]
+    cf deploy [-e [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+         {"varname"}) <EXT_DESCRIPTOR_1> (varname][,[/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+         {"varname"}) <EXT_DESCRIPTOR_2> (varname]]] 
+    [-u [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+         {"varname"}) <URL> (varname]] [-t [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+         {"varname"}) <TIMEOUT> (varname]] [-v [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+         {"varname"}) <VERSION_RULE> (varname]]
     [--no-start] [--namespace]
     [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
-    [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]`
+    [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]
     ```
 
 
 In additon to deployment, you can also interact with an active MTA deploy operation, for example, by performing an action:
 
 ```
-`cf deploy  [-i *<OPERATION\_ID\>*] [-a *<ACTION\>*] `
+cf deploy  [-i [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
+     {"varname"}) <OPERATION_ID> (varname]] [-a [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
+     {"varname"}) <ACTION> (varname]] 
 ```
 
 
@@ -381,7 +401,7 @@ Description
 <tr>
 <td valign="top">
 
-`*-e* *<EXT\_DESCRIPTOR\_1\>*[,*<EXT\_DESCRIPTOR\_2\>*]`
+<code><i>-e</i> <i class="varname">&lt;EXT_DESCRIPTOR_1&gt;</i>[,<i class="varname">&lt;EXT_DESCRIPTOR_2&gt;</i>]</code>
 
 
 
@@ -397,7 +417,7 @@ Define one or more extensions to the deployment descriptors; multiple extension 
 <tr>
 <td valign="top">
 
-`*-u* *<URL\>*`
+<code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code>
 
 
 
@@ -413,7 +433,7 @@ Specify the URL for the deployment-service end-point that is to be used for the 
 <tr>
 <td valign="top">
 
-`*-t* *<TIMEOUT\>*`
+<code><i>-t</i> <i class="varname">&lt;TIMEOUT&gt;</i></code>
 
 
 
@@ -429,7 +449,7 @@ Specify the maximum amount of time \(in seconds\) that the service must wait for
 <tr>
 <td valign="top">
 
-`*-v* *<VERSION\_RULE\>*`
+<code><i>-v</i> <i class="varname">&lt;VERSION_RULE&gt;</i></code>
 
 
 
@@ -445,7 +465,7 @@ Specify the rule to apply to determine how the application version number is use
 <tr>
 <td valign="top">
 
-`*-i* *<OPERATION\_ID\>*`
+<code><i>-i</i> <i class="varname">&lt;OPERATION_ID&gt;</i></code>
 
 
 
@@ -461,7 +481,7 @@ Specify the ID of the deploy operation that you want to perform an action on
 <tr>
 <td valign="top">
 
-`*-a* *<ACTION\>*`
+<code><i>-a</i> <i class="varname">&lt;ACTION&gt;</i></code>
 
 
 
@@ -477,7 +497,7 @@ Specify the action to perform on the deploy operation, for example, “abort”,
 <tr>
 <td valign="top">
 
-`*-f* `
+<code><i>-f</i> </code>
 
 
 
@@ -496,7 +516,7 @@ Force deployment without requiring any confirmation about aborting any conflicti
 <tr>
 <td valign="top">
 
-`*--no-start*`
+<code><i>--no-start</i></code>
 
 
 
@@ -512,7 +532,7 @@ Do not start application after deployment
 <tr>
 <td valign="top">
 
-`*--delete-services*`
+<code><i>--delete-services</i></code>
 
 
 
@@ -528,7 +548,7 @@ Re-create changed services and delete discontinued services
 <tr>
 <td valign="top">
 
-`*--delete-service-keys*`
+<code><i>--delete-service-keys</i></code>
 
 
 
@@ -544,7 +564,7 @@ Delete the existing service keys and apply the new ones
 <tr>
 <td valign="top">
 
-`*--delete-service-brokers*`
+<code><i>--delete-service-brokers</i></code>
 
 
 
@@ -560,7 +580,7 @@ Delete discontinued service brokers
 <tr>
 <td valign="top">
 
-`*--keep-files*`
+<code><i>--keep-files</i></code>
 
 
 
@@ -576,7 +596,7 @@ Keep the files used for deployment
 <tr>
 <td valign="top">
 
-`*--no-restart-subscribed-apps*`
+<code><i>--no-restart-subscribed-apps</i></code>
 
 
 
@@ -592,7 +612,7 @@ Do not restart subscribed applications that are updated during the deployment
 <tr>
 <td valign="top">
 
-`*--do-not-fail-on-missing-permissions*`
+<code><i>--do-not-fail-on-missing-permissions</i></code>
 
 
 
@@ -608,7 +628,7 @@ Perform the deployment, even if required administrator permissions are missing f
 <tr>
 <td valign="top">
 
-`*--abort-on-error*`
+<code><i>--abort-on-error</i></code>
 
 
 
@@ -624,7 +644,7 @@ If an operation fails, the corresponding process is automatically aborted and ca
 <tr>
 <td valign="top">
 
-`*-m <module name\>*`
+<code><i>-m &lt;module name&gt;</i></code>
 
 
 
@@ -643,7 +663,7 @@ Deploy only the module with the specified name.
 <tr>
 <td valign="top">
 
-`*--all-modules*`
+<code><i>--all-modules</i></code>
 
 
 
@@ -662,7 +682,7 @@ Deploy all modules.
 <tr>
 <td valign="top">
 
-`*-r <resource name\>*`
+<code><i>-r &lt;resource name&gt;</i></code>
 
 
 
@@ -681,7 +701,7 @@ Deploy only the resource with the specified name
 <tr>
 <td valign="top">
 
-`*--all-resources*`
+<code><i>--all-resources</i></code>
 
 
 
@@ -700,7 +720,7 @@ Deploy all resources.
 <tr>
 <td valign="top">
 
-`*--verify-archive-signature*`
+<code><i>--verify-archive-signature</i></code>
 
 
 
@@ -724,7 +744,7 @@ Check the archive signature by verifying that:
 <tr>
 <td valign="top">
 
-`*--strategy*`
+<code><i>--strategy</i></code>
 
 
 
@@ -742,7 +762,7 @@ Using this option, you will not be asked to manually confirm the deletion of the
 <tr>
 <td valign="top">
 
-`*--skip-testing-phase*`
+<code><i>--skip-testing-phase</i></code>
 
 
 
@@ -763,7 +783,7 @@ Note
 <tr>
 <td valign="top">
 
-`*--namespace*`
+<code><i>--namespace</i></code>
 
 > ### Note:  
 > This option is currently experimental.
@@ -817,7 +837,7 @@ When using the *--strategy* option for “blue-green”, you can choose to skip 
 Deploy a new Multitarget Application \(MTA\) using “blue-green” \(zero-downtime\) deployment.
 
 > ### Note:  
-> You can also perform this deployment type using the `*deploy*` command by using the experimental `*--strategy blue-green*` flag. See above for details.
+> You can also perform this deployment type using the <code><i>deploy</i></code> command by using the experimental <code><i>--strategy blue-green</i></code> flag. See above for details.
 
 “Blue-green” deployment is a release technique that reduces application downtime and the resulting risk by running two identical target deployment environments called “blue” and “green”. Only one of the two target environments is “live” at any point in time and it is much easier to roll back to a previous version after a failed \(or undesired\) deployment.
 
@@ -828,18 +848,26 @@ Deploy a new Multitarget Application \(MTA\) using “blue-green” \(zero-downt
 Deploy a new Multitarget Application using “blue-green” deployment:
 
 ```
-`cf bg-deploy *<MTA\_ARCHIVE\>*  
-[-e *<EXT\_DESCRIPTOR\_1\>*[,*<EXT\_DESCRIPTOR\_2\>*]] 
-[-u *<URL\>*] [-t *<TIMEOUT\>*] [-v *<VERSION\_RULE\>*]
+cf bg-deploy [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
+     {"varname"}) <MTA_ARCHIVE> (varname]  
+[-e [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
+     {"varname"}) <EXT_DESCRIPTOR_1> (varname][,[/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
+     {"varname"}) <EXT_DESCRIPTOR_2> (varname]]] 
+[-u [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
+     {"varname"}) <URL> (varname]] [-t [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
+     {"varname"}) <TIMEOUT> (varname]] [-v [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
+     {"varname"}) <VERSION_RULE> (varname]]
 [--no-start] [--use-namespaces] [--no-namespaces-for-services]
 [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
-[--keep-files] [--no-restart-subscribed-apps] [--no-confirm] [--do-not-fail-on-missing-permissions][--skip-idle-start]`
+[--keep-files] [--no-restart-subscribed-apps] [--no-confirm] [--do-not-fail-on-missing-permissions][--skip-idle-start]
 ```
 
 Interact with an active MTA deploy operation, for example, by performing an action:
 
 ```
-`cf bg-deploy  [-i *<OPERATION\_ID\>*] [-a *<ACTION\>*] `
+cf bg-deploy  [-i [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
+     {"varname"}) <OPERATION_ID> (varname]] [-a [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
+     {"varname"}) <ACTION> (varname]] 
 ```
 
 
@@ -915,7 +943,7 @@ Description
 <tr>
 <td valign="top">
 
-`*-e* *<EXT\_DESCRIPTOR\_1\>*[,*<EXT\_DESCRIPTOR\_2\>*]`
+<code><i>-e</i> <i class="varname">&lt;EXT_DESCRIPTOR_1&gt;</i>[,<i class="varname">&lt;EXT_DESCRIPTOR_2&gt;</i>]</code>
 
 
 
@@ -931,7 +959,7 @@ Define one or more extensions to the deployment descriptors; multiple extension 
 <tr>
 <td valign="top">
 
-`*-u* *<URL\>*`
+<code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code>
 
 
 
@@ -947,7 +975,7 @@ Specify the URL for the deployment-service end-point that is to be used for the 
 <tr>
 <td valign="top">
 
-`*-t* *<TIMEOUT\>*`
+<code><i>-t</i> <i class="varname">&lt;TIMEOUT&gt;</i></code>
 
 
 
@@ -963,7 +991,7 @@ Specify the maximum amount of time \(in seconds\) that the service must wait for
 <tr>
 <td valign="top">
 
-`*-v* *<VERSION\_RULE\>*`
+<code><i>-v</i> <i class="varname">&lt;VERSION_RULE&gt;</i></code>
 
 
 
@@ -979,7 +1007,7 @@ Specify the rule to apply to determine how the application version number is use
 <tr>
 <td valign="top">
 
-`*-i* *<OPERATION\_ID\>*`
+<code><i>-i</i> <i class="varname">&lt;OPERATION_ID&gt;</i></code>
 
 
 
@@ -995,7 +1023,7 @@ Specify the ID of the deploy operation that you want to perform an action on
 <tr>
 <td valign="top">
 
-`*-a* *<ACTION\>*`
+<code><i>-a</i> <i class="varname">&lt;ACTION&gt;</i></code>
 
 
 
@@ -1011,7 +1039,7 @@ Specify the action to perform on the deploy operation, for example, “abort”,
 <tr>
 <td valign="top">
 
-`*-f* `
+<code><i>-f</i> </code>
 
 
 
@@ -1027,7 +1055,7 @@ Force deploy without requiring any confirmation for aborting any conflicting pro
 <tr>
 <td valign="top">
 
-`*--no-start*`
+<code><i>--no-start</i></code>
 
 
 
@@ -1043,7 +1071,7 @@ Do not start application after deployment
 <tr>
 <td valign="top">
 
-`*--use-namespaces*`
+<code><i>--use-namespaces</i></code>
 
 
 
@@ -1059,7 +1087,7 @@ Use namespaces in application \(and service\) names during application deploymen
 <tr>
 <td valign="top">
 
-`*--no-namespaces-for-services*`
+<code><i>--no-namespaces-for-services</i></code>
 
 
 
@@ -1075,7 +1103,7 @@ Do not use namespaces in service names
 <tr>
 <td valign="top">
 
-`*--delete-services*`
+<code><i>--delete-services</i></code>
 
 
 
@@ -1091,7 +1119,7 @@ Re-create changed services and delete discontinued services
 <tr>
 <td valign="top">
 
-`*--delete-service-keys*`
+<code><i>--delete-service-keys</i></code>
 
 
 
@@ -1107,7 +1135,7 @@ Delete the existing service keys and apply the new ones
 <tr>
 <td valign="top">
 
-`*--delete-service-brokers*`
+<code><i>--delete-service-brokers</i></code>
 
 
 
@@ -1123,7 +1151,7 @@ Delete discontinued service brokers
 <tr>
 <td valign="top">
 
-`*--keep-files*`
+<code><i>--keep-files</i></code>
 
 
 
@@ -1139,7 +1167,7 @@ Keep the files used for deployment
 <tr>
 <td valign="top">
 
-`*--no-restart-subscribed-apps*`
+<code><i>--no-restart-subscribed-apps</i></code>
 
 
 
@@ -1155,7 +1183,7 @@ Do not restart subscribed applications that are updated during the deployment
 <tr>
 <td valign="top">
 
-`*--no-confirm*`
+<code><i>--no-confirm</i></code>
 
 
 
@@ -1171,7 +1199,7 @@ Use this option to turn off the manual confirmation for deleting the older versi
 <tr>
 <td valign="top">
 
-`*--do-not-fail-on-missing-permissions*`
+<code><i>--do-not-fail-on-missing-permissions</i></code>
 
 
 
@@ -1187,7 +1215,7 @@ Perform the deployment, even if required administrator permissions are missing f
 <tr>
 <td valign="top">
 
-`*--abort-on-error*`
+<code><i>--abort-on-error</i></code>
 
 
 
@@ -1203,7 +1231,7 @@ If an operation fails, the corresponding process is automatically aborted and ca
 <tr>
 <td valign="top">
 
-`*-m <module name\>. However, if you run a new operation for the same MTA, you will not receive an error message that there is an ongoing process for the MTA and ask you if you want to abort it.*`
+<code><i>-m &lt;module name&gt;. However, if you run a new operation for the same MTA, you will not receive an error message that there is an ongoing process for the MTA and ask you if you want to abort it.</i></code>
 
 
 
@@ -1222,7 +1250,7 @@ Deploy only the module with the specified name.
 <tr>
 <td valign="top">
 
-`*--all-modules*`
+<code><i>--all-modules</i></code>
 
 
 
@@ -1241,7 +1269,7 @@ Deploy all modules.
 <tr>
 <td valign="top">
 
-`*-r <resource name\>*`
+<code><i>-r &lt;resource name&gt;</i></code>
 
 
 
@@ -1260,7 +1288,7 @@ Deploy only the resource with the specified name
 <tr>
 <td valign="top">
 
-`*--all-resources*`
+<code><i>--all-resources</i></code>
 
 
 
@@ -1279,7 +1307,7 @@ Deploy all resources.
 <tr>
 <td valign="top">
 
-`*--verify-archive-signature*`
+<code><i>--verify-archive-signature</i></code>
 
 
 
@@ -1346,16 +1374,20 @@ Undeploy a Multitarget Application \(MTA\), or interact with an undeploy MTA ope
 Undeploy an MTA.
 
 ```
-`cf undeploy *<MTA\_ID\>*  
-[-u *<URL\>*] [-f] 
+cf undeploy [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
+     {"varname"}) <MTA_ID> (varname]  
+[-u [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
+     {"varname"}) <URL> (varname]] [-f] 
 [--delete-services] [--delete-service-keys] [--delete-service-brokers] [--no-restart-subscribed-apps] 
-[--do-not-fail-on-missing-permissions]`
+[--do-not-fail-on-missing-permissions]
 ```
 
 Interact with an undeploy MTA operation, for example, by performing an action.
 
 ```
-`cf undeploy [-i *<UNDEPLOY\_ID\>*] [-a *<ACTION\>*]`
+cf undeploy [-i [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
+     {"varname"}) <UNDEPLOY_ID> (varname]] [-a [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
+     {"varname"}) <ACTION> (varname]]
 ```
 
 
@@ -1427,7 +1459,7 @@ Description
 <tr>
 <td valign="top">
 
-`*-u* *<URL\>*`
+<code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code>
 
 
 
@@ -1443,7 +1475,7 @@ Specify the URL for the service end-point that is to be used for the undeploymen
 <tr>
 <td valign="top">
 
-`*-i* *<OPERATION\_ID\>*`
+<code><i>-i</i> <i class="varname">&lt;OPERATION_ID&gt;</i></code>
 
 
 
@@ -1459,7 +1491,7 @@ Specify the ID of the undeploy operation that you want to perform an action on
 <tr>
 <td valign="top">
 
-`*-a* *<ACTION\>*`
+<code><i>-a</i> <i class="varname">&lt;ACTION&gt;</i></code>
 
 
 
@@ -1475,7 +1507,7 @@ Specify the action to perform on the undeploy operation, for example, “abort�
 <tr>
 <td valign="top">
 
-`*-f* `
+<code><i>-f</i> </code>
 
 
 
@@ -1491,7 +1523,7 @@ Force completion of the undeploy operation without any system prompt or confirma
 <tr>
 <td valign="top">
 
-`*--delete-services* `
+<code><i>--delete-services</i> </code>
 
 
 
@@ -1507,7 +1539,7 @@ Delete any related services
 <tr>
 <td valign="top">
 
-`*--delete-service-brokers* `
+<code><i>--delete-service-brokers</i> </code>
 
 
 
@@ -1523,7 +1555,7 @@ Delete discontinued service brokers
 <tr>
 <td valign="top">
 
-`*--no-restart-subscribed-apps*`
+<code><i>--no-restart-subscribed-apps</i></code>
 
 
 
@@ -1539,7 +1571,7 @@ Do not restart subscribed applications that are updated during the deployment
 <tr>
 <td valign="top">
 
-`*--do-not-fail-on-missing-permissions*`
+<code><i>--do-not-fail-on-missing-permissions</i></code>
 
 
 
@@ -1555,7 +1587,7 @@ Perform the deployment, even if required administrator permissions are missing f
 <tr>
 <td valign="top">
 
-`*--abort-on-error*`
+<code><i>--abort-on-error</i></code>
 
 
 
@@ -1571,7 +1603,7 @@ If an operation fails, the corresponding process is automatically aborted and ca
 <tr>
 <td valign="top">
 
-`*--delete-service-keys*`
+<code><i>--delete-service-keys</i></code>
 
 
 
@@ -1599,8 +1631,9 @@ Display information about a Multitarget Application \(MTA\). The information dis
 ### Usage
 
 ```
-`cf mta MTA_ID  
-[-u *<URL\>*]`
+cf mta MTA_ID  
+[-u [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
+     {"varname"}) <URL> (varname]]
 ```
 
 
@@ -1672,7 +1705,7 @@ Description
 <tr>
 <td valign="top">
 
- `*-u* *<URL\>*` 
+ <code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code> 
 
 
 
@@ -1700,7 +1733,8 @@ Display information about all available Multitarget Applications \(MTA\).
 ### Usage
 
 ```
-`cf mtas [-u *<URL\>*]`
+cf mtas [-u [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
+     {"varname"}) <URL> (varname]]
 ```
 
 
@@ -1730,7 +1764,7 @@ Description
 <tr>
 <td valign="top">
 
- `*-u* *<URL\>*` 
+ <code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code> 
 
 
 
@@ -1758,7 +1792,7 @@ Display information about all **active** operations for Multitarget Applications
 ### Usage
 
 ```
-cf mta-ops [--mta *<MTA\>*] [-u *<URL\>*] [--last *<NUM\>*] [--all]
+cf mta-ops [--mta <MTA>] [-u <URL>] [--last <NUM>] [--all]
 ```
 
 
@@ -1788,7 +1822,7 @@ Description
 <tr>
 <td valign="top">
 
-`*-u* *<URL\>*`
+<code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code>
 
 
 
@@ -1804,7 +1838,7 @@ Specify the URL for the deployment-service end-point to use to obtain details of
 <tr>
 <td valign="top">
 
-`*--last* *<NUM\>*`
+<code><i>--last</i> <i class="varname">&lt;NUM&gt;</i></code>
 
 
 
@@ -1820,7 +1854,7 @@ List the last *<NUM\>* active MTA operations
 <tr>
 <td valign="top">
 
-`*--all*`
+<code><i>--all</i></code>
 
 
 
@@ -1836,7 +1870,7 @@ List all active MTA operations
 <tr>
 <td valign="top">
 
-`*– mta <MTA\>*`
+<code><i>– mta &lt;MTA&gt;</i></code>
 
 
 
@@ -1866,11 +1900,14 @@ Download the log files for one or more operations concerning Multitarget Applica
 You have the following usage options:
 
 -   ```
-`cf download-mta-op-logs -i *<OPERATION\_ID\>* [-u *<URL\>*] [-d *<DIRECTORY\>*]`
+cf download-mta-op-logs -i [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+     {"varname"}) <OPERATION_ID> (varname] [-u [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+     {"varname"}) <URL> (varname]] [-d [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+     {"varname"}) <DIRECTORY> (varname]]
 ```
 
 -   ```
-cf download-mta-op-logs --mta <MTA> [ --last *<NUM\>*] [ -u *<URL\>*] [ -d *<DIRECTORY\>*]
+cf download-mta-op-logs --mta <MTA> [ --last <NUM>] [ -u <URL>] [ -d <DIRECTORY>]
 ```
 
 
@@ -1904,7 +1941,7 @@ Description
 <tr>
 <td valign="top">
 
-`*-u* *<URL\>*`
+<code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code>
 
 
 
@@ -1920,7 +1957,7 @@ Specify the URL for the deployment-service end-point to use to obtain details of
 <tr>
 <td valign="top">
 
-`*-i* *<OPERATION\_ID\>*`
+<code><i>-i</i> <i class="varname">&lt;OPERATION_ID&gt;</i></code>
 
 
 
@@ -1936,14 +1973,14 @@ Specify the identity \(ID\) of the MTA operation whose logs you want to download
 <tr>
 <td valign="top">
 
-`*-d* *<DIRECTORY\>*`
+<code><i>-d</i> <i class="varname">&lt;DIRECTORY&gt;</i></code>
 
 
 
 </td>
 <td valign="top">
 
-Specify the path to the location where you want to save the downloaded MTA operation logs; by default, the location is `./mta-op-*<OPERATION\_ID\>*/`
+Specify the path to the location where you want to save the downloaded MTA operation logs; by default, the location is <code>./mta-op-<i class="varname">&lt;OPERATION_ID&gt;</i>/</code>
 
 
 
@@ -1952,7 +1989,7 @@ Specify the path to the location where you want to save the downloaded MTA opera
 <tr>
 <td valign="top">
 
-`*--mta**<MTA\>*`
+<code><i>--mta</i><i class="varname">&lt;MTA&gt;</i></code>
 
 
 
@@ -1971,7 +2008,7 @@ Specify the MTA whose logs you want to download.
 <tr>
 <td valign="top">
 
-`*--last**<NUM\>*`
+<code><i>--last</i><i class="varname">&lt;NUM&gt;</i></code>
 
 
 
@@ -1999,8 +2036,9 @@ Purge all configuration entries and subscriptions, which are no longer valid.
 ### Usage
 
 ```
-`cf purge-mta-config   
-[-u *<URL\>*]`
+cf purge-mta-config   
+[-u [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
+     {"varname"}) <URL> (varname]]
 ```
 
 Invalid configuration entries are often produced when the application that is providing configuration entries is deleted by the user without using the deploy-service, for example, the `cf delete` command . In this case, the configuration remains in the deploy-service database even though the corresponding application is no longer available. This could lead to a failure during subsequent attempts to resolve the configuration entries.
@@ -2032,7 +2070,7 @@ Description
 <tr>
 <td valign="top">
 
- `*-u* *<URL\>*` 
+ <code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code> 
 
 
 

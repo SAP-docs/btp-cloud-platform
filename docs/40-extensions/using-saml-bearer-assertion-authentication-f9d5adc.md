@@ -97,7 +97,7 @@ From the SAP S/4HANA Cloud side you need to maintain the communication settings 
 
     6.  In the *Technical Data* section, in the *Host Name* field, enter the URL of the Cloud Foundry application or service required by your scenario or consult your scenario configuration guide.
 
-        For example, the URL for an application deployed in SAP BTP in the Cloud Foundry environment is `https://*<application\_route\>*.cfapps.*<location\>*.hana.ondemand.com.` Where:
+        For example, the URL for an application deployed in SAP BTP in the Cloud Foundry environment is <code>https://<i class="varname">&lt;application_route&gt;</i>.cfapps.<i class="varname">&lt;location&gt;</i>.hana.ondemand.com.</code> Where:
 
         -   The domain depends on your location, in the European region for example, the domain is *cfapps.eu10.hana.ondemand.com*
         -   The application route is the single point of entry of an application. To view the application route, you can use the `cf apps` or `cf routes` cf CLI command.

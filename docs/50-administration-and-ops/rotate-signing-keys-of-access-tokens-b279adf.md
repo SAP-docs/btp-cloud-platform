@@ -42,7 +42,7 @@ A service instance of the SAP Authorization and Trust Management service has an 
 
     Call the *PATCH* method of the Security Settings API at the following endpoint:
 
-    `https://api.authentication.*<region\>*.hana.ondemand.com/sap/rest/authorization/v2/securitySettings`
+    <code>https://api.authentication.<i class="varname">&lt;region&gt;</i>.hana.ondemand.com/sap/rest/authorization/v2/securitySettings</code>
 
     Specify the tenant Id of the tenant that you want to work on with the parameter `tenantid`.
 

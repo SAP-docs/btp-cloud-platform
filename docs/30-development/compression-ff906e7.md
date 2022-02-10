@@ -6,7 +6,7 @@ The `compression` keyword enables you to define if the application router compre
 
 
 
-By default, resources larger than 1KB are compressed. If you need to change the compression size threshold, for example, to “2048 bytes”, you can add the optional property `“minSize”`: *<size\_in\_KB\>*, as illustrated in the following example.
+By default, resources larger than 1KB are compressed. If you need to change the compression size threshold, for example, to “2048 bytes”, you can add the optional property <code>“minSize”</code>: *<size\_in\_KB\>*, as illustrated in the following example.
 
 > ### Sample Code:  
 > ```

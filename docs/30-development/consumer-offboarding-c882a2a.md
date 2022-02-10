@@ -10,7 +10,7 @@ During the grace period
 
 -   the tenant access is blocked for the consumer and for the SaaS provider as well in the support use case.
 
--   the provider can restore the tenant in the*Landscape Portal*. See [Restore Tenants](restore-tenants-619c40e.md).
+-   the provider can restore the tenant in the*Landscape Portal*. See [Restore Consumer Tenants](restore-consumer-tenants-619c40e.md).
 
 
 After the end of the grace period, the tenant and all related data are irreversibly deleted and cannot be restored anymore.

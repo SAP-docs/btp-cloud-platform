@@ -10,7 +10,7 @@ You can change the location of the configuration file by using the `--config` op
 
 Upon successful login, the btp CLI creates a configuration file \(`config.json`\) in the default location of your user config directory:
 
--   Microsoft Windows: `C:\Users\*<username\>*\AppData\Roaming\SAP\btp\config.json`
+-   Microsoft Windows: <code>C:\Users\<i class="varname">&lt;username&gt;</i>\AppData\Roaming\SAP\btp\config.json</code>
 
 -   Apple macOS ; `~/Library/Application Support/.btp/config.json`
 
@@ -28,14 +28,16 @@ If you want the configuration file to be created in a different folder, you can 
 1.  Specify the location of the configuration file with your login command:
 
     ```
-    `btp --config "*<file path\>*" login`
+    btp --config "[/pandoc/div/div/horizontalrule/orderedlist/li/codeblock/code/varname
+         {"varname"}) <file path> (varname]" login
     ```
 
 2.  Specify this location either with the `BTP_CLIENTCONFIG` environment variable, or use the `--config` option with each subsequent command call.
 
     > ### Sample Code:  
     > ```
-    > `btp --config "*<file path\>*"`
+    > btp --config "[/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/code/varname
+    >      {"varname"}) <file path> (varname]"
     > ```
 
     > ### Note:  
@@ -155,7 +157,7 @@ btp --config "C:\my-cli-folder" list security/user
 
 [Enable Command Autocompletion](enable-command-autocompletion-46355fa.md "Use command autocompletion to save keystrokes when entering command actions, group-object combinations, and their parameters in the SAP BTP command line interface (btp CLI).")
 
-[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Change the target for command calls to a directory, a subaccount, or the global account, by using the btp target command.")
+[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Set the target for command calls to a subaccount, a directory, or the global account with the btp target command.")
 
 [Change the Output Format to JSON](change-the-output-format-to-json-dcb85b7.md "Use the --format json option to change the output format of a command to JSON.")
 

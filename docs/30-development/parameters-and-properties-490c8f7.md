@@ -16,12 +16,12 @@ The values of parameters and properties can be specified at design time, in the 
 
 ## Parameters
 
-Parameters are reserved variables that affect the behavior of the MTA-aware tools, such as the deployer. Module, resource, and dependency parameters have platform-specific semantics. To reference a parameter value, use the placeholder notation `${*<parameter\>*}`, for example, `${default-host}`.
+Parameters are reserved variables that affect the behavior of the MTA-aware tools, such as the deployer. Module, resource, and dependency parameters have platform-specific semantics. To reference a parameter value, use the placeholder notation <code>${<i class="varname">&lt;parameter&gt;</i>}</code>, for example, `${default-host}`.
 
 > ### Note:  
 > Both parameters and properties may have literal values, that is, strings, integers, and so on. This also applies to deeply nested structured values, such as arrays or maps.
 
-Parameters can be “system”, “write-only”, or “read-write” \(default value can be overwritten\). Each tool publishes a list of system parameters and their \(default\) values for its supported target environments. All parameter values can be referenced as part of other property or parameter value strings. To reference a parameter value, use the placeholder notation `${*<parameter\>*}`. The value of a system parameter cannot be changed in descriptors. Only its value can be referenced using the placeholder notation.
+Parameters can be “system”, “write-only”, or “read-write” \(default value can be overwritten\). Each tool publishes a list of system parameters and their \(default\) values for its supported target environments. All parameter values can be referenced as part of other property or parameter value strings. To reference a parameter value, use the placeholder notation <code>${<i class="varname">&lt;parameter&gt;</i>}</code>. The value of a system parameter cannot be changed in descriptors. Only its value can be referenced using the placeholder notation.
 
 Examples of common read-only parameters are `user`, `default-host`, `default-uri`. The value of a writable parameter can be specified within a descriptor. For example, a module might need to specify a non-default value for a target-specific parameter that configures the amount of memory for the module’s runtime.
 

@@ -21,10 +21,13 @@ You can pull \(remotely available\) changes of your software component to the se
 
 1.  Navigate to the detail page of a software component from the list and choose *Pull* in the page header.
 
-2.  Select how you want to pull the software component. By selecting *Latest*, the last remote commit will be pulled into the system. The option *By Commit ID* pulls the software component with the entered commit ID. Select *By Tag* if you want to pull a specific git tag, which has been assigned to a commit.
+2.  Select how you want to pull the software component. By selecting *Latest*, the last remote commit will be pulled into the system. Select *By Tag* if you want to pull a specific git tag, which has been assigned to a commit.
 
     > ### Note:  
     > To pull a specific tag, at least one tag has to exist on a commit on the currently active branch.
+
+    > ### Note:  
+    > For productive systems, a rollback mechanism is enabled, which allows the repository to automatically roll back to the last valid commit, if an invalid commit is triggered. The pull of invalid commits are allowed for development and test systems only. If only one out of multiple commits causes an issue, none of the commits will be pulled.
 
 3.  Display the list of all pulls, checkouts and other actions by navigating to the *History* tab.
 

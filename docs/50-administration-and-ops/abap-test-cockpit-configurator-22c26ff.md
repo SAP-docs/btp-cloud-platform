@@ -21,6 +21,7 @@ The `ABAP Test Cockpit (ATC) Configurator` enables you to maintain ATC configura
 2.  Change priorities.
 3.  Set priority levels that block or interrupt transport releases.
 4.  Set a default configuration.
+5.  Set handling of pseudo comments and pragmas.
 
 
 

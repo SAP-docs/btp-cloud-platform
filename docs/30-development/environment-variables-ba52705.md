@@ -721,7 +721,7 @@ By default, the application router sends the `X-Frame-Options` header with the v
 
 The following example shows how to disable the sending of the `X-Frame-Options` for a specific application, `myApp1`:
 
-`cf set-env *<myApp1\>* SEND_XFRAMEOPTIONS false`
+<code>cf set-env <i class="varname">&lt;myApp1&gt;</i> SEND_XFRAMEOPTIONS false</code>
 
 
 
@@ -733,7 +733,7 @@ The *<CJ\_PROTECT\_WHITELIST\>* specifies a list of origins \(for example, host 
 
 The following example shows how to add a host name to the click-jacking protection allowlist for the application, `myApp1`:
 
-`cf set-env *<myApp1\>* CJ_PROTECT_WHITELIST {*<protocol\>*, *<hostname\>*, *<portNr\>*}`
+<code>cf set-env <i class="varname">&lt;myApp1&gt;</i> CJ_PROTECT_WHITELIST {<i class="varname">&lt;protocol&gt;</i>, <i class="varname">&lt;hostname&gt;</i>, <i class="varname">&lt;portNr&gt;</i>}</code>
 
 The content is a JSON list of objects with the properties listed in the following table:
 
@@ -866,7 +866,7 @@ Port string or number containing a valid port.
 > ### Note:  
 > Matching is done against the properties provided. For example, if only the host name is provided, the allowlist service matches all schemata and protocols.
 
-`xs set-env *<myApp1\>* CJ_PROTECT_WHITELIST {*<\*.acme.com\>*}`
+<code>xs set-env <i class="varname">&lt;myApp1&gt;</i> CJ_PROTECT_WHITELIST {<i class="varname">&lt;*.acme.com&gt;</i>}</code>
 
 
 
@@ -879,7 +879,7 @@ When the application router receives an upgrade request, it verifies that the `o
 > ### Note:  
 > The structure of the *<WS\_ALLOWED\_ORIGINS\>* variable is the same as the variable *<CJ\_PROTECT\_WHITELIST\>*.
 
-`cf set-env *<myApp1\>* WS_ALLOWED_ORIGINS` \{*<\*.acme.com\>*\}
+<code>cf set-env <i class="varname">&lt;myApp1&gt;</i> WS_ALLOWED_ORIGINS</code> \{*<\*.acme.com\>*\}
 
 
 
@@ -889,7 +889,7 @@ When the application router receives an upgrade request, it verifies that the `o
 
 The `JWT_REFRESH` environment variable is used to configure the application router to refresh a JSON Web Token \(JWT\) for an application, by default, 5 minutes before the JWT expires, if the session is active.
 
-`cf set-env *<myApp1\>* JWT_REFRESH 1`
+<code>cf set-env <i class="varname">&lt;myApp1&gt;</i> JWT_REFRESH 1</code>
 
 If the JWT is close to expiration and the session is still active, a JWT refresh will be triggered *<JWT\_REFRESH\>* minutes before expiration. The default value is 5 minutes. To disable the automatic refresh, set the value of *<JWT\_REFRESH\>* to 0 \(zero\).
 
@@ -901,7 +901,7 @@ If the JWT is close to expiration and the session is still active, a JWT refresh
 
 The `UAA_SERVICE_NAME` environment variable enables you to configure an instance of the User Account and Authorization service for a specific application, as illustrated in the following example:
 
-`cf set-env *<myApp1\>* UAA_SERVICE_NAME *<myUAAServiceName\>*`
+<code>cf set-env <i class="varname">&lt;myApp1&gt;</i> UAA_SERVICE_NAME <i class="varname">&lt;myUAAServiceName&gt;</i></code>
 
 > ### Note:  
 > The details of the service configuration are defined in the *<VCAP\_SERVICES\>* environment variable, which is not configured by the user.
@@ -914,7 +914,7 @@ The `UAA_SERVICE_NAME` environment variable enables you to configure an instance
 
 The `INCOMING_CONNECTION_TIMEOUT` environment variable enables you to set the maximum time \(in milliseconds\) allowed for a client connection, as illustrated in the following example:
 
-`cf set-env *<myApp1\>* INCOMING_CONNECTION_TIMEOUT 60000`
+<code>cf set-env <i class="varname">&lt;myApp1&gt;</i> INCOMING_CONNECTION_TIMEOUT 60000</code>
 
 If the specified time is exceeded, the connection is closed. If `INCOMING_CONNECTION_TIMEOUT` is set to zero \(0\), the connection-timeout feature is disabled. The default value for `INCOMING_CONNECTION_TIMEOUT` is 120000 ms \(2 min\).
 
@@ -926,7 +926,7 @@ If the specified time is exceeded, the connection is closed. If `INCOMING_CONNEC
 
 The `TENANT_HOST_PATTERN` environment variable enables you to specify a string containing a regular expression with a capturing group. The requested host is matched against this regular expression. The value of the first capturing group is used as the tenant Id. as illustrated in the following example:
 
-`cf set-env *<myApp1\>* TENANT_HOST_PATTERN`
+<code>cf set-env <i class="varname">&lt;myApp1&gt;</i> TENANT_HOST_PATTERN</code>
 
 
 
@@ -936,7 +936,7 @@ The `TENANT_HOST_PATTERN` environment variable enables you to specify a string c
 
 The `COMPRESSION` environment variable enables you to configure the compression of resources before a response to the client, as illustrated in the following example:
 
-`cf set-env *<myApp1\>* COMPRESSION`
+<code>cf set-env <i class="varname">&lt;myApp1&gt;</i> COMPRESSION</code>
 
 Here is a complete example of the compression environment variable:
 
@@ -964,7 +964,7 @@ The `SECURE_SESSION_COOKIE` can be set to *true* or *false*. By default, the `Se
 
 The following example illustrates how to set the `SECURE_SESSION_COOKIE` environment variable:
 
-`cf set-env *<myApp1\>* SECURE_SESSION_COOKIE true`
+<code>cf set-env <i class="varname">&lt;myApp1&gt;</i> SECURE_SESSION_COOKIE true</code>
 
 
 
@@ -976,7 +976,7 @@ You can enable additional traces of the incoming and outgoing requests by settin
 
 The following example illustrates how to set the `REQUEST_TRACE` environment variable:
 
-`cf set-env *<myApp1\>* REQUEST_TRACE true`
+<code>cf set-env <i class="varname">&lt;myApp1&gt;</i> REQUEST_TRACE true</code>
 
 > ### Tip:  
 > This is in addition to the information generated by the Node.js package `@sap/logging` that is used by the XS advanced application router.
@@ -1144,7 +1144,7 @@ No
 </td>
 <td valign="top">
 
-A comma-separated list of HTTP methods that are allowed by the server, for example, `“GET”, “POST”`. If `allowMethods` is defined but no method is specified, the default `“GET”, “POST”, “HEAD”, “OPTIONS”` \(all\) applies.
+A comma-separated list of HTTP methods that are allowed by the server, for example, <code>“GET”, “POST”</code>. If `allowMethods` is defined but no method is specified, the default <code>“GET”, “POST”, “HEAD”, “OPTIONS”</code> \(all\) applies.
 
 > ### Tip:  
 > The specified methods must be upper-case, for example,`GET`. Matching of the method type is case-sensitive.
@@ -1294,7 +1294,7 @@ It is also possible to include the CORS configuration in either the `manifest.ym
 >                                 "protocol":"https"
 >                             }
 >                           ],
->           "uriPattern":**"^/route1$"**
+>           "uriPattern":"^/route1$"
 >         }
 > ```
 

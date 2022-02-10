@@ -94,6 +94,9 @@ When reading an object, an authorization check is taking place and certain data 
 
 If an authorization check resulted in a *Filtered* status, you can check which business roles expose the affected restriction type. One potential solution is that the business user that has been checked is not assigned to the required business role or that the required value has not been maintained yet.
 
+> ### Note:  
+> The trace entries are deleted automatically within a certain time frame.
+
 
 
 <a name="loio79b3c9b7701248fe83b81d4b15134e8d__supported_devices"/>

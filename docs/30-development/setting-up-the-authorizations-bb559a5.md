@@ -71,5 +71,5 @@ With the 2105 cloud release, you can access only your own jobs in the *Applicati
 **Related Information**  
 
 
-[Scheduling an Application Job](../50-administration-and-ops/scheduling-an-application-job-147d689.md "Find out how to schedule an Application Job.")
+
 

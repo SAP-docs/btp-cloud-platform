@@ -25,9 +25,12 @@ You have cloned a software component of type *Business Configuration* in the *Ma
     -   \(Option 1\) Use the *Manage Launchpad Spaces* and *Manage Launchpad Pages* app, assign the default transport request, and save the space and page. Then, assign the created space and page to a business role by using the *Maintain Business Roles* app. See [How to Create and Assign Spaces and Pages](https://help.sap.com/products/BTP/10fd1742ea914256abedb34bf15bd069/a2318ca9a44b474daadaad85feb2f364.html).
 
         > ### Note:  
-        > To use the *Manage Launchpad Spaces* and *Manage Launchpad Pages* app, your user must be assigned to business catalog `SAP_CORE_BC_UI_FLD` *User Interface - Fiori Launchpad Design*. See [Manage Launchpad Spaces](https://help.sap.com/products/BTP/10fd1742ea914256abedb34bf15bd069/ad119b284f8249cfb4c3fc86c76404c5.html?version=Cloud) and [Manage Launchpad Pages](https://help.sap.com/products/BTP/10fd1742ea914256abedb34bf15bd069/8a174e235493472095c0bcec957dfee0.html?version=Cloudhttps://help.sap.com/products/BTP/10fd1742ea914256abedb34bf15bd069/8a174e235493472095c0bcec957dfee0.html?version=Cloud).
+        > If you want to transport your changes, see [Transporting Changes to Spaces and Pages](https://help.sap.com/viewer/10fd1742ea914256abedb34bf15bd069/Cloud/en-US/cc9914d702be4ec0b71b8a74d0549b36.html).
 
         > ### Note:  
+        > To use the *Manage Launchpad Spaces* and *Manage Launchpad Pages* app, your user must be assigned to business catalog `SAP_CORE_BC_UI_FLD` *User Interface - Fiori Launchpad Design*. See [Manage Launchpad Spaces](https://help.sap.com/products/BTP/10fd1742ea914256abedb34bf15bd069/ad119b284f8249cfb4c3fc86c76404c5.html?version=Cloud) and [Manage Launchpad Pages](https://help.sap.com/products/BTP/10fd1742ea914256abedb34bf15bd069/8a174e235493472095c0bcec957dfee0.html?version=Cloudhttps://help.sap.com/products/BTP/10fd1742ea914256abedb34bf15bd069/8a174e235493472095c0bcec957dfee0.html?version=Cloud).
+
+        > ### Tip:  
         > The space and page name should start with ***z***.
 
     -   \(Option 2\) Use the *Maintain Business Roles* app. See [Step by Step: Create a New Space and Page for a Business Role](https://help.sap.com/products/BTP/10fd1742ea914256abedb34bf15bd069/ab05d9e086554a08af88d6482deb1bcb.html?version=Cloud).

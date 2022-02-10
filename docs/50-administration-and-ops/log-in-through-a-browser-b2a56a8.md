@@ -19,7 +19,7 @@ Login through a browser is only available if you use the default server URL that
 1.  Enter the following and press [ENTER\] to be prompted for the server URL and the subdomain of your global account:
 
     ```
-    `btp login --sso`
+    btp login --sso
     ```
 
     Alternatively, you can pass the server URL and the subdomain of your global account as parameters:
@@ -31,7 +31,7 @@ Login through a browser is only available if you use the default server URL that
     To suppress the automatic browser-opening, you can run the command as follows:
 
     ```
-    `btp login --sso manual`
+    btp login --sso manual
     ```
 
 2.  Authenticate directly at your identity provider through your browser.

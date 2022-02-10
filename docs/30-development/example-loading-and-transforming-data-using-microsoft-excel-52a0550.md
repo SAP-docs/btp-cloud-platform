@@ -22,7 +22,7 @@ After creating a DSN, you can use this DSN in an ODBC client tool of your choice
 
 6.  To display a preview of the data content in Excel, choose one of the CDS entities.
 
-7.  Choose either *LOAD* to load the data into an Excel sheet or choose *TRANSFORM DATA* to switch to the power query tool.
+7.  Choose either *Load* to load the data into an Excel sheet or choose *Transform Data* to switch to Power Query in Excel.
 
     When you load the data into an Excel sheet, you can always refresh the data if needed.
 

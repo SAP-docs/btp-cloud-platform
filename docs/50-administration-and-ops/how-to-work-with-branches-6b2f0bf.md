@@ -20,18 +20,15 @@ Find out how to create, check out and switch between different branches:
 
 1.  Upon opening the **Manage Software Components** app, you’ll see a list of all available software components. Select the one you would like to work on.
 
-2.  Scroll down to *Branching* to see a list of all available branches for your component. The table shows you which branch the different branches originally derived from and which branch is currently checked out. The first branch is always named 'main'. It is created when releasing a transport request for this software component using ABAP Development Tools. In the initial \(development\) system, the 'main' branch will not be visible until you've released a transport request. If you pull the software component on your test or production system afterwards, you'll see all branches even before you've released an ABAP transport request.
+2.  Scroll down to *Branching* to see a list of all available branches for your component. The table shows you which branch the different branches originally derived from and which branch is currently checked out. The first branch is always named 'main'. The main branch will be created directly with the creation of the software component. If a branch was successfully created, it should directly be visible on all other system instances.
 
-    The column *Delta Available* shows information about the currently active/checked-out branch. It indicates if the commit id which is currently imported in the local system instance is also the last remote commit. If that is the case, the column has the value *Synchronized \(no delta\)*. If the remote repository has a new commit available that is not yet cloned, it has the value *Yes \(Not Synced\)*. This information is only valid for the currently active branch.
+    The column *Delta Available* shows information about the currently active/checked-out branch. It indicates if the commit id which is currently imported in the local system instance is also the last remote commit. If that is the case, the column has the value *Synchronized \(no delta\)*. If the remote repository has a new commit available that is not yet pulled, it has the value *Yes \(Not Synced\)*. This information is only valid for the currently active branch.
 
-3.  Note that you need to pull the repository once before you can check out a branch. Pull the repository by clicking *Pull*.
+3.  Note that you need to clone the repository once before you can check out a branch. Clone the repository by clicking *Clone*.
 
-4.  To create a new branch, select the branch that you want to create it from and click *+*. Choose a name for your new branch and confirm with *Create*.
+4.  To create a new branch, click on *Create*. Choose a name for your new branch and select the parent branch from the drop down menu. Confirm with *Create*.
 
-    > ### Note:  
-    > A new branch initially has the same state as the branch it was created from.
-
-    You can also create a branch based on a specific commit state. This referenced commit must be available in the current system, i.e. included in the currently active branch. To do this, simply fill in the *Commit ID* in the *Create New Branch* popup. The commit ID can be provided in short or long format. Note that short commit IDs should only be used if the software component has already been cloned. Otherwise, the long ID needs to be used.
+    You can also create a branch based on a specific commit state. This referenced commit must be available in the current system, i.e. included in the currently selected branch. To do this, simply fill in the *Commit ID* in the *Create New Branch* popup. The commit ID can be provided in short or long format. Note that short commit IDs should only be used if the software component has already been cloned. Otherwise, the long ID needs to be used.
 
 5.  Refresh the page. Your new branch has now been created and added to the table.
 
@@ -48,6 +45,8 @@ Find out how to create, check out and switch between different branches:
 > **Branch Deletion**:
 > 
 > While it is possible to delete branches, please consider the possible negative effects of branch deletion, like losing the commit history.
+> 
+> Please make sure that the branch you are deleting is no longer in use on other systems. If you delete the branch while it's in use in other systems, this code can no longer be released there, even if there are open transport requests.
 > 
 > The branch will be deleted locally and also on the remote repository. After the branch deletion, a pull of this branch is no longer possible on all system instances.
 

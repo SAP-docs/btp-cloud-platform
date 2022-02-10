@@ -1,6 +1,6 @@
 <!-- loio1b5964da726d4cf287aaf1b1888012ef -->
 
-# Application System Dashboard
+# Application System Overview
 
 
 
@@ -46,5 +46,5 @@ If you need support or experience issues, please report an incident under compon
 
 ## More Information
 
-The application system dashboard is part of the technical monitoring cockpit. For more information about the technical monitoring cockpit, see the documentation at [https://help.sap.com/viewer/tmc\_cloud](https://help.sap.com/viewer/tmc_cloud).
+The application system overview is part of the technical monitoring cockpit. For more information about the technical monitoring cockpit, see the documentation at [https://help.sap.com/viewer/tmc\_cloud](https://help.sap.com/viewer/tmc_cloud).
 

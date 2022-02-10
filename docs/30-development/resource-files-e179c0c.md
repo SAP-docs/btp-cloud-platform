@@ -45,7 +45,7 @@ Mandatory
 </td>
 <td valign="top">
 
-The package descriptor is used by the Node.js package manager \(`npm`\) to start the application router; in the `“dependencies”: {} section` 
+The package descriptor is used by the Node.js package manager \(`npm`\) to start the application router; in the <code>“dependencies”: {} section</code> 
 
 
 

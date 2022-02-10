@@ -38,8 +38,8 @@ The example of the binding object you get after executing the cf CLI command, wi
 > "apiurl": "https://api.authenticat********avlab.ondemand.com",
 > "appName": "sample-saas-ap********-45",
 > "appUrls": "{\"getDependencies\":\"http**********.cf.stag**":0}",
-> **"clientid"**: "sb-sample-saas-*********************-broker!b4",
-> **"clientsecret"**: "riH*************0=",
+> "clientid": "sb-sample-saas-*********************-broker!b4",
+> "clientsecret": "riH*************0=",
 > "description": "Sample multitenant application",
 > "display_name": "Sample multitenant application",
 > "identityzone": "cfs******44",
@@ -47,7 +47,7 @@ The example of the binding object you get after executing the cf CLI command, wi
 > "sburl": "https://internal-xsu********ndemand.com",
 > "subaccountid": "3358efc9-*********10b456",
 > "tenantid": "34584*******711",
-> **"url"**: "https://cfs-3035-7**********avlab.ondemand.com",
+> "url": "https://cfs-3035-7**********avlab.ondemand.com",
 > "xsappname": "sample-saa******istry-broker!b4",
 > "zoneid": "34584*******f499711"
 > },
@@ -69,7 +69,7 @@ You use this token to manage the SAP SaaS Provisioning service APIs.
 
 ## **Request**
 
-**URI:** `*<THE URL OBTAINED FROM THE BINDING OBJECT "URL" FIELD\>*/oauth/token`
+**URI:** <code><i class="varname">&lt;THE URL OBTAINED FROM THE BINDING OBJECT "URL" FIELD&gt;</i>/oauth/token</code>
 
 **HTTP Method:** *POST*
 

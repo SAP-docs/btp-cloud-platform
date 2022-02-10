@@ -43,7 +43,7 @@ You’ve deployed an application in the Cloud Foundry environment of SAP BTP. Bu
     > 	"authenticationMethod": "route",
     > 	"logout": {
     > 		"logoutEndpoint": "/my/logout",
-    > 		**"logoutPage": "logout.html"**
+    > 		"logoutPage": "logout.html"
     > 	},
     > 	"routes": [{
     > 		"source": "^/hw/",
@@ -63,9 +63,9 @@ You’ve deployed an application in the Cloud Foundry environment of SAP BTP. Bu
     > 		"cacheControl": "no-cache, no-store, must-revalidate"
     >     },
     >     {
-    > 		**"source": "/logout.html",
+    > 		"source": "/logout.html",
     > 		"localDir": "resources",
-    > 		"authenticationType": "none**"
+    > 		"authenticationType": "none"
     > 	},
     >     {
     > 		"source": "^/(.*)",
@@ -103,7 +103,12 @@ You’ve deployed an application in the Cloud Foundry environment of SAP BTP. Bu
     >  "description": "My Sample Application with Application Router",
     >  "oauth2-configuration": {
     >                                            "token-validity": 900, 
-    >                                            "redirect-uris": [**"https://*<application\_hostname\>*.*<custom\_domain\>*.*<landscape\_domain\>*/\*\*"**
+    >                                            "redirect-uris": ["https://[/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/strong/varname
+    >      {"varname"}) <application_hostname> (varname].[/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/strong/span
+    >      {""}) [/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/strong/span/varname
+    >      {"varname"}) <custom_domain> (varname] (span].[/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/strong/span
+    >      {""}) [/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/strong/span/varname
+    >      {"varname"}) <landscape_domain> (varname] (span]/**"
     >                                                             ],
     >                                            "autoapprove": "true"
     > }
@@ -114,12 +119,12 @@ You’ve deployed an application in the Cloud Foundry environment of SAP BTP. Bu
     > The application domain is the first part of the application URL: For more information, see the related link.
     > 
     > > ### Example:  
-    > > `**myapplication**.cfapps.hana.ondemand.com`
+    > > <code><b>myapplication</b>.cfapps.hana.ondemand.com</code>
     > 
     > > ### Example:  
     > > For China \(Shanghai\) region:
     > > 
-    > > `**myapplication**.mycustomdomain.cn`
+    > > <code><b>myapplication</b>.mycustomdomain.cn</code>
 
 10. Update the `xsuaa` service instance that is bound to your application.
 

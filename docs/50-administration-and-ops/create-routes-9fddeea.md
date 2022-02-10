@@ -54,7 +54,7 @@ The following steps guide you through the procedure of creating routes by using 
     </td>
     <td valign="top">
 
-    From the dropdown menu, you can choose either a shared domain \(for example, the default `**cfapps.<region\>.hana.ondemand.com**`\) or a private domain that you've previously created using the CF CLI.
+    From the dropdown menu, you can choose either a shared domain \(for example, the default <code><b>cfapps.&lt;region&gt;.hana.ondemand.com</b></code>\) or a private domain that you've previously created using the CF CLI.
 
     From the dropdown menu, you can choose either a shared domain or a private domain that you've previously created using the CF CLI.
 
@@ -76,7 +76,7 @@ The following steps guide you through the procedure of creating routes by using 
 
     The host name is your desired subdomain. In the URL, it’s added before the selected domain, as follows:
 
-    `https://**<host name\>**.<domain>`
+    <code>https://<b>&lt;host name&gt;</b>.&lt;domain&gt;</code>
 
     The host name can contain up to 63 characters.
 
@@ -96,7 +96,7 @@ The following steps guide you through the procedure of creating routes by using 
 
     In addition to the domain and subdomain, you can also add a path. You can use paths if you want to create routes for multiple applications available for the same host name and domain. The path becomes part of the URL as follows:
 
-    `https://<host name>.<domain>**/<path\>**`
+    <code>https://&lt;host name&gt;.&lt;domain&gt;<b>/&lt;path&gt;</b></code>
 
 
     

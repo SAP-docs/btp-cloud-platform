@@ -20,15 +20,15 @@ To identify the largest or most rapidly growing tables, follow these steps:
 
 2.  In the group *Technical Monitoring*, you have two options for finding information about your system’s largest or most rapidly growing tables:
 
-    -   For a quick overview, you can choose the *Database System Dashboard* tile.
+    -   For a quick overview, you can choose the *Database System Overview* tile.
 
     -   For an in-depth analysis of your largest tables, you may as well directly choose the *Table Analysis* tile.
 
     ![](images/User_Story_TMC_Table_Analysis_Fiori_Launchpad_ded7083.png)
 
-    Let’s go with the *Database System Dashboard* first.
+    Let’s go with the *Database System Overview* first.
 
-3.  On the *Database System Dashboard*, you can see at a glance on the *Top Column Tables by Size* and *Top Column Tables by Growth* tiles if there are exceptionally large and fast-growing tables. Hovering over the tile charts will reveal actual sizes in the tooltip.
+3.  On the *Database System Overview*, you can see at a glance on the *Top Column Tables by Size* and *Top Column Tables by Growth* tiles if there are exceptionally large and fast-growing tables. Hovering over the tile charts will reveal actual sizes in the tooltip.
 
     > ### Note:  
     > In an empty ABAP Environment, the largest and most rapidly growing tables belong to the ABAP Platform itself and are therefore displayed under the name *ABAP Platform*.

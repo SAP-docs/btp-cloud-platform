@@ -42,6 +42,8 @@ This process enables you to configure custom fields that were predefined by your
     > If a change is made to the custom field after publishing, the status of the custom field will change to *Revised*. The changes in your custom field will only be visible in the system after selecting *Publish* once more.
     > 
     > You can only *Discard Changes* if the revised custom field hasn't been published yet. After publishing, you can still enable or disable specific code values in your custom field as described in step 5.
+    > 
+    > If a custom field is published or deleted, the extended application has to restart. This may result in a prolonged loading time of the extended application when it is launched for the first time.
 
     > ### Caution:  
     > When you publish a field with a certain length, you can't decrease the field length later on.

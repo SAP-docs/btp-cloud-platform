@@ -359,7 +359,7 @@ ABAP Test Cockpit
 </td>
 <td valign="top">
 
-  
+ [Manage API Snapshots](manage-api-snapshots-8dda6b6.md) 
 
 
 
@@ -495,7 +495,7 @@ Business Configuration
 </td>
 <td valign="top">
 
- [Maintain Business Configurations App](maintain-business-configurations-app-76384d8.md) 
+ [Maintain Business Configurations App](../30-development/maintain-business-configurations-app-76384d8.md) 
 
 
 
@@ -635,7 +635,7 @@ System Management
 </td>
 <td valign="top">
 
-  
+ [Maintain User Sessions](maintain-user-sessions-dde9087.md) 
 
 
 
@@ -669,7 +669,7 @@ Factory Calendar
 </td>
 <td valign="top">
 
-  
+ [Maintain Holidays](maintain-holidays-ad19373.md) 
 
 
 
@@ -703,7 +703,7 @@ Factory Calendar
 </td>
 <td valign="top">
 
-  
+ [Maintain Holiday Calendars](maintain-holiday-calendars-2964c20.md) 
 
 
 
@@ -737,7 +737,7 @@ Factory Calendar
 </td>
 <td valign="top">
 
-  
+ [Maintain Factory Calendars](maintain-factory-calendars-1bf9d1d.md) 
 
 
 
@@ -1866,6 +1866,44 @@ Development
 <tr>
 <td valign="top">
 
+Development
+
+
+
+</td>
+<td valign="top">
+
+ [Display Publishing Processes](display-publishing-processes-b851c7d.md) 
+
+
+
+</td>
+<td valign="top">
+
+ `SAP_BR_DEVELOPER` 
+
+*Developer*
+
+`SAP_BR_APPL_SUP_ENG_DEV_SUP`
+
+*Application Support Engineer - Development Support*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_A4C_BC_DEV_SUP_PC`
+
+*Development - Analysis and Support*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Technical Monitoring
 
 
@@ -1873,7 +1911,7 @@ Technical Monitoring
 </td>
 <td valign="top">
 
- [Application System Dashboard](application-system-dashboard-1b5964d.md) 
+ [Application System Overview](application-system-overview-1b5964d.md) 
 
 
 
@@ -1911,7 +1949,45 @@ Technical Monitoring
 </td>
 <td valign="top">
 
- [Database System Dashboard](database-system-dashboard-6162756.md) 
+ [System Workload](system-workload-ad68ab1.md) 
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+`SAP_BR_DEVELOPER`
+
+*Developer*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_TMC`
+
+*Technical Monitoring*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Technical Monitoring
+
+
+
+</td>
+<td valign="top">
+
+ [Database System Overview](database-system-overview-6162756.md) 
 
 
 

@@ -154,7 +154,7 @@ In the following, you see what John Doe's SAML 2.0 assertion looks like if *Defa
 >              ...
 >       </ds:Signature>
 >       <Subject>
->              <NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress">**john.doe@example.com**</NameID>
+>              <NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress">john.doe@example.com</NameID>
 >              <SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
 >                     <SubjectConfirmationData InResponseTo="a3h3d679ae07c8cj2ih97d22i7d79a0" NotOnOrAfter="2017-10-23T09:02:39.494Z" Recipient="https://authentication.example.hana.ondemand.com/saml/SSO/alias/company-prod-example"/>
 >              </SubjectConfirmation>
@@ -168,7 +168,7 @@ In the following, you see what John Doe's SAML 2.0 assertion looks like if *Defa
 >       ..
 >       </AuthnStatement>
 >       <AttributeStatement>
->              <Attribute Name="**Groups**">
+>              <Attribute Name="Groups">
 >                     <AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">iot-acme-monitoring</AttributeValue>
 >                     ...
 >              <Attribute Name="email">

@@ -2,13 +2,13 @@
 
 # Factory Calendar
 
-Get an overview of the ABAP classes and methods you can use to access calendar-related information.
+Get an overview of the ABAP classes, interfaces, and methods you can use to access calendar-related information.
 
 The calendar system comprises the definition of the following categories:
 
 -   Public holidays
 
--   Holiday calendars \(= a collection of public holidays\)
+-   Holiday calendars \(a collection of public holidays\)
 
 -   Factory calendars
 
@@ -17,15 +17,25 @@ A factory calendar is based on a country-specific holiday calendar and defines w
 
 Read on to learn about the set of data we deliver for these categories.
 
+> ### Note:  
+> Class `CL_SCAL_API` is still available. Starting with this release, preferably use class `CL_FHC_CALENDAR_RUNTIME` and the related interfaces.
+
+> ### Caution:  
+> The following HANA SQL functions are currently not supported:
+> 
+> -   ADD\_WORKINGDAYS
+> 
+> -   WORKDAYS\_BETWEEN
 
 
-<a name="loiof7cbd3c336f84dc09c85639c55b4309f__section_ihf_w5w_5lb"/>
 
-## Reading Factory Calendar-Related Information
+<a name="loiof7cbd3c336f84dc09c85639c55b4309f__section_uhb_1zv_gsb"/>
 
-Use class `CL_SCAL_API` that contains the following list of methods to access factory calendar information.
+## Creating a Runtime to Access Calendar-Related Information
 
-<a name="loiof7cbd3c336f84dc09c85639c55b4309f__table_onf_nhj_xlb"/>
+Use class `CL_FHC_CALENDAR_RUNTIME` that contains the following list of methods to create a runtime for holidays, holiday calendars, and factory calendar:
+
+<a name="loiof7cbd3c336f84dc09c85639c55b4309f__table_lqb_kzv_gsb"/>
 
 
 <table>
@@ -48,30 +58,14 @@ Description
 <tr>
 <td valign="top">
 
-DAY\_ATTRIBUTES\_GET
+create\_factorycalendar\_runtime
 
 
 
 </td>
 <td valign="top">
 
-Provides a list of days \(by date\) with their attributes. These attributes contain the information if the date is a working day or holiday, the name of the holiday, the weekday, and so on. See the code sample for this method below.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-DATE\_COMPUTE\_DAY
-
-
-
-</td>
-<td valign="top">
-
-Provides the name and number of the weekday for a specified date
+Provides a factory calendar runtime
 
 
 
@@ -80,30 +74,14 @@ Provides the name and number of the weekday for a specified date
 <tr>
 <td valign="top">
 
-FACTORY\_CALENDAR\_GET
+create\_holidaycalendar\_runtime
 
 
 
 </td>
 <td valign="top">
 
-Provides a list of factory calendars
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-HOLIDAY\_CALENDAR\_GET
-
-
-
-</td>
-<td valign="top">
-
-Provides a list of holiday calendars
+Provides a holiday calendar runtime
 
 
 
@@ -112,23 +90,65 @@ Provides a list of holiday calendars
 <tr>
 <td valign="top">
 
-FACTORY\_CALENDAR\_ATTRIBUTE\_GET
+create\_holiday\_runtime
 
 
 
 </td>
 <td valign="top">
 
-Provides the attributes of a factory calendar
+Provides a holiday runtime
 
 
 
 </td>
 </tr>
+</table>
+
+> ### Sample Code:  
+> ```lang-html
+> 
+> try.
+>    data(lo_fcal_run) = cl_fhc_calendar_runtime=>create_factorycalendar_runtime ( 
+> 			iv_factorycalendar_id = 'ExampleID' ).
+>       catch cx_fhc_runtime into data(lx_err).
+>         "exception handling
+> endtry.
+> 
+> ```
+
+
+
+<a name="loiof7cbd3c336f84dc09c85639c55b4309f__section_ihf_w5w_5lb"/>
+
+## Reading Factory Calendar-Related Information
+
+Use the before created runtime to access the following list of methods provided in the interface `IF_FHC_FCAL_RUNTIME` to get information about the factory calendar:
+
+<a name="loiof7cbd3c336f84dc09c85639c55b4309f__table_tjk_g1w_gsb"/>
+
+
+<table>
+<tr>
+<th valign="top">
+
+Method
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
 <tr>
 <td valign="top">
 
-DATE\_CONVERT\_TO\_FACTORYDATE
+convert\_date\_to\_factorydate
 
 
 
@@ -144,7 +164,7 @@ Converts a date to a factory date
 <tr>
 <td valign="top">
 
-FACTORYDATE\_CONVERT\_TO\_DATE
+convert\_factorydate\_to\_date
 
 
 
@@ -160,14 +180,14 @@ Converts a factory date to a date
 <tr>
 <td valign="top">
 
-START\_TIME\_DETERMINE
+get\_last\_factorydate
 
 
 
 </td>
 <td valign="top">
 
-Determines the start date and start time
+Provides the last factory date of the calendar
 
 
 
@@ -176,14 +196,158 @@ Determines the start date and start time
 <tr>
 <td valign="top">
 
-END\_TIME\_DETERMINE
+calc\_workingdays\_between\_dates
 
 
 
 </td>
 <td valign="top">
 
-Determines the end date and end time
+Calculates the number of working days between two dates
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+add\_workingdays\_to\_date
+
+
+
+</td>
+<td valign="top">
+
+Adds working days to a date
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+subtract\_workingdays\_from\_date
+
+
+
+</td>
+<td valign="top">
+
+Subtracts working days to a date
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+get\_validity\_start
+
+
+
+</td>
+<td valign="top">
+
+Provides the first valid date
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+get\_validity\_end
+
+
+
+</td>
+<td valign="top">
+
+Provides the last valid date
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+is\_workingday
+
+
+
+</td>
+<td valign="top">
+
+Check if a weekday is a working day
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+is\_holiday\_workingday
+
+
+
+</td>
+<td valign="top">
+
+Check if Holiday is a working day
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+get\_description
+
+
+
+</td>
+<td valign="top">
+
+Provides the description of the Calendar
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+get\_hcal\_assignment
+
+
+
+</td>
+<td valign="top">
+
+Provides the assigned Holiday calendar Runtime
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+get\_id
+
+
+
+</td>
+<td valign="top">
+
+Provides the ID of the Factory Calendar
 
 
 
@@ -192,29 +356,290 @@ Determines the end date and end time
 </table>
 
 > ### Sample Code:  
-> ```lang-abap
+> ```lang-html
+> 
 > try.
->         cl_scal_api=>day_attributes_get(
->           exporting
->             iv_factory_calendar = '01'
->             iv_holiday_calendar ='01'
->             iv_date_from = '20201001'
->             iv_date_to = '20201010'
->             iv_language = 'E'
->           importing
->             ev_returncode = data(lv_returncode)
->             et_day_attributes = data(lt_day_attributes) ).
->       catch cx_scal into data(lx_scal).
+>     data(lv_date) = lo_fcal_run->convert_factorydate_to_date(
+> 			iv_factorydate = '123' ).		
+>       catch cx_fhc_runtime into data(lx_run_err).
 >         "exception handling
->     endtry.
+> endtry.
 > 
 > ```
 
 
 
+<a name="loiof7cbd3c336f84dc09c85639c55b4309f__section_etr_jbw_gsb"/>
+
+## Reading Holiday Calendar-Related Information
+
+Use the before created runtime to access the following list of methods provided in the interface `IF_FHC_HCAL_RUNTIME` to get information about the holiday calendar:
+
+<a name="loiof7cbd3c336f84dc09c85639c55b4309f__table_ojt_qbw_gsb"/>
+
+
+<table>
+<tr>
+<th valign="top">
+
+Method
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+is\_holiday
+
+
+
+</td>
+<td valign="top">
+
+Check if a date is a holiday
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+get\_holiday
+
+
+
+</td>
+<td valign="top">
+
+Provides the assigned holiday for a date
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+calc\_holidays\_between\_dates
+
+
+
+</td>
+<td valign="top">
+
+Calculates the number of holidays between two dates
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+get\_validity\_start
+
+
+
+</td>
+<td valign="top">
+
+Provides the first valid date
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+get\_validity\_end
+
+
+
+</td>
+<td valign="top">
+
+Provides the last valid date
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+get\_description
+
+
+
+</td>
+<td valign="top">
+
+Provides the description of the calendar
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+get\_holiday\_assignments
+
+
+
+</td>
+<td valign="top">
+
+Get the assigned holidays from current holiday calendar
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+get\_id
+
+
+
+</td>
+<td valign="top">
+
+Provides the ID of the holiday calendar
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loiof7cbd3c336f84dc09c85639c55b4309f__section_q5d_2cw_gsb"/>
+
+## Reading Holiday-Related Information
+
+Use the before created runtime to access the following list of methods provided in the interface `IF_FHC_HOLIDAY_RUNTIME` to get information about the holidays:
+
+<a name="loiof7cbd3c336f84dc09c85639c55b4309f__table_fjt_hcw_gsb"/>
+
+
+<table>
+<tr>
+<th valign="top">
+
+Method
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+get\_holiday\_id
+
+
+
+</td>
+<td valign="top">
+
+Provides the ID of the holiday
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+get\_type
+
+
+
+</td>
+<td valign="top">
+
+Provides the type of the holiday
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+get\_class
+
+
+
+</td>
+<td valign="top">
+
+Provides the class of the holiday
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+get\_confession
+
+
+
+</td>
+<td valign="top">
+
+Provides the confession of the holiday
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+get\_text
+
+
+
+</td>
+<td valign="top">
+
+Provides the title and description of the holiday in a specific language
+
+
+
+</td>
+</tr>
+</table>
+
+
+
 <a name="loiof7cbd3c336f84dc09c85639c55b4309f__section_dzg_lxw_5lb"/>
 
-## Reading Additional Calendar-Related Information
+## Reading Additional Factory Calendar-Related Information
 
 Independently from the above factory calendar information, you can use class `CL_SCAL_UTILS`, which contains the following methods:
 

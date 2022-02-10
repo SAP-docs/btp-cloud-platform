@@ -18,7 +18,7 @@ When you're planning, for example, system capacities or facing performance issue
 
 1.  Log on to the SAP Fiori launchpad of your ABAP environment.
 
-2.  In the group *Technical Monitoring*, choose the *Application System Dashboard* tile.
+2.  In the group *Technical Monitoring*, choose the *Application System Overview* tile.
 
      ![](images/SUI_ABAP_Resource_Utilization_-_1_8c69539.png) 
 

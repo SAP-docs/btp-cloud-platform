@@ -23,7 +23,7 @@ Use this procedure to configure the service provider \(SAP Cloud for Customer\) 
 
 2.  Create a custom application to use it as a SAML2.0 service provider. Access the tenant's administration console for Identity Authentication by using the console's URL.
 
-    The URL has the `https://*<tenant ID\>*.accounts.ondemand.com/admin` pattern.
+    The URL has the <code>https://<i class="varname">&lt;tenant ID&gt;</i>.accounts.ondemand.com/admin</code> pattern.
 
     You can also get the URL from the Identity Authentication tenant registration e-mail.
 

@@ -17,7 +17,7 @@ You can use the `CL_APJ_RT_API` class to maintain application jobs. You can do t
 
 > ### Example:  
 > > ### Sample Code:  
-> > ```
+> > ```lang-abap
 > > 
 > >  CLASS z_cl_rt_api_demo DEFINITION
 > >   PUBLIC

@@ -26,7 +26,7 @@ Go to [SAP API Business Hub](https://api.sap.com/api/APISaasManagerService/resou
 
 ## Trying Out the APIs in Swagger
 
-To try out the APIs, go to `https://saas-manager.*<app domain\>*.*<landscape domain\>*/swagger-ui.html`.
+To try out the APIs, go to <code>https://saas-manager.<i class="varname">&lt;app domain&gt;</i>.<i class="varname">&lt;landscape domain&gt;</i>/swagger-ui.html</code>.
 
 > ### Example:  
 > If your account is running on the Europe \(Frankfurt\) region, use this URL:
@@ -97,7 +97,7 @@ Name
 </td>
 <td valign="top">
 
-`*<URL\>*/saas-manager/v1/application`
+<code><i class="varname">&lt;URL&gt;</i>/saas-manager/v1/application</code>
 
 
 
@@ -120,7 +120,7 @@ Name
 </td>
 <td valign="top">
 
-`*<URL\>*/saas-manager/v1/application/tenants/*<tenantId\>*/subscriptions`
+<code><i class="varname">&lt;URL&gt;</i>/saas-manager/v1/application/tenants/<i class="varname">&lt;tenantId&gt;</i>/subscriptions</code>
 
 
 
@@ -143,7 +143,7 @@ Name
 </td>
 <td valign="top">
 
-`*<URL\>*/saas-manager/v1/application/tenants/*<tenantId\>*/subscriptions`
+<code><i class="varname">&lt;URL&gt;</i>/saas-manager/v1/application/tenants/<i class="varname">&lt;tenantId&gt;</i>/subscriptions</code>
 
 
 
@@ -166,7 +166,7 @@ Name
 </td>
 <td valign="top">
 
-`*<URL\>*/saas-manager/v1/application/subscriptions`
+<code><i class="varname">&lt;URL&gt;</i>/saas-manager/v1/application/subscriptions</code>
 
 
 
@@ -189,7 +189,7 @@ Name
 </td>
 <td valign="top">
 
-`*<URL\>*/saas-manager/v1/application/tenants/*<tenantId\>*/subscriptions`
+<code><i class="varname">&lt;URL&gt;</i>/saas-manager/v1/application/tenants/<i class="varname">&lt;tenantId&gt;</i>/subscriptions</code>
 
 
 
@@ -212,7 +212,7 @@ Name
 </td>
 <td valign="top">
 
-`*<URL\>*/api/v2.0/jobs/*<jobId\>*`
+<code><i class="varname">&lt;URL&gt;</i>/api/v2.0/jobs/<i class="varname">&lt;jobId&gt;</i></code>
 
 
 
@@ -244,7 +244,7 @@ Name
 </td>
 <td valign="top">
 
-`*<URL\>*/saas-manager/v1/applications/*<appName\>*/subscription`
+<code><i class="varname">&lt;URL&gt;</i>/saas-manager/v1/applications/<i class="varname">&lt;appName&gt;</i>/subscription</code>
 
 
 

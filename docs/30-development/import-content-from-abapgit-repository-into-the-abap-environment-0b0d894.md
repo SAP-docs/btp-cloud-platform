@@ -22,6 +22,9 @@ Learn how to import content from your abapGit repository into your ABAP environm
 > ### Restriction:  
 > Please note that abapGIT is an open-source project owned by the community. Therefore, we do not provide support for abapGIT. We only support the abapGIT integration in the ABAP environment.
 
+> ### Restriction:  
+> While using the SRVC \(Service Consumption Model\) object in your development environment, several objects are generated. Since the SRVC object itself is currently not supported to be exported to your git repository via abapGit, this might lead to inconsistencies after the import of this repository to another ABAP system with abapGit. To resolve these inconsistencies, it is required to delete the generated artifacts as well as to recreate the SRVC object itself in the importing system.
+
 
 
 ## Procedure

@@ -33,28 +33,28 @@ The application router is configured in the `xs-app.json` file. The `package.jso
 
 1.  Create the application resource-file structure.
 
-    For example, `/path/*<myAppName\>*/`
+    For example, <code>/path/<i class="varname">&lt;myAppName&gt;</i>/</code>
 
 2.  Create a subfolder for the static Web resources module.
 
-    The subfolder for the Web-resources module must be located in the application root folder, for example, `/path/*<myAppName\>*/web`.
+    The subfolder for the Web-resources module must be located in the application root folder, for example, <code>/path/<i class="varname">&lt;myAppName&gt;</i>/web</code>.
 
     > ### Tip:  
     > The Web-resource module uses `@sap/approuter` as a dependency; the Web-resources module also contains the configuration and static resources for the application.
 
 3.  Create the subfolder for the application's static resources.
 
-    Static resources can, for example, include the following file and components: `index.html`, style sheets \(`.css` files\), images and icons. Typically, static resouces for a Web application are placed in a subfolder of the Web module, for example, `/path/*<myAppName\>*/web/resources`.
+    Static resources can, for example, include the following file and components: `index.html`, style sheets \(`.css` files\), images and icons. Typically, static resouces for a Web application are placed in a subfolder of the Web module, for example, <code>/path/<i class="varname">&lt;myAppName&gt;</i>/web/resources</code>.
 
 4.  Create the application-router configuration file.
 
-    The application router configuration file `xs-app.json` must be located in the application's Web-resources folder, for example, `/path/*<MyAppName\>*/web`.
+    The application router configuration file `xs-app.json` must be located in the application's Web-resources folder, for example, <code>/path/<i class="varname">&lt;MyAppName&gt;</i>/web</code>.
 
     > ### Sample Code:  
     > ```
-    > *<myAppName\>*
+    > <myAppName>
     > |- web/                         # Application descriptors
-    > **|  |- xs-app.json               \# Application routes configuration**
+    > |  |- xs-app.json               # Application routes configuration
     > |  |- package.json              # Application router details/dependencies
     > |  \- resources/ 
     > 
@@ -67,7 +67,7 @@ The application router is configured in the `xs-app.json` file. The `package.jso
     1.  Create the required destinations configuration.
 
         > ### Sample Code:  
-        > `/path/*<myAppName\>*/web/xs-app.json`.
+        > <code>/path/<i class="varname">&lt;myAppName&gt;</i>/web/xs-app.json</code>.
         > 
         > ```
         > { 
@@ -100,7 +100,7 @@ The application router is configured in the `xs-app.json` file. The `package.jso
         Every route configuration that forwards requests to a micro service has property destination. The destination is a name that refers to the same name in the destinations configuration. The destinations configuration is specified in an environment variable passed to the approuter application.
 
         > ### Sample Code:  
-        > `*<myAppName\>*/manifest.yml`
+        > <code><i class="varname">&lt;myAppName&gt;</i>/manifest.yml</code>
         > 
         > ```
         > - name: node-hello-world
@@ -126,10 +126,10 @@ The application router is configured in the `xs-app.json` file. The `package.jso
 
     > ### Sample Code:  
     > ```
-    > *<myAppName\>*
+    > <myAppName>
     > |- web/                         # Application descriptors
     > |  |- xs-app.json               # Application routes configuration
-    > **|  |- package.json              \# Application router details/dependencies**
+    > |  |- package.json              # Application router details/dependencies
     > |  \- resources/ 
     > 
     > ```

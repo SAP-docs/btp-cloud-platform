@@ -17,7 +17,7 @@ Retrieving of audit logs via the Audit Log Retrieval API is limited to the size 
 The user executing the procedure is expected to have the `Space Developer` role for the corresponding Space.
 
 > ### Note:  
-> For security reasons it is strongly recommended the `auditlog-management` Service-Instances are recreated at least every 90 days.
+> For security reasons, we strogly recommend you to recreate the `auditlog-management` Service-Instance bindings and service keys at least every 90 days.
 
 
 
@@ -146,11 +146,11 @@ The user executing the procedure is expected to have the `Space Developer` role 
     Request the OAuth access token via the OAuth client credentials flow, by executing an HTTP POST request with the following parameters:
 
     ```
-    **URL:** <value of "uaa.url">/oauth/token?grant_type=client_credentials
-    **Method:** POST
-    **Authentication Method:** Basic Authentication
-    **Username:** <Value of "uaa.clientid">
-    **Password:** <Value of "uaa.clientsecret">
+    URL: <value of "uaa.url">/oauth/token?grant_type=client_credentials
+    Method: POST
+    Authentication Method: Basic Authentication
+    Username: <Value of "uaa.clientid">
+    Password: <Value of "uaa.clientsecret">
     
     ```
 

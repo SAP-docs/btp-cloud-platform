@@ -20,11 +20,11 @@ The Identity Authentication service is closely integrated with SAP BTP, and it i
 
 1.  In the Identity Authentication tenant, access the administration console by using the console's URL. You need to use another browser, or incognito session of the same browser.
 
-    The URL has the `https://*<tenant ID\>*.accounts.ondemand.com/admin` pattern.
+    The URL has the <code>https://<i class="varname">&lt;tenant ID&gt;</i>.accounts.ondemand.com/admin</code> pattern.
 
     You can also get the URL from the Identity Authentication tenant registration e-mail.
 
-2.  You have to save the metadata of your Identity Authentication tenant on your local file system as an XML file. You can either find the tenant at `https://*<tenant ID\>*.accounts.ondemand.com/saml2/metadata` or access it via *Applications & Resources* \> *Tenant Settings* \> *SAML 2.0 Configuration*. Then choose the *Download Metadata File* link. You will need this metadata in **Step 5**.
+2.  You have to save the metadata of your Identity Authentication tenant on your local file system as an XML file. You can either find the tenant at <code>https://<i class="varname">&lt;tenant ID&gt;</i>.accounts.ondemand.com/saml2/metadata</code> or access it via *Applications & Resources* \> *Tenant Settings* \> *SAML 2.0 Configuration*. Then choose the *Download Metadata File* link. You will need this metadata in **Step 5**.
 
 3.  Open the SAP BTP cockpit and select the region in which your subaccount is hosted. Select the global account that contains your subaccount, and then choose the tile of your subaccount. For more information about regions, see [Regions and Hosts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html).
 
@@ -52,7 +52,7 @@ The Identity Authentication service is closely integrated with SAP BTP, and it i
 
 7.  In the Identity Authentication tenant, access the administration console by using the console's URL. You need to use another browser, or incognito session of the same browser.
 
-    The URL has the `https://*<tenant ID\>*.accounts.ondemand.com/admin` pattern.
+    The URL has the <code>https://<i class="varname">&lt;tenant ID&gt;</i>.accounts.ondemand.com/admin</code> pattern.
 
     You can also get the URL from the Identity Authentication tenant registration e-mail.
 

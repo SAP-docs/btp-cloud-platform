@@ -84,11 +84,11 @@ Use `--param "VALUE"` and escape quotes with `\"` within `VALUE`
 The command-line examples in this chapter are based on the following JSON:
 
 ```
-`{
+{
     "Key1": ["Value1"],
     "Key2": ["Value1", "Value2"]
 }
-`
+
 ```
 
 
@@ -166,7 +166,7 @@ For example, when creating a subaccount \(`btp create accounts/subaccount`\) wit
 You can also transfer JSON parameters by providing the full path to a JSON file. For example:
 
 ```
-`btp create services/binding --name my-binding-name --instance-name my-service-instance-name --parameters "<your-user-directory>/Documents/parameters.json"`
+btp create services/binding --name my-binding-name --instance-name my-service-instance-name --parameters "<your-user-directory>/Documents/parameters.json"
 ```
 
 **Related Information**  

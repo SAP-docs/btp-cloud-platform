@@ -2,7 +2,7 @@
 
 # Performing System Sizing
 
-With the *Perform System Sizing* app, you can calculate the required total memory, work process time, and CPU time in ABAP compute units for a custom application operated in the ABAP environment and use these calculations as a basis for ABAP system sizing.
+With the *Perform System Sizing* app, you can calculate the required total ABAP memory, the work process time, and the ABAP CPU time in ABAP compute units for a custom application operated in the ABAP environment. You can use these calculations as a basis for ABAP system sizing.
 
 
 
@@ -19,7 +19,7 @@ Before you start a system sizing, you've used the *Capture Request Statistics* a
 
 ## Context
 
-You want to use the captured request statistics as a basis to perform the system sizing of a production system. The *Perform System Sizing* app uses the captured request statistics to calculate the required total memory, work process time, and CPU time of the custom application and translates these KPIs into ABAP compute units \(ACUs\).
+You want to use the captured request statistics as a basis to perform the system sizing of a production system. The *Perform System Sizing* app uses the captured request statistics to calculate the required total ABAP memory, the work process time per minute, and the ABAP CPU time per minute for the custom application and translates these KPIs into ABAP compute units \(ACUs\).
 
 
 
@@ -35,7 +35,7 @@ You want to use the captured request statistics as a basis to perform the system
 
     The *Perform System Sizing* app opens with the captured request statistics of the profile that you've chosen.
 
-    When you open the app, all captured ABAP statistics records are selected for system sizing, and a system sizing for 10 process executions per minute is shown. Initially, 1 ABAP compute unit \(ACU\) is entered as available, but you can also enter a higher number of available ACUs.
+    When you open the app, all captured ABAP statistics records are selected for system sizing, and a system sizing for 10 process executions per minute is shown. Initially, 1 ABAP compute unit \(ACU\) is entered as available, but you can also enter a higher number of available ABAP compute units.
 
     ![](images/Perform_System_Sizing_App_9b12fe9.png)
 
@@ -45,11 +45,11 @@ You want to use the captured request statistics as a basis to perform the system
 
 5.  Deselect ABAP statistics records from the table that are not part of the test case definition \(see [Defining Test Cases for Sizing](defining-test-cases-for-sizing-0e95d18.md)\).
 
-6.  Check whether the required ABAP compute units for total memory, work process time, and CPU time are still below acceptable thresholds.
+6.  Check whether the required ABAP compute units for total ABAP memory, work process time, and ABAP CPU time are still below acceptable thresholds.
 
-    If total memory, work process time, and CPU time consume more than 70% of the available ACUs, a warning sign next to the calculated ACUs is shown, and an error sign if 100% or more is consumed.
+    If total ABAP memory, work process time, and ABAP CPU time consume more than 70% of the available ABAP compute units \(ACUs\), a warning sign next to the calculated ABAP compute units is shown, and an error sign if 100% or more is consumed.
 
-7.  If there are still warnings or errors, increase the number of available ACUs until all error or warning signs disappear and the calculated ACUs for total memory, work process time, and CPU time are displayed with a green OK icon.
+7.  If there are still warnings or errors, increase the number of available ABAP compute units until all error or warning signs disappear and the calculated ABAP compute units \(ACUs\) for total ABAP memory, work process time, and ABAP CPU time are displayed with a green OK icon.
 
     > ### Note:  
     > If you notice an entry in the captured ABAP statistics records that is responsible for a high workload and considerable resource consumption, don't simply accept a high number of required ABAP compute units for your business process. Consider reviewing the relevant request for optimization and, after the optimization, repeat the sizing.

@@ -105,12 +105,12 @@ For more information, see [Consuming Services in Other Environments Using the SA
     > For Windows OS \(Password grant type\):
     > 
     > ```
-    > curl -L -X POST "*<uaa\_url\>*/oauth/token" ^ 
+    > curl -L -X POST "<uaa_url>/oauth/token" ^ 
     > -H "Content-Type: application/x-www-form-urlencoded" ^ 
-    > -u "*<clientid\>*:*<clientsecret\>*" ^ 
+    > -u "<clientid>:<clientsecret>" ^ 
     > -d "grant_type=password" ^ 
-    > -d "username=*<user email\>*" ^ 
-    > -d "password=*<password\>*" 
+    > -d "username=<user email>" ^ 
+    > -d "password=<password>" 
     > 
     > ```
 
@@ -118,9 +118,9 @@ For more information, see [Consuming Services in Other Environments Using the SA
     > For Windows OS \(Client Credentials grant type\):
     > 
     > ```
-    > curl -L -X POST "*<uaa\_url\>*/oauth/token" ^ 
+    > curl -L -X POST "<uaa_url>/oauth/token" ^ 
     > -H "Content-Type: application/x-www-form-urlencoded" ^ 
-    > -u "*<clientid\>*:*<clientsecret\>*" ^ 
+    > -u "<clientid>:<clientsecret>" ^ 
     > -d "grant_type=client_credentials" ^
     > 
     > ```
@@ -129,12 +129,12 @@ For more information, see [Consuming Services in Other Environments Using the SA
     > For Mac OS \(Password grant type\):
     > 
     > ```
-    > curl -L -X POST '*<uaa\_url\>*/oauth/token' \ 
+    > curl -L -X POST '<uaa_url>/oauth/token' \ 
     > -H 'Content-Type: application/x-www-form-urlencoded' \ 
-    > -u '*<clientid\>*:*<clientsecret\>*' \ 
+    > -u '<clientid>:<clientsecret>' \ 
     > -d 'grant_type=password' \ 
-    > -d 'username=*<user email\>*' \
-    > -d 'password=*<password\>*'
+    > -d 'username=<user email>' \
+    > -d 'password=<password>'
     > 
     > ```
 
@@ -142,9 +142,9 @@ For more information, see [Consuming Services in Other Environments Using the SA
     > For Mac OS \(Client Credentials grant type\):
     > 
     > ```
-    > curl -L -X POST '*<uaa\_url\>*/oauth/token' \ 
+    > curl -L -X POST '<uaa_url>/oauth/token' \ 
     > -H 'Content-Type: application/x-www-form-urlencoded' \ 
-    > -u '*<clientid\>*:*<clientsecret\>*' \ 
+    > -u '<clientid>:<clientsecret>' \ 
     > -d 'grant_type=client_credentials' \ 
     > 
     > ```

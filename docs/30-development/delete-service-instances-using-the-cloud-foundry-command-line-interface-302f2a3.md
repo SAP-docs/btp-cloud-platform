@@ -22,7 +22,7 @@ You can use the Cloud Foundry Command Line Interface \(cf CLI\) to delete servic
 1.  Open a command line and log in.
 
     ```
-    cf l -a *<API endpoint\>*
+    cf l -a <API endpoint>
     ```
 
 2.  \(Optional\) List all services and bound apps in your org:

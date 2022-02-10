@@ -204,6 +204,22 @@ The actual **processing of an HTTP request** and its response is shown in the fo
 
 
 
+<a name="loiocef1ada754154d11b5701ab60e6ab412__section_mgn_tbx_nrb"/>
+
+## Documentation
+
+Find the documentation of the interfaces and classes
+
+-   CL\_WEB\_HTTP\_UTILITY
+-   CL\_HTTP\_SERVICE\_UTILITY
+-   CL\_WEB\_HTTP\_SERVER\_UTILITY
+-   IF\_WEB\_HTTP\_REQUEST
+-   IF\_WEB\_HTTP\_RESPONSE
+
+that were implemented for HTTP request and response processing, directly in place with the development objects in the corresponding SAP System \(transaction SE80\).
+
+
+
 <a name="loiocef1ada754154d11b5701ab60e6ab412__section_vb2_2nn_5mb"/>
 
 ## Related Information

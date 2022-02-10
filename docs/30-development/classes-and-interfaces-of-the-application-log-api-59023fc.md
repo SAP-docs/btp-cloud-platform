@@ -515,13 +515,34 @@ Some constants, such as available item categories and severities
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+CL\_BALI\_ITEM\_FILTER
+
+
+
+</td>
+<td valign="top">
+
+IF\_BALI\_ITEM\_FILTER
+
+
+
+</td>
+<td valign="top">
+
+Define an item filter for adding items to a log
+
+
+
+</td>
+</tr>
 </table>
 
-Exception Classes
+If one of the class methods can't be processed or can't return the requested results, an exception is raised. The following exceptions are possible, each of them inherit from exception class `CX_BALI_RUNTIME`:
 
-If one of the class methods cannot be processed or cannot return the requested results, an exception is raised. The following exceptions are possible, each of them inherit from exception class `CX_BALI_RUNTIME`:
-
-<a name="loio59023fcd95ec459d8259c1e2840b816a__table_nnl_1bb_xlb"/>
+<a name="loio59023fcd95ec459d8259c1e2840b816a__table_nnl_1bb_xlb"/>Exception Classes
 
 
 <table>

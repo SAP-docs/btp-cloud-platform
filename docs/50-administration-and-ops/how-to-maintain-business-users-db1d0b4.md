@@ -278,3 +278,8 @@ Business users are replicated from your central HR system. You can change user d
     </table>
     
 -   
+**Related Information**  
+
+
+[Defaulting of User Attributes](https://launchpad.support.sap.com/#/notes/3089625)
+

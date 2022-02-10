@@ -18,15 +18,16 @@ To be able to use the reusable components, you need to adapt the code that can b
 
     > ### Sample Code:  
     > ```lang-abap
-    > `
+    > 
     > "sap.ui5": {
     >         "resources": {
     >             "js": [],
     >             "css": []
     >         },
-    >         **"componentUsages": \{
-    >             "ChangedocReuseComponent": \{
-    >                 "name": "sap.nw.core.changedocs.lib.reuse.changedocscomponent"**
+    >         [/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/code/strong
+    >      {"emphasis"}) "componentUsages": {
+    >             "ChangedocReuseComponent": {
+    >                 "name": "sap.nw.core.changedocs.lib.reuse.changedocscomponent" (strong]
     >             }
     >         },
     >         "dependencies": {
@@ -45,21 +46,22 @@ To be able to use the reusable components, you need to adapt the code that can b
     >                     "lazy": false
     >                 }
     >             },
-    >             **"components": \{
-    >                 "sap.nw.core.changedocs.lib.reuse": \{
+    >             [/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/code/strong
+    >      {"emphasis"}) "components": {
+    >                 "sap.nw.core.changedocs.lib.reuse": {
     >                     "lazy": true
-    > **
+    >  (strong]
     >                 }
     >             }
     >         },
-    > `
+    > 
     > ```
 
 2.  Adapt your `<manifest.json>` file and add the component as section on your page:
 
     > ### Sample Code:  
     > ```lang-abap
-    > `
+    > 
     > "pages": {
     >     "ObjectPage|TravelProcessor": {
     >         "entitySet": "TravelProcessor",
@@ -67,23 +69,24 @@ To be able to use the reusable components, you need to adapt the code that can b
     >         "component": {
     >             "name": "sap.suite.ui.generic.template.ObjectPage"
     >         },
-    >         **"embeddedComponents": \{
-    >             "changedoccomponent": \{
+    >         [/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/code/strong
+    >      {"emphasis"}) "embeddedComponents": {
+    >             "changedoccomponent": {
     >                 "id": "changedoccomponent",
     >                 "componentUsage": "ChangedocReuseComponent",
-    >                 "title": "\{\{reuseTitle\}\}",
-    >                 "settings": \{
-    >                     "objectClass": \[
-    >                         "<MY\_CHANGE\_DOC\>"
-    >                                     \],
-    >                     "objectId": "\{parts: \[\{path: '<MY\_OBJECTID\>'\}\], formatter: 'sap.nw.core.changedocs.lib.reuse.changedocscomponent.arrayFormatter'\}",
-    >                     "startDate": "1900-01-01T00:00:00"**
+    >                 "title": "{{reuseTitle}}",
+    >                 "settings": {
+    >                     "objectClass": [
+    >                         "<MY_CHANGE_DOC>"
+    >                                     ],
+    >                     "objectId": "{parts: [{path: '<MY_OBJECTID>'}], formatter: 'sap.nw.core.changedocs.lib.reuse.changedocscomponent.arrayFormatter'}",
+    >                     "startDate": "1900-01-01T00:00:00" (strong]
     >                 }
     >             }
     >         }
     >     }
     > }
-    > `
+    > 
     > ```
 
     > ### Note:  
@@ -93,12 +96,12 @@ To be able to use the reusable components, you need to adapt the code that can b
 
     > ### Sample Code:  
     > ```lang-abap
-    > `
+    > 
     > …
     > #XTIT: Reuse component title
     > reuseTitle =Change Documents
     > …
-    > `
+    > 
     > ```
 
     > ### Note:  

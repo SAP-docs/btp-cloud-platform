@@ -14,7 +14,7 @@ Configure the Single Sign-On \(SSO\) to Identity Authentication in the SAP Cloud
 
     1.  Use the following URL to access the metadata for the Identity Authentication tenant:
 
-        `https://*<tenant ID\>*.accounts.ondemand.com/saml2/metadata`.
+        <code>https://<i class="varname">&lt;tenant ID&gt;</i>.accounts.ondemand.com/saml2/metadata</code>.
 
     2.  Save the content of the page locally on your file system as an XML file.
 

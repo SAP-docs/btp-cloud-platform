@@ -14,7 +14,7 @@ The SAP Authorization and Trust Management service uses the following secrets in
 
 -   [Rotating Instance Secrets](rotating-instance-secrets-8bfbbf5.md)
 
--   [Binding Parameters of X.509 Secrets](binding-parameters-of-x-509-secrets-3240307.md)
+-   [Binding Parameters of SAP Authorization and Trust Management Service](binding-parameters-of-sap-authorization-and-trust-management-service-3240307.md)
 
 -   [Rotate Signing Keys of Access Tokens](rotate-signing-keys-of-access-tokens-b279adf.md)
 

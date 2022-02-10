@@ -10,10 +10,10 @@ Get an overview of how to create a business role from a template.
 
 ## Context
 
-Instead of creating a business role from scratch, you can also create it from a business role template. A business role template is defined by SAP to make it easier for you to find the business catalogs that might be relevant for the corresponding role in your company. Usually, the business role templates have a very broad job profile to show all options.
+Instead of creating a business role from scratch, you can also create it from a business role template.
 
 > ### Note:  
-> SAP does not recommend using them in their full scope, as the business catalogs might even conflict from a business perspective. Instead, adjust them to the tasks of the role in your company by choosing only the relevant business catalogs.
+> A business role template is defined by SAP to make it easier for you to find the business catalogs that might be relevant for the corresponding role in your company. Usually, the business role templates have a very broad job profile to show all options. SAP does not recommend using them in their full scope because the business catalogs might conflict with the roles in your company. Instead, adjust them to the tasks of the role in your company by choosing only the relevant business catalogs. We also recommend that you only use business role templates for testing and not for generating productive roles.
 
 If changes to the template were included in an upgrade, the *Business Role Templates* app informs you about these changes and how they affect your business roles. For more information, see *Business Role Templates* \(Related Information\).
 

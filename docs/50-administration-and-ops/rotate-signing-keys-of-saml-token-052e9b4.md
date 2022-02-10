@@ -39,7 +39,7 @@ The signed SAML tokens are used to validate and authenticate the protocol messag
 
     Call the *PATCH* method of the Security Settings API at the following endpoint:
 
-    `https://api.authentication.*<region\>*.hana.ondemand.com/sap/rest/authorization/v2/securitySettings`
+    <code>https://api.authentication.<i class="varname">&lt;region&gt;</i>.hana.ondemand.com/sap/rest/authorization/v2/securitySettings</code>
 
     In the body, include a key ID and set `changeMode` to ***ADD*** in the SAML configuration settings.
 
@@ -68,9 +68,9 @@ The signed SAML tokens are used to validate and authenticate the protocol messag
     >     "samlConfigSettings": {
     >         "keyId": "my-new-key",
     >         "changeMode":"ADD",
-    >         "key": "*<key\_data\>*",
+    >         "key": "<key_data>",
     >         "passphrase": "",
-    >         "certificate": "*<certificate\_data\>*"
+    >         "certificate": "<certificate_data>"
     >     }
     > }
     > ```

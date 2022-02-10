@@ -28,7 +28,7 @@ HTTP/1.1 429 Too Many Requests
     "details": [
       {
         "code": 11007,
-        "message": "Maximum request rate limit is *<X\>* requests in *<Y\>* seconds"
+        "message": "Maximum request rate limit is <X> requests in <Y> seconds"
       }
     ]
   }

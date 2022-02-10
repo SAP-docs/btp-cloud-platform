@@ -4,16 +4,16 @@
 
 The self-restart of application jobs can be used to secure background jobs that are endangered to be canceled during lifecycle events of system infrastructure, such as a server restart, resource optimization, or periods of maintenance.
 
-A lifecycle event could result in a cancellation of running application jobs. As an application job owner, you want to be prepared to avoid such an immediate job cancellation. To be so, you can make use of the new self-restart functionality provided by ABAP class `CL_APJ_SCP_TOOLS`. Using this functionality, a developer can prepare his application job implementation to terminate and reschedule the job in a controlled way. For these purposes, the class `CL_APJ_SCP_TOOLS` provides three methods:
+A lifecycle event could result in a cancellation of running application jobs. As an application job owner, you want to be prepared to avoid such an immediate job cancellation. To do so, you can make use of the new self-restart functionality provided by ABAP class `CL_APJ_SCP_TOOLS`. Using this functionality, a developer can prepare his application job implementation to terminate and reschedule the job in a controlled way. For these purposes, the class `CL_APJ_SCP_TOOLS` provides the following methods:
 
 -   `IS_RESTART_REQUIRED`
 
 -   `SCHEDULE_ME_AGAIN`
 
+-   `TERMINATE_ME`
+
 -   `GET_OWN_RESTART_NUMBER`
 
-
-.
 
 Each implementation that can be executed as an application job should implement the following logic, as also shown in the programming example below:
 
@@ -22,6 +22,7 @@ Each implementation that can be executed as an application job should implement 
 -   If the check returns the value `abap_true`, the logic should entail the following:
     1.  The execution of cleanup actions in order to ensure that the current program execution can terminate without leaving inconsistencies.
     2.  The use of the method `SCHEDULE_ME_AGAIN` as described further below.
+    3.  The use of the method `TERMINATE_ME` to cancel the current application job.
 
 
 
@@ -54,6 +55,17 @@ The return parameter is `RV_SUCCESSFUL TYPE ABAP_BOOL`. It contains `abap_true` 
 
 
 
+<a name="loio76ce7b2660054eb7871f3281fc715bf6__section_s5v_vbx_3sb"/>
+
+## TERMINATE\_ME
+
+The method `TERMINATE_ME` cancels the current application job. The application job will receive the status *Failed*. This will also be reflected by messages in the application log.
+
+> ### Note:  
+> You can call this method implicitly by setting the parameter `IV_SELF_TERMINATION` of the method `SCHEDULE_ME_AGAIN` to `abap_true`.
+
+
+
 <a name="loio76ce7b2660054eb7871f3281fc715bf6__section_wvy_y2s_4qb"/>
 
 ## GET\_OWN\_RESTART\_NUMBER
@@ -72,7 +84,8 @@ IF cl_apj_scp_tools=>is_restart_required( ) = abap_true.
                            IMPORTING
                               es_new_job = new_job ).
 
-"  implement coding that finishes the job
+"  terminate the job
+   cl_apj_scp_tools=>terminate_me( ).
 ENDIF.
 ```
 

@@ -24,7 +24,7 @@ You have obtained an access token with the `$XSAPPNAME.event.read` scope.
 
 ## Request
 
-**URI:** `https://events-service.*<app domain\>*.*<landscape domain\>*/cloud-management/v1/events`
+**URI:** <code>https://events-service.<i class="varname">&lt;app domain&gt;</i>.<i class="varname">&lt;landscape domain&gt;</i>/cloud-management/v1/events</code>
 
 **HTTP Method:** *GET*
 

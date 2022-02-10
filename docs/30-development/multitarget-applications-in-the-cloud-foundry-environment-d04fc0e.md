@@ -8,7 +8,7 @@ The developers of the MTA describe the desired result using the MTA model, which
 
 You can create and deploy a Multitarget Application in the Cloud Foundry environment as described below by following different approaches that can yield the same result:
 
--   Using the SAP Web IDE for Full-Stack Development as described in [Developing Multitarget Applications](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/a71bf8281254489ea8be6e323199b304.html) - both the development descriptor `mta.yaml` and the deployment descriptor `mtad.yaml` are created automatically. The `mta.yaml` is generated when you create the application project, and the `mtad.yaml` file is created when you build the project.
+-   Using SAP Web IDE Full-Stack as described in [Developing Multitarget Applications](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/a71bf8281254489ea8be6e323199b304.html) - both the development descriptor `mta.yaml` and the deployment descriptor `mtad.yaml` are created automatically. The `mta.yaml` is generated when you create the application project, and the `mtad.yaml` file is created when you build the project.
 
     > ### Note:  
     > You may still need to edit the development descriptor.
@@ -215,7 +215,7 @@ Deployment descriptor
 </td>
 <td valign="top">
 
-A `YAML` file named `mtad.yaml` that contains a list of all entities which is created from the WEB IDE or from Multitarget Application Archive Builder tool or manually. This file is similar to Development Descriptor but is used from the MTA Deployer.
+A `YAML` file named `mtad.yaml` that contains a list of all entities which is created from SAP Web IDE Full-Stack or from SAP Business Application Studio or from Cloud MTA Build Tool or manually. This file is similar to Development Descriptor but is used from the SAP Cloud Deployment service..
 
 
 

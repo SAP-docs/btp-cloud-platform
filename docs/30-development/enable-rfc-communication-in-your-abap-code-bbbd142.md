@@ -49,6 +49,23 @@ Typically, you wil be using the destinations of the subaccount in which the ABAP
 > ### Note:  
 > The use of authentication type `PrincipalPropagation` for a destination is not supported in the ADT class runner.
 
+
+
+<a name="loiobbbd14283e984d6aa7b05062f197ef5b__section_kxv_zqm_drb"/>
+
+## Extended Connection Control
+
+The interface `IF_RFC_DEST` provides two methods allowing extended control of RFC connections. Using the methods `close_connection` and `reset_connection`, you can close or reset a connection respectively.
+
+-   `close_connection`: Closes the connection. Use this method as soon as the connection is not needed any more.
+-   `reset_connection`: Resets the server session. Using this method, you can re-use an existing connection.
+
+```
+lo_rfc_dest->reset_connection( ).
+lo_rfc_dest->close_connection( ).
+
+```
+
 **Related Information**  
 
 

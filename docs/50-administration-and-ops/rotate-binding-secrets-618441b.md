@@ -27,7 +27,7 @@ Service instances of the SAP Authorization and Trust Management service use diff
 
     Use the following syntax:
 
-    `cf unbind-service *<APP\_NAME\>* *<SERVICE\_INSTANCE\>*`
+    <code>cf unbind-service <i class="varname">&lt;APP_NAME&gt;</i> <i class="varname">&lt;SERVICE_INSTANCE&gt;</i></code>
 
     ```
     cf unbind-service my-app my-xsuaa-service
@@ -37,7 +37,7 @@ Service instances of the SAP Authorization and Trust Management service use diff
 
     Use the following syntax:
 
-    `cf bind-service *<APP\_NAME\>* *<SERVICE\_INSTANCE\>* [-c *<PARAMETERS\_AS\_JSON\>*]`
+    <code>cf bind-service <i class="varname">&lt;APP_NAME&gt;</i> <i class="varname">&lt;SERVICE_INSTANCE&gt;</i> [-c <i class="varname">&lt;PARAMETERS_AS_JSON&gt;</i>]</code>
 
     ```
     cf bind-service my-app my-xsuaa-service

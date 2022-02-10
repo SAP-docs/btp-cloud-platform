@@ -62,25 +62,25 @@ The client is available for 64-bit versions of the following operating systems:
 6.  Once you're logged in, familiarize yourself with the btp CLI, for example with [How to Work with the btp CLI](how-to-work-with-the-btp-cli-11d9f67.md), [Command Syntax of the btp CLI](command-syntax-of-the-btp-cli-69606f4.md), or simply by trying out a few commands, such as the following:
 
     ```
-    `btp list accounts/subaccount`
+    btp list accounts/subaccount
     ```
 
     ```
-    `btp list security/user`
+    btp list security/user
     ```
 
     ```
-    `btp get security/user "name@example.com"`
+    btp get security/user "name@example.com"
     ```
 
     ```
-    `btp get accounts/global-account"`
+    btp get accounts/global-account"
     ```
 
     > ### Tip:  
     > You can use the command autocompletion feature in the btp CLI to save keystrokes when entering command actions, group-object combinations, and their parameters in the command line. For more information, see [Enable Command Autocompletion](enable-command-autocompletion-46355fa.md).
 
-7.  If you’re going to work in a subaccount of this global account, consider setting the target to this subaccount using `btp target --subaccount *<ID\>*`. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md). Tip: Use `btp list accounts/subaccount` to display the subaccount IDs of the global account.
+7.  If you’re going to work in a subaccount of this global account, consider setting the target to this subaccount using <code>btp target --subaccount <i class="varname">&lt;ID&gt;</i></code>. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md). Tip: Use `btp list accounts/subaccount` to display the subaccount IDs of the global account.
 
 8.  To find out the current context, target, and version, use `btp`.
 
@@ -88,7 +88,7 @@ The client is available for 64-bit versions of the following operating systems:
 **Related Information**  
 
 
-[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Change the target for command calls to a directory, a subaccount, or the global account, by using the btp target command.")
+[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Set the target for command calls to a subaccount, a directory, or the global account with the btp target command.")
 
 [Command Syntax of the btp CLI](command-syntax-of-the-btp-cli-69606f4.md "Each command consists of the base call btp followed by a verb (the action), a combination of group and object, and parameters.")
 

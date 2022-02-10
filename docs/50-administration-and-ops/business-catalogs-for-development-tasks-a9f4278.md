@@ -319,5 +319,32 @@ Usage of the data preview in ABAP Development Tools for objects that are conside
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+*Extensibility - Custom Apps and Services*
+
+SAP\_CORE\_BC\_EXT\_TST
+
+
+
+</td>
+<td valign="top">
+
+-   Previewing UIs in SAP Business Application Studio and Microsoft Visual Studio Code
+-   Previewing service bindings
+-   Testing custom apps and custom services
+
+
+
+</td>
+<td valign="top">
+
+Only services that have their original in the current system
+
+
+
+</td>
+</tr>
 </table>
 

@@ -40,3 +40,8 @@ In addition, the app allows you to export the CDS views to spreadsheets.
 
 If you need support or experience issues, please report an incident under component `BC-DWB-DIC`.
 
+**Related Information**  
+
+
+[SAP Fiori Apps in the ABAP Environment](sap-fiori-apps-in-the-abap-environment-dbfaac8.md "In the SAP Fiori launchpad for the ABAP environment, you can use apps to help you with your tasks as administrator and developer.")
+

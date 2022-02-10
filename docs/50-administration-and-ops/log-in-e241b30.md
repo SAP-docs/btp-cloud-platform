@@ -135,9 +135,9 @@ Alternatively, you can also log in with single sign-on directly at your identity
     If you've logged in before, the server URL, the subdomain, and the user from the last login are suggested. You can then press [Enter\] to confirm, or type in different values.
 
     ```
-    `CLI server URL [https://cpcli.cf.eu10.hana.ondemand.com]>
-    `Subdomain [my-global-account]>
-    `User [name@example.com]>`
+    CLI server URL [https://cpcli.cf.eu10.hana.ondemand.com]>
+    Subdomain [my-global-account]>
+    User [name@example.com]>
     ```
 
 
@@ -149,7 +149,7 @@ Alternatively, you can also log in with single sign-on directly at your identity
 
 Upon successful login, the btp CLI creates a folder \(`btp`\) and a configuration file \(`config.json`\) in the default location of your user data directory:
 
--   Microsoft Windows: `C:\Users\*<username\>*\AppData\Roaming\SAP\btp\config.json`
+-   Microsoft Windows: <code>C:\Users\<i class="varname">&lt;username&gt;</i>\AppData\Roaming\SAP\btp\config.json</code>
 
 -   Apple macOS ; `~/Library/Application Support/.btp/config.json`
 
@@ -172,7 +172,7 @@ To change this location, use the `--config` option or the environmnet variable. 
 
 [Enable Command Autocompletion](enable-command-autocompletion-46355fa.md "Use command autocompletion to save keystrokes when entering command actions, group-object combinations, and their parameters in the SAP BTP command line interface (btp CLI).")
 
-[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Change the target for command calls to a directory, a subaccount, or the global account, by using the btp target command.")
+[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Set the target for command calls to a subaccount, a directory, or the global account with the btp target command.")
 
 [Change the Output Format to JSON](change-the-output-format-to-json-dcb85b7.md "Use the --format json option to change the output format of a command to JSON.")
 

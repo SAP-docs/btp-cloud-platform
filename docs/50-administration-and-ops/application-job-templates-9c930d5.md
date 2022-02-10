@@ -16,7 +16,7 @@ You can use this app to:
 
 -   Create multi-step templates
 -   Change the template parameters
--   Transport job templates: for more information, see [2999966](https://launchpad.support.sap.com/#/notes/2999966)
+-   Transport job templates, if supported: For more information, see [2999966](https://launchpad.support.sap.com/#/notes/2999966)
 -   Display a list of templates you have read access to
 -   Display the layer code of the template:
     -   *Global:* a template with this layer code is predelivered by SAP and therefore can't be edited or deleted

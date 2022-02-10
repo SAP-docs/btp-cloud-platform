@@ -645,7 +645,7 @@ Business configuration plays a major role in SaaS solutions. It refers to a pred
 
 To maintain these configuration options, you have to create dedicated apps using the ABAP RESTful Application Programming Model. See [Create a Business Configuration App for Factory Calendar Using the ABAP RESTful Application Programming Model](https://developers.sap.com/mission.abap-dev-factory-calendar.html).
 
-Using the business configurations API, you can register business configurations. These business configurations are then displayed in the list of all maintainable business configurations in the SAP Fiori App Maintain Business Configurations, unless the user has the necessary authorizations for the service of the business configuration. See [Maintain Business Configurations API](../50-administration-and-ops/maintain-business-configurations-api-508d406.md).
+Using the business configurations API, you can register business configurations. These business configurations are then displayed in the list of all maintainable business configurations in the SAP Fiori App Maintain Business Configurations, unless the user has the necessary authorizations for the service of the business configuration. See [Business Configuration Maintenance Object Cloud Platform API](business-configuration-maintenance-object-cloud-platform-api-508d406.md).
 
 
 
@@ -758,7 +758,7 @@ In the subaccount of test system TST, the subaccount for testing, you can assign
 
 **Create Business Configuration**
 
-As a test user, you can adjust business configuration objects in the *Maintain Business Configurations* app to change and influence the system behavior. See [Maintain Business Configurations App](../50-administration-and-ops/maintain-business-configurations-app-76384d8.md).
+As a test user, you can adjust business configuration objects in the *Maintain Business Configurations* app to change and influence the system behavior. See [Maintain Business Configurations App](maintain-business-configurations-app-76384d8.md).
 
 
 

@@ -45,7 +45,7 @@ As an administrator, you can create shadow users in your subaccount and you must
     > ### Note:  
     > To specify the last name and first name of the user, maintain the names in the identity provider that stores the user. This information is automatically added to the shadow users when the user logs on with their identity provider using a URL such as:
     > 
-    > `https://*<myapplication\>*.cfapps.*<region\>*.hana.ondemand.com/`
+    > <code>https://<i class="varname">&lt;myapplication&gt;</i>.cfapps.<i class="varname">&lt;region&gt;</i>.hana.ondemand.com/</code>
     > 
     > For example: `https://my-application.cfapps.eu10.hana.ondemand.com/`
     > 

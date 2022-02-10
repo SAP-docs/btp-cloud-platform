@@ -24,6 +24,8 @@ You can create a formation and assign to it the different SAP systems of the dif
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
+A formation is a logical grouping of SAP systems that can be extended in a single business scenario. Formations allow you to combine SAP systems, SAP applications, SAP BTP components, and runtimes to simplify the connectivity setup and to provide a unified view of all components required for the implementation of your extension scenario.
+
 You can create a formation and assign to it the different SAP systems of the different SAP solutions that you want to extend.
 
 Extension business cases often involve extending several SAP solutions at a time. For example, for a single business case you have to extend the functionality and/or the UI of:

@@ -49,5 +49,5 @@ Quickly get started with an enterprise account in the Kyma environment using the
 **Related Information**  
 
 
-[Available Plans in the Kyma Environment](../50-administration-and-ops/available-plans-in-the-kyma-environment-befe01d.md "Depending on your global account type, you will have access to a different plan that specifies cluster parameters for the Kyma environment.")
+[Available Plans in the Kyma Environment](../50-administration-and-ops/available-plans-in-the-kyma-environment-befe01d.md "Depending on your global account type, you have access to a different plan that specifies the cluster parameters for the Kyma environment.")
 

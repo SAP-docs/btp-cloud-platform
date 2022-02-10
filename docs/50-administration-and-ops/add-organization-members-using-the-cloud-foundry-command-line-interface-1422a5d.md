@@ -17,15 +17,17 @@ You can use the Cloud Foundry Command Line Interface \(cf CLI\) to add organizat
     > ### Note:  
     > You automatically have the Org Manager role in a subaccount that you created.
 
--   The e-mail addresses of the members that you want to add
+-   The e-mail addresses of the members that you want to add. The user must already exist in the connected identity provider. For more information, see [Managing Users and Their Authorizations Using the btp CLI](managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
 -   Download and install the cf CLI and log on to Cloud Foundry. For more information, see [Download and Install the Cloud Foundry Command Line Interface](download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md) and [Log On to the Cloud Foundry Environment Using the Cloud Foundry Command Line Interface](log-on-to-the-cloud-foundry-environment-using-the-cloud-foundry-command-line-interface-7a37d66.md).
 
 
 
 
+<a name="loio1422a5daa53d498f9270727135005884__context_oyv_xpy_3sb"/>
+
 ## Context
 
-When you logged on with a platform user in a custom platform identity provider using the Cloud Foundry Command Line Interface, you can't use the ***--origin*** option. This isn't possible with the current version of the Cloud Foundry Command Line Interface \(cf CLI\). For more information, see [Supported Tools and Services When Using Custom Identity Providers for Platform Users\[Feature Set A\]](supported-tools-and-services-when-using-custom-identity-providers-for-platform-users-feat-94ef515.md).
+This procedure is meant for the `OrgManager` and `OrgAuditor` roles. To add members with the `OrgUser` role, follow the procedure described in [Add Space Members Using the Cloud Foundry Command Line Interface](add-space-members-using-the-cloud-foundry-command-line-interface-d23ea8b.md).
 
 
 
@@ -49,4 +51,9 @@ To remove an org role from a user, enter the following string, specifying the us
 ```
 cf unset-org-role USERNAME ORG ROLE 
 ```
+
+**Related Information**  
+
+
+[Supported Tools and Services When Using Custom Identity Providers for Platform Users\[Feature Set A\]](supported-tools-and-services-when-using-custom-identity-providers-for-platform-users-feat-94ef515.md "Not all tools and services of SAP BTP support the use of custom identity providers with platform users. We provide a list of tools and services, which support this feature and any restrictions that apply.")
 

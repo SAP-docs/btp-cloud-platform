@@ -155,7 +155,7 @@ Consume newer versions \(especially patches\) of the underlying OS and JVM regul
     This is an example if you want to push from Docker Hub:
 
     ```
-    cf push *<APP-NAME\>* --docker-image *<REPO\>*/*<IMAGE\>*:*<TAG\>*
+    cf push <APP-NAME> --docker-image <REPO>/<IMAGE>:<TAG>
     ```
 
     Also pay attention to the section on private registries and Google Container Registry. [Push a Docker Image From Docker Hub](https://docs.cloudfoundry.org/devguide/deploy-apps/push-docker.html#public)

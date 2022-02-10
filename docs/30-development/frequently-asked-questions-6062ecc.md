@@ -98,7 +98,7 @@ You can abort the currently running deployment, using the command `cf <operation
 
 ### What to do in case of service creation failure?
 
-See [Service Create/Update/Delete Failures](troubleshooting-3530af7.md#loio3530af7ff2b449fbbc591dd3e2c0d151__section_etb_bgk_p3b)
+See [Service Create Failure](https://gad5158842f.us2.hana.ondemand.com/dtp/viewer/#/tree/2798/actions/40943:42021)
 
 
 
@@ -136,5 +136,5 @@ For more information, see [Service Binding Parameters](service-binding-parameter
 
 ### How to make sure that my archive is signed correctly by SAP and its content has not been changed ?
 
-Use the deployment option `*--verify-archive-signature*` as described in [Multitarget Application Commands for the Cloud Foundry Environment](../50-administration-and-ops/multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md).
+Use the deployment option <code><i>--verify-archive-signature</i></code> as described in [Multitarget Application Commands for the Cloud Foundry Environment](../50-administration-and-ops/multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md).
 

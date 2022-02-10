@@ -4,7 +4,7 @@
 
 Access to the system structure `SY` is restricted to read access to the following components:
 
-`BATCH`, `DBCNT`, `FDPOS`, `INDEX`, `LANGU`, `MSGID`, `MSGNO`, `MSGTY`, `MSGV1`, `MSGV2`, `MSGV3`, `MSGV4`, `SUBRC`, `TABIX`, and ``UNAME``.
+`BATCH`, `DBCNT`, `FDPOS`, `INDEX`, `LANGU`, `MSGID`, `MSGNO`, `MSGTY`, `MSGV1`, `MSGV2`, `MSGV3`, `MSGV4`, `SUBRC`, `TABIX`, and <code><code>UNAME</code></code>.
 
 > ### Note:  
 > Access to all other components is **not** allowed because they are related to either obsolete or unsupported features.

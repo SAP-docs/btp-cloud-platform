@@ -42,36 +42,34 @@ Trial accounts are intended for personal exploration, and not for production use
 
 1.  Go to the [SAP BTP website](https://www.sap.com/products/business-technology-platform/trial.html).
 
-2.  Register for a trial account by choosing *Start free trial*.
+2.  Under *Free Trial Demo*, register for a free trial account by choosing *Try: Trial demo for SAP BTP*.
 
 3.  Create a new SAP ID by entering the required details or, if you’ve one already, log in.
 
     If you created a new SAP ID, you receive a confirmation email asking you to activate your account.
 
-4.  Choose the link in the e-mail to confirm your address and activate your trial account.
+4.  Choose the link in the e-mail to confirm your address and activate your trial account. You’re redirected to the SAP BTP website.
 
-5.  You’re redirected to the SAP BTP website, where a dialog appears with your trial details. In that dialog, choose *Click here to start your trial!* to navigate to the SAP BTP cockpit.
+5.  To acces the cockpit, simply choose *Go to Your Trial Account*. 
 
-6.  To get started with the Cloud Foundry environment, simply choose *Enter Your Trial Account*. 
-
-7.  Verify your phone number.
+6.  Verify your phone number.
 
     > ### Note:  
     > A phone number can only be used once. It isn’t possible to use the same phone number to verify multiple trial accounts.
     > 
     > If you don't receive an SMS with a verification code within 5 minutes, try again. If the problem persists, contact **sso@sap.com** with your account ID, e-mail address, and phone number.
 
-8.  Once you've verified your phone number, log in to the cockpit again.
+7.  Once you've verified your phone number, log in to the cockpit again.
 
     You’re asked if you want to use your geo location for the recommendation of a region.
 
-9.  Select a region. If you accepted that your location is used, a region is recommended to you.
+8.  Select a region. If you accepted that your location is used, a region is recommended to you.
 
-10. Click *Create Account*.
+9.  Click *Create Account*.
 
     A global account, subaccount, org, and space are automatically created for you.
 
-11. Choose *Go to Space*.
+10. Choose *Go to Space*.
 
 
  <a name="loio82f9ff522f754e26ae89e0cd7ec7aa11"/>

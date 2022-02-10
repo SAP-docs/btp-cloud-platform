@@ -514,6 +514,10 @@ CX\_BALI\_NOT\_POSSIBLE
     -   Error during saving into the database
 
 
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED:
+
+    The memory of the log was released. The log can't be used
+
 
 
 
@@ -617,6 +621,10 @@ CX\_BALI\_NOT\_POSSIBLE
 -   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>NO\_AUTHORIZATION:
 
     No authorization to access the log
+
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED:
+
+    The memory of the log was released. The log can't be used
 
 
 
@@ -744,7 +752,11 @@ CX\_BALI\_NOT\_POSSIBLE
 
 -   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>ENTRY\_IS\_LOCKED:
 
-    The enqueue cannot be set, because the log is already locked
+    The enqueue can't be set, because the log is already locked
+
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED:
+
+    The memory of the log was released. The log can't be used
 
 
 
@@ -840,9 +852,14 @@ CX\_BALI\_NOT\_POSSIBLE
 </td>
 <td valign="top">
 
-ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>OBJECT\_NOT\_ALLOWED:
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>OBJECT\_NOT\_ALLOWED:
 
-Access to the log object is not allowed
+    Access to the log object is not allowed
+
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED:
+
+    The memory of the log was released. The log can't be used
+
 
 
 

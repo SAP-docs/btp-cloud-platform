@@ -22,6 +22,8 @@ You can use the cockpit to deploy a new application in the Cloud Foundry environ
 
     2.  \(Optional\) Edit the amount of memory and disk space available to each instance of your app, as well as the number of instances.
 
+        The amount of memory per instance that you assign, in this step or in the `manifest.yml` file during deployment, is the value that is metered when using the Cloud Foundry runtime service. For more information, see the examples in [Monitoring and Troubleshooting](https://help.sap.com/viewer/4287333baaa6413a8ece0a8ed1196af4/Cloud/en-US/2d6eb4d7181d4e8f8d7091158957b730.html).
+
         > ### Note:  
         > By default, each instance of a new app is assigned 1024 MB of memory and 512 MB of disk quota and each app starts with 1 instance. If you require more or less resources, edit the prefilled fields in the form to suit your needs.
 

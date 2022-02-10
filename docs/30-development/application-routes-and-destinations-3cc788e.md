@@ -39,7 +39,7 @@ Destinations can be defined in an environment variable for the `approuter` appli
 > ---
 > applications:
 > - name: node-hello-world
->   port: *<approuter-port\>*  #the port used for the approuter
+>   port: <approuter-port>  #the port used for the approuter
 >   memory: 100M
 >   path: web
 >   env:
@@ -47,7 +47,7 @@ Destinations can be defined in an environment variable for the `approuter` appli
 >       [
 >         {
 >           "name":"backend",
->           "url":"http://*<hostname\>*:*<node-port\>*",
+>           "url":"http://<hostname>:<node-port>",
 >           "forwardAuthToken": true
 >         }
 >       ]

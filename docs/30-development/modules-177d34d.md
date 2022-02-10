@@ -796,7 +796,7 @@ To choose a `binary_buildpack`, define it by using the following:
 
 ## Module-Specific Parameters
 
-Module parameters have platform-specific semantics. To reference a parameter value, use the placeholder notation `${*<parameter\>*}`, for example, `${default-host}`.
+Module parameters have platform-specific semantics. To reference a parameter value, use the placeholder notation <code>${<i class="varname">&lt;parameter&gt;</i>}</code>, for example, `${default-host}`.
 
 > ### Tip:  
 > It is also possible to declare metadata for parameters and properties defined in the MTA deployment description; the mapping is based on the parameter or property keys. For example, you can specify if a parameter is **required** \(`optional; false`\) or can be modified `overwritable: true`.

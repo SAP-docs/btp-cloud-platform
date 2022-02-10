@@ -138,7 +138,7 @@ All regions
 
 For detailed information about the APIs, including their specifications and endpoints, go to [SAP Core Services for SAP BTP](https://api.sap.com/package/SAPCloudPlatformCoreServices) on SAP API Business Hub.
 
-Alternatively, go to `https://events-service.*<app domain\>*.*<landscape domain\>*/swagger-index.html` where you can try out the APIs.
+Alternatively, go to <code>https://events-service.<i class="varname">&lt;app domain&gt;</i>.<i class="varname">&lt;landscape domain&gt;</i>/swagger-index.html</code> where you can try out the APIs.
 
 > ### Example:  
 > If your global account is running on the US East \(VA\) region, use this URL:

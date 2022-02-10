@@ -85,7 +85,7 @@ A request matches a particular route when its path contains the given pattern. T
 <tr>
 <td valign="top">
 
- `[httpMethods](routes-666eb55.md#loio666eb55032d849beabb906b18712509b__section_httpMethods)` 
+ <code><a href="routes-666eb55.md#loio666eb55032d849beabb906b18712509b__section_httpMethods">httpMethods</a></code> 
 
 
 
@@ -240,7 +240,7 @@ The name of the endpoint within the service to which the incoming request is for
 <tr>
 <td valign="top">
 
- `[localDir](routes-666eb55.md#loio666eb55032d849beabb906b18712509b__section_localDir)` 
+ <code><a href="routes-666eb55.md#loio666eb55032d849beabb906b18712509b__section_localDir">localDir</a></code> 
 
 
 
@@ -270,7 +270,7 @@ The directory from which application router serves static content \(for example,
 <tr>
 <td valign="top">
 
- `[replace](routes-666eb55.md#loio666eb55032d849beabb906b18712509b__section_replace)` 
+ <code><a href="routes-666eb55.md#loio666eb55032d849beabb906b18712509b__section_replace">replace</a></code> 
 
 
 
@@ -384,7 +384,7 @@ No
 </td>
 <td valign="top">
 
-The authorization scope required to access the target path. The scope itself is defined in the application's security descriptor \(`xs-security.json`\), for example, `“$XSAPPNAME.Display”` or `“$XSAPPNAME.Create”`.
+The authorization scope required to access the target path. The scope itself is defined in the application's security descriptor \(`xs-security.json`\), for example, <code>“$XSAPPNAME.Display”</code> or <code>“$XSAPPNAME.Create”</code>.
 
 
 

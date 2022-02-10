@@ -19,7 +19,7 @@ Instead of setting the *Additional Properties* as in the destination service app
 > Use the URL approach mainly for testing purposes.
 
 > ### Sample Code:  
-> ```
+> ```lang-abap
 > TRY.
 >     DATA(soap_destination) = cl_soap_destination_provider=>create_by_url( 
 > 						'https://<host>/sap/bc/srt/xip/sap/<provider>/000/<service>/<binding>').

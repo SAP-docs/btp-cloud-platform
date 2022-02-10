@@ -20,7 +20,7 @@ The service accumulates the information and provides reports in SAP BTP cockpit 
 
 For more information about the APIs, including their specifications and endpoints, go to [Resource Consumption](https://api.sap.com/api/APIUasReportingService/resource) for the list of all SAP Usage Data Management service APIs in SAP API Business Hub.
 
-Alternatively, go to `https://uas-reporting.*<app domain\>*.*<landscape domain\>*/swagger-ui.html` where you can try out the APIs.
+Alternatively, go to <code>https://uas-reporting.<i class="varname">&lt;app domain&gt;</i>.<i class="varname">&lt;landscape domain&gt;</i>/swagger-ui.html</code> where you can try out the APIs.
 
 > ### Example:  
 > If your account is running on the Europe \(Frankfurt\) region, use this URL:
@@ -30,7 +30,7 @@ Alternatively, go to `https://uas-reporting.*<app domain\>*.*<landscape domain\>
 > ### Remember:  
 > To call the core platform API methods, you must obtain an access token. See [Getting an Access Token for Resource Consumption APIs](getting-an-access-token-for-resource-consumption-apis-4bfe9c7.md).
 
-**Base URI:** `https://uas-reporting.cfapps.*<landscape domain\>*/reports/v1`
+**Base URI:** <code>https://uas-reporting.cfapps.<i class="varname">&lt;landscape domain&gt;</i>/reports/v1</code>
 
 Your global account admin has entitled the service plan for the SAP Usage Data Management service in your subaccount. See [SAP Usage Data Management Service - Service Plans](sap-usage-data-management-service-service-plans-c94c85e.md).
 

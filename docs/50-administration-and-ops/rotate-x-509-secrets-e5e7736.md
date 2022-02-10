@@ -21,11 +21,12 @@ When your private key is exposed or your certificates are about to expire, it's 
 
 ## Context
 
-> ### Tip:  
-> If the secret was configured with `certificate-pinning` was set to ***false***, you can skip unbinding and rebinding the application. Just use a new certificate with the same subject and issuer distinguished name \(DN\). The service saves the new validity date of the new certificate. Certificates with older validity dates are rejected.
-
 > ### Note:  
-> The service doesn't check for certificate revocation. The only way to revoke an X.509 secret is to rotate the secret.
+> The service doesn't check for certificate revocation. To stop the service from accepting a certificate that is still valid, delete the relevant bindings or service keys. As soon as the binding is deleted, the service stops accepting the certificate.
+> 
+> For bindings with self-managed certificates and the `certificate-pinning` parameter set to ***false***, you can rotate the secrets without deleting bindings. Just use a new certificate with the same subject and issuer distinguished name \(DN\). The service saves the new validity date of the new certificate.
+> 
+> For more information, see [Parameters for Self-Managed X.509 Certificates](parameters-for-self-managed-x-509-certificates-5168df6.md).
 
 
 
@@ -35,7 +36,7 @@ When your private key is exposed or your certificates are about to expire, it's 
 
     Use the following syntax:
 
-    `cf unbind-service *<APP\_NAME\>* *<SERVICE\_INSTANCE\>*`
+    <code>cf unbind-service <i class="varname">&lt;APP_NAME&gt;</i> <i class="varname">&lt;SERVICE_INSTANCE&gt;</i></code>
 
     ```
     cf unbind-service my-app my-xsuaa-service
@@ -45,7 +46,7 @@ When your private key is exposed or your certificates are about to expire, it's 
 
     Use the following syntax:
 
-    `cf bind-service *<APP\_NAME\>* *<SERVICE\_INSTANCE\>* [-c *<PARAMETERS\_AS\_JSON\>*]`
+    <code>cf bind-service <i class="varname">&lt;APP_NAME&gt;</i> <i class="varname">&lt;SERVICE_INSTANCE&gt;</i> [-c <i class="varname">&lt;PARAMETERS_AS_JSON&gt;</i>]</code>
 
     ```
     cf bind-service my-app my-xsuaa-service -c parameters.json
@@ -57,7 +58,7 @@ When your private key is exposed or your certificates are about to expire, it's 
 **Related Information**  
 
 
-[Binding Parameters of X.509 Secrets](binding-parameters-of-x-509-secrets-3240307.md "When binding applications or creating service keys for services instances of the SAP Authorization and Trust Management service (XSUAA) you can configure what kinds of X.509 certificates to use for secrets. The service can generate certificates for you or, if you already have your own public key infrastructure (PKI), you can use your own.")
+[Binding Parameters of SAP Authorization and Trust Management Service](binding-parameters-of-sap-authorization-and-trust-management-service-3240307.md "When binding applications or creating service keys for services instances of the SAP Authorization and Trust Management service (XSUAA), provide configuration parameters in JSON format.")
 
 [Binding Service Instances to Applications](../30-development/binding-service-instances-to-applications-e98280a.md "Use the SAP BTP cockpit or the Cloud Foundry Command Line Interface to bind service instances to applications:")
 
