@@ -110,7 +110,7 @@ The registration process has the following states displayed in the SAP BTP cockp
 
     The system appears in the integration list in the *Multi-Cloud Environment* screen area, and the status of the integration is displayed in the *Integration Status* column. To refresh the status of the process, choose the *Check Status* icon. Wait for the integration to finish.
 
-    ![](images/42b11059d84942e1bd3d2ad47256f775.image)
+    ![](images/Configure_Integration_in_the_Extension_Center_42b1105.png)
 
 8.  In the cockpit, check the status of the registration process. To do so, navigate to your global account, and on the *Systems* page, check if the status of the SAP System has changed to *Registered*.
 
