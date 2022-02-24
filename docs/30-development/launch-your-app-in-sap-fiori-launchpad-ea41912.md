@@ -8,38 +8,37 @@
 
 ## Prerequisites
 
-You have cloned a software component of type *Business Configuration* in the *Manage Software Components* app.
+-   Business role `SAP_BR_ADMINISTRATOR` is assigned to your user, which allows you to create a business role as well as spaces and pages. See [Tools and Prerequisites for Managing Spaces and Pages](https://help.sap.com/viewer/10fd1742ea914256abedb34bf15bd069/Cloud/en-US/a2638d49bf25487fb79a9d0296d3b8bd.html).
+-   Business role `SAP_BR_BPC_EXPERT` Configuration Expert - Business Process Configuration is assigned to your user, which authorizes you to use the *Export Customizing Transports* app.
+
+-   You have cloned a software component of type *Business Configuration* in the *Manage Software Components* app. See [How to Clone Software Components](../50-administration-and-ops/how-to-clone-software-components-18564c5.md) and [Business Configuration in SAP BTP ABAP Environment \(2\): BC Content Transport](https://blogs.sap.com/2021/10/01/business-configuration-in-sap-btp-abap-environment-2-bc-content-transport/).
+
+-   Spaces have been enabled for business users. See [Enabling Spaces](https://help.sap.com/viewer/10fd1742ea914256abedb34bf15bd069/Cloud/en-US/64a5e1675ce7413791a654d2228a90be.html "There are two parameters and one user setting that influence if the launchpad uses spaces or the home page for displaying the apps.") :arrow_upper_right:.
 
 
 
-![](images/Custom_UI_Using_BAS_Step_4_d8b027c.png)
+<a name="loioea41912278ea4525adc3ddd4e4f7988a__section_wzs_2ll_xrb"/>
 
-1.  As an administrator in the SAP Fiori launchpad of your ABAP system, create a business role with the *Maintain Business Roles* app. See [Maintain Business Roles](../50-administration-and-ops/maintain-business-roles-8980ad0.md).
-2.  Assign a business catalog and business user to the business role. See [Maintain Business Users](../50-administration-and-ops/maintain-business-users-e40e710.md).
-3.  In the *Export Customizing Transports* app, create a transport request of type *Customizing Request*. See [Export Customizing Transports](../50-administration-and-ops/export-customizing-transports-fa7366c.md).
+## Launching an Application
 
-    > ### Note:  
-    > Make sure that business catalog `SAP_CORE_BC_BCT_TRN_MNG_PC` and `SAP_CORE_BC_BCT_TRN_REL_PC` are assigned to your administrator user.
+![](images/Launch_Your_App_ABAP_d8b027c.png)
 
-4.  Create a launchpad space and page. See [Managing Launchpad Spaces and Pages](https://help.sap.com/products/BTP/10fd1742ea914256abedb34bf15bd069/e55f5cc8ccec490f83a00284659bce9f.html).
-    -   \(Option 1\) Use the *Manage Launchpad Spaces* and *Manage Launchpad Pages* app, assign the default transport request, and save the space and page. Then, assign the created space and page to a business role by using the *Maintain Business Roles* app. See [How to Create and Assign Spaces and Pages](https://help.sap.com/products/BTP/10fd1742ea914256abedb34bf15bd069/a2318ca9a44b474daadaad85feb2f364.html).
+1.  As an administrator in the SAP Fiori launchpad of your ABAP system, create a business role in the *Maintain Business Roles* app to provide business users access to your IAM app. See [Maintain Business Roles](../50-administration-and-ops/maintain-business-roles-8980ad0.md).
+2.  Add the business catalog that includes the IAM app to the business role. See [Develop an SAP Fiori Application UI and Deploy it to ABAP Using SAP Business Application Studio](develop-an-sap-fiori-application-ui-and-deploy-it-to-abap-using-sap-business-application-eaaeba4.md).
+3.  Assign business users to the business role. See [Maintain Business Users](../50-administration-and-ops/maintain-business-users-e40e710.md).
+4.  In the *Export Customizing Transports* app, create a transport request of type *Customizing Request*. See [Export Customizing Transports](../50-administration-and-ops/export-customizing-transports-fa7366c.md).
+5.  Create a launchpad space and page for your app. See [Managing Launchpad Spaces and Pages](https://help.sap.com/products/BTP/10fd1742ea914256abedb34bf15bd069/e55f5cc8ccec490f83a00284659bce9f.html).
+    -   \(Option 1\) Use the *Manage Launchpad Spaces* and *Manage Launchpad Pages* app to create a space and page for your app, assign the customizing transport request you've created earlier, and save the space and page. Then, assign the created space and page to a business role by using the *Maintain Business Roles* app. See [How to Create and Assign Spaces and Pages](https://help.sap.com/products/BTP/10fd1742ea914256abedb34bf15bd069/a2318ca9a44b474daadaad85feb2f364.html).
+    -   \(Option 2\) Use the *Maintain Business Roles* app to create a space and page for your app, and assign the space to your business role. To publish your changes, use the default customizing transport request you've created earlier. See [Step by Step: Create a New Space and Page for a Business Role](https://help.sap.com/products/BTP/10fd1742ea914256abedb34bf15bd069/ab05d9e086554a08af88d6482deb1bcb.html?version=Cloud).
 
-        > ### Note:  
-        > If you want to transport your changes, see [Transporting Changes to Spaces and Pages](https://help.sap.com/viewer/10fd1742ea914256abedb34bf15bd069/Cloud/en-US/cc9914d702be4ec0b71b8a74d0549b36.html).
-
-        > ### Note:  
-        > To use the *Manage Launchpad Spaces* and *Manage Launchpad Pages* app, your user must be assigned to business catalog `SAP_CORE_BC_UI_FLD` *User Interface - Fiori Launchpad Design*. See [Manage Launchpad Spaces](https://help.sap.com/products/BTP/10fd1742ea914256abedb34bf15bd069/ad119b284f8249cfb4c3fc86c76404c5.html?version=Cloud) and [Manage Launchpad Pages](https://help.sap.com/products/BTP/10fd1742ea914256abedb34bf15bd069/8a174e235493472095c0bcec957dfee0.html?version=Cloudhttps://help.sap.com/products/BTP/10fd1742ea914256abedb34bf15bd069/8a174e235493472095c0bcec957dfee0.html?version=Cloud).
-
-        > ### Tip:  
-        > The space and page name should start with ***z***.
-
-    -   \(Option 2\) Use the *Maintain Business Roles* app. See [Step by Step: Create a New Space and Page for a Business Role](https://help.sap.com/products/BTP/10fd1742ea914256abedb34bf15bd069/ab05d9e086554a08af88d6482deb1bcb.html?version=Cloud).
-
-5.  Enable spaces for your user. See [Enabling Spaces](https://help.sap.com/viewer/10fd1742ea914256abedb34bf15bd069/Cloud/en-US/64a5e1675ce7413791a654d2228a90be.html "There are two parameters and one user setting that influence if the launchpad uses spaces or the home page for displaying the apps.") :arrow_upper_right:. Optionally, you can personalize and adapt the user interface of your app for all users. See [Personalizing and Adapting Apps](https://help.sap.com/viewer/fd8f9fda63fa4c7a92bb1d4b4ac5582c/Cloud/en-US/e144c749695545eba5d5479a40357fa6.html "When running an app in the SAP Fiori launchpad, end users can personalize object pages and key users can adapt the user interface for all users of the app (for example, a team lead can add a field that&apos;s then available for all team members).") :arrow_upper_right:.
-6.  As a business user, you can launch the app.
+6.  In the *Manage Launchpad Pages* app, add your app to the page you've just created. See [Editing a Page](https://help.sap.com/products/BTP/10fd1742ea914256abedb34bf15bd069/7b42aad18c53439db2cce55719253674.html?version=Cloud).
+7.  \(Optional\) If you want to transport your changes, select your transport request and release the corresponding task in the *Export Customizing Transports* app. See [Working in the Export Customizing Transports App](../50-administration-and-ops/working-in-the-export-customizing-transports-app-cc16fd0.md) and [Transporting Changes to Spaces and Pages](https://help.sap.com/viewer/10fd1742ea914256abedb34bf15bd069/Cloud/en-US/cc9914d702be4ec0b71b8a74d0549b36.html).
+8.  As a business user, you can launch the app from the new space.
 
 **Related Information**  
 
+
+[Transporting Changes to Spaces and Pages](https://help.sap.com/viewer/10fd1742ea914256abedb34bf15bd069/Cloud/en-US/cc9914d702be4ec0b71b8a74d0549b36.html)
 
 [Tutorial: Integrate List Report into ABAP Fiori Launchpad](https://developers.sap.com/tutorials/abap-environment-abap-flp.html)
 

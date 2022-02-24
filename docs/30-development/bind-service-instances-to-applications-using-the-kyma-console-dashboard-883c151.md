@@ -1,6 +1,6 @@
 <!-- loio883c151e1dce4b859fcdd1b1cbc861eb -->
 
-# Bind Service Instances to Applications Using the Kyma Console
+# Bind Service Instances to Applications Using the Kyma Console/Dashboard
 
 You can bind the service instance to any workload running in the Kyma environment, such as a Function or a microservice.
 
@@ -8,7 +8,7 @@ You can bind the service instance to any workload running in the Kyma environmen
 
 ## Procedure
 
-1.  In the Kyma Console, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *Instances* and select the instance from the list.
+1.  In the Kyma Console/Dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *Instances* and select the instance from the list.
 
 2.  Click *Create Service Binding Usage*.
 
@@ -18,7 +18,7 @@ You can bind the service instance to any workload running in the Kyma environmen
 
     2.  *Set prefix for injected variables* - use a prefix if your Secret contains fields with generic names. This way, when you want to reuse the Secret, the fields will already have unique names.
 
-    3.  *Select existing credentials* - if you already have a set of credentials in place, you can add them to your binding. For details, see [Create Credentials Using the Kyma Console](create-credentials-using-the-kyma-console-87576fe.md).
+    3.  *Select existing credentials* - if you already have a set of credentials in place, you can add them to your binding. For details, see [Create Credentials Using the Kyma Console/Dashboard](create-credentials-using-the-kyma-console-dashboard-87576fe.md).
 
 
 4.  Confirm with *Bind Application*.

@@ -10,10 +10,10 @@ Set up your ABAP cloud project to connect to the ABAP system.
 
 ## Prerequisites
 
+-   You are assigned the developer role. See [Assigning the ABAP Developer User to the ABAP Developer Role](../20-getting-started/assigning-the-abap-developer-user-to-the-abap-developer-role-13b2cfb.md) and [Creating Service Keys](creating-service-keys-4514a14.md).
 -   You have downloaded and installed the front-end components of [ABAP Development Tools \(ADT\)](https://tools.hana.ondemand.com/#abap). See [Video Tutorial: Configure ABAP Development Tools.](https://www.youtube.com/watch?v=hgJgDTyB6Kg&list=PLkzo92owKnVxWqJSoFLGe1VRkzOs4Ucdr&index=5&t=0s) 
 
--   You are a member of the relevant space in the Cloud Foundry environment. See [Add Space Members Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/81d0b4dcfbc84016b6b3c1465d4272f4.html).
--   You are assigned the developer role **or** you have a service key in JSON format. See [Assigning the ABAP Developer User to the ABAP Developer Role](../20-getting-started/assigning-the-abap-developer-user-to-the-abap-developer-role-13b2cfb.md) and [Creating Service Keys](creating-service-keys-4514a14.md).
+-   You are a member of the relevant space in the Cloud Foundry environment, see [Add Space Members Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/81d0b4dcfbc84016b6b3c1465d4272f4.html), **or** you have a service key in JSON format, see [Creating Service Keys](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/4514a14ab6424d9f84f1b8650df609ce.html?version=Cloud).
 
 
 

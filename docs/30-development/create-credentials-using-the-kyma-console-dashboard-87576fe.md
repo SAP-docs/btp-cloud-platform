@@ -1,6 +1,6 @@
 <!-- loio87576fe254384ec88b5b2c98732cbc99 -->
 
-# Create Credentials Using the Kyma Console
+# Create Credentials Using the Kyma Console/Dashboard
 
 To access and use a given service, you need credentials.
 
@@ -10,7 +10,7 @@ To access and use a given service, you need credentials.
 
 ## Context
 
-When you use the Kyma Console to bind a service instance to the application, the system **automatically** creates a [ServiceBindingUsage](https://kyma-project-old.netlify.app/docs/components/service-catalog/#custom-resource-service-binding-usage) Kyma custom resource under the hood, along with the Kubernetes Secret resource with credentials necessary to access the service.
+When you use the Kyma Console/Dashboard to bind a service instance to the application, the system **automatically** creates a [ServiceBindingUsage](https://kyma-project-old.netlify.app/docs/components/service-catalog/#custom-resource-service-binding-usage) Kyma custom resource under the hood, along with the Kubernetes Secret resource with credentials necessary to access the service.
 
 You can add multiple Secrets that you can use when binding your service instances to applications. Follow the steps to create additional credentials for your service:
 
@@ -18,7 +18,7 @@ You can add multiple Secrets that you can use when binding your service instance
 
 ## Procedure
 
-1.  In the Kyma Console, go to *\{YOUR\_NAMESPACE\}* → *Service Management* → *Instances* → *Credentials*.
+1.  In the Kyma Console/Dashboard, go to *\{YOUR\_NAMESPACE\}* → *Service Management* → *Instances* → *Credentials*.
 
 2.  Click *Create Credentials*.
 

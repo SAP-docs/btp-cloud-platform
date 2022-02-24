@@ -24,7 +24,7 @@ On request, SAP Authorization and Trust Management service issues access, ID, an
 With a valid access or ID token, you can access a protected resource. Once an access or ID token expires, you can get new access and ID tokens with a refresh token. Once the refresh token expires, you must reauthenticate and request new access, ID, and refresh tokens.
 
 > ### Recommendation:  
-> Relaxing the token policy means that users reauthenticate less. However, increasing the token validity also means that if a malicious user manages to steal a token, that malicious user has access until the token expires. Keep token validity as short as possible.
+> Relaxing the token policy means that users reauthenticate less. However, increasing the token validity also means that if a malicious user manages to steal a token, that malicious user has access until the token expires. Keep token validity as short as possible, but not less than 30 minutes.
 
 
 

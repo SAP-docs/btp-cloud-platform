@@ -35,3 +35,8 @@ You can use the *Application Jobs* app to schedule and monitor application-relat
 8.  Finally, to schedule your application job, select *Schedule*.
 
 
+**Related Information**  
+
+
+[Creating an Application Log](creating-an-application-log-7911b76.md "")
+

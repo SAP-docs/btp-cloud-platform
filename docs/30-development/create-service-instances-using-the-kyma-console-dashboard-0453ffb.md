@@ -1,6 +1,6 @@
 <!-- loio0453ffbaad1b4352b801df2f8cabc0fa -->
 
-# Create Service Instances Using the Kyma Console
+# Create Service Instances Using the Kyma Console/Dashboard
 
 Create instances of services available in the Kyma environment.
 
@@ -120,7 +120,7 @@ Follow the steps to create a service instance:
 
 ## Procedure
 
-1.  In the Kyma Console, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *Catalog*.
+1.  In the Kyma Console/Dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *Catalog*.
 
 2.  Search for the service you want to instantiate.
 

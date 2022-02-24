@@ -64,7 +64,7 @@ The add-on administrator is responsible for everything related to the add-on pro
 
 -   Adjusting add-on descriptor file `addon.yml` for new versions
 
--   Registering add-on product and global account with SAP
+-   Registering add-on product for installation in global account for development and production
 
 -   Executing add-on build pipeline in Jenkins instance
 
@@ -91,19 +91,22 @@ DevOps Engineer
 </td>
 <td valign="top">
 
-The DevOps engineer is responsible for the configuration of the pipeline and implementation of the multitenant application that needs to be provided to enable the add-on as a SaaS solution.
+The DevOps engineer is responsible for the configuration of the pipeline and implementation of the multitenant application that needs to be deployed to enable the add-on as a SaaS solution.
 
 
 
 </td>
 <td valign="top">
 
--   Initial configuration of add-on pipeline, especially `config.yml`file in git repository
+-   Initial configuration of add-on pipeline, especially `config.yml` file in git repository
 
 -   Implementing pipeline extensions if necessary
 
--   Implementing and deploying multitenant application \(SaaS Registry and ABAP Solution Provider\). See [Developing Multitenant Applications in the ABAP Environment](developing-multitenant-applications-in-the-abap-environment-195031f.md).
+-   Implementing a multitenant application. See [Developing Multitenant Applications in the ABAP Environment](developing-multitenant-applications-in-the-abap-environment-195031f.md).
 
+-   Deploy multitenant application to provider subaccount in global account for development
+-   Subscribe to multitenant application from consumer subaccount in global account for development
+-   Deploy multitenant application to provider subaccount in global account for production
 
 
 

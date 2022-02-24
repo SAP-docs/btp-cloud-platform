@@ -13,7 +13,7 @@ Use your SAP Cloud Identity Services - Identity Authentication tenant as an iden
 > ### Note:  
 > Instead of manually exchanging SAML metadata, we recommend that you use the automatic method based on the OpenID Connect \(OIDC\) protocol.
 > 
-> For more information, see [Establish Trust and Federation Between UAA and Identity Authentication](establish-trust-and-federation-between-uaa-and-identity-authentication-161f8f0.md#loio161f8f0cfac64c4fa2d973bc5f08a894).
+> For more information, see [Establish Trust and Federation Between UAA and Identity Authentication](establish-trust-and-federation-between-uaa-and-identity-authentication-161f8f0.md).
 
  <a name="loioaedb8eed952b41c4b87c50b92bf651e4"/>
 

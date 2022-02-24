@@ -40,7 +40,7 @@ Default Value
 </th>
 <th valign="top">
 
-Allowed Inout
+Allowed Input
 
 
 

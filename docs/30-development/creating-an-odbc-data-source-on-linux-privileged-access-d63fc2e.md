@@ -1,8 +1,16 @@
 <!-- loiod63fc2e78bae4405a09a4e7f7ea9f819 -->
 
-# Creating an ODBC Data Source \(Linux\)
+# Creating an ODBC Data Source on Linux \(Privileged Access\)
 
-The unixODBC ODBC driver manager package provides configuration files that can be used to define an ODBC driver and data source names \(DSNs\).
+With the settings described here, you create an ODBC data source and DSN for a communication user.
+
+
+
+<a name="loiod63fc2e78bae4405a09a4e7f7ea9f819__context_c4w_rt5_msb"/>
+
+## Context
+
+The unixODBC software package provides an ODBC driver manager that can read from multiple configuration files. You can create configuration files that define the location of the ODBC driver and DSNs.
 
 
 

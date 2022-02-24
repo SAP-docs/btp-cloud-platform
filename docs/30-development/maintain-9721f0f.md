@@ -169,7 +169,7 @@ Users in the ABAP correction system COR might be locked and need to be unlocked 
 
 <!-- loioa35582346bff4914a5b4b0bcb776668c -->
 
-## Create Update for SaaS Solution
+## Create Add-On Update
 
 > ### gCTS Delivery:  
 > If you use gCTS for delivery, the process of creating an update for SaaS solutions is grouped into urgent corrections \(patch version\) and new releases \(release version\). See [Use Case 2: One Development and Correction Codeline in a 5-ABAP-System Landscape](use-case-2-one-development-and-correction-codeline-in-a-5-abap-system-landscape-4e53874.md).
@@ -444,20 +444,38 @@ Release versions are used to deliver new major, planned functional enhancements.
 
 <!-- loio7f6988a9a9f94845825d8c7ff66990fb -->
 
-## Trigger Add-On Product Build
+## Trigger Add-On Build Pipeline
 
 > ### gCTS Delivery:  
 > If you are using gCTS instead of add-ons for delivering software components into production systems, an add-on build is not required.
 
-Similar to the build of the initial add-on version, you, as an add-on administrator, need to trigger the execution of the configured ABAP environment pipeline for an add-on build.
+> ### Tip:  
+> For in-depth information about the ABAP environment pipeline, check out [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
 
 ![](images/Pipeline_add-on_build_d36cfe1.png)
+
+Similar to the build of the initial add-on version, as an add-on administrator, you need to trigger the execution of the configured ABAP environment pipeline for an add-on build.
+
+Based on the target vector published in the build stage, the integration tests stage of the ABAP environment pipeline creates add-on installation test system ATI. After the system and the add-on have been provisioned successfully, a provisioning mail is sent to the system administrator and the pipeline stage can be confirmed by the add-on administrator.
+
+Use add-on installation test system ATI to confirm the successful add-on installation before the new add-on version is published.
+
+You can also use add-on installation test system ATI for additional tests, similar to the steps described in [Test in the ABAP Environment SAP Fiori Launchpad](develop-test-build-3bf575a.md#loio8c5b4d76a05b4bed8df01937f4d8d487). For testing in a consumer-like environment, you can create tenants of type Partner Test using the Landscape Portal application. See [Use Test Tenants](use-test-tenants-dd7d8e8.md).
+
+> ### Note:  
+> Please make sure that the add-on product version to be published is properly tested before confirming the release decision. This includes testing in SAP Fiori launchpad and the ABAP Test Cockpit. See
+> 
+> [Test in the ABAP Environment SAP Fiori Launchpad](develop-test-build-3bf575a.md#loio8c5b4d76a05b4bed8df01937f4d8d487) and [Test in the ABAP Test Cockpit](develop-test-build-3bf575a.md#loiof0b71a1c959842258772c27d292c43b0).
+> 
+> Finally, the previously created target vector for the new add-on product version is published in production scope after the add-on administrator has confirmed the release decision in the Confirm stage.
+> 
+> After a successful build, all ABAP systems used are deprovisioned and the add-on is technically available for deployment to the ABAP environment.
 
  <a name="loio0a80d4c5c079435e9aca4eb9e6841de9"/>
 
 <!-- loio0a80d4c5c079435e9aca4eb9e6841de9 -->
 
-## Apply Update for SaaS Solution
+## Deploy Add-On Update
 
 > ### gCTS Delivery:  
 > To create a new software component or update an existing one, we recommend using the development and correction codeline in a 5-ABAP-System landscape. See [Use Case 2: One Development and Correction Codeline in a 5-ABAP-System Landscape](use-case-2-one-development-and-correction-codeline-in-a-5-abap-system-landscape-4e53874.md).

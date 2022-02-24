@@ -15,7 +15,7 @@ You can extend a given SAP system in the Kyma environment with the so-called [Fu
 Follow these instructions to get familiar with Functions and learn how to use them.
 
 > ### Note:  
-> Most tutorials contain steps that you can perform both on the Kyma Console and in the terminal after downloading the kubeconfig file with the cluster configuration.
+> Most tutorials contain steps that you can perform both on the Kyma Console/Dashboard and in the terminal after downloading the kubeconfig file with the cluster configuration.
 
 
 

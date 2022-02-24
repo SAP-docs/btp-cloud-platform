@@ -28,7 +28,7 @@ We recommend that you request your own Identity Authentication tenant, but you c
 
 For business users:
 
--   [Establish Trust and Federation Between UAA and Identity Authentication](establish-trust-and-federation-between-uaa-and-identity-authentication-161f8f0.md#loio161f8f0cfac64c4fa2d973bc5f08a894)
+-   [Establish Trust and Federation Between UAA and Identity Authentication](establish-trust-and-federation-between-uaa-and-identity-authentication-161f8f0.md)
 
 -   [Manually Establish Trust and Federation Between UAA and Identity Authentication](manually-establish-trust-and-federation-between-uaa-and-identity-authentication-7c6aa87.md#loio7c6aa87459764b179aeccadccd4f91f3)
 

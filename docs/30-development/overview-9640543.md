@@ -78,24 +78,29 @@ S-user
 <tr>
 <td valign="top">
 
-Set up a development account. See [Set Up a Development Account](develop-test-build-3bf575a.md#loio9f2150f2b15e414aacd46c1723ce48fb).
+Set up a global account for development. See [Set Up a Development Account](develop-test-build-3bf575a.md#loio9f2150f2b15e414aacd46c1723ce48fb).
 
 
 
 </td>
 <td valign="top">
 
-Get a partner development contract and a global development account
+Get a partner development account for discounted systems used for development, test, or demo purposes. These systems are provisioned in the global account for development.
 
 Required entitlements:
 
--   Services: abap/standard
+-   Services:
+    -   `abap/standard` and `abap/saas_oem`
+    -   Application runtime for approuter
+    -   abap-solution \(ABAP Solution Provider\)
+
 -   Applications:
-    -   Web access for testing
+    -   Landscape Portal
+    -   Web access for ABAP
     -   SAP Business Application Studio for UI development
 
 
-See [SAPPartnerEdge Test, Demo and Development Price List](https://partneredge.sap.com/en/library/assets/partnership/sales/order_license/pl_pl_part_price_list.html).
+The `saas-registry` and `xsuaa` service are available without entitlement. See [SAPPartnerEdge Test, Demo and Development Price List](https://partneredge.sap.com/en/library/assets/partnership/sales/order_license/pl_pl_part_price_list.html).
 
 
 
@@ -111,14 +116,14 @@ Operator
 <tr>
 <td valign="top">
 
-Set up a production account. See [Set Up a Production Account](develop-test-build-3bf575a.md#loio2e7b4b631e814de1b8fe3959af4105bc).
+Set up a global account for production. See [Set Up a Production Account](develop-test-build-3bf575a.md#loio2e7b4b631e814de1b8fe3959af4105bc).
 
 
 
 </td>
 <td valign="top">
 
-Get a partner contract and a global production account.
+Get a partner contract and a global account for production.
 
 Required entitlements:
 
@@ -412,13 +417,7 @@ Create a technical communication user to access AAKaaS.
 
 See [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
 
-Register the add-on product/global production account by creating an incident under component `BC-CP-ABA` and provide the following information:
-
--   Add-on product name = `addonProduct` in `addon.yml` file,e.g. `/NAMESPACE/NAME`
--   Global account ID provider
-    -   Feature Set A: Account ID in section *Global Account Info* on overview page in provider global account, e.g., 151b5fdc-58c1-4a55-95e1-467df2134c5
-    -   Feature Set B: Account ID in *Usage Analytics*
-
+Register the add-on product in the global account for development and production account as described in [Register Add-on Product for a Global Account](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#register-add-on-product-for-a-global-account).
 
 
 
@@ -502,7 +501,7 @@ User/Role
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="3">
+<td valign="top" rowspan="5">
 
 [Deploy](order-and-provide-975bd3e.md#loio4e35eb027f284b7fa6219bc70561fb4e)
 
@@ -541,16 +540,16 @@ DevOps engineer
 <tr>
 <td valign="top">
 
-Implement and deploy a multitenant application. See [Multitenant Application](order-and-provide-975bd3e.md#loiof3305f65648248318028e02c84375323).
+Implementation of a multitenant application and deployment to provider subaccount in global account for development. See [Multitenant Application](order-and-provide-975bd3e.md#loiof3305f65648248318028e02c84375323).
 
 
 
 </td>
 <td valign="top">
 
-Create the multitenant application with SaaS registry, XSUAA and ABAP Solution Provider subscription.
+Create the multitenant application with SaaS registry, XSUAA and ABAP Solution Provider subscription. Deploy to the provider subaccount with parameters used for development phase.
 
-See [Definition of the MTA Resources](definition-of-the-mta-resources-1764436.md).
+See[Development Descriptor](development-descriptor-767fb00.md) .
 
 
 
@@ -573,7 +572,7 @@ Access to Landscape Portal. See [Access to Landscape Portal](order-and-provide-9
 </td>
 <td valign="top">
 
-Subscribe to the Landscape Portal application.
+Subscribe to the Landscape Portal application in the global accounts for development and production.
 
 See [Accessing the Landscape Portal](accessing-the-landscape-portal-2e1e393.md).
 
@@ -583,6 +582,52 @@ See [Accessing the Landscape Portal](accessing-the-landscape-portal-2e1e393.md).
 <td valign="top">
 
 Operator
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Test multitenant application deployed to the global account for development.
+
+
+
+</td>
+<td valign="top">
+
+Subscribe to the SaaS solution from the consumer subaccount.
+
+
+
+</td>
+<td valign="top">
+
+DevOps engineer
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Deploy multitenant application to provider subaccount in global account for development.
+
+
+
+</td>
+<td valign="top">
+
+Deploy to the provider subaccount with parameters used for production phase. See [Production Descriptor](production-descriptor-38ff6d0.md).
+
+
+
+</td>
+<td valign="top">
+
+DevOps engineer
 
 
 
@@ -701,7 +746,7 @@ Operator
 <tr>
 <td valign="top">
 
-Configure consumer subaccount. See [Configure Consumer Subaccount \(Feature Set A\)](order-and-provide-975bd3e.md#loio3c44b19161d742a5a96576d64e70d505) and [Configure Consumer Subaccount \(Feature Set B\)](order-and-provide-975bd3e.md#loio6301a275af664613a51147e3451386e6).
+Configure consumer subaccount. See [Configure Consumer Subaccount \(Feature Set B\)](order-and-provide-975bd3e.md#loio6301a275af664613a51147e3451386e6).
 
 
 
@@ -940,7 +985,7 @@ Operator
 <tr>
 <td valign="top">
 
-Create an update. See [Create Update for SaaS Solution](maintain-9721f0f.md#loioa35582346bff4914a5b4b0bcb776668c).
+Create an update. See [Create Add-On Update](maintain-9721f0f.md#loioa35582346bff4914a5b4b0bcb776668c).
 
 
 
@@ -965,7 +1010,7 @@ Create a new patch version, support package version, or release/product version.
 <tr>
 <td valign="top">
 
-Trigger the add-on product build. See [Trigger Add-On Product Build](maintain-9721f0f.md#loio7f6988a9a9f94845825d8c7ff66990fb).
+Trigger the add-on product build. See [Trigger Add-On Build Pipeline](maintain-9721f0f.md#loio7f6988a9a9f94845825d8c7ff66990fb).
 
 
 
@@ -988,7 +1033,7 @@ Add-on administrator
 <tr>
 <td valign="top">
 
-Apply update for SaaS solution \(=add-on product\). See [Apply Update for SaaS Solution](maintain-9721f0f.md#loio0a80d4c5c079435e9aca4eb9e6841de9).
+Apply update for SaaS solution \(=add-on product\). See [Deploy Add-On Update](maintain-9721f0f.md#loio0a80d4c5c079435e9aca4eb9e6841de9).
 
 
 

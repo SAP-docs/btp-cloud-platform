@@ -41,8 +41,6 @@ If you are working in an enterprise account, you need to add quotas to the servi
 
 9.  On the following screen, increase the quotas in the *abap\_compute\_unit* service plan at least by 1 and in the *hana\_compute\_unit* service plan at least by 4.
 
-    The configurable ABAP runtime comes in blocks of 16 GB ABAP server memory, also referred to as ABAP compute unit. You can choose between 1, 2, 4, 6, or 8 ABAP compute units. The configurable SAP HANA memory comes in blocks of 16 GB database memory, also referred to as HANA compute units. You can choose between 4, 8, or 16 HANA compute units.
-
     The minimum configuration of 1 ABAP compute unit and 4 HANA compute units is sufficient in many cases to create one service instance for the ABAP environment. If you need more resources, choose higher quotas.
 
 10. Choose *Save*.
@@ -54,5 +52,5 @@ If you are working in an enterprise account, you need to add quotas to the servi
 
 ## Results
 
-After you have assigned an entitlement for the three plans with respective quotas to your subaccount, you can create an ABAP system. This is the point where you can then decide how many 16 GB blocks of ABAP compute units and HANA compute units you want to assign to your new system \(see [Creating an ABAP System](creating-an-abap-system-50b32f1.md)\).
+After you have assigned an entitlement for the three plans with respective quotas to your subaccount, you can create an ABAP system. This is the point where you can then decide how many blocks of ABAP compute units and HANA compute units you want to assign to your new system. See [Creating an ABAP System](creating-an-abap-system-50b32f1.md).
 

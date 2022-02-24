@@ -4,5 +4,5 @@
 
 Learn how you can use ODBC-based clients for loading and transforming data.
 
-After the setup of the ABAP system and the ODBC driver for ABAP, the SQL service and the ODBC driver can be consumed to provide data access from external ODBC-based clients.
+After the exposing an SQL service in the ABAP system and installing the ODBC driver for ABAP, the SQL service and the ODBC driver can be used to provide data access from external ODBC-based clients.
 

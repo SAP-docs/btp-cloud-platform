@@ -87,7 +87,7 @@ Depending on the purpose, the development objects to be included in the object l
 
 Changes to the release of a software component are delivered as add-on installation packages.
 
-The add-on installation package is used for the initial release of software components. It is used to deliver new and enhancements of existing functionalities. Each AOI package contains all the objects of the software component. That means, every object is included in the object list of the package. In contrast to CSP and CPK packages, the calculation of objects to be included in the delivery is not based on a delta calculation..
+The add-on installation package is used for the initial release of software components. It is used to deliver new and enhancements of existing functionalities. Each AOI package contains all the objects of the software component. That means, every object is included in the object list of the package.
 
 
 
@@ -97,7 +97,7 @@ Changes to the support package level of a software component are delivered as co
 
 The CSP is an ABAP support package used for major fixes of a software component version. These major fixes can be a larger collection of corrections but can also contain smaller functional enhancements. Whenever a CSP containing new objects such as bug fixes and/or new features is built, these objects are delivered in any subsequent AOI package.
 
-CSP packages are built with a delta process dependent on the previous state of the software component used for the build. That means, only the changes made since the last change of the support package level are included to the object list of the CSP.
+CSP packages are built with a delta process dependent on the previous state of the software component used for the build. That means, only the changes made since the last change of the support package level or release are included to the object list of the CSP.
 
 
 

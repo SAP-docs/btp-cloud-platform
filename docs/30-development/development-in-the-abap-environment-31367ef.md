@@ -63,7 +63,7 @@ With your ABAP applications, you can **consume**:
 
 [Manage Software Components](../50-administration-and-ops/manage-software-components-3dcf76a.md "You can use this app to create, display, clone, delete and configurate software components in your ABAP environment landscape. Moreover, you can pull (import) changes from the central software component into other instances.")
 
-[Tutorials](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-cloud-platform/sap-cloud-platform-abap-environment)
+[Tutorials](loio31367ef6c3e947059e0d7c1cbfcaae93)
 
 [Video Tutorials](https://www.youtube.com/playlist?list=PLkzo92owKnVxWqJSoFLGe1VRkzOs4Ucdr)
 

@@ -10,7 +10,7 @@ In the Kyma environment, you use Grafana to query, visualize, and explore metric
 
 ## Overview
 
-Project [Grafana](https://grafana.com/oss/grafana/) is an open observability platform for Kubernetes. To access Grafana, go to the Kyma Console and select *Diagnostics* \> *Metrics*.
+Project [Grafana](https://grafana.com/oss/grafana/) is an open observability platform for Kubernetes. To access Grafana, go to the Kyma Console/Dashboard and select *Diagnostics* \> *Metrics*.
 
 With Kyma, you get the following [Grafana](https://grafana.com/oss/grafana/) features preconfigured out of the box for your needs:
 
@@ -19,8 +19,14 @@ With Kyma, you get the following [Grafana](https://grafana.com/oss/grafana/) fea
 
 You can view the data in the read-only mode. This means, you can browse predefined dashboards and query the data, but you can’t define or edit any configurations.
 
+> ### Note:  
+> You cannot apply custom metrics, because those are in the Kyma Namespace, which must not be edited.
+
 > ### Caution:  
 > The amount of data that you can search at once in predefined dashboards and custom metrics is limited. As a result, large queries that take over 30 seconds to retrieve data may get dropped.
+
+> ### Note:  
+> If your cluster is running Kyma version 2.0 and higher and you haven’t exposed Grafana securely yet, read [Set up Grafana Authentication](set-up-grafana-authentication-3e4299c.md).
 
 
 

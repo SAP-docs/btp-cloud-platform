@@ -244,6 +244,8 @@ Follow these steps to define your ABAP Solution.
 
     Maximum number of tenants in the multitenant ABAP system​. If the consumer tenant limit is exceeded, a new multitenant system will be created.
 
+    consumer\_tenant\_limit \>= 1
+
     **Note**: A recently deleted tenant will be counted towards the limit, in case it is restored during the grace period . After the 30-day grace period is up, it will no longer be considered for the limit. See [Consumer Offboarding](consumer-offboarding-c882a2a.md).
 
 

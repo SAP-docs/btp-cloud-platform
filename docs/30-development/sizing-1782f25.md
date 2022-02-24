@@ -46,7 +46,7 @@ Default sizing for solution
 </td>
 <td valign="top">
 
-Parameter `size_of_runtime` is part of the quota plan `abap/abap_compute_unit`, with the ABAP compute unit representing the number of 16 GB blocks. The following sizes are available: 1, 2, 4, 6, 8 \(16, 32, 64, 96, 128 GB RAM\).
+Parameter `size_of_runtime` is part of the quota plan `abap/abap_compute_unit`. See [Creating an ABAP System](../20-getting-started/creating-an-abap-system-50b32f1.md).
 
 
 
@@ -69,7 +69,7 @@ Default sizing for solution
 </td>
 <td valign="top">
 
-Parameter `size_of_persistence` is part of the quota plan `abap/hana_compute_unit`, with the HANA compute unit representing the number of 16 GB blocks. The following sizes are available: 4, 8, 16 \(64, 128, 256 GB RAM\).
+Parameter `size_of_persistence` is part of the quota plan `abap/hana_compute_unit`. See [Creating an ABAP System](../20-getting-started/creating-an-abap-system-50b32f1.md).
 
 
 

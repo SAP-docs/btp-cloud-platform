@@ -23,7 +23,7 @@ The method GET\_PARAMETERS\( \) returns two internal tables:
 
 The second interface, IF\_APJ\_RT\_EXEC\_OBJECT, contains runtime related methods. Method **EXECUTE\(\)** is called by the application jobs framework if a scheduled job will actually be executed. It receives an internal table as parameter. This table is of the same type as the table ET\_PARAMETER\_VAL of method GET\_PARAMETERS\(\). The method EXECUTE\(\) simply receives the parameters and values, which were stored in the template and which were originally delivered by the method GET\_PARAMETERS\(\).
 
-Please refer to the example code for an application jobs main class. Literals are used instead of language-dependent texts in order to simplify the example.
+Please refer to the example code for an application jobs main class. Literals are used instead of language-dependent texts in order to simplify the example. For writing application log entries, please refer to [Runtime API](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/55c208330eb642d39580a281bf66870c.html)
 
 > ### Sample Code:  
 > ```lang-abap
@@ -103,4 +103,6 @@ Please refer to the example code for an application jobs main class. Literals ar
 [Setting up the Authorizations](setting-up-the-authorizations-bb559a5.md "Some further activities in ADT and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app Application Jobs.")
 
 
+
+[Application Logs](application-logs-091bec9.md "You can use the Application Logs app to display and check if any errors occurred during runtime.")
 

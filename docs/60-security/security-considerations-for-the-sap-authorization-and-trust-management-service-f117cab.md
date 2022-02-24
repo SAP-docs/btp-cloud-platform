@@ -77,7 +77,7 @@ For more information, see [Domain Checks at Browser Login and Logout](../30-deve
   … 
   "redirect-uris": [
     "https://myapp.cfapps.eu10.hana.ondemand.com",
-    "http://myapp.mydomain.com/my/content"
+    "https://myapp.mydomain.com/my/content"
     ],
   …
 }

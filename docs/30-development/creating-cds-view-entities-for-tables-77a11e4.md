@@ -29,7 +29,7 @@ Only CDS view entities can be exposed to ODBC consumers.
 
 ## Results
 
-After defining the new CDS view entities, the definition can look as follows:
+After defining the new CDS view entities, the definition can look as follows for privileged access:
 
 > ### Sample Code:  
 > ```

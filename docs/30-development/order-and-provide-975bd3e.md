@@ -12,9 +12,9 @@ After the initial add-on version has been built, you have to deploy and provide 
 
 
 
-For the deployment and offering of the add-on as SaaS solution, you have to create a dedicated global account and implement a multitenant application. For multitenant applications based on the ABAP environment, the ABAP Solution service is used to provision ABAP systems, tenants, and users on demand. Once you’ve configured this implementation, you can deploy it to the *05 Provide* space of your provider subaccount *05 Provide*. See [Set Up a Production Account](develop-test-build-3bf575a.md#loio2e7b4b631e814de1b8fe3959af4105bc).
+For multitenant applications based on the ABAP environment, the ABAP Solution service is used to provision ABAP systems, tenants, and users on demand. Once you’ve configured this implementation, you can deploy it to the *Provide* space of your *05 Provide* subaccount in the global account for development. After testing the subscription process in this provider subaccount during the development phase, the multitenant application can be deployed to the *Provide* space in the *Provide* subaccount in the global account for production. See[System Landscape/Account Model](concepts-9482e7e.md#loio4ca756395fc24e56a42b77632a6bd862) .
 
-After the multitenant application has been deployed, the SaaS solution is ready for commercialization.
+After the multitenant application has been deployed for production purposes, the SaaS solution is ready for commercialization.
 
 
 
@@ -25,6 +25,21 @@ After the multitenant application has been deployed, the SaaS solution is ready 
 -   To configure the sizing of a SaaS solution, you have to determine the expected load per region by using the Technical Monitoring Cockpit. See [Technical Monitoring Cockpit \(Cloud Version\)](https://help.sap.com/viewer/tmc_cloud/eb867c69739a4cf3be6361d3990d26a2.html).
 -   To implement and deploy a multitenant application for a SaaS solution, you have to assign the necessary entitlements in the provider subaccount, for example for the ABAP Solution service. See [Developing Multitenant Applications in the ABAP Environment](developing-multitenant-applications-in-the-abap-environment-195031f.md) and [Entitlements and Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00aa2c23479d42568b18882b1ca90d79.html).
 -   To subscribe to the Landscape Portal application, you need the corresponding entitlement. See [Landscape Portal](landscape-portal-5eb70fb.md).
+
+ <a name="loio195a685a71f84953813e7b3bd255e849"/>
+
+<!-- loio195a685a71f84953813e7b3bd255e849 -->
+
+### Access to Landscape Portal
+
+The *Landscape Portal* acts as a central tool that allows you to perform lifecycle management operations, such as provisioning new consumers tenants, users, and more. See [Landscape Portal](landscape-portal-5eb70fb.md).
+
+As an operator, subscribe to the *Landscape Portal* application in the *05 Provide* subaccount in both the global account for development and global account for production. The `LandscapePortalAdminRoleCollection` needs to be assigned to the users in the configured default identity provider of the subaccount that you want to provide access to the *Landscape Portal* app. See [Accessing the Landscape Portal](accessing-the-landscape-portal-2e1e393.md).
+
+> ### gCTS Delivery:  
+> In the Landscape Portal, you can access the provider system and choose the provider tenant. Via the provider tenant, you get access to Fiori Apps, for example the *Manage Software Components* app, which is used for importing software components via gCTS.
+> 
+> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
  <a name="loiof3305f65648248318028e02c84375323"/>
 
@@ -60,13 +75,13 @@ For more information on how to create multitenant-enabled applications in the AB
 
 
 > ### Note:  
-> If you need support or experience issues, please report an incident by using component `BC-CP-ABA`.
+> If you need support or experience issues during implementation of the multitenant application, see [Troubleshooting](troubleshooting-3687b52.md).
 
 **Deploy Multitenant Application**
 
-After completing development, you, as a DevOps engineer, must build and deploy the resulting multitenancy implementation.
+After completing development, you, as a DevOps engineer, must build and deploy the resulting multitenant application for testing purposes to the *Provide* space in the *05 Provide* subaccount in your global account for development.
 
-By using MTA extension descriptors, you can configure the required values during deployment. See [Using MTA Extension Descriptors](using-mta-extension-descriptors-383f3a3.md).
+By using MTA extension development descriptors, you can configure the required values for deployment in the development phase. See [Development Descriptor](development-descriptor-767fb00.md) and [Using MTA Extension Descriptors](using-mta-extension-descriptors-383f3a3.md).
 
 > ### gCTS Delivery:  
 > If you use gCTS instead of add-ons for delivering software components to production systems, the value for the add-on product name inside the MTA extension descriptor file has to be empty.
@@ -75,25 +90,38 @@ By using MTA extension descriptors, you can configure the required values during
 
 **Create Cloud Controller Destination**
 
-As an operator of the provider subaccount, you need to create a destination for the Cloud Foundry Cloud Controller access. See [Create a Destination for the Cloud Foundry Cloud Controller Access](create-a-destination-for-the-cloud-foundry-cloud-controller-access-35b5acb.md). The Cloud Foundry Cloud Controller API maintains records of orgs, spaces, services, service instances, user roles, and more and is used to create new ABAP instances in the *05 Provide* space when necessary.
+As an operator, you need to create a destination for the Cloud Foundry Cloud Controller access in the *05 Provide* subaccount in the global account for production. See [Create a Destination for the Cloud Foundry Cloud Controller Access](create-a-destination-for-the-cloud-foundry-cloud-controller-access-35b5acb.md). The Cloud Foundry Cloud Controller API maintains records of orgs, spaces, services, service instances, user roles, and more and is used to create new ABAP instances in the *Provide* space when necessary.
 
 > ### Recommendation:  
 > We recommend using a dedicated technical Cloud Foundry platform user registered in SAP ID Service for Cloud Controller access. This can either be a non-personalized S-user created via SAP One Support Launchpad or a P-user registered directly for an SAP ID account. See [Create SAP User Accounts](../50-administration-and-ops/create-sap-user-accounts-ebe42f6.md).
 
- <a name="loio195a685a71f84953813e7b3bd255e849"/>
+**Test Multitenant Application Deployed for Development Purposes**
 
-<!-- loio195a685a71f84953813e7b3bd255e849 -->
-
-### Access to Landscape Portal
-
-The *Landscape Portal* acts as a central tool that allows you to perform lifecycle management operations, such as provisioning new consumers tenants, users, and more. See [Landscape Portal](landscape-portal-5eb70fb.md).
-
-As an operator of the provider subaccount, subscribe to the Landscape Portal application. The `LandscapePortalAdminRoleCollection` needs to be assigned to the users in the configured default identity provider of the subaccount that you want to provide access to the *Landscape Portal* app. See [Accessing the Landscape Portal](accessing-the-landscape-portal-2e1e393.md).
-
-> ### gCTS Delivery:  
-> In the Landscape Portal, you can access the provider system and choose the provider tenant. Via the provider tenant, you get access to Fiori Apps, for example the *Manage Software Components* app, which is used for importing software components via gCTS.
+> ### Note:  
+> Using a multitenant application deployed during the development phase, you need to add a new tenant-specific route pointing to the approuter application.
 > 
-> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+> You have to create a route for the consumer subaccount that maps to the approuter in the multitenant application. New routes are created inside the space where the multitenant application is deployed. For the creation of a new route, you have to specify the domain and hostname. In the development phase, the hostname combines the subdomain of the consumer \(sub-\)account, using a ***-*** separator, and the app name of the SaaS solution. Once the route is created, you have to map it to the approuter application.
+> 
+> Since ***-*** is used as separator, only 63 characters minus the number of characters used for the app name of the solution can be used for subdomains.
+
+As a DevOps engineer test the multitenant application deployed to the *05 Provide* subaccount in the global account for development by subscribing from a consumer subaccount created in the global account for development. See [Subscribe New Consumers](subscribe-new-consumers-b90cde1.md).
+
+Finally, test the access from the consumer subaccount. See [Consumer Access](consumer-access-a197d6f.md).
+
+**Deploy Multitenant Application for Production Purposes**
+
+> ### Note:  
+> We recommend using a custom domain with wildcard ***\**** route for the deployment of your multitenant application in the production phase to guarantee the following:
+> 
+> -   All possible subdomains can be placed in tenant host pattern while resulting in a valid hostname/route since separator ***.*** is used instead of ***-***.
+> 
+> -   The desired route is not reserved. That means, in case of a shared domain, such as cfapps.sap.hana.ondemand.com, the subdomains are not reserved and could be used by other SAP BTP platform customers.
+
+After completing development, as a DevOps engineer you must build and deploy the multitenant application for production purposes to the *Provide* space in the *05 Provide* subaccount in the global account for production.
+
+See[Configure the Approuter Application](configure-the-approuter-application-3725815.md).
+
+By using MTA extension development descriptors, you can configure the required values for deployment in the production phase. See [Development Descriptor](development-descriptor-767fb00.md) and [Using MTA Extension Descriptors](using-mta-extension-descriptors-383f3a3.md).
 
  <a name="loio57c19c7c4dfa4c3cbb846c1ac57e2095"/>
 
@@ -180,7 +208,7 @@ Depending on the marketplace platform \(for example SAP App Center\) or other di
 
 For the following process of creating a consumer subaccount for your customer, you have to create consumer subaccounts in the global production account so that customers can subscribe to the provided SaaS solution.
 
-This means, on top of subaccount*04 Build/Test* and *05 Provide*, you have to create a subaccount in the production global account for each consumer. See [Set Up a Production Account](develop-test-build-3bf575a.md#loio2e7b4b631e814de1b8fe3959af4105bc).
+This means, on top of subaccount *05 Provide*, you have to create a subaccount in the global account for production for each consumer. See [Set Up a Production Account](develop-test-build-3bf575a.md#loio2e7b4b631e814de1b8fe3959af4105bc).
 
 After a customer has ordered the SaaS solution, you, as an operator of the global production account, need to create a *06 Consume* subaccount. See [Subscribe New Consumers](subscribe-new-consumers-b90cde1.md).
 
@@ -221,59 +249,6 @@ See [Landscape Portal](landscape-portal-5eb70fb.md).
 **Assign `SolutionAdmin` role**
 
 Once the SaaS subscription process is completed, as an operator user in the trust settings of the *06 Consume* subaccount, assign the user onboarding role `SolutionAdmin` provided by the multitenant application to a customer user.
-
- <a name="loio3c44b19161d742a5a96576d64e70d505"/>
-
-<!-- loio3c44b19161d742a5a96576d64e70d505 -->
-
-### Configure Consumer Subaccount \(Feature Set A\)
-
-Depending on the scope of the SaaS solution and consumer requirements, you, as an operator, have to configure the following:
-
--   Trust configuration for integration of corporate identity provider
-
-    If you want to integrate an existing corporate identity provider for authentication/authorization in the consumer subaccount, please refer to [Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md). To restrict access based on certain criteria, such as the IP address,. you need to use the Identity Authentication service. See [Identity Authentication Service](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
-
--   Destinations and connectivity whenever the SaaS solution requires to connect to a destination \(cloud or on-premise\) that is configured by the consumer. See [Connectivity in the Cloud Foundry Environment](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html).
-
-
-**Option A: Provider configures consumer subaccount**
-
-As an operator user of the provider, you configure the consumer subaccount *06 Consume* for the customer. The customer only needs to provide the following:
-
--   Configuration details regarding the identity provider that is supposed to be used by providing the relevant SAML metadata file. See [Exporting SAML Identity Provider Metadata](../20-getting-started/exporting-saml-identity-provider-metadata-5c1479e.md).
-
--   Configuration details regarding Cloud Connector connectivity: to configure the Cloud Connector, you, as the provider, need to enable a technical user of the customer as a security administrator of the consumer subaccount. See [Security Administration: Managing Authentication and Authorization](../50-administration-and-ops/security-administration-managing-authentication-and-authorization-1ff47b2.md). This can either be a nonpersonalized S-user created by the customer in SAP One Support Launchpad or a P-user directly registered in SAP ID service.
-
-    Subsequently, the customer configures the subaccount in the Cloud Connector by authenticating with the provided technical user.
-
--   Configuration details regarding destinations: The destination credentials might be exchanged in file format.
-
-    > ### Note:  
-    > Destination credentials need to be provided in clear text to the provider, which might be a security risk. In that case, option B might be more suitable.
-
-
-On the provider side, you, as a SaaS solution operator, must take care of the following:
-
--   Set up the trust configuration according to customer configuration details. See [Establishing Trust to the SAML Identity Provider for the Cloud Foundry Account](../20-getting-started/establishing-trust-to-the-saml-identity-provider-for-the-cloud-foundry-account-55e7d92.md).
-
--   Add a technical user of the customer as a security administrator of the consumer subaccount
-
--   Configure destinations according to the credentials provided by the customer
-
-
-**Option B: Consumer configures consumer subaccount**
-
-The consumer configures the consumer subaccount after you, as an operator user on the provider side, grant access by doing the following:
-
--   In the consumer subaccount, enable the Cloud Foundry organization so that organization members can be added to that subaccount
-
--   As an operator, add the customer user as a member of the enabled Cloud Foundry organization such that the consumer subaccount *06 Consume* is visible to the customer user even without global account member privileges. No role needs to be assigned to the organization member.
-
--   To configure trust configuration and connectivity/destination settings in the subaccounts, add the customer user as a security administrator. See [Security Administration: Managing Authentication and Authorization](../50-administration-and-ops/security-administration-managing-authentication-and-authorization-1ff47b2.md).
-
-
-Once you, as an operator, have provided the relevant subaccount information, the customer user can then log on to the SAP BTP cockpit as the consumer subaccount admin and configure trust settings and connectivity/destination settings in the subaccount.
 
  <a name="loio6301a275af664613a51147e3451386e6"/>
 
@@ -319,10 +294,6 @@ To create such an initial administrator user, as a consumer subaccount administr
 In a confirmation form, you have to confirm details such as email, subdomain, and subaccount ID. Afterwards, the consumer subaccount administrator can access the SAP Fiori launchpad of the subscribed SaaS solution via *Instances and Subscriptions*.
 
 > ### Note:  
-> Depending on the approuter configuration, as the operator, you might need to add a new tenant-specific route pointing to the approuter application.
-> 
-> You have to create a route for the consumer subaccount that maps to the approuter in the multitenant application. New routes are created inside the space where the multitenant application is deployed. For the creation of a new route, you have to specify the domain and hostname. In the development phase, the hostname combines the subdomain of the consumer \(sub-\)account, a dash, and the app name of the SaaS solution. Once the route is created, you have to map it to the approuter application.
-> 
 > During the production phase, you should use a route with wildcard hostname combined with a custom domain so that you don't have to create them manually in the space where the multitenant application is deployed.
 > 
 > See [Configure the Approuter Application](configure-the-approuter-application-3725815.md) and [Create Routes](../50-administration-and-ops/create-routes-9fddeea.md).

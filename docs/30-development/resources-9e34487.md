@@ -16,11 +16,11 @@ In the `resources` section, the following elements are mandatory:
 Optional resource attributes include:
 
 -   `type` - the resource **type** is one of a reserved list of resource types supported by the MTA-aware deployment tools, for example: `com.sap.xs.uaa`, `com.sap.xs.hdi-container`, `com.sap.xs.job-scheduler`; the **type** indicates to the deployer how to discover, allocate, or provision the resource, for example, a managed service such as a database, or a user-provided service. When `type` is not defined, `resource` is used for configurations only for other modules and resources.
--   `description`
--   `properties`
--   `parameters`
+-   `description` - non-translatable, free-text string; the string is not meant to be presented on application user interfaces \(UI\)
+-   `properties` - a structured set of name-value pairs; if a module, which requires the resource, represents a CF application, the resource properties are injected into the environment of the application
+-   `parameters` - reserved variables that affect the behavior of the MTA-aware tools, such as the deployer
 -   `active` - its value can be `true` or `false` and the default value is `true`. If set to `false`, the resource is not processed and it is ignored in the `requires` list of the application that requires it.
--   `processed-after` - the resource is used to create an order, in which services should be processed. If a resource has this attribute, it will be processed after the other resources in a higher position are processed.
+-   `processed-after` - the attribute is used to create an order, in which resources should be processed. If a resource has this attribute, it will be processed after the other resources in a higher position are processed. The attribute value is a structured set of a list comprised of other resource names of the same MTA.
 
     > ### Tip:  
     > By default recourses process in parallel, but if you want to enable an order of resources, see [Sequential Resource Processing](sequential-resource-processing-b93db81.md).
@@ -1185,6 +1185,43 @@ Example
 
 
 </th>
+</tr>
+<tr>
+<td valign="top">
+
+`config`
+
+
+
+</td>
+<td valign="top">
+
+Write
+
+
+
+</td>
+<td valign="top">
+
+Defines service creation parameters. More information in [Service Creation Parameters](service-creation-parameters-a36df26.md).
+
+
+
+</td>
+<td valign="top">
+
+n/a
+
+
+
+</td>
+<td valign="top">
+
+See [Service Creation Parameters](service-creation-parameters-a36df26.md).
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">

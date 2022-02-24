@@ -56,6 +56,17 @@ To see the latest news and updates about the Node.js System Buildpack, regularly
 
 
 
+<a name="loio3a7a0bece0d044eca59495965d8a0237__section_jnl_4xz_pdb"/>
+
+## Node.js Tutorial
+
+The following tutorial will guide you through creating a Node.js application in Cloud Foundry Command Line Interface \(cf CLI\), consuming a Cloud Foundry service, and setting up authentication and authorization checks. See: [Create a Node.js Application via CF CLI](https://developers.sap.com/tutorials/btp-cf-buildpacks-node-create.html)
+
+> ### Note:  
+> The tutorial is executed in a *trial* account but you can just as well apply it for *productive* use.
+
+
+
 <a name="loio3a7a0bece0d044eca59495965d8a0237__section_wc2_5xz_pdb"/>
 
 ## Tips and Tricks

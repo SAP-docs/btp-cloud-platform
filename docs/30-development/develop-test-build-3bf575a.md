@@ -76,11 +76,9 @@ Due to length restrictions of some objects, namespaces should have 5–8 charact
 
 ### Set Up a Development Account
 
-As a SaaS solution operator, you have to configure the global development account.
+As a SaaS solution operator, you have to configure the global account for development \(used for development, testing and demo purposes\).
 
 ![](images/Prepare_a_Development_Account_e29111f.png)
-
-The add-on development is separated from providing the add-on for consumption as a SaaS solution.
 
 > ### Recommendation:  
 > We recommend the following subaccount structure:
@@ -88,15 +86,24 @@ The add-on development is separated from providing the add-on for consumption as
 > -   In the *01 Develop* subaccount, add-on development is performed in a permanent development system. See [Development in the ABAP Environment](development-in-the-abap-environment-31367ef.md).
 > -   In the *02 Test* subaccount, the developed software components are tested after a successful import into a permanent test system.
 > -   In the *03 Build/Assemble* subaccount, the add-on package assembly is performed in a transient assembly system that is created and deleted automatically by the build pipeline.
+> -   In the *04 Build/Test* subaccount, the add-on build is installed and tested again.
+> -   In the *05 Provide* subaccount, the add-on product is provided as a SaaS solution for testing purposes in the development phase.
 
 > ### gCTS Delivery:  
-> If you use gCTS instead of add-ons for delivering software components to production systems, the setup and usage of a *03 Build/Assemble* \(used for the add-on assembly\) subaccount is redundant.
+> If you use gCTS instead of add-ons for delivering software components to production systems, the setup and usage of the following subaccounts is redundant:
 > 
-> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+> -   *03 Build/Assemble* \(used for the add-on assembly\)
+> -   *04 Build/Test* \(used for add-on installation test\)
+
+Additionally, considering the availability of software components only in the same global accounts, you have to create the production systems as well as development and test systems in the same global account \(only one global account is used\).
+
+In the provider subaccount, an ABAP instance of service plan type abap/standard instead of abap/saas\_oem is used.
+
+See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 You should configure a Cloud Foundry space in each subaccount. Dividing the development, testing, and assembling activities into different subaccounts allows for maximum flexibility. For instance, you may want to use different identity providers or consume different connectivity services during testing and development.
 
-The ABAP systems that you use for development, testing, and add-on assembly are of type `abap/standard` and made available via entitlements. These service entitlements must be assigned by an administrator to different subaccounts, according to the following structure:
+The ABAP systems that you use for development, testing, and add-on assembly are of type `abap/standard` and made available via entitlements. ABAP systems for add-on installation are of type abap/saas-oem. These service entitlements must be assigned by an administrator to different subaccounts, according to the following structure: :
 
 
 <table>
@@ -131,9 +138,9 @@ Services
 </th>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="5">
 
-Partner Saas on ABAP \(Dev\)
+Global Account for Development
 
 
 
@@ -167,13 +174,6 @@ abap/abap\_compute\_unit \(standard: 1\)
 <tr>
 <td valign="top">
 
-Partner Saas on ABAP \(Dev\)
-
-
-
-</td>
-<td valign="top">
-
 02 Test
 
 
@@ -201,13 +201,6 @@ abap/abap\_compute\_unit \(standard: 1\)
 <tr>
 <td valign="top">
 
-Partner Saas on ABAP \(Dev\)
-
-
-
-</td>
-<td valign="top">
-
 03 Build/Assemble
 
 
@@ -232,6 +225,68 @@ abap/abap\_compute\_unit \(standard: 1\)
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+04 Build/Test
+
+
+
+</td>
+<td valign="top">
+
+Build/Test
+
+
+
+</td>
+<td valign="top">
+
+1x abap/saas\_oem
+
+abap/hana\_compute\_unit \(standard: 4\)
+
+abap/abap\_compute\_unit \(standard: 1\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+05 Provide
+
+
+
+</td>
+<td valign="top">
+
+Provide
+
+
+
+</td>
+<td valign="top">
+
+1x abap/saas\_oem
+
+abap/hana\_compute\_unit \(standard: 4\)
+
+abap/abap\_compute\_unit \(standard: 1\)
+
+Application Runtime
+
+abap-solution
+
+saas-registry
+
+xsuaa
+
+
+
+</td>
+</tr>
 </table>
 
 Additionally, the following entitlements for SaaS application subscriptions are required:
@@ -251,22 +306,19 @@ If you want to integrate an existing corporate identity provider in the subaccou
 
 ### Set Up a Production Account
 
-As a SaaS solution operator, you have to configure the global production account.
+As a SaaS solution operator, you have to configure the global account for production.
 
 ![](images/Prepare_a_Production_Account_ad3698a.png)
-
-The finished add-on product is provisioned to customers in a dedicated global production account.
 
 > ### Recommendation:  
 > We recommend the following subaccount structure:
 > 
-> -   In the *04 Build/Test* subaccount, the add-on build is installed and tested again
-> -   In the *05 Provide* subaccount, the add-on product is provided to customers
+> In the *05 Provide* subaccount, the add-on product is provided as a SaaS solution for production purposes in the production phase. The solution is consumed by your customers from consumer subaccounts.
 
 In the provider context, the `ABAP environment (saas_oem)` service plan is used.
 
 > ### gCTS Delivery:  
-> If you use gCTS instead of add-ons for delivering software components to production systems, the setup and usage of a *04 Build/Test* \(used for add-on installation test\) subaccount is redundant.
+> In the provider subaccount, an ABAP instance of service plan type `abap/standard` instead of `abap/saas_oem` is used.
 > 
 > Additionally, considering the availability of software components only in the same global accounts, you have to create the production systems as well as development and test systems in the same global account \(global development account = global production account\).
 > 
@@ -315,41 +367,7 @@ Services
 <tr>
 <td valign="top">
 
-Partner Saas on ABAP \(Provider\)
-
-
-
-</td>
-<td valign="top">
-
-04 Build/Test
-
-
-
-</td>
-<td valign="top">
-
-Build/Test
-
-
-
-</td>
-<td valign="top">
-
-abap/saas\_oem
-
-abap/hana\_compute\_unit \(standard: 4\)
-
-abap/abap\_compute\_unit \(standard: 1\)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Partner Saas on ABAP \(Provider\)
+Global Account for Production
 
 
 
@@ -442,9 +460,9 @@ ABAP Instances
 </th>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="2">
 
-Global Development Account
+Global Account for Development
 
 
 
@@ -474,13 +492,6 @@ Set parameter `is_development_allowed = true`
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Global Development Account
-
-
-
-</td>
 <td valign="top">
 
 02 Test
@@ -516,7 +527,7 @@ Use service parameter `is_development_allowed` to differentiate between developm
 
 For more information on how to get started with your customer account, see [Getting Started with a Customer Account in the ABAP Environment](../20-getting-started/getting-started-with-a-customer-account-in-the-abap-environment-e34a329.md) and [Creating an ABAP System](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/50b32f144e184154987a06e4b55ce447.html).
 
-In the *04 Build/Test* subaccount of the global production account, an add-on installation test system is automatically created. This ABAP environment service instance of plan `saas_oem` is provisioned with parameter `is_development_allowed = false`.
+In the *04 Build/Test* subaccount of the global account for production, an add-on installation test system is automatically created. This ABAP environment service instance of plan `saas_oem` is provisioned with parameter `is_development_allowed = false`.
 
 Subscribe to the Web Access for ABAP to gain access to the SAP Fiori launchpad in all subaccounts of the global production account.
 
@@ -558,9 +569,11 @@ Software components in the development and test system should always stay on the
 
 You can perform the import of your software components into a test system either manually by using the *Manage Software Components* app or in an automated way using the [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
 
-**Manually import into test system via gCTS**
+**Manual import into test system**
 
 As an add-on admin user, you can pull the latest released changes of a software component to the test system by using the main branch. You can test these changes in the test system independent from ongoing development. See [How to Pull Software Components](../50-administration-and-ops/how-to-pull-software-components-90b9b9d.md) and [ABAP Lifecycle Management](abap-lifecycle-management-5c7b17d.md).
+
+**Automatic import into test system**
 
 > ### Note:  
 > A CI server that is running the ABAP Environment Pipeline is required. See [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
@@ -859,11 +872,11 @@ For the add-on build process, you must use a CI server and pipeline to automate 
 
     To do so, as an operator, assign a technical platform user to the global development account as an administrator and as a space developer in the build/assemble space. Later, this user’s credentials are stored in the Jenkins credentials. See [User and Member Management](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cc1c676b43904066abb2a4838cbd0c37.html).
 
--   **Add technical platform user to *04 Build/Test* space**
+-   **Add technical platform user to space in subaccount *04 Build/Test***
 
-    For the add-on installation test, a test system in the *04 Build/Test* space is created in the global production account.
+    For the add-on installation test, a test system is created in the space in subaccount *04 Build/Test* space, which was created earlier in the global account for development.
 
-    To do so, as an operator, assign a technical platform user to the global production account as an administrator and as a space developer in the build/test space. Later, this user’s credentials are stored in the Jenkins credentials. See [Creating New Space Members and Assigning Space Developer Roles to Them](../20-getting-started/creating-new-space-members-and-assigning-space-developer-roles-to-them-967fc4e.md).
+    To do so, as an operator, assign a technical platform user as a space developer in the space in subaccount *04 Build/Test*. Later, this user’s credentials are stored in the Jenkins credentials. See [Creating New Space Members and Assigning Space Developer Roles to Them](../20-getting-started/creating-new-space-members-and-assigning-space-developer-roles-to-them-967fc4e.md).
 
 -   **Configure pipeline**
 
@@ -889,18 +902,11 @@ Finally, as a Jenkins administrator, add the credentials of the technical commun
 
 See SAP note [2174416](https://launchpad.support.sap.com/#/notes/2174416) for more information on how to create and activate technical communication users.
 
-**Register add-on product/global production account**
+**Register add-on product for installation in global accounts**
 
-The registration of a new add-on product is a manual step. Your add-on product should only be installed in ABAP systems within your global production account. Therefore, the add-on product name and global production account need to be registered with SAP.
+The registration of a new add-on product is a manual step. Your add-on product should only be installed in ABAP systems in your global accounts for development and production. Therefore, the add-on product name and global accounts need to be registered with SAP.
 
-As an add-on admin, create an incident using component `BC-CP-ABA`, and provide the following information:
-
--   Add-on product name = *addonProduct* in `addon.yml` file, e.g. /NAMESPACE/NAME
-
--   Global production account ID = *Account ID* in section *Global Account Info* on the overview page of your global account, e.g. 151b5fdc-58c1-4a55-95e1-467df2134c5f \(Feature Set A\) or *Global Account Info* on the *Usage Analytics* page of your global account \(Feature Set B\).
-
-
-This step can be triggered by you or by SAP partner management \(governance process to be negotiated\). As a response to the service request, SAP creates a configuration for the requested add-on product so that the add-on product can be installed in the global account.
+See [Register Add-on Product for a Global Account](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#register-add-on-product-for-a-global-account).
 
  <a name="loio96f9db9e6c784e5a89ede4d038daaa43"/>
 
@@ -955,16 +961,14 @@ For the software components in the repositories section of the `addon.yml` file,
 > 
 > To learn how software lifecycle management in the ABAP environment works with software components, see [Basic Concepts and Terms](basic-concepts-and-terms-fb3a076.md). Please follow the best practices on how to define the addon.yml file. See [Add-On Descriptor File](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#add-on-descriptor-file).
 
-**Trigger add-on product build**
-
-As an add-on administrator, trigger the execution of the configured ABAP environment pipeline for the add-on build. During the add-on build, delivery packages corresponding to included software component versions are created. For the add-on product version, a target vector is created and published in test scope. See [Target Vector](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#target-vector).
-
-![](images/Pipeline_add-on_build_d36cfe1.png)
+**Trigger add-on build pipeline**
 
 > ### Tip:  
 > For in-depth information about the ABAP environment pipeline, check out [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
 
-**Trigger add-on product test**
+![](images/Pipeline_add-on_build_d36cfe1.png)
+
+As an add-on administrator, trigger the execution of the configured ABAP environment pipeline for the add-on build. During the add-on build, delivery packages corresponding to included software component versions are created. For the add-on product version, a target vector is created and published in test scope. See [Target Vector](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#target-vector).
 
 Based on the target vector published in the build stage, the integration tests stage of the ABAP environment pipeline creates the add-on installation test system ATI. After the system and the add-on have been provisioned successfully, a provisioning mail is sent to the system administrator and the pipeline stage can be confirmed by the add-on administrator.
 
@@ -972,14 +976,12 @@ Use add-on installation test system ATI to confirm the successful add-on install
 
 You can also use add-on installation test system ATI for additional tests, similar to the steps described in [Test in the ABAP Environment SAP Fiori Launchpad](develop-test-build-3bf575a.md#loio8c5b4d76a05b4bed8df01937f4d8d487). For testing in a consumer-like environment, you can create tenants of type Partner Test using the Landscape Portal application. See [Use Test Tenants](use-test-tenants-dd7d8e8.md).
 
-**Trigger add-on product release**
-
-Finally, the previously created target vector for the new add-on product version is published in production scope after the release decision is confirmed in the *Confirm* stage by the add-on administrator.
-
-After a successful build, all ABAP systems used are deprovisioned.
-
-The add-on is now technically available for deployment to the ABAP environment.
-
 > ### Note:  
-> If you need support or experience issues during the add-on build, please refer to [Troubleshooting](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/#troubleshooting).
+> Please make sure that the add-on product version to be published is properly tested before confirming the release decision. This includes testing in SAP Fiori launchpad and the ABAP Test Cockpit. See
+> 
+> [Test in the ABAP Environment SAP Fiori Launchpad](develop-test-build-3bf575a.md#loio8c5b4d76a05b4bed8df01937f4d8d487) and [Test in the ABAP Test Cockpit](develop-test-build-3bf575a.md#loiof0b71a1c959842258772c27d292c43b0).
+> 
+> Finally, the previously created target vector for the new add-on product version is published in production scope after the add-on administrator has confirmed the release decision in the Confirm stage.
+> 
+> After a successful build, all ABAP systems used are deprovisioned and the add-on is technically available for deployment to the ABAP environment.
 

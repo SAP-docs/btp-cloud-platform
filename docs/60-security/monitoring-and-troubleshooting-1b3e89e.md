@@ -31,6 +31,8 @@ Our troubleshooting information can be found in our Guided Answers [Troubleshoot
 
 -   [502 Error: Call to /oauth/token Was Not Successful](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:40211)
 
+-   [Unexpected AuthnResponse : Existing authentication - <User\>](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:48205)
+
 
 **Related Information**  
 

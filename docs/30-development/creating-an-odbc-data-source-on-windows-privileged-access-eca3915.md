@@ -1,6 +1,6 @@
 <!-- loioeca3915ad0994566bc1bb1de37dbd04c -->
 
-# Creating an ODBC Data Source \(Windows\)
+# Creating an ODBC Data Source on Windows \(Privileged Access\)
 
 The *ODBC Data Sources \(64 bit\)* tool is part of a standard Windows installation. In this tool, you can create ODBC data sources and assign a data source name \(DSN\) to a newly created data source.
 

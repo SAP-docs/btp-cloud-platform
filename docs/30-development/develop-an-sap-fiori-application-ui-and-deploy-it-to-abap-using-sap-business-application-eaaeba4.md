@@ -76,7 +76,11 @@ Get an overview on how to create and deploy an SAP Fiori application to ABAP usi
 
 
 
-To launch your app in SAP Fiori launchpad, see [Launch Your App in SAP Fiori Launchpad](launch-your-app-in-sap-fiori-launchpad-ea41912.md).
+<a name="loioeaaeba48e5e04949855f2763477cd557__section_yhp_d4g_dqb"/>
+
+## Next Step
+
+Launch your app in SAP Fiori launchpad. See [Launch Your App in SAP Fiori Launchpad](launch-your-app-in-sap-fiori-launchpad-ea41912.md).
 
 **Related Information**  
 

@@ -180,7 +180,7 @@ You can also use a native agent. Since a native agent is a dynamic library, it m
 
 ## Activation
 
-To activate SapMachine \(instead of using the default SAP JVM\) using the SAP Java Buildpack, you have to add the following environment variable:
+To activate SapMachine JRE \(instead of the default SAPJVM JRE\) in SAP Java Buildpack, you have to add the following environment variable:
 
 ```
 ---
@@ -188,9 +188,54 @@ applications:
 - name: <app-name>
   ...
   env:
-    JBP_CONFIG_COMPONENTS: "jres: 'com.sap.xs.java.buildpack.jdk.SAPMachineJDK'"
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
   ...
 ```
+
+This will make your application use the SapMachine JRE 11 version bundled with SAP Java Buildpack.
+
+Alternatively, you can direct the buildpack to download any published SapMachine patch version by adding additional configuration parameters, like the following:
+
+```
+---
+applications:
+- name: <app-name>
+  ...
+  env:
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
+    JBP_CONFIG_SAP_MACHINE_JRE: '{ use_offline_repository: false, version: 11.0.13 }'
+  ...
+```
+
+Setting `use_offline_repository` to *false* will direct the buildpack to attempt a download of the SapMachine JRE of version "*version*" from the GitHub asset repository. This will only work if your Cloud Foundry instance has access to [GitHub: SapMachine](https://github.com/SAP/SapMachine).
+
+Furthermore, you can also use a full SapMachine JDK:
+
+```
+---
+applications:
+- name: <app-name>
+  ...
+  env:
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
+  ...
+```
+
+To specify the JDK version, use environment variable JBP\_CONFIG\_SAP\_MACHINE\_JDK, for example:
+
+```
+---
+applications:
+- name: <app-name>
+  ...
+  env:
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
+    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 17.0.2 }'
+  ...
+```
+
+> ### Restriction:  
+> As the SapMachine JDK is not bundled into the SAP Java Buildpack, you will always have to download it from GitHub as an online component.
 
 **Related Information**  
 

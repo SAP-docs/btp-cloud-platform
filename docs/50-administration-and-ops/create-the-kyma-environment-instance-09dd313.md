@@ -55,7 +55,7 @@ To set up the Kyma environment on your subaccount, you must create an instance o
 You have created a Kyma environment instance.
 
 > ### Caution:  
-> If you created a subaccount before April 23, 2020, you cannot create the Kyma environment because of an XSUAA issuer configuration issue. To fix it, change the issuer of a subaccount following the instructions in [Rotate Signing Keys of Access Tokens](rotate-signing-keys-of-access-tokens-b279adf.md).
+> If you created a subaccount before April 23 2020 and your cluster is running with a Kyma version older than 2.0, you cannot create the Kyma environment because of an XSUAA issuer configuration issue. To fix it, change the issuer of a subaccount following the instructions in [Rotate Signing Keys of Access Tokens](rotate-signing-keys-of-access-tokens-b279adf.md).
 
 > ### Tip:  
 > For users who like to work in a terminal or want to automate operations using scripts, there's an alternative to the SAP BTP cockpit: You can create the Kyma environment with the SAP BTP command line interface \(btp CLI\).
@@ -68,14 +68,16 @@ You have created a Kyma environment instance.
 
 ## Next Steps
 
-To get the link to Kyma Console, navigate to the overview of the instance under *Instances and Subscriptions*.
+To get the link to Kyma Console/Dashboard, navigate to the overview of the instance under *Instances and Subscriptions*.
 
-To manage access to the Kyma environment and Kyma Console, assign roles as needed.
+To manage access to the Kyma environment and Kyma Console/Dashboard, assign roles as needed.
 
 **Related Information**  
 
 
 [Available Plans in the Kyma Environment](available-plans-in-the-kyma-environment-befe01d.md "Depending on your global account type, you have access to a different plan that specifies the cluster parameters for the Kyma environment.")
+
+[Configure a Custom Identity Provider](../60-security/configure-a-custom-identity-provider-67bcc6e.md "Enable the Kyma environment with a custom identity provider.")
 
 [Assign Roles in the Kyma Environment](assign-roles-in-the-kyma-environment-148ae38.md "Kyma uses roles to manage access within the cluster. Every Kyma cluster comes with predefined roles, for example, for admins and developers, which give the assigned users the permissions suitable for their purposes.")
 

@@ -68,9 +68,11 @@ The signed SAML tokens are used to validate and authenticate the protocol messag
     >     "samlConfigSettings": {
     >         "keyId": "my-new-key",
     >         "changeMode":"ADD",
-    >         "key": "<key_data>",
-    >         "passphrase": "",
-    >         "certificate": "<certificate_data>"
+    >         "key": {
+    >                "key": "<key_data>",
+    >                "passphrase": "",
+    >                "certificate": "<certificate_data>"
+    >         }
     >     }
     > }
     > ```
@@ -84,8 +86,6 @@ The signed SAML tokens are used to validate and authenticate the protocol messag
         "samlConfigSettings": {
             "keyId": "my-new-key",
             "changeMode":"UPDATE"
-                }
-            }
         }
     }
     ```
@@ -116,8 +116,6 @@ The signed SAML tokens are used to validate and authenticate the protocol messag
     >     "samlConfigSettings": {
     >         "keyId": "my-old-key",
     >         "changeMode":"DELETE"
-    >             }
-    >         }
     >     }
     > }
     > ```

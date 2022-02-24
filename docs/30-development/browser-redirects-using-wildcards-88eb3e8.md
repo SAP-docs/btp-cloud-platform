@@ -33,13 +33,13 @@ In the following example, you configure a logout page, which is a static externa
 
 ## Configuration of xs-security.json
 
-The following example allows redirects to all web sites with `sap.com` as domain. It allows secure \(https\) and \(http\) pages. Define redirect URLs with wildcards.
+The following example allows redirects to all web sites with `sap.com` as domain. It allows secure pages. Define redirect URLs with wildcards.
 
 > ### Example:  
 > ```
 > "oauth2-configuration": {
 >                        "token-validity": 900, 
->                        "redirect-uris": ["http*://*.sap.com/**",
+>                        "redirect-uris": ["https*://*.sap.com/**",
 >                                          "https://<application_hostname>.<landscape_domain>/**"
 >                                          ]
 > ```
@@ -50,7 +50,7 @@ The following example allows redirects to all web sites with `sap.com` as domain
 > ```
 > "oauth2-configuration": {
 >                        "token-validity": 900, 
->                        "redirect-uris": ["http*://*.sap.com/**",
+>                        "redirect-uris": ["https*://*.sap.com/**",
 >                                          "https://<application_hostname>.<custom_domain>/**"
 >                                          ]
 > ```

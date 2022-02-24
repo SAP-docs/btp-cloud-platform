@@ -8,6 +8,6 @@ Proceed as follows:
 
 1.  Install the ODBC driver on your operating system \(see [Installing the ODBC Driver](installing-the-odbc-driver-8dcb3db.md)\).
 
-2.  Create an ODBC data source on your operating system \(see [Creating an ODBC Data Source \(Windows\)](creating-an-odbc-data-source-windows-eca3915.md) or [Creating an ODBC Data Source \(Linux\)](creating-an-odbc-data-source-linux-d63fc2e.md)\).
+2.  Create an ODBC data source on your operating system \(see [Creating an ODBC Data Source on Windows \(Privileged Access\)](creating-an-odbc-data-source-on-windows-privileged-access-eca3915.md) or [Creating an ODBC Data Source on Linux \(Privileged Access\)](creating-an-odbc-data-source-on-linux-privileged-access-d63fc2e.md)\).
 
 

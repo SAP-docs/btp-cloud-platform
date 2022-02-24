@@ -347,7 +347,7 @@ To provision multitenant-enabled systems in the ABAP environment, a multitenant 
         
         ```
 
-        -   The **appname** is a technical name that defines the SaaS solution and appears, for example, as a prefix in the title of your service instances of your *05 Provide* subaccount.
+        -   The **appname** is a technical name that defines the SaaS solution, and is displayed, for example, as a prefix in the title of your service instances of your *05 Provide* subaccount in the global account for development.
 
             > ### Note:  
             > You can only use ASCII letters and digits. Do not use a hyphen in the beginning or end of the appname.
@@ -494,7 +494,9 @@ Order and provide your solution. See [Order and Provide](order-and-provide-975bd
     > 
     > Once you switch to the production phase of the approuter configuration and define a route with wildcard hostname. this sub-step is no longer required . See [Configure the Approuter Application](configure-the-approuter-application-3725815.md).
 
-    -   For **Domain**, enter the appropriate domain by changing the default domain **cfapps.<region\>.hana.ondemand.com** according to the region of your *05 Provide* subaccount.
+    Deployment of the multitenant application for production purposes uses an approuter configuration for the production phase: a route with wildcard hostname is defined and this substep to create routes manually for each consumer subaccount is no longer required. See[Configure the Approuter Application](configure-the-approuter-application-3725815.md) .
+
+    -   For **Domain**, enter the appropriate domain by changing the default domain **cfapps.<region\>.hana.ondemand.com** according to the region of your *05 Provide* subaccount in the global account for development.
 
     -   For **Hostname**, enter the subdomain as displayed in your *06 Consume* subaccount under *Overview* and the appname as defined in your `dev.mtaext` file.
 
@@ -512,7 +514,7 @@ Order and provide your solution. See [Order and Provide](order-and-provide-975bd
 
 ## Maintain
 
-**Maintain your solution**. See [Create Update for SaaS Solution](maintain-9721f0f.md#loioa35582346bff4914a5b4b0bcb776668c).
+**Maintain your solution**. See [Create Add-On Update](maintain-9721f0f.md#loioa35582346bff4914a5b4b0bcb776668c).
 
 > ### Note:  
 > You can update your solution with patches, support packages, or new releases. Create a new branch from the main branch in test system TST in your *01 Develop* subaccount for every support package or new release. For minor changes, continue developing in the respective active branch.
@@ -525,7 +527,7 @@ Order and provide your solution. See [Order and Provide](order-and-provide-975bd
 
 ## Prerequisites
 
--   You've assigned the `LandscapePortalAdminRoleCollection` in your *05 Provide* subaccount under *Role Collections*. See [Access to Landscape Portal](order-and-provide-975bd3e.md#loio195a685a71f84953813e7b3bd255e849).
+-   You've assigned the `LandscapePortalAdminRoleCollection` in your *05 Provide* subaccount in the global account for development. See [Access to Landscape Portal](order-and-provide-975bd3e.md#loio195a685a71f84953813e7b3bd255e849).
 -   You’ve set up the maintenance system landscape. See [Set Up Maintenance System Landscape](maintain-9721f0f.md#loio44035458f01e4142a18d44f9c0301e62).
 
 
@@ -553,7 +555,7 @@ Patch versions are used to deliver unplanned and urgent corrections that are req
     ```
 
 7.  Select *Commit Changes* and start the build pipeline.
-8.  To provide the new version 1.0.1 to customers, open the *Landscape Portal* in your *05 Provide* subaccount. Select the desired system and choose *Add-On Update*.
+8.  To provide the new version 1.0.1 to customers, open the *Landscape Portal* in your *05 Provide* subaccount in the global account for development. Select the desired system and choose *Add-On Update*.
 
 
 
@@ -579,7 +581,7 @@ Support package versions are used to deliver planned functional enhancements out
     ```
 
 6.  Select *Commit Changes* and start the build pipeline.
-7.  To provide the new version 1.1.0 to customers, open the *Landscape Portal* in your *05 Provide* subaccount. Select the desired system and choose *Add-On Update*.
+7.  To provide the new version 1.1.0 to customers, open the *Landscape Portal* in your *05 Provide* subaccount in the global account for development. Select the desired system and choose *Add-On Update*.
 
 
 
@@ -605,7 +607,7 @@ Release versions are used to deliver new major, planned functional enhancements.
     ```
 
 6.  Select *Commit Changes* and start the build pipeline.
-7.  To provide the new version v2.0.0 to customers, open the *Landscape Portal* in your *05 Provide* subaccount. Select the desired system and choose *Add-On Update*.
+7.  To provide the new version v2.0.0 to customers, open the *Landscape Portal* in your *05 Provide* subaccount in the global account for development. Select the desired system and choose *Add-On Update*.
 
 **Related Information**  
 

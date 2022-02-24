@@ -66,9 +66,9 @@ The [Glossary](glossary-6e251fa.md) contains a list of all the technical terms a
 -   [Develop, Test, Build](develop-test-build-3bf575a.md#loio3bf575a3dc5043f895f8bd411d2a86a1)
 -   [Configure and Implement a Customer Project](configure-and-implement-a-customer-project-363d2ea.md#loio363d2ea033b14ecfa5c67cf8d3e7cb01)
 -   [Set Up Maintenance System Landscape](maintain-9721f0f.md#loio44035458f01e4142a18d44f9c0301e62)
--   [Create Update for SaaS Solution](maintain-9721f0f.md#loioa35582346bff4914a5b4b0bcb776668c)
--   [Trigger Add-On Product Build](maintain-9721f0f.md#loio7f6988a9a9f94845825d8c7ff66990fb)
--   [Apply Update for SaaS Solution](maintain-9721f0f.md#loio0a80d4c5c079435e9aca4eb9e6841de9)
+-   [Create Add-On Update](maintain-9721f0f.md#loioa35582346bff4914a5b4b0bcb776668c)
+-   [Trigger Add-On Build Pipeline](maintain-9721f0f.md#loio7f6988a9a9f94845825d8c7ff66990fb)
+-   [Deploy Add-On Update](maintain-9721f0f.md#loio0a80d4c5c079435e9aca4eb9e6841de9)
 -   [Dismantle](dismantle-35a5882.md)
 
 **Related Information**  

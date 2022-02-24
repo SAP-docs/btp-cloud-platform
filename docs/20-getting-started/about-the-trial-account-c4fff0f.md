@@ -13,7 +13,7 @@ A trial account lets you try out the Kyma environment for free with a restricted
 With a trial account, you can explore and use the basic functionality of the Kyma environment for 30 days. You can extend the trial period to a maximum of 365 days. After 365 days, your account is automatically deleted. After your trial account has been deleted, you’ll no longer be able to access your data.
 
 > ### Caution:  
-> Once your account has expired, your cluster is suspended, which means that the cluster will be deprovisioned and all the cluster resources will be removed. We recommend that you back up your cluster configuration to redeploy it quickly in case of runtime unsuspension. To unsuspend your cluster, extend your trial account, which will automatically provision your cluster back with the same domain. This process may take a while. When your cluster is up and running, assign roles to the users to re-enable access to the Kyma Console.
+> Once your account has expired, your cluster is suspended, which means that the cluster will be deprovisioned and all the cluster resources will be removed. We recommend that you back up your cluster configuration to redeploy it quickly in case of runtime unsuspension. To unsuspend your cluster, extend your trial account, which will automatically provision your cluster back with the same domain. This process may take a while. When your cluster is up and running, assign roles to the users to re-enable access to the Kyma Console/Dashboard.
 
 
 

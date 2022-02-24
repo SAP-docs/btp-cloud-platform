@@ -12,7 +12,7 @@ After creating a DSN, you can use this DSN in an ODBC client tool of your choice
 
 2.  In the menu, choose *Data* \> *Get Data* \> *From Other Sources* \> *From ODBC*.
 
-3.  In the following popup, enter the newly defined DSN.
+3.  In the following popup, enter the DSN.
 
 4.  In the *Database* section of the popup, you're prompted for user and password to log on to the ABAP system. Enter the user and password that you remember from when you created the communication system \(see [Creating a Communication System and a Communication User](creating-a-communication-system-and-a-communication-user-28881fb.md)\).
 
@@ -27,8 +27,6 @@ After creating a DSN, you can use this DSN in an ODBC client tool of your choice
     When you load the data into an Excel sheet, you can always refresh the data if needed.
 
 8.  To execute a free-style SQL query on the exposed entities, choose *Data* \> *Get Data* \> *From Other Sources* \> *From ODBC* again from the menu in Excel and then choose *Advanced Options*.
-
-    A new control is opened that allows you to enter a `SELECT` statement directly.
 
 9.  In the new control, you can enter a `SELECT` statement.
 

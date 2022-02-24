@@ -1,5 +1,25 @@
-# Treating MD files (and others) in docs folder as text (enforcing LFs to be used) 
-docs/**/*.{md,css,txt,html,yaml,yml,js} text eol=lf
+# Auto detect text files and perform LF normalization
+*          text=auto
 
-# Treating images and icons as binary in docs folder
-docs/**/*.{png,jpg,jpeg,gif,woff,ttf,eot,pptx} binary
+#
+# The above will handle all files NOT found below
+#
+
+# Treating MD files (and others) as text (enforcing LFs to be used) 
+*.md text eol=lf
+*.css text eol=lf
+*.txt text eol=lf
+*.html text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.js text eol=lf
+*.xml test eol=lf
+
+# Treating images and icons as binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.woff binary
+*.ttf binary
+*.eot binary
+*.pptx binary

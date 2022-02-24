@@ -10,7 +10,7 @@ With the Kyma environment, you can extend the SAP and non-SAP services to build 
 
 ## Context
 
-To use functionality provided by external services in your applications, perform the following steps either in the Kyma Console or kubectl.
+To use functionality provided by external services in your applications, perform the following steps either in the Kyma Console/Dashboard or kubectl.
 
 
 

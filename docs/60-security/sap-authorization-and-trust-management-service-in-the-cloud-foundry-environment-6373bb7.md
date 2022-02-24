@@ -16,10 +16,10 @@ The global account and subaccounts get their users from identity providers. Admi
 -   [6373bb7a96114d619bfdfdc6f505d1b9.md\#loio6373bb7a96114d619bfdfdc6f505d1b9\_\_subsection-im1](sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md#loio6373bb7a96114d619bfdfdc6f505d1b9__subsection-im1)
 -   [6373bb7a96114d619bfdfdc6f505d1b9.md\#loio6373bb7a96114d619bfdfdc6f505d1b9\_\_subsection-im2](sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md#loio6373bb7a96114d619bfdfdc6f505d1b9__subsection-im2)
 -   [6373bb7a96114d619bfdfdc6f505d1b9.md\#loio6373bb7a96114d619bfdfdc6f505d1b9\_\_subsection-im3](sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md#loio6373bb7a96114d619bfdfdc6f505d1b9__subsection-im3)
--   [6373bb7a96114d619bfdfdc6f505d1b9.md\#loio6373bb7a96114d619bfdfdc6f505d1b9\_\_subsection-im7](sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md#loio6373bb7a96114d619bfdfdc6f505d1b9__subsection-im7)
 -   [6373bb7a96114d619bfdfdc6f505d1b9.md\#loio6373bb7a96114d619bfdfdc6f505d1b9\_\_subsection-im4](sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md#loio6373bb7a96114d619bfdfdc6f505d1b9__subsection-im4)
 -   [6373bb7a96114d619bfdfdc6f505d1b9.md\#loio6373bb7a96114d619bfdfdc6f505d1b9\_\_subsection-im5](sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md#loio6373bb7a96114d619bfdfdc6f505d1b9__subsection-im5)
 -   [6373bb7a96114d619bfdfdc6f505d1b9.md\#loio6373bb7a96114d619bfdfdc6f505d1b9\_\_subsection-im6](sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md#loio6373bb7a96114d619bfdfdc6f505d1b9__subsection-im6)
+-   [6373bb7a96114d619bfdfdc6f505d1b9.md\#loio6373bb7a96114d619bfdfdc6f505d1b9\_\_subsection-im7](sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md#loio6373bb7a96114d619bfdfdc6f505d1b9__subsection-im7)
 
 
 
@@ -302,7 +302,7 @@ We recommend that you request your own Identity Authentication tenant, but you c
 
 For business users:
 
--   [Establish Trust and Federation Between UAA and Identity Authentication](../50-administration-and-ops/establish-trust-and-federation-between-uaa-and-identity-authentication-161f8f0.md#loio161f8f0cfac64c4fa2d973bc5f08a894)
+-   [Establish Trust and Federation Between UAA and Identity Authentication](../50-administration-and-ops/establish-trust-and-federation-between-uaa-and-identity-authentication-161f8f0.md)
 
 -   [Manually Establish Trust and Federation Between UAA and Identity Authentication](../50-administration-and-ops/manually-establish-trust-and-federation-between-uaa-and-identity-authentication-7c6aa87.md#loio7c6aa87459764b179aeccadccd4f91f3)
 
@@ -522,6 +522,8 @@ Our troubleshooting information can be found in our Guided Answers [Troubleshoot
 -   [Cannot Add Role Templates to Predefined Role Collections](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:35574)
 
 -   [502 Error: Call to /oauth/token Was Not Successful](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:40211)
+
+-   [Unexpected AuthnResponse : Existing authentication - <User\>](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:48205)
 
 
 

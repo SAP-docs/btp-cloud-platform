@@ -37,7 +37,7 @@ The **OData Client Proxy** is available in different configurations, depending o
 > ### Note:  
 > The above mentioned configurations \(for example, the OData version and the consumption type\) depend on each other. There is, for example, a local OData V2 Client Proxy or a remote OData V4 Client Proxy, but not a local Client Proxy independent of the OData version. Exception: the asynchronous Client Proxy is only available for remote consumption of OData V4 services.
 
-![](images/54c86134574b4098aa46b3f5a8106ad4.image)
+ ![](images/OData_Client_Proxy_Overview_Cloud_and_SP_8aaca21.png) 
 
 > ### Restriction:  
 > For known constraints of the Client Proxy, refer to SAP note [2428114 - SAP Gateway Foundation SAP\_GWFND OData Client Proxy - Known Constraints](https://launchpad.support.sap.com/#/notes/2428114).

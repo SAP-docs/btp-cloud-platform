@@ -59,7 +59,7 @@ The syntax required to set the properties and values defined in the `xs-security
  "authorities":["$ACCEPT_GRANTED_AUTHORITIES"],
  "oauth2-configuration": {
                     "token-validity": 900, 
-                    "redirect-uris": ["https://myapp.cfapps.eu10.hana.ondemand.com","http://myapp.mydomain.com/my/logout"] 
+                    "redirect-uris": ["https://myapp.cfapps.eu10.hana.ondemand.com","https://myapp.mydomain.com/my/logout"] 
                     "credential-types": ["binding-secret","x509"]
  },
  "xsenableasyncservice":"true"
@@ -876,7 +876,7 @@ The `xsuaa` service broker registers and uses these values for the configuration
 >      "token-validity": 43200, 
 >      "redirect-uris": [
 > 	     "https://myapp.cfapps.eu10.hana.ondemand.com",
->           "http://myapp.mydomain.com/my/content"],
+>           "https://myapp.mydomain.com/my/content"],
 >      "refresh-token-validity": 1800,
 >      "credential-types": ["binding-secret","x509"],
 >      "system-attributes ": ["groups","rolecollections"],
@@ -927,12 +927,15 @@ Sets the token lifetime in seconds for access and ID tokens issued by SAP Author
 
 Default: 43200 seconds \(12 hours\)
 
+> ### Recommendation:  
+> Relaxing the token policy means that users reauthenticate less. However, increasing the token validity also means that if a malicious user manages to steal a token, that malicious user has access until the token expires. Keep token validity as short as possible, but not less than 30 minutes.
+
 
 
 </td>
 <td valign="top">
 
- `900` \(15 minutes\)
+ `1800` \(30 minutes\)
 
 
 
@@ -987,7 +990,7 @@ For more information, see [Domain Checks at Browser Login and Logout](domain-che
 </td>
 <td valign="top">
 
- <code>["http://<i class="varname">&lt;application_ hostname1&gt;</i>.<i class="varname">&lt;landscape_domain&gt;</i><i class="varname">&lt;path&gt;</i>","http://<i class="varname">&lt;application_ hostname2&gt;</i>.<i class="varname">&lt;custom_domain&gt;</i><i class="varname">&lt;path&gt;</i>"]</code> 
+ <code>["https://<i class="varname">&lt;application_ hostname1&gt;</i>.<i class="varname">&lt;landscape_domain&gt;</i><i class="varname">&lt;path&gt;</i>","https://<i class="varname">&lt;application_ hostname2&gt;</i>.<i class="varname">&lt;custom_domain&gt;</i><i class="varname">&lt;path&gt;</i>"]</code> 
 
 
 

@@ -72,5 +72,21 @@ Python
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+[Create a Node.js Application via cf CLI](https://developers.sap.com/tutorials/btp-cf-buildpacks-node-create.html)
+
+
+
+</td>
+<td valign="top">
+
+Node.js
+
+
+
+</td>
+</tr>
 </table>
 

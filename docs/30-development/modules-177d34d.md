@@ -10,7 +10,18 @@ The following elements are mandatory:
 
 -   `type` - defines which deployment mechanism to be used for this module
 
-Optional module attributes include: `path`, `description`, `properties`, and `parameters`, `deployed-after`, and in addition `requires` and `provides` lists.
+Optional module attributes include:
+
+-   `path` -the file-system path relative to the root of the MTA directory. The content of the file is used to create or update the CF app or content, depending on the module target. The `path` is used only during MTA build. In already build MTA archive \(MTAR\), path is ignored and only corresponding entry in `MANIFEST.MF` for the module is processed.
+
+    The path is applicable only when MTA is assembled based on deployment descriptor \(mtad.yaml\), and not on development descriptor \(mta.yaml\)
+
+-   `description` - non-translatable, free-text string; the string is not meant to be presented on application user interfaces \(UI\)
+-   `properties` - a structured set of name-value pairs; if a module, which requires the resource, represents a CF application, the resource properties are injected into the environment of the application
+-   `parameters` - reserved variables that affect the behavior of the MTA-aware tools, such as the deployer
+-   `deployed-after` - the attribute is used to create an order, in which modules should be processed. If a module has this attribute, it will be processed after the other modules in a higher position are processed. The attribute value is a structured set of a list comprised of other module names of the same MTA.
+-   `requires` - specifies the names of `requires`sections provided in `resource` that have been declared for the same MTA. Tools check if all required names are provided within the MTA
+-   `provides` - specifies the names of `provides` sections, each containing configuration data; the data provided can be `required` by other `modules` in the same MTA
 
 > ### Tip:  
 > Modules can be deployed in parallel. See [Parallel Module Deployment](parallel-module-deployment-0384158.md).

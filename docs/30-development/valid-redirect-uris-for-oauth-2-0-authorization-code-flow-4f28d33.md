@@ -9,7 +9,7 @@ At runtime, the User Account and Authentication service checks the redirect URI 
 > ### Sample Code:  
 > ```
 > "oauth2-configuration": {
->         "redirect-uris": ["http://<host_name1>","http://<host_name2>"] 
+>         "redirect-uris": ["https://<host_name1>","https://<host_name2>"] 
 > }
 > ```
 
