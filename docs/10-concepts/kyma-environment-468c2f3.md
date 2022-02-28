@@ -12,6 +12,9 @@ Kyma environment provides a fully managed Kubernetes runtime based on the open-s
 
 The offered functionality ensures smooth consumption of SAP and non-SAP applications, running workloads in a highly scalable environment, and building event-based and API-based extensions.
 
+> ### Note:  
+> As of release 2.0, Kyma as a managed service automatically checks all Kyma-managed resources. Any unexpected modifications are discarded, and the resource is reverted to the original state.
+
 Every Kyma environment consists of:
 
 -   A Kubernetes cluster provisioned through project "Gardener" on a cloud provider and region \(data center\) of your choice. To find out the available regions and providers, see [Regions for the Kyma Environment](regions-for-the-kyma-environment-557ec3a.md).

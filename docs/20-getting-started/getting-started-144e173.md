@@ -35,7 +35,7 @@ Depending on your use case, follow the appropriate workflow:
 
 <a name="loio144e1733d0d64d58a7176e817fa6aeb3__section_r2t_2rw_slb"/>
 
-## Additional Ressources
+## Additional Resources
 
 The SAP Developer Center provides further resources to get you started:
 

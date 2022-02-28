@@ -50,4 +50,17 @@ Follow these instructions to get familiar with Functions and learn how to use th
 
 5.  Configure your Function to react to events \([Trigger a workload with an event](https://kyma-project.io/docs/kyma/latest/02-get-started/04-trigger-workload-with-event/)\).
 
+    To subscribe to events with Kyma version 2.0, you need to create a [Subcription](https://kyma-project.io/docs/kyma/latest/02-get-started/04-trigger-workload-with-event/#create-a-subscription) including the following parameters:
+
+    -   **Application name**: The name of the external Application connected to Kyma runtime. Typically, it starts with `mp-*`. This name can be found in the UI under *Integration* \> *Applications*. It must be bound to the Namespace.
+    -   **Event name**: The event name depends on your CX solution:
+        -   [SAP Commerce Cloud](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/2105/en-US/81d15ea98eaa451594dac05a9d3f06b5.html) - for custom events, check the configuration of your [Destination Target](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/2105/en-US/3e882f46581a46f0ba9518a90d268c56.html) for the Kyma runtime
+        -   [SAP Field Service Management](https://help.sap.com/viewer/fsm_integration/Cloud/en-US/kyma-connector.html)
+        -   [SAP Sales Cloud / SAP Service Cloud](https://help.sap.com/viewer/d5fec61c279741048109d851d4d3d1ad/LATEST/en-US/f9d56b2aeb3f42ddb8770fd31d4a115f.html) - you can check the event specification in *Event Notification Monitoring*.
+
+    -   **Event version**: **v1** for legacy events or **v2** for CloudEvents
+
+    > ### Caution:  
+    > Your Function must be error-free, or else event loss could occur. If you are facing problems, check the Kyma [Troubleshooting documentation](https://kyma-project.io/docs/kyma/latest/04-operation-guides/troubleshooting/).
+
 
