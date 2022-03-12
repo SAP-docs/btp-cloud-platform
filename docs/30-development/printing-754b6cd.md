@@ -23,7 +23,7 @@ If a print queue item has been created successfully, it returns the ID of the it
 
 > ### Example:  
 
-```lang-abap
+```abap
 CLASS zcl_pq_test DEFINITION
   PUBLIC
   FINAL

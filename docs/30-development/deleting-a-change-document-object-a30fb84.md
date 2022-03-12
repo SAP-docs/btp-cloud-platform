@@ -345,7 +345,7 @@ Short text of the message
 </table>
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > 
 > CLASS zcl_chdo_delete_object DEFINITION
 >   PUBLIC

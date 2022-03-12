@@ -5,7 +5,7 @@
 The following code sample illustrates how a complete RAP business object, starting from domains for fixed values all the way up to a service binding, can be generated with the XCO Generation APIs:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > "! Code sample for executing PUT operations to generate a full RAP business object.
 > "!
 > "! IMPORTANT: The values of the constants CO_PACKAGE and CO_TRANSPORT must be replaced
@@ -349,7 +349,7 @@ The following code sample illustrates how a complete RAP business object, starti
 All objects generated with the previous code sample can also be deleted again:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > "! Code sample for executing DELETE operations to delete all objects of a full RAP business
 > "! object.
 > "!

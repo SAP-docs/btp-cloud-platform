@@ -8,14 +8,14 @@ Dimension views provide additional attributes for the dimension fields in the cu
 
 1.  Add the mandatory header annotions for dimensions:
 
-    ```lang-abap
+    ```abap
     @Analytics.dataCategory: #DIMENSION
     @ObjectModel.representativeKey: 'CarrierID'
     ```
 
 2.  Choose the data source that you would like to select from.
 
-    ```lang-abap
+    ```abap
     define view entity Z_AIRLINE_VE_DIM
       as select from /dmo/carrier as Airline
     ```
@@ -24,7 +24,7 @@ Dimension views provide additional attributes for the dimension fields in the cu
 
     **Fields Definition**
 
-    ```lang-abap
+    ```abap
     key   Airline.carrier_id    as CarrierId,
           Airline.name          as AirlineName,     
           Airline.currency_code as CurrencyCode
@@ -34,7 +34,7 @@ Dimension views provide additional attributes for the dimension fields in the cu
 
     **Fields Annotations**
 
-    ```lang-abap
+    ```abap
      @ObjectModel.text.element: ['AirlineName']
     key Airline.carrier_id    as CarrierId,
      
@@ -63,7 +63,7 @@ Dimension views provide additional attributes for the dimension fields in the cu
 
 **Z\_AIRLINE\_VE\_DIM**
 
-```lang-abap
+```abap
 @AbapCatalog.viewEnhancementCategory: [#NONE]
 @AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Airline View Entity - CDS Data Model'
@@ -110,7 +110,7 @@ For more information on the annotations, see [CDS Annotations](https://help.sap.
 
 **Z\_CUSTOMER\_VE\_DIM**
 
-```lang-abap
+```abap
 @AbapCatalog.viewEnhancementCategory: [#NONE]
 @AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Customer View Entity - CDS View Model'
@@ -147,7 +147,7 @@ association [1] to I_Country as _Country on Customer.country_code = _Country.Cou
 
 **Z\_CONNECTION\_VE\_DIM**
 
-```lang-abap
+```abap
 @AbapCatalog.viewEnhancementCategory: [#NONE]
 @AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Connection View Entity - CDS View Model'
@@ -182,7 +182,7 @@ association [1] to Z_AIRLINE_VE_DIM as _Airline on Connection.carrier_id = _Airl
 
 **Z\_Agency\_VE\_DIM**
 
-```lang-abap
+```abap
 @AbapCatalog.viewEnhancementCategory: [#NONE]
 @AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Agency View - CDS View Entity Model'

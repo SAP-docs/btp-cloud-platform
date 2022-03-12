@@ -32,7 +32,7 @@ The following examples show various ways that you can use autocompletion:
 
 -   Enter `btp` and press [Tab\] to display all available actions:
 
-    ```nocode
+    ```
     ./btp [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/strong/emph
          {""}) TAB (emph]
     add          create       enable       list         logout       register     subscribe    unassign     unsubscribe
@@ -42,7 +42,7 @@ The following examples show various ways that you can use autocompletion:
 
 -   Partially enter `btp cre` and press [Tab\] to autocomplete the command to `btp create`. Then, press [Tab\] again to display a suggested list of group-object combinations:
 
-    ```nocode
+    ```
     ./btp create [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/strong/emph
          {""}) TAB (emph]
     accounts/directory             accounts/resource-provider     security/role                  services/binding
@@ -52,7 +52,7 @@ The following examples show various ways that you can use autocompletion:
 
 -   Partially enter a group and press [Tab\] to display a suggested list of objects:
 
-    ```nocode
+    ```
     ./btp create accounts[/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/strong/emph
          {""}) TAB (emph]
     accounts/directory             accounts/environment-instance  accounts/resource-provider     accounts/subaccount
@@ -60,7 +60,7 @@ The following examples show various ways that you can use autocompletion:
 
 -   Partially enter a parameter and press [Tab\] to display a suggested list of parameters:
 
-    ```nocode
+    ```
     ./btp create accounts/subaccount -[/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/strong/emph
          {""}) TAB (emph]
     --beta-enabled
@@ -103,7 +103,7 @@ The following examples show various ways that you can use autocompletion:
 
     For example:
 
-    ```nocode
+    ```
     ./btp enable autocomplete powershell
     This will install the autocomplete plugin script for powershell to C:\AppData\btp\autocomplete\scripts. Do you want to continue? [no]>y
     Which RCFile should be used for the installation?

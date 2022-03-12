@@ -107,7 +107,7 @@ The SAP SaaS Provisioning service allows application providers to register multi
 
                 Specify the `xsappname` of each of your dependencies.
 
-                ```nocode
+                ```
                 
                     {
                         "xsappname": "..."     # The xsappname of the reusable service instance that the application consumes.

@@ -88,7 +88,7 @@ You must edit the access control code to implement access control for the CDS vi
 1.  Choose the access control that you’ve created, which currently looks like the following:
 
     > ### Sample Code:  
-    > ```lang-abap
+    > ```abap
     > @EndUserText.label: '<your access control description>'
     > @MappingRole: true
     > define role <your access control name> {
@@ -104,7 +104,7 @@ You must edit the access control code to implement access control for the CDS vi
 2.  Adapt the code so that it grants access if the requesting business user has authorizations that contain authorization object `ZBNSCLC_AO` \(*Bonus Calculation*\) with allowed activity \(`ACTVT`\) *03 Display* and bonus variant \(`ZBNS_VARNT`\) values that match the bonus variant \(`bonusvariant`\) of the existing bonus calculation:
 
     > ### Sample Code:  
-    > ```lang-abap
+    > ```abap
     > @EndUserText.label: 'Access Control for CDS Z_I_BONUS_CALCULATION'
     > @MappingRole: true
     > define role Z_I_BONUS_CALCULATION {

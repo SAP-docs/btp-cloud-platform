@@ -81,7 +81,7 @@ For more information, see:
     > ### Sample Code:  
     > manifest.yml for a development phase:
     > 
-    > ```nocode
+    > ```
     > ---
     > applications:
     > 
@@ -104,7 +104,7 @@ For more information, see:
     > ### Sample Code:  
     > manifest.yml for a production phase:
     > 
-    > ```nocode
+    > ```
     > ---
     > applications:
     > 

@@ -109,3 +109,5 @@ You can also create some test data in the tables using the following ABAP sample
 > 
 > ```
 
+To be able to use regions to control data access, the ABAP class for filling the tables also fills a `ZREGIONS` table and includes a region in the orders.
+

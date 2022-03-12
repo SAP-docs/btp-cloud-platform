@@ -98,7 +98,7 @@ ERROR
 > Class exception `CX_UOM_ERROR` is raised to check the integrity of the data import parameters.
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > CLASS zcl_uom_unit_delete_test DEFINITION 
 >   PUBLIC 
 >   FINAL 

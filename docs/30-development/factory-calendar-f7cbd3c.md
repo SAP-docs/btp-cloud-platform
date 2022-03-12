@@ -18,7 +18,7 @@ A factory calendar is based on a country-specific holiday calendar and defines w
 Read on to learn about the set of data we deliver for these categories.
 
 > ### Note:  
-> Class `CL_SCAL_API` is still available. Starting with this release, preferably use class `CL_FHC_CALENDAR_RUNTIME` and the related interfaces.
+> Class `CL_SCAL_API` is still available, but deprecated. We recommend that you use class `CL_FHC_CALENDAR_RUNTIME` and the related interfaces instead.
 
 > ### Caution:  
 > The following HANA SQL functions are currently not supported:
@@ -106,7 +106,7 @@ Provides a holiday runtime
 </table>
 
 > ### Sample Code:  
-> ```lang-html
+> ```html
 > 
 > try.
 >    data(lo_fcal_run) = cl_fhc_calendar_runtime=>create_factorycalendar_runtime ( 
@@ -356,7 +356,7 @@ Provides the ID of the Factory Calendar
 </table>
 
 > ### Sample Code:  
-> ```lang-html
+> ```html
 > 
 > try.
 >     data(lv_date) = lo_fcal_run->convert_factorydate_to_date(
@@ -714,7 +714,7 @@ Provides the year and week of a date
 </table>
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > try.
 >         cl_scal_utils=>date_get_week(
 >           exporting

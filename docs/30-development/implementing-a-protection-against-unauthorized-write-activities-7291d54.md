@@ -21,7 +21,7 @@ Among the methods of the behavior implementation, you add methods that check the
 2.  In the `PRIVATE SECTION` in the handler class of the behavior implementation, define the methods for authorization checks for creation, update and deletion.
 
     > ### Sample Code:  
-    > ```lang-abap
+    > ```abap
     >   METHODS get_global_authorizations FOR GLOBAL AUTHORIZATION
     >     IMPORTING REQUEST requested_authorizations FOR <behavior definition or its alias> RESULT result.
     > 
@@ -30,7 +30,7 @@ Among the methods of the behavior implementation, you add methods that check the
     In the bonus calculation example, these method definitions could be the following:
 
     > ### Sample Code:  
-    > ```lang-abap
+    > ```abap
     >   METHODS get_global_authorizations FOR GLOBAL AUTHORIZATION
     >     IMPORTING REQUEST requested_authorizations FOR calculation RESULT result.
     > 
@@ -44,7 +44,7 @@ Among the methods of the behavior implementation, you add methods that check the
     In the bonus calculation example, this method could be the following:
 
     > ### Sample Code:  
-    > ```lang-abap
+    > ```abap
     >   METHOD get_global_authorizations.
     >   
     >     IF requested_authorizations-%create EQ if_abap_behv=>mk-on.

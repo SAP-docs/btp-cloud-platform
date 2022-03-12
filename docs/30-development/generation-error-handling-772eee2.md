@@ -5,7 +5,7 @@
 Any errors that occur during the execution of a PUT or DELETE operation are communicated via exceptions of types CX\_XCO\_GEN\_PUT\_EXCEPTION and CX\_XCO\_GEN\_DELETE\_EXCEPTION. The following code sample shows how the findings of a failed PUT operation can be extracted:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > "! Code sample for handling errors of a PUT operation.
 > "!
 > "! IMPORTANT: The values of the constants CO_PACKAGE and CO_TRANSPORT must be replaced

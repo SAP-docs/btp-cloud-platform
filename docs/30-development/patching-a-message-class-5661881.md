@@ -5,7 +5,7 @@
 The following code sample illustrates how PATCH operations can be used to change parts of an existing messages class:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > "! <p class="shorttext synchronized" lang="EN">
 > "!  XCO Documentation CP: Generation PATCH
 > "! </p>

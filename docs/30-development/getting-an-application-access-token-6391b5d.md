@@ -31,7 +31,7 @@ See the step 3 in the [Register the Multitenant Application to the SAP SaaS Prov
 The example of the binding object you get after executing the cf CLI command, with the needed values for the API \(`clientid`, `clientsecret`, and `url`\) marked in bold:
 
 > ### Sample Code:  
-> ```nocode
+> ```
 > "saas-registry": [
 > {
 > "credentials": {

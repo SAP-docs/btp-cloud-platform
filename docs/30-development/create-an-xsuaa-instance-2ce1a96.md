@@ -7,13 +7,13 @@
 1.  Create a security descriptor file in JSON format that specifies the functional authorization scopes for the application:
     1.  Define the application provider tenant as a shared tenant:
 
-        ```lang-json
+        ```json
         "tenant-mode":"shared"
         ```
 
     2.  Provide access to the `SaaS Provisioning` service \(`saas-registry`\) for calling callbacks and getting the dependencies API by granting scopes:
 
-        ```lang-json
+        ```json
         "grant-as-authority-to-apps" : [ "$XSAPPNAME(application,sap-provisioning,tenant-onboarding)"]
         ```
 
@@ -33,13 +33,13 @@
 
     4.  Define a foreign scope reference to ensure a token exchange will be possible and the ABAP systems can be called:
 
-        ```lang-json
+        ```json
         "foreign-scope-references": ["uaa.user"],
         ```
 
         Security descriptor file in JSON format:
 
-        ```lang-json
+        ```json
         {
             "xsappname": "abap-saas-app",
             "tenant-mode": "shared",
@@ -71,7 +71,7 @@
 
     In the Cloud Foundry space in the provider's subaccount where your application is going to be deployed \(see [Deploy the Multitenant Application to the Provider Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2204416a491f4068ba36066ca1aa9ca0.html)\), create an xsuaa service instance with the security configurations, which you defined in the security descriptor file in the previous step, by executing this command in the Cloud Foundry command line interface \(cf CLI\):
 
-    ```lang-json
+    ```json
     cf create-service xsuaa application <XSUAA_INSTANCE_NAME> -c <XS_SECURITY_JSON>
     ```
 
@@ -129,7 +129,7 @@
     </tr>
     </table>
     
-    ```lang-json
+    ```json
     cf create-service xsuaa application xsuaa-application -c xs-security.json
     ```
 

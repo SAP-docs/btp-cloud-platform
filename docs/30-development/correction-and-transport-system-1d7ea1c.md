@@ -17,7 +17,7 @@ A prerequisite for creating a new Workbench transport is a valid transport targe
 Using the XCO ABAP Repository APIs the transport layer and transport target associated with a given structure package can be determined easily:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(ls_package) = xco_cp_abap_repository=>package->for( 'ZMY_STRUCTURE_PACKAGE'
 >   )->read( ).
 > 
@@ -28,7 +28,7 @@ Using the XCO ABAP Repository APIs the transport layer and transport target asso
 Once the correct transport target has been determined a new transport request can be created like this:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_transport_request) = xco_cp_cts=>transports->workbench( lv_transport_target
 >   )->create_request( 'My generated Workbench transport request' ).
 > ```
@@ -36,7 +36,7 @@ Once the correct transport target has been determined a new transport request ca
 This statement will create a new workbench transport request with one unclassified task in the name of the active user. Once all required changes have been recorded on the tasks of the transport request releasing the transport request along with all open tasks is performed as follows:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lt_transport_tasks) = lo_transport_request->get_tasks( ).
 > 
 > LOOP AT lt_transport_tasks INTO DATA(lo_transport_task).
@@ -51,7 +51,7 @@ This statement will create a new workbench transport request with one unclassifi
 Besides being able to easily release transport tasks and requests, it is also possible to protect and unprotect transport requests:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > " Protect a transport request.
 > lo_transport_request->protect( ).
 > 
@@ -68,7 +68,7 @@ Besides being able to easily release transport tasks and requests, it is also po
 A Customizing transport request for a given transport target can be created as follows:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_transport_request) = xco_cp_cts=>transports->customizing( '$TRANSPORT_TARGET$'
 >   )->create_request( 'My generated Customizing transport request' ).
 > ```
@@ -110,7 +110,7 @@ Specific to the CTS transport Query APIs is the concept of a resolution that is 
 As an example, obtaining a list of transport requests for a given target on which the current user has at least one modifiable task can be accomplished like:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_current_user) = xco_cp=>sy->user( ).
 > 
 > DATA(lo_kind_filter) = xco_cp_transport=>filter->kind( xco_cp_transport=>kind->task ).
@@ -144,7 +144,7 @@ The XCO CTS module integrates directly into the XCO ABAP Repository module which
 With this integration, locating all domains on a given transport is as easy as
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_transport) = xco_cp_cts=>transport->for( '...' ).
 > 
 > DATA(lt_domains) = xco_cp_abap_repository=>objects->doma->all->in( lo_transport )->get( ).
@@ -156,7 +156,7 @@ All filters that can be applied when objects are being queried in a package or t
 Conversely, it is also possible to check if a given ABAP Repository object is currently locked on a transport request:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_domain) = xco_cp_abap_repository=>object->doma->for( 'ZMY_DOMAIN' ).
 > 
 > IF lo_domain->if_xco_cts_changeable~get_object( )->is_locked( ) EQ abap_true.

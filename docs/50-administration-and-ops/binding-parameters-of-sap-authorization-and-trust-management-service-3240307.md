@@ -26,7 +26,7 @@ Set parameters according to the following use cases:
 
 [Parameters for Suppressing Client Secrets](parameters-for-suppressing-client-secrets-974ac87.md "When binding or creating a service key for an xsuaa service instance, you can pass some parameters in JSON format or in a JSON file (see cf bind-service and cf create-service-key in the related links). The &quot;hide-secret&quot; element enables you to suppress the client secret when binding or creating a service key. It's useful if some applications only want to bind the xsuaa service for authorization purposes.")
 
-[Parameters for X.509 Certificates Managed by SAP Authorization and Trust Management Service](parameters-for-x-509-certificates-managed-by-sap-authorization-and-trust-management-servi-436ed68.md "Use the parameters to have the service generate X.509 certificates for you.")
+[Parameters for X.509 Certificates Managed by SAP Authorization and Trust Management Service](parameters-for-x-509-certificates-managed-by-sap-authorization-and-trust-management-ser-436ed68.md "Use the parameters to have the service generate X.509 certificates for you.")
 
 [Parameters for Self-Managed X.509 Certificates](parameters-for-self-managed-x-509-certificates-5168df6.md "Use these parameters to provide your own certificates for a binding or service key to service instances of the SAP Authorization and Trust Management service (XSUAA).")
 

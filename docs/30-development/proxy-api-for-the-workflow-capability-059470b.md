@@ -21,7 +21,7 @@ You've executed the integration steps in your ABAP environment. See [Workflow In
 > ### Sample Code:  
 > This coding sample shows how to start a workflow of the workflow capability.
 > 
-> ```lang-abap
+> ```abap
 > 
 >     TYPES: BEGIN OF ty_context,
 >              some_property TYPE string,
@@ -48,7 +48,7 @@ You've executed the integration steps in your ABAP environment. See [Workflow In
 > ### Sample Code:  
 > This coding sample shows a completion callback that includes reading the context.
 > 
-> ```lang-abap
+> ```abap
 > 
 >   METHOD if_swf_cpwf_callback~workflow_instance_completed.
 >     TYPES: BEGIN OF ty_context,
@@ -81,7 +81,7 @@ You've executed the integration steps in your ABAP environment. See [Workflow In
 > ### Sample Code:  
 > This coding sample shows the raising of an event towards SAP Business Technology Platform.
 > 
-> ```lang-abap
+> ```abap
 > 
 >     TYPES: BEGIN OF ty_example_context,
 >              value TYPE int4,

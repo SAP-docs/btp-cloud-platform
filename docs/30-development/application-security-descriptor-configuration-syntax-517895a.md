@@ -6,7 +6,7 @@ The syntax required to set the properties and values defined in the `xs-security
 
 
 
-```nocode
+```
 {
   "xsappname" : "node-hello-world", 
   "scopes"     : [ { 
@@ -80,7 +80,7 @@ The syntax required to set the properties and values defined in the `xs-security
 
 Use the `xsappname` property to specify the name of the application that the security description applies to.
 
-```lang-json
+```json
 
   "xsappname" : "<app-name>",
 
@@ -106,7 +106,7 @@ Use the custom `tenant-mode` property to define the way the tenant's OAuth clien
 During the binding of the `xsuaa` service, the UAA service broker writes the tenant mode into the credential section. The application router uses the tenant mode information for the implementation of multitenancy with the application service plan.
 
 > ### Sample Code:  
-> ```lang-json
+> ```json
 > { 
 >      "xsappname"     : "<application_name>", 
 >      "tenant-mode"   : "shared", 
@@ -204,7 +204,7 @@ A tenant has multiple subscriptions to applications. For each subscription to an
 
 In the application security file \(`xs-security.json`\), the `scopes` property defines an array of one or more security scopes that apply for an application. You can define multiple `scopes`; each scope has a name and a short description. The list of scopes defined in the `xs-security.json`**local** and **foreign** scopes; that is, the permissions the application requires to be able to respond to all requests. file is used to authorize the OAuth client of the application with the correct set of
 
-```lang-json
+```json
 "scopes": [ 
             { 
               "name" : "$XSAPPNAME.Display", 
@@ -288,7 +288,7 @@ Bear in mind the following restrictions regarding the length and content of a sc
 
 In the application security descriptor \(`xs-security.json`\), the `attributes` property enables you to define an array, listing one or more attributes that are applied to the role templates also defined in the `xs-security.json` element is only relevant for user scenarios file. You can define multiple `attributes`.
 
-```lang-json
+```json
 "attributes" : [ 
      { 
       "name" : "Country", 
@@ -680,7 +680,7 @@ The `role-collections` property only makes sense if application developers refer
 > The `role-collections` element can only reference role templates of the same subaccount.
 
 > ### Sample Code:  
-> ```lang-json
+> ```json
 >     "role-collections": [
 >         {
 >          "name": "Employee",
@@ -834,7 +834,7 @@ To enable one \(sending\) application to accept and use the authorization scopes
     > ### Sample Code:  
     > Specifying Scope Authorities in the Sending Application's Security Descriptor
     > 
-    > ```lang-json
+    > ```json
     > "authorities":["$ACCEPT_GRANTED_AUTHORITIES"]
     > ```
 
@@ -843,7 +843,7 @@ To enable one \(sending\) application to accept and use the authorization scopes
     > ### Sample Code:  
     > Specifying Scope Authorities in the Sending Application's Security Descriptor
     > 
-    > ```lang-json
+    > ```json
     > "authorities":["<ReceivingApp>.ForeignCall", "<ReceivingApp2>.ForeignCall",]
     > ```
 
@@ -871,7 +871,7 @@ Use the custom `oauth2-configuration` property to define custom values for the O
 The `xsuaa` service broker registers and uses these values for the configuration of the OAuth 2.0 clients.
 
 > ### Sample Code:  
-> ```lang-json
+> ```json
 > "oauth2-configuration": {
 >      "token-validity": 43200, 
 >      "redirect-uris": [
@@ -1102,7 +1102,7 @@ The `xsenableasyncservice` element controls whether the ***cf create-service*** 
 > You usually need to wait for the completion of ***cf create-service*** and ***cf update-service*** even if you use asynchronous mode. Otherwise you might run into conflicts due to parallel update operations on the OAuth 2.0 clients.
 
 > ### Sample Code:  
-> ```lang-json
+> ```json
 > "xsenableasyncservice":"true"
 > ```
 

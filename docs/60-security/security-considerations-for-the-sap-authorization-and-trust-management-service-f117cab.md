@@ -23,11 +23,11 @@ To change configure the trusted domains, use one of the following methods:
 
 -   Enter trusted domains in SAP BTP cockpit.
 
-    For more information, see [Configure Trusted Domains for SAP Authorization and Trust Management Service \[Feature Set B\]](../50-administration-and-ops/configure-trusted-domains-for-sap-authorization-and-trust-management-service-feature-set-c5e9972.md).
+    For more information, see [Configure Trusted Domains for SAP Authorization and Trust Management Service \[Feature Set B\]](../50-administration-and-ops/configure-trusted-domains-for-sap-authorization-and-trust-management-service-feature-se-c5e9972.md).
 
 -   Access the Security Settings API.
 
-    ```lang-json
+    ```json
     "iframeDomains": "https://store.example.com"
     ```
 
@@ -72,7 +72,7 @@ We support explicit wildcards, namely domain relaxing and arbitrary paths. For e
 
 For more information, see [Domain Checks at Browser Login and Logout](../30-development/domain-checks-at-browser-login-and-logout-22a7d69.md).
 
-```lang-json
+```json
 "oauth2-configuration": {
   … 
   "redirect-uris": [
@@ -99,7 +99,7 @@ We recommend this configuration so that you can rotate the secret of a binding w
 
 For more information, see [Managing Secrets of the SAP Authorization and Trust Management Service](../50-administration-and-ops/managing-secrets-of-the-sap-authorization-and-trust-management-service-22f4a5c.md).
 
-```lang-json
+```json
 "oauth2-configuration": {
   … 
   "credential-types": ["binding-secret"],
@@ -179,7 +179,7 @@ To change token validity, use one of the following methods:
 
 -   Change the values of the *token-validity* or *refresh-token-validity* parameters in the application security descriptor \(`xs-security.json`\).
 
-    ```lang-json
+    ```json
     "oauth2-configuration": {
       … 
       "token-validity": 1800, 
@@ -192,7 +192,7 @@ To change token validity, use one of the following methods:
 
 -   Access the Security Settings API.
 
-    ```lang-json
+    ```json
     "tokenPolicySettings": {
       …
       "accessTokenValidity": 1800,

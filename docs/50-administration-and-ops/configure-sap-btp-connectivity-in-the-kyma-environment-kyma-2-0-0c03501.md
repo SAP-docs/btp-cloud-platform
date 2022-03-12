@@ -55,6 +55,6 @@ To learn more, see [Extending SAP Customer Experience Products in the Kyma Envir
 
 ## Results
 
--   Once the service binding creation was registered in the system, Connectivity Proxy is provisioned in the cluster.
+-   Once the service binding creation has been registered in the system, Connectivity Proxy is provisioned in the cluster.
 -   Connectivity Proxy is deployed in the `kyma-system` Namespace. By default, it is accessible within the cluster by invoking the following URL: `connectivity-proxy.kyma-system.svc.cluster.local`.
 

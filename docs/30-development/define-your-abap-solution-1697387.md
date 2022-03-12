@@ -8,7 +8,7 @@ Follow these steps to define your ABAP Solution.
 
 1.  Create a configuration JSON file. The configuration JSON file needs to have the following format:
 
-    ```lang-json
+    ```json
     {
         "name": "abap-solution",
         "sap_system_name": "H01",

@@ -38,6 +38,8 @@ To access database tables from external ODBC-based tools, you use the SQL servic
 
 The ODBC driver for ABAP supports the use of a communication user in the ABAP system with privileged access \(no access controls applied\). Only read access to the exposed ABAP CDS objects is allowed.
 
+In addition to the communication user, the ODBC driver for ABAP also supports the use of a business user with a browser-based logon. The ABAP system will forward the user’s logon request to the configured identity provider to handle it. Authorizations for business users to view data can be limited using restriction types.
+
 The ODBC driver for ABAP is available on Windows and Linux.
 
 You can access the data as read-only using an external ODBC-based client tool, including loading the data into the client tool and searching for data using embedded SQL queries. The ODBC-based client can be any client tool capable of loading an ODBC driver, such as Microsoft Excel or LibreOffice.

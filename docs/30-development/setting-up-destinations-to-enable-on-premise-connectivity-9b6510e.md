@@ -28,6 +28,6 @@ Create an HTTP and an RFC destination to enable communication from the ABAP envi
 
 To enable on-premise connectivity, you must set up or reuse an HTTP destination or an RFC destination with *<Proxy Type\>* ***OnPremise***:
 
--   [Set Up an HTTP Destination](set-up-an-http-destination-3884bc3.md)
--   [Set Up an RFC Destination](set-up-an-rfc-destination-a69e99c.md)
+-   [Set Up HTTP Communication](set-up-http-communication-3884bc3.md)
+-   [Service Consumption Model as RFC Consumer](service-consumption-model-as-rfc-consumer-a69e99c.md)
 

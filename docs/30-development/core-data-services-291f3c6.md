@@ -25,7 +25,7 @@ As a C1-release for a CDS entity always pertains to the STOB object contained in
 With the CDS Read APIs it is possible to access the content of a given CDS entity in a strongly typed manner, as is illustrated by the following example:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_view_entity) = xco_cp_cds=>view_entity( 'MY_VIEW_ENTITY' ).
 > 
 > DATA(lo_view_entity_content) = lo_view_entity->content( ).
@@ -76,7 +76,7 @@ With the CDS Read APIs it is possible to access the content of a given CDS entit
 Using the Data Definition Language \(DDL\) module of the XCO Library, different kinds of DDL expressions can be built and successively used in conjunction with the XCO Generation APIs when providing specifications for DDLS objects. Complex expressions like case, cast, or conditional expressions as well as literals, field, and data source expressions can be easily specified using the XCO\_CP\_DDL API:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > " Case expression
 > DATA(lo_case_expression_builder) = xco_cp_ddl=>expression->case->builder( ).
 > 
@@ -117,7 +117,7 @@ Using the Data Definition Language \(DDL\) module of the XCO Library, different 
 The XCO CDS module may be used to conveniently retrieve the value of annotations that have been provided for CDS entities as well as their fields or parameters. As with the XCO JSON module it is possible to write the annotation value to an explicitly defined ABAP structure to enable further processing of the value:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > TYPES:
 >   BEGIN OF ts_title,
 >     type  TYPE string,
@@ -151,7 +151,7 @@ In the example above, the value of the “UI” annotation defined directly on t
 Annotations for CDS entities are aggregated at runtime from different sources. With the XCO annotation Query APIs it is easy to specify which source should be considered when annotations are retrieved, e.g. it is possible to consider only annotations defined in metadata extensions:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_view_entity_field) = xco_cp_cds=>view_entity( 'MY_VIEW_ENTITY'
 >   )->field( 'MY_FIELD' ).
 > 

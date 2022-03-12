@@ -19,7 +19,7 @@ Access tokens can become overloaded with too many SAML group or role collection 
 
 If the number of attributes cause the token size to exceed 16k, you get HTTP error code 400. To avoid this problem, set the *system-attributes* parameter in the application security descriptor \(`xs-security.json`\).
 
-```lang-json
+```json
 "oauth2-configuration": {
   … 
   "system-attributes ": [],
@@ -52,7 +52,7 @@ We recommend that you also define role collections for administrators to consume
 
 For more information about authorizations, see [Authorization Entities](authorization-entities-5d8ed75.md).
 
-```lang-json
+```json
 "role-collections": [
   {
     "name": "Employee",
@@ -76,7 +76,7 @@ After your application has more than 50 subscriptions, the time required to upda
 
 To avoid timeout, enable asynchronous processing in your application security descriptor \(`xs-security.json`\). To enable asynchronous processing, set the *xsenableasyncservice* parameter to ***true***.
 
-```lang-json
+```json
 "xsenableasyncservice":"true"
 ```
 

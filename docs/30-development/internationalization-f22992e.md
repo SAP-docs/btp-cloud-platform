@@ -53,7 +53,7 @@ The following sections will describe and illustrate the available targets and te
 For a given domain a single fixed value \(identified by its lower limit\) defines a target. The only available text attribute is the description of a fixed value. Here’s how the translation for language German could be maintained for the fixed value DE of domain ZCOUNTRY:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_text_attribute) = xco_cp_domain=>text_attribute->fixed_value_description.
 > 
 > DATA(lo_language) = xco_cp=>language( 'D' ).
@@ -92,7 +92,7 @@ For a given domain a single fixed value \(identified by its lower limit\) define
 Unlike domains, once a data element is fixed there are no more degrees of freedom for language-dependent texts as all the different field labels are directly defined on the level of the data element itself. The following example illustrates how the short field label of data element ZFIRST\_NAME can be translated to German \(first name = Vorname\) and how the translated value can be read back again:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_text_attribute) = xco_cp_data_element=>text_attribute->short_field_label.
 > 
 > DATA(lo_language) = xco_cp=>language( 'D' ).
@@ -139,7 +139,7 @@ Depending on the annotation it may be necessary to specify an array index \(e.g.
 The code sample below illustrates how the EndUserText.label annotation value can be translated to German for the field startDate of the CDS view entity ZVACATION\_REQUEST \(start date = Startdatum\):
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_text_attribute) = xco_cp_data_definition=>text_attribute->field->endusertext_label.
 > 
 > DATA(lo_language) = xco_cp=>language( 'D' ).
@@ -189,7 +189,7 @@ The maintainable text attributes are available via the XCO\_CP\_METADATA\_EXTENS
 The code sample below illustrates how the UI.lineItem.label annotation value can be translated to German for the field endDate of the metadata extension ZVACATION\_REQUEST\_EXT \(end date = Enddatum\):
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_text_attribute) = xco_cp_metadata_extension=>text_attribute->field->ui_lineitem_label( 1 ).
 > 
 > DATA(lo_language) = xco_cp=>language( 'D' ).
@@ -230,7 +230,7 @@ Messages classes follow a structure similar to that of domains: A single message
 In the code sample below message 005 of message class ZMESSAGES \(“Record created.” = “Eintrag angelegt.”\) is translated to German:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_text_attribute) = xco_cp_message_class=>text_attribute->message_short_text.
 > 
 >     DATA(lo_language) = xco_cp=>language( 'D' ).
@@ -269,7 +269,7 @@ In the code sample below message 005 of message class ZMESSAGES \(“Record crea
 For a given application log object both the object itself as well as each of its subobjects act as targets. The only available text attribute is the short description. The following code sample illustrates how the German translation for the short description of the application log object Z\_PROGRESS\_RECORDING can be set and read:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_text_attribute) = xco_cp_application_log_object=>text_attribute->object->short_description.
 >  
 > DATA(lo_language) = xco_cp=>language( 'D' ).
@@ -307,7 +307,7 @@ Setting and getting translations for subobjects works in completely analogous fa
 Translations can also be maintained for business configuration objects which are available for maintenance via the "Maintain Business Configurations" Fiori app. Each business configuration object has a name and description which is visible in the Maintain Business Configurations app. The code sample below illustrates how the description of a business configuration object can be translated \(and read out\).
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_text_attribute) = xco_cp_business_cnfgrtn_object=>text_attribute->description.
 >  
 > DATA(lo_language) = xco_cp=>language( 'D' ).
@@ -343,7 +343,7 @@ Translations can also be maintained for business configuration objects which are
 Translations can also be maintained for IAM business catalogs. The only text attribute of an IAM business catalog is its description. The code sample below illustrates how the description of an IAM business catalog can be translated \(and read out\).
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_text_attribute) = xco_cp_iam_business_catalog=>text_attribute->description.
 > 
 > DATA(lo_language) = xco_cp=>language( 'D' ).
@@ -379,7 +379,7 @@ Translations can also be maintained for IAM business catalogs. The only text att
 Both classes and function groups allow the definition of text symbols which are stored in the text pool associated with the respective class or function group. Maintaining the translations for such text symbols can be accomplished like:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_text_attribute) = xco_cp_text_pool=>text_attribute->text_element_text.
 > 
 > DATA(lo_language) = xco_cp=>language( 'D' ).
@@ -412,7 +412,7 @@ Both classes and function groups allow the definition of text symbols which are 
 In the above example the German translation is maintained for the text of text symbol 001 \(the original text is "Request sent."\) of class `ZCL_MY_CLASS`. If the text symbol belonged to a function group instead of a class the code would look like:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_text_attribute) = xco_cp_text_pool=>text_attribute->text_element_text.
 > 
 > DATA(lo_language) = xco_cp=>language( 'D' ).
@@ -468,7 +468,7 @@ As an example, consider the database table ZXCO\_CAL\_HOLITXT which contains the
 Here CLIENT is the client key field of the text table ZXCO\_CAL\_HOLITXT, HOLIDAY\_ID is the master key field and LANGUAGE is the language key field. Fixing a value for the HOLIDAY\_ID key field \(e.g. “CHRISTMAS”\) determines a target for which the text attribute DESCRIPTION can then be read and written, as is illustrated by the code sample below:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_language) = xco_cp=>language( 'D' ).
 > DATA(lo_text) = xco_cp=>string( 'Weihnachten' ).
 > 

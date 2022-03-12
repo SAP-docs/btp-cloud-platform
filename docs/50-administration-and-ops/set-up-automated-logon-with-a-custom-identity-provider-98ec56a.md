@@ -27,14 +27,14 @@ We recommend this method of logging on if you want to use an automated script an
 
 1.  Set up a script with the following code:
 
-    ```nocode
+    ```
     cf api https://api.cf.<region>.hana.ondemand.com
     cf login --origin <origin> -u <user> -p <password>
     
     ```
 
     > ### Sample Code:  
-    > ```nocode
+    > ```
     > cf api https://api.cf.eu10.hana.ondemand.com
     > cf login --origin sap.ids -u julie.armstrong@sap.com -p mysecurepassword
     > 

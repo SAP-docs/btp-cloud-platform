@@ -4,7 +4,7 @@
 
 Given the following class
 
-```lang-abap
+```abap
 CLASS zcl_xco_doc_cp_cs_class DEFINITION PUBLIC FINAL CREATE PUBLIC.
   PUBLIC SECTION.
     CLASS-METHODS:
@@ -50,7 +50,7 @@ ENDCLASS.
 its contents can be read and written to the console as follows
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > CLASS zcl_xco_doc_cp_cs_read_clas DEFINITION PUBLIC FINAL
 >     INHERITING FROM cl_xco_cp_adt_simple_classrun CREATE PUBLIC.
 >   PUBLIC SECTION.

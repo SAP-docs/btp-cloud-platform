@@ -35,7 +35,7 @@ As the interface IF\_XCO\_NEWS can be flexibly mixed in with existing class hier
 A good example for the synergies created by the IF\_XCO\_NEWS abstraction is the interplay of the XCO BAL module with the XCO ADT standard library functionality which is described below. Even though the XCO ADT functionality has no knowledge and is completely independent of the XCO BAL module writing all the messages contained in a log to the console is as simple as
 
 > ### Sample Code:  
-> ```abap
+> ```
 > out->write( lo_log->messages->all )
 > ```
 

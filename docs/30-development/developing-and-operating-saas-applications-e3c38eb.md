@@ -1,6 +1,6 @@
 <!-- loioe3c38ebaefc44523b679e7a0c375bc86 -->
 
-# Developing and Operating SaaS Applications Using Add-Ons
+# Developing and Operating SaaS Applications
 
 Learn how to develop and operate SaaS applications by using add-ons in the ABAP environment.
 
@@ -10,7 +10,7 @@ Learn how to develop and operate SaaS applications by using add-ons in the ABAP 
 
 ## Introduction
 
-The ABAP environment allows you to leverage existing ABAP know-how to create custom add-ons directly in the cloud. This add-on build process is simplified by using the ABAP environment pipeline to orchestrate the build flow. Delivery tools, such as the Add-on Assembly Kit as a Service for the registration and publishing of the add-on as a software product, and deployment tools to carry out test installations and to make the add-on available for productive use, simplify this process. See [Delivery Tools](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#delivery-tools) and [Deployment Tools](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#deployment-tools).
+The ABAP environment allows you to leverage existing ABAP know-how to create custom add-ons directly in the cloud. This add-on build process is orchestrated by using the ABAP environment. Delivery tools, such as the Add-on Assembly Kit as a Service for the registration and publishing of the add-on as a software product, and deployment tools to carry out test installations and to make the add-on available for productive use, simplify this process. See [Delivery Tools](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#delivery-tools) and [Deployment Tools](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#deployment-tools).
 
 > ### Note:  
 > You should only consider using add-on delivery if you intend to offer a Software as a Service \(SaaS\) solution.
@@ -50,6 +50,9 @@ The [Glossary](glossary-6e251fa.md) contains a list of all the technical terms a
 
 > ### Tip:  
 > To learn how to enable your SaaS application for customers, refer to the detailed step-by-step description in [Enabling SaaS Applications for Customers](enabling-saas-applications-for-customers-72b0b11.md#loio72b0b1130ee243179b0905ea2cd5adb1).
+
+> ### Note:  
+> If you decide to use gCTS transport instead of add-on delivery, please refer to the gCTS Delivery boxes across the guide. See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 ![](images/E2E_Guide_Introduction_3a1c720.png)
 

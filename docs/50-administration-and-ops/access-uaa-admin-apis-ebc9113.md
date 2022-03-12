@@ -81,7 +81,7 @@ For more information about the available APIs, see [https://api.sap.com/package/
     The system answers similar to the following:
 
     > ### Output Code:  
-    > ```nocode
+    > ```
     > Getting key my-access-key for service instance my-access as my-user...
     > 
     > {
@@ -108,7 +108,7 @@ For more information about the available APIs, see [https://api.sap.com/package/
     In your call to the OAuth client, you send the client ID and client secret, separated with a colon \(:\) and base64 encoded to the URL from the service key.
 
     > ### Sample Code:  
-    > ```nocode
+    > ```
     > curl --request POST \
     >   --url https://my-subdomain.authentication.eu10.hana.ondemand.com/oauth/token \
     >   --header 'Accept: application/json' \
@@ -120,7 +120,7 @@ For more information about the available APIs, see [https://api.sap.com/package/
     The client returns a token.
 
     > ### Output Code:  
-    > ```lang-json
+    > ```json
     > {"access_token":"eyJhbGciOiJSUzI1N...",
     > "token_type":"bearer",
     > "expires_in":43199,

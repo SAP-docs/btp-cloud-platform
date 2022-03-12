@@ -70,7 +70,7 @@ The add-on administrator is responsible for everything related to the add-on pro
 
 -   Confirming Integration Tests stage in add-on build pipeline
 
--   Confirming build in Confirm stage during add-on build pipeline
+-   Trigger publishing in Confirm stage during add-on build pipeline
 
 -   Creating maintenance branches \(for example v1.0.0\) per support package level in *Manage Software Components* app. See [Manage Software Components](../50-administration-and-ops/manage-software-components-3dcf76a.md).
 
@@ -178,23 +178,23 @@ Test users are business users in test systems TST and QAS that validate the corr
 <tr>
 <td valign="top">
 
-Provider IAS Administrator
+Provider Identity Authentication Administrator
 
 
 
 </td>
 <td valign="top">
 
-An Identity Authentication service tenant can be configured for authentication in development/test/assembly systems. The IAS administrator configures the trust setup between the subaccount and IAS application. See [SAP Cloud Identity Services - Identity Authentication](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
+An Identity Authentication service tenant can be configured for authentication in development/test/assembly systems. The Identity Authentication administrator configures the trust setup between the subaccount and Identity Authentication application. See [SAP Cloud Identity Services - Identity Authentication](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
 
 
 
 </td>
 <td valign="top">
 
--   Configuring IAS application for trust setup in development/test/assembly subaccounts. See [Create New Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/0d4b255051c74955a959146beee4bd8c.html).
+-   Configuring Identity Authentication application for trust setup in development/test/assembly subaccounts. See [Create New Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/0d4b255051c74955a959146beee4bd8c.html).
 
--   Configuring corporate identity provider in IAS tenant. See [Corporate Identity Providers](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/19f3eca47db643b6aad448b5dc1075ad.html).
+-   Configuring corporate identity provider in Identity Authentication tenant. See [Corporate Identity Providers](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/19f3eca47db643b6aad448b5dc1075ad.html).
 
 
 
@@ -218,7 +218,7 @@ The SaaS solution operator is responsible for creating the account model on the 
 </td>
 <td valign="top">
 
--   Setting up global development and global production accounts including entitlements, subaccounts, Cloud Foundry org, spaces, services, and apps, as well as trust configuration and connectivity per subaccount. See [System Landscape/Account Model](concepts-9482e7e.md#loio4ca756395fc24e56a42b77632a6bd862).
+-   Setting up global accounts for development and production including entitlements, subaccounts, Cloud Foundry org, spaces, services, and apps, as well as trust configuration and connectivity per subaccount. See [System Landscape/Account Model](concepts-9482e7e.md#loio4ca756395fc24e56a42b77632a6bd862).
 
 -   Consumer tenant onboarding: creating consumer subaccount and subscription. See [Subscribe New Consumers](subscribe-new-consumers-b90cde1.md).
 
@@ -386,28 +386,7 @@ A technical communication user \(created via SAP ONE Support Launchpad\) is used
 </td>
 <td valign="top">
 
-Used for communication with the AAKaaS:
-
--   [abapAddonAssemblyKitCheckPV](http://help.sap.com/disclaimer?site=https://sap.github.io/jenkins-library/steps/abapAddonAssemblyKitCheckPV/)
-
-
--   [abapAddonAssemblyKitCheckCVs](http://help.sap.com/disclaimer?site=https://sap.github.io/jenkins-library/steps/abapAddonAssemblyKitCheckCVs/)
-
-
--   [abapAddonAssemblyKitReleasePackages](http://help.sap.com/disclaimer?site=https://sap.github.io/jenkins-library/steps/abapAddonAssemblyKitReleasePackages/)
-
-
--   [abapAddonAssemblyKitReserveNextPackages](http://help.sap.com/disclaimer?site=https://sap.github.io/jenkins-library/steps/abapAddonAssemblyKitReserveNextPackages/)
-
-
--   [abapAddonAssemblyKitRegisterPackages](http://help.sap.com/disclaimer?site=https://sap.github.io/jenkins-library/steps/abapAddonAssemblyKitRegisterPackages/)
-
-
--   [abapAddonAssemblyKitCreateTargetVector](http://help.sap.com/disclaimer?site=https://sap.github.io/jenkins-library/steps/abapAddonAssemblyKitCreateTargetVector/)
-
-
--   [abapAddonAssemblyKitPublishTargetVector](http://help.sap.com/disclaimer?site=https://sap.github.io/jenkins-library/steps/abapAddonAssemblyKitPublishTargetVector/)
-
+Used for communication with the AAKaaS. See [Add-on Assembly Kit as a Service \(=AAKaaS\)](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#add-on-assembly-kit-as-a-service-aakaas).
 
 
 
@@ -423,23 +402,23 @@ Consumer
 </td>
 <td valign="top">
 
-Consumer IAS Administrator
+Consumer Identity Authentication Administrator
 
 
 
 </td>
 <td valign="top">
 
-An Identity Authentication Service tenant can be configured for authentication at consumer tenants in the productive ABAP systems. The IAS admin configures the trust setup between consumer subaccount and IAS application. See [Identity Authentication Service](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
+An Identity Authentication Service tenant can be configured for authentication at consumer tenants in the productive ABAP systems. The Identity Authentication admin configures the trust setup between consumer subaccount and Identity Authentication application. See [Identity Authentication Service](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
 
 
 
 </td>
 <td valign="top">
 
--   Configuring IAS application for trust setup in consumer subaccount
+-   Configuring Identity Authentication application for trust setup in consumer subaccount
 
--   Optional: Configuring corporate identity provider in IAS tenant
+-   Optional: Configuring corporate identity provider in Identity Authentication tenant
 
 
 
@@ -459,7 +438,7 @@ Consumer Subaccount Administrator
 The consumer subaccount administrator is responsible for the configuration of:
 
 -   Trust settings \(custom identity provider\), see [Log On Manually With a Custom Identity Provider](../50-administration-and-ops/log-on-manually-with-a-custom-identity-provider-e1009b4.md).
--   Connectivity via Cloud Connector , see [Connectivity in the Cloud Foundry Environment](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html)
+-   Connectivity via Cloud Connector, see [Connectivity in the Cloud Foundry Environment](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html)
 -   Destinations, see [Managing Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/84e45e071c7646c88027fffc6a7bb787.html) in the consumer subaccount created for the customer.
 
 

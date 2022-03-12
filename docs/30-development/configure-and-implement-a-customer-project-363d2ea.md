@@ -7,13 +7,11 @@ After you have set up the consumer subaccount, tenant, and tenant user, a remain
 Once you have configured and implemented the customer project, the SaaS solution matches the requirements of the customer and you can provide the SaaS application URL to the customer.
 
 > ### gCTS Delivery:  
-> As the consumer subaccount administrator, access the SAP Fiori launchpad of the SaaS Solution from the consumer subaccount account by navigating to *Services* \> *Instances and Subscriptions*.
-> 
 > If you use gCTS for delivery to a customer production system AMT instead of add-ons, the system is initially created without application content. Therefore, you have to clone the required software components manually.
 > 
 > For the initial import of a software component, as a SaaS solution operator on the provider side, you have to clone the software component in the customer production system AMT. The system can be accessed via the*Landscape Portal* application. In the *Landscape Portal*, the *Systems Overview* app provides an overview about the provisioned systems. Open the system that has been created during subscription to the multitenant application. In the *Tenants Overview*, the production tenant \(client 100\) can then be opened for provider access.
 > 
-> In the *Manage Software Components* app, select a software component and clone the main branch of the software component. In the *Branching* tab, create and check out a new branch with the product version, for example v1.0.0. The software component is now released with branch v1.0.0.
+> In the *Manage Software Components* app, select a software component and clone the branch of the software component with the product version, for example v1.0.0.
 > 
 > See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
@@ -24,6 +22,8 @@ Once you have configured and implemented the customer project, the SaaS solution
 ## Prerequisites
 
 To start with the customer project, you have to know the requirements of the customer, and need to have a consumer tenant subscription and a user for the initial consumer access. See [Subscribe New Consumers](subscribe-new-consumers-b90cde1.md) and [Consumer Access](consumer-access-a197d6f.md).
+
+As the consumer subaccount administrator, access the SAP Fiori launchpad of the SaaS Solution subscription from the consumer subaccount account by navigating to *Services Instances and Subscriptions*.
 
 
 
@@ -41,7 +41,7 @@ Instead of creating a business role from scratch, you can also use business role
 
 The spaces mode offers more flexibility to adjust the SAP Fiori launchpad layout for specific user groups.
 
-As a business user, to create a launchpad space and page, see [How to Create Spaces and Pages for a Business Role](../50-administration-and-ops/how-to-create-spaces-and-pages-for-a-business-role-18cdb97.md).
+As a business user, to create launchpad spaces and pages, see [How to Create Spaces and Pages for a Business Role](../50-administration-and-ops/how-to-create-spaces-and-pages-for-a-business-role-18cdb97.md).
 
 
 
@@ -54,7 +54,7 @@ As a business user, to create a launchpad space and page, see [How to Create Spa
 A communication arrangement is a runtime description of a specific communication scenario created by you as a business user. It describes which communication partners communicate with each other in the scenario and how they communicate. See [How to Create a Communication Arrangement](../50-administration-and-ops/how-to-create-a-communication-arrangement-a0771f6.md).
 
 > ### Note:  
-> Depending on whether you want to use an authentication method for outbound communication that requires a business user context \(Oauth2 SAML Bearer Assertion, Oauth2 User Token Exchange, JWT Principal Propagation\), you need to configure a destination for communication arrangements in the TST test system instead of maintaining credentials by using an outbound communication user. See [Supported Protocols and Authentication Methods](supported-protocols-and-authentication-methods-437e9d4.md) and [Create a Destination](create-a-destination-3fa7934.md).
+> Depending on whether you want to use an authentication method for outbound communication that requires a business user context \(Oauth2 SAML Bearer Assertion, Oauth2 User Token Exchange, JWT Principal Propagation\), you need to configure a destination for communication arrangements in the system instead of maintaining credentials by using an outbound communication user. See [Supported Protocols and Authentication Methods](supported-protocols-and-authentication-methods-437e9d4.md) and [Create a Destination](create-a-destination-3fa7934.md).
 
 See [Integrating On-Premise Systems](integrating-on-premise-systems-c95327f.md) on how to integrate the SaaS solution with on-premise systems.
 
@@ -74,14 +74,12 @@ See [Maintain Business Configurations App](maintain-business-configurations-app-
 
 **Configure Key User Extensibility**
 
-Key user extensibility that is enabled in the SaaS solution can be configured and consumed in test systems.
+Key user extensibility that is enabled in the SaaS solution can be configured and consumed in consumer tenants.
 
 > ### Note:  
-> Key user extensibility provided in a SaaS solution can only be configured in tenants of particular types, for consumption purposes in customer systems, such as AMT, in tenants of type Partner Customer Test or Partner Customer Production depending on parameter `usage` in the configuration of the ABAP solution. See
+> Key user extensibility provided in a SaaS solution can only be configured in tenants of particular types, for consumption purposes in customer systems, such as AMT, in tenants of type Partner Customer Test or Partner Customer Production depending on parameter `usage` in the configuration of the ABAP solution. See [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
 > 
-> [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
-> 
-> These tenants types are provisioned in non-development systems, such as customer system AMT, where development is not allowed \(`is_development_allowed = false`\). The tenants are created dependent on a subscription to the SaaS solution. See [Subscribe New Consumers](subscribe-new-consumers-b90cde1.md).
+> These tenant types are provisioned in non-development systems, such as customer system AMT, where development is not allowed \(`is_development_allowed = false`\). The tenants are created dependent on a subscription to the SaaS solution. See [Subscribe New Consumers](subscribe-new-consumers-b90cde1.md).
 
 As a business user in a Partner Customer Test or Partner Customer Production tenant \(client \>= 200\), you configure key user extensibility in a customer production system AMT.
 

@@ -5,7 +5,7 @@
 The following code sample illustrates the source code of an already existing function module that can be updated:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > "! Code sample for updating the source code of an existing function module.
 > "!
 > "! IMPORTANT: The function module referred to by the constant CO_FUNCTION_MODULE_NAME needs to

@@ -2,7 +2,7 @@
 
 # SOAP Communication via Destination Service
 
-To configure a SOAP-specific destination, create an HTTP destination as described in [Set Up an HTTP Destination](set-up-an-http-destination-3884bc3.md).
+To configure a SOAP-specific destination, create an HTTP destination as described in [Set Up HTTP Communication](set-up-http-communication-3884bc3.md).
 
 You can set Web service-specific properties by maintaining the following *Additional Properties* in the destination:
 
@@ -12,7 +12,7 @@ You can set Web service-specific properties by maintaining the following *Additi
 -   `ws.soapAction.<operationName>`: Sets the SOAP action for a given operation with name `<operationName>`.
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > TRY.
 >     DATA(lo_soap_dest) = cl_soap_destination_provider=>create_by_cloud_destination(
 >                            i_name                   = '<destination name>'

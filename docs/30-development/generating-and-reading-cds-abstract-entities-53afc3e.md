@@ -4,7 +4,7 @@
 
 The following code sample illustrates how abstract entities can be generated and read with the XCO Library:
 
-```lang-abap
+```abap
 "! <p class="shorttext synchronized" lang="EN">
 "!  XCO Documentation CP: Abstract entities
 "! </p>

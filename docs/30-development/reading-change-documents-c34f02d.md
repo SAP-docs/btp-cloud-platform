@@ -1355,7 +1355,7 @@ VERSION
 > ### Sample Code:  
 > Read all change documents for object class `ZCHDO_TEST`
 > 
-> ```lang-abap
+> ```abap
 > 
 > CLASS zcl_chdo_read DEFINITION
 >   PUBLIC

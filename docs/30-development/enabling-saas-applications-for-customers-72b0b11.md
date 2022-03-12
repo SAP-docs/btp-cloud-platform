@@ -18,9 +18,16 @@ Build a first version of your add-on. See [Build](develop-test-build-3bf575a.md#
 
 ## Prerequisites
 
--   You've set up the following accounts:
-    -   **Global development account** with a *01 Develop* subaccount for development, a *02 Test* subaccount for testing, and a *03 Build/Assemble* subaccount \(for example with the Cloud Foundry organization name `saas-build-assemble` and a development space with the name `Build/Assemble`\) for assembling the add-on product. See [Set Up a Development Account](develop-test-build-3bf575a.md#loio9f2150f2b15e414aacd46c1723ce48fb).
-    -   **Global production account** with a *04 Build/Test* subaccount \(for example with the Cloud Foundry organization name `saas-build-test` and a development space with the name `Build/Test`\) for installing and testing the add-on, a *05 Provide* subaccount \(for example with Region `cf-eu10`\) for providing the add-on to customers, and a *06 Consume* subaccount \(for example with the subdomain `my-consumer-subdomain`\) to access the solution as a customer. See [Set Up a Production Account](develop-test-build-3bf575a.md#loio2e7b4b631e814de1b8fe3959af4105bc).
+-   You've set up a global ccount for development with the following subaccounts:
+
+    -   *01 Develop* for development
+    -   *02 Test* for testing
+    -   *03 Build/Assemble* \(for example with the Cloud Foundry organization name *saas-build-assemble* and a development space with the name *Build/Assemble*\) for assembling the add-on product
+    -   *04 Build/Test* \(for example with the Cloud Foundry organization name *saas-build-test* and a development space with the name *Build/Test*\) for installing and testing the add-on
+    -    *05 Provide* \(for example with Region *cf-eu10*\) for providing the add-on to customers
+    -   *06 Consume* \(for example with the subdomain *my-consumer-subdomain*\) to access the solution as a customer
+
+    See [Set Up a Global Account for Development](develop-test-build-3bf575a.md#loio9f2150f2b15e414aacd46c1723ce48fb).
 
 -   You've purchased entitlements that are necessary for the account setup. See [Prepare](develop-test-build-3bf575a.md#loio4338854e3133407abb47d3a281dbd1e1).
 -   You've registered a namespace at SAP, for example /NAMESPC/. See [Register a Namespace](develop-test-build-3bf575a.md#loiocc5a3c6f78cf4889960c314dd09a5060).
@@ -52,53 +59,36 @@ Build a first version of your add-on. See [Build](develop-test-build-3bf575a.md#
 
         ```
         general:
-          addonDescriptorFileName: 'addon.yml'
           abapAddonAssemblyKitCredentialsId: 'TechUserAAKaaS'
-          cfCredentialsId: 'CFPlatform'
+          addonDescriptorFileName: 'addon.yml'
           cfApiEndpoint: 'https://api.cf.sap.hana.ondemand.com'
+          cfCredentialsId: 'CFPlatform'
           cfOrg : 'saas-build-assemble'
           cfSpace: 'Build/Assemble'
           cfServiceInstance: 'BLD_BONUS'
-          cfServiceKeyName: 'SAP_COM_0510'
         stages:
-          Prepare System:
-            cfService: 'abap'
-            cfServicePlan: 'standard'
-            abapSystemAdminEmail: 'administrator@example.com'
-            abapSystemDescription: 'Partner SaaS on ABAP (Development)'
-            abapSystemIsDevelopmentAllowed: false
-            abapSystemID: 'BLD'
-            abapSystemSizeOfPersistence: 4
-            abapSystemSizeOfRuntime: 1
-            includeAddon: false
-            cfServiceKeyConfig: 'sap_com_0510.json'
-          Clone Repositories:
-            repositories: 'addon.yml'
-            strategy: 'Clone'
-          ATC:
-            atcConfig: 'atcConfig.yml'
-          Build:
-            cfServiceKeyName: 'SAP_COM_0582'
-            cfServiceKeyConfig: 'sap_com_0582.json'
-          Integration Tests:
-            cfOrg : 'saas-build-test'
-            cfSpace: 'Build/Test'
-            cfService: 'abap-oem'
-            cfServicePlan: 'saas_oem'
-            cfServiceInstance: 'ATI_BONUS'
-            abapSystemAdminEmail: 'administrator@example.com'
-            abapSystemDescription: 'Partner SaaS on ABAP (Production)'
-            abapSystemIsDevelopmentAllowed: false
-            abapSystemID: 'ATI'
-            abapSystemSizeOfPersistence: 4
-            abapSystemSizeOfRuntime: 1
-            includeAddon: true
-            confirmDeletion: true
-          Publish:
-            targetVectorScope: 'P'
-          Post:
-            confirmDeletion: true
-            cfDeleteServiceKeys: true
+        Prepare System:
+          abapSystemAdminEmail: 'administrator@example.com'
+          abapSystemID: 'BLD'
+        Clone Repositories:
+          repositories: 'addon.yml'
+          strategy: 'Clone'
+        ATC:
+          atcConfig: 'atcConfig.yml'
+        Build:
+        
+          active: true
+        
+        Integration Tests:
+          cfOrg: 'saas-build-test'
+          cfSpace: 'Build/Test'
+          cfServiceInstance: 'ATI_BONUS'
+          abapSystemAdminEmail: 'administrator@example.com'
+          abapSystemID: 'ATI'
+        Publish:
+          active: true
+        Post:
+          confirmDeletion: true
         ```
 
 
@@ -167,7 +157,7 @@ Build a first version of your add-on. See [Build](develop-test-build-3bf575a.md#
     -   Create the following `atcConfig.yml` file in the root folder:
 
         ```
-        checkvariant: SAP_CLOUD_PLATFORM_ATC_DEFAULT
+        checkvariant: ABAP_CLOUD_DEVELOPMENT_DEFAULT
         atcobjects:
           softwarecomponent:
             - name: "/NAMESPC/COMPONENT1"
@@ -180,24 +170,6 @@ Build a first version of your add-on. See [Build](develop-test-build-3bf575a.md#
         
         abapEnvironmentPipeline script: this
         
-        ```
-
-    -   Create the following `sap_com_0510.json` file in the root folder:
-
-        ```
-        {
-          "scenario_id": "SAP_COM_0510",
-          "type": "basic"
-        }
-        ```
-
-    -   Create the following `sap_com_0582.json` file in the root folder:
-
-        ```
-        {
-          "scenario_id": "SAP_COM_0582",
-          "type": "basic"
-        }
         ```
 
 
@@ -439,7 +411,7 @@ To provision multitenant-enabled systems in the ABAP environment, a multitenant 
     > Depending on the setup of your development environment, you need to run command `npm install` within the approuter folder to install the dependencies in the local `node_modules` folder.
 
 2.  To build the multitarget application, right-click the folder `mta.yaml` and select *Build MTA Project*.
-3.  To deploy the multitarget application with extensions to the *05 Provide* subaccount in your global production account, open a new terminal for the project and enter:
+3.  To deploy the multitarget application with extensions to the *05 Provide* subaccount in your global account for development, open a new terminal for the project, and enter:
 
     ```
     cf deploy mta_archives/product1-saas-solution_1.0.0.mtar -e extensions/dev.mtaext
@@ -463,12 +435,16 @@ Order and provide your solution. See [Order and Provide](order-and-provide-975bd
 
 ## Prerequisites
 
--   You've assigned a technical Cloud Foundry platform user as space developer in the *Provide* space of the *05 Provide* subaccount. See [Creating New Space Members and Assigning Space Developer Roles to Them](../20-getting-started/creating-new-space-members-and-assigning-space-developer-roles-to-them-967fc4e.md).
--   You've configured an ASP\_CC destination for cloud controller access in the *05 Provide* subaccount based on the credentials of the technical Cloud Foundry platform user. See [Create a Destination for the Cloud Foundry Cloud Controller Access](create-a-destination-for-the-cloud-foundry-cloud-controller-access-35b5acb.md).
+-   You've assigned a technical Cloud Foundry platform user as space developer in the *Provide* space of the *05 Provide* subaccount in the global account for development. See [Creating New Space Members and Assigning Space Developer Roles to Them](../20-getting-started/creating-new-space-members-and-assigning-space-developer-roles-to-them-967fc4e.md).
+-   You've configured an ASP\_CC destination for cloud controller access in the *05 Provide* subaccount in the global account for development based on the credentials of the technical Cloud Foundry platform user. See [Create a Destination for the Cloud Foundry Cloud Controller Access](create-a-destination-for-the-cloud-foundry-cloud-controller-access-35b5acb.md).
 
 
 
-1.  To define a new route to the solution, open your *05 Provide* subaccount and navigate to *Cloud Foundry* \> *Spaces*. Select your Space and navigate to *Routes*. Click *New Route* and enter the following information in the dialogue:
+1.  To define a new route to the solution, open your *05 Provide* subaccount in the global account for development and navigate to *Cloud Foundry* \> *Spaces*. Select your space and navigate to *Routes*. Select *New Route* and enter the following information in the dialogue:
+
+    For *Domain*, enter the appropriate domain by changing the default domain ***cfapps.<region\>.hana.ondemand.com*** according to the region of your *05 Provide* subaccount in the global account for development.
+
+    For *Hostname*, enter the subdomain as displayed in your *06 Consume* subaccount under *Overview* and the appname as defined in your `dev.mtaext` file.
 
     ```
     Domain: cfapps.eu10.hana.ondemand.com
@@ -493,12 +469,6 @@ Order and provide your solution. See [Order and Provide](order-and-provide-975bd
     > In this example, the consumer subaccount is created with subdomain ***my-consumer-subdomain***. The defined appname is ***product1-saas-solution-dev***, resulting in the hostname ***my-consumer-subdomain-product1-saas-solution-dev*** of the route. The domain `cfapps.eu10.hana.ondemand.com` is set as parameter `app-domain` in the `mta.yaml` file.
     > 
     > Once you switch to the production phase of the approuter configuration and define a route with wildcard hostname. this sub-step is no longer required . See [Configure the Approuter Application](configure-the-approuter-application-3725815.md).
-
-    Deployment of the multitenant application for production purposes uses an approuter configuration for the production phase: a route with wildcard hostname is defined and this substep to create routes manually for each consumer subaccount is no longer required. See[Configure the Approuter Application](configure-the-approuter-application-3725815.md) .
-
-    -   For **Domain**, enter the appropriate domain by changing the default domain **cfapps.<region\>.hana.ondemand.com** according to the region of your *05 Provide* subaccount in the global account for development.
-
-    -   For **Hostname**, enter the subdomain as displayed in your *06 Consume* subaccount under *Overview* and the appname as defined in your `dev.mtaext` file.
 
 2.  Assign the route to the deployed approuter application.
 3.  Subscribe to the solution: Navigate to *Service Marketplace* in your *06 Consume* subaccount and search for your service. Click *create* \> *Create*.
@@ -607,12 +577,12 @@ Release versions are used to deliver new major, planned functional enhancements.
     ```
 
 6.  Select *Commit Changes* and start the build pipeline.
-7.  To provide the new version v2.0.0 to customers, open the *Landscape Portal* in your *05 Provide* subaccount in the global account for development. Select the desired system and choose *Add-On Update*.
+7.  To provide the new version 2.0.0 to customers, open the *Landscape Portal* in your *05 Provide* subaccount in the global account for development. Select the desired system and choose *Add-On Update*.
 
 **Related Information**  
 
 
-[Developing and Operating SaaS Applications Using Add-Ons](developing-and-operating-saas-applications-using-add-ons-e3c38eb.md "Learn how to develop and operate SaaS applications by using add-ons in the ABAP environment.")
+[Developing and Operating SaaS Applications](developing-and-operating-saas-applications-e3c38eb.md "Learn how to develop and operate SaaS applications by using add-ons in the ABAP environment.")
 
 [Overview](overview-9640543.md "")
 

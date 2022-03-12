@@ -43,7 +43,7 @@ The following two flavors are offered:
 In a style like that of the XCO ABAP Repository Query APIs it is possible to easily locate existing logs based on filters for standard log attributes, like the object, subobject or external ID of a log:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_external_id_filter) = xco_cp_bal=>log_filter->external_id(
 >   xco_cp_abap_sql=>constraint->equal( '%INVOICE%' )
 > ).
@@ -64,7 +64,7 @@ In this example, all logs in the database whose external ID contains the fragmen
 Once the desired persistence has been selected via XCO\_CP\_BAL=\>FOR a log can be created like
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_log) = xco_cp_bal=>for->database( )->log->create(
 >   iv_object      = 'MY_LOG_OBJECT'
 >   iv_subobject   = 'MY_LOG_SUBOBJECT'
@@ -75,7 +75,7 @@ Once the desired persistence has been selected via XCO\_CP\_BAL=\>FOR a log can 
 If a log shall not be created newly but already exists in the database it can be loaded like
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_log) = xco_cp_bal=>for->database( )->log->load( 'MY_LOG_HANDLE' ).
 > ```
 
@@ -104,7 +104,7 @@ The standard profile \(XCO\_CP\_BAL=\>PROFILE-\>STANDARD\) defines a default lev
 Messages can be added to a log in number of ways. They can be added directly via an explicit SYMSG value like
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > " Logging a plain SYMSG using the level of detail given by the underlying
 > " profile.
 > DATA(ls_symsg) = VALUE symsg(
@@ -127,7 +127,7 @@ Messages can be added to a log in number of ways. They can be added directly via
 or by resorting to the standard abstractions IF\_XCO\_NEWS and IF\_XCO\_TEXT from the XCO standard library:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > " Support for IF_XCO_NEWS and IF_XCO_TEXT provides a high degree of integration with other
 > " parts of the XCO library.
 > MESSAGE w001(msg_class) WITH |Item 1| INTO DATA(lv_message). 
@@ -140,7 +140,7 @@ or by resorting to the standard abstractions IF\_XCO\_NEWS and IF\_XCO\_TEXT fro
 Following the pattern which is also used when reading the content of an object of the ABAP Repository, it is easy to access all the messages contained in a log:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lt_messages) = lo_log->messages->all->get( ).
 > ```
 

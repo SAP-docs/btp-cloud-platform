@@ -78,14 +78,14 @@ S-user
 <tr>
 <td valign="top">
 
-Set up a global account for development. See [Set Up a Development Account](develop-test-build-3bf575a.md#loio9f2150f2b15e414aacd46c1723ce48fb).
+Set up a global account for development. See [Set Up a Global Account for Development](develop-test-build-3bf575a.md#loio9f2150f2b15e414aacd46c1723ce48fb).
 
 
 
 </td>
 <td valign="top">
 
-Get a partner development account for discounted systems used for development, test, or demo purposes. These systems are provisioned in the global account for development.
+Get a partner development license for discounted systems used for development, test, or demo purposes. These systems are provisioned in the global account for development.
 
 Required entitlements:
 
@@ -116,14 +116,14 @@ Operator
 <tr>
 <td valign="top">
 
-Set up a global account for production. See [Set Up a Production Account](develop-test-build-3bf575a.md#loio2e7b4b631e814de1b8fe3959af4105bc).
+Set up a global account for production. See [Set Up a Global Account for Production](develop-test-build-3bf575a.md#loio2e7b4b631e814de1b8fe3959af4105bc).
 
 
 
 </td>
 <td valign="top">
 
-Get a partner contract and a global account for production.
+Get a partner production license for systems used for production purposes. These systems are provisioned in the global account for production.
 
 Required entitlements:
 
@@ -165,10 +165,14 @@ Create ABAP instance\(s\). See [Create ABAP Instances](develop-test-build-3bf575
 Set up your development/test subaccounts and ABAP system and create the following:
 
 -   Development system DEV with parameter `is_development_allowed = true`
+    -   abap/abap\_compute\_unit \(standard: 1\)
+    -   abap/hana\_compute\_unit \(standard: 4\)
+
 -   Test system TST with parameter `is_development_allowed = false`
--   abap/abap\_compute\_unit \(standard: 1\)
--   abap/hana\_compute\_unit \(standard: 4\)
--   Subscriptions in DEV/TEST subaccount to ABAP Web Access
+    -   abap/abap\_compute\_unit \(standard: 1\)
+    -   abap/hana\_compute\_unit \(standard: 4\)
+
+-   Subscriptions in development/test subaccount to ABAP Web Access
 
 See [Getting Started with a Customer Account: Workflow in the ABAP Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e34a329acc804c0e874496548183682f.html) and [Create an ABAP System](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/f0163565eb554f009f990652ca41d1c6.html).
 
@@ -193,7 +197,7 @@ Set up UI development. See [Set Up UI Development](develop-test-build-3bf575a.md
 </td>
 <td valign="top">
 
-Configure SAP Business Application Studio for UI development. Decide on your UI/SAP SAP Fiori launchpad setup and deployment model: ABAP or Cloud Foundry
+Configure SAP Business Application Studio for UI development.
 
 
 
@@ -232,14 +236,14 @@ Add-on administrator
 <tr>
 <td valign="top">
 
-Transport \(DEV, TST\) with gCTS. See [Set Up Transport from Development to Test System](develop-test-build-3bf575a.md#loiobf557544f90f4bc88911c4865ec78207).
+Transport from development to test system. See [Set Up Transport from Development to Test System](develop-test-build-3bf575a.md#loiobf557544f90f4bc88911c4865ec78207).
 
 
 
 </td>
 <td valign="top">
 
-Plan and set up your test and maintenance system landscape and processes.
+Plan and set up the transport of software components from development to test systems.
 
 [Tutorial: Transport a Software Component Between two Systems](https://developers.sap.com/tutorials/abap-environment-gcts.html)
 
@@ -354,9 +358,9 @@ Test in cloud system. See [Test in the ABAP Environment SAP Fiori Launchpad](dev
 </td>
 <td valign="top">
 
-Import the ABAP service \(with gCTS\) and the UI into your test system.
+Import the ABAP service and the UI into your test system.
 
-Create a role and assign it to users, then execute the service and UI.
+Create a role and assign it to users, then test the service and UI.
 
 
 
@@ -445,7 +449,7 @@ Build your first add-on version. See [Build the First Add-On Version](develop-te
 
 Create a maintenance branch.
 
-Configure the add-on .yml file.
+Configure the addon.yml file.
 
 Trigger the add-on product build/test/release.
 
@@ -517,7 +521,7 @@ Configure the sizing of the SaaS application. See [Sizing](sizing-1782f25.md#loi
 </td>
 <td valign="top">
 
-Decide on the metric of your offering \(e.g. users, documents, space\) and map the metric of your offering to the service plan of the ABAP environment service plan.
+Decide on the metric of your offering \(e.g. users, documents, space\) and map the metric of your offering to the service plan of the ABAP environment service.
 
 > ### Note:  
 > For multitenancy offerings, there is no sizing/quota per customer \(client\). You must decide on an overall sizing depending on the expected load in a region \(e.g. Europe/Frankfurt\).
@@ -547,9 +551,9 @@ Implementation of a multitenant application and deployment to provider subaccoun
 </td>
 <td valign="top">
 
-Create the multitenant application with SaaS registry, XSUAA and ABAP Solution Provider subscription. Deploy to the provider subaccount with parameters used for development phase.
+Create the multitenant application with SaaS registry, XSUAA and ABAP Solution Provider. Deploy to the provider subaccount with parameters used for development phase.
 
-See[Development Descriptor](development-descriptor-767fb00.md) .
+See [Development Descriptor](development-descriptor-767fb00.md).
 
 
 
@@ -613,7 +617,7 @@ DevOps engineer
 <tr>
 <td valign="top">
 
-Deploy multitenant application to provider subaccount in global account for development.
+Deploy multitenant application to provider subaccount in global account for production.
 
 
 
@@ -643,16 +647,16 @@ DevOps engineer
 </td>
 <td valign="top">
 
-\[Optional\] SAP App Center registration. See [\(Optional\) Register SaaS Solution in SAP App Center](order-and-provide-975bd3e.md#loio607aa8614ea34ee7b366b01ad03bfc4c).
+\[Optional\] SAP Store registration. See [\(Optional\) Register SaaS Solution in SAP Store](order-and-provide-975bd3e.md#loio607aa8614ea34ee7b366b01ad03bfc4c).
 
 
 
 </td>
 <td valign="top">
 
-Register your SaaS solution in SAP App Center.
+Register your SaaS solution in SAP Store.
 
-See [https://store.sap.com/en/](https://store.sap.com/en/).
+See [https://store.sap.com/dcp/en/](https://store.sap.com/dcp/en/).
 
 
 
@@ -842,7 +846,7 @@ User/Role
 </td>
 <td valign="top">
 
-Set up Identity and Access Management.
+Set up Identity and Access Management in the consumer tenant of the customer.
 
 
 
@@ -867,7 +871,7 @@ Business user
 <tr>
 <td valign="top">
 
-Integrate the customer project.
+Integrate the customer project in the consumer tenant of the customer..
 
 
 
@@ -890,7 +894,7 @@ Business user
 <tr>
 <td valign="top">
 
-Configure the customer project.
+Configure the customer project in the consumer tenant of the customer..
 
 
 
@@ -999,9 +1003,9 @@ Create a new patch version, support package version, or release/product version.
 </td>
 <td valign="top">
 
--   Add-on administrator to check out maintenance branch, import software components into test systems, configure addon.yml file
--   Test user to verify changes in test systems
 -   Developer to implement update and double-maintenance
+-   Test user to verify changes in test systems
+-   Add-on administrator to check out maintenance branch, import software components into test systems, configure addon.yml file
 
 
 

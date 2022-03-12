@@ -153,7 +153,7 @@ Both TO and FROM have an inclusive behavior, i.e. the provided index is always i
 The following sample illustrates several usages:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_string) = xco_cp=>string( |ABCDEF| ).
 > 
 > " LV_SUBSTRING_1 = DEF
@@ -182,7 +182,7 @@ The following sample illustrates several usages:
 The XCO string library also provides a way to split strings and join a list of strings:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_name_parts) = xco_cp=>string( |John Doe| )->split( | | ).
 > 
 > " LV_REVERSED_NAME = Doe, John
@@ -200,7 +200,7 @@ String compositions and decompositions encapsulate algorithms which can transfor
 The following example illustrates how the camel case composition and decomposition can be used to easily translate between underscore and camel case notation.
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lv_string_with_underscores) = |FIRST_NAME|.
 > 
 > " LV_STRING_IN_CAMEL_CASE = firstName
@@ -224,7 +224,7 @@ The following example illustrates how the camel case composition and decompositi
 Converting a given string to its xstring representation for a given code page can be easily accomplished by making use of `IF_XCO_CHAR_CODE_PAGE`s which are available via `XCO_CP_CHARACTER`:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lv_string) = |ABC|.
 > 
 > " The representation of LV_STRING as an XSTRING where the given character

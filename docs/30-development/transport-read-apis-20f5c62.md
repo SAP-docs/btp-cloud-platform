@@ -11,7 +11,7 @@
 Given a transport request \(represented as an object of type `IF_XCO_CP_TR_REQUEST`\), its properties can be read out as follows:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(ls_properties) = lo_transport_request->properties( )->get( ).
 >   
 > " LS_PROPERTIES is a structure providing the short description, owner, target,
@@ -21,7 +21,7 @@ Given a transport request \(represented as an object of type `IF_XCO_CP_TR_REQUE
 The properties of a transport task \(represented as an object of type `IF_XCO_CP_TR_TASK`\) can similarly be read out like this:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(ls_properties) = lo_transport_task->properties( )->get( ).
 >   
 > " LS_PROPERTIES is a structure providing the short description, owner,
@@ -52,7 +52,7 @@ Both object and key entries of a transport can easily be retrieved via the XCO t
 The following code sample shows how to read all object entries contained on a given transport:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > 
 > " Get all object entries on a transport (given as an object LO_TRANSPORT of type IF_XCO_CP_TRANSPORT).
 > DATA(lt_object_entries) = xco_cp_transport=>entries->object->all->on( lo_transport )->get( ).
@@ -75,7 +75,7 @@ The following code sample shows how to read all object entries contained on a gi
 In addition to retrieving all objects it is furthermore possible to provide one or more entry filters to restrict the object entries to those matching the provided entry filters:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > 
 > " The program ID filter will only match object entries where the program ID is LIMU.
 > DATA(lo_program_id_filter) = xco_cp_transport=>entry_filter->object->program_id(
@@ -108,7 +108,7 @@ In addition to retrieving all objects it is furthermore possible to provide one 
 Reading key entries on a transport works in a similar manner as when object entries are being read. Obtaining all key entries on a given transport can be accomplished like this:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > 
 > " Get all key entries on a transport (given as an object LO_TRANSPORT of type IF_XCO_CP_TRANSPORT).
 > DATA(lt_key_entries) = xco_cp_transport=>entries->key->all->on( lo_transport )->get( ).
@@ -146,7 +146,7 @@ Reading key entries on a transport works in a similar manner as when object entr
 An R3TR TABU object entry always has exactly one corresponding key entry. Thanks to a direct integration of R3TR TABUs with the entry query APIs, all key entries coming from R3TR TABU object entries can be conveniently retrieved as follows:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > 
 > " Get all R3TR TABU entries on a transport (given as an object LO_TRANSPORT of type IF_XCO_CP_TRANSPORT).
 > DATA(lt_r3tr_tabu_entries) = xco_cp_transport=>entries->object->r3tr->tabu->all->on( lo_transport )->get( ).

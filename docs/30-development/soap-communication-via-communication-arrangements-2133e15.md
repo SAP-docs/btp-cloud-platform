@@ -13,7 +13,7 @@ To set up SOAP communication via communication arrangement, proceed as follows:
 > The parameters `SERVICE_ID` and `COMM_SYSTEM_ID` are optional and only need to be specified if unique identification of the communication arrangement is not possible without them.
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > TRY.
 >     DATA(soap_destination) = cl_soap_destination_provider=>create_by_comm_arrangement(
 >                                comm_scenario  = '<test scenario>'

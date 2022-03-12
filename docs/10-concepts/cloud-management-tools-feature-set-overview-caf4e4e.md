@@ -167,7 +167,7 @@ Discover and consume REST APIs to manage, build, and extend the cloud operation 
 -   Generate reports based on the resource and cost consumption within your accounts.
 
 
-See [Account Administration Using APIs of the SAP Cloud Management Service \[Feature Set B\]](../50-administration-and-ops/account-administration-using-apis-of-the-sap-cloud-management-service-feature-set-b-17b6a17.md) and [Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](../50-administration-and-ops/monitoring-usage-information-using-apis-of-the-sap-usage-data-management-service-feature-bf2b304.md).
+See [Account Administration Using APIs of the SAP Cloud Management Service \[Feature Set B\]](../50-administration-and-ops/account-administration-using-apis-of-the-sap-cloud-management-service-feature-set-b-17b6a17.md) and [Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](../50-administration-and-ops/monitoring-usage-information-using-apis-of-the-sap-usage-data-management-service-featur-bf2b304.md).
 
 
 

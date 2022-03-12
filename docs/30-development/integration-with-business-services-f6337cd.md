@@ -354,7 +354,7 @@ Positive integer representing the maximum wait time for a response \(in millisec
 The following example shows how to provide the required information. This information should be provided via the `onBind` hook in the service-broker implementation:
 
 > ### Sample Code:  
-> ```lang-java
+> ```java
 > "country": [
 >    {
 >     ...

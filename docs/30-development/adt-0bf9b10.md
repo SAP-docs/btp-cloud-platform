@@ -11,7 +11,7 @@ The XCO library provides an abstract implementation of this interface via CL\_XC
 The following sample class illustrates how the OUT object provided by CL\_XCO\_CP\_ADT\_SIMPL\_CLASSRUN can be used to flexibly write complex data structures or even object references to the console. Using the interface IF\_XCO\_PRINTABLE any object can define a text that is used when the object is written to the console.
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > CLASS zcl_xco_doc_cp_std_adt DEFINITION PUBLIC FINAL
 >     INHERITING FROM cl_xco_cp_adt_simple_classrun CREATE PUBLIC.
 >   PROTECTED SECTION.

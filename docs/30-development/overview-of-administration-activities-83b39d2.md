@@ -12,14 +12,14 @@ Get an overview of the example used in this documentation and what kind of admin
 
 In the example scenario used in this documentation, developers want to make an outbound service call from the ABAP environment to SAP S/4HANA Cloud, using an SAP S/4HANA service to create a business partner.
 
-When an outbound service call in ABAP environment is implemented, there are two authentication methods that can be used to authenticate at the S4/HANA cloud system:
+When an outbound service call in the ABAP environment is implemented, the following authentication methods can be used to authenticate at the SAP S4/HANA cloud system:
 
 -   User ID and password \(basic authentication\)
 
 -   OAuth 2.0
 
 
-In this example scenario, OAuth 2.0 authentication will be used.
+In this example scenario, OAuth 2.0 authentication is used.
 
 
 
@@ -27,16 +27,17 @@ In this example scenario, OAuth 2.0 authentication will be used.
 
 ## Overview of Administration Activities
 
-   
-  
-<a name="loio83b39d21b4694bd88d07ad9564d41f6e__fig_u4q_3z4_v2b"/>Administration Activities for Establishing Trust Between SAP S/4HANA Cloud and Cloud Foundry \(Developer Activities Grayed Out\)
+As an administrator, your main task is to establish a trust relationship between the communication partners, the ABAP environment and SAP S/4HANA Cloud. You establish this trust relationship by creating several communication management artifacts in SAP S/4HANA Cloud. At the same time, you have to configure a destination on SAP BTP.
 
- ![](images/SAP_BTP_and_SAP_S_4HANA_Cloud_Integration_8449d3b.png "Administration Activities for Establishing Trust Between SAP S/4HANA Cloud and Cloud Foundry (Developer Activities Grayed
-					Out)") 
+Most of the administrative steps can be performed automatically by using the SAP S/4HANA Cloud Extensibility service on SAP BTP. This is the recommended option, as it simplifies the process and reduces the possibility of human error. However, you can also perform all the steps manually. In the following sections, both options are described.
 
-For the OAuth 2.0 authentication, the main task for you as administrator is to establish a trust relationship between the communication partners \(that is, ABAP environment and SAP S/4HANA Cloud\). You establish this trust relationship by creating a communication system in SAP S/4HANA Cloud and configuring the trusted OAuth 2.0 identity provider as part of this communication system. To make sure that a developer can expose a business service, you need to create a communication arrangement, which is based on this communication system and a communication scenario.
 
-Communication arrangements help you to configure the electronic data exchange between the system and a communication partner. The system provides communication scenarios for inbound and outbound communication that you can use to create communication arrangements. Predefined communication scenarios are available for different use cases, including the communication scenario *Business Partner, Customer and Supplier Integration* \(`SAP_COM_0008`\), which is used as relevant communication scenario for the example in this documentation.
+
+<a name="loio83b39d21b4694bd88d07ad9564d41f6e__section_w52_fwp_ssb"/>
+
+## Next Step for Developers
+
+After you have completed the integration of the ABAP environment with SAP S/4HANA Cloud, developers can start implementing their services. For more information about the next steps of the developers and additional resources, see [Implementing an Outbound Service Call to SAP S/4HANA Cloud](implementing-an-outbound-service-call-to-sap-s-4hana-cloud-a4e21bd.md).
 
 
 
@@ -44,9 +45,9 @@ Communication arrangements help you to configure the electronic data exchange be
 
 ## More Information
 
+To learn more about how to use communication management apps in SAP S4/HANA systems to integrate with other systems, see [Communication Management](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/56cf82e75f2a42de827b5dc30e48db64.html).
+
 For more information about available services in SAP S/4HANA Cloud that can be consumed by external systems, search for services on the SAP API Business Hub at [http://api.sap.com](http://api.sap.com) or follow this [direct link](https://api.sap.com/package/SAPS4HANACloud?section=Artifacts).
 
-For more information about how to consume services offered as part of SAP S/4HANA Cloud or other SAP products, see [API Management](https://help.sap.com/viewer/66d066d903c2473f81ec33acfe2ccdb4/Cloud/en-US/adcbc07b031b4ac285b22867a1216306.html).
-
-After you have completed the integration of the ABAP environment with SAP S/4HANA Cloud, developers can start implementing their services. For more information about the next steps of the developers and additional resources, see [Implementing an Outbound Service Call to SAP S/4HANA Cloud](implementing-an-outbound-service-call-to-sap-s-4hana-cloud-a4e21bd.md).
+To find out how to consume services offered as part of SAP S/4HANA Cloud or other SAP products, see [API Management](https://help.sap.com/viewer/66d066d903c2473f81ec33acfe2ccdb4/Cloud/en-US/adcbc07b031b4ac285b22867a1216306.html).
 

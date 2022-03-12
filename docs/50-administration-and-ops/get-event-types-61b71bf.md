@@ -326,7 +326,7 @@ The examples of some of the events for both groups:
 
 ### Response Example
 
-```collapsible
+```
 {
     "SubaccountAppSubscription_Update": {
         "searchParams": [

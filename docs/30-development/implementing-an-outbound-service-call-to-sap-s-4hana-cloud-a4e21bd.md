@@ -2,7 +2,7 @@
 
 # Implementing an Outbound Service Call to SAP S/4HANA Cloud
 
-With the creation of the OAuth2SAMLBearerAssertion destination to SAP S/4​HANA Cloud, you have completed all administration activities needed to integrate SAP S/4HANA Cloud and the ABAP environment. The ABAP environment and SAP S/4HANA Cloud are now set up for developers, who can now implement applications in the ABAP environment that call external services in SAP S/4HANA Cloud.
+After an administrator has created an OAuth2SAMLBearerAssertion destination to integrate SAP S/4HANA Cloud and the ABAP environment, as a developer user, you can now implement applications in the ABAP environment that call external services in SAP S/4HANA Cloud.
 
    
   
@@ -23,5 +23,8 @@ The next steps of the developers would be the following:
 5.  The business user opens the HTTP service in the ABAP environment.
 
 
-For more information, see the developer tutorial [Create Business Partner in S/4HANA Cloud using ABAP Environment Data](https://developers.sap.com/tutorials/abap-environment-business-partner.html).
+**Related Information**  
+
+
+[Tutorial: Create Business Partner in SAP S/4HANA Cloud using ABAP Environment Data](https://developers.sap.com/tutorials/abap-environment-business-partner.html)
 

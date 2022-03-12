@@ -18,7 +18,7 @@ You have completed the following steps:
 
 3.  Choose the data source that you would like to select from.
 
-    ```lang-abap
+    ```abap
     define view entity Z_BOOKINGS_VE_QUERY
       as select from Z_BOOKINGS_VE_CUBE as BookingsCube
     ```
@@ -40,7 +40,7 @@ You have completed the following steps:
 
      **Query Annotations**
 
-    ```lang-abap
+    ```abap
         @AnalyticsDetails.query.display: #KEY_TEXT
         @AnalyticsDetails.query.axis: #ROWS
     key BookingsCube.TravelID,
@@ -55,7 +55,7 @@ You have completed the following steps:
 
 **Z\_Bookings\_VE\_Query**
 
-```lang-abap
+```abap
 @EndUserText.label: 'Bookings View Entity - CDS Data Model'
 @Analytics.query: true
  

@@ -1,6 +1,6 @@
 <!-- loioac974343c1e249829303eedce4dd1eba -->
 
-# Integrating Content With SAP Launchpad Service
+# Integrating Content with SAP Launchpad Service
 
 Get an overview of the process for integrating content to the SAP Launchpad service. This process is composed of a content exposure flow and a content consumption flow.
 
@@ -18,7 +18,7 @@ For a description of the steps required to set up the communication scenario `SA
 
 <a name="loioac974343c1e249829303eedce4dd1eba__section_u1r_1cw_gsb"/>
 
-## Consuming Content to SAP Launchpad Servie
+## Consuming Content in SAP Launchpad Servie
 
 **Prerequisite**
 

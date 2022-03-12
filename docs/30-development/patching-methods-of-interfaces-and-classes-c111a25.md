@@ -9,7 +9,7 @@ The following two code samples illustrate how methods of interfaces and classes 
 Here is how it looks for interfaces:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > "! Code sample for patching methods of an interface.
 > "!
 > "! IMPORTANT: The value of the constant CO_PACKAGE  must be replaced with an existing
@@ -212,7 +212,7 @@ Here is how it looks for interfaces:
 and here is how it looks for classes:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > "! Code sample for patching methods of a class.
 > "!
 > "! IMPORTANT: The value of the constant CO_PACKAGE  must be replaced with an existing

@@ -172,7 +172,7 @@ ABAP\_TRUE if the authority check was successfully
 </table>
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 >  
 > CLASS zcl_chdo_test_auth DEFINITION
 >   PUBLIC

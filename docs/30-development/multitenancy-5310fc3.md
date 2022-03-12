@@ -30,7 +30,7 @@ Create a service instance of the SaaS Provisioning service with a configuration 
 
 The configuration JSON file must use the following format and set these properties:
 
-```lang-json
+```json
 {
    "xsappname" : "<xsappname>",
    "appUrls": {

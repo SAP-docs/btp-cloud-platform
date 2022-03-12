@@ -835,7 +835,7 @@ Syntax errors raised during generation of class. Check syntax of generated class
 </table>
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > 
 > CLASS zcl_chdo_update_object DEFINITION
 >   PUBLIC

@@ -190,10 +190,6 @@ Branch v1.1.0, that is based on the main branch, includes same commits as the ma
 > 
 > -   Building and deploying a new CSP on a weekly or biweekly basis.
 > -   Shipping new software component releases on a quarterly basis. These AOI packages contain every object that has been built and delivered with the support packages, including all the patches.
-> 
-> We recommend shipping new software component releases on a quarterly basis. These AOI packages contain every object that has been built and delivered with the support packages, including all the patches.
-> 
-> In a continuous delivery model, we recommend building and deploying a new CSP on a weekly or biweekly basis.
 
 
 
@@ -218,7 +214,7 @@ Branch v1.1.0, that is based on branch v1.0.0, includes the same commits as bran
 
 <!-- loio919be04888aa4e07b1a99416fb8bb68d -->
 
-## Multiple Software Components
+## Reuse Software Components
 
 
 
@@ -228,13 +224,13 @@ Having this in mind, you can structure development into reuse components that ar
 
 ![](images/Software_Components_and_Add-On_Products_b0bbd71.png)
 
-In this example, one add-on product consists of software component A and software component C, whereas another add-on product consists of software component B and C. Software component A and B use released objects of software component C, and thereby depend on this software component.
+In this example, one add-on product consists of a leading software component A and software component C, whereas another add-on product consists of a leading software component B and C. Software component A and B use released objects of software component C, and thereby depend on this software component.
 
 Once you have released an object, we recommend not changing it incompatibly because this can lead to errors for its consumers.
 
-Software components must not have cyclic dependencies. In the example above, software component C must not use objects from software component A. For more information on software component restrictions, see [Software Components](software-components-58480f4.md).
+Software components must not have cyclic dependencies. In the example above, reuse software component C must not use objects from leading software component A. For more information on software component restrictions, see [Software Components](software-components-58480f4.md).
 
-In the add-on descriptor, dependencies are reflected by the order of the components in the repositories list:
+In the add-on descriptor file, dependencies are reflected by the order of the components in the repositories list:
 
 ```
 ---
@@ -263,11 +259,11 @@ In this case, component `/NAMESPC/COMPONENT_C` is the reuse component. It has no
 
 In this scenario, add-on product X and Y are based on the continuous delivery model and still undergo development. That means, for both add-on products, a new version can be shipped on a bi-weekly basis.
 
-Consequently, software components A and B refer to objects in the same branch of the reuse software component C, for example branch v1.2.0
+Consequently, the leading software components A and B refer to objects in the same branch of the reuse software component C, for example branch v1.2.0
 
-Let’s assume that development and correction of both software components is performed in one DEV and COR system. If there has to be a bug fix in software component C, corrections to the corresponding software components A and B are still possible. This is due to the fact that branch v1.2.0 can remain checked out in software component C, while these changes are made.
+Let’s assume that development and correction of both software components is performed in one DEV and COR system. If there has to be a bug fix in reuse software component C, corrections to the corresponding software components A and B are still possible. This is due to the fact that branch v1.2.0 can remain checked out in software component C, while these changes are made.
 
-The same applies to the develpoment process: A new feature can be developed in software component A using the main branch of software component C. Since only the main branch of software component C is used in the DEV system, the development in the corresponding software components A and B can continue in parrallel.
+The same applies to the develpoment process: A new feature can be developed in leading software component A using the main branch of reuse software component C. Since only the main branch of reuse software component C is used in the DEV system, the development in the corresponding software components A and B can continue in parrallel.
 
 This scenario is resource-efficient: only one system is required for development in system DEV and one for corrections in COR. With respect to the developer experience, it is more convenient to have all implementation components in one development system because everything is in one place and the whole system landscape is easily understandable.
 
@@ -280,5 +276,6 @@ The system setup regarding the testing and quality assurance for corrections dep
 -   Do you want to reduce the number of systems without restricting the test environment? Then you only need one TST and one QAS system, where all software components are imported.
 
 
-The number of required systems for DEV, COR, TST, and QAS depends on the number of branches that are actively used in dev, test, and build processes. Whenever more than one branch is actively used, one ABAP system is required per branch because an ABAP system always checks out only one branch of a software component.
+> ### Recommendation:  
+> The number of required systems for DEV, COR, TST, and QAS depends on the number of branches that are actively used in dev, test, and build processes. Whenever more than one branch is actively used, one ABAP system is required per branch because an ABAP system always checks out only one branch of a software component.
 

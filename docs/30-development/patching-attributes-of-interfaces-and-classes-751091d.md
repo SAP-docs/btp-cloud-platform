@@ -7,7 +7,7 @@ The code samples illustrate how the interface and class Read APIs can be combine
 In the first example an attribute is inserted into an interface if it's not yet part of it and deleted if it's already a part of the interface. By running the class several times in a row the attribute will be continuously inserted and deleted.
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > "! Code sample for using the interface Read APIs together with the INTF PATCH operation
 > "! functionality to "toggle" a DATA attribute on an interface.
 > "!
@@ -99,7 +99,7 @@ In the first example an attribute is inserted into an interface if it's not yet 
 The second example "moves" an attribute through all three sections of a class. By running the below class several times in a row the attribute will first move from the public section to the protected section, then to the private section and then back to the public section to repeat the cycle:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > "! Code sample for using the class Read APIs together with the CLAS PATCH operation
 > "! functionality to "move" a DATA attribute across the sections of the class.
 > "!

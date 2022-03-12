@@ -8,7 +8,7 @@ Afterwards, the SaaS solution is provided by offering a multitenant application 
 
 There are multiple options to deliver software components to the systems. The delivery process described in this documentation mainly focuses on using add-on products as a means to deliver software components by installing or updating delivery packages in a system. See [The Add-On Product](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#the-add-on-product).
 
-As an alternative, you can choose a delivery process using the gCTS-based import of software components. See [Transport Mechanisms](transport-mechanisms-aa7f169.md).
+As an alternative, you can choose a delivery process using the gCTS-transport-based import of software components. See [Transport Mechanisms](transport-mechanisms-aa7f169.md).
 
 
 
@@ -34,11 +34,11 @@ Making software components available across different global accounts is only po
 
 <a name="loio438d7ebfdc4a41de82dcdb156f01857e__section_byp_kzr_2rb"/>
 
-## gCTS Delivery Process
+## gCTS Transport Delivery Process
 
 ![](images/gCTS-Based_Delivery_Process_f6dfab0.png)
 
-The gCTS-based delivery process takes place in the global development account only. This is due to the fact that the underlying gCTS repository is only shared among systems in the same region in the same global account.
+The gCTS-transport-based delivery process takes place in one global development account only. This is due to the fact that the underlying gCTS repository is only shared among systems in the same region in the same global account.
 
 ABAP development objects are released with a transport request in a particular software component in the development system. The transport request release automatically exports the changes into an SAP-managed gCTS repository by creating a new commit. Once the changes are exported into the gCTS repository, they are centrally available and can be imported into any other systems in the same region in the same global account. By cloning a software component into a customer production system using the *Manage Software Components* app, implemented ABAP objects become available to customers subscribed to the multitenant application.
 
@@ -58,37 +58,14 @@ The customer production system AMT is provisioned during the initial subscriptio
 </td>
 <td valign="top">
 
-**Add-On Build Delivery** 
+**Add-On Build Delivery \(Productive Build Pipeline\)** 
 
 
 
 </td>
 <td valign="top">
 
-**gCTS Delivery**
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Type
-
-
-
-</td>
-<td valign="top">
-
-**Product Build Pipeline Tool**
-
-
-
-</td>
-<td valign="top">
-
-**Transport Technology**
+**gCTS Transport Delivery \(Transport Mechanism\)**
 
 
 
@@ -104,7 +81,8 @@ Type
 </td>
 <td valign="top">
 
--   ABAP systems for development purposes \(development, test, demo\) are of type `abap/standard` or `abap/ abap_saas_oem`, and are provisioned in the global account for development based on discounted development license
+-   ABAP systems for development purposes \(development, test, demo\) are of type `abap/standard` or `abap/ abap_saas_oem`, and are provisioned in the global account for development based on a discounted development license
+-   ABAP systems for production purposes \(used by partner customers\) are of type `abap/standard` or `abap/ abap_saas_oem`, and are provisioned in the global account for production based on a production license
 -   Software components are made available across these different global accounts by using add-ons
 -   For execution of the add-on build pipeline, an add-on assembly system BLD and add-on installation test system ATI are \(temporarily\) required
 
@@ -162,9 +140,9 @@ Type
 
 Add-on build pipeline for delivery to production provides a guided process with strict checks:
 
--   ATC checks before transport release
--   Optional: ATC checks as part of ABAP environment pipeline for continuous testing
--   ATC checks as part ofABAP environment pipeline for add-on build
+-   ABAP Test Cockpit checks before transport release
+-   Optional: ABAP Test Cockpit checks as part of ABAP environment pipeline for continuous testing
+-   ABAP Test Cockpit checks as part of ABAP environment pipeline for add-on build
 -   Checks during add-on build
 -   Add-on installation test
 -   Check for minimum platform version during add-on installation/update
@@ -177,8 +155,8 @@ Add-on build pipeline for delivery to production provides a guided process with 
 
 gCTS transport includes basic checks, for strict checks additional processes need to be established:
 
--   ATC checks before transport release
--   Optional: ATC checks as part of ABAP environment pipeline for continuous testing
+-   ABAP Test Cockpit checks before transport release
+-   Optional: ABAP Test Cockpit checks as part of ABAP environment pipeline for continuous testing
 
 
 
@@ -210,8 +188,7 @@ gCTS transport includes basic checks, for strict checks additional processes nee
 -   Logs of software component import are not archived, only locally available in ABAP environment system
 -   Commit IDs in software component branches can be deleted by accident if not contained in any other existing branch
 -   Import dependencies between software components need to be taken care of manually, a specific import order must be adhered to
--   Software component states are only identified by a specific commit ID instead of a version number
--   Untested changes might be delivered to consumers by accident
+-   Software component states are only identified by a specific commit ID instead of a readable version number
 
 
 
@@ -227,10 +204,9 @@ gCTS transport includes basic checks, for strict checks additional processes nee
 </td>
 <td valign="top">
 
--   Add-on update can be triggered centrally in a system using the *Landscape Portal* application. See [Perform Add-on Updates](perform-add-on-updates-8c5cb9e.md).
 -   Online deployment only possible with add-on-based delivery
 -   With the *Landscape Portal* as a central tool for orchestration of software lifecycle activities, the add-on version can be updated centrally in multiple systems at the same time
--   Add-ons are automatically installed during system provisioning of ABAP systems and application content is immediately available in systems provisioned after subscription to the multitenant application
+-   Add-ons are automatically installed during system provisioning of ABAP systems and application content is immediately available in systems after subscription to the multitenant application
 
 
 
@@ -256,14 +232,14 @@ gCTS transport includes basic checks, for strict checks additional processes nee
 <tr>
 <td valign="top" rowspan="2">
 
- **Compliance with Certifications/Standards**
+ **Certifications and Compliance of Solution**
 
 
 
 </td>
 <td valign="top" colspan="2">
 
-e.g. ISO-22301,ISO-27001,ISO-27017,ISO-27018,SOC 1 Type II,SOC 2 Type II,C5,TISAX,CSA STAR,EU Cloud CoC, ISMAP
+SAP Compliance Offerings available in SAP Trust Center. See [https://www.sap.com/about/trust-center/certification-compliance.html](https://www.sap.com/about/trust-center/certification-compliance.html).
 
 
 
@@ -272,14 +248,14 @@ e.g. ISO-22301,ISO-27001,ISO-27017,ISO-27018,SOC 1 Type II,SOC 2 Type II,C5,TISA
 <tr>
 <td valign="top">
 
-Requires less effort to be compliant with standards because a strict process, supported by SAP delivery/deployment tools is provided.
+Requires less effort to be compliant because a strict process, supported by SAP delivery/deployment tools, is provided.
 
 
 
 </td>
 <td valign="top">
 
-Requires additional effort to comply with standards because a strict process needs to be established without SAP tooling support.
+Requires additional effort to to be compliant because a strict process needs to be established without SAP tooling support.
 
 
 
@@ -288,15 +264,15 @@ Requires additional effort to comply with standards because a strict process nee
 </table>
 
 > ### Recommendation:  
-> We recommend using the add-on build delivery process because it offers a bundling that can be used to implement a sophisticated delivery approach with separate codelines, versioning, and, as a result, different delivery package types. See [Delivery Models](versioning-and-branches-8c087bc.md#loio326508756a144c49b98e5fcf442cce40). It also comes with a separation of ABAP system licenses for development and production purposes, with the development systems being available at a discounted rate.
+> We recommend using the **add-on build delivery** process because it offers a bundling that can be used to implement a sophisticated delivery approach with separate codelines, versioning, and, as a result, different delivery package types. See [Delivery Models](versioning-and-branches-8c087bc.md#loio326508756a144c49b98e5fcf442cce40). It also comes with a separation of ABAP system licenses for development and production purposes, with the development systems being available at a discounted rate.
 > 
 > Example scenarios: Long-term projects with frequent maintenance deliveries, expected growth of consumers over time, and adherence to specific standards/certifications.
 > 
-> The gCTS delivery approach is a more lightweight approach that might be used especially if a simple setup and quick readiness are important. Ease-of-use of the gCTS delivery approach comes with disadvantages in auditability, traceability, scalability, and resilience. These trade-offs might be resolved by establishing additional manual process steps or documentation requirements.
+> The **gCTS transport delivery** approach is a more lightweight approach that might be used especially if a simple setup and quick readiness are important. Ease-of-use of the approach comes with disadvantages in auditability, traceability, scalability, and resilience. These trade-offs might be resolved by establishing additional manual process steps or documentation requirements.
 > 
 > If the multitenant application is configured with `tenant_mode = single`, a dedicated system is created per subscription. See [Define Your ABAP Solution](define-your-abap-solution-1697387.md). In that case, gCTS delivery is only recommended if the SaaS solution is expecting a small set of customers or if the subscription is performed together with the customer. Otherwise, the effort for executing manual tasks, such as importing software components would be too high.
 > 
 > Example scenarios: Prototyping projects, quick time-to-market launch, in-house solutions, predictable number of consumers, and no expected exceptional growth rate
 > 
-> Once a first customer is using the SaaS solution and a first production system is provisioned, there is no migration path available to switch from one approach to the other, which means that systems would have to be deleted. However, it is likely is to start out with gCTS delivery in the prototyping phase of a project and establish an add-on build delivery approach once the initial version needs to be delivered and customer systems need to be created.
+> Once a first customer is using the SaaS solution and a first production system is provisioned, there is no migration path available to switch from one approach to the other, which means that systems would have to be deleted. However, it is likely is to start out with gCTS transport delivery in the prototyping phase of a project and establish an add-on build delivery approach once the initial version needs to be delivered and customer systems need to be created.
 

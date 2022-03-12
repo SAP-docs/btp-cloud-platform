@@ -6,17 +6,17 @@ To develop and provide add-ons, you have to set up a suitable system landscape a
 
 
 
-You need a partner contract to create the account structure. The accounts for the upstream \(add-on development, test, build\) and downstream \(providing add-on as SaaS solution\) parts of the process need to be separated from each other and therefore are handled in dedicated global accounts. We refer to these as global development account and global production account. For more information regarding the development license, see [SAP PartnerEdge Test, Demo & Development Price List](https://partneredge.sap.com/en/library/assets/partnership/sales/order_license/pl_pl_part_price_list.html). To find out more about production licenses, see [SAP PartnerEdge: Resources for OEM Partners](https://partneredge.sap.com/en/partnership/manage/op_resource/oem.html).
+You need a partner contract to create the account structure. The accounts for the upstream \(add-on development, test, build\) and downstream \(providing add-on as SaaS solution\) parts of the process need to be separated from each other and therefore are handled in dedicated global accounts. We refer to these as global accounts for development and production account. For more information regarding the development license, see [SAP PartnerEdge Test, Demo & Development Price List](https://partneredge.sap.com/en/library/assets/partnership/sales/order_license/pl_pl_part_price_list.html). To find out more about production licenses, see [SAP PartnerEdge: Resources for OEM Partners](https://partneredge.sap.com/en/partnership/manage/op_resource/oem.html).
 
 > ### Tip:  
 > For in-depth information about the system landscape/account model, check out [System Landscape/Account Model](concepts-9482e7e.md#loio4ca756395fc24e56a42b77632a6bd862).
 
 For the initial add-on delivery, you should create a development and test landscape following the guidelines mentioned in [Concepts](concepts-9482e7e.md#loio9482e7eef4634cb993a4ae296b2029fa). Once backend and frontend development is completed, you can test the add-on implementation in a persistent test system. Upon successful completion of this step, set up a CI/CD server along with a Jenkins pipeline to execute the add-on build allowing for an automated and efficient assembly. This automated pipeline can then be reused transforming all upgrade and update activities into a straightforward process.
 
-Once the add-on build/assembly is finished, you can release the add-on to the productive global account. First, the add-on build is installed in a test system in the production account to verify that it works correctly. If successful, you can provide the add-on to customers. See [SAP Business Technology Platform](../sap-business-technology-platform-6a2c1ab.md), [ABAP Environment Learning Journey](https://help.sap.com/doc/221f8f84afef43d29ad37ef2af0c4adf/HP_2.0/en-US/49047e7668844d419ccee567923a475e.html), and [ABAP Environment Community](https://community.sap.com/topics/cloud-platform-abap-environment). Also consider starting out with a trial account to get hands-on development experience with the ABAP environment as described in [Blog: Trial for ABAP in SAP Business Technology Platform](https://blogs.sap.com/2019/09/28/its-trialtime-for-abap-in-sap-cloud-platform/) and [Getting Started with a Trial Account in the ABAP Environment](../20-getting-started/getting-started-with-a-trial-account-in-the-abap-environment-720c423.md).
+Once the add-on build/assembly is finished, you can release the add-on to the productive global account. First, the add-on build is installed in a test system in the production account to verify that it works correctly. If successful, you can provide the add-on to customers.
 
 > ### gCTS Delivery:  
-> Besides using add-ons for delivering software components to production systems, gCTS can be used as an alternative approach. It is used for transporting software components between different ABAP systems.
+> Besides using add-ons for delivering software components to production systems, gCTS transports can be used as an alternative approach. It is used for transporting software components between different ABAP systems.
 > 
 > See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
@@ -46,9 +46,9 @@ Once you’ve completed these steps, you can start developing an add-on.
 
 ## Prerequisites
 
--   To register a namespace, you need an S user in SAP One Support Launchpad with authorization to reserve a development namespace. See SAP note [1271482](https://launchpad.support.sap.com/#/notes/1271482).
--   To set up a global development and global poduction account, you need two global accounts in SAP BTP with the corresponding entitlements for services and applications. See [Entitlements and Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00aa2c23479d42568b18882b1ca90d79.html).
--   To create ABAP instances, you have to set up the account structure in the global development account, and assign entitlements for each subaccount. See [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5ba357b4fa1e4de4b9fcc4ae771609da.html).
+-   To register a namespace, you need an S-user in SAP One Support Launchpad with authorization to reserve a development namespace. See SAP note [1271482](https://launchpad.support.sap.com/#/notes/1271482).
+-   To set up global accounts for development and poduction, you need two global accounts on the SAP Business Technology Platform with the corresponding entitlements for services and applications. See [Entitlements and Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00aa2c23479d42568b18882b1ca90d79.html).
+-   To create ABAP instances, you have to set up the account structure in the global account for development, and assign entitlements for each subaccount. See [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5ba357b4fa1e4de4b9fcc4ae771609da.html).
 -   To develop UIs, you need an entitlement for SAP Business Application Studio and an assignment to a subaccount for development. See [SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US).
 -   To set up transports from the development to the test system, you need a test system and optionally a pipeline in a Jenkins CI/CD server that is provisioned using a Cx Server to automatically import new changes. See [https://www.jenkins.io/](https://www.jenkins.io/) and [Cx Server](https://www.project-piper.io/infrastructure/overview/#cx-server-recommended).
 -   To set up add-on development, you need a development system.
@@ -64,7 +64,7 @@ Using a reserved namespace for add-on development and build is necessary for a u
 > ### Note:  
 > You need to register a namespace before the first ABAP system is provisioned. For namespaces that are registered after the system provisioning, create an incident using component `BC-CP-ABA`.
 
-If you need a new S-user, get in touch with a user administrator
+If you need a new S-user, get in touch with a user administrator in SAP ONE Support Launchpad.
 
 As an S-user with authorization *Reserve Namespaces*, you have to reserve a namespace for your partner customer ID to register a namespace with the *Namespace* app. See [https://launchpad.support.sap.com/\#/namespaces](https://launchpad.support.sap.com/#/namespaces).
 
@@ -74,9 +74,9 @@ Due to length restrictions of some objects, namespaces should have 5–8 charact
 
 <!-- loio9f2150f2b15e414aacd46c1723ce48fb -->
 
-### Set Up a Development Account
+### Set Up a Global Account for Development
 
-As a SaaS solution operator, you have to configure the global account for development \(used for development, testing and demo purposes\).
+As a SaaS solution operator, you have to configure the global account for development \(used for development, testing, and demo purposes\).
 
 ![](images/Prepare_a_Development_Account_e29111f.png)
 
@@ -86,7 +86,7 @@ As a SaaS solution operator, you have to configure the global account for develo
 > -   In the *01 Develop* subaccount, add-on development is performed in a permanent development system. See [Development in the ABAP Environment](development-in-the-abap-environment-31367ef.md).
 > -   In the *02 Test* subaccount, the developed software components are tested after a successful import into a permanent test system.
 > -   In the *03 Build/Assemble* subaccount, the add-on package assembly is performed in a transient assembly system that is created and deleted automatically by the build pipeline.
-> -   In the *04 Build/Test* subaccount, the add-on build is installed and tested again.
+> -   In the *04 Build/Test* subaccount, the add-on product is installed and tested again.
 > -   In the *05 Provide* subaccount, the add-on product is provided as a SaaS solution for testing purposes in the development phase.
 
 > ### gCTS Delivery:  
@@ -94,16 +94,16 @@ As a SaaS solution operator, you have to configure the global account for develo
 > 
 > -   *03 Build/Assemble* \(used for the add-on assembly\)
 > -   *04 Build/Test* \(used for add-on installation test\)
-
-Additionally, considering the availability of software components only in the same global accounts, you have to create the production systems as well as development and test systems in the same global account \(only one global account is used\).
-
-In the provider subaccount, an ABAP instance of service plan type abap/standard instead of abap/saas\_oem is used.
-
-See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+> 
+> Additionally, considering the availability of software components only in the same global accounts, you have to create the production systems as well as development and test systems in the same global account \(only one global account is used\).
+> 
+> In the provider subaccount, an ABAP instance of service plan type abap/standard instead of abap/saas\_oem is used.
+> 
+> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 You should configure a Cloud Foundry space in each subaccount. Dividing the development, testing, and assembling activities into different subaccounts allows for maximum flexibility. For instance, you may want to use different identity providers or consume different connectivity services during testing and development.
 
-The ABAP systems that you use for development, testing, and add-on assembly are of type `abap/standard` and made available via entitlements. ABAP systems for add-on installation are of type abap/saas-oem. These service entitlements must be assigned by an administrator to different subaccounts, according to the following structure: :
+The ABAP systems that you use for development, testing, and add-on assembly are of type `abap/standard` and made available via entitlements. ABAP systems for add-on installation are of type abap/saas-oem. These service entitlements must be assigned by an administrator to different subaccounts, according to the following structure:
 
 
 <table>
@@ -295,7 +295,7 @@ Additionally, the following entitlements for SaaS application subscriptions are 
 -   Web access for ABAP for access to systems during development phase. See [Subscribing to the Web Access for ABAP](../20-getting-started/subscribing-to-the-web-access-for-abap-98928b0.md).
 -   Landscape Portal for provider support access. See [Landscape Portal](landscape-portal-5eb70fb.md).
 
-If you want to integrate an existing corporate identity provider in the subaccounts of the global development account for authentication/authorization, see [Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md). To restrict access based on certain criteria such as the IP address, you need to use the [Identity Authentication Service](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
+If you want to integrate an existing corporate identity provider in the subaccounts of the global account for development for authentication/authorization, see [Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md). To restrict access based on certain criteria such as the IP address, you need to use the [Identity Authentication Service](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
 
 > ### Tip:  
 > For in-depth information about the system landscape/account model, check out [System Landscape/Account Model](concepts-9482e7e.md#loio4ca756395fc24e56a42b77632a6bd862).
@@ -304,7 +304,7 @@ If you want to integrate an existing corporate identity provider in the subaccou
 
 <!-- loio2e7b4b631e814de1b8fe3959af4105bc -->
 
-### Set Up a Production Account
+### Set Up a Global Account for Production
 
 As a SaaS solution operator, you have to configure the global account for production.
 
@@ -320,7 +320,7 @@ In the provider context, the `ABAP environment (saas_oem)` service plan is used.
 > ### gCTS Delivery:  
 > In the provider subaccount, an ABAP instance of service plan type `abap/standard` instead of `abap/saas_oem` is used.
 > 
-> Additionally, considering the availability of software components only in the same global accounts, you have to create the production systems as well as development and test systems in the same global account \(global development account = global production account\).
+> Additionally, considering the availability of software components only in the same global accounts, you have to create the production systems as well as development and test systems in the same global account.
 > 
 > In the provider subaccount, an ABAP instance of service plan type `abap/standard` instead of `abap/saas_oem` is used.
 > 
@@ -519,11 +519,11 @@ Set parameter `is_development_allowed = false`
 </table>
 
 > ### Note:  
-> You don't have to create an ABAP instance \(abap/standard,`is_development_allowed = false`\) in the *03 Build/Assemble* account because this instance is created automatically during the add-on build process .
+> You don't have to create an ABAP instance \(abap/standard, `is_development_allowed = false`\) in the *03 Build/Assemble* account because this instance is created automatically during the add-on build process .
 
 In the *03 Build/Assemble* account, assembly systems are provisioned by the add-on build pipeline. These systems are used to import the desired software components that are then packaged for add-on delivery \(see [Software Assembly Integration \(SAP\_COM\_0582\)](software-assembly-integration-sap-com-0582-26b8df5.md)\). As an operator, you don’t have to provision these systems manually as we recommend using transient systems for the build process. But sufficient entitlement/quota for abap/standard services need to be available.
 
-Use service parameter `is_development_allowed` to differentiate between development and test systems. The test and assembly systems must be productive to avoid changes being made to the add-on outside of the development system.
+Use service parameter `is_development_allowed` to differentiate between development and production systems. The test and assembly systems must be productive to avoid changes being made to the add-on outside of the development system.
 
 For more information on how to get started with your customer account, see [Getting Started with a Customer Account in the ABAP Environment](../20-getting-started/getting-started-with-a-customer-account-in-the-abap-environment-e34a329.md) and [Creating an ABAP System](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/50b32f144e184154987a06e4b55ce447.html).
 
@@ -550,6 +550,8 @@ As a developer user, you can then create an SAP Fiori dev space and generate UI 
 
 ### Set Up Add-On Development
 
+**Create and Import Software Components**
+
 To transport new developments from system to system, the add-on development is structured by software components. Software components are independent development containers.
 
 To create a new software component for add-on development, as an add-on admin user, use the *Manage Software Components* app and create a new component of type `Development`. The name of the software component begins with a namespace that was activated in the development system. By default, all namespaces of the global account owner are enabled in the systems. See [How to Create Software Components](../50-administration-and-ops/how-to-create-software-components-67e2f2e.md).
@@ -560,6 +562,18 @@ Software components in the development and test system should always stay on the
 
 > ### Tip:  
 > For in-depth information about versioning and branches, check out [Versioning and Branches](versioning-and-branches-8c087bc.md#loio8c087bca40584f9b899282b4ec515753).
+
+**Configure ABAP Test Cockpit Checks, Check Variants**
+
+By default, a check variant `ABAP_CLOUD_DEVELOPMENT_DEFAULT` is generated in ABAP environment systems. You should use this variant for ABAP Test Cockpit check runs or create a custom check variant based on the default check. See [Creating ATC Check Variants](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/4ca1896148fe47b5a4507e1f5fb2aa8c.html). You can also create custom ABAP Test Cockpit checks. See [Creating ATC Checks](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/f25a06d20dc8462497a0b6ce7fdb24e0.html).
+
+Custom ABAP Test Cockpit checks and check variants are created as part of a software component, whereas the default check variant is generated locally.
+
+**Configure ABAP Test Cockpit to Interrupt Transport Releases**
+
+We recommend enabling the blocking of transport releases in case of priority 1 \(error\) findings using the default check variant `ABAP_CLOUD_DEVELOPMENT_DEFAULT` or a custom check variant. You can enable transport blocking in the ABAP Test Cockpit Configurator app. See [ABAP Test Cockpit Configurator](../50-administration-and-ops/abap-test-cockpit-configurator-22c26ff.md).
+
+Interrupting a transport release in case of severe findings can help to fix issues early on during development. The later errors are detected in the development process, the more costly it is to resolve them. See [Launching ATC Check Implicitly](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/d6ccb9bbafd44eb7bf9564e18b699112.html)
 
  <a name="loiobf557544f90f4bc88911c4865ec78207"/>
 
@@ -576,7 +590,7 @@ As an add-on admin user, you can pull the latest released changes of a software 
 **Automatic import into test system**
 
 > ### Note:  
-> A CI server that is running the ABAP Environment Pipeline is required. See [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
+> A CI/CD server that is running the ABAP Environment Pipeline is required. See [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
 
 To schedule a regular import of new changes into the test system, you can use a CI server and pipeline to automate this process.
 
@@ -614,13 +628,13 @@ Once you’ve completed these development activities, the solution is ready to b
 
 ### ABAP Development
 
-As a developer user, implement your custom business services with the ABAP RESTful application programming model. See [ABAP RESTful Application Programming Model](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/289477a81eec4d4e84c0302fb6835035.html). Maintain business catalogs \(see [Identity and Access Management \(IAM\)](identity-and-access-management-iam-5b62901.md)\) and communication scenarios \(see [Overview of Communication Management](overview-of-communication-management-5b8ff39.md)\) to expose services to business users and communication users.
+As a developer user, implement your custom business services with the ABAP RESTful application programming model. See [ABAP RESTful Application Programming Model](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/289477a81eec4d4e84c0302fb6835035.html). Maintain business catalogs \(see [Identity and Access Management \(IAM\)](identity-and-access-management-iam-5b62901.md)\) and communication scenarios \(see [Overview of Communication Management](overview-of-communication-management-5b8ff39.md)\) to expose services to business users and communication users. See [SAP Business Technology Platform](../sap-business-technology-platform-6a2c1ab.md), [ABAP Environment Learning Journey](https://help.sap.com/doc/221f8f84afef43d29ad37ef2af0c4adf/HP_2.0/en-US/49047e7668844d419ccee567923a475e.html), and [ABAP Environment Community](https://community.sap.com/topics/cloud-platform-abap-environment). Also consider starting out with a trial account to get hands-on development experience with the ABAP environment as described in [Blog: Trial for ABAP in SAP Business Technology Platform](https://blogs.sap.com/2019/09/28/its-trialtime-for-abap-in-sap-cloud-platform/) and [Getting Started with a Trial Account in the ABAP Environment](../20-getting-started/getting-started-with-a-trial-account-in-the-abap-environment-720c423.md).
 
 **Identity and Access Management**
 
 SAP Fiori applications and business services are represented by IAM apps and can be used to define the necessary authorizations. In an IAM business catalog, you bundle multiple IAM apps and their predefined authorizations, for example, for a specific business area.
 
-Additionally, you can define business role templates to make it easier for administrators to find the relevant business catalogs. See [Identity and Access Management \(IAM\)](identity-and-access-management-iam-5b62901.md).
+Additionally, you can define business role templates to make it easier for administrators to find the relevant business catalogs to create business roles. See [Identity and Access Management \(IAM\)](identity-and-access-management-iam-5b62901.md).
 
 **Communication Management**
 
@@ -658,7 +672,7 @@ Business configuration plays a major role in SaaS solutions. It refers to a pred
 
 To maintain these configuration options, you have to create dedicated apps using the ABAP RESTful Application Programming Model. See [Create a Business Configuration App for Factory Calendar Using the ABAP RESTful Application Programming Model](https://developers.sap.com/mission.abap-dev-factory-calendar.html).
 
-Using the business configurations API, you can register business configurations. These business configurations are then displayed in the list of all maintainable business configurations in the SAP Fiori App Maintain Business Configurations, unless the user has the necessary authorizations for the service of the business configuration. See [Business Configuration Maintenance Object Cloud Platform API](business-configuration-maintenance-object-cloud-platform-api-508d406.md).
+Using the business configurations API, you can register business configurations. These business configurations are then displayed in the list of all maintainable business configurations in the SAP Fiori App Maintain Business Configurations, if the user has the necessary authorizations for the service of the business configuration. See [Business Configuration Maintenance Object Cloud Platform API](business-configuration-maintenance-object-cloud-platform-api-508d406.md).
 
 
 
@@ -670,7 +684,7 @@ As a developer user, you have to implement key user extensibility in the develop
 
 See [Providing Business Add-Ins](providing-business-add-ins-6747acb.md) for guidance on how to prepare business add-ins \(BAdIs\) so that customers can add their own business logic in the solution by using the *Custom Logic* app.
 
-See[Configuring Predefined Custom Fields](../50-administration-and-ops/configuring-predefined-custom-fields-0033cbc.md) for guidance on how to equip your SaaS solution with support for customer-specific extension fields.
+See [Configuring Predefined Custom Fields](../50-administration-and-ops/configuring-predefined-custom-fields-0033cbc.md) for guidance on how to equip your SaaS solution with support for customer-specific extension fields.
 
 > ### Note:  
 > Released APIs, such as BAdIs or predefined custom fields, must only be changed compatibly. Otherwise, for example, runtime errors might occur or an upgrade might fail.
@@ -726,7 +740,7 @@ After adapting the code and making necessary changes, you can migrate the code v
 
 Once development has been completed, you can test the solution in the test subaccount that you have previously set up. The software components that make up the solution are imported into a provisioned test system, while any additionally required configuration has to be carried out by you. This may entail creating suitable business roles, maintaining communication arrangements, or other administrative tasks performed via the SAP Fiori launchpad of your ABAP system.
 
-You can also use a CI server and a Jenkins pipeline to automate the test process. This allows you to schedule regular tests and to be notified as soon as issues arise within the solution.
+You can also use a CI/CD server and a Jenkins pipeline to automate the test process. This allows you to schedule regular tests and to be notified as soon as issues arise within the solution.
 
 If the solution is successfully tested and works correctly, you can proceed with the add-on build.
 
@@ -795,20 +809,26 @@ As a test user in a Partner Test tenant \(client \>= 200\), you configure key us
 
 ### Test in the ABAP Test Cockpit
 
-With the ABAP Test Cockpit, you can run a set of checks \(check variants\) on software component or package level. See [ABAP Test Cockpit Configurator](../50-administration-and-ops/abap-test-cockpit-configurator-22c26ff.md) and [ABAP Test Cockpit in the Cloud – What is already possible](https://blogs.sap.com/2020/08/14/abap-test-cockpit-in-the-cloud-what-is-already-possible/).
+With the ABAP Test Cockpit, you can run a set of checks \(check variants\) on software component or package level. See [Checking Quality of ABAP Code with ATC](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/4ec5711c6e391014adc9fffe4e204223.html) and [ABAP Test Cockpit in the Cloud – What is already possible](https://blogs.sap.com/2020/08/14/abap-test-cockpit-in-the-cloud-what-is-already-possible/).
 
-To schedule a regular execution of ATC checks for a software component in the test system, you can use a CI server and pipeline to automate this process.
+To fix and revalidate ABAP Test Cockpit findings, as a developer user, you can run ABAP Test Cockpit checks on developed software components explicitly via ABAP Development Tools in the DEV system. See [Launching ATC Check Run from the Project Explorer](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/71d7ffbc6c2f48e888e89f0100ac345e.html) and [Launching ATC Check Run Explicitly](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/4ec5a60b6e391014adc9fffe4e204223.html).
 
-For automated ATC check runs, you can reuse the previously described setup of a transport from dev to test using the ABAP environment pipeline.
+If transport blocking in case of ABAP Test Cockpit findings is configured \(see [Set Up Add-On Development](develop-test-build-3bf575a.md#loio89a353151e534380a03b2a572a227731)\), ABAP Test Cockpit checks are executed implicitly. See [Launching ATC Check Implicitly](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/d6ccb9bbafd44eb7bf9564e18b699112.html).
+
+**ATC Exemptions**
+
+If you can't clear an ABAP Test Cockpit finding by correcting the underlying problem, you can still clear it by requesting an exemption. Exemptions are created as part of a specific software component. See [Working with ATC Exemptions](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/b317b37b06304f99a8cf36e0ebf30861.html).
+
+**Continuous Testing using ABAP Environment Pipeline**
+
+To schedule a regular execution of ABAP Test Cockpit checks for a software component in the test system, you can use a CI server and pipeline to automate this process. You can reuse the previously described setup of a transport from dev to test using the ABAP environment pipeline.
 
 As a DevOps engineer, configure the ABAP environment pipeline by using a static and preconfigured system. With the pipeline, the following steps are then automated, triggered by the pipeline execution of a Jenkins administrator:
 
 -   Pulling the specified software components/Git repositories
--   Running the configured ABAP Test Cockpit \(ATC\) checks
+-   Running the configured ABAP Test Cockpit checks
 
 See [Continuous Testing on SAP BTP ABAP Environment](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentTest/) for further details and [Running ATC Checks on a Static ABAP Environment System](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/atc-static) for an example.
-
-To fix and revalidate ATC findings, as a developer user, you can run ATC checks on developed software components locally via ABAP Development Tools in the DEV system.
 
  <a name="loio25049720bde447e395b3df0bc05e5a50"/>
 
@@ -821,21 +841,19 @@ To fix and revalidate ATC findings, as a developer user, you can run ATC checks 
 > ### gCTS Delivery:  
 > If you use gCTS instead of add-ons for delivering software components into production systems, the add-on build is not required.
 > 
-> Instead, you have to import the software component using the *Manage Software Components* app. For the initial import of the software component, clone the software component and pull its main branch into the development and test system. In the production system, clone the software component for an initial import.
+> Instead, you have to import the software component using the *Manage Software Components* app. For the initial import of the software component, clone the software component and pull its main branch into the development and test system.
 > 
-> Once it is pulled on the main branch, create a maintenance branch and check it out.
-> 
-> In the *Branching* tab, you have to create and check out a new branch with the version, for example v1.0.0.
+> Once it is pulled on the main branch, create a maintenance branch with version v1.0.0, for example.
 > 
 > See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
-As a Jenkins administrator, you have to trigger the add-on build process and execute it in the *03 Build/Assemble* subaccount. An assembly system is created in the *03 Build/Assemble* subaccount. The process is automated using the add-on build pipeline and the existing CI/CD server.
+As a Jenkins administrator, you have to trigger the add-on build process. An assembly system is created in the *03 Build/Assemble* subaccount. The process is automated using the add-on build pipeline and the existing CI/CD server.
 
-As an add-on admin, you define the add-on product information in the add-on descriptor file. Afterwards, you register the add-on product and global production account with SAP.
+As an add-on admin, you define the add-on product information in the add-on descriptor file. Afterwards, you register the add-on product and global account for production with SAP.
 
 During the build process, each of the software components is composed and packaged to be delivered by the AAKaaS. To ensure that the add-on provisioning works correctly, you have to set up an installation test system, in which the assembled add-on is installed.
 
-Once the build and test installation have been completed successfully, an add-on administrator has to confirm the release decision. Now, the add-on is technically available for deployment to the ABAP environment .
+Once the build and test installation have been completed successfully, an add-on administrator has to confirm the release decision. Now, the add-on is technically available for deployment to the ABAP environment.
 
 
 
@@ -843,7 +861,7 @@ Once the build and test installation have been completed successfully, an add-on
 
 ## Prerequisites
 
--   For the add-on build, you have to set up a Jenkins CI/CD server that is provisioned using the Cx server, an S user in SAP One Support Launchpad with user management authorization as well as authorization to create a customer incident for add-on registration. See [https://www.jenkins.io/](https://www.jenkins.io/), [Cx Server](https://www.project-piper.io/infrastructure/overview/#cx-server-recommended), and SAP note [1271482](https://launchpad.support.sap.com/#/notes/1271482).
+-   For the add-on build, you have to set up a Jenkins CI/CD server that is provisioned using the Cx server, an S-user in SAP One Support Launchpad with user management authorization as well as authorization to create a customer incident for add-on registration. See [https://www.jenkins.io/](https://www.jenkins.io/), [Cx Server](https://www.project-piper.io/infrastructure/overview/#cx-server-recommended), and SAP note [1271482](https://launchpad.support.sap.com/#/notes/1271482).
 -   To build the first add-on version, you have to configure the add-on build pipeline. See [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
 
  <a name="loioccf0c1ef30ce4d6aa6e39bb583fb8ba1"/>
@@ -856,13 +874,13 @@ Once the build and test installation have been completed successfully, an add-on
 
 The following section explains how to build the initial version of the add-on product. The result is a delivery of type AOI \(Add-on Installation\) for the initial release 1.0.0 of both the software component and the add-on product.
 
-**Set up a CI server and pipeline for the add-on build**
+**Set up a CI/CD server and pipeline for the add-on build**
 
-For the add-on build process, you must use a CI server and pipeline to automate this process.
+For the add-on build process, you must use a CI/CD server and pipeline to automate this process.
 
 -   **Add technical platform user to *03 Build/Assemble* space**
 
-    For the add-on assembly, an assembly system in the *03 Build/Assemble* space is created in the global development account.
+    For the add-on assembly, an assembly system is created in the *03 Build/Assemble* space in the global account for development.
 
     To trigger the gCTS import in the assembly system, communication scenario `SAP_COM_0510` is used. See [Test Integration \(SAP\_COM\_0510\)](test-integration-sap-com-0510-b04a9ae.md).
 
@@ -870,20 +888,20 @@ For the add-on build process, you must use a CI server and pipeline to automate 
 
     The credentials for an instance of these scenarios are retrieved by creating a service key in the system. See [Create a Communication Arrangement for Inbound Communication with Service Key Type Basic](create-a-communication-arrangement-for-inbound-communication-with-service-key-type-basic-1cc5a1d.md).
 
-    To do so, as an operator, assign a technical platform user to the global development account as an administrator and as a space developer in the build/assemble space. Later, this user’s credentials are stored in the Jenkins credentials. See [User and Member Management](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cc1c676b43904066abb2a4838cbd0c37.html).
+    To do so, as an operator, assign a technical Cloud Foundry platform user to the global account for development as an administrator and as a space developer in the build/assemble space. Later, this user’s credentials are stored in the Jenkins credentials. See [User and Member Management](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cc1c676b43904066abb2a4838cbd0c37.html).
 
 -   **Add technical platform user to space in subaccount *04 Build/Test***
 
-    For the add-on installation test, a test system is created in the space in subaccount *04 Build/Test* space, which was created earlier in the global account for development.
+    For the add-on installation test, a test system is created in the space in subaccount *04 Build/Test*, which was created earlier in the global account for development.
 
-    To do so, as an operator, assign a technical platform user as a space developer in the space in subaccount *04 Build/Test*. Later, this user’s credentials are stored in the Jenkins credentials. See [Creating New Space Members and Assigning Space Developer Roles to Them](../20-getting-started/creating-new-space-members-and-assigning-space-developer-roles-to-them-967fc4e.md).
+    To do so, as an operator, assign a technical Cloud Foundry platform user as a space developer in the space in subaccount *04 Build/Test*. Later, this user’s credentials are stored in the Jenkins credentials. See [Creating New Space Members and Assigning Space Developer Roles to Them](../20-getting-started/creating-new-space-members-and-assigning-space-developer-roles-to-them-967fc4e.md).
 
 -   **Configure pipeline**
 
     As a DevOps engineer, create the pipeline definition Jenkins file and the configuration file `.pipeline/config.yml` in the Git repository. See [Create Pipeline Configuration](https://www.project-piper.io/stages/introduction/#1-create-pipeline-configuration).
 
 
-After that, as a Jenkins administrator, create a pipeline pointing to the Jenkins file in the Jenkins server. See [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/) and [ABAP Platform CI/CD Samples](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/addon-build) for more information and an example.
+After that, as a Jenkins administrator, create a pipeline pointing to the Jenkins file in the Jenkins server. See [Build Add-Ons on a Transient ABAP Environment System](https://www.project-piper.io/scenarios/abapEnvironmentAddons/) and [ABAP Platform CI/CD Samples](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/addon-build) for more information and an example.
 
 **Create a technical communication user for access to AAKaaS**
 
@@ -894,7 +912,7 @@ To access the service that is offered via SAP Support Launchpad, a technical com
 In the *Support User Management* app in SAP ONE Support Launchpad, as an S-user, request a new technical communication user. After the technical communication user has been generated, activate the user.
 
 > ### Note:  
-> To create technical communication users in SAP Support Launchpad, you have to assign the user administratorauthorization/function to the logged-on user.
+> To create technical communication users in SAP Support Launchpad, you have to assign the user administrator function to the logged on user.
 > 
 > Make sure that this technical communication user is assigned to the customer number under which the ABAP environment tenants are licensed and for which the development namespace was reserved.
 
@@ -970,18 +988,16 @@ For the software components in the repositories section of the `addon.yml` file,
 
 As an add-on administrator, trigger the execution of the configured ABAP environment pipeline for the add-on build. During the add-on build, delivery packages corresponding to included software component versions are created. For the add-on product version, a target vector is created and published in test scope. See [Target Vector](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#target-vector).
 
-Based on the target vector published in the build stage, the integration tests stage of the ABAP environment pipeline creates the add-on installation test system ATI. After the system and the add-on have been provisioned successfully, a provisioning mail is sent to the system administrator and the pipeline stage can be confirmed by the add-on administrator.
+Based on the target vector published in the build stage, the Integration Tests stage of the ABAP environment pipeline creates the add-on installation test system ATI. After the system and the add-on have been provisioned successfully, a provisioning mail is sent to the system administrator and the pipeline stage can be confirmed by the add-on administrator.
 
 Use add-on installation test system ATI to confirm the successful add-on installation before the new add-on version is published.
 
 You can also use add-on installation test system ATI for additional tests, similar to the steps described in [Test in the ABAP Environment SAP Fiori Launchpad](develop-test-build-3bf575a.md#loio8c5b4d76a05b4bed8df01937f4d8d487). For testing in a consumer-like environment, you can create tenants of type Partner Test using the Landscape Portal application. See [Use Test Tenants](use-test-tenants-dd7d8e8.md).
 
 > ### Note:  
-> Please make sure that the add-on product version to be published is properly tested before confirming the release decision. This includes testing in SAP Fiori launchpad and the ABAP Test Cockpit. See
-> 
-> [Test in the ABAP Environment SAP Fiori Launchpad](develop-test-build-3bf575a.md#loio8c5b4d76a05b4bed8df01937f4d8d487) and [Test in the ABAP Test Cockpit](develop-test-build-3bf575a.md#loiof0b71a1c959842258772c27d292c43b0).
-> 
-> Finally, the previously created target vector for the new add-on product version is published in production scope after the add-on administrator has confirmed the release decision in the Confirm stage.
-> 
-> After a successful build, all ABAP systems used are deprovisioned and the add-on is technically available for deployment to the ABAP environment.
+> Please make sure that the add-on product version to be published is properly tested before confirming the release decision. This includes testing in SAP Fiori launchpad and the ABAP Test Cockpit. See [Test in the ABAP Environment SAP Fiori Launchpad](develop-test-build-3bf575a.md#loio8c5b4d76a05b4bed8df01937f4d8d487) and [Test in the ABAP Test Cockpit](develop-test-build-3bf575a.md#loiof0b71a1c959842258772c27d292c43b0).
+
+Finally, the previously created target vector for the new add-on product version is published in production scope after the add-on administrator has confirmed the release decision in the Confirm stage.
+
+After a successful build, all ABAP systems used are deprovisioned and the add-on is technically available for deployment to the ABAP environment.
 

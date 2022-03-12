@@ -185,7 +185,7 @@ SI unit is not defined
 </table>
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > CLASS zcl_uom_conversion DEFINITION
 >   PUBLIC
 >   FINAL

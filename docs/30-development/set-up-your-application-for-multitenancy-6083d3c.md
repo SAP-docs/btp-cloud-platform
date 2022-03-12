@@ -161,34 +161,34 @@ You declare your application security descriptor with JSON syntax and store it i
 
     1.  Unbind the existing service instance from your application.
 
-        ```nocode
+        ```
         cf unbind-service <APP_NAME> <SERVICE_INSTANCE>
         ```
 
         > ### Sample Code:  
-        > ```nocode
+        > ```
         > cf unbind-service product-list xsuaa-service-tutorial
         > ```
 
     2.  Unbind the existing service instance from the application router.
 
-        ```nocode
+        ```
         cf unbind-service <APP_NAME> <SERVICE_INSTANCE>
         ```
 
         > ### Sample Code:  
-        > ```nocode
+        > ```
         > cf unbind-service approuter xsuaa-service-tutorial
         > ```
 
     3.  Delete the existing service instance.
 
-        ```nocode
+        ```
         cf delete-service <SERVICE_INSTANCE>
         ```
 
         > ### Sample Code:  
-        > ```nocode
+        > ```
         > cf delete-service xsuaa-service-tutorial
         > ```
 
@@ -199,30 +199,30 @@ You declare your application security descriptor with JSON syntax and store it i
 
     2.  Go to your application folder and create the service instance with the `xs-security.json` security descriptor file.
 
-        ```nocode
+        ```
         cf create-service <SERVICE> <PLAN> <SERVICE_INSTANCE> -c xs-security.json
         ```
 
         > ### Sample Code:  
-        > ```nocode
+        > ```
         > cf create-service xsuaa application xsuaa-service-tutorial -c xs-security.json
         > ```
 
     3.  Create the SaaS Provisioning service instance with the `config.json` file.
 
         > ### Sample Code:  
-        > ```nocode
+        > ```
         > cf create-service <SERVICE> <PLAN> <SERVICE_INSTANCE> -c config.json
         > ```
         > 
-        > ```nocode
+        > ```
         > cf create-service saas-registry application saas-registry-tutorial -c config.json
         > ```
 
     4.  Redeploy the application with the updated `manifest.yml` file.
 
         > ### Sample Code:  
-        > ```nocode
+        > ```
         > cf push
         > ```
 
@@ -235,7 +235,7 @@ You declare your application security descriptor with JSON syntax and store it i
 
     2.  Create a route for the consumer subaccount.
 
-        ```nocode
+        ```
         cf map-route <APP_NAME> <DOMAIN> --hostname <APPLICATION_HOSTNAME>
         ```
 
@@ -243,7 +243,7 @@ You declare your application security descriptor with JSON syntax and store it i
         > The `APPLICATION_HOSTNAME` is the combined string of the subdomain ID of the consumer subaccount and the `TENANT_HOST_PATTERN` from the `manifest.yml` file.
 
         > ### Sample Code:  
-        > ```nocode
+        > ```
         > cf map-route approuter cfapps.eu10.hana.ondemand.com --hostname consumer-tenant-ap25-approuter-product-list-ap25
         > ```
 

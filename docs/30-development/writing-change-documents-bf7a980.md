@@ -363,7 +363,7 @@ Change number of the document
 </table>
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > 
 > " example for change document object ZTEST_1
 >   " with tables 

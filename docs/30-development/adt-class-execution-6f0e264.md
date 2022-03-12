@@ -5,7 +5,7 @@
 Easily execute ABAP classes directly in ABAP Development Tools \(ADT\) without having to launch a service.
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > CLASS zcl_example_class DEFINITION
 >   PUBLIC
 >   FINAL

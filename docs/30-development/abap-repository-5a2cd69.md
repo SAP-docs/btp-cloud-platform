@@ -22,7 +22,7 @@ The entry point for retrieving a collection of objects from the ABAP Repository 
 In the first example, all repository objects of the whole ABAP Repository whose software component is ZLOCAL and whose name contains the fragment CAL are retrieved. As no explicit object type is specified the retrieved objects have the type IF\_XCO\_AR\_OBJECT:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 >  DATA(lo_software_component_filter) = xco_cp_system=>software_component->get_filter( xco_cp_abap_sql=>constraint->equal( 'ZLOCAL' ) ).
 > DATA(lo_name_filter) = xco_cp_abap_repository=>object_name->get_filter( xco_cp_abap_sql=>constraint->contains_pattern( '%CAL%' ) ).
 > 
@@ -42,7 +42,7 @@ In the first example, all repository objects of the whole ABAP Repository whose 
 In the second example all database tables of the package Z\_MY\_OBJECTS that have at least one field which has a foreign key whose check table is ZHOLIDAY are retrieved. As in this case the object type \(database table\) is explicitly specified the retrieved objects are of type IF\_XCO\_DATABASE\_TABLE:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_package) = xco_cp_abap_repository=>package->for( 'Z_MY_OBJECTS' ).
 > DATA(lo_filter) = xco_cp_table=>field_property->foreign_key_check_table->get_filter(
 >   xco_cp_abap_sql=>constraint->equal( 'ZHOLIDAY' )
@@ -62,7 +62,7 @@ In the second example all database tables of the package Z\_MY\_OBJECTS that hav
 The XCO ABAP Repository APIs can also be used to programmatically release development objects, e.g. data elements:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_transport) = xco_cp_cts=>transport->for( '...' ).
 > DATA(lo_api_state) = xco_cp_ars=>api_state->released( VALUE #( ( xco_cp_ars=>visibility->sap_cloud_platform ) ) ).
 > 
@@ -95,7 +95,7 @@ Setting and getting API states programmatically is supported for the following o
 Each of the above interfaces defines the two methods SET\_API\_STATE and GET\_API\_STATE to programmatically set or get the API state of the represented object. For data elements, e.g., this looks like
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_transport) = xco_cp_cts=>transport->for( '...' ).
 > DATA(lo_api_state) = xco_cp_ars=>api_state->released( VALUE #( ( xco_cp_ars=>visibility->sap_cloud_platform ) ) ).
 >  
@@ -144,7 +144,7 @@ Where applicable the version of the content to be read can be specified, e.g. wh
 All Read APIs are strongly typed and tailored to the specific characteristics of the object type. For example, reading the fields of a database table and performing a “drill-down” to detect which fields are backed by a data element and furthermore which of those are backed by a domain can be accomplished like this:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_database_table) = xco_cp_abap_repository=>object->tabl->database_table->for( 'ZMY_DBT' ).
 > 
 > LOOP AT lo_database_table->fields->all->get( ) INTO DATA(lo_field).

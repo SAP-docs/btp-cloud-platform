@@ -13,7 +13,7 @@ The code examples below show an **HTTP multipart request**:
 ## Client Side
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA: http_client TYPE REF TO if_web_http_client,
 >       lo_response TYPE REF TO if_web_http_response,
 >       iv_url TYPE string.
@@ -59,7 +59,7 @@ The code examples below show an **HTTP multipart request**:
 ## Server Side
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > CLASS ZCL_TEST_MULTIPART IMPLEMENTATION.
 >   method IF_HTTP_SERVICE_EXTENSION~HANDLE_REQUEST.
 >     DATA: answer TYPE string,

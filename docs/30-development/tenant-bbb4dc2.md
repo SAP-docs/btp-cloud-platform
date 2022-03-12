@@ -19,14 +19,14 @@ The central abstraction `IF_XCO_CP_TENANT` represents a tenant and is used to re
 
 The currently active tenant can be obtained via:
 
-```lang-abap
+```abap
 DATA(lo_current_tenant) = xco_cp=>current->tenant( ).
 ```
 
 Note that depending on the overall system infrastructure and setup a current tenant doesn't necessarily exist, which would be indicated by an initial reference returned by the statement above. Once the current tenant has been obtained by the URL \(in the example below for the type UI\) along with its different components, the currently active tenant can be obtained as follows:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > " UI URL of the current tenant.
 > DATA(lo_ui_url) = lo_current_tenant->get_url( xco_cp_tenant=>url_type->ui ).
 >  
@@ -44,7 +44,7 @@ Note that depending on the overall system infrastructure and setup a current ten
 In a similar way it's also possible to access the information about the associated global account and subaccount:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > " The string value of the global account ID of the current tenant.
 > DATA(lv_global_account_id) = lo_current_tenant->get_global_account_id(
 >   )->as_string( ).

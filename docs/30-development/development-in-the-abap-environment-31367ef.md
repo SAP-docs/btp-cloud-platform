@@ -18,7 +18,7 @@ The ABAP environment enables you to **expose**:
 
 With your ABAP applications, you can **consume**:
 
--   HTTP services \(HTTP client\). See [HTTP Communication via Destination Service](http-communication-via-destination-service-dee3a93.md).
+-   HTTP services \(HTTP client\).
 
 -   OData services \(service consumption model\). See [Developing a UI Service with Access to a Remote Service](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/f4969e551d3049c59715210cbeb4ef56.html).
 -   Remote Function Calls \(RFC\) via Cloud Connector. See [Integrating On-Premise Systems](integrating-on-premise-systems-c95327f.md).
@@ -46,8 +46,6 @@ With your ABAP applications, you can **consume**:
 
 [HTTP Service Development](http-service-development-77c269b.md)
 
-[HTTP Communication via Destination Service](http-communication-via-destination-service-dee3a93.md)
-
 [Integrating On-Premise Systems](integrating-on-premise-systems-c95327f.md)
 
 [Developing External Service Consumption \(Outbound Communication\)](developing-external-service-consumption-outbound-communication-f871712.md)
@@ -62,8 +60,6 @@ With your ABAP applications, you can **consume**:
 [Learning Journey](https://help.sap.com/doc/221f8f84afef43d29ad37ef2af0c4adf/HP_2.0/en-US/49047e7668844d419ccee567923a475e.html)
 
 [Manage Software Components](../50-administration-and-ops/manage-software-components-3dcf76a.md "You can use this app to create, display, clone, delete and configurate software components in your ABAP environment landscape. Moreover, you can pull (import) changes from the central software component into other instances.")
-
-[Tutorials](loio31367ef6c3e947059e0d7c1cbfcaae93)
 
 [Video Tutorials](https://www.youtube.com/playlist?list=PLkzo92owKnVxWqJSoFLGe1VRkzOs4Ucdr)
 

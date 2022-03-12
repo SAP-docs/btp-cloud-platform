@@ -25,18 +25,18 @@ You've configured the login screen to display your custom identity provider, see
 
 2.  Set the target API endpoint to endpoint of your subaccount.
 
-    ```nocode
+    ```
     cf api https://api.cf.<region>.hana.ondemand.com
     ```
 
     > ### Sample Code:  
-    > ```nocode
+    > ```
     > cf api https://api.cf.eu10.hana.ondemand.com
     > ```
 
 3.  Log on to the Cloud Foundry environment with single sign-on:
 
-    ```nocode
+    ```
     cf login --sso
     ```
 

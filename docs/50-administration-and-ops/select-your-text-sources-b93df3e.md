@@ -18,7 +18,7 @@ Select the text sources that you want to have translated.
 
 1.  In the *Maintain Translations*app, open the project you want to add text sources to.
 2.  Scroll down to *Text Sources* and click *Add*.
-3.  Here you can select which text sources to add. The following text source types are supported:
+3.  Here you can select which text source types to add. The following text source types are supported:
 
     -   Domains
 
@@ -38,7 +38,7 @@ Select the text sources that you want to have translated.
 
     -   Text Tables
 
-    -   IAM business catalogs
+    -   IAM Business Catalogs
 
 
     It’s also possible to specify a package from which all supported translatable elements will be pulled into the translation project. Please note that translatable elements in sub packages are not included.
@@ -48,15 +48,20 @@ Select the text sources that you want to have translated.
     > ### Note:  
     > Text sources that can be translated by a translation project need to reside in the same software component as the translation project.
 
+    > ### Note:  
+    > -   If you want to test the translated texts of IAM business catalogs directly in the Fiori launchpad of the development system, you have to publish the IAM business catalog once again locally in ADT.
+    > 
+    > -   If you want to test the translated texts of data definitions or metadata extensions directly in the development system with a Fiori app built on top of these objects, you should first reactivate the objects in ADT to ensure that all caches will be invalidated.
+
 
 
 
 > ### Note:  
 > **Text Tables**
 > 
-> Text tables are database tables that were created as part of a busines object and in which language-dependent texts are stored.
+> Text tables are database tables that were created as part of a business object and in which language-dependent texts are stored.
 > 
-> A database table needs to fulfil the following requirements to be considered a text table by the*Maintain Translations* app:
+> A database table needs to fulfill the following requirements to be considered a text table by the*Maintain Translations* app:
 > 
 > -   The database table has exactly one key field of ABAP Dictionary Built-in Type LANG.
 > 

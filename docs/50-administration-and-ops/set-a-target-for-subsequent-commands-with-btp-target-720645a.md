@@ -105,7 +105,7 @@ A global account can group together different directories and subaccounts that t
 
 Let's look at a global account that contains a directory with a targeted subaccount. With `btp`, the current target hierarchy is displayed like this:
 
-```nocode
+```
 Current target hierarchy:
   Global account (subdomain: cee12xx1trial-ga)
   └─ Directory (ID: 371eXXXX-55XX-40XX-b3XX-e9947ed9XXXX)

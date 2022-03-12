@@ -468,7 +468,7 @@ Each extraction is applied in either a `TO` or `FROM` manner:
 To illustrate these concepts, consider the following extractions where `LO_CALL_STACK` represents the call stack from the above table:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_line_pattern) = xco_cp_call_stack=>line_pattern->method(
 >   )->where_class_name_starts_with( 'CL_XCO_' ).
 >  
@@ -1109,7 +1109,7 @@ To be written to the console or into an application log \(using `IF_XCO_CP_BAL_L
 Using the call stack from the beginning, formatting it with source-based line numbers and writing the resulting `IF_XCO_TEXT` to the console of an ADT classrun \(obtained by inheriting from `CL_XCO_CP_ADT_SIMPLE_CLASSRUN`\) can be accomplished as follows:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_format) = xco_cp_call_stack=>format->adt(
 >   )->with_line_number_flavor( xco_cp_call_stack=>line_number_flavor->source ).
 >  

@@ -523,7 +523,7 @@ This descriptor is equivalent to:
 > ### Note:  
 > All properties can be overriden explicitly.
 
-```lang-json
+```json
 {
   "systemName": "DEV",
   "emClientId": "s4hc",

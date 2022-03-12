@@ -11,7 +11,7 @@ To offer a convenient way to incorporate standard operations on binary data into
 Built-in conversions are provided to support working with the Base64 binary-to-text encoding. Encoding raw binary data to its Base64 representation and decoding a given Base64 representation to its underlying binary data can be accomplished as follows:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > " LV_XSTRING can store arbitrary binary data.
 > DATA lv_xstring TYPE xstring.
 > 
@@ -37,7 +37,7 @@ Built-in conversions are provided to support working with the Base64 binary-to-t
 An xstring can also be converted to a string by using a code page, e.g. UTF-8:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lv_string) = xco_cp=>xstring( lv_xstring
 >   )->as_string( xco_cp_character=>code_page->utf_8
 >   )->value.

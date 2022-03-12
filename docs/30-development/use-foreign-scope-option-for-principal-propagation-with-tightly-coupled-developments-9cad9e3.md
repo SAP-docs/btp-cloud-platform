@@ -15,7 +15,7 @@ With foreign scope reference, configure the business application to accept new s
     In this attribute, list the names of the applications \(`xsappname`\) you want to share the scope with.
 
     > ### Sample Code:  
-    > ```lang-json
+    > ```json
     > "scopes": [
     > 	{
     > 		"name"                 : "$XSAPPNAME.Read",

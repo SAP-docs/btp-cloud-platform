@@ -479,7 +479,7 @@ Set the value check to `FALSE`. Note that filter value checks are not supported.
 
 Add a filter called `TENANT_PREFIX` with the type `CHARACTER` to your BAdI definition. This filter ensures that only BAdI implementations for the current tenant are executed at runtime. In your code, obtain the current tenant's prefix by using the ABAP API `cl_ble_api_mt_tenant`. The method `GET_PREFIX` returns the tenant prefix.
 
-```lang-abap
+```abap
 CLASS zcl_badi_demo DEFINITION PUBLIC FINAL CREATE PUBLIC.
   PUBLIC SECTION.
     METHODS:

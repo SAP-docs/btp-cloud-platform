@@ -29,7 +29,7 @@ Since the direct usage of these function modules is not permitted, the function 
 For more information, see the ABAP Doc comments of class `CL_ABAP_LOCK_OBJECT_FACTORY` and interface`IF_ABAP_LOCK_OBJECT`. The interface`IF_ABAP_LOCK_OBJECT` also contains constants to be used for parameterization of lock methods.
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > data lv_value type <type of lock object parameter 1>.
 > lv_value = <value for lock parameter 1>.
 > data(lr_lock_object) =  cl_abap_lock_object_factory=>get_instance( 

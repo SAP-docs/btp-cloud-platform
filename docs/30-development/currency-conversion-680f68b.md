@@ -23,7 +23,7 @@ To learn how to obtain and store exchange rates from an official source, see the
 
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 >  @EndUserText.label: 'Price (in US American Dollars)'
 >   currency_conversion(
 >     client => client,

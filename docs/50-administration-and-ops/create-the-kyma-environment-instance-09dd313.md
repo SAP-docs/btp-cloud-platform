@@ -41,7 +41,7 @@ To set up the Kyma environment on your subaccount, you must create an instance o
 
 5.  To move to the plan configuration view, choose *Next*.
 
-6.  In the *Parameters* view, specify the required details. You can also configure your instance parameters by changing its region and the maximum or the minimum number of virtual machines to be created for it.
+6.  In the *Parameters* view, specify the required details. You can also configure your instance parameters by changing its region and the maximum or the minimum number of virtual machines to be created for it. You can also configure a custom identity provider.
 
 7.  Confirm changes by selecting *Create*.
 

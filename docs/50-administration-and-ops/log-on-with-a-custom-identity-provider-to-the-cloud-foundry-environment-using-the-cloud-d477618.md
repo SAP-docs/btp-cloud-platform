@@ -18,7 +18,7 @@ Learn how to use different methods to log on to Cloud Foundry using a custom ide
 
 -   Your administrator has configured your Cloud Foundry environment to use a custom identity provider.
 
-    For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-e-8600afb.md).
+    For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-8600afb.md).
 
 -   You've configured the login screen to display your custom identity provider, see [Log on with a Browser to the Cloud Foundry User Account and Authentication service](log-on-with-a-browser-to-the-cloud-foundry-user-account-and-authentication-service-7eb0943.md) \(relevant for the manual login process\).
 

@@ -160,9 +160,9 @@ Assembly System
 </td>
 <td valign="top">
 
-The ABAP system responsible for the add-on assembly.
+The ABAP system responsible for the add-on build.
 
-It is created during the pipeline and eventually deleted. All actions related to the ABAP source code are executed on this system, e.g. running checks with the ABAP Test Cockpit \(ATC\) or the physical build of the software components.
+It is created during the pipeline and eventually deleted. All actions related to the ABAP source code are executed on this system, e.g. running checks with the ABAP Test Cockpit or the physical build of the software components.
 
 
 
@@ -171,14 +171,14 @@ It is created during the pipeline and eventually deleted. All actions related to
 <tr>
 <td valign="top">
 
-ABAP Test Cockpit \(ATC\)
+ABAP Test Cockpit
 
 
 
 </td>
 <td valign="top">
 
-ATC checks can be executed using `abapEnvironmentRunATCCheck`. The step can receive software components or packages configured in a YML file. The results are returned in checkstlye format. With the use of a pipeline extension, you can configure quality gates. See [https://sap.github.io/jenkins-library/pipelines/abapEnvironment/configuration/](https://sap.github.io/jenkins-library/pipelines/abapEnvironment/configuration/) and [ABAP Test Cockpit Configurator](../50-administration-and-ops/abap-test-cockpit-configurator-22c26ff.md).
+ABAP Test Cockpit checks can be executed using `abapEnvironmentRunATCCheck`. The step can receive software components or packages configured in a YML file. The results are returned in checkstyle format. With the use of a pipeline extension, you can configure quality gates. See [ATC](https://www.project-piper.io/pipelines/abapEnvironment/stages/Test/#atc) and [ABAP Test Cockpit Configurator](../50-administration-and-ops/abap-test-cockpit-configurator-22c26ff.md).
 
 
 
@@ -397,7 +397,7 @@ A global account is the realization of a contract you made with SAP. A global ac
 <tr>
 <td valign="top">
 
- Identity Authentication Service \(IAS\)
+ Identity Authentication service
 
 
 
@@ -413,14 +413,14 @@ The Identity Authentication service provides you with controlled cloud-based acc
 <tr>
 <td valign="top">
 
- Identity Provisioning Service \(IPS\)
+ Identity Provisioning service
 
 
 
 </td>
 <td valign="top">
 
-The Identity Provisioning service automates identity lifecycle processes. It helps you provision identities and their authorizations to various cloud and on-premise business applications. See [Identity Provisioning Service](https://help.sap.com/doc/c30747989e33466e8e4f789dd9c3c81c/Cloud/en-US/Provisioning_Service.pdf).
+The Identity Provisioning service automates identity lifecycle processes. It helps you provision identities and their authorizations to various cloud and on-premise business applications. See [What is Identity Provisioning](https://help.sap.com/viewer/f48e822d6d484fa5ade7dda78b64d9f5/Cloud/en-US/f2b2df8a273642a1bf801e99ecc4a043.html).
 
 
 
@@ -429,7 +429,7 @@ The Identity Provisioning service automates identity lifecycle processes. It hel
 <tr>
 <td valign="top">
 
-Identity Provider \(IdP\)
+Identity Provider
 
 
 
@@ -534,7 +534,7 @@ Release
 </td>
 <td valign="top">
 
-Release deliveries contain the whole software component and deliver new and enhancements of existing functionalities.
+Release deliveries contain the whole software component and deliver new features and enhancements of existing functionalities.
 
 For both the add-on product version and the software component version, the release is denoted in the first digit.
 
@@ -545,14 +545,14 @@ For both the add-on product version and the software component version, the rele
 <tr>
 <td valign="top">
 
-SAP App Center
+SAP Store
 
 
 
 </td>
 <td valign="top">
 
-SAP App Center is the enterprise marketplace where we bring together customers and partners on a single, easy-to-use, global online platform. Here, customers can discover, try, and buy SAP-validated partner applications that are built on or extend their existing SAP technology and solutions. For partners, it's the only place they can market and deliver their apps, add-ons, and integration kits to SAP's global customers — solutions that help customers grow their business. [SAP App Center](https://www.sapappcenter.com/en/about).
+SAP Store is the enterprise marketplace where we bring together customers and partners on a single, easy-to-use, global online platform. Here, customers can discover, try, and buy SAP-validated partner applications that are built on or extend their existing SAP technology and solutions. For partners, it's the only place they can market and deliver their apps, add-ons, and integration kits to SAP's global customers — solutions that help customers grow their business. See [https://store.sap.com/dcp/en/](https://store.sap.com/dcp/en/).
 
 
 
@@ -577,7 +577,7 @@ Available as a cloud service, SAP Business Application Studio provides a desktop
 <tr>
 <td valign="top">
 
-SAP ID Service
+SAP ID service
 
 
 
@@ -593,7 +593,7 @@ The default platform identity provider and application identity provider of SAP 
 <tr>
 <td valign="top">
 
-SAP ONE Support Launchpad
+SAP ONE Support launchpad
 
 
 

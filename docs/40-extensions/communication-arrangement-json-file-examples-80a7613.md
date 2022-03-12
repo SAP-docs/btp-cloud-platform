@@ -19,7 +19,7 @@ The information that you need to create the JSON file is available in the Displa
 
 This is an example of a JSON file for a communication arrangement with an inbound connection with *Basic Authentication* and an outbound connection with *Basic Authentication*.
 
-```lang-json
+```json
 {
     "systemName": "DEMO",
     "communicationArrangement": {
@@ -84,7 +84,7 @@ This is an example of a JSON file for a communication arrangement with an inboun
 
 This is an example of a JSON file for a communication arrangement with an outbound connection with authentication type *OAuth2ClientCredentials*.
 
-```lang-json
+```json
 { 
     "systemName":"DEMO",
     "communicationArrangement":{ 
@@ -112,7 +112,7 @@ This is an example of a JSON file for a communication arrangement with an outbou
 
 This is an example of a JSON file for a communication arrangement with an inbound connection with *OAuth2SAMLBearerAssertion* and an outbound connection with *NoAuthentication*.
 
-```lang-json
+```json
 { 
     "systemName":"DEMO",
     "communicationArrangement":{ 
@@ -141,7 +141,7 @@ This is an example of a JSON file for a communication arrangement with an inboun
 
 This is an example of a JSON file for a communication arrangement with an outbound connection with authentication type *NoAuthentication*.
 
-```lang-json
+```json
 { 
     "systemName":"DEMO",
     "communicationArrangement":{ 

@@ -436,7 +436,7 @@ Long description of a unit of measurement
 > Class exception `CX_UOM_ERROR` is raised if no unit is found.
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > CLASS zcl_uom_unit_read_test DEFINITION 
 >   PUBLIC 
 >   FINAL 

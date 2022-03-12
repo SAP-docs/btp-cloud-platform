@@ -463,7 +463,7 @@ Information value \(e.g. table name, package, user name, class name\)
 </table>
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > 
 > CLASS zcl_chdo_read_object DEFINITION
 >   PUBLIC

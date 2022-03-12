@@ -41,7 +41,7 @@ Time formats are accessible via XCO\_CP\_TIME=\>FORMAT and can be used either di
 The following code sample illustrates the usage of the various time formats for a moment object:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_moment) = xco_cp_time=>moment(
 >   iv_year   = '2020'
 >   iv_month  = '09'
@@ -74,7 +74,7 @@ The XCO time library is tightly integrated with the XCO abstraction for the ABAP
 When a date, time or moment object is obtained, the time zone according to which the values should be calculated can be specified in addition. Note that a UNIX timestamp will always be in UTC.
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > " The current moment in the time zone of the active user.
 > DATA(lo_moment_user) = xco_cp=>sy->moment( xco_cp_time=>time_zone->user ).
 > 
@@ -94,7 +94,7 @@ Note that if a time zone is not explicitly specified when a date, time or moment
 UNIX timestamps are a common way for describing a given point in time by denoting the number of elapsed seconds since 00:00:00 UTC on Jan 1st, 1970. The XCO time library makes it easy to convert from a given UNIX timestamp to a moment and vice versa:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > " The current UNIX timestamp.
 > DATA(lo_unix_timestamp) = xco_cp=>sy->unix_timestamp( ).
 > 

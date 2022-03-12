@@ -6,6 +6,15 @@ After the successful configuration of the ABAP system and the installation of th
 
 
 
+<a name="loiof488fd4316d54179bec5513ea953c989__context_j4x_3tw_psb"/>
+
+## Context
+
+> ### Note:  
+> **Relevant for business user access using browser logon:** If you’re using unixODBC tools such as `isql` or `iusql` on command line as ODBC clients instead of LibreOffice, make sure that you work an environment such as XWindow where a browser window can open.
+
+
+
 ## Procedure
 
 1.  Start LibreOffice.
@@ -16,11 +25,13 @@ After the successful configuration of the ABAP system and the installation of th
 
 4.  Enter the DSN that you inserted into your `.odbc.ini` file and choose *Next*.
 
-5.  Enter a user name.
+5.  **Communication user only:** Enter a user name.
 
-    You can test your connection after providing a password.
+    **Communication user only:** You can test your connection after providing a password.
 
 6.  Choose *Finish*.
+
+    **Business user only:** When a connection is opened by LibreOffice, a browser window with a logon dialog for the ABAP system appears. Depending on your system configuration, the browser logon might ask your for your credentials \(user and password\). Enter your business user name and password for the ABAP system.
 
     LibreOffice now displays all exposed CDS view entities. You can choose these entities to get a data preview.
 

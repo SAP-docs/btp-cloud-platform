@@ -34,7 +34,7 @@ Like a trust arrangement, you must configure service B to grant the authority to
 1.  As the service developer, declare the grant of authority to business application A in the `scopes` section of the `xs-security.json` for service B.
 
     > ### Sample Code:  
-    > ```lang-json
+    > ```json
     > {
     >     "xsappname"     : "servb",
     >     "tenant-mode"   : "shared",
@@ -62,7 +62,7 @@ Like a trust arrangement, you must configure service B to grant the authority to
 3.  As the business application developer, accept the authority of other applications in the `authorities` section of the `xs-security.json` in business application A.
 
     > ### Sample Code:  
-    > ```lang-json
+    > ```json
     > {
     >     "xsappname"     : "appa",
     >     "tenant-mode"   : "shared",

@@ -23,7 +23,7 @@ In the example used here, the service is based on a managed business object *Bon
     In the bonus calculation example, they can look as follows:
 
     > ### Sample Code:  
-    > ```lang-abap
+    > ```abap
     > managed;
     > 
     > define behavior for z_i_bonus_calculation alias calculation

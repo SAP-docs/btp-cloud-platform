@@ -76,7 +76,7 @@ The return parameter for this method is `RV_LENGTH TYPE I`. It returns the lengt
 
 **Example:**
 
-```lang-abap
+```abap
 DATA: new_job TYPE cl_apj_scp_tools=>ty_new_job_info.
 IF cl_apj_scp_tools=>is_restart_required( ) = abap_true.
 "  if necessary, implement coding to do cleanup actions

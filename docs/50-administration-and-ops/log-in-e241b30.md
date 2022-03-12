@@ -117,7 +117,7 @@ Alternatively, you can also log in with single sign-on directly at your identity
     </tr>
     </table>
     
-    ```nocode
+    ```
     btp login --url https://cpcli.cf.eu10.hana.ondemand.com --subdomain my-global-account --user name@example.com
     ```
 

@@ -5,7 +5,7 @@
 The following code sample illustrates the generation of classes and interfaces:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > "! <p class="shorttext synchronized" lang="EN">
 > "!  XCO Documentation CP: Logic generation
 > "! </p>

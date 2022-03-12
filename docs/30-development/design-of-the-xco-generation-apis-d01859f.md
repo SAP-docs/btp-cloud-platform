@@ -11,7 +11,7 @@ As with the whole XCO library, the design of the XCO Generation APIs is governed
      
 
     > ### Sample Code:  
-    > ```lang-abap
+    > ```abap
     > " In this example, X08K123456 would need to be a modifiable Workbench
     > " transport.
     > DATA(lo_environment) = xco_cp_generation=>environment->dev_system( 'X08K123456' ).
@@ -36,7 +36,7 @@ As with the whole XCO library, the design of the XCO Generation APIs is governed
      
 
     > ### Sample Code:  
-    > ```lang-abap
+    > ```abap
     > DATA(lo_put_operation) = lo_environment->create_put_operation( ).
     > 
     > DATA(lo_specification) = lo_put_operation->for-dtel->add_object( 'ZDATA_ELEMENT'
@@ -64,7 +64,7 @@ As with the whole XCO library, the design of the XCO Generation APIs is governed
     Using an option is as simple as supplying it to the EXECUTE method invocation of the corresponding PUT operation:
 
     > ### Sample Code:  
-    > ```lang-abap
+    > ```abap
     > lo_put_operation->execute( VALUE #( ( xco_cp_generation=>put_operation_option->skip_activation ) ) ).
     > ```
 
@@ -74,7 +74,7 @@ As with the whole XCO library, the design of the XCO Generation APIs is governed
 
     By providing a name choice instead of a fixed name it is possible to potentially pick a fallback name in case the preferred name is already taken. However, this is not mandatory and it is also possible to provide a fixed name, e.g. for the creation of function group:
 
-    ```lang-abap
+    ```abap
     DATA(lo_post_operation) = lo_environment->for-fugr->create_post_operation( ).
     
     DATA(lo_fixed_name_choice) = xco_cp_name=>choice->fixed( 'ZMY_FNCTN_GRP' ).
@@ -138,7 +138,7 @@ As with the whole XCO library, the design of the XCO Generation APIs is governed
      
 
     > ### Sample Code:  
-    > ```lang-abap
+    > ```abap
     > DATA(lo_char_10) = xco_cp_abap_dictionary=>built_in_type->char( 10 ).
     > 
     > lo_doma_specification->set_format( lo_char_10 ).
@@ -162,7 +162,7 @@ As with the whole XCO library, the design of the XCO Generation APIs is governed
     Using templates, it is e.g. possible to easily copy an existing object. The following code sample uses the active version of domain ZSOURCE\_DOMAIN as a template and will create \(resp. update\) domain ZCOPIED\_DOMAIN to reflect the content of ZSOURCE\_DOMAIN:
 
     > ### Sample Code:  
-    > ```lang-abap
+    > ```abap
     > DATA(lo_template) = xco_cp_generation_doma=>template->for_domain(
     >   iv_name       = 'ZSOURCE_DOMAIN'
     >   io_read_state = xco_cp_abap_dictionary=>object_read_state->active_version

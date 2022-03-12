@@ -12,7 +12,7 @@ Once everything is implemented, built, and the maintenance delivery is deployed,
 
 ## Prerequisites
 
--   To set up the maintenance system landscape, you need the relevant entitlements in the global development account. See [Entitlements and Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00aa2c23479d42568b18882b1ca90d79.html).
+-   To set up the maintenance system landscape, you need the relevant entitlements in the global account for development. See [Entitlements and Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00aa2c23479d42568b18882b1ca90d79.html).
 -   To create updates for the SaaS solution, you need a maintenance system landscape. Business users with authorization to use the Manage Software Components apps and developer users using ABAP Development Tools have to be available in the systems. See [Manage Software Components](../50-administration-and-ops/manage-software-components-3dcf76a.md) and [Getting Started as a Developer in the ABAP Environment](../20-getting-started/getting-started-as-a-developer-in-the-abap-environment-4b896c9.md).
 -   To configure new add-on versions, you need the existing pipeline configuration for an add-on build pipeline. See [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
 -   To trigger the add-on product build, you need a Jenkins pipeline and a pipeline configuration including the new add-on version.
@@ -70,9 +70,9 @@ ABAP System
 </th>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="2">
 
-Global Development Account
+Global Account for Development
 
 
 
@@ -111,13 +111,6 @@ COR
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Global Development Account
-
-
-
-</td>
 <td valign="top">
 
 02 Test
@@ -214,9 +207,9 @@ As an add-on administrator, you can provide different kinds of updates. The deci
 > See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 > ### Note:  
-> For a new patch version, you can use a permanent add-on assembly system to save build time. See [Permanent Add-On Assembly System](concepts-9482e7e.md#loio52fb6a9e22714843b6e83b7f333b184b).
+> For a new patch version, you can use a permanent add-on assembly system to save build time. See [Permanent or Transient ABAP Systems](concepts-9482e7e.md#loio52fb6a9e22714843b6e83b7f333b184b).
 
-Patch versions are used to deliver unplanned and most likely urgent corrections that are required to keep the application up and running. These changes could be for example required for a service consumption model of an OData Client Proxy. See [OData Client Proxy - Introduction](odata-client-proxy-introduction-0d92f49.md).
+Patch versions are used to deliver unplanned and most likely urgent corrections that are required to keep the application up and running. These changes could be required for a service consumption model of an OData Client Proxy in case of changes to the structure of the underlying OData service. See [OData Client Proxy - Introduction](odata-client-proxy-introduction-0d92f49.md).
 
 -   **Develop**
     -   Import the maintenance branch in the ABAP correction system
@@ -229,9 +222,9 @@ Patch versions are used to deliver unplanned and most likely urgent corrections 
 
         As a developer, implement the required changes to the software component in the ABAP correction system COR. These changes shouldn’t introduce new features because patch versions should only contain small emergency corrections.
 
-        For more information on the different software component versions, see [The Add-on Product](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/#the-add-on-product) .
+        For more information on the different software component versions, see [Software Component Version](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#software-component-version).
 
-        After releasing the transport tasks and requests in the correction system, the changes are imported into and tested in the quality assurance system.
+        After releasing the transport tasks and requests in the correction system, the changes are imported into and tested in the quality assurance system QAS.
 
 
 -   **Test**
@@ -243,14 +236,14 @@ Patch versions are used to deliver unplanned and most likely urgent corrections 
 
     -   Test bugfix in ABAP quality assurance system
 
-        As a tester, test the corrections in the QAS system to validate that the provided bug fixes are solving the problem and are working properly.As an add-on admin, use the software components app to import the latest changes into the quality assurance system QAS. See
+        As a tester, test the corrections in the QAS system to validate that the provided bug fixes are solving the problem and are working properly. As an add-on admin, use the software components app to import the latest changes into the quality assurance system QAS.
 
         Required testing can involve anything from maintaining business roles, creating communication arrangements to more complex testing scenarios where connectivity is involved. See [Maintain Business Roles](../50-administration-and-ops/maintain-business-roles-8980ad0.md), [How to Create a Communication Arrangement](../50-administration-and-ops/how-to-create-a-communication-arrangement-a0771f6.md), and [Connectivity](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html). What needs to be tested is related to the implemented corrections.
 
 
 -   **Double maintenance of corrections into development**
 
-    As a developer, you have to maintain the corrections that have been developed and tested in the ABAP correction system COR and quality assurance system QAS in the development system DEV \(so called double-maintenance\). See [Double Maintenance of Corrections into Development](double-maintenance-of-corrections-into-development-1241b14.md).
+    As a developer, you have to maintain the corrections that have been developed in the ABAP correction system COR as separate transports in development system DEV \(so called double-maintenance\). See [Double Maintenance of Corrections into Development](double-maintenance-of-corrections-into-development-1241b14.md).
 
 -   **Configure addon.yml file**
 
@@ -259,7 +252,7 @@ Patch versions are used to deliver unplanned and most likely urgent corrections 
 
     As an add-on admin, change the add-on descriptor file according to the add-on product version that you want to build.
 
-    Optionally, you can specify a commit ID. All released changes up to the specified commit are included. You can retrieve this ID from the branch history in the *Manage Software Components* app.
+    Optionally, you can specify a commit ID. All released changes up to the specified commit are included. You can retrieve this commit ID from the commit history in the *Manage Software Components* app.
 
     ```
     ---
@@ -275,7 +268,7 @@ Patch versions are used to deliver unplanned and most likely urgent corrections 
 
     See [Build and Publish Add-on Products on SAP BTP ABAP Environment](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/#addonyml).
 
-    `addonProduct` must include the development namespace prefix.
+    `addonProduct` must include the development namespace prefix and the add-on product name.
 
     `addonVersion` is version 1.0.1, marking a patch delivery.
 
@@ -317,7 +310,7 @@ A support package version could be used for example to deliver a new simple busi
 
         As a tester, test the new implemented features in the TST system to validate the functionality.
 
-        Required testing can involve anything from maintaining business roles, creating communication arrangements to more complex testing scenarios where connectivity is involved. What needs to be tested is of course related to the implemented features.
+        Required testing can involve anything from maintaining business roles, creating communication arrangements to more complex testing scenarios where connectivity is involved. What needs to be tested is related to the implemented features.
 
 
 -   **Create maintenance branch**
@@ -339,7 +332,7 @@ A support package version could be used for example to deliver a new simple busi
          commit ID: "12345xy"
     ```
 
-    `addonProduct` must include the development namespace prefix.
+    `addonProduct` must include the development namespace prefix and the add-on product name.
 
     `addonVersion` is version 1.1.0, marking a support package delivery.
 
@@ -415,7 +408,7 @@ Release versions are used to deliver new major, planned functional enhancements.
 
     As an add-on admin, change the add-on descriptor file according to the add-on product version that you want to build.
 
-    Optionally, you can specify a commit ID. All released changes up to the specified commit are included. You can retrieve this ID from the branch history in the *Manage Software Components* app.
+    Optionally, you can specify a commit ID. All released changes up to the specified commit are included. You can retrieve this commit ID from the commit history in the *Manage Software Components* app.
 
     ```
     ---
@@ -428,9 +421,9 @@ Release versions are used to deliver new major, planned functional enhancements.
          commitID: "12345xy"
     ```
 
-    `addonProduct` must include a development namespace prefix.
+    `addonProduct` must include a development namespace prefix and the add-on product name.
 
-    `addonVersion` is version 2.0.0, marking an add-on installation package delivery.
+    `addonVersion` is version 2.0.0, marking an add-on installation delivery.
 
     The repositories include all involved software components as well as the branch and software component version to be used for the add-on build.
 
@@ -456,16 +449,14 @@ Release versions are used to deliver new major, planned functional enhancements.
 
 Similar to the build of the initial add-on version, as an add-on administrator, you need to trigger the execution of the configured ABAP environment pipeline for an add-on build.
 
-Based on the target vector published in the build stage, the integration tests stage of the ABAP environment pipeline creates add-on installation test system ATI. After the system and the add-on have been provisioned successfully, a provisioning mail is sent to the system administrator and the pipeline stage can be confirmed by the add-on administrator.
+Based on the target vector published in the Build stage, the Integration Tests stage of the ABAP environment pipeline creates add-on installation test system ATI. After the system and the add-on have been provisioned successfully, a provisioning mail is sent to the system administrator and the pipeline stage can be confirmed by the add-on administrator.
 
 Use add-on installation test system ATI to confirm the successful add-on installation before the new add-on version is published.
 
-You can also use add-on installation test system ATI for additional tests, similar to the steps described in [Test in the ABAP Environment SAP Fiori Launchpad](develop-test-build-3bf575a.md#loio8c5b4d76a05b4bed8df01937f4d8d487). For testing in a consumer-like environment, you can create tenants of type Partner Test using the Landscape Portal application. See [Use Test Tenants](use-test-tenants-dd7d8e8.md).
+You can also use add-on installation test system ATI for additional tests, similar to the steps described in [Test in the ABAP Environment SAP Fiori Launchpad](develop-test-build-3bf575a.md#loio8c5b4d76a05b4bed8df01937f4d8d487). For testing in a multitenancy environment, you can create tenants of type Partner Test using the Landscape Portal application. See [Use Test Tenants](use-test-tenants-dd7d8e8.md).
 
 > ### Note:  
-> Please make sure that the add-on product version to be published is properly tested before confirming the release decision. This includes testing in SAP Fiori launchpad and the ABAP Test Cockpit. See
-> 
-> [Test in the ABAP Environment SAP Fiori Launchpad](develop-test-build-3bf575a.md#loio8c5b4d76a05b4bed8df01937f4d8d487) and [Test in the ABAP Test Cockpit](develop-test-build-3bf575a.md#loiof0b71a1c959842258772c27d292c43b0).
+> Please make sure that the add-on product version to be published is properly tested before confirming the release decision. This includes testing in SAP Fiori launchpad and the ABAP Test Cockpit. See [Test in the ABAP Environment SAP Fiori Launchpad](develop-test-build-3bf575a.md#loio8c5b4d76a05b4bed8df01937f4d8d487) and [Test in the ABAP Test Cockpit](develop-test-build-3bf575a.md#loiof0b71a1c959842258772c27d292c43b0).
 > 
 > Finally, the previously created target vector for the new add-on product version is published in production scope after the add-on administrator has confirmed the release decision in the Confirm stage.
 > 
@@ -480,7 +471,7 @@ You can also use add-on installation test system ATI for additional tests, simil
 > ### gCTS Delivery:  
 > To create a new software component or update an existing one, we recommend using the development and correction codeline in a 5-ABAP-System landscape. See [Use Case 2: One Development and Correction Codeline in a 5-ABAP-System Landscape](use-case-2-one-development-and-correction-codeline-in-a-5-abap-system-landscape-4e53874.md).
 > 
-> Following this codeline, the developed software component is developed in the development system and runs through a test, correction, and quality and assurance system before it can be deployed to the production system.
+> Following this codeline, the software component is implemented in the development system and runs through a test, correction, and quality and assurance system before it can be deployed to the production system.
 > 
 > See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 

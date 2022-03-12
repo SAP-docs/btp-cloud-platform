@@ -38,7 +38,7 @@ Use the `create` method of the obtained business configuration interface handle 
 
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > CLASS zcl_ys_register_bc DEFINITION PUBLIC FINAL CREATE PUBLIC
 >     INHERITING FROM cl_xco_cp_adt_simple_classrun.
 >   PROTECTED SECTION.

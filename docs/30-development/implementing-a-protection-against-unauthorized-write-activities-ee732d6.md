@@ -23,7 +23,7 @@ For more information about authorization control, see [Authorization Control](ht
 2.  In the `PRIVATE SECTION` in the handler class of the behavior implementation, define the method for authorization checks for update and deletion:
 
     > ### Sample Code:  
-    > ```lang-abap
+    > ```abap
     >   METHODS get_instance_authorizations FOR INSTANCE AUTHORIZATION
     >     IMPORTING it_entity_keys REQUEST requested_authorizations FOR <behavior definition or its alias> RESULT result.
     > ```
@@ -31,7 +31,7 @@ For more information about authorization control, see [Authorization Control](ht
     In the bonus calculation example, this method definition can look as follows:
 
     > ### Sample Code:  
-    > ```lang-abap
+    > ```abap
     >   METHODS get_instance_authorizations FOR INSTANCE AUTHORIZATION
     >     IMPORTING keys REQUEST requested_authorizations FOR calculation RESULT result.
     > ```
@@ -39,7 +39,7 @@ For more information about authorization control, see [Authorization Control](ht
 3.  In the `PRIVATE SECTION` in the handler class of the behavior implementation, also define the method for authorization checks for creation:
 
     > ### Sample Code:  
-    > ```lang-abap
+    > ```abap
     >   METHODS get_global_authorizations FOR GLOBAL AUTHORIZATION
     >     IMPORTING REQUEST requested_authorizations FOR <behavior definition or its alias> RESULT result.
     > ```
@@ -47,7 +47,7 @@ For more information about authorization control, see [Authorization Control](ht
     In the bonus calculation example, this method definition can look as follows:
 
     > ### Sample Code:  
-    > ```lang-abap
+    > ```abap
     >   METHODS get_global_authorizations FOR GLOBAL AUTHORIZATION
     >     IMPORTING REQUEST requested_authorizations FOR calculation RESULT result.
     > ```
@@ -57,7 +57,7 @@ For more information about authorization control, see [Authorization Control](ht
     In the bonus calculation example, this method can look like this:
 
     > ### Sample Code:  
-    > ```lang-abap
+    > ```abap
     >   METHOD get_instance_authorizations.
     > 
     > *     As import table contains only keys, we need to get complete bonus calculation data for bonus variant value
@@ -93,7 +93,7 @@ For more information about authorization control, see [Authorization Control](ht
     In the bonus calculation example, such a method could look like this:
 
     > ### Sample Code:  
-    > ```lang-abap
+    > ```abap
     >   METHOD get_global_authorizations.
     >   
     >     IF requested_authorizations-%create EQ if_abap_behv=>mk-on.

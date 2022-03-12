@@ -5,7 +5,7 @@
 The following code sample illustrates the generation of function modules:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > "! Code sample for generating a function module along with a function group
 > "! that contains it.
 > "!

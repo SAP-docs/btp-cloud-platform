@@ -249,7 +249,7 @@ Unit of measurement is not maintained
 </table>
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > CLASS zcl_uom_conversion DEFINITION
 >   PUBLIC
 >   FINAL

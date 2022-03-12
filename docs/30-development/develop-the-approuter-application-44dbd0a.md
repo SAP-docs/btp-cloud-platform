@@ -33,7 +33,7 @@ In addition, we provide the middleware `@sap/asp-middleware` component \(see [he
 
     The package.json should look as follows \(if the defaults are kept\):
 
-    ```lang-json
+    ```json
     {
       "name": "router",
       "version": "1.0.0",
@@ -56,7 +56,7 @@ In addition, we provide the middleware `@sap/asp-middleware` component \(see [he
 
     Result: The two modules will be listed in the package.json as “dependencies” and are downloaded into the node\_modules folder. Excerpt from `package.json` \(versions might differ\):
 
-    ```lang-json
+    ```json
     "dependencies": {
         "@sap/approuter": "^8.5.2",
         "@sap/asp-middleware": "^1.0.1"
@@ -68,7 +68,7 @@ In addition, we provide the middleware `@sap/asp-middleware` component \(see [he
 
     A start script needs to be added to prepare the application for execution in the Cloud Foundry Environment. To do this, make sure the scripts section of the package.json looks as follows:
 
-    ```lang-json
+    ```json
     "scripts": {
        "start": "node index.js"
     },
@@ -79,7 +79,7 @@ In addition, we provide the middleware `@sap/asp-middleware` component \(see [he
 
     Create the file index.js. The JavaScript code for the application must be written here. The minimum code required is the following:
 
-    ```lang-js
+    ```js
     const approuter = require('@sap/approuter');
     const ar = approuter();
     
@@ -95,7 +95,7 @@ In addition, we provide the middleware `@sap/asp-middleware` component \(see [he
 
     To make sure that the approuter routes all relevant requests to the ABAP Solution, a routing configuration file needs to be created and configured: Create a file named `xs-app.json` next to the `index.js` file. It should have the following content:
 
-    ```lang-json
+    ```json
     {
     	"authenticationMethod": "route",
     	"welcomeFile": "/ui",

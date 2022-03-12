@@ -24,7 +24,7 @@ To call an API of the Authorization and Trust Management Service you need to obt
     > ### Sample Code:  
     > In this example, we request the list of roles of an XSUAA configuration.
     > 
-    > ```nocode
+    > ```
     > curl --request GET \
     >   --url https://api.authentication.eu10.hana.ondemand.com/sap/rest/authorization/v2/roles \
     >   --header 'Accept: application/json' \
@@ -43,7 +43,7 @@ To call an API of the Authorization and Trust Management Service you need to obt
 The client returns the list of roles.
 
 > ### Output Code:  
-> ```lang-json
+> ```json
 > [
 >     {
 >         "roleTemplateName": "Viewer",

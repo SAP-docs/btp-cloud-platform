@@ -9,7 +9,7 @@ Regular expressions can be used to match strings against patterns or extract sub
 Independent of XCO, CL\_ABAP\_REGEX provides common regular expression standards for working with regular expressions in ABAP. In XCO, these regular expression standards are encapsulated in the IF\_XCO\_REGEX\_ENGINE abstraction which is accessible via the XCO\_CP\_REGULAR\_EXPRESSION API:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_posix_engine) = xco_cp_regular_expression=>engine->posix(
 >   iv_ignore_case = abap_true
 > ).
@@ -25,7 +25,7 @@ The parameters of the POSIX and PCRE methods can be used to configure the behavi
 A regular expression can be used to easily check if a given string matches a pattern
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > " LV_CASE_INSENSITIVE_MATCHES will have the value abap_true as
 > " LO_POSIX_ENGINE is case insensitive (see above).
 > DATA(lv_case_insensitive_matches) = xco_cp=>string( |abc| )->matches(
@@ -41,7 +41,7 @@ A regular expression can be used to easily check if a given string matches a pat
 or to retrieve certain parts from it
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_name_parts) = xco_cp=>string( |John Doe| )->grep( '^(\S+)\s+(\S+)$' ).
 > 
 > " LV_FIRST_NAME = John

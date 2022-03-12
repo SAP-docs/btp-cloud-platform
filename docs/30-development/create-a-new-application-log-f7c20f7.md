@@ -11,7 +11,7 @@ To create an object of class `CL_BALI_LOG`, the class provides two methods:
 
 > ### Example:  
 > > ### Sample Code:  
-> > ```lang-abap
+> > ```abap
 > > 
 > > CLASS zcl_test_write DEFINITION
 > >   PUBLIC
@@ -79,7 +79,7 @@ To create an object of class `CL_BALI_LOG`, the class provides two methods:
 > > ```
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > 
 > ...
 >     TRY.
@@ -96,7 +96,7 @@ To create an object of class `CL_BALI_LOG`, the class provides two methods:
 If the header information is not known when the application log is created, you can use the `CREATE` method. It creates an empty application log. In this case, the header should be set later using the `SET_HEADER` method.
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > 
 > ...
 >     TRY.
@@ -116,7 +116,7 @@ If the application log is no longer needed in the memory, for example because it
 After calling the method RELEASE\_MEMORY, the log object is invalidated and can no longer be used. The method IS\_INVALIDATED can be used to check whether the memory of the log object was already released by a previous call of the method RELEASE\_MEMORY.
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > ...
 >  TRY.
 >      DATA(l_log) = cl_bali_log=>create( ).
@@ -132,7 +132,7 @@ After calling the method RELEASE\_MEMORY, the log object is invalidated and can 
 > ```
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 >  ...
 >  TRY.
 >      DATA(l_log) = cl_bali_log=>create( ).

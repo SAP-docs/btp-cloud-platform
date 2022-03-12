@@ -23,7 +23,7 @@ Some services can require to set specific XML elements in the SOAP header. To ad
 2.  Pass the proxy object to the factory method `CL_WS_PROTOCOL_FACTORY=>get_soap_header_protocol( )`. The factory method returns a \(proxy-specific\) WS protocol object to adjust the SOAP header.
 3.  Pass the custom XML element as string to method `ADD_SOAP_HEADER_ELEMENT`.
 
-```lang-abap
+```abap
 DATA(ws_soap_header_facade) = cl_ws_protocol_factory=>get_soap_header_protocol( proxy ).
 ws_soap_header_facade->add_soap_header_element( '<XML element>' ).
 ```
@@ -56,7 +56,7 @@ The API raises the exception `cx_ws_protocol_error`, for example, if the code sn
 The following example shows how to adjust the SOAP request header followed by the Web service call.
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > TRY.
 >     " Create a consumer proxy.
 >     DATA(soap_destination) = cl_soap_destination_provider=>create_by_comm_arrangement(

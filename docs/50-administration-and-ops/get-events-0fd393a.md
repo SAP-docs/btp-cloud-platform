@@ -1083,7 +1083,7 @@ The ID of the event.
 
 ### Response Example
 
-```collapsible
+```
 {
     "total": 3,
     "totalPages": 1,

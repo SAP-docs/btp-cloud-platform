@@ -36,7 +36,7 @@ The procedure described in this section uses the cf CLI.
 
     1.  Run the following command to delete the service key:
 
-        ```nocode
+        ```
         cf delete-service-key SERVICE-INSTANCE-NAME KEY-NAME
         ```
 
@@ -47,7 +47,7 @@ The procedure described in this section uses the cf CLI.
 
     2.  Run the following command to unbind your application from the service instance:
 
-        ```nocode
+        ```
         cf unbind-service APP-NAME SERVICE-INSTANCE-NAME
         ```
 

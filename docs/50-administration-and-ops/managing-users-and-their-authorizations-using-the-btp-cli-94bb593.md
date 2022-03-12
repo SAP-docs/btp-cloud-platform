@@ -17,7 +17,7 @@ Role collections are user-related authorizations that allow access to resources 
 
 When you do the first role collection assignment to a user through the btp CLI, you need to initially create the shadow user with parameter `--create-user-if-missing`. For example, after creating a subaccount, assign the role collection "Subaccount Administrator" to a user with the following command:
 
-```nocode
+```
 btp assign security/role-collection "Subaccount Administrator" --to-user name@example.com --create-user-if-missing --subaccount "my-subaccount-id"
 ```
 

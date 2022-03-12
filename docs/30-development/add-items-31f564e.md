@@ -34,7 +34,7 @@ To add a log item to an application log, the `IF_BALI_LOG` interface provides th
 > When an item is added to the application log, it can probably be converted internally. For example, an exception which is based on a message \(which contains a message ID and message number\) is internally converted into a message.
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > 
 > ...
 >  TRY.
@@ -63,7 +63,7 @@ To add a log item to an application log, the `IF_BALI_LOG` interface provides th
 > ```
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > ...
 >  TRY.
 >      DATA(l_log_target) = cl_bali_log=>create( ).
@@ -88,7 +88,7 @@ To add a log item to an application log, the `IF_BALI_LOG` interface provides th
 > ```
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > ...
 >  TRY.
 >      DATA(l_log) = cl_bali_log=>create( ).

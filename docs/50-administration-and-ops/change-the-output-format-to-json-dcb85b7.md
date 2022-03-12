@@ -31,7 +31,7 @@ The standard output format of the btp CLI is text, formatted in a way that an in
 
 ### Example with text output
 
-```nocode
+```
 btp list accounts/subaccount
 subaccounts in global account c8XXXX3d-6XX7-4XXb-8dXX-89XXXX372eXX...
 subaccount id:                         display name:                              subdomain:                             region:        beta-enabled:   parent id:                             state:            state message:                                                                                                                                                    
@@ -44,7 +44,7 @@ ebXXXX3e-f3a2-4XXf-a080-3eXXXX9b9ced   my-subaccount-2                          
 
 ### Example with JSON output
 
-```nocode
+```
 btp list --format json accounts/subaccount
 {
   "value": [

@@ -13,7 +13,7 @@ The goal of the XCO JSON module is to make working with JSON data as simple as p
 The following code shows an example of how a JSON string \(e.g. the response of an outbound service call\) can be translated into a corresponding ABAP structure:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lv_json_string) = '{'
 >   && |"SessionId":"7cd44fff-036a-4155-b0d2-f5a4dfbcee92",|
 >   && |"UserName":"John Doe",|
@@ -58,7 +58,7 @@ Note that the XCO library uses the following terminology:
 JSON strings can be created in two ways, either from scratch or from a corresponding ABAP data structure. Using the XCO JSON data builder, JSON data can be built like:
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > DATA(lo_json_builder) = xco_cp_json=>data->builder( ).
 > lo_json_builder->begin_object(
 >   )->add_member( 'SessionId' )->add_string( '7cd44fff-036a-4155-b0d2-f5a4dfbcee92'
@@ -74,7 +74,7 @@ JSON strings can be created in two ways, either from scratch or from a correspon
 In the same way that a JSON string can be translated to an appropriate ABAP data structure an ABAP data structure can be translated to a JSON string. It is again possible to apply transformations to e.g. transform underscore to camel case notation.
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > TYPES:
 >   BEGIN OF ts_output,
 >     session_id      TYPE sysuuid_c36,

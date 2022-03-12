@@ -363,7 +363,7 @@ Light exponent of the dimension
 > Class exception `CX_UOM_ERROR` is raised if no dimension is found.
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > CLASS zcl_uom_dimension_read_test DEFINITION 
 >   PUBLIC 
 >   FINAL 

@@ -347,7 +347,7 @@ Filters from which topics a client \(receiver\) is allowed to receive messages.
 
 ## Example
 
-```lang-json
+```json
 {
 	"emname": "ems-s4hc",
 	"namespace": "sap/S4HANAOD/ems-s4hc",

@@ -11,7 +11,7 @@ As we will be using associations and dimensions in our view, we will be implemen
 
 3.  Choose the data source that you would like to select from.
 
-    ```lang-abap
+    ```abap
     define view entity Z_BOOKINGS_VE_CUBE
       as select from /DMO/I_Booking_U as Booking
     ```
@@ -20,7 +20,7 @@ As we will be using associations and dimensions in our view, we will be implemen
 
     **Associations**
 
-    ```lang-abap
+    ```abap
     association [0..1] to Z_CUSTOMER_VE_DIM   as _Customer   on  Booking.CustomerID = _Customer.CustomerId
     association [0..1] to Z_AIRLINE_VE_DIM    as _Airline    on  Booking.AirlineID = _Airline.CarrierId
     association [0..1] to Z_Connection_VE_DIM as _Connection on  Booking.AirlineID    = _Connection.CarrierId
@@ -32,7 +32,7 @@ As we will be using associations and dimensions in our view, we will be implemen
 
     **Default aggregation**
 
-    ```lang-abap
+    ```abap
     @EndUserText.label: 'Air Fare'
           @Semantics.amount.currencyCode: 'CurrencyCode'
           @Aggregation.default: #MIN
@@ -43,7 +43,7 @@ As we will be using associations and dimensions in our view, we will be implemen
 
     **Foreign key association**
 
-    ```lang-abap
+    ```abap
     @ObjectModel.foreignKey.association: '_Airline'
     Booking.carrier_id             as AirlineID,
     ```
@@ -57,7 +57,7 @@ As we will be using associations and dimensions in our view, we will be implemen
 
 **Z\_BOOKINGS\_VE\_CUBE**
 
-```lang-abap
+```abap
 @AbapCatalog.viewEnhancementCategory: [#NONE]
 @AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Bookings view entity - CDS Data Model'

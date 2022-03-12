@@ -131,7 +131,7 @@ Be mindful of whether you're updating an existing application or starting with a
 **Related Information**  
 
 
-[Parameters for X.509 Certificates Managed by SAP Authorization and Trust Management Service](../50-administration-and-ops/parameters-for-x-509-certificates-managed-by-sap-authorization-and-trust-management-servi-436ed68.md "Use the parameters to have the service generate X.509 certificates for you.")
+[Parameters for X.509 Certificates Managed by SAP Authorization and Trust Management Service](../50-administration-and-ops/parameters-for-x-509-certificates-managed-by-sap-authorization-and-trust-management-ser-436ed68.md "Use the parameters to have the service generate X.509 certificates for you.")
 
 [Parameters for Self-Managed X.509 Certificates](../50-administration-and-ops/parameters-for-self-managed-x-509-certificates-5168df6.md "Use these parameters to provide your own certificates for a binding or service key to service instances of the SAP Authorization and Trust Management service (XSUAA).")
 

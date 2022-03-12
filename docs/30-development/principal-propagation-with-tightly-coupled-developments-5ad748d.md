@@ -36,7 +36,7 @@ In this scenario, we enable the service to accept the JSON Web Token \(JWT\) of 
     In this attribute, list the names of the applications \(`xsappname`\) you want to share the scope with.
 
     > ### Sample Code:  
-    > ```lang-json
+    > ```json
     > "scopes": [
     > 	{
     > 		"name"                 : "$XSAPPNAME.Viewer",
@@ -66,7 +66,7 @@ In this scenario, we enable the service to accept the JSON Web Token \(JWT\) of 
 3.  As the business application developer, add scope references to the scope of the service in the `role-templates` section of the `xs-security.json` in business application A.
 
     > ### Sample Code:  
-    > ```lang-json
+    > ```json
     > "role-templates": [
     >     {
     >         "name"             : "Viewer",

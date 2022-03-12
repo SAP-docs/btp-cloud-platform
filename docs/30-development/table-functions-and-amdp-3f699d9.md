@@ -5,7 +5,7 @@
 The code sample below provides a self-contained example for the generation of a CDS table function. The CDS table function is generated together with the class providing the AMDP implementation and the underlying database table in a single PUT operation.
 
 > ### Sample Code:  
-> ```lang-abap
+> ```abap
 > "! Code sample for generating a CDS table function together with an AMDP class
 > "! and database table.
 > "!

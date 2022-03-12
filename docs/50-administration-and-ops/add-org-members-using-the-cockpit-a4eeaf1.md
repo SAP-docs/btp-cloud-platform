@@ -35,7 +35,7 @@ You have the Org Manager role for the org in question.
 
 5.  Feature Set A: Choose the *Origin*.
 
-    If you want to use a custom user base, choose *Other* for *Origin* and then enter the corresponding Identity Authentication tenant name. For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-e-8600afb.md).
+    If you want to use a custom user base, choose *Other* for *Origin* and then enter the corresponding Identity Authentication tenant name. For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-8600afb.md).
 
 6.  Select the roles for the members and save your changes.
 
