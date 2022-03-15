@@ -1917,7 +1917,7 @@ Create interactive prototypes based on end-user feedback without code writing.
 </td>
 <td valign="top">
 
--   MOB-UIA-BLD-ADM
+-   MOB-UIA-BLD-GEN
 
 
 
@@ -5152,7 +5152,7 @@ Connect applications, services and systems across different landscapes.
 </td>
 <td valign="top">
 
--   BC-CP-CF-MES
+-   BC-CP-EM-MES
 
 
 
@@ -5223,7 +5223,7 @@ Connect applications, services and systems across different landscapes.
 </td>
 <td valign="top">
 
--   BC-CP-CF-MES
+-   BC-CP-EM-MES
 
 
 
@@ -5292,7 +5292,7 @@ Connect applications, services and systems across different landscapes.
 </td>
 <td valign="top">
 
--   BC-CP-CF-MES
+-   BC-CP-EM-MES
 
 
 
@@ -9038,7 +9038,7 @@ Use your user base from the identity authentication tenant for admin tasks.
 <tr>
 <td valign="top">
 
- [Portal](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
+ [Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
 
 
 
@@ -9116,7 +9116,7 @@ Create role based, multi-channel sites to access business apps and content.
 <tr>
 <td valign="top">
 
- [Portal](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
+ [Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
 
 
 
@@ -9189,7 +9189,7 @@ Create role based, multi-channel sites to access business apps and content.
 <tr>
 <td valign="top">
 
- [Portal](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
+ [Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
 
 
 
@@ -9259,7 +9259,7 @@ Create role based, multi-channel sites to access business apps and content.
 <tr>
 <td valign="top">
 
- [Portal](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
+ [Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
 
 
 
@@ -9324,7 +9324,7 @@ Create role based, multi-channel sites to access business apps and content.
 <tr>
 <td valign="top">
 
- [Portal](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
+ [Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
 
 
 
