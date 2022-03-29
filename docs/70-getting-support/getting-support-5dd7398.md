@@ -2,7 +2,7 @@
 
 # Getting Support
 
-Use SAP Community, get guided answers, or explore SAP Support Portal.
+Use SAP Community, get guided answers, or explore SAP Support Portal. Testing the **Edit** functionality.
 
 
 
