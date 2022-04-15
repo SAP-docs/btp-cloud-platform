@@ -2,7 +2,7 @@
 
 # Bind Service Instances to Applications Using kubectl
 
-As an alternative to the Kyma Console/Dashboard, you can use **kubectl** to bind your service to the application and establish a connection between the two.
+As an alternative to the Kyma Dashboard, you can use **kubectl** to bind your service to the application and establish a connection between the two.
 
 
 

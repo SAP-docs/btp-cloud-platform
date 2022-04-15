@@ -8,6 +8,8 @@ CDS models are plain JavaScript objects complying to the Core Schema Notation \(
 
 For further information, please refer to the following sections:
 
+-   [Upgrade to Compiler v2](https://cap.cloud.sap/docs/cds/compiler-v2) - CDS compiler version 2 \(cv2\) brings numerous improvements, which allow us to significantly streamline model processing going forward.
+
 -   [Definition Language \(CDL\)](https://cap.cloud.sap/docs/cds/cdl) - A reference and overview of all CDS concepts and features in the form of compact examples.
 
 -   [Schema Notation \(CSN\)](https://cap.cloud.sap/docs/cds/csn) - Specification of CSN, CDS’ canonical format for representing CDS models as plain JavaScript objects, similar to JSON Schema.
@@ -18,9 +20,15 @@ For further information, please refer to the following sections:
 
 -   [Expression Notation \(CXN\)](https://cap.cloud.sap/docs/cds/cxn) - Specification of the Core Expression Notation \(CXN\) used to capture expressions as plain JavaScript objects.
 
+-   [Built-in Types](https://cap.cloud.sap/docs/cds/types) - List of provided built-in types.
+
 -   [Common Types & Aspects](https://cap.cloud.sap/docs/cds/common) - Introduces `@sap/cds/common` a prebuilt CDS model shipped with `@sap/cds` that provides common types and aspects.
 
 -   [Common Annotations](https://cap.cloud.sap/docs/cds/annotations) - A reference and glossary of common annotations intrinsically supported by the CDS compiler and runtimes.
+
+-   [Compiler Messages](https://cap.cloud.sap/docs/cds/compiler-messages) - This page lists selected error messages and explanations on how to fix them.
+
+-   [The Nature of Models](https://cap.cloud.sap/docs/cds/models) - Introduces the fundamental principles of CDS models.
 
 -   [Node.js API](https://cap.cloud.sap/docs/node.js/cds-compile) - The CDS compiler is implemented in Node.js. Find here the reference documentation for the respective APIs which can be used in CLI tools as well at runtime in CDS service implementations.
 

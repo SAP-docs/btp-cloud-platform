@@ -39,9 +39,9 @@ With the Kyma environment, you can create microservices in the language of your 
 
 <a name="loio606ec610ee4746c09d5d2bef5a85a124__section_q5j_fhb_g4b"/>
 
-## Kyma Console/Dashboard And kubectl
+## Kyma Dashboard And kubectl
 
-The Kyma environment comes with a central administration dashboard \(Kyma Console/Dashboard\), which allows you to deploy microservices, create Functions, and manage their configurations. You can also use it to easily register cloud providers for additional services, create instances of these services, and use them in your microservices or Functions.
+The Kyma environment comes with a central administration dashboard \(Kyma Dashboard\), which allows you to deploy microservices, create Functions, and manage their configurations. You can also use it to easily register cloud providers for additional services, create instances of these services, and use them in your microservices or Functions.
 
 For those who prefer to work with command-line tools, the Kyma environment also offers the Kubernetes command-line tool, kubectl.
 

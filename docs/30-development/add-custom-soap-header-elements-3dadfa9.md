@@ -75,7 +75,7 @@ The following example shows how to adjust the SOAP request header followed by th
 >     TRY.
 >       " Pass the proxy object to factory method and add XML element to the SOAP request header.
 >       DATA(ws_header_facade) = cl_ws_protocol_factory=>get_soap_header_protocol( proxy ).
->       ws_header_facade->add_soap_header_element( xml_element).
+>       ws_header_facade->add_soap_header_element( xml_element ).
 >      
 >       CATCH cx_ws_protocol_error.
 >       " Handle error.

@@ -1118,7 +1118,7 @@ eu-central-1
 </td>
 <td valign="top">
 
-api.eu11.hana.ondemand.com
+api.cf.eu11.hana.ondemand.com
 
 
 

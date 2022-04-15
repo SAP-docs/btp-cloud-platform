@@ -264,7 +264,7 @@ Requires additional effort to to be compliant because a strict process needs to 
 </table>
 
 > ### Recommendation:  
-> We recommend using the **add-on build delivery** process because it offers a bundling that can be used to implement a sophisticated delivery approach with separate codelines, versioning, and, as a result, different delivery package types. See [Delivery Models](versioning-and-branches-8c087bc.md#loio326508756a144c49b98e5fcf442cce40). It also comes with a separation of ABAP system licenses for development and production purposes, with the development systems being available at a discounted rate.
+> We recommend using the **add-on build delivery** process because it offers a bundling that can be used to implement a sophisticated delivery approach with separate codelines, versioning, and, as a result, different delivery package types. See [Delivery Models](concepts-9482e7e.md#loio326508756a144c49b98e5fcf442cce40). It also comes with a separation of ABAP system licenses for development and production purposes, with the development systems being available at a discounted rate.
 > 
 > Example scenarios: Long-term projects with frequent maintenance deliveries, expected growth of consumers over time, and adherence to specific standards/certifications.
 > 

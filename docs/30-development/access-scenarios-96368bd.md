@@ -10,7 +10,7 @@ When you set up access to ABAP-managed data from ODBC-based clients, you can set
 
 ## Privileged Data Access
 
-With privileged data acess, the communication between an ODBC-based client and the ABAP system is set up with a communication user. Access controls are not applied on the ABAP side, which means that the technical user can access all data from the CDS view entities for which the user is authorized.
+With privileged data access, the communication between an ODBC-based client and the ABAP system is set up with a communication user. Access controls aren't applied on the ABAP side, which means that the technical user can access all data from the CDS view entities for which the user is authorized.
 
 Exposure of CDS entities is controlled by service definitions and SQL service bindings. Authorizations are controlled on the level of service bindings or individual CDS view entities. The communication on the ABAP side is configured using communication scenarios and communication arrangements.
 

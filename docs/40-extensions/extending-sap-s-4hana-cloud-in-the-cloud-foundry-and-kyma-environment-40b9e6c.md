@@ -57,7 +57,7 @@ Related Documentation
 
 1. Connect the SAP S/4HANA Cloud system you want to extend with the corresponding global account in SAP BTP.
 
-During the pairing process you create an integration token which is then used by the SAP S/4HANA Cloud system tenant administrator to configure the integration on the SAP S/4HANA Cloud system side.
+During the pairing process you create an registration token which is then used by the SAP S/4HANA Cloud system tenant administrator to configure the integration on the SAP S/4HANA Cloud system side.
 
 
 

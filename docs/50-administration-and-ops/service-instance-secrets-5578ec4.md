@@ -25,7 +25,7 @@ The service instance can use multiple secrets in the ***application*** plan.
     > For more information, see [Parameters for Self-Managed X.509 Certificates](parameters-for-self-managed-x-509-certificates-5168df6.md).
 
 
-The following figure illustrates the XSUAA app and its information about the OAuth 2.0 client as part of an instanceSAP Authorization and Trust Management service. A consuming application, functioning as an OAuth 2.0 client is bound to the SAP Authorization and Trust Management service instance. The secret is part of the environment of the consuming application and the information about the OAuth 2.0 client saved with the XSUAA app. Alternatively, this information is saved as part of a service key.
+The following figure illustrates the XSUAA app and the binding information about the OAuth 2.0 client as part of a service instance of the SAP Authorization and Trust Management service. A consuming application, functioning as an OAuth 2.0 client is bound to the SAP Authorization and Trust Management service instance. The secret is part of the environment of the consuming application and the information about the OAuth 2.0 client saved with the XSUAA app. Alternatively, this information is saved as part of a service key.
 
    
   
@@ -35,7 +35,7 @@ The following figure illustrates the XSUAA app and its information about the OAu
 									Authorization and Trust Management Service
 				Instance and a Consuming Application") 
 
-The `credential-types` parameter of the OAuth client configuration in the application security descriptor \(`xs-security.json`\) determines which secrets bindings support.
+The `credential-types` parameter of the OAuth client configuration in the application security descriptor \(`xs-security.json`\) determines which types of secrets that bindings support.
 
 In the following example, the service instance creates a binding secret for all new bindings. It allows the creation of X.509 secrets and still accepts instance secrets.
 
@@ -67,4 +67,6 @@ In the following example, the service instance creates a binding secret for all 
 [Migrate from Instance Secrets to Binding Secrets](migrate-from-instance-secrets-to-binding-secrets-dcee867.md "To simplify the management of secrets for service instances of the SAP Authorization and Trust Management service, we recommend that you configure service instances to use binding secrets.")
 
 [Application Security Descriptor Configuration Syntax](../30-development/application-security-descriptor-configuration-syntax-517895a.md "The syntax required to set the properties and values defined in the xs-security.json application security descriptor file.")
+
+[Limitations on Bindings and Service Keys](../60-security/limitations-on-bindings-and-service-keys-6d3ef52.md "To preserve the stability of the SAP Authorization and Trust Management service, we allow a maximum of 1000 bindings and service keys in total per service instance. The service rejects attempts to add more bindings or service keys.")
 

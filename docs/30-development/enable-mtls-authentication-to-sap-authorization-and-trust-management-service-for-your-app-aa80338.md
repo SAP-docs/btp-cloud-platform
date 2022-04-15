@@ -22,7 +22,7 @@ To handle tokens, use:
 
     -   For Python, see [SAP Python Security Library](https://pypi.org/project/sap-xssec/) on *Python Package Index*.
 
-    -   For Node.js, see [@sap/sbf](https://www.npmjs.com/package/@sap/sbf) on *Newtons Poleless Magnet \(NPM\)*.
+    -   For Node.js, see [@sap/sbf](https://www.npmjs.com/package/@sap/sbf) on *Node Package Manager \(NPM\)*.
 
 
 -   Your own integration

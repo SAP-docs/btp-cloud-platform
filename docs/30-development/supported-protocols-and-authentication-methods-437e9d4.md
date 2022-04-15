@@ -8,6 +8,9 @@ Get an overview about supported protocols and authentication methods in the ABAP
 
 Each communication scenario defines which authentication methods can be used. The tables below gives you an overview of all the authentication methods for communication management.
 
+> ### Note:  
+> The supported protocols and authentication methods only apply to communication scenarios that are managey by customers.
+
 
 
 ## Outbound Communication
@@ -284,34 +287,6 @@ OpenID Connect Bearer Token
 <tr>
 <td valign="top">
 
-SOAP
-
-> ### Note:  
-> You can only use it in communication scenarios delivered by SAP.
-
-
-
-</td>
-<td valign="top">
-
-Basic Authentication
-
-Client Certificate Authentication
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 RFC \(Internet\)
 
 
@@ -376,6 +351,8 @@ Basic Authentication
 
 OpenID Connect Bearer Token
 
+Client Certificate Authentication
+
 
 
 </td>
@@ -384,5 +361,5 @@ OpenID Connect Bearer Token
 
 -   For more information about the SQL service, see [Accessing ABAP-Managed Data from External ODBC-Based Clients](accessing-abap-managed-data-from-external-odbc-based-clients-4082fe1.md).
 
--   For more information about SAML Assertion Authentication and OpenID Connect Bearer Token, see [How to Create Communication Systems](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/1bfe32ae08074b7186e375ab425fb114.html).
+-   For more information about SAML Assertion Authentication and OpenID Connect Bearer Token, see [How to Create Communication Systems](../50-administration-and-ops/how-to-create-communication-systems-c2234ac.md).
 

@@ -60,10 +60,11 @@ You can use the `CL_APJ_RT_API` class to maintain application jobs. You can do t
 > > * choose name of existing job template !!!!
 > >     lv_template_name = 'ZTEST_MY_SIMPLE_JOB_TEMP'.
 > > 
-> > * immediate start
+> > * immediate start can't be used when being called from within a RAP business object
+> > * because the underlying API performs an implicit COMMIT WORK.
 > > *ls_start_info-start_immediately = 'X'.
 > > 
-> > * alternatively with timestamp:
+> > * Start the job using a timestamp instead. This will start the job immediately but can have a delay depending on the current workload.
 > >     GET TIME STAMP FIELD DATA(ls_ts1).
 > > * add 1 hour
 > >     DATA(ls_ts2) = cl_abap_tstmp=>add( tstmp = ls_ts1

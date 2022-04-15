@@ -57,7 +57,7 @@ Related Documentation
 
 1. Connect the SAP SuccessFactors system that you want to extend with the corresponding global account in SAP BTP.
 
-During the pairing process you create an integration token which is then used by the SAP SuccessFactors system tenant administrator to configure the integration on the SAP SuccessFactors system side.
+During the pairing process you create an registration token which is then used by the SAP SuccessFactors system tenant administrator to configure the integration on the SAP SuccessFactors system side.
 
 
 

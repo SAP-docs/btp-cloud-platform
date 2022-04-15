@@ -8,7 +8,12 @@
 
 ## Prerequisites
 
-Before creating an SAP S/4HANA Cloud Extensibility service instance in the Cloud Foundry environment, see [Create a Service Instance to Consume the SAP S/4HANA Cloud APIs](create-a-service-instance-to-consume-the-sap-s-4hana-cloud-apis-a735641.md).
+-   Before creating an SAP S/4HANA Cloud Extensibility service instance in the Cloud Foundry environment, see [Create a Service Instance to Consume the SAP S/4HANA Cloud APIs](create-a-service-instance-to-consume-the-sap-s-4hana-cloud-apis-a735641.md).
+
+-   Have enabled Cloud Foundry environment for your subaccount. See [Enable Environment or Create Environment Instance](../50-administration-and-ops/enable-environment-or-create-environment-instance-78c14b6.md).
+
+-   Have configured the entitlements to the SAP S/4HANA Cloud Extensibility service. See [Configure the Entitlements for the SAP S/4HANA Cloud Extensibility Service](configure-the-entitlements-for-the-sap-s-4hana-cloud-extensibility-service-65ad330.md).
+
 
 
 
@@ -42,30 +47,25 @@ For communication arrangements with inbound connections, a destination on a suba
 
 3.  To enable the integration with an SAP S/4HANA Cloud system that you have registered in SAP BTP global account, choose *SAP S/4HANA Cloud Extensibility*.
 
-4.  In the *SAP S/4HANA Cloud Extensibility* page, choose *Create Instance*.
+4.  In the *SAP S/4HANA Cloud Extensibility* page, choose *Create*.
 
-5.  In the *New Instance* wizard:
+5.  In the *New Instance or Subscription* wizard:
 
     1.  In the *Service* dropdown list, ensure you have selected the *SAP S/4HANA Cloud Extensibility* service.
 
-    2.  In the *Service Plan* dropdown list select the *api-access* service plan.
+    2.  In the *Plan* dropdown list, select the *api-access* service plan.
 
-    3.  A message ending with a link appears bellow the *Service Plan* field. Click on the link to finish the procedure. You are redirected to another page.
+    3.  In the *Runtime Environment* dropdown list, select *Cloud Foundry*.
 
-    4.  Choose *New Instance*.
+    4.  In the *Space* dropdown list, select your space. If you haven't create a space yet, you can do it at this point.
 
+    5.  In the *Instance Name* field, enter a name for your instance. Choose *Next*.
 
-6.  In the *Create Instance* wizard:
-
-    1.  In the *Plan* dropdown list select the *api-access* service plan, and then in the *System Name* dropdown list select the SAP S/4HANA Cloud system that you have registered. Choose *Next*.
-
-    2.  To define the communication arrangement and the authentication type for the API access, specify a JSON file or specify parameters in the JSON format. Choose *Next*.
+    6.  To define the communication arrangement and the authentication type for the API access, specify a JSON file or specify parameters in the JSON format. Choose *Next*.
 
         For more information about the structure of the JSON file, see [Communication Arrangement JSON File - Properties](communication-arrangement-json-file-properties-553a4c6.md).
 
-    3.  \(Optional\) If you have already deployed an application that you want to bind to the new service instance, choose it from the list. For more information about why you may need to bind an application to the service instance, see the **Next Steps** section in this document. Choose *Next*.
-
-    4.  Enter a name for your instance and choose *Finish*.
+    7.  Choose *Create*.
 
 
     After you have created the service instance:
@@ -95,12 +95,12 @@ For communication arrangements with inbound connections, a destination on a suba
 
 After you have created the service instance:
 
--   The newly created instance appears in the list of instances in the *Instance* panel.
+-   The newly created instance appears in the list of instances in the *Instance and Subscriptions* page.
 
 -   An HTTP destination on a subaccount level with the same name as the service instance name is automatically generated in this subaccount.
 
 
-Alternatively, you can use the Cloud Foundry Command Line Interface \(cf CLI\) to create the service instance using the technical name of the SAP S/4HANA Cloud Extensibilty service which is ***s4-hana-cloud***.
+Alternatively, you can use the Cloud Foundry Command Line Interface \(cf CLI\) to create the service instance using the technical name of the SAP S/4HANA Cloud Extensibility service which is ***s4-hana-cloud***.
 
 For more information, see [Create Service Instances Using the Cloud Foundry Command Line Interface](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/a872531845d6416b8fa07a8b84875d7e.html).
 

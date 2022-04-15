@@ -6,7 +6,7 @@
 
 ## Context
 
-Once you have a Kyma instance created in your subaccount of the SAP BTP cockpit, you can manage Kyma via GUI, Kyma Console/Dashboard. If you prefer command-line tools, you can use the Kubernetes command-line tool, kubectl. To start using kubectl, follow these steps:
+Once you have a Kyma instance created in your subaccount of the SAP BTP cockpit, you can manage Kyma via GUI, Kyma Dashboard. If you prefer command-line tools, you can use the Kubernetes command-line tool, kubectl. To start using kubectl, follow these steps:
 
 
 
@@ -17,11 +17,9 @@ Once you have a Kyma instance created in your subaccount of the SAP BTP cockpit,
     > ### Recommendation:  
     > On Windows, we recommend using the release binaries to install the kubectl oidc-login plugin. The installation of the kubectl oidc-login plugin using Chocolatey and Krew could cause issues.
 
-2.  In the SAP BTP cockpit, in your subaccount *Overview*, in the *Kyma Environment* section, select *Manage environment instance*.
+2.  In the SAP BTP cockpit, in your subaccount *Overview*, go to the *Kyma Environment* section, and click on the *KubeconfigURL* link to download `kubeconfig.yaml`.
 
-3.  In the *Overview* of your Kyma environment instance, find *KubeconfigURL*. Click on the provided link to download `kubeconfig.yaml`.
-
-4.  To export the kubeconfig file, run:
+3.  To export the kubeconfig file, run:
 
     ```
     export KUBECONFIG={KUBECONFIG_FILE_PATH}

@@ -5,7 +5,7 @@
 Different actions require different roles as well. In the process description, the following role proposals are used:
 
 -   System Administrator
-    -   Creates ABAP systems in the SAP BTP Cockpit
+    -   Creates ABAP systems in the SAP BTP cockpit 
     -   Needs authorization for space/organization management in the Cloud Foundry environment subaccount
 
 -   User Administrator
@@ -54,7 +54,7 @@ Different actions require different roles as well. In the process description, t
         </td>
         <td valign="top">
 
-        Creating and maintaining business users with Manage Business Users app
+        Creating and maintaining business users with *Maintain Business Users* app
 
 
         
@@ -77,7 +77,7 @@ Different actions require different roles as well. In the process description, t
         </td>
         <td valign="top">
 
-        Maintaining business roles with Manage Business Roles app
+        Maintaining business roles with *Maintain Business Roles* app
 
 
         
@@ -156,7 +156,7 @@ Different actions require different roles as well. In the process description, t
     </td>
     <td valign="top">
 
-    Releasing transport requests in Eclipse with ADT
+    Releasing transport requests in ABAP Development Tools for Eclipse
 
 
     
@@ -179,7 +179,7 @@ Different actions require different roles as well. In the process description, t
     </td>
     <td valign="top">
 
-    Un-/locking developers for corrections in correction ABAP systems with *Manage Business Users* app
+    Un-/locking developers for corrections in correction ABAP systems with *Maintain Business Users* app
 
 
     
@@ -202,7 +202,7 @@ Different actions require different roles as well. In the process description, t
     </td>
     <td valign="top">
 
-    En-/disabling developers for corrections in correction ABAP Systems by role assignment with *Manage Business Users* app
+    En-/disabling developers for corrections in correction ABAP systems by role assignment with *Maintain Business Users* app
 
 
     

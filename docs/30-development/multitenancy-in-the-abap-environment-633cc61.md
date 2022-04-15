@@ -4,74 +4,22 @@
 
 
 
-<a name="loio633cc61560734a8fb8dba64b4dd904a9__section_l5r_5yc_hpb"/>
+Multitenancy defines the capability to host different customers \(tenants\) on a single, shared computing infrastructure in order to optimize administration and significantly reduce TCO. A tenant is an organizationally independent unit whose IT business is entirely or partly operated together with the businesses of other tenants by a hosting provider. Multitenancy is especially relevant in a “Software as a Service” \(SaaS\) business model where customers subscribe to hosted software solutions rather than buying and installing them. For hosting providers, the operation costs per user per tenant are a decisive factor - particularly in the SME market, where typically each tenant only has a small number of users \(10 – 50\) accessing the hosted solution. Hosting providers can only operate profitably if they succeed in keeping the administration and maintenance costs for the hosted solution as low as possible. This cost pressure also limits the degree of individualization and customization a hosting provider is willing to accept for a hosted solution provided to many tenants.
 
-## Multitenancy
+![](images/Multitenancy_79b2cfa.png)
 
-Multitenancy in the ABAP environment enables independent software vendors or partners \(referred to as “**providers**”\) to develop and run ABAP solutions as software as a service \(SaaS\) leveraging SAP BTP infrastructure while hosting several consumers on the same ABAP system.
+Multitenancy in the ABAP environment enables independent software vendors or partners \(referred to as application **provider**\) to develop and operate ABAP solutions as software as a service \(SaaS\) leveraging SAP BTP infrastructure while hosting several consumers on the same ABAP system. The resources on SAP BTP platform consumed by the solution are paid for by the application provider.
 
-**Consumers** \(= end customers of the provider\) subscribe to a provider’s multitenant SaaS application and use it in a specific tenant. Consumers access the provider’s SaaS application via a tenant-specific link, see [Consumer Access](consumer-access-a197d6f.md).
+Application **consumers** \(= end customers of the provider\) subscribe to a provider’s multitenant application and use it in a specific consumer subaccount \(= tenant\). Consumers access the provider’s SaaS application via a consumer-specific URL. Consumers cannot see the data of other consumers and Identity and Access Management is kept isolated between different tenants.
 
-The *Landscape Portal* functions as a central plane for tenant management that allows providers to perform lifecycle management operations such as add-on updates, creating test tenants or support users and more. For more information on how to access and use the *Landscape Portal*, see [Landscape Portal](landscape-portal-5eb70fb.md).
+The **Multitenant Application** is deployed to the provider subaccount and serves as the entry point for the consumer-specific URLs, so that requests are routed to the corresponding consumer tenant in the ABAP system. Only after the multitenant application has been deployed, the application will be available for subscription to consumers. See [Developing Multitenant Applications in the ABAP Environment](developing-multitenant-applications-in-the-abap-environment-195031f.md).
 
-When building tenant-aware applications on top of the ABAP environment, providers need to follow dedicated rules to ensure a content separation between different consumers. To view these guidelines, see [Development Guideline to Enable Multitenancy of Products Built on the ABAP Environment](development-guideline-to-enable-multitenancy-of-products-built-on-the-abap-environment-9d994c8.md).
+The**ABAP system** used to serve the application to the consumers is provisioned in the provider subaccount during the first subscription as abap/standard or abap/saas\_oem system \(depending on whether add-on is used for delivery\). See [Creating an ABAP System](../20-getting-started/creating-an-abap-system-50b32f1.md). Different tenants are created as separate clients in the system. Tenants in the ABAP system have different capabilities represented by the tenant business type and a lifecycle status. The ABAP system contains by default a tenant used by the application provider \(client 100\) for system-level operations like the import of software components to the system. For each subscription to the multitenant application, a tenant used by the consumer \(client \>= 200\) is created. If any consumer tenants still exist in the ABAP system, the system cannot be deleted.
 
+The **Landscape Portal** functions as a central plane for tenant management that allows providers to perform lifecycle management operations such as add-on updates, creating test tenants or support users and more. For more information on how to access and use the Landscape Portal, see [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
 
+The **ASP\_CC Destination** is a destination created on subaccount-level in the provider subaccounts. It points to the Cloud Foundry Cloud Controller API and is utilized by the multitenant application to create the ABAP system in the Cloud Foundry space/org where the multitenant application is deployed. See [Create a Destination for the Cloud Foundry Cloud Controller Access](create-a-destination-for-the-cloud-foundry-cloud-controller-access-35b5acb.md).
 
-<a name="loio633cc61560734a8fb8dba64b4dd904a9__section_xxc_jqp_qmb"/>
-
-## Terminology
-
-In this documentation, we will distinguish the following two user groups:
-
--   **Provider**: The service provider is responsible for the development and maintenance of the SaaS application. This is typically an independent software vendor or development partner.
-
--   **Consumer**: The service consumer is an end-customer of the service provider and uses the SaaS application in a specific tenant.
-
-
-
-
-<a name="loio633cc61560734a8fb8dba64b4dd904a9__section_d3d_4rm_wpb"/>
-
-## Prerequisites:
-
-To use multitenancy in the ABAP environment, you need to fulfill the following prerequisites.
-
--   You have acquired an ABAP environment license for partners. For development purposes, please refer to the [SAP PartnerEdge TD&D price list](https://partneredge.sap.com/en/welcome.html?pexpRequestedURL=%2Fen%2Flibrary%2Fassets%2Fpartnership%2Fsales%2Forder_license%2Fpl_pl_part_price_list.html). For production licenses, please contact your SAP Account Manager.
-
--   As a service provider, you’ve been registered by SAP, have your own global account and production subaccount where your production ABAP instances reside, and have the Admin Cloud Foundry role assigned to your S-user.
--   You have assigned the following entitlements to your subaccounts in the SAP BTP cockpit:
-
-    -   Services:
-
-        -   ABAP Environment
-            -   hana\_compute\_unit
-            -   abap\_compute\_unit
-            -   for add-on based delivery: saas\_oem
-            -   for delivery via gCTS: standard
-
-        -   ABAP Solution
-        -   Cloud Foundry Runtime
-
-    -   Applications:
-
-        -   Landscape Portal
-        -   Web Access for ABAP
-
-
-
-**Related Information**  
-
-
-[Landscape Portal](landscape-portal-5eb70fb.md)
-
-[Developing Multitenant Applications in the ABAP Environment](developing-multitenant-applications-in-the-abap-environment-195031f.md)
-
-[Subscribe New Consumers](subscribe-new-consumers-b90cde1.md)
-
-[Consumer Access](consumer-access-a197d6f.md)
-
-[Consumer Offboarding](consumer-offboarding-c882a2a.md)
-
-[Development Guideline to Enable Multitenancy of Products Built on the ABAP Environment](development-guideline-to-enable-multitenancy-of-products-built-on-the-abap-environment-9d994c8.md "Multitenancy is required if you want to run several customers on the same ABAP system. When building tenant-aware applications on top of the ABAP environment, you must follow dedicated rules to ensure, for example, a content separation between different customers.")
+> ### Note:  
+> When building tenant-aware applications on top of the ABAP environment, providers need to follow specific ABAP implementation rules to ensure a content separation between different consumers. To view these guidelines, see [Multitenancy Development Guideline](multitenancy-development-guideline-9d994c8.md).
 

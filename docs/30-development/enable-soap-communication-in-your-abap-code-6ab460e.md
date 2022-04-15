@@ -26,7 +26,7 @@ All of the listed approaches above require an existing consumption model.
 
 [SOAP Communication via Communication Arrangements](soap-communication-via-communication-arrangements-2133e15.md "")
 
-[SOAP Communication via Destination Service](soap-communication-via-destination-service-72bb6b5.md)
+[SOAP Communication via Destination Service \(Deprecated\)](soap-communication-via-destination-service-deprecated-72bb6b5.md)
 
 [SOAP Communication via URL](soap-communication-via-url-7e22ed9.md)
 

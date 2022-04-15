@@ -8,7 +8,7 @@
 
 ## Context
 
-You can create a support user to access a consumer's tenant.
+You can create a support user to access a consumer tenant.
 
 
 
@@ -21,7 +21,7 @@ You can create a support user to access a consumer's tenant.
 3.  Navigate to the tenant for which you would like to create a support user.
 4.  Click on the *Request Support User* button in the upper right corner of the page.
 5.  \(Optional\) Check the *Requests* tab in your system to track the execution status of your action \( "New support user"\).
-6.  Afterwards, you can log on to the Fiori Launchpad of the tenant via the link in the tenants overview. Note that you need to subscribe to Web Access for ABAP in order to gain access, see[Subscribing to the Web Access for ABAP](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/98928b0941294c74b946cdcefca9b047.html).
+6.  Afterwards, you can log on to the Fiori Launchpad of the tenant via the link in the tenants overview. Note that you need to subscribe to Web Access for ABAP in order to gain access, see [Subscribing to the Web Access for ABAP](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/98928b0941294c74b946cdcefca9b047.html).
 
 You can connect to the system via ADT.
 

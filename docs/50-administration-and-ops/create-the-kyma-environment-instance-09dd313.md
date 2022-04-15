@@ -54,13 +54,10 @@ To set up the Kyma environment on your subaccount, you must create an instance o
 
 You have created a Kyma environment instance.
 
-> ### Caution:  
-> If you created a subaccount before April 23 2020 and your cluster is running with a Kyma version older than 2.0, you cannot create the Kyma environment because of an XSUAA issuer configuration issue. To fix it, change the issuer of a subaccount following the instructions in [Rotate Signing Keys of Access Tokens](rotate-signing-keys-of-access-tokens-b279adf.md).
-
 > ### Tip:  
 > For users who like to work in a terminal or want to automate operations using scripts, there's an alternative to the SAP BTP cockpit: You can create the Kyma environment with the SAP BTP command line interface \(btp CLI\).
 > 
-> To manage the lifecycle of an org in the Kyma environment in the btp CLI, use the command `accounts/environment-instance`. The available parameters depend on the plan you are using.
+> To learn more, read [Creating SAP BTP, Kyma runtime via the SAP BTP cli](https://blogs.sap.com/2022/02/24/creating-sap-btp-kyma-runtime-via-the-sap-btp-cli/).
 
 
 
@@ -68,9 +65,9 @@ You have created a Kyma environment instance.
 
 ## Next Steps
 
-To get the link to Kyma Console/Dashboard, navigate to the overview of the instance under *Instances and Subscriptions*.
+To get the link to Kyma Dashboard, navigate to the overview of the instance under *Instances and Subscriptions*.
 
-To manage access to the Kyma environment and Kyma Console/Dashboard, assign roles as needed.
+To manage access to the Kyma environment and Kyma Dashboard, assign roles as needed.
 
 **Related Information**  
 
@@ -82,4 +79,6 @@ To manage access to the Kyma environment and Kyma Console/Dashboard, assign role
 [Assign Roles in the Kyma Environment](assign-roles-in-the-kyma-environment-148ae38.md "Kyma uses roles to manage access within the cluster. Every Kyma cluster comes with predefined roles, for example, for admins and developers, which give the assigned users the permissions suitable for their purposes.")
 
 [Account Administration Using the SAP BTP Command Line Interface \(btp CLI\) \[Feature Set B\]](account-administration-using-the-sap-btp-command-line-interface-btp-cli-feature-set-b-7c6df2d.md "Use the SAP BTP command line interface (btp CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the SAP BTP cockpit for all users who like to work in a terminal or want to automate operations using scripts.")
+
+[Creating SAP BTP, Kyma runtime via the SAP BTP cli](https://blogs.sap.com/2022/02/24/creating-sap-btp-kyma-runtime-via-the-sap-btp-cli/)
 

@@ -2,9 +2,6 @@
 
 # Accessing the Landscape Portal
 
-> ### Note:  
-> You can only access the *Landscape Portal* in one global account. If you want to access the *Landscape Portal* in another global account, you need to create a new SAP IDP user.
-
 
 
 To enable the *Landscape Portal*, you need to subscribe to it in the SAP BTP cockpit. Here’s how:

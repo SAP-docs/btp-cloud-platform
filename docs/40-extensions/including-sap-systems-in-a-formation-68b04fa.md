@@ -2,7 +2,7 @@
 
 # Including SAP Systems in a Formation
 
-You can create a formation and assign to it the different SAP systems of the different SAP solutions that you want to extend in the context of the same business case.
+You can include various SAP systems into a formation and thus combine diverse SAP solutions into an extended business scenario.
 
 
 
@@ -10,11 +10,9 @@ You can create a formation and assign to it the different SAP systems of the dif
 
 ## Prerequisites
 
--   You are a global account administrator, or you are a system landscape administrator. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md)
+-   You are a global account administrator, or you are a system landscape administrator. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
 
--   You have enabled the environment, Cloud Foundry and/or Kyma, for the subaccount you want to assign to a formation.
-
--   You have registered the systems of the SAP solutions you want to assign to a formation. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
+-   The SAP solution systems that you want to include to a formation must be added at the *Systems* screen. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
 
 
 
@@ -24,22 +22,23 @@ You can create a formation and assign to it the different SAP systems of the dif
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
-A formation is a logical grouping of SAP systems that can be extended in a single business scenario. Formations allow you to combine SAP systems, SAP applications, SAP BTP components, and runtimes to simplify the connectivity setup and to provide a unified view of all components required for the implementation of your extension scenario.
+A formation is a logical grouping of SAP systems that can be extended in a business scenario. Formations allow you to combine SAP solution systems and a subaccount in SAP BTP to simplify the connectivity setup and to provide a unified view of all components required for the implementation of your extension scenario. To create a fully functional formation, you can use a two-step wizard. At the first step, you specify a custom formation name and assign a subaccount to it. At the second step, you can include an SAP solution system in the formation. You do this configuration once and you can change it anytime.
 
-You can create a formation and assign to it the different SAP systems of the different SAP solutions that you want to extend.
+> ### Note:  
+> You can assign a subaccount to the formation during the formation creation only. While you can include or exclude systems in the formation anytime, you cannot unassign or reassign subaccounts later on. Instead, you must recreate the formation.
 
-Extension business cases often involve extending several SAP solutions at a time. For example, for a single business case you have to extend the functionality and/or the UI of:
+Extension business cases often involve extending several SAP solutions at a time. For example, for a given business case you might need to extend the functionality or the UI as follows:
 
--   An SAP SuccessFactors system, and an SAP S/4HANA Cloud system. First, you need to configure the connectivity of each of these systems to Cloud Foundry, Kyma or both environments. Both extension applications are part of the same business need.
+-   An SAP SuccessFactors system, and an SAP S/4HANA Cloud system. First, you need to configure the connectivity of each of these systems to Cloud Foundry, Kyma, or both environments. Extension applications of both solutions are part of the same business need.
 
 -   An SAP Commerce Cloud system, and an SAP S/4HANA Cloud system. Again, you first configure the connectivity of each of these systems to the Kyma environment.
 
 -   A single system of the supported SAP solutions.
 
 
-When creating a formation in the SAP BTP cockpit, you assign to it the systems of the different SAP solutions you want to extend, and an existing subaccount. You do this configuration once but you can change it any time.
+When creating a formation in the SAP BTP cockpit, you include the systems of the different SAP solutions you want to extend. If your business case features more than one SAP solution system, you can use the corresponding button to include additional systems in the formation. You can start the dialog as many times and add systems as you want to your formation.
 
-These are the system types that can take part of a single formation and the respective supported environment:
+The table below outlines the system types that you can include in a formation, as well as, the supported SAP BTP environment:
 
 
 <table>
@@ -53,14 +52,14 @@ System Type
 </th>
 <th valign="top">
 
-Cloud Foundry Environment
+ Cloud Foundry Environment
 
 
 
 </th>
 <th valign="top">
 
-Kyma Environment
+ Kyma Environment
 
 
 
@@ -145,7 +144,7 @@ SAP Commerce Cloud
 </td>
 <td valign="top">
 
- 
+-
 
 
 
@@ -168,7 +167,7 @@ SAP Cloud for Customer
 </td>
 <td valign="top">
 
- 
+-
 
 
 
@@ -191,7 +190,7 @@ SAP Field Service Management
 </td>
 <td valign="top">
 
- 
+-
 
 
 
@@ -213,27 +212,25 @@ Supported
 
 ## Procedure
 
-1.  Open the SAP BTP cockpit.
+1.  Open the SAP BTP cockpit and navigate to your global account.
 
-2.  Navigate to your global account.
+2.  Choose *System Landscape* \> *Formations*.
 
-3.  Choose *System Landscape* \> *Formations* from the left hand-side navigation.
+3.  Choose *Create Formation*.
 
-4.  At the right top of the page, choose *Create Formation*.
+    The *Create Formation* dialog opens. There, in a two-step wizard, you can create a formation, and then, include an SAP system to it.
 
-5.  For the new formation you have to specify:
+4.  Enter a unique formation name.
 
-    -   Unique name
+    The formation name can contain lowercase or uppercase Latin letters, numbers, hyphens, spaces, or underscores only. The name must start and end with an alphanumeric character.
 
-        > ### Note:  
-        > The formation name must contain only lowercase alphanumeric characters, periods, or dashes. The name must start and end with an alphanumeric character.
-
-    -   A subaccount that you have previously created
-
-    -   All the systems of the different SAP systems that will be assigned to this formation
-
+5.  Specify a subaccount that you want to associate with the formation.
 
 6.  Choose *Create*.
+
+7.  Optionally, to include an SAP solution system to the newly created formation, choose *Include System*.
+
+    On the systems list that opens, select a system, and then, choose *Include*.
 
 
 
@@ -242,10 +239,12 @@ Supported
 
 ## Results
 
-For systems of type SAP Commerce Cloud, SAP Cloud for Customer, and SAP Field Service Management, the access to the corresponding solution's APIs has been enabled. After you have created a formation, you can edit it, change the assigned systems, and the subaccount. The status of each system depends on whether you have registered that system in the global account.
+For systems of type SAP Commerce Cloud, SAP Cloud for Customer, and SAP Field Service Management, the access to the corresponding solution's APIs has been enabled. After you have created a formation, you can edit it and change the included systems. The status of each system depends on whether you have registered that system in the global account.
 
 > ### Note:  
-> If you want to delete a formation, you need to unassign all systems and the subaccount in advance. To do that, first, you have to edit the formation in the *Formations* page, unassign the systems and the subaccount, and get back to the list of available formations. Then, for the formation you want to delete, choose *Actions* \> *Delete*.
+> When you delete a formation, several activities are performed at one go. First, the SAP solution systems are excluded from the formation. Then, the subaccount is unassigned. Finally, the formation is deleted from the formations list completely.
+> 
+> To restore a deleted formation, first you must create it anew, and then, include all of its systems again, one by one.
 
 
 
@@ -253,7 +252,7 @@ For systems of type SAP Commerce Cloud, SAP Cloud for Customer, and SAP Field Se
 
 ## Next Steps
 
-For the systems of type SAP S/4HANA Cloud, SAP Marketing Cloud, and SAP SuccessFactors and a formation using the Cloud Foundry, or Kyma environment, you need to continue with assigning the required entitlements and creating a service instance to be able to consume the respective APIs.
+For the systems of type SAP S/4HANA Cloud, SAP Marketing Cloud, and SAP SuccessFactors and a formation using the Cloud Foundry environment, or the Kyma environment, to be able to consume the respective APIs, you need to continue with assigning the required entitlements and creating a service instance.
 
 -   SAP S/4HANA Cloud, and SAP Marketing Cloud:
 

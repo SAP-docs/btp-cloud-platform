@@ -27,7 +27,10 @@ As a SAP BTP ABAP environment user, you might want to test your solution on a te
 1.  Once the test tenant and the initial tenant admin have been provisioned, the test tenant is added to the list of *Tenants* with *Lifecycle Status* "*Live*".
 2.  You can now click on the tenant's client number to open the test tenant.
 3.  Use the initial tenant admin's credentials to sign into the test tenant for the first time.
-4.  \(Optional\) To add new users to the tenant, use the *Maintain Employees*app.
+4.  \(Optional\) To add new users to the tenant, use the apps *Maintain Employees* and *Maintain Business Users*.
+
+> ### Note:  
+> Note that you cannot access a test tenant via ADT with a support user.
 
 
 

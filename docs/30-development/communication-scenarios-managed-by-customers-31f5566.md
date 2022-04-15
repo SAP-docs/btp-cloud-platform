@@ -61,8 +61,6 @@ To set up outbound communication between two communication partners, developers 
 
 
 
-Instead of using a communication arrangement for outbound communication, you can use the destination service to establish a connection. See [Usage of the Destination Service](usage-of-the-destination-service-40ecb5c.md).
-
 Alternatively, if you only want to call a remote web service, use the following method
 
 ```

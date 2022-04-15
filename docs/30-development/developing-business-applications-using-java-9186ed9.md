@@ -20,27 +20,45 @@ The following sections help you get started.
 
 -   [Stack Architecture](https://cap.cloud.sap/docs/java/architecture)
 
+-   [Services](https://cap.cloud.sap/docs/java/consumption-api)
+
 -   [Event Handlers](https://cap.cloud.sap/docs/java/provisioning-api)
 
 -   [Working with Data](https://cap.cloud.sap/docs/java/data)
 
--   [Introspecting CQN Queries](https://cap.cloud.sap/docs/java/query-introspection)
+-   [Building CDS QL Statements](https://cap.cloud.sap/docs/java/query-api)
 
--   [Building CQN Queries](https://cap.cloud.sap/docs/java/query-api)
+-   [Executing CDS QL Statements](https://cap.cloud.sap/docs/java/query-execution)
 
--   [Consuming Services](https://cap.cloud.sap/docs/java/consumption-api)
+-   [Introspecting CDS QL Statements](https://cap.cloud.sap/docs/java/query-introspection)
 
 -   [Working with CDS Models](https://cap.cloud.sap/docs/java/reflection-api)
 
+-   [Application Services](https://cap.cloud.sap/docs/java/application-services)
+
 -   [Fiori Drafts](https://cap.cloud.sap/docs/java/fiori-drafts)
 
+-   [Indicating Errors](https://cap.cloud.sap/docs/java/indicating-errors)
+
+-   [Request Contexts](https://cap.cloud.sap/docs/java/request-contexts)
+
+-   [ChangeSet Contexts](https://cap.cloud.sap/docs/java/changeset-contexts)
+
 -   [Security](https://cap.cloud.sap/docs/java/security)
+
+-   [Remote Services](https://cap.cloud.sap/docs/java/remote-services)
+
+-   [Messaging](https://cap.cloud.sap/docs/java/messaging-foundation)
 
 -   [Multitenancy](https://cap.cloud.sap/docs/java/multitenancy)
 
 -   [Advanced Concepts](https://cap.cloud.sap/docs/java/advanced)
 
+-   [Audit Logging](https://cap.cloud.sap/docs/java/auditlog/)
+
 -   [Development](https://cap.cloud.sap/docs/java/development)
+
+-   [Observability](https://cap.cloud.sap/docs/java/observability/)
 
 -   [Migration](https://cap.cloud.sap/docs/java/migration)
 

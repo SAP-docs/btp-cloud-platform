@@ -12,7 +12,7 @@ The default platform identity provider and application identity provider of SAP 
 
 To add users to a subaccount, they must exist in an identity provider. For more information about adding users to SAP ID service, see [Create SAP User Accounts](create-sap-user-accounts-ebe42f6.md).
 
-To add new users to a subscribed app, or to add users to a service, such as Web IDE, add those users to your subaccount. See [Add Users from SAP ID Service for Multi-Environment Subaccounts](add-users-from-sap-id-service-for-multi-environment-subaccounts-760ab77.md)
+To add new users to a subscribed app, or to add users to a service, such as Web IDE, add those users to your subaccount. See [Add Users from SAP ID Service for Multi-Environment Subaccounts](add-users-from-sap-id-service-for-multi-environment-subaccounts-760ab77.md).
 
 
 
@@ -23,6 +23,32 @@ To add new users to a subscribed app, or to add users to a service, such as Web 
 As a self-service, users can enable multifactor authentication for SAP ID service.
 
 For more information, see [How to Enable Multi-Factor Authentication \(MFA\)](https://support.sap.com/en/my-support/mfa.html) on the *SAP Support Portal*.
+
+> ### Note:  
+> Some user interfaces don't offer an interactive way to support multifactor authentication, such as time-based one time passwords \(TOTP\). Instead, such tools offer fixed logon ID and password fields. For such tools, enter your password directly followed, without any spaces or dividers, by the TOTP offered by your multifactor device.
+> 
+> <code>User ID: <b><i>MylogoniD</i></b></code>
+> 
+> <code>Password: <b><i>MystrongpassworDMytotppasscodE</i></b></code>
+> 
+> For some tools, this behavior affects log on to the tool itself:
+> 
+> -   Cloud Foundry command-line interface \(cf CLI\)
+> 
+>     Alternatively, you can log on through a browser instead. For more information, see [Log On Manually With a Custom Identity Provider](log-on-manually-with-a-custom-identity-provider-e1009b4.md).
+> 
+> -   SAP Business Technology Platform command-line interface \(btp CLI\)
+> 
+>     Alternatively, you can log on through a browser instead. For more information, see [Log In Through a Browser](log-in-through-a-browser-b2a56a8.md).
+> 
+> 
+> For other tools, this behavior doesn't affect log on to the tool itself, but log on to the platform when establishing connections or deploying software and such. For example:
+> 
+> -   Cloud Connector
+> 
+> -   SAP Business Application Studio
+> 
+> -   SAP Web IDE
 
 
 

@@ -135,7 +135,7 @@ Additionally, they are responsible for their pipeline \(e.g. automation of the b
 
 -   Developing SAP Fiori based UI in SAP Business Application Studio and deploying back to ABAP system. See [Develop an SAP Fiori Application UI and Deploy it to ABAP Using SAP Business Application Studio](develop-an-sap-fiori-application-ui-and-deploy-it-to-abap-using-sap-business-application-eaaeba4.md).
 
--   Supporting and troubleshooting customer issues via provider support access in the Landscape Portal. See [Landscape Portal](landscape-portal-5eb70fb.md).
+-   Supporting and troubleshooting customer issues via provider support access in the Landscape Portal. See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
 
 
 
@@ -229,7 +229,7 @@ The SaaS solution operator is responsible for creating the account model on the 
     -   Tester users in TST/QAS systems
 
 
--   Add-on update of existing systems in the Landscape Portal. See [Landscape Portal](landscape-portal-5eb70fb.md).
+-   Add-on update of existing systems in the Landscape Portal. See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
 
 -   Monitoring of system/tenant provisioning and user onboarding in Landscape Portal
 

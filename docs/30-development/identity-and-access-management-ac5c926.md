@@ -4,7 +4,9 @@
 
 Get an overview of the ABAP classes and methods you can use to access business roles and business users.
 
-The following classes and methods allow you to read, create and modify business roles and business users:
+The following classes and methods allow you to read, create and modify business roles and business users.
+
+These classes and methods can only be used if the authorizations are defined via standard IAM catalogs.
 
 <a name="loioac5c9267caed492094c43eb86bf76fbb__table_yk1_sqv_z4b"/>**Business Roles**
 

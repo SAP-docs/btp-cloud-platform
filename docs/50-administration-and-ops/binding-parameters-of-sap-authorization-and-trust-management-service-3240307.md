@@ -32,3 +32,5 @@ Set parameters according to the following use cases:
 
 [Trusted Certificate Authorities for X.509 Secrets](trusted-certificate-authorities-for-x-509-secrets-edd5613.md "Service instances of the SAP Authorization and Trust Management service (XSUAA) trust the following certificate authorities (CA). To use your own public key infrastructure (PKI) for bindings, the certificates must be issued from one of these CAs.")
 
+[Limitations on Bindings and Service Keys](../60-security/limitations-on-bindings-and-service-keys-6d3ef52.md "To preserve the stability of the SAP Authorization and Trust Management service, we allow a maximum of 1000 bindings and service keys in total per service instance. The service rejects attempts to add more bindings or service keys.")
+

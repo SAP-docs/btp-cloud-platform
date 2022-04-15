@@ -8,7 +8,7 @@
 
 <a name="loio1731f982edd24c669133255384bf45f9__section_edc_y4n_mrb"/>
 
-## SAP BTP ABAP Environment Users
+## SAP BTP, ABAP environment Users
 
 In the ABAP environment, there are different types of users such as business users, communication users, and support users.
 
@@ -38,7 +38,7 @@ In the ABAP environment, there are different types of users such as business use
 </td>
 <td valign="top">
 
-**Support User**
+**SAP Support User**
 
 
 
@@ -226,14 +226,14 @@ CC\*
 </tr>
 </table>
 
-**Business users** are customer-owned end users that use SAP Fiori applications as well as applications and services in SAP BTP, such as SAP Business Application Studio. They are authorized by being assigned a specific business role. See [Create Business User](create-business-user-ef52a68.md).
+**Business users** are customer-owned end users that use SAP Fiori applications as well as applications and services in SAP BTP, such as SAP Business Application Studio. They are authorized by being assigned a specific business role. See [User Provisioning](user-provisioning-ef52a68.md).
 
 > ### Note:  
 > Developers using ABAP Development Tools are also considered business users.
 
-**Communication users** are customer-owned technical users that are assigned to a communication system to enable integration with other solutions. For authentication, they can either be assigned a password or X.509 certificate. See [Communication User](communication-user-09a1ee0.md) and [Maintain Communication Users](../50-administration-and-ops/maintain-communication-users-eef80dd.md).
+**Communication users** are customer-owned technical users that are assigned to a communication system to enable integration with other solutions. For authentication, they can either be assigned a password or X.509 client certificate. See [Communication User](communication-user-09a1ee0.md) and [Maintain Communication Users](../50-administration-and-ops/maintain-communication-users-eef80dd.md).
 
-**Support users** are SAP-owned technical uses that can access customer systems. See [SAP Support User Request Log](../50-administration-and-ops/sap-support-user-request-log-934a027.md).
+**Support users** are SAP-owned technical users that can access customer systems. See [SAP Support User Request Log](../50-administration-and-ops/sap-support-user-request-log-934a027.md).
 
 
 
@@ -243,7 +243,7 @@ CC\*
 
 In SAP BTP, there are platform and business users.
 
-**Platform users** are usually developers who operate in the SAP BTP cockpit by deploying, administering, and troubleshooting applications and services. They are authorized by using role collections.
+**Platform users** are usually developers who operate in the SAP BTP cockpit by deploying, administering, and troubleshooting applications and services. They are authorized by using role collections. Platform users can also be added as space members, such as space developers, in the Cloud Foundry space.
 
 **Business users** use the applications that are deployed to SAP BTP.
 

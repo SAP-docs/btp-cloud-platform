@@ -26,7 +26,7 @@ As an administrator, you must perform several steps to set up a fully operationa
 2.  Assign the roles to users to allow the administrators to manage Kyma and the developers to create Functions: [Assign Roles in the Kyma Environment](../50-administration-and-ops/assign-roles-in-the-kyma-environment-148ae38.md)
 
     > ### Note:  
-    > Assign the roles before the users start using the Kyma Console/Dashboard. Not granting the roles results in an error.
+    > Assign the roles before the users start using the Kyma Dashboard. Not granting the roles results in an error.
 
 3.  Use the Kyma environment to integrate external systems: [Register an SAP Customer Experience System](../40-extensions/register-an-sap-customer-experience-system-1582d72.md)
 
@@ -58,5 +58,5 @@ You have set up the Kyma environment and connected it as required.
 
 ## Next Steps
 
-Once the administrator sets up the environment, the developers can access the Kyma environment through the Kyma Console/Dashboard. Upon logging, developers can start creating extensions for the SAP systems either from the Kyma Console/Dashboard or from the terminal after downloading the kubeconfig file with the cluster configuration. For details, see [Development in the Kyma Environment](../30-development/development-in-the-kyma-environment-606ec61.md).
+Once the administrator sets up the environment, the developers can access the Kyma environment through the Kyma Dashboard. Upon logging, developers can start creating extensions for the SAP systems either from the Kyma Dashboard or from the terminal after downloading the kubeconfig file with the cluster configuration. For details, see [Development in the Kyma Environment](../30-development/development-in-the-kyma-environment-606ec61.md).
 

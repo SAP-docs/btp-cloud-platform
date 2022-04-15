@@ -16,7 +16,7 @@ In the SAP BTP cockpit, you have assigned the `messaging` SAP S/4HANA Cloud serv
 
 ## Context
 
-To configure the connectivity between an SAP S/4HANA Cloud tenant and Event Mesh and to enable the exchange of credentials between the two systems, you first need to create an SAP S/4HANA Cloud Extensibility service instance with `messaging` service plan in the Kyma Console/Dashboard. For more information about the `messaging` service plan, see [Supported Service Plans for SAP S/4HANA Cloud](supported-service-plans-for-sap-s-4hana-cloud-925c00a.md).
+To configure the connectivity between an SAP S/4HANA Cloud tenant and Event Mesh and to enable the exchange of credentials between the two systems, you first need to create an SAP S/4HANA Cloud Extensibility service instance with `messaging` service plan in the Kyma Dashboard. For more information about the `messaging` service plan, see [Supported Service Plans for SAP S/4HANA Cloud](supported-service-plans-for-sap-s-4hana-cloud-925c00a.md).
 
 When creating this service instance, you create the required configurations in both the SAP S/4HANA Cloud tenant and the Event Mesh system associated with the subaccount in SAP BTP, so that the events can flow from one system to the other.
 
@@ -28,7 +28,7 @@ When creating this service instance, you create the required configurations in b
 
 1.  In the SAP BTP cockpit, navigate to the subaccount for which you want to create an SAP S/4HANA Cloud Extensibility service instance.
 
-2.  On the subaccount *Overview* page in the *Kyma Environment* section, open the Kyma Console/Dashboard.
+2.  On the subaccount *Overview* page in the *Kyma Environment* section, open the Kyma Dashboard.
 
 3.  Navigate to the *default* namespace from the drop-down list in the top navigation.
 
@@ -50,7 +50,7 @@ When creating this service instance, you create the required configurations in b
 
     -   Select *Create*.
 
-        Once the service instance is provisioned, you can see it under *Service Management* \> *Instances* in the left-hand side navigation of the Kyma Console/Dashboard.
+        Once the service instance is provisioned, you can see it under *Service Management* \> *Instances* in the left-hand side navigation of the Kyma Dashboard.
 
 
 
@@ -60,5 +60,5 @@ When creating this service instance, you create the required configurations in b
 
 ## Next Steps
 
-After creating the SAP S/4HANA Cloud Extensibility service instance with the `messaging` plan, a respective messaging client is created for you in the `sap/S4HANAOD/{emClientId}` namespace of the Event Mesh service. As the next step, you must relate the two clients \(SAP S/4HANA Cloud Extensibility and Event Mesh\) in the Kyma Console/Dashboard. To do this, create an instance of the Event Mesh service with the details of the automatically created Event Mesh namespace. Follow the steps in [Create an SAP Event Mesh Service Instance in the Kyma Environment](create-an-sap-event-mesh-service-instance-in-the-kyma-environment-3de02d2.md).
+After creating the SAP S/4HANA Cloud Extensibility service instance with the `messaging` plan, a respective messaging client is created for you in the `sap/S4HANAOD/{emClientId}` namespace of the Event Mesh service. As the next step, you must relate the two clients \(SAP S/4HANA Cloud Extensibility and Event Mesh\) in the Kyma Dashboard. To do this, create an instance of the Event Mesh service with the details of the automatically created Event Mesh namespace. Follow the steps in [Create an SAP Event Mesh Service Instance in the Kyma Environment](create-an-sap-event-mesh-service-instance-in-the-kyma-environment-3de02d2.md).
 

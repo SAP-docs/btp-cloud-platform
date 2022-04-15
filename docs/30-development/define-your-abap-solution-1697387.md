@@ -551,6 +551,45 @@ Follow these steps to define your ABAP Solution.
     
     </td>
     </tr>
+    <tr>
+    <td valign="top">
+
+    abap\_endpoint\_timeout
+
+    \(optional\)
+
+
+    
+    </td>
+    <td valign="top">
+
+    Positive integer \(in milliseconds\) or null
+
+
+    
+    </td>
+    <td valign="top">
+
+    Timeout for requests issued by approuter to ABAP backend
+
+
+    
+    </td>
+    <td valign="top">
+
+    Used to set timeout for requests sent to ABAP backend
+
+
+    
+    </td>
+    <td valign="top">
+
+    Yes
+
+
+    
+    </td>
+    </tr>
     </table>
     
 2.  Create an ABAP Solution instance:

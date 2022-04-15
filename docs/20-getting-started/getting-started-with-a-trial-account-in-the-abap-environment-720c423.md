@@ -14,7 +14,7 @@ Quickly get started with a trial account.
 
 ![](images/Trial_1-Getting_a_Global_Account_0f1ece7.png)
 
--   [Get a Trial Account](getting-a-global-account-d61c281.md#loio42e7e54590424e65969fced1acd47694)
+-   [Try Out SAP BTP for Free](getting-a-global-account-d61c281.md#loio42e7e54590424e65969fced1acd47694)
 -   [Trial Accounts and Free Tier](../10-concepts/trial-accounts-and-free-tier-046f127.md)
 
 Before you begin, sign up for a free trial account. See [Get a Free Trial Account](getting-a-global-account-d61c281.md#loio42e7e54590424e65969fced1acd47694). For more information about trial accounts, see [Trial Accounts and Free Tier](../10-concepts/trial-accounts-and-free-tier-046f127.md).

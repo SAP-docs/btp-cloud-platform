@@ -2,7 +2,7 @@
 
 # \(Optional\) Add your SAP JVM to the VM Explorer
 
-You can add your SAP JVM to the *VM Explorer* view of the SAP JVM Profiler.
+You can add your SAP JVM to the *VM Explorer* view of the **SAP JVM Profiler**.
 
 
 
@@ -21,7 +21,7 @@ You can add your SAP JVM to the *VM Explorer* view of the SAP JVM Profiler.
 
 ## Context
 
-From the *VM Explorer,* you can debug, monitor or profile your SAP JVM. For more information about the *VM Explorer*, see the SAP JVM Profiler documentation in Eclipse. Go to *Help* \> *Help Contents* \> *SAP JVM Profiler*.
+From the *VM Explorer,* you can debug, monitor or profile your SAP JVM. For more information about the *VM Explorer*, see the *SAP JVM Profiler* documentation in the Eclipse Help.
 
 > ### Note:  
 > You need to use the **jvmmond** tool, which is included in the SAP Java Buildpack.
@@ -36,7 +36,7 @@ From the *VM Explorer,* you can debug, monitor or profile your SAP JVM. For more
     cf ssh app name -c "app/META-INF/.sap_java_buildpack/sapjvm/bin/jvmmond -port 50003 -J-Dcom.sap.jvm.tools.portRange=50004-50005 -J-Djava.rmi.server.hostname=127.0.0.1"
     ```
 
-    This starts the `jvmmond` service on your Cloud Foundry container. It is listening to port 50003. This command also specifies a port range of 50004-50005 in case additional ports need to be opened.
+    This starts the `jvmmond` service on your Cloud Foundry container. It is listening to port *50003*. This command also specifies a port range of 50004-50005 in case additional ports need to be opened.
 
 2.  To enable an SSH tunnel for these ports, execute:
 

@@ -24,7 +24,7 @@ You can use existing role templates to create new roles. A SAP BTP cockpit wizar
 
     Here you see a complete list of all existing roles sorted by application name. It also contains the role template, role names, and role description. On the right side, you find the action buttons.
 
-5.  Choose *Add Using Same Role Template* in the row of the role template that you want to use.
+5.  Choose *Create Role* in the row of the role template that you want to use.
 
     The *Create Role* wizard opens.
 

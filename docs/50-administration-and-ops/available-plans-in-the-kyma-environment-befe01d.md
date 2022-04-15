@@ -260,7 +260,7 @@ Look up the technical cluster region names at [Regions for the Kyma Environment]
 
 <a name="loiobefe01d5d8864e59bf847fa5a5f3d669__section_y4g_qld_hpb"/>
 
-## Enterprise \(AWS, GCP, Azure, Azure Lite\)
+## Enterprise \(AWS, GCP, Azure\)
 
 <a name="loiobefe01d5d8864e59bf847fa5a5f3d669__table_z4g_qld_hpb"/>Enterprise Plan Specification
 
@@ -325,7 +325,6 @@ The plan assigned to your subaccount.
 -   ***aws***
 -   ***gcp***
 -   ***azure***
--   ***azure\_lite***
 
 
 
@@ -387,14 +386,13 @@ Defines a region \(set of datacenters\) where your cluster will run.
 -   AWS: `eu-central-1`
 -   GCP: `europe-west3`
 -   Azure: `eastus`
--   Azure Lite: `eastus`
 
 
 
 </td>
 <td valign="top">
 
-Look up the technical cluster region names at [Regions for the Kyma Environment](../10-concepts/regions-for-the-kyma-environment-557ec3a.md)
+Look up the technical cluster region names at [Regions for the Kyma Environment](../10-concepts/regions-for-the-kyma-environment-557ec3a.md).
 
 
 
@@ -427,7 +425,6 @@ Specifies the provider-specific virtual machine type. For details, see:
 -   AWS: `m5.2xlarge`
 -   GCP: `n2-standard-8`
 -   Azure: `Standard_D8_v3`
--   Azure Lite: `Standard_D4_v3`
 
 
 
@@ -508,6 +505,242 @@ Number between 2 and 40, but smaller or equal to *autoScalerMin*.
 
 > ### Note:  
 > You can configure *Auto Scaler Min* and *Auto Scaler Max* during both provisioning and update operations.
+
+
+
+<a name="loiobefe01d5d8864e59bf847fa5a5f3d669__section_vbl_4w4_wsb"/>
+
+## Partner Test, Demo, and Development \(Azure Lite\)
+
+<a name="loiobefe01d5d8864e59bf847fa5a5f3d669__table_wbl_4w4_wsb"/>Partner Test, Demo, and Development Plan Specification
+
+
+<table>
+<tr>
+<th valign="top">
+
+Field
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+<th valign="top">
+
+Default Value
+
+
+
+</th>
+<th valign="top">
+
+Allowed Input
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+*Plan*
+
+btp CLI parameter: `plan`
+
+
+
+</td>
+<td valign="top">
+
+Defines the plan you can use in your subaccount.
+
+
+
+</td>
+<td valign="top">
+
+The plan assigned to your subaccount.
+
+
+
+</td>
+<td valign="top">
+
+***azure\_lite***
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Cluster Name*
+
+btp CLI parameter: `name`
+
+
+
+</td>
+<td valign="top">
+
+Defines the name of your cluster.
+
+
+
+</td>
+<td valign="top">
+
+n/a
+
+
+
+</td>
+<td valign="top">
+
+Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0-9\), periods, underscores, and hyphens.
+
+It can't contain white spaces.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Region*
+
+btp CLI parameter: `region`
+
+
+
+</td>
+<td valign="top">
+
+Defines a region \(set of datacenters\) where your cluster will run.
+
+
+
+</td>
+<td valign="top">
+
+`eastus`
+
+
+
+</td>
+<td valign="top">
+
+Look up the technical cluster region names at [Regions for the Kyma Environment](../10-concepts/regions-for-the-kyma-environment-557ec3a.md) \(only Azure regions available\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Machine Type*
+
+btp CLI parameter: `machineType`
+
+
+
+</td>
+<td valign="top">
+
+Specifies the provider-specific virtual machine type. For details, see [Azure docs](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-sizes-specs#dv3-series).
+
+
+
+</td>
+<td valign="top">
+
+`Standard_D4_v3`
+
+
+
+</td>
+<td valign="top">
+
+`Standard_D4_v3`
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Auto Scaler Min*
+
+btp CLI parameter: `autoScalerMin`
+
+
+
+</td>
+<td valign="top">
+
+Specifies the minimum number of virtual machines to create.
+
+
+
+</td>
+<td valign="top">
+
+`2`
+
+
+
+</td>
+<td valign="top">
+
+Number between 2 and 40, but smaller or equal to *autoScalerMax*.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Auto Scaler Max*
+
+btp CLI parameter: `autoScalerMax`
+
+
+
+</td>
+<td valign="top">
+
+Specifies the maximum number of virtual machines to create.
+
+
+
+</td>
+<td valign="top">
+
+`10`
+
+
+
+</td>
+<td valign="top">
+
+Number between 2 and 40, but smaller or equal to *autoScalerMin*.
+
+
+
+</td>
+</tr>
+</table>
 
 **Related Information**  
 

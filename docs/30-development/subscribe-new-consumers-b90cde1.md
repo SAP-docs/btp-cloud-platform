@@ -30,14 +30,14 @@
 
 3.  Follow the instructions in [Subscribe to Multitenant Applications Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7a3e39622be14413b2a4df7c02ca1170.html) to subscribe consumers.
 
-    If this is the first subscription, a new system will be created and a new consumer tenant will be created for this consumer. If the system was already provisioned \(i.e., if this is not the first subscription\), a new tenant in the system already provisioned will be created. The business type of the tenant depends on the solution usage. In case of a "prod" usage, a tenant of business type "Partner Customer Productive Tenant" will be created. In case of the "test" usage, a tenant of business type "Partner Customer Test Tenant" will be created. For more information on the solution usage, see [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
+    If this is the first subscription, a new system will be created and a new consumer tenant will be created for this consumer. If the system was already provisioned \(i.e., if this is not the first subscription\), a new tenant in the system already provisioned will be created. The business type of the tenant depends on the usage parameter configured for the ABAP Solution service. In case of a "prod" usage, a tenant of business type "Partner Customer Productive Tenant" will be created. In case of the "test" usage, a tenant of business type "Partner Customer Test Tenant" will be created. For more information on the solution usage, see [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
 
 4.  Prepare the initial access: Before the consumer can log in, they need to be assigned the onboarding role \("SolutionAdmin"\) for the initial onboarding.
 
     > ### Note:  
-    > If you're using the tenant host pattern for the development phase, you need to first create the route in the provider subaccount before you can log in. In the production phase, the link to the application will only work if you have defined a route with wildcard hostname \(and custom domain\) for the approuter.
+    > If you're using the tenant host pattern for the development phase, you need to first create the route in the provider subaccount before you can log in. In the production phase, the link to the application will work if you have defined a route with wildcard hostname \(and custom domain\) for the approuter, so that routes do not need to be created manually for each new subscription..
 
-    1.  Log into the subaccount and navigate to *Security* \> *Role Collection*.
+    1.  Log into the subaccount and navigate to *Security* \> *Role Collections*.
     2.  Click on the role collection you defined in the chapter [Create an XSUAA Instance](create-an-xsuaa-instance-2ce1a96.md). Then click *Edit*, scroll down to *Users* and click *+*. Enter the email address of the initial consumer, select SAP ID Service as Identity Provider or use your preferred consumer IDP, and save your changes.
 
 5.  Supply your consumer with their consumer-specific URL so that they can access the application.

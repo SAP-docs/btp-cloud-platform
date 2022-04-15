@@ -24,7 +24,93 @@ After the multitenant application has been deployed for production purposes, the
 
 -   To configure the sizing of a SaaS solution, you have to determine the expected load per region by using the Technical Monitoring Cockpit. See [Technical Monitoring Cockpit \(Cloud Version\)](https://help.sap.com/viewer/tmc_cloud/eb867c69739a4cf3be6361d3990d26a2.html).
 -   To implement and deploy a multitenant application for a SaaS solution, you have to assign the necessary entitlements in the provider subaccount, for example for the ABAP Solution service. See [Developing Multitenant Applications in the ABAP Environment](developing-multitenant-applications-in-the-abap-environment-195031f.md) and [Entitlements and Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00aa2c23479d42568b18882b1ca90d79.html).
--   To subscribe to the Landscape Portal application, you need the corresponding entitlement. See [Landscape Portal](landscape-portal-5eb70fb.md).
+-   To subscribe to the Landscape Portal application, you need the corresponding entitlement. See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
+
+ <a name="loio1782f253e102484dac378887b3d6d769"/>
+
+<!-- loio1782f253e102484dac378887b3d6d769 -->
+
+### Sizing
+
+The sizing of the SaaS application determines the scope and metric of your offering.
+
+For multitenancy offerings, there’s no sizing/quota per customer. You must decide on an overall sizing depending on the expected load in a region. Sizing can be configured via parameters in the ABAP Solution service, that is managing systems and tenants for systems used to provide the SaaS application.
+
+ <a name="loio6cb128101a6f40f3a8f234a1d9bb8b01"/>
+
+<!-- loio6cb128101a6f40f3a8f234a1d9bb8b01 -->
+
+#### Multitenancy
+
+As a DevOps engineer using parameter `tenant_mode` in the ABAP Solution service, you can define whether a customer gets a tenant in a dedicated system \(single\) or a shared system \(multi\). See [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
+
+> ### Tip:  
+> For in-depth information about multitenancy, check out [Multitenancy](concepts-9482e7e.md#loioc8730736a52645b49ca76c08214bf181).
+
+ <a name="loiobb8bc1e3c99145c79106ecafc73f5a4f"/>
+
+<!-- loiobb8bc1e3c99145c79106ecafc73f5a4f -->
+
+#### Runtime and Persistence
+
+Parameters `size_of_runtime` and `size_of_persistence` are used to determine the number of ABAP compute units and HANA compute units for the creation of an ABAP system.
+
+For systems and tenants created automatically by the ABAP Solution service, the following parameters can be used to determine the sizing of runtime and persistence:
+
+
+<table>
+<tr>
+<td valign="top">
+
+`size_of_runtime`
+
+
+
+</td>
+<td valign="top">
+
+Default sizing for solution
+
+
+
+</td>
+<td valign="top">
+
+Parameter `size_of_runtime` is part of the quota plan `abap/abap_compute_unit`. See [Creating an ABAP System](../20-getting-started/creating-an-abap-system-50b32f1.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`size_of_persistence`
+
+
+
+</td>
+<td valign="top">
+
+Default sizing for solution
+
+
+
+</td>
+<td valign="top">
+
+Parameter `size_of_persistence` is part of the quota plan `abap/hana_compute_unit`. See [Creating an ABAP System](../20-getting-started/creating-an-abap-system-50b32f1.md).
+
+
+
+</td>
+</tr>
+</table>
+
+See [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
+
+> ### Note:  
+> If the quota for a system is exceeded, you can request a resizing of the ABAP runtime or persistency depending on the needs of the SaaS application.
 
  <a name="loiof3305f65648248318028e02c84375323"/>
 
@@ -60,7 +146,7 @@ For more information on how to create multitenant-enabled applications in the AB
 
 
 > ### Note:  
-> If you need support or experience issues during implementation of the multitenant application, see [Troubleshooting](troubleshooting-3687b52.md).
+> If you need support or experience issues during implementation of the multitenant application, see [Troubleshoot and Debug](maintain-monitor-support-5d25603.md#loio3687b52c5d3349f7956e93bf2f807e6c).
 
 **Deploy Multitenant Application**
 
@@ -112,7 +198,7 @@ By using MTA extension descriptors, you can configure the required values for de
 
 ### Access to Landscape Portal
 
-The *Landscape Portal* acts as a central tool that allows you to perform lifecycle management operations, such as provisioning new consumers tenants, users, and more. See [Landscape Portal](landscape-portal-5eb70fb.md).
+The *Landscape Portal* acts as a central tool that allows you to perform lifecycle management operations, such as provisioning new consumers tenants, users, and more. See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
 
 As an operator, subscribe to the *Landscape Portal* application in the *05 Provide* subaccount in both the global account for development and global account for production. The `LandscapePortalAdminRoleCollection` needs to be assigned to the users in the configured default identity provider of the subaccount that you want to provide access to the *Landscape Portal* app. See [Accessing the Landscape Portal](accessing-the-landscape-portal-2e1e393.md).
 
@@ -243,7 +329,7 @@ In both cases, you, as a SaaS solution operator, receive a confirmation mail.
 
 As an operator user assigned to the role collection `LandscapePortalAdminRoleCollection`, you can access the systems overview of the *Landscape Portal* and check both provisioned systems and new tenants.
 
-See [Landscape Portal](landscape-portal-5eb70fb.md).
+See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
 
 **Assign `SolutionAdmin` role**
 

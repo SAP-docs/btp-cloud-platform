@@ -40,6 +40,14 @@ When deploying applications, consider that a subaccount is associated with a par
 
 To deploy an application in more than one region, execute the deployment separately for each host. For more information, see [Deploy an Application](../50-administration-and-ops/deploy-an-application-09fdb9b.md).
 
+Within a region, there can be multiple instances of the SAP BTP, Cloud Foundry environment. When creating a global account, SAP BTP automatically assigns the account to a specific instance of the environment. This also affects the format of the API endpoint URL that is displayed in the cockpit after enabling Cloud Foundry in your subaccount. For information on enabling Cloud Foundry, see [Create Orgs](../50-administration-and-ops/create-orgs-a9b1f54.md). There are two possible formats for the API endpoint URL, either displayed with or without an index. Here's an example for **eu10**:
+
+> ### Example:  
+> -   https://api.cf.eu10.hana.ondemand.com
+> -   https://api.cf.eu10-<XXX\>.hana.ondemand.com
+
+In both cases, the subaccount is located in the region eu10. The differences in the URLs are only an indicator of technical details on the side of SAP BTP and do not affect the functionality of your applications.
+
 
 
 <a name="loio350356d1dc314d3199dca15bd2ab9b0e__section_thb_cvf_wrb"/>

@@ -2,25 +2,23 @@
 
 # Troubleshooting
 
-
-
-<a name="loio60e8f54fe40147249ce8c067948abb11__section_uzd_yg2_trb"/>
-
-## Multitenant Application / ABAP Solution Provider \(ASP\)
+Find out which steps you can take to identify and resolve specific issues that may come up when developing a multitenant application.
 
 
 
-### SaaS subscription error
+<a name="loio60e8f54fe40147249ce8c067948abb11__section_efb_jnn_ysb"/>
+
+## SaaS subscription error
 
 -   The *Landscape Portal* subscription might be missing. Make sure the *Landscape Portal* is subscribed to in the provider subaccount. This needs to be done before the SaaS subscription.
 
--   The ASP\_CC \(CF Cloud Controller\) destination might have failed: An ASP\_CC destination with the correct credentials/URLs must exist in the provider subaccount. You can use a connection check in the destination for a basic connectivity test. Make sure the following is the case:
+-   The ASP\_CC \(CF Cloud Controller\) destination might have failed: An ASP\_CC destination with the correct credentials/URLs must exist in the provider subaccount \(see [Create a Destination for the Cloud Foundry Cloud Controller Access](create-a-destination-for-the-cloud-foundry-cloud-controller-access-35b5acb.md)\). You can use a connection check in the destination for a basic connectivity test. You can also test if the user that was used in the ASP\_CC destination is able to authenticate with the following cf command: cf login -a <cf-api-endpoint e.g. https://api.cf.eu10.hana.ondemand.com\> -u <destination-user-name\> -p <password\> -s <provider-space\> -o <provider-org\>. Make sure the following is the case:
 
-    -   You have the credentials you require \(space developer user\).
+    -   You have the credentials you require \(space developer user\). This user is a CF Platform User, i.e. it is either an S-User or a P-User, usually created using a distribution list so that it is a non-personalized e-mail address. A technical communication user that can also be created similar to normal S-Users cannot be used here.
 
     -   You are using the correct URL: the URL needs to be the same as the CF API URL in the provider subaccount, depending on the region, see [Region](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/350356d1dc314d3199dca15bd2ab9b0e.html?locale=en-US&version=Cloud#loio879f37370d9b45e99a16538e0f37ff2c).
 
-    -   You are using the right UAA Token Service URL for the region, see [Region](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/350356d1dc314d3199dca15bd2ab9b0e.html?locale=en-US&version=Cloud#loio879f37370d9b45e99a16538e0f37ff2c).
+    -   You are using the right Token Service URL for the region.
 
     -   You are using a technical user as recommended, not a personal user. Personal user accounts can cause issues due to password changes etc.
 
@@ -49,7 +47,9 @@
 
 
 
-### Cannot delete ABAP service instance
+<a name="loio60e8f54fe40147249ce8c067948abb11__section_l5t_lnn_ysb"/>
+
+## Cannot delete ABAP service instance
 
 -   If you cannot delete an ABAP service instance, the ABAP service instance might still contain *Partner Test*, *Partner Customer Test*, or *Partner Customer Production* tenants. Make sure you delete these tenants first by unsubscribing from them \(for tenants created via consumer subscription\) or deleting the tenants in the *Landscape Portal*\(for test tenants created directly in the *Landscape Portal*\).
 
@@ -58,7 +58,9 @@
 
 
 
-### Multitenant application cannot be undeployed
+<a name="loio60e8f54fe40147249ce8c067948abb11__section_q4v_pnn_ysb"/>
+
+## Multitenant application cannot be undeployed
 
 -   Always use MTA Undeployment \(cf undeploy <MTA ID\> --delete-services\) instead of deleting service instances individually.
 
@@ -67,7 +69,9 @@
 
 
 
-### Cannot create consumer-specific route according to `TENANT_HOST_PATTERN` \(in the development phase\)
+<a name="loio60e8f54fe40147249ce8c067948abb11__section_qfm_snn_ysb"/>
+
+## Cannot create consumer-specific route according to `TENANT_HOST_PATTERN` \(in the development phase\)
 
 > ### Sample Code:  
 > ```
@@ -87,48 +91,30 @@
 
 
 
-### After deployment of MTA for multitenant application, no abap system is created
+<a name="loio60e8f54fe40147249ce8c067948abb11__section_bzz_5nn_ysb"/>
+
+## After deployment of MTA for multitenant application, no abap system is created
 
 -   ABAP systems are automatically created by the ABAP Solution Provider \(ASP\) during the first subscription.
 
 
 
 
-### Issues with parameter consumer\_tenant\_limit
+<a name="loio60e8f54fe40147249ce8c067948abb11__section_kxc_wnn_ysb"/>
+
+## Issues with parameter consumer\_tenant\_limit
 
 -   Keep in mind that recently deleted consumer tenants are counted towards the tenant limit. Systems are automatically created.
 
 
 
 
-### First consumer tenant is missing application content after subscription
+<a name="loio60e8f54fe40147249ce8c067948abb11__section_z3g_xnn_ysb"/>
+
+## First consumer tenant is missing application content after subscription
 
 -   Only in case of delivery via add-on, the application content is installed before the consumer tenant is accessible. In case of delivery via gCTS, the software components need to be imported manually using the *Manage Software Components* app in client 100 of the system.
 
 
-
-
-<a name="loio60e8f54fe40147249ce8c067948abb11__section_bpt_nh2_trb"/>
-
-## Landscape Portal
-
-
-
-### *Add-on Update* button is not enabled
-
--   Check if you have the necessary role collection assigned to your user. This feature requires role collection “LandscapePortalAdminRoleCollection”.
-
--   To use this feature, an add-on product needs to be installed. Make sure the add-on product is shown in the *Software* section of the system.
-
--   Make sure there are no ongoing add-on update processes.
-
-
-
-
-### Version number does not change after add-on update
-
--   If the version number does not change after an add-on update, a new add-on version might have already been installed in the system.
-
--   The software component version may already be installed in the system or the add-on configuration might not match the required settings. Please see [Add-on descriptor file.](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#add-on-descriptor-file) 
 
 

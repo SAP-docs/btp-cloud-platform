@@ -15,14 +15,16 @@ The ABAP environment enables you to **expose**:
 -   OData services. See [ABAP RESTful Application Programming Model](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/289477a81eec4d4e84c0302fb6835035.html).
 
 -   HTTP services. See [Working with the HTTP Service Editor](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/494a02697388437aa71067dd95b2c561.html).
+-   SQL services. See [Consumption of the SQL Service and the ODBC Driver for ABAP](consumption-of-the-sql-service-and-the-odbc-driver-for-abap-6ac9ec8.md).
+-   RFC function modules. See [Service Consumption Model as RFC Consumer](service-consumption-model-as-rfc-consumer-a69e99c.md).
 
 With your ABAP applications, you can **consume**:
 
 -   HTTP services \(HTTP client\).
 
 -   OData services \(service consumption model\). See [Developing a UI Service with Access to a Remote Service](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/f4969e551d3049c59715210cbeb4ef56.html).
--   Remote Function Calls \(RFC\) via Cloud Connector. See [Integrating On-Premise Systems](integrating-on-premise-systems-c95327f.md).
--   External services. See [Create a Destination](create-a-destination-3fa7934.md).
+-   Remote Function Calls \(RFC\). See [Integrating On-Premise Systems](integrating-on-premise-systems-c95327f.md).
+-   External services. See [Developing and Exposing an SQL Service in the ABAP System](developing-and-exposing-an-sql-service-in-the-abap-system-76eeb8d.md).
 
 
 

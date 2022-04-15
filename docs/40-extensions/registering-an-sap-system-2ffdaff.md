@@ -2,7 +2,7 @@
 
 # Registering an SAP System
 
-To connect an SAP solution system with a global account in SAP BTP, you first need to register the system.
+To connect an SAP system with a global account in SAP BTP, you first need to register the system.
 
 
 
@@ -21,7 +21,7 @@ You are a global account administrator, or you are a system landscape administra
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
-The registration process is based on an integration token that is used for the pairing of the system and the corresponding global account. You create the token in the SAP BTP cockpit, and then use it to configure the integration on the corresponding SAP solution side.
+The registration process is based on a registration token that is used for the pairing of the system and the corresponding global account. You get the token in the SAP BTP cockpit, and then use it to configure the integration on the corresponding SAP solution side.
 
 The following SAP system types are supported:
 
@@ -40,10 +40,38 @@ The following SAP system types are supported:
 
 The registration process has the following states displayed in the cockpit:
 
--   *Pending* - the integration token for an SAP system has been created but the registration on the respective SAP solution system side has not been performed or completed.
+-   No status displayed in the *Status* column - the registration token for an SAP system has been created but the registration on the respective SAP system side has not been performed or completed yet.
 
--   *Registered* - the integration token has been used and the automated registration process has been successfully completed. The system can be assigned to a formation on the *Formations* page in the cockpit.
--   *Error* - the registration has failed.
+-   *Registered* - the registration token has been used and the automated registration process has been successfully completed. The system can be assigned to a formation on the *Formations* page in the cockpit.
+-   *Error while Registering* - the registration has failed.
+-   *Deregistering* - a deregistration process has started. As a result, the connectivity between the SAP system and SAP BTP is disabled and extension scenarios cannot be established. The system remains in the system landscape list and you can register it again later on.
+
+    Once a system is registered, you can deregister it only after removing it from all entitlement configurations and formations it takes part in.
+
+-   *Error while Deregistering* - the deregistration has failed. If the problem persists, you have to report an incident.
+-   *Removing* - a system removal process has started in the SAP BTP cockpit. As a result, the SAP system is deregistered, and then, it is removed from the system landscape list completely. To register the system again, first, you must add it to the list anew, and then, initiate the registration procedure.
+
+    Once a system is registered, you can only remove it if you first deregister it.
+
+-   *Error while Removing* - the system removal has failed.
+
+> ### Note:  
+> You will not be able to deregister or remove a system if its status is one of the following:
+> 
+> -   *Error while Removing*
+> 
+> -   *Error while Registering*
+> 
+> -   *Error while Deregistering*
+
+If the registration, deregistration, or removal errors persist, report an incident in one of the following components depending on the system type:
+
+-   SAP SuccessFactors - `BC-NEO-EXT-SF`
+
+-   SAP S/4HANA Cloud - `BC-NEO-EXT-S4C`
+
+-   All other system types - `BC-CP-MP`
+
 
 > ### Note:  
 > When registering a system or creating a formation, the data you provide in the given input fields is not encrypted with your customer managed key. The data you enter is only encrypted at rest.
@@ -52,11 +80,11 @@ The registration process has the following states displayed in the cockpit:
 
 ## Procedure
 
-1.  In the cockpit, navigate to your global account, and then choose *System Landscape* \> *Systems* from the left hand-side navigation.
+1.  In the cockpit, navigate to your global account, and then choose *System Landscape* \> *Systems* .
 
-2.  In the *Systems* panel, choose *Register System*.
+2.  On the *Systems* page, choose *Add System*.
 
-3.  In the *Register System* dialog box:
+3.  In the *Add System* wizard:
 
     1.  Enter a name for the system you want to register.
 
@@ -68,7 +96,15 @@ The registration process has the following states displayed in the cockpit:
 
     2.  In the *Type* dropdown list, select the system type.
 
-    3.  Choose *Register*.
+    3.  Choose *Add*.
+
+    4.  Choose *Get Token*.
+
+        The system generates the registration token.
+
+    5.  Copy the registration token. You need the token to complete the integration on the respective SAP solution system side.
+
+    6.  Close the wizard.
 
 
 
@@ -78,18 +114,10 @@ The registration process has the following states displayed in the cockpit:
 
 ## Results
 
--   Once you register a system, cloud platform generates an integration token that you use to complete the integration on the respective SAP solution system side.
-
--   Once a system is registered, you can deregister it only after removing it from all entitlement configurations and formations it takes part in. If a problem occurs while deregistering the system, you get a status *Deregister Error*. In this case, you have to report an incident.
+-   The system has been added as a record to the list on the *Systems* page in the SAP BTP cockpit and a token for connecting the corresponding SAP solution with the global account in SAP BTP has been generated.
 
     > ### Note:  
-    > You will not be able to deregister a system, if its status is one of the following:
-    > 
-    > -   *Error*
-    > 
-    > -   *Deregistering*
-    > 
-    > -   *Deregister Error*
+    > Registration tokens have different validity periods that depend on the system type. For more information about token expiry, see the corresponding documentation at the *Related Links* section.
 
 
 
@@ -98,22 +126,31 @@ The registration process has the following states displayed in the cockpit:
 
 ## Next Steps
 
-1.  Copy the integration token and use it to configure the integration on the respective SAP system side.
+-   Use the registration token to complete the registration on the respective SAP system side. See:
 
-2.  In the cockpit, assign the system to a formation on the *Formations* page, as follows:
+    -   [Trigger the Registration in the SAP S/4HANA Cloud Tenant](trigger-the-registration-in-the-sap-s-4hana-cloud-tenant-cadf8f6.md)
+
+    -   [Trigger the Registration in the SAP Marketing Cloud Tenant](trigger-the-registration-in-the-sap-marketing-cloud-tenant-d7416c3.md)
+    -   [Register an SAP SuccessFactors System in a Global Account in SAP BTP](register-an-sap-successfactors-system-in-a-global-account-in-sap-btp-e956ba2.md)
+
+-   You can optionally assign the system to a formation on the *Formations* page, as follows:
 
     -   Systems of type *SAP Commerce Cloud*, *SAP Cloud for Customer*, and *SAP Field Service Management* can be assigned to a formation directly before the integration is complete on the respective SAP Customer Experience \(SAP CX\) system side. However, to enable the API access, you first need to complete the integration.
 
     -   For systems of type *SAP S/4HANA Cloud* and *SAP SuccessFactors*, you first need to configure the integration on the respective SAP system side.
 
+        See [Including SAP Systems in a Formation](including-sap-systems-in-a-formation-68b04fa.md)
 
-    For more information, see: [Including SAP Systems in a Formation](including-sap-systems-in-a-formation-68b04fa.md).
+
+-   If you no longer need it, you can remove or deregister the system depending on its status.
 
 
 **Related Information**  
 
 
 [Extending SAP S/4HANA Cloud in the Cloud Foundry and Kyma Environment](extending-sap-s-4hana-cloud-in-the-cloud-foundry-and-kyma-environment-40b9e6c.md "Extend SAP S/4HANA Cloud with extension applications running on the cloud platform using automated integration configuration.")
+
+[Extending SAP Marketing Cloud in the Cloud Foundry and Kyma Environment](extending-sap-marketing-cloud-in-the-cloud-foundry-and-kyma-environment-18bb3d9.md "")
 
 [Extending SAP SuccessFactors in the Cloud Foundry and Kyma Environment](extending-sap-successfactors-in-the-cloud-foundry-and-kyma-environment-9e33934.md "Use SAP BTP to extend SAP SuccessFactors with extension applications running on the cloud platform.")
 

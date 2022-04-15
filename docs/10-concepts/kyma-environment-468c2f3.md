@@ -1,5 +1,7 @@
 <!-- loio468c2f3c3ca24c2c8497ef9f83154c44 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Kyma Environment
 
 Kyma environment provides a fully managed Kubernetes runtime based on the open-source project "Kyma". This cloud-native solution allows developers to extend SAP solutions with serverless Functions and combine them with containerized microservices.
@@ -54,6 +56,372 @@ SAP BTP, Kyma runtime \(SKR\) and open source project "Kyma" \(OS\) offer slight
 
 
 For all functionalities that the Kyma environment offers, see the official [project "Kyma" documentation](https://kyma-project.io/docs/).
+
+<a name="loio4b83be95f7db4fddba5c46d388ebf39a__table_a1y_myp_nrb"/>Functionality Comparison
+
+
+<table>
+<tr>
+<th valign="top">
+
+Functionality
+
+
+
+</th>
+<th valign="top">
+
+OS
+
+
+
+</th>
+<th valign="top">
+
+SKR
+
+
+
+</th>
+<th valign="top">
+
+Comments
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Service Level Agreements
+
+
+
+</td>
+<td valign="top">
+
+<span class="SAP-icons"></span>
+
+
+
+</td>
+<td valign="top">
+
+<span class="SAP-icons"></span>
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Managed Kubernetes
+
+
+
+</td>
+<td valign="top">
+
+<span class="SAP-icons"></span>
+
+
+
+</td>
+<td valign="top">
+
+<span class="SAP-icons"></span>
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Managed Kyma
+
+
+
+</td>
+<td valign="top">
+
+<span class="SAP-icons"></span>
+
+
+
+</td>
+<td valign="top">
+
+<span class="SAP-icons"></span>
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Kiali
+
+
+
+</td>
+<td valign="top">
+
+<span class="SAP-icons"></span>
+
+
+
+</td>
+<td valign="top">
+
+<span class="SAP-icons"></span>
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Jaeger tracing
+
+
+
+</td>
+<td valign="top">
+
+<span class="SAP-icons"></span>
+
+
+
+</td>
+<td valign="top">
+
+<span class="SAP-icons"></span>
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Logging
+
+
+
+</td>
+<td valign="top">
+
+<span class="SAP-icons"></span>
+
+
+
+</td>
+<td valign="top">
+
+limited
+
+
+
+</td>
+<td valign="top">
+
+No customization in SAP BTP, Kyma runtime
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Monitoring
+
+
+
+</td>
+<td valign="top">
+
+<span class="SAP-icons"></span>
+
+
+
+</td>
+<td valign="top">
+
+limited
+
+
+
+</td>
+<td valign="top">
+
+No customization in SAP BTP, Kyma runtime
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Kyma CLI
+
+
+
+</td>
+<td valign="top">
+
+<span class="SAP-icons"></span>
+
+
+
+</td>
+<td valign="top">
+
+limited
+
+
+
+</td>
+<td valign="top">
+
+SAP BTP, Kyma runtime supports commands for serverless Functions, not the commands related to installation.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Centrally hosted Kyma Dashboard
+
+
+
+</td>
+<td valign="top">
+
+<span class="SAP-icons"></span>
+
+
+
+</td>
+<td valign="top">
+
+<span class="SAP-icons"></span>
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System landscape management in SAP BTP cockpit
+
+
+
+</td>
+<td valign="top">
+
+<span class="SAP-icons"></span>
+
+
+
+</td>
+<td valign="top">
+
+<span class="SAP-icons"></span>
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+In-cluster system landscape management \(Application Connector\)
+
+
+
+</td>
+<td valign="top">
+
+<span class="SAP-icons"></span>
+
+
+
+</td>
+<td valign="top">
+
+<span class="SAP-icons"></span>
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+</table>
 
  <a name="loio4a0dd09368ce40bfa3c99cae46de49e1"/>
 
@@ -210,7 +578,7 @@ Credentials / Secrets
 </td>
 <td valign="top">
 
-Sensitive data necessary for an SAP solution to call the service, connect to it, and authenticate it. Depending on whether you use Kyma Console/Dashboard or kubectl to create the binding between a service instance and an SAP solution, the Kubernetes Secret object that contains these credentials is either created automatically or you need to create it manually.
+Sensitive data necessary for an SAP solution to call the service, connect to it, and authenticate it. Depending on whether you use Kyma Dashboard or kubectl to create the binding between a service instance and an SAP solution, the Kubernetes Secret object that contains these credentials is either created automatically or you need to create it manually.
 
 
 

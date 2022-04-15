@@ -24,12 +24,30 @@ The following sections describe how to set up a development environment to get y
 
 -   [Model Processing in Node.js](https://cap.cloud.sap/docs/cds/compiler)
 
--   [The cds Facade Object](https://cap.cloud.sap/docs/node.js/facade)
+-   [The `cds` Facade Object](https://cap.cloud.sap/docs/node.js/cds-facade)
 
 -   [Node.js Core Services API](https://cap.cloud.sap/docs/node.js)
 
 -   [Authentication](https://cap.cloud.sap/docs/node.js/authentication)
 
+-   [Application Service Providers](https://cap.cloud.sap/docs/node.js/app-services)
+
+-   [Protocol Adapters](https://cap.cloud.sap/docs/node.js/protocols)
+
+-   [Remote Services](https://cap.cloud.sap/docs/node.js/remote-services)
+
+-   [Transaction Management](https://cap.cloud.sap/docs/node.js/transactions)
+
+-   [Databases](https://cap.cloud.sap/docs/node.js/databases)
+
+-   [Messaging](https://cap.cloud.sap/docs/node.js/messaging)
+
+-   [Platform Services](https://cap.cloud.sap/docs/node.js/platform-services)
+
 -   [Best Practices](https://cap.cloud.sap/docs/node.js/best-practices)
+
+-   [Using TypeScript](https://cap.cloud.sap/docs/node.js/typescript)
+
+-   [CDS Design Time APIs](https://cap.cloud.sap/docs/node.js/cds-dk)
 
 

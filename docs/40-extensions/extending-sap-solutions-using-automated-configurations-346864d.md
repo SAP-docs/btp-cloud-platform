@@ -49,15 +49,22 @@ To enable the integration, you need to:
 
     During the pairing process you create an integration token which is then used by the SAP system administrator to configure the integration on the SAP system side. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
 
-2.  Make the SAP system accessible in the subaccounts in which you want to build your extension applications.
+2.  Optional: Group SAP systems so that they can be extended in a business scenario at one go.
 
     To do so, you create a formation containing one or more different systems assigned to a common subaccount. See [Including SAP Systems in a Formation](including-sap-systems-in-a-formation-68b04fa.md).
 
+3.  Make the SAP system accessible in the subaccounts in which you want to build your extension applications.
+
+    For systems of type SAP S/4HANA Cloud, SAP Marketing Cloud, and SAP SuccessFactors, configure the entitlements and assign the corresponding quota and service plans to the subaccounts where the extension applications will reside. The service plans define the access to the corresponding SAP solution APIs. See:
+
+    -   [Configure the Entitlements for the SAP S/4HANA Cloud Extensibility Service](configure-the-entitlements-for-the-sap-s-4hana-cloud-extensibility-service-65ad330.md)
+
+    -   [Configure the Entitlements for the SAP SuccessFactors Extensibility Service](configure-the-entitlements-for-the-sap-successfactors-extensibility-service-b01e625.md)
+
+
     For the systems of type SAP Commerce Cloud, SAP Cloud for Customer, and SAP Field Service Management, you can continue with developing your extension application.
 
-    For systems of type SAP S/4HANA Cloud, SAP Marketing Cloud, and SAP SuccessFactors, configure the entitlements and assign the corresponding quota and service plans to the subaccounts where the extension applications will reside. The service plans define the access to the corresponding SAP solution APIs.
-
-3.  For systems of type SAP S/4HANA Cloud, SAP Marketing Cloud, and SAP SuccessFactors, configure the communication flow for the extension application.
+4.  For systems of type SAP S/4HANA Cloud, SAP Marketing Cloud, and SAP SuccessFactors, configure the communication flow for the extension application.
 
     To be able to consume the SAP S/4HANA Cloud, SAP Marketing Cloud, and SAP SuccessFactors APIs, you need to create a service instance for the corresponding SAP solution system. During the creation of the service instance, you configure the communication flow between the subaccount and the corresponding SAP solution. An HTTP destination which contains the binding properties for establishing the connection is automatically generated.
 

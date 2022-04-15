@@ -172,7 +172,15 @@ You can also use a native agent. Since a native agent is a dynamic library, it m
 
 ## SapMachine
 
-[SapMachine](https://sap.github.io/SapMachine/) is an alternative to SAP JVM. It provides a Java Runtime Environment \(JRE\) with Java 11, while SAP JVM provides a JRE with Java 8. It works only with the [Tomcat](application-containers-83d2416.md#loioddfc10180fe844049cc71f6989942dc2) and [Java Main](application-containers-83d2416.md#loio8a1786acd70445768b35e50f3038a2a9) application containers.
+
+
+<a name="loio785d6b390b834bee818e242160f87df5__section_pt4_b32_vsb"/>
+
+## Context
+
+[SapMachine](https://sap.github.io/SapMachine/) is an alternative to SAP JVM. It provides a Java Runtime Environment \(JRE\) with Java 11, while SAP JVM provides a JRE with Java 8.
+
+SapMachine works only with [Tomcat](application-containers-83d2416.md#loioddfc10180fe844049cc71f6989942dc2) and [Java Main](application-containers-83d2416.md#loio8a1786acd70445768b35e50f3038a2a9) application containers.
 
 
 
@@ -180,7 +188,11 @@ You can also use a native agent. Since a native agent is a dynamic library, it m
 
 ## Activation
 
-To activate SapMachine JRE \(instead of the default SAPJVM JRE\) in SAP Java Buildpack, you have to add the following environment variable:
+
+
+### Using JRE
+
+To activate SapMachine **JRE** \(instead of the default SAPJVM JRE\) in SAP Java Buildpack, you have to add the following environment variable:
 
 ```
 ---
@@ -209,7 +221,11 @@ applications:
 
 Setting `use_offline_repository` to *false* will direct the buildpack to attempt a download of the SapMachine JRE of version "*version*" from the GitHub asset repository. This will only work if your Cloud Foundry instance has access to [GitHub: SapMachine](https://github.com/SAP/SapMachine).
 
-Furthermore, you can also use a full SapMachine JDK:
+
+
+### Using JDK
+
+Furthermore, you can also use a full SapMachine **JDK**:
 
 ```
 ---
@@ -221,7 +237,7 @@ applications:
   ...
 ```
 
-To specify the JDK version, use environment variable JBP\_CONFIG\_SAP\_MACHINE\_JDK, for example:
+To specify the JDK version, use environment variable JBP\_CONFIG\_SAP\_MACHINE\_JDK. For example:
 
 ```
 ---

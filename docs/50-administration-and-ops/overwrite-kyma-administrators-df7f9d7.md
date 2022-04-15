@@ -36,6 +36,16 @@ To overwrite the names for the **cluster-admin** role, update the Kyma instance 
 
 2.  Provide a new set of administrators' usernames as an array of strings.
 
+    In a JSON file, use the following stucture:
+
+    ```
+    {
+        "administrators": [
+           "<user name 1>",
+           "<user name 2>"]
+    }
+    ```
+
 3.  Click *Update*.
 
 

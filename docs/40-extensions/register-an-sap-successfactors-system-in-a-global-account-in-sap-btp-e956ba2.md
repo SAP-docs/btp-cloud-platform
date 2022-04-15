@@ -45,14 +45,48 @@ To connect an SAP SuccessFactors system with a global account in SAP BTP, you ne
 
 ## Context
 
-The registration process is based on an integration token that is used for the pairing of the SAP SuccessFactors company and the corresponding global account in SAP BTP. You create the token in the global account, and then start the automated registration process on the SAP SuccessFactors company side using this token.
+The registration process is based on a registration token that is used for the pairing of the SAP SuccessFactors company and the corresponding global account in SAP BTP. You create the token in the global account, and then start the automated registration process on the SAP SuccessFactors company side using this token.
 
-The registration process has the following states displayed in the SAP BTP cockpit:
+The registration process has the following states displayed in the cockpit:
 
--   *Pending* - the integration token for an SAP system has been created but the registration on the respective SAP system side has not been performed or completed.
+-   No status displayed in the *Status* column - the registration token for an SAP system has been created but the registration on the respective SAP solution system side has not been performed or completed.
 
--   *Registered* - the integration token has been used and the automated registration process has been successfully completed.
--   *Error* - the registration has failed.
+-   *Registered* - the registration token has been used and the automated registration process has been successfully completed. The system can be assigned to a formation on the *Formations* page in the cockpit.
+-   *Error while Registering* - the registration has failed.
+-   *Deregistering* - а deregistration process has started in the SAP BTP cockpit. As a result, the connection between the SAP solution system and the global account in SAP BTP is removed. The system remains in the list and you can register it again later on.
+
+    Once a system is registered, you can deregister it only after removing it from all entitlement configurations and formations it takes part in.
+
+    > ### Note:  
+    > You will not be able to deregister a system if its status is one of the following:
+    > 
+    > -   *Error while Registering*
+    > 
+    > -   *Deregistering*
+    > 
+    > -   *Error while Deregistering*
+
+-   *Error while Deregistering* - the deregistration has failed. If the problem persists, you have to report an incident.
+-   *Removing* - a system removal process has started in the SAP BTP cockpit. As a result, the link between the SAP solution and SAP BTP is destroyed and the system is removed from the list. To register the system again, first you must add it to the list anew, and then initiate the registration procedure.
+
+    Once a system is registered, you can only remove it if you first deregister it. You cannot remove a system
+
+    > ### Note:  
+    > You will not be able to remove a system if its status I one of the following:
+    > 
+    > -   *Registered*
+    > 
+    >     You first need to deregister the system.
+    > 
+    > -   *Deregistering*
+    > 
+    > -   *Error while Removing*
+    > 
+    > -   *Error while Registering*
+    > 
+    > -   *Error while Deregistering*
+
+-   *Error while Removing* - the system removal has failed. If the problem persists, you have to report an incident.
 
 > ### Note:  
 > When registering a system or creating a formation, the data you provide in the given input fields is not encrypted with your customer managed key. The data you enter is only encrypted at rest.
@@ -65,45 +99,46 @@ The registration process has the following states displayed in the SAP BTP cockp
 
 1.  In the SAP BTP cockpit, navigate to your global account, and then choose *System Landscape* \> *Systems*.
 
-2.  In the *Systems* panel, choose *Register System*.
-
-3.  In the *Register System* dialog box:
+2.  On the *Systems* page, choose *Add System*.
 
     1.  Enter a name for the system you want to register.
 
         > ### Note:  
         > Use only printable ASCII characters.
 
-    2.  In the *Type* dropdown list, select *SAP SuccessFactors*.
+        > ### Tip:  
+        > We recommend that you indicate the type of the system when specifying the system name. For example, ****<mysystem\>*-SuccessFactors***. This helps you identify the system type when assigning systems to a formation.
 
-    3.  Choose *Register*.
+    2.  In the *Type* dropdown list, select SAP SuccessFactors.
+
+    3.  Choose *Add*.
+
+    4.  Choose *Get Token*.
+
+        The system generates the registration token.
+
+    5.  Copy the registration token and send it to the tenant administrator for the respective SAP SuccessFactors system. You need it for configuring the integration on the extended SAP SuccessFactors system side.
+
+        You can also get the registration token later, once the system appears in the list on the *Systems* page.
+
+        The registration token is valid for 7 days after it has been generated. When a token is not used within its validity period, it is no longer valid and cannot be used for registering an SAP SuccessFactors system. If the validity of the token expires before you use it to configure the integration on the SAP SuccessFactors system side and complete the registration, you need to get a new token. You can then copy it and use it to complete the registration.
+
+        > ### Note:  
+        > A token can be used only once, for registering a single SAP SuccessFactors system.
+
+    6.  Close the wizard.
+
+        The SAP SuccessFactors system appears in the list of systems on the *Systems* page. Its *Status* field is empty because the registration process is not yet completed.
 
 
-    The cloud platform generates an integration token that is used for triggering the automated integration on the SAP SuccessFactors company side. To use the token, you need a user with access to Extension Center.
-
-4.  Copy the integration token. The token is required for configuring the integration on the SAP SuccessFactors company side.
-
-    You can also copy the integration token later, once the system appears in the list of registered systems.
-
-    The integration token is valid for 7 days after it has been generated. When a token is not used within its validity period, it is no longer valid and cannot be used for registering an SAP SuccessFactors system. If the validity of the token expires before you use it to configure the integration on the SAP SuccessFactors system side and complete the registration, you need to create a new token. You can then copy it and use it to complete the registration.
+3.  Start the automated integration process on the SAP SuccessFactors company side:
 
     > ### Note:  
-    > An integration token can be used only once, for registering a single SAP SuccessFactors system.
-
-5.  Close the dialog box.
-
-    The SAP SuccessFactors system appears in the list of registered systems. Its status is *Pending* because the registration process is not yet completed.
-
-6.  \(Optional\) For systems in status *Pending*, you can view and copy the integration token. To do so, choose the ![](images/ViewIntegrationToken_b8ec588.png) \(Display token\) button.
-
-7.  Start the automated integration process on the SAP SuccessFactors company side:
-
-    > ### Note:  
-    > If you do not have permissions to access the Extension Center for the corresponding SAP SuccessFactors system, you need to send the integration token to a user with such permissions who will configure the integration on the SAP SuccessFactors system side. For the requires permissions, check the prerequisites.
+    > If you do not have permissions to access the Extension Center for the corresponding SAP SuccessFactors system, you need to send the registration token to a user with such permissions who will configure the integration on the SAP SuccessFactors system side. For the requires permissions, check the prerequisites.
 
     1.  In SAP SuccessFactors *Admin Center*, navigate to *Extension Center*.
 
-    2.  On the *Extensions on SAP BTP* tab page, navigate to the *Add Integration with SAP BTP* screen area, and paste the integration token in the *Integration Token* input field.
+    2.  On the *Extensions on SAP BTP* tab page, navigate to the *Add Integration with SAP BTP* screen area, and paste the registration token in the *Integration Token* input field.
 
     3.  Choose *Add*.
 
@@ -112,22 +147,16 @@ The registration process has the following states displayed in the SAP BTP cockp
 
     ![](images/Configure_Integration_in_the_Extension_Center_42b1105.png)
 
-8.  In the cockpit, check the status of the registration process. To do so, navigate to your global account, and on the *Systems* page, check if the status of the SAP System has changed to *Registered*.
+4.  In the cockpit, check the status of the registration process. To do so, navigate to your global account, and on the *Systems* page, check if the status of the SAP System has changed to *Registered*.
 
     If you are already on the *Systems* page, refresh the page to check if the status has changed.
 
     > ### Note:  
     > You can register a system only once with the same name per global account.
 
-    Once a system is registered, you can deregister it only after removing it from all entitlement configurations and formations it takes part in. If a problem occurs while deregistering the system, you get a status *Deregister Error*. In this case, you have to report an incident.
 
-    > ### Note:  
-    > You will not be able to deregister a system, if its status is one of the following:
-    > 
-    > -   *Error*
-    > 
-    > -   *Deregistering*
-    > 
-    > -   *Deregister Error*
+**Related Information**  
 
+
+[Registering an SAP System](registering-an-sap-system-2ffdaff.md "To connect an SAP system with a global account in SAP BTP, you first need to register the system.")
 

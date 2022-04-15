@@ -56,12 +56,16 @@ Unsupported Features
 -   Custom Domains. See [https://docs.cloudfoundry.org/devguide/deploy-apps/routes-domains.html\#domains](https://docs.cloudfoundry.org/devguide/deploy-apps/routes-domains.html#domains).
 -   Docker. See [https://docs.cloudfoundry.org/adminguide/docker.html](https://docs.cloudfoundry.org/adminguide/docker.html).
 -   Running Tasks. See [https://docs.cloudfoundry.org/devguide/using-tasks.html](https://docs.cloudfoundry.org/devguide/using-tasks.html).
--   Zipkin Tracing. See [https://docs.cloudfoundry.org/adminguide/zipkin\_tracing.html](https://docs.cloudfoundry.org/adminguide/zipkin_tracing.html).
+-   Request Tracing
+
+    -   Zipkin Tracing. See [https://docs.cloudfoundry.org/adminguide/zipkin\_tracing.html](https://docs.cloudfoundry.org/adminguide/zipkin_tracing.html).
+
+
 -   Websockets. See [https://docs.cloudfoundry.org/adminguide/supporting-websockets.html](https://docs.cloudfoundry.org/adminguide/supporting-websockets.html).
 -   Space-Scoped Service Brokers. See [https://docs.cloudfoundry.org/services/managing-service-brokers.html](https://docs.cloudfoundry.org/services/managing-service-brokers.html).
 -   Route Services \(only user-provided and fully-brokered services\). See [https://docs.cloudfoundry.org/services/route-services.html](https://docs.cloudfoundry.org/services/route-services.html).
 -   Sharing Service Instances \(not all services support instance sharing\). See [https://docs.cloudfoundry.org/devguide/services/sharing-instances.html](https://docs.cloudfoundry.org/devguide/services/sharing-instances.html).
--   HTTP/2. See [https://docs.cloudfoundry.org/adminguide/supporting-http2.html\#application](https://docs.cloudfoundry.org/adminguide/supporting-http2.html#application)
+-   HTTP/2. See [https://docs.cloudfoundry.org/adminguide/supporting-http2.html\#application](https://docs.cloudfoundry.org/adminguide/supporting-http2.html#application).
 
 
 

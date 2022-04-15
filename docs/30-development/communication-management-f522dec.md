@@ -6,6 +6,8 @@ Get an overview of the ABAP classes and methods you can use to access communicat
 
 The following classes and methods allow you to read communication scenarios, communication systems, communication arrangements and communication users.
 
+These classes and methods can only be used if the authorizations are defined via standard COM catalogs.
+
 <a name="loiof522dec53a7441adbfec4d5eefc338c8__table_mt5_x1w_z4b"/>Communication Scenarios
 
 

@@ -62,7 +62,7 @@ A namespace is mandatory and must be reserved at [https://support.sap.com/namesp
 > ### Note:  
 > You have to register a namespace before the first ABAP system is provisioned. For namespaces that are reserved after system provisioning, you have to create an incident.
 > 
-> Namespaces should have 5–8 characters due to length restrictions of certain objects. See SAP note [105132](https://launchpad.support.sap.com/#/notes/105132) and [395083](https://launchpad.support.sap.com/#/notes/395083)
+> Namespaces should have 5–8 characters due to length restrictions of certain objects. See SAP note [105132](https://launchpad.support.sap.com/#/notes/105132) and [395083](https://launchpad.support.sap.com/#/notes/395083).
 
 
 
@@ -139,7 +139,7 @@ Required entitlements:
     -   Web access for ABAP
 
 
-See [SAPPartnerEdge: Resources for OEM Partners](https://partneredge.sap.com/en/partnership/manage/op_resource/oem.html)
+See [SAPPartnerEdge: Resources for OEM Partners](https://partneredge.sap.com/en/partnership/manage/op_resource/oem.html).
 
 
 
@@ -248,7 +248,7 @@ Plan and set up the transport of software components from development to test sy
 [Tutorial: Transport a Software Component Between two Systems](https://developers.sap.com/tutorials/abap-environment-gcts.html)
 
 > ### Note:  
-> A CI server that is running the ABAP Environment Pipeline is required. See [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
+> A CI/CD server that is running the ABAP Environment Pipeline is required. See [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
 
 
 
@@ -280,7 +280,7 @@ ABAP development. See [ABAP Development](develop-test-build-3bf575a.md#loiofa5af
 
 Follow the guidelines to enable multitenancy for applications built on the ABAP environment.
 
-See [Development Guideline to Enable Multitenancy of Products Built on the ABAP Environment](development-guideline-to-enable-multitenancy-of-products-built-on-the-abap-environment-9d994c8.md) and [Tutorials](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-cloud-platform/sap-cloud-platform-abap-environment).
+See [Multitenancy Development Guideline](multitenancy-development-guideline-9d994c8.md) and [Tutorials](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-cloud-platform/sap-cloud-platform-abap-environment).
 
 
 
@@ -376,14 +376,14 @@ Test user
 <tr>
 <td valign="top">
 
-ABAP Test Cockpit. See [Test in the ABAP Test Cockpit](develop-test-build-3bf575a.md#loiof0b71a1c959842258772c27d292c43b0).
+Test in the ABAP Test Cockpit. See [Test in the ABAP Test Cockpit](develop-test-build-3bf575a.md#loiof0b71a1c959842258772c27d292c43b0).
 
 
 
 </td>
 <td valign="top">
 
-Run ATC checks in DEV and/or TST systems.
+Run ABAP Test Cockpit checks in DEV and/or TST systems.
 
 See [ABAP Test Cockpit in the Cloud – What is already possible](https://blogs.sap.com/2020/08/14/abap-test-cockpit-in-the-cloud-what-is-already-possible/) and [ABAP Test Cockpit Configurator](../50-administration-and-ops/abap-test-cockpit-configurator-22c26ff.md).
 
@@ -415,13 +415,13 @@ Prepare your add-on build. See [Set Up Add-On Build](develop-test-build-3bf575a.
 </td>
 <td valign="top">
 
-Set up a CI server and pipeline for the add-on build.
+Set up a CI/CD server and pipeline for the add-on build.
 
 Create a technical communication user to access AAKaaS.
 
 See [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
 
-Register the add-on product in the global account for development and production account as described in [Register Add-on Product for a Global Account](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#register-add-on-product-for-a-global-account).
+Register the add-on product in the global account for development and production as described in [Register Add-on Product for a Global Account](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#register-add-on-product-for-a-global-account).
 
 
 
@@ -430,7 +430,7 @@ Register the add-on product in the global account for development and production
 
 -   Jenkins administrator for access to CI/CD Server
 -   S-user to create technical communication user and customer incident for add-on registration
--   Operator to assign technical platform user as Space Developer
+-   Operator to assign technical platform user as space developer
 -   DevOps engineer to configure the pipeline
 
 
@@ -514,19 +514,19 @@ User/Role
 </td>
 <td valign="top">
 
-Configure the sizing of the SaaS application. See [Sizing](sizing-1782f25.md#loio1782f253e102484dac378887b3d6d769).
+Configure the sizing of the SaaS application. See [Sizing](order-and-provide-975bd3e.md#loio1782f253e102484dac378887b3d6d769).
 
 
 
 </td>
 <td valign="top">
 
-Decide on the metric of your offering \(e.g. users, documents, space\) and map the metric of your offering to the service plan of the ABAP environment service.
+Decide on the metric of your offering \(for example users, documents, space\) and map the metric of your offering to the service plan of the ABAP environment service.
 
 > ### Note:  
-> For multitenancy offerings, there is no sizing/quota per customer \(client\). You must decide on an overall sizing depending on the expected load in a region \(e.g. Europe/Frankfurt\).
+> For multitenancy offerings, there is no sizing/quota per customer \(client\). You must decide on an overall sizing depending on the expected load in a region \(for example Europe/Frankfurt\).
 > 
-> As a DevOps engineer using parameter tenant\_mode in the ABAP Solution service, you can define whether a customer gets a tenant in a dedicated system \(single\) or a shared system \(multi\).
+> As a DevOps engineer using parameter t`enant_mode` in the ABAP Solution service, you can define whether a customer gets a tenant in a dedicated system \(single\) or a shared system \(multi\).
 > 
 > Determine the number of ABAP compute units and HANA compute units for the creation of an ABAP system by using parameters `size_of_runtime` and `size_of_persistence`.
 
@@ -544,14 +544,14 @@ DevOps engineer
 <tr>
 <td valign="top">
 
-Implementation of a multitenant application and deployment to provider subaccount in global account for development. See [Multitenant Application](order-and-provide-975bd3e.md#loiof3305f65648248318028e02c84375323).
+Implement a multitenant application and deploy it to the provider subaccount in the global account for development. See [Multitenant Application](order-and-provide-975bd3e.md#loiof3305f65648248318028e02c84375323).
 
 
 
 </td>
 <td valign="top">
 
-Create the multitenant application with SaaS registry, XSUAA and ABAP Solution Provider. Deploy to the provider subaccount with parameters used for development phase.
+Create the multitenant application with SaaS registry, XSUAA, and ABAP Solution Provider. Deploy to the provider subaccount with parameters used for development phase.
 
 See [Development Descriptor](development-descriptor-767fb00.md).
 
@@ -569,7 +569,7 @@ DevOps engineer
 <tr>
 <td valign="top">
 
-Access to Landscape Portal. See [Access to Landscape Portal](order-and-provide-975bd3e.md#loio195a685a71f84953813e7b3bd255e849).
+Access the Landscape Portal. See [Access to Landscape Portal](order-and-provide-975bd3e.md#loio195a685a71f84953813e7b3bd255e849).
 
 
 
@@ -594,7 +594,7 @@ Operator
 <tr>
 <td valign="top">
 
-Test multitenant application deployed to the global account for development.
+Test the multitenant application deployed to the global account for development.
 
 
 
@@ -617,7 +617,7 @@ DevOps engineer
 <tr>
 <td valign="top">
 
-Deploy multitenant application to provider subaccount in global account for production.
+Deploy the multitenant application to the provider subaccount in the global account for production.
 
 
 
@@ -681,7 +681,7 @@ See [https://store.sap.com/dcp/en/](https://store.sap.com/dcp/en/).
 
 Get an optional certification for your product.
 
-See [Certification](https://www.sap.com/documents/2016/10/7cf3eaec-907c-0010-82c7-eda71af511fa.html) and [Certified Solutions](https://www.sap.com/dmc/exp/2013_09_adpd/enEN/#/partners)
+See [Certification](https://www.sap.com/documents/2016/10/7cf3eaec-907c-0010-82c7-eda71af511fa.html) and [Certified Solutions](https://www.sap.com/dmc/exp/2013_09_adpd/enEN/#/partners).
 
 
 
@@ -759,8 +759,8 @@ Configure consumer subaccount. See [Configure Consumer Subaccount \(Feature Set 
 
 Configure customer subaccount.
 
--   Option A: Provider configures the subaccount
--   Option B: Customer configures subaccount
+-   Option A: provider configures the subaccount
+-   Option B: customer configures subaccount
 
 
 
@@ -776,7 +776,7 @@ Consumer subaccount administrator
 <tr>
 <td valign="top">
 
-Initial User Onboarding. See [Initial User Onboarding](order-and-provide-975bd3e.md#loio4a9c5011922847ac91db165c78656149)
+Initial user onboarding. See [Initial User Onboarding](order-and-provide-975bd3e.md#loio4a9c5011922847ac91db165c78656149)
 
 
 
@@ -871,7 +871,7 @@ Business user
 <tr>
 <td valign="top">
 
-Integrate the customer project in the consumer tenant of the customer..
+Integrate the customer project in the consumer tenant of the customer.
 
 
 
@@ -894,7 +894,7 @@ Business user
 <tr>
 <td valign="top">
 
-Configure the customer project in the consumer tenant of the customer..
+Configure the customer project in the consumer tenant of the customer.
 
 
 
@@ -922,7 +922,7 @@ Business user
 
 <a name="loio964054384acd445fae9e3a80278096a8__section_o2b_q1j_l4b"/>
 
-## Maintain
+## Maintain, Monitor, Support
 
 
 <table>
@@ -959,14 +959,14 @@ User/Role
 <tr>
 <td valign="top" rowspan="4">
 
-[Maintain](maintain-9721f0f.md#loio9721f0fb92a84e2a95309acf445cb0a9)
+[Maintain](maintain-monitor-support-5d25603.md#loio9721f0fb92a84e2a95309acf445cb0a9)
 
 
 
 </td>
 <td valign="top">
 
-Set up your test and maintenance system landscape and processes. See [Set Up Maintenance System Landscape](maintain-9721f0f.md#loio44035458f01e4142a18d44f9c0301e62).
+Set up your test and maintenance system landscape and processes. See [Set Up Maintenance System Landscape](maintain-monitor-support-5d25603.md#loio44035458f01e4142a18d44f9c0301e62).
 
 
 
@@ -989,7 +989,7 @@ Operator
 <tr>
 <td valign="top">
 
-Create an update. See [Create Add-On Update](maintain-9721f0f.md#loioa35582346bff4914a5b4b0bcb776668c).
+Create an update. See [Create Add-On Update](maintain-monitor-support-5d25603.md#loioa35582346bff4914a5b4b0bcb776668c).
 
 
 
@@ -1014,7 +1014,7 @@ Create a new patch version, support package version, or release/product version.
 <tr>
 <td valign="top">
 
-Trigger the add-on product build. See [Trigger Add-On Build Pipeline](maintain-9721f0f.md#loio7f6988a9a9f94845825d8c7ff66990fb).
+Trigger the add-on product build. See [Trigger Add-On Build Pipeline](maintain-monitor-support-5d25603.md#loio7f6988a9a9f94845825d8c7ff66990fb).
 
 
 
@@ -1037,7 +1037,7 @@ Add-on administrator
 <tr>
 <td valign="top">
 
-Apply update for SaaS solution \(=add-on product\). See [Deploy Add-On Update](maintain-9721f0f.md#loio0a80d4c5c079435e9aca4eb9e6841de9).
+Apply update for SaaS solution \(=add-on product\). See [Deploy Add-On Update](maintain-monitor-support-5d25603.md#loio0a80d4c5c079435e9aca4eb9e6841de9).
 
 
 
@@ -1046,7 +1046,39 @@ Apply update for SaaS solution \(=add-on product\). See [Deploy Add-On Update](m
 
 Deploy your add-on update by using the Landscape Portal.
 
-See [Landscape Portal](landscape-portal-5eb70fb.md).
+See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
+
+
+
+</td>
+<td valign="top">
+
+Operator
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Troubleshoot and debug. See [Troubleshoot and Debug](maintain-monitor-support-5d25603.md#loio3687b52c5d3349f7956e93bf2f807e6c).
+
+
+
+</td>
+<td valign="top">
+
+-   Identify ABAP system and consumer tenant
+-   Access the consumer tenant of the ABAP system
+-   Troubleshoot
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 

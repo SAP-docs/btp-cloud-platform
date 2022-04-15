@@ -116,7 +116,8 @@ In addition, we provide the middleware `@sap/asp-middleware` component \(see [he
     			"target": "/ui$1",
     			"authenticationType": "xsuaa",
     			"service": "com.sap.cloud.abap.solution",
-    			"csrfProtection": false
+    			"csrfProtection": false,
+    			"endpoint": "abap"
     		}
     	]
     }

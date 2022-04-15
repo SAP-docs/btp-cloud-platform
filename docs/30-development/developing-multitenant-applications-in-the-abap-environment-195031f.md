@@ -45,7 +45,7 @@ Keep in mind that regions are chosen on the subaccount level: For each subaccoun
 
 [Developing Multitenant Applications in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5e8a2b74e4f2442b8257c850ed912f48.html)
 
-[Development Guideline to Enable Multitenancy of Products Built on the ABAP Environment](development-guideline-to-enable-multitenancy-of-products-built-on-the-abap-environment-9d994c8.md "Multitenancy is required if you want to run several customers on the same ABAP system. When building tenant-aware applications on top of the ABAP environment, you must follow dedicated rules to ensure, for example, a content separation between different customers.")
+[Multitenancy Development Guideline](multitenancy-development-guideline-9d994c8.md "Multitenancy is required if you want to run several customers on the same ABAP system. When building tenant-aware applications on top of the ABAP environment, you must follow dedicated rules to ensure, for example, a content separation between different customers.")
 
 [MTA-Based Approach \(Recommended\)](mta-based-approach-recommended-ca0cc10.md "The previous steps can also be done in a descriptive way using a so called multitarget application (MTA).")
 

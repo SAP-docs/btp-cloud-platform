@@ -31,7 +31,7 @@ Use your SAP Cloud Identity Services - Identity Authentication tenant as an iden
 > ### Restriction:  
 > You can only establish trust with a single tenant of Identity Authentication per subaccount using this method.
 > 
-> Also, when the chosen Identity Authentication service tenant has a custom domain, the trust works only when the server certificate of the IAS tenant has been issued by a trusted CA. See [Trusted Certificate Authentication](../60-security/trusted-certificate-authentication-790cb76.md) for more information.
+> You can’t choose an Identity Authentication tenant with a custom domain.
 
 > ### Recommendation:  
 > We recommend that you use SAP Cloud Identity Services - Identity Authentication as a hub, especially if your business users are stored in multiple corporate identity providers.

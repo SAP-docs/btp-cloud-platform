@@ -32,9 +32,9 @@ Build a first version of your add-on. See [Build](develop-test-build-3bf575a.md#
 -   You've purchased entitlements that are necessary for the account setup. See [Prepare](develop-test-build-3bf575a.md#loio4338854e3133407abb47d3a281dbd1e1).
 -   You've registered a namespace at SAP, for example /NAMESPC/. See [Register a Namespace](develop-test-build-3bf575a.md#loiocc5a3c6f78cf4889960c314dd09a5060).
 -   You've registered your add-on at SAP, for example /NAMESPC/PRODUCTX. See [Build](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/3bf575a3dc5043f895f8bd411d2a86a1.html#loio25049720bde447e395b3df0bc05e5a50).
--   You've set up Jenkins build pipeline and have ensured that an external Git repository is available for the pipeline definition. See [ABAP Environment Pipeline](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9482e7eef4634cb993a4ae296b2029fa.html#loio2398b874f7c5445db188b780ff0cef89).
+-   You've set up a Jenkins build pipeline and have ensured that an external Git repository is available for the pipeline definition. See [ABAP Environment Pipeline](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9482e7eef4634cb993a4ae296b2029fa.html#loio2398b874f7c5445db188b780ff0cef89).
     -   You've created a technical communication user, for example with the credentials ID `TechUserAAKaaS`.
-    -   You've created a technical platform user as a space member in Cloud Foundry , for example with the credentials ID `CFPlatform`.
+    -   You've created a technical platform user as a space member in Cloud Foundry, for example with the credentials ID `CFPlatform`.
 
 -   You've developed your software component /NAMESPC/COMPONENT1 in the development system DEV of your *01 Develop* subaccount.
     -   For more information on software components, see [Manage Software Components](../50-administration-and-ops/manage-software-components-3dcf76a.md).
@@ -42,13 +42,13 @@ Build a first version of your add-on. See [Build](develop-test-build-3bf575a.md#
     -   For more information on how to develop a user interface for the application, see [Develop an SAP Fiori Application UI and Deploy it to ABAP Using SAP Business Application Studio](develop-an-sap-fiori-application-ui-and-deploy-it-to-abap-using-sap-business-application-eaaeba4.md).
 
 
--   You've subscribed to SAP Business Application Studio in your *01 Develop* subaccount.
+-   You've subscribed to SAP Business Application Studio in your *01 Develop* subaccount. See [Subscribing to SAP Business Application Studio](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/0a9b42e8795d4f7b8fc196a6fde0b3f2.html?version=Cloud).
 
 -   You've tested the application in your software component in test system TST of your *02 Test* subaccount. See [Test](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/3bf575a3dc5043f895f8bd411d2a86a1.html#loio023cf9d301b1479484e70b17cd5cf587).
 
 
 
-1.  To capture the current state of your software component, create a branch in development system DEV of your *01 Develop* subaccount. See [How to Work with Branches](../50-administration-and-ops/how-to-work-with-branches-6b2f0bf.md)
+1.  To capture the current state of your software component, create a branch in development system DEV of your *01 Develop* subaccount. See [How to Work with Branches](../50-administration-and-ops/how-to-work-with-branches-6b2f0bf.md).
 
     > ### Recommendation:  
     > We recommend naming this first branch v1.0.0 and to create a new branch when updating the application with a support package \(v1.1.0\) or a new release \(v2.0.0\).
@@ -103,7 +103,7 @@ Build a first version of your add-on. See [Build](develop-test-build-3bf575a.md#
             > ### Note:  
             > You find the credentials ID of your technical communication user and your technical platform user in your Jenkins pipeline repository under *Manage Jenkins* \> *Manage Credentials*.
 
-        -   For **cfApiEndpoint**, enter the link to your Cloud Foundry API Endpoint.
+        -   For **cfApiEndpoint**, enter the link to your Cloud Foundry API endpoint.
 
         -   For **cfOrg**, enter the Cloud Foundry organization name.
 
@@ -118,14 +118,14 @@ Build a first version of your add-on. See [Build](develop-test-build-3bf575a.md#
 
     -   Imperatively adapt the following parameters:
 
-        -   For **abapSystemAdminEmail**, enter the e-mail address of your administrator.
+        -   For **abapSystemAdminEmail**, enter the email address of your administrator.
 
         -   For **cfOrg**, enter the Cloud Foundry organization name.
 
         -   For **cfSpace**, enter the name of the development space you want to use.
 
             > ### Note:  
-            > You find the Cloud Foundry organization name displayed as Org Name and the name of your development space in your *04 Build/Test* subaccount under *Overview*.
+            > You find the Cloud Foundry organization name displayed as *Org Name* and the name of your development space in your *04 Build/Test* subaccount under *Overview*.
 
 
 
@@ -150,7 +150,7 @@ Build a first version of your add-on. See [Build](develop-test-build-3bf575a.md#
         -   Enter the required commitID of the software component state that shall be used.
 
             > ### Note:  
-            > You find the latest **commitID** in development system DEV of your *01 Develop* subaccount in the *Manage Software Components* app. To view a history of all commits and their IDs, click the required branch.
+            > You find the latest **commitID** in development system DEV of your *01 Develop* subaccount in the *Manage Software Components* app. To view a history of all commits and their IDs, select the required branch.
 
 
 
@@ -178,7 +178,7 @@ Build a first version of your add-on. See [Build](develop-test-build-3bf575a.md#
      ![](images/Pipeline_definition_8a9a4e5.png) 
 
 3.  Start the build pipeline.
-4.  Once the build was successful, publish your initial add-on version: hover over the *Publish* stage in your pipeline and click *confirm*.
+4.  Once the build was successful, publish your initial add-on version: hover over the *Publish* stage in your pipeline and select *Confirm*.
 
  <a name="loio7e91d5f55e5e4a6aa723b8282ad804fe"/>
 
@@ -186,7 +186,9 @@ Build a first version of your add-on. See [Build](develop-test-build-3bf575a.md#
 
 ## Deploy
 
-To provision multitenant-enabled systems in the ABAP environment, a multitenant application is implemented as multitarget application and deployed to Cloud Foundry.
+ 
+
+To provision multitenant-enabled systems in the ABAP environment, implement a multitenant application as a multitarget application and deploy it to Cloud Foundry. See [Deploy](order-and-provide-975bd3e.md#loio4e35eb027f284b7fa6219bc70561fb4e).
 
 
 
@@ -297,7 +299,7 @@ To provision multitenant-enabled systems in the ABAP environment, a multitenant 
         
         ```
 
-    -   To define the open parameters of the `mta.yaml` file, create a new folder `extensions` that contains the following `dev.mtaext` file:
+    -   To define the open parameters of the `mta.yaml` file, create a new folder ***Extensions*** that contains the following `dev.mtaext` file:
 
         ```
         ID: product1-saas-solution-dev
@@ -322,14 +324,14 @@ To provision multitenant-enabled systems in the ABAP environment, a multitenant 
         -   The **appname** is a technical name that defines the SaaS solution, and is displayed, for example, as a prefix in the title of your service instances of your *05 Provide* subaccount in the global account for development.
 
             > ### Note:  
-            > You can only use ASCII letters and digits. Do not use a hyphen in the beginning or end of the appname.
+            > You can only use ASCII letters and digits. Do not use a hyphen at the beginning or end of the appname.
 
         -   For **addon-product-name**, enter the registered name of the addon product.
 
             > ### Note:  
-            > This must be the same name as defined in the `addon.yml` file in step 1b.
+            > This must be the same name as defined in the `addon.yml` file above.
 
-        -   For **provider-admin-email**, enter the e-mail address of the initial provider user.
+        -   For **provider-admin-email**, enter the email address of the initial provider user.
         -   The **saas-display-name** defines the name of the tile in the cloud.
         -   The **saas-description** is displayed as a short description of the application in the cloud.
 
@@ -440,9 +442,9 @@ Order and provide your solution. See [Order and Provide](order-and-provide-975bd
 
 
 
-1.  To define a new route to the solution, open your *05 Provide* subaccount in the global account for development and navigate to *Cloud Foundry* \> *Spaces*. Select your space and navigate to *Routes*. Select *New Route* and enter the following information in the dialogue:
+1.  To define a new route to the solution, open your *05 Provide* subaccount in the global account for development and navigate to *Cloud Foundry* \> *Spaces*. Select your space and navigate to *Routes*. Select *New Route* and enter the following information in the dialog:
 
-    For *Domain*, enter the appropriate domain by changing the default domain ***cfapps.<region\>.hana.ondemand.com*** according to the region of your *05 Provide* subaccount in the global account for development.
+    For *Domain*, enter the domain by changing the default domain ***cfapps.<region\>.hana.ondemand.com*** according to the region of your *05 Provide* subaccount in the global account for development.
 
     For *Hostname*, enter the subdomain as displayed in your *06 Consume* subaccount under *Overview* and the appname as defined in your `dev.mtaext` file.
 
@@ -471,7 +473,7 @@ Order and provide your solution. See [Order and Provide](order-and-provide-975bd
     > Once you switch to the production phase of the approuter configuration and define a route with wildcard hostname. this sub-step is no longer required . See [Configure the Approuter Application](configure-the-approuter-application-3725815.md).
 
 2.  Assign the route to the deployed approuter application.
-3.  Subscribe to the solution: Navigate to *Service Marketplace* in your *06 Consume* subaccount and search for your service. Click *create* \> *Create*.
+3.  Subscribe to the solution: Navigate to *Service Marketplace* in your *06 Consume* subaccount and search for your service. Select *create* \> *Create*.
 4.  To enable the creation of the initial administrator user in the consumer tenant, in the *06 Consume* subaccount under *Security* \> *Role Collections*, assign the role colletion <app name\>-admin with the role `SolutionAdmin` to your user.
 5.  Open the application URL provided by the subscription with the user that shall be onboarded as initial administrator user. This is the same user that was assigned to the `<app name>-admin` role collection.
 
@@ -484,7 +486,7 @@ Order and provide your solution. See [Order and Provide](order-and-provide-975bd
 
 ## Maintain
 
-**Maintain your solution**. See [Create Add-On Update](maintain-9721f0f.md#loioa35582346bff4914a5b4b0bcb776668c).
+**Maintain your solution**. See [Create Add-On Update](maintain-monitor-support-5d25603.md#loioa35582346bff4914a5b4b0bcb776668c).
 
 > ### Note:  
 > You can update your solution with patches, support packages, or new releases. Create a new branch from the main branch in test system TST in your *01 Develop* subaccount for every support package or new release. For minor changes, continue developing in the respective active branch.
@@ -498,7 +500,7 @@ Order and provide your solution. See [Order and Provide](order-and-provide-975bd
 ## Prerequisites
 
 -   You've assigned the `LandscapePortalAdminRoleCollection` in your *05 Provide* subaccount in the global account for development. See [Access to Landscape Portal](order-and-provide-975bd3e.md#loio195a685a71f84953813e7b3bd255e849).
--   You’ve set up the maintenance system landscape. See [Set Up Maintenance System Landscape](maintain-9721f0f.md#loio44035458f01e4142a18d44f9c0301e62).
+-   You’ve set up the maintenance system landscape. See [Set Up Maintenance System Landscape](maintain-monitor-support-5d25603.md#loio44035458f01e4142a18d44f9c0301e62).
 
 
 

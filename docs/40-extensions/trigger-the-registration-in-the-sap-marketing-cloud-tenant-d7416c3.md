@@ -22,7 +22,7 @@ You are an SAP Marketing Cloud tenant administrator.
 
 2.  In the *Maintain Extensions on SAP BTP* screen, in the *Integrations* section, choose *New*.
 
-3.  In the *Integration Token* field, enter the content of the integration token from the SAP BTP cockpit.
+3.  In the *Integration Token* field, enter the content of the registration token from the SAP BTP cockpit.
 
 4.  Choose *Save*. A new entry in the table appears with status *Enabling*.
 

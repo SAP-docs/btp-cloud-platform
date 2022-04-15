@@ -77,7 +77,7 @@ Yes
 </td>
 <td valign="top">
 
-To download the kubeconfig file from the Kyma Console/Dashboard, click on the user icon in the top right corner of the page and choose *Get Kubeconfig*.
+To download the kubeconfig file from the Kyma Dashboard, click on the user icon in the top right corner of the page and choose *Get Kubeconfig*.
 
 
 

@@ -12,6 +12,8 @@ Learn how to update your ABAP environment instance.
 
 > ### Note:  
 > After you have created an ABAP environment instance, you can only change the ABAP system description and ABAP runtime size.
+> 
+> To change the initial admin, you have to use the *Maintain Employees* SAP Fiori app. See [Maintain Employees](../50-administration-and-ops/maintain-employees-e882b0f.md).
 
 
 

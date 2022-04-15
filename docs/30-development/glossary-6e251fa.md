@@ -452,7 +452,7 @@ Landscape Portal
 </td>
 <td valign="top">
 
-The Landscape Portal app acts as a central tool to allow service providers to perform lifecycle management operations such as add-on updates, provisioning new consumers as new tenants, and more. See [Landscape Portal](landscape-portal-5eb70fb.md).
+The Landscape Portal app acts as a central tool to allow service providers to perform lifecycle management operations such as add-on updates, provisioning new consumers as new tenants, and more. See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
 
 
 

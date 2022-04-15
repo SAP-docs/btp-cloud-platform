@@ -2,7 +2,7 @@
 
 # Set up Grafana Authentication
 
-Kyma comes with Grafana, which provides a dashboard and a graph editor to visualize metrics and logs. By default, Kyma doesn't expose Grafana. We recommend that you expose Grafana securely so you can access it directly from Kyma Console/Dashboard. Alternatively, you can set up port forwarding every time you want to see the metrics and logs.
+Kyma comes with Grafana, which provides a dashboard and a graph editor to visualize metrics and logs. By default, Kyma doesn't expose Grafana. We recommend that you expose Grafana securely so you can access it directly from Kyma Dashboard. Alternatively, you can set up port forwarding every time you want to see the metrics and logs.
 
 
 

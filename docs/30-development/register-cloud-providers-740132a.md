@@ -22,7 +22,7 @@ Follow the steps to register cloud providers:
 
 ## Procedure
 
-1.  In the Kyma Console/Dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Configuration* \> *Addons*.
+1.  In the Kyma Dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Configuration* \> *Addons*.
 
 2.  Select the tile with the cloud provider you would like to register.
 

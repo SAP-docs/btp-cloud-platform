@@ -103,10 +103,28 @@ You declare your application security descriptor with JSON syntax and store it i
         >     });
         > 
         >   app.delete('/callback/v1.0/tenants/*', function (req, res) {
-        >       var consumerSubdomain = req.body.subscribedSubdomain;
-        >       var tenantAppURL = "https:\/\/" + consumerSubdomain + "-approuter-product-list-ap25." + "cfapps.eu10.hana.ondemand.com/products";
-        >       res.status(200).send(tenantAppURL);
+        >       
+        >       // Implement here any offboarding proces that's triggered when user deletes a subscription to the application
+        > 
+        >       res.sendStatus(200);
         >   });
+        > 
+        > ```
+
+        Return the HTTP `200 OK` success status response if the offboarding process was successful.
+
+        If the offboarding failed, return the relevant error code and an accompanying message.
+
+        > ### Note:  
+        > It’s highly recommended to use a response object that contains both the error code and a user-friendly, customer-oriented error message and technical details about the error in the following format:
+        > 
+        > ```
+        > {
+        >   "code":<The relevant response code, e.g., 500, 400>,
+        >   "messageForCustomer":"<A customer-facing message. Please write in a user-friendly format, as clearly as possible>",
+        >   "errorDetails":"<Specify here additional technical details about the error>"
+        > }
+        > 
         > ```
 
     3.  To be able to read the body of those calls, add the body parser module at line 9 of the `index.js` file.

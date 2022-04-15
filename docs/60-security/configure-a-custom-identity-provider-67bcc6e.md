@@ -53,6 +53,20 @@ When you create a new Kyma environment instance in the SAP BTP cockpit from the 
       "administrators": ["user-admin1", ... ]
     ```
 
+    If you want to revert to the default settings, use the following configuration:
+
+    ```
+     "oidc": {
+        "issuerURL": "https://kyma.accounts.ondemand.com",
+        "clientID": "12b13a26-d993-4d0c-aa08-5f5852bbdff6",
+        "groupsClaim": "groups",
+        "signingAlgs": ["RS256"],
+        "usernamePrefix": "-",
+        "usernameClaim": "sub"
+      },
+      "administrators": ["{put usernames (emails) recognised by 'https://kyma.accounts.ondemand.com'}"]
+    ```
+
 4.  Select *Create*.
 
 
@@ -65,7 +79,7 @@ When you create a new Kyma environment instance in the SAP BTP cockpit from the 
 Your Kyma environment will be instantiated with a custom IdP.
 
 > ### Caution:  
-> According to Oauth2 flows, IdPs have lists of allowed callback URLs. Configure the Kyma Console/Dashboard URL \(`https://dashboard.kyma.cloud.sap/`\) and the localhost for kubectl authentication \(`http://localhost:8000`\) as allowed callback URLs at your IdP provider so that authenticated users could be redirected back to the Kyma application.
+> According to Oauth2 flows, IdPs have lists of allowed callback URLs. Configure the Kyma Dashboard URL \(`https://dashboard.kyma.cloud.sap/`\) and the localhost for kubectl authentication \(`http://localhost:8000`\) as allowed callback URLs at your IdP provider so that authenticated users could be redirected back to the Kyma application.
 
 > ### Note:  
 > You can also apply the custom IdP configuration and set up administrators during your Kyma instance update operation by providing the details as an array of strings in the respective fields.
@@ -74,8 +88,6 @@ Your Kyma environment will be instantiated with a custom IdP.
 
 
 [Authentication and Authorization in the Kyma Environment](authentication-and-authorization-in-the-kyma-environment-85200d8.md "Kyma allows you to use the default or a custom Identity Provider to authenticate in the Kyma environment.")
-
-
 
 [Identity Authentication: Initial Setup](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/LATEST/en-US/31af7da133874e199a7df1d42905241b.html)
 

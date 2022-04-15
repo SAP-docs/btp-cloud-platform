@@ -10,7 +10,7 @@ A **global account** is the realization of a contract you made with SAP. A globa
 
 -   [Enterprise Accounts](../10-concepts/enterprise-accounts-171511c.md)
 
--   [Get a Trial Account](getting-a-global-account-d61c281.md#loio42e7e54590424e65969fced1acd47694)
+-   [Try Out SAP BTP for Free](getting-a-global-account-d61c281.md#loio42e7e54590424e65969fced1acd47694)
 
 -   [Get an Enterprise Account](getting-a-global-account-d61c281.md#loio82f9ff522f754e26ae89e0cd7ec7aa11)
 
@@ -19,9 +19,9 @@ A **global account** is the realization of a contract you made with SAP. A globa
 
 <!-- loio42e7e54590424e65969fced1acd47694 -->
 
-## Get a Trial Account
+## Try Out SAP BTP for Free
 
-Get a trial account to experience SAP BTP for free and gain access to a comprehensive set of platform services.
+There are two ways to try out SAP BTP services and applicationsfor free.
 
 
 
@@ -29,48 +29,16 @@ Get a trial account to experience SAP BTP for free and gain access to a comprehe
 
 ## Context
 
-> ### Restriction:  
-> There’s currently no trial account available for SAP BTP in the China \(Shanghai\) region.
+A **free trial** account is intended for individuals, for example students, who want to explore SAP BTP for free. It is an isolated account and subaccount, with pre-allocated service entitlements that can be used for a limited number of days.
 
-Trial accounts are intended for personal exploration, and not for production use or team development. They allow restricted use of the platform resources and services. For more information about the scope of our trial offering, see [Trial Accounts and Free Tier](../10-concepts/trial-accounts-and-free-tier-046f127.md).
+**Free tier** is not an account type, but it is a set of free services that can be used within an enterprise account.
+
+To learn which is best for your needs, see the [Set Up an SAP BTP Account for Tutorials](https://developers.sap.com/group.btp-setup.html) group in the SAP Developer Center.
+
+**Related Information**  
 
 
-
-<a name="loio42e7e54590424e65969fced1acd47694__steps_eh3_4tc_dcb"/>
-
-## Procedure
-
-1.  Go to the [SAP BTP website](https://www.sap.com/products/business-technology-platform/trial.html).
-
-2.  Under *Free Trial Demo*, register for a free trial account by choosing *Try: Trial demo for SAP BTP*.
-
-3.  Create a new SAP ID by entering the required details or, if you’ve one already, log in.
-
-    If you created a new SAP ID, you receive a confirmation email asking you to activate your account.
-
-4.  Choose the link in the e-mail to confirm your address and activate your trial account. You’re redirected to the SAP BTP website.
-
-5.  To acces the cockpit, simply choose *Go to Your Trial Account*. 
-
-6.  Verify your phone number.
-
-    > ### Note:  
-    > A phone number can only be used once. It isn’t possible to use the same phone number to verify multiple trial accounts.
-    > 
-    > If you don't receive an SMS with a verification code within 5 minutes, try again. If the problem persists, contact **sso@sap.com** with your account ID, e-mail address, and phone number.
-
-7.  Once you've verified your phone number, log in to the cockpit again.
-
-    You’re asked if you want to use your geo location for the recommendation of a region.
-
-8.  Select a region. If you accepted that your location is used, a region is recommended to you.
-
-9.  Click *Create Account*.
-
-    A global account, subaccount, org, and space are automatically created for you.
-
-10. Choose *Go to Space*.
-
+[Trial Accounts and Free Tier](../10-concepts/trial-accounts-and-free-tier-046f127.md "Explore the different options for trying out SAP BTP.")
 
  <a name="loio82f9ff522f754e26ae89e0cd7ec7aa11"/>
 

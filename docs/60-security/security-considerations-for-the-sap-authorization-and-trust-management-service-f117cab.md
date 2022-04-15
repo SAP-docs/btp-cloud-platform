@@ -173,10 +173,6 @@ Default: 24192000 seconds \(28 days\)
 
 To change token validity, use one of the following methods:
 
--   Change the token policy in SAP BTP cockpit.
-
-    For more information, see [Configure Token Policy for SAP Authorization and Trust Management Service \[Feature Set B\]](../50-administration-and-ops/configure-token-policy-for-sap-authorization-and-trust-management-service-feature-set-b-40290a9.md).
-
 -   Change the values of the *token-validity* or *refresh-token-validity* parameters in the application security descriptor \(`xs-security.json`\).
 
     ```json

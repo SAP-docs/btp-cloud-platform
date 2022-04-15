@@ -10,7 +10,7 @@ In the Kyma environment, you use Grafana to query, visualize, and explore metric
 
 ## Overview
 
-Project [Grafana](https://grafana.com/oss/grafana/) is an open observability platform for Kubernetes. To access Grafana, go to the Kyma Console/Dashboard and select *Diagnostics* \> *Metrics*.
+Project [Grafana](https://grafana.com/oss/grafana/) is an open observability platform for Kubernetes. To access Grafana, go to the Kyma Dashboard and select *Diagnostics* \> *Metrics*.
 
 With Kyma, you get the following [Grafana](https://grafana.com/oss/grafana/) features preconfigured out of the box for your needs:
 

@@ -8,7 +8,7 @@ Set the target for command calls to a subaccount, a directory, or the global acc
 
 ## Context
 
-After login, the global account is targeted by default. This means that commands are executed in the global account unless you specify otherwise via a parameter. If you know that you need to work in a particular subaccount or directory, you can change the target, so that you won't have to specify that subaccount's or directory's ID as a parameter with every command call. Note that by setting the target to a subaccount or directory, you also target its parent entities. This means that the btp CLI will try to execute the command in the targeted entity first, and, if the command is not available on that level, it will try on the next level, until it reaches the global account. This can be useful, for example, if you have targeted a subaccount, but want to update its parent directory. You can then execute `btp update accounts/directory` without specifying the directory ID.
+After login, the global account is targeted by default. This means that commands are executed in the global account unless you specify otherwise via a parameter. If you know that you need to work in a particular subaccount or directory, you can change the target, so that you won't have to specify that subaccount's or directory's ID as a parameter with every command call. Note that by setting the target to a subaccount or directory, you also target its parent entities, that is, the **target hierarchy**. If no parameter is specified in a command call, the btp CLI will execute the command in the innermost targeted entity where a command is applicable. If a subaccount is targeted that is inside a directory and the command is not available on subaccount level, it will be executed in the parent directory \(if it's a directory command\) or in the parent global account \(if it's a global account command\). This can be useful, for example, if you have targeted a subaccount, but want to update its parent directory. You can then execute `btp update accounts/directory` without specifying the directory ID.
 
 To see the current target, use `btp --info` or simply `btp`.
 
@@ -97,7 +97,7 @@ To explicitly execute a command in a parent entity instead of in the target, you
 
 ## Results
 
-The CLI client displays the targeted account entity in its account hierarchy. To execute a command in the targeted entity, you can omit this parameter.
+The CLI client displays the target hierarchy. To execute a command in the targeted entity, you can omit the corresponding parameter.
 
 
 
@@ -113,7 +113,7 @@ Current target hierarchy:
 
 ```
 
-Now, when you run commands without specifying an account entity as parameter, they are executed in the targeted subaccount or in one of its parent entities.
+Now, when you run commands without specifying an account entity as parameter, they are executed in the targeted subaccount or in one of its parents.
 
 
 <table>
@@ -173,7 +173,9 @@ The targeted subaccount
 </td>
 <td valign="top">
 
- `--directory` 
+`[directory] ID`
+
+Note that the directory ID is a positional parameter in this command. You can omit it when a subaccount inside the directory is targeted: `btp update accounts/directory [directory ID]`.
 
 
 

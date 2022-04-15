@@ -293,7 +293,7 @@ Additionally, the following entitlements for SaaS application subscriptions are 
 
 -   SAP Business Application Studio for UI development. See [SAP Business Application Studio](sap-business-application-studio-c736960.md).
 -   Web access for ABAP for access to systems during development phase. See [Subscribing to the Web Access for ABAP](../20-getting-started/subscribing-to-the-web-access-for-abap-98928b0.md).
--   Landscape Portal for provider support access. See [Landscape Portal](landscape-portal-5eb70fb.md).
+-   Landscape Portal for provider support access. See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
 
 If you want to integrate an existing corporate identity provider in the subaccounts of the global account for development for authentication/authorization, see [Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md). To restrict access based on certain criteria such as the IP address, you need to use the [Identity Authentication Service](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
 
@@ -561,7 +561,7 @@ Clone the main branch of the software component to the development and test syst
 Software components in the development and test system should always stay on the main branch. If you want to work on maintenance branches to develop bug fixes and other maintenance deliveries, create a dedicated hotfix development and test system \(maintenance codeline\).
 
 > ### Tip:  
-> For in-depth information about versioning and branches, check out [Versioning and Branches](versioning-and-branches-8c087bc.md#loio8c087bca40584f9b899282b4ec515753).
+> For in-depth information about versioning and branches, check out [Versioning and Branches](concepts-9482e7e.md#loio8c087bca40584f9b899282b4ec515753).
 
 **Configure ABAP Test Cockpit Checks, Check Variants**
 
@@ -583,20 +583,20 @@ Interrupting a transport release in case of severe findings can help to fix issu
 
 You can perform the import of your software components into a test system either manually by using the *Manage Software Components* app or in an automated way using the [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
 
-**Manual import into test system**
+**Manual Import into Test System**
 
 As an add-on admin user, you can pull the latest released changes of a software component to the test system by using the main branch. You can test these changes in the test system independent from ongoing development. See [How to Pull Software Components](../50-administration-and-ops/how-to-pull-software-components-90b9b9d.md) and [ABAP Lifecycle Management](abap-lifecycle-management-5c7b17d.md).
 
-**Automatic import into test system**
+**Automatic Import into Test System ABAP Environment Pipeline**
 
-> ### Note:  
-> A CI/CD server that is running the ABAP Environment Pipeline is required. See [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
-
-To schedule a regular import of new changes into the test system, you can use a CI server and pipeline to automate this process.
+> ### Tip:  
+> For in-depth information about the ABAP environment pipeline used for automatic import into a test system, see [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
 
 ![](images/Pipeline_dev_to_test_8d52073.png)
 
-As a DevOps engineer, you can configure the ABAP environment pipeline for an automated DEV to TST transport. To do so, a static and preconfigured system is used. With the pipeline, the pulling of specified software components/Git repositories is automated, triggered by the pipeline execution of the add-on administrator. See [Continuous Testing on SAP BTP ABAP Environment](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentTest/) and [Running ATC Checks on a Static ABAP Environment System](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/atc-static) for further details and an example.
+As a DevOps engineer, you can configure the ABAP environment pipeline for an automated import of software components to test system TST. With the pipeline, the pulling of specified software components is automated and performed on a regular schedule.
+
+The continuous testing scenario of the ABAP environment pipeline is described in detail in [Continuous Testing on SAP BTP ABAP Environment](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentTest/).
 
  <a name="loio9464e3af139d4e0581cb4e819886b0c8"/>
 
@@ -641,7 +641,7 @@ Additionally, you can define business role templates to make it easier for admin
 > ### Note:  
 > Use customer-managed communication scenarios as a design time description to store technical information, such as inbound and outbound services and their service type, for example OData or SOAP by using the `create_by_comm_arrangement` method. See [Communication Scenarios Managed by Customers](communication-scenarios-managed-by-customers-31f5566.md).
 > 
-> Instead of coding against destination names, as described in [Usage of the Destination Service](usage-of-the-destination-service-40ecb5c.md), using communication scenarios allows consumers of the SaaS solution to create communication arrangements based on provided communication scenarios. Therefore, you don't have to create specific destinations in the consumer subaccount.
+> Instead of coding against destination names, as described in [Usage of the Destination Service \(Deprecated\)](usage-of-the-destination-service-deprecated-40ecb5c.md), using communication scenarios allows consumers of the SaaS solution to create communication arrangements based on provided communication scenarios. Therefore, you don't have to create specific destinations in the consumer subaccount.
 
 > ### Restriction:  
 > The ABAP environment only supports one communication configuration layer intended to be used by the consumer. It’s currently not possible to enforce a communication configuration exclusively managed by the service provider within the consumer tenant.
@@ -697,7 +697,7 @@ See [Configuring Predefined Custom Fields](../50-administration-and-ops/configur
 
 **Multitenancy**
 
-With the ABAP environment, you can build multitenancy-enabled SaaS solutions. To do so, the add-on implementation has to follow certain guidelines. See [Development Guideline to Enable Multitenancy of Products Built on the ABAP Environment](development-guideline-to-enable-multitenancy-of-products-built-on-the-abap-environment-9d994c8.md).
+With the ABAP environment, you can build multitenancy-enabled SaaS solutions. To do so, the add-on implementation has to follow certain guidelines. See [Multitenancy Development Guideline](multitenancy-development-guideline-9d994c8.md).
 
 > ### Recommendation:  
 > If the add-on implementation is aligned with the development guideline for multitenancy, we recommend configuring your solution by setting `tenant_mode = multi` so that the same ABAP service instance is used for multiple consumers.
@@ -768,7 +768,7 @@ Before testing new developments in a software component in the test system, as a
 
 To test the developed business services, as a test user, create business roles from the role templates in the test system and assign them to the test user. See [Maintain Business Roles](../50-administration-and-ops/maintain-business-roles-8980ad0.md).
 
-**Create Spaces and Pages for Business Roles**
+**Create Launchpad Space and Pages for Business Roles**
 
 To enable navigation to custom UIs via tiles, enable launchpad spaces and pages. Add spaces to the relevant business roles and add the needed SAP Fiori launchpad tiles to those spaces. Finally, enable spaces for business users in the system launchpad settings. See [How to Create Spaces and Pages for a Business Role](../50-administration-and-ops/how-to-create-spaces-and-pages-for-a-business-role-18cdb97.md).
 
@@ -821,14 +821,19 @@ If you can't clear an ABAP Test Cockpit finding by correcting the underlying pro
 
 **Continuous Testing using ABAP Environment Pipeline**
 
-To schedule a regular execution of ABAP Test Cockpit checks for a software component in the test system, you can use a CI server and pipeline to automate this process. You can reuse the previously described setup of a transport from dev to test using the ABAP environment pipeline.
+> ### Tip:  
+> For in-depth information about the ABAP environment pipeline used for continuous testing, see [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
+
+![](images/Pipeline_dev_to_test_8d52073.png)
+
+To schedule a regular execution of ABAP Test Cockpit checks for a software component in the test system, you can use a CI server and pipeline to automate this process. You can reuse the previously described setup of a transport from development to test system using the ABAP environment pipeline. See [Set Up Transport from Development to Test System](develop-test-build-3bf575a.md#loiobf557544f90f4bc88911c4865ec78207).
 
 As a DevOps engineer, configure the ABAP environment pipeline by using a static and preconfigured system. With the pipeline, the following steps are then automated, triggered by the pipeline execution of a Jenkins administrator:
 
 -   Pulling the specified software components/Git repositories
 -   Running the configured ABAP Test Cockpit checks
 
-See [Continuous Testing on SAP BTP ABAP Environment](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentTest/) for further details and [Running ATC Checks on a Static ABAP Environment System](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/atc-static) for an example.
+The continuous testing scenario of the ABAP environment pipeline is described in detail in [Continuous Testing on SAP BTP ABAP Environment](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentTest/).
 
  <a name="loio25049720bde447e395b3df0bc05e5a50"/>
 
@@ -847,6 +852,9 @@ See [Continuous Testing on SAP BTP ABAP Environment](https://sap.github.io/jenki
 > 
 > See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
+> ### Tip:  
+> For in-depth information about the ABAP environment pipeline used for add-on build, check out [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
+
 As a Jenkins administrator, you have to trigger the add-on build process. An assembly system is created in the *03 Build/Assemble* subaccount. The process is automated using the add-on build pipeline and the existing CI/CD server.
 
 As an add-on admin, you define the add-on product information in the add-on descriptor file. Afterwards, you register the add-on product and global account for production with SAP.
@@ -861,7 +869,7 @@ Once the build and test installation have been completed successfully, an add-on
 
 ## Prerequisites
 
--   For the add-on build, you have to set up a Jenkins CI/CD server that is provisioned using the Cx server, an S-user in SAP One Support Launchpad with user management authorization as well as authorization to create a customer incident for add-on registration. See [https://www.jenkins.io/](https://www.jenkins.io/), [Cx Server](https://www.project-piper.io/infrastructure/overview/#cx-server-recommended), and SAP note [1271482](https://launchpad.support.sap.com/#/notes/1271482).
+-   For the add-on build, you have to set up a Jenkins CI/CD server that is provisioned using the Cx server, an S-user in SAP One Support Launchpad with user management authorization as well as authorization to create a customer incident for add-on registration. See [Jenkins](https://www.jenkins.io/), [Cx Server](https://www.project-piper.io/infrastructure/overview/#cx-server-recommended), and SAP note [1271482](https://launchpad.support.sap.com/#/notes/1271482).
 -   To build the first add-on version, you have to configure the add-on build pipeline. See [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
 
  <a name="loioccf0c1ef30ce4d6aa6e39bb583fb8ba1"/>
@@ -874,36 +882,33 @@ Once the build and test installation have been completed successfully, an add-on
 
 The following section explains how to build the initial version of the add-on product. The result is a delivery of type AOI \(Add-on Installation\) for the initial release 1.0.0 of both the software component and the add-on product.
 
-**Set up a CI/CD server and pipeline for the add-on build**
-
-For the add-on build process, you must use a CI/CD server and pipeline to automate this process.
-
--   **Add technical platform user to *03 Build/Assemble* space**
-
-    For the add-on assembly, an assembly system is created in the *03 Build/Assemble* space in the global account for development.
-
-    To trigger the gCTS import in the assembly system, communication scenario `SAP_COM_0510` is used. See [Test Integration \(SAP\_COM\_0510\)](test-integration-sap-com-0510-b04a9ae.md).
-
-    To trigger the build process in the assembly system, communication scenario `SAP_COM_0582` is used. See [Software Assembly Integration \(SAP\_COM\_0582\)](software-assembly-integration-sap-com-0582-26b8df5.md).
-
-    The credentials for an instance of these scenarios are retrieved by creating a service key in the system. See [Create a Communication Arrangement for Inbound Communication with Service Key Type Basic](create-a-communication-arrangement-for-inbound-communication-with-service-key-type-basic-1cc5a1d.md).
-
-    To do so, as an operator, assign a technical Cloud Foundry platform user to the global account for development as an administrator and as a space developer in the build/assemble space. Later, this user’s credentials are stored in the Jenkins credentials. See [User and Member Management](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cc1c676b43904066abb2a4838cbd0c37.html).
-
--   **Add technical platform user to space in subaccount *04 Build/Test***
-
-    For the add-on installation test, a test system is created in the space in subaccount *04 Build/Test*, which was created earlier in the global account for development.
-
-    To do so, as an operator, assign a technical Cloud Foundry platform user as a space developer in the space in subaccount *04 Build/Test*. Later, this user’s credentials are stored in the Jenkins credentials. See [Creating New Space Members and Assigning Space Developer Roles to Them](../20-getting-started/creating-new-space-members-and-assigning-space-developer-roles-to-them-967fc4e.md).
-
--   **Configure pipeline**
-
-    As a DevOps engineer, create the pipeline definition Jenkins file and the configuration file `.pipeline/config.yml` in the Git repository. See [Create Pipeline Configuration](https://www.project-piper.io/stages/introduction/#1-create-pipeline-configuration).
+For the add-on build process, you must use a pipeline to automate this process.
 
 
-After that, as a Jenkins administrator, create a pipeline pointing to the Jenkins file in the Jenkins server. See [Build Add-Ons on a Transient ABAP Environment System](https://www.project-piper.io/scenarios/abapEnvironmentAddons/) and [ABAP Platform CI/CD Samples](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/addon-build) for more information and an example.
 
-**Create a technical communication user for access to AAKaaS**
+### Add Technical Platform User to Space in Subaccount *03 Build/Assemble*
+
+For the add-on assembly, an assembly system is created in the *03 Build/Assemble* space in the global account for development.
+
+To trigger the gCTS import in the assembly system, communication scenario `SAP_COM_0510` is used. See [Test Integration \(SAP\_COM\_0510\)](test-integration-sap-com-0510-b04a9ae.md).
+
+To trigger the build process in the assembly system, communication scenario `SAP_COM_0582` is used. See [Software Assembly Integration \(SAP\_COM\_0582\)](software-assembly-integration-sap-com-0582-26b8df5.md).
+
+The credentials for an instance of these scenarios are retrieved by creating a service key in the system. See [Create a Communication Arrangement for Inbound Communication with Service Key Type Basic](create-a-communication-arrangement-for-inbound-communication-with-service-key-type-basic-1cc5a1d.md).
+
+To do so, as an operator, assign a technical Cloud Foundry platform user as a space developer in subaccount *03 Build/Assemble*. Later, this user’s credentials are stored in the Jenkins credentials. See [Creating New Space Members and Assigning Space Developer Roles to Them](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/967fc4e2b1314cf7afc7d7043b53e566.html?version=Cloud).
+
+
+
+### Add Technical Platform User to Space in Subaccount *04 Build/Test*
+
+For the add-on installation test, a test system is created in the space in subaccount *04 Build/Test*, which was created earlier in the global account for development.
+
+To do so, as an operator, assign a technical Cloud Foundry platform user as a space developer in the space in subaccount *04 Build/Test*. Later, this user’s credentials are stored in the Jenkins credentials. See [Creating New Space Members and Assigning Space Developer Roles to Them](../20-getting-started/creating-new-space-members-and-assigning-space-developer-roles-to-them-967fc4e.md).
+
+
+
+### Create a Technical Communication User for Access to AAKaaS
 
 As part of the add-on build process, the Add-on Assembly Kit is used. With AAKaaS, the on-premise tooling is now available as a cloud service that is used by the build pipeline.
 
@@ -920,11 +925,21 @@ Finally, as a Jenkins administrator, add the credentials of the technical commun
 
 See SAP note [2174416](https://launchpad.support.sap.com/#/notes/2174416) for more information on how to create and activate technical communication users.
 
-**Register add-on product for installation in global accounts**
+
+
+### Register Add-On Product for Installation in Global Accounts
 
 The registration of a new add-on product is a manual step. Your add-on product should only be installed in ABAP systems in your global accounts for development and production. Therefore, the add-on product name and global accounts need to be registered with SAP.
 
 See [Register Add-on Product for a Global Account](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#register-add-on-product-for-a-global-account).
+
+
+
+### Configure ABAP Environment Pipeline
+
+As a DevOps engineer, create an ABAP environment pipeline configuration for the add-on build scenario. As a Jenkins administrator, create a new pipeline in Jenkins pointing to the Jenkins file of the pipeline configuration for the add-on build scenario. See [Configuration](https://www.project-piper.io/pipelines/abapEnvironment/configuration/).
+
+The add-on build scenario of the ABAP environment pipeline is described in detail in [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
 
  <a name="loio96f9db9e6c784e5a89ede4d038daaa43"/>
 
@@ -932,14 +947,14 @@ See [Register Add-on Product for a Global Account](https://www.project-piper.io/
 
 ### Build the First Add-On Version
 
-**Create maintenance branch**
+**Create Maintenance Branch**
 
 > ### Recommendation:  
-> For each release and support package level, as an add-on admin, create a maintenance branch that is used for development of bug fixes and maintenance deliveries. See [Versioning and Branches](versioning-and-branches-8c087bc.md#loio8c087bca40584f9b899282b4ec515753).
+> For each release and support package level, as an add-on admin, create a maintenance branch that is used for development of bug fixes and maintenance deliveries. See [Versioning and Branches](concepts-9482e7e.md#loio8c087bca40584f9b899282b4ec515753).
 
 In test system TST, create branch ***v1.0.0*** that is based on the main branch.
 
-**Configure addon.yml file**
+**Configure addon.yml File**
 
 As add-on admin user, create the `addon.yml` file in the Git repository used for the add-on build pipeline configuration. This file includes metadata of the add-on product that is being built, such as versioning information and the included software component versions.
 
@@ -975,14 +990,11 @@ For the software components in the repositories section of the `addon.yml` file,
 -   commitID = short commit ID of changes to be included, can be retrieved from commit history in the *Manage Software Components* app
 
 > ### Tip:  
-> For in-depth information about versioning and branches, check out [Versioning and Branches](versioning-and-branches-8c087bc.md#loio8c087bca40584f9b899282b4ec515753).
+> For in-depth information about versioning and branches, check out [Versioning and Branches](concepts-9482e7e.md#loio8c087bca40584f9b899282b4ec515753).
 > 
 > To learn how software lifecycle management in the ABAP environment works with software components, see [Basic Concepts and Terms](basic-concepts-and-terms-fb3a076.md). Please follow the best practices on how to define the addon.yml file. See [Add-On Descriptor File](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#add-on-descriptor-file).
 
-**Trigger add-on build pipeline**
-
-> ### Tip:  
-> For in-depth information about the ABAP environment pipeline, check out [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
+**Trigger Add-On Build Pipeline**
 
 ![](images/Pipeline_add-on_build_d36cfe1.png)
 
