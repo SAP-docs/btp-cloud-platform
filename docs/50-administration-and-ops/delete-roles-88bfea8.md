@@ -12,7 +12,10 @@ Use the SAP BTP cockpit to delete a role. If this role has been added to a role 
 
 ## Context
 
-You can use existing role templates to create new roles. A SAP BTP cockpit wizard helps you to configure new roles.
+You can use existing role templates to create new roles. An SAP BTP cockpit wizard helps you to configure new roles.
+
+> ### Note:  
+> You cannot delete roles that belong to default role collections delivered by SAP BTP.
 
 
 

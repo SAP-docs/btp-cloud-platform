@@ -12,7 +12,10 @@ Use the SAP BTP cockpit to create a role for a subscribed application using an e
 
 ## Context
 
-You can use existing role templates to create new roles. A SAP BTP cockpit wizard helps you to configure new roles.
+You can use existing role templates to create new roles. An SAP BTP cockpit wizard helps you to configure new roles.
+
+> ### Note:  
+> You can only create roles from roles templates that come with attributes.
 
 
 

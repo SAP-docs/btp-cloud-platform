@@ -14,7 +14,7 @@ A user account corresponds to a particular user in an identity provider, such as
 
 **User accounts** enable users to log on to SAP BTP and access subaccounts and use services according to the permissions given to them.
 
-Before diving into the different user and member management concepts, it's important to understand the difference between the 2 types of users we’re referring to: **platform users** and **business users**.
+Before diving into the different user and member management concepts, it's important to understand the difference between the 2 types of users we’re referring to: **Platform users** and **business users**.
 
 ![Platform Users and Business Users](images/user-accounts_27c8463.png)
 
@@ -26,9 +26,9 @@ Before diving into the different user and member management concepts, it's impor
 
 **Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot applications and services on SAP BTP. They’re the users that you give certain permissions for instance at global account or subaccount level, either by adding them as members with certain permissions \(feature set A\) or by assigning role collections to them \(feature set B\).
 
-Platform users who were added as members and who have administrative permissions can view or manage the list of global accounts, subaccounts, and Cloud Foundry orgs and spaces that are available to them. Members access them using the SAP BTP Cockpit or the SAP BTP command line interface \(btp CLI\).
+Platform users who were added as members and who have administrative permissions can view or manage the list of global accounts, subaccounts, and Cloud Foundry orgs and spaces that are available to them. Members access them using the SAP BTP Cockpit or the SAP BTP command-line interface \(btp CLI\).
 
-For platform users, the default identity provider is [SAP ID Service](../50-administration-and-ops/sap-id-service-d6a8db7.md). In cloud management tools feature set A, to use subaccount members from your own user base, use your own tenant of SAP Cloud Identity Services - Identity Authentication.
+For platform users, there's a [default identity provider](../50-administration-and-ops/sap-id-service-d6a8db7.md). In cloud management tools feature set A, to use subaccount members from your own user base, use a tenant of the Identity Authentication service and, if needed, connect Identity Authentication to your own corporate identity provider.
 
 > ### Note:  
 > For China \(Shanghai\) region, a different default identity provider is used.
@@ -45,7 +45,7 @@ For platform users, the default identity provider is [SAP ID Service](../50-admi
 
 In the Cloud Foundry environment, application developers \(platform users\) create and deploy application-based security artifacts for business users. Administrators use these artifacts to assign roles, build role collections, and assign these role collections to business users or user groups. In this way, they control the users' permissions in the deployed application.
 
-For business users, the identity provider can be, for example, Identity Authentication service or your own, such as Active Directory.
+For business users, there's a [default identity provider](../50-administration-and-ops/sap-id-service-d6a8db7.md). We expect that you have your own user base. We recommend that you configure the Identity Authentication service as the identity provider and connect Identity Authentication to your own corporate identity provider.
 
 
 

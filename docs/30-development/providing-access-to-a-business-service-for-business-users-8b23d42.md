@@ -10,7 +10,7 @@ For business users, you must provide access to a newly created service because a
 
 ## Motivation
 
-If you have the developer role `SAP_BR_DEVELOPER`, for example, you can test your new service immediately without having to create an IAM app and assign it to a business catalog and a business role. Activating the service binding, for example, creates the IAM app and assigns it to the business catalog `SAP_CORE_BC_EXT_TST` that is shipped to customers for testing purposes. This business catalog is assigned to the developer role template `SAP_BR_DEVELOPER`. Therefore, when you create a new service in a development system and activate the service binding, all users with this developer role can automatically access and use the service. Of course, all users with another role containing this catalog will also be able to access and use the service.
+If you have the developer role `SAP_BR_DEVELOPER`, for example, you can test your new service immediately without having to create an IAM app and assign it to a business catalog and a business role. Activating the service binding, for example, creates the IAM app and assigns it to the business catalog `SAP_CORE_BC_EXT_TST` that is shipped to customers for testing purposes. This business catalog is assigned to the developer role template `SAP_BR_DEVELOPER`. Therefore, when you create a new service in a development system and activate the service binding, all users with this developer role can automatically access and use the service. Of course, all users with another role containing this catalog are then also able to access and use the service.
 
 This kind of access isn’t available anymore when you pull the business service into nondevelopment systems, for example, where this test catalog feature isn’t enabled. You must develop identity and access management artifacts, which is explained in detail in this guide. They ensure that you can define the necessary authorizations and enable business users to consume the business service.
 
@@ -20,7 +20,7 @@ This kind of access isn’t available anymore when you pull the business service
 
 ## Overview of Development Options
 
-Now let’s assume you would like to achieve that certain business users are able to view and edit bonus calculations:
+Now, let’s assume you would like to achieve that certain business users are able to view and edit bonus calculations:
 
 -   Under *Providing Unrestricted Access*, you learn how to provide users read and write access to all bonus calculations.
 
@@ -32,10 +32,10 @@ Now let’s assume you would like to achieve that certain business users are abl
 
 -   Under *Providing Access Based on Field Values*, you learn how to fine-tune your access restrictions to particular fields, that is, on the level of data elements, such as the bonus variant.
 
-    This is the most complex scenario, but it allows administrators to define business roles that authorize users to view and change only particular data; other data is filtered. In the case of the bonus calculation service, managers can only create, view, update, and delete bonus calculations that have a specific bonus variant. The advantage of this scenario is that you, as a developer, can shift some decisions about the business role design to the administrator, who can decide which data is visible to business users, based on restriction fields in the business role.
+    This is the most complex scenario, but it allows administrators to define business roles that authorize users to view and change only particular data; other data is filtered. For the bonus calculation service, managers can only create, view, update, and delete bonus calculations that have a specific bonus variant. The advantage of this scenario is that you, as a developer, can delegate some decisions about the business role design to the administrator. The administrator can decide which data is visible to business users, based on restriction fields in the business role.
 
 
-After you have implemented access based on one of the scenarios mentioned, you can then also go on and implement access to the corresponding SAP Fiori application for the business service.
+After you've implemented access based on one of the scenarios mentioned, you can then also go on and implement access to the corresponding SAP Fiori application for the business service.
 
 
 

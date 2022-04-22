@@ -150,20 +150,31 @@ To achieve better fault-tolerance, our partners recommend deploying services acr
 
 The SAP BTP Cloud Foundry environment follows these recommendations to support high availability at the platform and application level:
 
--   **Health monitoring of the platform components:**
+-   **High availability of the platform components:**
 
-    -   The building blocks of Cloud Foundry and the virtual machines on which the Cloud Foundry application instances are scheduled run in a high availability setup; their instances are located in different AZs.
+    -   The building blocks of Cloud Foundry and the virtual machines on which the Cloud Foundry application instances are scheduled run in a high availability setup. Their instances are distributed across different AZs.
 
     -   The technology that manages the deployment of the Cloud Foundry environment monitors the health of the platform. If there are infrastructure failures, it re-creates the faulty components.
 
 
--   **Health monitoring of application instances:**
+-   **High availability on the application level:**
 
-    -   Cloud Foundry is constantly monitoring the health state of application instances and restarts instances that are considered unhealthy. See also [Using App Health Checks](https://docs.cloudfoundry.org/devguide/deploy-apps/healthchecks.html).
+    -   We recommend running multiple application instances to increase availability. For more information, see [Run Multiple Instances to Increase Availability](https://docs.cloudfoundry.org/devguide/deploy-apps/prepare-to-deploy.html#increase-availability). On SAP BTP, there are three ways to increase application instances:
 
-    -   When the number of desired instances doesn't match the number of actually running instances, Cloud Foundry reschedules the missing instances, for example, when the virtual machines on which an application instance was initially scheduled become unresponsive.
+        -   Scaling your application using the application manifest. The `manifest.yml` allows you to make and save configurations for your application. To scale, you can configure the instance count in the manifest and push the application again with the new configuration. See [App Manifest Attribute Reference](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest-attributes.html#instances). To avoid downtimes when updating your application configuration, you can also consider using rolling application deployments. See [Rolling App Deployments](https://docs.cloudfoundry.org/devguide/deploy-apps/rolling-deploy.html).
+        -   Scaling your application using the `cf scale` command in the Cloud Foundry command line interface \(CF CLI\). See [Scaling an App Using cf scale](https://docs.cloudfoundry.org/devguide/deploy-apps/cf-scale.html).
+        -   Scaling your application using the SAP BTP cockpit. See [Add or Remove Application Instances](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/75836f1b68ce439e9c169b05597f97e4.html?q=high%20available).
 
-    -   The scheduler takes care of distributing the different instances of one application on virtual machines in different AZs.
+    -   The Cloud Foundry container scheduler takes care of distributing the different instances of one application on virtual machines in different AZs. For more information, see [How Diego Balances App Processes](https://docs.cloudfoundry.org/concepts/diego/diego-auction.html).
+
+    -   Cloud Foundry is constantly monitoring the health state of application instances and restarts instances that are considered unhealthy. See [Using App Health Checks](https://docs.cloudfoundry.org/devguide/deploy-apps/healthchecks.html).
+
+    -   When the number of desired instances doesn't match the number of actually running instances, Cloud Foundry reschedules the missing instances, for example, when the virtual machines that an application instance was initially scheduled on become unresponsive.
+
+
+    For more information on high availability configuration, see [High Availability in Cloud Foundry](https://docs.cloudfoundry.org/concepts/high-availability.html#overview).
+
+    For more information on application stability and resilience, see [Develop Resilient Applications](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/b1b929a5aea64571b2f74e810b622568.html "Our best practices about resilient application design help you to make your applications running on SAP BTP stable and highly available.") :arrow_upper_right:.
 
 
  <a name="loio1c6cba872ce24f2ba24f53feb6dbce6d"/>

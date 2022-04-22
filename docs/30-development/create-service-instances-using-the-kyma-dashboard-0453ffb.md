@@ -124,7 +124,7 @@ Follow the steps to create a service instance:
 
 2.  Search for the service you want to instantiate.
 
-3.  Click *+ Add* and provide the following details:
+3.  Click *Add once +* and provide the following details:
 
     -   *Name* - a unique name for your service instance. If you do not provide any custom name, the system will automatically generate one.
 

@@ -18,3 +18,8 @@ PATCH /saas-manager/v1/application/tenants/{tenantId}/subscriptions
 > ### Note:  
 > If you have an old application router version, the HTML5 Application Repository app-runtime `client_credentials` token is created by using HTML5 application provider subaccount.
 
+**Related Information**  
+
+
+[Developing Multitenant Applications in the Cloud Foundry Environment](developing-multitenant-applications-in-the-cloud-foundry-environment-5e8a2b7.md "In the Cloud Foundry environment, you can develop and run multitenant applications, and share them with multiple consumers simultaneously on SAP BTP.")
+

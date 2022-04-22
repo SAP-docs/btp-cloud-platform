@@ -12,7 +12,7 @@ To grant authorizations to a communication user, as admnistrator, you create a c
 
 You have created a communication user that is used for data exchange with other systems. To create a communication user, you use the *Maintain Communication Users* app on the SAP Fiori launchpad \(see also [How to Create Communication Users](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0377adea0401467f939827242c1f4014.html)\).
 
-You have created a communication system, which represents the communication partner within a communication. To create a communication system, you use the Maintain Communication Systems app \(see also [How to Create Communication Systems](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c2234acd55774ebcbedb66744199273e.html)\).
+You have created a communication system, which represents the communication partner within a communication. To create a communication system, you use the *Maintain Communication Systems* app \(see also [How to Create Communication Systems](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c2234acd55774ebcbedb66744199273e.html)\).
 
 
 

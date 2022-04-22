@@ -14,7 +14,7 @@ Perform this task in every system. Alternatively, you can also create a business
 
 ## Procedure
 
-1.  Follow the instructions of the documentation to create a business role from a template or from scratch \(but drop the steps for maintaining instance-based restrictions and for managing launchpad space\):
+1.  Follow the instructions of the documentation to create a business role from a template or from scratch \(but omit the steps for maintaining instance-based restrictions and for managing launchpad space\):
 
     -   [How to Create a Business Role from Scratch](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/f65e51a7203443efb58fe535c3d13e5f.html)
     -   [How to Create a Business Role from a Template](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/ec310a8b669a45ca898dc4dd91d97de2.html)

@@ -23,7 +23,7 @@ In this example, the call between the application and the service uses technical
 
  ![](images/app_plan_technical_user_pptx_1ded4e5.png "Two Developments Tightly Coupled Using Technical Communication") 
 
-Like a trust arrangement, you must configure service B to grant the authority to business application A to use the `$XSAPPNAME.Create` scope. Likewise you must configure business application A to accept such declarations of authority. This configuration is part of the `xs-security.json` of the UAA service instances of the two developments.
+Like a trust arrangement, you must configure service B to grant the authority to business application A to use the `$XSAPPNAME.Create` scope. Likewise, you must configure business application A to accept such declarations of authority. This configuration is part of the `xs-security.json` of the UAA service instances of the two developments.
 
 
 
@@ -57,7 +57,7 @@ Like a trust arrangement, you must configure service B to grant the authority to
 
     For example:
 
-    ***cf create-service xsuaa application servb-uaa -c /appa/security/xs-security.json***
+    ***cf create-service xsuaa application servb-uaa -c /servb/security/xs-security.json***
 
 3.  As the business application developer, accept the authority of other applications in the `authorities` section of the `xs-security.json` in business application A.
 
@@ -75,19 +75,19 @@ Like a trust arrangement, you must configure service B to grant the authority to
     `"authorities":["$XSAPPNAME(application,servb).Create]"`.
 
     > ### Note:  
-    > For the sake of this example, we have removed any scopes and role templates for application A. Naturally, we recommend that you protect application A with appropriate scopes and deliver role templates.
+    > For the sake of this example, we've removed any scopes and role templates for application A. Naturally, we recommend that you protect application A with appropriate scopes and deliver role templates.
 
 4.  Create the UAA service instance for business application A.
 
     For example:
 
-    ***cf create-service xsuaa application appa-uaa -c /servb/security/xs-security.json***
+    ***cf create-service xsuaa application appa-uaa -c /appa/security/xs-security.json***
 
 5.  Deploy the developments.
 
 6.  As an adminístrator, create a role from the role templates for business application A and assign the role to a user.
 
-    In the example we created here, there are no role template to create roles from.
+    In the example, we created here, there are no role template to create roles from.
 
     For more information, see [Administration: Managing Authentication and Authorization](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/1ff47b2d980e43a6b2ce294352333708.html).
 

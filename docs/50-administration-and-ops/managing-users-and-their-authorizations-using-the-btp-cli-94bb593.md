@@ -44,7 +44,7 @@ Run the command ...
 <tr>
 <td valign="top">
 
-List all users
+List users
 
 
 
@@ -152,7 +152,7 @@ Run the command ...
 <tr>
 <td valign="top">
 
-List all apps of the global account
+List apps
 
 
 
@@ -177,21 +177,9 @@ Get details about a specific application
 
 `btp get security/app`
 
+To get the ID of a specific app, run `btp list security/app`
 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-List all roles
-
-
-
-</td>
-<td valign="top">
-
-`btp list security/role`
+.
 
 
 
@@ -200,7 +188,7 @@ List all roles
 <tr>
 <td valign="top">
 
-List all roles of a specific application
+List roles
 
 
 
@@ -324,7 +312,7 @@ Run the command ...
 <tr>
 <td valign="top">
 
-List all role collections
+List role collections
 
 
 

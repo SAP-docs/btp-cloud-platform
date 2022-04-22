@@ -98,7 +98,7 @@ Please refer to the example code for an application jobs main class. Literals ar
 
 [Defining the Job Catalog Entry](defining-the-job-catalog-entry-1cff59e.md "")
 
-[Defining the Job Template](defining-the-job-template-1f04ad2.md "")
+[Creating the Job Template](creating-the-job-template-1f04ad2.md "")
 
 [Setting up the Authorizations](setting-up-the-authorizations-bb559a5.md "Some further activities in ADT and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app Application Jobs.")
 

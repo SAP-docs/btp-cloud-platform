@@ -4,15 +4,20 @@
 
 Identity management comprises setting up trust and providing credentials for business users.
 
+  
+  
+<a name="loio783103882c604a06b244ece500e59857__fig_txh_g4k_ctb"/>Identity Management Architecture
+
+ ![](images/IAM_Hybrid_Landscape_Architecture_c3494d2.png "Identity Management Architecture") 
 
 
-In the ABAP environment, the default identity provider for applications is Identity Authentication service or rather SAP ID service, an instance of Identity Authentication service. It is used to set up trust for business users and supports identity federation, which enables user access across various systems by exchanging identity information based on a trust relationship. See [Identity Federation](identity-federation-2abdc1d.md).
 
-Using the default identity provider, you can also establish trust to a custom identity authentication service tenant. See [Setup of a Custom Identity Service \(Optional\)](../20-getting-started/setup-of-a-custom-identity-service-optional-550251a.md).
+When setting up your identity management architecture, the following uses cases are possible:
 
-Additionally, you have the option to use a corporate identity provider. In this case, we recommend using the Identity Authentication service as a proxy for the corporate identity provider. See [Corporate Identity Providers](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/19f3eca47db643b6aad448b5dc1075ad.html). Note that there is no direct trust relationship between the authenticating identity provider and the service provider that the business user is trying to access. For this scenario, in a hybrid landscape, we recommend the following identity and access management architecture:
+-   Using the default identity provider SAP ID service, an instance of Identity Authentication service. It is used to set up trust for business users and supports identity federation, which enables user access across various systems by exchanging identity information based on a trust relationship. See [Identity Federation](identity-federation-2abdc1d.md).
+-   Establishing trust to a custom identity authentication service tenant. See [Setup of a Custom Identity Service](../20-getting-started/setup-of-a-custom-identity-service-550251a.md).
+-   Using a corporate identity provider in a hybrid landscape. In this case, we recommend using the Identity Authentication service as a proxy for the corporate identity provider. See [Corporate Identity Providers](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/19f3eca47db643b6aad448b5dc1075ad.html). Note that there is no direct trust relationship between the authenticating identity provider and the service provider that the business user is trying to access.
 
-![](images/IAM_Hybrid_Landscape_Architecture_c3494d2.png)
 
 **Related Information**  
 

@@ -164,5 +164,5 @@ The SAP Java buildpack provides the following components \(containers, jres, fra
 
 ## Release Notes
 
-To see the latest news and updates about the SAP Java Buildpack, regularly check the release notes on the [What's New portal](https://help.sap.com/doc/43b304f99a8145809c78f292bfc0bc58/Cloud/en-US/98bf747111574187a7c76f8ced51cfeb.html?sel1=SAP%20Java%20Buildpack&from=2021-01-01&to=2021-12-31).
+To see the latest news and updates about the SAP Java Buildpack, regularly check the release notes on the [What's New portal](https://help.sap.com/doc/43b304f99a8145809c78f292bfc0bc58/Cloud/en-US/98bf747111574187a7c76f8ced51cfeb.html?sel1=SAP%20Java%20Buildpack&from=2021-01-01).
 

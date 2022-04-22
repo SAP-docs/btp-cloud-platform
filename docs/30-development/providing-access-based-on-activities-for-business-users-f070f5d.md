@@ -4,7 +4,7 @@
 
 In this scenario, you provide access depending on what the user should be allowed to do, for example, read or write access.
 
-This scenario is more complex than a simple unrestricted access provision because you must also create an authorization object and implement authority checks in the behavior implementation. However, you benefit from the extra efforts because you can enable the administrator to create separate business roles for different activities, that is, based on on the authorization field `ACTVT` \(*Activity*\) for create, read, update, and delete.
+This scenario is more complex than a simple unrestricted access implementation because you must also create an authorization object and implement authority checks in the behavior implementation. However, you benefit from the extra efforts because you can enable the administrator to create separate business roles for different activities, that is, based on the authorization field `ACTVT` \(*Activity*\) for create, read, update, and delete.
 
 
 

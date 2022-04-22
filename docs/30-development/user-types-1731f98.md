@@ -43,6 +43,13 @@ In the ABAP environment, there are different types of users such as business use
 
 
 </td>
+<td valign="top">
+
+**Provider Support User**
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -73,6 +80,13 @@ SAP
 
 
 </td>
+<td valign="top">
+
+Provider
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -84,21 +98,28 @@ SAP
 </td>
 <td valign="top">
 
-Accessing Business Applications \(SAP Fiori Applications\) and Using ABAP Development Tools
+Accessing business applications \(SAP Fiori Applications\) and using ABAP Development Tools
 
 
 
 </td>
 <td valign="top">
 
-System to System Communication
+System to system communication
 
 
 
 </td>
 <td valign="top">
 
-Analyzing and Troubleshooting
+Analyzing and troubleshooting
+
+
+
+</td>
+<td valign="top">
+
+Analyzing and troubleshooting consumer tenants
 
 
 
@@ -115,6 +136,13 @@ Analyzing and Troubleshooting
 <td valign="top">
 
 Identity Provider
+
+
+
+</td>
+<td valign="top">
+
+Local
 
 
 
@@ -163,6 +191,13 @@ Support Role
 
 
 </td>
+<td valign="top">
+
+Access to Identity and Access Management and Communication Management apps
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -189,6 +224,13 @@ CC\*
 <td valign="top">
 
 \_SAP\*
+
+
+
+</td>
+<td valign="top">
+
+PS\*
 
 
 
@@ -223,6 +265,13 @@ CC\*
 
 
 </td>
+<td valign="top">
+
+<host\>.abap-provider-web.<region\>
+
+
+
+</td>
 </tr>
 </table>
 
@@ -235,6 +284,8 @@ CC\*
 
 **Support users** are SAP-owned technical users that can access customer systems. See [SAP Support User Request Log](../50-administration-and-ops/sap-support-user-request-log-934a027.md).
 
+**Provider support users** are technical users of the provider of a SaaS soluition that can access consumer tenants in customer systems. See [Create Support Users](create-support-users-b31712c.md).
+
 
 
 <a name="loio1731f982edd24c669133255384bf45f9__section_mst_1pn_mrb"/>
@@ -243,9 +294,9 @@ CC\*
 
 In SAP BTP, there are platform and business users.
 
-**Platform users** are usually developers who operate in the SAP BTP cockpit by deploying, administering, and troubleshooting applications and services. They are authorized by using role collections. Platform users can also be added as space members, such as space developers, in the Cloud Foundry space.
+**Platform users** operate in the SAP BTP cockpit by deploying, administering, and troubleshooting applications and services. They are authorized by using role collections or by user assignment in the Cloud Foundry space as space or org members, such as space developers.
 
-**Business users** use the applications that are deployed to SAP BTP.
+**Business users** use the applications that are deployed to SAP BTP and are authorized by using role collections.
 
 To learn more about platform and business users in SAP BTP, see [User and Member Management](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cc1c676b43904066abb2a4838cbd0c37.html).
 

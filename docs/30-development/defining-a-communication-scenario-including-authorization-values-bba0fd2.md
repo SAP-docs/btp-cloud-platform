@@ -11,7 +11,7 @@ In ABAP Development Tools, you can define communication scenarios, which can be 
 In ABAP Development Tools, you define a communication scenario and add the required services to the scenario. As part of the communication scenario definition, you also define the relevant authorization fields and activities. An administrator can then use this communication scenario and create a communication arrangement based on it.
 
 > ### Note:  
-> Administrators cannot change the authorization activities and values that you define as part of the communication scenario when they create their communication arrangements.
+> Administrators can't change the authorization activities and values that you define as part of the communication scenario when they create their communication arrangements.
 
 For more information, see [Consuming Services in the Context of API with Technical Users](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/54886e183a3a40cbae912cf3b09dc46a.html) in the ABAP Development User Guide.
 
@@ -33,9 +33,11 @@ For more information, see [Consuming Services in the Context of API with Technic
 
 7.  On the *Authorizations* tab, add the authorization object that you created for the business service.
 
-8.  On the *Authorizations* tab, also add the relevant authorization fields and activities. For each authorization field, you can now enter the values that you allow for the communication user. Similarly, you can select which activities are allowed for the communication user.\(The communication user will be defined by the administrator as part of the communication arrangement that is based on this communication scenario.\)
+8.  On the *Authorizations* tab, also add the relevant authorization fields and activities. For each authorization field, you can now enter the values that you allow for the communication user. Similarly, you can select which activities are allowed for the communication user.
 
     For example, you could define that only bonus variant V0 can be created using the communication user, but you would allow all possible activities.
+
+    The communication user will be defined by the administrator as part of the communication arrangement that is based on this communication scenario.
 
 9.  If you want to test your communication scenario directly in the development system, publish it locally to make sure that the required services have been generated.
 

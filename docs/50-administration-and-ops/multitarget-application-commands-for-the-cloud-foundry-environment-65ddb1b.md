@@ -261,11 +261,15 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     [--no-start] [--namespace]
     [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
     [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]
+    cf deploy ...[--retries <RETRIES>]
     ```
 
 -   **Deployment using an URL to the MTA archive**
 
     You have the option to deploy or synchronize an MTA, the source of which is contained at a URL address.When you use this command, the request prompts the backend to download the archive and then dеploy it:
+
+    > ### Caution:  
+    > This option is currently experimental.
 
     ```
     cf deploy [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
@@ -279,7 +283,11 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     [--no-start] [--namespace]
     [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
     [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]
+    cf deploy ...[--retries <RETRIES>]
     ```
+
+    > ### Note:  
+    > The referenced MTA archive must be publicly accessible.
 
     > ### Note:  
     > -   The URL to the MTA archive must include the *<http://\>* or *<https://\>* prefixes.
@@ -303,6 +311,7 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     [--no-start] [--namespace]
     [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
     [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]
+    cf deploy ...[--retries <RETRIES>]
     ```
 
 
@@ -367,6 +376,22 @@ The path to \(and name of\) the archive or the directory containing the Multitar
 <td valign="top">
 
 The Cloud Deployment service also accepts a path to a directory where an `mtad.yaml` is maintained with path elements, for example, `cf deploy ./`.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*<--retries\>*
+
+
+
+</td>
+<td valign="top">
+
+Retry the operation specified number of times in case a non-content error \(default 3\).
 
 
 
@@ -860,6 +885,7 @@ cf bg-deploy [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varna
 [--no-start] [--use-namespaces] [--no-namespaces-for-services]
 [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
 [--keep-files] [--no-restart-subscribed-apps] [--no-confirm] [--do-not-fail-on-missing-permissions][--skip-idle-start]
+cf deploy ...[--retries <RETRIES>]
 ```
 
 Interact with an active MTA deploy operation, for example, by performing an action:
@@ -909,6 +935,22 @@ or
 <td valign="top">
 
 The path to \(and name of\) the archive or the path to the directory containing the Multitarget Application to deploy. The application archive must have the format \(and file extension\) `mtar`, for example, `MTApp1.mtar`; the specified directory can be specified as a path \(for example, `myApp/` or `.` \(current directory\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*<--retries\>*
+
+
+
+</td>
+<td valign="top">
+
+Retry the operation specified number of times in case a non-content error \(default 3\).
 
 
 
@@ -1380,6 +1422,7 @@ cf undeploy [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varnam
      {"varname"}) <URL> (varname]] [-f] 
 [--delete-services] [--delete-service-keys] [--delete-service-brokers] [--no-restart-subscribed-apps] 
 [--do-not-fail-on-missing-permissions]
+cf deploy ...[--retries <RETRIES>]
 ```
 
 Interact with an undeploy MTA operation, for example, by performing an action.
@@ -1425,6 +1468,22 @@ Description
 <td valign="top">
 
 The ID of the MTA you want to undeploy
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*<--retries\>*
+
+
+
+</td>
+<td valign="top">
+
+Retry the operation specified number of times in case a non-content error \(default 3\).
 
 
 

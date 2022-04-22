@@ -155,13 +155,13 @@ After the initial setup of the ABAP environment, your developers can now develop
 As next steps, you can optionally set up additional tools for your developers or ensure the integration with other systems:
 
 -   If your developers need a UI development tool, set up SAP Business Application Studio \(see [Setup of UI Development in SAP Business Application Studio \(Optional\)](setup-of-ui-development-in-sap-business-application-studio-optional-37a896b.md)\).
--   As a default identity service in the ABAP environment, you get SAP ID. You might want to set up a custom identity service \(see [Setup of a Custom Identity Service \(Optional\)](setup-of-a-custom-identity-service-optional-550251a.md)\).
+-   As a default identity service in the ABAP environment, you get SAP ID. You might want to set up a custom identity service \(see [Setup of a Custom Identity Service](setup-of-a-custom-identity-service-550251a.md)\).
 -   As an alternative to SAP Business Application Studio, you can also set up SAP Web IDE \(see [Setup of UI Development in SAP Web IDE \(Optional\)](setup-of-ui-development-in-sap-web-ide-optional-43d1a08.md)\).
 
 ![](images/Image_Map_ABAP_Environment_Setup_-_Next_Steps_7f92205.png)
 
 -   [Setup of UI Development in SAP Business Application Studio \(Optional\)](setup-of-ui-development-in-sap-business-application-studio-optional-37a896b.md)
--   [Setup of a Custom Identity Service \(Optional\)](setup-of-a-custom-identity-service-optional-550251a.md)
+-   [Setup of a Custom Identity Service](setup-of-a-custom-identity-service-550251a.md)
 -   [Setup of UI Development in SAP Web IDE \(Optional\)](setup-of-ui-development-in-sap-web-ide-optional-43d1a08.md)
 
 **Related Information**  

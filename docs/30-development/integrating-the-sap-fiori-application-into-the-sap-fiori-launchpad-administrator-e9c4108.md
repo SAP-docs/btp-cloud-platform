@@ -26,7 +26,7 @@ You must integrate the SAP Fiori app into the IAM structure of the SAP Fiori lau
 
 2.  Add a page to this space and add the app tile to the page.
 
-    For more information about how to proceed, see [How to Create a Space and Page for a Business Role](https://help.sap.com/viewer/4fc8d03390c342da8a60f8ee387bca1a/2008.500/en-US/ab05d9e086554a08af88d6482deb1bcb.html) in the SAP Fiori launchpad documentation on SAP Help Portal.
+    For more information about how to proceed, see [Create a New Space and Page for a Business Role](https://help.sap.com/viewer/4fc8d03390c342da8a60f8ee387bca1a/latest/en-US/ab05d9e086554a08af88d6482deb1bcb.html) in the SAP Fiori launchpad documentation on SAP Help Portal.
 
 
 
@@ -38,5 +38,5 @@ You must integrate the SAP Fiori app into the IAM structure of the SAP Fiori lau
 You’ve now enhanced the business roles for the business service with authorizations for the UI. All users that have been assigned to the business roles before can now view the page and SAP Fiori application in their SAP Fiori launchpad.
 
 > ### Note:  
-> The SAP Fiori application only appears in the spaces mode for the user. The spaces mode was developed to offer more flexibility to influence the launchpad layout for specific user groups. The business role defines which users see a specific space. For more information, see [Managing Launchpad Spaces and Pages](https://help.sap.com/viewer/4fc8d03390c342da8a60f8ee387bca1a/2008.500/en-US/e55f5cc8ccec490f83a00284659bce9f.html) on SAP Help Portal.
+> The SAP Fiori application only appears in the spaces mode for the user. The spaces mode was developed to offer more flexibility to influence the launchpad layout for specific user groups. The business role defines which users see a specific space. For more information, see [Managing Launchpad Spaces and Pages](https://help.sap.com/viewer/4fc8d03390c342da8a60f8ee387bca1a/latest/en-US/e55f5cc8ccec490f83a00284659bce9f.html) on SAP Help Portal.
 

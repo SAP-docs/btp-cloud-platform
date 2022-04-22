@@ -14,7 +14,7 @@ Learn how to use the SAP BTP subscription management dashboard to manage your mu
 
 SaaS application providers can now use the new subscription management dashboard to manage their multitenant application's subscriptions.
 
-The tool is based on the SaaS Provisioning service APIs that you can now work with using a user interface too simplify your operation and maintenance work.
+The tool is based on the SaaS Provisioning service APIs that you can now work with using a user interface to simplify your operation and maintenance work.
 
 
 
@@ -22,7 +22,7 @@ The tool is based on the SaaS Provisioning service APIs that you can now work wi
 
 ## Main Capabilities
 
-You can do the following in the subscription management dashboard,:
+You can do the following in the subscription management dashboard:
 
 -   View all subscriptions to your application and the information about them, such as their state and tenant ID.
 -   View each subscription's dependencies and status.
@@ -89,13 +89,13 @@ You can apply various search and filtering criteria such as plan, subscription s
 
  ![](images/For_Dashboard1_c5bee05.png) 
 
-Clicking on a subscription row opens details about the subscription to the rightwhere you can find more information about the subscription and analyze errors if the subscription status is `Failed`.
+Clicking on a subscription row opens details about the subscription to the right where you can find more information about the subscription and analyze errors if the subscription status is `Failed`.
 
 You can also perform additional operations, such as update subscription dependencies, if you are assigned to the `Subscription Management Dashboard Administrator` role.
 
  ![](images/For_Dashboard2_9b943b5.png) 
 
-You can choose to see your subscription dependenciesin a tree or table view. See the following image for the tree view representation:
+You can choose to see your subscription dependencies in a tree or table view. See the following image for the tree view representation:
 
  ![](images/For_Dashboard3_8ff2261.png) 
 
