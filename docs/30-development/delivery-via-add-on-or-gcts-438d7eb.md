@@ -230,6 +230,32 @@ gCTS transport includes basic checks, for strict checks additional processes nee
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+**SAP Software Certification**
+
+
+
+</td>
+<td valign="top">
+
+Possible, check details here:
+
+-   [SAP Extension Suite Certification](https://www.sap.com/documents/2016/10/7cf3eaec-907c-0010-82c7-eda71af511fa.html)
+-   [https://www.sap.com/icc](https://www.sap.com/icc)
+
+
+
+</td>
+<td valign="top">
+
+Not possible
+
+
+
+</td>
+</tr>
+<tr>
 <td valign="top" rowspan="2">
 
  **Certifications and Compliance of Solution**

@@ -75,6 +75,52 @@ GET
 </td>
 <td valign="top">
 
+Get the cloud credit data history for a global account.
+
+
+
+</td>
+<td valign="top">
+
+`/cloudCreditDetails`
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET
+
+
+
+</td>
+<td valign="top">
+
+Get monthly usage reporting data for a directory and a specified time period.
+
+
+
+</td>
+<td valign="top">
+
+`/monthlyDirectoryUsage`
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET
+
+
+
+</td>
+<td valign="top">
+
 Get monthly usage-reporting data for a global account and a specified time period.
 
 

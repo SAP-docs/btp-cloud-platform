@@ -49,7 +49,7 @@ When you create a new Kyma environment instance in the SAP BTP cockpit from the 
         "groupsClaim": "groups",
         "signingAlgs": ["RS256"],
         "usernamePrefix": "-"
-      }
+      },
       "administrators": ["user-admin1", ... ]
     ```
 
@@ -79,7 +79,7 @@ When you create a new Kyma environment instance in the SAP BTP cockpit from the 
 Your Kyma environment will be instantiated with a custom IdP.
 
 > ### Caution:  
-> According to Oauth2 flows, IdPs have lists of allowed callback URLs. Configure the Kyma Dashboard URL \(`https://dashboard.kyma.cloud.sap/`\) and the localhost for kubectl authentication \(`http://localhost:8000`\) as allowed callback URLs at your IdP provider so that authenticated users could be redirected back to the Kyma application.
+> According to Oauth2 flows, IdPs have lists of allowed callback URLs. Configure the Kyma Dashboard URL \(`https://dashboard.kyma.cloud.sap`\) and the localhost for kubectl authentication \(`http://localhost:8000`\) as allowed callback URLs at your IdP provider so that authenticated users could be redirected back to the Kyma application.
 
 > ### Note:  
 > You can also apply the custom IdP configuration and set up administrators during your Kyma instance update operation by providing the details as an array of strings in the respective fields.

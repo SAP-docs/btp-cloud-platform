@@ -18,7 +18,7 @@ To learn more about using events in Kyma, see these development tutorials:
 
 -   [Trigger a Microservice with an Event](https://developers.sap.com/tutorials/cp-kyma-microservice-trigger.html)
 
--   [Trigger a Function with an Event](https://kyma-project.io/docs/kyma/latest/03-tutorials/00-application-connectivity/ac-07-trigger-function-with-event/)
+-   [Trigger a Function with an Event](https://kyma-project.io/docs/kyma/latest/03-tutorials/00-eventing/)
 
 
 You can switch the Kyma Eventing backend from NATS to SAP Event Mesh by following these steps:
@@ -29,9 +29,11 @@ You can switch the Kyma Eventing backend from NATS to SAP Event Mesh by followin
 
 ## Procedure
 
-1.  To generate a SAP Event Mesh secret, go to**Service Management \> Catalog** and search for Event Mesh.
+1.  Log in to Kyma Dashboard. The URL is in the *Overview* section of your subaccount.
 
-2.  Select **Add** and use the following sample config.json file, replacing **\{EVENT\_MESH\_NAME\}** and **\{EVENT\_MESH\_NAMESPACE\}** with your own values:
+2.  To generate a SAP Event Mesh secret, select a namespace and go to**Service Management \> Catalog** and search for Event Mesh.
+
+3.  Select **Add** and use the following sample config.json file, replacing **\{EVENT\_MESH\_NAME\}** and **\{EVENT\_MESH\_NAMESPACE\}** with your own values:
 
     ```
     {
@@ -69,13 +71,13 @@ You can switch the Kyma Eventing backend from NATS to SAP Event Mesh by followin
     > ### Note:  
     > The **\{EVENT\_MESH\_NAMESPACE\}** field cannot exceed 64 characters, or begin or end with a dot or hyphen. This is because it's necessary to follow the SAP Event Specification, which is based on the [CloudEvents Specification](https://github.com/cloudevents/spec/blob/v1.0/spec.md). For more information, read the [SAP Event Mesh documentation](https://help.sap.com/viewer/bf82e6b26456494cbdd197057c09979f/Cloud/en-US/00d56d697c7549408cfacc8cb6a46b11.html).
 
-3.  Go to *Service Management* \> *Instances* and select the new Service Instance.
+4.  Go to *Service Management* \> *Instances* and select the new Service Instance.
 
-4.  Select *Credentials* \> *Create Credentials*.
+5.  Select *Credentials* \> *Create Credentials*.
 
-5.  In your Namespace, go to *Configuration* \> *Secrets*.
+6.  In your Namespace, go to *Configuration* \> *Secrets*.
 
-6.  Select *Edit* and label the Secret with `kyma-project.io/eventing-backend: beb`.
+7.  Select *Edit* and label the Secret with `kyma-project.io/eventing-backend: beb`.
 
     In the editor, you should see the following:
 
