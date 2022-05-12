@@ -239,24 +239,6 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     
     </td>
     </tr>
-    <tr>
-    <td valign="top">
-
-    *System User*
-
-
-    
-    </td>
-    <td valign="top">
-
-    The technical user for an OData access with SAML 2.0 Bearer Assertion authentication with technical user.
-
-    Specify a value for this setting if you want to configure OData access with SAML 2.0 Bearer Assertion authentication with technical user.
-
-
-    
-    </td>
-    </tr>
     </table>
     
 4.  In the *Additional Properties*, choose *New Property* to define the following properties:
@@ -278,6 +260,24 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
 
     
     </th>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    *SystemUser*
+
+
+    
+    </td>
+    <td valign="top">
+
+    The technical user for an OData access with SAML 2.0 Bearer Assertion authentication with technical user.
+
+    Specify a value for this setting if you want to configure OData access with SAML 2.0 Bearer Assertion authentication with technical user.
+
+
+    
+    </td>
     </tr>
     <tr>
     <td valign="top">
