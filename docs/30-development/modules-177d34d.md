@@ -2896,37 +2896,35 @@ n/a
 
 By default every module has its own binary that is uploaded and deployed in specific manner. It is possible for multiple MTA modules to reference a single deployable binary, for example, an application archive. This means that during deployment, the same application archive is executed separately in multiple applications or application instances, but with different parameters and properties. This results in multiple running applications based on the same source code, which have different configurations and setup. A development project can have one source folder, which is referenced by multiple module entries in the MTA deployment descriptor `mtad.yaml`, as illustrated in the following example:
 
-> ### Code Syntax:  
+> ### Sample Code:  
 > Multiple MTA Module Entries in the Deployment Descriptor \(`mtad.yaml`\)
 > 
-> > ### Sample Code:  
-> > ```
-> > 
-> > _schema-version: "3.1.0"
-> > ID: hello
-> > version: 0.1.0
-> > 
-> > modules:
-> > - name: hello-router
-> > type: java.tomee
-> > path: web/router.war
-> > requires:
-> > - name: backend
-> > properties:
-> > backend: ~{url}/content
-> > name: backend
-> > url: ~{url}
-> > 
-> > - name: hello-backend
-> > type: java.tomee
-> > path: web/router.war
-> > provides:
-> > - name: backend
-> > properties:
-> > url: "${default-url}"
-> > 
-> > 
-> > ```
+> ```
+> 
+> _schema-version: "3.1.0"
+> ID: hello
+> version: 0.1.0
+> 
+> modules:
+>    - name: hello-router
+>      type: java.tomee
+>      path: web/router.war
+>      requires:
+>      - name: backend
+>        properties:
+>          backend: ~{url}/content
+>          name: backend
+>          url: ~{url}
+>         
+>    - name: hello-backend
+>      type: java.tomee
+>      path: web/router.war
+>      provides:
+>        - name: backend
+>          properties:
+>            url: "${default-url}"
+> 
+> ```
 
 If deployment is based on an MTA archive, it is not necessary to duplicate the code to have two different deployable modules; the specification for the MTA-module entry in `MANIFEST.MF` is extended, instead. The following \(incomplete\) example of a `MANIFEST.MF` shows how to use a comma-separated list of module names to associate one set of deployment artifacts with all listed modules:
 

@@ -12,18 +12,10 @@ In the Kyma environment, you use Grafana to query, visualize, and explore metric
 
 Project [Grafana](https://grafana.com/oss/grafana/) is an open observability platform for Kubernetes. To access Grafana, go to the Kyma Dashboard and select *Diagnostics* \> *Metrics*.
 
-With Kyma, you get the following [Grafana](https://grafana.com/oss/grafana/) features preconfigured out of the box for your needs:
+With Kyma, you get the following Grafana features preconfigured out of the box for your needs:
 
 -   Predefined **dashboards** to visualize the data.
 -   **Explore** to query logs and metrics.
-
-You can view the data in the read-only mode. This means, you can browse predefined dashboards and query the data, but you can’t define or edit any configurations.
-
-> ### Note:  
-> You cannot apply custom metrics, because those are in the Kyma Namespace, which must not be edited.
-
-> ### Caution:  
-> The amount of data that you can search at once in predefined dashboards and custom metrics is limited. As a result, large queries that take over 30 seconds to retrieve data may get dropped.
 
 > ### Note:  
 > If your cluster is running Kyma version 2.0 and higher and you haven’t exposed Grafana securely yet, read [Set up Grafana Authentication](set-up-grafana-authentication-3e4299c.md).
@@ -128,28 +120,24 @@ For details on creating queries, read the [Querying logs](https://grafana.com/do
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-Limitations
-
-
-
-</td>
-<td valign="top">
-
-There's a fixed metrics retention time and size. Prometheus stores up to 15 GB of data for a maximum period of 30 days. If the default size or time is exceeded, the oldest records are removed first.
-
-
-
-</td>
-<td valign="top">
-
-There's a fixed logs retention time and size. Loki stores up to 30 GB of data for a maximum of 5 days, with maximum ingestion rate of 3MB/s. If the default time is exceeded, the oldest logs are removed first.
-
-
-
-</td>
-</tr>
 </table>
+
+
+
+<a name="loiod71a7cdb9c654860b41276b579d30da1__section_nbg_kts_ctb"/>
+
+## Limitations
+
+-   You can view the data in the **read-only mode**. This means, you can browse predefined dashboards and query the data, but you can’t define or edit any configurations.
+
+-   The amount of data that you can **search** at once in predefined dashboards and custom metrics is limited. As a result, large queries that take over 30 seconds to retrieve data may get dropped.
+
+-   You can apply **no custom metrics**, because those are in the Kyma Namespace, which must not be edited.
+
+-   There's a fixed **metrics** retention time and size. Prometheus stores up to 15 GB of data for a maximum period of 30 days. If the default size or time is exceeded, the oldest records are removed first.
+
+-   The configured memory limits of the Prometheus and Prometheus-Istio instances limit the number of **time series samples** that can be ingested. It depends on several factors, for example, the number of Pods and frequency of their recreation, number of Nodes, and topology of the Istio service mesh. The default limit is 800K time series in the Prometheus Pod, and 400K time series in the Prometheus-Istio Pod.
+
+-   There's a fixed **logs** retention time and size. Loki stores up to 30 GB of data for a maximum of 5 days, with maximum ingestion rate of 3MB/s. If the default time is exceeded, the oldest logs are removed first.
+
 

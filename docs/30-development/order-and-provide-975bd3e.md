@@ -132,7 +132,7 @@ For more information on how to create multitenant-enabled applications in the AB
     > ### gCTS Delivery:  
     > When defining your ABAP solution, you can ignore the add-on product name in the service configuration. The value for `addon_product_name` has to be empty so that ABAP systems without an add-on \(abap/standard\) are provisioned for the solution.
     > 
-    > See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+    > See [Delivery via Add-On or gCTS](Chunk373453032.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 2.  In the configuration for the XSUAA instance, you specify the functional authorization scopes for the application. See [Create an XSUAA Instance](create-an-xsuaa-instance-2ce1a96.md).
 
@@ -157,7 +157,7 @@ By using MTA extension descriptors, you can configure the required values for de
 > ### gCTS Delivery:  
 > If you use gCTS instead of add-ons for delivering software components to production systems, the value for the add-on product name inside the MTA extension descriptor file has to be empty.
 > 
-> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+> See [Delivery via Add-On or gCTS](Chunk373453032.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 **Create Cloud Controller Destination**
 
@@ -205,7 +205,7 @@ As an operator, subscribe to the *Landscape Portal* application in the *05 Provi
 > ### gCTS Delivery:  
 > In the Landscape Portal, you can access the provider system and choose the provider tenant \(client 100\). Via the provider tenant, you get access to Fiori Apps, for example the *Manage Software Components* app, which is used for importing software components via gCTS.
 > 
-> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+> See [Delivery via Add-On or gCTS](Chunk373453032.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
  <a name="loio57c19c7c4dfa4c3cbb846c1ac57e2095"/>
 
@@ -246,6 +246,9 @@ To learn more about how you can offer your SaaS solution to SAP customers via SA
 ### \(Optional\) Certification
 
 With an SAP Extension Suite certification, your SaaS solution is featured in the SAP Certified Solution Directory, which allows for more growth and customer participation. See [SAP ICC Integration Scenario - SAP Extension Suite Certification](https://www.sap.com/documents/2016/10/7cf3eaec-907c-0010-82c7-eda71af511fa.html) and [SAP Certified Solution Directory](https://www.sap.com/dmc/exp/2013_09_adpd/enEN/#/solutions).
+
+> ### Note:  
+> Certification of SaaS solutions is only available if you have used add-on build delivery.
 
  <a name="loioa24217a0d6fa434bbce97869dfb70dda"/>
 

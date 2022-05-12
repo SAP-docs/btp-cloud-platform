@@ -15,7 +15,7 @@ Developers using SAP Business Application Studio must be assigned to developer r
 > ### Note:  
 > In the following steps, you can assign a role collection to an individual user. If you have run the booster *Prepare an Account for ABAP Development*, you can skip this step.
 > 
-> As an alternative, if you are using a custom identity service and identity provider groups, you can also assign the role collection to the identity provider group for your developers. For more information, see [Setup of a Custom Identity Service \(Optional\)](setup-of-a-custom-identity-service-optional-550251a.md) and [Mapping a Role Collection to the Identity Provider Group for Developers](mapping-a-role-collection-to-the-identity-provider-group-for-developers-e1a5052.md).
+> As an alternative, if you are using a custom identity service and identity provider groups, you can also assign the role collection to the identity provider group for your developers. For more information, see [Setup of a Custom Identity Service](setup-of-a-custom-identity-service-550251a.md) and [Mapping a Role Collection to the Identity Provider Group for Developers](mapping-a-role-collection-to-the-identity-provider-group-for-developers-e1a5052.md).
 
 
 

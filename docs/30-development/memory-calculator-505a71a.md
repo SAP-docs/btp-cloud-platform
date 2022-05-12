@@ -6,9 +6,9 @@ The memory calculator provides a mechanism to fine tune the Java Virtual Machine
 
 The SAP Java Buildpack provides two options for a memory calculator:
 
--   [Memory Calculator V2](memory-calculator-505a71a.md#loio8eef9590a1d24e87af239d7c7e15fffe) - this memory calculator is activated by default.
+-    – this memory calculator is activated by default.
 
--   [Memory Calculator V1 \(SAP JVM Memory Calculator\)](memory-calculator-505a71a.md#loioc1059e056aad406297addcd177a4fb7c) - this is an optional memory calculator and could be activated with the following environment variable:
+-    – this is an optional memory calculator and could be activated with the following environment variable:
 
     ```
     ---
@@ -44,7 +44,7 @@ applications:
     JBP_CONFIG_JAVA_OPTS: "[java_opts: '-Xms144M -Xss3M -Xmx444444K -XX:MetaspaceSize=66666K -XX:MaxMetaspaceSize=88888K']"
 ```
 
-The *memory\_calculator\_v2* section in the [config/sapjvm.yml](memory-calculator-505a71a.md#loioc1059e056aad406297addcd177a4fb7c__sap-samplecodeblock_ob1_fnk_r2b) configuration file has three sizing options:
+The *memory\_calculator\_v2* section in the  configuration file has three sizing options:
 
 -   `stack_threads` – an estimate of the number of threads that will be used by the application
 -   `class_count` – an estimate of the number of classes that will be loaded
@@ -66,7 +66,7 @@ applications:
 **Related Information**  
 
 
-[Java Buildpack Memory Calculator](https://github.com/cloudfoundry/java-buildpack-memory-calculator)
+[GitHub: Java Buildpack Memory Calculator](https://github.com/cloudfoundry/java-buildpack-memory-calculator)
 
  <a name="loioc1059e056aad406297addcd177a4fb7c"/>
 
@@ -251,7 +251,7 @@ The **memory\_calculator** section encloses the input data for the memory calcul
 
 -   *memory\_settings* - for details, see [Java Out Of Memory Behavior](customizing-the-java-virtual-machine-jvm-settings-b8cda61.md#loio588cfd95fbab41178c21ceefd916a311)
 
--   *memory\_calculator\_v2* - for details, see [Memory Calculator V2](memory-calculator-505a71a.md#loio8eef9590a1d24e87af239d7c7e15fffe)
+-   *memory\_calculator\_v2* - for details, see 
 
 
 
@@ -524,5 +524,5 @@ The same calculation takes place, this time the *metaspace* is not considered be
 **Related Information**  
 
 
-[Memory Calculator V2](memory-calculator-505a71a.md#loio8eef9590a1d24e87af239d7c7e15fffe)
+
 

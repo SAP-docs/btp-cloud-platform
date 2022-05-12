@@ -372,7 +372,7 @@ Development namespace
 </td>
 <td valign="top">
 
-Naming conflicts can be avoided through agreements on naming conventions or by carrying out development in separate namespaces. See SAP note [84282](https://launchpad.support.sap.com/#/notes/84282).
+Naming conflicts can be avoided through agreements on naming conventions or by carrying out development in separate namespaces. See SAP note [84282](https://launchpad.support.sap.com/#/notes/84282) and [Maintain Namespaces](maintain-namespaces-5456007.md).
 
 
 

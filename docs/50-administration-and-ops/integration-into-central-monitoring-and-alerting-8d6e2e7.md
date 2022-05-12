@@ -220,7 +220,7 @@ Used quota of memory utilization for the SAP HANA database \(in HANA computing u
 
 <a name="loio8d6e2e78f77540d6836cc63eea121966__section_gh4_v2h_3qb"/>
 
-## Setup of ABAP Enviroment Monitoring with SAP Focused Run
+## Setup of ABAP Environment Monitoring with SAP Focused Run
 
 For more information about setting up ABAP environment monitoring with SAP Focused Run, see the tutorial [Monitor an SAP BTP ABAP Environment Service Using SAP Focused Run \(FRUN\)](https://developers.sap.com/tutorials/abap-environment-monitoring-frun-healthmonitoring.html).
 
@@ -228,9 +228,9 @@ For more information about setting up ABAP environment monitoring with SAP Focus
 
 <a name="loio8d6e2e78f77540d6836cc63eea121966__section_yhb_y2h_3qb"/>
 
-## Setup of ABAP Enviroment Monitoring with SAP Cloud ALM
+## Setup of ABAP Environment Monitoring with SAP Cloud ALM
 
-For more information about setting up ABAP enviroment monitoring with SAP Cloud ALM, see [Setup for SAP BTP ABAP Enviroment](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-scp_abap.html).
+For more information about setting up ABAP environment monitoring with SAP Cloud ALM, see [Setup for SAP BTP ABAP Environment](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-scp_abap.html).
 
 
 

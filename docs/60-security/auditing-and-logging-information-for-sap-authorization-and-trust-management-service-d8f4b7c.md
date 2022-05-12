@@ -183,7 +183,7 @@ Removing trust in an identity provider using OpenID Connect triggers a change in
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="3">
+<td valign="top" rowspan="4">
 
 Instance management
 
@@ -265,6 +265,16 @@ Delete instance.
 <td valign="top">
 
 Attributes of the service instance.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="3">
+
+> ### Note:  
+> If you create a new binding secret for the service instance, a new binding entry is created in the SAP Authorization and Trust Management service. This entry then appears in the audit log of the subaccount of the service instance. The audit log of the subaccount of the reuse service itself isn't affected.
 
 
 
@@ -750,7 +760,7 @@ We include SAML responses in the audit log for web single sign-on and SAML beare
 **Related Information**  
 
 
-[Audit Logging in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/f92c86ab11f6474ea5579d839051c334.html)
+
 
 [Audit Logging in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/02c39712c1064c96b37c1ea5bc9420dc.html)
 

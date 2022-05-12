@@ -6,7 +6,7 @@
 
 Technical name: `QUERYBUSINESSUSERIN`
 
-This synchronous inbound SOAP service enables you to provision users from your external data source such as an identity management system in SAP S/4HANA Cloud.
+This synchronous inbound SOAP service enables you to read users from your external data source such as an identity management system in SAP S/4HANA Cloud.
 
 
 
@@ -57,7 +57,7 @@ Cardinality
 <tr>
 <td valign="top" rowspan="3">
 
-`PersonExternalIdInterval`
+`PersonExternalIDInterval`
 
 Cardinality: 0..unbounded
 
@@ -100,7 +100,7 @@ You can use the following values:
     Upper boundary value is optional.
 
 
-This field is mandatory if `LowerBoundaryPersonExtId` is set.
+This field is mandatory if `LowerBoundaryPersonExtID` is set.
 
 
 
@@ -123,7 +123,7 @@ This field is mandatory if `LowerBoundaryPersonExtId` is set.
 <tr>
 <td valign="top">
 
- `LowerBoundaryPersonExtId` 
+ `LowerBoundaryPersonExtID` 
 
 
 
@@ -153,7 +153,7 @@ Employee name
 <tr>
 <td valign="top">
 
- `UpperBoundaryPersonExtId` 
+ `UpperBoundaryPersonExtID` 
 
 
 
@@ -224,7 +224,7 @@ You can use the following values:
     Upper boundary value is optional.
 
 
-This field is mandatory if `LowerBoundaryPersonId` is set.
+This field is mandatory if `LowerBoundaryPersonID` is set.
 
 
 
@@ -247,7 +247,7 @@ This field is mandatory if `LowerBoundaryPersonId` is set.
 <tr>
 <td valign="top">
 
- `LowerBoundaryPersonId` 
+ `LowerBoundaryPersonID` 
 
 
 
@@ -275,7 +275,7 @@ This field is mandatory if `LowerBoundaryPersonId` is set.
 <tr>
 <td valign="top">
 
- `UpperBoundaryPersonId` 
+ `UpperBoundaryPersonID` 
 
 
 
@@ -473,7 +473,7 @@ You can use the following values:
 <tr>
 <td valign="top" rowspan="3">
 
-`UserIdInterval`
+`UserIDInterval`
 
 Cardinality: 0..unbounded
 
@@ -516,7 +516,7 @@ You can use the following values:
     Upper boundary value is optional.
 
 
-This field is mandatory if `LowerBoundaryUserId` is set.
+This field is mandatory if `LowerBoundaryUserID` is set.
 
 
 
@@ -539,7 +539,7 @@ This field is mandatory if `LowerBoundaryUserId` is set.
 <tr>
 <td valign="top">
 
- `LowerBoundaryUserId` 
+ `LowerBoundaryUserID` 
 
 
 
@@ -567,7 +567,7 @@ This field is mandatory if `LowerBoundaryUserId` is set.
 <tr>
 <td valign="top">
 
- `UpperBoundaryUserId` 
+ `UpperBoundaryUserID` 
 
 
 

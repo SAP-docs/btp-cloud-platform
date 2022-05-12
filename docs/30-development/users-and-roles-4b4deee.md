@@ -64,7 +64,7 @@ The add-on administrator is responsible for everything related to the add-on pro
 
 -   Adjusting add-on descriptor file `addon.yml` for new versions
 
--   Registering add-on product for installation in global account for development and production
+-   Registering add-on product for installation in global account for development and production. See [Register Product](register-product-dc15fb4.md).
 
 -   Executing add-on build pipeline in Jenkins instance
 
@@ -229,14 +229,14 @@ The SaaS solution operator is responsible for creating the account model on the 
     -   Tester users in TST/QAS systems
 
 
--   Add-on update of existing systems in the Landscape Portal. See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
+-   Add-on update of existing systems in the Update Product Version app. See [Update Product Version](update-product-version-32c4f7d.md).
 
--   Monitoring of system/tenant provisioning and user onboarding in Landscape Portal
+-   Monitoring of system/tenant provisioning and user onboarding. See [Operations Dashboard](operations-dashboard-0a3a735.md).
 
 -   > ### gCTS Delivery:  
     > If you use gCTS for delivery to customer production systems instead of using add-ons, you are responsible for cloning software components and pulling the latest changes into the system using the *Manage Software Components* app.
     > 
-    > See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+    > See [Delivery via Add-On or gCTS](Chunk373453032.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 
 
@@ -297,7 +297,7 @@ S-users are used by partners and customers to log on to SAP ONE Support Launchpa
 </td>
 <td valign="top">
 
--   Requesting development namespace. See SAP note [2006427](https://launchpad.support.sap.com/#/notes/2006427).
+-   Creating development namespace. See [Maintain Namespaces](maintain-namespaces-5456007.md).
 
 -   Creating technical communication user. See SAP note [2532813](https://launchpad.support.sap.com/#/notes/2532813).
 

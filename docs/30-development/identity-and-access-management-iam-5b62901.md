@@ -22,7 +22,7 @@ In the configuration phase, an administrator registers and authorizes access rig
 
 In the operation phase, business users identify and authenticate themselves. The access to applications is based on previously authorized access rights.
 
-In a business scenario, this means that an administrator manages the authentication and authorization of business users, including configuring [trust and identity federation](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cb1bc8f1bd5c482e891063960d7acd78.html) in the subaccount with [SAP ID service](https://help.sap.com/viewer/ae8e8427ecdf407790d96dad93b5f723/Cloud/en-US/d6a8db70bdde459f92f2837349f95090.html) as a default identity provider or to configure your [custom identity authentication service tenant](../20-getting-started/setup-of-a-custom-identity-service-optional-550251a.md)​. It also includes creating roles using templates, adding roles to role collections, and assigning role collections to business users. The business users can then log on to SAP Fiori applications and get authenticated.
+In a business scenario, this means that an administrator manages the authentication and authorization of business users, including configuring [trust and identity federation](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cb1bc8f1bd5c482e891063960d7acd78.html) in the subaccount usually by configuring a [custom identity authentication service tenant](../20-getting-started/setup-of-a-custom-identity-service-550251a.md)​. As a fallback, [SAP ID service](https://help.sap.com/viewer/ae8e8427ecdf407790d96dad93b5f723/Cloud/en-US/d6a8db70bdde459f92f2837349f95090.html) is configured as the default identity provider. Additionally, an administrator also creates roles using templates, adds roles to role collections, and assigns role collections to business users. The business users can then log on to SAP Fiori applications and get authenticated.
 
 
 
@@ -30,7 +30,7 @@ In a business scenario, this means that an administrator manages the authenticat
 
 ## Who Is This Guide For?
 
-If you’re an SAP customer **developer** or partner developer and you create business services in the ABAP environment using ABAP Development Tools \(ADT\), this guide is for you. It guides you through an example of a business service based on a service binding. Note that http services work in a similar way.
+If you’re an SAP customer **developer** or partner developer and you create business services in the ABAP environment using ABAP Development Tools for Eclipse, this guide is for you. It guides you through an example of a business service based on a service binding. Note that http services work in a similar way.
 
 In addition, the guide also covers activities that need to be performed by an **administrator**, such as assigning users to business roles.
 
@@ -44,7 +44,7 @@ The guide starts with an overview of the basic concepts of identity and access m
 
 Why should you care about access control and authorizations? You must know that every new service is automatically available to all developers in a development system, provided the system administrator has assigned them a role that is derived from the developer role `SAP_BR_DEVELOPER` \(which is typically the case\). However, business users in nondevelopment systems can only access the business service if a developer has defined the appropriate authorizations and an administrator grants the business users access for each relevant system. The same is true for communication users that are needed in scenarios where you work with an API business service \(inbound or outbound\) from or into the ABAP environment.
 
-The **Identity Management** section gives you an overview about Identity and User Management, the different types of users in the ABAP environment, and how to create business users.
+The **Identity Management** section gives you an overview about Identity and User Management, which includes identity federation, user types, and user provisioning.
 
 The **Access Management** section includes the following main scenarios about how you can implement and provide authorizations for your services:
 

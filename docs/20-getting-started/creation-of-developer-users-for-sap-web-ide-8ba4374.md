@@ -4,5 +4,5 @@
 
 If your developers want to use SAP Web IDE, use identity provider users for them to ease log on to the Neo enviroment.
 
-If you have followed the steps for setting up a custom identity provider, you have already created a developer group in the tenant for the Identity Authentication service \(see also [Setup of a Custom Identity Service \(Optional\)](setup-of-a-custom-identity-service-optional-550251a.md)\). Now you need to create a developer group in the Neo enviroment and map this group to the developer group in the tenant for the Identity Authentication service.
+If you have followed the steps for setting up a custom identity provider, you have already created a developer group in the tenant for the Identity Authentication service \(see also [Setup of a Custom Identity Service](setup-of-a-custom-identity-service-550251a.md)\). Now you need to create a developer group in the Neo enviroment and map this group to the developer group in the tenant for the Identity Authentication service.
 

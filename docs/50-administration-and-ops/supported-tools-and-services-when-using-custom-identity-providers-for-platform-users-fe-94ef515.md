@@ -61,7 +61,7 @@ Make sure you use the Cloud Foundry command-line interface \(CF CLI v7\). For mo
 
 For more information, see [Log On with a Custom Identity Provider to the Cloud Foundry Environment Using the Cloud Foundry Command-Line Interface](log-on-with-a-custom-identity-provider-to-the-cloud-foundry-environment-using-the-cloud-d477618.md).
 
-See also [Using the Cloud Foundry CLI with SAP HANA Cloud](https://help.sap.com/viewer/9ae9104a46f74a6583ce5182e7fb20cb/hanacloud/en-US/921f3e46247947779d69b8c85c9b9985.html)
+See also [Using the Cloud Foundry CLI with SAP HANA Cloud](https://help.sap.com/docs/HANA_CLOUD/9ae9104a46f74a6583ce5182e7fb20cb/921f3e46247947779d69b8c85c9b9985.html)
 
 
 
@@ -79,7 +79,7 @@ See also [Using the Cloud Foundry CLI with SAP HANA Cloud](https://help.sap.com/
 
 Users logged on using custom identity providers can analyze logs written using the SAP Application Logging service.
 
-For more information, see the [SAP Application Logging service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) documentation.
+For more information, see the [SAP Application Logging service](https://help.sap.com/docs/APPLICATION_LOGGING) documentation.
 
 
 
@@ -113,7 +113,7 @@ SAP Cloud Transport Management
 
 Platform users logged on to SAP Cloud Transport Management service using custom identity providers can use all functions of the service as described in the SAP Cloud Transport Management documentation.
 
-For more information, see [SAP Cloud Transport Management](https://help.sap.com/viewer/product/TRANSPORT_MANAGEMENT_SERVICE/Cloud/en-US).
+For more information, see [SAP Cloud Transport Management](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE).
 
 
 
@@ -131,7 +131,7 @@ For more information, see [SAP Cloud Transport Management](https://help.sap.com/
 
 Platform users logged on using custom identity providers can use the full range of SAP HANA Cloud Cockpit.
 
-For more information, see [SAP HANA Cockpit](https://help.sap.com/viewer/9630e508caef4578b34db22014998dba/cloud/en-US/6a42679ed8574fb79e94f3e03e6d57bf.html).
+For more information, see [SAP HANA Cockpit](https://help.sap.com/docs/HANA_CLOUD/9630e508caef4578b34db22014998dba/6a42679ed8574fb79e94f3e03e6d57bf.html).
 
 
 
@@ -165,7 +165,7 @@ Platform users logged on using custom identity providers can use the SAP Job Sch
 
 Supported.
 
-For more information, see [Configuring App Security](https://help.sap.com/viewer/468990a67780424a9e66eb096d4345bb/Cloud/en-US/cfda4108a6b845d686d6d465a7db6d91.html) in the SAP Mobile Services documentation.
+For more information, see [Configuring App Security](https://help.sap.com/docs/SAP_MOBILE_SERVICES/468990a67780424a9e66eb096d4345bb/cfda4108a6b845d686d6d465a7db6d91.html) in the SAP Mobile Services documentation.
 
 
 
@@ -226,7 +226,7 @@ SAP Business Application Studio supports custom identity providers with the foll
 -   When you log on to the Cloud Foundry environment from the terminal mode of SAP Business Application Studio with the Cloud Foundry environment command-line interface \(CF CLI\), you can authenticate with the identity provider for platform users.
 
 
-For more information, see [Terminal](https://help.sap.com/viewer/9d1db9835307451daa8c930fbd9ab264/Cloud/en-US/c8b4ae95701942a5a21be4e84749f97f.html) in the SAP Business Application Studio documentation.
+For more information, see [Terminal](https://help.sap.com/products/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/8f46c6e6f86641cc900871c903761fd4.html) in the SAP Business Application Studio documentation.
 
 
 
@@ -244,9 +244,9 @@ For more information, see [Terminal](https://help.sap.com/viewer/9d1db9835307451
 
 This tool doesn't support log on with a platform user from a custom identity provider. You can only log on with a user from the default identity provider.
 
--   [Open the SAP HANA Service Dashboard](https://help.sap.com/viewer/cc53ad464a57404b8d453bbadbc81ceb/Cloud/en-US/fe80d7c024da4a969bafddd5692dbc1a.html) in AWS and Google Cloud regions
+-   [Open the SAP HANA Service Dashboard](https://help.sap.com/docs/HANA_SERVICE_CF/cc53ad464a57404b8d453bbadbc81ceb/fe80d7c024da4a969bafddd5692dbc1a.html) in AWS and Google Cloud regions
 
--   [Open the SAP HANA Service Dashboard](https://help.sap.com/viewer/cc53ad464a57404b8d453bbadbc81ceb/alibabacloud/en-US/fe80d7c024da4a969bafddd5692dbc1a.html) in the China \(Shanghai\) region
+-   [Open the SAP HANA Service Dashboard](https://help.sap.com/docs/HANA_SERVICE_ALIBABA_CLOUD/cc53ad464a57404b8d453bbadbc81ceb/fe80d7c024da4a969bafddd5692dbc1a.html) in the China \(Shanghai\) region
 
 
 
@@ -265,7 +265,7 @@ This tool doesn't support log on with a platform user from a custom identity pro
 
 You can't perform operations on multi-environment subaccounts, like deployments with SAP Rapid Application Development by Mendix when using a custom identity provider for platform users.
 
-For more information, see [SAP Rapid Application Development by Mendix](https://help.sap.com/viewer/product/Mendix/Cloud/en-US).
+For more information, see [SAP Rapid Application Development by Mendix](https://help.sap.com/docs/Mendix).
 
 
 
@@ -299,7 +299,7 @@ If you use services with dashboards, you can't access these dashboards with a pl
 
 SAP Web IDE running in a multi-environment subaccount of SAP BTP only supports users from SAP ID service.
 
-For more information, see [User Authentication and Authorization](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/94f7eb83215c470ca2bc5e1eead2de5f.html?q=User%20authentication).
+For more information, see [User Authentication and Authorization](https://help.sap.com/docs/SAP_Web_IDE/825270ffffe74d9f988a0f0066ad59f0/94f7eb83215c470ca2bc5e1eead2de5f.html).
 
 > ### Recommendation:  
 > Use SAP Business Application Studio.

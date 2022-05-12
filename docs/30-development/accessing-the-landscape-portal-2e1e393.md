@@ -4,6 +4,21 @@
 
 
 
+The*Landscape Portal* needs to be assigned to your subaccount as an entitlement.
+
+
+
+### Adding the *Landscape Portal* as entitlement
+
+1.  Sign into your account in the *SAP BTP Cockpit*.
+2.  On global account level, navigate to *Entity Assignments* in the Entitlements menu tree.
+3.  Open the value help for *Select Entities* and choose the subaccount to which the *Landscape Portal* entitlement shall be added. Click *Select*.
+4.  Click the button *Configure Entitlements* and then *Add Service Plans*.
+5.  Select*Landscape Portal* from the list and choose the service plan *standard*, then click *Add 1 Service Plan*.
+6.  Click *Save* to add the service plan to your selected subaccout.
+
+
+
 To enable the *Landscape Portal*, you need to subscribe to it in the SAP BTP cockpit. Here’s how:
 
 

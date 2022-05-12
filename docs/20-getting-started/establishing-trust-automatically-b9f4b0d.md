@@ -2,13 +2,16 @@
 
 # Establishing Trust Automatically
 
-If you want to use a custom identity provider instead of the SAP ID service, you must set up trust between the Cloud Foundry account and the Identity Authentication service.
+If you want to use a custom identity provider, you must set up trust between the subaccount and the Identity Authentication service.
 
 
 
 ## Context
 
-SAP ID service is the default identity provider for SAP BTP. If you have custom identity provider, you can use a function in SAP BTP cockpit to set up trust between your subaccount and the Identity Authentication service for SAP BTP automatically. The trust configuration is of type *OpenID Connect* . If you want to use SAML 2.0 instead, set up trust manually \(see [Manual Trust Setup](manual-trust-setup-36214a9.md)\).
+If you have custom identity provider, you can use a function in SAP BTP cockpit to set up trust between your subaccount and the Identity Authentication service for SAP BTP automatically. The trust configuration is of type *OpenID Connect*.
+
+> ### Note:  
+> If you want to use SAML instead, set up trust manually \(see [Manual Trust Setup with the SAML Identity Provider](manual-trust-setup-with-the-saml-identity-provider-36214a9.md)\).
 
 
 

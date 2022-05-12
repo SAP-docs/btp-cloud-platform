@@ -2,7 +2,7 @@
 
 # User Provisioning
 
-User provisioning is the process of creating users, that are later granted permissions to access business services and applications, to allow system to system communication, or to perform troubleshooting.
+User provisioning is the automated process of creating users, that are later granted permissions to access business services and applications, to allow system to system communication, or to perform troubleshooting.
 
 
 
@@ -10,22 +10,21 @@ User provisioning is the process of creating users, that are later granted permi
 
 ## Creating SAP BTP, ABAP environment Users
 
-To create **business users** and add them to your system, you have the following options:
+Each business user created in the ABAP environment system has a unique and stable employee ID. Employees are maintained in the SAP Fiori app *Maintain Employees*. See [Maintain Employees](../50-administration-and-ops/maintain-employees-e882b0f.md).
 
--   SAP Fiori app *Maintain Employees*. See [Maintain Employees](../50-administration-and-ops/maintain-employees-e882b0f.md).
-    -   Direct upload
-    -   CSV file upload
+> ### Recommendation:  
+> We recommend setting the employee ID by an HR system, which allows you to update master data in the *Maintain Employees* app, for example, when a business user has a new email address because of a name change, or if you want to edit the user information of the initial admin of an ABAP environment service instance.
 
+The following provisioning methods to automate identity lifecycle processes for business users are available:
+
+-   SAP Fiori app *Maintain Employees* with CSV file upload. See [Maintain Employees](../50-administration-and-ops/maintain-employees-e882b0f.md).
 -   SOAP service using communication scenario Identity Management Integration `SAP_COM_0093`. See [Inbound Service: Business User](inbound-service-business-user-a631f4e.md) and [Inbound Service: Business User - Read](inbound-service-business-user-read-535e7af.md).
 -   Identity Provisioning service using communication scenario SAP Cloud Identity Services - Identity Provisioning `SAP_COM_0193`. See [Identity Provisioning - SAP BTP ABAP Environment as a Target System](https://help.sap.com/viewer/f48e822d6d484fa5ade7dda78b64d9f5/Cloud/en-US/e763123cbba9418d99a43b72c9783c60.html).
 
 > ### Recommendation:  
-> To create a new business user in the ABAP environment, we recommend using the Identity Provisioning service.
-
-> ### Note:  
-> Each business user has a unique and stable employee ID. This employee ID, that we recommend setting by an HR system, allows you to update master data in the [Maintain Employees](../50-administration-and-ops/maintain-employees-e882b0f.md) app, for example, when a business user has a new email address because of a name change, or if you want to edit the user information of the initial admin of an ABAP environment service instance.
+> To create new business users in the ABAP environment, we recommend using the Identity Provisioning service.
 > 
-> If you have set up the Identity Authentication service as a source system for identity provisioning and manage employee information in the user store, the Identity Provisioning service can read this information and map the Identity Authentication logon name to the ABAP environment employee ID. See [Identity Authentication as a Source System](https://help.sap.com/viewer/f48e822d6d484fa5ade7dda78b64d9f5/Cloud/en-US/e4e25f1fae094c2a89ad62159e1cd230.html) and [Tutorial: Provision Users into your SAP BTP ABAP Environment](https://developers.sap.com/tutorials/abap-environment-ips.html#9e4583da-62d2-4c05-8991-325d4c3a524).
+> This requires setting up the Identity Authentication service as a source system for identity provisioning and managing employee information in the user store. The Identity Provisioning service can then read this information and map the Identity Authentication logon name to the ABAP environment employee ID. See [Identity Authentication as a Source System](https://help.sap.com/viewer/f48e822d6d484fa5ade7dda78b64d9f5/Cloud/en-US/e4e25f1fae094c2a89ad62159e1cd230.html) and [Tutorial: Provision Users into your SAP BTP ABAP Environment](https://developers.sap.com/tutorials/abap-environment-ips.html#9e4583da-62d2-4c05-8991-325d4c3a524).
 
 To create **communication users**, see [How to Create Communication Users](../50-administration-and-ops/how-to-create-communication-users-0377ade.md).
 

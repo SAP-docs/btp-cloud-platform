@@ -20,5 +20,5 @@ To define the permitted activities for a service, create an authorization object
 
 ## Results
 
-In the following, the newly created authorization object for the bonus calculation example are called `ZBNSCLC_AO`.
+In the following, the newly created authorization object for the bonus calculation example is called `ZBNSCLC_AO`.
 

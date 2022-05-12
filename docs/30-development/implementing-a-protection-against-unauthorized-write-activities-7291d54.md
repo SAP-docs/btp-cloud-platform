@@ -10,7 +10,7 @@ To protect a service such as the example of bonus calculation against unauthoriz
 
 ## Context
 
-Among the methods of the behavior implementation, you add methods that check the authorizations for creation and for update and delete..
+Among the methods of the behavior implementation, you add methods that check the authorizations for creation and for update and delete.
 
 
 
@@ -18,7 +18,7 @@ Among the methods of the behavior implementation, you add methods that check the
 
 1.  In the *Source Code Library* folder of your package, under *Classes*, choose the behavior implementation of your service.
 
-2.  In the `PRIVATE SECTION` in the handler class of the behavior implementation, define the methods for authorization checks for creation, update and deletion.
+2.  In the `PRIVATE SECTION` in the handler class of the behavior implementation, define the methods for authorization checks for creation, update, and deletion.
 
     > ### Sample Code:  
     > ```abap

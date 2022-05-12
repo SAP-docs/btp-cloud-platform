@@ -14,7 +14,7 @@ The bonus calculation service is part of a sales bonus program where the sales r
 
 With the bonus calculation service, users, for example, managers in sales, can create, update, display, and delete bonus calculations. As part of a bonus calculation, users enter an employee name, a bonus variant and validity period can be set, and the bonus be calculated. In the example used in this guide, the available bonus variants are based on *Rate* or *Amount*, that is, the bonus recipient either gets a bonus based on a rate or a fixed amount.
 
-The service can be consumed either by business users via a user interface \(UI\) or by technical communication users as an API. For both consumption types access has to be provided at least for nondevelopment systems because this access isn't automatically available in such systems.
+The service can be consumed either by business users via a user interface \(UI\) or by technical communication users as a Web API. For both consumption types access has to be provided at least for nondevelopment systems because this access isn't automatically available in such systems.
 
 
 

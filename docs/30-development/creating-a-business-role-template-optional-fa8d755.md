@@ -8,7 +8,7 @@ In addition to a business catalog, you can also create a business role template 
 
 ## Context
 
-Creating a business role template especially makes sense if you’ve more than one business catalog to assign to a business role.
+Creating a business role template especially makes sense if you have more than one business catalog to assign to a business role.
 
 
 

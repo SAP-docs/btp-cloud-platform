@@ -2,11 +2,21 @@
 
 # Access a Kyma Instance Using kubectl
 
+As an alternative to managing Kyma with a graphical user interface, Kyma Dashboard, you can also use the Kubernetes command-line tool, kubectl.
+
+
+
+<a name="loio3e25944e491049b2aeec68c562a5ee48__prereq_uhk_rc3_3tb"/>
+
+## Prerequisites
+
+You have a Kyma instance created in your subaccount of the SAP BTP cockpit.
+
 
 
 ## Context
 
-Once you have a Kyma instance created in your subaccount of the SAP BTP cockpit, you can manage Kyma via GUI, Kyma Dashboard. If you prefer command-line tools, you can use the Kubernetes command-line tool, kubectl. To start using kubectl, follow these steps:
+To start using kubectl, follow these steps:
 
 
 
@@ -19,13 +29,20 @@ Once you have a Kyma instance created in your subaccount of the SAP BTP cockpit,
 
 2.  In the SAP BTP cockpit, in your subaccount *Overview*, go to the *Kyma Environment* section, and click on the *KubeconfigURL* link to download `kubeconfig.yaml`.
 
-3.  To export the kubeconfig file, run:
+3.  Export the kubeconfig file.
 
-    ```
-    export KUBECONFIG={KUBECONFIG_FILE_PATH}
-    ```
+    -   On macOS, run:
 
-    .
+        ```
+        export KUBECONFIG={KUBECONFIG_FILE_PATH}
+        ```
+
+    -   On Windows \(PowerShell\), run:
+
+        ```
+        $ENV:KUBECONFIG="{KUBECONFIG_FILE_PATH}"
+        ```
+
 
 
 
@@ -34,5 +51,8 @@ Once you have a Kyma instance created in your subaccount of the SAP BTP cockpit,
 
 ## Results
 
-Now you can manage your Kyma instance using kubectl. If you authenticate in the Kyma environment with an Identity Provider using OpenID Connect, the downloaded `kubeconfig.yaml` can be used indefinitely to re-authenticate.
+Now you can manage your Kyma instance using kubectl.
+
+> ### Tip:  
+> If you authenticate in the Kyma environment with an Identity Provider using OpenID Connect, the downloaded `kubeconfig.yaml` can be used indefinitely to re-authenticate.
 
