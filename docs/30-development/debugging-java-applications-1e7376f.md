@@ -8,6 +8,8 @@ Debugging an application helps you detect and diagnose errors in your code. You 
 
 -   [Debug an Application Running on SAP JVM](debugging-java-applications-1e7376f.md#loioef7fbdb61ae44d83a96c0ba48e829032)
 
+-   [Debug a Java Web Application Running on SapMachine](debugging-java-applications-1e7376f.md#loiof7fa9f367c644e34b87e6518f7724ccb)
+
 -   [Debug an Application Running on Java SE](debugging-java-applications-1e7376f.md#loio0d6e305f08574bca811d42b55c3c0b47)
 
 
