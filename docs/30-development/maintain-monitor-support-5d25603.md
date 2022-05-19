@@ -175,7 +175,7 @@ Users in the ABAP correction system COR might be locked and need to be unlocked 
 > ### gCTS Delivery:  
 > If you use gCTS for delivery, the process of creating an update for SaaS solutions is grouped into urgent corrections \(patch version\) and new releases \(release version\). See [Use Case 2: One Development and Correction Codeline in a 5-System Landscape](use-case-2-one-development-and-correction-codeline-in-a-5-system-landscape-4e53874.md).
 > 
-> See [Delivery via Add-On or gCTS](Chunk373453032.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 > ### Note:  
 > New features are developed on different code lines \(branches\). If you create a so-called maintenance branch to implement patches while new features are implemented in the main branch of a software component, you can implement new features and provide bug fixes at the same time. For more information, see [Versioning and Branches](concepts-9482e7e.md#loio8c087bca40584f9b899282b4ec515753).
@@ -212,7 +212,7 @@ As an add-on administrator, you can provide different kinds of updates. The deci
 >     Perform the same corrections in your development system DEV. Release the corrections to maintain them on the main branch of your software component and pull it into your test system TST, see step 9-10.
 > 
 > 
-> See [Delivery via Add-On or gCTS](Chunk373453032.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 > ### Note:  
 > For a new patch version, you can use a permanent add-on assembly system to save build time. See [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
@@ -381,7 +381,7 @@ Maintenance branch v1.1.0, created based on the main branch, is used later on fo
 >     If you want to implement deferrable corrections, perform the same changes in your development system DEV. Release it to maintain it on the main branch of your software component and pull it into your test system TST, see step 16-18.
 > 
 > 
-> See [Delivery via Add-On or gCTS](Chunk373453032.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 Release versions are used to deliver new major, planned functional enhancements. Typically, they include multiple new implemented features. For example, multiple new apps could be introduced with such a major release.
 
@@ -484,7 +484,7 @@ You can also use add-on installation test system ATI for additional tests, simil
 > 
 > Following this codeline, the software component is implemented in the development system and runs through a test, correction, and quality and assurance system before it can be deployed to the production system.
 > 
-> See [Delivery via Add-On or gCTS](Chunk373453032.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 As a SaaS solution operator, you can apply add-on updates to existing systems via the [Update Product Version](update-product-version-32c4f7d.md) app in the Landscape Portal.
 

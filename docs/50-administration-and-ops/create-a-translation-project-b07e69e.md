@@ -17,7 +17,7 @@ You want to translate your developer extension. Before you can select your text 
 
 1.  Open the *Maintain Translations* app.
 
-2.  Click *+* \(Create\) to create a new translation project.
+2.  Click *\+* \(Create\) to create a new translation project.
 
 3.  Fill in an identifier for your project, a name and description, and the name of the package that should contain your translation project.
 

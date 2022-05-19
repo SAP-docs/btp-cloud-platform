@@ -44,7 +44,7 @@ In the following example, let's analyze the usage of an application built accord
 
     On the following *ABAP Statistics Records* screen, you get more detailed information about the record. In the pie chart for the response time contributions, you can clearly see that the response time is dominated by the HANA processing time.
 
-    ![](images/User_Story_Tenant_Worklaod_Pie_Chart_90c9163.png)
+    ![](images/User_Story_Tenant_WL_ABAP_Statistics_Record_90c9163.png)
 
 7.  Click on the HANA processing time in the chart and have a look at the *SQL Statements* section: The table shows the top 10 SQL statements contributing to this HANA processing time. You can then resolve the SQL statements that belong to a single record.
 

@@ -36,6 +36,8 @@ You can use this app to:
 
 -   configure the repository role \(Source or Target\)
 
+-   enable or disable a rollback mechanism for failed pull operations
+
 
 In addition, the app supports the integration with Git.
 

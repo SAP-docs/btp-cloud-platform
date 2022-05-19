@@ -10,6 +10,9 @@ With the Kyma environment, you can extend the SAP and non-SAP services to build 
 
 ## Context
 
+> ### Caution:  
+> We are in the process of migrating Service Catalog resources to BTP Operator. This will impact the Kyma Dashboard views and the way you can handle services in your cluster. See the [What's New section](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%2520Runtime&locale=en-US&Valid_as_Of=2022-04-29%253A2022-05-29) to learn more.
+
 To use functionality provided by external services in your applications, perform the following steps either in the Kyma Dashboard or kubectl.
 
 

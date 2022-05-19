@@ -18,7 +18,7 @@ The Cloud Platform \(CP\) edition of the XCO library is comprised of the followi
 
 -   ABAP Objects \(XCO\_CP\_ABAP\_OBJECTS\)
 
-    Provides access to enumerations specific to ABAP Objects, e.g. the visibility of class or interface components.
+    Provides access to enumerations specific to ABAP Objects, e.g. the visibility of class or interface components, as well as to supported origins for the XCO Read APIs for classes and interfaces.
 
 -   ABAP Repository \(XCO\_CP\_ABAP\_REPOSITORY\)
 
@@ -78,7 +78,7 @@ The Cloud Platform \(CP\) edition of the XCO library is comprised of the followi
 
 -   Database table \(XCO\_CP\_DATABASE\_TABLE\)
 
-    Provides access to database table specific enumerations, e.g. the size category of a database table.
+    Provides access to database table specific enumerations, e.g. the size category of a database table, as well as to supported origins for the XCO Read APIs for database tables.
 
 -   Data definition \(XCO\_CP\_DATA\_DEFINITION\)
 
@@ -86,7 +86,7 @@ The Cloud Platform \(CP\) edition of the XCO library is comprised of the followi
 
 -   Data element \(XCO\_CP\_DATA\_ELEMENT\)
 
-    Provides access to text attributes specific to data elements
+    Provides access to text attributes specific to data elements as well as to supported origins for the XCO Read APIs for data elements.
 
 -   Data control language \(XCO\_CP\_DCL\)
 
@@ -102,7 +102,11 @@ The Cloud Platform \(CP\) edition of the XCO library is comprised of the followi
 
 -   Generation \(XCO\_CP\_GENERATION\)
 
-    Provides access to the XCO Generation APIs, i.e. allows to obtain a generation environment which can be used to create PUT and DELETE operations.
+    Provides access to the XCO Generation APIs, i.e. allows to obtain a generation environment which can be used to create POST, PUT, PATCH and DELETE operations \(as supported by the respective object type\).
+
+-   Hash \(XCO\_CP\_HASH\)
+
+    Provides access to supported hash algorithms which can be used to calculate the hash value of strings with the XCO Standard Library.
 
 -   Internationalization \(XCO\_CP\_I18N\)
 
@@ -144,6 +148,10 @@ The Cloud Platform \(CP\) edition of the XCO library is comprised of the followi
 
     Provides access to enumerations specific to packages.
 
+-   RESTful Application Programming \(XCO\_CP\_RAP\)
+
+    Provides access to abstractions to integrate RAP specific types \(e.g. RAP behavior messages\) with standard abstractions \(e.g. for business application logs\) of the XCO Library.
+
 -   Regular expression \(XCO\_CP\_REGULAR\_EXPRESSION\)
 
     Provides access to abstractions used when working with regular expressions in the context of the XCO standard library, such as different regular expression engines.
@@ -151,6 +159,10 @@ The Cloud Platform \(CP\) edition of the XCO library is comprised of the followi
 -   Service binding \(XCO\_CP\_SERVICE\_BINDING\)
 
     Provides access to enumerations specific to service bindings.
+
+-   Service definition \(XCO\_CP\_SERVICE\_DEFINITION\)
+
+    Provides access to supported versions and origins as they can be used in the context of the XCO Read APIs for service definitions.
 
 -   Software component \(XCO\_CP\_SOFTWARE\_COMPONENT\)
 

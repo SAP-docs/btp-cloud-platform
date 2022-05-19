@@ -19,7 +19,7 @@ You have installed and set up abapGit. See [Install and Set Up abapGit](install-
 
 1.  After installing and launching abapGit, select *Clone or download*, and copy the URL of your repository.
 
-2.  Call up transaction `ZABAPGIT`, and select *+ Online*.
+2.  Call up transaction `ZABAPGIT`, and select *\+ Online*.
 
 3.  Paste the URL of your repository.
 

@@ -63,13 +63,19 @@ For more information about the scope of our enterprise offering, see [Enterprise
 
 A customer account is an enterprise account that allows you to host productive, business-critical applications with 24x7 support.
 
-If you want to to try out services for free, with the option of easily upgrading them later, you can get an enterprise account and use free tier service plans only. This will not create costs, unless you upgrade to paid plans. See [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html).
+If you want to try out services for free, with the option of easily upgrading them later, you can get an enterprise account and use free tier service plans only. This will not create costs, unless you upgrade to paid plans. See [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html).
 
 When you want to purchase a customer account, you can select from a set of predefined packages. For information about service availability, prices, and estimators, see [https://www.sap.com/products/extension-suite/pricing.html](https://www.sap.com/products/extension-suite/pricing.html) and [https://www.sap.com/products/integration-suite/pricing.html](https://www.sap.com/products/integration-suite/pricing.html). You can also view the service catalog via the [SAP Discovery Center](https://discovery-center.cloud.sap). Contact us on [SAP BTP](https://www.sap.com/products/business-technology-platform.html) or via an SAP sales representative.
 
 In addition, you can upgrade and refine your resources later on. You can also contact your SAP sales representative and opt for a configuration, tailored to your needs.
 
-After you have purchased your customer account, you will receive an e-mail with a link to the Home page of SAP BTP.
+After you have purchased your customer account, you will receive an e-mail to check and confirm the correct IT contact of your company for the initial global account administrator. Only this SAP user will have the initial entitlement on SAP BTP. You can change this contact via the [SAP Support Portal](https://support.sap.com/en/index.html).
+
+In a second e-mail, usually shortly before the contract start date, you will receive logon information for your new global account. The S-user of the global account administrator is attached to your licensed global account and your entitlements from your consumption or subscription license. So it is essential, that you initially log on with correct global account administrator.
+
+You may check your assigned SAP S-users \(you might have more than one\) independent from SAP BTP with [SAP ID Service](https://accounts.sap.com/). To change this S-user, open a ticket in SAP Support Portal at component `BC-NEO-CIS-OPS`.
+
+ 
 
 
 
@@ -77,7 +83,7 @@ After you have purchased your customer account, you will receive an e-mail with 
 
 ## Getting a Customer Account in China
 
-If you are located in China and want to buy a global account on SAP BTP, you need to contact an SAP sales representative: [https://www.sap.cn/registration/contact.html](https://www.sap.cn/registration/contact.html). Note that there is currently no trial account available in China.
+If you are located in China and want to buy a global account on SAP BTP, you need to contact an SAP sales representative: [https://www.sap.cn/registration/contact.html](https://www.sap.cn/registration/contact.html).
 
 **Related Information**  
 
@@ -85,6 +91,8 @@ If you are located in China and want to buy a global account on SAP BTP, you nee
 [Commercial Models](../10-concepts/commercial-models-263d400.md "SAP BTP offers two different commercial models for enterprise accounts.")
 
 [Using Free Service Plans](../10-concepts/using-free-service-plans-524e108.md "The free tier model for SAP BTP lets you try out services in global accounts without any additional cost using the consumption-based commercial model.")
+
+[Access the Cockpit](../50-administration-and-ops/access-the-cockpit-4e75066.md "Learn how to access the SAP BTP cockpit.")
 
  <a name="loio0730b01feb484396b5a3daaa5115d73d"/>
 

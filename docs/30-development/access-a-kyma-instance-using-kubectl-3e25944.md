@@ -56,3 +56,8 @@ Now you can manage your Kyma instance using kubectl.
 > ### Tip:  
 > If you authenticate in the Kyma environment with an Identity Provider using OpenID Connect, the downloaded `kubeconfig.yaml` can be used indefinitely to re-authenticate.
 
+**Related Information**  
+
+
+[Configure a Custom Identity Provider for Kyma](../60-security/configure-a-custom-identity-provider-for-kyma-67bcc6e.md "Enable the Kyma environment with a custom identity provider.")
+

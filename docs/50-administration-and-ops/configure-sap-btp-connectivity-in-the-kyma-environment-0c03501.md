@@ -8,8 +8,6 @@ Extend your Kyma environment with SAP BTP Connectivity.
 
 ## Prerequisites
 
--   Your cluster is running Kyma version 2.0 or higher.
-
 -   The Connectivity Service Entitlement is present within your subaccount with the service plan `connectivity_proxy`. To learn how to configure your Entitlements, see [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
 
 
@@ -29,17 +27,19 @@ To learn more, see [Extending SAP Customer Experience Products in the Kyma Envir
 
 2.  Search for the `Connectivity` entry.
 
-3.  Click *+ Add* and provide the following details:
+3.  Click *\+ Add* and provide the following details:
 
-    -   *Name* - a unique name for your service instance. If you do not provide any custom name, the system will automatically generate one.
+    -   *Name* - a unique name for your service instance. If you don’t provide any custom name, the system automatically generates one.
 
         > ### Note:  
-        > The name must not contain more than 253 characters. It must consist of lowercase alphanumeric characters. It can also contain `-` \(single or consecutive, like in `a--a`\) and `.` as long as they do not start or end the service instance name.
+        > The name must not contain more than 253 characters. It must consist of lowercase alphanumeric characters. It can also contain `-` \(single or consecutive, like in `a--a`\) and `.` as long as they don’t start or end the service instance name.
 
     -   *Plan* - a consumption plan for your service instance. Choose the default plan.
     -   *Parameters* - skip this, no additional parameters are required.
 
-4.  Click *Create*. This creates the Connectivity service instance.
+4.  Click *Create*.
+
+    This creates the Connectivity service instance.
 
 5.  In the Kyma Dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *Instances*.
 

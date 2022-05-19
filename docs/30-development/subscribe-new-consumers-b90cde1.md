@@ -38,7 +38,7 @@
     > If you're using the tenant host pattern for the development phase, you need to first create the route in the provider subaccount before you can log in. In the production phase, the link to the application will work if you have defined a route with wildcard hostname \(and custom domain\) for the approuter, so that routes do not need to be created manually for each new subscription..
 
     1.  Log into the subaccount and navigate to *Security* \> *Role Collections*.
-    2.  Click on the role collection you defined in the chapter [Create an XSUAA Instance](create-an-xsuaa-instance-2ce1a96.md). Then click *Edit*, scroll down to *Users* and click *+*. Enter the email address of the initial consumer, select SAP ID Service as Identity Provider or use your preferred consumer IDP, and save your changes.
+    2.  Click on the role collection you defined in the chapter [Create an XSUAA Instance](create-an-xsuaa-instance-2ce1a96.md). Then click *Edit*, scroll down to *Users* and click *\+*. Enter the email address of the initial consumer, select SAP ID Service as Identity Provider or use your preferred consumer IDP, and save your changes.
 
 5.  Supply your consumer with their consumer-specific URL so that they can access the application.
 

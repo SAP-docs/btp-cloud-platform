@@ -117,14 +117,14 @@ Open the travel management app from the launchpad \(or using the Fiori Elements 
 </td>
 <td valign="top">
 
---
+\--
 
 
 
 </td>
 <td valign="top">
 
---
+\--
 
 
 
@@ -147,14 +147,14 @@ Choose *Create* from the table toolbar of the travel overview.
 </td>
 <td valign="top">
 
---
+\--
 
 
 
 </td>
 <td valign="top">
 
---
+\--
 
 
 
@@ -341,14 +341,14 @@ Delete the created travel from either the travel overview or the travel details.
 </td>
 <td valign="top">
 
---
+\--
 
 
 
 </td>
 <td valign="top">
 
---
+\--
 
 
 

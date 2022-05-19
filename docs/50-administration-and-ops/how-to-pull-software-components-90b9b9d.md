@@ -21,13 +21,15 @@ You can pull \(remotely available\) changes of your software component to the se
 
 1.  Navigate to the detail page of a software component from the list and choose *Pull* in the page header.
 
-2.  Select how you want to pull the software component. By selecting *Latest*, the last remote commit will be pulled into the system. Select *By Tag* if you want to pull a specific git tag, which has been assigned to a commit.
+2.  Select how you want to pull the software component. By selecting *Latest*, the last remote commit will be pulled into the system. Select *By Tag* if you want to pull a specific git tag, which has been assigned to a commit. Select *By Commit* if you want to pull a software component with a specific Commit ID.
 
     > ### Note:  
     > To pull a specific tag, at least one tag has to exist on a commit on the currently active branch.
 
     > ### Note:  
-    > For productive systems, a rollback mechanism is enabled, which allows the repository to automatically roll back to the last valid commit, if an invalid commit is triggered. The pull of invalid commits are allowed for development and test systems only. If only one out of multiple commits causes an issue, none of the commits will be pulled.
+    > For production systems, a rollback mechanism is enabled. This mechanism allows an automatic roll back to the last valid commit of the repository, in case an invalid commit is pulled. We define an invalid commit as a commit that can cause import errors during a pull operation. The pull of invalid commits is allowed for development and test systems only. If only one out of multiple commits causes an issue, none of the commits will be pulled.
+    > 
+    > Nevertheless, this mechanism cannot reverse any data loss that may occur due to ABAP Dictionary changes. For example, in the case of field shortening of a database table, the field length can be rolled back, but the lost content remains irretrievable. Therefore, ensure that deployments to the production systems are checked in the advance \(via CI/CD processes\), for example on quality systems.
 
 3.  Display the list of all pulls, checkouts and other actions by navigating to the *History* tab.
 
@@ -211,7 +213,7 @@ You can pull \(remotely available\) changes of your software component to the se
 
 5.  You can display the pull details by choosing the entry from the list.
 
-    The *Execution Log* and *Transport Log* are displayed as a table. You can find the new tables when navigating to the detail page of every pull entry. Additionally, every log line is classified with a criticality level. A logline can have the criticality level "Information", "Success", "Warning" or "Error". Each level is represented with a colored criticality icon.
+    The *Execution Log* and *Log Overview* are displayed as a table. You can find the new tables when navigating to the detail page of every action entry. Additionally, every log line is classified with a criticality level. A logline can have the criticality level "Information", "Success", "Warning" or "Error". Each level is represented with a colored criticality icon.
 
     Furthermore, you can also download the logs as an Excel-file. This may be helpful when communicating with SAP in the context of error analysis.
 
@@ -241,14 +243,14 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
 
-    *<Type\>*
+    *<Index\>*
 
 
     
     </td>
     <td valign="top">
 
-    The type of a logline can either be "Information", "Success", "Error" or "Warning". Each level is represented with a colored criticality icon.
+    Index number to sort the table properly.
 
 
     
@@ -257,14 +259,62 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
 
-    *<Description\>*
+    *<Log\>*
 
 
     
     </td>
     <td valign="top">
 
-    Displays a single log entry message.
+    Name of the log.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    *<Severity\>*
+
+
+    
+    </td>
+    <td valign="top">
+
+    Can have the status success, warning, error or other.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    *<Transport Request\>*
+
+
+    
+    </td>
+    <td valign="top">
+
+    Transport request ID which was used for the log.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    *<File inlcuding Path\>*
+
+
+    
+    </td>
+    <td valign="top">
+
+    The system file path where the log files are saved.
 
 
     
@@ -280,23 +330,7 @@ You can pull \(remotely available\) changes of your software component to the se
     </td>
     <td valign="top">
 
-    Date and time when the entry was logged.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    *<Index\>*
-
-
-    
-    </td>
-    <td valign="top">
-
-    The index column is initially hidden but can be enabled when clicking the *Settings* button in the table toolbar.
+    Date and time when the log was created.
 
 
     

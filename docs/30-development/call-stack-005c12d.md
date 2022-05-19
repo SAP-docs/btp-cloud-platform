@@ -48,7 +48,7 @@ Negative position
 </td>
 <td valign="top">
 
--17
+\-17
 
 
 
@@ -71,7 +71,7 @@ Negative position
 </td>
 <td valign="top">
 
--16
+\-16
 
 
 
@@ -94,7 +94,7 @@ Negative position
 </td>
 <td valign="top">
 
--15
+\-15
 
 
 
@@ -117,7 +117,7 @@ Negative position
 </td>
 <td valign="top">
 
--14
+\-14
 
 
 
@@ -140,7 +140,7 @@ Negative position
 </td>
 <td valign="top">
 
--13
+\-13
 
 
 
@@ -163,7 +163,7 @@ Negative position
 </td>
 <td valign="top">
 
--12
+\-12
 
 
 
@@ -186,7 +186,7 @@ Negative position
 </td>
 <td valign="top">
 
--11
+\-11
 
 
 
@@ -209,7 +209,7 @@ Negative position
 </td>
 <td valign="top">
 
--10
+\-10
 
 
 
@@ -232,7 +232,7 @@ Negative position
 </td>
 <td valign="top">
 
--9
+\-9
 
 
 
@@ -255,7 +255,7 @@ Negative position
 </td>
 <td valign="top">
 
--8
+\-8
 
 
 
@@ -278,7 +278,7 @@ Negative position
 </td>
 <td valign="top">
 
--7
+\-7
 
 
 
@@ -301,7 +301,7 @@ Negative position
 </td>
 <td valign="top">
 
--6
+\-6
 
 
 
@@ -324,7 +324,7 @@ Negative position
 </td>
 <td valign="top">
 
--5
+\-5
 
 
 
@@ -347,7 +347,7 @@ Negative position
 </td>
 <td valign="top">
 
--4
+\-4
 
 
 
@@ -370,7 +370,7 @@ Negative position
 </td>
 <td valign="top">
 
--3
+\-3
 
 
 
@@ -393,7 +393,7 @@ Negative position
 </td>
 <td valign="top">
 
--2
+\-2
 
 
 
@@ -416,7 +416,7 @@ Negative position
 </td>
 <td valign="top">
 
--1
+\-1
 
 
 
@@ -432,7 +432,7 @@ In a manner analogous to how characters of a string are indexed when substrings 
 
 ## Capturing the current call stack
 
-The current call stack can be captured by using the `API XCO_CP=>CURRENT->CALL_STACK`. The following two methods are available:
+The current call stack can be captured by using the API `XCO_CP=>CURRENT->CALL_STACK`. The following two methods are available:
 
 -   FULL: Captures the full current call stack, i.e. all available entries up the lowest entry point will be included
 
@@ -521,7 +521,7 @@ Negative position
 </td>
 <td valign="top">
 
--16
+\-16
 
 
 
@@ -544,7 +544,7 @@ Negative position
 </td>
 <td valign="top">
 
--15
+\-15
 
 
 
@@ -567,7 +567,7 @@ Negative position
 </td>
 <td valign="top">
 
--14
+\-14
 
 
 
@@ -590,7 +590,7 @@ Negative position
 </td>
 <td valign="top">
 
--13
+\-13
 
 
 
@@ -613,7 +613,7 @@ Negative position
 </td>
 <td valign="top">
 
--12
+\-12
 
 
 
@@ -636,7 +636,7 @@ Negative position
 </td>
 <td valign="top">
 
--11
+\-11
 
 
 
@@ -659,7 +659,7 @@ Negative position
 </td>
 <td valign="top">
 
--10
+\-10
 
 
 
@@ -682,7 +682,7 @@ Negative position
 </td>
 <td valign="top">
 
--9
+\-9
 
 
 
@@ -705,7 +705,7 @@ Negative position
 </td>
 <td valign="top">
 
--8
+\-8
 
 
 
@@ -728,7 +728,7 @@ Negative position
 </td>
 <td valign="top">
 
--7
+\-7
 
 
 
@@ -751,7 +751,7 @@ Negative position
 </td>
 <td valign="top">
 
--6
+\-6
 
 
 
@@ -774,7 +774,7 @@ Negative position
 </td>
 <td valign="top">
 
--5
+\-5
 
 
 
@@ -797,7 +797,7 @@ Negative position
 </td>
 <td valign="top">
 
--4
+\-4
 
 
 
@@ -820,7 +820,7 @@ Negative position
 </td>
 <td valign="top">
 
--3
+\-3
 
 
 
@@ -843,7 +843,7 @@ Negative position
 </td>
 <td valign="top">
 
--2
+\-2
 
 
 
@@ -866,7 +866,7 @@ Negative position
 </td>
 <td valign="top">
 
--1
+\-1
 
 
 
@@ -918,7 +918,7 @@ Negative position
 </td>
 <td valign="top">
 
--4
+\-4
 
 
 
@@ -941,7 +941,7 @@ Negative position
 </td>
 <td valign="top">
 
--3
+\-3
 
 
 
@@ -964,7 +964,7 @@ Negative position
 </td>
 <td valign="top">
 
--2
+\-2
 
 
 
@@ -987,7 +987,7 @@ Negative position
 </td>
 <td valign="top">
 
--1
+\-1
 
 
 
@@ -1039,7 +1039,7 @@ Negative position
 </td>
 <td valign="top">
 
--3
+\-3
 
 
 
@@ -1062,7 +1062,7 @@ Negative position
 </td>
 <td valign="top">
 
--2
+\-2
 
 
 
@@ -1085,7 +1085,7 @@ Negative position
 </td>
 <td valign="top">
 
--1
+\-1
 
 
 

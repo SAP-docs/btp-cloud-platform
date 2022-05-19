@@ -1046,7 +1046,7 @@ Apply update for SaaS solution \(=add-on product\). See [Deploy Add-On Update](m
 
 Deploy your add-on update by using the Landscape Portal.
 
-See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
+See [Landscape Portal](landscape-portal-5eb70fb.md).
 
 
 

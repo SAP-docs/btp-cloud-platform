@@ -105,42 +105,42 @@ F
 <tr>
 <td valign="top">
 
--6
+\-6
 
 
 
 </td>
 <td valign="top">
 
--5
+\-5
 
 
 
 </td>
 <td valign="top">
 
--4
+\-4
 
 
 
 </td>
 <td valign="top">
 
--3
+\-3
 
 
 
 </td>
 <td valign="top">
 
--2
+\-2
 
 
 
 </td>
 <td valign="top">
 
--1
+\-1
 
 
 
@@ -232,4 +232,27 @@ Converting a given string to its xstring representation for a given code page ca
 > DATA(lv_xstring) = xco_cp=>string( lv_string
 >   )->as_xstring( xco_cp_character=>code_page->utf_8 ).
 > ```
+
+
+
+<a name="loio063ad163cf7d4dcaa1073eecc12e2225__section_vzv_vh4_3tb"/>
+
+## Calculating Hash Codes
+
+Calculating the hash value of a given string for a given hash algorithm can be accomplished as follows:
+
+> ### Sample Code:  
+> ```abap
+> " Upon execution, LV_HASH_VALUE will have the value C79C561BB2CC3D0430A54B3D014C89C3089FE089.
+> DATA(lv_hash_value) = xco_cp=>string( 'MY_STRING'
+>   )->as_xstring( xco_cp_hash=>algorithm->sha_1
+>   )->value.
+> ```
+
+Note the following details:
+
+-   Supported hash algorithms \(represented as objects of type IF\_XCO\_HASH\_ALGORITHM\) can be obtained via XCO\_CP\_HASH=\>ALGORITHM. The SHA-1 hash algorithm is statically available via the SHA\_1 property while the FOR method can be used to obtain hash algorithms based on their string identifiers, e.g. XCO\_CP\_HASH=\>ALGORITHM→FOR\( 'MD5' \) for the MD5 hash algorithm
+
+-   When calculating the hash value of a string, an IF\_XCO\_HASH\_ALGORITHM object acts as an IF\_XCO\_STRING\_XSTRING\_CNVRSN, where the XSTRING that is derived from the string corresponds to the hash value
+
 

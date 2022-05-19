@@ -452,7 +452,7 @@ Landscape Portal
 </td>
 <td valign="top">
 
-The Landscape Portal app acts as a central tool to allow service providers to perform lifecycle management operations such as add-on updates, provisioning new consumers as new tenants, and more. See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
+The Landscape Portal app acts as a central tool to allow service providers to perform lifecycle management operations such as add-on updates, provisioning new consumers as new tenants, and more. See [Landscape Portal](landscape-portal-5eb70fb.md).
 
 
 
@@ -584,7 +584,7 @@ SAP ID service
 </td>
 <td valign="top">
 
-The default platform identity provider and application identity provider of SAP Business Technology Platform is SAP ID service. See [SAP ID Service](../50-administration-and-ops/sap-id-service-d6a8db7.md).
+The default platform identity provider and application identity provider of SAP Business Technology Platform is SAP ID service. See [Default Identity Provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md).
 
 
 

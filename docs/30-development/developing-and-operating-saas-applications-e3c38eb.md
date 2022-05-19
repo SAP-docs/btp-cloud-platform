@@ -50,7 +50,7 @@ Chapter [Dismantle](dismantle-35a5882.md) provides information about consumer of
 > To learn how to enable your SaaS application for customers, refer to the detailed step-by-step description in [Enabling SaaS Applications for Customers](enabling-saas-applications-for-customers-72b0b11.md#loio72b0b1130ee243179b0905ea2cd5adb1).
 
 > ### Note:  
-> If you decide to use gCTS transport instead of add-on delivery, please refer to the gCTS Delivery boxes across the guide. See [Delivery via Add-On or gCTS](Chunk373453032.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+> If you decide to use gCTS transport instead of add-on delivery, please refer to the gCTS Delivery boxes across the guide. See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 ![](images/E2E_Guide_Introduction_3a1c720.png)
 

@@ -32,7 +32,7 @@ Connect your ABAP environment system to SAP Analytics Cloud \(SAC\) using commun
 ### Connect to SAP Analytics Cloud
 
 1.  Login to your SAC tenant. In the main menu, click *Connection*.
-2.  Click the *+* icon \(*Add Connection*\). Under *Connect to Live Data*, select *SAP S/4HANA*.
+2.  Click the *\+* icon \(*Add Connection*\). Under *Connect to Live Data*, select *SAP S/4HANA*.
 3.  In the *New S/4HANA Live Connection* dialog, maintain the following details:
     -   Name and Description
     -   Connection Type: Direct Connection

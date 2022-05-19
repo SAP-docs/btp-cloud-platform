@@ -135,7 +135,7 @@ Additionally, they are responsible for their pipeline \(e.g. automation of the b
 
 -   Developing SAP Fiori based UI in SAP Business Application Studio and deploying back to ABAP system. See [Develop an SAP Fiori Application UI and Deploy it to ABAP Using SAP Business Application Studio](develop-an-sap-fiori-application-ui-and-deploy-it-to-abap-using-sap-business-application-eaaeba4.md).
 
--   Supporting and troubleshooting customer issues via provider support access in the Landscape Portal. See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
+-   Supporting and troubleshooting customer issues via provider support access in the Landscape Portal. See [Landscape Portal](landscape-portal-5eb70fb.md).
 
 
 
@@ -236,7 +236,7 @@ The SaaS solution operator is responsible for creating the account model on the 
 -   > ### gCTS Delivery:  
     > If you use gCTS for delivery to customer production systems instead of using add-ons, you are responsible for cloning software components and pulling the latest changes into the system using the *Manage Software Components* app.
     > 
-    > See [Delivery via Add-On or gCTS](Chunk373453032.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+    > See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 
 
@@ -323,7 +323,7 @@ Technical Cloud Foundry Platform User
 </td>
 <td valign="top">
 
-A P-user \(SAP ID Service\) or S-user \(created via SAP ONE Support Launchpad\) is added as a member to subaccounts in the Cloud Foundry environment to create or delete ABAP service instances, create service keys etc. This user does not need authorizations in SAP ONE Support Launchpad since only authentication via SAP ID Service is used. See [SAP ID Service](../50-administration-and-ops/sap-id-service-d6a8db7.md) and SAP note [1271482](https://launchpad.support.sap.com/#/notes/1271482).
+A P-user \(SAP ID Service\) or S-user \(created via SAP ONE Support Launchpad\) is added as a member to subaccounts in the Cloud Foundry environment to create or delete ABAP service instances, create service keys etc. This user does not need authorizations in SAP ONE Support Launchpad since only authentication via SAP ID Service is used. See [Default Identity Provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md) and SAP note [1271482](https://launchpad.support.sap.com/#/notes/1271482).
 
 
 

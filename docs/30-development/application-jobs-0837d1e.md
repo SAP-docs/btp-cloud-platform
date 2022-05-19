@@ -35,6 +35,8 @@ You can use this app to:
 
 -   Restart job chains
 
+-   Navigate to the *Application Logs* reuse library. You can do this by selecting the corresponding icon in the log on the initial screen of the app.
+
 
 
 
@@ -58,5 +60,5 @@ If you need support or experience issues, please report an incident under compon
 **Related Information**  
 
 
-[Application Logs](application-logs-091bec9.md "You can use the Application Logs app to display and check if any errors occurred during runtime.")
+[Application Logs](application-logs-091bec9.md "You can use the Application Logs to display and check if any errors occurred during runtime.")
 

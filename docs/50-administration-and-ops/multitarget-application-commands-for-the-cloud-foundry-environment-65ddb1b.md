@@ -660,7 +660,7 @@ Perform the deployment, even if required administrator permissions are missing f
 </td>
 <td valign="top">
 
-If an operation fails, the corresponding process is automatically aborted and cannot be retried using the option *-a retry*. However, if you run a new operation for the same MTA, you will not receive an error message that there is an ongoing process for the MTA and ask you if you want to abort it.
+If an operation fails, the corresponding process is automatically aborted and cannot be retried using the option *\-a retry*. However, if you run a new operation for the same MTA, you will not receive an error message that there is an ongoing process for the MTA and ask you if you want to abort it.
 
 
 
@@ -794,10 +794,10 @@ Using this option, you will not be asked to manually confirm the deletion of the
 </td>
 <td valign="top">
 
-When using the *--strategy* option for “blue-green”, you can choose to skip the phase for testing and you will not be asked to manually confirm the deletion of the older version of the MTA applications. The deployment process is performed without any interruptions and you are not prompted to confirm the switch of routes to the new version of the MTA applications.
+When using the *\--strategy* option for “blue-green”, you can choose to skip the phase for testing and you will not be asked to manually confirm the deletion of the older version of the MTA applications. The deployment process is performed without any interruptions and you are not prompted to confirm the switch of routes to the new version of the MTA applications.
 
 > ### Note:  
-> This option is equivalent to *--no-confrim* from “bg-deploy”.
+> This option is equivalent to *\--no-confrim* from “bg-deploy”.
 
 Note
 
@@ -827,7 +827,7 @@ Namespace for the MTA. They are also applied to the application and service name
 <tr>
 <td valign="top">
 
-*--skip-idle-start*
+*\--skip-idle-start*
 
 > ### Note:  
 > This option is currently experimental.
@@ -837,7 +837,7 @@ Namespace for the MTA. They are also applied to the application and service name
 </td>
 <td valign="top">
 
-When using the *--strategy* option for “blue-green”, you can choose to skip the starting of the newly deployed applications on idle routes. This means that the newly deployed applications will be mapped directly to live routes. Under the hood this option includes *--skip-testing-phase*.
+When using the *\--strategy* option for “blue-green”, you can choose to skip the starting of the newly deployed applications on idle routes. This means that the newly deployed applications will be mapped directly to live routes. Under the hood this option includes *\--skip-testing-phase*.
 
 
 
@@ -1264,7 +1264,7 @@ Perform the deployment, even if required administrator permissions are missing f
 </td>
 <td valign="top">
 
-If an operation fails, the corresponding process is automatically aborted and cannot be retried using the option *-a retry*
+If an operation fails, the corresponding process is automatically aborted and cannot be retried using the option *\-a retry*
 
 
 
@@ -1373,7 +1373,7 @@ Check the archive signature by verifying that:
 <tr>
 <td valign="top">
 
-*--skip-idle-start*
+*\--skip-idle-start*
 
 > ### Note:  
 > This option is currently experimental.
@@ -1383,7 +1383,7 @@ Check the archive signature by verifying that:
 </td>
 <td valign="top">
 
-You can choose to skip the starting of the newly deployed applications on idle routes. This means that the newly deployed applications will be mapped directly to live routes. Under the hood this option includes *--no-confirm*.
+You can choose to skip the starting of the newly deployed applications on idle routes. This means that the newly deployed applications will be mapped directly to live routes. Under the hood this option includes *\--no-confirm*.
 
 
 
@@ -1653,7 +1653,7 @@ Perform the deployment, even if required administrator permissions are missing f
 </td>
 <td valign="top">
 
-If an operation fails, the corresponding process is automatically aborted and cannot be retried using the option *-a retry*. However, if you run a new operation for the same MTA, you will not receive an error message that there is an ongoing process for the MTA and ask you if you want to abort it.
+If an operation fails, the corresponding process is automatically aborted and cannot be retried using the option *\-a retry*. However, if you run a new operation for the same MTA, you will not receive an error message that there is an ongoing process for the MTA and ask you if you want to abort it.
 
 
 
@@ -2058,7 +2058,7 @@ Specify the path to the location where you want to save the downloaded MTA opera
 Specify the MTA whose logs you want to download.
 
 > ### Note:  
-> This option is not compatible with the *-i* option.
+> This option is not compatible with the *\-i* option.
 
 
 

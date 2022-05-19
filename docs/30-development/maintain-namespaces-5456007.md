@@ -33,6 +33,12 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
 
 5.  Click the *Install Namespaces* button in the top right corner to install all your namespaces in this system.
 
+    Note that the *Install Namespaces* button is only visible if the following is the case:
+
+    -   There are one or more namespaces that have not already been installed in the system.
+    -   The backend system containing the information on the namespaces is currently available.
+    -   The system in which you want to install namespaces is in lifecycle status *Live*.
+
 
 > ### Note:  
 > All new namespaces will be installed in the system; it is not possible to select only a specific namespace to be installed.

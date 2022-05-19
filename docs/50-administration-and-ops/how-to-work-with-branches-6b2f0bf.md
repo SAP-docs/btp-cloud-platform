@@ -28,7 +28,7 @@ Find out how to create, check out and switch between different branches:
 
 4.  To create a new branch, click on *Create*. Choose a name for your new branch and select the parent branch from the drop down menu. Confirm with *Create*.
 
-    You can also create a branch based on a specific commit state. This referenced commit must be available in the current system, i.e. included in the currently selected branch. To do this, simply fill in the *Commit ID* in the *Create New Branch* popup. The commit ID can be provided in short or long format. Note that short commit IDs should only be used if the software component has already been cloned. Otherwise, the long ID needs to be used.
+    You can also create a branch based on a specific commit state. This referenced commit must be available in the current system, i.e. included in the currently selected branch. To do this, simply fill in the *Commit ID* in the *Create New Branch* popup. The commit ID can be provided in short or long format. Note that short commit IDs should only be used if the software component has already been pulled. Otherwise, the long ID needs to be used.
 
 5.  Refresh the page. Your new branch has now been created and added to the table.
 

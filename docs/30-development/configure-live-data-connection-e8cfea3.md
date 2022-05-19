@@ -18,7 +18,7 @@ You have the *BI Admin* role in the SAP Analytics Cloud system.
 
 1.  Login to the SAP Analytics Cloud tenant.
 
-2.  Choose *Main Menu* \> *Connection* \> *+*.
+2.  Choose *Main Menu* \> *Connection* \> *\+*.
 
 3.  In the *Select a data source* dialog, expand *Connect to Live Data* and select *SAP S/4 HANA*.
 

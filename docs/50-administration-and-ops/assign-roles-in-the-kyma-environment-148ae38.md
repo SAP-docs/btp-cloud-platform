@@ -32,7 +32,7 @@ To assign the **kyma-developer** role to a user in a Namespace, follow these ste
 
 2.  In Kyma Dashboard, select or create the Namespace in which you want to assign roles.
 
-3.  To create a role binding, go to *Configuration* \> *Role Bindings* \> *+ Create Role Binding*. Fill in the required fields:
+3.  To create a role binding, go to *Configuration* \> *Role Bindings* \> *\+ Create Role Binding*. Fill in the required fields:
 
     1.  As *Name*, insert ***runtimeDeveloper***.
 
@@ -40,7 +40,7 @@ To assign the **kyma-developer** role to a user in a Namespace, follow these ste
 
     3.  As *Kind*, choose *User*.
 
-    4.  As *User Name*, insert the user e-mail address.
+    4.  As *User name*, insert the user e-mail address.
 
 
 4.  Select *Create*.

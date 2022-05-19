@@ -57,7 +57,7 @@ In the Cloud Connector, you create a service channel with a local instance numbe
 1.  To establish a service channel, configure it in the Cloud Connector as described in [Configure a Service Channel for RFC](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/18602c25ae33423f847e9f2c539d7fa0.html).
 
     > ### Note:  
-    > When creating a service channel for the ABAP environment, the URL of the ABAP instance \(tenant host\) follows the pattern *<myTenantHost\>.abap.hana.ondemand.com* \(not *<myTenantHost\>**-api***..., which is valid only for connections to S/4HANA Cloud\). Make sure you create the service channel for the correct subaccount.
+    > When creating a service channel for the ABAP environment, the URL of the ABAP instance \(tenant host\) follows the pattern *<myTenantHost\>.abap.hana.ondemand.com* \(not *<myTenantHost\>**\-api***..., which is valid only for connections to S/4HANA Cloud\). Make sure you create the service channel for the correct subaccount.
 
 2.  Create an RFC destination in the on-premise system:
 

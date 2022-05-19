@@ -92,7 +92,7 @@ To create a new software component, perform the following steps:
 
     3.  After the transport of the structure package, the software component becomes available for all instances and can be cloned to other system instances.
 
-        As soon as the structure package is transported, for example, to provide a new version of the software component, the date and time of the transport as well as the user who triggered the transport are displayed in 'Branching' section of the detail page of a software component. More information about the released content can be found when navigating on the used branch. Here you can see the list of transport requests.
+        As soon as the structure package is transported, for example, to provide a new version of the software component, the date and time of the transport as well as the user who triggered the transport are displayed in the *Branching* section of the detail page of a software component. More information about the released content can be found when navigating on the used branch.
 
 
 

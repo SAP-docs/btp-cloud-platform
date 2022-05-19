@@ -1,6 +1,6 @@
 <!-- loiod6a8db70bdde459f92f2837349f95090 -->
 
-# SAP ID Service
+# Default Identity Provider
 
 The default platform identity provider and application identity provider of SAP BTP is SAP ID service.
 
@@ -10,9 +10,13 @@ The default platform identity provider and application identity provider of SAP 
 
 ## Managing Users
 
-To add users to a subaccount, they must exist in an identity provider. For more information about adding users to SAP ID service, see [Create SAP User Accounts](create-sap-user-accounts-ebe42f6.md).
+To add users to a subaccount, the users must exist in an identity provider.
 
-To add new users to a subscribed app, or to add users to a service, such as Web IDE, add those users to your subaccount. See [Add Users from SAP ID Service for Multi-Environment Subaccounts](add-users-from-sap-id-service-for-multi-environment-subaccounts-760ab77.md).
+For more information about adding users to SAP ID service, see [Create SAP User Accounts](create-sap-user-accounts-ebe42f6.md).
+
+To add new users to a subscribed app or service, such as Web IDE, add those users to your subaccount.
+
+For more information, see [Add Users from SAP ID Service for Multi-Environment Subaccounts](add-users-from-sap-id-service-for-multi-environment-subaccounts-760ab77.md).
 
 
 
@@ -52,6 +56,14 @@ For more information, see [How to Enable Multi-Factor Authentication \(MFA\)](ht
 
 
 
+<a name="loiod6a8db70bdde459f92f2837349f95090__section_fmj_mbp_ktb"/>
+
+## SAP Universal ID
+
+SAP ID Service acts as a proxy for SAP Universal ID, when users log on with their e-mail addresses. Users can log on with and manage all their SAP accounts with SAP Universal ID.
+
+
+
 <a name="loiod6a8db70bdde459f92f2837349f95090__section_ifv_xlg_fsb"/>
 
 ## Trust and Identity Providers
@@ -60,9 +72,11 @@ Trust between your subaccount and SAP ID service is preconfigured by default, so
 
 In cloud management tools feature set A, you can set the default trust to inactive, for example if you prefer to use another identity provider.
 
-In cloud management tools feature set B, you can hide the default trust. For more information, see [Hide Logon Link for Default Identity Provider](hide-logon-link-for-default-identity-provider-9e3d457.md).
+In cloud management tools feature set B, you can hide the default trust.
 
-To use a custom identity provider, you must establish trust to your custom identity provider. We describe a custom trust configuration using the example of SAP Cloud Identity Services - Identity Authentication.
+For more information, see [Hide Logon Link for Default Identity Provider](hide-logon-link-for-default-identity-provider-9e3d457.md).
+
+To use a custom identity provider, establish trust to your custom identity provider. We describe a custom trust configuration using the example of SAP Cloud Identity Services - Identity Authentication.
 
 For more information, see [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md).
 

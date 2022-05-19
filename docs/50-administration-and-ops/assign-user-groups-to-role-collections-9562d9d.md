@@ -19,7 +19,7 @@ You can assign users groups to a role collection by adding them to the role coll
 
 ## Context
 
-You can assign user groups from custom identity providers to a role collection. After having choosen the identity provider, enter the user group name.
+You can assign user groups from custom identity providers to a role collection. After having chosen the identity provider, enter the user group name.
 
 
 
@@ -33,7 +33,7 @@ You can assign user groups from custom identity providers to a role collection. 
 
 4.  Choose the role collection to which you want to assign user groups.
 
-5.  Go the to *User Groups* section and choose *Edit*.
+5.  Go to the *User Groups* section and choose *Edit*.
 
 6.  Select the identity provider where the user group is stored.
 

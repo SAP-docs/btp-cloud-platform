@@ -39,7 +39,7 @@ The communication management apps allow you to establish secure communication be
 
 
 
-[Maintain Communication Systems](maintain-communication-systems-15663c1.md "You can use this app to create communication systems. Communication systems are created to enable the communication among different systems.")
+[Communication Systems](communication-systems-15663c1.md "You can use this app to create communication systems. Communication systems are created to enable the communication among different systems.")
 
 [IAM Information System](iam-information-system-82d17cf.md "With this app you can get an overview of business users in your system and what roles and restrictions are assigned to them.")
 

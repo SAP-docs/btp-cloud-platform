@@ -108,7 +108,7 @@ From the SAP S/4HANA Cloud side you need to maintain the communication settings 
 
     9.  In the *Provider Name* field, enter a unique provider name. For example, you can enter the value of the CN field of your public key.
 
-    10. Choose *+* \(Add\) under *User for Inbound Communication*.
+    10. Choose *\+* \(Add\) under *User for Inbound Communication*.
 
     11. In the dialog box that appears, select *User Name and Password* from the *Authentication Method* drop-down list.
 

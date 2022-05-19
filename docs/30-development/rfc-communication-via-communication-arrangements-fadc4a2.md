@@ -210,7 +210,7 @@ To use the `CALL FUNCTION ... DESTINATION` statement, use the following code:
 >           IMPORTING
 >             return            = lt_return
 >           TABLES
->             activitytype_list = lt_acttype_list.
+>             activitytype_list = lt_acttype_list
 >       EXCEPTIONS
 >         system_failure        = 1  MESSAGE msg
 >         communication_failure = 2  MESSAGE msg

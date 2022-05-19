@@ -16,9 +16,9 @@ You can use this app to:
 
 
 
--   Display a whitelist of allowed sources
+-   Display an allowlist of trusted sources
 
--   Add new allowed sources to the whitelist
+-   Add new trusted sources to the allowlist
 
     For fonts, use UI\_RESOURCES\_FONTS; for scripts, use UI\_RESOURCES\_SCRIPTS, for styles, use UI\_RESOURCES\_STYLES.
 

@@ -192,7 +192,7 @@ Australia East
 </td>
 <td valign="top">
 
-40.82.211.52, 40.82.206.131, 20.70.176.247
+40.82.211.52, 40.82.206.131, 20.70.176.247, 20.40.81.59, 20.40.80.246, 20.40.81.36, 20.70.208.178, 20.70.208.228, 20.70.208.235, 20.70.201.155, 20.70.201.89, 20.70.201.66
 
 
 
@@ -1044,7 +1044,13 @@ eu-central-1
 </td>
 <td valign="top">
 
+**cf-eu10**
+
 api.cf.eu10.hana.ondemand.com
+
+**cf-eu10-004**
+
+api.cf.eu10-004.hana.ondemand.com
 
 
 
@@ -1749,4 +1755,7 @@ ap21.hana.ondemand.com
 
 > ### Note:  
 > In the Cloud Foundry environment, IPs are controlled by the respective IaaS provider \(AWS, Azure, or Google Cloud\). IPs may change due to network updates on the provider side. Any planned changes will be announced at least four weeks before they take effect.
+
+> ### Note:  
+> In the Cloud Foundry environment, the region in which a global account was created determines the API endpoint of all subaccounts associated with it. For example, subaccounts created in a global account in region **eu10** share the API endpoint URL `api.cf.eu10.hana.ondemand.com`.
 

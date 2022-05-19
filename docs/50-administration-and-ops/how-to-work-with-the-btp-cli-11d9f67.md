@@ -63,7 +63,7 @@ Options
 <tr>
 <td valign="top">
 
---config
+\--config
 
 
 
@@ -79,7 +79,7 @@ Specifies the location of the configuration file. See [Specify the Location of t
 <tr>
 <td valign="top">
 
---info
+\--info
 
 
 
@@ -95,7 +95,7 @@ Displays client and server versions, target, and context. Note that this option 
 <tr>
 <td valign="top">
 
---help
+\--help
 
 
 
@@ -111,7 +111,7 @@ Displays help. See [Get Help](get-help-f8fd1e5.md).
 <tr>
 <td valign="top">
 
---verbose
+\--verbose
 
 
 
@@ -127,7 +127,7 @@ Prints tracing information for support. See [Troubleshooting and Support](troubl
 <tr>
 <td valign="top">
 
---format
+\--format
 
 
 

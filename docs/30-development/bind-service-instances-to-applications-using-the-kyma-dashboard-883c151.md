@@ -18,7 +18,7 @@ You can bind the service instance to any workload running in the Kyma environmen
 
     2.  *Set prefix for injected variables* - use a prefix if your Secret contains fields with generic names. This way, when you want to reuse the Secret, the fields will already have unique names.
 
-    3.  *Select existing credentials* - if you already have a set of credentials in place, you can add them to your binding. For details, see [Create Credentials Using the Kyma Dashboard](create-credentials-using-the-kyma-dashboard-87576fe.md).
+    3.  *Create new Service Binding* - if you already have a set of credentials in place, uncheck the *Create new Service Binding* checkbox, and add them to your binding. For details, see [Add Service Binding Using the Kyma Dashboard](add-service-binding-using-the-kyma-dashboard-87576fe.md).
 
 
 4.  Confirm with *Bind Application*.

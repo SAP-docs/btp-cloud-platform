@@ -16,7 +16,7 @@ As a first step, you need to create the application for the Cloud Foundry accoun
 
 2.  In the navigation area, choose *Application & Resources* \> *Applications*.
 
-3.  Choose *+ Add*.
+3.  Choose *\+ Add*.
 
 4.  Enter an application name for the Cloud Foundry account \(the service provider\) in the Identity Authentication service, for example, ***CF SAML Application***.
 
@@ -89,7 +89,7 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
 
 2.  Choose *Assertion Attributes*.
 
-3.  Choose *+Add* to enter the following user attributes and their corresponding assertion attributes \(if they don't already exist\):
+3.  Choose *\+Add* to enter the following user attributes and their corresponding assertion attributes \(if they don't already exist\):
 
 
     <table>

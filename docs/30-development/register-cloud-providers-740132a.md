@@ -26,6 +26,6 @@ Follow the steps to register cloud providers:
 
 2.  Go to the *Add-Ons* tab and select the tile with the cloud provider you would like to register.
 
-3.  Click *+ Add once* and fill in the fields using the instructions available in the *Documentation* section.
+3.  Click *\+ Add once* and fill in the fields using the instructions available in the *Documentation* section.
 
 

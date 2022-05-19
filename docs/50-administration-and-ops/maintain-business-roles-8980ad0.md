@@ -42,3 +42,11 @@ You can use this app to:
 -   Tablet
 
 
+
+
+<a name="loio8980ad05330b4585ab96a8e09cef4688__customer_component"/>
+
+## Component for Customer Incidents
+
+If you need support or experience issues, please report an incident under component `BC-SRV-APS-IAM`.
+

@@ -4,7 +4,19 @@
 
 
 
-With this app you can keep track of content changes in your business configuration tables.
+With this app, business process configuration experts can keep track of content changes in your business configuration tables. Table data change logs can be used to check when data was changed, which kind of data was changed, or by whom. This is made visible in a table.
+
+
+
+<a name="loio5c6cf20499894f1083e80dba7c5963d4__section_v4b_rhg_tsb"/>
+
+## Access Information
+
+To access the app, you need to have the following business catalog assigned to your user: `SAP_CA_BC_IC_LND_PC` - customizing - business configuration.
+
+This business catalog is available in the cusiness role template: `SAP_BR_BPC_EXPERT`.
+
+To display the change logs for tables, users must have the authorization for the object `S_TABU_NAM` with `Display Change Documents` for `ACTVT` and the name of the table for `TABLE`.
 
 
 
@@ -14,22 +26,11 @@ You can use this app to:
 
 
 
--   View which changes were made to the records of your business configuration tables.
+-   Display which changes were made to the records of your business configuration tables.
 
--   View when changes were made to the records of your business configuration tables.
+-   Display when changes were made to the records of your business configuration tables.
 
--   View who made changes to the records of your business configurations tables.
-
-
-
-
-<a name="loio5c6cf20499894f1083e80dba7c5963d4__supported_devices"/>
-
-## Supported Device Types
-
--   Desktop
-
--   Tablet
+-   Display who made changes to the records of your business configurations tables.
 
 
 

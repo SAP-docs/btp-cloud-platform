@@ -13,7 +13,7 @@ Once you have configured and implemented the customer project, the SaaS solution
 > 
 > In the *Manage Software Components* app, select a software component and clone the branch of the software component with the product version, for example v1.0.0.
 > 
-> See [Delivery via Add-On or gCTS](Chunk373453032.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 
 

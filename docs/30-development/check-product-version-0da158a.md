@@ -32,7 +32,8 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
 
 5.  Select a version to see more detailed information on the check results:
 
-    -   **Components**: View whether a system downtime is required when your software components are imported. Click one of the components to view its attributes \(package, delivery status, branch, commit ID\) and its import conditions.
+    -   **Delivery Requirements**: At the top, under *Delivery Requirements*, you can see whether a system downtime is required to update the product version. This information is calculated based on the components of the product version: If one or more of the components require downtime, the product version does as well. During a downtime, the system will be unavailable for end users.
+    -   **Components**: View whether a system downtime is required when your software components are imported. This information is calculated automatically by the infrastructure. Click one of the components to view its attributes \(package, delivery status, branch, commit ID\) and its import conditions.
     -   **Checks**: View whether the delivery check for the product version was successful.
     -   **Object Lists**: View a complete list of all objects.
 

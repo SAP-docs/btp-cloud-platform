@@ -29,7 +29,7 @@ Use this procedure to configure the service provider \(SAP Cloud for Customer\) 
 
     1.  Choose *Applications & Resources* \> *Applications* from the menu on the left.
 
-    2.  Choose the *+Add* button on the left hand panel, and enter the name of your SAP Cloud for Customer system.
+    2.  Choose the *\+Add* button on the left hand panel, and enter the name of your SAP Cloud for Customer system.
 
         > ### Note:  
         > The name of the application is displayed on the login and registration pages.
