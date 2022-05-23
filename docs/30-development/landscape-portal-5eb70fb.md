@@ -1,6 +1,6 @@
 <!-- loio5eb70fb003954619b09224167a0afaa4 -->
 
-# Using Landscape Portal to Perform Lifecycle Management Operations
+# Landscape Portal
 
 
 

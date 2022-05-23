@@ -301,7 +301,7 @@ Description
 
 
 </th>
-<th valign="top" colspan="2">
+<th valign="top" align="center" colspan="2">
 
 Commercial Model
 
@@ -310,14 +310,14 @@ Commercial Model
 </th>
 </tr>
 <tr>
-<th valign="top">
+<th valign="top" align="center">
 
 Subscription-Based
 
 
 
 </th>
-<th valign="top">
+<th valign="top" align="center">
 
 Consumption-Based
 

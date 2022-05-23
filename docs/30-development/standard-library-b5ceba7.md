@@ -39,7 +39,10 @@ A good example for the synergies created by the IF\_XCO\_NEWS abstraction is the
 > out->write( lo_log->messages->all )
 > ```
 
-.
+Notable implementations of IF\_XCO\_NEWS are:
+
+-   IF\_XCO\_RAP\_BEHAVIOR\_MESSAGE. Obtainable via XCO\_CP\_RAP=\>BEHAVIOR MESSAGE\( … \), an IF\_XCO\_RAP\_BEHAVIOR\_MESSAGE encapsulates an IF\_ABAP\_BEHV\_MESSAGE and allows it to be used anywhere where an IF\_XCO\_NEWS object can be used.
+
 
 
 

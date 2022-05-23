@@ -18,7 +18,7 @@ Once the add-on build/assembly is finished, you can release the add-on to the pr
 > ### gCTS Delivery:  
 > Besides using add-ons for delivering software components to production systems, gCTS transports can be used as an alternative approach. It is used for transporting software components between different ABAP systems.
 > 
-> See [Delivery via Add-On or gCTS](Chunk373453032.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
  <a name="loio4338854e3133407abb47d3a281dbd1e1"/>
 
@@ -97,9 +97,9 @@ As a SaaS solution operator, you have to configure the global account for develo
 > 
 > Additionally, considering the availability of software components only in the same global accounts, you have to create the production systems as well as development and test systems in the same global account \(only one global account is used\).
 > 
-> In the provider subaccount, an ABAP instance of service plan type abap/standard instead of abap/saas\_oem is used.
+> In the provider subaccount, the entitlement for an ABAP instance of service plan type `abap/standard` instead of `abap/saas_oem` needs to be available.
 > 
-> See [Delivery via Add-On or gCTS](Chunk373453032.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 You should configure a Cloud Foundry space in each subaccount. Dividing the development, testing, and assembling activities into different subaccounts allows for maximum flexibility. For instance, you may want to use different identity providers or consume different connectivity services during testing and development.
 
@@ -293,7 +293,7 @@ Additionally, the following entitlements for SaaS application subscriptions are 
 
 -   SAP Business Application Studio for UI development. See [SAP Business Application Studio](sap-business-application-studio-c736960.md).
 -   Web access for ABAP for access to systems during development phase. See [Subscribing to the Web Access for ABAP](../20-getting-started/subscribing-to-the-web-access-for-abap-98928b0.md).
--   Landscape Portal for provider support access. See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
+-   Landscape Portal to manage systems and tenants in the provider subaccount. See [Landscape Portal](landscape-portal-5eb70fb.md).
 
 If you want to integrate an existing corporate identity provider in the subaccounts of the global account for development for authentication/authorization, see [Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md). To restrict access based on certain criteria such as the IP address, you need to use the [Identity Authentication Service](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
 
@@ -318,13 +318,11 @@ As a SaaS solution operator, you have to configure the global account for produc
 In the provider context, the `ABAP environment (saas_oem)` service plan is used.
 
 > ### gCTS Delivery:  
-> In the provider subaccount, an ABAP instance of service plan type `abap/standard` instead of `abap/saas_oem` is used.
+> In the provider subaccount, the entitlement for an ABAP instance of service plan type `abap/standard` needs to be available.
 > 
 > Additionally, considering the availability of software components only in the same global accounts, you have to create the production systems as well as development and test systems in the same global account.
 > 
-> In the provider subaccount, an ABAP instance of service plan type `abap/standard` instead of `abap/saas_oem` is used.
-> 
-> See [Delivery via Add-On or gCTS](Chunk373453032.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 These provider ABAP instances allow flexible sizing, multitenancy, and the possibility to install an add-on product during provisioning.
 
@@ -410,7 +408,7 @@ xsuaa
 
 Additionally, the following SaaS application subscription is required:
 
-*Landscape Portal* to manage systems and tenants in the provider subaccount. The *Landscape Portal* app acts as a central tool to allow service providers to perform lifecycle management operations, such as provisioning new consumers as new tenants, moving tenants, and more.
+*Landscape Portal* to manage systems and tenants in the provider subaccount. Additionally, the following entitlements for SaaS application subscriptions are required: Web access for ABAP for access to systems during the development phase. See Subscribing to the Web Access for ABAP. Landscape Portal to manage systems and tenants in the provider subaccount..
 
 If you want to integrate an existing corporate identity provider in the subaccounts of the global production account for authentication/authorization, see [Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md). To restrict access based on certain criteria such as the IP address, you need to use the [Identity Authentication Service](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
 
@@ -850,7 +848,7 @@ The continuous testing scenario of the ABAP environment pipeline is described in
 > 
 > Once it is pulled on the main branch, create a maintenance branch with version v1.0.0, for example.
 > 
-> See [Delivery via Add-On or gCTS](Chunk373453032.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 > ### Tip:  
 > For in-depth information about the ABAP environment pipeline used for add-on build, check out [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).

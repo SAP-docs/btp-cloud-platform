@@ -96,7 +96,7 @@ Please refer to the example code for an application jobs main class. Literals ar
 **Related Information**  
 
 
-[Creating the Job Catalog Entry](creating-the-job-catalog-entry-1cff59e.md "")
+[Defining the Job Catalog Entry](defining-the-job-catalog-entry-1cff59e.md "")
 
 [Defining the Job Template](defining-the-job-template-1f04ad2.md "")
 

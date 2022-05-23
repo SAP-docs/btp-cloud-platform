@@ -23,7 +23,10 @@ If a software component is not locally in your system yet, you will first need t
 
 2.  Click *Clone*.
 
-3.  A pop-up opens. You can now select which branch you would like to import. If the software component does not have branches yet, the master or main branch \(dependent on when the repository was created\) is automatically selected. Confirm by clicking *Clone*.
+3.  A pop-up opens. You can now select which branch you would like to import. If the software component does not have branches yet, the master or main branch \(dependent on when the repository was created\) is automatically selected. Select *By Tag* if you want to clone a specific git tag, which has been assigned to a commit. Select *By Commit* if you want to clone a software component with a specific commit ID. Confirm by clicking *Clone*.
+
+    > ### Note:  
+    > There is no input validation for the entered values for the options *By Tag* and *By Commit*. If the entered values are not valid the cloning process will start, but will be shown as failed in the end of the cloning process. In this case, the clone *Latest* option is automatically called as a fallback. With this, the repository is still useable, but not in the orginally requested version.
 
 4.  The software component with the selected branch is now imported into your current system instance. The *Clone* button turns into a *Pull* button. From now on, you can use it to pull \(remotely available\) changes of your software component to your system.
 

@@ -124,7 +124,7 @@ To establish trust from a tenant of SAP Cloud Identity Services - Identity Authe
     > ### Note:  
     > In the administration console, you find the service providers in *Applications*.
 
-3.  To add a new SAML service provider, create a new application by using the *+ Add* button.
+3.  To add a new SAML service provider, create a new application by using the *\+ Add* button.
 
 4.  Choose a name for the application that clearly identifies it as your new service provider. Save your changes.
 
@@ -139,6 +139,6 @@ To establish trust from a tenant of SAP Cloud Identity Services - Identity Authe
 
 6.  Choose *Default Name ID Format* and select *E-Mail* as a unique attribute. Save your changes.
 
-7.  Choose *Assertion Attributes*, use *+Add* to add a multi-value user attribute, and enter ***Groups*** \(case-sensitive\) as assertion attribute name for the *Groups* user attribute. Save your changes.
+7.  Choose *Assertion Attributes*, use *\+Add* to add a multi-value user attribute, and enter ***Groups*** \(case-sensitive\) as assertion attribute name for the *Groups* user attribute. Save your changes.
 
 

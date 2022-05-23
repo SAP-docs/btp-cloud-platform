@@ -47,7 +47,7 @@ If you need support or experience issues, please report an incident under compon
 **Related Information**  
 
 
-[Maintain Communication Systems](maintain-communication-systems-15663c1.md "You can use this app to create communication systems. Communication systems are created to enable the communication among different systems.")
+[Communication Systems](communication-systems-15663c1.md "You can use this app to create communication systems. Communication systems are created to enable the communication among different systems.")
 
 [How to Create Communication Users](how-to-create-communication-users-0377ade.md "")
 

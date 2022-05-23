@@ -10,12 +10,12 @@ Access the Kyma environment and start creating extensions for SAP systems using 
 
 ## Context
 
-You can extend a given SAP system in the Kyma environment with the so-called [Functions](https://kyma-project.io/docs/kyma/latest/01-overview/main-areas/serverless/svls-01-overview/) that are based on the Function custom resource. Functions are simple code snippets that you can run without provisioning or managing servers. They implement the exact business logic you define in their code.
-
-Follow these instructions to get familiar with Functions and learn how to use them.
+You can extend a given SAP system in the Kyma environment with “[Functions](https://kyma-project.io/docs/kyma/latest/01-overview/main-areas/serverless/svls-01-overview/)” that are based on the Function custom resource. Functions are simple code snippets that you can run without provisioning or managing servers. They implement the exact business logic you define in their code.
 
 > ### Note:  
-> Most tutorials contain steps that you can perform both on the Kyma Dashboard and in the terminal after downloading the kubeconfig file with the cluster configuration.
+> Most of the linked tutorials contain steps that you can perform both on the Kyma Dashboard and in the terminal after downloading the kubeconfig file with the cluster configuration.
+
+Follow these steps to get familiar with Functions and learn how to use them.
 
 
 
@@ -50,7 +50,7 @@ Follow these instructions to get familiar with Functions and learn how to use th
 
 5.  Configure your Function to react to events \([Trigger a workload with an event](https://kyma-project.io/docs/kyma/latest/02-get-started/04-trigger-workload-with-event/)\).
 
-    To subscribe to events with Kyma version 2.0, you need to create a [Subcription](https://kyma-project.io/docs/kyma/latest/02-get-started/04-trigger-workload-with-event/#create-a-subscription) including the following parameters:
+    To subscribe to events with Kyma, you must create a [Subscription](https://kyma-project.io/docs/kyma/latest/02-get-started/04-trigger-workload-with-event/#create-a-subscription) including the following parameters:
 
     -   **Application name**: The name of the external Application connected to Kyma runtime. Typically, it starts with `mp-*`. This name can be found in the UI under *Integration* \> *Applications*. It must be bound to the Namespace.
     -   **Event name**: The event name depends on your CX solution:

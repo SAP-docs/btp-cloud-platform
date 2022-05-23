@@ -2,9 +2,9 @@
 
 # Application Logs
 
-You can use the *Application Logs* app to display and check if any errors occurred during runtime.
+You can use the *Application Logs* to display and check if any errors occurred during runtime.
 
-The *Application Logs* app is a reuse service that is used within the *Application Jobs* app. To navigate to the *Application Logs* app, select the corresponding icon in the log on the initial screen of the *Application Jobs* app. This app gives you a clearly structured overview of all errors that might have occurred during runtime.
+The *Application Logs* are a reuse library that is mainly used within the *Application Jobs* app, but can also be used in other apps. This reuse library gives you a clearly structured overview of all errors that might have occurred during runtime.
 
 
 
@@ -12,7 +12,7 @@ The *Application Logs* app is a reuse service that is used within the *Applicati
 
 ## Key Features
 
-You can use this app to:
+You can use this reuse library to:
 
 
 

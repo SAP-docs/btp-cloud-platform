@@ -24,7 +24,7 @@ Use this feature to prevent conflicts for applications deriving from the same MT
 
 By using the namespaces feature, you can deploy and operate a single multitarget applicaton multiple times within a single space. This is useful when you have to avoid conflicts among applications or entities. It modifies the modules and resources by adding a namespace at the beginning of the application names, service names, and routes.
 
-The feature is employed by adding the parameter ***--namespace***, when you input the deployment command in the Cloud Foundry Command Line Interface \(CF CLI\), and by modifying the deployment descriptor as described below. Using a more detailed configuration, you can include of exclude specific resources from having the namespace feature applied to them, namely:
+The feature is employed by adding the parameter ***\--namespace***, when you input the deployment command in the Cloud Foundry Command Line Interface \(CF CLI\), and by modifying the deployment descriptor as described below. Using a more detailed configuration, you can include of exclude specific resources from having the namespace feature applied to them, namely:
 
 -   services
 -   modules

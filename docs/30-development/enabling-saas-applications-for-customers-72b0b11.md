@@ -460,7 +460,7 @@ Order and provide your solution. See [Order and Provide](order-and-provide-975bd
     > 
     > **`TENANT_HOST_PATTERN: (.*)${route-prefix}.${app-domain}`**
     > 
-    > The pattern includes a placeholder for the subdomain of a consumer subaccount and a route prefix. The route prefix consists of a separator ***-***, and the defined appname.
+    > The pattern includes a placeholder for the subdomain of a consumer subaccount and a route prefix. The route prefix consists of a separator ***\-***, and the defined appname.
     > 
     > The subdomain can only contain letters, digits, and hyphens, see [Create Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html).
     > 

@@ -4,7 +4,7 @@
 
 Find selected information for Java development on SAP BTP, Cloud Foundry and references to more detailed sources.
 
-The SAP Java buildpack is a Cloud Foundry buildpack for running JVM-based applications. The buildpack provides the following runtimes: [Tomcat](application-containers-83d2416.md#loioddfc10180fe844049cc71f6989942dc2), [TomEE](application-containers-83d2416.md#loioa9590c2f5ebc4d1586d9f0f53a60cfdc), [TomEE 7](application-containers-83d2416.md#loio79c039ab43b946a7b50c5d0326a3b40b), and [Java Main](application-containers-83d2416.md#loio8a1786acd70445768b35e50f3038a2a9).
+The SAP Java buildpack is a Cloud Foundry buildpack for running JVM-based applications. The buildpack provides the following runtimes: [Tomcat](tomcat-ddfc101.md), [TomEE](tomee-a9590c2.md), [TomEE 7](tomee-7-79c039a.md), and [Java Main](java-main-8a1786a.md).
 
 
 
@@ -145,11 +145,11 @@ modules:
 
 The SAP Java buildpack provides the following components \(containers, jres, frameworks\) in the application container \(`<APP_ROOT_DIR>/app/META-INF/.sap_java_buildpack`\):
 
--   Runtime \([Tomcat](application-containers-83d2416.md#loioddfc10180fe844049cc71f6989942dc2), [TomEE](application-containers-83d2416.md#loioa9590c2f5ebc4d1586d9f0f53a60cfdc), [TomEE 7](application-containers-83d2416.md#loio79c039ab43b946a7b50c5d0326a3b40b), [Java Main](application-containers-83d2416.md#loio8a1786acd70445768b35e50f3038a2a9)\)
+-   Runtime \([Tomcat](tomcat-ddfc101.md), [TomEE](tomee-a9590c2.md), [TomEE 7](tomee-7-79c039a.md), [Java Main](java-main-8a1786a.md)\)
 
--   [Memory Calculator V1 \(SAP JVM Memory Calculator\)](Chunk1157545745.md#loioc1059e056aad406297addcd177a4fb7c) - optional
+-   [Memory Calculator V1 \(SAP JVM Memory Calculator\)](memory-calculator-v1-sap-jvm-memory-calculator-c1059e0.md) - optional
 
--   [Memory Calculator V2](Chunk1157545745.md#loio8eef9590a1d24e87af239d7c7e15fffe) - default
+-   [Memory Calculator V2](memory-calculator-v2-8eef959.md) - default
 
 -   SAP JVM
 
@@ -164,5 +164,5 @@ The SAP Java buildpack provides the following components \(containers, jres, fra
 
 ## Release Notes
 
-To see the latest news and updates about the SAP Java Buildpack, regularly check the release notes on the [What's New portal](https://help.sap.com/doc/43b304f99a8145809c78f292bfc0bc58/Cloud/en-US/98bf747111574187a7c76f8ced51cfeb.html?sel1=SAP%20Java%20Buildpack&from=2021-01-01).
+To see the latest news and updates about the SAP Java Buildpack, regularly check the release notes on the [What's New portal](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%2520Java%2520Buildpack&Valid_as_Of=2022-01-01%253A2022-12-31).
 

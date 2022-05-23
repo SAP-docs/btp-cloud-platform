@@ -82,7 +82,7 @@ Troubleshooting tools such as logs, traces, and the debugger.
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -107,7 +107,7 @@ Testing ABAP-based APIs released by SAP
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -132,7 +132,7 @@ Executing class runners in ABAP Development Tools
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -157,7 +157,7 @@ Using data preview in ABAP Development Tools
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -182,7 +182,7 @@ Viewing \(read-only\) development objects in ABAP Development Tools
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -257,7 +257,7 @@ Deployment of UIs into the ABAP system repository
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -287,7 +287,7 @@ Data of CDS views can be viewed with or without application of the DCL.
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -316,7 +316,7 @@ Usage of the data preview in ABAP Development Tools for objects that are conside
 </td>
 <td valign="top">
 
--
+\-
 
 
 

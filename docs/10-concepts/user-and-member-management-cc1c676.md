@@ -28,7 +28,7 @@ Before diving into the different user and member management concepts, it's impor
 
 Platform users who were added as members and who have administrative permissions can view or manage the list of global accounts, subaccounts, and Cloud Foundry orgs and spaces that are available to them. Members access them using the SAP BTP Cockpit or the SAP BTP command-line interface \(btp CLI\).
 
-For platform users, there's a [default identity provider](../50-administration-and-ops/sap-id-service-d6a8db7.md). In cloud management tools feature set A, to use subaccount members from your own user base, use a tenant of the Identity Authentication service and, if needed, connect Identity Authentication to your own corporate identity provider.
+For platform users, there's a [default identity provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md). In cloud management tools feature set A, to use subaccount members from your own user base, use a tenant of the Identity Authentication service and, if needed, connect Identity Authentication to your own corporate identity provider.
 
 > ### Note:  
 > For China \(Shanghai\) region, a different default identity provider is used.
@@ -45,7 +45,7 @@ For platform users, there's a [default identity provider](../50-administration-a
 
 In the Cloud Foundry environment, application developers \(platform users\) create and deploy application-based security artifacts for business users. Administrators use these artifacts to assign roles, build role collections, and assign these role collections to business users or user groups. In this way, they control the users' permissions in the deployed application.
 
-For business users, there's a [default identity provider](../50-administration-and-ops/sap-id-service-d6a8db7.md). We expect that you have your own user base. We recommend that you configure the Identity Authentication service as the identity provider and connect Identity Authentication to your own corporate identity provider.
+For business users, there's a [default identity provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md). We expect that you have your own user base. We recommend that you configure the Identity Authentication service as the identity provider and connect Identity Authentication to your own corporate identity provider.
 
 
 

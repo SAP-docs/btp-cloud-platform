@@ -125,6 +125,261 @@ The number of out-of-memory events on the SAP HANA index server during the last 
 <tr>
 <td valign="top">
 
+Performance
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_appl\_jobs\_avg\_delay\_s\_5m
+
+
+
+</td>
+<td valign="top">
+
+Average application job delay in seconds during the last 5 minutes
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Performance
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_appl\_jobs\_max\_delay\_s\_5m
+
+
+
+</td>
+<td valign="top">
+
+Maximum application job delay in seconds during the last 5 minutes
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Performance
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_appl\_jobs\_delayed\_count\_5m
+
+
+
+</td>
+<td valign="top">
+
+The number of delayed application jobs during the last 5 minutes.
+
+A job is counted as delayed when its delay exceeds a certain threshold. The default configuration uses a threshold of 60 seconds.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Performance
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_appl\_jobs\_failed\_count\_5m
+
+
+
+</td>
+<td valign="top">
+
+The number of failed application jobs during the last 5 minutes
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Performance
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_appl\_jobs\_running\_count\_5m
+
+
+
+</td>
+<td valign="top">
+
+The number of running application jobs during the last 5 minutes
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Performance
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_appl\_jobs\_success\_count\_5m
+
+
+
+</td>
+<td valign="top">
+
+The number of successfully finished application jobs during the last 5 minutes
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Performance
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_appl\_logs\_count
+
+
+
+</td>
+<td valign="top">
+
+The total number of application logs
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Performance
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_appl\_logs\_errors\_count\_5m
+
+
+
+</td>
+<td valign="top">
+
+The number of application logs with errors during the last 5 minutes
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Performance
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_ksr\_captured\_count\_5m
+
+
+
+</td>
+<td valign="top">
+
+The number of captured requests for the ABAP system during the last 5 minutes
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Performance
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_users\_count
+
+
+
+</td>
+<td valign="top">
+
+The number of current unique users in the ABAP system
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Performance
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_sessions\_count
+
+
+
+</td>
+<td valign="top">
+
+The number of current sessions in the ABAP system
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Quota
 
 
@@ -139,7 +394,7 @@ abap\_acu\_used\_count\_5m \(type: memory\)
 </td>
 <td valign="top">
 
-Used quota of ABAP system memory \(in ABAP computing units\)
+Used quota of ABAP system memory \(in ABAP compute units\)
 
 
 
@@ -162,7 +417,7 @@ hana\_hcu\_used\_count\_5m \(type: cpu\)
 </td>
 <td valign="top">
 
-Used quota of CPU utilization for the SAP HANA database \(in HANA computing units\)
+Used quota of CPU utilization for the SAP HANA database \(in HANA compute units\)
 
 
 
@@ -185,7 +440,7 @@ hana\_hcu\_used\_count\_5m \(type: disk\)
 </td>
 <td valign="top">
 
-Used quota of disk space for the SAP HANA database \(in HANA computing units\)
+Used quota of disk space for the SAP HANA database \(in HANA compute units\)
 
 
 
@@ -208,7 +463,7 @@ hana\_hcu\_used\_count\_5m \(type: memory\)
 </td>
 <td valign="top">
 
-Used quota of memory utilization for the SAP HANA database \(in HANA computing units\)
+Used quota of memory utilization for the SAP HANA database \(in HANA compute units\)
 
 
 
@@ -240,7 +495,9 @@ For more information about setting up ABAP environment monitoring with SAP Cloud
 
 [SAP Focused Run on SAP Support Portal](https://support.sap.com/en/alm/sap-focused-run.html)
 
-[Health Monitoring in SAP Focused Run](https://help.sap.com/viewer/0a4e30bef4ec4b27862bc52a2dc1bed2/latest/en-US/61d928f897a44171baa948412a7604d3.html)
+[Health Monitoring in SAP Focused Run](https://help.sap.com/docs/FRUN/0a4e30bef4ec4b27862bc52a2dc1bed2/61d928f897a44171baa948412a7604d3.html)
 
 [SAP Cloud ALM on SAP Support Portal](https://support.sap.com/en/alm/sap-cloud-alm.html)
+
+[Health Monitoring in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring/health-mon-content.html)
 

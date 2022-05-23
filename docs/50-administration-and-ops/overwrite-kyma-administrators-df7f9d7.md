@@ -10,9 +10,7 @@ In some cases, you may need to overwrite usernames of the current administrators
 
 ## Prerequisites
 
--   Your cluster is running Kyma version 2.0 or higher.
-
--   You are the subaccount administrator.
+-   You’re the subaccount administrator.
 
 
 
@@ -36,7 +34,7 @@ To overwrite the names for the **cluster-admin** role, update the Kyma instance 
 
 2.  Provide a new set of administrators' usernames as an array of strings.
 
-    In a JSON file, use the following stucture:
+    In a JSON file, use the following structure:
 
     ```
     {

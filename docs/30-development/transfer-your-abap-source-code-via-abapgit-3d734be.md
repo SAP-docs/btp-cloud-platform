@@ -46,7 +46,7 @@ Use abapGit to transfer your ABAP source code from an ABAP environment instance 
 
         ![](images/img8_4ddb086.png)
 
-    4.  ABAP development objects which should become staged can be selected by drag and drop from the *unstaged* box to the *staged* box or by clicking on the *+* button. Enter your commit message and click**Commit and Push**.
+    4.  ABAP development objects which should become staged can be selected by drag and drop from the *unstaged* box to the *staged* box or by clicking on the *\+* button. Enter your commit message and click**Commit and Push**.
 
         ![](images/img9_97b74b8.png)
 

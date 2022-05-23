@@ -24,7 +24,7 @@ You have a previously deployed MTA, with functional productive applications and 
 ## Context
 
 > ### Note:  
-> If you already have executed deployments using the ***cf bg-deploy*** command and they have been successful, you can switch to the deploy ***--strategy blue-green*** deployment method, or vice versa. Do not begin a blue-green deployment using a given deployment command and continue with the other, as this might result in downtime.
+> If you already have executed deployments using the ***cf bg-deploy*** command and they have been successful, you can switch to the deploy ***\--strategy blue-green*** deployment method, or vice versa. Do not begin a blue-green deployment using a given deployment command and continue with the other, as this might result in downtime.
 
 
 
@@ -60,11 +60,11 @@ You have a previously deployed MTA, with functional productive applications and 
     > ### Note:  
     > You can skip this step by using one of the following command line options:
     > 
-    > -   *--skip-testing-phase* - you have to use it when starting the process.
+    > -   *\--skip-testing-phase* - you have to use it when starting the process.
     > 
-    > -   *--skip-idle-start* - this option will also skip the start of the newly deployed applications on idle routes.
+    > -   *\--skip-idle-start* - this option will also skip the start of the newly deployed applications on idle routes.
 
-3.  If you do not want to make the “idle” version available, abort the process using cf deploy ***-i <operation ID\> -a abort***.
+3.  If you do not want to make the “idle” version available, abort the process using cf deploy ***\-i <operation ID\> -a abort***.
 
     > ### Note:  
     > This action does not perform a rollback and the state of apps, routes and services remains unchanged. Depending on your needs, you might want to remove the new app versions and the temporary routes.

@@ -34,6 +34,121 @@ Generated
 <tr>
 <td valign="top">
 
+ADSO
+
+
+
+</td>
+<td valign="top">
+
+DataStore Object
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+APIS
+
+
+
+</td>
+<td valign="top">
+
+API Release State of Objects
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+APLO
+
+
+
+</td>
+<td valign="top">
+
+Application Log Object
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+AREA
+
+
+
+</td>
+<td valign="top">
+
+InfoArea
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+AUTH
+
+
+
+</td>
+<td valign="top">
+
+Authorization Check Fields
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 BDEF
 
 
@@ -57,6 +172,144 @@ Behavior Definition
 <tr>
 <td valign="top">
 
+CFDA
+
+
+
+</td>
+<td valign="top">
+
+Custom Fields: BAdIs of Business Context
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CHDO
+
+
+
+</td>
+<td valign="top">
+
+Change Document
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CHKC
+
+
+
+</td>
+<td valign="top">
+
+ATC Check Category
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CHKE
+
+
+
+</td>
+<td valign="top">
+
+Exemptions
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CHKO
+
+
+
+</td>
+<td valign="top">
+
+ATC Check Object
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CHKV
+
+
+
+</td>
+<td valign="top">
+
+ATC Check Variant
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 CLAS
 
 
@@ -65,6 +318,29 @@ CLAS
 <td valign="top">
 
 Class
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CTRT
+
+
+
+</td>
+<td valign="top">
+
+Currency Translation Type
 
 
 
@@ -126,6 +402,29 @@ Data Definition Language Source
 <tr>
 <td valign="top">
 
+DDLX
+
+
+
+</td>
+<td valign="top">
+
+Core Data Services Metadata Extensions
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 DEVC
 
 
@@ -134,6 +433,29 @@ DEVC
 <td valign="top">
 
 Package
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DMOD
+
+
+
+</td>
+<td valign="top">
+
+Data Flow
 
 
 
@@ -172,6 +494,75 @@ Domain
 <tr>
 <td valign="top">
 
+DPTA
+
+
+
+</td>
+<td valign="top">
+
+Data Protection Template
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DTDC
+
+
+
+</td>
+<td valign="top">
+
+Dictionary Dynamic Cache
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DTEB
+
+
+
+</td>
+<td valign="top">
+
+Dictionary Tuning: Entities Buffer
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 DTEL
 
 
@@ -180,6 +571,75 @@ DTEL
 <td valign="top">
 
 Data Element
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DTPA
+
+
+
+</td>
+<td valign="top">
+
+Data Transfer Process: Active Version
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ENHO
+
+
+
+</td>
+<td valign="top">
+
+Enhancement Implementation Object
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ENHS
+
+
+
+</td>
+<td valign="top">
+
+Enhancement Spot Object
 
 
 
@@ -264,6 +724,75 @@ Function Module
 <tr>
 <td valign="top">
 
+G4BA
+
+
+
+</td>
+<td valign="top">
+
+OData v4 – BEP - Service Group & Assignments
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+G4BS
+
+
+
+</td>
+<td valign="top">
+
+OData v4 – BEP - Service
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+HCPR
+
+
+
+</td>
+<td valign="top">
+
+SAP HANA Composite Provider
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 HTTP
 
 
@@ -287,6 +816,29 @@ HTTP Service
 <tr>
 <td valign="top">
 
+INA1
+
+
+
+</td>
+<td valign="top">
+
+InA Service
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 INTF
 
 
@@ -295,6 +847,29 @@ INTF
 <td valign="top">
 
 Interface
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+IOBJ
+
+
+
+</td>
+<td valign="top">
+
+InfoObject
 
 
 
@@ -402,21 +977,44 @@ Yes
 <tr>
 <td valign="top">
 
-IWVB
+LRCD
 
 
 
 </td>
 <td valign="top">
 
-SAP Gateway Business Suite Enablement -Vocabulary Annotation
+LRepository client-dependent content
 
 
 
 </td>
 <td valign="top">
 
-Yes
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+LRST
+
+
+
+</td>
+<td valign="top">
+
+LRepository client-dependent content - customizing requests
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 
@@ -433,6 +1031,29 @@ MSAG
 <td valign="top">
 
 Message Class
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+NROB
+
+
+
+</td>
+<td valign="top">
+
+Number Range Object
 
 
 
@@ -471,6 +1092,29 @@ Yes
 <tr>
 <td valign="top">
 
+PCFN
+
+
+
+</td>
+<td valign="top">
+
+Predefined Field: Extensible Node
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 PROG
 
 
@@ -478,7 +1122,306 @@ PROG
 </td>
 <td valign="top">
 
-Program \(read only\)
+Program
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RABR
+
+
+
+</td>
+<td valign="top">
+
+Read Access Logging: Recording
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RADB
+
+
+
+</td>
+<td valign="top">
+
+Read Access Logging: Dynpro
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RAGB
+
+
+
+</td>
+<td valign="top">
+
+Read Access Logging: Generic Channel
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RARB
+
+
+
+</td>
+<td valign="top">
+
+Read Access Logging: Remote Function Call
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RASB
+
+
+
+</td>
+<td valign="top">
+
+Read Access Logging: Web-Service
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RAWB
+
+
+
+</td>
+<td valign="top">
+
+Read Access Logging: Web Dynpro
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RDOM
+
+
+
+</td>
+<td valign="top">
+
+Read Access Logging: Log Domain
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RPUR
+
+
+
+</td>
+<td valign="top">
+
+Read Access Logging: Purpose
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RSDS
+
+
+
+</td>
+<td valign="top">
+
+DataSource in BW
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RSPC
+
+
+
+</td>
+<td valign="top">
+
+Process chain
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RSPV
+
+
+
+</td>
+<td valign="top">
+
+Process variants
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAJC
+
+
+
+</td>
+<td valign="top">
+
+Application Job Catalog Entry
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAJT
+
+
+
+</td>
+<td valign="top">
+
+Application Job Template
 
 
 
@@ -531,6 +1474,29 @@ Communication: Inbound Service
 </td>
 <td valign="top">
 
+Yes
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SCO3
+
+
+
+</td>
+<td valign="top">
+
+Outbound Service
+
+
+
+</td>
+<td valign="top">
+
  
 
 
@@ -571,6 +1537,29 @@ SIA2
 <td valign="top">
 
 IAM: Restriction Type
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SIA3
+
+
+
+</td>
+<td valign="top">
+
+IAM: Authorization Object Extension
 
 
 
@@ -646,536 +1635,7 @@ IAM: Business Catalog App Assignment
 </td>
 <td valign="top">
 
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SRVB
-
-
-
-</td>
-<td valign="top">
-
-Service Binding
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SRVD
-
-
-
-</td>
-<td valign="top">
-
-Service Definition
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-TABL
-
-
-
-</td>
-<td valign="top">
-
-Table Definition
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-TTYP
-
-
-
-</td>
-<td valign="top">
-
-Table Type
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-XSLT
-
-
-
-</td>
-<td valign="top">
-
-Transformation
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-APIS
-
-
-
-</td>
-<td valign="top">
-
-API Release State of Objects
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SRVC
-
-
-
-</td>
-<td valign="top">
-
-Service Consumption Model
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SUSH
-
-
-
-</td>
-<td valign="top">
-
-Authorization Default Values
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-AUTH
-
-
-
-</td>
-<td valign="top">
-
-Authorization Check Fields
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SUSO
-
-
-
-</td>
-<td valign="top">
-
-Authorization Object
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SICF
-
-
-
-</td>
-<td valign="top">
-
-ICF Service
-
-
-
-</td>
-<td valign="top">
-
 Yes
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SIA3
-
-
-
-</td>
-<td valign="top">
-
-IAM: Authorization Object Extension
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-DDLX
-
-
-
-</td>
-<td valign="top">
-
-Core Data Services Metadata Extensions
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-DTDC
-
-
-
-</td>
-<td valign="top">
-
-Dictionary Dynamic Cache
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-CHDO
-
-
-
-</td>
-<td valign="top">
-
-Change Document
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-NROB
-
-
-
-</td>
-<td valign="top">
-
-Number Range Object
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-ENHO
-
-
-
-</td>
-<td valign="top">
-
-Enhancement Implementation Object
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAJC
-
-
-
-</td>
-<td valign="top">
-
-Application Job Catalog Entry
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAJT
-
-
-
-</td>
-<td valign="top">
-
-Application Job Template
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SKTD
-
-
-
-</td>
-<td valign="top">
-
-Knowledge Transfer Document
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-ENHS
-
-
-
-</td>
-<td valign="top">
-
-ENHS Enhancement Spot
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SPRX
-
-
-
-</td>
-<td valign="top">
-
-Proxy Object
-
-
-
-</td>
-<td valign="top">
-
-Yes
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SMBC
-
-
-
-</td>
-<td valign="top">
-
-Maintainable Business Configuration
-
-
-
-</td>
-<td valign="top">
-
- 
 
 
 
@@ -1230,6 +1690,397 @@ IAM: Business Role Templ. Bus. Catalog Assignment
 <tr>
 <td valign="top">
 
+SIAD
+
+
+
+</td>
+<td valign="top">
+
+Business Role Template Fiori Space Assignment
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SICF
+
+
+
+</td>
+<td valign="top">
+
+ICFService
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SKTD
+
+
+
+</td>
+<td valign="top">
+
+Knowledge Transfer Document
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SMBC
+
+
+
+</td>
+<td valign="top">
+
+Maintainable Business Configuration
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SMIM
+
+
+
+</td>
+<td valign="top">
+
+MIME Object
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SPRX
+
+
+
+</td>
+<td valign="top">
+
+Proxy Object
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SRVB
+
+
+
+</td>
+<td valign="top">
+
+Service Binding
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SRVC
+
+
+
+</td>
+<td valign="top">
+
+Service Consumption Model
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SRVD
+
+
+
+</td>
+<td valign="top">
+
+Service Definition
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SUSH
+
+
+
+</td>
+<td valign="top">
+
+Assignment: Service -\> Authorization Objects
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SUSO
+
+
+
+</td>
+<td valign="top">
+
+Authorization Object
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+TABL
+
+
+
+</td>
+<td valign="top">
+
+Table Definition
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+TRCS
+
+
+
+</td>
+<td valign="top">
+
+Communication Structure for Transformation
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+TRFN
+
+
+
+</td>
+<td valign="top">
+
+Transformation
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+TRPR
+
+
+
+</td>
+<td valign="top">
+
+Translation Project
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+TTYP
+
+
+
+</td>
+<td valign="top">
+
+Table Type
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+TYPE
+
+
+
+</td>
+<td valign="top">
+
+Type Group
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 UIAD
 
 
@@ -1237,7 +2088,76 @@ UIAD
 </td>
 <td valign="top">
 
-UIAD: Application Descriptors for the Fiori Launchpad Environment
+Application Descriptors for the Fiori Launchpad Enviornment
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+UIPC
+
+
+
+</td>
+<td valign="top">
+
+Fiori Launchpad Page - Customizing
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+UISC
+
+
+
+</td>
+<td valign="top">
+
+Fiori Launchpad Space - Customizing
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+UOMT
+
+
+
+</td>
+<td valign="top">
+
+Quantity Conversion Type
 
 
 
@@ -1276,37 +2196,14 @@ Yes
 <tr>
 <td valign="top">
 
-SMIM
+XSLT
 
 
 
 </td>
 <td valign="top">
 
-MIME Object
-
-
-
-</td>
-<td valign="top">
-
-Yes
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-APLO
-
-
-
-</td>
-<td valign="top">
-
-Application Log Object
+Transformation
 
 
 
@@ -1347,14 +2244,14 @@ Description
 <tr>
 <td valign="top">
 
-TABU
+CDAT
 
 
 
 </td>
 <td valign="top">
 
-Table Entries
+View Cluster Maintenance: Data
 
 
 
@@ -1371,6 +2268,54 @@ SNUMS
 <td valign="top">
 
 Number Range Configuration
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+TABU
+
+
+
+</td>
+<td valign="top">
+
+Table Entries
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+TDAT
+
+
+
+</td>
+<td valign="top">
+
+Customizing: Table Contents
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+VDAT
+
+
+
+</td>
+<td valign="top">
+
+View Maintenance: Data
 
 
 

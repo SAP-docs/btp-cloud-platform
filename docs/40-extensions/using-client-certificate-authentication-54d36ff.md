@@ -48,7 +48,7 @@ To use client certificate authentication, you first start with creating and conf
 
     6.  Enter information about SAP BTP in the *Technical Data* section.
 
-    7.  Choose *+* \(Add\) under *User for Inbound Communication*.
+    7.  Choose *\+* \(Add\) under *User for Inbound Communication*.
 
     8.  In the dialog box that appears, select *SSL Client Certificate* from the *Authentication Method* drop-down list.
 

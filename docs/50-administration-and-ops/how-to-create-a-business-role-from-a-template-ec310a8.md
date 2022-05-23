@@ -33,7 +33,7 @@ When you create a role based on a template, as a default the read and value help
 
 1.  Select the tile of the Maintain Business Roles app on the SAP Fiori Launchpad to open the app. On the initial screen select *Create From Template*.
 
-2.  Select the required template. Define the ID and the name of the new business role. If required, select *Create and Assign Launchpad Space Based on Space Template*and define the new space ID \(for more information, see [How to Create a Space and Page for a Business Role](https://help.sap.com/viewer/4fc8d03390c342da8a60f8ee387bca1a/latest/en-US/ab05d9e086554a08af88d6482deb1bcb.html)\). Click *OK*.
+2.  Select the required template. Define the ID and the name of the new business role. If required, select *Create and Assign Launchpad Space Based on Space Template* and define the new space ID \(for more information, see the *Related information* section below\). Click *OK*.
 
 3.  A template already contains one or more business catalogs that will be assigned to. Adjust the displayed template to your requirements, for example, change the general role details, and add or delete catalogs.
 
@@ -53,4 +53,6 @@ When you create a role based on a template, as a default the read and value help
 
 
 [Business Role Templates](business-role-templates-223dfd3.md "You can use this app to you get an overview of the business role templates delivered by SAP.")
+
+[Step by Step: Create a New Space and Page for a Business Role](https://help.sap.com/viewer/4fc8d03390c342da8a60f8ee387bca1a/latest/en-US/ab05d9e086554a08af88d6482deb1bcb.html)
 

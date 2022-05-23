@@ -17,9 +17,6 @@ The client is available for 64-bit versions of the following operating systems:
 -   Linux
 
 
-> ### Note:  
-> With the release of version 2.0.0 on March 25, 2021, the executable file of the CLI client was renamed from **sapcp** to **btp**. All commands remain compatible, and we will support the sapcp CLI until September 2021. However, this documentation and all examples inside refer to the **btp CLI**, and we recommend to download the latest btp CLI client from the [SAP Development Tools](https://tools.hana.ondemand.com/#cloud-btpcli) page. See [Migrating from sapcp to btp](migrating-from-sapcp-to-btp-4f1fe8d.md).
-
 
 
 ## Procedure

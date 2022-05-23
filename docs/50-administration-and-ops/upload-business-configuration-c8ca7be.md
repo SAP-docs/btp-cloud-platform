@@ -70,6 +70,11 @@ All of these business catalogs are contained in the business role template SAP\_
 
 
 
+> ### Note:  
+> Business Configurations for tables with field types `STRING` or `XSTRING` are not supported and therefore can't be uploaded.
+
+
+
 <a name="loioc8ca7bec802a4ebcbd9444a9b1827ee0__customercomponent"/>
 
 ## Component for Customer Incidents

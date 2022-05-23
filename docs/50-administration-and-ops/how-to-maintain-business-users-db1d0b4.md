@@ -78,7 +78,14 @@ Business users are replicated from your central HR system. You can change user d
     > </td>
     > <td valign="top">
     > 
-    >  `Role ID` 
+    >  `User ID` 
+    > 
+    > 
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > `Role ID`
     > 
     > 
     > 
@@ -94,23 +101,14 @@ Business users are replicated from your central HR system. You can change user d
     > </td>
     > <td valign="top">
     > 
-    >  *<Business role ID 2\>* 
-    > 
-    > 
-    > 
-    > </td>
-    > </tr>
-    > <tr>
-    > <td valign="top">
-    > 
-    >  *<User name 1\>* 
+    >  *<Business user ID 1\>* 
     > 
     > 
     > 
     > </td>
     > <td valign="top">
     > 
-    >  *<Business role ID 6\>* 
+    > *<Business role ID 1\>*
     > 
     > 
     > 
@@ -126,7 +124,37 @@ Business users are replicated from your central HR system. You can change user d
     > </td>
     > <td valign="top">
     > 
-    >  *<Business role ID 2\>* 
+    >  *<Business user ID 2\>* 
+    > 
+    > 
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > *<Business role ID 2\>*
+    > 
+    > 
+    > 
+    > </td>
+    > </tr>
+    > <tr>
+    > <td valign="top">
+    > 
+    >  *<User name 3\>* 
+    > 
+    > 
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    >  *<Business user ID 3\>* 
+    > 
+    > 
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > *<Business role ID 3\>*
     > 
     > 
     > 
@@ -136,6 +164,13 @@ Business users are replicated from your central HR system. You can change user d
     > <td valign="top">
     > 
     >  *<User name n\>* 
+    > 
+    > 
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    >  *<Business user ID n\>* 
     > 
     > 
     > 
