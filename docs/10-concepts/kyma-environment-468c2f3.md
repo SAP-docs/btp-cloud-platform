@@ -4,7 +4,7 @@
 
 # Kyma Environment
 
-Kyma environment provides a fully managed Kubernetes runtime based on the open-source project "Kyma". This cloud-native solution allows developers to extend SAP solutions with serverless Functions and combine them with containerized microservices.
+SAP BTP, Kyma runtime provides a fully managed Kubernetes runtime based on the open-source project "Kyma". With this cloud-native solution, developers can extend SAP solutions with serverless Functions and combine them with containerized microservices.
 
 
 
@@ -15,7 +15,7 @@ Kyma environment provides a fully managed Kubernetes runtime based on the open-s
 The offered functionality ensures smooth consumption of SAP and non-SAP applications, running workloads in a highly scalable environment, and building event-based and API-based extensions.
 
 > ### Note:  
-> As of release 2.0, Kyma as a managed service automatically checks all Kyma-managed resources. Any unexpected modifications are discarded, and the resource is reverted to the original state.
+> Kyma as a managed service automatically checks all Kyma-managed resources. Any unexpected modifications are discarded, and the resource is reverted to the original state.
 
 Every Kyma environment consists of:
 
@@ -28,9 +28,9 @@ Every Kyma environment consists of:
 
 ## Integration
 
-Every Kyma environment runs on a single Kubernetes cluster created for a specific subaccount. However, the configuration of the Kyma environment allows you to connect it to a multitude of SAP systems. This way, you can build various formations that aggregate the SAP systems and environment according to your business use cases.
+Every Kyma environment runs on a single Kubernetes cluster created for a specific subaccount. The configuration of the Kyma environment enables you to connect it to a multitude of SAP systems. This way, you can build various formations that aggregate the SAP systems and environment according to your business use cases.
 
-SAP systems connected to a Kyma environment expose APIs and events collected under the Service Catalog. To extend the existing logic of these SAP services, you can build serverless applications called Functions, and trigger them to react to particular events or calls to your application's API. You can also use the Kyma environment to deploy microservices or even build full-stack applications.
+SAP systems connected to a Kyma environment expose APIs and events collected under the Service Catalog. To extend the existing logic of these SAP services, you can build serverless applications called “Functions”, and trigger them to react to particular events or calls to your application's API. You can also use the Kyma environment to deploy microservices or even build full-stack applications.
 
 **Related Information**  
 

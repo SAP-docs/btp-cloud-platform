@@ -44,7 +44,7 @@ The guide starts with an overview of the basic concepts of identity and access m
 
 Why should you care about access control and authorizations? You must know that every new service is automatically available to all developers in a development system, provided the system administrator has assigned them a role that is derived from the developer role `SAP_BR_DEVELOPER` \(which is typically the case\). However, business users in nondevelopment systems can only access the business service if a developer has defined the appropriate authorizations and an administrator grants the business users access for each relevant system. The same is true for communication users that are needed in scenarios where you work with an API business service \(inbound or outbound\) from or into the ABAP environment.
 
-The **Identity Management** section gives you an overview about Identity and User Management, the different types of users in the ABAP environment, and how to create business users.
+The **Identity Management** section gives you an overview about Identity and User Management, which includes identity federation, user types, and user provisioning.
 
 The **Access Management** section includes the following main scenarios about how you can implement and provide authorizations for your services:
 

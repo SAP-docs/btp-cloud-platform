@@ -17,6 +17,7 @@ You can use this app to:
 -   Activate or deactivate a trace
 
 -   Display authorization check results including already assigned authorizations and failed checks
+-   Display all business roles granting access to selected fields and values
 
 A maximim of 10.000 data sets is possible, therefore we recommend to consider this when defining the selection criteria, especially the date range.
 
@@ -106,8 +107,6 @@ If an authorization check resulted in a *Filtered* status, you can check which b
 -   Desktop
 
 -   Tablet
-
--   Smartphone
 
 
 

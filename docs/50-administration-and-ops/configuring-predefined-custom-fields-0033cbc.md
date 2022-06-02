@@ -14,7 +14,7 @@ This process enables you to configure custom fields that were predefined by your
 
 ## Procedure
 
-1.  Open the *Configure Predefined Custom Fields* app. You can open the app either directly from the SAP Fiori launchpad, or from an extensible application by clicking *+* *\(Add Custom Field\)* in the UI adaptation mode of an application.
+1.  Open the *Configure Predefined Custom Fields* app. You can open the app either directly from the SAP Fiori launchpad, or from an extensible application by clicking *\+* *\(Add Custom Field\)* in the UI adaptation mode of an application.
 
     > ### Note:  
     > To use new fields from a predefined custom field in an SAP Fiori app, you have to restart the app and the UI adaptation mode. For more information about how to adapt SAP Fiori UIs during runtime,see [Adapting SAP Fiori UIs at Runtime](https://help.sap.com/viewer/3d99fdeadde04524bdd33d35f1e13777/Cloud/en-US/5c424437bf794f809087fdce391149f2.html)

@@ -29,7 +29,7 @@ SAP BTP creates a copy of the user in the global account or in the subaccount wh
 
 -   The users are stored in identity providers that are connected to SAP BTP.
 
-    -   Default identity provider. For more information, see [SAP ID Service](sap-id-service-d6a8db7.md).
+    -   Default identity provider. For more information, see [Default Identity Provider](default-identity-provider-d6a8db7.md).
 
     -   Custom identity provider. For more information, see [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md).
 

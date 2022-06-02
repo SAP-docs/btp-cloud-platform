@@ -28,3 +28,8 @@ Using ADT, you can create a knowledge transfer document \(KTD\) for your busines
 > ### Note:  
 > Links in the KTD are not supported.
 
+**Related Information**  
+
+
+[Working with Business Configuration Maintenance Objects](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/e570fee3db344358926ad11ba3b3a531.html)
+

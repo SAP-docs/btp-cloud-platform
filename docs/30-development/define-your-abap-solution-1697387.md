@@ -352,9 +352,9 @@ Follow these steps to define your ABAP Solution.
 
     enum \(string\):
 
-    - single
+    \- single
 
-    - multi
+    \- multi
 
 
     
@@ -370,9 +370,9 @@ Follow these steps to define your ABAP Solution.
 
     Decides whether a customer will have a tenant in
 
-    - a dedicated system \(single\)
+    \- a dedicated system \(single\)
 
-    - a shared system \(multi\)
+    \- a shared system \(multi\)
 
     **single**: will trigger a system creation and a tenant onboarding
 
@@ -522,9 +522,9 @@ Follow these steps to define your ABAP Solution.
 
     enum \(string\):
 
-    - test
+    \- test
 
-    - prod
+    \- prod
 
 
     

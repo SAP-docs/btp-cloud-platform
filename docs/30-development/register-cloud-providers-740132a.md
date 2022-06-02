@@ -24,8 +24,8 @@ Follow the steps to register cloud providers:
 
 1.  In the Kyma Dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *Catalog*.
 
-2.  Go to the *Add-Ons*tab and select the tile with the cloud provider you would like to register.
+2.  Go to the *Add-Ons* tab and select the tile with the cloud provider you would like to register.
 
-3.  Click *+ Add once* and fill in the fields using the instructions available in the *Documentation* section.
+3.  Click *\+ Add once* and fill in the fields using the instructions available in the *Documentation* section.
 
 

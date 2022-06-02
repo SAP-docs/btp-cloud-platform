@@ -53,5 +53,5 @@ To create a communication arrangement, proceed as follows:
 
 [Maintain Communication Users](maintain-communication-users-eef80dd.md "You can use this app to create and edit communication users. Communication users are used by solutions to authenticate themselves to be able to post data.")
 
-[Maintain Communication Systems](maintain-communication-systems-15663c1.md "You can use this app to create communication systems. Communication systems are created to enable the communication among different systems.")
+[Communication Systems](communication-systems-15663c1.md "You can use this app to create communication systems. Communication systems are created to enable the communication among different systems.")
 

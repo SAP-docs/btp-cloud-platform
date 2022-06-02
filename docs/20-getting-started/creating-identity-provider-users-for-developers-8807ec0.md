@@ -22,7 +22,7 @@ For more information about creating users in the Identity Authentication service
 
 2.  In the navigation area, choose *Users & Authorizations* \> *User Management*.
 
-3.  Choose *+ Add User*.
+3.  Choose *\+ Add User*.
 
 4.  Enter the name, e-mail address and login name of the developer.
 

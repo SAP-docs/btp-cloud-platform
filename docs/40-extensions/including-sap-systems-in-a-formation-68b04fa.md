@@ -144,7 +144,7 @@ SAP Commerce Cloud
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -167,7 +167,7 @@ SAP Cloud for Customer
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -190,7 +190,7 @@ SAP Field Service Management
 </td>
 <td valign="top">
 
--
+\-
 
 
 

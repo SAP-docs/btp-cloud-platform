@@ -1,6 +1,6 @@
 <!-- loio15663c157670410ca366623dff329396 -->
 
-# Maintain Communication Systems
+# Communication Systems
 
 You can use this app to create communication systems. Communication systems are created to enable the communication among different systems.
 

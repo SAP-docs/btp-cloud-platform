@@ -64,7 +64,7 @@ The add-on administrator is responsible for everything related to the add-on pro
 
 -   Adjusting add-on descriptor file `addon.yml` for new versions
 
--   Registering add-on product for installation in global account for development and production
+-   Registering add-on product for installation in global account for development and production. See [Register Product](register-product-dc15fb4.md).
 
 -   Executing add-on build pipeline in Jenkins instance
 
@@ -135,7 +135,7 @@ Additionally, they are responsible for their pipeline \(e.g. automation of the b
 
 -   Developing SAP Fiori based UI in SAP Business Application Studio and deploying back to ABAP system. See [Develop an SAP Fiori Application UI and Deploy it to ABAP Using SAP Business Application Studio](develop-an-sap-fiori-application-ui-and-deploy-it-to-abap-using-sap-business-application-eaaeba4.md).
 
--   Supporting and troubleshooting customer issues via provider support access in the Landscape Portal. See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
+-   Supporting and troubleshooting customer issues via provider support access in the Landscape Portal. See [Landscape Portal](landscape-portal-5eb70fb.md).
 
 
 
@@ -229,9 +229,9 @@ The SaaS solution operator is responsible for creating the account model on the 
     -   Tester users in TST/QAS systems
 
 
--   Add-on update of existing systems in the Landscape Portal. See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
+-   Add-on update of existing systems in the Update Product Version app. See [Update Product Version](update-product-version-32c4f7d.md).
 
--   Monitoring of system/tenant provisioning and user onboarding in Landscape Portal
+-   Monitoring of system/tenant provisioning and user onboarding. See [Operations Dashboard](operations-dashboard-0a3a735.md).
 
 -   > ### gCTS Delivery:  
     > If you use gCTS for delivery to customer production systems instead of using add-ons, you are responsible for cloning software components and pulling the latest changes into the system using the *Manage Software Components* app.
@@ -297,7 +297,7 @@ S-users are used by partners and customers to log on to SAP ONE Support Launchpa
 </td>
 <td valign="top">
 
--   Requesting development namespace. See SAP note [2006427](https://launchpad.support.sap.com/#/notes/2006427).
+-   Creating development namespace. See [Maintain Namespaces](maintain-namespaces-5456007.md).
 
 -   Creating technical communication user. See SAP note [2532813](https://launchpad.support.sap.com/#/notes/2532813).
 
@@ -323,7 +323,7 @@ Technical Cloud Foundry Platform User
 </td>
 <td valign="top">
 
-A P-user \(SAP ID Service\) or S-user \(created via SAP ONE Support Launchpad\) is added as a member to subaccounts in the Cloud Foundry environment to create or delete ABAP service instances, create service keys etc. This user does not need authorizations in SAP ONE Support Launchpad since only authentication via SAP ID Service is used. See [SAP ID Service](../50-administration-and-ops/sap-id-service-d6a8db7.md) and SAP note [1271482](https://launchpad.support.sap.com/#/notes/1271482).
+A P-user \(SAP ID Service\) or S-user \(created via SAP ONE Support Launchpad\) is added as a member to subaccounts in the Cloud Foundry environment to create or delete ABAP service instances, create service keys etc. This user does not need authorizations in SAP ONE Support Launchpad since only authentication via SAP ID Service is used. See [Default Identity Provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md) and SAP note [1271482](https://launchpad.support.sap.com/#/notes/1271482).
 
 
 

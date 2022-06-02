@@ -16,7 +16,7 @@ This app provides the following key features:
 
 -   Creation of capture profiles that define which request statistics are collected and when
 
--   Reuse of profiles for capturing request statistics defined by SAP
+-   Display of profiles for capturing request statistics defined by SAP
 
 -   Activation and deactivation of profiles for capturing request statistics
 

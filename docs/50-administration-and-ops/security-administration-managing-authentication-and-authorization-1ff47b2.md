@@ -194,5 +194,5 @@ SAP BTP cockpit
 
 [SAP Authorization and Trust Management Service in the Cloud Foundry Environment](../60-security/sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md "The global account and subaccounts get their users from identity providers. Administrators make sure that users can only access their dedicated subaccount by making sure that there is a dedicated trust relationship only between the identity providers and the respective subaccounts. Developers configure and deploy application-based security artifacts containing authorizations, and administrators assign these authorizations using the SAP BTP cockpit.")
 
-[SAP ID Service](sap-id-service-d6a8db7.md "The default platform identity provider and application identity provider of SAP BTP is SAP ID service.")
+[Default Identity Provider](default-identity-provider-d6a8db7.md "The default platform identity provider and application identity provider of SAP BTP is SAP ID service.")
 

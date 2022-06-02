@@ -22,6 +22,6 @@ The design of the XCO library is based on the following core principles:
 
     All XCO modules follow a uniform error propagation strategy. Unless the caller of an API can be expected to recover from an error situation \(e.g. when attempting to acquire an exclusive lock\), all error situations are handled through no\_check exceptions.
 
-    Any runtime exception that is raised explicitly by the XCO library is a subclass of CX\_XCO\_RUNTIME\_EXCETION \(cf. section Exception philosophy in [Standard Library](standard-library-b5ceba7.md)\).
+    Any runtime exception that is raised explicitly by the XCO library is a subclass of CX\_XCO\_RUNTIME\_EXCEPTION \(cf. section Exception philosophy in [Standard Library](standard-library-b5ceba7.md)\).
 
 

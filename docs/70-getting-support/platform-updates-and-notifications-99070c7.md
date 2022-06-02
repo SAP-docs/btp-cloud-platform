@@ -2,7 +2,7 @@
 
 # Platform Updates and Notifications
 
-SAP BTP is a dynamic product, which has continuous production releases \(updates\). To get notifications for the new features and fixes every release, subscribe at the [SAP Community wiki](https://wiki.scn.sap.com/wiki/x/FRu7Gg) as you log on and choose the *Watch* icon.
+SAP BTP is a dynamic product, which has continuous production releases \(updates\). To get notifications for the new features and fixes every release, follow the community page at [SAP Business Technology Platform](https://blogs.sap.com/tags/8077228b-f0b1-4176-ad1b-61a78d61a847/). Also, make sure you have enabled your account notifications as described at [Your Notification Settings](https://community.sap.com/resources/getting-started#your-notification-settings).
 
 
 
@@ -10,9 +10,9 @@ SAP BTP is a dynamic product, which has continuous production releases \(updates
 
 Regions are updated in the following cases:
 
--   **Biweekly updates** \(standard\) - aligned with the contractual obligations to customers and partners. Such updates usually don’t affect productive applications, because most services support zero downtime maintenance. For more information about the biweekly updates, see [Service Level Agreement for SAP Cloud Services](https://www.sap.com/about/agreements/cloud-services.html?search=Service%20Level%20Agreement&sort=latest_asc).
+-   **Biweekly updates** \(standard\) - aligned with the contractual obligations to customers and partners. Such updates usually don’t affect productive applications, because most services support zero downtime maintenance. For more information about the biweekly updates, see [Service Level Agreement for SAP Cloud Services](https://www.sap.com/about/agreements/cloud-services.html?search=Service%20Level%20Agreement).
 -   **Immediate updates** - fixes required for bugs that affect productive application operations, or due to urgent security fixes. In some cases, this might lead to downtime or application restart, for which the application groups receive a notification.
--   **Major upgrades** - happen rarely, in a bigger maintenance window, up to four times per year. For the time frames of the services' major upgrades, see [Service Level Agreement for SAP Cloud Services](https://www.sap.com/about/agreements/cloud-services.html?search=Service%20Level%20Agreement&sort=latest_asc). We let you know about these upgrades 4 weeks in advance.
+-   **Major upgrades** - happen rarely, in a bigger maintenance window, up to four times per year. For the time frames of the services' major upgrades, see [Service Level Agreement for SAP Cloud Services](https://www.sap.com/about/agreements/cloud-services.html?search=Service%20Level%20Agreement). We let you know about these upgrades 4 weeks in advance.
 
 
 

@@ -12,7 +12,7 @@ Follow these steps to create a Job Catalog Entry and a Job Template in ADT.
 
 2.  Define the Job Catalog Entry. With a method of a certain framework class, you create a Job Catalog Entry which refers to the class of step 1. For more information, see [Defining the Job Catalog Entry](defining-the-job-catalog-entry-1cff59e.md).
 
-3.  Define the Job Template. With another method of the framework class, you create a Job Template which refers to the Job Catalog Entry of step 2. For more information, see [Creating the Job Template](creating-the-job-template-1f04ad2.md).
+3.  Define the Job Template. With another method of the framework class, you create a Job Template which refers to the Job Catalog Entry of step 2. For more information, see [Defining the Job Template](defining-the-job-template-1f04ad2.md).
 
 
 **Related Information**  

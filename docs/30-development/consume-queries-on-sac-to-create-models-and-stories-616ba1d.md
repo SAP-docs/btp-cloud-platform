@@ -31,7 +31,7 @@ Now you can create an analytical story.
 
 1.  In your SAC tenant, go to the main menu and select *Stories*.
 2.  Create a new story or select an existing template.
-3.  Click on *Chart and table* and click the *+* \(Add\) button in the graph.
+3.  Click on *Chart and table* and click the *\+* \(Add\) button in the graph.
 4.  Select the model you created.
 5.  You can insert a table and/or a chart and use the builder on the right to select measures and dimensions.
 6.  Click the Save icon to export your story.

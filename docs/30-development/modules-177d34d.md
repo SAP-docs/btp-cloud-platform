@@ -2299,7 +2299,7 @@ false
 Start/do not start the application during deployment.
 
 > ### Tip:  
-> This parameter setting overrides the command-line option *--no-start*.
+> This parameter setting overrides the command-line option *\--no-start*.
 
 If you explicitly set the `no-start` to `false` for the module `foo` in the example provided, then the module `foo` **is** started on deployment, even if you also specify the command-line option `--no-start` with the `cf deploy` command.
 

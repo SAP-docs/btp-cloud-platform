@@ -4,7 +4,7 @@
 
 
 
-With this app, you can calculate how many ABAP compute units \(ACUs\) are consumed based on captured request statistics of selected business scenarios. With the result of the system sizing, you can estimate how many ACUs the production system will need.
+With this app, you can calculate how many ABAP compute units are consumed based on captured request statistics of selected business scenarios. With the result of the system sizing, you can estimate how many ABAP compute units the production system will need.
 
 
 
@@ -18,9 +18,9 @@ This app provides the following key features:
 
 -   Navigation from the definition of profiles for capturing request statistics to system sizing based on these statistics
 
--   Estimation of required total memory, work process time, and CPU time in ACUs for selected ABAP request statistics
+-   Estimation of required total ABAP memory, work process time, and ABAP CPU time in ABAP compute units for selected ABAP statistics records
 
--   Fine-tuning of system sizing by changing the selected ABAP request statistics, the process executions per minute, or the available ACUs
+-   Fine-tuning of system sizing by changing the selected ABAP statistics records, the process executions per minute, or the available ABAP compute units
 
 
 

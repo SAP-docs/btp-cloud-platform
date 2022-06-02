@@ -6,7 +6,7 @@ SAP BTP enables you to access and run HTML5 applications in a cloud environment 
 
 HTML5 applications consist of static content that runs on a browser. Then you develop your applications - either in SAP Business Application Studio, or in your own IDE \(integrated development environment\) - and deploy them to the [HTML5 application repository](html5-application-repository-f8520f5.md).
 
-Depending on your backed application setup, you either configure the destinations during development, or define them after deploying the application. Finally, to consume the applications, you can create a site in SAP Cloud Portal, build the URL, and define custom domains.
+Depending on your backed application setup, you either configure the destinations during development, or define them after deploying the application. Finally, to consume the applications, you can create a site using SAP Cloud Portal service or SAP Launchpad service, build the URL, and define custom domains.
 
 On the Cloud Foundry environment of SAP BTP you can run an application that was uploaded to HTML5 application repository using one of the following options:
 

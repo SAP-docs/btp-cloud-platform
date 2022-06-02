@@ -760,7 +760,5 @@ We include SAML responses in the audit log for web single sign-on and SAML beare
 **Related Information**  
 
 
-
-
 [Audit Logging in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/02c39712c1064c96b37c1ea5bc9420dc.html)
 

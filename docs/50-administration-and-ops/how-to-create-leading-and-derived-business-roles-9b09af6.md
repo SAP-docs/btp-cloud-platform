@@ -8,7 +8,7 @@
 
 ## Context
 
-If you need to create several business roles with common characteristics, you can define one business leading role and then derive other business roles from it. This leading role contains the basic settings such as access restrictions, the assigned business catalogs and common restrictions, such as *General Accountant*. The values defined in the leading business role can’t be changed in the derived business role. You can, however, define additional values for the derived role.
+If you need to create several business roles with common characteristics, you can define one business leading role and then derive other business roles from it. This leading role contains the basic settings such as access restrictions, the assigned business catalogs and common restrictions, such as *General Accountant* or *General Planner*. The values defined in the leading business role can’t be changed in the derived business role. You can, however, define additional values for the derived role.
 
 
 

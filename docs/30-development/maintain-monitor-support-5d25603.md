@@ -258,6 +258,9 @@ Patch versions are used to deliver unplanned and most likely urgent corrections 
     > ### Note:  
     > While creating patch versions for the same support package level or release version, the same maintenance branch should be used.
 
+    > ### Tip:  
+    > Use the [Check Product Version](check-product-version-0da158a.md) app to find out which product version has already been built.
+
     As an add-on admin, change the add-on descriptor file according to the add-on product version that you want to build.
 
     Optionally, you can specify a commit ID. All released changes up to the specified commit are included. You can retrieve this commit ID from the commit history in the *Manage Software Components* app.
@@ -483,12 +486,13 @@ You can also use add-on installation test system ATI for additional tests, simil
 > 
 > See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
-As a SaaS solution operator, you can apply add-on updates to existing systems via the Landscape Portal. See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
+As a SaaS solution operator, you can apply add-on updates to existing systems via the [Update Product Version](update-product-version-32c4f7d.md) app in the Landscape Portal.
 
-You can't select the target version of the update. The latest released version \(target vector for add-on product published with productive scope\) is automatically determined. The target vector is created as part of the add-on build process and is published in the productive scope after the release decision. See [The Add-On Product](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/#the-add-on-product).
+You can select the target add-on product and version for the update.
 
-> ### Note:  
-> If you need support or experience issues, please report an incident under component `BC-CP-ABA-LP`.
+The listed add-on product versions are based on these versions where the corresponding target vector was published during the add-on build. The target vector is created as part of the add-on build process and is published in the productive scope after the release decision. See [The Add-On Product](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/#the-add-on-product).
+
+Afterwards, you can select the systems where the update should be applied, and schedule the update.
 
  <a name="loio00de26798389472f989601306d2207e1"/>
 

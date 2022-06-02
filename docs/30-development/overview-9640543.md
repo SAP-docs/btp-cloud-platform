@@ -60,7 +60,7 @@ Register a namespace. See [Register a Namespace](develop-test-build-3bf575a.md#l
 A namespace is mandatory and must be reserved at [https://support.sap.com/namespaces](https://support.sap.com/namespaces).
 
 > ### Note:  
-> You have to register a namespace before the first ABAP system is provisioned. For namespaces that are reserved after system provisioning, you have to create an incident.
+> You have to register a namespace before the first ABAP system is provisioned. To create namespaces after system provisioning, see [Maintain Namespaces](maintain-namespaces-5456007.md).
 > 
 > Namespaces should have 5–8 characters due to length restrictions of certain objects. See SAP note [105132](https://launchpad.support.sap.com/#/notes/105132) and [395083](https://launchpad.support.sap.com/#/notes/395083).
 
@@ -421,7 +421,7 @@ Create a technical communication user to access AAKaaS.
 
 See [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
 
-Register the add-on product in the global account for development and production as described in [Register Add-on Product for a Global Account](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#register-add-on-product-for-a-global-account).
+Register the add-on product in the global account for development and production as described in [Register Add-on Product for a Global Account](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#register-add-on-product-for-a-global-account) and [Register Product](register-product-dc15fb4.md).
 
 
 
@@ -429,7 +429,7 @@ Register the add-on product in the global account for development and production
 <td valign="top">
 
 -   Jenkins administrator for access to CI/CD Server
--   S-user to create technical communication user and customer incident for add-on registration
+-   S-user to create technical communication user
 -   Operator to assign technical platform user as space developer
 -   DevOps engineer to configure the pipeline
 
@@ -996,7 +996,7 @@ Create an update. See [Create Add-On Update](maintain-monitor-support-5d25603.md
 </td>
 <td valign="top">
 
-Create a new patch version, support package version, or release/product version.
+Create a new patch version, support package version, or release/product version. See [Update Product Version](update-product-version-32c4f7d.md).
 
 
 
@@ -1021,7 +1021,7 @@ Trigger the add-on product build. See [Trigger Add-On Build Pipeline](maintain-m
 </td>
 <td valign="top">
 
-Trigger the execution of the configured ABAP environment pipeline for an add-on build.
+Trigger the execution of the configured ABAP environment pipeline for an add-on build. See [Operations Dashboard](operations-dashboard-0a3a735.md).
 
 
 
@@ -1046,7 +1046,7 @@ Apply update for SaaS solution \(=add-on product\). See [Deploy Add-On Update](m
 
 Deploy your add-on update by using the Landscape Portal.
 
-See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
+See [Landscape Portal](landscape-portal-5eb70fb.md).
 
 
 

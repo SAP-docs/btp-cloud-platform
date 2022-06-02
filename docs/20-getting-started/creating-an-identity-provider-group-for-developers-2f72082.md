@@ -26,7 +26,7 @@ For more information about creating user groups in the Identity Authentication s
 
 2.  In the navigation area, choose *Users & Authorizations* \> *User Groups*.
 
-3.  If no user group for developers exists, choose *+ Add*.
+3.  If no user group for developers exists, choose *\+ Add*.
 
 4.  Enter a name, for example, ***Developers***.
 

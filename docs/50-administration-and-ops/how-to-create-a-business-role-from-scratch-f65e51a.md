@@ -37,7 +37,7 @@ You use business roles to control the access to your applications. To create a b
 
 5.  Maintain instance-based restrictions for all required business objects \(following the requirements of your local authorization concept\).
 
-6.  If required, click *Manage Launchpad Space* to create a new space or use an existing space. For more information, see [How to Create a Space and Page for a Business Role](https://help.sap.com/viewer/4fc8d03390c342da8a60f8ee387bca1a/latest/en-US/ab05d9e086554a08af88d6482deb1bcb.html).
+6.  If required, click *Manage Launchpad Space* to create a new space or use an existing space. For more information, see the *Related information* section below.
 
 7.  On the *Assigned Business Users* tab, you can assign the business users to your new business role. These users will receive the authorizations as defined in the business role.
 
@@ -46,4 +46,9 @@ You use business roles to control the access to your applications. To create a b
     > ### Note:  
     > If you go back to the business roles overview **without saving** the business role, the business role will automatically be saved in a draft status. You can access it again and edit it from the business roles overview.
 
+
+**Related Information**  
+
+
+[Step by Step: Create a New Space and Page for a Business Role](https://help.sap.com/viewer/4fc8d03390c342da8a60f8ee387bca1a/latest/en-US/ab05d9e086554a08af88d6482deb1bcb.html)
 

@@ -1,6 +1,6 @@
 <!-- loioddd9de0bb41a4ce9a91ac9102b843e83 -->
 
-# Viewing a Change Log
+# Displaying a Change Log
 
  
 
@@ -10,15 +10,13 @@
 
 ## Prerequisites
 
-To access the app, you need to have the following business catalog assigned to your user: `SAP_CA_BC_IC_LND_PC`. This business catalog is contained in the business role template: `SAP_BR_BPC_EXPERT`.
-
-Additionally, the *Log Changes* flag has to be enabled in the technical settings for the table:
+The *Log Changes* checkbox has to be enabled in the technical settings for the table:
 
 -   For tables delivered by SAP: SAP defines whether change logging is enabled.
 -   For tables you have created: You need to enable change logging.
 
 > ### Note:  
-> If you experience any issues viewing the log, please refer to the following SAP Notes: [2523607](https://launchpad.support.sap.com/#/notes/2523607) \(How to check if logging is on\) and [2724472](https://launchpad.support.sap.com/#/notes/2724472) \(Automatic checks and solution for most frequent issues in table logging\).
+> *Log Changes* checkbox can be enabled or disabled in the [Technical Table Settings](https://help.sap.com/viewer/c238d694b825421f940829321ffa326a/LATEST/en-US/71709cce60c7433ba5563662ce129fe2.html) ADT editor by expanding the entry of your table in the project explorer.
 
 
 
@@ -26,7 +24,7 @@ Additionally, the *Log Changes* flag has to be enabled in the technical settings
 
 ## Context
 
-Find out how to view the change log of your business configuration tables.
+Find out how to display the change log of your business configuration tables.
 
 
 

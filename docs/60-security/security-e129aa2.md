@@ -64,7 +64,7 @@ SAP ID service provides:
 
 You can use SAP ID service as a pre-configured user store in your starter scenarios, or for testing. Optionally, you can configure role assignments to SAP ID users.
 
-See [SAP ID Service](../50-administration-and-ops/sap-id-service-d6a8db7.md).
+See [Default Identity Provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md).
 
 ![](images/Authorization_and_Trust_Management_in_the_Neo_Environment_graph3_68bb064.png)
 

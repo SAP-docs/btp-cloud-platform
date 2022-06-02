@@ -11,7 +11,7 @@ The administrator of the ABAP environment creates the communication system in th
 **Related Information**  
 
 
-[Maintain Communication Systems](../50-administration-and-ops/maintain-communication-systems-15663c1.md "You can use this app to create communication systems. Communication systems are created to enable the communication among different systems.")
+[Communication Systems](../50-administration-and-ops/communication-systems-15663c1.md "You can use this app to create communication systems. Communication systems are created to enable the communication among different systems.")
 
 [How to Create Communication Systems](../50-administration-and-ops/how-to-create-communication-systems-c2234ac.md "")
 

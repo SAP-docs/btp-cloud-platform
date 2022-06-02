@@ -142,7 +142,7 @@ Learn how to create a destination with SAML assertion authentication to establis
     </td>
     <td valign="top">
 
-    Enter the URL of your system and add ***-web*** as follows ***1a354373-d200-46f6-9d5c-daab9a65d9b6.abap-web.eu10.hana.ondemand.com***
+    Enter the URL of your system and add ***\-web*** as follows ***1a354373-d200-46f6-9d5c-daab9a65d9b6.abap-web.eu10.hana.ondemand.com***
 
 
     

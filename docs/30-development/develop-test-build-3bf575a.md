@@ -62,7 +62,7 @@ Once you’ve completed these steps, you can start developing an add-on.
 Using a reserved namespace for add-on development and build is necessary for a unique add-on product and software component name.
 
 > ### Note:  
-> You need to register a namespace before the first ABAP system is provisioned. For namespaces that are registered after the system provisioning, create an incident using component `BC-CP-ABA`.
+> You need to register a namespace before the first ABAP system is provisioned. To register namespaces after system provisioning, see [Maintain Namespaces](maintain-namespaces-5456007.md).
 
 If you need a new S-user, get in touch with a user administrator in SAP ONE Support Launchpad.
 
@@ -97,7 +97,7 @@ As a SaaS solution operator, you have to configure the global account for develo
 > 
 > Additionally, considering the availability of software components only in the same global accounts, you have to create the production systems as well as development and test systems in the same global account \(only one global account is used\).
 > 
-> In the provider subaccount, an ABAP instance of service plan type abap/standard instead of abap/saas\_oem is used.
+> In the provider subaccount, the entitlement for an ABAP instance of service plan type `abap/standard` instead of `abap/saas_oem` needs to be available.
 > 
 > See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
@@ -293,7 +293,7 @@ Additionally, the following entitlements for SaaS application subscriptions are 
 
 -   SAP Business Application Studio for UI development. See [SAP Business Application Studio](sap-business-application-studio-c736960.md).
 -   Web access for ABAP for access to systems during development phase. See [Subscribing to the Web Access for ABAP](../20-getting-started/subscribing-to-the-web-access-for-abap-98928b0.md).
--   Landscape Portal for provider support access. See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
+-   Landscape Portal to manage systems and tenants in the provider subaccount. See [Landscape Portal](landscape-portal-5eb70fb.md).
 
 If you want to integrate an existing corporate identity provider in the subaccounts of the global account for development for authentication/authorization, see [Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md). To restrict access based on certain criteria such as the IP address, you need to use the [Identity Authentication Service](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
 
@@ -318,11 +318,9 @@ As a SaaS solution operator, you have to configure the global account for produc
 In the provider context, the `ABAP environment (saas_oem)` service plan is used.
 
 > ### gCTS Delivery:  
-> In the provider subaccount, an ABAP instance of service plan type `abap/standard` instead of `abap/saas_oem` is used.
+> In the provider subaccount, the entitlement for an ABAP instance of service plan type `abap/standard` needs to be available.
 > 
 > Additionally, considering the availability of software components only in the same global accounts, you have to create the production systems as well as development and test systems in the same global account.
-> 
-> In the provider subaccount, an ABAP instance of service plan type `abap/standard` instead of `abap/saas_oem` is used.
 > 
 > See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
@@ -410,7 +408,7 @@ xsuaa
 
 Additionally, the following SaaS application subscription is required:
 
-*Landscape Portal* to manage systems and tenants in the provider subaccount. The *Landscape Portal* app acts as a central tool to allow service providers to perform lifecycle management operations, such as provisioning new consumers as new tenants, moving tenants, and more.
+*Landscape Portal* to manage systems and tenants in the provider subaccount. Additionally, the following entitlements for SaaS application subscriptions are required: Web access for ABAP for access to systems during the development phase. See Subscribing to the Web Access for ABAP. Landscape Portal to manage systems and tenants in the provider subaccount..
 
 If you want to integrate an existing corporate identity provider in the subaccounts of the global production account for authentication/authorization, see [Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md). To restrict access based on certain criteria such as the IP address, you need to use the [Identity Authentication Service](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
 
@@ -869,7 +867,7 @@ Once the build and test installation have been completed successfully, an add-on
 
 ## Prerequisites
 
--   For the add-on build, you have to set up a Jenkins CI/CD server that is provisioned using the Cx server, an S-user in SAP One Support Launchpad with user management authorization as well as authorization to create a customer incident for add-on registration. See [Jenkins](https://www.jenkins.io/), [Cx Server](https://www.project-piper.io/infrastructure/overview/#cx-server-recommended), and SAP note [1271482](https://launchpad.support.sap.com/#/notes/1271482).
+-   For the add-on build, you have to set up a Jenkins CI/CD server that is provisioned using the Cx server and you need an S-user in SAP One Support Launchpad with user management authorization. See [Jenkins](https://www.jenkins.io/), [Cx Server](https://www.project-piper.io/infrastructure/overview/#cx-server-recommended), and SAP note [1271482](https://launchpad.support.sap.com/#/notes/1271482).
 -   To build the first add-on version, you have to configure the add-on build pipeline. See [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
 
  <a name="loioccf0c1ef30ce4d6aa6e39bb583fb8ba1"/>
@@ -931,7 +929,7 @@ See SAP note [2174416](https://launchpad.support.sap.com/#/notes/2174416) for mo
 
 The registration of a new add-on product is a manual step. Your add-on product should only be installed in ABAP systems in your global accounts for development and production. Therefore, the add-on product name and global accounts need to be registered with SAP.
 
-See [Register Add-on Product for a Global Account](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#register-add-on-product-for-a-global-account).
+See [Register Product](register-product-dc15fb4.md).
 
 
 
@@ -955,6 +953,9 @@ The add-on build scenario of the ABAP environment pipeline is described in detai
 In test system TST, create branch ***v1.0.0*** that is based on the main branch.
 
 **Configure addon.yml File**
+
+> ### Tip:  
+> Use the [Check Product Version](check-product-version-0da158a.md) app to find out which product version has already been built.
 
 As add-on admin user, create the `addon.yml` file in the Git repository used for the add-on build pipeline configuration. This file includes metadata of the add-on product that is being built, such as versioning information and the included software component versions.
 
@@ -1011,5 +1012,5 @@ You can also use add-on installation test system ATI for additional tests, simil
 
 Finally, the previously created target vector for the new add-on product version is published in production scope after the add-on administrator has confirmed the release decision in the Confirm stage.
 
-After a successful build, all ABAP systems used are deprovisioned and the add-on is technically available for deployment to the ABAP environment.
+After a successful build, all ABAP systems used are deprovisioned and the add-on is technically available for deployment to the ABAP environment. See [Check Product Version](check-product-version-0da158a.md).
 

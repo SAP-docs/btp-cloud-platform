@@ -1,0 +1,256 @@
+<!-- loioddfc10180fe844049cc71f6989942dc2 -->
+
+# Tomcat
+
+By default web applications pushed with the SAP Java buildpack are running in an Apache Tomcat container.
+
+Applications could explicitly define the targeted application container by using the TARGET\_RUNTIME environment variable in the application `manifest.yml` file.
+
+> ### Sample Code:  
+> manifest.yml
+> 
+> ```
+> ---
+> applications:
+> - name: <APP_NAME>
+>   ...
+>   env:
+>     TARGET_RUNTIME: tomcat
+> ```
+
+
+
+<a name="loioddfc10180fe844049cc71f6989942dc2__section_lnr_2bv_42b"/>
+
+## Provided APIs
+
+The tomcat application runtime container provides the following standard APIs:
+
+
+<table>
+<tr>
+<th valign="top">
+
+Runtime
+
+
+
+</th>
+<th valign="top">
+
+Tomcat
+
+
+
+</th>
+<th valign="top">
+
+Supported Specification Version
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+tomcat
+
+
+
+</td>
+<td valign="top">
+
+Apache Tomcat 8
+
+
+
+</td>
+<td valign="top">
+
+Java Servlets 3.1
+
+Java ServerPages \(JSP\) 2.3
+
+Expression Language \(EL\) 3.0
+
+Debugging Support for Other Languages 1.0
+
+Java API for WebSocket 1.1
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loioddfc10180fe844049cc71f6989942dc2__section_cq3_nbv_42b"/>
+
+## Customizing the SAP Java Buildpack Defaults
+
+SAP Java Buildpack provides some default configurations for the Tomcat application container which could be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature.
+
+Below is a list with all of the placeholders which could be customized by the application along with their default values:
+
+
+<table>
+<tr>
+<th valign="top">
+
+Placeholder
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+<th valign="top">
+
+Default Value
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+connector.maxHttpHeaderSize
+
+
+
+</td>
+<td valign="top">
+
+The maximum size of the request and response HTTP header, specified in bytes
+
+
+
+</td>
+<td valign="top">
+
+8192
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+connector.maxThreads
+
+
+
+</td>
+<td valign="top">
+
+The maximum number of request processing threads to be created by this Connector, which therefore determines the maximum number of simultaneous requests that can be handled
+
+
+
+</td>
+<td valign="top">
+
+200
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+connector.allowTrace
+
+
+
+</td>
+<td valign="top">
+
+A boolean value which can be used to enable or disable the TRACE HTTP method
+
+
+
+</td>
+<td valign="top">
+
+false
+
+
+
+</td>
+</tr>
+</table>
+
+To configure the HTTP header size, use:
+
+```
+env:
+  JBP_CONFIG_RESOURCE_CONFIGURATION: "['tomcat/conf/server.xml': {'connector.maxHttpHeaderSize':1024}]"
+```
+
+To configure the maximum number of threads, use:
+
+```
+env:
+  JBP_CONFIG_RESOURCE_CONFIGURATION: "['tomcat/conf/server.xml': {'connector.maxThreads':800}]"
+```
+
+To enable the TRACE HTTP method, use:
+
+```
+env:
+  JBP_CONFIG_RESOURCE_CONFIGURATION: "['tomcat/conf/server.xml': {'connector.allowTrace':true}]"
+```
+
+
+
+<a name="loioddfc10180fe844049cc71f6989942dc2__section_w3t_zc4_2fb"/>
+
+## Configure the maximum number of active sessions
+
+The SAP Java Buildpack provides the default configurations for unlimited sessions for the Tomcat application container which could be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature. To limit the number of active sessions set the *maxActiveSessions* attribute on a *Manager* element, for example:
+
+```
+<Context>
+  <Manager maxActiveSessions="500" />
+</Context>
+```
+
+
+
+<a name="loioddfc10180fe844049cc71f6989942dc2__section_i33_1d4_2fb"/>
+
+## Configure the session timeout value
+
+To set session timeout value of active sessions set the *session-config* tag in the application `web.xml`:
+
+```
+<session-config>
+    <session-timeout>1</session-timeout>
+</session-config>
+```
+
+
+
+<a name="loioddfc10180fe844049cc71f6989942dc2__section_lbp_bw5_sfb"/>
+
+## Configure the context path attribute
+
+The default value of context path in `server.xml` is ***""*** \(Empty String\). You can override this default value using `app_context_root` in the application `manifest.yml` file. For example:
+
+```
+...
+  env:
+    JBP_CONFIG_TOMCAT: "[tomcat:{app_context_root: test_context_path}]"
+...
+```
+

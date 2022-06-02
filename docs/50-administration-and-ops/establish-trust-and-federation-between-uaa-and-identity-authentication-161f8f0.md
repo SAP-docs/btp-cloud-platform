@@ -75,7 +75,7 @@ You've configured trust in your tenant of the Identity Authentication service, w
 
 ## Next Steps
 
-If you don't need SAP ID service anymore, set it to inactive \(see [SAP ID Service](sap-id-service-d6a8db7.md)\).
+If you don't need SAP ID service anymore, set it to inactive \(see [Default Identity Provider](default-identity-provider-d6a8db7.md)\).
 
 **Related Information**  
 

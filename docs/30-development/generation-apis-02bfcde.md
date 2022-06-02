@@ -1,6 +1,6 @@
 <!-- loio02bfcdec55be4365ae8484edbf615879 -->
 
-# Generation
+# Generation APIs
 
 XCO Generation is the part of the XCO library that allows the programmatic creation, update and deletion of ABAP repository objects. It consists of high-level and strongly typed APIs for the following objects types:
 

@@ -93,5 +93,5 @@ The JSON document in the following example shows the environment variable that i
 Requires dependencies support a special parameter named “`managed`”, which registers as a “subscriber” the application created from the module containing the `requires` dependency. One consequence of this registration is that if any new configuration entries are published in the configuration registry during the deployment of another MTA, and those new entries match the filter specified in the subscription of an application, then that application's environment would be updated, and the application itself would be restarted in order for it to see its new environment's state.
 
 > ### Tip:  
-> When starting the deployment of an MTA \(with the `xs deploy` command\), you can use the special option *--no-restart-subscribed-apps* to specify that, if the publishing of configuration entries created for that MTA result in the update of a subscribing application's environment, then that application should **not** be restarted.
+> When starting the deployment of an MTA \(with the `xs deploy` command\), you can use the special option *\--no-restart-subscribed-apps* to specify that, if the publishing of configuration entries created for that MTA result in the update of a subscribing application's environment, then that application should **not** be restarted.
 

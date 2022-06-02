@@ -58,7 +58,7 @@ The Identity Authentication service is closely integrated with SAP BTP, and it i
 
 8.  Choose *Applications & Resources* \> *Applications*.
 
-9.  Choose the *+Add* button on the left-hand panel, and enter the name of your subaccount.
+9.  Choose the *\+Add* button on the left-hand panel, and enter the name of your subaccount.
 
 10. Choose *Save*.
 

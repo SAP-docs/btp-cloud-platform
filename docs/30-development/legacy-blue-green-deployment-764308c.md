@@ -50,9 +50,9 @@ You have a previously deployed MTA, with functional productive applications and 
     > ### Note:  
     > You can skip this step by using one of the following command line options:
     > 
-    > -   *--no-confirm* - you have to use it when starting the process.
+    > -   *\--no-confirm* - you have to use it when starting the process.
     > 
-    > -   *--skip-idle-start* - this option will also skip the start of the newly deployed applications on temporary routes.
+    > -   *\--skip-idle-start* - this option will also skip the start of the newly deployed applications on temporary routes.
 
 3.  If you do not want to make the “green” version available, abort the process using `cf deploy -i <operation ID> -a abort`.
 

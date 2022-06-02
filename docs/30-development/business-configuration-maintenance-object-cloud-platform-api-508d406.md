@@ -10,9 +10,6 @@ After a business configuration maintenance object has been created, it will be s
 
 Before using any of the following methods, first obtain an interface handle by calling `mbc_cp_api=>business_configuration_api` with an identifier for your business configuration.
 
-> ### Note:  
-> The identifier is used to identify a single business configuration maintenance object. The development namespace that was assigned to you for ABAP development in the SAP BTP ABAP environment can be part of the identifier.
-
 If an error occurs while calling the following methods, an exception of type `cx_mbc_api_exception` will be raised. Use the method `if_xco_news~get_messages` to retrieve all messages that the exception carries.
 
 

@@ -24,7 +24,7 @@ After the multitenant application has been deployed for production purposes, the
 
 -   To configure the sizing of a SaaS solution, you have to determine the expected load per region by using the Technical Monitoring Cockpit. See [Technical Monitoring Cockpit \(Cloud Version\)](https://help.sap.com/viewer/tmc_cloud/eb867c69739a4cf3be6361d3990d26a2.html).
 -   To implement and deploy a multitenant application for a SaaS solution, you have to assign the necessary entitlements in the provider subaccount, for example for the ABAP Solution service. See [Developing Multitenant Applications in the ABAP Environment](developing-multitenant-applications-in-the-abap-environment-195031f.md) and [Entitlements and Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00aa2c23479d42568b18882b1ca90d79.html).
--   To subscribe to the Landscape Portal application, you need the corresponding entitlement. See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
+-   To subscribe to the Landscape Portal application, you need the corresponding entitlement. See [Landscape Portal](landscape-portal-5eb70fb.md).
 
  <a name="loio1782f253e102484dac378887b3d6d769"/>
 
@@ -171,9 +171,9 @@ As an operator, you need to create a destination for the Cloud Foundry Cloud Con
 > ### Note:  
 > Using a multitenant application deployed during the development phase, you need to add a new tenant-specific route pointing to the approuter application.
 > 
-> You have to create a route for the consumer subaccount that maps to the approuter in the multitenant application. New routes are created inside the space where the multitenant application is deployed. For the creation of a new route, you have to specify the domain and hostname. In the development phase, the hostname combines the subdomain of the consumer \(sub-\)account, using a "***-***" separator, and the app name of the SaaS solution. Once the route is created, you have to map it to the approuter application.
+> You have to create a route for the consumer subaccount that maps to the approuter in the multitenant application. New routes are created inside the space where the multitenant application is deployed. For the creation of a new route, you have to specify the domain and hostname. In the development phase, the hostname combines the subdomain of the consumer \(sub-\)account, using a "***\-***" separator, and the app name of the SaaS solution. Once the route is created, you have to map it to the approuter application.
 > 
-> Since "***-***" is used as separator, only 63 characters minus the number of characters used for the app name of the solution can be used for subdomains.
+> Since "***\-***" is used as separator, only 63 characters minus the number of characters used for the app name of the solution can be used for subdomains.
 
 As a DevOps engineer test the multitenant application deployed to the *05 Provide* subaccount in the global account for development by subscribing from a consumer subaccount created in the global account for development. See [Subscribe New Consumers](subscribe-new-consumers-b90cde1.md).
 
@@ -184,7 +184,7 @@ Finally, test the access from the consumer subaccount. See [Consumer Access](con
 > ### Note:  
 > During the production phase, you should use a route with wildcard hostname combined with a custom domain so that you don't have to create them manually in the space where the multitenant application is deployed. See [Configure the Approuter Application](configure-the-approuter-application-3725815.md) and [Create Routes](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/9fddeea396b34b528bc8d286f3d5d9cf.html?version=Cloud). This guarantess the following:
 > 
-> -   All possible subdomains can be replaced in tenant host pattern while resulting in a valid hostname/route since separator "***.***" is used instead of "***-***".
+> -   All possible subdomains can be replaced in tenant host pattern while resulting in a valid hostname/route since separator "***.***" is used instead of "***\-***".
 > 
 > -   The desired route is not reserved. That means, in case of a shared domain, such as cfapps.eu10.hana.ondemand.com, the subdomains are not reserved and could be used by other SAP BTP platform customers.
 
@@ -198,7 +198,7 @@ By using MTA extension descriptors, you can configure the required values for de
 
 ### Access to Landscape Portal
 
-The *Landscape Portal* acts as a central tool that allows you to perform lifecycle management operations, such as provisioning new consumers tenants, users, and more. See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
+The *Landscape Portal* acts as a central tool that allows you to perform lifecycle management operations, such as provisioning new consumers tenants, users, and more. See [Landscape Portal](landscape-portal-5eb70fb.md).
 
 As an operator, subscribe to the *Landscape Portal* application in the *05 Provide* subaccount in both the global account for development and global account for production. The `LandscapePortalAdminRoleCollection` needs to be assigned to the users in the configured default identity provider of the subaccount that you want to provide access to the *Landscape Portal* app. See [Accessing the Landscape Portal](accessing-the-landscape-portal-2e1e393.md).
 
@@ -246,6 +246,9 @@ To learn more about how you can offer your SaaS solution to SAP customers via SA
 ### \(Optional\) Certification
 
 With an SAP Extension Suite certification, your SaaS solution is featured in the SAP Certified Solution Directory, which allows for more growth and customer participation. See [SAP ICC Integration Scenario - SAP Extension Suite Certification](https://www.sap.com/documents/2016/10/7cf3eaec-907c-0010-82c7-eda71af511fa.html) and [SAP Certified Solution Directory](https://www.sap.com/dmc/exp/2013_09_adpd/enEN/#/solutions).
+
+> ### Note:  
+> Certification of SaaS solutions is only available if you have used add-on build delivery.
 
  <a name="loioa24217a0d6fa434bbce97869dfb70dda"/>
 
@@ -329,7 +332,7 @@ In both cases, you, as a SaaS solution operator, receive a confirmation mail.
 
 As an operator user assigned to the role collection `LandscapePortalAdminRoleCollection`, you can access the systems overview of the *Landscape Portal* and check both provisioned systems and new tenants.
 
-See [Using Landscape Portal to Perform Lifecycle Management Operations](using-landscape-portal-to-perform-lifecycle-management-operations-5eb70fb.md).
+See [Landscape Portal](landscape-portal-5eb70fb.md).
 
 **Assign `SolutionAdmin` role**
 

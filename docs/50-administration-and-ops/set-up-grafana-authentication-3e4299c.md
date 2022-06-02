@@ -10,8 +10,6 @@ Kyma comes with Grafana, which provides a dashboard and a graph editor to visual
 
 ## Prerequisites
 
--   Your cluster is running Kyma version 2.0 or higher.
-
 -   You’ve defined the kubeconfig file for your cluster as default \(see [Kubernetes: Organizing Cluster Access Using kubeconfig Files](https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/)\).
 
 -   You have an Identity Authentication \(IAS\) tenant. To learn more about using Identity Authentication, see the [operation guide](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/6a8e67cf98bf41968ea2849dfd0b6bbd.html).

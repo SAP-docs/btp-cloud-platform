@@ -4,11 +4,7 @@
 
 Identity management comprises setting up trust and providing credentials for business users.
 
-  
-  
-<a name="loio783103882c604a06b244ece500e59857__fig_txh_g4k_ctb"/>Identity Management Architecture
-
- ![](images/IAM_Hybrid_Landscape_Architecture_c3494d2.png "Identity Management Architecture") 
+ ![](images/IAM_Hybrid_Landscape_Architecture_c3494d2.png) 
 
 
 

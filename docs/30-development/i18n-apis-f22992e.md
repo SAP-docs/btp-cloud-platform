@@ -1,6 +1,6 @@
 <!-- loiof22992e198f04e559c468e81e3f7a55e -->
 
-# Internationalization
+# I18N APIs
 
 The XCO I18N APIs allow the programmatic maintenance of translations for language-dependent texts. The I18N module consists of high-level and strongly typed APIs and provides support for the following targets:
 

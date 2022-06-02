@@ -77,7 +77,7 @@ For more information, see
 
 -   [Create Mail Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/6442cb4f8b0f41178abce14c35f5def4.html)
 
--   [Maintain Communication Systems](../50-administration-and-ops/maintain-communication-systems-15663c1.md)
+-   [Communication Systems](../50-administration-and-ops/communication-systems-15663c1.md)
 
 -   [How to Create a Communication Arrangement](../50-administration-and-ops/how-to-create-a-communication-arrangement-a0771f6.md)
 

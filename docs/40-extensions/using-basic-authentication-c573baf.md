@@ -46,7 +46,7 @@ From the SAP S/4HANA Cloud side you need to maintain the communication settings 
 
     6.  Enter information about SAP BTP in the *Technical Data* section.
 
-    7.  Choose *+* \(Add\) under *User for Inbound Communication*.
+    7.  Choose *\+* \(Add\) under *User for Inbound Communication*.
 
     8.  In the dialog box that appears, select *User Name and Password* from the *Authentication Method* drop-down list.
 

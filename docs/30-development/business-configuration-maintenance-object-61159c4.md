@@ -2,7 +2,13 @@
 
 # Business Configuration Maintenance Object
 
-The business configuration maintenance object can be maintained via API or ADT. You can find more information on how to work with the business configuration maintenance object via ADT, in the *ABAP Development User Guide*.
+
+
+<a name="loio61159c4dc45b45619b46b4620615c357__section_ugh_txt_4sb"/>
+
+## Purpose
+
+A business configuration maintenance object declares a service binding as relevant for business configuration. It will be shown on the list of all maintainable business configurations in the Fiori app . The business configuration maintenance object can be maintained via API or ADT.
 
 
 
@@ -10,7 +16,17 @@ The business configuration maintenance object can be maintained via API or ADT. 
 
 ## Prerequisites
 
-You have created a business configuration by following [this tutorial](https://developers.sap.com/mission.abap-dev-factory-calendar.html). Please note that only one level of sub nodes is supported. This means that your root entity can have associations to an arbitrary amount of entities, but these sub entities can't have associations to further sub entities. The data model must consist only of client-dependent tables.
+-   You have created a service binding that is used to maintain the business configuration data by following [this tutorial](https://developers.sap.com/mission.abap-dev-factory-calendar.html).
+
+-   The service binding must be of type OData V4 - UI and exposing CDS root entity with draft enabled behavior definition.
+
+-   The following two business object structures are supported:
+
+    -   all child entities of the root entity must be leaf entities.
+    -   when the option skip root entity list report is enabled, the root entity must have exactly one child entity. All child entities of the latter must be leaf entities.
+
+-   The data model must consist only of client-dependent tables.
+
 
 
 
@@ -25,5 +41,9 @@ Once you have created the IAM Business Catalog, assign the catalog to a business
 **Related Information**  
 
 
-[Working with Business Configuration Maintenance Objects](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/latest/en-US/e570fee3db344358926ad11ba3b3a531.html)
+[Creating a Business Configuration Maintenance Object in ADT](creating-a-business-configuration-maintenance-object-in-adt-1196530.md "Find out how to create a business configuration maintenance object using the ABAP Development Tools (ADT).")
+
+[Business Configuration Maintenance Object Cloud Platform API](business-configuration-maintenance-object-cloud-platform-api-508d406.md "Use the ABAP API mbc_cp_api to create, update, delete, and read business configuration maintenance objects.")
+
+[Generating a Business Configuration Maintenance Object with the Generate ABAP Repository Objects Wizard](../50-administration-and-ops/generating-a-business-configuration-maintenance-object-with-the-generate-abap-repositor-047e01c.md "You can create a business configuration maintenance object together with all related development objects on the basis of a database table by using the Generate ABAP Repository Objects Wizard.")
 

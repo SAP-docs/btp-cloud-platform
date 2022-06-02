@@ -29,7 +29,7 @@ To be able to make calls to the SAP SuccessFactors OData APIs with user propagat
 
 3.  Choose *Download Trust* to get the certificate for this subaccount and save it on your local file system.
 
-4.  Open the certificate in a text editor and copy the content between *-----BEGIN CERTIFICATE-----* and *-----END CERTIFICATE-----*.
+4.  Open the certificate in a text editor and copy the content between *\-----BEGIN CERTIFICATE-----* and *\-----END CERTIFICATE-----*.
 
 
  <a name="loio868a6652aa3543b89d3776936a9c6455"/>
@@ -50,7 +50,7 @@ To be able to make calls to the SAP SuccessFactors OData APIs with user propagat
 
 4.  In the *Application URL* field, enter the URL of the extension application.
 
-5.  In the *X.509 Certificate* field, paste the content between *-----BEGIN CERTIFICATE-----* and *-----END CERTIFICATE-----* of the certificate you downloaded in the `Download the X509 Certificate in SAP BTP`, step 4.
+5.  In the *X.509 Certificate* field, paste the content between *\-----BEGIN CERTIFICATE-----* and *\-----END CERTIFICATE-----* of the certificate you downloaded in the `Download the X509 Certificate in SAP BTP`, step 4.
 
 6.  Choose *Register* to save the OAuth client.
 
@@ -239,24 +239,6 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     
     </td>
     </tr>
-    <tr>
-    <td valign="top">
-
-    *System User*
-
-
-    
-    </td>
-    <td valign="top">
-
-    The technical user for an OData access with SAML 2.0 Bearer Assertion authentication with technical user.
-
-    Specify a value for this setting if you want to configure OData access with SAML 2.0 Bearer Assertion authentication with technical user.
-
-
-    
-    </td>
-    </tr>
     </table>
     
 4.  In the *Additional Properties*, choose *New Property* to define the following properties:
@@ -290,6 +272,24 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     <td valign="top">
 
     Enter the API Key of the OAuth client you created in SAP SuccessFactors.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    *SystemUser*
+
+
+    
+    </td>
+    <td valign="top">
+
+    The technical user for an OData access with SAML 2.0 Bearer Assertion authentication with technical user.
+
+    Specify a value for this setting if you want to configure OData access with SAML 2.0 Bearer Assertion authentication with technical user.
 
 
     

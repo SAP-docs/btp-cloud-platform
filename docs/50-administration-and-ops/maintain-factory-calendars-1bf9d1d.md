@@ -26,7 +26,9 @@ You can use this app to:
 To maintain factory calendars, log on to the SAP Fiori launchpad in the *SAP Business Technology Platform \(SAP BTP\)* system and open the *Maintain Factory Calendars* app.
 
 > ### Note:  
-> To start the Fiori apps, you must have the `SAP_BR_BPC_EXPERT` business role containing the`SAP_CA_BC_IC_LND_CAL_CA1_PC` business catalog assigned.
+> The business catalog `SAP_CA_BC_IC_LND_CAL_CA1_PC` - Factory Calendar - Configuration needs to be assigned to your user to access and use the app.
+> 
+> The business catalog is included in the business role template `SAP_BR_BPC_EXPERT`.
 
 > ### Caution:  
 > The following HANA SQL functions are currently not supported:

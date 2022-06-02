@@ -16,15 +16,16 @@ The ABAP environment enables you to **expose**:
 
 -   HTTP services. See [Working with the HTTP Service Editor](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/494a02697388437aa71067dd95b2c561.html).
 -   SQL services. See [Consumption of the SQL Service and the ODBC Driver for ABAP](consumption-of-the-sql-service-and-the-odbc-driver-for-abap-6ac9ec8.md).
--   RFC function modules. See [Service Consumption Model as RFC Consumer](service-consumption-model-as-rfc-consumer-a69e99c.md).
+-   RFC function modules. See [Develop a Remote-Enabled Function Module \(RFM\)](develop-a-remote-enabled-function-module-rfm-abf7105.md).
 
 With your ABAP applications, you can **consume**:
 
--   HTTP services \(HTTP client\).
+-   HTTP services \(HTTP client\). See [Set Up HTTP Communication](set-up-http-communication-3884bc3.md).
 
 -   OData services \(service consumption model\). See [Developing a UI Service with Access to a Remote Service](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/f4969e551d3049c59715210cbeb4ef56.html).
--   Remote Function Calls \(RFC\). See [Integrating On-Premise Systems](integrating-on-premise-systems-c95327f.md).
--   External services. See [Developing and Exposing an SQL Service in the ABAP System](developing-and-exposing-an-sql-service-in-the-abap-system-76eeb8d.md).
+-   Remote Function Calls \(RFC\). See [Set Up RFC Communication](set-up-rfc-communication-b4eaa0a.md).
+-   On-premise systems via Cloud Connector. See [Integrating On-Premise Systems](integrating-on-premise-systems-c95327f.md).
+-   SOAP-based Web services. See [Set Up SOAP Communication](set-up-soap-communication-8b6723b.md).
 
 
 

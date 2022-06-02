@@ -139,7 +139,7 @@ As outbound communication is not relevant in this documentation, a communication
 
 ## Procedure
 
-1.  In the *User for Inbound Communication* screen area, to create a communication user for inbound communication in SAP S/4HANA Cloud, choose *+*.
+1.  In the *User for Inbound Communication* screen area, to create a communication user for inbound communication in SAP S/4HANA Cloud, choose *\+*.
 
 2.  In the following popup, choose *New User*.
 
@@ -156,7 +156,7 @@ As outbound communication is not relevant in this documentation, a communication
     > ### Note:  
     > Instead of using the inbound communication user with authentication method OAuth, you could also use the communication user for authentication with user ID and password.
 
-6.  To create an outbound communication user, choose *+* under *User for Outbound Communication*.
+6.  To create an outbound communication user, choose *\+* under *User for Outbound Communication*.
 
 7.  Select *SSL Client Certificate* as authentication method and *Default Client Certificate* as certificate type.
 

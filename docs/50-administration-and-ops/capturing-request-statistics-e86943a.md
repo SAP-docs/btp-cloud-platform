@@ -10,6 +10,10 @@ With the *Capture Request Statistics* app, you can capture request statistics to
 
 With the activation of a capture profile, you can capture system activities. Requests are recorded with technical information, such as response time, program name, or CPU time. Using the request statistics, you can investigate the performance or the resource consumption of a system or of a tenant in more detail.
 
+In the *Capture Request Statistics* app, you can also find predefined profiles for capturing expensive requests \(with names starting with `SAP_`\). These predefined capture profiles are active by default, and you can't edit or deactivate them.
+
+You can view the captured data from all profiles in the technical monitoring cockpit on the *Captured Request Statistics* and *Request Processing* screens. You can get to the*Request Processing* screens by choosing *System Workload* or *Tenant Workload* from the menu. In addition, the captured ABAP statistics records are the basis for ABAP system sizing in the *Perform System Sizing* app.
+
 
 
 ## Procedure
@@ -19,8 +23,6 @@ With the activation of a capture profile, you can capture system activities. Req
     The *Capture Request Statistics* app opens.
 
     ![](images/Capture_Request_Statistics_Entry_Screen_54a4fb1.png)
-
-    All existing capture profiles are shown, including the predefined profiles for capturing expensive requests \(with names starting with`SAP_EXP_REQ`\). These predefined capture profiles are active by default, and you cannot edit or deactivate them. You can view the captured data from these profiles in the details of *System Workload* and *Tenant Workload* screens in the technical monitoring cockpit.
 
 2.  To create a new capture profile, choose *Create*.
 
@@ -54,7 +56,7 @@ With the activation of a capture profile, you can capture system activities. Req
     </td>
     <td valign="top">
 
-    Enter a short, meaningful name for your profile. Don't use the prefix `SAP_` because this is reserved for profiles predefined by SAP.
+    Enter a short, meaningful name for your profile. Don't use the prefix `SAP_` because this prefix is reserved for profiles predefined by SAP.
 
 
     
@@ -88,6 +90,8 @@ With the activation of a capture profile, you can capture system activities. Req
 
     The start and end time specify when request statistics are captured by the app. Only requests are considered that are started after the start time of the profile and that end before the end time of the profile.
 
+    Make sure that you enter a start time that’s right now or in the future. You can’t activate profiles with a start time in the past.
+
 
     
     </td>
@@ -111,7 +115,7 @@ With the activation of a capture profile, you can capture system activities. Req
     <tr>
     <td valign="top">
 
-    *Record Limit*
+    *Record Limit per Minute*
 
 
     
@@ -124,6 +128,24 @@ With the activation of a capture profile, you can capture system activities. Req
 
     > ### Note:  
     > To get a realistic idea of the workload, consider a relatively high record limit. However, you must keep in mind that you generate load on your system while request statistics are captured.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    *Sampling Rate*
+
+
+    
+    </td>
+    <td valign="top">
+
+    Enter a sampling rate, which is the probability of capturing one single ABAP statistics record in percent.
+
+    With the sampling rate, you ensure that a number of random records are selected during the capturing of request statistics.
 
 
     
@@ -196,6 +218,17 @@ With the activation of a capture profile, you can capture system activities. Req
 
     A new filter condition has been created.
 
-8.  To start capturing request statistics using the profile, choose *Activate*.
+8.  To start capturing request statistics during the time period that’s defined in the profile, choose *Activate*.
 
+
+
+
+<a name="loioe86943aee62d48a8ac26ec22710bd63d__result_p2t_143_3tb"/>
+
+## Results
+
+Request statistics are captured and processed by a collector job that runs every minute. Therefore, you must expect that captured request statistics are displayed with a delay of a minute in the technical monitoring cockpit or in the *Perform System Sizing* app. Capturing request statistics is finished when the status of relevant capture profile has changed to *Finished*.
+
+> ### Note:  
+> If you have a long-running request, ABAP statistics records for this request will only show up in the technical monitoring cockpit after the request is done. The collector then captures the request and calculates its workload over its runtime.
 
