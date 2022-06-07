@@ -25,6 +25,7 @@ You've created a communication scenario as described in [Defining a Communicatio
     4.  Select *HTTP Service* in the *Service Type* dropdown list.
     5.  Choose *Next* and select a transport request.
     6.  Optional: Go to your outbound service and enter the URL in the field *Default Path Prefix*.
+    7.  Save the outbound service.
 
 2.  Add the newly created outbound service to your scenario.
 3.  Adapt the communication arrangement check according to your needs as described in the example. See [Service Consumption via Communication Arrangements](service-consumption-via-communication-arrangements-86aece6.md) for more information. According to your developed communication scenario, add the following:

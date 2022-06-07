@@ -126,7 +126,7 @@ The SAP BTP cockpit is structured according to global accounts and subaccounts:
 
 ![Global Accounts and Subaccounts](images/Global_Accounts_Subaccounts_Small_e06a85d.png)
 
--   A **global account** is the realization of a contract you or your comaony made with SAP. A global account is used to manage subaccounts, members, entitlements and quotas. You receive entitlements and quotas to use platform resources per global account and then distribute the entitlements and quotas to the subaccount for actual consumption. There are two types of commercial models for global accounts: consumption-based model and subscription-based model. See [Commercial Models](commercial-models-263d400.md)
+-   A **global account** is the realization of a contract you or your company has made with SAP. A global account is used to manage subaccounts, members, entitlements and quotas. You receive entitlements and quotas to use platform resources per global account and then distribute the entitlements and quotas to the subaccount for actual consumption. There are two types of commercial models for global accounts: consumption-based model and subscription-based model. See [Commercial Models](commercial-models-263d400.md)
 
 -   **Subaccounts** let you structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements.
 
@@ -145,7 +145,7 @@ The SAP BTP cockpit is structured according to global accounts, directories, and
 
 ![Directories and Subaccounts](images/Relationship_Between_Directories_and_Subaccounts_d60105c.png)
 
--   A **global account** is the realization of a contract you or your comaony made with SAP. A global account is used to manage subaccounts, members, entitlements and quotas. You receive entitlements and quotas to use platform resources per global account and then distribute the entitlements and quotas to the subaccount for actual consumption. There are two types of commercial models for global accounts: consumption-based model and subscription-based model. See [Commercial Models](commercial-models-263d400.md)
+-   A **global account** is the realization of a contract you or your company has made with SAP. A global account is used to manage subaccounts, members, entitlements and quotas. You receive entitlements and quotas to use platform resources per global account and then distribute the entitlements and quotas to the subaccount for actual consumption. There are two types of commercial models for global accounts: consumption-based model and subscription-based model. See [Commercial Models](commercial-models-263d400.md)
 
 -   **Directories** allow you to organize and manage your subaccounts according to your technical and business needs.
 

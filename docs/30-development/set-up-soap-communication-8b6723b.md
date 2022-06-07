@@ -74,8 +74,12 @@ The following authentication methods are supported.
 -   The enhanced WSDL document is like the design time WSDL in the Proxy Editor in SAP GUI enhanced by ABAP properties.
 -   The enhanced WSDL document replaces the function to change ABAP types in the Proxy Editor in SAP GUI.
 
-**Related Information**  
 
 
-[Enable SOAP Communication in Your ABAP Code](enable-soap-communication-in-your-abap-code-6ab460e.md "SOAP-based Web service outbound communication within the ABAP environment is enabled by using SOAP destination objects.")
+<a name="loio8b6723b265d54c13866fbade4a7a087b__section_o5l_lnf_mtb"/>
+
+## Related Links
+
+-   [Enable SOAP Communication in Your ABAP Code](enable-soap-communication-in-your-abap-code-6ab460e.md)
+-   [Tutorial: Consume SOAP-Based Web Services with SAP BTP ABAP Environment](https://developers.sap.com/tutorials/abap-environment-soap-web-services.html)
 

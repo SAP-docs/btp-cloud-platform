@@ -485,7 +485,7 @@ For more information about setting up ABAP environment monitoring with SAP Focus
 
 ## Setup of ABAP Environment Monitoring with SAP Cloud ALM
 
-For more information about setting up ABAP environment monitoring with SAP Cloud ALM, see [Setup for SAP BTP ABAP Environment](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-scp_abap.html).
+For more information about setting up ABAP environment monitoring with SAP Cloud ALM, see the tutorial [Monitor An SAP BTP ABAP Environment Service Using SAP Cloud ALM](https://developers.sap.com/tutorials/abap-environment-monitoring-calm-health-monitoring.html) and the documentation[Setup for SAP BTP ABAP Environment](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-scp_abap.html).
 
 
 

@@ -66,5 +66,5 @@ For communication arrangements with inbound connections, a destination on a suba
 
 ## Next Steps
 
-After creating the *SAP S/4HANA Cloud Extensibility* service instance, you must bind the instance to an application, and it will be assigned an access URL and credentials to the corresponding API. See [Binding Service Instances to Applications](../30-development/binding-service-instances-to-applications-d1aa23c.md).
+After creating the *SAP S/4HANA Cloud Extensibility* service instance, you must bind the instance to an application, and it will be assigned an access URL and credentials to the corresponding API. See .
 

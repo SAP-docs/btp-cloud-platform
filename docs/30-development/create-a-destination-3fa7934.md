@@ -14,7 +14,7 @@ If your business application uses external services, you have to set up a destin
 
 1.  Log on to the SAP BTP and navigate to your subaccount.
 2.  In the navigation area, go to *Connectivity* \> *Destinations* and select *Create New Destination*.
-3.  Set up your destination and select *Save*. See [Set Up HTTP Communication](set-up-http-communication-3884bc3.md), [Service Consumption Model as RFC Consumer](service-consumption-model-as-rfc-consumer-a69e99c.md), and [Set Up a Mail Destination](set-up-a-mail-destination-6a45f42.md).
+3.  Set up your destination and select *Save*. See [Set Up HTTP Communication](set-up-http-communication-3884bc3.md), [Set Up RFC Communication](set-up-rfc-communication-b4eaa0a.md), and [Sending Mails Using SMTP](sending-mails-using-smtp-8d1f989.md).
 
 
 

@@ -2,7 +2,7 @@
 
 # Maintain, Monitor, Support
 
-After the go-live of the SaaS solution, consumers using the applications of the solution might run into issues that you have to troubleshoot and debug.
+After the go-live of the SaaS solution and the deployment of its updates, consumers using the solution might run into issues that you have to troubleshoot and debug.
 
  <a name="loio9721f0fb92a84e2a95309acf445cb0a9"/>
 
@@ -21,7 +21,7 @@ Once everything is implemented, built, and the maintenance delivery is deployed,
 ## Prerequisites
 
 -   To set up the maintenance system landscape, you need the relevant entitlements in the global account for development. See [Entitlements and Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00aa2c23479d42568b18882b1ca90d79.html).
--   To create updates for the SaaS solution, you need a maintenance system landscape. Business users with authorization to use the Manage Software Components apps and developer users using ABAP Development Tools have to be available in the systems. See [Manage Software Components](../50-administration-and-ops/manage-software-components-3dcf76a.md) and [Getting Started as a Developer in the ABAP Environment](../20-getting-started/getting-started-as-a-developer-in-the-abap-environment-4b896c9.md).
+-   To create updates for the SaaS solution, you need a maintenance system landscape. Business users with authorization to use the *Manage Software Components* app and developer users using ABAP Development Tools have to be available in the systems. See [Manage Software Components](../50-administration-and-ops/manage-software-components-3dcf76a.md) and [Getting Started as a Developer in the ABAP Environment](../20-getting-started/getting-started-as-a-developer-in-the-abap-environment-4b896c9.md).
 -   To configure new add-on versions, you need the existing pipeline configuration for an add-on build pipeline. See [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
 -   To trigger the add-on product build, you need a Jenkins pipeline and a pipeline configuration including the new add-on version.
 -   To apply updates for the SaaS solution, you need a subscription to the Landscape Portal application and a user assigned to role collection `LandscapePortalAdminRoleCollection`.
@@ -156,9 +156,9 @@ QAS
 
 Use service parameter `is_development_allowed` to differentiate between development and test systems.
 
--   For development in the ABAP correction system COR, you, as a SaaS solution operator, create a system in the development subaccount in the development space. For correction system COR, set parameter `is_development_allowed = true`.
+-   For development in the ABAP correction system COR, you, as a SaaS solution operator, create a system in subaccount *01 Develop* in the development space. For correction system COR, set parameter `is_development_allowed = true`.
 
--   For testing in the ABAP quality assurance system QAS, you, as a SaaS solution operator, create a system in the test subaccount in the test space. For quality assurance system QAS, set parameter `is_development_allowed = false`.
+-   For testing in the ABAP quality assurance system QAS, you, as a SaaS solution operator, create a system in subaccount *02 Test* in the test space. For quality assurance system QAS, set parameter `is_development_allowed = false`.
 
 
 Users in the ABAP correction system COR might be locked and need to be unlocked for development of corrections. See [Use Case 2: One Development and Correction Codeline in a 5-System Landscape](use-case-2-one-development-and-correction-codeline-in-a-5-system-landscape-4e53874.md)
@@ -189,6 +189,9 @@ As an add-on administrator, you can provide different kinds of updates. The deci
 -   Small and urgent corrections are delivered as patches
 -   Collections of less urgent corrections and other functional enhancements should be delivered as support packages
 -   New release versions are released with updates containing significant enhancements and new features
+
+> ### Tip:  
+> Use the [Check Product Version](check-product-version-0da158a.md) app in Landscape Portal to find out which product version has already been built.
 
 **Create new patch version \(emergency patch\)**
 
@@ -230,7 +233,7 @@ Patch versions are used to deliver unplanned and most likely urgent corrections 
 
         As a developer, implement the required changes to the software component in the ABAP correction system COR. These changes shouldn’t introduce new features because patch versions should only contain small emergency corrections.
 
-        For more information on the different software component versions, see [Software Component Version](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#software-component-version).
+        For more information on the different software component version numbers, see [Software Component Version](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#software-component-version).
 
         After releasing the transport tasks and requests in the correction system, the changes are imported into and tested in the quality assurance system QAS.
 
@@ -238,9 +241,7 @@ Patch versions are used to deliver unplanned and most likely urgent corrections 
 -   **Test**
     -   Import the maintenance branch in the ABAP quality assurance system
 
-        You need to test the implemented corrections by importing the maintenance branch for the current support package level, where the transports for necessary bug fixes were released, in the dedicated test system, which is the ABAP quality assurance system QAS.
-
-        [How to Pull Software Components](../50-administration-and-ops/how-to-pull-software-components-90b9b9d.md).
+        You need to test the implemented corrections by importing the maintenance branch for the current support package level, where the transports for necessary bug fixes were released, in the dedicated test system, which is the ABAP quality assurance system QAS. See [How to Pull Software Components](../50-administration-and-ops/how-to-pull-software-components-90b9b9d.md).
 
     -   Test bugfix in ABAP quality assurance system
 
@@ -257,9 +258,6 @@ Patch versions are used to deliver unplanned and most likely urgent corrections 
 
     > ### Note:  
     > While creating patch versions for the same support package level or release version, the same maintenance branch should be used.
-
-    > ### Tip:  
-    > Use the [Check Product Version](check-product-version-0da158a.md) app to find out which product version has already been built.
 
     As an add-on admin, change the add-on descriptor file according to the add-on product version that you want to build.
 
@@ -468,10 +466,18 @@ You can also use add-on installation test system ATI for additional tests, simil
 
 > ### Note:  
 > Please make sure that the add-on product version to be published is properly tested before confirming the release decision. This includes testing in SAP Fiori launchpad and the ABAP Test Cockpit. See [Test in the ABAP Environment SAP Fiori Launchpad](develop-test-build-3bf575a.md#loio8c5b4d76a05b4bed8df01937f4d8d487) and [Test in the ABAP Test Cockpit](develop-test-build-3bf575a.md#loiof0b71a1c959842258772c27d292c43b0).
-> 
-> Finally, the previously created target vector for the new add-on product version is published in production scope after the add-on administrator has confirmed the release decision in the Confirm stage.
-> 
-> After a successful build, all ABAP systems used are deprovisioned and the add-on is technically available for deployment to the ABAP environment.
+
+Finally, the previously created target vector for the new add-on product version is published in production scope after the add-on administrator has confirmed the release decision in the Confirm stage.
+
+After a successful build, all ABAP systems used are deprovisioned and the add-on is technically available for deployment to the ABAP environment.
+
+ <a name="loio90ada4e99f684deba48664fed04acc12"/>
+
+<!-- loio90ada4e99f684deba48664fed04acc12 -->
+
+### Check Add-on Build Result
+
+Use the *Check Product Version* app in Landscape Portal to check whether the product version, its components, and respective packages are ready for delivery. See [Check Product Version](check-product-version-0da158a.md).
 
  <a name="loio0a80d4c5c079435e9aca4eb9e6841de9"/>
 
@@ -482,7 +488,7 @@ You can also use add-on installation test system ATI for additional tests, simil
 > ### gCTS Delivery:  
 > To create a new software component or update an existing one, we recommend using the development and correction codeline in a 5-ABAP-System landscape. See [Use Case 2: One Development and Correction Codeline in a 5-System Landscape](use-case-2-one-development-and-correction-codeline-in-a-5-system-landscape-4e53874.md).
 > 
-> Following this codeline, the software component is implemented in the development system and runs through a test, correction, and quality and assurance system before it can be deployed to the production system.
+> Following this codeline, the software component is implemented in the development system and runs through a test, correction, and quality and assurance system before it can be imported into the production system.
 > 
 > See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
@@ -544,11 +550,6 @@ To reproduce the consumer issue, the following information should be provided:
     To reproduce the customer issue, you need detailed information about the user actions that lead to the error, and, if possible, user input that was performed during these steps.
 
 
-**Related Information**  
-
-
-[SAP Resolve](https://help.sap.com/viewer/product/SAP_RESOLVE/1.0/en-US)
-
  <a name="loio3687b52c5d3349f7956e93bf2f807e6c"/>
 
 <!-- loio3687b52c5d3349f7956e93bf2f807e6c -->
@@ -563,10 +564,10 @@ The ABAP system can be identified in the *Systems Overview* in the Landscape Por
 
 The system ID is defined in the ABAP Solution service via configuration parameter `sap_system_name`. If there are multiple solutions, the system description identifies the corresponding ABAP system as it always follows the same pattern: *ABAP Solution System for <parameter "name" in ABAP Solution service\>*. See [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
 
-Based on the SAP Fiori launchpad URL of a consumer tenant, the consumer subaccount subdomain, that uniquely identifies the tenant, can be derived. The pattern to extract the subdomain is defined in `TENANT_HOST_PATTERN` of the deployed approuter in multitenant application. See [Configure the Approuter Application](configure-the-approuter-application-3725815.md).
+Based on the SAP Fiori launchpad URL of a consumer tenant, the consumer subaccount subdomain, that uniquely identifies the tenant, can be derived. The pattern to extract the subdomain is defined in `TENANT_HOST_PATTERN`. This is defined as environment variable of the deployed approuter, which is part of the multitenant application. See [Configure the Approuter Application](configure-the-approuter-application-3725815.md).
 
 > ### Example:  
-> Identifying the subdomain with a multitenant application based on the [MTA-Based Approach \(Recommended\)](mta-based-approach-recommended-ca0cc10.md).
+> Identifying the subdomain with a multitenant application created based on the [MTA-Based Approach \(Recommended\)](mta-based-approach-recommended-ca0cc10.md).
 > 
 > -   `TENANT_HOST_PATTERN = (.*)${route-prefix}.${app-domain}`
 > 
@@ -577,11 +578,11 @@ Based on the SAP Fiori launchpad URL of a consumer tenant, the consumer subaccou
 > 
 > In this example, `myconsumer` is the subdomain identifying the consumer tenant.
 
-The subdomain is displayed in the *Tenants View* as *Subaccount Domain* when selecting the system in the Landscape Portal app and thus can be used to find the consumer tenant \(business type Partner Customer Test and Partner Customer Production\).
+The subdomain is displayed in the *Tenants View* as *Subaccount Domain* when selecting the system in the Landscape Portal app and thus can be used to find the consumer tenant \(business type *Partner Customer Test* and *Partner Customer Production*\).
 
 **Access the Consumer Tenant of the ABAP System**
 
-A consumer tenant in client \>= 200 \(business type Partner Customer Test or Partner Customer Production\) can be accessed with a provider support user created in the Landscape Portal. See [Create Support Users](create-support-users-b31712c.md).
+A consumer tenant in client \>= 200 \(business type *Partner Customer Test* or *Partner Customer Production*\) can be accessed with a provider support user created in the Landscape Portal. See [Create Support Users](create-support-users-b31712c.md).
 
 -   **Frontend Access to SAP Fiori launchpad**
 
@@ -601,11 +602,4 @@ The most common use case for troubleshooting is to debug a business user or comm
 With a provider support user, you need to connect with ABAP Development Tools to the system and consumer tenant, set a breakpoint in the logic, and afterwards the business user of the consumer must reproduce the error.
 
 Apart from debugging, you can also use other troubleshooting tools in ABAP Development Tools to analyze issues in a consumer tenant. See [Troubleshooting Tools](../50-administration-and-ops/troubleshooting-tools-911438b.md).
-
-**Related Information**  
-
-
-[Common Issues](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#common-issues)
-
-[Troubleshooting](troubleshooting-60e8f54.md "Find out which steps you can take to identify and resolve specific issues that may come up when developing a multitenant application.")
 

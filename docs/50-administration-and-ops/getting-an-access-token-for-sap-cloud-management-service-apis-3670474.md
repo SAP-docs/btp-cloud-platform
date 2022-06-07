@@ -122,7 +122,7 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
         > 
         > If you don't specify this parameter, the Password grant type is chosen by default.
 
-    -   To create a service instance in Kyma using the Kyma dashboard, see [Create Service Instances Using the Kyma Dashboard](../30-development/create-service-instances-using-the-kyma-dashboard-0453ffb.md).
+    -   To create a service instance in Kyma using the Kyma dashboard, see .
 
     > ### Recommendation:  
     > If you aren't working in Cloud Foundry, Kyma, or Kubernetes, use the SAP Service Manager to create and manage service instances. These instances are platform agnostic and can be deployed and integrated with any other environment of your choice.
@@ -140,7 +140,7 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
 
     -   To create bindings in other environments, see [Consuming Services in Other Environments Using the Service Management Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/0714ac254e83492281d95e25548b388c.html).
 
-    -   To create credentials for calling the service and retrieving information in the Kyma environment, see [Creating Credentials](../30-development/creating-credentials-945498c.md).
+    -   To create credentials for calling the service and retrieving information in the Kyma environment, see .
 
 
     > ### Sample Code:  

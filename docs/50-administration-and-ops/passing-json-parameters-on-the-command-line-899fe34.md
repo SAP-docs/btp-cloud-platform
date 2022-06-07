@@ -100,6 +100,21 @@ The command-line examples in this chapter are based on the following JSON:
 Option 1
 
 ```
+--parameter "{\"Key1\":[\"Value1\"],\"Key2\":[\"Value1\", \"Value2\"]}"
+```
+
+For example, when creating a subaccount \(`btp create accounts/subaccount`\) with labels `Department` = Sales and `Contacts` = name1@example.com and name2@example.com, use the following syntax:
+
+> ### Sample Code:  
+> ```
+> btp create account/subaccount --display-name "my-subaccount" --region us10 --subdomain "my-subdomain" --labels "{\"Department\":[\"Sales\"],\"Contacts\":[\"name1@example.com\", \"name2@example.com\"]}"
+> ```
+
+
+
+Option 2
+
+```
 --parameter '{"Key1": ["Value1"], "Key2": ["Value1", "Value2"]}'
 ```
 
@@ -108,19 +123,6 @@ For example, when creating a subaccount \(`btp create accounts/subaccount`\) wit
 > ### Sample Code:  
 > ```
 > btp create account/subaccount --display-name "my-subaccount" --region us10 --subdomain my-subdomain --labels '{"Department": ["Sales"],"Contacts": ["name1@example.com", "name2@example.com"]}'
-> ```
-
-Option 2
-
-```
---parameter "{\"Key1\" :\"Value1\"},{\"Key2\":\"Value1\, \"Value2"}"
-```
-
-For example, when creating a subaccount \(`btp create accounts/subaccount`\) with labels `Department` = Sales and `Contacts` = name1@example.com and name2@example.com, use the following syntax:
-
-> ### Sample Code:  
-> ```
-> btp create account/subaccount --display-name "my-subaccount" --region us10 --subdomain my-subdomain --labels "{\"Department\" :[\"Sales\"],\"Contacts\":[\"name1@example.com\", \"name2@example.com\"]}"
 > ```
 
 

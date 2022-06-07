@@ -14,27 +14,23 @@ For more information, see [Configure Access Control \(TCP\)](https://help.sap.co
 
 ## Prerequisites
 
-The mail server system information must be maintained in a destination of type *MAIL* in the destination service. For more information, see [Set Up a Mail Destination](set-up-a-mail-destination-6a45f42.md).
-
-The following parameters must be defined:
+You must define the following configurations in a Communication System. See [How to Create Communication Systems](../50-administration-and-ops/how-to-create-communication-systems-c2234ac.md) for more information.
 
 -   Host
-
 -   Port
-
--   Location ID of the *SAP BTP, Cloud Connector*
+-   Choose *Cloud Connector* to access your customer owned SMTP server \(proxy type *OnPremise* in the destination service\).
+-   *SCC Location ID* of the SAP BTP, Cloud Connector
 
     > ### Note:  
-    > This parameter is only required if several *SAP BTP, Cloud Connectors* are used in one subaccount \(to define the target *SAP BTP, Cloud Connector* with the same Location ID\).
+    > This parameter is only required if several SAP BTP, Cloud Connectors are used in one subaccount \(to define the target SAP BTP, Cloud Connector with the same *SCC Location ID*\).
 
--   User
+-   A referenced Outbound Communication User with authentication Method *User and Password*
 
--   Password
+> ### Note:  
+> -   Only access to mail servers via the Cloud Connector is supported.
+> -   Instead of maintaining the information directly in the Communication System, it's also possible to enter a referenced destination of type *MAIL* in the destination service, see [Create Mail Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/6442cb4f8b0f41178abce14c35f5def4.html "Create mail destinations in the Destinations editor (SAP BTP cockpit).") :arrow_upper_right:.
 
--   Choose proxy type *OnPremise* if you want to use OnPremise connectivity via *SAP BTP, Cloud Connector* to access your customer owned SMTP server.
-
-
-Define a communication system in the ABAP Environment pointing to this destination in the destination service. Afterwards, create a communication arrangement for the `SAP_COM_0548` communication scenario using this communication system.
+Afterwards, create a communication arrangement for the `SAP_COM_0548` communication scenario using this communication system.
 
 
 

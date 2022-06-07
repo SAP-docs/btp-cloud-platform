@@ -11,7 +11,7 @@ Learn more about the system landscape/account model, ABAP environment pipeline, 
 ## System Landscape/Account Model
 
 > ### gCTS Delivery:  
-> If you use gCTS transport delivery instead of add-on delivery, no discounted development licenses are available: ABAP systems created for development purposes \(development, test, demo\) cost the same as ABAP systems created for production purpose.
+> If you use gCTS transport delivery instead of add-on delivery, no discounted development licenses are available: ABAP systems created for development purposes \(development, test, demo\) cost the same as ABAP systems created for production purposes. For creation on system AMT instead of `saas_oem`, the standard service plan is used since no add-on is installed.
 > 
 > Additionally, the same global account is used for development/production purposes because gCTS repositories are only available across the same global account.
 
@@ -85,7 +85,7 @@ To separate development and production purposes, you have to create different gl
     -   Trust settings \(custom identity provider\)
 
         > ### Note:  
-        > If you want to integrate an existing corporate identity provider for authentication/authorization in subaccounts of the global account for development, see [Trust and Federation with Identity Providers](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/cb1bc8f1bd5c482e891063960d7acd78.html?version=Cloud). To restrict access based on certain criteria, such as the IP address, you need to use the Identity Authentication service. See [Identity Authentication Service.](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html) 
+        > If you want to integrate an existing corporate identity provider for authentication/authorization in subaccounts of the global account for development, see [Trust and Federation with Identity Providers](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/cb1bc8f1bd5c482e891063960d7acd78.html?version=Cloud). To restrict access based on certain criteria, such as the IP address, you need to use the Identity Authentication service. See [SAP Cloud Identity Services - Identity Authentication](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
 
     -   Connectivity via SAP Cloud Connector. See [Connectivity in the Cloud Foundry Environment](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html).
     -   Destinations. See [Managing Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/84e45e071c7646c88027fffc6a7bb787.html).
@@ -131,7 +131,7 @@ For development and maintenance processes, the steps mentioned below, that are s
     -   Trust settings \(custom identity provider\).
 
         > ### Note:  
-        > If you want to integrate an existing corporate identity provider for authentication/authorization in subaccounts of the global account for production, see [Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md). To restrict access based on certain criteria, such as the IP address, you need to use the Identity Authentication service. See [Identity Authentication Service](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
+        > If you want to integrate an existing corporate identity provider for authentication/authorization in subaccounts of the global account for production, see [Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md). To restrict access based on certain criteria, such as the IP address, you need to use the Identity Authentication service. See [SAP Cloud Identity Services - Identity Authentication](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
 
     -   Connectivity via SAP Cloud Connector. See [Connectivity in the Cloud Foundry Environment](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html).
 
@@ -154,8 +154,6 @@ The goal of the ABAP environment pipeline is to enable continuous integration fo
 
 
 
-The pipeline contains several stages and supports different scenarios. See [ABAP Environment Pipeline](https://sap.github.io/jenkins-library/pipelines/abapEnvironment/introduction/).
-
 The general configuration of the ABAP environment pipeline always follows the same approach regardless of the scenario that you want to configure:
 
 1.  **Prepare Git Repository**
@@ -177,7 +175,7 @@ The general configuration of the ABAP environment pipeline always follows the sa
 
 For more information on how to configure the ABAP environment steps and stages, see [Configuration](https://sap.github.io/jenkins-library/pipelines/abapEnvironment/configuration/).
 
-The add-on build is one possible scenario for usage of the ABAP environment pipeline. See [ABAP Environment Pipeline](https://sap.github.io/jenkins-library/pipelines/abapEnvironment/introduction/). However, you can configure the ABAP environment for different scenarios by enabling different pipeline stages.
+The pipeline contains several stages and supports different scenarios. The add-on build is one possible scenario for usage of the ABAP environment pipeline. However, you can configure the ABAP environment for different scenarios by enabling different pipeline stages. See [ABAP Environment Pipeline](https://sap.github.io/jenkins-library/pipelines/abapEnvironment/introduction/). However, you can configure the ABAP environment for different scenarios by enabling different pipeline stages.
 
 
 
@@ -259,7 +257,7 @@ The Add-on Assembly Kit as a Service \(AAKaaS\) is used for registering and publ
 The service is offered in the SAP Service and Support systems, which means that access is granted via a technical communication user that packs the delivery into an importable package format. It is similar to the Software Delivery Assembler \(SDA, transaction SSDA\) as a part of the SAP Add-On Assembly Kit. See [SAP Add-On Assembly Kit](https://help.sap.com/viewer/product/SAP_ADD-ON_ASSEMBLY_KIT/) and  [Add-On Assembly Kit as a Service](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/#add-on-assembly-kit-as-a-service-aakaas).
 
 > ### Note:  
-> If you need support or experience issues during the add-on build, see [Troubleshoot and Debug](maintain-monitor-support-5d25603.md#loio3687b52c5d3349f7956e93bf2f807e6c).
+> If you need support or experience issues during the add-on build, see [Troubleshooting](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#troubleshooting).
 
  <a name="loioc8730736a52645b49ca76c08214bf181"/>
 
@@ -267,9 +265,9 @@ The service is offered in the SAP Service and Support systems, which means that 
 
 ## Multitenancy
 
-Multitenancy defines the capability to host different customers \(tenants\) on a single, shared computing infrastructure to optimize administration and significantly reduce TCO. A tenant is an organizationally independent unit whose IT business or parts of it are operated together with the businesses of other tenants by a hosting provider. Multitenancy is especially relevant in a software as a service \(SaaS\) business model, where customers subscribe to hosted software solutions rather than buying and installing them.
+The ABAP environment provides capabilities for multitenancy, meaning to host different customers on a single ABAP system. See [Multitenancy in the ABAP Environment](multitenancy-in-the-abap-environment-633cc61.md).
 
-The way ABAP service instances and tenants are used for consumer subscriptions application can be configured via parameter `tenant_mode` of the ABAP Solution service, see [Define Your ABAP Solution](define-your-abap-solution-1697387.md):
+The way ABAP service instances and tenants are used for consumer subscriptions application can be configured via parameter `tenant_mode` of the ABAP Solution service. See [Define Your ABAP Solution](define-your-abap-solution-1697387.md):
 
 -   **Single**: With each new consumer, a new ABAP service instance is created.
 
@@ -279,7 +277,7 @@ The way ABAP service instances and tenants are used for consumer subscriptions a
 
 
 > ### Tip:  
-> You should align your decision whether to enable multitenancy mode for your solution based on the [Multitenancy Development Guideline](multitenancy-development-guideline-9d994c8.md).
+> You should align your decision whether to enable multitenancy mode for your solution based on whether the [Multitenancy Development Guideline](multitenancy-development-guideline-9d994c8.md) can be followed during ABAP development.
 
  <a name="loio8c087bca40584f9b899282b4ec515753"/>
 
@@ -332,7 +330,7 @@ For more information about software product versioning, see [Add-On Product Vers
 
 ### Software Component Version
 
-Software components are self-contained and include development packages as well as development objects. They are used in combination with a reserved development namespace to separate the name from other customers/partners. See [Software Components](software-components-58480f4.md).
+Software components are self-contained and include packages as well as development objects. They are used in combination with a reserved development namespace to separate the name from other customers/partners. See [Software Components](software-components-58480f4.md).
 
 The versioning pattern `<Release>.<Support Package Level>.<Patch Level>` also applies to the software component version.
 
@@ -372,7 +370,7 @@ Depending on the purpose, the development objects to be included in the object l
 
 Changes to the release of a software component are delivered as add-on installation packages.
 
-The add-on installation package is used for the initial release of software components. It is used to deliver new and enhancements of existing functionalities. Each AOI package contains all the objects of the software component. That means, every object is included in the object list of the package.
+The add-on installation package is used for the initial release of software components. It is used to deliver new features and enhancements of existing functionalities. Each AOI package contains all the objects of the software component. That means, every object is included in the object list of the package.
 
 
 
@@ -417,7 +415,7 @@ To separate development of new features from the development of bug fixes for th
 
 The main branch is the default branch of each software component and therefore already exists when the software component is created. This branch is not deleted throughout delivery of different software component versions.
 
-A maintenance branch is created for each support package level of a software component and should be named accordingly, for example v1.1.0 for support package level 1 in release 1. Maintenance branches can be deleted once the successor support package level is the currently deployed support package level in customer systems.
+A maintenance branch should be created for each support package level of a software component and is named accordingly, for example v1.1.0 for support package level 1 in release 1. Maintenance branches can be deleted once the successor support package level is the currently deployed support package level in customer systems.
 
 > ### Recommendation:  
 > Create a new maintenance branch with each new support package level, and thus with each new AOI and CSP package delivered for a software component.
@@ -548,7 +546,7 @@ Consequently, the leading software components A and B refer to objects in the sa
 
 Let’s assume that development and correction of both software components is performed in one DEV and COR system. If there has to be a bug fix in reuse software component C, corrections to the corresponding software components A and B are still possible. This is due to the fact that branch v1.2.0 can remain checked out in software component C, while these changes are made.
 
-The same applies to the develpoment process: A new feature can be developed in leading software component A using the main branch of reuse software component C. Since only the main branch of reuse software component C is used in the DEV system, the development in the corresponding software components A and B can continue in parrallel.
+The same applies to the development process: A new feature can be developed in leading software component A using the main branch of reuse software component C. Since only the main branch of reuse software component C is used in the DEV system, the development in the corresponding software components A and B can continue in parrallel.
 
 This scenario is resource-efficient: only one system is required for development in system DEV and one for corrections in COR. With respect to the developer experience, it is more convenient to have all implementation components in one development system because everything is in one place and the whole system landscape is easily understandable.
 

@@ -103,14 +103,14 @@ To do so, you pair the integration token with your SAP Customer Experience syste
 <tr>
 <td valign="top">
 
-4. Create a service instance of the required SAP Customer Experience Cloud services in the Kyma Service Catalog.
+4. Create a service instance of the required SAP Customer Experience Cloud service in the Kyma Environment.
 
 
 
 </td>
 <td valign="top">
 
-[Provisioning and Binding Flow](https://kyma-project-old.netlify.app/docs/components/service-catalog/#details-provisioning-and-binding-flow)
+[Using SAP BTP Services in the Kyma Environment](../30-development/using-sap-btp-services-in-the-kyma-environment-ea4dd81.md)
 
 
 

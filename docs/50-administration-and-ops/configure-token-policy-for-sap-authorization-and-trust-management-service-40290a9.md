@@ -19,9 +19,9 @@ Set the token policy for SAP Authorization and Trust Management service \(XSUAA\
 
 ## Context
 
-On request, SAP Authorization and Trust Management service issues access, ID, and refresh tokens. Access and ID tokens share a validity configuration. Refresh tokens have a separate validity configuration.
+On request, SAP Authorization and Trust Management service issues access and refresh tokens. Access tokens share a validity configuration. Refresh tokens have a separate validity configuration.
 
-With a valid access or ID token, you can access a protected resource. Once an access or ID token expires, you can get new access and ID tokens with a refresh token. Once the refresh token expires, you must reauthenticate and request new access, ID, and refresh tokens.
+With a valid access token, you can access a protected resource. Once an access token expires, you can get new access tokens with a refresh token. Once the refresh token expires, you must reauthenticate and request new access and refresh tokens.
 
 > ### Recommendation:  
 > Relaxing the token policy means that users reauthenticate less. However, increasing the token validity also means that if a malicious user manages to steal a token, that malicious user has access until the token expires. Keep token validity as short as possible, but not less than 30 minutes.

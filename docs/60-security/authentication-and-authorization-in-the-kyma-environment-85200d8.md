@@ -10,13 +10,13 @@ Kyma allows you to use the default or a custom Identity Provider to authenticate
 
 ## Default Identity Provider for Kubernetes Access
 
-All managed Kyma runtimes are configured to use a default Identity Provider \(IdP\). The default IdP configuration uses a specific SAP Cloud Identity Services - Identity Authentication on-demand tenant that is shared across all managed Kyma runtimes.
+With Kyma version 2.0, all managed Kyma runtimes are configured to use a default Identity Provider \(IdP\). The default IdP configuration uses a specific SAP Cloud Identity Services - Identity Authentication on-demand tenant that is shared across all managed Kyma runtimes.
 
-In SAP BTP, Kyma runtime, customers can’t manage the tenant themselves, for example, to make changes in user groups. In this setup, admins can assign roles only targeting users.
+In managed Kyma customers can’t manage the tenant themselves, for example, make changes in user groups. In this setup, admins can assign roles only targeting users.
 
 The Identity Authentication on-demand tenant uses SAP Corporate IdP as an upstream source of identities. Therefore, it recognizes everyone with an account at `accounts.sap.com` and issues a valid OIDC access token to any SAP customer or employee.
 
-It doesn't mean that anybody with an account at `accounts.sap.com` has access to your Kyma runtime. The shared IdP validates identities, but permissions \(roles and role bindings\) are configured in your Kyma runtime, and not in the IdP or SAP BTP cockpit. Kyma uses Kubernetes Role Based Access Control \(RBAC\) and has the provisioning process that assures that a user who creates and owns a particular runtime is given the **cluster-admin** role. The **cluster-admin** can define any additional cluster roles or use those defined in Kyma and bind them to other users \(by username\) from Kyma Dashboard or with the kubectl CLI tool.
+It doesn't mean that anybody with an account at `accounts.sap.com` has access to your Kyma runtime. The shared IdP validates identities, but permissions \(roles and role bindings\) are configured in your Kyma runtime, and not in the IdP or SAP BTP cockpit. Kyma uses Kubernetes Role Based Access Control \(RBAC\) and has the provisioning process that assures that a user who creates and owns a particular runtime is given the **cluster-admin** role. The **cluster-admin** can define any additional cluster roles or use those defined in Kyma and bind them to other users \(by username\) from Kyma Dashboard or via kubectl CLI tool.
 
  ![](images/defaultid_7240dd9.png) 
 
@@ -28,7 +28,7 @@ It doesn't mean that anybody with an account at `accounts.sap.com` has access to
 
 The default setup is sufficient for most users. However, in some cases, you may need the flexibility of using your own IdP. You can configure a custom identity provider during Kyma provisioning or updating an existing instance of your Kyma runtime.
 
-You can choose any OpenID Connect-compliant service. For example, you can use your own tenant of SAP Cloud Identity Services - Identity Authentication, which allows you to:
+You can choose any OpenID Connect compliant service. For example, you can use your own tenant of SAP Cloud Identity Services - Identity Authentication, which allows you to:
 
 -   manage users
 
@@ -36,7 +36,7 @@ You can choose any OpenID Connect-compliant service. For example, you can use yo
 
 -   configure your own risk-based security measures, such as two-factor authentication, IP ranges, etc.
 
--   delegate authentication to an upstream corporate IdP to avoid introducing redundant identities, and benefit from SSO based on identity provided “centrally”
+-   delegate authentication to an upstream corporate IdP in order not to introduce redundant identities and benefit from SSO based on identity provided "centrally"
 
 
  ![](images/Custom_Identity_Provider_e045058.png) 

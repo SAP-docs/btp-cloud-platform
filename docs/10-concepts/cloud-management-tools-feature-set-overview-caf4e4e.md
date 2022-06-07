@@ -257,7 +257,7 @@ Summary:
 -   Switching between global accounts via the selection dialog or breadcrumbs \(first element\)
 -   *Subaccounts* page is the first in the global account scope
 
-With feature set B, there’s no scope beyond the global account in the cockpit anymore. Therefore, after logging on to the cockpit and before actually entering it, if you have more than one global account, you’re asked to choose which of the available cloud management tools feature set B global accounts you want to enter. Only feature set B global accounts are visible here. This is done via a global account selection dialog, where you also have the option to remember your selection. Doing that sets the global account you chose as default, so that next time you access the cockpit you’re automatically taken to your default global account instead of seeing the selection dialog.
+With feature set B, there’s no scope beyond the global account in the cockpit anymore. Therefore, after logging on to the cockpit and before actually entering it, if you’ve more than one global account, you’re asked to choose which of the available cloud management tools feature set B global accounts you want to enter. Only feature set B global accounts are visible here. This is done via a global account selection dialog, where you also have the option to remember your selection. Doing that sets the global account you chose as default, so that next time you access the cockpit you’re automatically taken to your default global account instead of seeing the selection dialog.
 
 As the cockpit doesn't have a "home" scope anymore, the global account becomes the outermost scope and is therefore represented by the first element in the breadcrumbs. You can still navigate from one global account to another either by using the breadcrumbs, or by choosing *Switch Global Accounts* to launch the global account selection dialog, where you can also modify or remove your default global account.
 
@@ -285,7 +285,7 @@ Summary:
 -   Assign entitlements to subaccounts individually
 -   *Service Assignments* view
 
-With feature set A, entitlements only apply to services and you have two views for them: *Subaccount Assignments*, where you can assign or edit entitlements to individual subaccounts, and *Service Assignments*, which is a read-only view displaying the distribution of your available services across subaccounts.
+With feature set A, entitlements only apply to services and you have 2 views for them: *Subaccount Assignments*, where you can assign or edit entitlements to individual subaccounts, and *Service Assignments*, which is a read-only view displaying the distribution of your available services across subaccounts.
 
 See:
 
@@ -345,7 +345,7 @@ Summary:
 -   Members of subaccounts have view-only access to their global accounts.
 
 
-With feature set A, the *Members* tab determines which users are global administrators. These users can assign or remove global administrator membership to other users.
+With feature set A, the *Members* tab determines which uses are global administrators. These users can assign or remove global administrator membership to other users.
 
 See:
 
@@ -364,12 +364,12 @@ Summary:
 
 -   Global account membership is determined by the assignment of a role collection.
 
--   Predefined role collections for global accounts define full and read-only access.
+-   Predefined role collections for global account define full and read-only access.
 
--   You can define your own role collections with the authorizations delivered by SAP.
+-   You can define your own role collections with the authorizations delivered by SAP
 
 
-With feature set B, you have a fine-grained authorization concept for the management of global accounts. We deliver a set of role collections for the management of global accounts. If these role collections don’t match your needs, you can configure your own role collections using the authorizations we supply. For example, you have control over which global account users can create subaccounts and which can’t.
+With feature set B, you have fine-granular authorization concept for the management of global accounts. We deliver a set of role collections for the management of global accounts. If these role collections don’t match your needs, you can configure your own role collections using the authorizations we supply. For example, you have control over which global account users can create subaccounts and which can’t.
 
 The Authorization and Trust Management \(XSUAA\) service is responsible for access management for global accounts. This service is the same service that performs access management at the subaccount level, although it’s a different instance of the service.
 
@@ -432,7 +432,7 @@ Summary:
 -   Membership in subaccounts and any environments, such as the Cloud Foundry org, are controlled by separate authorizations.
 
 
-With feature set B, you have a fine-grained authorization concept for the management of subaccounts. We deliver a set of role collections for the management of subaccounts. If these role collections don’t match your needs, you can configure your own role collections using the authorizations we supply.
+With feature set B, you have a fine-granular authorization concept for the management of subaccounts. We deliver a set of role collections for the management of subaccounts. If these role collections don’t match your needs, you can configure your own role collections using the authorizations we supply.
 
 Access to environments, such as a Cloud Foundry org, is semi-independent from subaccount membership. A subaccount member isn't necessarily a member of an environment, but a member of an environment is a member of its subaccount.
 

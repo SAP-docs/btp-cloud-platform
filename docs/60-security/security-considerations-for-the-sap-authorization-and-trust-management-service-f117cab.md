@@ -140,7 +140,7 @@ Validity
 <tr>
 <td valign="top">
 
-Access and ID tokens
+Access tokens
 
 
 

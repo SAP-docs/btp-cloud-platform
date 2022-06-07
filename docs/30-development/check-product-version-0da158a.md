@@ -26,17 +26,27 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
 
 4.  You can now see general details on the product \(product name, namespace\) as well as a list of all its product versions and their current delivery status:
 
-    -   P \(Ready for production\)
-    -   G \(Not ready\)
-    -   T \(Ready for test\)
+    -   G \(Not ready\): The product version is currently being built and is not available for test or production use yet.
+    -   T \(Ready for test\): The product version has been build but has not yet been released for production use. However, the version may be used for \(automated\) testing.
+    -   P \(Prod\): The product version is ready for production use. An ABAP environment production system can now be updated to this product version.
 
 5.  Select a version to see more detailed information on the check results:
 
     -   **Delivery Requirements**: At the top, under *Delivery Requirements*, you can see whether a system downtime is required to update the product version. This information is calculated based on the components of the product version: If one or more of the components require downtime, the product version does as well. During a downtime, the system will be unavailable for end users.
-    -   **Components**: View whether a system downtime is required when your software components are imported. This information is calculated automatically by the infrastructure. Click one of the components to view its attributes \(package, delivery status, branch, commit ID\) and its import conditions.
+    -   **Components**: View whether a system downtime is required when your software components are imported. This information is calculated automatically by the infrastructure. Click one of the components to view its attributes \(package, delivery status, branch, commit ID\) and its import conditions. The import conditions describe which components and packages must be installed into the system as a prerequisite to install the particular software component version. They are calculated automatically during the build of a product version based on the software in the build system. The following conditions exist:
+
+        -   Installed: The package/component needs to be installed in this exact version.
+
+        -   At least: The package/component needs to be installed in this version or a newer version.
+
+        -   Not installed: This version of the package/component must not be installed.
+
+
+        All of the import conditions mentioned need to be fulfilled.
+
     -   **Checks**: View whether the delivery check for the product version was successful.
     -   **Object Lists**: View a complete list of all objects.
 
-6.  If the checks were successful and your product version is ready for delivery, you can click the *Schedule Update* button in the top right corner to navigate to the *Update Product Version* app.
+6.  If the checks were successful and your product version is ready for delivery \(i.e. has the delivery status P\), you can click the *Schedule Update* button in the top right corner to navigate to the *Update Product Version* app.
 
 

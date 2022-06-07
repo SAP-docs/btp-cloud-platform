@@ -29,8 +29,6 @@ The SAP Audit Log service stores audit logs representing different actions taken
 
 See [Change Logging and Read-Access Logging](../60-security/change-logging-and-read-access-logging-93fac8d.md).
 
-
-
 If your subaccount audit logs contain other log types or information, create a support ticket with component BC-CP-CF-SEC-AUDITLG.
 
 **Related Information**  

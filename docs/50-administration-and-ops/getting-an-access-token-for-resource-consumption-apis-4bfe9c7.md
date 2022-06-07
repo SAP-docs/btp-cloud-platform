@@ -86,7 +86,7 @@ For more information, see [Consuming Services in Other Environments Using the SA
 
     -   To create a service instance in the Cloud Foundry environment using the SAP BTP cockpit or the cf CLI, see [Creating Service Instances](../30-development/creating-service-instances-8221b74.md).
 
-    -   To create a service instance in Kyma using the Kyma dashboard, see [Create Service Instances Using the Kyma Dashboard](../30-development/create-service-instances-using-the-kyma-dashboard-0453ffb.md).
+    -   To create a service instance in Kyma using the Kyma dashboard, see .
 
     > ### Recommendation:  
     > If you are not working in Cloud Foundry, Kyma, or Kubernetes, use the SAP Service Manager to create and manage service instances. These instances are platform-agnostic and can be deployed and integrated with any other environment of your choice.
@@ -96,7 +96,7 @@ For more information, see [Consuming Services in Other Environments Using the SA
 
     -   To create a service key in the Cloud Foundry environment using the SAP BTP cockpit or the cf CLI, see [Creating Service Keys](../30-development/creating-service-keys-4514a14.md).
 
-    -   To create credentials for calling the service and retrieving information in the Kyma environment, see [Creating Credentials](../30-development/creating-credentials-945498c.md).
+    -   To create credentials for calling the service and retrieving information in the Kyma environment, see .
 
 
 3.  Use `uaa_url`, `clientid`, and `clientsecret` to request an access token using the following commands:

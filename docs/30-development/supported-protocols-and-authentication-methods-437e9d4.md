@@ -9,7 +9,7 @@ Get an overview about supported protocols and authentication methods in the ABAP
 Each communication scenario defines which authentication methods can be used. The tables below gives you an overview of all the authentication methods for communication management.
 
 > ### Note:  
-> The supported protocols and authentication methods only apply to communication scenarios that are managey by customers.
+> The supported protocols and authentication methods only apply to communication scenarios that are managed by customers.
 
 
 
@@ -157,7 +157,7 @@ No Authentication
 
 Basic Authentication
 
-Principal Propagation \(only via service destination\)
+Principal Propagation
 
 
 
@@ -225,6 +225,9 @@ Basic Authentication
 </td>
 </tr>
 </table>
+
+> ### Note:  
+> The use of Principal Propagation, OAuth 2.0 SAML Bearer Assertion, and OAuth 2.0 User Token Exchange isn't supported in the ADT class runner \(`if_oo_adt_classrun`\) and application jobs. It can only be tested when a business user context is available, for example, during processing of OData services or HTTP services.“
 
 
 

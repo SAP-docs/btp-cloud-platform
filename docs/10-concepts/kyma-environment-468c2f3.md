@@ -523,38 +523,6 @@ A service operator is a piece of software that provides a set of all necessary r
 <tr>
 <td valign="top">
 
-Service Catalog
-
-
-
-</td>
-<td valign="top">
-
-A portfolio of SAP and non-SAP services available in the Kyma environment. These services expose their APIs or events in the Kyma environment and can extend your SAP solutions. To use them, you first have to create an instance of a given service in your Namespace and specify the consumption plan for it \(Service Plan\). Then, you must bind the instance with your SAP solution. Kyma environment also allows you to register cloud providers, such as Amazon Web Services \(AWS\), Microsoft Azure, or Google Cloud to extend the Service Catalog with additional services. See the official [Service Catalog documentation](https://svc-cat.io/docs/resources/#serviceinstance) for more details.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Service Plan
-
-
-
-</td>
-<td valign="top">
-
-A representation of the costs and benefits for a given variant of a particular service in Service Catalog.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Binding
 
 

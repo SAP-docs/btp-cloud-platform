@@ -124,8 +124,6 @@ Developer
 
 Developer users use ABAP Development Tools \(ADT\) to create backend service artifacts and UI developers create and deploy SAP Fiori apps in SAP Business Application Studio. See [What is SAP Business Application Studio](https://help.sap.com/viewer/9d1db9835307451daa8c930fbd9ab264/Cloud/en-US/8f46c6e6f86641cc900871c903761fd4.html).
 
-Additionally, they are responsible for their pipeline \(e.g. automation of the build process\) and implementing an approuter application to provide a multi-tenant business application. See [Configure the Approuter Application](configure-the-approuter-application-3725815.md).
-
 
 
 </td>
@@ -152,7 +150,7 @@ Test User
 </td>
 <td valign="top">
 
-Test users are business users in test systems TST and QAS that validate the correct implementation of the add-on. This involves, among others, maintaining business roles and communication arrangements delivered as part of the add-on. See [Communication Arrangement](communication-arrangement-201de48.md).
+Test users are business users in test systems TST and QAS that validate the correct implementation of the add-on. This involves, among others, maintaining business roles and communication arrangements delivered as part of the add-on.
 
 
 
@@ -297,8 +295,9 @@ S-users are used by partners and customers to log on to SAP ONE Support Launchpa
 </td>
 <td valign="top">
 
--   Creating development namespace. See [Maintain Namespaces](maintain-namespaces-5456007.md).
+-   Reserving development namespace in Namespace Application See [https://launchpad.support.sap.com/\#/namespaces](https://launchpad.support.sap.com/#/namespaces).
 
+-   Activating new namespaces in already existing systems using Landscape Portal. See [Maintain Namespaces](maintain-namespaces-5456007.md).
 -   Creating technical communication user. See SAP note [2532813](https://launchpad.support.sap.com/#/notes/2532813).
 
 
@@ -323,7 +322,7 @@ Technical Cloud Foundry Platform User
 </td>
 <td valign="top">
 
-A P-user \(SAP ID Service\) or S-user \(created via SAP ONE Support Launchpad\) is added as a member to subaccounts in the Cloud Foundry environment to create or delete ABAP service instances, create service keys etc. This user does not need authorizations in SAP ONE Support Launchpad since only authentication via SAP ID Service is used. See [Default Identity Provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md) and SAP note [1271482](https://launchpad.support.sap.com/#/notes/1271482).
+A platform user is added as a member to subaccounts in the Cloud Foundry environment to create or delete ABAP service instances, create service keys etc. This user should be a non-personalized user, for example based on a distribution list. The user does not need authorizations in SAP ONE Support Launchpad. The user does not need authorizations in SAP ONE Support Launchpad. Platform users are created by default in SAP ID Service. See [User and Member Management](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/cc1c676b43904066abb2a4838cbd0c37.html) and [Default Identity Provider](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/d6a8db70bdde459f92f2837349f95090.html).
 
 
 
@@ -437,7 +436,7 @@ Consumer Subaccount Administrator
 
 The consumer subaccount administrator is responsible for the configuration of:
 
--   Trust settings \(custom identity provider\), see [Log On Manually With a Custom Identity Provider](../50-administration-and-ops/log-on-manually-with-a-custom-identity-provider-e1009b4.md).
+-   Trust settings \(custom identity provider\), see [Trust and Federation with Identity Providers](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/cb1bc8f1bd5c482e891063960d7acd78.html).
 -   Connectivity via Cloud Connector, see [Connectivity in the Cloud Foundry Environment](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html)
 -   Destinations, see [Managing Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/84e45e071c7646c88027fffc6a7bb787.html) in the consumer subaccount created for the customer.
 

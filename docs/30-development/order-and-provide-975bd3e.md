@@ -12,7 +12,7 @@ After the initial add-on version has been built, you have to deploy and provide 
 
 
 
-For multitenant applications based on the ABAP environment, the ABAP Solution service is used to provision ABAP systems, tenants, and users on demand. Once you’ve configured this implementation, you can deploy it to the *Provide* space of your *05 Provide* subaccount in the global account for development. After testing the subscription process in this provider subaccount during the development phase, the multitenant application can be deployed to the *Provide* space in the *Provide* subaccount in the global account for production. See [System Landscape/Account Model](concepts-9482e7e.md#loio4ca756395fc24e56a42b77632a6bd862).
+For multitenant applications based on the ABAP environment, the ABAP Solution service is used to provision ABAP systems, tenants, and users on demand. Once you’ve configured this implementation, you can deploy it to the *Provide* space of your *05 Provide* subaccount in the global account for development. After testing the subscription process in this provider subaccount during the development phase, the multitenant application can be deployed to the *Provide* space in the *05 Provide* subaccount in the global account for production. See [System Landscape/Account Model](concepts-9482e7e.md#loio4ca756395fc24e56a42b77632a6bd862).
 
 After the multitenant application has been deployed for production purposes, the SaaS solution is ready for commercialization.
 
@@ -76,7 +76,7 @@ Default sizing for solution
 </td>
 <td valign="top">
 
-Parameter `size_of_runtime` is part of the quota plan `abap/abap_compute_unit`. See [Creating an ABAP System](../20-getting-started/creating-an-abap-system-50b32f1.md).
+Parameter `size_of_runtime` is referring to quota plan `abap/abap_compute_unit`. See [Creating an ABAP System](../20-getting-started/creating-an-abap-system-50b32f1.md).
 
 
 
@@ -99,7 +99,7 @@ Default sizing for solution
 </td>
 <td valign="top">
 
-Parameter `size_of_persistence` is part of the quota plan `abap/hana_compute_unit`. See [Creating an ABAP System](../20-getting-started/creating-an-abap-system-50b32f1.md).
+Parameter `size_of_persistence` is referring to quota plan `abap/hana_compute_unit`. See [Creating an ABAP System](../20-getting-started/creating-an-abap-system-50b32f1.md).
 
 
 
@@ -120,7 +120,7 @@ See [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
 
 **Implement the Multitenant Application**
 
-As a DevOps engineer, you can implement the multitenancy functionality using SAP Business Application Studio in the development subaccount.
+As a DevOps engineer, you can implement the multitenant application using SAP Business Application Studio in the development subaccount.
 
 For more information on how to create multitenant-enabled applications in the ABAP environment, see [Developing Multitenant Applications in the ABAP Environment](developing-multitenant-applications-in-the-abap-environment-195031f.md).
 
@@ -146,7 +146,7 @@ For more information on how to create multitenant-enabled applications in the AB
 
 
 > ### Note:  
-> If you need support or experience issues during implementation of the multitenant application, see [Troubleshoot and Debug](maintain-monitor-support-5d25603.md#loio3687b52c5d3349f7956e93bf2f807e6c).
+> If you need support or experience issues during implementation of the multitenant application, see[Troubleshooting](troubleshooting-257ba65.md) .
 
 **Deploy Multitenant Application**
 
@@ -164,7 +164,7 @@ By using MTA extension descriptors, you can configure the required values for de
 As an operator, you need to create a destination for the Cloud Foundry Cloud Controller access in the *05 Provide* subaccount in the global accounts for development and production. See [Create a Destination for the Cloud Foundry Cloud Controller Access](create-a-destination-for-the-cloud-foundry-cloud-controller-access-35b5acb.md). The Cloud Foundry Cloud Controller API maintains records of orgs, spaces, services, service instances, user roles, and more and is used to create new ABAP instances in the *Provide* space when necessary.
 
 > ### Recommendation:  
-> We recommend using a dedicated technical Cloud Foundry platform user registered in SAP ID Service for Cloud Controller access. This can either be a non-personalized S-user created via SAP One Support Launchpad or a P-user registered directly for an SAP ID service account. See [Create SAP User Accounts](../50-administration-and-ops/create-sap-user-accounts-ebe42f6.md).
+> We recommend using a technical Cloud Foundry platform user for Cloud Controller access. See [Create SAP User Accounts](../50-administration-and-ops/create-sap-user-accounts-ebe42f6.md).
 
 **Test Multitenant Application Deployed for Development Purposes**
 
@@ -200,7 +200,7 @@ By using MTA extension descriptors, you can configure the required values for de
 
 The *Landscape Portal* acts as a central tool that allows you to perform lifecycle management operations, such as provisioning new consumers tenants, users, and more. See [Landscape Portal](landscape-portal-5eb70fb.md).
 
-As an operator, subscribe to the *Landscape Portal* application in the *05 Provide* subaccount in both the global account for development and global account for production. The `LandscapePortalAdminRoleCollection` needs to be assigned to the users in the configured default identity provider of the subaccount that you want to provide access to the *Landscape Portal* app. See [Accessing the Landscape Portal](accessing-the-landscape-portal-2e1e393.md).
+As an operator, subscribe to the *Landscape Portal* application in the *05 Provide* subaccount in both the global account for development and global account for production. The `LandscapePortalAdminRoleCollection` needs to be assigned to the users in the default identity provider of the subaccount that you want to provide access to the *Landscape Portal* app. See [Accessing the Landscape Portal](accessing-the-landscape-portal-2e1e393.md).
 
 > ### gCTS Delivery:  
 > In the Landscape Portal, you can access the provider system and choose the provider tenant \(client 100\). Via the provider tenant, you get access to Fiori Apps, for example the *Manage Software Components* app, which is used for importing software components via gCTS.
@@ -237,7 +237,7 @@ Before registering a SaaS solution in SAP Store or certifying the solution, you 
 
 SAP Store is the enterprise marketplace where we bring together customers and partners on a single, easy-to-use, global online platform. See [SAP Store](https://store.sap.com/dcp/en/).
 
-To learn more about how you can offer your SaaS solution to SAP customers via SAP Store, see [Getting Started with SAP Store](https://store.sap.com/dcp/en/partner-with-us/documentation).
+To learn more about how you can offer your SaaS solution to SAP customers via SAP Store, see [Getting Started with SAP Store](https://store.sap.com/dcp/en/partner-with-us/documentation/getting-started-with-sap-app-center).
 
  <a name="loioace3b22147eb40d3989c5525491eb729"/>
 
@@ -268,7 +268,7 @@ When tenant or system provisioning has been completed, you receive a confirmatio
 
 ## Prerequisites
 
--   To create a consumer subaccount, all the details, such as the account name, provider, region and subdomain should be known. See [Account Model](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loio8d6e3a0fa4ab43e4a421d3ed08128afa) and [Regions and API Endpoints for the ABAP Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html#loio879f37370d9b45e99a16538e0f37ff2c).
+-   To create a consumer subaccount, all the details, such as the account name, provider, region and subdomain should be known. See [Account Model](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loio8d6e3a0fa4ab43e4a421d3ed08128afa) and [Regions and API Endpoints for the ABAP Environment](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/879f37370d9b45e99a16538e0f37ff2c.html).
 -   To subscribe to the SaaS solution, you need a consumer subaccount. To monitor system and tenant provisioning, you have to subscribe to the Landscape Portal app and configure user access using the `LandscapePortalAdminRoleCollection`. See [Accessing the Landscape Portal](accessing-the-landscape-portal-2e1e393.md).
 -   To configure the consumer subaccount, the details for destinations, cloud connectors and trust configuration need to be available to you. To delegate access to the consumer subaccount, a consumer subaccount admin user of the customer is required. See [Using the Destinations Editor in the Cockpit](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/565fdb3dd19d4cda80864341dc5a0451.html), [Cloud Connector](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e6c7616abb5710148cfcf3e75d96d596.html), [Trust and Federation with Identity Providers](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cb1bc8f1bd5c482e891063960d7acd78.html), and [Add Members to Your Subaccount \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/1e1b7b60bb1b4764a2d4bb96bd73182d.html).
 -   For the initial user onboarding, you need a consumer subaccount administrator in the consumer subaccount. See [Consumer Access](consumer-access-a197d6f.md).
@@ -282,7 +282,7 @@ Depending on the marketplace platform, for example SAP Store, or other distribut
 For the following process of creating a consumer subaccount for your customer, you should have the following information readily available:
 
 -   Customer name and email address for the creation of a consumer subaccount admin user
--   Name and scope of the SaaS solution for the subscription to the SaaS solution
+-   Name and scope for the subscription to the SaaS solution
 -   Quantity of users, t-shirt size of solution etc. to determine necessary configuration steps
 
  <a name="loio8b92024cc5d44268bf4737551e4fa981"/>
@@ -302,7 +302,7 @@ While creating the subaccount, you must provide the following details:
 -   **Name**: Give the subaccount a unique display name. This can be the name of the customer, a customer number or a specific naming pattern
 -   **Provider**: Choose the IaaS provider according to the IaaS provider selected for the provider subaccount
 -   **Region**: Choose the subaccount region according to the region where the provider subaccount was created. See [Regions and API Endpoints for the ABAP Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html#loio879f37370d9b45e99a16538e0f37ff2c).
--   **Subdomain**: The subdomain of the subaccount becomes part of the application URL, according to the `TENANT_HOST_PATTERN` that you defined in the approuter configuration for the multitenant application. See [Configure the Approuter Application](configure-the-approuter-application-3725815.md).
+-   **Subdomain**: The subdomain of the subaccount becomes part of the tenant-specific application URL, according to the `TENANT_HOST_PATTERN` that you defined in the approuter configuration for the multitenant application. See [Configure the Approuter Application](configure-the-approuter-application-3725815.md).
 
  <a name="loio477ea31394504182b2ea5ef9ce26802d"/>
 
@@ -317,7 +317,7 @@ After you have finalized the consumer subaccount configuration as an operator us
 > ### gCTS Delivery:  
 > In case of delivery via gCTS, you, as a SaaS solution operator, can use a separate test subscription that is not related to a customer to trigger the creation of the system before the actual customer subscription. This initial system creation and import of the software components needs to be performed for each customer production system.
 
-In the consumer subaccount, navigate to the *Service Marketplace*. To subscribe to the SaaS solution, choose *Create*. The subscribed application is now displayed in *Services* \> *Instances and Subscriptions*. Once the subscription to the SaaS Solution is complete, you receive a notification via email. The email address is defined in the service configuration of your ABAP solution by setting parameter `provider_admin_email`. See [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
+In the consumer subaccount, navigate to the *Service Marketplace*. To subscribe to the SaaS solution, choose *Create*. The subscribed application is now displayed in *Services* \> *Instances and Subscriptions*. Once the subscription to the SaaS Solution is complete, an email notification about system/tenant provisioning is sent. The email address is defined in the service configuration of your ABAP solution by setting parameter `provider_admin_email`. See [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
 
 **Check tenant provisioning in Landscape Portal**
 
@@ -330,9 +330,10 @@ The subscription process triggers provisioning of
 
 In both cases, you, as a SaaS solution operator, receive a confirmation mail.
 
-As an operator user assigned to the role collection `LandscapePortalAdminRoleCollection`, you can access the systems overview of the *Landscape Portal* and check both provisioned systems and new tenants.
+As an operator user assigned to the role collection `LandscapePortalAdminRoleCollection`, you can access the systems overview of the *Landscape Portal* and check both provisioned systems and new tenants. See [Landscape Portal](landscape-portal-5eb70fb.md).
 
-See [Landscape Portal](landscape-portal-5eb70fb.md).
+> ### Tip:  
+> For an overview of all processes, such as tenant provisioning across multiple systems, see [Operations Dashboard](operations-dashboard-0a3a735.md).
 
 **Assign `SolutionAdmin` role**
 
@@ -361,11 +362,11 @@ Depending on the scope of the SaaS solution and customer requirements, you can m
     Configure destinations, including technical information about the target resource, to connect your application to a remote service or system. See [Managing Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/84e45e071c7646c88027fffc6a7bb787.html).
 
 
-As a SaaS solution operator, you can provide customers access to these configurations by assigning the subaccount administrator role collection to the consumer subaccount administrator.
+As a SaaS solution operator, you can provide customers access to these configurations by assigning role collection `Subaccount Administrator` to the consumer subaccount administrator.
 
 The consumer subaccount administrator can then access the consumer subaccount in the SAP BTP cockpit including subscriptions, trust configuration, Cloud Connectors and destinations without having access to other consumer subaccounts in the global account for production.
 
-The consumer subaccount administrator can assign the Cloud Connector administrator role collection to a preferred user to operate the data transmission tunnels used by the Cloud Connector. While adding the consumer subaccount in Cloud Connector, the same Cloud Connector administrator user is being configured.
+The consumer subaccount administrator can assign role collection `Cloud Connector Administrator` to a user to operate the data transmission tunnels used by the Cloud Connector. While adding the consumer subaccount in Cloud Connector, the same Cloud Connector administrator user is being configured.
 
 See [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0039cf082d3d43eba9200fe15647922a.html) for more information on available role collections in the consumer subaccount.
 
@@ -379,9 +380,12 @@ After the configuration in the consumer subaccount, your customer needs an initi
 
 To create such an initial administrator user, as a consumer subaccount administrator, you have to assign the role collection including the `SolutionAdmin` role to your user in the *Role Collections* view in the consumer subaccount.
 
-In a confirmation form, you have to confirm details such as email, subdomain, and subaccount ID. Afterwards, the consumer subaccount administrator can access the SAP Fiori launchpad of the subscribed SaaS solution via *Instances and Subscriptions*.
+In a confirmation form, you have to confirm details such as email, subdomain, and subaccount ID. After the initial user onboarding has been completed, the consumer subaccount administrator can access the SAP Fiori launchpad of the subscribed SaaS solution via *Instances and Subscriptions*.
 
 **Check tenant user provisioning in Landscape Portal**
 
 On the provider side, as an operator user assigned to the `LandscapePortalAdminRoleCollection`, you can check ongoing tenant user provisioning in the *Landscape Portal*. After selecting the target system in the system overview app, ongoing tenant user provisioning is displayed in the *Requests* section. See [View the Request Log](view-the-request-log-0ea69c2.md).
+
+> ### Tip:  
+> For an overview of all processes, such as tenant provisioning across multiple systems, see [Operations Dashboard](operations-dashboard-0a3a735.md).
 

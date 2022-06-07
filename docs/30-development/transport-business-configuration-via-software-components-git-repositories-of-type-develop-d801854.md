@@ -12,7 +12,7 @@ Learn how to transport business configuration via a software component or a Git 
 
 To use the *Manage Software Components* app, business role `SAP_BR_ADMINISTRATOR` has to be assigned.
 
-To use the *Export Customizing Transports* app, business role `SAP_BR_BPC_EXPERT` has to be assigned.
+To use the *Export Customizing Transports* app or to create a customizing request in ABAP Development Tools for Eclipse, business role `SAP_BR_BPC_EXPERT` has to be assigned.
 
 To use the Transport Organizer view and ABAP Package Editor in ABAP Development for Eclipse, business role `DEVELOPER` has to be assigned. See [Transport Organizer](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/9c53fba4bf08445286e8b40fd0a6fd03.html).
 
@@ -28,6 +28,9 @@ To use the Transport Organizer view and ABAP Package Editor in ABAP Development 
     > If you have already started development, such components may already be available.
 
 2.  In ABAP Development Tools for Eclipse, use the *Transport Organizer* view to create customizing transport requests for each software component, making sure to assign the correct target layer for each of the components used.
+
+    > ### Note:  
+    > Make sure to maintain attribute `SAP_ATO_TRANSPORT_TYPE` with value BC and attribute `SAP_CUS_TRANSPORT_CATEGORY` with value `MANUAL_CUST`.
 
 3.  In the *ABAP Package Editor*, assign attribute `MANUAL_CUST` to all the created customizing transport requests so that they get displayed in the *Export Customizing Transports* app.
 

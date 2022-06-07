@@ -115,32 +115,22 @@ Alternatively, you can also log in with single sign-on directly at your identity
     
     </td>
     </tr>
-    <tr>
-    <td valign="top">
-
-    `--sso`
-
-
-    
-    </td>
-    <td valign="top">
-
-    Opens a browser for single sign-on at the identity provider. Use `--sso manual` to suppress automatic browser opening.
-
-    > ### Note:  
-    > To log on with SAP Universal ID, you need to use this parameter. Otherwise log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
-    > 
-    > For more information, see SAP Note [3085908](https://launchpad.support.sap.com/#/notes/3085908) and [Log In Through a Browser](log-in-through-a-browser-b2a56a8.md).
-
-
-    
-    </td>
-    </tr>
     </table>
     
     ```
     btp login --url https://cpcli.cf.eu10.hana.ondemand.com --subdomain my-global-account --user name@example.com
     ```
+
+    > ### Note:  
+    > To log on with SAP Universal ID, you need a browser in the logon process. Use the option `--sso`.
+    > 
+    > For more information, see [Log In Through a Browser](log-in-through-a-browser-b2a56a8.md).
+    > 
+    > Otherwise log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service.
+    > 
+    > If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
+    > 
+    > For more information, see SAP Note [3085908](https://launchpad.support.sap.com/#/notes/3085908).
 
     If you've logged in before, the server URL, the subdomain, and the user from the last login are suggested. You can then press [Enter\] to confirm, or type in different values.
 

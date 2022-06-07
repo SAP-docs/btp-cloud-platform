@@ -64,7 +64,7 @@ ABAP System \(SaaS, OEM\)
 </td>
 <td valign="top">
 
-The ABAP environment \(abap/saas-oem\) service is used to create the add-on installation test system and production systems, where a specific add-on product needs to be installed in the system.
+The ABAP environment \(`abap/saas_oem`\) service is used to create the add-on installation test system and production systems, where a specific add-on product needs to be installed in the system.
 
 
 
@@ -128,7 +128,7 @@ Add-on product version \(software product version\)
 </td>
 <td valign="top">
 
-To install and maintain ABAP software, software product versions are used. A software product version is a bundle of software component versions made available at the same time for implementing a well-defined scope of functionality. See [Software Product Version](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/#software-product-version).
+To install and maintain ABAP software, software product versions are used. A software product version is a bundle of software component versions made available at the same time for implementing a well-defined scope of functionality. See [Software Product Version](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#software-component-version).
 
 
 
@@ -162,7 +162,7 @@ Assembly System
 
 The ABAP system responsible for the add-on build.
 
-It is created during the pipeline and eventually deleted. All actions related to the ABAP source code are executed on this system, e.g. running checks with the ABAP Test Cockpit or the physical build of the software components.
+It is created during the pipeline and eventually deleted. All actions related to the ABAP source code are executed on this system, e.g. running checks with the ABAP Test Cockpit or the build of the software components.
 
 
 
@@ -178,7 +178,7 @@ ABAP Test Cockpit
 </td>
 <td valign="top">
 
-ABAP Test Cockpit checks can be executed using `abapEnvironmentRunATCCheck`. The step can receive software components or packages configured in a YML file. The results are returned in checkstyle format. With the use of a pipeline extension, you can configure quality gates. See [ATC](https://www.project-piper.io/pipelines/abapEnvironment/stages/Test/#atc) and [ABAP Test Cockpit Configurator](../50-administration-and-ops/abap-test-cockpit-configurator-22c26ff.md).
+ABAP Test Cockpit checks can be executed using `abapEnvironmentRunATCCheck`. The step can receive software components or packages configured in a YML file. The results are returned in checkstyle format. With the use of a pipeline extension, you can configure quality gates. See [ATC](https://www.project-piper.io/pipelines/abapEnvironment/stages/test/#atc) and [ABAP Test Cockpit Configurator](../50-administration-and-ops/abap-test-cockpit-configurator-22c26ff.md).
 
 
 
@@ -397,38 +397,6 @@ A global account is the realization of a contract you made with SAP. A global ac
 <tr>
 <td valign="top">
 
- Identity Authentication service
-
-
-
-</td>
-<td valign="top">
-
-The Identity Authentication service provides you with controlled cloud-based access to business processes, applications, and data. It simplifies your user experience through authentication mechanisms, single sign-on, on-premise integration, and convenient self-service options. See [What Is Identity Authentication?](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/27882717f44b445fa287936c6f43dc1f.html).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- Identity Provisioning service
-
-
-
-</td>
-<td valign="top">
-
-The Identity Provisioning service automates identity lifecycle processes. It helps you provision identities and their authorizations to various cloud and on-premise business applications. See [What is Identity Provisioning](https://help.sap.com/viewer/f48e822d6d484fa5ade7dda78b64d9f5/Cloud/en-US/f2b2df8a273642a1bf801e99ecc4a043.html).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Identity Provider
 
 
@@ -502,7 +470,7 @@ Project "Piper"
 </td>
 <td valign="top">
 
-SAP implements tooling for continuous delivery in project "Piper". The goal of project "Piper" is to substantially ease setting up continuous delivery in your project using SAP technologies. See [Project Piper](https://sap.github.io/jenkins-library/infrastructure/overview/).
+SAP implements tooling for continuous delivery in project "Piper". The goal of project "Piper" is to substantially ease setting up continuous delivery in your project using SAP technologies. See [Project Piper](https://www.project-piper.io/).
 
 
 
@@ -545,22 +513,6 @@ For both the add-on product version and the software component version, the rele
 <tr>
 <td valign="top">
 
-SAP Store
-
-
-
-</td>
-<td valign="top">
-
-SAP Store is the enterprise marketplace where we bring together customers and partners on a single, easy-to-use, global online platform. Here, customers can discover, try, and buy SAP-validated partner applications that are built on or extend their existing SAP technology and solutions. For partners, it's the only place they can market and deliver their apps, add-ons, and integration kits to SAP's global customers — solutions that help customers grow their business. See [https://store.sap.com/dcp/en/](https://store.sap.com/dcp/en/).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 SAP Business Application Studio
 
 
@@ -569,6 +521,38 @@ SAP Business Application Studio
 <td valign="top">
 
 Available as a cloud service, SAP Business Application Studio provides a desktop-like experience similar to leading IDEs, with command line and optimized editors. At the heart of SAP Business Application Studio are the dev spaces, which are similar to isolated virtual machines in the cloud containing tailored tools and pre-installed runtimes per business scenario, such as SAP Fiori, SAP S/4HANA extensions, Workflow, Mobile and more. This simplifies and saves time in setting up your development environment and allows you to efficiently develop, test, build, and run your solution locally or in the cloud. See [What is SAP Business Application Studio](https://help.sap.com/viewer/9d1db9835307451daa8c930fbd9ab264/Cloud/en-US/8f46c6e6f86641cc900871c903761fd4.html).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Identity Services - Identity Authentication
+
+
+
+</td>
+<td valign="top">
+
+The Identity Authentication service provides you with controlled cloud-based access to business processes, applications, and data. It simplifies your user experience through authentication mechanisms, single sign-on, on-premise integration, and convenient self-service options. See [What Is Identity Authentication?](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/27882717f44b445fa287936c6f43dc1f.html).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Identity Services - Identity Provisioning
+
+
+
+</td>
+<td valign="top">
+
+The Identity Provisioning service automates identity lifecycle processes. It helps you provision identities and their authorizations to various cloud and on-premise business applications. See [What is Identity Provisioning](https://help.sap.com/viewer/f48e822d6d484fa5ade7dda78b64d9f5/Cloud/en-US/f2b2df8a273642a1bf801e99ecc4a043.html).
 
 
 
@@ -600,7 +584,7 @@ SAP ONE Support launchpad
 </td>
 <td valign="top">
 
-SAP ONE Support Launchpad provides you access to task-driven support resources in an intuitive interface. By using customizable role profiles, it displays only the relevant applications and insights to you. See [https://launchpad.support.sap.com/](https://launchpad.support.sap.com/)
+SAP ONE Support Launchpad provides you access to task-driven support resources in an intuitive interface. By using customizable role profiles, it displays only the relevant applications and insights to you. See [SAP ONE Support Launchpad](https://launchpad.support.sap.com/).
 
 
 
@@ -616,7 +600,23 @@ SAP PartnerEdge
 </td>
 <td valign="top">
 
-Get information, training, tools, and resources regarding partner licensing at [https://partneredge.sap.com](https://partneredge.sap.com) 
+Get information, training, tools, and resources regarding partner licensing at [SAP Partner Portal](https://partneredge.sap.com).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Store
+
+
+
+</td>
+<td valign="top">
+
+SAP Store is the enterprise marketplace where we bring together customers and partners on a single, easy-to-use, global online platform. Here, customers can discover, try, and buy SAP-validated partner applications that are built on or extend their existing SAP technology and solutions. For partners, it's the only place they can market and deliver their apps, add-ons, and integration kits to SAP's global customers — solutions that help customers grow their business. See [SAP Store](https://store.sap.com/dcp/en/).
 
 
 
@@ -673,7 +673,7 @@ Subaccounts allow you to structure a global account according to your organizati
 <tr>
 <td valign="top">
 
-Support package level
+Support Package \(Stack\) Level
 
 
 

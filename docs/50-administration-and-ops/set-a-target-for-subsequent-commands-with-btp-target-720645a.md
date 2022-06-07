@@ -107,7 +107,7 @@ Let's look at a global account that contains a directory with a targeted subacco
 
 ```
 Current target hierarchy:
-  Global account (subdomain: cee12xx1trial-ga)
+  Global account (subdomain: cee12xx112345-ga)
   └─ Directory (ID: 371eXXXX-55XX-40XX-b3XX-e9947ed9XXXX)
      └─ Subaccount (ID: d8aeXXXX-74XX-49XX-89XX-f058029eXXXX)
 
@@ -292,5 +292,5 @@ The specified subaccount, which overrides the target
 
 [Commands in the btp CLI](commands-in-the-btp-cli-a03a555.md "A list of all tasks and respective commands that are available in the SAP BTP command line interface (btp CLI).")
 
-[Global Accounts](../10-concepts/account-model-8ed4a70.md#loioc165d95ee700407eb181770901caec94 "A global account is the realization of a contract you or your comaony made with SAP.")
+[Global Accounts](../10-concepts/account-model-8ed4a70.md#loioc165d95ee700407eb181770901caec94 "A global account is the realization of a contract you or your company has made with SAP.")
 

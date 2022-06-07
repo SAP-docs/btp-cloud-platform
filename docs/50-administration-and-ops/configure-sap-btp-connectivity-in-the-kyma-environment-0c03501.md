@@ -17,6 +17,9 @@ Extend your Kyma environment with SAP BTP Connectivity.
 
 You can configure SAP BTP Connectivity components to establish a secure tunnel between your Kyma Environment and a System in your On-Premise Network. For more details, see the official SAP BTP [Connectivity](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html "SAP BTP Connectivity: overview, features, restrictions.") :arrow_upper_right: documentation.
 
+> ### Note:  
+> Keep in mind that this must be done only once per cluster.
+
 To learn more, see [Extending SAP Customer Experience Products in the Kyma Environment](../40-extensions/extending-sap-customer-experience-products-in-the-kyma-environment-83df31a.md).
 
 

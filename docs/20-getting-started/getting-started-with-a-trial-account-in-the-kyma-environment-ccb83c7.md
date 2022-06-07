@@ -37,12 +37,7 @@ Quickly get started with a trial account in the Kyma environment.
 
 5.  Develop your applications and extend SAP solutions.
 
-    Check out [Development in the Kyma Environment](../30-development/development-in-the-kyma-environment-606ec61.md) to learn more about:
-
-    -   [Creating Service Instances](../30-development/creating-service-instances-979735b.md)
-    -   [Binding Service Instances to Applications](../30-development/binding-service-instances-to-applications-d1aa23c.md)
-    -   [Creating Credentials](../30-development/creating-credentials-945498c.md)
-    -   [Creating Functions](../30-development/creating-functions-fe4ba5b.md)
+    Check out [Development in the Kyma Environment](../30-development/development-in-the-kyma-environment-606ec61.md) to learn more.
 
     You can also provide extensions for the SAP Commerce Cloud, SAP Cloud for Customer, and SAP Field Service Management systems. For more information, read [Extending SAP Solutions Using Automated Configurations](../40-extensions/extending-sap-solutions-using-automated-configurations-346864d.md).
 

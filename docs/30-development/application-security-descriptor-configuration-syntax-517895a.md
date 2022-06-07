@@ -923,7 +923,7 @@ Example
 </td>
 <td valign="top">
 
-Sets the token lifetime in seconds for access and ID tokens issued by SAP Authorization and Trust Management service. The value ranges from 300 seconds to 99,999,999 seconds, in other words, from 5 minutes to more than 3 years.
+Sets the token lifetime in seconds for access tokens issued by SAP Authorization and Trust Management service. The value ranges from 300 seconds to 99,999,999 seconds, in other words, from 5 minutes to more than 3 years.
 
 Default: 43200 seconds \(12 hours\)
 

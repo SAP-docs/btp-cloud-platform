@@ -64,5 +64,5 @@ During the creation of the service instance, a destination on the subaccount lev
 
 ## Next Steps
 
-After creating the *SAP SuccessFactors Extensibility* service instance, you have to bind the instance to an application, and it will be assigned an access URL and credentials to the corresponding API. See [Binding Service Instances to Applications](../30-development/binding-service-instances-to-applications-d1aa23c.md).
+After creating the *SAP SuccessFactors Extensibility* service instance, you have to bind the instance to an application, and it will be assigned an access URL and credentials to the corresponding API. See .
 

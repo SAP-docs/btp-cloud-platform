@@ -2,15 +2,111 @@
 
 # SOAP Communication via Communication Arrangements
 
-To set up SOAP communication via communication arrangement, proceed as follows:
 
-1.  Create a Service Consumption model of the type Web service as described in [Creating Service Consumption Model](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/96132822b3554016b653d3601bb9ff1a.html).
-2.  Create a corresponding outbound service of type `SOAP` and include it in a communication scenario. See [Communication Scenario](communication-scenario-7ea7276.md).
-3.  Create a communication arrangement as described in [How to Create a Communication Arrangement](../50-administration-and-ops/how-to-create-a-communication-arrangement-a0771f6.md).
-4.  Call the Web service as described in the sample code below.
 
-> ### Note:  
-> The parameters `SERVICE_ID` and `COMM_SYSTEM_ID` are optional and only need to be specified if unique identification of the communication arrangement is not possible without them.
+<a name="loio2133e15cbf8747dbad81dff41a14e139__section_sjy_xsm_mtb"/>
+
+## Prerequisites
+
+-   You have created a communication scenario as described in [Defining a Communication Scenario Including Authorization Values](defining-a-communication-scenario-including-authorization-values-bba0fd2.md).
+-   You have a service meta data file \(WSDL file\) for the service you want to consume.
+-   You have created and activated a service consumption model \(SCM\) of type `Web Service`. See [Creating Service Consumption Model](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/96132822b3554016b653d3601bb9ff1a.html) for more information.
+
+
+
+## Procedure
+
+1.  Create a corresponding outbound service of type `SOAP`.
+    1.  In your ABAP project, select the relevant package node in the Project Explorer.
+    2.  Open the context menu and choose *File* \> *New* \> *Other ABAP Repository Object* \> *Cloud Communication Management* \> *Outbound Service* \> *Next* to launch the creation wizard.
+    3.  Enter the name of the outbound service.
+    4.  Select *SOAP* in the *Service Type* dropdown list.
+    5.  Choose *Next* and select a transport request.
+    6.  In field *Service Interface*, enter the name of the relevant consumer proxy. You can choose the consumer proxy from the list of the value help.
+    7.  Save the outbound service.
+
+2.  Add the newly created outbound service to a communication scenario. See Service Consumption via Communication Arrangements for more information. According to your developed communication scenario, add the following:
+
+
+    <table>
+    <tr>
+    <td valign="top">
+
+    `comm_scenario`
+
+
+    
+    </td>
+    <td valign="top">
+
+    mandatory
+
+
+    
+    </td>
+    <td valign="top">
+
+    ID of the developed communication scenario
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    `comm_system_id`
+
+
+    
+    </td>
+    <td valign="top">
+
+    optional
+
+
+    
+    </td>
+    <td valign="top">
+
+    ID of the configured communication system
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    `service_id`
+
+
+    
+    </td>
+    <td valign="top">
+
+    optional
+
+
+    
+    </td>
+    <td valign="top">
+
+    ID of the developed outbound service
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
+3.  Call the SOAP service as described in the example. Copy the code snippet from the *Overview* tab in your SCM and add the `comm_system_id` and `service_id` parameters if necessary.
+
+
+
+<a name="loio2133e15cbf8747dbad81dff41a14e139__section_vnl_x3l_mtb"/>
+
+## Example
 
 > ### Sample Code:  
 > ```abap
@@ -40,8 +136,15 @@ To set up SOAP communication via communication arrangement, proceed as follows:
 > ENDTRY.
 > ```
 
-> ### Note:  
-> For the approach via communication arrangement, you can't set the properties programmatically by using setter methods. See [Communication Arrangement](communication-arrangement-201de48.md) for more information.
+
+
+<a name="loio2133e15cbf8747dbad81dff41a14e139__section_rbb_dl5_mtb"/>
+
+## Test Your Outbound Call
+
+To test your outbound call, you have to provide a configuration for the outbound service you want to call in your code.
+
+Create a communication system and communication arrangement for the communication scenario in the Communication Systems and Communication Arrangements apps and maintain the required data.
 
 **Related Information**  
 

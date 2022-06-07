@@ -495,7 +495,7 @@ Specifies the maximum number of virtual machines to create.
 </td>
 <td valign="top">
 
-Number between 2 and 40, but smaller or equal to *autoScalerMin*.
+Number between 2 and 40, but greater or equal to *autoScalerMin*.
 
 
 
@@ -734,7 +734,7 @@ Specifies the maximum number of virtual machines to create.
 </td>
 <td valign="top">
 
-Number between 2 and 40, but smaller or equal to *autoScalerMin*.
+Number between 2 and 40, but greater or equal to *autoScalerMin*.
 
 
 

@@ -24,7 +24,7 @@ See [User and Member Management](../10-concepts/user-and-member-management-cc1c6
 
 ## Authorizations
 
-You can configure authorizations using **roles** and **role collections** for your global account, subaccount, directory or individual applications.
+You can configure authorizations using **roles** and **role collections** for your global account, subaccount, directory, or individual applications.
 
 See [Security Administration: Managing Authentication and Authorization](../50-administration-and-ops/security-administration-managing-authentication-and-authorization-1ff47b2.md).
 
@@ -34,7 +34,7 @@ See [Security Administration: Managing Authentication and Authorization](../50-a
 
 ## Identity Providers
 
-Identity providers \(IdP\) supply the user store for your business applications or for your subaccount. You can re-use existing corporate identity management infrastructure \(on-premise or on the cloud\), or use the default one \(SAP ID service\). You can have a different identity provider for each subaccount you own, and this feature is configurable using the cockpit.
+Identity providers \(IdP\) supply the user store for your business applications or for your subaccount. You can reuse existing corporate identity management infrastructure \(on-premise or on the cloud\), or use the default one \(SAP ID service\). You can have a different identity provider for each subaccount you own, and this feature is configurable using the cockpit.
 
 > ### Note:  
 > For China \(Shanghai\) region, a different default identity provider is used.
@@ -55,14 +55,14 @@ See [SAP Authorization and Trust Management Service in the Cloud Foundry Environ
 
 SAP ID service is the default identity provider for both platform users and business users \(in applications\) at SAP BTP.
 
-SAP ID service is the place where you register to get initial access to SAP BTP. If you are a new user, you can use the self-service registration option at the [SAP Web site](https://www.sap.com) or [SAP ID Service](https://accounts.sap.com). SAP ID service manages the users of official SAP sites, including the SAP developer and partner community. If you already have such a user, then you are already registered with SAP ID service.
+SAP ID service is the place where you register to get initial access to SAP BTP. If you're a new user, you can use the self-service registration option at the [SAP Web site](https://www.sap.com) or [SAP ID Service](https://accounts.sap.com). SAP ID service manages the users of official SAP sites, including the SAP developer and partner community. If you already have such a user, then you're already registered with SAP ID service.
 
 SAP ID service provides:
 
 -   A central user store
 -   A Single Sign-On \(SSO\) service. It enables users to log on once and get access to all your applications.
 
-You can use SAP ID service as a pre-configured user store in your starter scenarios, or for testing. Optionally, you can configure role assignments to SAP ID users.
+You can use SAP ID service as a preconfigured user store in your starter scenarios, or for testing. Optionally, you can configure role assignments to SAP ID users.
 
 See [Default Identity Provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md).
 
@@ -87,7 +87,7 @@ SAP BTP uses encrypted communication channels based on HTTPS/TLS, supporting TLS
 > ### Note:  
 > TLS versions 1.0 and 1.1 are no longer supported.
 
-Make sure you use HTTP clients \(such as Web browsers\) that support TLS version 1.2 or higher for connecting to SAP BTP.
+Make sure you use HTTP clients \(such as web browsers\) that support TLS version 1.2 or higher for connecting to SAP BTP.
 
 > ### Note:  
 > You can optionally use TLS 1.3 in the Custom Domain Manager. This allows the use of TLS 1.3 with applications running on SAP BTP. It's not allowed to use TLS 1.3, for example for the SAP BTP cockpit or SAP Cloud Identity Services. These services are still using TLS 1.2.
@@ -110,7 +110,17 @@ Use the Audit Log Retrieval API to view the audit logs stored for your subaccoun
 
 SAP Credential Store provides a repository for passwords and keys for applications that are running on SAP BTP, Cloud Foundry environment. It enables the applications to retrieve credentials and use them for authentication to external services, or to perform cryptographic operations and TLS communication.
 
-See [SAP SAP Credential Store](https://help.sap.com/viewer/product/CREDENTIAL_STORE/Cloud/en-US).
+See [SAP Credential Store](https://help.sap.com/viewer/product/CREDENTIAL_STORE/Cloud/en-US).
+
+
+
+<a name="loioe129aa20c78c4a9fb379b9803b02e5f6__section_enn_1hb_ptb"/>
+
+## Malware Scanning
+
+Use SAP Malware Scanning service to scan business documents for malware. Integrate this service with your custom-developed apps running on the Cloud Foundry runtime. When your apps upload business documents, your apps can call the SAP Malware Scanning service to check for viruses or other malware.
+
+For more information, see [https://help.sap.com/docs/MALWARE\_SCANNING?version=Cloud](https://help.sap.com/docs/MALWARE_SCANNING?version=Cloud).
 
 **Related Information**  
 

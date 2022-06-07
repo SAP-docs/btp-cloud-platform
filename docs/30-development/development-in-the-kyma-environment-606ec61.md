@@ -78,7 +78,7 @@ To help you get started with the development process, go through the set of tuto
 
     Kyma provides you with a ready-to-use project that contains sample applications. You can take advantage of them to build event- and API-based extensions in the Kyma environment using your favorite technology. These samples are implemented in multiple languages and demonstrate various Kyma environment features and use case scenarios.
 
--   [Using Services in the Kyma Environment](using-services-in-the-kyma-environment-ea4dd81.md)
+-   [Using SAP BTP Services in the Kyma Environment](using-sap-btp-services-in-the-kyma-environment-ea4dd81.md)
 
     Kyma environment allows you to extend the SAP systems to build and deploy your own applications.
 

@@ -16,7 +16,7 @@ To learn more about managing your account model, see [Account Administration](..
 
 ## Global Accounts
 
-A **global account** is the realization of a contract you or your comaony made with SAP.
+A **global account** is the realization of a contract you or your company has made with SAP.
 
 
 
@@ -25,8 +25,6 @@ A global account is used to manage subaccounts, members, entitlements and quotas
 Global accounts are region- and environment-independent. Within a global account, you manage all of your subaccounts, which in turn are specific to one region.
 
 ![Relationship between Global Accounts, Regions and Subaccounts](images/SAP_CP_Global_Account_Subaccount_With_Regions_1e39817.png)
-
-SaaS applications are usually displayed in a separate global account.
 
  <a name="loio8d6e3a0fa4ab43e4a421d3ed08128afa"/>
 
