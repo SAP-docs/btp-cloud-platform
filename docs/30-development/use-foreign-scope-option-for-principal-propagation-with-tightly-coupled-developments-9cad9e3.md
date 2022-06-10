@@ -34,7 +34,7 @@ With foreign scope reference, configure the business application to accept new s
     > ### Note:  
     > `$XSAPPNAME` is replaced at runtime with the application name. The parameters that follow `$XSAPPNAME` are the service plan for the XSUAA service and `xsappname` as defined in the `xs-security.json`. These parameters help uniquely identify other applications in the subaccount.
 
-    You might reserve the `Approve` scope for a role template for the service. The approver role is only meant for administrators.
+    You might reserve the `Editor` scope for a role template for the service. The editor role is only meant for administrators.
 
 2.  Create the UAA service instance for service B.
 

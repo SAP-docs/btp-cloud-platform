@@ -26,32 +26,32 @@ To learn more, see [Extending SAP Customer Experience Products in the Kyma Envir
 
 ## Procedure
 
-1.  In the Kyma Dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *Catalog*.
+1.  In the Kyma Dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *BTP Service Instances*.
 
-2.  Search for the `Connectivity` entry.
+2.  Click *Create Service Instance +* and provide the following details:
 
-3.  Click *\+ Add* and provide the following details:
-
-    -   *Name* - a unique name for your service instance. If you don’t provide any custom name, the system automatically generates one.
+    -   *Name* - a unique name for your service instance.
 
         > ### Note:  
         > The name must not contain more than 253 characters. It must consist of lowercase alphanumeric characters. It can also contain `-` \(single or consecutive, like in `a--a`\) and `.` as long as they don’t start or end the service instance name.
 
-    -   *Plan* - a consumption plan for your service instance. Choose the default plan.
-    -   *Parameters* - skip this, no additional parameters are required.
+    -   *Offering Name* - set it to `connectivity`.
+    -   *Plan Name* - set it to `connectivity_proxy`.
 
-4.  Click *Create*.
+3.  Click *Create*.
 
     This creates the Connectivity service instance.
 
-5.  In the Kyma Dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *Instances*.
+4.  In the Kyma Dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *BTP Service Bindings*.
 
-6.  Select the service instance created in the previous steps.
+5.  Click *Create Service Binding +* and provide the following details:
 
-7.  Click *Add Service Binding +* and provide the following details:
+    -   *Name* - a unique name for your service binding.
+    -   *Service Instance Name* - the name of the service instance created in Step 2. Choose it from the drop-down list.
 
-    -   *Name* - a unique name for your service binding. If you do not provide any custom name, the system will automatically generate one.
-    -   *Secret Name* - a unique name for your Secret. If you do not provide any custom name, the system will use the same name as for the service binding.
+6.  Click *Create*.
+
+    This creates the Connectivity service binding.
 
 
 

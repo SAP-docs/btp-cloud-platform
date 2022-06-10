@@ -41,7 +41,7 @@ With the Kyma environment, you can create microservices in the language of your 
 
 ## Kyma Dashboard And kubectl
 
-The Kyma environment comes with a central administration dashboard \(Kyma Dashboard\), which allows you to deploy microservices, create Functions, and manage their configurations. You can also use it to easily register cloud providers for additional services, create instances of these services, and use them in your microservices or Functions.
+The Kyma environment comes with a central administration dashboard \(Kyma Dashboard\), which allows you to deploy microservices, create Functions, and manage their configurations. You can also use it to connect SAP BTP services to your cluster and manage them using SAP BTP Service Operator, create instances of these services, and use them in your microservices or Functions.
 
 For those who prefer to work with command-line tools, the Kyma environment also offers the Kubernetes command-line tool, kubectl.
 
