@@ -35,11 +35,6 @@ A **free trial** account is intended for individuals, for example students, who 
 
 To learn which is best for your needs, see the [Set Up an SAP BTP Account for Tutorials](https://developers.sap.com/group.btp-setup.html) group in the SAP Developer Center.
 
-**Related Information**  
-
-
-[Trial Accounts and Free Tier](../10-concepts/trial-accounts-and-free-tier-046f127.md "Explore the different options for trying out SAP BTP.")
-
  <a name="loio82f9ff522f754e26ae89e0cd7ec7aa11"/>
 
 <!-- loio82f9ff522f754e26ae89e0cd7ec7aa11 -->
@@ -63,19 +58,31 @@ For more information about the scope of our enterprise offering, see [Enterprise
 
 A customer account is an enterprise account that allows you to host productive, business-critical applications with 24x7 support.
 
-If you want to try out services for free, with the option of easily upgrading them later, you can get an enterprise account and use free tier service plans only. This will not create costs, unless you upgrade to paid plans. See [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html).
+
 
 When you want to purchase a customer account, you can select from a set of predefined packages. For information about service availability, prices, and estimators, see [https://www.sap.com/products/extension-suite/pricing.html](https://www.sap.com/products/extension-suite/pricing.html) and [https://www.sap.com/products/integration-suite/pricing.html](https://www.sap.com/products/integration-suite/pricing.html). You can also view the service catalog via the [SAP Discovery Center](https://discovery-center.cloud.sap). Contact us on [SAP BTP](https://www.sap.com/products/business-technology-platform.html) or via an SAP sales representative.
 
-In addition, you can upgrade and refine your resources later on. You can also contact your SAP sales representative and opt for a configuration, tailored to your needs.
 
-After you have purchased your customer account, you will receive an e-mail to check and confirm the correct IT contact of your company for the initial global account administrator. Only this SAP user will have the initial entitlement on SAP BTP. You can change this contact via the [SAP Support Portal](https://support.sap.com/en/index.html).
+
+<a name="loioa71a081b39e343e097046bf487f57af3__section_ecc_h3p_stb"/>
+
+## Free Tier
+
+If you want to try out services for free, with the option of easily upgrading them later, you can get an enterprise account and use free tier service plans only. See [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html). When you sign up for a global account to try out free tier service plans, you need to select either an existing global account of your company, or create a new global account. If you choose an existing global account, make sure to contact the global account admin of this global account, as they'll receive the access communication emails. In this case, we recommend to have them add you as Global Account Administrator. See  and [SAP BTP Onboarding Resource Center](https://support.sap.com/en/product/onboarding-resource-center/business-technology-platform.html).
+
+You can upgrade and refine your resources later on. You can also contact your SAP sales representative and opt for a configuration, tailored to your needs.
+
+
+
+<a name="loioa71a081b39e343e097046bf487f57af3__section_c5l_n3p_stb"/>
+
+## Onboarding
+
+After you have purchased your customer account, you will receive emails confirming the provisioning of resources from the platform services team as well as the URL and login ID to confirm access. If you chose an add-on to an existing global account, the initial access email will not be sent to you, but to the initial Global Account Administrator. In this case, only this SAP user will have the initial entitlement on SAP BTP. You can change this contact via the [SAP Support Portal](https://support.sap.com/en/index.html), by creating a ticket at component `BC-NEO-CIS-OPS`.
 
 In a second e-mail, usually shortly before the contract start date, you will receive logon information for your new global account. The S-user of the global account administrator is attached to your licensed global account and your entitlements from your consumption or subscription license. So it is essential, that you initially log on with correct global account administrator.
 
-You may check your assigned SAP S-users \(you might have more than one\) independent from SAP BTP with [SAP ID Service](https://accounts.sap.com/). To change this S-user, open a ticket in SAP Support Portal at component `BC-NEO-CIS-OPS`.
-
- 
+You may check your assigned SAP S-users \(you might have more than one\) independent from SAP BTP with [SAP ID Service](https://accounts.sap.com/). To change this S-user,
 
 
 

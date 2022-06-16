@@ -1,7 +1,5 @@
 <!-- loioff4d4a4caff94b0486b6427eaa8a0b91 -->
 
-<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
-
 # Manage Users in Directories \[Feature Set B\]
 
 Manage members in your directory using the SAP BTP cockpit.
@@ -14,37 +12,55 @@ Manage members in your directory using the SAP BTP cockpit.
 
 -   You're a directory administrator.
 
+-   User management is enabled for this directory.
+
+    Choose *Enable User Management* to enable the user management capabilities for this directory if the feature isn't enabled already.
+
+    > ### Note:  
+    > Only one directory in a path can manage entitlements or users.
+
+-   Your platform user exists in a trusted identity provider.
+
+    All users of SAP BTP are stored in identity providers, either in the default or in a custom identity provider. SAP BTP needs a copy of the user, sometimes called a shadow user. You assign the shadow user authorizations to access resources in SAP BTP. When a user authenticates, SAP BTP forwards the request to the identity provider.
+
+    For more information, see [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md).
 
 
+
+
+<a name="loioff4d4a4caff94b0486b6427eaa8a0b91__context_nw4_4fx_stb"/>
 
 ## Context
 
 You manage directory members by assigning role collections to platform users. Use the following predefined role collections:
 
--   Directory Administrator
--   Directory Viewer
+-   *Directory Administrator*
+-   *Directory Viewer*
+
+For more information about these role collections, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md).
 
 
 
 ## Procedure
 
-1.  In your directory, navigate to the *Users* page.
+1.  Navigate to your directory.
 
-2.  Click *Enable User Management* to enable the user management capabilities for this directory if the feature isn't enabled already.
+2.  Add a user to your directory.
 
-    Note that only one directory in a path can manage entitlements or users.
+    For more information, see [Create Users](create-users-a3bc7e8.md).
 
-3.  Click *Edit*.
+3.  Assign a role collection to the user.
 
-    1.  To add a new user, click <span class="SAP-icons"></span>, then enter the e-mail address and assigned role collection.
-
-    2.  To change a user's role collection assignment, select a new role collection in the dropdown in the *Assigned Role Collection* column.
-
-    3.  To delete a user, click <span class="SAP-icons"></span>
+    For more information, see [Assign Users to Role Collections](assign-users-to-role-collections-c576676.md).
 
 
-4.  Click *Save*.
 
+
+<a name="loioff4d4a4caff94b0486b6427eaa8a0b91__result_t5w_zfx_stb"/>
+
+## Results
+
+The next time this user logs on to the SAP BTP cockpit, the user can access this directory.
 
 **Related Information**  
 

@@ -2,7 +2,7 @@
 
 # Register the Assertion Consumer Service of the Subaccount in SAP BTP in SAP SuccessFactors
 
-You need to register the assertion consumer service of the subaccount in SAP BTP as an authorized assertion consumer service in Provisioning of SAP SuccessFactors.
+You need to register the assertion consumer service of the subaccount as an authorized assertion consumer service in Provisioning of SAP SuccessFactors.
 
 
 
@@ -10,7 +10,7 @@ You need to register the assertion consumer service of the subaccount in SAP BTP
 
 ## Prerequisites
 
-[Establish Trust Between SAP SuccessFactors and SAP BTP](establish-trust-between-sap-successfactors-and-sap-btp-80a3fd1.md)
+[Configure SAP SuccessFactors as a Trusted Identity Provider in SAP BTP](configure-sap-successfactors-as-a-trusted-identity-provider-in-sap-btp-80a3fd1.md)
 
 
 
@@ -34,9 +34,15 @@ You need to register the assertion consumer service of the subaccount in SAP BTP
 
 
 
-2.  In Provisioning of SAP SuccessFactors, go to your company and choose *Authorized SP Assertion Consumer Service Settings* under the *Service Provider Settings* section.
+2.  Log in to SAP SuccessFactors Provisioning for your SAP SuccessFactors system using the following link:
 
-3.  Choose *Add another Service Provider ACS* and fill in the following fields:
+    `https://<sap_successfactors_system>/provisioning_login`
+
+    where `<sap_successfactors_system>` is the hostname of your SAP SuccessFactors system.
+
+3.  Go to your company and choose *Authorized SP Assertion Consumer Service Settings* under the *Service Provider Settings* section.
+
+4.  Choose *Add another Service Provider ACS* and fill in the following fields:
 
 
     <table>
@@ -66,8 +72,6 @@ You need to register the assertion consumer service of the subaccount in SAP BTP
     </td>
     <td valign="top">
 
-    The assertion consumer service URL
-
     This is the value of the `Location` attribute of the `AssertionConsumerService` element with the `HTTP-POST` binding you copied in **step 1**.
 
 
@@ -83,8 +87,6 @@ You need to register the assertion consumer service of the subaccount in SAP BTP
     
     </td>
     <td valign="top">
-
-    The logout URL
 
     This is the value of the `Location` attribute of the `SingleLogoutService` element with the `HTTP-POST` binding you copied in **step 1**.
 
@@ -102,9 +104,7 @@ You need to register the assertion consumer service of the subaccount in SAP BTP
     </td>
     <td valign="top">
 
-    The audience URL
-
-    This is the value of the `EntityID` attribute of `EntityDescriptor` element you copied in **step 1**
+    This is the value of the `EntityID` attribute of `EntityDescriptor` element you copied in **step 1** 
 
 
     
@@ -120,7 +120,7 @@ You need to register the assertion consumer service of the subaccount in SAP BTP
     </td>
     <td valign="top">
 
-    Select *Other Application* from the drop-down list.
+    Select *SAP Business Technology Platform* from the drop-down list.
 
 
     
@@ -136,12 +136,7 @@ You need to register the assertion consumer service of the subaccount in SAP BTP
     </td>
     <td valign="top">
 
-    Select the checkbox, if you are using:
-
-    -   SAP SuccessFactors, First Half 2021 Release or later
-
-    -   The SHA-256 certificate for the identity provider `http://<sap_successfactors_system>/idp/samlmetadata?company=<company_id>&cert=sha2` as it has been set up when establishing the trust between SAP SuccessFactors and SAP BTP. See [Establish Trust Between SAP SuccessFactors and SAP BTP](establish-trust-between-sap-successfactors-and-sap-btp-80a3fd1.md).
-
+    Select the checkbox if it is not automatically selected when specifying the *Application Name* value.
 
 
     
@@ -149,6 +144,6 @@ You need to register the assertion consumer service of the subaccount in SAP BTP
     </tr>
     </table>
     
-4.  Choose *Save*.
+5.  Choose *Save*.
 
 

@@ -29,12 +29,12 @@ With foreign scope reference, configure the business application to accept new s
     >            ]
     > ```
 
-    In this example, we have defined two scopes, `Read` and `Approve`. Under `granted-apps`, we list the application names with which we want to share the `Read` scope. All apps listed here can consume this scope in their role templates.
+    In this example, we've defined two scopes, `Read` and `Approve`. Under `granted-apps`, we list the application names with which we want to share the `Read` scope. All apps listed here can consume this scope in their role templates.
 
     > ### Note:  
     > `$XSAPPNAME` is replaced at runtime with the application name. The parameters that follow `$XSAPPNAME` are the service plan for the XSUAA service and `xsappname` as defined in the `xs-security.json`. These parameters help uniquely identify other applications in the subaccount.
 
-    You might reserve the `Editor` scope for a role template for the service. The editor role is only meant for administrators.
+    You might reserve the `Approve` scope for a role template for the service. The approver role is only meant for administrators.
 
 2.  Create the UAA service instance for service B.
 
@@ -85,7 +85,7 @@ With foreign scope reference, configure the business application to accept new s
 
     For more information, see [Administration: Managing Authentication and Authorization](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/1ff47b2d980e43a6b2ce294352333708.html).
 
-7.  As an end user, test business application A.
+7.  As a business user, test business application A.
 
     Your test user can use the scopes delivered from the `Viewer` template to access business application A or service B directly or indirectly.
 

@@ -33,16 +33,16 @@ You create your software components in the development system:
 
 -   The software component `ZLOCAL` is available by default. It serves a similar role like `$TMP` in an on-premise system.
 -   Create your software components with the SAP Fiori app Manage Software Components \(business catalog `Lifecycle Management - Software Components SAP_A4C_BC_MSCL_PC`\). Afterwards, pull the software component into the ABAP system to start developing in it.
--   You can use an ABAP namespace in the ABAP environment. If you have registered a namespace at SAP, it is automatically provided during provisioning. For more information on namespaces, see SAP note [105132](https://launchpad.support.sap.com/#/notes/105132)on how to reserve a namespace and ONE Support Launchpad [Namespace Application](https://launchpad.support.sap.com/#/namespaces). A developer key and repair key are created and assigned automatically by the ABAP system. In the namespace application, you can search for your key assignments by filtering the installation number \(`CLOUDSYSTEM`\).
+-   You can use an ABAP namespace in the ABAP environment. If you have registered a namespace at SAP, it is automatically provided during provisioning. For more information on namespaces, see SAP note [105132](https://launchpad.support.sap.com/#/notes/105132) on how to reserve a namespace and ONE Support Launchpad [Namespace Application](https://launchpad.support.sap.com/#/namespaces). A developer key and repair key are created and assigned automatically by the ABAP system. In the namespace application, you can search for your key assignments by filtering the installation number \(`CLOUDSYSTEM`\).
 -   If you want to transport business configuration content across ABAP systems, create a software component. You have to decide which type you want to use for transporting business configuration:
 
     -   You can create a software component of type `Business Configuration` and transport all your configuration via this software component. If a software component of type `Business Configuration` is available in a tenant, applications can automatically select or create a customizing transport request for this software component.
 
         > ### Note:  
-        > There can be only one software component of type `Business Configuration` in a tenant.
+        > You can only import one software component of type `Business Configuration` per ABAP system.
 
     -   You can transport the configuration using the software components that you also use for your development objects, which is typically the same software component for tables and table content. This is advisable if you run multiple projects on the same landscape that are well separated and have decoupled time schedules.
 
-    See [Business Configuration in SAP BTP ABAP Environment \(1\): Overview and BC Maintenance Apps](https://blogs.sap.com/2021/09/22/business-configuration-in-sap-btp-abap-environment-1-overview-and-bc-maintenance-apps/) and [Business Configuration in SAP BTP ABAP Environment \(2\): BC Content Transport](https://blogs.sap.com/2021/10/01/business-configuration-in-sap-btp-abap-environment-2-bc-content-transport/).
+    See [Business Configuration](business-configuration-7d7c344.md).
 
 

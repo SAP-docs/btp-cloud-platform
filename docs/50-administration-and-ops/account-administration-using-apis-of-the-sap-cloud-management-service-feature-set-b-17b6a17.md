@@ -152,7 +152,7 @@ Alternatively, go to <code>https://events-service.<i class="varname">&lt;app dom
 
 For information about the APIs of the SAP Service Manager service, see [Working with Service Management APIs](https://help.sap.com/viewer/DRAFT/09cc82baadc542a688176dce601398de/Cloud/en-US/4e19b11211fe4ca2a266d3fdd4a72188.html).
 
-For additional information about using the SAP Cloud Management service APIs with subaccounts in the Neo environment, see [Working with Cloud Management Tools Feature Set B in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/8c963e83a42545e29d1b4277a287a01b.html "Enterprise accounts in SAP BTP that have access to cloud management tools feature set B, can also use the enhanced capabilities offered by feature set B with their subaccounts in the Neo environment.") :arrow_upper_right:.
+For additional information about using the SAP Cloud Management service APIs with subaccounts in the Neo environment, see [Working with Cloud Management Tools Feature Set B in the Neo Environment](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/8c963e83a42545e29d1b4277a287a01b.html "Enterprise accounts in SAP BTP that have access to cloud management tools feature set B, can also use the enhanced capabilities offered by feature set B with their subaccounts in the Neo environment.") :arrow_upper_right:.
 
 **Related Information**  
 
@@ -169,7 +169,7 @@ For additional information about using the SAP Cloud Management service APIs wit
 
 [Using SAP SaaS Provisioning Service APIs to Manage Multitenant Applications](../30-development/using-sap-saas-provisioning-service-apis-to-manage-multitenant-applications-ed08c7d.md "You can use the SAP Software-as-a-Service Provisioning service (technical name: saas-registry) APIs to manage your multitenant application.")
 
-[Using Platform APIs](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/392af9d162694d6595499f1549978aa6.html "Platform APIs are protected with OAuth 2.0 client credentials. Create an OAuth client and obtain an access token to call the platform API methods.") :arrow_upper_right:
+[Using Platform APIs](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/392af9d162694d6595499f1549978aa6.html "Platform APIs are protected with OAuth 2.0 client credentials. Create an OAuth client and obtain an access token to call the platform API methods.") :arrow_upper_right:
 
 [Account Model](../10-concepts/account-model-8ed4a70.md#loio8ed4a705efa0431b910056c0acdbf377 "Learn more about the different types of accounts on SAP BTP and how they relate to each other.")
 

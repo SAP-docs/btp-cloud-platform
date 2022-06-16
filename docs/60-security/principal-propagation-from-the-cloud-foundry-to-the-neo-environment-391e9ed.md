@@ -16,14 +16,14 @@ The graphic below illustrates the overall setup of the scenario.
 
 ## Prerequisites
 
--   You have a user account with *Administrator* role in both SAP BTP subaccounts. See [Managing Member Authorizations in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/a1ab5c4cc117455392cd0a512c7f890d.html "SAP BTP includes predefined platform roles that support the typical tasks performed by users when interacting with the platform. In addition, subaccount administrators can combine various scopes into a custom platform role that addresses their individual requirements.") :arrow_upper_right:.
+-   You have a user account with *Administrator* role in both SAP BTP subaccounts. See [Managing Member Authorizations in the Neo Environment](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/a1ab5c4cc117455392cd0a512c7f890d.html "SAP BTP includes predefined platform roles that support the typical tasks performed by users when interacting with the platform. In addition, subaccount administrators can combine various scopes into a custom platform role that addresses their individual requirements.") :arrow_upper_right:.
 
 -   You have a *custom* local service provider configuration \(this means in *cloud cockpit* \> *Security* \> *Trust* \> *Local Service Provider* \> ** you have chosen *Configuration Type* \> *Custom*\) in your subaccount in the Neo environment. See [Configure the Local Service Provider](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/dc618538d97610148155d97dcd123c24.html#loiodcdfe339f94947bc96508daa686cc56d "Your SAP BTP subaccount is the local service provider in the SAML communication. Configure signing keys, certificates, and other trust settings.") :arrow_upper_right:.
 -   Both accounts have a trust configuration to the same identity provider. See:
     -    [Configure Trust to the SAML Identity Provider](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/dc618538d97610148155d97dcd123c24.html#loiob6cfc4bb4bff4ace90afc71b0962fcb5 "") :arrow_upper_right: \(for the Neo environment\)
     -   [Establish Trust with Any SAML 2.0 Identity Provider in a Subaccount](../50-administration-and-ops/establish-trust-and-federation-with-uaa-using-any-saml-identity-provider-2ce3938.md#loio8a213ea1a8664e6b96c0593e71339e0e) \(for the Cloud Foundry environment\)
 
--   The application in the Neo environment is protected using OAuth 2.0. See [OAuth 2.0 Service](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/e526ca3998954d62833ffd5a19ec4523.html "Use OAuth 2.0 service on SAP BTP to protect applications in the Neo environment using the OAuth 2.0 protocol.") :arrow_upper_right:.
+-   The application in the Neo environment is protected using OAuth 2.0. See [OAuth 2.0 Service](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/e526ca3998954d62833ffd5a19ec4523.html "Use OAuth 2.0 service on SAP BTP to protect applications in the Neo environment using the OAuth 2.0 protocol.") :arrow_upper_right:.
 -   The application in the Cloud Foundry environment is bound to an instance of the following services:
     -   *Destination Service*. See [Create and Bind a Destination Service Instance](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/9fdad3cad92e4b63b73d5772014b380e.html).
     -   *xsuaa*
@@ -150,7 +150,7 @@ For more information about working with OAuth clients, see [Create an OAuth Clie
 
 ## Context
 
-Connect the two subaccounts by describing the connection properties in a destination. For more information, see [Modeling Destinations](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/37bddb411fa9496d9db9699371c99138.html "You can connect your applications to another source by describing the source connection properties in a destination. Later on, you can access that destination from your application.") :arrow_upper_right:.
+Connect the two subaccounts by describing the connection properties in a destination. For more information, see [Modeling Destinations](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/37bddb411fa9496d9db9699371c99138.html "You can connect your applications to another source by describing the source connection properties in a destination. Later on, you can access that destination from your application.") :arrow_upper_right:.
 
 
 

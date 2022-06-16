@@ -19,6 +19,9 @@ Enable the Kyma environment with a custom identity provider.
 
 When you create a new Kyma environment instance in the SAP BTP cockpit from the Service Marketplace, you can configure your custom OpenID Connect IdP to authenticate users in your Kyma runtime.
 
+> ### Note:  
+> You can also apply the custom IdP configuration and set up administrators during your Kyma instance update operation by providing the details as an array of strings in the respective fields.
+
 
 
 ## Procedure
@@ -43,7 +46,7 @@ When you create a new Kyma environment instance in the SAP BTP cockpit from the 
      "oidc": {
         "issuerURL": "{issuerURL}",
         "clientID": "{clientID}",
-        "usernameClaim": "email",
+        "usernameClaim": "sub",
         "groupsClaim": "groups",
         "signingAlgs": ["RS256"],
         "usernamePrefix": "-"
@@ -76,11 +79,17 @@ When you create a new Kyma environment instance in the SAP BTP cockpit from the 
 
 Your Kyma environment will be instantiated with a custom IdP.
 
+
+
+<a name="loio67bcc6e2d4d749659faf3ede1853f19e__postreq_xjt_s3x_stb"/>
+
+## Next Steps
+
 > ### Caution:  
 > According to Oauth2 flows, IdPs have lists of allowed callback URLs. Configure the Kyma Dashboard URL \(`https://dashboard.kyma.cloud.sap`\) and the localhost for kubectl authentication \(`http://localhost:8000`\) as allowed callback URLs at your IdP provider, so that authenticated users can be redirected back to the Kyma application.
 
 > ### Note:  
-> You can also apply the custom IdP configuration and set up administrators during your Kyma instance update operation by providing the details as an array of strings in the respective fields.
+> Access to Kyma is realized using the authorization code flow with PKCE. Therefore, make sure that *Allow Public Client Flows* is enabled in your Identity Authentication tenant. For more information, check the [Next Steps section in the Configure OpenID Connect Application for Authorization Code Flow](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/4a9425465cbb4a7aa7c3d86c9cabca51.html?locale=en-US&version=Cloud#next-steps)page.
 
 **Related Information**  
 
@@ -88,4 +97,6 @@ Your Kyma environment will be instantiated with a custom IdP.
 [Authentication and Authorization in the Kyma Environment](authentication-and-authorization-in-the-kyma-environment-85200d8.md "Kyma allows you to use the default or a custom Identity Provider to authenticate in the Kyma environment.")
 
 [Identity Authentication: Initial Setup](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/LATEST/en-US/31af7da133874e199a7df1d42905241b.html)
+
+[Configure OpenID Connect Application for Authorization Code Flow](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/4a9425465cbb4a7aa7c3d86c9cabca51.html)
 

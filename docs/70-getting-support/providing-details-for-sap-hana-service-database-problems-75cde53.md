@@ -162,5 +162,5 @@ Please contact your operator.
 **Related Information**  
 
 
-[Providing Details for Database Problems in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/74749227a1f1470e939ddd3ce9bea1c4.html "If your problem is related to a database, the details you need to provide differ depending on the environment or infrastructure provider the database is provisioned in.") :arrow_upper_right:
+[Providing Details for Database Problems in the Neo Environment](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/74749227a1f1470e939ddd3ce9bea1c4.html "If your problem is related to a database, the details you need to provide differ depending on the environment or infrastructure provider the database is provisioned in.") :arrow_upper_right:
 

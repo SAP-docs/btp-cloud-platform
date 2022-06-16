@@ -96,7 +96,7 @@ Before setting up your account, you need to decide which free offering for SAP B
 
 [Getting Started with a Trial Account in the Cloud Foundry Environment](../20-getting-started/getting-started-with-a-trial-account-in-the-cloud-foundry-environment-e50ab7b.md "Quickly get started with a trial account.")
 
-[Getting Started with a Trial Account in the ABAP Environment](../20-getting-started/getting-started-with-a-trial-account-in-the-abap-environment-720c423.md "Quickly get started with a trial account.")
+
 
 [Getting Started with a Trial Account in the Kyma Environment](../20-getting-started/getting-started-with-a-trial-account-in-the-kyma-environment-ccb83c7.md "Quickly get started with a trial account in the Kyma environment.")
 

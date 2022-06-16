@@ -37,7 +37,7 @@ You need your own application router that connects your extension application to
 
     2.  Enter the application router URL in a browser.
 
-    3.  You are redirected to the SAP SuccessFactors identity provider that you have already configured. See [Establish Trust Between SAP SuccessFactors and SAP BTP](establish-trust-between-sap-successfactors-and-sap-btp-80a3fd1.md).
+    3.  You are redirected to the SAP SuccessFactors identity provider that you have already configured. See [Configure SAP SuccessFactors as a Trusted Identity Provider in SAP BTP](configure-sap-successfactors-as-a-trusted-identity-provider-in-sap-btp-80a3fd1.md).
 
     4.  After a successful login, you will get redirected to the welcome page of you extension application if you have defined one.
 

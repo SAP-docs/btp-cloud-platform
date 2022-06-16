@@ -127,7 +127,7 @@ To ensure the required security for accessing the applications, you need to conf
 </td>
 <td valign="top">
 
- [Configure Single-Sign On Between a Subaccount in SAP BTP and SAP SuccessFactors](configure-single-sign-on-between-a-subaccount-in-sap-btp-and-sap-successfactors-64da613.md) 
+ [Configure Single Sign-On Between a Subaccount in SAP BTP and SAP SuccessFactors](configure-single-sign-on-between-a-subaccount-in-sap-btp-and-sap-successfactors-64da613.md) 
 
 
 

@@ -207,5 +207,5 @@ For the commercial models available for enterprise accounts, see [Commercial Mod
 
 [Getting Started with a Customer Account in the ABAP Environment](../20-getting-started/getting-started-with-a-customer-account-in-the-abap-environment-e34a329.md "After you have purchased a customer account, learn how to get started in the ABAP environment.")
 
-[Getting Started with an Enterprise Account in the Cloud Foundry Environment](../20-getting-started/getting-started-with-an-enterprise-account-in-the-cloud-foundry-environment-56440ab.md "Quickly get started with an enterprise account.")
+[Getting Started with an Enterprise Account in the Cloud Foundry Environment](../20-getting-started/getting-started-with-an-enterprise-account-in-the-cloud-foundry-environment-56440ab.md "Quickly get started with an enterprise account in the Cloud Foundry Environment.")
 

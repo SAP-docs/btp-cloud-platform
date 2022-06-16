@@ -272,8 +272,8 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     > This option is currently experimental.
 
     ```
-    cf deploy [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-         {"varname"}) <URL to MTA archive> (varname] [-e [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+    [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
+         {"varname"}) <write MTA archive URL to STDOUT> (varname] | cf deploy [-e [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
          {"varname"}) <EXT_DESCRIPTOR_1> (varname][,[/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
          {"varname"}) <EXT_DESCRIPTOR_2> (varname]]] 
     [-u [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
@@ -286,15 +286,12 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     cf deploy ...[--retries <RETRIES>]
     ```
 
-    > ### Note:  
-    > The referenced MTA archive must be publicly accessible.
-
-    > ### Note:  
-    > -   The URL to the MTA archive must include the *<http://\>* or *<https://\>* prefixes.
-    > -   You can use an locally present extension descriptor along with this deployment method.
-
     > ### Caution:  
     > There is no possibility for you to check if there are running ongoing operations on the MTA that you want to deploy using a URL.
+
+    > ### Note:  
+    > -   The URL to the MTA archive must include the *<https://\>* prefix.
+    > -   You can use an locally present extension descriptor along with this deployment method.
 
 -   **Deployment from your current directory**
 

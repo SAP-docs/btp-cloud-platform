@@ -59,7 +59,7 @@ All global account administrators can do the following:
 -   View, add, and remove global account members.
 -   Manage entitlements for the global account.
 
-On the *Members* page at the global account level in the cockpit, all global account members can view the global account administrators. If you are a subaccount member, you are also a member of the global account.
+On the *Members* page at the global account level in the cockpit, all global account members can view the global account administrators. If you're a subaccount member, you're also a member of the global account.
 
 
 
@@ -100,9 +100,13 @@ Add members to your global account by assigning them a predefined role collectio
 
 ## Prerequisites
 
--   You must be a global account administrator in order to add other global account members.
+-   You must be a global account administrator to add other global account members.
 
--   You have defined role collections. For more information, see [Define a Role Collection](define-a-role-collection-4b20383.md).
+-   The users exist in a trusted platform identity provider.
+
+    All users of SAP BTP are stored in identity providers, either in the default or in a custom identity provider. SAP BTP needs a copy of the user, sometimes called a shadow user. You assign the shadow user authorizations to access resources in SAP BTP. When a user authenticates, SAP BTP forwards the request to the identity provider.
+
+    For more information, see [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md).
 
 
 
@@ -111,12 +115,14 @@ Add members to your global account by assigning them a predefined role collectio
 
 ## Context
 
-There are 2 predefined role collections that you can use when adding global account members:
+You manage global account members by assigning role collections to platform users. Use the following predefined role collections:
 
--   Global Account Administrator
--   Global Account Viewer
+-   *Global Account Administrator*
 
-For more information on the roles included in each of these role collections, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md).
+-   *Global Account Viewer*
+
+
+For more information about these role collections, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md).
 
 > ### Restriction:  
 > Adding members to global accounts is only possible in enterprise accounts, not in trial accounts.
@@ -127,11 +133,15 @@ For more information on the roles included in each of these role collections, se
 
 ## Procedure
 
-1.  Familiarize yourself with the concepts of [Working with Role Collections](working-with-role-collections-393ea0b.md).
+1.  Navigate to your global account.
 
-2.  Navigate to your global account.
+2.  Add a user to your global account.
 
-3.  Assign a role collection to users. For more information, see [Assign Users to Role Collections](assign-users-to-role-collections-c576676.md).
+    For more information, see [Create Users](create-users-a3bc7e8.md).
+
+3.  Assign a role collection to the user.
+
+    For more information, see [Assign Users to Role Collections](assign-users-to-role-collections-c576676.md).
 
 
 
@@ -140,5 +150,5 @@ For more information on the roles included in each of these role collections, se
 
 ## Results
 
-The new role collection assigned to the user is displayed in the table. The user is now a global account member.
+The next time this user logs on to the SAP BTP cockpit, the user can access this global account.
 

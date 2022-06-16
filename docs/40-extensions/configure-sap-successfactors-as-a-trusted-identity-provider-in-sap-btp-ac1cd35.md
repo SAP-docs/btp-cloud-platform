@@ -1,8 +1,8 @@
 <!-- copyac1cd35434d74a669215125946907bc2 -->
 
-# Establish Trust Between SAP SuccessFactors and SAP BTP
+# Configure SAP SuccessFactors as a Trusted Identity Provider in SAP BTP
 
-Use this procedure to configure the subaccount in SAP BTP trust settings and add SAP SuccessFactors as an identity provider.
+Use this procedure to set up the trust configuration of the subaccount in SAP BTP and add SAP SuccessFactors as an identity provider.
 
 
 

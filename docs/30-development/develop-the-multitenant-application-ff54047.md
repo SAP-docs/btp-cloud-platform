@@ -19,11 +19,6 @@ When developing tenant-aware applications in the Cloud Foundry environment, keep
 -   To perform internal tenant onboarding activities, such as creating a database schema for tenants, you must implement the `Subscription` callbacks of the SAP Software-as-a-Service Provisioning service \(`saas-registry`\) and use the information provided in the subscription event. You can also implement the `getDependencies` callback to obtain the dependencies of any SAP reuse services by your application. See details in the procedure below.
 
 
-> ### Tip:  
-> Beginner and novice developers can use this [sample Hello World application](https://github.com/SAP/cloud-cf-multitenant-saas-provisioning-sample) and read this [blog about SaaS Provisioning](https://blogs.sap.com/2018/10/25/using-saas-registry-to-develop-multitenant-application-on-sap-cloud-platform-cloud-foundry-environment/) to understand the basics of developing and deploying a multitenant application in the Cloud Foundry environment. Then, you can proceed to this more technical [sample application](https://github.com/SAP/cloud-cf-multitenant-Inventory-management) and supplementary [blog](https://blogs.sap.com/2018/09/17/developing-multitenant-applications-on-sap-cloud-platform-cloud-foundry-environment/), which cover additional components and can help ensure your multitenant application is compliant with the requirements mentioned above.
-> 
-> Both sample applications are published in Github, and include instructions and code samples.
-
 
 
 ## Procedure

@@ -1,6 +1,6 @@
 <!-- loio2ec368e9166c429fbc8970ebb5a8ba63 -->
 
-# Set Up the Cloud Connector for Inbound RFC from On-Premise Systems
+# Set Up the Cloud Connector for Inbound RFC from On-Premise Systems \(Deprecated\)
 
 Configure inbound connectivity to the ABAP environment to consume a remote-enabled function module \(RFM\) from an on-premise ABAP system through the Cloud Connector.
 
@@ -13,7 +13,7 @@ Configure inbound connectivity to the ABAP environment to consume a remote-enabl
 RFC connections from on-premise systems to the ABAP environment can be performed through a so called Cloud Connector *service channel*.
 
 > ### Note:  
-> You can use WebSocket RFC instead. HTTP\(S\) or WebSocket RFC connections do not require the Cloud Connector because they can be opened directly on the Internet.
+> Using Cloud Connector service channels is deprecated. Use WebSocket RFC instead. HTTP\(S\) or WebSocket RFC connections do not require the Cloud Connector because they can be opened directly on the Internet.
 
 To establish an RFC connection from an on-premise system to the ABAP environment, the Cloud Connector opens an RFC port just like an RFC gateway and acts as a local proxy for the cloud system. Connections to this port are routed through a secure tunnel to SAP BTP.
 

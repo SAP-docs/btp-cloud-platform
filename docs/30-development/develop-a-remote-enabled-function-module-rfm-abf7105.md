@@ -11,7 +11,7 @@ In this tool, you create the respective RFM as you are used to in an on-premise 
 > ### Note:  
 > To enable automatic object creation for an RFM in ADT, choose *Properties* and select `RFC` as *<Processing Type\>*. The default processing type is `Normal`. When activating an RFM of type `Normal`, no objects are generated.
 
-If WebSocket RFC cannot be used, see [Set Up the Cloud Connector for Inbound RFC from On-Premise Systems](set-up-the-cloud-connector-for-inbound-rfc-from-on-premise-systems-2ec368e.md) for detailed information on how to set up Cloud Connector.
+If WebSocket RFC cannot be used, see [Set Up the Cloud Connector for Inbound RFC from On-Premise Systems \(Deprecated\)](set-up-the-cloud-connector-for-inbound-rfc-from-on-premise-systems-deprecated-2ec368e.md) for detailed information on how to set up Cloud Connector.
 
 
 

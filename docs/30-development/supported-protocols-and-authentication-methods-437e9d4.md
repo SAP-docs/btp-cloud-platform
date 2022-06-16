@@ -227,7 +227,7 @@ Basic Authentication
 </table>
 
 > ### Note:  
-> The use of Principal Propagation, OAuth 2.0 SAML Bearer Assertion, and OAuth 2.0 User Token Exchange isn't supported in the ADT class runner \(`if_oo_adt_classrun`\) and application jobs. It can only be tested when a business user context is available, for example, during processing of OData services or HTTP services.“
+> The use of Principal Propagation, OAuth 2.0 SAML Bearer Assertion, and OAuth 2.0 User Token Exchange isn't supported in the ADT class runner \(`if_oo_adt_classrun`\) and application jobs. It can only be used during processing of an OData or HTTP service, and only if you execute the service as a business user.
 
 
 

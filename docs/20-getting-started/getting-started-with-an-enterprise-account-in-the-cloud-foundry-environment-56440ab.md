@@ -2,7 +2,7 @@
 
 # Getting Started with an Enterprise Account in the Cloud Foundry Environment
 
-Quickly get started with an enterprise account.
+Quickly get started with an enterprise account in the Cloud Foundry Environment.
 
 This topic focuses on how to get started with a customer or partner account using the SAP BTP cockpit. However, you can also perform these tasks using the CLI. See [Setting Up a Global Account via the Command Line \[Feature Set B\]](setting-up-a-global-account-via-the-command-line-feature-set-b-accd5b2.md).
 

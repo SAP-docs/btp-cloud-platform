@@ -291,7 +291,7 @@ Constitutes the SAP BTP actual Platform-as-a-Service offering that allows for th
 <tr>
 <td valign="top">
 
-[failover](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/8c46464783664ac4a748e70a91e08508.html "Use a multi-data center setup and implement automatic failover to ensure the high availability of your applications in case of a data center outage.") :arrow_upper_right:
+[failover](https://help.sap.com/viewer/a04508c1a6b24e2fa0cbabc8b8e361ad/Internal/en-US/8c46464783664ac4a748e70a91e08508.html "Use a multi-data center setup and implement automatic failover to ensure the high availability of your applications in case of a data center outage.") :arrow_upper_right:
 
 
 
@@ -381,7 +381,7 @@ Indicates a user’s assignment to an account. As an account member, a user auto
 <tr>
 <td valign="top">
 
-[OAuth](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/b7b589334d444293a2a91e0ef4234136.html "Use OAuth 2.0 service in the Neo environment of SAP BTP to enable your cloud applications for authorization code grant flow. Authorization code grant is one of the basic flows specified in the OAuth 2.0 protocol.") :arrow_upper_right:
+[OAuth](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/b7b589334d444293a2a91e0ef4234136.html "Use OAuth 2.0 service in the Neo environment of SAP BTP to enable your cloud applications for authorization code grant flow. Authorization code grant is one of the basic flows specified in the OAuth 2.0 protocol.") :arrow_upper_right:
 
 
 

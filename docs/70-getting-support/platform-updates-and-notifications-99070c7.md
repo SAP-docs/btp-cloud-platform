@@ -27,9 +27,9 @@ You can follow the availability of the platform at [SAP Trust Center](https://ww
 
 In addition, you can use [Cloud Availability Center](https://support.sap.com/en/my-support/systems-installations/cac.html) \(CAC\) to check what cloud products and services are assigned to your customer ID for notifications. CAC provides you with a personalized dashboard based on SAP Fiori. It's designed to give you quick access to relevant information about the cloud products that you own and their availability and maintenance status. For more information, see [CAC User Guide](https://support.sap.com/content/dam/support/en_us/library/ssp/my-support/systems-installations/cac/cloud-availability-center-user-guide.pdf).
 
-You can find information about the supported *Cloud Product* \> *Cloud Service* at [Supported Products](https://support.sap.com/en/my-support/systems-installations/cac.html/section.html#section).
+You can find information about the supported *Cloud Product* \> *Cloud Service* at [Supported Products](https://support.sap.com/en/my-support/systems-installations/cac.html/section.html#section). The cloud products are tagged with ![](images/Yellow_Check_Mark_0e4c17a.png) \(orange check mark\) , while the cloud services with ![](images/Grey_Check_Mark_6b50c2e.png) \(gray check mark\).
 
-Note: The essential components of the platform are included in *SAP Extension Suite – Development Efficiency* \> *Foundational Services for SAP BTP*.
+Note: The foundational components of the platform are included in *SAP Extension Suite – Development Efficiency* \> *Foundational Services for SAP BTP*.
 
 To get notifications for updates and downtimes, subscribe at the [Cloud System Notification Subscriptions](https://support.sap.com/en/my-support/systems-installations/cac.html#section_copy_387467770) application. Create a subscription by specifying Cloud Product, Cloud Service, and Notification Type. For more information, see [Cloud System Notification Subscriptions User Guide](https://support.sap.com/content/dam/support/en_us/library/ssp/my-support/systems-installations/cac/csns_user_guide.pdf).
 

@@ -13,5 +13,5 @@ To use the functionality of the Custom Domain plugin, use the extended Cloud Fou
 
 [Extended Cloud Foundry Commands of Custom Domains](extended-cloud-foundry-commands-of-custom-domains-4333dc9.md "The Custom Domain plugin includes commands that you can use to configure and manage your custom domains.")
 
-[Configuring Custom Domains](https://help.sap.com/viewer/74af813c7ee2457cb5eddca0cc70a0c1/Cloud/en-US/1c6c729595f144d9a0bec1b4e2ef1299.html "To make sure that your domain is trusted and all application data is protected, you must first set up secure TLS/SSL communication. Then, make your application reachable via the custom domain and route traffic to it.") :arrow_upper_right:
+[Configuring Custom Domains](https://help.sap.com/viewer/387fdc36085944889eba422e191c887b/Internal/en-US/1c6c729595f144d9a0bec1b4e2ef1299.html "To make sure that your domain is trusted and all application data is protected, you must first set up secure TLS/SSL communication. Then, make your application reachable via the custom domain and route traffic to it.") :arrow_upper_right:
 

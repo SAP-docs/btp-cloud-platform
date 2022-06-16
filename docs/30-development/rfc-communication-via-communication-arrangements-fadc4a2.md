@@ -29,7 +29,11 @@ To establish communication via RFC, you need to create an outbound service of ty
     3.  Enter the name of the outbound service.
     4.  Select RFC in the *Service Type* dropdown list.
     5.  Choose *Next* and select a transport request.
-    6.  In field *RFC Function Module*, enter the name of the relevant RFC function module.
+    6.  Optional: In field *RFC Function Module*, enter the name of the relevant RFC function module.
+
+        > ### Note:  
+        > You can use this field to document a used RFC function module.
+
     7.  Save the outbound service.
 
 2.  Add the newly created outbound service to a communication scenario. See [Service Consumption via Communication Arrangements](service-consumption-via-communication-arrangements-86aece6.md) for more information. According to your developed communication scenario, add the following:
