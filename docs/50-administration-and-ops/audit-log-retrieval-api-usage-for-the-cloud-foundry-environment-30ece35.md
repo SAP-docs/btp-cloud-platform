@@ -271,5 +271,5 @@ Predefined audit log message categories:
 
 [Audit Log Retrieval API for the Cloud Foundry Environment](https://api.sap.com/api/CFAuditLogRetrievalAPI/resource)
 
-[API Documentation](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/4570e92cd29e419dbeee4caa1ef90701.html "API documentation for the Neo environment.") :arrow_upper_right:
+[API Documentation](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/4570e92cd29e419dbeee4caa1ef90701.html "API documentation for the Neo environment.") :arrow_upper_right:
 

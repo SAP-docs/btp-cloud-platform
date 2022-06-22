@@ -266,5 +266,5 @@ Enable beta features
 
 [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 
-[Change the Default Database System](https://help.sap.com/viewer/9e1f28cf90ae45d58ea9d379930865fd/Internal/en-US/d531b2dd49904927a0327c9479edd2b7.html "Change the database property, which determines the database in the Neo environment on which an application runs.") :arrow_upper_right:
+[Change the Default Database System](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/d531b2dd49904927a0327c9479edd2b7.html "Change the database property, which determines the database in the Neo environment on which an application runs.") :arrow_upper_right:
 

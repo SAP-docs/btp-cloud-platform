@@ -190,7 +190,7 @@ We provide detailed information about developing, configuring, and deploying you
 **Related Information**  
 
 
-[Best Practices for SAP BTP](https://help.sap.com/viewer/a04508c1a6b24e2fa0cbabc8b8e361ad/Internal/en-US/9f2bb927464e4d1ba3d13b2d79ca9bd1.html "This document helps you plan and set up your landscape and your lifecycle management for running applications on SAP Business Technology Platform (SAP BTP). It contains best practices and recommendations for planning development projects – from setting up the correct organizational structure to creating an account and security model, to developing and operating applications.") :arrow_upper_right:
+[Best Practices for SAP BTP](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/9f2bb927464e4d1ba3d13b2d79ca9bd1.html "This document helps you plan and set up your landscape and your lifecycle management for running applications on SAP Business Technology Platform (SAP BTP). It contains best practices and recommendations for planning development projects – from setting up the correct organizational structure to creating an account and security model, to developing and operating applications.") :arrow_upper_right:
 
 [Developing with the SAP Cloud Application Programming Model](developing-with-the-sap-cloud-application-programming-model-00823f9.md "The SAP Cloud Application Programming Model (CAP) is a framework of languages, libraries, and tools for building enterprise-grade services and applications. It guides developers along a ‘golden path’ of proven best practices and a great wealth of out-of-the-box solutions to recurring tasks.")
 

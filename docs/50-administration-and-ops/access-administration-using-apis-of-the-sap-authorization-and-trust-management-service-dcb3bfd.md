@@ -104,7 +104,7 @@ Provides functions to administrate the SAP Authorization and Trust Management se
 
 [APIs of SAP Authorization and Trust Management Service service on SAP API Business Hub](https://api.sap.com/package/authtrustmgmnt)
 
-[Using Platform APIs](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/392af9d162694d6595499f1549978aa6.html "Platform APIs are protected with OAuth 2.0 client credentials. Create an OAuth client and obtain an access token to call the platform API methods.") :arrow_upper_right:
+[Using Platform APIs](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/392af9d162694d6595499f1549978aa6.html "Platform APIs are protected with OAuth 2.0 client credentials. Create an OAuth client and obtain an access token to call the platform API methods.") :arrow_upper_right:
 
 [Limitations on Bindings and Service Keys](../60-security/limitations-on-bindings-and-service-keys-6d3ef52.md "To preserve the stability of the SAP Authorization and Trust Management service, we allow a maximum of 1000 bindings and service keys in total per service instance. The service rejects attempts to add more bindings or service keys.")
 

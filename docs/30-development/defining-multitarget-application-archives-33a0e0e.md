@@ -78,9 +78,9 @@ The example above instructs the SAP BTP to:
 
 [JAR File Specification](http://docs.oracle.com/javase/7/docs/technotes/guides/jar/jar.html)
 
-[Defining MTA Deployment Descriptors for the Neo Environment](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/ef90452321f84b43af8d14d4012aefe0.html "") :arrow_upper_right:
+[Defining MTA Deployment Descriptors for the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/ef90452321f84b43af8d14d4012aefe0.html "") :arrow_upper_right:
 
 [Defining MTA Extension Descriptors](defining-mta-extension-descriptors-50df803.md)
 
-[MTA Module Types, Resource Types, and Parameters for Applications in the Neo Environment](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/f1caa871360c40e7be7ce4264ab9c336.html "") :arrow_upper_right:
+[MTA Module Types, Resource Types, and Parameters for Applications in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/f1caa871360c40e7be7ce4264ab9c336.html "") :arrow_upper_right:
 

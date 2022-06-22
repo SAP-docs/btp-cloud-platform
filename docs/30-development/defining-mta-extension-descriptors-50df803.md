@@ -99,11 +99,11 @@ You cannot use an extension descriptor to:
 **Related Information**  
 
 
-[Defining MTA Deployment Descriptors for the Neo Environment](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/ef90452321f84b43af8d14d4012aefe0.html "") :arrow_upper_right:
+[Defining MTA Deployment Descriptors for the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/ef90452321f84b43af8d14d4012aefe0.html "") :arrow_upper_right:
 
 [Defining Multitarget Application Archives](defining-multitarget-application-archives-33a0e0e.md "You package the MTA deployment descriptor and module binaries in an MTA archive. You can manually do so as described below, or alternatively use the Cloud MTA Build tool.")
 
-[MTA Module Types, Resource Types, and Parameters for Applications in the Neo Environment](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/f1caa871360c40e7be7ce4264ab9c336.html "") :arrow_upper_right:
+[MTA Module Types, Resource Types, and Parameters for Applications in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/f1caa871360c40e7be7ce4264ab9c336.html "") :arrow_upper_right:
 
 [The Multitarget Application Model v.2](http://go.sap.com/documents/2016/06/e2f618e4-757c-0010-82c7-eda71af511fa.html)
 

@@ -66,5 +66,5 @@ For communication arrangements with inbound connections, a destination on a suba
 
 ## Next Steps
 
-After creating the *SAP S/4HANA Cloud Extensibility* service instance, you must bind the instance to an application, and it will be assigned an access URL and credentials to the corresponding API. See .
+After creating the *SAP S/4HANA Cloud Extensibility* service instance, you must bind the instance to an application, and it will be assigned an access URL and credentials to the corresponding API. See [Using SAP BTP Services in the Kyma Environment](../30-development/using-sap-btp-services-in-the-kyma-environment-ea4dd81.md).
 

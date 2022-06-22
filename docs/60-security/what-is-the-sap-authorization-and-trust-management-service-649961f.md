@@ -17,7 +17,7 @@ The SAP Authorization and Trust Management service lets you manage user authoriz
 This service runs in multi-environment and Neo subaccounts.
 
 > ### Note:  
-> This documentation refers to SAP BTP for the Cloud Foundry environment. If you are looking for documentation about the Neo environment, see [What Is SAP BTP, Neo Environment](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/34ac79024d41469a804ba9b9deeb5b1d.html "SAP BTP, Neo environment is an enterprise platform-as-a-service (enterprise PaaS) that provides comprehensive application development services and capabilities, which lets you build, extend, and integrate business applications in the cloud.") :arrow_upper_right:.
+> This documentation refers to SAP BTP for the Cloud Foundry environment. If you are looking for documentation about the Neo environment, see [What Is SAP BTP, Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/34ac79024d41469a804ba9b9deeb5b1d.html "SAP BTP, Neo environment is an enterprise platform-as-a-service (enterprise PaaS) that provides comprehensive application development services and capabilities, which lets you build, extend, and integrate business applications in the cloud.") :arrow_upper_right:.
 
 
 

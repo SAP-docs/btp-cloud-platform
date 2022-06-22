@@ -10,7 +10,7 @@ To connect an SAP system with a global account in SAP BTP, you first need to reg
 
 ## Prerequisites
 
-You are a global account administrator, or you are a system landscape administrator of the global account where you want to register your SAP system. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md)
+You are a global account administrator, or you are a system landscape administrator of the global account where you want to register your SAP system. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
 
 
 

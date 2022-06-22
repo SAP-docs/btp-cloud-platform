@@ -21,7 +21,7 @@ Use custom domains to reach your applications on your own domain instead of the 
 
 You can configure custom domains using the Cloud Foundry command-line interface with the plugin for custom domains.
 
-For more information, read the [Custom Domain service user guide](https://help.sap.com/viewer/387fdc36085944889eba422e191c887b/Internal/en-US/4414cc43db2d4229b27b232a5590e253.html "Configure and expose your application under your own domain.") :arrow_upper_right:.
+For more information, read the [Custom Domain service user guide](https://help.sap.com/viewer/74af813c7ee2457cb5eddca0cc70a0c1/Cloud/en-US/4414cc43db2d4229b27b232a5590e253.html "Configure and expose your application under your own domain.") :arrow_upper_right:.
 
 
 
@@ -38,5 +38,5 @@ If you want to make your application reachable on another route, you can add add
 
 [About Routes in the Cockpit](about-routes-in-the-cockpit-4af288c.md "Routes are the URLs that enable your end users to reach your application.")
 
-[Configuring Application URLs (Neo environment)](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/7ceeaa5e528140c48ae53b68433293ba.html "By default, all applications running on SAP BTP are accessed on the hana.ondemand.com domain.") :arrow_upper_right:
+[Configuring Application URLs (Neo environment)](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7ceeaa5e528140c48ae53b68433293ba.html "By default, all applications running on SAP BTP are accessed on the hana.ondemand.com domain.") :arrow_upper_right:
 

@@ -176,7 +176,7 @@ The SAP BTP Cloud Foundry environment follows these recommendations to support h
 
     For more information on high availability configuration, see [High Availability in Cloud Foundry](https://docs.cloudfoundry.org/concepts/high-availability.html#overview).
 
-    For more information on application stability and resilience, see [Develop Resilient Applications](https://help.sap.com/viewer/a04508c1a6b24e2fa0cbabc8b8e361ad/Internal/en-US/b1b929a5aea64571b2f74e810b622568.html "Our best practices about resilient application design help you to make your applications running on SAP BTP stable and highly available.") :arrow_upper_right:.
+    For more information on application stability and resilience, see [Develop Resilient Applications](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/b1b929a5aea64571b2f74e810b622568.html "Our best practices about resilient application design help you to make your applications running on SAP BTP stable and highly available.") :arrow_upper_right:.
 
 
  <a name="loio1c6cba872ce24f2ba24f53feb6dbce6d"/>

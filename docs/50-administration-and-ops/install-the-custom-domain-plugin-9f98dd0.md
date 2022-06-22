@@ -60,5 +60,5 @@ You have installed the Custom Domain plugin for the Cloud Foundry CLI and can no
 
 [Download and Install the Cloud Foundry Command Line Interface](download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md "Download and set up the Cloud Foundry Command Line Interface (cf CLI) to start working with the Cloud Foundry environment.")
 
-[Configuring Custom Domains](https://help.sap.com/viewer/387fdc36085944889eba422e191c887b/Internal/en-US/1c6c729595f144d9a0bec1b4e2ef1299.html "To make sure that your domain is trusted and all application data is protected, you must first set up secure TLS/SSL communication. Then, make your application reachable via the custom domain and route traffic to it.") :arrow_upper_right:
+[Configuring Custom Domains](https://help.sap.com/viewer/74af813c7ee2457cb5eddca0cc70a0c1/Cloud/en-US/1c6c729595f144d9a0bec1b4e2ef1299.html "To make sure that your domain is trusted and all application data is protected, you must first set up secure TLS/SSL communication. Then, make your application reachable via the custom domain and route traffic to it.") :arrow_upper_right:
 

@@ -16,11 +16,11 @@ The graphic below illustrates the overall setup of the scenario.
 
 ## Prerequisites
 
--   You have a user account with *Administrator* role in both SAP BTP subaccounts. See [Managing Member Authorizations in the Neo Environment](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/a1ab5c4cc117455392cd0a512c7f890d.html "SAP BTP includes predefined platform roles that support the typical tasks performed by users when interacting with the platform. In addition, subaccount administrators can combine various scopes into a custom platform role that addresses their individual requirements.") :arrow_upper_right:.
+-   You have a user account with *Administrator* role in both SAP BTP subaccounts. See [Managing Member Authorizations in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/a1ab5c4cc117455392cd0a512c7f890d.html "SAP BTP includes predefined platform roles that support the typical tasks performed by users when interacting with the platform. In addition, subaccount administrators can combine various scopes into a custom platform role that addresses their individual requirements.") :arrow_upper_right:.
 
 -   You have a custom local service provider configuration \(signing keys and certificates, etc.\) in your subaccount in the Neo environment. See [Configure the Local Service Provider](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/dc618538d97610148155d97dcd123c24.html#loiodcdfe339f94947bc96508daa686cc56d "Your SAP BTP subaccount is the local service provider in the SAML communication. Configure signing keys, certificates, and other trust settings.") :arrow_upper_right:.
 -   Both accounts have a trust configuration to the same Identity Authentication tenant. See:
-    -   [Identity Authentication Tenant as an Application Identity Provider](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/d3df5b457d0c43fca117da0dc14e2f0d.html "You can register a tenant for Identity Authentication service as an identity provider for your subaccount.") :arrow_upper_right: \(for the Neo environment\)
+    -   [Identity Authentication Tenant as an Application Identity Provider](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/d3df5b457d0c43fca117da0dc14e2f0d.html "You can register a tenant for Identity Authentication service as an identity provider for your subaccount.") :arrow_upper_right: \(for the Neo environment\)
     -   [Manually Establish Trust and Federation Between UAA and Identity Authentication](../50-administration-and-ops/manually-establish-trust-and-federation-between-uaa-and-identity-authentication-7c6aa87.md#loio7c6aa87459764b179aeccadccd4f91f3) \(for the Cloud Foundry environment\)
 
 -   You have developed and deployed both applications, each in the corresponding subaccount.
@@ -197,7 +197,7 @@ Before you create the required destination, you need to note down a few properti
 
 ## Context
 
-Connect the first subaccount to the second subaccount by describing the source connection properties in a destination. For more information see [Modeling Destinations](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/37bddb411fa9496d9db9699371c99138.html "You can connect your applications to another source by describing the source connection properties in a destination. Later on, you can access that destination from your application.") :arrow_upper_right:.
+Connect the first subaccount to the second subaccount by describing the source connection properties in a destination. For more information see [Modeling Destinations](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/37bddb411fa9496d9db9699371c99138.html "You can connect your applications to another source by describing the source connection properties in a destination. Later on, you can access that destination from your application.") :arrow_upper_right:.
 
 
 
@@ -256,7 +256,7 @@ Connect the first subaccount to the second subaccount by describing the source c
     </td>
     <td valign="top">
 
-    The URL of the protected resource in the Cloud Foundry environment. See [Configuring Application URLs](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/7ceeaa5e528140c48ae53b68433293ba.html "By default, all applications running on SAP BTP are accessed on the hana.ondemand.com domain.") :arrow_upper_right:.
+    The URL of the protected resource in the Cloud Foundry environment. See [Configuring Application URLs](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7ceeaa5e528140c48ae53b68433293ba.html "By default, all applications running on SAP BTP are accessed on the hana.ondemand.com domain.") :arrow_upper_right:.
 
     Example: `https://<tenant-specific-route-for-your-business-app>.cfapps.eu10.hana.ondemand.com/`
 

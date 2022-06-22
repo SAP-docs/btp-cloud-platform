@@ -84,7 +84,7 @@ For more information, see [Consuming Services in Other Environments Using the SA
 
     -   To create a service instance in other environments using the Service Manager Control \(SMCTL\) CLI or SAP Service Manager APIs, see [Consuming Services in Other Environments Using the SAP Service Manager Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/0714ac254e83492281d95e25548b388c.html).
 
-    -   To create a service instance in the Cloud Foundry environment using the SAP BTP cockpit or the cf CLI, see .
+    -   To create a service instance in the Cloud Foundry environment using the SAP BTP cockpit or the cf CLI, see [Creating Service Instances](../30-development/creating-service-instances-8221b74.md).
 
     -   To create a service instance in Kyma using the Kyma dashboard, see [Using SAP BTP Services in the Kyma Environment](../30-development/using-sap-btp-services-in-the-kyma-environment-ea4dd81.md).
 
