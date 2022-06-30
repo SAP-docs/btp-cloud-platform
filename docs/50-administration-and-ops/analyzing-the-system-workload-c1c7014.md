@@ -31,15 +31,19 @@ In the following example, let's analyze the usage of an application built accord
 
     This leads you to the technical monitoring cockpit. The *System Workload* screen shows you how the system workload changes over time and how different metrics such as HANA processing time, network time, and so on contribute to the server response time. In the table below the chart, the top contributors to the system workload are listed, sorted by HANA processing time.
 
-3.  In the chart, click on the HANA processing time that seems high at 01:40 p.m.
+3.  Let's assume you're interested in the behavior of the OData V2 services and set a filter on *Request Entry Type* for *OData V2*. For information about filter options, see the [documentation](https://help.sap.com/docs/BTP/b273a660af4e4948a49a316ea2438f24/536cd53e5f244c65bdbe620feb39c8ed.html?language=en-US) of the technical monitoring cockpit.
 
-    ![](images/System_Workload_Start_Screen_Flight_Scenario_40b59ae.png)
+4.  In the chart, click on the HANA processing time that seems high, for example, at 01:40 p.m.
 
-    The *System Workload: Details* section below the chart changes accordingly. Now you see the top contributors to the HANA processing time at the time you clicked in the chart. The contributors are grouped by request entry type and request entry name. Let's assume you're interested in the behavior of the OData V2 services and set a filter on *Request Entry Type* for *OData V2* in this example. \(For information about filter options, see the [documentation](https://help.sap.com/docs/BTP/b273a660af4e4948a49a316ea2438f24/536cd53e5f244c65bdbe620feb39c8ed.html?language=en-US) of the technical monitoring cockpit.\)
+    ![](images/System_Workload_User_Story_First_Screen_40b59ae.png)
+
+    The *System Workload: Details* section below the chart changes accordingly. Now you see the top contributors to the HANA processing time at the time you clicked in the chart. The contributors are grouped by request entry type and request entry name.
 
     You can see that one of the top contributors is the travel processing service. So it's probably the usage of that flight processing service that is responsible for the consumption of HANA processing time.
 
-4.  To see more details, let’s choose that first highlighted entry in the list. On the subsequent *Request Processing* screen, you can now see the behavior of this specific workload \(the flight processing service\) over time:
+    ![](images/System_Workload_User_Story_Details_Start_Screen_e8bf30d.png)
+
+5.  To see more details, let’s choose that first highlighted entry in the list. On the subsequent *Request Processing* screen, you can now see the behavior of this specific workload \(the flight processing service\) over time:
 
     ![](images/System_Workload_Request_Processing_Stacked_Total_Times_95614b9.png)
 
@@ -47,13 +51,13 @@ In the following example, let's analyze the usage of an application built accord
 
     The color coding of the single records is based on their deviation from the average server response times \(top to bottom\): Red for very high, orange for above normal, and green for normal server response times.
 
-5.  Let's switch views by choosing the *Server Response Time/Request* button:
+6.  Let's switch views by choosing the *Server Response Time/Request* button:
 
     ![](images/System_Workload_Request_Processing_Server_Response_Time_a564800.png)
 
     Like in the *Stacked Total Times* view, the color rating of the single records is based on their deviation from the average server response times. As you can see, the average server response time per request is around one second here. However, there are some requests with higher times, so let's have a closer look at a "bad" request.
 
-6.  In the table, choose the first red entry \(the one with 3,474.14 ms\).
+7.  In the table, choose the first red entry \(the one with 3,474.14 ms\).
 
     On the following *ABAP Statistics Record* screen, you get more detailed information about this record. In the pie chart for the server response time contributions, you can clearly see that the response time is dominated by the database network time:
 
@@ -61,13 +65,13 @@ In the following example, let's analyze the usage of an application built accord
 
     What's also noticeable is the DEFAULT database connection that apparently fired 1,284 database requests.
 
-7.  Let's dig deeper: In the *Database Connections* section of the *ABAP Staticstics Record* screen, choose the first entry \(connection name DEFAULT\) to get more information.
+8.  Let's dig deeper: In the *Database Connections* section of the *ABAP Staticstics Record* screen, choose the first entry \(connection name DEFAULT\) to get more information.
 
     The *Database Connection Details* screen opens and you can see that 1,284 logical database requests were fired to fetch almost 13,000 database rows, which explains the high network time: It was caused by the many database requests.
 
     ![](images/System_Workload_Database_Connection_Details_f8bb4b2.png)
 
-8.  Another thing you may want to check in this example is the *SQL Statements* section on the *ABAP Statistics Record* screen: The table shows the top SQL statements contributing to the HANA processing time.
+9.  Another thing you may want to check in this example is the *SQL Statements* section on the *ABAP Statistics Record* screen: The table shows the top SQL statements contributing to the HANA processing time.
 
     > ### Note:  
     > The SQL statements are available in the single record by default. You do **not** need to activate any tracing explicitly.

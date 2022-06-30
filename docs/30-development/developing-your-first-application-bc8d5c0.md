@@ -59,6 +59,22 @@ SAPUI5
 <tr>
 <td valign="top">
 
+[Create a Java Application via cf CLI](https://developers.sap.com/tutorials/btp-cf-buildpacks-java-create.html)
+
+
+
+</td>
+<td valign="top">
+
+Java
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [Create a Python Application via cf CLI](https://developers.sap.com/tutorials/btp-cf-buildpacks-python-create.html)
 
 

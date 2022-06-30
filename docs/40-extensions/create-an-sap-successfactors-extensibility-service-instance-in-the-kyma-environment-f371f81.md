@@ -38,24 +38,24 @@ During the creation of the service instance, a destination on the subaccount lev
 
 3.  Choose *Namespaces* from the left-hand side navigation and open the namespace in which you want to create a service instance.
 
-4.  Choose *Service Management* \> *Catalog* from the left-hand side navigation.
+4.  Choose *Service Management* \> *BTP Service Instances* from the left-hand side navigation.
 
-5.  In the *Services* tab, search for the *SAP SuccessFactors Extensibility* tile.
+5.  In the *Service Instances* page, choose *Create Service Instance* in the upper right-hand corner. A new dialog opens.
 
-6.  Open the *SAP SuccessFactors Extensibility* tile and choose *Add* in the upper right-hand corner. A new dialog opens.
+6.  Choose the *Advanced* tab and fill in the following fields:
 
-7.  Fill in the fields of the SAP SuccessFactors cluster service class:
+    -   Give a meaningful name of the new SAP SuccessFactors Extensibility service instance.
 
-    -   Give a meaningful name of the new cluster service class.
+    -   In the *Offering Name* field, enter ***sap-successfactors-extensibility***, which is the technical name of the SAP SuccessFactors Extensibility service.
 
-    -   Select the *api-access* plan.
+    -   In the *Plan Name* field, enter ***api-access***.
 
-    -   Choose *Add parameters*.
+    -   Expand *Instance Parameters*.
 
-    -   To define the authentication type for the API access, specify a JSON file or specify parameters in the JSON format. For more information about the structure of the JSON file, see [Authentication Type JSON File](authentication-type-json-file-543fbd6.md).
+        To define the authentication type for the API access, specify the parameters listed in this JSON file: [Authentication Type JSON File](authentication-type-json-file-543fbd6.md).
 
-    -   Choose *Create*.
 
+7.  Choose *Create*.
 
 
 

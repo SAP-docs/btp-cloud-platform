@@ -571,5 +571,5 @@ With feature set B, you can delete your SAP BTP trial account. Simply navigate i
 </table>
 
 > ### Note:  
-> Cloud management tools feature set B applies also to the Neo environment. For more information and details about the scope offered with the enhanced capabilities, see [Working with Cloud Management Tools Feature Set B in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/8c963e83a42545e29d1b4277a287a01b.html "Enterprise accounts in SAP BTP that have access to cloud management tools feature set B, can also use the enhanced capabilities offered by feature set B with their subaccounts in the Neo environment.") :arrow_upper_right:.
+> Cloud management tools feature set B applies also to the Neo environment. For more information about the scope offered with the enhanced capabilities, see [Working with Cloud Management Tools Feature Set B in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/8c963e83a42545e29d1b4277a287a01b.html "Enterprise accounts in SAP BTP that have access to cloud management tools feature set B, can also use the enhanced capabilities offered by feature set B with their subaccounts in the Neo environment.") :arrow_upper_right:.
 

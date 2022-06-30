@@ -40,24 +40,24 @@ For communication arrangements with inbound connections, a destination on a suba
 
 3.  Choose *Namespaces* from the left-hand side navigation and open the namespace in which you want to create a service instance.
 
-4.  Choose *Service Management* \> *Catalog* from the left-hand side navigation.
+4.  Choose *Service Management* \> *BTP Service Instances* from the left-hand side navigation.
 
-5.  In the *Services* tab, search for the *SAP S/4HANA Cloud Extensibility* tile.
+5.  In the *Service Instances* page, choose *Create Service Instance* in the upper right-hand corner. A new dialog opens.
 
-6.  Open the *SAP S/4HANA Cloud Extensibility* tile and choose *Add* in the upper right-hand corner. A new dialog opens.
+6.  Choose the *Advanced* tab and fill in the following fields:
 
-7.  Fill in the fields of the SAP S/4HANA Cloud cluster service class:
+    -   Give a meaningful name of the new SAP S/4HANA Cloud Extensibility service instance.
 
-    -   Give a meaningful name of the new cluster service class.
+    -   In the *Offering Name* field, enter ***s4-hana-cloud***, which is the technical name of the SAP S/4HANA Cloud Extensibility service.
 
-    -   Select the *api-access* plan.
+    -   In the *Plan Name* field, enter ***api-access***.
 
-    -   Choose *Add parameters*.
+    -   Expand *Instance Parameters*.
 
-    -   To define the communication arrangement and the authentication type for the API access, specify a JSON file or specify parameters in the JSON format. For more information about the structure of the JSON file, see [Communication Arrangement JSON File - Properties](communication-arrangement-json-file-properties-553a4c6.md).
+        To define the communication arrangement and the authentication type for the API access, specify the parameters listed in this JSON file: [Communication Arrangement JSON File - Properties](communication-arrangement-json-file-properties-553a4c6.md).
 
-    -   Choose *Create*.
 
+7.  Choose *Create*.
 
 
 

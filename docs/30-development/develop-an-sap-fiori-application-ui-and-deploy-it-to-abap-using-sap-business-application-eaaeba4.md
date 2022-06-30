@@ -9,6 +9,8 @@ Get an overview on how to create and deploy an SAP Fiori application to ABAP usi
 > ### Note:  
 > SAP Fiori tools extensions can be used in both **SAP Business Application Studio** and **Visual Studio \(VS\) Code**. See [Introduction](https://help.sap.com/viewer/454b7fb9aacd4e369e5be8f7e909d3ec/Latest/en-US/fd9e32d52c9e46e4ba77aba343656610.html).
 
+If you need further assistance with the individual steps, check out the developer tutorial [Create a SAP Fiori App and Deploy it to SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-abap-flp.html).
+
 
 
 <a name="loioeaaeba48e5e04949855f2763477cd557__section_mlb_hzb_z4b"/>
@@ -44,19 +46,10 @@ Get an overview on how to create and deploy an SAP Fiori application to ABAP usi
 
         If you want to create you FLP configuration later, see [SAP Fiori Launchpad Configuration](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/bc3cb890dbb84d51ae80394821ce4990.html).
 
-        > ### Restriction:  
-        > -   The UIAD object is created upon deployment only if the intent is defined in the manifest
-        > -   Only one intent is supported
-        > -   If you change the ID of the intent, the existing SAP Fiori launchpad content content will break
-
 
 2.  Continue with the development of the UI, for example, with the help of guided development. See [Implement Features using Guided Development](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/0c9e518ecf704b2f80a2bed0eaca60ae.html).
 3.  Now you can preview the generated SAP Fiori application. See [Preview an Application](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/b962685bdf9246f6bced1d1cc1d9ba1c.html).
 4.  Deploy the SAP Fiori UI by executing command ***npm run deploy*** in the terminal of your project. See section *Deployment to ABAP* in [Deploy an Application](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/607014e278d941fda4440f92f4a324a6.html).
-
-    > ### Note:  
-    > The SAP Fiori UI is deployed in ABAP language version `ABAP for Cloud Development`. The language version restricts access to data sources: Data sources must be released for system-internal use in cloud development or must be in the same software component.
-
 
 
 
@@ -65,7 +58,7 @@ Get an overview on how to create and deploy an SAP Fiori application to ABAP usi
 ## 2. Creating and Publishing Your Identity and Access Management \(IAM\) App
 
 > ### Prerequisite:  
-> Business catalog `SAP_A4C_BC_DEV_PC` is assigned to your user, which is required for RAP business object development. See [Business Catalogs for Development Tasks](../50-administration-and-ops/business-catalogs-for-development-tasks-a9f4278.md).
+> Business catalog `SAP_A4C_BC_DEV_PC` is assigned to your user, which is required for development with ABAP Development Tools. See [Business Catalogs for Development Tasks](../50-administration-and-ops/business-catalogs-for-development-tasks-a9f4278.md).
 
 ![](images/Custom_UI_Using_BAS_Step_3_3aa2ba1.png) 
 
@@ -80,7 +73,7 @@ Get an overview on how to create and deploy an SAP Fiori application to ABAP usi
 
 ## Next Step
 
-Launch your app in SAP Fiori launchpad. See [Launch Your App in SAP Fiori Launchpad](launch-your-app-in-sap-fiori-launchpad-ea41912.md).
+Launch your app in SAP Fiori launchpad. See [Add Your App to SAP Fiori Launchpad](add-your-app-to-sap-fiori-launchpad-ea41912.md).
 
 **Related Information**  
 

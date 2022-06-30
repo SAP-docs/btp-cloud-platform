@@ -411,6 +411,22 @@ SAP Cloud Transport Management
 <tr>
 <td valign="top">
 
+SAP Credential Store
+
+
+
+</td>
+<td valign="top">
+
+[Auditing and Logging Information](https://help.sap.com/docs/CREDENTIAL_STORE/601525c6e5604e4192451d5e7328fa3c/0f895938cbac4dde9293c59d395f06af.html)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Data Warehouse Cloud
 
 

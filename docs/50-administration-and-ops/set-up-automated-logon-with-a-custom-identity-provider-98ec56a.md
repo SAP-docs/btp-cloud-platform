@@ -12,9 +12,6 @@ To log on to Cloud Foundry, using a custom identity provider \(IdP\), use the `-
 
 Users exist directly in your tenant of the SAP Cloud Identity Services - Identity Authentication and not in a corporate identity provider, such as a Microsoft Active Directory.
 
-> ### Restriction:  
-> Trial accounts don't support the use of a custom identity provider.
-
 
 
 ## Context

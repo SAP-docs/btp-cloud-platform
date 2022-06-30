@@ -10,11 +10,7 @@ Use the security features and functions of SAP BTP to support the security polic
 
 ## User Model
 
-SAP BTP distinguishes between **platform users** \(for global accounts and subaccounts\) and **business users** \(for the applications\).
-
-SAP ID service is the default identity provider for both. You can configure each of your subaccounts to use a custom identity provider for its platform or business users.
-
-![](images/User_and_Member_Management_db7239a.png)
+SAP BTP distinguishes between **platform users** \(account management, custom development, and operations\) and **business users** \(for the applications\).
 
 See [User and Member Management](../10-concepts/user-and-member-management-cc1c676.md).
 
@@ -34,18 +30,14 @@ See [Security Administration: Managing Authentication and Authorization](../50-a
 
 ## Identity Providers
 
-Identity providers \(IdP\) supply the user store for your business applications or for your subaccount. You can reuse existing corporate identity management infrastructure \(on-premise or on the cloud\), or use the default one \(SAP ID service\). You can have a different identity provider for each subaccount you own, and this feature is configurable using the cockpit.
+All users of SAP BTP are stored in identity providers, either in the default or in a custom identity provider. SAP BTP needs a copy of the user, sometimes called a shadow user. You assign the shadow user authorizations to access resources in SAP BTP. When a user authenticates, SAP BTP forwards the request to the identity provider.
+
+For more information, see [Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md).
 
 > ### Note:  
 > For China \(Shanghai\) region, a different default identity provider is used.
 > 
 > For more information, see this [blog article](https://blogs.sap.com/2021/02/22/activate-totp-two-factor-authentication-on-sap-business-technology-platform-formerly-known-as-cloud-platform-at-alibaba-cloud/) on *SAP Community*.
-
-The following figure illustrates the high-level architecture of identity management in SAP BTP.
-
-![](images/SAP_BTP_Security_Overview_bfdc603.png)
-
-See [SAP Authorization and Trust Management Service in the Cloud Foundry Environment](sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md).
 
 
 

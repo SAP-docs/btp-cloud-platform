@@ -1381,6 +1381,78 @@ eu30.hana.ondemand.com
 <tr>
 <td valign="top">
 
+Google Cloud
+
+
+
+</td>
+<td valign="top">
+
+in30
+
+
+
+</td>
+<td valign="top">
+
+India \(Mumbai\) GCP
+
+
+
+</td>
+<td valign="top">
+
+cf-in30
+
+
+
+</td>
+<td valign="top">
+
+asia-south1
+
+
+
+</td>
+<td valign="top">
+
+34.93.27.36, 34.93.89.145, 34.93.92.210, 34.93.137.163, 34.93.148.247, 34.93.155.252, 34.93.166.164, 34.93.180.0, 34.93.221.129, 35.200.131.125, 35.200.144.1, 35.200.175.62, 35.200.183.224, 35.200.194.175, 35.200.198.26, 35.200.209.142, 35.244.29.120
+
+
+
+</td>
+<td valign="top">
+
+34.93.125.74
+
+
+
+</td>
+<td valign="top">
+
+api.cf.in30.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+in30.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+ [Feature Set B](https://cockpit.in30.hana.ondemand.com/) 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Alibaba Cloud
 
 

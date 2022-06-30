@@ -23,15 +23,13 @@ Learn how to use different methods to log on to Cloud Foundry using a custom ide
 -   You've configured the login screen to display your custom identity provider, see [Log on with a Browser to the Cloud Foundry User Account and Authentication service](log-on-with-a-browser-to-the-cloud-foundry-user-account-and-authentication-service-7eb0943.md) \(relevant for the manual login process\).
 
 
-> ### Restriction:  
-
 
 
 <a name="loiod477618e861c48d2976e03f9b6a3cfe8__context_cxm_sqx_1mb"/>
 
 ## Context
 
-The cf CLI provides different options to log on using a custom IdP. One scenario is recommended for an interactive logon because you must switch from the CLI to the browser to log on. The other scenario is focused on automation scenarios where switching between the CLI and a browser isn’t possible.Trial accounts don't support the use of a custom identity provider.
+The cf CLI provides different options to log on using a custom IdP. One scenario is recommended for an interactive logon because you must switch from the CLI to the browser to log on. The other scenario is focused on automation scenarios where switching between the CLI and a browser isn’t possible.
 
 
 

@@ -14,6 +14,16 @@ You have assigned business roles and business users.
 
 
 
+<a name="loiod280fcc3a54640f6b3601f3236e91e9c__context_pmz_cwv_5tb"/>
+
+## Context
+
+With the *Message Dashboard* or *Message Monitoring Overview*, you can monitor and administrate the SAP Business Workflow background processing. You can manually trigger or cancel monitored background tasks that have issues.
+
+AIF messages are deleted after a retention time, which can be configured in AIF customizing. The default value for all workflow-relevant namespaces and interfaces is set to 7 days.
+
+
+
 <a name="loiod280fcc3a54640f6b3601f3236e91e9c__steps_oj4_q4h_lmb"/>
 
 ## Procedure

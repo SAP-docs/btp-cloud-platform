@@ -35,8 +35,8 @@ SAP offers the *Maintain Business Configurations* app as a standardized tool for
 
 As an alternative, you can also enable your business configuration object for upload or download, allowing you to quickly and reliably maintain large amounts of content. In this case, you're not required to develop a full business object. The generic file upload app supports the file format that can be downloaded from `SAP ERP` or `SAP S/4HANA` systems, thus supporting an easy migration of data from SAP on-premise systems. For more information, see [here](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/latest/en-US/c8ca7bec802a4ebcbd9444a9b1827ee0.html).
 
-Should you have special requirements to your maintenance UI, you can also create and deploy your own custom Fiori application. For more information, see [here](develop-an-sap-fiori-application-ui-and-deploy-it-to-abap-using-sap-business-application-eaaeba4.md).
+Should you have special requirements to your maintenance UI, you can also create and deploy your own custom Fiori application. For more information, see [Develop an SAP Fiori Application UI and Deploy it to ABAP Using SAP Business Application Studio](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/eaaeba48e5e04949855f2763477cd557.html).
 
 > ### Note:  
-> Although the management of customizing transport requests is usually done in the [Export Customizing Transports](../50-administration-and-ops/export-customizing-transports-fa7366c.md) app by the business process configuration expert, developers can also create such transport requests using the transport organizer view in `ABAP Development Tools`.
+> Although the management of customizing transport requests is usually done in the *Export Customizing Transports* app by the business process configuration expert, developers can also create such transport requests using the transport organizer view in `ABAP Development Tools`.
 

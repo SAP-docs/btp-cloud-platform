@@ -23,6 +23,14 @@ You are a global account administrator, or you are a system landscape administra
 
 The registration process is based on a registration token that is used for the pairing of the system and the corresponding global account. You get the token in the SAP BTP cockpit, and then use it to configure the integration on the corresponding SAP solution side.
 
+When you start registering the system, it appears in the system landscape list. At this point the *Status* column of this system is empty. To trigger the pairing of the system and the corresponding global account, you have to get the registration token and use it in the respective SAP system.
+
+When you no longer need the system to be paired with your global account, you can remove or deregister it depending on its status.
+
+Deregistering an SAP system means that the connectivity between this system and the global account is disabled and extension scenarios cannot be established, while removing an SAP system means that this system is no longer part of the system landscape list.
+
+You can deregister or remove an SAP system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the system landscape list.
+
 The following SAP system types are supported:
 
 -   SAP S/4HANA Cloud \(available for Cloud Foundry and Kyma environment\)
@@ -139,7 +147,7 @@ If the registration, deregistration, or removal errors persist, report an incide
 
     -   For systems of type *SAP S/4HANA Cloud* and *SAP SuccessFactors*, you first need to configure the integration on the respective SAP system side.
 
-        See [Including SAP Systems in a Formation](including-sap-systems-in-a-formation-68b04fa.md)
+        See [Including SAP Systems in a Formation](including-sap-systems-in-a-formation-68b04fa.md).
 
 
 -   If you no longer need it, you can remove or deregister the system depending on its status.

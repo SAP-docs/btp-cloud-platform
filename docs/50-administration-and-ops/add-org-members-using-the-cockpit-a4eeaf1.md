@@ -4,16 +4,23 @@
 
 # Add Org Members Using the Cockpit
 
-You can add org members and assign roles to them at the subaccount level in the cockpit.
+Add users as org members and assign roles to grant the users access to user and quota information in a Cloud Foundry org.
 
 
 
 ## Prerequisites
 
-You have the Org Manager role for the org in question.
+-   You have the Org Manager role for the org in question.
 
-> ### Note:  
-> You automatically have the Org Manager role in a subaccount that you created.
+    > ### Note:  
+    > You automatically have the Org Manager role in a subaccount that you created.
+
+-   The users exist in a trusted platform identity provider.
+
+    All users of SAP BTP are stored in identity providers, either in the default or in a custom identity provider. SAP BTP needs a copy of the user, sometimes called a shadow user. You assign the shadow user authorizations to access resources in SAP BTP. When a user authenticates, SAP BTP forwards the request to the identity provider.
+
+    For more information, see [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md).
+
 
 
 
@@ -31,13 +38,26 @@ You have the Org Manager role for the org in question.
 
 4.  Enter one or more e-mail addresses.
 
-    You can use commas, spaces, semicolons, or line breaks to separate members.
+    Use commas \(`,`\), spaces \(` `\), semicolons \(`;`\), or line breaks to separate members.
 
-5.  Feature Set A: Choose the *Origin*.
+    > ### Restriction:  
+    > Each time you add members, all entries must be from the same identity provider.
 
-    If you want to use a custom user base, choose *Other* for *Origin* and then enter the corresponding Identity Authentication tenant name. For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-8600afb.md).
+5.  Enter the *Origin* for the identity provider, which hosts the members you just added.
 
-6.  Select the roles for the members and save your changes.
+    The default identity provider is ***sap.ids***.
+
+    For more information, see [Default Identity Provider](default-identity-provider-d6a8db7.md).
+
+    If the new members are platform users in a custom identity provider, enter the origin.
+
+    Feature Set A: Choose *Other* and then enter the corresponding Identity Authentication tenant name.
+
+    For more information about finding the tenant name, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-8600afb.md).
+
+6.  Select roles for the members and save your entries.
+
+    For more information, see [Add Org Members Using the Cockpit](add-org-members-using-the-cockpit-a4eeaf1.md).
 
 
 
@@ -47,10 +67,14 @@ You have the Org Manager role for the org in question.
 ## Next Steps
 
 -   To select or unselect roles for a member, choose <span class="SAP-icons"></span> \(Edit\). The changes you make to the roles of a member take effect immediately.
--   To remove all the roles of a member, choose <span class="SAP-icons"></span> \(Delete\). This removes the member from the organization.
+-   To remove all the roles of a member, choose <span class="SAP-icons"></span> \(Delete\). This action removes the member from the organization.
 
     > ### Note:  
     > You can only remove org members who are no longer assigned to any space in the org.
+
+-   If the users need to view or manage applications in spaces, add the users to the relevant spaces, too.
+
+    For more information, see [Add Space Members Using the Cockpit](add-space-members-using-the-cockpit-81d0b4d.md).
 
 
 **Related Information**  

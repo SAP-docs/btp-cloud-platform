@@ -33,7 +33,7 @@ By default, communication between the approuter and connected services is timed 
 
     ```
     {
-          "abap_endpoint_timeout": 600000,
+          "abap_endpoint_timeout": 600000
     }
     
     ```

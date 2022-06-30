@@ -55,14 +55,14 @@ https//*<subdomain\>*.authentication.*<landscape\>*/oauth/token
 </td>
 <td valign="top">
 
-Up to 60 request per second
+Up to 60 requests per second
 
 
 
 </td>
 <td valign="top">
 
-The requests are executed at once
+The requests are executed at once.
 
 
 
@@ -78,7 +78,7 @@ https//*<subdomain\>*.authentication.*<landscape\>*/oauth/token
 </td>
 <td valign="top">
 
-Slightly exceeding 60 request per second
+Exceeding 60 requests per second
 
 
 
@@ -101,7 +101,7 @@ https//*<subdomain\>*.authentication.*<landscape\>*/oauth/token
 </td>
 <td valign="top">
 
-Significantly exceeding 60 request per second
+Significantly exceeding 60 requests per second
 
 
 

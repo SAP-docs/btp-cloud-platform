@@ -10,10 +10,11 @@ Log in with the btp CLI is on global account level.
 
 ## Prerequisites
 
--   Your global account must be on feature set B. See [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
+-   Your global account must be on feature set B. See [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).Your global account must be on feature set B. See [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
+
 -   You have to enter the subdomain of your global account. You can find it in the cockpit in the global account view or under *Switch Global Account*.
 
--   You have to enter the correct CLI server URL. Usually, this is: `https://cpcli.cf.eu10.hana.ondemand.com` . If your operator has provided you with a different server URL, you'll have to enter that one.
+-   You have to enter the correct CLI server URL. Usually, it is proposed during login and you can confirm with [ENTER\]: `https://cpcli.cf.eu10.hana.ondemand.com` . If your operator has provided you with a different server URL, you'll have to enter that one.
 
 -   Your user is assigned to the `Global Account Viewer` or the `Global Account Administrator` role collection. See [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md).
 
@@ -115,22 +116,32 @@ Alternatively, you can also log in with single sign-on directly at your identity
     
     </td>
     </tr>
+    <tr>
+    <td valign="top">
+
+    `--sso`
+
+
+    
+    </td>
+    <td valign="top">
+
+    Opens a browser for single sign-on at the identity provider. Use `--sso manual` to suppress automatic browser opening.
+
+    > ### Note:  
+    > To log on with SAP Universal ID, you need to use this parameter. Otherwise log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
+    > 
+    > For more information, see SAP Note [3085908](https://launchpad.support.sap.com/#/notes/3085908) and [Log In Through a Browser](log-in-through-a-browser-b2a56a8.md).
+
+
+    
+    </td>
+    </tr>
     </table>
     
     ```
     btp login --url https://cpcli.cf.eu10.hana.ondemand.com --subdomain my-global-account --user name@example.com
     ```
-
-    > ### Note:  
-    > To log on with SAP Universal ID, you need a browser in the logon process. Use the option `--sso`.
-    > 
-    > For more information, see [Log In Through a Browser](log-in-through-a-browser-b2a56a8.md).
-    > 
-    > Otherwise log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service.
-    > 
-    > If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
-    > 
-    > For more information, see SAP Note [3085908](https://launchpad.support.sap.com/#/notes/3085908).
 
     If you've logged in before, the server URL, the subdomain, and the user from the last login are suggested. You can then press [Enter\] to confirm, or type in different values.
 

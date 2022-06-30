@@ -49,7 +49,7 @@ applications:
   ...
 ```
 
-Setting `use_offline_repository` to *false* will direct the buildpack to attempt a download of the SapMachine JRE of version "*version*" from the GitHub asset repository. This will only work if your Cloud Foundry instance has access to [GitHub: SapMachine](https://github.com/SAP/SapMachine).
+Setting `use_offline_repository` to *false* will direct the buildpack to attempt a download of the SapMachine JRE of version "`<version>`" from the GitHub asset repository. This will only work if your Cloud Foundry instance has access to [GitHub: SapMachine](https://github.com/SAP/SapMachine).
 
 
 
@@ -76,7 +76,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
-    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 17.0.2 }'
+    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 11.0.15 }'
   ...
 ```
 

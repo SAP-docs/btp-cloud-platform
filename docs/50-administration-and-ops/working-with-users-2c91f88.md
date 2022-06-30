@@ -10,7 +10,7 @@ In the SAP BTP cockpit, you can see the users of your global account or subaccou
 
 ## Overview
 
-All users in the global account and in the subaccount are stored in identity provers. Users in the global account of SAP BTP are stored in the default identity provider. Users in the subaccounts of SAP BTP are either stored in the default identity provider or in a custom identity provider.
+All users in the global account and in the subaccount are stored in identity providers. Users in the global account of SAP BTP are stored in the default identity provider. Users in the subaccounts of SAP BTP are either stored in the default identity provider or in a custom identity provider.
 
 SAP BTP creates a copy of the user in the global account or in the subaccount when a user-related action happens. This copy of the user is called a shadow user. Global account or subaccount administrators of SAP BTP assign role collections to shadow users. To comply with data protection and privacy regulations, administrators can be obliged to delete users who belonged to employees who left the company.
 

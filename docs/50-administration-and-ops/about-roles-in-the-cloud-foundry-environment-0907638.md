@@ -69,7 +69,7 @@ Org Auditor
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="3">
+<td valign="top" rowspan="4">
 
 Space
 
@@ -83,7 +83,7 @@ Space Manager
 
 
 </td>
-<td valign="top" rowspan="3">
+<td valign="top" rowspan="4">
 
 See [https://docs.cloudfoundry.org/concepts/roles.html\#orgs](https://docs.cloudfoundry.org/concepts/roles.html#orgs).
 
@@ -112,14 +112,35 @@ Space Auditor
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Space Supporter \(Beta\)
+
+
+
+</td>
+</tr>
 </table>
+
+If you want to use the Space Supporter \(Beta\) role, keep in mind that for now:
+
+-   You can add this role using the `set-space-role` CLI command only. See [Add Space Members Using the Cloud Foundry Command Line Interface](add-space-members-using-the-cloud-foundry-command-line-interface-d23ea8b.md).
+
+-   You need to have installed version 8 of the Cloud Foundry Command Line Interface \(cf CLI\). See [https://docs.cloudfoundry.org/cf-cli/install-go-cli.html](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html).
+
+-   You cannot use this role with versions earlier than version 3 of the Cloud Foundry API.
+
+
+> ### Note:  
+> This is a beta feature. Beta features aren't part of the officially delivered scope that SAP guarantees for future releases. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).
 
 **Related Information**  
 
 
 [User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On the cloud platform, member management happens at all levels from global account to space, while user management is done for deployed applications.")
 
-[Add Org Members Using the Cockpit](add-org-members-using-the-cockpit-a4eeaf1.md "You can add org members and assign roles to them at the subaccount level in the cockpit.")
+[Add Org Members Using the Cockpit](add-org-members-using-the-cockpit-a4eeaf1.md "Add users as org members and assign roles to grant the users access to user and quota information in a Cloud Foundry org.")
 
 [Add Organization Members Using the Cloud Foundry Command Line Interface](add-organization-members-using-the-cloud-foundry-command-line-interface-1422a5d.md "You can use the Cloud Foundry Command Line Interface (cf CLI) to add organization members and assign roles to them.")
 

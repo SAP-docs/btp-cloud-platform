@@ -12,7 +12,7 @@ Get an overview about how to create and deploy an SAP Fiori application to Cloud
 
 -   You have installed and set up Microsoft Visual Studio Code including the SAP Fiori tools extensions. See [Visual Studio Code](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/17efa217f7f34a9eba53d7b209ca4280.html).
 -   You have access to a RAP business service that has been exposed as an OData service. See [Using Service Binding Editor for OData V2 Service](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/81dc788fbda74883bd775a4036fa4b67.html).
--   To establish a connection with your ABAP environment system, you either have to be a space developer or have access to a service key. See [Add Space Members Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/81d0b4dcfbc84016b6b3c1465d4272f4.html) and [Creating Service Keys](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/4514a14ab6424d9f84f1b8650df609ce.html?version=Cloud) in the ABAP service instance.
+-   To establish a connection with your ABAP environment system, you either have to be a space developer in the ABAP environment instance or have access to a service key in the ABAP environment instance. See [Add Space Members Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/81d0b4dcfbc84016b6b3c1465d4272f4.html) and [Creating Service Keys](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/4514a14ab6424d9f84f1b8650df609ce.html?version=Cloud) in the ABAP service instance.
 
 
 
@@ -39,13 +39,9 @@ Get an overview about how to create and deploy an SAP Fiori application to Cloud
         -   \(Option 1\) **Discover a Cloud Foundry Service** 
 
             > ### Note:  
-            > As a space developer, you have to be logged on to the SAP BTP cockpit and navigate to your Cloud Foundry subaccount, where you can find the API endpoint and org name.
+            > You have to log on to your Cloud Foundry space by executing command `cf login`. When you're prompted to enter the API endpoint and org name, you can navigate to your subaccount in the SAP BTP cockpit, where you can find this information.
 
         -   \(Option 2\) **Upload a Service Key File**
-
-            > ### Note:  
-            > You have to be logged on to the SAP BTP cockpit and navigate to your Cloud Foundry subaccount,
-
 
     -   Continue with choosing a system name and service.
 
@@ -60,11 +56,6 @@ Get an overview about how to create and deploy an SAP Fiori application to Cloud
     This generates an `*.mtar` file and `mta_archives` folder.
 
 6.  Log on to Cloud Foundry and deploy the SAP Fiori UI to your development space by executing command ***npm run deploy***. See section *Deployment to Cloud Foundry* in [Deployment of Application](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/607014e278d941fda4440f92f4a324a6.html).
-
-> ### Recommendation:  
-> We recommend using the same UI5 version that is being used by the ABAP environment system.
-> 
-> To check the UI5 version in the SAP Fiori launchpad of your ABAP environment system, use command ***Alt+Ctrl+Shift+P*** or navigate to the user actions menu and select *About*. See [User Actions Menu](https://help.sap.com/viewer/fd8f9fda63fa4c7a92bb1d4b4ac5582c/Cloud/en-US/27834b1aacf344f38910686d8fb0eb0a.html "The user actions menu offers user-related options e.g. to open apps, to change the launchpad layout or to contact support.") :arrow_upper_right:.
 
 > ### Tip:  
 > If you can't discover an available OData service in the generator, or preview your application, check if you user is assigned to business catalog `SAP_CORE_BC_EXT_TST`. If you aren't authorized to deploy the application, check if business catalog `SAP_A4C_BC_DEV_UID_PC` is assigned to your user.

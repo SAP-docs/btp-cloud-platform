@@ -12,9 +12,6 @@ To log on to Cloud Foundry, using a custom identity provider \(IdP\), use the si
 
 You've configured the login screen to display your custom identity provider, see [Log on with a Browser to the Cloud Foundry User Account and Authentication service](log-on-with-a-browser-to-the-cloud-foundry-user-account-and-authentication-service-7eb0943.md).
 
-> ### Restriction:  
-> Trial accounts don't support the use of a custom identity provider.
-
 
 
 <a name="loioe1009b4aa486462a8951c4d499ce6d4c__steps_jd3_dd3_jlb"/>

@@ -52,7 +52,7 @@ To remove security administrators from your subaccount, take the following steps
 **Related Information**  
 
 
-[Add Org Members Using the Cockpit](add-org-members-using-the-cockpit-a4eeaf1.md "You can add org members and assign roles to them at the subaccount level in the cockpit.")
+[Add Org Members Using the Cockpit](add-org-members-using-the-cockpit-a4eeaf1.md "Add users as org members and assign roles to grant the users access to user and quota information in a Cloud Foundry org.")
 
 
 

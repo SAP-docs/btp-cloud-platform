@@ -27,7 +27,7 @@ You can follow the availability of the platform at [SAP Trust Center](https://ww
 
 In addition, you can use [Cloud Availability Center](https://support.sap.com/en/my-support/systems-installations/cac.html) \(CAC\) to check what cloud products and services are assigned to your customer ID for notifications. CAC provides you with a personalized dashboard based on SAP Fiori. It's designed to give you quick access to relevant information about the cloud products that you own and their availability and maintenance status. For more information, see [CAC User Guide](https://support.sap.com/content/dam/support/en_us/library/ssp/my-support/systems-installations/cac/cloud-availability-center-user-guide.pdf).
 
-You can find information about the supported *Cloud Product* \> *Cloud Service* at [Supported Products](https://support.sap.com/en/my-support/systems-installations/cac.html/section.html#section). The cloud products are tagged with ![](images/Yellow_Check_Mark_0e4c17a.png) \(orange check mark\) , while the cloud services with ![](images/Grey_Check_Mark_6b50c2e.png) \(gray check mark\).
+You can find information about the supported *Cloud Product* \> *Cloud Service* at [Supported Products](https://support.sap.com/en/my-support/systems-installations/cac.html/section.html#section). The cloud products are tagged with ![](images/0e4c17a21dbe4addb7586eceea9c3ba8.image) \(orange check mark\) , while the cloud services with ![](images/6b50c2e7e7954e009310226fe55c09d1.image) \(gray check mark\).
 
 Note: The foundational components of the platform are included in *SAP Extension Suite – Development Efficiency* \> *Foundational Services for SAP BTP*.
 

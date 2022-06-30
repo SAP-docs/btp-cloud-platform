@@ -11,7 +11,7 @@ Learn how to create a communication arrangement for communication scenario `SAP_
 ## Prerequisites
 
 > ### Note:  
-> This procedure is deprecated. It was replaced with a scenario that does not require a Neo subaccount. To learn about the steps to migrate to a Cloud Foundry-only usage, see section **Next Steps** below.
+> This procedure is deprecated and is only available for systems provisioned before May 2022. It was replaced with a scenario that does not require a Neo subaccount. To learn about the steps to migrate to a Cloud Foundry-only usage, see section **Next Steps** below.
 
 To set up your ABAP environment, you have to create a communication arrangement for communication scenario **<code>SAP_COM_0200 - Cloud Connector Integration</code>**, that requires the following:
 

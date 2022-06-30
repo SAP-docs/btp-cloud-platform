@@ -23,7 +23,7 @@ To deploy the SAP Fiori application, you have to create a deployment configurati
 
 The SAP Fiori launchpad app descriptor item is created from the `manifest.json` file of the SAPUI5 app, where you also have configured the tile and navigation parameters are configured. The app descriptor item is created upon deployment if you have defined the intent navigation in the `manifest.json` file. Note that only one intent navigation consisting of a semantic object and action is supported. If you change the ID of the intent, existing references from the SAP Fiori launchpad to the tile break.
 
-You can find the BSP application and the SAP Fiori launchpad app descriptor item stored as objects in your deployment package in ABAP Development Tools for Eclipse. The folder in the MIME repository and the node in the ICF are not visible in ABAP Development Tools but can be viewed on the transport request. Alternatively, you can use CDS view `I_CustABAPObjDirectoryEntry`.
+You can find the BSP application and the SAP Fiori launchpad app descriptor item stored as objects in your deployment package in ABAP Development Tools for Eclipse. The folder in the MIME repository and the node in the ICF are not available in ABAP Development Tools but are listed in the transport request. Alternatively, you can use CDS view `I_CustABAPObjDirectoryEntry`.
 
 The SAP Fiori UI is deployed in ABAP language version `ABAP for Cloud Development`, which restricts access to data sources: Data sources must be released for system-internal use in cloud development or must be in the same software component.
 
@@ -58,8 +58,11 @@ To make an SAP Fiori application accessible on the SAP Fiori launchpad home page
     > ### Note:  
     > The space and page need to be recorded on a customizing request.
 
--   Assign the launchpad space to a business role. For users that are assigned to the business role and catalog, the space, page, and tile are displayed so that they can launch the application.
+-   Assign the launchpad space to the business role you have created earlier. For users that are assigned to the business role and catalog, the space, page, and tile are displayed on the home page so that they can launch the application.
 
+
+> ### Restriction:  
+> You can't assign the tile to a group in SAP Fiori launchpad.
 
 **Related Information**  
 

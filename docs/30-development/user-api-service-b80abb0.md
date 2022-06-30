@@ -6,7 +6,7 @@ The application router exposes a user API that returns the details of the users 
 
 The user API supports two endpoints:
 
--   `/currentUser` : returns all details of logged in users
+-   `/currentUser`: returns all details of logged in users
 
 -   `/attributes`: returns the main user properties
 

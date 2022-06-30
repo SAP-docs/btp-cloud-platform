@@ -2,10 +2,10 @@
 
 # Managing Users and Their Authorizations Using the btp CLI
 
-User authorizations are managed by assigning role collections to users \(for example, Subaccount Administrator\). Use the SAP BTP command line interface \(btp CLI\) to manage roles and role collections, and to assign role collections to users.
+User authorizations are managed by assigning role collections to users \(for example, Subaccount Administrator\). Use the SAP BTP command-line interface \(btp CLI\) to manage roles and role collections, and to assign role collections to users.
 
 > ### Tip:  
-> All of these commands can be executed in the global account, a directory, or in a subaccount. You can set one of these as the target using the `btp target` command. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
+> All of these commands can be executed in the global account, a directory, or in a subaccount. To choose the level, use the `btp target` command. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
 
 
 
@@ -289,7 +289,7 @@ Remove a role from a role collection
 
 ## Managing Role Collections
 
-Role collections consist of roles, which, in turn, are based on role templates. Role colections are specific to account entities, that is, there are different role collections in global accounts, subaccounts, and directories. There are several predefined role collections, such as Global Account Administrator, Subaccount Administrator, Global Account Viewer, and Subaccount Viewer. For more information, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md).
+Role collections consist of roles, which, in turn, are based on role templates. Role collections are specific to account entities, that is, there are different role collections in global accounts, subaccounts, and directories. There are predefined role collections, such as *Global Account Administrator* and *Subaccount Viewer*. For more information, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md).
 
 
 <table>

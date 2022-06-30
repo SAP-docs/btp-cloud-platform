@@ -10,7 +10,7 @@ On the cloud platform, member management happens at all levels from global accou
 
 ## User Accounts
 
-A user account corresponds to a particular user in an identity provider, such as the SAP ID service and consists, for example, of an SAP user ID \(S-user or P-user\) and password.
+A user account corresponds to a particular user in an identity provider, such as the SAP ID service and consists, for example, of an SAP user ID \(S-user or P-user\) or an e-mail address and a password.
 
 **User accounts** enable users to log on to SAP BTP and access subaccounts and use services according to the permissions given to them.
 
@@ -269,13 +269,13 @@ See:
 
 To manage your business users:
 
--   Configure trust to an identity provider in your subaccount.
+1.  Configure trust to an identity provider in your subaccount.
 
--   Build roles using role templates and attributes.
+2.  Create those users in your subaccount.
 
--   Add those roles to role collections.
+3.  Assign role collections either directly to users or map them to user groups.
 
--   Assign those role collections either directly to users or map them to user groups.
+    The role collections were either delivered from the applications to which you subscribed or custom developed by your team.
 
 
 To learn more about user management, see [Security Administration: Managing Authentication and Authorization](../50-administration-and-ops/security-administration-managing-authentication-and-authorization-1ff47b2.md).

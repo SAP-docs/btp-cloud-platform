@@ -10,14 +10,32 @@ You can use the Cloud Foundry Command Line Interface \(cf CLI\) to add organizat
 
 ## Prerequisites
 
--   The Cloud Foundry environment is enabled. You can enable it in the SAP BTP cockpit. For more information, see [Create a Subaccount](create-a-subaccount-05280a1.md).
+-   The Cloud Foundry environment is enabled.
+
+    Enable it in the SAP BTP cockpit. For more information, see [Create a Subaccount](create-a-subaccount-05280a1.md).
 
 -   The Org Manager role for the org in question.
 
     > ### Note:  
     > You automatically have the Org Manager role in a subaccount that you created.
 
--   The e-mail addresses of the members that you want to add. The user must already exist in the connected identity provider. For more information, see [Managing Users and Their Authorizations Using the btp CLI](managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
+-   The user exists in the UAA.
+
+    All users are stored in identity providers, either in the default or in a custom identity provider. Cloud Foundry needs a copy of the user, sometimes called a shadow user. To create the shadow user, choose one of the following options:
+
+    -   The user has been added from the cockpit.
+
+        For more information, see [Add Org Members Using the Cockpit](add-org-members-using-the-cockpit-a4eeaf1.md).
+
+    -   The user has already logged on to the Cloud Foundry environment.
+
+        For example: `cf login -a https://api.cf.eu20.hana.ondemand.com`
+
+
+-   You have the e-mail addresses of the members that you want to add.
+
+    The user must already exist in the connected identity provider. For more information, see [Managing Users and Their Authorizations Using the btp CLI](managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
+
 -   Download and install the cf CLI and log on to Cloud Foundry. For more information, see [Download and Install the Cloud Foundry Command Line Interface](download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md) and [Log On to the Cloud Foundry Environment Using the Cloud Foundry Command Line Interface](log-on-to-the-cloud-foundry-environment-using-the-cloud-foundry-command-line-interface-7a37d66.md).
 
 
@@ -33,10 +51,14 @@ This procedure is meant for the `OrgManager` and `OrgAuditor` roles. To add memb
 
 ## Procedure
 
-1.  Enter the following string, specifying the user name, the name of the organization, and the role:
+1.  Enter the following command, specifying the user name, the name of the organization, and the role:
 
     ```
-    cf set-org-role USERNAME ORG ROLE 
+    cf set-org-role <USERNAME> <ORG> <ROLE>
+    ```
+
+    ```
+    cf set-org-role julie.armstrong@example.com account_subaccount-47v2w8dj OrgAuditor
     ```
 
 
@@ -49,11 +71,13 @@ This procedure is meant for the `OrgManager` and `OrgAuditor` roles. To add memb
 To remove an org role from a user, enter the following string, specifying the user name, the name of the organization, and the role:
 
 ```
-cf unset-org-role USERNAME ORG ROLE 
+cf unset-org-role <USERNAME> <ORG> <ROLE> 
 ```
 
 **Related Information**  
 
 
 [Supported Tools and Services When Using Custom Identity Providers for Platform Users\[Feature Set A\]](supported-tools-and-services-when-using-custom-identity-providers-for-platform-users-fe-94ef515.md "Not all tools and services of SAP BTP support the use of custom identity providers with platform users. We provide a list of tools and services, which support this feature and any restrictions that apply.")
+
+[About Roles in the Cloud Foundry Environment](about-roles-in-the-cloud-foundry-environment-0907638.md "Roles determine which features users can view and access, and which actions they can initiate.")
 
