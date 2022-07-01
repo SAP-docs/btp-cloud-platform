@@ -1045,6 +1045,7 @@
     -   [Account Administration](50-administration-and-ops/account-administration-5d62ec8.md)
         -   [Account Administration in the Cockpit](50-administration-and-ops/account-administration-in-the-cockpit-8061ecc.md)
             -   [Access the Cockpit](50-administration-and-ops/access-the-cockpit-4e75066.md)
+                -   [Accessibility Features in SAP BTP cockpit](50-administration-and-ops/accessibility-features-in-sap-btp-cockpit-8153bc4.md)
             -   [Navigate in the Cockpit](50-administration-and-ops/navigate-in-the-cockpit-0874895.md)
             -   [Managing Global Accounts Using the Cockpit](50-administration-and-ops/managing-global-accounts-using-the-cockpit-667f34b.md)
                 -   [Log On to Your Global Account](50-administration-and-ops/log-on-to-your-global-account-77be288.md)
