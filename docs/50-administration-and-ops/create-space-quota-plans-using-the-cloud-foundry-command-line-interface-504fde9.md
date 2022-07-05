@@ -38,7 +38,7 @@ You can use the Cloud Foundry Command Line Interface to create space quota plans
 ## Examples
 
     ```
-    cf create-space-quota My -Quota-Plan -i 1G -m 2G -r 10 -s 10 --allow-paid-service-plans
+    cf create-space-quota My-Quota-Plan -i 1G -m 2G -r 10 -s 10 --allow-paid-service-plans
     ```
 
 
