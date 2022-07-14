@@ -1,6 +1,6 @@
 <!-- loio29fdcb5ddb724764953b906a699709a7 -->
 
-# Usability and Accessibility Features in SAP Authorization and Trust Management Service
+# Accessibility Features in SAP Authorization and Trust Management Service
 
 To optimize your experience of the SAP Authorization and Trust Management service, SAP Business Technology Platform provides features and settings that help you use the software efficiently.
 

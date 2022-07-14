@@ -2,7 +2,7 @@
 
 # Impact of Upgrading from Feature Set A to Feature Set B on User and Account Management
 
-Upgrading your account management feature set affects the authorizations of your platform users. To help you find your way, we've gathered a summary of changes you can expect in your accounts.
+While we have tried to make upgrading your account management feature set as simple as possible, we've had to make a few adjustments. To help you find your way, we've gathered a summary of changes you can expect in your accounts.
 
 > ### Note:  
 > For more information about the upgrade process itself, see SAP Note [3027721](https://launchpad.support.sap.com/#/notes/3027721).
@@ -13,20 +13,20 @@ Upgrading your account management feature set affects the authorizations of your
 
 ## Reactivation of the Default Identity Provider for Applications
 
-If you deactivated the default identity provider, SAP ID service, for business users in cloud management tools feature set A, the process of upgrading to cloud management tools feature set B reactivates the default identity provider. We reactivate the default identity provider because cloud management tools feature set B currently only supports platform users from the default identity provider.
+If you deactivated the default identity provider, SAP ID service, for business users in multi-environment subaccounts in cloud management tools feature set A, the process of upgrading to cloud management tools feature set B reactivates the default identity provider. We reactivate the default identity provider because cloud management tools feature set B also uses it for platform users.
 
-Even though the default identity provider has been reactivated, the option to authenticate with the default identity provider is hidden from business users. Business users are redirected to your custom identity provider. Hiding the default identity provider ensures that the user experience for your business users remains the same. Only authorized users can log on, in other words, users with existing shadow users.
+Even though the default identity provider has been reactivated, the option to authenticate with the default identity provider is hidden from business users. Business users are redirected to your custom identity provider. Hiding the default identity provider ensures that the user experience for your business users remains the same. Users from the default identity provider can log on, only if the users are authorized, in other words, users with existing shadow users.
 
 For more information about shadow users, see [Working with Users](../50-administration-and-ops/working-with-users-2c91f88.md).
 
 > ### Note:  
-> Whether the default identity provider was reactivated or not, applications that share the SAP ID service as an identity provider, such as SAP Support Portal and your demo application in your SAP BTP trial account, no longer require reauthentication, when you switch from one application to the other.
+> Whether the default identity provider was reactivated or not, applications that share the default identity provider, such as SAP Support Portal or your demo application in your subaccount, no longer require reauthentication, when you switch from one application to the other. This change improves the single sign-on experience.
 
 
 
-<a name="loio1ac8143b71fb46e78564ed30be757620__section_th5_cgb_54b"/>
+<a name="loio1ac8143b71fb46e78564ed30be757620__section_zqf_2hm_c5b"/>
 
-## No Support of Custom Identity Providers for Platform Users
+## **No Support of Custom Identity Providers for Platform Users**
 
 Currently cloud management tools feature set B doesn't support custom identity providers for platform users. If you use custom identity providers for platform users in cloud management tools feature set A, you can't move to cloud management tools feature set B.
 
@@ -43,7 +43,7 @@ With cloud management tools feature set B, global account users from the SAP ID 
 
 
 
-## Authorization Mappings from Feature Set A to Feature Set B
+## Mapping Account Authorizations Between Feature Set A and Feature Set B
 
 The following table lists the role collections for account administration that a user has in cloud management tools feature set B, based on the role memberships the user had in cloud management tools feature set A.
 

@@ -2,7 +2,7 @@
 
 # Add Members to Your Subaccount \[Feature Set B\]
 
-Add members to your subaccount to enable users to access resources available there. Platform users manage subaccounts with cloud management tools, while business users consume subscribed applications and services.
+Add members to your subaccount to enable users to access resources available there. Platform users manage subaccounts with cloud management tools, while business users consume applications and services.
 
 
 
@@ -10,11 +10,11 @@ Add members to your subaccount to enable users to access resources available the
 
 ## Prerequisites
 
--   You must be a subaccount administrator to add other subaccount members.
-
 -   You’re managing a multi-environment subaccount.
 
     For more information about adding members to Neo subaccounts, see [Add Members to Your Subaccount \[Feature Set B\]](add-members-to-your-subaccount-feature-set-b-1e1b7b6.md).
+
+-   You must be a subaccount administrator to add other subaccount members.
 
 -   The users exist in a trusted identity provider.
 
@@ -36,20 +36,20 @@ There are two types of users in subaccounts:
 
 -   Platform users
 
-    These users are members of your team. Platform users manage the subaccount with the SAP BTP cockpit or perform development or operations tasks in the Cloud Foundry environment.
+    These users are members of your team. Platform users manage the subaccount with the cloud management tools.
 
-    Assign users who need to manage or view the subaccount in SAP BTP cockpit one of the following predefined role collections:
+    Assign predefined or custom role collections to users who need to manage or view the subaccount in SAP BTP cockpit. Examples of predefined role collections include the following:
 
     -   *Subaccount Administrator*
 
     -   *Subaccount Viewer*
 
 
-    For more information about these role collections, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md).
+    For more information about the available role collections, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md).
 
 -   Business users
 
-    These users consume applications and services to which the subaccount is subscribed. Business users don't access cloud management tools like the SAP BTP cockpit. Assign role collections required by the applications and services the business users consume.
+    These users consume applications and services. Business users don't access cloud management tools like the SAP BTP cockpit. Assign role collections required by the applications and services the business users consume.
 
 
 
@@ -60,7 +60,7 @@ There are two types of users in subaccounts:
 
 1.  Navigate to your subaccount account.
 
-2.  Add a user to your subaccount account.
+2.  Add a user to your subaccount.
 
     For more information, see [Create Users](create-users-a3bc7e8.md).
 
@@ -80,5 +80,5 @@ The user can log on to SAP BTP and access resources according to the role collec
 **Related Information**  
 
 
-[User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On the cloud platform, member management happens at all levels from global account to space, while user management is done for deployed applications.")
+[User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, member management happens at all levels from global account to environment, while user management is done for business applications.")
 

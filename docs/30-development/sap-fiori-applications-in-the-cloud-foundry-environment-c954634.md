@@ -2,7 +2,7 @@
 
 # SAP Fiori Applications in the Cloud Foundry Environment
 
-When you plan to create an SAP Fiori application in the SAP BTP, Cloud Foundry environment and want to provide this application to business users, you may want to get a better understanding of the required steps before getting started with the UI development.
+When you plan to create an SAP Fiori application that you have deployed to the SAP BTP, Cloud Foundry environment and want to provide this application to business users, you may want to get a better understanding of the required steps before getting started with the UI development.
 
 > ### Recommendation:  
 > We recommend using the same UI5 version that is being used by the ABAP environment system.
@@ -53,5 +53,5 @@ To make an SAP Fiori application accessible on the SAP Fiori launchpad home page
 
 [Develop an SAP Fiori Application and Deploy it to Cloud Foundry Using SAP Business Application Studio](develop-an-sap-fiori-application-and-deploy-it-to-cloud-foundry-using-sap-business-applic-2498cbf.md "Get an overview about how to create and deploy an SAP Fiori application to Cloud Foundry using SAP Business Application Studio.")
 
-[Develop an SAP Fiori Application and Deploy it to Cloud Foundry Using Visual Studio Code](develop-an-sap-fiori-application-and-deploy-it-to-cloud-foundry-using-visual-studio-code-a064640.md "Get an overview about how to create and deploy an SAP Fiori application to Cloud Foundry using Microsoft Visual Studio Code (VS Code).")
+[Develop an SAP Fiori Application and Deploy it to Cloud Foundry Using Visual Studio Code](develop-an-sap-fiori-application-and-deploy-it-to-cloud-foundry-using-visual-studio-code-a064640.md "Get an overview about how to create and deploy an SAP Fiori application to Cloud Foundry using Visual Studio Code (VS Code).")
 

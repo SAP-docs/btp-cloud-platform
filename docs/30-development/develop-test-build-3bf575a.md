@@ -786,7 +786,7 @@ In the subaccount of test system TST, the subaccount for testing, you can assign
 
 **Create Business Configuration**
 
-As a test user, you can adjust business configuration objects in the *Maintain Business Configurations* app to change and influence the system behavior. See [Maintain Business Configurations App](maintain-business-configurations-app-76384d8.md).
+As a test user, you can adjust business configuration objects in the *Maintain Business Configurations* app to change and influence the system behavior. See [Maintain Business Configurations App](../50-administration-and-ops/maintain-business-configurations-app-76384d8.md).
 
 
 

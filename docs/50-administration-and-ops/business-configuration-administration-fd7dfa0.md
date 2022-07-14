@@ -12,7 +12,7 @@ Find out which lifecycle management tasks a business process configuration exper
 
 Business configuration is the customization of business applications. In enterprise software, business configuration refers to a predefined set of configuration options that affect its functionality and behavior. You can maintain custom business configuration content in your`SAP BTP ABAP Environment` to enrich your extensibility scenarios. This includes both functionalities provided by SAP and custom business configuration objects developed using `ABAP Development Tools` \(ADT\).
 
-If you're looking for more information on how to implement custom business configuration objects, please refer to [Maintain Business Configurations App](../30-development/maintain-business-configurations-app-76384d8.md).
+If you're looking for more information on how to implement custom business configuration objects, please refer to [Maintain Business Configurations App](maintain-business-configurations-app-76384d8.md).
 
 
 

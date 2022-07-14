@@ -26,6 +26,13 @@ Run the command...
 
 
 </th>
+<th valign="top">
+
+Command help
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -38,6 +45,13 @@ List all resource provider instances in a global account
 <td valign="top">
 
 `btp list accounts/resource-provider`
+
+
+
+</td>
+<td valign="top">
+
+[btp list accounts/resource-provider](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-resource-provider.html)
 
 
 
@@ -58,6 +72,13 @@ Get details about a resource provider instance
 
 
 </td>
+<td valign="top">
+
+[btp get accounts/resource-provider](https://help.sap.com/docs/BTP/btp-cli/btp-get-accounts-resource-provider.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -70,6 +91,13 @@ Create a resource provider instance
 <td valign="top">
 
 `btp create accounts/resource-provider`
+
+
+
+</td>
+<td valign="top">
+
+[btp create accounts/resource-provider](https://help.sap.com/docs/BTP/btp-cli/btp-create-accounts-resource-provider.html)
 
 
 
@@ -90,6 +118,13 @@ Update a resource provider instance
 
 
 </td>
+<td valign="top">
+
+[btp update accounts/resource-provider](https://help.sap.com/docs/BTP/btp-cli/btp-update-accounts-resource-provider.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -102,6 +137,13 @@ Delete a resource provider instance
 <td valign="top">
 
 `btp delete accounts/resource-provider`
+
+
+
+</td>
+<td valign="top">
+
+[btp delete accounts/resource-provider](https://help.sap.com/docs/BTP/btp-cli/btp-delete-accounts-resource-provider.html)
 
 
 
@@ -125,4 +167,6 @@ For more information, see [Managing Resource Providers](managing-resource-provid
 [Managing Users and Their Authorizations Using the btp CLI](managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md "User authorizations are managed by assigning role collections to users (for example, Subaccount Administrator). Use the SAP BTP command-line interface (btp CLI) to manage roles and role collections, and to assign role collections to users.")
 
 [Working With Resources of the SAP Service Manager Using the btp CLI](working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md "Use the SAP BTP command line interface to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.")
+
+[btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

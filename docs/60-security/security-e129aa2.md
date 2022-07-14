@@ -43,22 +43,13 @@ For more information, see [Trust and Federation with Identity Providers](../50-a
 
 <a name="loioe129aa20c78c4a9fb379b9803b02e5f6__IDS"/>
 
-## SAP ID Service
+## Default Identity Provider
 
-SAP ID service is the default identity provider for both platform users and business users \(in applications\) at SAP BTP.
+We provide a default identity provider for both platform users and business users \(in applications\) at SAP BTP. The default identity provider enables single sign-on to your SAP applications and services.
 
-SAP ID service is the place where you register to get initial access to SAP BTP. If you're a new user, you can use the self-service registration option at the [SAP Web site](https://www.sap.com) or [SAP ID Service](https://accounts.sap.com). SAP ID service manages the users of official SAP sites, including the SAP developer and partner community. If you already have such a user, then you're already registered with SAP ID service.
-
-SAP ID service provides:
-
--   A central user store
--   A Single Sign-On \(SSO\) service. It enables users to log on once and get access to all your applications.
-
-You can use SAP ID service as a preconfigured user store in your starter scenarios, or for testing. Optionally, you can configure role assignments to SAP ID users.
+Use the default identity provider as a preconfigured user store in your starter scenarios or for testing. You can also use the default identity provider as a backup identity provider if access to your custom identity provider fails.
 
 See [Default Identity Provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md).
-
-![](images/Authorization_and_Trust_Management_in_the_Neo_Environment_graph3_68bb064.png)
 
 
 
@@ -66,7 +57,13 @@ See [Default Identity Provider](../50-administration-and-ops/default-identity-pr
 
 ## Identity Authentication Service
 
-Identity Authentication service provides authentication and single sign-on in the cloud. You can use a corporate identity provider for your business applications. You need to configure your subaccount for trust with Identity Authentication service. See [SAP Cloud Identity Services - Identity Authentication](https://help.sap.com/viewer/product/IDENTITY_AUTHENTICATION/Cloud/en-US).
+Identity Authentication service provides authentication and single sign-on in the cloud.
+
+We recommend that you configure the Identity Authentication service as the identity provider and connect Identity Authentication to your own corporate identity provider. Identity Authentication provides features that the default identity provider doesn't, such as the ability to connect your corporate identity provider or to define security policies.
+
+See [Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md).
+
+For more information about Identity Authentication, see [SAP Cloud Identity Services - Identity Authentication](https://help.sap.com/viewer/product/IDENTITY_AUTHENTICATION/Cloud/en-US).
 
 
 
@@ -82,7 +79,7 @@ SAP BTP uses encrypted communication channels based on HTTPS/TLS, supporting TLS
 Make sure you use HTTP clients \(such as web browsers\) that support TLS version 1.2 or higher for connecting to SAP BTP.
 
 > ### Note:  
-> You can optionally use TLS 1.3 in the Custom Domain Manager. This allows the use of TLS 1.3 with applications running on SAP BTP. It's not allowed to use TLS 1.3, for example for the SAP BTP cockpit or SAP Cloud Identity Services. These services are still using TLS 1.2.
+> You can optionally use TLS 1.3 in the Custom Domain Manager. This option allows the use of TLS 1.3 with applications running on SAP BTP. It's not allowed to use TLS 1.3, for example for the SAP BTP cockpit or SAP Cloud Identity Services. These services are still using TLS 1.2.
 > 
 > See [What Is Custom Domain?](https://help.sap.com/viewer/6f35a23466ee4df0b19085c9c52f9c29/Cloud/en-US/4f4c3ff62fd2413089dce8a973620167.html "Configure and expose your application under your own domain.") :arrow_upper_right:.
 

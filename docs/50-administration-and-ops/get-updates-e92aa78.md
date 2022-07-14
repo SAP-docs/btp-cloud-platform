@@ -28,5 +28,5 @@ To find out the version of the CLI client you are using, run the command `btp --
 
 [Log in](log-in-e241b30.md "Log in with the btp CLI is on global account level.")
 
-[Commands in the btp CLI](commands-in-the-btp-cli-a03a555.md "A list of all tasks and respective commands that are available in the SAP BTP command line interface (btp CLI).")
+[Commands in the btp CLI](commands-in-the-btp-cli-a03a555.md "Find a full reference of all btp CLI commands and their parameters here: btp CLI Command Reference.")
 

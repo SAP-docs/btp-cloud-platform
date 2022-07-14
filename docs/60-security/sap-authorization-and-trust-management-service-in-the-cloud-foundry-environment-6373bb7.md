@@ -276,7 +276,7 @@ Exchange user ID information between systems or environments in SAP BTP.
 
 ### Trust and Federation
 
-When setting up accounts you need to assign users. While we provide you with your first users to get you started, your organization has its own user bases which you want to integrate.
+When setting up accounts you need to assign users. While we provide you with your first users to get you started, your organization has identity providers that you want to integrate.
 
 SAP BTP supports identity federation, a concept of linking and reusing digital identities of a user base across loosely coupled systems. Identity federation frees applications on SAP BTP from the need to obtain and store the credentials of users and to authenticate them. Instead, the application user base is reused from identity providers, which support the administration of digital user identities, authentication, and authorizations in a centralized and decoupled manner. To enable communication between SAP BTP and identity providers, you must cross-configure the communication endpoints of the involved systems, establishing a trust relationship between them.
 
@@ -291,12 +291,11 @@ SAP BTP supports identity federation, a concept of linking and reusing digital i
   
 <a name="loio6373bb7a96114d619bfdfdc6f505d1b9__fig_k5y_t5n_wmb"/>Identity Provider and XSUAA in SAP BTP Architecture
 
- ![](../50-administration-and-ops/images/CF_Trust_for_Identity_Providers_3663b18.png "Identity Provider and XSUAA in SAP BTP
-                    Architecture") 
+ ![](../50-administration-and-ops/images/CF_Trust_for_Identity_Providers_3663b18.png "Identity Provider and XSUAA in SAP BTP Architecture") 
 
-Identity Authentication is a multitenancy enabled identity management service for all applications powered by SAP BTP and optionally on-premise applications. The service provides capabilities for authentication, single sign-on, user provisioning, and on-premise integration as well as self-services like registration or password reset — for both the employees and the partners and customers of your organization. For administrators, the service offers features for user lifecycle management and reporting capabilities in the administration console.
+Identity Authentication is a multitenancy enabled identity management service for all applications powered by SAP BTP and optionally on-premise applications. The service provides capabilities for authentication, single sign-on, user provisioning, and on-premise integration as well as self-services like self-registration or password reset — for both the employees and the partners and customers of your organization. For administrators, the service offers features for user lifecycle management and reporting capabilities in the administration console.
 
-SAP BTP has its own Identity Authentication tenant, SAP ID Service. SAP ID Service is the default identity provider of SAP BTP and where you register to get initial access to SAP BTP. Trust to SAP ID service is preconfigured by default.
+SAP BTP has its own Identity Authentication tenant, SAP ID service. SAP ID service is the default identity provider of SAP BTP and where you register to get initial access to SAP BTP. Trust to SAP ID service is preconfigured by default.
 
 We recommend that you request your own Identity Authentication tenant, but you can also use any other identity provider, which supports the SAML 2.0 protocol. To establish trust with your identity provider, perform one of the following procedures.
 
@@ -316,12 +315,12 @@ For platform users:
 
 For default identity provider:
 
--   [Default Identity Federation with SAP ID Service in the Cloud Foundry Environment](../50-administration-and-ops/default-identity-federation-with-sap-id-service-in-the-cloud-foundry-environment-36d21ac.md)
+-   [Default Identity Provider](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/36d21ac25533495491059887201fe6a3.html)
 
     > ### Note:  
-    > How you assign users to their authorizations depends on the type of trust configuration. If you’re using the default trust configuration via SAP ID service, you can assign users directly to role collections. For more information, see [Default Identity Federation with SAP ID Service in the Cloud Foundry Environment](../50-administration-and-ops/default-identity-federation-with-sap-id-service-in-the-cloud-foundry-environment-36d21ac.md).
+    > How you assign users to their authorizations depends on the type of trust configuration. If you’re using the default trust configuration via SAP ID service, you can assign users directly to role collections. For more information, see [Default Identity Provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md).
     > 
-    > However, if you’re using a custom trust configuration as described in this topic, you can assign individual users or groups to role collections. Assigning users to their authorizations is part of application administration, which is described here. For more information, see [Mapping Role Collections in the Subaccount](../50-administration-and-ops/mapping-role-collections-in-the-subaccount-9e1bf57.md).
+    > If you’re using a custom trust configuration, you can assign individual users or groups to role collections. Assigning users to their authorizations is part of application administration, which is described here. For more information, see [Mapping Role Collections in the Subaccount](../50-administration-and-ops/mapping-role-collections-in-the-subaccount-9e1bf57.md).
 
     The identity provider hosts the business users, who belong to user groups. It’s efficient to use federation by assigning role collections to one or more user groups. The role collection contains all the authorizations that are necessary for this user group. This method saves time when you add a new business user. Simply add the users to the respective user groups and the new business users automatically get all the authorizations that are included in the role collection.
 

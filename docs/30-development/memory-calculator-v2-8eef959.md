@@ -25,7 +25,15 @@ The *memory\_calculator\_v2* section in the [config/sapjvm.ym](memory-calculator
 -   `class_count` – an estimate of the number of classes that will be loaded
 -   `headroom` – percentage of total memory available that is unallocated to cover JVM overhead
 
-You can customize the three memory options by using the following environment variables:
+Depending on which Java version you use, you can customize the three memory options by using the relevant environment variables.
+
+
+
+<a name="loio8eef9590a1d24e87af239d7c7e15fffe__section_pl2_pk2_c5b"/>
+
+## Java 8
+
+If you need JRE with Java 8, you have to use SAPJVM. Customize your memory options as follows:
 
 ```
 ---
@@ -34,12 +42,43 @@ applications:
   ...
   env:
     JBP_CONFIG_SAPJVM: "[memory_calculator_v2: {stack_threads: 266, class_count: 1001, headroom: 5}]"
+    
+```
+
+
+
+<a name="loio8eef9590a1d24e87af239d7c7e15fffe__section_ucx_wk2_c5b"/>
+
+## Java 11
+
+If you need JRE with Java 11, you have to use SapMachine. Customize your memory options as follows:
+
+```
+---
+applications:
+- name: <app-name>
+  ...
+  env:
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
+    JBP_CONFIG_SAP_MACHINE_JRE: "[memory_calculator_v2: {stack_threads: 266, class_count: 1001, headroom: 5}]"
+```
+
+If you want to point to the JDK component, you need to provide a specific version as follows:
+
+```
+---
+applications:
+- name: <app-name>
+  ...
+  env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
-    JBP_CONFIG_SAP_MACHINE_JDK: "[memory_calculator_v2: {stack_threads: 266, class_count: 1001, headroom: 5}]"
+    JBP_CONFIG_SAP_MACHINE_JDK: "[ version: 11.0.15, memory_calculator_v2: {stack_threads: 266, class_count: 1001, headroom: 5}]"
 ```
 
 **Related Information**  
 
 
 [GitHub: Java Buildpack Memory Calculator](https://github.com/cloudfoundry/java-buildpack-memory-calculator)
+
+[SapMachine](sapmachine-785d6b3.md)
 

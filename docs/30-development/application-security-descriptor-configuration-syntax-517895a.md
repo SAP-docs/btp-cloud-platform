@@ -92,7 +92,7 @@ Bear in mind the following restrictions regarding the length and content of an a
 
 -   The following characters can be used in an application name of the Cloud Foundry environment at SAP BTP: `aA`–`zZ`, `0`–`9`, `-` \(hyphen\), `_` \(underscore\), `/` \(forward slash\), and `\` \(backslash\).
 
--   The maximum length of an application name is 128 characters.
+-   The maximum length of an application name is 100 characters.
 
 
 

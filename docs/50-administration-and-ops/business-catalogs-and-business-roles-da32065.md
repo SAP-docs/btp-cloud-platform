@@ -495,7 +495,7 @@ Business Configuration
 </td>
 <td valign="top">
 
- [Maintain Business Configurations App](../30-development/maintain-business-configurations-app-76384d8.md) 
+ [Maintain Business Configurations App](maintain-business-configurations-app-76384d8.md) 
 
 
 

@@ -4,22 +4,3 @@
 
 OData Services provide the following:
 
--   [OData Client Proxy - Introduction](odata-client-proxy-introduction-0d92f49.md)
-
--   
-
--   
-
--   
-
--   
-
--   
-
--   
-
--   
-
--   
-
-

@@ -33,7 +33,7 @@ You have the Administrator role in the global account.
 
 [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 
-[User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On the cloud platform, member management happens at all levels from global account to space, while user management is done for deployed applications.")
+[User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, member management happens at all levels from global account to environment, while user management is done for business applications.")
 
  <a name="AddMembers-FSA"/>
 
@@ -92,7 +92,7 @@ To delete members at global account level, choose <span class="SAP-icons"></s
 
 ## Add Members to Your Global Account \[Feature Set B\]
 
-Add members to your global account by assigning them a predefined role collection.
+Add members to your global account by assigning them a role collection.
 
 
 
@@ -115,7 +115,7 @@ Add members to your global account by assigning them a predefined role collectio
 
 ## Context
 
-You manage global account members by assigning role collections to platform users. Use the following predefined role collections:
+Assign predefined or custom role collections to users who need to manage or view the global account in SAP BTP cockpit. Examples of predefined role collections include the following:
 
 -   *Global Account Administrator*
 

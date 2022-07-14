@@ -40,6 +40,13 @@ Run the command ...
 
 
 </th>
+<th valign="top">
+
+Command help
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -52,6 +59,13 @@ List users
 <td valign="top">
 
 `btp list security/user`
+
+
+
+</td>
+<td valign="top">
+
+[btp list security/user](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-user.html)
 
 
 
@@ -72,6 +86,13 @@ Get details about a specific user, including role collections
 
 
 </td>
+<td valign="top">
+
+[btp get security/user](https://help.sap.com/docs/BTP/btp-cli/btp-get-security-user.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -84,6 +105,13 @@ Delete a user
 <td valign="top">
 
 `btp delete security/user`
+
+
+
+</td>
+<td valign="top">
+
+[btp delete security/user](https://help.sap.com/docs/BTP/btp-cli/btp-delete-security-user.html)
 
 
 
@@ -104,6 +132,13 @@ Assign a role collection to a user
 
 
 </td>
+<td valign="top">
+
+[btp assign security/role-collection](https://help.sap.com/docs/BTP/btp-cli/btp-assign-security-role-collection.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -116,6 +151,13 @@ Unassign a role collection from a user
 <td valign="top">
 
 `btp unassign security/role-collection`
+
+
+
+</td>
+<td valign="top">
+
+[btp unassign security/role-collection](https://help.sap.com/docs/BTP/btp-cli/btp-unassign-security-role-collection.html)
 
 
 
@@ -148,6 +190,13 @@ Run the command ...
 
 
 </th>
+<th valign="top">
+
+Command help
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -160,6 +209,13 @@ List apps
 <td valign="top">
 
 `btp list security/app`
+
+
+
+</td>
+<td valign="top">
+
+[btp list security/app](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-app.html)
 
 
 
@@ -184,6 +240,13 @@ To get the ID of a specific app, run `btp list security/app`
 
 
 </td>
+<td valign="top">
+
+[btp get security/app](https://help.sap.com/docs/BTP/btp-cli/btp-get-security-app.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -196,6 +259,13 @@ List roles
 <td valign="top">
 
 `btp list security/role`
+
+
+
+</td>
+<td valign="top">
+
+[btp list security/role](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-role.html)
 
 
 
@@ -216,6 +286,13 @@ Get details about a specific role
 
 
 </td>
+<td valign="top">
+
+[btp get security/role](https://help.sap.com/docs/BTP/btp-cli/btp-get-security-role.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -228,6 +305,13 @@ Create a role
 <td valign="top">
 
 `btp create security/role`
+
+
+
+</td>
+<td valign="top">
+
+[btp create security/role](https://help.sap.com/docs/BTP/btp-cli/btp-create-security-role.html)
 
 
 
@@ -248,6 +332,13 @@ Delete a role
 
 
 </td>
+<td valign="top">
+
+[btp delete security/role](https://help.sap.com/docs/BTP/btp-cli/btp-delete-security-role.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -264,6 +355,13 @@ Add a role to a role collection
 
 
 </td>
+<td valign="top">
+
+[btp add security/role](https://help.sap.com/docs/BTP/btp-cli/btp-add-security-role.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -276,6 +374,13 @@ Remove a role from a role collection
 <td valign="top">
 
 `btp remove security/role`
+
+
+
+</td>
+<td valign="top">
+
+[btp remove security/role](https://help.sap.com/docs/BTP/btp-cli/btp-remove-security-role.html)
 
 
 
@@ -308,6 +413,13 @@ Run the command ...
 
 
 </th>
+<th valign="top">
+
+Command help
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -320,6 +432,13 @@ List role collections
 <td valign="top">
 
 `btp list security/role-collection`
+
+
+
+</td>
+<td valign="top">
+
+[btp list security/role-collection](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-role-collection.html)
 
 
 
@@ -340,6 +459,13 @@ Get details about a specific role collection
 
 
 </td>
+<td valign="top">
+
+[btp get security/role-collection](https://help.sap.com/docs/BTP/btp-cli/btp-get-security-role-collection.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -352,6 +478,13 @@ Create a role collection
 <td valign="top">
 
 `btp create security/role-collection`
+
+
+
+</td>
+<td valign="top">
+
+[btp create security/role-collection](https://help.sap.com/docs/BTP/btp-cli/btp-create-security-role-collection.html)
 
 
 
@@ -372,6 +505,13 @@ Change the description of a role collection
 
 
 </td>
+<td valign="top">
+
+[btp update security/role-collection](https://help.sap.com/docs/BTP/btp-cli/btp-update-security-role-collection.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -384,6 +524,13 @@ Delete a role collection
 <td valign="top">
 
 `btp delete security/role-collection`
+
+
+
+</td>
+<td valign="top">
+
+[btp delete security/role-collection](https://help.sap.com/docs/BTP/btp-cli/btp-delete-security-role-collection.html)
 
 
 
@@ -411,4 +558,6 @@ Delete a role collection
 [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Set the target for command calls to a subaccount, a directory, or the global account with the btp target command.")
 
 [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md "In the cloud management tools feature set B, SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.")
+
+[btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

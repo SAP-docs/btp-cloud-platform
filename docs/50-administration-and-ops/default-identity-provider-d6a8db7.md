@@ -2,7 +2,25 @@
 
 # Default Identity Provider
 
-The default platform identity provider and application identity provider of SAP BTP is SAP ID service.
+SAP ID service is the default identity provider for both platform users and business users \(in applications\) at SAP BTP. You can start using it without further configuration.
+
+> ### Note:  
+> For China \(Shanghai\) region, a different default identity provider is used.
+> 
+> For more information, see this [blog article](https://blogs.sap.com/2021/02/22/activate-totp-two-factor-authentication-on-sap-business-technology-platform-formerly-known-as-cloud-platform-at-alibaba-cloud/) on *SAP Community*.
+
+
+
+SAP ID service is the place where you register to get initial access to SAP BTP. If you're a new user, you can use the self-service registration option at the [SAP Web site](https://www.sap.com) or [SAP ID Service](https://accounts.sap.com). SAP ID service manages the users of official SAP sites, including the SAP developer and partner community. If you already have such a user, then you're already registered with SAP ID service.
+
+SAP ID service provides:
+
+-   A central user store
+-   A Single Sign-On \(SSO\) service. It enables users to log on once and get access to all your applications.
+
+Use SAP ID service as a preconfigured user store in your starter scenarios or for testing. You can also use the default identity provider as a backup identity provider if access to your custom identity provider fails.
+
+![](images/Authorization_and_Trust_Management_in_the_Neo_Environment_graph3_68bb064.png)
 
 
 
@@ -39,11 +57,15 @@ For more information, see [How to Enable Multi-Factor Authentication \(MFA\)](ht
 > 
 > -   Cloud Foundry command-line interface \(cf CLI\)
 > 
->     Alternatively, you can log on through a browser instead. For more information, see [Log On Manually With a Custom Identity Provider](log-on-manually-with-a-custom-identity-provider-e1009b4.md).
+>     Alternatively, you can log on through a browser instead.
+> 
+>     For more information, see [Log On Manually With a Custom Identity Provider](log-on-manually-with-a-custom-identity-provider-e1009b4.md).
 > 
 > -   SAP Business Technology Platform command-line interface \(btp CLI\)
 > 
->     Alternatively, you can log on through a browser instead. For more information, see [Log In Through a Browser](log-in-through-a-browser-b2a56a8.md).
+>     Alternatively, you can log on through a browser instead.
+> 
+>     For more information, see [Log in with Single Sign-On](log-in-with-single-sign-on-b2a56a8.md).
 > 
 > 
 > For other tools, this behavior doesn't affect log on to the tool itself, but log on to the platform when establishing connections or deploying software and such. For example:

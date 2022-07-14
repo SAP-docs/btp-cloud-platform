@@ -4,7 +4,7 @@
 
 When you plan to create an SAP Fiori application in the ABAP environment and want to provide this application to business users, you may want to get a better understanding of the required steps before getting started with the UI development.
 
-![](images/SAP_UI5_ABAP_Repository_213fe8c.png)
+![](images/SAPUI5_ABAP_Repository_213fe8c.png)
 
 
 
@@ -67,5 +67,5 @@ To make an SAP Fiori application accessible on the SAP Fiori launchpad home page
 **Related Information**  
 
 
-[Develop an SAP Fiori Application UI and Deploy it to ABAP Using SAP Business Application Studio](develop-an-sap-fiori-application-ui-and-deploy-it-to-abap-using-sap-business-application-eaaeba4.md "Get an overview on how to create and deploy an SAP Fiori application to ABAP using SAP Business Application Studio.")
+[Develop an SAP Fiori Application UI and Deploy it to ABAP Using SAP Business Application Studio](develop-an-sap-fiori-application-ui-and-deploy-it-to-abap-using-sap-business-application-eaaeba4.md "Get an overview about how to create and deploy an SAP Fiori application to ABAP using SAP Business Application Studio.")
 

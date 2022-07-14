@@ -2,7 +2,7 @@
 
 # Log On Manually With a Custom Identity Provider
 
-To log on to Cloud Foundry, using a custom identity provider \(IdP\), use the single sign-on option of the CF CLI. During logon, the system provides you with a URL to your custom IdP for you to enter in a web browser. If you’re already logged on to your custom IdP, the system provides a temporary authentication code to complete your logon. If you don't have an active session with your custom IdP, you need to log on to receive the temporary authentication code.
+To log on to Cloud Foundry, using a custom identity provider identity provider, use the single sign-on option of the CF CLI.
 
 
 
@@ -10,7 +10,22 @@ To log on to Cloud Foundry, using a custom identity provider \(IdP\), use the si
 
 ## Prerequisites
 
-You've configured the login screen to display your custom identity provider, see [Log on with a Browser to the Cloud Foundry User Account and Authentication service](log-on-with-a-browser-to-the-cloud-foundry-user-account-and-authentication-service-7eb0943.md).
+-   You've configured the login screen to display your custom identity provider.
+
+    For more information, see [Log on with a Browser to the Cloud Foundry CLI and Service Dashboards](log-on-with-a-browser-to-the-cloud-foundry-cli-and-service-dashboards-7eb0943.md).
+
+-   You know the origin key of the identity provider.
+
+    For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-8600afb.md).
+
+
+
+
+<a name="loioe1009b4aa486462a8951c4d499ce6d4c__context_znm_kz1_d5b"/>
+
+## Context
+
+During logon, the system provides you with a URL to your custom identity provider for you to enter in a web browser. If you’re already logged on to your custom identity provider, the system provides a temporary authentication code to complete your logon. If you don't have an active session with your custom IdP, you need to log on to receive the temporary authentication code.
 
 
 
@@ -41,7 +56,9 @@ You've configured the login screen to display your custom identity provider, see
 
 4.  Open the URL that is provided on the screen to go to the logon screen.
 
-    Depending on your setup, you can now choose between different accounts, for example the default identity provider \(SAP ID service\) and your custom identity provider.
+    If this is the first time you're loging on or your browser cache has been cleaned of cookies, you're prompted to provide the origin key of your custom identity provider or choose the default identity provider.
+
+    Otherwise the sign in page lists your accounts on custom identity providers with which you previously logged on.
 
 5.  Choose the account of your identity provider.
 
@@ -57,5 +74,5 @@ You've configured the login screen to display your custom identity provider, see
 **Related Information**  
 
 
-[Log on with a Browser to the Cloud Foundry User Account and Authentication service](log-on-with-a-browser-to-the-cloud-foundry-user-account-and-authentication-service-7eb0943.md "Platform users of the Cloud Foundry environment have the option to log on with a custom identity provider or the default identity provider.")
+[Log on with a Browser to the Cloud Foundry CLI and Service Dashboards](log-on-with-a-browser-to-the-cloud-foundry-cli-and-service-dashboards-7eb0943.md "Platform users of the Cloud Foundry environment have the option to log on with a custom identity provider or the default identity provider.")
 

@@ -12,7 +12,7 @@ How you assign users to their authorizations depends on the type of trust config
 
 
 > ### Note:  
-> If you’re using the default trust configuration with SAP ID service, you directly assign users to role collections. For more information, see [Default Identity Federation with SAP ID Service in the Cloud Foundry Environment](default-identity-federation-with-sap-id-service-in-the-cloud-foundry-environment-36d21ac.md).
+> If you’re using the default trust configuration with the default identity provider, you directly assign users to role collections. For more information, see [Default Identity Provider](default-identity-provider-d6a8db7.md).
 > 
 > However, if you’re using a custom trust configuration, for example, with SAP Cloud Identity Services - Identity Authentication, you can use both options. For more information on configuring the trust between your subaccount and a custom identity provider, see [Establish Trust and Federation Between UAA and Identity Authentication](establish-trust-and-federation-between-uaa-and-identity-authentication-161f8f0.md).
 
@@ -80,5 +80,5 @@ Custom trust configuration \(for example: a tenant of the Identity Authenticatio
 
 [Working with Role Collections](working-with-role-collections-393ea0b.md "You can manage role collections by creating new ones from scratch or by copying an existing one and editing it. You can add or remove roles. You can also add or remove users or user groups to the role collections. This is the assignment or unassignment action. You can drill down all the way to the role definition or to the individual role, user, and user group, and make changes there.")
 
-[Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md "When setting up accounts you need to assign users. While we provide you with your first users to get you started, your organization has its own user bases which you want to integrate.")
+[Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md "When setting up accounts you need to assign users. While we provide you with your first users to get you started, your organization has identity providers that you want to integrate.")
 

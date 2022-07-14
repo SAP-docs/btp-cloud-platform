@@ -695,7 +695,7 @@ For further documentation about developer tasks, see [Development in the Cloud F
 
 [Download and Start Using the btp CLI Client](../50-administration-and-ops/download-and-start-using-the-btp-cli-client-8a8f17f.md "To use the SAP BTP command line interface (btp CLI), you need to download the client first.")
 
-[Commands in the btp CLI](../50-administration-and-ops/commands-in-the-btp-cli-a03a555.md "A list of all tasks and respective commands that are available in the SAP BTP command line interface (btp CLI).")
-
 [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
+
+[btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

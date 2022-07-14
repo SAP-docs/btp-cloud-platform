@@ -14,7 +14,7 @@ Use your SAP Cloud Identity Services - Identity Authentication tenant as an iden
 
 -   You've a tenant of SAP Cloud Identity Services - Identity Authentication.
 
-    For more information, see [Initial Setup](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/31af7da133874e199a7df1d42905241b.html) in the documentation for Identity Authentication.
+    For more information, see [Tenant Model and Licensing](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html?version=Cloud) in the documentation for Identity Authentication.
 
 -   The Identity Authentication tenant must be associated with the same customer ID as the relevant global account of SAP BTP.
 
@@ -75,10 +75,12 @@ You've configured trust in your tenant of the Identity Authentication service, w
 
 ## Next Steps
 
-If you don't need SAP ID service anymore, set it to inactive \(see [Default Identity Provider](default-identity-provider-d6a8db7.md)\).
+If you don't need the default identity provider anymore, set it to inactive or hide the logon link.
 
 **Related Information**  
 
 
 [Managing Security Administrators in Your Subaccount \[Feature Set A\]](managing-security-administrators-in-your-subaccount-feature-set-a-6752c4b.md "Running on the cloud management tools feature set A: When you create a subaccount, SAP BTP automatically grants your user the role for the administration of business users and their authorizations in the subaccount. Having this role, you can also add or remove other users who will then also be user and role administrators of this subaccount.")
+
+[Default Identity Provider](default-identity-provider-d6a8db7.md "SAP ID service is the default identity provider for both platform users and business users (in applications) at SAP BTP. You can start using it without further configuration.")
 

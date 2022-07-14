@@ -2,34 +2,16 @@
 
 # Commands in the btp CLI
 
-A list of all tasks and respective commands that are available in the SAP BTP command line interface \(btp CLI\).
-
-> ### Tip:  
-> After login, all commands are executed in the global account. If you want to work in a specific subaccount or a directory, we recommend to set the target by using `btp target` \(see [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md)\). Once you have done so, you do not have to pass the subaccount or directory parameter with every command, but it is taken from the context.
-
-> ### Tip:  
-> You can find extensive help about each command directly in the btp CLI. For example, use one of the following commands for help on `btp list accounts/subaccount`:
-> 
-> ```
-> btp help list accounts/subaccount
-> ```
-> 
-> ```
-> btp --help list accounts/subaccount
-> ```
-> 
-> ```
-> btp list accounts/subaccount --help
-> ```
+Find a full reference of all btp CLI commands and their parameters here: [btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html).
 
 **Related Information**  
 
 
-[Log in](log-in-e241b30.md "Log in with the btp CLI is on global account level.")
+[Download and Start Using the btp CLI Client](download-and-start-using-the-btp-cli-client-8a8f17f.md "To use the SAP BTP command line interface (btp CLI), you need to download the client first.")
 
 [Command Syntax of the btp CLI](command-syntax-of-the-btp-cli-69606f4.md "Each command consists of the base call btp followed by a verb (the action), a combination of group and object, and parameters.")
 
-[Get Help](get-help-f8fd1e5.md "There is extensive help in the btp CLI about every command. You can get help with the help action or the --help option.")
+[How to Work with the btp CLI](how-to-work-with-the-btp-cli-11d9f67.md "Learn how to work with the SAP BTP command line interface (btp CLI). For example, how to log in, get help, and set a default context for commands.")
 
-[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Set the target for command calls to a subaccount, a directory, or the global account with the btp target command.")
+[Troubleshooting and Support](troubleshooting-and-support-4023e15.md "Troubleshooting and support information for the btp CLI.")
 

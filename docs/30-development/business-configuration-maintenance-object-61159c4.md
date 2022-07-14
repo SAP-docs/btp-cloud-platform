@@ -8,7 +8,7 @@
 
 ## Purpose
 
-A business configuration maintenance object declares a service binding as relevant for business configuration. It will be shown on the list of all maintainable business configurations in the Fiori app . The business configuration maintenance object can be maintained via API or ADT.
+A business configuration maintenance object declares a service binding as relevant for business configuration. It will be shown on the list of all maintainable business configurations in the Fiori app [Maintain Business Configurations App](maintain-business-configurations-app-889b616.md). The business configuration maintenance object can be maintained via API or ADT.
 
 
 

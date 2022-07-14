@@ -24,6 +24,13 @@ Run the command...
 
 
 </th>
+<th valign="top">
+
+Command help
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -40,6 +47,13 @@ Get all the entitlements and quota assignments for a global account, directories
 
 
 </td>
+<td valign="top">
+
+[btp list accounts/entitlement](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-entitlement.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -52,6 +66,13 @@ Assign or update an entitlement to a subaccount or a directory
 <td valign="top">
 
 `btp assign accounts/entitlement`
+
+
+
+</td>
+<td valign="top">
+
+[btp assign accounts/entitlement](https://help.sap.com/docs/BTP/btp-cli/btp-assign-accounts-entitlement.html)
 
 
 
@@ -73,4 +94,6 @@ Assign or update an entitlement to a subaccount or a directory
 [Managing Users and Their Authorizations Using the btp CLI](managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md "User authorizations are managed by assigning role collections to users (for example, Subaccount Administrator). Use the SAP BTP command-line interface (btp CLI) to manage roles and role collections, and to assign role collections to users.")
 
 [Working With Resources of the SAP Service Manager Using the btp CLI](working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md "Use the SAP BTP command line interface to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.")
+
+[btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

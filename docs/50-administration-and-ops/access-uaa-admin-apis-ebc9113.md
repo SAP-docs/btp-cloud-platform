@@ -21,6 +21,8 @@ To enable programmatic access to the XS user authentication and authorization \(
 
 -   You have an org and a space where you can create a service instance.
 
+-   Platform users in Feature Set B must be in the default identity provider. For more information, see [Restrictions When Using Custom Identity Providers for Platform Users \[Feature Set B\]](restrictions-when-using-custom-identity-providers-for-platform-users-feature-set-b-6f0a623.md).
+
 
 
 

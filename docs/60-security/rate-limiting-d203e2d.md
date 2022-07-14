@@ -10,15 +10,23 @@ To protect the SAP Authorization and Trust Management service from overload of m
 
 -   Requests sent at a lower rate are processed directly.
 
--   When the limit for a subaccount is slightly exceeded, the requests are queued and sent to the SAP Authorization and Trust Management service at a maximum rate \(see table\). The response times increase due to the queuing.
+-   When the limit for a subaccount is exceeded, the requests are queued and sent to the SAP Authorization and Trust Management service at a maximum rate \(see table\). The response times increase because of the queuing.
 
--   If too many requests are queued so that the response time due to queuing exceeds about 5 seconds, the service sends an HTTP 429 response code. This response also contains the http `Retry-After` header, which indicates to the client how long the service is expected to be unavailable.
+-   If too many requests are queued so that the response time due to queuing exceeds a certain time, the service sends an HTTP 429 response code. This response also contains the http `Retry-After` header, which indicates when the client can retry.
 
 
 > ### Note:  
 > Since rate limiting is per subaccount, SaaS applications probably don't notice rate limiting because the load is distributed across different SaaS subaccounts.
 
-<a name="loiod203e2d41df1455d8fdc2334844a60d4__table_ykc_csf_bqb"/>Maximum Rate
+
+
+<a name="loiod203e2d41df1455d8fdc2334844a60d4__section_dhs_hgl_15b"/>
+
+## Token Endpoint
+
+The token endpoint enables you to authenticate with OAuth 2.0.
+
+<a name="loiod203e2d41df1455d8fdc2334844a60d4__table_ykc_csf_bqb"/>Token Endpoint
 
 
 <table>
@@ -48,7 +56,7 @@ Effect
 <tr>
 <td valign="top">
 
-https//*<subdomain\>*.authentication.*<landscape\>*/oauth/token
+https://*<subdomain\>*.authentication.*<landscape\>*/oauth/token
 
 
 
@@ -71,7 +79,7 @@ The requests are executed at once.
 <tr>
 <td valign="top">
 
-https//*<subdomain\>*.authentication.*<landscape\>*/oauth/token
+https://*<subdomain\>*.authentication.*<landscape\>*/oauth/token
 
 
 
@@ -85,7 +93,7 @@ Exceeding 60 requests per second
 </td>
 <td valign="top">
 
-The requests are being queued and then executed.
+The requests are queued and then executed.
 
 
 
@@ -94,7 +102,7 @@ The requests are being queued and then executed.
 <tr>
 <td valign="top">
 
-https//*<subdomain\>*.authentication.*<landscape\>*/oauth/token
+https://*<subdomain\>*.authentication.*<landscape\>*/oauth/token
 
 
 
@@ -102,6 +110,380 @@ https//*<subdomain\>*.authentication.*<landscape\>*/oauth/token
 <td valign="top">
 
 Significantly exceeding 60 requests per second
+
+
+
+</td>
+<td valign="top">
+
+An `HTTP 429 Too Many Requests` response status code is sent.
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loiod203e2d41df1455d8fdc2334844a60d4__section_h4z_cfl_15b"/>
+
+## Authorization, Security Settings, and Identity Provider Management APIs
+
+The authorization, security settings, and identity provider management APIs enable you to manage service instances, roles, role templates, role collections, and identity providers. You find the APIs of SAP Authorization and Trust Management service and of the security settings in the [SAP API Business Hub](https://api.sap.com/package/authtrustmgmnt/rest).
+
+<a name="loiod203e2d41df1455d8fdc2334844a60d4__table_tr5_r5d_15b"/>Authorization, Security Settings, and Identity Provider APIs
+
+
+<table>
+<tr>
+<th valign="top">
+
+Endpoint
+
+
+
+</th>
+<th valign="top">
+
+Subaccount Limit
+
+
+
+</th>
+<th valign="top">
+
+Effect
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+https://*<subdomain\>*.authentication.*<landscape\>*/sap/rest/authorization/v2
+
+\(Including all APIs with subpaths, for example `sap/rest/authorization/v2/apps`\)
+
+
+
+</td>
+<td valign="top">
+
+Up to 30 requests per second
+
+
+
+</td>
+<td valign="top">
+
+The requests are executed at once.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+https://*<subdomain\>*.authentication.*<landscape\>*/sap/rest/authorization/v2
+
+\(Including all APIs with subpaths, for example `sap/rest/authorization/v2/apps`\)
+
+
+
+</td>
+<td valign="top">
+
+Exceeding 30 requests per second
+
+
+
+</td>
+<td valign="top">
+
+The requests are queued and then executed.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+https://*<subdomain\>*.authentication.*<landscape\>*/sap/rest/authorization/v2
+
+\(Including all APIs with subpaths, for example `sap/rest/authorization/v2/apps`\)
+
+
+
+</td>
+<td valign="top">
+
+Significantly exceeding 30 requests per second
+
+
+
+</td>
+<td valign="top">
+
+An `HTTP 429 Too Many Requests` response status code is sent.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+https://*<subdomain\>*.authentication.*<landscape\>*/sap/rest/identity-providers
+
+\(Including all APIs with subpaths, for example `sap/rest/identity-providers/{id}`\)
+
+
+
+</td>
+<td valign="top">
+
+Up to 30 requests per second
+
+
+
+</td>
+<td valign="top">
+
+The requests are executed at once.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+https://*<subdomain\>*.authentication.*<landscape\>*/sap/rest/identity-providers
+
+\(Including all APIs with subpaths, for example `sap/rest/identity-providers/{id}`\)
+
+
+
+</td>
+<td valign="top">
+
+Exceeding 30 requests per second
+
+
+
+</td>
+<td valign="top">
+
+The requests are queued and then executed.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+https://*<subdomain\>*.authentication.*<landscape\>*/sap/rest/identity-providers
+
+\(Including all APIs with subpaths, for example `sap/rest/identity-providers/{id}`\)
+
+
+
+</td>
+<td valign="top">
+
+Significantly exceeding 30 requests per second
+
+
+
+</td>
+<td valign="top">
+
+An `HTTP 429 Too Many Requests` response status code is sent.
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loiod203e2d41df1455d8fdc2334844a60d4__section_xcj_hfl_15b"/>
+
+## User Management \(SCIM\) APIs
+
+The user management \(SCIM\) APIs enable you to manage shadow users and role collections. You find the APIs of SAP Authorization and Trust Management service in the [SAP API Business Hub](https://api.sap.com/package/authtrustmgmnt/rest).
+
+<a name="loiod203e2d41df1455d8fdc2334844a60d4__table_vlk_55d_15b"/>User Management \(SCIM\) APIs
+
+
+<table>
+<tr>
+<th valign="top">
+
+Endpoint
+
+
+
+</th>
+<th valign="top">
+
+Subaccount Limit
+
+
+
+</th>
+<th valign="top">
+
+Effect
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+https://*<subdomain\>*.authentication.*<landscape\>*/groups
+
+\(Including all APIs with subpaths, for example `sap/rest/groups/{id}`\)
+
+
+
+</td>
+<td valign="top">
+
+Up to 3 requests per second
+
+
+
+</td>
+<td valign="top">
+
+The requests are executed at once.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+https://*<subdomain\>*.authentication.*<landscape\>*/groups
+
+\(Including all APIs with subpaths, for example `sap/rest/groups/{id}`\)
+
+
+
+</td>
+<td valign="top">
+
+Exceeding 3 requests per second
+
+
+
+</td>
+<td valign="top">
+
+The requests are queued and then executed.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+https://*<subdomain\>*.authentication.*<landscape\>*/groups
+
+\(Including all APIs with subpaths, for example `sap/rest/groups/{id}`\)
+
+
+
+</td>
+<td valign="top">
+
+Significantly exceeding 3 requests per second
+
+
+
+</td>
+<td valign="top">
+
+An `HTTP 429 Too Many Requests` response status code is sent.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+https://*<subdomain\>*.authentication.*<landscape\>*/users
+
+\(Including all APIs with subpaths, for example `sap/rest/users/{id}`\)
+
+
+
+</td>
+<td valign="top">
+
+Up to 3 requests per second
+
+
+
+</td>
+<td valign="top">
+
+The requests are executed at once.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+https://*<subdomain\>*.authentication.*<landscape\>*/users
+
+\(Including all APIs with subpaths, for example `sap/rest/users/{id}`\)
+
+
+
+</td>
+<td valign="top">
+
+Exceeding 3 requests per second
+
+
+
+</td>
+<td valign="top">
+
+The requests are queued and then executed.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+https://*<subdomain\>*.authentication.*<landscape\>*/users
+
+\(Including all APIs with subpaths, for example `sap/rest/users/{id}`\)
+
+
+
+</td>
+<td valign="top">
+
+Significantly exceeding 3 requests per second
 
 
 

@@ -16,12 +16,11 @@ You can add space members and assign roles to them at the space level in the coc
 
     If you only have the Space Manager role, the users you want to add to the space must already be members of the org. For more details, see the *Context* section.
 
--   You have the e-mail addresses of the users that you want to add.
+-   The users exist in a trusted platform identity provider.
 
-    > ### Note:  
-    > You must add e-mail addresses of registered members who have an S-user or a P-user \(normally used for trial accounts\). Administrators can request S-user IDs on the SAP ONE Support Launchpad *User Management* application: [1271482](https://launchpad.support.sap.com/#/notes/1271482).
-    > 
-    > If users don’t have a registered S-user ID, they can register for a P-user on [sap.com](https://www.sap.com/).
+    All users of SAP BTP are stored in identity providers, either in the default or in a custom identity provider. SAP BTP needs a copy of the user, sometimes called a shadow user. You assign the shadow user authorizations to access resources in SAP BTP. When a user authenticates, SAP BTP forwards the request to the identity provider.
+
+    For more information, see [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md).
 
 
 
@@ -44,21 +43,34 @@ If you’re the Org Manager, you don’t need to first add the users as org memb
 
 1.  Navigate to the space to which you'd like to add members. For more information, see [Navigate to Orgs and Spaces](navigate-to-orgs-and-spaces-5bf8735.md).
 
-2.  In the navigation area, choose *Cloud Foundry* \> *Members*.
+2.  Choose a space.
 
-    All members currently assigned to the space are shown in a list.
+3.  In the navigation area, choose *Members*.
 
-3.  Choose *Add Members*.
+    The screen displays all members currently assigned to the org in a list.
 
-4.  Enter one or more e-mail addresses.
+4.  Choose *Add Members*.
 
-    You can use commas, spaces, semicolons, or line breaks to separate members.
+5.  Enter one or more e-mail addresses.
 
-5.  Feature Set A: Choose the *Origin*.
+    Use commas \(`,`\), spaces \(` `\), semicolons \(`;`\), or line breaks to separate members.
 
-    If you want to use a custom user base, choose *Other* for *Origin* and then enter the corresponding Identity Authentication tenant name. For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-8600afb.md).
+6.  Enter the *Origin* for the identity provider, which hosts the members you just added.
 
-6.  Select the roles for the users and save your changes.
+    The default identity provider is ***sap.ids***.
+
+    For more information, see [Default Identity Provider](default-identity-provider-d6a8db7.md).
+
+    If the new members are platform users from a custom identity provider, enter the origin.
+
+    -   Feature Set A: Choose *Other* and then enter the corresponding origin of the Identity Authentication tenant.
+
+        For more information about finding the origin, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-8600afb.md).
+
+
+7.  Select the roles for the users and save your changes.
+
+    For more information, see [About Roles in the Cloud Foundry Environment](about-roles-in-the-cloud-foundry-environment-0907638.md).
 
 
 
@@ -77,5 +89,5 @@ You also have the following options:
 
 [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 
-[Add Org Members Using the Cockpit](add-org-members-using-the-cockpit-a4eeaf1.md "Add users as org members and assign roles to grant the users access to user and quota information in a Cloud Foundry org.")
+[Add Org Members Using the Cockpit](add-org-members-using-the-cockpit-a4eeaf1.md "Add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.")
 

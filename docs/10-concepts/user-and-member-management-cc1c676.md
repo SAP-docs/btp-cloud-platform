@@ -2,7 +2,7 @@
 
 # User and Member Management
 
-On the cloud platform, member management happens at all levels from global account to space, while user management is done for deployed applications.
+On SAP BTP, member management happens at all levels from global account to environment, while user management is done for business applications.
 
 
 
@@ -10,11 +10,11 @@ On the cloud platform, member management happens at all levels from global accou
 
 ## User Accounts
 
-A user account corresponds to a particular user in an identity provider, such as the SAP ID service and consists, for example, of an SAP user ID \(S-user or P-user\) or an e-mail address and a password.
+A user account corresponds to a particular user in an identity provider, such as the default identity provider or a custom tenant of the Identity Authentication service.
 
 **User accounts** enable users to log on to SAP BTP and access subaccounts and use services according to the permissions given to them.
 
-Before diving into the different user and member management concepts, it's important to understand the difference between the 2 types of users we’re referring to: **Platform users** and **business users**.
+Before diving into the different user and member management concepts, it's important to understand the difference between the different types of users we’re referring to: **Platform users** and **business users**.
 
 ![Platform Users and Business Users](images/user-accounts_27c8463.png)
 
@@ -24,11 +24,11 @@ Before diving into the different user and member management concepts, it's impor
 
 ## Platform Users
 
-**Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot applications and services on SAP BTP. They’re the users that you give certain permissions for instance at global account or subaccount level, either by adding them as members with certain permissions \(feature set A\) or by assigning role collections to them \(feature set B\).
+**Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot applications and services on SAP BTP. They’re the users that you give certain permissions for instance at global account or subaccount level, either by adding them as members.
 
-Platform users who were added as members and who have administrative permissions can view or manage the list of global accounts, subaccounts, and Cloud Foundry orgs and spaces that are available to them. Members access them using the SAP BTP Cockpit or the SAP BTP command-line interface \(btp CLI\).
+Platform users who were added as members and who have administrative permissions can view or manage the list of global accounts, subaccounts, and environments, such as Cloud Foundry orgs and spaces. Members access them using the SAP BTP Cockpit or the SAP BTP command-line interface \(btp CLI\) or environment-specific CLI, such as the Cloud Foundry \(CF\) CLI.
 
-For platform users, there's a [default identity provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md). In cloud management tools feature set A, to use subaccount members from your own user base, use a tenant of the Identity Authentication service and, if needed, connect Identity Authentication to your own corporate identity provider.
+For platform users, there's a [default identity provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md). We expect that you have your own identity provider. We recommend that you configure your custom tenant of Identity Authentication as the identity provider and connect Identity Authentication to your own corporate identity provider. Custom identity provider for platform users are only supported in cloud management tools feature set A.
 
 > ### Note:  
 > For China \(Shanghai\) region, a different default identity provider is used.
@@ -41,11 +41,11 @@ For platform users, there's a [default identity provider](../50-administration-a
 
 ## Business Users
 
-**Business users** use the applications that are deployed to SAP BTP. For example, the end users of your deployed application or users of subscribed apps or services, such as SAP Business Application Studio or SAP Web IDE, are business users.
+**Business users** use the applications that are deployed to SAP BTP. For example, the end users of SaaS apps or services, such as SAP Workflow service or SAP Cloud Integration, or end users of your custom applications are business users.
 
-In the Cloud Foundry environment, application developers \(platform users\) create and deploy application-based security artifacts for business users. Administrators use these artifacts to assign roles, build role collections, and assign these role collections to business users or user groups. In this way, they control the users' permissions in the deployed application.
+Application developers \(platform users\) create and deploy application-specific security artifacts for business users, such as scopes. Administrators use these artifacts to assign roles, build role collections, and assign these role collections to business users or user groups. In this way, they control the users' permissions in the application.
 
-For business users, there's a [default identity provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md). We expect that you have your own user base. We recommend that you configure the Identity Authentication service as the identity provider and connect Identity Authentication to your own corporate identity provider.
+For business users, there's a [default identity provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md), too. We expect that you have your own identity provider. We recommend that you configure your custom tenant of Identity Authentication as the identity provider and connect Identity Authentication to your own corporate identity provider.
 
 
 
@@ -55,7 +55,7 @@ For business users, there's a [default identity provider](../50-administration-a
 
 **Member management** refers to managing permissions for platform users. You can think about it as managing the members of your team.
 
-Member management happens at global account, directory, subaccount, org, and space level. Members' permissions apply to all operations that are associated with the global account, the organization, or the space, irrespective of the tool used. Depending on the scope and the cloud management tools feature set you're using, you manage members in different ways:
+Member management happens at global account, directory, subaccount, and environment level. Members' permissions apply to all operations that are associated with the global account, the organization, or the space, irrespective of the tool used. Depending on the scope and the cloud management tools feature set you're using, you manage members in different ways:
 
 
 <table>
@@ -123,7 +123,7 @@ You don't have member management at subaccount level directly.
 
 The person who created the subaccount is automatically a security administrator of that subaccount. That person can assign additional subaccount security administrators on the *Security* \> *Administrators* page at subaccount level in the cockpit.
 
-As a security administrator, you can manage authentication and authorization in the subaccount, such as configuring trust to identity providers, and assigning role collections to business users.
+As a security administrator, you can manage authentication and authorization in the subaccount for business users, such as configuring trust to application identity providers, and assigning role collections to business users.
 
 You can only manage subaccount security administrators using the cockpit.
 
@@ -148,7 +148,7 @@ You manage global account members by assigning role collections to platform user
 -   Global Account Administrator
 -   Global Account Viewer
 
-Assign these role collections from the cockpit or the btp CLI. By assigning a role collection to a user, a so-called shadow user is created.
+Assign these role collections from the cockpit or the btp CLI.
 
 See:
 
@@ -190,7 +190,7 @@ You manage subaccount members by assigning role collections to platform users.
 > 
 > For more information, see [Managing Member Authorizations in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/a1ab5c4cc117455392cd0a512c7f890d.html "SAP BTP includes predefined platform roles that support the typical tasks performed by users when interacting with the platform. In addition, subaccount administrators can combine various scopes into a custom platform role that addresses their individual requirements.") :arrow_upper_right:.
 
-Use the following predefined role collections:
+Use the predefined role collections, such as:
 
 -   Subaccount Administrator
 -   Subaccount Viewer
@@ -210,6 +210,8 @@ See:
 </td>
 </tr>
 </table>
+
+Member management in the Cloud Foundry environment is independent of the feature set you use.
 
 <a name="loiocc1c676b43904066abb2a4838cbd0c37__table_yc5_znz_klb"/>Member Management in the Cloud Foundry Environment
 
@@ -234,7 +236,7 @@ Spaces
 <tr>
 <td valign="top">
 
-Manage org members on the *Members* page at subaccount level in the cockpit or with the Cloud Foundry CLI.
+Manage org members on the *Members* page at environment level in the cockpit or with the Cloud Foundry CLI.
 
 A platform user added as an org member can be either an **Org Manager** or an **Org Auditor**.
 
@@ -251,7 +253,7 @@ See:
 
 Manage space members on the *Members* page at space level in the cockpit or with the Cloud Foundry CLI.
 
-A platform user added as a space member can be either a **Space Manager**, **Space Developer**, or a **Space Auditor**.
+A platform user added as a space member can be either a **Space Manager**, **Space Developer**, **Space Auditor**, or **Space Supporter**.
 
 See:
 
@@ -265,13 +267,15 @@ See:
 </tr>
 </table>
 
-**User management** refers to managing authentication and authorization for your business users. This is only done for your deployed applications.
+**User management** refers to managing authentication and authorization for your business users.
 
 To manage your business users:
 
-1.  Configure trust to an identity provider in your subaccount.
+1.  Configure trust to an application identity provider in your subaccount.
 
-2.  Create those users in your subaccount.
+2.  Create shadow users in your subaccount for your business users in your identity provider.
+
+    When a user accesses a resource, SAP BTP redirects the user to the identity provider for authentication. You assign authorizations to shadow users in SAP BTP.
 
 3.  Assign role collections either directly to users or map them to user groups.
 
@@ -289,5 +293,5 @@ To learn more about user management, see [Security Administration: Managing Auth
 
 [Attributes](../50-administration-and-ops/attributes-713f52a.md "Attributes use information that is specific to the user, for example the user's country. If the application developer in the Cloud Foundry environment of SAP BTP has created a country attribute to a role, this restricts the data a business user can see based on this attribute.")
 
-[Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md "When setting up accounts you need to assign users. While we provide you with your first users to get you started, your organization has its own user bases which you want to integrate.")
+[Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md "When setting up accounts you need to assign users. While we provide you with your first users to get you started, your organization has identity providers that you want to integrate.")
 

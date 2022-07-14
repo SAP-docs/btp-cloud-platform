@@ -36,6 +36,13 @@ Run the command ...
 
 
 </th>
+<th valign="top">
+
+Command help
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -48,6 +55,13 @@ List all registered platforms in the current subaccount
 <td valign="top">
 
 `btp list services/platform`
+
+
+
+</td>
+<td valign="top">
+
+[btp list services/platform](https://help.sap.com/docs/BTP/btp-cli/btp-list-services-platform.html)
 
 
 
@@ -68,6 +82,13 @@ Get details about a specific platform registered in the current subaccount
 
 
 </td>
+<td valign="top">
+
+[btp get services/platform](https://help.sap.com/docs/BTP/btp-cli/btp-get-services-platform.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -80,6 +101,13 @@ Register a new platform in the current subaccount
 <td valign="top">
 
 `btp register services/platform`
+
+
+
+</td>
+<td valign="top">
+
+[btp register services/platform](https://help.sap.com/docs/BTP/btp-cli/btp-register-services-platform.html)
 
 
 
@@ -100,6 +128,13 @@ Update an existing platform registered in the current subaccount
 
 
 </td>
+<td valign="top">
+
+[btp update services/platform](https://help.sap.com/docs/BTP/btp-cli/btp-update-services-platform.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -112,6 +147,13 @@ Unregister an existing platform in the current subaccount
 <td valign="top">
 
 `btp unregister services/platform`
+
+
+
+</td>
+<td valign="top">
+
+[btp unregister services/platform](https://help.sap.com/docs/BTP/btp-cli/btp-unregister-services-platform.html)
 
 
 
@@ -142,6 +184,13 @@ Run the command ...
 
 
 </th>
+<th valign="top">
+
+Command help
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -154,6 +203,13 @@ List all registered brokers in the current subaccount
 <td valign="top">
 
 `btp list services/broker`
+
+
+
+</td>
+<td valign="top">
+
+[btp list services/broker](https://help.sap.com/docs/BTP/btp-cli/btp-list-services-broker.html)
 
 
 
@@ -174,6 +230,13 @@ Get a specific service broker in the current subaccount
 
 
 </td>
+<td valign="top">
+
+[btp get services/broker](https://help.sap.com/docs/BTP/btp-cli/btp-get-services-broker.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -186,6 +249,13 @@ Register a new service broker in the current subaccount
 <td valign="top">
 
 `btp register services/broker`
+
+
+
+</td>
+<td valign="top">
+
+[btp register services/broker](https://help.sap.com/docs/BTP/btp-cli/btp-register-services-broker.html)
 
 
 
@@ -206,6 +276,13 @@ Update an existing service broker in the current subaccount
 
 
 </td>
+<td valign="top">
+
+[btp update services/broker](https://help.sap.com/docs/BTP/btp-cli/btp-update-services-broker.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -218,6 +295,13 @@ Unregister an existing service broker in the current subaccount
 <td valign="top">
 
 `btp unregister services/broker`
+
+
+
+</td>
+<td valign="top">
+
+[btp unregister services/broker](https://help.sap.com/docs/BTP/btp-cli/btp-unregister-services-broker.html)
 
 
 
@@ -248,6 +332,13 @@ Run the command ...
 
 
 </th>
+<th valign="top">
+
+Command help
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -260,6 +351,13 @@ List all service instances associated with the current subaccount.
 <td valign="top">
 
 `btp list services/instance`
+
+
+
+</td>
+<td valign="top">
+
+[btp list services/instance](https://help.sap.com/docs/BTP/btp-cli/btp-list-services-instance.html)
 
 
 
@@ -280,6 +378,13 @@ Get details about a specific service instance associated with the current subacc
 
 
 </td>
+<td valign="top">
+
+[btp get services/instance](https://help.sap.com/docs/BTP/btp-cli/btp-get-services-instance.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -296,6 +401,13 @@ Create a new service instance of the service you want to consume.
 
 
 </td>
+<td valign="top">
+
+[btp create services/instance](https://help.sap.com/docs/BTP/btp-cli/btp-create-services-instance.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -308,6 +420,13 @@ Delete an existing service instance.
 <td valign="top">
 
 `btp delete services/instance`
+
+
+
+</td>
+<td valign="top">
+
+[btp delete services/instance](https://help.sap.com/docs/BTP/btp-cli/btp-delete-services-instance.html)
 
 
 
@@ -338,6 +457,13 @@ Run the command ...
 
 
 </th>
+<th valign="top">
+
+Command help
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -350,6 +476,13 @@ List all service bindings associated with the current subaccount.
 <td valign="top">
 
 `btp list services/binding`
+
+
+
+</td>
+<td valign="top">
+
+[btp list services/binding](https://help.sap.com/docs/BTP/btp-cli/btp-list-services-binding.html)
 
 
 
@@ -370,6 +503,13 @@ Get details about a specific service binding associated with the current subacco
 
 
 </td>
+<td valign="top">
+
+[btp get services/binding](https://help.sap.com/docs/BTP/btp-cli/btp-get-services-binding.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -386,6 +526,13 @@ Create a new binding between an existing service instance and an application.
 
 
 </td>
+<td valign="top">
+
+[btp create services/binding](https://help.sap.com/docs/BTP/btp-cli/btp-create-services-binding.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -398,6 +545,13 @@ Delete an existing binding between a service instance and an application.
 <td valign="top">
 
 `btp delete services/instance`
+
+
+
+</td>
+<td valign="top">
+
+[btp delete services/instance](https://help.sap.com/docs/BTP/btp-cli/btp-delete-services-instance.html)
 
 
 
@@ -428,6 +582,13 @@ Run the command ...
 
 
 </th>
+<th valign="top">
+
+Command help
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -444,6 +605,13 @@ List all service plans of services available for consumption that are associated
 
 
 </td>
+<td valign="top">
+
+[btp list services/plan](https://help.sap.com/docs/BTP/btp-cli/btp-list-services-plan.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -456,6 +624,13 @@ Get details about a specific service plan of a service that is available for con
 <td valign="top">
 
 `btp get services/plan`
+
+
+
+</td>
+<td valign="top">
+
+[btp get services/plan](https://help.sap.com/docs/BTP/btp-cli/btp-get-services-plan.html)
 
 
 
@@ -486,6 +661,13 @@ Run the command ...
 
 
 </th>
+<th valign="top">
+
+Command help
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -502,6 +684,13 @@ List all service offerings associated with your current subaccount.
 
 
 </td>
+<td valign="top">
+
+[btp list services/offering](https://help.sap.com/docs/BTP/btp-cli/btp-list-services-offering.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -514,6 +703,13 @@ Get details about a specific service offering associated with your subaccount.
 <td valign="top">
 
 `btp get services/offering`
+
+
+
+</td>
+<td valign="top">
+
+[btp get services/offering](https://help.sap.com/docs/BTP/btp-cli/btp-get-services-offering.html)
 
 
 
@@ -535,4 +731,6 @@ Get details about a specific service offering associated with your subaccount.
 [Working with External Resource Providers Using the btp CLI](working-with-external-resource-providers-using-the-btp-cli-48d7688.md "Use the SAP BTP command line interface (btp CLI) to get details, or to create or delete resource provider instances in a global account.")
 
 [Managing Users and Their Authorizations Using the btp CLI](managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md "User authorizations are managed by assigning role collections to users (for example, Subaccount Administrator). Use the SAP BTP command-line interface (btp CLI) to manage roles and role collections, and to assign role collections to users.")
+
+[btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

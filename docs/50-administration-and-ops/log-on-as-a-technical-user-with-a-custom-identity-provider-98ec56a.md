@@ -1,16 +1,26 @@
 <!-- loio98ec56a6dd4347b6ad466aaab19ded02 -->
 
-# Set Up Automated Logon with a Custom Identity Provider
+# Log On as a Technical User With a Custom Identity Provider
 
-To log on to Cloud Foundry, using a custom identity provider \(IdP\), use the `--origin` option of the Cloud Foundry command-line interface \(cf CLI\).
+To log on to Cloud Foundry, using a custom identity provider, use the `--origin` option of the Cloud Foundry command-line interface \(cf CLI\).
 
 
-
-<a name="loio98ec56a6dd4347b6ad466aaab19ded02__prereq_ifq_vn3_jlb"/>
 
 ## Prerequisites
 
-Users exist directly in your tenant of the SAP Cloud Identity Services - Identity Authentication and not in a corporate identity provider, such as a Microsoft Active Directory.
+The users exist:
+
+-   Directly in your tenant of the SAP Cloud Identity Services - Identity Authentication.
+
+-   In a corporate identity provider with Identity Authentication working as a proxy.
+
+    -   Trust to your Identity Authentication tenant must be configured with OIDC and not SAML.
+
+    -   Your corporate identity provider must support the password grant flow.
+
+
+    For more information, see [Configure Trust with OpenID Connect Corporate Identity Provider](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/8ff83a12bbb8491c9558d635d6bbb287.html?version=Cloud) in the documentation for Identity Authentication.
+
 
 
 
@@ -43,12 +53,10 @@ We recommend this method of logging on if you want to use an automated script an
 
         1.  Navigate to the subaccount of your user.
 
-        2.  Choose *Members*.
+        2.  Choose *Cloud Foundry* \> *Org Members*.
 
         3.  Find the <code><i class="varname">&lt;origin&gt;</i></code> value of your user in the table.
 
-
-    -   If two-factor authentication is enabled, concatenate your password and the passcode in a single string.
 
 
 

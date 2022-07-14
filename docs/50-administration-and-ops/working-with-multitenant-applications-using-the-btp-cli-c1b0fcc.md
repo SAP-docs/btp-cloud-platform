@@ -24,6 +24,13 @@ Run the command...
 
 
 </th>
+<th valign="top">
+
+Command help
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -36,6 +43,13 @@ Get all applications to which a subaccount is entitled to subscribe
 <td valign="top">
 
 `btp list accounts/subscription`
+
+
+
+</td>
+<td valign="top">
+
+[btp list accounts/subscription](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-subscription.html)
 
 
 
@@ -56,6 +70,13 @@ Get details of a multitenant application in a subaccount
 
 
 </td>
+<td valign="top">
+
+[btp get accounts/subscription](https://help.sap.com/docs/BTP/btp-cli/btp-get-accounts-subscription.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -68,6 +89,13 @@ Subscribe to an application from a subaccount
 <td valign="top">
 
 `btp subscribe accounts/subaccount`
+
+
+
+</td>
+<td valign="top">
+
+[btp subscribe accounts/subaccount](https://help.sap.com/docs/BTP/btp-cli/btp-subscribe-accounts-subaccount.html)
 
 
 
@@ -91,6 +119,13 @@ Update the plan of an existing subscription
 
 
 </td>
+<td valign="top">
+
+[btp update accounts/subscription](https://help.sap.com/docs/BTP/btp-cli/btp-update-accounts-subscription.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -103,6 +138,13 @@ Unsubscribe an application from a subaccount
 <td valign="top">
 
 `btp unsubscribe accounts/subaccount`
+
+
+
+</td>
+<td valign="top">
+
+[btp unsubscribe accounts/subaccount](https://help.sap.com/docs/BTP/btp-cli/btp-unsubscribe-accounts-subaccount.html)
 
 
 
@@ -126,4 +168,6 @@ For more information, see [Subscribe to Multitenant Applications Using the Cockp
 [Managing Users and Their Authorizations Using the btp CLI](managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md "User authorizations are managed by assigning role collections to users (for example, Subaccount Administrator). Use the SAP BTP command-line interface (btp CLI) to manage roles and role collections, and to assign role collections to users.")
 
 [Working With Resources of the SAP Service Manager Using the btp CLI](working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md "Use the SAP BTP command line interface to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.")
+
+[btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

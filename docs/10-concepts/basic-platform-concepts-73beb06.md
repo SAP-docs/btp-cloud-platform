@@ -183,7 +183,7 @@ For more information, see [Entitlements and Quotas](entitlements-and-quotas-00aa
 
 ## User and Member Management
 
-On the cloud platform, member management happens at all levels from global account to space, while user management is done for deployed applications.
+On SAP BTP, member management happens at all levels from global account to environment, while user management is done for business applications.
 
 **User accounts** enable users to log on to SAP BTP and access subaccounts and use services according to the permissions given to them. We distinguish between two types of users:
 
@@ -191,12 +191,12 @@ On the cloud platform, member management happens at all levels from global accou
 
 -   **Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot applications and services on SAP BTP.
 
--   **Business users** use the applications that are deployed to SAP BTP. For example, the end users of your deployed application or users of subscribed apps or services, such as SAP Business Application Studio or SAP Web IDE, are business users.
+-   **Business users** use the applications that are deployed to SAP BTP. For example, the end users of SaaS apps or services, such as SAP Workflow service or SAP Cloud Integration, or end users of your custom applications are business users.
 
 
 **Member management** refers to managing permissions for platform users. A member is a user who is assigned to an SAP BTP global account or subaccount. Administrators can add users to global accounts and subaccounts and assign roles to them as needed. You can use predefined roles, for example the administrator role for managing subaccount members.
 
-**User management** refers to managing authentication and authorization for your business users. This is only done for your deployed applications.
+**User management** refers to managing authentication and authorization for your business users.
 
 For more information, see [User and Member Management](user-and-member-management-cc1c676.md).
 

@@ -10,7 +10,7 @@ You can create a business configuration maintenance object together with all rel
 
 ## Context
 
-Creating a Fiori app to maintain customizing tables involves many different objects that need to be created manually. On the basis of a database table, this wizard creates all the development objects that are required so that the table content, and optionally, text table content, can be maintained with the *Maintain Business Configurations* app. For more information, see [Maintain Business Configurations App](../30-development/maintain-business-configurations-app-76384d8.md). A tutorial on how to use this wizard and the *Maintain Business Configurations* app is available here: [Factory Calendar](https://developers.sap.com/mission.abap-dev-factory-calendar.html).
+Creating a Fiori app to maintain customizing tables involves many different objects that need to be created manually. On the basis of a database table, this wizard creates all the development objects that are required so that the table content, and optionally, text table content, can be maintained with the *Maintain Business Configurations* app. For more information, see [Maintain Business Configurations App](maintain-business-configurations-app-76384d8.md). A tutorial on how to use this wizard and the *Maintain Business Configurations* app is available here: [Factory Calendar](https://developers.sap.com/mission.abap-dev-factory-calendar.html).
 
 
 

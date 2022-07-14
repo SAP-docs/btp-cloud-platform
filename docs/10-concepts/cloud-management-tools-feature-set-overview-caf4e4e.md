@@ -211,7 +211,7 @@ See:
 
 [Account Administration Using the SAP BTP Command Line Interface \(btp CLI\) \[Feature Set B\]](../50-administration-and-ops/account-administration-using-the-sap-btp-command-line-interface-btp-cli-feature-set-b-7c6df2d.md)
 
-[Commands in the btp CLI](../50-administration-and-ops/commands-in-the-btp-cli-a03a555.md)
+[btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 
 [Setting Up a Global Account via the Command Line \[Feature Set B\]](../20-getting-started/setting-up-a-global-account-via-the-command-line-feature-set-b-accd5b2.md)
 
@@ -375,7 +375,7 @@ The Authorization and Trust Management \(XSUAA\) service is responsible for acce
 
 In the cockpit, a new *Security* tab provides access to management functions for role collections and user assignment.
 
-With feature set B, global account users from the SAP ID service are identified by their e-mail address and not their user ID.
+With feature set B, global account users are identified by their e-mail address and not their user ID.
 
 See:
 
@@ -406,7 +406,7 @@ Summary:
 -   Subaccount members are determined by assignment of roles in the Cloud Foundry org under the *Members* tab.
 
 
-With feature set A, you define administrators in the cockpit under the *Security* tab with the *Administrators* menu item. Members of the subaccount are also members of the environments provided by the subaccount.
+With feature set A, you define administrators in the cockpit under the *Security* tab with the *Administrators* menu item.
 
 See:
 

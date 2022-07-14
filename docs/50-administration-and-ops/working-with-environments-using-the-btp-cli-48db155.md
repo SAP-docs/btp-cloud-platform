@@ -24,6 +24,13 @@ Run the command ...
 
 
 </th>
+<th valign="top">
+
+Command help
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -36,6 +43,13 @@ Get all available environments for a subaccount
 <td valign="top">
 
 `btp list accounts/available-environment`
+
+
+
+</td>
+<td valign="top">
+
+[btp list accounts/available-environment](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-available-environment.html)
 
 
 
@@ -56,6 +70,13 @@ Get details about an environment available for a subaccount
 
 
 </td>
+<td valign="top">
+
+[btp get accounts/available-environment](https://help.sap.com/docs/BTP/btp-cli/btp-get-accounts-available-environment.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -68,6 +89,13 @@ Get all environment instances of a subaccount
 <td valign="top">
 
 `btp list accounts/environment-instance`
+
+
+
+</td>
+<td valign="top">
+
+[btp list accounts/environment-instance](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-environment-instance.html)
 
 
 
@@ -88,6 +116,13 @@ Get a specific environment instance of a subaccount
 
 
 </td>
+<td valign="top">
+
+[btp get accounts/environment-instance](https://help.sap.com/docs/BTP/btp-cli/btp-get-accounts-environment-instance.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -100,6 +135,13 @@ Create an environment instance in a subaccount
 <td valign="top">
 
 `btp create accounts/environment-instance`
+
+
+
+</td>
+<td valign="top">
+
+[btp create accounts/environment-instance](https://help.sap.com/docs/BTP/btp-cli/btp-create-accounts-environment-instance.html)
 
 
 
@@ -120,6 +162,13 @@ Update the plan and/or configuration parameters of an environment in a subaccoun
 
 
 </td>
+<td valign="top">
+
+[btp update accounts/environment-instance](https://help.sap.com/docs/BTP/btp-cli/btp-update-accounts-environment-instance.html)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -132,6 +181,13 @@ Delete environment instances of a subaccount
 <td valign="top">
 
 `btp delete accounts/environment-instance`
+
+
+
+</td>
+<td valign="top">
+
+[btp delete accounts/environment-instance](https://help.sap.com/docs/BTP/btp-cli/btp-delete-accounts-environment-instance.html)
 
 
 
@@ -155,4 +211,6 @@ Delete environment instances of a subaccount
 [Working With Resources of the SAP Service Manager Using the btp CLI](working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md "Use the SAP BTP command line interface to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.")
 
 [Org Management Using the SAP BTP Command Line Interface \(btp CLI\) \[Feature Set B\]](org-management-using-the-sap-btp-command-line-interface-btp-cli-feature-set-b-aee40e1.md "The Cloud Foundry environment allows you to create polyglot cloud applications in Cloud Foundry. To manage the lifecycle of an org in the Cloud Foundry environment, use the accounts/environment-instance command in the btp CLI.")
+
+[btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

@@ -17,7 +17,7 @@ You can use the Cloud Foundry Command Line Interface \(cf CLI\) to add organizat
 -   The Org Manager role for the org in question.
 
     > ### Note:  
-    > You automatically have the Org Manager role in a subaccount that you created.
+    > You automatically have the Org Manager role in an org that you created.
 
 -   The user exists in the UAA.
 
@@ -31,10 +31,13 @@ You can use the Cloud Foundry Command Line Interface \(cf CLI\) to add organizat
 
         For example: `cf login -a https://api.cf.eu20.hana.ondemand.com`
 
+        > ### Note:  
+        > The landscape the user logs on to must be the same as the landscape where the subaccount is located. See the overview page of your subaccount for the API endpoint.
+
 
 -   You have the e-mail addresses of the members that you want to add.
 
-    The user must already exist in the connected identity provider. For more information, see [Managing Users and Their Authorizations Using the btp CLI](managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
+    The user must already exist in the connected identity provider. For more information, see [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md).
 
 -   Download and install the cf CLI and log on to Cloud Foundry. For more information, see [Download and Install the Cloud Foundry Command Line Interface](download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md) and [Log On to the Cloud Foundry Environment Using the Cloud Foundry Command Line Interface](log-on-to-the-cloud-foundry-environment-using-the-cloud-foundry-command-line-interface-7a37d66.md).
 
@@ -45,7 +48,7 @@ You can use the Cloud Foundry Command Line Interface \(cf CLI\) to add organizat
 
 ## Context
 
-This procedure is meant for the `OrgManager` and `OrgAuditor` roles. To add members with the `OrgUser` role, follow the procedure described in [Add Space Members Using the Cloud Foundry Command Line Interface](add-space-members-using-the-cloud-foundry-command-line-interface-d23ea8b.md).
+This task is meant for the `OrgManager` and `OrgAuditor` roles. To add members with the `OrgUser` role, follow the procedure described in [Add Space Members Using the Cloud Foundry Command Line Interface](add-space-members-using-the-cloud-foundry-command-line-interface-d23ea8b.md).
 
 
 
@@ -77,7 +80,7 @@ cf unset-org-role <USERNAME> <ORG> <ROLE>
 **Related Information**  
 
 
-[Supported Tools and Services When Using Custom Identity Providers for Platform Users\[Feature Set A\]](supported-tools-and-services-when-using-custom-identity-providers-for-platform-users-fe-94ef515.md "Not all tools and services of SAP BTP support the use of custom identity providers with platform users. We provide a list of tools and services, which support this feature and any restrictions that apply.")
+[Supported Tools and Services When Using Custom Identity Providers for Platform Users](supported-tools-and-services-when-using-custom-identity-providers-for-platform-users-94ef515.md "Not all tools and services of SAP BTP support the use of custom identity providers with platform users. We provide a list of tools and services, which support this feature and any restrictions that apply.")
 
 [About Roles in the Cloud Foundry Environment](about-roles-in-the-cloud-foundry-environment-0907638.md "Roles determine which features users can view and access, and which actions they can initiate.")
 

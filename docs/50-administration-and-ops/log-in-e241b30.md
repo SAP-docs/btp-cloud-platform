@@ -27,13 +27,23 @@ Log in with the btp CLI is on global account level.
 
 When you log in to your global account with the btp CLI, a token is created and stored on your computer that allows to close and reopen the command line without losing your login. With each command call, this token is renewed and valid for 24 hours. So, if you take a longer break from working with the btp CLI, you’ll have to log in again. If you want to end your login earlier, you can use `btp logout`.
 
-Alternatively, you can also log in with single sign-on directly at your identity provider through a web browser. See [Log In Through a Browser](log-in-through-a-browser-b2a56a8.md).
+
+
+### Login with single sign-on
+
+We recommend using single sign-on and authenticating directly at your identity provider through a web browser:
+
+```
+btp login --sso
+```
+
+See [Log in with Single Sign-On](log-in-with-single-sign-on-b2a56a8.md).
 
 
 
 ## Procedure
 
-1.  Use `btp login`. The btp CLI prompts for all login information, but optionally, you can provide the required information as parameters.
+1.  To log in manually, use `btp login`. The btp CLI prompts for all login information, but optionally, you can provide the required information as parameters.
 
     Usage: `btp [OPTIONS] login [PARAMS]`
 
@@ -126,12 +136,12 @@ Alternatively, you can also log in with single sign-on directly at your identity
     </td>
     <td valign="top">
 
-    Opens a browser for single sign-on at the identity provider. Use `--sso manual` to suppress automatic browser opening.
+    Opens a browser for single sign-on at the identity provider. To suppress automatic browser opening, use `--sso manual`.
 
     > ### Note:  
     > To log on with SAP Universal ID, you need to use this parameter. Otherwise log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
     > 
-    > For more information, see SAP Note [3085908](https://launchpad.support.sap.com/#/notes/3085908) and [Log In Through a Browser](log-in-through-a-browser-b2a56a8.md).
+    > For more information, see SAP Note [3085908](https://launchpad.support.sap.com/#/notes/3085908) and [Log in with Single Sign-On](log-in-with-single-sign-on-b2a56a8.md).
 
 
     
@@ -175,19 +185,5 @@ To change this location, use the `--config` option or the environmnet variable. 
 **Related Information**  
 
 
-[Get Help](get-help-f8fd1e5.md "There is extensive help in the btp CLI about every command. You can get help with the help action or the --help option.")
-
-[View Version and Current Context](view-version-and-current-context-9c29222.md "To find out the current context you’re working in, run the command btp --info or simply btp.")
-
-[Log out](log-out-9f1c87a.md "Logging out of the configured server removes all user-specific data from the configuration file.")
-
-[Enable Command Autocompletion](enable-command-autocompletion-46355fa.md "Use command autocompletion to save keystrokes when entering command actions, group-object combinations, and their parameters in the SAP BTP command line interface (btp CLI).")
-
-[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Set the target for command calls to a subaccount, a directory, or the global account with the btp target command.")
-
-[Change the Output Format to JSON](change-the-output-format-to-json-dcb85b7.md "Use the --format json option to change the output format of a command to JSON.")
-
-[Specify the Location of the Configuration File](specify-the-location-of-the-configuration-file-e57288d.md "You can change the location of the configuration file by using the --config option or the environment variable.")
-
-[Commands in the btp CLI](commands-in-the-btp-cli-a03a555.md "A list of all tasks and respective commands that are available in the SAP BTP command line interface (btp CLI).")
+[btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

@@ -8,7 +8,7 @@
 > ### Note:  
 > The content in this section is only relevant for **platform users** and **not** business users.
 > 
-> For more information about establishing trust for business users, see [Establish Trust and Federation Between UAA and Identity Authentication](establish-trust-and-federation-between-uaa-and-identity-authentication-161f8f0.md).
+> For more information about establishing trust for subaccounts for business users, see [Establish Trust and Federation Between UAA and Identity Authentication](establish-trust-and-federation-between-uaa-and-identity-authentication-161f8f0.md).
 
 By default, platform users in multi-environment subaccounts are users in SAP ID service. The use of your own identity provider requires integration between the user bases of multi-environment and Neo subaccounts.
 
@@ -23,7 +23,7 @@ By default, platform users in multi-environment subaccounts are users in SAP ID 
     > ### Restriction:  
     > Trial accounts of SAP BTP don’t provide an Identity Authentication tenant. Without an Identity Authentication tenant, you can't configure a custom platform identity provider in a trial account.
 
-    For more information, see the [documentation](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html) for SAP BTP Identity Authentication service.
+    For more information, see the [documentation](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html) for SAP Cloud Identity Services - Identity Authentication.
 
 -   You've a subaccount with the Neo environment in addition to your multienvironment subaccount.
 
@@ -51,7 +51,7 @@ Platform users perform technical development, deployment, and administration tas
 -   Enforce your own password and authentication policies, such as stronger passwords or multifactor authentication.
 
 
-For more information, see [Supported Tools and Services When Using Custom Identity Providers for Platform Users\[Feature Set A\]](supported-tools-and-services-when-using-custom-identity-providers-for-platform-users-fe-94ef515.md).
+For more information, see [Supported Tools and Services When Using Custom Identity Providers for Platform Users](supported-tools-and-services-when-using-custom-identity-providers-for-platform-users-94ef515.md).
 
 
 
@@ -157,7 +157,7 @@ For more information, see [Supported Tools and Services When Using Custom Identi
 **Related Information**  
 
 
-[User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On the cloud platform, member management happens at all levels from global account to space, while user management is done for deployed applications.")
+[User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, member management happens at all levels from global account to environment, while user management is done for business applications.")
 
 [Bringing Your Corporate Identity Provider for Platform Users \[Feature Set A\]](../10-concepts/bringing-your-corporate-identity-provider-for-platform-users-feature-set-a-783ff50.md "SAP BTP supports the use of your own identity provider for platform users. The use of your own identity provider requires integration between the user bases of Cloud Foundry and Neo environments.")
 

@@ -1,6 +1,6 @@
 <!-- loio94ef5154e384408796c035a82b043f82 -->
 
-# Supported Tools and Services When Using Custom Identity Providers for Platform Users\[Feature Set A\]
+# Supported Tools and Services When Using Custom Identity Providers for Platform Users
 
 Not all tools and services of SAP BTP support the use of custom identity providers with platform users. We provide a list of tools and services, which support this feature and any restrictions that apply.
 
@@ -39,6 +39,9 @@ Description
 You can connect a Cloud Connector with a multi-environment subaccount of SAP BTP.
 
 For more information, see [Use a Custom IDP for Subaccount Configuration](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/202261235a204db5ba0b35bbaa6d40ff.html "Enable custom identity provider (IDP) authentication to configure a Cloud Foundry subaccount in the Cloud Connector by using a one-time passcode.") :arrow_upper_right:.
+
+> ### Note:  
+> Establishing a connection to an SAP BTP multi-environment subaccount in Cloud Connector works only with users from the default identity provider in Feature Set B.
 
 
 
@@ -163,9 +166,11 @@ Platform users logged on using custom identity providers can use the SAP Job Sch
 </td>
 <td valign="top">
 
-Supported.
+SAP Mobile Services uses platform users to log on to the admin cockpit and manage apps and configurations.
 
-For more information, see [Configuring App Security](https://help.sap.com/docs/SAP_MOBILE_SERVICES/468990a67780424a9e66eb096d4345bb/cfda4108a6b845d686d6d465a7db6d91.html) in the SAP Mobile Services documentation.
+Based on their space member roles, platform users can log on using a custom identity provider and access the SAP Mobile Services admin cockpit.
+
+For more information, see [Set Up Customer Accounts](https://help.sap.com/docs/SAP_MOBILE_SERVICES/468990a67780424a9e66eb096d4345bb/d2a9afc1681c4e57a4a0f2039274d250.html) in the SAP Mobile Services documentation.
 
 
 

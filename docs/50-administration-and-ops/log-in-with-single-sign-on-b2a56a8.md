@@ -1,8 +1,8 @@
 <!-- loiob2a56a8a222940089fd2704a9c26140d -->
 
-# Log In Through a Browser
+# Log in with Single Sign-On
 
-Use the single sign-on flag \(`btp login --sso`\) to log in to your identity provider through a browser instead of passing username and password on the command line.
+Use the single sign-on parameter \(`btp login --sso`\) to log in to your identity provider through a browser instead of passing username and password on the command line.
 
 
 
@@ -34,7 +34,7 @@ Login through a browser is only available if you use the default server URL that
     btp login --sso manual
     ```
 
-2.  Authenticate directly at your identity provider through your browser.
+2.  Authenticate directly at SAP ID service through your browser.
 
     If you already have an active session, the identity provider immediately transfers a token to the client, which completes your login. Otherwise, you need to enter your credentials.
 
@@ -45,8 +45,4 @@ Login through a browser is only available if you use the default server URL that
 
 
 [Log in](log-in-e241b30.md "Log in with the btp CLI is on global account level.")
-
-[Commands in the btp CLI](commands-in-the-btp-cli-a03a555.md "A list of all tasks and respective commands that are available in the SAP BTP command line interface (btp CLI).")
-
-[How to Work with the btp CLI](how-to-work-with-the-btp-cli-11d9f67.md "Learn how to work with the SAP BTP command line interface (btp CLI). For example, how to log in, get help, and set a default context for commands.")
 

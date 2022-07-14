@@ -43,18 +43,22 @@ Use the Cloud Foundry Command Line Interface \(cf CLI\) to log on to the Cloud F
     cf login
     ```
 
-4.  When prompted, enter your user credentials \(email and password\). 
-
     > ### Note:  
-    > To log on with SAP Universal ID, you need a browser in the logon process. Use the option `--sso`.
+    > -   To log on with SAP Universal ID, you need a browser in the logon process. Use the option `--sso`.
     > 
-    > For more information, see [Log On Manually With a Custom Identity Provider](log-on-manually-with-a-custom-identity-provider-e1009b4.md).
+    >     For more information, see [Log On Manually With a Custom Identity Provider](log-on-manually-with-a-custom-identity-provider-e1009b4.md).
     > 
-    > Otherwise log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service.
+    >     Otherwise log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service.
     > 
-    > If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
+    >     If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
     > 
-    > For more information, see SAP Note [3085908](https://launchpad.support.sap.com/#/notes/3085908).
+    >     For more information, see SAP Note [3085908](https://launchpad.support.sap.com/#/notes/3085908).
+    > 
+    > -   To log on with a specific identity provider, use the option `--origin`.
+    > 
+    >     For more information, see [Log On as a Technical User With a Custom Identity Provider](log-on-as-a-technical-user-with-a-custom-identity-provider-98ec56a.md).
+
+4.  When prompted, enter your user credentials \(email and password\). 
 
 5.  To view the help for the CLI, execute <code><b><i>cf help</i></b></code>, which lists the most common CLI commands with a short description, or ***cf help -a***, which lists all commands. To get help for a specific command, execute <code><b><i>cf help <i class="varname">&lt;command&gt;</i></i></b></code>.
 

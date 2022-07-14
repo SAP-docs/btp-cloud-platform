@@ -43,7 +43,7 @@ The appearance of the UI can be modified by selecting the rows to be displayed o
 
 ## SAP Audit Log Viewer service subscription
 
-To use the SAP Audit Log Viewer service you have to subscribe for it using the SAP BTP cockpit cockpit in the *Subscriptions* tab of your subaccount. Once you have subscribed, select *Go to Application* to you open the SAP Audit Log Viewer service and login there.
+To use the SAP Audit Log Viewer service, subscribe for it using the SAP BTP cockpit in the *Subscriptions* tab of your subaccount. Once you have subscribed, select *Go to Application* to open the SAP Audit Log Viewer service and login there.
 
 
 
@@ -51,7 +51,7 @@ To use the SAP Audit Log Viewer service you have to subscribe for it using the S
 
 ## SAP Audit Log Viewer service access
 
-To retrieve the audit logs for your subaccount using the SAP Audit Log Viewer service you need to have proper authorizations. See [https://docs.cloudfoundry.org/concepts/roles.html\#permissions](https://docs.cloudfoundry.org/concepts/roles.html#permissions).Create a `RoleCollection`, include the *auditlog-viewer!t\*/Auditlog Auditor* role and the *auditlog-management!b\*/Auditlog Auditor* role. Assign it to a user or create a rule to assign it to users based on the SAML Assertion coming from the IDP.
+To retrieve the audit logs for your subaccount using the SAP Audit Log Viewer service, you need to have proper authorizations. See [https://docs.cloudfoundry.org/concepts/roles.html\#permissions](https://docs.cloudfoundry.org/concepts/roles.html#permissions).Create a `RoleCollection`, include the *auditlog-viewer!t\*/Auditlog Auditor* role and the *auditlog-management!b\*/Auditlog Auditor* role. Assign it to a user or create a rule to assign it to users based on the SAML Assertion coming from the IDP.
 
 > ### Note:  
 > Only account members with the `Security Administrator` role are authorized to edit application authorizations.
