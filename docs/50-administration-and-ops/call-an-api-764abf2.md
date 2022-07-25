@@ -19,13 +19,13 @@ To call an API of the Authorization and Trust Management Service you need to obt
 
 ## Procedure
 
-1.  Call the roles endpoint of the authorization API.
+1.  Authenticate a call to an API endpoint of the authorization API using the access token previously obtained as the value for a Bearer type token in an `Authorization` header.
 
     > ### Sample Code:  
     > In this example, we request the list of roles of an XSUAA configuration.
     > 
     > ```
-    > curl --request GET \
+    > curl \
     >   --url https://api.authentication.eu10.hana.ondemand.com/sap/rest/authorization/v2/roles \
     >   --header 'Accept: application/json' \
     >   --header 'Authorization: bearer eyJhbGciOiJSUzI1N...' \
@@ -40,7 +40,7 @@ To call an API of the Authorization and Trust Management Service you need to obt
 
 ## Results
 
-The client returns the list of roles.
+A list of roles is returned.
 
 > ### Output Code:  
 > ```json

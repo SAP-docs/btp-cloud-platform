@@ -103,23 +103,24 @@ For more information about the available APIs, see [https://api.sap.com/package/
     > }
     > ```
 
-    With the URL, client ID, and client secret, you can get the access token. With the access token and the ***apiurl***, you have access to the API.
+    With the URL, client ID, and client secret, you can request an access token. With the access token and the ***apiurl***, you have access to the API.
 
-5.  Configure or program your application to get a token from the OAuth client.
+5.  Configure or program your application to request a token from the authorization server, using values of properties in this service key.
 
-    In your call to the OAuth client, you send the client ID and client secret, separated with a colon \(:\) and base64 encoded to the URL from the service key.
+    The token endpoint on the authorization server is made up from the value of the `url` property appended with `/oauth/token`. You authenticate this request with the value of the `clientid` and `clientsecret` properties, separated with a colon, with the `--user` parameter:
 
     > ### Sample Code:  
     > ```
-    > curl --request POST \
-    >   --url https://my-subdomain.authentication.eu10.hana.ondemand.com/oauth/token \
+    > curl \
+    >   --url '<url>/oauth/token' \
     >   --header 'Accept: application/json' \
-    >   --header 'Authorization: Basic eW91ckNsaWVudElEOnlvdXJDbGllbnRTZWNyZXQ' \
     >   --header 'cache-control: no-cache' \
-    >   --data 'grant_type=client_credentials&response_type=token'
+    >   --user '<clientid>:<clientsecret>' \
+    >   --data 'grant_type=client_credentials' \
+    >   --data 'response_type=token'
     > ```
 
-    The client returns a token.
+    The authorization server returns a token along with other related information.
 
     > ### Output Code:  
     > ```json
@@ -131,7 +132,7 @@ For more information about the available APIs, see [https://api.sap.com/package/
     > "jti":"be340353ac694b4cb504c6823f938647"}
     > ```
 
-6.  Use the value of the parameter `access_token` to make calls to the various API endpoints. For an example, see [Call an API](call-an-api-764abf2.md).
+6.  Use the value of the `access_token` property to make calls to the various API endpoints. For an example, see [Call an API](call-an-api-764abf2.md).
 
 
 **Related Information**  
