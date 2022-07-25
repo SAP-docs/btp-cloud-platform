@@ -28,6 +28,9 @@ Use your SAP Cloud Identity Services - Identity Authentication tenant as an iden
 > ### Note:  
 > The content in this topic is relevant for cloud management tools feature set A and cloud management tools feature set B.
 
+> ### Note:  
+> The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
+
 > ### Restriction:  
 > You can only establish trust with a single tenant of Identity Authentication per subaccount using this method.
 > 

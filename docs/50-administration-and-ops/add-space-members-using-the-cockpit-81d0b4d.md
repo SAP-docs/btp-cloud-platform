@@ -53,7 +53,7 @@ If you’re the Org Manager, you don’t need to first add the users as org memb
 
 5.  Enter one or more e-mail addresses.
 
-    Use commas \(`,`\), spaces \(` `\), semicolons \(`;`\), or line breaks to separate members.
+    Use commas \(`,`\), spaces \(` `\), semicolons \(. The changes you make to the roles of a member take effect immediately.`;`\), or line breaks to separate members.
 
 6.  Enter the *Origin* for the identity provider, which hosts the members you just added.
 
@@ -66,6 +66,10 @@ If you’re the Org Manager, you don’t need to first add the users as org memb
     -   Feature Set A: Choose *Other* and then enter the corresponding origin of the Identity Authentication tenant.
 
         For more information about finding the origin, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-8600afb.md).
+
+    -   Feature Set B: Select the corresponding origin of the Identity Authentication tenant.
+
+        For more information about finding the origin, see [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md).
 
 
 7.  Select the roles for the users and save your changes.
@@ -81,7 +85,7 @@ If you’re the Org Manager, you don’t need to first add the users as org memb
 
 You also have the following options:
 
--   To select or unselect roles for a member, choose <span class="SAP-icons"></span> \(Edit\). The changes you make to the roles of a member take effect immediately.
+-   To select or unselect roles for a member, choose <span class="SAP-icons"></span> \(Edit\)
 -   To remove all the roles of a member, choose <span class="SAP-icons"></span>. This removes the member from the space.
 
 **Related Information**  

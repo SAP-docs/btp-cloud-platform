@@ -453,7 +453,7 @@ See:
 <tr>
 <td valign="top">
 
-**Custom Identity Provider — CHANGED**
+**Custom Identity Provider for Platform Users — CHANGED**
 
 
 
@@ -475,9 +475,11 @@ See: [Trust and Federation with Identity Providers](../50-administration-and-ops
 
 Summary:
 
-Custom identity providers enable you to integrate business users from SAP Cloud Identity Services - Identity Authentication or your own corporate identity provider.
+Custom identity providers enable you to integrate platform and business users from SAP Cloud Identity Services - Identity Authentication or your own corporate identity provider.
 
 See: [Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md)
+
+[Restrictions When Using Custom Identity Providers for Platform Users \[Feature Set B\]](../50-administration-and-ops/restrictions-when-using-custom-identity-providers-for-platform-users-feature-set-b-6f0a623.md)
 
 
 

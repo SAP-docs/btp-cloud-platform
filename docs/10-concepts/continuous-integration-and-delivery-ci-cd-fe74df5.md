@@ -31,28 +31,28 @@ Depending on your use case, you can choose between different CI/CD pipelines to 
 
 SAP Continuous Integration and Delivery lets you configure and run predefined pipelines for the development of the following applications:
 
--   [SAP Cloud Application Programming Model](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/7c2a049670f64993b9d67c8f84ba0969.html)
+-   [SAP Cloud Application Programming Model](https://help.sap.com/docs/CONTINUOUS_DELIVERY/f3d64e9188f242ffb7873da5dfad4278/7c2a049670f64993b9d67c8f84ba0969.html) 
 
     Configure a CI/CD pipeline for the development of applications that follow the SAP Cloud Application Programming Model in the Cloud Foundry environment.
 
--   [SAP Fiori in the Cloud Foundry Environment](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/8887fe3c5445442b915d3c066c010d75.html)
+-   [SAP Fiori in the Cloud Foundry Environment](https://help.sap.com/docs/CONTINUOUS_DELIVERY/f3d64e9188f242ffb7873da5dfad4278/8887fe3c5445442b915d3c066c010d75.html)
 
     Configure a CI/CD pipeline for the development of SAPUI5/SAP Fiori applications in the Cloud Foundry environment.
 
--   [SAP Fiori in the Neo environment](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/1302e9ae408b4dc38d7109c75db9aa75.html)
+-   [SAP Fiori in the Neo environment](https://help.sap.com/docs/CONTINUOUS_DELIVERY/f3d64e9188f242ffb7873da5dfad4278/1302e9ae408b4dc38d7109c75db9aa75.html)
 
     Configure a CI/CD pipeline for the development of SAPUI5/SAP Fiori applications in the Neo environment.
 
--   [SAP Integration Suite Artifacts](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/019ed685a19b4efab4f7df0e108d1697.html)
+-   [SAP Integration Suite Artifacts](https://help.sap.com/docs/CONTINUOUS_DELIVERY/f3d64e9188f242ffb7873da5dfad4278/019ed685a19b4efab4f7df0e108d1697.html)
 
     Configure a CI/CD pipeline for the development of SAP Cloud Integration artifacts in the Cloud Foundry environment.
 
--   [Container-Based Applications](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/10970393828c46498806d1b322cf05a4.html)
+-   [Container-Based Applications](https://help.sap.com/docs/CONTINUOUS_DELIVERY/f3d64e9188f242ffb7873da5dfad4278/10970393828c46498806d1b322cf05a4.html)
 
     Configure a CI/CD pipeline for the development of container-based applications.
 
 
-To learn more about the CI/CD pipelines supported by SAP Continuous Integration and Delivery and the stages each pipeline can comprise, see [Supported Pipelines](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/e293286b06df426ab1cfa235332a2606.html).
+To learn more about the CI/CD pipelines supported by SAP Continuous Integration and Delivery and the stages each pipeline can comprise, see[Supported Pipelines](https://help.sap.com/docs/CONTINUOUS_DELIVERY/f3d64e9188f242ffb7873da5dfad4278/e293286b06df426ab1cfa235332a2606.html).
 
 
 
@@ -80,7 +80,7 @@ To configure SAP Continuous Integration and Delivery:
 
 Now you can create and modify your CI/CD jobs and monitor their outcome. If you want to automate your builds, you can configure a webhook between your repository and the service. You can create and modify timed triggers for your jobs, if necessary.
 
-For more information, see [Initial Setup](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/719acaf61e4b4bf0a496483155c52570.html) and [Configuration](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/39d0c2f0626f4303872e49b627b5c616.html), or follow the tutorial [Configure and Run a Predefined SAP Continuous Integration and Delivery \(CI/CD\) Pipeline](https://developers.sap.com/tutorials/btp-app-ci-cd-btp.html).
+For more information, see [Initial Setup](https://help.sap.com/docs/CONTINUOUS_DELIVERY/f3d64e9188f242ffb7873da5dfad4278/719acaf61e4b4bf0a496483155c52570.html) and [Configuration](https://help.sap.com/docs/CONTINUOUS_DELIVERY/f3d64e9188f242ffb7873da5dfad4278/39d0c2f0626f4303872e49b627b5c616.html), or follow the tutorial [Configure and Run a Predefined SAP Continuous Integration and Delivery \(CI/CD\) Pipeline](https://developers.sap.com/tutorials/btp-app-ci-cd-btp.html).
 
 
 

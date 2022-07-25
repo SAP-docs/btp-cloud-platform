@@ -41,6 +41,18 @@ See [Log in with Single Sign-On](log-in-with-single-sign-on-b2a56a8.md).
 
 
 
+### Login with a custom identity provider
+
+To login with a custom identity provider, use:
+
+```
+btp login --sso --idp <TENANT>
+```
+
+See [Log in with a Custom Identity Provider](log-in-with-a-custom-identity-provider-e48e486.md).
+
+
+
 ## Procedure
 
 1.  To log in manually, use `btp login`. The btp CLI prompts for all login information, but optionally, you can provide the required information as parameters.
@@ -51,6 +63,29 @@ See [Log in with Single Sign-On](log-in-with-single-sign-on-b2a56a8.md).
 
 
     <table>
+    <tr>
+    <td valign="top">
+
+    `--idp`*<TENANT\>*
+
+
+    
+    </td>
+    <td valign="top">
+
+    To use the default identity provider, i.e. SAP ID Service, you can omit this parameter.
+
+    If trust is configured between your global account and a custom identity provider, you can use this parameter to log in through this identity provider by providing its tenant ID. You find the correct value in the cockpit under *Security* → *Trust Configuration* → *Custom Platform Identity Providers* in the btp CLI column.
+
+    > ### Note:  
+    > To work with users from a custom identity provider, you need to specify the `--of-idp` parameter by providing the origin key of the custom identity provider. This is applicable to the following commands: `btp list security/user`, `btp get security/user`, `btp delete security/user`, `btp assign security/role-collection`, `btp unassign security/role-collection`, and you find this origin key in the cockpit under *Security*.
+
+    For more information about using a custom identiy provider, see [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md).
+
+
+    
+    </td>
+    </tr>
     <tr>
     <td valign="top">
 
@@ -136,7 +171,7 @@ See [Log in with Single Sign-On](log-in-with-single-sign-on-b2a56a8.md).
     </td>
     <td valign="top">
 
-    Opens a browser for single sign-on at the identity provider. To suppress automatic browser opening, use `--sso manual`.
+    Opens a browser for single sign-on at the identity provider. To suppress automatic browser opening, use `--sso manual`. To use a custom identity provider, you need to add the `--idp` parameter.
 
     > ### Note:  
     > To log on with SAP Universal ID, you need to use this parameter. Otherwise log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.

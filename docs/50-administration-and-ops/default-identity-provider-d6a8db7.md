@@ -8,6 +8,8 @@ SAP ID service is the default identity provider for both platform users and busi
 > For China \(Shanghai\) region, a different default identity provider is used.
 > 
 > For more information, see this [blog article](https://blogs.sap.com/2021/02/22/activate-totp-two-factor-authentication-on-sap-business-technology-platform-formerly-known-as-cloud-platform-at-alibaba-cloud/) on *SAP Community*.
+> 
+> For Government Cloud \(US\) region, a different default identity provider is used.
 
 
 

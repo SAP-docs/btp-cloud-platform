@@ -52,6 +52,10 @@ Add users as org members and assign roles to grant the users access to informati
 
         For more information about finding the origin, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-8600afb.md).
 
+    -   Feature Set B: Select the corresponding origin of the Identity Authentication tenant.
+
+        For more information about finding the origin, see [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md).
+
 
 6.  Select roles for the members and save your entries.
 
