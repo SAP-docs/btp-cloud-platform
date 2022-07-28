@@ -45,7 +45,7 @@ When creating this service instance, you create the required configurations in b
 
     2.  Specify a JSON file or specify parameters in the JSON format to define the communication arrangement for the communication scenario *Enterprise Eventing Integration \(SAP\_COM\_0092\)* in the SAP S/4HANA Cloud tenant and to configure the parameters for the Enterprise Messaging service. Choose *Next*.
 
-        For more information about the structure of the JSON file, see [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON File](define-sap-s-4hana-cloud-extensibility-service-descriptor-json-file-2d50d91.md).
+        For more information about the structure of the JSON file, see [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON/YAML File](define-sap-s-4hana-cloud-extensibility-service-descriptor-json-yaml-file-2d50d91.md).
 
     3.  \(Optional\) If you have already deployed an application that you want to bind to the new service instance, choose it from the list. Choose *Next*.
 

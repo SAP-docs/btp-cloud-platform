@@ -9,7 +9,7 @@ The examples in this section will help you to create the service JSON descriptor
 The information that you need to create the JSON file is available in the Display Communication Scenario app in the corresponding SAP S/4HANA Cloud system. It contains information such as scenario details and properties, and supported inbound and outbound authentication methods. See [Display Communication Scenarios](https://help.sap.com/viewer/f544846954f24b9183eddadcc41bdc3b/latest/en-US/baa798b6a1024d229ca3f51bde6f24f9.html).
 
 > ### Note:  
-> The purpose of these examples is just to give you an idea how you construct your JSON file. For more details of the properties of these JSON files, see [Communication Arrangement JSON File - Properties](communication-arrangement-json-file-properties-553a4c6.md).
+> The purpose of these examples is just to give you an idea how you construct your JSON file. For more details of the properties of these JSON files, see [Communication Arrangement JSON/YAML File - Properties](communication-arrangement-json-yaml-file-properties-553a4c6.md).
 
 
 

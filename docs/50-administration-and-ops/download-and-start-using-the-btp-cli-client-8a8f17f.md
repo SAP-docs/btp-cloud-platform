@@ -85,14 +85,6 @@ The client is available for 64-bit versions of the following operating systems:
 **Related Information**  
 
 
-[Command Syntax of the btp CLI](command-syntax-of-the-btp-cli-69606f4.md "Each command consists of the base call btp followed by a verb (the action), a combination of group and object, and parameters.")
-
-[How to Work with the btp CLI](how-to-work-with-the-btp-cli-11d9f67.md "Learn how to work with the SAP BTP command line interface (btp CLI). For example, how to log in, get help, and set a default context for commands.")
-
-[Commands in the btp CLI](commands-in-the-btp-cli-a03a555.md "Find a full reference of all btp CLI commands and their parameters here: btp CLI Command Reference.")
-
-[Troubleshooting and Support](troubleshooting-and-support-4023e15.md "Troubleshooting and support information for the btp CLI.")
-
 [How to Work with the btp CLI](how-to-work-with-the-btp-cli-11d9f67.md "Learn how to work with the SAP BTP command line interface (btp CLI). For example, how to log in, get help, and set a default context for commands.")
 
 [Command Syntax of the btp CLI](command-syntax-of-the-btp-cli-69606f4.md "Each command consists of the base call btp followed by a verb (the action), a combination of group and object, and parameters.")

@@ -4,6 +4,9 @@
 
 Define and execute hooks at specific phases of module deployment.
 
+> ### Note:  
+> The module hooks are supported from major schema version 3 onwards. If they are specified but schema version is below 3, they are ignored.
+
 You can use hooks to change the typical deployment process, in this case to enable tasks to be executed during a specific moment of the application deployment. For example, you can set hooks to be executed before or after the actual deployment steps for a module, depending on the applications' need.
 
 When added to the deployment descriptor, module hooks are modeled as follows:

@@ -1,8 +1,8 @@
 <!-- loio553a4c6b98be4c1ba7d1dfa0e9df8669 -->
 
-# Communication Arrangement JSON File - Properties
+# Communication Arrangement JSON/YAML File - Properties
 
-Use the service JSON descriptor to define the communication arrangement and the authentication type for the SAP S4/HANA Cloud API access.
+Use the service JSON descriptor for the Cloud Foundry environment or the service YAML descriptor for the Kyma environment to define the communication arrangement and the authentication type for the SAP S4/HANA Cloud API access.
 
 
 
@@ -10,11 +10,13 @@ Use the service JSON descriptor to define the communication arrangement and the 
 
 ## Context
 
-To construct the JSON file for the SAP S/4HANA Cloud APIs you want to use, you can use these parameters. To access the specific documentation of these APIs, see [SAP S/4HANA Cloud APIs at SAP API Business Hub](https://api.sap.com/package/SAPS4HANACloud?section=Artifacts).
+To construct the JSON file for the Cloud Foundry environment or the YAML file for the Kyma environment for the SAP S/4HANA Cloud APIs you want to use, you can use these parameters. To access the specific documentation of these APIs, see [SAP S/4HANA Cloud APIs at SAP API Business Hub](https://api.sap.com/package/SAPS4HANACloud?section=Artifacts).
 
-The information that you need to construct the JSON file is available in the Display Communication Scenario application in the corresponding SAP S/4HANA Cloud system. It contains information such as scenario details and properties, and supported inbound and outbound authentication methods. See [Display Communication Scenarios](https://help.sap.com/viewer/f544846954f24b9183eddadcc41bdc3b/latest/en-US/baa798b6a1024d229ca3f51bde6f24f9.html).
+The information that you need to construct the JSON or the YAML file is available in the Display Communication Scenario application in the corresponding SAP S/4HANA Cloud system. It contains information such as scenario details and properties, and supported inbound and outbound authentication methods. See [Display Communication Scenarios](https://help.sap.com/viewer/f544846954f24b9183eddadcc41bdc3b/latest/en-US/baa798b6a1024d229ca3f51bde6f24f9.html).
 
 For specific sample JSON files, see [Communication Arrangement JSON File - Examples](communication-arrangement-json-file-examples-80a7613.md).
+
+For specific sample YAML files, see [Communication Arrangement YAML File - Examples](communication-arrangement-yaml-file-examples-1ab9bf6.md).
 
 
 
@@ -718,4 +720,6 @@ Enter a value for the additional property of the communication arrangement.
 
 
 [Communication Arrangement JSON File - Examples](communication-arrangement-json-file-examples-80a7613.md "The examples in this section will help you to create the service JSON descriptor used for defining the communication arrangement and the authentication type for the SAP S/4HANA Cloud API access.")
+
+[Communication Arrangement YAML File - Examples](communication-arrangement-yaml-file-examples-1ab9bf6.md "The examples in this section will help you to create the service YAML descriptor used for defining the communication arrangement and the authentication type for the SAP S/4HANA Cloud API access.")
 

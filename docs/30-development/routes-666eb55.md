@@ -270,6 +270,36 @@ The directory from which application router serves static content \(for example,
 <tr>
 <td valign="top">
 
+<code><code>preferLocal</code></code>
+
+
+
+</td>
+<td valign="top">
+
+Boolean
+
+
+
+</td>
+<td valign="top">
+
+No
+
+
+
+</td>
+<td valign="top">
+
+Defines from which subaccount the destination is retrieved. If`preferLocal` is true, the destination is retrieved from the provider subaccount. If `preferLocal` is false or undefined, the destination is retrieved from the subscriber subaccount.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
  <code><a href="routes-666eb55.md#loio666eb55032d849beabb906b18712509b__section_replace">replace</a></code> 
 
 
@@ -455,6 +485,38 @@ The name of the identity provider you use if it’s provided in the definition o
 
 > ### Note:  
 > If `authenticationType` is set to *Basic Authentication* or *None*, don't define the `identityProvider` property.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`dynamicIdentityProvider`
+
+
+
+</td>
+<td valign="top">
+
+Boolean
+
+
+
+</td>
+<td valign="top">
+
+No
+
+
+
+</td>
+<td valign="top">
+
+Enables dynamic identity provider provisioning.
+
+If `dynamicIdentityProvider` is `true`, the end user can set the identity provider \(IDP\) for the application’s login process by filling the request query parameter `sap_idp` with the IDP origin key. If the `IdentityProvider` property is defined in the route, its value is overwritten by the `sap_idp` query parameter value. The default value for `dynamicIdentityProvider` is `false`.
 
 
 
@@ -1113,4 +1175,25 @@ A patient who tries to log into the system will be authenticated by patientIDP, 
 > Dynamic provisioning of the subscriber account identity provider is not supported.
 > 
 > Identity provider configuration is only supported in the client side logon redirect flow.
+
+
+
+### Route with a `dynamicIdentityProvider`
+
+This is an example of a route where the value of `identityProvider` is `patientsIDP` and where dynamic identity provider provisioning is enabled by setting `dynamicIdentityProvider` to true:
+
+> ### Sample Code:  
+> ```
+> [
+>     { 
+>         "source": "^/patients/index.html",
+>         "target": "/patients-index.html",
+>         "service": "html5-apps-repo-rt",
+>         "identityProvider": "patientsIDP",
+>         "dynamicIdentityProvider": true
+>     }
+> ]
+> ```
+
+In this example, the `patientsIDP` value for the `identityProvider` is replaced by `hospitalIDP` if a request with `sap_idp=hospitalIDP` is executed, for example, if the request is `https://shiva.health-center-approuter.cfapps.hana.ondemand.com/healthreport/patients/index.html?sap_idp=hospitalIDP`.
 

@@ -49,7 +49,16 @@ In the example above, the `deployed-after` attributes guarantee that the `ui` mo
 
 ### Parallel Deployment
 
+> ### Note:  
+> The `deployed-after` parameter is supported from major schema version 3 onwards.
+
 In the example above, we have also specified the global MTA parameter `enable-parallel-deployments` with a value `true`. It activates the parallel deployment of MTA modules that do not have any deployment order dependencies between each other. If the parameter is missing or its value is `false`, the module deployment will be sequential.
+
+> ### Note:  
+> If the parameter `enable-parallel-deployments` is not specified, the resources are processed in parallel.
+
+> ### Note:  
+> The `enable-parallel-deployments` parameter is supported from major schema version 3 onwards.
 
 
 

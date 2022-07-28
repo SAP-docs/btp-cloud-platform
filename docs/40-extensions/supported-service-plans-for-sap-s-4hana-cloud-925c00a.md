@@ -41,7 +41,7 @@ This service plan enables all communication scenarios, both predefined and custo
 > -   *Business Partner, Customer and Supplier Integration \(SAP\_COM\_0008\)*: allows you to consume the Business Partner API which enables you to create, read, update, and delete master data related to Business Partners, Suppliers, and Customers in an SAP S/4HANA system. For more information, see [https://api.sap.com/api/API\_BUSINESS\_PARTNER/overview](https://api.sap.com/api/API_BUSINESS_PARTNER/overview).
 > 
 > 
-> For a sample JSON for these communication scenarios, see [Communication Arrangement JSON File - Properties](communication-arrangement-json-file-properties-553a4c6.md).
+> For a sample JSON for these communication scenarios, see [Communication Arrangement JSON/YAML File - Properties](communication-arrangement-json-yaml-file-properties-553a4c6.md).
 
 
 

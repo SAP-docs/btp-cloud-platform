@@ -12,7 +12,7 @@
 
     -   [Create an SAP S/4HANA Extensibility Service Instance in the Cloud Foundry Environment](create-an-sap-s-4hana-extensibility-service-instance-in-the-cloud-foundry-environment-531a909.md)
 
-    -   [Create an SAP S/4HANA Extensibility Service Instance in the Kyma Environment](create-an-sap-s-4hana-extensibility-service-instance-in-the-kyma-environment-55d876e.md)
+    -   [Create an SAP S/4HANA Cloud Extensibility Service Instance in the Kyma Environment](create-an-sap-s-4hana-cloud-extensibility-service-instance-in-the-kyma-environment-55d876e.md)
 
 
 -   You have configured event topics for the channel inside SAP S/4HANA Cloud tenant. See [Configure Event Topics in SAP S/4HANA Cloud](configure-event-topics-in-sap-s-4hana-cloud-f5bbc57.md).
@@ -33,7 +33,7 @@ Depending on the SAP BTP environment, to create an SAP Event Mesh service instan
 -   [Create an SAP Event Mesh Service Instance in the Kyma Environment](create-an-sap-event-mesh-service-instance-in-the-kyma-environment-3de02d2.md)
 
 
-Define the details of your message client in SAP Event Mesh as parameters in a dedicated JSON file. To map the message client to the client defined in the SAP S/4HANA Cloud JSON file, in the SAP Event Mesh JSON file, you must include the `subscribeFilter` parameter which specifies the `sap/S4HANAOD/{emClientId}` namespace you created for the SAP S/4 HANA Cloud Extensibility instance of the `messaging` plan. For more information about the structure of the JSON file, see [Define SAP Event Mesh Service Descriptor JSON File](define-sap-event-mesh-service-descriptor-json-file-5722fc4.md).
+Define the details of your message client in SAP Event Mesh as parameters in a dedicated JSON file. To map the message client to the client defined in the SAP S/4HANA Cloud JSON file, in the SAP Event Mesh JSON file, you must include the `subscribeFilter` parameter which specifies the `sap/S4HANAOD/{emClientId}` namespace you created for the SAP S/4 HANA Cloud Extensibility instance of the `messaging` plan. For more information about the structure of the JSON file, see [Define SAP Event Mesh Service Descriptor JSON/YAML File](define-sap-event-mesh-service-descriptor-json-yaml-file-5722fc4.md).
 
 
 
@@ -88,7 +88,7 @@ Related Documentation
 </td>
 <td valign="top">
 
- [Define SAP Event Mesh Service Descriptor JSON File](define-sap-event-mesh-service-descriptor-json-file-5722fc4.md) 
+ [Define SAP Event Mesh Service Descriptor JSON/YAML File](define-sap-event-mesh-service-descriptor-json-yaml-file-5722fc4.md) 
 
 
 

@@ -15,6 +15,9 @@ While we have tried to make upgrading your account management feature set as sim
 
 If you deactivated the default identity provider, SAP ID service, for business users in multi-environment subaccounts in cloud management tools feature set A, the process of upgrading to cloud management tools feature set B reactivates the default identity provider. We reactivate the default identity provider because cloud management tools feature set B also uses it for platform users.
 
+> ### Recommendation:  
+> Keep at least one user from the default identity provider in each account to still have access if there are ever issues with a custom identity provider.
+
 Even though the default identity provider has been reactivated, the option to authenticate with the default identity provider is hidden from business users. Business users are redirected to your custom identity provider. Hiding the default identity provider ensures that the user experience for your business users remains the same. Users from the default identity provider can log on, only if the users are authorized, in other words, users with existing shadow users.
 
 For more information about shadow users, see [Working with Users](../50-administration-and-ops/working-with-users-2c91f88.md).
@@ -24,11 +27,11 @@ For more information about shadow users, see [Working with Users](../50-administ
 
 
 
-<a name="loio1ac8143b71fb46e78564ed30be757620__section_zqf_2hm_c5b"/>
+<a name="loio1ac8143b71fb46e78564ed30be757620__section_th5_cgb_54b"/>
 
-## **No Support of Custom Identity Providers for Platform Users**
+## Custom Identity Providers for Platform Users
 
-Currently cloud management tools feature set B doesn't support custom identity providers for platform users. If you use custom identity providers for platform users in cloud management tools feature set A, you can't move to cloud management tools feature set B.
+In cloud management tools feature set B you're free to integrate custom identity providers for platform users. If you use custom identity providers for platform users in cloud management tools feature set A, you can't move to cloud management tools feature set B. Details about the ability to upgrade existing custom identity provider configurations for platform users from cloud management tools feature set A to cloud management tools feature set B will be covered in the future.
 
 > ### Note:  
 > This limitation doesn't apply to business users of your applications.

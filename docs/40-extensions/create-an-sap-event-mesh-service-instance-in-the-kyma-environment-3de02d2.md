@@ -12,7 +12,7 @@ Use this procedure to enable the SAP Event Mesh service for the subaccount where
 
 -   In the SAP BTP cockpit, you have assigned the `messaging` SAP S/4HANA Cloud Extensibility service plan to the SAP BTP subaccount that you want to pair with the SAP S/4HANA Cloud tenant. See [Configure the Entitlements for the SAP S/4HANA Cloud Extensibility Service](configure-the-entitlements-for-the-sap-s-4hana-cloud-extensibility-service-65ad330.md).
 
--   In the Kyma Dashboard, you have created the SAP S/4HANA Cloud Extensibility service instance with the `messaging` plan. See [Create an SAP S/4HANA Extensibility Service Instance in the Kyma Environment](create-an-sap-s-4hana-extensibility-service-instance-in-the-kyma-environment-55d876e.md).
+-   In the Kyma Dashboard, you have created the SAP S/4HANA Cloud Extensibility service instance with the `messaging` plan. See [Create an SAP S/4HANA Cloud Extensibility Service Instance in the Kyma Environment](create-an-sap-s-4hana-cloud-extensibility-service-instance-in-the-kyma-environment-55d876e.md).
 
 -   In the SAP BTP cockpit, you have assigned the `default` SAP Event Mesh service plan to the SAP BTP subaccount that you want to pair with the SAP S/4HANA Cloud tenant. See [Configure the Entitlements for the SAP S/4HANA Cloud Extensibility Service](configure-the-entitlements-for-the-sap-s-4hana-cloud-extensibility-service-65ad330.md).
 
@@ -29,30 +29,30 @@ In the Kyma Dashboard, create an instance of the SAP Event Mesh service. This in
 
 ## Procedure
 
-1.  In the SAP BTP cockpit, navigate to the subaccount for which you want to create an SAP S/4HANA Cloud Extensibility service instance.
+1.  In the SAP BTP cockpit, navigate to the subaccount for which you want to create an SAP Event Mesh service instance.
 
 2.  On the subaccount *Overview* page in the *Kyma Environment* section, open the Kyma Dashboard.
 
 3.  Navigate to the *default* namespace from the drop-down list in the top navigation.
 
-4.  Go to *Service Management* \> *Catalog* in the left-hand side navigation.
+4.  Choose *Service Management* \> *BTP Service Instances* from the left-hand side navigation.
 
-5.  In the *Services* tab, search for *Event Mesh*.
+5.  In the *Service Instances* page, choose *Create Service Instance* in the upper right-hand corner. A new dialog opens.
 
-6.  Open the *Event Mesh* tile and select *Add* in the upper right-hand corner.
+6.  Choose the *Simple* tab and fill in the following fields:
 
-7.  In the new dialog box that opens, fill in these fields for the SAP Event Mesh cluster service class:
+    -   Give a meaningful name of the new SAP Event Mesh service instance.
 
-    -   Give a meaningful name for the new cluster service class.
+    -   In the *Offering Name* field, enter ***enterprise-messaging***, which is the technical name of the SAP Event Mesh service.
 
-    -   Select the `default` plan.
+    -   In the *Plan Name* field, enter ***default***.
 
-    -   Select *Add parameters*.
 
-        Specify parameters in the JSON format to define the details of your message client in the SAP Event Mesh service. You must include the `subscribeFilter` parameter which specifies the `sap/S4HANAOD/{emClientId}` namespace you created for the SAP S/4 HANA Cloud Extensibility instance of the `messaging` plan in SAP Event Mesh. For more information about the structure of the JSON file, see [Define SAP Event Mesh Service Descriptor JSON File](define-sap-event-mesh-service-descriptor-json-file-5722fc4.md).
+7.  Choose the *YAML* tab.
 
-    -   Select *Create*.
+    In *parameters:* in the *spec:* section, specify the parameters to define the details of your message client in the SAP Event Mesh service. You must include the `subscribeFilter` parameter which specifies the `sap/S4HANAOD/{emClientId}` namespace you created for the SAP S/4 HANA Cloud Extensibility instance of the `messaging` plan in SAP Event Mesh. For more information about the structure of the YAML file, see [Define SAP Event Mesh Service Descriptor JSON/YAML File](define-sap-event-mesh-service-descriptor-json-yaml-file-5722fc4.md).
 
+8.  Choose *Create*.
 
 
 

@@ -37,7 +37,7 @@ Use your SAP Cloud Identity Services - Identity Authentication tenant as an iden
 > You can’t choose an Identity Authentication tenant with a custom domain.
 
 > ### Recommendation:  
-> We recommend that you use SAP Cloud Identity Services - Identity Authentication as a hub, especially if your business users are stored in multiple corporate identity providers.
+> We recommend that you use SAP Cloud Identity Services - Identity Authentication as a proxy, especially if your business users are stored in multiple corporate identity providers.
 > 
 > For this scenario, connect Identity Authentication as single custom identity provider to SAP BTP. Next use Identity Authentication to integrate your corporate identity providers.
 > 

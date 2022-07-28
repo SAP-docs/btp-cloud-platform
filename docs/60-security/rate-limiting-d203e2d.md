@@ -56,7 +56,7 @@ Effect
 <tr>
 <td valign="top">
 
-https://*<subdomain\>*.authentication.*<landscape\>*/oauth/token
+ <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
 
 
 
@@ -79,7 +79,7 @@ The requests are executed at once.
 <tr>
 <td valign="top">
 
-https://*<subdomain\>*.authentication.*<landscape\>*/oauth/token
+ <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
 
 
 
@@ -102,7 +102,76 @@ The requests are queued and then executed.
 <tr>
 <td valign="top">
 
-https://*<subdomain\>*.authentication.*<landscape\>*/oauth/token
+ <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
+
+
+
+</td>
+<td valign="top">
+
+Significantly exceeding 60 requests per second
+
+
+
+</td>
+<td valign="top">
+
+An `HTTP 429 Too Many Requests` response status code is sent.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.cert.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
+
+
+
+</td>
+<td valign="top">
+
+Up to 60 requests per second
+
+
+
+</td>
+<td valign="top">
+
+The requests are executed at once.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.cert.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
+
+
+
+</td>
+<td valign="top">
+
+Exceeding 60 requests per second
+
+
+
+</td>
+<td valign="top">
+
+The requests are queued and then executed.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.cert.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
 
 
 
@@ -162,7 +231,7 @@ Effect
 <tr>
 <td valign="top">
 
-https://*<subdomain\>*.authentication.*<landscape\>*/sap/rest/authorization/v2
+<code>https://api.authentication.<i class="varname">&lt;landscape&gt;</i>/sap/rest/authorization/v2</code>
 
 \(Including all APIs with subpaths, for example `sap/rest/authorization/v2/apps`\)
 
@@ -187,7 +256,7 @@ The requests are executed at once.
 <tr>
 <td valign="top">
 
-https://*<subdomain\>*.authentication.*<landscape\>*/sap/rest/authorization/v2
+<code>https://api.authentication.<i class="varname">&lt;landscape&gt;</i>/sap/rest/authorization/v2</code>
 
 \(Including all APIs with subpaths, for example `sap/rest/authorization/v2/apps`\)
 
@@ -212,7 +281,7 @@ The requests are queued and then executed.
 <tr>
 <td valign="top">
 
-https://*<subdomain\>*.authentication.*<landscape\>*/sap/rest/authorization/v2
+<code>https://api.authentication.<i class="varname">&lt;landscape&gt;</i>/sap/rest/authorization/v2</code>
 
 \(Including all APIs with subpaths, for example `sap/rest/authorization/v2/apps`\)
 
@@ -237,7 +306,7 @@ An `HTTP 429 Too Many Requests` response status code is sent.
 <tr>
 <td valign="top">
 
-https://*<subdomain\>*.authentication.*<landscape\>*/sap/rest/identity-providers
+<code>https://api.authentication.<i class="varname">&lt;landscape&gt;</i>/sap/rest/identity-providers</code>
 
 \(Including all APIs with subpaths, for example `sap/rest/identity-providers/{id}`\)
 
@@ -262,7 +331,7 @@ The requests are executed at once.
 <tr>
 <td valign="top">
 
-https://*<subdomain\>*.authentication.*<landscape\>*/sap/rest/identity-providers
+<code>https://api.authentication.<i class="varname">&lt;landscape&gt;</i>/sap/rest/identity-providers</code>
 
 \(Including all APIs with subpaths, for example `sap/rest/identity-providers/{id}`\)
 
@@ -287,7 +356,7 @@ The requests are queued and then executed.
 <tr>
 <td valign="top">
 
-https://*<subdomain\>*.authentication.*<landscape\>*/sap/rest/identity-providers
+<code>https://api.authentication.<i class="varname">&lt;landscape&gt;</i>/sap/rest/identity-providers</code>
 
 \(Including all APIs with subpaths, for example `sap/rest/identity-providers/{id}`\)
 
@@ -349,7 +418,7 @@ Effect
 <tr>
 <td valign="top">
 
-https://*<subdomain\>*.authentication.*<landscape\>*/groups
+<code>https://api.authentication.<i class="varname">&lt;landscape&gt;</i>/groups</code>
 
 \(Including all APIs with subpaths, for example `sap/rest/groups/{id}`\)
 
@@ -374,7 +443,7 @@ The requests are executed at once.
 <tr>
 <td valign="top">
 
-https://*<subdomain\>*.authentication.*<landscape\>*/groups
+<code>https://api.authentication.<i class="varname">&lt;landscape&gt;</i>/groups</code>
 
 \(Including all APIs with subpaths, for example `sap/rest/groups/{id}`\)
 
@@ -399,7 +468,7 @@ The requests are queued and then executed.
 <tr>
 <td valign="top">
 
-https://*<subdomain\>*.authentication.*<landscape\>*/groups
+<code>https://api.authentication.<i class="varname">&lt;landscape&gt;</i>/groups</code>
 
 \(Including all APIs with subpaths, for example `sap/rest/groups/{id}`\)
 
@@ -424,7 +493,7 @@ An `HTTP 429 Too Many Requests` response status code is sent.
 <tr>
 <td valign="top">
 
-https://*<subdomain\>*.authentication.*<landscape\>*/users
+<code>https://api.authentication.<i class="varname">&lt;landscape&gt;</i>/users</code>
 
 \(Including all APIs with subpaths, for example `sap/rest/users/{id}`\)
 
@@ -449,7 +518,7 @@ The requests are executed at once.
 <tr>
 <td valign="top">
 
-https://*<subdomain\>*.authentication.*<landscape\>*/users
+<code>https://api.authentication.<i class="varname">&lt;landscape&gt;</i>/users</code>
 
 \(Including all APIs with subpaths, for example `sap/rest/users/{id}`\)
 
@@ -474,7 +543,7 @@ The requests are queued and then executed.
 <tr>
 <td valign="top">
 
-https://*<subdomain\>*.authentication.*<landscape\>*/users
+<code>https://api.authentication.<i class="varname">&lt;landscape&gt;</i>/users</code>
 
 \(Including all APIs with subpaths, for example `sap/rest/users/{id}`\)
 

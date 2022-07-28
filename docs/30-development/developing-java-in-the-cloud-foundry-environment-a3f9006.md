@@ -71,17 +71,17 @@ The SAP BTP, Cloud Foundry environment provides four versions of SAP Java Buildp
 -   If you pin the version of the buildpack - developers should be aware of the fact that this version will exist for a limited amount of time. This may lead to the situation where a restage is failing because the used version of the buildpack is not available anymore. To avoid this, it is recommended to follow the updates of the buildpack and test the application with the newest buildpack so that it could be adopted in time \(in case adoption is required\), and to update the version regularly. In this scenario, developers should never allow their application to run on an outdated buildpack version.
 
 
-Below is an example of how the version update takes place:
+**Example:**
 
 Let's say that the latest version of SAP Java Buildpack is **1.2.3**. Then, the output of the `cf buildpacks` command would be:
 
 ```
 	buildpack           position   enabled   locked   filename
 
-sap_java_buildpack            a         true      false    sap_java_buildpack-1.2.3.zip
-sap_java_buildpack_1_2_3      b         true      false    sap_java_buildpack-1.2.3.zip
-sap_java_buildpack_1_2_2      c         true      false    sap_java_buildpack-1.2.2.zip
-sap_java_buildpack_1_2_1      d         true      false    sap_java_buildpack-1.2.1.zip
+sap_java_buildpack            1         true      false    sap_java_buildpack-1.2.3.zip
+sap_java_buildpack_1_2_3      2         true      false    sap_java_buildpack-1.2.3.zip
+sap_java_buildpack_1_2_2      3         true      false    sap_java_buildpack-1.2.2.zip
+sap_java_buildpack_1_2_1      4         true      false    sap_java_buildpack-1.2.1.zip
 ```
 
 When SAP Java Buildpack is updated on the SAP BTP, Cloud Foundry environment from version **1.2.3** to version **1.2.4**, the list will change to:
@@ -89,10 +89,10 @@ When SAP Java Buildpack is updated on the SAP BTP, Cloud Foundry environment fro
 ```
 	buildpack           position   enabled   locked   filename
 
-sap_java_buildpack            a         true      false    sap_java_buildpack-1.2.4.zip
-sap_java_buildpack_1_2_4      b         true      false    sap_java_buildpack-1.2.4.zip
-sap_java_buildpack_1_2_3      c         true      false    sap_java_buildpack-1.2.3.zip
-sap_java_buildpack_1_2_2      d         true      false    sap_java_buildpack-1.2.2.zip
+sap_java_buildpack            1         true      false    sap_java_buildpack-1.2.4.zip
+sap_java_buildpack_1_2_4      2         true      false    sap_java_buildpack-1.2.4.zip
+sap_java_buildpack_1_2_3      3         true      false    sap_java_buildpack-1.2.3.zip
+sap_java_buildpack_1_2_2      4         true      false    sap_java_buildpack-1.2.2.zip
 ```
 
 This means that *sap\_java\_buildpack\_1\_2\_1* would no longer be available for applications.
@@ -106,7 +106,9 @@ This means that *sap\_java\_buildpack\_1\_2\_1* would no longer be available for
 
 To use *sap\_java\_buildpack\_<version\_suffix\>*, specify its name when pushing an application to SAP BTP, Cloud Foundry:
 
- `cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack_<version_suffix>` 
+```
+cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack_<version_suffix>
+```
 
 Alternatively, use the buildpack attribute to specify it in the `manifest.yml` file.
 

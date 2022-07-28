@@ -501,6 +501,10 @@ Let’s take a closer look at how to configure a pipeline template for a product
 
 7.  **Integration Tests**
 
+    Please notice that this step is mandatory to execute in order to achieve a secured deployment in production.
+
+    The possibility to disable it might be turned off without any further notice from SAP in the future.
+
     In this stage a system is prepared for the product version test installation. The system will be deprovisioned after successful testing has been completed.
 
     Enter the information.

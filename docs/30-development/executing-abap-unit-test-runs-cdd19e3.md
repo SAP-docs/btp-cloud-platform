@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
--   You have a SAP BTP ABAP environment system.
+-   You have an SAP BTP ABAP environment system.
 
 -   You’ve created a *Communication User* as described in [How to Create Communication Users](../50-administration-and-ops/how-to-create-communication-users-0377ade.md).
 
@@ -23,9 +23,9 @@
 
 ## Context
 
-ABAP Unit is the standard tool for executing unit tests. In this help topic you will learn how to trigger an ABAP Unit Test Run via REST Service.
+ABAP Unit is the standard tool for executing unit tests. In this help topic, you will learn how to trigger an ABAP Unit Test Run via REST Service.
 
-For more information about ABAP Unit, see[Ensuring Quality of ABAP Code](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/latest/en-US/4ec7641e6e391014adc9fffe4e204223.html).
+For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/latest/en-US/4ec7641e6e391014adc9fffe4e204223.html).
 
 
 
@@ -33,7 +33,7 @@ For more information about ABAP Unit, see[Ensuring Quality of ABAP Code](https:/
 
 ## Procedure
 
-1.  **Get CSRF token:** The first step serves for the authentication on the server. The response header contains an CSRF token, which is used as authentication for the POST request following in step 2.
+1.  **Get CSRF token:** The first step serves for the authentication on the server. The response header contains a CSRF token, which is used as authentication for the POST request following in step 2.
 
     **Request**
 

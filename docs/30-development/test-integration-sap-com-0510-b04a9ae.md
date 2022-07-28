@@ -2,22 +2,7 @@
 
 # Test Integration \(SAP\_COM\_0510\)
 
-The communication scenario SAP\_COM\_0510 enables you to create Continuous Integration pipelines for SAP BTP, ABAP environment systems. With the APIs belonging to this communication scenario, you can import your ABAP code to the SAP BTP, ABAP environment system and check your code with the ABAP Test Cockpit \(ATC\).
+Communication scenario `SAP_COM_0510` enables you to create continuous integration pipelines for SAP BTP, ABAP environment systems.
 
-To make the setup of Continuous Integration pipelines as easy as possible, the open source project "Piper" was created. In general, there are various functions \("Library steps"\), as well as whole pipelines, available to reuse. There, you can find various steps that implement the functionality of the APIs of SAP\_COM\_0510.
-
-Additionally, there is an example pipeline for a Continuous Integration process that covers the following:
-
--   creating an SAP BTP, ABAP environmentsystem
-
--   setting up a communication arrangement for the APIs
-
--   importing a software component / Git repository
-
--   running ATC checks
-
--   deprovisioning the SAP BTP, ABAP environment system
-
-
-Please find the documentation regarding project "Piper" here: [https://sap.github.io/jenkins-library/](https://sap.github.io/jenkins-library/).
+You can use this communication scenario to create continuous integration processes. See [Automate the Software Lifecycle Management Process](automate-the-software-lifecycle-management-process-e342c24.md).
 

@@ -14,7 +14,7 @@ There is also a tutorial with an introduction to securing your application, and 
 
 ## Python Community Buildpack
 
-SAP BTP uses the standard Python buildpack provided by the Cloud Foundry environment to deploy Python applications.
+ SAP BTP uses the standard [Python buildpack](https://github.com/cloudfoundry/python-buildpack) provided by the Cloud Foundry community to deploy Python applications.
 
 To get familiar with the buildpack and how to deploy applications with it, take a look at the [Cloud Foundry Python Buildpack documentation](https://docs.cloudfoundry.org/buildpacks/python/index.html).
 
@@ -130,6 +130,20 @@ The SAP HANA Database Client provides means for database connectivity.
 </td>
 </tr>
 </table>
+
+
+
+<a name="loioacf8f49356d047fbb1a4d04dcec3fd36__section_kfn_ldv_f5b"/>
+
+## Buildpack Versioning
+
+The SAP BTP, Cloud Foundry environment provides one recent version of the Python buildpack as part of its system buildpacks. You can check this version by executing:
+
+```
+cf buildpacks
+```
+
+To learn about changes in Python versions and features, reguraly check the latest [buildpack releases](https://github.com/cloudfoundry/python-buildpack/releases) in the GitHub communiy page.
 
 
 

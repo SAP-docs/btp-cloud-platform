@@ -12,7 +12,7 @@
 
 -   [Create an SAP S/4HANA Extensibility Service Instance in the Cloud Foundry Environment](create-an-sap-s-4hana-extensibility-service-instance-in-the-cloud-foundry-environment-531a909.md)
 
--   [Create an SAP S/4HANA Extensibility Service Instance in the Kyma Environment](create-an-sap-s-4hana-extensibility-service-instance-in-the-kyma-environment-55d876e.md)
+-   [Create an SAP S/4HANA Cloud Extensibility Service Instance in the Kyma Environment](create-an-sap-s-4hana-cloud-extensibility-service-instance-in-the-kyma-environment-55d876e.md)
 
 
 Уou have created the SAP Event Mesh service instance in the Cloud Foundry or Kyma environment. See:

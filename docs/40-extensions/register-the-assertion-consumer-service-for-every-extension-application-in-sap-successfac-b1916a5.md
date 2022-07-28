@@ -85,7 +85,7 @@
     > Make sure that the value of the `logoutMethod` property is set to ***GET*** in the *xs-app.json* file.
 
     > ### Note:  
-    > The `SameSite` attribute of the `Set-Cookie` HTTP response header needs to be set to `None` so that the cookies are sent in all responses to both first-party and cross-origin requests. You also need to set the cookie `Secure` attribute, because it requires a secure context/HTTPS. See [https://npm.io/package/@sap/approuter](https://npm.io/package/@sap/approuter).
+    > The `SameSite` attribute of the `Set-Cookie` HTTP response header needs to be set to `None` so that the cookies are sent in all responses to both first-party and cross-origin requests. You also need to set the cookie `Secure` attribute, because it requires a secure context/HTTPS. See [Environment Variables](../30-development/environment-variables-ba52705.md).
 
 
     

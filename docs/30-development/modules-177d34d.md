@@ -2890,6 +2890,94 @@ n/a
 
 
 
+<a name="loio177d34d45e3d4fd99f4eeeffc5814cf1__section_xph_1v3_25b"/>
+
+## Module-Specific Properties
+
+The following properties are supported:
+
+<a name="loio177d34d45e3d4fd99f4eeeffc5814cf1__table_vqk_pv3_25b"/>MTA Development and Deployment Module Properties
+
+
+<table>
+<tr>
+<th valign="top">
+
+Property
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+<th valign="top">
+
+Default Value
+
+
+
+</th>
+<th valign="top">
+
+Example
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`MTA_WAIT_AFTER_APP_STOP`
+
+
+
+</td>
+<td valign="top">
+
+Adds configurable delay in seconds, after stopping the application.
+
+> ### Note:  
+> Reserved environment variable for subsequent MTA operations, which is used in blue-green deployment and undeployment.
+
+> ### Tip:  
+> Can be used to introduce a faux delay between stopping an application and unbinding its services, in order to avoid errors when unbinding from an application that is still in the process of stopping.
+
+
+
+</td>
+<td valign="top">
+
+n/a
+
+
+
+</td>
+<td valign="top">
+
+> ### Sample Code:  
+> ```
+> modules:
+> - name: my-app
+>   type: application
+>   properties:
+>      MTA_WAIT_AFTER_APP_STOP: 30
+> 
+> ```
+
+
+
+</td>
+</tr>
+</table>
+
+
+
 <a name="loio177d34d45e3d4fd99f4eeeffc5814cf1__section_sharedModuleBinaries"/>
 
 ## Shared Module Binaries

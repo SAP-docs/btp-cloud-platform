@@ -39,7 +39,7 @@ If you are working in an enterprise account, you need to add quotas to the servi
 
 8.  Choose *Add 3 Service Plans*.
 
-9.  On the following screen, increase the quotas in the *abap\_compute\_unit* service plan at least by 1 and in the *hana\_compute\_unit* service plan at least by 4.
+9.  On the following screen, increase the quotas in the *abap\_compute\_unit* service plan at least by 1 and in the *hana\_compute\_unit* service plan at least by 2.
 
     The minimum configuration of 1 ABAP compute unit and 4 HANA compute units is sufficient in many cases to create one service instance for the ABAP environment. If you need more resources, choose higher quotas.
 

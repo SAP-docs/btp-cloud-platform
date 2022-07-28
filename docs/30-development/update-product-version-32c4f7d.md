@@ -16,13 +16,15 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
 
 <a name="loio32c4f7d3f0224fc2be3a1103297db59f__section_vzk_yqz_1tb"/>
 
-## Working in the Update Product Version app
+## Working in the Update Product Version App
 
 1.  Sign in to the *Landscape Portal* from your provider subaccount.
 
 2.  Scroll down to *Product* and click on the *Update Product Version* tile to open the app.
 
-3.  On the right side of the screen, you can see the *Planning Calendar*. The planning calendar gives an overview of planned and unplanned downtimes of service-relevant infrastructure as well as already scheduled product version updates.
+3.  On the right side of the screen, you can find the *Planning Calendar*.
+
+    The planning calendar gives an overview of planned and unplanned downtimes of service-relevant infrastructure as well as already scheduled product version updates.
 
     Calendar legend:
 
@@ -37,7 +39,7 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
 
 5.  In the *Available Systems* section, select at least one system in which you want to update the product version. You can also select multiple systems at once.
 
-6.  Click the Update button. A dialog box will open. Fill in the remaining details:
+6.  Click the *Update* button. A dialog box will open. Fill in the remaining details:
 
     -   **Title**: Choose a title for your update.
     -   **From**: Select the time the update can begin.
@@ -48,7 +50,10 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
 
     Confirm with *Schedule*.
 
-7.  Check the list under *Product Version Update Status*. Here, you can see all update requests as well as their current status and progress. The update you just scheduled has been added to the list. As long as an update is in status "scheduled" or "error", you can still cancel it \(using the trash icon\).
+7.  Check the list under *Product Version Update Status*. Here, all update requests as well as their current status and progress are displayed. The update you just scheduled has been added to the list.
+
+    -   As long as an update is in status "scheduled" or "error", you can still cancel it using the trash icon.
+    -   If the update process is stuck with an error, you can cancel it using the trash icon. In this case, the process is technically aborted and an automatic cleanup is performed to execute a revoke or a rollback behind the scenes.
 
 
 > ### Note:  

@@ -1,6 +1,6 @@
 <!-- loio2d50d91f0d684bba98d323e9f4258cda -->
 
-# Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON File
+# Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON/YAML File
 
 The SAP S/4HANA Cloud Extensibility service descriptor defines details of a messagе client and needs to be provided when provisioning new SAP S/4HANA Cloud Extensibility service instances with service plan `messaging`.
 
@@ -14,7 +14,7 @@ The SAP S/4HANA Cloud Extensibility service descriptor defines details of a mess
 
 ![](images/Enterprise_Messaging_JSON_Legend_8945703.png)
 
-Define the SAP S/4HANA Cloud Extensibility service descriptor in a JSON structure. It has to contain two sections:
+Define the SAP S/4HANA Cloud Extensibility service descriptor in a JSON structure for the Cloud Foundry environment and in a YAML structure for the Kyma environment. It has to contain two sections:
 
 -   For the parameters needed to activate the communication arrangement for the communication scenario *Enterprise Eventing Integration \(SAP\_COM\_0092\)* in the SAP S/4 HANA Cloud tenant.
 
@@ -22,7 +22,7 @@ Define the SAP S/4HANA Cloud Extensibility service descriptor in a JSON structur
 
 -   For the parameters for configuring the SAP Event Mesh service.
 
-    If this section is not explicitly added to thee JSON file, the values of its parameters are automatically generated based on the values of the *emClientId* and *systemName* parameters.
+    If this section is not explicitly added to the JSON/YAML file, the values of its parameters are automatically generated based on the values of the *emClientId* and *systemName* parameters.
 
 
 
@@ -83,7 +83,7 @@ The name of the system you have registered in the global account in SAP BTP.
 Using default patterns, it generates **communication arrangement name**, **channel name**, **emname**, and **namespace**, when these parameters are not explicitly provided. The default values are described in the table bellow containing the parameters required to configure SAP Event Mesh service.
 
 > ### Note:  
-> The values of the emname and namespace parameters must be the same as the values of the emname and namespace parametes in the SAP Event Mesh service descriptor. See [Define SAP Event Mesh Service Descriptor JSON File](define-sap-event-mesh-service-descriptor-json-file-5722fc4.md).
+> The values of the emname and namespace parameters must be the same as the values of the emname and namespace parametes in the SAP Event Mesh service descriptor. See [Define SAP Event Mesh Service Descriptor JSON/YAML File](define-sap-event-mesh-service-descriptor-json-yaml-file-5722fc4.md).
 
 **Rules/Guidelines**
 
@@ -507,7 +507,7 @@ Defines if a client \(publisher/producer\) is allowed to send messages to the de
 
 <a name="loio2d50d91f0d684bba98d323e9f4258cda__section_y15_q2y_khb"/>
 
-## Example
+## JSON File Example
 
 In this example, only the required properties are provided.
 
@@ -571,6 +571,62 @@ This descriptor is equivalent to:
   }
 }
 
+		
+```
+
+
+
+<a name="loio2d50d91f0d684bba98d323e9f4258cda__section_og4_vkj_g5b"/>
+
+## YAML File Example
+
+In this example, only the required properties are provided.
+
+```
+
+parameters:       
+    systemName: DEV
+    emClientId: s4hc
+
+```
+
+This descriptor is equivalent to:
+
+> ### Note:  
+> All properties can be overriden explicitly.
+
+```json
+
+spec:
+  externalName: ''
+  serviceOfferingName: s4-hana-cloud
+  servicePlanName: messaging
+  parameters:       
+    systemName: DEV
+    emClientId: s4hc
+    communicationArrangement:
+      communicationArrangementName: SAP_CLOUD_PLATFORM_XF_s4hc
+      attributes:
+      - name: CHANNEL NAME
+        value: SAP_CP_XF_S4HC
+      - name: DESCRIPTION
+        value: 'Integration with Enterprise Messaging for EM Client: s4hc'
+      - name: TOPIC SPACE
+        value: sap/S4HANAOD/s4hc
+      - name: MQTT_QOS
+        value: '1'
+      - name: RECONNECT ATTEMPTS
+        value: '0'
+      - name: WAIT TIME
+        value: '10'
+    ems:
+      parameters:
+        emname: s4hc
+        namespace: sap/S4HANAOD/s4hc
+        rules:
+          topicRules:
+            inboundFilter:
+            - "${namespace}/#"
 		
 ```
 

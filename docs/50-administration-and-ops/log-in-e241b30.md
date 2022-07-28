@@ -66,16 +66,16 @@ See [Log in with a Custom Identity Provider](log-in-with-a-custom-identity-provi
     <tr>
     <td valign="top">
 
-    `--idp`*<TENANT\>*
+    `--idp` *<TENANT\>*
 
 
     
     </td>
     <td valign="top">
 
-    To use the default identity provider, i.e. SAP ID Service, you can omit this parameter.
+    This parameter is only needed to work with a custom identity provider.
 
-    If trust is configured between your global account and a custom identity provider, you can use this parameter to log in through this identity provider by providing its tenant ID. You find the correct value in the cockpit under *Security* → *Trust Configuration* → *Custom Platform Identity Providers* in the btp CLI column.
+    If trust is configured between your global account and a custom identity provider, use this parameter to log in through this identity provider by providing its tenant ID. You find the correct value in the cockpit under *Security* → *Trust Configuration* → *Custom Platform Identity Providers* 
 
     > ### Note:  
     > To work with users from a custom identity provider, you need to specify the `--of-idp` parameter by providing the origin key of the custom identity provider. This is applicable to the following commands: `btp list security/user`, `btp get security/user`, `btp delete security/user`, `btp assign security/role-collection`, `btp unassign security/role-collection`, and you find this origin key in the cockpit under *Security*.

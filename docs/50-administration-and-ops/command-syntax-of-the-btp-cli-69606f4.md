@@ -110,13 +110,5 @@ btp --verbose assign security/role-collection "Global Account Administrator" --t
 **Related Information**  
 
 
-[Download and Start Using the btp CLI Client](download-and-start-using-the-btp-cli-client-8a8f17f.md "To use the SAP BTP command line interface (btp CLI), you need to download the client first.")
-
-[How to Work with the btp CLI](how-to-work-with-the-btp-cli-11d9f67.md "Learn how to work with the SAP BTP command line interface (btp CLI). For example, how to log in, get help, and set a default context for commands.")
-
-[Commands in the btp CLI](commands-in-the-btp-cli-a03a555.md "Find a full reference of all btp CLI commands and their parameters here: btp CLI Command Reference.")
-
-[Troubleshooting and Support](troubleshooting-and-support-4023e15.md "Troubleshooting and support information for the btp CLI.")
-
 [btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

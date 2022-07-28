@@ -20,6 +20,7 @@ Therefore, for a standard OData request, a corresponding URL pointing to a resou
 
 > ### Sample Code:  
 > ```
+>                (---------Ressource-------)
 > /sap/opu/odata/sap/srv/entity_list(id=‘1‘)/entity
 > ```
 
@@ -40,9 +41,9 @@ The actual creation of the instance depends on the resource kind. Some resources
 
 ### Examples
 
--   `GET/sap/opu/odata/sap/srv/teams` The target resource is an entity set \(teams\), so the resource instance is created at the Client Proxy instance. For more information, see [OData Request: Read Entity List](odata-request-read-entity-list-b810028.md).
+-   `GET/sap/opu/odata/sap/srv/teams` =\> The target resource is an entity set \(teams\), so the resource instance is created at the Client Proxy instance. For more information, see [OData Request: Read Entity List](odata-request-read-entity-list-b810028.md).
 
--   `GET /sap/opu/odata/sap/srv/order(customer=’Jane Doe’)` The target resource is a single entity \(Jane Doe\), so the resource instance is created at the parent resource instance \(entity set order\). For more information, see [OData Request: Read Entity](odata-request-read-entity-9d7dde4.md).
+-   `GET /sap/opu/odata/sap/srv/order(customer=’Jane Doe’)` =\> The target resource is a single entity \(Jane Doe\), so the resource instance is created at the parent resource instance \(entity set order\). For more information, see [OData Request: Read Entity](odata-request-read-entity-9d7dde4.md).
 
 
 
@@ -75,5 +76,5 @@ The main functionality of resource instances is to create requests \(e.g. an upd
 
 ## Example
 
-Examples on how to create and work with resources are given in the corresponding How-To section.
+Examples on how to create and work with resources are given in the corresponding How-To section .
 

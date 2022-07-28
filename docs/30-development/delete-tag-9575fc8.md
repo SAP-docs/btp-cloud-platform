@@ -1,0 +1,364 @@
+<!-- loio9575fc877cbe4b5ba08e55992316a08d -->
+
+# Delete Tag
+
+Delete a branch.
+
+
+
+<a name="loio9575fc877cbe4b5ba08e55992316a08d__section_u2x_zs4_bpb"/>
+
+## Request
+
+**URI:** /sap/opu/odata/sap/MANAGE\_GIT\_REPOSITORY/Tags\(sc\_name='\{sc\_name\}',commit\_id='\{commit\_id\}',tag\_name='\{tag\_name\}'\)
+
+**Operation Type:** CRUD
+
+**HTTP Method:**DELETE
+
+
+
+### Request Headers
+
+<a name="loio9575fc877cbe4b5ba08e55992316a08d__table_byq_jr4_bpb"/>
+
+
+<table>
+<tr>
+<th valign="top">
+
+Header
+
+
+
+</th>
+<th valign="top">
+
+Required
+
+
+
+</th>
+<th valign="top">
+
+Values
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Accept
+
+
+
+</td>
+<td valign="top">
+
+no
+
+
+
+</td>
+<td valign="top">
+
+application/json
+
+application/xml
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+x-csrf-token
+
+
+
+</td>
+<td valign="top">
+
+yes
+
+
+
+</td>
+<td valign="top">
+
+Value of x-csrf-token
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+### Request Body
+
+<a name="loio9575fc877cbe4b5ba08e55992316a08d__table_ssp_js4_bpb"/>
+
+
+<table>
+<tr>
+<th valign="top">
+
+Parameter
+
+
+
+</th>
+<th valign="top">
+
+Required
+
+
+
+</th>
+<th valign="top">
+
+Data Type
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+<th valign="top">
+
+Parameter Type
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+sc\_name
+
+
+
+</td>
+<td valign="top">
+
+yes
+
+
+
+</td>
+<td valign="top">
+
+string
+
+
+
+</td>
+<td valign="top">
+
+name of the software component
+
+
+
+</td>
+<td valign="top">
+
+query string
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+commid\_id
+
+
+
+</td>
+<td valign="top">
+
+yes
+
+
+
+</td>
+<td valign="top">
+
+string
+
+
+
+</td>
+<td valign="top">
+
+long commit id
+
+
+
+</td>
+<td valign="top">
+
+query string
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+tag\_name
+
+
+
+</td>
+<td valign="top">
+
+yes
+
+
+
+</td>
+<td valign="top">
+
+string
+
+
+
+</td>
+<td valign="top">
+
+name of the branch
+
+
+
+</td>
+<td valign="top">
+
+query string
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+### Request Example
+
+> ### Sample Code:  
+> ```
+> DELETE /sap/opu/odata/sap/MANAGE_GIT_REPOSITORY/Branches(branch_name='my-to-be-deleted-branch',sc_name='/DMO/GIT_REPOSITORY') HTTP/1.1
+> Host: host.com
+> Authentication: basicAuthentication
+> Accept: application/json
+> 
+> ```
+
+
+
+<a name="loio9575fc877cbe4b5ba08e55992316a08d__section_tbd_zq4_bpb"/>
+
+## Response
+
+
+
+### Response Headers
+
+> ### Sample Code:  
+> ```
+> HTTP/1.1 204 No Content
+> ```
+
+
+
+### Response Status and Error Codes
+
+<a name="loio9575fc877cbe4b5ba08e55992316a08d__table_sjb_vs4_bpb"/>
+
+
+<table>
+<tr>
+<th valign="top">
+
+Code
+
+
+
+</th>
+<th valign="top">
+
+Reason
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+204
+
+
+
+</td>
+<td valign="top">
+
+No content
+
+
+
+</td>
+<td valign="top">
+
+Tag was deleted successfully
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+400
+
+
+
+</td>
+<td valign="top">
+
+Bad Request
+
+
+
+</td>
+<td valign="top">
+
+Could not delete tag due to the values passed in the request body.
+
+
+
+</td>
+</tr>
+</table>
+

@@ -10,9 +10,6 @@ The Client Credentials grant type is currently available for the SAP Cloud Manag
 
 For more information, see [Consuming Services in Other Environments Using the Service Management Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/0714ac254e83492281d95e25548b388c.html).
 
-> ### Note:  
-> For information about getting an application access token for the APIs of SAP Software-as-a-Service Provisioning service, see [Getting an Application Access Token](../30-development/getting-an-application-access-token-6391b5d.md).
-
 The scopes included in the access token depend on the service plan you chose for the SAP Cloud Management service. For the list of the available service plans, see [SAP Cloud Management Service - Service Plans](sap-cloud-management-service-service-plans-a508b72.md).
 
 
@@ -22,9 +19,6 @@ The scopes included in the access token depend on the service plan you chose for
 ## Prerequisites
 
 Your global account admin has entitled at least one of the plans of the SAP Cloud Management service in your subaccount. See [SAP Cloud Management Service - Service Plans](sap-cloud-management-service-service-plans-a508b72.md) and [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
-
-> ### Note:  
-> The service plan for the SaaS Provisioning Service APIs is entitled by default to all subaccounts.
 
 
 

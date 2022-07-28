@@ -44,7 +44,7 @@ To allow applications running on SAP BTP to consume SAP S/4HANA Cloud APIs, you 
 > -   *Business Partner, Customer and Supplier Integration \(SAP\_COM\_0008\)*: allows you to consume the Business Partner API which enables you to create, read, update, and delete master data related to Business Partners, Suppliers, and Customers in an SAP S/4HANA system. For more information, see [https://api.sap.com/api/API\_BUSINESS\_PARTNER/overview](https://api.sap.com/api/API_BUSINESS_PARTNER/overview).
 > 
 > 
-> For a sample JSON for these communication scenarios, see [Communication Arrangement JSON File - Properties](communication-arrangement-json-file-properties-553a4c6.md).
+> For a sample JSON for these communication scenarios, see [Communication Arrangement JSON/YAML File - Properties](communication-arrangement-json-yaml-file-properties-553a4c6.md).
 
 The *api-access* service plan define the access to the corresponding SAP S/4HANA Cloud APIs. It supports both predefined and custom communication scenarios for consuming the SAP S/4HANA Cloud APIs and integrating your extension applications. See:
 
@@ -74,5 +74,5 @@ Depending on whether you are using Cloud Foundry or Kyma environment, you have t
 **Related Information**  
 
 
-[Communication Arrangement JSON File - Properties](communication-arrangement-json-file-properties-553a4c6.md "Use the service JSON descriptor to define the communication arrangement and the authentication type for the SAP S4/HANA Cloud API access.")
+[Communication Arrangement JSON/YAML File - Properties](communication-arrangement-json-yaml-file-properties-553a4c6.md "Use the service JSON descriptor for the Cloud Foundry environment or the service YAML descriptor for the Kyma environment to define the communication arrangement and the authentication type for the SAP S4/HANA Cloud API access.")
 

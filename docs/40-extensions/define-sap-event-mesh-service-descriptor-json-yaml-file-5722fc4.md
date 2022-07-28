@@ -1,6 +1,6 @@
 <!-- loio5722fc4466cb43c1aae9625742185b64 -->
 
-# Define SAP Event Mesh Service Descriptor JSON File
+# Define SAP Event Mesh Service Descriptor JSON/YAML File
 
 The SAP Event Mesh service descriptor defines details of a message client and needs to be provided when provisioning new SAP Event Mesh service instances with service plan `default`.
 
@@ -10,7 +10,7 @@ The SAP Event Mesh service descriptor defines details of a message client and ne
 
 ## Prerequisites
 
-You have created an SAP S/4HANA Cloud Extensibility service instance with defined SAP S/4HANA Cloud Extensibility descriptor. See [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON File](define-sap-s-4hana-cloud-extensibility-service-descriptor-json-file-2d50d91.md).
+You have created an SAP S/4HANA Cloud Extensibility service instance with defined SAP S/4HANA Cloud Extensibility descriptor. See [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON/YAML File](define-sap-s-4hana-cloud-extensibility-service-descriptor-json-yaml-file-2d50d91.md).
 
 
 
@@ -18,7 +18,7 @@ You have created an SAP S/4HANA Cloud Extensibility service instance with define
 
 ## Context
 
-You set up service instance of the SAP Event Mesh service to receive the events which are sent by the SAP S/4HANA Cloud Extensibility service. In the JSON file for this service instance needs to be created with a different `emname` as well as a different `namespace`. The rule set here is important as each client should only publish in its own namespace. Since this message client's purpose is to receive messages from a different client, the rules of the `subscribeFilter` for topics need to take care of that. So the value of the message client defined in the SAP Event Mesh JSON file has to be configured to have the value of the `subscribeFilter` to be the same as the value of the `namespace` of the other client defined in the SAP S/4HANA Cloud Extensibility JSON file.
+You set up service instance of the SAP Event Mesh service to receive the events which are sent by the SAP S/4HANA Cloud Extensibility service. In the JSON file for the Cloud Foundry environment and in the YAML file for the Kyma environment, this service instance needs to be created with a different `emname` as well as a different `namespace`. The rule set here is important as each client should only publish in its own namespace. Since this message client's purpose is to receive messages from a different client, the rules of the `subscribeFilter` for topics need to take care of that. So the value of the message client defined in the SAP Event Mesh JSON/YAML file has to be configured to have the value of the `subscribeFilter` to be the same as the value of the `namespace` of the other client defined in the SAP S/4HANA Cloud Extensibility JSON/YAML file.
 
 After both message clients are set up, you have to create a queue in the message client which refers to the SAP Event Mesh service instance. You can name the queue as you like and it will be created in the namespace of the client. This queue can now be subscribed to the topic configured **step 7** in the [Create an SAP S/4HANA Extensibility Service Instance in the Cloud Foundry Environment](create-an-sap-s-4hana-extensibility-service-instance-in-the-cloud-foundry-environment-531a909.md) page. This topic in defined in the namespace of the S/4HANA Cloud Extensibility service descriptor, for example ***sap/S4HANAOD/s4hc/myTopic***.
 
@@ -37,7 +37,9 @@ The service instance of SAP Event Mesh is the message client which consumes the 
 
     -   Use unique namespace per subaccount, for example ***d/e/f***
 
-    -   Use the namespace defined in the SAP S/4HANA Cloud Extensibility JSON file and put it in the `subscribeFilter` parameter
+    -   Use the namespace defined in the SAP S/4HANA Cloud Extensibility JSON/YAML file and put it in the `subscribeFilter` parameter
+
+        JSON:
 
         > ### Sample Code:  
         > ```
@@ -47,9 +49,18 @@ The service instance of SAP Event Mesh is the message client which consumes the 
         >  ]
         > ```
 
+        YAML:
+
+        > ### Sample Code:  
+        > ```
+        > subscribeFilter:
+        > - a/b/c/*
+        > - "${namespace}/*" 
+        > ```
+
     -   Create queue for this client
 
-    -   Subscribe this queue to the topic defined in the namespace of the SAP S/4HANA Cloud Extensibility JSON file
+    -   Subscribe this queue to the topic defined in the namespace of the SAP S/4HANA Cloud Extensibility JSON/YAML file
 
 
 
@@ -96,7 +107,7 @@ Description
 Specifies the name of the SAP Event Mesh client. It is used by SAP Event Mesh to identify clients.
 
 > ### Note:  
-> The `emname` parameter in this descriptor must be unique per subaccount, so it must have the different value than the `emname` parameter in the SAP S/4HANA Cloud service descriptor. See [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON File](define-sap-s-4hana-cloud-extensibility-service-descriptor-json-file-2d50d91.md).
+> The `emname` parameter in this descriptor must be unique per subaccount, so it must have the different value than the `emname` parameter in the SAP S/4HANA Cloud service descriptor. See [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON/YAML File](define-sap-s-4hana-cloud-extensibility-service-descriptor-json-yaml-file-2d50d91.md).
 
 **Rules/Guidelines**
 
@@ -152,7 +163,7 @@ It specifies the version of the service descriptor.
 Namespace for the messaging client.
 
 > ### Note:  
-> The `namespace` parameter in this descriptor must be unique per subaccount, so it must have the different value than the `namespace` parameter in the SAP S/4HANA Cloud service descriptor. See [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON File](define-sap-s-4hana-cloud-extensibility-service-descriptor-json-file-2d50d91.md).
+> The `namespace` parameter in this descriptor must be unique per subaccount, so it must have the different value than the `namespace` parameter in the SAP S/4HANA Cloud service descriptor. See [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON/YAML File](define-sap-s-4hana-cloud-extensibility-service-descriptor-json-yaml-file-2d50d91.md).
 
 **Rules/Guidelines**
 
@@ -333,7 +344,7 @@ Filters from which topics a client \(receiver\) is allowed to receive messages.
 
 
 > ### Note:  
-> The `namespace` part of the value must be specified exactly as the `namespace` value of the SAP S/4HANA Cloud Extensibility service descriptor JSON File described in [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON File](define-sap-s-4hana-cloud-extensibility-service-descriptor-json-file-2d50d91.md).
+> The `namespace` part of the value must be specified exactly as the `namespace` value of the SAP S/4HANA Cloud Extensibility service descriptor JSON File described in [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON/YAML File](define-sap-s-4hana-cloud-extensibility-service-descriptor-json-yaml-file-2d50d91.md).
 
 
 
@@ -345,7 +356,7 @@ Filters from which topics a client \(receiver\) is allowed to receive messages.
 
 <a name="loio5722fc4466cb43c1aae9625742185b64__section_ijt_pj2_phb"/>
 
-## Example
+## JSON File Example
 
 ```json
 {
@@ -371,6 +382,37 @@ Filters from which topics a client \(receiver\) is allowed to receive messages.
 		}
 	}
 }
+		
+```
+
+
+
+<a name="loio5722fc4466cb43c1aae9625742185b64__section_x2w_1wj_g5b"/>
+
+## YAML File Example
+
+```json
+
+spec:
+  externalName: ''
+  serviceOfferingName: enterprise-messaging
+  servicePlanName: default
+  parameters:
+    emname: ems-s4hc
+    namespace: sap/S4HANAOD/ems-s4hc
+    version: 1.1.0
+    options:
+      management: true
+      messagingrest: true
+      messaging: true
+    rules:
+      queueRules:
+        subscribeFilter:
+        - "${namespace}/*"
+    topicRules:
+      subscribeFilter:
+        - "${namespace}/*"
+        - sap/S4HANAOD/s4hc/*
 		
 ```
 

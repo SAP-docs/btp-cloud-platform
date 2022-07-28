@@ -44,7 +44,7 @@ For communication arrangements with inbound connections, a destination on a suba
 
 5.  In the *Service Instances* page, choose *Create Service Instance* in the upper right-hand corner. A new dialog opens.
 
-6.  Choose the *Advanced* tab and fill in the following fields:
+6.  Choose the *Simple* tab and fill in the following fields:
 
     -   Give a meaningful name of the new SAP S/4HANA Cloud Extensibility service instance.
 
@@ -52,12 +52,14 @@ For communication arrangements with inbound connections, a destination on a suba
 
     -   In the *Plan Name* field, enter ***api-access***.
 
-    -   Expand *Instance Parameters*.
 
-        To define the communication arrangement and the authentication type for the API access, specify the parameters listed in this JSON file: [Communication Arrangement JSON File - Properties](communication-arrangement-json-file-properties-553a4c6.md).
+7.  Choose the *YAML* tab.
 
+    To define the communication arrangement and the authentication type for the API access, specify in *parameters:* in the *spec:* section, the parameters listed in this YAML file: [Communication Arrangement JSON/YAML File - Properties](communication-arrangement-json-yaml-file-properties-553a4c6.md).
 
-7.  Choose *Create*.
+    For specific examples, see [Communication Arrangement YAML File - Examples](communication-arrangement-yaml-file-examples-1ab9bf6.md).
+
+8.  Choose *Create*.
 
 
 

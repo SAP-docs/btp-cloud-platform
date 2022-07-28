@@ -14,7 +14,7 @@ To enable the SAP Event Mesh service for your subaccount in SAP BTP, you have to
 
 ## Procedure
 
-1.  Prepare a JSON file that contains details of a message client. See [Define SAP Event Mesh Service Descriptor JSON File](define-sap-event-mesh-service-descriptor-json-file-5722fc4.md).
+1.  Prepare a JSON file that contains details of a message client. See [Define SAP Event Mesh Service Descriptor JSON/YAML File](define-sap-event-mesh-service-descriptor-json-yaml-file-5722fc4.md).
 
 2.  Create an SAP Event Mesh service instance for the application to consume SAP S/4HANA Cloud events.
 

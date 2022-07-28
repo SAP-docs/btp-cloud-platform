@@ -8,7 +8,7 @@
 
 ## Context
 
-Dynatrace OneAgent is a Java agent that sends all captured monitoring data to your monitoring environment for analysis. The monitoring environment for Cloud Foundry environment resides in the Dynatrace cloud monitoring environment, see [How Do I Monitor Cloud Foundry Applications](https://www.dynatrace.com/support/help/cloud-platforms/cloud-foundry/how-do-i-monitor-cloud-foundry-applications/).
+Dynatrace OneAgent is a Java agent that sends all captured monitoring data to your monitoring environment for analysis. The monitoring environment for Cloud Foundry resides in the Dynatrace cloud monitoring environment. See: [Cloud Foundry monitoring](https://www.dynatrace.com/support/help/how-to-use-dynatrace/infrastructure-monitoring/container-platform-monitoring/cloud-foundry-monitoring)
 
 
 
@@ -16,33 +16,50 @@ Dynatrace OneAgent is a Java agent that sends all captured monitoring data to yo
 
 ## Procedure
 
-1.  Obtain an environment ID and Token.
+1.  Obtain an environment ID and Token. To do that, follow the steps described on page: [Deploy OneAgent on SAP BTP Cloud Foundry Runtime](https://www.dynatrace.com/support/help/setup-and-configuration/setup-on-container-platforms/cloud-foundry/deploy-oneagent-on-sap-cloud-platform-for-application-only-monitoring#deploy-oneagent-on-sap-btp-cloud-foundry-runtime)
 
-    Follow the steps described in the Generate PaaS Token section in [How Do I Monitor Cloud Foundry Applications](https://www.dynatrace.com/support/help/cloud-platforms/cloud-foundry/how-do-i-monitor-cloud-foundry-applications/).
+2.  Create a user-provided service.
 
-2.  Create a user provided service.
+    The service name should contain the string "dynatrace" \(for example, **dynatraceservice**\). The `environmentid` and `apitoken` parameters have been generated in the previous step. You also need to set up the API URL, which depends on the Dynatrace type you want to integrate:
 
-    The service name contains the string dynatrace \(for example - *dynatrace-service*\) where *environmentid* and *apitoken* are the ones generated in the previous step. The *apiurl* should be set to *https://<YourDynatraceServerURL\>/e/<environmentid\>/api*.
+    -   **SaaS Dynatrace**
+
+        ```
+        "apiurl": "https://{environmentid}.live.dynatrace.com/api"
+        ```
+
+    -   **Managed Dynatrace**
+
+        ```
+        "apiurl": "https://<your-domain>/e/<environmentid>/api"
+        ```
+
+
+    Then, in cf CLI execute:
 
     ```
-    cf cups dynatrace-service -p "environmentid, apitoken, apiurl"
+    cf cups dynatraceservice -p "environmentid, apitoken, apiurl"
     ```
 
-    For more details on how to create the user provided service refer to Option 1: Create a user-provided service in the Create a Dynatrace service in your Cloud Foundry Environment section in [How Do I Monitor Cloud Foundry Applications](https://www.dynatrace.com/support/help/cloud-platforms/cloud-foundry/how-do-i-monitor-cloud-foundry-applications/).
+    For more information, see:
 
-3.  Bind the application to the service instance created in the previous step, using the `manifest.yml` file.
+    -   Dynatrace Docs: [Create a user-provided service in your SAP BTP, Cloud Foundry Environment](https://www.dynatrace.com/support/help/setup-and-configuration/setup-on-container-platforms/cloud-foundry/deploy-oneagent-on-sap-cloud-platform-for-application-only-monitoring#create-a-user-provided-service-in-your-sap-btp-cloud-foundry-environment)
+
+    -   Cloud Foundry Docs: [User-Provided Service Instances](https://docs.cloudfoundry.org/devguide/services/user-provided.html)
+
+
+3.  Bind the application to the service instance created in the previous step, by using the *manifest.yml* file.
 
     > ### Sample Code:  
-    > manifest.yml
-    > 
     > ```
     > ---
     > applications:
     > - name: myapp
     >   memory: 1G
     >   instances: 1
+    >   buildpack: sap_java_buildpack
     >   services:
-    >   - dynatrace-service
+    >   - dynatraceservice
     > ```
 
 

@@ -145,13 +145,5 @@ Changes the output format of a command to JSON. See [Change the Output Format to
 **Related Information**  
 
 
-[Download and Start Using the btp CLI Client](download-and-start-using-the-btp-cli-client-8a8f17f.md "To use the SAP BTP command line interface (btp CLI), you need to download the client first.")
-
-[Command Syntax of the btp CLI](command-syntax-of-the-btp-cli-69606f4.md "Each command consists of the base call btp followed by a verb (the action), a combination of group and object, and parameters.")
-
-[Commands in the btp CLI](commands-in-the-btp-cli-a03a555.md "Find a full reference of all btp CLI commands and their parameters here: btp CLI Command Reference.")
-
-[Troubleshooting and Support](troubleshooting-and-support-4023e15.md "Troubleshooting and support information for the btp CLI.")
-
 [btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

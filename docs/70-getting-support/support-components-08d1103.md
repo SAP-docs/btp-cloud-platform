@@ -48,13 +48,6 @@ Environment
 </th>
 <th valign="top">
 
-Capability
-
-
-
-</th>
-<th valign="top">
-
 Infrastructure
 
 
@@ -113,13 +106,6 @@ Develop and run Agentry metadata-driven mobile applications.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -138,7 +124,6 @@ Develop and run Agentry metadata-driven mobile applications.
 -   Brazil \(São Paulo\)
 -   Canada \(Toronto\)
 -   Japan \(Tokyo\)
--   Russia \(Moscow\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
 
@@ -190,13 +175,6 @@ Create and receive real-time alerts about your services
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -217,7 +195,6 @@ Create and receive real-time alerts about your services
 -   KSA \(Riyadh\)
 -   UAE \(Dubai\)
 -   Brazil \(São Paulo\)
--   Russia \(Moscow\)
 
 
 
@@ -262,13 +239,6 @@ Create and receive real-time alerts about your services
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -341,13 +311,6 @@ Create and receive real-time alerts about your services
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -411,13 +374,6 @@ Create and receive real-time alerts about your services
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -426,6 +382,8 @@ Create and receive real-time alerts about your services
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
+-   India \(Mumbai\)
 
 
 
@@ -476,13 +434,6 @@ Expose your data and processes as APIs and manage their lifecycles.
 </td>
 <td valign="top">
 
--   Integration Suite
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -499,7 +450,6 @@ Expose your data and processes as APIs and manage their lifecycles.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Brazil \(São Paulo\)
--   Russia \(Moscow\)
 -   Canada \(Toronto\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -547,13 +497,6 @@ Expose your data and processes as APIs and manage their lifecycles.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -624,13 +567,6 @@ Expose your data and processes as APIs and manage their lifecycles.
 </td>
 <td valign="top">
 
--   Integration Suite
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -688,13 +624,6 @@ Expose your data and processes as APIs and manage their lifecycles.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -759,13 +688,6 @@ Manage your mobile devices.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -823,13 +745,6 @@ Automatically increase or decrease the number of application instances.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -901,13 +816,6 @@ Automatically increase or decrease the number of application instances.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -971,13 +879,6 @@ Automatically increase or decrease the number of application instances.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -986,6 +887,7 @@ Automatically increase or decrease the number of application instances.
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -1030,13 +932,6 @@ Automatically increase or decrease the number of application instances.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -1101,13 +996,6 @@ Create, store, access, and analyze application logs.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -1124,7 +1012,6 @@ Create, store, access, and analyze application logs.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -1172,13 +1059,6 @@ Create, store, access, and analyze application logs.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -1251,13 +1131,6 @@ Create, store, access, and analyze application logs.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -1321,13 +1194,6 @@ Create, store, access, and analyze application logs.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -1336,6 +1202,7 @@ Create, store, access, and analyze application logs.
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -1380,13 +1247,6 @@ Create, store, access, and analyze application logs.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -1451,13 +1311,6 @@ Manage application authorizations and trusted connections to identity providers.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -1475,7 +1328,6 @@ Manage application authorizations and trusted connections to identity providers.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -1523,13 +1375,6 @@ Manage application authorizations and trusted connections to identity providers.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -1602,13 +1447,6 @@ Manage application authorizations and trusted connections to identity providers.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -1672,13 +1510,6 @@ Manage application authorizations and trusted connections to identity providers.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -1687,6 +1518,7 @@ Manage application authorizations and trusted connections to identity providers.
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -1731,13 +1563,6 @@ Manage application authorizations and trusted connections to identity providers.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -1801,13 +1626,6 @@ Ready-to-use, fully managed Hadoop and Spark.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -1859,13 +1677,6 @@ Deliver blockchain-based services on any connected blockchain network.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -1931,13 +1742,6 @@ Create interactive prototypes based on end-user feedback without code writing.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -1955,7 +1759,6 @@ Create interactive prototypes based on end-user feedback without code writing.
 -   UAE \(Dubai\)
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
--   Russia \(Moscow\)
 -   Canada \(Toronto\)
 -   Brazil \(São Paulo\)
 -   KSA \(Riyadh\)
@@ -2009,13 +1812,6 @@ Detect and highlight entities from unstructured text using machine learning.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -2026,6 +1822,7 @@ Detect and highlight entities from unstructured text using machine learning.
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
 -   Japan \(Tokyo\)
+-   Australia \(Sydney\)
 -   Europe \(Frankfurt\) EU Access
 
 
@@ -2077,13 +1874,6 @@ Enrich cloud offerings with decision modeling, management, and execution service
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Process Automation
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -2094,7 +1884,6 @@ Enrich cloud offerings with decision modeling, management, and execution service
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
 -   Europe \(Amsterdam\)
--   Russia \(Moscow\)
 -   US East \(Ashburn\)
 -   US West \(Chandler\)
 -   US East \(Sterling\)
@@ -2148,13 +1937,6 @@ Enrich cloud offerings with decision modeling, management, and execution service
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Process Automation
 
 
 
@@ -2227,13 +2009,6 @@ Enrich cloud offerings with decision modeling, management, and execution service
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Process Automation
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -2297,13 +2072,6 @@ Enrich cloud offerings with decision modeling, management, and execution service
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Process Automation
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -2312,6 +2080,7 @@ Enrich cloud offerings with decision modeling, management, and execution service
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -2356,13 +2125,6 @@ Enrich cloud offerings with decision modeling, management, and execution service
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Process Automation
 
 
 
@@ -2427,13 +2189,6 @@ Seamlessly orchestrate business processes and integrate data in real time.
 </td>
 <td valign="top">
 
--   Integration Suite
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -2450,7 +2205,6 @@ Seamlessly orchestrate business processes and integrate data in real time.
 -   US West \(Colorado Springs\)
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
--   Russia \(Moscow\)
 -   Canada \(Toronto\)
 -   Brazil \(São Paulo\)
 -   KSA \(Riyadh\)
@@ -2504,13 +2258,6 @@ Establish connections between cloud applications and on-premise systems.
 </td>
 <td valign="top">
 
--   Integration Suite
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -2528,7 +2275,6 @@ Establish connections between cloud applications and on-premise systems.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -2576,13 +2322,6 @@ Establish connections between cloud applications and on-premise systems.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -2655,13 +2394,6 @@ Establish connections between cloud applications and on-premise systems.
 </td>
 <td valign="top">
 
--   Integration Suite
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -2725,13 +2457,6 @@ Establish connections between cloud applications and on-premise systems.
 </td>
 <td valign="top">
 
--   Integration Suite
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -2740,6 +2465,7 @@ Establish connections between cloud applications and on-premise systems.
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -2790,13 +2516,6 @@ Establish connections between cloud applications and on-premise systems.
 </td>
 <td valign="top">
 
--   Integration Suite
-
-
-
-</td>
-<td valign="top">
-
 -   Alibaba
 
 
@@ -2827,7 +2546,7 @@ Establish connections between cloud applications and on-premise systems.
 <tr>
 <td valign="top">
 
- [Continuous Integration and Delivery](https://help.sap.com/viewer/product/CONTINUOUS_DELIVERY/Cloud) 
+ [Continuous Integration and Delivery](https://help.sap.com/docs/CONTINUOUS_DELIVERY?version=Cloud) 
 
 
 
@@ -2849,13 +2568,6 @@ Configure and run predefined pipelines for continuous integration and delivery.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -2922,13 +2634,6 @@ Integrate data between on-premise and cloud applications on a scheduled \(batch\
 </td>
 <td valign="top">
 
--   Integration Suite
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -2940,7 +2645,6 @@ Integrate data between on-premise and cloud applications on a scheduled \(batch\
 -   Australia \(Sydney\)
 -   Europe \(Rot\)\*
 -   Japan \(Tokyo\)
--   Russia \(Moscow\)
 -   KSA \(Riyadh\)
 -   US West \(Colorado Springs\)
 
@@ -2986,13 +2690,6 @@ Store and retrieve credentials such as cryptographic keys and passwords.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -3063,13 +2760,6 @@ Store and retrieve credentials such as cryptographic keys and passwords.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -3132,7 +2822,58 @@ Store and retrieve credentials such as cryptographic keys and passwords.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Credential Store](https://help.sap.com/viewer/product/CREDENTIAL_STORE/Cloud/en-US) 
+
+
+
+</td>
+<td valign="top">
+
+Store and retrieve credentials such as cryptographic keys and passwords.
+
+
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-SEC-CPG
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
 
 
 
@@ -3197,13 +2938,6 @@ Configure and expose your application under your own domain.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -3221,7 +2955,6 @@ Configure and expose your application under your own domain.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -3268,13 +3001,6 @@ Configure and expose your application under your own domain.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -3347,13 +3073,6 @@ Configure and expose your application under your own domain.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -3417,13 +3136,6 @@ Configure and expose your application under your own domain.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -3432,6 +3144,7 @@ Configure and expose your application under your own domain.
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -3476,13 +3189,6 @@ Configure and expose your application under your own domain.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -3547,13 +3253,6 @@ Apply machine learning to predict and classify data records.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -3607,13 +3306,6 @@ Create or enrich master data using trusted third-party data.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -3680,13 +3372,6 @@ Embed data quality services to validate addresses and enrich with geocodes.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -3746,13 +3431,6 @@ Debug your Java application even through networks with high latency.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -3770,7 +3448,6 @@ Debug your Java application even through networks with high latency.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -3818,13 +3495,6 @@ Retrieve information about destinations in the Cloud Foundry environment.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -3897,13 +3567,6 @@ Retrieve information about destinations in the Cloud Foundry environment.
 </td>
 <td valign="top">
 
--   Integration Suite
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -3967,13 +3630,6 @@ Retrieve information about destinations in the Cloud Foundry environment.
 </td>
 <td valign="top">
 
--   Integration Suite
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -3982,6 +3638,7 @@ Retrieve information about destinations in the Cloud Foundry environment.
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -4026,13 +3683,6 @@ Retrieve information about destinations in the Cloud Foundry environment.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -4097,13 +3747,6 @@ Build and run mobile apps for B2E and B2B use cases.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -4124,7 +3767,6 @@ Build and run mobile apps for B2E and B2B use cases.
 -   Canada \(Toronto\)
 -   KSA \(Riyadh\)
 -   UAE \(Dubai\)
--   Russia \(Moscow\)
 
 
 
@@ -4169,13 +3811,6 @@ Build and run mobile apps for B2E and B2B use cases.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
 
 
 
@@ -4248,13 +3883,6 @@ Build and run mobile apps for B2E and B2B use cases.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -4311,13 +3939,6 @@ Build and run mobile apps for B2E and B2B use cases.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
 
 
 
@@ -4382,13 +4003,6 @@ Build and run mobile apps for B2C use cases.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -4409,7 +4023,6 @@ Build and run mobile apps for B2C use cases.
 -   Canada \(Toronto\)
 -   KSA \(Riyadh\)
 -   UAE \(Dubai\)
--   Russia \(Moscow\)
 
 
 
@@ -4459,13 +4072,6 @@ Build and run mobile apps for B2C use cases.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -4532,13 +4138,6 @@ Build and run mobile apps for B2C use cases.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -4595,13 +4194,6 @@ Build and run mobile apps for B2C use cases.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
 
 
 
@@ -4666,13 +4258,6 @@ Classify business documents automatically using machine learning.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -4725,13 +4310,6 @@ Automate your document information extraction processes.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -4794,13 +4372,6 @@ Provide API and UI based document management capabilities to your business appli
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
 
 
 
@@ -4873,13 +4444,6 @@ Provide API and UI based document management capabilities to your business appli
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -4892,6 +4456,65 @@ Provide API and UI based document management capabilities to your business appli
 -   US East \(VA\)
 -   Japan \(Tokyo\)
 -   Singapore
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Document Management Service, Integration Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
+
+
+
+</td>
+<td valign="top">
+
+Provide API and UI based document management capabilities to your business applications.
+
+
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-SDM
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US Central \(IA\)
 
 
 
@@ -4942,13 +4565,6 @@ Store and manage your documents.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -4966,7 +4582,6 @@ Store and manage your documents.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -5020,13 +4635,6 @@ Connect your Java applications to a Dynatrace SaaS monitoring environment.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -5047,7 +4655,6 @@ Connect your Java applications to a Dynatrace SaaS monitoring environment.
 -   Canada \(Toronto\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
--   Russia \(Moscow\)
 
 
 
@@ -5092,13 +4699,6 @@ Restore your cloud production environment with minimal data loss.
 <td valign="top">
 
 -   Neo
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -5166,13 +4766,6 @@ Connect applications, services and systems across different landscapes.
 </td>
 <td valign="top">
 
--   Integration Suite
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -5231,13 +4824,6 @@ Connect applications, services and systems across different landscapes.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -5306,7 +4892,58 @@ Connect applications, services and systems across different landscapes.
 </td>
 <td valign="top">
 
--   Integration Suite
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
+
+
+
+</td>
+<td valign="top">
+
+Connect applications, services and systems across different landscapes.
+
+
+
+</td>
+<td valign="top">
+
+-   BC-CP-EM-MES
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
 
 
 
@@ -5365,13 +5002,6 @@ Allows you to create, manage, configure extensions on SAP Cloud Platform
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -5443,13 +5073,6 @@ Allows you to create, manage, configure extensions on SAP Cloud Platform
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -5506,13 +5129,6 @@ Control the rollout of new features.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -5586,13 +5202,6 @@ Control the rollout of new features.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -5656,13 +5265,6 @@ Control the rollout of new features.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -5671,6 +5273,7 @@ Control the rollout of new features.
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -5715,13 +5318,6 @@ Control the rollout of new features.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -5786,13 +5382,6 @@ Revamp your user experience with SAP Fiori on SAP Cloud Platform.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -5809,7 +5398,6 @@ Revamp your user experience with SAP Fiori on SAP Cloud Platform.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   Europe \(Amsterdam\)
 -   UAE \(Dubai\)
@@ -5864,13 +5452,6 @@ Optimize, build, manage, and monitor SAP Fiori apps on mobile devices.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -5885,7 +5466,6 @@ Optimize, build, manage, and monitor SAP Fiori apps on mobile devices.
 -   Japan \(Tokyo\)
 -   US East \(Sterling\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 
 
@@ -5937,13 +5517,6 @@ Generate print and interactive forms using Adobe Document Services.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -5957,7 +5530,6 @@ Generate print and interactive forms using Adobe Document Services.
 -   US East \(Sterling\)
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   Canada \(Toronto\)
 -   UAE \(Dubai\)
@@ -6015,13 +5587,6 @@ Introduce gamification concepts into your applications.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -6039,7 +5604,6 @@ Introduce gamification concepts into your applications.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -6093,13 +5657,6 @@ Store and version source code in Git repositories.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -6117,7 +5674,6 @@ Store and version source code in Git repositories.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -6165,13 +5721,6 @@ Enables storage of HTML5 applications and provides runtime environment for HTML5
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -6244,13 +5793,6 @@ Enables storage of HTML5 applications and provides runtime environment for HTML5
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -6307,13 +5849,6 @@ Enables storage of HTML5 applications and provides runtime environment for HTML5
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -6378,13 +5913,6 @@ Enables storage of HTML5 applications and provides runtime environment for HTML5
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Alibaba
 
 
@@ -6437,13 +5965,6 @@ Create Hyperledger Fabric nodes and connect them to a blockchain network.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -6508,13 +6029,6 @@ Secure authentication and single sign-on for users in the cloud.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -6566,13 +6080,6 @@ Secure authentication and single sign-on for users in the cloud.
 <td valign="top">
 
 -   
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
-
 
 
 </td>
@@ -6635,13 +6142,6 @@ Manage identity lifecycle processes for cloud and on-premise systems.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -6657,7 +6157,6 @@ Manage identity lifecycle processes for cloud and on-premise systems.
 -   Europe \(Frankfurt\)
 -   Europe \(Amsterdam\)
 -   Japan \(Tokyo\)
--   Russia \(Moscow\)
 -   KSA \(Riyadh\)
 -   US East \(Ashburn\)
 -   US West \(Chandler\)
@@ -6707,13 +6206,6 @@ Accelerate product innovation with instant collaboration and live product intell
 <td valign="top">
 
 -   Neo
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -6778,13 +6270,6 @@ Accelerate product innovation with instant collaboration and live product intell
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -6837,13 +6322,6 @@ Develop, customize, and operate IoT business applications in the cloud.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -6909,13 +6387,6 @@ Recommendation of the G/L accounts using machine learning.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -6968,13 +6439,6 @@ Meet compliance requirements by exchanging documents with the Peppol network.
 <td valign="top">
 
 -   Neo
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -7038,13 +6502,6 @@ Develop and run Java Web applications on SAP Cloud Platform Neo Environment.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -7062,7 +6519,6 @@ Develop and run Java Web applications on SAP Cloud Platform Neo Environment.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -7110,13 +6566,6 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -7189,13 +6638,6 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -7259,13 +6701,6 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -7274,6 +6709,7 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -7318,13 +6754,6 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -7389,13 +6818,6 @@ Manage cryptographic keys and certificates.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -7413,7 +6835,6 @@ Manage cryptographic keys and certificates.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -7461,13 +6882,6 @@ Extend SAP solutions using cloud-native microservices and serverless Functions.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -7533,13 +6947,6 @@ Manage the lifecycle of Java applications by using a REST API.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -7557,7 +6964,6 @@ Manage the lifecycle of Java applications by using a REST API.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -7605,13 +7011,6 @@ Generate and validate configurable one-time PINs or verification codes.
 <td valign="top">
 
 -   
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
-
 
 
 </td>
@@ -7673,13 +7072,6 @@ Send and receive SMSs globally via REST APIs. View traffic logs and analytics.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -7736,13 +7128,6 @@ Develop SAP business applications with a low-code, graphical toolset.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -7794,13 +7179,6 @@ Implement a NoSQL document store.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -7873,13 +7251,6 @@ Implement a NoSQL document store.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -7943,13 +7314,6 @@ Implement a NoSQL document store.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -7958,6 +7322,7 @@ Implement a NoSQL document store.
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -8008,13 +7373,6 @@ Monitor Java and SAP HANA XS applications, and databases.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -8032,7 +7390,6 @@ Monitor Java and SAP HANA XS applications, and databases.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -8080,13 +7437,6 @@ Create MultiChain nodes and connect them to a blockchain network.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -8152,13 +7502,6 @@ Protect applications and APIs with OAuth 2.0.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -8176,7 +7519,6 @@ Protect applications and APIs with OAuth 2.0.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -8224,13 +7566,6 @@ Supports storage and management of unstructured data \(files, BLOBs\).
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -8303,13 +7638,6 @@ Supports storage and management of unstructured data \(files, BLOBs\).
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -8373,13 +7701,6 @@ Supports storage and management of unstructured data \(files, BLOBs\).
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -8388,6 +7709,7 @@ Supports storage and management of unstructured data \(files, BLOBs\).
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -8438,13 +7760,6 @@ Access data in SAP Business Suite using OData services.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -8463,7 +7778,6 @@ Access data in SAP Business Suite using OData services.
 -   Japan \(Tokyo\)
 -   KSA \(Riyadh\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 
 
@@ -8509,13 +7823,6 @@ Access data in SAP Business Suite using OData services.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -8581,13 +7888,6 @@ Access data in SAP Business Suite using OData services.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -8642,13 +7942,6 @@ Simplify integration via APIs
 <td valign="top">
 
 -   Neo
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -8711,13 +8004,6 @@ Simplify integration via APIs
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -8788,13 +8074,6 @@ Simplify integration via APIs
 </td>
 <td valign="top">
 
--   Integration Suite
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -8852,13 +8131,6 @@ Simplify integration via APIs
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -8923,7 +8195,59 @@ Enable an intelligent customer experience for complex configurable products
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US East \(VA\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Personalized Recommendation](https://help.sap.com/pr) 
+
+
+
+</td>
+<td valign="top">
+
+Personalized Recommendation draws insights from user data to deliver highly personalized recommendations.
+
+
+
+</td>
+<td valign="top">
+
+-   CA-ML-PR
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
 
 
 
@@ -8989,13 +8313,6 @@ Use your user base from the identity authentication tenant for admin tasks.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -9013,7 +8330,6 @@ Use your user base from the identity authentication tenant for admin tasks.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -9066,13 +8382,6 @@ Create role based, multi-channel sites to access business apps and content.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -9089,7 +8398,6 @@ Create role based, multi-channel sites to access business apps and content.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   Europe \(Amsterdam\)
 -   UAE \(Dubai\)
@@ -9138,13 +8446,6 @@ Create role based, multi-channel sites to access business apps and content.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
 
 
 
@@ -9217,13 +8518,6 @@ Create role based, multi-channel sites to access business apps and content.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -9287,13 +8581,6 @@ Create role based, multi-channel sites to access business apps and content.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -9302,6 +8589,7 @@ Create role based, multi-channel sites to access business apps and content.
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -9346,13 +8634,6 @@ Create role based, multi-channel sites to access business apps and content.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
 
 
 
@@ -9417,13 +8698,6 @@ Consume an object-relational database with PostgreSQL.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -9484,13 +8758,6 @@ Consume an object-relational database with PostgreSQL.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -9560,13 +8827,6 @@ Consume an object-relational database with PostgreSQL.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -9575,6 +8835,7 @@ Consume an object-relational database with PostgreSQL.
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -9625,13 +8886,6 @@ Calculate prices for configurable- and non-configurable products
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -9642,6 +8896,64 @@ Calculate prices for configurable- and non-configurable products
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
 -   Singapore
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Pricing service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
+
+
+
+</td>
+<td valign="top">
+
+Calculate prices for configurable- and non-configurable products
+
+
+
+</td>
+<td valign="top">
+
+-   LOD-CPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
 
 
 
@@ -9686,13 +8998,6 @@ Manage print queues, connect print clients and monitor print status
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
 
 
 
@@ -9751,13 +9056,6 @@ Cloud Offering with End-to-End visibility on Business Processes
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Process Automation
 
 
 
@@ -9830,13 +9128,6 @@ Cloud Offering with End-to-End visibility on Business Processes
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Process Automation
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -9900,13 +9191,6 @@ Cloud Offering with End-to-End visibility on Business Processes
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Process Automation
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -9915,6 +9199,7 @@ Cloud Offering with End-to-End visibility on Business Processes
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -9959,13 +9244,6 @@ Cloud Offering with End-to-End visibility on Business Processes
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Process Automation
 
 
 
@@ -10030,13 +9308,6 @@ Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -10047,6 +9318,64 @@ Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
 -   Singapore
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Variant Configuration service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
+
+
+
+</td>
+<td valign="top">
+
+Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
+
+
+
+</td>
+<td valign="top">
+
+-   LOD-CPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
 
 
 
@@ -10097,13 +9426,6 @@ Profile and analyze your Java applications.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -10121,7 +9443,6 @@ Profile and analyze your Java applications.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -10175,13 +9496,6 @@ Create Quorum nodes and connect them to a blockchain network.
 </td>
 <td valign="top">
 
--   Integration Suite
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -10235,13 +9549,6 @@ Get robust asynchronous messaging between applications.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -10314,13 +9621,6 @@ Get robust asynchronous messaging between applications.
 </td>
 <td valign="top">
 
--   Integration Suite
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -10384,13 +9684,6 @@ Get robust asynchronous messaging between applications.
 </td>
 <td valign="top">
 
--   Integration Suite
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -10399,6 +9692,7 @@ Get robust asynchronous messaging between applications.
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -10443,13 +9737,6 @@ Implement an in-memory caching layer with Redis.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -10522,13 +9809,6 @@ Implement an in-memory caching layer with Redis.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -10592,13 +9872,6 @@ Implement an in-memory caching layer with Redis.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -10607,6 +9880,7 @@ Implement an in-memory caching layer with Redis.
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -10651,13 +9925,6 @@ Synchronize data between remote databases and a cloud SAP HANA database.
 <td valign="top">
 
 -   Neo
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -10728,13 +9995,6 @@ Manage retention and residence rules to block or delete personal data.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -10795,13 +10055,6 @@ Manage retention and residence rules to block or delete personal data.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -10855,13 +10108,6 @@ Develop, debug, test, and deploy SAP business applications.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -10934,13 +10180,6 @@ Develop, debug, test, and deploy SAP business applications.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -11003,13 +10242,6 @@ Develop, debug, test, and deploy SAP business applications.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -11018,6 +10250,7 @@ Develop, debug, test, and deploy SAP business applications.
 <td valign="top">
 
 -   US Central \(IA\)
+-   India \(Mumbai\)
 
 
 
@@ -11062,13 +10295,6 @@ Develop, debug, test, and deploy SAP business applications.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -11133,13 +10359,6 @@ Organize your documents with ready-to-use document management capabilities.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -11206,13 +10425,6 @@ Organize your documents with ready-to-use document management capabilities.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -11225,6 +10437,65 @@ Organize your documents with ready-to-use document management capabilities.
 -   US East \(VA\)
 -   Japan \(Tokyo\)
 -   Singapore
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Document Management Service, Application Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
+
+
+
+</td>
+<td valign="top">
+
+Organize your documents with ready-to-use document management capabilities.
+
+
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-SDM
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US Central \(IA\)
 
 
 
@@ -11269,13 +10540,6 @@ Analyze data via live connection to your business application's SAP HANA databas
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
 
 
 
@@ -11344,13 +10608,6 @@ Discover, explore and test the APIs offered by SAP.
 </td>
 <td valign="top">
 
--   Integration Suite
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -11408,13 +10665,6 @@ Create and consume SAP ASE databases.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -11432,7 +10682,6 @@ Create and consume SAP ASE databases.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -11480,13 +10729,6 @@ Carry out business intelligence, planning, and predictive analysis tasks.
 <td valign="top">
 
 -   Neo
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
 
 
 
@@ -11554,13 +10796,6 @@ Carry out business intelligence, planning, and predictive analysis tasks.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
 
 
 
@@ -11632,13 +10867,6 @@ Carry out business intelligence, planning, and predictive analysis tasks.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -11698,13 +10926,6 @@ Carry out business intelligence, planning, and predictive analysis tasks.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   Alibaba
 
 
@@ -11757,13 +10978,6 @@ Operate polyglot cloud applications in Cloud Foundry.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -11836,13 +11050,6 @@ Operate polyglot cloud applications in Cloud Foundry.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -11906,13 +11113,6 @@ Operate polyglot cloud applications in Cloud Foundry.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -11921,6 +11121,7 @@ Operate polyglot cloud applications in Cloud Foundry.
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -11965,13 +11166,6 @@ Operate polyglot cloud applications in Cloud Foundry.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -12030,13 +11224,6 @@ Integrate applications, services, and systems across landscapes.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -12107,13 +11294,6 @@ Integrate applications, services, and systems across landscapes.
 </td>
 <td valign="top">
 
--   Integration Suite
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -12170,13 +11350,6 @@ Integrate applications, services, and systems across landscapes.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -12241,13 +11414,6 @@ Build and deploy innovative chatbots using this comprehensive end-to-end platfor
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -12306,13 +11472,6 @@ Calculate sourcing results based on your own sourcing strategies.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -12365,13 +11524,6 @@ Orchestrate, refine, enrich, apply intelligence on your governed data across you
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -12433,13 +11585,6 @@ Orchestrate, refine, enrich, apply intelligence on your governed data across you
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -12505,13 +11650,6 @@ Use uniform standard-based file access and mobilize your business content.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -12528,7 +11666,6 @@ Use uniform standard-based file access and mobilize your business content.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -12576,13 +11713,6 @@ Help Excise Tax customers calculate, track, and comply with excise duty tax requ
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -12641,13 +11771,6 @@ A single gateway to all your data.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -12718,13 +11841,6 @@ A single gateway to all your data.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -12737,6 +11853,64 @@ A single gateway to all your data.
 -   Japan \(Tokyo\)
 -   US West \(WA\)
 -   US East \(VA\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [SAP HANA Cloud](https://help.sap.com/viewer/p/HANA_CLOUD) 
+
+
+
+</td>
+<td valign="top">
+
+A single gateway to all your data.
+
+
+
+</td>
+<td valign="top">
+
+-   HAN-CLS-HC
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
 
 
 
@@ -12781,13 +11955,6 @@ SAP HANA spatial services provides a set of APIs for location-based services.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -12853,13 +12020,6 @@ Create and consume SAP HANA databases.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -12877,7 +12037,6 @@ Create and consume SAP HANA databases.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -12925,13 +12084,6 @@ Create and consume SAP HANA databases.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -13002,13 +12154,6 @@ Create and consume SAP HANA databases.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -13066,13 +12211,6 @@ Create and consume SAP HANA databases.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -13137,13 +12275,6 @@ Create and consume SAP HANA databases.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Alibaba
 
 
@@ -13196,13 +12327,6 @@ Design, configure, and execute automation projects.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Process Automation
 
 
 
@@ -13271,13 +12395,6 @@ Design, configure, and execute automation projects.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Process Automation
-
-
-
-</td>
-<td valign="top">
-
 -   Alibaba
 
 
@@ -13330,13 +12447,6 @@ Put raw sensor data into business context and leverage it in analytical or trans
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -13396,13 +12506,6 @@ Put raw sensor data into business context and leverage it in analytical or trans
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -13466,13 +12569,6 @@ Simplify the complex connectivity, scalability, and management of IoT.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -13516,7 +12612,7 @@ Simplify access to applications by establishing a central launchpad.
 </td>
 <td valign="top">
 
--   EP-CPP-CF
+-   EP-CPP-CF-LND
 
 
 
@@ -13524,13 +12620,6 @@ Simplify access to applications by establishing a central launchpad.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
 
 
 
@@ -13589,7 +12678,7 @@ Simplify access to applications by establishing a central launchpad.
 </td>
 <td valign="top">
 
--   EP-CPP-CF
+-   EP-CPP-CF-LND
 
 
 
@@ -13597,13 +12686,6 @@ Simplify access to applications by establishing a central launchpad.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
 
 
 
@@ -13659,7 +12741,7 @@ Simplify access to applications by establishing a central launchpad.
 </td>
 <td valign="top">
 
--   EP-CPP-CF
+-   EP-CPP-CF-LND
 
 
 
@@ -13667,13 +12749,6 @@ Simplify access to applications by establishing a central launchpad.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
 
 
 
@@ -13688,6 +12763,7 @@ Simplify access to applications by establishing a central launchpad.
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -13724,7 +12800,7 @@ Simplify access to applications by establishing a central launchpad.
 </td>
 <td valign="top">
 
--   EP-CPP-CF
+-   EP-CPP-CF-LND
 
 
 
@@ -13732,13 +12808,6 @@ Simplify access to applications by establishing a central launchpad.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
 
 
 
@@ -13803,13 +12872,6 @@ Infuse your applications with intelligent, easy-to-use services based on Machine
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -13871,13 +12933,6 @@ Infuse your applications with intelligent, easy-to-use services based on Machine
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -13930,13 +12985,6 @@ Upload market rates and download the same multiple times from different systems.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -14002,13 +13050,6 @@ Get daily and historical Exchange Rates and Interest Rates from Refinitiv.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -14067,13 +13108,6 @@ Calculate effective sales prices by applying promotional rules.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -14126,13 +13160,6 @@ Calculate effective sales prices by applying promotional rules.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -14197,13 +13224,6 @@ Mine data from your operational systems, visualize processes, and transform your
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Process Automation
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -14256,13 +13276,6 @@ Automate and simplify your business processes by applying machine learning intel
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Integration Suite
 
 
 
@@ -14327,13 +13340,6 @@ Manage and track expenses, and compare them against your budget in real time.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -14392,13 +13398,6 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP S/4
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -14457,13 +13456,6 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP S/4
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -14530,13 +13522,6 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP S/4
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -14545,6 +13530,7 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP S/4
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -14589,13 +13575,6 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP Suc
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -14666,13 +13645,6 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP Suc
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -14733,13 +13705,6 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP Suc
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -14748,6 +13713,7 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP Suc
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -14792,13 +13758,6 @@ Translate UI texts and get suggestions for UI texts during development.
 <td valign="top">
 
 -   Neo
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -14870,13 +13829,6 @@ Create and extend SAP full-stack applications for browsers and mobile devices.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -14895,7 +13847,6 @@ Create and extend SAP full-stack applications for browsers and mobile devices.
 -   Japan \(Tokyo\)
 -   Brazil \(São Paulo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
 
@@ -14942,13 +13893,6 @@ The central registry for service brokers and platforms in SAP BTP.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -15019,13 +13963,6 @@ The central registry for service brokers and platforms in SAP BTP.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -15088,13 +14025,6 @@ The central registry for service brokers and platforms in SAP BTP.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -15103,6 +14033,7 @@ The central registry for service brokers and platforms in SAP BTP.
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -15147,13 +14078,6 @@ Build a self-driven customer service powered by machine learning.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -15219,13 +14143,6 @@ Build a self-driven customer service powered by machine learning.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -15284,13 +14201,6 @@ Expose KPIs and OPIs as SAP Fiori applications without the need to write any cod
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -15307,7 +14217,6 @@ Expose KPIs and OPIs as SAP Fiori applications without the need to write any cod
 -   Japan \(Tokyo\)
 -   Europe \(Frankfurt\)
 -   US East \(Sterling\)
--   Russia \(Moscow\)
 -   Canada \(Toronto\)
 -   Brazil \(São Paulo\)
 
@@ -15354,13 +14263,6 @@ Expose KPIs and OPIs as SAP Fiori applications without the need to write any cod
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
 
 
 
@@ -15426,13 +14328,6 @@ Deploy, subscribe and transport solutions using multi-target applications \(MTAs
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -15450,7 +14345,6 @@ Deploy, subscribe and transport solutions using multi-target applications \(MTAs
 -   US East \(Sterling\)
 -   US West \(Colorado Springs\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -15504,13 +14398,6 @@ Process continuous streams of event data in real time and act on the results.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -15527,7 +14414,6 @@ Process continuous streams of event data in real time and act on the results.
 -   Canada \(Toronto\)
 -   Brazil \(São Paulo\)
 -   KSA \(Riyadh\)
--   Russia \(Moscow\)
 -   Europe \(Amsterdam\)
 -   Europe \(Frankfurt\)
 -   UAE \(Dubai\)
@@ -15574,13 +14460,6 @@ Determine and calculate indirect taxes to support tax compliance.
 <td valign="top">
 
 -   Neo
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -15639,13 +14518,6 @@ Determine and calculate indirect taxes to support tax compliance.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -15711,13 +14583,6 @@ Determine and calculate indirect taxes to support tax compliance.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -15770,13 +14635,6 @@ Provides programmatic access to Cloud Transport Management.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Development Efficiency
 
 
 
@@ -15849,13 +14707,6 @@ Provides programmatic access to Cloud Transport Management.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -15919,13 +14770,6 @@ Provides programmatic access to Cloud Transport Management.
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -15933,6 +14777,7 @@ Provides programmatic access to Cloud Transport Management.
 </td>
 <td valign="top">
 
+-   Europe \(Frankfurt\)
 -   US Central \(IA\)
 
 
@@ -15984,13 +14829,6 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -16008,7 +14846,6 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Canada \(Toronto\)
--   Russia \(Moscow\)
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
@@ -16056,13 +14893,6 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
 
 
 
@@ -16133,13 +14963,6 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -16202,13 +15025,6 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -16217,6 +15033,7 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -16261,13 +15078,6 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
 
 
 
@@ -16332,13 +15142,6 @@ Add UI adaptation to your UI5 applications.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   AWS
 
 
@@ -16399,13 +15202,6 @@ Add UI adaptation to your UI5 applications.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
 
 
 
@@ -16475,13 +15271,6 @@ Add UI adaptation to your UI5 applications.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -16490,6 +15279,8 @@ Add UI adaptation to your UI5 applications.
 <td valign="top">
 
 -   US Central \(IA\)
+-   Europe \(Frankfurt\)
+-   India \(Mumbai\)
 
 
 
@@ -16540,13 +15331,6 @@ Virtualized hardware resources \(CPU, RAM, disk space, installed OS\) to install
 </td>
 <td valign="top">
 
--   Extension Suite - Development Efficiency
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -16600,13 +15384,6 @@ Analyze usage of your websites and web applications.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Experience
 
 
 
@@ -16676,13 +15453,6 @@ Analyze usage of your websites and web applications.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Experience
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -16739,13 +15509,6 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Process Automation
 
 
 
@@ -16818,13 +15581,6 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Process Automation
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -16888,13 +15644,6 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Process Automation
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -16947,13 +15696,6 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Process Automation
 
 
 
@@ -17018,13 +15760,6 @@ Automate business processes using workflow technology.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Process Automation
-
-
-
-</td>
-<td valign="top">
-
 -   SAP
 
 
@@ -17040,7 +15775,6 @@ Automate business processes using workflow technology.
 -   Europe \(Frankfurt\)
 -   Europe \(Amsterdam\)
 -   Japan \(Tokyo\)
--   Russia \(Moscow\)
 -   KSA \(Riyadh\)
 -   US East \(Ashburn\)
 -   US West \(Chandler\)
@@ -17089,13 +15823,6 @@ Automate business processes using workflow technology.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Process Automation
 
 
 
@@ -17168,13 +15895,6 @@ Automate business processes using workflow technology.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Process Automation
-
-
-
-</td>
-<td valign="top">
-
 -   Azure
 
 
@@ -17238,13 +15958,6 @@ Automate business processes using workflow technology.
 </td>
 <td valign="top">
 
--   Extension Suite - Digital Process Automation
-
-
-
-</td>
-<td valign="top">
-
 -   GCP
 
 
@@ -17252,6 +15965,7 @@ Automate business processes using workflow technology.
 </td>
 <td valign="top">
 
+-   Europe \(Frankfurt\)
 -   US Central \(IA\)
 
 
@@ -17297,13 +16011,6 @@ Automate business processes using workflow technology.
 <td valign="top">
 
 -   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Extension Suite - Digital Process Automation
 
 
 

@@ -99,14 +99,3 @@ If a correlation ID is printed with your error message, please provide it with y
 
 See [Getting Support](../70-getting-support/getting-support-5dd7398.md).
 
-**Related Information**  
-
-
-[Download and Start Using the btp CLI Client](download-and-start-using-the-btp-cli-client-8a8f17f.md "To use the SAP BTP command line interface (btp CLI), you need to download the client first.")
-
-[Command Syntax of the btp CLI](command-syntax-of-the-btp-cli-69606f4.md "Each command consists of the base call btp followed by a verb (the action), a combination of group and object, and parameters.")
-
-[How to Work with the btp CLI](how-to-work-with-the-btp-cli-11d9f67.md "Learn how to work with the SAP BTP command line interface (btp CLI). For example, how to log in, get help, and set a default context for commands.")
-
-[Commands in the btp CLI](commands-in-the-btp-cli-a03a555.md "Find a full reference of all btp CLI commands and their parameters here: btp CLI Command Reference.")
-

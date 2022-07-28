@@ -14,10 +14,10 @@ When creating this service instance, you create the required configurations in b
 
 -   [Create an SAP S/4HANA Extensibility Service Instance in the Cloud Foundry Environment](create-an-sap-s-4hana-extensibility-service-instance-in-the-cloud-foundry-environment-531a909.md)
 
--   [Create an SAP S/4HANA Extensibility Service Instance in the Kyma Environment](create-an-sap-s-4hana-extensibility-service-instance-in-the-kyma-environment-55d876e.md)
+-   [Create an SAP S/4HANA Cloud Extensibility Service Instance in the Kyma Environment](create-an-sap-s-4hana-cloud-extensibility-service-instance-in-the-kyma-environment-55d876e.md)
 
 
-After you have created the `SAP S/4HANA Cloud Extensibility` service instance, either in the Cloud Foundry or Kyma environment, you need to configure event topics for the channel inside the SAP S/4HANA Cloud tenant, and then you need to create an SAP Event Mesh service instance, respectively in the Cloud Foundry or Kyma environment, for the application to consume SAP S/4HANA Cloud events. You do this in a dedicated JSON file that you add either when creating the service instance, or after that. To construct this JSON file, see [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON File](define-sap-s-4hana-cloud-extensibility-service-descriptor-json-file-2d50d91.md).
+After you have created the `SAP S/4HANA Cloud Extensibility` service instance, either in the Cloud Foundry or Kyma environment, you need to configure event topics for the channel inside the SAP S/4HANA Cloud tenant, and then you need to create an SAP Event Mesh service instance, respectively in the Cloud Foundry or Kyma environment, for the application to consume SAP S/4HANA Cloud events. You do this in a dedicated JSON file that you add either when creating the service instance, or after that. To construct this JSON file, see [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON/YAML File](define-sap-s-4hana-cloud-extensibility-service-descriptor-json-yaml-file-2d50d91.md).
 
 
 
@@ -55,7 +55,7 @@ Related Documentation
 
 -   [Create an SAP S/4HANA Extensibility Service Instance in the Cloud Foundry Environment](create-an-sap-s-4hana-extensibility-service-instance-in-the-cloud-foundry-environment-531a909.md)
 
--   [Create an SAP S/4HANA Extensibility Service Instance in the Kyma Environment](create-an-sap-s-4hana-extensibility-service-instance-in-the-kyma-environment-55d876e.md)
+-   [Create an SAP S/4HANA Cloud Extensibility Service Instance in the Kyma Environment](create-an-sap-s-4hana-cloud-extensibility-service-instance-in-the-kyma-environment-55d876e.md)
 
 
 
@@ -72,7 +72,7 @@ Related Documentation
 </td>
 <td valign="top">
 
- [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON File](define-sap-s-4hana-cloud-extensibility-service-descriptor-json-file-2d50d91.md) 
+ [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON/YAML File](define-sap-s-4hana-cloud-extensibility-service-descriptor-json-yaml-file-2d50d91.md) 
 
 
 

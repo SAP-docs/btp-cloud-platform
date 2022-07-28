@@ -30,12 +30,12 @@ Use the Cloud Foundry Command Line Interface \(cf CLI\) to log on to the Cloud F
 
 2.  Set the target API endpoint to the cloud controller.
 
-    For more information, see [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md).
-
     > ### Note:  
     > There is no specific endpoint for trial accounts. Both enterprise and trial accounts use the same API endpoints.
 
      
+
+    For more information, see [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md).
 
 3.  Log on to the Cloud Foundry environment:
 
@@ -44,7 +44,7 @@ Use the Cloud Foundry Command Line Interface \(cf CLI\) to log on to the Cloud F
     ```
 
     > ### Note:  
-    > -   To log on with SAP Universal ID, you need a browser in the logon process. Use the option `--sso`.
+    > -   To log on with SAP Universal ID, use the option `--sso`. You need a browser in the logon process.
     > 
     >     For more information, see [Log On Manually With a Custom Identity Provider](log-on-manually-with-a-custom-identity-provider-e1009b4.md).
     > 

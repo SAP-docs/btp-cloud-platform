@@ -63,7 +63,7 @@ For communication arrangements with inbound connections, a destination on a suba
 
     6.  To define the communication arrangement and the authentication type for the API access, specify a JSON file or specify parameters in the JSON format. Choose *Next*.
 
-        For more information about the structure of the JSON file, see [Communication Arrangement JSON File - Properties](communication-arrangement-json-file-properties-553a4c6.md).
+        For more information about the structure of the JSON file, see [Communication Arrangement JSON/YAML File - Properties](communication-arrangement-json-yaml-file-properties-553a4c6.md).
 
     7.  Choose *Create*.
 

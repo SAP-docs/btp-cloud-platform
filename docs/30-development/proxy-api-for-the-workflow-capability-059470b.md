@@ -123,3 +123,74 @@ You've executed the integration steps in your ABAP environment. See [Workflow In
 > 
 > ```
 
+
+
+<a name="loio059470b6349d482f89eb9993be14ec00__section_cgl_4mq_qtb"/>
+
+## ABAP RESTful Application Programming Model \(RAP\)
+
+**Early Numbering**
+
+In the RAP version of the Workflow Service API, workflows can be registered using the following command:
+
+> ### Sample Code:  
+> Example: EML Create
+> 
+> ```
+> 
+> MODIFY ENTITIES OF i_cpwf_inst
+>       ENTITY CPWFInstance
+>       EXECUTE registerWorkflow
+>       FROM VALUE #( ( %key = '<an optional UUID that will be generated if not provided>'
+>                       %param-RetentionTime = '<retention time in days>'
+>                       %param-CpWfDefId = '<SAP Workflow Service Definition ID>'
+>                       %param-CallbackClass = '<Callback class for final state handling>'
+>                       %param-Consumer = '<SAP Workflow Scenario ID>') ).
+> ```
+
+The parameters `RetentionTime`, `CpWfDefId`, and `Consumer`must be provided.
+
+The workflow context can be provided using the following EML statement:
+
+> ### Sample Code:  
+> Example: EML Create
+> 
+> ```
+> 
+> MODIFY ENTITIES OF i_cpwf_inst
+>       ENTITY CPWFInstance
+>       EXECUTE setPayload
+>       FROM VALUE #( ( %key-CpWfHandle = '<required key (UUID) of the CPWF instance>'
+>                       %param-context = '<workflow context in JSON format>' ) ).
+> ```
+
+Both commands should be part of a determination on save. During the save sequence, the workflow is started with the provided data.
+
+
+
+**Late Numbering**
+
+As for early numbering, the `registerWorkflow` method can be called in a determination on save for late numbering, too.
+
+The workflow context can be set even later in the `adjust_numbers` method of your business object using the `setPayload` method.
+
+> ### Sample Code:  
+> Example: EML Create
+> 
+> ```
+> 
+> MODIFY ENTITIES OF i_cpwf_inst
+>       ENTITY CPWFInstance
+>       EXECUTE setPayload
+>       FROM VALUE #( ( %key-CpWfHandle = <required key (UUID) of the CPWF instance>
+>                       %param-context = <workflow context in JSON format> ) ).
+> ```
+
+During the save sequence, the workflow is started with the provided data. The instance is removed from the draft table and is entered into the active table.
+
+Note, that in the `adjust_numbers` method you must fill the key of each line of the mapped table to make sure the save sequence is executed successfully.
+
+Note also that if you have multiple workflows per instance of your business object you might need to store the assignments yourself in an internal table to be able to call the `set_payload` method during `adjust_numbers` method with the correct data.
+
+
+

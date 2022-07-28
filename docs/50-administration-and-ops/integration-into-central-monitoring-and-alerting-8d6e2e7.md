@@ -325,7 +325,7 @@ abap\_system\_ksr\_captured\_count\_5m
 </td>
 <td valign="top">
 
-The number of captured requests for the ABAP system during the last 5 minutes
+The number of captured ABAP statistics records for the ABAP system during the last 5 minutes
 
 
 
