@@ -1,8 +1,8 @@
 <!-- loio76384d8e68e646d6ae5ce8977412cbb4 -->
 
-# Maintain Business Configurations App
+# Custom Business Configurations App
 
-Find out how to use the *Maintain Business Configurations* app.
+Find out how to use the *Custom Business Configurations* app.
 
 
 
@@ -10,7 +10,7 @@ Find out how to use the *Maintain Business Configurations* app.
 
 ## Purpose
 
-The *Maintain Business Configurations* app serves as an entry point to the configuration objects provided by the different applications or partners. You can use the app to adjust these configuration objects to change and influence the system behavior.
+The *Custom Business Configurations* app serves as an entry point to the configuration objects provided by the different applications or partners. You can use the app to adjust these configuration objects to change and influence the system behavior.
 
 
 
@@ -30,7 +30,7 @@ To view the registered business configurations in the app, you need to be assign
 
 ## Procedure
 
-1.  Open the *Maintain Business Configurations* app.
+1.  Open the *Custom Business Configurations* app.
 2.  You’ll see a list of all business configurations that can be adapted.
 3.  Use the *Search* bar to find a certain business configuration or select the one you would like to work on from the list.
 
@@ -46,6 +46,20 @@ To view the registered business configurations in the app, you need to be assign
 ## Intent Navigation
 
 You can use the parameter `TechnicalIdentifier` for the semantic object `BusinessConfiguration` with the action `maintain`. Intent navigation can be used to directly navigate to the maintenance view of the business configuration specified with the parameter `TechnicalIdentifier`. The parameter is available as a column in the list of business configurations.
+
+
+
+<a name="loio76384d8e68e646d6ae5ce8977412cbb4__section_zfn_5fl_qtb"/>
+
+## Display Change Logs
+
+For a selected business configuration, the action *Display Change Logs* is available in the header section if
+
+-   for at least one database table of the `RAP BO` of the `Business Configuration Maintenance Object Table Logging` is active
+-   the *Business Configuration Change Logs* app is configured as a valid navigation target for the user for the given device
+
+
+With this action, you can navigate to the[Business Configuration Change Logs](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/5c6cf20499894f1083e80dba7c5963d4.html?version=Cloud) app.
 
 
 

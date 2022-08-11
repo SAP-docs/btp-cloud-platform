@@ -318,28 +318,28 @@ Domain
 </td>
 <td valign="top">
 
+Yes
+
+
+
+</td>
+<td valign="top">
+
+XCO\_CP\_DOMAIN=\>ORIGIN
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+<td valign="top">
+
 No
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
-
-</td>
-<td valign="top">
-
-\-
 
 
 
@@ -406,28 +406,28 @@ Function Group
 </td>
 <td valign="top">
 
+Yes
+
+
+
+</td>
+<td valign="top">
+
+XCO\_CP\_FUNCTION\_GROUP=\>ORIGIN
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+<td valign="top">
+
 No
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
-
-</td>
-<td valign="top">
-
-\-
 
 
 
@@ -443,28 +443,28 @@ Function Module
 </td>
 <td valign="top">
 
+Yes
+
+
+
+</td>
+<td valign="top">
+
+XCO\_CP\_FUNCTION\_MODULE=\>ORIGIN
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+<td valign="top">
+
 No
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
-
-</td>
-<td valign="top">
-
-\-
 
 
 

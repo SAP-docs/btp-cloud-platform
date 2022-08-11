@@ -27,7 +27,7 @@ You can pull \(remotely available\) changes of your software component to the se
     > To pull a specific tag, at least one tag has to exist on a commit on the currently active branch.
 
     > ### Note:  
-    > For production systems, a rollback mechanism is enabled. This mechanism allows an automatic roll back to the last valid commit of the repository, in case an invalid commit is pulled. We define an invalid commit as a commit that can cause import errors during a pull operation. The pull of invalid commits is allowed for development and test systems only. If only one out of multiple commits causes an issue, none of the commits will be pulled.
+    > A rollback mechanism is activiated which allows an automatic roll back to the last valid commit of the repository, in case an invalid commit is pulled. We define an invalid commit as a commit that can cause import errors during a pull operation. The pull of invalid commits is allowed for development and test systems only. If only one out of multiple commits causes an issue, none of the commits will be pulled.
     > 
     > Nevertheless, this mechanism cannot reverse any data loss that may occur due to ABAP Dictionary changes. For example, in the case of field shortening of a database table, the field length can be rolled back, but the lost content remains irretrievable. Therefore, ensure that deployments to the production systems are checked in the advance \(via CI/CD processes\), for example on quality systems.
 
@@ -343,4 +343,6 @@ You can pull \(remotely available\) changes of your software component to the se
 
 
 [How to Clone Software Components](how-to-clone-software-components-18564c5.md "")
+
+
 

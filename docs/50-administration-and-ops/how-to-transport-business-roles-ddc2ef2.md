@@ -27,7 +27,7 @@ You can export business roles from your quality system to your productive system
 
 4.  Import your business role to the target system:
 
-    1.  Open the *Manage Software Collection* app.
+    1.  Open the *Manage Software Components* app.
 
     2.  Select *Business Configuration* in the *Type* dropdown and click *Go*.
 
@@ -40,7 +40,7 @@ You can export business roles from your quality system to your productive system
 **Related Information**  
 
 
-[Export Customizing Transports](export-customizing-transports-fa7366c.md "With this app, business process configuration experts can manage business configuration changes recorded in requests.")
+
 
 [Working in the Export Customizing Transports App](working-in-the-export-customizing-transports-app-cc16fd0.md "Find out how to create, release, or merge customizing requests using the Export Customizing Transports app.")
 

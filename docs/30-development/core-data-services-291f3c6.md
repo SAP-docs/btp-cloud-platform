@@ -6,18 +6,6 @@ The XCO library provides several abstractions and APIs to simplify working with 
 
 
 
-<a name="loio291f3c6f5b274cc98a0f55a87aa48a5b__section_tfm_lnj_hmb"/>
-
-## Integration with the ABAP Repository APIs
-
-An important differentiation to be aware of when using the XCO ABAP Repository APIs to locate CDS objects is that between DDLS and STOB, both of which define object types in the ABAP Repository and are accessible via XCO\_CP\_ABAP\_REPOSITORY=\>OBJECTS.
-
-A DDLS object represents the source that is used to define a CDS entity which is represented by a STOB object. By convention, the name of the STOB object defined inside a DDLS object equals the name of the DDLS object.
-
-As a C1-release for a CDS entity always pertains to the STOB object contained inside a DDLS object only the STOB object of a C1-released CDS entity will be visible via XCO\_CP\_ABAP\_REPOSITORY. The corresponding DDLS object will be treated as invisible.
-
-
-
 <a name="loio291f3c6f5b274cc98a0f55a87aa48a5b__section_kn2_c3b_jmb"/>
 
 ## Read APIs

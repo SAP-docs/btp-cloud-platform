@@ -83,7 +83,7 @@ A Customizing transport request for a given transport target can be created as f
 
 Within the XCO Library, a transport \(IF\_XCO\_CP\_TRANSPORT\) represents either a transport request or a task of a transport request. One of the characteristic properties of a transport is that it always has an associated request which is either the transport itself in case it already represents a transport request or otherwise the transport request of the task represented by the transport.
 
-In a style similar to the ABAP Repository Query APIs it is possible to efficiently obtain a list of transports matching user-defined filters. Filters are obtained via the XCO\_CP\_TRANSPORT=\>FILTER API and currently amount for the following attributes:
+In a style similar to the ABAP Repository Query APIs it is possible to efficiently obtain a list of transports matching user-defined filters. Filters are obtained via the XCO\_CP\_TRANSPORT=\>FILTER API and currently cover the following aspects of transports:
 
 -   Kind \(Request or Task\)
 
@@ -99,6 +99,8 @@ In a style similar to the ABAP Repository Query APIs it is possible to efficient
 
 -   Type
 
+-   Attributes
+
 
 Specific to the CTS transport Query APIs is the concept of a resolution that is applied to a transport query. A resolution defines a mapping of the matched transports to the final list of transports. Currently, the following resolutions are offered:
 
@@ -107,7 +109,7 @@ Specific to the CTS transport Query APIs is the concept of a resolution that is 
 -   Identity: Map each matched transport to itself
 
 
-As an example, obtaining a list of transport requests for a given target on which the current user has at least one modifiable task can be accomplished like:
+As a first example, obtaining a list of transport requests for a given target on which the current user has at least one modifiable task can be accomplished like:
 
 > ### Sample Code:  
 > ```abap
@@ -130,6 +132,28 @@ As an example, obtaining a list of transport requests for a given target on whic
 > 
 >   " LO_TRANSPORT is of type IF_XCO_CP_TRANSPORT. Based on the applied resolution
 >   " it is guaranteed that every LO_TRANSPORT object already represents a request.
+> ENDLOOP.
+> ```
+
+As a second example, obtaining a list of all transport requests which are both released and have the attribute SAP\_CUS\_TRANSPORT\_CATEGORY with the value DEFAULT\_CUS can be accomplished like:
+
+> ### Sample Code:  
+> ```abap
+> DATA(lo_attribute_filter) = xco_cp_transport=>filter->attribute(
+>   io_name_constraint  = xco_cp_abap_sql=>constraint->equal( 'SAP_CUS_TRANSPORT_CATEGORY' )
+>   io_value_constraint = xco_cp_abap_sql=>constraint->equal( 'DEFAULT_CUS' )
+> ).
+> DATA(lo_status_filter) = xco_cp_transport=>filter->status( xco_cp_transport=>status->released ).
+> 
+> DATA(lt_transport_requests) = xco_cp_cts=>transports->where( VALUE #(
+>   ( lo_attribute_filter )
+>   ( lo_status_filter )
+> ) )->resolve( xco_cp_transport=>resolution->identity ).
+> 
+> LOOP AT lt_transport_requests INTO DATA(lo_transport_request).
+>   " LV_TRANSPORT_REQUEST will be a transport request which is both in status "Released"
+>   " and has attribute SAP_CUS_TRANSPORT_CATEGORY set to value DEFAULT_CUS.
+>   DATA(lv_transport_request) = lo_transport_request->value.
 > ENDLOOP.
 > ```
 

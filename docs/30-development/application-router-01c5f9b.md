@@ -4,9 +4,14 @@
 
 The application router is the single point-of-entry for an application running in the Cloud Foundry environment on SAP BTP. The application router is used to serve static content, authenticate users, rewrite URLs, and forward or proxy requests to other micro services while propagating user information.
 
-The application router is a library that is available on npmjs.com \(NPM\). For more information, see [@sap/approuter](https://www.npmjs.com/package/@sap/approuter#overview).
+You can set up and run your own application router or you can use the application router that is managed by SAP \(for more information see [Managed Application Router](managed-application-router-589a239.md)\).
 
-You can set up an run your own application router or you can use the application router that is managed by SAP \(for more information see [Managed Application Router](managed-application-router-589a239.md)\). We recommend running you own application router only in advanced cases, for example when application router extensibility is required.
+We recommend running you own application router only in advanced cases, for example when application router extensibility is required. The application router is available on the following sites:
+
+-   As a library on npmjs.com \(NPM\), see [@sap/approuter](https://www.npmjs.com/package/@sap/approuter#overview)
+
+-   As a container image on Docker Hub, see [https://hub.docker.com/r/sapse/approuter](https://hub.docker.com/r/sapse/approuter)
+
 
 **Related Information**  
 

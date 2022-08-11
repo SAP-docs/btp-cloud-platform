@@ -4,7 +4,7 @@
 
 
 
-To establish communication via RFC, you need to create an outbound service of type RFC and use a Service Consumption Model \(SCM\) or the `CALL FUNCTION ... DESTINATION` statement to call other systems from the ABAP environment.
+To establish communication via RFC, you need to create an outbound service of type RFC and use a Service Consumption Model \(SRVC\) or the `CALL FUNCTION ... DESTINATION` statement to call other systems from the ABAP environment.
 
 
 
@@ -13,7 +13,7 @@ To establish communication via RFC, you need to create an outbound service of ty
 ## Prerequisites
 
 -   You've created a communication scenario as described in [Defining a Communication Scenario Including Authorization Values](defining-a-communication-scenario-including-authorization-values-bba0fd2.md).
--   If you want to call other systems via SCM, you must have created an SCM of type RFC as described in [Generating Proxies for Remote Function Call \(RFC\)](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/32812d950d3848359ce391dae477f201.html).
+-   If you want to call other systems via SRVC, you must have created an SRVC of type RFC as described in [Generating Proxies for Remote Function Call \(RFC\)](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/32812d950d3848359ce391dae477f201.html).
 
 
 
@@ -116,13 +116,13 @@ To establish communication via RFC, you need to create an outbound service of ty
     > 
     > To document which RFC function modules are called by a communication scenario, you can define separate outbound services and define the name of the function modules without selecting *Generate Destination*.
 
-3.  Call the RFC service as described in the example. Copy the code from the *Overview* tab in your SCM and add the `comm_system_id` and `service_id` parameters if necessary.
+3.  Call the RFC service as described in the example. Copy the code from the *Overview* tab in your SRVC and add the `comm_system_id` and `service_id` parameters if necessary.
 
 
 
 **Using a Service Consumption Model**
 
-This example shows how to use RFC communication with an SCM.
+This example shows how to use RFC communication with an SRVC.
 
 > ### Sample Code:  
 > ```abap

@@ -357,40 +357,38 @@ For more information on software component versioning, see [Software Component V
 
 
 
-For the delivery of add-ons, there are three package types that serve different purposes: AOI, CSP, and CPK.
+For the delivery of add-on packages, there are three package types that serve different purposes: AOI, CSP, and CPK.
 
-Depending on the purpose, the development objects to be included in the object list of the package are calculated differently based on the state of the software component.
+The different add-on package types are used for different purposes. The set of objects to be included depends on the package type.
 
 > ### Note:  
 > The required type of delivery is automatically determined by the delivery production tools based on how the version number of software components is changed.
+
+![](images/Add-On_Package_Types_efe7f6d.png)
 
 
 
 ### AOI \(Add-On Installation\)
 
-Changes to the release of a software component are delivered as add-on installation packages.
+Delivery packages of type Add-on Installation \(AOI\) are created for all new release versions, e.g. version 1.0.0, and should be used to deliver new functionalities or feature enhancements.
 
-The add-on installation package is used for the initial release of software components. It is used to deliver new features and enhancements of existing functionalities. Each AOI package contains all the objects of the software component. That means, every object is included in the object list of the package.
+These delivery packages include all the objects in the software component and are usually created on a regular basis \(e.g. quarterly\).
 
 
 
 ### CSP \(Component Support Package\)
 
-Changes to the support package level of a software component are delivered as component support package.
+Delivery packages of type Component Support Package \(CSP\) are created for all new support package deliveries, e.g. version 1.1.0, and should be used to deliver a collection of patch deliveries or to deliver smaller functional enhancements.
 
-The CSP is an ABAP support package used for major fixes of a software component version. These major fixes can be a larger collection of corrections but can also contain smaller functional enhancements. Whenever a CSP containing new objects such as bug fixes and/or new features is built, these objects are delivered in any subsequent AOI package.
-
-CSP packages are built with a delta process dependent on the previous state of the software component used for the build. That means, only the changes made since the last change of the support package level or release are included to the object list of the CSP.
+These delivery packages include either the objects that were changed since the previous release delivery or since the previous support package delivery. They are usually created on a regular basis \(e.g. bi-weekly\).
 
 
 
 ### CPK \(Correction Package\)
 
-Changes to the patch level of a software component are delivered as a correction package.
+Delivery packages of type Correction Package \(CPK\) are created for all new patch deliveries, e.g. version 1.0.1, and should be used to deliver bugfixes.
 
-The ABAP correction package is used for minor fixes and should only contain small corrections. Whenever a CPK is built, these objects are delivered in the first component support package \(CSP\) to follow and any subsequent AOI package. That way, new installations are up to date without the need to install patches.
-
-CPK packages are built with a delta process dependent on the previous state of the software component used for the build. That means, only the changes made since the last change of the patch level are included in the object list of the CPK.
+These delivery packages include only those objects that were changed since the previous patch delivery and are only created when necessary \(e.g. emergency patch\).
 
 For more information on the add-on package types and how these are determined based on changes to the software component version, see [Software Component Version](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/#software-component-version).
 

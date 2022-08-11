@@ -45,7 +45,7 @@ The definitions can look as follows:
 > define view entity ZORDERSVIEW as select from zorders {
 >   key id as Id,
 >   creationdate as CreationDate,
->   region as Region,
+>   region as Region
 > }
 > 
 > ```
@@ -68,7 +68,7 @@ The definitions can look as follows:
 >   key pos as Pos,
 >   item as Item,
 >   amount as Amount,
->   _order,
+>   _order
 > }
 > 
 > ```
@@ -81,4 +81,6 @@ The definitions can look as follows:
 > For business user access, in the `ZORDERITEMSVIEW` CDS view entity, you make the region field of the orders accessible using an association `_order`.
 > 
 > For privileged access, no access control is needed, here you can replace `@AccessControl.authorizationCheck: #CHECK` by `@AccessControl.authorizationCheck: #NOT_REQUIRED`.
+> 
+> For business user access, there's a warning that no access control exists. You create this access control when you expose the SQL service for business user access.
 

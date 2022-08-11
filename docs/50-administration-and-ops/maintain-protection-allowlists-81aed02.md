@@ -18,7 +18,7 @@ With this app you can define secure applications by adding trusted hosts to allo
 
 -   *Trusted CSS Style Sheets*
 
-    Here you can list URL patterns for loading CSS style sheets.
+    Here you can list URL patterns for loading CSS style sheets. This may be necessary if customer extensions are using external CSS style sheets.
 
 
 

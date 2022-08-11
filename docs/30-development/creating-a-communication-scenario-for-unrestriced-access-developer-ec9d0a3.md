@@ -36,5 +36,5 @@ For more information, see [Consuming Services in the Context of API with Technic
 **Related Information**  
 
 
-[Overview of Communication Management](overview-of-communication-management-5b8ff39.md "")
+[Overview of Communication Management](overview-of-communication-management-5b8ff39.md "The following information helps you understand the basic principles of communication management when integrating your system or solution with other systems to enable data exchange in your ABAP environment.")
 

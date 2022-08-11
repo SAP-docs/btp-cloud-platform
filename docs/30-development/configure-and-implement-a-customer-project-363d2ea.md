@@ -24,7 +24,7 @@ Once you have configured and implemented the customer project, the SaaS solution
 
 ## Prerequisites
 
-To start with the customer project, you have to know the requirements of the customer, and need to have a consumer tenant subscription and a user for the initial consumer access. See [Subscribe New Consumers](subscribe-new-consumers-b90cde1.md) and [Consumer Access](consumer-access-a197d6f.md).
+To start with the customer project, you have to know the requirements of the customer, and need to have a consumer tenant subscription and a user for the initial consumer access. See [**Subscribe to Multitenant Applications Using the Cockpit**](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7a3e39622be14413b2a4df7c02ca1170.html) and [Initial User Onboarding](order-and-provide-975bd3e.md#loio4a9c5011922847ac91db165c78656149).
 
 As the consumer subaccount administrator, access the SAP Fiori launchpad of the SaaS Solution subscription from the consumer subaccount account by navigating to *Services* \> *Instances and Subscriptions*.
 
@@ -73,7 +73,7 @@ See [Integrating On-Premise Systems](integrating-on-premise-systems-c95327f.md) 
 
 As a business user, you can use the *Maintain Business Configurations* app to adjust business configuration objects to change and influence the system behavior.
 
-See [Maintain Business Configurations App](../50-administration-and-ops/maintain-business-configurations-app-76384d8.md) on how to adjust configuration objects provided in the SaaS solution.
+See [Custom Business Configurations App](../50-administration-and-ops/custom-business-configurations-app-76384d8.md) on how to adjust configuration objects provided in the SaaS solution.
 
 
 
@@ -84,7 +84,7 @@ Key user extensibility that is enabled in the SaaS solution can be configured an
 > ### Note:  
 > Key user extensibility provided in a SaaS solution can only be configured in tenants of particular types, for consumption purposes in customer systems, such as AMT, in tenants of type *Partner Customer Test* or *Partner Customer Production* depending on parameter `usage` in the configuration of the ABAP solution. See [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
 > 
-> These tenant types are provisioned in non-development systems, such as customer system AMT, where development is not allowed \(`is_development_allowed = false`\). The tenants are created dependent on a subscription to the SaaS solution. See [Subscribe New Consumers](subscribe-new-consumers-b90cde1.md).
+> These tenant types are provisioned in non-development systems, such as customer system AMT, where development is not allowed \(`is_development_allowed = false`\). The tenants are created dependent on a subscription to the SaaS solution. See [**Subscribe to Multitenant Applications Using the Cockpit**](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7a3e39622be14413b2a4df7c02ca1170.html).
 
 As a business user in a *Partner Customer Test* or *Partner Customer Production* tenant \(client \>= 200\), you configure key user extensibility in a customer production system AMT.
 

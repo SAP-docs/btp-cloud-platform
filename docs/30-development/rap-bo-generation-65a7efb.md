@@ -242,7 +242,7 @@ The following code sample illustrates how a complete RAP business object, starti
 >     lo_specification->set_short_description( 'Vacation request access control' ).
 > 
 >     DATA(lo_role) = lo_specification->add_role( ).
->     lo_role->add_annotation( 'Mapping.Role' )->value->build(
+>     lo_role->add_annotation( 'MappingRole' )->value->build(
 >       )->add_boolean( abap_true ).
 >     lo_role->add_access_rule( co_ddls_interface_name
 >       )->set_where( xco_cp_dcl=>field( 'Identifier' )->is_not_initial( ) ).

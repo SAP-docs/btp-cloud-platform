@@ -10,5 +10,5 @@ You can assign a tag name and tag description to individual commits.
 4.  **\(Optional\)** Navigate to the *Tagging* tab of your software component to see a table listing all the tags on the branch that is currently checked out/active. Log entries for the creation and deletion of tags are also displayed in the*Recent Actions* table in the *History* tab.
 
 > ### Note:  
-> Note that there can only be a 1-to-1 relationship between a commit and a tag, i.e., a commit can only ever have a maximum of 1 tag.
+> Note that a commit can have multiple tags assigned to it. There is no restriction on how many tags a commit can contain.
 

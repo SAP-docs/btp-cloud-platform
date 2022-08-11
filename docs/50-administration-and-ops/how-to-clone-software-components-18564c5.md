@@ -28,6 +28,9 @@ If a software component is not locally in your system yet, you will first need t
     > ### Note:  
     > There is no input validation for the entered values for the options *By Tag* and *By Commit*. If the entered values are not valid the cloning process will start, but will be shown as failed in the end of the cloning process. In this case, the clone *Latest* option is automatically called as a fallback. With this, the repository is still useable, but not in the orginally requested version.
 
+    > ### Note:  
+    > If the initial clone of a software component runs into errors, the partly imported objects will be removed again from the system instance and the system will be kept clean. Please note that this rollback mechanism is only available for production systems.
+
 4.  The software component with the selected branch is now imported into your current system instance. The *Clone* button turns into a *Pull* button. From now on, you can use it to pull \(remotely available\) changes of your software component to your system.
 
 

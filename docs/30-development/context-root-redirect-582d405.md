@@ -4,7 +4,7 @@
 
 The SAP Java Buildpack provides a context root redirect functionality.
 
-When you call a Web application without adding its runtime \([Tomcat](tomcat-ddfc101.md), [TomEE](tomee-a9590c2.md) or [TomEE 7](tomee-7-79c039a.md)\) context path to the URL, it will be automatically appended.
+When you call a Web application without adding its runtime \([Tomcat](tomcat-ddfc101.md), [TomEE \(Deprecated\)](tomee-deprecated-a9590c2.md) or [TomEE 7](tomee-7-79c039a.md)\) context path to the URL, it will be automatically appended.
 
 **Example**:
 
@@ -22,5 +22,5 @@ you'll be redirected to:
 
 The default context path value for Tomcat, TomEE, and TomEE 7 is ***""*** \(Empty String\).
 
-For more information on how to change this default value, see: [Tomcat](tomcat-ddfc101.md), [TomEE](tomee-a9590c2.md), and [TomEE 7](tomee-7-79c039a.md).
+For more information on how to change this default value, see: [Tomcat](tomcat-ddfc101.md), [TomEE \(Deprecated\)](tomee-deprecated-a9590c2.md), and [TomEE 7](tomee-7-79c039a.md).
 

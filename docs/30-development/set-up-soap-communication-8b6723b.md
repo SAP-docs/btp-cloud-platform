@@ -2,7 +2,7 @@
 
 # Set Up SOAP Communication
 
-Developers can consume synchronous SOAP-based Web services for outbound communication from the ABAP environment.
+Developers can consume SOAP-based Web services for outbound communication from the ABAP environment.
 
 
 
@@ -36,7 +36,7 @@ An enhanced WSDL document has been introduced that describes how schema/WSDL ent
 
 SOAP-based Web services cover the following features:
 
--   Synchronous outbound Web service communication
+-   Synchronous and asynchronous outbound Web service communication
 -   Self-contained WSDL \(single file with no import or include statements\)
 -   gCTS Support \(not relevant for Developer Extensibility, see [Developer Extensibility](https://help.sap.com/viewer/6aa39f1ac05441e5a23f484f31e477e7/latest/en-US/e1059ff581854a699f15734049f14293.html)\)
 -   Web services SOAP header protocol to add custom XML elements to the SOAP request header, see [Add Custom SOAP Header Elements](add-custom-soap-header-elements-3dadfa9.md)

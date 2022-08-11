@@ -1,6 +1,6 @@
 <!-- loiofd7dfa034dec4016b46219300d61cb71 -->
 
-# Business Configuration Administration
+# Business Configuration
 
 Find out which lifecycle management tasks a business process configuration expert \(business role `SAP_BPC_EXPERT`\) needs to perform for the administration of business configurations.
 
@@ -12,7 +12,7 @@ Find out which lifecycle management tasks a business process configuration exper
 
 Business configuration is the customization of business applications. In enterprise software, business configuration refers to a predefined set of configuration options that affect its functionality and behavior. You can maintain custom business configuration content in your`SAP BTP ABAP Environment` to enrich your extensibility scenarios. This includes both functionalities provided by SAP and custom business configuration objects developed using `ABAP Development Tools` \(ADT\).
 
-If you're looking for more information on how to implement custom business configuration objects, please refer to [Maintain Business Configurations App](maintain-business-configurations-app-76384d8.md).
+If you're looking for more information on how to implement custom business configuration objects, please refer to [Custom Business Configurations App](custom-business-configurations-app-76384d8.md).
 
 
 

@@ -4,7 +4,7 @@
 
 
 
-With this app you can display information about security-relevant events that occur in your SAP system. This can be necessary in case of an audit.
+With this app, you can display information about security-relevant events that occur in your SAP system. This can be necessary in case of an audit.
 
 
 
@@ -27,16 +27,11 @@ This app provides the following key features:
 
 The Security Audit Log records the following information:
 
--   Changing data fields while debugging sessions
+-   Security-related changes to the ABAP Platform \(for example, change of system changeability\)
+-   Information that provides a higher level of transparency \(for example, successful and unsuccessful logon attempts\)
+-   Information that enables the reconstruction of a series of events \(for example, successful or unsuccessful transaction starts\)
 
--   Downloads of files from backend
-
--   RFC calls to function modules
-
--   Successful and unsuccessful transaction starts
-
--   Changes to the security audit log configuration
-
+The app *Display Static System Audit* \(, available for the external auditor role\) displays a detailed list of the Security Audit Log events, which are visible in the Security Audit Log app. SAP Note [2903873](https://launchpad.support.sap.com/#/notes/2903873) provides a list of currently recorded Security Audit Log events.
 
 
 
@@ -48,8 +43,6 @@ The Security Audit Log records the following information:
 
 -   Tablet
 
--   Smartphone
-
 
 
 
@@ -57,5 +50,5 @@ The Security Audit Log records the following information:
 
 ## Component for Customer Incidents
 
-If you need support or experience issues, please report an incident under component `BC-SEC-SAL`.
+If you need support or experience issues, report an incident under component `BC-SEC-SAL`.
 

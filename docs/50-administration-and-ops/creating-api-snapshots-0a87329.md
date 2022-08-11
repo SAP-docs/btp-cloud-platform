@@ -16,7 +16,7 @@ The *Manage API Snapshots* app is part of the business process that helps you to
   
 <a name="loio0a873292e08842f291eef926e84d598d__fig_r51_kdy_nrb"/>**Business Process Description of Compatibility Checks for Released APIs**
 
- ![](images/Compatibility_Check_d60a721.png "Business Process Description of Compatibility Checks for Released
+ ![](images/CompatibilityCheckAPPSRV_5624efb.png "Business Process Description of Compatibility Checks for Released
 						APIs") 
 
 

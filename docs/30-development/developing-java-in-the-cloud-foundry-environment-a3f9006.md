@@ -4,7 +4,7 @@
 
 Find selected information for Java development on SAP BTP, Cloud Foundry and references to more detailed sources.
 
-SAP Java Buildpack is a Cloud Foundry buildpack for running JVM-based applications. The buildpack provides the following runtimes: [Tomcat](tomcat-ddfc101.md), [TomEE](tomee-a9590c2.md), [TomEE 7](tomee-7-79c039a.md), and [Java Main](java-main-8a1786a.md).
+SAP Java Buildpack is a Cloud Foundry buildpack for running JVM-based applications. The buildpack provides the following runtimes: [Tomcat](tomcat-ddfc101.md), [TomEE \(Deprecated\)](tomee-deprecated-a9590c2.md), [TomEE 7](tomee-7-79c039a.md), and [Java Main](java-main-8a1786a.md).
 
 
 
@@ -160,7 +160,7 @@ The `sap_java_buildpack` supports the following Java versions:
 
 SAP Java Buildpack provides the following components \(containers, JREs, frameworks\) in the application container \(`<APP_ROOT_DIR>/app/META-INF/.sap_java_buildpack`\):
 
--   Runtime \([Tomcat](tomcat-ddfc101.md), [TomEE](tomee-a9590c2.md), [TomEE 7](tomee-7-79c039a.md), [Java Main](java-main-8a1786a.md)\)
+-   Runtime \([Tomcat](tomcat-ddfc101.md), [TomEE \(Deprecated\)](tomee-deprecated-a9590c2.md), [TomEE 7](tomee-7-79c039a.md), [Java Main](java-main-8a1786a.md)\)
 
 -   [Memory Calculator V1 \(SAP JVM Memory Calculator\)](memory-calculator-v1-sap-jvm-memory-calculator-c1059e0.md) - optional
 

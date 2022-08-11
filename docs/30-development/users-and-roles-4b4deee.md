@@ -218,7 +218,7 @@ The SaaS solution operator is responsible for creating the account model on the 
 
 -   Setting up global accounts for development and production including entitlements, subaccounts, Cloud Foundry org, spaces, services, and apps, as well as trust configuration and connectivity per subaccount. See [System Landscape/Account Model](concepts-9482e7e.md#loio4ca756395fc24e56a42b77632a6bd862).
 
--   Consumer tenant onboarding: creating consumer subaccount and subscription. See [Subscribe New Consumers](subscribe-new-consumers-b90cde1.md).
+-   Consumer tenant onboarding: creating consumer subaccount and subscription. See [**Subscribe to Multitenant Applications Using the Cockpit**](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7a3e39622be14413b2a4df7c02ca1170.html).
 
 -   Creating users in ABAP systems. See [Creation of Additional Administrator Users](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/ced83807a6dc4e33a2cfcdce06e9f9f3.html).
 

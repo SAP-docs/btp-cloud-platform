@@ -2,25 +2,55 @@
 
 # Regular Expression
 
-
-
 Regular expressions can be used to match strings against patterns or extract substrings that match certain criteria.
 
-Independent of XCO, CL\_ABAP\_REGEX provides common regular expression standards for working with regular expressions in ABAP. In XCO, these regular expression standards are encapsulated in the IF\_XCO\_REGEX\_ENGINE abstraction which is accessible via the XCO\_CP\_REGULAR\_EXPRESSION API:
+
+
+The regular expression engines offered by XCO are based on the standards offered by CL\_ABAP\_REGEX:
+
+-   POSIX
+
+-   PCRE
+
+-   XPATH2
+
+-   XSD
+
+
+In XCO, these regular expression standards are encapsulated in the IF\_XCO\_REGEX\_ENGINE abstraction which is accessible via the XCO\_CP\_REGULAR\_EXPRESSION API:
 
 > ### Sample Code:  
 > ```abap
+> 
+> " Example for a POSIX regular expression engine (More configuration options are available
+> " as optional parameters of the method POSIX).
 > DATA(lo_posix_engine) = xco_cp_regular_expression=>engine->posix(
 >   iv_ignore_case = abap_true
 > ).
 > 
+> " Example for a PCRE regular expression engine (More configuration options are available
+> " as optional parameters of the method PCRE).
 > DATA(lo_pcre_engine) = xco_cp_regular_expression=>engine->pcre(
 >   iv_ignore_case      = abap_false
 >   iv_enable_multiline = abap_false
 > ).
+> 
+> " Example for an XPATH 2.0 regular expression engine (More configuration options are available
+> " as optional parameters of the method XPATH2).
+> DATA(lo_xpath2_engine) = xco_cp_regular_expression=>engine->xpath2(
+>   iv_ignore_case      = abap_true
+>   iv_enable_multiline = abap_false
+> ).
+> 
+> " Example for an XSD regular expression engine (More configuration options are available
+> " as optional parameters of the method XSD).
+> DATA(lo_xsd_engine) = xco_cp_regular_expression=>engine->xsd(
+>   iv_ignore_case      = abap_true
+>   iv_enable_multiline = abap_false
+> ).
 > ```
 
-The parameters of the POSIX and PCRE methods can be used to configure the behavior of the engine when it is used against a string. The default engine \(which is used when no explicit engine is supplied\) is POSIX in the default configuration as provided by CL\_ABAP\_REGEX.
+The parameters of the regular expression engine factory methods can be used to configure the behavior of the engine when it is used against a string. The default engine \(which is used when no explicit engine is supplied\) is POSIX in the default configuration as provided by CL\_ABAP\_REGEX.
 
 A regular expression can be used to easily check if a given string matches a pattern
 

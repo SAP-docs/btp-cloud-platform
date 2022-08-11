@@ -1,4 +1,4 @@
-<!-- loiofa7366c3888848bd94566104ac52e627 -->
+<!-- loioa772a0f9fba3427aa0a2036bc07c24ec -->
 
 # Export Customizing Transports
 
@@ -6,14 +6,7 @@ With this app, business process configuration experts can manage business config
 
 
 
-Business configuration changes are recorded in requests. Depending on the category to which the customizing objects belong, two different request types exist:
-
--   Client-specific business configurations are recorded in a request of the type `Customizing Request`
-
--   Cross-client business configurations are recorded in a request of the type `Cross-Client Customizing Request`
-
-
-Unlike ABAP repository objects, customizing objects recorded in a request are accessible to other business users.
+Business configuration changes are recorded in requests, depending on the category to which the customizing objects belong. Client-specific business configurations are recorded in a request of the type Customizing Request. Unlike ABAP repository objects, customizing objects recorded in a request are accessible to other business users.
 
 
 
@@ -27,13 +20,7 @@ If the automatic recording for the client is not allowed, you can save changed c
 
 
 
-### Changing Cross-client Business Configurations
-
-Irrespective of client settings, a request number for the recording has to be selected whenever you save changed cross-client configurations. If there is no request number selected, the configurations can't be saved.
-
-
-
-<a name="loiofa7366c3888848bd94566104ac52e627__section_ahp_mdt_r4b"/>
+<a name="loioa772a0f9fba3427aa0a2036bc07c24ec__section_psh_rz1_wtb"/>
 
 ## Access Information
 
@@ -79,23 +66,23 @@ You can use this app to:
 
 
 
+<a name="loioa772a0f9fba3427aa0a2036bc07c24ec__section_dxk_21b_wtb"/>
+
 ## Default Customizing Request
 
-Since configuration changes recorded in requests of the type `Customizing Request` or `Cross-Client Customizing Request` are not lockable, it might happen that several business users record their configuration changes in different requests.
+Since configuration changes recorded in requests of the type `Customizing Request` are not lockable, it might happen that several business users record their configuration changes in different requests.
 
-Recording the configuration changes in different requests might create dependencies between these requests, however. To avoid such dependencies, a new transport category is introduced.
+Recording the configuration changes in different requests might create dependencies between these requests, however to avoid such dependencies, a new transport category is introduced.
 
-Any new request created from this app is categorized as *Default*: in a client, there can be only one open default request of the type `Customizing Request` or `Cross-Client Customizing Request`.
+Any new request created from this app is categorized as *Default*: in a client, there can be only one open default request of the type `Customizing Request`.
 
 Business users can record their configuration changes to this default request to avoid any dependencies.
 
 If you need to perform an emergency fix, record the configuration changes in a request which is not categorized as *Default*. Default requests are listed in the column *Transport Category*.
 
- 
 
 
-
-<a name="loiofa7366c3888848bd94566104ac52e627__customer_component"/>
+<a name="loioa772a0f9fba3427aa0a2036bc07c24ec__customer_component"/>
 
 ## Component for Customer Incidents
 

@@ -59,7 +59,7 @@ Like IF\_XCO\_NEWS it provides a common ground for many different XCO modules. I
 
 [JSON](json-492ccdb.md "")
 
-[Regular Expression](regular-expression-4c0585e.md "")
+[Regular Expression](regular-expression-4c0585e.md "Regular expressions can be used to match strings against patterns or extract substrings that match certain criteria.")
 
 [String](string-063ad16.md "")
 

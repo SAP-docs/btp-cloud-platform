@@ -84,9 +84,11 @@ Using the *Maintain Business Roles* app, you have the following options for main
 
     You want to, for example, define that the values for the country templates for Austria and Switzerland are applied in all restriction types the *Company Code* field is used in. So you select the values ***AU01*** \(for Austria\) and ***CH01*** \(for Switzerland\) and switch *Leading Restriction* on. Then these values are automatically inherited to all occurrences of the *Company Code* field.
 
--   **Default Values from Business Catalogs**
+    *Default Values from Business Catalogs*
 
-    Business catalogs can contain default values. In rare cases, these might overwrite the values defined by you in the Restrictions and Values section. The system then displays a message listing the default values that are added from the business catalog. To avoid this, you then need to remove the respective business catalog from the business role.
+    Business catalogs can contain default values. In rare cases, these might overwrite the values defined by you in the Restrictions and Values section. The system then displays a message listing the default values that are added from the business catalog. To avoid this, you then need to remove the respective business catalog from the business role. The respective symbol looks like this:
+
+    ![](images/Icon_48b51cb.gif)
 
 
 **Related Information**  
@@ -94,9 +96,9 @@ Using the *Maintain Business Roles* app, you have the following options for main
 
 [Display Restriction Types](display-restriction-types-9203905.md "You can use this app to display restriction types and their validity.")
 
+[Phase-In / Phase-Out Status](phase-in-phase-out-status-03540a8.md "")
 
-
-
+[Field Maintenance Status for Business Roles](field-maintenance-status-for-business-roles-448e12b.md "")
 
 [Maintain Restrictions in Business Role](https://launchpad.support.sap.com/#/notes/2598733)
 

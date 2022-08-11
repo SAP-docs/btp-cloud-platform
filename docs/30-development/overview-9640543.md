@@ -1148,7 +1148,7 @@ Delete tenants.
 </td>
 <td valign="top">
 
-Unsubscribe the SaaS solution. See [Consumer Offboarding](consumer-offboarding-c882a2a.md).
+Unsubscribe the SaaS solution. See [Dismantle](dismantle-35a5882.md).
 
 
 
@@ -1171,7 +1171,7 @@ Consumer subaccount administrator or operator using Subscription Management Dash
 </td>
 <td valign="top">
 
-Restore the deleted tenants within a grace period of 30 days. See [Consumer Offboarding](consumer-offboarding-c882a2a.md).
+Restore the deleted tenants within a grace period of 30 days. See [Dismantle](dismantle-35a5882.md).
 
 
 

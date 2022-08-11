@@ -37,11 +37,9 @@ You want to use the captured request statistics as a basis to perform the system
 
     The *Perform System Sizing* app opens with the captured request statistics of the profile that you've chosen.
 
-    When you open the app, all captured ABAP statistics records are selected for system sizing, and a system sizing for 10 process executions per minute is shown. Initially, one ABAP compute unit \(ACU\) is entered as available, but you can also enter a higher number of available ABAP compute units.
+    When you open the app, all captured ABAP statistics records are selected for system sizing, and a system sizing for 10 parallel process executions is shown. Initially, one ABAP compute unit is entered as available, but you can also enter a higher number of available ABAP compute units.
 
-    ![](images/Perform_System_Sizing_App_9b12fe9.png)
-
-5.  Replace the default value of 10 process executions per minute with the expected volume as assumed in your sizing-relevant business process definition \(see [Defining the Sizing-Relevant Business Processes](defining-the-sizing-relevant-business-processes-4c482a9.md)\).
+5.  Replace the default value of 10 parallel process executions with the expected volume as assumed in your sizing-relevant business process definition \(see [Defining the Sizing-Relevant Business Processes](defining-the-sizing-relevant-business-processes-4c482a9.md)\).
 
     The process execution is the unit to describe the execution of a specific business process by a single business user.
 
@@ -52,7 +50,7 @@ You want to use the captured request statistics as a basis to perform the system
 
 7.  Check whether the required ABAP compute units for total ABAP memory, work process time, and ABAP CPU time are still below acceptable thresholds.
 
-    If total ABAP memory, work process time, and ABAP CPU time consume more than 70% of the available ABAP compute units \(ACUs\), a warning sign next to the calculated ABAP compute units is shown. If 100% or more is consumed, an error sign is shown.
+    If total ABAP memory, work process time, and ABAP CPU time consume more than 70% of the available ABAP compute units, a warning sign next to the calculated ABAP compute units is shown. If 100% or more is consumed, an error sign is shown.
 
 8.  If there are still warnings or errors, increase the number of available ABAP compute units until all error or warning signs disappear and the calculated ABAP compute units \(ACUs\) for total ABAP memory, work process time, and ABAP CPU time are displayed with a green OK sign.
 

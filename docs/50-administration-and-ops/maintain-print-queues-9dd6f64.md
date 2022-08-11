@@ -4,8 +4,6 @@
 
 
 
-<a name="loio9dd6f6495ff544ab8ca6fdb0afc092ab__purpose"/>
-
 ## Purpose
 
 Using this app, you can set up print queues to manage the printing of documents and monitor the print jobs in each queue.
@@ -13,8 +11,6 @@ Using this app, you can set up print queues to manage the printing of documents 
 This helps you to identify and analyze errors and gives you a sense of direction for doing troubleshooting to solve them.
 
 
-
-<a name="loio9dd6f6495ff544ab8ca6fdb0afc092ab__key_features"/>
 
 ## Key Features
 
@@ -29,9 +25,6 @@ With this app you can:
 -   Restart a print queue
 -   Check the status \(such as *New* , *Failed* , *Transmitted* , *Successful*, *Warning*\) of queues or individual print items in the queue and display detailed information regarding the status
 -   Reassign a print item to another print queue
-
-> ### Note:  
-> The **Maintain Print Queues** app is intended as a tool for administrators to manage print queues and to correct any errors in the printing process. End users should not have access to it, as no business-related authorizations are checked in the app. A download or preview of the print queue items is thus not offered in the app.
 
 
 

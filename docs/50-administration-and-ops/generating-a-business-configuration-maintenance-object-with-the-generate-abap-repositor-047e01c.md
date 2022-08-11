@@ -10,7 +10,7 @@ You can create a business configuration maintenance object together with all rel
 
 ## Context
 
-Creating a Fiori app to maintain customizing tables involves many different objects that need to be created manually. On the basis of a database table, this wizard creates all the development objects that are required so that the table content, and optionally, text table content, can be maintained with the *Maintain Business Configurations* app. For more information, see [Maintain Business Configurations App](maintain-business-configurations-app-76384d8.md). A tutorial on how to use this wizard and the *Maintain Business Configurations* app is available here: [Factory Calendar](https://developers.sap.com/mission.abap-dev-factory-calendar.html).
+Creating a Fiori app to maintain customizing tables involves many different objects that need to be created manually. On the basis of a database table, this wizard creates all the development objects that are required so that the table content, and optionally, text table content, can be maintained with the *Custom Business Configurations* app. For more information, see [Custom Business Configurations App](custom-business-configurations-app-76384d8.md). A tutorial on how to use this wizard and the *Custom Business Configurations* app is available here: [Factory Calendar](https://developers.sap.com/mission.abap-dev-factory-calendar.html).
 
 
 
@@ -60,13 +60,13 @@ The wizard can't overwrite existing objects or create only a subset of the objec
 
 
 
-### Business Configuration Scenario Options
+### Scenario Options
 
-In the transport selection type, select *Manual* to include the action *Select Transport* in the generated app. With this action, you can select an existing customizing transport request before saving the configuration changes.
+In *Transport Selection*, select *Manual* to include the action *Select Transport* in the generated app. With this action, you can select an existing customizing transport request before saving the configuration changes.
 
 
 
-### Singleton Entity
+### Data Model
 
 To enable mass editing and manual transport selection, a singleton root entity must be part of the generated data model. For more information, see [here](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/latest/en-US/f713ec52bcb8405ca9262918cffa5d25.html).
 
@@ -84,6 +84,6 @@ The generated RAP business object has the following properties:
 
 -   integration of the BC transport API to validate and record changes on a customizing transport request
 
--   internal numbering is used for key fields with data element `SYSUUID_X16`
+-   internal numbering is used for key fields with `ABAP` type `raw(16) (UUID)`
 
 

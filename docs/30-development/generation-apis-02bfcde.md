@@ -2,7 +2,7 @@
 
 # Generation APIs
 
-XCO Generation is the part of the XCO library that allows the programmatic creation, update and deletion of ABAP repository objects. It consists of high-level and strongly typed APIs for the following objects types:
+The XCO Generation APIs are the part of the XCO library that allows the programmatic creation, update and deletion of ABAP repository objects. It consists of high-level and strongly typed APIs for the following objects types:
 
 -   BDEF \(Behavior definitions\)
 
@@ -33,6 +33,8 @@ XCO Generation is the part of the XCO library that allows the programmatic creat
 -   TABL \(Structures, database tables and global temporary tables\)
 
 -   TTYP \(Table types\)
+
+-   XSLT \(Transformations\)
 
 
 The following kinds of operations are supported:
@@ -611,6 +613,43 @@ X
 <td valign="top">
 
 TTYP
+
+
+
+</td>
+<td valign="top">
+
+X
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+X
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XSLT
 
 
 

@@ -40,19 +40,16 @@ You want to import your configuration content via ".xlsx" file upload.
 
 6.  In the *Deploy Configuration Data* step, only the rows you selected in the previous step are displayed. Click on *Review*.
 
-7.  Review the information. If everything is fine, click on *Deploy* and confirm your action.
+7.  Review the information. If everything is fine, click on *Deploy* to confirm your action.
 
-8.  The *Deployment Log* will show the messages raised during the deployment of the configuration content.
+8.  Based on the system and object settings, you could get a pop-up with a defaulted transport request. This happens if the transport request is mandatory for the selected object and the transport is not hidden. The by default selected transport request is the latest request with which the object was recently changed. You can change the transport request by selecting another one from the list.
 
-    The file upload works on an "all or nothing" approach. If there is an error in any record to be uploaded, the file upload fails. You'll see an error message and be redirected to **Step 1** to restart the upload process again.
+    If no pop-up appears, the defaulted transport request was selected, and you’ll get a confirmation message.
 
-    In case you upload translations, the entries for languages which are not installed in the system are ignored and a warning message is added to the deployment log. If a translation is incomplete, i.e. if one language contains less table records than another language, the upload will fail.
+9.  Select your transport request and confirm it with the *OK* button. The changes will be sent for deployment to be captured in the provided transport request.
 
-    For objects of type "U", the file upload will execute the foreign key checks according to the Data Dictionary \(DDIC\).
+10. In case there is no available transport request in the transport dialog, or you want to create a new request, select *Create* in the transport dialog. You'll then be redirected to the *Export Customizing Transports* app in a new tab. Once redirected, you can then create a new request here.
 
-    -   For client dependent objects, the client field is not part of the file.
-
-    -   The contents in the file are in an external data format. Content exported to the file from transaction *SM30* will automatically be in an external format. For text tables, exported via transaction *SE16*, make sure to mark the checkbox *Respect conversion exit* as "true" before exporting the content to the file. This is done under *Settings* \> *User Parameters*.
-
+11. Once you’ve created a new transport request in the *Export Customizing Transports* app, you can find it by using the value help.
 
 

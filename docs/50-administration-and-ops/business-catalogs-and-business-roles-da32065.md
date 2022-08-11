@@ -495,7 +495,7 @@ Business Configuration
 </td>
 <td valign="top">
 
- [Maintain Business Configurations App](maintain-business-configurations-app-76384d8.md) 
+ [Custom Business Configurations App](custom-business-configurations-app-76384d8.md) 
 
 
 
@@ -529,7 +529,7 @@ Business Configuration
 </td>
 <td valign="top">
 
-[Export Customizing Transports](export-customizing-transports-fa7366c.md)
+[Export Customizing Transports](export-customizing-transports-a772a0f.md)
 
 
 
@@ -594,7 +594,41 @@ Application Jobs
 <tr>
 <td valign="top">
 
-Application Job Templates
+Application Jobs
+
+
+
+</td>
+<td valign="top">
+
+ [Maintain Job Users](maintain-job-users-bd73961.md) 
+
+
+
+</td>
+<td valign="top">
+
+ `SAP_BR_ADMINISTRATOR` 
+
+*Administrator*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_APJ_JCE`
+
+*Application Jobs*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Application Jobs
 
 
 
@@ -1124,6 +1158,40 @@ Identity and Access Management
 `SAP_CORE_BC_IAM_RA`
 
 *Role Assignment*
+
+`SAP_CORE_BC_IAM_RM`
+
+*Role Management*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Identity and Access Management
+
+
+
+</td>
+<td valign="top">
+
+[Maintain Business Roles \(New\) - Preview](maintain-business-roles-new-preview-365b0d6.md)
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+
+
+</td>
+<td valign="top">
 
 `SAP_CORE_BC_IAM_RM`
 
@@ -1764,6 +1832,142 @@ Message Monitoring
 <td valign="top">
 
  [SOAP Error Log and OData Error Log](soap-error-log-and-odata-error-log-e5799c5.md) 
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_CONF_EXPERT_BUS_NET_INT`
+
+*Configuration Expert - Business Network Integration*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CA_BC_COM_TECH_ERR_PC`
+
+*Communication Management - Technical Message Monitoring*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Message Monitoring
+
+
+
+</td>
+<td valign="top">
+
+ [Message Dashboard](message-dashboard-cebfdfc.md) 
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_CONF_EXPERT_BUS_NET_INT`
+
+*Configuration Expert - Business Network Integration*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CA_BC_COM_TECH_ERR_PC`
+
+*Communication Management - Technical Message Monitoring*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Message Monitoring
+
+
+
+</td>
+<td valign="top">
+
+ [Message Monitoring Overview](message-monitoring-overview-503c823.md) 
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_CONF_EXPERT_BUS_NET_INT`
+
+*Configuration Expert - Business Network Integration*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CA_BC_COM_TECH_ERR_PC`
+
+*Communication Management - Technical Message Monitoring*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Message Monitoring
+
+
+
+</td>
+<td valign="top">
+
+ [Message Monitoring for Integration Experts](message-monitoring-for-integration-experts-69bf7dc.md) 
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_CONF_EXPERT_BUS_NET_INT`
+
+*Configuration Expert - Business Network Integration*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CA_BC_COM_TECH_ERR_PC`
+
+*Communication Management - Technical Message Monitoring*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Message Monitoring
+
+
+
+</td>
+<td valign="top">
+
+ [Assign Recipients to Users](assign-recipients-to-users-576fa8d.md) 
 
 
 

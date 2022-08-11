@@ -46,7 +46,7 @@ We recommend using the communication arrangement approach for the following reas
 
 ## Service Consumption Model
 
-Other than with OData, SOAP, or HTTP communication, you can either configure an RFC connection with a Service Consumption Model \(SCM\) or without SCM using the standard `CALL FUNCTION ... DESTINATION` statement. See [Service Consumption Model as RFC Consumer](service-consumption-model-as-rfc-consumer-a69e99c.md) for more information.
+Other than with OData, SOAP, or HTTP communication, you can either configure an RFC connection with a Service Consumption Model \(SRVC\) or without SRVC using the standard `CALL FUNCTION ... DESTINATION` statement. See [Service Consumption Model as RFC Consumer](service-consumption-model-as-rfc-consumer-a69e99c.md) for more information.
 
 
 

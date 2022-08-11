@@ -70,12 +70,17 @@ For more information about authorization control, see [Authorization Control](ht
     > *     fill result list with authorizations per bonus calculation
     >     LOOP AT lt_bonus_calcs INTO DATA(ls_bonus_calc).
     > 
-    > *       check update authorization for bonus calculation incl. bonus variant dependency
+    > *       check update authorization for bonus calculation, incl. bonus variant dependency
     >       AUTHORITY-CHECK OBJECT 'ZBNSCLC_AO' ID 'ACTVT' FIELD '02' ID 'ZBNS_VARNT' FIELD ls_bonus_calc-bonusvariant.
     > *       set variable for update authorization
     >       DATA(lv_update_allowed) = COND #( WHEN sy-subrc = 0 THEN if_abap_behv=>auth-allowed ELSE if_abap_behv=>auth-unauthorized ).
     > 
-    > *       check delete authorization for bonus calculation incl. bonus variant dependency
+    > *       check calculate bonus authorization for bonus calculation, incl. bonus variant dependency
+    >       AUTHORITY-CHECK OBJECT 'ZBNSCLC_AO' ID 'ACTVT' FIELD '93' ID 'ZBNS_VARNT' FIELD ls_bonus_calc-bonusvariant.
+    > *       set variable for calculate bonus authorization
+    >       DATA(lv_calculate_bonus_allowed) = COND #( WHEN sy-subrc = 0 THEN if_abap_behv=>auth-allowed ELSE if_abap_behv=>auth-unauthorized ).
+    > 
+    > *       check delete authorization for bonus calculation, incl. bonus variant dependency
     >       AUTHORITY-CHECK OBJECT 'ZBNSCLC_AO' ID 'ACTVT' FIELD '06' ID 'ZBNS_VARNT' FIELD ls_bonus_calc-bonusvariant.
     > *       set variable for delete authorization
     >       DATA(lv_delete_allowed) = COND #( WHEN sy-subrc = 0 THEN if_abap_behv=>auth-allowed ELSE if_abap_behv=>auth-unauthorized ).

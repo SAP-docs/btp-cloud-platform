@@ -141,7 +141,7 @@ The actual processing of an HTTP request and its response is shown in the follow
 >  
 >     TRY.
 >         " create HTTP destination by cloud destination
->         lo_http_destination = cl_http_destination_provider=>create_by_cloud_destination( i_name = 'DestinationName' i_authn_mode = if_a4c_cp_service=>service_specific).
+>         lo_http_destination = cl_http_destination_provider=>create_by_cloud_destination( i_name = 'DestinationName' i_authn_mode = if_a4c_cp_service=>service_specific ).
 >  
 >         " create HTTP client by HTTP destination
 >         lo_http_client = cl_web_http_client_manager=>create_by_http_destination( lo_http_destination ).

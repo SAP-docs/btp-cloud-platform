@@ -1,5 +1,7 @@
 <!-- loio6a2c1ab5a31b4ed9a2ce17a5329e1dd8 -->
 
+<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+
 # SAP Business Technology Platform
 
 SAP Business Technology Platform \(SAP BTP\) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.
@@ -11,11 +13,79 @@ SAP Business Technology Platform \(SAP BTP\) is an integrated offering comprised
 
 
 
+<a name="loio6a2c1ab5a31b4ed9a2ce17a5329e1dd8__section_h42_mhq_g5b"/>
+
+## SAP BTP in the Intelligent Enterprise
+
+Nowadays, companies need access to live data to make informed decisions in real time and apply advanced technologies and best practices within agile, integrated business processes. That’s why a key part of SAP’s strategy is integrating end-to-end processes – whether the solutions are from SAP, from partners, or from third parties.
+
+At SAP, we drive integration across our solution portfolio, including the following business scenarios: lead to cash, source to pay, design to operate, and hire to retire.
+
+The SAP Business Technology Platformprovides integration capabilities to ensure connected end-to-end business processes across SAP and third-party applications. The following key aspects, called Suite Qualities, facilitate a consistent experience across applications:
+
+-   Seamless User Experience: SAP Fiori can be used to gain a common look and feel of many SAP solutions, which improves user experience and reduces interruptions.
+
+    See: [SAP Fiori](https://www.sap.com/products/technology-platform/fiori.html).
+
+-   Consistent Security and Identity Management: SAP Cloud Identity services on SAP BTP enable you to manage identities and use the single sign-on capability across selected end-to-end processes.
+
+    See: [SAP Cloud Identity Services](https://www.sap.com/products/technology-platform/fiori.html) on SAP BTP.
+
+-   Aligned Domain Models, APIs and Events: Master Data Integration is a cloud service for master data integration. It provides a consistent view on master data across a hybrid landscape. You can use APIs for process integration among SAP solutions, SAP, and third parties, or by adopting an event-based integration strategy – all based on predefined integration content available on SAP API Business Hub.
+
+    See: [SAP One Domain Model](https://www.sap.com/products/technology-platform/fiori.html), [SAP Master Data Integration service](https://discovery-center.cloud.sap/serviceCatalog/master-data-integration?region=all), [SAP Integration Suite](https://www.sap.com/products/technology-platform/integration-suite.html) on SAP BTP
+
+-   Embedded Analytics across Solutions: The analytical insights in various SAP solutions helps you make informed decisions. Embedded analytics from SAP Analytics Cloud are available e.g., in SAP S/4HANA and SAP SuccessFactors.
+
+    See: [SAP Analytics Cloud](https://www.sap.com/products/technology-platform/cloud-analytics.html) on SAP BTP.
+
+-   One Workflow Inbox: With the unified view of pending tasks across SAP solutions in both mobile and desktop environments, you can complete tasks faster.
+
+    See: [SAP Task Center](https://help.sap.com/docs/TASK_CENTER) on SAP BTP, [SAP Mobile Start](https://help.sap.com/docs/SAP_MOBILE_START). For full workflow modeling and visibility capabilities leverage, see: [SAP Process Automation](https://www.sap.com/products/technology-platform/process-automation.html?campaigncode=crm-ya22-int-1517065&source=ppc-de-google_ads-search-71700000093393983-58700007789267837-btp_btp-x-x-x&dfa=1&gclid=EAIaIQobChMIosu48pm--AIVjOR3Ch2ybga1EAAYASAAEgLwcfD_BwE&gclsrc=aw.ds) on SAP BTP
+
+-   Coordinated Lifecycle Management: Harmonized provisioning, setup and operations, and monitoring solutions allow you to optimize implementation projects and reduce manual integration configuration effort. Automated provisioning and guided integration setup are available for selected scenarios in lead to cash, source to pay, recruit to retire, and design to operate.
+
+    See: [SAP for Me](https://me.sap.com/), [SAP CALM](https://support.sap.com/en/alm/sap-cloud-alm.html)
+
+-   End-to-End Process Blueprints: Process blueprints that follow the Industry Reference Architecture standard can help you reduce planning effort for implementation projects and also support architecture decisions.
+
+    See: [SAP API Business Hub](https://api.sap.com/)
+
+
+Related information:
+
+-   [SAP’s vision for the Intelligent Enterprise](https://www.sap.com/intelligent-enterprise.html)
+
+-   [SAP’s Integration Strategy whitepaper](https://www.sap.com/documents/2020/02/520ea921-847d-0010-87a3-c30de2ffd8ff.html) 
+
+-   [SAP Integration Strategy community](https://community.sap.com/topics/integration-strategy)
+
+
+
+
 <a name="loio6a2c1ab5a31b4ed9a2ce17a5329e1dd8__section_btc_lyr_fnb"/>
 
 ## About This Guide
 
 Get an overview of the basic platform concepts of SAP BTP and how they relate to each other. Learn how to manage your accounts and how to develop, extend, administer, and secure your cloud setup and applications on the platform.
+
+> ### Tip:  
+> The English version of this guide is open for contributions and feedback using GitHub. This allows you to get in contact with responsible authors of SAP Help Portal pages and the development team to discuss documentation-related issues. To contribute to this guide, or to provide feedback, choose the corresponding option on SAP Help Portal:
+> 
+> -   <span class="SAP-icons"></span> Edit: Contribute to a documentation page. This option opens a pull request on GitHub.
+> 
+> -   <span class="SAP-icons"></span> Feedback: Provide feedback about a documentation page. This option opens an issue on GitHub.
+> 
+> 
+> You need a GitHub account to use these options.
+> 
+> More information:
+> 
+> -   [Contribution Guidelines](https://help.sap.com/docs/open-documentation-initiative/contribution-guidelines/readme.html)
+> 
+> -   [Introduction Video](https://www.youtube.com/watch?v=WJ0oarMlVW4)
+> 
+> -   [Introduction Blog Post](https://blogs.sap.com/2021/11/29/sap-btp-documentation-goes-github-new-collaboration-process/)
 
 More resources that you might find interesting:
 

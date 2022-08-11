@@ -218,17 +218,39 @@ Supported
 
 3.  Choose *Create Formation*.
 
-    The *Create Formation* dialog opens. There, in a two-step wizard, you can create a formation, and then, include an SAP system to it.
+    The *Create Formation* dialog opens. There, in a wizard, you can create a formation and include one or more SAP systems to it.
 
-4.  Enter a unique formation name.
+4.  On the *General Information* step of the wizard, enter the following information:
 
-    The formation name can contain lowercase or uppercase Latin letters, numbers, hyphens, spaces, or underscores only. The name must start and end with an alphanumeric character.
+    1.  Enter a unique formation name.
 
-5.  Specify a subaccount that you want to associate with the formation.
+        The formation name can contain lowercase or uppercase Latin letters, numbers, hyphens, spaces, or underscores only. The name must start and end with an alphanumeric character.
 
-6.  Choose *Create*.
+    2.  Specify a type for the formation.
 
-7.  Optionally, to include an SAP solution system to the newly created formation, choose *Include System*.
+        The formation type defines the use case. Depending on the type, a list of systems that can be included in this formation is loaded at the following step of the wizard.
+
+    3.  Specify a subaccount that you want to associate with the formation.
+
+        All systems that you include in the formation will be available and can be managed in the respective application or runtime in this subaccount.
+
+
+    > ### Note:  
+    > Based on the formation type and the subaccount that you specified in the newly created formation, it might require an SAP BTP Kyma environment instance. Although the SAP BTP cockpit allows you to create such a formation, to enable and make use of it, you must also create an SAP BTP Kyma environment instance for the corresponding SAP BTP subaccount.
+
+5.  Choose *Next Step*.
+
+6.  On the *Include Systems* step, select one or more SAP systems that you want to include in the newly created formation, and then, choose *Next Step*.
+
+    The wizard prefilters the SAP systems that were added to the *Systems* tab and are valid for the formation type that you specified at the previous step.
+
+7.  On the *Review* step, double check your entries before you create the formation.
+
+    If you want to make any changes, either you can edit the corresponding section directly, or use the *Previous* button.
+
+8.  Choose *Create*.
+
+9.  Optionally, you can include additional SAP solution systems to the newly created formation, by choosing *Include System*.
 
     On the systems list that opens, select a system, and then, choose *Include*.
 

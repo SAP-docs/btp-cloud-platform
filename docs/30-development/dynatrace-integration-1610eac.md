@@ -25,13 +25,13 @@ Dynatrace OneAgent is a Java agent that sends all captured monitoring data to yo
     -   **SaaS Dynatrace**
 
         ```
-        "apiurl": "https://{environmentid}.live.dynatrace.com/api"
+        "apiurl": "https://<environmentid>.live.dynatrace.com/api"
         ```
 
     -   **Managed Dynatrace**
 
         ```
-        "apiurl": "https://<your-domain>/e/<environmentid>/api"
+        "apiurl": "https://<your_domain>/e/<environmentid>/api"
         ```
 
 

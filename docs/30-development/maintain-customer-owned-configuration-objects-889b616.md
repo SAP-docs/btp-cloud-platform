@@ -1,8 +1,8 @@
 <!-- loio889b6167fa3042d988b4bb100e1453a7 -->
 
-# Maintain Business Configurations App
+# Maintain Customer-owned Configuration Objects
 
-Find out how to use the *Maintain Business Configurations* app.
+Find out how to use the *Custom Business Configurations* app.
 
 
 
@@ -10,7 +10,7 @@ Find out how to use the *Maintain Business Configurations* app.
 
 ## Purpose
 
-The *Maintain Business Configurations* app serves as an entry point to the configuration objects provided by the different applications or partners. You can use the app to adjust these configuration objects to change and influence the system behavior.
+The *Custom Business Configurations* app serves as an entry point to the configuration objects provided by the different applications or partners. You can use the app to adjust these configuration objects to change and influence the system behavior.
 
 
 
@@ -32,7 +32,7 @@ To view the registered business configurations in the app, you need to be assign
 
 1.  Open the *Implementation Activities* app.
 2.  Go to *More → Implementation Change Hierarchy → SAP Reference IMG*.
-3.  Open the *SAP Customizing Implementation Guide*. Then, go to *Custom Configuration*. You can now open the *Maintain Business Configurations* app.
+3.  Open the *SAP Customizing Implementation Guide*. Then, go to *Custom Configuration*. You can now open the *Custom Business Configurations* app.
 4.  You’ll see a list of all business configurations that can be adapted.
 5.  Use the *Search* bar to find a certain business configuration or select the one you would like to work on from the list.
 

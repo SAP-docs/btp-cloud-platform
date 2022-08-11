@@ -21,6 +21,7 @@ You can use this app to display the following information:
 -   Number of business roles with unmaintained restrictions
 -   Number of business roles with unrestricted access
 -   Business user price categories
+-   Business roles with default values from business catalogs
 
 
 

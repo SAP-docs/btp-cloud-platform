@@ -34,7 +34,7 @@ Description
 <tr>
 <td valign="top">
 
-Authorizations
+Authorization
 
 
 
@@ -82,7 +82,7 @@ Provides functions to manage the security settings of an account in Cloud Foundr
 <tr>
 <td valign="top">
 
-User Management System for Cross-domain Identity Management \(SCIM\)
+User Management \(System for Cross-domain Identity Management \(SCIM\)\)
 
 
 
@@ -97,6 +97,8 @@ Provides functions to administrate the SAP Authorization and Trust Management se
 </tr>
 </table>
 
+
+
 **Related Information**  
 
 
@@ -105,6 +107,8 @@ Provides functions to administrate the SAP Authorization and Trust Management se
 [APIs of SAP Authorization and Trust Management Service service on SAP API Business Hub](https://api.sap.com/package/authtrustmgmnt)
 
 [Using Platform APIs](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/392af9d162694d6595499f1549978aa6.html "Platform APIs are protected with OAuth 2.0 client credentials. Create an OAuth client and obtain an access token to call the platform API methods.") :arrow_upper_right:
+
+[Rate Limiting](../60-security/rate-limiting-d203e2d.md "This section provides information on the rate limiting in the SAP Authorization and Trust Management service.")
 
 [Limitations on Bindings and Service Keys](../60-security/limitations-on-bindings-and-service-keys-6d3ef52.md "To preserve the stability of the SAP Authorization and Trust Management service, we allow a maximum of 1000 bindings and service keys in total per service instance. The service rejects attempts to add more bindings or service keys.")
 

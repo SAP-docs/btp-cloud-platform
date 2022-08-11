@@ -18,9 +18,9 @@ Find out how to create, release, or merge customizing requests using the *Export
 3.  Click *Create* to create a new request.
 
     > ### Note:  
-    > Note that there can only be one default customizing request.
+    > There can only be one open request of type *Customizing* with category *Default*.
 
-4.  \(Optional\) Add business configurations to this request by, for instance, using the *Upload Business Configurations* app or the *Manage Number Range Intervals* app.
+4.  Add business configurations to this request by, for instance, using the [Upload Business Configuration](upload-business-configuration-c8ca7be.md) app or the [Manage Number Range Intervals](manage-number-range-intervals-2edf0f2.md) app.
 
 
 
@@ -51,6 +51,21 @@ Find out how to create, release, or merge customizing requests using the *Export
 
 
 
+<a name="loiocc16fd0c10ef4ed39a50ac718c71e5a8__section_n3q_tnx_stb"/>
+
+## Delete Request
+
+You can only delete requests which have the status *Modifiable* and have not been released yet.
+
+1.  Select the request you want to delete.
+
+2.  Select *Delete*
+
+3.  To confirm the deletion, click on *Delete* again. Once confirmed, the request and all containing tasks are deleted and disapper from the list
+
+
+
+
 <a name="loiocc16fd0c10ef4ed39a50ac718c71e5a8__section_mh5_ljs_vrb"/>
 
 ## Merge Request
@@ -75,10 +90,29 @@ If there are dependencies between different requests or several business users h
 
 ## Create Copy
 
-It can happen that for technical reasons, it's necessary for you to create a copy of an exported request. This can be the case if, for example, your exported request containing the business configurations didn't synchronize to the Git Repository. In order to synchronize these business configurations with the Git Repository again, a copy is needed.
+The exported request, which contains the business configurations, is not synchronized to the Git repository. To synchronize these business configuration with the Git repository again, you can create a copy of a request.
 
 1.  Select the request you want to copy.
 
 2.  Click on *Create Copy*.
 
+
+> ### Note:  
+> You can always delete objects recorded in a tasks, which are not required to be exported again.
+
+
+
+<a name="loiocc16fd0c10ef4ed39a50ac718c71e5a8__section_kk2_ck3_ptb"/>
+
+## Assign To Me
+
+It's possible to take over the ownership of a request by using the *Assign To Me* button.
+
+1.  Select a request you want to assign to yourself.
+
+2.  Click on *Assign To Me*
+
+
+> ### Note:  
+> The request is now assigned to you. With this option only you can manage the corresponding request.
 

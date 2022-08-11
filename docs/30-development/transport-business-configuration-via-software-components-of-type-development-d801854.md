@@ -29,7 +29,10 @@ To use the Transport Organizer view in ABAP Development for Eclipse, business ro
 
 2.  In ABAP Development Tools for Eclipse, use the *Transport Organizer* view to create customizing transport requests for each software component, making sure to assign the correct target layer for each of the components used.
 
-3.  In the Transport Editor, assign the following attributes to all the created customizing transport requests so that they are displayed in the *Export Customizing Transports* app: `SAP_ATO_TRANSPORT_TYPE = BC SAP_CUS_TRANSPORT_CATEGORY = MANUAL_CUST`.
+3.  In the Transport Editor, assign the following attributes to all the created customizing transport requests so that they are displayed in the *Export Customizing Transports* app:
+
+    -   `SAP_ATO_TRANSPORT_TYPE = BC`
+    -   `SAP_CUS_TRANSPORT_CATEGORY = MANUAL_CUST`
 
 4.  In the *Export Customizing Transports* app, release the transport request. See [Working in the Export Customizing Transports App](../50-administration-and-ops/working-in-the-export-customizing-transports-app-cc16fd0.md).
 

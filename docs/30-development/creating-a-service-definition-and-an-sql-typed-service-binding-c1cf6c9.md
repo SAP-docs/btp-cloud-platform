@@ -2,11 +2,7 @@
 
 # Creating a Service Definition and an SQL-Typed Service Binding
 
-
-
-## Context
-
-To expose the new CDS view entities using the ODBC driver for ABAP, you need to create a service definition and a corresponding service binding of type SQL1.
+To expose the new CDS view entities using the ODBC driver for ABAP, create a service definition and a corresponding service binding of type SQL1.
 
 
 
@@ -23,7 +19,7 @@ To expose the new CDS view entities using the ODBC driver for ABAP, you need to 
     > ### Sample Code:  
     > ```
     > @EndUserText.label: 'SERVICE DEF'
-    > define service Z_SERVICE_DEF_SQL {
+    > define service Z_SERVICE_DEF_SQL provider contracts sql {
     >   expose ZORDERSVIEW as Orders;
     >   expose ZORDERITEMSVIEW as OrderItems;
     > }

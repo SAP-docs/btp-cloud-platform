@@ -24,7 +24,7 @@ You've the following options to consume a destination service:
 
 ## Prerequisites
 
-If you want to call other systems via SCM, you must have created an SCM of type RFC as described in [Generating Proxies for Remote Function Call \(RFC\)](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/32812d950d3848359ce391dae477f201.html).
+If you want to call other systems via SRVC, you must have created an SRVC of type RFC as described in [Generating Proxies for Remote Function Call \(RFC\)](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/32812d950d3848359ce391dae477f201.html).
 
 
 
@@ -43,7 +43,7 @@ Create a destination object using class `cl_http_destination_provider` and metho
 
 **Using a Service Consumption Model**
 
-You can consume your service using a Service Consumption Model \(SCM\). Create an SCM and replace the call of the method`cl_rfc_destination_provider=>create_by_comm_arrangement( )` that is proposed in the SCM with`cl_rfc_destination_provider=>create_by_cloud_destination( )`:
+You can consume your service using a Service Consumption Model \(SRVC\). Create an SRVC and replace the call of the method`cl_rfc_destination_provider=>create_by_comm_arrangement( )` that is proposed in the SRVC with`cl_rfc_destination_provider=>create_by_cloud_destination( )`:
 
 > ### Sample Code:  
 > ```abap

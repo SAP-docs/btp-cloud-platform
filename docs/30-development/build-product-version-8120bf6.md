@@ -45,7 +45,7 @@ The standard user flow is described in the following diagram. Hover over the dif
 
 -   You need to have the “LandscapePortalAdmin” user role assigned to your user account to access this app.
 
--   Users need an active subscription for the CI/CD service in the SAP BTP subacccount to be able to access the Landscape Portal. If this step is not maintained, the following error will occur: 'No subscription to CI/CD service found for this subaccount.'
+-   Users need an active subscription for the CI/CD Service in the SAP BTP subacccount to be able to access the Landscape Portal. If this step is not maintained, the following error will occur: 'No subscription to CI/CD Service found for this subaccount.'
 
 
 
@@ -56,7 +56,7 @@ The standard user flow is described in the following diagram. Hover over the dif
 
 1.  Sign into your account in the *SAP BTP Cockpit*.
 2.  On global account level, navigate to *Entity Assignments* in the Entitlements menu tree.
-3.  Open the value help for *Select Entities* and choose the subaccount to which the *CI/CD service* entitlement shall be added. Click *Select*.
+3.  Open the value help for *Select Entities* and choose the subaccount to which the *CI/CD Service* entitlement shall be added. Click *Select*.
 4.  Click the button *Configure Entitlements* and then *Add Service Plans*.
 5.  Select *Continuous Integration & Delivery* from the list and choose the service plan *default \(Application\)*, then click *Add 1 Service Plan*.
 6.  Click *Save* to add the service plan to your selected subaccount.

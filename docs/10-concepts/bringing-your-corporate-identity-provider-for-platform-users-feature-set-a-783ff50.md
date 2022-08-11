@@ -36,7 +36,7 @@ For Neo subaccounts, there’s a 1:1 relationship between its applications in yo
 Configuring platform users for multi-environment subaccounts has no impact on your existing Neo configuration. You need the Neo configuration to log on to resources like the cockpit.
 
 > ### Recommendation:  
-> While support of multiple corporate identity providers is possible, we recommend using your Identity Authentication tenant as a hub and use conditional authentication to separate them.
+> While support of multiple corporate identity providers is possible, we recommend using your Identity Authentication tenant as a proxy and use conditional authentication to separate them.
 
 **Related Information**  
 

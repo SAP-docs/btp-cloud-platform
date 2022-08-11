@@ -98,7 +98,15 @@ The Cloud Platform \(CP\) edition of the XCO library is comprised of the followi
 
 -   Domain \(XCO\_CP\_DOMAIN\)
 
-    Provides access to text attributes specific to domains.
+    Provides access to text attributes specific to domains as well as to supported origins for the XCO Read APIs for domains.
+
+-   Function group \(XCO\_CP\_FUNCTION\_GROUP\)
+
+    Provides access to supported origins for the XCO Read APIs for function groups.
+
+-   Function module \(XCO\_CP\_FUNCTION\_MODULE\)
+
+    Provides access to function module-specific enumerations as well as to supported origins for the XCO Read APIs for function modules.
 
 -   Generation \(XCO\_CP\_GENERATION\)
 
@@ -199,5 +207,9 @@ The Cloud Platform \(CP\) edition of the XCO library is comprised of the followi
 -   UUID \(XCO\_CP\_UUID\)
 
     Provides access to abstractions used when working with UUIDs in the context of the XCO standard library, such as different UUID formats.
+
+-   XSLX \(XCO\_CP\_XSLX, XCO\_CP\_XLSX\_SELECTION, XCO\_CP\_XLSX\_READ\_ACCESS\)
+
+    The XCO XLSX module supports the programmatic processing of XLSX documents. The various external APIs provide access to central abstractions required when reading data from XLSX documents.
 
 

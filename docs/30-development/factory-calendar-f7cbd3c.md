@@ -18,7 +18,7 @@ A factory calendar is based on a country-specific holiday calendar and defines w
 Read on to learn about the set of data we deliver for these categories.
 
 > ### Note:  
-> Class `CL_SCAL_API` is still available, but deprecated. We recommend that you use class `CL_FHC_CALENDAR_RUNTIME` and the related interfaces instead.
+> Class `CL_SCAL_API` is still available, but deprecated. We recommend that you use class `CL_FHC_CALENDAR_RUNTIME` and the related interfaces instead. For information about the mapping between SCAL-relevant IDs and FHC-relevant IDs, see the corresponding section below.
 
 > ### Caution:  
 > The following HANA SQL functions are currently not supported:
@@ -106,7 +106,7 @@ Provides a holiday runtime
 </table>
 
 > ### Sample Code:  
-> ```html
+> ```abap
 > 
 > try.
 >    data(lo_fcal_run) = cl_fhc_calendar_runtime=>create_factorycalendar_runtime ( 
@@ -299,7 +299,7 @@ is\_holiday\_workingday
 </td>
 <td valign="top">
 
-Check if Holiday is a working day
+Check if holiday is a working day
 
 
 
@@ -315,7 +315,7 @@ get\_description
 </td>
 <td valign="top">
 
-Provides the description of the Calendar
+Provides the description of the calendar
 
 
 
@@ -331,7 +331,7 @@ get\_hcal\_assignment
 </td>
 <td valign="top">
 
-Provides the assigned Holiday calendar Runtime
+Provides the assigned holiday calendar runtime
 
 
 
@@ -347,7 +347,7 @@ get\_id
 </td>
 <td valign="top">
 
-Provides the ID of the Factory Calendar
+Provides the ID of the factory calendar
 
 
 
@@ -356,7 +356,7 @@ Provides the ID of the Factory Calendar
 </table>
 
 > ### Sample Code:  
-> ```html
+> ```abap
 > 
 > try.
 >     data(lv_date) = lo_fcal_run->convert_factorydate_to_date(
@@ -634,6 +634,208 @@ Provides the title and description of the holiday in a specific language
 </td>
 </tr>
 </table>
+
+
+
+<a name="loiof7cbd3c336f84dc09c85639c55b4309f__section_k3p_lcd_g5b"/>
+
+## Mapping between SCAL-relevant IDs and FHC-relevant IDs
+
+Class `CL_FHC_CALENDAR_RUNTIME` uses longer IDs \(32 digits\) than the deprecated class `CL_SCAL_API`, which had only two-digit IDs for the factory calendars and holiday calendars, and three-digit IDs for the public holidays \(also referred to as legacy IDs\). The longer IDs make it easier to categorize calendar data.
+
+To enable the use of the above mentioned runtimes, it may be necessary that an application establishes a connection between a legacy two-digit ID \(as formerly used with `CL_SCAL_API`\) and a longer ID that the newer class `CL_FHC_CALENDAR_RUNTIME` uses.
+
+You can do such a mapping using the interface IF\_FHC\_ID\_MAPPER and class `CL_FHC_CALENDAR_ID_MAPPER`. The mapping is available for holidays, holiday calendars, and factory calendars.
+
+The `CL_FHC_CALENDAR_ID_MAPPER` class returns an ID mapper instance. Subsequently, you can use the methods provided by the interface `IF_FHC_ID_MAPPER` to perform the desired mappings.
+
+
+
+### Creating an ID Mapper Instance
+
+<a name="loiof7cbd3c336f84dc09c85639c55b4309f__table_k4x_3fd_g5b"/>
+
+
+<table>
+<tr>
+<th valign="top">
+
+Method
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+create\_id\_mapper
+
+
+
+</td>
+<td valign="top">
+
+Provides an ID mapper instance
+
+
+
+</td>
+</tr>
+</table>
+
+> ### Sample Code:  
+> ```abap
+> 
+> data(lo_id_mapper) = cl_fhc_calendar_id_mapper=>create_id_mapper(  ).
+> ```
+
+
+
+### Mapping the IDs
+
+<a name="loiof7cbd3c336f84dc09c85639c55b4309f__table_xsj_fgd_g5b"/>
+
+
+<table>
+<tr>
+<th valign="top">
+
+Method
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+mapping\_fcal\_legacyid\_to\_id
+
+
+
+</td>
+<td valign="top">
+
+Provides the 32-digit factory calendar ID for a two-digit SCAL factory calendar ID
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+mapping\_hcal\_legacyid\_to\_id
+
+
+
+</td>
+<td valign="top">
+
+Provides the 32-digit holiday calendar ID for a two-digit SCAL holiday calendar ID
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+mapping\_hol\_legacyid\_to\_id
+
+
+
+</td>
+<td valign="top">
+
+Provides the 32-digit holiday ID for a three-digit SCAL holiday ID
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+mapping\_fcal\_id\_to\_legacyid
+
+
+
+</td>
+<td valign="top">
+
+Provides the two-digit SCAL factory calendar ID for a 32-digit factory calendar ID
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+mapping\_hcal\_id\_to\_legacyid
+
+
+
+</td>
+<td valign="top">
+
+Provides the two-digit SCAL holiday calendar ID for a 32-digit holiday calendar ID
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+mapping\_hol\_id\_to\_legacyid
+
+
+
+</td>
+<td valign="top">
+
+Provides the three-digit SCAL holiday calendar ID for a 32-digit holiday ID
+
+
+
+</td>
+</tr>
+</table>
+
+> ### Sample Code:  
+> ```abap
+> 
+> try.
+>     data(lv_new_id) = lo_id_mapper->mapping_fcal_legacyid_to_id( iv_legacy_id = '01' ).
+>   catch cx_fhc_runtime into data(lx_err).
+>     "exception handling
+> endtry.
+>  
+> "another example
+>  
+> try.
+>    data(lv_legacy_id) = lo_id_mapper->mapping_fcal_id_to_legacyid( iv_factorycalendar_id = 'ExampleID' ).
+>   catch cx_fhc_runtime into lx_err.
+>     "exception handling
+> endtry.
+> ```
 
 
 

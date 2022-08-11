@@ -61,7 +61,7 @@ Select the text sources that you want to have translated.
 > 
 > Text tables are database tables that were created as part of a business object and in which language-dependent texts are stored.
 > 
-> A database table needs to fulfill the following requirements to be considered a text table by the*Maintain Translations* app:
+> A database table needs to fulfill the following requirements to be considered a text table by the *Maintain Translations* app:
 > 
 > -   The database table has exactly one key field of ABAP Dictionary Built-in Type LANG.
 > 
@@ -77,7 +77,7 @@ Select the text sources that you want to have translated.
 > -   When the translations are published, the rows containing the texts in the target language will be added to the selected transport via R3TR TABU.
 > 
 > 
-> In this tutorial \([Create Business Configuration for Factory Calendar](https://developers.sap.com/tutorials/abap-environment-service-binding.html)\) on how to create a business configuration application to maintain holidays, for instance, the language-dependent texts for the respective holidays are stored as entries in the database table `HOLITXT`. The non-key field for which translations can be maintained is field `FCAL_DESCRIPTION`.
+> In this tutorial \([Create a Business Configuration Maintenance App](https://developers.sap.com/mission.abap-dev-factory-calendar.html)\) on how to create a business configuration application to maintain holidays, for instance, the language-dependent texts for the respective holidays are stored as entries in the database table HOLITXT. The non-key field for which translations can be maintained is field FCAL\_DESCRIPTION.
 
 > ### Note:  
 > Please note that the translation of text table entries is only available in environments that support transporting client-specific data.

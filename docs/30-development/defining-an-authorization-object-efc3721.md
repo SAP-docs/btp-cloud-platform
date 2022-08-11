@@ -15,7 +15,7 @@ As in the scenario for granting access based on activities, you define an author
     > ### Tip:  
     > In our example, in the newly created authorization object, under *Authorization Fields*, you need the following:
     > 
-    > -   The predefined *Activity* authorization field to define the permitted activities for the business users of your business service: *01 Add or Create*, *02 Change*, *03 Display*, and *06 Delete*. If you click on an empty row and choose [ENTER\], the list of available values is shown.
+    > -   The predefined *Activity \(ACTVT\)* authorization field to define the permitted activities for the business users of your business service: *01 Add or Create*, *02 Change*, *03 Display*, and *06 Delete* as standard activities as well as *93 Calculate* for the business object-specific activity *Calculate Bonus*. If you click on an empty row and choose [ENTER\], the list of available values is shown.
     > 
     > -   The newly created authorization field `ZBNS_VARN` for the bonus variant
 

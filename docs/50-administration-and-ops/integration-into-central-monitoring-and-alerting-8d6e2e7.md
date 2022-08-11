@@ -70,30 +70,7 @@ abap\_core\_dump\_count\_5m
 </td>
 <td valign="top">
 
-The number of core short dumps during the last 5 minutes
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Performance
-
-
-
-</td>
-<td valign="top">
-
-abap\_core\_fail\_appl\_jobs\_ratio\_5m
-
-
-
-</td>
-<td valign="top">
-
-The ratio of failed application jobs during the last 5 minutes
+The number of ABAP runtime errors during the last 5 minutes
 
 
 
@@ -226,14 +203,14 @@ Performance
 </td>
 <td valign="top">
 
-abap\_system\_appl\_jobs\_running\_count\_5m
+abap\_system\_appl\_jobs\_running\_count
 
 
 
 </td>
 <td valign="top">
 
-The number of running application jobs during the last 5 minutes
+The number of currently running application jobs
 
 
 
@@ -394,7 +371,9 @@ abap\_acu\_used\_count\_5m \(type: memory\)
 </td>
 <td valign="top">
 
-Used quota of ABAP system memory \(in ABAP compute units\)
+Used quota for ABAP system memory during the last 5 minutes
+
+A quota represents the maximum allowed consumption of a resource. For ABAP system resources, it’s measured in ABAP compute units \(ACUs\).
 
 
 
@@ -417,7 +396,9 @@ hana\_hcu\_used\_count\_5m \(type: cpu\)
 </td>
 <td valign="top">
 
-Used quota of CPU utilization for the SAP HANA database \(in HANA compute units\)
+Used quota for CPU utilization during the last 5 minutes
+
+A quota represents the maximum allowed consumption of a resource. For SAP HANA database resources, it’s measured in HANA compute units \(HCUs\).
 
 
 
@@ -440,7 +421,9 @@ hana\_hcu\_used\_count\_5m \(type: disk\)
 </td>
 <td valign="top">
 
-Used quota of disk space for the SAP HANA database \(in HANA compute units\)
+Used quota for disk space consumption during the last 5 minutes
+
+A quota represents the maximum allowed consumption of a resource. For SAP HANA database resources, it’s measured in HANA compute units \(HCUs\).
 
 
 
@@ -463,7 +446,9 @@ hana\_hcu\_used\_count\_5m \(type: memory\)
 </td>
 <td valign="top">
 
-Used quota of memory utilization for the SAP HANA database \(in HANA compute units\)
+Used quota for memory utilization during the last 5 minutes
+
+A quota represents the maximum allowed consumption of a resource. For SAP HANA database resources, it’s measured in HANA compute units \(HCUs\).
 
 
 

@@ -16,6 +16,10 @@
 -   You’ve created a *Communication Arrangement* as described in [How to Create a Communication Arrangement](../50-administration-and-ops/how-to-create-a-communication-arrangement-a0771f6.md).
 
 -   You have selected the communication scenario **SAP\_COM\_0510** for your communication arrangement and have mapped it to your communication system.
+
+    > ### Note:  
+    > Alternatively, you can also use the communication scenario **SAP\_COM\_0901**, which contains the ATC service only, without the Manage Git Repositories service.
+
 -   You have defined a business user in the additional properties in the communication arrangement. To do so, click the *Additional Properties* link for ATC Check Run in the *Inbound Services* section. Specify a business user \(CB\) or select a user from the value help. ATC runs started via the service will be scheduled and executed with the specified business user.
 
     > ### Note:  
@@ -233,28 +237,28 @@ For more information about ABAP Test Cockpit, see [Checking Quality of ABAP Code
 
     For the package value, enter the name of the package you want to have checked.
 
-    To include subpackages, you need to state `includeSubpackages=”true”`.
-
     You can provide an ATC configuration as additional parameter which is used instead of the default configuration of your system.
 
     You can also provide an ATC check variant as additional parameter. This is used instead of the default check variant of your ATC configuration, regardless of whether an ATC configuration was explicitly provided via parameter or not.
 
+    You can use the Object Set Library \(OSL\) to specify arbitrary object sets, such as components or packages.
+
     ```
     <?xml version="1.0" encoding="UTF-8"?>
-    <atc:runparameters xmlns:atc="http://www.sap.com/adt/atc"
-             xmlns:obj="http://www.sap.com/adt/objectset"
+    <atc:runparameters xmlns:atc=http://www.sap.com/adt/atc
+             xmlns:obj=http://www.sap.com/adt/objectset
              checkVariant="CHECKVARIANT_NAME"
+             objectProvider="OBJECTPROVIDER_NAME"
              configuration="CONFIGURATION_NAME">
-      <obj:objectSet>
-          <obj:softwarecomponents>       
-            <obj:softwarecomponent value="SAP_BASIS"/>
-          </obj:softwarecomponents>
-          <obj:packages>
-            <obj:package value="Z_MY_PACKAGE" includeSubpackages="true"/>
-          </obj:packages>
-       </obj:objectSet>
+        <osl:objectSet xsi:type="unionSet" xmlns:osl=http://www.sap.com/api/osl xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance>
+          <osl:set xsi:type="multiPropertySet">
+            <osl:component name="Z_MY_COMPONENT"/>
+          </osl:set>
+          <osl:set xsi:type="multiPropertySet">
+            <osl:package name="Z_MY_PACKAGE"/>
+          </osl:set>
+      </osl:objectSet>
     </atc:runparameters>
-    
     
     ```
 

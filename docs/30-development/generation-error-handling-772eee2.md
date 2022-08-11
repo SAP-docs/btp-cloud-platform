@@ -2,7 +2,18 @@
 
 # Generation Error Handling
 
-Any errors that occur during the execution of a PUT or DELETE operation are communicated via exceptions of types CX\_XCO\_GEN\_PUT\_EXCEPTION and CX\_XCO\_GEN\_DELETE\_EXCEPTION. The following code sample shows how the findings of a failed PUT operation can be extracted:
+Each type of operation within the XCO Generation APIs defines its own exception class that can be used to deal with errors that were encountered during the execution of the operation:
+
+-   CX\_XCO\_GEN\_POST\_EXCEPTION for POST operations
+
+-   CX\_XCO\_GEN\_PUT\_EXCEPTION for PUT operations
+
+-   CX\_XCO\_GEN\_PATCH\_EXCEPTION for PATCH operations
+
+-   CX\_XCO\_GEN\_DELETE\_EXCEPTION for DELETE operations
+
+
+The following code sample shows how the findings of a failed PUT operation can be extracted:
 
 > ### Sample Code:  
 > ```abap

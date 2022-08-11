@@ -32,6 +32,27 @@ Properties of both transport requests and transport tasks can also be retrieved 
 
 
 
+<a name="loio20f5c620437f4a689978a3f4e6692f68__section_gsp_xdh_wtb"/>
+
+## Reading attributes of a transport request
+
+Given a transport request \(represented as an object of the type IF\_XCO\_CP\_TR\_REQUEST\), its attributes can be read out as follows:
+
+> ### Sample Code:  
+> ```abap
+> DATA(lt_attributes) = lo_transport_request->attributes->all->get( ).
+> 
+> LOOP AT lt_attributes INTO DATA(lo_attribute).
+>   " The name of the attribute (as a CHAR of length 30).
+>   DATA(lv_name) = lo_attribute->get_attribute( )->name.
+> 
+>   " The value of the attribute (as a CHAR of length 32).
+>   DATA(lv_value) = lo_attribute->get_value( ).
+> ENDLOOP.
+> ```
+
+
+
 <a name="loio20f5c620437f4a689978a3f4e6692f68__section_gsg_j13_wrb"/>
 
 ## Reading entries of a transport

@@ -23,7 +23,7 @@
 
 ## Context
 
-If a software component is not in your system yet, you will first need to clone it once to import it into your system.
+If a software component is not in your system yet, you will first need to clone it once to import it into your system. Please note that you can clone a software component only once into your system.
 
 > ### Note:  
 > In ABAP environment, Git repositories are wrapped in software components. These are currently managed in the *Manage Software Components* app. The parameter `sc_name` passed to this API needs to be the name of the Git repository on the ABAP environment system – the name of the software component.

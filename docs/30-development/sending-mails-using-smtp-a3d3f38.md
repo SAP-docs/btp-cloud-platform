@@ -69,9 +69,7 @@ With the send method of the API, the mail is sent via the mail server configured
 
 
 
-<a name="copya3d3f38de12b430bb670e418e7e66bad__section_rpf_hxf_c5b"/>
-
-## Configuration of the System Mail Outbound
+### Configuration of the System Mail Outbound
 
 You can restrict the mail outbound at runtime by checking the sender and recipient addresses. If the address does not match with the sender/recipient domains on the allowlist, the email will not be sent.
 
@@ -97,40 +95,40 @@ To maintain the allowed domains and the default sender, further methods are prov
 > ### Sample Code:  
 > ```
 > 
-> 						DATA(config_instance) = cl_bcs_mail_system_config=>create_instance( ).
-> 						
-> 						DATA recipient_domains TYPE cl_bcs_mail_system_config=>tyt_recipient_domains.
-> 						DATA sender_domains TYPE cl_bcs_mail_system_config=>tyt_sender_domains.
-> 						recipient_domains = VALUE #( ( 'recipient1domain.com' ) ( 'recipient2domain.com' ) ).
-> 						sender_domains = VALUE #( ( 'sender1domain.com' ) ( 'sender2domain.com' ) ).
-> 						
-> 						"Add allowed domains
-> 						TRY.
-> 						config_instance->set_address_check_active( abap_true ).
-> 						config_instance->add_allowed_recipient_domains( recipient_domains ).
-> 						config_instance->add_allowed_sender_domains( sender_domains ).
-> 						config_instance->modify_default_sender_address( iv_default_address = 'DefaultSender@yourcompany.com'
-> 						iv_default_name = 'Default Sender' ).
-> 						CATCH cx_bcs_mail_config INTO DATA(write_error).
-> 						"handle exception
-> 						ENDTRY.
-> 						
-> 						"Read allowed domains
-> 						DATA(allowed_recipient_domains) = config_instance->read_allowed_recipient_domains( ).
-> 						DATA(allowed_sender_domains) = config_instance->read_allowed_sender_domains( ).
-> 						config_instance->read_default_sender_address(
-> 						IMPORTING
-> 						ev_default_sender_address = DATA(default_sender_address)
-> 						ev_default_sender_name = DATA(default_sender_name) ).
-> 						
-> 						"Delete allowed domains
-> 						TRY.
-> 						config_instance->delete_allowed_rec_domains( allowed_recipient_domains ).
-> 						config_instance->delete_allowed_sender_domains( allowed_sender_domains ).
-> 						config_instance->delete_default_sender_addr( 'DefaultSender@yourcompany.com' ).
-> 						CATCH cx_bcs_mail_config INTO DATA(deletion_error).
-> 						"handle exception
-> 						ENDTRY.
+> 							DATA(config_instance) = cl_bcs_mail_system_config=>create_instance( ).
+> 							
+> 							DATA recipient_domains TYPE cl_bcs_mail_system_config=>tyt_recipient_domains.
+> 							DATA sender_domains TYPE cl_bcs_mail_system_config=>tyt_sender_domains.
+> 							recipient_domains = VALUE #( ( 'recipient1domain.com' ) ( 'recipient2domain.com' ) ).
+> 							sender_domains = VALUE #( ( 'sender1domain.com' ) ( 'sender2domain.com' ) ).
+> 							
+> 							"Add allowed domains
+> 							TRY.
+> 							config_instance->set_address_check_active( abap_true ).
+> 							config_instance->add_allowed_recipient_domains( recipient_domains ).
+> 							config_instance->add_allowed_sender_domains( sender_domains ).
+> 							config_instance->modify_default_sender_address( iv_default_address = 'DefaultSender@yourcompany.com'
+> 							iv_default_name = 'Default Sender' ).
+> 							CATCH cx_bcs_mail_config INTO DATA(write_error).
+> 							"handle exception
+> 							ENDTRY.
+> 							
+> 							"Read allowed domains
+> 							DATA(allowed_recipient_domains) = config_instance->read_allowed_recipient_domains( ).
+> 							DATA(allowed_sender_domains) = config_instance->read_allowed_sender_domains( ).
+> 							config_instance->read_default_sender_address(
+> 							IMPORTING
+> 							ev_default_sender_address = DATA(default_sender_address)
+> 							ev_default_sender_name = DATA(default_sender_name) ).
+> 							
+> 							"Delete allowed domains
+> 							TRY.
+> 							config_instance->delete_allowed_rec_domains( allowed_recipient_domains ).
+> 							config_instance->delete_allowed_sender_domains( allowed_sender_domains ).
+> 							config_instance->delete_default_sender_addr( 'DefaultSender@yourcompany.com' ).
+> 							CATCH cx_bcs_mail_config INTO DATA(deletion_error).
+> 							"handle exception
+> 							ENDTRY.
 > ```
 
 

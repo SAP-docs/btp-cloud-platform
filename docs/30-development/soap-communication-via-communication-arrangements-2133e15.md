@@ -10,7 +10,7 @@
 
 -   You have created a communication scenario as described in [Defining a Communication Scenario Including Authorization Values](defining-a-communication-scenario-including-authorization-values-bba0fd2.md).
 -   You have a service meta data file \(WSDL file\) for the service you want to consume.
--   You have created and activated a service consumption model \(SCM\) of type `Web Service`. See [Creating Service Consumption Model](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/96132822b3554016b653d3601bb9ff1a.html) for more information.
+-   You have created and activated a service consumption model \(SRVC\) of type `Web Service`. See [Creating Service Consumption Model](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/96132822b3554016b653d3601bb9ff1a.html) for more information.
 
 
 
@@ -25,7 +25,7 @@
     6.  In field *Service Interface*, enter the name of the relevant consumer proxy. You can choose the consumer proxy from the list of the value help.
     7.  Save the outbound service.
 
-2.  Add the newly created outbound service to a communication scenario. See Service Consumption via Communication Arrangements for more information. According to your developed communication scenario, add the following:
+2.  Add the newly created outbound service to a communication scenario. See [Service Consumption via Communication Arrangements](service-consumption-via-communication-arrangements-86aece6.md) for more information. According to your developed communication scenario, add the following:
 
 
     <table>
@@ -100,13 +100,17 @@
     </tr>
     </table>
     
-3.  Call the SOAP service as described in the example. Copy the code snippet from the *Overview* tab in your SCM and add the `comm_system_id` and `service_id` parameters if necessary.
+3.  Call the SOAP service as described in the example. Copy the code snippet from the *Overview* tab in your SRVC and add the `comm_system_id` and `service_id` parameters if necessary. Note the difference between synchronous and asynchronous services.
 
 
 
 <a name="loio2133e15cbf8747dbad81dff41a14e139__section_vnl_x3l_mtb"/>
 
 ## Example
+
+
+
+### Synchronous Services
 
 > ### Sample Code:  
 > ```abap
@@ -138,6 +142,39 @@
 
 
 
+### Asynchronous Services
+
+For asynchronous services, follow the same procedure as for synchronous services. The only differences in the code are the following:
+
+-   The `IMPORTING` parameter is missing since the service doesn't return any value.
+-   A `COMMIT WORK` triggers the SOAP call.
+
+> ### Sample Code:  
+> ```abap
+>  TRY.
+>         DATA(destination) = cl_soap_destination_provider=>create_by_comm_arrangement(
+>                               comm_scenario  = '<demo scenario>'
+> *                             service_id     = '<Outbound Service>'
+> *                             comm_system_id = '<Communication System Identifier>'
+>                             ).
+>         DATA(proxy) = NEW zco_appointment_activity_reque(
+>                         destination = destination
+>                       ).
+>         DATA(request) = VALUE zappointment_activity_request1( ).
+>         proxy->appointment_activity_request_i(
+>           EXPORTING
+>             input = request
+>         ).
+>         COMMIT WORK. "to trigger async call
+>       CATCH cx_soap_destination_error.
+>         "handle error
+>       CATCH cx_ai_system_fault.
+>         "handle error
+>     ENDTRY.
+> ```
+
+
+
 <a name="loio2133e15cbf8747dbad81dff41a14e139__section_rbb_dl5_mtb"/>
 
 ## Test Your Outbound Call
@@ -146,12 +183,14 @@ To test your outbound call, you have to provide a configuration for the outbound
 
 Create a communication system and communication arrangement for the communication scenario in the Communication Systems and Communication Arrangements apps and maintain the required data.
 
+To check if an asynchronous call was successfully sent to the provider system, see [How to Monitor Asynchronous SOAP Calls](how-to-monitor-asynchronous-soap-calls-3cd5085.md).
+
 **Related Information**  
 
 
 [Enable SOAP Communication in Your ABAP Code](enable-soap-communication-in-your-abap-code-6ab460e.md "SOAP-based Web service outbound communication within the ABAP environment is enabled by using SOAP destination objects.")
 
-[Overview of Communication Management](overview-of-communication-management-5b8ff39.md "")
+[Overview of Communication Management](overview-of-communication-management-5b8ff39.md "The following information helps you understand the basic principles of communication management when integrating your system or solution with other systems to enable data exchange in your ABAP environment.")
 
 [Communication Arrangement](communication-arrangement-201de48.md "A communication arrangement is a runtime description of a specific communication scenario. It describes which communication partners communicate with each other in the scenario and how they communicate.")
 
