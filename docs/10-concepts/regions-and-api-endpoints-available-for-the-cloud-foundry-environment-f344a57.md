@@ -148,7 +148,7 @@ eu20.hana.ondemand.com
 
 [Feature Set A ](https://account.eu1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-eu20)
 
-[Feature Set B](https://cockpit.eu20.hana.ondemand.com/)
+[Feature Set B](https://cockpit.eu10.hana.ondemand.com/)
 
 
 
@@ -222,7 +222,7 @@ ap20.hana.ondemand.com
 
 [Feature Set A](https://account.ap1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ap20)
 
-[Feature Set B](https://cockpit.ap20.hana.ondemand.com/)
+[Feature Set B](https://cockpit.ap11.hana.ondemand.com/)
 
 
 
@@ -296,7 +296,7 @@ ap21.hana.ondemand.com
 
 [Feature Set A](https://account.ap1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ap21)
 
-[Feature Set B](https://cockpit.ap21.hana.ondemand.com/)
+[Feature Set B](https://cockpit.ap11.hana.ondemand.com/)
 
 
 
@@ -370,7 +370,7 @@ us20.hana.ondemand.com
 
 [Feature Set A](https://account.us2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-us20)
 
-[Feature Set B](https://cockpit.us20.hana.ondemand.com/)
+[Feature Set B](https://cockpit.us10.hana.ondemand.com/)
 
 
 
@@ -444,7 +444,7 @@ jp20.hana.ondemand.com
 
 [Feature Set A](https://account.jp1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-jp20)
 
-[Feature Set B](https://cockpit.jp20.hana.ondemand.com/)
+[Feature Set B](https://cockpit.jp10.hana.ondemand.com/)
 
 
 
@@ -518,7 +518,7 @@ us21.hana.ondemand.com
 
 [Feature Set A](https://account.us1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-us21)
 
-[Feature Set B](https://cockpit.us21.hana.ondemand.com/)
+[Feature Set B](https://cockpit.us10.hana.ondemand.com/)
 
 
 
@@ -1300,7 +1300,7 @@ us30.hana.ondemand.com
 
 [Feature Set A](https://account.us1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-us30)
 
-[Feature Set B](https://cockpit.us30.hana.ondemand.com/)
+[Feature Set B](https://cockpit.us10.hana.ondemand.com/)
 
 
 
@@ -1372,7 +1372,7 @@ eu30.hana.ondemand.com
 </td>
 <td valign="top">
 
- [Feature Set B](https://cockpit.eu30.hana.ondemand.com/) 
+ [Feature Set B](https://cockpit.eu10.hana.ondemand.com/) 
 
 
 
@@ -1444,7 +1444,7 @@ in30.hana.ondemand.com
 </td>
 <td valign="top">
 
- [Feature Set B](https://cockpit.in30.hana.ondemand.com/) 
+ [Feature Set B](https://cockpit.ap11.hana.ondemand.com/) 
 
 
 
