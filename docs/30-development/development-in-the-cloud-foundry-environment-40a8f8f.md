@@ -36,26 +36,6 @@ The following graphic is designed to help you find the information you need for 
 
 ![](images/Image_Map_Development_Options_Overview_d716bab.png)
 
--   [Development Languages](development-languages-2d0ff22.md)
--   [Developing HTML5 Applications in the Cloud Foundry Environment](developing-html5-applications-in-the-cloud-foundry-environment-11d77aa.md)
--   [Developing SAP HANA in the Cloud Foundry Environment](developing-sap-hana-in-the-cloud-foundry-environment-14224d7.md#loio14224d75f6c64b499d189e3ebd131ec2)
--   [Deploy Docker Images in the Cloud Foundry Environment](deploy-docker-images-in-the-cloud-foundry-environment-c190ad6.md)
--   [Deploy Business Applications in the Cloud Foundry Environment](deploy-business-applications-in-the-cloud-foundry-environment-4946ea5.md)
--   [Developing Applications and Services](developing-applications-and-services-68e2ece.md)
--   [Developing User Interface](developing-user-interface-a6ea5f0.md)
--   [Consuming APIs](consuming-apis-d4cae3e.md)
--   [Adding Authentication and Authorization](adding-authentication-and-authorization-419ae2e.md)
--   [Setting Up Database Artifacts](setting-up-database-artifacts-3cd6954.md)
--   [Deploying to the Cloud Foundry Environment](deploying-to-the-cloud-foundry-environment-2a21055.md)
--   [Developing with the SAP Cloud Application Programming Model](developing-with-the-sap-cloud-application-programming-model-00823f9.md)
--   [SAP Business Application Studio](sap-business-application-studio-c736960.md)
--   [Developing SAPUI5](developing-sapui5-839cb81.md)
--   [https://api.sap.com/](https://api.sap.com/)
--   [Protecting Your Application](protecting-your-application-7c5c565.md)
--   [SAP HANA Cloud](developing-sap-hana-in-the-cloud-foundry-environment-14224d7.md#loioa697b1b1b5ad4b598378ff0fa091fa35)
--   [Continuous Integration and Delivery](continuous-integration-and-delivery-fdead30.md#loiofdead30953d24c0ca75768e2c3bcdd2c)
--   [Multitarget Applications in the Cloud Foundry Environment](multitarget-applications-in-the-cloud-foundry-environment-d04fc0e.md)
-
 
 
 <a name="loio40a8f8f6f1724e0ca0fd2a8777f45504__section_ifw_4vl_tnb"/>

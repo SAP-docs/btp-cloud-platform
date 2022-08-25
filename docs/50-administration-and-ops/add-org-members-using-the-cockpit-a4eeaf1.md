@@ -68,8 +68,8 @@ Add users as org members and assign roles to grant the users access to informati
 
 ## Next Steps
 
--   To select or unselect roles for a member, choose <span class="SAP-icons"></span> \(Edit\). The changes you make to the roles of a member take effect immediately.
--   To remove all the roles of a member, choose <span class="SAP-icons"></span> \(Delete\). This action removes the member from the organization and any spaces in the org.
+-   To select or unselect roles for a member, choose :pencil2:. The changes you make to the roles of a member take effect immediately.
+-   To remove all the roles of a member, choose :wastebasket:. This action removes the member from the organization and any spaces in the org.
 -   If the users need to view or manage applications in spaces, add the users to the relevant spaces, too.
 
     For more information, see [Add Space Members Using the Cockpit](add-space-members-using-the-cockpit-81d0b4d.md).

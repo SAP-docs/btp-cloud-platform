@@ -30,7 +30,7 @@ When calling asynchronous SOAP services as described in [SOAP Communication via 
 
 ## Procedure
 
-1.  Create a Service Consumption Model \(SRVC\) of type `Web Service` as described in .
+1.  Create a Service Consumption Model \(SRVC\) of type `Web Service` as described in [Creating Service Consumption Model](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/96132822b3554016b653d3601bb9ff1a.html?version=Cloud&q=creating%20service%20consumption).
 
 2.  Activate the SRVC. This creates a so-called AIF interface in the Message Monitor Overview app.
 

@@ -246,7 +246,7 @@ Follow these steps to define your ABAP Solution.
 
     consumer\_tenant\_limit \>= 1
 
-    **Note**: A recently deleted tenant will be counted towards the limit, in case it is restored during the grace period . After the 30-day grace period is up, it will no longer be considered for the limit. See .
+    **Note**: A recently deleted tenant will be counted towards the limit, in case it is restored during the grace period . After the 30-day grace period is up, it will no longer be considered for the limit. See [Dismantle](dismantle-35a5882.md).
 
 
     

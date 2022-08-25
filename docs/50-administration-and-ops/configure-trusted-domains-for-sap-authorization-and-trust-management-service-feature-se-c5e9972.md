@@ -36,7 +36,7 @@ To prevent clickjacking or overlay attacks, web browsers follow a same origin po
 
 1.  Go to your subaccount \(see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md)\) and choose *Security* \> *Settings*.
 
-2.  Choose <span class="SAP-icons"></span> \(Add\).
+2.  Choose :heavy_plus_sign:.
 
 3.  Enter the host name for the trusted domain.
 

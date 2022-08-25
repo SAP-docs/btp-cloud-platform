@@ -8,13 +8,6 @@ Administration and operation tasks for SAP BTP include management and configurat
 
 ![](images/Image_Map_AdministrationOverview_1c918f7.png)
 
--   [Account Administration Using the SAP BTP Command Line Interface \(btp CLI\) \[Feature Set B\]](account-administration-using-the-sap-btp-command-line-interface-btp-cli-feature-set-b-7c6df2d.md)
--   [Account Administration in the Cockpit](account-administration-in-the-cockpit-8061ecc.md)
--   [Administration and Operations in the Cloud Foundry Environment](administration-and-operations-in-the-cloud-foundry-environment-a6b3b81.md)
--   [Administration and Operations in the ABAP Environment](administration-and-operations-in-the-abap-environment-c4fd102.md)
--   [Administration and Operations in the Kyma Environment](administration-and-operations-in-the-kyma-environment-b8e1686.md)
--   [Account Administration Using APIs](account-administration-using-apis-1c8db14.md)
-
 
 
 <a name="loioe183664210cf460796de3d90ca6bb6c3__section_vr1_hhl_rlb"/>

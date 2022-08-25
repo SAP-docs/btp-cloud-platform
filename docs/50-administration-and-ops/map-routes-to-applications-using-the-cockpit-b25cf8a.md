@@ -20,7 +20,7 @@ You have at least one route and one deployed application in the same Cloud Found
 
 1.  Navigate to the *Routes* page in your Cloud Foundry space.
 
-2.  For the route that you wish to map to an application, choose <span class="SAP-icons"></span> \(Map Route\) from the *Actions* column and select the application you want to map it to.
+2.  For the route that you wish to map to an application, choose :link: \(Map Route\) from the *Actions* column and select the application you want to map it to.
 
 
 

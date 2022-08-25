@@ -85,8 +85,8 @@ If you’re the Org Manager, you don’t need to first add the users as org memb
 
 You also have the following options:
 
--   To select or unselect roles for a member, choose <span class="SAP-icons"></span> \(Edit\)
--   To remove all the roles of a member, choose <span class="SAP-icons"></span>. This removes the member from the space.
+-   To select or unselect roles for a member, choose :pencil2:
+-   To remove all the roles of a member, choose :wastebasket:. This removes the member from the space.
 
 **Related Information**  
 

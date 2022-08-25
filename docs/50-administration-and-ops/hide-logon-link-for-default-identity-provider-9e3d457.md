@@ -33,7 +33,7 @@ To hide the default identity provider at logon time, proceed as follows:
 
     You see the list of trust configurations: the default trust configuration and the custom trust configuration\(s\).
 
-2.  Choose <span class="SAP-icons"></span> \(Edit\) for the default trust configuration. It has the status *Default*.
+2.  Choose :pencil2: \(Edit\) for the default trust configuration. It has the status *Default*.
 
 3.  To hide the default trust configuration \(`SAP ID service`\) for logon, uncheck the *Available for User Logon* checkbox.
 

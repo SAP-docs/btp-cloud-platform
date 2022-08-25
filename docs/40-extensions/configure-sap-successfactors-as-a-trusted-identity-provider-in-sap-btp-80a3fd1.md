@@ -38,3 +38,11 @@ Use this procedure to set up the trust configuration of the subaccount in SAP BT
 3.  Make the trust configuration to the SAP SuccessFactors identity provider the only configuration that is active.
 
 
+
+
+<a name="loio80a3fd16d144454fbe08377d284e3c37__postreq_qvz_bgp_k5b"/>
+
+## Next Steps
+
+[Configure the Subaccount as a Trusted Service Provider in SAP SuccessFactors](configure-the-subaccount-as-a-trusted-service-provider-in-sap-successfactors-9efe2a1.md)
+

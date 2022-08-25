@@ -25,7 +25,7 @@ This app enables you to create and maintain custom logic for business add-ins \(
 This is a generic description about how to implement custom logic.
 
 1.  To find a Cloud BAdI, open the *Custom Logic* app.
-2.  Click <span class="SAP-icons"></span> \(Create\) . Select a BAdI Description of the delivered BAdI you want to implement. Add an implementation description and an implementation ID.
+2.  Click :heavy_plus_sign: . Select a BAdI Description of the delivered BAdI you want to implement. Add an implementation description and an implementation ID.
 3.  Choose *Create*.
 4.  Now you can modify and test the draft logic using ABAP for key users in a web-based editor. You can click on *Example* to see a sample implementation of the BAdI. Choose the fields for testing on the *Available Fields* tab, enter the test data and click *Test* to check if your custom logic is working as expected.
 

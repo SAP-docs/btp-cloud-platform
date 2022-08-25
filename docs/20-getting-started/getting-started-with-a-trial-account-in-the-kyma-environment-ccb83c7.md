@@ -20,7 +20,7 @@ Quickly get started with a trial account in the Kyma environment.
 
     When you register for a trial account, a subaccount is created for you.
 
-    If you want to create more subaccounts to break down your account model and structure it according to your development scenario. see [Create a Subaccount](../50-administration-and-ops/create-a-subaccount-05280a1.md). But first it's important you understand how to navigate to your accounts using the SAP BTP cockpit.
+    If you want to create more subaccounts to break down your account model and structure it according to your development scenario, see [Create a Subaccount](../50-administration-and-ops/create-a-subaccount-05280a1.md). But first it's important you understand how to navigate to your accounts using the SAP BTP cockpit.
 
     You can also download and use the SAP BTP command line interface \(btp CLI\) to create new subaccounts. See [Download and Start Using the btp CLI Client](../50-administration-and-ops/download-and-start-using-the-btp-cli-client-8a8f17f.md) and [Working with Global Accounts, Directories, and Subaccounts Using the btp CLI](../50-administration-and-ops/working-with-global-accounts-directories-and-subaccounts-using-the-btp-cli-85a683e.md).
 

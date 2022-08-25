@@ -16,17 +16,6 @@ Learn how to integrate CI/CD into your development with the SAP Cloud Applicatio
 
 ![](images/Image_Map_CI_CD_Basic_Flow_c205ab7.png)
 
--   [fdead30953d24c0ca75768e2c3bcdd2c.md\#loio31cbeccf367e465fa3fc83e367c9c6f1\_\_subsection-im1](continuous-integration-and-delivery-fdead30.md#loio31cbeccf367e465fa3fc83e367c9c6f1__subsection-im1)
--   [fdead30953d24c0ca75768e2c3bcdd2c.md\#loio31cbeccf367e465fa3fc83e367c9c6f1\_\_subsection-im2](continuous-integration-and-delivery-fdead30.md#loio31cbeccf367e465fa3fc83e367c9c6f1__subsection-im2)
--   [fdead30953d24c0ca75768e2c3bcdd2c.md\#loio31cbeccf367e465fa3fc83e367c9c6f1\_\_subsection-im3](continuous-integration-and-delivery-fdead30.md#loio31cbeccf367e465fa3fc83e367c9c6f1__subsection-im3)
-
-
-
-### 
-
-> ### Tip:  
-> Hover over each actor-action combination for a short description and click on them for more detailed information.
-
 
 
 ### Continuous Integration Basic Flow
@@ -105,9 +94,6 @@ Both solutions offer in their level of flexibility and expertise required for se
 > In the following image, click on one of the blue boxes to navigate to the corresponding solution.
 
 ![Comparison of CI/CD Solutions by SAP](images/Image_Map_CI_CD_Solutions_d3f04fd.png)
-
--   [https://sap.github.io/jenkins-library/](https://sap.github.io/jenkins-library/)
--   [https://help.sap.com/viewer/product/CONTINUOUS\_DELIVERY/Cloud/en-US](https://help.sap.com/viewer/product/CONTINUOUS_DELIVERY/Cloud/en-US)
 
 
 

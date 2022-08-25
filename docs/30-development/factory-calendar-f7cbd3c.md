@@ -930,3 +930,28 @@ Provides the year and week of a date
 > 
 > ```
 
+
+
+<a name="loiof7cbd3c336f84dc09c85639c55b4309f__section_a1q_k3b_k5b"/>
+
+## Pull Integration of Factory Calendar Customizing Data
+
+If you have one system as the source of factory calendar customizing data, use this process to import the data.
+
+
+
+### Prerequisite
+
+You must first implement SAP Note [3148310](https://launchpad.support.sap.com/#/notes/3148310) on the source system.
+
+Follow these steps:
+
+-   Integration scenario `SAP_COM_0834` sets up a connection to the source system of the factory calendar customizing data. An administrator creates a communication arrangement to add the communication system and user for the connection.
+
+-   Business user `BPC_EXPERT` creates a new job for the data import using the *Schedule Pull Integration Job* app.
+
+-   After the *Schedule Pull Integration Job* is executed, the system reads the data and writes it to the system where the job is executed and where the data is recorded on a task.
+
+
+The import will overwrite all existing factory calendar customizing data. When the pull integration is configured, a warning displays when entering the customizing apps on the target system.
+

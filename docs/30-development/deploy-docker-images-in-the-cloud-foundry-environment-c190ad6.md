@@ -175,5 +175,5 @@ Consume newer versions \(especially patches\) of the underlying OS and JVM regul
 
 ## Results
 
-Was this topic helpful? Did you miss something? Let us know and use the feedback function <span class="SAP-icons"></span> \(feedback\).
+Was this topic helpful? Did you miss something? Let us know and use the feedback function :thumbsup:
 

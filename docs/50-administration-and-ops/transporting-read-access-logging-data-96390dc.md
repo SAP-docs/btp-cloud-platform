@@ -29,9 +29,9 @@ To transport your changes from the development system to the productive system, 
 
 2.  Make sure that there is an open customizing transport request for your system and that the customizing transport request belongs to the cloned business configuration software component.
 
-    To create a customizing transport request, you use the *Export Customizing Transport* app. You need the `SAP_BR_BPC_EXPERT` role to access this app. See .
+    To create a customizing transport request, you use the *Export Customizing Transport* app. You need the `SAP_BR_BPC_EXPERT` role to access this app. See [Export Customizing Transports](export-customizing-transports-a772a0f.md).
 
-    If a software component of the type Business Configuration is available in the system, the created request will target this software component. If no such software component is available, the request will be created without any target. See .
+    If a software component of the type Business Configuration is available in the system, the created request will target this software component. If no such software component is available, the request will be created without any target.
 
 3.  Make the actual changes to the RAL objects.
 4.  Release the task and customizing transport request in the *Export Customizing Transport* app.

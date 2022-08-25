@@ -16,21 +16,6 @@ The following graphic offers an overview of the most important considerations to
 
 ![](images/Image_Map_Best_Practives_Overview_a356b5a.png)
 
--   [Developing Applications and Services](developing-applications-and-services-68e2ece.md)
--   [Developing User Interface](developing-user-interface-a6ea5f0.md)
--   [Consuming APIs](consuming-apis-d4cae3e.md)
--   [Adding Authentication and Authorization](adding-authentication-and-authorization-419ae2e.md)
--   [Setting Up Database Artifacts](setting-up-database-artifacts-3cd6954.md)
--   [Deploying to the Cloud Foundry Environment](deploying-to-the-cloud-foundry-environment-2a21055.md)
--   [Developing with the SAP Cloud Application Programming Model](developing-with-the-sap-cloud-application-programming-model-00823f9.md)
--   [SAP Business Application Studio](sap-business-application-studio-c736960.md)
--   [Developing SAPUI5](developing-sapui5-839cb81.md)
--   [https://api.sap.com/](https://api.sap.com/)
--   [Protecting Your Application](protecting-your-application-7c5c565.md)
--   [SAP HANA Cloud](developing-sap-hana-in-the-cloud-foundry-environment-14224d7.md#loioa697b1b1b5ad4b598378ff0fa091fa35)
--   [Continuous Integration and Delivery](continuous-integration-and-delivery-fdead30.md#loiofdead30953d24c0ca75768e2c3bcdd2c)
--   [Multitarget Applications in the Cloud Foundry Environment](multitarget-applications-in-the-cloud-foundry-environment-d04fc0e.md)
-
 
 
 <a name="loio0859096d340b45dfb39417a01870ad95__section_t1s_4sr_4nb"/>

@@ -84,7 +84,7 @@ On the *Members* page at the global account level in the cockpit, all global acc
 
 ## Next Steps
 
-To delete members at global account level, choose <span class="SAP-icons"></span> \(Delete\) next to the user's ID.
+To delete members at global account level, choose :wastebasket: next to the user's ID.
 
  <a name="AddMembers-FSB"/>
 

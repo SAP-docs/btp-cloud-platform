@@ -21,7 +21,7 @@ Nowadays, companies need access to live data to make informed decisions in real 
 
 At SAP, we drive integration across our solution portfolio, including the following business scenarios: lead to cash, source to pay, design to operate, and hire to retire.
 
-The SAP Business Technology Platformprovides integration capabilities to ensure connected end-to-end business processes across SAP and third-party applications. The following key aspects, called Suite Qualities, facilitate a consistent experience across applications:
+The SAP Business Technology Platform provides integration capabilities to ensure connected end-to-end business processes across SAP and third-party applications. The following key aspects, called Suite Qualities, facilitate a consistent experience across applications:
 
 -   Seamless User Experience: SAP Fiori can be used to gain a common look and feel of many SAP solutions, which improves user experience and reduces interruptions.
 
@@ -29,11 +29,11 @@ The SAP Business Technology Platformprovides integration capabilities to ensure 
 
 -   Consistent Security and Identity Management: SAP Cloud Identity services on SAP BTP enable you to manage identities and use the single sign-on capability across selected end-to-end processes.
 
-    See: [SAP Cloud Identity Services](https://www.sap.com/products/technology-platform/fiori.html) on SAP BTP.
+    See: [SAP Cloud Identity Services](https://help.sap.com/docs/SAP_CLOUD_IDENTITY?version=Cloud) on SAP BTP.
 
 -   Aligned Domain Models, APIs and Events: Master Data Integration is a cloud service for master data integration. It provides a consistent view on master data across a hybrid landscape. You can use APIs for process integration among SAP solutions, SAP, and third parties, or by adopting an event-based integration strategy – all based on predefined integration content available on SAP API Business Hub.
 
-    See: [SAP One Domain Model](https://www.sap.com/products/technology-platform/fiori.html), [SAP Master Data Integration service](https://discovery-center.cloud.sap/serviceCatalog/master-data-integration?region=all), [SAP Integration Suite](https://www.sap.com/products/technology-platform/integration-suite.html) on SAP BTP
+    See: [SAP One Domain Model](https://api.sap.com/sap-one-domain-model), [SAP Master Data Integration service](https://discovery-center.cloud.sap/serviceCatalog/master-data-integration?region=all), [SAP Integration Suite](https://www.sap.com/products/technology-platform/integration-suite.html) on SAP BTP
 
 -   Embedded Analytics across Solutions: The analytical insights in various SAP solutions helps you make informed decisions. Embedded analytics from SAP Analytics Cloud are available e.g., in SAP S/4HANA and SAP SuccessFactors.
 
@@ -72,7 +72,7 @@ Get an overview of the basic platform concepts of SAP BTP and how they relate to
 > ### Tip:  
 > The English version of this guide is open for contributions and feedback using GitHub. This allows you to get in contact with responsible authors of SAP Help Portal pages and the development team to discuss documentation-related issues. To contribute to this guide, or to provide feedback, choose the corresponding option on SAP Help Portal:
 > 
-> -   <span class="SAP-icons"></span> Edit: Contribute to a documentation page. This option opens a pull request on GitHub.
+> -   :pencil2:: Contribute to a documentation page. This option opens a pull request on GitHub.
 > 
 > -   <span class="SAP-icons"></span> Feedback: Provide feedback about a documentation page. This option opens an issue on GitHub.
 > 

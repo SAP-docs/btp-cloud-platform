@@ -12,7 +12,7 @@ Your SAP BTP global account is the entry point for managing the resources, lands
 
 ## Feature Set B: Global Account Settings
 
-As a global account administrator, you can access the global account settings by clicking <span class="SAP-icons"></span> in the SAP BTP cockpit.
+As a global account administrator, you can access the global account settings by clicking :gear: in the SAP BTP cockpit.
 
 In the *General* tab of the global account settings, you can identify your global account subdomain.
 

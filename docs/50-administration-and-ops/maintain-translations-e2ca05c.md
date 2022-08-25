@@ -16,12 +16,6 @@ You’ve built a developer extension and would now like to translate it into oth
 
 ![](images/Image_Map_Maintain_Translations_410d1cf.png)
 
--   [Create a Translation Project](create-a-translation-project-b07e69e.md)
--   [Select Your Text Sources](select-your-text-sources-b93df3e.md)
--   [Select your Source and Target Language](select-your-source-and-target-language-85823ef.md)
--   [Generate and Download the XLIFF File](generate-and-download-the-xliff-file-bd697ad.md)
--   [Upload and Publish the Translated XLIFF File to the System](upload-and-publish-the-translated-xliff-file-to-the-system-ef1faa8.md)
-
 
 
 ## Key Features

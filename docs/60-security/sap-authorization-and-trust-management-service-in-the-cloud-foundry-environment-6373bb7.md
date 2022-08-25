@@ -13,20 +13,6 @@ The global account and subaccounts get their users from identity providers. Admi
 
 ![](images/ATM_startpage_daf31ef.png)
 
--   [6373bb7a96114d619bfdfdc6f505d1b9.md\#loio6373bb7a96114d619bfdfdc6f505d1b9\_\_subsection-im1](sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md#loio6373bb7a96114d619bfdfdc6f505d1b9__subsection-im1)
--   [6373bb7a96114d619bfdfdc6f505d1b9.md\#loio6373bb7a96114d619bfdfdc6f505d1b9\_\_subsection-im2](sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md#loio6373bb7a96114d619bfdfdc6f505d1b9__subsection-im2)
--   [6373bb7a96114d619bfdfdc6f505d1b9.md\#loio6373bb7a96114d619bfdfdc6f505d1b9\_\_subsection-im3](sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md#loio6373bb7a96114d619bfdfdc6f505d1b9__subsection-im3)
--   [6373bb7a96114d619bfdfdc6f505d1b9.md\#loio6373bb7a96114d619bfdfdc6f505d1b9\_\_subsection-im4](sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md#loio6373bb7a96114d619bfdfdc6f505d1b9__subsection-im4)
--   [6373bb7a96114d619bfdfdc6f505d1b9.md\#loio6373bb7a96114d619bfdfdc6f505d1b9\_\_subsection-im5](sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md#loio6373bb7a96114d619bfdfdc6f505d1b9__subsection-im5)
--   [6373bb7a96114d619bfdfdc6f505d1b9.md\#loio6373bb7a96114d619bfdfdc6f505d1b9\_\_subsection-im6](sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md#loio6373bb7a96114d619bfdfdc6f505d1b9__subsection-im6)
--   [6373bb7a96114d619bfdfdc6f505d1b9.md\#loio6373bb7a96114d619bfdfdc6f505d1b9\_\_subsection-im7](sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md#loio6373bb7a96114d619bfdfdc6f505d1b9__subsection-im7)
-
-
-
-### 
-
-Hold your pointer over a box for a description. Select a box to display more information.
-
 
 
 ### Overview of the SAP Authorization and Trust Management Service
@@ -527,6 +513,10 @@ Our troubleshooting information can be found in our Guided Answers [Troubleshoot
 -   [InResponseToField of Response doesn‘t correspond to the sent message](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:48369)
 
 -   [Response issue time is either too old or with date in the future. Sync IdP to match skew <skew\>](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:48396)
+
+-   [Trust establishment issues](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:52538)
+
+-   [Token retrieval fails with status code 401](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:52819)
 
 
 

@@ -25,11 +25,12 @@ The registration process is based on a registration token that is used for the p
 
 When you start registering the system, it appears in the system landscape list. At this point the *Status* column of this system is empty. To trigger the pairing of the system and the corresponding global account, you have to get the registration token and use it in the respective SAP system.
 
-When you no longer need the system to be paired with your global account, you can remove or deregister it depending on its status.
+When you no longer need the system to be paired with your global account, you can remove or deregister it depending on its status. Deregistering an SAP system means that the connectivity between this system and the global account is disabled and extension scenarios cannot be established, while removing an SAP system means that this system is no longer part of the system landscape list. You can deregister or remove an SAP system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the system landscape list.
 
-Deregistering an SAP system means that the connectivity between this system and the global account is disabled and extension scenarios cannot be established, while removing an SAP system means that this system is no longer part of the system landscape list.
-
-You can deregister or remove an SAP system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the system landscape list.
+> ### Note:  
+> You can only remove manually added systems. Depending on their discovery mode the systems that are added to the list either are *Manually added* \(a result of carrying out this procedure\), or *Auto-discovered* \(added to the list automatically, based on information of the existing system landscape\), or part of the *Subaccount/<my-subaccount\>* \(automatically added, based on the information of the SAP BTP subaccount\).
+> 
+> You cannot remove *Auto-discovered* systems from the list.
 
 The following SAP system types are supported:
 

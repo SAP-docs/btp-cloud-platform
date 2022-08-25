@@ -18,11 +18,11 @@ The capabilities of a tenant used by the application provider or application con
 
 -   **Software Component Import**: The Manage Software Components app is only available in tenants of particular type. See [Manage Software Components](../50-administration-and-ops/manage-software-components-3dcf76a.md).
 
--   **Tenant Onboarding**: When and how tenants are created differs depending on the business type. See .
+-   **Tenant Onboarding**: When and how tenants are created differs depending on the business type. See [**Subscribe to Multitenant Applications Using the Cockpit**](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7a3e39622be14413b2a4df7c02ca1170.html?version=Cloud).
 
--   **Initial Administrator Onboarding**: In each tenant an initial user is created based on an e-mail address to get access to the tenant after it has been created. See .
+-   **Initial Administrator Onboarding**: In each tenant an initial user is created based on an e-mail address to get access to the tenant after it has been created.
 
--   **Tenant Offboarding**: When and how tenants are deleted differs depending on the business type. See .
+-   **Tenant Offboarding**: When and how tenants are deleted differs depending on the business type. See [Dismantle](dismantle-35a5882.md).
 
 -   **Tenant Restore**: Only tenants of particular types can be restored during the retention period. See [Restore Consumer Tenants](restore-consumer-tenants-619c40e.md).
 

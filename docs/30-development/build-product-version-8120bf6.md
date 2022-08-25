@@ -32,11 +32,6 @@ The standard user flow is described in the following diagram. Hover over the dif
 
 ![](images/Map_BPV_6d3c880.png)
 
--   [Maintain Credentials](maintain-credentials-67b5aee.md)
--   [Configure a Pipeline Template](configure-a-pipeline-template-dac47ae.md)
--   [Create a New Product Version](create-a-new-product-version-6efb524.md)
--   [View Details on a Product Version’s Pipeline Progress](view-details-on-a-product-version-s-pipeline-progress-7713509.md)
-
 
 
 <a name="loio8120bf6d9eed465684d205ec48623490__section_umt_xqz_1tb"/>

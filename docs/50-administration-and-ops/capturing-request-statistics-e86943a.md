@@ -88,7 +88,9 @@ You can view the captured data from all profiles in the technical monitoring coc
     </td>
     <td valign="top">
 
-    You can't enter anything here. These fields are populated automatically when you activate the profile later.
+    The start and end time specify when request statistics are captured by the app. Only requests are considered that are started after the start time of the profile and that end before the end time of the profile.
+
+    Make sure that you enter a start time that’s right now or in the future. You can’t activate profiles with a start time in the past.
 
 
     
@@ -197,24 +199,6 @@ You can view the captured data from all profiles in the technical monitoring coc
     
     </td>
     </tr>
-    <tr>
-    <td valign="top">
-
-    *Health Monitoring*
-
-
-    
-    </td>
-    <td valign="top">
-
-    When you select the *Health Monitoring* checkbox, the number of ABAP statistics records that are captured by this profile also appear as metric in the health monitoring of your ABAP system in SAP Cloud ALM.
-
-    For more information about SAP Cloud ALM and health monitoring, see [Integration into Central Monitoring and Alerting](integration-into-central-monitoring-and-alerting-8d6e2e7.md).
-
-
-    
-    </td>
-    </tr>
     </table>
     
 4.  Choose *Create*.
@@ -235,12 +219,6 @@ You can view the captured data from all profiles in the technical monitoring coc
     A new filter condition has been created.
 
 8.  To start capturing request statistics during the time period that’s defined in the profile, choose *Activate*.
-
-9.  In the following popup, enter a start time and a duration in minutes; then choose *Activate*.
-
-    Make sure that you enter a start time that’s right now or in the future. You can’t activate profiles with a start time in the past.
-
-    The start and end time specify when request statistics are captured by the app. Only requests are considered that are started after the start time of the profile and that end before the end time of the profile.
 
 
 

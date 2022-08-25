@@ -16,7 +16,7 @@ You create the service instance in your subaccount with the respective environme
 
 -   OData access with OAuth 2.0 SAML bearer assertion
 
-    To use this authentication type, you must protect your application. See [Authentication for Applications](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/09f5bd3f346b4ee08b5ca084128e2e81.html).
+    To use this authentication type, you must protect your application. See [Adding Authentication and Authorization](../30-development/adding-authentication-and-authorization-419ae2e.md).
 
 -   OData access with OAuth 2.0 SAML bearer assertion with technical user
 

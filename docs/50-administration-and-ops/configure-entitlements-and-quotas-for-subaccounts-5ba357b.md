@@ -118,7 +118,7 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
     </td>
     <td valign="top">
 
-    Use <span class="SAP-icons"></span> and <span class="SAP-icons"></span> to increase or decrease the quota for each service plan.
+    Use :heavy_plus_sign: and :heavy_minus_sign: to increase or decrease the quota for each service plan.
 
 
     
@@ -136,7 +136,7 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
 
     Use the checkbox in the *Assign Quota* column to enable or disable the *Subaccount Assignment* column for editing.
 
-    Now, you can increase or decrease the quota for this service plan by using <span class="SAP-icons"></span> and <span class="SAP-icons"></span>.
+    Now, you can increase or decrease the quota for this service plan by using :heavy_plus_sign: and :heavy_minus_sign:.
 
 
     
@@ -152,7 +152,7 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
     </td>
     <td valign="top">
 
-    Choose <span class="SAP-icons"></span> from the *Actions* column.
+    Choose :wastebasket: from the *Actions* column.
 
 
     
@@ -251,7 +251,7 @@ In addition to being a global account administrator, you must also be a member o
     </td>
     <td valign="top">
 
-    Use <span class="SAP-icons"></span> and <span class="SAP-icons"></span> to increase or decrease the quota for each service plan.
+    Use :heavy_plus_sign: and :heavy_minus_sign: to increase or decrease the quota for each service plan.
 
 
     
@@ -267,7 +267,7 @@ In addition to being a global account administrator, you must also be a member o
     </td>
     <td valign="top">
 
-    Choose <span class="SAP-icons"></span> from the *Actions* column.
+    Choose :wastebasket: from the *Actions* column.
 
 
     

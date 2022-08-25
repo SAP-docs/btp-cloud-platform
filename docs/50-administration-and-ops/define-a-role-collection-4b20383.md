@@ -24,7 +24,7 @@ If you have an existing role collection that you want to use as a template, it's
 
 3.  Choose *Security* \> *Role Collections*.
 
-4.  To create a new role collection, choose <span class="SAP-icons"></span> \(Create New Role Collection\). To copy an existing role collection, choose *Copy* at the end of the row.
+4.  To create a new role collection, choose :heavy_plus_sign: \(Create New Role Collection\). To copy an existing role collection, choose *Copy* at the end of the row.
 
 5.  Enter a new name and description. If you copied an existing role collection, you can see the included roles.
 

@@ -10,12 +10,12 @@ Developers can consume SOAP-based Web services for outbound communication from t
 
 ## Overview
 
-A Service Consumption Model is the main requirement for consuming a Web service in the ABAP environment. To learn how to create a Service Consumption Model with ABAP Development Tools \(ADT\), see [Creating Service Consumption Model](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/96132822b3554016b653d3601bb9ff1a.html).
+A Service Consumption Model is the main requirement for consuming a Web service in the ABAP environment. To learn how to create a Service Consumption Model with ABAP Development Tools \(ADT\), see [Creating Service Consumption Model](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/96132822b3554016b653d3601bb9ff1a.html?version=Cloud&q=creating%20service%20consumption).
 
 > ### Recommendation:  
 > We recommend creating a Service Consumption Model in an empty package. Dependent enterprise service objects are reused between different Service Consumption Models in the same package.
 
-For the consumption type Web service, you need to provide the WSDL of the service you want to consume via the local file system. See [Generating Proxies for Remote Web Service](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/3b9c145adad147058177cec27cef1f44.html). Upon successful activation, all the dependent objects are created and displayed in the ADT project explorer, such as:
+For the consumption type Web service, you need to provide the WSDL of the service you want to consume via the local file system. See [Generating Proxies for Remote Web Service](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/3b9c145adad147058177cec27cef1f44.html?version=Cloud&q=generating%20proxies). Upon successful activation, all the dependent objects are created and displayed in the ADT project explorer, such as:
 
 -   The enterprise service
 -   Corresponding dictionary objects

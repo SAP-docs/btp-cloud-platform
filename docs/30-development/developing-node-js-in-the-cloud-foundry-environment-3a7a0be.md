@@ -56,7 +56,7 @@ To learn about changes in Node.js versions and features, reguraly check the late
 The SAP `nodejs_buildpack` supports the following versions:
 
 -   Node.js **14** – recommended version
--   Node.js **12** – it's supported but not recommended to use, due to its upcoming removal as per the [Node.js release roadmap](https://nodejs.org/en/about/releases/).
+-   Node.js **16** – supported but not recommended to use, due to current issues with the *@sap/xsjs* library. Therefore, if you use this library, bear in mind that it will be incompatible with the Node.js 16 runtime.
 
 
 

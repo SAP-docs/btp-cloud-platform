@@ -101,14 +101,14 @@ Service Level Agreements
 </td>
 <td valign="top">
 
-<span class="SAP-icons"></span>
+:x:
 
 
 
 </td>
 <td valign="top">
 
-<span class="SAP-icons"></span>
+:heavy_check_mark:
 
 
 
@@ -131,14 +131,14 @@ Managed Kubernetes
 </td>
 <td valign="top">
 
-<span class="SAP-icons"></span>
+:x:
 
 
 
 </td>
 <td valign="top">
 
-<span class="SAP-icons"></span>
+:heavy_check_mark:
 
 
 
@@ -161,14 +161,14 @@ Managed Kyma
 </td>
 <td valign="top">
 
-<span class="SAP-icons"></span>
+:x:
 
 
 
 </td>
 <td valign="top">
 
-<span class="SAP-icons"></span>
+:heavy_check_mark:
 
 
 
@@ -191,14 +191,14 @@ Kiali
 </td>
 <td valign="top">
 
-<span class="SAP-icons"></span>
+:heavy_check_mark:
 
 
 
 </td>
 <td valign="top">
 
-<span class="SAP-icons"></span>
+:x:
 
 
 
@@ -221,14 +221,14 @@ Jaeger tracing
 </td>
 <td valign="top">
 
-<span class="SAP-icons"></span>
+:heavy_check_mark:
 
 
 
 </td>
 <td valign="top">
 
-<span class="SAP-icons"></span>
+:x:
 
 
 
@@ -251,7 +251,7 @@ Logging
 </td>
 <td valign="top">
 
-<span class="SAP-icons"></span>
+:heavy_check_mark:
 
 
 
@@ -281,7 +281,7 @@ Monitoring
 </td>
 <td valign="top">
 
-<span class="SAP-icons"></span>
+:heavy_check_mark:
 
 
 
@@ -311,7 +311,7 @@ Kyma CLI
 </td>
 <td valign="top">
 
-<span class="SAP-icons"></span>
+:heavy_check_mark:
 
 
 
@@ -341,14 +341,14 @@ Centrally hosted Kyma Dashboard
 </td>
 <td valign="top">
 
-<span class="SAP-icons"></span>
+:x:
 
 
 
 </td>
 <td valign="top">
 
-<span class="SAP-icons"></span>
+:heavy_check_mark:
 
 
 
@@ -371,14 +371,14 @@ System landscape management in SAP BTP cockpit
 </td>
 <td valign="top">
 
-<span class="SAP-icons"></span>
+:x:
 
 
 
 </td>
 <td valign="top">
 
-<span class="SAP-icons"></span>
+:heavy_check_mark:
 
 
 
@@ -401,14 +401,14 @@ In-cluster system landscape management \(Application Connector\)
 </td>
 <td valign="top">
 
-<span class="SAP-icons"></span>
+:heavy_check_mark:
 
 
 
 </td>
 <td valign="top">
 
-<span class="SAP-icons"></span>
+:x:
 
 
 

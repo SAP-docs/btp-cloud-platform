@@ -26,10 +26,10 @@ Because SAP templates are updated from time to time, it can be useful to compare
 
 5.  Choose one of the search results.
 
-6.  Choose *More* and select <span class="SAP-icons"></span> Compare with SAP Template.
+6.  Choose *More* and select :balance_scale:.
 
     > ### Note:  
-    > If you want to rebuild a configuration based on an updated version of the SAP Template, close the pop-up window, choose the configuration, then choose *More* and select <span class="SAP-icons"></span> Rebuild from SAP Template.
+    > If you want to rebuild a configuration based on an updated version of the SAP Template, close the pop-up window, choose the configuration, then choose *More* and select :arrows_clockwise:.
 
 
 

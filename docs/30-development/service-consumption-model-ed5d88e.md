@@ -31,7 +31,7 @@ The advantages of using a Service Consumption Model \(instead of manually creati
 -   Code generator created code snippets as blueprint on how to write Client Proxy related coding:
 
 
-![](images/1cdb46d1d55f4e36b997193931b2ffb3.image)
+![](images/Service_Consumption_1cdb46d.png)
 
 
 

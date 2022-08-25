@@ -120,14 +120,17 @@ Name
 </td>
 <td valign="top">
 
-<code><i class="varname">&lt;URL&gt;</i>/saas-manager/v1/application/tenants/<i class="varname">&lt;tenantId&gt;</i>/subscriptions</code>
+<code><i class="varname">&lt;URL&gt;</i>/saas-manager/v1/applications/<i class="varname">&lt;{appName}&gt;</i>/subscription</code>
 
 
 
 </td>
 <td valign="top">
 
-`Subscribe the tenant to an application`
+`Subscribe to a multitenant application from a subaccount`
+
+> ### Note:  
+> To obtain the access credentials to use this API, see [Getting an Access Token for SAP Cloud Management Service APIs](../50-administration-and-ops/getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md)
 
 
 

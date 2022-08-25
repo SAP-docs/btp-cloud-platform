@@ -201,7 +201,7 @@ Once you have a subaccount \(whether it was created automatically or you followe
     > ### Note:  
     > To select a service plan, choose a service from the left and tick all the service plans that appear on the right. Do that for all services.
 
-5.  Once you've added all the service plans, you see them all in a table. Before you choose Save, for all the plans with numerical quota, choose <span class="SAP-icons"></span> to increase the amount to the maximum \(until the icon becomes disabled\).
+5.  Once you've added all the service plans, you see them all in a table. Before you choose Save, for all the plans with numerical quota, choose :heavy_plus_sign: to increase the amount to the maximum \(until the icon becomes disabled\).
 
 6.  Finally, choose *Save* to save all your changes and exit edit mode.
 

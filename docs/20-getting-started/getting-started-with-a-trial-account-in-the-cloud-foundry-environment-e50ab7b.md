@@ -12,9 +12,6 @@ Quickly get started with a trial account.
 
 ![](images/Trial_1-Getting_a_Global_Account_0f1ece7.png)
 
--   [Try Out SAP BTP for Free](getting-a-global-account-d61c281.md#loio42e7e54590424e65969fced1acd47694)
--   [Trial Accounts and Free Tier](../10-concepts/trial-accounts-and-free-tier-046f127.md)
-
 Before you begin, sign up for a free trial account. See [Get a Free Trial Account](getting-a-global-account-d61c281.md#loio42e7e54590424e65969fced1acd47694). For more information about the scope of our trial offering, see [Trial Accounts and Free Tier](../10-concepts/trial-accounts-and-free-tier-046f127.md).
 
 If you want to familiarize yourself with the Cloud Foundry environment, see [Cloud Foundry Environment](../10-concepts/cloud-foundry-environment-9c7092c.md#loio9c7092c7b7ae4d49bc8ae35fdd0e0b18).
@@ -26,13 +23,6 @@ If you want to familiarize yourself with the Cloud Foundry environment, see [Clo
 ## 2. Setting Up Your Account Model
 
 ![](images/Image_Map_Trial_2-Setting_Up_Your_Account_Model_6980fff.png)
-
--   [Navigate to Orgs and Spaces](../50-administration-and-ops/navigate-to-orgs-and-spaces-5bf8735.md)
--   [Create a Subaccount](../50-administration-and-ops/create-a-subaccount-05280a1.md)
--   [Download and Install the Cloud Foundry Command Line Interface](../50-administration-and-ops/download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md)
--   [Log On to the Cloud Foundry Environment Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/log-on-to-the-cloud-foundry-environment-using-the-cloud-foundry-command-line-interface-7a37d66.md)
--   [Create Spaces](../50-administration-and-ops/create-spaces-2f6ed22.md)
--   [Relationship Between Global Accounts and Subaccounts \[Feature Set A\]](../10-concepts/account-model-8ed4a70.md#loioeeda449cf252418a97e0f7c9abd30b9a)
 
 1.  When you register for a trial account, a subaccount and a space are created for you. You can create additional subaccounts and spaces, thereby further breaking down your account model and structuring it according to your development scenario, but first it's important you understand how to navigate to your accounts and spaces using the SAP BTP cockpit. See [Navigate to Orgs and Spaces](../50-administration-and-ops/navigate-to-orgs-and-spaces-5bf8735.md).
 
@@ -50,14 +40,6 @@ If you want to familiarize yourself with the Cloud Foundry environment, see [Clo
 
 ![](images/Image_Map_Trial_3-Configuring_Your_Account_Environment_e7028c5.png)
 
--   [Add Org Members Using the Cockpit](../50-administration-and-ops/add-org-members-using-the-cockpit-a4eeaf1.md)
--   [Add Space Members Using the Cockpit](../50-administration-and-ops/add-space-members-using-the-cockpit-81d0b4d.md)
--   [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md)
--   [Create Space Quota Plans](../50-administration-and-ops/create-space-quota-plans-b13c4a2.md)
--   [Create Space Quota Plans Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/create-space-quota-plans-using-the-cloud-foundry-command-line-interface-504fde9.md)
--   [User and Member Management](../10-concepts/user-and-member-management-cc1c676.md)
--   [Entitlements and Quotas](../10-concepts/entitlements-and-quotas-00aa2c2.md)
-
 1.  Now that you've set up your account model, it's time to think about member management. You can add members at different levels. For example, you can add members at the org level. See [Add Org Members Using the Cockpit](../50-administration-and-ops/add-org-members-using-the-cockpit-a4eeaf1.md). For more information about the roles that are available on the different levels, see [User and Member Management](../10-concepts/user-and-member-management-cc1c676.md).
 
 2.  You can also add members at the space level. See [Add Space Members Using the Cockpit](../50-administration-and-ops/add-space-members-using-the-cockpit-81d0b4d.md).
@@ -72,14 +54,6 @@ If you want to familiarize yourself with the Cloud Foundry environment, see [Clo
 ## 4. Developing and Deploying Applications
 
 ![](images/Image_Map_Trial_4-Developing_and_Deploying_Applications_Using_Services_d99d10d.png)
-
--   [Development](../30-development/development-c2fec62.md)
--   [Deploy Business Applications in the Cloud Foundry Environment](../30-development/deploy-business-applications-in-the-cloud-foundry-environment-4946ea5.md)
--   [Creating Service Instances](../30-development/creating-service-instances-8221b74.md)
--   [Binding Service Instances to Applications](../30-development/binding-service-instances-to-applications-e98280a.md)
--   [Creating Service Keys](../30-development/creating-service-keys-4514a14.md)
--   [About Services](../30-development/about-services-d1d0fc8.md)
--   [Creating User-Provided Service Instances](../30-development/creating-user-provided-service-instances-a44355e.md)
 
 1.  Develop your application. Check out the Developer Guide for tutorials and more information. See [Development](../30-development/development-c2fec62.md).
 

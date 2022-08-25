@@ -29,13 +29,13 @@ To get the key information, including all the technical data you need for the in
 
 In your communication arrangement, you can define which log messages should be displayed. This can be useful if, for example, you want to only see the log messages from entities that couldn't be exposed.
 
-This setting considers the overall exposure status of an entity. This means that if you, for example, select **2 - Show entities with warnings and errors**, messages from successfully exposed entities will not be stored in the log. This is the default value to prevent your log file from growing too big. If you increase the log level, logs for successfully exposed entities or even requests to the API will be logged.
+This setting considers the overall exposure status of an entity. This means that if you, for example, select **2 - Show entities with errors and warnings**, messages from successfully exposed entities will not be stored in the log. This is the default value to prevent your log file from growing too big. If you increase the log level, logs for successfully exposed entities or even requests to the API will be logged.
 
 In the *Exposure Log Level* field, you have the following options:
 
 -   1 - Show entities with errors
 
--   2 - Show entities with warnings and errors \(default\)
+-   2 - Show entities with errors and warnings \(default\)
 
 -   3 - Show entities with errors, warnings and success messages
 

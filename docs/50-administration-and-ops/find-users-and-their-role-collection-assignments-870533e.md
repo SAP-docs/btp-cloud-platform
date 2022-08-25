@@ -27,7 +27,7 @@ You want to find out which authorizations have been granted to single or multipl
     > ### Tip:  
     > If you want to see users that were updated before a certain point of time, use the *Last Updated* field. You can filter the list according to the point of time of the last update.
 
-4.  To search for users, choose <span class="SAP-icons"></span> \(Search\).
+4.  To search for users, choose :mag: \(Search\).
 
 5.  Enter a string occurring in the user name, last name, first name, or e-mail address. The SAP BTP cockpit returns a list of all the users containing this string.
 

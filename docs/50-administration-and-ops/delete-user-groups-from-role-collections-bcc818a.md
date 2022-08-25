@@ -20,7 +20,7 @@ You can unassign users groups from a role collection by deleting them from the r
 
 4.  Choose the role collection from which you want to unassign a user group.
 
-5.  Go the to *User Groups* section and choose <span class="SAP-icons"></span> \(Delete\).
+5.  Go the to *User Groups* section and choose :wastebasket: \(Delete\).
 
 6.  Confirm the popup and save your changes.
 

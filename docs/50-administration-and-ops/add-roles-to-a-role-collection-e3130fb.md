@@ -28,7 +28,7 @@ The roles are derived from role templates that are provided by applications. For
 
 6.  To add a role to the role collection, choose the input field. The role selection screen opens.
 
-    If you accidentally deleted the input field for the new roles, choose <span class="SAP-icons"></span> \(Add a role\) to display a new input field.
+    If you accidentally deleted the input field for the new roles, choose :heavy_plus_sign: \(Add a role\) to display a new input field.
 
 7.  Use the dropdown list or the F4 function key under *Role Name* to display the roles that are available. The roles are sorted alphabetically. Choose the role you want to add. You can also select multiple roles from the list below.
 

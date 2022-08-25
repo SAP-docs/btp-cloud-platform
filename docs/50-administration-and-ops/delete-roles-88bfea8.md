@@ -35,7 +35,7 @@ You can use existing role templates to create new roles. An SAP BTP cockpit wiza
 
     Here you see a complete list of all existing roles sorted by application name. It also contains the role template, role names, and role description. On the right side, you find the action buttons.
 
-6.  Choose the <span class="SAP-icons"></span> \(Delete\) action button in the row of the role that you want to delete. If the role has been added to a role collection, it's also deleted from the role collection.
+6.  Choose the :wastebasket: \(Delete\) action button in the row of the role that you want to delete. If the role has been added to a role collection, it's also deleted from the role collection.
 
 7.  Confirm that you want to delete the role.
 

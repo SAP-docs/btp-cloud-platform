@@ -46,7 +46,7 @@ To remove security administrators from your subaccount, take the following steps
 
     You see a list of the security adminstrators with their respective roles.
 
-4.  To remove a security administrator from your subaccount, choose <span class="SAP-icons"></span> \(Delete\).
+4.  To remove a security administrator from your subaccount, choose :wastebasket:.
 
 
 **Related Information**  

@@ -422,9 +422,9 @@ Specifies the provider-specific virtual machine type. For details, see:
 </td>
 <td valign="top">
 
--   AWS: `m5.2xlarge`
--   GCP: `n2-standard-8`
--   Azure: `Standard_D8_v3`
+-   AWS: `m5.xlarge`
+-   GCP: `n2-standard-4`
+-   Azure: `Standard_D4_v3`
 
 
 
@@ -456,14 +456,14 @@ Specifies the minimum number of virtual machines to create.
 </td>
 <td valign="top">
 
-`2`
+`3`
 
 
 
 </td>
 <td valign="top">
 
-Number between 2 and 40, but smaller or equal to *autoScalerMax*.
+Number between 2 and 80, but smaller than or equal to *autoScalerMax*.
 
 
 
@@ -488,14 +488,14 @@ Specifies the maximum number of virtual machines to create.
 </td>
 <td valign="top">
 
-`10`
+`20`
 
 
 
 </td>
 <td valign="top">
 
-Number between 2 and 40, but greater or equal to *autoScalerMin*.
+Number between 2 and 80, but greater than or equal to *autoScalerMin*.
 
 
 
@@ -702,7 +702,7 @@ Specifies the minimum number of virtual machines to create.
 </td>
 <td valign="top">
 
-Number between 2 and 40, but smaller or equal to *autoScalerMax*.
+Number between 2 and 40, but smaller than or equal to *autoScalerMax*.
 
 
 
@@ -734,7 +734,7 @@ Specifies the maximum number of virtual machines to create.
 </td>
 <td valign="top">
 
-Number between 2 and 40, but greater or equal to *autoScalerMin*.
+Number between 2 and 40, but greater than or equal to *autoScalerMin*.
 
 
 

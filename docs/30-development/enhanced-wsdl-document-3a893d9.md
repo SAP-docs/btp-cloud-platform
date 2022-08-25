@@ -4,7 +4,7 @@
 
 The enhanced Web Services Description Language \(WSDL\) document is a WSDL document enhanced by ABAP information that is relevant for design time.
 
-When you use a regular WSDL as input to create a Service Consumption Model, the design time relevant information, such as the types, messages, and port type sections, are analyzed and interpreted by the ABAP Web service framework. For all the ABAP properties like the names and types, it will make suggestions and generate a WSDL similar to the input WSDL enhanced with this ABAP information. If needed, you can change these ABAP properties within the enhanced WSDL document to adjust the ABAP artifacts accordingly \(upon activation\). The mapping between XSD and ABAP types in particular can be adjusted this way. Of course, an enhanced WSDL document can be used as input as well.
+When you use a regular WSDL as input to create a Service Consumption Model \(SRVC\), the design time relevant information, such as the types, messages, and port type sections, are analyzed and interpreted by the ABAP Web service framework. For all the ABAP properties like the names and types, it will make suggestions and generate a WSDL similar to the input WSDL enhanced with this ABAP information. If needed, you can change these ABAP properties within the enhanced WSDL document to adjust the ABAP artifacts accordingly \(upon activation\). The mapping between XSD and ABAP types in particular can be adjusted this way. Of course, an enhanced WSDL document can be used as input as well.
 
 To encode ABAP properties into the WSDL, the namespace `http://sap.com/abap/proxy` with the prefix `abap` was introduced: `xmlns:abap=http://sap.com/abap/proxy`. For any applicable node of a WSDL, the corresponding enhanced WSDL document contains additional nodes within this namespace to accommodate its ABAP properties. Wherever you see the `abap` prefix in the WSDL, you can adjust the ABAP property. These additional nodes can be XSD attributes or elements, depending on where the node to be enhanced is located. This is necessary to maintain WSDL validity. Schema nodes such as `xmlns:xsd=http://www.w3.org/2001/XMLSchema` are enhanced via additional XSD attributes. WSDL nodes `xmlns:wsdl=http://schemas.xmlsoap.org/wsdl/`, on the other hand, are enhanced via additional XSD \(sub\)elements. Regular ABAP properties of any node contain the following:
 
@@ -13,7 +13,7 @@ To encode ABAP properties into the WSDL, the namespace `http://sap.com/abap/prox
 -   Description
 -   ABAP type
 
-With the ABAP type, you can control the mapping between XSD and ABAP types. The property `availableTypes` displays all applicable ABAP types in this case. To change the ABAP type, copy and paste one of the listed types into the type attribute of the given element.
+With the ABAP type, you can control the mapping between XSD and ABAP types. The property `availableTypes` displays all applicable ABAP types in this case. To change the ABAP type, copy and paste one of the listed types into the type attribute of the given element. Afterwars, reactivate the SRVC to apply the changes.
 
 <a name="loio3a893d98029b429da160ac133a9f7232__table_igc_jnw_dw"/>Summary of Additional Nodes and Their Technical Types
 

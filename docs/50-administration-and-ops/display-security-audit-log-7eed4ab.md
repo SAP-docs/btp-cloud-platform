@@ -31,7 +31,7 @@ The Security Audit Log records the following information:
 -   Information that provides a higher level of transparency \(for example, successful and unsuccessful logon attempts\)
 -   Information that enables the reconstruction of a series of events \(for example, successful or unsuccessful transaction starts\)
 
-The app *Display Static System Audit* \(, available for the external auditor role\) displays a detailed list of the Security Audit Log events, which are visible in the Security Audit Log app. SAP Note [2903873](https://launchpad.support.sap.com/#/notes/2903873) provides a list of currently recorded Security Audit Log events.
+SAP Note [2903873](https://launchpad.support.sap.com/#/notes/2903873) provides a list of currently recorded Security Audit Log events.
 
 
 

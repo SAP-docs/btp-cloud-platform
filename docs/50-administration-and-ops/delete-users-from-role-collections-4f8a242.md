@@ -20,7 +20,7 @@ You can unassign users from a role collection by deleting them from the role col
 
 5.  Choose *Edit*.
 
-6.  Choose <span class="SAP-icons"></span> \(Delete\) in the row of the user you want to unassign.
+6.  Choose :wastebasket: \(Delete\) in the row of the user you want to unassign.
 
 7.  Save your changes.
 

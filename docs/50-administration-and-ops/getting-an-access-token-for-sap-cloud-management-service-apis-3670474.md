@@ -6,9 +6,10 @@ The APIs of the SAP Cloud Management service for SAP BTP are protected with the 
 
 
 
-The Client Credentials grant type is currently available for the SAP Cloud Management service only when creating the instances of this service on a subaccount level by using the SAP Service Manager API, CLI, or when creating an instance of an SAP Cloud Management service using the SAP BTP cockpit.
-
-For more information, see [Consuming Services in Other Environments Using the Service Management Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/0714ac254e83492281d95e25548b388c.html).
+> ### Note:  
+> The Client Credentials grant type is currently available for the SAP Cloud Management service only when creating the instances of this service on a subaccount level by using the SAP Service Manager API, CLI, or when creating an instance of an SAP Cloud Management service by using the SAP BTP cockpit and selecting the *Other* environment.
+> 
+> For more information, see [Consuming Services in Other Environments Using the Service Management Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/0714ac254e83492281d95e25548b388c.html).
 
 The scopes included in the access token depend on the service plan you chose for the SAP Cloud Management service. For the list of the available service plans, see [SAP Cloud Management Service - Service Plans](sap-cloud-management-service-service-plans-a508b72.md).
 

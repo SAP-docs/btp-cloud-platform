@@ -78,7 +78,7 @@ Keep in mind that you also delete the user's role collection assignments.
 
     1.  Select the row of a user.
 
-    2.  Choose <span class="SAP-icons"></span> Delete.
+    2.  Choose :wastebasket:.
 
 
 

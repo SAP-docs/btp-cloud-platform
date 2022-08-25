@@ -61,7 +61,7 @@ As an administrator, you want to have an overview of the users in your subaccoun
 
     The SAP BTP cockpit displays the user's overview section. If the user has never logged on, the *Last Logon* field shows the message *User has never logged on*.
 
-6.  \(Optional\) To delete the user, close the overview section and choose <span class="SAP-icons"></span> \(Delete\).
+6.  \(Optional\) To delete the user, close the overview section and choose :wastebasket: \(Delete\).
 
     > ### Remember:  
     > You can't undo the deletion of a user.

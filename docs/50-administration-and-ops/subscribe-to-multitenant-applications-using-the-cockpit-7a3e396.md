@@ -120,7 +120,7 @@ The instructions provided here apply whether you are an SAP customer subscribing
         > 
         > You can see the existing labels under the *Labels* column.
         > 
-        > If you do not see the column, unhide it by clicking on <span class="SAP-icons"></span> \(Configure Table Columns\).
+        > If you do not see the column, unhide it by clicking on :gear:.
 
 
     For more information, see [Labels \[Feature Set B\]](../10-concepts/account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).

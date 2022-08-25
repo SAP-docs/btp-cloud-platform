@@ -14,13 +14,6 @@ This topic focuses on how to get started with a customer or partner account usin
 
 ![](images/Image_Map_NoTrial_2-Setting_Up_Your_Account_Model_94bc372.png)
 
--   [Download and Install the Cloud Foundry Command Line Interface](../50-administration-and-ops/download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md)
--   [Log On to the Cloud Foundry Environment Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/log-on-to-the-cloud-foundry-environment-using-the-cloud-foundry-command-line-interface-7a37d66.md)
--   [Create Spaces](../50-administration-and-ops/create-spaces-2f6ed22.md)
--   [Global Accounts](../10-concepts/account-model-8ed4a70.md#loioc165d95ee700407eb181770901caec94)
--   [Create a Subaccount](../50-administration-and-ops/create-a-subaccount-05280a1.md)
--   [Create Orgs](../50-administration-and-ops/create-orgs-a9b1f54.md)
-
 1.  After you've received your logon data by email, create subaccounts in your global account. This allows you to further break down your account model and structure it according to your business needs. See [Create a Subaccount](../50-administration-and-ops/create-a-subaccount-05280a1.md).
 
 2.  If you haven't done so already, now is a good time to download and install the Cloud Foundry Command Line Interface \(cf CLI\). This tool allows you to administer and configure your environment, enable services, and deploy applications. See [Download and Install the Cloud Foundry Command Line Interface](../50-administration-and-ops/download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md). But don't worry, you can also perform all the necessary task using the SAP BTP cockpit, which you don't need to install.
@@ -62,14 +55,6 @@ This topic focuses on how to get started with a customer or partner account usin
 ## 3. Developing and Deploying Applications
 
 ![](images/Image_Map_NoTrial_4-Developing_and_Deploying_Applications_Using_Services_049175a.png)
-
--   [Creating Service Instances](../30-development/creating-service-instances-8221b74.md)
--   [Binding Service Instances to Applications](../30-development/binding-service-instances-to-applications-e98280a.md)
--   [Creating Service Keys](../30-development/creating-service-keys-4514a14.md)
--   [Using Services in the Cloud Foundry Environment](../30-development/using-services-in-the-cloud-foundry-environment-f22029f.md)
--   [Deploy Business Applications in the Cloud Foundry Environment](../30-development/deploy-business-applications-in-the-cloud-foundry-environment-4946ea5.md)
--   [Development](../30-development/development-c2fec62.md)
--   [Creating User-Provided Service Instances](../30-development/creating-user-provided-service-instances-a44355e.md)
 
 1.  Develop your application. Check out the Developer Guide for tutorials and more information. See [Development](../30-development/development-c2fec62.md).
 

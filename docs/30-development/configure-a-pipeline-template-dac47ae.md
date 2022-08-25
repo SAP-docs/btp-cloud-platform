@@ -339,7 +339,7 @@ Let’s take a closer look at how to configure a pipeline template for a product
     <tr>
     <td valign="top">
 
-     
+    Assembly System
 
 
     
@@ -371,7 +371,7 @@ Let’s take a closer look at how to configure a pipeline template for a product
     <tr>
     <td valign="top">
 
-    ABAP Build System
+     
 
 
     
@@ -724,7 +724,7 @@ Let’s take a closer look at how to configure a pipeline template for a product
     <tr>
     <td valign="top">
 
-     
+    Installation Test System
 
 
     
@@ -756,7 +756,7 @@ Let’s take a closer look at how to configure a pipeline template for a product
     <tr>
     <td valign="top">
 
-    Installation Test System
+     
 
 
     

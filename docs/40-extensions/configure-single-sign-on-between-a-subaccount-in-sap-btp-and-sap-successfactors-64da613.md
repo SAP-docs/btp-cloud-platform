@@ -28,8 +28,6 @@ If you have an account in the Cloud Foundry environment, you need to set up the 
 
 1.  [Configure SAP SuccessFactors as a Trusted Identity Provider in SAP BTP](configure-sap-successfactors-as-a-trusted-identity-provider-in-sap-btp-80a3fd1.md).
 
-2.  [Register the Assertion Consumer Service of the Subaccount in SAP BTP in SAP SuccessFactors](register-the-assertion-consumer-service-of-the-subaccount-in-sap-btp-in-sap-successfactor-de3a1b3.md).
-
-3.  [Register the Assertion Consumer Service for Every Extension Application in SAP SuccessFactors](register-the-assertion-consumer-service-for-every-extension-application-in-sap-successfac-ebc8341.md).
+2.  [Configure the Subaccount as a Trusted Service Provider in SAP SuccessFactors](configure-the-subaccount-as-a-trusted-service-provider-in-sap-successfactors-9efe2a1.md).
 
 

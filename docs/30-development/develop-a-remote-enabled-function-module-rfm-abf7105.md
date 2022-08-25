@@ -4,14 +4,14 @@
 
 Develop RFMs in ABAP Development Tools \(ADT\).
 
-You can develop RFMs in ABAP Development Tools \(ADT\) for Eclipse. For more information, see [Creating an ABAP Function Module](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/4ec6a4ea6e391014adc9fffe4e204223.html).
+You can develop RFMs in ABAP Development Tools \(ADT\) for Eclipse. For more information, see [Creating an ABAP Function Module](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ec6a4ea6e391014adc9fffe4e204223.html?version=Cloud).
 
 In this tool, you create the respective RFM as you are used to in an on-premise system. Objects that are required to consume the RFM remotely are created automatically, such as authorization default values and the respective inbound service.
 
 > ### Note:  
 > To enable automatic object creation for an RFM in ADT, choose *Properties* and select `RFC` as *<Processing Type\>*. The default processing type is `Normal`. When activating an RFM of type `Normal`, no objects are generated.
 
-If WebSocket RFC cannot be used, see [Set Up the Cloud Connector for Inbound RFC from On-Premise Systems \(Deprecated\)](set-up-the-cloud-connector-for-inbound-rfc-from-on-premise-systems-deprecated-2ec368e.md) for detailed information on how to set up Cloud Connector.
+For detailed information on consuming an RFM in an inbound communication scenario, see [Set Up the Cloud Connector for Inbound RFC from On-Premise Systems \(Deprecated\)](set-up-the-cloud-connector-for-inbound-rfc-from-on-premise-systems-deprecated-2ec368e.md).
 
 
 

@@ -30,9 +30,6 @@ After you have purchased a customer account, learn how to get started in the ABA
 
 ![](images/Image_Map_Run_Booster_27d3a7d.png)
 
--   [Using a Booster to Automate the Setup of the ABAP Environment \(Optional\)](using-a-booster-to-automate-the-setup-of-the-abap-environment-optional-cd7e7e6.md)
--   [https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/fb1b56148f834749a2bf51127421610b.html](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/fb1b56148f834749a2bf51127421610b.html)
-
 To set up a development system quickly, you can use the booster *Prepare an Account for ABAP Development*. The interactive booster guides you through the process of setting up your subaccounts, configuring entitlements, assigning members, and so on. For more information, see [Using a Booster to Automate the Setup of the ABAP Environment \(Optional\)](using-a-booster-to-automate-the-setup-of-the-abap-environment-optional-cd7e7e6.md).
 
 Using a booster is optional. If you don't use the booster, you must perform more steps manually.
@@ -50,10 +47,6 @@ Even if you have used the booster, some manual setup steps are still required. I
 ### a. Setting Up Your Account Model
 
 ![](images/Image_Map_Set_Up_ABAP_Subaccount_8bb16b0.png)
-
--   [Creating a Cloud Foundry Subaccount for the ABAP Environment](creating-a-cloud-foundry-subaccount-for-the-abap-environment-0153671.md)
--   [Creating a Cloud Foundry Organization and Space](creating-a-cloud-foundry-organization-and-space-dc18bac.md)
--   [https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html)
 
 1.  \(Not required if you have used the booster\):
 
@@ -73,12 +66,6 @@ Even if you have used the booster, some manual setup steps are still required. I
 ### b. Setting Up the ABAP System
 
 ![](images/Image_Map_Set_Up_ABAP_System_c1f26fe.png)
-
--   [Increasing the Quota for the ABAP Environment](increasing-the-quota-for-the-abap-environment-c40cb18.md)
--   [Increasing the Quota for the Cloud Foundry Runtime \(Optional\)](increasing-the-quota-for-the-cloud-foundry-runtime-optional-7aba501.md)
--   [Creating an ABAP System](creating-an-abap-system-50b32f1.md)
--   [Subscribing to the Web Access for ABAP](subscribing-to-the-web-access-for-abap-98928b0.md)
--   [https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c8248745dde24afb91479361de336111.html](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c8248745dde24afb91479361de336111.html)
 
 1.  \(Not required if you have used the booster\):
 
@@ -104,16 +91,6 @@ Even if you have used the booster, some manual setup steps are still required. I
 ### c. Creating Administrator and Developer Users
 
 ![](images/Image_Map_Create_ABAP_Users_38cfa63.png)
-
--   [Adding a User as Org Manager for the Cloud Foundry Organization](adding-a-user-as-org-manager-for-the-cloud-foundry-organization-57059dc.md)
--   [Adding a User as Space Manager for the Cloud Foundry Space](adding-a-user-as-space-manager-for-the-cloud-foundry-space-02b8cd8.md)
--   [Logging on to the Administration Launchpad of the ABAP Environment](logging-on-to-the-administration-launchpad-of-the-abap-environment-11e765e.md)
--   [Creating an Employee Record for a New Administrator](creating-an-employee-record-for-a-new-administrator-7580525.md)
--   [Assigning the ABAP Environment Administrator Role to the New Administrator User](assigning-the-abap-environment-administrator-role-to-the-new-administrator-user-ad888b0.md)
--   [Creating New Space Members and Assigning Space Developer Roles to Them](creating-new-space-members-and-assigning-space-developer-roles-to-them-967fc4e.md)
--   [Creating an Employee Record for a New Developer](creating-an-employee-record-for-a-new-developer-a66fdc5.md)
--   [https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cc1c676b43904066abb2a4838cbd0c37.html](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cc1c676b43904066abb2a4838cbd0c37.html)
--   [Assigning the ABAP Developer User to the ABAP Developer Role](assigning-the-abap-developer-user-to-the-abap-developer-role-13b2cfb.md)
 
 1.  Optionally, you can create additional administrator users for the ABAP environment as follows:
 
@@ -159,10 +136,6 @@ As next steps, you can optionally set up additional tools for your developers or
 -   As an alternative to SAP Business Application Studio, you can also set up SAP Web IDE \(see [Setup of UI Development in SAP Web IDE \(Optional\)](setup-of-ui-development-in-sap-web-ide-optional-43d1a08.md)\).
 
 ![](images/Image_Map_ABAP_Environment_Setup_-_Next_Steps_7f92205.png)
-
--   [Setup of UI Development in SAP Business Application Studio \(Optional\)](setup-of-ui-development-in-sap-business-application-studio-optional-37a896b.md)
--   [Setup of a Custom Identity Service](setup-of-a-custom-identity-service-550251a.md)
--   [Setup of UI Development in SAP Web IDE \(Optional\)](setup-of-ui-development-in-sap-web-ide-optional-43d1a08.md)
 
 **Related Information**  
 

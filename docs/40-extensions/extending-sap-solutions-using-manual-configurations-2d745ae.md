@@ -5,7 +5,7 @@
 If your scenario requires a configuration setup that is not included in the automated extension configurations, you can optionally configure the integration between SAP BTP and your SAP solution manually.
 
 > ### Note:  
-> Use the manual configuration process only if your scenario is not included in the automated configurations with SAP BTP. See[Extending SAP Solutions Using Automated Configurations](extending-sap-solutions-using-automated-configurations-346864d.md)
+> Use the manual configuration process only if your scenario is not included in the automated configurations with SAP BTP. See [Extending SAP Solutions Using Automated Configurations](extending-sap-solutions-using-automated-configurations-346864d.md).
 
 If you configure the integration between SAP BTP and your SAP solution manually, you will not be able to benefit from any of the automations provided in the automated configurations.
 

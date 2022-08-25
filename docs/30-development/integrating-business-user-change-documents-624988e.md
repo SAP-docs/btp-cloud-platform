@@ -22,7 +22,7 @@ This scenario allows you to read the change documents of business users. We reco
 
 2.  Check if a communication system already exists for this scenario. If not, create a communication system in the *Communication Systems* app.
 
-    For more information, see .
+    For more information, see [How to Create Communication Systems](../50-administration-and-ops/how-to-create-communication-systems-c2234ac.md).
 
 3.  Check if a communication arrangement already exists for this scenario. If not, create a communication arrangement for the *Business User Change Document Integration* scenario \(SAP\_COM\_0327\) in the *Communication Arrangements* app.
 

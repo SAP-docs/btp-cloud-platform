@@ -31,7 +31,7 @@ You can assign users from default identity providers, and from custom identity p
 
 6.  Enter the user ID of the user that you want to assign to the role collection. If the user only exists in a connected identity provider, you must choose the identity provider and type in the e-mail address.
 
-7.  \(Optional\) To add more users, choose <span class="SAP-icons"></span> \(Add a user\).
+7.  \(Optional\) To add more users, choose :heavy_plus_sign: \(Add a user\).
 
 8.  Save your changes.
 

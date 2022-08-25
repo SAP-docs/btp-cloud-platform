@@ -33,7 +33,7 @@ You have maintained the attributes of the users in your identity provider if you
 
 5.  Choose *Security* \> *Roles*.
 
-6.  To create a new role, choose <span class="SAP-icons"></span> \(Add\) in the first row.
+6.  To create a new role, choose :heavy_plus_sign: \(Add\) in the first row.
 
     A wizard guides you through the role creation process.
 

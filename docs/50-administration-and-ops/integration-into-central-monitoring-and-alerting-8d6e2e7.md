@@ -302,7 +302,9 @@ abap\_system\_ksr\_captured\_count\_5m
 </td>
 <td valign="top">
 
-The number of captured ABAP statistics records for the ABAP system during the last 5 minutes
+The number of ABAP statistics records that were captured by the *Capture Request Statistics* app during the last 5 minutes
+
+In the *Capture Request Statistics* app, you can select the checkbox*Health Monitoring* for any capture profile that you create. The number of records that is shown in SAP Cloud ALM is the total number of captured ABAP statistics records for profiles with the checkbox *Health Monitoring* selected.
 
 
 

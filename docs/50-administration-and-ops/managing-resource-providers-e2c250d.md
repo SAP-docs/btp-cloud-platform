@@ -217,7 +217,7 @@ Follow these steps to manage the resource providers that you have already config
     <tr>
     <td valign="top">
 
-    <span class="SAP-icons"></span>
+    :pencil2:
 
     Edit Resource Provider
 
@@ -238,7 +238,7 @@ Follow these steps to manage the resource providers that you have already config
     <tr>
     <td valign="top">
 
-    <span class="SAP-icons"></span>
+    :wastebasket:
 
     Delete
 

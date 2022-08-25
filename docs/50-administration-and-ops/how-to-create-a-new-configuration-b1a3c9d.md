@@ -36,7 +36,7 @@ You can define what to log by creating your own read access logging configuratio
 
         For channels that use recordings, copy the recording that comes with the template under the same name or enter a new name.
 
-    3.  Find the channel you just copied and choose <span class="SAP-icons"></span> \(Edit Configuration\).
+    3.  Find the channel you just copied and choose :pencil2:.
 
 
 4.  Depending on the channel, select the object you want to create a configuration for.

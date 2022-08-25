@@ -41,7 +41,7 @@ You can connect a Cloud Connector with a multi-environment subaccount of SAP BTP
 For more information, see [Use a Custom IDP for Subaccount Configuration](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/202261235a204db5ba0b35bbaa6d40ff.html "Enable custom identity provider (IDP) authentication to configure a Cloud Foundry subaccount in the Cloud Connector by using a one-time passcode.") :arrow_upper_right:.
 
 > ### Note:  
-> Establishing a connection to an SAP BTP multi-environment subaccount in Cloud Connector works only with users from the default identity provider in Feature Set B.
+> Establishing a connection to an SAP BTP subaccount in Cloud Connector works only with users from the default identity provider in Feature Set B.
 
 
 

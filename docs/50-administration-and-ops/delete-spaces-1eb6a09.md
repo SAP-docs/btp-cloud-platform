@@ -26,7 +26,7 @@ Delete spaces in your Cloud Foundry org using the SAP BTP cockpit.
 
 ## Procedure
 
-1.  Navigate to *Cloud Foundry* \> *Spaces* in your Cloud Foundry subaccount and choose <span class="SAP-icons"></span> \(Delete\) on the tile of the space you want to delete.
+1.  Navigate to *Cloud Foundry* \> *Spaces* in your Cloud Foundry subaccount and choose :wastebasket: on the tile of the space you want to delete.
 
 2.  Confirm your change.
 

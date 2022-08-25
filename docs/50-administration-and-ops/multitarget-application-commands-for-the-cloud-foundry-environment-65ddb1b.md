@@ -10,11 +10,13 @@ A list of additional commands to install archives and deploy multitarget applica
 > The expiration time for all Cloud Foundry operations is 3 days. If an operation is still active when time limit is reached, it is automatically aborted.
 
 > ### Caution:  
-> Due to the deprecation of the shared domains, the URL of the SAP Cloud Deployment service should be specified by each multitarget application developer. You can do this by using the environment variable `MULTIAPPS_CONTROLLER_URL`, or the `-u` option specified in the commands listed below.
+> Due to the missing shared domains in certain regions, as AliCloud, the URL of the SAP Cloud Deployment service should be specified by each multitarget application developer. You can do this by using the environment variable `MULTIAPPS_CONTROLLER_URL`, or the `-u` option specified in the commands listed below.
 > 
 > The URL of the deploy-service that needs to be set is in the following format: `deploy-service.cfapps.<landscape-domain>`
 > 
 > If you are using the `-u` option, make sure you have the MultiApps CLI Plugin version 2.1.3 or higher
+> 
+> If you are using region CN40 with API Endpoint api.cf.cn40.platform.sapcloud.cn, you need to specify the URL as follows: `export MULTIAPPS_CONTROLLER_URL=deploy-service.cfapps.cn40.platform.sapcloud.cn`
 
 <a name="loio65ddb1b51a0642148c6b468a759a8a2e__table_ph4_5yb_zs"/>Commands for the Cloud Foundry Environment Overview
 

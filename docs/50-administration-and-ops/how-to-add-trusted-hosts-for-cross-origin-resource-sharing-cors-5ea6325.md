@@ -12,8 +12,6 @@ CORS is a mechanism that allows web browsers or other web clients access to your
 
 
 
-<a name="loio5ea6325d8b2f49efae8622635dd0a542__CreateTrustedHostsCors_steps"/>
-
 ## Procedure
 
 1.  Open the *Maintain Protection Allowlists* app on the SAP Fiori Launchpad.

@@ -4,8 +4,6 @@
 
 You can use the*Build Product Version* app to add and edit credentials that are used in various stages of the build process. These credentials can be reused for different products.
 
-At least two credentials are needed for the pipeline. Both for the Add-On Infrastructure and the used Cloud Foundry landscape endpoint you need to maintain credentials, each with username and password.
-
 1.  Log in to the *Landscape Portal* and click on the tile *Build Product Version*.
 
 2.  Switch to the tab *Credentials*.

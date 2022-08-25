@@ -14,11 +14,6 @@ This documentation introduces you to the following:
 
 ![From sizing fundamentals to sizing](images/ABAP_System_Sizing_Overview_e17ac02.png)
 
--   [Sizing Fundamentals](sizing-fundamentals-2c83fbf.md)
--   [Sizing Preparation](sizing-preparation-fb48310.md)
--   [Measurements for Sizing](measurements-for-sizing-186bc29.md)
--   [Sizing](sizing-00494e0.md)
-
 1.  **Sizing fundaments**
 
     You learn more about sizing occasions and methods, especially about expert sizing and how sizing works for scalable applications in the ABAP environment.

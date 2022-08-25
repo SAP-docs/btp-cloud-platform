@@ -635,6 +635,38 @@ SAP S/4HANA Cloud Extensibility
 <tr>
 <td valign="top">
 
+SAP Intelligent Robotic Process Automation
+
+
+
+</td>
+<td valign="top">
+
+[Audit Logging](https://help.sap.com/docs/IRPA/7d11fd4eb21e43309b8cff7033d23699/1ef872e79dd346579c1cc3db3cc4c71d.html)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Process Automation
+
+
+
+</td>
+<td valign="top">
+
+[Audit Logging](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/b55a658ce07e4e52972ead56e3901c15.html)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP SuccessFactors Extensibility
 
 

@@ -23,17 +23,6 @@ If you are about to decide which UI technology to use , read everything you need
 
 ![](images/Image_Map_SAPUI5overview_6ee4d8c.png)
 
--   [839cb814bddf483a8f27fb3c68b301ba.md\#loio839cb814bddf483a8f27fb3c68b301ba\_\_subsection-im1](developing-sapui5-839cb81.md#loio839cb814bddf483a8f27fb3c68b301ba__subsection-im1)
--   [839cb814bddf483a8f27fb3c68b301ba.md\#loio839cb814bddf483a8f27fb3c68b301ba\_\_subsection-im2](developing-sapui5-839cb81.md#loio839cb814bddf483a8f27fb3c68b301ba__subsection-im2)
--   [839cb814bddf483a8f27fb3c68b301ba.md\#loio839cb814bddf483a8f27fb3c68b301ba\_\_subsection-im3](developing-sapui5-839cb81.md#loio839cb814bddf483a8f27fb3c68b301ba__subsection-im3)
--   [839cb814bddf483a8f27fb3c68b301ba.md\#loio839cb814bddf483a8f27fb3c68b301ba\_\_subsection-im4](developing-sapui5-839cb81.md#loio839cb814bddf483a8f27fb3c68b301ba__subsection-im4)
-
-
-
-### 
-
-Select the tiles to discover SAPUI5 Development. The references guide you to the documentation of the SAPUI5 Demo Kit. Besides the entry points we provide here on each tile, start exploring the demo kit on your own whenever you feel comfortable enough.
-
 
 
 ### SAP Web IDE Full-Stack

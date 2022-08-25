@@ -20,7 +20,7 @@ You want to display a logon link of the custom identity provider that business u
 
 2.  Go to the desired trust configuration with the status *Custom*.
 
-3.  Choose <span class="SAP-icons"></span> \(Edit\) for the custom trust configuration.
+3.  Choose :pencil2: \(Edit\) for the custom trust configuration.
 
 4.  Make sure that the status of your custom trust configuration is *Active*.
 
