@@ -518,6 +518,22 @@ Description
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+ System Landscape Viewer 
+
+
+
+</td>
+<td valign="top">
+
+ Viewer access to systems and scenario-related resources. 
+
+
+
+</td>
+</tr>
 </table>
 
 If you assign the *Subaccount Viewer* role collection to a user, you restrict a user's viewer permission to the subaccounts.
@@ -1151,6 +1167,36 @@ Global account
 <td valign="top">
 
  cmp!*<suffix\>*  
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ System Landscape Viewer 
+
+
+
+</td>
+<td valign="top">
+
+Global account
+
+
+
+</td>
+<td valign="top">
+
+ GlobalAccount\_System\_Landscape\_Viewer 
+
+
+
+</td>
+<td valign="top">
+
+ extension-service-cmp!*<suffix\>*  
 
 
 

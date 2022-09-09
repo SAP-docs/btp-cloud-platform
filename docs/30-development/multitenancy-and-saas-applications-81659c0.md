@@ -2,5 +2,5 @@
 
 # Multitenancy and SaaS Applications
 
-Learn more about multitenancy ans SaaS applications in the ABAP environment.
+Learn more about multitenancy and SaaS applications in the ABAP environment.
 

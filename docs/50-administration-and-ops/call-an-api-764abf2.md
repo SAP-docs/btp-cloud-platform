@@ -2,7 +2,7 @@
 
 # Call an API
 
-Use the different endpoints of the Authorization and Trust Management service APIs to manage users roles and other authorization configurations.
+Use the different endpoints of the SAP Authorization and Trust Management service APIs to manage users roles and other authorization configurations.
 
 
 
@@ -10,27 +10,25 @@ Use the different endpoints of the Authorization and Trust Management service AP
 
 ## Prerequisites
 
-To call an API of the Authorization and Trust Management Service you need to obtain an access token. See [Access UAA Admin APIs](access-uaa-admin-apis-ebc9113.md) to learn how to obtain an access token. See the following example how to call an endpoint with a curl request.
+To call an API of the SAP Authorization and Trust Management service, obtain an access token. See [Access SAP Authorization and Trust Management Service APIs](access-sap-authorization-and-trust-management-service-apis-ebc9113.md) to learn how to obtain an access token. See the following example how to call an endpoint with a cURL request.
 
 > ### Tip:  
-> On the API Business Hub, a sandbox system is provided for you to make example calls to the different APIs and their endpoints.
+> On the *SAP API Business Hub*, we provide a sandbox system for you to make example calls to the different APIs and their endpoints.
 
 
 
 ## Procedure
 
-1.  Call the roles endpoint of the authorization API.
+1.  Call the endpoint of an API.
 
     > ### Sample Code:  
-    > In this example, we request the list of roles of an XSUAA configuration.
+    > In this example, we request the list of roles of from the authorization API. With the authorization header, use the access token you received in the prerequisites after the key word `bearer`.
     > 
     > ```
     > curl --request GET \
     >   --url https://api.authentication.eu10.hana.ondemand.com/sap/rest/authorization/v2/roles \
     >   --header 'Accept: application/json' \
-    >   --header 'Authorization: bearer eyJhbGciOiJSUzI1N...' \
-    >   --header 'Content-Type: application/x-www-form-urlencoded' \
-    >   --header 'cache-control: no-cache'
+    >   --header 'Authorization: bearer eyJhbGciOiJSUzI1N...'
     > ```
 
 
@@ -40,7 +38,7 @@ To call an API of the Authorization and Trust Management Service you need to obt
 
 ## Results
 
-The client returns the list of roles.
+The resource server returns the list of roles.
 
 > ### Output Code:  
 > ```json

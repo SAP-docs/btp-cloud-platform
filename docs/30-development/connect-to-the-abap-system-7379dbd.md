@@ -37,6 +37,9 @@ Set up your ABAP cloud project to connect to the ABAP system.
 
         On the *System Connection Using a Service Key* page, paste your existing service key from the clipboard into the *Service Key in JSON Format* text box, or choose *Import* to import a text file containing your service key.
 
+        > ### Note:  
+        > If you're an SAP Universal ID user, you can only use this option to establish a service instance connection.
+
 
 3.  Select *Next*.
 

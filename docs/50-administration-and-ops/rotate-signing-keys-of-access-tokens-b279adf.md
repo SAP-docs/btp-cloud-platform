@@ -12,7 +12,7 @@ Components of the Cloud Foundry environment use the digital signature of the acc
 
 -   You've enabled API access to the SAP Authorization and Trust Management service.
 
-    For more information, see [Access UAA Admin APIs](access-uaa-admin-apis-ebc9113.md)
+    For more information, see [Access SAP Authorization and Trust Management Service APIs](access-sap-authorization-and-trust-management-service-apis-ebc9113.md)
 
 -   You've checked that you have space for an additional signing key.
 

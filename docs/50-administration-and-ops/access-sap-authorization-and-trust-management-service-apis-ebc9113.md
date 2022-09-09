@@ -1,8 +1,8 @@
 <!-- loioebc9113a520e495ea5fb759b9a7929f2 -->
 
-# Access UAA Admin APIs
+# Access SAP Authorization and Trust Management Service APIs
 
-To enable programmatic access to the XS user authentication and authorization \(UAA\) service in your subaccount of the Cloud Foundry environment, create an XSUAA service instance under the `apiaccess` plan.
+To enable programmatic access to the SAP Authorization and Trust Management service \(XSUAA\) in your multi-environment subaccount, create a service instance with the `apiaccess` plan.
 
 
 
@@ -10,7 +10,7 @@ To enable programmatic access to the XS user authentication and authorization \(
 
 ## Prerequisites
 
--   You have the role *User & Role Administrator* for the subaccount where you want to enable API access. This role ensures that you have the required scopes:
+-   You required the following scopes to create the service instance:
 
     -   `xs_authorization.read`
     -   `xs_authorization.write`
@@ -19,9 +19,20 @@ To enable programmatic access to the XS user authentication and authorization \(
     -   `xs_user.read`
     -   `xs_user.write`
 
+    The following authorizations include the required scopes:
+
+    -   For cloud management tools feature set A, you can use the role *User & Role Administrator* for the subaccount where you want to enable API access.
+
+    -   For cloud management tools feature set B, you can use any role collection that includes the *User and Role Administrator* role for the subaccount where you want to enable API access. An example of such a role collection is *Subaccount Administrator*.
+
+        For more information, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md).
+
+
 -   You have an org and a space where you can create a service instance.
 
--   Platform users in Feature Set B must be in the default identity provider. For more information, see [Restrictions When Using Custom Identity Providers for Platform Users \[Feature Set B\]](restrictions-when-using-custom-identity-providers-for-platform-users-feature-set-b-6f0a623.md).
+-   Platform users in cloud management tools feature set B must be in the default identity provider.
+
+    For more information, see [Restrictions When Using Custom Identity Providers for Platform Users \[Feature Set B\]](restrictions-when-using-custom-identity-providers-for-platform-users-feature-set-b-6f0a623.md).
 
 
 
@@ -46,7 +57,7 @@ For more information about the available APIs, see [https://api.sap.com/package/
 
     `cf target -o my-org -s DEV`
 
-2.  In your subaccount, create a service instance of the UAA with the `apiaccess` plan.
+2.  In your subaccount, create a service instance with the `apiaccess` plan.
 
     Enter the following command:
 
@@ -56,7 +67,7 @@ For more information about the available APIs, see [https://api.sap.com/package/
 
     `cf create-service xsuaa apiaccess my-access`
 
-    This command creates an entry for the OAuth client in the database of the cloud controller.
+    This command creates an entry for the OAuth client in the database of the authorization server.
 
 3.  Create a service key.
 
@@ -68,7 +79,7 @@ For more information about the available APIs, see [https://api.sap.com/package/
 
     `cf create-service-key my-access my-access-key`
 
-    The system writes the credentials for the OAuth client to the service key.
+    The system creates the credentials for the OAuth client.
 
 4.  Get the credentials for the OAuth client.
 
@@ -103,23 +114,24 @@ For more information about the available APIs, see [https://api.sap.com/package/
     > }
     > ```
 
-    With the URL, client ID, and client secret, you can get the access token. With the access token and the ***apiurl***, you have access to the API.
+    With the URL, client ID, and client secret, you can request an access token. With the access token and the ***apiurl***, you can access the API.
 
-5.  Configure or program your application to get a token from the OAuth client.
+5.  Configure or program your application to request a token from the OAuth authorization server.
 
-    In your call to the OAuth client, you send the client ID and client secret, separated with a colon \(:\) and base64 encoded to the URL from the service key.
+    In your call to the OAuth server, you send the client ID and client secret to URL from the service key appended with the `/oauth/token` endpoint. To illustrate the call, we use cURL in the following example.
 
     > ### Sample Code:  
     > ```
     > curl --request POST \
-    >   --url https://my-subdomain.authentication.eu10.hana.ondemand.com/oauth/token \
+    >   --url 'https://my-subdomain.authentication.eu10.hana.ondemand.com/oauth/token' \
     >   --header 'Accept: application/json' \
-    >   --header 'Authorization: Basic eW91ckNsaWVudElEOnlvdXJDbGllbnRTZWNyZXQ' \
-    >   --header 'cache-control: no-cache' \
-    >   --data 'grant_type=client_credentials&response_type=token'
+    >   --data 'client_id=aa-bb-cccc11c1-d222-333e-44f4-g5g55ggg555g!a6666' \
+    >   --data 'client_secret=aA1B2CcCCC3dDd+ee444fFF5ggG=' \
+    >   --data 'grant_type=client_credentials' \
+    >   --data 'response_type=token'
     > ```
 
-    The client returns a token.
+    The authorization server returns a token along with other related information.
 
     > ### Output Code:  
     > ```json
@@ -131,7 +143,7 @@ For more information about the available APIs, see [https://api.sap.com/package/
     > "jti":"be340353ac694b4cb504c6823f938647"}
     > ```
 
-6.  Use the value of the parameter `access_token` to make calls to the various API endpoints. For an example, see [Call an API](call-an-api-764abf2.md).
+6.  Use the value of the `access_token` property to make calls to the various API endpoints. For an example, see [Call an API](call-an-api-764abf2.md).
 
 
 **Related Information**  

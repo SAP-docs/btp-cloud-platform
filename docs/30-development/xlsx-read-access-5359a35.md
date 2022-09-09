@@ -4,6 +4,9 @@
 
 The starting point for programmatically reading the content of an XLSX document is to obtain a read access for the document. This document shows how this is done.
 
+> ### Caution:  
+> Note that when data is read from a given XLSX document via the XCO XLSX module, the data is provided in exactly the way it's stored within the XLSX document. This implies that no security or any other kind of additional validations are performed against the data contained in the worksheets of the XLSX workbook when it's accessed by the means described below. Please ensure that when the read data is further processed by application logic \(for example, stored in a database table or shown in a Fiori app\), dedicated checks are in place to guard your application against potentially malicious content \(such as string values in an XLSX worksheet containing JavaScript code\).
+
 Consider the following:
 
 > ### Sample Code:  

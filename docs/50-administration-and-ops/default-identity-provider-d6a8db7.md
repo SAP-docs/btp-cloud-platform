@@ -13,16 +13,36 @@ SAP ID service is the default identity provider for both platform users and busi
 
 
 
-SAP ID service is the place where you register to get initial access to SAP BTP. If you're a new user, you can use the self-service registration option at the [SAP Web site](https://www.sap.com) or [SAP ID Service](https://accounts.sap.com). SAP ID service manages the users of official SAP sites, including the SAP developer and partner community. If you already have such a user, then you're already registered with SAP ID service.
-
 SAP ID service provides:
 
 -   A central user store
 -   A Single Sign-On \(SSO\) service. It enables users to log on once and get access to all your applications.
 
-Use SAP ID service as a preconfigured user store in your starter scenarios or for testing. You can also use the default identity provider as a backup identity provider if access to your custom identity provider fails.
+Use SAP ID service as a preconfigured user store in your starter scenarios or for testing. You can also use the default identity provider as a backup identity provider if access to your custom identity provider fails. SAP ID service is the place where you register to get initial access to SAP BTP.
 
-![](images/Authorization_and_Trust_Management_in_the_Neo_Environment_graph3_68bb064.png)
+   
+  
+<a name="loiod6a8db70bdde459f92f2837349f95090__fig_xsf_zq5_45b"/>SAP ID Service Authenticates Users
+
+ ![](images/Authorization_and_Trust_Management_in_the_Neo_Environment_graph3_68bb064.png "SAP ID Service Authenticates Users") 
+
+If you're a new user, you can use the self-service registration option at the [SAP Web site](https://www.sap.com) The SAP website registers you with SAP Universal ID, which also registers you with SAP ID service.
+
+
+
+<a name="loiod6a8db70bdde459f92f2837349f95090__section_fmj_mbp_ktb"/>
+
+## SAP Universal ID
+
+SAP Universal ID manages the users of official SAP sites, including the SAP developer and partner community. If you already have such a user, then you're already registered with SAP ID service as well. SAP ID service acts as a proxy for SAP Universal ID, when users log on with their e-mail addresses. Users can log on with and manage all their SAP accounts with SAP Universal ID.
+
+The following figure illustrates how default and custom identity providers can federate other identity providers.
+
+   
+  
+<a name="loiod6a8db70bdde459f92f2837349f95090__fig_ykb_r5p_p5b"/>Identity Providers and Federation
+
+ ![](images/idp_proxies_a1b2a3b.png "Identity Providers and Federation") 
 
 
 
@@ -32,7 +52,7 @@ Use SAP ID service as a preconfigured user store in your starter scenarios or fo
 
 To add users to a subaccount, the users must exist in an identity provider.
 
-For more information about adding users to SAP ID service, see [Create SAP User Accounts](create-sap-user-accounts-ebe42f6.md).
+For more information about adding users to our default identity providers, see [Create SAP User Accounts](create-sap-user-accounts-ebe42f6.md).
 
 To add new users to a subscribed app or service, such as Web IDE, add those users to your subaccount.
 
@@ -77,14 +97,6 @@ For more information, see [How to Enable Multi-Factor Authentication \(MFA\)](ht
 > -   SAP Business Application Studio
 > 
 > -   SAP Web IDE
-
-
-
-<a name="loiod6a8db70bdde459f92f2837349f95090__section_fmj_mbp_ktb"/>
-
-## SAP Universal ID
-
-SAP ID Service acts as a proxy for SAP Universal ID, when users log on with their e-mail addresses. Users can log on with and manage all their SAP accounts with SAP Universal ID.
 
 
 

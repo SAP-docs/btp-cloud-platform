@@ -145,7 +145,7 @@ Creating service instances of the SAP Authorization and Trust Management service
 
 To create service instances of the SAP Authorization and Trust Management service with the ***apiaccess*** service plan, you must use a user from the default identity provider.
 
-For more information, see [Access UAA Admin APIs](access-uaa-admin-apis-ebc9113.md).
+For more information, see [Access SAP Authorization and Trust Management Service APIs](access-sap-authorization-and-trust-management-service-apis-ebc9113.md).
 
 
 

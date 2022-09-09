@@ -12,7 +12,7 @@ The SAP Authorization and Trust Management service uses an X.509 certificate to 
 
 -   You've enabled API access to the SAP Authorization and Trust Management service.
 
-    For more information, see [Access UAA Admin APIs](access-uaa-admin-apis-ebc9113.md)
+    For more information, see [Access SAP Authorization and Trust Management Service APIs](access-sap-authorization-and-trust-management-service-apis-ebc9113.md)
 
 -   Optionally, to use your own signing key for SAML tokens, you've obtained an X.509 certificate for the SAP Authorization and Trust Management service.
 
@@ -124,7 +124,7 @@ The signed SAML tokens are used to validate and authenticate the protocol messag
 **Related Information**  
 
 
-[Access UAA Admin APIs](access-uaa-admin-apis-ebc9113.md "To enable programmatic access to the XS user authentication and authorization (UAA) service in your subaccount of the Cloud Foundry environment, create an XSUAA service instance under the apiaccess plan.")
+[Access SAP Authorization and Trust Management Service APIs](access-sap-authorization-and-trust-management-service-apis-ebc9113.md "To enable programmatic access to the SAP Authorization and Trust Management service (XSUAA) in your multi-environment subaccount, create a service instance with the apiaccess plan.")
 
 [Managing Secrets of the SAP Authorization and Trust Management Service](managing-secrets-of-the-sap-authorization-and-trust-management-service-22f4a5c.md "The SAP Authorization and Trust Management service maintains a number of secrets to ensure secure operation of the service. Your organization can have policies that require you change secrets or you may need to respond to the loss of a secret.")
 

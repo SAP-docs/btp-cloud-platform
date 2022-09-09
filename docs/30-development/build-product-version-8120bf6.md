@@ -10,6 +10,15 @@ Since technical users are needed in various steps, the app can also be used to a
 
 Previously, the scenario has been described in project "Piper". For more information, see [Build and Publish Add-On Products on SAP BTP, ABAP Environment.](https://www.project-piper.io/scenarios/abapEnvironmentAddons/) We recommend using the *Build Product Version* App that enables the Build Add-On Product scenario for you without the need to set up a Jenkins server.
 
+> ### Note:  
+> Please notice, that only 99 builds can be saved in a 28 day period. In case of further builds, the oldest one will be deleted.
+> 
+> Therefore, you can only see the build protocols of the currently saved builds.
+> 
+> Although normally being singular, the number of builds for a version can vary. When the system is being prepared in the pipeline
+> 
+> Process, loading the ADT system, errors can occur. You are able to repeat the build processes for one version until it works.
+
 
 
 <a name="loio8120bf6d9eed465684d205ec48623490__section_ird_tn5_ktb"/>

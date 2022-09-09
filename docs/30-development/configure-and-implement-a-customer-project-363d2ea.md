@@ -71,7 +71,7 @@ See [Integrating On-Premise Systems](integrating-on-premise-systems-c95327f.md) 
 
 **Create Business Configuration**
 
-As a business user, you can use the *Maintain Business Configurations* app to adjust business configuration objects to change and influence the system behavior.
+As a business user, you can use the *Custom Business Configurations* app to adjust business configuration objects to change and influence the system behavior.
 
 See [Custom Business Configurations App](../50-administration-and-ops/custom-business-configurations-app-76384d8.md) on how to adjust configuration objects provided in the SaaS solution.
 

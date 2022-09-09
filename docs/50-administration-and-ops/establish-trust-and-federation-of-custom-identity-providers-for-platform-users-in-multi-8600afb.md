@@ -127,6 +127,9 @@ For more information, see [Supported Tools and Services When Using Custom Identi
 
     You can now log on with your user of the custom identity provider.
 
+    > ### Restriction:  
+    > This location does not support use of a custom domain.
+
 
 
 

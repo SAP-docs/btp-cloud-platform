@@ -168,18 +168,14 @@ In the following, you see what John Doe's SAML 2.0 assertion looks like if *Defa
 >       ..
 >       </AuthnStatement>
 >       <AttributeStatement>
->              <Attribute Name="Groups">
->                     <AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">iot-acme-monitoring</AttributeValue>
->                     ...
->              <Attribute Name="email">
->                     <AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">john.doe@example.com</AttributeValue>
->              </Attribute>
->              <Attribute Name="first_name">
->              <AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">John</AttributeValue>
->              </Attribute>
->              <Attribute Name="last_name">
->                     <AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">Doe</AttributeValue>
->              </Attribute>
+>     	<Attribute Name="Groups">
+> 			<AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">iot-acme-monitoring</AttributeValue>
+> 			<AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">new-group-01</AttributeValue>
+> 			<AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">new-group-02</AttributeValue>
+> 		</Attribute>
+>     	<Attribute Name="email">
+> 			<AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">john.doe@example.com</AttributeValue>
+> 		</Attribute>
 >       </AttributeStatement>
 > </Assertion>
 > ```

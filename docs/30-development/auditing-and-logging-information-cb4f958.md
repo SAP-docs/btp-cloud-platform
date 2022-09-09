@@ -55,12 +55,12 @@ Authentication failed because of an invalid token
 </td>
 <td valign="top">
 
+Message: *Authentication failure status: 401*
+
 
 
 </td>
 <td valign="top">
-
-Message: *Authentication failure status: 401*
 
 
 
@@ -76,12 +76,14 @@ Authentication failed because of the token has expired
 </td>
 <td valign="top">
 
+Message: *Authentication failure status: 403* 
+
 
 
 </td>
 <td valign="top">
 
-Message: *Authentication failure status: 403* 
+ 
 
 
 
@@ -90,21 +92,14 @@ Message: *Authentication failure status: 403*
 <tr>
 <td valign="top">
 
-Attempt to access an application with an invalid app-host
+Attempt to access an application with an invalid app-host ID
 
 
 
 </td>
 <td valign="top">
 
-Attempt to access an application with invalid app-host
-
-
-
-</td>
-<td valign="top">
-
- 
+Attempt to access an application with an invalid app-host ID
 
 
 
@@ -118,6 +113,13 @@ If there was an attempt to get an application that was deployed by a developer i
 
 
 </td>
+<td valign="top">
+
+ 
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -130,13 +132,6 @@ Attempt to access a private application from another space
 <td valign="top">
 
 Attempt to access a private application from another space
-
-
-
-</td>
-<td valign="top">
-
- 
 
 
 
@@ -148,11 +143,20 @@ Message: *Attempt to access private application. application name :*`'+ appKey +
 
 
 </td>
+<td valign="top">
+
+ 
+
+
+
+</td>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top" rowspan="3">
 
 Deletion of an application
+
+\(Deletion of an app-host service instance from the HTML5 application repository\)
 
 
 
@@ -166,14 +170,14 @@ Deletion of data started
 </td>
 <td valign="top">
 
- 
+Message: *Deletion of data started for SPACE <space\> in ORG <org\>* 
 
 
 
 </td>
 <td valign="top">
 
-Message: *Deletion of data started for SPACE <space\> in ORG <org\>* 
+ 
 
 
 
@@ -189,14 +193,37 @@ Deletion of data completed
 </td>
 <td valign="top">
 
- 
+Message:*Deletion of data completed for SPACE <space\> in ORG <org\>* 
 
 
 
 </td>
 <td valign="top">
 
-Message:*Deletion of data completed for SPACE <space\> in ORG <org\>* 
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Deletion of data failed
+
+
+
+</td>
+<td valign="top">
+
+Message: *Deletion of data failed for SPACE <space\> in ORG <org\>*
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 

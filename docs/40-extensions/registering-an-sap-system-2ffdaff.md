@@ -25,13 +25,6 @@ The registration process is based on a registration token that is used for the p
 
 When you start registering the system, it appears in the system landscape list. At this point the *Status* column of this system is empty. To trigger the pairing of the system and the corresponding global account, you have to get the registration token and use it in the respective SAP system.
 
-When you no longer need the system to be paired with your global account, you can remove or deregister it depending on its status. Deregistering an SAP system means that the connectivity between this system and the global account is disabled and extension scenarios cannot be established, while removing an SAP system means that this system is no longer part of the system landscape list. You can deregister or remove an SAP system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the system landscape list.
-
-> ### Note:  
-> You can only remove manually added systems. Depending on their discovery mode the systems that are added to the list either are *Manually added* \(a result of carrying out this procedure\), or *Auto-discovered* \(added to the list automatically, based on information of the existing system landscape\), or part of the *Subaccount/<my-subaccount\>* \(automatically added, based on the information of the SAP BTP subaccount\).
-> 
-> You cannot remove *Auto-discovered* systems from the list.
-
 The following SAP system types are supported:
 
 -   SAP S/4HANA Cloud \(available for Cloud Foundry and Kyma environment\)
@@ -53,27 +46,11 @@ The registration process has the following states displayed in the cockpit:
 
 -   *Registered* - the registration token has been used and the automated registration process has been successfully completed. The system can be assigned to a formation on the *Formations* page in the cockpit.
 -   *Error while Registering* - the registration has failed.
--   *Deregistering* - a deregistration process has started. As a result, the connectivity between the SAP system and SAP BTP is disabled and extension scenarios cannot be established. The system remains in the system landscape list and you can register it again later on.
-
-    Once a system is registered, you can deregister it only after removing it from all entitlement configurations and formations it takes part in.
-
--   *Error while Deregistering* - the deregistration has failed. If the problem persists, you have to report an incident.
--   *Removing* - a system removal process has started in the SAP BTP cockpit. As a result, the SAP system is deregistered, and then, it is removed from the system landscape list completely. To register the system again, first, you must add it to the list anew, and then, initiate the registration procedure.
-
-    Once a system is registered, you can only remove it if you first deregister it.
-
--   *Error while Removing* - the system removal has failed.
 
 > ### Note:  
-> You will not be able to deregister or remove a system if its status is one of the following:
-> 
-> -   *Error while Removing*
-> 
-> -   *Error while Registering*
-> 
-> -   *Error while Deregistering*
+> You will not be able to deregister or remove a system if its status is *Error while Registering*.
 
-If the registration, deregistration, or removal errors persist, report an incident in one of the following components depending on the system type:
+If the registration error persists, report an incident in one of the following components depending on the system type:
 
 -   SAP SuccessFactors - `BC-NEO-EXT-SF`
 
@@ -151,7 +128,7 @@ If the registration, deregistration, or removal errors persist, report an incide
         See [Including SAP Systems in a Formation](including-sap-systems-in-a-formation-68b04fa.md).
 
 
--   If you no longer need it, you can remove or deregister the system depending on its status.
+-   If you no longer need it, you can deregister or remove the system depending on its status. See [Deregistering or Removing an SAP System](deregistering-or-removing-an-sap-system-0c6f498.md).
 
 
 **Related Information**  

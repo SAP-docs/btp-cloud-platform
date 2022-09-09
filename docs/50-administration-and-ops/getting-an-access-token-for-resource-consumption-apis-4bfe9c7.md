@@ -181,5 +181,5 @@ For more information, see [Consuming Services in Other Environments Using the SA
 **Related Information**  
 
 
-[Access UAA Admin APIs](access-uaa-admin-apis-ebc9113.md "To enable programmatic access to the XS user authentication and authorization (UAA) service in your subaccount of the Cloud Foundry environment, create an XSUAA service instance under the apiaccess plan.")
+[Access SAP Authorization and Trust Management Service APIs](access-sap-authorization-and-trust-management-service-apis-ebc9113.md "To enable programmatic access to the SAP Authorization and Trust Management service (XSUAA) in your multi-environment subaccount, create a service instance with the apiaccess plan.")
 

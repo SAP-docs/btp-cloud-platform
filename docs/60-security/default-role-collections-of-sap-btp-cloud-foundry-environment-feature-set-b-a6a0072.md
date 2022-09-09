@@ -198,6 +198,43 @@ Global Account Administrator
 <tr>
 <td valign="top">
 
+Global Account Viewer
+
+
+
+</td>
+<td valign="top">
+
+ System Landscape Viewer 
+
+
+
+</td>
+<td valign="top">
+
+ GlobalAccount\_System\_Landscape\_Viewer 
+
+
+
+</td>
+<td valign="top">
+
+ extension-service-cmp!*<suffix\>*  
+
+
+
+</td>
+<td valign="top">
+
+ Viewer access to systems and scenario-related resources. 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Subaccount Administrator
 
 

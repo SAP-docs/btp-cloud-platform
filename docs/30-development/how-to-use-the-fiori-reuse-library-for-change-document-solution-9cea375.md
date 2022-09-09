@@ -109,7 +109,7 @@ To be able to use the reusable components, you need to adapt the code that can b
     > 
     > After your app was deployed successfully to an SAP Business Technology Platform system, the updated BSP application and the SAP Fiori Launchpad app descriptor item will appear under your created package in Eclipse.
 
-4.  Update your IAM App. For more information, see 
+4.  Update your IAM App. For more information, see [Defining an IAM App for the Business Service](defining-an-iam-app-for-the-business-service-3fb85a8.md).
 
 5.  Once created, maintain the *Change Document OData Service*. Go to the *Service* tab and add the *Change Document Log OData Service* by naming the *OData V2* service type and add the following service name: `APS_CHANGE_DOCUMENTS_SRV`` `` `` `` `` `` ``0001` \(**Note: make sure to add all 11 spaces in between 'SRV' and '0001'**\).
 

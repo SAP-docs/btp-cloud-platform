@@ -83,6 +83,207 @@ Amazon Web Services
 </td>
 <td valign="top">
 
+ap10
+
+
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
+
+
+
+</td>
+<td valign="top">
+
+cf-ap10
+
+
+
+</td>
+<td valign="top">
+
+ap-southeast-2
+
+
+
+</td>
+<td valign="top">
+
+54.153.226.137, 54.153.194.85
+
+
+
+</td>
+<td valign="top">
+
+api.cf.ap10.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+ap10.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+[Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ap10)
+
+[Feature Set B](https://cockpit.ap10.hana.ondemand.com/)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Amazon Web Services
+
+
+
+</td>
+<td valign="top">
+
+br10
+
+
+
+</td>
+<td valign="top">
+
+Brazil \(Sao Paulo\)
+
+
+
+</td>
+<td valign="top">
+
+cf-br10
+
+
+
+</td>
+<td valign="top">
+
+sa-east-1
+
+
+
+</td>
+<td valign="top">
+
+52.67.140.201, 54.207.133.145
+
+
+
+</td>
+<td valign="top">
+
+api.cf.br10.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+br10.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+[Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-br10)
+
+[Feature Set B](https://cockpit.br10.hana.ondemand.com/)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Amazon Web Services
+
+
+
+</td>
+<td valign="top">
+
+ca10
+
+
+
+</td>
+<td valign="top">
+
+Canada \(Montreal\)
+
+
+
+</td>
+<td valign="top">
+
+cf-ca10
+
+
+
+</td>
+<td valign="top">
+
+ca-central-1
+
+
+
+</td>
+<td valign="top">
+
+15.222.180.159, 15.222.175.12
+
+
+
+</td>
+<td valign="top">
+
+api.ca10.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+ca10.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+[Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ca10)
+
+[Feature Set B](https://cockpit.ca10.hana.ondemand.com/)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Amazon Web Services
+
+
+
+</td>
+<td valign="top">
+
 eu10
 
 
@@ -202,6 +403,140 @@ jp10.hana.ondemand.com
 [Feature Set A](https://account.jp1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-jp10)
 
 [Feature Set B](https://cockpit.jp10.hana.ondemand.com/)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Amazon Web Services
+
+
+
+</td>
+<td valign="top">
+
+ap11
+
+
+
+</td>
+<td valign="top">
+
+Singapore
+
+
+
+</td>
+<td valign="top">
+
+cf-ap11
+
+
+
+</td>
+<td valign="top">
+
+ap-southeast-1
+
+
+
+</td>
+<td valign="top">
+
+54.179.221.168, 18.140.151.124
+
+
+
+</td>
+<td valign="top">
+
+api.ap11.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+ap11.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+[Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ap11)
+
+[Feature Set B](https://cockpit.ap11.hana.ondemand.com/)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Amazon Web Services
+
+
+
+</td>
+<td valign="top">
+
+ap12
+
+
+
+</td>
+<td valign="top">
+
+South Korea \(Seoul\)
+
+
+
+</td>
+<td valign="top">
+
+cf-ap12
+
+
+
+</td>
+<td valign="top">
+
+ap-northeast-2
+
+
+
+</td>
+<td valign="top">
+
+54.179.221.168, 18.140.151.124
+
+
+
+</td>
+<td valign="top">
+
+api.ap12.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+ap12.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+[Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ap12)
+
+[Feature Set B](https://cockpit.ap12.hana.ondemand.com/)
 
 
 
