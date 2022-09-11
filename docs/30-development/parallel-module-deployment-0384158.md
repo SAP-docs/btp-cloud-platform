@@ -55,7 +55,7 @@ In the example above, the `deployed-after` attributes guarantee that the `ui` mo
 In the example above, we have also specified the global MTA parameter `enable-parallel-deployments` with a value `true`. It activates the parallel deployment of MTA modules that do not have any deployment order dependencies between each other. If the parameter is missing or its value is `false`, the module deployment will be sequential.
 
 > ### Note:  
-> If the parameter `enable-parallel-deployments` is not specified, the resources are processed in parallel.
+> The `enable-parallel-deployments` parameter has influence only on modules deployment, see the section [Sequential Resource Processing](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/b93db81b7df441d985896ac9eed65142.html) for the resources process.
 
 > ### Note:  
 > The `enable-parallel-deployments` parameter is supported from major schema version 3 onwards.
