@@ -237,3 +237,50 @@ After you’ve successfully added the entitlements, you can enable your trial Ky
 
 Your Kyma trial environment is now ready to use.
 
+ <a name="loiod022bb1dde7d499685ee6ef3ab825680"/>
+
+<!-- loiod022bb1dde7d499685ee6ef3ab825680 -->
+
+## Disable Expired Trial Kyma Environment
+
+After your trial Kyma environment has expired, you must disable it to remove all the data connected to the cluster from SAP systems.
+
+
+
+## Context
+
+
+
+## Procedure
+
+1.  Navigate to your subaccount.
+
+2.  In the *Kyma Environment* section of your subaccount overview, click *Disable Kyma*.
+
+    > ### Note:  
+    > On deletion of the expired cluster, we attempt to delete the Service Instances that you created with the cluster. If we cannot do that, you have to [remove the Service Instances yourself](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/99016f83ce8e4d049316b61b5cadf1fc.html "A list of all tasks and respective commands that are available in the SMCTL for SAP BTP.") :arrow_upper_right: before you disable such a *Kyma Environment*.
+
+
+ <a name="loio2e07cf4be857422aa5ba911fc160b284"/>
+
+<!-- loio2e07cf4be857422aa5ba911fc160b284 -->
+
+## Extend Trial Kyma Environment
+
+You cannot extend your trial Kyma environment. After your trial Kyma environment has expired, you must disable it on your subaccount and enable it again to create a new cluster.
+
+
+
+## Context
+
+
+
+## Procedure
+
+1.  Navigate to your subaccount.
+
+2.  [Disable your expired Kyma environment.](setting-up-your-trial-account-57074a0.md#loiod022bb1dde7d499685ee6ef3ab825680)
+
+3.  After your Kyma environment has been successfully disabled, [create a new Kyma environment.](setting-up-your-trial-account-57074a0.md#loio6313afa84b8940f7963ceec0bb236780) 
+
+

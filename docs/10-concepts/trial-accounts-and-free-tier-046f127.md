@@ -55,6 +55,9 @@ Before setting up your account, you need to decide which free offering for SAP B
 
 
 
+> ### Caution:  
+> The 30-day validity period concerns your trial account, not the environment enabled on that account. To learn about the validity period for the Kyma environment, see [About the Trial Account](../20-getting-started/about-the-trial-account-c4fff0f.md).
+
 
 
 <a name="loio046f127f2a614438b616ccfc575fdb16__section_trial-scope"/>
