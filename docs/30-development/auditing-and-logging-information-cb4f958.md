@@ -69,7 +69,7 @@ Message: *Authentication failure status: 401*
 <tr>
 <td valign="top">
 
-Authentication failed because of the token has expired
+Authentication failed because the token has expired
 
 
 

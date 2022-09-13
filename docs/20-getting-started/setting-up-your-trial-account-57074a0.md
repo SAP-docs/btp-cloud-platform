@@ -247,10 +247,6 @@ After your trial Kyma environment has expired, you must disable it to remove all
 
 
 
-## Context
-
-
-
 ## Procedure
 
 1.  Navigate to your subaccount.
@@ -268,10 +264,6 @@ After your trial Kyma environment has expired, you must disable it to remove all
 ## Extend Trial Kyma Environment
 
 You cannot extend your trial Kyma environment. After your trial Kyma environment has expired, you must disable it on your subaccount and enable it again to create a new cluster.
-
-
-
-## Context
 
 
 
