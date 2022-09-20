@@ -122,6 +122,8 @@
                 -   [Create Your Trial Subaccount](20-getting-started/setting-up-your-trial-account-57074a0.md#loio8b6b4f9267ba4f26bc1d85c0c67e4934)
                 -   [Add Entitlements](20-getting-started/setting-up-your-trial-account-57074a0.md#loio421278ccecab4d829c2cead64af293d7)
                 -   [Enable Trial Kyma Environment](20-getting-started/setting-up-your-trial-account-57074a0.md#loio6313afa84b8940f7963ceec0bb236780)
+                -   [Disable Expired Trial Kyma Environment](20-getting-started/setting-up-your-trial-account-57074a0.md#loiod022bb1dde7d499685ee6ef3ab825680)
+                -   [Extend Trial Kyma Environment](20-getting-started/setting-up-your-trial-account-57074a0.md#loio2e07cf4be857422aa5ba911fc160b284)
 -   [Development](30-development/development-c2fec62.md)
     -   [Development in the Cloud Foundry Environment](30-development/development-in-the-cloud-foundry-environment-40a8f8f.md)
         -   [Best Practices](30-development/best-practices-0859096.md)

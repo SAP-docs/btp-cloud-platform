@@ -21,7 +21,7 @@ A **global account** is the realization of a contract you or your company has ma
 
 ## Try Out SAP BTP for Free
 
-There are two ways to try out SAP BTP services and applicationsfor free.
+There are two ways to try out SAP BTP services and applications for free.
 
 
 
