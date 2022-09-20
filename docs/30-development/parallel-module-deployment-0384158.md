@@ -47,7 +47,7 @@ In the example above, the `deployed-after` attributes guarantee that the `ui` mo
 
 
 
-### Parallel Deployment
+## Parallel Deployment
 
 > ### Note:  
 > The `deployed-after` parameter is supported from major schema version 3 onwards.
@@ -62,13 +62,13 @@ In the example above, we have also specified the global MTA parameter `enable-pa
 
 
 
-### Circular Dependencies
+## Circular Dependencies
 
 Due to a modelling error, the user can introduce direct or transitive circular deployment order dependencies between modules. In such cases, this will be reported as a deployment error.
 
 
 
-### Compatibility with Previous Deployment Order
+## Compatibility with Previous Deployment Order
 
 The previous deployment order algorithm was based on the `requires` module-level attribute, which contains a list of module names or provided dependencies from other modules. Since it is also the way to model configuration dependencies, this mechanism was not explicit enough to model a deployment order .
 
