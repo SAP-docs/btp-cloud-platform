@@ -7,7 +7,7 @@ Besides the default and local origin, the Read APIs for both classes and interfa
 > ### Sample Code:  
 > ```abap
 > TRY.
->     DATA(lo_rfc_destination) = cl_rfc_destination_provider=>create_by_cloud_destination( 'MY_CLOUD_DESTINATION' ).
+>     DATA(lo_rfc_destination) = cl_rfc_destination_provider=>create_by_comm_arrangement( 'MY_COMM_ARRANGEMENT' ).
 >   CATCH cx_rfc_dest_provider_error INTO DATA(lx_rfc_dest_provider_error).
 >     " Handle exception.
 > ENDTRY.

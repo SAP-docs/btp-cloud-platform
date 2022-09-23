@@ -44,8 +44,6 @@ A service instance of the SAP Authorization and Trust Management service has an 
 
     <code>https://api.authentication.<i class="varname">&lt;region&gt;</i>.hana.ondemand.com/sap/rest/authorization/v2/securitySettings</code>
 
-    Specify the tenant Id of the tenant that you want to work on with the parameter `tenantid`.
-
     In the body, include a key ID and set `changeMode` to ***ADD*** in the token policy settings.
 
     For more information, check the security settings API on the [API Business Hub](https://api.sap.com/package/authtrustmgmnt?section=Artifacts).

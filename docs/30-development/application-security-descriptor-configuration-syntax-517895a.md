@@ -930,6 +930,11 @@ Default: 43200 seconds \(12 hours\)
 > ### Recommendation:  
 > Relaxing the token policy means that users reauthenticate less. However, increasing the token validity also means that if a malicious user manages to steal a token, that malicious user has access until the token expires. Keep token validity as short as possible, but not less than 30 minutes.
 
+> ### Note:  
+> This change applies to applications, which consume or subscribe to this instance. These values override the values set for the subaccount.
+> 
+> For more information, see [Configure Token Policy for SAP Authorization and Trust Management Service](../50-administration-and-ops/configure-token-policy-for-sap-authorization-and-trust-management-service-40290a9.md).
+
 
 
 </td>

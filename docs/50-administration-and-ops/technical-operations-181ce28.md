@@ -33,5 +33,5 @@ For more information, see [Technical Monitoring Cockpit](technical-monitoring-co
 
 For monitoring an entire system landscape, consider using a central monitoring and alerting infrastructure. If you use SAP Focused Run or SAP Cloud ALM for monitoring your system landscape, you can use the integrated health monitoring for the ABAP environment.
 
-For more information, see [Integration into Central Monitoring and Alerting](integration-into-central-monitoring-and-alerting-8d6e2e7.md).
+For more information, see [Central Health Monitoring Using SAP Focused Run and SAP Cloud ALM](central-health-monitoring-using-sap-focused-run-and-sap-cloud-alm-8d6e2e7.md).
 

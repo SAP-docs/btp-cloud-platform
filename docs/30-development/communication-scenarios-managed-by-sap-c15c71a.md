@@ -4,12 +4,11 @@
 
 SAP provides ready-to-use communication scenarios. These scenarios can contain inbound and outbound services.
 
-See [Overview of Communication Scenarios Managed by SAP](overview-of-communication-scenarios-managed-by-sap-2d16f49.md).
+See [Overview of Communication Scenarios Managed by SAP](../50-administration-and-ops/overview-of-communication-scenarios-managed-by-sap-2d16f49.md).
 
-To use a communication scenario provided by SAP, an administrator has to create a communication user, communication system, and communication arrangement for a communication partner. These tasks are the same tasks as described section Outbound Communication in [Communication Scenarios Managed by Customers](communication-scenarios-managed-by-customers-31f5566.md).
+To use a communication scenario provided by SAP, an administrator has to create a communication user, communication system, and communication arrangement for a communication partner.
 
-> ### Note:  
-> Communication arrangements can also be created by using a service key, however, without containing a communication system and user. See [Create a Communication Arrangement for Inbound Communication with Service Key Type Basic](create-a-communication-arrangement-for-inbound-communication-with-service-key-type-basic-1cc5a1d.md).
+There are also scenarios for integrating SAP BTP services where the arrangement can be created from a serivce key of a service instance. In that case, the communication system and user are automatically created from the service key. See [Create a Communication Arrangement for Inbound Communication with Service Key Type Basic](create-a-communication-arrangement-for-inbound-communication-with-service-key-type-basic-1cc5a1d.md).
 
 When maintaining a communication system, you can:
 
@@ -38,5 +37,5 @@ The credentials of the communication partners can be maintained as follows:
 **Related Information**  
 
 
-[Overview of Communication Scenarios Managed by SAP](overview-of-communication-scenarios-managed-by-sap-2d16f49.md "")
+[Overview of Communication Scenarios Managed by SAP](../50-administration-and-ops/overview-of-communication-scenarios-managed-by-sap-2d16f49.md "Find a quick overview of all the communication scenarios in the ABAP environment.")
 

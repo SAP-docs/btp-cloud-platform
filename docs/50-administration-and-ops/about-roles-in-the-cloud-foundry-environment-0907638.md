@@ -90,6 +90,9 @@ See [https://docs.cloudfoundry.org/concepts/roles.html\#orgs](https://docs.cloud
 > ### Caution:  
 > The `Space Developer` role has broad rights within Cloud Foundry and, in particular, has access to the credentials used in various services and app bindings as well as other sensitive data. For more information, see [Giving Access Rights to Platform Users](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/a03d08e4038b46d480c410395593bbd2.html "If you&apos;ve set up a staged development environment using different subaccounts or spaces, such as for development, testing, and production, we recommend that you grant the Cloud Development Team access to development subaccounts and spaces, but that you grant only the Cloud Administration Team access to the testing and production subaccounts or spaces.") :arrow_upper_right:.
 
+> ### Note:  
+> To add the Space Supporter role using the `set-space-role` command, you need to have installed version 8 of the Cloud Foundry Command Line Interface \(cf CLI\). See [https://docs.cloudfoundry.org/cf-cli/install-go-cli.html](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html).
+
 
 
 </td>
@@ -115,25 +118,13 @@ Space Auditor
 <tr>
 <td valign="top">
 
-Space Supporter \(Beta\)
+Space Supporter
 
 
 
 </td>
 </tr>
 </table>
-
-If you want to use the Space Supporter \(Beta\) role, keep in mind that for now:
-
--   You can add this role using the `set-space-role` CLI command only. See [Add Space Members Using the Cloud Foundry Command Line Interface](add-space-members-using-the-cloud-foundry-command-line-interface-d23ea8b.md).
-
--   You need to have installed version 8 of the Cloud Foundry Command Line Interface \(cf CLI\). See [https://docs.cloudfoundry.org/cf-cli/install-go-cli.html](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html).
-
--   You cannot use this role with versions earlier than version 3 of the Cloud Foundry API.
-
-
-> ### Note:  
-> This is a beta feature. Beta features aren't part of the officially delivered scope that SAP guarantees for future releases. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).
 
 **Related Information**  
 

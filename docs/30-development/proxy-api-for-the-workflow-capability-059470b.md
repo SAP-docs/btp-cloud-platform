@@ -14,7 +14,7 @@ The overall starting point is the class CL\_SWF\_CPWF\_API\_FACTORY\_A4C. Once y
 
 ## Prerequisites
 
-You've executed the integration steps in your ABAP environment. See [Workflow Integration](workflow-integration-b7931f7.md).
+You've executed the integration steps in your ABAP environment. See [Workflow Integration](../50-administration-and-ops/workflow-integration-b7931f7.md).
 
 
 
@@ -141,12 +141,15 @@ In the RAP version of the Workflow Service API, workflows can be registered usin
 > MODIFY ENTITIES OF i_cpwf_inst
 >       ENTITY CPWFInstance
 >       EXECUTE registerWorkflow
->       FROM VALUE #( ( %key = '<an optional UUID that will be generated if not provided>'
+>       FROM VALUE #( ( %key = '<a UUID which is mandatory for mass enabled callers>'
 >                       %param-RetentionTime = '<retention time in days>'
 >                       %param-CpWfDefId = '<SAP Workflow Service Definition ID>'
 >                       %param-CallbackClass = '<Callback class for final state handling>'
 >                       %param-Consumer = '<SAP Workflow Scenario ID>') ).
 > ```
+
+> ### Note:  
+> It's not allowed to call the `registerWorkflow` method multiple times with an identical set of parameters. This also applies to cases where the otherwise optional %key parameter stays empty. Therefore, if you want to use the `registerWorkflow` method in a mass-enabled context you must provide the unique %key parameter.
 
 The parameters `RetentionTime`, `CpWfDefId`, and `Consumer`must be provided.
 

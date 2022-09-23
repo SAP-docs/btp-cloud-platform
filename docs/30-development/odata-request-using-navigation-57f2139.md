@@ -2,7 +2,7 @@
 
 # OData Request: Using Navigation
 
-You want to execute an OData request using a navigation within the Client Proxy.
+Create an OData request using a navigation in the Client Proxy instance.
 
 
 
@@ -12,19 +12,19 @@ You want to execute an OData request using a navigation within the Client Proxy.
 
 
 
-### OData V2
+### OData Version 2
 
-See also: [\[MS-ODATA\]: Open Data Protocol \(OData\)](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-odata)
+See also: [\[MS-ODATA\]: Open Data Protocol \(OData\)](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-odata).
 
-A unidirectional relationship \(for example, a Link\), which occurs when two EntityTypes are related via an association, but only one of the EntityTypes defines a NavigationProperty bound to the association.
+A unidirectional \(one-way\) relationship \(for example, a Link\) is when two entity types are related by association, but only one of the entity types defines a ***NavigationProperty*** that binds to the association.
 
 
 
-### OData V4
+### OData Version 4
 
-See also: [OData Version 4.01. Part 1: Protocol](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html)
+See also: [OData Version 4.01. Part 1: Protocol](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html).
 
-Relationships from one entity to another are represented as navigation properties. Navigation properties are generally defined as part of an entity type, but can also appear on entity instances as undeclared dynamic navigation properties. Each relationship has a cardinality.
+Relationships from one entity to another are represented as navigation properties. Navigation properties are defined as part of an entity type, but can also appear on entity instances as undeclared dynamic navigation properties. Each relationship has a cardinality.
 
 
 
@@ -34,9 +34,9 @@ Relationships from one entity to another are represented as navigation propertie
 
 
 
-### V4
+### Version 4
 
-Get all employees associated with Team ‘TEAM\_01’ via navigation property ‘Team2Employees’:
+Get all employees associated with Team ‘***TEAM\_01***’ via navigation property ‘***Team2Employees***’:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams('TEAM_01')/Team2Employees
@@ -44,9 +44,9 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams('TEAM_01')/Team2
 
 
 
-### V2
+### Version 2
 
-Get the team of the employee with Id ‘0005’ via navigation property “My\_Team”:
+Get the team of the employee with Id ‘***0005***’ via navigation property “***My\_Team***”:
 
 ```
 GET /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Employees(Id='0005')/My_Team
@@ -56,22 +56,22 @@ GET /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Employees(Id='0005')/My_Team
 
 <a name="loio57f2139773734539991e2afeef477666__section_j5x_kyd_ttb"/>
 
-## How-To
+## Using Navigation Request
 
 
 
 ### Overview
 
 > ### Note:  
-> As the coding itself is independent of the OData version, we will just present general examples on how to use navigations.
+> As the coding is independent of the OData version, we're presenting a general example on how to use navigations.
 
-Starting point for a request using a navigation is an entity resource. Kindly check e.g. the chapter about reading an entity on how to create an entity resource instance. On the entity resource, it is possible to create a resource for the corresponding navigation target.
+The starting point for a request using a navigation is an entity resource. On the entity resource, you can create a resource for the corresponding navigation target.
 
 
 
 ### Example 1
 
-You want to navigate to an entity list via Navigation Property “Department2Teams”:
+Navigate to an entity list with Navigation Property “***Department2Teams***”:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Departments(Id='1',Sector='Consulting')/Department2Teams
@@ -79,9 +79,9 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Departments(Id='1',Sec
 
 
 
-### Step-by-step
+### Steps
 
-**Step 1:** Create the target resource on the entity resource by using the **internal** name of the navigation property \(“DEPARTMENT\_2\_TEAMS”\):
+**Step 1:** Create the target resource on the entity resource using the **internal** name of the navigation property \(“***DEPARTMENT\_2\_TEAMS***”\):
 
 ```
 
@@ -92,16 +92,13 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Departments(Id='1',Sec
 ```
 
 > ### Note:  
-> See the chapter about reading an entity for further details about how to create an entity resource instance.
-
-> ### Note:  
-> The target resource can then be used to create e.g. a READ request. See the corresponding chapter on how to create a READ request for further details.
+> You can use the target resource to create a READ request.
 
 
 
 ### Example 2
 
-You want to navigate to a single entity via Navigation Property “Team2Manager”:
+Navigate to a single entity using the Navigation Property “***Team2Manager***”:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams('TEAM_01')/Team2Manager
@@ -109,9 +106,9 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams('TEAM_01')/Team2
 
 
 
-### Step-by-step
+### Steps
 
-**Step 1:** Create the target resource on the entity resource by using the **internal** name of the navigation property \(“TEAM\_2\_MANAGER”\):
+**Step 1:** Create the target resource on the entity resource using the **internal** name of the navigation property \(“***TEAM\_2\_MANAGER***”\):
 
 ```
 
@@ -122,16 +119,13 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams('TEAM_01')/Team2
 ```
 
 > ### Note:  
-> See the chapter about reading an entity for further details about how to create an entity resource instance.
-
-> ### Note:  
-> The target resource can then be used to create e.g. a READ request. See the corresponding chapter on how to create a READ request for further details.
+> You can use the target resource to create a READ request.
 
 
 
 ### Example 3
 
-You want to navigate to an optional \(i.e. zero-to-one navigation\) entity via Navigation Property “Employee2Manager”:
+Navigate to an optional \(for example. zero-to-one navigation\) entity using the Navigation Property “***Employee2Manager***”:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees('0004')/Employee2Manager
@@ -141,7 +135,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees('0004')/Empl
 
 ### Step-by-step
 
-**Step 1:** Create the target resource on the entity resource by using the **internal** name of the navigation property \(“EMPLOYEE\_2\_MANAGER”\):
+**Step 1:** Create the target resource on the entity resource using the **internal** name of the navigation property \(“***EMPLOYEE\_2\_MANAGER***”\):
 
 ```
 
@@ -152,8 +146,14 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees('0004')/Empl
 ```
 
 > ### Note:  
-> See the chapter about reading an entity for further details about how to create an entity resource instance.
+> You can use the target resource to create an optional READ request.
 
-> ### Note:  
-> The target resource can then be used to create e.g. an optional READ request. See the corresponding chapter on how to create an optional READ request for further details.
+**Related Information**  
+
+
+[OData Request: Read Entity](odata-request-read-entity-9d7dde4.md "To create an OData request to read an entity in the Client Proxy instance.")
+
+
+
+[OData Request: Create Entity](odata-request-create-entity-56be82d.md "Create an entity in the Client Proxy instance with insert entity request.")
 

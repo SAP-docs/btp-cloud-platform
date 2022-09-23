@@ -273,3 +273,8 @@ Learn how to create a destination with SAML assertion authentication to establis
 8.  Choose *Save*.
 
 
+**Related Information**  
+
+
+[Creating a Destination to the ABAP System for SAP Business Application Studio](creating-a-destination-to-the-abap-system-for-sap-business-application-studio-e597948.md "Learn how to set up a destination in the same Cloud Foundry subaccount in which you have subscribed to SAP Business Application Studio to establish communication between the ABAP environment and SAP Business Application Studio.")
+

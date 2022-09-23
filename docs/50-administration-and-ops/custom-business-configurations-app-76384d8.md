@@ -22,7 +22,7 @@ The following business catalog needs to be assigned to your user to access the a
 
 The business catalog is contained in the business role template: `SAP_BR_BPC_EXPERT`.
 
-To view the registered business configurations in the app, you need to be assigned the necessary authorizations regarding the service of the business configuration. You require a business configuration maintenance object, as described here: [Business Configuration Maintenance Object](../30-development/business-configuration-maintenance-object-61159c4.md) \> **Provide Authorizations for a Business Configuration**.
+To view the registered business configurations in the app, you need to be assigned the necessary authorizations regarding the service of the business configuration. You require a business configuration maintenance object, as described here: [Business Configuration Maintenance Object](business-configuration-maintenance-object-61159c4.md) \> **Provide Authorizations for a Business Configuration**.
 
 
 

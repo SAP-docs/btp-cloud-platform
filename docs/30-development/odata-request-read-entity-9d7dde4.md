@@ -2,7 +2,7 @@
 
 # OData Request: Read Entity
 
-You want to execute an OData request to read an entity using the Client Proxy.
+To create an OData request to read an entity in the Client Proxy instance.
 
 
 
@@ -12,23 +12,19 @@ You want to execute an OData request to read an entity using the Client Proxy.
 
 
 
-### OData V2
+### OData Version 2
 
-See also: [\[MS-ODATA\]: Open Data Protocol \(OData\)](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-odata)
+See also: [\[MS-ODATA\]: Open Data Protocol \(OData\)](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-odata).
 
-Entities are instances of Entity Types \(for example, Customer or Employee\) which are richly structured records with a key. The structure of an Entity Type is provided by its Properties. An entity key is formed from a subset of the properties of the Entity Type. The key \(for example, CustomerId or EmployeeId\) is a fundamental concept to uniquely identify and persist entity instances and to allow entity instances to participate in relationships or associations. Entities are grouped in Entity Sets; for example, the EntitySet Customers is a set of Customer instances.
-
-A RetrieveEntity Request is used by a client to retrieve an AtomPub Entry Resource, as specified in [RFC5023](https://www.rfc-editor.org/rfc/rfc5023.txt), and potentially related entities that map to EntityType instances \(…\)
+A client uses a RetrieveEntity request to retrieve an AtomPub Entry Resource. See [RFC5023: Atom Publishing Protocol](https://www.rfc-editor.org/rfc/rfc5023.txt) for more information on the Atom Publishing Protocol.
 
 
 
-### OData V4
+### OData Version 4
 
-See also: [OData Version 4.01. Part 1: Protocol](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html)
+See also: [OData Version 4.01. Part 1: Protocol](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html).
 
-Entities are instances of entity types \(e.g. Customer, Employee, etc.\). Entity types are named structured types with a key. They define the named properties and relationships of an entity. Entity types may derive by single inheritance from other entity types. The key of an entity type is formed from a subset of the primitive properties \(e.g. CustomerId, OrderId, LineId, etc.\) of the entity type.
-
-OData services support requests for data via HTTP GET requests. The path of the URL specifies the target of the request \(for example; the collection of entities, entity, navigation property, structural property, or operation\).
+OData services support requests for data using HTTP GET requests. The URL path includes the request target \(for example, the collection of entities, entity, navigation property, structural property, or operation\).
 
 
 
@@ -38,9 +34,9 @@ OData services support requests for data via HTTP GET requests. The path of the 
 
 
 
-### V4
+### Version 4
 
-Get the employee with id ‘007’ of entity set “Employees”
+Get the employee with id ‘***007***' from the “***Employees***” entity set.
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘007’)
@@ -48,9 +44,9 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘007’)
 
 
 
-### V2
+### Version 2
 
-Get the employee with id ‘007’ of entity set “Employees”
+Get the employee with id ‘***007***’ from the “***Employees***” entity set.
 
 ```
 GET /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Employees(‘007’)
@@ -60,24 +56,24 @@ GET /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Employees(‘007’)
 
 <a name="loio9d7dde4d63784eb898a02efd3ee486a6__section_yh5_fjf_ttb"/>
 
-## How-To
+## OData Request: Read Entity
 
 
 
 ### Overview
 
 > ### Note:  
-> As the coding itself is independent of the OData version, we will just present one general example on how to create a READ request on an entity.
+> As the coding is independent of the OData version, we're presenting a general example on how to create a ***READ*** request on an entity.
 
-Starting point for a GET request on an entity is the Client Proxy instance. There, it is possible to create an entity resource based on an entity list resource, which can then be used to create a read request.
+The starting point for a ***GET*** entity request is the Client Proxy instance. You can create an entity resource based on an entity list resource, which can use create an entity resource based on an entity list resource. Use the entity resource to create a read request.
 
-Executing the read request finally provides the read response, which can return the business data of the READ entity request.
+Running the read request provides a response, which can return the business data of the ***READ*** entity request.
 
 
 
 ### Example
 
-You want to fetch the employee with key “id = ‘007’” of the V4 entity set ‘Employees’:
+From the Version 4 entity set ‘***Employees’***, fetch the employee with key id ‘***007’***:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘007’)
@@ -100,9 +96,11 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘007’)
 
 
 
-### Step-by-step
+### Steps
 
-**Step 1:** Creation of the entity resource for the employee with the key “Id=‘007’” of entity set ‘Employees’ \(with **internal** name ‘EMPLOYEES’\). Type “ty\_s\_employee\_key” in interface /iwbep/if\_v4\_tea\_busi\_types” is a structure containing the key property “id”:
+To run an OData request to read an entity:
+
+**Step 1:** Create the entity resource for the employee with the key ***Id***=‘***007***' from the entity set ‘Employees’ \(with **internal** name ‘***EMPLOYEES’***\). Use type ***ty\_s\_employee\_key*** in interface ***/iwbep/if\_v4\_tea\_busi\_types*** that includes the key property ***id***:
 
 ```
 
@@ -112,7 +110,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘007’)
   lo_entity_resource = lo_client_proxy->create_resource_for_entity_set( 'EMPLOYEES')->navigate_with_key( VALUE /iwbep/if_v4_tea_busi_types=>ty_s_employee_key( id = ‘007’) ).
 ```
 
-**Step 2:** Now you create the read request instance. This is done on the entity resource:
+**Step 2:** Create the read request instance on the entity resource:
 
 ```
 
@@ -122,7 +120,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘007’)
   lo_read_request = lo_entity_resource->create_request( ).
 ```
 
-**Step 3:** You execute the read request and gain the read response instance:
+**Step 3:** Execute the read request and get the read response instance:
 
 ```
 
@@ -132,7 +130,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘007’)
   lo_read_response = lo_read_request->execute( ).
 ```
 
-**Step 4:** You fetch the business data from the response object:
+**Step 4:** Fetch the business data from the response object:
 
 ```
 
@@ -144,5 +142,10 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘007’)
 ```
 
 > ### Note:  
-> When using the V4 local client proxy, the business data received from the \(local consumption\) response will not be re-converted for outbound processing.
+> When you're using the Version 4 local client proxy, the business data you receive from the local consumption response isn't converted again for outbound processing.
+
+**Related Information**  
+
+
+
 

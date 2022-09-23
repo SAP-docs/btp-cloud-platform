@@ -171,9 +171,16 @@ Default: 24192000 seconds \(28 days\)
 </tr>
 </table>
 
+On request, SAP Authorization and Trust Management service issues access and refresh tokens.
+
+With a valid access token, you can access a protected resource. Once an access token expires, you can get new access tokens with a refresh token. Once the refresh token expires, you must reauthenticate and request new access and refresh tokens.
+
+> ### Recommendation:  
+> Relaxing the token policy means that users reauthenticate less. However, increasing the token validity also means that if a malicious user manages to steal a token, that malicious user has access until the token expires. Keep token validity as short as possible, but not less than 30 minutes.
+
 To change token validity, use one of the following methods:
 
--   Change the values of the *token-validity* or *refresh-token-validity* parameters in the application security descriptor \(`xs-security.json`\).
+-   To target a specific instance of the service, change the values of the *token-validity* or *refresh-token-validity* parameters in the application security descriptor \(`xs-security.json`\).
 
     ```json
     "oauth2-configuration": {
@@ -184,9 +191,12 @@ To change token validity, use one of the following methods:
     }
     ```
 
+    > ### Note:  
+    > This change applies to applications, which consume or subscribe to this instance. These values override the values set for the subaccount.
+
     For more information about the application security descriptor, see [Application Security Descriptor Configuration Syntax](../30-development/application-security-descriptor-configuration-syntax-517895a.md).
 
--   Access the Security Settings API.
+-   To target the subaccount in general, access the Security Settings API.
 
     ```json
     "tokenPolicySettings": {
@@ -196,6 +206,9 @@ To change token validity, use one of the following methods:
       …
     }
     ```
+
+    > ### Note:  
+    > This change applies to all service instances in the subaccount that haven't set a specific value in the application security descriptor \(`xs-security.json`\).
 
     For more information, see [Security Settings API](https://api.sap.com/api/SecuritySettingsAPI/resource) on *SAP API Business Hub*.
 

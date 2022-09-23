@@ -2,7 +2,7 @@
 
 # OData Request: Custom Query Option
 
-You want to execute an OData request using a custom query option \(i.e. a query option that is none of the OData-defined system query option\) within the Client Proxy.
+Create an OData request using a custom query option that isn't one of the OData-defined system query options in the Client Proxy instance.
 
 
 
@@ -12,19 +12,22 @@ You want to execute an OData request using a custom query option \(i.e. a query 
 
 
 
-### OData V2
+### OData Version 2
 
-See also: [\[MS-ODATA\]: Open Data Protocol \(OData\)](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-odata)
+See also: [\[MS-ODATA\]: Open Data Protocol \(OData\)](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-odata).
 
-Custom Query Options provide an extensible mechanism for data service-specific information to be placed in a data service URI query string.
+Custom Query Options enable you to include data service-specific information in a data service URI query string.
 
 
 
-### OData V4
+### OData Version 4
 
-See also: [OData Version 4.01. Part 1: Protocol](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html)
+See also: [OData Version 4.01. Part 1: Protocol](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html).
 
-Services may support additional custom query options not defined in the OData specification, but they MUST NOT begin with the "$" or "@" character and MUST NOT conflict with any OData-defined system query options defined in the OData version supported by the service.
+Services can support additional custom query options that are not defined in the OData specification. The custom query options:
+
+-   can't begin with the "***$***" or "***@***" character
+-   can't conflict with any OData-defined system query options defined in the OData version that the service supports
 
 
 
@@ -34,9 +37,9 @@ Services may support additional custom query options not defined in the OData sp
 
 
 
-### V4
+### Version 4
 
-Use custom query option “sap-statistics”:
+Use custom query option “***sap-statistics***”:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams?sap-statistics=true
@@ -44,9 +47,9 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams?sap-statistics=t
 
 
 
-### V2
+### Version 2
 
-Use custom query option “sap-statistics”:
+Use custom query option “***sap-statistics***”:
 
 ```
 GET /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Prices?sap-statistics=true
@@ -56,22 +59,22 @@ GET /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Prices?sap-statistics=true
 
 <a name="loio070b75a800854687b774b3c8ddb85b66__section_h5p_pff_rtb"/>
 
-## How-To
+## Custom Query Option Request
 
 
 
 ### Overview
 
 > ### Note:  
-> As the coding itself is independent of the OData version, we will just present general examples on how to use $count.
+> As the coding is independent of the OData version, we're presenting a general example on how to use ***$count***.
 
-Starting point for a request with a custom query option is an entity list read request. Kindly check e.g. the chapter about reading an entity list on how to create an entity list read request instance. On the entity list read request, it is possible to set a custom query option.
+The starting point for a custom query option request is an entity list read request. You can set a custom query option on the entity list read request.
 
 
 
 ### Example
 
-You want to use custom query option “sap-statistics”
+Use custom query option “***sap-statistics***”
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams?sap-statistics=true
@@ -91,7 +94,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams?sap-statistics=t
 
 
 
-### Step-by-step
+### Steps
 
 **Step 1:** Set the custom query option directly at the request instance:
 
@@ -102,10 +105,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams?sap-statistics=t
   lo_read_list_request->set_custom_query_options( VALUE #( ( name = ‘sap-statistics’ value = ‘true’ ) ) ).
 ```
 
-> ### Note:  
-> See the chapter about reading an entity list for further details about how to create a read list request instance.
-
-**Step 2:** Execute the read request and fetch the sap statistics result from the HTTP client instance:
+**Step 2:** Run the read request and fetch the sap statistics result from the HTTP client instance:
 
 ```
 
@@ -118,7 +118,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams?sap-statistics=t
 ```
 
 > ### Note:  
-> lo\_http\_client must be the **same** HTTP client instance that was used for creating the Client Proxy \(see the chapter about how to create a Client Proxy instance.
+> ***lo\_http\_client*** must be the **same** HTTP client instance as the one used for creating the Client Proxy.
 
 
 
@@ -126,8 +126,15 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams?sap-statistics=t
 
 ## Constraints
 
--   Independently of the OData version of the client proxy, input MUST conform with the \(stricter\) OData v4 specification
+-   Regardless of the Client Proxy OData version, input MUST conform with the more stricter OData Version 4 specification.
 
--   Custom Query Options can only be used for remote consumption; they are not supported in local consumption scenarios
+-   You can only use custom query options for remote consumption. Custom query options are not supported in local consumption scenarios.
 
+
+**Related Information**  
+
+
+
+
+[Client Proxy Instance Types](client-proxy-instance-types-079517f.md "Create remote and local Client Proxy instances in OData Version 2 or Version 4.")
 

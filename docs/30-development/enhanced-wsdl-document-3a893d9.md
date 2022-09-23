@@ -13,7 +13,7 @@ To encode ABAP properties into the WSDL, the namespace `http://sap.com/abap/prox
 -   Description
 -   ABAP type
 
-With the ABAP type, you can control the mapping between XSD and ABAP types. The property `availableTypes` displays all applicable ABAP types in this case. To change the ABAP type, copy and paste one of the listed types into the type attribute of the given element. Afterwars, reactivate the SRVC to apply the changes.
+With the ABAP type, you can control the mapping between XSD and ABAP types. The property `availableTypes` displays all applicable ABAP types in this case. To change the ABAP type, copy and paste one of the listed types into the type attribute of the given element. Afterwards, reactivate the SRVC to apply the changes.
 
 <a name="loio3a893d98029b429da160ac133a9f7232__table_igc_jnw_dw"/>Summary of Additional Nodes and Their Technical Types
 

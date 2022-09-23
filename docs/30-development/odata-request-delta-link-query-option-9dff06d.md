@@ -2,7 +2,7 @@
 
 # OData Request: Delta Link Query Option
 
-You want to execute an OData request including query option $deltatoken via the Client Proxy.
+Create an OData request with $delta token query option in the Client Proxy instance.
 
 
 
@@ -12,13 +12,13 @@ You want to execute an OData request including query option $deltatoken via the 
 
 
 
-### OData V4
+### OData Version 4
 
-See also: [OData Version 4.01. Part 1: Protocol](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html)
+See also: [OData Version 4.01. Part 1: Protocol](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html).
 
-Delta links are opaque, service-generated links that the client uses to retrieve subsequent changes to a result.
+Delta links are service-generated links the client uses to access newly created, updated, or deleted entities without a full read of the target resource with every request.
 
-Delta links are based on a defining query that describes the set of results for which changes are being tracked; for example, the request that generated the results containing the delta link. The delta link encodes the collection of entities for which changes are being tracked, along with a starting point from which to track changes.
+Delta links are based on a defining query that tracks the changes of the set of results. For example, the request that generated the results containing the delta link. The delta link encodes the entity collection that tracks the changes. Also, it includes a starting point to begin track changes.
 
 
 
@@ -28,7 +28,7 @@ Delta links are based on a defining query that describes the set of results for 
 
 
 
-### V4
+### Version 4
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_tech/0001/PagedDeltaEntities?$deltatoken=20170612000000
@@ -38,21 +38,21 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_tech/0001/PagedDeltaEntities?$de
 
 <a name="loio9dff06d2e0e14afba17d56953d1ad9a6__section_rr4_4sg_rtb"/>
 
-## How-To
+## Delta Link Query Request
 
 
 
 ### Overview
 
-Starting point for using the delta link within the Client Proxy is either a Client Proxy instance or a read list request instance – depending on your use case. Kindly refer to the corresponding chapters for further details on how to create a Client Proxy or a read list request instance.
+The starting point for a delta link in the Client Proxy instance is either a Client Proxy instance or a read list request instance \(depending on your use case\).
 
 
 
-### Example 1 – Creating a new delta link
+### Example 1: Create a new delta link
 
-You have executed a read list request using the Client Proxy and want to save a delta link for this response, in order to be able to determine the changes to the current response for future requests:
+You ran a read list request in the Client Proxy instance and you want to save a delta link for this response, so you can track future changes to the current response:
 
-**Step 1:** You save the current response as delta link \(in this example under the name ‘DELTA\_LINK\_NAME’\):
+**Step 1:** Save the current response as delta link \(in this example under the name ‘***DELTA\_LINK\_NAME***’\):
 
 ```
 
@@ -63,9 +63,9 @@ You have executed a read list request using the Client Proxy and want to save a 
 
 
 
-### Example 2 – Create a delta request from an existing delta link
+### Example 2: Create a delta request from an existing delta link
 
-You have an existing delta link and want to use it to create a corresponding delta request:
+You have an existing delta link and want to use it to create a delta request:
 
 ```
 
@@ -83,9 +83,12 @@ You have an existing delta link and want to use it to create a corresponding del
 
 
 
-### Step-by-step
+### Steps
 
-**Step 1:** You check that a\) the delta link to be used \(here: ‘DELTA\_LINK\_NAME’\) does indeed exist and b\) it can be used to create a delta request. The latter would be false if e.g. the stored delta link was manually changed \(see corresponding section in this chapter\):
+**Step 1:** Check that the delta link:
+
+-   does exist \(in this example, ‘***DELTA\_LINK\_NAME***’\).
+-   can be used to create a delta request. If the stored delta link was manually changed, the delta link can't be used\).
 
 ```
 
@@ -98,9 +101,9 @@ You have an existing delta link and want to use it to create a corresponding del
 ```
 
 > ### Note:  
-> You are only able to find and use delta links created by your own user!
+> You can only find and use delta links that you created.
 
-**Step 2:** You use the stored delta link to create a delta link request instance:
+**Step 2:** Use the stored delta link to create a delta link request instance:
 
 ```
 
@@ -110,7 +113,7 @@ You have an existing delta link and want to use it to create a corresponding del
   lo_delta_read_request = lo_client_proxy->create_request_for_delta( ‘delta_link_name’ ).
 ```
 
-**Step 3:** You execute the delta link request and fetch the corresponding response instance:
+**Step 3:** Run the delta link request and fetch the corresponding response instance:
 
 ```
 
@@ -120,12 +123,9 @@ You have an existing delta link and want to use it to create a corresponding del
   lo_read_list_response = lo_delta_read_request->execute( ).
 ```
 
-> ### Note:  
-> See the corresponding chapter about reading an entity list for more details on how to handle read list response instances.
 
 
-
-### Example 3 – Inject an existing delta link into an existing request
+### Example 3: Insert an existing delta link into an existing request
 
 You have an existing request and want to use it in combination with an existing delta link:
 
@@ -145,9 +145,12 @@ You have an existing request and want to use it in combination with an existing 
 
 
 
-### Step-by-step
+### Steps
 
-**Step 1:** You check that a\) the delta link to be used \(here: ‘DELTA\_LINK\_NAME’\) does indeed exist and b\) it can **not** be used to create a delta request \(if it could be used to create a delta request, you had to use method CREATE\_REQUEST\_FOR\_DELTA, as shown in example 2 above\):
+**Step 1:** Check that the delta link:
+
+-   does exist \(in this example, ‘***DELTA\_LINK\_NAME***’\).
+-   can be used to create a delta request. If it can be used to create a delta request, you use method ***CREATE\_REQUEST\_FOR\_DELTA***, in example 2.
 
 ```
 
@@ -158,9 +161,9 @@ CHECK lo_client_proxy->can_delta_request_be_created( ‘DELTA_LINK_NAME’ ) = a
 ```
 
 > ### Note:  
-> You are only able to find and use delta links created by your own user.
+> You can only find and use delta links that you created.
 
-**Step 2:**You inject the delta link into the existing read list request:
+**Step 2:** Insert the delta link into the existing read list request:
 
 ```
 
@@ -170,10 +173,7 @@ CHECK lo_client_proxy->can_delta_request_be_created( ‘DELTA_LINK_NAME’ ) = a
   lo_read_list_request->use_delta_link( ‘delta_link_name’ ).
 ```
 
-> ### Note:  
-> See the corresponding chapter about reading an entity list for more details about creating and using and entity read list request instance.
-
-**Step 3:** You get the read list response instance by executing the read list request
+**Step 3:** Get the read list response instance using the read list request
 
 ```
 
@@ -184,6 +184,12 @@ CHECK lo_client_proxy->can_delta_request_be_created( ‘DELTA_LINK_NAME’ ) = a
   lo_read_list_response = lo_read_list_request->execute( ).
 ```
 
-> ### Note:  
-> See the corresponding chapter about reading an entity list for more details on how to handle read list response instances.
+**Related Information**  
+
+
+
+
+[OData Request: Read Entity List](odata-request-read-entity-list-b810028.md "Create an OData request to read an entity list (entity collection) in the Client Proxy instance.")
+
+[Client Proxy Instance Types](client-proxy-instance-types-079517f.md "Create remote and local Client Proxy instances in OData Version 2 or Version 4.")
 

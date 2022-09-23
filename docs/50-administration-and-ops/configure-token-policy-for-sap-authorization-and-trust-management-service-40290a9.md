@@ -37,6 +37,14 @@ With a valid access token, you can access a protected resource. Once an access t
     }
     ```
 
+    > ### Note:  
+    > This change applies to all service instances in the subaccount that haven't set a specific value in the application security descriptor \(`xs-security.json`\).
+
     For more information, see [Security Settings API](https://api.sap.com/api/SecuritySettingsAPI/resource) on *SAP API Business Hub*.
 
+
+**Related Information**  
+
+
+[Application Security Descriptor Configuration Syntax](../30-development/application-security-descriptor-configuration-syntax-517895a.md "The syntax required to set the properties and values defined in the xs-security.json application security descriptor file.")
 

@@ -2,5 +2,7 @@
 
 # OData Services
 
-OData Services provide the following:
+The OData Client Proxy is the interface between the client \(consumer of a service\) and the service implementation \(data provisioning\) in the OData service consumption in ABAP. This enables ABAP developers to create OData client coding to run OData requests in your ABAP coding.
+
+OData Services includes these sections:
 

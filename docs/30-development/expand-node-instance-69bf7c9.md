@@ -2,7 +2,7 @@
 
 # Expand Node Instance
 
-In this chapter, we will learn the meaning of a Client Proxy expand node as well as how to create and use a Client Proxy expand node instance.
+An expand node instance causes related entities to be included inline in the response.
 
 
 
@@ -10,13 +10,11 @@ In this chapter, we will learn the meaning of a Client Proxy expand node as well
 
 ## Overview
 
-The`$expand` system query option indicates the related entities and stream values that must be represented inline. Therefore, when reading an entity with a `GET` request, related entities can be requested as well by using the `$expand` statement on a navigation property.
-
-Consider this example: You want to read the data about customer “Alf” and also see his open sales orders \(via navigation property “Customer\_2\_Salesorders”\). This translates to the the following OData example request:
+When reading an entity with a `GET` request, related entities can also be requested using the `$expand` statement on a navigation property. In this example, you want to read the data about customer “Posey” and the open sales orders for this customer \(with navigation property “***Customer\_2\_Salesorders***”\). Here is an example of this OData request:
 
 > ### Sample Code:  
 > ```
-> GET http://host/service/Customers(‘Alf’)?$expand=Customer_2_Salesorders
+> GET http://host/service/Customers(‘Posey’)?$expand=Customer_2_Salesorders
 > ```
 
 
@@ -25,14 +23,12 @@ Consider this example: You want to read the data about customer “Alf” and al
 
 ## Creating an Instance
 
-Within the Client Proxy Framework, an expand expression is described by an expand node instance, which is created directly at the corresponding read request instance.
-
-For more details, see [Request Instance](request-instance-7bda471.md).
+In the Client Proxy Framework, an expand expression is described by an expand node instance. It is created directly in the corresponding read request instance.
 
 > ### Note:  
-> According to the V2 specification \(version June 10, 2011\) complex properties cannot have associations, i.e. they cannot have navigation properties. In this case, navigation properties can be only defined in entity types. In OData V4, a complex property can also have navigation properties defined.
+> In OData Version 2, complex properties can't have associations, such as navigation properties. You can only define navigation properties in entity types. In OData Version 4, you can define navigation properties for a complex property.
 
-An expand node instance is always created on the corresponding [Request Instance](request-instance-7bda471.md). The following request kinds can create an expand node:
+An expand node instance is always created in the corresponding [Request Instance](request-instance-7bda471.md). These request types can be used to create an expand node:
 
 -   read entity
 
@@ -47,7 +43,7 @@ An expand node instance is always created on the corresponding [Request Instance
 
 ## Functionality
 
-The main functionality of expand node instances is to add an expand expression into the underlying read request. Furthermore, it is also possible to set the selected properties of each expand node \(in case not all properties of the expanded entity shall be returned; compare to GET http://host/service/Customers\(‘Alf’\)?$expand=Customer\_2\_Salesorders\($select=Date,Status\)\).
+The expand node instances add an expand expression into the underlying read request. You can also set the selected properties for each expand node. If not all properties of the expanded entity are returned, compare to ***GET http://host/service/Customers\(‘Posey’\)?$expand=Customer\_2\_Salesorders\($select=Date,Status\)***.
 
 
 
@@ -55,5 +51,10 @@ The main functionality of expand node instances is to add an expand expression i
 
 ## Example
 
-Examples on how to create and work with expand nodes are given in the corresponding How-To section in [OData Request: System Query Option $expand](odata-request-system-query-option-expand-215cca8.md).
+For examples of how to create and work with expand nodes, see [$expand Option](expand-option-215cca8.md).
+
+**Related Information**  
+
+
+[Request Instance](request-instance-7bda471.md "A request instance describes the action you want to take on a resource.")
 

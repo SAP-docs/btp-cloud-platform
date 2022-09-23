@@ -2,9 +2,12 @@
 
 # Single Sign-On Configuration JSON File
 
-Use the single sign-on \(SSO\) configuration JSON file to define the assertion consumer services in SAP SuccessFactors for the subaccount in SAP BTP and for each extension application you have deployed in SAP BTP that is extensind the SAP SuccessFactors system functionality.
+Use the single sign-on \(SSO\) configuration JSON file to define the assertion consumer services in SAP SuccessFactors for the subaccount in SAP BTP and for each extension application you have deployed in SAP BTP that is extending the SAP SuccessFactors system functionality.
 
 
+
+> ### Note:  
+> The content of the JSON file must be up to 5120 characters without spaces.
 
 
 <table>
@@ -34,7 +37,7 @@ Description
 </td>
 <td valign="top">
 
-The name of the system you have registered in a global account in SAP BTP
+The name of the system you have registered in the global account in SAP BTP
 
 **Rules/Guidelines**
 

@@ -2,3 +2,5 @@
 
 # Enable HTTP Communication in Your ABAP Code
 
+Learn how to set up and enable HTTP outbound communication.
+

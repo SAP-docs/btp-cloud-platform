@@ -1,8 +1,8 @@
 <!-- loio03bc28091f0d4d6790d45fdbd1e2fbad -->
 
-# Deep Create \(Data Description Node\)
+# Deep Create Data Description Node
 
-In this chapter, we will learn the meaning of a Client Proxy Data Description node as well as how to create and use a Client Proxy Data Description node instance which describes the format of request business data and is therefore needed to perform a deep create.
+In OData Version 4, deep create requests create an entity that includes related entities.
 
 
 
@@ -10,9 +10,7 @@ In this chapter, we will learn the meaning of a Client Proxy Data Description no
 
 ## Overview
 
-The OData V4 spec defines a `“deep create”` \(aka “deep insert”\) as “a request to create an entity that includes related entities, represented using the appropriate inline representation”.
-
-Consider the following example: You want to create a new customer including the first sales order from him. You could either first create the new customer and – as next step – the first sales order or you can – using a deep create – create both at the same time:
+A ***deep create*** is also known as ***deep insert***\). In this example, you want to create a new customer and the first sales order from this customer. You can first create the new customer and then the first sales order or you can use a ***deep create*** to create both at the same time:
 
 ```
 POST http://host/service/Customers
@@ -30,12 +28,12 @@ This request contains the following payload:
          }
 ```
 
-To describe the properties and inlined navigations of the \(deep\) business data for such a request in the context of the Client Proxy, you must use a Data Description node. Plainly speaking, that means that a Data Description node is needed in order to describe the structure of your deep business data to the Client Proxy.
+You must use a Data Description node to describe the properties and inline navigations for deep business data for a request. The Data Description node is necessary to describe the structure of your deep business data to the Client Proxy.
 
-A Data Description node is always created on the underlying create [Request Instance](request-instance-7bda471.md).
+A Data Description node is always created on the corresponding create [Request Instance](request-instance-7bda471.md).
 
 > ### Note:  
-> According to the V2 specification \(version June 10, 2011\) complex properties cannot have associations, i.e. they cannot have navigation properties; navigation properties can be only defined in entity types. In OData V4, a complex property can also have navigation properties defined.
+> In OData Version 2, complex properties can't have associations, such as navigation properties. You can only define navigation properties in entity types. In OData Version 4, you can define navigation properties for a complex property.
 
 
 
@@ -43,7 +41,7 @@ A Data Description node is always created on the underlying create [Request Inst
 
 ## Creating an Instance
 
-A Data Description node instance is always created on the underlying create [Request Instance](request-instance-7bda471.md).
+A Data Description node instance is always created in the corresponding [Request Instance](request-instance-7bda471.md).
 
 
 
@@ -51,7 +49,7 @@ A Data Description node instance is always created on the underlying create [Req
 
 ## Functionality
 
-The main functionality of Data Description node instances is to describe the \(possibly partial\) payload for a deep create request to the Client Proxy. It is therefore mandatory in order to execute any deep create request.
+The Data Description node instances describe the payload for a deep create request to the Client Proxy. This is required to execute any deep create request.
 
 
 
@@ -59,5 +57,10 @@ The main functionality of Data Description node instances is to describe the \(p
 
 ## Example
 
-Examples on how to create and work with Data Description nodes are given in [OData Request: Deep Create](odata-request-deep-create-c892396.md).
+For examples of how to create and work with Data Description nodes, see [OData Request: Deep Create](odata-request-deep-create-c892396.md).
+
+**Related Information**  
+
+
+[OData Request: Deep Create](odata-request-deep-create-c892396.md "Create an OData request to execute a “deep create” (deep insert) in the Client Proxy instance.")
 

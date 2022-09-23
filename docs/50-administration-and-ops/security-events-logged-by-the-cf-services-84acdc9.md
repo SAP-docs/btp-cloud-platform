@@ -539,6 +539,22 @@ SAP HANA Service for SAP BTP in SAP Regions
 <tr>
 <td valign="top">
 
+SAP HTML5 Application Repository service
+
+
+
+</td>
+<td valign="top">
+
+[Auditing and Logging Information](../30-development/auditing-and-logging-information-cb4f958.md)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Leonardo Machine Learning Foundation
 
 

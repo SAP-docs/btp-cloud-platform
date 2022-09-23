@@ -82,107 +82,9 @@ Let’s take a closer look at how to configure a pipeline template for a product
 
     You will now be guided through a series of steps. Please be aware that fields marked with a red asterisk are mandatory and need to be filled out.
 
-3.  **General:**
+3.  **Prepare Syste:**
 
     In this section you can configure a job that will build your product.
-
-
-    <table>
-    <tr>
-    <th valign="top">
-
-    Field
-
-
-    
-    </th>
-    <th valign="top">
-
-    Explanation
-
-
-    
-    </th>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    Job Name:
-
-
-    
-    </td>
-    <td valign="top">
-
-    Choose a name for the job.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    Job Description:
-
-
-    
-    </td>
-    <td valign="top">
-
-    Enter a short text describing the job.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    Build Retention Days:
-
-
-    
-    </td>
-    <td valign="top">
-
-    Enter the maximum number of days until a build is deleted.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    Maximum Number of Builds to Store:
-
-
-    
-    </td>
-    <td valign="top">
-
-    Enter the maximum number of builds to store for this template until the oldest build is deleted.
-
-
-    
-    </td>
-    </tr>
-    </table>
-    
-    Proceed to the next step.
-
-4.  **Clone Repositories:**
-
-    Here you can select the clone strategy \(*CheckoutPull*, *Clone*, *Pull*\) for software components that are relevant for the build of the product version. This influences which steps will be executed to import the repositories. For more information, see [Clone Repositories](https://www.project-piper.io/pipelines/abapEnvironment/stages/cloneRepositories/).
-
-    Select the desired clone strategy from the drop-down menu and proceed to the next step.
-
-5.  **Build:**
-
-    In this step, a system is prepared for the product version build. Per default, the system will be deprovisioned after a successful build has been completed. You can, however, override this in order to perform checks in that system.
-
-    Enter the information needed for the build of the product version.
 
 
     <table>
@@ -458,6 +360,61 @@ Let’s take a closer look at how to configure a pipeline template for a product
     
     </td>
     </tr>
+    </table>
+    
+    Proceed to the next step.
+
+4.  **Clone Repositories:**
+
+    Here you can select the clone strategy \(*CheckoutPull*, *Clone*, *Pull*\) for software components that are relevant for the build of the product version. This influences which steps will be executed to import the repositories. For more information, see [Clone Repositories](https://www.project-piper.io/pipelines/abapEnvironment/stages/cloneRepositories/).
+
+    Select the desired clone strategy from the drop-down menu and proceed to the next step.
+
+5.  **ATC:**
+
+    The ABAP Test Cockpit \(ATC\) can check the software components which will be assembled as part of the product version build. Select whether the ATC stage should be executed and enter the ATC check variant that should be used to check the configured software. Then proceed to the next step.
+
+    > ### Note:  
+    > Created delivery packages for an add-on product version are final, so to fix any errors in these packages, another add-on product version would have to be built. ATC findings should be resolved during development as early as possible, e.g. [during transport release](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/c0d95a9263da476eb5b6ae03225ce7ba.html?version=Cloud) and by using an additional pipeline configured for the [Continuous Testing on SAP BTP, ABAP Environment scenario.](https://www.project-piper.io/scenarios/abapEnvironmentTest/)
+
+6.  **Build:**
+
+    In this step, a system is prepared for the product version build. Per default, the system will be deprovisioned after a successful build has been completed. You can, however, override this in order to perform checks in that system.
+
+    Enter the information needed for the build of the product version.
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Group
+
+
+    
+    </th>
+    <th valign="top">
+
+    Field
+
+
+    
+    </th>
+    <th valign="top">
+
+    Explanation
+
+
+    
+    </th>
+    <th valign="top">
+
+    Remarks
+
+
+    
+    </th>
+    </tr>
     <tr>
     <td valign="top">
 
@@ -490,14 +447,7 @@ Let’s take a closer look at how to configure a pipeline template for a product
     </tr>
     </table>
     
-    Proceed to the next step.
-
-6.  **ATC:**
-
-    The ABAP Test Cockpit \(ATC\) can check the software components which will be assembled as part of the product version build. Select whether the ATC stage should be executed and enter the ATC check variant that should be used to check the configured software. Then proceed to the next step.
-
-    > ### Note:  
-    > Created delivery packages for an add-on product version are final, so to fix any errors in these packages, another add-on product version would have to be built. ATC findings should be resolved during development as early as possible, e.g. [during transport release](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/c0d95a9263da476eb5b6ae03225ce7ba.html?version=Cloud) and by using an additional pipeline configured for the [Continuous Testing on SAP BTP, ABAP Environment scenario.](https://www.project-piper.io/scenarios/abapEnvironmentTest/)
+    Proceed to the next step
 
 7.  **Integration Tests**
 

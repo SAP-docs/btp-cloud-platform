@@ -6,7 +6,7 @@ Get an overview about how to create and deploy an SAP Fiori application to ABAP 
 
 
 
-If you need further assistance with integrating an application into SAP Fiori launchpad, check out the tutorial [Integrate List Report into ABAP Fiori Launchpad](https://developers.sap.com/tutorials/abap-environment-abap-flp.html).
+If you need further assistance with creating and deploying an application, check out the tutorial [**Create an SAP Fiori App and Deploy it to SAP BTP, ABAP Environment**](https://developers.sap.com/tutorials/abap-environment-deploy-cf-production.html).
 
 
 
@@ -34,7 +34,21 @@ If you need further assistance with integrating an application into SAP Fiori la
 ![](images/BAS_Deploy_to_ABAP_14eae97.png)
 
 1.  As a developer user in SAP Business Application Studio, generate an SAP Fiori application. See [Generate an Application](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/db44d45051794d778f1dd50def0fa267.html).
-    1.  Use the destination that you have created for the SAP Business Application studio integration \(`SAP_Business_Application_Studio`\). See [Creating a Destination to the ABAP System for SAP Business Application Studio](../20-getting-started/creating-a-destination-to-the-abap-system-for-sap-business-application-studio-e597948.md).
+    1.  In the *Data Source and Service Selection* section of the Template Wizard, select the following values:
+
+        -   Data source: *Connect to a System*.
+        -   System:
+            -   \(Option 1\) Select the destination that you have created for the SAP Business Application studio integration \(`SAP_Business_Application_Studio`\). See [Creating a Destination to the ABAP System for SAP Business Application Studio](../20-getting-started/creating-a-destination-to-the-abap-system-for-sap-business-application-studio-e597948.md).
+            -   \(Option 2\) Select *ABAP Environment on SAP Business Technology Platform*.
+
+                From the ABAP environment drop-down menu, choose a service instance.
+
+                > ### Note:  
+                > You have to log on to your Cloud Foundry space by executing command `cf login` in the terminal or by navigating to *View* \> *Find Command* \> *CF: Login to Cloud Foundry*. When you're prompted to enter the API endpoint, org name, and space, you can navigate to your subaccount in the SAP BTP cockpit, where you can find this information.
+
+
+        -   Continue with choosing a service.
+
     2.  Add a deployment configuration. See section *Add deployment configuration \> ABAP system* in [Additional Configuration](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/9bea64e63b824261932d90037ce3c5ae.html).
 
         If you want to create your deployment configuration later, see [Generate Deployment Configuration ABAP](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/c06b9cbb3f3641aabfe3a5d199e855a0.html).

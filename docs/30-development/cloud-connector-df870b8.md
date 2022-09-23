@@ -2,7 +2,7 @@
 
 # Cloud Connector
 
-The Cloud Connector serves as a link between SAP BTP applications and on-premise systems.
+The Cloud Connector serves as a link between SAP BTP applications and on-premise systems. In the Cloud Connector, the subaccount of the ABAP system is connected so that the Cloud Connector can be used within a communication system or destination in the subaccount.
 
 It provides an easy setup with a clear configuration of the systems that are exposed to SAP BTP.
 

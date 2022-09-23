@@ -76,6 +76,9 @@ When you delete the SAP SuccessFactors Extensibility service instance of plan *s
 
     5.  To configure the assertion consumer service of the subaccount and the respective applications, specify a JSON file or specify parameters in the JSON format. Choose *Next*.
 
+        > ### Note:  
+        > The content of the JSON file must be up to 5120 characters without spaces.
+
         For more information about the structure of the JSON file, see [Single Sign-On Configuration JSON File](single-sign-on-configuration-json-file-5ec1e97.md).
 
     6.  Choose *Create*.

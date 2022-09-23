@@ -10,7 +10,7 @@ With the Web services SOAP header protocol, you can programmatically add custom 
 
 ## Context
 
-Some services can require to set specific XML elements in the SOAP header. To add such custom elements, you can use method `add_soap_header_element`.
+Some services can require setting specific XML elements in the SOAP header. To add such custom elements, you can use method `add_soap_header_element`.
 
 
 

@@ -51,5 +51,5 @@ There are no `SM59`-managed destinations \(destinations created via SAP transact
 **Related Information**  
 
 
-[Enable HTTP Communication in Your ABAP Code](enable-http-communication-in-your-abap-code-cef1ada.md "")
+[Enable HTTP Communication in Your ABAP Code](enable-http-communication-in-your-abap-code-cef1ada.md "Learn how to set up and enable HTTP outbound communication.")
 

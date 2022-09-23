@@ -30,7 +30,7 @@ The SAP Fiori UI is deployed in ABAP language version `ABAP for Cloud Developmen
 > ### Restriction:  
 > Only OData services from your custom service binding are supported.
 > 
-> API services are not supported. They are released for external consumption on [SAP API Business Hub](http://api.sap.com).
+> API services on [SAP API Business Hub](http://api.sap.com) are not supported. They are released for external consumption only.
 
 To discover the available OData services or run the application in preview mode, business catalog `SAP_CORE_BC_EXT_TST` has to be assigned to you. To deploy the application, business catalog `SAP_A4C_BC_DEV_UID_PC` needs to be assigned to you. Both business catalogs are contained in business role template `SAP_BR_DEVELOPER`.
 

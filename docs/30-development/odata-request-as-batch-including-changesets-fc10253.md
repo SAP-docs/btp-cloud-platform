@@ -2,7 +2,7 @@
 
 # OData Request as Batch Including Changesets
 
-You want to execute an OData request as $batch including changesets using the Client Proxy.
+Create an $batch request, including changesets in the Client Proxy instance.
 
 
 
@@ -12,25 +12,31 @@ You want to execute an OData request as $batch including changesets using the Cl
 
 
 
-### OData V2
+### OData Version 2
 
-See also: [\[MS-ODATA\]: Open Data Protocol \(OData\)](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-odata)
+See also: [\[MS-ODATA\]: Open Data Protocol \(OData\)](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-odata).
 
-\(…\) use cases exist where it is beneficial to enable a client of a data service to "batch" up a group of requests and send that Batch to the data service in a single HTTP request. This section defines a Batch Request type which reduces the number of roundtrips to a data service for applications that need to make numerous requests and a ChangeSet syntax as a way to logically group a set of requests into a single unit within a batch.
+A ***batch*** request is a single standard HTTP request that includes multiple application requests. Within that main HTTP request, each of the parts contains a nested HTTP request. $batch request is useful to group multiple requests and sends a batch to the data service in a single HTTP request. This section explains how a Batch Request works using ChangeSet syntax to logically group requests into a single value in a batch.
 
 
 
-### OData V4
+### OData Version 4
 
-See also: [OData Version 4.01. Part 1: Protocol](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html)
+See also: [OData Version 4.01. Part 1: Protocol](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html).
 
-Batch requests allow grouping multiple individual requests into a single HTTP request payload. An individual request in the context of a batch request is a Metadata Request, Data Request, Data Modification Request, Action invocation request, or Function invocation request.
+***Batch*** requests group multiple individual requests into a single HTTP request payload. An individual request in a ***batch*** request is one of the following:
 
-Batch requests are submitted as a single HTTP POST request to the batch endpoint of a service, located at the URL $batch relative to the service root.
+-   Metadata request
+-   Data request
+-   Data modification request
+-   Action invocation request
+-   Function invocation request
 
-Individual requests within a batch request are evaluated according to the same semantics used when the request appears outside the context of a batch request.
+***Batch*** requests are sent as a single HTTP POST request to the ***batch*** endpoint of a service in the URL ***$batch*** that is relative to the service root.
 
-In the Multipart format, data modification requests or action invocation requests may be grouped as part of an atomic change set. Operations outside the change set are executed sequentially, while operations within the change set may be executed in any order.
+Individual requests in a batch request are evaluated according to the same semantics that are used when the request isn't part of a ***batch*** request.
+
+In the Multipart format, data modification or action invocation requests can be grouped as part of an atomic change set. Operations outside the change set are executed sequentially. Operations within the change set are executed in any order.
 
 
 
@@ -40,21 +46,22 @@ In the Multipart format, data modification requests or action invocation request
 
 
 
-### V4
+### Version 4
 
-Get all entities of entity set “EMPLOYEES” with Id = ‘1’ and execute the Action Import “ChangeTeamBudgetByID”:
+Get all entities of entity set “***EMPLOYEES***” with Id = ‘***1***’ and execute the Action Import “***ChangeTeamBudgetByID***”:
 
 ```
 POST /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0001/$batch
 ```
 
-```
-
 With request body
+
+```
 
 --batch
 Content-Type: application/http
 Content-Transfer-Encoding: binary
+
 GET EMPLOYEES?$filter=ID%20eq%20%271%27 HTTP/1.1
 
 --batch 
@@ -78,18 +85,17 @@ Content-Type: application/json
 
 
 
-### V2
+### Version 2
 
-Update two entities of entity set ‘Conversions’
+Update two entities of entity set ‘***Conversions’***
 
 ```
 POST /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/$batch
 ```
 
-```
-
-
 With request body
+
+```
 
 --batch
 Content-Type: multipart/mixed; boundary=changeset
@@ -148,30 +154,30 @@ Content-Type: application/json
 
 <a name="loiofc1025313d534d2a95afc6b117e85d1d__section_zf3_rcg_ptb"/>
 
-## How-To
+## Batch with Changesets Request
 
 
 
 ### Overview
 
-**Note:** As the coding itself is independent of the OData version, we will just present one general example on how to create a $batch request including changesets.
+> ### Note:  
+> As the coding is independent of the OData version, we're presenting a general example on how to create a ***BATCH*** request on an entity.
 
-Starting point for a $batch request is the Client Proxy instance. There, it is possible to create a $batch request, which can then be used to create a changeset request.
+The starting point for a ***$batch*** request is the Client Proxy instance. It's possible to create a ***$batch*** request that you can use to create a changeset request.
 
 
 
 ### Example
 
-You want to get all entities of entity set “Employees” and create a new entity in entity set “Teams”:
+Get all entities of entity set “***Employees***” and create a new entity in entity set “***Teams***”:
 
 ```
 POST /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/$batch
 ```
 
-```
-
-
 With request body
+
+```
 
 --batch
 Content-Type: application/http
@@ -199,15 +205,20 @@ Content-Type: application/json
 --change_set_1-- 
 --batch--
 
-  DATA: lo_client_proxy      TYPE REF TO /iwbep/if_cp_client_proxy,
-        lo_read_request      TYPE REF TO /iwbep/if_cp_request_read_list,
-        lo_read_response     TYPE REF TO /iwbep/if_cp_response_read_lst,
-        lo_create_request    TYPE REF TO /iwbep/if_cp_request_create,
-        lo_create_response   TYPE REF TO /iwbep/if_cp_response_create,
-        lo_batch_request     TYPE REF TO /iwbep/if_cp_request_batch,
-        lo_changeset_request TYPE REF TO /iwbep/if_cp_request_changeset,
-        lt_employee          TYPE STANDARD TABLE OF /iwbep/s_v4_tea_employee,
-        ls_team              TYPE /iwbep/s_v4_tea_team.
+ 
+```
+
+```
+
+DATA:	lo_client_proxy      TYPE REF TO /iwbep/if_cp_client_proxy,
+         lo_read_request      TYPE REF TO /iwbep/if_cp_request_read_list,
+         lo_read_response     TYPE REF TO /iwbep/if_cp_response_read_lst,
+         lo_create_request    TYPE REF TO /iwbep/if_cp_request_create,
+         lo_create_response   TYPE REF TO /iwbep/if_cp_response_create,
+         lo_batch_request     TYPE REF TO /iwbep/if_cp_request_batch,
+         lo_changeset_request TYPE REF TO /iwbep/if_cp_request_changeset,
+         lt_employee          TYPE STANDARD TABLE OF /iwbep/s_v4_tea_employee,ls_team              
+		 TYPE /iwbep/s_v4_tea_team.
 
 
   lo_batch_request = lo_client_proxy->create_request_for_batch( ).
@@ -234,99 +245,105 @@ Content-Type: application/json
 
 
 
-### Step-by-step
+### Steps
 
-**Step 1:** You create the $batch request at the client proxy instance:
-
-```
-
-  DATA: lo_client_proxy  TYPE REF TO /iwbep/if_cp_client_proxy,
-        lo_batch_request TYPE REF TO /iwbep/if_cp_request_batch.
-
-  lo_batch_request = lo_client_proxy->create_request_for_batch( ).
-```
-
-**Step 2:** Now you create the changeset request using the $batch request instance:
+**Step 1:** Create the ***$batch*** request at the client proxy instance:
 
 ```
 
-  DATA: lo_batch_request     TYPE REF TO /iwbep/if_cp_request_batch,
-        lo_changeset_request TYPE REF TO /iwbep/if_cp_request_changeset.
+DATA:	lo_client_proxy  TYPE REF TO /iwbep/if_cp_client_proxy,
+		 lo_batch_request TYPE REF TO /iwbep/if_cp_request_batch.
 
-  lo_changeset_request = lo_batch_request->create_request_for_changeset( ).
+		 lo_batch_request = lo_client_proxy->create_request_for_batch( ).
 ```
 
-**Step 3:** You add the CREATE request into the changeset request:
-
-```
-
-  DATA: lo_create_request    TYPE REF TO /iwbep/if_cp_request_create,
-        lo_changeset_request TYPE REF TO /iwbep/if_cp_request_changeset.
-
-  lo_changeset_request->add_request( lo_create_request ).
-```
-
-> ### Note:  
-> See the corresponding chapter on how to create a CREATE entity request.
-
-**Step 4:** Add both the READ as well as the changeset request into the $batch request; then, execute the $batch request:
+**Step 2:** Create the changeset request using the ***$batch*** request instance:
 
 ```
 
-  DATA: lo_read_request      TYPE REF TO /iwbep/if_cp_request_read_list,
-        lo_batch_request     TYPE REF TO /iwbep/if_cp_request_batch,
-        lo_changeset_request TYPE REF TO /iwbep/if_cp_request_changeset.
+DATA:	lo_batch_request     TYPE REF TO /iwbep/if_cp_request_batch,
+		 lo_changeset_request TYPE REF TO /iwbep/if_cp_request_changeset.
 
-  lo_batch_request->add_request( lo_read_request ).
-  lo_batch_request->add_request( lo_changeset_request ).
-  lo_batch_request->execute( ).
+  	   lo_changeset_request = lo_batch_request->create_request_for_changeset( ).
+```
+
+**Step 3:** Add the ***CREATE*** request to the changeset request:
 
 ```
 
-> ### Note:  
-> See the corresponding chapter on how to create a READ entity list request.
+DATA:	lo_create_request    TYPE REF TO /iwbep/if_cp_request_create,
+         lo_changeset_request TYPE REF TO /iwbep/if_cp_request_changeset.
 
-**Step 5:** Check the 4 requests for successful execution \(this step is optional\):
+  	   lo_changeset_request->add_request( lo_create_request ).
+```
+
+**Step 4:** Add both the ***READ*** and the ***change\_set*** request into the ***$batch*** request. Run the ***$batch***request:
 
 ```
 
-  DATA: lo_read_request      TYPE REF TO /iwbep/if_cp_request_read_list,
-        lo_create_request    TYPE REF TO /iwbep/if_cp_request_create,
-        lo_batch_request     TYPE REF TO /iwbep/if_cp_request_batch,
-        lo_changeset_request TYPE REF TO /iwbep/if_cp_request_changeset.
+DATA:	lo_read_request      TYPE REF TO /iwbep/if_cp_request_read_list,
+         lo_batch_request     TYPE REF TO /iwbep/if_cp_request_batch,
+         lo_changeset_request TYPE REF TO /iwbep/if_cp_request_changeset.
+
+		 lo_batch_request->add_request( lo_read_request ).
+		 lo_batch_request->add_request( lo_changeset_request ). 
+		 lo_batch_request->execute( ).
+
+```
+
+**Step 5:** Check that the four requests ran successfully. \(optional\):
+
+```
+
+DATA:	lo_read_request      TYPE REF TO /iwbep/if_cp_request_read_list,
+         lo_create_request    TYPE REF TO /iwbep/if_cp_request_create,
+         lo_batch_request     TYPE REF TO /iwbep/if_cp_request_batch,
+         lo_changeset_request TYPE REF TO /iwbep/if_cp_request_changeset.
 
 
-  lo_batch_request->check_execution( ).
-  lo_changeset_request->check_excecution( ).
-  lo_read_request->check_execution( ).
-  lo_create_request->check_execution( ).
+  	   lo_batch_request->check_execution( ).
+  	   lo_changeset_request->check_excecution( ).
+		 lo_read_request->check_execution( ).
+	     lo_create_request->check_execution( ).
 
 ```
 
 > ### Note:  
-> If the exception was unsuccessful, CHECK\_EXECUTION will raise an exception. See the corresponding chapter about execution handling on how to properly react in such a case.
+> If the exception didn't run successfully, ***CHECK\_EXECUTION*** raises an exception. See [Handling Exceptions](handling-exceptions-896d90e.md) for more information.
 
-**Step 6:** Get the READ response instance via the READ request instance and use it to fetch the corresponding business data:
-
-```
-
-  DATA: lo_read_request  TYPE REF TO /iwbep/if_cp_request_read_list,
-        lo_read_response TYPE REF TO /iwbep/if_cp_response_read_lst,
-        lt_employee      TYPE STANDARD TABLE OF /iwbep/s_v4_tea_employee.
-
-  lo_read_response = lo_read_request->get_response( ).
-  lo_read_response->get_business_data( IMPORTING et_business_data = lt_employee ).
-```
-
-**Step 7:** Get the CREATE response instance via the CREATE request instance and use it to fetch the corresponding business data:
+**Step 6:** Get the ***READ*** response instance using the ***READ*** request instance and use it to fetch the corresponding business data:
 
 ```
 
-  DATA: lo_create_request  TYPE REF TO /iwbep/if_cp_request_create,
-        lo_create_response TYPE REF TO /iwbep/if_cp_response_create,
-        ls_team            TYPE /iwbep/s_v4_tea_team.
+DATA:	lo_read_request  TYPE REF TO /iwbep/if_cp_request_read_list,
+		 lo_read_response TYPE REF TO /iwbep/if_cp_response_read_lst, lt_employee      
+		 TYPE STANDARD TABLE OF /iwbep/s_v4_tea_employee.
 
-  lo_create_response = lo_create_request->get_response( ).
-  lo_create_response->get_business_data( IMPORTING es_business_data = ls_team ).
+		 lo_read_response = lo_read_request->get_response( ).
+		 lo_read_response->get_business_data( IMPORTING et_business_data = lt_employee ).
 ```
+
+**Step 7:** Get the ***CREATE*** response instance using the ***CREATE*** request instance and use it to fetch the corresponding business data:
+
+```
+
+DATA:	lo_create_request  TYPE REF TO /iwbep/if_cp_request_create,
+         lo_create_response TYPE REF TO /iwbep/if_cp_response_create, ls_team            
+		 TYPE /iwbep/s_v4_tea_team.
+
+  	   lo_create_response = lo_create_request->get_response( ).
+  	   lo_create_response->get_business_data( IMPORTING es_business_data = ls_team ).
+```
+
+> ### Note:  
+> When you're using the Version 4 local client proxy, the business data you receive from the local consumption response isn't converted again for outbound processing.
+
+**Related Information**  
+
+
+
+
+[OData Request: Create Entity](odata-request-create-entity-56be82d.md "Create an entity in the Client Proxy instance with insert entity request.")
+
+[OData Request: Read Entity](odata-request-read-entity-9d7dde4.md "To create an OData request to read an entity in the Client Proxy instance.")
 

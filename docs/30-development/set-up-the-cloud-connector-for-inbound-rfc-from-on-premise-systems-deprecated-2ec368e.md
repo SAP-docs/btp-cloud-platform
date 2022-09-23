@@ -64,7 +64,7 @@ In the Cloud Connector, you create a service channel with a local instance numbe
     -   Use connection type 3 \(RFC connection to an ABAP system\).
 
     -   **Do not use load balancing**. As target host, enter the hostname of Cloud Connector. As instance number, enter the local instance number you have used in the configuration of the service channel in the Cloud Connector.
-    -   Provide logon credentials for a *communication* user.
+    -   Provide logon credentials for a communication user, including the client information. The ABAP environment always uses client 100.
     -   Use the connection test in transaction SM59 to verify that the service channel works correctly.
 
     > ### Note:  

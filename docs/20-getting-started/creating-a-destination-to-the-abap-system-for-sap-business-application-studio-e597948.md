@@ -2,6 +2,8 @@
 
 # Creating a Destination to the ABAP System for SAP Business Application Studio
 
+Learn how to set up a destination in the same Cloud Foundry subaccount in which you have subscribed to SAP Business Application Studio to establish communication between the ABAP environment and SAP Business Application Studio.
+
 
 
 <a name="loioe597948462fe45c98c10269bbe3603d6__steps_fn5_mv2_mmb"/>
@@ -288,4 +290,9 @@
 
 8.  Choose *Save*.
 
+
+**Related Information**  
+
+
+[Creating a Destination for Cross-Subaccount Communication](creating-a-destination-for-cross-subaccount-communication-7d58eba.md "Learn how to create a destination with SAML assertion authentication to establish communication between an ABAP environment system and SAP Business Application Studio when they are set up in different subaccounts.")
 

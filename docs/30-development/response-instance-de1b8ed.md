@@ -2,7 +2,7 @@
 
 # Response Instance
 
-In this chapter, we'll learn the meaning of a Client Proxy response as well as how to create and use a Client Proxy response instance.
+A response instance includes information that the request returns.
 
 
 
@@ -10,14 +10,12 @@ In this chapter, we'll learn the meaning of a Client Proxy response as well as h
 
 ## Overview
 
-Most OData requests return a corresponding response body after \(successful\) execution \(an exception would, for example, be a successful `DELETE` request with HTTP return code `204` – No content\).
+Most OData requests return a corresponding response body after the request is successful \(an exception can be a successful `DELETE` request with HTTP return code `204` with no content\).
 
-The Client Proxy response instance contains information that has been returned by the request execution and can be used by a client to read all relevant response information \(e.g. the business data of an entity\).
-
-A response instance is always created by the corresponding request instance as a result of a request execution.
+The Client Proxy response instance contains information returned by the request. You can use it to read all relevant response information \(for example. the entity business data\).
 
 > ### Note:  
-> The responses aren't OData protocol \(V2 or V4\) specific.
+> The responses aren't OData protocol-specific \(Version 2 or Version 4\).
 
 
 
@@ -25,23 +23,23 @@ A response instance is always created by the corresponding request instance as a
 
 ## Creating an Instance
 
-Response instances are always created on the request instance when executing an OData request.
+A response instance is always created by the corresponding request instance when a request is created.
 
 
 
 ### Response Types
 
-The following kinds of responses are available to users:
+These response types are available:
 
--   `/IWBEP/IF_CP_RESPONSE_ACTION`The response of an ACTION request.
--   `/IWBEP/IF_CP_RESPONSE_CREATE`: The response of a CREATE entity request.
--   `/IWBEP/IF_CP_RESPONSE_DELETE`: The response of a DELETE entity request.
--   `/IWBEP/IF_CP_RESPONSE_FUNCTION`: The response of a FUNCTION request.
--   `/IWBEP/IF_CP_RESPONSE_READ`: The response of a READ entity request.
--   `/IWBEP/IF_CP_RESPONSE_READ_01`: The response of a READ entity \(via zero-to-one navigation\) request.
--   `/IWBEP/IF_CP_RESPONSE_READ_LST`: The response of a READ entity list request.
--   `/IWBEP/IF_CP_RESPONSE_UPDATE` The response of an UPDATE entity request.
--   `/IWBEP/IF_CP_RESPONSE_UPDATE_L` The response of an UPDATE entity list request.
+-   `/IWBEP/IF_CP_RESPONSE_ACTION`: ***ACTION*** request response.
+-   `/IWBEP/IF_CP_RESPONSE_CREATE`: ***CREATE*** request response.
+-   `/IWBEP/IF_CP_RESPONSE_DELETE`: ***DELETE*** entity request response.
+-   `/IWBEP/IF_CP_RESPONSE_FUNCTION`: ***FUNCTION*** request response.
+-   `/IWBEP/IF_CP_RESPONSE_READ`: ***READ*** entity request response.
+-   `/IWBEP/IF_CP_RESPONSE_READ_01`: ***READ*** entity \(with zero-to-one navigation\) request response.
+-   `/IWBEP/IF_CP_RESPONSE_READ_LST`: ***READ*** entity list request response.
+-   `/IWBEP/IF_CP_RESPONSE_UPDATE`: ***UPDATE*** entity request response.
+-   `/IWBEP/IF_CP_RESPONSE_UPDATE_L`: ***UPDATE*** entity list request response.
 
 
 
@@ -49,7 +47,7 @@ The following kinds of responses are available to users:
 
 ## Functionality
 
-The main functionality of response instances is to return the response business data of a successful OData request execution to the user. However, the options a response instance offers depend on the different response kinds. Consult the provided ABAP doc to get an overview over the different functionalities.
+Response instances return the response business data of a successful OData request execution. The options a response instance offers depend on the different response types.
 
 
 
@@ -57,5 +55,5 @@ The main functionality of response instances is to return the response business 
 
 ## Example
 
-Examples on how to create and work with responses are given in the corresponding How-To section \[LINK\].
+For examples of how to create and work with responses, see the [OData Requests](odata-requests-bbaf7a4.md).
 

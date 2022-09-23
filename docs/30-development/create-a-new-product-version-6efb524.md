@@ -47,3 +47,437 @@ Find out how to create a new product version:
 > ### Note:  
 > Product versions can only be deleted if their status is ‘*In Configuration*’ because then the build was not yet started. In this case, the delete button will be enabled once the product version is selected. Please be aware that the deletion cannot be reversed.
 
+
+
+<a name="loio6efb5242a2b44625b6c42e14de6c1c9d__section_cqn_s2l_v5b"/>
+
+## Assign Software Component Process Flow
+
+When the user creates a new release, support package or patch delivery, it is possible to assign multiple software components to the build. The following tables show the process flow of the 'add software component' action.
+
+Before the user is allowed to add, delete, build or reorder a product version with software components, several conditions must be met. The following matrixes show an overview of all conditions.
+
+The first table shows an overview of conditions for creating new Product Versions.
+
+<a name="loio6efb5242a2b44625b6c42e14de6c1c9d__table_jr4_1dl_v5b"/>Availability Matrix of add, delete and edit in Product Version Screen
+
+
+<table>
+<tr>
+<th valign="top">
+
+Condition Description
+
+
+
+</th>
+<th valign="top">
+
+LP-Status
+
+
+
+</th>
+<th valign="top">
+
+Toolbox Status
+
+
+
+</th>
+<th valign="top">
+
+Edit
+
+
+
+</th>
+<th valign="top">
+
+Delete
+
+
+
+</th>
+<th valign="top">
+
+Create Release
+
+
+
+</th>
+<th valign="top">
+
+Create Support Package
+
+
+
+</th>
+<th valign="top">
+
+Create Patch Delivery
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+In Confiuration/ In Initialisation, but Pipeline aborted
+
+
+
+</td>
+<td valign="top">
+
+I or T
+
+
+
+</td>
+<td valign="top">
+
+none or G
+
+
+
+</td>
+<td valign="top">
+
+allowed
+
+
+
+</td>
+<td valign="top">
+
+allowed
+
+
+
+</td>
+<td valign="top">
+
+allowed
+
+
+
+</td>
+<td valign="top">
+
+forbidden
+
+
+
+</td>
+<td valign="top">
+
+forbidden
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Ready for Test, integration tests aborted
+
+
+
+</td>
+<td valign="top">
+
+T
+
+
+
+</td>
+<td valign="top">
+
+T
+
+
+
+</td>
+<td valign="top">
+
+allowed
+
+
+
+</td>
+<td valign="top">
+
+forbidden
+
+
+
+</td>
+<td valign="top">
+
+allowed
+
+
+
+</td>
+<td valign="top">
+
+allowed when template configured
+
+
+
+</td>
+<td valign="top">
+
+allowed when template configured
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Ready for Production, Pipeline running
+
+
+
+</td>
+<td valign="top">
+
+any
+
+
+
+</td>
+<td valign="top">
+
+P
+
+
+
+</td>
+<td valign="top">
+
+forbidden
+
+
+
+</td>
+<td valign="top">
+
+forbidden
+
+
+
+</td>
+<td valign="top">
+
+allowed
+
+
+
+</td>
+<td valign="top">
+
+allowed when template configured
+
+
+
+</td>
+<td valign="top">
+
+allowed when template configured
+
+
+
+</td>
+</tr>
+</table>
+
+The following table shows an overview of conditions regarding the Build of a new Prodcuct Version.
+
+<a name="loio6efb5242a2b44625b6c42e14de6c1c9d__table_hvy_d2l_v5b"/>Availability Matrix of add, delete and edit in Build Product Version Screen
+
+
+<table>
+<tr>
+<th valign="top">
+
+Condition Description
+
+
+
+</th>
+<th valign="top">
+
+Move
+
+
+
+</th>
+<th valign="top">
+
+Edit \(not yet implemented\)
+
+
+
+</th>
+<th valign="top">
+
+Delete
+
+
+
+</th>
+<th valign="top">
+
+Add
+
+
+
+</th>
+<th valign="top">
+
+Build Product Version
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+In Confiuration/ In Initialisation, but Pipeline aborted
+
+
+
+</td>
+<td valign="top">
+
+allowed
+
+
+
+</td>
+<td valign="top">
+
+allowed
+
+
+
+</td>
+<td valign="top">
+
+allowed
+
+
+
+</td>
+<td valign="top">
+
+create allowed
+
+
+
+</td>
+<td valign="top">
+
+allowed
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Ready for Test, integration tests aborted
+
+
+
+</td>
+<td valign="top">
+
+forbidden
+
+
+
+</td>
+<td valign="top">
+
+forbidden
+
+
+
+</td>
+<td valign="top">
+
+forbidden
+
+
+
+</td>
+<td valign="top">
+
+forbidden
+
+
+
+</td>
+<td valign="top">
+
+allowed
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Ready for Production, Pipeline running
+
+
+
+</td>
+<td valign="top">
+
+forbidden
+
+
+
+</td>
+<td valign="top">
+
+forbidden
+
+
+
+</td>
+<td valign="top">
+
+forbidden
+
+
+
+</td>
+<td valign="top">
+
+forbidden
+
+
+
+</td>
+<td valign="top">
+
+forbidden
+
+
+
+</td>
+</tr>
+</table>
+

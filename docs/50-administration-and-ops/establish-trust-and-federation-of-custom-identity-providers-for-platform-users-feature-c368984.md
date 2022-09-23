@@ -82,7 +82,12 @@ You've configured trust in your tenant of the Identity Authentication service, w
     For more information, see [Working with Users](working-with-users-2c91f88.md).
 
     > ### Note:  
-    > For subaccounts in the Neo environment, the identity provider will be offered in the value help only if a user in that identity provider has created at least one Neo subaccount in the corresponding global account and Neo region.
+    > -   For subaccounts in the Neo environment, the identity provider will be offered in the value help only if a user in that identity provider has created at least one Neo subaccount in the corresponding global account and Neo region.
+    > 
+    > -   For global accounts upgraded from feature set A, in addition to at least one Neo subaccount being in the corresponding global account, you also need to ensure that the Neo region has a platform identity provider trust to the Identity Authentication tenant in feature set A.
+    > 
+    >     > ### Tip:  
+    >     > If the identity provider isn't available in the value help for Neo subaccount members, log on to the global account with a user from that identity provider and create a new Neo subaccount. If it's not needed otherwise, you can delete it.
 
     > ### Recommendation:  
     > We recommend that you keep at least one global account administrator from the default identity provider. You can then use this administrator to log on in the rare instance that access to the custom identity provider fails.
@@ -101,7 +106,7 @@ You've configured trust in your tenant of the Identity Authentication service, w
 
 -   Integrate your Identity Authentication tenant with your identity authentication management solution.
 
-    For more information, see [Configure Trust with OpenID Connect Corporate Identity Provider](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/8ff83a12bbb8491c9558d635d6bbb287.html?q=corporate%20identity) in the documentation for the Identity Authentication service.
+    For more information, see [Corporate Identity Provider](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/19f3eca47db643b6aad448b5dc1075ad.html) in the documentation for the Identity Authentication service.
 
 -   Work in the SAP BTP Command Line Interface \(btp CLI\).
 

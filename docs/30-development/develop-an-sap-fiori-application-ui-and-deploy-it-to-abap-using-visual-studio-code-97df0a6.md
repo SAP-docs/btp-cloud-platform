@@ -43,7 +43,7 @@ If you need further assistance with integrating an application into SAP Fiori la
         -   \(Option 1\) **Discover a Cloud Foundry Service** 
 
             > ### Note:  
-            > You have to log on to your Cloud Foundry space by executing command `cf login`. When you're prompted to enter the API endpoint and org name, you can navigate to your subaccount in the SAP BTP cockpit, where you can find this information.
+            > You have to log on to your Cloud Foundry space by executing command `cf login` in the terminal or by navigating to *View* \> *Find Command* \> *CF: Login to Cloud Foundry*. When you're prompted to enter the API endpoint, org name, and space, you can navigate to your subaccount in the SAP BTP cockpit, where you can find this information.
 
         -   \(Option 2\) **Upload a Service Key File**
 

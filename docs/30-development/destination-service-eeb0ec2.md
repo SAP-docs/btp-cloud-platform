@@ -2,7 +2,7 @@
 
 # Destination Service
 
-The destination service is a service provided by SAP Connectivity service. Using the destination service, you can retrieve and store technical information about the target resource \(destination\) that you want to connect with your application to a remote service or a system.
+The destination service is a service provided by SAP BTP Connectivity. Using the destination service, you can retrieve and store technical information about the target resource \(destination\) that you want to connect with your application to a remote service or a system.
 
 The destination service allows you to read and manage the address of a remote service and the user authentication information for the connection on subaccount and service instance level.
 

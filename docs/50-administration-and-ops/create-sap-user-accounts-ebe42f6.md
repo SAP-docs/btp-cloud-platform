@@ -8,7 +8,7 @@ To grant authorizations to people from the default identity provider in your sub
 
 ## Context
 
-If the person in question already has a user account on `sap.com` Web sites, then they already have a user in the default identity provider.
+If the person in question already has a user account on `sap.com` websites, then they already have a user in the default identity provider. You can already add this user to your accounts, if you know this person's e-mail address.
 
 Consider using a custom identity provider to integrate your own identity and access management solution.
 
@@ -23,7 +23,7 @@ Consider using a custom identity provider to integrate your own identity and acc
 
     `https://account.sap.com/core/create/register?redirectURL=https%3A%2F%2Fcockpit.eu10.hana.ondemand.com%2Fcockpit%2F`
 
-    The Web site registers you with SAP Universal ID, which also registers you with SAP ID service. SAP Universal ID manages the users of official SAP sites, including the SAP developer and partner community.
+    The website registers you with SAP Universal ID, which also registers you with SAP ID service. If you already have a user in SAP ID service, you have the option to associate this user with your new SAP Universal ID account. SAP Universal ID manages the users of official SAP sites, including the SAP developer and partner community.
 
     > ### Tip:  
     > If you already know the e-mail addresses of your colleagues, you can add them to your subaccount and assign role collections. After registering, your colleagues have the option to return to the SAP BTP cockpit. If you have already assigned authorizations to that user, then your colleagues have access when they log on.

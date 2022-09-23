@@ -47,6 +47,8 @@ In the example above, the `deployed-after` attributes guarantee that the `ui` mo
 
 
 
+<a name="loio038415880116407d89765d26b36653e3__section_pmm_lks_x5b"/>
+
 ## Parallel Deployment
 
 > ### Note:  
@@ -55,18 +57,22 @@ In the example above, the `deployed-after` attributes guarantee that the `ui` mo
 In the example above, we have also specified the global MTA parameter `enable-parallel-deployments` with a value `true`. It activates the parallel deployment of MTA modules that do not have any deployment order dependencies between each other. If the parameter is missing or its value is `false`, the module deployment will be sequential.
 
 > ### Note:  
-> The `enable-parallel-deployments` parameter has influence only on modules deployment, see the section [Sequential Resource Processing](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/b93db81b7df441d985896ac9eed65142.html) for the resources process.
+> The `enable-parallel-deployments` parameter has influence only on modules deployment, see section [Sequential Resource Processing](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/b93db81b7df441d985896ac9eed65142.html) for the resources process.
 
 > ### Note:  
 > The `enable-parallel-deployments` parameter is supported from major schema version 3 onwards.
 
 
 
+<a name="loio038415880116407d89765d26b36653e3__section_xc2_4ks_x5b"/>
+
 ## Circular Dependencies
 
 Due to a modelling error, the user can introduce direct or transitive circular deployment order dependencies between modules. In such cases, this will be reported as a deployment error.
 
 
+
+<a name="loio038415880116407d89765d26b36653e3__section_v55_qks_x5b"/>
 
 ## Compatibility with Previous Deployment Order
 

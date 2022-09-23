@@ -2,7 +2,7 @@
 
 # Filter Node Instance
 
-In this chapter, we will learn the meaning of a Client Proxy filter node as well as how to create and use a Client Proxy filter node instance.
+A filter node instance filters and returns only the results that match the specified expressions.
 
 
 
@@ -10,19 +10,19 @@ In this chapter, we will learn the meaning of a Client Proxy filter node as well
 
 ## Overview
 
-The $filter system query option restricts the set of items returned. It allows clients to filter a collection of resources that are addressed by a request URI; the expression specified with $filter is evaluated for each resource in the collection, and only items where the expression evaluates to true are included in the response.
+The ***$filter*** system query option restricts the set of items returned. It allows you to filter are source collection addressed by a request URI. The expression specified with ***$filter*** is evaluated for each resource in the collection. Only items where the expression is ***true*** are included in the response.
 
-Consider the following example: You want to read a collection of sales orders and only get the ones not paid yet. This translates to the following as an example OData request
+In this example, you want to read a collection of sales orders and get only the unpaid orders. Here's an example of the OData request:
 
 > ### Sample Code:  
 > ```
 > GET http://host/service/SalesOrders?$filter=Payment eq ‘open’
 > ```
 
-Within the Client Proxy Framework, a filter expression is described by a filter node instance, which is created by a filter factory instance and can be set into the [Client Proxy Instance](client-proxy-instance-079517f.md)-
+A filter expression is described by a filter node instance that a filter factory instance creates and can be set into the Client Proxy instance.
 
 > ### Note:  
-> The filter nodes are not OData protocol \(V2 or V4\) specific.
+> The filter nodes are not OData protocol-specific \(Version 2 or Version 4\).
 
 
 
@@ -30,7 +30,7 @@ Within the Client Proxy Framework, a filter expression is described by a filter 
 
 ## Creating an Instance
 
-A filter node instance is always created by a filter factory instance. A filter factory instance can be created at a read list request instance. For more information, see [Request Instance](request-instance-7bda471.md).
+A filter node instance is always created by a filter factory instance. You can create a filter factory instance in a read list request instance.
 
 
 
@@ -46,5 +46,10 @@ The main functionality of filter node instances is to create a filter expression
 
 ## Example
 
-Examples on how to create and work with filter nodes are given in the corresponding How-To section [OData Request: System Query Option $filter](odata-request-system-query-option-filter-dfe8bfc.md).
+For examples of how to create and work with filter nodes, see [$filter Option](filter-option-dfe8bfc.md).
+
+**Related Information**  
+
+
+[OData Request: Read Entity](odata-request-read-entity-9d7dde4.md "To create an OData request to read an entity in the Client Proxy instance.")
 

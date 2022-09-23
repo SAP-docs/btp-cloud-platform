@@ -19,7 +19,7 @@ To simplify the implementation of a remote call, you can create a service consum
 **Related Information**  
 
 
-[OData Client Proxy - Introduction](odata-client-proxy-introduction-0d92f49.md "")
+[OData Client Proxy Configurations](odata-client-proxy-configurations-0d92f49.md "There are several consumption types and OData versions for your OData Client Proxy configurations, depending on your use case.")
 
 [Set Up SOAP Communication](set-up-soap-communication-8b6723b.md "Developers can consume SOAP-based Web services for outbound communication from the ABAP environment.")
 

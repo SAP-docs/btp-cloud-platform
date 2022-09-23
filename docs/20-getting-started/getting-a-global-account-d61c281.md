@@ -29,9 +29,9 @@ There are two ways to try out SAP BTP services and applications for free.
 
 ## Context
 
-A **free trial** account is intended for individuals, for example students, who want to explore SAP BTP for free. It is an isolated account and subaccount, with pre-allocated service entitlements that can be used for a limited number of days.
+A **free trial** account is intended for individuals, for example students, who want to explore SAP BTP for free. It is an isolated account and subaccount, with preallocated service entitlements that can be used for a limited number of days.
 
-**Free tier** is not an account type, but it is a set of free services that can be used within an enterprise account.
+**Free tier** is not an account type, but it's a set of free services that can be used within an enterprise account.
 
 To learn which is best for your needs, see the [Set Up an SAP BTP Account for Tutorials](https://developers.sap.com/group.btp-setup.html) group in the SAP Developer Center.
 
