@@ -10,7 +10,7 @@ A list of additional commands to install archives and deploy multitarget applica
 > The expiration time for all Cloud Foundry operations is 3 days. If an operation is still active when time limit is reached, it is automatically aborted.
 
 > ### Caution:  
-> Due to the missing shared domains in certain regions, as AliCloud, the URL of the SAP Cloud Deployment service should be specified by each multitarget application developer. You can do this by using the environment variable `MULTIAPPS_CONTROLLER_URL`, or the `-u` option specified in the commands listed below.
+> Due to the missing shared domains in certain regions, as Alibaba Cloud, the URL of the SAP Cloud Deployment service should be specified by each multitarget application developer. You can do this by using the environment variable `MULTIAPPS_CONTROLLER_URL`, or the `-u` option specified in the commands listed below.
 > 
 > The URL of the deploy-service that needs to be set is in the following format: `deploy-service.cfapps.<landscape-domain>`
 > 

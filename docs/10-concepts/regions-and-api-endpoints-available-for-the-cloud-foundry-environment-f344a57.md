@@ -527,6 +527,78 @@ us21.hana.ondemand.com
 <tr>
 <td valign="top">
 
+Microsoft Azure
+
+
+
+</td>
+<td valign="top">
+
+ch20
+
+
+
+</td>
+<td valign="top">
+
+Switzerland \(Zurich\)
+
+
+
+</td>
+<td valign="top">
+
+cf-ch20
+
+
+
+</td>
+<td valign="top">
+
+Switzerland North
+
+
+
+</td>
+<td valign="top">
+
+20.208.128.83, 20.208.128.86, 20.208.128.87, 20.208.128.88, 51.103.208.79, 51.103.208.81, 51.103.208.85, 51.103.208.87, 51.107.2.38, 51.107.2.50, 51.107.2.52, 51.107.2.54
+
+
+
+</td>
+<td valign="top">
+
+20.208.56.83
+
+
+
+</td>
+<td valign="top">
+
+api.cf.ch20.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+ch20.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+ [Feature Set B](https://cockpit.ch20.hana.ondemand.com/) 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Amazon Web Services
 
 
