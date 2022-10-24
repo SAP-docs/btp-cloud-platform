@@ -1121,6 +1121,8 @@ Asia South \(Mumbai\)
 
 **Related Information**  
 
+Test
+
 
 [Create the Kyma Environment Instance](../50-administration-and-ops/create-the-kyma-environment-instance-09dd313.md "Set up a Kubernetes cluster with project &quot;Kyma&quot; and use it to build applications and extensions to your SAP and third-party solutions.")
 
