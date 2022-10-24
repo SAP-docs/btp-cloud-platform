@@ -1,2 +1,24 @@
 # Owners of the Kyma topics
 docs/10-concepts/regions-for-the-kyma-environment-557ec3a.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/10-concepts/kyma-environment-468c2f3.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/20-getting-started/getting-started-in-the-kyma-environment-d1abd18.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/20-getting-started/getting-started-with-an-enterprise-account-in-the-kyma-environment-1903e9c.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/20-getting-started/getting-started-with-a-trial-account-in-the-kyma-environment-ccb83c7.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/20-getting-started/about-the-trial-account-c4fff0f.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/20-getting-started/setting-up-your-trial-account-57074a0.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/30-development/development-in-the-kyma-environment-606ec61.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/30-development/access-a-kyma-instance-using-kubectl-3e25944.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/30-development/using-sap-btp-services-in-the-kyma-environment-ea4dd81.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/30-development/creating-functions-fe4ba5b.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/30-development/using-kyma-eventing-with-sap-event-mesh-407d126.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/30-development/troubleshooting-kyma-console-url-responds-with-not-found-404-d514c43.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/40-extensions/extending-sap-s-4hana-cloud-in-the-cloud-foundry-and-kyma-environment-40b9e6c.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/40-extensions/create-an-sap-s-4hana-cloud-extensibility-service-instance-in-the-kyma-environment-32bd423.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/40-extensions/create-an-sap-s-4hana-cloud-extensibility-service-instance-in-the-kyma-environment-55d876e.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/40-extensions/create-an-sap-event-mesh-service-instance-in-the-kyma-environment-3de02d2.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/40-extensions/extending-sap-marketing-cloud-in-the-cloud-foundry-and-kyma-environment-18bb3d9.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/40-extensions/extending-sap-successfactors-in-the-cloud-foundry-and-kyma-environment-9e33934.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/40-extensions/create-an-sap-successfactors-extensibility-service-instance-in-the-kyma-environment-f371f81.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/40-extensions/extending-sap-customer-experience-products-in-the-kyma-environment-83df31a.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/40-extensions/register-an-sap-customer-experience-system-1582d72.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/50-administration-and-ops/administration-and-operations-in-the-kyma-environment-b8e1686.md @SAP-docs/btp-cloud-platform-kyma-writers
