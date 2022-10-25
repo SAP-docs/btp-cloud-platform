@@ -5,7 +5,6 @@
 This operating model clearly defines the separation of tasks between SAP and the customer during all phases of an integration project.
 
 
-
 The responsibilities for operating the Kyma environment are listed in the following service catalog.
 
 <a name="loio862b96b02d474af9a84c07c500d34ad8__table_i2l_2fv_4x"/>Service Catalog
