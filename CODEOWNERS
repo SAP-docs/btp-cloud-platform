@@ -32,6 +32,13 @@ docs/50-administration-and-ops/kyma-metrics-and-logs-d71a7cd.md @SAP-docs/btp-cl
 docs/50-administration-and-ops/set-up-grafana-authentication-3e4299c.md @SAP-docs/btp-cloud-platform-kyma-writers
 docs/50-administration-and-ops/configure-the-docker-registry-fa0ba7d.md @SAP-docs/btp-cloud-platform-kyma-writers
 docs/60-security/security-in-the-kyma-environment-ee08fdf.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/60-security/authentication-and-authorization-in-the-kyma-environment-85200d8.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/60-security/troubleshooting-forbidden-access-to-kyma-a779e51.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/60-security/configure-a-custom-identity-provider-for-kyma-67bcc6e.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/60-security/expose-and-secure-a-workload-with-a-json-web-token-44bb2d3.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/60-security/function-security-1be599b.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/60-security/data-protection-and-privacy-in-the-kyma-environment-935e241.md @SAP-docs/btp-cloud-platform-kyma-writers
+docs/70-getting-support/operating-model-in-the-kyma-environment-862b96b.md @SAP-docs/btp-cloud-platform-kyma-writers
 
 # Folders for the section owners
 docs/70-getting-support @nikolasimeonov77
