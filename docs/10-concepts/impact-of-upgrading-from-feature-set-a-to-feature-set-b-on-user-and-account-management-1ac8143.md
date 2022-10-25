@@ -184,7 +184,7 @@ More Information
 *Space Developer*
 
 > ### Note:  
-> If the user doesn't already have the *Subaccount Administrator* role collection, the user receives the *Connectivity Administrator* and *Destination Administrator* role collections.
+> If the user doesn't already have the *Subaccount Administrator* role collection, the user receives the *Connectivity and Destination Administrator* role collection.
 
 
 

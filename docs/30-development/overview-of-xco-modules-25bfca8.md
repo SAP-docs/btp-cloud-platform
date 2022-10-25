@@ -208,7 +208,9 @@ The Cloud Platform \(CP\) edition of the XCO library is comprised of the followi
 
     Provides access to abstractions used when working with UUIDs in the context of the XCO standard library, such as different UUID formats.
 
--   XSLX \(XCO\_CP\_XSLX, XCO\_CP\_XLSX\_SELECTION, XCO\_CP\_XLSX\_READ\_ACCESS\)
+-   XSLX \(XCO\_CP\_XSLX, XCO\_CP\_XLSX\_SELECTION, XCO\_CP\_XLSX\_READ\_ACCESS, XCO\_CP\_XLSX\_WRITE\_ACCESS
+
+    \)
 
     The XCO XLSX module supports the programmatic processing of XLSX documents. The various external APIs provide access to central abstractions required when reading data from XLSX documents.
 

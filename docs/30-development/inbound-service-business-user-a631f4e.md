@@ -6,7 +6,7 @@
 
 Technical name: `MANAGEBUSINESSUSERIN`
 
-This synchronous inbound SOAP service enables you to create, update, and delete business users from your external data sources, such as an identity management system. Deleting business users doesn't mean you've actually deleted them yet. The user assigned to the business user is deleted and the `MarkedForArchivingIndicator` has been set. This is the prerequisite for the ILM process that physically deletes business users.
+This synchronous inbound SOAP service enables you to create, update, and delete business users from your external data sources, such as an identity management system. Deleting business users doesn't mean you've actually deleted them yet. The user assigned to the business user is deleted and the `MarkedForArchivingIndicator` has been set. Only during the ILM process the business user is physically deleted.
 
 You can assign business role IDs to the users at the node `Role`.
 
@@ -824,7 +824,7 @@ optional
 <tr>
 <td valign="top" rowspan="13">
 
-`User`**\(only for Cloud\)**
+`User` **\(only for Cloud\)**
 
 Cardinality: 0..1
 
@@ -1306,7 +1306,7 @@ optional
 <tr>
 <td valign="top" rowspan="2">
 
-`UserAssignment`**\(only for on-premise\)**
+`UserAssignment` **\(only for on-premise\)**
 
 Cardinality: 0..1
 
@@ -2519,8 +2519,6 @@ Enter the`PersonUUID` that corresponds with the `PersonExternalID`
 ## Constraints
 
 This service does not support:
-
--   Service Performer \(BBP005\) business users
 
 -   Freelancer \(BBP010\) business users
 

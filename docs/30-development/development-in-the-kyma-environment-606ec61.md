@@ -82,7 +82,7 @@ To help you get started with the development process, go through the set of tuto
 
     Kyma environment allows you to extend the SAP systems to build and deploy your own applications.
 
--   [Creating Functions](creating-functions-fe4ba5b.md)
+-   [Deploy Workloads in the Kyma Environment to Extend SAP Systems](deploy-workloads-in-the-kyma-environment-to-extend-sap-systems-fe4ba5b.md)
 
     Access the Kyma environment and start creating extensions for SAP systems using Functions.
 

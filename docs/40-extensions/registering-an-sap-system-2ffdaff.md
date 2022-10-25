@@ -21,9 +21,16 @@ You are a global account administrator, or you are a system landscape administra
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
-The registration process is based on a registration token that is used for the pairing of the system and the corresponding global account. You get the token in the SAP BTP cockpit, and then use it to configure the integration on the corresponding SAP solution side.
+Adding a system to the list in the *System Landscape* UI is just the first step of the system registration process. When you have only added a system, the system is not yet registered in the SAP BTP global account. That is, the required configuration on the system side has not been performed, and therefore, the newly added system cannot exchange or expose its technical details, metadata, APIs, or events. Only when the registration process is complete and the system is registered with SAP BTP, it can exchange the relevant information and enable the extension scenario.
 
-When you start registering the system, it appears in the system landscape list. At this point the *Status* column of this system is empty. To trigger the pairing of the system and the corresponding global account, you have to get the registration token and use it in the respective SAP system.
+The registration of the newly added systems is based on a registration token. The token is used for the pairing of the system and the corresponding global account. After you add a system, you can get the token in the SAP BTP cockpit. Then, you can use it to configure the integration on the corresponding system side. By using the registration token on the system side and registering the system, the system administrator allows the integration of the system with SAP BTP.
+
+When you add a system, it appears in the system landscape list as a record with empty \(or initialized\) status. The system gets a *Registered* status, only when a token is issued and the registration is complete on the corresponding system side. In general, the *Registered* status means that the communication between the system and SAP BTP has been established. However, depending on the system and its requirements, additional configuration might be needed for the enablement of a fully functional extension scenario. The additional configuration, depending on the system type, is outlined in the corresponding documents listed in the *Related Information* section.
+
+> ### Note:  
+> When registering SAP systems of the same type, you can have up to 1000 tokens per global account ready to be used. Tokens that are already used to register an SAP system are not included in this number.
+> 
+> This means that you cannot have more than 1000 systems in the Systems list of the same type with an empty status and generated token that is not used yet.
 
 The following SAP system types are supported:
 

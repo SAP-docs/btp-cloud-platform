@@ -2,24 +2,27 @@
 
 # Change the Output Format to JSON
 
-Use the `--format json` option to change the output format of a command to JSON.
+Use the `--format json` option to change the output format to JSON. This is the recommended output format for automation with the btp CLI.
 
 
 
 ## Context
 
-The standard output format of the btp CLI is text, formatted in a way that an interactive user of the btp CLI can easily read it. You can switch this to JSON output to make use of automation. Also, The JSON output often cludes more information than the respective text output, as the text output is optimized for human readability and therefore limited to the most relevant information.
+The standard output format of the btp CLI is plain text, formatted in a way that an interactive user of the btp CLI can easily read it. We don't recommend using this plain text output for automatic parsing and extracting information. The text output is not stable enough, as, for example, column width or the appearance of new lines may depend on the actual content of a response.
+
+If you're using responses of the btp CLI for automation, such as in scripts, we recommend to use the JSON output format. It is much more stable than the plain text output and it often includes more information than the respective text output, as the text output is optimized for human readability and therefore often limited to the most relevant information.
+
+See this [Getting BTP resource GUIDs with the btp CLI](https://blogs.sap.com/2021/12/01/getting-btp-resource-guids-with-the-btp-cli-part-2-json-and-jq/) blog post for some examples.
 
 
 
 ## Procedure
 
-1.  Start commands with `--format json`. Currently, the only valid value is `json`.
+Start commands with `--format json`. Currently, the only valid value is `json`.
 
-    ```
-    btp --format json list accounts/subaccount
-    ```
-
+```
+btp --format json list accounts/subaccount
+```
 
 
 

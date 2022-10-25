@@ -33,5 +33,5 @@ You can build and edit communication arrangements that your organization has set
 **Related Information**  
 
 
-[Sample Code for SAP Document Management Service Integration](../30-development/sample-code-for-sap-document-management-service-integration-76b08e1.md "This topic contains a set of sample codes that can be used to create various classes in an ABAP environment.")
+
 

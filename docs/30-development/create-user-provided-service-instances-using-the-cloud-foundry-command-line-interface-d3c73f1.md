@@ -27,18 +27,17 @@ For more informaton on user-provided service instances, see [https://docs.cloudf
 
 ## Procedure
 
-1.  Open a command line and enter the following string to create a user-provided service instance:
+Open a command line and enter the following string to create a user-provided service instance:
 
-    ```
-    cf create-user-provided-service SERVICE_INSTANCE [-p CREDENTIALS]
-    ```
+```
+cf create-user-provided-service SERVICE_INSTANCE [-p CREDENTIALS]
+```
 
-    Specify the following parameters:
+Specify the following parameters:
 
-    -   `SERVICE_INSTANCE`: The new name for your service instance.
+-   `SERVICE_INSTANCE`: The new name for your service instance.
 
-    -   `CREDENTIALS`: Credentials as JSON
-
+-   `CREDENTIALS`: Credentials as JSON
 
 
 

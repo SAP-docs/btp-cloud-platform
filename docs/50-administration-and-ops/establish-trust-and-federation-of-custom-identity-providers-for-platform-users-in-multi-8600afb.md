@@ -162,7 +162,7 @@ For more information, see [Supported Tools and Services When Using Custom Identi
 
 [User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, member management happens at all levels from global account to environment, while user management is done for business applications.")
 
-[Bringing Your Corporate Identity Provider for Platform Users \[Feature Set A\]](../10-concepts/bringing-your-corporate-identity-provider-for-platform-users-feature-set-a-783ff50.md "SAP BTP supports the use of your own identity provider for platform users. The use of your own identity provider requires integration between the user bases of Cloud Foundry and Neo environments.")
+[Bringing Your Corporate Identity Provider for Platform Users \[Feature Set A\]](../10-concepts/bringing-your-corporate-identity-provider-for-platform-users-feature-set-a-783ff50.md "SAP BTP supports the use of your own identity provider for platform users.")
 
 [SAP Note 2964274 - Establish Trust and Federation for Cloud Foundry Platform Users for Custom Identity Providers \[Feature Set A\]](https://launchpad.support.sap.com/#/notes/2964274)
 

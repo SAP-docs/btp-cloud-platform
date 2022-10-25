@@ -15,6 +15,8 @@ For information about regional availability, see [Regions and API Endpoints for 
 
 [Development in the ABAP Environment](../30-development/development-in-the-abap-environment-31367ef.md "Learn more about developing applications in the ABAP environment.")
 
+[Administration and Operations in the ABAP Environment](../50-administration-and-ops/administration-and-operations-in-the-abap-environment-c4fd102.md "Learn about the different account administration and operational tasks that you can perform in the ABAP environment.")
+
 [Using Free Service Plans](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/524e1081d8dc4b0f9d055a6bec383ec3.html)
 
 [Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/abap-environment)

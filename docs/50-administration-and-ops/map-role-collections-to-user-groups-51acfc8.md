@@ -34,10 +34,9 @@ The identity provider provides the business users, who can belong to user groups
 
 ## Procedure
 
-1.  To map a user group to a role collection, see [Assign User Groups to Role Collections](assign-user-groups-to-role-collections-9562d9d.md).
+To map a user group to a role collection, see [Assign User Groups to Role Collections](assign-user-groups-to-role-collections-9562d9d.md).
 
-    You can also map role collections to attributes other than groups. For more information, see the related links.
-
+You can also map role collections to attributes other than groups. For more information, see the related links.
 
 **Related Information**  
 

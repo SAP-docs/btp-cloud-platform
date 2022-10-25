@@ -18,78 +18,77 @@ To explicitly execute a command in a parent entity instead of in the target, you
 
 ## Procedure
 
-1.  Use `btp target [PARAMS]` to set the target for subsequent commands. Specify one of the following parameters:
+Use `btp target [PARAMS]` to set the target for subsequent commands. Specify one of the following parameters:
 
-    Usage: `btp [OPTIONS] target [PARAMS]`
-
-
-    <table>
-    <tr>
-    <th valign="top">
-
-    Parameter
+Usage: `btp [OPTIONS] target [PARAMS]`
 
 
-    
-    </th>
-    <th valign="top">
+<table>
+<tr>
+<th valign="top">
 
-    Description
-
-
-    
-    </th>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    `--global-account, -ga` *<SUBDOMAIN\>*
+Parameter
 
 
-    
-    </td>
-    <td valign="top">
 
-    Only the global account of the active login can be targeted. As only one active login is possible, SUBDOMAIN can be omitted.
+</th>
+<th valign="top">
 
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    `--directory, -dir`*<ID\>*
+Description
 
 
-    
-    </td>
-    <td valign="top">
 
-    The ID of the directory to be targeted. You can find the directory ID by using `btp get accounts/global-account --show-hierarchy`.
+</th>
+</tr>
+<tr>
+<td valign="top">
 
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    `--subaccount, -sa` *<ID\>*
+`--global-account, -ga` *<SUBDOMAIN\>*
 
 
-    
-    </td>
-    <td valign="top">
 
-    The ID of the subaccount to be targeted. You can find the subaccount ID by using `btp list accounts/subaccount`.
+</td>
+<td valign="top">
+
+Only the global account of the active login can be targeted. As only one active login is possible, SUBDOMAIN can be omitted.
 
 
-    
-    </td>
-    </tr>
-    </table>
-    
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`--directory, -dir`*<ID\>*
+
+
+
+</td>
+<td valign="top">
+
+The ID of the directory to be targeted. You can find the directory ID by using `btp get accounts/global-account --show-hierarchy`.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`--subaccount, -sa` *<ID\>*
+
+
+
+</td>
+<td valign="top">
+
+The ID of the subaccount to be targeted. You can find the subaccount ID by using `btp list accounts/subaccount`.
+
+
+
+</td>
+</tr>
+</table>
 
 
 

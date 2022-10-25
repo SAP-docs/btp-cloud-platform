@@ -38,7 +38,7 @@ We recommend using the communication arrangement approach for the following reas
 -   The communication system can also refer to a destination service. The destination name and destination service instance are then configured instead of hardcoded.
 
 > ### Note:  
-> The communication arrangement approach requires an existing communication scenario and outbound service. See [Communication Arrangement](communication-arrangement-201de48.md) and [RFC Communication via Communication Arrangements](rfc-communication-via-communication-arrangements-fadc4a2.md) for more information.
+> The communication arrangement approach requires an existing communication scenario and outbound service. See [Communication Arrangement](communication-management-5b8ff39.md#loio201de48e2f57404e9222181b019eff14) and [RFC Communication via Communication Arrangements](rfc-communication-via-communication-arrangements-fadc4a2.md) for more information.
 
 
 

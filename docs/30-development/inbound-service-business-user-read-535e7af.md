@@ -73,7 +73,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
-You can use the following values:
+The following values exist:
 
 -   1- Equal
 
@@ -197,7 +197,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
-You can use the following values:
+The following values exist:
 
 -   1- Equal
 
@@ -319,7 +319,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
-You can use the following values:
+The following values exist:
 
 -   1- Equal
 
@@ -415,7 +415,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
-You can use the following values:
+The following values exist:
 
 -   True
 
@@ -489,7 +489,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
-You can use the following values:
+The following values exist:
 
 -   1- Equal
 
@@ -611,7 +611,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
-You can use the following values:
+The following values exist:
 
 -   1- Equal
 
@@ -733,7 +733,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
-You can use the following values:
+The following values exist:
 
 -   1- Equal
 
@@ -855,7 +855,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
-You can use the following values:
+The following values exist:
 
 -   1- Equal
 
@@ -1107,7 +1107,7 @@ Cardinality
 </td>
 <td valign="top">
 
-You can use the following values:
+The following values exist:
 
 -   True
 
@@ -1172,7 +1172,7 @@ Enter the maximum number of hits. If no value is entered, the default is automat
 </td>
 <td valign="top">
 
-You can use the following values:
+The following values exist:
 
 -   True
 
@@ -1207,7 +1207,7 @@ Set **True** to get all data based on selection criteria.
 </td>
 <td valign="top">
 
-You can use the following values:
+The following values exist:
 
 -   True
 
@@ -1996,7 +1996,7 @@ Name supplement
 <tr>
 <td valign="top" rowspan="11">
 
-`User`
+`User` **\(only for Cloud\)**
 
 Cardinality: 0..1
 
@@ -2102,7 +2102,7 @@ Logon language
 </td>
 <td valign="top">
 
-You can use the following values:
+The following values exist:
 
 -   1 - DD.MM.YYYY \(Gregorian Date\)
 
@@ -2157,7 +2157,7 @@ You can use the following values:
 </td>
 <td valign="top">
 
-You can use the following values:
+The following values exist:
 
 -   1.234.567,89
 
@@ -2224,7 +2224,7 @@ Time zone
 </td>
 <td valign="top">
 
-You can use the following values:
+The following values exist:
 
 -   0 - 24 Hour Format \(Example: 12:05:10\)
 
@@ -2402,9 +2402,9 @@ Role name
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top" rowspan="3">
 
-`UserAssignment`
+`UserAssignment` **\(only for on-premise\)**
 
 Cardinality: 0..1
 
@@ -2463,6 +2463,41 @@ User ID
 <td valign="top">
 
 0..1
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+ `UserAssignmentStatusCode` 
+
+
+
+</td>
+<td valign="top">
+
+The following values exist:
+
+-   1 - is reserved
+
+-   2 - is assigned
+
+
+
+
+</td>
+<td valign="top">
+
+1
+
+
+
+</td>
+<td valign="top">
+
+1
 
 
 
@@ -3211,8 +3246,6 @@ Not in use
 ## Constraints
 
 This service does not support:
-
--   Service Performer \(BBP005\) business users
 
 -   Freelancer \(BBP010\) business users
 

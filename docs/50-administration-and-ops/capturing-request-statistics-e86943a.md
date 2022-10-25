@@ -88,9 +88,7 @@ You can view the captured data from all profiles in the technical monitoring coc
     </td>
     <td valign="top">
 
-    The start and end time specify when request statistics are captured by the app. Only requests are considered that are started after the start time of the profile and that end before the end time of the profile.
-
-    Make sure that you enter a start time that’s right now or in the future. You can’t activate profiles with a start time in the past.
+    The start and end time specify when request statistics were captured by the app. These fields are automatically filled after you have activated the profile.
 
 
     
@@ -199,6 +197,22 @@ You can view the captured data from all profiles in the technical monitoring coc
     
     </td>
     </tr>
+    <tr>
+    <td valign="top">
+
+    *Health Monitoring*
+
+
+    
+    </td>
+    <td valign="top">
+
+    You can select the checkbox *Health Monitoring* for any capture profile that you create. As a result, the total number of captured ABAP statistics records for these profiles is shown in Health Monitoring of SAP Cloud ALM. For more information, see [Central Health Monitoring Using SAP Focused Run and SAP Cloud ALM](central-health-monitoring-using-sap-focused-run-and-sap-cloud-alm-8d6e2e7.md).
+
+
+    
+    </td>
+    </tr>
     </table>
     
 4.  Choose *Create*.
@@ -219,6 +233,8 @@ You can view the captured data from all profiles in the technical monitoring coc
     A new filter condition has been created.
 
 8.  To start capturing request statistics during the time period that’s defined in the profile, choose *Activate*.
+
+    Make sure that you enter a start time that’s right now or in the future. You can’t activate profiles with a start time in the past.
 
 
 

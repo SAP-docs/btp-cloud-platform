@@ -258,7 +258,7 @@ Communication arrangement
 </td>
 <td valign="top">
 
-A communication arrangement describes a communication scenario with a remote system during configuration time. It provides the necessary metadata for service configuration. See [Communication Arrangement](communication-arrangement-201de48.md).
+A communication arrangement describes a communication scenario with a remote system during configuration time. It provides the necessary metadata for service configuration. See [Communication Arrangement](communication-management-5b8ff39.md#loio201de48e2f57404e9222181b019eff14).
 
 
 
@@ -276,7 +276,7 @@ Communication scenario
 
 A communication scenario in the ABAP environment is a design time description of how two communication partners communicate with each other.
 
-It provides technical information, such as the used inbound and outbound services and their service type, for example OData or SOAP, and the number of allowed communication arrangement instances. See [Communication Scenario](communication-scenario-7ea7276.md).
+It provides technical information, such as the used inbound and outbound services and their service type, for example OData or SOAP, and the number of allowed communication arrangement instances. See [Communication Scenario](communication-management-5b8ff39.md#loio7ea7276c89a644d9867bf0f8627aed67).
 
 
 

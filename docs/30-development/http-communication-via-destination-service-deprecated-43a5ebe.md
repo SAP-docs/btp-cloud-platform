@@ -183,5 +183,5 @@ To test your outbound call, configure an HTTP destination as described in [Creat
 **Related Information**  
 
 
-[Destination Service](destination-service-eeb0ec2.md "The destination service is a service provided by SAP BTP Connectivity. Using the destination service, you can retrieve and store technical information about the target resource (destination) that you want to connect with your application to a remote service or a system.")
+[Destination Service](communication-management-5b8ff39.md#loioeeb0ec2318fb4dda87830a09ac7a02fa "Using the SAP destination service, you can retrieve and store technical information about the target resource (destination) that you want to connect with your application to a remote service or a system.")
 

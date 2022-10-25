@@ -38,8 +38,3 @@ It provides access to the following function modules:
 > ### Note:  
 > When using WebSocket RFC, you must use a host name that follows the pattern `<myTenantHost>.abap.hana.ondemand.com`.
 
-**Related Information**  
-
-
-[Communication Scenarios Managed by SAP](communication-scenarios-managed-by-sap-c15c71a.md "SAP provides ready-to-use communication scenarios. These scenarios can contain inbound and outbound services.")
-

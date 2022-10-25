@@ -16,7 +16,7 @@ The SAP Authorization and Trust Management service uses an X.509 certificate to 
 
 -   Optionally, to use your own signing key for SAML tokens, you've obtained an X.509 certificate for the SAP Authorization and Trust Management service.
 
--   You've checked that you have space for an additional signing key.
+-   You've checked that you've space for an additional signing key.
 
     You can store two signing keys per service instance. Get the settings of your subaccount to see how many signing keys you’ve stored there. Delete an inactive signing key if you already have two.
 
@@ -60,22 +60,19 @@ The signed SAML tokens are used to validate and authenticate the protocol messag
     > ### Recommendation:  
     > We recommend providing an empty passphrase. We believe that there's no reason to view the private key.
 
-    > ### Note:  
-
-    > ### Sample Code:  
-    > ```
-    > {
-    >     "samlConfigSettings": {
-    >         "keyId": "my-new-key",
-    >         "changeMode":"ADD",
-    >         "key": {
-    >                "key": "<key_data>",
-    >                "passphrase": "",
-    >                "certificate": "<certificate_data>"
-    >         }
-    >     }
-    > }
-    > ```
+    ```
+    {
+        "samlConfigSettings": {
+            "keyId": "my-new-key",
+            "changeMode":"ADD",
+            "key": {
+                   "key": "<key_data>",
+                   "passphrase": "",
+                   "certificate": "<certificate_data>"
+            }
+        }
+    }
+    ```
 
 2.  Enable the new signing key.
 

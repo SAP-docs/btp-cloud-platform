@@ -25,6 +25,11 @@ To connect an SAP Marketing Cloud system with a global account in SAP BTP, you n
 
 The registration process is based on a registration token that is used for the pairing of the SAP Marketing Cloud system and the corresponding global account. You create the token in the global account, and then the tenant administrator of the respective SAP Marketing Cloud system uses the token to start the automated registration process on the SAP Marketing Cloud system side.
 
+> ### Note:  
+> When registering SAP Marketing Cloud systems, you can have up to 1000 tokens per global account ready to be used. Tokens that are already used to register an SAP Marketing Cloud system are not included in this number.
+> 
+> This means that you cannot have more than 1000 systems in the *Systems* list of type SAP Marketing Cloud with an empty status and generated token that is not used yet.
+
 The registration process has the following states displayed in the cockpit:
 
 -   No status displayed in the *Status* column - the registration token for an SAP system has been created but the registration on the respective SAP solution system side has not been performed or completed.

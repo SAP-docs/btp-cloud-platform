@@ -27,10 +27,9 @@ After you have created the `SAP S/4HANA Cloud Extensibility` service instance, y
 
 ## Procedure
 
-1.  Configure event topics for the channel inside SAP S/4HANA Cloud tenant. Use the channel you have specified in SAP S/4HANA Cloud Extensibility service descriptor JSON file when configuring the parameters for the communication arrangement in SAP S4/HANA Cloud tenant.
+Configure event topics for the channel inside SAP S/4HANA Cloud tenant. Use the channel you have specified in SAP S/4HANA Cloud Extensibility service descriptor JSON file when configuring the parameters for the communication arrangement in SAP S4/HANA Cloud tenant.
 
-    As an example, you can use the *sap/s4/beh/businesspartner/v1/BusinessPartner/Changed/v1* outbound topic.
-
+As an example, you can use the *sap/s4/beh/businesspartner/v1/BusinessPartner/Changed/v1* outbound topic.
 
 
 

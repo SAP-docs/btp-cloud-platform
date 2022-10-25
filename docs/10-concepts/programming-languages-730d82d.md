@@ -113,7 +113,7 @@ Kyma environment
 </td>
 <td valign="top">
 
- [Serverless Functions: Node.js and Python](../30-development/creating-functions-fe4ba5b.md) 
+ [Serverless Functions: Node.js and Python](../30-development/deploy-workloads-in-the-kyma-environment-to-extend-sap-systems-fe4ba5b.md) 
 
 
 

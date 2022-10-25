@@ -14,10 +14,9 @@ Once you're finished using the btp CLI and you want to ensure that your locally 
 
 ## Procedure
 
-1.  To log out, use `btp logout`.
+To log out, use `btp logout`.
 
-    This terminates your active logout session and ensures that all user-specific data is removed. The next time you log in, you will have to type in the subdomain of the global account and your user.
-
+This terminates your active logout session and ensures that all user-specific data is removed. The next time you log in, you will have to type in the subdomain of the global account and your user.
 
 **Related Information**  
 

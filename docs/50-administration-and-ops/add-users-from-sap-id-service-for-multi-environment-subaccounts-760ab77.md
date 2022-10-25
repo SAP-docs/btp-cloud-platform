@@ -26,12 +26,11 @@ When you create your own trial account, your SAP user is automatically created a
 
 ## Procedure
 
-1.  Create users and assign role collections to users in *Security* \> *Users*.
+Create users and assign role collections to users in *Security* \> *Users*.
 
-    It's possible to create users in custom identity providers and in the SAP ID service.
+It's possible to create users in custom identity providers and in the SAP ID service.
 
-    For more information, see [Working with Users](working-with-users-2c91f88.md).
-
+For more information, see [Working with Users](working-with-users-2c91f88.md).
 
 **Related Information**  
 

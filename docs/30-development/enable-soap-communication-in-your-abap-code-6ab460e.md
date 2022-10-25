@@ -12,7 +12,7 @@ SOAP-based Web service outbound communication within the ABAP environment is ena
 
 A SOAP destination is used to instantiate the Web service consumer proxy in the coding. You have the following options to create a SOAP destination object:
 
--   Communication arrangement approach: By specifying a destination based on a communication arrangement. See [Communication Arrangement](communication-arrangement-201de48.md).
+-   Communication arrangement approach: By specifying a destination based on a communication arrangement. See [Communication Arrangement](communication-management-5b8ff39.md#loio201de48e2f57404e9222181b019eff14).
 -   Destination service approach: By using a destination that is maintained in a destination service that resides in the Cloud Foundry environment \(not relevant for Developer Extensibility, see [Developer Extensibility](https://help.sap.com/viewer/6aa39f1ac05441e5a23f484f31e477e7/latest/en-US/e1059ff581854a699f15734049f14293.html)\).
 -   URL approach: By using a plain URL and setter methods to provide the needed configuration directly in the coding.
 

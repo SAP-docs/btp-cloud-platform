@@ -54,16 +54,15 @@ This task is meant for the `OrgManager` and `OrgAuditor` roles. To add members w
 
 ## Procedure
 
-1.  Enter the following command, specifying the user name, the name of the organization, and the role:
+Enter the following command, specifying the user name, the name of the organization, and the role:
 
-    ```
-    cf set-org-role <USERNAME> <ORG> <ROLE>
-    ```
+```
+cf set-org-role <USERNAME> <ORG> <ROLE>
+```
 
-    ```
-    cf set-org-role julie.armstrong@example.com account_subaccount-47v2w8dj OrgAuditor
-    ```
-
+```
+cf set-org-role julie.armstrong@example.com account_subaccount-47v2w8dj OrgAuditor
+```
 
 
 

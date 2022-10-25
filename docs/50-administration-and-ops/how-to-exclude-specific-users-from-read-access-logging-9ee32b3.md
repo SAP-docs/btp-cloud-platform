@@ -12,6 +12,5 @@ You cannot exclude specific users from Read Access Logging by using the app Read
 
 ## Procedure
 
--   To let users be excluded from Read Access Logging, please contact the Service Center.
-
+To let users be excluded from Read Access Logging, please contact the Service Center.
 

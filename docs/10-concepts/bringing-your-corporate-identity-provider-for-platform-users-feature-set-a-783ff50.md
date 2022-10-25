@@ -2,7 +2,7 @@
 
 # Bringing Your Corporate Identity Provider for Platform Users \[Feature Set A\]
 
-SAP BTP supports the use of your own identity provider for platform users. The use of your own identity provider requires integration between the user bases of Cloud Foundry and Neo environments.
+SAP BTP supports the use of your own identity provider for platform users.
 
 > ### Note:  
 > The content in this section is only relevant for cloud management tools feature set A. For more information, see [Cloud Management Tools - Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html).

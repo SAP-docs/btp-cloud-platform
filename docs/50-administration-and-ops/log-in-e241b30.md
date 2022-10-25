@@ -55,147 +55,146 @@ See [Log in with a Custom Identity Provider](log-in-with-a-custom-identity-provi
 
 ## Procedure
 
-1.  To log in manually, use `btp login`. The btp CLI prompts for all login information, but optionally, you can provide the required information as parameters.
+To log in manually, use `btp login`. The btp CLI prompts for all login information, but optionally, you can provide the required information as parameters.
 
-    Usage: `btp [OPTIONS] login [PARAMS]`
+Usage: `btp [OPTIONS] login [PARAMS]`
 
-    <a name="loioe241b30195ff4d009dba3076e0ae8d27__table_l3v_w4l_w3b"/>Parameters
-
-
-    <table>
-    <tr>
-    <td valign="top">
-
-    `--idp` *<TENANT\>*
+<a name="loioe241b30195ff4d009dba3076e0ae8d27__table_l3v_w4l_w3b"/>Parameters
 
 
-    
-    </td>
-    <td valign="top">
+<table>
+<tr>
+<td valign="top">
 
-    This parameter is only needed to work with a custom identity provider.
-
-    If trust is configured between your global account and a custom identity provider, use this parameter to log in through this identity provider by providing its tenant ID. You find the correct value in the cockpit under *Security* → *Trust Configuration* → *Custom Platform Identity Providers* 
-
-    > ### Note:  
-    > To work with users from a custom identity provider, you need to specify the `--of-idp` parameter by providing the origin key of the custom identity provider. This is applicable to the following commands: `btp list security/user`, `btp get security/user`, `btp delete security/user`, `btp assign security/role-collection`, `btp unassign security/role-collection`, and you find this origin key in the cockpit under *Security*.
-
-    For more information about using a custom identiy provider, see [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md).
+`--idp` *<TENANT\>*
 
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
 
-    `--url` *<URL\>*
+</td>
+<td valign="top">
 
+This parameter is only needed to work with a custom identity provider.
 
-    
-    </td>
-    <td valign="top">
+If trust is configured between your global account and a custom identity provider, use this parameter to log in through this identity provider by providing its tenant ID. You find the correct value in the cockpit under *Security* → *Trust Configuration* → *Custom Platform Identity Providers* 
 
-    The client proposes this URL: `https://cpcli.cf.eu10.hana.ondemand.com`, which you can confirm by pressing [ENTER\]. If your operator has provided you with a different server URL, you can specify it here. Note that when you enter a new server URL for the first time, you’re asked to confirm that you trust it.
+> ### Note:  
+> To work with users from a custom identity provider, you need to specify the `--of-idp` parameter by providing the origin key of the custom identity provider. This is applicable to the following commands: `btp list security/user`, `btp get security/user`, `btp delete security/user`, `btp assign security/role-collection`, `btp unassign security/role-collection`, and you find this origin key in the cockpit under *Security*.
 
-    > ### Note:  
-    > There is just one central CLI server, independent of the regions of your subaccounts. Unless you're in a private cloud and have received a CLI server URL from your operator, you should not change the proposed URL.
+For more information about using a custom identiy provider, see [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md).
 
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
 
-    `--subdomain` *<GLOBALACCOUNT\>*
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-
-    
-    </td>
-    <td valign="top">
-
-    The subdomain of the global account you want to log in to. You should have obtained the subdomain from your operator; but you can also find it in the cockpit in the global account view or under *Switch Global Account* dialog.
-
-     ![](images/cli_subdomain_dc4961c.png) 
-
-    > ### Note:  
-    > If you don't find the subdomain of the global account in your cockpit, your global accoiunt is probably not on SAP BTP feature set B, which means you cannot access it with the btp CLI. See [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
+`--url` *<URL\>*
 
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
 
-    `--user` *<USER\>*
+</td>
+<td valign="top">
 
+The client proposes this URL: `https://cpcli.cf.eu10.hana.ondemand.com`, which you can confirm by pressing [ENTER\]. If your operator has provided you with a different server URL, you can specify it here. Note that when you enter a new server URL for the first time, you’re asked to confirm that you trust it.
 
-    
-    </td>
-    <td valign="top">
-
-    Your user name, usually an email address.
+> ### Note:  
+> There is just one central CLI server, independent of the regions of your subaccounts. Unless you're in a private cloud and have received a CLI server URL from your operator, you should not change the proposed URL.
 
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
 
-    `--password` *<PASSWORD\>*
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-
-    
-    </td>
-    <td valign="top">
-
-    Your password. Note that if two-factor authentication is enabled, concatenate your password, followed by the passcode, in a single string.
-
-    > ### Tip:  
-    > We don’t recommend to provide the password with this parameter, as it appears in plain text and may be recorded in your shell history. Rather, enter it when you’re prompted.
+`--subdomain` *<GLOBALACCOUNT\>*
 
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
 
-    `--sso`
+</td>
+<td valign="top">
 
+The subdomain of the global account you want to log in to. You should have obtained the subdomain from your operator; but you can also find it in the cockpit in the global account view or under *Switch Global Account* dialog.
 
-    
-    </td>
-    <td valign="top">
+ ![](images/cli_subdomain_dc4961c.png) 
 
-    Opens a browser for single sign-on at the identity provider. To suppress automatic browser opening, use `--sso manual`. To use a custom identity provider, you need to add the `--idp` parameter.
-
-    > ### Note:  
-    > To log on with SAP Universal ID, you need to use this parameter. Otherwise log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
-    > 
-    > For more information, see SAP Note [3085908](https://launchpad.support.sap.com/#/notes/3085908) and [Log in with Single Sign-On](log-in-with-single-sign-on-b2a56a8.md).
+> ### Note:  
+> If you don't find the subdomain of the global account in your cockpit, your global accoiunt is probably not on SAP BTP feature set B, which means you cannot access it with the btp CLI. See [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
 
 
-    
-    </td>
-    </tr>
-    </table>
-    
-    ```
-    btp login --url https://cpcli.cf.eu10.hana.ondemand.com --subdomain my-global-account --user name@example.com
-    ```
 
-    If you've logged in before, the server URL, the subdomain, and the user from the last login are suggested. You can then press [Enter\] to confirm, or type in different values.
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-    ```
-    CLI server URL [https://cpcli.cf.eu10.hana.ondemand.com]>
-    Subdomain [my-global-account]>
-    User [name@example.com]>
-    ```
+`--user` *<USER\>*
 
+
+
+</td>
+<td valign="top">
+
+Your user name, usually an email address.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`--password` *<PASSWORD\>*
+
+
+
+</td>
+<td valign="top">
+
+Your password. Note that if two-factor authentication is enabled, concatenate your password, followed by the passcode, in a single string.
+
+> ### Tip:  
+> We don’t recommend to provide the password with this parameter, as it appears in plain text and may be recorded in your shell history. Rather, enter it when you’re prompted.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`--sso`
+
+
+
+</td>
+<td valign="top">
+
+Opens a browser for single sign-on at the identity provider. To suppress automatic browser opening, use `--sso manual`. To use a custom identity provider, you need to add the `--idp` parameter.
+
+> ### Note:  
+> To log on with SAP Universal ID, you need to use this parameter. Otherwise log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
+> 
+> For more information, see SAP Note [3085908](https://launchpad.support.sap.com/#/notes/3085908) and [Log in with Single Sign-On](log-in-with-single-sign-on-b2a56a8.md).
+
+
+
+</td>
+</tr>
+</table>
+
+```
+btp login --url https://cpcli.cf.eu10.hana.ondemand.com --subdomain my-global-account --user name@example.com
+```
+
+If you've logged in before, the server URL, the subdomain, and the user from the last login are suggested. You can then press [Enter\] to confirm, or type in different values.
+
+```
+CLI server URL [https://cpcli.cf.eu10.hana.ondemand.com]>
+Subdomain [my-global-account]>
+User [name@example.com]>
+```
 
 
 

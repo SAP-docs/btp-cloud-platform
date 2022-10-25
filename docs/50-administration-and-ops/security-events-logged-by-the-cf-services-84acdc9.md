@@ -539,22 +539,6 @@ SAP HANA Service for SAP BTP in SAP Regions
 <tr>
 <td valign="top">
 
-SAP HTML5 Application Repository service
-
-
-
-</td>
-<td valign="top">
-
-[Auditing and Logging Information](../30-development/auditing-and-logging-information-cb4f958.md)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 SAP Leonardo Machine Learning Foundation
 
 
@@ -643,38 +627,6 @@ SAP S/4HANA Cloud Extensibility
 <td valign="top">
 
 [Auditing and Logging Information](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/b250a8d232654c71a8080c2660d5305c.html)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Intelligent Robotic Process Automation
-
-
-
-</td>
-<td valign="top">
-
-[Audit Logging](https://help.sap.com/docs/IRPA/7d11fd4eb21e43309b8cff7033d23699/1ef872e79dd346579c1cc3db3cc4c71d.html)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Process Automation
-
-
-
-</td>
-<td valign="top">
-
-[Audit Logging](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/b55a658ce07e4e52972ead56e3901c15.html)
 
 
 

@@ -2849,43 +2849,6 @@ Generated as described in the description.
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-`zdm-mode`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-Parameter value of the `com.sap.xs.hdi` module type that if set to `true`, runs the deployment in a ZDM mode.
-
-
-
-</td>
-<td valign="top">
-
-n/a
-
-
-
-</td>
-<td valign="top">
-
-`zdm-mode: true`
-
-
-
-</td>
-</tr>
 </table>
 
 

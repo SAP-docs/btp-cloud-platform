@@ -177,9 +177,20 @@ SAP Java Buildpack provides the following components \(containers, JREs, framewo
 
 <a name="loioa3f90069d6cd41da82f34a6123d82ce6__section_wg4_djf_krb"/>
 
-## Release Notes
+## What's New
 
 To see the latest news and updates about SAP Java Buildpack, regularly check the release notes on the [What's New portal](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%2520Java%2520Buildpack&Valid_as_Of=2022-01-01%253A2022-12-31).
+
+
+
+<a name="loioa3f90069d6cd41da82f34a6123d82ce6__section_cc2_qzf_hvb"/>
+
+## Troubleshooting
+
+-   Guided Answers: [SAP Java Buildpack](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51219/?version=current)
+-   SAP Note: [3155402](https://launchpad.support.sap.com/#/notes/3155402) *Explicitly pin SAP Java Buildpack 1.48.1 in your manifest file*
+-   SAP Note: [3214025](https://launchpad.support.sap.com/#/notes/3214025) *Migrating Java Applications from TomEE 1.7 to TomEE 7*
+-   SAP Note: [3261748](https://launchpad.support.sap.com/#/notes/3261748) *SapMachine is replacing OpenJDK 11 & 17 in java\_buildpack*
 
 
 

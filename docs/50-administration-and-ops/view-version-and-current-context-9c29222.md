@@ -8,10 +8,9 @@ To find out the current context you’re working in, run the command `btp --info
 
 ## Procedure
 
-1.  Use `btp --info` or just `btp`.
+Use `btp --info` or just `btp`.
 
-    The client displays its own version, usage information, the CLI server URL and version, the current user, the location of the configuration file, as well as the global account, directory, or subaccount you’re targeting in their account hierarchy.
-
+The client displays its own version, usage information, the CLI server URL and version, the current user, the location of the configuration file, as well as the global account, directory, or subaccount you’re targeting in their account hierarchy.
 
 **Related Information**  
 

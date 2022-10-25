@@ -254,7 +254,7 @@ After your trial Kyma environment has expired, you must disable it to remove all
 2.  In the *Kyma Environment* section of your subaccount overview, click *Disable Kyma*.
 
     > ### Note:  
-    > On deletion of the expired cluster, we attempt to delete the Service Instances that you created with the cluster. If we cannot do that, you have to [remove the Service Instances yourself](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/99016f83ce8e4d049316b61b5cadf1fc.html "A list of all tasks and respective commands that are available in the SMCTL for SAP BTP.") :arrow_upper_right: before you disable such a *Kyma Environment*.
+    > On deletion of the expired cluster, we attempt to delete the Service Instances that you created with the cluster. If we cannot do that, you have to [remove the Service Instances yourself](https://help.sap.com/docs/SERVICEMANAGEMENT/09cc82baadc542a688176dce601398de/99016f83ce8e4d049316b61b5cadf1fc.html) before you disable such a *Kyma Environment*.
 
 
  <a name="loio2e07cf4be857422aa5ba911fc160b284"/>

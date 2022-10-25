@@ -14,11 +14,9 @@ SAP Java Buildpack integrates the [Cloud Foundry Java Logging Support](https://g
 
 ## Procedure
 
-1.  Bind the application to the SAP Application Logging service.
+1.  Bind the application to the SAP Application Logging service. In this way, you can produce application logs and forward them to a central application logging stack.
 
-    To produce application logs and forward them to a central application logging stack, you must bind your application to the SAP Application Logging service.
-
-2.  If you want to generate request metrics for applications using the Tomcat/TomEE application containers, add the *com.sap.hcp.cf.logging.servlet.filter.RequestLoggingFilter* filter to the `web.xml`.
+2.  If you want to generate request metrics for applications using the Tomcat/TomEE 7 application containers, add *com.sap.hcp.cf.logging.servlet.filter.RequestLoggingFilter* to the `web.xml` file.
 
     ```
     <filter-name>request-logging</filter-name>
@@ -31,14 +29,14 @@ SAP Java Buildpack integrates the [Cloud Foundry Java Logging Support](https://g
     ```
 
     > ### Note:  
-    > The default logging level of *com.sap.hcp.cf.logging.servlet.filter.RequestLoggingFilter* is set to *INFO*.
+    > The default logging level of *com.sap.hcp.cf.logging.servlet.filter.RequestLoggingFilter* is set to INFO.
 
 3.  Check the logs of the application.
 
-    If the binding of your application to the SAP Application Logging service was successful, the application logs can be found on `https://logs.cf.<LANDSCAPENAME>`. You can use the `cf logs` command to request the logs.
+    If the binding of your application to the SAP Application Logging service is successful, the application logs can be found on `https://logs.cf.<LANDSCAPENAME>`. To request the logs of your application, execute:
 
     ```
-    cf logs myapp --recent
+    cf logs <app_name> --recent
     ```
 
 4.  Change the logging level of a logging location.

@@ -121,7 +121,7 @@ Consider the following example of how a write to operation can be obtained and e
 
 ## Accessing data via a cursor
 
-An alternative to accessing the data in a worksheet via selections and stream is to obtain a cursor for a worksheet read access via method CURSOR on IF\_XCO\_XLSX\_RA\_WORKSHEET. Just as with desktop office suites, a cursor can first be positioned on any given cell \(identified by coordinate values for both the column and row of the cell\). Afterwards, it can be moved around the worksheet freely via the methods on IF\_XCO\_XLSX\_RA\_CURSOR:
+An alternative to accessing the data in a worksheet via selections and streams is to obtain a cursor for a worksheet read access via method CURSOR on IF\_XCO\_XLSX\_RA\_WORKSHEET. Just as with desktop office suites, a cursor can first be positioned on any given cell \(identified by coordinate values for both the column and row of the cell\). Afterwards, it can be moved around the worksheet freely via the methods on IF\_XCO\_XLSX\_RA\_CURSOR:
 
 -   Methods MOVE\_UP, MOVE\_RIGHT, MOVE\_DOWN and MOVE\_LEFT can be used to move the cursor relative to its current position by the given number of steps
 
@@ -192,7 +192,7 @@ The default value transformation is the best effort value transformation. It can
 
 ### 'Identity' value transformation
 
-The 'identity' value transformation doesn't apply any modification to the XLSX type or value of a cell. As such, the ABAP field that the cell value shall be written to must be fully compliant with the type and value of the cell as it's stored in the XLSX file.
+The 'identity' value transformation doesn't apply any modification to the XLSX type or value of a cell. As such, the ABAP field that the cell value shall be written to must be fully compliant with the type and value of the cell as it's stored in the XLSX file. Technically, the value as ist's stored in the XLSX file is first written to a string data object, which is then written to the provided ABAP field without changes and as such, if this write can't be performed successfully, a runtime error is to be expected.
 
 
 

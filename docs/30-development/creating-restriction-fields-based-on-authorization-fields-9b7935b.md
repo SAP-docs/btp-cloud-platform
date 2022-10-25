@@ -14,6 +14,5 @@ In the example used here, create a restriction field for the bonus variant field
 
 ## Procedure
 
-1.  For the procedure, see the ABAP development user guide: [Defining Restriction Fields](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/be62869bb04e49f6980923b31bbb74d2.html).
-
+For the procedure, see the ABAP development user guide: [Defining Restriction Fields](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/be62869bb04e49f6980923b31bbb74d2.html).
 

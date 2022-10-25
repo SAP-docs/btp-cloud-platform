@@ -47,7 +47,7 @@ The components and their interactions are depicted in the block-diagram below. I
 
 ### Application, Microservice, and App
 
-The Cloud Foundry environment of SAP BTP is a runtime platform for business web applications. These are referred to as applications. An SAP BTP application is implemented in an architectural style that structures the application as a collection of loosely coupled components, termed microservices. Microservices can be deployed independently from one another. This eliminates the need to deploy the complete application if only a subset of its microservices have received new features or a bug fix. In the terminology of the Cloud Foundry environment of SAP BTP, microservices are referred to as apps.
+The Cloud Foundry environment of SAP BTP is a runtime platform for business web applications. These are referred to as applications. An SAP SAP BTP application is implemented in an architectural style that structures the application as a collection of loosely coupled components, termed microservices. Microservices can be deployed independently from one another. This eliminates the need to deploy the complete application if only a subset of its microservices have received new features or a bug fix. In the terminology of the Cloud Foundry environment of SAP BTP, microservices are referred to as apps.
 
 
 
@@ -69,7 +69,7 @@ The security functionality of SAP BTP is based on the OAuth 2.0 specification. O
 
 The Cloud Foundry environment uses a standard implementation of OAuth 2.0 to protect its platform resources \(Orgs, Spaces, and platform operations on those entities\).
 
-However, the OAuth 2.0 specification is reused for SAP BTP with a proprietary implementation to protect the resources of business web applications powered by the Cloud Foundry environment. The proprietary implementation exchanges the responsibilities of the OAuth 2.0 entities, Client and Resource Owner: the OAuth 2.0 Client - represented by the application - holds all the authorizations. A set or subset of these authorizations is assigned to the user after authentication in the system. The application also acts as the OAuth 2.0 Resource Server because it contains the resource apps. All apps of an application operate under the same OAuth 2.0 Client.
+However, the OAuth 2.0 specification is reused for SAP BTP with a proprietary implementation to protect the resources of business web applications powered by the Cloud Foundry environment. The proprietary implementation exchanges the responsibilities of the OAuth 2.0 entities, Client and Resource Owner: the OAuth 2.0 Client - represented by the application - holds all the authorizations. A set or sub-set of these authorizations is assigned to the user after authentication in the system. The application also acts as the OAuth 2.0 Resource Server because it contains the resource apps. All apps of an application operate under the same OAuth 2.0 Client.
 
 The Extended Services - User Account and Authentication \(XSUAA\) service provides functionality for administrating and assigning application authorizations. It acts as the OAuth 2.0 authorization server and represents a typical reuse service. The XSUAA service broker creates a service instance for each application. Each app that wants to enforce authorizations with the Security Client Library is then bound to this XSUAA service instance of the corresponding application.
 

@@ -62,9 +62,18 @@ The SAP `nodejs_buildpack` supports the following versions:
 
 <a name="loio3a7a0bece0d044eca59495965d8a0237__section_o5d_4t1_krb"/>
 
-## Release Notes
+## What's New
 
 To see the latest news and updates about the Node.js System Buildpack, regularly check the release notes on the [What's New portal](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Node.js%2520System%2520Buildpack).
+
+
+
+<a name="loio3a7a0bece0d044eca59495965d8a0237__section_iwr_zxf_hvb"/>
+
+## Troubleshooting
+
+-   Guided Answers: [Node.js Buildpack](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51218/?version=current)
+-   SAP Note: [3100002](https://launchpad.support.sap.com/#/notes/3100002) *How to pin the new nodejs\_buildpack\_migratе solution*
 
 
 

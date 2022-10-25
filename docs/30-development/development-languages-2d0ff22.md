@@ -23,6 +23,14 @@ Find more information on the three main languages supported by SAP by following 
 
 Tutorial Navigator: [Build an Application in the Cloud Foundry Runtime](https://developers.sap.com/group.btp-cf-buildpacks.html)
 
+
+
+<a name="loio2d0ff228fbd049638daa3cc2a66066cb__section_lg5_j1g_hvb"/>
+
+## Guided Answers
+
+Find solutions to some Java, Python and Node.js issues in the troubleshooting section: [SAP Cloud Foundry Buildpacks](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226/?version=current)
+
 **Related Information**  
 
 

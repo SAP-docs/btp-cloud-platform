@@ -22,7 +22,7 @@ The host name of the Cloud Connector is not needed because the Cloud Connector i
 > ### Note:  
 > For more information on the deprecated scenario that uses the Connectivity service in the Neo environment, see [Create a Communication Arrangement for Cloud Connector Integration \(Deprecated\)](create-a-communication-arrangement-for-cloud-connector-integration-deprecated-16c9c3d.md).
 
-After you have completed the setup, a connection from the ABAP environment tenant to an on-premise system is established in the following order \(the picture below shows the default scenario\):
+After you have completed the setup, a connection from the ABAP environment tenant to an on-premise system is established in the following order:
 
 1.  The ABAP environment tenant fetches the destination from the Destination service instance.
 2.  The ABAP environment tenant requests to open the tunnel connection through the Connectivity service.

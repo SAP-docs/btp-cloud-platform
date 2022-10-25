@@ -21,20 +21,19 @@ You can bind service instances to applications using the Cloud Foundry Command L
 
 ## Procedure
 
-1.  Open a command line and enter the following string:
+Open a command line and enter the following string:
 
-    ```
-    cf bind-service APP-NAME SERVICE_INSTANCE [-c PARAMETERS_AS_JSON]
-    ```
+```
+cf bind-service APP-NAME SERVICE_INSTANCE [-c PARAMETERS_AS_JSON]
+```
 
-    Specify the following parameters:
+Specify the following parameters:
 
-    -   `APP_NAME`: Name of the application.
+-   `APP_NAME`: Name of the application.
 
-    -   `SERVICE_INSTANCE`: Name of the service instance.
+-   `SERVICE_INSTANCE`: Name of the service instance.
 
-    -   `-c`: \(Optional\) Provide service-specific configuration parameters either in a valid JSON object in-line or in a parameters file. This file reference can be an absolute or relative path to a file.
-
+-   `-c`: \(Optional\) Provide service-specific configuration parameters either in a valid JSON object in-line or in a parameters file. This file reference can be an absolute or relative path to a file.
 
 
 **Related Information**  

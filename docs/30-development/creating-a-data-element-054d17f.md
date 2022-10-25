@@ -16,22 +16,21 @@ As part of the development artefacts, you also create a table `ZORDERS` \(see [C
 
 ## Procedure
 
--   Create a data element `ZREGION`, based on a domain `ZREGIONDOM` with a value table `ZREGIONS`.
+Create a data element `ZREGION`, based on a domain `ZREGIONDOM` with a value table `ZREGIONS`.
 
-    For example, your code can look like the following:
+For example, your code can look like the following:
 
-    > ### Sample Code:  
-    > ```
-    > @EndUserText.label : 'REGIONS'
-    > @AbapCatalog.enhancement.category : #NOT_EXTENSIBLE
-    > @AbapCatalog.tableCategory : #TRANSPARENT
-    > @AbapCatalog.deliveryClass : #A
-    > @AbapCatalog.dataMaintenance : #RESTRICTED
-    > define table zregions {
-    >   key region : zregion not null;
-    > 
-    > }
-    > 
-    > ```
-
+> ### Sample Code:  
+> ```
+> @EndUserText.label : 'REGIONS'
+> @AbapCatalog.enhancement.category : #NOT_EXTENSIBLE
+> @AbapCatalog.tableCategory : #TRANSPARENT
+> @AbapCatalog.deliveryClass : #A
+> @AbapCatalog.dataMaintenance : #RESTRICTED
+> define table zregions {
+>   key region : zregion not null;
+> 
+> }
+> 
+> ```
 

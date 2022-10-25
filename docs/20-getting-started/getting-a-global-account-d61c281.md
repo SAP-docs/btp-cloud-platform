@@ -68,7 +68,7 @@ When you want to purchase a customer account, you can select from a set of prede
 
 ## Free Tier
 
-If you want to try out services for free, with the option of easily upgrading them later, you can get an enterprise account and use free tier service plans only. See [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html). When you sign up for a global account to try out free tier service plans, you need to select either an existing global account of your company, or create a new global account. If you choose an existing global account, make sure to contact the global account admin of this global account, as they'll receive the access communication emails. In this case, we recommend to have them add you as Global Account Administrator. See [Assign Users to Role Collections](../50-administration-and-ops/assign-users-to-role-collections-c576676.md) and [SAP BTP Onboarding Resource Center](https://support.sap.com/en/product/onboarding-resource-center/business-technology-platform.html).
+If you want to try out services for free, with the option of easily upgrading them later, you can get an enterprise account and use free tier service plans only. See [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html). When you sign up for a global account to try out free tier service plans, you need to select either an existing global account of your company, or create a new global account. If you choose an existing global account, make sure to contact the global account admin of this global account, as they'll receive the communication emails. In this case, we recommend to have them add you as Global Account Administrator. See [Assign Users to Role Collections](../50-administration-and-ops/assign-users-to-role-collections-c576676.md) and [SAP BTP Onboarding Resource Center](https://support.sap.com/en/product/onboarding-resource-center/business-technology-platform.html).
 
 You can upgrade and refine your resources later on. You can also contact your SAP sales representative and opt for a configuration, tailored to your needs.
 
@@ -78,11 +78,12 @@ You can upgrade and refine your resources later on. You can also contact your SA
 
 ## Onboarding
 
-After you have purchased your customer account, you will receive emails confirming the provisioning of resources from the platform services team as well as the URL and login ID to confirm access. If you chose an add-on to an existing global account, the initial access email will not be sent to you, but to the initial Global Account Administrator. In this case, only this SAP user will have the initial entitlement on SAP BTP. You can change this contact via the [SAP Support Portal](https://support.sap.com/en/index.html), by creating a ticket at component `BC-NEO-CIS-OPS`.
+After you have purchased a new customer account, you will receive an email confirming the provisioning of resources from the platform services team and a second email with the URL and login ID to obtain access. Note, only the person who receives the access email has initial access to SAP BTP.
 
-In a second e-mail, usually shortly before the contract start date, you will receive logon information for your new global account. The S-user of the global account administrator is attached to your licensed global account and your entitlements from your consumption or subscription license. So it is essential, that you initially log on with correct global account administrator.
+If you chose an add-on to an existing global account, the initial access email will not be sent to you. You will need to contact the Global Account Administrator from the initial BTP order. If you’re unsure who this person is, please contact your SAP Sales representative. If you need to add a new global admin because the person with initial access is no longer available to grant you access, then you can contact the SAP Support Portal, by creating a ticket at component BC-NEO-CIS-OPS.
 
-You may check your assigned SAP S-users \(you might have more than one\) independent from SAP BTP with [SAP ID Service](https://accounts.sap.com/). To change this S-user,
+> ### Tip:  
+> Check out the [Live Onboarding Webinars](https://support.sap.com/en/product/onboarding-resource-center/business-technology-platform.html).
 
 
 

@@ -28,7 +28,7 @@ Get an overview of the communication scenario `SAP_COM_0683` - Enabling Notifica
 
 ## Procedure
 
-1.  Log on to the SAP Fiori launchpad in your SAP S/4HANA Cloud system.
+1.  Log on to the SAP Fiori launchpad in your SAP BTP, ABAP environment system.
 
 2.  Open the *Communication Arrangements* app.
 
@@ -38,7 +38,7 @@ Get an overview of the communication scenario `SAP_COM_0683` - Enabling Notifica
 
 5.  Create a new communication system by choosing *New* next to the communication system.
 
-6.  Provide values for *System ID* and *System Name* and then, choose *Create*.
+6.  Provide values for *System ID* and *System Name* and then choose *Create*.
 
 7.  In the *Technical Data* section, enter the value for *Host* obtained from the launchpad running on SAP BTP.
 

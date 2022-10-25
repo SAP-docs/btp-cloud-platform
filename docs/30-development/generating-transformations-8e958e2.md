@@ -2,9 +2,9 @@
 
 # Generating Transformations
 
-The XCO Generation APIs offer support for both PUT and DELETE operations for transformations \(XSLT objects\).
+The XCO Generation APIs offer support for PUT and DELETE operations for transformations \(XSLT objects\).
 
-The code samples below illustrate how transformations can be generated via PUT operations and directly invoked dynamically to extract data from a provided XML string as well as present data as XML \(making use of XCO Standard Library functionality to conveniently translate between strings and xstrings based on UTF-8\).
+The first code sample below illustrates how a transformation can be generated via a PUT operation and directly invoked dynamically to extract data from a provided XML string as well as present data as XML \(making use of XCO Standard Library functionality to conveniently translate between strings and xstrings based on UTF-8\).
 
 > ### Sample Code:  
 > ```abap

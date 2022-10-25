@@ -154,17 +154,11 @@ You can deploy your content to the HTML5 Application Repository using the HTML5 
 
     For a general description of MTA descriptors, see [Multitarget Applications in the Cloud Foundry Environment](multitarget-applications-in-the-cloud-foundry-environment-d04fc0e.md).
 
-4.  Create the `pom.xml` file for your project according to the multi-target application build \(MBT\) requirements.
+4.  Build and deploy the mta.yaml \(MTA development descriptor\).
 
-5.  In the Cloud Foundry command line interface \(CLI\), navigate to your project root and enter the CLI command: `mvn clean install`.
+    For more information about the build and deployment of MTA descriptors, see [Multitarget Applications in the Cloud Foundry Environment](multitarget-applications-in-the-cloud-foundry-environment-d04fc0e.md).
 
-    The `*.mtar` file is generated. The `*.mtar` file includes an `mtad.yaml` \(MTA deployment descriptor\) file .
-
-6.  Deploy the `*.mtar` file using the CLI command `cf deploy`.
-
-    `cf deploy myHTML5App-deployer-assembly-0.0.1.mtar`
-
-    The `mtad.yaml` file included in the `*.mtar` acts as the deployment descriptor. The Cloud Foundry deploy plug-in uses this file to configure the following:
+    The deployment starts the following:
 
     -   Create an HTML5 Application Repository service instance of the `app-host` service plan.
 

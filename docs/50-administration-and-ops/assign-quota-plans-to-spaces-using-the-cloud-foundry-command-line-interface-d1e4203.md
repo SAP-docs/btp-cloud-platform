@@ -19,10 +19,9 @@ You use the Cloud Foundry Command Line Interface to assign the quotas available 
 
 ## Procedure
 
-1.  Open a command line and enter the following string:
+Open a command line and enter the following string:
 
-    ```
-    cf set-space-quota SPACE_NAME SPACE_QUOTA_NAME
-    ```
-
+```
+cf set-space-quota SPACE_NAME SPACE_QUOTA_NAME
+```
 

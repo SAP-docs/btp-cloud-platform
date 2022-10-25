@@ -74,5 +74,5 @@ Depending on whether you are using Cloud Foundry or Kyma environment, you have t
 **Related Information**  
 
 
-[Communication Arrangement JSON/YAML File - Properties](communication-arrangement-json-yaml-file-properties-553a4c6.md "Use the service JSON descriptor for the Cloud Foundry environment or the service YAML descriptor for the Kyma environment to define the communication arrangement and the authentication type for the SAP S4/HANA Cloud API access.")
+[Communication Arrangement JSON/YAML File - Properties](communication-arrangement-json-yaml-file-properties-553a4c6.md "Use the service JSON descriptor for the Cloud Foundry environment or the service YAML descriptor for the Kyma environment to define the communication arrangement and the authentication type for the SAP S/4HANA Cloud API access.")
 

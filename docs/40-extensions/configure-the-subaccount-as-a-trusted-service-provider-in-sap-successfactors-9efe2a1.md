@@ -21,7 +21,10 @@ To configure the subaccount as a trusted service provider in SAP SuccessFactors,
 
 ## Context
 
-With the SAP SuccessFactors Extensibility service instance uing the *sso-configuration* service plan, you can create automatically an assertion consumer service in SAP SuccessFactors for the subaccount in which this service instance is created and a logout URL for each extension application you have deployed in SAP BTP that is extending the functionality of the registered SAP SuccessFactors system. To create an assertion consumer service, you either go to the SAP SuccessFactors Provisioning and create these assertion consumer services manually, or create them automatically in the SAP BTP cockpit via an SAP SuccessFactors Extensibility service instance using the *sso-configuration* service plan without loggin in to the Provisioning. If you want to create an assertion consumer service in the Provisioning manually, see:
+> ### Note:  
+> The content in this section is only relevant for cloud management tools feature set B. For more information, see [Cloud Management Tools - Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html).
+
+With the SAP SuccessFactors Extensibility service instance using the *sso-configuration* service plan, you can create automatically an assertion consumer service in SAP SuccessFactors for the subaccount in which this service instance is created and a logout URL for each extension application you have deployed in SAP BTP that is extending the functionality of the registered SAP SuccessFactors system. To create an assertion consumer service, you either go to the SAP SuccessFactors Provisioning and create these assertion consumer services manually, or create them automatically in the SAP BTP cockpit via an SAP SuccessFactors Extensibility service instance using the *sso-configuration* service plan without loggin in to the Provisioning. If you want to create an assertion consumer service in the Provisioning manually, see:
 
 -   [Register the Assertion Consumer Service of the Subaccount in SAP BTP in SAP SuccessFactors](register-the-assertion-consumer-service-of-the-subaccount-in-sap-btp-in-sap-successfactor-de3a1b3.md)
 

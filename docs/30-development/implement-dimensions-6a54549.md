@@ -2,22 +2,43 @@
 
 # Implement Dimensions
 
-You have created a data definition as described in [Create Data Definitions using CDS View Entities](create-data-definitions-using-cds-view-entities-c5f4dc1.md). Now follow these steps to create dimensions.
+This part of the guide will show you how to implement dimensions needed for the [Star Schema](star-schema-483cc06.md).
+
+You have created a data definition as described in [Create Data Definitions using CDS View Entities](create-data-definitions-using-cds-view-entities-c5f4dc1.md)
 
 Dimension views provide additional attributes for the dimension fields in the cube view. See [Star Schema](star-schema-483cc06.md).
 
-1.  Add the mandatory header annotions for dimensions:
+In order to avoid the generation of SQL artifacts that are not required by the analytical engine\(s\) to process the query, a new artifact type in CDS is introduced. This is the `transient (projection) view entity`. These transient view entities support the same functionality as other CDS entity types, with the main difference being that no SQL artifact is generated in the HANA database during activation. The basic CDS syntax looks as follows:
+
+> ### Sample Code:  
+> ```
+> DEFINE TRANSIENT VIEW ENTITY <entity_name>
+>     PROVIDER CONTRACT analytical_query
+>     WITH PARAMETERS <param_name> : <param_type> DEFAULT <value>, …
+>     AS PROJECTION ON <data_source_name>
+> {
+>       …
+> } …;
+> ```
+
+Dimensions consist of several parts. These are:
+
+1.  The mandatory header annotions for dimensions:
 
     ```abap
+    @AbapCatalog.viewEnhancementCategory: [#NONE]
+    @AccessControl.authorizationCheck: #NOT_REQUIRED
+    @EndUserText.label: 'View entity agency'
     @Analytics.dataCategory: #DIMENSION
-    @ObjectModel.representativeKey: 'CarrierID'
+    @ObjectModel.representativeKey: 'AgencyId'
     ```
 
-2.  Choose the data source that you would like to select from.
+2.  The data source that you would like to select from, as well as associations.
 
     ```abap
-    define view entity Z_AIRLINE_VE_DIM
-      as select from /dmo/carrier as Airline
+    define view entity Z_VE_AGENCY_DIM
+    as select from /dmo/agency as _Agency
+    association to /DMO/I_Travel_U as _Travel on $projection.AgencyId = _Travel.AgencyID
     ```
 
 3.  While defining the fields, 'as' must be used to define an alternative element name alias.
@@ -25,33 +46,16 @@ Dimension views provide additional attributes for the dimension fields in the cu
     **Fields Definition**
 
     ```abap
-    key   Airline.carrier_id    as CarrierId,
-          Airline.name          as AirlineName,     
-          Airline.currency_code as CurrencyCode
-    ```
-
-4.  Field annotations must be defined on top of the fields.
-
-    **Fields Annotations**
-
-    ```abap
-     @ObjectModel.text.element: ['AirlineName']
-    key Airline.carrier_id    as CarrierId,
-     
-        @Semantics.text: true
-        @Search.defaultSearchElement: true
-        @Search.fuzzinessThreshold: 0.7
-        Airline.name          as AirlineName,
-         
-        Airline.currency_code as CurrencyCode
-    ```
-
-    The fields are prefixed with the alias of the data source name. This is to avoid duplication of field names when multiple data sources are used.
-
-    **Prefixed field with data source alias**
-
-    ```
-     Airline.name          as AirlineName
+    key agency_id    as AgencyId,
+     name             as Name,
+     street           as Street,
+     postal_code      as PostalCode,
+     city             as City,
+     country_code     as CountryCode,
+     phone_number     as PhoneNumber,
+      /* Associations */
+     _Travel.TravelID as TravelID,
+     _Travel
     ```
 
 
@@ -65,30 +69,25 @@ Dimension views provide additional attributes for the dimension fields in the cu
 
 ```abap
 @AbapCatalog.viewEnhancementCategory: [#NONE]
-@AccessControl.authorizationCheck: #CHECK
-@EndUserText.label: 'Airline View Entity - CDS Data Model'
-@ObjectModel.usageType:{
-    serviceQuality: #X,
-    sizeCategory: #S,
-    dataClass: #MIXED
-}
- 
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'View entity agency'
 @Analytics.dataCategory: #DIMENSION
-@ObjectModel.representativeKey: 'CarrierId'
+@ObjectModel.representativeKey: 'AgencyId'
  
-define view entity Z_AIRLINE_VE_DIM
-  as select from /dmo/carrier as Airline
- 
+define view entity Z_VE_AGENCY_DIM
+as select from /dmo/agency as _Agency
+association to /DMO/I_Travel_U as _Travel on $projection.AgencyId = _Travel.AgencyID
 {
-      @ObjectModel.text.element: ['AirlineName']
-  key Airline.carrier_id    as CarrierId,
- 
-      @Semantics.text: true
-      @Search.defaultSearchElement: true
-      @Search.fuzzinessThreshold: 0.7
-      Airline.name          as AirlineName,
-       
-      Airline.currency_code as CurrencyCode
+ key agency_id    as AgencyId,
+ name             as Name,
+ street           as Street,
+ postal_code      as PostalCode,
+ city             as City,
+ country_code     as CountryCode,
+ phone_number     as PhoneNumber,
+  /* Associations */
+ _Travel.TravelID as TravelID,
+ _Travel
 } 
 ```
 
@@ -108,40 +107,24 @@ For more information on the annotations, see [CDS Annotations](https://help.sap.
 
 ### Other dimensions needed for our example:
 
-**Z\_CUSTOMER\_VE\_DIM**
+**Z\_VE\_AIRLINE\_DIM**
 
 ```abap
 @AbapCatalog.viewEnhancementCategory: [#NONE]
-@AccessControl.authorizationCheck: #CHECK
-@EndUserText.label: 'Customer View Entity - CDS View Model'
-@ObjectModel.usageType:{
-    serviceQuality: #X,
-    sizeCategory: #S,
-    dataClass: #MIXED
-}
- 
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'View entity for Airline'
 @Analytics.dataCategory: #DIMENSION
-@ObjectModel.representativeKey: 'CustomerID'
+@ObjectModel.representativeKey: 'CarrierId'
  
-define view entity Z_CUSTOMER_VE_DIM
-as select from /dmo/customer as Customer
- 
-association [1] to I_Country as _Country on Customer.country_code = _Country.Country
- 
+define view entity Z_VE_AIRLINE_DIM
+as select from /dmo/carrier as _Airline
 {
-   key Customer.customer_id  as CustomerId,
-       Customer.first_name   as FirstName,
-       Customer.last_name    as LastName,
-       Customer.title        as Title,
-       Customer.street       as Street,
-       Customer.postal_code  as PostalCode,
-       Customer.city         as City,
-       @ObjectModel.foreignKey.association: '_Country'
-       Customer.country_code as CountryCode,
-       Customer.phone_number as PhoneNumber,
-    
-   /*Associations*/
-   _Country
+ 
+@ObjectModel.text.element: ['AirlineName']
+key carrier_id    as CarrierId,
+    name          as AirlineName,
+    currency_code as CurrencyCode
+ 
 }
 ```
 
@@ -149,69 +132,56 @@ association [1] to I_Country as _Country on Customer.country_code = _Country.Cou
 
 ```abap
 @AbapCatalog.viewEnhancementCategory: [#NONE]
-@AccessControl.authorizationCheck: #CHECK
-@EndUserText.label: 'Connection View Entity - CDS View Model'
-@ObjectModel.usageType:{
-    serviceQuality: #X,
-    sizeCategory: #S,
-    dataClass: #MIXED
-}
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'View entity connection'
+@Analytics.dataCategory:  #DIMENSION
+@ObjectModel.representativeKey: 'ConnectionId'
  
-@Analytics.dataCategory: #DIMENSION
-@ObjectModel.representativeKey: 'ConnectionID'
+define view entity Z_VE_CONNECTION_DIM
+as select from /dmo/connection as _Connection
  
-define view entity Z_Connection_VE_DIM
-as select from /dmo/connection as Connection
-association [1] to Z_AIRLINE_VE_DIM as _Airline on Connection.carrier_id = _Airline.CarrierId
+association to Z_VE_AIRLINE_DIM as _Airline on $projection.CarrierId = _Airline.CarrierId
  
-{     @ObjectModel.foreignKey.association: '_Airline'
-  key Connection.carrier_id      as CarrierId,
-  key Connection.connection_id   as ConnectionId,
-      Connection.airport_from_id as AirportFromId,
-      Connection.airport_to_id   as AirportToId,
-      Connection.departure_time  as DepartureTime,
-      Connection.arrival_time    as ArrivalTime,
-      Connection.distance        as Distance,
-      Connection.distance_unit   as DistanceUnit,
-      concat(airport_from_id, concat(' -> ', airport_to_id)) as Trip,
-       
-      /*Associations*/
-      _Airline
+{
+  @ObjectModel.foreignKey.association: '_Airline'
+  key carrier_id    as CarrierId,
+  key connection_id as ConnectionId,
+  airport_from_id   as AirportFromId,
+  airport_to_id     as AirportToId,
+  departure_time    as DepartureTime,
+  arrival_time      as ArrivalTime,
+  distance          as Distance,
+  distance_unit     as DistanceUnit, 
+  concat(airport_from_id, airport_to_id) as trip,
+    /* Associations */  
+  _Airline 
 }
 ```
 
-**Z\_Agency\_VE\_DIM**
+**Z\_VE\_CUSTOMER\_DIM**
 
 ```abap
 @AbapCatalog.viewEnhancementCategory: [#NONE]
 @AccessControl.authorizationCheck: #CHECK
-@EndUserText.label: 'Agency View - CDS View Entity Model'
-@ObjectModel.usageType:{
-    serviceQuality: #X,
-    sizeCategory: #S,
-    dataClass: #MIXED
-}
- 
+@EndUserText.label: 'View entity customer'
 @Analytics.dataCategory: #DIMENSION
-@ObjectModel.representativeKey: 'AgencyID'
+@ObjectModel.representativeKey: 'CustomerId'
  
-define view entity Z_AGENCY_VE_DIM
-as select from /dmo/agency as Agency
-association to /DMO/I_Travel_U as _Travel  on Agency.agency_id = _Travel.AgencyID
- 
+define view entity Z_VE_CUSTOMER_DIM
+as select from /dmo/customer as _Customer
+association [0..1] to I_Country as _Country on $projection.CountryCode = _Country.Country
 {
-   key agency_id       as AgencyId,
-   @Semantics.text: true
-   name                as Name,
-   street              as Street,
-   postal_code         as PostalCode,
-   city                as City,
-   country_code        as CountryCode,
-   phone_number        as PhoneNumber,
-   _Travel.TravelID    as TravelID,
-     
-   /*Associations*/
-   _Travel
+    key customer_id as CustomerId,
+    first_name      as FirstName,
+    last_name       as LastName,
+    title           as Title,
+    street          as Street,
+    postal_code     as PostalCode,
+    city            as City,
+    @ObjectModel.foreignKey.association: '_Country'
+    country_code    as CountryCode,
+    /* Associations */
+    _Country
 }
 ```
 

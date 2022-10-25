@@ -6,24 +6,27 @@ Follow these steps to implement a query on top of your analytical model.
 
 For more information, see [Query](query-d3f8dc9.md).
 
+**Prerequisites:**
+
 You have completed the following steps:
 
 -   [Implement Dimensions](implement-dimensions-6a54549.md)
--   [Implement a Cube](implement-a-cube-4e4b646.md)
+-   [Implement Cubes](implement-cubes-4e4b646.md)
 
 1.  Create another data definition as described in [Create Data Definitions using CDS View Entities](create-data-definitions-using-cds-view-entities-c5f4dc1.md).
-2.  Add the mandatory header annotion for queries:
+2.  Choose the underlying cube view.
 
-    **Header Annotation**: `@Analytics.query: true`
-
-3.  Choose the data source that you would like to select from.
-
-    ```abap
-    define view entity Z_BOOKINGS_VE_QUERY
-      as select from Z_BOOKINGS_VE_CUBE as BookingsCube
+    ```
+    DEFINE TRANSIENT VIEW ENTITY <entity_name>
+        PROVIDER CONTRACT analytical_query
+        WITH PARAMETERS <param_name> : <param_type> DEFAULT <value>, …
+        AS PROJECTION ON <data_source_name>
+    {
+          …
+    } …;
     ```
 
-4.  Add the query annotations:
+3.  Add the query annotations:
 
     -   Annotation `@AnalyticsDetails.query.axis:'<VALUE>’` 
 
@@ -49,53 +52,118 @@ You have completed the following steps:
 
 
 
-<a name="loioa208568685a2448abd4b9081e80c8f00__section_vns_vfc_q4b"/>
 
-## Result
 
-**Z\_Bookings\_VE\_Query**
+### Analytical Report 1
 
-```abap
-@EndUserText.label: 'Bookings View Entity - CDS Data Model'
-@Analytics.query: true
+ **Z\_VE\_ANA\_PROJVIEW\_Q** 
+
+```
+@EndUserText.label: 'Analytical projection view'
+@AccessControl.authorizationCheck: #NOT_ALLOWED                          // No definition of a DCL
+define transient view entity Z_VE_ANA_PROJVIEW_Q                         // transient: only a ABAP Server runtime object is generated
+  provider contract analytical_query                                     // provider contract analytical query: strict analytical checks are executed inside Dictionary Activation
+   
+  with parameters                                                        // Parameters are allowed
+    p_preferred_currency : abap.dec(15,2)
  
-define view entity Z_BOOKINGS_VE_QUERY
-  as select from Z_BOOKINGS_VE_CUBE as BookingsCube
- 
+  as projection on Z_VE_FLTBKS_CUBE                                      // Underlying View needs to be a CUBE view
 {
-      /*Dimensions*/    
-      @AnalyticsDetails.query.display: #KEY_TEXT
-      @AnalyticsDetails.query.axis: #ROWS
-  key BookingsCube.TravelID,
-      @AnalyticsDetails.query.display: #KEY_TEXT
-      @AnalyticsDetails.query.axis: #ROWS
-  key BookingsCube.BookingID,
-      @AnalyticsDetails.query.axis: #ROWS
-      BookingsCube.BookingDate,
-      @AnalyticsDetails.query.axis: #ROWS
-      BookingsCube.CustomerID,
-      @AnalyticsDetails.query.axis: #ROWS
-      BookingsCube.AirlineID,
-      @AnalyticsDetails.query.axis: #ROWS
-      BookingsCube.CustomerCountry,
-      @AnalyticsDetails.query.axis: #ROWS
-      BookingsCube.CustomerCity,
-      @AnalyticsDetails.query.axis: #ROWS
-      BookingsCube.ConnectionID,
-      @AnalyticsDetails.query.axis: #ROWS
-      BookingsCube.CurrencyCode,
-      @AnalyticsDetails.query.axis: #ROWS
-      BookingsCube.FlightDate,
-      @AnalyticsDetails.query.axis: #ROWS
-      BookingsCube.AgencyID,
-      @AnalyticsDetails.query.axis: #ROWS
-      BookingsCube.AgencyName,
  
-      /*Measures*/
-      TotalOfBookings,
-      FlightPrice   
+          @AnalyticsDetails.query.axis: #ROWS
+          TravelID,
+          @AnalyticsDetails.query.axis: #ROWS
+          BookingID,
+          @AnalyticsDetails.query.axis: #ROWS
+          CustomerID,
+          @AnalyticsDetails.query.axis: #ROWS
+          Airline,
+          @AnalyticsDetails.query.axis: #ROWS
+          ConnectionID,
+          @AnalyticsDetails.query.axis: #ROWS
+          FlightDate,
+          @AnalyticsDetails.query.axis: #ROWS
+          FlightPrice,
+          @AnalyticsDetails.query.axis: #ROWS
+          CurrencyCode,
+          @AnalyticsDetails.query.axis: #ROWS
+          BookingDate,
+          TotalNoOfBookings,
+          @AnalyticsDetails.query.axis: #ROWS
+          Distance,
+          @AnalyticsDetails.query.axis: #ROWS
+          DistanceUnit,
+          @AnalyticsDetails.query.axis: #ROWS
+          TotalPrice,
+          @AnalyticsDetails.query.axis: #ROWS
+          BookingFee,
+          @AnalyticsDetails.query.axis: #ROWS
+          FlightPricePerBooking,         
+           
+          @AnalyticsDetails.query.axis: #ROWS                               // Typed Literals
+          @Aggregation.default: #FORMULA                                    // Calculated Units as references for calculated quantities
+          @EndUserText.label: 'Discount On Booking'
+          abap.decfloat34'0.05'                                  as DiscountOnBooking,
+ 
+          @AnalyticsDetails.query.axis: #ROWS
+          @Aggregation.default: #FORMULA
+          @EndUserText.label: 'Tax On Booking'
+          abap.decfloat34'0.19'                                  as TaxOnBooking,
+ 
+          @AnalyticsDetails.query.axis: #ROWS
+  virtual CurrencyCode1 : abap.cuky( 5 ),                                   // Definition of calculated units via virtual   
+ 
+          @AnalyticsDetails.query.axis: #ROWS
+          @Semantics.amount.currencyCode: 'CurrencyCode1'
+          @Aggregation.default: #FORMULA
+          @EndUserText.label: 'FliPrice Discounted'
+          curr_to_decfloat_amount( FlightPricePerBooking ) * ( 1 - $projection.DiscountOnBooking  ) as FlightPriceDiscounted, // Referring to other expressions via $projection
+          
+          @AnalyticsDetails.query.axis: #ROWS
+          @Semantics.amount.currencyCode: 'CurrencyCode'
+          @Aggregation.default: #FORMULA
+          @EndUserText.label: 'Final Flight Price'
+          $projection.FlightPriceDiscounted * ( 1 + $projection.TaxOnBooking )                      as FlightPriceDiscountedTaxed
+           
 }
 ```
+
+
+
+### Analytical Report 2
+
+For our example, we will be using two queries. Copy following is the code needed for the second query.
+
+> ### Sample Code:  
+> ```
+> @AbapCatalog.viewEnhancementCategory: [#NONE]
+> @AccessControl.authorizationCheck: #NOT_ALLOWED
+> @EndUserText.label: 'Flight Analytical Projection Query'
+> define transient view entity Z_VE_Flight_AnaProj_Query
+>   provider contract analytical_query 
+>   
+>   as projection on Z_VE_Flight_Cube
+> {
+>     @AnalyticsDetails.query.axis: #ROWS
+>     AirlineID,
+>     @AnalyticsDetails.query.axis: #ROWS
+>     ConnectionID,
+>     @AnalyticsDetails.query.axis: #ROWS
+>     FlightDate,
+>     @AnalyticsDetails.query.axis: #ROWS
+>     Price,
+>     @AnalyticsDetails.query.axis: #ROWS
+>     CurrencyCode,
+>     @AnalyticsDetails.query.axis: #ROWS
+>     PlaneType,
+>     @AnalyticsDetails.query.axis: #ROWS
+>     MaximumSeats,
+>     @AnalyticsDetails.query.axis: #ROWS
+>     OccupiedSeats,
+>     @AnalyticsDetails.query.axis: #ROWS
+>     TotalFreeSeats    
+> }
+> ```
 
 **Related Information**  
 

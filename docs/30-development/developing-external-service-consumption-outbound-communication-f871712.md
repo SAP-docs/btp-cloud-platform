@@ -4,44 +4,62 @@
 
 Get more information about consuming external services.
 
-In the ABAP Environment, the following three options are available to consume services from the internet or to enable integration between the ABAP environment and your on-premise systems:
+To establish outbound communication between two communication partners, you have to implement the call of a service by doing the following:
 
-1.  Refer to a communication arrangement, such as `CL_HTTP_DESTINATION_PROVIDER=>create_by_comm_arrangement`
+-   Create an outbound service
 
-2.  Refer to a destination in the destination service, such as `CL_HTTP_DESTINATION_PROVIDER =>create_by_cloud_destination`
+    These outbound services can be HTTP \(see [Enable HTTP Communication in Your ABAP Code](enable-http-communication-in-your-abap-code-cef1ada.md)\), RFC \(see [Enable RFC Communication in Your ABAP Code](enable-rfc-communication-in-your-abap-code-bbbd142.md)\), or SOAP services \(see [Enable SOAP Communication in Your ABAP Code](enable-soap-communication-in-your-abap-code-6ab460e.md)\).
 
-3.  Directly specify the URL of the respective service, such as `CL_HTTP_DESTINATION_PROVIDER=>create_by_url`
+    See also [Supported Protocols and Authentication Methods](supported-protocols-and-authentication-methods-437e9d4.md).
+
+-   Create a communication scenario and assign it to the outbound service
+
+    If you enable multiple arrangements, you can add customer-specific properties to the scenario to enable a simple receiver determination.
+
+-   Implement the call of the service by using the `create_by_comm_arrangement` method for outbound communication depending on the service protocol, e.g. for HTTP service:
+
+    > ### Sample Code:  
+    > ```
+    > DATA(lo_destination) = cl_http_destination_provider=>create_by_comm_arrangement(
+    > 	comm_scenario        = '<SCENARIO ID>'
+    > 	service_id           = '<OUTBOUND SERVICE ID>'
+    > 	comm_system_id       = system_id ).
+    >  
+    > DATA(lo_http_client) = cl_web_http_client_manager=>create_by_http_destination( lo_dest ).
+    > ```
+
+    If the scenario includes multiple communication arrangements, you have to determine the communication system. You can read the customer-specific properties using class `CL_COM_ARRANGEMENT_FACOTY` to determine the receiver communication system.
 
 
-**Create\_by\_comm\_arrangement**
+ ![](images/ABAP_Environment_Outbound_Communication_Developer_a0adfaa.png) 
 
-To use a communication arrangement for outbound communication, the following two additional development objects need to be created:
+> ### Note:  
+> Alternatively, if you only want to call a remote web service, use the following method
+> 
+> ```
+> DATA(lv_dest) = cl_http_destination_provider=>create_by_url( i_url = 'https://www.example.com' ).
+> ```
 
--   Communication scenario
-
--   Outbound communication service
-
-
-Usage of communication arrangements is generally recommended for new developments. When setting up a new communication arrangement as an administrator, the following options are available to grant full flexibility:
-
--   Refer to a destination in a destination service
-
--   Use an outbound communication user \(restricted to authentication methods without user propagation\)
+> ### Recommendation:  
+> We recommend using the `create_by_comm_arrangement` method for outbound communication.
 
 
-To enable simple receiver determination, you as a developer can allow multiple instances of communication arrangements of the same communication scenario. By using CL\_COM\_ARRANGEMENT\_FACTORY, you can evaluate the customer-specific properties of a communication arrangement to decide at runtime, which communication system should be chosen for outbound communication.
 
-**Create\_by\_cloud\_destination**
+<a name="loiof871712b816943b0ab5e04b60799e518__section_m3y_rh4_y5b"/>
 
-This is a quick way of developing integrations in the ABAP environment without developing additional development objects. During development, the name of the destination and optionally the name of the destination service instance has to be specified explicitly. If no destination service instance is maintained, the destinations of the Cloud Foundry subaccount are used by default.
+## Service Consumption Model
 
-Only relevant for HTTP connections: if an authentication method without user propagation should be used in the destination service, the `authn_mode` needs to be specified explicitly as ***service\_specific***.
+SAP supports various protocols and provides the corresponding clients and functions to handle requests and responses.
 
-Note however that supportability and flexibility are impacted, since the administrator needs to set up a specific destination name \(or even a specific destination service instance name\).
+HTTP: `CL_WEB_HTTP_CLIENT`
 
-**Create\_by\_url \(available for HTTP + SOAP\)**
+RFC: `CALL FUNCTION`
 
-This option should only be used to access public services to avoid storing credentials in unsafe places. Credentials should either be stored in the destination service or in the communication arrangement framework.
+To simplify the implementation of a remote call, you can create a service consumption model for the external service. The service consumption model creates proxies for the remote service. That way, you can access the service in a strictly typed manner without the need to compile requests and parse responses. The following consumption model types are supported:
+
+-   OData
+-   SOAP
+-   RFC
 
 **Related Information**  
 

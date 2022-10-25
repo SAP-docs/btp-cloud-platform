@@ -70,10 +70,11 @@ If activation issues occur, repeatedly try to activate objects in the right sequ
 > 
 > For issues related to the community open-source distribution of abapGit, create an issue at [https://github.com/abapGit/abapGit/issues](https://github.com/abapGit/abapGit/issues).
 
+> ### Note:  
+> To maintain certificates, please use the Maintain Certificate Trust List app. For further information, please go to [Maintain Certificate Trust List](../50-administration-and-ops/maintain-certificate-trust-list-2b3c3f1.md)
+
 **Related Information**  
 
 
 [Released ABAP Object Types](released-abap-object-types-b31aa03.md "")
-
-[https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/2b3c3f1e4007472883abe5226e84f05f.html](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/2b3c3f1e4007472883abe5226e84f05f.html)
 

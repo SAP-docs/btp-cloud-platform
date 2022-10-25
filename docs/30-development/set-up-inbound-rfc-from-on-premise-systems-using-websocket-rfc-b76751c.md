@@ -19,11 +19,11 @@ Use WebSocket RFC to establish an RFC connection from an on-premise system to th
 
 ## Procedure
 
-1.  Create a Communication Scenario that defines all RFMs to be called on the server side \(inbound scenario\). See [Communication Scenario](communication-scenario-7ea7276.md) for more information.
+1.  Create a Communication Scenario that defines all RFMs to be called on the server side \(inbound scenario\). See [Communication Scenario](communication-management-5b8ff39.md#loio7ea7276c89a644d9867bf0f8627aed67) for more information.
 2.  Create a Communication Arrangement with a Communication System and a Communication User. See the following for more information:
-    -   [Communication Arrangement](communication-arrangement-201de48.md)
-    -   [Communication System](communication-system-875a3d6.md)
-    -   [Communication User](communication-user-09a1ee0.md)
+    -   [Communication Arrangement](communication-management-5b8ff39.md#loio201de48e2f57404e9222181b019eff14)
+    -   [Communication System](communication-management-5b8ff39.md#loio875a3d6b20cb4934bcfea815e28afaa1)
+    -   [Communication User](communication-management-5b8ff39.md#loio09a1ee098bde4f42baab2bdc14b42f9b)
 
 
 

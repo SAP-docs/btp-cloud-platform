@@ -10,18 +10,16 @@ You can implement the reusable component from the *Reuse Library* in a freestyle
 
 To be able to use the reusable components, you need to adapt the code that can be found in your view definition file and your controller file.
 
-In the view definition file \(*<MY\_LOG\_DISPLAY\_VIEW.view.xml\>*\), the log display must be positioned on the page.
-
 
 
 ## Procedure
 
-1.  Prepare a container control that will hold the log display component:
+1.  In the view definition file \(*<MY\_LOG\_DISPLAY\_VIEW.view.xml\>*\), the log display must be positioned on the page. Prepare a container control that will hold the log display component:
 
     > ### Sample Code:  
     > ```
     > <!-- xmlns:core="sap.ui.core" --> 
-    > 							<core:ComponentContainer id="LogMessagesControlContainer" />
+    > <core:ComponentContainer id="LogMessagesControlContainer" />
     > ```
 
 2.  In the controller file \(*<MY\_LOG\_DISPLAY\_VIEW.controller.js\>*\), the relevant coding goes into the handler for the *onlnit* event. Create the component and place it into the container control:
@@ -33,21 +31,21 @@ In the view definition file \(*<MY\_LOG\_DISPLAY\_VIEW.view.xml\>*\), the log di
     > ```
     > var that = this;
     > 							
-    > 							this.getOwnerComponent().createComponent({
-    > 							usage: "ApplicationLogs",
-    > 							id: "LogMessagesControlComponent",
-    > 							settings: {
-    > 							"persistencyKey": "MY_LOG_DISPLAY_VIEW",
-    > 							"showHeader": false,
-    > 							"showFilterBar": false,
-    > 							"showAsTree": false,
-    > 							"showContextFields": false
-    > 							}
-    > 							}).then(function (oComp) {
-    > 							that.byId("LogMessagesControlContainer").setComponent(oComp);
-    > 							oComp.setLogHandle("<LogHandle>");
-    > 							oComp.refresh();
-    > 							});
+    > this.getOwnerComponent().createComponent({
+    > usage: "ApplicationLogs",
+    > id: "LogMessagesControlComponent",
+    > settings: {
+    > "persistencyKey": "MY_LOG_DISPLAY_VIEW",
+    > "showHeader": false,
+    > "showFilterBar": false,
+    > "showAsTree": false,
+    > "showContextFields": false
+    > }
+    > }).then(function (oComp) {
+    > that.byId("LogMessagesControlContainer").setComponent(oComp);
+    > oComp.setLogHandle("<LogHandle>");
+    > oComp.refresh();
+    > });
     > ```
 
     > ### Note:  
@@ -58,12 +56,12 @@ In the view definition file \(*<MY\_LOG\_DISPLAY\_VIEW.view.xml\>*\), the log di
     > ### Sample Code:  
     > ```
     > "dependencies": {
-    > 								"libs": {
-    > 								"sap.nw.core.applogs.lib.reuse": {
-    > 								"lazy": true
-    > 								}
-    > 								}
-    > 								}
+    > "libs": {
+    > "sap.nw.core.applogs.lib.reuse": {
+    > "lazy": true
+    > }
+    > }
+    > }
     > ```
 
     After your app was deployed successfully to an SAP BTP, ABAP environment system, the *BSP application* and the *SAP Fiori Launchpad* app descriptor item will appear under your created package in Eclipse.

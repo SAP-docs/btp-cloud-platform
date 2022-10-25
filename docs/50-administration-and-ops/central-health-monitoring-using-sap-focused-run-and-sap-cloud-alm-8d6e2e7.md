@@ -460,19 +460,11 @@ A quota represents the maximum allowed consumption of a resource. For SAP HANA d
 
 
 
-<a name="loio8d6e2e78f77540d6836cc63eea121966__section_gh4_v2h_3qb"/>
-
-## Setup of ABAP Environment Monitoring with SAP Focused Run
-
-For more information about setting up ABAP environment monitoring with SAP Focused Run, see the tutorial [Monitor an SAP BTP ABAP Environment Service Using SAP Focused Run \(FRUN\)](https://developers.sap.com/tutorials/abap-environment-monitoring-frun-healthmonitoring.html).
-
-
-
 <a name="loio8d6e2e78f77540d6836cc63eea121966__section_yhb_y2h_3qb"/>
 
 ## Setup of ABAP Environment Monitoring with SAP Cloud ALM
 
-For more information about setting up ABAP environment monitoring with SAP Cloud ALM, see the tutorial [Monitor An SAP BTP ABAP Environment Service Using SAP Cloud ALM](https://developers.sap.com/tutorials/abap-environment-monitoring-calm-health-monitoring.html) and the documentation[Setup for SAP BTP ABAP Environment](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-scp_abap.html).
+For more information about setting up ABAP environment monitoring with SAP Cloud ALM, see the tutorial [Monitor An SAP BTP ABAP Environment Service Using SAP Cloud ALM](https://developers.sap.com/tutorials/abap-environment-monitoring-calm-health-monitoring.html) and the documentation [Setup for SAP BTP ABAP Environment](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-scp_abap.html).
 
 
 

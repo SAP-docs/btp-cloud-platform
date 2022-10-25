@@ -37,63 +37,62 @@ The cf CLI provides different options to log on using a custom IdP. One scenario
 
 ## Procedure
 
-1.  Decide which scenario applies to you according to this table.
+Decide which scenario applies to you according to this table.
 
 
-    <table>
-    <tr>
-    <th valign="top">
+<table>
+<tr>
+<th valign="top">
 
-    Scenario
-
-
-    
-    </th>
-    <th valign="top">
-
-    See
+Scenario
 
 
-    
-    </th>
-    </tr>
-    <tr>
-    <td valign="top">
 
-    You can open a browser during the logon process.
+</th>
+<th valign="top">
+
+See
 
 
-    
-    </td>
-    <td valign="top">
 
-     [Log On Manually With a Custom Identity Provider](log-on-manually-with-a-custom-identity-provider-e1009b4.md).
+</th>
+</tr>
+<tr>
+<td valign="top">
 
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    The logon process is automated, for example with a script or there’s no possibility to open a browser during logon.
-
-    > ### Restriction:  
-    > This scenario is only supported if the users exist directly in your tenant of the SAP Cloud Identity Services - Identity Authentication and not in a corporate identity provider.
+You can open a browser during the logon process.
 
 
-    
-    </td>
-    <td valign="top">
 
-     [Log On as a Technical User With a Custom Identity Provider](log-on-as-a-technical-user-with-a-custom-identity-provider-98ec56a.md) 
+</td>
+<td valign="top">
+
+ [Log On Manually With a Custom Identity Provider](log-on-manually-with-a-custom-identity-provider-e1009b4.md).
 
 
-    
-    </td>
-    </tr>
-    </table>
-    
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+The logon process is automated, for example with a script or there’s no possibility to open a browser during logon.
+
+> ### Restriction:  
+> This scenario is only supported if the users exist directly in your tenant of the SAP Cloud Identity Services - Identity Authentication and not in a corporate identity provider.
+
+
+
+</td>
+<td valign="top">
+
+ [Log On as a Technical User With a Custom Identity Provider](log-on-as-a-technical-user-with-a-custom-identity-provider-98ec56a.md) 
+
+
+
+</td>
+</tr>
+</table>
 
 **Related Information**  
 

@@ -40,12 +40,11 @@ If you’re the Org Manager, you don’t need to first add the users as org memb
 
 ## Procedure
 
-1.  Enter the following string, specifying the user name, the name of the organization, the name of the space, and the role:
+Enter the following string, specifying the user name, the name of the organization, the name of the space, and the role:
 
-    ```
-    cf set-space-role USERNAME ORG SPACE ROLE 
-    ```
-
+```
+cf set-space-role USERNAME ORG SPACE ROLE 
+```
 
 
 

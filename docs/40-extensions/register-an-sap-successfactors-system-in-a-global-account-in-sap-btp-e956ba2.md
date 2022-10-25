@@ -47,6 +47,11 @@ To connect an SAP SuccessFactors system with a global account in SAP BTP, you ne
 
 The registration process is based on a registration token that is used for the pairing of the SAP SuccessFactors company and the corresponding global account in SAP BTP. You create the token in the global account, and then start the automated registration process on the SAP SuccessFactors company side using this token.
 
+> ### Note:  
+> When registering SAP SuccessFactors systems, you can have up to 1000 tokens per global account ready to be used. Tokens that are already used to register an SAP SuccessFactors system are not included in this number.
+> 
+> This means that you cannot have more than 1000 systems in the *Systems* list of type SAP SuccessFactors with an empty status and generated token that is not used yet.
+
 The registration process has the following states displayed in the cockpit:
 
 -   No status displayed in the *Status* column - the registration token for an SAP system has been created but the registration on the respective SAP solution system side has not been performed or completed.

@@ -36,21 +36,13 @@ Description
 
 The name of the system you have registered in a global account in SAP BTP.
 
+> ### Note:  
+> The system must be in status *Registered*.
+
 **Rules/Guidelines**
 
 -   Required: Yes
 
--   Use only printable ASCII characters.
-
--   Max length: 30
-
--   It is unique within a global account.
-
--   The name must be the same as the one defined during the system registration in the global account. See [Register an SAP SuccessFactors System in a Global Account in SAP BTP](register-an-sap-successfactors-system-in-a-global-account-in-sap-btp-e956ba2.md).
-
-
-> ### Note:  
-> The system must be in status *Registered*.
 
 
 

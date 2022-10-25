@@ -16,8 +16,7 @@ Instead of creating a new business catalog, you can also reuse an existing busin
 
 ## Procedure
 
-1.  To create a business catalog, follow the instructions of the ABAP development user guide: [Creating a Business Catalog](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/7e918e7975f542bdb2c9ae9105dccaba.html).
+To create a business catalog, follow the instructions of the ABAP development user guide: [Creating a Business Catalog](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/7e918e7975f542bdb2c9ae9105dccaba.html).
 
-    Also follow the instructions to assign your IAM app to the business catalog.
-
+Also follow the instructions to assign your IAM app to the business catalog.
 

@@ -280,7 +280,7 @@ PS\*
 > ### Note:  
 > Developers using ABAP Development Tools are also considered business users.
 
-**Communication users** are customer-owned technical users that are assigned to a communication system to enable integration with other solutions. For authentication, they can either be assigned a password or X.509 client certificate. See [Communication User](communication-user-09a1ee0.md) and [Maintain Communication Users](../50-administration-and-ops/maintain-communication-users-eef80dd.md).
+**Communication users** are customer-owned technical users that are assigned to a communication system to enable integration with other solutions. For authentication, they can either be assigned a password or X.509 client certificate. See [Communication User](communication-management-5b8ff39.md#loio09a1ee098bde4f42baab2bdc14b42f9b) and [Maintain Communication Users](../50-administration-and-ops/maintain-communication-users-eef80dd.md).
 
 **Support users** are SAP-owned technical users that can access customer systems. See [SAP Support User Request Log](../50-administration-and-ops/sap-support-user-request-log-934a027.md).
 

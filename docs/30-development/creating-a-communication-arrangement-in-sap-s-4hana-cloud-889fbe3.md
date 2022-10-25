@@ -26,8 +26,7 @@ As a preparatory step for creating a communication system later, you need to ret
 
 ## Procedure
 
-1.  Retrieve the host name from the service key of the service instance for the ABAP environment in your Cloud Foundry subaccount \(`property=url`\)​, for example, ***xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.abap.eu10.hana.ondemand.com***.
-
+Retrieve the host name from the service key of the service instance for the ABAP environment in your Cloud Foundry subaccount \(`property=url`\)​, for example, ***xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.abap.eu10.hana.ondemand.com***.
 
  <a name="loio157a12b9f6b9496da9f2fdd52fb30b75"/>
 

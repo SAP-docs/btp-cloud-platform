@@ -314,6 +314,24 @@ Sets the minimal logging level of the `cf-nodejs-logging-support` library of the
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+ `STATE_PARAMETER_SECRET` 
+
+
+
+</td>
+<td valign="top">
+
+Enables the use of state parameters to prevent CRFS attacks.
+
+If this environment variable is set, the application router creates a state parameter for each initial authorization request. By validating that the authentication server returns the same state parameter in its response, the application server can verify that the response did not originate from a third party.
+
+
+
+</td>
+</tr>
 </table>
 
 

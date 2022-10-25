@@ -2,7 +2,7 @@
 
 # Communication Arrangement JSON/YAML File - Properties
 
-Use the service JSON descriptor for the Cloud Foundry environment or the service YAML descriptor for the Kyma environment to define the communication arrangement and the authentication type for the SAP S4/HANA Cloud API access.
+Use the service JSON descriptor for the Cloud Foundry environment or the service YAML descriptor for the Kyma environment to define the communication arrangement and the authentication type for the SAP S/4HANA Cloud API access.
 
 
 

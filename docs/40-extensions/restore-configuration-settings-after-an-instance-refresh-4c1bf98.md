@@ -41,22 +41,21 @@ However, if you have the following artifacts, you must reconfigure them in the S
 
 ## Procedure
 
-1.  To restore the configuration settings after an instance refresh, proceed as follows:
+To restore the configuration settings after an instance refresh, proceed as follows:
 
-    -   After an automated instance refresh:
-        1.  If you have configured custom home page tiles in the target company instance, reconfigure them. See [Custom Home Page Tiles](https://help.sap.com/viewer/59f821da545a4bdb94f1eb8fa22e4b36/latest/en-US/82a5f1bc52854218a4d0078b6acfbbcb.html).
-        2.  If you have configured permission roles and permission groups, you need to reconfigure them. See [What Are Role-Based Permissions?](https://help.sap.com/viewer/b569eee64d3f4159b2b5272ba7d6b127/latest/en-US/b95c4a4e43aa48d4a962f6b6e878d3a9.html).
+-   After an automated instance refresh:
+    1.  If you have configured custom home page tiles in the target company instance, reconfigure them. See [Custom Home Page Tiles](https://help.sap.com/viewer/59f821da545a4bdb94f1eb8fa22e4b36/latest/en-US/82a5f1bc52854218a4d0078b6acfbbcb.html).
+    2.  If you have configured permission roles and permission groups, you need to reconfigure them. See [What Are Role-Based Permissions?](https://help.sap.com/viewer/b569eee64d3f4159b2b5272ba7d6b127/latest/en-US/b95c4a4e43aa48d4a962f6b6e878d3a9.html).
 
 
-    -   After a manual instance refresh:
-        1.  For SAP SuccessFactors, Second Half 2021 Release or later, proceed as follows:
+-   After a manual instance refresh:
+    1.  For SAP SuccessFactors, Second Half 2021 Release or later, proceed as follows:
 
-            1.  Recreate the *SAP SuccessFactors Extensibility* service instance. See [Create a Service Instance to Consume the SAP SuccessFactors HXM Suite OData API](create-a-service-instance-to-consume-the-sap-successfactors-hxm-suite-odata-api-46c5ea1.md).
+        1.  Recreate the *SAP SuccessFactors Extensibility* service instance. See [Create a Service Instance to Consume the SAP SuccessFactors HXM Suite OData API](create-a-service-instance-to-consume-the-sap-successfactors-hxm-suite-odata-api-46c5ea1.md).
 
-            2.  If you have configured permission roles and permission groups, you need to reconfigure them. See [Custom Home Page Tiles](https://help.sap.com/viewer/59f821da545a4bdb94f1eb8fa22e4b36/latest/en-US/82a5f1bc52854218a4d0078b6acfbbcb.html).
+        2.  If you have configured permission roles and permission groups, you need to reconfigure them. See [Custom Home Page Tiles](https://help.sap.com/viewer/59f821da545a4bdb94f1eb8fa22e4b36/latest/en-US/82a5f1bc52854218a4d0078b6acfbbcb.html).
 
-            3.  Reconfigure the permission roles and permission groups. See [What Are Role-Based Permissions?](https://help.sap.com/viewer/b569eee64d3f4159b2b5272ba7d6b127/latest/en-US/b95c4a4e43aa48d4a962f6b6e878d3a9.html).
-
+        3.  Reconfigure the permission roles and permission groups. See [What Are Role-Based Permissions?](https://help.sap.com/viewer/b569eee64d3f4159b2b5272ba7d6b127/latest/en-US/b95c4a4e43aa48d4a962f6b6e878d3a9.html).
 
 
 

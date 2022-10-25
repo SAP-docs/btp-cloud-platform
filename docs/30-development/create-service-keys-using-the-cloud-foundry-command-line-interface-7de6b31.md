@@ -19,20 +19,19 @@ Use the Cloud Foundry Command Line Interface to create a service key.
 
 ## Procedure
 
-1.  Run the following command to create a service key:
+Run the following command to create a service key:
 
-    ```
-    cf create-service-key SERVICE_INSTANCE SERVICE_KEY [-c PARAMETERS_AS_JSON]
-    ```
+```
+cf create-service-key SERVICE_INSTANCE SERVICE_KEY [-c PARAMETERS_AS_JSON]
+```
 
-    Specify the following parameters:
+Specify the following parameters:
 
-    -   `SERVICE_INSTANCE`: Name of the service instance.
+-   `SERVICE_INSTANCE`: Name of the service instance.
 
-    -   `SERVICE_KEY`: Name for the service key.
+-   `SERVICE_KEY`: Name for the service key.
 
-    -   `-c`: \(Optional\) Provide service-specific configuration parameters either in a valid JSON object in-line or in a parameters file. This file reference can be an absolute or relative path to a file.
-
+-   `-c`: \(Optional\) Provide service-specific configuration parameters either in a valid JSON object in-line or in a parameters file. This file reference can be an absolute or relative path to a file.
 
 
 

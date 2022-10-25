@@ -64,6 +64,9 @@ Custom trust configuration \(for example: a tenant of the Identity Authenticatio
 
 -   [Assigning Role Collections to Users or User Groups](assigning-role-collections-to-users-or-user-groups-31532c7.md)
 
+
+The following options are only available for **application** users, but not for **platform** users.
+
 -   [Map Role Collections to User Groups](map-role-collections-to-user-groups-51acfc8.md)
 
 -   [Map Role Collections to User Attributes](map-role-collections-to-user-attributes-b3fbb1a.md)

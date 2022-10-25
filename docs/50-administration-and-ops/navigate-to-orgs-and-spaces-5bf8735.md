@@ -25,7 +25,9 @@ To administer your Cloud Foundry environment, navigate to orgs, and spaces in th
 
 ## Procedure
 
-1.  
+
+
+
 <table>
 <tr>
 <th valign="top">
@@ -82,7 +84,6 @@ Navigate to the subaccount that contains the space you'd like to navigate to.
 </td>
 </tr>
 </table>
-
 
 **Related Information**  
 

@@ -190,9 +190,9 @@ To check if an asynchronous call was successfully sent to the provider system, s
 
 [Enable SOAP Communication in Your ABAP Code](enable-soap-communication-in-your-abap-code-6ab460e.md "SOAP-based Web service outbound communication within the ABAP environment is enabled by using SOAP destination objects.")
 
-[Overview of Communication Management](overview-of-communication-management-5b8ff39.md "Learn more about the basic principles of communication management when integrating your system or solution with other systems to enable data exchange in your ABAP environment.")
+[Communication Management](communication-management-5b8ff39.md#loio5b8ff39ddb6741a29ddfcf587939e8f4 "Learn more about the basic principles of communication management when integrating your system or solution with other systems to enable data exchange in your ABAP environment.")
 
-[Communication Arrangement](communication-arrangement-201de48.md "A communication arrangement is a runtime description of a specific communication scenario. It describes which communication partners communicate with each other in the scenario and how they communicate.")
+[Communication Arrangement](communication-management-5b8ff39.md#loio201de48e2f57404e9222181b019eff14 "A communication arrangement is a runtime description of a specific communication scenario. It describes which communication partners communicate with each other in the scenario, and how they communicate.")
 
 [Developing External Service Consumption \(Outbound Communication\)](developing-external-service-consumption-outbound-communication-f871712.md "Get more information about consuming external services.")
 

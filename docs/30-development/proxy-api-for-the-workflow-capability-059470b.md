@@ -151,7 +151,7 @@ In the RAP version of the Workflow Service API, workflows can be registered usin
 > ### Note:  
 > It's not allowed to call the `registerWorkflow` method multiple times with an identical set of parameters. This also applies to cases where the otherwise optional %key parameter stays empty. Therefore, if you want to use the `registerWorkflow` method in a mass-enabled context you must provide the unique %key parameter.
 
-The parameters `RetentionTime`, `CpWfDefId`, and `Consumer`must be provided.
+The parameters `RetentionTime`, `CpWfDefId`, and `Consumer` must be provided.
 
 The workflow context can be provided using the following EML statement:
 

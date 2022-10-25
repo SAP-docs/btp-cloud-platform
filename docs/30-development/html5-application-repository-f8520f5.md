@@ -4,7 +4,7 @@
 
 HTML5 application repository enables central storage of HTML5 applications' static content on the SAP BTP, Cloud Foundry environment. This service can be consumed from the SAP BTP, Cloud Foundry Runtime and the SAP BTP, Kyma runtime.
 
-HTML5 applications consist of static content such as HTML, CSS, JavaScript, and other files, that run on a browser. For more information, see [Basic Template](https://openui5.hana.ondemand.com/#/topic/7a4d93c0b0bb439b9d889ffc5b02eac9) and [openui5-basic-template-app](https://github.com/SAP/openui5-basic-template-app).
+HTML5 applications consist of static content such as HTML, CSS, JavaScript, and other files, that run on a browser. For more information, see [Basic Template](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/14fdcc0a9d834090a07435cfef962b01.html) and [openui5-basic-template-app](https://github.com/SAP/openui5-basic-template-app).
 
 HTML5 application repository allows application developers to manage the lifecycle of their HTML5 applications. In runtime, the repository enables the consuming application, typically the application router, to access HTML5 application static content in a secure and efficient manner. For more information, see [Configure Application Router](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/01c5f9ba7d6847aaaf069d153b981b51.html).
 

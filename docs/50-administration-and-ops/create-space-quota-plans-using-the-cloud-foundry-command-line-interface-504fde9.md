@@ -18,20 +18,19 @@ You can use the Cloud Foundry Command Line Interface to create space quota plans
 
 ## Procedure
 
-1.  Open a command line and enter the following string, replacing `QUOTA` with the name for your space quota plan:
+Open a command line and enter the following string, replacing `QUOTA` with the name for your space quota plan:
 
-    ```
-    cf create-space-quota QUOTA [-i INSTANCE_MEMORY] [-m MEMORY] [-r ROUTES] [-s SERVICE_INSTANCES] [--allow-paid-service-plan | --disallow-paid-service-plans]
-    ```
+```
+cf create-space-quota QUOTA [-i INSTANCE_MEMORY] [-m MEMORY] [-r ROUTES] [-s SERVICE_INSTANCES] [--allow-paid-service-plan | --disallow-paid-service-plans]
+```
 
-    Specify the following parameters:
+Specify the following parameters:
 
-    -   `-i`: Maximum amount of memory an application instance can have \(`-1` represents an unlimited amount\)
+-   `-i`: Maximum amount of memory an application instance can have \(`-1` represents an unlimited amount\)
 
-    -   `-m`: Total amount of memory a space can have
-    -   `-r`: Total number of routes
-    -   `-s`: Total number of service instances
-    -   `--allow-paid-service-plans`: Can provision instances of paid service plans
-    -    `--disallow-paid-service-plans`: Can not provision instances of paid service plans
-
+-   `-m`: Total amount of memory a space can have
+-   `-r`: Total number of routes
+-   `-s`: Total number of service instances
+-   `--allow-paid-service-plans`: Can provision instances of paid service plans
+-    `--disallow-paid-service-plans`: Can not provision instances of paid service plans
 

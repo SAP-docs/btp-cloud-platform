@@ -32,31 +32,30 @@ We recommend this method of logging on if you want to use an automated script an
 
 ## Procedure
 
-1.  Set up a script with the following code:
+Set up a script with the following code:
 
-    ```
-    cf api https://api.cf.<region>.hana.ondemand.com
-    cf login --origin <origin> -u <user> -p <password>
-    
-    ```
+```
+cf api https://api.cf.<region>.hana.ondemand.com
+cf login --origin <origin> -u <user> -p <password>
 
-    > ### Sample Code:  
-    > ```
-    > cf api https://api.cf.eu10.hana.ondemand.com
-    > cf login --origin sap.ids -u julie.armstrong@sap.com -p mysecurepassword
-    > 
-    > ```
+```
 
-    -   Find the <code><i class="varname">&lt;region&gt;</i></code> value, that applies to you in the section [Regions](../10-concepts/regions-350356d.md).
+> ### Sample Code:  
+> ```
+> cf api https://api.cf.eu10.hana.ondemand.com
+> cf login --origin sap.ids -u julie.armstrong@sap.com -p mysecurepassword
+> 
+> ```
 
-    -   Find the <code><i class="varname">&lt;origin&gt;</i></code> value for the user that you want to use in the cockpit.
+-   Find the <code><i class="varname">&lt;region&gt;</i></code> value, that applies to you in the section [Regions](../10-concepts/regions-350356d.md).
 
-        1.  Navigate to the subaccount of your user.
+-   Find the <code><i class="varname">&lt;origin&gt;</i></code> value for the user that you want to use in the cockpit.
 
-        2.  Choose *Cloud Foundry* \> *Org Members*.
+    1.  Navigate to the subaccount of your user.
 
-        3.  Find the <code><i class="varname">&lt;origin&gt;</i></code> value of your user in the table.
+    2.  Choose *Cloud Foundry* \> *Org Members*.
 
+    3.  Find the <code><i class="varname">&lt;origin&gt;</i></code> value of your user in the table.
 
 
 
