@@ -1,3 +1,6 @@
+# Folders for the section owners
+docs/70-getting-support @nikolasimeonov77 @danachkov
+
 # Files for the Kyma owners
 docs/10-concepts/regions-for-the-kyma-environment-557ec3a.md @SAP-docs/btp-cloud-platform-kyma-writers
 docs/10-concepts/kyma-environment-468c2f3.md @SAP-docs/btp-cloud-platform-kyma-writers
@@ -39,6 +42,3 @@ docs/60-security/expose-and-secure-a-workload-with-a-json-web-token-44bb2d3.md @
 docs/60-security/function-security-1be599b.md @SAP-docs/btp-cloud-platform-kyma-writers
 docs/60-security/data-protection-and-privacy-in-the-kyma-environment-935e241.md @SAP-docs/btp-cloud-platform-kyma-writers
 docs/70-getting-support/operating-model-in-the-kyma-environment-862b96b.md @SAP-docs/btp-cloud-platform-kyma-writers
-
-# Folders for the section owners
-docs/70-getting-support @nikolasimeonov77 @danachkov
