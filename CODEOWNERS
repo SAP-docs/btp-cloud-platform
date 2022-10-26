@@ -1,4 +1,5 @@
 # Folders for the section owners
+docs/10-concepts @SAP-docs/btp-cloud-platform-concepts-writers
 docs/70-getting-support @nikolasimeonov77 @danachkov
 
 # Files for the Kyma owners
