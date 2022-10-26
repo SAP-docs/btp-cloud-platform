@@ -5,7 +5,6 @@
 Discover and consume APIs to manage, build, and extend the core capabilities of SAP BTP.
 
 
-
 An Application Programming Interface or API is an **interface provided by an application for interacting with other applications**. APIs specify how software programs are able to exchange information with each other, even if designed and run by different organizations. They facilitate interaction by selectively exposing certain functionality, allowing different apps, websites, and devices to communicate effectively with each other. More importantly, APIs allow businesses to reach beyond regular business channels and share data, content, and services directly to both B2B \(business to business\) and B2C \(business to consumer\) clients, making UI development easy.
 
 
