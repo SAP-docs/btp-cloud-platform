@@ -1,5 +1,5 @@
 # Folders for the section owners
-docs/sap-business-technology-platform-6a2c1ab.md  @SAP-docs/btp-cloud-platform-writers
+docs/ @SAP-docs/btp-cloud-platform-writers
 docs/10-concepts @SAP-docs/btp-cloud-platform-concepts-writers
 docs/20-getting-started @SAP-docs/btp-cloud-platform-getting-started-writers
 docs/30-development @SAP-docs/btp-cloud-platform-development-writers
@@ -7,7 +7,6 @@ docs/40-extensions @SAP-docs/btp-cloud-platform-extensions-writers
 docs/50-administration-and-ops @SAP-docs/btp-cloud-platform-administration-and-ops-writers
 docs/60-security @SAP-docs/btp-cloud-platform-security-writers
 docs/70-getting-support @nikolasimeonov77 @danachkov
-docs/glossary-e67a143.md @SAP-docs/btp-cloud-platform-writers
 
 # Files for the Kyma owners
 docs/10-concepts/regions-for-the-kyma-environment-557ec3a.md @SAP-docs/btp-cloud-platform-kyma-writers
