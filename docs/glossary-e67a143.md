@@ -3,7 +3,6 @@
 # Glossary
 
 
-
 SAP BTP Terminology
 
 
