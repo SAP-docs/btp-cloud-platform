@@ -32,11 +32,11 @@ After creating a Kyma cluster, you become an admin of this instance and the **cl
 
 3.  To create a role binding, go to *Configuration* \> *Role Bindings* \> *\+ Create Role Binding*. Fill in the required fields:
 
-    1.  As *Name*, insert ***runtimeDeveloper***.
+    1.  As *Name*, insert the name of your binding.
 
     2.  As *Role Type*, choose *ClusterRole*.
 
-    3.  As *Role*, choose *kyma-developer*.
+    3.  As *Role*, choose the required role.
 
     4.  As *Kind*, choose *User*.
 
@@ -52,7 +52,7 @@ After creating a Kyma cluster, you become an admin of this instance and the **cl
 
 ## Results
 
-The users have the kyma-developer permissions within the specified Namespace. If the users do not have additional Cluster Role Binding to list the Namespaces, they can still access the Kyma Dashboard overview but must enter the required Namespace name manually.
+The users have the required permissions within the specified Namespace. If the users do not have additional Cluster Role Binding to list the Namespaces, they can still access the Kyma Dashboard overview but must enter the required Namespace name manually.
 
 
 
@@ -60,7 +60,7 @@ The users have the kyma-developer permissions within the specified Namespace. If
 
 ## Next Steps
 
-If the permissions of the kyma-developer role are not sufficient, the role can be cloned and missing resources can be added.
+If the permissions of the role are not sufficient, the role can be cloned and missing resources can be added.
 
 **Related Information**  
 

@@ -6,6 +6,14 @@ Access the Kyma environment and start creating extensions for SAP systems.
 
 
 
+<a name="loiofe4ba5b46f794037a4aee13df9df2d3c__prereq_ryg_lph_3vb"/>
+
+## Prerequisites
+
+If you want to use CloudEvent, make sure that your ecosystem supports it.
+
+
+
 <a name="loiofe4ba5b46f794037a4aee13df9df2d3c__context_qqq_khv_msb"/>
 
 ## Context
@@ -14,14 +22,15 @@ You can extend a given SAP system in the Kyma environment with workloads \([Func
 
 -   Functions are simple code snippets that are called when the Function is triggered. They implement the exact business logic you define in the code, and you don’t need to worry about containerization and deployment in Kyma runtime. Because Kyma Serverless is taking care of that, using Functions is convenient and fast.
 
--   You can also deploy your extension code as a microservice. In this variant, you must contain your microservice code in a docker image and deploy it in Kyma runtime. This variant requires more Kubernetes experience but gives more control over the shape of your extension application as you can separate the tasks into smaller pieces that interact with each other as loosely coupled, independently deployable units of code.
+-   You can also deploy your extension code as a microservice. In this variant, you must contain your microservice code in a Docker image and deploy it in Kyma runtime. This variant requires more Kubernetes experience but gives more control over the shape of your extension application as you can separate the tasks into smaller pieces that interact with each other as loosely coupled, independently deployable units of code.
 
 
-Whichever workload variant you choose, you can make it part of the SAP system extension.
+Whichever workload variant you choose, you can make it part of the SAP system extension. You can do this in two ways. Depending on your solution's needs, choose one or both of them:
 
-You can subscribe it to events emitted from the SAP systems and extend them \(see step 4 of the [Procedure](deploy-workloads-in-the-kyma-environment-to-extend-sap-systems-fe4ba5b.md#loiofe4ba5b46f794037a4aee13df9df2d3c__steps_vg2_4hv_msb)\).
+-   Expose your workload's API using API Rule and make it accessible to other components of your ecosystem with REST calls.
 
-Alternatively, you can expose your workload's API using API Rule and make it accessible to other components of your ecosystem with REST calls \(see step 3 of the[Procedure](deploy-workloads-in-the-kyma-environment-to-extend-sap-systems-fe4ba5b.md#loiofe4ba5b46f794037a4aee13df9df2d3c__steps_vg2_4hv_msb) \).
+-   Subscribe your workload to events emitted from the SAP systems and extend them.
+
 
 > ### Note:  
 > Most of the linked tutorials contain steps that you can perform both on the Kyma Dashboard and in the terminal after downloading the kubeconfig file with the cluster configuration.
@@ -38,12 +47,12 @@ Follow these steps to get familiar with workloads and learn how to use them.
 
 2.  Choose a Namespace in your cluster and create a simple Function \([Deploy and expose a Function](https://kyma-project.io/docs/kyma/latest/02-get-started/02-deploy-expose-function)\) or a microservice \([Deploy and expose a microservice](https://kyma-project.io/docs/kyma/latest/02-get-started/03-deploy-expose-microservice)\).
 
-3.  Expose a sample workload outside the cluster \([Expose a workload](https://kyma-project.io/docs/kyma/latest/03-tutorials/00-api-exposure/apix-03-expose-workload-apigateway/)\).
+3.  If you want to expose your workload outside the cluster, read [Expose a workload](https://kyma-project.io/docs/kyma/latest/03-tutorials/00-api-exposure/apix-03-expose-workload-apigateway/).
 
     > ### Note:  
     > For more details on the available security options in Kyma, see [Configure Authorization \(OAuth2, JWT\)](https://kyma-project.io/docs/kyma/latest/05-technical-reference/apix-01-config-authorizations-apigateway).
 
-4.  Configure your workload to react to events \([Trigger a workload with an event](https://kyma-project.io/docs/kyma/latest/02-get-started/04-trigger-workload-with-event/)\).
+4.  If you want your workload to react to events, read [Trigger a workload with an event](https://kyma-project.io/docs/kyma/latest/02-get-started/04-trigger-workload-with-event/).
 
     To subscribe to events with Kyma, you must create a [Subscription](https://kyma-project.io/docs/kyma/latest/02-get-started/04-trigger-workload-with-event/#create-a-subscription) including the following parameters:
 

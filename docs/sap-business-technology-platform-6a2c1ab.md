@@ -7,6 +7,7 @@
 SAP Business Technology Platform \(SAP BTP\) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.
 
 
+
 > ### Note:  
 > The SAP Cloud Platform brand is retired. For more information, see [A Robust Platform for RISE with SAP](https://blogs.sap.com/2021/01/27/a-robust-platform-for-rise-with-sap/). Parts of this content were created before our branding changes related to SAP technology were announced in January 2021.
 

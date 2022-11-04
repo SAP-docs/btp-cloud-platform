@@ -146,6 +146,10 @@ Supported types:
 
 -   `internet`
 
+-   `private-link`
+
+    To check the availability of the `private-link` proxy type, see [SAP Private Link Service](https://discovery-center.cloud.sap/serviceCatalog/private-link-service?service_plan=standard&region=all&tab=service_plan&commercialModel=cpea) in the SAP Discovery Center.
+
 
 
 

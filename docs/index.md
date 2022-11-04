@@ -1025,6 +1025,7 @@
                     -   [Configure OAuth Identity Provider in SAP Cloud for Customer](40-extensions/configure-oauth-identity-provider-in-sap-cloud-for-customer-40d20a2.md)
                     -   [Configure the OAuth Client for OData Access](40-extensions/configure-the-oauth-client-for-odata-access-2c9c02d.md)
                     -   [Create and Configure the HTTP Destination](40-extensions/create-and-configure-the-http-destination-21e50d8.md)
+    -   [Enabling System Landscape for SAP Business Application Studio](40-extensions/enabling-system-landscape-for-sap-business-application-studio-272ca23.md)
 -   [Administration and Operations](50-administration-and-ops/administration-and-operations-e183664.md)
     -   [Account Administration](50-administration-and-ops/account-administration-5d62ec8.md)
         -   [Account Administration in the Cockpit](50-administration-and-ops/account-administration-in-the-cockpit-8061ecc.md)
