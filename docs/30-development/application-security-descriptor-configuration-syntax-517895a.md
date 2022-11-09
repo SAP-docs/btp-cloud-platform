@@ -123,7 +123,7 @@ Syntax
 
 The following tenant modes are available:
 
-<a name="loio517895a9612241259d6941dbf9ad81cb__table_q2m_2v4_kz"/>Tenant Modes
+**Tenant Modes**
 
 
 <table>
@@ -321,7 +321,7 @@ For more information, see the related link.
 
 The `attributes` definition can take the following parameters:
 
-<a name="loio517895a9612241259d6941dbf9ad81cb__table_nt5_ph5_wt"/>`attributes` Parameters
+**attributes Parameters**
 
 
 <table>
@@ -492,7 +492,7 @@ A role template must be instantiated. This is especially true with regard to any
 > ### Note:  
 > The resulting \(application-specific\) role instances need to be assigned to the appropriate user groups.
 
-<a name="loio517895a9612241259d6941dbf9ad81cb__table_qzc_4rr_xs"/>`role-template` Parameters
+**role-template Parameters**
 
 
 <table>
@@ -693,7 +693,7 @@ The `role-collections` property only makes sense if application developers refer
 > 
 > ```
 
-<a name="loio517895a9612241259d6941dbf9ad81cb__table_v21_sm5_23b"/>`role-collections` Parameters
+**role-collections Parameters**
 
 
 <table>
@@ -886,7 +886,7 @@ The `xsuaa` service broker registers and uses these values for the configuration
 
 The following configuration keys are available:
 
-<a name="loio517895a9612241259d6941dbf9ad81cb__table_ntb_nk3_rz"/>`oauth2-configuration` Parameters
+**oauth2-configuration Parameters**
 
 
 <table>
@@ -1180,7 +1180,7 @@ If you want to grant scopes to an application for example, you must reference th
 -   Referencing a foreign application that is located in the same subaccount
 
 
-<a name="loio517895a9612241259d6941dbf9ad81cb__table_kqz_mwf_4db"/>Application References
+**Application References**
 
 
 <table>
@@ -1260,7 +1260,7 @@ This is the service instance name you used when you created it.
 
 You can use these references with the following properties:
 
-<a name="loio517895a9612241259d6941dbf9ad81cb__table_igk_p1g_4db"/>Properties
+**Properties**
 
 
 <table>
@@ -1441,7 +1441,7 @@ When you define role templates and attributes in the `xs-security.json` file, yo
 
 This means that an attribute can be referenced in multiple role templates. You can set `default-values` for the first role template and not for the second one. If you define an attribute with `"valueRequired": true"` \(see rows 1 and 3\), a default role can be generated automatically for the first role template only, but not for the second one.
 
-<a name="loio517895a9612241259d6941dbf9ad81cb__table_qwk_qmd_tkb"/>Configuration Examples
+**Configuration Examples**
 
 
 <table>

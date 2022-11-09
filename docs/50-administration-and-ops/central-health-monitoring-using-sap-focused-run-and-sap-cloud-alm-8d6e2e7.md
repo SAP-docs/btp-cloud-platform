@@ -26,21 +26,28 @@ If you use SAP Focused Run or SAP Cloud ALM as monitoring and alerting infrastru
 
 In the health monitoring of SAP Focused Run and SAP Cloud ALM, the following metrics for application checks are available for the ABAP environment:
 
-<a name="loio8d6e2e78f77540d6836cc63eea121966__table_uhs_cwv_r5b"/>Metrics for the ABAP Environment in Health Monitoring \(Application Check\)
+**Metrics for the ABAP Environment in Health Monitoring \(Application Check\)**
 
 
 <table>
 <tr>
 <th valign="top">
 
-Metric Type
+Area
 
 
 
 </th>
 <th valign="top">
 
-Metric Name
+Metric Label
+
+
+
+</th>
+<th valign="top">
+
+Technical Metric Name
 
 
 
@@ -56,7 +63,14 @@ Description
 <tr>
 <td valign="top">
 
-Performance
+ABAP System
+
+
+
+</td>
+<td valign="top">
+
+ABAP Runtime Errors
 
 
 
@@ -79,241 +93,14 @@ The number of ABAP runtime errors during the last 5 minutes
 <tr>
 <td valign="top">
 
-Performance
+ABAP System
 
 
 
 </td>
 <td valign="top">
 
-hana\_db\_oom\_event\_count\_5m
-
-
-
-</td>
-<td valign="top">
-
-The number of out-of-memory events on the SAP HANA index server during the last 5 minutes
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Performance
-
-
-
-</td>
-<td valign="top">
-
-abap\_system\_appl\_jobs\_avg\_delay\_s\_5m
-
-
-
-</td>
-<td valign="top">
-
-Average application job delay in seconds during the last 5 minutes
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Performance
-
-
-
-</td>
-<td valign="top">
-
-abap\_system\_appl\_jobs\_max\_delay\_s\_5m
-
-
-
-</td>
-<td valign="top">
-
-Maximum application job delay in seconds during the last 5 minutes
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Performance
-
-
-
-</td>
-<td valign="top">
-
-abap\_system\_appl\_jobs\_delayed\_count\_5m
-
-
-
-</td>
-<td valign="top">
-
-The number of delayed application jobs during the last 5 minutes.
-
-A job is counted as delayed when its delay exceeds a certain threshold. The default configuration uses a threshold of 60 seconds.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Performance
-
-
-
-</td>
-<td valign="top">
-
-abap\_system\_appl\_jobs\_failed\_count\_5m
-
-
-
-</td>
-<td valign="top">
-
-The number of failed application jobs during the last 5 minutes
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Performance
-
-
-
-</td>
-<td valign="top">
-
-abap\_system\_appl\_jobs\_running\_count
-
-
-
-</td>
-<td valign="top">
-
-The number of currently running application jobs
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Performance
-
-
-
-</td>
-<td valign="top">
-
-abap\_system\_appl\_jobs\_success\_count\_5m
-
-
-
-</td>
-<td valign="top">
-
-The number of successfully finished application jobs during the last 5 minutes
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Performance
-
-
-
-</td>
-<td valign="top">
-
-abap\_system\_appl\_logs\_count
-
-
-
-</td>
-<td valign="top">
-
-The total number of application logs
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Performance
-
-
-
-</td>
-<td valign="top">
-
-abap\_system\_appl\_logs\_errors\_count\_5m
-
-
-
-</td>
-<td valign="top">
-
-The number of application logs with errors during the last 5 minutes
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Performance
-
-
-
-</td>
-<td valign="top">
-
-abap\_system\_ksr\_captured\_count\_5m
-
-
-
-</td>
-<td valign="top">
-
-The number of ABAP statistics records that were captured by the *Capture Request Statistics* app during the last 5 minutes
-
-In the *Capture Request Statistics* app, you can select the checkbox*Health Monitoring* for any capture profile that you create. The number of records that is shown in SAP Cloud ALM is the total number of captured ABAP statistics records for profiles with the checkbox *Health Monitoring* selected.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Performance
+Current Unique Users
 
 
 
@@ -336,7 +123,14 @@ The number of current unique users in the ABAP system
 <tr>
 <td valign="top">
 
-Performance
+ABAP System
+
+
+
+</td>
+<td valign="top">
+
+Current Sessions
 
 
 
@@ -359,7 +153,46 @@ The number of current sessions in the ABAP system
 <tr>
 <td valign="top">
 
-Quota
+ABAP System
+
+
+
+</td>
+<td valign="top">
+
+Captured ABAP Statistics Records
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_ksr\_captured\_count\_5m
+
+
+
+</td>
+<td valign="top">
+
+The number of ABAP statistics records that were captured by the *Capture Request Statistics* app during the last 5 minutes
+
+In the *Capture Request Statistics* app, you can select the checkbox *Health Monitoring* for any capture profile that you create. The number of records that is shown in SAP Cloud ALM is the total number of captured ABAP statistics records during the last 5 minutes for profiles with the checkbox *Health Monitoring* selected.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ABAP System
+
+
+
+</td>
+<td valign="top">
+
+ABAP Compute Units
 
 
 
@@ -375,7 +208,7 @@ abap\_acu\_used\_count\_5m \(type: memory\)
 
 Used quota for ABAP system memory during the last 5 minutes
 
-A quota represents the maximum allowed consumption of a resource. For ABAP system resources, it’s measured in ABAP compute units \(ACUs\).
+A quota represents the available system size and therefore the maximum allowed consumption of a resource. A resource is measured against the quota independently. For ABAP system resources, the quota is measured in ABAP compute units \(ACUs\).
 
 
 
@@ -384,7 +217,110 @@ A quota represents the maximum allowed consumption of a resource. For ABAP syste
 <tr>
 <td valign="top">
 
-Quota
+ABAP System
+
+
+
+</td>
+<td valign="top">
+
+Expiry of Client Certificates
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_client\_cert\_expiry\_d
+
+
+
+</td>
+<td valign="top">
+
+Expiry of client certificates in days
+
+With this metric, you can monitor whether any client certificates expire that you have uploaded to SAP BTP for the communication with systems or services outside the ABAP system, for example, BTP services. Make sure that your client certificates are valid, so that communication doesn't break off.
+
+If the client certificate expires within 7 days, it's rated as red. If it expires within 30 days, it's rated yellow.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ABAP System
+
+
+
+</td>
+<td valign="top">
+
+Critical Number Range Intervals
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_nr\_critical\_interval\_pct
+
+
+
+</td>
+<td valign="top">
+
+Fill ratio of number range intervals
+
+Only critical number range intervals are shown. When you create a number range interval, you can define the critical remaining fill ratio when a warning is generated.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+HANA
+
+
+
+</td>
+<td valign="top">
+
+HANA Out-of-Memory Events
+
+
+
+</td>
+<td valign="top">
+
+hana\_db\_oom\_event\_count\_5m
+
+
+
+</td>
+<td valign="top">
+
+The number of out-of-memory events on the SAP HANA index server during the last 5 minutes
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+HANA
+
+
+
+</td>
+<td valign="top">
+
+HANA Compute Units \(CPU\)
 
 
 
@@ -400,7 +336,7 @@ hana\_hcu\_used\_count\_5m \(type: cpu\)
 
 Used quota for CPU utilization during the last 5 minutes
 
-A quota represents the maximum allowed consumption of a resource. For SAP HANA database resources, it’s measured in HANA compute units \(HCUs\).
+A quota represents the available system size and therefore the maximum allowed consumption of a resource. Each resource is measured against the quota independently. For SAP HANA database resources, the quota is measured in HANA compute units \(HCUs\).
 
 
 
@@ -409,7 +345,14 @@ A quota represents the maximum allowed consumption of a resource. For SAP HANA d
 <tr>
 <td valign="top">
 
-Quota
+HANA
+
+
+
+</td>
+<td valign="top">
+
+HANA Compute Units \(Disk\)
 
 
 
@@ -425,7 +368,7 @@ hana\_hcu\_used\_count\_5m \(type: disk\)
 
 Used quota for disk space consumption during the last 5 minutes
 
-A quota represents the maximum allowed consumption of a resource. For SAP HANA database resources, it’s measured in HANA compute units \(HCUs\).
+A quota represents the available system size and therefore the maximum allowed consumption of a resource. Each resource is measured against the quota independently. For SAP HANA database resources, the quota is measured in HANA compute units \(HCUs\).
 
 
 
@@ -434,7 +377,14 @@ A quota represents the maximum allowed consumption of a resource. For SAP HANA d
 <tr>
 <td valign="top">
 
-Quota
+HANA
+
+
+
+</td>
+<td valign="top">
+
+HANA Compute Units \(Memory\)
 
 
 
@@ -450,7 +400,249 @@ hana\_hcu\_used\_count\_5m \(type: memory\)
 
 Used quota for memory utilization during the last 5 minutes
 
-A quota represents the maximum allowed consumption of a resource. For SAP HANA database resources, it’s measured in HANA compute units \(HCUs\).
+A quota represents the available system size and therefore the maximum allowed consumption of a resource. Each resource is measured against the quota independently. For SAP HANA database resources, the quota is measured in HANA compute units \(HCUs\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Application Jobs
+
+
+
+</td>
+<td valign="top">
+
+Average Application Job Delay
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_appl\_jobs\_avg\_delay\_s\_5m
+
+
+
+</td>
+<td valign="top">
+
+Average application job delay in seconds during the last 5 minutes
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Application Jobs
+
+
+
+</td>
+<td valign="top">
+
+Maximum Application Job Delay
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_appl\_jobs\_max\_delay\_s\_5m
+
+
+
+</td>
+<td valign="top">
+
+Maximum application job delay in seconds during the last 5 minutes
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Application Jobs
+
+
+
+</td>
+<td valign="top">
+
+Delayed Application Jobs
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_appl\_jobs\_delayed\_count\_5m
+
+
+
+</td>
+<td valign="top">
+
+The number of delayed application jobs during the last 5 minutes.
+
+An application job is counted as delayed when its delay exceeds a certain threshold. The default configuration uses a threshold of 60 seconds.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Application Jobs
+
+
+
+</td>
+<td valign="top">
+
+Failed Application Jobs
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_appl\_jobs\_failed\_count\_5m
+
+
+
+</td>
+<td valign="top">
+
+The number of failed application jobs during the last 5 minutes
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Application Jobs
+
+
+
+</td>
+<td valign="top">
+
+Running Application Jobs
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_appl\_jobs\_running\_count
+
+
+
+</td>
+<td valign="top">
+
+The number of currently running application jobs
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Application Jobs
+
+
+
+</td>
+<td valign="top">
+
+Finished Application Jobs
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_appl\_jobs\_success\_count\_5m
+
+
+
+</td>
+<td valign="top">
+
+The number of successfully finished application jobs during the last 5 minutes
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Application Jobs
+
+
+
+</td>
+<td valign="top">
+
+Application Logs
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_appl\_logs\_count
+
+
+
+</td>
+<td valign="top">
+
+The total number of application logs
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Application Jobs
+
+
+
+</td>
+<td valign="top">
+
+Application Logs with Errors
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_appl\_logs\_errors\_count\_5m
+
+
+
+</td>
+<td valign="top">
+
+The number of application logs with errors during the last 5 minutes
 
 
 

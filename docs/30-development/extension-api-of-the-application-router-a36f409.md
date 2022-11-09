@@ -21,7 +21,7 @@ The application router extension API enables you to create new instances of the 
 
 The application router uses the “Connect” framework for the insertion of middleware components. You can reuse all connect middleware within the application router directly.
 
-<a name="loioa36f409dac7d472cb4a10cd884e35012__table_yxn_n51_tx"/>Approuter Extension API Functions
+**Approuter Extension API Functions**
 
 
 <table>

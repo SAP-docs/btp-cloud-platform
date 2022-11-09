@@ -8,7 +8,7 @@ When creating a BAdI definition, please pay attention that some features may not
 
 
 
-<a name="loio405764b4be8349deb4c6a31337a1600c__table_gyf_hpd_tpb"/>BAdI Option Restrictions
+**BAdI Option Restrictions**
 
 
 <table>
@@ -336,7 +336,7 @@ All ABAP Dictionary types that are used in the parameter typing must be C1-relea
 
 Define a filter for your BAdI definition. Note that filter usage in BAdI implementations is restricted: Filters shouldn't overlap. To make sure that this is not the case, the filters of two distinct implementations of the same BAdI definition should not be `true` at the same time. See the table below for more restrictions and requirements when defining filters:
 
-<a name="loio405764b4be8349deb4c6a31337a1600c__table_gyf_hpd_tpc"/>Filter Definitions
+**Filter Definitions**
 
 
 <table>

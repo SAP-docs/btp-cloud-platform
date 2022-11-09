@@ -6,7 +6,7 @@ Overview of terminology used for identity and access management
 
 
 
-<a name="loio84a11597c3b54d85af23577da7952298__table_qmq_2lv_zr"/>Terminology Overview
+**Terminology Overview**
 
 
 <table>

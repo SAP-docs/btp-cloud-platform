@@ -85,7 +85,7 @@ For more information, about the features that each plan offers, see [Cloud Found
 
 The btp CLI offers the following environment instance command actions to manage Cloud Foundry orgs in SAP BTP:
 
-<a name="loioaee40e1afa56445a9bd57c2621d6eaaa__table_g1s_4k1_5pb"/>
+****
 
 
 <table>

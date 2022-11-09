@@ -8,7 +8,7 @@ Get an overview of available business role catalogs and their restrictions.
 
 You assign business catalogs to business roles that are assigned to business users. Business catalogs contain authorizations that define what a business user with a certain business role is allowed to do.
 
-<a name="loioa9f42789fd5743edbf1de20d6c571cb2__table_igc_jnw_dw"/>Business Catalogs for Development Tasks
+**Business Catalogs for Development Tasks**
 
 
 <table>

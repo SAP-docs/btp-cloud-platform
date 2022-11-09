@@ -24,7 +24,7 @@ Delete a branch.
 
 ### Request Parameters
 
-<a name="loio425717b1f53941d7b90428fc53e51d14__table_ssp_js4_bpb"/>
+****
 
 
 <table>
@@ -173,7 +173,7 @@ query string
 
 ### Response Status and Error Codes
 
-<a name="loio425717b1f53941d7b90428fc53e51d14__table_sjb_vs4_bpb"/>
+****
 
 
 <table>

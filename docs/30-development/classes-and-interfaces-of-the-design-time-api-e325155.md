@@ -6,7 +6,7 @@ You can use the `CL_BALI_OBJECT_HANDLER` class as *Application Log Design Time A
 
 **Public Methods**
 
-<a name="loioe3251557f960469d9b9282bf18fb94d4__table_xc4_gls_wlb"/>GET\_INSTANCE \(static\)
+**GET\_INSTANCE \(static\)**
 
 
 <table>
@@ -60,7 +60,7 @@ Create, change or delete application log objects
 
 Create a new application log object, optionally with subobjects.
 
-<a name="loioe3251557f960469d9b9282bf18fb94d4__table_ghf_4ls_wlb"/>IF\_BALI\_OBJECT\_HANDLER~CREATE\_OBJECT
+**IF\_BALI\_OBJECT\_HANDLER~CREATE\_OBJECT**
 
 
 <table>
@@ -209,7 +209,7 @@ Transport request
 
 Delete an application log object and all of its subobjects.
 
-<a name="loioe3251557f960469d9b9282bf18fb94d4__table_msz_kms_wlb"/>IF\_BALI\_OBJECT\_HANDLER~DELETE\_OBJECT
+**IF\_BALI\_OBJECT\_HANDLER~DELETE\_OBJECT**
 
 
 <table>
@@ -286,7 +286,7 @@ Transport request
 
 Add a new subobject to an existing application log object.
 
-<a name="loioe3251557f960469d9b9282bf18fb94d4__table_sfj_sms_wlb"/>IF\_BALI\_OBJECT\_HANDLER~ADD\_SUBOBJECT
+**IF\_BALI\_OBJECT\_HANDLER~ADD\_SUBOBJECT**
 
 
 <table>
@@ -409,7 +409,7 @@ Transport request
 
 Delete a subobject from an application log object.
 
-<a name="loioe3251557f960469d9b9282bf18fb94d4__table_dlh_dns_wlb"/>IF\_BALI\_OBJECT\_HANDLER~DELETE\_SUBOBJECT
+**IF\_BALI\_OBJECT\_HANDLER~DELETE\_SUBOBJECT**
 
 
 <table>
@@ -509,7 +509,7 @@ Transport request
 
 Read an application log object and all of its subobjects
 
-<a name="loioe3251557f960469d9b9282bf18fb94d4__table_ffl_3ns_wlb"/>IF\_BALI\_OBJECT\_HANDLER~READ\_OBJECT
+**IF\_BALI\_OBJECT\_HANDLER~READ\_OBJECT**
 
 
 <table>

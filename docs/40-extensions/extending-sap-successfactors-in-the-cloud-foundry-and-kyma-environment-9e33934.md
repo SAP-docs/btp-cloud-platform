@@ -32,7 +32,7 @@ The following graphic provides a high-level overview of the integration between 
 
 To integrate SAP BTP and SAP SuccessFactors so that you can build extension applications, you need to perform the following tasks:
 
-<a name="loio9e33934540c44681817567d6072effb2__table_cyp_dpr_y3b"/>Integrating SAP BTP and SAP SuccessFactors
+**Integrating SAP BTP and SAP SuccessFactors**
 
 
 <table>

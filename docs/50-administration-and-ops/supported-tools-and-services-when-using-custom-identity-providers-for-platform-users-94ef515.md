@@ -6,7 +6,7 @@ Not all tools and services of SAP BTP support the use of custom identity provide
 
 
 
-<a name="loio94ef5154e384408796c035a82b043f82__table_lls_qwq_ylb"/>Supported When Using Identity Providers for Platform Users
+**Supported When Using Identity Providers for Platform Users**
 
 
 <table>
@@ -219,7 +219,7 @@ You can use the Service Fabrik backing service.
 </tr>
 </table>
 
-<a name="loio94ef5154e384408796c035a82b043f82__table_n5p_1lm_5lb"/>Supported with Restrictions When Using Platform Identity Providers
+**Supported with Restrictions When Using Platform Identity Providers**
 
 
 <table>

@@ -16,7 +16,7 @@ cf bind-service <APPROUTER_APP_NAME> <XSUAA_INSTANCE_NAME>
 
 ```
 
-<a name="loio04b9258a5a49437581f00cddb527d525__table_av3_kmw_qmb"/>Specify the following parameters:
+**Specify the following parameters:**
 
 
 <table>

@@ -6,6 +6,14 @@ Find out how to change the user of your application job, or delete your job.
 
 
 
+<a name="loio1c460b218664442caf28d34348284fdb__section_mfh_nnb_55b"/>
+
+## Prerequisite
+
+Before changing the user of a job, ensure that the target user has the correct authorizations to run the job. Otherwise, the job will fail.
+
+
+
 <a name="loio1c460b218664442caf28d34348284fdb__section_kww_jhv_fsb"/>
 
 ## Procedure
@@ -21,7 +29,7 @@ Find out how to change the user of your application job, or delete your job.
 
     When clicking on an application job, you'll be navigated to the *Details* page of the *Application Jobs* app.
 
-3.  If you've decided to change the owner and user of your application job, a dialog opens. Enter the new job owner and user by selecting them from the value help. Mind that you can only select owners and users that have the appropriate authorizations. You can choose to only display these users by filtering for *Only Valid*.
+3.  If you've decided to change the owner and user of your application job, a dialog opens. Enter the new job owner and user by selecting them from the value help. Mind that you can only select owners and users that have the appropriate authorizations for the `S_START` of a job. App-specific authorizations are not checked. You can choose to only display these users by filtering for *Only Valid*.
 
     > ### Note:  
     > If a job owner is a communication user, the owner can't be changed, since the connection to the corresponding communication arrangement of the type `SAP_COM_0064` would be broken.

@@ -119,7 +119,7 @@ This section is a quick introduction to the latest SAP HANA offering on SAP BTP,
 
 ### Tools
 
-There are two tools you need to know, SAP Web IDE Full-Stack and SAP HANA Cockpit.
+There are two tools you need to know, SAP Business Application Studio and SAP HANA Cockpit.
 
 -   SAP Business Application Studio
 

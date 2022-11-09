@@ -8,7 +8,7 @@ Get an overview of the regular job deletion
 
 All jobs that are not removed by a user remain in the system until a technical cleaning job runs. The time when this job is run by the system depends on the periodic granularity of the jobs that should be deleted. Currently, the following timeframes apply:
 
-<a name="loioa98358cf3085452fa79abf13bd7a86f1__table_qnb_sk1_ww"/>Regular Job Deletion
+**Regular Job Deletion**
 
 
 <table>

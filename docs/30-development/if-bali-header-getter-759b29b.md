@@ -240,7 +240,7 @@ Number of status items which are stored in the log
 
 Get description text of the log object in the logon language:
 
-<a name="loio759b29b4509841bcb381212621bef9c2__table_xkf_sjb_xlb"/>**GET\_OBJECT\_DESCRIPTION**
+**GET\_OBJECT\_DESCRIPTION**
 
 
 <table>
@@ -291,7 +291,7 @@ Description of the object in the logon language
 
 Get description text of log subobject in the logon language:
 
-<a name="loio759b29b4509841bcb381212621bef9c2__table_ork_czn_xlb"/>**GET\_SUBOBJECT\_DESCRIPTION**
+**GET\_SUBOBJECT\_DESCRIPTION**
 
 
 <table>

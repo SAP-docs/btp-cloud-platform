@@ -10,7 +10,7 @@ Use method `UNIT_PARAMETERS_GET` to determine the data conversion factors of a u
 
 ## Import Parameters
 
-<a name="loiob4f5ab1001f847c8a129d717ef5e9356__table_utf_j4m_rlb"/>
+****
 
 
 <table>
@@ -54,7 +54,7 @@ Unit of measurement
 
 ## Export Parameters
 
-<a name="loiob4f5ab1001f847c8a129d717ef5e9356__table_nbs_gpm_rlb"/>
+****
 
 
 <table>
@@ -210,7 +210,7 @@ Unit of measurement family
 
 ## Exceptions
 
-<a name="loiob4f5ab1001f847c8a129d717ef5e9356__table_jwv_dqm_rlb"/>
+****
 
 
 <table>

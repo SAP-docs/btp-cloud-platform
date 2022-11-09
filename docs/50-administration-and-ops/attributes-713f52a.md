@@ -28,7 +28,7 @@ For each attribute, administrators have multiple options to specify the value wh
     > 
     > There is an exception. The following attributes from the identity provider are automatically mapped:
     > 
-    > <a name="loio713f52ac36a041ef8fdc72560d6cfbcd__table_qxk_j43_vlb"/>Automatic Mapping of Attributes
+    > **Automatic Mapping of Attributes**
     > 
     > 
     > <table>

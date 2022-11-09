@@ -10,7 +10,7 @@ Use method `DELETE` to delete a unit of measurement. For customer units, the nam
 
 ## Import Parameters
 
-<a name="loio54ded5bdf2284bed955a19981f5b310f__table_twy_xbl_rlb"/>
+****
 
 
 <table>
@@ -54,7 +54,7 @@ Internal unit of measurement
 
 ## Export Parameters
 
-<a name="loio54ded5bdf2284bed955a19981f5b310f__table_ztj_m2v_plb"/>
+****
 
 
 <table>

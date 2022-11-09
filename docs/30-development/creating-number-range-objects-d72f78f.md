@@ -11,7 +11,7 @@ When creating a number range object, the following naming-rules apply:
 -   The maximum length of a number range object is 10 characters.
 
 
-<a name="loiod72f78f5dc7a4c859a9407e99026b330__table_hw1_gry_fjb"/>Import Parameters
+**Import Parameters**
 
 
 <table>
@@ -431,7 +431,7 @@ Description of object, short text.
 </tr>
 </table>
 
-<a name="loiod72f78f5dc7a4c859a9407e99026b330__table_skr_yty_fjb"/>Export Parameters
+**Export Parameters**
 
 
 <table>

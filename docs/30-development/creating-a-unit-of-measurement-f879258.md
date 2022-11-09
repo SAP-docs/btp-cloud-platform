@@ -10,7 +10,7 @@ Use method `CREATE` to create a unit of measurement. For customer units, the nam
 
 ## Import Parameters
 
-<a name="loiof8792584a0d34219a455e063b10fc225__table_cx2_45y_qlb"/>
+****
 
 
 <table>
@@ -394,7 +394,7 @@ Long description of a unit of measurement
 
 ## Export Parameters
 
-<a name="loiof8792584a0d34219a455e063b10fc225__table_ztj_m2v_plb"/>
+****
 
 
 <table>

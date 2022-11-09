@@ -14,7 +14,7 @@ Information that is specific to the user is stored in attributes. For each attri
 
    
   
-<a name="loio5d8ed75b5c72432cb0e4d846f411e0cd__fig_zsf_ndq_l4b"/>Relationship Between Authorization Components
+**Relationship Between Authorization Components**
 
  ![Understand how the different authorization components relate to each other.](images/Relationship_between_authorization_entities_fef7332.png "Relationship Between Authorization Components") 
 

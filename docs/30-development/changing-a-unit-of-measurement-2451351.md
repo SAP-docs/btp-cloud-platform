@@ -10,7 +10,7 @@ Use method `UPDATE` to change a unit of measurement. For customer units, the nam
 
 ## Import Parameters
 
-<a name="loio24513517eb7d44fd8363f81a6d2c9068__table_cx2_45y_qlb"/>
+****
 
 
 <table>
@@ -371,7 +371,7 @@ Long description of a unit of measurement
 
 ## Export Parameters
 
-<a name="loio24513517eb7d44fd8363f81a6d2c9068__table_ztj_m2v_plb"/>
+****
 
 
 <table>

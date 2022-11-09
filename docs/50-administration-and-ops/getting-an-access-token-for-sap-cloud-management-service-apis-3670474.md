@@ -29,10 +29,11 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
 
 1.  Create a service instance for the SAP Cloud Management service \(`cis`\).
 
-    When you create the service instance, specify the following parameters:
+    When you create the service instance, specify the following:
 
-    -   `PLAN:` The name of the service plan you want to use. See [SAP Cloud Management Service - Service Plans](sap-cloud-management-service-service-plans-a508b72.md).
-    -   `SERVICE_INSTANCE:` Name of the service instance.
+    -   The name of the service plan you want to use. See [SAP Cloud Management Service - Service Plans](sap-cloud-management-service-service-plans-a508b72.md).
+    -   A name for the new service instance.
+    -   \(Optional\) Using the `directoryId` parameter, you can specify the ID of a directory in the account hierarchy for which you want to allow directory administrators to perform account management actions, such as creating subaccounts and setting entitlements in the directory, using the APIs of the [Accounts and Entitlements services](https://api.sap.com/package/SAPCloudPlatformCoreServices). The specified directory must exist in the current global account and the `AUTHORIZATIONS` feature must be enabled for the directory. You can apply this parameter only with the `central` plan of the SAP Cloud Management service \(`cis`\).
 
     There are several options available to create instances depending on the environment you use.
 
@@ -124,10 +125,10 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
 
 2.  Create a service key.
 
-    When you create the service key, specify the following parameters:
+    When you create the service key, specify:
 
-    -   `SERVICE_INSTANCE:` Name of the service instance for which to create the service key.
-    -   `SERVICE_KEY:` Name for the service key.
+    -   The name of the service instance for which to create the service key.
+    -   A name for the service key.
 
     There are several options available to create service keys depending on the environment you use.
 

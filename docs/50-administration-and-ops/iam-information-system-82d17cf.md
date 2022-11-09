@@ -26,6 +26,8 @@ You can use this app to:
 
 -   Check, for example, which business roles are assigned to a business user, which business catalogs and restrictions are therefore assigned to the business user and to which applications a user has access. You can also download a list of business users and business catalogs.
 
+-   Check, for example, which business roles and business catalogs are required to make a certain app visible for a business user on the SAP Fiori Launchpad.
+
 
 
 

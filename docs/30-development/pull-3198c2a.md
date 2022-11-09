@@ -14,7 +14,7 @@
 
 ### CRUD Operations
 
-<a name="loio3198c2ac3a11467686920c303d14df78__table_kdm_fq4_bpb"/>
+****
 
 
 <table>
@@ -93,7 +93,7 @@ Trigger a pull job
 
 ### Custom Operations
 
-<a name="loio3198c2ac3a11467686920c303d14df78__table_b1c_b54_bpb"/>
+****
 
 
 <table>
@@ -193,7 +193,7 @@ Associationl
 
 ### Parameters
 
-<a name="loio3198c2ac3a11467686920c303d14df78__table_c3l_hq4_bpb"/>
+****
 
 
 <table>

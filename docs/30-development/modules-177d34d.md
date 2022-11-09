@@ -34,7 +34,7 @@ Optional module attributes include:
 
 Modify the following MTA module types by providing specific properties or parameters in the MTA deployment descriptor \(`mtad.yaml`\).
 
-<a name="loio177d34d45e3d4fd99f4eeeffc5814cf1__table_mtaModuleTypes"/>MTA Default Modules Types
+**MTA Default Modules Types**
 
 
 <table>
@@ -814,7 +814,7 @@ Module parameters have platform-specific semantics. To reference a parameter val
 
 The following parameters are supported:
 
-<a name="loio177d34d45e3d4fd99f4eeeffc5814cf1__table_moduleSpecificParameters"/>MTA Development and Deployment Module Parameters
+**MTA Development and Deployment Module Parameters**
 
 
 <table>
@@ -2859,7 +2859,7 @@ Generated as described in the description.
 
 The following properties are supported:
 
-<a name="loio177d34d45e3d4fd99f4eeeffc5814cf1__table_vqk_pv3_25b"/>MTA Development and Deployment Module Properties
+**MTA Development and Deployment Module Properties**
 
 
 <table>

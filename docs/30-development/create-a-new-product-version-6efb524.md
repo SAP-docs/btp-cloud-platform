@@ -50,7 +50,7 @@ Find out how to create a new product version:
 > ### Note:  
 > The column Log Availability can have the following status:
 > 
-> <a name="loio6efb5242a2b44625b6c42e14de6c1c9d__table_xsh_1my_z5b"/>
+> ****
 > 
 > 
 > <table>

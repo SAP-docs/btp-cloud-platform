@@ -8,7 +8,7 @@ The routing configuration for an application is defined in one or more destinati
 
 The application router is used to serve static content, authenticate users, rewrite URLs, and forward or proxy requests to other micro services while propagating user information. The following table lists the resource files used to define routes for multi-target applications:
 
-<a name="loioe179c0c5d6214d05b2cab3a70286d752__table_jn4_nbr_xs"/>Application-Router Resource Files Overview
+**Application-Router Resource Files Overview**
 
 
 <table>

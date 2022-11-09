@@ -42,7 +42,7 @@ To display the common features and the differences between business roles, you c
 
     Display only the differences between the two roles, for example if a restriction type is only assigned to one role but not to the other role.
 
-    <a name="loio9d5893ef9cb14783ab237ccb2a15c075__table_svk_wsv_qjb"/>The restriction types are coloured as follows:
+    **The restriction types are coloured as follows:**
 
 
     <table>

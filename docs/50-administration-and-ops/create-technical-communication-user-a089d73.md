@@ -22,7 +22,7 @@ A communication user enables the integration with other solutions.
 
 ## Procedure
 
-1.  Log on to the SAP Fiori launchpad in the ABAP environment system.
+1.  Log on to the SAP Fiori launchpad in the SAP S/4HANA Cloud system.
 
 2.  Under the *Communication Management* section, choose the *Maintain Communication Users* app.
 

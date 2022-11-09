@@ -1,0 +1,28 @@
+<!-- loio16ed1de20ee44f3d8f6a7d7c85988052 -->
+
+# Upload and Publish the Translated XLIFF File to the System
+
+
+
+<a name="loio16ed1de20ee44f3d8f6a7d7c85988052__section_e1c_p3l_q5b"/>
+
+## Context
+
+Your texts have been translated and a new XLIFF file has been sent back to you. You can now upload and publish the translated texts into the system. Here’s how:
+
+
+
+<a name="loio16ed1de20ee44f3d8f6a7d7c85988052__section_w4q_q3l_q5b"/>
+
+## Procedure
+
+1.  In the *Maintain Customizing Translations* app, open your project and scroll down to *Translations*.
+2.  Select the entry for the source and target language for which you want to upload and publish the translated XLIFF file.
+3.  Click *Upload*.
+4.  Search for the translated file and confirm with *Upload*.
+5.  Now the translations have been uploaded to the system. They still need to be published, however. Select the entry and click *Publish*.
+6.  Select a transport to which you want to add the corresponding language \(`LANG`\) transport entries and click *Select*.
+
+    Your translations have now been published.
+
+

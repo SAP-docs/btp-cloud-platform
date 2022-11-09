@@ -47,7 +47,7 @@ The User Account and Authentication service stores user-related data records in 
 
        
       
-    <a name="loio893c5ac43ffb47a589a9bf2b98fbd2fb__fig_nh5_14s_4qb"/>Filter for Users Who Haven't Logged On
+    **Filter for Users Who Haven't Logged On**
 
      ![](images/find_old_shadowusers_aeb30b2.png "Filter for Users Who Haven't Logged On") 
 
@@ -72,7 +72,7 @@ The User Account and Authentication service stores user-related data records in 
 
        
       
-    <a name="loio893c5ac43ffb47a589a9bf2b98fbd2fb__fig_qmc_34s_4qb"/>Delete Selected Users
+    **Delete Selected Users**
 
      ![](images/delete_shadow_users_c490b82.png "Delete Selected Users") 
 

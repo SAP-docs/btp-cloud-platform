@@ -14,7 +14,7 @@ The subaccount technical name is a unique identifier of the subaccount on SAP BT
 
 You can change to the following subaccount details:
 
-<a name="loio567d4a84bfdc428f8f3640e07261f73a__table_p5g_kkf_4z"/>Editable Subaccount Details \[Feature Set A\]
+**Editable Subaccount Details \[Feature Set A\]**
 
 
 <table>
@@ -110,7 +110,7 @@ Enable beta features
 </tr>
 </table>
 
-<a name="loio567d4a84bfdc428f8f3640e07261f73a__table_ljn_yvw_1jb"/>Editable Subaccount Details \[Feature Set B\]
+**Editable Subaccount Details \[Feature Set B\]**
 
 
 <table>

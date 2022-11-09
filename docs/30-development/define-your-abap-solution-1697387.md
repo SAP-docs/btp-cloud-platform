@@ -28,7 +28,7 @@ Follow these steps to define your ABAP Solution.
     
     ```
 
-    <a name="loio1697387c02e74e66a55cf21a05678167__table_n42_ypv_qmb"/>Specify the following parameters:
+    **Specify the following parameters:**
 
 
     <table>

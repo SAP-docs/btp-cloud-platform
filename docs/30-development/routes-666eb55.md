@@ -13,7 +13,7 @@ Defines all route objects, for example: `source`, `target`, and, `destination`.
 
 
 
-<a name="loio666eb55032d849beabb906b18712509b__table_routes_properties"/>Application Router: Routes Properties
+**Application Router: Routes Properties**
 
 
 <table>
@@ -672,7 +672,7 @@ The `replace` object configures the placeholder replacement in static text resou
 
 The `replace` keyword requires the following properties:
 
-<a name="loio666eb55032d849beabb906b18712509b__table_qgd_34y_lv"/>Replacement Properties for Static Resource URLs
+**Replacement Properties for Static Resource URLs**
 
 
 <table>
@@ -798,7 +798,7 @@ The content type returned by a request is based on the file extension specified 
 
 The following table illustrates some examples of the `pathSuffixes` properties:
 
-<a name="loio666eb55032d849beabb906b18712509b__table_hgz_3ry_lv"/>Examples of the pathSuffixes Property
+**Examples of the pathSuffixes Property**
 
 
 <table>

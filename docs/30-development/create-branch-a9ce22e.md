@@ -20,7 +20,7 @@ Create a new branch.
 
 ### Request Headers
 
-<a name="loioa9ce22e685144dc88894067ead3b2778__table_byq_jr4_bpb"/>
+****
 
 
 <table>
@@ -126,7 +126,7 @@ Value of x-csrf-token
 
 ### Request Parameters
 
-<a name="loioa9ce22e685144dc88894067ead3b2778__table_ssp_js4_bpb"/>
+****
 
 
 <table>
@@ -310,7 +310,7 @@ Request body
 
 ### Response Status and Error Codes
 
-<a name="loioa9ce22e685144dc88894067ead3b2778__table_sjb_vs4_bpb"/>
+****
 
 
 <table>

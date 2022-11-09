@@ -24,7 +24,7 @@ For more information, see [OpenID Connect](https://help.sap.com/viewer/6d6d63354
 
 In the default configuration, the attributes provided in the ID token issued by Identity Authentication are described in the following table.
 
-<a name="loiobbb4a8a1eae04843967a8a629dcb30f9__table_ggg_yyw_psb"/>Default Attributes of Identity Authentication Tokens
+**Default Attributes of Identity Authentication Tokens**
 
 
 <table>
@@ -203,7 +203,7 @@ Business applications can use this identifier to correlate information about the
 
 In the application of Identity Authentication that represents the subaccount, the configuration sets defaults as shown in the following table.
 
-<a name="loiobbb4a8a1eae04843967a8a629dcb30f9__table_ujb_lgx_psb"/>Default Configurations of the Subaccount in Identity Authentication
+**Default Configurations of the Subaccount in Identity Authentication**
 
 
 <table>

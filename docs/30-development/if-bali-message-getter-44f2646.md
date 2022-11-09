@@ -234,7 +234,7 @@ Count of cumulated messages
 
 Get the message text of the message \(the output of ABAP command ***MESSAGE***\):
 
-<a name="loio44f264691e504fa5b1552e5dcf4f3338__table_xkf_sjb_xlb"/>**GET\_MESSAGE\_TEXT \(from interface IF\_BALI\_ITEM\_GETTER\):**
+**GET\_MESSAGE\_TEXT \(from interface IF\_BALI\_ITEM\_GETTER\):**
 
 
 <table>

@@ -14,7 +14,7 @@
 
 ### CRUD Operations
 
-<a name="loio3c1ec56e70c14a3b9f9d81f145979371__table_kdm_fq4_bpb"/>
+****
 
 
 <table>
@@ -56,7 +56,7 @@ GET
 
 ### Parameters
 
-<a name="loio3c1ec56e70c14a3b9f9d81f145979371__table_c3l_hq4_bpb"/>
+****
 
 
 <table>

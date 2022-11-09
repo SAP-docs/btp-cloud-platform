@@ -7,7 +7,7 @@ The `WRITE` method in the generated class `<name space>CL_<change document objec
 > ### Note:  
 > The `WRITE` method is generated automatically. Manual modifications to the code are not required. If custom code is added to this method, the `CREATE`, `UPDATE` and `DELETE` operations on the change document object will remove it.
 
-<a name="loiobf7a980559e44ddf91cbf6a0f6696387__table_ddt_fxv_2jb"/>Import Parameters
+**Import Parameters**
 
 
 <table>
@@ -324,7 +324,7 @@ With this flag, you determine the processing logic. The following values exist:
 </tr>
 </table>
 
-<a name="loiobf7a980559e44ddf91cbf6a0f6696387__table_sbs_jyv_2jb"/>Export Parameter
+**Export Parameter**
 
 
 <table>

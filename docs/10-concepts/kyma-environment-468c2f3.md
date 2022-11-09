@@ -57,7 +57,7 @@ SAP BTP, Kyma runtime \(SKR\) and open source project "Kyma" \(OS\) offer slight
 
 For all functionalities that the Kyma environment offers, see the official [project "Kyma" documentation](https://kyma-project.io/docs/).
 
-<a name="loio4b83be95f7db4fddba5c46d388ebf39a__table_a1y_myp_nrb"/>Functionality Comparison
+**Functionality Comparison**
 
 
 <table>

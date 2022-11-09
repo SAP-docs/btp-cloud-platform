@@ -10,7 +10,7 @@ Find out how to use the *Custom Business Configurations* app.
 
 ## Purpose
 
-The *Custom Business Configurations* app serves as an entry point to the configuration objects provided by the different applications or partners. You can use the app to adjust these configuration objects to change and influence the system behavior.
+The *Custom Business Configurations* app serves as an entry point to the [Business Configuration Maintenance Object](../30-development/business-configuration-maintenance-object-61159c4.md) provided by the custom applications or partners. You can use the app to adjust these configuration objects to change and influence the system behavior. For more information, see also [Creating Business Configuration Apps with ABAP RESTful Application Programming Model and Custom Business Configurations](../30-development/creating-business-configuration-apps-with-abap-restful-application-programming-model-and-fa420dd.md).
 
 
 
@@ -22,7 +22,7 @@ The following business catalog needs to be assigned to your user to access the a
 
 The business catalog is contained in the business role template: `SAP_BR_BPC_EXPERT`.
 
-To view the registered business configurations in the app, you need to be assigned the necessary authorizations regarding the service of the business configuration. You require a business configuration maintenance object, as described here: [Business Configuration Maintenance Object](business-configuration-maintenance-object-61159c4.md) \> **Provide Authorizations for a Business Configuration**.
+For a business configuration maintenance object to be listed in the *Custom Business Configurations* app, you require the necessary authorizations regarding the service of the business configuration: [Business Configuration Maintenance Object](../30-development/business-configuration-maintenance-object-61159c4.md) \> **Provide Authorizations for a Business Configuration**.
 
 
 
@@ -37,7 +37,7 @@ To view the registered business configurations in the app, you need to be assign
     > ### Note:  
     > Depending on your respective role and access rights, you may only be able to edit certain business configurations.
 
-4.  You can now adjust the business configuration you have selected. Simply add, update or delete entries.
+4.  You can now adjust the business configuration you have selected. Simply add, update, or delete entries.
 
 
 
@@ -45,7 +45,7 @@ To view the registered business configurations in the app, you need to be assign
 
 ## Intent Navigation
 
-You can use the parameter `TechnicalIdentifier` for the semantic object `BusinessConfiguration` with the action `maintain`. Intent navigation can be used to directly navigate to the maintenance view of the business configuration specified with the parameter `TechnicalIdentifier`. The parameter is available as a column in the list of business configurations.
+You can use the parameter `TechnicalIdentifier` for the semantic object `BusinessConfiguration` with the action `maintain`. Intent navigation can be used to directly navigate to the maintenance view of the business configuration specified with the parameter `TechnicalIdentifier`. The attribute `TechnicalIdentifier` is available as a column in the list report of the *Custom Business Configurations* app.
 
 
 
@@ -59,7 +59,25 @@ For a selected business configuration, the action *Display Change Logs* is avail
 -   the *Business Configuration Change Logs* app is configured as a valid navigation target for the user for the given device
 
 
-With this action, you can navigate to the[Business Configuration Change Logs](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/5c6cf20499894f1083e80dba7c5963d4.html?version=Cloud) app.
+With this action, you can navigate to the [Business Configuration Change Logs](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/5c6cf20499894f1083e80dba7c5963d4.html?version=Cloud) app.
+
+
+
+<a name="loio76384d8e68e646d6ae5ce8977412cbb4__section_q2m_45v_r5b"/>
+
+## Show Documentation
+
+For a selected business configuration, the action *Show Documentation* is available in the header section if a knowledge transfer document exists for the business configuration maintenance object. With this action the content of the knowledge transfer document is displayed. For more information, see [Documentation of Business Configuration Maintenance Objects](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/f4005c7b4fe0498bab2d7f5f6bd96d4e.html).
+
+To provide context-sensitive in-app help you can use [SAP Companion](https://experience.sap.com/fiori-design-web/web-assistant/).
+
+
+
+<a name="loio76384d8e68e646d6ae5ce8977412cbb4__section_h1v_lvv_r5b"/>
+
+## Grouping
+
+In the table view settings dialog you can group the business configuration maintenance objects by their attribute `Configuration Group`. This allows the list to be structured in a simple hierarchical manner. If this attribute is not maintained for a cusiness configuration maintenance object, it will be part of a generic group with the header *Not assigned*.
 
 
 

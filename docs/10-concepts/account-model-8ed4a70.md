@@ -158,7 +158,7 @@ You can assign labels to these entities when you create or edit them using the S
 
 Labels are made up of a *label name* \(also referred to as a *key*\) and up to 10 *values* associated with the label. You can apply label names and values in any way that suits your business and technical needs.
 
-<a name="loioe8663c08ead648faa673b0d63c5b478e__table_j1x_3v5_prb"/>Types of labels and examples
+**Types of labels and examples**
 
 
 <table>

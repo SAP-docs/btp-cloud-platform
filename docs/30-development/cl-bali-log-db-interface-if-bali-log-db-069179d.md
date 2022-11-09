@@ -10,7 +10,7 @@ Class `CL_BALI_LOG_DB` handles all database accesses of the application logs. Th
 
 Get an Instance of the Database Handler:
 
-<a name="loio069179d957b345e1bbf3f43da31fa446__table_g5t_khb_xlb"/>**GET\_INSTANCE \(static\)**
+**GET\_INSTANCE \(static\)**
 
 
 <table>
@@ -61,7 +61,7 @@ Database handler object: A reference to interface IF\_BALI\_LOG\_DB
 
 Load a single log from the database into the memory:
 
-<a name="loio069179d957b345e1bbf3f43da31fa446__table_pyx_h3b_xlb"/>**LOAD\_LOG**
+**LOAD\_LOG**
 
 
 <table>
@@ -233,7 +233,7 @@ Internal error during processing
 
 Load several logs via a filter from the database into the memory:
 
-<a name="loio069179d957b345e1bbf3f43da31fa446__table_xkf_sjb_xlb"/>**LOAD\_LOGS\_VIA\_FILTER**
+**LOAD\_LOGS\_VIA\_FILTER**
 
 
 <table>
@@ -401,7 +401,7 @@ Internal error during processing
 
 Save a single log to the database:
 
-<a name="loio069179d957b345e1bbf3f43da31fa446__table_tgj_wkb_xlb"/>**SAVE\_LOG**
+**SAVE\_LOG**
 
 
 <table>
@@ -550,7 +550,7 @@ Internal error during processing
 
 Delete a single log from the database:
 
-<a name="loio069179d957b345e1bbf3f43da31fa446__table_a11_tlb_xlb"/>**DELETE\_LOG**
+**DELETE\_LOG**
 
 
 <table>
@@ -682,7 +682,7 @@ Internal error during processing
 
 Set an SAP enqueue on a log:
 
-<a name="loio069179d957b345e1bbf3f43da31fa446__table_s4p_jmb_xlb"/>**ENQUEUE**
+**ENQUEUE**
 
 
 <table>
@@ -788,7 +788,7 @@ Internal error during processing
 
 Clear an SAP enqueue from a log:
 
-<a name="loio069179d957b345e1bbf3f43da31fa446__table_jl2_5mb_xlb"/>**DEQUEUE**
+**DEQUEUE**
 
 
 <table>

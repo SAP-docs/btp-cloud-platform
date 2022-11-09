@@ -120,7 +120,7 @@ The following example illustrates how the current date and time \(stored in ABAP
 
 For an otherwise empty worksheet, this will produce the following content:
 
-<a name="loio8dddce9fd9954e72a09d2b39d22db995__table_krx_3pn_1vb"/>
+****
 
 
 <table>

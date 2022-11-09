@@ -6,7 +6,7 @@ Use method `IF_CHDO_OBJECT_TOOLS_REL~READ_OBJECT` to read a change document obje
 
 The name of the object is assigned using the import parameter `IV_OBJECT`. The information is returned using the export parameter `ET_OBJECT_INFO`.
 
-<a name="loio798cf04e151f4b4f91eaa1bde8f65856__table_tlz_gwv_2jb"/>Import Parameter
+**Import Parameter**
 
 
 <table>
@@ -58,7 +58,7 @@ Change document object name
 </tr>
 </table>
 
-<a name="loio798cf04e151f4b4f91eaa1bde8f65856__table_hcr_lwv_2jb"/>Export Parameters
+**Export Parameters**
 
 
 <table>

@@ -2,7 +2,7 @@
 
 # Create, Maintain and Delete Communication Arrangements
 
-A communication arrangement is required for the event exchange between your ABAP environment and the SAP BTP, Cloud Foundry environment.
+A communication arrangement is required for the event exchange between *SAP S/4 HANA Cloud* and the SAP BTP, Cloud Foundry environment.
 
 
 
@@ -19,7 +19,7 @@ A communication arrangement is required for the event exchange between your ABAP
 
 *Service Key*
 
-The service key, created in SAP Event Mesh, contains all information required to establish a connection. This information is extracted and used to create a destination and an OAuth 2.0 configuration. By using the service key while creating a communication arrangement, the administrator saves manual steps in the ABAP environment system. These required configurations are created automatically by the *Enterprise Event Enablement* framework.
+The service key, created in SAP Event Mesh, contains all information required to establish a connection. This information is extracted and used to create a destination and an OAuth 2.0 configuration. By using the service key while creating a communication arrangement, the administrator saves manual steps on the *S/4HANA Cloud* system. These required configurations are created automatically by the *Enterprise Event Enablement* framework.
 
 
 
@@ -29,7 +29,7 @@ The service key, created in SAP Event Mesh, contains all information required to
 
 *Create a Communication Arrangement*
 
-1.  Log on to the SAP Fiori launchpad in the ABAP environment system.
+1.  Log on to the SAP Fiori launchpad in the *SAP S/4HANA Cloud* system.
 
 2.  Under the *Communication Management* section, select the *Communication Arrangement* tile.
 
@@ -106,7 +106,7 @@ You can still change parameters, either via service key or by entering parameter
 
 To delete a communication arrangement, proceed as follows:
 
-1.  Log on to the SAP Fiori launchpad in the ABAP environment system.
+1.  Log on to the SAP Fiori launchpad in the *SAP S/4HANA Cloud* system.
 
 2.  Under the *Communication Management* section, select the *Communication Arrangement* tile.
 

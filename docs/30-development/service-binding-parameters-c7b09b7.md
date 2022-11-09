@@ -15,7 +15,7 @@ The SAP Cloud Deployment service supports the following methods for the specific
 
 In the MTA deployment descriptor, the `requires` dependency between a module and a resource represents the binding between the corresponding application and the service created from them \(if the service has a `type`\). For this reason, the `config` parameter is nested in the `requires` dependency parameters, and a distinction must be made between the `config` parameter in the `modules` section and the `config` parameter used in the `resources` section \(for example, when used for service-creation parameters\).
 
-<a name="loioc7b09b79d3bb4d348a720ba27fe9a2d5__table_zjq_1zx_m2b"/>Service Binding Parameters - method comparison
+**Service Binding Parameters - method comparison**
 
 
 <table>

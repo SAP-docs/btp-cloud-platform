@@ -50,7 +50,7 @@ With cloud management tools feature set B, global account users from the SAP ID 
 
 The following table lists the role collections for account administration that a user has in cloud management tools feature set B, based on the role memberships the user had in cloud management tools feature set A.
 
-<a name="loio1ac8143b71fb46e78564ed30be757620__table_lcx_h1m_t4b"/>Account Authorization Mappings Between Feature Set A and Feature Set B
+**Account Authorization Mappings Between Feature Set A and Feature Set B**
 
 
 <table>
@@ -136,7 +136,7 @@ Security administrators rely mostly on the *User & Role Administrator* role for 
 
 The following table lists the roles and role collections a user receives, based on the Cloud Foundry roles the user had in cloud management tools feature set A.
 
-<a name="loio1ac8143b71fb46e78564ed30be757620__table_jgg_pvy_t4b"/>Mappings of Cloud Foundry Authorizations Between Feature Set A and Feature Set B
+**Mappings of Cloud Foundry Authorizations Between Feature Set A and Feature Set B**
 
 
 <table>

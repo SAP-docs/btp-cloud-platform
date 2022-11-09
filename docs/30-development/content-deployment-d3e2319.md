@@ -199,6 +199,28 @@ You can customize the service keys created as part of the content deployment by 
 
 
 
+### Re-create custom keys for deploy
+
+You can set the keys to automatically rotate for each new deployment by using the deployment parameter `${timestamp}` as a part of the name of the defined custom service key. Doing so ensures that the key will have a new name for each deployment resulting in the Deploy Service creating and using a new key for the related content deployment. The previously used service key will be deleted after the new one is in place.
+
+> ### Sample Code:  
+> ```
+> modules:
+> - name: content-module
+>    type: com.sap.application.content
+>    requires:
+>     - name: workflow_service
+>       parameters:
+>          content-target: true
+>          service-key:
+>            name: workflow_service-key-${timestamp}
+>            config:
+>              <map entries for creation parameters>
+> 
+> ```
+
+
+
 ### Modeling service dependencies
 
 In some cases the content that is deployed might require multiple services where the `content-target` service requires credentials of other services. In order to model such a dependency you need a descriptor similar to the following:

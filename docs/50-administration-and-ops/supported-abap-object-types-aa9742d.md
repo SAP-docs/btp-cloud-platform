@@ -4,7 +4,7 @@
 
 The following table contains all released ABAP object types that are supported in Git-enabled Change and Transport System \(gCTS\).
 
-<a name="loioaa9742dfb60e49deb033c2b8966e7461__table_uv4_532_fmb"/>
+****
 
 
 <table>
@@ -2221,7 +2221,7 @@ Transformation
 > ### Note:  
 > Object types flagged as "generated" cannot be created by customers directly but they are secondary objects that are necessary for the functionality of some objects.
 
-<a name="loioaa9742dfb60e49deb033c2b8966e7461__table_vdy_ck2_fmb"/>Customizing
+**Customizing**
 
 
 <table>

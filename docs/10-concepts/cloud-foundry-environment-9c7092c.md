@@ -140,7 +140,7 @@ The Cloud Foundry environment follows the recommendations of our partner IaaS pr
 
    
   
-<a name="loiob6a7e11c3a58416a9ab1175bba17193a__fig_tzn_zvs_mmb"/>2-AZ and 3-AZ Deployments
+**2-AZ and 3-AZ Deployments**
 
  ![](images/Availability_Zone_af5d046.png "2-AZ and 3-AZ Deployments") 
 

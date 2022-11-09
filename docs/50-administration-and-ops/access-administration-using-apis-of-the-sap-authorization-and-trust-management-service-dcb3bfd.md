@@ -9,7 +9,7 @@ To access the API, you need an OAuth 2.0 client. For more information about how 
 > ### Restriction:  
 > When using the APIs, also consider the following restrictions:
 > 
-> <a name="loiodcb3bfd09c4b465e9d6f599485c5b6de__table_axh_q35_h5b"/>Sizing Restrictions
+> **Sizing Restrictions**
 > 
 > 
 > <table>
@@ -68,7 +68,7 @@ The following table provides an overview of the APIs. For more information about
 > ### Note:  
 > For subaccounts based on the Neo environment, use the Neo APIs. For more information, see *Using Platform APIs* in the documentation for SAP BTP, Neo environment in the related links.
 
-<a name="loiodcb3bfd09c4b465e9d6f599485c5b6de__table_spm_rty_4mb"/>APIs of SAP Authorization and Trust Management Service
+**APIs of SAP Authorization and Trust Management Service**
 
 
 <table>

@@ -29,7 +29,7 @@ Typically, consumers of multitenant applications provided by a non-SAP applicati
 
    
   
-<a name="loio7a013f1d89f34a0084ea3d9a8bb2adbd__fig_oxt_44m_s2b"/>Account setup for an application owner provisioning a multitenant application to its consumers.
+**Account setup for an application owner provisioning a multitenant application to its consumers.**
 
  ![](images/CF_Subscriptions_with_External_Providers_-_Detailed_a65f2d5.png "Account
 					setup for an application owner provisioning a multitenant application to its consumers.") 

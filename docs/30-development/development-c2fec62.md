@@ -6,7 +6,7 @@ Develop and run business applications on SAP Business Technology Platform \(SAP 
 
 SAP BTP supports multiple environments. It features a number of tools and programming languages that increase your flexibility and freedom when developing applications. You can choose the environment that best suits your use cases and skill set and get to work. You also have the possibility to integrate applications you’ve built with other solutions by SAP.
 
-<a name="loioc2fec62b49fa43b8bd945c85ecc2e5bd__table_jsf_jmx_l4b"/>Environment options
+**Environment options**
 
 
 <table>

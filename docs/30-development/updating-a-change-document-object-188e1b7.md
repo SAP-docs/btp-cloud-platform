@@ -14,7 +14,7 @@ Method `AUTHORITY_CHECK` of interface `'IF_CHDO_ENHANCEMENTS'` must be implement
 
 The export parameter `ET_ERRORS` is used to return all generation messages \(messages from message class `CD`\) . Any syntax errors in the generated class are provided using `ET_SYNT_ERROR` \(with long text if applicable \(`ET_SYNT_ERROR_LONG`\)\).
 
-<a name="loio188e1b77f1a6461d8cc2bf0b3842021c__table_chz_hfv_2jb"/>Import Parameters
+**Import Parameters**
 
 
 <table>
@@ -552,7 +552,7 @@ Transport request where changes should be logged
 </tr>
 </table>
 
-<a name="loio188e1b77f1a6461d8cc2bf0b3842021c__table_mv3_qhv_2jb"/>Export Parameters
+**Export Parameters**
 
 
 <table>

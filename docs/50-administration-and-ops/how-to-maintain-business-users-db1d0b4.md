@@ -12,7 +12,7 @@ Business users are replicated from your central HR system. You can change user d
 
    
   
-<a name="loiodb1d0b4119d74dc6970adde9c85069b4__fig_m52_bml_45"/>How users get access to SAP Fiori apps
+**How users get access to SAP Fiori apps**
 
  ![](images/How_users_get_access_to_SAP_Fiori_apps_9ff1771.png "How users get access to SAP Fiori apps") 
 
@@ -206,7 +206,7 @@ Business users are replicated from your central HR system. You can change user d
 
     If you create a new business user, the following fields in the *User Data* area and the *Regional Settings* area are automatically filled with default values. You can adjust them if necessary.
 
-    <a name="loiodb1d0b4119d74dc6970adde9c85069b4__table_e45_53h_zpb"/>Default Values
+    **Default Values**
 
 
     <table>

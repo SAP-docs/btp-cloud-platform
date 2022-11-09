@@ -14,7 +14,7 @@ The central point of entry to the cloud platform is the **SAP BTP cockpit**, whe
 
   
   
-<a name="loio73beb06e127f4e47b849aa95344aabe1__fig_h2z_gx4_lnb"/>Relationship between SAP BTP Accounts and Associated Activities
+**Relationship between SAP BTP Accounts and Associated Activities**
 
  ![Understand how global accounts and subaccounts on relate to each other and on which level you perform activities.](images/Platform_Overview_Graphic_2677346.png "Relationship between SAP BTP Accounts and Associated
 					Activities") 

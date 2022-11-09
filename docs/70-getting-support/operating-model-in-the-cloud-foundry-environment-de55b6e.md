@@ -8,7 +8,7 @@ This operating model clearly defines the separation of tasks between the operato
 
 The responsibilities for operating the Cloud Foundry environment are listed in the following service catalog.
 
-<a name="loiode55b6e9aaa749ffbb8122c8f1097a34__table_i2l_2fv_4x"/>Service Catalog
+**Service Catalog**
 
 
 <table>

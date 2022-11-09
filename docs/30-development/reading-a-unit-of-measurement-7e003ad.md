@@ -10,7 +10,7 @@ Use method `READ` to read a unit of measurement.
 
 ## Import Parameters
 
-<a name="loio7e003ad72c6e494cbc9a9aa2b1db4950__table_twy_xbl_rlb"/>
+****
 
 
 <table>
@@ -54,7 +54,7 @@ Internal unit of measurement
 
 ## Export Parameters
 
-<a name="loio7e003ad72c6e494cbc9a9aa2b1db4950__table_cx2_45y_qlb"/>
+****
 
 
 <table>

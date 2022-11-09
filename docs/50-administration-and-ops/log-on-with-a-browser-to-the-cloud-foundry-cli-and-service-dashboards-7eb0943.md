@@ -37,7 +37,7 @@ When accessing a web application, like a service dashboard \(for example `logs.c
 
        
       
-    <a name="loio7eb094334422418f8909647699fea598__fig_krk_rg1_pqb"/>Logon Page Without Cookies
+    **Logon Page Without Cookies**
 
      ![](images/Logon_page_for_CF_platform_3ee6653.png "Logon Page Without Cookies") 
 
@@ -45,7 +45,7 @@ When accessing a web application, like a service dashboard \(for example `logs.c
 
        
       
-    <a name="loio7eb094334422418f8909647699fea598__fig_k45_gbb_d5b"/>Logon Page With Previous Logon
+    **Logon Page With Previous Logon**
 
      ![](images/BTP_login_with_cookies_c0319a7.png "Logon Page With Previous Logon") 
 

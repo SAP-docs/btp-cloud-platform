@@ -213,7 +213,7 @@ See:
 
 Member management in the Cloud Foundry environment is independent of the feature set you use.
 
-<a name="loiocc1c676b43904066abb2a4838cbd0c37__table_yc5_znz_klb"/>Member Management in the Cloud Foundry Environment
+**Member Management in the Cloud Foundry Environment**
 
 
 <table>

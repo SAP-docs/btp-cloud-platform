@@ -2,7 +2,7 @@
 
 # Queue Subscriptions
 
-Events published through an ABAP environmentinstance can be consumed at the SAP Event Mesh. Events published to a queue defined in your SAP Event Mesh service instance can also be consumed in ABAP environment. Queues can be used to buffer events until a consumer can process them. For the right events to arrive at a queue, the queue must be subscribed to the corresponding topics. A consumer can subscribe then to the queue.
+Events published through an *SAP S/4HANA Cloud* instance can be consumed at the SAP Event Mesh. Events published to a queue defined in your SAP Event Mesh service instance can also be consumed in SAP S/4HANA Cloud. Queues can be used to buffer events until a consumer can process them. For the right events to arrive at a queue, the queue must be subscribed to the corresponding topics. A consumer can subscribe then to the queue.
 
 
 
@@ -11,7 +11,7 @@ Events published through an ABAP environmentinstance can be consumed at the SAP 
 Once a queue has been subscribed to the corresponding topic and you have subscribed to the queue, you can view the the list of applications and service instances. The SAP Event Mesh dashboard enables you to create queues and bind incoming message topics to such queues.
 
 > ### Note:  
-> Starting from ABAP environment release 2008, the syntax used to compose topics and the payload for ABAP environment business events will change to support the standardized *Cloud Events* format. For more information, see [Events on SAP API Business Hub](https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/1e60f14bdc224c2c975c8fa8bcfd7f3f.html)
+> Starting from *SAP S/4HANA Cloud* release 2008, the syntax used to compose topics and the payload for *SAP S/4HANA Cloud* business events will change to support the standardized *Cloud Events* format. For more information, see [Events on SAP API Business Hub](https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/1e60f14bdc224c2c975c8fa8bcfd7f3f.html)
 > 
 > Ensure that the topic filter, to which the queue is subscribed, contains the following three parts:
 > 

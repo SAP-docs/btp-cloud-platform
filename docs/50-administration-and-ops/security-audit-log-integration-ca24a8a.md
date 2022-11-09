@@ -96,7 +96,7 @@ The service header contains information about the service.
 
 The entities contain the business data of the service.
 
-<a name="loioca24a8adb8c9440a9e7246fb615c306b__table_thq_y5d_5y"/>
+****
 
 
 <table>

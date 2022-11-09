@@ -340,7 +340,7 @@ Depending on the deployment strategy you use, the `phases` values are:
 
 The table below contains the parameters of the supported module hook types:
 
-<a name="loiob9245ba90aa14681a416065df8e8c593__table_xf2_myl_zhb"/>Module hooks of type `task`
+**Module hooks of type task**
 
 
 <table>

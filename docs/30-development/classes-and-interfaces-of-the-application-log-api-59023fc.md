@@ -4,7 +4,7 @@
 
 The following classes and interfaces are available:
 
-<a name="loio59023fcd95ec459d8259c1e2840b816a__table_srq_yb2_wlb"/>Access the Database
+**Access the Database**
 
 
 <table>
@@ -79,7 +79,7 @@ Defines a filter for reading of logs from the database.
 </tr>
 </table>
 
-<a name="loio59023fcd95ec459d8259c1e2840b816a__table_spc_pc2_wlb"/>Access the Content of a Log
+**Access the Content of a Log**
 
 
 <table>
@@ -131,7 +131,7 @@ Reads and writes the header and items of a log
 </tr>
 </table>
 
-<a name="loio59023fcd95ec459d8259c1e2840b816a__table_fdy_tc2_wlb"/>Writing the Log Header
+**Writing the Log Header**
 
 
 <table>
@@ -183,7 +183,7 @@ Log header which can be put into a log
 </tr>
 </table>
 
-<a name="loio59023fcd95ec459d8259c1e2840b816a__table_enp_yc2_wlb"/>Reading the Log Header
+**Reading the Log Header**
 
 
 <table>
@@ -235,7 +235,7 @@ Log header which was read from the log
 </tr>
 </table>
 
-<a name="loio59023fcd95ec459d8259c1e2840b816a__table_hrx_cd2_wlb"/>Writing a Log Item
+**Writing a Log Item**
 
 
 <table>
@@ -354,7 +354,7 @@ Exception which can be put into a log
 </tr>
 </table>
 
-<a name="loio59023fcd95ec459d8259c1e2840b816a__table_scl_nd2_wlb"/>Reading a Log Item
+**Reading a Log Item**
 
 
 <table>
@@ -467,7 +467,7 @@ Exception which was read from the log
 </tr>
 </table>
 
-<a name="loio59023fcd95ec459d8259c1e2840b816a__table_rc3_wd2_wlb"/>Other Classes and Interfaces
+**Other Classes and Interfaces**
 
 
 <table>
@@ -542,7 +542,7 @@ Define an item filter for adding items to a log
 
 If one of the class methods can't be processed or can't return the requested results, an exception is raised. The following exceptions are possible, each of them inherit from exception class `CX_BALI_RUNTIME`:
 
-<a name="loio59023fcd95ec459d8259c1e2840b816a__table_nnl_1bb_xlb"/>Exception Classes
+**Exception Classes**
 
 
 <table>

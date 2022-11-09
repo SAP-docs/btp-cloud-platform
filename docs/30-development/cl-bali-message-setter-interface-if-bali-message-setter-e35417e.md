@@ -52,7 +52,7 @@ Contains fixed value: IF\_BALI\_CONSTANTS=\>C\_CATEGORY\_MESSAGE
 
 Create a message class instance and set the message attributes:
 
-<a name="loioe35417e877b84d3aab807c3a99c136e4__table_xkf_sjb_xlb"/>**CREATE \(static\)**
+**CREATE \(static\)**
 
 
 <table>
@@ -226,7 +226,7 @@ Message object: A reference to interface IF\_BALI\_MESSAGE\_SETTER
 
 Create a message class instance. The message attributes are read from the fields of structure SY \(like SY-MSGID\):
 
-<a name="loioe35417e877b84d3aab807c3a99c136e4__table_egp_ww3_xlb"/>**CREATE\_FROM\_SY \(static\)**
+**CREATE\_FROM\_SY \(static\)**
 
 
 <table>
@@ -277,7 +277,7 @@ Message object: A reference to interface IF\_BALI\_MESSAGE\_SETTER
 
 Create a message class instance. The message attributes are read from a structure of type BAPIRET2:
 
-<a name="loioe35417e877b84d3aab807c3a99c136e4__table_xmm_cx3_xlb"/>**CREATE\_FROM\_BAPIRET2 \(static\)**
+**CREATE\_FROM\_BAPIRET2 \(static\)**
 
 
 <table>
@@ -353,7 +353,7 @@ Message object: A reference to interface IF\_BALI\_MESSAGE\_SETTER
 
 Set attributes of the message:
 
-<a name="loioe35417e877b84d3aab807c3a99c136e4__table_rjp_mx3_xlb"/>**SET\_ATTRIBUTES**
+**SET\_ATTRIBUTES**
 
 
 <table>
@@ -527,7 +527,7 @@ Reference to current message object
 
 Set message attributes from the fields of structure SY \(like SY-MSGID\):
 
-<a name="loioe35417e877b84d3aab807c3a99c136e4__table_a3b_tx3_xlb"/>**SET\_FROM\_SY**
+**SET\_FROM\_SY**
 
 
 <table>
@@ -578,7 +578,7 @@ Reference to current message object
 
 Set message attributes from structure BAPIRET2:
 
-<a name="loioe35417e877b84d3aab807c3a99c136e4__table_wtt_dy3_xlb"/>**SET\_FROM\_BAPIRET2**
+**SET\_FROM\_BAPIRET2**
 
 
 <table>
@@ -654,7 +654,7 @@ Reference to current message object
 
 Set the level of detail of the item:
 
-<a name="loioe35417e877b84d3aab807c3a99c136e4__table_nhn_3y3_xlb"/>**SET\_DETAIL\_LEVEL**
+**SET\_DETAIL\_LEVEL**
 
 
 <table>
@@ -732,7 +732,7 @@ Reference to current message object
 
 Get all message values:
 
-<a name="loioe35417e877b84d3aab807c3a99c136e4__table_i4j_ny3_xlb"/>**GET\_ALL\_VALUES**
+**GET\_ALL\_VALUES**
 
 
 <table>
@@ -920,7 +920,7 @@ Reference to current message object
 
 Check whether the message can pass an item filter:
 
-<a name="loioe35417e877b84d3aab807c3a99c136e4__table_a4v_d2r_lsb"/>CHECK\_PASSING\_ITEM\_FILTER \(from IF\_BALI\_ITEM\_SETTER\)
+**CHECK\_PASSING\_ITEM\_FILTER \(from IF\_BALI\_ITEM\_SETTER\)**
 
 
 <table>

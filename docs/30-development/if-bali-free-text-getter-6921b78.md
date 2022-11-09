@@ -124,7 +124,7 @@ UTC time stamp of the free text creation
 
 Get the content of the free text:
 
-<a name="loio6921b788f7e64e599fb0871623def46d__table_xkf_sjb_xlb"/>**GET\_MESSAGE\_TEXT \(from interface IF\_BALI\_ITEM\_GETTER\)**
+**GET\_MESSAGE\_TEXT \(from interface IF\_BALI\_ITEM\_GETTER\)**
 
 
 <table>

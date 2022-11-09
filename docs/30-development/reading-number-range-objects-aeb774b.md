@@ -4,7 +4,7 @@
 
 Use the `READ` method to read the attributes of a number range object.
 
-<a name="loioaeb774b1efe84d6d8c67f9299f001364__table_j2z_rwy_fjb"/>Import Parameters
+**Import Parameters**
 
 
 <table>
@@ -79,7 +79,7 @@ Number Range Object
 </tr>
 </table>
 
-<a name="loioaeb774b1efe84d6d8c67f9299f001364__table_onc_zwy_fjb"/>Export Parameters
+**Export Parameters**
 
 
 <table>

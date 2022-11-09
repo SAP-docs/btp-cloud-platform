@@ -275,7 +275,7 @@ SAP BTP supports identity federation, a concept of linking and reusing digital i
 
    
   
-<a name="loio6373bb7a96114d619bfdfdc6f505d1b9__fig_k5y_t5n_wmb"/>Identity Provider and XSUAA in SAP BTP Architecture
+**Identity Provider and XSUAA in SAP BTP Architecture**
 
  ![](../50-administration-and-ops/images/CF_Trust_for_Identity_Providers_3663b18.png "Identity Provider and XSUAA in SAP BTP Architecture") 
 
@@ -315,7 +315,7 @@ For default identity provider:
 
 In the Cloud Foundry environment, application developers create and deploy application-based authorization artifacts for business users. Administrators use this information to assign roles, build role collections, and assign these collections to business users or user groups. In this way, they control the users' permissions.
 
-<a name="loio6373bb7a96114d619bfdfdc6f505d1b9__table_b4h_4rg_vbb"/>Setting Up Authorization Artifacts \(Administrators\)
+**Setting Up Authorization Artifacts \(Administrators\)**
 
 
 <table>

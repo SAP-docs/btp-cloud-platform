@@ -35,7 +35,7 @@ Read on to learn about the set of data we deliver for these categories.
 
 Use class `CL_FHC_CALENDAR_RUNTIME` that contains the following list of methods to create a runtime for holidays, holiday calendars, and factory calendar:
 
-<a name="loiof7cbd3c336f84dc09c85639c55b4309f__table_lqb_kzv_gsb"/>
+****
 
 
 <table>
@@ -125,7 +125,7 @@ Provides a holiday runtime
 
 Use the before created runtime to access the following list of methods provided in the interface `IF_FHC_FCAL_RUNTIME` to get information about the factory calendar:
 
-<a name="loiof7cbd3c336f84dc09c85639c55b4309f__table_tjk_g1w_gsb"/>
+****
 
 
 <table>
@@ -375,7 +375,7 @@ Provides the ID of the factory calendar
 
 Use the before created runtime to access the following list of methods provided in the interface `IF_FHC_HCAL_RUNTIME` to get information about the holiday calendar:
 
-<a name="loiof7cbd3c336f84dc09c85639c55b4309f__table_ojt_qbw_gsb"/>
+****
 
 
 <table>
@@ -533,7 +533,7 @@ Provides the ID of the holiday calendar
 
 Use the before created runtime to access the following list of methods provided in the interface `IF_FHC_HOLIDAY_RUNTIME` to get information about the holidays:
 
-<a name="loiof7cbd3c336f84dc09c85639c55b4309f__table_fjt_hcw_gsb"/>
+****
 
 
 <table>
@@ -653,7 +653,7 @@ The `CL_FHC_CALENDAR_ID_MAPPER` class returns an ID mapper instance. Subsequentl
 
 ### Creating an ID Mapper Instance
 
-<a name="loiof7cbd3c336f84dc09c85639c55b4309f__table_k4x_3fd_g5b"/>
+****
 
 
 <table>
@@ -701,7 +701,7 @@ Provides an ID mapper instance
 
 ### Mapping the IDs
 
-<a name="loiof7cbd3c336f84dc09c85639c55b4309f__table_xsj_fgd_g5b"/>
+****
 
 
 <table>
@@ -845,7 +845,7 @@ Provides the three-digit SCAL holiday calendar ID for a 32-digit holiday ID
 
 Independently from the above factory calendar information, you can use class `CL_SCAL_UTILS`, which contains the following methods:
 
-<a name="loiof7cbd3c336f84dc09c85639c55b4309f__table_obz_jyw_5lb"/>
+****
 
 
 <table>

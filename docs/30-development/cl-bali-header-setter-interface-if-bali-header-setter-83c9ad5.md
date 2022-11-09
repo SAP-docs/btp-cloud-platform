@@ -10,7 +10,7 @@ Class `CL_BALI_HEADER_SETTER` is used to set the header attributes of an applica
 
 Create an instance of the header class with the settings of the descriptor \(object, subobject and external identifier\):
 
-<a name="loio83c9ad55ceb040a8bf3827a573773f43__table_xkf_sjb_xlb"/>**CREATE \(static\)**
+**CREATE \(static\)**
 
 
 <table>
@@ -163,7 +163,7 @@ The log object or subobject of the header doesn't exist
 
 Set object, subobject and external identifier of the log:
 
-<a name="loio83c9ad55ceb040a8bf3827a573773f43__table_ism_nzh_xlb"/>**SET\_DESCRIPTOR**
+**SET\_DESCRIPTOR**
 
 
 <table>
@@ -316,7 +316,7 @@ The log object or subobject of the header doesn't exist
 
 Set the expiry date and attributes:
 
-<a name="loio83c9ad55ceb040a8bf3827a573773f43__table_yfn_5zh_xlb"/>**SET\_EXPIRY**
+**SET\_EXPIRY**
 
 
 <table>
@@ -410,7 +410,7 @@ Reference to current header object
 
 Get all header values:
 
-<a name="loio83c9ad55ceb040a8bf3827a573773f43__table_lbw_d13_xlb"/>**GET\_ALL\_VALUES**
+**GET\_ALL\_VALUES**
 
 
 <table>

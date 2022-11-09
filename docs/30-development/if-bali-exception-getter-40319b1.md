@@ -156,7 +156,7 @@ Name of the Text ID of the ABAP exception
 
 Get the message short text of the exception \(the output of method GET\_TEXT of the ABAP exception object\):
 
-<a name="loio40319b1d61284004ad309c42786056f5__table_xkf_sjb_xlb"/>**GET\_MESSAGE\_TEXT \(from interface IF\_BALI\_ITEM\_GETTER\)**
+**GET\_MESSAGE\_TEXT \(from interface IF\_BALI\_ITEM\_GETTER\)**
 
 
 <table>

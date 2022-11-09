@@ -52,7 +52,7 @@ Contains fixed value: IF\_BALI\_CONSTANTS=\>C\_CATEGORY\_FREE\_TEXT
 
 Create an instance of the free text class and set the text and the severity:
 
-<a name="loiof8387789309344baafcf9a05bbe8059c__table_xkf_sjb_xlb"/>**CREATE \(static\)**
+**CREATE \(static\)**
 
 
 <table>
@@ -146,7 +146,7 @@ Free text object: A reference to interface IF\_BALI\_FREE\_TEXT\_SETTER
 
 Set the free text and severity:
 
-<a name="loiof8387789309344baafcf9a05bbe8059c__table_y1j_lvn_xlb"/>**SET\_TEXT**
+**SET\_TEXT**
 
 
 <table>
@@ -240,7 +240,7 @@ Reference to current free text object
 
 Set the level of detail of the free text:
 
-<a name="loiof8387789309344baafcf9a05bbe8059c__table_jqx_pvn_xlb"/>**SET\_DETAIL\_LEVEL**
+**SET\_DETAIL\_LEVEL**
 
 
 <table>
@@ -318,7 +318,7 @@ Reference to current free text object
 
 Get all free text values:
 
-<a name="loiof8387789309344baafcf9a05bbe8059c__table_qfw_xvn_xlb"/>**GET\_ALL\_VALUES**
+**GET\_ALL\_VALUES**
 
 
 <table>
@@ -403,7 +403,7 @@ Content of the free text
 
 Check whether the free text can pass an item filter:
 
-<a name="loiof8387789309344baafcf9a05bbe8059c__table_a4v_d2r_lsb"/>CHECK\_PASSING\_ITEM\_FILTER \(from IF\_BALI\_ITEM\_SETTER\)
+**CHECK\_PASSING\_ITEM\_FILTER \(from IF\_BALI\_ITEM\_SETTER\)**
 
 
 <table>

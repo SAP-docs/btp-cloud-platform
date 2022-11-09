@@ -40,7 +40,7 @@ The service nodes contain the service's business data.
 > ### Note:  
 > In the following table, attributes are marked in blue.
 
-<a name="loioa631f4ead22743598f1d14474384beb3__table_ljn_ktm_2db"/>Nodes and Fields for the `BusinessUser` Node
+**Nodes and Fields for the BusinessUser Node**
 
 
 <table>
@@ -2452,7 +2452,7 @@ Not in use
 
 **Error Codes**
 
-<a name="loioa631f4ead22743598f1d14474384beb3__table_nnf_vtp_jlb"/>
+****
 
 
 <table>

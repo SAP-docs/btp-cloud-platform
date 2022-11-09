@@ -16,7 +16,7 @@ You have a business user in SAP S/4HANA Cloud that is assigned to a business rol
 
   
   
-<a name="loio0fc600c61d0c47b388976479935b0f50__fig_u4q_3z4_v2b"/>Administration Activities for Establishing Trust Between SAP S/4HANA Cloud and Cloud Foundry \(Developer Activities Grayed Out\)
+**Administration Activities for Establishing Trust Between SAP S/4HANA Cloud and Cloud Foundry \(Developer Activities Grayed Out\)**
 
  ![](images/SAP_BTP_and_SAP_S_4HANA_Cloud_Integration_8449d3b.png "Administration Activities for Establishing Trust Between SAP S/4HANA Cloud
 					and Cloud Foundry (Developer Activities Grayed Out)") 

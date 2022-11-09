@@ -19,7 +19,7 @@ The figure that follows illustrates this scenario.
 
    
   
-<a name="loio5ad748d634254363b2f0cb2b9679ac6f__fig_r3v_rfl_p2b"/>Two Applications, Tightly Coupled Using Principal Propagation
+**Two Applications, Tightly Coupled Using Principal Propagation**
 
  ![](images/app_plan_named_user_pptx_70172fa.png "Two Applications, Tightly Coupled Using Principal Propagation") 
 

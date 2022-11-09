@@ -14,7 +14,7 @@
 
 ### CRUD Operations
 
-<a name="loiobbaf3c1d6d414c788d9410f0e9ee4cc2__table_kdm_fq4_bpb"/>
+****
 
 
 <table>
@@ -88,7 +88,7 @@ DELETE
 
 ### Custom Operations
 
-<a name="loiobbaf3c1d6d414c788d9410f0e9ee4cc2__table_b1c_b54_bpb"/>
+****
 
 
 <table>
@@ -158,7 +158,7 @@ Action
 
 ### Parameters
 
-<a name="loiobbaf3c1d6d414c788d9410f0e9ee4cc2__table_c3l_hq4_bpb"/>
+****
 
 
 <table>

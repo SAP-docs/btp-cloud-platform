@@ -16,7 +16,7 @@ How you assign users to their authorizations depends on the type of trust config
 > 
 > However, if you’re using a custom trust configuration, for example, with SAP Cloud Identity Services - Identity Authentication, you can use both options. For more information on configuring the trust between your subaccount and a custom identity provider, see [Establish Trust and Federation Between UAA and Identity Authentication](establish-trust-and-federation-between-uaa-and-identity-authentication-161f8f0.md).
 
-<a name="loio9e1bf57130ef466e8017eab298b40e5e__table_fmk_5yq_bdb"/>Options for Assignment of Role Collections
+**Options for Assignment of Role Collections**
 
 
 <table>

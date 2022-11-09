@@ -130,7 +130,7 @@ No parameters.
 
 ### Request Body
 
-<a name="loio442cf830e7a64287a31a15ea3b743cec__table_yv3_yb5_kqb"/>
+****
 
 
 <table>
@@ -319,7 +319,7 @@ Request body
 
 ### Response Status and Error Codes
 
-<a name="loio442cf830e7a64287a31a15ea3b743cec__table_sjb_vs4_bpb"/>
+****
 
 
 <table>

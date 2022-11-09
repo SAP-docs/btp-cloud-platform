@@ -6,7 +6,7 @@ Overview of terminology used for application jobs
 
 
 
-<a name="loio319936c6c1284ba5a2c6559ed266159b__table_qmq_2lv_zr"/>Terminology Overview
+**Terminology Overview**
 
 
 <table>

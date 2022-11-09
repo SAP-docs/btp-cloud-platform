@@ -117,7 +117,7 @@ For more information about the application security descriptor, see [Application
 
 By default, SAP Authorization and Trust Management service sets the validity of tokens as shown in the following table.
 
-<a name="loioc8770b0b43084d838e475bd76eeb4715__table_k53_g25_rqb"/>Default Validity of Tokens
+**Default Validity of Tokens**
 
 
 <table>

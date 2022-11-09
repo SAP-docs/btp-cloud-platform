@@ -25,7 +25,7 @@ The graphic below shows a sequence of three screens. On Screen 1, the user enter
 
    
   
-<a name="loio91d64bf0813c41bc8a55cd90bd34a61f__fig_N10097_N1008B_N1007B_N10003"/>Example screen sequence
+**Example screen sequence**
 
  ![](images/RAL-Screen-Sequence_fddde8a.png "Example screen sequence") 
 

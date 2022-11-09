@@ -20,7 +20,7 @@ Delete a branch.
 
 ### Request Headers
 
-<a name="loio9575fc877cbe4b5ba08e55992316a08d__table_byq_jr4_bpb"/>
+****
 
 
 <table>
@@ -101,7 +101,7 @@ Value of x-csrf-token
 
 ### Request Body
 
-<a name="loio9575fc877cbe4b5ba08e55992316a08d__table_ssp_js4_bpb"/>
+****
 
 
 <table>
@@ -287,7 +287,7 @@ query string
 
 ### Response Status and Error Codes
 
-<a name="loio9575fc877cbe4b5ba08e55992316a08d__table_sjb_vs4_bpb"/>
+****
 
 
 <table>

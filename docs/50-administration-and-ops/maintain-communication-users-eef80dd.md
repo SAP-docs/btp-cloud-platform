@@ -24,6 +24,8 @@ You can use this app to:
 -   Delete a user
 -   Display communication systems that use the selected communication user
 -   Display communication arrangements for the systems that use the selected communication user
+-   Download a list of all communication users to a spreadsheet
+
 
 
 

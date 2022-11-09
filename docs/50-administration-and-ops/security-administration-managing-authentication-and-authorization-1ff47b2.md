@@ -25,7 +25,7 @@ Identity providers provide the business users. The default platform identity pro
 
 In the Cloud Foundry environment, application developers create and deploy application-based authorization artifacts for business users. Administrators use this information to assign roles, build role collections, and assign these collections to business users or user groups. In this way, they control the users' permissions.
 
-<a name="loio1ff47b2d980e43a6b2ce294352333708__table_b4h_4rg_vbb"/>Setting Up Authorization Artifacts \(Administrators\)
+**Setting Up Authorization Artifacts \(Administrators\)**
 
 
 <table>

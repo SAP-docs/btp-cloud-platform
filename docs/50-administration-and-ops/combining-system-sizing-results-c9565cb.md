@@ -6,7 +6,7 @@ After performing a system sizing for each business process, combine the results 
 
 Let's use the flight reference scenario and let's assume you've performed system sizing for its business processes *Create a new travel request*, *Approve a travel request*, and*Calculate and send metrics for reporting*. After performing system sizing for each business process, the results can look as follows:
 
-<a name="loioc9565cba5f5948d998f404a2b9ea1038__table_fmh_ycz_tqb"/>Flight Reference Scenario: Example Sizing Results
+**Flight Reference Scenario: Example Sizing Results**
 
 
 <table>
@@ -170,7 +170,7 @@ Here, the ABAP total memory consumption, the work process time, and the ABAP CPU
 
 To simplify the consumption of the sizing formulas that you created, you can optionally define some feasible t-shirt sizes and precalculate their resource requirements. Remember, sizing targets a mean resource utilization of no more than 70%:
 
-<a name="loioc9565cba5f5948d998f404a2b9ea1038__table_vrl_22z_tqb"/>Flight Reference Scenario: T-Shirt Sizes
+**Flight Reference Scenario: T-Shirt Sizes**
 
 
 <table>

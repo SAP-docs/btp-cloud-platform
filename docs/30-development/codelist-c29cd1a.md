@@ -11,7 +11,7 @@
 > ### Note:  
 > In the following table, field attributes are marked in blue.
 
-<a name="loioc29cd1ac2ff64d1895e0b2a496773a48__table_rzl_pp5_qcb"/>CodeList
+**CodeList**
 
 
 <table>

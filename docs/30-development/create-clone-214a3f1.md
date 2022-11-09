@@ -20,7 +20,7 @@ Create a clone job.
 
 ### Request Headers
 
-<a name="loio214a3f1fd2b34bed9f9a627ffeaa98c3__table_byq_jr4_bpb"/>
+****
 
 
 <table>
@@ -126,7 +126,7 @@ fetch
 
 ### Request Parameters
 
-<a name="loio214a3f1fd2b34bed9f9a627ffeaa98c3__table_ssp_js4_bpb"/>
+****
 
 
 <table>
@@ -310,7 +310,7 @@ Request body
 
 ### Response Status and Error Codes
 
-<a name="loio214a3f1fd2b34bed9f9a627ffeaa98c3__table_sjb_vs4_bpb"/>
+****
 
 
 <table>

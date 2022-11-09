@@ -96,9 +96,9 @@ Using the *Maintain Business Roles \(New\)* app, you have the following options 
 
 [Display Restriction Types](display-restriction-types-9203905.md "You can use this app to display restriction types and their validity.")
 
-[Phase-In / Phase-Out Status](phase-in-phase-out-status-03540a8.md "")
 
-[Field Maintenance Status for Business Roles](field-maintenance-status-for-business-roles-448e12b.md "")
+
+
 
 [Maintain Restrictions in Business Role](https://launchpad.support.sap.com/#/notes/2598733)
 

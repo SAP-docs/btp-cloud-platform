@@ -27,7 +27,7 @@ Define the SAP S/4HANA Cloud Extensibility service descriptor in a JSON structur
 
 
 
-<a name="loio2d50d91f0d684bba98d323e9f4258cda__table_qnx_dzz_khb"/>Parameters required to activate the communication arrangement in SAP S4/HANA Cloud tenant
+**Parameters required to activate the communication arrangement in SAP S4/HANA Cloud tenant**
 
 
 <table>
@@ -344,7 +344,7 @@ Specifies the time \(in seconds\) for which the Enterprise Event Enablement fram
 </tr>
 </table>
 
-<a name="loio2d50d91f0d684bba98d323e9f4258cda__table_vfb_3zz_khb"/>Parameters required to configure SAP Event Mesh service
+**Parameters required to configure SAP Event Mesh service**
 
 
 <table>

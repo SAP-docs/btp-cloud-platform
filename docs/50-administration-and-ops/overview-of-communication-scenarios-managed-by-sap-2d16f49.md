@@ -8,6 +8,10 @@ Find a quick overview of all the communication scenarios in the ABAP environment
 -   Adobe Document Services \(SAP Forms service by Adobe\) Integration \(SAP\_COM\_0503\). See [Print Forms](../30-development/print-forms-959664f.md)
 
 -   Application Monitoring Integration \(SAP\_COM\_0454\). See [Central Health Monitoring Using SAP Focused Run and SAP Cloud ALM](central-health-monitoring-using-sap-focused-run-and-sap-cloud-alm-8d6e2e7.md).
+-   Business Role Change Document Integration \(SAP\_COM\_0366\). See [Integrating Business Role Change Documents](integrating-business-role-change-documents-6426828.md).
+
+-   Business User Change Document Integration \(SAP\_COM\_0327\). See [Integrating Business User Change Documents](integrating-business-user-change-documents-624988e.md).
+
 -   Communication Management - RFC Metadata Integration \(SAP\_COM\_0636\). See [Develop a Remote-Enabled Function Module \(RFM\)](../30-development/develop-a-remote-enabled-function-module-rfm-abf7105.md).
 -   Custom Code Migration Integration \(SAP\_COM\_0464\). See [Enable Usage of the Custom Code Migration App](enable-usage-of-the-custom-code-migration-app-34f67ed.md).
 -   E-Mail Integration \(SAP\_COM\_0548\). See [Sending Mails Using SMTP](../30-development/sending-mails-using-smtp-8d1f989.md).

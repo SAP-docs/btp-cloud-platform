@@ -44,7 +44,7 @@ The ***cf create-binding*** or ***cf create-service-key*** commands expect a val
 
 The `hide-secret` element defines whether the client secret is omitted.
 
-<a name="loio974ac87d61ee4a9ca490208cfabfccaf__table_yn3_zn1_lsb"/>Element for Suppressing Client Secrets
+**Element for Suppressing Client Secrets**
 
 
 <table>

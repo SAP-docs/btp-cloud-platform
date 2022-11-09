@@ -69,7 +69,7 @@ Destination configuration can be provided by `destination service`. The destinat
 
 The following guidelines apply to the configuration of the mandatory properties of a destination:
 
-<a name="loio3cc788ebc00e40a091505c6b3fa485e7__table_qwy_ccb_rbb"/>Mandatory Properties of a Destination
+**Mandatory Properties of a Destination**
 
 
 <table>
@@ -159,7 +159,7 @@ Supported types:
 
 The following guidelines apply to the configuration of the additional properties of a destination:
 
-<a name="loio3cc788ebc00e40a091505c6b3fa485e7__table_h4k_2db_rbb"/>Additional Properties of a Destination
+**Additional Properties of a Destination**
 
 
 <table>

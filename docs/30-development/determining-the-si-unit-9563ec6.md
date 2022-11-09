@@ -10,7 +10,7 @@ Use method `SI_UNIT_GET` to determine the SI unit.
 
 ## Import Parameters
 
-<a name="loio9563ec60a6804dc68410a861dc605927__table_fwm_jjm_rlb"/>
+****
 
 
 <table>
@@ -70,7 +70,7 @@ Unit of measurement
 
 ## Export Parameters
 
-<a name="loio9563ec60a6804dc68410a861dc605927__table_opj_4jm_rlb"/>
+****
 
 
 <table>
@@ -114,7 +114,7 @@ Base unit/SI unit of a dimension
 
 ## Exceptions
 
-<a name="loio9563ec60a6804dc68410a861dc605927__table_rnv_sjm_rlb"/>
+****
 
 
 <table>

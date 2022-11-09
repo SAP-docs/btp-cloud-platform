@@ -60,7 +60,7 @@ To learn how to authorize to work with the APIs, see [Trying Out APIs in a Confi
 
 For more information, see the example of the binding object in the [Getting an Application Access Token](getting-an-application-access-token-6391b5d.md) topic.
 
-<a name="loioed08c7dcb35d4082936c045e7d7b3ecd__table_xlz_cyc_j4b"/>
+****
 
 
 <table>

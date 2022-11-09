@@ -23,12 +23,12 @@ Rather than disappearing, deprecated business catalogs are identified as being o
 
 1.  In the *Business Catalogs* app, check how many deprecated business catalogs you still have in use.
 
-    You can filter the list of catalogs for the deprecated ones but the deprecated business catalogs are also marked with the appendix \(obsolete\) in the list of all catalogs in use.
+    You can filter the list of catalogs for the deprecated ones but the deprecated business catalogs are also marked with the appendix \(deprecated\) in the list of all catalogs in use.
 
 2.  Change assignments from the old, deprecated business catalogs to the new, active catalogs.
 
-    Once the deprecation of a business catalog is announced via the *Business Catalogs* app, the catalog will remain in the system for two more releases before being deleted. During these two releases you can use the old or the new business catalog. Within this timeframe you can do the replacement when it suits you best. In the *Business Catalogs* app, you can see the release in which the deprecation of a business catalog was announced.
+    Once the deprecation of a business catalog is announced via the *Business Catalogs* app, the catalog will remain in the system for six months before being deleted. During this period you can use the old or the new business catalog. Within this timeframe you can do the replacement when it suits you best. In the *Business Catalogs* app, you can see the release in which the deprecation of a business catalog was announced.
 
-    **Example:** A business catalog is deprecated with a Cloud 1811 release. The business catalog will then be deleted with the Cloud 1905 release.
+    **Example:** A business catalog is deprecated with a Cloud 2202 release. The business catalog will then be deleted with the Cloud 2208 release.
 
 

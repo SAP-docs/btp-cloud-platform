@@ -76,22 +76,6 @@ Behavior Definition
 <tr>
 <td valign="top">
 
-CLAS
-
-
-
-</td>
-<td valign="top">
-
-Class
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 CHDO
 
 
@@ -100,6 +84,70 @@ CHDO
 <td valign="top">
 
 Change Documents Object
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CHKC
+
+
+
+</td>
+<td valign="top">
+
+ATC Check Class
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CHKO
+
+
+
+</td>
+<td valign="top">
+
+ATC Check
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CHKV
+
+
+
+</td>
+<td valign="top">
+
+ATC Check Variant
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CLAS
+
+
+
+</td>
+<td valign="top">
+
+Class
 
 
 

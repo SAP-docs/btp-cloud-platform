@@ -6,7 +6,7 @@ After an administrator has created an OAuth2SAMLBearerAssertion destination to i
 
    
   
-<a name="loioa4e21bdbe2224ec4a31e4d69f69f242e__fig_p3m_krk_dfb"/>Outbound Service Call Using Client Proxy: Developer Activitities \(Administration Activities Grayed Out\)
+**Outbound Service Call Using Client Proxy: Developer Activitities \(Administration Activities Grayed Out\)**
 
  ![](images/Integration_of_ABAP_Environment_with_S_4HANA_Cloud_Developer_Activitities_455579a.png "Outbound Service Call Using Client Proxy: Developer Activitities (Administration Activities Grayed Out)") 
 

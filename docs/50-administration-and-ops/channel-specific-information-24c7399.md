@@ -8,7 +8,7 @@ The Read Access Logging framework handles the channels generically, but each cha
 
 The following table shows the objects for each channel that can be logged.
 
-<a name="loio24c739946fa44eb7a2160f2aaab428f9__table_N100AE_N1007E_N1007B_N10003"/>Channels Available to the Read Access Logging Framework
+**Channels Available to the Read Access Logging Framework**
 
 
 <table>

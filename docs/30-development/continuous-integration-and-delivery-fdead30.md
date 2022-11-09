@@ -65,7 +65,7 @@ The following graphic shows the relation between continuous integration and cont
 
    
   
-Relation Between CI and CD
+**Relation Between CI and CD**
 
  ![Relation Between CI and CD](images/Continuous_Integration_vs_Continuous_Delivery_dd91996.png "Relation Between CI and CD") 
 
@@ -103,7 +103,7 @@ For more information about the CI/CD solutions by SAP, see [SAP Solutions for Co
 
 The following links guide you to the SAP Cloud Application Programming Model \(CAP\) sections of our CI/CD solutions:
 
-<a name="loio862ec834e72842a6b027d8d1518055dd__table_nvb_fzj_vnb"/>CI/CD for CAP Development
+**CI/CD for CAP Development**
 
 
 <table>

@@ -71,7 +71,7 @@ If activation issues occur, repeatedly try to activate objects in the right sequ
 > For issues related to the community open-source distribution of abapGit, create an issue at [https://github.com/abapGit/abapGit/issues](https://github.com/abapGit/abapGit/issues).
 
 > ### Note:  
-> To maintain certificates, please use the Maintain Certificate Trust List app. For further information, please go to [Maintain Certificate Trust List](../50-administration-and-ops/maintain-certificate-trust-list-2b3c3f1.md)
+> It is possible to define the external systems, the ABAP system is allowed to communicate with, by maintaining a list of trusted certificate authorities. Please use the Maintain Certificate Trust List app to do so. This app can be used by administrators, users with the SAP\_BR\_ADMINISTRATOR role. For further information, please go to [Maintain Certificate Trust List](../50-administration-and-ops/maintain-certificate-trust-list-2b3c3f1.md)
 
 **Related Information**  
 

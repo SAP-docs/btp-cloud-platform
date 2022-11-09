@@ -14,7 +14,7 @@ With this app, you can display technical users. These technical users can be ser
 
 
 
-<a name="loio7fb79d7a811146679646ebfb5844b858__d169e24"/>User Groups
+**User Groups**
 
 
 <table>

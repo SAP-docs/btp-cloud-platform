@@ -8,7 +8,7 @@ The following classes and methods allow you to read communication scenarios, com
 
 These classes and methods can only be used if the authorizations are defined via standard COM catalogs.
 
-<a name="loiof522dec53a7441adbfec4d5eefc338c8__table_mt5_x1w_z4b"/>Communication Scenarios
+**Communication Scenarios**
 
 
 <table>
@@ -78,7 +78,7 @@ Allows you to read attributes of communication scenarios
 </tr>
 </table>
 
-<a name="loiof522dec53a7441adbfec4d5eefc338c8__table_wnr_bcw_z4b"/>Communication Users
+**Communication Users**
 
 
 <table>
@@ -148,7 +148,7 @@ Allows you to read attributes of communication users
 </tr>
 </table>
 
-<a name="loiof522dec53a7441adbfec4d5eefc338c8__table_bjz_5dw_z4b"/>Communication Systems
+**Communication Systems**
 
 
 <table>
@@ -218,7 +218,7 @@ Allows you to read attributes of communication systems
 </tr>
 </table>
 
-<a name="loiof522dec53a7441adbfec4d5eefc338c8__table_j5n_jhw_z4b"/>Communication Arrangements
+**Communication Arrangements**
 
 
 <table>

@@ -10,11 +10,11 @@ Log in with the btp CLI is on global account level.
 
 ## Prerequisites
 
--   Your global account must be on feature set B. See [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).Your global account must be on feature set B. See [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
+-   Your global account must be on feature set B. See [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
 
 -   You have to enter the subdomain of your global account. You can find it in the cockpit in the global account view or under *Switch Global Account*.
 
--   You have to enter the correct CLI server URL. Usually, it is proposed during login and you can confirm with [ENTER\]: `https://cpcli.cf.eu10.hana.ondemand.com` . If your operator has provided you with a different server URL, you'll have to enter that one.
+-   You have to enter the correct CLI server URL. Usually, it is proposed during login and you can confirm with [ENTER\]: `https://cpcli.cf.eu10.hana.ondemand.com`. If your operator has provided you with a different server URL, you'll have to enter that one.
 
 -   Your user is assigned to the `Global Account Viewer` or the `Global Account Administrator` role collection. See [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md).
 
@@ -49,6 +49,8 @@ To login with a custom identity provider, use:
 btp login --sso --idp <TENANT>
 ```
 
+ 
+
 See [Log in with a Custom Identity Provider](log-in-with-a-custom-identity-provider-e48e486.md).
 
 
@@ -59,7 +61,7 @@ To log in manually, use `btp login`. The btp CLI prompts for all login informati
 
 Usage: `btp [OPTIONS] login [PARAMS]`
 
-<a name="loioe241b30195ff4d009dba3076e0ae8d27__table_l3v_w4l_w3b"/>Parameters
+**Parameters**
 
 
 <table>
@@ -80,7 +82,7 @@ If trust is configured between your global account and a custom identity provide
 > ### Note:  
 > To work with users from a custom identity provider, you need to specify the `--of-idp` parameter by providing the origin key of the custom identity provider. This is applicable to the following commands: `btp list security/user`, `btp get security/user`, `btp delete security/user`, `btp assign security/role-collection`, `btp unassign security/role-collection`, and you find this origin key in the cockpit under *Security*.
 
-For more information about using a custom identiy provider, see [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md).
+For more information about using a custom identity provider, see [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md).
 
 
 

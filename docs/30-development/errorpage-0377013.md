@@ -8,7 +8,7 @@ Errors originating in the application router show the HTTP status code of the er
 
 The property is an array of objects, each object can have the following properties:
 
-<a name="loio0377013b58f34650b9b811eede1321d9__table_h5m_nvf_2z"/>Application Router: errorPage Properties
+**Application Router: errorPage Properties**
 
 
 <table>

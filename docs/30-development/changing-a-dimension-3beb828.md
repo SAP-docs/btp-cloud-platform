@@ -10,7 +10,7 @@ Use method `UPDATE` to change an existing dimension. For customer dimensions, th
 
 ## Import Parameters
 
-<a name="loio3beb828bea9d451e90ced55e03b2727f__table_gxj_fdv_plb"/>
+****
 
 
 <table>
@@ -298,7 +298,7 @@ Light exponent of the dimension
 
 ## Export Parameters
 
-<a name="loio3beb828bea9d451e90ced55e03b2727f__table_ztj_m2v_plb"/>
+****
 
 
 <table>

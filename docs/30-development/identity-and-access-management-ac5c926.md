@@ -8,7 +8,7 @@ The following classes and methods allow you to read, create and modify business 
 
 These classes and methods can only be used if the authorizations are defined via standard IAM catalogs.
 
-<a name="loioac5c9267caed492094c43eb86bf76fbb__table_yk1_sqv_z4b"/>**Business Roles**
+**Business Roles**
 
 
 <table>
@@ -261,7 +261,7 @@ Allows you to read and modify attributes of business roles
 
 
 
-<a name="loioac5c9267caed492094c43eb86bf76fbb__table_w2y_htv_z4b"/>**Business Users**
+**Business Users**
 
 
 <table>

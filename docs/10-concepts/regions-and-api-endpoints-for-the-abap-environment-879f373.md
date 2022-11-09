@@ -4,7 +4,7 @@
 
 
 
-<a name="loio879f37370d9b45e99a16538e0f37ff2c__table_cb4_gj4_lpb"/>Regions for Enterprise Accounts
+**Regions for Enterprise Accounts**
 
 
 <table>
@@ -611,7 +611,7 @@ us10.hana.ondemand.com
 </tr>
 </table>
 
-<a name="loio879f37370d9b45e99a16538e0f37ff2c__table_db4_gj4_lpb"/>Regions for Trial Accounts
+**Regions for Trial Accounts**
 
 
 <table>

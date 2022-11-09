@@ -22,7 +22,7 @@ The `SAP CLIENT LIB 1.0` package contains the following modules:
 > ### Tip:  
 > For more details of the package contents, see the `README` file in the corresponding package.
 
-<a name="loio4902b6e66cbd42648b5d9eaddc6a363d__table_hpz_1gt_vt"/>Contents of SAP CLIENT LIB 1.0
+**Contents of SAP CLIENT LIB 1.0**
 
 
 <table>
@@ -217,7 +217,7 @@ We recommend that you disable the session as in the example above. Each request 
 > ### Tip:  
 > For more details of the package contents, see the `README` file in the corresponding package.
 
-<a name="loio4902b6e66cbd42648b5d9eaddc6a363d__table_ukv_l1n_wt"/>Container Security API
+**Container Security API**
 
 
 <table>

@@ -32,7 +32,7 @@ You can disable compression in the following ways:
     The application sends a header “`Cache-Control`” with the “`no-transform`” directive.
 
 
-<a name="loioff906e7f99dd4b3a814fbf696433ed99__table_ikc_z2n_tx"/>Application Router: Compression Properties
+**Application Router: Compression Properties**
 
 
 <table>

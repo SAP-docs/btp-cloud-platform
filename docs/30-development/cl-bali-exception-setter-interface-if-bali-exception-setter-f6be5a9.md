@@ -52,7 +52,7 @@ Contains fixed value: IF\_BALI\_CONSTANTS=\>C\_CATEGORY\_EXCEPTION
 
 Create an instance of the exception class. Set the reference of the ABAP exception which is stored in the exception item and its severity:
 
-<a name="loiof6be5a9b0d124920b51c626f2e7669cf__table_xkf_sjb_xlb"/>**CREATE \(static\)**
+**CREATE \(static\)**
 
 
 <table>
@@ -146,7 +146,7 @@ Exception object: A reference to interface IF\_BALI\_EXCEPTION\_SETTER
 
 Set the ABAP exception class instance and severity:
 
-<a name="loiof6be5a9b0d124920b51c626f2e7669cf__table_k35_3xn_xlb"/>**SET\_EXCEPTION**
+**SET\_EXCEPTION**
 
 
 <table>
@@ -240,7 +240,7 @@ Reference to current application log exception object
 
 Set the level of detail of the exception:
 
-<a name="loiof6be5a9b0d124920b51c626f2e7669cf__table_on2_4xn_xlb"/>**SET\_DETAIL\_LEVEL**
+**SET\_DETAIL\_LEVEL**
 
 
 <table>
@@ -320,7 +320,7 @@ Get all exception values:
 
 
 
-<a name="loiof6be5a9b0d124920b51c626f2e7669cf__table_qfw_xvn_xlb"/>**GET\_ALL\_VALUES**
+**GET\_ALL\_VALUES**
 
 
 <table>
@@ -403,7 +403,7 @@ Reference to ABAP exception class instance
 
 Check whether the exception can pass an item filter:
 
-<a name="loiof6be5a9b0d124920b51c626f2e7669cf__table_a4v_d2r_lsb"/>CHECK\_PASSING\_ITEM\_FILTER \(from IF\_BALI\_ITEM\_SETTER\)
+**CHECK\_PASSING\_ITEM\_FILTER \(from IF\_BALI\_ITEM\_SETTER\)**
 
 
 <table>

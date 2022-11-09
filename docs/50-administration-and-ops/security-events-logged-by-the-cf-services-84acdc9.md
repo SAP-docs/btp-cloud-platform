@@ -4,7 +4,7 @@
 
 This document contains a list of the CF services that log security events. The logged events are service specific and determined by the service itself. The Audit Log service does not know what security events the services log, it only provides the infrastructure for services to write the logs, and for customers to read them by using the Audit Log Retrieval API and the Audit Log Viewer. For more information about the security events logged by a service, follow the corresponding link in the table.
 
-<a name="loio84acdc91c60c4f32b7c06cdbc442fdef__table_ywq_jgd_wsb"/>Audit Log Events by Service
+**Audit Log Events by Service**
 
 
 <table>
@@ -579,6 +579,22 @@ SAP Market Rates Management, Refinitiv data option
 <td valign="top">
 
 [Auditing and Logging Information](https://help.sap.com/viewer/9da8c81f87e0480fac3975cdd3182418/LATEST/en-US/3d9d7065ebce4caf95213870b0a7a22b.html)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Monitoring Service
+
+
+
+</td>
+<td valign="top">
+
+[Auditing and Logging Information](https://help.sap.com/docs/MONITORING_SERVICE/64f7d2b06c6b40a9b3097860c5930641/d929745b3eb4403f8eaf4de570e4263a.html)
 
 
 

@@ -6,7 +6,7 @@
 
 Access categories classify the purpose of SAP support user access to customer systems.
 
-<a name="loio7dbdd05b6d164ddba14768a563a84bd2__table_ybw_qg3_qnb"/>Access Categories
+**Access Categories**
 
 
 <table>

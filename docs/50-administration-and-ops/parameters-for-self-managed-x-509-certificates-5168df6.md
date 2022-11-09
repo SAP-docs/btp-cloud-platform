@@ -37,7 +37,7 @@ The create binding or create service key command expects a `parameters.json` in 
 }
 ```
 
-<a name="loio5168df615064457eafe3e48e10a95665__table_byb_yjs_crb"/>Parameters for Self-Managed Certificates
+**Parameters for Self-Managed Certificates**
 
 
 <table>

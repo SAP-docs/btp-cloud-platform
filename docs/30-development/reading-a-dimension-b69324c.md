@@ -10,7 +10,7 @@ Use method `READ` to read a dimension.
 
 ## Import Parameters
 
-<a name="loiob69324cf22bf44e6ae4439b1d25476ae__table_y4d_h4v_plb"/>
+****
 
 
 <table>
@@ -54,7 +54,7 @@ Dimension key
 
 ## Export Parameters
 
-<a name="loiob69324cf22bf44e6ae4439b1d25476ae__table_gxj_fdv_plb"/>
+****
 
 
 <table>

@@ -87,6 +87,8 @@ When you create a service instance of this plan, you have to pass the directory 
 
 > ### Restriction:  
 > The directory must be located under `globalAccount` and contain the subaccount from which you are creating the service instance.
+> 
+> User management must be enabled for the directory, see [Manage Users in Directories \[Feature Set B\]](manage-users-in-directories-feature-set-b-ff4d4a4.md).
 
 
 
@@ -100,4 +102,9 @@ When you create a service instance of this plan, you have to pass the directory 
 </td>
 </tr>
 </table>
+
+**Related Information**  
+
+
+[Getting an Access Token for Resource Consumption APIs](getting-an-access-token-for-resource-consumption-apis-4bfe9c7.md "The Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP are protected with OAuth 2.0 Client Credentials grant type and in some cases, also the Password grant type.")
 

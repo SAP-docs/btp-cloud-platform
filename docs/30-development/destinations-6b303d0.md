@@ -22,7 +22,7 @@ The destinations section in `xs-app.json` extends the destination configuration 
 
 The following syntax rules apply:
 
-<a name="loio6b303d048d33471db0d041b064b7644c__table_ddv_cnn_tt"/>Application Router: Destination Properties
+**Application Router: Destination Properties**
 
 
 <table>

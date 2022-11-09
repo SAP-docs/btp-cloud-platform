@@ -93,9 +93,7 @@ With the definition and activation of a capture profile, you can capture system 
     </td>
     <td valign="top">
 
-    The start and end time specify when request statistics are captured by the app. Only requests are considered that are started after the start time of the profile and that end before the end time of the profile.
-
-    If you use the capturing of request statistics to measure sizing, enter the planned start and end time of your test case.
+    The start and end time specify when request statistics were captured by the app. These fields are automatically filled after you have activated the profile.
 
 
     
@@ -133,6 +131,25 @@ With the definition and activation of a capture profile, you can capture system 
 
     > ### Note:  
     > To get a realistic idea of the workload, consider a relatively high record limit. However, you must keep in mind that you generate load on your system while request statistics are captured.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    **Sampling Rate**
+
+
+    
+    </td>
+    <td valign="top">
+
+    Enter a sampling rate, which is the probability of capturing one single ABAP statistics record in percent.
+
+    > ### Note:  
+    > To get a realistic idea of the workload, consider a relatively high sampling rate, if possible 100. However, you must keep in mind that you generate load on your system while request statistics are captured.
 
 
     
@@ -201,5 +218,7 @@ With the definition and activation of a capture profile, you can capture system 
 7.  Choose *Create*.
 
 8.  To enable capturing request statistics using the profile, choose *Activate*.
+
+    If you use the capturing of request statistics to measure sizing, enter the planned start and end time of your test case.
 
 

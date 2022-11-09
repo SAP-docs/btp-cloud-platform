@@ -6,7 +6,7 @@ If you update a service instance, you can add, change, and/or delete scopes, att
 
 
 
-<a name="loioc3b892e703174badb93f1ab35f76c354__table_y45_p3b_z5"/>Compatible Changes in `xs-security.json`
+**Compatible Changes in xs-security.json**
 
 
 <table>

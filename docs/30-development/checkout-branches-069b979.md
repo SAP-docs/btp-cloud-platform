@@ -20,7 +20,7 @@ Checkout a branch.
 
 ### Request Headers
 
-<a name="loio069b979e4c304bf69ac8bdf034d3ee22__table_vx4_px4_bpb"/>
+****
 
 
 <table>
@@ -126,7 +126,7 @@ Value of x-csrf-token
 
 ### Request Parameters
 
-<a name="loio069b979e4c304bf69ac8bdf034d3ee22__table_ssp_js4_bpb"/>
+****
 
 
 <table>
@@ -269,7 +269,7 @@ query string
 
 ### Response Status and Error Codes
 
-<a name="loio069b979e4c304bf69ac8bdf034d3ee22__table_sjb_vs4_bpb"/>
+****
 
 
 <table>

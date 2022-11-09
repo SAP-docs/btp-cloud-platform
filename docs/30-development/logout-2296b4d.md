@@ -8,7 +8,7 @@ You can define any options that apply if you want your application to have a cen
 
 In this object you can define an application's central logout end point by using the `logoutEndpoint` property. The value of logout property should be an object with the following properties:
 
-<a name="loio2296b4da7758446a847bd2f65caf8660__table_k4m_2ns_hsb"/>
+****
 
 
 <table>

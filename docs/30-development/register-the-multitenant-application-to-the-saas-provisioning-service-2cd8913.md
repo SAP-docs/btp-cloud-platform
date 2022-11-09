@@ -23,7 +23,7 @@ The `SaaS Provisioning` service allows application providers to register multite
     
     ```
 
-    <a name="loio2cd8913a50bc4d3e8172f84bb4bfba20__table_kyy_5gw_qmb"/>Specify the following parameters:
+    **Specify the following parameters:**
 
 
     <table>
@@ -178,7 +178,7 @@ The `SaaS Provisioning` service allows application providers to register multite
     cf create-service saas-registry application <SAAS_REGISTRY_SERVICE_INSTANCE> -c <JSON_CONFIG_FILE>
     ```
 
-    <a name="loio2cd8913a50bc4d3e8172f84bb4bfba20__table_ql5_v3w_qmb"/>Specify the following parameters:
+    **Specify the following parameters:**
 
 
     <table>
@@ -245,7 +245,7 @@ The `SaaS Provisioning` service allows application providers to register multite
     cf restage <APP_NAME>
     ```
 
-    <a name="loio2cd8913a50bc4d3e8172f84bb4bfba20__table_pcj_jjw_qmb"/>Specify the following parameters
+    **Specify the following parameters**
 
 
     <table>

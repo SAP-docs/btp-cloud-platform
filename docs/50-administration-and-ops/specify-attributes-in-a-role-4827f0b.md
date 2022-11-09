@@ -37,7 +37,7 @@ You have maintained the attributes of the users in your identity provider if you
 
 8.  To specify an attribute, choose the source of the attribute. The following sources are available:
 
-    <a name="loio4827f0bbe27d459fad8342896d4e569b__table_iyh_gps_5cb"/>Attribute Sources
+    **Attribute Sources**
 
 
     <table>

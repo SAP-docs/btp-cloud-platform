@@ -4,7 +4,7 @@
 
 
 
-<a name="loiof344a57233d34199b2123b9620d0bb41__table_cb4_gj4_lpb"/>Regions for Enterprise Accounts
+**Regions for Enterprise Accounts**
 
 
 <table>
@@ -1674,7 +1674,7 @@ cn40.platform.sapcloud.cn
 </tr>
 </table>
 
-<a name="loiof344a57233d34199b2123b9620d0bb41__table_db4_gj4_lpb"/>Regions for Trial Accounts
+**Regions for Trial Accounts**
 
 
 <table>

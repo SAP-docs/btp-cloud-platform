@@ -181,7 +181,7 @@ In the above example:
 
 Modify the default MTA resource types by providing specific properties or parameters in the MTA deployment descriptor.
 
-<a name="loio9e34487b1a8643fb9a93ae6c4894f015__table_mtaResourceTypes"/>Predefined MTA Resource Types and Mapped Services
+**Predefined MTA Resource Types and Mapped Services**
 
 
 <table>
@@ -1145,7 +1145,7 @@ Resource parameters have platform-specific semantics. To reference a parameter v
 
 The following parameters are supported:
 
-<a name="loio9e34487b1a8643fb9a93ae6c4894f015__table_resourceSpecificParameters"/>MTA Development and Deployment Parameters
+**MTA Development and Deployment Parameters**
 
 
 <table>

@@ -37,7 +37,7 @@ To supply the rendering operation with business data, a reuse service can be app
 
 The `READ_TO_XML` method retrieves the data structure of the service definition for a specific item. It has the following Importing parameters:
 
-<a name="loioa104660468324090b601ee2969a54d99__table_usy_mvv_pqb"/>Importing Paramaters
+**Importing Paramaters**
 
 
 <table>
@@ -93,7 +93,7 @@ Overwrites the locale language \(useful if you want to control how dynamic value
 
 The `READ_TO_XML` method has the following returning parameters:
 
-<a name="loioa104660468324090b601ee2969a54d99__table_wz4_vvv_pqb"/>Returning Paramaters
+**Returning Paramaters**
 
 
 <table>
@@ -154,7 +154,7 @@ Resulting XML as XSTRING
 
 The `GET_XSD` method retrieves the structure for a service definition. It has the following returning parameters:
 
-<a name="loioa104660468324090b601ee2969a54d99__table_ddr_hwv_pqb"/>Returning Paramaters
+**Returning Paramaters**
 
 
 <table>

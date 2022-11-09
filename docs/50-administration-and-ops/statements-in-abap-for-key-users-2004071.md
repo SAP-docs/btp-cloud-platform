@@ -8,7 +8,7 @@ This topic provides you with an overview of ABAP keywords and ABAP system fields
 
 You can search the tables for specific ABAP keywords and system fields that are available with the ABAP version for key users. If you need more information and examples about how to use the ABAP version for key users, you can refer to our tutorial blog linked under *Related Information*.
 
-<a name="loio200407172e25410598fac2e972a1a299__table_qmq_2lv_zr"/>ABAP for Key Users - ABAP System Fields
+**ABAP for Key Users - ABAP System Fields**
 
 
 <table>
@@ -112,7 +112,7 @@ read-only access
 
 
 
-<a name="loio200407172e25410598fac2e972a1a299__table_qmq_4lv_zr"/>ABAP for Key Users - ABAP Keywords
+**ABAP for Key Users - ABAP Keywords**
 
 
 <table>

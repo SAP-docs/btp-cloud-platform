@@ -4,7 +4,7 @@
 
 The `CL_FP_ADS_UTIL` class provides the ABAP Runtime API for *Adobe Document Services* \(ADS\) rendering calls. It contains the following *Public* methods to be used for the corresponding functions:
 
-<a name="loio3d8686d312bc426d8b2aa323473996b0__table_fcg_fcv_pqb"/>Public Methods
+**Public Methods**
 
 
 <table>
@@ -79,7 +79,7 @@ The data XML file contains the data that corresponds to the used data schema in 
 
 The `RENDER_PDF` method calls the ADS to render print PDF using the XDP form file and the XML data file. It has the following importing/exporting parameters:
 
-<a name="loio3d8686d312bc426d8b2aa323473996b0__table_jbr_c2v_pqb"/>Importing Parameters
+**Importing Parameters**
 
 
 <table>
@@ -165,7 +165,7 @@ PDF rendering parameters \(optional\)
 </tr>
 </table>
 
-<a name="loio3d8686d312bc426d8b2aa323473996b0__table_y1v_w2v_pqb"/>Exporting Parameters
+**Exporting Parameters**
 
 
 <table>
@@ -263,7 +263,7 @@ Trace string
 
 The `RENDER_4_PQ` method calls the ADS to render in the print output format required for the target print queue. The support of the *Print Definition Language* \(PDL\) print queue format will be taken from print queue properties.
 
-<a name="loio3d8686d312bc426d8b2aa323473996b0__table_g3h_pfv_pqb"/>Importing Parameters
+**Importing Parameters**
 
 
 <table>
@@ -365,7 +365,7 @@ PDL rendering parameters \(optional\)
 </tr>
 </table>
 
-<a name="loio3d8686d312bc426d8b2aa323473996b0__table_y21_wfv_pqb"/>Exporting Parameters
+**Exporting Parameters**
 
 
 <table>

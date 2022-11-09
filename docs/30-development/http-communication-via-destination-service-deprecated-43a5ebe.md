@@ -34,7 +34,7 @@ Create a destination object using class `cl_http_destination_provider` and metho
 -   Optional: `i_service_instance_name`: Typically, you use the destinations of the subaccount in which the ABAP instance resides or, in case of a SaaS solution based on the ABAP environment, the destinations of the consumer subaccount. However, you can add more destinations using your own destination service instance and communication scenario`SAP_COM_0276`, for example, to achieve separation of concerns \(see also [Create a Destination](create-a-destination-3fa7934.md)\). In this case, specify the value of the service instance name property of the communication arrangement for `SAP_COM_0276`.
 -   `i_authn_mode`: Set the value of this parameter according to the authentication method configured in your destination. If the authentication method uses user propagation, the value is `if_a4c_cp_service=>user_propagation`, if it doesn't, set `if_a4c_cp_service=>service_specific`:
 
-    <a name="loio43a5ebed034547ad8aa85250f85098a2__table_gk4_xzx_qsb"/>Authentication Methods
+    **Authentication Methods**
 
 
     <table>

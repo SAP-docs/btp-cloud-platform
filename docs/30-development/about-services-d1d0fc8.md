@@ -10,7 +10,7 @@ To integrate services with applications, the service credentials must be deliver
 
    
   
-<a name="loiod1d0fc8e78474494a59caad02259ec7e__fig_mzm_mzf_xbb"/>Using Services in the Cloud Foundry Environment
+**Using Services in the Cloud Foundry Environment**
 
  ![](images/Using_Services_CF_93c24e7.png "Using Services in the Cloud
                                 Foundry

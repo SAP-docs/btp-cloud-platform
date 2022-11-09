@@ -24,7 +24,7 @@ In cloud management tools feature set B, SAP Authorization and Trust Management 
 
 SAP Authorization and Trust Management service records all its changes in its database tables and summarizes these changes in the audit log. The following table summarizes the audit log entries.
 
-<a name="loiod8f4b7c7298a422183beddb4ad47c108__table_dqf_pkf_p4b"/>Security Events Written in Audit Logs
+**Security Events Written in Audit Logs**
 
 
 <table>

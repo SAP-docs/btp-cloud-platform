@@ -22,7 +22,7 @@ This service is available on the SAP API Business Hub, for more information see 
 
 The service nodes contain the service's business data.
 
-<a name="loiodd6003bacf9d487ba8a43118d9169e8e__table_qvr_l2b_v4b"/>
+****
 
 
 <table>
@@ -136,7 +136,7 @@ For example: `BUP003`
 
 ## Service Response
 
-<a name="loiodd6003bacf9d487ba8a43118d9169e8e__table_gxy_245_qcb"/>
+****
 
 
 <table>
@@ -245,7 +245,7 @@ This nodes displays occurred messages.
 
 ### Error Codes
 
-<a name="loiodd6003bacf9d487ba8a43118d9169e8e__table_nnf_vtp_jlb"/>
+****
 
 
 <table>

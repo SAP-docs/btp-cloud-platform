@@ -59,7 +59,7 @@ If you assign the *Global Account Administrator* role collection to a user, this
 > ### Note:  
 > You can also use the command-line interface \(CLI\) for SAP BTP to assign authorizations. For more information on managing authorizations, see the related link.
 
-<a name="loio0039cf082d3d43eba9200fe15647922a__table_lnt_r23_thb"/>Global Account Administrator Role Collection
+**Global Account Administrator Role Collection**
 
 
 <table>
@@ -164,7 +164,7 @@ The *GlobalAccount\_System\_Landscape\_Administrator* role template provides thi
 
 If you assign the *Subaccount Administrator* role collection to a user, you grant a user administration permission for a subaccount.
 
-<a name="loio0039cf082d3d43eba9200fe15647922a__table_ogx_233_thb"/>Subaccount Administrator Role Collection
+**Subaccount Administrator Role Collection**
 
 
 <table>
@@ -268,7 +268,7 @@ Description
 
 If you assign the *Cloud Connector Administrator* role collection to a user, you grant the user administration permissions for the Cloud Connector in a subaccount.
 
-<a name="loio0039cf082d3d43eba9200fe15647922a__table_lq2_ngs_cpb"/>*Cloud Connector Administrator* Role Collection
+**Cloud Connector Administrator Role Collection**
 
 
 <table>
@@ -308,7 +308,7 @@ Description
 
 If you assign the *Connectivity and Destination Administrator* role collection to a user, you grant the user administration permissions for the Cloud Connector and SAP Destination service in a subaccount.
 
-<a name="loio0039cf082d3d43eba9200fe15647922a__table_zjv_qgs_cpb"/>*Connectivity and Destination Administrator* Role Collection
+**Connectivity and Destination Administrator Role Collection**
 
 
 <table>
@@ -364,7 +364,7 @@ Description
 
 If you assign the *Destination Administrator* role collection to a user, you grant the user administration permissions for theSAP Destination service in a subaccount.
 
-<a name="loio0039cf082d3d43eba9200fe15647922a__table_pqc_sgs_cpb"/>*Destination Administrator* Role Collection
+**Destination Administrator Role Collection**
 
 
 <table>
@@ -404,7 +404,7 @@ Description
 
 If you assign the *Subaccount Service Administrator* role collection to a user, you grant the user administration permissions for the Service Manager in a subaccount.
 
-<a name="loio0039cf082d3d43eba9200fe15647922a__table_zjd_tgs_cpb"/>*Subaccount Service Administrator* Role Collection
+**Subaccount Service Administrator Role Collection**
 
 
 <table>
@@ -450,7 +450,7 @@ Description
 
 If you assign the *Global Account Viewer* role collection to a user, you grant read access to the same information as the Global Account Administrator role collection.
 
-<a name="loio0039cf082d3d43eba9200fe15647922a__table_j3h_pxz_whb"/>Global Account Viewer Role Collection
+**Global Account Viewer Role Collection**
 
 
 <table>
@@ -538,7 +538,7 @@ Description
 
 If you assign the *Subaccount Viewer* role collection to a user, you restrict a user's viewer permission to the subaccounts.
 
-<a name="loio0039cf082d3d43eba9200fe15647922a__table_y25_sxz_whb"/>Subaccount Viewer Role Collection
+**Subaccount Viewer Role Collection**
 
 
 <table>
@@ -650,7 +650,7 @@ The role collections *Directory Administrator* and *Directory Viewer* can be ass
 
 The *Directory Administrator* role collection grants a user administration permission for directories.
 
-<a name="loio0039cf082d3d43eba9200fe15647922a__table_nkd_pvs_rlb"/>Directory Administrator Role Collection
+**Directory Administrator Role Collection**
 
 
 <table>
@@ -722,7 +722,7 @@ Role for directory members with read-only authorizations for core commercializat
 
 The *Directory Viewer* role collection grants a user read access to the same information as the Directory Administrator role collection.
 
-<a name="loio0039cf082d3d43eba9200fe15647922a__table_xg5_v1t_rlb"/>Directory Viewer Role Collection
+**Directory Viewer Role Collection**
 
 
 <table>
@@ -808,7 +808,7 @@ Create your own role collections by using the roles of the default role collecti
 
 The following table provides the information about the roles that are available.
 
-<a name="loio0039cf082d3d43eba9200fe15647922a__table_j1h_msz_whb"/>Role Details
+**Role Details**
 
 
 <table>

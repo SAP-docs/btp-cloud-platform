@@ -4,7 +4,7 @@
 
 Use the `READ` method to get the properties of number range intervals.
 
-<a name="loio0cb77ec7fba84084a416688de830dd71__table_tgb_tgf_gjb"/>Import Parameters
+**Import Parameters**
 
 
 <table>

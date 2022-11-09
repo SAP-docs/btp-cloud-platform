@@ -18,7 +18,7 @@ A list of additional commands to install archives and deploy multitarget applica
 > 
 > If you are using region CN40 with API Endpoint api.cf.cn40.platform.sapcloud.cn, you need to specify the URL as follows: `export MULTIAPPS_CONTROLLER_URL=deploy-service.cfapps.cn40.platform.sapcloud.cn`
 
-<a name="loio65ddb1b51a0642148c6b468a759a8a2e__table_ph4_5yb_zs"/>Commands for the Cloud Foundry Environment Overview
+**Commands for the Cloud Foundry Environment Overview**
 
 
 <table>
@@ -328,7 +328,7 @@ cf deploy  [-i [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/var
 
 The Cloud Deployment service uses the content of the mtad.yaml descriptor, and based its contained info assembles an MTA archive in that directory before deploying it.
 
-<a name="loio65ddb1b51a0642148c6b468a759a8a2e__table_zkx_spb_zs"/>Command Arguments Overview
+**Command Arguments Overview**
 
 
 <table>
@@ -402,7 +402,7 @@ Retry the operation specified number of times in case a non-content error \(defa
 
 ### Options
 
-<a name="loio65ddb1b51a0642148c6b468a759a8a2e__table_smw_5v2_ys"/>Command Options Overview
+**Command Options Overview**
 
 
 <table>
@@ -899,7 +899,7 @@ cf bg-deploy  [-i [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/
 
 ### Arguments
 
-<a name="loio65ddb1b51a0642148c6b468a759a8a2e__table_k23_rp4_kv"/>Command Arguments Overview
+**Command Arguments Overview**
 
 
 <table>
@@ -961,7 +961,7 @@ Retry the operation specified number of times in case a non-content error \(defa
 
 ### Options
 
-<a name="loio65ddb1b51a0642148c6b468a759a8a2e__table_l23_rp4_kv"/>Command Options Overview
+**Command Options Overview**
 
 
 <table>
@@ -1436,7 +1436,7 @@ cf undeploy [-i [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/va
 
 ### Arguments
 
-<a name="loio65ddb1b51a0642148c6b468a759a8a2e__table_lxc_zkv_kt"/>Command Arguments Overview
+**Command Arguments Overview**
 
 
 <table>
@@ -1494,7 +1494,7 @@ Retry the operation specified number of times in case a non-content error \(defa
 
 ### Options
 
-<a name="loio65ddb1b51a0642148c6b468a759a8a2e__table_bzt_slv_kt"/>Command Options Overview
+**Command Options Overview**
 
 
 <table>
@@ -1698,7 +1698,7 @@ cf mta MTA_ID
 
 ### Arguments
 
-<a name="loio65ddb1b51a0642148c6b468a759a8a2e__table_egg_2nv_kt"/>Command Arguments Overview
+**Command Arguments Overview**
 
 
 <table>
@@ -1740,7 +1740,7 @@ The ID of the MTA whose details you want to display
 
 ### Options
 
-<a name="loio65ddb1b51a0642148c6b468a759a8a2e__table_lrg_2nv_kt"/>Command Options Overview
+**Command Options Overview**
 
 
 <table>
@@ -1799,7 +1799,7 @@ cf mtas [-u [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varnam
 
 ### Options
 
-<a name="loio65ddb1b51a0642148c6b468a759a8a2e__table_wgx_qnv_kt"/>Command Options Overview
+**Command Options Overview**
 
 
 <table>
@@ -1857,7 +1857,7 @@ cf mta-ops [--mta <MTA>] [-u <URL>] [--last <NUM>] [--all]
 
 ### Options
 
-<a name="loio65ddb1b51a0642148c6b468a759a8a2e__table_fty_thk_vt"/>Command Options Overview
+**Command Options Overview**
 
 
 <table>
@@ -1976,7 +1976,7 @@ cf download-mta-op-logs --mta <MTA> [ --last <NUM>] [ -u <URL>] [ -d <DIRECTORY>
 
 ### Options
 
-<a name="loio65ddb1b51a0642148c6b468a759a8a2e__table_wnd_33k_vt"/>Command Options Overview
+**Command Options Overview**
 
 
 <table>
@@ -2105,7 +2105,7 @@ Invalid configuration entries are often produced when the application that is pr
 
 ### Options
 
-<a name="loio65ddb1b51a0642148c6b468a759a8a2e__table_fbf_cqp_wx"/>Command Options Overview
+**Command Options Overview**
 
 
 <table>

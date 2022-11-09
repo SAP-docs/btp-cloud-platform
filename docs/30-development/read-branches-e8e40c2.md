@@ -20,7 +20,7 @@ Read one or multiple branches .
 
 ### Request Headers
 
-<a name="loioe8e40c2d3fd1431a86c7bf324d70ba7d__table_byq_jr4_bpb"/>
+****
 
 
 <table>
@@ -101,7 +101,7 @@ fetch
 
 ### Request Parameters
 
-<a name="loioe8e40c2d3fd1431a86c7bf324d70ba7d__table_ssp_js4_bpb"/>
+****
 
 
 <table>
@@ -242,7 +242,7 @@ query string
 
 ### Response Headers
 
-<a name="loioe8e40c2d3fd1431a86c7bf324d70ba7d__table_rlc_ss4_bpb"/>
+****
 
 
 <table>
@@ -284,7 +284,7 @@ Token, which can be used for POST requests
 
 ### Response Status and Error Codes
 
-<a name="loioe8e40c2d3fd1431a86c7bf324d70ba7d__table_sjb_vs4_bpb"/>
+****
 
 
 <table>

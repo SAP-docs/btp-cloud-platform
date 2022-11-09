@@ -6,7 +6,7 @@ SAP BTP supports many different programming languages; the availability of each 
 
 The following programming languages are available in the environments:
 
-<a name="loio730d82d3e2054aef84553f636c52ec49__table_agk_lwp_jlb"/>Supported Environments and Programming Languages
+**Supported Environments and Programming Languages**
 
 
 <table>

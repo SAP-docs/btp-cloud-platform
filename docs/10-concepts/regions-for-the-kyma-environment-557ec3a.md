@@ -15,7 +15,7 @@ To work with the Kyma environment, you need to specify the region for both your 
 
 The table lists the regions you can choose from when creating a subaccount.
 
-<a name="loio557ec3adc3174ed4914ec9d6d13487cf__table_xps_cr3_3z"/>Subaccount Regions for the Kyma Environment
+**Subaccount Regions for the Kyma Environment**
 
 
 <table>
@@ -584,7 +584,7 @@ US Central \(Iowa\)
 
 When you enable a Kyma environment for a given subaccount, you must select a plan and region where the cluster is going to be created. You can select one of the following regions:
 
-<a name="loio557ec3adc3174ed4914ec9d6d13487cf__table_kyma_cluster_regions"/>Cluster Regions
+**Cluster Regions**
 
 
 <table>

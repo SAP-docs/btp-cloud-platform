@@ -20,6 +20,10 @@ You can use this app to display the following information:
 
 -   Number of business roles with unmaintained restrictions
 -   Number of business roles with unrestricted access
+
+    > ### Note:  
+    > You can filter for the productive business roles in your area, for example by adding a certain namespace followed by an asterisk \(\*\) in the *Filter by Business Role ID* field in the tile configuration.
+
 -   Business user price categories
 -   Business roles with default values from business catalogs
 

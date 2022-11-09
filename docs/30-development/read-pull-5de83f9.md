@@ -20,7 +20,7 @@ Read a pull jon.
 
 ### Request Headers
 
-<a name="loio5de83f9069454973af95d87984cfd5f0__table_byq_jr4_bpb"/>
+****
 
 
 <table>
@@ -101,7 +101,7 @@ fetch
 
 ### Request Parameters
 
-<a name="loio5de83f9069454973af95d87984cfd5f0__table_ssp_js4_bpb"/>
+****
 
 
 <table>
@@ -205,7 +205,7 @@ query string
 
 ### Response Headers
 
-<a name="loio5de83f9069454973af95d87984cfd5f0__table_rlc_ss4_bpb"/>
+****
 
 
 <table>
@@ -247,7 +247,7 @@ Token, which can be used for POST requests
 
 ### Response Status and Error Codes
 
-<a name="loio5de83f9069454973af95d87984cfd5f0__table_sjb_vs4_bpb"/>
+****
 
 
 <table>

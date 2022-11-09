@@ -220,7 +220,7 @@ You can pull \(remotely available\) changes of your software component to the se
     > ### Note:  
     > Note that the execution logs and transport logs are deleted periodically. Please use the download feature in the UI or the OData service `MANAGE_GIT_REPOSITORY` \(see [Pulling Git Repositories to an ABAP Environment System](../30-development/pulling-git-repositories-to-an-abap-environment-system-80a8d52.md)\) to download the logs.
 
-    <a name="loio90b9b9d5219c4875825be35137d9128f__table_uz1_ct1_qjb"/>Field Description
+    **Field Description**
 
 
     <table>

@@ -50,7 +50,7 @@ The following kinds of operations are supported:
 
 The matrix below shows which kinds of operations are supported for which object types:
 
-<a name="loio02bfcdec55be4365ae8484edbf615879__table_yyp_csn_gpb"/>
+****
 
 
 <table>

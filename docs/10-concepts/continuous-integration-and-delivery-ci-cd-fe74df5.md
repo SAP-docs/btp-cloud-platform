@@ -15,7 +15,7 @@ The following graphic shows the basic flow for continuous integration and delive
 
    
   
-Continuous Integration Basic Flow
+**Continuous Integration Basic Flow**
 
  ![](images/ci-basic-flow-copy_b835ff9.png "Continuous Integration Basic Flow") 
 

@@ -12,7 +12,7 @@ There is an authority check during all methods of Change Document Object Mainten
 
 Use method `IF_CHDO_OBJECT_TOOLS_REL~CHECK_AUTHORIZATION` to run an additional authorization check. `IV_OBJECT, IV_DEVCLASS` and `IV_ACTIVITY` get passed as import parameters. The return parameter `RV_IS_AUTHORIZED` must be set to `ABAP_TRUE` if the check is successful.
 
-<a name="loio40294a17588344cd92fa2b6435590d88__table_mzr_3vx_q4b"/>Import Parameters
+**Import Parameters**
 
 
 <table>
@@ -119,7 +119,7 @@ IV\_DEVCLASS
 </tr>
 </table>
 
-<a name="loio40294a17588344cd92fa2b6435590d88__table_f5y_svx_q4b"/>Return Parameters
+**Return Parameters**
 
 
 <table>
@@ -224,4 +224,12 @@ ABAP\_TRUE if the authority check was successfully
 ## Authorization Check for Reading Change Documents
 
 When a change document object is generated, you receive the `<name space>CL_<change document object name>_CHDO` class with method `IF_CHDO_ENHANCEMENTS~AUTHORITY_CHECK` without implementation. You can create your own authority check for reading change documents written for this change document object. The authority check for reading change documents are successful if parameter `RV_IS_AUTHORIZED = 'X'` is returned.
+
+
+
+<a name="loio40294a17588344cd92fa2b6435590d88__section_hbx_5mf_hvb"/>
+
+## Authorization Check for Deleting Change Documents
+
+When a change document object is generated, you receive the `<name space>CL_<change document object name>_CHDO` class with method `IF_CHDO_ENHANCEMENTS~CHECK_AUTHORIZATION_FOR_DELETE` without implementation. You can create your own authority check for deleting change documents written for this change document object. The authority check for deleting change documents is successful if parameter `RV_IS_AUTHORIZED = 'X'` is returned by "individual" in case only for objectid or "all" in case of complete change document object.
 

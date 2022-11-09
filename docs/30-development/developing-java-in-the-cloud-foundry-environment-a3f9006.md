@@ -190,7 +190,6 @@ To see the latest news and updates about SAP Java Buildpack, regularly check the
 -   Guided Answers: [SAP Java Buildpack](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51219/?version=current)
 -   SAP Note: [3155402](https://launchpad.support.sap.com/#/notes/3155402) *Explicitly pin SAP Java Buildpack 1.48.1 in your manifest file*
 -   SAP Note: [3214025](https://launchpad.support.sap.com/#/notes/3214025) *Migrating Java Applications from TomEE 1.7 to TomEE 7*
--   SAP Note: [3261748](https://launchpad.support.sap.com/#/notes/3261748) *SapMachine is replacing OpenJDK 11 & 17 in java\_buildpack*
 
 
 

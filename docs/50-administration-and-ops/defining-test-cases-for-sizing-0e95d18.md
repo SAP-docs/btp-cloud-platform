@@ -16,7 +16,7 @@ Furthermore, make sure that each test case is limited to a single business proce
 
 A test case description for the business process *Creating a new travel request* can look as follows:
 
-<a name="loio0e95d189e6454141bc184d03674e752e__table_xng_vxt_tqb"/>Test Case Example: Travel Request
+**Test Case Example: Travel Request**
 
 
 <table>

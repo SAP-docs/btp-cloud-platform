@@ -12,7 +12,7 @@ The `CL_NUMBERRANGE_INTERVALS` class provides methods for getting numbers from a
 
 Use the `NUMBER_CHECK` method to check whether a number is within an external interval.
 
-<a name="loioc9b48a1983ab4c8db00bd3bd8f63632c__table_r2b_p3f_gjb"/>Import Parameters
+**Import Parameters**
 
 
 <table>
@@ -179,7 +179,7 @@ To fiscal year
 </tr>
 </table>
 
-<a name="loioc9b48a1983ab4c8db00bd3bd8f63632c__table_pbb_x3f_gjb"/>Export Parameter
+**Export Parameter**
 
 
 <table>
@@ -239,7 +239,7 @@ Return code
 
 Use the `NUMBER_GET` method to determine the next number of a number range interval.
 
-<a name="loioc9b48a1983ab4c8db00bd3bd8f63632c__table_hns_fjf_gjb"/>Import Parameters
+**Import Parameters**
 
 
 <table>
@@ -406,7 +406,7 @@ To Fiscal Year
 </tr>
 </table>
 
-<a name="loioc9b48a1983ab4c8db00bd3bd8f63632c__table_d11_ljf_gjb"/>External Parameters
+**External Parameters**
 
 
 <table>

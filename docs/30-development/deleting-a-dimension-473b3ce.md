@@ -10,7 +10,7 @@ Use method `DELETE` to delete a dimension. For customer dimensions, the name of 
 
 ## Import Parameters
 
-<a name="loio473b3cef24484784bd9df78b31c64990__table_y4d_h4v_plb"/>
+****
 
 
 <table>
@@ -54,7 +54,7 @@ Dimension key
 
 ## Export Parameters
 
-<a name="loio473b3cef24484784bd9df78b31c64990__table_ztj_m2v_plb"/>
+****
 
 
 <table>

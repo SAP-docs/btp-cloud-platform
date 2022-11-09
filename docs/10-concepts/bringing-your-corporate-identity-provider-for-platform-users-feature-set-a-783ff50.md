@@ -18,7 +18,7 @@ The following figure illustrates the architecture required for platform users. T
 
    
   
-<a name="loio783ff50aa60a4c488f4a1e4dceee7ab9__fig_ycv_3jz_4mb"/>Architecture Required for Custom User Base of Platform Users
+**Architecture Required for Custom User Base of Platform Users**
 
  ![](images/architecture_platform_users_features_set_a_14e046f.png "Architecture Required for Custom User Base of Platform Users") 
 

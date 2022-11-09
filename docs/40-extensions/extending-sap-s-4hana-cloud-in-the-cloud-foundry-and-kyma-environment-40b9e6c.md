@@ -32,7 +32,7 @@ The following graphic provides a high-level overview of the integration between 
 
 To integrate the cloud platform and SAP S/4HANA Cloud so that you can build extension applications, you need to:
 
-<a name="loio40b9e6c3cc43498b92472da13e88c7bf__table_cyp_dpr_y3b"/>Integrating SAP BTP and SAP S/4HANA Cloud
+**Integrating SAP BTP and SAP S/4HANA Cloud**
 
 
 <table>

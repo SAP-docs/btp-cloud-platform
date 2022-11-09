@@ -26,7 +26,7 @@ SAP includes a selection of Python packages, which are available for download an
 
 The following table lists the SAP Python packages that are currently available. For more details about the contents of each Python package, as well as any configuration tips, see the README file in the corresponding package.
 
-<a name="loioacf8f49356d047fbb1a4d04dcec3fd36__table_gbs_snc_wcb"/>Python packages
+**Python packages**
 
 
 <table>

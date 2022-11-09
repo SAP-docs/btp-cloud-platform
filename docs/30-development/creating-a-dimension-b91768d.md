@@ -10,7 +10,7 @@ Use method `CREATE` to create a new dimension. For customer dimensions, the name
 
 ## Import Parameters
 
-<a name="loiob91768df40da4b4ab83fd12f8cdd013f__table_gxj_fdv_plb"/>
+****
 
 
 <table>
@@ -275,7 +275,7 @@ Light exponent of the dimension
 
 ## Export Parameters
 
-<a name="loiob91768df40da4b4ab83fd12f8cdd013f__table_ztj_m2v_plb"/>
+****
 
 
 <table>

@@ -13,7 +13,7 @@ A list of support components for SAP BTP services and tools. Filter for the serv
 
 ## Service Components
 
-<a name="loio08d1103928fb42f3a73b3f425e00e13c__scp"/>Service Availability
+**Service Availability**
 
 
 <table>

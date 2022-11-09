@@ -4,7 +4,7 @@
 
 Here you can find a list of the events that are logged by SAP S/4HANA Cloud Extensibility service. To retrieve the audit logs stored for SAP S/4HANA Cloud Extensibility create a support ticket in component BC-NEO-EXT-S4C.
 
-<a name="loiob250a8d232654c71a8080c2660d5305c__table_dqf_pkf_p4b"/>Events written in audit logs
+**Events written in audit logs**
 
 
 <table>

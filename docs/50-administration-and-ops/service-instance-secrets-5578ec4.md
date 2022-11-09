@@ -29,7 +29,7 @@ The following figure illustrates the XSUAA app and the binding information about
 
    
   
-<a name="loio5578ec4b20e84d61b34fd0fe0d6deed5__fig_eyd_prh_sjb"/>Binding Between an SAP Authorization and Trust Management Service Instance and a Consuming Application
+**Binding Between an SAP Authorization and Trust Management Service Instance and a Consuming Application**
 
  ![](images/BindingInformation_4bcb021.png "Binding Between an SAP
 									Authorization and Trust Management Service

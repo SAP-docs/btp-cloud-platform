@@ -19,7 +19,7 @@ The tasks required to set up authorization artifacts are performed by two distin
 
 
 
-<a name="loio7c5c565f37c946faa154909004331d57__table_f5k_xsz_m4b"/>Setting Up Authorization Artifacts \(Developers\)
+**Setting Up Authorization Artifacts \(Developers\)**
 
 
 <table>
@@ -246,7 +246,7 @@ CF command line interface or SAP BTP cockpit
 > 
 > [Setting Up Instance-Based Authorizations](setting-up-instance-based-authorizations-519965c.md)
 
-<a name="loio7c5c565f37c946faa154909004331d57__table_xlr_qvs_qbb"/>Setting Up Authorization Artifacts \(Administrators\)
+**Setting Up Authorization Artifacts \(Administrators\)**
 
 
 <table>

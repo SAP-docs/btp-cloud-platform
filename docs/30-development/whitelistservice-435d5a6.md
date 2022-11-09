@@ -25,7 +25,7 @@ If the allowlist service is enabled in the application router, each time an HTML
 
 The allowlist service reads a list of allowed host names and domains defined in the environment variable *<CJ\_PROTECT\_WHITELIST\>*; the content is a JSON list of objects with the following properties:
 
-<a name="loio435d5a66e95f441cbae4253f945bfe24__table_dhz_41z_lv"/>Allowlist of Host and Domain Names
+**Allowlist of Host and Domain Names**
 
 
 <table>

@@ -6,7 +6,7 @@ The following table displays the default role collections available with cloud m
 
 
 
-<a name="loioa6a00728e8c54efea8f7e60f6270b1d1__table_fkw_vwg_5kb"/>Default Role Collections Including Roles and Role Templates
+**Default Role Collections Including Roles and Role Templates**
 
 
 <table>

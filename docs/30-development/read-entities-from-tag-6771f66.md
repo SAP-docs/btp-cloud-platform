@@ -20,7 +20,7 @@ Read entities from tags.
 
 ### Request Headers
 
-<a name="loio6771f668a83d463395c54a5c36319819__table_byq_jr4_bpb"/>
+****
 
 
 <table>
@@ -127,7 +127,7 @@ No parameters.
 
 ### Response Headers
 
-<a name="loio6771f668a83d463395c54a5c36319819__table_rlc_ss4_bpb"/>
+****
 
 
 <table>
@@ -169,7 +169,7 @@ Token, which can be used for POST requests
 
 ### Response Status and Error Codes
 
-<a name="loio6771f668a83d463395c54a5c36319819__table_sjb_vs4_bpb"/>
+****
 
 
 <table>

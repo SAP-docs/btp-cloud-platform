@@ -153,7 +153,7 @@ How to deploy the Multitarget Application
 
 ## Terms and Concepts
 
-<a name="loiod04fc0e2ad894545aebfd7126384307c__table_dcg_1kn_5jb"/>Terms and Concepts
+**Terms and Concepts**
 
 
 <table>

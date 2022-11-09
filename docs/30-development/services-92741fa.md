@@ -23,7 +23,7 @@ The services section in `xs-app.json` extends the services configuration in the 
 
 The following syntax rules apply:
 
-<a name="loio92741fa5b21647b9912dc5de698ca5bf__table_ddv_cnn_tt"/>Application Router: Services Properties
+**Application Router: Services Properties**
 
 
 <table>

@@ -35,7 +35,7 @@ The *create-binding* or *create-service-key* commands expect a `parameters.json`
 
 The following table describes the supported parameters.
 
-<a name="loio436ed684eadc4045881e59bd1048d98d__table_iyc_qhs_crb"/>Parameters for Service-Managed Certificates
+**Parameters for Service-Managed Certificates**
 
 
 <table>

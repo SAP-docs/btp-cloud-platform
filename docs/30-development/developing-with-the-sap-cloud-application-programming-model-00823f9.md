@@ -16,7 +16,7 @@ The following graphic shows the relationship between CAP, SAP Business Technolog
 
    
   
-<a name="loio00823f91779d4d42aa29a498e0535cdf__fig_ans_sfs_g2b"/>Overview of the SAP Cloud Application Programming Model
+**Overview of the SAP Cloud Application Programming Model**
 
  ![](images/Overview_Graphic_CAP_c76db81.png "Overview of the SAP Cloud Application Programming
                                     Model") 

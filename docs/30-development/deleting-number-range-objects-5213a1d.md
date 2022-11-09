@@ -4,7 +4,7 @@
 
 Use method `DELETE` to delete number range objects.
 
-<a name="loio5213a1d09ac14e7d85153ecbf264a106__table_os3_mvy_fjb"/>Import Parameters
+**Import Parameters**
 
 
 <table>

@@ -32,7 +32,7 @@ Before the actual sizing, identify sizing-relevant business processes and determ
 
 The resulting overview of sizing-relevant business processes can look as follows, for example:
 
-<a name="loio4c482a90192e4fa6beb1fceca5e5623b__table_lwq_yst_tqb"/>Flight Reference Example: Sizing-Relevant Business Processes
+**Flight Reference Example: Sizing-Relevant Business Processes**
 
 
 <table>

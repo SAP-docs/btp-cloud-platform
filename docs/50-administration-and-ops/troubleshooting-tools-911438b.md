@@ -32,14 +32,6 @@ If you develop OData services or other ABAP functionality related to the ABAP RE
 
 
 
-<a name="loio911438b1089345cba92410f0acd5970d__section_ps4_smq_zqb"/>
-
-## SQL Explain SAP Fiori App
-
-With the SQL Explain app, you can display access plans for SQL statements. See [SQL EXPLAIN](sql-explain-88cc6ca.md).
-
-
-
 <a name="loio911438b1089345cba92410f0acd5970d__section_m2m_1nq_zqb"/>
 
 ## SQL Trace Analysis SAP Fiori App

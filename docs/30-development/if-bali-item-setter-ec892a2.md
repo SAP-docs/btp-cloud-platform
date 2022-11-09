@@ -67,7 +67,7 @@ Possible values:
 
 Check whether the item can pass an item filter:
 
-<a name="loioec892a29c5d0426f981b509cbe7e8ae4__table_yl1_1gr_lsb"/>CHECK\_PASSING\_ITEM\_FILTER
+**CHECK\_PASSING\_ITEM\_FILTER**
 
 
 <table>

@@ -10,7 +10,7 @@ Class `CL_BALI_LOG_FILTER` allows to define a filter which can be used if logs s
 
 Create an instance of the filter class:
 
-<a name="loioec89f523d96a44f0b0a46adc21187ff2__table_g5t_khb_xlb"/>**CREATE \(static\)**
+**CREATE \(static\)**
 
 
 <table>
@@ -61,7 +61,7 @@ Filter object: A reference to interface IF\_BALI\_LOG\_FILTER
 
 Set object, subobject and external identifier of the log. It overwrites all previous filter settings of object, subobject and external identifier:
 
-<a name="loioec89f523d96a44f0b0a46adc21187ff2__table_pyx_h3b_xlb"/>**SET\_DESCRIPTOR**
+**SET\_DESCRIPTOR**
 
 
 <table>
@@ -233,7 +233,7 @@ Access to the log object is not allowed
 
 Set information about the log creation like the user. It overwrites all previous filter settings about the log creation:
 
-<a name="loioec89f523d96a44f0b0a46adc21187ff2__table_qjc_s4b_xlb"/>**SET\_CREATE\_INFO**
+**SET\_CREATE\_INFO**
 
 
 <table>
@@ -328,7 +328,7 @@ Reference to current filter object
 
 Set the date and time interval of the log creation. It overwrites all previous filter settings of the time interval:
 
-<a name="loioec89f523d96a44f0b0a46adc21187ff2__table_lvp_cpb_xlb"/>**SET\_TIME\_INTERVAL**
+**SET\_TIME\_INTERVAL**
 
 
 <table>
@@ -420,7 +420,7 @@ Reference to current filter object
 
 Set the maximum number of logs which are processed:
 
-<a name="loioec89f523d96a44f0b0a46adc21187ff2__table_vxf_3pb_xlb"/>**SET\_MAXIMUM\_LOG\_NUMBER**
+**SET\_MAXIMUM\_LOG\_NUMBER**
 
 
 <table>
@@ -496,7 +496,7 @@ Reference to current filter object
 
 Get all filter values:
 
-<a name="loioec89f523d96a44f0b0a46adc21187ff2__table_vml_npb_xlb"/>**GET\_ALL\_VALUES**
+**GET\_ALL\_VALUES**
 
 
 <table>

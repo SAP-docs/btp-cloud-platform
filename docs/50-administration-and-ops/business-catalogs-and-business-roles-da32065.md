@@ -9,7 +9,7 @@ Get an overview about which business catalogs and business roles are required fo
 > ### Tip:  
 > You can also use the *Business Catalogs* app to view the details of each business catalog, including their descriptions and the apps they provide access to.
 
-<a name="loioda320654ed6e4e1e804a1a882cd461ea__table_xrr_gzg_llb"/> 
+** **
 
 
 <table>
@@ -790,6 +790,38 @@ Factory Calendar
 `SAP_CA_BC_IC_LND_CAL_CA1_PC`
 
 *Factory Calendar - Configuration* 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Health Monitoring
+
+
+
+</td>
+<td valign="top">
+
+[Health Monitoring](health-monitoring-60e87dc.md)
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR`
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CA_BC_OP_MON`
+
+*Technical Monitoring Cockpit Infrastructure* 
 
 
 
@@ -1994,6 +2026,40 @@ Message Monitoring
 <tr>
 <td valign="top">
 
+Message Monitoring \(Emergency Correction\)
+
+
+
+</td>
+<td valign="top">
+
+ [Message Monitoring \(Emergency Correction\)](message-monitoring-emergency-correction-4330ce7.md) 
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_CONF_EXPERT_BUS_NET_INT`
+
+*Configuration Expert - Business Network Integration*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CA_BC_COM_EMC_PC`
+
+*Communication Management - Emergency Message Monitoring*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Development
 
 
@@ -2001,7 +2067,7 @@ Development
 </td>
 <td valign="top">
 
- [SQL EXPLAIN](sql-explain-88cc6ca.md) 
+  
 
 
 

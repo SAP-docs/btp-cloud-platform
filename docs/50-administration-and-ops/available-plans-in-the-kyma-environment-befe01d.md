@@ -12,7 +12,7 @@ Depending on your global account type, you have access to a different plan that 
 
 For details on the trial cluster specification, see [Scope and Limitations](../20-getting-started/about-the-trial-account-c4fff0f.md#loioc4fff0f58f90424f8e0af28975ac7f0f__section_trial_scope_limitations).
 
-<a name="loiobefe01d5d8864e59bf847fa5a5f3d669__table_otp_zxz_1pb"/>Trial Plan Specification
+**Trial Plan Specification**
 
 
 <table>
@@ -122,7 +122,7 @@ It can't contain white spaces.
 
 The free plan offers you a one-node cluster and is only available on AWS. The upgrade to the paid plan is not yet supported. Only community support is available for free tier service plans and these are not subject to SLAs. For more information, read [Using Free Service Plans](../10-concepts/using-free-service-plans-524e108.md).
 
-<a name="loiobefe01d5d8864e59bf847fa5a5f3d669__table_kl3_cdm_1qb"/>Free Plan Specification
+**Free Plan Specification**
 
 
 <table>
@@ -262,7 +262,7 @@ Look up the technical cluster region names at [Regions for the Kyma Environment]
 
 ## Enterprise \(AWS, GCP, Azure\)
 
-<a name="loiobefe01d5d8864e59bf847fa5a5f3d669__table_z4g_qld_hpb"/>Enterprise Plan Specification
+**Enterprise Plan Specification**
 
 
 <table>
@@ -512,7 +512,7 @@ Number between 2 and 80, but greater than or equal to *autoScalerMin*.
 
 ## Partner Test, Demo, and Development \(Azure Lite\)
 
-<a name="loiobefe01d5d8864e59bf847fa5a5f3d669__table_wbl_4w4_wsb"/>Partner Test, Demo, and Development Plan Specification
+**Partner Test, Demo, and Development Plan Specification**
 
 
 <table>

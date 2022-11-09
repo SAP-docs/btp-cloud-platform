@@ -10,7 +10,7 @@ The export parameter `ET_ERRORS` is used to return all deletion messages \(messa
 
 The object will be deleted if no exception and no error messages of kind ‘E-‘ were raised.
 
-<a name="loioa30fb84f8b974acb9218c4c6c6e6c587__table_vz2_bvv_2jb"/>Import Parameters
+**Import Parameters**
 
 
 <table>
@@ -108,7 +108,7 @@ Delete generated class "CL\_<change document object name\>\_CHDO" even if it is 
 </tr>
 </table>
 
-<a name="loioa30fb84f8b974acb9218c4c6c6e6c587__table_uz2_3vv_2jb"/>Export Parameters
+**Export Parameters**
 
 
 <table>

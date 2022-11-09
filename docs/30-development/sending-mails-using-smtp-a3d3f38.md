@@ -4,7 +4,7 @@
 
 Send mails using the Simple Message Transfer Protocol \(SMTP\).
 
-You can send mails with the Simple Message Transfer Protocol \(SMTP\) using a mail server connected via the *SAP Business Technology Platform \(SAP BTP\), Cloud Connector*.
+You can send mails with the Simple Message Transfer Protocol \(SMTP\) using a mail server connected via the *SAP Business Technology Platform \(SAP BTP\), Cloud Connector* or use a publicly available SMTP server.
 
 For more information, see [Configure Access Control \(TCP\)](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/befd4374d33a4833be117d7149b6a103.html)
 
@@ -14,21 +14,22 @@ For more information, see [Configure Access Control \(TCP\)](https://help.sap.co
 
 ## Prerequisites
 
-You must define the following configurations in a Communication System. See [How to Create Communication Systems](../50-administration-and-ops/how-to-create-communication-systems-c2234ac.md) for more information.
+You must define the following configurations in a communication system. See [How to Create Communication Systems](../50-administration-and-ops/how-to-create-communication-systems-c2234ac.md) for more information.
 
 -   Host
 -   Port
--   Choose *Cloud Connector* to access your customer owned SMTP server \(proxy type *OnPremise* in the destination service\).
--   *SCC Location ID* of the SAP BTP, Cloud Connector
+-   Enable *Cloud Connector* to access your customer owned SMTP server
+-   Disable *Cloud Connector* when the communication is done directly to a publicly available SMTP server
+
+-   *SCC Location ID* of the `SAP BTP Cloud Connector`\(only needed when the Cloud connector is enabled\)
 
     > ### Note:  
-    > This parameter is only required if several SAP BTP, Cloud Connectors are used in one subaccount \(to define the target SAP BTP, Cloud Connector with the same *SCC Location ID*\).
+    > This parameter is only required if several SAP BTP, Cloud connectors are used in one subaccount \(to define the target SAP BTP, Cloud Connector with the same *SCC Location ID*\).
 
--   A referenced Outbound Communication User with authentication Method *User and Password*
+-   A referenced outbound communication user with authentication method *User and Password*
 
 > ### Note:  
-> -   Only access to mail servers via the Cloud Connector is supported.
-> -   Instead of maintaining the information directly in the Communication System, it's also possible to enter a referenced destination of type *MAIL* in the destination service, see [Create Mail Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/6442cb4f8b0f41178abce14c35f5def4.html "Create mail destinations in the Destinations editor (SAP BTP cockpit).") :arrow_upper_right:.
+> -   Instead of maintaining the information directly in the communication system, it's also possible to enter a referenced destination of type *MAIL* in the destination service. For more information, see [Create Mail Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/6442cb4f8b0f41178abce14c35f5def4.html "Create mail destinations in the Destinations editor (SAP BTP cockpit).") :arrow_upper_right:.
 
 Afterwards, create a communication arrangement for the `SAP_COM_0548` communication scenario using this communication system.
 

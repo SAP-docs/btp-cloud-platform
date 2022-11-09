@@ -12,7 +12,7 @@ The `/IWXBE_TECHNICAL` interface allows you to receive messages in case a techni
 
 Before you can display messages in the *Message Monitoring for Integration Experts* app, you must assign a user to a specific recipient. To do so, proceed as follows:
 
-1.  Log on to the SAP Fiori launchpad.
+1.  Log on to the SAP Fiori launchpad in the *SAP S/4HANA Cloud* system.
 
 2.  Open the *Assign Recipients to Users* app. A list containing all users that are already assigned to recipients is displayed.
 
@@ -48,7 +48,7 @@ For more information, see [Assign Recipients to Users](assign-recipients-to-user
 
 To use *Message Monitoring* for *Enterprise Event Enablement*, proceed as follows:
 
-1.  Log on to the SAP Fiori launchpad.
+1.  Log on to the SAP Fiori launchpad in the *SAP S/4HANA Cloud* system.
 
 2.  Click the *Message Monitoring for Integration Experts* tile.
 

@@ -10,7 +10,7 @@ Class `CL_BALI_LOG` handles all read and change operations on a single applicati
 
 Create an instance of the log class:
 
-<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_pyx_h3b_xlb"/>**CREATE \(static\)**
+**CREATE \(static\)**
 
 
 <table>
@@ -86,7 +86,7 @@ Internal error during processing
 
 Create an instance of the log class and set the header:
 
-<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_xkf_sjb_xlb"/>**CREATE\_WITH\_HEADER \(static\)**
+**CREATE\_WITH\_HEADER \(static\)**
 
 
 <table>
@@ -221,7 +221,7 @@ Internal error during processing
 
 Get the log handle which is the unique identifier of the log:
 
-<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_hl3_rvh_xlb"/>**GET\_HANDLE**
+**GET\_HANDLE**
 
 
 <table>
@@ -272,7 +272,7 @@ Log handle
 
 Get the log header:
 
-<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_gqx_wvh_xlb"/>**GET\_HEADER**
+**GET\_HEADER**
 
 
 <table>
@@ -366,7 +366,7 @@ Internal error during processing
 
 Set the log header:
 
-<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_q1k_dwh_xlb"/>**SET\_HEADER**
+**SET\_HEADER**
 
 
 <table>
@@ -481,7 +481,7 @@ Internal error during processing
 
 Add an item \(e.g. a message\) to the log:
 
-<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_ww2_nwh_xlb"/>**ADD\_ITEM**
+**ADD\_ITEM**
 
 
 <table>
@@ -599,7 +599,7 @@ Internal error during processing
 
 If the item is a message, it's checked whether the log already contains another message with identical message attributes. These are the attributes: severity, message ID, message number and message variable 1 - 4. If this message exist, the message counter of the message is increased by 1. Otherwise, a new message is added to the log. Also free texts and exceptions are always added to the log without cumulation.
 
-<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_sgn_xwh_xlb"/>**CUMULATE\_ITEM**
+**CUMULATE\_ITEM**
 
 
 <table>
@@ -717,7 +717,7 @@ Internal error during processing
 
 Add all messages from an internal table of type `BAPIRETTAB` table to the log:
 
-<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_vhr_jxh_xlb"/>**ADD\_MESSAGES\_FROM\_BAPIRETTAB**
+**ADD\_MESSAGES\_FROM\_BAPIRETTAB**
 
 
 <table>
@@ -835,7 +835,7 @@ Internal error during processing
 
 Add a message from the ABAP Restful Application Programming Model \(interface IF\_ABAP\_BEHV\_MESSAGE\) to the log:
 
-<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_ets_vxq_lsb"/>ADD\_ABAP\_BEHAVIOR\_MESSAGE
+**ADD\_ABAP\_BEHAVIOR\_MESSAGE**
 
 
 <table>
@@ -946,7 +946,7 @@ Internal error during processing
 
 Add all items from another log to this log:
 
-<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_h3k_2d4_krb"/>**ADD\_ALL\_ITEMS\_FROM\_OTHER\_LOG**
+**ADD\_ALL\_ITEMS\_FROM\_OTHER\_LOG**
 
 
 <table>
@@ -1060,7 +1060,7 @@ Internal error during processing
 
 Add an item filter to the log. The item filter is checked before an item is added to the log using the methods ADD\_ITEM, CUMULATE\_ITEM, ADD\_MESSAGES\_FROM\_BAPIRETTAB, or ADD\_ABAP\_BEHAVIOR\_MESSAGE. If an item doesn't pass the filter, it's ignored.
 
-<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_xdd_ccr_lsb"/>**SET\_FILTER\_FOR\_ADD\_ITEM**
+**SET\_FILTER\_FOR\_ADD\_ITEM**
 
 
 <table>
@@ -1143,7 +1143,7 @@ ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED: The memory of the 
 
 Get the item filter which was set using SET\_FILTER\_FOR\_ADD\_ITEM.
 
-<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_fzb_jbr_lsb"/>**GET\_FILTER\_FOR\_ADD\_ITEM**
+**GET\_FILTER\_FOR\_ADD\_ITEM**
 
 
 <table>
@@ -1219,7 +1219,7 @@ ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED: The memory of the 
 
 Get a single item from the log:
 
-<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_smp_5xh_xlb"/>**GET\_ITEM**
+**GET\_ITEM**
 
 
 <table>
@@ -1352,7 +1352,7 @@ Internal error during processing
 
 Get all items from the log:
 
-<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_lbp_cyh_xlb"/>**GET\_ALL\_ITEMS**
+**GET\_ALL\_ITEMS**
 
 
 <table>
@@ -1473,7 +1473,7 @@ Remove the log from the memory. After this, the log is invalidated and can no lo
 
 Check whether the memory of the log was released in order to verify that the log is invalidated and can no longer be used.
 
-<a name="loio5e25cf7682d9432b840aa11144f2c2ac__table_vv4_hdr_lsb"/>IS\_INVALIDATED
+**IS\_INVALIDATED**
 
 
 <table>

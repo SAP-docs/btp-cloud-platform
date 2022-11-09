@@ -8,7 +8,7 @@ This table is supposed to display the attribute settings of the identity provide
 
 Since there are multiple identity providers you can use, we display the parameters and values of SAP Cloud Identity Services - Identity Authentication. Use the information in this table as a reference for the configuration of your identity provider.
 
-<a name="loio6d073332bc5743fdb7f7f06bde499ab7__table_j4l_z1b_ry"/>Settings of Identity Authentication for SAML 2.0 Trust
+**Settings of Identity Authentication for SAML 2.0 Trust**
 
 
 <table>

@@ -30,7 +30,7 @@ The following graphic provides a high-level overview of the integration between 
 
 To integrate SAP BTP and SAP Marketing Cloud so that you can build extension applications, you have to use the SAP S/4HANA Cloud Extensibility service. All the steps are the same from the SAP BTP side. You register an SAP Marketing Cloud system in the SAP BTP cockpit. Then, you take the generated token and use it to configure the connectivity on the SAP Marketing Cloud side. These are the tasks you need to follow:
 
-<a name="loio18bb3d945ab948b2ab2218b7869d0faf__table_cyp_dpr_y3b"/>Integrating SAP BTP and SAP Marketing Cloud
+**Integrating SAP BTP and SAP Marketing Cloud**
 
 
 <table>

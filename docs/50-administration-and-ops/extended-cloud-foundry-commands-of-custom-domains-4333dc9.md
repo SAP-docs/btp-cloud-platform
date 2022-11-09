@@ -6,7 +6,7 @@ The Custom Domain plugin includes commands that you can use to configure and man
 
 
 
-<a name="loio4333dc97ea0d42bd8fe13eebd4382a9b__table_b4y_spl_3gb"/>Commands for the Custom Domain CLI Plugin
+**Commands for the Custom Domain CLI Plugin**
 
 
 <table>

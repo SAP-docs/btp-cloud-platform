@@ -130,7 +130,7 @@ Get the message text of the item. It is:
 -   The output of method `GET_TEXT` of the ABAP exception object for an exception item
 
 
-<a name="loio5ff735cf11874b31abc0a8130baaffb8__table_xkf_sjb_xlb"/>**GET\_MESSAGE\_TEXT**
+**GET\_MESSAGE\_TEXT**
 
 
 <table>

@@ -8,7 +8,7 @@ Authorizations of SAP support users
 
 Access levels define the authorizations of SAP support users when accessing customer systems.
 
-<a name="loio3cdb582583b342fd82b3caf3f3763af8__table_ayr_w23_qnb"/>Access Levels
+**Access Levels**
 
 
 <table>

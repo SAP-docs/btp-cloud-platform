@@ -4,7 +4,7 @@
 
 Service instances of the SAP Authorization and Trust Management service \(XSUAA\) trust the following certificate authorities \(CA\). To use your own public key infrastructure \(PKI\) for bindings, the certificates must be issued from one of these CAs.
 
-<a name="loioedd5613fe3354373b0a0de4c90bcdb59__table_gnh_wds_crb"/>Supported CAs for X.509 Secrets
+**Supported CAs for X.509 Secrets**
 
 
 <table>

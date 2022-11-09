@@ -19,7 +19,7 @@ In this example, the call between the application and the service uses technical
 
    
   
-<a name="loio92d82380f45a45c4b157f92a61307da1__fig_qly_nxw_42b"/>Two Developments Tightly Coupled Using Technical Communication
+**Two Developments Tightly Coupled Using Technical Communication**
 
  ![](images/app_plan_technical_user_pptx_1ded4e5.png "Two Developments Tightly Coupled Using Technical Communication") 
 

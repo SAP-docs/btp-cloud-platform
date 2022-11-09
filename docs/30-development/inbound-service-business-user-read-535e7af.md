@@ -20,7 +20,7 @@ The service is structured into the following two top-level nodes:
 
 The service node contains the search parameters.
 
-<a name="loio535e7af5291e48c18deb717167aaa8ef__table_gxy_245_qcb"/>Nodes and Fields for the `BusinessUser` Node
+**Nodes and Fields for the BusinessUser Node**
 
 
 <table>
@@ -1063,7 +1063,7 @@ Cardinality: 0..unbounded
 
 The service nodes contain the service's business data.
 
-<a name="loio535e7af5291e48c18deb717167aaa8ef__table_rtt_5sh_hdb"/>Fields for the `QueryProcessingConditions` Node
+**Fields for the QueryProcessingConditions Node**
 
 
 <table>

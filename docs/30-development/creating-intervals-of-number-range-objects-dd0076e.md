@@ -4,7 +4,7 @@
 
 Use the `CREATE` method to create number range intervals.
 
-<a name="loiodd0076e454e74034bd862d867e153bd5__table_sgd_22f_gjb"/>Import Parameters
+**Import Parameters**
 
 
 <table>
@@ -286,7 +286,7 @@ Sub-object
 </tr>
 </table>
 
-<a name="loiodd0076e454e74034bd862d867e153bd5__table_utn_x2f_gjb"/>Export Parameters
+**Export Parameters**
 
 
 <table>

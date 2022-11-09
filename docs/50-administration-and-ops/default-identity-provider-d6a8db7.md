@@ -22,7 +22,7 @@ Use SAP ID service as a preconfigured user store in your starter scenarios or fo
 
    
   
-<a name="loiod6a8db70bdde459f92f2837349f95090__fig_xsf_zq5_45b"/>SAP ID Service Authenticates Users
+**SAP ID Service Authenticates Users**
 
  ![](images/Authorization_and_Trust_Management_in_the_Neo_Environment_graph3_68bb064.png "SAP ID Service Authenticates Users") 
 
@@ -40,7 +40,7 @@ The following figure illustrates how default and custom identity providers can f
 
    
   
-<a name="loiod6a8db70bdde459f92f2837349f95090__fig_ykb_r5p_p5b"/>Identity Providers and Federation
+**Identity Providers and Federation**
 
  ![](images/idp_proxies_a1b2a3b.png "Identity Providers and Federation") 
 

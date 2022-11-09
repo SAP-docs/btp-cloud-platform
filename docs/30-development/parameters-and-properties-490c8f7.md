@@ -47,7 +47,7 @@ The following parameters are supported:
     -   Global - can be defined on root document level
     -   All - can be consumed everywhere throughout the document
 
-    <a name="loio490c8f71e2b74bc0a59302cada66117c__table_h3d_jp5_pt"/>Global Parameters
+    **Global Parameters**
 
 
     <table>
@@ -737,7 +737,7 @@ The following parameters are supported:
 
 These parameters can be used with the `provides` or `requires` dependencies:
 
-<a name="loio490c8f71e2b74bc0a59302cada66117c__table_dependencySpecificParameters"/>Dependency-Specific Parameters
+**Dependency-Specific Parameters**
 
 
 <table>

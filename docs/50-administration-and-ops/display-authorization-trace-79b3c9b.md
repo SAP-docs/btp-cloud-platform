@@ -23,7 +23,7 @@ A maximim of 10.000 data sets is possible, therefore we recommend to consider th
 
 The following authorization check statuses are possible:
 
-<a name="loio79b3c9b7701248fe83b81d4b15134e8d__table_wrh_kry_rhb"/>
+****
 
 
 <table>

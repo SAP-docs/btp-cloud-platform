@@ -4,7 +4,7 @@
 
 Here you can find a list of the events that are logged by SAP SuccessFactors Extensibility service. To retrieve the audit logs stored for SAP SuccessFactors Extensibility create a support ticket in component BC-NEO-EXT-SF.
 
-<a name="loiod73ae90401f949d4a6b88b6c5b4a5eae__table_e1t_lqs_ypb"/>Events written in audit logs
+**Events written in audit logs**
 
 
 <table>

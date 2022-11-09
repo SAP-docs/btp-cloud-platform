@@ -6,7 +6,7 @@
 
 You assign business catalogs to business roles that are assigned to business users. Business catalogs contain authorizations that define what a business user with a certain business role is allowed to do.
 
-<a name="loioc26a67fb8bdc46ab9a7d6dc621fde366__table_igc_jnw_dw"/>Business Catalogs for Communication Management Apps
+**Business Catalogs for Communication Management Apps**
 
 
 <table>

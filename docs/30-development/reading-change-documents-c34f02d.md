@@ -6,7 +6,7 @@ Use class `CL_CHDO_READ_TOOLS` to read change documents.
 
 Method `CHANGEDOCUMENT_READ` reads the change documents for one change document object. You can restrict the search by various parameters \(such as changed by, date, or time\).
 
-<a name="loioc34f02daa1824f96a9a9e2cb2017d80f__table_dwd_kzv_2jb"/>Import Parameters
+**Import Parameters**
 
 
 <table>
@@ -315,7 +315,7 @@ Change documents numbers were received by export paramter `CHANGENUMBER`.
 </tr>
 </table>
 
-<a name="loioc34f02daa1824f96a9a9e2cb2017d80f__table_uy5_tzv_2jb"/>Export Parameter
+**Export Parameter**
 
 
 <table>

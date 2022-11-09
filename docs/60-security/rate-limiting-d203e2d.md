@@ -26,7 +26,7 @@ To protect the SAP Authorization and Trust Management service from overload of m
 
 The token endpoint enables you to authenticate with OAuth 2.0.
 
-<a name="loiod203e2d41df1455d8fdc2334844a60d4__table_ykc_csf_bqb"/>Token Endpoint
+**Token Endpoint**
 
 
 <table>
@@ -201,7 +201,7 @@ An `HTTP 429 Too Many Requests` response status code is sent.
 
 The authorization, security settings, and identity provider management APIs enable you to manage service instances, roles, role templates, role collections, and identity providers. You find the APIs of SAP Authorization and Trust Management service and of the security settings in the [SAP API Business Hub](https://api.sap.com/package/authtrustmgmnt/rest).
 
-<a name="loiod203e2d41df1455d8fdc2334844a60d4__table_tr5_r5d_15b"/>Authorization, Security Settings, and Identity Provider APIs
+**Authorization, Security Settings, and Identity Provider APIs**
 
 
 <table>
@@ -388,7 +388,7 @@ An `HTTP 429 Too Many Requests` response status code is sent.
 
 The user management \(SCIM\) APIs enable you to manage shadow users and role collections. You find the APIs of SAP Authorization and Trust Management service in the [SAP API Business Hub](https://api.sap.com/package/authtrustmgmnt/rest).
 
-<a name="loiod203e2d41df1455d8fdc2334844a60d4__table_vlk_55d_15b"/>User Management \(SCIM\) APIs
+**User Management \(SCIM\) APIs**
 
 
 <table>

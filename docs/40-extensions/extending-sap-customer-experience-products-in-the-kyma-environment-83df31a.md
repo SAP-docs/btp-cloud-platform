@@ -25,7 +25,7 @@ You can extend SAP Customer Experience products in SAP BTP, Kyma runtime without
 
 To integrate SAP BTP and SAP Customer Experience products so that you can build extension applications, you need to perform the following tasks:
 
-<a name="loio83df31ad3b634c0783ced522107d2e73__table_cyp_dpr_y3b"/>Integrating SAP BTP and SAP Customer Experience Products
+**Integrating SAP BTP and SAP Customer Experience Products**
 
 
 <table>

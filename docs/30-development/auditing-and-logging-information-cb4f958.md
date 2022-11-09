@@ -4,7 +4,7 @@
 
 Here you can find a list of the security events that are logged by the HTML5 application repository.
 
-<a name="loiocb4f958807e94ea5a2414cd261bcd6e3__table_dqf_pkf_p4b"/>Events written in audit logs
+**Events written in audit logs**
 
 
 <table>

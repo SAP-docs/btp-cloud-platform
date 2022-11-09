@@ -18,7 +18,7 @@ Read a clone job. The entity is only available after the job has finished. To tr
 
 ### Request Headers
 
-<a name="loio3071eafb3eef498d8d0d74742645d7e9__table_byq_jr4_bpb"/>
+****
 
 
 <table>
@@ -99,7 +99,7 @@ fetch
 
 ### Request Parameters
 
-<a name="loio3071eafb3eef498d8d0d74742645d7e9__table_ssp_js4_bpb"/>
+****
 
 
 <table>
@@ -277,7 +277,7 @@ query string
 
 ### Response Headers
 
-<a name="loio3071eafb3eef498d8d0d74742645d7e9__table_rlc_ss4_bpb"/>
+****
 
 
 <table>
@@ -319,7 +319,7 @@ Token, which can be used for POST requests
 
 ### Response Status and Error Codes
 
-<a name="loio3071eafb3eef498d8d0d74742645d7e9__table_sjb_vs4_bpb"/>
+****
 
 
 <table>

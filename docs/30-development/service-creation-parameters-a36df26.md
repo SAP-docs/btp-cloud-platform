@@ -13,7 +13,7 @@ The deploy service supports the following methods for the specification of servi
     > If service-creation information is supplied both in the deployment \(or extension\) descriptor **and** in a supporting JSON file, the parameters specified directly in the deployment \(or extension\) descriptor override the parameters specified in the JSON file.
 
 
-<a name="loioa36df26b36484129b482ae20c3eb8004__table_vpb_gvx_m2b"/>Service creation parameters - method comparison
+**Service creation parameters - method comparison**
 
 
 <table>

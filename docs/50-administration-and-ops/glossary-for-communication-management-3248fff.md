@@ -6,7 +6,7 @@ Overview of terminology used for communication management
 
 
 
-<a name="loio3248fff923894c94a9b2fbb82dff4943__table_qmq_2lv_zr"/>Terminology Overview
+**Terminology Overview**
 
 
 <table>

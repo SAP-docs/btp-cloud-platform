@@ -8,7 +8,7 @@ The [ABAP RESTful Application Programming Model](https://help.sap.com/viewer/923
 
   
   
-<a name="loio33a301e3fff5404e89f090910f7bd978__fig_eyx_wqv_vgb"/>Architecture Overview
+**Architecture Overview**
 
  
 

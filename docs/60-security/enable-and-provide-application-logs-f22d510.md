@@ -88,7 +88,7 @@ If there are authentication problems in your application, enable logging for the
 
     To obtain more details about the token validation, set the following environment variables of the container security library and Node.js \(if applicable\):
 
-    <a name="loiof22d5100b3a243af88e3edf5311754fc__table_ncv_lfl_gdb"/>`SAPSSOEXT` Environment Variables
+    **SAPSSOEXT Environment Variables**
 
 
     <table>
@@ -153,7 +153,7 @@ If there are authentication problems in your application, enable logging for the
     </tr>
     </table>
     
-    <a name="loiof22d5100b3a243af88e3edf5311754fc__table_erj_lqn_hdb"/>`Node.js` Environment Variables
+    **Node.js Environment Variables**
 
 
     <table>

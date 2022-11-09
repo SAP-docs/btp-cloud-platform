@@ -4,7 +4,7 @@
 
 The Security Audit Log Integration - Read offers the following operations:
 
-<a name="loio345feadfe08842ed8a79bcdd35a0811e__table_l3z_c5t_zhb"/>
+****
 
 
 <table>

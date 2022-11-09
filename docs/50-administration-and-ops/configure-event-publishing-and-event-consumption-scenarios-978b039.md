@@ -13,7 +13,7 @@ You can definewhich event types shall be published or consumed using a connectio
 -   The *Enterprise Event Enablement - Configure Channel Bindings* app is visible.
 
     > ### Note:  
-    > If the *Enterprise Event Enablement - Configure Channel Bindings* app is not visible, add the corresponding business catalog to the *SAP\_BR\_ADMINISTRATOR* role using the *Maintain Business Roles* app. The change in your role becomes effective after you have logged out and logged in again. For more information about adding catalogs to business roles, see 
+    > If the *Enterprise Event Enablement - Configure Channel Bindings* app is not visible, add the corresponding business catalog to the *SAP\_BR\_ADMINISTRATOR* role using the *Maintain Business Roles* app. The change in your role becomes effective after you have logged out and logged in again. For more information about adding catalogs to business roles, see [Maintain Business Roles](maintain-business-roles-8980ad0.md).
 
 -   You have established a connection through the configuration of the communication arrangement in the previous steps. For more information, see [Create, Maintain and Delete Communication Arrangements](create-maintain-and-delete-communication-arrangements-2144420.md).
 
