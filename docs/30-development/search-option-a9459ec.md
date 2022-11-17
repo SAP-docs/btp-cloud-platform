@@ -179,7 +179,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0001/EMPLOYEES?$search=(Pet
 **Related Information**  
 
 
-
+[OData Request Terms](odata-request-terms-a3b0e95.md "An overview of some OData Request terminology.")
 
 [OData Request: Create Entity](odata-request-create-entity-56be82d.md "Create an entity in the Client Proxy instance with insert entity request.")
 

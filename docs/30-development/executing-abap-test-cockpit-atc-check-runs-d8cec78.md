@@ -20,7 +20,7 @@
     > ### Note:  
     > Alternatively, you can also use the communication scenario **SAP\_COM\_0901**, which contains the ATC service only, without the Manage Git Repositories service.
 
--   You have defined a business user in the additional properties in the communication arrangement. To do so, click the *Additional Properties* link for ATC Check Run in the *Inbound Services* section. Specify a business user \(CB\) or select a user from the value help. ATC runs started via the service will be scheduled and executed with the specified business user.
+-   You have defined a business user in the additional properties in the communication arrangement. To do so, choose the *Additional Properties* link for ATC Check Run in the *Inbound Services* section. Specify a business user \(CB\) or select a user from the value help. ATC runs started via the service will be scheduled and executed with the specified business user.
 
     > ### Note:  
     > The assigned business user needs development authorization for ADT, which is contained in the business catalog`SAP_A4C_BC_DEV_PC` or in the business role template `SAP_BR_DEVELOPER`. In case the ATC is used to execute ABAP Unit Tests, further specific authorizations might be required.
@@ -34,7 +34,7 @@
 
 The ABAP Test Cockpit \(ATC\) is the standard tool for checking the quality of ABAP development objects using static checks and ABAP unit tests. In this help topic you will learn how to trigger an ATC Check Run via REST Service.
 
-For more information about ABAP Test Cockpit, see [Checking Quality of ABAP Code with ATC](https://help.sap.com/viewer/c238d694b825421f940829321ffa326a/latest/en-US/4ec5711c6e391014adc9fffe4e204223.html).
+For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP Code with ATC](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/checking-quality-of-abap-code-with-atc).
 
 
 

@@ -26,8 +26,6 @@ To administer your Cloud Foundry environment, navigate to orgs, and spaces in th
 ## Procedure
 
 
-
-
 <table>
 <tr>
 <th valign="top">

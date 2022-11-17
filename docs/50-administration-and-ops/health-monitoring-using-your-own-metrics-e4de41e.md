@@ -25,7 +25,7 @@ For your own customer or partner solutions running on the ABAP environment, you 
 To define, set up, and use your own metrics, you proceed as follows:
 
 1.  Using ABAP Development Tools \(ADT\), a developer at your customer or partner company defines the relevant metrics for your solution.
-2.  As an administrator, you schedule an application job using the app *Schedule Metric Provider Collection*.
+2.  As an administrator, you schedule an application job using the *Schedule Metric Provider Collection* app.
 
     The application job collects the metrics that you have defined and stores the values in the generic metric store.
 

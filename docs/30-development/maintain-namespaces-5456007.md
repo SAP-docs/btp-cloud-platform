@@ -42,6 +42,10 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
     -   If the check has been successful, click the *Create* button.
     -   Find the newly created namespace displayed in the list.
 
+        > ### Note:  
+        > Consider the lifetime of these worldwide uniquely existing namespaces. Once created, a namespace cannot be deleted.
+
+
 
 
 

@@ -798,38 +798,6 @@ Factory Calendar
 <tr>
 <td valign="top">
 
-Health Monitoring
-
-
-
-</td>
-<td valign="top">
-
-[Health Monitoring](health-monitoring-60e87dc.md)
-
-
-
-</td>
-<td valign="top">
-
-`SAP_BR_ADMINISTRATOR`
-
-
-
-</td>
-<td valign="top">
-
-`SAP_CA_BC_OP_MON`
-
-*Technical Monitoring Cockpit Infrastructure* 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Identity and Access Management
 
 
@@ -2018,40 +1986,6 @@ Message Monitoring
 `SAP_CA_BC_COM_TECH_ERR_PC`
 
 *Communication Management - Technical Message Monitoring*
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Message Monitoring \(Emergency Correction\)
-
-
-
-</td>
-<td valign="top">
-
- [Message Monitoring \(Emergency Correction\)](message-monitoring-emergency-correction-4330ce7.md) 
-
-
-
-</td>
-<td valign="top">
-
-`SAP_BR_CONF_EXPERT_BUS_NET_INT`
-
-*Configuration Expert - Business Network Integration*
-
-
-
-</td>
-<td valign="top">
-
-`SAP_CA_BC_COM_EMC_PC`
-
-*Communication Management - Emergency Message Monitoring*
 
 
 

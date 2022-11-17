@@ -301,6 +301,22 @@ Defines a list of URIs that are directed to the routing configuration file \(xs-
 <tr>
 <td valign="top">
 
+ `EXT_SESSION_MGT` 
+
+
+
+</td>
+<td valign="top">
+
+You can configure external session management. See [External Session Management](external-session-management-d4a75d6.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
  `CF_NODEJS_LOGGING_LEVEL` 
 
 
@@ -346,6 +362,22 @@ Enables the application router to start as an HTTP/2 server.
 
 > ### Note:  
 > To configure HTTP/2 support, you must use Cloud Foundry routes with an HTTP/2 destination protocol. See [Configuring HTTP/2 Support](https://docs.cloudfoundry.org/adminguide/supporting-http2.html#application) in the Cloud Foundry Documentation.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `FULL_CERTIFICATE_CHAIN` 
+
+
+
+</td>
+<td valign="top">
+
+Enables the application router to send the entire chain of certificates provided in the binding of the authentication service \(XSUAA or IAS\) to the backend applications. The certificates are required for mutual TLS authentication \(mTLS handshake\). See [Mutual TLS Authentication \(mTLS\) and Certificates Handling](mutual-tls-authentication-mtls-and-certificates-handling-46b8b85.md).
 
 
 

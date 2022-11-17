@@ -59,7 +59,7 @@ The syntax required to set the properties and values defined in the `xs-security
  "authorities":["$ACCEPT_GRANTED_AUTHORITIES"],
  "oauth2-configuration": {
                     "token-validity": 900, 
-                    "redirect-uris": ["https://myapp.cfapps.eu10.hana.ondemand.com","https://myapp.mydomain.com/my/logout"], 
+                    "redirect-uris": ["https://myapp.cfapps.eu10.hana.ondemand.com","https://myapp.mydomain.com/my/logout"] 
                     "credential-types": ["binding-secret","x509"]
  },
  "xsenableasyncservice":"true"

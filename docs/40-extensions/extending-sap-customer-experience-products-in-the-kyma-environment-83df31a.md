@@ -103,14 +103,14 @@ To do so, you pair the integration token with your SAP Customer Experience syste
 <tr>
 <td valign="top">
 
-4. Create a service instance of the required SAP Customer Experience Cloud service in the Kyma Environment.
+4.Call a registered external service using Central Application Gateway URL.
 
 
 
 </td>
 <td valign="top">
 
-[Using SAP BTP Services in the Kyma Environment](../30-development/using-sap-btp-services-in-the-kyma-environment-ea4dd81.md)
+[Call a registered external service from Kyma](https://kyma-project.io/docs/kyma/latest/03-tutorials/00-application-connectivity/ac-05-call-registered-service-from-kyma)
 
 
 

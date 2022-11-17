@@ -11,11 +11,9 @@ Since technical users are needed in various steps, the app can also be used to a
 Previously, the scenario has been described in project "Piper". For more information, see [Build and Publish Add-On Products on SAP BTP, ABAP Environment.](https://www.project-piper.io/scenarios/abapEnvironmentAddons/) We recommend using the *Build Product Version* App that enables the Build Add-On Product scenario for you without the need to set up a Jenkins server.
 
 > ### Note:  
-> You have a range between 1 and 28 days to choose from, after which your build logs are automatically deleted.
+> Please notice, that only 99 builds can be saved in a 28 day period. In case of further builds, the oldest one will be deleted.
 > 
-> Furthermore, you can enter a maximum number of builds you want to keep. If your number of builds exceeds this maximum, the oldest ones are deleted automatically. Choose a range between 1 and 99 builds.
-> 
->  
+> Therefore, you can only see the build protocols of the currently saved builds.
 > 
 > Although normally being singular, the number of builds for a version can vary. When the system is being prepared in the pipeline
 > 

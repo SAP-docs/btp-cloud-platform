@@ -19,7 +19,7 @@ To call an API of the SAP Authorization and Trust Management service, obtain an 
 
 ## Procedure
 
-Call the endpoint of an API. 
+Call the endpoint of an API.
 
 > ### Sample Code:  
 > In this example, we request the list of roles of from the authorization API. With the authorization header, use the access token you received in the prerequisites after the key word `bearer`.

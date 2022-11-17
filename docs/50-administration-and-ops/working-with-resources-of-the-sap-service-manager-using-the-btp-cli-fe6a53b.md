@@ -6,7 +6,7 @@ Use the SAP BTP command line interface to perform various operations related to 
 
 You can also get information about the service plans and service offerings associated with your subaccount.
 
-For more information about the,SAP Service Manager see [SAP Service Manager](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/3a27b85a47fc4dff99184dd5bf181e14.html).
+For more information about the SAP Service Manager, see [SAP Service Manager](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/3a27b85a47fc4dff99184dd5bf181e14.html).
 
 > ### Tip:  
 > All of these commands are executed in subaccounts. If you know you'll be working in a specific subaccount, we recommend using the `btp target` command to set the target to this subaccount. Then you won't have to provide the subaccount ID with every command call. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
@@ -544,14 +544,14 @@ Delete an existing binding between a service instance and an application.
 </td>
 <td valign="top">
 
-`btp delete services/instance`
+`btp delete services/binding`
 
 
 
 </td>
 <td valign="top">
 
-[btp delete services/instance](https://help.sap.com/docs/BTP/btp-cli/btp-delete-services-instance.html)
+[https://help.sap.com/docs/BTP/btp-cli/btp-delete-services-binding.html](https://help.sap.com/docs/BTP/btp-cli/btp-delete-services-binding.html)
 
 
 

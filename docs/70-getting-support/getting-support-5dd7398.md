@@ -195,7 +195,7 @@ You can see recommended knowledge resources for the selected product area on the
 
     -   *Component*
 
-        Select the component name of the area that best fits your issue. Selecting the right component directs the issue to the corresponding support team. To check the complete list of components, see [Support Components \(prefiltered for the Cloud Foundry environment\)](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/08d1103928fb42f3a73b3f425e00e13c.html?scp-env=Cloud%20Foundry).
+        Select the component name of the area that best fits your issue. Selecting the right component directs the issue to the corresponding support team. To check the complete list of components, see [Support Components \(prefiltered for the Cloud Foundry environment\)](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/08d1103928fb42f3a73b3f425e00e13c.html?scp-env=Cloud%20Foundry).
 
         > ### Note:  
         > For the Kyma environment issues, select **BC-CP-XF-KYMA**.

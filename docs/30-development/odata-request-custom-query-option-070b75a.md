@@ -134,7 +134,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams?sap-statistics=t
 **Related Information**  
 
 
-
+[OData Request Terms](odata-request-terms-a3b0e95.md "An overview of some OData Request terminology.")
 
 [Client Proxy Instance Types](client-proxy-instance-types-079517f.md "Create remote and local Client Proxy instances in OData Version 2 or Version 4.")
 

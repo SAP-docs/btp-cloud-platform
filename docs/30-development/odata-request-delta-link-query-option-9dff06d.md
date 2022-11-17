@@ -187,7 +187,7 @@ CHECK lo_client_proxy->can_delta_request_be_created( ‘DELTA_LINK_NAME’ ) = a
 **Related Information**  
 
 
-
+[OData Request Terms](odata-request-terms-a3b0e95.md "An overview of some OData Request terminology.")
 
 [OData Request: Read Entity List](odata-request-read-entity-list-b810028.md "Create an OData request to read an entity list (entity collection) in the Client Proxy instance.")
 

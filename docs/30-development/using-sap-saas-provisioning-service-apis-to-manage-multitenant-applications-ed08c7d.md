@@ -22,19 +22,6 @@ Go to [SAP API Business Hub](https://api.sap.com/api/APISaasManagerService/resou
 
 
 
-<a name="loioed08c7dcb35d4082936c045e7d7b3ecd__section_wb5_5jz_fnb"/>
-
-## Trying Out the APIs in Swagger
-
-To try out the APIs, go to <code>https://saas-manager.<i class="varname">&lt;app domain&gt;</i>.<i class="varname">&lt;landscape domain&gt;</i>/swagger-ui.html</code>.
-
-> ### Example:  
-> If your account is running on the Europe \(Frankfurt\) region, use this URL:
-> 
-> `https://saas-manager.cfapps.eu10.hana.ondemand.com/swagger-ui.html`
-
-
-
 <a name="loioed08c7dcb35d4082936c045e7d7b3ecd__section_dqy_mfk_lqb"/>
 
 ## Trying Out the APIs in SAP API Business Hub

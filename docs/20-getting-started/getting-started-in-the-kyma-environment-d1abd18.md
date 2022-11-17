@@ -58,5 +58,5 @@ You have set up the Kyma environment and connected it as required.
 
 ## Next Steps
 
-Once the administrator sets up the environment, the developers can access the Kyma environment through the Kyma Dashboard. Upon logging, developers can start creating extensions for the SAP systems either from the Kyma Dashboard or from the terminal after downloading the kubeconfig file with the cluster configuration. For details, see [Development in the Kyma Environment](../30-development/development-in-the-kyma-environment-606ec61.md).
+Once the administrator sets up the environment, the developers can access the Kyma environment through the Kyma Dashboard. After logging on, developers can start creating extensions for the SAP systems either from the Kyma Dashboard or from the terminal after downloading the kubeconfig file with the cluster configuration. For details, see [Development in the Kyma Environment](../30-development/development-in-the-kyma-environment-606ec61.md).
 

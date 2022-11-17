@@ -257,7 +257,7 @@ DATA:   lo_create_request  TYPE REF TO /iwbep/if_cp_request_create,
 **Related Information**  
 
 
-
+[OData Request Terms](odata-request-terms-a3b0e95.md "An overview of some OData Request terminology.")
 
 [OData Request: Using Navigation](odata-request-using-navigation-57f2139.md "Create an OData request using a navigation in the Client Proxy instance.")
 

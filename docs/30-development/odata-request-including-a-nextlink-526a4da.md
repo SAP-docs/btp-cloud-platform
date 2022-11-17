@@ -94,7 +94,7 @@ You created a read list request in the Client Prox instance and want to manage p
 **Related Information**  
 
 
-
+[OData Request Terms](odata-request-terms-a3b0e95.md "An overview of some OData Request terminology.")
 
 [OData Request: Read Entity List](odata-request-read-entity-list-b810028.md "Create an OData request to read an entity list (entity collection) in the Client Proxy instance.")
 

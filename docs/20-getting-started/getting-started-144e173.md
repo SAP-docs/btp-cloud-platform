@@ -18,7 +18,7 @@ The guide [Best Practices for SAP BTP](https://help.sap.com/viewer/df50977d8bfa4
 
 ## Getting Started Workflows
 
-Learn how to get a global account and get started with a trial or an enterprise account on SAP BTP. A trial account lets you you try out SAP BTP for free, and within an enterprise account, you can use so-called free tier service plans for free. See [Trial Accounts and Free Tier](../10-concepts/trial-accounts-and-free-tier-046f127.md).
+Learn how to get a global account and get started with a trial or an enterprise account on SAP BTP. A trial account lets you try out SAP BTP for free, and within an enterprise account, you can use so-called free tier service plans for free. See [Trial Accounts and Free Tier](../10-concepts/trial-accounts-and-free-tier-046f127.md).
 
 Depending on your use case, follow the appropriate workflow:
 

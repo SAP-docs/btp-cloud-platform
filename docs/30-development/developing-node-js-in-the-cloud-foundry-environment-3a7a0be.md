@@ -64,7 +64,7 @@ The SAP `nodejs_buildpack` supports the following versions:
 
 ## What's New
 
-To see the latest news and updates about the Node.js System Buildpack, regularly check the release notes on the [What's New portal](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Node.js%2520System%2520Buildpack).
+To see the latest news and updates about the Node.js System Buildpack, regularly check the release notes on the [What's New portal](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&Component=Node.js%20System%20Buildpack).
 
 
 

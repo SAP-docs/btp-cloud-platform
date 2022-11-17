@@ -9,9 +9,9 @@ OData is a standardized protocol built over existing HTTP and REST protocols sup
 **Related Information**  
 
 
-
+[OData Request Terms](odata-request-terms-a3b0e95.md "An overview of some OData Request terminology.")
 
 [OData Services](odata-services-811b523.md "")
 
-
+[OData Request System Query Options](odata-request-system-query-options-a205104.md "Learn how to use OData system query options. System query options include:")
 

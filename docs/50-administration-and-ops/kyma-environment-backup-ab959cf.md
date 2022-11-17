@@ -12,7 +12,7 @@ The user load on a Kyma cluster typically consists of various Kubernetes objects
 
  Kyma environment relies on the managed Kubernetes cluster for periodic backups of Kubernetes objects. Automatic backup doesn't include Kubernetes volumes.
 
-For example, project "Gardener" uses etcd as the Kubernetes' backing store for all cluster data. This means that all Kubernetes objects are stored on etcd. Gardener uses periodic jobs to take major and minor snapshots of the etcd database. A major snapshot \(including all the resources\) takes place every day, and each minor snapshot \(including only the changes in between\) takes place every five minutes. If the etcd database experiences any problems, Gardener automatically restores the Kubernetes cluster using the latest snapshot.
+For example, project "Gardener" uses etcd as the Kubernetes' backing store for all cluster data. This means that all Kubernetes objects are stored on etcd. Gardener uses periodic jobs to take major and minor snapshots of the etcd database. A major snapshot \(including all the resources\) takes place every day, and each minor snapshot \(including only the changes in between\) takes place every 5 minutes. If the etcd database experiences any problems, Gardener automatically restores the Kubernetes cluster using the latest snapshot.
 
 
 
@@ -20,7 +20,7 @@ For example, project "Gardener" uses etcd as the Kubernetes' backing store for a
 
 ## Volume Backup for Customer Data
 
-Your customer data is not backed up automatically. If you are using Kubernetes volumes to store data, we recommend that you use Kubernetes VolumeSnapshots to backup and recover your data. The backup and recovery using Kubernetes VolumeSnapshots are supported for AWS, Azure, and GCP.
+Your customer data isn't backed up automatically. If you're using Kubernetes volumes to store data, we recommend that you use Kubernetes VolumeSnapshots to backup and recover your data. The backup and recovery using Kubernetes VolumeSnapshots are supported for AWS, Azure, and Google Cloud.
 
 **Related Information**  
 

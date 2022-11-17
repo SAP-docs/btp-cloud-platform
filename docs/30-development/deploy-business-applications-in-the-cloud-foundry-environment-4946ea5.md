@@ -14,5 +14,5 @@ When an application for the Cloud Foundry environment resides in a folder on you
 
 [Log On to the Cloud Foundry Environment Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/log-on-to-the-cloud-foundry-environment-using-the-cloud-foundry-command-line-interface-7a37d66.md "Use the Cloud Foundry Command Line Interface (cf CLI) to log on to the Cloud Foundry space.")
 
-[Multitarget Application Commands for the Cloud Foundry Environment](../50-administration-and-ops/multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md "A list of additional commands to install archives and deploy multitarget applications (MTA) to the Cloud Foundry environment.")
+[Multitarget Application Commands for the Cloud Foundry Environment](../50-administration-and-ops/multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md "A list of additional commands to deploy multitarget applications (MTA) to the Cloud Foundry environment.")
 

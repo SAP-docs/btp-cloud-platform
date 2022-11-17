@@ -82,7 +82,7 @@ Let’s take a closer look at how to configure a pipeline template for a product
 
     You will now be guided through a series of steps. Please be aware that fields marked with a red asterisk are mandatory and need to be filled out.
 
-3.  **Prepare Syste:**
+3.  **Prepare System:**
 
     In this section you can configure a job that will build your product.
 
@@ -374,6 +374,8 @@ Let’s take a closer look at how to configure a pipeline template for a product
 
     The ABAP Test Cockpit \(ATC\) can check the software components which will be assembled as part of the product version build. Select whether the ATC stage should be executed and enter the ATC check variant that should be used to check the configured software. Then proceed to the next step.
 
+    Without Run ATC Stage enabled, you risk a defective product version being built.
+
     > ### Note:  
     > Created delivery packages for an add-on product version are final, so to fix any errors in these packages, another add-on product version would have to be built. ATC findings should be resolved during development as early as possible, e.g. [during transport release](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/c0d95a9263da476eb5b6ae03225ce7ba.html?version=Cloud) and by using an additional pipeline configured for the [Continuous Testing on SAP BTP, ABAP Environment scenario.](https://www.project-piper.io/scenarios/abapEnvironmentTest/)
 
@@ -515,7 +517,7 @@ Let’s take a closer look at how to configure a pipeline template for a product
     </td>
     <td valign="top">
 
-     
+    The Run Integration Test Stage prevents from defective add-ons being installed onto the production system.
 
 
     

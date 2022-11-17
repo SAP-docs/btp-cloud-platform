@@ -104,7 +104,7 @@ n/a
 </td>
 <td valign="top">
 
-Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0-9\), periods, underscores, and hyphens.
+Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0–9\), periods, underscores, and hyphens.
 
 It can't contain white spaces.
 
@@ -214,7 +214,7 @@ n/a
 </td>
 <td valign="top">
 
-Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0-9\), periods, underscores, and hyphens.
+Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0–9\), periods, underscores, and hyphens.
 
 It can't contain white spaces.
 
@@ -260,7 +260,7 @@ Look up the technical cluster region names at [Regions for the Kyma Environment]
 
 <a name="loiobefe01d5d8864e59bf847fa5a5f3d669__section_y4g_qld_hpb"/>
 
-## Enterprise \(AWS, GCP, Azure\)
+## Enterprise \(AWS, Google Cloud, Azure\)
 
 **Enterprise Plan Specification**
 
@@ -356,7 +356,7 @@ n/a
 </td>
 <td valign="top">
 
-Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0-9\), periods, underscores, and hyphens.
+Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0–9\), periods, underscores, and hyphens.
 
 It can't contain white spaces.
 
@@ -384,7 +384,7 @@ Defines a region \(set of datacenters\) where your cluster will run.
 <td valign="top">
 
 -   AWS: `eu-central-1`
--   GCP: `europe-west3`
+-   Google Cloud: `europe-west3`
 -   Azure: `eastus`
 
 
@@ -414,7 +414,7 @@ Specifies the provider-specific virtual machine type. For details, see:
 
 -   [AWS docs](https://aws.amazon.com/ec2/instance-types/)
 
--   [GCP docs](https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines)
+-   [Google Cloud docs](https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines)
 -   [Azure docs](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-sizes-specs#dv3-series)
 
 
@@ -423,7 +423,7 @@ Specifies the provider-specific virtual machine type. For details, see:
 <td valign="top">
 
 -   AWS: `m5.xlarge`
--   GCP: `n2-standard-4`
+-   Google Cloud: `n2-standard-4`
 -   Azure: `Standard_D4_v3`
 
 
@@ -604,7 +604,7 @@ n/a
 </td>
 <td valign="top">
 
-Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0-9\), periods, underscores, and hyphens.
+Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0–9\), periods, underscores, and hyphens.
 
 It can't contain white spaces.
 

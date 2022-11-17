@@ -130,6 +130,66 @@ ABAP System
 </td>
 <td valign="top">
 
+Locked Business Users
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_locked\_bus\_usr\_count
+
+
+
+</td>
+<td valign="top">
+
+The number of currently locked business users
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ABAP System
+
+
+
+</td>
+<td valign="top">
+
+Locked Communication Users
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_locked\_com\_usr\_count
+
+
+
+</td>
+<td valign="top">
+
+The number of currently locked communication users
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ABAP System
+
+
+
+</td>
+<td valign="top">
+
 Current Sessions
 
 
@@ -177,6 +237,8 @@ abap\_system\_ksr\_captured\_count\_5m
 The number of ABAP statistics records that were captured by the *Capture Request Statistics* app during the last 5 minutes
 
 In the *Capture Request Statistics* app, you can select the checkbox *Health Monitoring* for any capture profile that you create. The number of records that is shown in SAP Cloud ALM is the total number of captured ABAP statistics records during the last 5 minutes for profiles with the checkbox *Health Monitoring* selected.
+
+For more information about one use case of this metric, see [Monitoring Expensive Outbound Communication](monitoring-expensive-outbound-communication-6869df1.md).
 
 
 
@@ -242,7 +304,7 @@ Expiry of client certificates in days
 
 With this metric, you can monitor whether any client certificates expire that you have uploaded to SAP BTP for the communication with systems or services outside the ABAP system, for example, BTP services. Make sure that your client certificates are valid, so that communication doesn't break off.
 
-If the client certificate expires within 7 days, it's rated as red. If it expires within 30 days, it's rated yellow.
+If the client certificate expires within 7 days, it's marked red. If it expires within 30 days, it's marked yellow.
 
 
 
@@ -275,6 +337,8 @@ abap\_system\_nr\_critical\_interval\_pct
 Fill ratio of number range intervals
 
 Only critical number range intervals are shown. When you create a number range interval, you can define the critical remaining fill ratio when a warning is generated.
+
+If a critical number range was reported and is extended, it's reported once again with its now uncritical, good fill ratio to report the fixed state. After that, this number range is dropped from reported number range intervals because it's not critical anymore.
 
 
 

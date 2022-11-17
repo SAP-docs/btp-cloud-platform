@@ -63,7 +63,7 @@ For Client Proxy known constraints, see SAP Note [2428114 - SAP Gateway Foundati
 **Related Information**  
 
 
-
+[OData Request Terms](odata-request-terms-a3b0e95.md "An overview of some OData Request terminology.")
 
 [OData Services](odata-services-811b523.md "")
 

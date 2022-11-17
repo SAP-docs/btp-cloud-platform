@@ -104,9 +104,9 @@ PUT /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/SetEmployeeSalary?Id='0001'&Amount
 
 For examples and steps for Import and Bound operations, see:
 
--   
+-   [Import Operation](import-operation-8fce3ce.md)
 
--   
+-   [Bound Operation](bound-operation-6c29b98.md)
 
 
 

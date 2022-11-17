@@ -40,7 +40,7 @@ You can view the captured data from all profiles in the technical monitoring coc
     </th>
     <th valign="top">
 
-    What to enter
+    What to Enter
 
 
     

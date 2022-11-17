@@ -2,21 +2,21 @@
 
 # Multitarget Application Commands for the Cloud Foundry Environment
 
-A list of additional commands to install archives and deploy multitarget applications \(MTA\) to the Cloud Foundry environment.
+A list of additional commands to deploy multitarget applications \(MTA\) to the Cloud Foundry environment.
 
 
 
 > ### Note:  
-> The expiration time for all Cloud Foundry operations is 3 days. If an operation is still active when time limit is reached, it is automatically aborted.
+> The expiration time for all MTA operations in Cloud Foundry is 3 days. If an operation is still active when time limit is reached, it is automatically aborted.
 
 > ### Caution:  
-> Due to the missing shared domains in certain regions, as Alibaba Cloud, the URL of the SAP Cloud Deployment service should be specified by each multitarget application developer. You can do this by using the environment variable `MULTIAPPS_CONTROLLER_URL`, or the `-u` option specified in the commands listed below.
+> Due to the missing shared domains in certain regions, as China \(Shanghai\), the URL of the SAP Cloud Deployment service should be specified by each multitarget application developer who uses MultiApps CF CLI plugin older that 3.0.0. If you are using MultiApps CF CLI plugin newer than 3.0.0, you don't need additional settings. You can do this by using the environment variable `MULTIAPPS_CONTROLLER_URL`, or the `-u` option specified in the commands listed below.
 > 
-> The URL of the deploy-service that needs to be set is in the following format: `deploy-service.cfapps.<landscape-domain>`
+> The URL of the deploy-service that needs to be set is in the following format: `deploy-service.cf.<domain>` The domain is derived from the Cloud Foundry API endpoint that you can find in the SAP BTP Cockpit in the Overview of your subaccount. For more information, see Deploying Applications in[Regions](../10-concepts/regions-350356d.md) and [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md).
 > 
 > If you are using the `-u` option, make sure you have the MultiApps CLI Plugin version 2.1.3 or higher
 > 
-> If you are using region CN40 with API Endpoint api.cf.cn40.platform.sapcloud.cn, you need to specify the URL as follows: `export MULTIAPPS_CONTROLLER_URL=deploy-service.cfapps.cn40.platform.sapcloud.cn`
+> If you are using region CN40 with API Endpoint api.cf.cn40.platform.sapcloud.cn, you need to specify the URL as follows: `export MULTIAPPS_CONTROLLER_URL=deploy-service.cf.cn40.platform.sapcloud.cn`
 
 **Commands for the Cloud Foundry Environment Overview**
 

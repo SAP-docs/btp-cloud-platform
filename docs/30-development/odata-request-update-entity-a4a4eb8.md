@@ -306,5 +306,5 @@ DATA:	 lo_update_response TYPE REF TO /iwbep/if_cp_response_update,
 **Related Information**  
 
 
-
+[OData Request Terms](odata-request-terms-a3b0e95.md "An overview of some OData Request terminology.")
 
