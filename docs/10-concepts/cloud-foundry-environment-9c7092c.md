@@ -66,6 +66,7 @@ Unsupported Features
 -   Route Services \(only user-provided and fully-brokered services\). See [https://docs.cloudfoundry.org/services/route-services.html](https://docs.cloudfoundry.org/services/route-services.html).
 -   Sharing Service Instances \(not all services support instance sharing\). See [https://docs.cloudfoundry.org/devguide/services/sharing-instances.html](https://docs.cloudfoundry.org/devguide/services/sharing-instances.html).
 -   HTTP/2. See [https://docs.cloudfoundry.org/adminguide/supporting-http2.html\#application](https://docs.cloudfoundry.org/adminguide/supporting-http2.html#application).
+-   Streaming Logs to Log Management Services. See [https://docs.cloudfoundry.org/devguide/services/log-management.html](https://docs.cloudfoundry.org/devguide/services/log-management.html).
 
 
 
@@ -77,7 +78,6 @@ Unsupported Features
 -   Isolation Segments. See [https://docs.cloudfoundry.org/adminguide/isolation-segments.html](https://docs.cloudfoundry.org/adminguide/isolation-segments.html).
 -   TCP Routing. See [https://docs.cloudfoundry.org/adminguide/enabling-tcp-routing.html](https://docs.cloudfoundry.org/adminguide/enabling-tcp-routing.html).
 -   Secure Service Credential Delivery \(with Credhub\). See [https://docs.cloudfoundry.org/credhub/index.html](https://docs.cloudfoundry.org/credhub/index.html) or [https://github.com/cloudfoundry/credhub/blob/main/docs/secure-service-credentials.md](https://github.com/cloudfoundry/credhub/blob/main/docs/secure-service-credentials.md)
-
 
 
 
@@ -104,6 +104,8 @@ The following technical configurations are specific to SAP BTP and differ from t
 -   In addition to the general rate limit on the Cloud Foundry API, requests for certain API endpoints related to services face a separate limit on concurrent requests. The Cloud Foundry API responds with HTTP status code `429` if a rate limit is reached and provides a Retry-After header suggesting when the client can attempt a retry. For more information, see [https://docs.cloudfoundry.org/running/rate-limit-cloud-controller-api.html\#Rate%20Limit%20Responses:%20Service%20Brokers](https://docs.cloudfoundry.org/running/rate-limit-cloud-controller-api.html#Rate%20Limit%20Responses:%20Service%20Brokers).
 
 -   In the Cloud Foundry environment, there’s a logging rate limit to guard against malicious applications. The limit is in the range of up to a few thousand logs per second per application instance. If this limit is exceeded, additional logs from the application instance are dropped and a warning message is injected into the application instance’s log stream every second. This message also contains the exact log rate limit.
+  
+-   Applications requiring sent envelopes to be delivered to external Log Management Services should use the CloudFoundry syslog drain capability.
 
 -   In the Cloud Foundry environment, applications get a guaranteed CPU share of ¼ core per GB instance memory. As the maximum instance memory per application is 8 GB, this allows for vertical scaling up to 2 CPUs.
 
