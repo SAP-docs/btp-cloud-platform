@@ -34,7 +34,7 @@ If you're a new user, you can use the self-service registration option at the [S
 
 ## SAP Universal ID
 
-SAP Universal ID manages the users of official SAP sites, including the SAP developer and partner community. If you already have such a user, then you're already registered with SAP ID service as well. SAP ID service acts as a proxy for SAP Universal ID, when users log on with their e-mail addresses. Users can log on with and manage all their SAP accounts with SAP Universal ID.
+SAP Universal ID manages the users of official SAP sites, including the SAP developer and partner community. If you already have such a user, then you're already registered with SAP ID service as well. SAP ID service acts as a proxy for SAP Universal ID, when users log on with their e-mail addresses. Users can log on with and manage all their user accounts with SAP Universal ID.
 
 The following figure illustrates how default and custom identity providers can federate other identity providers.
 
@@ -64,9 +64,18 @@ For more information, see [Add Users from SAP ID Service for Multi-Environment S
 
 ## Multifactor Authentication
 
-As a self-service, users can enable multifactor authentication for SAP ID service.
+For SAP ID service, you can ask users hosted by this identity provider to enable multifactor authentication as a self-service. There's **no** mechanism to enforce users in SAP ID service to use this function.
 
-For more information, see [How to Enable Multi-Factor Authentication \(MFA\)](https://support.sap.com/en/my-support/mfa.html) on the *SAP Support Portal*.
+> ### Recommendation:  
+> To enforce multifactor authentication, we recommend that you trust SAP Cloud Identity Services - Identity Authentication and configure enforcement. Optionally, integrate Identity Authentication with your corporate identity provider and enforce the policy there.
+> 
+> For more information, see:
+> 
+> -    [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md)
+> 
+> -   [Establish Trust and Federation Between UAA and Identity Authentication](establish-trust-and-federation-between-uaa-and-identity-authentication-161f8f0.md)
+
+For more information about your users of SAP ID service can enable multifactor authentication themselves, see [How to Enable Multi-Factor Authentication \(MFA\)](https://support.sap.com/en/my-support/mfa.html) on the *SAP Support Portal*.
 
 > ### Note:  
 > Some user interfaces don't offer an interactive way to support multifactor authentication, such as time-based one time passwords \(TOTP\). Instead, such tools offer fixed logon ID and password fields. For such tools, enter your password directly followed, without any spaces or dividers, by the TOTP offered by your multifactor device.
@@ -112,7 +121,7 @@ In cloud management tools feature set B, you can hide the default trust.
 
 For more information, see [Hide Logon Link for Default Identity Provider](hide-logon-link-for-default-identity-provider-9e3d457.md).
 
-To use a custom identity provider, establish trust to your custom identity provider. We describe a custom trust configuration using the example of SAP Cloud Identity Services - Identity Authentication.
+To use a custom identity provider, establish trust to your custom identity provider. We describe a custom trust configuration using the example of Identity Authentication.
 
 For more information, see [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md).
 

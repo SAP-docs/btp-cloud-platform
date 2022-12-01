@@ -31,3 +31,5 @@ You can initiate a restore via a service request by using component `BC-CP-ABA`.
 
 [SAP HANA Cloud Administration with SAP HANA Cloud Central - Backup and Recovery](https://help.sap.com/viewer/9ae9104a46f74a6583ce5182e7fb20cb/hanacloud/en-US/89d71f01daca4ecaaa069d6a060167f5.html)
 
+[Backups](backups-ab4f108.md "The ABAP environment relies on backups from SAP HANA Cloud:")
+

@@ -11,7 +11,7 @@ Use SAP BTP to extend SAP SuccessFactors with extension applications running on 
 ## Overview
 
 > ### Note:  
-> EU Access is not available for the SAP SuccessFactors Extensibility service, and the integration is not supported for SAP SuccessFactors systems that require EU Access.
+> EU Access is not available for the SAP SuccessFactors Extensibility service. Although you can create an integration for SAP SuccessFactors systems, this integration will not be limited to EU Access only.
 
 SAP BTP offers a standard way for extending SAP solutions.
 
@@ -64,7 +64,12 @@ During the pairing process you create a registration token which is then used by
 </td>
 <td valign="top">
 
- [Register an SAP SuccessFactors System in a Global Account in SAP BTP](register-an-sap-successfactors-system-in-a-global-account-in-sap-btp-e956ba2.md).
+[Register an SAP SuccessFactors System in a Global Account in SAP BTP](register-an-sap-successfactors-system-in-a-global-account-in-sap-btp-e956ba2.md).
+
+> ### Note:  
+> You cannot migrate the registered SAP SuccessFactors systems between global accounts.
+> 
+> If you want to start using another global account, you will have to register your SAP SuccessFactors systems again.
 
 
 

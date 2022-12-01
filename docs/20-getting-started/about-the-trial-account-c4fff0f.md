@@ -25,7 +25,7 @@ The trial account gives you the option to explore and use the basic functionalit
 -   You can manage members in your trial account.
 -   Kyma trial accounts are available in all SAP BTP regions.
 -   A trial account provides you with a 1-node cluster with 4 vCPU and 16 GB of memory. An idle cluster without any customer workload uses around 33% of vCPU and 33% of memory.
--   A trial account comes with a cluster with built-in logging and eventing.
+-   A trial account comes with a cluster with built-in eventing.
 -   Events are processed in-memory and are not persisted to disk. Not delivered events will be lost on restart of the eventing infrastructure.
 -   There’s no service level agreement with regards to the availability of the platform.
 

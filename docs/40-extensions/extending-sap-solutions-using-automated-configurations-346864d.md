@@ -49,6 +49,11 @@ To enable the integration, you need to:
 
     During the pairing process you create an integration token which is then used by the SAP system administrator to configure the integration on the SAP system side. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
 
+    > ### Note:  
+    > You cannot migrate the registered SAP systems between global accounts.
+    > 
+    > If you want to start using another global account, you will have to register your SAP systems again.
+
 2.  Optional: Group SAP systems so that they can be extended in a business scenario at one go.
 
     To do so, you create a formation containing one or more different systems assigned to a common subaccount. See [Including SAP Systems in a Formation](including-sap-systems-in-a-formation-68b04fa.md).

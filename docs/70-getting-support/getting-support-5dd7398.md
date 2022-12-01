@@ -171,8 +171,8 @@ You can see recommended knowledge resources for the selected product area on the
     Enter the steps to reproduce the issue.
 
     -   For the Cloud Foundry environment, provide:
-        -   Region and global account name. In the cockpit, open the affected subaccount, and copy the URL.
-        -   Java application name and URL \(if the problem is related to Java applications\). In the cockpit, open the respective Java application’s Overview page.
+        -   Region and global account name. In the cockpit, open the affected subaccount, and copy the URL. See [Account Administration in the Cockpit](../50-administration-and-ops/account-administration-in-the-cockpit-8061ecc.md).
+        -   Java application name and URL \(if the problem is related to Java applications\). In the cockpit, open the respective Java application’s Overview page. See [Account Administration in the Cockpit](../50-administration-and-ops/account-administration-in-the-cockpit-8061ecc.md).
         -   Database-related details based on your environment and infrastructure provider \(if the problem is related to SAP HANA\). See [Providing Details for SAP HANA Service Database Problems](providing-details-for-sap-hana-service-database-problems-75cde53.md).
 
 

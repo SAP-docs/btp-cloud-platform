@@ -28,6 +28,11 @@ The registration process is based on a registration token that is used for the p
 > 
 > This means that you cannot have more than 1000 systems in the *Systems* list of type SAP S/4HANA Cloud with an empty status and generated token that is not used yet.
 
+> ### Note:  
+> You cannot migrate the registered SAP S/4HANA Cloud systems between global accounts.
+> 
+> If you want to start using another global account, you will have to register your SAP S/4HANA Cloud systems again.
+
 The registration process has the following states displayed in the cockpit:
 
 -   No status displayed in the *Status* column - the registration token for an SAP system has been created but the registration on the respective SAP solution system side has not been performed or completed.
@@ -50,10 +55,10 @@ The registration process has the following states displayed in the cockpit:
 -   *Error while Deregistering* - the deregistration has failed. If the problem persists, you have to report an incident.
 -   *Removing* - a system removal process has started in the SAP BTP cockpit. As a result, the link between the SAP solution and SAP BTP is destroyed and the system is removed from the list. To register the system again, first you must add it to the list anew, and then initiate the registration procedure.
 
-    Once a system is registered, you can only remove it if you first deregister it. You cannot remove a system
+    Once a system is registered, you can only remove it if you first deregister it.
 
     > ### Note:  
-    > You will not be able to remove a system if its status I one of the following:
+    > You will not be able to remove a system if its status is one of the following:
     > 
     > -   *Registered*
     > 

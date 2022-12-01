@@ -55,14 +55,13 @@ The API raises the exception `cx_ws_protocol_error`, for example, if the code sn
 
 The following example shows how to adjust the SOAP request header followed by the Web service call.
 
+> ### Note:  
+> First, you must get a SOAP destination object according to your SAP product as described in [Enable SOAP Communication in Your ABAP Code](enable-soap-communication-in-your-abap-code-6ab460e.md).
+
 > ### Sample Code:  
 > ```abap
+> "get destination object
 > TRY.
->     " Create a consumer proxy.
->     DATA(soap_destination) = cl_soap_destination_provider=>create_by_comm_arrangement(
->                              comm_scenario  = '<test scenario>'
->                              service_id     = '<service id>'
->                              comm_system    = '<comm system>' ).
 >     DATA(proxy) = NEW example_consumer( destination = soap_destination ).
 >      
 >     DATA xml_element TYPE string VALUE
@@ -90,8 +89,6 @@ The following example shows how to adjust the SOAP request header followed by th
 >      output = DATA(response) ).
 >  
 >   CATCH cx_ai_system_fault.
->   " Handle error.
->   CATCH cx_soap_destination_error.
 >   " Handle error.
 >  
 > ENDTRY.

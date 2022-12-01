@@ -45,7 +45,7 @@ The SAP BTP, Cloud Foundry environment provides one recent version of the Node.j
 cf buildpacks
 ```
 
-To learn about changes in Node.js versions and features, reguraly check the latest [buildpack releases](https://github.com/cloudfoundry/nodejs-buildpack/releases) in the GitHub communiy page.
+To learn about changes in Node.js versions and features, regularly check the latest [buildpack releases](https://github.com/cloudfoundry/nodejs-buildpack/releases) in the GitHub community page.
 
 
 

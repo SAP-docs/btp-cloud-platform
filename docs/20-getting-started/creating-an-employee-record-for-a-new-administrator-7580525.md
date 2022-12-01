@@ -16,7 +16,7 @@ You have logged on to the administration launchpad of the ABAP environment as ad
 
 ## Procedure
 
-1.  On SAP Fiori launchpad, choose the *Maintain Employees* tile.
+1.  From the SAP Fiori launchpad, open the *Maintain Employees* app.
 
 2.  Choose *Create*.
 

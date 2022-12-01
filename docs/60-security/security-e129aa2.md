@@ -6,6 +6,20 @@ Use the security features and functions of SAP BTP to support the security polic
 
 
 
+<a name="loioe129aa20c78c4a9fb379b9803b02e5f6__section_hv2_mkx_nvb"/>
+
+## Security Recommendations
+
+We provide a list with our recommendations for the configuration of our services. These recommendations help you to meet your compliance goals and secure your business.
+
+See [SAP BTP Security Recommendations](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?version=Cloud).
+
+Our customer success organization, uses these recommendations as a base to create a security baseline template.
+
+For more information, go to [https://support.sap.com/sos](https://support.sap.com/sos) and choose *Media Library* \> *SAP CoE Security Services - Security Baseline Template*.
+
+
+
 <a name="loioe129aa20c78c4a9fb379b9803b02e5f6__section_svv_c1s_tlb"/>
 
 ## User Model

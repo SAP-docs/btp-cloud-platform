@@ -2,7 +2,7 @@
 
 # Modeling a Protection Against Unauthorized Write Activities
 
-To protect your service from activities such as create, update or delete by unauthorized business users, you can use the authorization controls that are available for services based on managed business objects.
+To protect your service from activities such as create, update or delete by unauthorized users, you can use the authorization controls that are available for services based on managed business objects.
 
 
 
@@ -20,11 +20,15 @@ In the example used here, the service is based on a managed business object *Bon
 
 2.  In the behavior definition, define authorization controls for your service.
 
-    In the bonus calculation example, they can look as follows:
+    In the bonus calculation example, they can be as follows:
 
     > ### Sample Code:  
     > ```abap
     > managed;
+    > define own authorization context
+    > {
+    >   'ZBNSCLC_AO';
+    > }
     > 
     > define behavior for z_i_bonus_calculation alias calculation
     > implementation in class zbp_bonus_calculation unique
@@ -33,11 +37,15 @@ In the example used here, the service is based on a managed business object *Bon
     > 
     > // Identity and Access Management:
     > // Enable RAP managed authorization check at create, update, and delete
-    > // -> requires implementation of a method with addition "FOR GLOBAL AUTHORIZATION"
-    > authorization master ( global )
+    > // -> requires implementation of two methods, one with the addition "FOR INSTANCE AUTHORIZATION"
+    > //  and one with the addition "FOR GLOBAL AUTHORIZATION"
+    > 
+    > authorization master ( instance, global )
     > 
     > ```
 
     With the line `authorization master ( global )`, an authorization check for the standard operations create, update, and delete is defined, which you must implement using a method with addition `FOR GLOBAL AUTHORIZATION` in the behavior implementation.
+
+    The sample code also contains the definition of your own authorization context. The own authorization context documents all authorization objects that are used by the business object implementation. In the bonus calculation example used in this documentation, this is the authorization object `ZBNSCLC_AO` because it's checked in the authorization control.
 
 

@@ -32,7 +32,7 @@ Identity Authentication is closely integrated with SAP BTP, and it is offered as
 
 5.  Choose *New Trust Configuration* and fill in the required fields:
 
-    1.  In the *Metadata* field, upload the metadata file you have dowloaded from the Identity Authentication tenant in **step 2**. All the required fields are automatically filled in.
+    1.  In the *Metadata* field, upload the metadata file you have downloaded from the Identity Authentication tenant in **step 2**. All the required fields are automatically filled in.
 
     2.  In the *Name* field, enter a meaningful name of your choice.
 
@@ -75,14 +75,6 @@ Identity Authentication is closely integrated with SAP BTP, and it is offered as
     4.  Save the configuration settings.
 
 
-
-
-
-<a name="loio9dba751c208f4435a711c26b20945980__result_qz1_g2x_k2b"/>
-
-## Results
-
-The trust will be established automatically upon registration on both the SAP BTP and Identity Authentication tenant side.
 
 **Related Information**  
 

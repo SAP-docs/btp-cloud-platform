@@ -51,7 +51,7 @@ Our troubleshooting information can be found in our Guided Answers [Troubleshoot
 
 -   [User base doesn't appear in existing Neo subaccounts](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:53495)
 
--   [User from corporate IdP can't log on to Neo subaccount](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:53598)
+-   User from corporate IdP can't log on to Neo subaccount
 
 
 **Related Information**  

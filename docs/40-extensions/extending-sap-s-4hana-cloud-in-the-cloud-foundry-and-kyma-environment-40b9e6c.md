@@ -64,7 +64,12 @@ During the pairing process you create an registration token which is then used b
 </td>
 <td valign="top">
 
- [Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](register-an-sap-s-4hana-cloud-system-in-a-global-account-in-sap-btp-28171b6.md) 
+[Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](register-an-sap-s-4hana-cloud-system-in-a-global-account-in-sap-btp-28171b6.md)
+
+> ### Note:  
+> You cannot migrate the registered SAP S/4HANA Cloud systems between global accounts.
+> 
+> If you want to start using another global account, you will have to register your SAP S/4HANA Cloud systems again.
 
 
 

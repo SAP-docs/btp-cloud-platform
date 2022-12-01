@@ -52,7 +52,7 @@ The registration process has the following states displayed in the cockpit:
 -   *Error while Deregistering* - the deregistration has failed. If the problem persists, you have to report an incident.
 -   *Removing* - a system removal process has started in the SAP BTP cockpit. As a result, the link between the SAP solution and SAP BTP is destroyed and the system is removed from the list. To register the system again, first you must add it to the list anew, and then initiate the registration procedure.
 
-    Once a system is registered, you can only remove it if you first deregister it. You cannot remove a system
+    Once a system is registered, you can only remove it if you first deregister it.
 
     > ### Note:  
     > You will not be able to remove a system if its status I one of the following:
@@ -73,6 +73,11 @@ The registration process has the following states displayed in the cockpit:
 
 > ### Note:  
 > When registering a system or creating a formation, the data you provide in the given input fields is not encrypted with your customer managed key. The data you enter is only encrypted at rest.
+
+> ### Note:  
+> You cannot migrate the registered SAP Marketing Cloud systems between global accounts.
+> 
+> If you want to start using another global account, you will have to register your SAP Marketing Cloud systems again.
 
 
 

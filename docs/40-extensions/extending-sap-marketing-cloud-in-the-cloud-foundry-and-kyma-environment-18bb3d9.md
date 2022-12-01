@@ -62,7 +62,12 @@ During the pairing process you create an registration token which is then used b
 </td>
 <td valign="top">
 
- [Register an SAP Marketing Cloud System in a Global Account in SAP BTP](register-an-sap-marketing-cloud-system-in-a-global-account-in-sap-btp-e9d975a.md) 
+[Register an SAP Marketing Cloud System in a Global Account in SAP BTP](register-an-sap-marketing-cloud-system-in-a-global-account-in-sap-btp-e9d975a.md)
+
+> ### Note:  
+> You cannot migrate the registered SAP Marketing Cloud systems between global accounts.
+> 
+> If you want to start using another global account, you will have to register your SAP Marketing Cloud systems again.
 
 
 

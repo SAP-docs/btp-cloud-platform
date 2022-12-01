@@ -6,63 +6,6 @@ The REST services of the SAP Authorization and Trust Management service \(XSUAA\
 
 To access the API, you need an OAuth 2.0 client. For more information about how to enable the ***apiaccess*** plan, see the related links.
 
-> ### Restriction:  
-> When using the APIs, also consider the following restrictions:
-> 
-> **Sizing Restrictions**
-> 
-> 
-> <table>
-> <tr>
-> <th valign="top">
-> 
-> Element
-> 
-> 
-> 
-> </th>
-> <th valign="top">
-> 
-> Maximum Size
-> 
-> 
-> 
-> </th>
-> </tr>
-> <tr>
-> <td valign="top">
-> 
-> HTTP header
-> 
-> 
-> 
-> </td>
-> <td valign="top">
-> 
-> 16 KB
-> 
-> 
-> 
-> </td>
-> </tr>
-> <tr>
-> <td valign="top">
-> 
-> POST body
-> 
-> 
-> 
-> </td>
-> <td valign="top">
-> 
-> 1 MB
-> 
-> 
-> 
-> </td>
-> </tr>
-> </table>
-
 The following table provides an overview of the APIs. For more information about the APIs and their API endpoints, see *SAP API Business Hub* in the related links.
 
 > ### Note:  

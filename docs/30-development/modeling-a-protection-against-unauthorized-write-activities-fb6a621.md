@@ -27,6 +27,10 @@ In the example used here, the service is based on a managed business object *Bon
     > ### Sample Code:  
     > ```abap
     > managed;
+    > define own authorization context
+    > {
+    >   'ZBNSCLC_AO';
+    > }
     > 
     > define behavior for z_i_bonus_calculation alias calculation
     > implementation in class zbp_bonus_calculation unique
@@ -37,10 +41,13 @@ In the example used here, the service is based on a managed business object *Bon
     > // Enable RAP managed authorization check at create, update, and delete
     > // -> requires implementation of two methods, one with the addition "FOR INSTANCE AUTHORIZATION"
     > //  and one with the addition "FOR GLOBAL AUTHORIZATION"
+    > 
     > authorization master ( instance, global )
     > 
     > ```
 
     With the line `authorization master ( instance, global )`, an authorization check for the standard operations create, update, and delete is defined, which you must implement using methods with addition `FOR GLOBAL AUTHORIZATION` \(for create\) and `FOR INSTANCE AUTHORIZATION` \(for update, delete\) in the behavior implementation.
+
+    The sample code also contains the definition of your own authorization context. The own authorization context documents all authorization objects that are used by the business object implementation. In the bonus calculation example used in this documentation, this is the authorization object `ZBNSCLC_AO` because it's checked in the RAP authorization control and the CDS access control.
 
 

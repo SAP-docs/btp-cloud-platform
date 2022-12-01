@@ -6,25 +6,5 @@ The Kyma environment-specific security aspects include guidelines on personal da
 
 
 
-<a name="loioee08fdfc9af8483b924e9ea9827f3ded__section_oyv_ffj_hlb"/>
-
-## Operational Logs
-
-Operational logs are not relevant for audit. These are typically system-related activities and operations you can analyze to get more information about performance or inspect potential problems.
-
-
-
-<a name="loioee08fdfc9af8483b924e9ea9827f3ded__section_nm4_lzh_hlb"/>
-
-## Audit Logs
-
-Audit logs are records that provide evidence of events, actions, or operations. The audit log records the following data:
-
--   Security and system events that include administrative activities, potential threats, and evidence in the case of a breach.
--   Changes introduced to the system, applications, and components.
-
-> ### Note:  
-> Information recorded by audit logs may include personal data, such as user IDs, or confidential data, such as logins or email addresses. For details on how to handle such sensitive data, see [Data Protection and Privacy in the Kyma Environment](data-protection-and-privacy-in-the-kyma-environment-935e241.md).
-
 For general information on data protection and privacy, see [Data Protection and Privacy](data-protection-and-privacy-7e513d3.md).
 

@@ -244,7 +244,7 @@ Jaeger tracing
 <tr>
 <td valign="top">
 
-Logging
+Logging <sup>[1](kyma-environment-468c2f3.md#loio4b83be95f7db4fddba5c46d388ebf39a__ol_tcn_pdp_pvb)</sup>
 
 
 
@@ -266,6 +266,8 @@ limited
 <td valign="top">
 
 No customization in SAP BTP, Kyma runtime
+
+In the future, this functionality will be removed from both, OS and SKR.
 
 
 
@@ -422,6 +424,9 @@ In-cluster system landscape management \(Application Connector\)
 </td>
 </tr>
 </table>
+
+> ### Note:  
+> 1.  The Logging capability based on Loki, which allows you to query application logs using Grafana, got deprecated. See the [Kyma 2.9 What's New notes](https://help.sap.com/whats-new/f0d108472a9347d99053658d05ae23e2?Environment=Kyma&Valid_as_Of=2022-12-01%3A2022-12-01&locale=en-US&state=DRAFT&Action=Recommended) for more information.
 
  <a name="loio4a0dd09368ce40bfa3c99cae46de49e1"/>
 

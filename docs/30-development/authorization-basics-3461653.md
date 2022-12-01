@@ -146,6 +146,34 @@ If the business role doesn’t give write access, the *Create* activity, for exa
 
 
 
+<a name="loio3461653ff5cc4cb1b13e578cadc412bb__section_mx1_25d_lvb"/>
+
+## Authorization Context
+
+A CDS behavior definition can define authorization contexts that list multiple authorization objects that are used for the ABAP statement `AUTHORITY-CHECK OBJECT`.
+
+The authorization contexts can be defined as follows:
+
+-   An authorization context with a specific name: Such an authorization context is defined using using the statement `define authorization context`. When an authorization context is activated, the authorization checks for all listed authorization objects always return the value `authorized`. This means that the relevant authorization checks are skipped. Such an authorization context can be useful, for example, to enable privileged mode for a business object \(see \).
+-   Own authorization context: Such an authorization context is defined using the statement `define own authorization context`. The authorization context lists the authorization objects that are checked by the implementation methods of the ABAP behavior pool of the business object.
+
+> ### Recommendation:  
+> We recommend that you define the own authorization context for all your custom business objects to document which authorization objects are checked in the logic of each business object.
+
+For more information, see the ABAP keyword documentation that you can find in the ABAP Development Tools.
+
+
+
+<a name="loio3461653ff5cc4cb1b13e578cadc412bb__section_rqt_mwd_lvb"/>
+
+## Privileged Mode
+
+With privileged mode in the behavior definition, RAP business object consumers can circumvent authorization checks, such as RAP authorization control or CDS access control. After enabling privileged mode, privileged read and write access to the business object is possible.
+
+For more information, see the ABAP keyword documentation that you can find in the ABAP Development Tools.
+
+
+
 <a name="loio3461653ff5cc4cb1b13e578cadc412bb__section_q22_gm5_mpb"/>
 
 ## Communication Scenario

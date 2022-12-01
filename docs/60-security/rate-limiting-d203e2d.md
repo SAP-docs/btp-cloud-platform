@@ -18,6 +18,63 @@ To protect the SAP Authorization and Trust Management service from overload of m
 > ### Note:  
 > Since rate limiting is per subaccount, SaaS applications probably don't notice rate limiting because the load is distributed across different SaaS subaccounts.
 
+> ### Restriction:  
+> The following table lists sizing restrictions when using APIs.
+> 
+> **Sizing Restrictions**
+> 
+> 
+> <table>
+> <tr>
+> <th valign="top">
+> 
+> Element
+> 
+> 
+> 
+> </th>
+> <th valign="top">
+> 
+> Maximum Size
+> 
+> 
+> 
+> </th>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+> HTTP header
+> 
+> 
+> 
+> </td>
+> <td valign="top">
+> 
+> 16 KB
+> 
+> 
+> 
+> </td>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+> POST body
+> 
+> 
+> 
+> </td>
+> <td valign="top">
+> 
+> 1 MB
+> 
+> 
+> 
+> </td>
+> </tr>
+> </table>
+
 
 
 <a name="loiod203e2d41df1455d8fdc2334844a60d4__section_dhs_hgl_15b"/>

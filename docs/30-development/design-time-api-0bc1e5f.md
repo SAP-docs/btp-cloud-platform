@@ -4,6 +4,8 @@
 
 You can use the *Application Log Design Time API* if you want to create, change, or delete an application log object or subobject during the development process of an application.
 
+For information on how to create an application log object in ADT, see [Working with Application Log Objects](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/081904c149e5471089bcfc6030b0e819.html).
+
 The *Application Log Design Time API* provides the following design time operations:
 
 -   Create a new application log object, optionally with subobjects
