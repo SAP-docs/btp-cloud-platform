@@ -51,7 +51,7 @@ To execute the procedure, you need to have the `Space Developer` role for the co
         }
         ```
 
-    -   For non-mTLS authetnication, use
+    -   For non-mTLS authentication, use
 
 
     `cf create-service auditlog-management default <SERVICE_INSTANCE>`
