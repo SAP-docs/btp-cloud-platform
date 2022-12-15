@@ -40,6 +40,8 @@ Select the text sources that you want to have translated.
 
     -   IAM Business Catalogs
 
+    -   CDS Type Definitions
+
 
     It’s also possible to specify a package from which all supported translatable elements will be pulled into the translation project. Please note that translatable elements in sub packages are not included.
 

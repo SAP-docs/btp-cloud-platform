@@ -377,7 +377,7 @@ Enables the application router to start as an HTTP/2 server.
 </td>
 <td valign="top">
 
-Enables the application router to send the entire chain of certificates provided in the binding of the authentication service \(XSUAA or IAS\) to the backend applications. The certificates are required for mutual TLS authentication \(mTLS handshake\). See .
+Enables the application router to send the entire chain of certificates provided in the binding of the authentication service \(XSUAA or IAS\) to the backend applications. The certificates are required for mutual TLS authentication \(mTLS handshake\). See [Mutual TLS Authentication \(mTLS\) and Certificates Handling](mutual-tls-authentication-mtls-and-certificates-handling-46b8b85.md).
 
 
 

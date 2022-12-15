@@ -6,7 +6,7 @@ An application log contains header information and attributes to identify the lo
 
 -   Log Object \(required\): Identifies the application to which the log belongs.
 
--   Log Subobject: An application can define subcategories of its log object. These subcategories are called subobjects and must be set if the application defined them.
+-   Log Subobject: An application can define subcategories of its log object. These subcategories are called subobjects and must be set if the application defined them. If no subobjects were defined for the log object, the field should remain empty.
 
 -   External Identifier: We recommend to enter your preferred identifier containing, for example, the application document number.
 

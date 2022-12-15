@@ -12,8 +12,6 @@ Log in with the btp CLI is on global account level.
 
 -   Your global account must be on feature set B. See [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
 
--   You have to enter the subdomain of your global account. You can find it in the cockpit in the global account view or under *Switch Global Account*.
-
 -   You have to enter the correct CLI server URL. Usually, it is proposed during login and you can confirm with [ENTER\]: `https://cpcli.cf.eu10.hana.ondemand.com`. If your operator has provided you with a different server URL, you'll have to enter that one.
 
 -   Your user is assigned to the `Global Account Viewer` or the `Global Account Administrator` role collection. See [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md).
@@ -68,6 +66,29 @@ Usage: `btp [OPTIONS] login [PARAMS]`
 <tr>
 <td valign="top">
 
+`--sso`
+
+
+
+</td>
+<td valign="top">
+
+Opens a browser for single sign-on at the identity provider. The btp CLI doesn't prompt for this parameter.
+
+To suppress automatic browser opening, use `--sso manual`. To use a custom identity provider, you need to add the `--idp` parameter.
+
+> ### Note:  
+> To log on with SAP Universal ID, you need to use this parameter. Otherwise log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
+> 
+> For more information, see SAP Note [3085908](https://launchpad.support.sap.com/#/notes/3085908) and [Log in with Single Sign-On](log-in-with-single-sign-on-b2a56a8.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `--idp` *<TENANT\>*
 
 
@@ -75,7 +96,7 @@ Usage: `btp [OPTIONS] login [PARAMS]`
 </td>
 <td valign="top">
 
-This parameter is only needed to work with a custom identity provider.
+This parameter is only needed to work with a custom identity provider. The CLI doesn't prompt for it.
 
 If trust is configured between your global account and a custom identity provider, use this parameter to log in through this identity provider by providing its tenant ID. You find the correct value in the cockpit under *Security* → *Trust Configuration* → *Custom Platform Identity Providers* 
 
@@ -98,31 +119,10 @@ For more information about using a custom identity provider, see [Establish Trus
 </td>
 <td valign="top">
 
-The client proposes this URL: `https://cpcli.cf.eu10.hana.ondemand.com`, which you can confirm by pressing [ENTER\]. If your operator has provided you with a different server URL, you can specify it here. Note that when you enter a new server URL for the first time, you’re asked to confirm that you trust it.
+The client proposes this CLI server URL: `https://cpcli.cf.eu10.hana.ondemand.com`, which you can confirm by pressing [ENTER\]. If your operator has provided you with a different server URL, you can specify it here. Note that when you enter a new server URL for the first time, you’re asked to confirm that you trust it.
 
 > ### Note:  
 > There is just one central CLI server, independent of the regions of your subaccounts. Unless you're in a private cloud and have received a CLI server URL from your operator, you should not change the proposed URL.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`--subdomain` *<GLOBALACCOUNT\>*
-
-
-
-</td>
-<td valign="top">
-
-The subdomain of the global account you want to log in to. You should have obtained the subdomain from your operator; but you can also find it in the cockpit in the global account view or under *Switch Global Account* dialog.
-
- ![](images/cli_subdomain_dc4961c.png) 
-
-> ### Note:  
-> If you don't find the subdomain of the global account in your cockpit, your global accoiunt is probably not on SAP BTP feature set B, which means you cannot access it with the btp CLI. See [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
 
 
 
@@ -154,7 +154,7 @@ Your user name, usually an email address.
 </td>
 <td valign="top">
 
-Your password. Note that if two-factor authentication is enabled, concatenate your password, followed by the passcode, in a single string.
+Your password. If you have enabled 2-Factor-Authentication, append your token to your password.
 
 > ### Tip:  
 > We don’t recommend to provide the password with this parameter, as it appears in plain text and may be recorded in your shell history. Rather, enter it when you’re prompted.
@@ -166,19 +166,21 @@ Your password. Note that if two-factor authentication is enabled, concatenate yo
 <tr>
 <td valign="top">
 
-`--sso`
+`--subdomain` *<GLOBALACCOUNT\>*
 
 
 
 </td>
 <td valign="top">
 
-Opens a browser for single sign-on at the identity provider. To suppress automatic browser opening, use `--sso manual`. To use a custom identity provider, you need to add the `--idp` parameter.
+In the interactive login, after successful authentication, the btp CLI will offer all of your global accounts so you can select the one to log in to.
+
+You can also provide the global account as a parameter by specifying its subdomain. You should have obtained the subdomain from your operator; but you can also find it in the cockpit in the global account view.
+
+ ![](images/cli_subdomain_dc4961c.png) 
 
 > ### Note:  
-> To log on with SAP Universal ID, you need to use this parameter. Otherwise log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
-> 
-> For more information, see SAP Note [3085908](https://launchpad.support.sap.com/#/notes/3085908) and [Log in with Single Sign-On](log-in-with-single-sign-on-b2a56a8.md).
+> If you don't find the subdomain of the global account in your cockpit, your global account is probably not on SAP BTP feature set B, which means you cannot access it with the btp CLI. See [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
 
 
 
@@ -187,7 +189,7 @@ Opens a browser for single sign-on at the identity provider. To suppress automat
 </table>
 
 ```
-btp login --url https://cpcli.cf.eu10.hana.ondemand.com --subdomain my-global-account --user name@example.com
+btp login
 ```
 
 If you've logged in before, the server URL, the subdomain, and the user from the last login are suggested. You can then press [Enter\] to confirm, or type in different values.
@@ -216,7 +218,7 @@ Upon successful login, the btp CLI creates a folder \(`btp`\) and a configuratio
 To change this location, use the `--config` option or the environmnet variable. See [Specify the Location of the Configuration File](specify-the-location-of-the-configuration-file-e57288d.md).
 
 > ### Tip:  
-> You’ve logged in to the global account and all commands are executed in this global account, unless you provide a subaccount or directory ID with the command. To change this default context for subsequent commands, you can target a subaccount or directory of this global account by using `btp target`. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
+> You’ve logged in to the global account and all commands are executed in this global account, unless you provide a subaccount or directory ID with the command. To change this default context for subsequent commands, you can target a subaccount or directory, or even a different global account by using `btp target`. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
 
 **Related Information**  
 

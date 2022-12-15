@@ -1,12 +1,12 @@
 <!-- loiofa420dd6272b41858a7b31f8dc5090f8 -->
 
-# Creating Business Configuration Apps with ABAP RESTful Application Programming Model and Custom Business Configurations
+# Creating Business Configuration Apps with ABAP RESTful Application Programming Model and Custom Business Configurations App
 
 As an ABAP Developer you can leverage the *ABAP RESTful Application Programming Model* \(RAP\) and the *Custom Business Configurations* \(CUBCO\) app to create a SAP Fiori UI to maintain customizing table data. You don’t need to create your own Fiori app. Everything can be implemented with ABAP repository objects.
 
 For more information, see this [tutorial](https://developers.sap.com/group.abap-env-factory.html).
 
- ![](images/4b00a83e7bb84eb89e11277139af3ac3.image) 
+ ![](images/BC_Apps_with_RESTful_APM_and_CUBCO_bf72f23.png) 
 
 The development of a business configuration maintenance Fiori UI requires developers to perform the following fundamental activities:
 

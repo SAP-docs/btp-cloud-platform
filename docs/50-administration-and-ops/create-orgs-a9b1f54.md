@@ -15,7 +15,7 @@ Once a subaccount is created in the Cloud Foundry environment, you must create a
 3.  Enter a name for your org.
 
     > ### Note:  
-    > Once you've created the org, you can’t change its name afterwards in the SAP BTP cockpit. If you rename the org using the Cloud Foundry CLI \(cf CLI\), the new org name isn't reflected in the cockpit.
+    > Once you've created the org, you can’t change its name afterwards in the SAP BTP cockpit. However, you can rename the org using the Cloud Foundry CLI \(cf CLI\), and the new org name will be reflected in the cockpit.
 
 4.  If the region you’re working in has multiple landscapes, the *Landscape* option is displayed. Choose the landscape in which to create the org.
 

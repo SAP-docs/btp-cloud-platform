@@ -10,7 +10,7 @@ Learn how you can add your own metrics to Health Monitoring in SAP Cloud ALM or 
 
 ## Use Case
 
-SAP Cloud ALM provides you with insights regarding the health of Cloud services. In the overview dashboard, all health monitoring metrics are exposed, and for each metric, a detailed history is available. While a number of metrics defined by SAP are available for checking customer-initiated operational issues in the ABAP environment, you might want to add your own application-specific metrics. These metrics serve to monitor the health of your own customer or partner solutions running on the ABAP environment in SAP BTP. Similarly, you might want to have your own metrics in Health Monitoring of SAP Focused Run.
+SAP Cloud ALM provides you with insights regarding the health of Cloud services. In the overview dashboard, all health monitoring metrics are exposed, and for each metric, a detailed history is available. While a number of metrics defined by SAP are available for checking customer-initiated operational issues, you might want to add your own application-specific metrics. These metrics serve to monitor the health of your own customer or partner solutions running on the ABAP environment. Similarly, you might want to have your own metrics in Health Monitoring of SAP Focused Run.
 
 
 
@@ -32,5 +32,5 @@ An application job \(the generic simple metric collector\) runs regularly. It ca
 
 In this documentation, you get information about creating your own metric providers as a developer. In addition, there's also a short information for administrators about creating an application job that calls up all created metric providers and transfers their measured values to the generic metric store.
 
-For more information about setting up SAP Cloud ALM and SAP Focused Run for the ABAP environment, see [Central Health Monitoring Using SAP Focused Run and SAP Cloud ALM](../50-administration-and-ops/central-health-monitoring-using-sap-focused-run-and-sap-cloud-alm-8d6e2e7.md).
+For more information about setting up SAP Cloud ALM and SAP Focused Run, see [Central Health Monitoring Using SAP Focused Run and SAP Cloud ALM](../50-administration-and-ops/central-health-monitoring-using-sap-focused-run-and-sap-cloud-alm-8d6e2e7.md).
 

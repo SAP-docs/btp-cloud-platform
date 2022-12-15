@@ -22,5 +22,7 @@ Use the Cloud Foundry command line interface \(CF CLI\) for managing subaccounts
 
 
 > ### Note:  
-> If you work with the Cloud Foundry CLI \(cf CLI\), be aware that you are responsible for all actions performed using the CLI. Also, you won't always be able to mirror the same data in the SAP BTP cockpit. For example, renaming an org using the cf CLI won't be reflected in the cockpit. In addition, you must delete an org using only the cockpit or the sapcp CLI.
+> If you work with the Cloud Foundry CLI \(cf CLI\), be aware that you are responsible for all actions performed using the CLI. Also, you won't always be able to mirror the same data in the SAP BTP cockpit.
+> 
+> You must delete an org using only the cockpit or the SAP BTP command line interface \(btp CLI\).
 

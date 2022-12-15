@@ -4,7 +4,7 @@
 
 
 
-With this app, you can check the application log created when publishing launchpad content to SAP Launchpad service. You can check, for example, when the publishing run started, if the publishing was successful or if there were any issues.
+With this app, you can check the application log created when publishing launchpad content to SAP BTP. You can check, for example, when the publishing run started, if the publishing was successful or if there were any issues.
 
 
 
@@ -42,5 +42,5 @@ In the *Exposure Log Level* field, you have the following options:
 -   9 - Show all entities including API calls
 
 
-See [Create Communication Arrangement](https://help.sap.com/viewer/10fd1742ea914256abedb34bf15bd069/Cloud/en-US/4efaa144b2864db3b49db54242581620.html "You create a communication arrangement to enable the communication between your system and SAP Launchpad service.") :arrow_upper_right:.
+See [Create Communication Arrangement](https://help.sap.com/viewer/10fd1742ea914256abedb34bf15bd069/Cloud/en-US/4efaa144b2864db3b49db54242581620.html "You create a communication arrangement to enable the communication between your system and SAP BTP.") :arrow_upper_right:.
 

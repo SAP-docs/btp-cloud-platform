@@ -8,9 +8,9 @@ Use the `--format json` option to change the output format to JSON. This is the 
 
 ## Context
 
-The standard output format of the btp CLI is plain text, formatted in a way that an interactive user of the btp CLI can easily read it. We don't recommend using this plain text output for automatic parsing and extracting information. The text output is not stable enough, as, for example, column width or the appearance of new lines may depend on the actual content of a response.
+The standard output format of the btp CLI is plain text, formatted in a way that an interactive user of the btp CLI can easily read it and therefore often limited to the most relevant information. We don't recommend using this plain text output for automatic parsing and extracting information. The text output is not stable enough, as, for example, column width or the appearance of new lines may depend on the actual content of a response.
 
-If you're using responses of the btp CLI for automation, such as in scripts, we recommend to use the JSON output format. It is much more stable than the plain text output and it often includes more information than the respective text output, as the text output is optimized for human readability and therefore often limited to the most relevant information.
+If you're using responses of the btp CLI for automation, such as in scripts, we recommend the JSON output format, as JSON is a data format that can be parsed by most programming languages. The JSON output is much more stable than the plain text output and it often includes more information in the JSON response than the respective text output. Because it is optimized for post-processing, it doesn't inlude non-essential information such as an OK at the end of a successful call.
 
 See this [Getting BTP resource GUIDs with the btp CLI](https://blogs.sap.com/2021/12/01/getting-btp-resource-guids-with-the-btp-cli-part-2-json-and-jq/) blog post for some examples.
 

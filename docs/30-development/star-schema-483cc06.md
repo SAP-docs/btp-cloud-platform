@@ -86,5 +86,5 @@ Dimensions:
 **Related Information**  
 
 
-[Query](query-d3f8dc9.md "")
+[Analytical Query](analytical-query-d3f8dc9.md "")
 

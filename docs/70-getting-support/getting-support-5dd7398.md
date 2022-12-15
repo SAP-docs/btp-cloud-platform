@@ -290,3 +290,9 @@ To submit an incident, you can use one of the following support channels:
 
 [Root Cause Analyses](https://help.sap.com/viewer/product/SCP_RCA/Latest/en-US)
 
+[Road Map for Cloud Foundry Environment](https://roadmaps.sap.com/board?range=CURRENT-LAST&PRODUCT=73555000100800000287)
+
+[Road Map for Kyma Runtime](https://roadmaps.sap.com/board?range=CURRENT-LAST&PRODUCT=73554900100800003012)
+
+[Road Map for ABAP Environment](https://roadmaps.sap.com/board?range=CURRENT-LAST&PRODUCT=73555000100800001164)
+

@@ -10,11 +10,11 @@ To use the SAP BTP command line interface \(btp CLI\), you need to download the 
 
 The client is available for 64-bit versions of the following operating systems:
 
--   Microsoft Windows
+-   Microsoft Windows \(amd64\)
 
--   Apple macOS
+-   Apple macOS \(amd64 and arm64\)
 
--   Linux
+-   Linux \(amd64 and arm64\)
 
 
 
@@ -23,13 +23,74 @@ The client is available for 64-bit versions of the following operating systems:
 
 1.  Download the appropriate client for your operating system from [SAP Development Tools](https://tools.hana.ondemand.com/#cloud-btpcli) or use the direct links to the latest version below. They are tar.gz archives that contain one executable file.
 
-    -   [Latest version of CLI client for Microsoft Windows](https://tools.hana.ondemand.com/additional/btp-cli-windows-amd64-latest.tar.gz)
 
-    -   [Latest version of CLI client for Apple macOS](https://tools.hana.ondemand.com/additional/btp-cli-darwin-amd64-latest.tar.gz)
+    <table>
+    <tr>
+    <th valign="top">
 
-    -   [Latest version of CLI client for Linux](https://tools.hana.ondemand.com/additional/btp-cli-linux-amd64-latest.tar.gz)
+    Operating System
 
 
+    
+    </th>
+    <th valign="top">
+
+    Link to latest version
+
+
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    Microsoft Windows
+
+
+    
+    </td>
+    <td valign="top">
+
+     [amd64](https://tools.hana.ondemand.com/additional/btp-cli-windows-amd64-latest.tar.gz) 
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    Apple macOS
+
+
+    
+    </td>
+    <td valign="top">
+
+     [amd64](https://tools.hana.ondemand.com/additional/btp-cli-darwin-amd64-latest.tar.gz) | [arm64](https://tools.hana.ondemand.com/additional/btp-cli-darwin-arm64-latest.tar.gz) 
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    Linux
+
+
+    
+    </td>
+    <td valign="top">
+
+     [amd64](https://tools.hana.ondemand.com/additional/btp-cli-linux-amd64-latest.tar.gz) | [arm64](https://tools.hana.ondemand.com/additional/btp-cli-linux-arm64-latest.tar.gz) 
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
     > ### Note:  
     > You can also find older versions of the client at: [https://tools.hana.ondemand.com/\#cloud-btpcli](https://tools.hana.ondemand.com/#cloud-btpcli). In exceptional cases, when your client is too new for the configured server, an error message tells you which version you need and where to find it.
 
@@ -92,7 +153,7 @@ The client is available for 64-bit versions of the following operating systems:
 
 [Command Syntax of the btp CLI](command-syntax-of-the-btp-cli-69606f4.md "Each command consists of the base call btp followed by a verb (the action), a combination of group and object, and parameters.")
 
-[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Set the target for command calls to a subaccount, a directory, or the global account with the btp target command.")
+[Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Set the target for command calls to a subaccount, a directory, or a global account with the btp target command.")
 
 [btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

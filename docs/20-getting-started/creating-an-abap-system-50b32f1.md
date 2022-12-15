@@ -63,7 +63,7 @@ For more information about creating service instances, see [Create Service Insta
     > 
     > The ABAP system ID must consist of exactly three alphanumeric characters. Only uppercase letters are allowed. The first character must be a letter \(not a digit\). The ID does not have to be technically unique.
     > 
-    > ABAP runtime size \(parameter `size_of_runtime`\) refers to the size of the ABAP runtime. It's part of the quota plan *abap\_compute\_unit*, with one ABAP compute unit representing 16 GB. The supported number of abap\_compute\_unit is 1, 2, 4, 6, 8, 16, or 32.
+    > ABAP runtime size \(parameter `size_of_runtime`\) refers to the size of the ABAP runtime. It's part of the quota plan *abap\_compute\_unit*, with one ABAP compute unit representing 16 GB. The supported number of abap\_compute\_unit is 1, 2, 4, 6, 8, 16, or 32. For more information, see[ABAP Compute Units](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7d1caa87c4b34366a7cf1b00a93199e2.html)
     > 
     > HANA memory size \(parameter `size_of_persistence`\) refers to the size of SAP HANA memory. It's part of the quota plan *hana\_compute\_unit*, with one HANA compute unit representing the suitable block size for the underlying SAP HANA Cloud instance \(15 GB on AWS\). The supported number of hana\_compute\_unit per HANA instance is 2, 4, 8, 16, 32, or 64.
     > 

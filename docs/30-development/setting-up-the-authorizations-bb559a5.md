@@ -14,7 +14,7 @@ Some further activities in ADT and in the administrator’s launchpad are necess
 
     1.  Right-click the package where the objects are located that have already been created.
     2.  Select *New \> Other ABAP Repository Object*.
-    3.  Expand *Cloud Identity and Access Management*.
+    3.  Collapse *Cloud Identity and Access Management*.
     4.  Double-click *Business Catalog*.
     5.  Enter a name \(e.g. `ZTEST_MY_SIMPLE_JOBS`\) and a description.
     6.  Select *Save* and choose the appropriate transport request.
@@ -32,10 +32,12 @@ Some further activities in ADT and in the administrator’s launchpad are necess
     2.  Choose a name \(e.g. `ZTEST_MY_SIMPLE_JOBS`\) and a description.
     3.  Click on *Assigned Business Catalogs*.
     4.  Select *Add*.
-    5.  Select the business catalog created in the previous step \(e.g. `ZTEST_MY_SIMPLE_JOBS`\).
+    5.  Select the business role created in the previous step \(e.g. `ZTEST_MY_SIMPLE_JOBS`\).
 
         > ### Note:  
-        > A business user who shall be able to schedule application jobs needs to have access to the *Application Jobs* tile. This tile is provided by the business catalog `SAP_CORE_BC_APJ_JCE`, which is contained in the business role `SAP_BR_ADMINISTRATOR`. It doesn't only provide the *Application Jobs* app, but also contains restriction types to configure the authorization on other users’ jobs and to schedule jobs for other users \(for more information, see the section *Assigning Further Authorizations* below\).
+        > A business user who shall be able to schedule application jobs needs to have access to the *Application Jobs* tile. This tile was provided by the business catalog `SAP_CORE_BC_APJ`, which is contained in the business role `SAP_BR_ADMINISTRATOR`.
+        > 
+        > With the 2105 cloud release, the business catalog `SAP_CORE_BC_APJ` has been set to **deprecated**. Use the new business catalog `SAP_CORE_BC_APJ_JCE` instead. It doesn't only provide the *Application Jobs* app, but also contains restriction types to configure the authorization on other users’ jobs \(for more information, see the section *Assigning Further Authorizations* below\).
         > 
         > Add the business catalog `SAP_CORE_BC_APJ_JCE` to the business role created following the steps above, or assign it to a separate business role.
 
@@ -52,7 +54,7 @@ Some further activities in ADT and in the administrator’s launchpad are necess
 
 ## Assigning Further Authorizations
 
-You can access only your own jobs in the *Application Jobs* app. In order to grant access to other users' objects used in the *Application Jobs* app, create a new business role assigning the business catalog `SAP_CORE_BC_APJ_JCE` to it. You can modify the provided restriction types according to your needs.
+With the 2105 cloud release, you can access only your own jobs in the *Application Jobs* app. In order to grant access to other users' objects used in the *Application Jobs* app, create a new business role assigning the business catalog `SAP_CORE_BC_APJ_JCE` to it. You can modify the provided restriction types according to your needs.
 
 1.  Create a new business role assigning the business catalog `SAP_CORE_BC_APJ_JCE` to it. The restriction type `Job Catalog Entry/Application Job Part` contains the two fields `Application Job Catalog Entry` and `Application Job Part`. For more information, see [Maintain Business Roles](../50-administration-and-ops/maintain-business-roles-8980ad0.md).
 
@@ -61,14 +63,9 @@ You can access only your own jobs in the *Application Jobs* app. In order to gra
     > 
     > Alternatively, you can also create a display only-role using this restriction type.
 
-2.  The business catalog `SAP_CORE_BC_APJ_JCE` has another restriction type: `Create Application Jobs for Other Users`. It has the restriction field `Application Job Catalog Entry`.
+2.  Next, define your business role with the above-mentioned restriction fields `Application Job Catalog Entry` and `Application Job Part`. To do so, select *Maintain Restrictions*. In the `Application Job Catalog Entry` field, you can choose the job catalog entries, and in the `Application Job Part` field, you can choose for which part of a job access should be granted. You can choose the values `JOB` \(Job Details\), `SPOOL` \(Result List\), and `APPLOG` \(Log\) by clicking the *Edit* icon next to the fields.
 
-    > ### Note:  
-    > With this restriction type you'll be able to grant a business user the authorization to schedule an application job for any other business user, based on the job catalog entry selected. This feature is supported by the parameter `iv_username` of the method `cl_apj_rt_api=>schedule_job`. For more information, see [Maintaining Application Jobs using an API](maintaining-application-jobs-using-an-api-1491e6c.md).
-
-3.  Next, define your business role with the above-mentioned restriction fields `Application Job Catalog Entry` and `Application Job Part`. To do so, select *Maintain Restrictions*. In the `Application Job Catalog Entry` field, you can choose the job catalog entries, and in the `Application Job Part` field, you can choose for which part of a job access should be granted. You can choose the values `JOB` \(Job Details\), `SPOOL` \(Result List\), and `APPLOG` \(Log\) by clicking the *Edit* icon next to the fields.
-
-4.  Go back and select *Save*. Now, you've maintained your business role, and you can assign the role to a business user.
+3.  Go back and select *Save*. Now, you've maintained your business role, and you can assign the role to a business user.
 
 
 **Related Information**  

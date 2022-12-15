@@ -67,6 +67,8 @@ SUBOBJECT
 
 Subobject of the log
 
+If no subobjects were defined for the log object, the parameter should be empty
+
 
 
 </td>

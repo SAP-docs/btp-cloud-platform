@@ -4,7 +4,7 @@
 
 Follow these steps to implement a query on top of your analytical model.
 
-For more information, see [Query](query-d3f8dc9.md).
+For more information, see [Analytical Query](analytical-query-d3f8dc9.md).
 
 **Prerequisites:**
 
@@ -170,5 +170,5 @@ For our example, we will be using two queries. Copy following is the code needed
 
 [Star Schema](star-schema-483cc06.md "The structure of the analytical model resembles a star (see graphic below): The cube or fact view at its center is surrounded by and connected to various dimension views. That's why it is also referred to as a star schema.")
 
-[Query](query-d3f8dc9.md "")
+[Analytical Query](analytical-query-d3f8dc9.md "")
 

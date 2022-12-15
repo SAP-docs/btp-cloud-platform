@@ -8,9 +8,6 @@ This landscape consists of a development, quality assurance, and production syst
 
 ![](images/One_Codeline_in_a_3-ABAP-System_Landscape_811e489.png)
 
-> ### Note:  
-> The following procedures apply to lifecycle management of business configuration content using a software component of type *Business Configuration*. See [Business Configuration](business-configuration-7d7c344.md).
-
 
 
 <a name="loio2276142117a54197bb05fb8481c10a08__section_ltg_rbt_wlb"/>

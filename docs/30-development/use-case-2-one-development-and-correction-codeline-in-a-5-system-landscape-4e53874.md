@@ -116,9 +116,6 @@ Additional role needed
 
 Second, developers are also not allowed to create transport requests and tasks on their own, but it’s the release manager who creates them for all developers. This separation is achieved by giving business catalog `SAP_A4C_BC_TRN_MNG_PC` \(Development - Transport Management\) to the release manager instead of the developer role in correction system COR.
 
-> ### Note:  
-> The following procedures apply to lifecycle management of business configuration content using a software component of type *Business Configuration*. See [Business Configuration](business-configuration-7d7c344.md).
-
 
 
 <a name="loio4e53874043e544ce8f41fea26f674134__section_rhr_jv5_wlb"/>

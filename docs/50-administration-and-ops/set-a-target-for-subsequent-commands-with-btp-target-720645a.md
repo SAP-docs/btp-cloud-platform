@@ -2,13 +2,20 @@
 
 # Set a Target for Subsequent Commands with `btp target`
 
-Set the target for command calls to a subaccount, a directory, or the global account with the `btp target` command.
+Set the target for command calls to a subaccount, a directory, or a global account with the `btp target` command.
 
 
 
 ## Context
 
-After login, the global account is targeted by default. This means that commands are executed in the global account unless you specify otherwise via a parameter. If you know that you need to work in a particular subaccount or directory, you can change the target, so that you won't have to specify that subaccount's or directory's ID as a parameter with every command call. Note that by setting the target to a subaccount or directory, you also target its parent entities, that is, the **target hierarchy**. If no parameter is specified in a command call, the btp CLI will execute the command in the innermost targeted entity where a command is applicable. If a subaccount is targeted that is inside a directory and the command is not available on subaccount level, it will be executed in the parent directory \(if it's a directory command\) or in the parent global account \(if it's a global account command\). This can be useful, for example, if you have targeted a subaccount, but want to update its parent directory. You can then execute `btp update accounts/directory` without specifying the directory ID.
+During login, the btp CLI asks you for the global account you want to log in to and this global account is then the target. This means that commands are executed in this global account unless you specify otherwise via a parameter. There are two typical use cases for the target command:
+
+-   If you know that you need to work in a particular subaccount or directory, you can change the target, so that you won't have to specify that subaccount's or directory's ID as a parameter with every command call.
+
+-   If you want to switch to another global account, you can do so by setting the target to this global account without logging in again.
+
+
+By setting the target to a subaccount or directory, you also target its parent entities, that is, the **target hierarchy**. If no parameter is specified in a command call, the btp CLI will execute the command in the innermost targeted entity where a command is applicable. If a subaccount is targeted that is inside a directory and the command is not available on subaccount level, it will be executed in the parent directory \(if it's a directory command\) or in the parent global account \(if it's a global account command\). This can be useful, for example, if you have targeted a subaccount, but want to update its parent directory. You can then execute `btp update accounts/directory` without specifying the directory ID.
 
 To see the current target, use `btp --info` or simply `btp`.
 
@@ -50,7 +57,7 @@ Description
 </td>
 <td valign="top">
 
-Only the global account of the active login can be targeted. As only one active login is possible, SUBDOMAIN can be omitted.
+The subdomain of the global account to be targeted.
 
 
 
@@ -96,7 +103,7 @@ The ID of the subaccount to be targeted. You can find the subaccount ID by using
 
 ## Results
 
-The CLI client displays the target hierarchy. To execute a command in the targeted entity, you can omit the corresponding parameter.
+The CLI client displays the current target as a hierarrchy. To execute a command in the targeted entity, you can omit the corresponding parameter.
 
 
 
@@ -105,10 +112,10 @@ A global account can group together different directories and subaccounts that t
 Let's look at a global account that contains a directory with a targeted subaccount. With `btp`, the current target hierarchy is displayed like this:
 
 ```
-Current target hierarchy:
-  Global account (subdomain: cee12xx112345-ga)
-  └─ Directory (ID: 371eXXXX-55XX-40XX-b3XX-e9947ed9XXXX)
-     └─ Subaccount (ID: d8aeXXXX-74XX-49XX-89XX-f058029eXXXX)
+Current target:
+  My Global Account (global account, subdomain: cee12xx112345-ga)
+  └─ My Directory (directory, ID: 371eXXXX-55XX-40XX-b3XX-e9947ed9XXXX)
+     └─ My Subaccount (subaccount, ID: d8aeXXXX-74XX-49XX-89XX-f058029eXXXX)
 
 ```
 
@@ -268,9 +275,6 @@ The specified subaccount, which overrides the target
 </td>
 </tr>
 </table>
-
-> ### Remember:  
-> To work in a different global account, you need to log in to this global account using `btp login`.
 
 **Related Information**  
 

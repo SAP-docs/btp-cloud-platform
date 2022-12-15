@@ -9,5 +9,5 @@ Learn how to create a Cloud Foundry org, add members to it and later delete it i
 -   [Delete Orgs](delete-orgs-9a3babd.md)
 
 > ### Note:  
-> If you work with the Cloud Foundry CLI \(cf CLI\), be aware that you are responsible for all actions performed using the CLI. Also, you won't always be able to mirror the same data in the SAP BTP cockpit. For example, renaming an org using the cf CLI won't be reflected in the cockpit.
+> If you work with the Cloud Foundry CLI \(cf CLI\), be aware that you are responsible for all actions performed using the CLI. Also, you won't always be able to mirror the same data in the SAP BTP cockpit.
 

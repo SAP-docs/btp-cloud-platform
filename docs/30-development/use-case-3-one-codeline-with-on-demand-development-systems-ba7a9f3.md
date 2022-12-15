@@ -23,9 +23,6 @@ A much more production-like test can only be ensured in a non-development system
 
 We thus strongly recommend developing with [Use Case 1: One Codeline in a 3-System Landscape](use-case-1-one-codeline-in-a-3-system-landscape-2276142.md) instead of use case 3. The quality assurance system might be de-/commissioned on demand then.
 
-> ### Note:  
-> The following procedures apply to lifecycle management of business configuration content using a software component of type *Business Configuration*. See [Business Configuration](business-configuration-7d7c344.md).
-
 
 
 <a name="loioba7a9f3031b442dfb2ca09f3980e1c1e__section_ysx_fhb_xlb"/>

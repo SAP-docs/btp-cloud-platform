@@ -351,6 +351,73 @@ Amazon Web Services
 </td>
 <td valign="top">
 
+eu11
+
+
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
+
+
+
+</td>
+<td valign="top">
+
+cf-eu11
+
+
+
+</td>
+<td valign="top">
+
+eu-central-1
+
+
+
+</td>
+<td valign="top">
+
+18.157.200.44, 3.121.238.156, 3.67.47.252
+
+
+
+</td>
+<td valign="top">
+
+api.cf.eu11.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+eu11.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+[Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-eu11)
+
+[Feature Set B](https://cockpit.eu11.hana.ondemand.com/)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Amazon Web Services
+
+
+
+</td>
+<td valign="top">
+
 jp10
 
 

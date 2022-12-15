@@ -34,12 +34,18 @@ Login through a browser is only available if you use the default server URL that
     btp login --sso manual
     ```
 
-2.  Authenticate directly at SAP ID service through your browser.
+2.  Authenticate directly at your identity provider through your browser.
 
     If you already have an active session, the identity provider immediately transfers a token to the client, which completes your login. Otherwise, you need to enter your credentials.
 
-    You’ve successfully logged in. You can return to the command line to work in your global account.
 
+
+
+<a name="loiob2a56a8a222940089fd2704a9c26140d__result_o34_tcb_pvb"/>
+
+## Results
+
+You’ve successfully logged in. You can return to the command line to work in your global account or - at first login - to select the global account for login.
 
 **Related Information**  
 

@@ -9,5 +9,5 @@ To be able to consume data, the analytical engine needs a multi-dimensional anal
 
 [Star Schema](star-schema-483cc06.md "The structure of the analytical model resembles a star (see graphic below): The cube or fact view at its center is surrounded by and connected to various dimension views. That's why it is also referred to as a star schema.")
 
-[Query](query-d3f8dc9.md "")
+[Analytical Query](analytical-query-d3f8dc9.md "")
 

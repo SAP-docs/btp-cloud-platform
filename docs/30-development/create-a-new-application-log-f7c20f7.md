@@ -93,7 +93,7 @@ To create an object of class `CL_BALI_LOG`, the class provides two methods:
 > ...
 > ```
 
-If the header information is not known when the application log is created, you can use the `CREATE` method. It creates an empty application log. In this case, the header should be set later using the `SET_HEADER` method.
+If the header information is not known when the application log is created, you can use the `CREATE` method. It creates an empty application log. In this case, the header should be set later using the `SET_HEADER` method. If no subobjects were defined for the application log object, an empty string should be used at the parameter `SUBOBJECT`.
 
 > ### Sample Code:  
 > ```abap

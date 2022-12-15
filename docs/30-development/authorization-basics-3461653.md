@@ -154,7 +154,7 @@ A CDS behavior definition can define authorization contexts that list multiple a
 
 The authorization contexts can be defined as follows:
 
--   An authorization context with a specific name: Such an authorization context is defined using using the statement `define authorization context`. When an authorization context is activated, the authorization checks for all listed authorization objects always return the value `authorized`. This means that the relevant authorization checks are skipped. Such an authorization context can be useful, for example, to enable privileged mode for a business object \(see \).
+-   An authorization context with a specific name: Such an authorization context is defined using using the statement `define authorization context`. When an authorization context is activated, the authorization checks for all listed authorization objects always return the value `authorized`. This means that the relevant authorization checks are skipped. Such an authorization context can be useful, for example, to enable privileged mode for a business object \(see [Providing Read or Write Access to a Business Service Using Privileged Mode](providing-read-or-write-access-to-a-business-service-using-privileged-mode-241382c.md)\).
 -   Own authorization context: Such an authorization context is defined using the statement `define own authorization context`. The authorization context lists the authorization objects that are checked by the implementation methods of the ABAP behavior pool of the business object.
 
 > ### Recommendation:  
@@ -170,7 +170,7 @@ For more information, see the ABAP keyword documentation that you can find in th
 
 With privileged mode in the behavior definition, RAP business object consumers can circumvent authorization checks, such as RAP authorization control or CDS access control. After enabling privileged mode, privileged read and write access to the business object is possible.
 
-For more information, see the ABAP keyword documentation that you can find in the ABAP Development Tools.
+For more information, see the ABAP keyword documentation in the ABAP Development Tools and [Authorization Control](https://help.sap.com/docs/BTP/923180ddb98240829d935862025004d6/375a8124b22948688ac1c55297868d06.html) in the guide to the ABAP RESTful Application Programming Model \(RAP\).
 
 
 

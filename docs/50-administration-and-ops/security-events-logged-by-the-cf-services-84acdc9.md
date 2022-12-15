@@ -315,6 +315,22 @@ Invoice Object Recommendation
 <tr>
 <td valign="top">
 
+Mobile Services \(CF\)
+
+
+
+</td>
+<td valign="top">
+
+[Viewing Audit Logs](https://help.sap.com/doc/f53c64b93e5140918d676b927a3cd65b/Cloud/en-US/docs-en/guides/features/usage/admin/audit.html)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 OAuth 2.0
 
 

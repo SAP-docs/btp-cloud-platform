@@ -41,7 +41,7 @@ If you are working in an enterprise account, you need to add quotas to the servi
 
 9.  On the following screen, increase the quotas in the *abap\_compute\_unit* service plan at least by 1 and in the *hana\_compute\_unit* service plan at least by 2.
 
-    The minimum configuration of 1 ABAP compute unit and 4 HANA compute units is sufficient in many cases to create one service instance for the ABAP environment. If you need more resources, choose higher quotas.
+    The minimum configuration of 1 ABAP compute unit and 2 HANA compute units is sufficient in many cases to create one service instance for the ABAP environment. If you need more resources, choose higher quotas.
 
 10. Choose *Save*.
 
@@ -53,4 +53,9 @@ If you are working in an enterprise account, you need to add quotas to the servi
 ## Results
 
 After you have assigned an entitlement for the three plans with respective quotas to your subaccount, you can create an ABAP system. This is the point where you can then decide how many blocks of ABAP compute units and HANA compute units you want to assign to your new system. See [Creating an ABAP System](creating-an-abap-system-50b32f1.md).
+
+**Related Information**  
+
+
+[ABAP Compute Units](../50-administration-and-ops/abap-compute-units-7d1caa8.md "When you order an ABAP environment in SAP BTP, the ABAP system size is specified in ABAP compute units (ACUs). One ABAP compute unit comprises the total ABAP memory usable by applications, the ABAP work process time per minute, and the ABAP CPU time per minute.")
 

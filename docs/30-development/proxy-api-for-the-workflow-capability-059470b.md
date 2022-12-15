@@ -197,3 +197,23 @@ Note also that if you have multiple workflows per instance of your business obje
 
 
 
+> ### Sample Code:  
+> This coding sample shows reading the workflow instance context.
+> 
+> ```abap
+> 
+> TYPES: BEGIN OF ty_context,
+>          attr1 TYPE string,
+>          attr2 TYPE int4,
+>          attr3 TYPE string,
+>        END OF ty_context.
+>  
+> DATA(lo_cpwf_api) = cl_swf_cpwf_api_factory=>get_api_instance( 'DEFAULT' ).
+> DATA(lo_cp_json_with_empty) = lo_cpwf_api->get_json_converter( ).
+> DATA(lo_wf_inst_ctxt) = lo_cpwf_api->if_swf_cpwf_capi~workflow_instance_context( ).
+>  
+> DATA ls_context TYPE ty_context.
+> lo_wf_inst_ctxt->get_instance_context( EXPORTING iv_cpwf_handle = <cpwf_handle> io_cp_json = lo_cp_json IMPORTING data = ls_context ).
+> 
+> ```
+

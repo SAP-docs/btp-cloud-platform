@@ -2,7 +2,7 @@
 
 # Getting Numbers from an Interval
 
-The `CL_NUMBERRANGE_INTERVALS` class provides methods for getting numbers from an interval at runtime.
+The `CL_NUMBERRANGE_RUNTIME` class provides methods for getting numbers from an interval at runtime.
 
 
 
@@ -172,6 +172,52 @@ TOYEAR
 <td valign="top">
 
 To fiscal year
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+NUMBER\_ALPHA
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+Obsolete. Please use the parameter `NUMBER` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+LENGTH\_CHECK
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+Check of number length
 
 
 
@@ -406,7 +452,7 @@ To Fiscal Year
 </tr>
 </table>
 
-**External Parameters**
+**Export Parameters**
 
 
 <table>
@@ -520,4 +566,185 @@ Number of returned numbers
 > …
 > 
 > ```
+
+
+
+<a name="loioc9b48a1983ab4c8db00bd3bd8f63632c__section_njq_cgw_rvb"/>
+
+## Getting the Number Status of an Interval
+
+Use the `NUMBER_STATUS` method to determine the number status of a number range interval.
+
+**Import Parameters**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Parameter Name
+
+
+
+</th>
+<th valign="top">
+
+Field Name
+
+
+
+</th>
+<th valign="top">
+
+Value Help
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+NR\_RANGE\_NR
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+Interval number
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+OBJECT
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+Number range object
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SUBOBJECT
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+Sub-object
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+TOYEAR
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+To Fiscal Year
+
+
+
+</td>
+</tr>
+</table>
+
+**Export parameter**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Parameter Name
+
+
+
+</th>
+<th valign="top">
+
+Field Name
+
+
+
+</th>
+<th valign="top">
+
+Value Help
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+NUMBER
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+Number status of the interval
+
+
+
+</td>
+</tr>
+</table>
 
