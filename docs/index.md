@@ -822,7 +822,7 @@
                 -   [Creating a Job Catalog Entry and a Job Template in ADT](30-development/creating-a-job-catalog-entry-and-a-job-template-in-adt-949ba00.md)
                     -   [Implementing the Business Logic](30-development/implementing-the-business-logic-99dcde1.md)
                         -   [Self-Restart of Application Jobs](30-development/self-restart-of-application-jobs-76ce7b2.md)
-                    -   [Defining the Job Catalog Entry](30-development/defining-the-job-catalog-entry-1cff59e.md)
+                    -   [Creating the Job Catalog Entry](30-development/creating-the-job-catalog-entry-1cff59e.md)
                     -   [Creating the Job Template](30-development/creating-the-job-template-1f04ad2.md)
                     -   [Deleting the Job Catalog Entry and the Job Template](30-development/deleting-the-job-catalog-entry-and-the-job-template-8247ec9.md)
                 -   [Maintaining Application Jobs using an API](30-development/maintaining-application-jobs-using-an-api-1491e6c.md)

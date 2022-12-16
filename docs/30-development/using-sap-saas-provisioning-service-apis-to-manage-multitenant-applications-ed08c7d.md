@@ -38,15 +38,13 @@ Consumers can use the second group to work with the multitenant applications.
 
 -   You've registered your multitenant application to the SaaS Provisioning Service. For more information, see [Register the Multitenant Application to the SAP SaaS Provisioning Service](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/3971151ba22e4faa9b245943feecea54.html?version=Cloud).
 
--   You've created an instance of `saas-registry` service, `application` plan.
-
 
 
 
 ### Preparation
 
-1.  For an existing instance of `saas-registry` service with the `application` plan , create a service key or service binding. For more information, see [Service Bindings](https://help.sap.com/docs/SERVICEMANAGEMENT/09cc82baadc542a688176dce601398de/bb8009dbb7814a2a94e42983fbaa9bae.html?version=Cloud).
-2.  From the created credentials object, extract the values of the following fields:
+1.  For an existing instance of `saas-registry` service with the `application` plan, create a service key or service binding if you don't already have one. For more information, see [Service Bindings](https://help.sap.com/docs/SERVICEMANAGEMENT/09cc82baadc542a688176dce601398de/bb8009dbb7814a2a94e42983fbaa9bae.html?version=Cloud).
+2.  From the created key or service binding, extract the values of the following fields:
 
     -   `url`
     -   `clientid`
@@ -54,7 +52,7 @@ Consumers can use the second group to work with the multitenant applications.
     -   `saas_registry_url`
 
 
-You need these values to authenticate your SaaS Provisioning Service API requests.
+You need the first three values to authenticate your SaaS Provisioning Service API requests and the last one as base URL in each API call.
 
 
 
@@ -81,7 +79,7 @@ You can also try out the APIs in the SAP API Business Hub. For more information,
 > ### Note:  
 > To authenticate to try out the APIs in SAP API Business Hub, configure an environment.
 > 
-> During the environment configuration, select the *OAuth 2.0 Application Flow* option from the dropdown menu.You must do so for the **Application Provider API group** because these specific APIs only support the Client Credentials authentication type.
+> During the environment configuration, select the *OAuth 2.0 Application Flow* option from the dropdown menu. You must do so for the **Application Provider API group** because these specific APIs only support the Client Credentials authentication type.
 > 
 > For more information about configuring an environment in general, see [Trying Out APIs in a Configured Environment](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/f7796baaef6a48e9867298827f5028ff.html).
 
