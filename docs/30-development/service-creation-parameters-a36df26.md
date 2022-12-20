@@ -141,7 +141,7 @@ Using method B, there are dependencies on further configuration entries in other
 **Related Information**  
 
 
-[HTML5 Application Repository Router](https://github.com/SAP-samples/html5-app-repo-router/tree/06ac27a1d3352e65b3a0942e5e56604e2c7cc4b1)
+[Standalone Application Router - HTML5 Application Repository](https://github.com/SAP-samples/multi-cloud-html5-apps-samples/tree/main/standalone-approuter-html5-runtime-mta-hello-world)
 
 [Managing Service Instances with the cf CLI](https://docs.cloudfoundry.org/devguide/services/managing-services.html#arbitrary-params-create)
 
