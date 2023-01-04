@@ -57,7 +57,7 @@ The SAP `nodejs_buildpack` supports the following versions:
 
 -   Node.js **14** – recommended version
 -   Node.js **16** – supported but not recommended to use, due to current issues with the *@sap/xsjs* library. Therefore, if you use this library, bear in mind that it will be incompatible with the Node.js 16 runtime.
--   Node.js **18** – default version starting with [version 1.8.4 of the buildpack](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.4)
+-   Node.js **18** – default version starting with [version 1.8.4 of the buildpack](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.4).
 
 
 <a name="loio3a7a0bece0d044eca59495965d8a0237__section_o5d_4t1_krb"/>
