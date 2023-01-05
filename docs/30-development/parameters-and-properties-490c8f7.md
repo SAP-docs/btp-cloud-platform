@@ -4,48 +4,53 @@
 
 This section contains information about the parameters and properties of a Multitarget Application \(MTA\).
 
-The values of parameters and properties can be specified at design time, in the deployment description \(`mtad.yaml`\). More often, however, property values are determined during deployment, where the values are either explicitly set by the administrator, for example, in an deployment-extension descriptor file \(`myDeployExtension.mtaext`\). When set, the deployer injects the property values into the module's environment. The deployment operation reports an error if it cannot determine a value for a property that is referenced in another or is marked as mandatory.
+The values of parameters and properties can be specified at design time, in the MTA development description \(`mta.yaml`\) or in the MTA deployment descriptor \(`mtad.yaml`\). In some cases, it is better to declare certain values depending on the deployment, for example, in an extension descriptor file \(`myDeployExtension.mtaext`\).
+The values of parameters and properties might be static and in this way the result of each deployment will be the same. However, the values might be dynamic, by using placehoders described below, and in this way each deployment migh end in different result depending on the environement or other configurations.
+
+The values of properties and parameters are used during the deployment or at runtime of the MTA. 
+
+> ### Note:  
+> Both parameters and properties may have literal values, that is, strings, integers, and so on. This also applies to deeply nested structured values, such as arrays or maps.
+> 
 
 > ### Tip:  
 > -   You can declare metadata for parameters and properties defined in the MTA deployment description; the mapping is based on the parameter or property keys. For example, you can specify if a parameter is **required** \(`optional; false`\) or can be modified `overwritable: true`.
 > -   Descriptors can contain so-called placeholders \(also known as substitution variables\), which can be used as sub-strings within property and parameter values. Placeholder names are enclosed by the dollar sign \(`$`\) and curly brackets \(`{}`\). For example: `${host}` and `${domain}`. For each parameter “`P`”, there is a corresponding placeholder `${P}`. The value of *<P\>* can be defined either by a descriptor used for deployment, or by the deploy service itself. Placeholders can also be used without any corresponding parameters; in this scenario, their value cannot be overridden in a descriptor. Such placeholders are read-only.
 
-
-
 <a name="loio490c8f71e2b74bc0a59302cada66117c__section_moduleSpecificParameters"/>
 
 ## Parameters
 
-Parameters are reserved variables that affect the behavior of the MTA-aware tools, such as the deployer. Module, resource, and dependency parameters have platform-specific semantics. To reference a parameter value, use the placeholder notation <code>${<i class="varname">&lt;parameter&gt;</i>}</code>, for example, `${default-host}`.
+Parameters are reserved variables that affect the behavior of the MTA-aware tools, such as the Cloud MTA Build Tool (MBT) or SAP Cloud Deployment service.
+Parameters migh be used on different levels in the MTA descriptor - top-level, module level, resource level and dependency level. Based on the parameter applicability it might be used in combination on several places, for example, both on resource and module level.
+
+Parameters can be “Read-Only” (also known as “System”) or “Read-Write” \(default value can be overwritten\). All parameter values can be referenced as part of other property or parameter value strings. The value of a “Read-Only” parameter cannot be changed in descriptors. Only its value can be referenced using the placeholder notation. To reference a parameter value, use the placeholder notation <code>${<i class="varname">&lt;parameter&gt;</i>}</code>, for example, `${org}`. 
+
+SAP Cloud Deployment service supports a list of parameters and their (default) values:
+-   [Module-Specific Parameters](modules-177d34d.md#loio177d34d45e3d4fd99f4eeeffc5814cf1__section_moduleSpecificParameters)
+-   [Resource-Specific Parameters](resources-9e34487.md#loio9e34487b1a8643fb9a93ae6c4894f015__section_resourceSpecificParameters)
+-   [Module Hooks - Specific Parameters](module-hooks-b9245ba.md#loiob9245ba90aa14681a416065df8e8c593__section_byz_kcf_wjb)
+-   Global parameters (table below) that can have the following scopes:
+
+    -   Top-level - can be defined on top level
+    -   All - can be consumed everywhere throughout the document
 
 > ### Note:  
-> Both parameters and properties may have literal values, that is, strings, integers, and so on. This also applies to deeply nested structured values, such as arrays or maps.
+> Global Parameters table contains parameters that might be used on top level or on all levels. Other supported parameters are distributed in the dedicated pages, for example, module speicifc parameters.
+> 
 
-Parameters can be “system”, “write-only”, or “read-write” \(default value can be overwritten\). Each tool publishes a list of system parameters and their \(default\) values for its supported target environments. All parameter values can be referenced as part of other property or parameter value strings. To reference a parameter value, use the placeholder notation <code>${<i class="varname">&lt;parameter&gt;</i>}</code>. The value of a system parameter cannot be changed in descriptors. Only its value can be referenced using the placeholder notation.
-
-Examples of common read-only parameters are `user`, `default-host`, `default-uri`. The value of a writable parameter can be specified within a descriptor. For example, a module might need to specify a non-default value for a target-specific parameter that configures the amount of memory for the module’s runtime.
+The example below demonstrates parameter `memory` on module level which defines the amount of memory used by the Cloud Foundry application represented by the module `node-hello-world` during application runtime.
 
 > ### Sample Code:  
-> Parameters and Placeholders
-> 
 > ```
 > modules:
 >   - name: node-hello-world
 >     type: javascript.nodejs
 >     path: web/
 >     parameters:
->       host: ${user}-node-hello-world
+>       memory: 128M 
 > ```
 
-The following parameters are supported:
-
--   [Module-Specific Parameters](modules-177d34d.md#loio177d34d45e3d4fd99f4eeeffc5814cf1__section_moduleSpecificParameters)
--   [Resource-Specific Parameters](resources-9e34487.md#loio9e34487b1a8643fb9a93ae6c4894f015__section_resourceSpecificParameters)
--   [Module Hooks - Specific Parameters](module-hooks-b9245ba.md#loiob9245ba90aa14681a416065df8e8c593__section_byz_kcf_wjb)
--   Generic parameters that can have the following scopes:
-
-    -   Global - can be defined on root document level
-    -   All - can be consumed everywhere throughout the document
 
     **Global Parameters**
 
@@ -897,11 +902,9 @@ As an alternative, you can also externalize such configurations in a file. See [
 
 ## Properties
 
-The MTA deployment descriptor can contain two types of properties, which are very similar, and are intended for use in the `modules` or `resources` configuration, respectively.
+MTA properties represent Cloud Foundry application environment variables which are used during application runtime. When a MTA property is set, SAP Cloud Deployment service injects its key as environment variable key and its value as variable value in the application, represented by the corresponding MTA module.
 
-Properties can be declared in the deployment description both in the `modules` configuration \(for example, to define `provides` or `requires` dependencies\), or in the `resources` configuration to specify `requires` dependencies. Both kinds of properties \(`modules` and `requires`\) are injected into the module’s environment. In the `requires` configuration, properties can reference other properties that are declared in the corresponding `provides` configuration, for example, using the `~{}` syntax.
-
-
+MTA properties can be declared in different levels - module level, resource level and dependency level.
 
 
 
