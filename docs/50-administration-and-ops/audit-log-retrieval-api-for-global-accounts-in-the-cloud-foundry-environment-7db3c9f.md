@@ -3,7 +3,7 @@
 # Audit Log Retrieval API for Global Accounts in the Cloud Foundry Environment
 
 > ### Note:  
-> The following procedure is applicable only for Feature Set B Global Accounts. To retrieve audit logs for Feature Set A Global Accounts, contact SAP support and include in your request: Global Account ID, recipient email, timeframe and reason for the request. For more information about feature sets, see [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md)
+> The following procedure is applicable only for Feature Set B Global Accounts. To retrieve audit logs for Feature Set A Global Accounts, contact SAP support and include in your request: Global Account ID, recipient email, timeframe, and reason for the request. For more information about feature sets, see [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md)
 
 On Central regions<sup>\(1\)</sup>, Audit Log Retrieval API allows you to retrieve audit logs written on behalf of your SAP BTP Global Account.
 
@@ -26,13 +26,13 @@ You do this procedure through Cloud Foundry Environment, which is part of a suba
 2.  You need to have one or more subaccounts in the Central region<sup>\(1\)</sup>. Create one if needed.
 
     > ### Note:  
-    > ALL space developer users can access the service instance in the subaccount where it is entitled. To restrict access to your global account audit logs we recommend you create a new subaccount in the Central regions<sup>\(1\)</sup> and add only users eligible to read global account audit logs to it.
+    > ALL space developer users can access the service instance in the subaccount where it's entitled. To restrict access to your global account audit logs we recommend, you create a new subaccount in the Central regions<sup>\(1\)</sup> and add only users eligible to read global account audit logs to it.
 
-3.  Entitle one or more of your subaccounts with the central plan of service Auditlog Management with the following steps:
+3.  Follow the steps to entitle one or more of your subaccounts with the central plan of service Auditlog Management:
     1.  Navigate to your global account.
 
     2.  Choose *Entitlements* \> *Entity Assignments* from the left-hand side menu.
-    3.  In the pop-up window select all the subaccounts for which you would like to configure or display entitlements.
+    3.  In the pop-up window, select all the subaccounts for which you would like to configure or display entitlements.
     4.  Choose *Select* to apply the filter.
 
         You get a table for each of the subaccounts you selected, which displays the current entitlement and quota assignments.
@@ -52,26 +52,26 @@ You do this procedure through Cloud Foundry Environment, which is part of a suba
 
 
 > ### Note:  
-> For security reasons, we strogly recommend you to recreate the `auditlog-management` Service-Instance bindings and service keys at least every 90 days.
+> For security reasons, we strongly recommend you to re-create the `auditlog-management` Service-Instance bindings and service keys at least every 90 days.
 
 
 
 <a name="loio7db3c9f8eba74d9f90c9d07a3c0d7762__section_pqn_1n3_t5b"/>
 
-## Create instance of the `auditlog-management` service
+## Create Instance of the `auditlog-management` Service
 
-1.  Create a Cloud Foundry Org and Space, in case you do not have any. See [Create Spaces](create-spaces-2f6ed22.md).
+1.  Create a Cloud Foundry Org and Space, in case you don't have any. See [Create Spaces](create-spaces-2f6ed22.md).
 
-2.  Login to the Cloud Foundry landscape using the corresponding Cloud Foundry API \(Infrastructure/Landscape Overview\).
+2.  Log in the Cloud Foundry landscape using the corresponding Cloud Foundry API \(Infrastructure/Landscape Overview\).
 
     ```
     cf login -a <API_URL> -o <ORG> -s <SPACE> -u <USER>
     ```
 
-3.  Create a service instance of the service `auditlog-management`
+3.  Create a service instance of the service `auditlog-management`:
 
     > ### Note:  
-    > For security reasons, we strongly recommend you to adopt the provided mutual TLS authentication \(mTLS\). The mTLS authentication relies on X.509 certificates for the verification of the parties in the network connection, by creating the `auditlog-managenment` service instances with the additional parameters, as explained in the following mTLS points.
+    > For security reasons, we strongly recommend you to adopt the provided mutual TLS authentication \(mTLS\). The mTLS authentication relies on X.509 certificates for the verification of the parties in the network connection. Create the `auditlog-managenment` service instances with the additional parameters, as explained in the following mTLS points.
 
     -   \(Recommended\) For mTLS authentication using X.509 certificates, use:
 
@@ -86,7 +86,7 @@ You do this procedure through Cloud Foundry Environment, which is part of a suba
         }
         ```
 
-    -   For non-mTLS authetnication, use
+    -   For non-mTLS authentication, use
 
 
     `cf create-service auditlog-management central <SERVICE_INSTANCE>`
@@ -128,11 +128,11 @@ You do this procedure through Cloud Foundry Environment, which is part of a suba
 
         -   Extract the values for `uaa.clientid` and `uaa.certurl` of the key of the service instance for access token creation.
         -   Extract the value for `url` and use it for later request to retrieve audit logs.
-        -   Extract the value for `uaa.certificate`, remove all `\n` entries from the X.509 certificate and save it as a file in the `.pem` format.
-        -   Extract the value for `uaa.key`, remove all `\n` entries from the RSA private key and save it as a file in the `.pem` format.
+        -   Extract the value for `uaa.certificate`, remove all `\n` entries from the X.509 certificate, and save it as a file in the `.pem` format.
+        -   Extract the value for `uaa.key`, remove all `\n` entries from the RSA private key, and save it as a file in the `.pem` format.
 
         > ### Note:  
-        > To extract of the values and avoid errors while copying or removing characters, you can use the sed and jq tools:
+        > To extract of the values and avoid errors while copying or removing characters, you can use the `sed` and `jq` tools:
         > 
         > ```
         > cf service-key <SERVICE_INSTANCE> <SERVICE_KEY> | sed '/Getting key/d' | jq --raw-output .uaa.certurl
@@ -206,13 +206,13 @@ You do this procedure through Cloud Foundry Environment, which is part of a suba
 
 ## Audit Log Retrieval
 
-Audit Log Retrieval API supports server-side paging. If a given query produces a result with significant size, the result will be chunked. Then the response will contain an HTTP header with a handle, with which to retrieve the next chunks of the result. The handle can be passed via URL parameter in the subsequent retrieval request.
+Audit Log Retrieval API supports server-side paging. If a given query produces a result with significant size, the result is chunked. Then the response will contain an HTTP header with a handle, with which to retrieve the next chunks of the result. You can pass the handle via URL parameter in the subsequent retrieval request.
 
 Supported request parameters:
 
--   `time_from and time_to`– if no time filter is specified the default timeframe of 30 days back is returned. The time should be provided in the following format: 2018-05-11T10:42:00. Times are UTC.
+-   `time_from and time_to`– if no time filter is specified the default timeframe of 30 days back is returned. Use the following format: 2018-05-11T10:42:00. The time is in UTC.
 
--   `handle` – in case the result set is too big, it will be chunked, and a handle will be returned for reading the next chunk. It is returned as a Response Header in the form: Paging: `handle=<value>`. Then `handle=<value>` can be provided as a request parameter in the subsequent retrieval request.
+-   `handle` – in case the result set is too large, it's chunked, and a handle is returned for reading the next chunk. The handle is returned as a Response Header in the form: Paging: `handle=<value>`. Then you can provide `handle=<value>` as a request parameter in the subsequent retrieval request.
 
 
 

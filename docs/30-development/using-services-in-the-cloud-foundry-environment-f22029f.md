@@ -29,6 +29,6 @@
 
 You can also access services for the Cloud Foundry environment through SAP Service Manager, the central registry for service brokers and platforms. It’s tightly integrated with SAP BTP and allows you to consume services in connected runtime environments and to manage platforms, service brokers, service instances, and service bindings.
 
--   For more information, see [SAP Service Manager](https://help.sap.com/viewer/521608084b7447839b1564e796ea0cdc/Internal/en-US/3a27b85a47fc4dff99184dd5bf181e14.html "SAP Service Manager service is the central registry for service brokers and platforms in SAP BTP.") :arrow_upper_right:.
+-   For more information, see [SAP Service Manager](https://help.sap.com/docs/SERVICEMANAGEMENT/09cc82baadc542a688176dce601398de/3a27b85a47fc4dff99184dd5bf181e14.html?version=Cloud).
 -   To find out if SAP Service Manager is available in your desired region, search for it in the [SAP Discovery Center](https://help.sap.com/doc/aa1ccd10da6c4337aa737df2ead1855b/Cloud/en-US/3b642f68227b4b1398d2ce1a5351389a.html). In the *Pricing* tab, choose the globe icon to display a map of available regions for this service.
 

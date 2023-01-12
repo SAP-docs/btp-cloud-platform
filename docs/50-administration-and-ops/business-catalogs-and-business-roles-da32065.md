@@ -814,6 +814,8 @@ Health Monitoring
 
 `SAP_BR_ADMINISTRATOR`
 
+*Administrator*
+
 
 
 </td>

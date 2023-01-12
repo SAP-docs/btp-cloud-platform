@@ -22,15 +22,9 @@ In case the application router needs to serve HTML5 applications not stored in H
 
 When the application router is bound to HTML5 Application Repository, the following restrictions apply:
 
--   This feature is only supported in Cloud Foundry.
-
 -   It is not possible to implement the "first" middleware slot to provide routes dynamically.
 
 -   Only the `workingDir` option can be provided in the start of the application router.
-
--   The destination property is not supported.
-
--   External session management via extensibility is not supported.
 
 -   A mixed scenario of modeling part of the static content in a local resources folder and also retrieving static content from HTML5 Application Repository is not supported.
 

@@ -53,52 +53,61 @@ modules:
 
 The SAP BTP, Cloud Foundry environment provides four versions of SAP Java Buildpack as part of its system buildpacks:
 
--   *sap\_java\_buildpack* - Always holds the latest available version of SAP Java Buildpack. All new features and fixes are provided with this version.
+-   *sap\_java\_buildpack* - Holds the latest available version of SAP Java Buildpack. All new features and fixes are provided with this version.
 
--   *sap\_java\_buildpack\_<version\_latest\>* - Holds the latest available version of SAP Java Buildpack; available for a limited timeframe \(four to six weeks\).
+-   *sap\_java\_buildpack\_<version\_latest\>* - Holds the latest available version of SAP Java Buildpack; available for a limited timeframe \(4 to 6 weeks\).
 
--   *sap\_java\_buildpack\_<version\_previous\>* - This version used to be latest in the previous update of the SAP BTP, Cloud Foundry environment; available for a limited timeframe \(four to six weeks\).
+-   *sap\_java\_buildpack\_<version\_previous\>* - This version used to be latest in the previous update of the SAP BTP, Cloud Foundry environment; available for a limited timeframe \(4 to 6 weeks\).
 
--   *sap\_java\_buildpack\_<version\_before\_previous\>* - This version used to be latest before two updates of the SAP BTP, Cloud Foundry environment; available for a limited timeframe \(four to six weeks\).
+-   *sap\_java\_buildpack\_<version\_before\_previous\>* - This version used to be latest before two updates of the SAP BTP, Cloud Foundry; available for a limited timeframe \(4 to 6 weeks\).
+
+
+To check these versions:
+
+1.  Log in to a particular SAP BTP region and subaccount. Execute: `cf api <SAP BTP region>`
+
+    For example: `cf api https://api.cf.eu10.hana.ondemand.com`
+
+2.  Then execute: `cf buildpacks`
 
 
 
 
 ### Considerations about the usage of different versions of SAP Java Buildpack
 
--   If you always use *sap\_java\_buildpack* – This is the way to go in order to take advantage of any new features and fixes in SAP Java Buildpack. Thus it's guaranteed that the buildpack is always available. The drawback in this case is the limited time for any adoption which might be needed. In such a scenario, applications can fall back to an older version temporarily to avoid any down time.
+-   If you always use **sap\_java\_buildpack** – This is the way to go in order to take advantage of any new features and fixes in SAP Java Buildpack. Thus it's guaranteed that the buildpack is always available. The drawback in this case is the limited time for any adoption which might be needed. In such a scenario, applications can fall back to an older version temporarily to avoid any down time.
 
--   If you pin the version of the buildpack - developers should be aware of the fact that this version will exist for a limited amount of time. This may lead to the situation where a restage is failing because the used version of the buildpack is not available anymore. To avoid this, it is recommended to follow the updates of the buildpack and test the application with the newest buildpack so that it could be adopted in time \(in case adoption is required\), and to update the version regularly. In this scenario, developers should never allow their application to run on an outdated buildpack version.
+-   If you pin a version of the buildpack - developers should be aware of the fact that this version will exist for a limited amount of time. This may lead to the situation where application restage is failing because the used version of the buildpack is not available anymore. To avoid this, it is recommended to follow the updates of the buildpack and test the application with the newest buildpack so that it could be adopted in time \(in case adoption is required\), and to update the version regularly. In this scenario, developers should never allow their application to run on an outdated buildpack version.
 
 
 **Example:**
 
-Let's say that the latest version of SAP Java Buildpack is **1.2.3**. Then, the output of the `cf buildpacks` command would be:
+Let's say that the latest version of SAP Java Buildpack is **1.50.0**. Then, the output of the `cf buildpacks` command would be:
 
 ```
 	buildpack           position   enabled   locked   filename
 
-sap_java_buildpack            1         true      false    sap_java_buildpack-1.2.3.zip
-sap_java_buildpack_1_2_3      2         true      false    sap_java_buildpack-1.2.3.zip
-sap_java_buildpack_1_2_2      3         true      false    sap_java_buildpack-1.2.2.zip
-sap_java_buildpack_1_2_1      4         true      false    sap_java_buildpack-1.2.1.zip
+sap_java_buildpack             1         true      false    sap_java_buildpack-1.50.0.zip
+sap_java_buildpack_1_50_0      2         true      false    sap_java_buildpack-1.50.0.zip
+sap_java_buildpack_1_49_0      3         true      false    sap_java_buildpack-1.49.0.zip
+sap_java_buildpack_1_48_0      4         true      false    sap_java_buildpack-1.48.0.zip
 ```
 
-When SAP Java Buildpack is updated on the SAP BTP, Cloud Foundry environment from version **1.2.3** to version **1.2.4**, the list will change to:
+When SAP Java Buildpack is updated on the SAP BTP, Cloud Foundry from version **1.50.0** to **1.51.0**, the list will change to:
 
 ```
 	buildpack           position   enabled   locked   filename
 
-sap_java_buildpack            1         true      false    sap_java_buildpack-1.2.4.zip
-sap_java_buildpack_1_2_4      2         true      false    sap_java_buildpack-1.2.4.zip
-sap_java_buildpack_1_2_3      3         true      false    sap_java_buildpack-1.2.3.zip
-sap_java_buildpack_1_2_2      4         true      false    sap_java_buildpack-1.2.2.zip
+sap_java_buildpack             1         true      false    sap_java_buildpack-1.51.0.zip
+sap_java_buildpack_1_51_0      2         true      false    sap_java_buildpack-1.51.0.zip
+sap_java_buildpack_1_50_0      3         true      false    sap_java_buildpack-1.50.0.zip
+sap_java_buildpack_1_49_0      4         true      false    sap_java_buildpack-1.49.0.zip
 ```
 
-This means that *sap\_java\_buildpack\_1\_2\_1* would no longer be available for applications.
+This means that *sap\_java\_buildpack\_1\_48\_0* will no longer be available for applications.
 
 > ### Note:  
-> No fixes will be provided to the older versions of the buildpack. Fixes, including security fixes, will be part of the latest version.
+> No fixes will be provided to the older versions of the buildpack. Fixes, including security ones, will be part of the latest version.
 
 
 
@@ -110,7 +119,7 @@ To use *sap\_java\_buildpack\_<version\_suffix\>*, specify its name when pushing
 cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack_<version_suffix>
 ```
 
-Alternatively, use the buildpack attribute to specify it in the `manifest.yml` file.
+Alternatively, you can specify the buildpack in the `manifest.yml` file.
 
 For example:
 
@@ -121,7 +130,7 @@ applications:
   memory: 128M
   path: ./target/application-name.war
   instances: 1
-  buildpack: sap_java_buildpack_1.54.0
+  buildpack: sap_java_buildpack
 ```
 
 You can do the same in the `mtad.yml` of your **mtar** archive:
@@ -137,7 +146,7 @@ modules:
     parameters:
       ...
       memory: 512M
-      buildpack: sap_java_buildpack_1.54.0
+      buildpack: sap_java_buildpack_1.50.0
 ...
 ```
 
@@ -147,7 +156,7 @@ modules:
 
 ## Supported Versions
 
-The `sap_java_buildpack` supports the following Java versions:
+The SAP Java Buildpack \(`sap_java_buildpack`\) supports the following Java versions:
 
 -   Java **8** – default version when you use SAPJVM \(*it provides a JRE with Java 8*\)
 -   Java **11** – default version when you use SapMachine \(*it provides a JRE with Java 11*\). To learn how to configure your application to use SapMachine JRE and JDK, see: [SapMachine](sapmachine-785d6b3.md)
@@ -160,7 +169,7 @@ The `sap_java_buildpack` supports the following Java versions:
 
 SAP Java Buildpack provides the following components \(containers, JREs, frameworks\) in the application container \(`<APP_ROOT_DIR>/app/META-INF/.sap_java_buildpack`\):
 
--   Runtime \([Tomcat](tomcat-ddfc101.md), [TomEE \(Deprecated\)](tomee-deprecated-a9590c2.md), [TomEE 7](tomee-7-79c039a.md), [Java Main](java-main-8a1786a.md)\)
+-   Runtime – [Tomcat](tomcat-ddfc101.md), [TomEE \(Deprecated\)](tomee-deprecated-a9590c2.md), [TomEE 7](tomee-7-79c039a.md), and [Java Main](java-main-8a1786a.md)
 
 -   [Memory Calculator V1 \(SAP JVM Memory Calculator\)](memory-calculator-v1-sap-jvm-memory-calculator-c1059e0.md) - optional
 

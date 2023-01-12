@@ -22,7 +22,7 @@ To try out services that participate in the free tier model for SAP BTP, create 
 > ### Tip:  
 > To find out which services offer the Free plans, see [Discover Free Services](using-free-service-plans-524e108.md#loio524e1081d8dc4b0f9d055a6bec383ec3__Find-FreeServices). Here, you also find information on how to identify the technical limitations of the Free plan of each service.[Access Free Services](using-free-service-plans-524e108.md#loio524e1081d8dc4b0f9d055a6bec383ec3__Access-FreeServices) by assigning entitlements to subaccounts and creating service instances.
 
-Once you reach the technical limits of a service and want to continue using it, you must move to a paid service plan. Upgrading an existing service instance from free tier to paid use is straightforward and doesn't require creating a new service instance. Find out how to upgrade a service plan at [Upgrade to a Paid Service Plan](using-free-service-plans-524e108.md#loio524e1081d8dc4b0f9d055a6bec383ec3__Upgrade-FreeServices).
+Once you reach the technical limits of a service and want to continue using it, you must move to a paid service plan. Upgrading an existing service instance from free tier to paid usually doesn't require creating a new service instance. Find out how to upgrade a service plan at [Upgrade to a Paid Service Plan](using-free-service-plans-524e108.md#loio524e1081d8dc4b0f9d055a6bec383ec3__Upgrade-FreeServices).
 
 Use of free tier service plans is subject to additional terms and conditions as provided in the [Business Technology Platform Supplemental Terms and Conditions](https://www.sap.com/about/trust-center/agreements/cloud/cloud-services.html?tag=language:english&search=Supplement%20Business%20Technology%20Platform&sort=latest_desc) Only community support is available for Free service plans and these aren't subject to SLAs.
 
@@ -84,7 +84,10 @@ You can now start using this service.
 
 ## Update to a Paid Service Plan
 
-Once you've reached the limits of the free plan, you can easily upgrade the free service plan to a paid plan. No data or configurations are lost.
+Once you've reached the limits of the free plan, you can upgrade the free service plan to a paid plan.
+
+> ### Note:  
+> The option to upgrade from free tier service plans to paid service plans is not yet available for all services and runtimes, such as Kyma. To use a paid service plan for Kyma runtime, you will need a new Kyma cluster. It is possible to have both - free and paid clusters - in parallel.
 
 > ### Note:  
 > It's not possible to switch from a paid plan to a free plan.

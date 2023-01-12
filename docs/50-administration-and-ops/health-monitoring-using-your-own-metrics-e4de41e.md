@@ -10,7 +10,7 @@ In addition to using the metrics for health monitoring provided by SAP, you can 
 
 ## Background and Use Case
 
-As a customer or partner, you can use SAP Cloud ALM or SAP Focused Run to monitor the health of your systems. As part of the health monitoring in SAP Cloud ALM and SAP Focused Run, you get metrics defined by SAP that support you to watch technical issues such as the number of ABAP runtime errors, failed application jobs, or locked business users, for example, in the ABAP environment of SAP BTP.
+As a customer or partner, you can use SAP Cloud ALM or SAP Focused Run to monitor the health of your systems. As part of the health monitoring in SAP Cloud ALM and SAP Focused Run, you get metrics defined by SAP that support you to watch technical issues such as the number of ABAP runtime errors, failed application jobs, or locked business users, for example, in the ABAP environment.
 
 For your own customer or partner solutions running on the ABAP environment, you might want to define your own application-specific metrics to be able to monitor the health of these solutions. As a partner, you might also want to provide additional health monitoring metrics for your partner solution to your customers.
 

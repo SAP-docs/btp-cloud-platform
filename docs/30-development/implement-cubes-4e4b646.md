@@ -55,7 +55,7 @@ As we will be using associations and dimensions in our view, we will be implemen
 
 ## Result
 
-**Z\_BOOKINGS\_VE\_CUBE**
+**Z\_VE\_FLTBKS\_CUBE**
 
 ```abap
 @AbapCatalog.viewEnhancementCategory: [#NONE]

@@ -64,7 +64,7 @@ For more information about Cloud Foundry orgs and spaces, see the Cloud Foundry 
 
 A directory can contain directories and subaccounts to create a hierarchy. Using directories to group other directories and subaccounts is optional - you can still create subaccounts directly under your global account.
 
-You can create a hierarchical structure that is 7 levels deep. The highest level of a given path is always the global account and the lowest is a subaccount, which means that you can have up to 5 levels of directories.
+You can create a hierarchical structure that is up to 7 levels deep. The highest level of a given path is always the global account and the lowest is a subaccount, which means that you can have up to 5 levels of directories bewteen the global account and the lowest level subaccount.
 
 ![Directories and Subaccounts](images/Relationship_Between_Directories_and_Subaccounts_d60105c.png)
 
@@ -75,11 +75,14 @@ Directories allow you to:
 -   Monitor usage and costs for contracts that use the consumption-based commercial model
 
 
-In addition, you can also add the following features to your directories \(optional\):
+Optionally, you can also enable the following features in your directories:
 
 -   Manage Entitlements: Enables the assignment of a quota for services and applications to the directory from the global account quota for distribution to the directory's subaccounts.
 
     When you assign entitlements to a directory, you express the entitlements and maximum quota that can be distributed across its children subaccounts. You also have the option to choose the auto-assignment of a set amount of quota to all subaccounts created or moved to that directory. Subaccounts that are already in the directory when you select that option will not be auto-assigned quota.
+
+    > ### Note:  
+    > If you've enabled the Manage Entitlements feature for a given directory, you must first assign the necessary entitlements and maximum allowed quota from the global account to that directory before you can distribute this "reserved" quota to any of the directory's child subaccounts.
 
 -   Manage Authorizations: Enables authorization management for the directory. For example, it allows certain users to manage directory entitlements. You can only use this feature in combination with the *Manage Entitlements* feature.
 
@@ -88,6 +91,10 @@ In addition, you can also add the following features to your directories \(optio
 
 
 [Manage the Account Explorer Hierarchy \[Feature Set B\]](../50-administration-and-ops/manage-the-account-explorer-hierarchy-feature-set-b-2e2a5b6.md "Create an account structure by creating a hierarchy of directories and subaccounts using the SAP BTP cockpit. Add, move, and delete subaccounts and directories in your structure.")
+
+[Configure Entitlements and Quotas for Directories \[Feature Set B\]](../50-administration-and-ops/configure-entitlements-and-quotas-for-directories-feature-set-b-37f8871.md "Assign entitlements to directories by adding service plans and distribute the quotas available in your global account to your directories using the SAP BTP cockpit.")
+
+[Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md "Assign entitlements to subaccounts by adding service plans and distribute the quotas available in your global account to your subaccounts using the SAP BTP cockpit.")
 
 [Getting a Global Account](../20-getting-started/getting-a-global-account-d61c281.md#loiod61c2819034b48e68145c45c36acba6e "SAP BTP offers two types of global accounts: Trial accounts (completely free of charge) and enterprise accounts. Within an enterprise account, you can use both free and paid plans.")
 
@@ -100,6 +107,8 @@ In addition, you can also add the following features to your directories \(optio
 [Managing Subaccounts Using the Cockpit](../50-administration-and-ops/managing-subaccounts-using-the-cockpit-55d0b6d.md "Learn how to structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements by managing subaccounts.")
 
 [Working with Global Accounts, Directories, and Subaccounts Using the btp CLI](../50-administration-and-ops/working-with-global-accounts-directories-and-subaccounts-using-the-btp-cli-85a683e.md "Use the SAP BTP command line interface (btp CLI) to manage operations with global accounts, directories, and subaccounts.")
+
+[Account Administration Using APIs of the SAP Cloud Management Service \[Feature Set B\]](../50-administration-and-ops/account-administration-using-apis-of-the-sap-cloud-management-service-feature-set-b-17b6a17.md "Provides information about using the APIs of the SAP Cloud Management service for SAP BTP (technical name: cis) to manage some of the administrative operations in your accounts.")
 
  <a name="loioeeda449cf252418a97e0f7c9abd30b9a"/>
 

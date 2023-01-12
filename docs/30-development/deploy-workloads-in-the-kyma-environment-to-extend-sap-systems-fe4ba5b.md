@@ -43,7 +43,7 @@ Follow these steps to get familiar with workloads and learn how to use them.
 
 ## Procedure
 
-1.  Connect the SAP system you want to extend \([Extending SAP Solutions Using Automated Configurations](../40-extensions/extending-sap-solutions-using-automated-configurations-346864d.md)\).
+1.  Connect the SAP system you want to extend \([Extending SAP Solutions Using Automated Configurations](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/346864df64f24011b49abee07bbd79af.html)\).
 
 2.  Choose a Namespace in your cluster and create a simple Function \([Deploy and expose a Function](https://kyma-project.io/docs/kyma/latest/02-get-started/02-deploy-expose-function)\) or a microservice \([Deploy and expose a microservice](https://kyma-project.io/docs/kyma/latest/02-get-started/03-deploy-expose-microservice)\).
 

@@ -60,30 +60,42 @@ Ensure that no attacker can add malicious web pages or Javascript to any of the 
 
 ## Listing Allowed Redirect URIs
 
-The application security descriptor \(`xs-security.json`\) includes the *redirect-uris* parameter. This parameter contains a list of the redirect URIs that SAP BTP checks for when redirecting. If your landscape domain or custom domain isn't on this list, including wildcards, the SAP Authorization and Trust Management service won't redirect users there.
+When developing your application, provide the list of the redirect URIs that the application needs when redirecting, for example during login or logout. Enter the list in the `redirect-uris` property of the application security descriptor \(`xs-security.json`\).
 
-> ### Recommendation:  
-> Set the *redirect-uris* parameter to restrict access as much as possible.
+At runtime, the SAP Authorization and Trust Management service checks whether the redirect URI is listed in the property and rejects any other URIs. If your redirect isn't on this list, including wildcards, the service won't redirect users there.
 
-We support explicit wildcards, namely domain relaxing and arbitrary paths. For example: `"https://*.mydomain.com/callback/**"`
-
-> ### Caution:  
-> If you use wildcards, we recommend that you make your URIs as specific as possible. By using wildcards, you open up the redirect for multiple web sites. Wildcards increase the risk of redirecting to malicious web sites.
-
-For more information, see [Domain Checks at Browser Login and Logout](../30-development/domain-checks-at-browser-login-and-logout-22a7d69.md).
+The following is an example of a configuration of the `redirect-uris` property in an `xs-security.json`.
 
 ```json
 "oauth2-configuration": {
   … 
   "redirect-uris": [
-    "https://myapp.cfapps.eu10.hana.ondemand.com",
-    "https://myapp.mydomain.com/my/content"
+    "https://myapplication.cfapps.eu10-004.hana.ondemand.com",
+    "https://myapplication.cfapps.eu10-004.hana.ondemand.com/my/content",
+    "https://myapplication.mydomain.com",
+    "https://myapplication.mydomain.com/my/content"
     ],
   …
 }
 ```
 
-For more information about the application security descriptor, see [Application Security Descriptor Configuration Syntax](../30-development/application-security-descriptor-configuration-syntax-517895a.md).
+> ### Recommendation:  
+> Set the *redirect-uris* property to restrict access as much as possible.
+
+We support explicit wildcards, namely domain relaxing and arbitrary paths. For example: `"https://*.mydomain.com/callback/**"`
+
+> ### Caution:  
+> If you use wildcards, we recommend that you make your URIs as specific as possible. By using wildcards, you open up the redirect for multiple websites. Wildcards increase the risk of redirecting to malicious websites.
+
+> ### Note:  
+> In cloud landscapes, only `localhost` is always allowed by default as a redirect URI.
+
+**Related Information**  
+
+
+[Application Security Descriptor Configuration Syntax](../30-development/application-security-descriptor-configuration-syntax-517895a.md "The syntax required to set the properties and values defined in the xs-security.json application security descriptor file.")
+
+[Configure Redirect URLs for Browser Logout](../30-development/configure-redirect-urls-for-browser-logout-690931c.md "To avoid open redirect attacks, direct users to a safe and valid URL when they log out.")
 
  <a name="loio74c07afd318d46218db291ffb8c25b23"/>
 

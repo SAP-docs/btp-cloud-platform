@@ -35,8 +35,10 @@ Extension business cases often involve extending several SAP solutions at a time
 
 -   A single system of the supported SAP solutions.
 
+-   SAP systems that expose event data, which can be shared and exchanged with the systems included in the formation.
 
-When creating a formation in the SAP BTP cockpit, you include the systems of the different SAP solutions you want to extend. If your business case features more than one SAP solution system, you can use the corresponding button to include additional systems in the formation. You can start the dialog as many times and add systems as you want to your formation.
+
+When creating a formation in the SAP BTP cockpit, you include the systems of the different SAP solutions you want to extend. If your business case features more than one SAP solution system, you can use the corresponding button to include additional systems in the formation. You can start the dialog as many times and add systems to your formation as you want.
 
 The table below outlines the system types that you can include in a formation, as well as, the supported SAP BTP environment:
 
@@ -228,7 +230,75 @@ Supported
 
     2.  Specify a type for the formation.
 
-        The formation type defines the use case. Depending on the type, a list of systems that can be included in this formation is loaded at the following step of the wizard.
+        The formation type defines the use case. Therefore, depending on the use case, you can specify one of the following formation types:
+
+        ****
+
+
+        <table>
+        <tr>
+        <th valign="top">
+
+        Formation Type
+
+
+        
+        </th>
+        <th valign="top">
+
+        Description
+
+
+        
+        </th>
+        </tr>
+        <tr>
+        <td valign="top">
+
+         *Side-by-side Extensibility with Kyma* 
+
+
+        
+        </td>
+        <td valign="top">
+
+        Formations of type *Side-by-side extensibility with Kyma* enable business scenarios that involve extending the functionality of several SAP systems at a time with SAP BTP Kyma environment instance.
+
+        See:
+
+        [Extending SAP S/4HANA Cloud in the Cloud Foundry and Kyma Environment](extending-sap-s-4hana-cloud-in-the-cloud-foundry-and-kyma-environment-40b9e6c.md)
+
+        [Extending SAP Marketing Cloud in the Cloud Foundry and Kyma Environment](extending-sap-marketing-cloud-in-the-cloud-foundry-and-kyma-environment-18bb3d9.md)
+
+        [Extending SAP SuccessFactors in the Cloud Foundry and Kyma Environment](extending-sap-successfactors-in-the-cloud-foundry-and-kyma-environment-9e33934.md)
+
+        [Extending SAP Customer Experience Products in the Kyma Environment](extending-sap-customer-experience-products-in-the-kyma-environment-83df31a.md)
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+
+         *Developing with SAP Business Application Studio* 
+
+
+        
+        </td>
+        <td valign="top">
+
+        Formations of type *Developing with SAP Business Application Studio* enable connectivity between given SAP systems of type *SAP S/4HANA Cloud* from the *System Landscape* page of SAP BTP cockpit and the SAP Business Application Studio, you must create a formation of the corresponding type and include the SAP S/4HANA Cloud systems in it.
+
+        See [Enabling System Landscape for SAP Business Application Studio](enabling-system-landscape-for-sap-business-application-studio-272ca23.md).
+
+
+        
+        </td>
+        </tr>
+        </table>
+        
+        Depending on the type, a list of systems that can be included in this formation is loaded at the following step of the wizard.
 
     3.  Specify a subaccount that you want to associate with the formation.
 

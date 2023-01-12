@@ -2,7 +2,7 @@
 
 # Enabling Notifications on SAP BTP, ABAP environment in Launchpads Running on SAP BTP
 
-Get an overview of the communication scenario `SAP_COM_0683` - Enabling Notifications from SAP BTP, ABAP environment in launchpads running on SAP BTP. The launchpads running on SAP BTP include the SAP Launchpad service and SAP Cloud Portal service.
+Get an overview of the communication scenario `SAP_COM_0683` - Enabling Notifications from SAP BTP, ABAP environment in launchpads running on SAP BTP. The launchpads running on SAP BTP include the SAP Build Work Zone, standard edition and SAP Cloud Portal service.
 
 
 

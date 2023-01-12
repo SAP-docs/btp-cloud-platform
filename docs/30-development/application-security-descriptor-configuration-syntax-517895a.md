@@ -875,7 +875,7 @@ The `xsuaa` service broker registers and uses these values for the configuration
 > "oauth2-configuration": {
 >      "token-validity": 43200, 
 >      "redirect-uris": [
-> 	     "https://myapp.cfapps.eu10.hana.ondemand.com",
+> 	     "https://myapp.cfapps.eu10-004.hana.ondemand.com",
 >           "https://myapp.mydomain.com/my/content"],
 >      "refresh-token-validity": 1800,
 >      "credential-types": ["binding-secret","x509"],
@@ -988,7 +988,7 @@ We support explicit wildcards, namely domain relaxing and arbitrary paths. For e
 > ### Caution:  
 > If you use wildcards, we recommend that you make your URIs as specific as possible. By using wildcards, you open up the redirect for multiple web sites. Wildcards increase the risk of redirecting to malicious web sites.
 
-For more information, see [Domain Checks at Browser Login and Logout](domain-checks-at-browser-login-and-logout-22a7d69.md).
+For more information, see [Listing Allowed Redirect URIs](../60-security/security-considerations-for-the-sap-authorization-and-trust-management-service-f117cab.md#loio88b7d9d4c6ff4498b48dbc0b7be8a294).
 
 
 

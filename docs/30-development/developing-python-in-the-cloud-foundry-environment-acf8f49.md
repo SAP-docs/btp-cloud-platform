@@ -22,7 +22,7 @@ To get familiar with the buildpack and how to deploy applications with it, take 
 
 ## SAP Python Packages
 
-SAP includes a selection of Python packages, which are available for download and use for customers and partners who have the appropriate access authorization. You can download them, log on to [SAP Software Download Center](https://launchpad.support.sap.com/#/softwarecenter) and search for software component **XS\_PYTHON**, which is an archive that contains the SAP packages.
+SAP includes a selection of Python packages, which are available for download and use for customers and partners who have the appropriate access authorization. To download them, log on to [SAP Software Download Center](https://launchpad.support.sap.com/#/softwarecenter) and search for software component **XS\_PYTHON**, which is an archive that contains the SAP packages.
 
 The following table lists the SAP Python packages that are currently available. For more details about the contents of each Python package, as well as any configuration tips, see the README file in the corresponding package.
 
@@ -88,7 +88,7 @@ Provides audit logging functionalities for Python applications.
 </td>
 <td valign="top">
 
-XS Advanced Container Security API for Python.
+SAP XS Advanced Container Security API for Python.
 
 
 
@@ -137,11 +137,14 @@ The SAP HANA Database Client provides means for database connectivity.
 
 ## Buildpack Versioning
 
-The SAP BTP, Cloud Foundry environment provides one recent version of the Python buildpack as part of its system buildpacks. You can check this version by executing:
+The SAP BTP, Cloud Foundry environment provides one recent version of the Python buildpack as part of its system buildpacks. To check this version:
 
-```
-cf buildpacks
-```
+1.  Log in to a particular SAP BTP region and subaccount. Execute: `cf api <SAP BTP region>`
+
+    For example: `cf api https://api.cf.eu10.hana.ondemand.com`
+
+2.  Then execute: `cf buildpacks`
+
 
 To learn about changes in Python versions and features, regularly check the latest [buildpack releases](https://github.com/cloudfoundry/python-buildpack/releases) in the GitHub community page.
 
@@ -151,10 +154,15 @@ To learn about changes in Python versions and features, regularly check the late
 
 ## Supported Versions
 
-The SAP `python_buildpack` supports the following versions:
+The `python_buildpack` supports the following versions:
 
--   Python **3.7** and higher – recommended versions
--   Python **3.6** – going out of maintenance soon, as per [Python release roadmap](https://www.python.org/downloads/). We strongly recommend that you switch to version 3.7 or higher.
+-   Python **3.7**
+-   Python **3.8**
+-   Python **3.9**
+-   Python **3.10**
+
+> ### Note:  
+> Version **3.6** is out of maintenance, as per [Python release roadmap](https://www.python.org/downloads/). We strongly recommend that you switch to version 3.7 or higher.
 
 
 

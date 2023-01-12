@@ -2,22 +2,22 @@
 
 # Register the Multitenant Application to the SAP SaaS Provisioning Service
 
-To make a multitenant application available for subscription to SaaS consumer tenants, you \(the application provider\) must register the application in the Cloud Foundry environment via the SAP Software-as-a-Service Provisioning service \(technical name: `saas-registry`\).
+To make a multitenant application available for subscription to SaaS consumer tenants, you \(the application provider\) must register the application in the Cloud Foundry environment via the SaaS Provisioning Service \(technical name: `saas-registry`\).
 
 
 
 ## Context
 
-The SAP SaaS Provisioning service allows application providers to register multitenant applications and services in the Cloud Foundry environment in SAP BTP. This activity is a one-time procedure per multitenant application.
+The SaaS Provisioning Service allows application providers to register multitenant applications and services in the Cloud Foundry environment in SAP BTP. This activity is a one-time procedure per multitenant application.
 
 
 
 ## Procedure
 
-1.  Create a service instance of the SAP SaaS Provisioning service with a configuration JSON file in the Cloud Foundry space where the multitenant application is deployed.
+1.  Create a service instance of the SaaS Provisioning Service with a configuration JSON file in the Cloud Foundry space where the multitenant application is deployed.
 
     > ### Tip:  
-    > You can create the SAP SaaS Provisioning service instance directly in the SAP BTP cockpit.
+    > You can create the SaaS Provisioning Service instance directly in the SAP BTP cockpit.
 
     For general instructions, see [Creating Service Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/fad874a99a434ae58c59d7340a528bdc.html).
 
@@ -86,7 +86,7 @@ The SAP SaaS Provisioning service allows application providers to register multi
         </td>
         <td valign="top">
 
-        \(Optional\) Implement a callback API that is executed by the SAP SaaS Provisioning Service to retrieve your application's dependencies.
+        \(Optional\) Implement a callback API that is executed by the SaaS Provisioning Service to retrieve your application's dependencies.
 
         > ### Note:  
         > Implement only if your application has dependencies.
@@ -97,7 +97,7 @@ The SAP SaaS Provisioning service allows application providers to register multi
 
             -   GET
 
-            -   URL: Define the endpoint to which SAP SaaS Provisioning Service executes the request. For example: <code>https://<i class="varname">&lt;app url&gt;</i>/callback/v1.0/dependencies</code>
+            -   URL: Define the endpoint to which SaaS Provisioning Service executes the request. For example: <code>https://<i class="varname">&lt;app url&gt;</i>/callback/v1.0/dependencies</code>
 
         -   Response:
             -   HTTP Status Code: 200 \(Ok\)
@@ -220,7 +220,7 @@ The SAP SaaS Provisioning service allows application providers to register multi
         </td>
         <td valign="top">
 
-        The number of milliseconds the SAP SaaS Provisioning service waits for the application's subscription asynchronous callback to execute, before it changes the subscription status to `FAILED`.
+        The number of milliseconds the SaaS Provisioning Service waits for the application's subscription asynchronous callback to execute, before it changes the subscription status to `FAILED`.
 
 
         
@@ -345,7 +345,7 @@ The SAP SaaS Provisioning service allows application providers to register multi
     > 
     > For more information, see [Application Security Descriptor Configuration Syntax](application-security-descriptor-configuration-syntax-517895a.md).
 
-3.  Bind the SAP SaaS Provisioning service instance that you created to the multitenant application that you deployed in your Cloud Foundry space using the following cf CLI command:
+3.  Bind the SaaS Provisioning Service instance that you created to the multitenant application that you deployed in your Cloud Foundry space using the following cf CLI command:
 
     ```
     cf bind-service <APP_NAME> <SAAS_REGISTRY_SERVICE_INSTANCE>
@@ -397,7 +397,7 @@ The SAP SaaS Provisioning service allows application providers to register multi
     </td>
     <td valign="top">
 
-    The name of the SAP SaaS Provisioning service instance you created in step 1 above.
+    The name of the SaaS Provisioning Service instance you created in step 1 above.
 
 
     
@@ -411,7 +411,7 @@ The SAP SaaS Provisioning service allows application providers to register multi
     > ```
 
     > ### Tip:  
-    > You can bind your application to the SAP SaaS Provisioning service instance directly in the SAP BTP cockpit.
+    > You can bind your application to the SaaS Provisioning Service instance directly in the SAP BTP cockpit.
 
     For general instructions, see [Binding Service Instances to Applications](binding-service-instances-to-applications-e98280a.md).
 

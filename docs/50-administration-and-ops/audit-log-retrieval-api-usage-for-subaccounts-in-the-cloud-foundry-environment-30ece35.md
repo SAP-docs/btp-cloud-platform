@@ -17,26 +17,26 @@ Retrieving of audit logs via the Audit Log Retrieval API is limited to the size 
 To execute the procedure, you need to have the `Space Developer` role for the corresponding Space.
 
 > ### Note:  
-> For security reasons, we strogly recommend you to recreate the `auditlog-management` Service-Instance bindings and service keys at least every 90 days.
+> For security reasons, we strongly recommend you to re-create the `auditlog-management` Service-Instance bindings and service keys at least every 90 days.
 
 
 
 <a name="loio30ece35bac024ca69de8b16bff79c413__section_yfz_xrt_pfb"/>
 
-## Create instance of the `auditlog-management` service
+## Create Instance of the `auditlog-management` Service
 
-1.  Create a Cloud Foundry Org and Space, in case you do not have any. See [Create Spaces](create-spaces-2f6ed22.md).
+1.  Create a Cloud Foundry Org and Space, in case you don't have any. See [Create Spaces](create-spaces-2f6ed22.md).
 
-2.  Login to the Cloud Foundry landscape using the corresponding Cloud Foundry API \(Infrastructure/Landscape Overview\).
+2.  Log in the Cloud Foundry landscape using the corresponding Cloud Foundry API \(Infrastructure/Landscape Overview\).
 
     ```
     cf login -a <API_URL> -o <ORG> -s <SPACE> -u <USER>
     ```
 
-3.  Create a service instance of the service `auditlog-management`
+3.  Create a service instance of the service `auditlog-management`.
 
     > ### Note:  
-    > For security reasons, we strongly recommend you to adopt the provided mutual TLS authentication \(mTLS\). The mTLS authentication relies on X.509 certificates for the verification of the parties in the network connection, by creating the `auditlog-managenment` service instances with the additional parameters, as explained in the following mTLS points.
+    > For security reasons, we strongly recommend you to adopt the provided mutual TLS authentication \(mTLS\). The mTLS authentication relies on X.509 certificates for the verification of the parties in the network connection. Create the `auditlog-managenment` service instances with the additional parameters, as explained in the following mTLS points.
 
     -   \(Recommended\) For mTLS authentication using X.509 certificates, use:
 
@@ -51,7 +51,7 @@ To execute the procedure, you need to have the `Space Developer` role for the co
         }'
         ```
 
-    -   For non-mTLS authetnication, use
+    -   For non-mTLS authentication, use
 
 
     `cf create-service auditlog-management default <SERVICE_INSTANCE>`
@@ -93,11 +93,11 @@ To execute the procedure, you need to have the `Space Developer` role for the co
 
         -   Extract the values for `uaa.clientid` and `uaa.certurl` of the key of the service instance for access token creation.
         -   Extract the value for `url` and use it for later request to retrieve audit logs.
-        -   Extract the value for `uaa.certificate`, remove all `\n` entries from the X.509 certificate and save it as a file in the `.pem` format.
-        -   Extract the value for `uaa.key`, remove all `\n` entries from the RSA private key and save it as a file in the `.pem` format.
+        -   Extract the value for `uaa.certificate`, remove all `\n` entries from the X.509 certificate, and save it as a file in the `.pem` format.
+        -   Extract the value for `uaa.key`, remove all `\n` entries from the RSA private key, and save it as a file in the `.pem` format.
 
         > ### Note:  
-        > To extract of the values and avoid errors while copying or removing characters, you can use the sed and jq tools:
+        > To extract of the values and avoid errors while copying or removing characters, you can use the `sed` and `jq` tools:
         > 
         > ```
         > cf service-key <SERVICE_INSTANCE> <SERVICE_KEY> | sed '/Getting key/d' | jq --raw-output .uaa.certurl
@@ -171,13 +171,13 @@ To execute the procedure, you need to have the `Space Developer` role for the co
 
 ## Audit Log Retrieval
 
-The Audit Log Retrieval API supports server-side paging. If a given query produces a result with significant size, the result will be chunked. Then the response will contain an HTTP header with a handle, with which to retrieve the next chunks of the result. The handle can be passed via URL parameter in the subsequent retrieval request.
+The Audit Log Retrieval API supports server-side paging. If a given query produces a result with significant size, the result is chunked. The response contains an HTTP header with a handle, with which to retrieve the next chunks of the result. You can pass the handle via URL parameter in the subsequent retrieval request.
 
 Supported request parameters:
 
--   `time_from and time_to`– if no time filter is specified the default timeframe of 30 days back is returned. The time should be provided in the following format: 2018-05-11T10:42:00. Times are UTC.
+-   `time_from and time_to`– if no time filter is specified the default timeframe of 30 days back is returned. Use the following format: 2018-05-11T10:42:00. The time is in UTC.
 
--   `handle` – in case the result set is too big, it will be chunked, and a handle will be returned for reading the next chunk. It is returned as a Response Header in the form: Paging: `handle=<value>`. Then `handle=<value>` can be provided as a request parameter in the subsequent retrieval request.
+-   `handle` – in case the result set is too large, it's chunked, and a handle is returned for reading the next chunk. The handle is returned as a Response Header in the form: Paging: `handle=<value>`. Then you can provide `handle=<value>` as a request parameter in the subsequent retrieval request.
 
 
 
@@ -272,3 +272,4 @@ Predefined audit log message categories:
 [Audit Log Retrieval API for the Cloud Foundry Environment](https://api.sap.com/api/CFAuditLogRetrievalAPI/resource)
 
 [API Documentation](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/4570e92cd29e419dbeee4caa1ef90701.html "API documentation for the Neo environment.") :arrow_upper_right:
+

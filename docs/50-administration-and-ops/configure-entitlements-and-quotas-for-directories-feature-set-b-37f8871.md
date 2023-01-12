@@ -21,7 +21,17 @@ Assign entitlements to directories by adding service plans and distribute the qu
 
 ## Prerequisites
 
--   You are a global account administrator
+-   You are a global account administrator.
+
+-   The service and applications that you intend to assign to your directory must be entitled to your global account.
+
+    -   For enterprise accounts that use the subscription-based commercial model, your account receives only the services that you've already purchased and subscribed to according to your SAP BTP contract. To access additional services, at an extra cost, you can modify your contract via your sales representative or account executive.
+
+    -   For enterprise accounts that use the consumption-based commercial model, your global account receives all pay-for-use and free services that are eligible for this commercial model.
+
+    -   If you have a trial account, you'll receive a restricted set of free platform resources and services for a limited time period. To access additional services, you'll have to switch to an enterprise account.
+
+
 
 
 
@@ -29,9 +39,15 @@ Assign entitlements to directories by adding service plans and distribute the qu
 
 ## Procedure
 
-1.  Navigate to the directory for which you want to manage entitlements.
+1.  In the *Account Explorer*, navigate to the directory for which you want to manage entitlements.
 
-2.  If entitlement mangement is not enabled for a directory in this path yet, navigate to the *Entitlements* page and select *Enable Entitlement Management*.
+2.  If entitlement management is not yet enabled for this directory yet, navigate to the direrctory's *Entitlements* page and select *Enable Entitlement Management*.
+
+    > ### Tip:  
+    > You can quickly tell if the entitlement management has enabled if the directory's *Entitlements* page in the navigation panel has two subpages, *Entity Assignments* and *Service Assignments*. Also the directory's *Overview* page will have the *Disable Entitlement Management*button.
+
+    > ### Note:  
+    > Any given directory path in the account hierarchy can have only one directory that is enabled with the entitlement management feature \(or with the authorization management feature\). If such a directory exists, other directories in that path can only have the default directory features enabled.
 
 3.  Navigate to *Entitlements* \> *Entity Assignments*.
 
@@ -68,6 +84,8 @@ Assign entitlements to directories by adding service plans and distribute the qu
     <td valign="top">
 
     Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the directory. Choose *Add <x\> Service Plans* in the dialog to confirm.
+
+    Remember, the services that you see depend on the type of global account you have and your contract details \(see the prerequisites above for more information\).
 
     Once you've added new service plans, you can also change the quota for those plans as described in the following row and enable the option to auto-assign quota to subaccounts. For service plans where quota can be increased or decreased, you can also specify what amount should be auto-assigned to each subaccount that is created or added to the directory.
 
@@ -140,7 +158,24 @@ Assign entitlements to directories by adding service plans and distribute the qu
 ## Prerequisites
 
 -   You are a global account administrator.
--   Your directory has the manage entitlements feature enabled. To do that, navigate to the directory and on the *Entitlements* page, click *Enable Entitlement Management*.
+
+-   Your directories have the entitlement management feature enabled. To do that, navigate to the directory and on the *Entitlements* page, click *Enable Entitlement Management*.
+
+    > ### Tip:  
+    > You can quickly tell if the entitlement management has enabled if the directory's *Entitlements* page in the navigation panel has two subpages, *Entity Assignments* and *Service Assignments*. Also the directory's *Overview* page will have the *Disable Entitlement Management*button.
+
+    > ### Note:  
+    > Any given directory path in the account hierarchy can have only one directory that is enabled with the entitlement management feature \(or with the authorization management feature\). If such a directory exists, other directories in that path can only have the default directory features enabled.
+
+-   The service and applications that you intend to assign to your directories must be entitled to your global account.
+
+    -   For enterprise accounts that use the subscription-based commercial model, your account receives only the services that you've already purchased and subscribed to according to your SAP BTP contract. To access additional services, at an extra cost, you can modify your contract via your sales representative or account executive.
+
+    -   For enterprise accounts that use the consumption-based commercial model, your global account receives all pay-for-use and free services that are eligible for this commercial model.
+
+    -   If you have a trial account, you'll receive a restricted set of free platform resources and services for a limited time period. To access additional services, you'll have to switch to an enterprise account.
+
+
 
 
 
@@ -194,6 +229,8 @@ Assign entitlements to directories by adding service plans and distribute the qu
     <td valign="top">
 
     Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the directory. Choose *Add <x\> Service Plans* in the dialog to confirm.
+
+    Remember, the services that you see depend on the type of global account you have and your contract details \(see the prerequisites above for more information\).
 
     Once you've added new service plans, you can also change the quota for those plans as described in the following row and enable the option to auto-assign quota to subaccounts. For service plans where quota can be increased or decreased, you can also specify what amount should be auto-assigned to each subaccount that is created or added to the directory.
 

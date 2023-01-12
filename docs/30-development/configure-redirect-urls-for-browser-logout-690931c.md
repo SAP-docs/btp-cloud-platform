@@ -25,7 +25,7 @@ You’ve deployed an application in the Cloud Foundry environment of SAP BTP. Bu
 
 -   In the application descriptor \(`xs-app.json`\), you define a public logout page.
 
--   To avoid redirects, for example to malicious web sites, `xsuaa` compares this public URL with a list of allowed redirect URLs. You define them in the OAuth 2.0 configuration parameter of the application security descriptor \(`xs-security.json`\).
+-   To avoid redirects, for example to malicious web sites, `xsuaa` compares this public URL with a list of allowed redirect URLs. You define them in the OAuth 2.0 configuration property of the application security descriptor \(`xs-security.json`\).
 
 
 
@@ -34,7 +34,7 @@ You’ve deployed an application in the Cloud Foundry environment of SAP BTP. Bu
 
 ## Procedure
 
-1.  Define `xs-app.json` in the application router folder of your application. Include a logout endpoint and define a logout page \(here ***logout.html***\) which can be accessed without authentication. For more options, see [Browser Redirects Using Wildcards](browser-redirects-using-wildcards-88eb3e8.md).
+1.  Define `xs-app.json` in the application router folder of your application. Include a logout endpoint and define a logout page \(here ***logout.html***\) which can be accessed without authentication.
 
     > ### Sample Code:  
     > ```
@@ -89,11 +89,9 @@ You’ve deployed an application in the Cloud Foundry environment of SAP BTP. Bu
 
 7.  To define the redirect URIs, go to the folder where `xs-security.json` is stored.
 
-8.  Define the redirect URIs in the `oauth2-configuration` parameter.
+8.  Define the redirect URIs in the `oauth2-configuration` property.
 
 9.  Add a URL that contains the hostname of your application.
-
-    ***https://*<application\_hostname\>*.\*/\*\****
 
     > ### Sample Code:  
     > ```
@@ -104,11 +102,8 @@ You’ve deployed an application in the Cloud Foundry environment of SAP BTP. Bu
     >  "oauth2-configuration": {
     >                                            "token-validity": 900, 
     >                                            "redirect-uris": ["https://[/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/strong/varname
-    >      {"varname"}) <application_hostname> (varname].[/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/strong/span
-    >      {""}) [/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/strong/span/varname
-    >      {"varname"}) <custom_domain> (varname] (span].[/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/strong/span
-    >      {""}) [/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/strong/span/varname
-    >      {"varname"}) <landscape_domain> (varname] (span]/**"
+    >      {"varname"}) <application_hostname> (varname].[/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/strong/varname
+    >      {"varname"}) <landscape_domain> (varname]/**"
     >                                                             ],
     >                                            "autoapprove": "true"
     > }
@@ -119,12 +114,12 @@ You’ve deployed an application in the Cloud Foundry environment of SAP BTP. Bu
     > The application domain is the first part of the application URL: For more information, see the related link.
     > 
     > > ### Example:  
-    > > <code><b>myapplication</b>.cfapps.hana.ondemand.com</code>
+    > > <code><b>myapplication</b>.cfapps.hana.ondemand.com/**</code>
     > 
     > > ### Example:  
     > > For China \(Shanghai\) region:
     > > 
-    > > <code><b>myapplication</b>.mycustomdomain.cn</code>
+    > > <code><b>myapplication</b>.mycustomdomain.cn/**</code>
 
 10. Update the `xsuaa` service instance that is bound to your application.
 
@@ -146,4 +141,8 @@ You’ve deployed an application in the Cloud Foundry environment of SAP BTP. Bu
 [Update a Service Instance](update-a-service-instance-7f926eb.md "You can update a service instance from the xsuaa service using the service broker.")
 
 [Cloud Foundry Command Line Interface](https://docs.cloudfoundry.org/cf-cli/cf-help.html)
+
+[Application Security Descriptor Configuration Syntax](application-security-descriptor-configuration-syntax-517895a.md "The syntax required to set the properties and values defined in the xs-security.json application security descriptor file.")
+
+[Security Considerations for the SAP Authorization and Trust Management Service](../60-security/security-considerations-for-the-sap-authorization-and-trust-management-service-f117cab.md#loiof117cab6b92d438cb2a0b5204713994b "Decisions you make when using or administrating the SAP Authorization and Trust Management service (XSUAA) can have an impact on the security of your applications. The information provided is meant to help you decide.")
 

@@ -12,7 +12,19 @@ Assign entitlements to subaccounts by adding service plans and distribute the qu
 
 ## Prerequisites
 
-You must be a global account administrator to configure subaccount entitlements.
+-   You must be a global account administrator to configure subaccount entitlements.
+
+-   The service and applications that you intend to assign to your subaccounts must be entitled to your global account.
+
+    -   For enterprise accounts that use the subscription-based commercial model, your account receives only the services that you've already purchased and subscribed to according to your SAP BTP contract. To access additional services, at an extra cost, you can modify your contract via your sales representative or account executive.
+
+    -   For enterprise accounts that use the consumption-based commercial model, your global account receives all pay-for-use and free services that are eligible for this commercial model.
+
+    -   If you have a trial account, you'll receive a restricted set of free platform resources and services for a limited time period. To access additional services, you'll have to switch to an enterprise account.
+
+
+-   If you are assigning a service to a subaccount that is under a directory, which manages its own entitlements and quota \(in other words, the directory has the *Manage Entitlements* feature enabled\), the given directory must first be assigned with the necessary entitlement and maximum allowed quota before you can distribute any of the reserved quota to any of the directory's child subaccounts.
+
 
 
 
@@ -22,10 +34,14 @@ You must be a global account administrator to configure subaccount entitlements.
 
 You can distribute entitlements and quotas across subaccounts within a global account from two places in the cockpit:
 
--   The *Entitlements* \> *Subaccount Assignments* page at global account level \(only visible to global account administrators\)
--   The *Entitlements* page at subaccount level \(visible to all subaccount members, but only editable by global account administrators\)
+-   The *Entitlements* \> *Entity Assignments* page at global account level \(visible only to global account administrators\).
 
-\[Feature Set A\] To get an overview of all the services and plans available in the global account, you can navigate to *Entitlements* \> *Service Assignments* using the left hand-side navigation. There you can see the global usage of each service plan, as well as the detailed assignments of each service across subaccounts, but you aren't able to make changes on this page.
+    If your account is part of cloud management tools feature set A, this page is called *Subaccount Assignments*.
+
+-   The *Entitlements* page at subaccount level \(visible to all subaccount members, but editable only by global account administrators\).
+
+> ### Tip:  
+> To get an overview of all the services and plans available in the global account, you can navigate to *Entitlements* \> *Service Assignments* using the left hand-side navigation. There you can see the global usage of each service plan, as well as the detailed assignments of each service across subaccounts and directories. This page is for viewing purposes only; you cannot make any assignment changes from it.
 
 For more information, see [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
 
@@ -48,10 +64,9 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
 
 1.  Navigate to your global account.
 
-2.  Choose *Entitlements* \> *Subaccount Assignments* from the left hand-side navigation.
+2.  \[Feature Set B\] Choose *Entitlements* \> *Entity Assignments* from the left hand-side navigation.
 
-    > ### Note:  
-    > \[Feature Set B\] Choose *Entitlements* \> *Entity Assignments* from the left hand-side navigation.
+    \[Feature Set A\] Choose *Entitlements* \> *Subaccount Assignments* from the left hand-side navigation.
 
 3.  At the top of the page, select all the subaccounts for which you would like to configure or display entitlements.
 
@@ -98,6 +113,8 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
     <td valign="top">
 
     Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the subaccount.
+
+    Remember, the services that you see depend on the type of global account you have and your contract details \(see the prerequisites above for more information\).
 
     > ### Tip:  
     > If your global account is configured to consume remote services from a non-SAP cloud vendor \(resource provider\), an additional dropdown list is displayed in the *Service Details* pane, where you can choose a configured resource provider. You can then choose the required service plans that are available for the selected resource provider to add them to the subaccount.
@@ -231,6 +248,8 @@ In addition to being a global account administrator, you must also be a member o
     <td valign="top">
 
     Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the subaccount.
+
+    Remember, the services that you see depend on the type of global account you have and your contract details \(see the prerequisites above for more information\).
 
     > ### Tip:  
     > If your global account is configured to consume remote services from a non-SAP cloud vendor \(resource provider\), an additional dropdown list is displayed in the *Service Details* pane, where you can choose a configured resource provider. You can then choose the required service plans that are available for the selected resource provider to add them to the subaccount.

@@ -1,14 +1,10 @@
 <!-- loio4bfe9c71cf10466a8674a6ef8953cb18 -->
 
-# Getting an Access Token for Resource Consumption APIs
+# Configuration for Using the Resource Consumption APIs in the SAP API Business Hub
 
 The **Resource Consumption** APIs of the SAP Usage Data Management service for SAP BTP are protected with OAuth 2.0 Client Credentials grant type and in some cases, also the Password grant type.
 
 
-
-This procedure guides you through the steps to create an OAuth client and obtain an access token from the SAP Authorization and Trust Management service `XSUAA` service to call the *Resource Consumption* APIs.
-
-For more information, see [Consuming Services in Other Environments Using the SAP Service Manager Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/0714ac254e83492281d95e25548b388c.html).
 
 > ### Note:  
 > OAuth 2.0 Password grant type is only mandatory for the `subaccountUsage` API.
@@ -162,21 +158,18 @@ For more information, see [Consuming Services in Other Environments Using the SA
     > 
     > ```
 
-4.  Using the*<access\_token\>* that you received in the previous step to call the Resource Consumption APIs in Swagger:
-    1.  Choose one of the endpoints of your service instance. See step 2.
-    2.  Browse to `<target url>/swagger-ui.html`.
-    3.  In Swagger, choose *Authorize*.
-    4.  Enter the `api_key` and choose *Authorize*.
+4.  Using the *<access\_token\>* that you received in the previous step you can call the [Resource Consumption APIs](https://api.sap.com/api/APIUasReportingService/tryout) using bearer authentication or you can try them directly in SAP API Business Hub using the following steps:
 
-        > ### Note:  
-        > Use the `<access_token>` that you received in step 3 to compose the `api_key` in the format `Bearer` *<access\_token\>*.
+    1.  Got to [Resource Consumption APIs](https://api.sap.com/api/APIUasReportingService/tryout) in the SAP API Business Hub.
+    2.  Choose *Select Environment* and select the *Add New Environment* option
+    3.  In the *Authentication Type* field, select*OAuth 2.0 Application Flow*.
+    4.  Provide the parameters that you have retrieved in the following fields: `clientid`, `clientsecret`, and `identityzone`.
+    5.  Save your changes.
 
 
-5.  Choose the API that you want to call, provide the relevant parameters, and choose *Try it out!*.
+5.  Choose the API that you want to call, provide the relevant parameters, and choose *Run*.
 
--   To learn more about SAP API Business Hub, see [What Is the SAP API Business Hub?](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/54871d308811444d8d84fbb3fb82cf4c.html)
--   To start working with the *Resource Consumption* APIs in SAP API Business Hub, you'll need to configure an environment. See [Trying Out APIs in a Configured Environment](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/f7796baaef6a48e9867298827f5028ff.html).
--   To configure an environment using the *Create New Environment* wizard, see [Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md).
+To learn more about SAP API Business Hub, see [What Is the SAP API Business Hub?](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/54871d308811444d8d84fbb3fb82cf4c.html)
 
 **Related Information**  
 

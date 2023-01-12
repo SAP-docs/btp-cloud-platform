@@ -52,6 +52,8 @@ When you remove quotas or entitlements from a subaccount, they become available 
 
 For example, let's say you've purchased 10 units of service plan <x\> for your global account. If you have 3 subaccounts in your global account and you assign all 10 units to only one of them, the other 2 subaccounts won't be able to use that service plan at all. You would have to remove some quota from that one subaccount and then entitle that service plan to the other subaccount, distributing the globally available quota among them.
 
+For more information, see [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md).
+
 
 
 <a name="loio00aa2c23479d42568b18882b1ca90d79__section_lqp_5b2_klb"/>
@@ -67,10 +69,15 @@ When assigning entitlements and quotas to directories, you also have the option 
 
 Since directories are only a way of grouping subaccounts, you can’t consume a service at directory level. However, when you assign entitlements and quotas from the global account to a directory, the quota you assigned is shown as used, even if there are no subaccounts in that directory to consume the quota. You can think of it as a way to "reserve" quota and make sure it's not assigned to other subaccounts or directories.
 
-When you remove quotas or entitlements from a directory or subaccount, they become available again at global account level and can be assigned to other directories or subaccounts.
+When you remove quotas or entitlements from a directory or subaccount, they become available again at global account level and can be assigned to other directories or subaccounts; unless the quota is reserved for a given directory then the freed quota remains available only to that directory and its subaccounts.
 
 > ### Note:  
 > Before a subaccount admin can enable a quota-based environment, such as Kyma, the subaccount admin must first assign the environment as an entitlement to the subaccount. Other environments, such as Cloud Foundry, are available by default to all subaccounts, and therefore are not available as entitlements.
+
+For more information, see:
+
+-   [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md)
+-   [Configure Entitlements and Quotas for Directories \[Feature Set B\]](../50-administration-and-ops/configure-entitlements-and-quotas-for-directories-feature-set-b-37f8871.md)
 
 
 

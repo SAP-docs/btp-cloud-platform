@@ -28,7 +28,7 @@ As an administrator, you must perform several steps to set up a fully operationa
     > ### Note:  
     > Assign the roles before the users start using the Kyma Dashboard. Not granting the roles results in an error.
 
-3.  Use the Kyma environment to integrate external systems: [Register an SAP Customer Experience System](../40-extensions/register-an-sap-customer-experience-system-1582d72.md)
+3.  Use the Kyma environment to integrate external systems: [Register an SAP Customer Experience System](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/1582d723f3814d30beba5fc0daa0bb0d.html)
 
     Your options are as follows:
 
@@ -39,9 +39,9 @@ As an administrator, you must perform several steps to set up a fully operationa
 
     After you've integrated externals systems, the developers can start working on their Functions.
 
-4.  Extend SAP S/4HANA Cloud by developing event-driven extensions and applications: [Extending SAP S/4HANA Cloud in the Cloud Foundry and Kyma Environment](../40-extensions/extending-sap-s-4hana-cloud-in-the-cloud-foundry-and-kyma-environment-40b9e6c.md)
+4.  Extend SAP S/4HANA Cloud by developing event-driven extensions and applications: [Extending SAP S/4HANA Cloud in the Cloud Foundry and Kyma Environment](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/40b9e6c3cc43498b92472da13e88c7bf.html)
 
-5.  Group several solutions into one formation to meet the requirements of your business scenario: [Including SAP Systems in a Formation](../40-extensions/including-sap-systems-in-a-formation-68b04fa.md)
+5.  Group several solutions into one formation to meet the requirements of your business scenario: [Including SAP Systems in a Formation](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/68b04fa73aa740cb96ed380a85a4761a.html)
 
 
 

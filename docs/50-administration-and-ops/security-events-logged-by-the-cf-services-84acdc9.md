@@ -27,38 +27,6 @@ Audit log events page of the service
 <tr>
 <td valign="top">
 
-Alert Notification Service
-
-
-
-</td>
-<td valign="top">
-
-[Auditing and Logging Information](https://help.sap.com/viewer/5967a369d4b74f7a9c2b91f5df8e6ab6/Cloud/en-US/8e70c7945d1c4b3eb13a0da384af8cce.html)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-API Management
-
-
-
-</td>
-<td valign="top">
-
-[Auditing and Logging Information](https://help.sap.com/viewer/DRAFT/66d066d903c2473f81ec33acfe2ccdb4/Development/en-US/77024b3e29e749a799b3d724f1535d34.html)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Authorization and Trust Management
 
 
@@ -67,22 +35,6 @@ Authorization and Trust Management
 <td valign="top">
 
 [Auditing and Logging Information for SAP Authorization and Trust Management Service](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/d8f4b7c7298a422183beddb4ad47c108.html?locale=en-US&version=Cloud)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Big Data Services
-
-
-
-</td>
-<td valign="top">
-
-[How to Determine Who Dropped a Particular Hive Table](https://help.sap.com/viewer/50f26aa0f2044127bc5f6d5ad3d090fe/Cloud/en-US/2e61d3a876b8101480abd76da746ffe7.html?q=%22audit%20log%22)
 
 
 
@@ -123,7 +75,7 @@ Business Logging
 <tr>
 <td valign="top">
 
-Business Rules Service
+Business Rules
 
 
 
@@ -131,38 +83,6 @@ Business Rules Service
 <td valign="top">
 
 [Auditing and Logging Information](https://help.sap.com/viewer/0e4dd38c4e204f47b1ffd09e5684537b/Cloud/en-US/4391fb2d307a445aa999c58d385e1d64.html)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Cloud Integration \(CF\)
-
-
-
-</td>
-<td valign="top">
-
-[Auditing and Logging Information](https://help.sap.com/viewer/368c481cd6954bdfa5d0435479fd4eaf/Cloud/en-US/d1c7bfe00b7c448ab56d7b4d454475f9.html)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Conversational AI
-
-
-
-</td>
-<td valign="top">
-
-[Auditing and Logging Information](https://help.sap.com/viewer/3aab817a03be4432abbfd00c42b23cb8/latest/en-US/27a589f398af4804978c6d4da3f603ae.html)
 
 
 
@@ -235,23 +155,7 @@ Document Information Extraction
 <tr>
 <td valign="top">
 
-Document Management, application option
-
-
-
-</td>
-<td valign="top">
-
-All events are developed in the integration option and it is applicable to both the integration option and application option.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Document Management, integration option
+Document Management
 
 
 
@@ -283,22 +187,6 @@ Identity Authentication
 <tr>
 <td valign="top">
 
-Integration Advisor
-
-
-
-</td>
-<td valign="top">
-
-[Auditing and Logging Information](https://help.sap.com/viewer/368c481cd6954bdfa5d0435479fd4eaf/Cloud/en-US/3dbe5576df864836b4ff54c42e7eef8f.html)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Invoice Object Recommendation
 
 
@@ -307,54 +195,6 @@ Invoice Object Recommendation
 <td valign="top">
 
 [Auditing and Logging Information](https://help.sap.com/viewer/15074a8e9a1a4abf923460c93e89b409/SHIP/en-US/24137b0021bf4b6a9af6687b2b4b6c6b.html)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Mobile Services \(CF\)
-
-
-
-</td>
-<td valign="top">
-
-[Viewing Audit Logs](https://help.sap.com/doc/f53c64b93e5140918d676b927a3cd65b/Cloud/en-US/docs-en/guides/features/usage/admin/audit.html)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-OAuth 2.0
-
-
-
-</td>
-<td valign="top">
-
-[Auditing and Logging Information for OAuth 2.0 Service](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/17d6fd1de6cb447da9ba19c99541e566.html)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Print Service
-
-
-
-</td>
-<td valign="top">
-
-[Auditing and Logging Information](https://help.sap.com/viewer/9fd06c162b874c3bac7ef214be7fdb9a/SHIP/en-US/aa87278ddc954e70af509ab1659e8e87.html)
 
 
 
@@ -379,6 +219,38 @@ Process Visibility
 <tr>
 <td valign="top">
 
+SAP Alert Notification Service
+
+
+
+</td>
+<td valign="top">
+
+[Auditing and Logging Information](https://help.sap.com/viewer/5967a369d4b74f7a9c2b91f5df8e6ab6/Cloud/en-US/8e70c7945d1c4b3eb13a0da384af8cce.html)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP API Management
+
+
+
+</td>
+<td valign="top">
+
+[Auditing and Logging Information](https://help.sap.com/viewer/DRAFT/66d066d903c2473f81ec33acfe2ccdb4/Development/en-US/77024b3e29e749a799b3d724f1535d34.html)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Business Application Studio
 
 
@@ -387,6 +259,22 @@ SAP Business Application Studio
 <td valign="top">
 
 [Auditing and Logging Information](https://help.sap.com/products/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/9ff1a8d6bced40a8a611b4ba7871e061.html)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Integration \(CF\)
+
+
+
+</td>
+<td valign="top">
+
+[Auditing and Logging Information](https://help.sap.com/viewer/368c481cd6954bdfa5d0435479fd4eaf/Cloud/en-US/d1c7bfe00b7c448ab56d7b4d454475f9.html)
 
 
 
@@ -435,6 +323,22 @@ SAP Credential Store
 <td valign="top">
 
 [Auditing and Logging Information](https://help.sap.com/docs/CREDENTIAL_STORE/601525c6e5604e4192451d5e7328fa3c/0f895938cbac4dde9293c59d395f06af.html)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Conversational AI
+
+
+
+</td>
+<td valign="top">
+
+[Auditing and Logging Information](https://help.sap.com/viewer/3aab817a03be4432abbfd00c42b23cb8/latest/en-US/27a589f398af4804978c6d4da3f603ae.html)
 
 
 
@@ -507,22 +411,6 @@ SAP Event Mesh
 <tr>
 <td valign="top">
 
-SAP HANA Cloud, Adaptive Server Enterprise Instance
-
-
-
-</td>
-<td valign="top">
-
-[Auditing](https://help.sap.com/viewer/46353c3b724f4934bb0671dd82044acd/2021_01_QRC/en-US/060dcc86632b44c8b89c466e15b86f27.html)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 SAP HANA Service for SAP BTP in AWS and Google Cloud Regions
 
 
@@ -555,6 +443,22 @@ SAP HANA Service for SAP BTP in SAP Regions
 <tr>
 <td valign="top">
 
+SAP Integration Advisor
+
+
+
+</td>
+<td valign="top">
+
+[Auditing and Logging Information](https://help.sap.com/viewer/368c481cd6954bdfa5d0435479fd4eaf/Cloud/en-US/3dbe5576df864836b4ff54c42e7eef8f.html)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Leonardo Machine Learning Foundation
 
 
@@ -562,7 +466,7 @@ SAP Leonardo Machine Learning Foundation
 </td>
 <td valign="top">
 
-[Data Protection and Privacy \> Logging](https://help.sap.com/viewer/f4a01fb4f1b34238b6a7ee20cebe09e0/latest/en-US/1ca73530d745427d8b4359dd596bbe32.html)
+[Logging](https://help.sap.com/docs/SAP_LEONARDO_MACHINE_LEARNING_FOUNDATION/f4a01fb4f1b34238b6a7ee20cebe09e0/1ca73530d745427d8b4359dd596bbe32.html?locale=en-US#logging)
 
 
 
@@ -603,6 +507,22 @@ SAP Market Rates Management, Refinitiv data option
 <tr>
 <td valign="top">
 
+SAP Mobile Services \(CF\)
+
+
+
+</td>
+<td valign="top">
+
+[Viewing Audit Logs](https://help.sap.com/doc/f53c64b93e5140918d676b927a3cd65b/Cloud/en-US/docs-en/guides/features/usage/admin/audit.html)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Monitoring Service
 
 
@@ -635,6 +555,22 @@ SAP Omnichannel Promotion Pricing
 <tr>
 <td valign="top">
 
+SAP Print Service
+
+
+
+</td>
+<td valign="top">
+
+[Auditing and Logging Information](https://help.sap.com/viewer/9fd06c162b874c3bac7ef214be7fdb9a/SHIP/en-US/aa87278ddc954e70af509ab1659e8e87.html)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Private Link Service \(Beta\)
 
 
@@ -642,7 +578,7 @@ SAP Private Link Service \(Beta\)
 </td>
 <td valign="top">
 
-[Security \> Audit and Logging Information](https://help.sap.com/products/PRIVATE_LINK/42acd88cb4134ba2a7d3e0e62c9fe6cf/3195b1f7174d4ea78e5962c3f2f59131.html)
+[Audit and Logging Information](https://help.sap.com/docs/PRIVATE_LINK/42acd88cb4134ba2a7d3e0e62c9fe6cf/3195b1f7174d4ea78e5962c3f2f59131.html#audit-and-logging-information)
 
 
 
@@ -818,7 +754,7 @@ Unit of Measure
 </td>
 <td valign="top">
 
-[Security \> Audit Logging](https://help.sap.com/viewer/DRAFT/50bf8c1b01694b8a83155a31b451a190/LATEST/en-US/0f8aae37b09a47ef8fd050fbbf02d8dc.html)
+[Audit Logging](https://help.sap.com/docs/SAP_CP_BUS_REUSE_SERVICE_UOM/50bf8c1b01694b8a83155a31b451a190/0f8aae37b09a47ef8fd050fbbf02d8dc.html#audit-logging)
 
 
 

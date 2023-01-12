@@ -2,11 +2,13 @@
 
 # Developing Node.js in the Cloud Foundry Environment
 
-This section offers selected information for Node.js development on the SAP BTP, Cloud Foundry environment and references to more detailed sources.
+This section offers selected information for Node.js development on SAP BTP, Cloud Foundry and references to more detailed sources.
 
 
 
 You'll get information about the buildpack supported by SAP, the Node.js packages, and how to consume them in your application.
+
+There is also a tutorial with an introduction to securing your application, and some tips and tricks for developing and running Node.js applications on SAP BTP, Cloud Foundry.
 
 
 
@@ -39,11 +41,14 @@ You can download and consume SAP developed Node.js packages via the SAP NPM Regi
 
 ## Buildpack Versioning
 
-The SAP BTP, Cloud Foundry environment provides one recent version of the Node.js buildpack as part of its system buildpacks. You can check this version by executing:
+The SAP BTP, Cloud Foundry environment provides one recent version of the Node.js buildpack as part of its system buildpacks. To check this version:
 
-```
-cf buildpacks
-```
+1.  Log in to a particular SAP BTP region and subaccount. Execute: `cf api <SAP BTP region>`
+
+    For example: `cf api https://api.cf.eu10.hana.ondemand.com`
+
+2.  Then execute: `cf buildpacks`
+
 
 To learn about changes in Node.js versions and features, regularly check the latest [buildpack releases](https://github.com/cloudfoundry/nodejs-buildpack/releases) in the GitHub community page.
 
@@ -53,18 +58,65 @@ To learn about changes in Node.js versions and features, regularly check the lat
 
 ## Supported Versions
 
-The SAP `nodejs_buildpack` supports the following versions:
+The `nodejs_buildpack` supports the following versions:
 
--   Node.js **14** – recommended version
--   Node.js **16** – supported but not recommended to use, due to current issues with the *@sap/xsjs* library. Therefore, if you use this library, bear in mind that it will be incompatible with the Node.js 16 runtime.
--   Node.js **18** – default version starting with [version 1.8.4 of the buildpack](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.4).
+-   Node.js **14**
+-   Node.js **16**
+-   Node.js **18**
+
+> ### Caution:  
+> For applications using the *@sap/xsjs* library, we recommend that you use version **14** until official SAP communication is sent for the successor of this library that will enable usage of Node.js 16 and later. See also: [Application stopped working after upgrade to Node v.16](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51218:52922/?version=current)
+> 
+> For all other applications \(not using *@sap/xsjs*\), we recommend that you use version **16** or later, or to proceed with migration to Node.js 16 or later.
+
+
+
+### Node.js 14 is reaching end of life
+
+To all Cloud Foundry customers using `nodejs_buildpack` – please be informed that Node.js 14 will reach end of life in **May 2023** as stated in the [Node.js Roadmap](https://github.com/nodejs/Release), and shortly after will be removed from the buildpack. This means that deployment and redeployment of applications with Node.js 14 will fail. To avoid such issues, please plan migration to Node.js 16 or later.
+
+After May 2023, you can still pin to an **online** `nodejs_buildpack` version containing Node.js 14, by setting a URL to GitHub. Nevertheless, this approach can only be used as a temporary solution until you complete migration to a latest version of Node.js.
+
+To pin to a particular buildpack version from GitHub, for example [1.8.4](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.4), proceed as follows:
+
+1.  Open the **manifest.yml** file of your application.
+
+2.  For the `buildpack` attribute, add the URL to version 1.8.4, like this:
+
+    ```
+    
+    ---
+    applications:
+    - name: myapp
+      random-route: true
+      buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.4
+      memory: 128M
+    ```
+
+3.  Redeploy your application by executing: `cf push myapp`
+
+
+**Alternative way:**
+
+If you don't want to make changes in your **manifest.yml** file, you can directly execute:
+
+ `cf push myapp -b https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.4` 
+
+> ### Tip:  
+> To pin this buildpack version for all applications running in your SAP BTP subaccount, execute:
+> 
+> `cf push -b https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.4`
+
+> ### Note:  
+> Please be advised, that SAP does **not** recommended usage of Node.js 14 after May 2023, as no support will be provided for deprecated versions.
+
 
 
 <a name="loio3a7a0bece0d044eca59495965d8a0237__section_o5d_4t1_krb"/>
 
 ## What's New
 
-To see the latest news and updates about the Node.js System Buildpack, regularly check the release notes on the [What's New portal](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&Component=Node.js%20System%20Buildpack).
+To see the latest news and updates about the Node.js system buildpack, regularly check the release notes on the [What's New portal](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&Component=Node.js%20System%20Buildpack).
 
 
 

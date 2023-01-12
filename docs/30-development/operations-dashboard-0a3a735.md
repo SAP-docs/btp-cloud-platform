@@ -32,7 +32,7 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
 
 5.  The *Requests* section displays a list of all requests triggered for your systems as well as their current status. You can filter for different statuses by clicking the respective icons:
 
-     ![](images/6a298425583b49dc89f6efe9e53ef6a2.image) 
+     ![](images/request_status_6a29842.png) 
 
      
 

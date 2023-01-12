@@ -574,6 +574,80 @@ US Central \(Iowa\)
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
+
+
+
+</td>
+<td valign="top">
+
+Google Cloud
+
+
+
+</td>
+<td valign="top">
+
+cf-eu30
+
+
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+
+
+</td>
+<td valign="top">
+
+India \(Mumbai\)
+
+
+
+</td>
+<td valign="top">
+
+Google Cloud
+
+
+
+</td>
+<td valign="top">
+
+cf-in30
+
+
+
+</td>
+<td valign="top">
+
+India \(Mumbai\)
+
+
+
+</td>
+</tr>
 </table>
 
 

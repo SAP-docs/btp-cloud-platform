@@ -15,7 +15,7 @@ Most of the SaaS Provisioning Service APIs are concentrated into two main groups
 1.  APIs for Application Providers
 2.  APIs for Application Consumers
 
-Application providers can use both groups to either manage their applicaton subscriptions from the global account in which they deployed their multitenant application when using the first group, or mimic their consumers in working with the applicaton from a different global account than the one in which their application is deployed, when using the second group.
+Application providers can use both groups to either manage their application subscriptions from the global account in which they deployed their multitenant application when using the first group, or mimic their consumers in working with the application from a different global account than the one in which their application is deployed, when using the second group.
 
 Consumers can use the second group to work with the multitenant applications.
 
@@ -79,7 +79,7 @@ You can also try out the APIs in the SAP API Business Hub. For more information,
 > ### Note:  
 > To authenticate to try out the APIs in SAP API Business Hub, configure an environment.
 > 
-> During the environment configuration, select the *OAuth 2.0 Application Flow* option from the dropdown menu. You must do so for the **Application Provider API group** because these specific APIs only support the Client Credentials authentication type.
+> During the environment configuration, select the *OAuth 2.0 Application Flow* option from the dropdown menu. You must do so for the Application Provider API group because these specific APIs only support the Client Credentials authentication type.
 > 
 > For more information about configuring an environment in general, see [Trying Out APIs in a Configured Environment](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/f7796baaef6a48e9867298827f5028ff.html).
 

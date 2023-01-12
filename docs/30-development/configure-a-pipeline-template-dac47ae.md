@@ -70,6 +70,54 @@ Patch delivery versions of the product should only include new patch deliveries 
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Test Release Delivery
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Test Support Package Stack
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Test Patch Delivery
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
 </table>
 
 These three different pipeline templates need to be configured for each of your products. For each template you add information on the credentials that should be used, the clone strategy, software components, tests, and more. Once you’ve configured the templates for a product, you can easily trigger the build of new versions \(be it release deliveries, support package stacks or patch deliveries\) of this product based on the information given in the templates. For more information on add-on product/software component versioning, see [The Add-On Product.](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#the-add-on-product)
@@ -460,6 +508,9 @@ Let’s take a closer look at how to configure a pipeline template for a product
     In this stage a system is prepared for the product version test installation. The system will be deprovisioned after successful testing has been completed.
 
     Enter the information.
+
+    > ### Note:  
+    > The pipeline step '5. Integration Tests' is inactive when you are configuring a test template.
 
 
     <table>

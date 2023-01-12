@@ -12,14 +12,29 @@ Explore the different options for trying out SAP BTP.
 
 Before setting up your account, you need to decide which free offering for SAP BTP is suitable for your needs:
 
--   **Pay-As-You-Go or CPEA accounts with free tier service plans** are open to customers, partners, and individual developers and let you try out SAP BTP for free without time limits. These account types enable you to test your scenarios with an easy path to productive use and allow you to upgrade to paid service plans. These accounts also allow you to store data long-term and move projects to production easily. You also get access to our community, including free technical resources such as tutorials and blog posts. For more information, see [Enterprise Accounts](enterprise-accounts-171511c.md) and [Using Free Service Plans](using-free-service-plans-524e108.md).
+-   **Pay-As-You-Go or CPEA accounts with free tier service plans** are open to customers, partners, and individual developers and let you try out SAP BTP for free without time limits. These account types enable you to test your scenarios and generally offer the option to upgrade to paid service plans. These accounts also allow you to store data long-term and move projects to production. You also get access to our community, including free technical resources such as tutorials and blog posts. For more information, see [Enterprise Accounts](enterprise-accounts-171511c.md) and [Using Free Service Plans](using-free-service-plans-524e108.md).
 
     You can self-register for an enterprise account with free tier service plans. For more information, see [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html).
+
+    > ### Note:  
+    > Only community support is available for free tier service plans and these are not subject to SLAs.
+
+    > ### Note:  
+    > The option to upgrade from free tier service plans to paid service plans is not yet available for all services and runtimes, such as Kyma. See [Using Free Service Plans](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/524e1081d8dc4b0f9d055a6bec383ec3.html#loio524e1081d8dc4b0f9d055a6bec383ec3__Upgrade-FreeServices) to read more about upgrading from free tier service plans to paid service plans.
 
 -   A **trial account** lets you try out SAP BTP for free for 365 days. Access is open to everyone. Trial accounts are intended for personal exploration, and not for production use or team development. They allow restricted use of the platform resources and services.
 
     You can self-register for a trial account. For more information, see [Get a Free Trial Account](../20-getting-started/getting-a-global-account-d61c281.md#loio42e7e54590424e65969fced1acd47694).
 
+
+
+
+### Free Tier and Always Free Tags in the SAP Discovery Center
+
+In the [SAP Discovery Center service catalog overview](https://discovery-center.cloud.sap/viewServices?provider=all&regions=all), some services display the tag *Free Tier*, which indicates the service is offering a free tier service plan. Some services display the tag *Always Free*, which indicates the service is offering a service plan that comes free of additional charges, as it is already included in your overall SAP BTP contract. You can use the filter function of the SAP Discovery Center to filter for services that offer *Free Tier* and *Always Free* plans. The *Always Free* service plans include the following note in their service plan description: "This service plan is included in the overall SAP Business Technology Platform contract".
+
+> ### Note:  
+> *Always Free* service plans might not be available in all regions or for all providers.
 
 
 
