@@ -10,6 +10,8 @@ To enable the integration of your extension applications with the SAP SuccessFac
 
 ## Prerequisites
 
+-   You have registered an SAP SuccessFactors system. See [Register an SAP SuccessFactors System in a Global Account in SAP BTP](register-an-sap-successfactors-system-in-a-global-account-in-sap-btp-e956ba2.md).
+
 -   Before creating an SAP SuccessFactors Extensibility service instance in the Cloud Foundry environment, see [Create a Service Instance to Consume the SAP SuccessFactors HXM Suite OData API](create-a-service-instance-to-consume-the-sap-successfactors-hxm-suite-odata-api-46c5ea1.md).
 
 -   Have enabled Cloud Foundry environment for your subaccount. See [Enable Environment or Create Environment Instance](../50-administration-and-ops/enable-environment-or-create-environment-instance-78c14b6.md).
@@ -67,13 +69,15 @@ During the creation of the service instance, a destination on a subaccount level
 
     4.  In the *Space* dropdown list, select your space. If you haven't create a space yet, you can do it at this point.
 
-    5.  In the *Instance Name* field, enter a name for your instance. Choose *Next*.
+    5.  In the *System Name* dropdown list, select the SAP SuccessFactors system you have registered.
 
-    6.  To define the authentication type for the access to the SAP SuccessFactors HXM Suite API, specify a JSON file or specify parameters in the JSON format. Choose *Next*.
+    6.  In the *Instance Name* field, enter a name for your instance. Choose *Next*.
 
-        For more information about the structure of the JSON file, see [Authentication Type JSON File](authentication-type-json-file-543fbd6.md).
+    7.  \(Optional\) To define a technical user the access to the SAP SuccessFactors HXM Suite API, specify a JSON file or specify parameters in the JSON format. If you decide to add a technical user later on, you have to delete this service instance and create it again. Choose *Next*.
 
-    7.  Choose *Create*.
+        For more information about the structure of the JSON file, see [API Access Configuration JSON File](api-access-configuration-json-file-543fbd6.md).
+
+    8.  Choose *Create*.
 
 
 

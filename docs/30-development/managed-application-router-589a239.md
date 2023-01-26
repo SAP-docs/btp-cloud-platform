@@ -19,7 +19,7 @@ For information how to develop HTML5 applications and run them using the managed
 
 -   [Developing HTML5 Applications](https://help.sap.com/docs/HTML5_APPLICATIONS/9a1ee2f87b63473ca9fcca77158b56a5/c1b9d6facfc942e3bca664ae06387e9b.html) for **SAP Build Work Zone, advanced edition**
 
--   [Developing HTML5 Applications](https://help.sap.com/docs/Launchpad_Service/8c8e1958338140699bd4811b37b82ece/c1b9d6facfc942e3bca664ae06387e9b.html) for **SAP Launchpad service** 
+-   [Developing HTML5 Applications](https://help.sap.com/docs/Launchpad_Service/8c8e1958338140699bd4811b37b82ece/c1b9d6facfc942e3bca664ae06387e9b.html) for **SAP Build Work Zone, standard edition** 
 
 -   [Developing HTML5 Applications](https://help.sap.com/docs/Portal_Service/ad4b9f0b14b0458cad9bd27bf435637d/c1b9d6facfc942e3bca664ae06387e9b.html) for **SAP Cloud Portal**
 

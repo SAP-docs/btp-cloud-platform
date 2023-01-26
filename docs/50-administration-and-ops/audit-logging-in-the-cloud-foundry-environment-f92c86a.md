@@ -4,7 +4,7 @@
 
 In this section, you can find information for audit log functionalities in the  Cloud Foundry environment.
 
-The SAP Audit Log service is a platform service, which stores all the audit logs written on your behalf by other platform services that you use. It allows you to retrieve the audit logs for your subaccount via the audit log retrieval API or view them using the SAP Audit Log Viewer service. To retrieve the audit logs stored for your global account, create a support ticket with component BC-CP-CF-SEC-AUDITLG.
+The SAP Audit Log service is a platform service which stores all the audit logs written on your behalf by other platform services that you use. It allows you to retrieve the audit logs for your subaccount via the audit log retrieval API or view them using the Audit Log Viewer. To retrieve the audit logs stored for your global account, create a support ticket with component BC-CP-CF-SEC-AUDITLG.
 
 Audit logs are a special type of logs. They represent security-relevant chronological records that provide documentary evidence for an event or activity. The following table gives you a better understanding what is the difference between audit logs, activity logs, and application logs. The SAP Audit Log service only stores audit logs written by SAP BTP services, when you take action over your account data.
 

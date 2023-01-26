@@ -80,7 +80,9 @@ Test Release Delivery
 </td>
 <td valign="top">
 
- 
+Release versions of the product usually include new deliveries of software components that are planned and used for new functionalities and feature enhancements. **Test Release Delivery** is part of the continuous testing in the development branch. The run performs static code checks and builds the next release delivery locally \(no upload to the AddOn Framework\) to detect findings early that would delay a productive build later on. It should be executed using a permanent add-on assembly system dedicated to the development branch. An AddOn update test is not possible as no package is uploaded to the AddOn Framework.
+
+The generated product versions in the Test Run mode are not be released. Thus the Versioning of the Build Runs can be used efficiently.
 
 
 
@@ -96,7 +98,7 @@ Test Support Package Stack
 </td>
 <td valign="top">
 
- 
+Support package stack deliveries of the product usually include new support package deliveries of software components that are planned and used for smaller functional enhancements. **Test Support Package** is part of the continuous testing in the development branch. The run performs static code checks and builds the next support package locally \(no upload to the AddOn Framework\) to detect findings early that would delay a productive build. It should be executed using a permanent AddOn assembly or test system dedicated to the development branch. An AddOn update test is not possible as no package is uploaded to the AddOn Framework.
 
 
 
@@ -112,7 +114,9 @@ Test Patch Delivery
 </td>
 <td valign="top">
 
- 
+Patch delivery versions of the product should only include new patch deliveries of software components that contain unplanned, urgent and small corrections. **Test Patch Delivery** is part of the continuous testing in the development branch. The run performs static code checks and builds the next patch delivery locally \(no upload to the AddOn Framework\) to detect findings early that would delay a productive build. It should be executed using a permanent AddOn assembly or test system dedicated to the development branch. An add-on update test is not possible as no package is uploaded to the AddOn Framework.
+
+The generated product versions in the Test Run mode are not be released. Thus the versioning of the Build Runs can be used efficiently.
 
 
 

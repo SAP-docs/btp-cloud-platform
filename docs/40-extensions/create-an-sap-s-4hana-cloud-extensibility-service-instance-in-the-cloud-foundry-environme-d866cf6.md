@@ -12,6 +12,8 @@
 
 -   Have enabled Cloud Foundry environment for your subaccount. See [Enable Environment or Create Environment Instance](../50-administration-and-ops/enable-environment-or-create-environment-instance-78c14b6.md).
 
+-   Have registered an SAP S/4HANA Cloud system. See[Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](register-an-sap-s-4hana-cloud-system-in-a-global-account-in-sap-btp-28171b6.md).
+
 -   Have configured the entitlements to the SAP S/4HANA Cloud Extensibility service. See [Configure the Entitlements for the SAP S/4HANA Cloud Extensibility Service](configure-the-entitlements-for-the-sap-s-4hana-cloud-extensibility-service-65ad330.md).
 
 
@@ -39,7 +41,7 @@ For communication arrangements with inbound connections, a destination on a suba
 
 ## Procedure
 
-1.  In the cockpit, navigate to the subaccount in which you want to create a service instance.
+1.  In the SAP BTP cockpit, navigate to the subaccount in which you want to create a service instance.
 
 2.  In the navigation area, choose *Services* \> *Service Marketplace*.
 
@@ -59,18 +61,20 @@ For communication arrangements with inbound connections, a destination on a suba
 
     4.  In the *Space* dropdown list, select your space. If you haven't create a space yet, you can do it at this point.
 
-    5.  In the *Instance Name* field, enter a name for your instance. Choose *Next*.
+    5.  In the *System Name* dropdown list, select the SAP S/4HANA Cloud system you have registered.
 
-    6.  To define the communication arrangement and the authentication type for the API access, specify a JSON file or specify parameters in the JSON format. Choose *Next*.
+    6.  In the *Instance Name* field, enter a name for your instance. Choose *Next*.
+
+    7.  To define the communication arrangement and the authentication type for the API access, specify a JSON file or specify parameters in the JSON format. If you decide to define the communication arrangement and the authentication type later on, you have to delete this service instance and create it again. Choose *Next*.
 
         For more information about the structure of the JSON file, see [Communication Arrangement JSON/YAML File - Properties](communication-arrangement-json-yaml-file-properties-553a4c6.md).
 
-    7.  Choose *Create*.
+    8.  Choose *Create*.
 
 
     After you have created the service instance:
 
-    -   The newly created instance appears in the list of instances in the *Instance* panel.
+    -   The newly created instance appears in the list of instances in the *Instance and Subscriptions* page.
 
     -   An HTTP destination on a subaccount level with the same name as the service instance name is automatically generated in this subaccount.
 
@@ -125,5 +129,6 @@ After creating the *SAP S/4HANA Cloud Extensibility* service instance, you have 
     -   For more information about consuming the destination service using the application router, see [Application Routes and Destinations](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/3cc788ebc00e40a091505c6b3fa485e7.html).
 
     -   For more information about consuming the destination service directly, see [Consuming the Destination Service \(Cloud Foundry Environment\)](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/7e306250e08340f89d6c103e28840f30.html).
+
 
 

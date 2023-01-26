@@ -52,7 +52,7 @@ During the creation of the service instance, a destination on the subaccount lev
 
     -   Expand *Instance Parameters*.
 
-        To define the authentication type for the API access, specify the parameters listed in this JSON file: [Authentication Type JSON File](authentication-type-json-file-543fbd6.md).
+        To define the authentication type for the API access, specify the parameters listed in this JSON file: [API Access Configuration JSON File](api-access-configuration-json-file-543fbd6.md).
 
 
 7.  Choose *Create*.

@@ -10,9 +10,11 @@ To configure the subaccount as a trusted service provider in SAP SuccessFactors,
 
 ## Prerequisites
 
--   [Configure SAP SuccessFactors as a Trusted Identity Provider in SAP BTP](configure-sap-successfactors-as-a-trusted-identity-provider-in-sap-btp-80a3fd1.md)
+-   [Register an SAP SuccessFactors System in a Global Account in SAP BTP](register-an-sap-successfactors-system-in-a-global-account-in-sap-btp-e956ba2.md)
 
 -   [Configure the Entitlements for the SAP SuccessFactors Extensibility Service](configure-the-entitlements-for-the-sap-successfactors-extensibility-service-b01e625.md)
+
+-   [Configure SAP SuccessFactors as a Trusted Identity Provider in SAP BTP](configure-sap-successfactors-as-a-trusted-identity-provider-in-sap-btp-80a3fd1.md)
 
 
 
@@ -75,16 +77,18 @@ When you delete the SAP SuccessFactors Extensibility service instance of plan *s
 
     3.  In the *Runtime Environment* dropdown list, select *Other*.
 
-    4.  In the *Instance Name* field, enter a name for your instance. Choose *Next*.
+    4.  In the *System Name* dropdown list, select the SAP SuccessFactors system you have registered.
 
-    5.  To configure the assertion consumer service of the subaccount and the respective applications, specify a JSON file or specify parameters in the JSON format. Choose *Next*.
+    5.  In the *Instance Name* field, enter a name for your instance. Choose *Next*.
+
+    6.  To configure the assertion consumer service of the subaccount and the respective applications, specify a JSON file or specify parameters in a JSON format. You can also do this later on. Choose *Next*.
 
         > ### Note:  
         > The content of the JSON file must be up to 5120 characters without spaces.
 
         For more information about the structure of the JSON file, see [Single Sign-On Configuration JSON File](single-sign-on-configuration-json-file-5ec1e97.md).
 
-    6.  Choose *Create*.
+    7.  Choose *Create*.
 
 
 

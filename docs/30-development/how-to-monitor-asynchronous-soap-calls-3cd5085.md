@@ -10,7 +10,7 @@ Learn how to use the Message Monitor Overview App to monitor asynchronous SOAP c
 
 ## Prerequisites
 
--   Roles based on the following business catalogs are assigned to your user in Fiori Launchpad:
+-   Roles based on the following business catalogs are assigned to your user in SAP Fiori launchpad:
 
     -   `SAP_CA_BC_COM_ERR_PC`
     -   `SAP_CA_BC_COM_CONF_PC`

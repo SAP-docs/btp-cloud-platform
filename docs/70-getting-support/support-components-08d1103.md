@@ -324,6 +324,7 @@ Create and receive real-time alerts about your services
 -   Singapore
 -   Japan \(Tokyo\)
 -   Australia \(Sydney\)
+-   Switzerland \(Zurich\) EU Access
 
 
 
@@ -3945,6 +3946,66 @@ Build and run mobile apps for B2E and B2B use cases.
 </td>
 <td valign="top">
 
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US Central \(IA\)
+-   India \(Mumbai\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+
+
+
+</td>
+<td valign="top">
+
+Build and run mobile apps for B2E and B2B use cases.
+
+
+
+</td>
+<td valign="top">
+
+-   MOB-CLD-OPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 -   Alibaba
 
 
@@ -4150,6 +4211,66 @@ Build and run mobile apps for B2C use cases.
 -   Japan \(Tokyo\)
 -   US East \(VA\)
 -   Singapore
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+
+
+
+</td>
+<td valign="top">
+
+Build and run mobile apps for B2C use cases.
+
+
+
+</td>
+<td valign="top">
+
+-   MOB-CLD-OPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US Central \(IA\)
+-   India \(Mumbai\)
 
 
 
@@ -6933,7 +7054,7 @@ Manage the lifecycle of Java applications by using a REST API.
 </td>
 <td valign="top">
 
--   BC-NEO-INFR
+-   BC-NEO-DPL
 
 
 
@@ -7352,7 +7473,7 @@ Implement a NoSQL document store.
 </td>
 <td valign="top">
 
-Monitor Java and SAP HANA XS applications, and databases.
+Monitor Java, SAP HANA XS and HTML5 applications, and databases.
 
 
 
@@ -8590,6 +8711,7 @@ Create role based, multi-channel sites to access business apps and content.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
+-   India \(Mumbai\)
 
 
 
@@ -10707,6 +10829,253 @@ Create and consume SAP ASE databases.
 <tr>
 <td valign="top">
 
+ [SAP Build Work Zone, standard edition](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
+
+
+
+</td>
+<td valign="top">
+
+Simplify access to applications by establishing a central entry point.
+
+
+
+</td>
+<td valign="top">
+
+-   EP-CPP-CF-LND
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US East \(VA\)
+-   Brazil \(São Paulo\)
+-   Japan \(Tokyo\)
+-   Australia \(Sydney\)
+-   Singapore
+-   Canada \(Montreal\)
+-   Europe \(Frankfurt\) EU Access
+-   South Korea \(Seoul\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [SAP Build Work Zone, standard edition](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
+
+
+
+</td>
+<td valign="top">
+
+Simplify access to applications by establishing a central entry point.
+
+
+
+</td>
+<td valign="top">
+
+-   EP-CPP-CF-LND
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Singapore
+-   US West \(WA\)
+-   US East \(VA\)
+-   Europe \(Netherlands\)
+-   Japan \(Tokyo\)
+-   Australia \(Sydney\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [SAP Build Work Zone, standard edition](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
+
+
+
+</td>
+<td valign="top">
+
+Simplify access to applications by establishing a central entry point.
+
+
+
+</td>
+<td valign="top">
+
+-   EP-CPP-CF-LND
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   US Central \(IA\)
+-   India \(Mumbai\)
+-   Europe \(Frankfurt\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [SAP Build Work Zone, standard edition](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
+
+
+
+</td>
+<td valign="top">
+
+Simplify access to applications by establishing a central entry point.
+
+
+
+</td>
+<td valign="top">
+
+-   EP-CPP-CF-LND
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Alibaba
+
+
+
+</td>
+<td valign="top">
+
+-   China \(Shanghai\)\*\*
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
  [SAP Analytics Cloud](https://help.sap.com/cloud4analytics) 
 
 
@@ -12763,6 +13132,7 @@ Simplify access to applications by establishing a central launchpad.
 <td valign="top">
 
 -   US Central \(IA\)
+-   India \(Mumbai\)
 -   Europe \(Frankfurt\)
 
 
@@ -14720,6 +15090,7 @@ Provides programmatic access to Cloud Transport Management.
 -   Australia \(Sydney\)
 -   Singapore
 -   Japan \(Tokyo\)
+-   Switzerland \(Zurich\) EU Access
 
 
 
@@ -14779,6 +15150,7 @@ Provides programmatic access to Cloud Transport Management.
 
 -   Europe \(Frankfurt\)
 -   US Central \(IA\)
+-   India \(Mumbai\)
 
 
 

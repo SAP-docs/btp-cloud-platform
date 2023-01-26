@@ -43,11 +43,15 @@ You can download and consume SAP developed Node.js packages via the SAP NPM Regi
 
 The SAP BTP, Cloud Foundry environment provides one recent version of the Node.js buildpack as part of its system buildpacks. To check this version:
 
-1.  Log in to a particular SAP BTP region and subaccount. Execute: `cf api <SAP BTP region>`
+1.  Log in to a particular SAP BTP region and subaccount. Execute:
 
-    For example: `cf api https://api.cf.eu10.hana.ondemand.com`
+    ```
+    cf api <SAP BTP region>
+    ```
 
-2.  Then execute: `cf buildpacks`
+    For example: **cf api https://api.cf.eu10.hana.ondemand.com**
+
+2.  Then execute: **cf buildpacks**
 
 
 To learn about changes in Node.js versions and features, regularly check the latest [buildpack releases](https://github.com/cloudfoundry/nodejs-buildpack/releases) in the GitHub community page.
@@ -73,39 +77,11 @@ The `nodejs_buildpack` supports the following versions:
 
 ### Node.js 14 is reaching end of life
 
-To all Cloud Foundry customers using `nodejs_buildpack` – please be informed that Node.js 14 will reach end of life in **May 2023** as stated in the [Node.js Roadmap](https://github.com/nodejs/Release), and shortly after will be removed from the buildpack. This means that deployment and redeployment of applications with Node.js 14 will fail. To avoid such issues, please plan migration to Node.js 16 or later.
+To all Cloud Foundry customers using `nodejs_buildpack` – please be informed that Node.js 14 will reach end of life on **April 30, 2023** as stated in the [Node.js Roadmap](https://github.com/nodejs/Release), and shortly after will be removed from the Cloud Foundry community [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack). This means that deployment and redeployment of applications with Node.js 14 will fail. To avoid such issues, please plan migration to Node.js 16 or higher as soon as possible.
 
-After May 2023, you can still pin to an **online** `nodejs_buildpack` version containing Node.js 14, by setting a URL to GitHub. Nevertheless, this approach can only be used as a temporary solution until you complete migration to a latest version of Node.js.
+After May 2023, if you haven't managed to do the migration, you can pin your applications to an **online** `nodejs_buildpack` version containing Node.js 14, by setting a direct URL to GitHub. The applications will still be running even after the end-of-maintenance date, but their security state will be on your own risk. This approach can only be used as a temporary solution until you complete migration to a latest version of Node.js.
 
-To pin to a particular buildpack version from GitHub, for example [1.8.4](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.4), proceed as follows:
-
-1.  Open the **manifest.yml** file of your application.
-
-2.  For the `buildpack` attribute, add the URL to version 1.8.4, like this:
-
-    ```
-    
-    ---
-    applications:
-    - name: myapp
-      random-route: true
-      buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.4
-      memory: 128M
-    ```
-
-3.  Redeploy your application by executing: `cf push myapp`
-
-
-**Alternative way:**
-
-If you don't want to make changes in your **manifest.yml** file, you can directly execute:
-
- `cf push myapp -b https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.4` 
-
-> ### Tip:  
-> To pin this buildpack version for all applications running in your SAP BTP subaccount, execute:
-> 
-> `cf push -b https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.4`
+To learn how to pin to a particular buildpack version from GitHub, see: [Specify a buildpack version in the manifest file](tips-and-tricks-for-node-js-applications-3a5fe88.md#loio3a5fe887f6e64abb827494baac352059__specify_buildpack_version)
 
 > ### Note:  
 > Please be advised, that SAP does **not** recommended usage of Node.js 14 after May 2023, as no support will be provided for deprecated versions.

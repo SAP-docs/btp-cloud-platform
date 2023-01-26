@@ -1,6 +1,6 @@
 <!-- loio543fbd6103d746f19c410dc2092d6f5e -->
 
-# Authentication Type JSON File
+# API Access Configuration JSON File
 
 Use the authentication type JSON descriptor to define the authentication type for the inbound connectivity to the SAP SuccessFactors HXM Suite OData API.
 

@@ -24,7 +24,7 @@ You are the administrator who has created the ABAP system \(see [Creating an ABA
 
 4.  Choose the service instance for the ABAP environment.
 
-5.  Choose *Open Dashboard*.
+5.  Choose *View Dashboard*.
 
     The logon window for the administration launchpad of the ABAP environment opens.
 

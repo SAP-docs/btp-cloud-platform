@@ -4,7 +4,14 @@
 
 This section contains information about the parameters and properties of a Multitarget Application \(MTA\).
 
-The values of parameters and properties can be specified at design time, in the deployment description \(`mtad.yaml`\). More often, however, property values are determined during deployment, where the values are either explicitly set by the administrator, for example, in an deployment-extension descriptor file \(`myDeployExtension.mtaext`\). When set, the deployer injects the property values into the module's environment. The deployment operation reports an error if it cannot determine a value for a property that is referenced in another or is marked as mandatory.
+The values of parameters and properties can be specified at design time, in the MTA development description \(`mta.yaml`\) or in the MTA deployment descriptor \(`mtad.yaml`\). In some cases, it is better to declare certain values depending on the deployment, for example, in an extension descriptor file\(`myDeployExtension.mtaext`\).
+
+The values of parameters and properties might be static; in this way, the result of each deployment will be the same. However, the values might be dynamic by using the placeholders described below and therefore each deployment might end in a different result depending on the environment or other configurations.
+
+The values of properties and parameters are used during the deployment or at runtime of the MTA.
+
+> ### Note:  
+> Both parameters and properties may have literal values, such as strings, integers, etc. This also applies to deeply nested structured values, such as arrays or maps.
 
 > ### Tip:  
 > -   You can declare metadata for parameters and properties defined in the MTA deployment description; the mapping is based on the parameter or property keys. For example, you can specify if a parameter is **required** \(`optional; false`\) or can be modified `overwritable: true`.
@@ -16,724 +23,724 @@ The values of parameters and properties can be specified at design time, in the 
 
 ## Parameters
 
-Parameters are reserved variables that affect the behavior of the MTA-aware tools, such as the deployer. Module, resource, and dependency parameters have platform-specific semantics. To reference a parameter value, use the placeholder notation <code>${<i class="varname">&lt;parameter&gt;</i>}</code>, for example, `${default-host}`.
+Parameters are reserved variables that affect the behavior of the MTA-aware tools, such as the Cloud MTA Build Tool \(MBT\) or SAP Cloud Deployment service.
+
+Parameters might be used on various levels in the MTA descriptor - top-level, module level, resource level, and dependency level. Based on the parameter applicability it might be used in combination in several places, for example, both on resource and module levels.
+
+Parameters can be “Read-Only” \(also known as “System”\) or “Read-Write” \(default value can be overwritten\). All parameter values can be referenced as part of other property or parameter value strings. The value of a “Read-Only” parameter cannot be changed in descriptors. Only its value can be referenced using the placeholder notation. To reference a parameter value, use the placeholder notation <code>${<i class="varname">&lt;parameter&gt;</i>}</code>, for example `${org}`
+
+SAP Cloud Deployment service supports a list of parameters and their \(default\) values:
+
+-   [Module-Specific Parameters](modules-177d34d.md#loio177d34d45e3d4fd99f4eeeffc5814cf1__section_moduleSpecificParameters)
+-   [Resource-Specific Parameters](resources-9e34487.md#loio9e34487b1a8643fb9a93ae6c4894f015__section_resourceSpecificParameters)
+-   [Module Hooks - Specific Parameters](module-hooks-b9245ba.md#loiob9245ba90aa14681a416065df8e8c593__section_byz_kcf_wjb)
+-   Global parameters \(table below\) that can have the following scopes:
+    -   Top-level - can be defined on top level.
+    -   All - can be consumed everywhere throughout the document.
+
 
 > ### Note:  
-> Both parameters and properties may have literal values, that is, strings, integers, and so on. This also applies to deeply nested structured values, such as arrays or maps.
+> Global Parameters table contains parameters that might be used on top-level or on all levels. Other supported parameters are distributed in the dedicated pages, for example, module-specific parameters.
 
-Parameters can be “system”, “write-only”, or “read-write” \(default value can be overwritten\). Each tool publishes a list of system parameters and their \(default\) values for its supported target environments. All parameter values can be referenced as part of other property or parameter value strings. To reference a parameter value, use the placeholder notation <code>${<i class="varname">&lt;parameter&gt;</i>}</code>. The value of a system parameter cannot be changed in descriptors. Only its value can be referenced using the placeholder notation.
-
-Examples of common read-only parameters are `user`, `default-host`, `default-uri`. The value of a writable parameter can be specified within a descriptor. For example, a module might need to specify a non-default value for a target-specific parameter that configures the amount of memory for the module’s runtime.
+The example below shows the parameter \``memory`\` on a module level which defines the amount of memory used by the Cloud Foundry application represented by the module \``node-hello-world`\` during application runtime.
 
 > ### Sample Code:  
-> Parameters and Placeholders
-> 
 > ```
 > modules:
 >   - name: node-hello-world
 >     type: javascript.nodejs
 >     path: web/
 >     parameters:
->       host: ${user}-node-hello-world
+>        memory: 128M 
 > ```
 
-The following parameters are supported:
+-   **Global Parameters**
 
--   [Module-Specific Parameters](modules-177d34d.md#loio177d34d45e3d4fd99f4eeeffc5814cf1__section_moduleSpecificParameters)
--   [Resource-Specific Parameters](resources-9e34487.md#loio9e34487b1a8643fb9a93ae6c4894f015__section_resourceSpecificParameters)
--   [Module Hooks - Specific Parameters](module-hooks-b9245ba.md#loiob9245ba90aa14681a416065df8e8c593__section_byz_kcf_wjb)
--   Generic parameters that can have the following scopes:
 
-    -   Global - can be defined on root document level
-    -   All - can be consumed everywhere throughout the document
+<table>
+<tr>
+<th valign="top">
 
-    **Global Parameters**
+Parameter
 
 
-    <table>
-    <tr>
-    <th valign="top">
 
-    Parameter
+</th>
+<th valign="top">
 
+Scope
 
-    
-    </th>
-    <th valign="top">
 
-    Scope
 
+</th>
+<th valign="top">
 
-    
-    </th>
-    <th valign="top">
+Read-Only \(System\)
 
-    Read-Only \(System\)
 
 
-    
-    </th>
-    <th valign="top">
+</th>
+<th valign="top">
 
-    Description
+Description
 
 
-    
-    </th>
-    <th valign="top">
 
-    Default Value
+</th>
+<th valign="top">
 
+Default Value
 
-    
-    </th>
-    <th valign="top">
 
-    Example
 
+</th>
+<th valign="top">
 
-    
-    </th>
-    </tr>
-    <tr>
-    <td valign="top">
+Example
 
-    `authorization-url`
 
 
-    
-    </td>
-    <td valign="top">
+</th>
+</tr>
+<tr>
+<td valign="top">
 
-    All
+`authorization-url`
 
 
-    
-    </td>
-    <td valign="top">
 
-    Yes
+</td>
+<td valign="top">
 
+All
 
-    
-    </td>
-    <td valign="top">
 
-    The authorization URL as specified in the cloud controller's `/v2/info` endpoint.
 
+</td>
+<td valign="top">
 
-    
-    </td>
-    <td valign="top">
+Yes
 
-    Generated as described in the description.
 
 
-    
-    </td>
-    <td valign="top">
+</td>
+<td valign="top">
 
-    `https://login.cf.sap.hana.ondemand.com`
+The authorization URL as specified in the cloud controller's `/v2/info` endpoint.
 
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
 
-    `controller-url`
+</td>
+<td valign="top">
 
+Generated as described in the description.
 
-    
-    </td>
-    <td valign="top">
 
-    All
 
+</td>
+<td valign="top">
 
-    
-    </td>
-    <td valign="top">
+`https://login.cf.sap.hana.ondemand.com`
 
-    Yes
 
 
-    
-    </td>
-    <td valign="top">
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-    The URL of the cloud controller
+`controller-url`
 
 
-    
-    </td>
-    <td valign="top">
 
-    Generated as described in the description.
+</td>
+<td valign="top">
 
+All
 
-    
-    </td>
-    <td valign="top">
 
-    `https://api.cf.sap.hana.ondemand.com`
 
+</td>
+<td valign="top">
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
+Yes
 
-    `default-domain`
 
 
-    
-    </td>
-    <td valign="top">
+</td>
+<td valign="top">
 
-    All
+The URL of the cloud controller
 
 
-    
-    </td>
-    <td valign="top">
 
-    Yes
+</td>
+<td valign="top">
 
+Generated as described in the description.
 
-    
-    </td>
-    <td valign="top">
 
-    The default domain \(configured in the Cloud Foundry environment\)
 
+</td>
+<td valign="top">
 
-    
-    </td>
-    <td valign="top">
+`https://api.cf.sap.hana.ondemand.com`
 
-    Generated as described in the description.
 
 
-    
-    </td>
-    <td valign="top">
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-    `accra6024`
+`default-domain`
 
-    `cfapps.acme.com`
 
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
+</td>
+<td valign="top">
 
-    `deploy-url`
+All
 
 
-    
-    </td>
-    <td valign="top">
 
-    All
+</td>
+<td valign="top">
 
+Yes
 
-    
-    </td>
-    <td valign="top">
 
-    Yes
 
+</td>
+<td valign="top">
 
-    
-    </td>
-    <td valign="top">
+The default domain \(configured in the Cloud Foundry environment\)
 
-    The deploy service URL for the Cloud Foundry environment
 
 
-    
-    </td>
-    <td valign="top">
+</td>
+<td valign="top">
 
-    Generated as described in the description.
+Generated as described in the description.
 
 
-    
-    </td>
-    <td valign="top">
 
-    ``
+</td>
+<td valign="top">
 
+`accra6024`
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
+`cfapps.acme.com`
 
-    `generated-password`
 
 
-    
-    </td>
-    <td valign="top">
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-    All
+`deploy-url`
 
 
-    
-    </td>
-    <td valign="top">
 
-    Yes
+</td>
+<td valign="top">
 
+All
 
-    
-    </td>
-    <td valign="top">
 
-    Randomly generated string value that is composed of 16 characters that may contain upper and lower case letters, digits and special characters \(\_, -, @, $, &, \#, \*\).
 
+</td>
+<td valign="top">
 
-    
-    </td>
-    <td valign="top">
+Yes
 
-    Generated as described in the description.
 
 
-    
-    </td>
-    <td valign="top">
+</td>
+<td valign="top">
 
-    `IG@zGg#2g-cvMvsW`
+The deploy service URL for the Cloud Foundry environment
 
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
 
-    `generated-user`
+</td>
+<td valign="top">
 
+Generated as described in the description.
 
-    
-    </td>
-    <td valign="top">
 
-    All
 
+</td>
+<td valign="top">
 
-    
-    </td>
-    <td valign="top">
+``
 
-    Yes
 
 
-    
-    </td>
-    <td valign="top">
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-    A generated user id that is composed of 16 characters that may contain upper and lower case letters, digits and special characters \(\_, -, @, $, &, \#, \*\).
+`generated-password`
 
 
-    
-    </td>
-    <td valign="top">
 
-    Generated as described in the description.
+</td>
+<td valign="top">
 
+All
 
-    
-    </td>
-    <td valign="top">
 
-    `uYi$d41TzM1-Dm6f`
 
+</td>
+<td valign="top">
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
+Yes
 
-    `keep-existing-routes`
 
 
-    
-    </td>
-    <td valign="top">
+</td>
+<td valign="top">
 
-    Global
+Randomly generated string value that is composed of 16 characters that may contain upper and lower case letters, digits and special characters \(\_, -, @, $, &, \#, \*\).
 
 
-    
-    </td>
-    <td valign="top">
 
-    Write
+</td>
+<td valign="top">
 
+Generated as described in the description.
 
-    
-    </td>
-    <td valign="top">
 
-    When specified on module level, it indicates if the existing routes of the module's corresponding application should be kept even if they are not defined within the deployment and/or extension descriptors.
 
-    When specified on global level, under the `parameters` section of the descriptor, it indicates if the existing routes of all applications within that MTA should be kept.
+</td>
+<td valign="top">
 
-    > ### Note:  
-    > -   The module-level variant of the parameter has priority over the global parameter.
-    > -   This parameter is typically used when users want to keep the routes they have mapped manually by using the `cf map-route` command. We discourage this approach, as manual operations could lead to inconsistent deployment results and difficult troubleshooting. We recommend you to define all routes in the deployment and/or extension descriptors, which allows for their automatic management.
+`IG@zGg#2g-cvMvsW`
 
 
-    
-    </td>
-    <td valign="top">
 
-    `false`
+</td>
+</tr>
+<tr>
+<td valign="top">
 
+`generated-user`
 
-    
-    </td>
-    <td valign="top">
 
-    ```
-    
+
+</td>
+<td valign="top">
+
+All
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+<td valign="top">
+
+A generated user id that is composed of 16 characters that may contain upper and lower case letters, digits and special characters \(\_, -, @, $, &, \#, \*\).
+
+
+
+</td>
+<td valign="top">
+
+Generated as described in the description.
+
+
+
+</td>
+<td valign="top">
+
+`uYi$d41TzM1-Dm6f`
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`keep-existing-routes`
+
+
+
+</td>
+<td valign="top">
+
+Global
+
+
+
+</td>
+<td valign="top">
+
+Write
+
+
+
+</td>
+<td valign="top">
+
+When specified on module level, it indicates if the existing routes of the module's corresponding application should be kept even if they are not defined within the deployment and/or extension descriptors.
+
+When specified on global level, under the `parameters` section of the descriptor, it indicates if the existing routes of all applications within that MTA should be kept.
+
+> ### Note:  
+> -   The module-level variant of the parameter has priority over the global parameter.
+> -   This parameter is typically used when users want to keep the routes they have mapped manually by using the `cf map-route` command. We discourage this approach, as manual operations could lead to inconsistent deployment results and difficult troubleshooting. We recommend you to define all routes in the deployment and/or extension descriptors, which allows for their automatic management.
+
+
+
+</td>
+<td valign="top">
+
+`false`
+
+
+
+</td>
+<td valign="top">
+
+```
+
+parameters:
+keep-existing-routes: true
+modules:
+  - name: foo
+    type: nodejs
     parameters:
-    keep-existing-routes: true
-    modules:
-      - name: foo
-        type: nodejs
-        parameters:
-           keep-existing-routes: false 
-      - name: bar
-        type: nodejs
-      - name: baz
-        type: nodejs
-    ```
+       keep-existing-routes: false 
+  - name: bar
+    type: nodejs
+  - name: baz
+    type: nodejs
+```
 
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
 
-    `org`
+</td>
+</tr>
+<tr>
+<td valign="top">
 
+`org`
 
-    
-    </td>
-    <td valign="top">
 
-    All
 
+</td>
+<td valign="top">
 
-    
-    </td>
-    <td valign="top">
+All
 
-    Yes
 
 
-    
-    </td>
-    <td valign="top">
+</td>
+<td valign="top">
 
-    Name of the target organization
+Yes
 
 
-    
-    </td>
-    <td valign="top">
 
-    The current name of the target organization
+</td>
+<td valign="top">
 
+Name of the target organization
 
-    
-    </td>
-    <td valign="top">
 
-    `initial, trial`
 
+</td>
+<td valign="top">
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
+The current name of the target organization
 
-    `protocol`
 
 
-    
-    </td>
-    <td valign="top">
+</td>
+<td valign="top">
 
-    All
+`initial, trial`
 
 
-    
-    </td>
-    <td valign="top">
 
-    Yes
+</td>
+</tr>
+<tr>
+<td valign="top">
 
+`protocol`
 
-    
-    </td>
-    <td valign="top">
 
-    The protocol used by the Cloud Foundry environment.
 
+</td>
+<td valign="top">
 
-    
-    </td>
-    <td valign="top">
+All
 
-    `http` or `https`
 
 
-    
-    </td>
-    <td valign="top">
+</td>
+<td valign="top">
 
-    `http, https`
+Yes
 
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
 
-    `space`
+</td>
+<td valign="top">
 
+The protocol used by the Cloud Foundry environment.
 
-    
-    </td>
-    <td valign="top">
 
-    All
 
+</td>
+<td valign="top">
 
-    
-    </td>
-    <td valign="top">
+`http` or `https`
 
-    Yes
 
 
-    
-    </td>
-    <td valign="top">
+</td>
+<td valign="top">
 
-    Name of the target organizational space
+`http, https`
 
 
-    
-    </td>
-    <td valign="top">
 
-    Generated as described in the description.
+</td>
+</tr>
+<tr>
+<td valign="top">
 
+`space`
 
-    
-    </td>
-    <td valign="top">
 
-    `initial, a007007`
 
+</td>
+<td valign="top">
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
+All
 
-    `user`
 
 
-    
-    </td>
-    <td valign="top">
+</td>
+<td valign="top">
 
-    All
+Yes
 
 
-    
-    </td>
-    <td valign="top">
 
-    Yes
+</td>
+<td valign="top">
 
+Name of the target organizational space
 
-    
-    </td>
-    <td valign="top">
 
-    Name of the current user
 
+</td>
+<td valign="top">
 
-    
-    </td>
-    <td valign="top">
+Generated as described in the description.
 
-    Generated as described in the description.
 
 
-    
-    </td>
-    <td valign="top">
+</td>
+<td valign="top">
 
-     
+`initial, a007007`
 
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
 
-    `xs-type`
+</td>
+</tr>
+<tr>
+<td valign="top">
 
+`user`
 
-    
-    </td>
-    <td valign="top">
 
-    All
 
+</td>
+<td valign="top">
 
-    
-    </td>
-    <td valign="top">
+All
 
-    Yes
 
 
-    
-    </td>
-    <td valign="top">
+</td>
+<td valign="top">
 
-    The XS type, Cloud Foundry or XS advanced
+Yes
 
 
-    
-    </td>
-    <td valign="top">
 
-    CF
+</td>
+<td valign="top">
 
+Name of the current user
 
-    
-    </td>
-    <td valign="top">
 
-    `CF, XSA`
 
+</td>
+<td valign="top">
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
+Generated as described in the description.
 
-    `org-guid`
 
 
-    
-    </td>
-    <td valign="top">
+</td>
+<td valign="top">
 
-    All
+ 
 
 
-    
-    </td>
-    <td valign="top">
 
-    Yes
+</td>
+</tr>
+<tr>
+<td valign="top">
 
+`xs-type`
 
-    
-    </td>
-    <td valign="top">
 
-    GUID \(Globally Unique Identifier\) of the target organization
 
+</td>
+<td valign="top">
 
-    
-    </td>
-    <td valign="top">
+All
 
-    N/A
 
 
-    
-    </td>
-    <td valign="top">
+</td>
+<td valign="top">
 
-    `06564ad5-1b38-458d-8c85-a2e0bcd990a9`
+Yes
 
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
 
-    `space-guid`
+</td>
+<td valign="top">
 
+The XS type, Cloud Foundry or XS advanced
 
-    
-    </td>
-    <td valign="top">
 
-    All
 
+</td>
+<td valign="top">
 
-    
-    </td>
-    <td valign="top">
+CF
 
-    Yes
 
 
-    
-    </td>
-    <td valign="top">
+</td>
+<td valign="top">
 
-    GUID \(Globally Unique Identifier\) of the target space
+`CF, XSA`
 
 
-    
-    </td>
-    <td valign="top">
 
-    N/A
+</td>
+</tr>
+<tr>
+<td valign="top">
 
+`org-guid`
 
-    
-    </td>
-    <td valign="top">
 
-    `06564ad5-1b38-458d-8c85-a2e0bcd990a9`
 
+</td>
+<td valign="top">
 
-    
-    </td>
-    </tr>
-    </table>
-    
+All
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+<td valign="top">
+
+GUID \(Globally Unique Identifier\) of the target organization
+
+
+
+</td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
+<td valign="top">
+
+`06564ad5-1b38-458d-8c85-a2e0bcd990a9`
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`space-guid`
+
+
+
+</td>
+<td valign="top">
+
+All
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+<td valign="top">
+
+GUID \(Globally Unique Identifier\) of the target space
+
+
+
+</td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
+<td valign="top">
+
+`06564ad5-1b38-458d-8c85-a2e0bcd990a9`
+
+
+
+</td>
+</tr>
+</table>
+
 
 These parameters can be used with the `provides` or `requires` dependencies:
 
@@ -897,9 +904,9 @@ As an alternative, you can also externalize such configurations in a file. See [
 
 ## Properties
 
-The MTA deployment descriptor can contain two types of properties, which are very similar, and are intended for use in the `modules` or `resources` configuration, respectively.
+MTA properties are Cloud Foundry application environment variables that are used during application runtime. When an MTA property is set, the SAP Cloud Deployment service injects its key as the environment variable key and its value as the variable value in the application, represented by the corresponding MTA module.
 
-Properties can be declared in the deployment description both in the `modules` configuration \(for example, to define `provides` or `requires` dependencies\), or in the `resources` configuration to specify `requires` dependencies. Both kinds of properties \(`modules` and `requires`\) are injected into the module’s environment. In the `requires` configuration, properties can reference other properties that are declared in the corresponding `provides` configuration, for example, using the `~{}` syntax.
+MTA properties can be declared in different levels - module level, resource level, and dependency level.
 
 
 

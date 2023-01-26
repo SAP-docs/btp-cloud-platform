@@ -30,9 +30,9 @@ To use client certificate authentication, you first start with creating and conf
 
 1.  Obtain a client certificate signed by a trusted certificate authority \(CA\) in *.pem* format.
 
-    You can find a list of the trusted CA in the SAP S/4HANA Cloud tenant using the **Maintain Certificate Trust List** application. See [Maintain Certificate Trust List](https://help.sap.com/viewer/f544846954f24b9183eddadcc41bdc3b/1808.500/en-US/2b3c3f1e4007472883abe5226e84f05f.html).
+    You can find a list of the trusted CA in the SAP S/4HANA Cloud tenant using the **Maintain Certificate Trust List** application. See [Maintain Certificate Trust List](https://help.sap.com/docs/SAP_S4HANA_CLOUD/55a7cb346519450cb9e6d21c1ecd6ec1/2b3c3f1e4007472883abe5226e84f05f.html).
 
-2.  Create a communication user and upload the public key. See [Maintain Communication Users](https://help.sap.com/viewer/f544846954f24b9183eddadcc41bdc3b/1808.500/en-US/eef80dda3867461c92ac1273689ed36f.html).
+2.  Create a communication user and upload the public key. See [Maintain Communication Users](https://help.sap.com/docs/SAP_S4HANA_CLOUD/55a7cb346519450cb9e6d21c1ecd6ec1/eef80dda3867461c92ac1273689ed36f.html).
 
 3.  Create a communication system and add the communication user as *User for Inbound Communication* with an authentication method SSL Client Certificate.
 
@@ -59,7 +59,7 @@ To use client certificate authentication, you first start with creating and conf
     10. Choose *Save*.
 
 
-4.  Create a communication arrangement using an existing or create a new scenario that supports client certificate authentication. See [Maintain Communication Arrangements](https://help.sap.com/viewer/f544846954f24b9183eddadcc41bdc3b/1808.500/en-US/fab3fd449cf74c6384622b98831e989e.html).
+4.  Create a communication arrangement using an existing or create a new scenario that supports client certificate authentication. See [Maintain Communication Arrangements](https://help.sap.com/docs/SAP_S4HANA_CLOUD/55a7cb346519450cb9e6d21c1ecd6ec1/fab3fd449cf74c6384622b98831e989e.html).
 
     You can use the already created communication system. The settings in the *Inbound Communication* section are filled in automatically. Save the value from the *URL* field, you will need it when creating a destination in the subaccount in SAP BTP.
 

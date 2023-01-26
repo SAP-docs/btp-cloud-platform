@@ -30,16 +30,23 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
 
 <a name="loio5456007ac4d04cb98b52b41f8c2d4a71__section_fxt_stf_fvb"/>
 
-## Create Namespaces
+## Request Namespaces
 
 1.  Log into the Landscape portal from your provider subaccount.
 
-2.  In the 'Systems' section, click on the Maintain Namespaces tile to open the app.
-3.  The Namespaces tab shows you the list of your Provider Namespaces and their description ckecked against all existing SAP Provider Namespaces.
-4.  To create a new Namespace, click the *Create Namespace* button.
-    -   Type in a Namespace name as well as a desciption and check its availability with the *Check* button. Since the namespace is supposed to be globally unique, the check is made against all namespaces available.
+2.  In the *Systems* section, click on the *Maintain Namespaces* tile to open the app.
+3.  The Namespaces tab shows you the list of your provider namespaces and their description checked against all existing SAP Provider Namespaces.
+4.  To create a new namespace, click the *Request Namespace* button.
+    -   Type in a namespace name as well as a description according to the listed set of rules. Since the namespace is supposed to be globally unique, the check is made against all namespaces available.
 
-    -   If the check has been successful, click the *Create* button.
+    -   For the mandatory field *User ID*, the following checks are carried out in the background:
+
+        -   The S-User namespace needs to inherent authority.
+        -   The S-User needs to belong to the customer or the conglomerate.
+        -   The S-User needs a valid namespace.
+        -   The namespace needs to be available.
+
+    -   If the check has been successful and you confirmed that you read the notice regarding namespaces, click the *Request Namespace* button.
     -   Find the newly created namespace displayed in the list.
 
 

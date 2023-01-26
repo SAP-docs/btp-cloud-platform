@@ -11,6 +11,9 @@ Direct content deployment provides a mechanism for deploying content to services
 
 The mechanism utilizes the Generic Application Content Deployment protocol \(GACD\). It allows you to deploy modules of type `com.sap.application.content`, which require a dependency to a service or an existing service key, where the required dependency parameter `content-target` is set to `true`. When a module is processed during deployment of a multitarget application, the SAP Cloud Deployment service delivers the module content to the service or key, marked as `content-target`.
 
+> ### Note:  
+> The examples below are partial and they intend to show different configurations of content deployment. For specific application contents, check the dedicated documentation, linked below.
+
 
 
 <a name="loiod3e23196166b443db17b3545c912dfc0__section_yqh_wvb_snb"/>
@@ -19,10 +22,10 @@ The mechanism utilizes the Generic Application Content Deployment protocol \(GAC
 
 Cloud Foundry service offerings that currently support GACD are:
 
--   `html5-apps-repo`
--   `portal`
--   `workflow`
--   `destination`
+-   `html5-apps-repo` \(For more information, see [Deploy Content Using Generic Application Content Deployer](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/07c679672e5f423e9dc631fc85b51da3.html?version=Cloud)\)
+-   `portal` \(For more information, see [Add an SAP Fiori Launchpad Module](https://help.sap.com/docs/Portal_Service/ad4b9f0b14b0458cad9bd27bf435637d/b55594e28a7d47a2ab4bf1f03ebfd56b.html)\)
+-   `workflow` \(For more information, see [Create a Workflow Module](https://help.sap.com/docs/WORKFLOW/e157c391253b4ecd93647bf232d18a83/b2df7c220b2245dcad11be747794c042.html?version=Cloud&locale=en-US)\)
+-   `destination` \(For more information, see [Create Destinations Using the MTA Descriptor](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/8aeea65eb9d64267b554f64a3db8a349.html?version=Cloud)\)
 
 
 

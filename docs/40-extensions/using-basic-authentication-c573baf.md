@@ -28,11 +28,11 @@ From the SAP S/4HANA Cloud side you need to maintain the communication settings 
 
 ## Procedure
 
-1.  Create a communication user. See [Maintain Communication Users](https://help.sap.com/viewer/f544846954f24b9183eddadcc41bdc3b/1808.500/en-US/eef80dda3867461c92ac1273689ed36f.html).
+1.  Create a communication user. See [Maintain Communication Users](https://help.sap.com/docs/SAP_S4HANA_CLOUD/55a7cb346519450cb9e6d21c1ecd6ec1/eef80dda3867461c92ac1273689ed36f.html).
 
     For the basic authentication, you need to provide a password when defining the required credentials.
 
-2.  Create a communication system. See [Maintain Communication Systems](https://help.sap.com/viewer/f544846954f24b9183eddadcc41bdc3b/1808.500/en-US/15663c157670410ca366623dff329396.html).
+2.  Create a communication system. See [Maintain Communication Systems](https://help.sap.com/docs/SAP_S4HANA_CLOUD/55a7cb346519450cb9e6d21c1ecd6ec1/15663c157670410ca366623dff329396.html).
 
     1.  Log into the SAP Fiori launchpad in the SAP S/4HANA Cloud system.
 
@@ -57,13 +57,13 @@ From the SAP S/4HANA Cloud side you need to maintain the communication settings 
     10. Choose *Save*.
 
 
-3.  Create a communication arrangement and select a communication scenario. See [Maintain Communication Arrangements](https://help.sap.com/viewer/f544846954f24b9183eddadcc41bdc3b/1808.500/en-US/fab3fd449cf74c6384622b98831e989e.html).
+3.  Create a communication arrangement and select a communication scenario. See [Maintain Communication Arrangements](https://help.sap.com/docs/SAP_S4HANA_CLOUD/55a7cb346519450cb9e6d21c1ecd6ec1/fab3fd449cf74c6384622b98831e989e.html).
 
 
 **Related Information**  
 
 
-[Communication Management](https://help.sap.com/viewer/f544846954f24b9183eddadcc41bdc3b/1808.500/en-US/2e84a10c430645a88bdbfaaa23ac9ff7.html)
+[Communication Management](https://help.sap.com/docs/SAP_S4HANA_CLOUD/55a7cb346519450cb9e6d21c1ecd6ec1/2e84a10c430645a88bdbfaaa23ac9ff7.html)
 
  <a name="loio213518e3fc7e487f9a6ff6a7cc072f76"/>
 

@@ -15,8 +15,7 @@ SAP BTP supports identity federation, a concept of linking and reusing digital i
   
 **Identity Provider and XSUAA in SAP BTP Architecture**
 
- ![](images/CF_Trust_for_Identity_Providers_3663b18.png "Identity Provider and XSUAA in SAP BTP
-                    Architecture") 
+ 
 
 Identity Authentication is a multitenancy enabled identity provider and authentication service for all applications powered by SAP BTP and optionally on-premise applications. The service provides capabilities for authentication, single sign-on, and on-premise integration as well as self-services like self-registration or password reset — for both the employees and the partners and customers of your organization. For administrators, the service offers features for user management and reporting capabilities in the administration console.
 

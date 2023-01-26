@@ -26,7 +26,7 @@ To establish outbound communication between two communication partners, you have
     > DATA(lo_http_client) = cl_web_http_client_manager=>create_by_http_destination( lo_dest ).
     > ```
 
-    If the scenario includes multiple communication arrangements, you have to determine the communication system. You can read the customer-specific properties using class `CL_COM_ARRANGEMENT_FACOTY` to determine the receiver communication system.
+    If the scenario includes multiple communication arrangements, you have to determine the communication system. You can read the customer-specific properties using class `CL_COM_ARRANGEMENT_FACTORY` to determine the receiver communication system.
 
 
  ![](images/ABAP_Environment_Outbound_Communication_Developer_a0adfaa.png) 

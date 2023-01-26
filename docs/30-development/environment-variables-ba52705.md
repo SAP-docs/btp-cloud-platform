@@ -362,6 +362,8 @@ Enables the application router to start as an HTTP/2 server.
 
 > ### Note:  
 > To configure HTTP/2 support, you must use Cloud Foundry routes with an HTTP/2 destination protocol. See [Configuring HTTP/2 Support](https://docs.cloudfoundry.org/adminguide/supporting-http2.html#application) in the Cloud Foundry Documentation.
+> 
+> As connection-specific header fields aren't supported by the HTTP/2 protocol \(see [https://datatracker.ietf.org/doc/html/rfc9113](https://datatracker.ietf.org/doc/html/rfc9113)\), the application router removes such headers automatically when they are returned from a backend to prevent a failure of the HTTP/2 response.
 
 
 

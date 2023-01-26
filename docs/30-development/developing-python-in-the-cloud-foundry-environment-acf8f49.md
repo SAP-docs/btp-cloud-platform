@@ -139,11 +139,15 @@ The SAP HANA Database Client provides means for database connectivity.
 
 The SAP BTP, Cloud Foundry environment provides one recent version of the Python buildpack as part of its system buildpacks. To check this version:
 
-1.  Log in to a particular SAP BTP region and subaccount. Execute: `cf api <SAP BTP region>`
+1.  Log in to a particular SAP BTP region and subaccount. Execute:
 
-    For example: `cf api https://api.cf.eu10.hana.ondemand.com`
+    ```
+    cf api <SAP BTP region>
+    ```
 
-2.  Then execute: `cf buildpacks`
+    For example: **cf api https://api.cf.eu10.hana.ondemand.com**
+
+2.  Then execute: **cf buildpacks**
 
 
 To learn about changes in Python versions and features, regularly check the latest [buildpack releases](https://github.com/cloudfoundry/python-buildpack/releases) in the GitHub community page.

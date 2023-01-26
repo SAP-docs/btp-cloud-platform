@@ -25,7 +25,7 @@ Set up your ABAP cloud project to connect to the ABAP system.
 
     1.  **\[Default\] Service key provided by Cloud Foundry environment:** 
 
-        In the *New ABAP Cloud Project* wizard, on the *System Connection to SAP BTP ABAP Environment* page, select the *SAP BTP Cloud Foundry Environment* radio button, and choose *Next*.
+        In the *New ABAP Cloud Project* wizard, on the *System Connection to SAP BTP ABAP Environment* page, select the *Use Cloud Foundry Environment* radio button, and choose *Next*.
 
         On the *Connection Settings* page, select *Europe \(Frankfurt\)* as your region, enter your email address and password, and confirm with *Next*.
 

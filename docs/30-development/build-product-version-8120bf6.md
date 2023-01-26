@@ -15,9 +15,7 @@ Previously, the scenario has been described in project "Piper". For more informa
 > 
 > Therefore, you can only see the build protocols of the currently saved builds.
 > 
-> Although normally being singular, the number of builds for a version can vary. When the system is being prepared in the pipeline
-> 
-> Process, loading the ADT system, errors can occur. You are able to repeat the build processes for one version until it works.
+> Although normally being singular, the number of builds for a version can vary. You are able to repeat the build processes for one version until it works.
 
 
 
