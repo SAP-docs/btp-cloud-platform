@@ -209,7 +209,7 @@ To log in to a global account, you need the CLI server URL `https://cpcli.cf.eu1
 
 See:
 
-[Account Administration Using the SAP BTP Command Line Interface \(btp CLI\) \[Feature Set B\]](../50-administration-and-ops/account-administration-using-the-sap-btp-command-line-interface-btp-cli-feature-set-b-7c6df2d.md)
+[Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](../50-administration-and-ops/account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md)
 
 [btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 
@@ -533,11 +533,18 @@ With feature set B, you can access the trial homepage in the cockpit before your
 
 Summary:
 
--   You cannot access an expired trial global account.
+-   You cannot access a suspended trial global account.
 -   You can still see the counter with the remaining number of days in the same place, but you cannot extend your trial from there.
 -   You extend your trial account from a dialog similar to the global account selection dialog described previously in this table under global account navigation.
 
-With feature set B, it's not possible anymore to access expired trial global accounts. Before your trial expires you can still see the counter with the remaining number of days in the same place. However, once your trial expires and you try to access it, you will instead be prompted by a dialog asking you to extend your trial first.
+With feature set B, it's not possible anymore to access suspended trial global accounts. Before your trial interval expires, you can still see the counter with the remaining number of days in the same place. However, once your trial interval expires and you try to access it, you will instead be prompted by a dialog asking you to extend your trial first.
+
+> ### Note:  
+> The overall trial period is 90 days and is divided in intervals.
+> 
+> If you don't log in to your account for 30 days or more, your account will be suspended. During suspension, your applications may be stopped and you won't be able to access them. However, your data will not be deleted yet. You can unsuspend your account as long as there are days left in your trial period.
+> 
+> When your 90-day trial period is finished, your account will be deleted, and you will no longer be able to access your data. You can then set up a new trial account.
 
 
 

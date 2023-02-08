@@ -120,7 +120,7 @@ Delete a user
 <tr>
 <td valign="top">
 
-Assign a role collection to a user
+Assign a role collection to a user, user group, or to an attribute
 
 
 
@@ -143,7 +143,7 @@ Assign a role collection to a user
 <tr>
 <td valign="top">
 
-Unassign a role collection from a user
+Unassign a role collection from a user, user group, or from an attribute
 
 
 
@@ -394,7 +394,7 @@ Remove a role from a role collection
 
 ## Managing Role Collections
 
-Role collections consist of roles, which, in turn, are based on role templates. Role collections are specific to account entities, that is, there are different role collections in global accounts, subaccounts, and directories. There are predefined role collections, such as *Global Account Administrator* and *Subaccount Viewer*. For more information, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md).
+Role collections consist of roles, which, in turn, are based on role templates. Role collections are specific to account entities, that is, there are different role collections in global accounts, subaccounts, and directories. There are predefined role collections, such as *Global Account Administrator* and *Subaccount Viewer*. For more information, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md) and [Working with Role Collections](working-with-role-collections-393ea0b.md).
 
 
 <table>

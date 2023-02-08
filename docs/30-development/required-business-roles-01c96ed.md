@@ -165,6 +165,29 @@ Different actions require different roles as well. In the process description, t
     <tr>
     <td valign="top">
 
+    SAP\_A4C\_BC\_DEV\_OBJ\_DIS\_PC
+
+
+    
+    </td>
+    <td valign="top">
+
+    Development – Development Objects Display
+
+
+    
+    </td>
+    <td valign="top">
+
+    Show development objects in transport organizer in ABAP Development Tool
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
     `SAP_CORE_BC_IAM_UM`
 
 

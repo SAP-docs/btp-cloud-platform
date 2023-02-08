@@ -80,6 +80,18 @@ applications:
   ...
 ```
 
+You can also point to the major version of the SapMachine JDK, in order to always get the latest patch versions. In this case, specify it the following way:
+
+```
+---
+applications:
+- name: <app-name>
+  ...
+  env:
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
+    JBP_CONFIG_SAP_MACHINE_JDK: "{ version: 11.+ }"
+```
+
 > ### Restriction:  
 > As the SapMachine JDK is not bundled into the SAP Java Buildpack, you will always have to download it from GitHub as an online component.
 
@@ -88,7 +100,7 @@ applications:
 
 [Tomcat](tomcat-ddfc101.md "By default web applications pushed with the SAP Java buildpack are running in an Apache Tomcat container.")
 
-[Java Main](java-main-8a1786a.md "You can create a Java application that starts its own run time. This allows the usage of frameworks and java runtimes, such as Spring Boot, Jetty, Undertow, or Netty.")
+[Java Main](java-main-8a1786a.md "You can create a Java application that starts its own runtime. This allows the usage of frameworks and Java runtimes, such as Spring Boot, Jetty, Undertow, or Netty.")
 
 [https://sap.github.io/SapMachine/](https://sap.github.io/SapMachine/)
 

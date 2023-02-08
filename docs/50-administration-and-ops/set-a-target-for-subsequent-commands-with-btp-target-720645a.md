@@ -21,81 +21,87 @@ To see the current target, use `btp --info` or simply `btp`.
 
 To explicitly execute a command in a parent entity instead of in the target, you can specify this with '-dir' or '-ga' parameters without a value. The value is then taken from the target hierarchy. This can be useful, for example, if you have targeted a subaccount, but want to list the users of the parent directory. You can then execute `btp list security/user -dir`. Note, however, that this command is only available on a directory level if the directory is enabled to manage authorizations.
 
+Usage: `btp [OPTIONS] target [PARAMS]`
+
 
 
 ## Procedure
 
-Use `btp target [PARAMS]` to set the target for subsequent commands. Specify one of the following parameters:
+1.  Use `btp target` to set the target for subsequent commands.
 
-Usage: `btp [OPTIONS] target [PARAMS]`
+    -   Run the command without parameters to see the children, siblings and parent of you current target. You can then select your target or navigate up and down.
+    -   Specify the subaccount, directory, or global account you want to target as described in the next step.
 
-
-<table>
-<tr>
-<th valign="top">
-
-Parameter
+2.  Enter one of the following parameters:
 
 
+    <table>
+    <tr>
+    <th valign="top">
 
-</th>
-<th valign="top">
-
-Description
-
-
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-`--global-account, -ga` *<SUBDOMAIN\>*
+    Parameter
 
 
+    
+    </th>
+    <th valign="top">
 
-</td>
-<td valign="top">
-
-The subdomain of the global account to be targeted.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`--directory, -dir`*<ID\>*
+    Description
 
 
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
 
-</td>
-<td valign="top">
-
-The ID of the directory to be targeted. You can find the directory ID by using `btp get accounts/global-account --show-hierarchy`.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`--subaccount, -sa` *<ID\>*
+    `--global-account, -ga` *<SUBDOMAIN\>*
 
 
+    
+    </td>
+    <td valign="top">
 
-</td>
-<td valign="top">
-
-The ID of the subaccount to be targeted. You can find the subaccount ID by using `btp list accounts/subaccount`.
+    The subdomain of the global account to be targeted.
 
 
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
 
-</td>
-</tr>
-</table>
+    `--directory, -dir`*<ID\>*
+
+
+    
+    </td>
+    <td valign="top">
+
+    The ID of the directory to be targeted. You can find the directory ID by using `btp get accounts/global-account --show-hierarchy`.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    `--subaccount, -sa` *<ID\>*
+
+
+    
+    </td>
+    <td valign="top">
+
+    The ID of the subaccount to be targeted. You can find the subaccount ID by using `btp list accounts/subaccount`.
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
 
 
 

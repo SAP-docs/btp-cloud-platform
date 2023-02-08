@@ -78,7 +78,7 @@ Business users are replicated from your central HR system. You can change user d
     > </td>
     > <td valign="top">
     > 
-    >  `User ID` 
+    >  `User ID` \(Optional\)
     > 
     > 
     > 
@@ -186,6 +186,10 @@ Business users are replicated from your central HR system. You can change user d
     > </table>
     > 
     > In the app, you are provided with a `CSV` template that you can download and use for filling in the user role assignments. When uploading the `CSV` file, you can decide if you want to add the role assignments to a user, or if you want to overwrite them completely.
+    > 
+    > You can find the CSV template as follows: Click the *Upload* button, then click *Upload User Role Assignments* in the menu that appears. This opens a dialog box containing the *Download CSV Template* link that you can use to download the template.
+
+    The user ID is optional. Only if the user name is not unique, the user ID has to be maintained.
 
 -   **Downloading User Lists**
 -   To download a list of all users with an email address as `CSV` files for upload to *SAP Cloud Identity Services - Identity Authentication*, proceed as follows:

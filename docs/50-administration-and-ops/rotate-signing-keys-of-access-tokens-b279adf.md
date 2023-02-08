@@ -2,7 +2,7 @@
 
 # Rotate Signing Keys of Access Tokens
 
-Components of the Cloud Foundry environment use the digital signature of the access tokens to verify the validity of access tokens. To rotate the signing keys of access token, use the Security Setting API of the SAP Authorization and Trust Management service.
+Components of the Cloud Foundry environment use the digital signature of the access tokens to verify the validity of access tokens. To rotate the signing keys of access tokens, use the Security Setting API of the SAP Authorization and Trust Management service.
 
 
 
@@ -10,79 +10,99 @@ Components of the Cloud Foundry environment use the digital signature of the acc
 
 ## Prerequisites
 
--   You've enabled API access to the SAP Authorization and Trust Management service.
+-   You've enabled API access to the service.
 
     For more information, see [Access SAP Authorization and Trust Management Service APIs](access-sap-authorization-and-trust-management-service-apis-ebc9113.md)
 
--   You've checked that you have space for an additional signing key.
+-   Plan for waiting time in hours between the steps of this procedure.
 
-    You can store two signing keys per service instance. Get the settings of your subaccount to see how many keys you’ve stored there. Delete an inactive key if you already have two.
+    After activating a new key, wait for access tokens signed by the old key to expire before deleting the old key. The default lifetime of access tokens is 12 hours.
 
+    > ### Caution:  
+    > When you enable the first signing key after the default signing key, the default signing key is immediately invalid. Clients with access tokens issued within the last 12 hours, the default lifetime of an access token, can't use their access tokens anymore. Affected clients must reauthenticate to get a new token.
+    > 
+    > We recommend that you plan for possible service interruption when you add your first signing key.
 
+    To support this delay in rotation, the service enforces a minimum 1-hour delay between rotation and the activation \(`UPDATE`\) or deletion \(`DELETE`\) of signing keys.
 
+    > ### Note:  
+    > In emergency cases or in automated test setups, you can bypass the delay in activation and deletion by using the `FORCE_UPDATE` and `FORCE_DELETE` change modes. Forcing changes can also cause service interruption for access tokens that haven't expired yet.
 
-<a name="loiob279adf3ec134b2a8611a42bff1ee9d9__context_prh_mmz_tjb"/>
-
-## Context
-
-Access tokens are JSON web tokens \(JWT\). The system uses the signing key of the access token to digitally sign the JWT.
-
-A service instance of the SAP Authorization and Trust Management service has an initial signing key for its access token.
-
-> ### Caution:  
-> When you enable the first signing key after the initial signing key, the initial signing key is immediately invalid. Clients with access tokens issued within the last 12 hours, the default lifetime of an access token, can't use their access tokens anymore. Affected clients must reauthenticate to get a new token.
-> 
-> We recommend that you plan for possible service interruption when you add your first signing key.
 
 
 
 ## Procedure
 
-1.  Add a new signing key for the access token to the service instance.
+1.  Check that there's space for a new signing key.
 
-    Call the *PATCH* method of the Security Settings API at the following endpoint:
+    You can store two signing keys per subaccount. Get the settings of your subaccount to see how many keys you’ve stored there.
+
+    Call the *GET* method of the Security Settings API at the following endpoint:
 
     <code>https://api.authentication.<i class="varname">&lt;region&gt;</i>.hana.ondemand.com/sap/rest/authorization/v2/securitySettings</code>
 
-    In the body, include a key ID and set `changeMode` to ***ADD*** in the token policy settings.
-
     For more information, check the security settings API on the [API Business Hub](https://api.sap.com/package/authtrustmgmnt?section=Artifacts).
+
+    The API returns a JSON with the security settings. Examine the key IDs in the token policy settings.
+
+    ```
+    {
+        …
+        "tokenPolicySettings": {
+            …
+            "activeKeyId": "jwt-sig-2022-12-01",
+            "keyIds": [
+                "jwt-sig-2022-09-10",
+                "jwt-sig-2022-12-01"
+            ]
+        },
+    …
+    }
+    ```
+
+    Delete the inactive key if you already have two. In the previous example, delete `jwt-sig-2022-09-01`. For more information on how to delete keys, see step 5.
+
+2.  Add a new signing key for the access token.
+
+    Call the *PATCH* method of the same endpoint.
+
+    In the body, include a key ID and set `changeMode` to ***ADD*** in the token policy settings.
 
     > ### Sample Code:  
     > ```
     > {
     >     "tokenPolicySettings": {
-    >         "keyId": "my-new-key",
+    >         "keyId": "jwt-sig-2023-01-30",
     >         "changeMode":"ADD"
     >     }
     > }
     > ```
 
-    The service generates a new signing key.
+    A new signing key is generated.
 
-2.  Enable the new signing key.
+3.  Enable the new signing key.
 
     Call the *PATCH* method of the same endpoint, but set `changeMode` to ***UPDATE***.
 
     ```
     {
         "tokenPolicySettings": {
-            "keyId": "my-new-key",
+            "keyId": "jwt-sig-2023-01-30",
             "changeMode":"UPDATE"
         }
     }
     ```
 
-    The service instance now signs new access tokens with the new signing key.
+    New access tokens are now signed with the new signing key.
 
-3.  Wait for access tokens signed by the old key to expire.
+4.  Wait for access tokens signed by the old key to expire.
 
     As long as the old signing key exists, the system still accepts digital signatures signed by that key. Once you’ve waited out the lifetime of any access tokens signed by the old key, you can delete the old key.
 
     > ### Note:  
     > Exception: The initial signing key is invalid as soon as you enable your first signing key.
 
-4.  Delete the old signing key for the access token.
+5.  Delete the old signing key for the access token.
 
     Call the *PATCH* method of the same endpoint, but set `keyID` to the old key ID and `changeMode` to ***DELETE***.
 
@@ -90,14 +110,11 @@ A service instance of the SAP Authorization and Trust Management service has an 
     > ```
     > {
     >     "tokenPolicySettings": {
-    >         "keyId": "my-old-key",
+    >         "keyId": "jwt-sig-2022-12-01",
     >         "changeMode":"DELETE"
     >     }
     > }
     > ```
-
-    > ### Note:  
-    > You can't delete the default signing key. The default signing key is invalid as soon as you add your first signing key.
 
 
 **Related Information**  

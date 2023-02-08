@@ -18,8 +18,7 @@ You can use the `CL_APJ_RT_API` class to maintain application jobs. You can do t
 > ### Example:  
 > > ### Sample Code:  
 > > ```abap
-> > 
-> >  CLASS z_cl_rt_api_demo DEFINITION
+> > CLASS z_cl_rt_api_demo DEFINITION
 > >   PUBLIC
 > >   FINAL
 > >   CREATE PUBLIC .
@@ -57,10 +56,10 @@ You can use the `CL_APJ_RT_API` class to maintain application jobs. You can do t
 > >     DATA lv_txt TYPE string.
 > >     DATA ls_ret TYPE bapiret2.
 > > 
-> > * choose name of existing job template !!!!
+> > * choose the name of the existing job template !
 > >     lv_template_name = 'ZTEST_MY_SIMPLE_JOB_TEMP'.
 > > 
-> > * immediate start can't be used when being called from within a RAP business object
+> > * the immediate start can't be used when being called from within a RAP business object
 > > * because the underlying API performs an implicit COMMIT WORK.
 > > *ls_start_info-start_immediately = 'X'.
 > > 
@@ -83,7 +82,7 @@ You can use the `CL_APJ_RT_API` class to maintain application jobs. You can do t
 > >     ls_end_info-max_iterations = 3.
 > > 
 > > * fill parameter table ******************************
-> > * fill the table only, if you want to overrule the parameter values,
+> > * fill the table only if you want to overrule the parameter values
 > > * which are stored in the template
 > > * the field names in this program must match the field names of the template
 > > 
@@ -132,6 +131,18 @@ You can use the `CL_APJ_RT_API` class to maintain application jobs. You can do t
 > > 
 > >     TRY.
 > > 
+> > * some scenarios require that the job key ( = jobname, jobcount) is already known
+> > * before the job is created. The method generate_jobkey creates a valid job key.
+> > * This key can then be passed later on to the method schedule_job, and a job with
+> > * exactly this key is created.     
+> > 
+> > * optional. You need this call only if you have to know the job key in advance
+> > *       cl_apj_rt_api=>generate_jobkey(
+> > *                       importing
+> > *                            ev_jobname  = lv_jobname
+> > *                            ev_jobcount = lv_jobcount ).
+> >      
+> >   
 > > * If you pass the table lt_job_parameters , then the parameters
 > > * contained in this table are used.
 > > * If you don't pass the table, the parameters contained in the
@@ -145,6 +156,10 @@ You can use the `CL_APJ_RT_API` class to maintain application jobs. You can do t
 > >         is_scheduling_info = ls_scheduling_info
 > >         is_end_info = ls_end_info
 > >         it_job_parameter_value = lt_job_parameters
+> > * the following two parameters are optional. If you pass them, they must have been generated
+> > * with the call of generate_jobkey above
+> > *        iv_jobname  = lv_jobname
+> > *        iv_jobcount = lv_jobcount
 > >         IMPORTING
 > >         ev_jobname  = lv_jobname
 > >         ev_jobcount = lv_jobcount
@@ -167,7 +182,7 @@ You can use the `CL_APJ_RT_API` class to maintain application jobs. You can do t
 > > 
 > > * via the following method you can cancel the job
 > > * in the application job context 'cancel' means (as in the Fiori app):
-> > * 1. if the job is running, it will be cancelled
+> > * 1. if the job is running, it will be canceled
 > > * 2. if the job has not yet started, it will be deleted.
 > > * In case the job is periodic, the whole periodicity chain is deleted.
 > > 

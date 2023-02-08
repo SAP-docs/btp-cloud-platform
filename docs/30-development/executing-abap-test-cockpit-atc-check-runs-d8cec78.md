@@ -15,12 +15,12 @@
 -   You’ve created a *Communication System* as described in [How to Create Communication Systems](../50-administration-and-ops/how-to-create-communication-systems-c2234ac.md)
 -   You’ve created a *Communication Arrangement* as described in [How to Create a Communication Arrangement](../50-administration-and-ops/how-to-create-a-communication-arrangement-a0771f6.md).
 
--   You have selected the communication scenario **SAP\_COM\_0510** for your communication arrangement and have mapped it to your communication system.
+-   You've selected the communication scenario **SAP\_COM\_0510** for your communication arrangement and have mapped it to your communication system.
 
     > ### Note:  
     > Alternatively, you can also use the communication scenario **SAP\_COM\_0901**, which contains the ATC service only, without the Manage Git Repositories service.
 
--   You have defined a business user in the additional properties in the communication arrangement. To do so, choose the *Additional Properties* link for ATC Check Run in the *Inbound Services* section. Specify a business user \(CB\) or select a user from the value help. ATC runs started via the service will be scheduled and executed with the specified business user.
+-   You've defined a business user in the additional properties in the communication arrangement. To do so, choose the *Additional Properties* link for ATC Check Run in the *Inbound Services* section. Specify a business user \(CB\) or select a user from the value help. ATC runs started via the service will be scheduled and executed with the specified business user.
 
     > ### Note:  
     > The assigned business user needs development authorization for ADT, which is contained in the business catalog`SAP_A4C_BC_DEV_PC` or in the business role template `SAP_BR_DEVELOPER`. In case the ATC is used to execute ABAP Unit Tests, further specific authorizations might be required.
@@ -32,7 +32,7 @@
 
 ## Context
 
-The ABAP Test Cockpit \(ATC\) is the standard tool for checking the quality of ABAP development objects using static checks and ABAP unit tests. In this help topic you will learn how to trigger an ATC Check Run via REST Service.
+The ABAP Test Cockpit \(ATC\) is the standard tool for checking the quality of ABAP development objects using static checks and ABAP unit tests. In this help topic, you'll learn how to trigger an ATC Check Run via REST Service.
 
 For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP Code with ATC](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/checking-quality-of-abap-code-with-atc).
 
@@ -233,15 +233,15 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     
     **Body**
 
-    You can specify components, packages or both. If you specify both components and packages, only those objects will be checked that are assigned to packages which belong to the specified software components.
+    You can specify components, packages or both. If you specify both components and packages, only those objects will be checked that are assigned to packages that belong to the specified software components.
 
     For the package value, enter the name of the package you want to have checked.
 
-    You can provide an ATC configuration as additional parameter which is used instead of the default configuration of your system.
+    You can provide an ATC configuration as additional parameter that is used instead of the default configuration of your system.
 
     You can also provide an ATC check variant as additional parameter. This is used instead of the default check variant of your ATC configuration, regardless of whether an ATC configuration was explicitly provided via parameter or not.
 
-    You can use the Object Set Library \(OSL\) to specify arbitrary object sets, such as components or packages.
+    You can specify arbitrary object sets.
 
     ```
     <?xml version="1.0" encoding="UTF-8"?>
@@ -250,14 +250,14 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
              checkVariant="CHECKVARIANT_NAME"
              objectProvider="OBJECTPROVIDER_NAME"
              configuration="CONFIGURATION_NAME">
-        <osl:objectSet xsi:type="unionSet" xmlns:osl=http://www.sap.com/api/osl xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance>
-          <osl:set xsi:type="multiPropertySet">
-            <osl:component name="Z_MY_COMPONENT"/>
+        <osl:objectSet xsi:type="unionSet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osl="http://www.sap.com/api/osl">
+          <osl:set xsi:type="osl:multiPropertySet">
+            <osl:property key="comp" value="Z_MY_COMPONENT"/>
           </osl:set>
-          <osl:set xsi:type="multiPropertySet">
-            <osl:package name="Z_MY_PACKAGE"/>
+          <osl:set xsi:type="osl:packageSet">
+            <osl:package includeSubpackages="false" name="Z_MY_PACKAGE"/>
           </osl:set>
-      </osl:objectSet>
+        </osl:objectSet>
     </atc:runparameters>
     
     ```
@@ -350,7 +350,7 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
 
     While the check is still running, the ATC phases will show the status ”In Process” or “Undefined” in the body.
 
-    The check run is finished when all ATC phases show the status “Completed”. You will find the link /sap/bc/adt/api/atc/results/<UUID\> at the bottom of the body. Use this link to retrieve the ATC check run results in the next step.
+    The check run is finished when all ATC phases show the status “Completed”. You'll find the link /sap/bc/adt/api/atc/results/<UUID\> at the bottom of the body. Use this link to retrieve the ATC check run results in the next step.
 
     **Body**
 
@@ -428,7 +428,7 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     
     ```
 
-    In this example, the error message shows a hard-coded username. Ideally, the formatted user name corresponds to the developer that edited the object for the last time. In case "last changed by" should not be available for the object, the author is used instead. In case the formatted user name cannot be determined, the business user id is displayed as fallback.
+    In this example, the error message shows a hard-coded username. Ideally, the formatted user name corresponds to the developer that edited the object for the last time. In case "last changed by" shouldn't be available for the object, the author is used instead. In case the formatted user name can't be determined, the business user id is displayed as fallback.
 
     > ### Note:  
     > In the output, the namespace slashes will be replaced by dashes. That means `/NAMESPACE/OBJECT_NAME` will be output as `-NAMESPACE-OBJECT_NAME`.

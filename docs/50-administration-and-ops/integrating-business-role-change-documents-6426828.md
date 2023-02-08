@@ -2,6 +2,8 @@
 
 # Integrating Business Role Change Documents
 
+You can use this scenario to read the change documents of business roles.
+
 
 
 <a name="loio64268285d910445582022d8ba4eb1811__IntegratingBusinessRoleChangeDocuments_context"/>

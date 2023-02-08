@@ -64,11 +64,11 @@ The SAP BTP, Cloud Foundry environment provides four versions of SAP Java Buildp
 
 To check these versions:
 
-1.  Log in to a particular SAP BTP region and subaccount. Execute: `cf api <SAP BTP region>`
+1.  Log in to a particular SAP BTP region and subaccount. Execute: **`cf api <SAP BTP region>`**
 
-    For example: `cf api https://api.cf.eu10.hana.ondemand.com`
+    For example: **`cf api https://api.cf.eu10.hana.ondemand.com`**
 
-2.  Then execute: `cf buildpacks`
+2.  Then execute: **`cf buildpacks`**
 
 
 
@@ -87,10 +87,10 @@ Let's say that the latest version of SAP Java Buildpack is **1.50.0**. Then, the
 ```
 	buildpack           position   enabled   locked   filename
 
-sap_java_buildpack             1         true      false    sap_java_buildpack-1.50.0.zip
-sap_java_buildpack_1_50_0      2         true      false    sap_java_buildpack-1.50.0.zip
-sap_java_buildpack_1_49_0      3         true      false    sap_java_buildpack-1.49.0.zip
-sap_java_buildpack_1_48_0      4         true      false    sap_java_buildpack-1.48.0.zip
+sap_java_buildpack           1         true      false    sap_java_buildpack-1.50.0.zip
+sap_java_buildpack_1_50      2         true      false    sap_java_buildpack-1.50.0.zip
+sap_java_buildpack_1_49      3         true      false    sap_java_buildpack-1.49.0.zip
+sap_java_buildpack_1_48      4         true      false    sap_java_buildpack-1.48.0.zip
 ```
 
 When SAP Java Buildpack is updated on the SAP BTP, Cloud Foundry from version **1.50.0** to **1.51.0**, the list will change to:
@@ -98,13 +98,13 @@ When SAP Java Buildpack is updated on the SAP BTP, Cloud Foundry from version **
 ```
 	buildpack           position   enabled   locked   filename
 
-sap_java_buildpack             1         true      false    sap_java_buildpack-1.51.0.zip
-sap_java_buildpack_1_51_0      2         true      false    sap_java_buildpack-1.51.0.zip
-sap_java_buildpack_1_50_0      3         true      false    sap_java_buildpack-1.50.0.zip
-sap_java_buildpack_1_49_0      4         true      false    sap_java_buildpack-1.49.0.zip
+sap_java_buildpack           1         true      false    sap_java_buildpack-1.51.0.zip
+sap_java_buildpack_1_51      2         true      false    sap_java_buildpack-1.51.0.zip
+sap_java_buildpack_1_50      3         true      false    sap_java_buildpack-1.50.0.zip
+sap_java_buildpack_1_49      4         true      false    sap_java_buildpack-1.49.0.zip
 ```
 
-This means that *sap\_java\_buildpack\_1\_48\_0* will no longer be available for applications.
+This means that *sap\_java\_buildpack\_1\_48* will no longer be available for applications.
 
 > ### Note:  
 > No fixes will be provided to the older versions of the buildpack. Fixes, including security ones, will be part of the latest version.
@@ -146,7 +146,7 @@ modules:
     parameters:
       ...
       memory: 512M
-      buildpack: sap_java_buildpack_1.50.0
+      buildpack: sap_java_buildpack_1.50
 ...
 ```
 
@@ -158,7 +158,7 @@ modules:
 
 The SAP Java Buildpack \(`sap_java_buildpack`\) supports the following Java versions:
 
--   Java **8** – default version when you use SAPJVM \(*it provides a JRE with Java 8*\)
+-   Java **8** – default version when you use SAP JVM \(*it provides a JRE with Java 8*\)
 -   Java **11** – default version when you use SapMachine \(*it provides a JRE with Java 11*\). To learn how to configure your application to use SapMachine JRE and JDK, see: [SapMachine](sapmachine-785d6b3.md)
 
 
@@ -206,5 +206,5 @@ To see the latest news and updates about SAP Java Buildpack, regularly check the
 
 ## Java Tutorial
 
-The following tutorial will guide you through creating a Java application in Cloud Foundry Command Line Interface \(cf CLI\), consuming Cloud Foundry services, and setting up authentication and authorization checks. See: [Create a Java Application via cf CLI](https://developers.sap.com/tutorials/btp-cf-buildpacks-java-create.html)
+The following tutorial will guide you through creating a Java application in Cloud Foundry Command Line Interface \(cf CLI\), consuming Cloud Foundry services, and setting up authentication and authorization checks. See: SapMachine is replacing OpenJDK 11 & 17 in java\_buildpack[Create a Java Application via cf CLI](https://developers.sap.com/tutorials/btp-cf-buildpacks-java-create.html)
 

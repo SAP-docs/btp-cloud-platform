@@ -18,7 +18,7 @@ The SAP Authorization and Trust Management service uses an X.509 certificate to 
 
 -   You've checked that you've space for an additional signing key.
 
-    You can store two signing keys per service instance. Get the settings of your subaccount to see how many signing keys you’ve stored there. Delete an inactive signing key if you already have two.
+    You can store two signing keys per subaccount. Get the settings of your subaccount to see how many signing keys you’ve stored there. Delete an inactive signing key if you already have two.
 
 
 
@@ -35,7 +35,7 @@ The signed SAML tokens are used to validate and authenticate the protocol messag
 
 ## Procedure
 
-1.  Add a new signing key for SAML tokens to the service instance.
+1.  Add a new signing key for SAML tokens.
 
     Call the *PATCH* method of the Security Settings API at the following endpoint:
 
@@ -53,7 +53,7 @@ The signed SAML tokens are used to validate and authenticate the protocol messag
     > }
     > ```
 
-    The service generates a new signing key.
+    A new signing key is generated.
 
     Optionally, provide your own signing key with the `key` parameter. The signing key is your private key of the certificate key pair. Provide the certificate.
 
@@ -87,7 +87,7 @@ The signed SAML tokens are used to validate and authenticate the protocol messag
     }
     ```
 
-    The service instance now signs new SAML tokens with the new signing key.
+    New SAML tokens are now signed with the new signing key.
 
 3.  Establish trust with the identity providers you consume.
 
@@ -101,7 +101,7 @@ The signed SAML tokens are used to validate and authenticate the protocol messag
 
 
     > ### Caution:  
-    > Until you upload the metadata to your identity provider, the identity provider rejects SAML tokens signed by the service instance.
+    > Until you upload the metadata to your identity provider, the identity provider rejects the signed SAML tokens.
 
 4.  Delete the old signing key for SAML tokens.
 

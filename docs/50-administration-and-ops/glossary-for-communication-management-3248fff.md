@@ -74,5 +74,21 @@ A communication user is a special type of technical users that is assigned to a 
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Communication scenario
+
+
+
+</td>
+<td valign="top">
+
+A communication scenario defines the communication between external systems and your own SAP cloud system. It bundles inbound and outbound services and additional properties that are required for configuration settings.
+
+
+
+</td>
+</tr>
 </table>
 

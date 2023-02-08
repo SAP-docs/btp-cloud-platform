@@ -327,6 +327,52 @@ The number of out-of-memory events on the SAP HANA index server during the last 
 <tr>
 <td valign="top">
 
+*Locked Business Users*
+
+
+
+</td>
+<td valign="top">
+
+`abap_system_locked_bus_usr_count`
+
+
+
+</td>
+<td valign="top">
+
+The number of locked business users
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Locked Communication Users*
+
+
+
+</td>
+<td valign="top">
+
+`abap_system_locked_com_usr_count`
+
+
+
+</td>
+<td valign="top">
+
+The number of locked communication users
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 *Maximum Application Job Delay*
 
 

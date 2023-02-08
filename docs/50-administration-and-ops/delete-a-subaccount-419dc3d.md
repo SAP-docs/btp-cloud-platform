@@ -43,7 +43,7 @@
     > If you are not a subaccount administrator, then you won't be able to access the *Instances and Subscriptions*. Instead, you'll have to ask a subaccount administrator in your organization to review the content in this subaccount and to manually remove the content from there.
 
     > ### Caution:  
-    > You're also given the option to use the **force-delete** option, which deletes the subaccount and all its data for you.
+    > If the subaccount contains data, then you're also given the option to use the **force-delete** option, which deletes the subaccount and all its data for you.
     > 
     > You must use this option with extreme caution because any data in the subaccount is deleted permanently, including productive data, without any recovery option.
     > 

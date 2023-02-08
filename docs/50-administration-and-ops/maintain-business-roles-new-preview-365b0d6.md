@@ -6,10 +6,10 @@
 
 With this app you can access the new maintenance UI for restrictions as well as the *Restrictions Overview*.
 
-With the *Maintain Business Roles \(New\)* app, you can also define business roles by combining predefined business catalogs. You use business roles to control the access to your applications. The predefined catalogs contain the actual authorizations that allow users to access apps and allow to define instance-based restrictions where necessary. Business catalogs bundle authorizations for a specific business area. Once you have created a business role, you can assign it to multiple business users who perform similar business tasks.
+With the *Maintain Business Roles \(New\) - Preview* app, you can also define business roles by combining predefined business catalogs. You use business roles to control the access to your applications. The predefined catalogs contain the actual authorizations that allow users to access apps and allow to define instance-based restrictions where necessary. Business catalogs bundle authorizations for a specific business area. Once you have created a business role, you can assign it to multiple business users who perform similar business tasks.
 
 > ### Note:  
-> The *Maintain Business Users \(New\) Preview* app provides access to a new *Maintain Restrictions* UI. This has an improved and more efficient design. It provides consolidated access to restrictions, values and access categories as well as faster navigation. The *Maintain Business Roles* app with the previous UI for maintaining restrictions will still be available and can still be used.
+> The *Maintain Business Users \(New\) Preview* app provides access to a new *Maintain Restrictions* UI. This has an improved and more efficient design. It is displayed when you click *Display/Maintain Restrictions* in the detail view of the business role and provides consolidated access to restrictions, values and access categories as well as faster navigation. The *Maintain Business Roles* app with the previous UI for maintaining restrictions will still be available and can still be used.
 
 
 

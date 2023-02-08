@@ -230,3 +230,37 @@ To change token validity, use one of the following methods:
     For more information, see [Security Settings API](https://api.sap.com/api/SecuritySettingsAPI/resource) on *SAP API Business Hub*.
 
 
+ <a name="loio0b406a94f4604a4f98bbe606ef92d50d"/>
+
+<!-- loio0b406a94f4604a4f98bbe606ef92d50d -->
+
+## Access to REST APIs
+
+The `apiaccess` plan provides administrator-level access to REST APIs of the SAP Authorization and Trust Management service. Ensure that only administrators have administrator access to Cloud Foundry spaces where service instances with this plan exist.
+
+To use this service plan, create a separate Cloud Foundry space in your subaccount. Only assign administrator users the *Space Manager* and *Space Developer* roles in this space as well as the *Org Manager* role in the parent Cloud Foundry org. Use this Cloud Foundry space to create the `apiaccess` plan service instance.
+
+Administrators are any SAP BTP cockpit users with the *User and Role Administrator* role. This role is part of the *Subaccount Administrator* role collection, but can be included in other role collections.
+
+**Related Information**  
+
+
+[About Roles in the Cloud Foundry Environment](../50-administration-and-ops/about-roles-in-the-cloud-foundry-environment-0907638.md "Roles determine which features users can view and access, and which actions they can initiate.")
+
+[Access SAP Authorization and Trust Management Service APIs](../50-administration-and-ops/access-sap-authorization-and-trust-management-service-apis-ebc9113.md "To enable programmatic access to the SAP Authorization and Trust Management service (XSUAA) in your multi-environment subaccount, create a service instance with the apiaccess plan.")
+
+[Default Role Collections of SAP BTP Cloud Foundry Environment \[Feature Set B\]](default-role-collections-of-sap-btp-cloud-foundry-environment-feature-set-b-a6a0072.md "The following table displays the default role collections available with cloud management tools feature set B after initially deploying your accounts. For more information, see the related links.")
+
+ <a name="loio24c226d64f994d80879d5f2518c0d0ab"/>
+
+<!-- loio24c226d64f994d80879d5f2518c0d0ab -->
+
+## Training Business Users How to Handle Session Timeouts
+
+Administrators should make business users aware of a possible security risk after single logoff. A business user might get a message saying that this user is being logged off from the application although the identity provider session was not terminated.
+
+The reason for this message comes from a timeout mismatch between the application and the SAP Authorization and Trust Management service. The timeout of the SAP Authorization and Trust Management service is currently 30 minutes. After the timeout, the SAP Authorization and Trust Management service does not forward the logoff request to the identity provider. This situation incurs a security risk.
+
+> ### Recommendation:  
+> To remedy this security risk, advise the business users to access the application URL again, log on to the application, and log off right away, or log off directly from the identity provider.
+

@@ -1,22 +1,16 @@
-<!-- loiob73e8533b3484a078ae4d3291e4f2afd -->
+<!-- loio074667b544964acfa4423f6fa56db2f0 -->
 
 # Changing the Content of Existing Data Elements
 
-Using PATCH operations, it's possible to change the content of an existing data element.
-
-The following changes can be specified:
+Using `PATCH` operations, it's possible to change the content of an existing data element. The following changes can be specified:
 
 -   Changes to header-level properties, such as the data type or the field labels
 
-
-The code sample below illustrates how the following changes can be performed with a single PATCH operation:
+The code sample below illustrates how the following changes can be performed with a single `PATCH` operation:
 
 -   Update the short description
-
 -   Update the data type
-
 -   Update the short field label
-
 
 > ### Sample Code:  
 > ```abap

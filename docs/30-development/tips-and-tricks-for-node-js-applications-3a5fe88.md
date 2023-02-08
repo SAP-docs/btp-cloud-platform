@@ -95,11 +95,11 @@ node --v8-options
 
 
 
-<a name="loio3a5fe887f6e64abb827494baac352059__specify_buildpack_version"/>
+<a name="loio3a5fe887f6e64abb827494baac352059__specify_node_bp_version"/>
 
-## Specify a buildpack version in the manifest file
+## Specify a buildpack version in `manifest.yml`
 
-At some point, you might need \(decide\) to deploy your applications with a particular buildpack version from the community [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack). For example, if this buildpack contains a Node.js version that is no longer supported by SAP BTP, Cloud Foundry.
+At some point, you might need \(or decide\) to deploy your application with a particular buildpack version from the community [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack) repository. For example, if this buildpack contains a Node.js version that is no longer supported by SAP BTP, Cloud Foundry.
 
 Let's say, you want to pin version [1.8.4](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.4). To do that, proceed as follows:
 
@@ -136,14 +136,16 @@ If you don't want to make changes in your **manifest.yml** file, you can include
 
 -   To pin this buildpack version for all applications running in your SAP BTP, Cloud Foundry subaccount, execute:
 
-    `cf push -b https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.4`
+    ```
+    cf push -b https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.4
+    ```
 
 
 
 
 <a name="loio3a5fe887f6e64abb827494baac352059__section_q5v_fv5_41b"/>
 
-## Specify application memory in the manifest file
+## Specify application memory in `manifest.yml`
 
 When deploying an application in the Cloud Foundry environment without specifying the application memory requirements, the Cloud Foundry controller assigns the default \(1G of RAM currently\) for your application. Many Node.js applications require less memory and assigning the default is a waste of resources.
 

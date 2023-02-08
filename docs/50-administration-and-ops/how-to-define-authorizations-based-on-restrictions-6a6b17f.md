@@ -98,7 +98,5 @@ Using the *Maintain Business Roles \(New\)* app, you have the following options 
 
 
 
-
-
 [Maintain Restrictions in Business Role](https://launchpad.support.sap.com/#/notes/2598733)
 

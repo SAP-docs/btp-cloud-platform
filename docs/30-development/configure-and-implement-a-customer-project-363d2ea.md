@@ -88,6 +88,6 @@ Key user extensibility that is enabled in the SaaS solution can be configured an
 
 As a business user in a *Partner Customer Test* or *Partner Customer Production* tenant \(client \>= 200\), you configure key user extensibility in a customer production system AMT.
 
--   See [Custom Logic](../50-administration-and-ops/custom-logic-05880c7.md) for guidance on how to use the *Custom Logic* app to create and maintain custom logic for business add-ins \(BAdIs\).
+-   See [Custom Logic \(Deprecated\)](../50-administration-and-ops/custom-logic-deprecated-05880c7.md) for guidance on how to use the *Custom Logic* app to create and maintain custom logic for business add-ins \(BAdIs\).
 -   See [Configuring Predefined Custom Fields](../50-administration-and-ops/configuring-predefined-custom-fields-0033cbc.md) for guidance on how to configure predefined custom fields to customize applications and their UIs.
 

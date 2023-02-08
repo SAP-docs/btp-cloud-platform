@@ -80,21 +80,21 @@ Nov 10 00:00:00 2031 GMT
 <tr>
 <td valign="top">
 
- `C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root CA` 
+ `C=US, O=Entrust, Inc., OU=www.entrust.net/legal-terms, CN=Entrust Root Certification Authority - G2` 
 
 
 
 </td>
 <td valign="top">
 
- `C=US, O=DigiCert Inc, CN=DigiCert SHA2 Secure Server CA` 
+ `C=US, O=Entrust, Inc., OU=www.entrust.net/legal-terms, CN=Entrust Root Certification Authority - G2` 
 
 
 
 </td>
 <td valign="top">
 
-Mar 8 12:00:00 2023 GMT
+12-07-2030
 
 
 
@@ -118,6 +118,29 @@ Mar 8 12:00:00 2023 GMT
 <td valign="top">
 
 May 12 23:59:00 2025 GMT
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root CA` 
+
+
+
+</td>
+<td valign="top">
+
+ `C=US, O=DigiCert Inc, CN=DigiCert SHA2 Secure Server CA` 
+
+
+
+</td>
+<td valign="top">
+
+Mar 8 12:00:00 2023 GMT
 
 
 

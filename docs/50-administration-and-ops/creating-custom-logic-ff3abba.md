@@ -37,17 +37,9 @@ This is a generic description about how to implement custom logic.
 **Related Information**  
 
 
+[Statements in ABAP for Key Users](statements-in-abap-for-key-users-2004071.md "This topic provides you with an overview of ABAP keywords and ABAP system fields that are available with the ABAP version for key users.")
 
+[Keyboard Shortcuts in Web-Based Editor](keyboard-shortcuts-in-web-based-editor-2a7a64d.md "You can use keyboard shortcuts while working in the web-based editor.")
 
-
-
-
-
-
-
-
-
-
-
-
+[Extensibility](extensibility-40190d2.md "")
 

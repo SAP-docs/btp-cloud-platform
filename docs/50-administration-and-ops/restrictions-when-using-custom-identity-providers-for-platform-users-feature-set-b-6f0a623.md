@@ -133,5 +133,23 @@ Logging on with a password to the Neo Git service doesn't work with custom platf
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+User group assignments
+
+
+
+</td>
+<td valign="top">
+
+Indirect assignments over user attributes and groups don't work.
+
+These assignments need to be made directly per user. See the [associated roadmap entry](https://roadmaps.sap.com/board?BA=42F2E964FAAF1EDB80C512AD4FEB20ED&PRODUCT=73555000100800000287&range=CURRENT-LAST#Q1%202023;INNO=E78B0E4728D31EDD9BE4994792FE5FD8) for more information.
+
+
+
+</td>
+</tr>
 </table>
 

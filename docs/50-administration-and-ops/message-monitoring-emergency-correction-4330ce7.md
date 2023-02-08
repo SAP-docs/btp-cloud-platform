@@ -15,19 +15,16 @@ You can use this app to:
 
 
 -   Get a tabular overview of your interfaces and all messages \(with specific status\) processed through them.
--   Filter your overview by time and/or interface, and restruct it to show only interface with messages or errors.
+-   Filter your overview by time and/or interface, and restrict it to show only interface with messages or errors.
 -   Drill down on the messages of a specific interface and filter them by time, status, and key fields \(if any are defined\).
 -   Get more information on an individual message, such as log messages, message details, and data structure.
 -   Download the payload of a specific message.
--   Edit the payload of messages.
+-   Edit, restart, or cancel a message \(if in status *Error* or *In Process*\) \(this functionality is only available for selected message formats\).
+-   Set process information for a message \(such as defining a process status\).
+-   Identify interfaces with an active alert and confirm the alert.
+-   Edit the payload of messages, even if the messages aren't customized to be changeable.
 
 Despite having similar functionalities as *Message Monitoring for Integration Experts*, *Message Monitoring \(Emergency Correction\)* doesn't support navigating to the *Message Monitoring* app or performing mass error handling.
-
-
-
-## Access Information
-
-For information on what business role and business catalog need to be assigned to your user to access the app, see the overview table in the chapter .
 
 
 

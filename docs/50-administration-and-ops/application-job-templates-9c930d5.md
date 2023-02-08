@@ -24,9 +24,11 @@ You can use this app to:
     -   *Private:* a template with this layer code is visible for all users within the *Application Job Templates* and the *Application Jobs* apps, but only the author can edit or delete the template
 
         > ### Note:  
-        > With the new restriction type, you can define a full authorization for job templates, such that an system administrator can display, change or delete private templates of other users
+        > With the new restriction type, you can define a full authorization for job templates, such that a system administrator can display, change or delete private templates of other users
 
     -   *Shared:* a template with this layer code is visible to all users that have the required authorizations to use the *Application Job Templates* and the *Application Jobs* apps
+
+    -   *Reference:* a template with this layer code is visible for all users within the *Application Job Templates* and the *Application Jobs* apps, but only the author can edit or delete the template. It can't be scheduled in the *Application Jobs* app. It can be used as a copy pattern to create other templates.
 
 
 

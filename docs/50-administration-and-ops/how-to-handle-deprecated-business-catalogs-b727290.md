@@ -2,6 +2,8 @@
 
 # How to Handle Deprecated Business Catalogs
 
+If you want to check how many deprecated business catalogs you still have in use, or you want to change assignments from the old, deprecated business catalogs to the new, active catalogs quickly and easily, proceed as follows:
+
 
 
 <a name="loiob7272906d6484c03b246365bac1e3866__HowToReviseBusinessCatalogs_context"/>

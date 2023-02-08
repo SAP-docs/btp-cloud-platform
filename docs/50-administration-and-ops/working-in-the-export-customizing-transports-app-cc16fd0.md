@@ -9,6 +9,18 @@ Find out how to create, release, or merge customizing requests using the *Export
 
 
 
+
+
+### Changing Client-Specific Business Configurations
+
+The client settings determine whether changes to business configurations are allowed or recorded automatically in a request.
+
+If the automatic recording for the client is activated, you have to select a request number for the recording whenever you save changed client-specific configurations. If there is no request number selected, the configurations can't be saved.
+
+If the automatic recording for the client is not allowed, you can save changed client-specific configurations without selecting a request number.
+
+
+
 <a name="loiocc16fd0c10ef4ed39a50ac718c71e5a8__section_qfh_hwf_bpb"/>
 
 ## Create Request

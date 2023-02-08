@@ -139,6 +139,29 @@ Establish trust from a global account or subaccount to an Identity Authenticatio
 <tr>
 <td valign="top">
 
+Update a trust configuration of a global account or subaccount
+
+
+
+</td>
+<td valign="top">
+
+`btp update security/trust`
+
+
+
+</td>
+<td valign="top">
+
+[btp update security/trust](https://help.sap.com/docs/BTP/btp-cli/btp-update-security-trust.html)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Delete a trust configuration from a global account or subaccount
 
 

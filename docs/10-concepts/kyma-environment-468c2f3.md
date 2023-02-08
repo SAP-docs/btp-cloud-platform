@@ -184,36 +184,6 @@ Managed Kyma
 <tr>
 <td valign="top">
 
-Kiali
-
-
-
-</td>
-<td valign="top">
-
-:heavy_check_mark:
-
-
-
-</td>
-<td valign="top">
-
-:x:
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Jaeger tracing
 
 
@@ -244,7 +214,7 @@ Jaeger tracing
 <tr>
 <td valign="top">
 
-Logging <sup>[1](kyma-environment-468c2f3.md#loio4b83be95f7db4fddba5c46d388ebf39a__ol_tcn_pdp_pvb)</sup>
+Logging<sup> [1](kyma-environment-468c2f3.md#loio4b83be95f7db4fddba5c46d388ebf39a__ol_tcn_pdp_pvb)</sup>
 
 
 
@@ -267,8 +237,6 @@ limited
 
 No customization in SAP BTP, Kyma runtime
 
-In the future, this functionality will be removed from both, OS and SKR.
-
 
 
 </td>
@@ -276,7 +244,7 @@ In the future, this functionality will be removed from both, OS and SKR.
 <tr>
 <td valign="top">
 
-Monitoring
+Monitoring<sup> [2](kyma-environment-468c2f3.md#loio4b83be95f7db4fddba5c46d388ebf39a__ol_tcn_pdp_pvb)</sup>
 
 
 
@@ -425,8 +393,15 @@ In-cluster system landscape management \(Application Connector\)
 </tr>
 </table>
 
-> ### Note:  
-> 1.  The Logging capability based on Loki, which allows you to query application logs using Grafana, got deprecated. See the [Kyma 2.9 What's New notes](https://help.sap.com/whats-new/f0d108472a9347d99053658d05ae23e2?Environment=Kyma&Valid_as_Of=2022-12-01%3A2022-12-01&locale=en-US&state=DRAFT&Action=Recommended) for more information.
+> ### Caution:  
+> The following functionalities have been deprecated:
+> 
+> 1.  The Logging capability based on Loki, which enables you to query application logs using Grafana, has been deprecated. For details, see [What's New for Kyma on Dec 1, 2022](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%20Runtime&locale=en-US&version=Cloud&Valid_as_Of=2022-12-01%3A2022-12-01&q=observability).
+> 
+> 2.  The Monitoring capability based on Prometheus, which enables you to query metrics using Grafana, has been deprecated. For details, see [What's New for Kyma on Jan 20, 2023](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%20Runtime&locale=en-US&version=Cloud&Valid_as_Of=2023-01-20%3A2023-01-20).
+> 
+> 
+> In the future, they will be removed from both, SAP BTP, Kyma runtime and open source project "Kyma".
 
  <a name="loio4a0dd09368ce40bfa3c99cae46de49e1"/>
 

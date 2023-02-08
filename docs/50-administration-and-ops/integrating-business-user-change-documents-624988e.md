@@ -2,6 +2,8 @@
 
 # Integrating Business User Change Documents
 
+You can use this scenario to read the change documents of business users.
+
 
 
 <a name="loio624988e41d9144a2a4ca0178944a8d18__IntegratingBusinessUserChangeDocuments_context"/>

@@ -33,7 +33,9 @@ You can use this app to:
 
 -   Perform mass error handling for multiple messages of an interface at once.
 
--   Set process information for a message \(such like defining a process status\).
+-   Set process information for a message \(such as defining a process status\).
+
+-   Identify interfaces with an active alert and confirm the alert.
 
 
 

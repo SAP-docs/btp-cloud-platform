@@ -8,7 +8,7 @@
 
 ## Use
 
-The *Monitor Email Transmissions* app is structured in three views, beginning with an overview of all internal email requests and additional information on the two following object pages. The purpose of this app is to display successful and failed email transmissions and to provide background information. This app is read-only and doesn’t allow any data changes.
+You can use this app to display successful and failed email transmissions and to provide background information. This app is read-only and doesn’t allow any data changes.
 
 
 
@@ -16,51 +16,42 @@ The *Monitor Email Transmissions* app is structured in three views, beginning wi
 
 ## Key Features
 
-On the starting page, you can search for a specific email by adapting the following filters:
+With this app, you can:
 
--   Subject
+-   Search for a specific email by adapting filters
 
--   Status
+-   Sort, add, or remove columns
 
--   Sender
+-   Display all outgoing email requests
 
--   Created at
+-   Export a results list as a spreadsheet
 
+-   Get the header data and information about the sending status on a specific email request
 
-In addition, you can:
-
--   sort columns
-
--   add or remove columns
+-   Send a test email to check if the email outbound in a system is working
 
 
-Press *Go* to display the search results. On the results list, all email requests are displayed according to the filters you set. You can export the results list as spreadsheet.
-
-To get more information on a specific email request, click a request in the results list. On the next page, detailed information are displayed, such as:
-
--   Status
-
--   Sender
-
--   Status Code
-
--   Subject
-
--   Created at
-
--   Response
 
 
-Furthermore, you get information the recipients, such as:
+<a name="loio8cf1ac977f0047339bea147d3182f217__section_v4q_ssb_3vb"/>
 
--   Latest status
+## Supported Device Types
 
--   Recipient address
+-   Desktop
 
--   Copy \(BCC or TO\)
-
--   Latest Status changed at
+-   Tablet
 
 
-In the third view, you get additional information about the present and former recipient status by clicking a recipient.
+
+
+<a name="loio8cf1ac977f0047339bea147d3182f217__section_vyj_5sb_3vb"/>
+
+## Component for Customer Incidents
+
+If you need support or experience issues, please report an incident under component `BC-SRV-COM`.
+
+**Related Information**  
+
+
+[Monitoring Email Transmissions](monitoring-email-transmissions-fbd5487.md "Find out how to monitor your email transmissions.")
 

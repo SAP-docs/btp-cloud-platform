@@ -4,7 +4,7 @@
 
 This service contributes to a central list of security recommendations for SAP BTP.
 
-See the [list of security recommendations](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-service=SAP%20Authorization%20and%20Trust%20Management%20service) for the SAP Authorization and Trust Management service.
+See the [list of security recommendations](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-service=Authorization%20and%20Trust%20Management%20Service) for the SAP Authorization and Trust Management service.
 
 The following sections present an overview of these recommendations according to your role.
 
@@ -111,6 +111,22 @@ Check which users have critical roles.
 <td valign="top">
 
  [BTP-UAA-0017](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0017) 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Check that only administrators have acccess to REST APIs.
+
+
+
+</td>
+<td valign="top">
+
+ [BTP-UAA-0022](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0022) 
 
 
 
@@ -255,6 +271,22 @@ If you embed the login page of this service, check where you allow the page to b
 <td valign="top">
 
  [BTP-UAA-0001](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0001) 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Train business users how to handle session timeouts
+
+
+
+</td>
+<td valign="top">
+
+ [BTP-UAA-0023](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0023) 
 
 
 

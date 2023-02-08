@@ -2,7 +2,7 @@
 
 # Display Technical Users
 
-This app shows all technical users that exist in your tenant. To call the app, log on to your SAP Fiori Launchpad and go to *Identity and Access Management* \> *Display Technical Users*.
+This app shows all technical users that exist in the system. To call the app, log on to your SAP Fiori Launchpad and go to *Identity and Access Management* \> *Display Technical Users*.
 
 
 
@@ -10,7 +10,44 @@ This app shows all technical users that exist in your tenant. To call the app, l
 
 ## Purpose
 
-With this app, you can display technical users. These technical users can be services that are used to automate technical tasks in the system. All users are assigned to one of the following user groups:
+This app has two tabs:
+
+-   Technical User
+
+-   SAP Support User Request Log
+
+
+In the *Technical User* tab, you can display technical users that can be services that are used to automate technical tasks in the system, for example, a print queue user who pulls print jobs remotely. In addition, the service and support users of the software provider or hosting provider are technical users.
+
+In the *SAP Support User Request Log* tab, you can display more information about when and why SAP support users accessed your customer system in the past 12 months. For each support user, the relevant incident ID, access level, access category, customer user, request date and validity date is displayed when you click on the required entry in the *Users* list. SAP support user IDs are pseudonymized to respect the data subject rights of SAP employees according to GDPR.
+
+
+
+<a name="loio7fb79d7a811146679646ebfb5844b858__section_m3x_rzg_jfb"/>
+
+## Key Features
+
+You can use this app to:
+
+
+
+-   Lock or unlock the following types of technical users: Print users and communication users
+
+-   Change the user name and password of some types of technical users
+
+-   Display details of which support users were created for the system
+
+-   Display all technical users in the system
+
+-   Export user data \(such as *User ID* or *User Group*\) to a spreadsheet if required
+
+
+> ### Note:  
+> To lock and unlock communication users, use the *Maintain Communication Users* app. See section Related Information.
+
+
+
+All users are assigned to one of the following user groups:
 
 
 
@@ -92,24 +129,6 @@ SAP uses support users to provide customers with support if issues occur in the 
 </td>
 </tr>
 </table>
-
-
-
-<a name="loio7fb79d7a811146679646ebfb5844b858__section_m3x_rzg_jfb"/>
-
-## Key Features
-
-You can use this app to:
-
-
-
--   Display all technical users in the system.
-
--   Export user data \(such as *User ID* or *User Group*\) to a spreadsheet if required
-
-
-> ### Note:  
-> To lock and unlock communication users, use the *Maintain Communication Users* app. See section Related Information.
 
 
 

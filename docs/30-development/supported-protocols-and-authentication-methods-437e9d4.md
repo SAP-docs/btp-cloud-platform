@@ -347,14 +347,14 @@ SQL service
 
 Basic Authentication
 
+Client Certificate Authentication
+
 
 
 </td>
 <td valign="top">
 
 OpenID Connect Bearer Token
-
-Client Certificate Authentication
 
 
 

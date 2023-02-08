@@ -8,10 +8,10 @@ SAP Fiori app for editing ATC configurations.
 
 ## Purpose
 
-The `ABAP Test Cockpit (ATC) Configurator` enables you to maintain ATC configurations using SAP Fiori launchpad.
+The *ABAP Test Cockpit Configurator* enables you to maintain ATC configurations using SAP Fiori launchpad.
 
 > ### Note:  
-> Configurations defined with the ATC Configurator app overrule configurations defined with transactions ATC and SCI.
+> The *ATC Configurator* app enables you to maintain multiple configurations. Edits done in transactions `ATC` and `SCI` only affect the **active** configuration.
 
 
 

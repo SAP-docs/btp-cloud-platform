@@ -32,7 +32,7 @@ Release Delivery
 </td>
 <td valign="top">
 
-Release versions of the product usually include new deliveries of software components that are planned and used for new functionalities and feature enhancements. In the case of multiple software components, release deliveries may also include new support package- or patch deliveries of software components. Not yet included software components can only be added with a new release delivery version of the product. The template can be executed using a transient assembly system or can be used to create a new permanent build system which can be reused to create patches on this SP 0 level. Additionally, an installation test should be performed.
+Release versions of the product usually include new deliveries of software components that are planned and used for new functionalities and feature enhancements. In case of multiple software components, release deliveries may also include new support package- or patch deliveries of software components. Not yet included software components can only be added with a new release delivery version of the product. The template can be executed using a transient build system or to create a new permanent build system which can be reused to create patches or support packages. Additionally, the integration test stage should be performed.
 
 
 
@@ -48,7 +48,7 @@ Support Package Stack
 </td>
 <td valign="top">
 
-Support package stack deliveries of the product usually include new support package deliveries of software components that are planned and used for smaller functional enhancements. Support package deliveries of software components are created based on a delta comparison with respect to the previous support package level in the same release. In the case of multiple software components, support package stacks may also include new patch deliveries of software components. The template can be executed using a transient assembly system or can be used to create a new permanent build system which can be reused to create patches on this SP 0 level. Additionally, an installation test should be performed.
+Support package stack deliveries of the product usually include new support package deliveries of software components that are planned and used for smaller functional enhancements. Support package deliveries of software components are created based on a delta comparison in regard to the previous support package level in the same release. In case of multiple software components, support package stacks may also include new patch deliveries of software components. The template can be executed using a transient build system or to create a new permanent build system which can be reused to create patches. Additionally, an installation test should be performed.
 
 
 
@@ -64,7 +64,7 @@ Patch Delivery
 </td>
 <td valign="top">
 
-Patch delivery versions of the product should only include new patch deliveries of software components that contain unplanned, urgent and small corrections. Patch deliveries of software components are created based on a delta comparison with respect to the previous patch level on the same support package level, in the same release. The template should be executed using a permanent assembly system and an update test should be performed.
+Patch delivery versions of the product should only include new patch deliveries of software components that contain unplanned, urgent and small corrections. Patch deliveries of software components are created based on a delta comparison in regard to the previous patch level on the same support package, in the same release. The template should be executed using a permanent build system and an update test should be performed.
 
 
 
@@ -80,9 +80,9 @@ Test Release Delivery
 </td>
 <td valign="top">
 
-Release versions of the product usually include new deliveries of software components that are planned and used for new functionalities and feature enhancements. **Test Release Delivery** is part of the continuous testing in the development branch. The run performs static code checks and builds the next release delivery locally \(no upload to the AddOn Framework\) to detect findings early that would delay a productive build later on. It should be executed using a permanent add-on assembly system dedicated to the development branch. An AddOn update test is not possible as no package is uploaded to the AddOn Framework.
+Release versions of the product usually include new deliveries of software components that are planned and used for new functionalities and feature enhancements. *Test Release Delivery* is part of the continuous testing in the development process. The run performs static code checks and builds the next release delivery locally \(no upload to the product framework\) to detect findings early that might delay a productive build later on. It should be executed using a permanent build system. Execution of an integration test stage is not possible as no package is uploaded to the product framework.
 
-The generated product versions in the Test Run mode are not be released. Thus the Versioning of the Build Runs can be used efficiently.
+The generated product versions in the test run are not released, thus the versioning of the build runs can be reused for multiple runs, and hence reducing the consumption of product version numbers.
 
 
 
@@ -98,7 +98,9 @@ Test Support Package Stack
 </td>
 <td valign="top">
 
-Support package stack deliveries of the product usually include new support package deliveries of software components that are planned and used for smaller functional enhancements. **Test Support Package** is part of the continuous testing in the development branch. The run performs static code checks and builds the next support package locally \(no upload to the AddOn Framework\) to detect findings early that would delay a productive build. It should be executed using a permanent AddOn assembly or test system dedicated to the development branch. An AddOn update test is not possible as no package is uploaded to the AddOn Framework.
+Support package stack deliveries of the product usually include new support package deliveries of software components that are planned and used for smaller functional enhancements. *Test Support Package* is part of the continuous testing in the development branch. The run performs static code checks and builds the next support package locally \(no upload to the product framework\) to detect findings early that might delay a productive build. It should be executed using a permanent build or test system dedicated to the development branch. An add-on update test is not possible as no package is uploaded to the product framework.
+
+The generated product versions in the test run mode are not released, thus the versioning of the build runs can be reused for multiple runs, and hence reducing the consumption of product version numbers.
 
 
 
@@ -114,9 +116,9 @@ Test Patch Delivery
 </td>
 <td valign="top">
 
-Patch delivery versions of the product should only include new patch deliveries of software components that contain unplanned, urgent and small corrections. **Test Patch Delivery** is part of the continuous testing in the development branch. The run performs static code checks and builds the next patch delivery locally \(no upload to the AddOn Framework\) to detect findings early that would delay a productive build. It should be executed using a permanent AddOn assembly or test system dedicated to the development branch. An add-on update test is not possible as no package is uploaded to the AddOn Framework.
+Patch delivery versions of the product should only include new patch deliveries of software components that contain unplanned, urgent and small corrections. *Test Patch Delivery* is part of the continuous testing in the development branch. The run performs static code checks and builds the next patch delivery locally \(no upload to the product framework\) to detect findings early that might delay a productive build. It should be executed using a permanent build or test system dedicated to the development branch. An add-on update test is not possible as no package is uploaded to the product framework.
 
-The generated product versions in the Test Run mode are not be released. Thus the versioning of the Build Runs can be used efficiently.
+The generated product versions in the test run mode are not released, thus the versioning of the build runs can be reused for multiple runs, and hence reducing the consumption of product version numbers.
 
 
 

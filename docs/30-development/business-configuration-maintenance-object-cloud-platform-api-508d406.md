@@ -16,9 +16,20 @@ If an error occurs while calling the following methods, an exception of type `cx
 
 ### Create a Business Configuration Maintenance Object
 
-Use the `create` method of the obtained business configuration interface handle to create a new object. Supply the parameters as illustrated in the code sample below.
+Use the `create` method of the obtained business configuration interface handle to create a new object. Supply the following mandatory parameters, as illustrated in the code sample below.
 
--   For additional information about the parameters, see [here](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/8ea18fd0f93f4cd48578d2c75f3c8c89.html?version=Cloud).
+-   A name that is shown on the frontend list of all registered business configurations.
+
+-   A description for the business configuration that is shown on the frontend.
+
+    > ### Note:  
+    > The name and description are language dependent. The translations can be maintained using the *Maintain Translations* app.
+
+-   The OData V4 - UI Service Binding that is used to maintain the business configuration data. The service must be draft enabled.
+
+-   The name of the service to be used \(as defined in the Service Binding\).
+
+-   The name of an entity set as exposed by the service definition. This entity set is used as the root node for the UI. Only for this root entity set and its associations a UI is shown. Keep in mind that only one level of sub nodes is supported.
 
 -   A transport request of type `Workbench` to write the business configuration registration to. An entry of type "SMBC" \(Business Configuration Object\) will be written to that transport request.
 
@@ -57,6 +68,13 @@ Use the `create` method of the obtained business configuration interface handle 
 > ENDCLASS.
 > 
 > ```
+
+The supplied information and an application component are stored in the registration table. The application component is derived from the package that contains the registered service binding. If an error occurs while using the business configuration, it will be shown in an error message on the frontend.
+
+The `create` method also has two optional parameters:
+
+-   skip root entity list report: If `abap_true`, the UI automatically navigates to the object page of the root entity skipping the list report. Exactly one root entity must exist.
+-   app configuration: Configuration of root entity list report and object pages. It is sufficient to maintain only those attributes that should deviate from the standard behavior.
 
 
 

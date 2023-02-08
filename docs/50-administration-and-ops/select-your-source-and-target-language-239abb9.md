@@ -16,7 +16,7 @@ Select your source language as well as the languages you want to translate your 
 
 ## Procedure
 
-1.  In the *Maintain Customizing Translations* app, open the project for which you want to create a translation from a source language to a target language.
+1.  In the *Maintain Customizing Translations* app, open the project for which you want to create a translation from a source language to a target language. You can choose to select either a single language or more than one language.
 2.  Scroll down to *Translations* and click *Create*.
 3.  Select a *Source Language* and *Target Language* from the dropdown menus and confirm with *Create*.
 

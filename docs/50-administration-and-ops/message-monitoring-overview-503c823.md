@@ -25,9 +25,11 @@ This app provides the following key features:
 
 -   Filter or search for messages with key content as the search parameters
 
--   Easy navigation to *Message Monitoring* with appropriate filter conditions for specific interfaces and message status, significantly improving the user experience
+-   Navigate to *Message Monitoring* with appropriate filter conditions for specific interfaces and message status, significantly improving the user experience
 
--   Easy ordering of the cards to keep an eye on mission-critical interfaces using drag-and-drop mechanism
+-   Order the cards to keep an eye on mission-critical interfaces using drag-and-drop mechanism
+
+-   Identify interfaces with an active alert
 
 
 

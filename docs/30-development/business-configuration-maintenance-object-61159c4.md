@@ -8,7 +8,7 @@
 
 ## Purpose
 
-A business configuration maintenance object declares a service binding as relevant for business configuration. It will be shown on the list of all maintainable business configurations in the Fiori app . The business configuration maintenance object can be maintained via API or ADT. For more information, see also [Creating Business Configuration Apps with ABAP RESTful Application Programming Model and Custom Business Configurations App](creating-business-configuration-apps-with-abap-restful-application-programming-model-and-fa420dd.md).
+A business configuration maintenance object declares a service binding as relevant for business configuration. It will be shown on the list of all maintainable business configurations in the Fiori app [Custom Business Configurations App](../50-administration-and-ops/custom-business-configurations-app-76384d8.md). The business configuration maintenance object can be maintained via API or ADT. For more information, see also[Creating Business Configuration Apps with ABAP RESTful Application Programming Model and Custom Business Configurations App](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/fa420dd6272b41858a7b31f8dc5090f8.html).
 
 
 

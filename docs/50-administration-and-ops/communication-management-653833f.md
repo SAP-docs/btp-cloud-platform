@@ -140,27 +140,3 @@ It provides an easy setup with a clear configuration of the systems that are exp
 
 [Integrating On-Premise Systems](../30-development/integrating-on-premise-systems-c95327f.md "Set up the Cloud Connector to enable communication from the ABAP environment to your on-premise systems using Remote Function Calls (RFC) and HTTP calls.")
 
- <a name="loio039ba12fc85642b8af06ad7aa6198944"/>
-
-<!-- loio039ba12fc85642b8af06ad7aa6198944 -->
-
-## Administrator Tasks
-
-To configure a communication scenario for a specific communication partner, you have to create a communication system, that represents the communication partner, and create a communication arrangement for that communication system.
-
-If the scenario contains inbound services, you have to create a communication user, add it as inbound communication user to the system, and select it for inbound communication in the arrangement.
-
-If the scenario contains outbound services, you can store the credentials, such as host and port of the communication partner, in the communication system and maintain an outbound communication user, or you store it in a destination in your subaccount and refer to it from the communication system. You can also refer to a destination in a specific destination service instance. In that case, you need to maintain an arrangement for communication scenario `SAP_COM_0276` to integrate the specific destination service instance. Maintaining the credentials directly in the communication system is the recommended approach.
-
-If the communication partner is protected by a firewall, you can use Cloud Connector to connect to it. You may even use multiple cloud connectors. In the communication system, you then specify if a Cloud Connector shall be used. Or, if you refer to a destination, you choose destination type ***OnPremise*** for the destination.
-
-The communication arrangement, communication system, and communication user can be created from the respective apps in SAP Fiori launchpad. See [Communication Management](communication-management-2e84a10.md). If the scenario contains only inbound services, you can also create a communication arrangement with a system and user by creating a corresponding service key for the ABAP environment service instance from the SAP BTP cockpit or CLI. For some SAP-managed scenarios, you can create a communication arrangement with a system and user in the *Communication Arrangements* app by providing a service key of the SAP BTP service instance that you want to integrate.
-
-To browse the available communication scenarios, you can use the *Display Communication Scenarios* app. The app provides information about whether or not the scenario is managed by SAP or customers, how many communication arrangements can be created for the scenario, and if the scenario provides inbound and/or outbound services.
-
-For scenarios that are managed by SAP, SAP provides setup guides that explain the necessary steps that need to be performed in the ABAP environment and by the communication partner to enable the integration. This includes the supported authentication methods, for example. If the scenario exposes an API service, the configuration is straight forward: you maintain a communication arrangement with a system and communication user and share the credentials with the communication partner. See [Overview of Communication Scenarios Managed by SAP](overview-of-communication-scenarios-managed-by-sap-2d16f49.md).
-
-For scenarios that are managed by customers, you can find the supported authentications methods for inbound and outbound communication in [Supported Protocols and Authentication Methods](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/437e9d41d24349c3a2b363f726022677.html?version=Cloud).
-
-To troubleshoot connectivity issues, you may use the *Display Connectivity Trace* app, for example. See [Display Connectivity Trace](display-connectivity-trace-a4f6ccd.md).
-

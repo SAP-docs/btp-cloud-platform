@@ -37,15 +37,17 @@ To create a communication arrangement, proceed as follows:
 
 2.  Select *New*. In the *New Communication Arrangement* window, select a communication scenario and define the arrangement name. Select *Create*.
 
-3.  The new *Communication Arrangements*screen is now open. In the *Communication System* field under *Common Data*, select a communication system that you want your system to connect to. Alternatively, you can click *New* to create a new communication system.
+3.  The new *Communication Arrangements* screen is now open. In the *Communication System* field under *Common Data*, select a communication system that you want your system to connect to. Alternatively, you can click *New* to create a new communication system.
 
-4.  If the selected communication system already has a communication user for inbound communication, the user and required authentication type will be displayed in the field *User Name* under *Inbound Communication*. In the *Inbound Services* section, the URLs to the service endpoints are displayed.
+4.  Depending on the underlying communication scenario, maintain the *Additional Properties*.
+
+5.  If the communication scenario provides inbound services, you have to select the desired communication user and authentication method from the assigned communication system. The defined communication user then has the authorization to call these services. In the *Inbound Services* section, the URLs to the service endpoints are displayed. Depending on the underlying scenario, maintain the required inbound parameters.
 
      **Note:** Always use the API hostname of your tenant including the "-api" suffix. Don't use the UI hostname without the "-api".
 
-5.  If the selected communication system already has a communication user for outbound communication, the user and required authentication type will be displayed in the field *User Name* under *Outbound Communication*.
+6.  If the communication scenario provides outbound services, you have to select the desired outbound user and authentication method from the assigned communication system. In the *Outbound Services* section, the URL path and port need to be defined. Depending on the underlying scenario, maintain the required outbound parameters and job execution details.
 
-6.  Save the arrangement.
+7.  Save the arrangement.
 
 
 **Related Information**  

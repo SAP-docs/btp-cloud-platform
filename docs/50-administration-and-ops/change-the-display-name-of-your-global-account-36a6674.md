@@ -73,7 +73,7 @@ You are an admin of the global account that you'd like to edit.
 ## Context
 
 > ### Tip:  
-> You can also change the account's display name using the SAP BTP command line interface \(btp CLI\) with the `btp update accounts/global-account` command. See [Account Administration Using the SAP BTP Command Line Interface \(btp CLI\) \[Feature Set B\]](account-administration-using-the-sap-btp-command-line-interface-btp-cli-feature-set-b-7c6df2d.md).
+> You can also change the account's display name using the SAP BTP command line interface \(btp CLI\) with the `btp update accounts/global-account` command. See [Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md).
 
 
 

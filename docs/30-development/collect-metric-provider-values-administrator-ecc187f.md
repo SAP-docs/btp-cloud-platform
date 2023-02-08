@@ -31,6 +31,9 @@ You must set up a communication arrangement based on communication scenario `SAP
 
 4.  Schedule the job.
 
+    > ### Note:  
+    > Make sure that you schedule this job for the development system and all follow-up systems.
+
 
 
 

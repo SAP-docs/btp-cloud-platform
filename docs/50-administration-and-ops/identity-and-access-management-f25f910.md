@@ -2,8 +2,6 @@
 
 # Identity and Access Management
 
-The Identity and Access Management apps secure the access to your solution for your business users.
-
 **Related Information**  
 
 

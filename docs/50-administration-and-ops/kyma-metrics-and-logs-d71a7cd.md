@@ -2,10 +2,10 @@
 
 # Kyma Metrics and Logs
 
-In the Kyma environment, you use Grafana to query, visualize, and explore metrics and logs collected for the Kyma components.
+In the Kyma environment, you can query, visualize, and explore metrics and logs collected for the Kyma components.
 
 > ### Caution:  
-> The Logging capability based on Loki, which allows you to query application logs using Grafana, got deprecated. See the [Kyma 2.9 What's New notes](https://help.sap.com/whats-new/f0d108472a9347d99053658d05ae23e2?Environment=Kyma&Valid_as_Of=2022-12-01%3A2022-12-01&locale=en-US&state=DRAFT&Action=Recommended) for more information.
+> The in-cluster Logging and Monitoring capabilities, a well as any integration with Grafana, have been deprecated. See *What's New* for Kyma on [Dec 1, 2022](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%20Runtime&locale=en-US&version=Cloud&Valid_as_Of=2022-12-01%3A2022-12-01&q=observability) and [Jan 20, 2023](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%20Runtime&locale=en-US&version=Cloud&Valid_as_Of=2023-01-20%3A2023-01-20).
 
 
 

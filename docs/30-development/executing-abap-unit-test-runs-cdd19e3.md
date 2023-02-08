@@ -15,7 +15,7 @@
 -   You’ve created a *Communication System* as described in [How to Create Communication Systems](../50-administration-and-ops/how-to-create-communication-systems-c2234ac.md)
 -   You’ve created a *Communication Arrangement* as described in [How to Create a Communication Arrangement](../50-administration-and-ops/how-to-create-a-communication-arrangement-a0771f6.md).
 
--   You have selected the communication scenario **SAP\_COM\_0735** for your communication arrangement and have mapped it to your communication system.
+-   You've selected the communication scenario **SAP\_COM\_0735** for your communication arrangement and have mapped it to your communication system.
 
 
 
@@ -23,7 +23,7 @@
 
 ## Context
 
-ABAP Unit is the standard tool for executing unit tests. In this help topic, you will learn how to trigger an ABAP Unit Test Run via REST Service.
+ABAP Unit is the standard tool for executing unit tests. In this help topic, you'll learn how to trigger an ABAP Unit Test Run via REST Service.
 
 For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/latest/en-US/4ec7641e6e391014adc9fffe4e204223.html).
 
@@ -213,7 +213,7 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     
     **Body**
 
-    You can specify arbitrary object sets \(for example components or packages\).
+    You can specify arbitrary object sets.
 
     You can provide additional parameters to control the selection of tests. You can restrict the amount of tests to certain risk level and durations. Furthermore, you can decide to execute foreign tests, which are connected via test relations.
 
@@ -226,14 +226,14 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
         <aunit:riskLevel harmless="true" dangerous="true" critical="true"/>
         <aunit:duration short="true" medium="true" long="true"/>
       </aunit:options>
-      <osl:objectSet xsi:type="unionSet" xmlns:osl="http://www.sap.com/api/osl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <osl:set xsi:type="packageSet">
-          <osl:package name="SRIS" includeSubpackages="true"/>
-        </osl:set>
-        <osl:set xsi:type="flatObjectSet">
-          <osl:object name="CL_TEST_ONE" type="CLAS"/>
-          <osl:object name="IF_TEST_TWO" type="INTF"/>
-        </osl:set>
+      <osl:objectSet xsi:type="unionSet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osl="http://www.sap.com/api/osl">
+       <osl:set xsi:type="osl:packageSet">
+         <osl:package includeSubpackages="true" name="PACKAGE_ONE"/>
+       </osl:set>
+       <osl:set xsi:type="osl:flatObjectSet">
+         <osl:object name="ZCL_TEST_ONE" type="CLAS"/>
+         <osl:object name="ZIF_TEST_TWO" type="INTF"/>
+       </osl:set>
       </osl:objectSet>
     </aunit:run>
     ```
@@ -326,7 +326,7 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
 
     While the tests are still running, the returned status will be ”In Process”.
 
-    If all tests have been executed, the status “Completed” is returned. You will find the link /sap/bc/adt/api/atc/results/<UUID\> at the bottom of the body. Use this link to retrieve the ABAP Unit test results in the next step.
+    If all tests have been executed, the status “Completed” is returned. You'll find the link /sap/bc/adt/api/atc/results/<UUID\> at the bottom of the body. Use this link to retrieve the ABAP Unit test results in the next step.
 
     **Body**
 

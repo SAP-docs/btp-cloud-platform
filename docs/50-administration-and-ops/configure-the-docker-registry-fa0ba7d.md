@@ -10,7 +10,7 @@ In its default configuration, Kyma environment uses persistent volumes as the in
 
 ## Context
 
-This internal registry is suitable for local development. The default storage size of a single volume is 20 GB. You can check your current consumption with the Grafana Dashboard *Kubernetes / Persistent Volumes* \> *kyma-system* \> *serverless-docker-registry*.
+This internal registry is suitable for local development. The default storage size of a single volume is 20 GB.
 
 For production purposes, we recommend you use an external registry, such as [Docker Hub](https://hub.docker.com/), [Google Container Registry \(GCR\)](https://cloud.google.com/container-registry), or [Azure Container Registry \(ACR\)](https://azure.microsoft.com/en-us/services/container-registry/).
 

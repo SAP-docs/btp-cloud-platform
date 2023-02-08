@@ -10,7 +10,9 @@ A trial account lets you try out the Kyma environment for free with a restricted
 
 ## Trial Period
 
-The trial account gives you the option to explore and use the basic functionality of SAP BTP, Kyma runtime for 30 days. You can extend the trial period to a maximum of 365 days. After 365 days, your account is automatically deleted. After your trial account has been deleted, you’ll no longer be able to access your data. Note that while your trial account is valid for 30 days, the Kyma environment that you create with it expires **14 days** after its creation and is then deleted permanently. To create a new Kyma environment, you must first disable the expired Kyma on your subaccount. To learn how to do that, see [Disable Expired Trial Kyma Environment](setting-up-your-trial-account-57074a0.md#loiod022bb1dde7d499685ee6ef3ab825680).
+The trial account is valid for 90 days. During this time, you can explore and use the basic functionality of SAP BTP, Kyma runtime for 14 days. After 90 days, your account is automatically deleted, and you’ll no longer be able to access your data. See [Trial Accounts and Free Tier](https://help.sap.com/docs/btp/sap-business-technology-platform-internal/trial-accounts-and-free-tier?locale=en-US&state=DRAFT&version=Internal#trial-lifecycle) to learn more about the trial periods.
+
+Note that while your trial account is valid for 90 days, the Kyma environment that you create with it expires **14 days** after its creation and is then deleted permanently. To create a new Kyma environment, you must first disable the expired Kyma on your subaccount. To learn how to do that, see [Disable Expired Trial Kyma Environment](setting-up-your-trial-account-57074a0.md#loiod022bb1dde7d499685ee6ef3ab825680).
 
 > ### Caution:  
 > Once your account has expired, your cluster is deleted and all the cluster resources are removed. We recommend that you back up your cluster configuration to restore it quickly if you choose to create a new Kyma environment.

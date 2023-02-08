@@ -504,7 +504,7 @@ Number between 2 and 80, but greater than or equal to *autoScalerMin*.
 </table>
 
 > ### Note:  
-> You can configure *Auto Scaler Min* and *Auto Scaler Max* during both provisioning and update operations.
+> You can configure *Auto Scaler Min*, *Auto Scaler Max* and *Machine Type* during both provisioning and update operations.
 
 
 
@@ -747,5 +747,5 @@ Number between 2 and 40, but greater than or equal to *autoScalerMin*.
 
 [Regions for the Kyma Environment](../10-concepts/regions-for-the-kyma-environment-557ec3a.md "To work with the Kyma environment, you need to specify the region for both your subaccount and the cluster.")
 
-[Account Administration Using the SAP BTP Command Line Interface \(btp CLI\) \[Feature Set B\]](account-administration-using-the-sap-btp-command-line-interface-btp-cli-feature-set-b-7c6df2d.md "Use the SAP BTP command line interface (btp CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the SAP BTP cockpit for all users who like to work in a terminal or want to automate operations using scripts.")
+[Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md "Use the SAP BTP command line interface (btp CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the SAP BTP cockpit for all users who like to work in a terminal or want to automate operations using scripts.")
 

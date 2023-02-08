@@ -53,7 +53,7 @@ Extensibility
 </td>
 <td valign="top">
 
- [Custom Logic](custom-logic-05880c7.md) 
+ [Custom Logic \(Deprecated\)](custom-logic-deprecated-05880c7.md) 
 
 
 
@@ -1135,6 +1135,84 @@ Identity and Access Management
 </td>
 <td valign="top">
 
+[Maintain Business User Groups](maintain-business-user-groups-24f5b79.md)
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+
+
+</td>
+<td valign="top">
+
+*User Management* \(SAP\_CORE\_BC\_IAM\_UM\)
+
+*Identity and Access Management - User Management - Display* \(SAP\_CORE\_BC\_IAM\_UM\_DISP\_PC\)
+
+*Identity and Access Management - Group Management*
+
+\(SAP\_CORE\_BC\_IAM\_GRP\_PC\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Identity and Access Management
+
+
+
+</td>
+<td valign="top">
+
+[Maintain Business Role Groups](maintain-business-role-groups-72b48de.md)
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+
+
+</td>
+<td valign="top">
+
+*Role Management* \(SAP\_CORE\_BC\_IAM\_RM\)
+
+*Role Assignment* \(SAP\_CORE\_BC\_IAM\_RA\)
+
+*Identity and Access Management - Role Management - Display* \(SAP\_CORE\_BC\_IAM\_RM\_DISP\_PC\)
+
+*Identity and Access Management - Group Management* 
+
+\(SAP\_CORE\_BC\_IAM\_GRP\_PC\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Identity and Access Management
+
+
+
+</td>
+<td valign="top">
+
 [Maintain Deleted Business Users](maintain-deleted-business-users-a904bdd.md)
 
 
@@ -1646,6 +1724,40 @@ Communication Management
 `SAP_CORE_BC_COM`
 
 *Communication Management*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Communication Management
+
+
+
+</td>
+<td valign="top">
+
+[Display Inbound Services](display-inbound-services-e939433.md)
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR` 
+
+*Administrator*
+
+
+
+</td>
+<td valign="top">
+
+*Communication Management* \(`SAP_CORE_BC_COM`\)
+
+*Communication Management - Display* \(SAP\_CORE\_BC\_COM\_DISP\_PC\)
 
 
 
@@ -2450,6 +2562,44 @@ Technical Monitoring
 <td valign="top">
 
  [Perform System Sizing](perform-system-sizing-1b2be3f.md) 
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+`SAP_BR_DEVELOPER`
+
+*Developer*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_TMC`
+
+*Technical Monitoring*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Technical Monitoring
+
+
+
+</td>
+<td valign="top">
+
+ [System Outbound Communication](system-outbound-communication-a95efa6.md) 
 
 
 

@@ -18,7 +18,7 @@ Some of the typical responsibilities of SAP BTP administrators include maintenan
 
 -   [Account Administration in the Cockpit](account-administration-in-the-cockpit-8061ecc.md)
 
--   [Account Administration Using the SAP BTP Command Line Interface \(btp CLI\) \[Feature Set B\]](account-administration-using-the-sap-btp-command-line-interface-btp-cli-feature-set-b-7c6df2d.md)
+-   [Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md)
 
 -   [Account Administration Using APIs](account-administration-using-apis-1c8db14.md)
 

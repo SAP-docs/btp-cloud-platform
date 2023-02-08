@@ -32,7 +32,7 @@ To revoke a token, use the `revoke` endpoint of the standard Cloud Foundry API.
 **Related Information**  
 
 
-[Rotate Signing Keys of Access Tokens](../50-administration-and-ops/rotate-signing-keys-of-access-tokens-b279adf.md "Components of the Cloud Foundry environment use the digital signature of the access tokens to verify the validity of access tokens. To rotate the signing keys of access token, use the Security Setting API of the SAP Authorization and Trust Management service.")
+[Rotate Signing Keys of Access Tokens](../50-administration-and-ops/rotate-signing-keys-of-access-tokens-b279adf.md "Components of the Cloud Foundry environment use the digital signature of the access tokens to verify the validity of access tokens. To rotate the signing keys of access tokens, use the Security Setting API of the SAP Authorization and Trust Management service.")
 
 [Application Security Descriptor Configuration Syntax](application-security-descriptor-configuration-syntax-517895a.md "The syntax required to set the properties and values defined in the xs-security.json application security descriptor file.")
 

@@ -1,6 +1,6 @@
 <!-- loio7c6df2db6332419ea7a862191525377c -->
 
-# Account Administration Using the SAP BTP Command Line Interface \(btp CLI\) \[Feature Set B\]
+# Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)
 
 Use the SAP BTP command line interface \(btp CLI\) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the SAP BTP cockpit for all users who like to work in a terminal or want to automate operations using scripts.
 

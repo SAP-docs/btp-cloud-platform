@@ -88,7 +88,7 @@ applications:
     JBP_CONFIG_SAP_MACHINE_JDK: "[ version: 11.0.15, memory_calculator_v2: {stack_threads: 266, class_count: 1001, headroom: 5}]"
 ```
 
-You can also point to the major version of the SapMachine JDK in order to always get the latest patch versions. In this case, specify it the following way:
+You can also point to the major version of the SapMachine JDK, in order to always get the latest patch versions. In this case, specify it the following way:
 
 ```
 ---
@@ -97,7 +97,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
-    JBP_CONFIG_SAP_MACHINE_JDK: "[ version: 11+, memory_calculator_v2: {stack_threads: 266, class_count: 1001, headroom: 5}]"
+    JBP_CONFIG_SAP_MACHINE_JDK: "[ version: 11.+, memory_calculator_v2: {stack_threads: 266, class_count: 1001, headroom: 5}]"
 ```
 
 **Related Information**  

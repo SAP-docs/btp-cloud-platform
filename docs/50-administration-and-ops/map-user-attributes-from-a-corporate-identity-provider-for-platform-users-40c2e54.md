@@ -41,6 +41,9 @@ There are several options to customize attribute mappings in Identity Authentica
 
     If the corporate identity provider sends user attributes for email address, first and last name with other names than *email*, *given\_name*, or *family\_name*, set the right attribute name by replacing those values.
 
+    > ### Example:  
+    > If your corporate identity provider sends users' last names as attribute `sn`, map the `sn` attribute to the `last_name` attribute required by SAP BTP with the value ***$\{corporateIdP.sn\}***.
+
     For more information, see [Configure the Default Attributes Sent to the Application](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/a2f1e4692e7d4379ab82144ab309e7b3.html?version=Cloud&q=corporateidp).
 
 

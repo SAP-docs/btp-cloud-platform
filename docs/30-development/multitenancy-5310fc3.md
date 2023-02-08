@@ -161,3 +161,13 @@ This parameter must end with `/{tenantId}`. The tenant for the subscription is p
 </tr>
 </table>
 
+> ### Note:  
+> For information about how to model the security settings for activating the `saas-registry` callbacks, see [Develop the Multitenant Application](develop-the-multitenant-application-ff54047.md).
+
+**Related Information**  
+
+
+[Developing Multitenant Applications in the Cloud Foundry Environment](developing-multitenant-applications-in-the-cloud-foundry-environment-5e8a2b7.md "In the Cloud Foundry environment, you can develop and run multitenant applications, and share them with multiple consumers simultaneously on SAP BTP.")
+
+[Register the Multitenant Application to the SAP SaaS Provisioning Service](register-the-multitenant-application-to-the-sap-saas-provisioning-service-3971151.md "To make a multitenant application available for subscription to SaaS consumer tenants, you (the application provider) must register the application in the Cloud Foundry environment via the SaaS Provisioning Service (technical name: saas-registry).")
+

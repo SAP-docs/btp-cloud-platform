@@ -43,15 +43,11 @@ You can download and consume SAP developed Node.js packages via the SAP NPM Regi
 
 The SAP BTP, Cloud Foundry environment provides one recent version of the Node.js buildpack as part of its system buildpacks. To check this version:
 
-1.  Log in to a particular SAP BTP region and subaccount. Execute:
+1.  Log in to a particular SAP BTP region and subaccount. Execute: **`cf api <SAP BTP region>`**
 
-    ```
-    cf api <SAP BTP region>
-    ```
+    For example: **`cf api https://api.cf.eu10.hana.ondemand.com`**
 
-    For example: **cf api https://api.cf.eu10.hana.ondemand.com**
-
-2.  Then execute: **cf buildpacks**
+2.  Then execute: **`cf buildpacks`**
 
 
 To learn about changes in Node.js versions and features, regularly check the latest [buildpack releases](https://github.com/cloudfoundry/nodejs-buildpack/releases) in the GitHub community page.
@@ -68,23 +64,18 @@ The `nodejs_buildpack` supports the following versions:
 -   Node.js **16**
 -   Node.js **18**
 
-> ### Caution:  
-> For applications using the *@sap/xsjs* library, we recommend that you use version **14** until official SAP communication is sent for the successor of this library that will enable usage of Node.js 16 and later. See also: [Application stopped working after upgrade to Node v.16](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51218:52922/?version=current)
-> 
-> For all other applications \(not using *@sap/xsjs*\), we recommend that you use version **16** or later, or to proceed with migration to Node.js 16 or later.
-
 
 
 ### Node.js 14 is reaching end of life
 
-To all Cloud Foundry customers using `nodejs_buildpack` – please be informed that Node.js 14 will reach end of life on **April 30, 2023** as stated in the [Node.js Roadmap](https://github.com/nodejs/Release), and shortly after will be removed from the Cloud Foundry community [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack). This means that deployment and redeployment of applications with Node.js 14 will fail. To avoid such issues, please plan migration to Node.js 16 or higher as soon as possible.
+Please be informed that Node.js 14 will reach end of life on **April 30, 2023** as stated in the [Node.js Roadmap](https://github.com/nodejs/Release), and shortly after will be removed from the Cloud Foundry community [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack). This means that deployment and redeployment of applications with Node.js 14 will fail. To avoid such issues, please plan migration to Node.js 16 or higher as soon as possible.
 
-After May 2023, if you haven't managed to do the migration, you can pin your applications to an **online** `nodejs_buildpack` version containing Node.js 14, by setting a direct URL to GitHub. The applications will still be running even after the end-of-maintenance date, but their security state will be on your own risk. This approach can only be used as a temporary solution until you complete migration to a latest version of Node.js.
+Applications using XSJS are strongly impacted as the [@sap/fibers](https://www.npmjs.com/package/@sap/fibers) library \(on which [@sap/xsjs](https://www.npmjs.com/package/@sap/xsjs) depends\) is **not supported** on Node.js 16 and later versions. To learn more, see: [Migrating Applications from XSJS to Async-XSJS](migrating-applications-from-xsjs-to-async-xsjs-40ded9d.md)
 
-To learn how to pin to a particular buildpack version from GitHub, see: [Specify a buildpack version in the manifest file](tips-and-tricks-for-node-js-applications-3a5fe88.md#loio3a5fe887f6e64abb827494baac352059__specify_buildpack_version)
+In exceptional cases \(if you haven’t completed the migration to Node.js 16\), to avoid application failures during redeployment, you may pin the last buildpack version that contains Node.js14, as provided by the [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack) community. You can do this in your **manifest.yml** file, and then redeploy your app. To learn how, see: [Specify a buildpack version in manifest.yml](tips-and-tricks-for-node-js-applications-3a5fe88.md#loio3a5fe887f6e64abb827494baac352059__specify_node_bp_version) 
 
 > ### Note:  
-> Please be advised, that SAP does **not** recommended usage of Node.js 14 after May 2023, as no support will be provided for deprecated versions.
+> Please be advised, that SAP does **not** recommended usage of Node.js 14 after April 2023, as no support and security fixes will be provided for this version.
 
 
 

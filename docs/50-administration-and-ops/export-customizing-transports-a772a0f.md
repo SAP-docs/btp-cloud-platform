@@ -6,17 +6,7 @@ With this app, business process configuration experts can manage business config
 
 
 
-Business configuration changes are recorded in requests, depending on the category to which the customizing objects belong. Client-specific business configurations are recorded in a request of the type Customizing Request. Unlike ABAP repository objects, customizing objects recorded in a request are accessible to other business users.
-
-
-
-### Changing Client-Specific Business Configurations
-
-The client settings determine whether changes to business configurations are allowed or recorded automatically in a request.
-
-If the automatic recording for the client is activated, you have to select a request number for the recording whenever you save changed client-specific configurations. If there is no request number selected, the configurations can't be saved.
-
-If the automatic recording for the client is not allowed, you can save changed client-specific configurations without selecting a request number.
+Business configuration changes are recorded in requests, depending on the category to which the customizing objects belong. Unlike ABAP repository objects, customizing objects recorded in a request are accessible to other business users.
 
 
 
@@ -74,7 +64,7 @@ Since configuration changes recorded in requests of the type `Customizing Reques
 
 Recording the configuration changes in different requests might create dependencies between these requests, however to avoid such dependencies, a new transport category is introduced.
 
-Any new request created from this app is categorized as *Default*: in a client, there can be only one open default request of the type `Customizing Request`.
+Any new request created from this app is categorized as *Default*: In a client, there can be only one open default request of the type `Customizing Request`.
 
 Business users can record their configuration changes to this default request to avoid any dependencies.
 

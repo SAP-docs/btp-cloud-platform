@@ -1,26 +1,18 @@
-<!-- loiof5640423f9d74feab7859af590a77d37 -->
+<!-- loio4b8ed69670c04a8e94317df7e827a7b3 -->
 
 # Changing the Content of Existing Domains
 
-Using PATCH operations, it's possible to change the content of an existing domain.
-
-The following changes can be specified:
+Using `PATCH` operations, it's possible to change the content of an existing domain. The following changes can be specified:
 
 -   Changes to header-level properties, such as the format of a domain or its output length
+-   Insertions, updates, or deletions of fixed values
 
--   Insertions, updates or deletions of fixed values
+The code sample below illustrates how the following changes can be performed with a single `PATCH` operation:
 
-
-The code sample below illustrates how the following changes can be performed with a single PATCH operation:
-
--   Update the short description, case sensitive indicator, and output style
-
+-   Update the short description, case-sensitive indicator, and output style
 -   Update an existing fixed value
-
 -   Delete an existing fixed value
-
 -   Insert a new fixed value
-
 
 > ### Sample Code:  
 > ```abap

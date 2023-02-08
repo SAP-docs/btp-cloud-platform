@@ -281,7 +281,7 @@ West Europe
 <tr>
 <td valign="top">
 
-Enterprise account
+Enterprise and trial account
 
 
 
@@ -303,6 +303,43 @@ Amazon Web Services
 <td valign="top">
 
 cf-eu10
+
+
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
+
+
+
+</td>
+<td valign="top">
+
+Amazon Web Services
+
+
+
+</td>
+<td valign="top">
+
+cf-eu11<sup>[1](regions-for-the-kyma-environment-557ec3a.md#loio557ec3adc3174ed4914ec9d6d13487cf__ol_f2t_byv_3wb)</sup> 
 
 
 
@@ -649,6 +686,9 @@ India \(Mumbai\)
 </td>
 </tr>
 </table>
+
+> ### Note:  
+> 1.  This is an EU-Access-only region. Due to limited availability, you must open a support ticket before attempting to provision Kyma clusters in the EU-Access-only regions. To create the ticket, use the appropriate link for[internal](https://workzone.one.int.sap/site#workzone-viewAll?sap-app-origin-hint=&/groups/QrsMLb8Me6YjlNkgcm5Ku4/overview_page/VRnBlvxxyXuFny67khRFmB) or[external](https://launchpad.support.sap.com/#incident/create) customers.
 
 
 

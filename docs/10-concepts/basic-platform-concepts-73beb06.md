@@ -88,7 +88,7 @@ SAP BTP provides different types of global accounts, **enterprise** and **trial*
 
 ![Global Accounts Types](images/Types_of_Global_Account_0b86365.png)
 
--   A **trial account** lets you try out the platform for free. Access is open to everyone. Trial accounts are intended for personal exploration, and not for production use or team development. They allow restricted use of the platform resources and services. The trial period varies depending on the environment.
+-   A **trial account** lets you try out the platform for free. Access is open to everyone. Trial accounts are intended for personal exploration, and not for production use or team development. They allow restricted use of the platform resources and services.
 
     For more information, see [Trial Accounts and Free Tier](trial-accounts-and-free-tier-046f127.md).
 

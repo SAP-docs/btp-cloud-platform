@@ -33,13 +33,13 @@ With the creation of a metric provider, you register your metrics that are defin
 
 3.  In the metric provider, as implementing object, enter the class that defines your metric model for this metric provider \(see [Creating a Class for Metric Providers](creating-a-class-for-metric-providers-6548314.md) \).
 
-4.  Under *Execution Configuration*, select the priority with which the values of this metric provider must be collected.
+4.  Under *Execution*, select the priority with which the values of this metric provider must be collected.
 
     > ### Note:  
     > The execution mode is set to *Job*, which you can't change. The collection of metric values is executed by an application job that your administrator must schedule \(see [Collect Metric Provider Values \(Administrator\)](collect-metric-provider-values-administrator-ecc187f.md)\). The application job runs regularly and collects the values of all metric providers using their `GET_METRIC_VALUES( )` methods.
 
     Set a higher priority for metric providers that you consider as more important than others. A higher priority ensures that the values for these metric providers are collected first by the application job. Make sure that metric providers that are dependent on the values of other metric providers have a lower priority than the metric providers on which they depend.
 
-5.  Leave the checkbox *Scope Dependent* unchecked.
+5.  Leave the field *Scope Dependent* set to *Yes*.
 
 

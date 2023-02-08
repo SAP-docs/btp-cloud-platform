@@ -1285,7 +1285,9 @@ optional
 </td>
 <td valign="top">
 
-CTI for the `Role` node
+CTI for the `Role` node.
+
+See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d14474384beb3__CTI_Note) for more information.
 
 
 
@@ -1802,7 +1804,9 @@ optional
 </td>
 <td valign="top">
 
-CTI for the `PhoneInformation` node
+CTI for the `PhoneInformation` node.
+
+See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d14474384beb3__CTI_Note) for more information.
 
 
 
@@ -1869,7 +1873,9 @@ optional
 </td>
 <td valign="top">
 
-CTI for the `PersonalInformation` node
+CTI for the `PersonalInformation` node.
+
+See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d14474384beb3__CTI_Note) for more information.
 
 
 
@@ -1897,7 +1903,9 @@ optional
 </td>
 <td valign="top">
 
-CTI for the `User` node
+CTI for the `User` node.
+
+See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d14474384beb3__CTI_Note) for more information.
 
 
 
@@ -1925,7 +1933,9 @@ optional
 </td>
 <td valign="top">
 
-CTI for the `UserAssignment` node
+CTI for the `UserAssignment` node.
+
+See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d14474384beb3__CTI_Note) for more information.
 
 
 
@@ -1953,7 +1963,9 @@ optional
 </td>
 <td valign="top">
 
-CTI for the `WorkplaceInformation` node
+CTI for the `WorkplaceInformation` node.
+
+See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d14474384beb3__CTI_Note) for more information.
 
 
 
@@ -1972,6 +1984,16 @@ optional
 </td>
 </tr>
 </table>
+
+> ### Note:  
+> **Complete Transmission Indicator \(CTI\)**
+> 
+> The complete transmission indicator represents the state of the data in the inbound XML There are multiple transmission indicators that represents the state of the corresponding segment. The transmission indicator is interpreted by the web service:
+> 
+> -   If a complete transmission indicator is set to true, the existing data is overwritten by the newly entered data.
+> -   If a complete transmission indicator is set to false, the value of the action code of the corresponding node applies.
+> 
+> -   If an action code and the complete transmission indicator are set, then the action code of the corresponding node applies.
 
 
 

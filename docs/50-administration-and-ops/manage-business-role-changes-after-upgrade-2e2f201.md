@@ -57,8 +57,6 @@ If you need support or experience issues, please report an incident under compon
 
 [How to Manage Changed Restriction Types After an Upgrade](how-to-manage-changed-restriction-types-after-an-upgrade-cbddbef.md "")
 
-
-
 [How to Manage Changed Business Catalog Dependencies After an Upgrade](how-to-manage-changed-business-catalog-dependencies-after-an-upgrade-b6d4237.md "")
 
 [How to Manage Deprecated Business Catalogs After an Upgrade](how-to-manage-deprecated-business-catalogs-after-an-upgrade-5bf8728.md "")

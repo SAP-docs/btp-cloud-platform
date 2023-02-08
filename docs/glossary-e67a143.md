@@ -599,7 +599,7 @@ A variant to the consumption-based commercial model of SAP BTP in which customer
 <tr>
 <td valign="top">
 
-[btp CLI](50-administration-and-ops/account-administration-using-the-sap-btp-command-line-interface-btp-cli-feature-set-b-7c6df2d.md)
+[btp CLI](50-administration-and-ops/account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md)
 
 
 

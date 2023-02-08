@@ -29,6 +29,9 @@ To define, set up, and use your own metrics, you proceed as follows:
 
     The application job collects the metrics that you have defined and stores the values in the generic metric store.
 
+    > ### Note:  
+    > Make sure that you schedule this job for the development system and all follow-up systems.
+
 3.  As an administrator, you define a communication arrangement based on the communication scenario `SAP_COM_0527` \(*Health Monitoring*\) in your ABAP system.
 
     As a result, a technical background job pushes the measured metrics automatically to SAP Cloud ALM or SAP Focused Run.

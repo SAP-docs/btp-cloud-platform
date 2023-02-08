@@ -4,35 +4,37 @@
 
 The XCO Generation APIs are the part of the XCO library that allows the programmatic creation, update and deletion of ABAP repository objects. It consists of high-level and strongly typed APIs for the following objects types:
 
--   BDEF \(Behavior definitions\)
+-   BDEF \(Behavior Definitions\)
 
 -   CLAS \(Classes\)
 
--   DCLS \(Access controls\)
+-   DCLS \(Access Controls\)
 
--   DDLS \(Data definitions\)
+-   DDLS \(Data Definitions\)
 
--   DDLX \(Metadata extensions\)
+-   DDLX \(Metadata Extensions\)
 
 -   DEVC \(Packages\)
 
 -   DOMA \(Domains\)
 
--   DTEL \(Data elements\)
+-   DRTY \(CDS Type Definitions\)
 
--   FUGR \(Function groups\)
+-   DTEL \(Data Elements\)
+
+-   FUGR \(Function Groups\)
 
 -   INTF \(Interfaces\)
 
--   MSAG \(Message classes\)
+-   MSAG \(Message Classes\)
 
--   SRVB \(Service bindings\)
+-   SRVB \(Service Bindings\)
 
--   SRVD \(Service definitions\)
+-   SRVD \(Service Definitions\)
 
--   TABL \(Structures, database tables and global temporary tables\)
+-   TABL \(Structures, Database Tables and Global Temporary Tables\)
 
--   TTYP \(Table types\)
+-   TTYP \(Table Types\)
 
 -   XSLT \(Transformations\)
 
@@ -338,6 +340,43 @@ X
 <td valign="top">
 
 X
+
+
+
+</td>
+<td valign="top">
+
+X
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DRTY
+
+
+
+</td>
+<td valign="top">
+
+X
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 

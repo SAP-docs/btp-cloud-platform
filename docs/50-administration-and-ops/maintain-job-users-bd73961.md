@@ -14,7 +14,7 @@ You can use this app to:
 
 
 
--   Change both the owner and the user of an application job
+-   Change either the job owner or the job user of an application job, or change both
 
 -   Delete an application job
 
