@@ -51,16 +51,39 @@ The only possible way for your XSJS applications to be up and running on latest 
     }
     ```
 
-2.  In all your `.xsjs` and `.xsjslib` files, for every asynchronous function call, add an **await** statement.
+2.  Also, you need to modify the `start` script, by adding *\--experimental-vm-modules*, like this:
 
-3.  Every function that uses an **await** statement must be declared as **async**.
+    ```
+    
+    {
+      "name": "myapp",
+      "engines": {
+        "node": "16.x.x"
+      },
+    ...
+      "dependencies": {
+    	"express": "^4.18.1", 
+    	"@sap/xssec" : "^3.2.15",
+    	"@sap/async-xsjs": "^1.0.0"	
+      }
+      "scripts": {
+        "start": "node --experimental-vm-modules index.js"
+    	...
+      },
+    ...
+    }
+    ```
 
-4.  XSJS files should be loaded as ECMAScript. To do this, in the end of every function in an `.xsjslib` file, add an **export** statement.
+3.  In all your `.xsjs` and `.xsjslib` files, for every asynchronous function call, add an **await** statement.
+
+4.  Every function that uses an **await** statement must be declared as **async**.
+
+5.  XSJS files should be loaded as ECMAScript. To do this, in the end of every function in an `.xsjslib` file, add an **export** statement.
 
     > ### Note:  
     > You can do this for `.xsjs` files too, but that would be only necessary if a function needs to be exported for some reason \(like job execution or job handling\).
 
-5.  If you're using the [@sap/audit-logging](https://www.npmjs.com/package/@sap/audit-logging) package in your XSJS application, the code must be migrated. For example, if you have a code snippet like this:
+6.  If you're using the [@sap/audit-logging](https://www.npmjs.com/package/@sap/audit-logging) package in your XSJS application, the code must be migrated. For example, if you have a code snippet like this:
 
     ```
     
@@ -212,7 +235,11 @@ To learn more about the differences between these two kinds of Node.js scripts, 
 
 ### `Array.forEach` and `Array.map`
 
-When you use **Array.forEach** or **Array.map** for SQL operations, their behavior in the XSJS API is the following: the SQL tables are read and executed one by one, and then written in the database in the same order.
+In the Async-XSJS layer, the **Array.forEach** and **Array.map** functions have changed their behavior when the argument function is asynchronous.
+
+For example, when you have SQL operations, their behavior in the classic XSJS API is the following:
+
+The SQL statements are read and executed one by one, and then written in the database in the same order.
 
 For example:
 
@@ -256,12 +283,18 @@ When you migrate their code to Async-XSJS, like this:
 > sqls.forEach(runSql);
 > 
 > ...
-> <additional code>
+> <some additional code>
+> 
+> 
+> 
 > ```
 
-the SQL tables are only scheduled for execution but are not executed right away. And when it's time for them to be recorded in the database, the order of this operation might be completely different than the order they were initially read. Also, if there is an additional code after this one, it will not be executed at all.
+the SQL statements are only scheduled for execution but are not executed right away. And when it's time for them to be recorded in the database, the order of this operation might be completely different than the order they were initially read.
 
-To avoid these unpleasant side effects and have a working code, with SQL tables created in the DB in the correct order, you can replace:
+> ### Caution:  
+> If you have additional code after the **sqls.forEach** function, it will be executed before any of the SQL statements are executed.
+
+To avoid these unpleasant side effects and have a working code, with SQL statements executed in the correct order, you can replace:
 
 ```
 sqls.forEach(runSql);
