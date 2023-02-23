@@ -16,13 +16,11 @@ When you're planning, for example, system capacities or facing performance issue
 
 ## Procedure
 
-1.  Log on to the SAP Fiori launchpad of your ABAP environment.
+1.  On the SAP Fiori launchpad of your ABAP environment, search for *Database System Overview*.
 
-2.  In the group *Technical Monitoring*, choose the *Database System Overview* tile.
+    The technical monitoring cockpit opens.
 
-    ![](images/SUI_HANA_Resource_Utilization_-_Part_2_3224c95.png)
-
-3.  To gain insights into the memory utilization of the SAP HANA database, choose the *Memory Utilization* tile.
+2.  To gain insights into the memory utilization of the SAP HANA database, choose the *Memory Utilization* tile.
 
     ![](images/SUI_-_HANA_Resource_Utilization_48182c3.png)
 
@@ -30,7 +28,7 @@ When you're planning, for example, system capacities or facing performance issue
 
     For more information about the *Memory Utilization* screen, see [Memory Utilization \(SAP HANA DB\)](https://help.sap.com/viewer/tmc_cloud/5f94a4399d3f4e47a107ed3ddc700ff7.html).
 
-4.  To gain further insights into the CPU consumption of SAP HANA, choose the *CPU Utilization Peaks* tile.
+3.  To gain further insights into the CPU consumption of SAP HANA, choose the *CPU Utilization Peaks* tile.
 
     As a rule of thumb, the average CPU utilization should remain below 70% - excluding temporary peaks. Note that the 100% mark reflects the CPU capacity that is available on the entire SAP HANA host, which is shared with other SAP HANA service instances and therefore is not guaranteed. Depending on the volume of your subscribed SAP HANA capacity, the actual CPU quota might be lower than indicated in the technical monitoring cockpit.
 

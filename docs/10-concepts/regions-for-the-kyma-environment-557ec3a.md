@@ -50,7 +50,14 @@ Technical Key
 </th>
 <th valign="top">
 
-Technical Key of IaaS Provider
+Region Name
+
+
+
+</th>
+<th valign="top">
+
+Plan ID
 
 
 
@@ -59,14 +66,18 @@ Technical Key of IaaS Provider
 <tr>
 <td valign="top">
 
-Enterprise and trial account
+Enterprise account
+
+Partner Test, Demo, and Development account
+
+Trial account
 
 
 
 </td>
 <td valign="top">
 
-Singapore
+ap21
 
 
 
@@ -87,7 +98,18 @@ cf-ap21
 </td>
 <td valign="top">
 
-Southeast Asia
+Southeast Asia \(Singapore\)
+
+
+
+</td>
+<td valign="top">
+
+azure
+
+azure\_lite
+
+trial
 
 
 
@@ -96,14 +118,16 @@ Southeast Asia
 <tr>
 <td valign="top">
 
-Enterprise and trial account
+Enterprise account
+
+Trial account
 
 
 
 </td>
 <td valign="top">
 
-US East \(VA\)
+us10
 
 
 
@@ -124,7 +148,16 @@ cf-us10
 </td>
 <td valign="top">
 
-US East \(VA\)
+US East \(N. Virginia\)
+
+
+
+</td>
+<td valign="top">
+
+aws
+
+trial
 
 
 
@@ -135,12 +168,14 @@ US East \(VA\)
 
 Enterprise account
 
+Partner Test, Demo, and Development account
+
 
 
 </td>
 <td valign="top">
 
-US West \(WA\)
+us20
 
 
 
@@ -161,7 +196,16 @@ cf-us20
 </td>
 <td valign="top">
 
-West US 2
+West US2 \(Washington\)
+
+
+
+</td>
+<td valign="top">
+
+azure
+
+azure\_lite
 
 
 
@@ -172,12 +216,14 @@ West US 2
 
 Enterprise account
 
+Partner Test, Demo, and Development account
+
 
 
 </td>
 <td valign="top">
 
-Japan \(Tokyo\)
+jp20
 
 
 
@@ -198,7 +244,16 @@ cf-jp20
 </td>
 <td valign="top">
 
-Japan East
+Japan East \(Tokyo\)
+
+
+
+</td>
+<td valign="top">
+
+azure
+
+azure\_lite
 
 
 
@@ -209,12 +264,14 @@ Japan East
 
 Enterprise account
 
+Partner Test, Demo, and Development account
+
 
 
 </td>
 <td valign="top">
 
-US East \(VA\)
+us21
 
 
 
@@ -235,7 +292,16 @@ cf-us21
 </td>
 <td valign="top">
 
-East US
+East US \(Virginia\)
+
+
+
+</td>
+<td valign="top">
+
+azure
+
+azure\_lite
 
 
 
@@ -246,12 +312,14 @@ East US
 
 Enterprise account
 
+Partner Test, Demo, and Development account
+
 
 
 </td>
 <td valign="top">
 
-Europe \(Netherlands\)
+eu20
 
 
 
@@ -272,7 +340,16 @@ cf-eu20
 </td>
 <td valign="top">
 
-West Europe
+West Europe \(Netherlands\)
+
+
+
+</td>
+<td valign="top">
+
+azure
+
+azure\_lite
 
 
 
@@ -281,14 +358,16 @@ West Europe
 <tr>
 <td valign="top">
 
-Enterprise and trial account
+Enterprise account
+
+Trial account
 
 
 
 </td>
 <td valign="top">
 
-Europe \(Frankfurt\)
+eu10
 
 
 
@@ -314,6 +393,15 @@ Europe \(Frankfurt\)
 
 
 </td>
+<td valign="top">
+
+aws
+
+trial
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -325,7 +413,7 @@ Enterprise account
 </td>
 <td valign="top">
 
-Europe \(Frankfurt\)
+eu11
 
 
 
@@ -351,6 +439,13 @@ Europe \(Frankfurt\)
 
 
 </td>
+<td valign="top">
+
+aws
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -362,7 +457,7 @@ Enterprise account
 </td>
 <td valign="top">
 
-Brazil \(São Paulo\)
+br10
 
 
 
@@ -383,7 +478,14 @@ cf-br10
 </td>
 <td valign="top">
 
-Brazil \(São Paulo\)
+South America \(São Paulo\)
+
+
+
+</td>
+<td valign="top">
+
+aws
 
 
 
@@ -399,7 +501,7 @@ Enterprise account
 </td>
 <td valign="top">
 
-Japan \(Tokyo\)
+jp10
 
 
 
@@ -420,7 +522,14 @@ cf-jp10
 </td>
 <td valign="top">
 
-Japan \(Tokyo\)
+Asia Pacific \(Tokyo\)
+
+
+
+</td>
+<td valign="top">
+
+aws
 
 
 
@@ -436,7 +545,7 @@ Enterprise account
 </td>
 <td valign="top">
 
-Canada \(Montreal\)
+ca10
 
 
 
@@ -457,7 +566,14 @@ cf-ca10
 </td>
 <td valign="top">
 
-Canada \(Montreal\)
+Canada \(Central\)
+
+
+
+</td>
+<td valign="top">
+
+aws
 
 
 
@@ -473,7 +589,7 @@ Enterprise account
 </td>
 <td valign="top">
 
-South Korea \(Seoul\)
+ap12
 
 
 
@@ -499,6 +615,13 @@ Asia Pacific \(Seoul\)
 
 
 </td>
+<td valign="top">
+
+aws
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -510,7 +633,7 @@ Enterprise account
 </td>
 <td valign="top">
 
-Australia \(Sydney\)
+ap10
 
 
 
@@ -536,6 +659,13 @@ Asia Pacific \(Sydney\)
 
 
 </td>
+<td valign="top">
+
+aws
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -547,7 +677,7 @@ Enterprise account
 </td>
 <td valign="top">
 
-Singapore
+ap11
 
 
 
@@ -573,6 +703,13 @@ Asia Pacific \(Singapore\)
 
 
 </td>
+<td valign="top">
+
+aws
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -584,7 +721,7 @@ Enterprise account
 </td>
 <td valign="top">
 
-US Central \(Iowa\)
+us30
 
 
 
@@ -610,6 +747,13 @@ US Central \(Iowa\)
 
 
 </td>
+<td valign="top">
+
+gcp
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -621,7 +765,7 @@ Enterprise account
 </td>
 <td valign="top">
 
-Europe \(Frankfurt\)
+eu30
 
 
 
@@ -647,6 +791,13 @@ Europe \(Frankfurt\)
 
 
 </td>
+<td valign="top">
+
+gcp
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -658,7 +809,7 @@ Enterprise account
 </td>
 <td valign="top">
 
-India \(Mumbai\)
+in30
 
 
 
@@ -679,7 +830,14 @@ cf-in30
 </td>
 <td valign="top">
 
-India \(Mumbai\)
+Asia South \(Mumbai\)
+
+
+
+</td>
+<td valign="top">
+
+gcp
 
 
 
@@ -696,7 +854,7 @@ India \(Mumbai\)
 
 ## Cluster Regions
 
-When you enable a Kyma environment for a given subaccount, you must select a plan and region where the cluster is going to be created. You can select one of the following regions:
+When you enable a Kyma environment for a given subaccount, you must select a plan and region where the cluster is going to be created. Note that there is a number of regions available within each plan. They are all listed in the table:
 
 **Cluster Regions**
 
@@ -705,7 +863,14 @@ When you enable a Kyma environment for a given subaccount, you must select a pla
 <tr>
 <th valign="top">
 
-Plan
+Hyperscaler
+
+
+
+</th>
+<th valign="top">
+
+Plan ID
 
 
 
@@ -726,9 +891,16 @@ Region Name
 </th>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="14">
 
 Microsoft Azure
+
+
+
+</td>
+<td valign="top" rowspan="8">
+
+azure
 
 
 
@@ -751,13 +923,6 @@ Central US \(Iowa\)
 <tr>
 <td valign="top">
 
-Microsoft Azure
-
-
-
-</td>
-<td valign="top">
-
 `eastus`
 
 
@@ -772,13 +937,6 @@ East US \(Virginia\)
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Microsoft Azure
-
-
-
-</td>
 <td valign="top">
 
 `westus2`
@@ -797,13 +955,6 @@ West US2 \(Washington\)
 <tr>
 <td valign="top">
 
-Microsoft Azure
-
-
-
-</td>
-<td valign="top">
-
 `northeurope`
 
 
@@ -818,13 +969,6 @@ North EU \(Ireland\)
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Microsoft Azure
-
-
-
-</td>
 <td valign="top">
 
 `uksouth`
@@ -843,13 +987,6 @@ UK South \(London\)
 <tr>
 <td valign="top">
 
-Microsoft Azure
-
-
-
-</td>
-<td valign="top">
-
 `japaneast`
 
 
@@ -866,7 +1003,126 @@ Japan East \(Tokyo\)
 <tr>
 <td valign="top">
 
-Microsoft Azure
+`southeastasia`
+
+
+
+</td>
+<td valign="top">
+
+Southeast Asia \(Singapore\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`westeurope`
+
+
+
+</td>
+<td valign="top">
+
+West Europe \(Netherlands\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="5">
+
+azure\_lite
+
+
+
+</td>
+<td valign="top">
+
+`centralus`
+
+
+
+</td>
+<td valign="top">
+
+Central US \(Iowa\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`eastus`
+
+
+
+</td>
+<td valign="top">
+
+East US \(Virginia\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`westus2`
+
+
+
+</td>
+<td valign="top">
+
+West US2 \(Washington\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`northeurope`
+
+
+
+</td>
+<td valign="top">
+
+North EU \(Ireland\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`uksouth`
+
+
+
+</td>
+<td valign="top">
+
+UK South \(London\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+trial
 
 
 
@@ -887,32 +1143,16 @@ Southeast Asia \(Singapore\)
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Microsoft Azure
-
-
-
-</td>
-<td valign="top">
-
-`westeurope`
-
-
-
-</td>
-<td valign="top">
-
-West Europe \(Netherlands\)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
+<td valign="top" rowspan="13">
 
 Amazon Web Services
+
+
+
+</td>
+<td valign="top" rowspan="11">
+
+aws
 
 
 
@@ -935,13 +1175,6 @@ Europe \(Frankfurt\)
 <tr>
 <td valign="top">
 
-Amazon Web Services
-
-
-
-</td>
-<td valign="top">
-
 `eu-west-2`
 
 
@@ -956,13 +1189,6 @@ Europe \(London\)
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Amazon Web Services
-
-
-
-</td>
 <td valign="top">
 
 `ca-central-1`
@@ -981,13 +1207,6 @@ Canada \(Central\)
 <tr>
 <td valign="top">
 
-Amazon Web Services
-
-
-
-</td>
-<td valign="top">
-
 `sa-east-1`
 
 
@@ -1002,13 +1221,6 @@ South America \(São Paulo\)
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Amazon Web Services
-
-
-
-</td>
 <td valign="top">
 
 `us-east-1`
@@ -1027,13 +1239,6 @@ US East \(N. Virginia\)
 <tr>
 <td valign="top">
 
-Amazon Web Services
-
-
-
-</td>
-<td valign="top">
-
 `us-west-1`
 
 
@@ -1048,13 +1253,6 @@ US West \(N. California\)
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Amazon Web Services
-
-
-
-</td>
 <td valign="top">
 
 `ap-northeast-1`
@@ -1073,13 +1271,6 @@ Asia Pacific \(Tokyo\)
 <tr>
 <td valign="top">
 
-Amazon Web Services
-
-
-
-</td>
-<td valign="top">
-
 `ap-northeast-2`
 
 
@@ -1094,13 +1285,6 @@ Asia Pacific \(Seoul\)
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Amazon Web Services
-
-
-
-</td>
 <td valign="top">
 
 `ap-south-1`
@@ -1119,13 +1303,6 @@ Asia Pacific \(Mumbai\)
 <tr>
 <td valign="top">
 
-Amazon Web Services
-
-
-
-</td>
-<td valign="top">
-
 `ap-southeast-1`
 
 
@@ -1142,13 +1319,6 @@ Asia Pacific \(Singapore\)
 <tr>
 <td valign="top">
 
-Amazon Web Services
-
-
-
-</td>
-<td valign="top">
-
 `ap-southeast-2`
 
 
@@ -1163,9 +1333,55 @@ Asia Pacific \(Sydney\)
 </td>
 </tr>
 <tr>
+<td valign="top" rowspan="2">
+
+trial
+
+
+
+</td>
 <td valign="top">
 
+`eu-central-1`
+
+
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`us-east-1`
+
+
+
+</td>
+<td valign="top">
+
+US East \(N. Virginia\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="3">
+
 Google Cloud
+
+
+
+</td>
+<td valign="top" rowspan="3">
+
+gcp
 
 
 
@@ -1188,13 +1404,6 @@ Europe \(Frankfurt\)
 <tr>
 <td valign="top">
 
-Google Cloud
-
-
-
-</td>
-<td valign="top">
-
 `us-central1`
 
 
@@ -1209,13 +1418,6 @@ US Central \(Iowa\)
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-Google Cloud
-
-
-
-</td>
 <td valign="top">
 
 `asia-south1`

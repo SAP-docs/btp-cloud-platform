@@ -1,6 +1,6 @@
 <!-- loio07c679672e5f423e9dc631fc85b51da3 -->
 
-# Deploy Content Using Generic Application Content Deployer
+# Deploy Content Using the Generic Application Content Deployer
 
 Deploy content from the HTML5 Application Repository using the Generic Application Content Deployer \(GACD\).
 
@@ -13,6 +13,8 @@ Deploy content from the HTML5 Application Repository using the Generic Applicati
 -   `cf CLI` is installed locally, see [Download and Install the Cloud Foundry Command Line Interface](../50-administration-and-ops/download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md).
 
 -   The multitarget application \(MTA\) plug-in for the Cloud Foundry command-line interface to deploy MTAs is installed locally. For more information, see [Install the MultiApps CLI Plugin in the Cloud Foundry Environment](../50-administration-and-ops/install-the-multiapps-cli-plugin-in-the-cloud-foundry-environment-27f3af3.md).
+
+-   The Cloud MTA Build Tool \(MBT\) is installed, see [Cloud MTA Build Tool: Download](https://sap.github.io/cloud-mta-build-tool/download/)
 
 
 
@@ -45,34 +47,11 @@ You can deploy your content to the HTML5 Application Repository using the GACD \
     > 
     > ```
 
-2.  Create an \*.mtar file with following structure:
+2.  Create an MTA development descriptor \(mta.yaml file\).
 
-    > ### Sample Code:  
-    > ```
-    > myMtar.mtar
-    >     …
-    >     mydeployer
-    >          content.zip
-    >     META-INF
-    >           mtad.yaml
-    >           MANIFEST.MF
-    > 
-    > ```
+    See [Defining Multitarget Application Development Descriptors](defining-multitarget-application-development-descriptors-c2d31e7.md).
 
-3.  3. In the `MANIFEST.MF` file, define the following section for the deployer:
-
-    > ### Sample Code:  
-    > ```
-    > Manifest-Version: 1.0
-    > Created-By: SAP WebIDE
-    > 
-    > Name: mydeployer/content.zip
-    > MTA-Module: ui_deployer
-    > Content-Type: application/zip
-    > 
-    > ```
-
-4.  In the `mtad.yaml` file, define the deployer module:
+3.  In the MTA development descriptor \(mta.yaml file\), define the deployer module:
 
     > ### Sample Code:  
     > ```
@@ -94,7 +73,27 @@ You can deploy your content to the HTML5 Application Repository using the GACD \
     > version: 0.0.1
     > ```
 
-5.  Deploy the `*.mtar` using the CLI command cf deploy.
+4.  To create an MTA archive \(mtar file\), build your content with the[MTA Build Tool \(MBT\)](https://sap.github.io/cloud-mta-build-tool/).
+
+    Run the following command:
+
+    > ### Sample Code:  
+    > ```
+    > mbt build
+    > ```
+
+    For more information on MBT build options, see: [How to build an MTA archive from the project sources](https://sap.github.io/cloud-mta-build-tool/usage/#how-to-build-an-mta-archive-from-the-project-sources)
+
+5.  Deploy the MTA archive \(mtar file\) using the CLI command cf deploy.
+
+    Run the following command:
+
+    > ### Sample Code:  
+    > ```
+    > cf deploy <path-to-mtar-file>
+    > ```
+
+    For example, from the directory where your mtar file is located, run `cf deploy myapp_0.0.1.mtar`.
 
 
 **Related Information**  

@@ -83,7 +83,7 @@ CHDO
 </td>
 <td valign="top">
 
-Change Documents Object
+Change Document
 
 
 
@@ -99,7 +99,7 @@ CHKC
 </td>
 <td valign="top">
 
-ATC Check Class
+ATC Check Category
 
 
 
@@ -115,7 +115,7 @@ CHKO
 </td>
 <td valign="top">
 
-ATC Check
+ATC Check Object
 
 
 
@@ -195,7 +195,7 @@ DDLX
 </td>
 <td valign="top">
 
-CDS Metadata Extensions
+Core Data Services Metadata Extensions
 
 
 
@@ -252,22 +252,6 @@ Data Element
 <tr>
 <td valign="top">
 
-ENQU
-
-
-
-</td>
-<td valign="top">
-
-Lock Object
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 ENHO
 
 
@@ -291,7 +275,23 @@ ENHS
 </td>
 <td valign="top">
 
-Enhancement Spot Implementation Object
+Enhancement Spot Object
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ENQU
+
+
+
+</td>
+<td valign="top">
+
+Lock Object
 
 
 
@@ -324,6 +324,38 @@ FUNC
 <td valign="top">
 
 Function Module
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GSMP
+
+
+
+</td>
+<td valign="top">
+
+Metric Provider
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+HTTP
+
+
+
+</td>
+<td valign="top">
+
+HTTP Service
 
 
 
@@ -387,7 +419,7 @@ SCO1
 </td>
 <td valign="top">
 
-Communication Scenario
+Communication: Communication Scenario
 
 
 
@@ -403,7 +435,7 @@ SCO2
 </td>
 <td valign="top">
 
-Inbound Service
+Communication: Inbound Service
 
 
 
@@ -428,22 +460,6 @@ Outbound Service
 <tr>
 <td valign="top">
 
-SIAD
-
-
-
-</td>
-<td valign="top">
-
-Business Role Template Fiori Space Assignment
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 SIA1
 
 
@@ -451,7 +467,7 @@ SIA1
 </td>
 <td valign="top">
 
-Business Catalog
+IAM: Business Catalog
 
 
 
@@ -467,7 +483,7 @@ SIA2
 </td>
 <td valign="top">
 
-Restriction Type
+IAM: Restriction Type
 
 
 
@@ -483,7 +499,7 @@ SIA3
 </td>
 <td valign="top">
 
-Authorization Object Extension
+IAM: Authorization Object Extension
 
 
 
@@ -499,7 +515,7 @@ SIA5
 </td>
 <td valign="top">
 
-Restriction Field
+IAM: Restriction Field
 
 
 
@@ -531,7 +547,7 @@ SIA7
 </td>
 <td valign="top">
 
-Business Catalog App Assignment
+IAM: Business Catalog App Assignment
 
 
 
@@ -547,7 +563,7 @@ SIA8
 </td>
 <td valign="top">
 
-Business Role Template
+IAM: Business Role Template
 
 
 
@@ -563,7 +579,23 @@ SIA9
 </td>
 <td valign="top">
 
-Business Role Template Business Catalog Assignment
+IAM: Business Role Templ. Bus. Catalog Assignment
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SIAD
+
+
+
+</td>
+<td valign="top">
+
+Business Role Template Fiori Space Assignment
 
 
 
@@ -588,14 +620,14 @@ Knowledge Transfer Document
 <tr>
 <td valign="top">
 
-SRVB
+SMBC
 
 
 
 </td>
 <td valign="top">
 
-Service Binding
+Maintainable Business Configuration
 
 
 
@@ -627,7 +659,7 @@ SUSH
 </td>
 <td valign="top">
 
-Authorization Default Values
+Assignment: Service --\> Authorization Objects
 
 
 

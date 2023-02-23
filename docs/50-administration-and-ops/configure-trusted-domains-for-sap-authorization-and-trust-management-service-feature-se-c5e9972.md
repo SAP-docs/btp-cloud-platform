@@ -42,6 +42,9 @@ To prevent clickjacking or overlay attacks, web browsers follow a same origin po
 
     For example: `https://store.example.com`
 
+    > ### Note:  
+    > All the trusted domains together, including their space separators, can't exceed 2048 characters.
+
 4.  Save your entries.
 
 

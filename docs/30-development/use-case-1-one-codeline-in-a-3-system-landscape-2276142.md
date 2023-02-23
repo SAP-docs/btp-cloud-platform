@@ -91,7 +91,7 @@ Release Manager
 </td>
 <td valign="top">
 
-At Go Live only: Create the software component and pull it initially
+At Go Live only: Create the software component and clone it initially
 
 
 
@@ -248,7 +248,7 @@ QAS
 </td>
 <td valign="top">
 
-Tester
+Release Manager
 
 
 
@@ -667,7 +667,7 @@ Maintain business configuration. All changes are collected in customizing transp
 </td>
 <td valign="top">
 
-*Maintain Business Configurations* app
+Custom Business Configurations app
 
 
 
@@ -697,7 +697,7 @@ Release Manager
 </td>
 <td valign="top">
 
-Release the transport request\(s\). The changes are now in the main branch
+Release the transport request\(s\). The changes are now in the release branch
 
 
 
@@ -951,7 +951,7 @@ DEV
 </td>
 <td valign="top">
 
-Developer
+Developer, Business Configuration Expert
 
 
 

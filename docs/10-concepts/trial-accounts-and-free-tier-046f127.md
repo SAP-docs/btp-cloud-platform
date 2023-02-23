@@ -22,7 +22,7 @@ Before setting up your account, you need to decide which free offering for SAP B
     > ### Note:  
     > The option to upgrade from free tier service plans to paid service plans is not yet available for all services and runtimes, such as Kyma. See [Using Free Service Plans](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/524e1081d8dc4b0f9d055a6bec383ec3.html#loio524e1081d8dc4b0f9d055a6bec383ec3__Upgrade-FreeServices) to read more about upgrading from free tier service plans to paid service plans.
 
--   A **trial account** lets you try out SAP BTP for free for 90 days. The services provided for the trial account allow restricted use of the platform resources and services. Access is open to everyone. Trial accounts are intended for personal exploration, your own non-productive testing, and evaluation of the services in accordance with [SAP BTP trial terms and conditions](https://accounts.sap.com/ui/public/viewTextResource?scenario=1b5ff22b-ac85-466f-9644-833d07e77d5e&resourceType=RESOURCE_TERMS_OF_USE&locale=en_US). A SAP BTP trial account must not be used for production use or team development. You are not permitted to use the a trial account in any productive or commercial manner.
+-   A **trial account** lets you try out SAP BTP for free for 90 days. The services provided for the trial account allow restricted use of the platform resources and services. Access is open to everyone. Trial accounts are intended for personal exploration, your own non-productive testing, and evaluation of the services in accordance with [SAP BTP trial terms and conditions](https://accounts.sap.com/ui/public/viewTextResource?scenario=1b5ff22b-ac85-466f-9644-833d07e77d5e&resourceType=RESOURCE_TERMS_OF_USE&locale=en_US). A SAP BTP trial account must not be used for production use or team development. You are not permitted to use the trial account in any productive or commercial manner.
 
     You can self-register for a trial account. For more information on how to do that, see [Get a Free Account on SAP BTP Trial](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
 
@@ -46,7 +46,7 @@ In the [SAP Discovery Center service catalog overview](https://discovery-center.
 
 -   **Use your SAP BTP trial account:**
 
-    Familiarize yourself with the [Trial Scope](trial-accounts-and-free-tier-046f127.md#loio046f127f2a614438b616ccfc575fdb16__section_trial-scope).or try out one of our [Starter Scenarios](https://developers.sap.com/tutorial-navigator.html?tag=tutorial:topic/cp-starter-scenario) on the [Tutorial Navigator](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-business-technology-platform).
+    Familiarize yourself with the [Trial Scope](trial-accounts-and-free-tier-046f127.md#loio046f127f2a614438b616ccfc575fdb16__section_trial-scope)or try out one of our [Starter Scenarios](https://developers.sap.com/tutorial-navigator.html?tag=tutorial:topic/cp-starter-scenario) on the [Tutorial Navigator](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-business-technology-platform).
 
 -   **Extend your SAP BTP trial account in intervals:**
 
@@ -60,7 +60,7 @@ In the [SAP Discovery Center service catalog overview](https://discovery-center.
 
         After 90 days, your trial account is automatically deleted. But if you want to proactively delete your SAP BTP trial account, you can navigate to the global accounts scope and select the Account Explorer page, then click the *Delete Trial Account* button.
 
-        -   If you want to continue to use an SAP BTP trial account after deletion, you need to register for a new account.
+        -   If you want to continue to use an SAP BTP trial account after deletion, you need to set up a new account.
 
         -   If you want to explore SAP BTP without time limit, create an enterprise account with free tier service plans allowing you to test your scenarios. See: [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html).
 

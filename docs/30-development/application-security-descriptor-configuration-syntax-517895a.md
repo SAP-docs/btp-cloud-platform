@@ -319,9 +319,9 @@ The `attributes` element is only relevant for a user scenario. Each element of t
 
 For more information, see the related link.
 
-The `attributes` definition can take the following parameters:
+The `attributes` definition can take the following properties:
 
-**attributes Parameters**
+**attributes Properties**
 
 
 <table>
@@ -492,7 +492,7 @@ A role template must be instantiated. This is especially true with regard to any
 > ### Note:  
 > The resulting \(application-specific\) role instances need to be assigned to the appropriate user groups.
 
-**role-template Parameters**
+**role-template Properties**
 
 
 <table>
@@ -693,7 +693,7 @@ The `role-collections` property only makes sense if application developers refer
 > 
 > ```
 
-**role-collections Parameters**
+**role-collections Properties**
 
 
 <table>
@@ -886,7 +886,7 @@ The `xsuaa` service broker registers and uses these values for the configuration
 
 The following configuration keys are available:
 
-**oauth2-configuration Parameters**
+**oauth2-configuration Properties**
 
 
 <table>
@@ -1045,11 +1045,20 @@ The default value is `instance-secret`. With `instance-secret` all bindings of a
 
 Includes the system attributes in the JWT. If you don't define a value, the system includes the attributes for SAML groups and role collections by default. If the size of the JWT becomes an issue for you, you can explicitly remove them. For example: `"system-attributes": [],`
 
+You can also have the service include a refresh token of a trusted identity provider.
+
+For more information, see [Include Tokens from Corporate Identity Providers or Identity Authentication in Tokens of the SAP Authorization and Trust Management Service](include-tokens-from-corporate-identity-providers-or-identity-authentication-in-tokens-of-8dc480a.md).
+
 Values:
 
-***"groups"*** includes the `xs.saml.groups` attribute.
+-   ***"groups"*** includes the `xs.saml.groups` attribute.
 
-***"rolecollections"*** includes the `xs-rolecollections` attribute.
+-   ***"rolecollections"*** includes the `xs-rolecollections` attribute.
+
+-   ***"ias-corporate-idp-token"*** includes the token of the corporate identity provider trusted by your Identity Authentication tenant.
+
+-   ***"ias-token"*** includes the token of the trusted Identity Authentication tenant.
+
 
 
 

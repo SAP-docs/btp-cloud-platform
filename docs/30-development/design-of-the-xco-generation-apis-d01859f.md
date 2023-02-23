@@ -31,7 +31,7 @@ As with the whole XCO library, the design of the XCO Generation APIs is governed
 
     *PUT operations*
 
-    Upon execution, a PUT operation either creates or updates its objects according to provided specifications \(depending on whether the object already exists in the system\). Each object type defines a form-based specification tailored to the specific attributes of the object type which is used to describe the content of each object of the PUT operation. As a PUT operation potentially creates new objects a valid package must be provided for all non-package objects. This package is used when the object is newly created but is ignored when the object already exists and is only updated.
+    Upon execution, a PUT operation either creates or updates its objects according to provided specifications \(depending on whether the object already exists in the system\). Each object type defines a form-based specification tailored to the specific attributes of the object type which is used to describe the content of each object of the PUT operation. As a PUT operation potentially creates new objects a valid package must be provided for all objects without a package. This package is used when the object is newly created but is ignored when the object already exists and is only updated.
 
      
 
@@ -70,7 +70,7 @@ As with the whole XCO library, the design of the XCO Generation APIs is governed
 
     *POST operations*
 
-    The objects on a POST operation consist of a name choice \(IF\_XCO\_NAME\_CHOICE\) and a specification. In contract to PUT operations, objects are not explicitly identified by their name, but instead a name choice is provided which will be evaluated upon execution of the POST operation.
+    The objects on a POST operation consist of a name choice \(IF\_XCO\_NAME\_CHOICE\) and a specification. In contrast to PUT operations, objects are not explicitly identified by their name, but instead a name choice is provided which will be evaluated upon execution of the POST operation.
 
     By providing a name choice instead of a fixed name it is possible to potentially pick a fallback name in case the preferred name is already taken. However, this is not mandatory and it is also possible to provide a fixed name, e.g. for the creation of function group:
 

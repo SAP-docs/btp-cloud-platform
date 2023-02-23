@@ -15,6 +15,10 @@ btp help
 ```
 
 ```
+btp feedback
+```
+
+```
 btp login
 ```
 
@@ -135,6 +139,22 @@ Prints tracing information for support. See [Troubleshooting and Support](troubl
 <td valign="top">
 
 Changes the output format of a command to JSON. See [Change the Output Format to JSON](change-the-output-format-to-json-dcb85b7.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+\--version
+
+
+
+</td>
+<td valign="top">
+
+Prints the version of the client.
 
 
 

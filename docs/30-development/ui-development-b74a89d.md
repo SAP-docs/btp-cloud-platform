@@ -40,10 +40,10 @@ You can launch the deployed apps standalone or embed them into the SAP Fiori lau
 > ### Note:  
 > SAP Fiori launchpad is the entry point for business users to SAP Fiori apps on mobile and desktop devices. The launchpad comprises a home page where app tiles, which can display live status indicators, such as the number of open tasks, are clustered. Each tile represents a business application that the user can launch. See [SAP Fiori Launchpad - User Guide](https://help.sap.com/viewer/fd8f9fda63fa4c7a92bb1d4b4ac5582c/Cloud/en-US/2e034767ee0c4d43a5159ce4a4c014f5.html).
 
-The ABAP environment comes with an embedded SAP Fiori launchpad and provides access to SAP Fiori apps that are deployed to the ABAP environment. Apps deployed to the Cloud Foundry environment can be added to a launchpad provided by the SAP Launchpad service. You can also add apps that are deployed to the ABAP environment to launchpads provided by the SAP Launchpad service. See [Integrating Content with SAP Launchpad Service](../50-administration-and-ops/integrating-content-with-sap-launchpad-service-ac97434.md).
+The ABAP environment comes with an embedded SAP Fiori launchpad and provides access to SAP Fiori apps that are deployed to the ABAP environment. Apps deployed to the Cloud Foundry environment can be added to a launchpad provided by theSAP Build Work Zone, standard edition. You can also add apps that are deployed to the ABAP environment to launchpads provided by the SAP Launchpad service. See [Integrating Content with SAP Build Work Zone, standard edition](../50-administration-and-ops/integrating-content-with-sap-build-work-zone-standard-edition-ac97434.md).
 
 > ### Note:  
-> The SAP Launchpad service is an SAP BTP service that enables you to build a portal-like central entry point and provides enterprise-wide, efficient, secure, and role-based access to SAP and non-SAP applications. See [SAP Launchpad Service](https://help.sap.com/viewer/product/Launchpad_Service/Cloud/en-US).
+> The SAP Build Work Zone, standard edition is an SAP BTP service that enables you to build a portal-like central entry point and provides enterprise-wide, efficient, secure, and role-based access to SAP and non-SAP applications. See [https://help.sap.com/docs/WZ\_STD](https://help.sap.com/docs/WZ_STD).
 
 ![](images/UI_Development_Overview_e7e06e4.png)
 

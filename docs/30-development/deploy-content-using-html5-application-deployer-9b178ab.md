@@ -18,7 +18,7 @@ Use the HTML5 application deployer module to deploy the content of the HTML5 app
 > ### Restriction:  
 > Please note that application deployment using the HTML5 application deployer is limited to total of 10 MB.
 > 
-> For larger application content, please use the [Generic Application Content Deployer \(GACD\)](deploy-content-using-generic-application-content-deployer-07c6796.md).
+> For larger application content, please use the [Generic Application Content Deployer \(GACD\)](deploy-content-using-the-generic-application-content-deployer-07c6796.md).
 
 
 

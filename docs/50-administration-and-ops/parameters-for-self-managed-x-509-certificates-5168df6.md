@@ -32,7 +32,9 @@ The create binding or create service key command expects a `parameters.json` in 
   "credential-type": "x509",
   "x509": {
     "certificate": "-----BEGIN CERTIFICATE-----...-----END CERTIFICATE-----",
-    "certificate-pinning": true
+    "ensure-uniqueness": false,
+	"certificate-pinning": true,
+    "hide-certificate": true
   }
 }
 ```
@@ -154,6 +156,25 @@ Set to ***false*** for applications that are rarely updated or deployed. The inc
 Set to ***true*** for blue and green deployments, where you deploy a new application or version of an application regularly and rotate the certificate in parallel. For this use case, you need a new certificate to use in the binding of the new application.
 
 The default value is ***true***.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `hide-certificate` 
+
+
+
+</td>
+<td valign="top">
+
+If this parameter is set to ***true*** \(default is ***false***\), the X.509 certificate is not returned in the binding or service key. This is useful to reduce the size of the environments when the Cloud Foundry environment limit of 130k has been reached. This parameter is optional.
+
+> ### Note:  
+> This parameter works only with self-managed certificates as otherwise, the public key would not be known to the user.
 
 
 

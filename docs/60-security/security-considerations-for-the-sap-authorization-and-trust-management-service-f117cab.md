@@ -19,7 +19,7 @@ By default, login pages of the SAP Authorization and Trust Management service ca
 
 As the security administrator of a subaccount, you can allow the embedding of the login page of the SAP Authorization and Trust Management service in an iFrame.
 
-To change configure the trusted domains, use one of the following methods:
+To configure the trusted domains, use one of the following methods:
 
 -   Enter trusted domains in SAP BTP cockpit.
 

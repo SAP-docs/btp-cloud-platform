@@ -32,7 +32,7 @@ Sample URL
 <tr>
 <td valign="top">
 
- 
+[Read Application Job Templates](read-application-job-templates-b4f28ea.md)
 
 
 
@@ -55,7 +55,7 @@ GET
 <tr>
 <td valign="top">
 
-
+[Schedule an Application Job](schedule-an-application-job-f2a48b0.md)
 
 
 
@@ -78,7 +78,7 @@ POST
 <tr>
 <td valign="top">
 
-
+[Read Application Job Status](read-application-job-status-1823561.md)
 
 
 
@@ -101,7 +101,7 @@ GET
 <tr>
 <td valign="top">
 
- 
+[Abort a Running Application Job](abort-a-running-application-job-c018248.md) 
 
 
 
@@ -124,7 +124,7 @@ POST
 <tr>
 <td valign="top">
 
-
+[Cancel an Application Job](cancel-an-application-job-3018768.md)
 
 
 
@@ -147,7 +147,7 @@ POST
 <tr>
 <td valign="top">
 
- 
+[Read Detailed Job and Step Information](read-detailed-job-and-step-information-7a63794.md) 
 
 
 

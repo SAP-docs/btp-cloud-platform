@@ -17,6 +17,8 @@ The client is available for 64-bit versions of the following operating systems:
 -   Linux \(amd64 and arm64\)
 
 
+Each released client version is supported for at least a year, and if a client is deprecated, you are notified at least six months before it stops working in the [What's New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%20BTP%20Command%20Line%20Interface&locale=en-US&version=Cloud) page on SAP Help Portal \(filter for *SAP BTP Command Line Interface\)* as well as in the client itself. Most of the updates to the btp CLI don't require a new client installation, but are made available through updates of the btp CLI server, so that you can use them in your installed version of the client.
+
 
 
 ## Procedure
@@ -91,9 +93,6 @@ The client is available for 64-bit versions of the following operating systems:
     </tr>
     </table>
     
-    > ### Note:  
-    > You can also find older versions of the client at: [https://tools.hana.ondemand.com/\#cloud-btpcli](https://tools.hana.ondemand.com/#cloud-btpcli). In exceptional cases, when your client is too new for the configured server, an error message tells you which version you need and where to find it.
-
 2.  Extract the client file from the tar.gz archive.
 
     Linux: Use the terminal to open the tar.gz file with `tar -xzf btp-cli-linux-amd64-latest.tar.gz`.
@@ -141,7 +140,7 @@ The client is available for 64-bit versions of the following operating systems:
     > ### Tip:  
     > You can use the command autocompletion feature in the btp CLI to save keystrokes when entering command actions, group-object combinations, and their parameters in the command line. For more information, see [Enable Command Autocompletion](enable-command-autocompletion-46355fa.md).
 
-8.  If you’re going to work in a subaccount of this global account, consider setting the target to this subaccount using <code>btp target --subaccount <i class="varname">&lt;ID&gt;</i></code>. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md). Tip: Use `btp list accounts/subaccount` to display the subaccount IDs of the global account.
+8.  If you’re going to work in a subaccount of this global account, consider setting the target to this subaccount using `btp target` and select the subaccount. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
 
 9.  To find out the current context, target, and version, use `btp`.
 

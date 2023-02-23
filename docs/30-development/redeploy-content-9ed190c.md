@@ -4,7 +4,7 @@
 
 You can redeploy changed content to the existing app-host service instance.
 
-After making changes to the static content files of HTML5 applications, you can redeploy the new content to the already existing app-host service instance of the HTML5 application repository. All content referenced by the app-host service instance ID is replaced by the new content. If you want to keep more than one version of your HTML5 application on the repository, you deploy these versions to the same app-host service instance ID.
+After making changes to the static content files of HTML5 applications, you can redeploy the new content to the already existing app-host service instance of the HTML5 application repository. All content referenced by the app-host service instance ID is replaced by the new content. If you want to keep more than one version of your HTML5 application on the repository, you deploy all versions, the new versions and the old versions that you want to keep, to the same app-host service instance ID.
 
 
 

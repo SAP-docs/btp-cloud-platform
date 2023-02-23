@@ -132,9 +132,3 @@ If you want one MTA to “own” the lifecycle of the service and another to use
 
 For more information, see [Service Binding Parameters](service-binding-parameters-c7b09b7.md) as well as [Service Creation Parameters](service-creation-parameters-a36df26.md).
 
-
-
-### How to make sure that my archive is signed correctly by SAP and its content has not been changed ?
-
-Use the deployment option <code><i>--verify-archive-signature</i></code> as described in [Multitarget Application Commands for the Cloud Foundry Environment](../50-administration-and-ops/multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md).
-

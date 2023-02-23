@@ -14,7 +14,7 @@ Create remote and local Client Proxy instances in OData Version 2 or Version 4.
 
 ### Client Proxy Version 2 and Version 4
 
-Depending on if the OData service you want to consume \(Version 2 or Version 4 service\), you'll create a Version 2 or Version 4 Client Proxy instance, The underlying OData protocols differ between Version 2 and Version 4. You can't provide a version-agnostic Client Proxy.
+Depending on the OData service you want to consume \(Version 2 or Version 4 service\), you'll create a Version 2 or Version 4 Client Proxy instance. The underlying OData protocols differ between Version 2 and Version 4. You can't provide a version-agnostic Client Proxy.
 
 
 
@@ -61,14 +61,19 @@ A Service Consumption Model defines the characteristics, properties, or paramete
 
 For detailed examples on how to create a Service Consumption Model, see [Service Consumption Model](service-consumption-model-ed5d88e.md).
 
+The OData Client Proxy supports SAP Passport to trace and monitor requests between different systems. To send SAP Passport via the header `sap-passport`, you need to take one of the following actions:
+
+-   Define the destination type `'H'` \(ABAP-ABAP communication\) if you instantiated the HTTP client object with `CL_HTTP_CLIENT=>CREATE_BY_DESTINATION`.
+-   Set the attribute `lo_http_client->PROPERTYTYPE_SEND_SAP_PASSPORT = lo_http_client->CO_ENABLED`.
+
 
 
 ### Local Client Proxy
 
-Use the local Client Proxy when a locally-deployed OData service is consumed. The local Client Proxy delegates a request to the backend component of the corresponding Version 2 or Version 4 runtime without an HTTP overhead. The use case for this scenario is to creation Unit Tests, for example, when you want to build an integration test for your service data provider.
+Use the local Client Proxy when a locally-deployed OData service is consumed. The local Client Proxy delegates a request to the backend component of the corresponding Version 2 or Version 4 runtime without an HTTP overhead. The use case for this scenario is to create Unit Tests, for example, when you want to build an integration test for your service data provider.
 
 > ### Note:  
-> Since the local Client proxy is designed for writing tests of your data provider, it skips several layers inside the *SAP Gateway Framework* and directly calls the data provider class. This has following effects:
+> Since the local Client Proxy is designed for writing tests of your data provider, it skips several layers inside the *SAP Gateway Framework* and directly calls the data provider class. This has following effects:
 > 
 > -   Certain tests that are usually executed during OData request processing are skipped.
 > 

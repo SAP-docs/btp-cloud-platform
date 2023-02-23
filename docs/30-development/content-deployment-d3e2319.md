@@ -284,7 +284,7 @@ You can deploy content directly to an existing service key with a descriptor mod
 **Related Information**  
 
 
-[Deploy Content Using Generic Application Content Deployer](deploy-content-using-generic-application-content-deployer-07c6796.md "Deploy content from the HTML5 Application Repository using the Generic Application Content Deployer (GACD).")
+[Deploy Content Using the Generic Application Content Deployer](deploy-content-using-the-generic-application-content-deployer-07c6796.md "Deploy content from the HTML5 Application Repository using the Generic Application Content Deployer (GACD).")
 
 [Create Destinations Using the MTA Descriptor](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/8aeea65eb9d64267b554f64a3db8a349.html "Use the multitarget-application (MTA) descriptor to manage destinations for complex deployments.") :arrow_upper_right:
 

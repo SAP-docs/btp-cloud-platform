@@ -10,6 +10,9 @@ The service instance can use multiple secrets in the ***application*** plan.
 
 -   The instance secret is the default secret type. The secret is the same for all bindings of the service instance. The secret remains valid as long as the instance exists.
 
+    > ### Note:  
+    > Instance secrets are supported only in the Cloud Foundry environment. For other environments, binding secrets are the default secret type. For more information, see [Rotating Secrets](https://help.sap.com/docs/btp/sap-business-technology-platform/security-considerations-for-sap-authorization-and-trust-management-service#rotating-secrets).
+
 -   Binding secrets must be enabled in the application security descriptor \(`xs-security.json`\) when you create the service instance. When you bind an application to a service instance or create a service key, you can pass a `parameters.json` to use a binding secret. The secret remains valid as long as the binding or the service key exists.
 
     > ### Note:  

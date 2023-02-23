@@ -6,3 +6,9 @@ When you order an ABAP environment in SAP BTP, the ABAP system size is specified
 
 When you create an ABAP system, you must decide on the system size in ABAP compute units. One ABAP compute unit represents 16 GB.
 
+The system consists of at least 2 application servers of the size of 8 GB each.
+
+When you order 4 ACUs or more, the system consists of at least 2 application servers of the size of 32 GB each.
+
+The memory limit for a single session is 4 GB, independent of the application server size.
+

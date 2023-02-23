@@ -23,7 +23,7 @@ Learn how to update your ABAP environment instance.
 > -   From 4 to 6 or 8
 > -   From 6 to 8
 > 
-> If you want to decrease the number of ABAP runtime size, create an incident using component BC\_CP\_ABA.
+> If you want to decrease the number of ABAP runtime size, create an incident using component BC-CP-ABA.
 
 
 

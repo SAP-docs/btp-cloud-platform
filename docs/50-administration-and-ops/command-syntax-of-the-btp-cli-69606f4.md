@@ -10,16 +10,16 @@ The btp CLI uses the following syntax:
 btp [OPTIONS] ACTION GROUP/OBJECT [PARAMS]
 ```
 
-The commands are ordered in groups and you always need to specify the object on which you want to carry out an action by the group/object combination. Words in caps are placeholders, and brackets \[ \] denote optionality. Here's is one example with the verbose option and no parameters before we outline the entire syntax:
+The commands are ordered in groups and you need to specify the object on which you want to carry out an action by the group/object combination. Words in caps are placeholders, and brackets \[ \] denote optionality. Optionally, you can pass options with a command call. Here's is one example with the verbose option and no parameters before we outline the entire syntax:
 
 > ### Sample Code:  
 > ```
-> btp --verbose list accounts/subaccount 
+> btp --verbose list accounts/subaccount
 > ```
 
 -   `btp` is the base call to start each command
 
--   OPTIONS can be added to each command, for example `--verbose` to execute a command in verbose mode or `--help` to get help. Note that the `--help` option can also be placed at the end of a command, and that you can alos call help by using `help` as action: `btp help list accounts/subaccount`.
+-   OPTIONS can be added to each command, for example `--format json` to change the output format to json, or `--verbose` to execute a command in verbose mode. For details, see [How to Work with the btp CLI](how-to-work-with-the-btp-cli-11d9f67.md).
 
 -   ACTION is the verb. Depending on the GROUP/OBJECT combination, different verbs are available, such as `get`, `list`,`create`, `delete`, `assign`, `unassign`, `add`, `remove`. For a complete list, use `btp help`. To find out which commands are available for a specific action, use `btp help ACTION`, for example, `btp help list`.
 
@@ -36,7 +36,7 @@ The commands are ordered in groups and you always need to specify the object on 
 
     To get help on a particular group, use `btp help GROUP`, for example `btp hep accounts`. This will display all objects and related actions available in that group.
 
--   PARAMETERS are passed with most commands. With `btp login`, for example, you don't have to pass parameters up front, but you'll be prompted to enter them. And `btp logout` does not need parameters as it will log out the current user from the global account. Some commands have one positional parameter, which is entered directly after the command. All further parameters have a key and can be optional. The command help specifies the optional parameters as such. For example, in `btp assign security/role-collection "Global Account Administrator" --to-user example@mail.com --of-idp my-idp`, "Global Account Administrator" is the positional parameter, and the other two parameters have keys.
+-   PARAMETERS are passed with most commands. With `btp login`, for example, you don't have to pass parameters up front, but you'll be prompted to enter them. The same applies to the `btp target` command. And `btp logout` does not need parameters as it will log out the current user from the global account. Some commands have one positional parameter, which is entered directly after the command. All further parameters have a key and can be optional. The command help specifies the optional parameters as such. For example, in `btp assign security/role-collection "Global Account Administrator" --to-user example@mail.com --of-idp my-idp`, "Global Account Administrator" is the positional parameter, and the other two parameters have keys.
 
 
 

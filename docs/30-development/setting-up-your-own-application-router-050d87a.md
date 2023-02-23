@@ -23,7 +23,7 @@ This section describes how you can set up your own application router.
 
 ## Context
 
-The application router is configured in the `xs-app.json` file. The `package.json` file contains the start command for the application router and a list of package dependencies.
+The application router is configured in the `xs-app.json` file. The `package.json` file contains the start command for the application router, a list of the package dependencies, and the supported Node.js versions.
 
 
 

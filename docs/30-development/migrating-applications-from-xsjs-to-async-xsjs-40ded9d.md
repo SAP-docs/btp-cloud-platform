@@ -51,7 +51,9 @@ The only possible way for your XSJS applications to be up and running on latest 
     }
     ```
 
-2.  Also, you need to modify the `start` script, by adding *\--experimental-vm-modules*, like this:
+2.  Enable the ECMAScript virtual-machine interface on application startup.
+
+    With *@sap/async-xsjs*, your asynchronous JavaScript code is loaded by default as ECMAScript \(ES\). To make use of the support that Node.js provides for ES modules, you need to start your application using the option *\--experimental-vm-modules*.
 
     ```
     
@@ -235,13 +237,9 @@ To learn more about the differences between these two kinds of Node.js scripts, 
 
 ### `Array.forEach` and `Array.map`
 
-In the Async-XSJS layer, the **Array.forEach** and **Array.map** functions have changed their behavior when the argument function is asynchronous.
+In the Async-XSJS layer, the **Array.forEach** and **Array.map** functions change their behavior when the argument function is asynchronous.
 
-For example, when you have SQL operations, their behavior in the classic XSJS API is the following:
-
-The SQL statements are read and executed one by one, and then written in the database in the same order.
-
-For example:
+For example, the SQL statements are read and executed sequentially, one after the other, and then written to the database in the same order.
 
 > ### Example:  
 > === my.xsjslib ===XSJS ===
@@ -264,7 +262,7 @@ For example:
 > 
 > ```
 
-When you migrate their code to Async-XSJS, like this:
+The following example shows how the same code looks when adapted to Async-XSJS:
 
 > ### Example:  
 > === my.xsjslib ===Async-XSJS ===
@@ -289,18 +287,12 @@ When you migrate their code to Async-XSJS, like this:
 > 
 > ```
 
-the SQL statements are only scheduled for execution but are not executed right away. And when it's time for them to be recorded in the database, the order of this operation might be completely different than the order they were initially read.
+In the previous example, the SQL statements are only scheduled for execution; they are not executed immediately. When it is time to record them in the database, the order of operation might be different to the order in which the tables were initially read.
 
 > ### Caution:  
-> If you have additional code after the **sqls.forEach** function, it will be executed before any of the SQL statements are executed.
+> If you have additional code after the **sqls.forEach** function, it will be executed before any of the SQL statements.
 
-To avoid these unpleasant side effects and have a working code, with SQL statements executed in the correct order, you can replace:
-
-```
-sqls.forEach(runSql);
-```
-
-with one of the following example codes:
+To avoid unwanted side effects and ensure that the SQL statements are created in the database in the correct order, you can replace ***sqls.forEach\(runSql\);*** with one of the following examples:
 
 -   > ### Example:  
     > *Sequential execution*
@@ -313,7 +305,7 @@ with one of the following example codes:
     > 
     > <some additional code>
     > 
-    > //SQLs have been already executed in the correct order, and then the additional code is executed 
+    > //SQL statements are executed in the correct order, then the additional code is executed 
     > ```
 
 -   > ### Example:  
@@ -325,13 +317,13 @@ with one of the following example codes:
     > 
     > <some additional code>
     > 
-    > //SQLs have been executed in a random order, and then the additional code is executed
+    > //SQL statements are executed in a random order, then the additional code is executed
     > 
     > 
     > ```
 
 
-The same configuration steps can be applied for `Array.map` in a completely analogical way – just replace `sqls.forEach` with **`sqls.map`**.
+The same configuration steps can be applied for `Array.map` in analogical way – just replace `sqls.forEach` with **`sqls.map`**.
 
 Another function that can be asynchronous is `Array.reduce`.
 

@@ -41,9 +41,9 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
 
     -   For the mandatory field *User ID*, the following checks are carried out in the background:
 
-        -   The S-User namespace needs to inherent authority.
-        -   The S-User needs to belong to the customer or the conglomerate.
-        -   The S-User needs a valid namespace.
+        -   The user ID namespace needs to inherent authority.
+        -   The user ID needs to belong to the customer or the conglomerate.
+        -   The namespace requested fulfills all requirements of a valid namespace.
         -   The namespace needs to be available.
 
     -   If the check has been successful and you confirmed that you read the notice regarding namespaces, click the *Request Namespace* button.

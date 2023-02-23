@@ -38,7 +38,7 @@ A booster is a set of guided interactive steps that enable you to select, config
     -   For the *Web Access to ABAP* service, a default plan is chosen that you cannot change. You need the service and the quota for direct browser access to your instances in the ABAP environment, including access to the administration launchpad for ABAP.
     -   Depending on what you have ordered for your account, additional entitlements for the services *Cloud Foundry Runtime*, *Launchpad*, and *SAP Business Application Studio* might be shown. They are optional; you can remove the entitlements if you don't need them right now and want to add them later:
         -   A quota for the Cloud Foundry runtime is only needed for the ABAP environment if your developers want to deploy their own apps in Cloud Foundry.
-        -   The SAP Launchpad service enables organizations to establish a central point of access to SAP, custom-built, and third party applications and extensions, both in the cloud and on premise.
+        -   The SAP Build Work Zone, standard edition enables organizations to establish a central point of access to SAP, custom-built, and third party applications and extensions, both in the cloud and on premise.
         -   SAP Business Application Studio is a UI development environment.
 
 
@@ -73,7 +73,7 @@ After the booster has run successfully, the following tasks have been performed 
 
 -   For the *ABAP environment* service, quotas have been distributed for the ABAP server and the SAP HANA persistence. The quotas that you have chosen are deducted from the available quota for each service in your global account..
 
--   If you have entitlements for SAP Launchpad and SAP Business Application Studio, then you have subscribed to these services and standard quotas have been assigned accordingly. \(\[Feature Set B\]: Entitlements for subscription services are assigned to the subaccount.\)
+-   If you have entitlements for SAP Build Work Zone, standard edition and SAP Business Application Studio, then you have subscribed to these services and standard quotas have been assigned accordingly. \(\[Feature Set B\]: Entitlements for subscription services are assigned to the subaccount.\)
 
 -   You’re subscribed to the Web access for ABAP SaaS application and get direct browser access to your instances in the ABAP environment. \(\[Feature Set B\]: Entitlements for subscription services are assigned to the subaccount.\)
 
