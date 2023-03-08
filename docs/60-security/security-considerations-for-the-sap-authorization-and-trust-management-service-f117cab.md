@@ -180,7 +180,7 @@ Refresh tokens
 </td>
 <td valign="top">
 
-Default: 24192000 seconds \(28 days\)
+Default: 604800 seconds \(7 days\)
 
 
 

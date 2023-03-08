@@ -23,7 +23,7 @@ For more information on directories, see [Directories \[Feature Set B\]](../10-c
 
 3.  In the dialog, enter a display name for your new directory and choose a parent. The parent can be the global account or another directory.
 
-4.  Under *Advanced* \> *Labels*, assign labels to the directory to make organizing and filtering your directories and their subaccounts easier. For more information, see [Labels \[Feature Set B\]](../10-concepts/account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
+4.  **Optional:** Under *Advanced* \> *Labels*, assign labels to the directory to make organizing and filtering your directories and their subaccounts easier. For more information, see [Labels \[Feature Set B\]](../10-concepts/account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
 
     > ### Tip:  
     > -   When adding multiple values to a label, press [Enter\] after each value.

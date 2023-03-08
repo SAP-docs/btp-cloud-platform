@@ -20,14 +20,7 @@ This configuration establishes a mutual trust relationship between SAP Authoriza
 
 The ABAP environment system in turn trusts SAP Authorization and Trust Management service.
 
-The business user is federated based on its e-mail address. The e-mail address is set once the employee record of the business user is created.
-
-For this purpose, the Identity Authentication service being the trusted identity provider sends the e-mail address as a subject name identifier. See [Configure the Subject Name Identifier Sent to the Application](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/1d020e3a3ba34c43a71fde70bfa6419a.html?version=Cloud).
-
-SAP Authorization and Trust Management service transforms the incoming request to JSON web tokens, once again including the e-mail. The ABAP environment system then maps the e-mail address of the JSON web token to the business user.
-
-> ### Note:  
-> Only the e-mail address in the profile of a business user can be used for identity federation in the ABAP environment. Other profile attributes, such as the login name, can't be used.
+The business user is federated based on its e-mail address or user name, depending on the configuration of the login\_attribute during system provisioning \(See [Creating ABAP System](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-abap-system?version=Cloud)\) and the subject name identifier in the Identity Authentication application \(see [Configure the Subject Name Identifier Sent to the Application](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/1d020e3a3ba34c43a71fde70bfa6419a.html?version=Cloud)\).
 
 If a resource in the ABAP environment system is requested to be accessed by a business user, the steps to acquire the required access token are as follows:
 
@@ -39,8 +32,8 @@ If a resource in the ABAP environment system is requested to be accessed by a bu
 
     The authorization code is necessary to retrieve the access token in the following steps. Finally, the authorization code is redirected again to the Web Access.
 
-4.  Based on the authorization code, a JSON web token \(JWT\) is retrieved from the access token endpoint in SAP Authorization and Trust Management service \(XSUAA\). This OAuth access token includes the e-mail address of the business user that serves as a subject name identifier.
-5.  To consume resources, such as business services in the ABAP environment system, the JSON web token is forwarded as part of such requests and mapped internally to the business user based on the e-mail address.
+4.  Based on the authorization code, a JSON web token \(JWT\) is retrieved from the access token endpoint in SAP Authorization and Trust Management service \(XSUAA\). This OAuth access token includes the e-mail address or login name of the business user that serves as a subject name identifier.
+5.  To consume resources, such as business services in the ABAP environment system, the JSON web token is forwarded as part of such requests and mapped internally to the business user.
 
 > ### Note:  
 > Authentication of users other than communication users does not require identity federation as these technical users are authenticated locally in the ABAP environment system.

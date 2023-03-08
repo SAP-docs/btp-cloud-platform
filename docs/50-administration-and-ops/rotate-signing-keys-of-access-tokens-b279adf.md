@@ -18,11 +18,6 @@ Components of the Cloud Foundry environment use the digital signature of the acc
 
     After activating a new key, wait for access tokens signed by the old key to expire before deleting the old key. The default lifetime of access tokens is 12 hours.
 
-    > ### Caution:  
-    > When you enable the first signing key after the default signing key, the default signing key is immediately invalid. Clients with access tokens issued within the last 12 hours, the default lifetime of an access token, can't use their access tokens anymore. Affected clients must reauthenticate to get a new token.
-    > 
-    > We recommend that you plan for possible service interruption when you add your first signing key.
-
     To support this delay in rotation, the service enforces a minimum 1-hour delay between rotation and the activation \(`UPDATE`\) or deletion \(`DELETE`\) of signing keys.
 
     > ### Note:  
@@ -35,7 +30,7 @@ Components of the Cloud Foundry environment use the digital signature of the acc
 
 1.  Check that there's space for a new signing key.
 
-    You can store two signing keys per subaccount. Get the settings of your subaccount to see how many keys you’ve stored there.
+    You can store two signing keys per subaccount. Get the settings of your subaccount to see how many keys are stored there.
 
     Call the *GET* method of the Security Settings API at the following endpoint:
 
@@ -60,7 +55,12 @@ Components of the Cloud Foundry environment use the digital signature of the acc
     }
     ```
 
-    Delete the inactive key if you already have two. In the previous example, delete `jwt-sig-2022-09-01`. For more information on how to delete keys, see step 5.
+    Delete the inactive key if you already have two. In the previous example, delete `jwt-sig-2022-09-10`. For more information on how to delete keys, see step 5.
+
+    > ### Caution:  
+    > If the `keyID` is ***key-id-0*** or ***key-id-1***, these keys are legacy signing keys. When you enable the first signing key after a legacy signing key, the legacy signing key is immediately invalid. Clients with access tokens issued within the lifetime of an access token, can't use their access tokens anymore. Affected clients must reauthenticate to get a new token.
+    > 
+    > Plan for possible service interruption when you add your first signing key.
 
 2.  Add a new signing key for the access token.
 
@@ -98,9 +98,6 @@ Components of the Cloud Foundry environment use the digital signature of the acc
 4.  Wait for access tokens signed by the old key to expire.
 
     As long as the old signing key exists, the system still accepts digital signatures signed by that key. Once you’ve waited out the lifetime of any access tokens signed by the old key, you can delete the old key.
-
-    > ### Note:  
-    > Exception: The initial signing key is invalid as soon as you enable your first signing key.
 
 5.  Delete the old signing key for the access token.
 

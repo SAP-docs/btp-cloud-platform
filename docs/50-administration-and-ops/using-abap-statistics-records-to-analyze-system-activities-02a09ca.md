@@ -2,7 +2,7 @@
 
 # Using ABAP Statistics Records to Analyze System Activities
 
-Use ABAP statistics records to find out which activities are running in your system.
+Use ABAP statistics records to find out which activities are running in your ABAP and database system.
 
 
 
@@ -28,4 +28,9 @@ You typically use ABAP statistics records in the following scenarios:
 
     For more information, see [Capturing Request Statistics](capturing-request-statistics-e86943a.md) and [Analyzing Captured Request Statistics](analyzing-captured-request-statistics-af3e856.md).
 
+
+**Related Information**  
+
+
+[ABAP Statistics Records](https://help.sap.com/viewer/b273a660af4e4948a49a316ea2438f24/Cloud/en-US/583c0987c19b49d190e14aa909adb5b1.html "With an ABAP statistics record, you can get information about a request such as the response time, the request entry name, and so on.") :arrow_upper_right:
 

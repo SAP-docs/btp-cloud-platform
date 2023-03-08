@@ -213,7 +213,7 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     
     **Body**
 
-    You can specify arbitrary object sets.
+    You can specify arbitrary object sets. See also [Object Sets](https://help.sap.com/docs/btp/sap-abap-development-user-guide/objects-sets) and [XML Representations of Object Sets](https://help.sap.com/docs/btp/sap-abap-development-user-guide/xml-representations-of-object-sets) for more details.
 
     You can provide additional parameters to control the selection of tests. You can restrict the amount of tests to certain risk level and durations. Furthermore, you can decide to execute foreign tests, which are connected via test relations.
 

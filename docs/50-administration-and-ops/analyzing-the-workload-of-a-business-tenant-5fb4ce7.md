@@ -23,33 +23,29 @@ In the following example, let's analyze the usage of an application built accord
 
 ## Procedure
 
-1.  Log on to the SAP Fiori launchpad of your ABAP environment.
+1.  On the SAP Fiori launchpad of your ABAP environment, search for *Tenant Workload*.
 
-2.  In the group *Technical Monitoring*, choose the *Tenant Workload* tile:
+    The technical monitoring cockpit opens with the *Tenant Workload* screen.
 
-    ![](images/User_Story_Tenant_Workload_Tile_c20364b.png)
+2.  Using the links above the chart, you can switch to other views. In this example, let's switch to the HANA CPU time by tenant.
 
-    This leads you to the technical monitoring cockpit. The initial view shows you how the ABAP CPU time consumption changes over time and how it’s distributed among the available tenants.
-
-3.  Using the links above the chart, you can switch to other views. In this example, let's switch to the HANA CPU time by tenant.
-
-4.  Let's assume you're interested in the behavior of the OData V2 services and set a filter on *Request Entry Type* for *OData V2*. For information about filter options, see the [documentation](https://help.sap.com/docs/BTP/b273a660af4e4948a49a316ea2438f24/536cd53e5f244c65bdbe620feb39c8ed.html?language=en-US) of the technical monitoring cockpit.
+3.  Let's assume you're interested in the behavior of the OData V2 services and set a filter on *Request Entry Type* for *OData V2*. For information about filter options, see the [documentation](https://help.sap.com/docs/BTP/b273a660af4e4948a49a316ea2438f24/536cd53e5f244c65bdbe620feb39c8ed.html?language=en-US) of the technical monitoring cockpit.
 
      ![](images/User_Story_HANA_CPU_Time_1_dcb401d.png)
 
-5.  As you can see, at 4.30 p.m., the HANA CPU time went up. In the chart, click on the relevant tenant and time. In the *HANA CPU Time: Details* section, you see the top contributors to the HANA CPU time of the chosen time and tenant. The contributors are grouped by request entry type and request entry name.
+4.  As you can see, at 4.30 p.m., the HANA CPU time went up. In the chart, click on the relevant tenant and time. In the *HANA CPU Time: Details* section, you see the top contributors to the HANA CPU time of the chosen time and tenant. The contributors are grouped by request entry type and request entry name.
 
     The top contributor to the HANA CPU time is the travel processing service. So, on this tenant and time, it's mainly the usage of the flight processing service that is responsible for the consumption of HANA CPU time; the rest contributes only a little bit.
 
     ![](images/Details_Tenant_Workload_User_Story_821d0b0.png)
 
-6.  To see more details, let’s choose the top contributor in the list. The chart on the subsequent *Request Processing* screen shows the behavior for this specific workload over time \(here, the flight processing service on tenant *730853637*\):
+5.  To see more details, let’s choose the top contributor in the list. The chart on the subsequent *Request Processing* screen shows the behavior for this specific workload over time \(here, the flight processing service on tenant *730853637*\):
 
     ![](images/User_Story_HANA_CPU_Time_2_8e492e1.png)
 
     The chart shows the aggregated workload, and - depending on what you click in the chart - the table below shows the relevant detail view, that is, a list of a maximum of 20 single ABAP statistics records for this workload on the tenant sorted by the metric you chose in the chart.. This is very helpful for your further analysis: You're coming from a workload perspective and now get to see the single records of this workload on the relevant tenant.
 
-7.  Let's dig deeper: From the *ABAP Statistics Records* table, choose a single record, in this example, the one that's highlighted.
+6.  Let's dig deeper: From the *ABAP Statistics Records* table, choose a single record, in this example, the one that's highlighted.
 
     On the following *ABAP Statistics Record* screen, you get more detailed information about the record. In the pie chart for the server response time contributions, you can clearly see that the server response time is dominated by the HANA processing time and database network time.
 
@@ -57,11 +53,11 @@ In the following example, let's analyze the usage of an application built accord
 
     What's also noticeable is the DEFAULT database connection that apparently fired 379 database requests.
 
-8.  Let's have a closer look: In the *Database Connections* section of the *ABAP Staticstics Record* screen, choose the first entry \(connection name DEFAULT\) to get more information. The *Database Connection Details* screen opens and you can see that 379 logical and 239 physical database requests were fired to fetch 837 database rows, which explains the high network time: It was caused by the many database requests.
+7.  Let's have a closer look: In the *Database Connections* section of the *ABAP Staticstics Record* screen, choose the first entry \(connection name DEFAULT\) to get more information. The *Database Connection Details* screen opens and you can see that 379 logical and 239 physical database requests were fired to fetch 837 database rows, which explains the high network time: It was caused by the many database requests.
 
     ![](images/User_Story_Tenant_WL_DB_Connections_bf8e70a.png)
 
-9.  Another thing you may want to check in this example is the *SQL Statements* section on the *ABAP Statistics Record* screen: The table shows the top SQL statements contributing to the HANA processing time.
+8.  Another thing you may want to check in this example is the *SQL Statements* section on the *ABAP Statistics Record* screen: The table shows the top SQL statements contributing to the HANA processing time.
 
     > ### Note:  
     > The SQL statements are available in the single record by default. You do **not** need to activate any tracing explicitly.

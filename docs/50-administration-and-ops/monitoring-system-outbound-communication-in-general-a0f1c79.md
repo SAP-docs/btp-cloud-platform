@@ -14,9 +14,9 @@ In the technical monitoring cockpit, the top 10 communication scenarios by calli
 
 ## Procedure
 
-1.  In the SAP Fiori launchpad, under *Technical Monitoring*, choose the *Application System Overview* tile.
+1.  On the SAP Fiori launchpad of your ABAP environment, search for *Application System Overview*.
 
-    This opens the technical monitoring cockpit.
+    The technical monitoring cockpit opens.
 
 2.  On the dashboard shown, choose the *System Outbound Communication* tile.
 

@@ -52,7 +52,7 @@ Kyma manages an [OAuth2 Proxy](https://oauth2-proxy.github.io/oauth2-proxy/) ins
 
         For example, if your Kyma cluster is reachable under `kyma.example.com`, set the callback URL to `https://grafana.kyma.example.com/oauth2/callback`.
 
-    2.  If you want to limit access to a specific group, set the user attribute *Groups* to value ***groups***. Learn more under [Configure the User Attributes Sent to the Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d361407d36c5443298a909acbbd96ec4.html).
+    2.  **Optional:** If you want to limit access to a specific group, set the user attribute *Groups* to value ***groups***. Learn more under [Configure the User Attributes Sent to the Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d361407d36c5443298a909acbbd96ec4.html).
 
     3.  Create a secret. For more information, see [Configure Secrets for API Authentication](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/5c3c35e01e3c4e7e8dd72af60c997c5d.html).
 
@@ -77,7 +77,7 @@ Kyma manages an [OAuth2 Proxy](https://oauth2-proxy.github.io/oauth2-proxy/) ins
 
     1.  Adapt the client ID, secret, and issuer URL to the values that were provided while creating the application.
 
-    2.  To limit access to specific user groups, configure the `OAUTH2_PROXY_ALLOWED_GROUPS` variable and make sure that `OAUTH2_PROXY_OIDC_GROUPS_CLAIM` points to attribute name *groups*.
+    2.  **Optional:** To limit access to specific user groups, configure the `OAUTH2_PROXY_ALLOWED_GROUPS` variable and make sure that `OAUTH2_PROXY_OIDC_GROUPS_CLAIM` points to attribute name *groups*.
 
     3.  To switch off the redirect to documentation, disable the OAuth2 Proxy provider button with `OAUTH2_PROXY_SKIP_PROVIDER_BUTTON=true`.
 

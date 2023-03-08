@@ -69,6 +69,52 @@ The simplest way to enable communication between SAP BTP ABAP Environment and Cl
 
 
 
+<a name="loiod8e9ce04153e4af799c8f76efe4b23bf__section_lbw_kml_4wb"/>
+
+## Using mTLS for the Communication
+
+To enable mTLS for the communication between SAP BTP ABAP Environment and the UI theme designer in Cloud Foundry, the steps are a little bit different:
+
+1.  In SAP BTP ABAP Environment, go to *Maintain Client Certificates*.
+
+2.  Export the Client Default certificate. Choose one where *Valid to* is a date in the future.
+
+3.  In Cloud Foundation, navigate to the space of your subaccount. Go to *Services* \> *Instances* and select the instance for the UI theme designer.
+
+4.  Now create a service key with mTLS information. For more information, see section Creating a Service Key in Cloud Foundry. When doing this via the Cockpit, enter the following text into the parameters field in the *New Service Key* wizard. Replace the `xxxxxxxxxxxxxxxxxx` with the text you fin in your exported certificate.
+
+    > ### Sample Code:  
+    > ```
+    > {
+    > 		"xsuaa": {
+    > 			"credential-type": "x509",
+    > 			"x509": {
+    > 			"certificate": "-----BEGIN CERTIFICATE----- xxxxxxxxxxxxxxxxxx -----END CERTIFICATE-----",
+    > 			"ensure-uniqueness": false,
+    > 			"certificate-pinning": true
+    > 			}
+    > 		}
+    > 	}
+    > ```
+
+5.  After creating the service key, open it and copy its content \(e.g. by clicking on *Copy JSON*\).
+
+
+If the client certificate is not valid anymore, you need to repeat the described steps.
+
+1.  As there can be only one Service Key at the same time for a Service Instance with a client certificate, you either need to delete the old one and create a new one, or you use two Service Instances where one is used active and the other can be used to update the Service Key.
+
+2.  Download the new Client Default certificate as described above in steps 1 and 2.
+
+3.  Recreate the Service Key as described above in steps 3 and 4. Copy this new key.
+
+4.  Then go to the SAP BTP ABAP Environment, and in the launchpad choose *Communication Management* \> *Communication Arrangements*.
+
+5.  Select the previously created Communication Arrangement for `SAP_COM_0623`. Choose *Update by Service Key*, paste the newly created Key and then choose *Update*.
+
+
+
+
 <a name="loiod8e9ce04153e4af799c8f76efe4b23bf__section_mz1_pfq_25b"/>
 
 ## Creating a Communication Arrangement in SAP BTP ABAP Environment

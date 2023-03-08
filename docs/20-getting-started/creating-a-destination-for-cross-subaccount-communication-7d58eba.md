@@ -262,6 +262,12 @@ Learn how to create a destination with SAML assertion authentication to establis
 
     ***urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress***
 
+    or
+
+    urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified
+
+    depending on the login\_attribute configuration chosen during ABAP system provisioning \(see [Creating ABAP System](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-abap-system?version=Cloud)\)
+
 
     
     </td>

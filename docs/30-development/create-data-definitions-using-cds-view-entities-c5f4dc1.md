@@ -12,8 +12,8 @@ All objects in our data model \(dimensions, cubes, analytical queries, etc.\) wi
 
 1.  Launch the ABAP Development Tools.
 2.  In your ABAP project, select the relevant package node in the *Project Explorer*.
-3.  In the context menu, select *File* → *New* → *Other* → *ABAP Repository Object* → *Core Data Services* → *Data Definition* to launch the creation wizard.
-4.  Enter a *Name* \(with due regard to your namespace\) and *Description* for the data definition to be created.
+3.  In the context menu, select *File* → *New* → *Other*. This opens a search tool, where you can search for data definition. Click next to launch the creation wizard.
+4.  Enter a *Name* \(taking into account your namespace\) and *Description* for the data definition to be created.
 
      
 

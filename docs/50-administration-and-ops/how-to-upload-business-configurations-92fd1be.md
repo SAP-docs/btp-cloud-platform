@@ -48,8 +48,8 @@ You want to import your configuration content via ".xlsx" file upload.
 
 9.  Select your transport request and confirm it with the *OK* button. The changes will be sent for deployment to be captured in the provided transport request.
 
-10. In case there is no available transport request in the transport dialog, or you want to create a new request, select *Create* in the transport dialog. You'll then be redirected to the *Export Customizing Transports* app in a new tab. Once redirected, you can then create a new request here.
+10. **Optional:** In case there is no available transport request in the transport dialog, or you want to create a new request, select *Create* in the transport dialog. You'll then be redirected to the *Export Customizing Transports* app in a new tab. Once redirected, you can then create a new request here.
 
-11. Once you’ve created a new transport request in the *Export Customizing Transports* app, you can find it by using the value help.
+11. **Optional:** Once you’ve created a new transport request in the *Export Customizing Transports* app, you can find it by using the value help.
 
 

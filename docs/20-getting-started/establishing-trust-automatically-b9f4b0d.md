@@ -39,6 +39,58 @@ If you have custom identity provider, you can use a function in SAP BTP cockpit 
 
     The name of the application has the format *XSUAA\_*<Subaccount Name\>**, but you can change it if needed.
 
-9.  Verify that the subject name identifier is set to *E-Mail*.
+9.  Verify that the subject name identifier matches the login\_attribute chosen during ABAP system provisioning.
 
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    ABAP login\_attribute
+
+
+    
+    </th>
+    <th valign="top">
+
+    SAP Cloud Identity Services Subject Name Identifier
+
+
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    **email**
+
+
+    
+    </td>
+    <td valign="top">
+
+    email
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    **user\_name**
+
+
+    
+    </td>
+    <td valign="top">
+
+    login name
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
 

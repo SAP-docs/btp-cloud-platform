@@ -65,7 +65,7 @@ Dimensions consist of several parts. These are:
 
 ## Result
 
-**Z\_AIRLINE\_VE\_DIM**
+**Z\_VE\_AIRLINE\_DIM**
 
 ```abap
 @AbapCatalog.viewEnhancementCategory: [#NONE]
@@ -128,7 +128,7 @@ key carrier_id    as CarrierId,
 }
 ```
 
-**Z\_CONNECTION\_VE\_DIM**
+**Z\_VE\_CONNECTION\_DIM**
 
 ```abap
 @AbapCatalog.viewEnhancementCategory: [#NONE]

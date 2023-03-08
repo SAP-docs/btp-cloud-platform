@@ -1,6 +1,6 @@
 <!-- loio0c035010a9d64cc8a02d872829c7fa75 -->
 
-# Configure SAP BTP Connectivity in the Kyma Environment
+# Configure SAP BTP Connectivity in the Kyma environment
 
 Extend your Kyma environment with SAP BTP Connectivity.
 
@@ -8,25 +8,25 @@ Extend your Kyma environment with SAP BTP Connectivity.
 
 ## Prerequisites
 
--   The Connectivity Service Entitlement is present within your subaccount with the service plan `connectivity_proxy`. To learn how to configure your Entitlements, see [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
+-   The Connectivity service entitlement is present within your subaccount with the service plan `connectivity_proxy`. To learn how to configure your entitlements, see [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
 
 
 
 
 ## Context
 
-You can configure SAP BTP Connectivity components to establish a secure tunnel between your Kyma Environment and a System in your On-Premise Network. For more details, see the official SAP BTP [Connectivity](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html "SAP BTP Connectivity: overview, features, restrictions.") :arrow_upper_right: documentation.
+You can configure SAP BTP Connectivity components to establish a secure tunnel between the Kyma environment and the system in your on-premise network. For more details, see the official SAP BTP [Connectivity](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html "SAP BTP Connectivity: overview, features, restrictions.") :arrow_upper_right: documentation.
 
-> ### Note:  
-> Keep in mind that this must be done only once per cluster.
+> ### Caution:  
+> Do not deploy multiple connectivity proxy service instances and service bindings in one cluster.
 
-To learn more, see [Extending SAP Customer Experience Products in the Kyma Environment](../40-extensions/extending-sap-customer-experience-products-in-the-kyma-environment-83df31a.md).
+To learn more, see [Extending SAP Customer Experience Products in the Kyma Environment](../40-extensions/extending-sap-customer-experience-products-in-the-kyma-environment-83df31a.md) and [Connectivity Proxy for Kubernetes](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e661713ef7d14373b57e3e26b0b03b86.html "Use the connectivity proxy for Kubernetes to connect workloads on a Kubernetes cluster to on-premise systems.") :arrow_upper_right: .
 
 
 
 ## Procedure
 
-1.  In the Kyma Dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *BTP Service Instances*.
+1.  In Kyma Dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *BTP Service Instances*.
 
 2.  Click *Create Service Instance +* and provide the following details:
 
@@ -40,9 +40,9 @@ To learn more, see [Extending SAP Customer Experience Products in the Kyma Envir
 
 3.  Click *Create*.
 
-    This creates the Connectivity service instance.
+    The connectivity service instance is created.
 
-4.  In the Kyma Dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *BTP Service Bindings*.
+4.  In Kyma Dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *BTP Service Bindings*.
 
 5.  Click *Create Service Binding +* and provide the following details:
 
@@ -51,13 +51,17 @@ To learn more, see [Extending SAP Customer Experience Products in the Kyma Envir
 
 6.  Click *Create*.
 
-    This creates the Connectivity service binding.
+    The connectivity service binding is created.
 
 
 
 
 ## Results
 
--   After approximately 3 minutes, when the service binding creation has been registered in the system, Connectivity Proxy is provisioned in the cluster.
--   Connectivity Proxy is deployed in the `kyma-system` Namespace. By default, it is accessible within the cluster by invoking the following URL: `connectivity-proxy.kyma-system.svc.cluster.local`.
+-   It takes approximately 3 minutes for a service binding creation to be registered in the system. After that, the connectivity proxy is provisioned in the cluster.
+-   The connectivity proxy is deployed in the `kyma-system` Namespace. By default, it is accessible within the cluster by invoking the following URL: `connectivity-proxy.kyma-system.svc.cluster.local`.
+
+    > ### Caution:  
+    > Every workload using the connectivity proxy to call the on-premise system must have the Istio sidecar proxy injection enabled. Otherwise, the connectivity proxy does not work correctly.
+
 

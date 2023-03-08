@@ -16,13 +16,11 @@ You have set up a profile to capture request statistics relating to outbound com
 
 ## Procedure
 
-1.  Log on to the SAP Fiori Launchpad of your ABAP system.
+1.  On the SAP Fiori launchpad of your ABAP environment, search for the *Capture Request Statistics* app.
 
-2.  Under *Technical Communication*, choose *Capture Request Statistics*.
+2.  From the list of capture profiles, choose the profile that you have defined to collect ABAP statistics records for expensive system outbound communication.
 
-3.  From the list of capture profiles, choose the profile that you have defined to collect ABAP statistics records for expensive system outbound communication.
-
-4.  Choose the *Captured Request Statistics* button.
+3.  Choose the *Captured Request Statistics* button.
 
     The *Captured Request Statistics* screen in the technical monitoring cockpit opens. On this screen, you can find all workloads that were captured using your profile in the *Capture Request Statistics* app. You can now investigate in more detail which service requests were responsible for expensive outbound communication and what details their ABAP statistics records contain, such as the related outbound HTTP, RFC, or Web service calls.
 

@@ -4,6 +4,9 @@
 
 User provisioning is the automated process of creating users, that are later granted permissions to access business services and applications, to allow system to system communication, or to perform troubleshooting.
 
+> ### Note:  
+> Please make sure that employee and business user data is maintained in accordance with the `login_attribute`system provisioning parameter \(see [Creating ABAP System](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-abap-system?version=Cloud)\) and the subject name identifier configured in the Identity Authentication application \(see [Configure the Subject Name Identifier Sent to the Application](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/1d020e3a3ba34c43a71fde70bfa6419a.html?version=Cloud)\): If `login_attribute = email` is used, the email address at employee level needs to be maintained for identity federation to work, if login\_attribute = user\_name is configured, the username on business user level needs to match the login name provided in the identity authentication user.
+
 
 
 <a name="loioef52a682060c4051a0645f4ecc5859d0__section_bq1_xms_xsb"/>

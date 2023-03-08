@@ -24,17 +24,15 @@ With the checkbox *Health Monitoring* selected, you can also automatically expor
 
 ## Procedure
 
-1.  Log on to the SAP Fiori Launchpad.
+1.  On the SAP Fiori launchpad of your ABAP environment, search for the *Capture Request Statistics* app.
 
-2.  Choose the *Capture Request Statistics* app.
-
-3.  Choose *Create* and enter the basic header information for the profile.
+2.  Choose *Create* and enter the basic header information for the profile.
 
     If you want to export the number of capture request statistics to SAP Cloud ALM, select the *Health Monitoring* checkbox.
 
     For more information about how to fill out the individual fields in the header, see the built-in SAP Companion documentation.
 
-4.  To define a filter for high outbound calling times, choose *Create* and enter the following data:
+3.  To define a filter for high outbound calling times, choose *Create* and enter the following data:
 
 
     <table>
@@ -123,11 +121,11 @@ With the checkbox *Health Monitoring* selected, you can also automatically expor
     </tr>
     </table>
     
-5.  Choose *Create* to save the filter and go back to the header data.
+4.  Choose *Create* to save the filter and go back to the header data.
 
     If you don't want to filter for any specific communication arrangement, you can stop defining filters here and activate your capture profile. The app will then capture any service request that makes at least one outbound RFC, HTTP, or Web consumer call and whose **total** calling time for all calls of each type exceeds the defined threshold.
 
-6.  To define a filter for a specific communication arrangement, choose *Create* and enter the following data:
+5.  To define a filter for a specific communication arrangement, choose *Create* and enter the following data:
 
 
     <table>
@@ -215,12 +213,12 @@ With the checkbox *Health Monitoring* selected, you can also automatically expor
     
     ![](images/Capture_Expensive_Outbound_Communication_d27be64.png)
 
-7.  Choose *Create* to save the filter and go back to the header data.
+6.  Choose *Create* to save the filter and go back to the header data.
 
     Optionally, you can define more filters for additional communication arrangements.
 
     If you have also defined filters for communication arrangements, the *Capture Request Statistics* app will then only consider the service requests for the communication arrangements in the filters. In addition, data for a request using one of these communication arrangements is only captured if the total of at least one of the request's outbound RFC, HTTP, or Web consumer calls exceeds the defined threshold for the calling time.
 
-8.  Activate the capture profile.
+7.  Activate the capture profile.
 
 

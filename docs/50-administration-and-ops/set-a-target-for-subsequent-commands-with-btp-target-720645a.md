@@ -30,6 +30,11 @@ Usage: `btp [OPTIONS] target [PARAMS]`
 1.  Use `btp target` to set the target for subsequent commands.
 
     -   Run the command without parameters to see the children, siblings and parent of you current target. You can then select your target or navigate up and down.
+    -   Enter `--hierarchy` as parameter to see all your global accounts with their entire account hierarchies. You can then select your target from this list.
+
+        > ### Tip:  
+        > If you like the `--hierarchy` parameter and would like to make it the default for the target command, you can define it as a configuration setting with `btp set config --target.hierarchy true`. If you then run `btp target`, the entire hieraryh of all your global accounts is shown.
+
     -   Specify the subaccount, directory, or global account you want to target as described in the next step.
 
 2.  Enter one of the following parameters:
@@ -109,7 +114,7 @@ Usage: `btp [OPTIONS] target [PARAMS]`
 
 ## Results
 
-The CLI client displays the current target as a hierarrchy. To execute a command in the targeted entity, you can omit the corresponding parameter.
+The CLI client displays the current target as a hierarchy. To execute a command in the targeted entity, you can omit the corresponding parameter.
 
 
 

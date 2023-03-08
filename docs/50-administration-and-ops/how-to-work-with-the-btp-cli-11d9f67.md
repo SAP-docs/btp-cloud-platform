@@ -38,13 +38,29 @@ btp enable autocomplete
 btp disable autocomplete
 ```
 
+```
+btp list config
+```
+
+```
+btp set config
+```
+
+```
+btp reset config
+```
+
 
 
 <a name="loio11d9f67d2c68485ca2f435b955d3b85b__section_pdm_xg3_xkb"/>
 
-## General Options for Each Command
+## Options for Each Command
 
-The following options are available for each command. They need to be typed right after the base call `btp`, and they can be combined \(for example, `btp --verbose --help list accounts/subaccount`. The `--help` option also works at the end of a command call.
+The following options are available for each command. They need to be typed right after the base call `btp`, and they can be combined \(for example, `btp --verbose --help list accounts/subaccount`\). The `--help` option also works at the end of a command call.
+
+```
+btp [OPTIONS] ACTION GROUP/OBJECT [PARAMS]
+```
 
 
 <table>
@@ -124,6 +140,8 @@ Displays help. See [Get Help](get-help-f8fd1e5.md).
 
 Prints tracing information for support. See [Troubleshooting and Support](troubleshooting-and-support-4023e15.md).
 
+To set the command output to verbose persistently, you can change the configuration settings with `btp set config --verbose true`. See [Change Configuration Settings](change-configuration-settings-dba4eb6.md).
+
 
 
 </td>
@@ -139,6 +157,8 @@ Prints tracing information for support. See [Troubleshooting and Support](troubl
 <td valign="top">
 
 Changes the output format of a command to JSON. See [Change the Output Format to JSON](change-the-output-format-to-json-dcb85b7.md).
+
+To set the command output to json persistently, you can change the configuration settings with `btp set config --format json`. See [Change Configuration Settings](change-configuration-settings-dba4eb6.md).
 
 
 

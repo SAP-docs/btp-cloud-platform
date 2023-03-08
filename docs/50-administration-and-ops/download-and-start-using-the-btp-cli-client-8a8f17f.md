@@ -17,13 +17,13 @@ The client is available for 64-bit versions of the following operating systems:
 -   Linux \(amd64 and arm64\)
 
 
-Each released client version is supported for at least a year, and if a client is deprecated, you are notified at least six months before it stops working in the [What's New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%20BTP%20Command%20Line%20Interface&locale=en-US&version=Cloud) page on SAP Help Portal \(filter for *SAP BTP Command Line Interface\)* as well as in the client itself. Most of the updates to the btp CLI don't require a new client installation, but are made available through updates of the btp CLI server, so that you can use them in your installed version of the client.
+Each released client version is supported for at least a year. If a client is deprecated, you are notified six months before it stops working in the [What's New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%20BTP%20Command%20Line%20Interface&locale=en-US&version=Cloud) page on SAP Help Portal \(filter for *SAP BTP Command Line Interface\)* as well as in the client itself. Most of the updates to the btp CLI don't require a new client installation, but are made available through updates of the btp CLI server, so that you can use them in your installed version of the client.
 
 
 
 ## Procedure
 
-1.  Download the appropriate client for your operating system from [SAP Development Tools](https://tools.hana.ondemand.com/#cloud-btpcli) or use the direct links to the latest version below. They are tar.gz archives that contain one executable file.
+1.  Download the appropriate client for your operating system from [SAP Development Tools](https://tools.hana.ondemand.com/#cloud-btpcli) or use the links in the table below. They are tar.gz archives that contain one executable file.
 
 
     <table>
@@ -117,7 +117,7 @@ Each released client version is supported for at least a year, and if a client i
 
 5.  Run `btp` in your terminal. Note that you need read and write permissions in the target folder to run this executable.
 
-6.  Log in to your global account with `btp login`, which is interactive and will prompt for all required login information. Note that you need to enter the btp CLI server url \(`https://cpcli.cf.eu10.hana.ondemand.com`\) and the **subdomain of the global account** to log in. You can find this global account subdomain in the global account view in the cockpit. If you have more than one global account, see the *Switch Global Account* dialog. For details, see [Log in](log-in-e241b30.md).
+6.  Log in to your global account with `btp login` or `btp login --sso`. The login flow is interactive and will prompt for all required information. Note that you need to confirm the btp CLI server url \(`https://cpcli.cf.eu10.hana.ondemand.com`\) and, if you have more than one, select your global account. For details, see [Log in](log-in-e241b30.md).
 
 7.  Once you're logged in, familiarize yourself with the btp CLI, for example with [How to Work with the btp CLI](how-to-work-with-the-btp-cli-11d9f67.md), [Command Syntax of the btp CLI](command-syntax-of-the-btp-cli-69606f4.md), or simply by trying out a few commands, such as the following:
 

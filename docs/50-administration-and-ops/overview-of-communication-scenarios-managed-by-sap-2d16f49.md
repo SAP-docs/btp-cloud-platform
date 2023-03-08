@@ -187,14 +187,14 @@ Custom Code Migration Integration \(SAP\_COM\_0464\).
 <tr>
 <td valign="top">
 
-Printing - Pull Integration \(SAP\_COM\_0466
+Printing - Pull Integration \(SAP\_COM\_0466\)
 
 
 
 </td>
 <td valign="top">
 
- 
+[Configuring the SAP Cloud Print Manager for Pull Integration](https://help.sap.com/docs/btp/sap-business-technology-platform/configuring-sap-cloud-print-manager-for-pull-integration?version=Cloud)
 
 
 
@@ -322,7 +322,7 @@ SAP BTP Transport Management - Outbound Integration \(SAP\_COM\_0599\)
 </td>
 <td valign="top">
 
- 
+[Manage Software Components](https://help.sap.com/docs/btp/sap-business-technology-platform/manage-software-components)
 
 
 
@@ -434,7 +434,7 @@ Security Information and Event Management Integration \(SIEM\) \(SAP\_COM\_0750
 </td>
 <td valign="top">
 
- 
+[Security Audit Log Integration](https://help.sap.com/docs/btp/sap-business-technology-platform/security-audit-log-integration?version=Cloud)
 
 
 
@@ -466,39 +466,7 @@ Factory Calendar - Pull Integration \(SAP\_COM\_0834\)
 </td>
 <td valign="top">
 
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
+[How to export using SAP Cloud Transport Management](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-export-using-ctms?state=DRAFT&q=how%20to%20export%20using%20)
 
 
 

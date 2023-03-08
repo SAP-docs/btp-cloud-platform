@@ -31,6 +31,10 @@ requires:
       - name: xsuaa
       - name: saas-registry
       - name: abap-solution
+        parameters:
+          config:
+           abap_endpoint_timeout: 6000
+
 
 ```
 

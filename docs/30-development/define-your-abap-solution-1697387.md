@@ -343,7 +343,7 @@ Follow these steps to define your ABAP Solution.
     <tr>
     <td valign="top">
 
-    tenant\_mode
+    tenant\_mode \(optional\)
 
 
     
@@ -551,12 +551,53 @@ Follow these steps to define your ABAP Solution.
     
     </td>
     </tr>
+    </table>
+    
+    **Specify the following service binding parameters:**
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Name
+
+
+    
+    </th>
+    <th valign="top">
+
+    Data Type
+
+
+    
+    </th>
+    <th valign="top">
+
+    Description
+
+
+    
+    </th>
+    <th valign="top">
+
+    Purpose
+
+
+    
+    </th>
+    <th valign="top">
+
+    Updatable
+
+
+    
+    </th>
+    </tr>
     <tr>
     <td valign="top">
 
-    abap\_endpoint\_timeout
-
-    \(optional\)
+    abap\_endpoint\_timeout \(optional\)
 
 
     

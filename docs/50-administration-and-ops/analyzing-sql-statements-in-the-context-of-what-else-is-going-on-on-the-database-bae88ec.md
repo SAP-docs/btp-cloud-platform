@@ -23,31 +23,21 @@ Once you've identified expensive SQL statements, which you would like to analyze
 
 ## Procedure
 
-1.  Log on to the SAP Fiori launchpad of your ABAP environment.
+1.  On the SAP Fiori launchpad of your ABAP environment, search for *SQL Statement Analysis*.
 
-2.  In the group *Technical Monitoring*, choose the tile *SQL Statement Analysis*.
+    The technical monitoring cockpit opens with the *SQL Statement Analysis* screen.
 
-    ![](images/SAP_Fiori_Launchpad_SQL_Statement_Analysis_2a1382a.png)
-
-    The screen *SQL Statement Analysis* opens on the leftmost tab page *Plan Cache*. There, you get performance information on the top 25 SQL statements by total execution time in the last 24 hours.
-
-    ![](images/Plan_Cache_cda4662.png)
-
-    Note that the percentage *Share of Total Execution Time* is always based on the overall sum of total execution time of SQL statements on the SAP HANA database for the selected time range, regardless of how you apply further filters. Hence, it allows you to judge the absolute relevance of the execution-time footprint of your statement.
-
-    The UI philosophy of the *SQL Statement Analysis* screen is: With each move to a tab page to the right, you get more information about what you've selected on the previous tabs to the left.
-
-3.  Use the sorting and filtering functions of the technical monitoring cockpit to get what you want:
+2.  Use the sorting and filtering functions of the technical monitoring cockpit to get what you want:
 
     If the statement you want to analyze isn't among the 25 most expensive statements in the last 24 hours, use sorting, filtering, or the time slider to find it. For example, you can change the time period, set filters on the statement string, or sort by another metric to highlight other aspects of SQL statement execution. On the *Plan Cache* tab page, you can also display more SAP HANA plan cache characteristics and metrics than shown by default by choosing *Characteristics* or *Metrics* and following the selection dialog.
 
     Once you've found your statement in the list, you can put the performance of your statement into perspective. Compare it to other statements appearing in the list, but also against the accumulated performance of all the rest of the statements matching your filter criteria. The accumulated performance of all statements not matching your filter criteria is subsumed in the bottom row, labeled with the statement string *R*.
 
-4.  Choose the statement that you are interested in.
+3.  Choose the statement that you are interested in.
 
     As a result, all subsequent tabs to the right of *Plan Cache* now contain detailed information on the statement that you have selected.
 
-5.  Choose the *Analysis* tab page to see how your statement’s execution performance has developed over time.
+4.  Choose the *Analysis* tab page to see how your statement’s execution performance has developed over time.
 
     On the screen area *Access Plans for Selected Statement*, you can see whether your statement has entered the HANA plan cache with different plan IDs in the selected time range. The bottom row, labeled with plan ID *T*, shows you the metrics totals, that is, the aggregated values.
 
@@ -61,7 +51,7 @@ Once you've identified expensive SQL statements, which you would like to analyze
 
     If you want to go further into detail from here, you can use the tabs *SQL Statement*, *Cached Plan*, *Prepared Plan*, and *Executed Plan*, which are mostly independent of each other. You can, for example, jump from here directly to the calculation of an executed access plan for your statement. However, we follow here the order of the tabs in the program.
 
-6.  Choose the *SQL Statement* tab page to get a decent view of your selected SQL statement, pretty-printed and with syntax highlighting.
+5.  Choose the *SQL Statement* tab page to get a decent view of your selected SQL statement, pretty-printed and with syntax highlighting.
 
     The *Application Sources* dropdown list shows you the list of ABAP code locations \(if available\) where the SQL statement originated from in the selected time range. Choose an ABAP location from the list and choose one of the *Show ABAP Source in …* buttons to display the ABAP source in the web browser or ABAP Development Tools.
 
@@ -69,11 +59,11 @@ Once you've identified expensive SQL statements, which you would like to analyze
 
     Note that the SQL statement analysis doesn't support SQL query parameters.
 
-7.  Choose the *Cached Plan* tab page to display and analyze the prepared plan that has been calculated when your SQL statement entered the HANA plan cache with the selected Plan ID from tab page *Analysis*.
+6.  Choose the *Cached Plan* tab page to display and analyze the prepared plan that has been calculated when your SQL statement entered the HANA plan cache with the selected Plan ID from tab page *Analysis*.
 
-8.  Choose the *Prepared Plan* tab page to display and analyze a newly calculated prepared access plan for your SQL statement.
+7.  Choose the *Prepared Plan* tab page to display and analyze a newly calculated prepared access plan for your SQL statement.
 
-9.  Choose the *Executed Plan* tab page to display and analyze a newly calculated executed access plan for your SQL statement.
+8.  Choose the *Executed Plan* tab page to display and analyze a newly calculated executed access plan for your SQL statement.
 
     You can also download the PlanViz \(PLV\) file of the executed access plan containing the comprehensive plan information to display it with other SAP HANA plan visualizing tools like HANA SQL Analyzer.
 

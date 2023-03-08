@@ -25,7 +25,7 @@ For the ABAP environment, you need a Cloud Foundry subaccount as a technical env
 
 2.  Specify a display name, for example, ***ABAP***.
 
-3.  Enter a description.
+3.  **Optional:** Enter a description.
 
 4.  Leave the *Neo Environment* checkbox deselected.
 

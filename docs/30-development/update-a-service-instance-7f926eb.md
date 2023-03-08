@@ -10,6 +10,9 @@ You can update a service instance from the `xsuaa` service using the service bro
 
 You are running a service instance that grants user access to an application. It uses the security descriptor file `xs-security.json`. If you change properties, for example, you want to reflect the compatible changes you made in the `xs-security.json` file in an existing service instance.
 
+> ### Restriction:  
+> If you define or update role templates and attributes in the `xs-security.json` file, observe the following configuration restrictions in [**Relationship Between ***default-values*** of ***attribute-references*** and ***valueRequired*****](https://help.sap.com/docs/btp/sap-business-technology-platform/application-security-descriptor-configuration-syntax#loio517895a9612241259d6941dbf9ad81cb__section_c1n_jfd_tkb).
+
 
 
 ## Procedure

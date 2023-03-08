@@ -289,7 +289,7 @@ Assign entitlements to directories by adding service plans and distribute the qu
     
 7.  Once you're done, choose *Save* to save the changes and exit edit mode for that directory.
 
-8.  Repeat steps 5 to 7 to configure entitlements for the other directories selected.
+8.  **Optional:** Repeat steps 5 to 7 to configure entitlements for the other directories selected.
 
 
 **Related Information**  

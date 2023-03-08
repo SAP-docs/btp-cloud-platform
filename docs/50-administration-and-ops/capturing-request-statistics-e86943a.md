@@ -18,7 +18,7 @@ You can view the captured data from all profiles in the technical monitoring coc
 
 ## Procedure
 
-1.  In the SAP Fiori launchpad of the ABAP environment, under *Technical Monitoring*, choose the *Capture Request Statistics* tile.
+1.  On the SAP Fiori launchpad of your ABAP environment, search for the *Capture Request Statistics* app.
 
     The *Capture Request Statistics* app opens.
 

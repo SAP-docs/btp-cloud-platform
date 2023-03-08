@@ -39,7 +39,7 @@ You create subaccounts in your global account. Once you create a new subaccount,
 
 2.  Specify a display name.
 
-3.  Enter a description.
+3.  **Optional:** Enter a description.
 
 4.  Leave the *Neo Environment* checkbox deselected. This ensures that a multi-environment subaccount is created.
 
@@ -52,14 +52,14 @@ You create subaccounts in your global account. Once you create a new subaccount,
     > 
     > The subdomain can't be changed once you have created the subaccount.
 
-7.  If your subaccount is to be used for production purposes, select the *Used for production* option.
+7.  **Optional:** If your subaccount is to be used for production purposes, select the *Used for production* option.
 
     > ### Note:  
     > This does not change the configuration of your subaccount. Use this flag for your internal use to operate your production subaccounts in your global account and systems more efficiently. Your cloud operator may also use this flag to take appropriate action when handling incidents related to mission-critical accounts in production systems.
     > 
     > You can change your selection at any time by editing the subaccount properties. Do not select this option if your account is used for non-production purposes, such as development, testing, and demos.
 
-8.  To use beta services and applications in the subaccount, select *Enable beta features*.
+8.  **Optional:** To use beta services and applications in the subaccount, select *Enable beta features*.
 
     > ### Caution:  
     > You shouldn't use SAP BTP beta features in subaccounts that belong to productive enterprise accounts. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).
@@ -123,7 +123,7 @@ You create subaccounts in your global account. Once you create a new subaccount,
 
 3.  Specify a display name.
 
-4.  Enter a description.
+4.  **Optional:** Enter a description.
 
 5.  Enter a subdomain for your subaccount. This will become part of the URL for accessing applications that you subscribe to from this subaccount.
 
@@ -141,7 +141,7 @@ You create subaccounts in your global account. Once you create a new subaccount,
     > 
     > You can change your selection at any time by editing the subaccount properties. Do not select this option if your account is used for non-production purposes, such as development, testing, and demos.
 
-9.  To use beta services and applications in the subaccount, under *Advanced*, select *Enable beta features*.
+9.  **Optional:** To use beta services and applications in the subaccount, under *Advanced*, select *Enable beta features*.
 
     > ### Caution:  
     > You shouldn't use SAP BTP beta features in subaccounts that belong to productive enterprise accounts. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).
@@ -149,7 +149,7 @@ You create subaccounts in your global account. Once you create a new subaccount,
     > ### Note:  
     > Once you have enabled this setting in a subaccount you cannot disable it.
 
-10. Under *Advanced* \> *Labels*, assign labels to the subaccount to make organizing and filtering your subaccounts easier. For more information, see [Labels \[Feature Set B\]](../10-concepts/account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
+10. **Optional:** Under *Advanced* \> *Labels*, assign labels to the subaccount to make organizing and filtering your subaccounts easier. For more information, see [Labels \[Feature Set B\]](../10-concepts/account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
 
     > ### Tip:  
     > -   When adding multiple values to a label, press [Enter\] after each value.

@@ -60,6 +60,7 @@ You can deploy your content to the HTML5 Application Repository using the GACD \
     > modules:
     >  - name: ui_deployer
     >    type: com.sap.application.content
+    >    path: deployer/ 
     >    requires:
     >     - name: uideployer_html5_repo_host
     >       parameters:

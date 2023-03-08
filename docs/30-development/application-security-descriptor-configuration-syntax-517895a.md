@@ -785,7 +785,7 @@ The role templates referenced by the `role collections` property
 
 `$XSAPPNAME.Employee`
 
-Syntax`$XSAPPNAME(<service_plan>,<xsappname>)`
+Syntax<code>$XSAPPNAME(<i class="varname">&lt;service_plan&gt;</i>,<i class="varname">&lt;xsappname&gt;</i>)</code>
 
 > ### Example:  
 > `$XSAPPNAME(application,myapp2)`
@@ -923,12 +923,12 @@ Example
 </td>
 <td valign="top">
 
-Sets the token lifetime in seconds for access tokens issued by SAP Authorization and Trust Management service. The value ranges from 300 seconds to 99,999,999 seconds, in other words, from 5 minutes to more than 3 years.
+Sets the token lifetime in seconds for access tokens issued by SAP Authorization and Trust Management service. The value ranges from 60 seconds to 86400 seconds, in other words, from 1 minute to 24 hours.
 
 Default: 43200 seconds \(12 hours\)
 
 > ### Recommendation:  
-> Relaxing the token policy means that users reauthenticate less. However, increasing the token validity also means that if a malicious user manages to steal a token, that malicious user has access until the token expires. Keep token validity as short as possible, but not less than 30 minutes.
+> Relaxing the token policy means that users reauthenticate less. However, increasing the token validity also means that if a malicious user manages to steal a token, that malicious user has access until the token expires. Keep token validity in the subaccount as short as possible, but not less than 30 minutes.
 
 > ### Note:  
 > This change applies to applications, which consume or subscribe to this instance. These values override the values set for the subaccount.
@@ -956,9 +956,9 @@ Default: 43200 seconds \(12 hours\)
 </td>
 <td valign="top">
 
-Sets the token lifetime in seconds for refresh tokens issued by SAP Authorization and Trust Management service. The value ranges from 600 seconds to 99,999,999 seconds, in other words, from 10 minutes to more than 3 years.
+Sets the token lifetime in seconds for refresh tokens issued by SAP Authorization and Trust Management service. The value ranges from 60 seconds to 31536000 seconds, in other words, from 1 minute to 1 year.
 
-Default: 24192000 seconds \(28 days\)
+Default: 604800 seconds \(7 days\)
 
 
 
@@ -1049,7 +1049,7 @@ You can also have the service include a refresh token of a trusted identity prov
 
 For more information, see [Include Tokens from Corporate Identity Providers or Identity Authentication in Tokens of the SAP Authorization and Trust Management Service](include-tokens-from-corporate-identity-providers-or-identity-authentication-in-tokens-of-8dc480a.md).
 
-Values:
+**Values:**
 
 -   ***"groups"*** includes the `xs.saml.groups` attribute.
 
@@ -1536,33 +1536,6 @@ A default role with default values is generated automatically. Administrators do
 <tr>
 <td valign="top">
 
-A default role can't be created automatically. Administrators must set attribute values for their roles.
-
-
-
-</td>
-<td valign="top">
-
-No `default-values` element
-
-
-
-</td>
-<td valign="top">
-
-```
-"valueRequired" : true
-```
-
-or no `valueRequired` key at all
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 A default role is generated automatically. Administrators don't have to set attribute values for their roles. A role that isn't restricted by attributes \(unrestricted\) is created.
 
 
@@ -1586,6 +1559,18 @@ No `default-values` element
 </td>
 </tr>
 </table>
+
+> ### Restriction:  
+> When you define role templates and attributes, observe the following configuration restriction:
+> 
+> -   Do not add `attribute-references` without `default-values`, where `attribute` is defined with `"valueRequired" : true`.
+> 
+> 
+> When you update role templates and attributes, observe the following configuration restrictions:
+> 
+> -   Do not change `default-values` of `attribute-references`.
+> 
+> -   Do not change the `"valueRequired"` property from `false` to `true`.
 
 **Related Information**  
 

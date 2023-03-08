@@ -61,7 +61,7 @@ In the Kyma environment, you can switch at runtime to a chosen external registry
     >    registryAddress: {VALUE
     > ```
 
-2.  To make sure that your Namespace configuration is not overridden by any cluster-wide configuration, add the label `serverless.kyma-project.io/managed-by: user` to the Secret CR.
+2.  **Optional:** To make sure that your Namespace configuration is not overridden by any cluster-wide configuration, add the label `serverless.kyma-project.io/managed-by: user` to the Secret CR.
 
 
 **Related Information**  

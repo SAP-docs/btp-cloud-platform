@@ -43,7 +43,7 @@ The appearance of the UI can be modified by selecting the rows to be displayed o
 
 ## SAP Audit Log Viewer service Subscription
 
-To use the SAP Audit Log Viewer service, subscribe for it using the SAP BTP cockpit in the *Subscriptions* tab of your subaccount. Once you're subscribed, select *Go to Application* to open the SAP Audit Log Viewer service and log in there.
+To use the SAP Audit Log Viewer service, subscribe to it using the SAP BTP cockpit in the *Services* \> *Instances and Subscriptions* \> *Subscriptions* tab of your subaccount. Once you're subscribed, select *Go to Application* to open the SAP Audit Log Viewer service and log in there.
 
 
 

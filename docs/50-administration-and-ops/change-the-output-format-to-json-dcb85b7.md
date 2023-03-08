@@ -12,6 +12,9 @@ The standard output format of the btp CLI is plain text, formatted in a way that
 
 If you're using responses of the btp CLI for automation, such as in scripts, we recommend the JSON output format, as JSON is a data format that can be parsed by most programming languages. The JSON output is much more stable than the plain text output and it often includes more information in the JSON response than the respective text output. Because it is optimized for post-processing, it doesn't inlude non-essential information such as an OK at the end of a successful call.
 
+> ### Tip:  
+> To set the command output to json persistently, you can change the configuration settings with `btp set config --format json`. This makes using the `--format json` option obsolete. See [Change Configuration Settings](change-configuration-settings-dba4eb6.md).
+
 See this [Getting BTP resource GUIDs with the btp CLI](https://blogs.sap.com/2021/12/01/getting-btp-resource-guids-with-the-btp-cli-part-2-json-and-jq/) blog post for some examples.
 
 
@@ -93,4 +96,9 @@ btp list --format json accounts/subaccount
   ]
 } 
 ```
+
+**Related Information**  
+
+
+[Change Configuration Settings](change-configuration-settings-dba4eb6.md "Change the configuration settings to customize the behavior of the btp CLI.")
 

@@ -100,6 +100,9 @@ Role template
     -   `attribute-references` \(can be deleted only\)
 
 
+> ### Restriction:  
+> When you define or update role templates and attributes, observe the following configuration restrictions in [**Relationship Between ***default-values*** of ***attribute-references*** and ***valueRequired*****](https://help.sap.com/docs/btp/sap-business-technology-platform/application-security-descriptor-configuration-syntax#loio517895a9612241259d6941dbf9ad81cb__section_c1n_jfd_tkb).
+
 
 
 </td>

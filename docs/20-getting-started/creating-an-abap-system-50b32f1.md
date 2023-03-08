@@ -55,7 +55,9 @@ For more information about creating service instances, see [Create Service Insta
 9.  Provide additional instance parameters for the configuration by either using the default **form** or by uploading a **JSON file** from your computer or by specifying the parameters in JSON format.
 
     > ### Note:  
-    > The admin email address is used to create the initial user for the ABAP system automatically, including the assignment of the administrator role to this user. You can access the ABAP environment system only with this specified user.
+    > The admin email address is used to create the initial user for the ABAP system automatically, including the assignment of the administrator role to this user. You can access the ABAP environment system only with this specified user. By default, the email address is used as subject name identifier.
+    > 
+    > Using email address as subject name identifier might not be possible if e-mail addresses is ambiguous across users or the trusted identiy provider configured for authentication in the ABAP Environment instance’s subaccount already is configured with subject name identifier Login Name. You can then change login\_attribute to user\_name via the parameter and in addition also provide the user name for the initial user in parameter admin\_user\_name.
     > 
     > The ABAP system description is optional.
     > 

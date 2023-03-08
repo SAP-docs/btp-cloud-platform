@@ -179,7 +179,7 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
     
 7.  Once you're done, choose *Save* to save the changes and exit edit mode for that subaccount.
 
-8.  Repeat steps 5 to 7 to configure entitlements for the other subaccounts selected.
+8.  **Optional:** Repeat steps 5 to 7 to configure entitlements for the other subaccounts selected.
 
 
 **Related Information**  

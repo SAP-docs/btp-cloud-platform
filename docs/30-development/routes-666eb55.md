@@ -354,7 +354,15 @@ No
 </td>
 <td valign="top">
 
-The value can be “`xsuaa`”, “`basic`” or “`none`”. The default value is “`xsuaa`”. When “`xsuaa`” is used, the specified UAA server handles the authentication \(the user is redirected to the UAA's logon form\). If “`none`” is used then no authentication is needed for this route.
+The value can be `ias`, `xsuaa`, `basic`, or `none`.
+
+The default `authenticationType` depends on the authentication service binding: If the application router is bound to the Identity Authentication service, the default `authenticationType` is `ias`. Otherwise, the default value is `xsuaa`.
+
+If you use the value `xsuaa` or `ias`, the specified authentication server \(Identity Authentication or User Account and Authentication\) handles the authentication and the user is redirected to the login form of Identity Authentication or User Account and Authentication.
+
+The `basic` authenticationType works with SAP S/4 HANA users, SAP ID service, and Identity Authentication service. For more information, see the SAP Note 3015211 - BASIC authentication options for SAP BTP Cloud Foundry applications.
+
+If the value `none` is used, no authentication is required for this route.
 
 
 

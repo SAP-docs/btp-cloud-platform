@@ -2,7 +2,7 @@
 
 # Get Updates
 
-We recommend updating the CLI client from time to time to ensure that you can always use all new features.
+Updating the btp CLI client is essentially replacing the old executable file with a newer version.
 
 
 
@@ -10,7 +10,7 @@ We recommend updating the CLI client from time to time to ensure that you can al
 
 ## Context
 
-Updating the btp CLI client is essentially replacing the old executable file with a newer version. The [What's New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%20BTP%20Command%20Line%20Interface&locale=en-US&version=Cloud) page on SAP Help Portal announces new features and informs you if you need a client update to use them. In addition, the client itself displays a message if you need an update.
+Each btp CLI client version is supported for at least a year after its release. The [What's New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%20BTP%20Command%20Line%20Interface&locale=en-US&version=Cloud) page on SAP Help Portal announces new features and informs you if you need a client update to use them. In addition, the client itself displays a message if you need an update.
 
 To find out the version of the CLI client you are using, run `btp --info` or simply `btp`.
 

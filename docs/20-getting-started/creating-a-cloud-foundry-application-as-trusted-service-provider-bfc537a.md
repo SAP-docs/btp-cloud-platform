@@ -49,14 +49,66 @@ Import the SAML service provider metadata from the Cloud Foundry environment to 
 
 ## Configuring the Subject Name Identifier Sent to Cloud Foundry
 
-Configure the subject name identifier that the Identity Authentication service \(as identity provider\) sends to Cloud Foundry. Use the email address as user identifier for the Cloud Foundry account.
+Configure the subject name identifier that the Identity Authentication service \(as identity provider\) sends to Cloud Foundry.
 
 1.  Under *Applications*, choose the entry for the Cloud Foundry application.
 
 2.  Choose *Subject Name Identifier*.
 
-3.  Choose *Basic Configuration* and select *E-Mail* from the dropdown list.
+3.  Choose the subject name identifier that matches the login\_attribute chosen during ABAP system provisioning.
 
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    ABAP login\_attribute
+
+
+    
+    </th>
+    <th valign="top">
+
+    SAP Cloud Identity Services Subject Name Identifier
+
+
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    email \(default\)
+
+
+    
+    </td>
+    <td valign="top">
+
+    email
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    user\_name
+
+
+    
+    </td>
+    <td valign="top">
+
+    login name
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
 4.  Choose *Save*.
 
 
@@ -66,14 +118,13 @@ Configure the subject name identifier that the Identity Authentication service \
 
 ## Configuring the Default Name ID Format for the Cloud Foundry Application \(Optional\)
 
-Optionally, you can configure the default name ID attribute of the identity provider for Cloud Foundry. Use the email address as user identifier for the Cloud Foundry account.
+Optionally, you can configure the default name ID attribute of the identity provider for Cloud Foundry.
 
 1.  Under *Applications*, choose the entry for the Cloud Foundry application in the Identity Authentication service.
 
 2.  Choose *Default Name ID Format*.
 
-3.  Choose the *E-Mail* radio button.
-
+3.  Choose the default name ID format that matches your subject name identifier configuration. If you use email as subject name identifier, choose email as default name ID format. In other cases, choose unspecified.
 4.  Choose *Save*.
 
 
