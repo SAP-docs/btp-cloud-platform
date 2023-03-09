@@ -1,12 +1,12 @@
 <!-- loio1f04ad22db0147b99ebc476708b749b6 -->
 
-# Defining the Job Template
+# Creating the Job Template
 
-The creation of a Job Template follows the same technical rules as a Job Catalog Entry as described in [Defining the Job Catalog Entry](defining-the-job-catalog-entry-1cff59e.md).
+An *Application Job Template* refers to an application job catalog entry and contains values for some or all selection fields. It can be thought of as a variant of an application job catalog. In the simplest case, a job template doesn't contain any values for the selection fields. In this case, the selection fields are prefilled with their initial values \(such as 0 if the selection field is of type integer\). An application job catalog entry can have more than one application job template. The job template is the entity that can be scheduled in the *Application Jobs* app. In the scheduling dialog, the selection fields appear and are prefilled with the values defined in the template. They can be overwritten by the user. Scheduling an application job template then results in an application job.
 
-The Job Template represents a set of default parameters for the assigned Job Catalog Entry. The Job Template is mandatory for the Fiori app Application Jobs to choose a job definition to be executed. A Job Catalog Entry can have more than one Job Template.
+The creation of a job template follows the same technical rules as a *Job Catalog Entry* as described in [Creating the Job Catalog Entry](creating-the-job-catalog-entry-1cff59e.md).
 
-The following code example shows a console application that generates the minimal number of required development objects: One Job Catalog Entry and one related Job Template.
+The following code example shows a console application that generates the minimal number of required development objects: One *Job Catalog* entry and one related *Job Template*.
 
 > ### Sample Code:  
 > ```abap
