@@ -134,7 +134,7 @@ Each released client version is supported for at least a year. If a client is de
     ```
 
     ```
-    btp get accounts/global-account"
+    btp get accounts/global-account
     ```
 
     > ### Tip:  
