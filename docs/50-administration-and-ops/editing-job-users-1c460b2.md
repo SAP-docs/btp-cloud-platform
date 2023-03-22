@@ -12,6 +12,8 @@ Find out how to change the user of your application job, or delete your job.
 
 Before changing the user of a job, ensure that the target user has the correct authorizations to run the job. Otherwise, the job will fail.
 
+To be able to see the app, make sure that the target user is assigned to a business role that has the business catalog `SAP_CORE_BC_APJ_USR_PC` included.
+
 
 
 <a name="loio1c460b218664442caf28d34348284fdb__section_kww_jhv_fsb"/>

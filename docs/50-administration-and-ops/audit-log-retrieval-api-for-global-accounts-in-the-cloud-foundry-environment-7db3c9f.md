@@ -21,14 +21,12 @@ Retrieving of audit logs via Audit Log Retrieval API is limited to the size of t
 
 You do this procedure through Cloud Foundry Environment, which is part of a subaccount. To enable Audit Log Retrieval API for Global Account \(Feature Set B\), you must perform the following steps as a global account administrator:
 
-1.  To entitle your global account with plan central for service Auditlog Management, choose *Manage Accounts* entry from the left-hand side menu in the control center.
-
-2.  You need to have one or more subaccounts in the Central region<sup>\(1\)</sup>. Create one if needed.
+1.  You need to have one or more subaccounts in the Central region<sup>\(1\)</sup>. Create one if needed.
 
     > ### Note:  
     > ALL space developer users can access the service instance in the subaccount where it's entitled. To restrict access to your global account audit logs we recommend, you create a new subaccount in the Central regions<sup>\(1\)</sup> and add only users eligible to read global account audit logs to it.
 
-3.  Follow the steps to entitle one or more of your subaccounts with the central plan of service Auditlog Management:
+2.  Follow the steps to entitle one or more of your subaccounts with the central plan of service Auditlog Management:
     1.  Navigate to your global account.
 
     2.  Choose *Entitlements* \> *Entity Assignments* from the left-hand side menu.
@@ -48,7 +46,7 @@ You do this procedure through Cloud Foundry Environment, which is part of a suba
     9.  Choose *Add 1 Service Plan*.
     10. Choose *Save* and exit edit mode for that subaccount.
 
-4.  To execute the procedure, you need to have the `Space Developer` role for the corresponding Space.
+3.  To execute the procedure, you need to have the `Space Developer` role for the corresponding Space.
 
 
 > ### Note:  

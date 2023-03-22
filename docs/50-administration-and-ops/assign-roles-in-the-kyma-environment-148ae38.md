@@ -10,15 +10,16 @@ Kyma uses roles to manage access within the cluster, which give the assigned use
 
 ## Prerequisites
 
-The **cluster-admin** role is assigned to your account.
+The `cluster-admin` role is assigned to your account.
+
+> ### Note:  
+> After creating a Kyma cluster, you become an admin of this instance and the `cluster-admin` role is assigned to you by default. As the `cluster-admin`, you can assign roles to other users. Only the administrator who created the current subaccount can use the SAP BTP cockpit to assign the `cluster-admin` role to other members.
 
 
 
 <a name="loio148ae38b7d6f4e61bbb696bbfb3996b2__context_lrm_lv2_hsb"/>
 
 ## Context
-
-After creating a Kyma cluster, you become an admin of this instance and the **cluster-admin** role is assigned to you by default. As the **cluster-admin**, you can assign roles to other users.
 
 
 
@@ -52,7 +53,7 @@ After creating a Kyma cluster, you become an admin of this instance and the **cl
 
 ## Results
 
-The users have the required permissions within the specified Namespace. If the users do not have additional Cluster Role Binding to list the Namespaces, they can still access the Kyma Dashboard overview but must enter the required Namespace name manually.
+The users have the required permissions within the specified Namespace. If the users don't have additional Cluster Role Binding to list the Namespaces, they can still access the Kyma Dashboard overview but must enter the required Namespace name manually.
 
 
 
@@ -60,7 +61,7 @@ The users have the required permissions within the specified Namespace. If the u
 
 ## Next Steps
 
-If the permissions of the role are not sufficient, the role can be cloned and missing resources can be added.
+If the permissions of the default role aren't sufficient, clone the role and add the missing resources.
 
 **Related Information**  
 

@@ -38,7 +38,7 @@ Following the procedure, you create an inbound communication arrangement.
 6.  To assign a communication system, proceed as follows:
 
     -   Assign an existing communication system by selecting a *Communication System*. You can ignore the substeps.
-    -   Create a communication system as described in [How to Create Communication Systems](how-to-create-communication-systems-c2234ac.md).
+    -   Create a communication system as described in .
 
     1.  In the *General* tab under *Technical Data*, pull the switch for *Event Mesh* to *ON*.
 

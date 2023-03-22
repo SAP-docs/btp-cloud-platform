@@ -1,16 +1,16 @@
-<!-- loioca24a8adb8c9440a9e7246fb615c306b -->
+<!-- copy21e27a355a154dd9acfa94e705eff82b -->
 
-# Security Audit Log Integration
+# Integrating Security Audit Logs
 
 Service name: `RSAU_LOG_API`
 
-This service enables you to retrieve the security audit log data from SAP S/4HANA Cloud. You can use the audit log data to integrate them into your Security and Event Management solution \(SIEM\) to detect security relevant event situations.
+This service enables you to retrieve the security audit log data. You can use the audit log data to integrate them into your Security and Event Management solution \(SIEM\) to detect security relevant event situations.
 
 This is an OData version 4 service. This version aims to improve processing time and resource consumption of clients and servers and to reflect the complexity of the underlying business model. This includes a lightweight JSON format that reduces the size of every response. Business data can be retrieved in the exact amount, at the right time, and in appropriate mode by using new synchronization mechanisms. Calculations are made and data is aggregated by using the tiers best suited for this task. Sophisticated metadata artifacts enable a true-to-life modeling of business models.
 
 
 
-<a name="loioca24a8adb8c9440a9e7246fb615c306b__section_technical_details"/>
+<a name="copy21e27a355a154dd9acfa94e705eff82b__section_technical_details"/>
 
 ## Technical Details
 
@@ -84,7 +84,7 @@ Version
 
 
 
-<a name="loioca24a8adb8c9440a9e7246fb615c306b__section_service_structure"/>
+<a name="copy21e27a355a154dd9acfa94e705eff82b__section_service_structure"/>
 
 ## Service Structure
 
@@ -154,7 +154,7 @@ Security Audit Log
 </td>
 <td valign="top">
 
- [Retrieving Security Audit Log](retrieving-security-audit-log-ce39470.md) 
+  
 
 
 
@@ -164,7 +164,7 @@ Security Audit Log
 
 
 
-<a name="loioca24a8adb8c9440a9e7246fb615c306b__section_service_response"/>
+<a name="copy21e27a355a154dd9acfa94e705eff82b__section_service_response"/>
 
 ## Service Response
 
@@ -172,7 +172,19 @@ The details included in the response vary according to the type of operation. Fo
 
 
 
-<a name="loioca24a8adb8c9440a9e7246fb615c306b__section_additional_information"/>
+<a name="copy21e27a355a154dd9acfa94e705eff82b__section_crs_psc_lwb"/>
+
+## Integration with SIEM Solution
+
+Service name: ***RSAU\_LOG\_API***
+
+Communication scenario: ***SAP\_COM\_0750***
+
+This service enables you to retrieve the security audit log data. You can use the audit log data to integrate them into your Security and Event Management solution \(SIEM\) to detect security relevant event situations.
+
+
+
+<a name="copy21e27a355a154dd9acfa94e705eff82b__section_additional_information"/>
 
 ## Additional Information
 

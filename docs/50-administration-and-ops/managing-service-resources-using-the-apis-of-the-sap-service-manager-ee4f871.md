@@ -10,5 +10,5 @@ SAP Service Manager is the central registry for service brokers and platforms in
 
 The service allows you to consume platform capabilities in any connected runtime environment, track the creation and managing of service instances, and share services and service instances between different environments.
 
-For the list of the available APIs, see [Working with SAP Cloud Service Management Service APIs.](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/4e19b11211fe4ca2a266d3fdd4a72188.html)
+For the list of the available APIs, see [Working with SAP Service Manager APIs](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/4e19b11211fe4ca2a266d3fdd4a72188.html).
 

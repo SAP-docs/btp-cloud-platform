@@ -39,7 +39,7 @@ Using the *Enterprise Event Enablement ‒ Event Monitor* app, you can monitor e
 
 5.  Select an event to access detailed information.
 
-    The detailed view contains:
+    The detailed view of a consumer inbound event contains:
 
 
     <table>

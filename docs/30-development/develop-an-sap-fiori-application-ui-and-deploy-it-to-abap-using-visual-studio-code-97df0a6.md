@@ -4,7 +4,7 @@
 
 Get an overview about how to create and deploy an SAP Fiori application to ABAP using Visual Studio Code.
 
-If you need further assistance with integrating an application into SAP Fiori launchpad, check out the tutorial [Integrate List Report into ABAP Fiori Launchpad](https://developers.sap.com/tutorials/abap-environment-abap-flp.html).
+For further assistance with creating and deploying an application into SAP Fiori launchpad, see [Create a SAP Fiori App in Visual Studio Code and Deploy it to SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-vs-code.html).
 
 
 

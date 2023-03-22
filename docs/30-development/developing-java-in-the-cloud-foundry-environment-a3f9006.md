@@ -190,6 +190,13 @@ SAP Java Buildpack provides the following components \(containers, JREs, framewo
 
 To see the latest news and updates about SAP Java Buildpack, regularly check the release notes on the [What's New portal](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&Component=SAP%20Java%20Buildpack).
 
+> ### Caution:  
+> In May 2023, SAP plans to migrate the root file system used in the Cloud Foundry environment in SAP BTP from the deprecated `cflinuxfs3` stack to **`cflinuxfs4`**. If you are running Java applications on SAP BTP, Cloud Foundry using SAP Java Buildpack, we recommend that you update and migrate your applications, as well as the SAP Java Buildpack. For more information about migration timelines, risks, and consequences, see:
+> 
+> -   [Deprecation of Cloud Foundry Stack cflinuxfs3 and Migration to cflinuxfs4](https://blogs.sap.com/2023/02/16/deprecation-of-cloud-foundry-stack-cflinuxfs3-and-migration-to-cflinuxfs4/)
+> 
+> -   [What's New for SAP BTP, Cloud Foundry Runtime \(cflinuxfs\)](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%20BTP,%20Cloud%20Foundry%20Runtime&q=cflinuxfs&locale=en-US&version=Cloud)
+
 
 
 <a name="loioa3f90069d6cd41da82f34a6123d82ce6__section_cc2_qzf_hvb"/>
@@ -206,5 +213,5 @@ To see the latest news and updates about SAP Java Buildpack, regularly check the
 
 ## Java Tutorial
 
-The following tutorial will guide you through creating a Java application in Cloud Foundry Command Line Interface \(cf CLI\), consuming Cloud Foundry services, and setting up authentication and authorization checks. See: SapMachine is replacing OpenJDK 11 & 17 in java\_buildpack[Create a Java Application via cf CLI](https://developers.sap.com/tutorials/btp-cf-buildpacks-java-create.html)
+The following tutorial will guide you through creating a Java application in Cloud Foundry Command Line Interface \(cf CLI\), consuming Cloud Foundry services, and setting up authentication and authorization checks. See: SapMachine is replacing OpenJDK 11 & 17 in java\_buildpack[Create an Application with SAP Java Buildpack](https://developers.sap.com/tutorials/btp-cf-buildpacks-java-create.html)
 

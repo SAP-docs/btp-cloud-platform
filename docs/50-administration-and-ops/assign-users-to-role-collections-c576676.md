@@ -12,9 +12,6 @@ You can assign users to a role collection by adding them to the role collection.
 
 You can assign users from default identity providers, and from custom identity providers, to a role collection. After having entered the user's user ID, choose the origin key of the identity provider and the e-mail address.
 
-> ### Note:  
-> The origin key tells you in which identity provider the user is stored. You can find it in *Security* \> *Trust Configuration*.
-
 
 
 ## Procedure

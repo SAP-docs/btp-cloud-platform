@@ -4,7 +4,7 @@
 
 Get an overview on how to add your app to SAP Fiori launchpad.
 
-If you need further assistance with the individual steps, check out the developer tutorial [Add Your App to SAP Fiori Launchpad](add-your-app-to-sap-fiori-launchpad-ea41912.md)
+If you need further assistance with the individual steps, check out the developer tutorial [Integrate List Report into ABAP Fiori Launchpad](https://developers.sap.com/tutorials/abap-environment-abap-flp.html).
 
 ![](images/Launch_Your_App_ABAP_d8b027c.png)
 

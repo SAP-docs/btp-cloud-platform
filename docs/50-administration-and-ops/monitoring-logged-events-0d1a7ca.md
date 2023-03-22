@@ -8,7 +8,7 @@
 
 The user must have the business role `BR_DATA_PRIVACY_SPECIALIST` \(Data Privacy Specialist\). If the user doesn't have the business role `BR_DATA_PRIVACY_SPECIALIST`, add the business role in the *Maintain Business Roles* app.
 
-Using the business role `BR_DATA_PRIVACY_SPECIALIST`, you can block, unblock, and display blocked personal data. Refer to .
+Using the business role `BR_DATA_PRIVACY_SPECIALIST`, you can block, unblock, and display blocked personal data. Refer to [Access Control and Data Protection](https://help.sap.com/docs/SAP_S4HANA_CLOUD/55a7cb346519450cb9e6d21c1ecd6ec1/2fc65edfd6604391b89753ca9feb6218.html).
 
 
 

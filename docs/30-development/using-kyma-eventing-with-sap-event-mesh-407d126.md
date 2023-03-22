@@ -12,14 +12,8 @@ Learn more about the event service in Kyma runtime and how to use it with SAP Ev
 
 You can send and receive events in Kyma thanks to the built-in Eventing infrastructure. By default, Kyma clusters have an Eventing backend based on the [NATS](https://nats.io/) technology. However, you can switch this backend to [SAP Event Mesh](https://help.sap.com/viewer/product/SAP_EM/Cloud/en-US).
 
-For more details, see the Kyma documentation on [Eventing](https://kyma-project.io/docs/kyma/latest/01-overview/main-areas/eventing/).
-
-To learn more about using events in Kyma, see these development tutorials:
-
--   [Trigger a Microservice with an Event](https://developers.sap.com/tutorials/cp-kyma-microservice-trigger.html)
-
--   [Trigger a Function with an Event](https://kyma-project.io/docs/kyma/latest/03-tutorials/00-eventing/)
-
+> ### Recommendation:  
+> To learn more about Kyma Eventing, read [What is Eventing in Kyma?](https://kyma-project.io/docs/kyma/latest/01-overview/main-areas/eventing/) and follow the [Eventing tutorials](https://kyma-project.io/docs/kyma/latest/03-tutorials/00-eventing/).
 
 You can switch the Kyma Eventing backend from NATS to SAP Event Mesh by following these steps:
 

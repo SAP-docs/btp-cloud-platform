@@ -347,14 +347,14 @@ SAP Conversational AI
 <tr>
 <td valign="top">
 
-SAP Data Warehouse Cloud
+SAP Datasphere Cloud
 
 
 
 </td>
 <td valign="top">
 
-[Audit Logging](https://help.sap.com/viewer/0c3780ad05fd417fa27b98418535debd/cloud/en-US/c78a7c2a3cec4b0897db294d74e00d9b.html)
+Audit Logging
 
 
 

@@ -16,6 +16,9 @@ You can use the cockpit to deploy a new application in the Cloud Foundry environ
 
 4.  \(Optional\) If you would like to use a manifest, choose the location of your `manifest.yml` file.
 
+    > ### Note:  
+    > To avoid any unexpected behavior, specify the attributes of your choice and their respective values in the `manifest.yml` file.
+
 5.  \(Optional\) If you don't want to use a manifest, untick the *Use Manifest* box and enter the application details.
 
     1.  Enter a name for your application.

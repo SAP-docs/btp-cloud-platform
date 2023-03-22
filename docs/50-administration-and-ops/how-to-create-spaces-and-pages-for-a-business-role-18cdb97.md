@@ -13,5 +13,5 @@ When creating a new business role, you can create a new launchpad space, use an 
 **Related Information**  
 
 
-[Step by Step: Create a New Space and Page for a Business Role](https://help.sap.com/viewer/4fc8d03390c342da8a60f8ee387bca1a/2202.500/en-US/ab05d9e086554a08af88d6482deb1bcb.html)
+[Step by Step: Create a New Space and Page for a Business Role](https://help.sap.com/docs/SAP_S4HANA_CLOUD/4fc8d03390c342da8a60f8ee387bca1a/ab05d9e086554a08af88d6482deb1bcb.html?version=latest)
 

@@ -10,12 +10,13 @@ With the Kyma environment, you can connect SAP BTP services to your cluster and 
 
 ## Prerequisites
 
--   [kubectl](https://kubernetes.io/docs/tasks/tools/) v1.17 or higher \(for CLI interactions only\)
+-   For CLI interactions: You have installed [kubectl](https://kubernetes.io/docs/tasks/tools/) v1.17 or higher.
 
--   To connect a BTP service to your Kyma cluster, in Step 1 you will need service's `serviceOfferingName` and `servicePlanName`. You can find these values in the Service Marketplace of the SAP BTP Cockpit. Click on the service's tile and find *name* and *Plan* respectively.
+-   You know the `serviceOfferingName` and `servicePlanName` for the SAP BTP service you want to connect to the Kyma cluster. You find these values in the Service Marketplace of the SAP BTP cockpit. Click on the service's tile and find *name* and *Plan*, respectively.
+
 
 > ### Note:  
-> You can use [SAP BTP kubectl plugin](https://github.com/SAP/sap-btp-service-operator#sap-btp-kubectl-plugin-experimental) which allows you to get the available services in your SAP BTP account by using the access credentials stored in the cluster. However, the plugin is still experimental.
+> You can use [SAP BTP kubectl plugin](https://github.com/SAP/sap-btp-service-operator#sap-btp-kubectl-plugin-experimental) to get the available services in your SAP BTP account by using the access credentials stored in the cluster. However, the plugin is still experimental.
 
 
 
@@ -24,13 +25,13 @@ With the Kyma environment, you can connect SAP BTP services to your cluster and 
 ## Procedure
 
 1.  > ### Note:  
-    > You can use Kyma Dashboard to create and manage resources such as Service Instances and Service Bindings. To do so, navigate to your *Namespace* view and go to the *Service Management* tab in the left navigation. Still, you need to obtain service details, such as service name and plan, from the BTP Cockpit.
+    > You can choose to create and manage resources such as Service Instances and Service Bindings in Kyma Dashboard, in the *Namespace* view, under *Service Management*. Still, you need the service details, such as service name and plan, from the SAP BTP cockpit.
 
 2.  Create a Service Instance:
 
     ```
     kubectl create -f - <<EOF
-    apiVersion: services.cloud.sap.com/v1alpha1
+    apiVersion: services.cloud.sap.com/v1
     kind: ServiceInstance
     metadata:
       name: {INSTANCE_NAME}
@@ -54,7 +55,7 @@ With the Kyma environment, you can connect SAP BTP services to your cluster and 
 
     ```
     kubectl create -f - <<EOF
-    apiVersion: services.cloud.sap.com/v1alpha1
+    apiVersion: services.cloud.sap.com/v1
     kind: ServiceBinding
     metadata:
       name: {BINDING_NAME}
@@ -63,6 +64,9 @@ With the Kyma environment, you can connect SAP BTP services to your cluster and 
       serviceInstanceName: {INSTANCE_NAME}
       externalName: {BINDING_NAME}
       secretName: {BINDING_NAME}
+      parameters:
+          key1: val1
+          key2: val2
     EOF
     ```
 
@@ -92,5 +96,5 @@ With the Kyma environment, you can connect SAP BTP services to your cluster and 
 **Related Information**  
 
 
-[SAP BTP Service Operator](https://github.com/SAP/sap-btp-service-operator)
+[SAP BTPService Operator](https://github.com/SAP/sap-btp-service-operator)
 

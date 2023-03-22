@@ -28,7 +28,7 @@ Add users as org members and assign roles to grant the users access to informati
 
 ## Procedure
 
-1.  Navigate to the space to which you'd like to add members. For more information, see [Navigate to Orgs and Spaces](navigate-to-orgs-and-spaces-5bf8735.md).
+1.  Navigate to your subaccount. Make sure that Cloud Foundry is enabled. For more information, see [Navigate to Orgs and Spaces](navigate-to-orgs-and-spaces-5bf8735.md).
 
 2.  In the navigation area, choose *Cloud Foundry* \> *Org Members*.
 

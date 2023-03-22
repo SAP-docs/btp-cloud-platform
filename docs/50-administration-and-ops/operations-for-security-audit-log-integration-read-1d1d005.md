@@ -34,7 +34,7 @@ Sample URL
 <tr>
 <td valign="top">
 
- [Retrieving Security Audit Log](retrieving-security-audit-log-ce39470.md) 
+  
 
 
 

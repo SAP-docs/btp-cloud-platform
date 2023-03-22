@@ -168,9 +168,30 @@ You can also decide to deploy your application with a particular buildpack versi
 
 
 
+<a name="loioacf8f49356d047fbb1a4d04dcec3fd36__section_c2n_314_wwb"/>
+
+## What's New
+
+> ### Caution:  
+> In May 2023, SAP plans to migrate the root file system used in the Cloud Foundry environment in SAP BTP from the deprecated `cflinuxfs3` stack to **`cflinuxfs4`**. If you are running Python applications on SAP BTP, Cloud Foundry using the Python buildpack, we recommend that you update and migrate your applications, as well as the Python buildpack. For more information about migration timelines, risks, and consequences, see:
+> 
+> -   [Deprecation of Cloud Foundry Stack cflinuxfs3 and Migration to cflinuxfs4](https://blogs.sap.com/2023/02/16/deprecation-of-cloud-foundry-stack-cflinuxfs3-and-migration-to-cflinuxfs4/)
+> 
+> -   [What's New for SAP BTP, Cloud Foundry Runtime \(cflinuxfs\)](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%20BTP,%20Cloud%20Foundry%20Runtime&q=cflinuxfs&locale=en-US&version=Cloud)
+
+
+
+<a name="loioacf8f49356d047fbb1a4d04dcec3fd36__section_iwr_zxf_hvb"/>
+
+## Troubleshooting
+
+To find known issues related to the Python buildpack, see our Guided Answers: [Python Buildpack](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51231/?version=current)
+
+
+
 ## Python Tutorial
 
-The following tutorial will guide you through creating a Python application in Cloud Foundry Command Line Interface \(cf CLI\), consuming Cloud Foundry services, and setting up authentication and authorization checks. See: [Create a Python Application via CF CLI](https://developers.sap.com/tutorials/btp-cf-buildpacks-python-create.html)
+The following tutorial will guide you through creating a Python application in Cloud Foundry Command Line Interface \(cf CLI\), consuming Cloud Foundry services, and setting up authentication and authorization checks. See: [Create an Application with Cloud Foundry Python Buildpack](https://developers.sap.com/tutorials/btp-cf-buildpacks-python-create.html)
 
 
 

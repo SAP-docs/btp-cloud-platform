@@ -20,7 +20,7 @@
 Subscriptions, which are based on a queue, provide all incoming events. These incoming events are forwarded to the corresponding consumer.
 
 > ### Note:  
-> Events are only forwarded to an event consumer when an *Inbound Event Topic Binding* exists for the related event topic.
+> Events are only forwarded to an event consumer when an inbound event topic binding exists for the related event topic.
 
 
 

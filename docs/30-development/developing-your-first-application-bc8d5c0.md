@@ -59,7 +59,7 @@ SAPUI5
 <tr>
 <td valign="top">
 
-[Create a Java Application via cf CLI](https://developers.sap.com/tutorials/btp-cf-buildpacks-java-create.html)
+[Create an Application with SAP Java Buildpack](https://developers.sap.com/tutorials/btp-cf-buildpacks-java-create.html)
 
 
 
@@ -75,7 +75,7 @@ Java
 <tr>
 <td valign="top">
 
-[Create a Python Application via cf CLI](https://developers.sap.com/tutorials/btp-cf-buildpacks-python-create.html)
+[Create an Application with Cloud Foundry Python Buildpack](https://developers.sap.com/tutorials/btp-cf-buildpacks-python-create.html)
 
 
 
@@ -91,7 +91,7 @@ Python
 <tr>
 <td valign="top">
 
-[Create a Node.js Application via cf CLI](https://developers.sap.com/tutorials/btp-cf-buildpacks-node-create.html)
+[Create an Application with Cloud Foundry Node.js Buildpack](https://developers.sap.com/tutorials/btp-cf-buildpacks-node-create.html)
 
 
 
