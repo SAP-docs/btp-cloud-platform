@@ -4,6 +4,11 @@
 
 Find selected information for Java development on SAP BTP, Cloud Foundry and references to more detailed sources.
 
+> ### Note:  
+> The entire Java section in the navigation tree is dedicated to **SAP Java Buildpack**.
+> 
+> However, at the bottom of this pagme, you will also find an extra section about the community [Cloud Foundry Java Buildpack](https://github.com/cloudfoundry/java-buildpack).
+
 SAP Java Buildpack is a Cloud Foundry buildpack for running JVM-based applications. The buildpack provides the following runtimes: [Tomcat](tomcat-ddfc101.md), [TomEE \(Deprecated\)](tomee-deprecated-a9590c2.md), [TomEE 7](tomee-7-79c039a.md), and [Java Main](java-main-8a1786a.md).
 
 
@@ -206,6 +211,7 @@ To see the latest news and updates about SAP Java Buildpack, regularly check the
 -   Guided Answers: [SAP Java Buildpack](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51219/?version=current)
 -   SAP Note: [3155402](https://launchpad.support.sap.com/#/notes/3155402) *Explicitly pin SAP Java Buildpack 1.48.1 in your manifest file*
 -   SAP Note: [3214025](https://launchpad.support.sap.com/#/notes/3214025) *Migrating Java Applications from TomEE 1.7 to TomEE 7*
+-   SAP Note: [3261748](https://launchpad.support.sap.com/#/notes/3261748) *SapMachine is replacing OpenJDK 11 & 17 in java\_buildpack*
 
 
 
@@ -213,5 +219,16 @@ To see the latest news and updates about SAP Java Buildpack, regularly check the
 
 ## Java Tutorial
 
-The following tutorial will guide you through creating a Java application in Cloud Foundry Command Line Interface \(cf CLI\), consuming Cloud Foundry services, and setting up authentication and authorization checks. See: SapMachine is replacing OpenJDK 11 & 17 in java\_buildpack[Create an Application with SAP Java Buildpack](https://developers.sap.com/tutorials/btp-cf-buildpacks-java-create.html)
+The following tutorial will guide you through creating a Java application in Cloud Foundry Command Line Interface \(cf CLI\), consuming Cloud Foundry services, and setting up authentication and authorization checks. See: [Create an Application with SAP Java Buildpack](https://developers.sap.com/tutorials/btp-cf-buildpacks-java-create.html)
+
+
+
+<a name="loioa3f90069d6cd41da82f34a6123d82ce6__section_urd_l5c_nvb"/>
+
+## Community Cloud Foundry Java Buildpack
+
+This section lists Cloud Foundry Java components and updates maintained by SAP that belong to the online community [Java Buildpack](https://github.com/cloudfoundry/java-buildpack).
+
+-   **SapMachine** – as of [v4.55](https://github.com/cloudfoundry/java-buildpack/releases/tag/v4.55) of the Java Buildpack, SAP will provide SapMachine 11 and 17 instead of OpenJDK 11 and 17 in the offline **`java_buildpack`**. For more information, see SAP Note: [3261748](https://launchpad.support.sap.com/#/notes/3261748) *SapMachine is replacing OpenJDK 11 & 17 in java\_buildpack*
+
 

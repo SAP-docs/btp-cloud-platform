@@ -262,6 +262,10 @@ Look up the technical cluster region names at [Regions for the Kyma Environment]
 
 ## Enterprise \(AWS, Google Cloud, Azure\)
 
+The Enterprise plans offer highly available Kubernetes clusters, where the Kubernetes and Kyma configurations are optimized for production use cases. The Kubernetes worker nodes are deployed in three availability zones of the respective [cloud region](../10-concepts/regions-for-the-kyma-environment-557ec3a.md), and thus can provide zone level failure tolerance for Kyma and applications deployed on the Kyma runtime.
+
+While the high availability is guaranteed for Kubernetes and native Kyma components, by default it's not guaranteed for the customer's own applications. To guarantee high availability for your applications deployed on Kyma, you must manually configure these applications so.
+
 **Enterprise Plan Specification**
 
 

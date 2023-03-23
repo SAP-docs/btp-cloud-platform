@@ -354,7 +354,7 @@ SAP Datasphere Cloud
 </td>
 <td valign="top">
 
-Audit Logging
+[Audit Logging](https://help.sap.com/docs/SAP_DATASPHERE/0c3780ad05fd417fa27b98418535debd/c78a7c2a3cec4b0897db294d74e00d9b.html)
 
 
 
