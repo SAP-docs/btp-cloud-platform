@@ -172,7 +172,7 @@ eu20-001.hana.ondemand.com
 
 [Feature Set A ](https://account.eu1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-eu20)
 
-[Feature Set B](https://cockpit.eu20.hana.ondemand.com/)
+[Feature Set B](https://emea.cockpit.btp.cloud.sap/)
 
 
 
@@ -246,7 +246,7 @@ ap20.hana.ondemand.com
 
 [Feature Set A](https://account.ap1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ap20)
 
-[Feature Set B](https://cockpit.ap20.hana.ondemand.com/)
+[Feature Set B](https://apac.cockpit.btp.cloud.sap/)
 
 
 
@@ -320,7 +320,7 @@ ap21.hana.ondemand.com
 
 [Feature Set A](https://account.ap1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ap21)
 
-[Feature Set B](https://cockpit.ap21.hana.ondemand.com/)
+[Feature Set B](https://apac.cockpit.btp.cloud.sap/)
 
 
 
@@ -394,7 +394,7 @@ us20.hana.ondemand.com
 
 [Feature Set A](https://account.us2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-us20)
 
-[Feature Set B](https://cockpit.us20.hana.ondemand.com/)
+[Feature Set B](https://amer.cockpit.btp.cloud.sap/)
 
 
 
@@ -468,7 +468,7 @@ jp20.hana.ondemand.com
 
 [Feature Set A](https://account.jp1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-jp20)
 
-[Feature Set B](https://cockpit.jp20.hana.ondemand.com/)
+[Feature Set B](https://apac.cockpit.btp.cloud.sap/)
 
 
 
@@ -542,7 +542,7 @@ us21.hana.ondemand.com
 
 [Feature Set A](https://account.us1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-us21)
 
-[Feature Set B](https://cockpit.us21.hana.ondemand.com/)
+[Feature Set B](https://amer.cockpit.btp.cloud.sap/)
 
 
 
@@ -614,7 +614,7 @@ ch20.hana.ondemand.com
 </td>
 <td valign="top">
 
- [Feature Set B](https://cockpit.ch20.hana.ondemand.com/) 
+ [Feature Set B](https://eu-access.cockpit.btp.cloud.sap/) 
 
 
 
@@ -688,7 +688,7 @@ br10.hana.ondemand.com
 
 [Feature Set A](https://account.br1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-br10)
 
-[Feature Set B](https://cockpit.br10.hana.ondemand.com/)
+[Feature Set B](https://amer.cockpit.btp.cloud.sap/)
 
 
 
@@ -762,7 +762,7 @@ jp10.hana.ondemand.com
 
 [Feature Set A](https://account.jp1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-jp10)
 
-[Feature Set B](https://cockpit.jp10.hana.ondemand.com/)
+[Feature Set B](https://apac.cockpit.btp.cloud.sap/)
 
 
 
@@ -836,7 +836,7 @@ ap10.hana.ondemand.com
 
 [Feature Set A](https://account.ap1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ap10)
 
-[Feature Set B](https://cockpit.ap10.hana.ondemand.com/)
+[Feature Set B](https://apac.cockpit.btp.cloud.sap/)
 
 
 
@@ -910,7 +910,7 @@ ap11.hana.ondemand.com
 
 [Feature Set A](https://account.ap1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ap11)
 
-[Feature Set B](https://cockpit.ap11.hana.ondemand.com/)
+[Feature Set B](https://apac.cockpit.btp.cloud.sap/)
 
 
 
@@ -984,7 +984,7 @@ ap12.hana.ondemand.com
 
 [Feature Set A](https://account.ap1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ap12)
 
-[Feature Set B](https://cockpit.ap12.hana.ondemand.com/)
+[Feature Set B](https://apac.cockpit.btp.cloud.sap/)
 
 
 
@@ -1058,7 +1058,7 @@ ca10.hana.ondemand.com
 
 [Feature Set A](https://account.ca1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ca10)
 
-[Feature Set B](https://cockpit.ca10.hana.ondemand.com/)
+[Feature Set B](https://amer.cockpit.btp.cloud.sap/)
 
 
 
@@ -1188,7 +1188,7 @@ eu10-004.hana.ondemand.com
 
 [Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-eu10)
 
-[Feature Set B](https://cockpit.eu10.hana.ondemand.com/)
+[Feature Set B](https://emea.cockpit.btp.cloud.sap/)
 
 
 
@@ -1262,7 +1262,7 @@ eu11.hana.ondemand.com
 
 [Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-eu11)
 
-[Feature Set B](https://cockpit.eu11.hana.ondemand.com/)
+[Feature Set B](https://eu-access.cockpit.btp.cloud.sap/)
 
 
 
@@ -1376,7 +1376,7 @@ us10-002.hana.ondemand.com
 
 [Feature Set A](https://account.us1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-us10)
 
-[Feature Set B](https://cockpit.us10.hana.ondemand.com/)
+[Feature Set B](https://amer.cockpit.btp.cloud.sap/)
 
 
 
@@ -1450,7 +1450,7 @@ us30.hana.ondemand.com
 
 [Feature Set A](https://account.us1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-us30)
 
-[Feature Set B](https://cockpit.us30.hana.ondemand.com/)
+[Feature Set B](https://amer.cockpit.btp.cloud.sap/)
 
 
 
@@ -1522,7 +1522,7 @@ eu30.hana.ondemand.com
 </td>
 <td valign="top">
 
- [Feature Set B](https://cockpit.eu30.hana.ondemand.com/) 
+ [Feature Set B](https://emea.cockpit.btp.cloud.sap/) 
 
 
 
@@ -1594,7 +1594,7 @@ in30.hana.ondemand.com
 </td>
 <td valign="top">
 
- [Feature Set B](https://cockpit.in30.hana.ondemand.com/) 
+ [Feature Set B](https://apac.cockpit.btp.cloud.sap/) 
 
 
 
@@ -1816,7 +1816,7 @@ eu10.hana.ondemand.com
 </td>
 <td valign="top">
 
- [Trial](https://cockpit.eu10.hana.ondemand.com/trial) 
+ [Trial](https://cockpit.hanatrial.ondemand.com/trial) 
 
 
 
@@ -1888,7 +1888,7 @@ us10.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Trial](https://cockpit.us10.hana.ondemand.com/trial)
+[Trial](https://cockpit.hanatrial.ondemand.com/trial)
 
 
 
@@ -1960,7 +1960,7 @@ ap21.hana.ondemand.com
 </td>
 <td valign="top">
 
- [Trial](https://cockpit.ap21.hana.ondemand.com/trial) 
+ [Trial](https://cockpit.hanatrial.ondemand.com/trial) 
 
 
 
