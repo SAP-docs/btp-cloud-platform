@@ -1,8 +1,8 @@
-<!-- loio0ab35af26a134bb788beaabe1069701f -->
+<!-- loiof1d44d73a13147acbbabc0b71f42ddc1 -->
 
 # Reading a Transformation
 
-Given a transformation \(i.e. an XSLT object\), its content can be read and written to the console as follows:
+Given a transformation \(i.e. an XSLT object\), its contents can be read and written to the console as follows:
 
 > ### Sample Code:  
 > ```abap

@@ -243,7 +243,7 @@ You can view the captured data from all profiles in the technical monitoring coc
 
 ## Results
 
-Request statistics are captured and processed by a collector job that runs every minute. Therefore, you must expect that captured request statistics are displayed with a delay of a minute in the technical monitoring cockpit or in the *Perform System Sizing* app. Capturing request statistics is finished when the status of relevant capture profile has changed to *Finished*.
+Request statistics are captured and processed by a collector that runs every minute. Therefore, you must expect that captured request statistics are displayed with a delay of a minute in the technical monitoring cockpit or in the *Perform System Sizing* app. Capturing request statistics is finished when the status of relevant capture profile has changed to *Finished*.
 
 > ### Note:  
 > If you have a long-running request, ABAP statistics records for this request will only show up in the technical monitoring cockpit after the request is done. The collector then captures the request and calculates its workload over its runtime.

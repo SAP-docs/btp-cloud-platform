@@ -1760,78 +1760,6 @@ Amazon Web Services
 </td>
 <td valign="top">
 
-eu10
-
-
-
-</td>
-<td valign="top">
-
-Europe \(Frankfurt\)
-
-
-
-</td>
-<td valign="top">
-
-cf-eu10
-
-
-
-</td>
-<td valign="top">
-
-eu-central-1
-
-
-
-</td>
-<td valign="top">
-
-3.124.22.250, 3.124.41.239, 52.29.53.204
-
-
-
-</td>
-<td valign="top">
-
-3.124.222.77, 3.122.209.241, 3.124.208.223
-
-
-
-</td>
-<td valign="top">
-
-api.cf.eu10.hana.ondemand.com
-
-
-
-</td>
-<td valign="top">
-
-eu10.hana.ondemand.com
-
-
-
-</td>
-<td valign="top">
-
- [Trial](https://cockpit.hanatrial.ondemand.com/trial) 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Amazon Web Services
-
-
-
-</td>
-<td valign="top">
-
 us10
 
 
@@ -1971,7 +1899,7 @@ ap21.hana.ondemand.com
 
 
 > ### Note:  
-> Trial accounts and subaccounts on trial can no longer be created on the eu10, Europe \(Frankfurt\).
+> Trial accounts and subaccounts on trial can no longer be created on eu10, Europe \(Frankfurt\).
 > 
 > Existing trial accounts and subaccounts are not affected.
 

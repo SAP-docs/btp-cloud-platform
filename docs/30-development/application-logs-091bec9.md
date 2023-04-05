@@ -40,3 +40,8 @@ For more information, see
 -   [How to Use the Fiori Reuse Library](how-to-use-the-fiori-reuse-library-a094e54.md)
 
 
+**Related Information**  
+
+
+[Working with Application Log Objects](https://help.sap.com/docs/btp/sap-abap-development-user-guide/working-with-application-log-objects)
+

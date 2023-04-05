@@ -62,3 +62,5 @@ If you need support or experience issues, please report an incident under compon
 
 [Application Logs](application-logs-091bec9.md "You can use the Application Logs to display and check if any errors occurred during runtime.")
 
+[Working with Application Job Objects](https://help.sap.com/docs/btp/sap-abap-development-user-guide/working-with-application-job-objects)
+

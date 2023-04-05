@@ -98,7 +98,7 @@ cf-ap21
 </td>
 <td valign="top">
 
-Southeast Asia \(Singapore\)
+Singapore
 
 
 
@@ -148,7 +148,7 @@ cf-us10
 </td>
 <td valign="top">
 
-US East \(N. Virginia\)
+US East \(VA\)
 
 
 
@@ -196,7 +196,7 @@ cf-us20
 </td>
 <td valign="top">
 
-West US2 \(Washington\)
+US West \(WA\)
 
 
 
@@ -244,7 +244,7 @@ cf-jp20
 </td>
 <td valign="top">
 
-Japan East \(Tokyo\)
+Japan \(Tokyo\)
 
 
 
@@ -292,7 +292,7 @@ cf-us21
 </td>
 <td valign="top">
 
-East US \(Virginia\)
+US East \(VA\)
 
 
 
@@ -340,7 +340,7 @@ cf-eu20
 </td>
 <td valign="top">
 
-West Europe \(Netherlands\)
+Europe \(Netherlands\)
 
 
 
@@ -434,7 +434,7 @@ cf-eu11<sup>[1](regions-for-the-kyma-environment-557ec3a.md#loio557ec3adc3174ed4
 </td>
 <td valign="top">
 
-Europe \(Frankfurt\)
+Europe \(Frankfurt\) EU Access
 
 
 
@@ -478,7 +478,7 @@ cf-br10
 </td>
 <td valign="top">
 
-South America \(São Paulo\)
+Brazil \(São Paulo\)
 
 
 
@@ -522,7 +522,7 @@ cf-jp10
 </td>
 <td valign="top">
 
-Asia Pacific \(Tokyo\)
+Japan \(Tokyo\)
 
 
 
@@ -566,7 +566,7 @@ cf-ca10
 </td>
 <td valign="top">
 
-Canada \(Central\)
+Canada \(Montreal\)
 
 
 
@@ -610,7 +610,7 @@ cf-ap12
 </td>
 <td valign="top">
 
-Asia Pacific \(Seoul\)
+South Korea \(Seoul\)
 
 
 
@@ -654,7 +654,7 @@ cf-ap10
 </td>
 <td valign="top">
 
-Asia Pacific \(Sydney\)
+Australia \(Sydney\)
 
 
 
@@ -698,7 +698,7 @@ cf-ap11
 </td>
 <td valign="top">
 
-Asia Pacific \(Singapore\)
+Singapore
 
 
 
@@ -742,7 +742,7 @@ cf-us30
 </td>
 <td valign="top">
 
-US Central \(Iowa\)
+US Central \(IA\)
 
 
 
@@ -830,7 +830,7 @@ cf-in30
 </td>
 <td valign="top">
 
-Asia South \(Mumbai\)
+India \(Mumbai\)
 
 
 
@@ -914,7 +914,7 @@ azure
 </td>
 <td valign="top">
 
-Central US \(Iowa\)
+US Central \(IA\)
 
 
 
@@ -930,7 +930,7 @@ Central US \(Iowa\)
 </td>
 <td valign="top">
 
-East US \(Virginia\)
+US East \(VA\)
 
 
 
@@ -946,7 +946,7 @@ East US \(Virginia\)
 </td>
 <td valign="top">
 
-West US2 \(Washington\)
+US West \(WA\)
 
 
 
@@ -994,7 +994,7 @@ UK South \(London\)
 </td>
 <td valign="top">
 
-Japan East \(Tokyo\)
+Japan \(Tokyo\)
 
 
 
@@ -1010,7 +1010,7 @@ Japan East \(Tokyo\)
 </td>
 <td valign="top">
 
-Southeast Asia \(Singapore\)
+Singapore
 
 
 
@@ -1026,7 +1026,7 @@ Southeast Asia \(Singapore\)
 </td>
 <td valign="top">
 
-West Europe \(Netherlands\)
+Europe \(Netherlands\)
 
 
 
@@ -1049,7 +1049,7 @@ azure\_lite
 </td>
 <td valign="top">
 
-Central US \(Iowa\)
+US Central \(IA\)
 
 
 
@@ -1065,7 +1065,7 @@ Central US \(Iowa\)
 </td>
 <td valign="top">
 
-East US \(Virginia\)
+US East \(VA\)
 
 
 
@@ -1081,7 +1081,7 @@ East US \(Virginia\)
 </td>
 <td valign="top">
 
-West US2 \(Washington\)
+US West \(WA\)
 
 
 
@@ -1136,7 +1136,7 @@ trial
 </td>
 <td valign="top">
 
-Southeast Asia \(Singapore\)
+Singapore
 
 
 
@@ -1198,7 +1198,7 @@ Europe \(London\)
 </td>
 <td valign="top">
 
-Canada \(Central\)
+Canada \(Montreal\)
 
 
 
@@ -1214,7 +1214,7 @@ Canada \(Central\)
 </td>
 <td valign="top">
 
-South America \(São Paulo\)
+Brazil \(São Paulo\)
 
 
 
@@ -1230,7 +1230,7 @@ South America \(São Paulo\)
 </td>
 <td valign="top">
 
-US East \(N. Virginia\)
+US East \(VA\)
 
 
 
@@ -1262,7 +1262,7 @@ US West \(N. California\)
 </td>
 <td valign="top">
 
-Asia Pacific \(Tokyo\)
+Japan \(Tokyo\)
 
 
 
@@ -1278,7 +1278,7 @@ Asia Pacific \(Tokyo\)
 </td>
 <td valign="top">
 
-Asia Pacific \(Seoul\)
+South Korea \(Seoul\)
 
 
 
@@ -1294,7 +1294,7 @@ Asia Pacific \(Seoul\)
 </td>
 <td valign="top">
 
-Asia Pacific \(Mumbai\)
+India \(Mumbai\)
 
 
 
@@ -1310,7 +1310,7 @@ Asia Pacific \(Mumbai\)
 </td>
 <td valign="top">
 
-Asia Pacific \(Singapore\)
+Singapore
 
 
 
@@ -1326,7 +1326,7 @@ Asia Pacific \(Singapore\)
 </td>
 <td valign="top">
 
-Asia Pacific \(Sydney\)
+Australia \(Sydney\)
 
 
 
@@ -1365,7 +1365,7 @@ Europe \(Frankfurt\)
 </td>
 <td valign="top">
 
-US East \(N. Virginia\)
+US East \(VA\)
 
 
 
@@ -1411,7 +1411,7 @@ Europe \(Frankfurt\)
 </td>
 <td valign="top">
 
-US Central \(Iowa\)
+US Central \(IA\)
 
 
 
@@ -1427,7 +1427,7 @@ US Central \(Iowa\)
 </td>
 <td valign="top">
 
-Asia South \(Mumbai\)
+India \(Mumbai\)
 
 
 

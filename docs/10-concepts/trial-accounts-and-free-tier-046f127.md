@@ -46,7 +46,7 @@ In the [SAP Discovery Center service catalog overview](https://discovery-center.
 
 -   **Use your SAP BTP trial account:**
 
-    Familiarize yourself with the [Trial Scope](trial-accounts-and-free-tier-046f127.md#loio046f127f2a614438b616ccfc575fdb16__section_trial-scope)or try out one of our [Starter Scenarios](https://developers.sap.com/tutorial-navigator.html?tag=tutorial:topic/cp-starter-scenario) on the [Tutorial Navigator](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-business-technology-platform).
+    Familiarize yourself with the [Trial Scope](trial-accounts-and-free-tier-046f127.md#loio046f127f2a614438b616ccfc575fdb16__section_trial-scope) or try out one of our [Starter Scenarios](https://developers.sap.com/tutorial-navigator.html?tag=tutorial:topic/cp-starter-scenario) on the [Tutorial Navigator](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-business-technology-platform).
 
 -   **Extend your SAP BTP trial account in intervals:**
 

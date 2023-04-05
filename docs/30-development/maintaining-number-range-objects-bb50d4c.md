@@ -17,3 +17,8 @@ For more information, see
 -   [Reading Number Range Objects](reading-number-range-objects-aeb774b.md)
 
 
+**Related Information**  
+
+
+[Working with Number Range Objects](https://help.sap.com/docs/btp/sap-abap-development-user-guide/working-with-number-range-objects)
+

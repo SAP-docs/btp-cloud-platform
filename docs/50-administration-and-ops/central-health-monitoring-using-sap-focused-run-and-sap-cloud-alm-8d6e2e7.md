@@ -320,6 +320,74 @@ ABAP System
 </td>
 <td valign="top">
 
+Expiry of Communication System Certificates
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_comsys\_cert\_expiry\_d
+
+
+
+</td>
+<td valign="top">
+
+Expiry of communication system certificates in days
+
+With this metric, you can monitor whether any communication system certificates uploaded to the ABAP system expire for the communication with systems or services outside the ABAP system. Make sure that your communication system certificates are valid, so that communication doesn't break off.
+
+If the communication system certificate expires within 7 days, it's marked red. If it expires within 30 days, it's marked yellow.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ABAP System
+
+
+
+</td>
+<td valign="top">
+
+Expiry of Trust List Certificates
+
+
+
+</td>
+<td valign="top">
+
+abap\_system\_trusts\_cert\_expiry\_d
+
+
+
+</td>
+<td valign="top">
+
+Expiry of trust list certificates in days
+
+With this metric, you can monitor certificates from communication partners that you have added to the certificate trust list in your ABAP system. The metric shows whether any of these trusted certificates expire for the communication with systems or services outside the ABAP system. Make sure that your trusted certificates are valid, so that communication doesn't break off.
+
+If the trusted certificate expires within 7 days, it's marked red. If it expires within 30 days, it's marked yellow.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ABAP System
+
+
+
+</td>
+<td valign="top">
+
 Critical Number Range Intervals
 
 

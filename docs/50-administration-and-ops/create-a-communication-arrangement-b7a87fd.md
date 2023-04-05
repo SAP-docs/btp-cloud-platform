@@ -32,4 +32,7 @@ You've the *Administrator* role \(role template `ID SAP_BR_ADMINISTRATOR`\).
 
     A communication system created with the name `ZSAP_COM_0668`.
 
+    > ### Note:  
+    > Do not create more than one communication arrangement with communication scenario `SAP_COM_0668` in your ABAP Environment tenant.
+
 

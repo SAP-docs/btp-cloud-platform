@@ -33,6 +33,10 @@ Use the Cloud Foundry Command Line Interface \(cf CLI\) to log on to the Cloud F
     > ### Note:  
     > There is no specific endpoint for trial accounts. Both enterprise and trial accounts use the same API endpoints.
 
+    ```
+    cf api https://api.cf.eu10.hana.ondemand.com
+    ```
+
      
 
     For more information, see [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md).

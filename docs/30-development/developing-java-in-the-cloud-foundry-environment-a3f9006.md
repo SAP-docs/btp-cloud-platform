@@ -7,7 +7,7 @@ Find selected information for Java development on SAP BTP, Cloud Foundry and ref
 > ### Note:  
 > The entire Java section in the navigation tree is dedicated to **SAP Java Buildpack**.
 > 
-> However, at the bottom of this pagme, you will also find an extra section about the community [Cloud Foundry Java Buildpack](https://github.com/cloudfoundry/java-buildpack).
+> However, at the bottom of this page, you will also find an extra section about the community [Cloud Foundry Java Buildpack](https://github.com/cloudfoundry/java-buildpack).
 
 SAP Java Buildpack is a Cloud Foundry buildpack for running JVM-based applications. The buildpack provides the following runtimes: [Tomcat](tomcat-ddfc101.md), [TomEE \(Deprecated\)](tomee-deprecated-a9590c2.md), [TomEE 7](tomee-7-79c039a.md), and [Java Main](java-main-8a1786a.md).
 

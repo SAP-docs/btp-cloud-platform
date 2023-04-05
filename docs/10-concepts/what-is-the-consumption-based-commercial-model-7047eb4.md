@@ -73,7 +73,7 @@ As part of the free tier model for SAP BTP, some services offer free service pla
 To find frequently asked questions about this licensing model, see the [Consumption-based commercial model CPEA and Cloud Credits - FAQ Document](https://www.sap.com/products/extension-suite/pricing.html?pdf-asset=668ae6f5-cd7d-0010-87a3-c30de2ffd8ff).
 
 > ### Note:  
-> Depending on your business needs, you can combine the consumption-based commercial model with the subscription-based commercial model in the same global account, or you can use both commercial models in the same global acccount. Contact your SAP account executive or sales representative for more information.
+> Depending on your business needs, you can combine the consumption-based commercial model with the subscription-based commercial model in the same global account, or you can use both commercial models in the same global acccount. Contact your SAP account executive or sales representative for more information. Note however that you cannot mix Cloud Platform Enterprise Agreement \(CPEA\) and Pay-As-You-Go for SAP BTP in the same global account.
 
 **Related Information**  
 

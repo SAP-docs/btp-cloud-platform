@@ -2,7 +2,7 @@
 
 # Analyzing the Performance of SQL Statements Running on Your ABAP Environment
 
-Learn how you can use SQL EXPLAIN and SQL trace analysis in the ABAP environment.
+Learn how you can use SQL statement and trace analysis in the ABAP environment.
 
 Data retrieval and modification via SQL statements is the main business of the SAP HANA database in your ABAP Environment. When you develop new applications, or when you operate applications productively, you want to analyze the performance of the SQL statements executed by your applications on the database.
 
@@ -16,12 +16,4 @@ When you analyze statement performance, you typically have one of the following 
 
 
 For each of the scenarios, we show you how to proceed here.
-
-
-
-<a name="loio3b27703e7ad24982931db245f23d6bcf__section_bsb_jkr_spb"/>
-
-## Prerequisites
-
-For using SQL EXPLAIN and SQL trace analysis, you need a business role based on the business role template `SAP_BR_DEVELOPER`.
 

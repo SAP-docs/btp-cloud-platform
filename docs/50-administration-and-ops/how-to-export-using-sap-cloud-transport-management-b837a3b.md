@@ -8,12 +8,15 @@
 
 ## Context
 
+> ### Note:  
+> Please read more about the used user role called Release Manager here: [https://help.sap.com/docs/btp/sap-business-technology-platform/required-business-roles?version=Cloud](https://help.sap.com/docs/btp/sap-business-technology-platform/required-business-roles?version=Cloud)
+
 1.  A developer creates and modifies ABAP coding in the SAP BTP, ABAP environment by using the Eclipse-based IDE \(ABAP Development Tools\) with a rich debugger, troubleshooting, and testing tool support.
 2.  The changes are recorded in an ABAP transport request that is finally released. During the release, the changes are committed and pushed to the configured development branch of the corresponding Git repository \(there is a one-to-one relation between an ABAP software component and a Git repository\).
 3.  After testing and after the release decision, a release branch is created from the main branch.
-4.  The resulting combination of the corresponding software component and either the commit ID, Git tag, or the branch name is used as a reference by the following export call to the cloud transport management service \(cTMS\). It is recommended using the commit ID, because the latest commit of a branch may change, resulting in unreproducible deployments.
+4.  The resulting combination of the corresponding software component and either the commit ID, or the branch name is used as a reference by the following export call to the cloud transport management service \(cTMS\). It is recommended using the commit ID, because the latest commit of a branch may change, resulting in unreproducible deployments.
 5.  In cTMS a transport request is created containing the reference and added to the import queue of the following cTMS node \(given by the configured service transport route\).
-6.  Finally, a transport administrator uses the cloud transport management service UI to generate the import to the SAP BTP, ABAP system configured on the cTMS transport route. In doing so, the service calls an import API of the target SAP BTP, ABAP environment system by passing the reference.
+6.  Finally, a transport operator uses the cloud transport management service UI to generate the import to the SAP BTP, ABAP system configured on the cTMS transport route. In doing so, the service calls an import API of the target SAP BTP, ABAP environment system by passing the reference.
 7.  The import is done asynchronously, and the progress status is monitored by the service. When the import is finished, the service receives the transport logs from the target SAP BTP, ABAP environment instance.
 
 
@@ -33,13 +36,13 @@ Before we can start releasing transport requests that generate commits, a new co
 
 5.  On the communication system creation page find general properties and define the *Host Name* parameter according to the URI property in the service key created for SAP Cloud Transport Management service. For example *https://transport-service-app-backend.ts.cfapps.eu10.hana.ondemand.com*
 
-6.  Then find *OAuth 2.0 Settings* and put in a *Token Endpoint*, which is the URL from your service key. For example tmststest.authentication.sap.hana.ondemand.com/oauth/token?grant\_type=client\_credentials
+6.  Then find *OAuth 2.0 Settings* and put in a *Token Endpoint*, which is the URL from your service key. For example tmststest.authentication.sap.hana.ondemand.com/oauth/token
 
     .
 
 7.  Now it's time to create a user for outbound communication. Click on *\+* and select oAuth 2.0 from the authentication method dropdown.
 
-8.  Type in your OAuth 2.0 client ID and client secret that can be taken from the service key for the basic authentication. Click on *Create*.
+8.  Type in your client ID and client secret from the service key. Click on *Create*.
 
 9.  Define a cTMS node name that you will need for the export. The selected transport node must allow uploads and you should use the same name when creating the communication arrangement and creating the same in cTMS.
 

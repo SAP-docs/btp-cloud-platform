@@ -9,7 +9,9 @@
 ## Overview
 
 > ### Note:  
-> EU Access is not available for the SAP S/4HANA Cloud Extensibility service, and the integration is not supported for SAP Marketing Cloud systems that require EU Access.
+> The SAP S/4HANA Cloud Extensibility service is availble for the EU-only access regions for feature set B global accounts. See [Regions](https://help.sap.com/docs/btp/sap-business-technology-platform/regions).
+> 
+> EU Access is not available for feature set A global accounts for the SAP S/4HANA Cloud Extensibility service.
 
 SAP BTP offers a standard way for extending SAP solutions.
 

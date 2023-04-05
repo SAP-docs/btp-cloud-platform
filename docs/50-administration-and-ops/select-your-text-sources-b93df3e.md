@@ -87,5 +87,5 @@ Select the text sources that you want to have translated.
 **Related Information**  
 
 
-[Select your Source and Target Language](select-your-source-and-target-language-85823ef.md)
+[Select Your Source and Target Language](select-your-source-and-target-language-85823ef.md)
 

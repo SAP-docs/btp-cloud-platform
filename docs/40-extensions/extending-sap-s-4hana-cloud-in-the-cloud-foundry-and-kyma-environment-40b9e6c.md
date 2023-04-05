@@ -11,7 +11,9 @@ Extend SAP S/4HANA Cloud with extension applications running on the cloud platfo
 ## Overview
 
 > ### Note:  
-> EU Access is not available for SAP S/4HANA Cloud Extensibility service, and the integration is not supported for SAP S/4HANA Cloud tenants that require EU Access.
+> The SAP S/4HANA Cloud Extensibility service is availble for the EU-only access regions for feature set B global accounts. See [Regions](https://help.sap.com/docs/btp/sap-business-technology-platform/regions).
+> 
+> EU Access is not available for feature set A global accounts for the SAP S/4HANA Cloud Extensibility service.
 
 The extension capabilities of SAP BTP offer a standard way for extending SAP S/4HANA Cloud and developing event-driven extensions and applications.
 

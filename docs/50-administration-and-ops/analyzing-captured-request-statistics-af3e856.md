@@ -11,7 +11,7 @@ Get an overview of the request statistics that you have captured using the *Capt
 With the *Capture Request Statistics* app, you can define conditions for which request statistics are collected in the system \(see [Capturing Request Statistics](capturing-request-statistics-e86943a.md)\). You can use the technical monitoring cockpit to view the results.
 
 > ### Note:  
-> Before ABAP statistics records are shown in the technical monitoring cockpit, they are captured and processed by a collector job that runs every two minutes, so you must expect that captured request statistics are displayed with a delay of two minutes.
+> Before ABAP statistics records are shown in the technical monitoring cockpit, they are captured and processed by a collector that runs every minute, so you must expect that captured request statistics are displayed with a delay.
 
 
 

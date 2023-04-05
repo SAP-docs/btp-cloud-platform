@@ -17,3 +17,8 @@ For more information, see
 -   [Reading a Change Document Object Definition](reading-a-change-document-object-definition-798cf04.md)
 
 
+**Related Information**  
+
+
+[Working with Change Document Objects](https://help.sap.com/docs/btp/sap-abap-development-user-guide/working-with-change-document-objects)
+

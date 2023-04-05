@@ -33,3 +33,8 @@ You can build and edit communication arrangements that your organization has set
 > ### Note:  
 > For the collection of sample classes available in the following GIT Hub location ***https://github.com/SAP-samples/abap-cmis-client-sample*** that helps you to use SAP Document Management Service, Integration option, in the SAP BTP, ABAP environment.
 
+**Related Information**  
+
+
+[Create a Communication Arrangement](create-a-communication-arrangement-b7a87fd.md "Create a communication arrangement in the ABAP environment.")
+

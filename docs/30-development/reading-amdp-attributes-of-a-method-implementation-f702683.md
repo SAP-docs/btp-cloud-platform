@@ -1,4 +1,4 @@
-<!-- loioeebe872c2a08455cb3db661dcfae6ad0 -->
+<!-- loiof7026832be0a4e49847ddb53a902ff1c -->
 
 # Reading AMDP Attributes of a Method Implementation
 
@@ -26,7 +26,7 @@ Given a class with an AMDP method implementation such as
 > ENDCLASS.
 > ```
 
-the AMDP attributes of the method implementation can read out as follows:
+the AMDP attributes of the method implementation can be read out as follows:
 
 > ### Sample Code:  
 > ```abap

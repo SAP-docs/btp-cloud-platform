@@ -408,14 +408,14 @@ Follow these steps to define your ABAP Solution.
     </td>
     <td valign="top">
 
-    String containing a regular expression with a capturing group. The **subdomain of the consumer** is matched against this regular expression. The value of the first capturing group is used as consumer id.
+    String containing a regular expression with a capturing group. The **subdomain of the consumer** is matched against this regular expression. The value of the first capturing group is used as consumer ID.
 
 
     
     </td>
     <td valign="top">
 
-    To allow the provider to group his consumer subaccounts based on an self choosen consumer identifier.
+    To allow the provider to group his consumer subaccounts based on a self-chosen consumer identifier.
 
     This becomes relevant, when the provider creates the consumer subaccounts in his own provider global account and he has multiple subaccounts for one consumer \(e.g. Test & Prod\).
 
