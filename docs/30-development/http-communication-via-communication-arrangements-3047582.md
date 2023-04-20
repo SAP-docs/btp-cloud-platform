@@ -142,9 +142,8 @@ You've created a communication scenario as described in [Defining a Communicatio
 >         DATA(lo_request) = lo_http_client->get_http_request( ).      
 >         DATA(lo_response) = lo_http_client->execute( if_web_http_client=>get ).
 >          
->       CATCH cx_http_dest_provider_error into data(lx_http_dest_provider_error).
->         out->write( lx_http_dest_provider_error->get_text( ) ).
->         EXIT.
+>       CATCH cx_http_dest_provider_error.
+>         " handle exception here
 >          
 >       CATCH cx_web_http_client_error.
 >         " handle exception here

@@ -107,7 +107,7 @@ SAP BTP Cloud Foundry Destination Service Integration \(SAP\_COM\_0276\).
 <tr>
 <td valign="top">
 
-External Scheduler \)SAP\_COM\_0326\)- Application Job Administration Integration
+External Sheduler - Application Job Administration Integration
 
 
 
@@ -379,22 +379,6 @@ FLP Content Exposure Integration \(SAP\_COM\_0647\)
 <tr>
 <td valign="top">
 
-SAP Document Management Service - Outbound Integration \(SAP\_COM\_0668\) - Integrating SAP Document Management Service
-
-
-
-</td>
-<td valign="top">
-
-[https://help.sap.com/docs/btp/sap-business-technology-platform/integrating-sap-document-management-service?version=Cloud](https://help.sap.com/docs/btp/sap-business-technology-platform/integrating-sap-document-management-service?version=Cloud)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Enabling Notifications \(SAP\_COM\_0683\)
 
 
@@ -403,22 +387,6 @@ Enabling Notifications \(SAP\_COM\_0683\)
 <td valign="top">
 
 [Enabling Notifications on SAP BTP, ABAP environment in Launchpads Running on SAP BTP](enabling-notifications-on-sap-btp-abap-environment-in-launchpads-running-on-sap-btp-ba62b2a.md)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-CSN Exposure Integration \(SAP\_COM\_0722\)
-
-
-
-</td>
-<td valign="top">
-
- 
 
 
 
@@ -499,70 +467,6 @@ Factory Calendar - Pull Integration \(SAP\_COM\_0834\)
 <td valign="top">
 
 [How to export using SAP Cloud Transport Management](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-export-using-ctms?state=DRAFT&q=how%20to%20export%20using%20)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Enterprise Eventing Integration \(SAP\_COM\_0092\) - Integrating Enterprise Event Enablement
-
-
-
-</td>
-<td valign="top">
-
-[https://help.sap.com/docs/btp/sap-business-technology-platform/integrating-enterprise-event-enablement?version=Cloud](https://help.sap.com/docs/btp/sap-business-technology-platform/integrating-enterprise-event-enablement?version=Cloud)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
 
 
 

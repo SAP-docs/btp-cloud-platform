@@ -1,4 +1,4 @@
-<!-- copy99b5822a5a4a45ce9647f8c069bd570d -->
+<!-- loioce394703945d426a97e1e0cad524946d -->
 
 # Retrieving Security Audit Log
 
@@ -6,7 +6,7 @@ With `SecurityAuditLog` you can retrieve the Security Audit Log by using the HTT
 
 
 
-<a name="copy99b5822a5a4a45ce9647f8c069bd570d__section_jzq_tvt_zhb"/>
+<a name="loioce394703945d426a97e1e0cad524946d__section_jzq_tvt_zhb"/>
 
 ## Request
 
@@ -232,7 +232,7 @@ Program Name
 
 
 
-<a name="copy99b5822a5a4a45ce9647f8c069bd570d__section_ztj_5wt_zhb"/>
+<a name="loioce394703945d426a97e1e0cad524946d__section_ztj_5wt_zhb"/>
 
 ## Response
 
@@ -240,7 +240,7 @@ The operation returns the Security Audit Log.
 
 
 
-<a name="copy99b5822a5a4a45ce9647f8c069bd570d__section_mwv_vwt_zhb"/>
+<a name="loioce394703945d426a97e1e0cad524946d__section_mwv_vwt_zhb"/>
 
 ## Examples
 

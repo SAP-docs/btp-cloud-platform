@@ -49,12 +49,8 @@ In order to implement the reusable component in a Fiori Elements app, you first 
     >         "componentUsage": "ApplicationLogs",
     >         "title": "<the name of the tab>",
     >         "settings": {
-    >             "logNumber": "<your content>",
     >             "logHandle": "{LogHandle}",
-    >             "logFilterFieldName": "<your content>",
-    >             "logFilterFieldValue": "<your content>",
-    >             "persistencyKey": "<your content>",
-    >             "showContextFields": false
+    >             "persistencyKey": "<your content>"
     >         }
     >     }
     > }
@@ -64,45 +60,28 @@ In order to implement the reusable component in a Fiori Elements app, you first 
 
     -   **log handle**: The application log handle
 
-    -   **Optional logNumber**: The application log number. This is evaluated only if the logHandle is not provided.
-
-        Please be aware that an additional backend roundtrip will be done in order to get the logHandle, which is the key in the OData Service of the application log. To avoid this additional roundtrip, we recommend using LogHandle. If you don't have the LogHandle, you can the use function module `BAL_DB_SEARCH` to retrieve it.
-
     -   **Optional persistencyKey**: Set a personalization key which is then used to set app-specific variants for `SmartFilterBar` or `SmartTable`. This parameter is optional. The default value is defined in the *Application Log* app.
 
         Make sure not to change the key value again, since users might lose their variants.
 
 
-5.  You can set optional parameters to filter the data. These parameters can be combined with `LogHandle` or `LogNumber`:
-
-    -   **logFilterFieldName**: The name of the field that is used to filter the data
-
-    -   **logFilterFieldValue**: The value of the field that is used to filter the data
-
-
-    > ### Note:  
-    > Example
-    > 
-    > The application log for a purchase order can be filtered by a line item. In that case, a separate customer field has to be added to the log data, such as `LINE_ITEM`. After that, it's possible to navigate with `LogFilterFieldName=LINE_ITEM` and `LogFilterFieldValue=<line_item_xyz>`.
-
-    -   The values must be added as a comma-separated list \(see the example\). Also, the values of the parameters `FilterFieldName` and `FilterFieldValue` must be in the same order.
-
-    -   It's also possible to add two values to the same field name:
-
-        -   `logFilterFieldName`: \[ "KEY,KEY" \]
-
-        -   `logFilterFieldValue`: \[ "005056BA23B61EE5BC854FAE29111111,005056BA23B61EE5BC854FAE29122222" \]
-
-
-
-    -   **Optional showContextFields**: By default, the dynamic context fields of a log are not visible in the reuse component. If this parameter is set to true, the context fields will also be displayed.
-
-
-6.  Here are some examples for binding:
+5.  Here are some examples for binding:
 
     -   `logHandle`: `{myOdataServiceLogHandle}`
 
     -   `logHandle`: `{path: 'myOdataServiceLogHandle'}`
 
+
+    After your app was deployed successfully to an SAP BTP, ABAP environment system, the *BSP application* and the *SAP Fiori Launchpad* app descriptor item will appear under your created package in Eclipse.
+
+    ![](images/Eclipse_ABAP_Environment_e0a96c5.png) 
+
+6.  Now, you need to create a new *IAM App*. Follow the instructions described here: [Defining an IAM App for the Business Service](defining-an-iam-app-for-the-business-service-3fb85a8.md).
+
+7.  Once created, you need to maintain the *Application Log* OData Service to call your application log data. To do this, go to the *Service* tab and add the *Application Log OData Service* by naming the service type `OData V2` and add the following service name: `APL_LOG_MANAGEMENT_SRV 0001`. Please make sure to add all 13 spaces in between `SRV` and `0001`. Now, go to the *Authorization* tab and maintain your *log objects / sub objects* for the authorization object `S_APPL_LOG`.
+
+8.  Finally, you need to create a new *Business Catalog*. Please follow the procedure described here: [Creating a Business Catalog](creating-a-business-catalog-d120838.md) 
+
+    Having created the business catalog, you have successfully implemented a reusable component to display your application logs.
 
 

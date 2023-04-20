@@ -76,6 +76,22 @@ Behavior Definition
 <tr>
 <td valign="top">
 
+CFDF
+
+
+
+</td>
+<td valign="top">
+
+Custom Field
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 CHDO
 
 
@@ -276,6 +292,22 @@ ENHS
 <td valign="top">
 
 Enhancement Spot Object
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EVTB
+
+
+
+</td>
+<td valign="top">
+
+Event Binding
 
 
 

@@ -38,8 +38,7 @@ To be able to use the reusable components, you need to adapt the code that can b
     > "persistencyKey": "MY_LOG_DISPLAY_VIEW",
     > "showHeader": false,
     > "showFilterBar": false,
-    > "showAsTree": false,
-    > "showContextFields": false
+    > "showAsTree": false
     > }
     > }).then(function (oComp) {
     > that.byId("LogMessagesControlContainer").setComponent(oComp);
@@ -70,7 +69,7 @@ To be able to use the reusable components, you need to adapt the code that can b
 
 4.  Now, you need to create a new *IAM App*. Follow the instructions described here: [Defining an IAM App for the Business Service](defining-an-iam-app-for-the-business-service-3fb85a8.md).
 
-5.  Once created, you need to maintain the *Application Log* OData Service to call your application log data. To do this, go to the *Service* tab and add the *Application Log OData Service* by naming the service type `OData V2` and add the following service name: `APL_LOG_MANAGEMENT_SRV 0001`. Please make sure to add all 13 spaces in between `SRV` and `0001`. Now, go to the *Authorization* tab and maintain your *log objects / sub objects* for the authorization object `S_APPL_LOG`.
+5.  Once created, you need to maintain the *Application Log* OData Service to call your application log data. To do this, go to the *Service* tab and add the *Application Log OData Service* by naming the service type `OData V2` and add the following service name: `APL_LOG_MANAGEMENT_SRV             0001`. Mind that all 13 spaces between `SRV` and `0001` are required. Now, go to the *Authorization* tab and maintain your *log objects / sub objects* for the authorization object `S_APPL_LOG`.
 
 6.  Finally, you need to create a new *Business Catalog*. Please follow the procedure described here: [Creating a Business Catalog](creating-a-business-catalog-d120838.md) 
 

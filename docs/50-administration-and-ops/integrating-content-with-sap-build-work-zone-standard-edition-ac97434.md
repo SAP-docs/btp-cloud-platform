@@ -2,7 +2,7 @@
 
 # Integrating Content with SAP Build Work Zone, standard edition
 
-Get an overview of the process for integrating content to the SAP Launchpad service. This process is composed of a content exposure flow and a content consumption flow.
+Get an overview of the process for integrating content to the SAP Build Work Zone, standard edition. This process is composed of a content exposure flow and a content consumption flow.
 
 
 
@@ -18,13 +18,13 @@ For a description of the steps required to set up the communication scenario `SA
 
 <a name="loioac974343c1e249829303eedce4dd1eba__section_u1r_1cw_gsb"/>
 
-## Consuming Content in SAP Launchpad Servie
+## Consuming Content in SAP Build Work Zone, standard edition
 
 **Prerequisite**
 
-Launchpad content from the same system/client has been transferred to SAP Launchpad service using `SAP_COM_0647` - SAP Fiori Launchpad Content Exposure Integration.
+Launchpad content from the same system/client has been transferred to SAP Build Work Zone, standard edition using `SAP_COM_0647` - SAP Fiori Launchpad Content Exposure Integration.
 
-[Content Consumption - Launchpad Service](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/d92cf2f5dfea4959beddc28b005da441.html)
+[Content Consumption - Cloud Solutions](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/d92cf2f5dfea4959beddc28b005da441.html)
 
 [Content Consumption - Portal Service](https://help.sap.com/viewer/ad4b9f0b14b0458cad9bd27bf435637d/Cloud/en-US/d92cf2f5dfea4959beddc28b005da441.html)
 
@@ -33,5 +33,5 @@ Launchpad content from the same system/client has been transferred to SAP Launch
 **Related Information**  
 
 
-[Set SAP BTP, ABAP Environment as a Content Provider for SAP Launchpad Service](https://developers.sap.com/tutorials/abap-environment-lp-service-content-provider.html)
+[Set SAP BTP, ABAP Environment as a Content Provider for SAP Build Work Zone, standard edition](https://developers.sap.com/tutorials/abap-environment-lp-service-content-provider.html)
 
