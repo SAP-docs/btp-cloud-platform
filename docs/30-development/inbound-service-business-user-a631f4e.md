@@ -73,6 +73,13 @@ Cardinality
 
 
 </th>
+<th valign="top">
+
+Necessity
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top" colspan="3">
@@ -84,9 +91,7 @@ Cardinality
 </td>
 <td valign="top">
 
-Person External ID
-
-Mandatory for business partner category role BUP003 \(Employee\) at creation.
+The Person External ID is the ID of the employee.
 
 
 
@@ -105,6 +110,15 @@ Mandatory for business partner category role BUP003 \(Employee\) at creation.
 
 
 </td>
+<td valign="top">
+
+Mandatory for create for business partner category \(`BUP003` - Employee\).
+
+Optional for update \(at least one of the person IDs is mandatory.\)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="3">
@@ -116,9 +130,7 @@ Mandatory for business partner category role BUP003 \(Employee\) at creation.
 </td>
 <td valign="top">
 
-Person ID
-
-At least one of the person IDs is mandatory.
+Person ID is the ID of the business partner.
 
 
 
@@ -137,6 +149,15 @@ At least one of the person IDs is mandatory.
 
 
 </td>
+<td valign="top">
+
+Optional
+
+\(At least one of the person IDs is mandatory.\)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="3">
@@ -148,9 +169,7 @@ At least one of the person IDs is mandatory.
 </td>
 <td valign="top">
 
-Person UUID
-
-At least one of the person IDs is mandatory.
+Person UUID is the unique ID of the business partner.
 
 
 
@@ -169,6 +188,15 @@ At least one of the person IDs is mandatory.
 
 
 </td>
+<td valign="top">
+
+Optional
+
+\(At least one of the person IDs is mandatory.\)
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="3">
@@ -181,10 +209,6 @@ At least one of the person IDs is mandatory.
 <td valign="top">
 
 Business Partner Role Code
-
-Only business partner role code BUP003 \(Employee\) is supported.
-
-This field is mandatory.
 
 
 
@@ -199,6 +223,15 @@ This field is mandatory.
 <td valign="top">
 
 0..1
+
+
+
+</td>
+<td valign="top">
+
+Mandatory for create for Business partner category \(`BUP003` - Employee\).
+
+Optional for update.
 
 
 
@@ -247,6 +280,13 @@ Set to **False**:
 
 
 </td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" rowspan="2">
@@ -288,6 +328,13 @@ By default, the system date is set.
 
 
 </td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
@@ -316,6 +363,13 @@ By default, 9999-12-31 is set.
 <td valign="top">
 
 0..1
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 
@@ -359,6 +413,13 @@ Form of address
 
 
 </td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
@@ -385,6 +446,13 @@ First name
 <td valign="top">
 
 0..1
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 
@@ -421,6 +489,13 @@ This field is mandatory.
 
 
 </td>
+<td valign="top">
+
+Mandatory
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
@@ -447,6 +522,13 @@ Person full name
 <td valign="top">
 
 0..1
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 
@@ -481,6 +563,13 @@ Academic title
 
 
 </td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
@@ -507,6 +596,13 @@ Correspondence language
 <td valign="top">
 
 0..1
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 
@@ -541,6 +637,13 @@ Middle name
 
 
 </td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
@@ -567,6 +670,13 @@ Additional last name
 <td valign="top">
 
 0..1
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 
@@ -601,6 +711,13 @@ Birth name
 
 
 </td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
@@ -627,6 +744,13 @@ Nick name
 <td valign="top">
 
 0..1
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 
@@ -661,6 +785,13 @@ Initials
 
 
 </td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
@@ -687,6 +818,13 @@ Academic second title
 <td valign="top">
 
 0..1
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 
@@ -721,6 +859,13 @@ Last name prefix
 
 
 </td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
@@ -751,6 +896,13 @@ Last name second prefix
 
 
 </td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
@@ -777,6 +929,13 @@ Name supplement
 <td valign="top">
 
 0..1
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 
@@ -820,13 +979,23 @@ optional
 
 
 </td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
 </tr>
 <tr>
-<td valign="top" rowspan="13">
+<td valign="top" rowspan="15">
 
 `User` **\(only for Cloud\)**
 
 Cardinality: 0..1
+
+> ### Note:  
+> For more information about default values, see [Defaulting of User Attributes](https://launchpad.support.sap.com/#/notes/3089625).
 
 
 
@@ -859,6 +1028,13 @@ User name/Alias
 
 
 </td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
@@ -885,6 +1061,13 @@ Logon language
 <td valign="top">
 
 0..1
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 
@@ -944,6 +1127,13 @@ You can use the following values:
 
 
 </td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
@@ -981,6 +1171,13 @@ You can use the following values:
 
 
 </td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
@@ -1007,6 +1204,13 @@ Time zone
 <td valign="top">
 
 0..1
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 
@@ -1052,6 +1256,13 @@ You can use the following values:
 
 
 </td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
@@ -1082,6 +1293,13 @@ Locked indicator
 
 
 </td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" rowspan="2">
@@ -1106,7 +1324,7 @@ Format:
 
 YYYY-MM-DD
 
-If no start date is maintained for the `User`, the `StartDate` for the `BusinessUser` is entered.
+If the start date is not maintained for the `User`, the `StartDate` for the `BusinessUser` is entered.
 
 
 
@@ -1121,6 +1339,13 @@ If no start date is maintained for the `User`, the `StartDate` for the `Business
 <td valign="top">
 
 1
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 
@@ -1140,7 +1365,7 @@ Format:
 
 YYYY-MM-DD
 
-If no `EndDate` is maintained, it is set to 9999-12-31.
+If the `EndDate` is not maintained, it is set to 9999-12-31.
 
 
 
@@ -1155,6 +1380,13 @@ If no `EndDate` is maintained, it is set to 9999-12-31.
 <td valign="top">
 
 1
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 
@@ -1198,6 +1430,13 @@ Role name
 
 
 </td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1230,7 +1469,86 @@ Mandatory if \[6\] is not set and role name data is given.
 </td>
 <td valign="top">
 
-optional
+Optional
+
+
+
+</td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+GlobalUserID
+
+
+
+</td>
+<td valign="top">
+
+Used to uniquely identify your business user across different systems.
+
+
+
+</td>
+<td valign="top">
+
+36
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+UserGroupCode
+
+
+
+</td>
+<td valign="top">
+
+Assign a business user to an existing user group.
+
+
+
+</td>
+<td valign="top">
+
+12
+
+
+
+</td>
+<td valign="top">
+
+0..1
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 
@@ -1269,7 +1587,14 @@ Mandatory if \[3\] is not set and user data \(`UserName` and `Role`\) are given.
 </td>
 <td valign="top">
 
-optional
+Optional
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 
@@ -1285,7 +1610,7 @@ optional
 </td>
 <td valign="top">
 
-CTI for the `Role` node.
+CTI for the `Role` node
 
 See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d14474384beb3__CTI_Note) for more information.
 
@@ -1299,7 +1624,14 @@ See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d
 </td>
 <td valign="top">
 
-optional
+Optional
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 
@@ -1343,6 +1675,13 @@ User ID
 
 
 </td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
@@ -1377,7 +1716,14 @@ Mandatory if \[4\] is not set and User ID data are given.
 </td>
 <td valign="top">
 
-optional
+Optional
+
+
+
+</td>
+<td valign="top">
+
+N/A
 
 
 
@@ -1386,9 +1732,7 @@ optional
 <tr>
 <td valign="top" rowspan="13">
 
-`WorkplaceInformation`
-
-Cardinality: 0..1
+ `WorkplaceInformation` 
 
 
 
@@ -1417,6 +1761,13 @@ Email address
 <td valign="top">
 
 0..1
+
+
+
+</td>
+<td valign="top">
+
+N/A
 
 
 
@@ -1467,6 +1818,13 @@ Phone type
 
 
 </td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1499,6 +1857,13 @@ Used for both phone types.
 
 
 </td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1512,7 +1877,7 @@ Used for both phone types.
 
 Phone number area code
 
-Used for phone type B only.
+Used only for phone type B.
 
 
 
@@ -1527,6 +1892,13 @@ Used for phone type B only.
 <td valign="top">
 
 0..1
+
+
+
+</td>
+<td valign="top">
+
+N/A
 
 
 
@@ -1563,6 +1935,13 @@ Used for both phone types.
 
 
 </td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1576,7 +1955,7 @@ Used for both phone types.
 
 Phone number extension
 
-Used for phone type B only.
+Used only for phone type B.
 
 
 
@@ -1591,6 +1970,13 @@ Used for phone type B only.
 <td valign="top">
 
 0..1
+
+
+
+</td>
+<td valign="top">
+
+N/A
 
 
 
@@ -1629,7 +2015,14 @@ Mandatory if \[7\] is not set and phone data is given.
 </td>
 <td valign="top">
 
-optional
+Optional
+
+
+
+</td>
+<td valign="top">
+
+N/A
 
 
 
@@ -1664,6 +2057,13 @@ Functional title name
 
 
 </td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
@@ -1690,6 +2090,13 @@ Department name
 <td valign="top">
 
 0..1
+
+
+
+</td>
+<td valign="top">
+
+N/A
 
 
 
@@ -1724,6 +2131,13 @@ Room number
 
 
 </td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
@@ -1750,6 +2164,13 @@ Building name
 <td valign="top">
 
 0..1
+
+
+
+</td>
+<td valign="top">
+
+N/A
 
 
 
@@ -1788,7 +2209,14 @@ Mandatory if \[5\] is not set and workplace information data is given.
 </td>
 <td valign="top">
 
-optional
+Optional
+
+
+
+</td>
+<td valign="top">
+
+N/A
 
 
 
@@ -1804,7 +2232,7 @@ optional
 </td>
 <td valign="top">
 
-CTI for the `PhoneInformation` node.
+CTI for the `PhoneInformation` node
 
 See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d14474384beb3__CTI_Note) for more information.
 
@@ -1818,7 +2246,377 @@ See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d
 </td>
 <td valign="top">
 
-optional
+Optional
+
+
+
+</td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="10">
+
+ `Relationship`\(only for on-premise\)
+
+
+
+</td>
+<td valign="top" rowspan="4">
+
+ `Partner1` 
+
+
+
+</td>
+<td valign="top">
+
+ `BusinessPartnerID` 
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `BusinessPartnerUUID` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `BusinessPartnerExternalID` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `BusinessPartnerExternalIDCategoryCode` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="4">
+
+ `Partner2` 
+
+
+
+</td>
+<td valign="top">
+
+ `BusinessPartnerID` 
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `BusinessPartnerUUID` 
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+0..1
+
+
+
+</td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `BusinessPartnerExternalID` 
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+0..1
+
+
+
+</td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `BusinessPartnerExternalIDCategoryCode` 
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+0..1
+
+
+
+</td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+ `RelationshipCategoryCode` 
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+0..1
+
+
+
+</td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+ `actionCode` 
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
+<td valign="top">
+
+N/A
 
 
 
@@ -1857,7 +2655,14 @@ This attribute is mandatory.
 </td>
 <td valign="top">
 
-optional
+Optional
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 
@@ -1873,7 +2678,7 @@ optional
 </td>
 <td valign="top">
 
-CTI for the `PersonalInformation` node.
+CTI for the `PersonalInformation` node
 
 See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d14474384beb3__CTI_Note) for more information.
 
@@ -1887,7 +2692,14 @@ See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d
 </td>
 <td valign="top">
 
-optional
+Optional
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 
@@ -1903,7 +2715,7 @@ optional
 </td>
 <td valign="top">
 
-CTI for the `User` node.
+CTI for the `User` node
 
 See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d14474384beb3__CTI_Note) for more information.
 
@@ -1917,7 +2729,14 @@ See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d
 </td>
 <td valign="top">
 
-optional
+Optional
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 
@@ -1933,7 +2752,7 @@ optional
 </td>
 <td valign="top">
 
-CTI for the `UserAssignment` node.
+CTI for the `UserAssignment` node
 
 See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d14474384beb3__CTI_Note) for more information.
 
@@ -1947,7 +2766,14 @@ See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d
 </td>
 <td valign="top">
 
-optional
+Optional
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 
@@ -1963,7 +2789,7 @@ optional
 </td>
 <td valign="top">
 
-CTI for the `WorkplaceInformation` node.
+CTI for the `WorkplaceInformation` node
 
 See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d14474384beb3__CTI_Note) for more information.
 
@@ -1977,7 +2803,49 @@ See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d
 </td>
 <td valign="top">
 
-optional
+Optional
+
+
+
+</td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="3">
+
+\[5\] `relationshipListCompleteTransmissionIndicator` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Optional
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 
 

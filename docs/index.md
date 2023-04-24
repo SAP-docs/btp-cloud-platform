@@ -1535,7 +1535,7 @@
             -   [Integration Scenarios](50-administration-and-ops/integration-scenarios-066dadb.md)
                 -   [Integrating Security Audit Logs](50-administration-and-ops/integrating-security-audit-logs-21e27a3.md)
                     -   [Operations for Security Audit Log Integration - Read](50-administration-and-ops/operations-for-security-audit-log-integration-read-1d1d005.md)
-                        -   [Retrieving Security Audit Log](50-administration-and-ops/retrieving-security-audit-log-99b5822.md)
+                        -   [Retrieving Security Audit Log](50-administration-and-ops/retrieving-security-audit-log-ce39470.md)
                 -   [Integrating Business Role Change Documents](50-administration-and-ops/integrating-business-role-change-documents-6426828.md)
                 -   [Integrating Business User Change Documents](50-administration-and-ops/integrating-business-user-change-documents-624988e.md)
                 -   [Integrating Content with SAP Build Work Zone, standard edition](50-administration-and-ops/integrating-content-with-sap-build-work-zone-standard-edition-ac97434.md)

@@ -38,7 +38,7 @@ The final step is to create a deployment configuration and deploy the MTA to you
 
 ## Providing Access to Business Users
 
-After you have deployed the SAP Fiori application, you have to create an IAM app to make your application consumable for business users. This requires assigning the business service to the IAM app. Additionally, you have to use SAP Launchpad service and log on as an administrator to create a role. A corresponding role collection is automatically created in the SAP BTP cockpit. This allows you to assign business users to the role collection in the SAP BTP cockpit. Being assigned to the role collection, business users can access the launchpad site and the app.
+After you have deployed the SAP Fiori application, you have to create an IAM app to make your application consumable for business users. This requires assigning the business service to the IAM app. Additionally, you have to use SAP Build Work Zone, standard edition and log on as an administrator to create a role. A corresponding role collection is automatically created in the SAP BTP cockpit. This allows you to assign business users to the role collection in the SAP BTP cockpit. Being assigned to the role collection, business users can access the launchpad site and the app.
 
 
 
@@ -46,7 +46,7 @@ After you have deployed the SAP Fiori application, you have to create an IAM app
 
 ## Integrating the SAP Fiori App into SAP Fiori launchpad
 
-To make an SAP Fiori application accessible on the SAP Fiori launchpad home page of business users, you have to assign your app to a group and catalog. See [Assign Apps to a Group and to a Catalog](https://help.sap.com/docs/Launchpad_Service/8c8e1958338140699bd4811b37b82ece/6f60d52c7ebc4b698817d6dd45cb5899.html). Afterwards, you need to add content to the HTML5 apps content provider in SAP Launchpad service. The HTML5 apps provider reflects all the HTML5 apps that are deployed to the HTML5 app repository that is assigned to the subaccount. See [HTML5 Apps Content Provider](https://help.sap.com/docs/Launchpad_Service/8c8e1958338140699bd4811b37b82ece/ad2103e2fde342878bcf41a8ae8a0bd8.html) and [Integrate Apps and Shell Plugins](https://help.sap.com/docs/Launchpad_Service/8c8e1958338140699bd4811b37b82ece/60a0b39b56924da9b96b3a83ec9f0942.html).
+To make an SAP Fiori application accessible on the SAP Fiori launchpad home page of business users, you have to assign your app to a group and catalog. See [Assign Apps to a Group and to a Catalog](https://help.sap.com/docs/Launchpad_Service/8c8e1958338140699bd4811b37b82ece/6f60d52c7ebc4b698817d6dd45cb5899.html). Afterwards, you need to add content to the HTML5 apps content provider in SAP Build Work Zone, standard edition. The HTML5 apps provider reflects all the HTML5 apps that are deployed to the HTML5 app repository that is assigned to the subaccount. See [HTML5 Apps Content Provider](https://help.sap.com/docs/Launchpad_Service/8c8e1958338140699bd4811b37b82ece/ad2103e2fde342878bcf41a8ae8a0bd8.html) and [Integrate Apps and Shell Plugins](https://help.sap.com/docs/Launchpad_Service/8c8e1958338140699bd4811b37b82ece/60a0b39b56924da9b96b3a83ec9f0942.html).
 
 **Related Information**  
 

@@ -20,13 +20,6 @@ Read on to learn about the set of data we deliver for these categories.
 > ### Note:  
 > Class `CL_SCAL_API` is still available, but deprecated. We recommend that you use class `CL_FHC_CALENDAR_RUNTIME` and the related interfaces instead. For information about the mapping between SCAL-relevant IDs and FHC-relevant IDs, see the corresponding section below.
 
-> ### Caution:  
-> The following HANA SQL functions are currently not supported:
-> 
-> -   ADD\_WORKINGDAYS
-> 
-> -   WORKDAYS\_BETWEEN
-
 
 
 <a name="loiof7cbd3c336f84dc09c85639c55b4309f__section_uhb_1zv_gsb"/>
