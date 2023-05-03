@@ -71,11 +71,11 @@ Create a destination object using class `cl_http_destination_provider` and metho
     </td>
     <td valign="top">
 
-    -   [OAuth User Token Exchange Authentication](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e3c333f9de6245fca326993f2397c13a.html "Learn about the OAuth2UserTokenExchange authentication type for HTTP destinations in the Cloud Foundry environment: use cases, supported properties and ways to retrieve an access token in an automated way.") :arrow_upper_right:
+    -   [OAuth User Token Exchange Authentication](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/oauth-user-token-exchange-authentication?version=Cloud)
 
-    -   [OAuth SAML Bearer Assertion Authentication](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/c69ea6aacd714ad2ae8ceb5fc3ceea56.html "Create and configure an OAuth SAML Bearer Assertion destination for an application in the Cloud Foundry environment.") :arrow_upper_right:
+    -   [OAuth SAML Bearer Assertion Authentication](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/oauth-saml-bearer-assertion-authentication?version=Cloud)
 
-    -   [OAuth JWT Bearer Authentication](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/283cd2d1c72147a18c69daf681650f07.html "Learn about the OAuth JWT bearer authentication type for HTTP destinations in the Cloud Foundry environment: use cases, supported properties and examples.") :arrow_upper_right:
+    -   [OAuth JWT Bearer Authentication](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/oauth-jwt-bearer-authentication?version=Cloud)
 
 
 
@@ -83,7 +83,7 @@ Create a destination object using class `cl_http_destination_provider` and metho
     </td>
     <td valign="top">
 
-    [Principal Propagation SSO Authentication for HTTP](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/73194cc419894433994c5f0444b4c6a1.html "Forward the identity of a cloud user from a Cloud Foundry application to a backend system via HTTP to enable single sign-on (SSO).") :arrow_upper_right:
+    [Principal Propagation SSO Authentication for HTTP](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/principal-propagation-sso-authentication-for-http?version=Cloud)
 
 
     
@@ -103,11 +103,11 @@ Create a destination object using class `cl_http_destination_provider` and metho
 
     -   Basic Authentication
 
-    -   [Client Authentication Types for HTTP Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/4e13a04147314e8e9e54321f25d93fdc.html "Find details about client authentication types for HTTP destinations in the Cloud Foundry environment.") :arrow_upper_right:
+    -   [Client Authentication Types for HTTP Destinations](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/client-authentication-types-for-http-destinations?version=Cloud)
 
-    -   [OAuth Client Credentials Authentication](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/4e1d742a3d45472d83b411e141729795.html "Create and configure an OAuth2ClientCredentials destination to consume OAuth-protected resources from a Cloud Foundry application.") :arrow_upper_right:
+    -   [OAuth Client Credentials Authentication](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/oauth-client-credentials-authentication?version=Cloud)
 
-    -   [OAuth Password Authentication](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/452357cdd82a4c0ba6095b36c0057526.html "Learn about the OAuth password authentication type for HTTP destinations in the Cloud Foundry environment: use cases, supported properties and examples.") :arrow_upper_right:
+    -   [OAuth Password Authentication](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/oauth-password-authentication?version=Cloud)
 
 
 
@@ -171,7 +171,7 @@ The actual processing of an HTTP request and its response is shown in the follow
 
 ## Test Your Outbound Call
 
-To test your outbound call, configure an HTTP destination as described in [Create HTTP Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/783fa1c418a244d0abb5f153e69ca4ce.html "Create HTTP destinations in the Destinations editor (SAP BTP cockpit).") :arrow_upper_right:.
+To test your outbound call, configure an HTTP destination as described in [Create HTTP Destinations](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/create-http-destinations?version=Cloud).
 
 **Authentication Methods**
 

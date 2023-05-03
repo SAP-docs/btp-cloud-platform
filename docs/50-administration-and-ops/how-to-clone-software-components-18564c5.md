@@ -10,6 +10,10 @@
 
 If a software component is not locally in your system yet, you will first need to clone it once to import it into your system.
 
+You can now deactivate the rollback mechanism for clone actions in the Manage Software Components Fiori App. The clone rollback should only be deactivated in exceptional cases.
+
+Example of a use case: If you have a faulty remote repository \(software component\) but no development system on which the repository \(software component\) is still available locally. Then you need a way to clone the faulty software component and fix the errors.
+
 > ### Note:  
 > Cloning a software component is only necessary once per system instance.
 
@@ -29,7 +33,7 @@ If a software component is not locally in your system yet, you will first need t
     > There is no input validation for the entered values for the options *By Tag* and *By Commit*. If the entered values are not valid the cloning process will start, but will be shown as failed in the end of the cloning process. In this case, the clone *Latest* option is automatically called as a fallback. With this, the repository is still useable, but not in the orginally requested version.
 
     > ### Note:  
-    > If the initial clone of a software component runs into errors, the partly imported objects will be removed again from the system instance and the system will be kept clean. Please note that this rollback mechanism is only available for production systems.
+    > If the initial clone of a software component runs into errors, the partly imported objects will be removed again from the system instance and the system will be kept clean. The clone rollback is now available for all system types.
 
 4.  The software component with the selected branch is now imported into your current system instance. The *Clone* button turns into a *Pull* button. From now on, you can use it to pull \(remotely available\) changes of your software component to your system.
 

@@ -390,6 +390,50 @@ No
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+EVTB
+
+
+
+</td>
+<td valign="top">
+
+Event Binding
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+<td valign="top">
+
+XCO\_CP\_EVENT\_BINDING=\>ORIGIN
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+<td valign="top">
+
+No
+
+
+
+</td>
+</tr>
+<tr>
 <td valign="top" rowspan="2">
 
 FUGR
@@ -575,28 +619,72 @@ Service Binding
 </td>
 <td valign="top">
 
+Yes
+
+
+
+</td>
+<td valign="top">
+
+XCO\_CP\_SERVICE\_BINDING=\>ORIGIN
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+<td valign="top">
+
 No
 
 
 
 </td>
+</tr>
+<tr>
 <td valign="top">
 
-\-
+SRVC
 
 
 
 </td>
 <td valign="top">
 
-\-
+Service Consumption Model
 
 
 
 </td>
 <td valign="top">
 
-\-
+Yes
+
+
+
+</td>
+<td valign="top">
+
+XCO\_CP\_SERVICE\_CONS\_MODEL=\>ORIGIN
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+<td valign="top">
+
+No
 
 
 

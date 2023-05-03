@@ -18,7 +18,7 @@ The following procedure outlines the steps you need to perform to consume the AP
     > ### Note:  
     > In the formation type *Developing with SAP Business Application Studio*, you can include only SAP systems of type *SAP S/4HANA Cloud*.
 
-    To enable connectivity between given SAP systems of type *SAP S/4HANA Cloud* from the *System Landscape* page of SAP BTP cockpit and the SAP Business Application Studio, you must create a formation of the corresponding type and include the SAP S/4HANA Cloud systems in it. See [Including SAP Systems in a Formation](including-sap-systems-in-a-formation-68b04fa.md).
+    To enable connectivity between given SAP systems of type *SAP S/4HANA Cloud* from the *System Landscape* page of SAP BTP cockpit and the SAP Business Application Studio, you must create a formation of the corresponding type and include the SAP S/4HANA Cloud systems in it. See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
 
 3.  Create a destination and make sure it has the corresponding system and consumption bundle properties.
 

@@ -1316,6 +1316,74 @@ Identity and Access Management
 <tr>
 <td valign="top">
 
+Identity and Access Management
+
+
+
+</td>
+<td valign="top">
+
+[Maintain Business User Groups](maintain-business-user-groups-24f5b79.md)
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_IAM_GRP_PC`
+
+*Identity and Access Management - Group Management*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Identity and Access Management
+
+
+
+</td>
+<td valign="top">
+
+[Maintain Business Role Groups](maintain-business-role-groups-72b48de.md)
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_IAM_GRP_PC`
+
+*Identity and Access Management - Group Management*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Security
 
 
@@ -1977,7 +2045,7 @@ Message Monitoring
 </td>
 <td valign="top">
 
- [SOAP Error Log and OData Error Log](soap-error-log-and-odata-error-log-e5799c5.md) 
+ [SOAP Error Log, OData Error Log, and Event Error Log](soap-error-log-odata-error-log-and-event-error-log-e5799c5.md) 
 
 
 
@@ -2620,6 +2688,78 @@ Technical Monitoring
 <td valign="top">
 
 `SAP_CORE_BC_TMC`
+
+*Technical Monitoring*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Technical Monitoring
+
+
+
+</td>
+<td valign="top">
+
+[Sampled Work Process Data](sampled-work-process-data-14df8cc.md)
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+`SAP_BR_DEVELOPER`
+
+*Developer*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_TMC`
+
+*Technical Monitoring*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Technical Monitoring
+
+
+
+</td>
+<td valign="top">
+
+[Partition HANA Tables](partition-hana-tables-c2af316.md)
+
+
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_COT_PC`
 
 *Technical Monitoring*
 

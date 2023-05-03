@@ -52,7 +52,7 @@ If you need support or experience issues, please report an incident under compon
 **Related Information**  
 
 
-[How to Create a Business Role from Scratch](how-to-create-a-business-role-from-scratch-f65e51a.md "Get an overview of how to create a business role from scratch based on selected business catalogs.")
+[How to Create a New Business Role](how-to-create-a-new-business-role-f65e51a.md "Get an overview of how to create a new business role from scratch based on selected business catalogs.")
 
 [How to Create a Business Role from a Template](how-to-create-a-business-role-from-a-template-ec310a8.md "Get an overview of how to create a business role from a template.")
 

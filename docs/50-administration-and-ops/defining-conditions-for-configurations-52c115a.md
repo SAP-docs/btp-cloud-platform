@@ -10,12 +10,6 @@ You've created a configuration in the *Read Access Logging Configuration* app. R
 
 
 
-## Context
-
-You can define conditions by In the opening dialog box, enter a condition name and a description for the condition and press *Create*. The newly created condition is displayed in the *Conditions* section.
-
-
-
 ## Procedure
 
 1.  Log on to the SAP Fiori launchpad in the SAP S/4HANA Cloud system.

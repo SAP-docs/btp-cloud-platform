@@ -91,6 +91,54 @@ The SAP BTP command line interface \(btp CLI\) is the command line tool for conv
 <tr>
 <td valign="top">
 
+ [kubectl](https://kubernetes.io/docs/reference/kubectl/)
+
+
+
+</td>
+<td valign="top">
+
+The Kubernetes command line tool to communicate with a Kubernetes cluster's control plane, using the Kubernetes API.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[kubelogin](https://github.com/int128/kubelogin)
+
+
+
+</td>
+<td valign="top">
+
+A `kubectl` plugin for Kubernetes OpenID Connect \(OIDC\) authentication.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Helm](https://helm.sh/)
+
+
+
+</td>
+<td valign="top">
+
+The package manager for Kubernetes, used for installing and managing Kubernetes applications in form of Helm charts.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [SAP BTP SDK for iOS](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_SDK_FOR_IOS/Latest/en-US)
 
 

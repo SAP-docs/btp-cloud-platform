@@ -32,6 +32,13 @@ The communication management apps allow you to establish secure communication be
 4.  Select *Save* to activate the communication arrangement.
 
 
+> ### Note:  
+> A communication scenario is a design-time description of how two communication partners communicate with each other. It consists of inbound and/or outbound services as well as supported authentication methods. It provides technical information, such as the used inbound and outbound services and their service type, for example OData or SOAP, and the number of allowed communication arrangement instances. If the scenario exposes inbound services, it specifies the authorizations that are required to execute the services. The following types of communication scenarios are available:
+> 
+> -   *Managed by SAP*, where SAP provides a ready-to-use communication scenario and you create and maintain a communication arrangement.
+> 
+> -   *Managed by Customer*, where you develop a communication scenario and create and maintain a communication arrangement.
+
 **Related Information**  
 
 

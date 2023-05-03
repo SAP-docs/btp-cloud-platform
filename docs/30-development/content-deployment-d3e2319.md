@@ -11,6 +11,9 @@ Direct content deployment provides a mechanism for deploying content to services
 
 The mechanism utilizes the Generic Application Content Deployment protocol \(GACD\). It allows you to deploy modules of type `com.sap.application.content`, which require a dependency to a service or an existing service key, where the required dependency parameter `content-target` is set to `true`. When a module is processed during deployment of a multitarget application, the SAP Cloud Deployment service delivers the module content to the service or key, marked as `content-target`.
 
+> ### Restriction:  
+> “Content deployment used with [Blue Green deployment](https://help.sap.com/docs/btp/sap-business-technology-platform/blue-green-deployment-of-multitarget-applications?version=Cloud) will be deployed during first phase where idle suffixes and temporary routes are used. The same rule is applicable for application content deployers \(hdi-deploy, html5 nodejs deployer, portal deployer\). As content of such type, HTTP Destinations won’t be updated after the validation phase, so avoid using of default resolvable parameters `${default-host}`, `${default-uri}`, `${default-url}`. Configurations that include idle suffixes and temporary routes may stay after the mta deployment finishes. Already deployed content during first phase cannot be reverted or removed. It will be necessary to trigger new mta deployment”
+
 > ### Note:  
 > The examples below are partial and they intend to show different configurations of content deployment. For specific application contents, check the dedicated documentation, linked below.
 

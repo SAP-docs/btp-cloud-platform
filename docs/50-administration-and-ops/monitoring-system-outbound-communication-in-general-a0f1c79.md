@@ -68,5 +68,5 @@ The *System Outbound Communication* screen and its related drill-down screens ar
 
 [Capturing Request Statistics Relating to Expensive Outbound Communication](capturing-request-statistics-relating-to-expensive-outbound-communication-f33b3d2.md "Use the Capture Request Statistics app to collect statistics of service requests with an expensive outbound communication (RFC, HTTP, or Web service).")
 
-[System Outbound Communication](https://help.sap.com/viewer/b273a660af4e4948a49a316ea2438f24/Cloud/en-US/09e4959f3c8544218b248d99596f5d59.html "Find the top communication scenarios by calling time to identify workload issues with system outbound communication using HTTP, RFC, or Web service calls.") :arrow_upper_right:
+[System Outbound Communication](https://help.sap.com/viewer/b273a660af4e4948a49a316ea2438f24/Cloud/en-US/09e4959f3c8544218b248d99596f5d59.html "Find the top communication scenarios by calling time.") :arrow_upper_right:
 

@@ -24,6 +24,9 @@ If you want to view all deprecated business catalogs after an upgrade, you want 
 
 4.  Select the required business role and click *Adopt Changes* if you want to take over the changes to your business roles. Please note that you might lose your maintained restrictions by doing this. We recommend that you validate the business role after the automatic adoption. By adopting the changes, you add all the successors business catalogs to the selected roles. The deprecated catalog will be removed.
 
+    > ### Note:  
+    > If the deprecated business catalogs contain extensions and you click *Adopt Changes*, the included extensions will be removed. If you want to keep these extensions, you need to re-assign them.
+
 5.  Select the *Add the dependent business catalogs of the successor business catalogs* checkbox if required.
 
 6.  Click *OK*. The system displays a progress bar and a list of change results when it is done.

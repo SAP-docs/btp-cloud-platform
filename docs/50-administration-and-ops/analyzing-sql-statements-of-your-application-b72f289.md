@@ -50,15 +50,9 @@ During developing and operating applications on your ABAP environment, these sit
 
     The *Application Source Position* field shows you the ABAP code location \(if available\) where the SQL statement originates from. You can choose one of the*Show ABAP Source in …* buttons to display the ABAP source in the web browser or in ABAP Development Tools.
 
-6.  Optional: You can also edit the SQL statement and recalculate the prepared or executed access plan.
+6.  Choose the *Prepared Plan* tab page to display and analyze a newly calculated prepared access plan for your SQL statement.
 
-    In this way, you can try out if changes to the statement or adding optimizer hints have a positive or negative impact on the access plan. You can iterate this procedure. Once you've edited the SQL statement, you can get back to the original statement by using the undo function \(shortcut Ctrl+Z\) of your browser while having focused on the statement display area. Alternatively, you can go back to the *Trace Directory* tab page and reselect your SQL statement there.
-
-    Note that the SQL trace analysis doesn't support SQL query parameters.
-
-7.  Choose the *Prepared Plan* tab page to display and analyze a newly calculated prepared access plan for your SQL statement.
-
-8.  Choose the *Executed Plan* tab page to display and analyze a newly calculated executed access plan for your SQL statement.
+7.  Choose the *Executed Plan* tab page to display and analyze a newly calculated executed access plan for your SQL statement.
 
     You can also download the PlanViz \(PLV\) file of the executed access plan containing the comprehensive plan information to display it with other HANA plan visualizing tools like HANA SQL Analyzer.
 

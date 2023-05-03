@@ -20,7 +20,7 @@ This scenario allows you to read the change documents of business users. We reco
 
 1.  Check if a communication user already exists for this scenario. If not, create a communication user in the *Maintain Communication Users* app.
 
-    For more information, see [How to Create Communication Users](how-to-create-communication-users-0377ade.md).
+    For more information, see the *Related information* section.
 
 2.  Check if a communication system already exists for this scenario. If not, create a communication system in the *Communication Systems* app.
 

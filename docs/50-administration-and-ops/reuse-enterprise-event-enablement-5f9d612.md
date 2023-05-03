@@ -10,9 +10,9 @@ The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\
 
 The Event Mesh kernel service is provided in the SAP Business Technology Platform.
 
-The destination URL of the Event Mesh kernel service instance is available. The destination URL is given in the corresponding service key of the SAP Event Mesh service instance.
+The destination URL of the Event Mesh kernel service instance is available.
 
- enterprise event enablement cloud landscape directory SAP Fiori launchpad SAP S/4HANA Cloud SAP Enterprise Messaging 1.0 for Cloud Foundry SAP Event Mesh 2.0 Event Mesh kernel service 16. Log on to the SAP Fiori launchpad in the SAP S/4HANA Cloud system.
+ enterprise event enablement cloud landscape directory SAP Fiori launchpad SAP S/4HANA Cloud SAP Enterprise Messaging 1.0 for Cloud Foundry SAP Integration Suite, edition for SAP applications Event Mesh kernel service 16. Log on to the SAP Fiori launchpad in the SAP S/4HANA Cloud system.
 
  18. In the *Communication Management* app, select the *Communication Arrangements* artifact.
 

@@ -114,7 +114,7 @@ The registration process has the following states displayed in the cockpit:
         The SAP Customer Experience system appears in the list of systems on the *Systems* page. Its *Status* field is empty because the registration process is not yet completed.
 
 
-3.  \(Recommended\) Follow the steps in [Including SAP Systems in a Formation](including-sap-systems-in-a-formation-68b04fa.md) before proceeding with the registration on the SAP Customer Experience side.
+3.  \(Recommended\) Follow the steps in [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md) before proceeding with the registration on the SAP Customer Experience side.
 
 4.  Configure the integration on the SAP Customer Experience system side. See [Extending SAP Customer Experience Products in the Kyma Environment](extending-sap-customer-experience-products-in-the-kyma-environment-83df31a.md).
 
@@ -136,5 +136,5 @@ Once you use the integration token to connect your SAP Customer Experience syste
 
 [Registering an SAP System](registering-an-sap-system-2ffdaff.md "To connect an SAP system with a global account in SAP BTP, you first need to register the system.")
 
-[Deregistering or Removing an SAP System](deregistering-or-removing-an-sap-system-0c6f498.md "When you no longer need the system to be paired with your global account, you can deregister or remove it depending on its status.")
+[Deregistering or Removing a System](deregistering-or-removing-a-system-0c6f498.md "When you no longer need the system to be paired with your global account, you can deregister or remove it depending on its status.")
 

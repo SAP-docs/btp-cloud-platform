@@ -77,10 +77,6 @@ SAP applications may contain predefined configurations. However, the customer's 
 
     If you want to exclude certain users from Read Access Logging, they need to be added to a user exclusion list. This is useful for any automatic processing without user interaction, for example, background jobs. For more information, see [How to Exclude Specific Users from Read Access Logging](how-to-exclude-specific-users-from-read-access-logging-9ee32b3.md).
 
--   Enabling Read Access Logging in the current client.
-
-    Read Access Logging must be enabled in the current client. Otherwise the configurations are ignored. For more information, see [How to Enable Read Access Logging](how-to-enable-read-access-logging-3fdad50.md).
-
 -   Displaying changes made to Read Access Logging configuration and evaluating errors and warnings.
 
     For more information, see [How to Check Runtime Errors and See Changes to Configurations](how-to-check-runtime-errors-and-see-changes-to-configurations-db0eade.md)

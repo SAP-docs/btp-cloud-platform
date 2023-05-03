@@ -123,7 +123,7 @@ The sample code below shows how to get a reference to a destination and how to u
 > ```
 
 > ### Note:  
-> When using on-premise connectivity, make sure the called RFC function module is exposed in Cloud Connector. See [Configure Access Control (RFC)](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/ca5868997e48468395cf0ca4882f5783.html "Specify the backend systems that can be accessed by your cloud applications using RFC.") :arrow_upper_right:.
+> When using on-premise connectivity, make sure the called RFC function module is exposed in Cloud Connector. See [Configure Access Control \(RFC\)](https://help.sap.com/docs/connectivity/sap-btp-connectivity-neo/configure-access-control-rfc?version=Cloud).
 
 
 
@@ -131,7 +131,7 @@ The sample code below shows how to get a reference to a destination and how to u
 
 ## Test Your Outbound Call
 
-To test your outbound call, configure an RFC destination as described in [Create RFC Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/9b3cc683cca944bd98346bef3181630e.html "How to create RFC destinations in the Destinations editor (SAP BTP cockpit).") :arrow_upper_right:. The following authentication methods are supported in the SAP BTP, ABAP environment:
+To test your outbound call, configure an RFC destination as described in [Create RFC Destinations](https://help.sap.com/docs/connectivity/sap-btp-connectivity-neo/create-rfc-destinations?version=Cloud). The following authentication methods are supported in the SAP BTP, ABAP environment:
 
 **Internet**:
 

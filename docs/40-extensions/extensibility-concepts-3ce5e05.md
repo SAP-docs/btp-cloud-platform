@@ -10,9 +10,9 @@ When implementing your extensibility scenario, there are a couple of concepts yo
 
 ## Systems
 
-A system is a specific instance of an SAP solution that is manually added or auto discovered and is listed in the SAP BTP cockpit.
+A system is a specific instance of an SAP or other solution that is manually added or auto discovered and is listed in the SAP BTP cockpit.
 
-When you want to add functionality to your SAP solution, you start by developing an extension application and deploying it in SAP BTP. Then, to allow the application to access the SAP solution, you add the system of this SAP solution to the *System Landscape* page of the SAP BTP cockpit and you register it. The following system types are supported:
+When you want to add functionality to your SAP or other solution, you start by developing an extension application and deploying it in SAP BTP. Then, to allow the application to access the SAP or other solution, you add the system of this solution to the *System Landscape* page of the SAP BTP cockpit and you register it. The following system types are supported:
 
 -   SAP S/4HANA Cloud
 
@@ -26,6 +26,8 @@ When you want to add functionality to your SAP solution, you start by developing
 
 -   SAP Field Service Management
 
+-   Other System Type
+
 
 
 
@@ -37,7 +39,7 @@ The registration process can have the following status values:
 
 -   No status
 
-    The SAP system has been added as a record to the list. You can get a registration token for it. However, the registration process on the corresponding SAP solution's system side has not been performed or completed yet.
+    The system has been added as a record to the list. You can get a registration token for it. However, the registration process on the corresponding solution's system side has not been performed or completed yet.
 
 -   *Registered*
 
@@ -49,7 +51,7 @@ The registration process can have the following status values:
 
 -   *Deregistering*
 
-    A deregistration process has started. As a result, the connectivity between the SAP system and SAP BTP is disabled and extension scenarios cannot be established. The system remains in the system landscape list and you can register it again later on.
+    A deregistration process has started. As a result, the connectivity between the system and SAP BTP is disabled and extension scenarios cannot be established. The system remains in the system landscape list and you can register it again later on.
 
 -   *Error while Deregistering*
 
@@ -57,7 +59,7 @@ The registration process can have the following status values:
 
 -   *Removing*
 
-    A system removal process has started in the SAP BTP cockpit. You can remove a system from the list only when this system has been deregistered. Then, it is removed from the system landscape list completely. To register the system again, first, you must add it to the list anew, and then, initiate the registration procedure.
+    A system removal process has started in the SAP BTP cockpit. You can remove a system from the list only when this system has been deregistered. Then, you can remove the system from the *Systems* list completely. To register the system again, first, you must add it to the list anew, and then, initiate the registration procedure.
 
 -   *Error while Removing*
 
@@ -66,17 +68,17 @@ The registration process can have the following status values:
 
 **Consumption Bundles**
 
-Consumption bundles group logically APIs and events intended for communication with the SAP system. This grouping means that the consumption of the APIs or the events can happen by using the same set of credentials later on. When you register an SAP system, you can also preview the number and the content of consumption bundles that are exposed for communication with the given system.
+Consumption bundles group logically APIs and events intended for communication with the SAP or other system. This grouping means that the consumption of the APIs or the events can happen by using the same set of credentials later on. When you register a system, you can also preview the number and the content of consumption bundles that are exposed for communication with the given system.
 
 **URL**
 
-You can use the URL as an entry point to the corresponding SAP system. Optionally, you can use it to identify duplicate SAP systems added to the list.
+You can use the URL as an entry point to the corresponding system. Optionally, you can use it to identify duplicate systems added to the list.
 
 
 
 ### Discovery Mechanisms
 
-There are different ways to add systems to the System Landscape page in the SAP BTP cockpit: manually or automatically. If a system of your SAP solution is associated with your global account or through a subscription in SAP BTP cockpit associated with a given subaccount, it will appear in the list automatically. Otherwise, you have to add your system manually. Systems are added to the list in one of the following ways:
+There are different ways to add systems to the *System Landscape* page in the SAP BTP cockpit: manually or automatically. If a system of your solution is associated with your global account or through a subscription in SAP BTP cockpit associated with a given subaccount, it will appear in the list automatically. Otherwise, you have to add your system manually. Systems are added to the list in one of the following ways:
 
 **Auto-Discovered**
 
@@ -117,11 +119,11 @@ You have added your SAP systems manually at a given point in time and you have r
 
 **Deregistering**
 
-Deregistering an SAP system means that the connectivity between this system and the global account is disabled and extension scenarios cannot be established. You can deregister an SAP system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the system landscape list. See [Deregistering or Removing an SAP System](deregistering-or-removing-an-sap-system-0c6f498.md).
+Deregistering a system means that the connectivity between this system and the global account is disabled and extension scenarios cannot be established. You can deregister a system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the *System* list. See [Deregistering or Removing a System](deregistering-or-removing-a-system-0c6f498.md).
 
 **Removing**
 
-Removing an SAP system means that this system is no longer part of the system landscape list. To remove a system from the list, first you have to deregister it. You can remove an SAP system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the system landscape list. See [Deregistering or Removing an SAP System](deregistering-or-removing-an-sap-system-0c6f498.md).
+Removing a system means that this system is no longer part of the system landscape list. To remove a system from the list, first you have to deregister it. You can remove a system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the *System* list. See [Deregistering or Removing a System](deregistering-or-removing-a-system-0c6f498.md).
 
 You can see the discovery mechanism and access all the actions related to the systems listed in the SAP BTP cockpit, in *System Landscape* \> *Systems*. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
 
@@ -131,23 +133,23 @@ You can see the discovery mechanism and access all the actions related to the sy
 
 ## Formations
 
-A formation is a logical grouping of SAP systems that can be extended in a business scenario. Formations allow you to combine SAP solution systems and a subaccount in SAP BTP to simplify the connectivity setup and to provide a unified view of all components required for the implementation of your extension scenario. To create a fully functional formation, you can use a two-step wizard. At the first step, you specify a custom formation name and assign a subaccount to it. At the second step, you can include an SAP solution system in the formation. You do this configuration once and you can change it anytime.
+A formation is a logical grouping of SAP or other systems that can be extended in a business scenario. Formations allow you to combine SAP or other solution systems and a subaccount in SAP BTP to simplify the connectivity setup and to provide a unified view of all components required for the implementation of your extension scenario. To create a fully functional formation, you can use a two-step wizard. At the first step, you specify a custom formation name and assign a subaccount to it. At the second step, you can include an SAP or other solution system in the formation. You do this configuration once and you can change it anytime.
 
 > ### Note:  
 > You can assign a subaccount to the formation during the formation creation only. While you can include or exclude systems in the formation anytime, you cannot unassign or reassign subaccounts later on. Instead, you must recreate the formation.
 
-Extension business cases often involve extending several SAP solutions at a time. For example, for a given business case you might need to extend the functionality or the UI as follows:
+Extension business cases often involve extending several SAP or other solutions at a time. For example, for a given business case you might need to extend the functionality or the UI as follows:
 
 -   An SAP SuccessFactors system, and an SAP S/4HANA Cloud system. First, you need to configure the connectivity of each of these systems to Cloud Foundry, Kyma, or both environments. Extension applications of both solutions are part of the same business need.
 
 -   An SAP Commerce Cloud system, and an SAP S/4HANA Cloud system. Again, you first configure the connectivity of each of these systems to the Kyma environment.
 
--   A single system of the supported SAP solutions.
+-   A single system of the supported SAP or other solutions.
 
--   SAP systems that expose event data, which can be shared and exchanged with the systems included in the formation.
+-   SAP or other systems that expose event data, which can be shared and exchanged with the systems included in the formation.
 
 
-When creating a formation in the SAP BTP cockpit, you include the systems of the different SAP solutions you want to extend. If your business case features more than one SAP solution system, you can use the corresponding button to include additional systems in the formation. You can start the dialog as many times and add systems to your formation as you want.
+When creating a formation in the SAP BTP cockpit, you include the systems of the different SAP or other solutions you want to extend. If your business case features more than one system, you can use the corresponding button to include additional systems in the formation. You can start the dialog as many times and add systems to your formation as you want.
 
 
 
@@ -157,7 +159,7 @@ The formation type defines the use case. Therefore, depending on the use case, y
 
 **Side-by-Side Extensibility with Kyma**
 
-Formations of type *Side-by-Side Extensibility with Kyma* enable business scenarios that involve extending the functionality of several SAP systems at a time with SAP BTP Kyma environment instance. See [Enabling Side-by-Side Extensibility with Kyma](enabling-side-by-side-extensibility-with-kyma-9154051.md).
+Formations of type *Side-by-Side Extensibility with Kyma* enable business scenarios that involve extending the functionality of several systems at a time with SAP BTP Kyma environment instance. See [Enabling Side-by-Side Extensibility with Kyma](enabling-side-by-side-extensibility-with-kyma-9154051.md).
 
 **Developing with SAP Business Application Studio**
 
@@ -167,21 +169,21 @@ Formations of type *Developing with SAP Business Application Studio* enable conn
 
 ### Actions
 
-**Create Formations**
+**Creating Formations**
 
-Create a logical grouping of the SAP systems that you want to extend.
+Create a logical grouping of the systems that you want to extend.
 
-**Include/Exclude Systems**
+**Including/Excluding Systems in a Formation**
 
-Include additional SAP systems to a given formation or exclude already included systems from a formation.
+Include additional systems to a given formation or exclude already included systems from a formation.
 
-If your business case features more than one SAP system, you can include additional systems in the formation. You can include as many systems as you want to your formation.
+If your business case features more than one system, you can include additional systems in the formation. You can include as many systems as you want to your formation.
 
-**Detele Formations**
+**Deteling Formations**
 
-Detach the SAP systems, unassign the subaccount, and delete the formation at one go.
+Detach the systems, unassign the subaccount, and delete the formation at one go.
 
-When you start a formation deletion process, first the SAP systems are excluded from the formation, then, the subaccount is unassigned, and last, the formation is deleted from the list completely.
+When you start a formation deletion process, first the systems are excluded from the formation, then, the subaccount is unassigned, and last, the formation is deleted from the list completely.
 
-You can create and configure formations in the SAP BTP cockpit, in *System Landscape* \> *Formations*. See [Including SAP Systems in a Formation](including-sap-systems-in-a-formation-68b04fa.md).
+You can create and configure formations in the SAP BTP cockpit, in *System Landscape* \> *Formations*. See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
 

@@ -44,8 +44,8 @@ In the example used here, the service is based on a managed business object *Bon
     > 
     > ```
 
-    With the line `authorization master ( global )`, an authorization check for the standard operations create, update, and delete is defined, which you must implement using a method with addition `FOR GLOBAL AUTHORIZATION` in the behavior implementation.
+    With the line `authorization master ( global )`, an authorization check for the standard operations `create`, `update`, and `delete` and for non-standard operations, for example, `calculate bonus`, is defined. You must implement the authorization check using a method with addition `FOR GLOBAL AUTHORIZATION` in the behavior implementation.
 
-    The sample code also contains the definition of your own authorization context. The own authorization context documents all authorization objects that are used by the business object implementation. In the bonus calculation example used in this documentation, this is the authorization object `ZBNSCLC_AO` because it's checked in the authorization control.
+    The sample code also contains the definition of your own authorization context. The own authorization context documents all authorization objects that are used by the business object implementation. In the bonus calculation example used in this documentation, this is the authorization object `ZBNSCLC_AO` because it's checked in the authorization control. The own authorization context is also used to prefill authorization defaults.
 
 

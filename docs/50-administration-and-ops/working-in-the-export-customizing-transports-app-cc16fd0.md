@@ -51,7 +51,7 @@ If the automatic recording for the client is not allowed, you can save changed c
 ## Release Request
 
 1.  Release any tasks belonging to your transport request. A request can't be released until all its tasks have been released.
-2.  Check the consistency of your request by triggering a release simulation: Select the request and click *Release* \> *Simulate*.
+2.  Check the consistency of your request by triggering a release simulation: Select the request and click *Release* \> *Check*.
 3.  You can also release your request directly without triggering a simulation: Select the request and click *Release* \> *Execute*.
 
 4.  To refresh the status of a released or simulated request: Select the request with the status *Checking* or *Release Started* and click *Refresh*.

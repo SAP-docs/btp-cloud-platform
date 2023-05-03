@@ -2,13 +2,15 @@
 
 # Transporting Read Access Logging Data
 
-RAL objects that you’ve created can be transported from a Q system to a P system with the *Export Customizing Transports* app
+RAL objects that you’ve created can be transported from a Q system to a P system \(development system to production system\) with the *Export Customizing Transports* app
 
 
 
 In your RAL application, you can create different customizing objects like configurations or recordings. These objects are added to the default customizing request that you can export from a Q system and import into a P system. The objects that come from the RAL application are:
 
 -   Configurations
+
+    Refer to SAP note [2963664](https://launchpad.support.sap.com/#/notes/2963664) for details.
 
 -   Log domains
 

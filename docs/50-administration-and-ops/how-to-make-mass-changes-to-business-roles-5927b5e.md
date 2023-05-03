@@ -1,10 +1,10 @@
-<!-- copya2b8639adfdc43cd90b962c7c0376b4d -->
+<!-- copy5927b5ebd0944e399d90fdbb073cf939 -->
 
 # How to Make Mass Changes to Business Roles
 
 
 
-<a name="copya2b8639adfdc43cd90b962c7c0376b4d__HowToMakeMassChangesBusinessRoles_context"/>
+<a name="copy5927b5ebd0944e399d90fdbb073cf939__HowToMakeMassChangesBusinessRoles_context"/>
 
 ## Context
 
@@ -14,7 +14,7 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
 
 
 
-<a name="copya2b8639adfdc43cd90b962c7c0376b4d__HowToMakeMassChangesBusinessRoles_steps"/>
+<a name="copy5927b5ebd0944e399d90fdbb073cf939__HowToMakeMassChangesBusinessRoles_steps"/>
 
 ## Procedure
 

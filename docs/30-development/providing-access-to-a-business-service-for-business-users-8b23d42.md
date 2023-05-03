@@ -14,7 +14,7 @@ If you have the developer role `SAP_BR_DEVELOPER`, for example, you can test you
 
 This kind of access isn’t available anymore when you pull the business service into nondevelopment systems, for example, where this test catalog feature isn’t enabled.
 
-For business users, you must provide access to a newly created service because access isn’t automatically available. However, on instance level, all activities are allowed as long as you don't protect your business service. Therefore, you must develop identity and access management artifacts, which is explained in detail in this guide. They ensure that you can define the necessary authorizations and enable business users to consume the business service.
+For business users, you must provide access to a newly created service because access isn’t automatically available. However, all activities are allowed as long as you don't protect your business service. Therefore, you must develop identity and access management artifacts, which is explained in detail in this guide. They ensure that you can define the necessary authorizations and enable business users to consume the business service.
 
 
 

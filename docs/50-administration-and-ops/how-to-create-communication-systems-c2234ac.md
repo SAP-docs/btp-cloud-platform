@@ -23,6 +23,13 @@ To create a communication system perform the following steps:
 3.  Fill in the required fields under:
 
     -   *General Data*
+
+        Enter system ID and system name.
+
+        *Contact Information*
+
+        Enter name, email or phone number of a contact person.
+
     -   *Technical Data* 
 
         *General*
@@ -38,9 +45,38 @@ To create a communication system perform the following steps:
         > ### Note:  
         > A predefined instance is selected by default. If you want to add your own instance, deselect this instance.
 
-    -   *Contact Information*
+    -   *Cloud Connector* switch
 
-        Enter name, e-mail or phone number of a contact person.
+        Indicates that SAP Cloud Platform Cloud Connector is used for communication with this system.
+
+        *SSC Location ID*: Enter the SAP Cloud Platform Cloud Connector ID
+
+        If your scenario is uses RFC modules, and SAP Cloud Platform Cloud Connector is not activated, the system uses WebSocket RFC. Therefore the remote system needs to support WebSocket RFC and you need to specify the client in the *RFC Settings* section.
+
+    -   *RFC Settings*
+
+        Define additional settings needed for RFC communication.
+
+    -   *OAuth 2.0 Settings*
+
+        Define additional settings if oAuth 2.0 is used for outbound communication.
+
+        > ### Note:  
+        > The propagation of technical users from the cloud application towards on-premise systems can be enabled in the *Communication Systems* app. To propagate the technical user, you have to select the *Cloud Conn. Technical User Propagation* checkbox in the *OAuth 2.0 Settings* area \(the checkbox is only active if the *Cloud Connector*switch is on\). This is similar to principal propagation, but in this case, a technical user is propagated instead of a business user.
+
+    -   *OAuth 2.0 Identity Provider* switch
+
+        Before you can authenticate and get an access token to access resources using an OAuth 2.0 client, you have to configure a trusted relationship to the required *SAML Identity Provider* \(token issuer\).
+
+        Upload the signing certificate of the trusted provider and define the provider name.
+
+        Define the *User ID Mapping Mode* if you don't use e-mail addresses, but either logon name or global user ID.
+
+        The *User ID Mapping Mode* is required when the *SAML Identity Provider* is creating SAML assertions with the *NameIdentifierFormat* ***unspecified***.
+
+        This setting is ignored when then SAML assertion is using the *NameIdentifierFormat* ***eMailAddress***.
+
+        Please note that the required authorization for calling the service is granted to the business user and not to the technical user. When you set up a communication arrangement using oAuth, you can click *OAuth 2.0 Details*, select the scope and click *Granted by Business Catalogs* to find the necessary details. This way you can retrieve the business catalogs that are required for calling the service.
 
     -   *SAML Bearer Assertion Provider*
 
@@ -58,7 +94,12 @@ To create a communication system perform the following steps:
 
         Before you can authenticate using OpenID Connect, you have to configure a trusted *OpenID Connect Provider*.
 
-        Define the required *User ID Mapping Mode*, the *OpenID Connect Provider* and *Client ID*. Click *Import Metadata*. This is necessary to ensure that the configuration is validated and complete.
+        Define the required *User ID Mapping Mode*, the *OIDC Token Issuer* and *Client ID*. Click *Import Metadata*. This is necessary to ensure that the configuration is validated and complete.
+
+        If the automatic configuration fails, you can configure the OpenID Connect settings manually. For more information, see *Manual Configuration - OpenID Connect \(OIDC\) Provider* in the *Related Information* section.
+
+        > ### Note:  
+        > You can select the *User Mapping Claim* to define the authorization attributes that are used by the identity provider. The default selection is *sub*.
 
 
 4.  Add technical users for inbound communication. You can either select a user from the list or create a new user. If you decide to create a new user, you will be redirected to the *Maintain Communication User* app.
@@ -79,4 +120,6 @@ To create a communication system perform the following steps:
 
 
 [How to Create Communication Users](how-to-create-communication-users-0377ade.md "")
+
+[Manual Configuration - OpenID Connect \(OIDC\) Provider](manual-configuration-openid-connect-oidc-provider-fa5e4a6.md "")
 

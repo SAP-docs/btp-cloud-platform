@@ -65,11 +65,11 @@ As an administrator in the ABAP environment, you can create additional accounts 
 
 For more information, see the following:
 
--   [Account Administration in the Cockpit](account-administration-in-the-cockpit-8061ecc.md)
+-   [Account Administration in the Cockpit](https://help.sap.com/docs/btp/sap-business-technology-platform/account-administration-in-cockpit?locale=en-US&version=Cloud)
 
--   [Org Administration Using the Cockpit](org-administration-using-the-cockpit-c4c25cc.md)
+-   [Org Administration Using the Cockpit](https://help.sap.com/docs/btp/sap-business-technology-platform/org-administration-using-cockpit?locale=en-US&version=Cloud)
 
--   [Org Administration Using the Cloud Foundry CLI](org-administration-using-the-cloud-foundry-cli-927377f.md) 
+-   [Org Administration Using the Cloud Foundry CLI](https://help.sap.com/docs/btp/sap-business-technology-platform/org-administration-using-cloud-foundry-cli?locale=en-US&version=Cloud) 
 
 
 For more information about business roles in the ABAP environment, see [Business Catalogs and Business Roles](business-catalogs-and-business-roles-da32065.md).

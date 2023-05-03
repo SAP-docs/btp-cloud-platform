@@ -22,6 +22,8 @@ The XCO Generation APIs are the part of the XCO library that allows the programm
 
 -   DTEL \(Data Elements\)
 
+-   EVTB \(Event Bindings\)
+
 -   FUGR \(Function Groups\)
 
 -   INTF \(Interfaces\)
@@ -393,6 +395,43 @@ X
 <td valign="top">
 
 DTEL
+
+
+
+</td>
+<td valign="top">
+
+X
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+X
+
+
+
+</td>
+<td valign="top">
+
+X
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+EVTB
 
 
 

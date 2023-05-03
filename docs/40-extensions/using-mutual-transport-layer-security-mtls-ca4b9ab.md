@@ -10,6 +10,19 @@ The transport layer security \(TLS\) protocol encrypts the connection between cl
 
 Mutual Transport Layer Security \(mTLS\) is considered more secure than the combination of client ID and client secret. When using mTLS, no secret is shared between the calling application in SAP BTP and SAP SuccessFactors.
 
+> ### Note:  
+> After setting up the mTLS, when sending requests to SAP SuccessFactors, you have to use an additional header in the HTTP call. The header is *successfactors-companyid* and its value is the SAP SuccessFactors company ID. See [SAP SuccessFactors API Reference Guide \(OData V2\): Headers](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/d599f15995d348a1b45ba5603e2aba9b/c072ee7f00f14003b54f7a9a5541af44.html).
+> 
+> To specify the *successfactors-companyid* header, select one of the following options:
+> 
+> -   Provide the *successfactors-companyid* header in the source code of the extension application.
+> 
+> -   If you use approuter with a destination, select one of the following:
+> 
+>     -   Provide a custom code extension in the approuter. See [Extension API of the Application Router](../30-development/extension-api-of-the-application-router-a36f409.md).
+> 
+>     -   Configure an additional property in the destination. For example, *URL.headers.<header-name\>*. See [https://www.npmjs.com/package/@sap/approuter\#destination-service](https://www.npmjs.com/package/@sap/approuter#destination-service).
+
 Follow these steps to enable mTLS when configuring the extension application's connectivity to SAP SuccessFactors.
 
 

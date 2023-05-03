@@ -20,5 +20,5 @@ For more information, see
 **Related Information**  
 
 
-[Working with Number Range Objects](https://help.sap.com/docs/btp/sap-abap-development-user-guide/working-with-number-range-objects)
+[Working with Number Range Objects](https://help.sap.com/docs/SAP_S4HANA_CLOUD/25cf71e63940453397a32dc2b7676947/28e0a0177ed3452babc1047b3e41f9cb.html)
 

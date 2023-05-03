@@ -56,7 +56,7 @@ To enable the integration, you need to:
 
 2.  Optional: Group SAP systems so that they can be extended in a business scenario at one go.
 
-    To do so, you create a formation containing one or more different systems assigned to a common subaccount. See [Including SAP Systems in a Formation](including-sap-systems-in-a-formation-68b04fa.md).
+    To do so, you create a formation containing one or more different systems assigned to a common subaccount. See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
 
 3.  Make the SAP system accessible in the subaccounts in which you want to build your extension applications.
 

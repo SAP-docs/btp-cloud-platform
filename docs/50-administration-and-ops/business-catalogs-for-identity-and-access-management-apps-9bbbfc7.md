@@ -247,6 +247,31 @@ None
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+*Identity and Access Management - Group Management*
+
+SAP\_CORE\_BC\_IAM\_GRP\_PC
+
+
+
+</td>
+<td valign="top">
+
+This business catalog enables users to create and maintain business user groups and business role groups.
+
+
+
+</td>
+<td valign="top">
+
+None
+
+
+
+</td>
+</tr>
 </table>
 
 **Related Information**  

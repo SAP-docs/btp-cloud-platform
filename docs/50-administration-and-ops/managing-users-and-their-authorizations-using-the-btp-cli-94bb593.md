@@ -536,52 +536,6 @@ Delete a role collection
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-Assign a role collection
-
-
-
-</td>
-<td valign="top">
-
-`btp assign security/role-collection`
-
-
-
-</td>
-<td valign="top">
-
-[btp assign security/role-collection](https://help.sap.com/docs/BTP/btp-cli/btp-assign-security-role-collection.html)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Unassigns a role collection
-
-
-
-</td>
-<td valign="top">
-
-`btp unassign security/role-collection`
-
-
-
-</td>
-<td valign="top">
-
-[btp unassign security/role-collection](https://help.sap.com/docs/BTP/btp-cli/btp-unassign-security-role-collection)
-
-
-
-</td>
-</tr>
 </table>
 
 **Related Information**  

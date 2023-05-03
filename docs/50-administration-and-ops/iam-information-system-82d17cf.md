@@ -6,7 +6,7 @@ With this app you can get an overview of business users in your system and what 
 
 
 
-With this app you can display information about the usage of business roles, business catalogs, business users and restrictions, and how they are related. For example, you can use this app to check if a business user is using a particular app and to check which authorizations he or she has.
+With this app you can display information about the usage of business roles, business catalogs, business users and restrictions, and how they are related.
 
 If you want to look up more information about a business role, derived business role, business user, business catalog, business role template or restriction, you can jump directly to the respective app by clicking the entity.
 

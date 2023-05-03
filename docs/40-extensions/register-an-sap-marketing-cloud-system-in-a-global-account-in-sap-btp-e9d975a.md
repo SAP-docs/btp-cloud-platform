@@ -142,5 +142,5 @@ The registration process has the following states displayed in the cockpit:
 
 [Registering an SAP System](registering-an-sap-system-2ffdaff.md "To connect an SAP system with a global account in SAP BTP, you first need to register the system.")
 
-[Deregistering or Removing an SAP System](deregistering-or-removing-an-sap-system-0c6f498.md "When you no longer need the system to be paired with your global account, you can deregister or remove it depending on its status.")
+[Deregistering or Removing a System](deregistering-or-removing-a-system-0c6f498.md "When you no longer need the system to be paired with your global account, you can deregister or remove it depending on its status.")
 

@@ -1,10 +1,10 @@
-<!-- copy757cdf12868a469dbb9c1eaff7ae7a37 -->
+<!-- copy0c21b34ee55949ceb2b5444def63d098 -->
 
 # How to Compare Business Roles
 
 
 
-<a name="copy757cdf12868a469dbb9c1eaff7ae7a37__context"/>
+<a name="copy0c21b34ee55949ceb2b5444def63d098__context"/>
 
 ## Context
 
@@ -12,7 +12,7 @@ To display the common features and the differences between business roles, you c
 
 
 
-<a name="copy757cdf12868a469dbb9c1eaff7ae7a37__steps"/>
+<a name="copy0c21b34ee55949ceb2b5444def63d098__steps"/>
 
 ## Procedure
 

@@ -24,7 +24,7 @@ Select the text sources that you want to have translated.
 
     -   Data Elements
 
-    -   Data Definitions
+    -   Data Definitions \(View Entities, Projection Views, Abstract Entities and Custom Entities\)
 
     -   Message Classes
 
@@ -79,7 +79,7 @@ Select the text sources that you want to have translated.
 > -   When the translations are published, the rows containing the texts in the target language will be added to the selected transport via R3TR TABU.
 > 
 > 
-> In this tutorial \([Create a Business Configuration Maintenance App](https://developers.sap.com/mission.abap-dev-factory-calendar.html)\) on how to create a business configuration application to maintain holidays, for instance, the language-dependent texts for the respective holidays are stored as entries in the database table HOLITXT. The non-key field for which translations can be maintained is field FCAL\_DESCRIPTION.
+> In this tutorial \([Create an SAP Fiori-based Table Maintenance App with SAP BTP, ABAP Environment](https://developers.sap.com/group.abap-env-factory.html)\) on how to create a business configuration application to maintain error code definitions, for instance, the language-dependent texts for the respective error code definitions are stored as entries in the database table `ZERROR_CODE_T###` with `###` being replaced by a number chosen by the developer, such as `000`. The non-key field for which translations can be maintained is field `DESCRIPTION`.
 
 > ### Note:  
 > Please note that the translation of text table entries is only available in environments that support transporting client-specific data.

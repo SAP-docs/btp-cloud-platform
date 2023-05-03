@@ -302,7 +302,7 @@ abap\_system\_client\_cert\_expiry\_d
 
 Expiry of client certificates in days
 
-With this metric, you can monitor whether any client certificates expire that you have uploaded to SAP BTP for the communication with systems or services outside the ABAP system, for example, BTP services. Make sure that your client certificates are valid, so that communication doesn't break off.
+With this metric, you can monitor whether any client certificates expire that you have uploaded to the ABAP system for the communication with systems or services outside the ABAP system, for example, BTP services. Make sure that your client certificates are valid, so that communication doesn't break off.
 
 If the client certificate expires within 7 days, it's marked red. If it expires within 30 days, it's marked yellow.
 

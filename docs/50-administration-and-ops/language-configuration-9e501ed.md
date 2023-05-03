@@ -4,7 +4,7 @@
 
 
 
-With this app you can configure the I18n languages within a system.
+With this app you can configure the languages within a system.
 
 
 

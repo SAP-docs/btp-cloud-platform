@@ -1,6 +1,6 @@
 <!-- loio68b04fa73aa740cb96ed380a85a4761a -->
 
-# Including SAP Systems in a Formation
+# Including Systems in a Formation
 
 You can include various SAP systems into a formation and thus combine diverse SAP solutions into an extended business scenario.
 
@@ -302,9 +302,9 @@ Supported
 
 5.  Choose *Next Step*.
 
-6.  On the *Include Systems* step, select one or more SAP systems that you want to include in the newly created formation, and then, choose *Next Step*.
+6.  On the *Include Systems* step, select one or more systems that you want to include in the newly created formation, and then, choose *Next Step*.
 
-    The wizard prefilters the SAP systems that were added to the *Systems* tab and are valid for the formation type that you specified at the previous step.
+    The wizard prefilters the systems that were added to the *Systems* tab and are valid for the formation type that you specified at the previous step.
 
 7.  On the *Review* step, double check your entries before you create the formation.
 
@@ -312,7 +312,7 @@ Supported
 
 8.  Choose *Create*.
 
-9.  Optionally, you can include additional SAP solution systems to the newly created formation, by choosing *Include System*.
+9.  Optionally, you can include additional systems to the newly created formation, by choosing *Include System*.
 
     On the systems list that opens, select a system, and then, choose *Include*.
 
@@ -326,7 +326,7 @@ Supported
 For systems of type SAP Commerce Cloud, SAP Cloud for Customer, and SAP Field Service Management, the access to the corresponding solution's APIs has been enabled. After you have created a formation, you can edit it and change the included systems. The status of each system depends on whether you have registered that system in the global account.
 
 > ### Note:  
-> When you delete a formation, several activities are performed at one go. First, the SAP solution systems are excluded from the formation. Then, the subaccount is unassigned. Finally, the formation is deleted from the formations list completely.
+> When you delete a formation, several activities are performed at one go. First, the systems are excluded from the formation. Then, the subaccount is unassigned. Finally, the formation is deleted from the formations list completely.
 > 
 > To restore a deleted formation, first you must create it anew, and then, include all of its systems again, one by one.
 

@@ -137,10 +137,10 @@ If the registration error persists, report an incident in one of the following c
 
     -   For systems of type *SAP S/4HANA Cloud* and *SAP SuccessFactors*, you first need to configure the integration on the respective SAP system side.
 
-        See [Including SAP Systems in a Formation](including-sap-systems-in-a-formation-68b04fa.md).
+        See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
 
 
--   If you no longer need it, you can deregister or remove the system depending on its status. See [Deregistering or Removing an SAP System](deregistering-or-removing-an-sap-system-0c6f498.md).
+-   If you no longer need it, you can deregister or remove the system depending on its status. See [Deregistering or Removing a System](deregistering-or-removing-a-system-0c6f498.md).
 
 
 **Related Information**  

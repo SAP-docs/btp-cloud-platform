@@ -244,6 +244,35 @@ The number of ABAP statistics records that were captured by the *Capture Request
 
 In the *Capture Request Statistics* app, you can select the checkbox *Health Monitoring* for any capture profile that you create. The KPI on this card is the total number of captured ABAP statistics records during the last 5 minutes for profiles with the checkbox *Health Monitoring* selected.
 
+For more information about one use case of this metric, see [Monitoring Expensive Outbound Communication](monitoring-expensive-outbound-communication-6869df1.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Critical Number Range Intervals*
+
+
+
+</td>
+<td valign="top">
+
+`abap_system_nr_critical_interval_pct`
+
+
+
+</td>
+<td valign="top">
+
+Fill ratio of number range intervals
+
+Only critical number range intervals are shown. When you create a number range interval, you can define the critical remaining fill ratio when a warning is generated.
+
+If a critical number range was reported and is extended, it's reported once again with its now uncritical, good fill ratio to report the fixed state. After that, this number range is dropped from reported number range intervals because it's not critical anymore.
+
 
 
 </td>
@@ -269,6 +298,87 @@ In the *Capture Request Statistics* app, you can select the checkbox *Health Mon
 <td valign="top">
 
 The number of current unique users and sessions in the ABAP system
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Expiry of Client Certificates*
+
+
+
+</td>
+<td valign="top">
+
+`abap_system_client_cert_expiry_d`
+
+
+
+</td>
+<td valign="top">
+
+Expiry of client certificates in days
+
+With this metric, you can monitor whether any client certificates expire that you have uploaded to the ABAP system for the communication with systems or services outside the ABAP system, for example, BTP services. Make sure that your client certificates are valid, so that communication doesn't break off.
+
+If the client certificate expires within 7 days, it's marked red. If it expires within 30 days, it's marked yellow.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Expiry of Communication System Certificates*
+
+
+
+</td>
+<td valign="top">
+
+`abap_system_comsys_cert_expiry_d`
+
+
+
+</td>
+<td valign="top">
+
+Expiry of communication system certificates in days
+
+With this metric, you can monitor whether any communication system certificates uploaded to the ABAP system expire for the communication with systems or services outside the ABAP system. Make sure that your communication system certificates are valid, so that communication doesn't break off.
+
+If the communication system certificate expires within 7 days, it's marked red. If it expires within 30 days, it's marked yellow.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Expiry of Trust List Certificates*
+
+
+
+</td>
+<td valign="top">
+
+`abap_system_trusts_cert_expiry_d`
+
+
+
+</td>
+<td valign="top">
+
+Expiry of trust list certificates in days
+
+With this metric, you can monitor certificates from communication partners that you have added to the certificate trust list in your ABAP system. The metric shows whether any of these trusted certificates expire for the communication with systems or services outside the ABAP system. Make sure that your trusted certificates are valid, so that communication doesn't break off.
+
+If the trusted certificate expires within 7 days, it's marked red. If it expires within 30 days, it's marked yellow.
 
 
 

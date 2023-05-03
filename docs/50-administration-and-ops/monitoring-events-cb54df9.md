@@ -128,3 +128,105 @@ Using the *Enterprise Event Enablement ‒ Event Monitor* app, you can monitor e
     </table>
     
 
+
+
+Events reside in an internal queue of the enterprise event enablement. Once the processing of an event is finalized, it is deleted from the queue after a certain time period. Processing an event is finalized if the status is acknowledged or failed.
+
+
+<table>
+<tr>
+<th valign="top">
+
+Deletion timeline
+
+
+
+</th>
+<th valign="top">
+
+Event status
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Hourly before the current full hour
+
+
+
+</td>
+<td valign="top">
+
+Acknowledged
+
+
+
+</td>
+<td valign="top">
+
+The event has been successfully published or consumed according to the chosen quality of service. An hourly background job deletes all acknowledged events from the event monitor.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+After 24 hours
+
+
+
+</td>
+<td valign="top">
+
+Failed
+
+
+
+</td>
+<td valign="top">
+
+The enterprise event enablement either failed to publish the event after 5 attempts or the event could not be consumed by the corresponding consumer.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+No deletion
+
+
+
+</td>
+<td valign="top">
+
+Not processed yet
+
+
+
+</td>
+<td valign="top">
+
+All events that have a different status than acknowledged or failed are not deleted since they are not yet fully processed.
+
+
+
+</td>
+</tr>
+</table>
+
+The timeline for deleting is subject to change.
+

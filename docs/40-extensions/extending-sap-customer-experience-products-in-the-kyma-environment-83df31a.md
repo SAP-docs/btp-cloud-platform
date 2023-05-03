@@ -94,7 +94,7 @@ To do so, you pair the integration token with your SAP Customer Experience syste
 </td>
 <td valign="top">
 
-[Including SAP Systems in a Formation](including-sap-systems-in-a-formation-68b04fa.md)
+[Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md)
 
 
 

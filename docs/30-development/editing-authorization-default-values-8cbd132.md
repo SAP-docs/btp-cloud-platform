@@ -20,8 +20,17 @@ For more information about authorization default values, see [Maintaining Author
 
 1.  Open the service binding and choose the *Maintain Authorization Default Values* link.
 
-2.  Add your authorization object to the list of objects.
+2.  Choose *Synchronize* to add the latest authorization objects from the own context.
 
-3.  Select the authorization object in the list and choose *Default Without Field Values* from the dropdown list.
+    > ### Note:  
+    > The *Synchronize* function only **adds** authorization objects that are not yet part of the list of authorization objects; it does not remove objects.
+
+3.  To check or change the authorization default values that are assigned automatically, select the authorization objects in the list.
+
+    You can now specify what activities you want to authorize.
+
+4.  Choose the authorization object from the list and choose *Default With Field Values* from the dropdown list.
+
+    In our example, we authorize for the standard activities *Create*, *Display*, *Change*, and *Delete* as well as the business object-specific activity *Calculate*.
 
 

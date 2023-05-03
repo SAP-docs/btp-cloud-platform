@@ -100,6 +100,10 @@ The Cloud Platform \(CP\) edition of the XCO library is comprised of the followi
 
     Provides access to text attributes specific to domains as well as to supported origins for the XCO Read APIs for domains.
 
+-   Event binding \(XCO\_CP\_EVENT\_BINDING\)
+
+    Provides access to supported origins and versions for the XCO Read APIs for event bindings.
+
 -   Function group \(XCO\_CP\_FUNCTION\_GROUP\)
 
     Provides access to supported origins for the XCO Read APIs for function groups.
@@ -166,7 +170,11 @@ The Cloud Platform \(CP\) edition of the XCO library is comprised of the followi
 
 -   Service binding \(XCO\_CP\_SERVICE\_BINDING\)
 
-    Provides access to enumerations specific to service bindings.
+    Provides access to enumerations specific to service bindings as well as to supported versions and origins that can be used in the context of XCO Read APIs for service bindings.
+
+-   Service consumption model \(XCO\_CP\_SERVICE\_CONS\_MODEL\)
+
+    Provides access to supported versions and origins that can be used in the context of XCO Read APIs for service comsumption models.
 
 -   Service definition \(XCO\_CP\_SERVICE\_DEFINITION\)
 

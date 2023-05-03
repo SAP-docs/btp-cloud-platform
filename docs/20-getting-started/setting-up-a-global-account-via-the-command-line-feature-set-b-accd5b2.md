@@ -497,14 +497,14 @@ Subaccount admin
 
 Run this command in the btp CLI:
 
-<code>btp create accounts/environment-instance --subaccount <i class="varname">&lt;my-subaccount-id&gt;</i> --display-name <i class="varname">&lt;my-environment&gt;</i> --environment <i class="varname">&lt;cloudfoundry&gt;</i></code>
+<code>btp create accounts/environment-instance --subaccount <i class="varname">&lt;my-subaccount-id&gt;</i> --display-name <i class="varname">&lt;my-environment&gt;</i> --environment <i class="varname">&lt;cloudfoundry&gt;</i> --plan standard --parameters "{\"instance_name\":\"myOrg\"}"</code>
 
 
 
 </td>
 <td valign="top">
 
-See [Working with Environments Using the btp CLI](../50-administration-and-ops/working-with-environments-using-the-btp-cli-48db155.md).
+See [Working with Environments Using the btp CLI](../50-administration-and-ops/working-with-environments-using-the-btp-cli-48db155.md) and[Org Management Using the SAP BTP Command Line Interface \(btp CLI\) \[Feature Set B\]](../50-administration-and-ops/org-management-using-the-sap-btp-command-line-interface-btp-cli-feature-set-b-aee40e1.md) .
 
 
 

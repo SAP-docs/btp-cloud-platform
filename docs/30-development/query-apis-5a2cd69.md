@@ -1,8 +1,8 @@
 <!-- loio5a2cd698d463441d9c1a4c431a7cdb5b -->
 
-# ABAP Repository
+# Query APIs
 
-The XCO ABAP Repository module provides APIs that allow to easily navigate through the ABAP Repository.
+The XCO ABAP Repository module provides Query APIs that allow to easily navigate through the ABAP Repository.
 
 
 
@@ -43,30 +43,20 @@ In the second example all database tables of the package Z\_MY\_OBJECTS that hav
 
 > ### Sample Code:  
 > ```abap
+> 
 > DATA(lo_package) = xco_cp_abap_repository=>package->for( 'Z_MY_OBJECTS' ).
 > DATA(lo_filter) = xco_cp_table=>field_property->foreign_key_check_table->get_filter(
 >   xco_cp_abap_sql=>constraint->equal( 'ZHOLIDAY' )
 > ).
-> 
+>  
 > DATA(lt_database_tables) = xco_cp_abap_repository=>objects->tabl->database_tables->where( VALUE #(
 >   ( lo_filter )
 > ) )->in( lo_package )->get( ).
-> 
+>  
 > LOOP AT lt_database_tables INTO DATA(lo_database_table).
 >   DATA(lv_name) = lo_database_table->name.
-> ```
-
-The XCO ABAP Repository APIs can also be used to programmatically release development objects, e.g. data elements:
-
-> ### Sample Code:  
-> ```abap
-> DATA(lo_transport) = xco_cp_cts=>transport->for( '...' ).
-> DATA(lo_api_state) = xco_cp_ars=>api_state->released( VALUE #( ( xco_cp_ars=>visibility->sap_cloud_platform ) ) ).
-> 
-> DATA(lo_data_element) = xco_cp_abap_repository=>object->dtel->for( 'ZMY_DATA_ELEMENT' ).
-> lo_data_element->set_api_state(
->   io_change_scenario = lo_transport
->   io_api_state       = lo_api_state
-> ).
+>  
+>   " ...
+> ENDLOOP.
 > ```
 

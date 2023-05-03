@@ -1,8 +1,8 @@
 <!-- loiof7fa9f367c644e34b87e6518f7724ccb -->
 
-# Debug a Java Web Application Running on SapMachine
+# Debug an Application Running on SapMachine
 
-Debug an application running on a Cloud Foundry container that is using SapMachine.
+Debug a Java web application running on a Cloud Foundry container that is using SapMachine.
 
 
 

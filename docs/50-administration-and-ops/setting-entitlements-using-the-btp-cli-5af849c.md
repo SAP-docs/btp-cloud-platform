@@ -99,3 +99,5 @@ Assign or update an entitlement to a subaccount or a directory
 
 [btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 
+[Entitlements and Quotas](../10-concepts/entitlements-and-quotas-00aa2c2.md "When you purchase an enterprise account, you’re entitled to use a specific set of resources, such as the amount of memory that can be allocated to your applications.")
+

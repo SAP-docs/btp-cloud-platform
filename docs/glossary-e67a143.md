@@ -307,7 +307,7 @@ The automated or manually triggered process of switching from one system to anot
 <tr>
 <td valign="top">
 
-[formation](40-extensions/including-sap-systems-in-a-formation-68b04fa.md)
+[formation](40-extensions/including-systems-in-a-formation-68b04fa.md)
 
 
 

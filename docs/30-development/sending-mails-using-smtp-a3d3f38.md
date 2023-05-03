@@ -29,7 +29,7 @@ You must define the following configurations in a communication system. See [How
 -   A referenced outbound communication user with authentication method *User and Password*
 
 > ### Note:  
-> -   Instead of maintaining the information directly in the communication system, it's also possible to enter a referenced destination of type *MAIL* in the destination service. For more information, see [Create Mail Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/6442cb4f8b0f41178abce14c35f5def4.html "Create mail destinations in the Destinations editor (SAP BTP cockpit).") :arrow_upper_right:.
+> -   Instead of maintaining the information directly in the communication system, it's also possible to enter a referenced destination of type *MAIL* in the destination service. For more information, see [Create Mail Destinations](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/create-mail-destinations?version=Cloud).
 
 Afterwards, create a communication arrangement for the `SAP_COM_0548` communication scenario using this communication system.
 

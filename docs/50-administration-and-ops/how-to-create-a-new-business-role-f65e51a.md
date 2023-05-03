@@ -1,16 +1,19 @@
-<!-- copyad46da74dcfa428a97ea76d1902a7709 -->
+<!-- loiof65e51a7203443efb58fe535c3d13e5f -->
 
-# How to Create a Business Role from Scratch
+# How to Create a New Business Role
 
-Get an overview of how to create a business role from scratch based on selected business catalogs.
+Get an overview of how to create a new business role from scratch based on selected business catalogs.
 
 
 
-<a name="copyad46da74dcfa428a97ea76d1902a7709__HowToCreateBusinessRoleFromScratch_context"/>
+<a name="loiof65e51a7203443efb58fe535c3d13e5f__HowToCreateBusinessRoleFromScratch_context"/>
 
 ## Context
 
 You use business roles to control the access to your applications. To create a business role, you add one or multiple business catalogs to it. These predefined catalogs contain the actual authorizations that allow users to access apps and allow to define instance based restrictions where necessary. Business catalogs bundle authorizations for a specific business area. Once you have created a business role, you can assign it to multiple business users who perform similar business tasks.
+
+> ### Note:  
+> Please note that this document describes how to create a business role without a template. For more information on how to create a business role from a template, see the *Related information* section.
 
 
 
@@ -20,7 +23,7 @@ You use business roles to control the access to your applications. To create a b
 
 
 
-<a name="copyad46da74dcfa428a97ea76d1902a7709__HowToCreateBusinessRoleFromScratch_steps"/>
+<a name="loiof65e51a7203443efb58fe535c3d13e5f__HowToCreateBusinessRoleFromScratch_steps"/>
 
 ## Procedure
 
@@ -39,6 +42,11 @@ You use business roles to control the access to your applications. To create a b
 
 6.  If required, click *Manage Launchpad Space* to create a new space or use an existing space. For more information, see the *Related information* section below.
 
+    > ### Note:  
+    > The group-based home page is deprecated. It will be removed in a future version. For new systems \(starting with SAP S/4HANA Cloud 2302\), the group-based home page is no longer available. It will be replaced with the spaces and pages mode. Therefore, a warning message is shown. It appears when you save a business role without an assigned space. It reminds you that you need to assign a space to make the tiles visible for the users when you have already switched to the spaces and pages mode.
+    > 
+    > For more information, see SAP Note [2970113](https://launchpad.support.sap.com/#/notes/2970113).
+
 7.  On the *Assigned Business Users* tab, you can assign the business users to your new business role. These users will receive the authorizations as defined in the business role.
 
 8.  Save the business role to activate it.
@@ -51,4 +59,6 @@ You use business roles to control the access to your applications. To create a b
 
 
 [Step by Step: Create a New Space and Page for a Business Role](https://help.sap.com/viewer/4fc8d03390c342da8a60f8ee387bca1a/latest/en-US/ab05d9e086554a08af88d6482deb1bcb.html)
+
+[How to Create a Business Role from a Template](how-to-create-a-business-role-from-a-template-ec310a8.md "Get an overview of how to create a business role from a template.")
 

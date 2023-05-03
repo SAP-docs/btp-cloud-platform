@@ -15,7 +15,7 @@ You can use this app to:
 
 
 -   Get a tabular overview of your interfaces and all messages \(with specific status\) processed through them.
--   Filter your overview by time and/or interface, and restrict it to show only interface with messages or errors.
+-   Filter your overview by time and/or interface, and restrict it to show only interfaces with messages or errors.
 -   Drill down on the messages of a specific interface and filter them by time, status, and key fields \(if any are defined\).
 -   Get more information on an individual message, such as log messages, message details, and data structure.
 -   Download the payload of a specific message.

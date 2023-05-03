@@ -5,9 +5,9 @@
 > ### Note:  
 > The following procedure is applicable only for Feature Set B Global Accounts. To retrieve audit logs for Feature Set A Global Accounts, contact SAP support and include in your request: Global Account ID, recipient email, timeframe, and reason for the request. For more information about feature sets, see [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md)
 
-On Central regions<sup>\(1\)</sup>, Audit Log Retrieval API allows you to retrieve audit logs written on behalf of your SAP BTP Global Account.
+On Central regions, Audit Log Retrieval API allows you to retrieve audit logs written on behalf of your SAP BTP Global Account.
 
-<sup>\(1\)</sup> Refers to the eu10 Europe \(Frankfurt\) region, unless your global account is located in the China \(Shanghai\) and Government Cloud \(US\) regions then use the landscape domain of your central region.
+Your central region is the eu10 Europe \(Frankfurt\) region, unless your global account is located in the China \(Shanghai\) and Government Cloud \(US\) regions. Then use the landscape domain of your central region.
 
 Audit Log Retrieval API is protected by OAuth, and to consume it, you need your system to generate and use a valid OAuth.
 

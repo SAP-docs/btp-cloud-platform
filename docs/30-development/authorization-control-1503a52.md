@@ -4,9 +4,19 @@
 
 
 
+<a name="loio1503a525e32447e9b62c9a45fd263315__section_k1c_jhg_4vb"/>
+
+## Context
+
 [Authorization control in RAP](https://help.sap.com/docs/BTP/923180ddb98240829d935862025004d6/375a8124b22948688ac1c55297868d06.html) protects your business configuration object against unauthorized access to customizing data.
 
 It's recommend to use the authorization `S_TABU_NAM` together with the CDS root entity name of the business object as table name to perform the read and modify operation. However, you can also check against the physical table names or use a different authorization object instead.
+
+
+
+<a name="loio1503a525e32447e9b62c9a45fd263315__section_chy_dsr_gxb"/>
+
+## Procedure
 
 The advantage of using the CDS root entity name is that if the business object is extended by a new table you don't need to adjust the authorization check.
 

@@ -18,7 +18,7 @@ Instead of creating a new IAM app, you can also use an existing IAM app for the 
 
 Follow the procedure in the ABAP development user guide: [Creating an App](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/20e1cd934af24d1fb75a8315b24d2539.html).
 
-For the bonus calculation IAM app, you can now specify what you want to authorize, which are, in our example, the standard activities create, display, change, and delete as well as the business object-specific activity calculate.
+For the bonus calculation IAM app used as an example here, you have already specified before in the authorization default values what you want to authorize. If needed, you can overwrite these defaults again here.
 
 > ### Note:  
 > In this example scenario, we assume that you create only one IAM app for access using all permitted activities and their access categories \(write, read, value help\). Be aware at this point that in the business role Fiori app, the administrator can later separate authorizations depending on the access categories \(write, read, or value help\). Therefore, there's no need to develop different types of access if you just want to separate write, read, and value help.

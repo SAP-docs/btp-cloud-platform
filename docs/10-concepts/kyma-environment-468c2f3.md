@@ -184,36 +184,6 @@ Managed Kyma
 <tr>
 <td valign="top">
 
-Jaeger tracing
-
-
-
-</td>
-<td valign="top">
-
-:heavy_check_mark:
-
-
-
-</td>
-<td valign="top">
-
-:x:
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Logging<sup> [1](kyma-environment-468c2f3.md#loio4b83be95f7db4fddba5c46d388ebf39a__ol_tcn_pdp_pvb)</sup>
 
 

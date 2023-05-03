@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Deregistering or Removing an SAP System
+# Deregistering or Removing a System
 
 When you no longer need the system to be paired with your global account, you can deregister or remove it depending on its status.
 
@@ -12,9 +12,9 @@ When you no longer need the system to be paired with your global account, you ca
 
 ## Prerequisites
 
--   You are a global account administrator, or you are a system landscape administrator of the global account where you want to deregister or remove your SAP system. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
+-   You are a global account administrator, or you are a system landscape administrator of the global account where you want to deregister or remove your system. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
 
--   You have added your SAP system as a record to the list on the **Systems** page. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
+-   You have added your system as a record to the list on the **Systems** page. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
 
 
 
@@ -24,16 +24,16 @@ When you no longer need the system to be paired with your global account, you ca
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
-Deregistering an SAP system means that the connectivity between this system and the global account is disabled and extension scenarios cannot be established, while removing an SAP system means that this system is no longer part of the system landscape list. You can deregister or remove an SAP system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the system landscape list.
+Deregistering an SAP or third-party system means that the connectivity between this system and the global account is disabled and extension scenarios cannot be established, while removing a system means that this system is no longer part of the system landscape list. You can deregister or remove a system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the system landscape list.
 
 The deregistration and the removal processes have the following states displayed in the cockpit:
 
--   *Deregistering* - a deregistration process has started. As a result, the connectivity between the SAP system and SAP BTP is disabled and extension scenarios cannot be established. The system remains in the system landscape list and you can register it again later on.
+-   *Deregistering* - a deregistration process has started. As a result, the connectivity between the SAP or third-party system and SAP BTP is disabled and extension scenarios cannot be established. The system remains in the system landscape list and you can register it again later on.
 
     Once a system is registered, you can deregister it only after removing it from all entitlement configurations and formations it takes part in.
 
 -   *Error while Deregistering* - the deregistration has failed. If the problem persists, you have to report an incident.
--   *Removing* - a system removal process has started in the SAP BTP cockpit. As a result, the SAP system is deregistered, and then, it is removed from the system landscape list completely. To register the system again, first, you must add it to the list anew, and then, initiate the registration procedure.
+-   *Removing* - a system removal process has started in the SAP BTP cockpit. As a result, the SAP or third-party system is deregistered, and then, it is removed from the system landscape list completely. To register the system again, first, you must add it to the list anew, and then, initiate the registration procedure.
 
     Once a system is registered, you can only remove it if you first deregister it.
 
@@ -61,7 +61,7 @@ The deregistration and the removal processes have the following states displayed
 
 1.  In the cockpit, navigate to your global account, and then choose *System Landscape* \> *Systems* .
 
-2.  On the *Systems* page, select the SAP system you want to deregister or remove.
+2.  On the *Systems* page, select the SAP or third-party system you want to deregister or remove.
 
     -   To deregister a system, choose <span class="SAP-icons"></span> \(Deregister system\) from the *Actions* column, or choose *Deregister System* from the *System Details* page that you access when selecting the system from the system landscape list.
 

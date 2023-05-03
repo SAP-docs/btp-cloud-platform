@@ -2,7 +2,7 @@
 
 # Editing Authorization Default Values
 
-Default authorization values are automatically created when you create a service binding. You can add authorization objects and change the default authorization values.
+Authorization default values are automatically created when you create a service binding. You can add authorization objects and change the authorization default values.
 
 
 
@@ -10,9 +10,9 @@ Default authorization values are automatically created when you create a service
 
 ## Context
 
-The default authorization values are the authorizations that are assigned to business users by default if they have a business role based on the service. Note, however, that the default authorization values can be overwritten by values set in the IAM app or by restrictions in the business role.
+The authorization default values are the authorizations that are assigned to business users by default if they have a business role based on the service. Note, however, that the authorization default values can be overwritten by values set in the IAM app or by restrictions in the business role. Therefore, if you want to avoid double maintenance, try and define the authorization default values in such a way that they can be used by all derived IAM apps.
 
-For more information about default authorization values, see [Maintaining Authorization Default Values](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/2ddcb89fced046f3a2392092c846a9de.html) in the ABAP development user guide on SAP Help Portal.
+For more information about authorization default values, see [Maintaining Authorization Default Values](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/2ddcb89fced046f3a2392092c846a9de.html) in the ABAP development user guide on SAP Help Portal.
 
 
 
@@ -22,9 +22,16 @@ For more information about default authorization values, see [Maintaining Author
 
 1.  Open the service binding and choose the *Maintain Authorization Default Values* link.
 
-2.  Add your authorization object to the list of objects.
+2.  Choose *Synchronize* to add the latest authorization objects from the own context.
 
-3.  Select the authorization object in the list and choose *Default Without Field Values* from the dropdown list.
+    > ### Note:  
+    > The *Synchronize* function only **adds** authorization objects that are not yet part of the list of authorization objects; it does not remove objects.
+
+3.  To check or change the authorization default values that are assigned automatically, select the authorization objects in the list.
+
+    An authorization object that is used in the read-protecting access control automatically gets the settings *Default with Field Values* and the required activity value for *Display*. Other authorization objects get *Default Without Field Values*.
+
+4.  For the bonus calculation, you can now specify what you want to authorize, which are, in the example used here, the standard activities *Create*, *Change*, and *Delete* as well as the business object-specific activity *Calculate*.
 
 
 
@@ -33,7 +40,7 @@ For more information about default authorization values, see [Maintaining Author
 
 ## Results
 
-Now, an authorization check is required for the service. No values are applied to an IAM app based on the service. You must define values later in the IAM app itself or delegate the value definition to the administrator during business role maintenance \(only if restrictions are used\).
+Now, the standard authorizations for the service are defined and will be applied to an IAM app based on the service. You still can change them later in the IAM app itself or delegate the value definition to the administrator during business role maintenance \(only if restrictions are used\).
 
 **Related Information**  
 

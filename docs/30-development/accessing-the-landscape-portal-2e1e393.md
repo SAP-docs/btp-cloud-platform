@@ -4,11 +4,11 @@
 
 
 
+<a name="loio2e1e3931d39b4e2e88a411799de31616__section_pgv_55b_jtb"/>
+
+## Adding the *Landscape Portal* as Entitlement
+
 The*Landscape Portal* needs to be assigned to your subaccount as an entitlement.
-
-
-
-### Adding the *Landscape Portal* as entitlement
 
 1.  Sign into your account in the *SAP BTP Cockpit*.
 2.  On global account level, navigate to *Entity Assignments* in the Entitlements menu tree.
@@ -19,11 +19,11 @@ The*Landscape Portal* needs to be assigned to your subaccount as an entitlement.
 
 
 
+<a name="loio2e1e3931d39b4e2e88a411799de31616__section_phm_2rp_qmb"/>
+
+## Subscribing to the *Landscape Portal* in the SAP BTP cockpit
+
 To enable the *Landscape Portal*, you need to subscribe to it in the SAP BTP cockpit. Here’s how:
-
-
-
-### Subscribing to the *Landscape Portal* in the SAP BTP cockpit 
 
 1.  Sign into your account in the *SAP BTP Cockpit*.
 2.  Select your global account, then navigate to *Subaccounts* and select your production subaccount.
@@ -33,11 +33,11 @@ To enable the *Landscape Portal*, you need to subscribe to it in the SAP BTP coc
 
 
 
+<a name="loio2e1e3931d39b4e2e88a411799de31616__section_rr3_5sp_qmb"/>
+
+## Assigning the Landscape Portal Role Collections
+
 In order to log into the *Landscape Portal*, a user first needs to be assigned the necessary role collection. This is done by the security administrators in the SAP BTP cockpit. For more information on how to add security administrators, see [Add Security Administrators to Your Subaccount \[Feature Set A\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/fea877c449ba4c5fbb0aafd92a80afb4.html).
-
-
-
-### Assigning the Landscape Portal Role Collections
 
 > ### Note:  
 > You need to be a security administrator in your production subaccount in order to assign the role collections. 

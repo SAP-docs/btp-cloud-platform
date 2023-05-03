@@ -7,7 +7,7 @@ When you plan to create an SAP Fiori application that you have deployed to the S
 > ### Recommendation:  
 > We recommend using the same UI5 version that is being used by the ABAP environment system.
 > 
-> To check the UI5 version in the SAP Fiori launchpad of your ABAP environment system, use command ***Alt+Ctrl+Shift+P*** or navigate to the user actions menu and select *About*. See [User Actions Menu](https://help.sap.com/viewer/fd8f9fda63fa4c7a92bb1d4b4ac5582c/Cloud/en-US/27834b1aacf344f38910686d8fb0eb0a.html "The user actions menu offers user-related options e.g. to open apps, to change the launchpad layout or to contact support.") :arrow_upper_right:.
+> To check the UI5 version in the SAP Fiori launchpad of your ABAP environment system, use command ***Alt+Ctrl+Shift+P*** or navigate to the user actions menu and select *About*. See [User Actions Menu](https://help.sap.com/docs/btp/sap-fiori-launchpad-for-sap-btp-abap-environment/user-actions-menu?version=Cloud).
 
 ![](images/HTML5_Application_Repository_14db524.png)
 

@@ -144,7 +144,7 @@ Developer
 </td>
 <td valign="top">
 
-Develop new functionality or a deferrable correction. All changes are collected in Workbench transport requests
+Develop new functionality or a deferrable correction. All changes are collected in
 
 
 
@@ -197,7 +197,44 @@ Maintain business configuration. All changes are collected in customizing transp
 <tr>
 <td valign="top">
 
-2
+2 a
+
+
+
+</td>
+<td valign="top">
+
+DEV
+
+
+
+</td>
+<td valign="top">
+
+Developer in ADT
+
+
+
+</td>
+<td valign="top">
+
+Release the development transport request\(s\).
+
+
+
+</td>
+<td valign="top">
+
+ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing Transports* app
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+2 b
 
 
 
@@ -218,7 +255,44 @@ Release Manager
 </td>
 <td valign="top">
 
-Release the transport request\(s\). The changes are now in the release branch YYYY-<nn\>
+Release only export customizing transports.
+
+
+
+</td>
+<td valign="top">
+
+ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing Transports* app
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+2 c
+
+
+
+</td>
+<td valign="top">
+
+DEV
+
+
+
+</td>
+<td valign="top">
+
+Release Manager
+
+
+
+</td>
+<td valign="top">
+
+The changes are now in the release branch YYYY-<nn\>
 
 
 
@@ -444,7 +518,7 @@ Release Manager
 </td>
 <td valign="top">
 
-Check out the new release branch YYYY-<nn+1\> for each software component \(at Go Live: YYYY-01\) into system QAS
+Check out the new release branch YYYY-
 
 
 

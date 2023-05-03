@@ -31,9 +31,9 @@ Use the SAP Web IDE Full-Stack to develop on Cloud Foundry. Even though the SAP 
 
 1.  Register for an SAP BTP trial account at [https://account.hanatrial.ondemand.com/](https://account.hanatrial.ondemand.com/) and log on afterwards.
 
-2.  [Open SAP Web IDE Full-Stack](https://help.sap.com/viewer/DRAFT/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/51321a804b1a4935b0ab7255447f5f84.html)
+2.  [Open SAP Web IDE Full-Stack](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/51321a804b1a4935b0ab7255447f5f84.html)
 
-3.  [Setting Up Application Projects - Create a Project from Scratch & Select a Cloud Foundry Space](https://help.sap.com/viewer/DRAFT/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/3b533e3723674fad90f94510b92f10af.html)
+3.  [Setting Up Application Projects - Create a Project from Scratch & Select a Cloud Foundry Space](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/3b533e3723674fad90f94510b92f10af.html)
 
 4.  [Create an HTML5 Module](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/ca3733f0bb5748c39568952e51f86d16.html)
 

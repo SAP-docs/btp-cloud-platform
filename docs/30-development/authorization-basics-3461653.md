@@ -154,7 +154,7 @@ A CDS behavior definition can define authorization contexts that list multiple a
 
 The authorization contexts can be defined as follows:
 
--   An authorization context with a specific name: Such an authorization context is defined using using the statement `define authorization context`. When an authorization context is activated, the authorization checks for all listed authorization objects always return the value `authorized`. This means that the relevant authorization checks are skipped. Such an authorization context can be useful, for example, to enable privileged mode for a business object \(see [Providing Read or Write Access to a Business Service Using Privileged Mode](providing-read-or-write-access-to-a-business-service-using-privileged-mode-241382c.md)\).
+-   An authorization context with a specific name: Such an authorization context is defined using the statement `define authorization context`. When an authorization context is activated, the authorization checks for all listed authorization objects always return the value `authorized`. This means that if a call is made in privileged mode, the objects from the corresponding privileged context are ignored. Such an authorization context can be useful, for example, to enable privileged mode for a business object \(see [Providing Read or Write Access to a Business Service Using Privileged Mode](providing-read-or-write-access-to-a-business-service-using-privileged-mode-241382c.md)\).
 -   Own authorization context: Such an authorization context is defined using the statement `define own authorization context`. The authorization context lists the authorization objects that are checked by the implementation methods of the ABAP behavior pool of the business object.
 
 > ### Recommendation:  
