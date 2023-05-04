@@ -47,6 +47,10 @@ There are two types of users in subaccounts:
 
     For more information about the available role collections, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md).
 
+    To work in the Cloud Foundry environment add users and authorizations at the org and space level.
+
+    For more information, see [About User Management in the Cloud Foundry Environment](about-user-management-in-the-cloud-foundry-environment-8e6ce96.md).
+
 -   Business users
 
     These users consume applications and services. Business users don't access cloud management tools like the SAP BTP cockpit. Assign role collections required by the applications and services the business users consume.

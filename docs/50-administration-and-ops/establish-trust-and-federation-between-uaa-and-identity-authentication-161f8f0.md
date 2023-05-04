@@ -30,8 +30,6 @@ Use your SAP Cloud Identity Services - Identity Authentication tenant as an iden
 
 > ### Restriction:  
 > You can only establish trust with a single tenant of Identity Authentication per subaccount using this method.
-> 
-> You can’t choose an Identity Authentication tenant with a custom domain.
 
 > ### Recommendation:  
 > We recommend that you always use SAP Cloud Identity Services - Identity Authentication as single identity provider for SAP BTP. If you use corporate identity providers, connect them to your Identity Authentication tenant, which then acts as a hub. We especially recommend this if you are using multiple corporate identity providers. For platform users, the use of SAP Cloud Identity Services - Identity Authentication is mandatory.
@@ -51,9 +49,15 @@ Use your SAP Cloud Identity Services - Identity Authentication tenant as an iden
 
 2.  Choose *Establish Trust*.
 
-3.  Select an identity provider from the list of available and choose *Establish Trust*.
+    The *Configure Tenant* wizard opens.
 
-    The identity providers listed are the Identity Authentication tenants associated with your customer account.
+3.  Choose the Identity Authentication tenant. The identity providers listed are the Identity Authentication tenants associated with your customer ID. Continue with *Next*
+
+4.  Choose the domain configured with the Identity Authentication tenant and continue with *Next*.
+
+5.  You can change the name and the description of the tenant, display the resulting origin key, and enter a link text for user logon \(see [Provide Logon Link Help to Identity Provider for Business Users](provide-logon-link-help-to-identity-provider-for-business-users-b8c0aac.md)\). Continue with *Next*.
+
+6.  Review your configuration and confirm using *Finish*.
 
 
 

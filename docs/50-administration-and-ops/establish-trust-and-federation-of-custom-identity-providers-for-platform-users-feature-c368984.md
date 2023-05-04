@@ -14,7 +14,7 @@ You want to use a custom identity provider for the platform users of SAP BTP in 
 
     For more information, see [Tenant Model and Licensing](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html?version=Cloud) in the documentation for Identity Authentication.
 
--   The Identity Authentication tenant must be associated with the same customer ID as the relevant global account of SAP BTP.
+-   The Identity Authentication tenant is associated with the customer IDs of the relevant global accounts of SAP BTP.
 
 -   Make sure that the e-mail addresses of all users in your identity provider are unique and correct.
 
@@ -98,13 +98,13 @@ You've configured trust in your tenant of the Identity Authentication service, w
     > ### Recommendation:  
     > We recommend that you keep at least one global account administrator from the default identity provider. You can then use this administrator to log on in the rare instance that access to the custom identity provider fails.
 
--   Log on to the SAP BTP cockpit as a user from the custom identity provider. In the *Trust Configuration* page, the *Open* link in the *SAP BTP Cockpit* column contains the URL \(for example, *https://cockpit.eu10.hana.ondemand.com/cockpit/?idp=cidppuxhm.accounts.ondemand.com*\) for the user to log on with the custom identity provider. Copy the link and send it to your platform user colleagues. Remember if you have the cockpit open and if you want to work in parallel, your current session may be shared by your browser. Open the link in a private or incognito browsing mode.
+-   Log on to the SAP BTP cockpit as a user from the custom identity provider. In the *Trust Configuration* page, the *Open* link in the *SAP BTP Cockpit* column contains the URL \(for example, *https://emea.cockpit.btp.cloud.sap/cockpit/?idp=cidppuxhm.accounts.ondemand.com*\) for the user to log on with the custom identity provider. Copy the link and send it to your platform user colleagues. Remember if you have the cockpit open and if you want to work in parallel, your current session may be shared by your browser. Open the link in a private or incognito browsing mode.
 
     For more information, see [Log On with a Custom Identity Provider to the SAP BTP Cockpit](log-on-with-a-custom-identity-provider-to-the-sap-btp-cockpit-0bef982.md).
 
--   If you want to impose, for example, two-factor authentication for platform users, you must configure [two-factor authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/596e7f8b3f0441aaa8736be6bb368d5f.html) in all the Identity Authentication applications involved.
+-   If you want to impose, for example, two-factor authentication for platform users, you must configure [two-factor authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/596e7f8b3f0441aaa8736be6bb368d5f.html) in **all** the Identity Authentication applications involved. Multifactor authentication is just used as an example.
 
-    For more information, see [Multi-Factor Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/596e7f8b3f0441aaa8736be6bb368d5f.html) in the documentation for the Identity Authentication service.
+    For more information, see [Multi-Factor Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/596e7f8b3f0441aaa8736be6bb368d5f.html) in the documentation for the Identity Authentication service. Keep all settings for Identity Authentication applications the same.
 
     > ### Tip:  
     > Instead of configuring two-factor authentication in all the Identity Authentication applications, you could also configure it once in your corporate identity provider.

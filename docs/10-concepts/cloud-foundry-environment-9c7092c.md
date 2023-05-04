@@ -116,6 +116,8 @@ The following technical configurations are specific to SAP BTP and differ from t
 
 -   Applications requiring sent envelopes to be delivered to external Log Management Services should use the Cloud Foundry syslog drain capability. See [https://docs.cloudfoundry.org/devguide/services/log-management.html](https://docs.cloudfoundry.org/devguide/services/log-management.html).
 
+-   In the SAP BTP, Cloud Foundry environment, the time between signaling a container to shut down gracefully and forcefully stopping it is set to 60 seconds. The default in Cloud Foundry is 10 seconds, see [https://docs.cloudfoundry.org/devguide/deploy-apps/app-lifecycle.html\#shutdown](https://docs.cloudfoundry.org/devguide/deploy-apps/app-lifecycle.html#shutdown). This time interval will not be taken into account if there are no explicit kernel signal handlers implemented in the application.
+
 -   In the SAP BTP, Cloud Foundry environment, applications get a guaranteed CPU share of ¼ core per GB instance memory. As the maximum instance memory per application is 8 GB, this allows for vertical scaling up to 2 CPUs.
 
     If applications running on the same virtual machine don't use their guaranteed CPU, other applications might get more CPU. This isn’t guaranteed and might be subject to change in the future. If you encounter performance problems, scale up your application or increase the application start timeout.

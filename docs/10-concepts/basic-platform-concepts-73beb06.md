@@ -130,7 +130,7 @@ The SAP BTP cockpit is structured according to global accounts and subaccounts:
 
 -   **Subaccounts** let you structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements.
 
-    In the Cloud Foundry environment, the subaccount is divided into one or more spaces, which is where application development, deployment, and maintenance takes place.
+    In the Cloud Foundry environment, the subaccount is divided into one or more spaces, which is where application development, deployment, and maintenance take place.
 
 
 For more information, see [Account Model](account-model-8ed4a70.md#loio8ed4a705efa0431b910056c0acdbf377).
@@ -151,7 +151,7 @@ The SAP BTP cockpit is structured according to global accounts, directories, and
 
 -   **Subaccounts** let you structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements.
 
-    In the Cloud Foundry environment, the subaccount is divided into one or more spaces, which is where application development, deployment, and maintenance takes place.
+    In the Cloud Foundry environment, the subaccount is divided into one or more spaces, which is where application development, deployment, and maintenance take place.
 
 
 For more information, see [Account Model](account-model-8ed4a70.md#loio8ed4a705efa0431b910056c0acdbf377).

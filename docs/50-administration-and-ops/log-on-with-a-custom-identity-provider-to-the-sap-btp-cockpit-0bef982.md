@@ -26,7 +26,7 @@ All users can log on to the SAP BTP cockpit with a custom identity provider.
 Use the *Open* link in the *SAP BTP Cockpit* column. It contains a URL for the user to log on with the custom identity provider.
 
 > ### Example:  
-> *https://cockpit.eu10.hana.ondemand.com/cockpit/?idp=cidppuxhm.accounts.ondemand.com*
+> *https://emea.cockpit.btp.cloud.sap/cockpit/?idp=cidppuxhm.accounts.ondemand.com*
 
 
 
@@ -38,12 +38,12 @@ Use the *Open* link in the *SAP BTP Cockpit* column. It contains a URL for the u
 
 2.  Use the *Open* link in the SAP BTP*Cockpit* column.
 
-    -   If you want to enable other platform users to log on with a custom identity provider, send the link to these users.
+    -   To enable other platform users to log on with a custom identity provider, send the link to these users.
 
-    -   If you want to work with your user accounts from multiple identity providers at the same time, open the link in a private/incognito browser window or tab.
+    -   To work with your user accounts from multiple identity providers at the same time, open the link in a private or incognito browser window or tab.
 
         > ### Note:  
-        > This is required because a browser that is not in private/incognito mode has one single session with the cockpit. If you have an existing cockpit session with one identity provider and log on with another one, the existing session closes and creates a new session. For this reason, you can't have parallel sessions with different identity providers.
+        > A browser that isn't in private or incognito mode has one single session with the cockpit. If you have an existing cockpit session with one identity provider and log on with another one, the existing session closes and creates a new session. For this reason, you can't have parallel sessions with different identity providers.
 
 
 3.  Log on using the custom identity provider.

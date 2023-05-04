@@ -238,9 +238,11 @@ Spaces
 
 Manage org members on the *Members* page at environment level in the cockpit or with the Cloud Foundry CLI.
 
-A platform user added as an org member can be either an **Org Manager** or an **Org Auditor**.
+A platform user added as an org member can be either an **Org Manager** or an **Org Auditor** or implicitly as an **Org User**.
 
 See:
+
+[About Roles in the Cloud Foundry Environment](../50-administration-and-ops/about-roles-in-the-cloud-foundry-environment-0907638.md)
 
  [https://docs.cloudfoundry.org/concepts/roles.html\#roles](https://docs.cloudfoundry.org/concepts/roles.html#roles)
 
@@ -257,6 +259,8 @@ A platform user added as a space member can be either a **Space Manager**, **Spa
 
 See:
 
+[About Roles in the Cloud Foundry Environment](../50-administration-and-ops/about-roles-in-the-cloud-foundry-environment-0907638.md)
+
  [https://docs.cloudfoundry.org/concepts/roles.html\#roles](https://docs.cloudfoundry.org/concepts/roles.html#roles)
 
 [Add Space Members Using the Cockpit](../50-administration-and-ops/add-space-members-using-the-cockpit-81d0b4d.md)
@@ -266,6 +270,8 @@ See:
 </td>
 </tr>
 </table>
+
+See also [About User Management in the Cloud Foundry Environment](../50-administration-and-ops/about-user-management-in-the-cloud-foundry-environment-8e6ce96.md).
 
 **User management** refers to managing authentication and authorization for your business users.
 

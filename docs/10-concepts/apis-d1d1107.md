@@ -37,14 +37,14 @@ Description
 <tr>
 <td valign="top">
 
-**[SAP BTP on the SAP API Business Hub](https://api.sap.com/products/SAPCloudPlatform/overview)**
+**[SAP BTP on SAP Business Accelerator Hub](https://api.sap.com/products/SAPCloudPlatform/overview)**
 
 
 
 </td>
 <td valign="top">
 
-The SAP API Business Hub provides you with one central repository for browsing and accessing APIs from SAP and select partners. Test APIs and try out mock data in your systems.
+The SAP Business Accelerator Hub provides you with one central repository for browsing and accessing APIs from SAP and selected partners. Test APIs and try out mock data in your systems.
 
 It is also the official place where REST and OData REST API references are published.
 

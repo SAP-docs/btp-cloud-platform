@@ -14,13 +14,13 @@ You can add space members and assign roles to them at the space level in the coc
 
 -   You have the Space Manager or Org Manager role.
 
-    If you only have the Space Manager role, the users you want to add to the space must already be members of the org. For more details, see the *Context* section.
+    If you only have the Space Manager role, the users you want to add to the space must already be members of the org.
+
+    For more information, see the *Context* section.
 
 -   The users exist in a trusted platform identity provider.
 
-    All users of SAP BTP are stored in identity providers, either in the default or in a custom identity provider. SAP BTP needs a copy of the user, sometimes called a shadow user. You assign the shadow user authorizations to access resources in SAP BTP. When a user authenticates, SAP BTP forwards the request to the identity provider.
-
-    For more information, see [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md).
+    For more information, see [About User Management in the Cloud Foundry Environment](about-user-management-in-the-cloud-foundry-environment-8e6ce96.md).
 
 
 
