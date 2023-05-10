@@ -1,0 +1,43 @@
+# Syntax for issue forms: 
+# https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms
+#
+name: Documentation Feedback
+description: Report an issue in the documentation
+body:
+  - type: textarea
+    attributes:
+      label: Issue description
+      description: What is wrong, missing, misleading in the documentation?
+      value: |
+        <!-------------------------------------------------------------------------------------------
+        Note that this proposal is visible on github.com for anyone to see.
+        Refrain from sharing sensitive information.
+        -------------------------------------------------------------------------------------------->
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Feedback Type (Optional)
+      description: What is your feedback related to?
+      options:
+        - clarity
+        - content gaps
+        - content structure
+        - examples or samples
+        - linking
+        - outdated information
+        - spelling or grammar
+        - graphics
+        - other
+    validations:
+      required: false
+  - type: input
+    id: topic-title
+    attributes:
+      label: Page Title on SAP Help Portal (prefilled)
+      description: (prefilled; do not change)
+  - type: input
+    id: hp-page-url
+    attributes:
+      label: Page URL on SAP Help Portal (prefilled)
+      description: (prefilled; do not change)
