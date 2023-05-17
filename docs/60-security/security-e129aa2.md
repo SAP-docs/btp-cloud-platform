@@ -123,7 +123,7 @@ See [SAP Credential Store](https://help.sap.com/viewer/product/CREDENTIAL_STORE/
 
 Use SAP Malware Scanning service to scan business documents for malware. Integrate this service with your custom-developed apps running on the Cloud Foundry runtime. When your apps upload business documents, your apps can call the SAP Malware Scanning service to check for viruses or other malware.
 
-For more information, see [https://help.sap.com/docs/MALWARE\_SCANNING?version=Cloud](https://help.sap.com/docs/MALWARE_SCANNING?version=Cloud).
+For more information, see [SAP Malware Scanning Service](https://help.sap.com/docs/MALWARE_SCANNING?version=Cloud).
 
 **Related Information**  
 

@@ -1240,6 +1240,7 @@
                 -   [Working with External Resource Providers Using the btp CLI](50-administration-and-ops/working-with-external-resource-providers-using-the-btp-cli-48d7688.md)
                 -   [Managing Trust from SAP BTP to an Identity Authentication Tenant](50-administration-and-ops/managing-trust-from-sap-btp-to-an-identity-authentication-tenant-6140107.md)
                 -   [Managing Users and Their Authorizations Using the btp CLI](50-administration-and-ops/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
+                -   [Managing Signing Keys for Access Tokens](50-administration-and-ops/managing-signing-keys-for-access-tokens-dfca1d3.md)
                 -   [Working With Resources of the SAP Service Manager Using the btp CLI](50-administration-and-ops/working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md)
             -   [Troubleshooting and Support](50-administration-and-ops/troubleshooting-and-support-4023e15.md)
         -   [Account Administration Using APIs](50-administration-and-ops/account-administration-using-apis-1c8db14.md)

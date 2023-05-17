@@ -734,5 +734,7 @@ Get details about a specific service offering associated with your subaccount.
 
 [Managing Users and Their Authorizations Using the btp CLI](managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md "User authorizations are managed by assigning role collections to users (for example, Subaccount Administrator). Use the SAP BTP command-line interface (btp CLI) to manage roles and role collections, and to assign role collections to users.")
 
+[Managing Signing Keys for Access Tokens](managing-signing-keys-for-access-tokens-dfca1d3.md "Use the SAP BTP command line interface (btp CLI) to manage signing keys for access tokens in the subaccount.")
+
 [btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

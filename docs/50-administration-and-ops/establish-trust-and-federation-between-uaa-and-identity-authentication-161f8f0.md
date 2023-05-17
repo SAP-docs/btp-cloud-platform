@@ -16,7 +16,9 @@ Use your SAP Cloud Identity Services - Identity Authentication tenant as an iden
 
     For more information, see [Tenant Model and Licensing](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html#getting-a-tenant) in the documentation for Identity Authentication.
 
-    The Identity Authentication tenant must be associated with the same customer ID as the relevant global account of SAP BTP.
+-   The Identity Authentication tenant is associated with the customer IDs of the relevant global account of SAP BTP.
+
+    For more information, see [**Reuse SAP Cloud Identity Services Tenants for Different Customer IDs**](https://help.sap.com/docs/identity-authentication/identity-authentication/reuse-sap-cloud-identity-services-tenants-for-different-customer-ids) in the documentation for Identity Authentication.
 
 
 
@@ -51,7 +53,7 @@ Use your SAP Cloud Identity Services - Identity Authentication tenant as an iden
 
     The *Configure Tenant* wizard opens.
 
-3.  Choose the Identity Authentication tenant. The identity providers listed are the Identity Authentication tenants associated with your customer ID. Continue with *Next*
+3.  Choose the Identity Authentication tenant. The identity providers listed are the Identity Authentication tenants associated with your customer ID. Continue with *Next*.
 
 4.  Choose the domain configured with the Identity Authentication tenant and continue with *Next*.
 

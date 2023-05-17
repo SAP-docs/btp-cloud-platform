@@ -14,7 +14,9 @@ You want to use a custom identity provider for the platform users of SAP BTP in 
 
     For more information, see [Tenant Model and Licensing](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html?version=Cloud) in the documentation for Identity Authentication.
 
--   The Identity Authentication tenant is associated with the customer IDs of the relevant global accounts of SAP BTP.
+-   The Identity Authentication tenant is associated with the customer IDs of the relevant global account of SAP BTP.
+
+    For more information, see [**Reuse SAP Cloud Identity Services Tenants for Different Customer IDs**](https://help.sap.com/docs/identity-authentication/identity-authentication/reuse-sap-cloud-identity-services-tenants-for-different-customer-ids) in the documentation for Identity Authentication.
 
 -   Make sure that the e-mail addresses of all users in your identity provider are unique and correct.
 

@@ -61,7 +61,7 @@ For more information about creating service instances, see [Create Service Insta
     > 
     > The ABAP system description is optional.
     > 
-    > The Development System checkbox is checked by default. By using this setting, you can control the changeability of development objects in the system. If you want to protect all your customer-related software components and ABAP namespaces against manual changes via ABAP Development Tools, uncheck the box. This setting is used for test and productive systems, where changes must be imported only. For details, which business catalogs are available only in development systems, see [Business Catalogs for Development Tasks](../50-administration-and-ops/business-catalogs-for-development-tasks-a9f4278.md).
+    > The Development System checkbox is checked by default. By using this setting, you can control the changeability of development objects in the system. If you want to protect all your customer-related software components and ABAP namespaces against manual changes via ABAP Development Tools, uncheck the box. This setting is used for test and productive systems, where changes must be imported only.
     > 
     > The ABAP system ID must consist of exactly three alphanumeric characters. Only uppercase letters are allowed. The first character must be a letter \(not a digit\). The ID does not have to be technically unique.
     > 

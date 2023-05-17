@@ -1,11 +1,17 @@
-<!-- loioc1b0fcc400384fedba325795dc10871d -->
+<!-- loiodfca1d3ff19240f5ad6b88bc935515f4 -->
 
-# Working with Multitenant Applications Using the btp CLI
+# Managing Signing Keys for Access Tokens
 
-Use the SAP BTP command line interface \(btp CLI\) to manage the multitenant applications to which a subaccount is entitled to subscribe.
+Use the SAP BTP command line interface \(btp CLI\) to manage signing keys for access tokens in the subaccount.
 
-> ### Tip:  
-> By default, all commands are executed in the global account you're logged in to. To change this target to a subaccount, use <code>btp target -sa <i class="varname">&lt;my-subaccount-id&gt;</i></code>. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
+You can create a new signing key for access tokens.
+
+> ### Note:  
+> The newly created key only becomes active once you enable it. The number of keys is restricted to 2 per subaccount.
+
+When a signing key is enabled, all newly requested tokens are signed with this key and the existing signing key is disabled. It's also possible to list all signing keys, no matter whether they're enabled or disabled. You can also delete a disabled signing key.
+
+For more information, see [**Rotate Signing Keys of Access Tokens**](https://help.sap.com/docs/CP_AUTHORIZ_TRUST_MNG/ae8e8427ecdf407790d96dad93b5f723/b279adf3ec134b2a8611a42bff1ee9d9.html).
 
 
 <table>
@@ -19,7 +25,7 @@ Task
 </th>
 <th valign="top">
 
-Run the command...
+Run the command ...
 
 
 
@@ -35,44 +41,21 @@ Command help
 <tr>
 <td valign="top">
 
-Get all applications to which a subaccount is entitled to subscribe
+Create a new signing key for access tokens
 
 
 
 </td>
 <td valign="top">
 
-`btp list accounts/subscription`
+`btp create security/token-key`
 
 
 
 </td>
 <td valign="top">
 
-[btp list accounts/subscription](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-subscription.html)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Get details of a multitenant application in a subaccount
-
-
-
-</td>
-<td valign="top">
-
-`btp get accounts/subscription`
-
-
-
-</td>
-<td valign="top">
-
-[btp get accounts/subscription](https://help.sap.com/docs/BTP/btp-cli/btp-get-accounts-subscription.html)
+[https://help.sap.com/docs/BTP/btp-cli/btp-create-security-token-key.html](https://help.sap.com/docs/BTP/btp-cli/btp-create-security-token-key.html)
 
 
 
@@ -81,47 +64,21 @@ Get details of a multitenant application in a subaccount
 <tr>
 <td valign="top">
 
-Subscribe to an application from a subaccount
+Enable an existing key as signing key for access tokens
 
 
 
 </td>
 <td valign="top">
 
-`btp subscribe accounts/subaccount`
+`btp enable security/token-key`
 
 
 
 </td>
 <td valign="top">
 
-[btp subscribe accounts/subaccount](https://help.sap.com/docs/BTP/btp-cli/btp-subscribe-accounts-subaccount.html)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Update the plan of an existing subscription
-
-> ### Note:  
-> You can update a subscription plan only if additional plans for the application are entitled to the subaccount you're using and if your subscription is eligible for a plan update.
-
-
-
-</td>
-<td valign="top">
-
-`btp update accounts/subscription`
-
-
-
-</td>
-<td valign="top">
-
-[btp update accounts/subscription](https://help.sap.com/docs/BTP/btp-cli/btp-update-accounts-subscription.html)
+[https://help.sap.com/docs/BTP/btp-cli/btp-enable-security-token-key.html](https://help.sap.com/docs/BTP/btp-cli/btp-enable-security-token-key.html)
 
 
 
@@ -130,29 +87,50 @@ Update the plan of an existing subscription
 <tr>
 <td valign="top">
 
-Unsubscribe an application from a subaccount
+Delete a disabled signing key for access tokens
 
 
 
 </td>
 <td valign="top">
 
-`btp unsubscribe accounts/subaccount`
+`btp delete security/token-key` 
 
 
 
 </td>
 <td valign="top">
 
-[btp unsubscribe accounts/subaccount](https://help.sap.com/docs/BTP/btp-cli/btp-unsubscribe-accounts-subaccount.html)
+[https://help.sap.com/docs/BTP/btp-cli/btp-delete-security-token-key.html](https://help.sap.com/docs/BTP/btp-cli/btp-delete-security-token-key.html)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+List the existing signing keys for access tokens and indicates which key is currently enabled
+
+
+
+</td>
+<td valign="top">
+
+`btp list security/token-key`
+
+
+
+</td>
+<td valign="top">
+
+[https://help.sap.com/docs/BTP/btp-cli/btp-list-security-token-key.html](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-token-key.html)
 
 
 
 </td>
 </tr>
 </table>
-
-For more information, see [Subscribe to Multitenant Applications Using the Cockpit](subscribe-to-multitenant-applications-using-the-cockpit-7a3e396.md).
 
 **Related Information**  
 
@@ -163,15 +141,13 @@ For more information, see [Subscribe to Multitenant Applications Using the Cockp
 
 [Working with Environments Using the btp CLI](working-with-environments-using-the-btp-cli-48db155.md "Use the SAP BTP command line interface (btp CLI) to manage runtime environment instances in a subaccount. For example, enable the Cloud Foundry environment by creating a Cloud Foundry org (environment instance).")
 
+[Working with Multitenant Applications Using the btp CLI](working-with-multitenant-applications-using-the-btp-cli-c1b0fcc.md "Use the SAP BTP command line interface (btp CLI) to manage the multitenant applications to which a subaccount is entitled to subscribe.")
+
 [Working with External Resource Providers Using the btp CLI](working-with-external-resource-providers-using-the-btp-cli-48d7688.md "Use the SAP BTP command line interface (btp CLI) to get details, or to create or delete resource provider instances in a global account.")
 
 [Managing Trust from SAP BTP to an Identity Authentication Tenant](managing-trust-from-sap-btp-to-an-identity-authentication-tenant-6140107.md "SAP BTP supports identity federation. Its concept is to reuse the user bases of identity providers. To use a custom identity provider, your global account or subaccount in SAP BTP must have a trust relationship to the identity provider you want to use.")
 
 [Managing Users and Their Authorizations Using the btp CLI](managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md "User authorizations are managed by assigning role collections to users (for example, Subaccount Administrator). Use the SAP BTP command-line interface (btp CLI) to manage roles and role collections, and to assign role collections to users.")
 
-[Managing Signing Keys for Access Tokens](managing-signing-keys-for-access-tokens-dfca1d3.md "Use the SAP BTP command line interface (btp CLI) to manage signing keys for access tokens in the subaccount.")
-
 [Working With Resources of the SAP Service Manager Using the btp CLI](working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md "Use the SAP BTP command line interface to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.")
-
-[btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

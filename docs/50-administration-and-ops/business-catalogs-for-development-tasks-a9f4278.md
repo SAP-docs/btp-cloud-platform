@@ -2,14 +2,11 @@
 
 # Business Catalogs for Development Tasks
 
-Get an overview of available business catalogs for development tasks and their restrictions.
+Get an overview of available business role catalogs and their restrictions.
 
 
 
 You assign business catalogs to business roles that are assigned to business users. Business catalogs contain authorizations that define what a business user with a certain business role is allowed to do.
-
-Certain business catalogs are part of business role template SAP_BR_DEVELOPER (Developer), which is only available in development systems (see [Creating an ABAP System](../20-getting-started/creating-an-abap-system-50b32f1.md)).
-Development support activities in non-development systems shall be performed using business role template SAP_BR_APPL_SUP_ENG_DEV_SUP (Application Support Engineer - Development Support).
 
 **Business Catalogs for Development Tasks**
 
@@ -59,7 +56,6 @@ ADT Development
 
 No transport request management \(transport tasks only\)
 
-Available only in development systems
 
 
 </td>
@@ -106,10 +102,12 @@ SAP\_A4C\_BC\_DEV\_TST\_PC
 
 Testing ABAP-based APIs released by SAP
 
+
+
 </td>
 <td valign="top">
 
-Available only in development systems
+\-
 
 
 
@@ -211,7 +209,7 @@ ADT Transport Management
 
 No release of transport requests and no customizing requests
 
-Available only in development systems
+
 
 </td>
 </tr>
@@ -236,7 +234,6 @@ ADT Transport Release Management
 
 No customizing requests
 
-Available only in development systems
 
 
 </td>
@@ -248,6 +245,8 @@ Available only in development systems
 
 SAP\_A4C\_BC\_DEV\_UID\_PC
 
+
+
 </td>
 <td valign="top">
 
@@ -258,7 +257,7 @@ Deployment of UIs into the ABAP system repository
 </td>
 <td valign="top">
 
-Available only in development systems
+\-
 
 
 
@@ -331,6 +330,7 @@ Usage of the data preview in ABAP Development Tools for objects that are conside
 SAP\_CORE\_BC\_EXT\_TST
 
 
+
 </td>
 <td valign="top">
 
@@ -344,8 +344,7 @@ SAP\_CORE\_BC\_EXT\_TST
 <td valign="top">
 
 Only services that have their original in the current system
-  
-Available only in development systems
+
 
 
 </td>
