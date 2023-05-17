@@ -35,9 +35,7 @@ body:
     id: topic-title
     attributes:
       label: Page Title on SAP Help Portal (prefilled)
-      description: (prefilled; do not change)
   - type: input
     id: hp-page-url
     attributes:
       label: Page URL on SAP Help Portal (prefilled)
-      description: (prefilled; do not change)
