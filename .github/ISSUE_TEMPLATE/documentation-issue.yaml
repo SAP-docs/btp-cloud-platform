@@ -2,6 +2,7 @@
 # https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms
 #
 name: Documentation Feedback
+title: [doc issue] 
 description: Report an issue in the documentation
 body:
   - type: textarea
