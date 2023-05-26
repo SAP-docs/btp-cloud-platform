@@ -28,8 +28,10 @@ Feature sets A and B don't share the same cockpit. So in your feature set A cock
 
 When using cloud management tools feature set A: Choose [https://account.eu1.hana.ondemand.com](https://account.eu1.hana.ondemand.com) to access the SAP BTP cockpit.
 
-When using cloud management tools feature set B: Choose [https://cockpit.eu10.hana.ondemand.com/cockpit/](https://cockpit.eu10.hana.ondemand.com/cockpit/) to access the SAP BTP cockpit.
-
+When using cloud management tools feature set B: Choose _https://&lt;cockpit region&gt;.cockpit.btp.cloud.sap_ to access the cockpit and replace _&lt;cockpit region&gt;_ with one of the following, depending on your geographic location:
+* emea
+* amer
+* apac
 
 
 <a name="loiocaf4e4e23aef4666ad8f125af393dfb2__section_axn_hqv_nkb"/>
