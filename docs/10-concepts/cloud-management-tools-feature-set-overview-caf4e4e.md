@@ -34,7 +34,6 @@ When using cloud management tools feature set B: Choose _https://&lt;cockpit reg
 * apac
 
 
-
 <a name="loiocaf4e4e23aef4666ad8f125af393dfb2__section_axn_hqv_nkb"/>
 
 ## What are the differences between the two cloud management tools feature sets?
