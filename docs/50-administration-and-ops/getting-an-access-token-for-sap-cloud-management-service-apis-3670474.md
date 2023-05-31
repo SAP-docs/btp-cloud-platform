@@ -111,7 +111,7 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
         </tr>
         </table>
         
-        For more information about the APIs, see the `Subaccount Operations` section of the `Accounts` service in the [SAP API Business Hub](https://api.sap.com/api/APIAccountsService/resource) 
+        For more information about the APIs, see the `Subaccount Operations` section of the `Accounts` service in the [SAP Business Accelerator Hub](https://api.sap.com/api/APIAccountsService/resource) 
 
         > ### Note:  
         > If you use the SAP Service Manager API, CLI, or the SAP BTP cockpit to create the service instance of the SAP Cloud Management service \(`cis`\), you can get a Client Credentials grant type token by specifying the following parameter during the instance creation: `{"grantType": "clientCredentials"}`.
@@ -253,14 +253,14 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
 
 <a name="loio3670474a58c24ac2b082e76cbbd9dc19__section_bbm_fnw_tqb"/>
 
-## Trying Out SAP Cloud Management Service API in SAP API Business Hub
+## Trying Out SAP Cloud Management Service API in SAP Business Accelerator Hub
 
-To learn more about SAP API Business Hub, see [What Is the SAP API Business Hub?](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/54871d308811444d8d84fbb3fb82cf4c.html)
+To learn more about SAP Business Accelerator Hub, see [What Is the SAP Business Accelerator Hub?](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/54871d308811444d8d84fbb3fb82cf4c.html)
 
 > ### Note:  
-> In the Hub, you find SAP Cloud Management Service APIs under the **Core Services for SAP BTP** API Package.
+> In the SAP Business Accelerator Hub, you find SAP Cloud Management Service APIs under the **Core Services for SAP BTP** API Package.
 
-To start working with SAP Cloud Management Service APIs in SAP API Business Hub, you'll need to configure an environment. See [Trying Out APIs in a Configured Environment](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/f7796baaef6a48e9867298827f5028ff.html).
+To start working with SAP Cloud Management Service APIs in SAP Business Accelerator Hub, you'll need to configure an environment. See [Trying Out APIs in a Configured Environment](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/f7796baaef6a48e9867298827f5028ff.html).
 
 > ### Note:  
 > You configure an environment by populating all mandatory fields in the *Create New Environment* wizard.

@@ -10,7 +10,10 @@ To connect an SAP system with a global account in SAP BTP, you first need to reg
 
 ## Prerequisites
 
-You are a global account administrator, or you are a system landscape administrator of the global account where you want to register your SAP system. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
+-   You are a global account administrator, or you are a system landscape administrator of the global account where you want to register your SAP system. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
+
+-   Before adding your system, make sure it's not already auto-discovered and listed automatically in the *Systems* list.
+
 
 
 
@@ -22,6 +25,11 @@ You are a global account administrator, or you are a system landscape administra
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
 Adding a system to the list in the *System Landscape* page is just the first step of the system registration process. When you have only added a system, the system is not yet registered in the SAP BTP global account. That is, the required configuration on the system side has not been performed, and therefore, the newly added system cannot exchange or expose its technical details, metadata, APIs, or events. Only when the registration process is complete and the system is registered with SAP BTP, it can exchange the relevant information and enable the extension scenario.
+
+If your system is associated with the given global account, this system is discovered and added automatically to the *Systems* list based on information of the existing system landscape. Any SAP system of the supported system types that is associated with the same customer ID, with which your global account in SAP BTP is associated, will be auto-discovered.
+
+> ### Note:  
+> If a given SAP system is missing on the *System Landscape* page, it may be associated with a different customer ID on the SAP BTP global account you are working in. In this case, you need to add the system manually, and then, register it.
 
 > ### Note:  
 > You cannot migrate the registered SAP systems between global accounts.
@@ -112,11 +120,10 @@ If the registration error persists, report an incident in one of the following c
 
 ## Results
 
--   The system has been added as a record to the list on the *Systems* page in the SAP BTP cockpit and a token for connecting the corresponding SAP solution with the global account in SAP BTP has been generated.
+The system has been added as a record to the list on the *Systems* page in the SAP BTP cockpit and a token for connecting the corresponding SAP solution with the global account in SAP BTP has been generated.
 
-    > ### Note:  
-    > Registration tokens have different validity periods that depend on the system type. For more information about token expiry, see the corresponding documentation at the *Related Links* section.
-
+> ### Note:  
+> Registration tokens have different validity periods that depend on the system type. For more information about token expiry, see the corresponding documentation at the *Related Links* section.
 
 
 

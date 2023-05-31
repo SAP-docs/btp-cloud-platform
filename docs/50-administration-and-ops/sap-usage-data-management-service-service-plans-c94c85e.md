@@ -106,5 +106,5 @@ When you create a service instance of this plan, you have to pass the directory 
 **Related Information**  
 
 
-[Configuration for Using the Resource Consumption APIs in the SAP API Business Hub](configuration-for-using-the-resource-consumption-apis-in-the-sap-api-business-hub-4bfe9c7.md "The Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP are protected with OAuth 2.0 Client Credentials grant type and in some cases, also the Password grant type.")
+[Configuration for Using the Resource Consumption APIs in the SAP Business Accelerator Hub](configuration-for-using-the-resource-consumption-apis-in-the-sap-business-accelerator-h-4bfe9c7.md "The Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP are protected with OAuth 2.0 Client Credentials grant type and in some cases, also the Password grant type.")
 

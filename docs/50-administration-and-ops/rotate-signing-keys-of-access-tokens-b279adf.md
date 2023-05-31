@@ -36,7 +36,7 @@ Components of the Cloud Foundry environment use the digital signature of the acc
 
     <code>https://api.authentication.<i class="varname">&lt;region&gt;</i>.hana.ondemand.com/sap/rest/authorization/v2/securitySettings</code>
 
-    For more information, check the security settings API on the [API Business Hub](https://api.sap.com/package/authtrustmgmnt?section=Artifacts).
+    For more information, check the security settings API on the [SAP Business Accelerator Hub](https://api.sap.com/package/authtrustmgmnt?section=Artifacts).
 
     The API returns a JSON with the security settings. Examine the key IDs in the token policy settings.
 

@@ -212,7 +212,7 @@ SAP BTP provides various programming languages and tools for your development pr
 
 -   SAP BTP supports many different programming languages; the availability of each depends on the development environment you're using. For more information, see [Programming Languages](programming-languages-730d82d.md).
 
--   The Cloud Application Programming Model offers a consistent end-to-end programming model that includes languages, libraries, and APIs that are tailored for full-stack development on SAP BTP. For more information, see [Cloud Application Programming Model](cloud-application-programming-model-042061d.md).
+-   The SAP Cloud Application Programming Model offers a consistent end-to-end programming model that includes languages, libraries, and APIs that are tailored for full-stack development on SAP BTP. For more information, see [SAP Cloud Application Programming Model](sap-cloud-application-programming-model-042061d.md).
 
 -   Depending on your use case, you can choose between different offerings for continuous integration and delivery. For more information, see [Continuous Integration and Delivery \(CI/CD\)](continuous-integration-and-delivery-ci-cd-fe74df5.md).
 

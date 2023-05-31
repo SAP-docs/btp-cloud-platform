@@ -10,9 +10,7 @@ If your subaccount uses the SAML protocol to connect to your custom identity pro
 
 ## Prerequisites
 
--   You've enabled API access to the SAP Authorization and Trust Management service.
-
-    For more information, see [Access SAP Authorization and Trust Management Service APIs](access-sap-authorization-and-trust-management-service-apis-ebc9113.md).
+-   The prerequisites for working with the SAP BTP command line interface \(CLI\) are fulfilled \(see [Log in](log-in-e241b30.md)\).
 
 -   In the SAP BTP cockpit under *Custom Identity Provider for Applications*, there are no trust configurations with protocol OpenID Connect and no more than one with SAML; namely the configuration you want to migrate.
 
@@ -33,33 +31,30 @@ If your subaccount uses the SAML protocol to connect to your custom identity pro
 
      ![](images/Show_Origin_Key_in_cockpit_7e03dc2.png "Finding the Origin Key in the Cockpit") 
 
-2.  Migrate the protocol of the trust configuration from SAML to OIDC.
+2.  To migrate the protocol of the trust configuration from SAML to OIDC, use the SAP BTP command line interface \(CLI\).
 
-    Call the *PUT* method of the Identity Provider Management API at the following endpoint, including the origin key of the SAML trust configuration:
+    For more information, see [Managing Trust from SAP BTP to an Identity Authentication Tenant](managing-trust-from-sap-btp-to-an-identity-authentication-tenant-6140107.md).
 
-    <code>https://api.authentication.<i class="varname">&lt;region&gt;</i>.hana.ondemand.com/sap/rest/identity-providers/migrate/<i class="varname">&lt;origin-key&gt;</i></code>
+3.  Log on to the SAP BTP CLI \(see [Log in](log-in-e241b30.md).
 
-    For example:
+4.  Make sure that you set the target to the relevant SAP BTP subaccount.
 
-    `https://api.authentication.eu20.hana.ondemand.com/sap/rest/identity-providers/migrate/my-origin`
+5.  Find the name of the Identity Authentication tenant you want to migrate to OpenID Connect. Use the following command:
 
-    Include in JSON format in the body of the request, the protocol type `oidc1.0` as well as the hostname of your Identity Authentication tenant in the configuration properties. Optionally, you can set the domain of the Identity Authentication tenant to use for user logon with the `additionalConfiguration` key.
+    `btp list security/available-idp`
 
-    ```
-    {
-        "type": "oidc1.0",
-        "config": {
-            "iasTenant": {
-                "host": "ar9ibaxhm.accounts.ondemand.com"
-            },
-            "additionalConfiguration": {
-                "domain": "login.company.com"
-            }
-        }
-    }
-    ```
+    You receive a list of all Identity Authentication tenants that are available in this subaccount. It's a good idea to copy the name of the Identity Authentication tenant you want to migrate.
 
-    The API returns a status 200 OK and a JSON. The JSON is the OIDC trust configuration to the Identity Authentication tenant for the subaccount with the same name, origin key, and ID.
+6.  Migrate your trust configuration using the following command:
+
+    `btp migrate security/trust ORIGIN --idp TENANT`
+
+    > ### Example:  
+    > `btp migrate security/trust my-origin-key --idp myidp.accounts.ondemand.com`
+
+    The SAP BTP CLI returns that the trust configuration is active and that the protocol is OIDC.
+
+7.  Look up whether your Identity Authentication tenant was migrated to a trust configuration with the OpenID Connect protocol. Go to your subaccount in the SAP BTP cockpit and choose *Security* \> *Trust Configuration*.
 
 
 
@@ -68,7 +63,7 @@ If your subaccount uses the SAML protocol to connect to your custom identity pro
 
 ## Results
 
-In the cockpit, there's a new OIDC trust configuration for your Identity Authentication tenant. The original SAML trust configuration has been set to inactive and received a new origin key ***oidc-migration-backup*** and a new ID. If you must roll back the change, the service uses this configuration to restore your original configuration.
+In the cockpit, there's a new OIDC trust configuration for your Identity Authentication tenant. The original SAML trust configuration has been set to inactive and received a new ***oidc-migration-backup*** origin key. If you must roll back the change, the service uses this configuration to restore your original configuration.
 
 In your Identity Authentication tenant, there's a new application that represents the trust configuration. The name is ***XSUAA\_*<subaccount\_display\_name\>****.
 
@@ -85,5 +80,5 @@ Configure your new Identity Authentication application to match your old configu
 
 [Configuration of Identity Authentication After Migration from SAML to OIDC](configuration-of-identity-authentication-after-migration-from-saml-to-oidc-1fa7273.md "You replaced an SAML trust configuration to your custom identity provider with an OIDC trust configuration to Identity Authentication. Now, you need to make sure that the subaccount gets the same user attributes (names and values) as before.")
 
-[Restore SAML Trust Configuration](restore-saml-trust-configuration-21d86cf.md "You replaced an SAML trust configuration to your custom identity provider to OpenID Connect (OIDC) and the authentication of application users in the subaccount isn't working as you expected. Restore your SAML configuration to get your application working again.")
+[Restore SAML Trust Configuration](restore-saml-trust-configuration-21d86cf.md "You replaced an SAML trust configuration to your custom identity provider with an OpenID Connect (OIDC) trust configuration to Identity Authentication, and the authentication of application users in the subaccount isn't working as you expected. Restore your SAML configuration to get your applications working again.")
 

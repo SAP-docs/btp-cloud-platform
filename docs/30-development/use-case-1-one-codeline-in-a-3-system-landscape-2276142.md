@@ -144,7 +144,7 @@ Developer
 </td>
 <td valign="top">
 
-Develop new functionality or a deferrable correction. All changes are collected in
+Develop new functionality or a deferrable correction. All changes are collected in workbench transport requests
 
 
 
@@ -697,7 +697,7 @@ Developer
 </td>
 <td valign="top">
 
-Fix existing functionality. All changes are collected in Workbench transport requests
+Fix existing functionality. All changes are collected in workbench transport requests
 
 
 

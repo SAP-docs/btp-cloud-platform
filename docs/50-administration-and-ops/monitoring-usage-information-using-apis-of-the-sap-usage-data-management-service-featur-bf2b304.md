@@ -18,10 +18,10 @@ The service accumulates the information and provides reports in SAP BTP cockpit 
 
 ## Accessing the API
 
-For more information about the APIs, including their specifications and endpoints, go to [Resource Consumption](https://api.sap.com/api/APIUasReportingService/resource) for the list of all SAP Usage Data Management service APIs in SAP API Business Hub.
+For more information about the APIs, including their specifications and endpoints, go to [Resource Consumption](https://api.sap.com/api/APIUasReportingService/resource) for the list of all SAP Usage Data Management service APIs in the SAP Business Accelerator Hub.
 
 > ### Remember:  
-> To call the core platform API methods, you must obtain an access token. See [Configuration for Using the Resource Consumption APIs in the SAP API Business Hub](configuration-for-using-the-resource-consumption-apis-in-the-sap-api-business-hub-4bfe9c7.md).
+> To call the core platform API methods, you must obtain an access token. See [Configuration for Using the Resource Consumption APIs in the SAP Business Accelerator Hub](configuration-for-using-the-resource-consumption-apis-in-the-sap-business-accelerator-h-4bfe9c7.md).
 
 **Base URI:** <code>https://uas-reporting.cfapps.<i class="varname">&lt;landscape domain&gt;</i>/reports/v1</code>
 
@@ -178,7 +178,7 @@ Get monthly cost reporting data for all subaccounts for the Cloud Platform Enter
 **Related Information**  
 
 
-[Configuration for Using the Resource Consumption APIs in the SAP API Business Hub](configuration-for-using-the-resource-consumption-apis-in-the-sap-api-business-hub-4bfe9c7.md "The Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP are protected with OAuth 2.0 Client Credentials grant type and in some cases, also the Password grant type.")
+[Configuration for Using the Resource Consumption APIs in the SAP Business Accelerator Hub](configuration-for-using-the-resource-consumption-apis-in-the-sap-business-accelerator-h-4bfe9c7.md "The Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP are protected with OAuth 2.0 Client Credentials grant type and in some cases, also the Password grant type.")
 
 [SAP Usage Data Management Service - Service Plans](sap-usage-data-management-service-service-plans-c94c85e.md "Describes the plans available for the SAP Usage Data Management service for SAP BTP.")
 

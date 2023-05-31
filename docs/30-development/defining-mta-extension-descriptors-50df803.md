@@ -84,9 +84,9 @@ The example above instructs the SAP BTP to:
 
 You can do the following using an extension descriptor:
 
--   Add a new data in modules, resources, parameters, properties, provides, requires sections
+-   Add a new data in properties and parameters on module level, resource level, provided section level and required section level
 
--   Overwrite an existing data \(in depth\) in modules, resources, parameters, properties, provides, requires sections
+-   Overwrite an existing data \(in depth\) in modules, resources, parameters, properties, provides, requires sections. This depends on the parameter or property metadata overwritable. See section 9. Metadata for Properties and Parameters
 
 -   As of schema version 3.xx, by default parameters and properties are overwritable and optional. If you want to make a certain parameter or property non-overwritable or required, you need to add specific metadata. See [Metadata for Properties and Parameters](metadata-for-properties-and-parameters-fca2ced.md).
 

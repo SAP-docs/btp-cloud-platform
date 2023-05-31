@@ -21,6 +21,14 @@ You can create and deploy a Multitarget Application in the Cloud Foundry environ
     -   [https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/3b533e3723674fad90f94510b92f10af.html](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/3b533e3723674fad90f94510b92f10af.html)
     -   [https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/1b0a7a0938944c7fac978d4b8e23a63f.html](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/1b0a7a0938944c7fac978d4b8e23a63f.html)
 
+-   Using Business Application Studio - the flow is similar to WebIDE but the development is done from BAS.
+
+    ![](images/Image_Map_DevelopWithBAS_286f9b2.png)
+
+    -   [https://help.sap.com/docs/bas/sap-business-application-studio/mta-development/](https://help.sap.com/docs/bas/sap-business-application-studio/mta-development/)
+    -   [https://help.sap.com/docs/bas/sap-business-application-studio/building-and-deploying-multitarget-applications](https://help.sap.com/docs/bas/sap-business-application-studio/building-and-deploying-multitarget-applications)
+    -   [https://help.sap.com/docs/bas/sap-business-application-studio/building-and-deploying-multitarget-applications](https://help.sap.com/docs/bas/sap-business-application-studio/building-and-deploying-multitarget-applications)
+
 -   Using the [Cloud MTA Build Tool](https://sap.github.io/cloud-mta-build-tool/). Afterward, you deploy the MTA using the Cloud Foundry Command Line Interface.
 
     > ### Note:  

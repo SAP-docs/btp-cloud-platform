@@ -10,9 +10,9 @@ When implementing your extensibility scenario, there are a couple of concepts yo
 
 ## Systems
 
-A system is a specific instance of an SAP or other solution that is manually added or auto discovered and is listed in the SAP BTP cockpit.
+A system is a specific instance of an SAP or third-party solution that is manually added or auto discovered and is listed in the SAP BTP cockpit.
 
-When you want to add functionality to your SAP or other solution, you start by developing an extension application and deploying it in SAP BTP. Then, to allow the application to access the SAP or other solution, you add the system of this solution to the *System Landscape* page of the SAP BTP cockpit and you register it. The following system types are supported:
+When you want to add functionality to your SAP or third-party solution, you start by developing an extension application and deploying it in SAP BTP. Then, to allow the application to access the SAP or third-party solution, you add the system of this solution to the *System Landscape* page of the SAP BTP cockpit and you register it. The following system types are supported:
 
 -   SAP S/4HANA Cloud
 
@@ -68,7 +68,9 @@ The registration process can have the following status values:
 
 **Consumption Bundles**
 
-Consumption bundles group logically APIs and events intended for communication with the SAP or other system. This grouping means that the consumption of the APIs or the events can happen by using the same set of credentials later on. When you register a system, you can also preview the number and the content of consumption bundles that are exposed for communication with the given system.
+Consumption bundles group logically APIs and events intended for communication with the SAP or third-party system. This grouping means that the consumption of the APIs or the events can happen by using the same set of credentials later on. When you register a system, you can also preview the number and the content of consumption bundles that are exposed for communication with the given system.
+
+After you add your third-party systems, you can specify the set of APIs and events in consumption bundles. A consumption bundle organizes a set of related APIs and events into a single group for consumption purposes and expresses information about how the APIs and events that it contains can be accessed. All APIs and events that are part of the same consumption bundle need to be accessible through the same set of credentials. You add the consumption bundles in *System Details* of the respective third-party system.
 
 **URL**
 
@@ -94,6 +96,10 @@ Specifies that the system has been added through a subscription in SAP BTP cockp
 **Manually-Added**
 
 Specifies that the system has been added to the list manually by the global account administrator, using the *Add System* button and completing the wizard. The system has been associated with the global account in SAP BTP.
+
+**Business Type**
+
+When you have an auto-discovered SAP system, you can find information in the respective system details whether this system is used for test or production purposes for example. This information is loaded automatically and is presented in the *Business Type* field.
 
 
 
@@ -133,23 +139,35 @@ You can see the discovery mechanism and access all the actions related to the sy
 
 ## Formations
 
-A formation is a logical grouping of SAP or other systems that can be extended in a business scenario. Formations allow you to combine SAP or other solution systems and a subaccount in SAP BTP to simplify the connectivity setup and to provide a unified view of all components required for the implementation of your extension scenario. To create a fully functional formation, you can use a two-step wizard. At the first step, you specify a custom formation name and assign a subaccount to it. At the second step, you can include an SAP or other solution system in the formation. You do this configuration once and you can change it anytime.
+A formation is a logical grouping of SAP or third-party systems that can be extended in a business scenario. Formations allow you to combine SAP or third-party solution systems and a subaccount in SAP BTP to simplify the connectivity setup and to provide a unified view of all components required for the implementation of your extension scenario. To create a fully functional formation, you can use a two-step wizard. At the first step, you specify a custom formation name and assign a subaccount to it. At the second step, you can include an SAP or third-party solution system in the formation. You do this configuration once and you can change it anytime.
 
 > ### Note:  
 > You can assign a subaccount to the formation during the formation creation only. While you can include or exclude systems in the formation anytime, you cannot unassign or reassign subaccounts later on. Instead, you must recreate the formation.
 
-Extension business cases often involve extending several SAP or other solutions at a time. For example, for a given business case you might need to extend the functionality or the UI as follows:
+Extension business cases often involve extending several SAP or third-party solutions at a time. For example, for a given business case you might need to extend the functionality or the UI as follows:
 
 -   An SAP SuccessFactors system, and an SAP S/4HANA Cloud system. First, you need to configure the connectivity of each of these systems to Cloud Foundry, Kyma, or both environments. Extension applications of both solutions are part of the same business need.
 
 -   An SAP Commerce Cloud system, and an SAP S/4HANA Cloud system. Again, you first configure the connectivity of each of these systems to the Kyma environment.
 
--   A single system of the supported SAP or other solutions.
+-   A single system of the supported SAP or third-party solutions.
 
--   SAP or other systems that expose event data, which can be shared and exchanged with the systems included in the formation.
+-   SAP or third-party systems that expose event data, which can be shared and exchanged with the systems included in the formation.
 
 
-When creating a formation in the SAP BTP cockpit, you include the systems of the different SAP or other solutions you want to extend. If your business case features more than one system, you can use the corresponding button to include additional systems in the formation. You can start the dialog as many times and add systems to your formation as you want.
+When creating a formation in the SAP BTP cockpit, you include the systems of the different SAP or third-party solutions you want to extend. If your business case features more than one system, you can use the corresponding button to include additional systems in the formation. You can start the dialog as many times and add systems to your formation as you want.
+
+
+
+### Systems Details in a Formation
+
+**Consumption Bundle APIs**
+
+A consumption bundle can group logically a set of APIs for communication with the SAP or third-party system.
+
+**Consumption Bundle Events**
+
+A consumption bundle can group logically a set of events for communication with the SAP or third-party system.
 
 
 
@@ -179,11 +197,34 @@ Include additional systems to a given formation or exclude already included syst
 
 If your business case features more than one system, you can include additional systems in the formation. You can include as many systems as you want to your formation.
 
-**Deteling Formations**
+**Deleting Formations**
 
 Detach the systems, unassign the subaccount, and delete the formation at one go.
 
 When you start a formation deletion process, first the systems are excluded from the formation, then, the subaccount is unassigned, and last, the formation is deleted from the list completely.
+
+
+
+### Formation Status
+
+A formation can have the following status values:
+
+-   No status
+
+-   *Action Required*
+
+    The formation has been created but you cannot use it productively yet.
+
+    Based on the formation type and the subaccount that you specified, it might require an SAP BTP Kyma environment instance or an SAP Business Application Studio subscription. Although the SAP BTP cockpit allows you to create such a formation, to enable and make use of it, you must also create the respective instance or subscription.
+
+-   *Synchronizing*
+
+    Systems that are included in the formation are currently synchronizing in the background.
+
+-   *Error*
+
+    An error occurred while some of the systems that are included in the formation were synchronizing in the background.
+
 
 You can create and configure formations in the SAP BTP cockpit, in *System Landscape* \> *Formations*. See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
 

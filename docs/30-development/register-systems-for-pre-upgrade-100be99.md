@@ -31,3 +31,6 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
 6.  If you change your mind and want to undo the registration of a system for pre-upgrade, simply select the system and click the *Un-Register System* button.
 
 
+> ### Note:  
+> Depending on the status of the selected system, the *register* or *unregister* button is active. In case the current date is within the calculated registration period, the actions to register and/or un-register are active. Otherwise the action buttons are inactive. For more information, see [SAP BTP ABAP Environment - Pre-Upgrade Option for Release 2302](https://blogs.sap.com/2023/01/11/sap-btp-abap-environment-pre-upgrade-option-for-release-2302/).
+

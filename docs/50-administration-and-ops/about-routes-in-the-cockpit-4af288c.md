@@ -17,7 +17,7 @@ The number of routes your can create in a space depends on your subaccount entit
 
 [Create Routes](create-routes-9fddeea.md "You can configure the URLs through which end users can reach your applications.")
 
-[Map Routes to Applications Using the Cockpit](map-routes-to-applications-using-the-cockpit-b25cf8a.md "Once a route has been created, you can map it to an application to make this application reachable for end users.")
+[Map Routes to Applications](map-routes-to-applications-b25cf8a.md "Once a route has been created, you can map it to an application to make this application reachable for end users.")
 
 [Create Space Quota Plans](create-space-quota-plans-b13c4a2.md "You can use the cockpit to create space quota plans.")
 

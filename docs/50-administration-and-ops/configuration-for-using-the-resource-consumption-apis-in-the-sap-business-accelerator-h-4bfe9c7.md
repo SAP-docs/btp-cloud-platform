@@ -1,6 +1,6 @@
 <!-- loio4bfe9c71cf10466a8674a6ef8953cb18 -->
 
-# Configuration for Using the Resource Consumption APIs in the SAP API Business Hub
+# Configuration for Using the Resource Consumption APIs in the SAP Business Accelerator Hub
 
 The **Resource Consumption** APIs of the SAP Usage Data Management service for SAP BTP are protected with OAuth 2.0 Client Credentials grant type and in some cases, also the Password grant type.
 
@@ -158,9 +158,9 @@ The **Resource Consumption** APIs of the SAP Usage Data Management service for S
     > 
     > ```
 
-4.  Using the *<access\_token\>* that you received in the previous step you can call the [Resource Consumption APIs](https://api.sap.com/api/APIUasReportingService/tryout) using bearer authentication or you can try them directly in SAP API Business Hub using the following steps:
+4.  Using the *<access\_token\>* that you received in the previous step you can call the [Resource Consumption APIs](https://api.sap.com/api/APIUasReportingService/tryout) using bearer authentication or you can try them directly in the SAP Business Accelerator Hub using the following steps:
 
-    1.  Got to [Resource Consumption APIs](https://api.sap.com/api/APIUasReportingService/tryout) in the SAP API Business Hub.
+    1.  Got to [Resource Consumption APIs](https://api.sap.com/api/APIUasReportingService/tryout) in the SAP Business Accelerator Hub.
     2.  Choose *Select Environment* and select the *Add New Environment* option
     3.  In the *Authentication Type* field, select*OAuth 2.0 Application Flow*.
     4.  Provide the parameters that you have retrieved in the following fields: `clientid`, `clientsecret`, and `identityzone`.
@@ -169,7 +169,7 @@ The **Resource Consumption** APIs of the SAP Usage Data Management service for S
 
 5.  Choose the API that you want to call, provide the relevant parameters, and choose *Run*.
 
-To learn more about SAP API Business Hub, see [What Is the SAP API Business Hub?](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/54871d308811444d8d84fbb3fb82cf4c.html)
+To learn more about the SAP Business Accelerator Hub, see [What Is the SAP API Business Hub?](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/54871d308811444d8d84fbb3fb82cf4c.html)
 
 **Related Information**  
 

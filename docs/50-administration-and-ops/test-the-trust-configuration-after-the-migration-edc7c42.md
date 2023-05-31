@@ -179,5 +179,5 @@ Once everything is working as you expected and are certain you don't need it any
 **Related Information**  
 
 
-[Restore SAML Trust Configuration](restore-saml-trust-configuration-21d86cf.md "You replaced an SAML trust configuration to your custom identity provider to OpenID Connect (OIDC) and the authentication of application users in the subaccount isn't working as you expected. Restore your SAML configuration to get your application working again.")
+[Restore SAML Trust Configuration](restore-saml-trust-configuration-21d86cf.md "You replaced an SAML trust configuration to your custom identity provider with an OpenID Connect (OIDC) trust configuration to Identity Authentication, and the authentication of application users in the subaccount isn't working as you expected. Restore your SAML configuration to get your applications working again.")
 

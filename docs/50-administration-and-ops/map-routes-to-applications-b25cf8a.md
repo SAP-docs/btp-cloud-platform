@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Map Routes to Applications Using the Cockpit
+# Map Routes to Applications
 
 Once a route has been created, you can map it to an application to make this application reachable for end users.
 
@@ -18,7 +18,7 @@ You have at least one route and one deployed application in the same Cloud Found
 
 ## Procedure
 
-1.  Navigate to the *Routes* page in your Cloud Foundry space.
+1.  Navigate to the *Routes* page in your Cloud Foundry space in the cockpit.
 
 2.  For the route that you wish to map to an application, choose :link: \(Map Route\) from the *Actions* column and select the application you want to map it to.
 

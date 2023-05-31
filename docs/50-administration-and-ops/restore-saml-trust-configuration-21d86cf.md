@@ -2,7 +2,7 @@
 
 # Restore SAML Trust Configuration
 
-You replaced an SAML trust configuration to your custom identity provider to OpenID Connect \(OIDC\) and the authentication of application users in the subaccount isn't working as you expected. Restore your SAML configuration to get your application working again.
+You replaced an SAML trust configuration to your custom identity provider with an OpenID Connect \(OIDC\) trust configuration to Identity Authentication, and the authentication of application users in the subaccount isn't working as you expected. Restore your SAML configuration to get your applications working again.
 
 
 
@@ -18,9 +18,9 @@ For more information, see [Migrate from SAML Trust Configuration to OpenID Conne
 
 ## Procedure
 
-1.  Find the origin key of the OIDC trust configuration you want to restore to SAML.
+1.  Find the inactive OIDC trust configuration with the `oidc-migration-backup` origin key. There is an active trust configuration with the same name and a different origin key. This is the one you want to restore to an SAML trust configuration.
 
-    You can look up the origin key in the trust configuration in the SAP BTP cockpit, with the BTP command-line interface, or the Identity Provider Management API.
+    You can look up the origin key in the trust configuration in the SAP BTP cockpit, with the SAP BTP command-line interface, or the Identity Provider Management API.
 
        
       
@@ -28,17 +28,26 @@ For more information, see [Migrate from SAML Trust Configuration to OpenID Conne
 
      ![](images/OIDC_Migration_Backup_68d59f6.png "Finding the Origin Key in the Cockpit") 
 
-2.  Restore the protocol of the trust configuration from SAML to OIDC.
+2.  To restore the protocol of the trust configuration from OIDC to SAML, use the SAP BTP command line interface \(CLI\).
 
-    Call the *PUT* method of the Identity Provider Management API at the following endpoint, including the origin key of the OIDC trust configuration:
+    For more information, see [Managing Trust from SAP BTP to an Identity Authentication Tenant](managing-trust-from-sap-btp-to-an-identity-authentication-tenant-6140107.md).
 
-    <code>https://api.authentication.<i class="varname">&lt;region&gt;</i>.hana.ondemand.com/sap/rest/identity-providers/migrate/<i class="varname">&lt;origin-key&gt;</i>/rollback</code>
+3.  Log on to the SAP BTP CLI \(see [Log in](log-in-e241b30.md)\).
 
-    For example:
+4.  Make sure that you set the target to the relevant SAP BTP subaccount.
 
-    `https://api.authentication.eu20.hana.ondemand.com/sap/rest/identity-providers/migrate/my-origin/rollback`
+5.  Find the name of the currently active OIDC trust configuration you want to restore to the SAML protocol.
 
-    The API returns a status 200 OK and a JSON with the original SAML identity provider configuration. The OIDC configuration has been deleted.
+    > ### Note:  
+    > There is also an inactive trust configuration with the same name, but it has the `oidc-migration-backup` origin key and the SAML protocol. It still has the data and assignments of the original SAML trust configuration.
+
+6.  Restore your trust configuration. Use the original key of the active OIDC trust configuraion using the following command:
+
+    `btp restore security/trust my-origin-key`
+
+    The SAP BTP CLI returns that the restored trust configuration is active and that the protocol is SAML.
+
+7.  Look up whether your trust configuration with the OpenID Connect protocol has been restored to SAML. Go to your subaccount in the SAP BTP cockpit and choose *Security* \> *Trust Configuration*. You see only one SAML trust configuration: the restored one. The OIDC trust configuration has disappeared.
 
 
 
@@ -47,5 +56,5 @@ For more information, see [Migrate from SAML Trust Configuration to OpenID Conne
 
 ## Results
 
-The original SAML trust configuration has been restored, with its original ID and origin key. The respective OIDC trust configuration no longer exists. In your Identity Authentication tenant, the application for the OIDC trust configuration, ***XSUAA\_*<subaccount\_display\_name\>**** has been deleted.
+The original SAML trust configuration has been restored, with its original role collection assignments and origin key. The respective OIDC trust configuration no longer exists. In your Identity Authentication tenant, the application for the OIDC trust configuration, ***XSUAA\_*<subaccount\_display\_name\>**** has been deleted.
 

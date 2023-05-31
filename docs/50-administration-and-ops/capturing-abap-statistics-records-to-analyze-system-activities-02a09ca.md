@@ -1,8 +1,8 @@
 <!-- loio02a09ca79c63481c8d8823dcaa89cee7 -->
 
-# Using ABAP Statistics Records to Analyze System Activities
+# Capturing ABAP Statistics Records to Analyze System Activities
 
-Use ABAP statistics records to find out which activities are running in your ABAP and database system.
+Capture ABAP statistics records to find out which activities are running in your ABAP and database system.
 
 
 
@@ -20,9 +20,9 @@ By default, in the ABAP environment, requests are recorded with technical inform
 
 You typically use ABAP statistics records in the following scenarios:
 
--   You want to investigate your system workload to find out about top consumers and investigate in detail the overall response time contributions or the database connections.
+-   You want to investigate your system workload to find out about top consumers and investigate in detail the overall response time contributions or the database connections. In this case, you can use the ABAP statistics records that are captured by default and visualized in the *System Workload* app.
 
-    For more information, see [Analyzing the ABAP Resource Utilization of the ABAP Environment](analyzing-the-abap-resource-utilization-of-the-abap-environment-c54ec5e.md).
+    For more information, see [Analyzing the System Workload](analyzing-the-system-workload-c1c7014.md).
 
 -   You want to analyze a specific workload, for example, the request statistics of an individual user or program name at a particular time.
 

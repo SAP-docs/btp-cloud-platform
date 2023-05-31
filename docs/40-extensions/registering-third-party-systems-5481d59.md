@@ -23,6 +23,10 @@ You are a global account administrator, or you are a system landscape administra
 
 You add a third-party system to the list in the *System Landscape* page. At this point you provide all the required details for this system: its type, provider, URL, and system ID.
 
+When you have this system added in the *Systems* list, you can select it and open its system details. There, you specify in the consumption bundles the APIs, and the events. A consumption bundle organizes a set of related APIs and events into a single group for consumption purposes and expresses information about how the APIs and events that it contains can be accessed. All APIs and events that are part of the same consumption bundle need to be accessible through the same set of credentials.
+
+This completes the registration process and you have your third-party system registered with SAP BTP.
+
 > ### Note:  
 > You cannot migrate the registered third-party systems between global accounts.
 > 
@@ -64,6 +68,58 @@ You add a third-party system to the list in the *System Landscape* page. At this
     7.  Choose *Add*.
 
 
+4.  Find this system in the *Systems* list and open its system details. Choose *Add Consumption Bundle* and fill in the following properties:
+
+    -   *Consumption Bundle Name*: add a meaningful name
+
+    -   *Description*:
+
+    -   *Credentials Type*: choose between OAuth and Basic
+
+        -   If you choose *OAuth*, fill in these properties:
+
+            -   *Client ID*
+
+            -   *Client Secret*
+
+            -   *URL*: this is the token URL, that is used for obtaining OAuth tokens through the client ID and the client secret.
+
+
+        -   If you choose *Basic*, fill in these properties:
+
+            -   *User*
+
+            -   *Password*
+
+
+
+
+5.  Choose *Add*. Open the consumption bundle from the list.
+
+6.  If you want to add APIs, choose *Add API* and fill in the following properties:
+
+    -   *API Name*: add a meaningful name.
+
+    -   *Description*: this field is optional.
+
+    -   *URL*
+
+    -   *Specification*: this is the file containing the specification. The file format depends on the specification type. For OpenAPI, you can use YAML and JSON. For OData, you can use JSON and XML.
+
+    -   *Type*: this is the type of the specification. The API specification type can be OpenAPI or OData.
+
+
+7.  If you want to add events, choose *Add Event* and fill in the following properties:
+
+    -   *Event Name*: add a meaningful name.
+
+    -   *Description*: this field is optional.
+
+    -   *Specification*: this is the file containing the specification. The file format can be JSON and YAML.
+
+    -   *Type*: this is the type of the specification. The event specification type can be only AsyncAPI.
+
+
 
 
 
@@ -71,7 +127,7 @@ You add a third-party system to the list in the *System Landscape* page. At this
 
 ## Results
 
-The system has been added as a record to the list on the *Systems* page in the SAP BTP cockpit and the system details view opens.
+The system has been added as a record to the list on the *Systems* page in the SAP BTP cockpit and you have added the respective APIs or events.
 
 If you no longer need it, you can remove the system depending on its status. See [Deregistering or Removing a System](deregistering-or-removing-a-system-0c6f498.md).
 

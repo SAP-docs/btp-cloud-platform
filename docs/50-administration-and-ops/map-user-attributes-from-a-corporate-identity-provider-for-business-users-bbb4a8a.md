@@ -36,7 +36,7 @@ For more information about identity federation, see [Configure Identity Federati
 
     Use the *Default Attributes* in the Identity Authentication application representing your subaccount.
 
-    SAP BTP expects the following attributes:
+    SAP BTP expects the following attributes. Add these attributes if they're missing:
 
 
     <table>
@@ -50,7 +50,7 @@ For more information about identity federation, see [Configure Identity Federati
     </th>
     <th valign="top">
 
-    Corporate Identity Provier
+    Corporate Identity Provider
 
 
     
@@ -169,99 +169,9 @@ For more information about identity federation, see [Configure Identity Federati
     For more information, see [Configure the Default Attributes Sent to the Application](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/a2f1e4692e7d4379ab82144ab309e7b3.html?version=Cloud&q=corporateidp).
 
 
-The following table provides the information needed for mapping the attributes, independently from where you do this in Identity Authentication.
-
 The subject name identifier attribute is used by SAP BTP to uniquely identify the application user.
 
 For more information, see [Configure the Subject Name Identifier Sent to the Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/1d020e3a3ba34c43a71fde70bfa6419a.html) in the documentation of Identity Authentication.
-
-**Attribute Mapping in Identity Authentication Tokens**
-
-
-<table>
-<tr>
-<th valign="top">
-
-User Attribute Expected by SAP BTP
-
-
-
-</th>
-<th valign="top">
-
-Purpose
-
-
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
- `Subject name identifier` 
-
-
-
-</td>
-<td valign="top">
-
-This attribute is the user identifier for the application.
-
-Default value: ***User ID***
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `mail` 
-
-
-
-</td>
-<td valign="top">
-
-E-mail address of the user.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `first_name` 
-
-
-
-</td>
-<td valign="top">
-
-First name of the user.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `last_name` 
-
-
-
-</td>
-<td valign="top">
-
-Last name of the user.
-
-
-
-</td>
-</tr>
-</table>
 
 
 
@@ -340,7 +250,7 @@ See the table *Default Configurations of the Subaccount in Identity Authenticati
 </td>
 <td valign="top">
 
-Indicates whether the subject has confirmed their e-mail address. Your identity provider mgiht requires users to verify their e-mail address.
+Indicates whether the subject has confirmed their e-mail address. Your identity provider might require users to verify their e-mail address.
 
 
 
@@ -504,7 +414,7 @@ The list of URIs to which Identity Authentication is allowed to redirect from th
 
 Default value: <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.<i class="varname">&lt;landscape&gt;</i>/login/callback/<i class="varname">&lt;origin&gt;</i></code>.
 
-For example: `https://mysubdomain.authentication.us10.hana.ondemand.com/login.callback/sap.custom`.
+For example: `https://mysubdomain.authentication.us10.hana.ondemand.com/login.callback/sap.custom`
 
 For more information, see [OpenID Connect Application Configurations](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/1ae324ee3b2d4a728650eb022d5fd910.html) in the documentation of Identity Authentication.
 
@@ -526,7 +436,7 @@ The list of URIs to which Identity Authentication is allowed to direct users whe
 
 Default value: <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.<i class="varname">&lt;landscape&gt;</i>/*</code>.
 
-For example: `https://mysubdomain.authentication.us10.hana.ondemand.com/*`.
+For example: `https://mysubdomain.authentication.us10.hana.ondemand.com/*`
 
 For more information, see [OpenID Connect Application Configurations](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/1ae324ee3b2d4a728650eb022d5fd910.html) in the documentation of Identity Authentication.
 

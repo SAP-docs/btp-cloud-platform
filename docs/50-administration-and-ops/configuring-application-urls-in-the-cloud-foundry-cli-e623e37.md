@@ -1,6 +1,6 @@
 <!-- loioe623e372e6174f81af2b9b8ef8f6d6d3 -->
 
-# Configuring Application URLs
+# Configuring Application URLs in the Cloud Foundry CLI
 
 By default, all applications running on SAP BTP are accessed on the **default landscape** domain. According to your needs, you can change the default application URL by configuring additional application domains.
 

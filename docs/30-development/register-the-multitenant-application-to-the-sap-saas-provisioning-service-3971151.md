@@ -30,6 +30,14 @@ The SaaS Provisioning Service allows application providers to register multitena
               "getDependencies" : "<getDependenciesUrl>", 
               "onSubscription" : "<onSubscriptionUrl>/{tenantId}"
            },
+            "appPlans": [             
+              {
+                "name": "...",
+                "description": "..."
+              },{
+                ...
+              }
+            ],
            "displayName" : "<displayName>",
            "description" : "<description>",
            "category" : "<category>",
@@ -139,6 +147,22 @@ The SaaS Provisioning Service allows application providers to register multitena
         <td valign="top">
 
         Any URL that the application exposes via `PUT` and `DELETE` subscription. It must end with `/{tenantId}`. The tenant for the subscription is passed to this callback as a path parameter. You must keep `{tenantId}` as a parameter in the URL so that it’s replaced at real time with the tenant calling the subscription. This callback URL is called when a subscription between a multitenant application and a consumer tenant is created \(`PUT`\) and when the subscription is removed \(`DELETE`\).
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+
+        `appPlans`
+
+
+        
+        </td>
+        <td valign="top">
+
+        \(Optional\) Specify the plan for your application. Name it and provide a short description. With the help of plans, you can try out your application in different modes or variations. For example, an app for staging or development purposes. Note that the plans are only visible in the subaccounts that belong to the provider global account.
 
 
         

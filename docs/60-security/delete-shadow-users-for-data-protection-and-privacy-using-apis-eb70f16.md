@@ -39,7 +39,7 @@ The User Account and Authentication service stores user-related data records in 
 
 2.  Use the *GET* method for the User Management \(SCIM\) API of the SAP Authorization and Trust Management service to get a list of users.
 
-    For more information about the User Management \(SCIM\) API, see [https://api.sap.com/package/authtrustmgmnt](https://api.sap.com/package/authtrustmgmnt) on *SAP API Business Hub*.
+    For more information about the User Management \(SCIM\) API, see [https://api.sap.com/package/authtrustmgmnt](https://api.sap.com/package/authtrustmgmnt) on [SAP Business Accelerator Hub](https://api.sap.com/package/authtrustmgmnt?section=Artifacts).
 
     The API returns the list of users in JSON format.
 
@@ -73,7 +73,7 @@ The User Account and Authentication service stores user-related data records in 
     --header 'Authorization: bearer eyJqdGkiOiJmZmZl…'
     ```
 
-    For more information about the User Management \(SCIM\) API, see [https://api.sap.com/package/authtrustmgmnt](https://api.sap.com/package/authtrustmgmnt) on *SAP API Business Hub*.
+    For more information about the User Management \(SCIM\) API, see [https://api.sap.com/package/authtrustmgmnt](https://api.sap.com/package/authtrustmgmnt) on [SAP Business Accelerator Hub](https://api.sap.com/package/authtrustmgmnt?section=Artifacts).
 
 
 **Related Information**  

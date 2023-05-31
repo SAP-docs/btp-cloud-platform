@@ -9,7 +9,8 @@ Get an overview about supported protocols and authentication methods in the ABAP
 Each communication scenario defines which authentication methods can be used. The tables below gives you an overview of all the authentication methods for communication management.
 
 > ### Note:  
-> The supported protocols and authentication methods only apply to communication scenarios that are managed by customers.
+> -   The supported protocols and authentication methods only apply to communication scenarios that are managed by customers.
+> -   Since OData is HTTP-based, the listed authentication methods for HTTP are also valid for OData.
 
 
 
@@ -364,5 +365,5 @@ OpenID Connect Bearer Token
 
 -   For more information about the SQL service, see [Accessing ABAP-Managed Data from External ODBC-Based Clients](accessing-abap-managed-data-from-external-odbc-based-clients-4082fe1.md).
 
--   For more information about SAML Assertion Authentication and OpenID Connect Bearer Token, see [How to Create Communication Systems](../50-administration-and-ops/how-to-create-communication-systems-c2234ac.md).
+-   For more information about SAML Assertion Authentication and OpenID Connect Bearer Token, see [How to Create Communication Systems](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-create-communication-systems?version=Cloud).
 

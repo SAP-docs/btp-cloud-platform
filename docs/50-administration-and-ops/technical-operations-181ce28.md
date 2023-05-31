@@ -21,7 +21,7 @@ In the ABAP environment, you have different tools available to support you with 
 
 ## Local Monitoring
 
-For local monitoring of your ABAP environment, you can use the technical monitoring cockpit. In the technical monitoring cockpit, multiple monitoring screens help you identify and solve bottlenecks and performance issues by giving you an in-depth view on important technical data of the database and application server, such as CPU, memory, network, storage, performance, time spent, workload, and configuration. You can use the technical monitoring cockpit also for a profound analysis of the most important entities, such as work processes, tables, SQL traces, and SQL statements, for which there's also an EXPLAIN function.
+For local monitoring of your ABAP environment, you can use the technical monitoring cockpit. In the technical monitoring cockpit, multiple monitoring screens help you identify and solve bottlenecks and performance issues by giving you an in-depth view on important technical data of the database and application server, such as CPU, memory, network, storage, performance, time spent, workload, and configuration. You can use the technical monitoring cockpit also for a profound analysis of the most important entities, such as work processes, tables, SQL traces, and SQL statements.
 
 For more information, see [Technical Monitoring Cockpit \(Cloud Version\)](technical-monitoring-cockpit-cloud-version-eb867c6.md).
 

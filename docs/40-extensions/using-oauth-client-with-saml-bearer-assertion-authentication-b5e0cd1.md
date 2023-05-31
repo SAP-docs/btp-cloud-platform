@@ -295,7 +295,7 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     <tr>
     <td valign="top">
 
-    *SystemUser*
+    \(Deprecated\) *SystemUser*
 
 
     
@@ -305,6 +305,11 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     The technical user for an OData access with SAML 2.0 Bearer Assertion authentication with technical user.
 
     Specify a value for this setting if you want to configure OData access with SAML 2.0 Bearer Assertion authentication with technical user.
+
+    > ### Caution:  
+    > This property is deprecated and will be removed soon. We recommend that you work on behalf of specific \(named\) users instead of working with a technical user.
+    > 
+    > As an alternative for technical user communication, we strongly recommend that you use the Mutual Transport Layer Security \(mTLS\) protocol. See [Using Mutual Transport Layer Security \(mTLS\)](using-mutual-transport-layer-security-mtls-ca4b9ab.md#loioca4b9ab3d0cb46ed8055388e125126a2).
 
 
     

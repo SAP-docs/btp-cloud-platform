@@ -13,17 +13,11 @@ Find out how to create a new product version:
 
 2.  Select one of your products from the list. You will be forwarded to the *Product Versions* tab. Here, you can see a table listing all the existing versions of this product, their type \(*Release Delivery*, *Patch Delivery*,*Support Package Stack* - see [The Add-On Product](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#add-on-product-version)\), when they were created, as well as their delivery status:
 
-    -   **In Configuration**: Configuration of build has started
+    -   **Not ready**: The product version is currently being built and is not available for test or production use yet.
 
-    -   **In Initialisation**: Product version creation has started and the first stages are running
+    -   **Ready for test**: The product version has been build but has not yet been released for production use. However, the version may be used for \(automated\) testing.
 
-    -   **not supported**: Product version created or creation started outside of this app
-
-    -   **In Build**: Build stage is running
-
-    -   **In Testing**: Integration tests are running
-
-    -   **Ready For Production**: Product version creation has finished and the product version is ready for deployment.
+    -   **Ready for production**: The product version is ready for production use. An ABAP environment production system can now be updated to this product version.
 
 
 3.  To create a new product version of type *Release Delivery*, click on the *Create* button on the right and select *Release Delivery*.
@@ -121,7 +115,7 @@ Find out how to create a new product version:
 > <tr>
 > <td valign="top">
 > 
-> Expired
+> Log expired
 > 
 > 
 > 
@@ -137,14 +131,62 @@ Find out how to create a new product version:
 > <tr>
 > <td valign="top">
 > 
-> Available
+> Unknown
 > 
 > 
 > 
 > </td>
 > <td valign="top">
 > 
-> Your product version log is available.
+>  
+> 
+> 
+> 
+> </td>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+> Build running
+> 
+> 
+> 
+> </td>
+> <td valign="top">
+> 
+> Indicates, that there is currently a running build assembling your product version.
+> 
+> 
+> 
+> </td>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+> Build failed
+> 
+> 
+> 
+> </td>
+> <td valign="top">
+> 
+> Indicates that your recently running build ran into an error and failed.
+> 
+> 
+> 
+> </td>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+> Build success
+> 
+> 
+> 
+> </td>
+> <td valign="top">
+> 
+> Indicates, that your recently running build ran successfully and is completed now.
 > 
 > 
 > 

@@ -22,20 +22,20 @@ For more information, see [OpenID Connect](https://help.sap.com/viewer/6d6d63354
 
 There are several options to customize attribute mappings in Identity Authentication, depending on whether identity federation is enabled or disabled. For more information about identity federation, see [Configure Identity Federation](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/c029bbbaefbf4350af15115396ba14e2.html?version=Cloud).
 
--   When identity federation is disabled, Identity Authentication always propagates all the attributes received from the corporate identity provider to all the applications, on a 1:1 basis.
+-   When identity federation is disabled, Identity Authentication always propagates all the attributes received from the corporate identity provider to all the applications, on a 1:1 basis. You have the following options:
     -   Configure the corporate identity provider to directly send the attributes.
 
-    -   If needed, use **enriched token claims** or **enriched assertion attributes** \(if the corporate identity provider is connected with SAML\) to map the attributes sent by the corporate identity provider, to the attribute names needed by BTP.
+    -   If needed, use **enriched token claims** or **enriched assertion attributes** \(depending on whether the corporate identity provider is connected with SAML or OIDC\) to map the attributes sent by the corporate identity provider, to the attribute names needed by BTP.
 
         **[Enriched token claims](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/f19e580088e74aaa96087f1def8972cd.html?version=Cloud)** or **[enriched assertion attributes](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/7124201682434efb946e1046fde06afe.html?version=Cloud&q=Enriched%20assertion%20attributes)** add additional attributes, either based on the corporate identity provider attributes \(for example, by renaming them\) or on static values.
 
 
 -   When identity federation is enabled, Identity Authentication doesn't automatically propagate any attributes from the corporate identity provider to the application. This option requires mappings in the Identity Authentication application, for each attribute that is needed by the application.
 
-    Use the *default attributes* in the Identity Authentication application representing SAP BTP.
+    Use the *Default Attributes* in the Identity Authentication application representing SAP BTP.
 
     > ### Note:  
-    > You cannot add or remove attributes or edit the listed attribute names, but you can edit their values, depending on which attribute from the corporate identity provider maps to these attributes.
+    > You can't add or remove attributes or edit the listed attribute names, but you can edit their values, depending on which attribute from the corporate identity provider maps to these attributes.
 
      ![](images/Attribute_Mapping_in_Identity_Authentication_Tokens_e70dd08.png) 
 
@@ -49,7 +49,7 @@ There are several options to customize attribute mappings in Identity Authentica
 
 The following table provides the information needed for mapping the attributes, independently from where you do this in Identity Authentication.
 
-The subject name identifier attribute is used by SAP BTP to uniquely identify the user in Neo subaccounts. The e-mail address is used as the user identifier in the the Cloud Foundry environment \(global account, directory, multi-environment subaccount\).
+The subject name identifier attribute is used by SAP BTP to uniquely identify the user in Neo subaccounts. The e-mail address is used as the user identifier in the Cloud Foundry environment \(global account, directory, multi-environment subaccount\).
 
 For more information, see [Configure the Subject Name Identifier Sent to the Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/1d020e3a3ba34c43a71fde70bfa6419a.html) in the documentation of Identity Authentication.
 

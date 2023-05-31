@@ -136,7 +136,7 @@ All regions
 
 <sup>\(2\)</sup> Refers to the eu10 Europe \(Frankfurt\) region, unless your global account is located in the China \(Shanghai\) and Government Cloud \(US\) regions then use the landscape domain of your central region.
 
-For detailed information about the APIs, including their specifications and endpoints, go to [SAP Core Services for SAP BTP](https://api.sap.com/package/SAPCloudPlatformCoreServices) on SAP API Business Hub.
+For detailed information about the APIs, including their specifications and endpoints, go to [SAP Core Services for SAP BTP](https://api.sap.com/package/SAPCloudPlatformCoreServices) on SAP Business Accelerator Hub
 
 Alternatively, go to <code>https://events-service.<i class="varname">&lt;app domain&gt;</i>.<i class="varname">&lt;landscape domain&gt;</i>/swagger-index.html</code> where you can try out the APIs.
 

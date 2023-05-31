@@ -28,6 +28,7 @@ Your development, including transportation, is organized and managed in so-calle
 > 
 > -   You can use the same ABAP systems regarding development, testing, and production \(your system landscape\) for all your software components. Lifecycle processes for software components can even be independent from each other, as long as there are no development dependencies.
 > -   gCTS only supports certain object types. For a complete list of the restricted object types, see SAP note [2888887](https://launchpad.support.sap.com/#/notes/2888887).
+> -   gCTS repositories are currently always stored on the AWS data center **Europe - Frankfurt EU Access**, independent of the chosen hyperscaler and the data center where the ABAP environment instance was created.
 
 You create your software components in the development system:
 

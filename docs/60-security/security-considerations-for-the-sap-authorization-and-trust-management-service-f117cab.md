@@ -31,7 +31,7 @@ To configure the trusted domains, use one of the following methods:
     "iframeDomains": "https://store.example.com"
     ```
 
-    For more information, see [Security Settings API](https://api.sap.com/api/SecuritySettingsAPI/resource) on *SAP API Business Hub*.
+    For more information, see [Security Settings API](https://api.sap.com/api/SecuritySettingsAPI/resource) on [SAP Business Accelerator Hub](https://api.sap.com/package/authtrustmgmnt?section=Artifacts).
 
 
 > ### Remember:  
@@ -227,7 +227,7 @@ To change token validity, use one of the following methods:
     > ### Note:  
     > This change applies to all service instances in the subaccount that haven't set a specific value in the application security descriptor \(`xs-security.json`\).
 
-    For more information, see [Security Settings API](https://api.sap.com/api/SecuritySettingsAPI/resource) on *SAP API Business Hub*.
+    For more information, see [Security Settings API](https://api.sap.com/api/SecuritySettingsAPI/resource) on [SAP Business Accelerator Hub](https://api.sap.com/package/authtrustmgmnt?section=Artifacts).
 
 
  <a name="loio0b406a94f4604a4f98bbe606ef92d50d"/>

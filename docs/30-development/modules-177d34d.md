@@ -478,6 +478,9 @@ Direct content deployment to backing services
 </td>
 <td valign="top">
 
+> ### Note:  
+> This module type is **deprecated**. Please use `com.sap.html5.application.content` instead.
+
 -   `no-route` \(`true`\). Defines if a route should be assigned to the application.
 -   `memory` \(`256M`\). Defines the memory allocated to the application.
 -   `execute-app` - \(`true`\). Defines whether the application is executed. If yes, the application performs certain amount of work and upon completion sets a `success-marker` or `failure-marker` by means of a log message.
@@ -501,6 +504,46 @@ None
 <td valign="top">
 
 Deploys a content deployment application, and creates a task that performs the content deployment.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`com.sap.html5.application.content`
+
+
+
+</td>
+<td valign="top">
+
+> ### Note:  
+> Before using this module type, update the content deployer applications to their latest version.
+
+-   `no-route` \(`true`\). Defines if a route should be assigned to the application.
+-   `no-start` - \(`true`\). Only the one-off tasks will be executed, that is, without triggering the start of the application.
+-   `memory` \(`256M`\). Defines the memory allocated to the application.
+-   `tasks` \(`name:deploy, memory:256M, command:npm start)`
+
+    For more information, see [Tasks](tasks-a1c184c.md).
+
+-   `dependency-type`\(`hard`\). Defines if this module should be deployed first, if it takes part in circular module dependency cycles. If `hard` means that this module is deployed first.
+
+
+
+</td>
+<td valign="top">
+
+`EXIT (1)`
+
+
+
+</td>
+<td valign="top">
+
+CF application with SAP HTML5 content
 
 
 

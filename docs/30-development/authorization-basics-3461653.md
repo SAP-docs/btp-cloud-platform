@@ -150,15 +150,18 @@ If the business role doesn’t give write access, the *Create* activity, for exa
 
 ## Authorization Context
 
-A CDS behavior definition can define authorization contexts that list multiple authorization objects that are used for the ABAP statement `AUTHORITY-CHECK OBJECT`.
+A CDS behavior definition can define authorization contexts that list multiple authorization objects. These authorization objects are used for the ABAP statement `AUTHORITY-CHECK OBJECT` in the implementation methods of the ABAP behavior pool of the business object.
 
 The authorization contexts can be defined as follows:
 
--   An authorization context with a specific name: Such an authorization context is defined using the statement `define authorization context`. When an authorization context is activated, the authorization checks for all listed authorization objects always return the value `authorized`. This means that if a call is made in privileged mode, the objects from the corresponding privileged context are ignored. Such an authorization context can be useful, for example, to enable privileged mode for a business object \(see [Providing Read or Write Access to a Business Service Using Privileged Mode](providing-read-or-write-access-to-a-business-service-using-privileged-mode-241382c.md)\).
--   Own authorization context: Such an authorization context is defined using the statement `define own authorization context`. The authorization context lists the authorization objects that are checked by the implementation methods of the ABAP behavior pool of the business object.
+-   Own authorization context: Such an authorization context is defined using the statement `define own authorization context`.
 
-> ### Recommendation:  
-> We recommend that you define the own authorization context for all your custom business objects to document which authorization objects are checked in the logic of each business object.
+    > ### Recommendation:  
+    > We recommend that you define the own authorization context for all your custom business objects to document which authorization objects are checked in the logic of each business object.
+
+-   An authorization context with a specific name: Such an authorization context is defined using the statement `define authorization context`. With the authorization context with a specific name, you can define an authorization context that contains only a subset of the authorization objects from the own authorization context.
+
+An authorization context can be useful, for example, to enable privileged mode for a business object \(see [Providing Read or Write Access to a Business Service Using Privileged Mode](providing-read-or-write-access-to-a-business-service-using-privileged-mode-241382c.md)\).
 
 For more information, see the ABAP keyword documentation that you can find in the ABAP Development Tools.
 
@@ -168,7 +171,7 @@ For more information, see the ABAP keyword documentation that you can find in th
 
 ## Privileged Mode
 
-With privileged mode in the behavior definition, RAP business object consumers can circumvent authorization checks, such as RAP authorization control or CDS access control. After enabling privileged mode, privileged read and write access to the business object is possible.
+With privileged mode in the behavior definition, RAP business object consumers can circumvent authorization checks, such as RAP authorization control or CDS access control. After enabling privileged mode, privileged read and write access to the business object is possible. In this case, the authorization checks for all listed authorization objects always return the value `authorized`.
 
 For more information, see the ABAP keyword documentation in the ABAP Development Tools and [Authorization Control](https://help.sap.com/docs/BTP/923180ddb98240829d935862025004d6/375a8124b22948688ac1c55297868d06.html) in the guide to the ABAP RESTful Application Programming Model \(RAP\).
 

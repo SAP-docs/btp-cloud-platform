@@ -17,7 +17,9 @@ SAP BTP supports identity federation. Its concept is to reuse the user bases of 
 
     For more information, see [Tenant Model and Licensing](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html?version=Cloud) in the documentation for Identity Authentication.
 
--   The Identity Authentication tenant must be associated with the same customer ID as the relevant global account of SAP BTP.
+-   The Identity Authentication tenant is associated with the customer IDs of the relevant global account of SAP BTP.
+
+    For more information, see [**Reuse SAP Cloud Identity Services Tenants for Different Customer IDs**](https://help.sap.com/docs/identity-authentication/identity-authentication/reuse-sap-cloud-identity-services-tenants-for-different-customer-ids) in the documentation for Identity Authentication.
 
 -   Make sure that the email addresses of all users in your identity provider are unique and correct.
 
@@ -70,7 +72,7 @@ Command help
 <tr>
 <td valign="top">
 
-List all trust configurations that are configured for your global account or subaccount
+List all trust configurations that are configured for your global account or subaccount tenants to which you can connect this global account or subaccount
 
 
 
@@ -116,7 +118,7 @@ Get details about a trust configuration
 <tr>
 <td valign="top">
 
-Establish trust from a global account or subaccount to an Identity Authentication tenant
+tenants to which you can connect this global account orEstablish trust from a global account or subaccount to an Identity Authentication tenant
 
 
 
@@ -182,6 +184,52 @@ Delete a trust configuration from a global account or subaccount
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Migrate from SAML trust to OpenID Connect trust
+
+
+
+</td>
+<td valign="top">
+
+`btp migrate security/trust`
+
+
+
+</td>
+<td valign="top">
+
+[btp migrate security/trust](https://help.sap.com/docs/btp/btp-cli-command-reference/btp-migrate-security-trust)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Roll back the migration of an existing SAML trust with any identity provider to OpenID Connect trust with an Identity Authentication tenant
+
+
+
+</td>
+<td valign="top">
+
+`btp restore security/trust`
+
+
+
+</td>
+<td valign="top">
+
+[btp restore security/trust](https://help.sap.com/docs/btp/btp-cli-command-reference/btp-restore-security-trust)
+
+
+
+</td>
+</tr>
 </table>
 
 
@@ -218,7 +266,7 @@ Command help
 <tr>
 <td valign="top">
 
-List all Identity Authentication tenants to which you can connect this global account or subaccount
+List all Identity Authentication
 
 
 

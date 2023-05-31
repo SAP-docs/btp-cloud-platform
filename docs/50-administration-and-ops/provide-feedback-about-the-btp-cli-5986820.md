@@ -12,7 +12,7 @@ With `btp feedback`, you can open a feedback survey in a web browser in which yo
 
 A short survey will open in your web browser, in which you're asked how satisfied you are with the btp CLI, and where you can share additional comments. This feedback is carefully analyzed by the development team and a valuable source of input for further improving the btp CLI.
 
-You can also fill it out now: [https://cpcli.cf.eu10.hana.ondemand.com/feedback](https://cpcli.cf.eu10.hana.ondemand.com/feedback).
+You can also fill it out now: [Take our survey about the btp CLI](https://cpcli.cf.eu10.hana.ondemand.com/feedback) 
 
 Thanks a lot for your participation. Your feedback is greatly appreciated.
 

@@ -106,7 +106,9 @@ The only possible way for your XSJS applications to be up and running on latest 
     ```
 
 
-To do these steps, refer to the API of the new [@sap/async-xsjs](https://www.npmjs.com/package/@sap/async-xsjs) package. Go to the [SAP HANA Platform](https://help.sap.com/docs/SAP_HANA_PLATFORM?task=use_task) product page, choose *View All*, and then click *SAP HANA Asynchronous XS JavaScript API Reference*.
+To do these steps, refer to the API of the new [@sap/async-xsjs](https://www.npmjs.com/package/@sap/async-xsjs) package. See: [SAP HANA 2 - ASYNC XS JavaScript API Reference](https://help.sap.com/doc/215e6913c0e44223b2842f16c927ec6d/2.0.07/en-US/index.html) 
+
+You can find this API reference if you go to the [SAP HANA Platform](https://help.sap.com/docs/SAP_HANA_PLATFORM?task=use_task) product page, and then choose *View All* → *SAP HANA Asynchronous XS JavaScript API Reference*.
 
 > ### Note:  
 > For huge application codes, you can optimize your work by using a migration tool. See: [@sap/async-migrator](https://github.com/sap/async-migrator) 

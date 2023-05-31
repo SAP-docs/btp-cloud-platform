@@ -139,6 +139,22 @@ The package manager for Kubernetes, used for installing and managing Kubernetes 
 <tr>
 <td valign="top">
 
+[ABAP RESTful Application Programming Model](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/289477a81eec4d4e84c0302fb6835035.html)
+
+
+
+</td>
+<td valign="top">
+
+The programming model that defines the architecture for efficient end-to-end development of intrinsically SAP HANA-optimized OData services \(such as SAP Fiori apps\) in the ABAP environment.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [SAP BTP SDK for iOS](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_SDK_FOR_IOS/Latest/en-US)
 
 
@@ -227,6 +243,38 @@ With SAP Web IDE Full-Stack, you can easily develop, test, build, deploy, and ex
 <td valign="top">
 
 SAP Business Application Studio is the next generation of SAP Web IDE - Develop, debug, test, and deploy SAP business applications.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP Build](https://help.sap.com/docs/SAP_BUILD)
+
+
+
+</td>
+<td valign="top">
+
+SAP Build enables everyone, no matter the skill level, to create and augment enterprise applications, process automations, and business sites with drag-and-drop simplicity.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 

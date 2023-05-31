@@ -744,30 +744,6 @@ Deploy all resources.
 <tr>
 <td valign="top">
 
-<code><i>--verify-archive-signature</i></code>
-
-
-
-</td>
-<td valign="top">
-
-Check the archive signature by verifying that:
-
--   The archive is correctly signed with a Symantec certificate.
--   All files are signed correctly.
--   The certificate is valid.
--   The certificate subject is SAP.
-
-> ### Example:  
-> ***cf deploy <mtar\_name\> --verify-archive-signature***
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 <code><i>--strategy</i></code>
 
 
@@ -1340,30 +1316,6 @@ Deploy all resources.
 
 > ### Note:  
 > Any `-r` options are ignored.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-<code><i>--verify-archive-signature</i></code>
-
-
-
-</td>
-<td valign="top">
-
-Check the archive signature by verifying that:
-
--   . However, if you run a newThe archive is correctly signed with a Symantec certificate.
--   All files are signed correctly.
--   The certificate is valid.
--   The certificate subject is SAP.
-
-> ### Example:  
-> ***cf bg-deploy <mtar\_name\> --verify-archive-signature***
 
 
 

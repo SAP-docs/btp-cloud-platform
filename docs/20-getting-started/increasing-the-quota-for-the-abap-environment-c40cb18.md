@@ -41,7 +41,7 @@ If you are working in an enterprise account, you need to add quotas to the servi
 
 9.  On the following screen, increase the quotas in the *abap\_compute\_unit* service plan at least by 1 and in the *hana\_compute\_unit* service plan at least by 2.
 
-    The minimum configuration of 1 ABAP compute unit and 2 HANA compute units is sufficient in many cases to create one service instance for the ABAP environment. If you need more resources, choose higher quotas. Keep in mind that increasing the SAP HANA Cloud storage using the parameter `size_of_persistence_disk` consumes 0.00581345 HANA compute units for each GB that exceeds the minimal size of the persistence disk.
+    The minimum configuration of 1 ABAP compute unit and 2 HANA compute units is sufficient in many cases to create one service instance for the ABAP environment. If you need more resources, choose higher quotas. Keep in mind that increasing the SAP HANA Cloud storage using the parameter `size_of_persistence_disk` consumes 0.002 HANA compute units for each GB that exceeds the minimal size of the persistence disk.
 
 10. Choose *Save*.
 

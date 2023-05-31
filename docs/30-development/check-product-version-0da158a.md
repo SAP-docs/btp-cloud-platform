@@ -28,7 +28,7 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
 
     -   G \(Not ready\): The product version is currently being built and is not available for test or production use yet.
     -   T \(Ready for test\): The product version has been build but has not yet been released for production use. However, the version may be used for \(automated\) testing.
-    -   P \(Prod\): The product version is ready for production use. An ABAP environment production system can now be updated to this product version.
+    -   P \(Ready for production\): The product version is ready for production use. An ABAP environment production system can now be updated to this product version.
 
 5.  Select a version to see more detailed information on the check results:
 

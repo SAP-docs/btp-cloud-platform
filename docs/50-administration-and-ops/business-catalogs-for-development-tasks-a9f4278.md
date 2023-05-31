@@ -2,11 +2,13 @@
 
 # Business Catalogs for Development Tasks
 
-Get an overview of available business role catalogs and their restrictions.
+Get an overview of available business catalogs for development tasks and their restrictions.
 
 
 
 You assign business catalogs to business roles that are assigned to business users. Business catalogs contain authorizations that define what a business user with a certain business role is allowed to do.
+
+Certain business catalogs are only available in development systems \(see [Creating an ABAP System](../20-getting-started/creating-an-abap-system-50b32f1.md).
 
 **Business Catalogs for Development Tasks**
 
@@ -34,6 +36,13 @@ Restrictions
 
 
 </th>
+<th valign="top">
+
+Availability
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -55,6 +64,13 @@ ADT Development
 <td valign="top">
 
 No transport request management \(transport tasks only\)
+
+
+
+</td>
+<td valign="top">
+
+In development systems only
 
 
 
@@ -87,6 +103,13 @@ Troubleshooting tools such as logs, traces, and the debugger.
 
 
 </td>
+<td valign="top">
+
+In all systems
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -108,6 +131,13 @@ Testing ABAP-based APIs released by SAP
 <td valign="top">
 
 \-
+
+
+
+</td>
+<td valign="top">
+
+In development systems only
 
 
 
@@ -137,6 +167,13 @@ Executing class runners in ABAP Development Tools
 
 
 </td>
+<td valign="top">
+
+In all systems
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -158,6 +195,13 @@ Using data preview in ABAP Development Tools
 <td valign="top">
 
 \-
+
+
+
+</td>
+<td valign="top">
+
+In all systems
 
 
 
@@ -187,6 +231,13 @@ Viewing \(read-only\) development objects in ABAP Development Tools
 
 
 </td>
+<td valign="top">
+
+In all systems
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -208,6 +259,13 @@ ADT Transport Management
 <td valign="top">
 
 No release of transport requests and no customizing requests
+
+
+
+</td>
+<td valign="top">
+
+In development systems only
 
 
 
@@ -237,6 +295,13 @@ No customizing requests
 
 
 </td>
+<td valign="top">
+
+In development systems only
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -258,6 +323,13 @@ Deployment of UIs into the ABAP system repository
 <td valign="top">
 
 \-
+
+
+
+</td>
+<td valign="top">
+
+In development systems only
 
 
 
@@ -292,6 +364,13 @@ Data of CDS views can be viewed with or without application of the DCL.
 
 
 </td>
+<td valign="top">
+
+In all systems
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -321,6 +400,13 @@ Usage of the data preview in ABAP Development Tools for objects that are conside
 
 
 </td>
+<td valign="top">
+
+In all systems
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -344,6 +430,13 @@ SAP\_CORE\_BC\_EXT\_TST
 <td valign="top">
 
 Only services that have their original in the current system
+
+
+
+</td>
+<td valign="top">
+
+In development systems only
 
 
 

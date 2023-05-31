@@ -10,13 +10,13 @@ Learn more about the different application operations that you can perform in th
 
 -   [Add or Remove Application Instances](add-or-remove-application-instances-75836f1.md)
 
--   [Configuring Application URLs](configuring-application-urls-e623e37.md)
+-   [Configuring Application URLs in the Cloud Foundry CLI](configuring-application-urls-in-the-cloud-foundry-cli-e623e37.md)
 
     -   [About Routes in the Cockpit](about-routes-in-the-cockpit-4af288c.md)
 
     -   [Create Routes](create-routes-9fddeea.md)
 
-    -   [Map Routes to Applications Using the Cockpit](map-routes-to-applications-using-the-cockpit-b25cf8a.md)
+    -   [Map Routes to Applications](map-routes-to-applications-b25cf8a.md)
 
     -   [Using Custom Domains](using-custom-domains-2291aea.md)
 

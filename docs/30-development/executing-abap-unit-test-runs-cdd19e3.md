@@ -12,7 +12,7 @@
 
 -   You’ve created a *Communication User* as described in [How to Create Communication Users](../50-administration-and-ops/how-to-create-communication-users-0377ade.md).
 
--   You’ve created a *Communication System* as described in [How to Create Communication Systems](../50-administration-and-ops/how-to-create-communication-systems-c2234ac.md)
+-   You’ve created a *Communication System* as described in [How to Create Communication Systems](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-create-communication-systems?version=Cloud).
 -   You’ve created a *Communication Arrangement* as described in [How to Create a Communication Arrangement](../50-administration-and-ops/how-to-create-a-communication-arrangement-a0771f6.md).
 
 -   You've selected the communication scenario **SAP\_COM\_0735** for your communication arrangement and have mapped it to your communication system.

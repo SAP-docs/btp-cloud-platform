@@ -19,7 +19,7 @@ The offered functionality ensures smooth consumption of SAP and non-SAP applicat
 
 Every Kyma environment consists of:
 
--   A Kubernetes cluster provisioned through project "Gardener" on a cloud provider and region \(data center\) of your choice. To find out the available regions and providers, see [Regions for the Kyma Environment](regions-for-the-kyma-environment-557ec3a.md).
+-   A Kubernetes cluster based on project "Gardener" on a cloud provider and region \(data center\) of your choice. To find out the available regions and providers, see [Regions for the Kyma Environment](regions-for-the-kyma-environment-557ec3a.md).
 -   The open-source [project "Kyma"](https://kyma-project.io/) installed in its latest version on the provisioned cluster.
 
 

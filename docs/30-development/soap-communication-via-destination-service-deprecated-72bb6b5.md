@@ -20,7 +20,10 @@ You can set Web service-specific properties by maintaining the following *Additi
 >     DATA(lo_soap_dest) = cl_soap_destination_provider=>create_by_cloud_destination(
 >                            i_name                   = '<destination name>'
 >                            i_service_instance_name  = '<destination service instance name>').
->  
+> 
+>     DATA(proxy) = NEW zco_appointment_activity_reque(
+>                       destination = destination ).
+> 
 >     DATA(request) = VALUE zsc_req_msg_type(
 >               req_msg_type-product = '<product name>' ).
 >     proxy->get_price(

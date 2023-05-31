@@ -223,7 +223,7 @@ User Interface Configuration
 </td>
 <td valign="top">
 
- [Managing Launchpad Spaces and Pages](https://help.sap.com/viewer/10fd1742ea914256abedb34bf15bd069/Cloud/en-US/e55f5cc8ccec490f83a00284659bce9f.html "Learn how to manage the launchpad spaces and pages as well as create and edit pages and spaces.") :arrow_upper_right: 
+ [Managing Launchpad Spaces and Pages](https://help.sap.com/docs/btp/user-interface-configurations/managing-launchpad-spaces-and-pages) 
 
 
 
@@ -257,7 +257,7 @@ User Interface Configuration
 </td>
 <td valign="top">
 
- [Manage Launchpad Settings](https://help.sap.com/viewer/10fd1742ea914256abedb34bf15bd069/Cloud/en-US/22d573aead754b80abca18ec71872fb7.html "") :arrow_upper_right: 
+ [Manage Launchpad Settings](https://help.sap.com/docs/btp/user-interface-configurations/manage-launchpad-settings) 
 
 
 
@@ -2874,5 +2874,5 @@ ABAP Dictionary
 **Related Information**  
 
 
-[Business Catalogs for Development Tasks](business-catalogs-for-development-tasks-a9f4278.md "Get an overview of available business role catalogs and their restrictions.")
+[Business Catalogs for Development Tasks](business-catalogs-for-development-tasks-a9f4278.md "Get an overview of available business catalogs for development tasks and their restrictions.")
 

@@ -72,7 +72,7 @@ where:
 
 ### Available APIs
 
-Go to [SAP API Business Hub](https://api.sap.com/api/APISaasManagerService/resource) and select the **Application Operations for App Providers** section to get information about all the available APIs and their details.
+Go to [SAP Business Accelerator Hub](https://api.sap.com/api/APISaasManagerService/resource) and select the **Application Operations for App Providers** section to get information about all the available APIs and their details.
 
 You can also try out the APIs in the SAP API Business Hub. For more information, see [Trying Out APIs](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/de255b9e0c374ce68151f6b9ad517aba.html).
 
@@ -106,7 +106,7 @@ To learn how to authenticate, see [Getting an Access Token for SAP Cloud Managem
 
 ### Available APIs
 
-Go to [SAP API Business Hub](https://api.sap.com/api/APISaasManagerService/resource) and select the **Subscription Operations for App Consumers** section to get information about all the available APIs and their details.
+Go to [SAP Business Accelerator Hub](https://api.sap.com/api/APISaasManagerService/resource) and select the **Subscription Operations for App Consumers** section to get information about all the available APIs and their details.
 
 You can also try out the APIs in the SAP API Business Hub. For more information, see [Trying Out APIs](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/de255b9e0c374ce68151f6b9ad517aba.html).
 

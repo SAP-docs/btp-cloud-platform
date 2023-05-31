@@ -256,7 +256,7 @@ An `HTTP 429 Too Many Requests` response status code is sent.
 
 ## Authorization, Security Settings, and Identity Provider Management APIs
 
-The authorization, security settings, and identity provider management APIs enable you to manage service instances, roles, role templates, role collections, and identity providers. You find the APIs of SAP Authorization and Trust Management service and of the security settings in the [SAP API Business Hub](https://api.sap.com/package/authtrustmgmnt/rest).
+The authorization, security settings, and identity provider management APIs enable you to manage service instances, roles, role templates, role collections, and identity providers. You find the APIs of SAP Authorization and Trust Management service and of the security settings in the [SAP Business Accelerator Hub](https://api.sap.com/package/authtrustmgmnt?section=Artifacts).
 
 **Authorization, Security Settings, and Identity Provider APIs**
 

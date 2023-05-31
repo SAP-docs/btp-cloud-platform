@@ -12,7 +12,7 @@ Create a communication system to set up communication between your ABAP environm
 
 1.  In the SAP BTP cockpit, download your subaccount-specific trust certificate by navigating to *Connectivity* \> *Destinations* \> *Download Trust*.
 
-2.  In the SAP Fiori launchpad of your ABAP environment system, create a communication system by using the *Communication Systems* app. See [How to Create Communication Systems](../50-administration-and-ops/how-to-create-communication-systems-c2234ac.md).
+2.  In the SAP Fiori launchpad of your ABAP environment system, create a communication system by using the *Communication Systems* app. See [How to Create Communication Systems](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-create-communication-systems?version=Cloud).
 
 3.  Navigate to section *General* \> *SAML Bearer Assertion Provider* and switch the toggle button to *ON*.
 

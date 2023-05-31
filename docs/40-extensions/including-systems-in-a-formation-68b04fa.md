@@ -40,6 +40,27 @@ Extension business cases often involve extending several SAP solutions at a time
 
 When creating a formation in the SAP BTP cockpit, you include the systems of the different SAP solutions you want to extend. If your business case features more than one SAP solution system, you can use the corresponding button to include additional systems in the formation. You can start the dialog as many times and add systems to your formation as you want.
 
+A formation can have the following status values:
+
+-   No status
+
+    The formation has been added as a record to the list and all registered systems are included successfully.
+
+-   *Action Required*
+
+    The formation has been created but you cannot use it productively yet.
+
+    Based on the formation type and the subaccount that you specified, it might require an SAP BTP Kyma environment instance or an SAP Business Application Studio subscription. Although the SAP BTP cockpit allows you to create such a formation, to enable and make use of it, you must also create the respective instance or subscription.
+
+-   *Synchronizing*
+
+    Systems that are included in the formation are currently synchronizing in the background.
+
+-   *Error*
+
+    An error occurred while some of the systems that are included in the formation were synchronizing in the background. In this case, report an incident in the `BC-CP-MP` component.
+
+
 The table below outlines the system types that you can include in a formation, as well as, the supported SAP BTP environment:
 
 

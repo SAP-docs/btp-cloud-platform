@@ -55,8 +55,9 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
 
 7.  Check the list under *Product Version Update Status*. Here, all update requests as well as their current status and progress are displayed. The update you just scheduled has been added to the list.
 
-    -   As long as an update is in status "scheduled" or "error", you can still cancel it using the trash icon.
-    -   If the update process is stuck with an error, you can cancel it using the trash icon. In this case, the process is technically aborted and an automatic cleanup is performed to execute a revoke or a rollback behind the scenes.
+    -   As long as an update is in status "scheduled" or "error", you can still cancel it using the rollback request icon.
+    -   If the update process is stuck with an error, you can cancel it using the rollback request icon. In this case, the process is technically aborted and an automatic cleanup is performed to execute a revoke or a rollback behind the scenes.
+    -   Only in case a SPAM import error has occurred, you can choose the then appearing icon *Show errorlog* on the right side. This will open a window with an error log. Here, error messages are listed and can further be inspected by a click as well.
 
 
 > ### Note:  

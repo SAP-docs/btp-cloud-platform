@@ -21,7 +21,7 @@ Consider using a custom identity provider to integrate your own identity and acc
 
 Send your colleagues the self-registration URL.
 
-`https://account.sap.com/core/create/register?redirectURL=https%3A%2F%2Fcockpit.eu10.hana.ondemand.com%2Fcockpit%2F`
+`https://account.sap.com/core/create/register?redirectURL=https%3A%2F%2Femea.cockpit.btp.cloud.sap%2Fcockpit%2F`
 
 The website registers you with SAP Universal ID, which also registers you with SAP ID service. If you already have a user in SAP ID service, you have the option to associate this user with your new SAP Universal ID account. SAP Universal ID manages the users of official SAP sites, including the SAP developer and partner community.
 

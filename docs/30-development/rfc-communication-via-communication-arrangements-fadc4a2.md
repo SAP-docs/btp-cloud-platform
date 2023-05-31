@@ -241,8 +241,13 @@ To test your outbound call, you have to provide a configuration for the outbound
 
 Create a communication system and communication arrangement for the communication scenario in the Communication Systems and Communication Arrangements apps and maintain the required data.
 
-**Related Information**  
 
 
-[Service Consumption via Communication Arrangements](service-consumption-via-communication-arrangements-86aece6.md "")
+<a name="loiofadc4a223fb346b89052b94b8811d9b6__section_asn_v2r_gxb"/>
+
+## Related Information
+
+[Service Consumption via Communication Arrangements](service-consumption-via-communication-arrangements-86aece6.md)
+
+[Call a Remote Function Module \(RFC\) From SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-env-rfc.html)
 

@@ -28,7 +28,7 @@ In order to access this service, you need to:
 
 -   Create a *Communication User* as described in [How to Create Communication Users](../50-administration-and-ops/how-to-create-communication-users-0377ade.md).
 
--   Create a *Communication System* as described in [How to Create Communication Systems](../50-administration-and-ops/how-to-create-communication-systems-c2234ac.md)
+-   Create a *Communication System* as described in [How to Create Communication Systems.](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-create-communication-systems?version=Cloud)
 -   Create a *Communication Arrangement* as described in [How to Create a Communication Arrangement](../50-administration-and-ops/how-to-create-a-communication-arrangement-a0771f6.md).
 
 -   Select the communication scenario **SAP\_COM\_0510** for your communication arrangement and have mapped it to your communication system.
