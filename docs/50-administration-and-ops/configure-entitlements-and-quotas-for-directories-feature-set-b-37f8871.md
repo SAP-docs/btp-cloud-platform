@@ -75,15 +75,15 @@ Assign entitlements to directories by adding service plans and distribute the qu
     </tr>
     <tr>
     <td valign="top">
-
-    **Add new service plans to the directory**
+    
+        **Add new service plans to the directory**
 
 
     
     </td>
     <td valign="top">
-
-    Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the directory. Choose *Add <x\> Service Plans* in the dialog to confirm.
+    
+        Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the directory. Choose *Add <x\> Service Plans* in the dialog to confirm.
 
     Remember, the services that you see depend on the type of global account you have and your contract details \(see the prerequisites above for more information\).
 
@@ -103,15 +103,15 @@ Assign entitlements to directories by adding service plans and distribute the qu
     </tr>
     <tr>
     <td valign="top">
-
-    **Edit the quota for one or more service plans**
+    
+        **Edit the quota for one or more service plans**
 
 
     
     </td>
     <td valign="top">
-
-    Use :heavy_plus_sign: and :heavy_minus_sign: to increase or decrease the quota for each service plan.
+    
+        Use :heavy_plus_sign: and :heavy_minus_sign: to increase or decrease the quota for each service plan.
 
     If you would like to have quota automatically assigned to subaccounts that are created or moved to the directory, follow the same process to set the amount that should be auto-assigned to each subaccount.
 
@@ -126,15 +126,15 @@ Assign entitlements to directories by adding service plans and distribute the qu
     </tr>
     <tr>
     <td valign="top">
-
-    **Delete a service plan and its quota from the directory**
+    
+        **Delete a service plan and its quota from the directory**
 
 
     
     </td>
     <td valign="top">
-
-    Choose :wastebasket: from the *Actions* column.
+    
+        Choose :wastebasket: from the *Actions* column.
 
 
     
@@ -220,15 +220,15 @@ Assign entitlements to directories by adding service plans and distribute the qu
     </tr>
     <tr>
     <td valign="top">
-
-    **Add new service plans to the directory**
+    
+        **Add new service plans to the directory**
 
 
     
     </td>
     <td valign="top">
-
-    Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the directory. Choose *Add <x\> Service Plans* in the dialog to confirm.
+    
+        Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the directory. Choose *Add <x\> Service Plans* in the dialog to confirm.
 
     Remember, the services that you see depend on the type of global account you have and your contract details \(see the prerequisites above for more information\).
 
@@ -248,15 +248,15 @@ Assign entitlements to directories by adding service plans and distribute the qu
     </tr>
     <tr>
     <td valign="top">
-
-    **Edit the quota for one or more service plans**
+    
+        **Edit the quota for one or more service plans**
 
 
     
     </td>
     <td valign="top">
-
-    Use :heavy_plus_sign: and :heavy_minus_sign: to increase or decrease the quota for each service plan.
+    
+        Use :heavy_plus_sign: and :heavy_minus_sign: to increase or decrease the quota for each service plan.
 
     If you would like to have quota automatically assigned to subaccounts that are created or moved to the directory, follow the same process to set the amount that should be auto-assigned to each subaccount.
 
@@ -271,15 +271,15 @@ Assign entitlements to directories by adding service plans and distribute the qu
     </tr>
     <tr>
     <td valign="top">
-
-    **Delete a service plan and its quota from the directory**
+    
+        **Delete a service plan and its quota from the directory**
 
 
     
     </td>
     <td valign="top">
-
-    Choose :wastebasket: from the *Actions* column.
+    
+        Choose :wastebasket: from the *Actions* column.
 
 
     

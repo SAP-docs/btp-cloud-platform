@@ -59,31 +59,15 @@ Usage: `btp [OPTIONS] target [PARAMS]`
     </tr>
     <tr>
     <td valign="top">
-
-    `--global-account, -ga` *<SUBDOMAIN\>*
+    
+        `--global-account, -ga` *<SUBDOMAIN\>*
 
 
     
     </td>
     <td valign="top">
-
-    The subdomain of the global account to be targeted.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    `--directory, -dir`*<ID\>*
-
-
-    
-    </td>
-    <td valign="top">
-
-    The ID of the directory to be targeted. You can find the directory ID by using `btp get accounts/global-account --show-hierarchy`.
+        The subdomain of the global account to be targeted.
 
 
     
@@ -91,15 +75,31 @@ Usage: `btp [OPTIONS] target [PARAMS]`
     </tr>
     <tr>
     <td valign="top">
-
-    `--subaccount, -sa` *<ID\>*
+    
+        `--directory, -dir`*<ID\>*
 
 
     
     </td>
     <td valign="top">
+    
+        The ID of the directory to be targeted. You can find the directory ID by using `btp get accounts/global-account --show-hierarchy`.
 
-    The ID of the subaccount to be targeted. You can find the subaccount ID by using `btp list accounts/subaccount`.
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        `--subaccount, -sa` *<ID\>*
+
+
+    
+    </td>
+    <td valign="top">
+    
+        The ID of the subaccount to be targeted. You can find the subaccount ID by using `btp list accounts/subaccount`.
 
 
     

@@ -123,15 +123,15 @@ You have to create an HTTP destination to be able to make calls to the SAP Succe
     </tr>
     <tr>
     <td valign="top">
-
-    *Name*
+    
+        *Name*
 
 
     
     </td>
     <td valign="top">
-
-    Enter a name for the destination.
+    
+        Enter a name for the destination.
 
     For example, ***sap\_hcmcloud\_core\_odata***.
 
@@ -141,15 +141,15 @@ You have to create an HTTP destination to be able to make calls to the SAP Succe
     </tr>
     <tr>
     <td valign="top">
-
-    *Type*
+    
+        *Type*
 
 
     
     </td>
     <td valign="top">
-
-    HTTP
+    
+        HTTP
 
 
     
@@ -157,15 +157,15 @@ You have to create an HTTP destination to be able to make calls to the SAP Succe
     </tr>
     <tr>
     <td valign="top">
-
-    *URL*
+    
+        *URL*
 
 
     
     </td>
     <td valign="top">
-
-    Enter the URL of the SAP SuccessFactors OData API you want to consume with *cert.* before *successfactors.com*. For a list of the API Endpoint URL for the SAP SuccessFactors environments, see [List of SAP SuccessFactors API Servers](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/28bc3c8e3f214ab487ec51b1b8709adc/af2b8d5437494b12be88fe374eba75b6.html?version=LATEST&locale=en-US).
+    
+        Enter the URL of the SAP SuccessFactors OData API you want to consume with *cert.* before *successfactors.com*. For a list of the API Endpoint URL for the SAP SuccessFactors environments, see [List of SAP SuccessFactors API Servers](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/28bc3c8e3f214ab487ec51b1b8709adc/af2b8d5437494b12be88fe374eba75b6.html?version=LATEST&locale=en-US).
 
     For example, *https://apisalesdemo8.cert.successfactors.com*.
 
@@ -175,31 +175,15 @@ You have to create an HTTP destination to be able to make calls to the SAP Succe
     </tr>
     <tr>
     <td valign="top">
-
-    *Proxy Type*
+    
+        *Proxy Type*
 
 
     
     </td>
     <td valign="top">
-
-    Internet
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    *Authentication*
-
-
-    
-    </td>
-    <td valign="top">
-
-    ClientCertificateAuthentication
+        Internet
 
 
     
@@ -207,15 +191,31 @@ You have to create an HTTP destination to be able to make calls to the SAP Succe
     </tr>
     <tr>
     <td valign="top">
-
-    *Key Store Location*
+    
+        *Authentication*
 
 
     
     </td>
     <td valign="top">
+    
+        ClientCertificateAuthentication
 
-    Select the certificate you have generated for the destinations in your subaccount in SAP BTP. See [Generate X509 Certificate in SAP BTP](using-mutual-transport-layer-security-mtls-ca4b9ab.md#loioab90478fa95c4df4b4ce5d83e7fd1f47).
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        *Key Store Location*
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Select the certificate you have generated for the destinations in your subaccount in SAP BTP. See [Generate X509 Certificate in SAP BTP](using-mutual-transport-layer-security-mtls-ca4b9ab.md#loioab90478fa95c4df4b4ce5d83e7fd1f47).
 
 
     

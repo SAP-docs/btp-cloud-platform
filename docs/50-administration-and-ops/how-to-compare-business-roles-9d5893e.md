@@ -64,31 +64,15 @@ To display the common features and the differences between business roles, you c
     </tr>
     <tr>
     <td valign="top">
-
-    Green
+    
+        Green
 
 
     
     </td>
     <td valign="top">
-
-    The restriction type is assigned to both roles and in both roles, the values are the same.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    Orange
-
-
-    
-    </td>
-    <td valign="top">
-
-    The restriction type is assigned to both roles but the values are different.
+        The restriction type is assigned to both roles and in both roles, the values are the same.
 
 
     
@@ -96,15 +80,31 @@ To display the common features and the differences between business roles, you c
     </tr>
     <tr>
     <td valign="top">
-
-    Red
+    
+        Orange
 
 
     
     </td>
     <td valign="top">
+    
+        The restriction type is assigned to both roles but the values are different.
 
-    The restriction type is only assigned to one role but not to the other.
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        Red
+
+
+    
+    </td>
+    <td valign="top">
+    
+        The restriction type is only assigned to one role but not to the other.
 
 
     

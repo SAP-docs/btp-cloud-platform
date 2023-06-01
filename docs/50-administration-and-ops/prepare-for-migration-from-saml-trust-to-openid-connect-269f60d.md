@@ -61,31 +61,15 @@ Before migrating your trust configuration, check which user data are sent today,
     </tr>
     <tr>
     <td valign="top">
-
-    first\_name
+    
+        first\_name
 
 
     
     </td>
     <td valign="top">
-
-    given\_name
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    last\_name
-
-
-    
-    </td>
-    <td valign="top">
-
-    family\_name
+        given\_name
 
 
     
@@ -93,15 +77,31 @@ Before migrating your trust configuration, check which user data are sent today,
     </tr>
     <tr>
     <td valign="top">
-
-    mail
+    
+        last\_name
 
 
     
     </td>
     <td valign="top">
+    
+        family\_name
 
-    email
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        mail
+
+
+    
+    </td>
+    <td valign="top">
+    
+        email
 
 
     

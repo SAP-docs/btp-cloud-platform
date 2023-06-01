@@ -34,15 +34,15 @@ To access business services, the following applies:
     </tr>
     <tr>
     <td valign="top">
-
-    `user_token`
+    
+        `user_token`
 
 
     
     </td>
     <td valign="top">
-
-    The application router performs a token exchange between the login JWT token and the Business Service token, and uses it to trigger a request to the Business Service endpoint.
+    
+        The application router performs a token exchange between the login JWT token and the Business Service token, and uses it to trigger a request to the Business Service endpoint.
 
 
     
@@ -50,15 +50,15 @@ To access business services, the following applies:
     </tr>
     <tr>
     <td valign="top">
-
-    `client_credentials`
+    
+        `client_credentials`
 
 
     
     </td>
     <td valign="top">
-
-    The application router generates a `client_credentials` token and uses it to trigger a request to the Business Service endpoint.
+    
+        The application router generates a `client_credentials` token and uses it to trigger a request to the Business Service endpoint.
 
 
     

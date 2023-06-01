@@ -104,15 +104,15 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
     </tr>
     <tr>
     <td valign="top">
-
-    **Add new service plans to the subaccount**
+    
+        **Add new service plans to the subaccount**
 
 
     
     </td>
     <td valign="top">
-
-    Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the subaccount.
+    
+        Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the subaccount.
 
     Remember, the services that you see depend on the type of global account you have and your contract details \(see the prerequisites above for more information\).
 
@@ -127,15 +127,15 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
     </tr>
     <tr>
     <td valign="top">
-
-    **Edit the quota for one or more service plans**
+    
+        **Edit the quota for one or more service plans**
 
 
     
     </td>
     <td valign="top">
-
-    Use :heavy_plus_sign: and :heavy_minus_sign: to increase or decrease the quota for each service plan.
+    
+        Use :heavy_plus_sign: and :heavy_minus_sign: to increase or decrease the quota for each service plan.
 
 
     
@@ -143,15 +143,15 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
     </tr>
     <tr>
     <td valign="top">
-
-    **Assign quota to unlimited service plans in global accounts using the consumption-based commercial model.**
+    
+        **Assign quota to unlimited service plans in global accounts using the consumption-based commercial model.**
 
 
     
     </td>
     <td valign="top">
-
-    Use the checkbox in the *Assign Quota* column to enable or disable the *Subaccount Assignment* column for editing.
+    
+        Use the checkbox in the *Assign Quota* column to enable or disable the *Subaccount Assignment* column for editing.
 
     Now, you can increase or decrease the quota for this service plan by using :heavy_plus_sign: and :heavy_minus_sign:.
 
@@ -161,15 +161,15 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
     </tr>
     <tr>
     <td valign="top">
-
-    **Delete a service plan and its quota from the subaccount**
+    
+        **Delete a service plan and its quota from the subaccount**
 
 
     
     </td>
     <td valign="top">
-
-    Choose :wastebasket: from the *Actions* column.
+    
+        Choose :wastebasket: from the *Actions* column.
 
 
     
@@ -239,15 +239,15 @@ In addition to being a global account administrator, you must also be a member o
     </tr>
     <tr>
     <td valign="top">
-
-    **Add new service plans to the subaccount**
+    
+        **Add new service plans to the subaccount**
 
 
     
     </td>
     <td valign="top">
-
-    Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the subaccount.
+    
+        Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the subaccount.
 
     Remember, the services that you see depend on the type of global account you have and your contract details \(see the prerequisites above for more information\).
 
@@ -262,15 +262,15 @@ In addition to being a global account administrator, you must also be a member o
     </tr>
     <tr>
     <td valign="top">
-
-    **Edit the quota for one or more service plans**
+    
+        **Edit the quota for one or more service plans**
 
 
     
     </td>
     <td valign="top">
-
-    Use :heavy_plus_sign: and :heavy_minus_sign: to increase or decrease the quota for each service plan.
+    
+        Use :heavy_plus_sign: and :heavy_minus_sign: to increase or decrease the quota for each service plan.
 
 
     
@@ -278,15 +278,15 @@ In addition to being a global account administrator, you must also be a member o
     </tr>
     <tr>
     <td valign="top">
-
-    **Delete a service plan and its quota from the subaccount**
+    
+        **Delete a service plan and its quota from the subaccount**
 
 
     
     </td>
     <td valign="top">
-
-    Choose :wastebasket: from the *Actions* column.
+    
+        Choose :wastebasket: from the *Actions* column.
 
 
     

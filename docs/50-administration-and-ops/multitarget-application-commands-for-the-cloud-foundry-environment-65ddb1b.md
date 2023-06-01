@@ -251,15 +251,8 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     You have the option to deploy or synchronize an MTA, the source of which is contained in a local directory:
 
     ```
-    cf deploy [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-         {"varname"}) <MTA_ARCHIVE> (varname]|[/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-         {"varname"}) <DIRECTORY_PATH> (varname] [-e [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-         {"varname"}) <EXT_DESCRIPTOR_1> (varname][,[/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-         {"varname"}) <EXT_DESCRIPTOR_2> (varname]]] 
-    [-u [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-         {"varname"}) <URL> (varname]] [-t [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-         {"varname"}) <TIMEOUT> (varname]] [-v [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-         {"varname"}) <VERSION_RULE> (varname]]
+    cf deploy <MTA_ARCHIVE>|<DIRECTORY_PATH> [-e <EXT_DESCRIPTOR_1>[,<EXT_DESCRIPTOR_2>]] 
+    [-u <URL>] [-t <TIMEOUT>] [-v <VERSION_RULE>]
     [--no-start] [--namespace]
     [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
     [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]
@@ -274,14 +267,8 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     > This option is currently experimental.
 
     ```
-    [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-         {"varname"}) <write MTA archive URL to STDOUT> (varname] | cf deploy [-e [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-         {"varname"}) <EXT_DESCRIPTOR_1> (varname][,[/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-         {"varname"}) <EXT_DESCRIPTOR_2> (varname]]] 
-    [-u [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-         {"varname"}) <MTA controller URL> (varname]] [-t [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-         {"varname"}) <TIMEOUT> (varname]] [-v [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-         {"varname"}) <VERSION_RULE> (varname]]
+    <write MTA archive URL to STDOUT> | cf deploy [-e <EXT_DESCRIPTOR_1>[,<EXT_DESCRIPTOR_2>]] 
+    [-u <MTA controller URL>] [-t <TIMEOUT>] [-v <VERSION_RULE>]
     [--no-start] [--namespace]
     [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
     [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]
@@ -300,13 +287,8 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     You have the option to deploy the content of the directory you are currently in. The MultiApps CLI plugin packages the content in accordance with the deployment descriptor definition, so that the Cloud Deployment service can then upload and deploy the MTA.
 
     ```
-    cf deploy [-e [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-         {"varname"}) <EXT_DESCRIPTOR_1> (varname][,[/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-         {"varname"}) <EXT_DESCRIPTOR_2> (varname]]] 
-    [-u [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-         {"varname"}) <URL> (varname]] [-t [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-         {"varname"}) <TIMEOUT> (varname]] [-v [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-         {"varname"}) <VERSION_RULE> (varname]]
+    cf deploy [-e <EXT_DESCRIPTOR_1>[,<EXT_DESCRIPTOR_2>]] 
+    [-u <URL>] [-t <TIMEOUT>] [-v <VERSION_RULE>]
     [--no-start] [--namespace]
     [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
     [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]
@@ -317,9 +299,7 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
 In additon to deployment, you can also interact with an active MTA deploy operation, for example, by performing an action:
 
 ```
-cf deploy  [-i [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
-     {"varname"}) <OPERATION_ID> (varname]] [-a [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
-     {"varname"}) <ACTION> (varname]] 
+cf deploy  [-i <OPERATION_ID>] [-a <ACTION>] 
 ```
 
 
@@ -848,15 +828,9 @@ Deploy a new Multitarget Application \(MTA\) using “blue-green” \(zero-downt
 Deploy a new Multitarget Application using “blue-green” deployment:
 
 ```
-cf bg-deploy [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
-     {"varname"}) <MTA_ARCHIVE> (varname]  
-[-e [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
-     {"varname"}) <EXT_DESCRIPTOR_1> (varname][,[/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
-     {"varname"}) <EXT_DESCRIPTOR_2> (varname]]] 
-[-u [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
-     {"varname"}) <URL> (varname]] [-t [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
-     {"varname"}) <TIMEOUT> (varname]] [-v [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
-     {"varname"}) <VERSION_RULE> (varname]]
+cf bg-deploy <MTA_ARCHIVE>  
+[-e <EXT_DESCRIPTOR_1>[,<EXT_DESCRIPTOR_2>]] 
+[-u <URL>] [-t <TIMEOUT>] [-v <VERSION_RULE>]
 [--no-start] [--use-namespaces] [--no-namespaces-for-services]
 [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
 [--keep-files] [--no-restart-subscribed-apps] [--no-confirm] [--do-not-fail-on-missing-permissions][--skip-idle-start]
@@ -866,9 +840,7 @@ cf deploy ...[--retries <RETRIES>]
 Interact with an active MTA deploy operation, for example, by performing an action:
 
 ```
-cf bg-deploy  [-i [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
-     {"varname"}) <OPERATION_ID> (varname]] [-a [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
-     {"varname"}) <ACTION> (varname]] 
+cf bg-deploy  [-i <OPERATION_ID>] [-a <ACTION>] 
 ```
 
 
@@ -1367,10 +1339,8 @@ Undeploy a Multitarget Application \(MTA\), or interact with an undeploy MTA ope
 Undeploy an MTA.
 
 ```
-cf undeploy [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
-     {"varname"}) <MTA_ID> (varname]  
-[-u [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
-     {"varname"}) <URL> (varname]] [-f] 
+cf undeploy <MTA_ID>  
+[-u <URL>] [-f] 
 [--delete-services] [--delete-service-keys] [--delete-service-brokers] [--no-restart-subscribed-apps] 
 [--do-not-fail-on-missing-permissions]
 cf deploy ...[--retries <RETRIES>]
@@ -1379,9 +1349,7 @@ cf deploy ...[--retries <RETRIES>]
 Interact with an undeploy MTA operation, for example, by performing an action.
 
 ```
-cf undeploy [-i [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
-     {"varname"}) <UNDEPLOY_ID> (varname]] [-a [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
-     {"varname"}) <ACTION> (varname]]
+cf undeploy [-i <UNDEPLOY_ID>] [-a <ACTION>]
 ```
 
 
@@ -1642,8 +1610,7 @@ Display information about a Multitarget Application \(MTA\). The information dis
 
 ```
 cf mta MTA_ID  
-[-u [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
-     {"varname"}) <URL> (varname]]
+[-u <URL>]
 ```
 
 
@@ -1743,8 +1710,7 @@ Display information about all available Multitarget Applications \(MTA\).
 ### Usage
 
 ```
-cf mtas [-u [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
-     {"varname"}) <URL> (varname]]
+cf mtas [-u <URL>]
 ```
 
 
@@ -1910,10 +1876,7 @@ Download the log files for one or more operations concerning Multitarget Applica
 You have the following usage options:
 
 -   ```
-cf download-mta-op-logs -i [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-     {"varname"}) <OPERATION_ID> (varname] [-u [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-     {"varname"}) <URL> (varname]] [-d [/pandoc/div/div/horizontalrule/horizontalrule/bulletlist/li/codeblock/code/varname
-     {"varname"}) <DIRECTORY> (varname]]
+cf download-mta-op-logs -i <OPERATION_ID> [-u <URL>] [-d <DIRECTORY>]
 ```
 
 -   ```
@@ -2047,8 +2010,7 @@ Purge all configuration entries and subscriptions, which are no longer valid.
 
 ```
 cf purge-mta-config   
-[-u [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/code/varname
-     {"varname"}) <URL> (varname]]
+[-u <URL>]
 ```
 
 Invalid configuration entries are often produced when the application that is providing configuration entries is deleted by the user without using the deploy-service, for example, the `cf delete` command . In this case, the configuration remains in the deploy-service database even though the corresponding application is no longer available. This could lead to a failure during subsequent attempts to resolve the configuration entries.

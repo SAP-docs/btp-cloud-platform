@@ -46,8 +46,8 @@ The first thing that is needed in the setup of your trial account is the creatio
     </tr>
     <tr>
     <td valign="top">
-
-    Display Name
+    
+        Display Name
 
     > ### Note:  
     > The value for this parameter is a sample one, you can provide a name of your choice.
@@ -56,8 +56,8 @@ The first thing that is needed in the setup of your trial account is the creatio
     
     </td>
     <td valign="top">
-
-    ***trial***
+    
+        ***trial***
 
 
     
@@ -65,31 +65,15 @@ The first thing that is needed in the setup of your trial account is the creatio
     </tr>
     <tr>
     <td valign="top">
-
-    **Description**
+    
+        **Description**
 
 
     
     </td>
     <td valign="top">
-
-    Optional
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    **Provider**
-
-
-    
-    </td>
-    <td valign="top">
-
-    Desired infrastructure provider
+        Optional
 
 
     
@@ -97,15 +81,15 @@ The first thing that is needed in the setup of your trial account is the creatio
     </tr>
     <tr>
     <td valign="top">
-
-    **Region**
+    
+        **Provider**
 
 
     
     </td>
     <td valign="top">
-
-    Desired region
+    
+        Desired infrastructure provider
 
 
     
@@ -113,15 +97,31 @@ The first thing that is needed in the setup of your trial account is the creatio
     </tr>
     <tr>
     <td valign="top">
-
-    **Subdomain**
+    
+        **Region**
 
 
     
     </td>
     <td valign="top">
+    
+        Desired region
 
-    ***<your\_id\>trial***
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        **Subdomain**
+
+
+    
+    </td>
+    <td valign="top">
+    
+        ***<your\_id\>trial***
 
     Example: **P0123456789trial**
 
@@ -131,15 +131,15 @@ The first thing that is needed in the setup of your trial account is the creatio
     </tr>
     <tr>
     <td valign="top">
-
-    **Enable beta features**
+    
+        **Enable beta features**
 
 
     
     </td>
     <td valign="top">
-
-    Optional
+    
+        Optional
 
     Enables the use of beta services and applications.
 
@@ -149,15 +149,15 @@ The first thing that is needed in the setup of your trial account is the creatio
     </tr>
     <tr>
     <td valign="top">
-
-    **Custom Properties**
+    
+        **Custom Properties**
 
 
     
     </td>
     <td valign="top">
-
-    Optional
+    
+        Optional
 
     You can use custom properties to identify and organize the subaccounts in your global account. For example, you can filter subaccounts by custom property in some cockpit pages.
 

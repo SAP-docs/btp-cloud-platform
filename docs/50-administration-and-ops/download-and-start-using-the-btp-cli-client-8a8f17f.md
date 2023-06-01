@@ -45,31 +45,15 @@ Each released client version is supported for at least a year. If a client is de
     </tr>
     <tr>
     <td valign="top">
-
-    Microsoft Windows
+    
+        Microsoft Windows
 
 
     
     </td>
     <td valign="top">
-
-     [amd64](https://tools.hana.ondemand.com/additional/btp-cli-windows-amd64-latest.tar.gz) 
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    Apple macOS
-
-
-    
-    </td>
-    <td valign="top">
-
-     [amd64](https://tools.hana.ondemand.com/additional/btp-cli-darwin-amd64-latest.tar.gz) | [arm64](https://tools.hana.ondemand.com/additional/btp-cli-darwin-arm64-latest.tar.gz) 
+         [amd64](https://tools.hana.ondemand.com/additional/btp-cli-windows-amd64-latest.tar.gz) 
 
 
     
@@ -77,15 +61,31 @@ Each released client version is supported for at least a year. If a client is de
     </tr>
     <tr>
     <td valign="top">
-
-    Linux
+    
+        Apple macOS
 
 
     
     </td>
     <td valign="top">
+    
+         [amd64](https://tools.hana.ondemand.com/additional/btp-cli-darwin-amd64-latest.tar.gz) | [arm64](https://tools.hana.ondemand.com/additional/btp-cli-darwin-arm64-latest.tar.gz) 
 
-     [amd64](https://tools.hana.ondemand.com/additional/btp-cli-linux-amd64-latest.tar.gz) | [arm64](https://tools.hana.ondemand.com/additional/btp-cli-linux-arm64-latest.tar.gz) 
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        Linux
+
+
+    
+    </td>
+    <td valign="top">
+    
+         [amd64](https://tools.hana.ondemand.com/additional/btp-cli-linux-amd64-latest.tar.gz) | [arm64](https://tools.hana.ondemand.com/additional/btp-cli-linux-arm64-latest.tar.gz) 
 
 
     

@@ -52,31 +52,15 @@ With this approach, cancellations on workflow instances directly from the workfl
     </tr>
     <tr>
     <td valign="top">
-
-    Destination
+    
+        Destination
 
 
     
     </td>
     <td valign="top">
-
-    Enter the name of the destination you’ve created in Cloud Foundry.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    Choose a Service from
-
-
-    
-    </td>
-    <td valign="top">
-
-     *Others* 
+        Enter the name of the destination you’ve created in Cloud Foundry.
 
 
     
@@ -84,31 +68,15 @@ With this approach, cancellations on workflow instances directly from the workfl
     </tr>
     <tr>
     <td valign="top">
-
-    Path
+    
+        Choose a Service from
 
 
     
     </td>
     <td valign="top">
-
-     `/sap/opu/odata/sap/SWF_CPWF_NOTIFICATION_SRV/ProcessCompleted?workflowInstanceId='${info.workflowInstanceId}'` 
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    HTTP Method
-
-
-    
-    </td>
-    <td valign="top">
-
-     *POST* 
+         *Others* 
 
 
     
@@ -116,15 +84,47 @@ With this approach, cancellations on workflow instances directly from the workfl
     </tr>
     <tr>
     <td valign="top">
-
-    Path to XSRF Token
+    
+        Path
 
 
     
     </td>
     <td valign="top">
+    
+         `/sap/opu/odata/sap/SWF_CPWF_NOTIFICATION_SRV/ProcessCompleted?workflowInstanceId='${info.workflowInstanceId}'` 
 
-     `/sap/opu/odata/sap/SWF_CPWF_NOTIFICATION_SRV/` 
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        HTTP Method
+
+
+    
+    </td>
+    <td valign="top">
+    
+         *POST* 
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        Path to XSRF Token
+
+
+    
+    </td>
+    <td valign="top">
+    
+         `/sap/opu/odata/sap/SWF_CPWF_NOTIFICATION_SRV/` 
 
 
     

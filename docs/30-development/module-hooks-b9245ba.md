@@ -72,45 +72,22 @@ Depending on the deployment strategy you use, the `phases` values are:
     </tr>
     <tr>
     <td valign="top">
-
-    `deploy.application.before-stop`
+    
+        `deploy.application.before-stop`
 
 
     
     </td>
     <td valign="top">
-
-    `task`
+    
+        `task`
 
 
     
     </td>
     <td valign="top">
-
-    Executed before the application corresponding to the module is stopped.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    `deploy.application.after-stop`
-
-
-    
-    </td>
-    <td valign="top">
-
-    `task`
-
-
-    
-    </td>
-    <td valign="top">
-
-    Executed after the application corresponding to the module is stopped.
+        Executed before the application corresponding to the module is stopped.
 
 
     
@@ -118,22 +95,45 @@ Depending on the deployment strategy you use, the `phases` values are:
     </tr>
     <tr>
     <td valign="top">
-
-    `deploy.application.before-start`
+    
+        `deploy.application.after-stop`
 
 
     
     </td>
     <td valign="top">
-
-    `task`
+    
+        `task`
 
 
     
     </td>
     <td valign="top">
+    
+        Executed after the application corresponding to the module is stopped.
 
-    Executed before the application corresponding to the module is started.
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        `deploy.application.before-start`
+
+
+    
+    </td>
+    <td valign="top">
+    
+        `task`
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Executed before the application corresponding to the module is started.
 
 
     
@@ -170,45 +170,22 @@ Depending on the deployment strategy you use, the `phases` values are:
     </tr>
     <tr>
     <td valign="top">
-
-    `blue-green.application.before-stop.idle` 
+    
+        `blue-green.application.before-stop.idle` 
 
 
     
     </td>
     <td valign="top">
-
-    `task`
+    
+        `task`
 
 
     
     </td>
     <td valign="top">
-
-    Executed before the idle application corresponding to the module is stopped. Idle applications are created as part of blue-green deployments and are restarted \(stopped and started again\) after the deployment validation phase of their productization. That is after the live routes are mapped to them and their environments are rebuilt to contain only live routes.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    `blue-green.application.before-stop.live`
-
-
-    
-    </td>
-    <td valign="top">
-
-    `task`
-
-
-    
-    </td>
-    <td valign="top">
-
-    Executed before the live application corresponding to the module is stopped. Live applications are the ones that are already up and running before the deployment starts.
+        Executed before the idle application corresponding to the module is stopped. Idle applications are created as part of blue-green deployments and are restarted \(stopped and started again\) after the deployment validation phase of their productization. That is after the live routes are mapped to them and their environments are rebuilt to contain only live routes.
 
 
     
@@ -216,45 +193,22 @@ Depending on the deployment strategy you use, the `phases` values are:
     </tr>
     <tr>
     <td valign="top">
-
-    `blue-green.application.after-stop.idle`
+    
+        `blue-green.application.before-stop.live`
 
 
     
     </td>
     <td valign="top">
-
-    `task`
+    
+        `task`
 
 
     
     </td>
     <td valign="top">
-
-    Executed after the idle application corresponding to the module is stopped.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    `blue-green.application.after-stop.live`
-
-
-    
-    </td>
-    <td valign="top">
-
-    `task`
-
-
-    
-    </td>
-    <td valign="top">
-
-    Executed after the live application corresponding to the module is stopped.
+        Executed before the live application corresponding to the module is stopped. Live applications are the ones that are already up and running before the deployment starts.
 
 
     
@@ -262,45 +216,22 @@ Depending on the deployment strategy you use, the `phases` values are:
     </tr>
     <tr>
     <td valign="top">
-
-    `blue-green.application.before-unmap-routes.live`
+    
+        `blue-green.application.after-stop.idle`
 
 
     
     </td>
     <td valign="top">
-
-    `task`
+    
+        `task`
 
 
     
     </td>
     <td valign="top">
-
-    Executed before unmapping the route of the live application that corresponds to the module.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    `blue-green.application.before-start.idle`
-
-
-    
-    </td>
-    <td valign="top">
-
-    `task`
-
-
-    
-    </td>
-    <td valign="top">
-
-    Executed before the idle application corresponding to the module is started.
+        Executed after the idle application corresponding to the module is stopped.
 
 
     
@@ -308,22 +239,91 @@ Depending on the deployment strategy you use, the `phases` values are:
     </tr>
     <tr>
     <td valign="top">
-
-    `blue-green.application.before-start.live`
+    
+        `blue-green.application.after-stop.live`
 
 
     
     </td>
     <td valign="top">
-
-    `task`
+    
+        `task`
 
 
     
     </td>
     <td valign="top">
+    
+        Executed after the live application corresponding to the module is stopped.
 
-    Executed before the live application corresponding to the module is started.
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        `blue-green.application.before-unmap-routes.live`
+
+
+    
+    </td>
+    <td valign="top">
+    
+        `task`
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Executed before unmapping the route of the live application that corresponds to the module.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        `blue-green.application.before-start.idle`
+
+
+    
+    </td>
+    <td valign="top">
+    
+        `task`
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Executed before the idle application corresponding to the module is started.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        `blue-green.application.before-start.live`
+
+
+    
+    </td>
+    <td valign="top">
+    
+        `task`
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Executed before the live application corresponding to the module is started.
 
 
     

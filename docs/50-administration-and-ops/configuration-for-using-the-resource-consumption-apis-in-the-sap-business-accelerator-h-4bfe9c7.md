@@ -40,15 +40,15 @@ The **Resource Consumption** APIs of the SAP Usage Data Management service for S
         </tr>
         <tr>
         <td valign="top">
-
-        `monthlyUsage`, `/monthlySubaccountsCost`, and `subaccountUsage`
+        
+                `monthlyUsage`, `/monthlySubaccountsCost`, and `subaccountUsage`
 
 
         
         </td>
         <td valign="top">
-
-        Global Account Administrator and Global Account Viewer
+        
+                Global Account Administrator and Global Account Viewer
 
 
         

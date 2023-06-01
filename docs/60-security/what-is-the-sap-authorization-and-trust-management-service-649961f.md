@@ -25,13 +25,34 @@ This service runs in multi-environment and Neo subaccounts.
 
 ## Features
 
-  Use your corporate or a default IdP 
- :   Enable user management for your applications by handling authentication to an external identity provider. Start with SAP ID service as a pre-configured easy-to-use identity provider. Switch to your corporate identity provider for customized user management.
 
-   Enable role-based access to applications 
- :   Enable different privileges to users accessing your applications based on roles.
+<dl>
+<dt><b>
 
- 
+ Use your corporate or a default IdP 
+
+</b></dt>
+<dd>
+
+Enable user management for your applications by handling authentication to an external identity provider. Start with SAP ID service as a pre-configured easy-to-use identity provider. Switch to your corporate identity provider for customized user management.
+
+
+
+</dd><dt><b>
+
+ Enable role-based access to applications 
+
+</b></dt>
+<dd>
+
+Enable different privileges to users accessing your applications based on roles.
+
+
+
+</dd>
+</dl>
+
+
 
 
 

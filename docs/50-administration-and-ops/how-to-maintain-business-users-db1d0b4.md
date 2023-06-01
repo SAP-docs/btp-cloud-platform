@@ -232,31 +232,15 @@ Business users are replicated from your central HR system. You can change user d
     </tr>
     <tr>
     <td valign="top">
-
-    *Valid From*
+    
+        *Valid From*
 
 
     
     </td>
     <td valign="top">
-
-    01/01/1901
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    *Valid To*
-
-
-    
-    </td>
-    <td valign="top">
-
-    12/31/9999
+        01/01/1901
 
 
     
@@ -264,15 +248,31 @@ Business users are replicated from your central HR system. You can change user d
     </tr>
     <tr>
     <td valign="top">
+    
+        *Valid To*
 
-    *Decimal Format*
+
+    
+    </td>
+    <td valign="top">
+    
+        12/31/9999
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        *Decimal Format*
 
 
     
     </td>
     <td valign="top" rowspan="5">
-
-    This default value is derived from the standard setting that is valid in the country of the workplace address. If the workplace address is not maintained, the value is derived from the business user’s private address.
+    
+        This default value is derived from the standard setting that is valid in the country of the workplace address. If the workplace address is not maintained, the value is derived from the business user’s private address.
 
 
     
@@ -280,8 +280,8 @@ Business users are replicated from your central HR system. You can change user d
     </tr>
     <tr>
     <td valign="top">
-
-    *Date Format*
+    
+        *Date Format*
 
 
     
@@ -289,8 +289,8 @@ Business users are replicated from your central HR system. You can change user d
     </tr>
     <tr>
     <td valign="top">
-
-    *Time Format*
+    
+        *Time Format*
 
 
     
@@ -298,8 +298,8 @@ Business users are replicated from your central HR system. You can change user d
     </tr>
     <tr>
     <td valign="top">
-
-    *Time Zone*
+    
+        *Time Zone*
 
 
     
@@ -307,8 +307,8 @@ Business users are replicated from your central HR system. You can change user d
     </tr>
     <tr>
     <td valign="top">
-
-    *Language*
+    
+        *Language*
 
 
     

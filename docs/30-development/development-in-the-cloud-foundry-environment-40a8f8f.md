@@ -12,19 +12,56 @@ Learn more about developing applications on the SAP BTP, Cloud Foundry environme
 
 SAP BTP, Cloud Foundry environment is an open Platform-as-a-Service \(PaaS\) targeted at microservice development and orchestration.
 
-  Develop polyglot applications 
- :   Build on open standards with SAP Java, Node.js, and Python buildpacks or bring your own language with community buildpacks for PHP, Ruby, Go.
 
-   Manage the lifecycle of applications 
- :   Start, stop, scale, and configure distributed cloud applications using standard Cloud Foundry tools, our web-based administration user interface for SAP BTP, and dev-ops capabilities.
+<dl>
+<dt><b>
 
-   Optimize development and operations 
- :   Use the rich set of SAP BTP services including messaging, persistence, and many other capabilities.
+ Develop polyglot applications 
 
-   Use the application programming model 
- :   Use programming languages, libraries, and APIs tailored for full-stack application development.
+</b></dt>
+<dd>
 
- 
+Build on open standards with SAP Java, Node.js, and Python buildpacks or bring your own language with community buildpacks for PHP, Ruby, Go.
+
+
+
+</dd><dt><b>
+
+ Manage the lifecycle of applications 
+
+</b></dt>
+<dd>
+
+Start, stop, scale, and configure distributed cloud applications using standard Cloud Foundry tools, our web-based administration user interface for SAP BTP, and dev-ops capabilities.
+
+
+
+</dd><dt><b>
+
+ Optimize development and operations 
+
+</b></dt>
+<dd>
+
+Use the rich set of SAP BTP services including messaging, persistence, and many other capabilities.
+
+
+
+</dd><dt><b>
+
+ Use the application programming model 
+
+</b></dt>
+<dd>
+
+Use programming languages, libraries, and APIs tailored for full-stack application development.
+
+
+
+</dd>
+</dl>
+
+
 
 The following graphic is designed to help you find the information you need for your programming purposes. The bottom row represents the tools, frameworks, services, and deployment options recommended by SAP. If you want full flexibility you can also bring your own development tools and languages, as shown in the top row.
 

@@ -72,15 +72,15 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     </tr>
     <tr>
     <td valign="top">
-
-    accept
+    
+        accept
 
 
     
     </td>
     <td valign="top">
-
-    application/vnd.sap.atc.run.v1+xml
+    
+        application/vnd.sap.atc.run.v1+xml
 
 
     
@@ -88,15 +88,15 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     </tr>
     <tr>
     <td valign="top">
-
-    x-csrf-token
+    
+        x-csrf-token
 
 
     
     </td>
     <td valign="top">
-
-    fetch
+    
+        fetch
 
 
     
@@ -139,15 +139,15 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     </tr>
     <tr>
     <td valign="top">
-
-    x-csrf-token
+    
+        x-csrf-token
 
 
     
     </td>
     <td valign="top">
-
-    <token\>
+    
+        <token\>
 
 
     
@@ -155,15 +155,15 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     </tr>
     <tr>
     <td valign="top">
-
-    location
+    
+        location
 
 
     
     </td>
     <td valign="top">
-
-    /sap/bc/adt/atc/runs/00000000000000000000000000000000
+    
+        /sap/bc/adt/atc/runs/00000000000000000000000000000000
 
 
     
@@ -199,15 +199,15 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     </tr>
     <tr>
     <td valign="top">
-
-    x-csrf-token
+    
+        x-csrf-token
 
 
     
     </td>
     <td valign="top">
-
-    <token\>
+    
+        <token\>
 
 
     
@@ -215,15 +215,15 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     </tr>
     <tr>
     <td valign="top">
-
-    content type
+    
+        content type
 
 
     
     </td>
     <td valign="top">
-
-    application/vnd.sap.atc.run.parameters.v1+xml
+    
+        application/vnd.sap.atc.run.parameters.v1+xml
 
 
     
@@ -286,15 +286,15 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     </tr>
     <tr>
     <td valign="top">
-
-    location
+    
+        location
 
 
     
     </td>
     <td valign="top">
-
-    /sap/bc/adt/api/atc/runs/<UUID\>
+    
+        /sap/bc/adt/api/atc/runs/<UUID\>
 
 
     
@@ -330,15 +330,15 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     </tr>
     <tr>
     <td valign="top">
-
-    accept
+    
+        accept
 
 
     
     </td>
     <td valign="top">
-
-    application/vnd.sap.atc.run.v1+xml
+    
+        application/vnd.sap.atc.run.v1+xml
 
 
     
@@ -395,15 +395,15 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     </tr>
     <tr>
     <td valign="top">
-
-    Accept
+    
+        Accept
 
 
     
     </td>
     <td valign="top">
-
-    application/vnd.sap.atc.checkstyle.v1+xml
+    
+        application/vnd.sap.atc.checkstyle.v1+xml
 
 
     

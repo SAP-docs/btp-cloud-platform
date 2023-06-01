@@ -55,15 +55,15 @@
     </tr>
     <tr>
     <td valign="top">
-
-    *Assertion Consumer Service*
+    
+        *Assertion Consumer Service*
 
 
     
     </td>
     <td valign="top">
-
-    This is the absolute URL that corresponds to the URL of the application router. See [Application Router](../30-development/application-router-01c5f9b.md).
+    
+        This is the absolute URL that corresponds to the URL of the application router. See [Application Router](../30-development/application-router-01c5f9b.md).
 
 
     
@@ -71,15 +71,15 @@
     </tr>
     <tr>
     <td valign="top">
-
-    *Logout URL*
+    
+        *Logout URL*
 
 
     
     </td>
     <td valign="top">
-
-    This is the absolute URL that corresponds to the URL of the application router with the appended value of the `logoutEndpoint` property. See [logout](../30-development/logout-2296b4d.md).
+    
+        This is the absolute URL that corresponds to the URL of the application router with the appended value of the `logoutEndpoint` property. See [logout](../30-development/logout-2296b4d.md).
 
     > ### Note:  
     > Make sure that the value of the `logoutMethod` property is set to ***GET*** in the *xs-app.json* file.
@@ -93,15 +93,15 @@
     </tr>
     <tr>
     <td valign="top">
-
-    *Application Name*
+    
+        *Application Name*
 
 
     
     </td>
     <td valign="top">
-
-    Select *SAP Business Technology Platform* from the drop-down list.
+    
+        Select *SAP Business Technology Platform* from the drop-down list.
 
 
     
@@ -109,15 +109,15 @@
     </tr>
     <tr>
     <td valign="top">
-
-    *SHA-256 Certificate*
+    
+        *SHA-256 Certificate*
 
 
     
     </td>
     <td valign="top">
-
-    Select the checkbox if it is not automatically selected when specifying the *Application Name* value.
+    
+        Select the checkbox if it is not automatically selected when specifying the *Application Name* value.
 
 
     

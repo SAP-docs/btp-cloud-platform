@@ -252,31 +252,15 @@ To import users for an application into Identity Authentication, and to send act
     </tr>
     <tr>
     <td valign="top">
-
-    **Do nothing**
+    
+        **Do nothing**
 
 
     
     </td>
     <td valign="top">
-
-    The users are imported or updated for the selected application, but they will not receive activation e-mails. The activation e-mails will be sent when you choose *Send E-Mails* \> *Send*.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    **Repeat steps 2 to 5**
-
-
-    
-    </td>
-    <td valign="top">
-
-    The users are imported or updated for the selected application, but they will not receive activation e-mails. The activation e-mails will be sent when you choose *Send E-Mails* \> *Send*.
+        The users are imported or updated for the selected application, but they will not receive activation e-mails. The activation e-mails will be sent when you choose *Send E-Mails* \> *Send*.
 
 
     
@@ -284,15 +268,31 @@ To import users for an application into Identity Authentication, and to send act
     </tr>
     <tr>
     <td valign="top">
-
-    Choose *Send E-Mails* \> *Send*
+    
+        **Repeat steps 2 to 5**
 
 
     
     </td>
     <td valign="top">
+    
+        The users are imported or updated for the selected application, but they will not receive activation e-mails. The activation e-mails will be sent when you choose *Send E-Mails* \> *Send*.
 
-    This will send activation e-mails to all users that are imported for the selected application, but have not received activation e-mails so far.
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        Choose *Send E-Mails* \> *Send*
+
+
+    
+    </td>
+    <td valign="top">
+    
+        This will send activation e-mails to all users that are imported for the selected application, but have not received activation e-mails so far.
 
     > ### Note:  
     > The *Send* button is inactive if *Home URL* or SAML 2.0 configuration of the application is missing. You can only import users, but you cannot send activation emails.

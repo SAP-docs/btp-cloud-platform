@@ -151,15 +151,15 @@ When developing tenant-aware applications in the Cloud Foundry environment, keep
     </tr>
     <tr>
     <td valign="top">
-
-    `XSUAA_INSTANCE_NAME`
+    
+        `XSUAA_INSTANCE_NAME`
 
 
     
     </td>
     <td valign="top">
-
-    The new name for the `xsuaa` service instance. Use only alphanumeric characters, hyphens, and underscores.
+    
+        The new name for the `xsuaa` service instance. Use only alphanumeric characters, hyphens, and underscores.
 
 
     
@@ -167,15 +167,15 @@ When developing tenant-aware applications in the Cloud Foundry environment, keep
     </tr>
     <tr>
     <td valign="top">
-
-    `<XS_SECURITY_JSON>`
+    
+        `<XS_SECURITY_JSON>`
 
 
     
     </td>
     <td valign="top">
-
-    Name of the security descriptor file from the previous step.
+    
+        Name of the security descriptor file from the previous step.
 
 
     

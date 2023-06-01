@@ -51,15 +51,15 @@ You can configure event consumers delivered by SAP manually.
     </tr>
     <tr>
     <td valign="top">
-
-    **Create a new topic.**
+    
+        **Create a new topic.**
 
 
     
     </td>
     <td valign="top">
-
-    1.  Choose *Create*.
+    
+        1.  Choose *Create*.
     2.  Enter a topic name.
     3.  Choose *Create* to save your entries.
 
@@ -71,15 +71,15 @@ You can configure event consumers delivered by SAP manually.
     </tr>
     <tr>
     <td valign="top">
-
-    **Delete an existing topic created by an end user.**
+    
+        **Delete an existing topic created by an end user.**
 
 
     
     </td>
     <td valign="top">
-
-    1.  Select the checkbox of the topic you want to delete.
+    
+        1.  Select the checkbox of the topic you want to delete.
     2.  Choose *Delete*.
 
 
@@ -88,15 +88,15 @@ You can configure event consumers delivered by SAP manually.
     </tr>
     <tr>
     <td valign="top">
-
-    **Define table parameters.**
+    
+        **Define table parameters.**
 
 
     
     </td>
     <td valign="top">
-
-    Press the gear icon to define the table parameters.
+    
+        Press the gear icon to define the table parameters.
 
 
     

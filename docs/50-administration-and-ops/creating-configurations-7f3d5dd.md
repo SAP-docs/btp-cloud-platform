@@ -47,15 +47,15 @@ The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\
         <table>
         <tr>
         <td valign="top">
-
-        *Attributes*
+        
+                *Attributes*
 
 
         
         </td>
         <td valign="top">
-
-        -   *Application/Software Component* that is assigned to a consumer or producer
+        
+                -   *Application/Software Component* that is assigned to a consumer or producer
         -   Description for the *Application/Software Component*
 
 
@@ -64,15 +64,15 @@ The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\
         </tr>
         <tr>
         <td valign="top">
-
-        *Administrative Information*
+        
+                *Administrative Information*
 
 
         
         </td>
         <td valign="top">
-
-        -   *Technical Data*
+        
+                -   *Technical Data*
         -   *Created*
         -   *Changed*
 
@@ -82,15 +82,15 @@ The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\
         </tr>
         <tr>
         <td valign="top">
-
-        *Log Groups*
+        
+                *Log Groups*
 
 
         
         </td>
         <td valign="top">
-
-        Log groups are groups of fields that are displayed in one log entry in the read access log.
+        
+                Log groups are groups of fields that are displayed in one log entry in the read access log.
 
         To add a log group, do the following:
 
@@ -113,15 +113,15 @@ The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\
         </tr>
         <tr>
         <td valign="top">
-
-        *Conditions*
+        
+                *Conditions*
 
 
         
         </td>
         <td valign="top">
-
-        To add a condition, do the following:
+        
+                To add a condition, do the following:
 
         -   Press the button with the tooltip *Create Condition*.
         -   In the *Create Condition* dialog box, do the following:
@@ -136,15 +136,15 @@ The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\
         </tr>
         <tr>
         <td valign="top">
-
-        *Field list*
+        
+                *Field list*
 
 
         
         </td>
         <td valign="top">
-
-         
+        
+                 
 
 
         

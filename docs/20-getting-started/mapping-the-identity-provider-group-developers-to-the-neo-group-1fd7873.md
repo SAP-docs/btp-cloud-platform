@@ -53,31 +53,15 @@ The mapping is part of the trust configuration to the SAML identity provider. Fo
     </tr>
     <tr>
     <td valign="top">
-
-    *Group*
+    
+        *Group*
 
 
     
     </td>
     <td valign="top">
-
-    Select *Developers.*
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-     *Mapping Rules* \(part 1\)
-
-
-    
-    </td>
-    <td valign="top">
-
-    Enter *Groups*.
+        Select *Developers.*
 
 
     
@@ -85,15 +69,31 @@ The mapping is part of the trust configuration to the SAML identity provider. Fo
     </tr>
     <tr>
     <td valign="top">
-
-     *Mapping Rules* \(part 2\)
+    
+         *Mapping Rules* \(part 1\)
 
 
     
     </td>
     <td valign="top">
+    
+        Enter *Groups*.
 
-    Select
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+         *Mapping Rules* \(part 2\)
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Select
 
     *equals*.
 
@@ -103,15 +103,15 @@ The mapping is part of the trust configuration to the SAML identity provider. Fo
     </tr>
     <tr>
     <td valign="top">
-
-     *Mapping Rules* \(part 3\)
+    
+         *Mapping Rules* \(part 3\)
 
 
     
     </td>
     <td valign="top">
-
-    Enter the developer group name from the Identity Authentication service that was created by the administrator for the Identity Authentication service, for example, *Developers*.
+    
+        Enter the developer group name from the Identity Authentication service that was created by the administrator for the Identity Authentication service, for example, *Developers*.
 
     If you are not the responsible administrator for the Identity Authentication service, make sure that you are informed about the group name \(see also [Creating an Identity Provider Group for Developers](creating-an-identity-provider-group-for-developers-2f72082.md)\).
 

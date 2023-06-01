@@ -106,45 +106,22 @@ The **memory\_calculator** section encloses the input data for the memory calcul
     </tr>
     <tr>
     <td valign="top">
-
-    120M
+    
+        120M
 
 
     
     </td>
     <td valign="top">
-
-    120M
+    
+        120M
 
 
     
     </td>
     <td valign="top">
-
-    120M
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    120M..
-
-
-    
-    </td>
-    <td valign="top">
-
-    \[120M\)
-
-
-    
-    </td>
-    <td valign="top">
-
-    \>=120M
+        120M
 
 
     
@@ -152,22 +129,45 @@ The **memory\_calculator** section encloses the input data for the memory calcul
     </tr>
     <tr>
     <td valign="top">
-
-    120M..150M
+    
+        120M..
 
 
     
     </td>
     <td valign="top">
-
-    \[120M, 150M\]
+    
+        \[120M\)
 
 
     
     </td>
     <td valign="top">
+    
+        \>=120M
 
-    \>=120M & <=150M
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        120M..150M
+
+
+    
+    </td>
+    <td valign="top">
+    
+        \[120M, 150M\]
+
+
+    
+    </td>
+    <td valign="top">
+    
+        \>=120M & <=150M
 
 
     

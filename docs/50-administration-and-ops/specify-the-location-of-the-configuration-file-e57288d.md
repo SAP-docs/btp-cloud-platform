@@ -28,16 +28,14 @@ If you want the configuration file to be created in a different folder, you can 
 1.  Specify the location of the configuration file with your login command:
 
     ```
-    btp --config "[/pandoc/div/div/horizontalrule/orderedlist/li/codeblock/code/varname
-         {"varname"}) <file path> (varname]" login
+    btp --config "<file path>" login
     ```
 
 2.  Specify this location either with the `BTP_CLIENTCONFIG` environment variable, or use the `--config` option with each subsequent command call.
 
     > ### Sample Code:  
     > ```
-    > btp --config "[/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/code/varname
-    >      {"varname"}) <file path> (varname]"
+    > btp --config "<file path>"
     > ```
 
     > ### Note:  

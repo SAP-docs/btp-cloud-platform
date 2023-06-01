@@ -58,31 +58,15 @@ For more information about identity federation, see [Configure Identity Federati
     </tr>
     <tr>
     <td valign="top">
-
-    `email`
+    
+        `email`
 
 
     
     </td>
     <td valign="top">
-
-    `${corporateIdP.email}`
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    `email_verified`
-
-
-    
-    </td>
-    <td valign="top">
-
-    `${corporateIdP.email_verified}`
+        `${corporateIdP.email}`
 
 
     
@@ -90,31 +74,15 @@ For more information about identity federation, see [Configure Identity Federati
     </tr>
     <tr>
     <td valign="top">
-
-    `family_name`
+    
+        `email_verified`
 
 
     
     </td>
     <td valign="top">
-
-    `${corporateIdP.family_name}`
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    `given_name`
-
-
-    
-    </td>
-    <td valign="top">
-
-    `${corporateIdP.given_name}`
+        `${corporateIdP.email_verified}`
 
 
     
@@ -122,15 +90,15 @@ For more information about identity federation, see [Configure Identity Federati
     </tr>
     <tr>
     <td valign="top">
-
-    `groups`
+    
+        `family_name`
 
 
     
     </td>
     <td valign="top">
-
-    `${corporateIdP.groups}`
+    
+        `${corporateIdP.family_name}`
 
 
     
@@ -138,15 +106,47 @@ For more information about identity federation, see [Configure Identity Federati
     </tr>
     <tr>
     <td valign="top">
-
-    `user_uuid`
+    
+        `given_name`
 
 
     
     </td>
     <td valign="top">
+    
+        `${corporateIdP.given_name}`
 
-    `${corporateIdP.user_uuid}`
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        `groups`
+
+
+    
+    </td>
+    <td valign="top">
+    
+        `${corporateIdP.groups}`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        `user_uuid`
+
+
+    
+    </td>
+    <td valign="top">
+    
+        `${corporateIdP.user_uuid}`
 
 
     

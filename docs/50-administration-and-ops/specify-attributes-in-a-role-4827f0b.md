@@ -59,15 +59,15 @@ You have maintained the attributes of the users in your identity provider if you
     </tr>
     <tr>
     <td valign="top">
-
-     *Static* 
+    
+         *Static* 
 
 
     
     </td>
     <td valign="top">
-
-    Enter a static value, for example ***USA*** to refine the role depending on the country.
+    
+        Enter a static value, for example ***USA*** to refine the role depending on the country.
 
 
     
@@ -75,15 +75,15 @@ You have maintained the attributes of the users in your identity provider if you
     </tr>
     <tr>
     <td valign="top">
-
-     *Identity Provider \(SAML\)* 
+    
+         *Identity Provider \(SAML\)* 
 
 
     
     </td>
     <td valign="top">
-
-    Enter an assertion attribute as defined in your identity provider. Check in your identity provider for the exact syntax of the assertion attribute identifier.
+    
+        Enter an assertion attribute as defined in your identity provider. Check in your identity provider for the exact syntax of the assertion attribute identifier.
 
     In the case of an SAP Cloud Identity Services - Identity Authentication, you find the attribute identifier in the settings of the SAML assertion attributes of your SAML identity provider under *Applications & Resources* \> *Applications*.
 
@@ -96,15 +96,15 @@ You have maintained the attributes of the users in your identity provider if you
     </tr>
     <tr>
     <td valign="top">
-
-     *Unrestricted* 
+    
+         *Unrestricted* 
 
 
     
     </td>
     <td valign="top">
-
-    In this case, you want to express that it is not necessary to set a specific value for this attribute. The behavior is the same as if the attribute would not exist for this role.
+    
+        In this case, you want to express that it is not necessary to set a specific value for this attribute. The behavior is the same as if the attribute would not exist for this role.
 
 
     

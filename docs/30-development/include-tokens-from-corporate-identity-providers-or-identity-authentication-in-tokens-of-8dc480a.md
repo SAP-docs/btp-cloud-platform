@@ -69,15 +69,15 @@ The following figure illustrates this scenario.
     </tr>
     <tr>
     <td valign="top">
-
-    `ias-corporate-idp-token`
+    
+        `ias-corporate-idp-token`
 
 
     
     </td>
     <td valign="top">
-
-    Embeds the token of the corporate identity provider trusted by your Identity Authentication tenant in the token issued by the service.
+    
+        Embeds the token of the corporate identity provider trusted by your Identity Authentication tenant in the token issued by the service.
 
 
     
@@ -85,15 +85,15 @@ The following figure illustrates this scenario.
     </tr>
     <tr>
     <td valign="top">
-
-    `ias-token`
+    
+        `ias-token`
 
 
     
     </td>
     <td valign="top">
-
-    Embeds the token of your trusted Identity Authentication tenant in the token issued by the service.
+    
+        Embeds the token of your trusted Identity Authentication tenant in the token issued by the service.
 
 
     

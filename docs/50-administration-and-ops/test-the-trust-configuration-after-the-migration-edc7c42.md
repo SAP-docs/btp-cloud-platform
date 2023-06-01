@@ -59,8 +59,8 @@ For more information, see [Prepare for Migration from SAML Trust to OpenID Conne
     </tr>
     <tr>
     <td valign="top">
-
-    ```
+    
+        ```
     userName P000011
     origin my-origin-key
     zoneId 9fcd13d0-77d7-4cfa-86b0-a41b02e662a6
@@ -98,8 +98,8 @@ For more information, see [Prepare for Migration from SAML Trust to OpenID Conne
     
     </td>
     <td valign="top">
-
-    ```
+    
+        ```
     userName P000011
     origin my-origin-key
     zoneId 9fcd13d0-77d7-4cfa-86b0-a41b02e662a6
@@ -179,5 +179,5 @@ Once everything is working as you expected and are certain you don't need it any
 **Related Information**  
 
 
-[Restore SAML Trust Configuration](restore-saml-trust-configuration-21d86cf.md "You replaced an SAML trust configuration to your custom identity provider with an OpenID Connect (OIDC) trust configuration to Identity Authentication, and the authentication of application users in the subaccount isn't working as you expected. Restore your SAML configuration to get your applications working again.")
+[Restore SAML Trust Configuration](restore-saml-trust-configuration-21d86cf.md "You replaced a SAML trust configuration to your custom identity provider with an OpenID Connect (OIDC) trust configuration to Identity Authentication, and the authentication of application users in the subaccount isn't working as you expected. Restore your SAML configuration to get your applications working again.")
 

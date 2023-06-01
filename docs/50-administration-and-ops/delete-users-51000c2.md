@@ -68,15 +68,15 @@ Keep in mind that you also delete the user's role collection assignments.
     </tr>
     <tr>
     <td valign="top">
-
-    Delete a single user
+    
+        Delete a single user
 
 
     
     </td>
     <td valign="top">
-
-    1.  Select the row of a user.
+    
+        1.  Select the row of a user.
 
     2.  Choose :wastebasket:.
 
@@ -87,15 +87,15 @@ Keep in mind that you also delete the user's role collection assignments.
     </tr>
     <tr>
     <td valign="top">
-
-    Delete multiple users
+    
+        Delete multiple users
 
 
     
     </td>
     <td valign="top">
-
-    1.  Choose <span class="SAP-icons"></span> Select multiple users and select users \(see the related link\).
+    
+        1.  Choose <span class="SAP-icons"></span> Select multiple users and select users \(see the related link\).
 
     2.  Choose *Delete*.
 

@@ -40,15 +40,15 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     </tr>
     <tr>
     <td valign="top">
-
-    **Business Role Data**
+    
+        **Business Role Data**
 
 
     
     </td>
     <td valign="top">
-
-    Role Group
+    
+        Role Group
 
     Expose to SAP BTP
 
@@ -60,15 +60,15 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     </tr>
     <tr>
     <td valign="top">
-
-    **Business User Assignment**
+    
+        **Business User Assignment**
 
 
     
     </td>
     <td valign="top">
-
-    Add Business Users
+    
+        Add Business Users
 
     Remove Business Users
 
@@ -78,15 +78,15 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     </tr>
     <tr>
     <td valign="top">
-
-    **Business Catalog Assignment**
+    
+        **Business Catalog Assignment**
 
 
     
     </td>
     <td valign="top">
-
-    Add Business Catalogs
+    
+        Add Business Catalogs
 
     Remove Business Catalogs
 
@@ -96,15 +96,15 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     </tr>
     <tr>
     <td valign="top">
-
-    **Launchpad Space Assignment**
+    
+        **Launchpad Space Assignment**
 
 
     
     </td>
     <td valign="top">
-
-    Add Launchpad Spaces
+    
+        Add Launchpad Spaces
 
     Remove Launchpad Spaces
 
@@ -114,15 +114,15 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     </tr>
     <tr>
     <td valign="top">
-
-    **Assign SAP-Delivered Spaces**
+    
+        **Assign SAP-Delivered Spaces**
 
 
     
     </td>
     <td valign="top">
-
-    Assign SAP-Delivered Spaces to your business roles
+    
+        Assign SAP-Delivered Spaces to your business roles
 
     You see the results and can filter for error or success statuses in the *Mass Change Overview*.
 
@@ -135,15 +135,15 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     </tr>
     <tr>
     <td valign="top">
-
-    **Access Categories**
+    
+        **Access Categories**
 
 
     
     </td>
     <td valign="top">
-
-    Change access categories as required.
+    
+        Change access categories as required.
 
 
     

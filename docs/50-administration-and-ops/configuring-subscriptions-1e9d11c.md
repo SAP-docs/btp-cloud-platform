@@ -54,15 +54,15 @@ Subscriptions, which are based on a queue, provide all incoming events. These in
     </tr>
     <tr>
     <td valign="top">
-
-    **Create a new subscription.**
+    
+        **Create a new subscription.**
 
 
     
     </td>
     <td valign="top">
-
-    1.  Choose *Create*.
+    
+        1.  Choose *Create*.
     2.  Enter a valid subscription address that corresponds to the name of the queue created in the SAP Event Mesh.
     3.  Choose *Create* to save your entries.
 
@@ -77,15 +77,15 @@ Subscriptions, which are based on a queue, provide all incoming events. These in
     </tr>
     <tr>
     <td valign="top">
-
-    **Delete an existing subscription.**
+    
+        **Delete an existing subscription.**
 
 
     
     </td>
     <td valign="top">
-
-    1.  Select the checkbox of the subscription you want to delete.
+    
+        1.  Select the checkbox of the subscription you want to delete.
     2.  Choose *Delete*.
 
 
@@ -94,15 +94,15 @@ Subscriptions, which are based on a queue, provide all incoming events. These in
     </tr>
     <tr>
     <td valign="top">
-
-    **Define table parameters.**
+    
+        **Define table parameters.**
 
 
     
     </td>
     <td valign="top">
-
-    Press the gear icon to define the table parameters.
+    
+        Press the gear icon to define the table parameters.
 
 
     

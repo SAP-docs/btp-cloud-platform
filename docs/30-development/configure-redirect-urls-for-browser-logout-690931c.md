@@ -101,9 +101,7 @@ You’ve deployed an application in the Cloud Foundry environment of SAP BTP. Bu
     >  "description": "My Sample Application with Application Router",
     >  "oauth2-configuration": {
     >                                            "token-validity": 900, 
-    >                                            "redirect-uris": ["https://[/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/strong/varname
-    >      {"varname"}) <application_hostname> (varname].[/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/strong/varname
-    >      {"varname"}) <landscape_domain> (varname]/**"
+    >                                            "redirect-uris": ["https://<application_hostname>.<landscape_domain>/**"
     >                                                             ],
     >                                            "autoapprove": "true"
     > }

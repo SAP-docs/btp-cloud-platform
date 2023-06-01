@@ -53,22 +53,22 @@ The following procedure outlines the steps you need to perform to consume the AP
         </tr>
         <tr>
         <td valign="top">
-
-         `x-correlation-id` 
+        
+                 `x-correlation-id` 
 
 
         
         </td>
         <td valign="top">
-
-         `x-correlation-id` 
+        
+                 `x-correlation-id` 
 
 
         
         </td>
         <td valign="top">
-
-        The property identifies the consumption bundle and its APIs that are exposed by the SAP S/4HANA Cloud system. The destination also provides the required credentials to consume the bundle and use it for further development in the SAP Business Application Studio.
+        
+                The property identifies the consumption bundle and its APIs that are exposed by the SAP S/4HANA Cloud system. The destination also provides the required credentials to consume the bundle and use it for further development in the SAP Business Application Studio.
 
 
         
@@ -76,22 +76,22 @@ The following procedure outlines the steps you need to perform to consume the AP
         </tr>
         <tr>
         <td valign="top">
-
-         `x-system-id` 
+        
+                 `x-system-id` 
 
 
         
         </td>
         <td valign="top">
-
-         `x-system-name` 
+        
+                 `x-system-name` 
 
 
         
         </td>
         <td valign="top" rowspan="2">
-
-        Properties that uniquely identify the local tenant of the registered SAP S/4HANA Cloud system.
+        
+                Properties that uniquely identify the local tenant of the registered SAP S/4HANA Cloud system.
 
 
         
@@ -99,15 +99,15 @@ The following procedure outlines the steps you need to perform to consume the AP
         </tr>
         <tr>
         <td valign="top">
-
-         `x-system-type` 
+        
+                 `x-system-type` 
 
 
         
         </td>
         <td valign="top">
-
-         `x-system-base-url` 
+        
+                 `x-system-base-url` 
 
 
         

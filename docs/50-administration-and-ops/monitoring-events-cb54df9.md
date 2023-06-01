@@ -45,15 +45,15 @@ Using the *Enterprise Event Enablement ‒ Event Monitor* app, you can monitor e
     <table>
     <tr>
     <td valign="top">
-
-    *Times*
+    
+        *Times*
 
 
     
     </td>
     <td valign="top">
-
-    -   *Publish Time*
+    
+        -   *Publish Time*
 
     -   *Arrival Time*
 
@@ -68,15 +68,15 @@ Using the *Enterprise Event Enablement ‒ Event Monitor* app, you can monitor e
     </tr>
     <tr>
     <td valign="top">
-
-    *Event Data*
+    
+        *Event Data*
 
 
     
     </td>
     <td valign="top">
-
-    -   *Cloud Event Source*
+    
+        -   *Cloud Event Source*
 
     -   *Cloud Event ID*
 
@@ -89,15 +89,15 @@ Using the *Enterprise Event Enablement ‒ Event Monitor* app, you can monitor e
     </tr>
     <tr>
     <td valign="top">
-
-    *Consumed by*
+    
+        *Consumed by*
 
 
     
     </td>
     <td valign="top">
-
-    -   *Consumer ID*
+    
+        -   *Consumer ID*
 
     -   *Consumer Version*
 
@@ -108,15 +108,15 @@ Using the *Enterprise Event Enablement ‒ Event Monitor* app, you can monitor e
     </tr>
     <tr>
     <td valign="top">
-
-    *Payload*
+    
+        *Payload*
 
 
     
     </td>
     <td valign="top">
-
-    -   *Payload*
+    
+        -   *Payload*
 
     -   *Size \(kB\)*
 

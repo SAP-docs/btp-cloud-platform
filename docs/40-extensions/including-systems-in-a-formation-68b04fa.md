@@ -275,15 +275,15 @@ Supported
         </tr>
         <tr>
         <td valign="top">
-
-         *Side-by-side Extensibility with Kyma* 
+        
+                 *Side-by-side Extensibility with Kyma* 
 
 
         
         </td>
         <td valign="top">
-
-        Formations of type *Side-by-side extensibility with Kyma* enable business scenarios that involve extending the functionality of several SAP systems at a time with SAP BTP Kyma environment instance.
+        
+                Formations of type *Side-by-side extensibility with Kyma* enable business scenarios that involve extending the functionality of several SAP systems at a time with SAP BTP Kyma environment instance.
 
         See [Enabling Side-by-Side Extensibility with Kyma](enabling-side-by-side-extensibility-with-kyma-9154051.md).
 
@@ -293,15 +293,15 @@ Supported
         </tr>
         <tr>
         <td valign="top">
-
-         *Developing with SAP Business Application Studio* 
+        
+                 *Developing with SAP Business Application Studio* 
 
 
         
         </td>
         <td valign="top">
-
-        Formations of type *Developing with SAP Business Application Studio* enable connectivity between given SAP systems of type *SAP S/4HANA Cloud* from the *System Landscape* page of SAP BTP cockpit and the SAP Business Application Studio, you must create a formation of the corresponding type and include the SAP S/4HANA Cloud systems in it.
+        
+                Formations of type *Developing with SAP Business Application Studio* enable connectivity between given SAP systems of type *SAP S/4HANA Cloud* from the *System Landscape* page of SAP BTP cockpit and the SAP Business Application Studio, you must create a formation of the corresponding type and include the SAP S/4HANA Cloud systems in it.
 
         See [Enabling System Landscape for SAP Business Application Studio](enabling-system-landscape-for-sap-business-application-studio-272ca23.md).
 

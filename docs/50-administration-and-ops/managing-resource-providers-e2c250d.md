@@ -193,8 +193,8 @@ Follow these steps to manage the resource providers that you have already config
     </tr>
     <tr>
     <td valign="top">
-
-    <span class="SAP-icons"></span>
+    
+        <span class="SAP-icons"></span>
 
     Manage Entitlements and Quotas
 
@@ -202,8 +202,8 @@ Follow these steps to manage the resource providers that you have already config
     
     </td>
     <td valign="top">
-
-    View the subaccount entitlements and quotas of services that are consumed from a resource provider.
+    
+        View the subaccount entitlements and quotas of services that are consumed from a resource provider.
 
     This action opens the *Entitlements* \> *Service Assignments* page in the cockpit, and is prefiltered for the selected resource provider.
 
@@ -216,8 +216,8 @@ Follow these steps to manage the resource providers that you have already config
     </tr>
     <tr>
     <td valign="top">
-
-    :pencil2:
+    
+        :pencil2:
 
     Edit Resource Provider
 
@@ -225,8 +225,8 @@ Follow these steps to manage the resource providers that you have already config
     
     </td>
     <td valign="top">
-
-    Edit the display name, description, and configuration properties of a resource provider.
+    
+        Edit the display name, description, and configuration properties of a resource provider.
 
     > ### Note:  
     > You cannot change the technical name of a resource provider.
@@ -237,8 +237,8 @@ Follow these steps to manage the resource providers that you have already config
     </tr>
     <tr>
     <td valign="top">
-
-    :wastebasket:
+    
+        :wastebasket:
 
     Delete
 
@@ -246,8 +246,8 @@ Follow these steps to manage the resource providers that you have already config
     
     </td>
     <td valign="top">
-
-    Delete a resource provider.
+    
+        Delete a resource provider.
 
     When you delete an existing resource provider, all the services offered by this instance of the resource provider will no longer be available on SAP BTP.
 

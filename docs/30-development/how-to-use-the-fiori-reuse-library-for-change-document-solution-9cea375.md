@@ -24,10 +24,9 @@ To be able to use the reusable components, you need to adapt the code that can b
     >             "js": [],
     >             "css": []
     >         },
-    >         [/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/code/strong
-    >      {"emphasis"}) "componentUsages": {
+    >         "componentUsages": {
     >             "ChangedocReuseComponent": {
-    >                 "name": "sap.nw.core.changedocs.lib.reuse.changedocscomponent" (strong]
+    >                 "name": "sap.nw.core.changedocs.lib.reuse.changedocscomponent"
     >             }
     >         },
     >         "dependencies": {
@@ -46,11 +45,10 @@ To be able to use the reusable components, you need to adapt the code that can b
     >                     "lazy": false
     >                 }
     >             },
-    >             [/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/code/strong
-    >      {"emphasis"}) "components": {
+    >             "components": {
     >                 "sap.nw.core.changedocs.lib.reuse": {
     >                     "lazy": true
-    >  (strong]
+    > 
     >                 }
     >             }
     >         },
@@ -69,8 +67,7 @@ To be able to use the reusable components, you need to adapt the code that can b
     >         "component": {
     >             "name": "sap.suite.ui.generic.template.ObjectPage"
     >         },
-    >         [/pandoc/div/div/horizontalrule/orderedlist/li/note/codeblock/code/strong
-    >      {"emphasis"}) "embeddedComponents": {
+    >         "embeddedComponents": {
     >             "changedoccomponent": {
     >                 "id": "changedoccomponent",
     >                 "componentUsage": "ChangedocReuseComponent",
@@ -80,7 +77,7 @@ To be able to use the reusable components, you need to adapt the code that can b
     >                         "<MY_CHANGE_DOC>"
     >                                     ],
     >                     "objectId": "{parts: [{path: '<MY_OBJECTID>'}], formatter: 'sap.nw.core.changedocs.lib.reuse.changedocscomponent.arrayFormatter'}",
-    >                     "startDate": "1900-01-01T00:00:00" (strong]
+    >                     "startDate": "1900-01-01T00:00:00"
     >                 }
     >             }
     >         }

@@ -60,15 +60,15 @@ The communication scenario **SAP\_COM\_0763** offers an OData V4 API for mainten
     </tr>
     <tr>
     <td valign="top">
-
-    x-csrf-token
+    
+        x-csrf-token
 
 
     
     </td>
     <td valign="top">
-
-    fetch
+    
+        fetch
 
 
     
@@ -100,15 +100,15 @@ The communication scenario **SAP\_COM\_0763** offers an OData V4 API for mainten
     </tr>
     <tr>
     <td valign="top">
-
-    x-csrf-token
+    
+        x-csrf-token
 
 
     
     </td>
     <td valign="top">
-
-    <token\>
+    
+        <token\>
 
 
     
@@ -142,15 +142,15 @@ The communication scenario **SAP\_COM\_0763** offers an OData V4 API for mainten
     </tr>
     <tr>
     <td valign="top">
-
-    x-csrf-token
+    
+        x-csrf-token
 
 
     
     </td>
     <td valign="top">
-
-    <token\>
+    
+        <token\>
 
 
     
@@ -202,15 +202,15 @@ The communication scenario **SAP\_COM\_0763** offers an OData V4 API for mainten
     </tr>
     <tr>
     <td valign="top">
-
-    content-type
+    
+        content-type
 
 
     
     </td>
     <td valign="top">
-
-    application/json
+    
+        application/json
 
 
     
@@ -218,15 +218,15 @@ The communication scenario **SAP\_COM\_0763** offers an OData V4 API for mainten
     </tr>
     <tr>
     <td valign="top">
-
-    x-csrf-token
+    
+        x-csrf-token
 
 
     
     </td>
     <td valign="top">
-
-    <token\>
+    
+        <token\>
 
 
     

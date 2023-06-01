@@ -34,31 +34,15 @@ Copy the following configurations from the old SAML-based Identity Authenticatio
     </tr>
     <tr>
     <td valign="top">
-
-    first\_name
+    
+        first\_name
 
 
     
     </td>
     <td valign="top">
-
-    given\_name
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    last\_name
-
-
-    
-    </td>
-    <td valign="top">
-
-    family\_name
+        given\_name
 
 
     
@@ -66,15 +50,31 @@ Copy the following configurations from the old SAML-based Identity Authenticatio
     </tr>
     <tr>
     <td valign="top">
-
-    mail
+    
+        last\_name
 
 
     
     </td>
     <td valign="top">
+    
+        family\_name
 
-    email
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        mail
+
+
+    
+    </td>
+    <td valign="top">
+    
+        email
 
 
     
