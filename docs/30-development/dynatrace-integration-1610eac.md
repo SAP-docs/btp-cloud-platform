@@ -8,7 +8,7 @@
 
 ## Context
 
-Dynatrace OneAgent is a Java agent that sends all captured monitoring data to your monitoring environment for analysis. The monitoring environment for Cloud Foundry resides in the Dynatrace cloud monitoring environment. See: [Cloud Foundry monitoring](https://www.dynatrace.com/support/help/how-to-use-dynatrace/infrastructure-monitoring/container-platform-monitoring/cloud-foundry-monitoring)
+Dynatrace OneAgent is a Java agent that sends all captured monitoring data to your Dynatrace monitoring environment for analysis.
 
 
 
@@ -16,7 +16,7 @@ Dynatrace OneAgent is a Java agent that sends all captured monitoring data to yo
 
 ## Procedure
 
-1.  Obtain an environment ID and Token. To do that, follow the steps described on page: [Deploy OneAgent on SAP BTP Cloud Foundry Runtime](https://www.dynatrace.com/support/help/setup-and-configuration/setup-on-container-platforms/cloud-foundry/deploy-oneagent-on-sap-cloud-platform-for-application-only-monitoring#deploy-oneagent-on-sap-btp-cloud-foundry-runtime)
+1.  Obtain an environment ID and an API token. To do that, follow the steps described on page: [Deploy OneAgent on SAP BTP Cloud Foundry Runtime](https://www.dynatrace.com/support/help/setup-and-configuration/setup-on-container-platforms/cloud-foundry/deploy-oneagent-on-sap-cloud-platform-for-application-only-monitoring#deploy-oneagent-on-sap-btp-cloud-foundry-runtime)
 
 2.  Create a user-provided service.
 
@@ -63,3 +63,4 @@ Dynatrace OneAgent is a Java agent that sends all captured monitoring data to yo
     > ```
 
 
+4. Push the application to Cloud Foundry with the updated manifest. Once the application receives web traffic, monitoring data will show up in Dynatrace.
