@@ -10,7 +10,7 @@ To enable programmatic access to the SAP Authorization and Trust Management serv
 
 ## Prerequisites
 
--   You required the following scopes to create the service instance:
+-   You require the following scopes to create the service instance:
 
     -   `xs_authorization.read`
     -   `xs_authorization.write`
