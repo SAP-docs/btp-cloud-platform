@@ -30,6 +30,8 @@ To enable programmatic access to the SAP Authorization and Trust Management serv
 
 -   You have an org and a space where you can create a service instance.
 
+    If the org is located on an extension landscape, you must have logged on to the main landscape at least once as well.
+
 
 
 
