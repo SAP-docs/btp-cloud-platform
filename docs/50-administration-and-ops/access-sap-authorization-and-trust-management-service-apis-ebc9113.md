@@ -30,6 +30,9 @@ To enable programmatic access to the SAP Authorization and Trust Management serv
 
 -   You have an org and a space where you can create a service instance.
 
+    If the org is located on an extension landscape, you have logged on to the main landscape at least once. For example, if the domain of your org is eu10-002.hana.ondemand.com, you have logged on to the domain eu10.hana.ondemand.com at least once.
+    See also [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md).
+
 
 
 
