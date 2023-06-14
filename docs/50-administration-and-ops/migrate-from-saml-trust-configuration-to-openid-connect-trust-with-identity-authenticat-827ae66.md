@@ -35,7 +35,7 @@ If your subaccount uses the SAML protocol to connect to your custom identity pro
 
     For more information, see [Managing Trust from SAP BTP to an Identity Authentication Tenant](managing-trust-from-sap-btp-to-an-identity-authentication-tenant-6140107.md).
 
-3.  Log on to the btp CLI \(see [Log in](log-in-e241b30.md).
+3.  Log on to the btp CLI \(see [Log in](log-in-e241b30.md)\).
 
 4.  Make sure that you set the target to the relevant SAP BTP subaccount.
 

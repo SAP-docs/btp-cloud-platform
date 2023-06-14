@@ -22,11 +22,11 @@ For more information, see [Prepare for Migration from SAML Trust to OpenID Conne
 
 1.  Check what attributes your user has now.
 
-    <code>https://<i class="varname">&lt;subaccount_subdomain&gt;</i>.authentication.<i class="varname">&lt;region&gt;</i>.hana.ondemand.com/config?action=who&amp;details=true</code>
+    <code>https://<i class="varname">&lt;subaccount_subdomain&gt;</i>.authentication.<i class="varname">&lt;region&gt;</i>.hana.ondemand.com/config?action=who&amp;details=true&amp;trustMigrationOnly=true</code>
 
     For example
 
-    `https://my-subdomain.authentication.eu10.hana.ondemand.com/config?action=who&details=true`
+    `https://my-subdomain.authentication.eu10.hana.ondemand.com/config?action=who&details=true&trustMigrationOnly=true`
 
 2.  Compare with the results you had before the migration.
 
@@ -64,34 +64,26 @@ For more information, see [Prepare for Migration from SAML Trust to OpenID Conne
     userName P000011
     origin my-origin-key
     zoneId 9fcd13d0-77d7-4cfa-86b0-a41b02e662a6
-    SAML Issuer https://my-tenant.accounts.ondemand.com
-    currently resolved authorities [
-      auditlog-management!b8.ReadAuditLogs
-      ]
     User Attributes {
       user_uuid=[7ebf5c32-cacd-4ad2-a208-6bcb3e764f6f], 
       email=[maria.fontes@example.com], 
       cost_center=[my-cost-center], 
       Groups=[my-group],
       family_name=[Fontes], 
-      given_name=[Maria], 
-      acr=[urn:oasis:names:tc:SAML:2.0:ac:classes:unspecified],
-      remoteEntityId=[https://my-tenant.accounts.ondemand.com]}
+      given_name=[Maria]
+      }
     email maria.fontes@example.com
     userId 128af760-ad57-4213-b063-2dd381a4d92e
     externalId P000011
     given_name Maria
     family_name Fontes
     verified true 
-    created 2023-04-28 08:34:03.517
-    modified 2023-04-28 08:34:03.517
     authorities [
       openid, 
       user_attributes, 
       auditlog-management!b8.ReadAuditLogs, 
       uaa.user
-      ]
-    
+    ]
     ```
 
 
@@ -103,29 +95,20 @@ For more information, see [Prepare for Migration from SAML Trust to OpenID Conne
     userName P000011
     origin my-origin-key
     zoneId 9fcd13d0-77d7-4cfa-86b0-a41b02e662a6
-    currently resolved authorities []
     User Attributes {
-      sub=[P000011],
-      app_tid=[9fcd13d0-77d7-4cfa-86b0-a41b02e662a6],
-      remoteEntityId=[https://auqvkrjmc.accounts400.ondemand.com],
       given_name=[Maria], 
-      nonce=[rcTdaTXH2QBZ],
-      sid=[S-SP-46fb6f3f-6246-4856-9a18-c534ab4c6336],
-      aud=[76929a0c-645b-450a-bf22-bf5d5da511b1],
       user_uuid=[7ebf5c32-cacd-4ad2-a208-6bcb3e764f6f], 
       cost_center=[my-cost-center], 
       groups=[my-group], 
-      zone_uuid=[9fcd13d0-77d7-4cfa-86b0-a41b02e662a6],
       family_name=[Fontes], 
-      email=[maria.fontes@example.com]}
+      email=[maria.fontes@example.com]
+      }
     email maria.fontes@example.com
     userId 128af760-ad57-4213-b063-2dd381a4d92e
     externalId P000011
     given_name Maria
     family_name Fontes
     verified true
-    created 2023-04-28 08:34:03.517
-    modified 2023-04-28 08:34:03.517
     authorities [
       openid, 
       user_attributes, 
@@ -140,17 +123,8 @@ For more information, see [Prepare for Migration from SAML Trust to OpenID Conne
     </tr>
     </table>
     
-    Ignore the following attributes:
-
-    -   SAML: `acr` and `SAML Issuer`.
-
-    -   OIDC: `sub` `app_tid`, `nonce`, `sid`, `aud`, and `zone_uuid`. In addition, any extra attributes that appear can also be ignored.
-
-        > ### Note:  
-        > In the new OIDC application, uppercase or lower case G in the `groups` attribute name doesn't matter.
-
-    -   Both: `currently resolved authorities`, `remoteEntityId`, `created`, and `modified`.
-
+    > ### Note:  
+    > In the new OIDC application, uppercase or lower case G in the `groups` attribute name doesn't matter.
 
 3.  If there are any remaining differences, adjust the configuration of the Identity Authentication tenant or applications or of the corporate identity provider until you get the same attributes.
 

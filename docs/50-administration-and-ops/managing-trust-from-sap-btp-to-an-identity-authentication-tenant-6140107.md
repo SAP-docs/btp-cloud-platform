@@ -118,7 +118,7 @@ Get details about a trust configuration
 <tr>
 <td valign="top">
 
-tenants to which you can connect this global account orEstablish trust from a global account or subaccount to an Identity Authentication tenant
+Establish trust from a global account or subaccount to an Identity Authentication tenant to which you can connect this global account or subaccount
 
 
 

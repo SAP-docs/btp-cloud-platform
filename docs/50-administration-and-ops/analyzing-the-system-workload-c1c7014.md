@@ -10,10 +10,12 @@ You want to know more about the ABAP system workload.
 
 ## Context
 
-Using the *System Workload* screen, you benefit from a seamless connection between an overview of your system workload and single ABAP statistics records \(main records and subrecords\) down to SQL statements and their prepared plan \(SQL EXPLAIN\). This gives you an excellent starting point for further performance analysis on SAP HANA level in case of high database response times, which is true especially in the example below. Of course, you might also find records with a high ABAP CPU time where you don't need to further investigate the execution of SQL statements. In that case, a performance analysis on SAP HANA level would not be needed.
+Using the *System Workload* screen, you benefit from a seamless connection between an overview of your system workload and single ABAP statistics records \(main records and subrecords\) down to SQL statements and their prepared plan. This gives you an excellent starting point for further performance analysis on SAP HANA level in the case of high database response times, which is true especially in the example below. Of course, you might also find records with a high ABAP CPU time where you don't need to further investigate the execution of SQL statements. In that case, a performance analysis on SAP HANA level would not be needed.
 
 > ### Note:  
-> This procedure is similar to the analysis of a tenant workload \(see [Analyzing the Workload of a Business Tenant](analyzing-the-workload-of-a-business-tenant-5fb4ce7.md)\). However, the starting point is different because here you want to know whether there's an issue with the overall system workload instead of focusing on single tenants.
+> This procedure is similar to the analysis of a tenant workload \(see [Analyzing the Workload of a Business Tenant](analyzing-the-workload-of-a-business-tenant-5fb4ce7.md)\). The starting point for the *System Workload* app and its screens is different because here you want to know whether there's an issue with the overall system workload instead of focusing on single tenants.
+> 
+> However, even if you have just one single tenant, working the *Tenant Workload* app and its screens might also make sense in some cases. The *Tenant Workload* app offers you detail information such as the consumed HANA and ABAP CPU time that you don't get with the *System Workload* app.
 
 In the following example, let's analyze the usage of an application built according to the ABAP RESTful Application Programming Model \(RAP\). We're going to use the well-known demo application for flight booking, which is often used as a reference scenario in SAP contexts.
 
@@ -27,7 +29,7 @@ In the following example, let's analyze the usage of an application built accord
 
     The technical monitoring cockpit opens with the *System Workload* screen.
 
-2.  Let's assume you're interested in the behavior of the OData V2 services and set a filter on *Request Entry Type* for *OData V2*. For information about filter options, see the [documentation](https://help.sap.com/docs/BTP/b273a660af4e4948a49a316ea2438f24/536cd53e5f244c65bdbe620feb39c8ed.html?language=en-US) of the technical monitoring cockpit.
+2.  Let's assume you're interested in the behavior of the OData V2 services and set a filter on *Request Entry Type* for *OData V2*
 
 3.  In the chart, click on the HANA processing time that seems high, for example, at 01:40 p.m.
 
@@ -35,11 +37,9 @@ In the following example, let's analyze the usage of an application built accord
 
     The *System Workload: Details* section below the chart changes accordingly. Now you see the top contributors to the HANA processing time at the time you clicked in the chart. The contributors are grouped by request entry type and request entry name.
 
-    You can see that one of the top contributors is the travel processing service. So it's probably the usage of that flight processing service that is responsible for the consumption of HANA processing time.
-
     ![](images/System_Workload_User_Story_Details_Start_Screen_e8bf30d.png)
 
-4.  To see more details, let’s choose that first highlighted entry in the list. On the subsequent *Request Processing* screen, you can now see the behavior of this specific workload \(the flight processing service\) over time:
+4.  You can see that one of the topTo see more details, let’s choose that first highlighted entry in the list. On the subsequent *Request Processing* screen, you can now see the behavior of this specific workload \(the flight processing service\) over time:
 
     ![](images/System_Workload_Request_Processing_Stacked_Total_Times_95614b9.png)
 
@@ -80,7 +80,7 @@ In the following example, let's analyze the usage of an application built accord
 
     ![](images/System_Workload_Single_SQL_Statement_Analysis_07495a2.png)
 
-    So again, you have a convenient connection between different perspectives: You're coming from the plain SQL statement straight to the SQL EXPLAIN for this statement. This is the tool that lets you see the SQL statement and how it would be executed on database level. From the prepared plan, a HANA expert could now dig deeper and start analyzing the statement in detail.
+    From the prepared plan, a HANA expert could now dig deeper and start analyzing the statement in detail.
 
 
 
@@ -97,5 +97,8 @@ Interested in seeing a "good" example of this kind of workload for comparison, w
 
 Here, everything's fine: The server response time per request is only 0.197 seconds. The number of database requests is low, and therefore the database network time and processing times are low, too.
 
-For more information about the technical monitoring cockpit, see the [documentation](https://help.sap.com/viewer/tmc_cloud).
+**Related Information**  
+
+
+[https://blogs.sap.com/2023/04/24/analyzing-performance-degradations-in-the-abap-environment-in-the-cloud/](https://blogs.sap.com/2023/04/24/analyzing-performance-degradations-in-the-abap-environment-in-the-cloud/)
 

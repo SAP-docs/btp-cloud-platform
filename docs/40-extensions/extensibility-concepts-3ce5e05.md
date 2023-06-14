@@ -66,7 +66,7 @@ The registration process can have the following status values:
     The system removal has failed.
 
 
-**Consumption Bundles**
+**Consumption Bundles, APIs, and Events**
 
 Consumption bundles group logically APIs and events intended for communication with the SAP or third-party system. This grouping means that the consumption of the APIs or the events can happen by using the same set of credentials later on. When you register a system, you can also preview the number and the content of consumption bundles that are exposed for communication with the given system.
 
@@ -185,26 +185,6 @@ Formations of type *Developing with SAP Business Application Studio* enable conn
 
 
 
-### Actions
-
-**Creating Formations**
-
-Create a logical grouping of the systems that you want to extend.
-
-**Including/Excluding Systems in a Formation**
-
-Include additional systems to a given formation or exclude already included systems from a formation.
-
-If your business case features more than one system, you can include additional systems in the formation. You can include as many systems as you want to your formation.
-
-**Deleting Formations**
-
-Detach the systems, unassign the subaccount, and delete the formation at one go.
-
-When you start a formation deletion process, first the systems are excluded from the formation, then, the subaccount is unassigned, and last, the formation is deleted from the list completely.
-
-
-
 ### Formation Status
 
 A formation can have the following status values:
@@ -225,6 +205,26 @@ A formation can have the following status values:
 
     An error occurred while some of the systems that are included in the formation were synchronizing in the background.
 
+
+
+
+### Actions
+
+**Creating Formations**
+
+Create a logical grouping of the systems that you want to extend.
+
+**Including/Excluding Systems in a Formation**
+
+Include additional systems to a given formation or exclude already included systems from a formation.
+
+If your business case features more than one system, you can include additional systems in the formation. You can include as many systems as you want to your formation.
+
+**Deleting Formations**
+
+Detach the systems, unassign the subaccount, and delete the formation at one go.
+
+When you start a formation deletion process, first the systems are excluded from the formation, then, the subaccount is unassigned, and last, the formation is deleted from the list completely.
 
 You can create and configure formations in the SAP BTP cockpit, in *System Landscape* \> *Formations*. See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
 

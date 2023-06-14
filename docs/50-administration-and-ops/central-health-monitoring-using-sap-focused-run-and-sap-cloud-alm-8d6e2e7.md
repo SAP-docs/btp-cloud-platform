@@ -804,3 +804,5 @@ For more information about setting up ABAP environment monitoring with SAP Cloud
 
 [Health Monitoring in SAP Cloud ALM](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring/health-mon-content.html)
 
+[Monitoring the Health of the ABAP System in the Cloud](https://blogs.sap.com/2023/05/09/monitoring-the-health-of-the-abap-system-in-the-cloud/) \(blog post on SAP Community\)
+

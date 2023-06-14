@@ -10,10 +10,14 @@ You want to know more about the workload on your business tenants in the ABAP en
 
 ## Context
 
-Using the *Tenant Workload* screen, you benefit from a seamless connection between views of workloads by tenant and single ABAP statistics records \(main records and subrecords\) down to SQL statements and their prepared plan \(SQL EXPLAIN\). This gives you an excellent starting point for further performance analysis on SAP HANA level in case of high database response times, which is true especially in the example below. Of course, you might also find records with a high ABAP CPU time where you don't need to further investigate the execution of SQL statements. In that case, a performance analysis on SAP HANA level would not be needed.
+Using the *Tenant Workload* screen, you benefit from a seamless connection between views of workloads by tenant and single ABAP statistics records \(main records and subrecords\) down to SQL statements and their prepared plan. This gives you an excellent starting point for further performance analysis on SAP HANA level in case of high database response times, which is true especially in the example below. Of course, you might also find records with a high ABAP CPU time where you don't need to further investigate the execution of SQL statements. In that case, a performance analysis on SAP HANA level would not be needed.
 
 > ### Note:  
-> This procedure is similar to the analysis of your system workload \(see [Analyzing the System Workload](analyzing-the-system-workload-c1c7014.md)\). However, the starting point is different because here you focus on single tenants instead of the overall system workload.
+> This procedure is similar to the analysis of your system workload \(see [Analyzing the System Workload](analyzing-the-system-workload-c1c7014.md)\). However, with the Tenant Workload app and its screens you can do the following:
+> 
+> -   You can focus on single tenants instead of the overall system workload.
+> 
+> -   Even if you have just one single tenant, working the *Tenant Workload* app and its screens might make sense because it offers you detail information such as the consumed HANA and ABAP CPU time that you don't get with the *System Workload* app. The *System Workload* app provides you with information about the server response time and its contributors, but it doesn’t show you if fast response times were combined with high consumption of ABAP and HANA CPU resources.
 
 In the following example, let's analyze the usage of an application built according to the ABAP RESTful Application Programming Model \(RAP\) in a business tenant. We're going to use the well-known demo application for flight booking, which is often used as a reference scenario in SAP contexts.
 
@@ -29,7 +33,7 @@ In the following example, let's analyze the usage of an application built accord
 
 2.  Using the links above the chart, you can switch to other views. In this example, let's switch to the HANA CPU time by tenant.
 
-3.  Let's assume you're interested in the behavior of the OData V2 services and set a filter on *Request Entry Type* for *OData V2*. For information about filter options, see the [documentation](https://help.sap.com/docs/BTP/b273a660af4e4948a49a316ea2438f24/536cd53e5f244c65bdbe620feb39c8ed.html?language=en-US) of the technical monitoring cockpit.
+3.  Let's assume you're interested in the behavior of the OData V2 services and set a filter on *Request Entry Type* for *OData V2*.
 
      ![](images/User_Story_HANA_CPU_Time_1_dcb401d.png)
 
@@ -68,8 +72,6 @@ In the following example, let's analyze the usage of an application built accord
 
     ![](images/User_Story_Tenant_Workload_Analyze_Statement_ab0d3cf.png)
 
-    So again, you have a convenient connection between different perspectives: You're coming from the plain SQL statement string straight to the SQL EXPLAIN for this statement. This is the tool that lets you see the SQL statement and how it would be executed on database level. From the prepared plan, an SAP HANA expert could now dig deeper and start analyzing the statement in detail.
-
-    For more information about the technical monitoring cockpit, see the [documentation](https://help.sap.com/docs/BTP/b273a660af4e4948a49a316ea2438f24/eb867c69739a4cf3be6361d3990d26a2.html?language=en-US).
+    From the prepared plan, an SAP HANA expert could now dig deeper and start analyzing the statement in detail.
 
 

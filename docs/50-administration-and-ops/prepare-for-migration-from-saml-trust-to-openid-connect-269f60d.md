@@ -14,11 +14,11 @@ Before migrating your trust configuration, check which user data are sent today,
 
     To see what attributes your user has, open the following page of your subaccount:
 
-    <code>https://<i class="varname">&lt;subaccount_subdomain&gt;</i>.authentication.<i class="varname">&lt;region&gt;</i>.hana.ondemand.com/config?action=who&amp;details=true</code>
+    <code>https://<i class="varname">&lt;subaccount_subdomain&gt;</i>.authentication.<i class="varname">&lt;region&gt;</i>.hana.ondemand.com/config?action=who&amp;details=true&amp;trustMigrationOnly=true</code>
 
     For example
 
-    `https://my-subdomain.authentication.eu10.hana.ondemand.com/config?action=who&details=true`
+    `https://my-subdomain.authentication.eu10.hana.ondemand.com/config?action=who&details=true&trustMigrationOnly=true`
 
     If at logon you see multiple identity providers, choose the one you want to migrate from for your applications.
 

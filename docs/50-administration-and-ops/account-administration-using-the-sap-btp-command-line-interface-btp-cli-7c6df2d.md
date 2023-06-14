@@ -19,16 +19,16 @@ If you want to use the btp CLI for scripting, we recommend to use the `--format 
 
 In this documentation, you learn how to download, install, update, and use the btp CLI. Additionally, see the following:
 
--   [btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
+-   [btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html): The command reference contains descriptions of all commands with their parameters, as well as examples, tips, and links to further conceptual documenation.
 
--   [Get Started with the SAP BTP Command Line Interface \(btp CLI\)](https://developers.sap.com/tutorials/cp-sapcp-getstarted.html)
+-   [Get Started with the SAP BTP Command Line Interface \(btp CLI\)](https://developers.sap.com/tutorials/cp-sapcp-getstarted.html): This tutorial walks you through downloading and installing the btp CLI client, understanding the syntax, and running your first commands.
 
--   [Automate Account Operations with the Command Line Interface](https://developers.sap.com/tutorials/cp-cli-automate-operations.html)
+-   [Automate Account Operations with the Command Line Interface](https://developers.sap.com/tutorials/cp-cli-automate-operations.html): This tutorial uses a bash shell script to automate the setup of a global account.
 
--   [Setting Up a Global Account via the Command Line \[Feature Set B\]](../20-getting-started/setting-up-a-global-account-via-the-command-line-feature-set-b-accd5b2.md)
+-   [Setting Up a Global Account via the Command Line \[Feature Set B\]](../20-getting-started/setting-up-a-global-account-via-the-command-line-feature-set-b-accd5b2.md): This chapter lists the commands of the btp CLI and the cf CLI that you need to create a subaccount and enable Cloud Foundry.
 
--   Access command help from the terminal with `btp help`
 
+Whe working with the btp CLI in your terminal, you can access the help by executing `btp help` or by appending `--help` to a command.
 
 
 

@@ -5,7 +5,7 @@
 In the Kyma environment, you can query, visualize, and explore metrics and logs collected for the Kyma components.
 
 > ### Caution:  
-> The in-cluster Logging and Monitoring capabilities, a well as any integration with Grafana, have been deprecated. See *What's New* for Kyma on [Dec 1, 2022](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%20Runtime&locale=en-US&version=Cloud&Valid_as_Of=2022-12-01%3A2022-12-01&q=observability) and [Jan 20, 2023](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%20Runtime&locale=en-US&version=Cloud&Valid_as_Of=2023-01-20%3A2023-01-20).
+> The in-cluster Logging and Monitoring capabilities, a well as any integration with Grafana, have been deprecated. See *What's New* for Kyma about [Logging](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%20Runtime&Software_Lifecycle=Deprecated&q=logging&locale=en-US&version=Cloud&Valid_as_Of=2022-12-01%3A2023-09-30) and [Monitoring](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%20Runtime&Software_Lifecycle=Deprecated&q=monitoring&locale=en-US&version=Cloud&Valid_as_Of=2022-12-01%3A2023-09-30).
 
 
 

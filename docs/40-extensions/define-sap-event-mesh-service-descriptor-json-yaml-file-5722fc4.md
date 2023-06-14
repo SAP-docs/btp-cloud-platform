@@ -10,7 +10,10 @@ The SAP Event Mesh service descriptor defines details of a message client and ne
 
 ## Prerequisites
 
-You have created an SAP S/4HANA Cloud Extensibility service instance with defined SAP S/4HANA Cloud Extensibility descriptor. See [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON/YAML File](define-sap-s-4hana-cloud-extensibility-service-descriptor-json-yaml-file-2d50d91.md).
+-   You have created an SAP S/4HANA Cloud Extensibility service instance with defined SAP S/4HANA Cloud Extensibility descriptor. See [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON/YAML File](define-sap-s-4hana-cloud-extensibility-service-descriptor-json-yaml-file-2d50d91.md).
+
+-   Get to know the additional parameters you can have in the SAP Event Mesh service descriptor. In this page only the parameters that are related to this use case are described. See [Syntax for Service Descriptor in SAP Event Mesh documentation](https://help.sap.com/viewer/bf82e6b26456494cbdd197057c09979f/Cloud/en-US/5696828fd5724aa5b26412db09163530.html).
+
 
 
 

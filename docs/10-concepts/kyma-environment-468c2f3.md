@@ -51,7 +51,7 @@ SAP systems connected to a Kyma environment expose APIs and events. To extend th
 
 ## Kyma Functionalities
 
-SAP BTP, Kyma runtime \(SKR\) and open source project "Kyma" \(OS\) offer slightly different functionalities and install a different set of components.
+SAP BTP, Kyma runtime and open source project "Kyma" offer slightly different functionalities and install a different set of components.
 
 
 
@@ -71,14 +71,14 @@ Functionality
 </th>
 <th valign="top">
 
-OS
+open source project "Kyma"
 
 
 
 </th>
 <th valign="top">
 
-SKR
+SAP BTP, Kyma runtime
 
 
 
@@ -366,7 +366,7 @@ In-cluster system landscape management \(Application Connector\)
 > ### Caution:  
 > The following functionalities have been deprecated:
 > 
-> 1.  The Logging capability based on Loki, which enables you to query application logs using Grafana, has been deprecated. For details, see [What's New for Kyma on Dec 1, 2022](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%20Runtime&locale=en-US&version=Cloud&Valid_as_Of=2022-12-01%3A2022-12-01&q=observability).
+> 1.  The Logging capability based on Loki, which enables you to query application logs using Grafana, has been deprecated. For details, see [What's New for Kyma on Dec 1, 2022 and June 1, 2023](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%20Runtime&Software_Lifecycle=Deprecated&q=logging&locale=en-US&version=Cloud&Valid_as_Of=2022-12-01%3A2023-09-30).
 > 
 > 2.  The Monitoring capability based on Prometheus, which enables you to query metrics using Grafana, has been deprecated. For details, see [What's New for Kyma on Jan 20, 2023](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%20Runtime&locale=en-US&version=Cloud&Valid_as_Of=2023-01-20%3A2023-01-20).
 > 

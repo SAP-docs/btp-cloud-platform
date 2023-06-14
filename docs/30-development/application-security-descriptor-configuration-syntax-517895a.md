@@ -146,7 +146,7 @@ Description
 <tr>
 <td valign="top">
 
- `dedicated` \(default\)
+ `dedicated` 
 
 
 
@@ -162,7 +162,7 @@ An OAuth client gets a separate client secret for each subaccount.
 <tr>
 <td valign="top">
 
- `shared` 
+ `shared` \(default\)
 
 
 

@@ -15,5 +15,5 @@ There are two git-based transport mechanisms in the ABAP environment.
 -   Implement mechanisms for distributed development and testing in dedicated development/test ABAP systems. This can be useful for special projects, such as proof of concepts or features that are dependent on regular development of a solution but shall run independent from its lifecycle.
 -   To learn more about abapGit, see [Working with abapGit](working-with-abapgit-d62ed9d.md).
 
-For a quick start on transportation, see [Transport a Software Component Between Two ABAP Systems](https://developers.sap.com/tutorials/abap-environment-gcts.html).
+For a quick start on transportation, see [Transport a Software Component Between Two ABAP Systems](https://developers.sap.com/tutorials/abap-environment-gcts.html). For more information about the according delivery process, see [Delivery via Add-On or gCTS](https://help.sap.com/docs/btp/sap-business-technology-platform/delivery-via-add-on-or-gcts?version=Cloud).
 

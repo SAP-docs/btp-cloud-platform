@@ -132,9 +132,9 @@ ap10.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ap10)
+[Feature Set A](https://account.ap1.hana.ondemand.com/cockpit/#/home/allaccounts/?datacenter=cf-ap10)
 
-[Feature Set B](https://cockpit.ap10.hana.ondemand.com/)
+[Feature Set B](https://apac.cockpit.btp.cloud.sap/)
 
 
 
@@ -199,9 +199,9 @@ br10.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-br10)
+[Feature Set A](https://account.br1.hana.ondemand.com/cockpit/#/home/allaccounts/?datacenter=cf-br10)
 
-[Feature Set B](https://cockpit.br10.hana.ondemand.com/)
+[Feature Set B](https://amer.cockpit.btp.cloud.sap/)
 
 
 
@@ -252,7 +252,7 @@ ca-central-1
 </td>
 <td valign="top">
 
-api.ca10.hana.ondemand.com
+api.cf.ca10.hana.ondemand.com
 
 
 
@@ -266,9 +266,9 @@ ca10.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ca10)
+[Feature Set A](https://account.ca1.hana.ondemand.com/cockpit/#/home/allaccounts/?datacenter=cf-ca10)
 
-[Feature Set B](https://cockpit.ca10.hana.ondemand.com/)
+[Feature Set B](https://amer.cockpit.btp.cloud.sap/)
 
 
 
@@ -319,14 +319,26 @@ eu-central-1
 </td>
 <td valign="top">
 
-api.cf.eu10.hana.ondemand.com
+cf-eu10: api.cf.eu10.hana.ondemand.com
+
+cf-eu10-002: api.cf.eu10-002.hana.ondemand.com
+
+cf-eu10-003: api.cf.eu10-003.hana.ondemand.com
+
+cf-eu10-004: api.cf.eu10-004.hana.ondemand.com
 
 
 
 </td>
 <td valign="top">
 
-eu10.hana.ondemand.com
+cf-eu10: eu10.hana.ondemand.com
+
+cf-eu10-002: eu10-002.hana.ondemand.com
+
+cf-eu10-003: eu10-003.hana.ondemand.com
+
+cf-eu10-004: eu10-004.hana.ondemand.com
 
 
 
@@ -335,7 +347,7 @@ eu10.hana.ondemand.com
 
 [Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-eu10)
 
-[Feature Set B](https://cockpit.eu10.hana.ondemand.com/)
+[Feature Set B](https://emea.cockpit.btp.cloud.sap/)
 
 
 
@@ -358,7 +370,7 @@ eu11
 </td>
 <td valign="top">
 
-Europe \(Frankfurt\)
+Europe \(Frankfurt\)EU Access
 
 
 
@@ -400,9 +412,9 @@ eu11.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-eu11)
+[Feature Set A](https://account.eu2.hana.ondemand.com/cockpit/#/home/allaccounts/?datacenter=cf-eu11)
 
-[Feature Set B](https://cockpit.eu11.hana.ondemand.com/)
+[Feature Set B](https://eu-access.cockpit.btp.cloud.sap/)
 
 
 
@@ -467,9 +479,9 @@ jp10.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Feature Set A](https://account.jp1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-jp10)
+[Feature Set A](https://account.jp1.hana.ondemand.com/cockpit/#/home/allaccounts/?datacenter=cf-jp10)
 
-[Feature Set B](https://cockpit.jp10.hana.ondemand.com/)
+[Feature Set B](https://apac.cockpit.btp.cloud.sap/)
 
 
 
@@ -520,7 +532,7 @@ ap-southeast-1
 </td>
 <td valign="top">
 
-api.ap11.hana.ondemand.com
+api.cf.ap11.hana.ondemand.com
 
 
 
@@ -534,9 +546,9 @@ ap11.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ap11)
+[Feature Set A](https://account.ap1.hana.ondemand.com/cockpit/#/home/allaccounts/?datacenter=cf-ap11)
 
-[Feature Set B](https://cockpit.ap11.hana.ondemand.com/)
+[Feature Set B](https://apac.cockpit.btp.cloud.sap/)
 
 
 
@@ -587,7 +599,7 @@ ap-northeast-2
 </td>
 <td valign="top">
 
-api.ap12.hana.ondemand.com
+api.cf.ap12.hana.ondemand.com
 
 
 
@@ -601,9 +613,9 @@ ap12.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ap12)
+[Feature Set A](https://account.ap1.hana.ondemand.com/cockpit/#/home/allaccounts/?datacenter=cf-ap12)
 
-[Feature Set B](https://cockpit.ap12.hana.ondemand.com/)
+[Feature Set B](https://apac.cockpit.btp.cloud.sap/)
 
 
 
@@ -654,23 +666,504 @@ us-east-1
 </td>
 <td valign="top">
 
-api.cf.us10.hana.ondemand.com
+cf-us10: api.cf.us10.hana.ondemand.com
+
+cf-us10-001: api.cf.us10-001.hana.ondemand.com
+
+cf-us10-002: api.cf.us10-002.hana.ondemand.com
 
 
 
 </td>
 <td valign="top">
 
-us10.hana.ondemand.com
+cf-us10: us10.hana.ondemand.com
+
+cf-us10-001: us10-001.hana.ondemand.com
+
+cf-us10-002: us10-002.hana.ondemand.com
 
 
 
 </td>
 <td valign="top">
 
-[Feature Set A](https://account.us1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-us10)
+[Feature Set A](https://account.us1.hana.ondemand.com/cockpit/#/home/allaccounts/?datacenter=cf-us10)
 
-[Feature Set B](https://cockpit.us10.hana.ondemand.com/)
+[Feature Set B](https://amer.cockpit.btp.cloud.sap/)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+
+
+</td>
+<td valign="top">
+
+eu20
+
+
+
+</td>
+<td valign="top">
+
+Europe \(Netherlands\)
+
+
+
+</td>
+<td valign="top">
+
+cf-eu20
+
+
+
+</td>
+<td valign="top">
+
+westeurope
+
+
+
+</td>
+<td valign="top">
+
+74.234.204.238, 98.71.236.50, 108.143.241.97
+
+
+
+</td>
+<td valign="top">
+
+cf-eu20: api.cf.eu20.hana.ondemand.com
+
+cf-eu20-001: api.cf.eu20-001.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+cf-eu20: eu20.hana.ondemand.com
+
+cf-eu20-001: eu20-001.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+[Feature Set A](https://account.eu2.hana.ondemand.com/cockpit/#/home/allaccounts/?datacenter=cf-eu20)
+
+[Feature Set B](https://emea.cockpit.btp.cloud.sap/)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+
+
+</td>
+<td valign="top">
+
+ch20
+
+
+
+</td>
+<td valign="top">
+
+Switzerland \(Zurich\) Azure EU Access
+
+
+
+</td>
+<td valign="top">
+
+cf-ch20
+
+
+
+</td>
+<td valign="top">
+
+switzerlandnorth
+
+
+
+</td>
+<td valign="top">
+
+172.162.240.234, 51.107.40.177, 51.103.221.23
+
+
+
+</td>
+<td valign="top">
+
+api.cf.ch20.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+ch20.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+[Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-ch20)
+
+[Feature Set B](https://eu-access.cockpit.btp.cloud.sap/)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+
+
+</td>
+<td valign="top">
+
+us20
+
+
+
+</td>
+<td valign="top">
+
+US West \(WA\)
+
+
+
+</td>
+<td valign="top">
+
+cf-us20
+
+
+
+</td>
+<td valign="top">
+
+westus2
+
+
+
+</td>
+<td valign="top">
+
+20.9.136.184, 172.179.0.166, 20.9.147.50
+
+
+
+</td>
+<td valign="top">
+
+api.cf.us20.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+us20.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+[Feature Set A](https://account.us2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-us20)
+
+[Feature Set B](https://amer.cockpit.btp.cloud.sap/)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+
+
+</td>
+<td valign="top">
+
+us21
+
+
+
+</td>
+<td valign="top">
+
+US East \(VA\)
+
+
+
+</td>
+<td valign="top">
+
+cf-us21
+
+
+
+</td>
+<td valign="top">
+
+eastus
+
+
+
+</td>
+<td valign="top">
+
+172.190.88.27, 20.83.171.94, 74.235.125.210
+
+
+
+</td>
+<td valign="top">
+
+api.cf.us21.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+us21.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+[Feature Set A](https://account.us1.hana.ondemand.com/cockpit/#/home/allaccounts/?datacenter=cf-us21)
+
+[Feature Set B](https://amer.cockpit.btp.cloud.sap/)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+
+
+</td>
+<td valign="top">
+
+ap20
+
+
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
+
+
+
+</td>
+<td valign="top">
+
+cf-ap20
+
+
+
+</td>
+<td valign="top">
+
+australiaeast
+
+
+
+</td>
+<td valign="top">
+
+20.211.81.46, 20.70.213.77, 20.211.46.196
+
+
+
+</td>
+<td valign="top">
+
+api.cf.ap20.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+ap20.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+[Feature Set A](https://account.ap1.hana.ondemand.com/cockpit/#/home/allaccounts/?datacenter=cf-ap20)
+
+[Feature Set B](https://apac.cockpit.btp.cloud.sap/)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+
+
+</td>
+<td valign="top">
+
+ap21
+
+
+
+</td>
+<td valign="top">
+
+Singapore
+
+
+
+</td>
+<td valign="top">
+
+cf-ap21
+
+
+
+</td>
+<td valign="top">
+
+southeastasia
+
+
+
+</td>
+<td valign="top">
+
+20.6.9.203, 20.198.169.36, 20.195.25.14
+
+
+
+</td>
+<td valign="top">
+
+api.cf.ap21.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+ap21.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+[Feature Set A](https://account.ap1.hana.ondemand.com/cockpit/#/home/allaccounts/?datacenter=cf-ap21)
+
+[Feature Set B](https://apac.cockpit.btp.cloud.sap/)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+
+
+</td>
+<td valign="top">
+
+jp20
+
+
+
+</td>
+<td valign="top">
+
+Japan \(Tokyo\)
+
+
+
+</td>
+<td valign="top">
+
+cf-jp20
+
+
+
+</td>
+<td valign="top">
+
+japaneast
+
+
+
+</td>
+<td valign="top">
+
+20.78.124.111, 20.63.141.36, 20.78.37.7
+
+
+
+</td>
+<td valign="top">
+
+api.cf.jp20.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+jp20.hana.ondemand.com
+
+
+
+</td>
+<td valign="top">
+
+[Feature Set A](https://account.ap1.hana.ondemand.com/cockpit/#/home/allaccounts/?datacenter=cf-jp20)
+
+[Feature Set B](https://apac.cockpit.btp.cloud.sap/)
 
 
 
@@ -757,71 +1250,6 @@ Amazon Web Services
 </td>
 <td valign="top">
 
-eu10
-
-
-
-</td>
-<td valign="top">
-
-Europe \(Frankfurt\)
-
-
-
-</td>
-<td valign="top">
-
-cf-eu10
-
-
-
-</td>
-<td valign="top">
-
-eu-central-1
-
-
-
-</td>
-<td valign="top">
-
-3.124.22.250, 3.124.41.239, 52.29.53.204
-
-
-
-</td>
-<td valign="top">
-
-api.cf.eu10.hana.ondemand.com
-
-
-
-</td>
-<td valign="top">
-
-eu10.hana.ondemand.com
-
-
-
-</td>
-<td valign="top">
-
- [Trial](https://cockpit.eu10.hana.ondemand.com/trial) 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Amazon Web Services
-
-
-
-</td>
-<td valign="top">
-
 us10
 
 
@@ -878,11 +1306,6 @@ us10.hana.ondemand.com
 </td>
 </tr>
 </table>
-
-> ### Restriction:  
-> Trial accounts and subaccounts on trial can no longer be created on eu10, Europe \(Frankfurt\).
-> 
-> Existing trial accounts and subaccounts are not affected.
 
 > ### Caution:  
 > Some customer contracts include EU access, which means that we only use European subprocessors to access personal data in cloud services, such as when we provide support. We currently cannot guarantee EU access in the ABAP environment. If your contract includes EU access, we cannot move services to the ABAP environment, without changing your contract.

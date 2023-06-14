@@ -165,7 +165,7 @@ If you’re located in China and want to buy a global account onSAP BTP you need
 </td>
 <td valign="top">
 
-To join the partner program, sign up for [SAP Partner Edge - Build](https://www.sap.com/partner/become/partneredge-build.html).
+Sign up to join the [SAP Partner Program](https://www.sap.com/partners/partner-program/build.html).
 
 
 

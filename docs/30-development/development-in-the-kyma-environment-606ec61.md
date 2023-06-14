@@ -10,7 +10,7 @@ Learn more about developing applications in the Kyma environment.
 
 ## Overview
 
-The [Kyma Environment](../10-concepts/kyma-environment-468c2f3.md#loio468c2f3c3ca24c2c8497ef9f83154c44) allows you to build simple Functions, develop, and deploy more complex microservices, or mixtures of those, depending on your use case complexity level. Both Functions and microservices can act as standalone applications or extensions of these SAP systems:
+The [Kyma Environment](../10-concepts/kyma-environment-468c2f3.md#loio468c2f3c3ca24c2c8497ef9f83154c44) allows you to build simple Functions, develop, and deploy more complex microservices, or mixtures of those, depending on your use case complexity level. Both Functions and microservices can act as stand-alone applications or extensions of these SAP systems:
 
 -   SAP S/4HANA
 
@@ -21,6 +21,7 @@ The [Kyma Environment](../10-concepts/kyma-environment-468c2f3.md#loio468c2f3c3c
 -   SAP Field Service Management
 
 -   SAP SuccessFactors
+
 -   SAP Customer Experience systems:
 
     -   SAP Commerce Cloud
@@ -43,11 +44,27 @@ With the Kyma environment, you can create microservices in the language of your 
 
 <a name="loio606ec610ee4746c09d5d2bef5a85a124__section_q5j_fhb_g4b"/>
 
-## Kyma Dashboard And kubectl
+## Kyma Dashboard and kubectl
 
 The Kyma environment comes with a central administration dashboard \(Kyma Dashboard\), which allows you to deploy microservices, create Functions, and manage their configurations. You can also use it to connect SAP BTP services to your cluster and manage them using SAP BTP Service Operator, create instances of these services, and use them in your microservices or Functions.
 
 For those who prefer to work with command-line tools, the Kyma environment also offers the Kubernetes command-line tool, kubectl.
+
+
+
+<a name="loio606ec610ee4746c09d5d2bef5a85a124__section_zm5_4pl_qxb"/>
+
+## Using API
+
+The external and Kyma components API may vary from the least stable alpha version through a more stable beta and the most stable **vX** version \(**X** being an integer\). While using the alpha version, you can face issues with component upgrades, as there is no guarantee that the API will not change or won’t be removed in the future. Always use the components' most stable API version. For more information, check the [Kubernetes API versioning](https://kubernetes.io/docs/reference/using-api/#api-versioning).
+
+Use this command to get the list of the APIs in the alpha version, their kind, and version:
+
+```
+kubectl get crd -o custom-columns="KIND:.spec.names.kind,GROUP:.spec.group,VERSION:.spec.versions[*].name" | grep alpha
+```
+
+For example, the APIRule kind that belongs to the `gateway.kyma-project.io` group is available in the alpha and beta and versions. In such a case, use the more stable beta version.
 
 
 
@@ -76,11 +93,9 @@ To help you get started with the development process, go through the set of tuto
 
 ## Related Information
 
-
-
 -   [Extension Samples](https://github.com/SAP-samples/kyma-runtime-extension-samples)
 
-    Kyma provides you with a ready-to-use project that contains sample applications. You can take advantage of them to build event- and API-based extensions in the Kyma environment using your favorite technology. These samples are implemented in multiple languages and demonstrate various Kyma environment features and use case scenarios.
+    Kyma provides a ready-to-use project that contains sample applications. You can take advantage of them to build event- and API-based extensions in the Kyma environment using your favorite technology. These samples are implemented in multiple languages and demonstrate various Kyma environment features and use case scenarios.
 
 -   [Using SAP BTP Services in the Kyma Environment](using-sap-btp-services-in-the-kyma-environment-ea4dd81.md)
 
