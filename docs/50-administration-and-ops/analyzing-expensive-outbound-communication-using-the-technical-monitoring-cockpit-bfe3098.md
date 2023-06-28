@@ -20,7 +20,7 @@ You have set up a profile to capture request statistics relating to outbound com
 
 2.  From the list of capture profiles, choose the profile that you have defined to collect ABAP statistics records for expensive system outbound communication.
 
-3.  Choose the *Captured Request Statistics* button.
+3.  Choose the *Analyze Request Statistics* button.
 
     The *Captured Request Statistics* screen in the technical monitoring cockpit opens. On this screen, you can find all workloads that were captured using your profile in the *Capture Request Statistics* app. You can now investigate in more detail which service requests were responsible for expensive outbound communication and what details their ABAP statistics records contain, such as the related outbound HTTP, RFC, or Web service calls.
 

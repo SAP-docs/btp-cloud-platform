@@ -29,7 +29,7 @@ To start using kubectl, follow these steps:
 
 2.  In the SAP BTP cockpit, in your subaccount *Overview*, go to the *Kyma Environment* section, and click on the *KubeconfigURL* link to download `kubeconfig.yaml`.
 
-3.  Export the kubeconfig file.
+3.  In the terminal, export the kubeconfig file.
 
     -   On macOS, run:
 

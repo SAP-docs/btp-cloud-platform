@@ -39,7 +39,7 @@ In the following example, let's analyze the usage of an application built accord
 
     ![](images/System_Workload_User_Story_Details_Start_Screen_e8bf30d.png)
 
-4.  You can see that one of the topTo see more details, let’s choose that first highlighted entry in the list. On the subsequent *Request Processing* screen, you can now see the behavior of this specific workload \(the flight processing service\) over time:
+4.  To see more details, let’s choose that first highlighted entry in the list. On the subsequent *Request Processing* screen, you can now see the behavior of this specific workload \(the flight processing service\) over time:
 
     ![](images/System_Workload_Request_Processing_Stacked_Total_Times_95614b9.png)
 

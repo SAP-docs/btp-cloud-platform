@@ -1715,7 +1715,7 @@ Deliver blockchain-based services on any connected blockchain network.
 <tr>
 <td valign="top">
 
- [SAP Build](https://help.sap.com/viewer/product/SAP_BUILD/Cloud/en-US) 
+ [SAP Build Classic](https://help.sap.com/viewer/product/SAP_BUILD_CLASSIC/Cloud/en-US) 
 
 
 
@@ -2583,6 +2583,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 <td valign="top">
 
 -   Europe \(Frankfurt\)
+-   Europe \(Frankfurt\) EU Access
 -   US East \(VA\)
 -   Japan \(Tokyo\)
 
@@ -3262,6 +3263,7 @@ Apply machine learning to predict and classify data records.
 <td valign="top">
 
 -   Europe \(Frankfurt\)
+-   Europe \(Frankfurt\) EU Access
 -   US East \(VA\)
 
 
@@ -6981,14 +6983,14 @@ Manage cryptographic keys and certificates.
 <tr>
 <td valign="top">
 
- [Kyma runtime](https://help.sap.com/viewer/3504ec5ef16548778610c7e89cc0eac3/Cloud/en-US/468c2f3c3ca24c2c8497ef9f83154c44.html) 
+ [Kyma Runtime](https://help.sap.com/viewer/3504ec5ef16548778610c7e89cc0eac3/Cloud/en-US/468c2f3c3ca24c2c8497ef9f83154c44.html) 
 
 
 
 </td>
 <td valign="top">
 
-Extend SAP solutions using cloud-native microservices and serverless Functions.
+Develop and run containerized applications and extensions on Kubernetes.
 
 
 
@@ -8489,7 +8491,7 @@ Create role based, multi-channel sites to access business apps and content.
 </td>
 <td valign="top">
 
--   EP-CPP-NEO-OPS
+-   EP-CPP-NEO-LS
 
 
 
@@ -8559,7 +8561,7 @@ Create role based, multi-channel sites to access business apps and content.
 </td>
 <td valign="top">
 
--   EP-CPP-CF-OPS
+-   EP-WZ-LND
 
 
 
@@ -8625,7 +8627,7 @@ Create role based, multi-channel sites to access business apps and content.
 </td>
 <td valign="top">
 
--   EP-CPP-CF-OPS
+-   EP-WZ-LND
 
 
 
@@ -8688,7 +8690,7 @@ Create role based, multi-channel sites to access business apps and content.
 </td>
 <td valign="top">
 
--   EP-CPP-CF-OPS
+-   EP-WZ-LND
 
 
 
@@ -8748,7 +8750,7 @@ Create role based, multi-channel sites to access business apps and content.
 </td>
 <td valign="top">
 
--   EP-CPP-CF-OPS
+-   EP-WZ-LND
 
 
 
@@ -9380,124 +9382,6 @@ Cloud Offering with End-to-End visibility on Business Processes
 <td valign="top">
 
 -   China \(Shanghai\)\*\*
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- [Variant Configuration service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
-
-
-
-</td>
-<td valign="top">
-
-Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
-
-
-
-</td>
-<td valign="top">
-
--   LOD-CPS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   US East \(VA\)
--   Singapore
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- [Variant Configuration service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
-
-
-
-</td>
-<td valign="top">
-
-Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
-
-
-
-</td>
-<td valign="top">
-
--   LOD-CPS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Netherlands\)
 
 
 
@@ -10640,6 +10524,62 @@ Organize your documents with ready-to-use document management capabilities.
 <tr>
 <td valign="top">
 
+ [SAP Secure Login Service for SAP GUI](https://help.sap.com/sls) 
+
+
+
+</td>
+<td valign="top">
+
+Get client certificates via Secure Login Client \(SLC\) to log-on with SAP GUI.
+
+
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-SEC-SLS
+
+
+
+</td>
+<td valign="top">
+
+-   
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   This service does not run on standard SAP Cloud Platform regions. Check out [this note](https://help.sap.com/doc/aa1ccd10da6c4337aa737df2ead1855b/Cloud/en-US/3b642f68227b4b1398d2ce1a5351389a.html#loio3b642f68227b4b1398d2ce1a5351389a__otherregions) for further details.
+
+
+
+</td>
+<td valign="top">
+
+-   
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
  [SAP Analytics Cloud, embedded edition](https://help.sap.com/viewer/product/SAC_EMBEDDED_EDITION/1.0/en-US) 
 
 
@@ -10843,7 +10783,7 @@ Simplify access to applications by establishing a central entry point.
 </td>
 <td valign="top">
 
--   EP-CPP-CF-LND
+-   EP-WZ-DMN
 
 
 
@@ -10909,7 +10849,7 @@ Simplify access to applications by establishing a central entry point.
 </td>
 <td valign="top">
 
--   EP-CPP-CF-LND
+-   EP-WZ-DMN
 
 
 
@@ -10972,7 +10912,7 @@ Simplify access to applications by establishing a central entry point.
 </td>
 <td valign="top">
 
--   EP-CPP-CF-LND
+-   EP-WZ-DMN
 
 
 
@@ -11032,7 +10972,7 @@ Simplify access to applications by establishing a central entry point.
 </td>
 <td valign="top">
 
--   EP-CPP-CF-LND
+-   EP-WZ-DMN
 
 
 
@@ -11878,7 +11818,7 @@ Calculate sourcing results based on your own sourcing strategies.
 </td>
 <td valign="top">
 
-Orchestrate, refine, enrich, apply intelligence on your governed data across your entire distributed data landscape.
+Connect data from various sources to enable next-generation data management.
 
 
 
@@ -11939,7 +11879,7 @@ Orchestrate, refine, enrich, apply intelligence on your governed data across you
 </td>
 <td valign="top">
 
-Orchestrate, refine, enrich, apply intelligence on your governed data across your entire distributed data landscape.
+Connect data from various sources to enable next-generation data management.
 
 
 
@@ -12967,253 +12907,6 @@ Simplify the complex connectivity, scalability, and management of IoT.
 <tr>
 <td valign="top">
 
- [Launchpad Service](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
-
-
-
-</td>
-<td valign="top">
-
-Simplify access to applications by establishing a central launchpad.
-
-
-
-</td>
-<td valign="top">
-
--   EP-CPP-CF-LND
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   US East \(VA\)
--   Brazil \(São Paulo\)
--   Japan \(Tokyo\)
--   Australia \(Sydney\)
--   Singapore
--   Canada \(Montreal\)
--   Europe \(Frankfurt\) EU Access
--   South Korea \(Seoul\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- [Launchpad Service](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
-
-
-
-</td>
-<td valign="top">
-
-Simplify access to applications by establishing a central launchpad.
-
-
-
-</td>
-<td valign="top">
-
--   EP-CPP-CF-LND
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Singapore
--   US West \(WA\)
--   US East \(VA\)
--   Europe \(Netherlands\)
--   Japan \(Tokyo\)
--   Australia \(Sydney\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- [Launchpad Service](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
-
-
-
-</td>
-<td valign="top">
-
-Simplify access to applications by establishing a central launchpad.
-
-
-
-</td>
-<td valign="top">
-
--   EP-CPP-CF-LND
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   GCP
-
-
-
-</td>
-<td valign="top">
-
--   US Central \(IA\)
--   India \(Mumbai\)
--   Europe \(Frankfurt\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- [Launchpad Service](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
-
-
-
-</td>
-<td valign="top">
-
-Simplify access to applications by establishing a central launchpad.
-
-
-
-</td>
-<td valign="top">
-
--   EP-CPP-CF-LND
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Alibaba
-
-
-
-</td>
-<td valign="top">
-
--   China \(Shanghai\)\*\*
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
  [SAP Leonardo ML Foundation](https://help.sap.com/viewer/p/SAP_LEONARDO_MACHINE_LEARNING_FOUNDATION) 
 
 
@@ -13544,6 +13237,8 @@ Calculate effective sales prices by applying promotional rules.
 <td valign="top">
 
 -   Europe \(Netherlands\)
+-   US East \(VA\)
+-   Australia \(Sydney\)
 
 
 
@@ -15653,6 +15348,124 @@ Add UI adaptation to your UI5 applications.
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
 -   India \(Mumbai\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Variant Configuration service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
+
+
+
+</td>
+<td valign="top">
+
+Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
+
+
+
+</td>
+<td valign="top">
+
+-   LOD-CPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US East \(VA\)
+-   Singapore
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Variant Configuration service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
+
+
+
+</td>
+<td valign="top">
+
+Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
+
+
+
+</td>
+<td valign="top">
+
+-   LOD-CPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
 
 
 
