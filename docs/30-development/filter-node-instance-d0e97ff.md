@@ -10,7 +10,7 @@ A filter node instance filters and returns only the results that match the speci
 
 ## Overview
 
-The ***$filter*** system query option restricts the set of items returned. It allows you to filter are source collection addressed by a request URI. The expression specified with ***$filter*** is evaluated for each resource in the collection. Only items where the expression is ***true*** are included in the response.
+The `$filter` system query option restricts the set of items returned. It allows you to filter are source collection addressed by a request URI. The expression specified with `$filter` is evaluated for each resource in the collection. Only items where the expression is `true` are included in the response.
 
 In this example, you want to read a collection of sales orders and get only the unpaid orders. Here's an example of the OData request:
 

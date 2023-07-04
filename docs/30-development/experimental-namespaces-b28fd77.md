@@ -24,7 +24,7 @@ Use this feature to prevent conflicts for applications deriving from the same MT
 
 By using the namespaces feature, you can deploy and operate a single multitarget applicaton multiple times within a single space. This is useful when you have to avoid conflicts among applications or entities. It modifies the modules and resources by adding a namespace at the beginning of the application names, service names, and routes.
 
-The feature is employed by adding the parameter ***\--namespace***, when you input the deployment command in the Cloud Foundry Command Line Interface \(CF CLI\), and by modifying the deployment descriptor as described below. Using a more detailed configuration, you can include of exclude specific resources from having the namespace feature applied to them, namely:
+The feature is employed by adding the parameter `--namespace`, when you input the deployment command in the Cloud Foundry Command Line Interface \(CF CLI\), and by modifying the deployment descriptor as described below. Using a more detailed configuration, you can include of exclude specific resources from having the namespace feature applied to them, namely:
 
 -   services
 -   modules
@@ -75,36 +75,36 @@ To deploy several entities of a multitarget application using namespaces, procee
 
 2.  Using the CF CLI, deploy the initial MTA archive by using the following command:
 
-    ***$ cf deploy ./MyMTA.mtar***
+    `$ cf deploy ./MyMTA.mtar`
 
 3.  \(Optional\) Check the deployment by inspecting the applications and details. Use the commands:
 
-    ***$ cf a***
+    `$ cf a`
 
-    ***$ cf mtas***
+    `$ cf mtas`
 
-    ***$ cf mta MyMTA***
+    `$ cf mta MyMTA`
 
 4.  For each subsequent deployment of the same MTA archive, use the following command:
 
-    ***$ cf deploy ./MyMTA.mtar --namespace <your namespace\>***
+    `$ cf deploy ./MyMTA.mtar --namespace <your namespace>`
 
 5.  \(Optional\) Check whether your subsequent deployments have not removed the original MTA deployment:
 
-    ***$ cf a***
+    `$ cf a`
 
-    ***$ cf mtas***
+    `$ cf mtas`
 
-    ***$ cf mta MyMTA --namespace <your namespace\>***
+    `$ cf mta MyMTA --namespace <your namespace>`
 
 6.  Validate your deployments by calling their exposed web endpoints:
 
-    ***$ cf a | grep '^appA'***
+    `$ cf a | grep '^appA'`
 
-    ***$ cf a | grep '^<your namespace\>-appA'***
+    `$ cf a | grep '^<your namespace>-appA'`
 
-    1.  when using a route without a namespace ***curl https://route-without-namespace.<domain\>***
-    2.  when using a route with a namespace ***curl https://<your namespace\>-route-with-namespace.<domain\>***
+    1.  when using a route without a namespace `curl https://route-without-namespace.<domain>`
+    2.  when using a route with a namespace `curl https://<your namespace>-route-with-namespace.<domain>`
 
 
 You might have one of the following results, depending on your usage

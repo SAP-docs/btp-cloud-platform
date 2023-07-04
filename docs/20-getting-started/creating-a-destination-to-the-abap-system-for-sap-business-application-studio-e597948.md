@@ -48,7 +48,7 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     </td>
     <td valign="top">
     
-        Enter a name for the destination, for example, ***SAP\_Business\_Application\_Studio***.
+        Enter a name for the destination, for example, `SAP_Business_Application_Studio`.
 
 
     
@@ -230,7 +230,7 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     </td>
     <td valign="top">
     
-        ***true***
+        `true`
 
 
     
@@ -246,7 +246,7 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     </td>
     <td valign="top">
     
-        ***60000***
+        `60000`
 
 
     
@@ -262,7 +262,7 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     </td>
     <td valign="top">
     
-        ***true***
+        `true`
 
 
     
@@ -278,7 +278,7 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     </td>
     <td valign="top">
     
-        ***odata\_abap,dev\_abap,abap\_cloud***
+        `odata_abap,dev_abap,abap_cloud`
 
 
     

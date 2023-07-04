@@ -2,7 +2,7 @@
 
 # Create an Exception
 
-One item category, which can be written into an application log, is an *Exception*. An exception is raised by the application using ABAP command ***RAISE EXCEPTION*** and can be caught by ABAP command ***CATCH***.
+One item category, which can be written into an application log, is an *Exception*. An exception is raised by the application using ABAP command `RAISE EXCEPTION` and can be caught by ABAP command `CATCH`.
 
 To define an application log exception, you can set the following attributes:
 

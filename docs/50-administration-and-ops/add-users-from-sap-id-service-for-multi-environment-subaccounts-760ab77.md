@@ -37,5 +37,5 @@ For more information, see [Working with Users](working-with-users-2c91f88.md).
 
 [Platform Identity Provider](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/80edbe70b8f3478d8a59c21a91a47aa6.html "The platform identity provider is the user base for access to your SAP BTP subaccount in the Neo environment. The default user base is provided by SAP ID Service. You can switch to an Identity Authentication tenant if you want to use a custom user base.") :arrow_upper_right:
 
-[Mapping Role Collections in the Subaccount](mapping-role-collections-in-the-subaccount-9e1bf57.md "You have arranged roles in role collections, and now want to assign or map these role collections to business users.")
+[Mapping Role Collections in the Subaccount](mapping-role-collections-in-the-subaccount-9e1bf57.md "You've arranged roles in role collections, and now want to assign or map these role collections to business users.")
 

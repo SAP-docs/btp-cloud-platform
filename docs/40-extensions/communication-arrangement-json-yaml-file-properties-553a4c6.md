@@ -136,7 +136,7 @@ The ID of the SAP S/4HANA Cloud communication scenario.
 
 -   Allowed characters: \[A-Z0-9\_\]
 
--   Pattern: ***SAP\_COM\_<number\>***
+-   Pattern: `SAP_COM_<number>`
 
 
 
@@ -519,7 +519,7 @@ This is equivalent to the *Service Status* checkbox in the SAP S/4HANA Cloud sys
 
 -   Required: No
 
--   Default value: ***true***
+-   Default value: `true`
 
 
 

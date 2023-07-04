@@ -30,6 +30,11 @@ To enable programmatic access to the SAP Authorization and Trust Management serv
 
 -   You have an org and a space where you can create a service instance.
 
+    > ### Note:  
+    > If the org is located on an extension landscape, you've logged on to the main landscape at least once. For example, if you log on to `https://api.cf.eu10-002.hana.ondemand.com`, you've also logged on to `https://api.cf.eu10.hana.ondemand.com` at least once.
+    > 
+    > See also [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md).
+
 
 
 
@@ -37,7 +42,7 @@ To enable programmatic access to the SAP Authorization and Trust Management serv
 
 One use case for this scenario is to use your own identity management system to integrate it with SAP BTP. The API is a RESTful API that includes access to authorization, user, group, and identity provider interfaces. The user, group, and identity provider interfaces use System for Cross-domain Identity Management \(SCIM\) protocol.
 
-For more information about the available APIs, see [https://api.sap.com/package/authtrustmgmnt](https://api.sap.com/package/authtrustmgmnt) on *SAP API Business Hub*.
+For more information about the available APIs, see [https://api.sap.com/package/authtrustmgmnt](https://api.sap.com/package/authtrustmgmnt) on *SAP Business Accelerator Hub*.
 
 
 
@@ -47,7 +52,7 @@ For more information about the available APIs, see [https://api.sap.com/package/
 
     Enter the following command:
 
-    ***cf target -o *<org\_name\>* -s *<space\_name\>****
+    <code>cf target -o <i class="varname">&lt;org_name&gt;</i> -s <i class="varname">&lt;space_name&gt;</i></code>
 
     For example:
 
@@ -57,7 +62,7 @@ For more information about the available APIs, see [https://api.sap.com/package/
 
     Enter the following command:
 
-    ***cf create-service xsuaa apiaccess *<access\_name\>****
+    <code>cf create-service xsuaa apiaccess <i class="varname">&lt;access_name&gt;</i></code>
 
     For example:
 
@@ -69,7 +74,7 @@ For more information about the available APIs, see [https://api.sap.com/package/
 
     Enter the following command:
 
-    ***cf create-service-key *<access\_name\>* *<key\_name\>****
+    <code>cf create-service-key <i class="varname">&lt;access_name&gt;</i> <i class="varname">&lt;key_name&gt;</i></code>
 
     For example:
 
@@ -81,7 +86,7 @@ For more information about the available APIs, see [https://api.sap.com/package/
 
     Enter the following command:
 
-    ***cf service-key *<access\_name\>* *<key\_name\>****
+    <code>cf service-key <i class="varname">&lt;access_name&gt;</i> <i class="varname">&lt;key_name&gt;</i></code>
 
     For example:
 

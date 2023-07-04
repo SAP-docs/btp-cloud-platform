@@ -16,7 +16,7 @@ SAP Cloud Platform Cockpit:
 
 1.  Select your Web Socket destination within your used destination service.
 
-2.  Under *Additional Properties*, apply the*jco.client.tls\_client\_certificate\_logon property*and set it to value ***1***.
+2.  Under *Additional Properties*, apply the*jco.client.tls\_client\_certificate\_logon property*and set it to value `1`.
 
 3.  Click *Save*.
 

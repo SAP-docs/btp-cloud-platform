@@ -197,17 +197,17 @@ Single-value labels are useful for labels that have an identifier, or for labels
 </td>
 <td valign="top">
 
--   Label Name: ***Cost Object***
+-   Label Name: `Cost Object`
 
-    Value: The ID of a cost center number or internal order that is associated with the entity, such as: ***000001134789***
+    Value: The ID of a cost center number or internal order that is associated with the entity, such as: `000001134789`
 
--   Label Name: ***Status***
+-   Label Name: `Status`
 
-    Value: ***Active*** or ***Inactive***
+    Value: `Active` or `Inactive`
 
--   Label Name: ***Landscape***
+-   Label Name: `Landscape`
 
-    Value: ***Dev*** or ***Test*** or ***Production***
+    Value: `Dev` or `Test` or `Production`
 
 
 
@@ -224,9 +224,9 @@ Multi-value labels make them useful for labels that typically have more than one
 </td>
 <td valign="top">
 
--   Label Name: ***Contacts***
+-   Label Name: `Contacts`
 
-    Value: The e-mail addresses or names of users that are responsible for the entity, such as: ***admin-1@example.com*** and ***admin-2@example.com***
+    Value: The e-mail addresses or names of users that are responsible for the entity, such as: `admin-1@example.com` and `admin-2@example.com`
 
 
 
@@ -245,11 +245,11 @@ Note that currently for service instances, labels must have at least value.
 </td>
 <td valign="top">
 
--   Label Name: ***For demo only***
+-   Label Name: `For demo only`
 
--   Label Name: ***Audited***
+-   Label Name: `Audited`
 
--   Label Name: ***Flagged for deletion***
+-   Label Name: `Flagged for deletion`
 
 
 
@@ -284,7 +284,7 @@ When working with labels, consider the following aspects:
 
     When you view a subaccount in the cockpit, the subaccount also shows the labels that are assigned to its parent directory and to other directories that are above it in the same path in your account structure. And in the *Account Explorer*, when you filter by labels that are assigned to a directory, the subaccounts in that directory path are also listed. We refer to these as inherited labels.
 
--   Label names and values are case-sensitive, which means you can create variants of the same label name with a different casing; for example, ***My Label*** and ***My label*** can coexist as separate labels. We recommend that you avoid using different casing or styling to create variants of the same names or values.
+-   Label names and values are case-sensitive, which means you can create variants of the same label name with a different casing; for example, `My Label` and `My label` can coexist as separate labels. We recommend that you avoid using different casing or styling to create variants of the same names or values.
 
 
 

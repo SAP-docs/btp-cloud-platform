@@ -17,18 +17,21 @@ You want to assign a role collection to a user group provided by an identity pro
     > 
     > <code>https://<i class="varname">&lt;tenant_id&gt;</i>.accounts.ondemand.com</code>
 
--   You've configured the identity provider so that it conveys the user's group memberships in the *Groups* assertion attribute.
+-   You've configured the identity provider so that it conveys the user's group memberships in the *groups* assertion attribute.
+
+    -   For business users, see [Map User Attributes from a Corporate Identity Provider for Business Users](map-user-attributes-from-a-corporate-identity-provider-for-business-users-bbb4a8a.md).
+
+    -   For platform users, see [Map User Attributes from a Corporate Identity Provider for Platform Users](map-user-attributes-from-a-corporate-identity-provider-for-platform-users-40c2e54.md).
+
 
 -   You've created role collections.
 
-
-For more information, see the related links.
 
 
 
 ## Context
 
-The identity provider provides the business users, who can belong to user groups. It’s efficient to map user groups to role collections. The role collection as a reusable element contains the authorizations that are necessary for this user group. Mappings save time when you want to add a new business user. Simply add the user to the respective user group or groups, and the business user automatically gets all the authorizations that are included in the role collections.
+The identity provider provides the users, who can belong to user groups. It’s efficient to map user groups to role collections. The role collection as a reusable element contains the authorizations that are necessary for this user group. Mappings save time when you want to add a new user. Simply add the user to the respective user group or groups, and the user automatically gets all the authorizations that are included in the role collections.
 
 
 
@@ -42,8 +45,6 @@ You can also map role collections to attributes other than groups. For more info
 
 
 [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md "When setting up accounts you need to assign users. While we provide you with your first users to get you started, your organization has identity providers that you want to integrate.")
-
-[Federation Attribute Settings of Any Identity Provider](federation-attribute-settings-of-any-identity-provider-6d07333.md "This table is supposed to display the attribute settings of the identity provider and the values administrators use to establish trust between the SAML 2.0 identity provider and a new subaccount.")
 
 [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 

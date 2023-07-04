@@ -16,7 +16,7 @@ Create an OData request to read an entity list \(entity collection\) in the Clie
 
 See also: [\[MS-ODATA\]: Open Data Protocol \(OData\)](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-odata).
 
-A ***RetrieveEntitySet*** Request is used by a client to update the entries in an AtomPub Collection, as specified in [RFC5023](https://www.rfc-editor.org/rfc/rfc5023.txt), that maps to an ***EntitySet*** in the abstract data model.
+A `RetrieveEntitySet` Request is used by a client to update the entries in an AtomPub Collection, as specified in [RFC5023](https://www.rfc-editor.org/rfc/rfc5023.txt), that maps to an `EntitySet` in the abstract data model.
 
 
 
@@ -36,7 +36,7 @@ OData services support data requests for using HTTP GET requests. The URL path s
 
 ### Version 4
 
-Get all entities of entity set “***Employees***”
+Get all entities of entity set “`Employees`”
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees
@@ -46,7 +46,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees
 
 ### Version 2
 
-Get all entities of entity set “***Employees***”
+Get all entities of entity set “`Employees`”
 
 ```
 GET /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Employees
@@ -63,17 +63,17 @@ GET /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Employees
 ### Overview
 
 > ### Note:  
-> As the coding is independent of the OData version, we're presenting a general example on how to create a ***READ*** request on an entity list.
+> As the coding is independent of the OData version, we're presenting a general example on how to create a `READ` request on an entity list.
 
-The starting point for a ***GET*** entity request is the [Client Proxy Examples](client-proxy-examples-7984f71.md). You can create a ***read list request*** based on an ***entity list resource***.
+The starting point for a `GET` entity request is the [Client Proxy Examples](client-proxy-examples-7984f71.md). You can create a `read list request` based on an `entity list resource`.
 
-Running the ***read list request*** provides the read list response that can provide the business data of the READ entity list request.
+Running the `read list request` provides the read list response that can provide the business data of the READ entity list request.
 
 
 
 ### Example
 
-Fetch all entities of the Version 4 entity set ‘***Employees***':
+Fetch all entities of the Version 4 entity set ‘`Employees`':
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees
@@ -98,7 +98,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees
 
 ### Steps
 
-**Step 1:** Create the entity list resource for entity set ‘***Employees***’ \(with **internal** name ‘***EMPLOYEES***’\):
+**Step 1:** Create the entity list resource for entity set ‘`Employees`’ \(with **internal** name ‘`EMPLOYEES`’\):
 
 ```
 

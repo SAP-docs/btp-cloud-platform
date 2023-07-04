@@ -28,7 +28,7 @@ For more information about creating user groups in the Identity Authentication s
 
 3.  If no user group for developers exists, choose *\+ Add*.
 
-4.  Enter a name, for example, ***Developers***.
+4.  Enter a name, for example, `Developers`.
 
 5.  Enter a display name and a description.
 

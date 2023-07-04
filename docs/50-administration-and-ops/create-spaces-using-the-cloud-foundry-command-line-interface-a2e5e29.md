@@ -39,7 +39,7 @@ Use the `cf create-space` command to create spaces in your Cloud Foundry organiz
     cf create-space SPACE [-o ORG] [-q SPACE_QUOTA]
     ```
 
-3.  \(Optional\) Set this space as target by executing: <code><b><i>cf target -o ORG -s SPACE</i></b></code>
+3.  \(Optional\) Set this space as target by executing: <code><code>cf target -o ORG -s SPACE</code></code>
 
     > ### Note:  
     > If you are assigned to only one Cloud Foundry organization and space, the system automatically targets you to the relevant Cloud Foundry organization and space when you log on.

@@ -29,7 +29,7 @@ For the data definitions that you want to protect, you need to define the use of
 
 1.  Add the following line to the data definition of the interface:
 
-    ***@AccessControl.authorizationCheck: \#CHECK***
+    `@AccessControl.authorizationCheck: #CHECK`
 
     For more information, see [Access Control Annotations](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/f0a2c16bf64e4edc92f393bcaab0a1c7.html) in the documentation of the ABAP RESTful Application Programming Model.
 

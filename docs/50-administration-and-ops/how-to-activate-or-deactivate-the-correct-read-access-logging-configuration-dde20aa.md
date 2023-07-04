@@ -20,38 +20,40 @@ To activate or deactivate Read Access Logging for certain apps, follow the steps
 
     -   If the app has an app ID such as `F1492`, please proceed with the steps in the section *Activating and Deactivating Read Access Logging for Apps with App ID*.
 
-4.  **Activating and Deactivating Read Access Logging for Apps with App ID:**
-5.  Copy the app ID.
 
-6.  Go to the [SAP Fiori apps reference library](https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/) and select *All Apps*.
+**Activating and Deactivating Read Access Logging for Apps with App ID:**
 
-7.  In the *Search* bar, paste the app ID you have just copied.
+4.  Copy the app ID.
 
-8.  Click the app entry in the results list.
+5.  Go to the [SAP Fiori apps reference library](https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/) and select *All Apps*.
 
-9.  On the *App Details* screen, select *SAP S/4HANA Cloud* from the dropdown list.
+6.  In the *Search* bar, paste the app ID you have just copied.
 
-10. In the section *Implementation Information*, select your current SAP S/4HANA Cloud release.
+7.  Click the app entry in the results list.
 
-11. Open the subsection *Configuration* and copy the OData service name/s and the OData service version of the app.
+8.  On the *App Details* screen, select *SAP S/4HANA Cloud* from the dropdown list.
 
-12. Go back to the SAP Fiori launchpad and open the app Read Access Logging Configuration.
+9.  In the section *Implementation Information*, select your current SAP S/4HANA Cloud release.
 
-13. Go to *Configuration*.
+10. Open the subsection *Configuration* and copy the OData service name/s and the OData service version of the app.
 
-14. Select the channel *SAP Gateway*.
+11. Go back to the SAP Fiori launchpad and open the app Read Access Logging Configuration.
 
-15. Paste the OData service name that you have just copied in the field *Service ID*.
+12. Go to *Configuration*.
+
+13. Select the channel *SAP Gateway*.
+
+14. Paste the OData service name that you have just copied in the field *Service ID*.
 
     If you have copied more than one OData service name, you can add further *Service ID* fields to your search criteria.
 
-16. Paste the OData service version that you have just copied in the field *Service Version*.
+15. Paste the OData service version that you have just copied in the field *Service Version*.
 
-17. Click *Search*.
+16. Click *Search*.
 
     In the search results list, you can see if Read Access Logging configurations exist for the service/s and, thus, for the app, and if the Read Access Logging is active or inactive.
 
-18. To activate or deactive Read Access Logging, select the service/s, and click either *Activate* or *Deactivate*.
+17. To activate or deactive Read Access Logging, select the service/s, and click either *Activate* or *Deactivate*.
 
     Read Access Logging is now activated or deactivated for the respective app.
 

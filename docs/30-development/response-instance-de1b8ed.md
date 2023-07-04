@@ -31,15 +31,15 @@ A response instance is always created by the corresponding request instance when
 
 These response types are available:
 
--   `/IWBEP/IF_CP_RESPONSE_ACTION`: ***ACTION*** request response.
--   `/IWBEP/IF_CP_RESPONSE_CREATE`: ***CREATE*** request response.
--   `/IWBEP/IF_CP_RESPONSE_DELETE`: ***DELETE*** entity request response.
--   `/IWBEP/IF_CP_RESPONSE_FUNCTION`: ***FUNCTION*** request response.
--   `/IWBEP/IF_CP_RESPONSE_READ`: ***READ*** entity request response.
--   `/IWBEP/IF_CP_RESPONSE_READ_01`: ***READ*** entity \(with zero-to-one navigation\) request response.
--   `/IWBEP/IF_CP_RESPONSE_READ_LST`: ***READ*** entity list request response.
--   `/IWBEP/IF_CP_RESPONSE_UPDATE`: ***UPDATE*** entity request response.
--   `/IWBEP/IF_CP_RESPONSE_UPDATE_L`: ***UPDATE*** entity list request response.
+-   `/IWBEP/IF_CP_RESPONSE_ACTION`: `ACTION` request response.
+-   `/IWBEP/IF_CP_RESPONSE_CREATE`: `CREATE` request response.
+-   `/IWBEP/IF_CP_RESPONSE_DELETE`: `DELETE` entity request response.
+-   `/IWBEP/IF_CP_RESPONSE_FUNCTION`: `FUNCTION` request response.
+-   `/IWBEP/IF_CP_RESPONSE_READ`: `READ` entity request response.
+-   `/IWBEP/IF_CP_RESPONSE_READ_01`: `READ` entity \(with zero-to-one navigation\) request response.
+-   `/IWBEP/IF_CP_RESPONSE_READ_LST`: `READ` entity list request response.
+-   `/IWBEP/IF_CP_RESPONSE_UPDATE`: `UPDATE` entity request response.
+-   `/IWBEP/IF_CP_RESPONSE_UPDATE_L`: `UPDATE` entity list request response.
 
 
 

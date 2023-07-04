@@ -57,7 +57,7 @@ To be able to make calls to the SAP SuccessFactors OData APIs with user propagat
 
 ## Procedure
 
-1.  In the SAP SuccessFactors system, go to *Admin Center* and search for ***OAuth***. Choose *Manage OAuth2 Client Applications* from the search results.
+1.  In the SAP SuccessFactors system, go to *Admin Center* and search for `OAuth`. Choose *Manage OAuth2 Client Applications* from the search results.
 
 2.  Choose *Register Client Application*.
 
@@ -118,7 +118,7 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     
         Enter a name for the destination.
 
-    For example, ***sap\_hcmcloud\_core\_odata***.
+    For example, `sap_hcmcloud_core_odata`.
 
 
     
@@ -214,7 +214,7 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     </td>
     <td valign="top">
     
-         ***urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession*** 
+         `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession` 
 
 
     
@@ -246,7 +246,7 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     </td>
     <td valign="top">
     
-        Enter the API Endpoint URL for the SAP SuccessFactors instance followed by ***/oauth/token***. For example, ***https://apisalesdemo2.successfactors.eu/oauth/token***.
+        Enter the API Endpoint URL for the SAP SuccessFactors instance followed by `/oauth/token`. For example, `https://apisalesdemo2.successfactors.eu/oauth/token`.
 
     For a list of the API Endpoint URL for the SAP SuccessFactors environments, see [About HXM Suite OData APIs](https://help.sap.com/viewer/28bc3c8e3f214ab487ec51b1b8709adc/LATEST/en-US/03e1fc3791684367a6a76a614a2916de.html).
 
@@ -341,11 +341,11 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     </td>
     <td valign="top">
     
-        ***urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified*** if the user ID will be propagated to SAP SuccessFactors application
+        `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified` if the user ID will be propagated to SAP SuccessFactors application
 
     or
 
-    ***urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress*** if the user email will be propagated to SAP SuccessFactors.
+    `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress` if the user email will be propagated to SAP SuccessFactors.
 
 
     
@@ -385,7 +385,7 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     </td>
     <td valign="top">
     
-        Specify this property with value ***odata\_gen*** to consume an OData service in your application.
+        Specify this property with value `odata_gen` to consume an OData service in your application.
 
 
     
@@ -401,7 +401,7 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     </td>
     <td valign="top">
     
-        If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to ***true***.
+        If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
 
 
     
@@ -417,7 +417,7 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     </td>
     <td valign="top">
     
-        If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to ***true***.
+        If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
 
 
     
@@ -433,7 +433,7 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     </td>
     <td valign="top">
     
-        ***SAP SuccessFactors***
+        `SAP SuccessFactors`
 
     The type of the SAP System for which you create this HTTP destination.
 

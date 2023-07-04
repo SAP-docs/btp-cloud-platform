@@ -74,7 +74,7 @@ For more information about the application security descriptor, see [Application
 
 After your application has more than 50 subscriptions, the time required to update instances of SAP Authorization and Trust Management service bound to your application increases. This delay can run into the timeouts set by the Cloud Controller of Cloud Foundry and SAP Service Manager.
 
-To avoid timeout, enable asynchronous processing in your application security descriptor \(`xs-security.json`\). To enable asynchronous processing, set the *xsenableasyncservice* parameter to ***true***.
+To avoid timeout, enable asynchronous processing in your application security descriptor \(`xs-security.json`\). To enable asynchronous processing, set the *xsenableasyncservice* parameter to `true`.
 
 ```json
 "xsenableasyncservice":"true"

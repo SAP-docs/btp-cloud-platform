@@ -28,7 +28,7 @@ In responses that include a partial set of the items identified by the request, 
 
 ### Overview
 
-The starting point for a ***next link*** request is the Client Proxy instance, is ***read list*** response instance.
+The starting point for a `next link` request is the Client Proxy instance, is `read list` response instance.
 
 
 
@@ -64,7 +64,7 @@ You created a read list request in the Client Prox instance and want to manage p
   lo_read_list_response->get_business_data( IMPORTING et_business_data = lt_employee ).
 ```
 
-**Step 2:** Check that there are still next links using the ***HAS\_NEXT*** method on the response instance\). Then you can fetch the next batch of entities. Get the corresponding response instance by using the ***GET\_NEXT*** method on the previous response instance. Then get the business data from this new instance:
+**Step 2:** Check that there are still next links using the `HAS_NEXT` method on the response instance\). Then you can fetch the next batch of entities. Get the corresponding response instance by using the `GET_NEXT` method on the previous response instance. Then get the business data from this new instance:
 
 ```
 

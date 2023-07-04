@@ -133,7 +133,7 @@ You have to create an HTTP destination to be able to make calls to the SAP Succe
     
         Enter a name for the destination.
 
-    For example, ***sap\_hcmcloud\_core\_odata***.
+    For example, `sap_hcmcloud_core_odata`.
 
 
     
@@ -255,7 +255,7 @@ Have set up the *Access to X509 Certificates* permission required to create X509
 
 ## Procedure
 
-1.  In the SAP SuccessFactors system, go to *Admin Center* and search for ***Security Center***.
+1.  In the SAP SuccessFactors system, go to *Admin Center* and search for `Security Center`.
 
 2.  Choose the *X.509 Public Certificate Mapping* tile.
 

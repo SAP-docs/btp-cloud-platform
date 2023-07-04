@@ -75,7 +75,7 @@ You have maintained the attributes of the users in your identity provider if you
     </td>
     <td valign="top">
     
-        Enter a static value, for example ***USA*** to refine the role depending on the country.
+        Enter a static value, for example `USA` to refine the role depending on the country.
 
 
     
@@ -96,7 +96,7 @@ You have maintained the attributes of the users in your identity provider if you
     In the case of an SAP Cloud Identity Services - Identity Authentication, you find the attribute identifier in the settings of the SAML assertion attributes of your SAML identity provider under *Applications & Resources* \> *Applications*.
 
     > ### Example:  
-    > To use the assertion attribute for cost center, you must enter the value ***cost\_center***.
+    > To use the assertion attribute for cost center, you must enter the value `cost_center`.
 
 
     

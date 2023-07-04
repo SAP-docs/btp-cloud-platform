@@ -89,7 +89,7 @@ Using default patterns, it generates **communication arrangement name**, **chann
 
 -   Required: Yes
 
--   Allowed characters: ***\[a-zA-Z0-9\]***
+-   Allowed characters: `[a-zA-Z0-9]`
 
 -   Maximum length: 4
 
@@ -132,11 +132,11 @@ The name of the communication arrangement for the SAP S/4HANA Cloud tenant.
 
 -   Required: No
 
--   Allowed characters: ***\[a-zA-Z0-9\_-\]***
+-   Allowed characters: `[a-zA-Z0-9_-]`
 
 -   Maximum length: 80
 
--   Default value: ***"SAP\_CLOUD\_PLATFORM\_XF\_<emClientId\>"***
+-   Default value: `"SAP_CLOUD_PLATFORM_XF_<emClientId>"`
 
 
 
@@ -181,12 +181,12 @@ The name of the communication channel.
 
 -   Required: No
 
--   Allowed characters: ***\[A-Z0-9\_-\]***
+-   Allowed characters: `[A-Z0-9_-]`
 
--   Default value: ***"SAP\_CP\_XF\_<emclientId\>"***
+-   Default value: `"SAP_CP_XF_<emclientId>"`
 
     > ### Note:  
-    > Have in mind that the ***<emclientId\>*** will be automatically capitalized.
+    > Have in mind that the `<emclientId>` will be automatically capitalized.
 
 -   Must be unique within the SAP S/4 HANA Cloud tenant.
 
@@ -215,9 +215,9 @@ Short description.
 
 -   Maximum length: 60
 
--   Allowed characters: ***\[a-zA-Z0-9\_-\]***
+-   Allowed characters: `[a-zA-Z0-9_-]`
 
--   Default value: ***"Integration with Enterprise Messaging for EM Client: <emclientId\>"***
+-   Default value: `"Integration with Enterprise Messaging for EM Client: <emclientId>"`
 
 
 
@@ -246,9 +246,9 @@ The identifier for the events that originate from the same source. This is the t
 
 -   Allowed characters: \[a-zA-Z0-9//\]
 
--   Contains exactly three segments, for example ***a/b/c***.
+-   Contains exactly three segments, for example `a/b/c`.
 
--   Default value: ***"sap/S4HANAOD/<emclientId\>"***
+-   Default value: `"sap/S4HANAOD/<emclientId>"`
 
 -   The `subscribeFilter` in the SAP Event Mesh configuration must be use the topic space as a prefix.
 
@@ -275,15 +275,15 @@ Defines the quality of service.
 
 -   Required: No
 
--   Allowed values: ***0***, ***1***
+-   Allowed values: `0`, `1`
 
-    QoS=***0***, at most once delivery.
+    QoS=`0`, at most once delivery.
 
     The message is delivered according to the capabilities of the underlying network. No response is sent by the receiver and no retry is performed by the sender. The message arrives at SAP Event Mesh either once or not at all.
 
-    QoS=***1***, at least once delivery. This quality of service ensures that the message arrives at SAP Event Mesh at least once.
+    QoS=`1`, at least once delivery. This quality of service ensures that the message arrives at SAP Event Mesh at least once.
 
--   Default value: ***1***
+-   Default value: `1`
 
 
 
@@ -308,7 +308,7 @@ The number of attempts the Enterprise Event Enablement framework tries to reesta
 
 -   Required: No
 
--   Default value: ***0***
+-   Default value: `0`
 
 -   If no value is entered or the entered value is 0, the framework tries to connect until connection is established. If the connection is not established after reaching reconnect attempts, the communication arrangement and the underlying channel is deactivated.
 
@@ -335,7 +335,7 @@ Specifies the time \(in seconds\) for which the Enterprise Event Enablement fram
 
 -   Required: No
 
--   Default value: ***10***
+-   Default value: `10`
 
 
 
@@ -380,11 +380,11 @@ Specifies the name of the Enterprise Messaging client. It is used by SAP Event M
 
 -   Required: No
 
--   Allowed characters:***\[a-zA-Z0-9\_-\]***
+-   Allowed characters:`[a-zA-Z0-9_-]`
 
 -   Maximum length: 100
 
--   Default value: ***<emClientId\>***
+-   Default value: `<emClientId>`
 
 -   It is unique within a subaccount.
 
@@ -411,15 +411,15 @@ Namespace for the message client.
 
 -   Required: No
 
--   Allowed characters: ***\[a-zA-Z0-9//\]***
+-   Allowed characters: `[a-zA-Z0-9//]`
 
 -   Maximum length: 24
 
 -   It is unique within a subaccount
 
--   Contains exactly three segments, for example ***a/b/c***.
+-   Contains exactly three segments, for example `a/b/c`.
 
--   Default value: ***"sap/S4HANAOD/<emclientId\>"***.
+-   Default value: `"sap/S4HANAOD/<emclientId>"`.
 
 
 
@@ -488,13 +488,13 @@ Defines if a client \(publisher/producer\) is allowed to send messages to the de
 
 -   Required: No
 
--   Allowed characters: ***\[a-zA-Z\#?/\]***
+-   Allowed characters: `[a-zA-Z#?/]`
 
 -   Type: array
 
--   Default value: ***$\{namespace\}/\#***
+-   Default value: `${namespace}/#`
 
--   Example values: ***$\{namespace\}/foo/bar***, ***$\{namespace\}/\#***.
+-   Example values: `${namespace}/foo/bar`, `${namespace}/#`.
 
 
 

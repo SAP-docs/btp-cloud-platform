@@ -567,7 +567,7 @@ An enterprise Platform-as-a-Service, providing a range of services to our custom
 <tr>
 <td valign="top">
 
-[SAP BTP, Kyma runtime](10-concepts/kyma-environment-468c2f3.md#loio468c2f3c3ca24c2c8497ef9f83154c44)
+[SAP BTP, Kyma runtime](10-concepts/kyma-environment-468c2f3.md)
 
 
 

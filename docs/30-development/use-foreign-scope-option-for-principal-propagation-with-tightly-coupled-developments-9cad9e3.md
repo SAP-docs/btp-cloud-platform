@@ -40,7 +40,7 @@ With foreign scope reference, configure the business application to accept new s
 
     For example:
 
-    ***cf create-service xsuaa application servb-uaa -c /servb/security/xs-security.json***
+    `cf create-service xsuaa application servb-uaa -c /servb/security/xs-security.json`
 
 3.  In the business application, accept all foreign scope references.
 
@@ -75,7 +75,7 @@ With foreign scope reference, configure the business application to accept new s
 
     For example:
 
-    ***cf create-service xsuaa application appa-uaa -c /appa/security/xs-security.json***
+    `cf create-service xsuaa application appa-uaa -c /appa/security/xs-security.json`
 
 5.  Deploy the developments.
 

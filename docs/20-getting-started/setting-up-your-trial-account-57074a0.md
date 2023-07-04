@@ -57,7 +57,7 @@ The first thing that is needed in the setup of your trial account is the creatio
     </td>
     <td valign="top">
     
-        ***trial***
+        `trial`
 
 
     
@@ -121,7 +121,7 @@ The first thing that is needed in the setup of your trial account is the creatio
     </td>
     <td valign="top">
     
-        ***<your\_id\>trial***
+        `<your_id>trial`
 
     Example: **P0123456789trial**
 

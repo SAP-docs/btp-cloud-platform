@@ -49,7 +49,7 @@ Create a communication arrangement to enable the exchange of events.
     1.  Enter a *Description*.
 
         > ### Note:  
-        > Optional. If you don't enter a description, this field will be filled with a default description similar to ***Channel CHANNEL\_NAME for Enterprise Event Enablement***.
+        > Optional. If you don't enter a description, this field will be filled with a default description similar to `Channel CHANNEL_NAME for Enterprise Event Enablement`.
 
     2.  Specify the *Channel* name. The *Channel* name is required in the next steps to configure topic bindings.
 

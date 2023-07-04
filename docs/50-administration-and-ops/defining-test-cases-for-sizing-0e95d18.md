@@ -242,7 +242,7 @@ CreateTravel\_1d
 
 1.  Open the search help of the currency field next to *Total Price*.
 
-2.  In the *Currency* field, enter ***EUR*** and choose *Go*.
+2.  In the *Currency* field, enter `EUR` and choose *Go*.
 
 3.  Select *EUR*.
 

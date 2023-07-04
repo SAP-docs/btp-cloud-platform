@@ -18,7 +18,7 @@ An optional entity is accessed using navigation with cardinality \(for example, 
 
 See also: [\[MS-ODATA\]: Open Data Protocol \(OData\)](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-odata).
 
-The client uses a ***RetrieveEntity*** Request to retrieve an AtomPub Entry Resource, as specified in [RFC5023](https://www.rfc-editor.org/rfc/rfc5023.txt), and potentially related entities that map to EntityType instances.
+The client uses a `RetrieveEntity` Request to retrieve an AtomPub Entry Resource, as specified in [RFC5023](https://www.rfc-editor.org/rfc/rfc5023.txt), and potentially related entities that map to EntityType instances.
 
 
 
@@ -38,7 +38,7 @@ OData services support requests for data with HTTP GET requests. The URL path sp
 
 ### Version 4
 
-Get the manager of the Employee with Id ‘***0004***’ via zero-to-one navigation property ‘***Employee2Manager***’:
+Get the manager of the Employee with Id ‘`0004`’ via zero-to-one navigation property ‘`Employee2Manager`’:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees('0004')/Employee2Manager
@@ -48,7 +48,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees('0004')/Empl
 
 ### Version 2
 
-Get the technical info of the Team ‘***TEAM\_02***’ via zero-to-one navigation property “***Technical\_Info***”
+Get the technical info of the Team ‘`TEAM_02`’ via zero-to-one navigation property “`Technical_Info`”
 
 ```
 GET/sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Teams('TEAM_02')/Technical_Info
@@ -67,7 +67,7 @@ GET/sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Teams('TEAM_02')/Technical_Info
 > ### Note:  
 > As the coding is independent of the OData version, we're presenting a general example on how to read a an optional entity .
 
-The starting point for a ***$read*** optional entity request is an optional entity in the Client Proxy instance. It's possible to create a ***$read*** request with a corresponding zero-to-one navigation.
+The starting point for a `$read` optional entity request is an optional entity in the Client Proxy instance. It's possible to create a `$read` request with a corresponding zero-to-one navigation.
 
 On the optional entity resource, it's possible to create an optional read request instance.
 
@@ -77,7 +77,7 @@ Running the zero-to-one read request provides the zero-to-one read response, whi
 
 ### Example
 
-Get the manager of the Employee with Id ‘***0004***’ via zero-to-one navigation property ‘***Employee2Manager***’:
+Get the manager of the Employee with Id ‘`0004`’ via zero-to-one navigation property ‘`Employee2Manager`’:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees('0004')/Employee2Manager
@@ -114,9 +114,9 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees('0004')/Empl
 > See [OData Request: Using Navigation](odata-request-using-navigation-57f2139.md) for more information about how to create an optional entity resource instance.
 
 > ### Note:  
-> Instead of a ***READ*** request, you can also to set up an ***UPDATE*** or ***DELETE*** request for the optional entity.
+> Instead of a `READ` request, you can also to set up an `UPDATE` or `DELETE` request for the optional entity.
 
-**Step 2:** Execute the ***read*** request and fetch the corresponding read response instance:
+**Step 2:** Execute the `read` request and fetch the corresponding read response instance:
 
 ```
 

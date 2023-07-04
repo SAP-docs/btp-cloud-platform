@@ -10,14 +10,14 @@ A request instance describes the action you want to take on a resource.
 
 ## Overview
 
-You can read or modify an OData [Resource Instance](resource-instance-25e2e3d.md) by sending an OData request on this resource. This example reads all entities for the entity set “***teams***”:
+You can read or modify an OData [Resource Instance](resource-instance-25e2e3d.md) by sending an OData request on this resource. This example reads all entities for the entity set “`teams`”:
 
 > ### Sample Code:  
 > ```
 > GET /sap/opu/odata/sap/srv/teams
 > ```
 
-This example deletes the “***order***” entity of customer "***Jane Doe***":
+This example deletes the “`order`” entity of customer "`Jane Doe`":
 
 > ### Sample Code:  
 > ```
@@ -43,17 +43,17 @@ Request instances are created on the resource instance the request will act on \
 
 -   `/IWBEP/IF_CP_REQUEST_ACTION`: A request to execute an **ACTION** \(using action import or as a bound action.
 
--   `/IWBEP/IF_CP_REQUEST_BATCH`: A `$batch` request. It can be used to add other requests \(for example. a ***DELETE*** request\) and execute them together as part of a `$batch`.
--   `/IWBEP/IF_CP_REQUEST_CHANGESET`: A request for a ***changeset***. This request can be used to add other requests \(for example, `CREATE` request\) into one changeset. The changeset request can only be executed as part of a `$batch` request \(for example, it must be added to a ***$batch*** request before executing the request\).
--   `/IWBEP/IF_CP_REQUEST_CREATE`: A request to ***CREATE*** an entity.
--   `/IWBEP/IF_CP_REQUEST_DELETE` : A request to ***DELETE*** an entity
+-   `/IWBEP/IF_CP_REQUEST_BATCH`: A `$batch` request. It can be used to add other requests \(for example. a `DELETE` request\) and execute them together as part of a `$batch`.
+-   `/IWBEP/IF_CP_REQUEST_CHANGESET`: A request for a `changeset`. This request can be used to add other requests \(for example, `CREATE` request\) into one changeset. The changeset request can only be executed as part of a `$batch` request \(for example, it must be added to a `$batch` request before executing the request\).
+-   `/IWBEP/IF_CP_REQUEST_CREATE`: A request to `CREATE` an entity.
+-   `/IWBEP/IF_CP_REQUEST_DELETE` : A request to `DELETE` an entity
 -   `/IWBEP/IF_CP_REQUEST_FUNCTION`: A request to execute a **FUNCTION** \(using function import or as bound function.
--   `/IWBEP/IF_CP_REQUEST_READ`: A request to ***READ*** an entity.
--   `/IWBEP/IF_CP_REQUEST_READ_01`: A request to ***READ*** an entity WITH a zero-to-one navigation.
--   `/IWBEP/IF_CP_REQUEST_READ_DLTA`: A request to ***READ*** the delta of a list of entities
--   `/IWBEP/IF_CP_REQUEST_READ_LIST`: A request to ***READ*** a list of entities.
--   `/IWBEP/IF_CP_REQUEST_UPDATE`: A request to ***UPDATE*** an entity.
--   `/IWBEP/IF_CP_REQUEST_UPDATE_L`: A request to ***UPDATE*** a list of entities.
+-   `/IWBEP/IF_CP_REQUEST_READ`: A request to `READ` an entity.
+-   `/IWBEP/IF_CP_REQUEST_READ_01`: A request to `READ` an entity WITH a zero-to-one navigation.
+-   `/IWBEP/IF_CP_REQUEST_READ_DLTA`: A request to `READ` the delta of a list of entities
+-   `/IWBEP/IF_CP_REQUEST_READ_LIST`: A request to `READ` a list of entities.
+-   `/IWBEP/IF_CP_REQUEST_UPDATE`: A request to `UPDATE` an entity.
+-   `/IWBEP/IF_CP_REQUEST_UPDATE_L`: A request to `UPDATE` a list of entities.
 
 
 

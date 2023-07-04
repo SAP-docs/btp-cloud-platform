@@ -11,7 +11,7 @@ Find out how to create a new product version:
 
 1.  Log in to the *Landscape Portal* and click on the tile *Build Product Version*.
 
-2.  Select one of your products from the list. You will be forwarded to the *Product Versions* tab. Here, you can see a table listing all the existing versions of this product, their type \(*Release Delivery*, *Patch Delivery*,*Support Package Stack* - see [The Add-On Product](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#add-on-product-version)\), when they were created, as well as their delivery status:
+2.  Select one of your products from the list. You will be forwarded to the *Product Versions* tab. Here, you can see a table listing all the existing versions of this product, their type \(see a table overview of the types [here](https://help.sap.com/docs/btp/sap-business-technology-platform/configure-pipeline-template?version=Cloud), or reade more about [The Add-On Product](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#add-on-product-version)\), when they were created, as well as their delivery status:
 
     -   **Not ready**: The product version is currently being built and is not available for test or production use yet.
 

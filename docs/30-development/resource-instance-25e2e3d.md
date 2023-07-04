@@ -38,7 +38,7 @@ Depending on the resource type, the instance creation can vary. Some resources \
 
 ### Examples
 
--   `GET/sap/opu/odata/sap/srv/teams` The target resource is an entity set \(***teams***\). The resource instance is created at the Client Proxy instance. For more information, see [OData Request: Read Entity List](odata-request-read-entity-list-b810028.md).
+-   `GET/sap/opu/odata/sap/srv/teams` The target resource is an entity set \(`teams`\). The resource instance is created at the Client Proxy instance. For more information, see [OData Request: Read Entity List](odata-request-read-entity-list-b810028.md).
 
 -   `GET /sap/opu/odata/sap/srv/order(customer=’Jane Doe’)` The target resource is a single entity \(Jane Doe\), so the resource instance is created at the parent resource instance \(entity set order\).
 

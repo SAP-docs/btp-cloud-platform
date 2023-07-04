@@ -10,7 +10,7 @@ In OData Version 4, deep create requests create an entity that includes related 
 
 ## Overview
 
-A ***deep create*** is also known as ***deep insert***\). In this example, you want to create a new customer and the first sales order from this customer. You can first create the new customer and then the first sales order or you can use a ***deep create*** to create both at the same time:
+A `deep create` is also known as `deep insert`\). In this example, you want to create a new customer and the first sales order from this customer. You can first create the new customer and then the first sales order or you can use a `deep create` to create both at the same time:
 
 ```
 POST http://host/service/Customers

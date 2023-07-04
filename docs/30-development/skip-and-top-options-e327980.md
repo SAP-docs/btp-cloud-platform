@@ -23,14 +23,14 @@ A data service URI with:
 <tr>
 <th valign="top">
 
-***$skip*** System Query Option
+`$skip` System Query Option
 
 
 
 </th>
 <th valign="top">
 
-***$top*** System Query Option
+`$top` System Query Option
 
 
 
@@ -55,14 +55,14 @@ identifies a subset of the entities in an entity collection \(identified by the 
 <tr>
 <td valign="top">
 
-the subset is defined by searching ***N*** entities in an collection and selecting **only the remaining entities** \(starting with entity ***N+1***\).
+the subset is defined by searching `N` entities in an collection and selecting **only the remaining entities** \(starting with entity `N+1`\).
 
 
 
 </td>
 <td valign="top">
 
-the subset is formed by selecting **only the first** ***N*** items of the set.
+the subset is formed by selecting **only the first** `N` items of the set.
 
 
 
@@ -71,14 +71,14 @@ the subset is formed by selecting **only the first** ***N*** items of the set.
 <tr>
 <td valign="top">
 
-***N*** is a positive integer specified by this query option.
+`N` is a positive integer specified by this query option.
 
 
 
 </td>
 <td valign="top">
 
-***N*** is a positive integer specified by this query option.
+`N` is a positive integer specified by this query option.
 
 
 
@@ -99,14 +99,14 @@ A data service URI with:
 <tr>
 <th valign="top">
 
-***$skip*** System Query Option
+`$skip` System Query Option
 
 
 
 </th>
 <th valign="top">
 
-***$top*** System Query Option
+`$top` System Query Option
 
 
 
@@ -115,14 +115,14 @@ A data service URI with:
 <tr>
 <td valign="top">
 
-specifies a non-negative integer ***n*** that **excludes** the first ***n*** items of the queried collection.
+specifies a non-negative integer `n` that **excludes** the first `n` items of the queried collection.
 
 
 
 </td>
 <td valign="top">
 
-specifies a non-negative integer ***n*** that **limits** the number of items returned from a collection.
+specifies a non-negative integer `n` that **limits** the number of items returned from a collection.
 
 
 
@@ -131,14 +131,14 @@ specifies a non-negative integer ***n*** that **limits** the number of items ret
 <tr>
 <td valign="top">
 
-the service returns items starting at position ***n+1***.
+the service returns items starting at position `n+1`.
 
 
 
 </td>
 <td valign="top">
 
-the service returns the number of available items up to but not greater than the specified value ***n***.
+the service returns the number of available items up to but not greater than the specified value `n`.
 
 
 
@@ -156,7 +156,7 @@ the service returns the number of available items up to but not greater than the
 
 ### Version 4
 
-Skip the first entity in entity set “***TEAMS***” and get the following two ones:
+Skip the first entity in entity set “`TEAMS`” and get the following two ones:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams?$skip=1&$top=2
@@ -184,15 +184,15 @@ GET /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Managers?$skip=1&$top=2
 
 > ### Note:  
 
-As the coding is independent of the OData version, we're presenting a general example on how to use the ***$count*** option.
+As the coding is independent of the OData version, we're presenting a general example on how to use the `$count` option.
 
-The starting point for a request with ***$skip*** or ***$top*** option is an entity list read request. You can set both the ***$skip*** and the ***$top*** on the entity list read request.
+The starting point for a request with `$skip` or `$top` option is an entity list read request. You can set both the `$skip` and the `$top` on the entity list read request.
 
 
 
 ### Example
 
-Skip the first entity in entity set “***TEAMS***” and get these entities:
+Skip the first entity in entity set “`TEAMS`” and get these entities:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams?$skip=1&$top=2
@@ -210,7 +210,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams?$skip=1&$top=2
         lo_read_list_request->set_top( 2 ).
 ```
 
-**Step 1:** Set the ***$skip*** value at the request instance:
+**Step 1:** Set the `$skip` value at the request instance:
 
 ```
 
@@ -219,7 +219,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams?$skip=1&$top=2
  lo_read_list_request->set_skip( 1 ).
 ```
 
-**Step 2:** Set the ***$top*** value at the request instance:
+**Step 2:** Set the `$top` value at the request instance:
 
 ```
 

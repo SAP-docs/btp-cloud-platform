@@ -50,7 +50,7 @@ To configure the *Home URL*, proceed as follows:
     > 
     > -   Choose *ADMINISTRATOR* \> *Common Tasks* and then choose *Configure Single Sign-On*.
     > 
-    > -   In the *Single Sign-On URL Handling* section, copy and save the URL from the *SSO URL* field. If this URL starts with uppercase *HTTPS* protocol, replace it with ***https***.
+    > -   In the *Single Sign-On URL Handling* section, copy and save the URL from the *SSO URL* field. If this URL starts with uppercase *HTTPS* protocol, replace it with `https`.
 
     -   If you are configuring the URL for the first time, type the address in the pop-up dialog that appears.
 

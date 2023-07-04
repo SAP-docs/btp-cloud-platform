@@ -20,11 +20,11 @@ CORS is a mechanism that allows web browsers or other web clients access to your
 
 3.  Enter the *Trusted Host Name* \(SAP Analytics Cloud, for example, could have the following pattern: *mytenant.us1.sapbusinessobjects.cloud*\).
 
-4.  Enter the *HTTP Service Path* \(for example ***/sap/opu/odata/sap/APS\_IAM\_API\_BROLE\_CDOC***\).
+4.  Enter the *HTTP Service Path* \(for example `/sap/opu/odata/sap/APS_IAM_API_BROLE_CDOC`\).
 
 5.  Select the allowed HTTP methods .
 
-6.  Enter the allowed headers \(for example ***content-type***\)
+6.  Enter the allowed headers \(for example `content-type`\)
 
     Only the following response headers are generally accessible in a CORS query:
 

@@ -21,7 +21,7 @@ To add a message to an application log, an instance of interface `IF_BALI_MESSAG
 
 -   `CREATE`: It allows to set the severity, message ID, message number and the variables of the message.
 
--   `CREATE_FROM_SY`: You can use this method to create an application log message from the system fields in the list below. These system fields are filled, for example, by ABAP command ***MESSAGE***. The following system fields are available:
+-   `CREATE_FROM_SY`: You can use this method to create an application log message from the system fields in the list below. These system fields are filled, for example, by ABAP command `MESSAGE`. The following system fields are available:
 
     -   SY-MSGTY
 

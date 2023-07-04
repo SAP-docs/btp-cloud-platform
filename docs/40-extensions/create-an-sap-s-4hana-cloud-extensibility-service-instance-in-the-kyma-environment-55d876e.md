@@ -40,9 +40,9 @@ When creating this service instance, you create the required configurations in b
 
     -   Give a meaningful name of the new SAP S/4HANA Cloud Extensibility service instance.
 
-    -   In the *Offering Name* field, enter ***s4-hana-cloud***, which is the technical name of the SAP S/4HANA Cloud Extensibility service.
+    -   In the *Offering Name* field, enter `s4-hana-cloud`, which is the technical name of the SAP S/4HANA Cloud Extensibility service.
 
-    -   In the *Plan Name* field, enter ***messaging***.
+    -   In the *Plan Name* field, enter `messaging`.
 
 
 7.  Choose the *YAML* tab.

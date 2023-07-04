@@ -190,7 +190,7 @@ The most common use case for troubleshooting to analyze the implemented business
 See [ABAP Debugger](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/4ec365a66e391014adc9fffe4e204223.html).
 
 > ### Note:  
-> To find the business user and communication user ID for debugging, navigate to the *Debug Properties View* in ABAP Development Tools and search for business users \(***CB\****\) and communication users \(***CC\****\).
+> To find the business user and communication user ID for debugging, navigate to the *Debug Properties View* in ABAP Development Tools and search for business users \(`CB*`\) and communication users \(`CC*`\).
 
 
 
@@ -202,13 +202,13 @@ To debug the application with your own Application Support Engineer user, make s
 
 ### Debug Another Business User
 
-To debug the application of another business user, you need to change the breakpoint settings in the debug properties view in ABAP Development Tools to the business user \(***CB\****\).
+To debug the application of another business user, you need to change the breakpoint settings in the debug properties view in ABAP Development Tools to the business user \(`CB*`\).
 
 
 
 ### Debug a Communication User
 
-To debug the application of the communication user, you need to change the breakpoint settings in the debug properties view in ABAP Development Tools to the communication user \(***CC\****\).
+To debug the application of the communication user, you need to change the breakpoint settings in the debug properties view in ABAP Development Tools to the communication user \(`CC*`\).
 
 **Related Information**  
 

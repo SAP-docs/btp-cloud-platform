@@ -52,7 +52,7 @@ The starting point for a delta link in the Client Proxy instance is either a Cli
 
 You ran a read list request in the Client Proxy instance and you want to save a delta link for this response, so you can track future changes to the current response:
 
-**Step 1:** Save the current response as delta link \(in this example under the name ‘***DELTA\_LINK\_NAME***’\):
+**Step 1:** Save the current response as delta link \(in this example under the name ‘`DELTA_LINK_NAME`’\):
 
 ```
 
@@ -87,7 +87,7 @@ You have an existing delta link and want to use it to create a delta request:
 
 **Step 1:** Check that the delta link:
 
--   does exist \(in this example, ‘***DELTA\_LINK\_NAME***’\).
+-   does exist \(in this example, ‘`DELTA_LINK_NAME`’\).
 -   can be used to create a delta request. If the stored delta link was manually changed, the delta link can't be used\).
 
 ```
@@ -149,8 +149,8 @@ You have an existing request and want to use it in combination with an existing 
 
 **Step 1:** Check that the delta link:
 
--   does exist \(in this example, ‘***DELTA\_LINK\_NAME***’\).
--   can be used to create a delta request. If it can be used to create a delta request, you use method ***CREATE\_REQUEST\_FOR\_DELTA***, in example 2.
+-   does exist \(in this example, ‘`DELTA_LINK_NAME`’\).
+-   can be used to create a delta request. If it can be used to create a delta request, you use method `CREATE_REQUEST_FOR_DELTA`, in example 2.
 
 ```
 

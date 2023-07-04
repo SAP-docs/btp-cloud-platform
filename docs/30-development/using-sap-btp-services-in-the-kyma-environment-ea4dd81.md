@@ -24,10 +24,10 @@ With the Kyma environment, you can connect SAP BTP services to your cluster and 
 
 ## Procedure
 
-1.  > ### Note:  
-    > You can choose to create and manage resources such as Service Instances and Service Bindings in Kyma Dashboard, in the *Namespace* view, under *Service Management*. Still, you need the service details, such as service name and plan, from the SAP BTP cockpit.
+> ### Note:  
+> You can choose to create and manage resources such as Service Instances and Service Bindings in Kyma Dashboard, in the *Namespace* view, under *Service Management*. Still, you need the service details, such as service name and plan, from the SAP BTP cockpit.
 
-2.  Create a Service Instance:
+1.  Create a Service Instance:
 
     ```
     kubectl create -f - <<EOF
@@ -43,7 +43,7 @@ With the Kyma environment, you can connect SAP BTP services to your cluster and 
     EOF
     ```
 
-3.  To see the output, run:
+2.  To see the output, run:
 
     ```
     kubectl get serviceinstances.services.cloud.sap.com {INSTANCE_NAME} -o yaml
@@ -51,7 +51,7 @@ With the Kyma environment, you can connect SAP BTP services to your cluster and 
 
     You can see the status ***created*** and the message ***ServiceInstance provisioned successfully***.
 
-4.  Create a Service Binding:
+3.  Create a Service Binding:
 
     ```
     kubectl create -f - <<EOF
@@ -70,7 +70,7 @@ With the Kyma environment, you can connect SAP BTP services to your cluster and 
     EOF
     ```
 
-5.  To see the output, run:
+4.  To see the output, run:
 
     ```
     kubectl get servicebindings.services.cloud.sap.com {BINDING_NAME} -o yaml
@@ -78,13 +78,13 @@ With the Kyma environment, you can connect SAP BTP services to your cluster and 
 
     You can see the status ***created*** and the message ***ServiceBinding provisioned successfully***.
 
-6.  You can now use a given service in your Kyma cluster. To see credentials, run:
+5.  You can now use a given service in your Kyma cluster. To see credentials, run:
 
     ```
     kubectl get secret {BINDING_NAME} -o yaml
     ```
 
-7.  Clean up your resources:
+6.  Clean up your resources:
 
     ```
     kubectl delete servicebindings.services.cloud.sap.com {BINDING_NAME}

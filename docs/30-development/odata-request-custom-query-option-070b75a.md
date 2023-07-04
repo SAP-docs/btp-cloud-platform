@@ -26,7 +26,7 @@ See also: [OData Version 4.01. Part 1: Protocol](https://docs.oasis-open.org/oda
 
 Services can support additional custom query options that are not defined in the OData specification. The custom query options:
 
--   can't begin with the "***$***" or "***@***" character
+-   can't begin with the "`$`" or "`@`" character
 -   can't conflict with any OData-defined system query options defined in the OData version that the service supports
 
 
@@ -39,7 +39,7 @@ Services can support additional custom query options that are not defined in the
 
 ### Version 4
 
-Use custom query option “***sap-statistics***”:
+Use custom query option “`sap-statistics`”:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams?sap-statistics=true
@@ -49,7 +49,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams?sap-statistics=t
 
 ### Version 2
 
-Use custom query option “***sap-statistics***”:
+Use custom query option “`sap-statistics`”:
 
 ```
 GET /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Prices?sap-statistics=true
@@ -66,7 +66,7 @@ GET /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Prices?sap-statistics=true
 ### Overview
 
 > ### Note:  
-> As the coding is independent of the OData version, we're presenting a general example on how to use ***$count***.
+> As the coding is independent of the OData version, we're presenting a general example on how to use `$count`.
 
 The starting point for a custom query option request is an entity list read request. You can set a custom query option on the entity list read request.
 
@@ -74,7 +74,7 @@ The starting point for a custom query option request is an entity list read requ
 
 ### Example
 
-Use custom query option “***sap-statistics***”
+Use custom query option “`sap-statistics`”
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams?sap-statistics=true
@@ -118,7 +118,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams?sap-statistics=t
 ```
 
 > ### Note:  
-> ***lo\_http\_client*** must be the **same** HTTP client instance as the one used for creating the Client Proxy.
+> `lo_http_client` must be the **same** HTTP client instance as the one used for creating the Client Proxy.
 
 
 

@@ -66,7 +66,7 @@ Components of the Cloud Foundry environment use the digital signature of the acc
 
     Call the *PATCH* method of the same endpoint.
 
-    In the body, include a key ID and set `changeMode` to ***ADD*** in the token policy settings.
+    In the body, include a key ID and set `changeMode` to `ADD` in the token policy settings.
 
     > ### Sample Code:  
     > ```
@@ -82,7 +82,7 @@ Components of the Cloud Foundry environment use the digital signature of the acc
 
 3.  Enable the new signing key.
 
-    Call the *PATCH* method of the same endpoint, but set `changeMode` to ***UPDATE***.
+    Call the *PATCH* method of the same endpoint, but set `changeMode` to `UPDATE`.
 
     ```
     {
@@ -101,7 +101,7 @@ Components of the Cloud Foundry environment use the digital signature of the acc
 
 5.  Delete the old signing key for the access token.
 
-    Call the *PATCH* method of the same endpoint, but set `keyID` to the old key ID and `changeMode` to ***DELETE***.
+    Call the *PATCH* method of the same endpoint, but set `keyID` to the old key ID and `changeMode` to `DELETE`.
 
     > ### Sample Code:  
     > ```

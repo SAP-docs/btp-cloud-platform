@@ -299,7 +299,7 @@ To provision multitenant-enabled systems in the ABAP environment, implement a mu
         
         ```
 
-    -   To define the open parameters of the `mta.yaml` file, create a new folder ***Extensions*** that contains the following `dev.mtaext` file:
+    -   To define the open parameters of the `mta.yaml` file, create a new folder `Extensions` that contains the following `dev.mtaext` file:
 
         ```
         ID: product1-saas-solution-dev
@@ -444,7 +444,7 @@ Order and provide your solution. See [Order and Provide](order-and-provide-975bd
 
 1.  To define a new route to the solution, open your *05 Provide* subaccount in the global account for development and navigate to *Cloud Foundry* \> *Spaces*. Select your space and navigate to *Routes*. Select *New Route* and enter the following information in the dialog:
 
-    For *Domain*, enter the domain by changing the default domain ***cfapps.<region\>.hana.ondemand.com*** according to the region of your *05 Provide* subaccount in the global account for development.
+    For *Domain*, enter the domain by changing the default domain `cfapps.<region>.hana.ondemand.com` according to the region of your *05 Provide* subaccount in the global account for development.
 
     For *Hostname*, enter the subdomain as displayed in your *06 Consume* subaccount under *Overview* and the appname as defined in your `dev.mtaext` file.
 
@@ -460,7 +460,7 @@ Order and provide your solution. See [Order and Provide](order-and-provide-975bd
     > 
     > **`TENANT_HOST_PATTERN: (.*)${route-prefix}.${app-domain}`**
     > 
-    > The pattern includes a placeholder for the subdomain of a consumer subaccount and a route prefix. The route prefix consists of a separator ***\-***, and the defined appname.
+    > The pattern includes a placeholder for the subdomain of a consumer subaccount and a route prefix. The route prefix consists of a separator `-`, and the defined appname.
     > 
     > The subdomain can only contain letters, digits, and hyphens, see [Create Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html).
     > 
@@ -468,7 +468,7 @@ Order and provide your solution. See [Order and Provide](order-and-provide-975bd
     > 
     > The hostname can include no more than 63 characters.
     > 
-    > In this example, the consumer subaccount is created with subdomain ***my-consumer-subdomain***. The defined appname is ***product1-saas-solution-dev***, resulting in the hostname ***my-consumer-subdomain-product1-saas-solution-dev*** of the route. The domain `cfapps.eu10.hana.ondemand.com` is set as parameter `app-domain` in the `mta.yaml` file.
+    > In this example, the consumer subaccount is created with subdomain `my-consumer-subdomain`. The defined appname is `product1-saas-solution-dev`, resulting in the hostname `my-consumer-subdomain-product1-saas-solution-dev` of the route. The domain `cfapps.eu10.hana.ondemand.com` is set as parameter `app-domain` in the `mta.yaml` file.
     > 
     > Once you switch to the production phase of the approuter configuration and define a route with wildcard hostname. this sub-step is no longer required . See [Configure the Approuter Application](configure-the-approuter-application-3725815.md).
 

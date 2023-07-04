@@ -10,7 +10,7 @@ An expand node instance causes related entities to be included inline in the res
 
 ## Overview
 
-When reading an entity with a `GET` request, related entities can also be requested using the `$expand` statement on a navigation property. In this example, you want to read the data about customer “Posey” and the open sales orders for this customer \(with navigation property “***Customer\_2\_Salesorders***”\). Here is an example of this OData request:
+When reading an entity with a `GET` request, related entities can also be requested using the `$expand` statement on a navigation property. In this example, you want to read the data about customer “Posey” and the open sales orders for this customer \(with navigation property “`Customer_2_Salesorders`”\). Here is an example of this OData request:
 
 > ### Sample Code:  
 > ```
@@ -43,7 +43,7 @@ An expand node instance is always created in the corresponding [Request Instance
 
 ## Functionality
 
-The expand node instances add an expand expression into the underlying read request. You can also set the selected properties for each expand node. If not all properties of the expanded entity are returned, compare to ***GET http://host/service/Customers\(‘Posey’\)?$expand=Customer\_2\_Salesorders\($select=Date,Status\)***.
+The expand node instances add an expand expression into the underlying read request. You can also set the selected properties for each expand node. If not all properties of the expanded entity are returned, compare to `GET http://host/service/Customers(‘Posey’)?$expand=Customer_2_Salesorders($select=Date,Status)`.
 
 
 

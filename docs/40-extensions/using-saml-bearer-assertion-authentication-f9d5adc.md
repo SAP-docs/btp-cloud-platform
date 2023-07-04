@@ -199,7 +199,7 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         </td>
         <td valign="top">
         
-                ***HTTP***
+                `HTTP`
 
 
         
@@ -250,7 +250,7 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         </td>
         <td valign="top">
         
-                ***Internet***
+                `Internet`
 
 
         
@@ -266,7 +266,7 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         </td>
         <td valign="top">
         
-                ***OAuth2SAMLBearerAssertion***
+                `OAuth2SAMLBearerAssertion`
 
 
         
@@ -438,7 +438,7 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         </td>
         <td valign="top">
         
-                 ***urn:oasis:names:tc:SAML:2.0:ac:classes:X509*** 
+                 `urn:oasis:names:tc:SAML:2.0:ac:classes:X509` 
 
 
         
@@ -496,7 +496,7 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         </td>
         <td valign="top">
         
-                Specify this property with value ***odata\_gen*** to consume an OData service in your application.
+                Specify this property with value `odata_gen` to consume an OData service in your application.
 
 
         
@@ -512,7 +512,7 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         </td>
         <td valign="top">
         
-                If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to ***true***.
+                If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
 
 
         
@@ -528,7 +528,7 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         </td>
         <td valign="top">
         
-                If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to ***true***.
+                If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
 
 
         
@@ -544,7 +544,7 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         </td>
         <td valign="top">
         
-                ***SAP S/4HANA Cloud***
+                `SAP S/4HANA Cloud`
 
         The type of the SAP System for which you create this HTTP destination.
 

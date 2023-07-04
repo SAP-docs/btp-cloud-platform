@@ -10,7 +10,7 @@ You can create a Java application that starts its own runtime. This allows the u
 
 ## Prerequisites
 
--   You are not using the [Resource Configuration](resource-configuration-c893e9c.md) feature of the buildpack.
+-   You are **not** using the [Resource Configuration](resource-configuration-c893e9c.md) feature of the buildpack.
 
 > ### Note:  
 > The resource configurations needed for the database connection are not applicable for Java Main applications. For more information about database connections, see: [Configuring a Database Connection](configuring-a-database-connection-7568c3d.md)
@@ -19,7 +19,7 @@ You can create a Java application that starts its own runtime. This allows the u
 
 ## Context
 
-In this section, applications like this are referred as *Java Main applications*. The application container provided by the SAP Java Buildpack for running Java Main applications is referred as *Java Main container*.
+In this section, applications like this are referred as *Java Main applications*. The application container provided by SAP Java Buildpack for running Java Main applications is referred as *Java Main container*.
 
 
 
@@ -27,7 +27,7 @@ In this section, applications like this are referred as *Java Main applications*
 
 1.  Make sure your built JAR archive is configured properly.
 
-    Regardless of the tool you use to build your Java application, you have to make sure that the following tasks are performed:
+    Regardless of the tool you're using to build your Java application, you have to make sure that the following tasks are performed:
 
     1.  You have built a JAR archive.
 
@@ -48,7 +48,7 @@ In this section, applications like this are referred as *Java Main applications*
     3.  You have packaged all your dependent libraries in the JAR file, also known as creating an [uber JAR](https://maven.apache.org/plugins/maven-shade-plugin/examples/includes-excludes.html) or a *flat JAR*.
 
 
-    If you are using Maven as your build tool, you can use the `maven-shade-plugin` to perform the above tasks.
+    If you're using Maven as your build tool, you can use `maven-shade-plugin` to perform the above tasks.
 
     > ### Sample Code:  
     > Sample configuration for the `maven-shade-plugin`
@@ -97,7 +97,7 @@ In this section, applications like this are referred as *Java Main applications*
     > </build>
     > ```
 
-2.  Configure the `manifest.yml`.
+2.  Configure the `manifest.yml` file.
 
     To be able to push the Java Main application, you need to specify the path to the `.jar` archive in the `manifest.yml` file.
 
@@ -113,7 +113,7 @@ In this section, applications like this are referred as *Java Main applications*
     >   instances: 1
     > ```
 
-3.  \(Optional\) If you use SAP HANA JDBC, we recommend that you include the dependent JAR files in the uber JAR. Then refer these files, as a space separated list, in the `Class-Path` header field of the MANIFEST.MF file. For example:
+3.  \(Optional\) If you're using SAP HANA JDBC, we recommend that you include the dependent JAR files in the uber JAR. Then refer these files, as a space separated list, in the `Class-Path` header field of the MANIFEST.MF file. For example:
 
     > ### Sample Code:  
     > ```
@@ -129,7 +129,7 @@ In this section, applications like this are referred as *Java Main applications*
 
 
 
-Let's say, you want to create a Java Main application to use its own runtime. For that purpose, performs the following steps:
+To create a Java Main application that's using its own runtime, proceed as follows:
 
 1.  Create a *sample\_main* application. Use Spring Boot for that purpose.
 
@@ -139,7 +139,7 @@ Let's say, you want to create a Java Main application to use its own runtime. Fo
     mvn clean install
     ```
 
-3.  After the successful build, check that the `sample_main` directory of the application contain a **sample\_main.jar** file.
+3.  After the successful build, check that the `sample_main` directory of the application contains a **sample\_main.jar** file.
 
 4.  Open the **sample\_main.jar** file and check that the `META-INF/MANIFEST.MF` file contains the `Main-Class` header, whose value is the name of the main class.
 

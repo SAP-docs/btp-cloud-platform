@@ -46,13 +46,13 @@ The CSV file with the SAP Cloud for Customer user data must contain the followin
 
     1.  Remove the superfluous data and leave only the *User ID* and *Name* columns.
 
-    2.  Rename the *User ID* column to ***loginName*** and split the *Name* column to ***firstName*** and ***lastName***columns.
+    2.  Rename the *User ID* column to `loginName` and split the *Name* column to `firstName` and `lastName`columns.
 
         The data in the *loginName* stays the same, while the names from the former *Name* columns are split in the following way: first names go to the *firstName* column and last names go to the *lastName* column.
 
-    3.  Insert a new column before the *loginName* column and name it ***status***. The status can be ***active*** or ***inactive***.
+    3.  Insert a new column before the *loginName* column and name it `status`. The status can be `active` or `inactive`.
 
-    4.  Insert a new column between *loginName* and *firstName* and name it ***mail***.
+    4.  Insert a new column between *loginName* and *firstName* and name it `mail`.
 
         Go to the SAP Cloud for Customer system. To get the e-mail of a user, select the user. The e-mail is displayed on the *General Data* tab page.
 

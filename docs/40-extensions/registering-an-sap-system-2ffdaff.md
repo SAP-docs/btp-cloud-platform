@@ -98,7 +98,7 @@ If the registration error persists, report an incident in one of the following c
         > Use only printable ASCII characters.
 
         > ### Tip:  
-        > We recommend that you indicate the type of the system when specifying the system name. For example, ****<mysystem\>*-commerce-cloud***. This helps you identify the system type when assigning systems to a formation.
+        > We recommend that you indicate the type of the system when specifying the system name. For example, <code><i class="varname">&lt;mysystem&gt;</i>-commerce-cloud</code>. This helps you identify the system type when assigning systems to a formation.
 
     2.  In the *Type* dropdown list, select the system type.
 

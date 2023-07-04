@@ -26,22 +26,24 @@ After creating a communication arrangement, you can still change parameters, eit
 
 3.  Select the communication arrangement you want to maintain.
 
-4.  **Update by Service Key**
 
-5.  To change connection details, press the *Update by Service Key* button.
+**Update by Service Key**
 
-6.  Enter the service key with the new connection details.
+4.  To change connection details, press the *Update by Service Key* button.
 
-7.  Choose *Update* to save your entries.
+5.  Enter the service key with the new connection details.
 
-8.  **Update Additional Properties**
+6.  Choose *Update* to save your entries.
 
-9.  > ### Note:  
+
+**Update Additional Properties**
+
+7.  > ### Note:  
     > Updating via the additional properties reactivates the communication arrangement and channel \(if deactivated\).
 
     To change additional properties, choose *Edit*.
 
-10. To save your changes, choose *Save*.
+8.  To save your changes, choose *Save*.
 
 
 

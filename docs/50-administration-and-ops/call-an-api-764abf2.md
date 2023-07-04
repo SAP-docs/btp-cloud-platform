@@ -13,7 +13,7 @@ Use the different endpoints of the SAP Authorization and Trust Management servic
 To call an API of the SAP Authorization and Trust Management service, obtain an access token. See [Access SAP Authorization and Trust Management Service APIs](access-sap-authorization-and-trust-management-service-apis-ebc9113.md) to learn how to obtain an access token. See the following example how to call an endpoint with a cURL request.
 
 > ### Tip:  
-> On the *SAP API Business Hub*, we provide a sandbox system for you to make example calls to the different APIs and their endpoints.
+> On the *SAP Business Accelerator Hub*, we provide a sandbox system for you to make example calls to the different APIs and their endpoints.
 
 
 
@@ -66,5 +66,5 @@ The resource server returns the list of roles.
 **Related Information**  
 
 
-[Authorization and Trust Management APIs on the API Business Hub](https://api.sap.com/package/authtrustmgmnt?section=Artifacts)
+[Authorization and Trust Management APIs on the SAP Business Accelerator Hub](https://api.sap.com/package/authtrustmgmnt?section=Artifacts)
 

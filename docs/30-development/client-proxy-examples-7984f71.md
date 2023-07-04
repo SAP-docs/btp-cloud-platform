@@ -16,14 +16,14 @@ For information about the Client Proxy Instance, see [Client Proxy Instance Type
 
 **Overview**
 
-You can create a Client Proxy instance with class `IWBEP/CL_CP_CLIENT_PROXY_FACTORY`. It offers the static method `CREATE_V2_LOCAL_PROXY` to create a local V2 Client Proxy instance. The service key parameters \(***service\_id*** and ***service\_version***\) are required for the V2 OData service you want to consume. You can also specify if you want to write a workload trace \(you can later check in transaction `STAD`.
+You can create a Client Proxy instance with class `IWBEP/CL_CP_CLIENT_PROXY_FACTORY`. It offers the static method `CREATE_V2_LOCAL_PROXY` to create a local V2 Client Proxy instance. The service key parameters \(`service_id` and `service_version`\) are required for the V2 OData service you want to consume. You can also specify if you want to write a workload trace \(you can later check in transaction `STAD`.
 
 > ### Note:  
 > A workload trace is not written by default.
 
 **Example**
 
-Create a Client Proxy instance to consume the OData V2 service “***ODATA\_V2\_TEST\_SERVICE***” in version number 1:
+Create a Client Proxy instance to consume the OData V2 service “`ODATA_V2_TEST_SERVICE`” in version number 1:
 
 > ### Sample Code:  
 > ```
@@ -42,7 +42,7 @@ Create a Client Proxy instance to consume the OData V2 service “***ODATA\_V2\_
 
 ### Overview
 
-You can create a Client Proxy instance using class `CL_WEB_ODATA_CLIENT_FACTORYT`. It offers the static method `CREATE_V2_REMOTE_PROXY` to create a remote V2 Client Proxy instance. The relative service root parameter \(***service\_definition\_name***\) and a configured HTTP web client instance are required.
+You can create a Client Proxy instance using class `CL_WEB_ODATA_CLIENT_FACTORYT`. It offers the static method `CREATE_V2_REMOTE_PROXY` to create a remote V2 Client Proxy instance. The relative service root parameter \(`service_definition_name`\) and a configured HTTP web client instance are required.
 
 For more information about how to create a configured HTTP web client instance, see:
 
@@ -86,7 +86,7 @@ Create a Client Proxy instance to consume the OData Version 2 service with the s
 
 ### Overview
 
-Create a Client Proxy instance using class `CL_WEB_ODATA_CLIENT_FACTORY`. It offers the static method `CREATE_V4_LOCAL_PROXY` to create a local Version 4 Client Proxy instance. The service key parameters \(***service\_id***, ***relative\_service\_root***, which is “***SRVD***, and the ***service\_version***\) are required for the Version 4 OData service you want to consume.
+Create a Client Proxy instance using class `CL_WEB_ODATA_CLIENT_FACTORY`. It offers the static method `CREATE_V4_LOCAL_PROXY` to create a local Version 4 Client Proxy instance. The service key parameters \(`service_id`, `relative_service_root`, which is “`SRVD`, and the `service_version`\) are required for the Version 4 OData service you want to consume.
 
 > ### Note:  
 > The local Version 4 Client Proxy can't be used to consume SAP OData services. You can only use it to consume your own services.
@@ -117,7 +117,7 @@ Create a Client Proxy instance to consume the OData Version 4 service `ODATA_V4_
 
 ### Overview
 
-You can create a Client Proxy instance using class `CL_WEB_ODATA_CLIENT_FACTORY`. It offers the static method `CREATE_V4_REMOTE_PROXY` to create a remote Version 4 Client Proxy instance. The relative service root parameters \(***relative\_service\_root***\) definition and a configured HTTP web client instance are required.
+You can create a Client Proxy instance using class `CL_WEB_ODATA_CLIENT_FACTORY`. It offers the static method `CREATE_V4_REMOTE_PROXY` to create a remote Version 4 Client Proxy instance. The relative service root parameters \(`relative_service_root`\) definition and a configured HTTP web client instance are required.
 
 The concatenated HTTP destination and the relative service root must point to the OData service document. Depending on your HTTP web client instance configuration, the way your the relative service root looks can vary. In our example, we assume that your HTTP destination does not contain a path prefix \(i.e. does not point to a specific OData service\); then, the relative service root follows the general pattern `/sap/opu/odata4/<service group id>/<repository id>/<service id>/<service version>`
 

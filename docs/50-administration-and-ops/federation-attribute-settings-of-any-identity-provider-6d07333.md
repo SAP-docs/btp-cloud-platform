@@ -107,7 +107,7 @@ Possible settings:
 </td>
 <td valign="top">
 
-To define the user authorizations in the UAA service, provide the user groups in the assertion attribute ***Groups*** \(capitalized\). This assertion attribute is required for the assignment of roles in the UAA service.
+To define the user authorizations in the UAA service, provide the user groups in the assertion attribute `Groups` \(capitalized\). This assertion attribute is required for the assignment of roles in the UAA service.
 
 You can change the default names of the assertion attributes that the application uses to recognize the user attributes. You can use multiple assertion attributes for the same user attribute.
 
@@ -129,12 +129,12 @@ You can choose from a number of user attributes and add them.
 </td>
 <td valign="top">
 
-Select the *Groups* user attribute and enter ***Groups*** as assertion attribute. You must set this attribute to enable that the assignment from role collection to user groups has an effect. For more information, see the related link.
+Select the *Groups* user attribute and enter `Groups` as assertion attribute. You must set this attribute to enable that the assignment from role collection to user groups has an effect. For more information, see the related link.
 
 > ### Caution:  
 > Use exactly this spelling:
 > 
-> ***Groups***
+> `Groups`
 
 
 

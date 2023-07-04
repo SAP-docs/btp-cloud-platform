@@ -51,7 +51,7 @@ When you have this system added in the *Systems* list, you can select it and ope
         > Use only printable ASCII characters.
 
         > ### Tip:  
-        > We recommend that you indicate the type of the system when specifying the system name. For example, ****<mysystem\>*-google-workspace***.
+        > We recommend that you indicate the type of the system when specifying the system name. For example, <code><i class="varname">&lt;mysystem&gt;</i>-google-workspace</code>.
 
     2.  In the *Type* dropdown list, select *Other System Type*.
 

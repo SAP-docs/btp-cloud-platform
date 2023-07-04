@@ -25,7 +25,7 @@ For more information about SAP Business Application Studio and how to subscribe 
 
 4.  From the navigation area, choose *Services* \> *Service Marketplace*.
 
-5.  Search for ***Studio***.
+5.  Search for `Studio`.
 
     The *SAP Business Application Studio* tile is displayed.
 

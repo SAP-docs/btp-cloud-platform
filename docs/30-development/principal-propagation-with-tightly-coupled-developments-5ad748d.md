@@ -61,7 +61,7 @@ In this scenario, we enable the service to accept the JSON Web Token \(JWT\) of 
 
     For example:
 
-    ***cf create-service xsuaa application servb-uaa -c /servb/security/xs-security.json***
+    `cf create-service xsuaa application servb-uaa -c /servb/security/xs-security.json`
 
 3.  As the business application developer, add scope references to the scope of the service in the `role-templates` section of the `xs-security.json` in business application A.
 
@@ -85,7 +85,7 @@ In this scenario, we enable the service to accept the JSON Web Token \(JWT\) of 
 
     For example:
 
-    ***cf create-service xsuaa application appa-uaa -c /appa/security/xs-security.json***
+    `cf create-service xsuaa application appa-uaa -c /appa/security/xs-security.json`
 
 5.  Deploy the developments.
 

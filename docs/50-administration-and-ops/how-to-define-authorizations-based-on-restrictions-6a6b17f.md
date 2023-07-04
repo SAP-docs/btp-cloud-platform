@@ -44,7 +44,9 @@ Using the *Maintain Business Roles \(New\)* app, you have the following options 
     > ### Note:  
     > When you set an access category to *Restricted* you can define the data access for each restriction type and restriction field according to your process requirements. You can do this on*Read*, *Write* and *Value Help* level.
 
--   **Write** 
+
+**Write** 
+
 -   The default value access category when a role is created is *No Access*. This means that this business role has no write authorizations at all \(display only\). You can add specific authorizations \(*Restricted*\) or in cases where you want to grant full access for all restriction types and restriction fields, you can choose *Unrestricted* \(‘*\**’\).
 
     Switching the write access to *Restricted* allows you to define which data can be edited by the users assigned to this business role.
@@ -55,7 +57,9 @@ Using the *Maintain Business Roles \(New\)* app, you have the following options 
 
 -   Every authorization you define in the *Write* access category is inherited to the *Read* and *Value Help* access category.
 
--   **Read**
+
+**Read**
+
 -   The default status of the access category *Read* is *Unrestricted*.
 
     Switching the read access to *Restricted* allows you to define which data can be seen by the users assigned to this business role.
@@ -66,12 +70,16 @@ Using the *Maintain Business Roles \(New\)* app, you have the following options 
 
 -   Every authorization you define in the *Read* access category is inherited to the *Value Help* access category.
 
--   **Value Help** 
+
+**Value Help** 
+
 -   You can define authorizations for value helps that are used in a business role. These value help authorizations will not influence the defined restrictions for read access.
 
     In the context of a business role, you can authorize the value help access, for example to business partners that belong to certain authorization groups.
 
--   *Leading Restriction*
+
+*Leading Restriction*
+
 -   In this section, we will describe how you can reduce the maintenance effort of restriction fields that are used in multiple restriction types of an access category.
 
 -   Restriction types that contain general organizational restriction fields can be found in the top section called *General*. These restriction types contain only one restriction field.
@@ -82,7 +90,7 @@ Using the *Maintain Business Roles \(New\)* app, you have the following options 
 
     That means the value in this field is automatically inherited to other restriction types the field is used in as well.
 
-    You want to, for example, define that the values for the country templates for Austria and Switzerland are applied in all restriction types the *Company Code* field is used in. So you select the values ***AU01*** \(for Austria\) and ***CH01*** \(for Switzerland\) and switch *Leading Restriction* on. Then these values are automatically inherited to all occurrences of the *Company Code* field.
+    You want to, for example, define that the values for the country templates for Austria and Switzerland are applied in all restriction types the *Company Code* field is used in. So you select the values `AU01` \(for Austria\) and `CH01` \(for Switzerland\) and switch *Leading Restriction* on. Then these values are automatically inherited to all occurrences of the *Company Code* field.
 
     *Default Values from Business Catalogs*
 

@@ -30,57 +30,57 @@ If there are authentication problems in your application, enable logging for the
 
 5.  To route the log messages to the standard output, use the following command:
 
-    ***cf set-env <application\_name\> SAP\_EXT\_TRC stdout***
+    `cf set-env <application_name> SAP_EXT_TRC stdout`
 
     > ### Example:  
-    > ***cf set-env your-app SAP\_EXT\_TRC stdout***
+    > `cf set-env your-app SAP_EXT_TRC stdout`
 
 6.  To set the log level, use the following command:
 
-    ***cf set-env <application\_name\> SAP\_EXT\_TRL 3***
+    `cf set-env <application_name> SAP_EXT_TRL 3`
 
     > ### Example:  
-    > ***cf set-env your-app SAP\_EXT\_TRL 3***
+    > `cf set-env your-app SAP_EXT_TRL 3`
 
 7.  \(For Node.js\) To set detailed logs of the Security API for Node.js, use the following command:
 
-    ***cf set-env <application\_name\> DEBUG xssec\****
+    `cf set-env <application_name> DEBUG xssec*`
 
     > ### Example:  
-    > ***cf set-env your-app DEBUG xssec\****
+    > `cf set-env your-app DEBUG xssec*`
 
 8.  Restage your application using the following command:
 
-    ***cf restage <application\>***
+    `cf restage <application>`
 
     > ### Example:  
-    > ***cf restage your-app***
+    > `cf restage your-app`
 
     Restaging the application enables the display of the logs.
 
 9.  We recommend piping the output to a log file. Use the following command to do this:
 
-    ***cf logs <application\> \> <log\_file\_name\>***
+    `cf logs <application> > <log_file_name>`
 
     > ### Example:  
-    > ***cf logs your-app \> your-app-log.txt***
+    > `cf logs your-app > your-app-log.txt`
 
 10. Reproduce the problem in your application. The events that occur in your application are logged in your local log file.
 
     > ### Note:  
     > You can stop the recording of the log messages using [CTRL+C\]. You can revert the environment variables using the following command:
     > 
-    > ***cf unset-env <application\> SAP\_EXT\_TRC***
+    > `cf unset-env <application> SAP_EXT_TRC`
     > 
     > > ### Example:  
-    > > ***cf unset-env your-app SAP\_EXT\_TRC***
+    > > `cf unset-env your-app SAP_EXT_TRC`
     > 
     > Restage your application using the following command:
     > 
-    > ***cf restage <application\>***
+    > `cf restage <application>`
     > 
     > > ### Example:  
-    > > ***cf restage your-app***
+    > > `cf restage your-app`
 
 11. Running on the cloud management tools feature set B: Create an incident for your local supportRunning on the cloud management tools feature set A: Create an incident using the component `BC-CP-CF-SEC-IAM`. Use the [SAP Support Portal](https://support.sap.com/home.html). For more information, see [Monitoring and Troubleshooting](monitoring-and-troubleshooting-1b3e89e.md).
 
@@ -111,7 +111,7 @@ If there are authentication problems in your application, enable logging for the
     <tr>
     <td valign="top">
     
-         ***SAP\_EXT\_TRC*** 
+         `SAP_EXT_TRC` 
 
 
     
@@ -127,7 +127,7 @@ If there are authentication problems in your application, enable logging for the
     <tr>
     <td valign="top">
     
-         ***SAP\_EXT\_TRL*** 
+         `SAP_EXT_TRL` 
 
 
     
@@ -138,13 +138,13 @@ If there are authentication problems in your application, enable logging for the
 
     Values \(integer\):
 
-    -   ***0*** \(off\)
+    -   `0` \(off\)
 
-    -   ***1*** \(default\)
+    -   `1` \(default\)
 
-    -   ***2*** \(medium\)
+    -   `2` \(medium\)
 
-    -   ***3*** \(high\)
+    -   `3` \(high\)
 
 
 
@@ -176,7 +176,7 @@ If there are authentication problems in your application, enable logging for the
     <tr>
     <td valign="top">
     
-         ***DEBUG*** 
+         `DEBUG` 
 
 
     
@@ -185,7 +185,7 @@ If there are authentication problems in your application, enable logging for the
     
         Detailed logs of the security API for Node.js
 
-    Value \(string\): ***xssec\****
+    Value \(string\): `xssec*`
 
 
     

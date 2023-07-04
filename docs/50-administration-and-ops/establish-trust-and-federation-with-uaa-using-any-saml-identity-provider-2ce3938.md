@@ -84,7 +84,7 @@ Administrators must configure trust on both sides, in the service provider and i
 
     If available, the metadata contains the configuration information, including the signing certificate and the required URLs. You can create the metadata file of your subaccount using the *SAML Metadata* button in *Security* \> *Trust Configuration* of your subaccount.
 
--   Use e-mail as the unique name ID attribute, and map the user attribute `Groups` to the assertion attribute ***Groups*** \(capitalized\). This assertion attribute is required for the assignment of roles.
+-   Use e-mail as the unique name ID attribute, and map the user attribute `Groups` to the assertion attribute `Groups` \(capitalized\). This assertion attribute is required for the assignment of roles.
 
     This makes sure that there is a trust relationship between your SAM 2.0 identity provider and the subaccount.
 
@@ -118,7 +118,7 @@ To establish trust from a tenant of your identity provider to a subaccount, assi
 
 6.  Choose or create the name ID attribute and select E-mail as a unique attribute. Save your changes.
 
-7.  Choose or create a user attribute, and enter ***Groups*** \(capitalized\) as assertion attribute name for the *Groups* user attribute. Save your changes.
+7.  Choose or create a user attribute, and enter `Groups` \(capitalized\) as assertion attribute name for the *Groups* user attribute. Save your changes.
 
 
 **Related Information**  

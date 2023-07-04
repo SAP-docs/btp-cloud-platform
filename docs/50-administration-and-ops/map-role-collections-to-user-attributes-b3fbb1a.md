@@ -14,10 +14,13 @@ Map role collections to users dynamically through the use of user attributes. Wh
 
 -   You've configured the identity provider so that it conveys the user attributes in the assertion attributes.
 
+    -   For business users, see [Map User Attributes from a Corporate Identity Provider for Business Users](map-user-attributes-from-a-corporate-identity-provider-for-business-users-bbb4a8a.md).
+
+    -   For platform users, see [Map User Attributes from a Corporate Identity Provider for Platform Users](map-user-attributes-from-a-corporate-identity-provider-for-platform-users-40c2e54.md).
+
+
 -   You've created role collections.
 
-
-For more information, see the related links.
 
 
 
@@ -45,7 +48,7 @@ The identity provider hosts the users and their attributes. When a user is authe
     > ### Tip:  
     > Provide the **exact** name of the attribute and its value as provided by the identity provider. These values are case-sensitive.
     > 
-    > For more information, see [Federation Attribute Settings of Any Identity Provider](federation-attribute-settings-of-any-identity-provider-6d07333.md) or [Configure the User Attributes Sent to the Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d361407d36c5443298a909acbbd96ec4.html) in the documentation of the Identity Authentication service.
+    > For more information, see [Configure the User Attributes Sent to the Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d361407d36c5443298a909acbbd96ec4.html) in the documentation of the Identity Authentication service.
 
 6.  Save your entries.
 
@@ -54,10 +57,6 @@ The identity provider hosts the users and their attributes. When a user is authe
 
 
 [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md "When setting up accounts you need to assign users. While we provide you with your first users to get you started, your organization has identity providers that you want to integrate.")
-
-[Establish Trust and Federation Between UAA and Identity Authentication](establish-trust-and-federation-between-uaa-and-identity-authentication-161f8f0.md "Use your SAP Cloud Identity Services - Identity Authentication tenant as an identity provider or a proxy to your own identity provider hosting your business users. This method avoids the upload and download of SAML meta data by using Open ID Connect (OIDC) to establish trust.")
-
-[Federation Attribute Settings of Any Identity Provider](federation-attribute-settings-of-any-identity-provider-6d07333.md "This table is supposed to display the attribute settings of the identity provider and the values administrators use to establish trust between the SAML 2.0 identity provider and a new subaccount.")
 
 [Map Role Collections to User Groups](map-role-collections-to-user-groups-51acfc8.md "You want to assign a role collection to a user group provided by an identity provider that has a custom trust configuration in SAP BTP. In this case, the assignment is a mapping of a user group to a role collection. Your identity provider provides the user groups using the assertion attribute called Groups. Each value of the attribute is mapped to a role collection as described in this procedure.")
 

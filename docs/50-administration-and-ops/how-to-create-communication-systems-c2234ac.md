@@ -72,9 +72,9 @@ To create a communication system perform the following steps:
 
         Define the *User ID Mapping Mode* if you don't use e-mail addresses, but either logon name or global user ID.
 
-        The *User ID Mapping Mode* is required when the *SAML Identity Provider* is creating SAML assertions with the *NameIdentifierFormat* ***unspecified***.
+        The *User ID Mapping Mode* is required when the *SAML Identity Provider* is creating SAML assertions with the *NameIdentifierFormat* `unspecified`.
 
-        This setting is ignored when then SAML assertion is using the *NameIdentifierFormat* ***eMailAddress***.
+        This setting is ignored when then SAML assertion is using the *NameIdentifierFormat* `eMailAddress`.
 
         Please note that the required authorization for calling the service is granted to the business user and not to the technical user. When you set up a communication arrangement using oAuth, you can click *OAuth 2.0 Details*, select the scope and click *Granted by Business Catalogs* to find the necessary details. This way you can retrieve the business catalogs that are required for calling the service.
 
@@ -86,9 +86,9 @@ To create a communication system perform the following steps:
 
         Define the required *User ID Mapping Mode* if it is unspecified and you don't use e-mail addresses, but either logon name or global user ID.
 
-        The *User ID Mapping Mode* is required when the *SAML Identity Provider* is creating SAML assertions with the *NameIdentifierFormat* ***unspecified*** .
+        The *User ID Mapping Mode* is required when the *SAML Identity Provider* is creating SAML assertions with the *NameIdentifierFormat* `unspecified` .
 
-        This setting is ignored when then SAML assertion is using the *NameIdentifierFormat****eMailAddress***.
+        This setting is ignored when then SAML assertion is using the *NameIdentifierFormat*`eMailAddress`.
 
     -   *OpenID Connect* switch
 

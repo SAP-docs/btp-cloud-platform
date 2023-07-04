@@ -39,9 +39,9 @@ You want to use the Identity Authentication service as an SAML 2.0 identity prov
 
 6.  Make sure that the *Origin Key* field is properly filled.
 
-7.  Enter a name for the new trust configuration, for example, ****<Your custom Identity Authentication service tenant\>*.accounts.ondemand.com***.
+7.  Enter a name for the new trust configuration, for example, <code><i class="varname">&lt;Your custom Identity Authentication service tenant&gt;</i>.accounts.ondemand.com</code>.
 
-8.  Optionally, provide a link text. As a best practice, we recommend that you use the same name as for the new trust configuration, ****<Your custom Identity Authentication service tenant\>*.accounts.ondemand.com*** in our example.
+8.  Optionally, provide a link text. As a best practice, we recommend that you use the same name as for the new trust configuration, <code><i class="varname">&lt;Your custom Identity Authentication service tenant&gt;</i>.accounts.ondemand.com</code> in our example.
 
 9.  Choose *Save*.
 

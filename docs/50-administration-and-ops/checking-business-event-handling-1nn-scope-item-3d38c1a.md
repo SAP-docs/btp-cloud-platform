@@ -27,13 +27,14 @@ Depending on your configuration environment for ABAP environment, choose one of 
 
 ## Procedure
 
--   **Define your Scope**
+**Define your Scope**
 
 -   In the ABAP environment system, in the SAP Fiori launchpad, open the *Define Your Scope* app.
 
 -   Search for `XX_1NN`.
 
--   **Manage Your Solution**
+
+**Manage Your Solution**
 
 -   In the ABAP environment system, in the SAP Fiori launchpad, open the *Manage Your Solution* app.
 
@@ -41,7 +42,8 @@ Depending on your configuration environment for ABAP environment, choose one of 
 
 -   Search for `XX_1NN`.
 
--   **SAP Central Business Configuration**
+
+**SAP Central Business Configuration**
 
 -   In the **Scope and Organizational Structure** phase, navigate to the **Activities** tab.
 

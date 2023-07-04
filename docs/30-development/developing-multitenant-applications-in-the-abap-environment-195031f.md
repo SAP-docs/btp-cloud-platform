@@ -27,12 +27,283 @@ Instead of transporting software components \(via gCTS\) for software delivery, 
 
 As a provider, you can deploy your SaaS solution in a subaccount that is located in one of the regions available for the ABAP environment:
 
--   cf-eu10 Europe \(Frankfurt\)
+****
 
--   cf-us10 US East \(VA\)
 
--   cf-jp10 Japan \(Tokyo\)
+<table>
+<tr>
+<th valign="top">
 
+CF Landscape
+
+
+
+</th>
+<th valign="top">
+
+Regions
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+cf-ap10
+
+
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+cf-ap11
+
+
+
+</td>
+<td valign="top">
+
+Singapore
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+cf-ap12
+
+
+
+</td>
+<td valign="top">
+
+South Korea \(Seoul\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+cf-ap20
+
+
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+cf-ap21
+
+
+
+</td>
+<td valign="top">
+
+Singapore
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+cf-br10
+
+
+
+</td>
+<td valign="top">
+
+Brazil \(São Paolo\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+cf-ca10
+
+
+
+</td>
+<td valign="top">
+
+Canada \(Montreal\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+cf-ch20
+
+
+
+</td>
+<td valign="top">
+
+Switzerland \(Zurich\) Azure EU Access
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+cf-eu10
+
+
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+cf-eu11
+
+
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\) EU Access
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+cf-eu20
+
+
+
+</td>
+<td valign="top">
+
+Europe \(Netherlands\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+cf-jp10
+
+
+
+</td>
+<td valign="top">
+
+Japan \(Tokyo\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+cf-jp20
+
+
+
+</td>
+<td valign="top">
+
+Japan \(Tokyo\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+cf-us10
+
+
+
+</td>
+<td valign="top">
+
+US East \(VA\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+cf-us20
+
+
+
+</td>
+<td valign="top">
+
+US West \(WA\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+cf-us21
+
+
+
+</td>
+<td valign="top">
+
+US East \(VA\)
+
+
+
+</td>
+</tr>
+</table>
 
 A consumer can then subscribe to and access your SaaS solution from a subaccount. The consumer subaccount needs to be located in the same region as the subaccount which you deployed the SaaS solution in.
 

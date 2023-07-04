@@ -309,9 +309,9 @@ PRIMARY
 
 Unit of measure flagged as a primary unit for an ISO code
 
-***Space***: Not primary
+`Space`: Not primary
 
-***‘X’***: Set as primary
+`‘X’`: Set as primary
 
 
 
@@ -401,9 +401,9 @@ ERROR
 </td>
 <td valign="top">
 
-***Space***: No error
+`Space`: No error
 
-***‘X’***: Save error
+`‘X’`: Save error
 
 
 

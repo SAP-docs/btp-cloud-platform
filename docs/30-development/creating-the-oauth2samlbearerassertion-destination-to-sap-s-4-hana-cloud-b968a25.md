@@ -44,7 +44,7 @@
     </td>
     <td valign="top">
     
-        ***S4BusinessPartnerOAuth2***
+        `S4BusinessPartnerOAuth2`
 
 
     
@@ -92,7 +92,7 @@
     </td>
     <td valign="top">
     
-        *<Host name of the service URL from the communication arrangement​\>*, for example, ***https://my303291-api.s4hana.ondemand.com*** \(see [Copying the Inbound Service URL and Other Communication Details](copying-the-inbound-service-url-and-other-communication-details-a14394b.md)\)
+        *<Host name of the service URL from the communication arrangement​\>*, for example, `https://my303291-api.s4hana.ondemand.com` \(see [Copying the Inbound Service URL and Other Communication Details](copying-the-inbound-service-url-and-other-communication-details-a14394b.md)\)
 
 
     
@@ -156,7 +156,7 @@
     </td>
     <td valign="top">
     
-        ***urn:oasis:names:tc:SAML:2.0:ac:classes:X509​***
+        `urn:oasis:names:tc:SAML:2.0:ac:classes:X509​`
 
 
     
@@ -258,7 +258,7 @@
     </td>
     <td valign="top">
     
-        ***urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress***
+        `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
 
 
     

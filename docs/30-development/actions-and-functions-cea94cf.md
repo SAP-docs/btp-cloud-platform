@@ -67,7 +67,7 @@ Functions and Actions are operations that can return data. Operations are either
 
 ### Version 4 Function Import
 
-“***GetEmployeeByManagerId***” with non-binding parameter “***ManagerId***”:
+“`GetEmployeeByManagerId`” with non-binding parameter “`ManagerId`”:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0001/GetEmployeeByManagerID(ManagerID='0001')
@@ -77,7 +77,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0001/GetEmployeeByManagerID
 
 ### V4 Bound Action
 
-“***AcChangeTeamOfEmployee***” with non-binding parameter “***TeamId***”
+“`AcChangeTeamOfEmployee`” with non-binding parameter “`TeamId`”
 
 ```
 POST /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0001/EMPLOYEES('2')/SAP__self.AcChangeTeamOfEmployee
@@ -96,7 +96,7 @@ Request body:
 
 ### Version 2 Function
 
-“***SetEmployeeSalary***” with non-binding parameter “***Id***” and “***Amount***”
+“`SetEmployeeSalary`” with non-binding parameter “`Id`” and “`Amount`”
 
 ```
 PUT /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/SetEmployeeSalary?Id='0001'&Amount=200
@@ -121,11 +121,11 @@ For examples and steps for Import and Bound operations, see:
 
 -   Composable Functions are **not** supported.
 
--   ***$expand*** with operations is ***not*** supported.
+-   `$expand` with operations is `not` supported.
 
--   ***$select*** is ***not*** supported for actions.
+-   `$select` is `not` supported for actions.
 
--   ***Return-Prefer*** header is ***not*** supported for actions.
+-   `Return-Prefer` header is `not` supported for actions.
 
 -   System query options are **not** supported for Version 4 functions.
 

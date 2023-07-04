@@ -41,7 +41,7 @@ The signed SAML tokens are used to validate and authenticate the protocol messag
 
     <code>https://api.authentication.<i class="varname">&lt;region&gt;</i>.hana.ondemand.com/sap/rest/authorization/v2/securitySettings</code>
 
-    In the body, include a key ID and set `changeMode` to ***ADD*** in the SAML configuration settings.
+    In the body, include a key ID and set `changeMode` to `ADD` in the SAML configuration settings.
 
     > ### Sample Code:  
     > ```
@@ -76,7 +76,7 @@ The signed SAML tokens are used to validate and authenticate the protocol messag
 
 2.  Enable the new signing key.
 
-    Call the *PATCH* method of the same endpoint, but set `changeMode` to ***UPDATE***.
+    Call the *PATCH* method of the same endpoint, but set `changeMode` to `UPDATE`.
 
     ```
     {
@@ -105,7 +105,7 @@ The signed SAML tokens are used to validate and authenticate the protocol messag
 
 4.  Delete the old signing key for SAML tokens.
 
-    Call the *PATCH* method of the same endpoint, but set `keyID` to the old key ID and `changeMode` to ***DELETE***.
+    Call the *PATCH* method of the same endpoint, but set `keyID` to the old key ID and `changeMode` to `DELETE`.
 
     > ### Sample Code:  
     > ```

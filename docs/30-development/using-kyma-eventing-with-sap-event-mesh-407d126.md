@@ -31,9 +31,9 @@ You can switch the Kyma Eventing backend from NATS to SAP Event Mesh by followin
 
     -   *Name* - enter or generate the name of your instance.
 
-    -   *Offering Name* - type: ***enterprise-messaging***.
+    -   *Offering Name* - type: `enterprise-messaging`.
 
-    -   *Plan Name* - type: ***default***.
+    -   *Plan Name* - type: `default`.
 
 
 4.  Go to the *YAML* tab, and paste the following sample `config.json` file under the `parameters` key.
@@ -82,7 +82,7 @@ You can switch the Kyma Eventing backend from NATS to SAP Event Mesh by followin
 
 8.  In your Namespace, go to *Configuration* \> *Secrets*.
 
-9.  To switch the backend to SAP Event Mesh, you must label your Secret. Choose the name of your binding, click *Edit*, and label the Secret with ***kyma-project.io/eventing-backend: beb***.
+9.  To switch the backend to SAP Event Mesh, you must label your Secret. Choose the name of your binding, click *Edit*, and label the Secret with `kyma-project.io/eventing-backend: beb`.
 
     > ### Note:  
     > To see the SAP Event Mesh Secret information, click *Decode*.

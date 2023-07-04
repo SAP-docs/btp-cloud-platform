@@ -38,7 +38,7 @@ For more information about creating Cloud Foundry spaces, see [Create Spaces](ht
 
     1.  Choose *New Space*.
 
-    2.  On the *New Space* dialog, enter a name for the new Cloud Foundry space, for example, ***dev***, and leave the checkboxes for space manager and space developer checked.
+    2.  On the *New Space* dialog, enter a name for the new Cloud Foundry space, for example, `dev`, and leave the checkboxes for space manager and space developer checked.
 
     3.  Choose *Create*.
 

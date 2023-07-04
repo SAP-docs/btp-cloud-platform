@@ -157,7 +157,7 @@ For more information about identity federation, see [Configure Identity Federati
     If the corporate identity provider sends user attributes with other names, map the attribute for the corporate identity provider to the right attribute name.
 
     > ### Example:  
-    > If your corporate identity provider sends users' last names as attribute `sn`, map the `sn` attribute to the `family_name` attribute required by your application with the value ***$\{corporateIdP.sn\}***.
+    > If your corporate identity provider sends users' last names as attribute `sn`, map the `sn` attribute to the `family_name` attribute required by your application with the value `${corporateIdP.sn}`.
 
        
       

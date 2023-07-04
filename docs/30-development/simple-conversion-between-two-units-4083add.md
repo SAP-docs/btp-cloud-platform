@@ -2,7 +2,7 @@
 
 # Simple Conversion Between Two Units
 
-Use method `UNIT_CONVERSION_SIMPLE` to convert values from one measurement unit to another and round the result to the number of decimal places maintained in the measurement unit table `T006`, if necessary. Depending on the parameter `ROUND_SIGN`, the rounding is up \(***'+'***\), down \(***'-'***\), commercial \(***'X'***'\), or no rounding \(SPACE\).
+Use method `UNIT_CONVERSION_SIMPLE` to convert values from one measurement unit to another and round the result to the number of decimal places maintained in the measurement unit table `T006`, if necessary. Depending on the parameter `ROUND_SIGN`, the rounding is up \(`'+'`\), down \(`'-'`\), commercial \(`'X'`'\), or no rounding \(SPACE\).
 
 > ### Note:  
 > Make sure that both units are maintained in the measurement unit table and have the same dimension.
@@ -61,9 +61,9 @@ NO\_TYPE\_CHECK
 
 Conversion factor type check
 
-***'X'***: No check
+`'X'`: No check
 
-***Space***: Type check
+`Space`: Type check
 
 
 
@@ -81,11 +81,11 @@ ROUND\_SIGN
 
 Rounding flag
 
-***'+'***: Up
+`'+'`: Up
 
-***'-'***: Down
+`'-'`: Down
 
-***'X'***: Commercial
+`'X'`: Commercial
 
 
 

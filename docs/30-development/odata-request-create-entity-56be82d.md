@@ -16,7 +16,7 @@ Create an entity in the Client Proxy instance with insert entity request.
 
 See [\[MS-ODATA\]: Open Data Protocol \(OData\)](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-odata).
 
-The ***InsertEntity*** request enables a new EntityType instance with new related entities you add to an EntitySet.
+The `InsertEntity` request enables a new EntityType instance with new related entities you add to an EntitySet.
 
 
 
@@ -24,7 +24,7 @@ The ***InsertEntity*** request enables a new EntityType instance with new relate
 
 See [OData Version 4.01. Part 1: Protocol](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html).
 
-To create an entity in a collection, the client sends a ***POST*** request to the collection's URL. The ***POST*** body MUST contain a single valid entity representation.
+To create an entity in a collection, the client sends a `POST` request to the collection's URL. The `POST` body MUST contain a single valid entity representation.
 
 
 
@@ -36,7 +36,7 @@ To create an entity in a collection, the client sends a ***POST*** request to th
 
 ### Version 4
 
-Create the employee with id ‘***007***’ in the entity set “***Employees***”
+Create the employee with id ‘`007`’ in the entity set “`Employees`”
 
 ```
 POST /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees
@@ -59,7 +59,7 @@ With request body
 
 ### Version 2
 
-Create the employee with id ‘***007***’ in the entity set “***Employees***”
+Create the employee with id ‘`007`’ in the entity set “`Employees`”
 
 ```
 POST /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Employees
@@ -89,17 +89,17 @@ With request body
 ### Overview
 
 > ### Note:  
-> As the coding is independent of the OData version, we're presenting a general example on how to create a ***CREATE*** request on an entity..
+> As the coding is independent of the OData version, we're presenting a general example on how to create a `CREATE` request on an entity..
 
-The starting point for a ***POST*** request on an entity list is the Client Proxy instance. It's possible to create an entity list resource, which can then be used to create a create request.
+The starting point for a `POST` request on an entity list is the Client Proxy instance. It's possible to create an entity list resource, which can then be used to create a create request.
 
-Running the create request provides the create response instance, which can return the business data for the ***CREATE*** entity request.
+Running the create request provides the create response instance, which can return the business data for the `CREATE` entity request.
 
 
 
 ### Example
 
-Create the employee with key id = '***007*** 'of the Version 4 entity set ‘***Employees***':
+Create the employee with key id = '`007` 'of the Version 4 entity set ‘`Employees`':
 
 ```
 POST /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees
@@ -178,7 +178,7 @@ DATA:	lo_client_proxy         TYPE REF TO /iwbep/if_cp_client_proxy,
 
 ### Steps
 
-**Step 1:** Create the entity list resource for entity set ‘***Employees***’ \(with **internal** name ‘***EMPLOYEES’***'\):
+**Step 1:** Create the entity list resource for entity set ‘`Employees`’ \(with **internal** name ‘`EMPLOYEES’`'\):
 
 ```
 
@@ -228,7 +228,7 @@ Id
 </td>
 <td valign="top">
 
-***ID***
+`ID`
 
 
 
@@ -244,7 +244,7 @@ Name
 </td>
 <td valign="top">
 
-***NAME***
+`NAME`
 
 
 
@@ -260,7 +260,7 @@ Age
 </td>
 <td valign="top">
 
-***AGE***
+`AGE`
 
 
 
@@ -276,7 +276,7 @@ EntryDate
 </td>
 <td valign="top">
 
-***ENTRY\_DATE***
+`ENTRY_DATE`
 
 
 
@@ -292,7 +292,7 @@ ManagerId
 </td>
 <td valign="top">
 
-***MANAGER\_ID***
+`MANAGER_ID`
 
 
 
@@ -308,7 +308,7 @@ RoomId
 </td>
 <td valign="top">
 
-***ROOM\_ID***
+`ROOM_ID`
 
 
 
@@ -324,7 +324,7 @@ TeamId
 </td>
 <td valign="top">
 
-***TEAM\_ID***
+`TEAM_ID`
 
 
 
@@ -340,7 +340,7 @@ Status
 </td>
 <td valign="top">
 
-***STATUS***
+`STATUS`
 
 
 
@@ -356,7 +356,7 @@ IsManager
 </td>
 <td valign="top">
 
-***IS\_MANAGER***
+`IS_MANAGER`
 
 
 
@@ -410,12 +410,12 @@ DATA: 	lo_update_request TYPE REF TO /iwbep/if_cp_request_create,
 ```
 
 > ### Note:  
-> \(Optional\) Provide the properties when calling ***SET\_BUSINESS\_DATA***. If you provide properties, only the properties you set are considered. If you don't provide properties, all properties are considered for the ***CREATE*** request.
+> \(Optional\) Provide the properties when calling `SET_BUSINESS_DATA`. If you provide properties, only the properties you set are considered. If you don't provide properties, all properties are considered for the `CREATE` request.
 
 > ### Note:  
-> If the entity has value control or VCS properties, these properties **should** also be part of the provided data container \(***ls\_entity\_data*** in this example\). If the value control/VCS properties are not provided, the behavior \(for example: conversion exits\) is undefined and can cause unexpected side-effects.
+> If the entity has value control or VCS properties, these properties **should** also be part of the provided data container \(`ls_entity_data` in this example\). If the value control/VCS properties are not provided, the behavior \(for example: conversion exits\) is undefined and can cause unexpected side-effects.
 
-**Step 4:** Run the ***create*** request and get the create response instance:
+**Step 4:** Run the `create` request and get the create response instance:
 
 ```
 

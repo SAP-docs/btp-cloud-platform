@@ -16,7 +16,7 @@ Create an OData request to delete an entity in the Client Proxy instance.
 
 See also: [\[MS-ODATA\]: Open Data Protocol \(OData\)](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-odata).
 
-The ***DeleteEntity Request*** enables an ***EntityType*** instance to be deleted from a data service. The base rules and semantics of this request type are defined by AtomPub, as specified in [RFC5023](https://www.rfc-editor.org/rfc/rfc5023.txt) section 9.4 -- Deleting Resources with ***DELETE***.
+The `DeleteEntity Request` enables an `EntityType` instance to be deleted from a data service. The base rules and semantics of this request type are defined by AtomPub, as specified in [RFC5023](https://www.rfc-editor.org/rfc/rfc5023.txt) section 9.4 -- Deleting Resources with `DELETE`.
 
 
 
@@ -24,7 +24,7 @@ The ***DeleteEntity Request*** enables an ***EntityType*** instance to be delete
 
 See also: [OData Version 4.01. Part 1: Protocol](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html).
 
-To delete an individual entity, the client makes a ***DELETE*** request to a URL that identifies the entity.
+To delete an individual entity, the client makes a `DELETE` request to a URL that identifies the entity.
 
 When the delete is successfully completed, the response MUST be *<response code and name\>* and contain an empty body.
 
@@ -38,7 +38,7 @@ When the delete is successfully completed, the response MUST be *<response code 
 
 ### Version 4
 
-Delete the employee with id ‘***007***’ of entity set “***Employees***”
+Delete the employee with id ‘`007`’ of entity set “`Employees`”
 
 ```
 DELETE /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘007’)
@@ -48,7 +48,7 @@ DELETE /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘007’
 
 ### Version 2
 
-Delete the employee with id ‘***007***’ of entity set “***Employees***”
+Delete the employee with id ‘`007`’ of entity set “`Employees`”
 
 ```
 DELETE /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Employees(‘007’)
@@ -65,15 +65,15 @@ DELETE /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Employees(‘007’)
 ### Overview
 
 > ### Note:  
-> As the coding is independent of the OData version, we're presenting a general example on how to create a ***DELETE*** entity request.
+> As the coding is independent of the OData version, we're presenting a general example on how to create a `DELETE` entity request.
 
-The starting point for a ***DELETE*** entity request is the Client Proxy instance. You can create an entity resource based on an entity list resource, which you can use to create a delete request.
+The starting point for a `DELETE` entity request is the Client Proxy instance. You can create an entity resource based on an entity list resource, which you can use to create a delete request.
 
 
 
 ### Example
 
-Delete the employee with key “id = ‘***007’***” of the Version 4 entity set ‘***Employees’***:
+Delete the employee with key “id = ‘`007’`” of the Version 4 entity set ‘`Employees’`:
 
 ```
 DELETE /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘007’) with IF-MATCH header W/"MI6".
@@ -97,7 +97,7 @@ DELETE /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘007’
 
 ### Steps
 
-**Step 1:** Create the entity resource for the employee with the key “Id=‘***007***’” of entity set ‘***Employees***’ \(with **internal** name ‘***EMPLOYEES***’\). Type “***ty\_s\_employee\_key***” in interface "***/iwbep/if\_v4\_tea\_busi\_types***” is a structure containing the key property “id”:
+**Step 1:** Create the entity resource for the employee with the key “Id=‘`007`’” of entity set ‘`Employees`’ \(with **internal** name ‘`EMPLOYEES`’\). Type “`ty_s_employee_key`” in interface "`/iwbep/if_v4_tea_busi_types`” is a structure containing the key property “id”:
 
 ```
 
@@ -118,7 +118,7 @@ DELETE /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘007’
   lo_delete_request = lo_entity_resource->create_request_for_delete( ).
 ```
 
-**Step 3:** Set the If-Match header to provide an ETag \(if needed for this request\). If the corresponding request header is, for example, ***if-match: W/"MI6"***, the required input for ***SET\_IF\_MATCH*** is ‘***MI6’***:
+**Step 3:** Set the If-Match header to provide an ETag \(if needed for this request\). If the corresponding request header is, for example, `if-match: W/"MI6"`, the required input for `SET_IF_MATCH` is ‘`MI6’`:
 
 ```
 
@@ -137,7 +137,7 @@ DELETE /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘007’
 ```
 
 > ### Note:  
-> A successful delete request doesn't have response data, which means that the ***EXECUTE*** method doesn't return a delete response object.
+> A successful delete request doesn't have response data, which means that the `EXECUTE` method doesn't return a delete response object.
 
 **Step 5:** Check if the execution was successful:
 
@@ -149,7 +149,7 @@ DELETE /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘007’
 ```
 
 > ### Note:  
-> Normally, any issues during the request execution raises an exception in method ***EXECUTE***. This method call is optional.
+> Normally, any issues during the request execution raises an exception in method `EXECUTE`. This method call is optional.
 
 **Related Information**  
 

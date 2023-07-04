@@ -16,7 +16,7 @@ Create an OData request using a navigation in the Client Proxy instance.
 
 See also: [\[MS-ODATA\]: Open Data Protocol \(OData\)](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-odata).
 
-A unidirectional \(one-way\) relationship \(for example, a Link\) is when two entity types are related by association, but only one of the entity types defines a ***NavigationProperty*** that binds to the association.
+A unidirectional \(one-way\) relationship \(for example, a Link\) is when two entity types are related by association, but only one of the entity types defines a `NavigationProperty` that binds to the association.
 
 
 
@@ -36,7 +36,7 @@ Relationships from one entity to another are represented as navigation propertie
 
 ### Version 4
 
-Get all employees associated with Team ‘***TEAM\_01***’ via navigation property ‘***Team2Employees***’:
+Get all employees associated with Team ‘`TEAM_01`’ via navigation property ‘`Team2Employees`’:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams('TEAM_01')/Team2Employees
@@ -46,7 +46,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams('TEAM_01')/Team2
 
 ### Version 2
 
-Get the team of the employee with Id ‘***0005***’ via navigation property “***My\_Team***”:
+Get the team of the employee with Id ‘`0005`’ via navigation property “`My_Team`”:
 
 ```
 GET /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Employees(Id='0005')/My_Team
@@ -71,7 +71,7 @@ The starting point for a request using a navigation is an entity resource. On th
 
 ### Example 1
 
-Navigate to an entity list with Navigation Property “***Department2Teams***”:
+Navigate to an entity list with Navigation Property “`Department2Teams`”:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Departments(Id='1',Sector='Consulting')/Department2Teams
@@ -81,7 +81,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Departments(Id='1',Sec
 
 ### Steps
 
-**Step 1:** Create the target resource on the entity resource using the **internal** name of the navigation property \(“***DEPARTMENT\_2\_TEAMS***”\):
+**Step 1:** Create the target resource on the entity resource using the **internal** name of the navigation property \(“`DEPARTMENT_2_TEAMS`”\):
 
 ```
 
@@ -98,7 +98,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Departments(Id='1',Sec
 
 ### Example 2
 
-Navigate to a single entity using the Navigation Property “***Team2Manager***”:
+Navigate to a single entity using the Navigation Property “`Team2Manager`”:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams('TEAM_01')/Team2Manager
@@ -108,7 +108,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams('TEAM_01')/Team2
 
 ### Steps
 
-**Step 1:** Create the target resource on the entity resource using the **internal** name of the navigation property \(“***TEAM\_2\_MANAGER***”\):
+**Step 1:** Create the target resource on the entity resource using the **internal** name of the navigation property \(“`TEAM_2_MANAGER`”\):
 
 ```
 
@@ -125,7 +125,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams('TEAM_01')/Team2
 
 ### Example 3
 
-Navigate to an optional \(for example. zero-to-one navigation\) entity using the Navigation Property “***Employee2Manager***”:
+Navigate to an optional \(for example. zero-to-one navigation\) entity using the Navigation Property “`Employee2Manager`”:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees('0004')/Employee2Manager
@@ -135,7 +135,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees('0004')/Empl
 
 ### Step-by-step
 
-**Step 1:** Create the target resource on the entity resource using the **internal** name of the navigation property \(“***EMPLOYEE\_2\_MANAGER***”\):
+**Step 1:** Create the target resource on the entity resource using the **internal** name of the navigation property \(“`EMPLOYEE_2_MANAGER`”\):
 
 ```
 

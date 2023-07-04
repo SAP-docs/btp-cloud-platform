@@ -21,7 +21,7 @@ The starting point for invoking a bound operation is the corresponding operation
 
 ### Example
 
-Invoke the Version 4 bound action ‘***IncreaseSalary***’ with the non-binding \(for example, input\) parameters “***NewSalary=5000***” and “***Currency=***’***EUR***’”. The action is bound to one entity of the entity set “***Employees***”:
+Invoke the Version 4 bound action ‘`IncreaseSalary`’ with the non-binding \(for example, input\) parameters “`NewSalary=5000`” and “`Currency=`’`EUR`’”. The action is bound to one entity of the entity set “`Employees`”:
 
 ```
 POST /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘0006’) /com.sap.gateway.default.iwbep.tea_busi.v0003.IncreaseSalary
@@ -82,7 +82,7 @@ POST /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘0006’)
 
 ### Steps
 
-**Step 1:** Create the entity resource with the employee ***Id*** ‘***0006***’ of the entity set ‘***Employees***’ \(with **internal** name ‘***EMPLOYEES’***\):
+**Step 1:** Create the entity resource with the employee `Id` ‘`0006`’ of the entity set ‘`Employees`’ \(with **internal** name ‘`EMPLOYEES’`\):
 
 ```
 
@@ -100,7 +100,7 @@ POST /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘0006’)
   lo_entity_resource = lo_client_proxy->create_resource_for_entity_set( 'EMPLOYEES')->navigate_with_key( ls_key ).
 ```
 
-**Step 2:** Create the action resource instance on the instance the action is bound to \(In this example, an entity of entity set ‘***Employees***’\). ‘***INCREASE\_SALARY***’ is the **internal** name of action ‘***IncreaseSalary’***:
+**Step 2:** Create the action resource instance on the instance the action is bound to \(In this example, an entity of entity set ‘`Employees`’\). ‘`INCREASE_SALARY`’ is the **internal** name of action ‘`IncreaseSalary’`:
 
 ```
 
@@ -134,14 +134,14 @@ POST /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘0006’)
   lo_action_request->set_parameter( ls_parameter ).
 ```
 
-**Step 5:** Set the ***If-Match*** header to provide an ETag \(if needed for this request\) on the action request. In this example, the corresponding request header is ***if-match***: W/"***2407***", the required input for ***SET\_IF\_MATCH*** is ‘***2407***’:
+**Step 5:** Set the `If-Match` header to provide an ETag \(if needed for this request\) on the action request. In this example, the corresponding request header is `if-match`: W/"`2407`", the required input for `SET_IF_MATCH` is ‘`2407`’:
 
 ```
 Lo_action_request->set_if_match( ‘2407’ )
 ```
 
 > ### Note:  
-> Only remote consumption supports the ***If-Match*** header.
+> Only remote consumption supports the `If-Match` header.
 
 **Step 6:** Create the action request and get the action response instance:
 
@@ -152,7 +152,7 @@ Lo_action_request->set_if_match( ‘2407’ )
   lo_action_response = lo_action_request->execute( ).
 ```
 
-**Step 7:** Check if the response object contains business data. This is especially useful for nullable operations, where the operation might not return data \(compare to HTTP return code ***204 – No Content***\):
+**Step 7:** Check if the response object contains business data. This is especially useful for nullable operations, where the operation might not return data \(compare to HTTP return code `204 – No Content`\):
 
 ```
 CHECK lo_action_response->has_business_data( ) = abap_true.
@@ -170,7 +170,7 @@ CHECK lo_action_response->has_business_data( ) = abap_true.
 > ### Note:  
 > -   When using the Version 4 local client proxy, the business data you enter isn't converted for inbound processing. The data provider receives the exact data you entered in the request. The business data received from the \(local consumption\) response is also not re-converted for outbound processing.
 > 
-> -   Invoking an OData Version 4 bound function works the same way. Use method***BIND\_FUNCTION*** instead of ***BIND\_ACTION***.
+> -   Invoking an OData Version 4 bound function works the same way. Use method`BIND_FUNCTION` instead of `BIND_ACTION`.
 
 
 
@@ -184,11 +184,11 @@ CHECK lo_action_response->has_business_data( ) = abap_true.
 
 -   Composable Functions are **not** supported.
 
--   ***$expand*** with operations is ***not*** supported.
+-   `$expand` with operations is `not` supported.
 
--   ***$select*** is ***not*** supported for actions.
+-   `$select` is `not` supported for actions.
 
--   ***Return-Prefer*** header is ***not*** supported for actions.
+-   `Return-Prefer` header is `not` supported for actions.
 
 -   System query options are **not** supported for Version 4 functions.
 

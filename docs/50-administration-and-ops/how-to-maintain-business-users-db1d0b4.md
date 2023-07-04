@@ -22,7 +22,8 @@ Business users are replicated from your central HR system. You can change user d
 
 ## Procedure
 
--   **Creating New Business Users**
+**Creating New Business Users**
+
 -   To create a new business user, proceed as follows:
 
     1.  Choose *Create* on the main screen of the app.
@@ -34,7 +35,9 @@ Business users are replicated from your central HR system. You can change user d
         The name the user enters to log on to the SAP Fiori launchpad. The user name can only contain uppercase letters, numbers, and underscores. It must have a maximum length of 40 characters and must not start with an underscore, or with SAP.
 
 
--   **Assigning Roles to Business Users**
+
+**Assigning Roles to Business Users**
+
 -   To grant users access to applications, you assign the respective business roles to them.
 
     1.  Select the required user.
@@ -50,7 +53,9 @@ Business users are replicated from your central HR system. You can change user d
         The user then sees the respective app tiles in the tile catalogs.
 
 
--   **Removing Role Assignments from Business Users**
+
+**Removing Role Assignments from Business Users**
+
 -   To remove a role assignment from a user, proceed as follows:
 
     1.  Select the business user and then the assigned business role.
@@ -58,7 +63,9 @@ Business users are replicated from your central HR system. You can change user d
     2.  Choose *Remove* above the list or *Remove Business Roles* at the bottom of the screen.
 
 
--   **Updating User Role Assignments**
+
+**Updating User Role Assignments**
+
 -   To update the assignments of roles to a user individually, edit the affected business user.
 
 -   To mass update user role assignments, upload a `CSV` file.
@@ -191,7 +198,9 @@ Business users are replicated from your central HR system. You can change user d
 
     The user ID is optional. Only if the user name is not unique, the user ID has to be maintained.
 
--   **Downloading User Lists**
+
+**Downloading User Lists**
+
 -   To download a list of all users with an email address as `CSV` files for upload to *SAP Cloud Identity Services - Identity Authentication*, proceed as follows:
 
     1.  To open the file, you have to set the list separator to comma by setting the format in the regional settings of your operating system to*English \(United States\)*.
@@ -204,118 +213,119 @@ Business users are replicated from your central HR system. You can change user d
         > Make sure that the `CSV` file is not opened with any program before the upload.
 
 
--   Changing the Default Settings for a Business User
 
-    To change the default settings for a business user, select it for editing and adjust the values as required.
+Changing the Default Settings for a Business User
 
-    If you create a new business user, the following fields in the *User Data* area and the *Regional Settings* area are automatically filled with default values. You can adjust them if necessary.
+To change the default settings for a business user, select it for editing and adjust the values as required.
 
-    **Default Values**
+If you create a new business user, the following fields in the *User Data* area and the *Regional Settings* area are automatically filled with default values. You can adjust them if necessary.
 
-
-    <table>
-    <tr>
-    <th valign="top">
-
-    Field
+**Default Values**
 
 
-    
-    </th>
-    <th valign="top">
+<table>
+<tr>
+<th valign="top">
 
-    Default Value
-
-
-    
-    </th>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Valid From*
+Field
 
 
-    
-    </td>
-    <td valign="top">
-    
-        01/01/1901
+
+</th>
+<th valign="top">
+
+Default Value
 
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Valid To*
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+*Valid From*
 
 
-    
-    </td>
-    <td valign="top">
-    
-        12/31/9999
+
+</td>
+<td valign="top">
+
+01/01/1901
 
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Decimal Format*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Valid To*
 
 
-    
-    </td>
-    <td valign="top" rowspan="5">
-    
-        This default value is derived from the standard setting that is valid in the country of the workplace address. If the workplace address is not maintained, the value is derived from the business user’s private address.
+
+</td>
+<td valign="top">
+
+12/31/9999
 
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Date Format*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Decimal Format*
 
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Time Format*
+
+</td>
+<td valign="top" rowspan="5">
+
+This default value is derived from the standard setting that is valid in the country of the workplace address. If the workplace address is not maintained, the value is derived from the business user’s private address.
 
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Time Zone*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Date Format*
 
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Language*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Time Format*
 
 
-    
-    </td>
-    </tr>
-    </table>
-    
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Time Zone*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Language*
+
+
+
+</td>
+</tr>
+</table>
+
 -   
 **Related Information**  
 

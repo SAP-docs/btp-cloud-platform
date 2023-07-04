@@ -100,7 +100,7 @@ Administrators must configure trust on both sides, in the service provider and i
 
     If available, the metadata contains the configuration information, including the signing certificate and the required URLs. You can create the metadata file of your subaccount using the *SAML Metadata* button in *Security* \> *Trust Configuration* of your subaccount.
 
--   Use e-mail as the unique name ID attribute, and map the user attribute `Groups` to the assertion attribute ***Groups*** \(case-sensitive\). This assertion attribute is required for the assignment of roles.
+-   Use e-mail as the unique name ID attribute, and map the user attribute `Groups` to the assertion attribute `Groups` \(case-sensitive\). This assertion attribute is required for the assignment of roles.
 
     This makes sure that there is a trust relationship between the SAP Cloud Identity Services - Identity Authentication and the subaccount.
 
@@ -139,6 +139,6 @@ To establish trust from a tenant of SAP Cloud Identity Services - Identity Authe
 
 6.  Choose *Default Name ID Format* and select *E-Mail* as a unique attribute. Save your changes.
 
-7.  Choose *Assertion Attributes*, use *\+Add* to add a multi-value user attribute, and enter ***Groups*** \(case-sensitive\) as assertion attribute name for the *Groups* user attribute. Save your changes.
+7.  Choose *Assertion Attributes*, use *\+Add* to add a multi-value user attribute, and enter `Groups` \(case-sensitive\) as assertion attribute name for the *Groups* user attribute. Save your changes.
 
 

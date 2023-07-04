@@ -399,7 +399,7 @@ Only business partner role code BUP003 \(Employee\) is supported.
 <tr>
 <td valign="top" rowspan="2">
 
-`MarketForArchivingIndicator`
+`MarkedForArchivingIndicator`
 
 Cardinality: 0..unbounded
 
@@ -1252,8 +1252,8 @@ If `QueryHitsMaximumNumberValue` is set and more data is available, you can set 
 >                <!--Optional:-->
 >                <LowerBoundaryPersonID>9980035943</LowerBoundaryPersonID>
 >                <!--Optional:-->
->            </PersonIDInterval>
->                 <BusinessPartnerRoleCodeInterval>
+>             </PersonIDInterval>
+>             <BusinessPartnerRoleCodeInterval>
 >                <IntervalBoundaryTypeCode>1</IntervalBoundaryTypeCode>
 >                <!--Optional:-->
 >                <LowerBoundaryBusinessPartnerRoleCode>bup003</LowerBoundaryBusinessPartnerRoleCode>
@@ -2957,7 +2957,7 @@ The indicator is set if the query was limited to a number of hits, but more busi
 </td>
 <td valign="top">
 
-Displays the last row of the found results list, limited by the found hits or by the value given for `QueryHitsMaximumNumberValue`.
+Displays the last row of the results list limited by the found hits or by the value given for `QueryHitsMaximumNumberValue`.
 
 
 
@@ -3053,7 +3053,7 @@ Cardinality
 </td>
 <td valign="top">
 
-If several messages are stored for a business user, the maximum of all dropped severity codes worst level will be shown.
+If several messages are stored for a business user, the most severe level is shown from the maximum of all received severity codes.
 
 
 

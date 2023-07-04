@@ -136,16 +136,16 @@ To test your outbound call, configure an RFC destination as described in [Create
 **Internet**:
 
 -   Basic Authentication: Fill the *User* and *Password* fields. If an alias logon is required, use the field *Alias User*.
--   Client Certificate Authentication: Use the additional property `jco.client.tls_client_certificate_logon` with value ***1*** to enable Client Certificate Authentication.
+-   Client Certificate Authentication: Use the additional property `jco.client.tls_client_certificate_logon` with value `1` to enable Client Certificate Authentication.
 
 **OnPremise**:
 
 -   Basic Authentication: Fill the *User* and *Password* fields.
--   Principal Propagation: Use the additional property `jco.destination.auth_type` with value ***PrincipalPropagation*** to enable Principal Propagation.
+-   Principal Propagation: Use the additional property `jco.destination.auth_type` with value `PrincipalPropagation` to enable Principal Propagation.
 
 > ### Note:  
 > -   For proxy type *Internet* and the use of authentication type client certificate, you must upload the X.509 client certificate in P12 format on the client side in the SAP BTP, ABAP environment, using the Maintain Client Certificates application. For more information, see [Maintain Client Certificates](../50-administration-and-ops/maintain-client-certificates-7f6a8fb.md). Uploading the client certificate via destination service isn't supported.
-> -   For proxy type *OnPremise*, the use of authentication type ***PrincipalPropagation*** for a destination isn't supported in the ADT class runner.
+> -   For proxy type *OnPremise*, the use of authentication type `PrincipalPropagation` for a destination isn't supported in the ADT class runner.
 
 **Related Information**  
 

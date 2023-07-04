@@ -18,7 +18,7 @@ As a first step, you need to create the application for the Cloud Foundry accoun
 
 3.  Choose *\+ Add*.
 
-4.  Enter an application name for the Cloud Foundry account \(the service provider\) in the Identity Authentication service, for example, ***CF SAML Application***.
+4.  Enter an application name for the Cloud Foundry account \(the service provider\) in the Identity Authentication service, for example, `CF SAML Application`.
 
 5.  Choose *Save*.
 
@@ -170,7 +170,7 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     </td>
     <td valign="top">
     
-        ***first\_name***
+        `first_name`
 
 
     
@@ -186,7 +186,7 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     </td>
     <td valign="top">
     
-        ***last\_name***
+        `last_name`
 
 
     
@@ -202,7 +202,7 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     </td>
     <td valign="top">
     
-        ***mail***
+        `mail`
 
 
     
@@ -218,7 +218,7 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     </td>
     <td valign="top">
     
-        ***Groups***
+        `Groups`
 
 
     
@@ -227,7 +227,7 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     </table>
     
     > ### Note:  
-    > Make sure that you enter ***Groups*** \(with upper case ***G***\), not ***groups***, as assertion attribute.
+    > Make sure that you enter `Groups` \(with upper case `G`\), not `groups`, as assertion attribute.
 
 4.  Choose *Save*.
 

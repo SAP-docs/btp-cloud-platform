@@ -82,7 +82,7 @@ If you want to use the SAP S/4HANA Cloud Extensibility service, you should assig
     > 
     > During the creation of the service instance, you have to define the communication arrangement and authentication type for the SAP S/4HANA Cloud API access in a JSON file.
     > 
-    > For `scenarioId` use ***SAP\_COM\_0008*** and for `inboundAuthentication` use ***OAuth2SAMLBearerAssertion***. See [Communication Arrangement JSON File - Properties](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/553a4c6b98be4c1ba7d1dfa0e9df8669.html?version=Cloud).
+    > For `scenarioId` use `SAP_COM_0008` and for `inboundAuthentication` use `OAuth2SAMLBearerAssertion`. See [Communication Arrangement JSON File - Properties](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/553a4c6b98be4c1ba7d1dfa0e9df8669.html?version=Cloud).
 
 
 
@@ -103,5 +103,5 @@ The communication arrangement is based on the communication scenario specified d
 Once you specify OAUTH SAML Bearer Assertion as your authentication method during service instance creation, the OAUTH SAML Bearer Assertion Identity Provider section gets automatically configured in your communication system.
 
 > ### Note:  
-> When using OAUTH SAML Bearer Assertion, you have to manually add a property to the generated destination. To do so, navigate to *Connectivity* \> *Destinations* in your subaccount, select the corresponding destination, and add the additional property *nameIdFormat* with the value ***urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress***.
+> When using OAUTH SAML Bearer Assertion, you have to manually add a property to the generated destination. To do so, navigate to *Connectivity* \> *Destinations* in your subaccount, select the corresponding destination, and add the additional property *nameIdFormat* with the value `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`.
 

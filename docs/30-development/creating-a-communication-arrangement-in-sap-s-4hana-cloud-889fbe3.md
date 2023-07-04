@@ -26,7 +26,7 @@ As a preparatory step for creating a communication system later, you need to ret
 
 ## Procedure
 
-Retrieve the host name from the service key of the service instance for the ABAP environment in your Cloud Foundry subaccount \(`property=url`\)​, for example, ***xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.abap.eu10.hana.ondemand.com***.
+Retrieve the host name from the service key of the service instance for the ABAP environment in your Cloud Foundry subaccount \(`property=url`\)​, for example, `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.abap.eu10.hana.ondemand.com`.
 
  <a name="loio157a12b9f6b9496da9f2fdd52fb30b75"/>
 
@@ -50,7 +50,7 @@ Retrieve the host name from the service key of the service instance for the ABAP
 
     `SAP_COM_0008` is the communication scenario that we need to set up communication with SAP BTP as business partner.
 
-5.  Enter an arrangement name, for example, ***ZSAP\_COM\_0008\_OAUTH***.
+5.  Enter an arrangement name, for example, `ZSAP_COM_0008_OAUTH`.
 
 6.  Choose *Create*.
 
@@ -69,11 +69,11 @@ Retrieve the host name from the service key of the service instance for the ABAP
 
 1.  In the following dialog, choose *New* to create a new communication system.
 
-2.  Enter a system ID and system name, for example, ***ZABAP\_CP\_OAUTH***.
+2.  Enter a system ID and system name, for example, `ZABAP_CP_OAUTH`.
 
 3.  Under *Technical Data* \> *General*, enter the system URL of the ABAP environment instance as host name.
 
-4.  Enter, for example, ***DUMMY*** as logical system and ***DUMMY*** as business system. The business system must be unique for all communication systems in the SAP S/4HANA cloud system.
+4.  Enter, for example, `DUMMY` as logical system and `DUMMY` as business system. The business system must be unique for all communication systems in the SAP S/4HANA cloud system.
 
     > ### Note:  
     > Even though outbound communication is not needed to integrate SAP S/4HANA Cloud with SAP BTP, you must enter data for outbound communication. \(Logical system and business system are mandatory.\) The reason why you need to enter data for outbound communication is because the predefined communication scenario `SAP_COM_0008` contains outbound communication services \(which you can deactivate later\).
@@ -142,7 +142,7 @@ As outbound communication is not relevant in this documentation, a communication
 
 2.  In the following popup, choose *New User*.
 
-3.  As user name, enter the same name as for the communication system, for example, ***ZABAP\_CP\_OAUTH*** and a description.
+3.  As user name, enter the same name as for the communication system, for example, `ZABAP_CP_OAUTH` and a description.
 
     With this name, you indicate that the user is intended as a communication user for OAuth communication.
 

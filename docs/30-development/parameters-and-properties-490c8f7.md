@@ -4,9 +4,17 @@
 
 This section contains information about the parameters and properties of a Multitarget Application \(MTA\).
 
-The values of parameters and properties can be specified at design time, in the MTA development description \(`mta.yaml`\) or in the MTA deployment descriptor \(`mtad.yaml`\). In some cases, it is better to declare certain values depending on the deployment, for example, in an extension descriptor file\(`myDeployExtension.mtaext`\).
+The values of parameters and properties can be specified at design time, in the MTA development description \(`mta.yaml`\) or in the MTA deployment descriptor \(`mtad.yaml`\). In some cases, it is better to declare certain values depending on the deployment, for example, in an extension descriptor file \(`myDeployExtension.mtaext`\).
 
-The values of parameters and properties might be static; in this way, the result of each deployment will be the same. However, the values might be dynamic by using the placeholders described below and therefore each deployment might end in a different result depending on the environment or other configurations.
+The values of parameters and properties might be literals. This way, the result of each deployment will be the same every time. However, by using the placeholders described below, the values might also be set as substitution variables and therefore each deployment might end in a different result depending on the environment or other configurations.
+
+Regardless of the defined value - literal or substitution variable, in most cases the end value for each parameter or property is definitive and well-known before the deployment. This is because the substitution variable values represent a certain template and template resolving is done in the beginning of the MTA deployment.
+
+The module level parameter `${default-host}` follows the template `${org}-${space}-<module_name>`. For example, when it is used in a module `my-module` and the deployment is done within org `my-org`, space `my-space`, the end value of `${default-host}` will be `my-org-my-space-my-module`.
+
+However, in some cases the parameter or property value is dynamic and cannot be predicted before the deployment. In these cases, the substitution variable is dynamic and is done in a later phase of the MTA deployment.
+
+If you want to learn more about dynamically resolved parameters see the [Dynamic parameters](parameters-and-properties-490c8f7.md#loio490c8f71e2b74bc0a59302cada66117c__section_kdm_3qt_txb) section below.
 
 The values of properties and parameters are used during the deployment or at runtime of the MTA.
 
@@ -34,13 +42,13 @@ SAP Cloud Deployment service supports a list of parameters and their \(default\)
 -   [Module-Specific Parameters](modules-177d34d.md#loio177d34d45e3d4fd99f4eeeffc5814cf1__section_moduleSpecificParameters)
 -   [Resource-Specific Parameters](resources-9e34487.md#loio9e34487b1a8643fb9a93ae6c4894f015__section_resourceSpecificParameters)
 -   [Module Hooks - Specific Parameters](module-hooks-b9245ba.md#loiob9245ba90aa14681a416065df8e8c593__section_byz_kcf_wjb)
--   Global parameters \(table below\) that can have the following scopes:
+-   Generic parameters \(table below\) that can have the following scopes:
     -   Top-level - can be defined on top level.
     -   All - can be consumed everywhere throughout the document.
 
 
 > ### Note:  
-> Global Parameters table contains parameters that might be used on top-level or on all levels. Other supported parameters are distributed in the dedicated pages, for example, module-specific parameters.
+> Generic Parameters table contains parameters that might be used on top-level or on all levels. Other supported parameters are distributed in the dedicated pages, for example, module-specific parameters.
 
 The example below shows the parameter \``memory`\` on a module level which defines the amount of memory used by the Cloud Foundry application represented by the module \``node-hello-world`\` during application runtime.
 
@@ -54,7 +62,7 @@ The example below shows the parameter \``memory`\` on a module level which defin
 >        memory: 128M 
 > ```
 
--   **Global Parameters**
+-   **Generic Parameters**
 
 
 <table>
@@ -999,4 +1007,61 @@ The SAP Cloud Deployment service supports the extension of the standard syntax f
 >           app_key: 25892e17-80f6 
 >           secret_key: cd171f7c-560d 
 > ```
+
+
+
+<a name="loio490c8f71e2b74bc0a59302cada66117c__section_kdm_3qt_txb"/>
+
+## Dynamic parameters
+
+In some cases, it is required to use a value that is unknown before deployment. For example, such entity could be the GUID of another service instance. The GUID of a newly created service instance is not known before the creation of said service but it might be consumed during the MTA deployment.
+
+The feature enables an existing Cloud Foundry entity parameter value to be used inside an MTA descriptor.
+
+> ### Note:  
+> Currently, the feature is limited to resolving service GUID for the following resource types:
+> 
+> -   `org.cloudfoundry.managed-service`
+> -   `org.cloudfoundry.user-provided-service`
+> -   `org.cloudfoundry.existing-service`
+
+Resolved parameters can be referenced only from other resources. If a dynamic parameter is referenced from other places, like modules or configuration entries, the reference won’t be resolved.
+
+> ### Sample Code:  
+> MTA Deployment Descriptor \(`mtad.yaml`\)
+> 
+> ```
+> _schema-version: 3 
+> ID: sample-dynamic-service-guid 
+> version: 1.0.0 
+> 
+> modules: 
+>  - name: sample-app 
+>    type: staticfile 
+>    path: content.zip 
+>    requires: 
+>      - name: test-service 
+>      - name: hana-service 
+> 
+> resources: 
+>   - name: test-service 
+>     type: org.cloudfoundry.user-provided-service 
+>     parameters: 
+>       config: 
+>         service-guid-of-db: ~{hana-service/my-db-service-guid} 
+>     requires: 
+>       - name: hana-service 
+>     processed-after: [hana-service] 
+> 
+>   - name: hana-service 
+>     type: org.cloudfoundry.managed-service 
+>     parameters: 
+>       service: hana 
+>       service-plan: schema 
+>     properties: 
+>       my-db-service-guid: ${service-guid}
+> ```
+
+> ### Note:  
+> In order to use this feature, it is necessary to specify `${service-guid}` inside the `properties` section of the resource. Consumer of service GUID value must add respective resource name in the `requires` section and specify the `processed-after` parameter because the order of resource processing must be explicitly described.
 

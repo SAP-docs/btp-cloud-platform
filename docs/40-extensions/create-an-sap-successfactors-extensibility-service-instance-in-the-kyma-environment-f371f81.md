@@ -46,9 +46,9 @@ During the creation of the service instance, a destination on the subaccount lev
 
     -   Give a meaningful name of the new SAP SuccessFactors Extensibility service instance.
 
-    -   In the *Offering Name* field, enter ***sap-successfactors-extensibility***, which is the technical name of the SAP SuccessFactors Extensibility service.
+    -   In the *Offering Name* field, enter `sap-successfactors-extensibility`, which is the technical name of the SAP SuccessFactors Extensibility service.
 
-    -   In the *Plan Name* field, enter ***api-access***.
+    -   In the *Plan Name* field, enter `api-access`.
 
     -   Expand *Instance Parameters*.
 

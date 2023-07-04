@@ -46,7 +46,7 @@ Learn how to create a destination with SAML assertion authentication to establis
     </td>
     <td valign="top">
     
-        Enter a name for the destination, for example ***SAP\_Business\_Application\_Studio***.
+        Enter a name for the destination, for example `SAP_Business_Application_Studio`.
 
 
     
@@ -94,7 +94,7 @@ Learn how to create a destination with SAML assertion authentication to establis
     </td>
     <td valign="top">
     
-        Enter the URL of your system by copying the *Host Name* from the *Communications Systems* app, for example ***1a354373-d200-46f6-9d5c-daab9a65d9b6.abap.eu10.hana.ondemand.com*** 
+        Enter the URL of your system by copying the *Host Name* from the *Communications Systems* app, for example `1a354373-d200-46f6-9d5c-daab9a65d9b6.abap.eu10.hana.ondemand.com` 
 
 
     
@@ -142,7 +142,7 @@ Learn how to create a destination with SAML assertion authentication to establis
     </td>
     <td valign="top">
     
-        Enter the URL of your system and add ***\-web*** as follows ***1a354373-d200-46f6-9d5c-daab9a65d9b6.abap-web.eu10.hana.ondemand.com***
+        Enter the URL of your system and add `-web` as follows `1a354373-d200-46f6-9d5c-daab9a65d9b6.abap-web.eu10.hana.ondemand.com`
 
 
     
@@ -196,7 +196,7 @@ Learn how to create a destination with SAML assertion authentication to establis
     </td>
     <td valign="top">
     
-        ***true***
+        `true`
 
 
     
@@ -212,7 +212,7 @@ Learn how to create a destination with SAML assertion authentication to establis
     </td>
     <td valign="top">
     
-        ***60000***
+        `60000`
 
 
     
@@ -228,7 +228,7 @@ Learn how to create a destination with SAML assertion authentication to establis
     </td>
     <td valign="top">
     
-        ***true***
+        `true`
 
 
     
@@ -244,7 +244,7 @@ Learn how to create a destination with SAML assertion authentication to establis
     </td>
     <td valign="top">
     
-        ***odata\_abap,dev\_abap***
+        `odata_abap,dev_abap`
 
 
     
@@ -260,7 +260,7 @@ Learn how to create a destination with SAML assertion authentication to establis
     </td>
     <td valign="top">
     
-        ***urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress***
+        `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
 
     or
 

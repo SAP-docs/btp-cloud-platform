@@ -1051,13 +1051,13 @@ For more information, see [Include Tokens from Corporate Identity Providers or I
 
 **Values:**
 
--   ***"groups"*** includes the `xs.saml.groups` attribute.
+-   `"groups"` includes the `xs.saml.groups` attribute.
 
--   ***"rolecollections"*** includes the `xs-rolecollections` attribute.
+-   `"rolecollections"` includes the `xs-rolecollections` attribute.
 
--   ***"ias-corporate-idp-token"*** includes the token of the corporate identity provider trusted by your Identity Authentication tenant.
+-   `"ias-corporate-idp-token"` includes the token of the corporate identity provider trusted by your Identity Authentication tenant.
 
--   ***"ias-token"*** includes the token of the trusted Identity Authentication tenant.
+-   `"ias-token"` includes the token of the trusted Identity Authentication tenant.
 
 
 
@@ -1107,13 +1107,13 @@ As an option, developers can configure on application level which identity provi
 
 ## xsenableasyncservice \(Custom Option\)
 
-The `xsenableasyncservice` element controls whether the ***cf create-service*** and ***cf update-service*** commands of the Cloud Foundry command line interface \(cf CLI\) are executed synchronously \(false\) or asynchronously \(true\).
+The `xsenableasyncservice` element controls whether the `cf create-service` and `cf update-service` commands of the Cloud Foundry command line interface \(cf CLI\) are executed synchronously \(false\) or asynchronously \(true\).
 
 > ### Remember:  
 > The Cloud Controller of Cloud Foundry times out after 60 seconds for the synchronous execution of the commands. For this reason, we recommend that you use asynchronous execution for multitenant applications or reuse services.
 
 > ### Note:  
-> You usually need to wait for the completion of ***cf create-service*** and ***cf update-service*** even if you use asynchronous mode. Otherwise you might run into conflicts due to parallel update operations on the OAuth 2.0 clients.
+> You usually need to wait for the completion of `cf create-service` and `cf update-service` even if you use asynchronous mode. Otherwise you might run into conflicts due to parallel update operations on the OAuth 2.0 clients.
 
 > ### Sample Code:  
 > ```json

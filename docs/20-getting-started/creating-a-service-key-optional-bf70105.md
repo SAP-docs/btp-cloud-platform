@@ -30,7 +30,7 @@ You can use service keys to generate credentials to communicate directly with a 
 
 7.  In the *Service Keys* section of the details area, choose *Create*.
 
-8.  Enter a name for the service key, for example, ***ABAP Development***.
+8.  Enter a name for the service key, for example, `ABAP Development`.
 
 9.  Choose *Save*.
 

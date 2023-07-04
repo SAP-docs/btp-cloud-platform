@@ -24,9 +24,9 @@ An update request for an entity list is not supported in OData Version 2.
 
 See also: [OData Version 4.01. Part 1: Protocol](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html).
 
-You can update entity collections by submitting a ***PATCH*** request to the collection's resource path. The body of the request:
+You can update entity collections by submitting a `PATCH` request to the collection's resource path. The body of the request:
 
--   **MUST** be a ***delta payload***.
+-   **MUST** be a `delta payload`.
 -   the resource path of the collection **MUST NOT** include type cast or filter segments.
 -   **MUST NOT** include any system query options that affect the shape of the result.
 
@@ -42,7 +42,7 @@ Added/changed entities are applied as upserts. Deleted entities are applied as d
 
 ### Version 4
 
-Update the complete entity set “***Teams***”:
+Update the complete entity set “`Teams`”:
 
 ```
 PATCH /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams
@@ -85,15 +85,15 @@ With request body
 
 ### Overview
 
-The starting point for a ***PATCH*** entity request is the Client Proxy instance. You can create an ***entity resource*** based on an ***update list*** request, and use it to create an update request.
+The starting point for a `PATCH` entity request is the Client Proxy instance. You can create an `entity resource` based on an `update list` request, and use it to create an update request.
 
-Running the ***update list*** provides the update list response, which can return the business data of the ***UPDATE*** entity list request.
+Running the `update list` provides the update list response, which can return the business data of the `UPDATE` entity list request.
 
 
 
 ### Example
 
-Update the entity set “***Teams***”:
+Update the entity set “`Teams`”:
 
 ```
 PATCH /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Teams
@@ -148,7 +148,7 @@ DATA:	lo_client_proxy TYPE REF TO /iwbep/if_cp_client_proxy,
 
 ### Steps
 
-**Step 1:** Create the entity list resource for entity set ‘***Teams***’ \(with **internal** name ‘***TEAMS***’\):
+**Step 1:** Create the entity list resource for entity set ‘`Teams`’ \(with **internal** name ‘`TEAMS`’\):
 
 ```
 
@@ -226,9 +226,9 @@ DATA:    lo_update_list_response TYPE REF TO /iwbep/if_cp_response_update_l,
 
 -   This feature is not supported for local consumption
 
--   Only ***PATCH*** is supported. ***PUT*** is not supported.
+-   Only `PATCH` is supported. `PUT` is not supported.
 
--   ***IF-MATCH*** handling is not supported
+-   `IF-MATCH` handling is not supported
 
 -   Query options are not supported
 

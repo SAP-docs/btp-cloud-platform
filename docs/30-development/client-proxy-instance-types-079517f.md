@@ -42,7 +42,7 @@ If you want to create an HTTP client instance, see [Enable HTTP Communication in
 **Relative Service Root:** The relative service root \(combined with the HTTP destination\) should point to the service document for the OData service you want to consume. The service document is the top-level representation of an OData service. It lists the entity sets, singletons, and service functions. It is available at `http(s)://host/service/` base URL. You can access the resources in the service document using a URL that is the concatenation of the base URL and the resource URL.
 
 > ### Example:  
-> You want to consume the OData Version 4 service ***TEA\_BUSI*** in version 2, which is part of the `/IWBEP/TEA` OData service group and belongs to the service repository ***DEFAULT***.
+> You want to consume the OData Version 4 service `TEA_BUSI` in version 2, which is part of the `/IWBEP/TEA` OData service group and belongs to the service repository `DEFAULT`.
 > 
 > If the absolute URL to fetch the corresponding service document is `http://xyzia1b.rot.sap.corp:1234/sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0002/`, the relative service URL is `/sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0002/`.
 
@@ -81,7 +81,7 @@ Use the local Client Proxy when a locally-deployed OData service is consumed. Th
 > 
 > -   When using the Version 4 local client proxy, the business data you enter is not converted for inbound processing. The data provider receives the data exactly how you entered in the request.
 
-For creating a local Client Proxy instance, the service key is required. The service key includes the service repository id \(for example, ***DEFAULT***\), the service id \(the ODATA service internal name\), and the service id version \(for example, ***0003***\). You don't need an HTTP client instance or a Service Consumption model.
+For creating a local Client Proxy instance, the service key is required. The service key includes the service repository id \(for example, `DEFAULT`\), the service id \(the ODATA service internal name\), and the service id version \(for example, `0003`\). You don't need an HTTP client instance or a Service Consumption model.
 
 
 
@@ -91,13 +91,13 @@ For creating a local Client Proxy instance, the service key is required. The ser
 
 You can create an instance of the Client Proxy using class `cl_web_odata_client_factory`, which provides these static methods:
 
--   ***create\_v2\_local\_proxy***
+-   `create_v2_local_proxy`
 
--   ***create\_v2\_remote\_proxy***
+-   `create_v2_remote_proxy`
 
--   ***create\_v4\_local\_proxy***
+-   `create_v4_local_proxy`
 
--   ***create\_v4\_remote\_proxy***
+-   `create_v4_remote_proxy`
 
 
 > ### Note:  
@@ -111,7 +111,7 @@ You can create an instance of the Client Proxy using class `cl_web_odata_client_
 
 -   The Client Proxy instance is the starting point for the OData service consumption with ABAP.
 -   The Client Proxy instance provides a corresponding [Resource Instance](resource-instance-25e2e3d.md) \(for example, an action import or an entity set\).
--   The Client Proxy instance provides methods for creating ***$batch*** and delta link requests \(with certain delta link-centered utility methods\).
+-   The Client Proxy instance provides methods for creating `$batch` and delta link requests \(with certain delta link-centered utility methods\).
 
 
 

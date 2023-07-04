@@ -27,11 +27,11 @@ For more information about roles, see [Managing Roles](https://help.sap.com/view
 
 4.  Choose *New Group*.
 
-5.  Enter a group name, for example, ***Developers***, and choose *Save*.
+5.  Enter a group name, for example, `Developers`, and choose *Save*.
 
 6.  In the *Roles* screen area, choose *Assign*.
 
-7.  As subaccount, select the service provider account of the Web IDE, for example, ***sapwebide EU1***.
+7.  As subaccount, select the service provider account of the Web IDE, for example, `sapwebide EU1`.
 
 8.  As application, select the Web IDE application \(*di*\).
 

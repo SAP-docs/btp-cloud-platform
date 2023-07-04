@@ -93,7 +93,7 @@ After both instances are created and configured, you can create the topic-to-que
 
     2.  Choose the *Queues* tab in the message client page and then choose *Create Queue*.
 
-    3.  Enter a queue name. Note that in the blue field of the *Create a New Queue* wizard, the final queue name is displayed. For example, if you write ***my-queue*** in the *Queue Name* field, the final queue name would be *sap/S4HANAOD/ems-s4hc/my-queue*. Choose *Create*.
+    3.  Enter a queue name. Note that in the blue field of the *Create a New Queue* wizard, the final queue name is displayed. For example, if you write `my-queue` in the *Queue Name* field, the final queue name would be *sap/S4HANAOD/ems-s4hc/my-queue*. Choose *Create*.
 
 
 5.  Subscribe this queue to the channel topic that SAP S/4HANA Cloud tenant uses to produce events.

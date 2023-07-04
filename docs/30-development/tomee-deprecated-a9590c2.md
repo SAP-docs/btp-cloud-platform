@@ -2,10 +2,10 @@
 
 # TomEE \(Deprecated\)
 
-By default web applications pushed with the SAP Java buildpack are running in an Apache Tomcat container.
+By default, web applications deployed with SAP Java Buildpack are running in an Apache Tomcat container.
 
 > ### Caution:  
-> Effective **May 5, 2022**, Apache TomEE 1.7 is no longer supported by the SAP Java buildpack for the SAP BTP, Cloud Foundry environment. TomEE was removed from the buildpack with version 1.53.0.
+> Effective **May 5, 2022**, Apache TomEE 1.7 is no longer supported by SAP Java Buildpack for the SAP BTP, Cloud Foundry environment. TomEE was removed from the buildpack with version 1.53.0.
 
 We recommend that you switch to [TomEE 7](tomee-7-79c039a.md) and migrate your applications accordingly. For more information, see:
 

@@ -953,7 +953,7 @@ The add-on build scenario of the ABAP environment pipeline is described in detai
 > ### Recommendation:  
 > For each release and support package level, as an add-on admin, create a maintenance branch that is used for development of bug fixes and maintenance deliveries. See [Versioning and Branches](concepts-9482e7e.md#loio8c087bca40584f9b899282b4ec515753).
 
-In test system TST, create branch ***v1.0.0*** that is based on the main branch.
+In test system TST, create branch `v1.0.0` that is based on the main branch.
 
 **Configure addon.yml File**
 

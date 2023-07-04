@@ -134,7 +134,7 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     </td>
     <td valign="top">
     
-        ***HTTP***
+        `HTTP`
 
 
     
@@ -184,7 +184,7 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     </td>
     <td valign="top">
     
-         ***Internet*** 
+         `Internet` 
 
 
     
@@ -200,7 +200,7 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     </td>
     <td valign="top">
     
-        ***ClientCertificateAuthentication***
+        `ClientCertificateAuthentication`
 
     > ### Note:  
     > Once you have selected this option, the system displays the *Upload and Delete Certificate* link.
@@ -243,7 +243,7 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     </td>
     <td valign="top">
     
-        Specify this property with value ***odata\_gen*** to consume an OData service in your application.
+        Specify this property with value `odata_gen` to consume an OData service in your application.
 
 
     
@@ -259,7 +259,7 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     </td>
     <td valign="top">
     
-        If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to ***true***.
+        If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
 
 
     
@@ -275,7 +275,7 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     </td>
     <td valign="top">
     
-        If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to ***true***.
+        If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
 
 
     
@@ -291,7 +291,7 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     </td>
     <td valign="top">
     
-        ***SAP S/4HANA Cloud***
+        `SAP S/4HANA Cloud`
 
     The type of the SAP System for which you create this HTTP destination.
 

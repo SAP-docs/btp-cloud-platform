@@ -57,7 +57,7 @@ Create a destination of connection type `W`:
 </td>
 <td valign="top">
 
-The API-URL defined in the Communication Arrangement without the ***https://*** prefix
+The API-URL defined in the Communication Arrangement without the `https://` prefix
 
 
 
@@ -73,7 +73,7 @@ The API-URL defined in the Communication Arrangement without the ***https://*** 
 </td>
 <td valign="top">
 
-***443***
+`443`
 
 
 

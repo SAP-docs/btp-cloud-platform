@@ -23,7 +23,7 @@ These individual requests can be included in a batch request:
 -   Function Invocation
 
 
-Batch requests are submitted as a single `HTTP POST` request to the batch endpoint of a service at the ***$batch*** URL that is related to the service root. Individual requests in a batch request are evaluated according to the same semantics used with an individual request.
+Batch requests are submitted as a single `HTTP POST` request to the batch endpoint of a service at the `$batch` URL that is related to the service root. Individual requests in a batch request are evaluated according to the same semantics used with an individual request.
 
 In the *Multipart* format, you can group data modification requests or action invocation requests as part of an atomic change set. Operations outside the change set are executed sequentially. Operations in the change set are executed in any order.
 

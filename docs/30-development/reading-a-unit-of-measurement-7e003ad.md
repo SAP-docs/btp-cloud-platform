@@ -376,9 +376,9 @@ PRIMARY
 
 Unit of measure flagged as a primary unit for an ISO code
 
-***Space***: Not primary
+`Space`: Not primary
 
-***‘X’***: Set as primary
+`‘X’`: Set as primary
 
 
 

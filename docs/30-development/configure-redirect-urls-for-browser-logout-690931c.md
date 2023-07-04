@@ -34,7 +34,7 @@ You’ve deployed an application in the Cloud Foundry environment of SAP BTP. Bu
 
 ## Procedure
 
-1.  Define `xs-app.json` in the application router folder of your application. Include a logout endpoint and define a logout page \(here ***logout.html***\) which can be accessed without authentication.
+1.  Define `xs-app.json` in the application router folder of your application. Include a logout endpoint and define a logout page \(here `logout.html`\) which can be accessed without authentication.
 
     > ### Sample Code:  
     > ```
@@ -121,7 +121,7 @@ You’ve deployed an application in the Cloud Foundry environment of SAP BTP. Bu
 
 10. Update the `xsuaa` service instance that is bound to your application.
 
-    ***cf update-service *<service\_instance\>* -c xs-security.json***
+    <code>cf update-service <i class="varname">&lt;service_instance&gt;</i> -c xs-security.json</code>
 
     > ### Note:  
     > If the service instance isn’t available, create it, bind your application to the service instance \(see the related links\), and restage the application.

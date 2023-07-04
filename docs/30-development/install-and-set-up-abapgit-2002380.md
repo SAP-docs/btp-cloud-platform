@@ -48,7 +48,7 @@ Learn how to install and set up abapGit.
 
 8.  Navigate to *Help* \> *Install New Software...*.
 
-9.  To install the abapGit repositories ADT plug-in, add the following URL: ***https://eclipse.abapgit.org/updatesite/*** and provide a name for the repository.
+9.  To install the abapGit repositories ADT plug-in, add the following URL: `https://eclipse.abapgit.org/updatesite/` and provide a name for the repository.
 
 10. To display all the available features, press enter, and select *abapGit for ABAP Development Tools \(ADT\)*.
 

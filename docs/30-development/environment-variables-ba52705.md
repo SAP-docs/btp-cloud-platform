@@ -395,11 +395,11 @@ Enables the application router to send the entire chain of certificates provided
 
 If configured, the application router sends additional HTTP headers in its responses to a client request. You can set the additional HTTP headers in the *<httpHeaders\>* environment variable. The following example configuration shows how to configure the application router to send two additional headers in the responses to the client requests from the application *<myApp\>*:
 
-***cf set-env *<myApp\>* httpHeaders "\[ \{ \\"X-Frame-Options\\": \\"ALLOW-FROM http://acme.com\\" \}, \{ \\"Test-Additional-Header\\": \\"1\\" \} \]"***
+<code>cf set-env <i class="varname">&lt;myApp&gt;</i> httpHeaders "[ { \"X-Frame-Options\": \"ALLOW-FROM http://acme.com\" }, { \"Test-Additional-Header\": \"1\" } ]"</code>
 
 or
 
-***cf set-env *<myApp\>* httpHeaders '\[\{ "X-Frame-Options": "ALLOW-FROM http://acme.com" \}, \{ "Test-Additional-Header": "1" \}\]'***
+<code>cf set-env <i class="varname">&lt;myApp&gt;</i> httpHeaders '[{ "X-Frame-Options": "ALLOW-FROM http://acme.com" }, { "Test-Additional-Header": "1" }]'</code>
 
 > ### Tip:  
 > To ensure better security of your application set the `Content-Security-Policy` header. This is a response header which informs browsers \(capable of interpreting it\) about the trusted sources from which an application expects to load resources. This mechanism allows the client to detect and block malicious scripts injected into the application. A value can be set via the *<httpHeaders\>* environment variable in the additional headers configuration. The value represents a security policy which contains directive-value pairs. The value of a directive is an allowlist of trusted sources.
@@ -765,7 +765,7 @@ In this example, the application router sets the `SameSite` cookie attribute to 
 
 You can configure the triggering of an automatic central log-out from the User Account and Authentication \(UAA\) service if an application session is inactive for a specified time. A session is considered to be inactive if no requests are sent to the application router. The following command shows how to set the environment variable *<SESSION\_TIMEOUT\>* to 40 \(forty\) minutes for the application *<myApp1\>*:
 
-***cf set-env *<myApp1\>* SESSION\_TIMEOUT 40***
+<code>cf set-env <i class="varname">&lt;myApp1&gt;</i> SESSION_TIMEOUT 40</code>
 
 > ### Note:  
 > You can also set the session timeout value in the application's `manifest.yml` file, as illustrated in the following example:

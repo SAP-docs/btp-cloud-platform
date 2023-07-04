@@ -23,7 +23,7 @@ The SAP Event Mesh service descriptor defines details of a message client and ne
 
 You set up service instance of the SAP Event Mesh service to receive the events which are sent by the SAP S/4HANA Cloud Extensibility service. In the JSON file for the Cloud Foundry environment and in the YAML file for the Kyma environment, this service instance needs to be created with a different `emname` as well as a different `namespace`. The rule set here is important as each client should only publish in its own namespace. Since this message client's purpose is to receive messages from a different client, the rules of the `subscribeFilter` for topics need to take care of that. So the value of the message client defined in the SAP Event Mesh JSON/YAML file has to be configured to have the value of the `subscribeFilter` to be the same as the value of the `namespace` of the other client defined in the SAP S/4HANA Cloud Extensibility JSON/YAML file.
 
-After both message clients are set up, you have to create a queue in the message client which refers to the SAP Event Mesh service instance. You can name the queue as you like and it will be created in the namespace of the client. This queue can now be subscribed to the topic configured **step 7** in the [Create an SAP S/4HANA Extensibility Service Instance in the Cloud Foundry Environment](create-an-sap-s-4hana-extensibility-service-instance-in-the-cloud-foundry-environment-531a909.md) page. This topic in defined in the namespace of the S/4HANA Cloud Extensibility service descriptor, for example ***sap/S4HANAOD/s4hc/myTopic***.
+After both message clients are set up, you have to create a queue in the message client which refers to the SAP Event Mesh service instance. You can name the queue as you like and it will be created in the namespace of the client. This queue can now be subscribed to the topic configured **step 7** in the [Create an SAP S/4HANA Extensibility Service Instance in the Cloud Foundry Environment](create-an-sap-s-4hana-extensibility-service-instance-in-the-cloud-foundry-environment-531a909.md) page. This topic in defined in the namespace of the S/4HANA Cloud Extensibility service descriptor, for example `sap/S4HANAOD/s4hc/myTopic`.
 
 The service instance of SAP Event Mesh is the message client which consumes the messages and should be bound to the actual application. These are the important aspects of the whole configuration:
 
@@ -31,14 +31,14 @@ The service instance of SAP Event Mesh is the message client which consumes the 
 
     -   Use unique emname per subaccount
 
-    -   Use unique namespace per subaccount, for example ***a/b/c***
+    -   Use unique namespace per subaccount, for example `a/b/c`
 
 
 -   When creating a service instance of the SAP Event Mesh service:
 
     -   Use unique emname per subaccount
 
-    -   Use unique namespace per subaccount, for example ***d/e/f***
+    -   Use unique namespace per subaccount, for example `d/e/f`
 
     -   Use the namespace defined in the SAP S/4HANA Cloud Extensibility JSON/YAML file and put it in the `subscribeFilter` parameter
 
@@ -178,7 +178,7 @@ Namespace for the messaging client.
 
 -   It is unique within a subaccount
 
--   Contains exactly three segments, for example ***d/e/f***.
+-   Contains exactly three segments, for example `d/e/f`.
 
 
 
@@ -343,7 +343,7 @@ Filters from which topics a client \(receiver\) is allowed to receive messages.
 
 -   Default: no default
 
--   Example values: ***$\{namespace\}/foo/bar/\****, ***$\{namespace\}/\****.
+-   Example values: `${namespace}/foo/bar/*`, `${namespace}/*`.
 
 
 > ### Note:  

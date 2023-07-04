@@ -79,7 +79,7 @@ For communication arrangements with inbound connections, a destination on a suba
     -   An HTTP destination on a subaccount level with the same name as the service instance name is automatically generated in this subaccount.
 
 
-    Alternatively, you can use the Cloud Foundry Command Line Interface \(cf CLI\) to create the service instance using the technical name of the SAP S/4HANA Cloud Extensibility service which is ***s4-hana-cloud***.
+    Alternatively, you can use the Cloud Foundry Command Line Interface \(cf CLI\) to create the service instance using the technical name of the SAP S/4HANA Cloud Extensibility service which is `s4-hana-cloud`.
 
     For more information, see [Create Service Instances Using the Cloud Foundry Command Line Interface](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/a872531845d6416b8fa07a8b84875d7e.html).
 
@@ -104,7 +104,7 @@ After you have created the service instance:
 -   An HTTP destination on a subaccount level with the same name as the service instance name is automatically generated in this subaccount.
 
 
-Alternatively, you can use the Cloud Foundry Command Line Interface \(cf CLI\) to create the service instance using the technical name of the SAP S/4HANA Cloud Extensibility service which is ***s4-hana-cloud***.
+Alternatively, you can use the Cloud Foundry Command Line Interface \(cf CLI\) to create the service instance using the technical name of the SAP S/4HANA Cloud Extensibility service which is `s4-hana-cloud`.
 
 For more information, see [Create Service Instances Using the Cloud Foundry Command Line Interface](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/a872531845d6416b8fa07a8b84875d7e.html).
 

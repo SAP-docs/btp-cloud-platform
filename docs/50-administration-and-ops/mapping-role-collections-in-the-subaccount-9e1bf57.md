@@ -2,9 +2,9 @@
 
 # Mapping Role Collections in the Subaccount
 
-You have arranged roles in role collections, and now want to assign or map these role collections to business users.
+You've arranged roles in role collections, and now want to assign or map these role collections to business users.
 
-How you assign users to their authorizations depends on the type of trust configuration and on whether or not you prefer to maintain the authorizations of invididual users rather in the identity provider or in SAP BTP. The following options are available:
+How you assign users to their authorizations depends on the type of trust configuration and on whether or not you prefer to maintain the authorizations of individual users rather in the identity provider or in SAP BTP. The following options are available:
 
 -   Directly assign role collections to users.
 
@@ -14,7 +14,7 @@ How you assign users to their authorizations depends on the type of trust config
 > ### Note:  
 > If you’re using the default trust configuration with the default identity provider, you directly assign users to role collections. For more information, see [Default Identity Provider](default-identity-provider-d6a8db7.md).
 > 
-> However, if you’re using a custom trust configuration, for example, with SAP Cloud Identity Services - Identity Authentication, you can use both options. For more information on configuring the trust between your subaccount and a custom identity provider, see [Establish Trust and Federation Between UAA and Identity Authentication](establish-trust-and-federation-between-uaa-and-identity-authentication-161f8f0.md).
+> However, if you’re using a custom trust configuration, for example, with SAP Cloud Identity Services - Identity Authentication, you can use both options. For more information about configuring the trust between your subaccount and a custom identity provider, see [Establish Trust and Federation Between UAA and Identity Authentication](establish-trust-and-federation-between-uaa-and-identity-authentication-161f8f0.md).
 
 **Options for Assignment of Role Collections**
 
@@ -63,9 +63,6 @@ Custom trust configuration \(for example: a tenant of the Identity Authenticatio
 <td valign="top">
 
 -   [Assigning Role Collections to Users or User Groups](assigning-role-collections-to-users-or-user-groups-31532c7.md)
-
-
-The following options are only available for **application** users, but not for **platform** users.
 
 -   [Map Role Collections to User Groups](map-role-collections-to-user-groups-51acfc8.md)
 

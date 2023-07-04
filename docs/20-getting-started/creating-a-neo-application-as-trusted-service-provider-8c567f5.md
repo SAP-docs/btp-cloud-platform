@@ -124,7 +124,7 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     </td>
     <td valign="top">
     
-        ***first\_name***
+        `first_name`
 
 
     
@@ -140,7 +140,7 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     </td>
     <td valign="top">
     
-        ***last\_name***
+        `last_name`
 
 
     
@@ -156,7 +156,7 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     </td>
     <td valign="top">
     
-        ***mail***
+        `mail`
 
 
     
@@ -172,7 +172,7 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     </td>
     <td valign="top">
     
-        ***Groups***
+        `Groups`
 
 
     
@@ -181,7 +181,7 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     </table>
     
     > ### Note:  
-    > Make sure that you enter ***Groups*** \(with upper case ***G***\), not ***groups***, in the *Assertion Attribute* field, so that it matches the assertion attribute used for the Neo environment.
+    > Make sure that you enter `Groups` \(with upper case `G`\), not `groups`, in the *Assertion Attribute* field, so that it matches the assertion attribute used for the Neo environment.
 
 4.  Choose *Save*.
 

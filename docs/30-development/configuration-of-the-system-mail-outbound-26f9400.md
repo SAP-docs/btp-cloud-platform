@@ -18,7 +18,7 @@ Use class `CL_BCS_MAIL_SYSTEM_CONFIG` and method `SET_ADDRESS_CHECK_ACTIVE()` to
 
 **Configuring the Mail Outbound Allow Tables**
 
-To restrict the email outbound, two tables can be filled with allowed domains. The first table contains allowed recipient domains \(filled with method `ADD_ALLOWED_RECIPIENT_DOMAINS()`\). The second table contains allowed sender domains \(filled with method `ADD_ALLOWED_SENDER_DOMAINS()`\). The check can only be used for both the sender address and recipient address\(es\). If either all sender or recipient addresses should be allowed, add ***a ‘\*’*** to the corresponding allow domain table.
+To restrict the email outbound, two tables can be filled with allowed domains. The first table contains allowed recipient domains \(filled with method `ADD_ALLOWED_RECIPIENT_DOMAINS()`\). The second table contains allowed sender domains \(filled with method `ADD_ALLOWED_SENDER_DOMAINS()`\). The check can only be used for both the sender address and recipient address\(es\). If either all sender or recipient addresses should be allowed, add `a ‘*’` to the corresponding allow domain table.
 
 **Configuring the Default Sender**
 

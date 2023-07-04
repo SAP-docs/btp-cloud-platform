@@ -10,7 +10,7 @@ Learn more about developing applications in the Kyma environment.
 
 ## Overview
 
-The [Kyma Environment](../10-concepts/kyma-environment-468c2f3.md#loio468c2f3c3ca24c2c8497ef9f83154c44) allows you to build simple Functions, develop, and deploy more complex microservices, or mixtures of those, depending on your use case complexity level. Both Functions and microservices can act as stand-alone applications or extensions of these SAP systems:
+The [Kyma Environment](../10-concepts/kyma-environment-468c2f3.md) allows you to build simple Functions, develop, and deploy more complex microservices, or mixtures of those, depending on your use case complexity level. Both Functions and microservices can act as stand-alone applications or extensions of these SAP systems:
 
 -   SAP S/4HANA
 

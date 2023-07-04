@@ -24,13 +24,13 @@ You have the *BI Admin* role in the SAP Analytics Cloud system.
 
 4.  In the *S/4 HANA Live Connection* dialog, enter the name and description.
 
-5.  Select the *Connection Type* as ***Direct Connection***.
+5.  Select the *Connection Type* as `Direct Connection`.
 
 6.  Enter the host name as `xxx.abap-web.stagingaws.hanavlab.ondemand.com`.
 
-7.  Enter *HTTPS Port* as ***443*** and *Client* as ***100***.
+7.  Enter *HTTPS Port* as `443` and *Client* as `100`.
 
-8.  Select the *Authentication Method* as ***SAML Single Sign-on \(Standard Compliant\)***.
+8.  Select the *Authentication Method* as `SAML Single Sign-on (Standard Compliant)`.
 
 9.  Choose *OK*.
 

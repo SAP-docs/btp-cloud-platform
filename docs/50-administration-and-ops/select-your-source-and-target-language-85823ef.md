@@ -18,13 +18,14 @@ Select your source language as well as the languages you want to translate your 
 
 3.  Select a *Source Language*and *Target Language* from the dropdown menus and confirm with *Create*.
 
-4.  > ### Note:  
-    > You can select from all of the languages that are installed in the system. In case of ABAP repository objects and text pools, it's only possible to maintain translations for languages other than the original language.
-    > 
-    > Note that deleting a previously created translation entry for a given source and target language pair will only delete the corresponding entry in the translation project. Already published texts for the target language of the translation will not be deleted from the system.
 
-5.  A new entry has now been added to the list.
+> ### Note:  
+> You can select from all of the languages that are installed in the system. In case of ABAP repository objects and text pools, it's only possible to maintain translations for languages other than the original language.
+> 
+> Note that deleting a previously created translation entry for a given source and target language pair will only delete the corresponding entry in the translation project. Already published texts for the target language of the translation will not be deleted from the system.
 
-6.  Repeat these steps for all source and target languages.
+4.  A new entry has now been added to the list.
+
+5.  Repeat these steps for all source and target languages.
 
 

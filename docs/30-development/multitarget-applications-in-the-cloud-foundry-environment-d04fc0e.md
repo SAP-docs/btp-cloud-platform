@@ -48,7 +48,7 @@ You can create and deploy a Multitarget Application in the Cloud Foundry environ
     1.  Create the required files using an IDE of your choice.
     2.  To produce your custom artifacts, use a build technology of your choice.
     3.  Maintain your deployment descriptor document \(`mtad.yaml`\).
-        1.  \(Optional\) If you want to have an MTA archive package, use the ***mbt assemble***. For more information, see [Cloud MTA Build Tool \(MBT\)](https://sap.github.io/cloud-mta-build-tool/).
+        1.  \(Optional\) If you want to have an MTA archive package, use the `mbt assemble`. For more information, see [Cloud MTA Build Tool \(MBT\)](https://sap.github.io/cloud-mta-build-tool/).
 
         2.  Use the `cf deploy` command to deploy the MTA package or directly from the build result directory.
 

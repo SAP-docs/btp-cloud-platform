@@ -17,7 +17,7 @@ The starting point for an operation import is the corresponding operation resour
 
 ### Example
 
-To invoke the Version 2 function ‘***PromoteEmployee***’ with the non-binding \(for example, input\) parameters “***Id***=***’0001’***” and “***Level=2***’:
+To invoke the Version 2 function ‘`PromoteEmployee`’ with the non-binding \(for example, input\) parameters “`Id`=`’0001’`” and “`Level=2`’:
 
 ```
 POST /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/PromoteEmployee?Id='0001'&Level=2
@@ -56,7 +56,7 @@ DATA: lo_client_proxy      TYPE REF TO /iwbep/if_cp_client_proxy,
 
 ### Steps
 
-**Step 1:** Create the function resource “***PROMOTE\_EMPLOYEE***” with the **internal** name of function “***PromoteEmployee***”:
+**Step 1:** Create the function resource “`PROMOTE_EMPLOYEE`” with the **internal** name of function “`PromoteEmployee`”:
 
 ```
 
@@ -67,7 +67,7 @@ DATA: lo_client_proxy      TYPE REF TO /iwbep/if_cp_client_proxy,
   lo_function_resource = lo_client_proxy->create_resource_for_function( 'PROMOTE_EMPLOYEE').
 ```
 
-**Step 2:** Set the non-binding \(for example. input\) parameters on the function resource instance. You can do this on the function resource, using method “***SET\_PARAMETER***”:
+**Step 2:** Set the non-binding \(for example. input\) parameters on the function resource instance. You can do this on the function resource, using method “`SET_PARAMETER`”:
 
 ```
 TYPES:
@@ -95,7 +95,7 @@ DATA: lo_function_request TYPE REF TO /iwbep/if_cp_request_function.
 lo_function_request = lo_function_resource->create_request( ).
 ```
 
-**Step 4:** Select the corresponding HTTP method to invoke the function on the request object. In this example, it is ***POST***. You must do this in method ***SET\_HTTP\_METHOD*** or directly in the ***EXECUTE*** method. You can use the given constants in ***GCS\_HTTP\_METHOD*** of interface ***/IWBEP/IF\_CP\_REQUEST\_FUNCTION***:
+**Step 4:** Select the corresponding HTTP method to invoke the function on the request object. In this example, it is `POST`. You must do this in method `SET_HTTP_METHOD` or directly in the `EXECUTE` method. You can use the given constants in `GCS_HTTP_METHOD` of interface `/IWBEP/IF_CP_REQUEST_FUNCTION`:
 
 ```
 
@@ -109,16 +109,16 @@ lo_function_request = lo_function_resource->create_request( ).
 ```
 
 > ### Note:  
-> Setting the HTTP method is only allowed for OData Version 2 requests. In OData Version 4, functions must always be called with ***GET*** and actions with ***POST***. You don't need to set the HTTP method if the function is called with ***GET***.
+> Setting the HTTP method is only allowed for OData Version 2 requests. In OData Version 4, functions must always be called with `GET` and actions with `POST`. You don't need to set the HTTP method if the function is called with `GET`.
 
-**Step 5:** Set the ***If-Match*** header to provide an ETag \(if needed for this request\). For example, if the corresponding request header is ***if-match:*** W/"***2407***", the required input for ***SET\_IF\_MATCH*** is ‘***2407***':
+**Step 5:** Set the `If-Match` header to provide an ETag \(if needed for this request\). For example, if the corresponding request header is `if-match:` W/"`2407`", the required input for `SET_IF_MATCH` is ‘`2407`':
 
 ```
 lo_function_request->set_if_match( ‘2407’ ).
 ```
 
 > ### Note:  
-> Only Version 2 remote consumption supports the ***If-Match*** header.
+> Only Version 2 remote consumption supports the `If-Match` header.
 
 **Step 6:** Create the Function request:
 
@@ -147,7 +147,7 @@ CHECK lo_function_response->has_business_data( ) = abap_true.
 > ### Note:  
 > -   When using the Version 4 local client proxy, the business data you enter is not converted for inbound processing. The data provider receives the data exactly how you entered it in the request. For both Version 2 and Version 4, the business data received from the \(local consumption\) response is also not re-converted for outbound processing.
 > 
-> -   Using an OData Version 4 action import works the same way. Use method ***CREATE\_RESOURCE\_FOR\_ACTION*** instead of ***CREATE\_RESOURCE\_FOR\_FUNCTION***.
+> -   Using an OData Version 4 action import works the same way. Use method `CREATE_RESOURCE_FOR_ACTION` instead of `CREATE_RESOURCE_FOR_FUNCTION`.
 
 
 
@@ -161,11 +161,11 @@ CHECK lo_function_response->has_business_data( ) = abap_true.
 
 -   Composable Functions are **not** supported.
 
--   ***$expand*** with operations is ***not*** supported.
+-   `$expand` with operations is `not` supported.
 
--   ***$select*** is ***not*** supported for actions.
+-   `$select` is `not` supported for actions.
 
--   ***Return-Prefer*** header is ***not*** supported for actions.
+-   `Return-Prefer` header is `not` supported for actions.
 
 -   System query options are **not** supported for Version 4 functions.
 

@@ -69,7 +69,7 @@ SAP BTP provides the following environments:
 
     Within the Cloud Foundry environment, you can create a new space for ABAP development. This is what we refer to as the ABAP environment. It allows you to create extensions for ABAP-based products, such as SAP S/4HANA Cloud, and develop new cloud applications. You can transform existing ABAP-based custom code or extensions to the cloud.
 
--   [Kyma Environment](kyma-environment-468c2f3.md#loio468c2f3c3ca24c2c8497ef9f83154c44)
+-   [Kyma Environment](kyma-environment-468c2f3.md)
 
     The Kyma environment is a fully managed Kubernetes runtime based on the open-source project "Kyma" that allows developers to extend SAP solutions with serverless functions and combine them with containerized microservices.
 

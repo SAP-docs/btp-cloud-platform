@@ -57,7 +57,7 @@ Like a trust arrangement, you must configure service B to grant the authority to
 
     For example:
 
-    ***cf create-service xsuaa application servb-uaa -c /servb/security/xs-security.json***
+    `cf create-service xsuaa application servb-uaa -c /servb/security/xs-security.json`
 
 3.  As the business application developer, accept the authority of other applications in the `authorities` section of the `xs-security.json` in business application A.
 
@@ -81,7 +81,7 @@ Like a trust arrangement, you must configure service B to grant the authority to
 
     For example:
 
-    ***cf create-service xsuaa application appa-uaa -c /appa/security/xs-security.json***
+    `cf create-service xsuaa application appa-uaa -c /appa/security/xs-security.json`
 
 5.  Deploy the developments.
 

@@ -72,7 +72,7 @@ Trial
 </td>
 <td valign="top">
 
-***trial***
+`trial`
 
 
 
@@ -182,7 +182,7 @@ Free
 </td>
 <td valign="top">
 
-***free***
+`free`
 
 
 
@@ -326,9 +326,9 @@ The plan assigned to your subaccount.
 </td>
 <td valign="top">
 
--   ***aws***
--   ***gcp***
--   ***azure***
+-   `aws`
+-   `gcp`
+-   `azure`
 
 
 
@@ -576,7 +576,7 @@ The plan assigned to your subaccount.
 </td>
 <td valign="top">
 
-***azure\_lite***
+`azure_lite`
 
 
 

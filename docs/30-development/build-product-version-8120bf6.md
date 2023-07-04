@@ -8,7 +8,7 @@ The app guides you through the creation of runs for your product versions and tr
 
 Since technical users are needed in various steps, the app can also be used to add and maintain credentials that can be reused in multiple products.
 
-Previously, the scenario has been described in project "Piper". For more information, see [Build and Publish Add-On Products on SAP BTP, ABAP Environment.](https://www.project-piper.io/scenarios/abapEnvironmentAddons/) We recommend using the *Build Product Version* App that enables the Build Add-On Product scenario for you without the need to set up a Jenkins server.
+Previously, the scenario has been described in project "Piper". For more information, see [Build and Publish Add-On Products on SAP BTP, ABAP Environment.](https://www.project-piper.io/scenarios/abapEnvironmentAddons/) We recommend using the *Build Product Version* app that enables the Build Add-On Product scenario for you without the need to set up a Jenkins server.
 
 > ### Note:  
 > Please notice, that only 99 builds can be saved in a 28 day period. In case of further builds, the oldest one will be deleted.

@@ -80,9 +80,9 @@ For more information about your users of SAP ID service can enable multifactor a
 > ### Note:  
 > Some user interfaces don't offer an interactive way to support multifactor authentication, such as time-based one time passwords \(TOTP\). Instead, such tools offer fixed logon ID and password fields. For such tools, enter your password directly followed, without any spaces or dividers, by the TOTP offered by your multifactor device.
 > 
-> <code>User ID: <b><i>MylogoniD</i></b></code>
+> <code>User ID: <code>MylogoniD</code></code>
 > 
-> <code>Password: <b><i>MystrongpassworDMytotppasscodE</i></b></code>
+> <code>Password: <code>MystrongpassworDMytotppasscodE</code></code>
 > 
 > For some tools, this behavior affects log on to the tool itself:
 > 

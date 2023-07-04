@@ -26,7 +26,7 @@ You have the *Administrator* role \(role template `ID SAP_BR_ADMINISTRATOR`\).
 
 5.  Turn off the *Destination Service* to view the *Host Name*.
 
-6.  Under*Technical Data* \> *General*, enter the *Host Name* of the SAP Analytics Cloud tenant and *Port* as ***443***. SAP Analytics Cloud follows the host name schema `xxx.sapanalytics.cloud`.
+6.  Under*Technical Data* \> *General*, enter the *Host Name* of the SAP Analytics Cloud tenant and *Port* as `443`. SAP Analytics Cloud follows the host name schema `xxx.sapanalytics.cloud`.
 
 7.  Choose *Save*.
 

@@ -46,7 +46,7 @@ This procedure briefly describes how to assign the role collections to the devel
 
 7.  Select the identity provider where the user group is stored.
 
-8.  Enter the name of the user group that you created before, for example, ***Developers***.
+8.  Enter the name of the user group that you created before, for example, `Developers`.
 
 9.  Save your entries.
 

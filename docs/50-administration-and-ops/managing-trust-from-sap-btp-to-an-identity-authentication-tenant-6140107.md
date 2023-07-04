@@ -39,7 +39,7 @@ SAP BTP supports identity federation. Its concept is to reuse the user bases of 
 To manage trust with your identity provider, use the following commands.
 
 ```
-btp create security/trust --idp my-tenant --subaccount my-subaccount-id --name my-trust-configuration  --origin mytrust --description "My Trust Configuration"
+btp create security/trust --idp my-tenant --subaccount my-subaccount-id --name my-trust-configuration --description "My Trust Configuration"
 ```
 
 See [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md).

@@ -43,9 +43,9 @@ In the Kyma Dashboard, create an instance of the SAP Event Mesh service. This in
 
     -   Give a meaningful name of the new SAP Event Mesh service instance.
 
-    -   In the *Offering Name* field, enter ***enterprise-messaging***, which is the technical name of the SAP Event Mesh service.
+    -   In the *Offering Name* field, enter `enterprise-messaging`, which is the technical name of the SAP Event Mesh service.
 
-    -   In the *Plan Name* field, enter ***default***.
+    -   In the *Plan Name* field, enter `default`.
 
 
 7.  Choose the *YAML* tab.

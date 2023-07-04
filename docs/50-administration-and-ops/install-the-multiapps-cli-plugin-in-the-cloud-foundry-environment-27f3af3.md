@@ -20,7 +20,7 @@ You have installed the Cloud Foundry command line interface version 6.40 or high
 
 1.  Open the command line interface or terminal.
 
-2.  Check if a previous version is installed by using the command ***cf plugins***. If the `MtaPlugin` is already installed, you have to uninstall it using the command ***cf uninstall-plugin MtaPlugin***.
+2.  Check if a previous version is installed by using the command `cf plugins`. If the `MtaPlugin` is already installed, you have to uninstall it using the command `cf uninstall-plugin MtaPlugin`.
 
     If you do not uninstall the previous version of the plugin and try to install a new one, you receive the following error:
 
@@ -34,11 +34,11 @@ You have installed the Cloud Foundry command line interface version 6.40 or high
 
     1.  Make sure that you have the Cloud Foundry community repository in your Cloud Foundry command line interface. If it is not available there, add it by executing the following command:
 
-        ***cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org***
+        `cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org`
 
     2.  To install the plugin, enter the following command:
 
-        ***cf install-plugin multiapps -f***
+        `cf install-plugin multiapps -f`
 
 
     > ### Note:  
@@ -47,8 +47,8 @@ You have installed the Cloud Foundry command line interface version 6.40 or high
     > 1.  Download the [preferred version](https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases) of the plugin that is compatible with your operating system.
     > 2.  Extract the downloaded archive if required.
     > 3.  To install the plugin, enter the following command:
-    >     -   Mac and Linux: ***`cf install-plugin`*<path to the downloaded plugin\>*`-f`***
-    >     -   Windows: ***`cf install-plugin`*<path to the downloaded plugin\>*`-f`***
+    >     -   Mac and Linux: <code><code>cf install-plugin</code><i class="varname">&lt;path to the downloaded plugin&gt;</i><code>-f</code></code>
+    >     -   Windows: <code><code>cf install-plugin</code><i class="varname">&lt;path to the downloaded plugin&gt;</i><code>-f</code></code>
 
 4.  Verify that the plugin has been installed successfully by entering `cf plugins`.
 

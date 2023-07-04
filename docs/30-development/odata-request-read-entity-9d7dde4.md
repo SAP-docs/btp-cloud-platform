@@ -36,7 +36,7 @@ OData services support requests for data using HTTP GET requests. The URL path i
 
 ### Version 4
 
-Get the employee with id ‘***007***' from the “***Employees***” entity set.
+Get the employee with id ‘`007`' from the “`Employees`” entity set.
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘007’)
@@ -46,7 +46,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘007’)
 
 ### Version 2
 
-Get the employee with id ‘***007***’ from the “***Employees***” entity set.
+Get the employee with id ‘`007`’ from the “`Employees`” entity set.
 
 ```
 GET /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Employees(‘007’)
@@ -63,17 +63,17 @@ GET /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Employees(‘007’)
 ### Overview
 
 > ### Note:  
-> As the coding is independent of the OData version, we're presenting a general example on how to create a ***READ*** request on an entity.
+> As the coding is independent of the OData version, we're presenting a general example on how to create a `READ` request on an entity.
 
-The starting point for a ***GET*** entity request is the Client Proxy instance. You can create an entity resource based on an entity list resource, which can use create an entity resource based on an entity list resource. Use the entity resource to create a read request.
+The starting point for a `GET` entity request is the Client Proxy instance. You can create an entity resource based on an entity list resource, which can use create an entity resource based on an entity list resource. Use the entity resource to create a read request.
 
-Running the read request provides a response, which can return the business data of the ***READ*** entity request.
+Running the read request provides a response, which can return the business data of the `READ` entity request.
 
 
 
 ### Example
 
-From the Version 4 entity set ‘***Employees’***, fetch the employee with key id ‘***007’***:
+From the Version 4 entity set ‘`Employees’`, fetch the employee with key id ‘`007’`:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘007’)
@@ -100,7 +100,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees(‘007’)
 
 To run an OData request to read an entity:
 
-**Step 1:** Create the entity resource for the employee with the key ***Id***=‘***007***' from the entity set ‘Employees’ \(with **internal** name ‘***EMPLOYEES’***\). Use type ***ty\_s\_employee\_key*** in interface ***/iwbep/if\_v4\_tea\_busi\_types*** that includes the key property ***id***:
+**Step 1:** Create the entity resource for the employee with the key `Id`=‘`007`' from the entity set ‘Employees’ \(with **internal** name ‘`EMPLOYEES’`\). Use type `ty_s_employee_key` in interface `/iwbep/if_v4_tea_busi_types` that includes the key property `id`:
 
 ```
 

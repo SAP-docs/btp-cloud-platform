@@ -31,7 +31,7 @@ For each tenant of SAP BTP ABAP environment, a service instance of SAP Document 
 You can build and edit communication arrangements that your organization has set up with a communication partner using the *Communication Arrangement* application. The system provides communication scenarios for inbound and outbound communication that you can use to create communication arrangements. Inbound communication describes how a communication partner receives business documents, while outbound communication describes how a communication partner sends business documents to a communication partner. The communication scenario specifies the authorizations, inbound and outbound services, and supported authentication methods that are necessary for the communication.
 
 > ### Note:  
-> For the collection of sample classes available in the following GIT Hub location ***https://github.com/SAP-samples/abap-cmis-client-sample*** that helps you to use SAP Document Management Service, Integration option, in the SAP BTP, ABAP environment.
+> For the collection of sample classes available in the following GIT Hub location `https://github.com/SAP-samples/abap-cmis-client-sample` that helps you to use SAP Document Management Service, Integration option, in the SAP BTP, ABAP environment.
 
 **Related Information**  
 

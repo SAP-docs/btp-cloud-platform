@@ -123,7 +123,7 @@ UTC time stamp of the item creation
 
 Get the message text of the item. It is:
 
--   The output of ABAP command ***MESSAGE*** for a message item
+-   The output of ABAP command `MESSAGE` for a message item
 
 -   The text of a free text item
 

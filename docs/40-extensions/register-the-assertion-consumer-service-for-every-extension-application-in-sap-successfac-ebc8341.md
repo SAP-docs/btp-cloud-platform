@@ -82,7 +82,7 @@
         This is the absolute URL that corresponds to the URL of the application router with the appended value of the `logoutEndpoint` property. See [logout](../30-development/logout-2296b4d.md).
 
     > ### Note:  
-    > Make sure that the value of the `logoutMethod` property is set to ***GET*** in the *xs-app.json* file.
+    > Make sure that the value of the `logoutMethod` property is set to `GET` in the *xs-app.json* file.
 
     > ### Note:  
     > The `SameSite` attribute of the `Set-Cookie` HTTP response header needs to be set to `None` so that the cookies are sent in all responses to both first-party and cross-origin requests. You also need to set the cookie `Secure` attribute, because it requires a secure context/HTTPS. See [Environment Variables](../30-development/environment-variables-ba52705.md).

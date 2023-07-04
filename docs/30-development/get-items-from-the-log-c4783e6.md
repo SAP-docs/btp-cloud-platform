@@ -39,7 +39,7 @@ Public attributes of all log items:
 
 Method of all log items is `GET_MESSAGE_TEXT`: It returns the message text of the item.
 
--   The output of ABAP command ***MESSAGE*** for a message item
+-   The output of ABAP command `MESSAGE` for a message item
 
 -   The text of a free text item
 

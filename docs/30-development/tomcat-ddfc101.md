@@ -2,9 +2,9 @@
 
 # Tomcat
 
-By default web applications pushed with the SAP Java buildpack are running in an Apache Tomcat container.
+By default, web applications deployed with SAP Java Buildpack are running in an Apache Tomcat container.
 
-Applications could explicitly define the targeted application container by using the TARGET\_RUNTIME environment variable in the application `manifest.yml` file.
+Applications can explicitly define the target application container by using the TARGET\_RUNTIME environment variable in the application's `manifest.yml` file.
 
 > ### Sample Code:  
 > manifest.yml
@@ -12,7 +12,7 @@ Applications could explicitly define the targeted application container by using
 > ```
 > ---
 > applications:
-> - name: <APP_NAME>
+> - name: myapp
 >   ...
 >   env:
 >     TARGET_RUNTIME: tomcat
@@ -24,7 +24,7 @@ Applications could explicitly define the targeted application container by using
 
 ## Provided APIs
 
-The tomcat application runtime container provides the following standard APIs:
+The **tomcat** application runtime container provides the following standard APIs:
 
 
 <table>
@@ -90,9 +90,9 @@ Java API for WebSocket 1.1
 
 ## Customizing the SAP Java Buildpack Defaults
 
-SAP Java Buildpack provides some default configurations for the Tomcat application container which could be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature.
+SAP Java Buildpack provides some default configurations for the Apache Tomcat application container, which can be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature.
 
-Below is a list with all of the placeholders which could be customized by the application along with their default values:
+Below is a list of all of the placeholders that can be customized by the application, along with their default values:
 
 
 <table>
@@ -122,7 +122,7 @@ Default Value
 <tr>
 <td valign="top">
 
-connector.maxHttpHeaderSize
+ `connector.maxHttpHeaderSiz`e
 
 
 
@@ -136,7 +136,7 @@ The maximum size of the request and response HTTP header, specified in bytes
 </td>
 <td valign="top">
 
-8192
+ **8192** 
 
 
 
@@ -145,7 +145,7 @@ The maximum size of the request and response HTTP header, specified in bytes
 <tr>
 <td valign="top">
 
-connector.maxThreads
+ `connector.maxThreads` 
 
 
 
@@ -159,7 +159,7 @@ The maximum number of request processing threads to be created by this Connector
 </td>
 <td valign="top">
 
-200
+ **200** 
 
 
 
@@ -168,21 +168,21 @@ The maximum number of request processing threads to be created by this Connector
 <tr>
 <td valign="top">
 
-connector.allowTrace
+ `connector.allowTrace` 
 
 
 
 </td>
 <td valign="top">
 
-A boolean value which can be used to enable or disable the TRACE HTTP method
+A Boolean value that enables or disables the TRACE HTTP method
 
 
 
 </td>
 <td valign="top">
 
-false
+ **false** 
 
 
 
@@ -217,13 +217,14 @@ env:
 
 ## Configure the maximum number of active sessions
 
-The SAP Java Buildpack provides the default configurations for unlimited sessions for the Tomcat application container which could be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature. To limit the number of active sessions set the *maxActiveSessions* attribute on a *Manager* element, for example:
+SAP Java Buildpack provides the default configurations for unlimited sessions for the Tomcat application container. They can be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature. To limit the number of active sessions, set the *maxActiveSessions* attribute on a *Manager* element. For example:
 
-```
-<Context>
-  <Manager maxActiveSessions="500" />
-</Context>
-```
+> ### Example:  
+> ```
+> <Context>
+>   <Manager maxActiveSessions="500" />
+> </Context>
+> ```
 
 
 
@@ -231,7 +232,7 @@ The SAP Java Buildpack provides the default configurations for unlimited session
 
 ## Configure the session timeout value
 
-To set session timeout value of active sessions set the *session-config* tag in the application `web.xml`:
+To set session timeout value of active sessions, set the *session-config* tag in the application's `web.xml` file:
 
 ```
 <session-config>
@@ -245,7 +246,7 @@ To set session timeout value of active sessions set the *session-config* tag in 
 
 ## Configure the context path attribute
 
-The default value of context path in `server.xml` is ***""*** \(Empty String\). You can override this default value using `app_context_root` in the application `manifest.yml` file. For example:
+The default value of context path in `server.xml` is ***""*** \(Empty String\). You can override this default value by using `app_context_root` in the application's `manifest.yml` file. For example:
 
 ```
 ...
@@ -253,4 +254,23 @@ The default value of context path in `server.xml` is ***""*** \(Empty String\). 
     JBP_CONFIG_TOMCAT: "[tomcat:{app_context_root: test_context_path}]"
 ...
 ```
+
+
+
+<a name="loioddfc10180fe844049cc71f6989942dc2__section_czq_ffl_wxb"/>
+
+## Configure the cookie processor
+
+In Tomcat 8.5.84, a custom cookie processor has been created, based on the RFC 6265 Cookie Processor. If the PROCESS\_COOKIE environment variable is set to **true**, then this new cookie processor will override the default one.
+
+**Reason**: In Tomcat Apache 8.5.84, the date format used with the **expires** attribute of HTTP cookies was corrected to be compliant with RFC 6265. A single space rather than a single dash is now used to separate the day, month, and year components. See: [Tomcat 8 Changelog](https://tomcat.apache.org/tomcat-8.5-doc/changelog.html)
+
+The purpose of the new cookie processor is to set the *Cookie Expire* date to format with '-' \(*dash*\) delimiter instead of ' ' \(*space*\) so that no errors would be thrown.
+
+Sample error message when not using the new customization:
+
+> ### Example:  
+> ```
+> Sample error: "Invalid cookie header: "set-cookie: username=John; Max-Age=21; Expires=Thu, 16 Feb 2023 13:31:55 GMT". Invalid 'expires' attribute: Thu, 16 Feb 2023 13:31:55 GMT "
+> ```
 

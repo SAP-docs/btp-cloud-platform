@@ -109,7 +109,7 @@ Each released client version is supported for at least a year. If a client is de
 
     Windows: `C:/Users/<your-user>`
 
-    In the Windows search, enter ***Environment Variable*** and open the *System Properties*. On the **Advanced** tab, open **Environment Variables**. Under **User Variables**, open the **Path** entry and add the file location of the btp.exe \(`C:\Users<your-user>`\).
+    In the Windows search, enter `Environment Variable` and open the *System Properties*. On the **Advanced** tab, open **Environment Variables**. Under **User Variables**, open the **Path** entry and add the file location of the btp.exe \(`C:\Users<your-user>`\).
 
 4.  \(Optional\) If you have a proxy server configured in your environment, you need to specify its address and port as environment variable `HTTPS_PROXY` or `https_proxy` to access SAP BTP. For example, `HTTPS_PROXY=https://my-https-proxy:1234`.
 

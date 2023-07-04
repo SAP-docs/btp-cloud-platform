@@ -18,7 +18,7 @@ See [\[MS-ODATA\]: Open Data Protocol \(OData\)](https://docs.microsoft.com/en-u
 
 Multipurpose Internet Mail Extensions \(MIME\) is set of extensions that redefines and expands support for various types of content in email messages. Each MIME part that represents a request in a Change Set can include a Content-ID MIME header. See [\[RFC2045 Section 7: Content-ID Header Field\]](https://www.rfc-editor.org/rfc/rfc2045.txt) for more information.
 
-If a MIME part defines an ***InsertEntity*** request and includes a ***Content-ID*** header, the new entity is defined by the ***InsertEntity*** request. You can reference the new entity in future requests in the Change Set using the "***$<Content-ID value of your previous request\>***" token in place of a Resource Path that identifies the new resource. The token acts as an alias for the Resource Path that identifies the new entity. Requests in different Change Sets can't reference one another, even if they are in the same Batch.
+If a MIME part defines an `InsertEntity` request and includes a `Content-ID` header, the new entity is defined by the `InsertEntity` request. You can reference the new entity in future requests in the Change Set using the "`$<Content-ID value of your previous request>`" token in place of a Resource Path that identifies the new resource. The token acts as an alias for the Resource Path that identifies the new entity. Requests in different Change Sets can't reference one another, even if they are in the same Batch.
 
 
 
@@ -32,7 +32,7 @@ Each request in a batch request can have an assigned request identifier. The req
 -   Must be unique within the batch request.
 -   Must satisfy the rule request-id in [\[OData-ABNF\]](https://docs.oasis-open.org/odata/odata/v4.01/os/abnf/odata-abnf-construction-rules.txt).
 
-The body part contents that represent a change set must be a multipart document with one body part for each operation in the change set. See [\[RFC2046\]](https://datatracker.ietf.org/doc/html/rfc2046). Each body part that represents an operation in the change set must specify a ***Content-ID*** header with a unique request identifier in the batch request.
+The body part contents that represent a change set must be a multipart document with one body part for each operation in the change set. See [\[RFC2046\]](https://datatracker.ietf.org/doc/html/rfc2046). Each body part that represents an operation in the change set must specify a `Content-ID` header with a unique request identifier in the batch request.
 
 
 
@@ -44,7 +44,7 @@ The body part contents that represent a change set must be a multipart document 
 
 ### Version 4
 
-Create new entity in entity set “***TEAMS***” and update it afterwards:
+Create new entity in entity set “`TEAMS`” and update it afterwards:
 
 ```
 POST /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0001/$batch
@@ -91,7 +91,7 @@ Content-Type: application/json
 
 ### Version 2
 
-Create a new entity in entity set “***Decimals***”, then read it:
+Create a new entity in entity set “`Decimals`”, then read it:
 
 ```
 POST /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/$batch
@@ -151,7 +151,7 @@ The starting point for a using Content ID Referencing is a create request instan
 
 ### Example
 
-Create a new entity in entity set “***Teams***”, then update the member count:
+Create a new entity in entity set “`Teams`”, then update the member count:
 
 ```
 POST /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/$batch
@@ -246,7 +246,7 @@ DATA:    lo_update_request TYPE REF TO /iwbep/if_cp_request_update,
 		 It_provided_property = VALUE #( ( `MEMBER_COUNT` ) ) ).
 ```
 
-**Step 4:**Add the ***CREATE*** and ***UPDATE*** requests into the changeset request. Then add the changeset request into the ***$batch*** request:
+**Step 4:**Add the `CREATE` and `UPDATE` requests into the changeset request. Then add the changeset request into the `$batch` request:
 
 ```
 DATA:	lo_create_request        TYPE REF TO /iwbep/if_cp_request_create,
@@ -260,7 +260,7 @@ DATA:	lo_create_request        TYPE REF TO /iwbep/if_cp_request_create,
 
 ```
 
-**Step 5:**Run the ***$batch*** request:
+**Step 5:**Run the `$batch` request:
 
 ```
 DATA:	lo_batch_request TYPE REF TO /iwbep/if_cp_request_batch.
@@ -273,7 +273,7 @@ DATA:	lo_batch_request TYPE REF TO /iwbep/if_cp_request_batch.
 
 ## Constraints
 
--   You can't use Content ID Referencing with navigation \(for example, ***POST $1/NavigationProperty***\).
+-   You can't use Content ID Referencing with navigation \(for example, `POST $1/NavigationProperty`\).
 
 
 **Related Information**  

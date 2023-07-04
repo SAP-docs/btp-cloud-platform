@@ -112,7 +112,7 @@ The registration process has the following states displayed in the cockpit:
         > Use only printable ASCII characters.
 
         > ### Tip:  
-        > We recommend that you indicate the type of the system when specifying the system name. For example, ****<mysystem\>*-SuccessFactors***. This helps you identify the system type when assigning systems to a formation.
+        > We recommend that you indicate the type of the system when specifying the system name. For example, <code><i class="varname">&lt;mysystem&gt;</i>-SuccessFactors</code>. This helps you identify the system type when assigning systems to a formation.
 
     2.  In the *Type* dropdown list, select SAP SuccessFactors.
 

@@ -232,7 +232,7 @@ Count of cumulated messages
 
 
 
-Get the message text of the message \(the output of ABAP command ***MESSAGE***\):
+Get the message text of the message \(the output of ABAP command `MESSAGE`\):
 
 **GET\_MESSAGE\_TEXT \(from interface IF\_BALI\_ITEM\_GETTER\):**
 

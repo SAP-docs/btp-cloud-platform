@@ -1409,7 +1409,7 @@ If you've enabled environments in your subaccount, manage the roles for those en
 
 [Building Roles and Role Collections for Applications](../50-administration-and-ops/building-roles-and-role-collections-for-applications-eaa6a26.md "As an administrator of the Cloud Foundry environment of SAP BTP, you can maintain application roles and role collections which can be used in user management.")
 
-[Mapping Role Collections in the Subaccount](../50-administration-and-ops/mapping-role-collections-in-the-subaccount-9e1bf57.md "You have arranged roles in role collections, and now want to assign or map these role collections to business users.")
+[Mapping Role Collections in the Subaccount](../50-administration-and-ops/mapping-role-collections-in-the-subaccount-9e1bf57.md "You've arranged roles in role collections, and now want to assign or map these role collections to business users.")
 
 [Maintain Role Collections](../50-administration-and-ops/maintain-role-collections-d5f1612.md "Role collections group together different roles that can be applied to the application users.")
 

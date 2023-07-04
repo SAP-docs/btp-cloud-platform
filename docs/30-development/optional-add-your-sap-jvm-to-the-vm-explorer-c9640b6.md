@@ -46,7 +46,7 @@ From the *VM Explorer,* you can debug, monitor or profile your SAP JVM. For more
 
 3.  In your Eclipse IDE, open the *Profiling* perspective, and from the *VM Explorer* view choose *Manage Hosts*.
 
-4.  Choose *Add* and enter the following host name and port number: ***localhost:50003***
+4.  Choose *Add* and enter the following host name and port number: `localhost:50003`
 
 
 

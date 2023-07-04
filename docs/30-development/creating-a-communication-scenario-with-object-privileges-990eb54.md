@@ -14,7 +14,7 @@ To be able to use a technical user in the ABAP system to access the service bind
 
 1.  In the project explorer of the ABAP Development Tools, right-click on your project and choose *New* \> *Other ABAP Repository Object*.
 
-2.  In the popup, enter ***Communication*** in the search field and then choose *Communication Scenario* from the results.
+2.  In the popup, enter `Communication` in the search field and then choose *Communication Scenario* from the results.
 
 3.  Enter a name and description for the new communication scenario and choose *Next* and *Finish*.
 

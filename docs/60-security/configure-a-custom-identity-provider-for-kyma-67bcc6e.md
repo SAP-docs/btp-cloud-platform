@@ -39,7 +39,7 @@ If you've already created your Kyma environment, you can also apply the custom I
     -   *usernameClaim* - the name of a custom OpenID Connect claim for specifying a username
     -   *groupsClaim* - the name of a custom OpenID Connect claim for specifying user groups
     -   *signingAlgs* - the list of allowed cryptographic algorithms used for token signing. The allowed values are defined by [RFC 7518](https://tools.ietf.org/html/rfc7518#section-3.1).
-    -   *usernamePrefix* - the prefix for all usernames. If you don't provide it, username claims other than “email” are prefixed by the *issuerURL* to avoid clashes. To skip any prefixing, provide the value as ***\-***.
+    -   *usernamePrefix* - the prefix for all usernames. If you don't provide it, username claims other than “email” are prefixed by the *issuerURL* to avoid clashes. To skip any prefixing, provide the value as `-`.
     -   *administrators* - the list of usernames meant to be administrators. Users identified with those usernames get the role *cluster-admin* during provisioning of your Kyma runtime.
 
     > ### Note:  

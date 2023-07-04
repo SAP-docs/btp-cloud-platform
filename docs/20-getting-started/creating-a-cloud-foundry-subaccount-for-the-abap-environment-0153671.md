@@ -23,7 +23,7 @@ For the ABAP environment, you need a Cloud Foundry subaccount as a technical env
 
 1.  From your global account, choose *New Subaccount*.
 
-2.  Specify a display name, for example, ***ABAP***.
+2.  Specify a display name, for example, `ABAP`.
 
 3.  **Optional:** Enter a description.
 
@@ -36,7 +36,7 @@ For the ABAP environment, you need a Cloud Foundry subaccount as a technical env
 6.  Enter a subdomain for your subaccount. The subdomain will become part of the URL for accessing applications that you subscribe to from this subaccount.
 
     > ### Note:  
-    > You can choose any string of your choice. However, note that the subdomain can contain only letters, digits and hyphens \(not allowed in the beginning or at the end\), and must be unique across all subaccounts in the same region. Uppercase and lowercase letters can be used, however that alone does not qualify as a means to differentiate subdomains \(for example, ***SUBDOMAIN*** and ***subdomain*** are considered to be the same\).
+    > You can choose any string of your choice. However, note that the subdomain can contain only letters, digits and hyphens \(not allowed in the beginning or at the end\), and must be unique across all subaccounts in the same region. Uppercase and lowercase letters can be used, however that alone does not qualify as a means to differentiate subdomains \(for example, `SUBDOMAIN` and `subdomain` are considered to be the same\).
 
 7.  If your subaccount is to be used for production purposes, select the *Used for production* option.
 

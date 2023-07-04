@@ -42,11 +42,11 @@ Get an overview about how to create and deploy an SAP Fiori application to Cloud
 
 3.  Continue with the development of the UI, for example, with the help of guided development. See [Implement Features using Guided Development](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/0c9e518ecf704b2f80a2bed0eaca60ae.html).
 4.  Now you can preview the generated SAP Fiori application. See [Preview an Application](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/b962685bdf9246f6bced1d1cc1d9ba1c.html).
-5.  Build the application by executing command ***npm run build*** in the terminal of your project. See [Deployment to Cloud Foundry](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/607014e278d941fda4440f92f4a324a6.html#deployment-to-cloud-foundry).
+5.  Build the application by executing command `npm run build` in the terminal of your project. See [Deployment to Cloud Foundry](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/607014e278d941fda4440f92f4a324a6.html#deployment-to-cloud-foundry).
 
     This generates an `*.mtar` file and `mta_archives` folder.
 
-6.  Log on to Cloud Foundry and deploy the SAP Fiori UI to your development space by executing command ***npm run deploy***. See [Deployment to Cloud Foundry](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/607014e278d941fda4440f92f4a324a6.html#deployment-to-cloud-foundry).
+6.  Log on to Cloud Foundry and deploy the SAP Fiori UI to your development space by executing command `npm run deploy`. See [Deployment to Cloud Foundry](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/607014e278d941fda4440f92f4a324a6.html#deployment-to-cloud-foundry).
 
 > ### Tip:  
 > If you can't discover an available OData service in the generator, or preview your application, check if you user is assigned to business catalog `SAP_CORE_BC_EXT_TST`. If you aren't authorized to deploy the application, check if business catalog `SAP_A4C_BC_DEV_UID_PC` is assigned to your user.

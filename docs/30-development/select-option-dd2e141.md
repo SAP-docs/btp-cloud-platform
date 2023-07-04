@@ -16,7 +16,7 @@ Use the $select system query option to return a subset for the returned properti
 
 See [\[MS-ODATA\]: Open Data Protocol \(OData\)](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-odata).
 
-A data service URI **with** a ***$select*** System Query Option identifies the same set of entities as a URI **without** a ***$select*** query option. If you have a ***$select*** query option, the data service response returns a subset \(identified by the ***$select*** query option\) for the returned properties of the URI that didn't include a ***$select*** query option.
+A data service URI **with** a `$select` System Query Option identifies the same set of entities as a URI **without** a `$select` query option. If you have a `$select` query option, the data service response returns a subset \(identified by the `$select` query option\) for the returned properties of the URI that didn't include a `$select` query option.
 
 
 
@@ -24,7 +24,7 @@ A data service URI **with** a ***$select*** System Query Option identifies the s
 
 See [OData Version 4.01. Part 1: Protocol](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html).
 
-The ***$select*** system query option requests that the service return only the properties, dynamic properties, actions, and functions explicitly requested by the client. The service returns the specified content \(if available\) and any available expanded navigation or stream properties. It can also return additional information.
+The `$select` system query option requests that the service return only the properties, dynamic properties, actions, and functions explicitly requested by the client. The service returns the specified content \(if available\) and any available expanded navigation or stream properties. It can also return additional information.
 
 
 
@@ -36,7 +36,7 @@ The ***$select*** system query option requests that the service return only the 
 
 ### Version 4
 
-Get the employee with Id ‘***0002***’ of entity set “***Employees***” and return only properties “***Name***” and “***Age***”:
+Get the employee with Id ‘`0002`’ of entity set “`Employees`” and return only properties “`Name`” and “`Age`”:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees('0002')?$select=Name,Age
@@ -46,7 +46,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees('0002')?$sel
 
 ### Version 2
 
-Get all entities of entity set “***Managers***” and return only properties “***Name***” and “***Age***”:
+Get all entities of entity set “`Managers`” and return only properties “`Name`” and “`Age`”:
 
 ```
 GET /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Managers?$select=Name,Age
@@ -63,15 +63,15 @@ GET /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Managers?$select=Name,Age
 ### Overview
 
 > ### Note:  
-> As the coding is independent of the OData version, we're presenting a general example on how to use the ***$select*** option.
+> As the coding is independent of the OData version, we're presenting a general example on how to use the `$select` option.
 
-The starting point for a request with ***$select*** is a read request on an entity list. You can set the selected properties on the entity list read request.
+The starting point for a request with `$select` is a read request on an entity list. You can set the selected properties on the entity list read request.
 
 
 
 ### Example
 
-Set the properties “***Age***”, “***Name***” and “***Cityname***” for the employee with Id ‘***0002***’ for the entity set “***Employees***”. “***Cityname***” is in the complex property “***City***”, which is of the complex property “***Location***”:
+Set the properties “`Age`”, “`Name`” and “`Cityname`” for the employee with Id ‘`0002`’ for the entity set “`Employees`”. “`Cityname`” is in the complex property “`City`”, which is of the complex property “`Location`”:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees('0002')?$select=Name,Age,Location/City/Cityname
@@ -111,7 +111,7 @@ Age
 </td>
 <td valign="top">
 
-***AGE***
+`AGE`
 
 
 
@@ -127,7 +127,7 @@ Location
 </td>
 <td valign="top">
 
-***LOCATION***
+`LOCATION`
 
 
 
@@ -143,7 +143,7 @@ City
 </td>
 <td valign="top">
 
-***CITY***
+`CITY`
 
 
 
@@ -159,7 +159,7 @@ Cityname
 </td>
 <td valign="top">
 
-***CITYNAME***
+`CITYNAME`
 
 
 
@@ -175,7 +175,7 @@ Name
 </td>
 <td valign="top">
 
-***NAME***
+`NAME`
 
 
 

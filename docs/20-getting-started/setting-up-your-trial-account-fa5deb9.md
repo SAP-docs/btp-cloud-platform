@@ -52,7 +52,7 @@ The first thing that is needed in the setup of your trial account is the creatio
     </td>
     <td valign="top">
     
-        ***trial***
+        `trial`
 
 
     
@@ -116,7 +116,7 @@ The first thing that is needed in the setup of your trial account is the creatio
     </td>
     <td valign="top">
     
-        ***<your\_id\>trial***
+        `<your_id>trial`
 
     Example: **P0123456789trial**
 
@@ -215,7 +215,7 @@ You now have an org and all the entitlements for your subaccount. The last thing
 
 1.  In your *trial* subaccount, navigate to *Cloud Foundry* \> *Spaces* using the left hand-side navigation.
 
-2.  Choose *Create Space* and name it ***dev***.
+2.  Choose *Create Space* and name it `dev`.
 
 3.  Choose *Create*.
 

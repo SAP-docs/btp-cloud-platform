@@ -32,7 +32,7 @@ AIF messages are deleted after a retention time, which can be configured in AIF 
 
 2.  With the *Assign Recipients to Users* app, assign the corresponding interface to a business user.
 
-    1.  In the *Namespace* field, enter the namespace ***/SWFCP*** for the workflow capability integration.
+    1.  In the *Namespace* field, enter the namespace `/SWFCP` for the workflow capability integration.
 
     2.  Select the interfaces using the recipient names:
 

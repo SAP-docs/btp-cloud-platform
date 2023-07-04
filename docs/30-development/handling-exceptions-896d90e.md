@@ -13,7 +13,7 @@ Handling exceptions when running Client Proxy-related coding.
 There are two types of exceptions in the Client Proxy context:
 
 -   `/IWBEP/CX_GATEWAY`: for client issues \(for example, if the provided entity set name is unknown or if you try to fetch business data from a response instance that doesn't have any response data\).
--   `/IWBEP/CX_CP_REMOTE`: for server issues in remote scenarios \(for example, the returned HTTP status code is not ***2xx*** \(internal server errors \[500\] or missing authorizations \[401\]\).
+-   `/IWBEP/CX_CP_REMOTE`: for server issues in remote scenarios \(for example, the returned HTTP status code is not `2xx` \(internal server errors \[500\] or missing authorizations \[401\]\).
 
     The remote server exception contains this information:
 

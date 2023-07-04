@@ -143,10 +143,11 @@ You can use the communication scenario `SAP_COM_0510` to work with Git repositor
     }
     ```
 
-6.  > ### Note:  
-    > Please note that the newly created branch is not yet active.
 
-7.  **\(Checkout a Branch\)** Simply creating a branch did not change the state of the system. In order to work with the newly created branch, you need to import the branch to the system. This action is called "checkout branch". You need to pass the Git repository and the name of the branch as query parameters.
+> ### Note:  
+> Please note that the newly created branch is not yet active.
+
+6.  **\(Checkout a Branch\)** Simply creating a branch did not change the state of the system. In order to work with the newly created branch, you need to import the branch to the system. This action is called "checkout branch". You need to pass the Git repository and the name of the branch as query parameters.
 
     **Request**
 
@@ -201,7 +202,7 @@ You can use the communication scenario `SAP_COM_0510` to work with Git repositor
 
     Behind the scenes, a `Pull` entity is created. It can be used to track the status of the checkout \(see steps 3 and 4 in [Pulling Git Repositories to an ABAP Environment System](pulling-git-repositories-to-an-abap-environment-system-80a8d52.md)\). This entity is specified in the `__metadata` of the response body.
 
-8.  **\(Delete a Branch\)** You can delete existing branches. Keep in mind, however, that neither the current active branch nor the main branch can be deleted. Both parameters are mandatory.
+7.  **\(Delete a Branch\)** You can delete existing branches. Keep in mind, however, that neither the current active branch nor the main branch can be deleted. Both parameters are mandatory.
 
     **Request**
 

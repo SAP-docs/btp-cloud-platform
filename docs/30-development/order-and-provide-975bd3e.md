@@ -171,9 +171,9 @@ As an operator, you need to create a destination for the Cloud Foundry Cloud Con
 > ### Note:  
 > Using a multitenant application deployed during the development phase, you need to add a new tenant-specific route pointing to the approuter application.
 > 
-> You have to create a route for the consumer subaccount that maps to the approuter in the multitenant application. New routes are created inside the space where the multitenant application is deployed. For the creation of a new route, you have to specify the domain and hostname. In the development phase, the hostname combines the subdomain of the consumer \(sub-\)account, using a "***\-***" separator, and the app name of the SaaS solution. Once the route is created, you have to map it to the approuter application.
+> You have to create a route for the consumer subaccount that maps to the approuter in the multitenant application. New routes are created inside the space where the multitenant application is deployed. For the creation of a new route, you have to specify the domain and hostname. In the development phase, the hostname combines the subdomain of the consumer \(sub-\)account, using a "`-`" separator, and the app name of the SaaS solution. Once the route is created, you have to map it to the approuter application.
 > 
-> However, there is a constraint while testing the multitenant application in the development phase: The hostname of a route can only have 63 characters \(=length subdomain of consumer subaccount\). If a suffix is used in the `TENANT_HOST_PATTERN`, the consumer-specific route might not be valid \(hostname \> 63 characters\). Since "***\-***" is used as separator, only 63 characters minus the number of characters used for the app name of the solution can be used for subdomains.
+> However, there is a constraint while testing the multitenant application in the development phase: The hostname of a route can only have 63 characters \(=length subdomain of consumer subaccount\). If a suffix is used in the `TENANT_HOST_PATTERN`, the consumer-specific route might not be valid \(hostname \> 63 characters\). Since "`-`" is used as separator, only 63 characters minus the number of characters used for the app name of the solution can be used for subdomains.
 
 As a DevOps engineer test the multitenant application deployed to the *05 Provide* subaccount in the global account for development by subscribing from a consumer subaccount created in the global account for development. See [**Subscribe to Multitenant Applications Using the Cockpit**](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/7a3e39622be14413b2a4df7c02ca1170.html).
 
@@ -184,7 +184,7 @@ Once the subscription is successful, you may also want to test the initial user 
 > ### Note:  
 > During the production phase, you should use a route with wildcard hostname combined with a custom domain so that you don't have to create them manually in the space where the multitenant application is deployed. See [Configure the Approuter Application](configure-the-approuter-application-3725815.md) and [Create Routes](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/9fddeea396b34b528bc8d286f3d5d9cf.html?version=Cloud). This guarantess the following:
 > 
-> -   All possible subdomains can be replaced in tenant host pattern while resulting in a valid hostname/route since separator "***.***" is used instead of "***\-***".
+> -   All possible subdomains can be replaced in tenant host pattern while resulting in a valid hostname/route since separator "`.`" is used instead of "`-`".
 > 
 > -   The desired route is not reserved. That means, in case of a shared domain, such as cfapps.eu10.hana.ondemand.com, the subdomains are not reserved and could be used by other SAP BTP platform customers.
 
@@ -335,7 +335,7 @@ The subscription process triggers provisioning of
 
 In both cases, you, as a SaaS solution operator, receive a confirmation mail.
 
-The business type of the consumer tenant depends on the usage parameter configured for the ABAP Solution service. If you have set ***usage = prod***, a tenant of business type `Partner Customer Production Tenant` is created. If you have set ***usage = test***, a tenant of business type `Partner Customer Test Tenant` is created. For more information on the solution usage, see [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
+The business type of the consumer tenant depends on the usage parameter configured for the ABAP Solution service. If you have set `usage = prod`, a tenant of business type `Partner Customer Production Tenant` is created. If you have set `usage = test`, a tenant of business type `Partner Customer Test Tenant` is created. For more information on the solution usage, see [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
 
 As an operator user assigned to the role collection `LandscapePortalAdminRoleCollection`, you can access the systems overview of the *Landscape Portal* and check both provisioned systems and new tenants. See [Landscape Portal](landscape-portal-5eb70fb.md).
 

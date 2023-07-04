@@ -6,11 +6,11 @@ To write items, such as messages or exceptions, to the log during runtime, the a
 
 The following categories of log items are provided:
 
--   Message \(for example, a message is displayed using ABAP command ***MESSAGE***\). For more information, see [Create a Message](create-a-message-f6ca36b.md).
+-   Message \(for example, a message is displayed using ABAP command `MESSAGE`\). For more information, see [Create a Message](create-a-message-f6ca36b.md).
 
 -   Free Text \(a text with a maximum length of 200 characters\). For more information, see [Create a Free Text](create-a-free-text-31f749f.md).
 
--   Exception \(for example, an exception is raised using ABAP command ***RAISE EXCEPTION*** and can be caught using ABAP command ***CATCH***\). For more information, see [Create an Exception](create-an-exception-9a82de7.md).
+-   Exception \(for example, an exception is raised using ABAP command `RAISE EXCEPTION` and can be caught using ABAP command `CATCH`\). For more information, see [Create an Exception](create-an-exception-9a82de7.md).
 
 
 To add a log item to an application log, the `IF_BALI_LOG` interface provides the following methods:

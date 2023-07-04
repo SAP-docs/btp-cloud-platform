@@ -24,7 +24,7 @@ Kyma comes with Grafana, which provides a dashboard and a graph editor to visual
     > 
     >     `kubectl -n kyma-system port-forward svc/monitoring-grafana 3000:80`
     > 
-    > 2.  Note that kubectl port-forward does not return. If you want to stop port forwarding, cancel it with ***Ctrl+C***.
+    > 2.  Note that kubectl port-forward does not return. If you want to stop port forwarding, cancel it with `Ctrl+C`.
     > 
     > 3.  In your browser, open `http://localhost:3000`. You see the Grafana UI.
 
@@ -52,7 +52,7 @@ Kyma manages an [OAuth2 Proxy](https://oauth2-proxy.github.io/oauth2-proxy/) ins
 
         For example, if your Kyma cluster is reachable under `kyma.example.com`, set the callback URL to `https://grafana.kyma.example.com/oauth2/callback`.
 
-    2.  **Optional:** If you want to limit access to a specific group, set the user attribute *Groups* to value ***groups***. Learn more under [Configure the User Attributes Sent to the Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d361407d36c5443298a909acbbd96ec4.html).
+    2.  **Optional:** If you want to limit access to a specific group, set the user attribute *Groups* to value `groups`. Learn more under [Configure the User Attributes Sent to the Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d361407d36c5443298a909acbbd96ec4.html).
 
     3.  Create a secret. For more information, see [Configure Secrets for API Authentication](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/5c3c35e01e3c4e7e8dd72af60c997c5d.html).
 

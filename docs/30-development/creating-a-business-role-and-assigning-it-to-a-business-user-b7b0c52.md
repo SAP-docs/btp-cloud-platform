@@ -25,7 +25,7 @@ An appropriate business catalog for the ODBC client scenario has been created by
 
     In the example used in this documentation, the restriction type *Region Management* is shown.
 
-3.  Add a value, for example, add the value ***A*** for the *REGION* field.
+3.  Add a value, for example, add the value `A` for the *REGION* field.
 
 4.  Go back to the role, add a business user to it, and save the role.
 

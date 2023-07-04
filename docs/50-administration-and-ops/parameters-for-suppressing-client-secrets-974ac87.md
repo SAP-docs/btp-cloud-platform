@@ -2,7 +2,7 @@
 
 # Parameters for Suppressing Client Secrets
 
-When binding or creating a service key for an `xsuaa` service instance, you can pass some parameters in JSON format or in a JSON file \(see ***cf bind-service*** and ***cf create-service-key*** in the related links\). The `"hide-secret"` element enables you to suppress the client secret when binding or creating a service key. It's useful if some applications only want to bind the `xsuaa` service for authorization purposes.
+When binding or creating a service key for an `xsuaa` service instance, you can pass some parameters in JSON format or in a JSON file \(see `cf bind-service` and `cf create-service-key` in the related links\). The `"hide-secret"` element enables you to suppress the client secret when binding or creating a service key. It's useful if some applications only want to bind the `xsuaa` service for authorization purposes.
 
 
 
@@ -24,7 +24,7 @@ For more information, see [Application Security Descriptor Configuration Syntax]
 
 ## Parameters for Suppressing Client Secrets
 
-The ***cf create-binding*** or ***cf create-service-key*** commands expect a valid `parameters.json` file containing the service-specific configuration parameters in the following format.
+The `cf create-binding` or `cf create-service-key` commands expect a valid `parameters.json` file containing the service-specific configuration parameters in the following format.
 
 > ### Sample Code:  
 > ```

@@ -16,7 +16,7 @@ Use the $search system query option to restrict results to include items you spe
 
 See [\[MS-ODATA\]: Open Data Protocol \(OData\)](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-odata).
 
-The ***$search*** system query option restricts the result to include only the items that match the specified search expression. The type of match depends on your implementation.
+The `$search` system query option restricts the result to include only the items that match the specified search expression. The type of match depends on your implementation.
 
 
 
@@ -28,7 +28,7 @@ The ***$search*** system query option restricts the result to include only the i
 
 ### Version 4
 
-Get all entities of Entity Set “***Employees***” with “***Peter***” or “***Smith***” in their name:
+Get all entities of Entity Set “`Employees`” with “`Peter`” or “`Smith`” in their name:
 
 ```
 GET/sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0001/EMPLOYEES?$search=Peter OR Smith
@@ -44,16 +44,16 @@ GET/sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0001/EMPLOYEES?$search=Peter
 
 ### Overview
 
-The starting point for a request with the ***$search*** option is an entity list read request. You can set the***$search*** expression on the entity list read request.
+The starting point for a request with the `$search` option is an entity list read request. You can set the`$search` expression on the entity list read request.
 
 > ### Note:  
-> Depending on your implementation, the result of the ***$search*** option on a property can vary. In our example, ***$search*** acts on property “***Name***”.
+> Depending on your implementation, the result of the `$search` option on a property can vary. In our example, `$search` acts on property “`Name`”.
 
 
 
 ### Example
 
-Search all entities of Entity Set “***Employees***” with “***Peter***” or “***Smith***” in their name:
+Search all entities of Entity Set “`Employees`” with “`Peter`” or “`Smith`” in their name:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0001/EMPLOYEES?$search=Peter OR Smith 
@@ -89,7 +89,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0001/EMPLOYEES?$search=Pete
   lo_read_list_request->set_search_node( lo_search_node ).
 ```
 
-**Step 1:** Create the search node on the request instance. For this step, you already provided the first part of your ***$search*** expression \(“***Peter***” from “***Peter OR Smith***”\):
+**Step 1:** Create the search node on the request instance. For this step, you already provided the first part of your `$search` expression \(“`Peter`” from “`Peter OR Smith`”\):
 
 ```
 
@@ -99,7 +99,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0001/EMPLOYEES?$search=Pete
   lo_search_node = lo_read_list_request->create_search_node( ‘Peter’ ).
 ```
 
-**Step 2:** Insert the second expression \(“***Smith***”\) and connect it with “***OR***” to the first expression:
+**Step 2:** Insert the second expression \(“`Smith`”\) and connect it with “`OR`” to the first expression:
 
 ```
 
@@ -128,7 +128,7 @@ Negate the previous expression. For example, this request:
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0001/EMPLOYEES?$search=NOT (Peter OR Smith)
 ```
 
-Call the method "***NOT***" on the search node instance:
+Call the method "`NOT`" on the search node instance:
 
 ```
 
@@ -171,9 +171,9 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0001/EMPLOYEES?$search=(Pet
 
 ## Constraints
 
--   ***$search*** is only available for OData Version 4 requests.
+-   `$search` is only available for OData Version 4 requests.
 
--   ***SET\_SEARCH*** is not supported for local consumption.
+-   `SET_SEARCH` is not supported for local consumption.
 
 
 **Related Information**  

@@ -96,7 +96,7 @@ To profile with JMC, you need to start the Management Agent on a RMI port and th
 
     2.  From, the *JVM Browser* tab, choose icon *Create a new custom JVM connection*.
 
-    3.  For *Port*, enter ***5555*** \(or your actual port number\), and then choose *Finish*.
+    3.  For *Port*, enter `5555` \(or your actual port number\), and then choose *Finish*.
 
 
 6.  In the left-side menu, a new node *localhost:5555* appears.

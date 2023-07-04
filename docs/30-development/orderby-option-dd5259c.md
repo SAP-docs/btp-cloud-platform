@@ -16,7 +16,7 @@ Use the $orderby system query option to determine what values are used to order 
 
 See [\[MS-ODATA\]: Open Data Protocol \(OData\)](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-odata).
 
-A data service URI with the ***$orderby*** System Query Option specifies an expression for determining what values are used to order the entities in the EntitySet \(identified by the Resource Path section of the URI\).
+A data service URI with the `$orderby` System Query Option specifies an expression for determining what values are used to order the entities in the EntitySet \(identified by the Resource Path section of the URI\).
 
 
 
@@ -24,7 +24,7 @@ A data service URI with the ***$orderby*** System Query Option specifies an expr
 
 See [OData Version 4.01. Part 1: Protocol](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html).
 
-The ***$orderby*** System Query option specifies the order that items are returned from the service. The value of the ***$orderby*** System Query option is a comma-separated list of expressions that use the primitive result values to sort the items. The expression can include the suffix ***asc*** for ascending or ***desc*** for descending that you separate from the property name by one or more spaces.
+The `$orderby` System Query option specifies the order that items are returned from the service. The value of the `$orderby` System Query option is a comma-separated list of expressions that use the primitive result values to sort the items. The expression can include the suffix `asc` for ascending or `desc` for descending that you separate from the property name by one or more spaces.
 
 
 
@@ -36,7 +36,7 @@ The ***$orderby*** System Query option specifies the order that items are return
 
 ### Version 4
 
-Get all entities of entity set “***Employees***” and sort the response descending to property “***Cityname***” and ascending to property “***Age***”:
+Get all entities of entity set “`Employees`” and sort the response descending to property “`Cityname`” and ascending to property “`Age`”:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees?$orderby=Location/City/Cityname desc, Age
@@ -46,7 +46,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees?$orderby=Loc
 
 ### Version 2
 
-Get all entities of entity set “***Employees***” and sort the response ascending to property “***Id***” and descending to property “***Name***”:
+Get all entities of entity set “`Employees`” and sort the response ascending to property “`Id`” and descending to property “`Name`”:
 
 ```
 GET /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Employees?$orderby=Id, Name asc
@@ -63,15 +63,15 @@ GET /sap/opu/odata/IWBEP/TEA_TEST_APPLICATION/Employees?$orderby=Id, Name asc
 ### Overview
 
 > ### Note:  
-> As the coding is independent of the OData version, we're presenting a general example on how to use the ***$orderby*** option.
+> As the coding is independent of the OData version, we're presenting a general example on how to use the `$orderby` option.
 
-The starting point for a request with the ***$orderby*** option is an entity list read request. You can set the ***$orderby*** on the entity list read request.
+The starting point for a request with the `$orderby` option is an entity list read request. You can set the `$orderby` on the entity list read request.
 
 
 
 ### Example
 
-Get all entities of entity set “***Employees***” and sort the response descending to property “***Cityname***” \(in complex property “***City***”, which is part of complex property “***Location***”\) and ascending to property “***Age***”:
+Get all entities of entity set “`Employees`” and sort the response descending to property “`Cityname`” \(in complex property “`City`”, which is part of complex property “`Location`”\) and ascending to property “`Age`”:
 
 ```
 GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees?$orderby=Location/City/Cityname desc, Age
@@ -81,7 +81,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees?$orderby=Loc
 
 ### Steps
 
-**Step 1:** Set the ***$orderby*** values at the request instance:
+**Step 1:** Set the `$orderby` values at the request instance:
 
 
 <table>
@@ -111,7 +111,7 @@ Age
 </td>
 <td valign="top">
 
-***AGE***
+`AGE`
 
 
 
@@ -127,7 +127,7 @@ Location
 </td>
 <td valign="top">
 
-***LOCATION***
+`LOCATION`
 
 
 
@@ -143,7 +143,7 @@ City
 </td>
 <td valign="top">
 
-***CITY***
+`CITY`
 
 
 
@@ -159,7 +159,7 @@ Cityname
 </td>
 <td valign="top">
 
-***CITYNAME***
+`CITYNAME`
 
 
 

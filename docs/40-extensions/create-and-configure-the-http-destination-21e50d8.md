@@ -70,7 +70,7 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         <td valign="top">
         
-                ***HTTP***
+                `HTTP`
 
 
         
@@ -102,7 +102,7 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         <td valign="top">
         
-                ***https://*<my\_SAP\_Cloud\_for\_Customer\_system\_name\>*.crm.ondemand.com/sap/c4c/odata/v1/c4codataapi***
+                <code>https://<i class="varname">&lt;my_SAP_Cloud_for_Customer_system_name&gt;</i>.crm.ondemand.com/sap/c4c/odata/v1/c4codataapi</code>
 
 
         
@@ -118,7 +118,7 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         <td valign="top">
         
-                ***Internet***
+                `Internet`
 
 
         
@@ -134,7 +134,7 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         <td valign="top">
         
-                ***OAuth2SAMLBearerAssertion***
+                `OAuth2SAMLBearerAssertion`
 
 
         
@@ -184,7 +184,7 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         <td valign="top">
         
-                ***https://*<my\_SAP\_Cloud\_for\_Customer\_system\_name\>*.crm.ondemand.com/sap/bc/sec/oauth2/token***
+                <code>https://<i class="varname">&lt;my_SAP_Cloud_for_Customer_system_name&gt;</i>.crm.ondemand.com/sap/bc/sec/oauth2/token</code>
 
 
         
@@ -261,7 +261,7 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         <td valign="top">
         
-                 ***urn:none*** 
+                 `urn:none` 
 
 
         
@@ -277,7 +277,7 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         <td valign="top">
         
-                 ***urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress*** 
+                 `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress` 
 
 
         
