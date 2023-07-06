@@ -24,11 +24,9 @@ You've the *Administrator* role \(role template `ID SAP_BR_ADMINISTRATOR`\).
 
 4.  Select the communication scenario `SAP_COM_0668`.
 
-5.  Enter a name for the arrangement.
+5.  Enter *Service Key* that you generated. For more information about creating service key, see [Create Service Keys Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cdf4f200db3e4c248fa67401937b2f78.html).
 
-6.  Enter *Service Key* that you generated. For more information about creating service key, see [Create Service Keys Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cdf4f200db3e4c248fa67401937b2f78.html).
-
-7.  Choose *Create*.
+6.  Choose *Create*.
 
     A communication system created with the name `ZSAP_COM_0668`.
 
