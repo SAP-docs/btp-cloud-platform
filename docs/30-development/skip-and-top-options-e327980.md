@@ -2,7 +2,7 @@
 
 # $skip and $top Options
 
-Use the $skip or $top system query options to identify a subset of the entities in an entiy collection..
+Use the $skip or $top system query options to identify a subset of the entities in an entity collection..
 
 
 
