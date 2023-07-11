@@ -2,9 +2,7 @@
 
 # Kyma Environment
 
-SAP BTP, Kyma Runtime provides a fully managed cloud-native Kubernetes application runtime based on the open-source project "Kyma".
-
-Based on modular building blocks, includes all the necessary capabilities to simplify the development and to run enterprise-grade cloud-native applications.
+SAP BTP, Kyma runtime provides a fully managed cloud-native Kubernetes application runtime based on the open-source project "Kyma". Based on modular building blocks, Kyma runtime includes all the necessary capabilities to simplify the development and to run enterprise-grade cloud-native applications.
 
 
 
@@ -12,9 +10,9 @@ Based on modular building blocks, includes all the necessary capabilities to sim
 
 ## Kyma as a Managed Service
 
-The Kyma environment permits a native consumption of the [Multi-Cloud Foundation](https://help.sap.com/docs/btp/migrating-from-neo-environment-to-multi-cloud-foundation-cloud-foundry-and-kyma/what-is-multi-cloud-foundation) Services and smooth consumption of SAP and non-SAP applications.
-It also supports out-of-the-box CAP, Cloud-SDK, Approuter, and HTML5 deployer.
-A dedicated application runtime ensures and enables to deploy of highly scalable, robust, and secure containerized microservices.
+Kyma environment permits a native consumption of the Multi-Cloud Foundation Services \([What Is the Multi-Cloud Foundation](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/06b6fb3d45d040429e36f0359d2fe1f2.html "Get to know the multi-cloud foundation and its environments.") :arrow_upper_right:\) and smooth consumption of SAP and non-SAP applications. It also supports out-of-the-box CAP, SAP Cloud SDK, application router, and HTML5 deployer.
+
+Kyma implements a dedicated application runtime to deploy highly scalable, robust, and secure containerized microservices.
 
 > ### Note:  
 > Kyma as a managed service automatically checks all Kyma-managed resources. Any unexpected modifications are discarded, and the resource is reverted to the original state.

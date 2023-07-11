@@ -64,12 +64,8 @@ ABAP
 
 -   Free choice of programming languages and models \(containerized deployments\)
 -   Combines microservices and serverless functions
--   Built-in, managed, service mesh and other cloud-native open-source modules to reduce the development effort
--   Managed infrastructure: 2nd-day operation, security patches, and updates
--   Refined Horizontal and Vertical automatic scalability
+-   Brings built-in, managed, service mesh
 -   More flexible with Kubernetes
--   Dedicated application runtime
--   Zero downtime infrastructure setup by default
 -   Support for CAP – an opinionated business app development framework
 
 
@@ -131,11 +127,8 @@ ABAP
 <td valign="top">
 
 -   Open build-on approach
--   Enterprise-grade applications
 -   Cloud-native development of apps and services
--   Low latency infra-services communication
 -   Highly scalable, microservice-based applications
--   Reducing infrastructure management effort
 -   Applications built with CAP
 
 

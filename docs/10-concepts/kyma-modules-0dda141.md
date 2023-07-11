@@ -114,7 +114,7 @@ Istio is a service mesh with Kyma-specific configuration.
 </td>
 <td valign="top">
 
--   [Service Mesh in Kyma](https://kyma-project.io/docs/kyma/latest/01-overview/main-areas/service-mesh/)
+-   [What is Service Mesh is Kyma?](https://kyma-project.io/docs/kyma/latest/01-overview/service-mesh/)
 
 
 
@@ -138,7 +138,7 @@ With the Serverless module, you can define simple code snippets \(Funtions\) wit
 <td valign="top">
 
 -   [Deploy Workloads in the Kyma Environment to Extend SAP Systems](../30-development/deploy-workloads-in-the-kyma-environment-to-extend-sap-systems-fe4ba5b.md)
--   [What is Serverless in Kyma?](https://kyma-project.io/docs/kyma/latest/01-overview/main-areas/serverless/)
+-   [What is Serverless in Kyma?](https://kyma-project.io/docs/kyma/latest/01-overview/serverless/)
 -   [https://github.com/kyma-project/serverless-manager](https://github.com/kyma-project/serverless-manager)
 
 
@@ -162,7 +162,7 @@ Enable telemetry agents to easily collect application logs and distributed trace
 </td>
 <td valign="top">
 
--   [What is Telemetry in Kyma?](https://kyma-project.io/docs/kyma/latest/01-overview/main-areas/telemetry/)
+-   [What is Telemetry in Kyma?](https://kyma-project.io/docs/kyma/latest/01-overview/telemetry/)
 -   [https://github.com/kyma-project/telemetry-manager](https://github.com/kyma-project/telemetry-manager)
 
 
@@ -258,7 +258,7 @@ API Gateway provides functionalities that allow you to expose and secure APIs.
 </td>
 <td valign="top">
 
--   [API Gateway in Kyma](https://kyma-project.io/docs/kyma/latest/01-overview/main-areas/api-exposure/apix-01-api-gateway/)
+-   [API Gateway in Kyma](https://kyma-project.io/docs/kyma/latest/01-overview/api-exposure/apix-01-api-gateway/)
 
 
 
