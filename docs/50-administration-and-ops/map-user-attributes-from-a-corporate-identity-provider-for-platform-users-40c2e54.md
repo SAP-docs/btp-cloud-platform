@@ -35,11 +35,11 @@ There are several options to customize attribute mappings in Identity Authentica
     Use the *Default Attributes* in the Identity Authentication application representing SAP BTP.
 
     > ### Note:  
-    > You can't remove the default attributes or edit the listed attribute names, but you can edit their values, depending on which attribute from the corporate identity provider maps to these attributes. You can also add custom attributes, such as groups or other attributes for mapping to role collections.
+    > You can't remove the default attributes or edit the listed attribute names, but you can edit their values, depending on which attribute from the corporate identity provider maps to these attributes. You can also add custom attributes, such as *groups* or other attributes for mapping to role collections.
 
      ![](images/Attribute_Mapping_in_Identity_Authentication_Tokens_e70dd08.png) 
 
-    If the corporate identity provider sends user attributes for email address, first and last name with other names than *email*, *given\_name*, or *family\_name*, set the right attribute name by replacing those values.
+    If the corporate identity provider sends user attributes for email address, first and last name with other names than *mail*, *first\_name*, or *last\_name*, set the right attribute name by replacing those values.
 
     > ### Example:  
     > If your corporate identity provider sends users' last names as attribute `sn`, map the `sn` attribute to the `last_name` attribute required by SAP BTP with the value `${corporateIdP.sn}`.
@@ -141,6 +141,22 @@ First name of the user.
 <td valign="top">
 
 Last name of the user.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `groups` 
+
+
+
+</td>
+<td valign="top">
+
+Any groups the subject is assigned to in the identity provider.
 
 
 

@@ -879,7 +879,7 @@ The `xsuaa` service broker registers and uses these values for the configuration
 >           "https://myapp.mydomain.com/my/content"],
 >      "refresh-token-validity": 1800,
 >      "credential-types": ["binding-secret","x509"],
->      "system-attributes ": ["groups","rolecollections"],
+>      "system-attributes": ["groups","rolecollections"],
 >      "allowedproviders ": ["orgin_key1","origin_key2"]
 >      }
 > ```

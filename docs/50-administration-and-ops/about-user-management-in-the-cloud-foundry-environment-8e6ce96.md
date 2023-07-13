@@ -19,10 +19,14 @@ If you’re the `Org Manager`, you don’t need to first add the users as org me
 
 ## Cloud Foundry and Shadow Users
 
-Whenever you add a user at the org or space level, SAP BTP creates the user at the subaccount level, also known as a shadow user. Such users also have implicit authorizations to view the subaccount in SAP BTP cockpit.
+Whenever you add a user at the org or space level, SAP BTP creates the user at the global account and subaccount levels, also known as a shadow user. This is the case only when you use the SAP BTP cockpit, not on using the Cloud Foundry CLI or Cloud Foundry APIs.
 
 > ### Remember:  
-> When you delete a Cloud Foundry user, SAP BTP doesn’t delete the corresponding shadow user at the subaccount level.
+> When you delete a user at the Cloud Foundry level, SAP BTP doesn’t delete the corresponding shadow user at the subaccount level.
+> 
+> When you delete a user at the subaccount level, ensure that you delete the user at the Cloud Foundry level too. Otherwise, if the Cloud Foundry user logs on again, the system automatically creates the corresponding user at the subaccount level.
+> 
+> So ensure that you delete the shadow users on all levels.
 
 For more information about shadow users, see [Working with Users](working-with-users-2c91f88.md).
 

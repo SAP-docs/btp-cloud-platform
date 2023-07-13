@@ -31,28 +31,32 @@ Depending on your use case, you can choose between different CI/CD pipelines to 
 
 SAP Continuous Integration and Delivery lets you configure and run predefined pipelines for the development of the following applications:
 
--   [SAP Cloud Application Programming Model](https://help.sap.com/docs/CONTINUOUS_DELIVERY/f3d64e9188f242ffb7873da5dfad4278/7c2a049670f64993b9d67c8f84ba0969.html) 
+-   [SAP Cloud Application Programming Model](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/sap-cloud-application-programming-model?version=Cloud) 
 
     Configure a CI/CD pipeline for the development of applications that follow the SAP Cloud Application Programming Model in the Cloud Foundry environment.
 
--   [SAP Fiori in the Cloud Foundry Environment](https://help.sap.com/docs/CONTINUOUS_DELIVERY/f3d64e9188f242ffb7873da5dfad4278/8887fe3c5445442b915d3c066c010d75.html)
+-   [SAP Fiori in the Cloud Foundry Environment](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/sap-fiori-in-cloud-foundry-environment?version=Cloud)
 
     Configure a CI/CD pipeline for the development of SAPUI5/SAP Fiori applications in the Cloud Foundry environment.
 
--   [SAP Fiori in the Neo environment](https://help.sap.com/docs/CONTINUOUS_DELIVERY/f3d64e9188f242ffb7873da5dfad4278/1302e9ae408b4dc38d7109c75db9aa75.html)
+-   [SAP Fiori in the Neo environment](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/sap-fiori-in-neo-environment?version=Cloud)
 
     Configure a CI/CD pipeline for the development of SAPUI5/SAP Fiori applications in the Neo environment.
 
--   [SAP Integration Suite Artifacts](https://help.sap.com/docs/CONTINUOUS_DELIVERY/f3d64e9188f242ffb7873da5dfad4278/019ed685a19b4efab4f7df0e108d1697.html)
+-   [SAP Fiori for the ABAP Platform](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/sap-fiori-for-abap-platform?version=Cloud&language=en-US)
+
+    Configure a CI/CD pipeline for the development of SAPUI5/SAP Fiori applications for the ABAP platform.
+
+-   [SAP Integration Suite Artifacts](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/sap-integration-suite-artifacts?version=Cloud)
 
     Configure a CI/CD pipeline for the development of SAP Cloud Integration artifacts in the Cloud Foundry environment.
 
--   [Container-Based Applications](https://help.sap.com/docs/CONTINUOUS_DELIVERY/f3d64e9188f242ffb7873da5dfad4278/10970393828c46498806d1b322cf05a4.html)
+-   [Container-Based Applications](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/container-based-applications?version=Cloud)
 
     Configure a CI/CD pipeline for the development of container-based applications.
 
 
-To learn more about the CI/CD pipelines supported by SAP Continuous Integration and Delivery and the stages each pipeline can comprise, see[Supported Pipelines](https://help.sap.com/docs/CONTINUOUS_DELIVERY/f3d64e9188f242ffb7873da5dfad4278/e293286b06df426ab1cfa235332a2606.html).
+To learn more about the CI/CD pipelines supported by SAP Continuous Integration and Delivery and the stages each pipeline can comprise, see [Supported Pipelines](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/supported-pipelines?version=Cloud).
 
 
 
@@ -73,14 +77,14 @@ To configure SAP Continuous Integration and Delivery:
 > ### Note:  
 > Only administrators of SAP Continuous Integration and Delivery can configure the service.
 
-1.  Configure credentials for connecting SAP Continuous Integration and Delivery to other services \(for example, GitHub, GitLab or Bitbucket Server to clone your sources, and SAP BTP to deploy your built application\).
+1.  Configure credentials for connecting SAP Continuous Integration and Delivery to other services \(for example, GitHub, GitLab, Bitbucket Server, or Azure Repos to clone your sources, and SAP BTP to deploy your built application\).
 
 2.  Add your repository.
 
 
 Now you can create and modify your CI/CD jobs and monitor their outcome. If you want to automate your builds, you can configure a webhook between your repository and the service. You can create and modify timed triggers for your jobs, if necessary.
 
-For more information, see [Initial Setup](https://help.sap.com/docs/CONTINUOUS_DELIVERY/f3d64e9188f242ffb7873da5dfad4278/719acaf61e4b4bf0a496483155c52570.html) and [Configuration](https://help.sap.com/docs/CONTINUOUS_DELIVERY/f3d64e9188f242ffb7873da5dfad4278/39d0c2f0626f4303872e49b627b5c616.html), or follow the tutorial [Configure and Run a Predefined SAP Continuous Integration and Delivery \(CI/CD\) Pipeline](https://developers.sap.com/tutorials/btp-app-ci-cd-btp.html).
+For more information, see [Initial Setup](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/initial-setup?version=Cloud) and [Configuration](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configuration?version=Cloud), or follow the tutorial [Configure and Run a Predefined SAP Continuous Integration and Delivery \(CI/CD\) Pipeline](https://developers.sap.com/tutorials/btp-app-ci-cd-btp.html).
 
 
 
@@ -90,11 +94,9 @@ For more information, see [Initial Setup](https://help.sap.com/docs/CONTINUOUS_D
 
 Depending on your learning goals and level of expertise, you can choose from the following offerings:
 
--   **[Continuous Integration and Continuous Delivery on Learning Journey](https://help.sap.com/doc/221f8f84afef43d29ad37ef2af0c4adf/HP_2.0/en-US/b76f0b2e5d534c449c1f3b0fa84ab697.html)**
+-   **[Efficient DevOps with SAP](https://open.sap.com/courses/devops1)**
 
-    Our learning journey is a visual guide that helps you complete the learning path for CI/CD on SAP BTP. It makes you understand the practices and principles of continuous integration and delivery, provides the opportunity to gather hands-on experience, and helps you improve your skills in CI/CD.
-
-    For more information about Learning Journeys, see [Jump-start your Learning](https://help.sap.com/doc/221f8f84afef43d29ad37ef2af0c4adf/HP_2.0/en-US/0d7dd0dc8f464586a187b9b6c27c6b23.html).
+    This openSAP course introduces general DevOps approaches and key principles. Learn about the basic CI/CD principles \(week 1\) and how to deliver cloud applications using CI/CD \(week 3\).
 
 -   **[Continuous Integration and Delivery Introduction Guide](https://help.sap.com/viewer/ee5a61247061455ab232c19179fe4c3b/Cloud/en-US)**
 

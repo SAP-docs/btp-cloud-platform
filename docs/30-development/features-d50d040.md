@@ -15,6 +15,6 @@ Each feature has its own productive benefit. For example, the blue-green deploym
 -   [Parallel Module Deployment](parallel-module-deployment-0384158.md)
 -   [Sequential Resource Processing](sequential-resource-processing-b93db81.md)
 -   [Features Related to SAP Alert Notificaton service for SAP BTP](features-related-to-sap-alert-notificaton-service-for-sap-btp-1f8e254.md)
--   [Content Deployment](content-deployment-d3e2319.md)
+-   [Deploying Content with Generic Application Content Deployment](deploying-content-with-generic-application-content-deployment-d3e2319.md)
 -   [Docker Images as Part of an MTA Deployment](docker-images-as-part-of-an-mta-deployment-754d480.md)
 

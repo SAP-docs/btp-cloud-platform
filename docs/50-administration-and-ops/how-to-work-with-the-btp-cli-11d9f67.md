@@ -138,9 +138,14 @@ Displays help. See [Get Help](get-help-f8fd1e5.md).
 </td>
 <td valign="top">
 
-Prints tracing information for support. See [Troubleshooting and Support](troubleshooting-and-support-4023e15.md).
+Prints tracing information for support or for your own troubleshooting. See [Troubleshooting and Support](troubleshooting-and-support-4023e15.md).
 
 To set the command output to verbose persistently, you can change the configuration settings with `btp set config --verbose true`. See [Change Configuration Settings](change-configuration-settings-dba4eb6.md).
+
+> ### Caution:  
+> The `--verbose` option prints input data that you pass as parameters through files. For example, if you pass a .json file as a parameter without the `--verbose` option, its content is sent directly to the backend service to be processed. If you use the `--verbose` option, the btp CLI prints the content of the file to the terminal. If there is sensitive information in such a file, the btp CLI cannot filter it out, as it doesn't understand its semantics.
+> 
+> Use the verbose output only if you can control the output of your terminal, i.e. only locally. It should not be used in production or shared environments, where logs may be persisted or even transported out of the system.
 
 
 

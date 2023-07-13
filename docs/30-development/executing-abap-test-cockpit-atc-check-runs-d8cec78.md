@@ -15,15 +15,15 @@
 -   You’ve created a *Communication System* as described in [How to Create Communication Systems](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-create-communication-systems?version=Cloud).
 -   You’ve created a *Communication Arrangement* as described in [How to Create a Communication Arrangement](../50-administration-and-ops/how-to-create-a-communication-arrangement-a0771f6.md).
 
--   You've selected the communication scenario **SAP\_COM\_0510** for your communication arrangement and have mapped it to your communication system.
+-   You've selected the communication scenario **SAP\_COM\_0901** for your communication arrangement and have mapped it to your communication system.
 
-    > ### Note:  
-    > Alternatively, you can also use the communication scenario **SAP\_COM\_0901**, which contains the ATC service only, without the Manage Git Repositories service.
+    > ### Restriction:  
+    > The communication scenario **SAP\_COM\_0510** is deprecated and should no longer be used.
 
 -   You've defined a business user in the additional properties in the communication arrangement. To do so, choose the *Additional Properties* link for ATC Check Run in the *Inbound Services* section. Specify a business user \(CB\) or select a user from the value help. ATC runs started via the service will be scheduled and executed with the specified business user.
 
     > ### Note:  
-    > The assigned business user needs development authorization for ADT, which is contained in the business catalog`SAP_A4C_BC_DEV_PC` or in the business role template `SAP_BR_DEVELOPER`. In case the ATC is used to execute ABAP Unit Tests, further specific authorizations might be required.
+    > The assigned business user needs development authorization for ADT, which is contained in the business catalog `SAP_A4C_BC_DEV_ATC_RUN_PC`. In case the ATC is used to execute ABAP Unit Tests, further specific authorizations might be required.
 
 
 

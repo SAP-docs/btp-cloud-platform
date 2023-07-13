@@ -43,6 +43,16 @@ The appearance of the UI can be modified by selecting the rows to be displayed o
 
 ## SAP Audit Log Viewer service Subscription
 
+
+
+### Prerequisites
+
+Before subscribing to the Audit Log Viewer service, you need to configure the relevant entitlement in your Global Account. For more information, see**Related Information**.
+
+
+
+### Subscribe to Audit Log Viewer service
+
 To use the SAP Audit Log Viewer service, subscribe to it using the SAP BTP cockpit in the *Services* \> *Instances and Subscriptions* \> *Subscriptions* tab of your subaccount. Once you're subscribed, select *Go to Application* to open the SAP Audit Log Viewer service and log in there.
 
 
@@ -64,4 +74,9 @@ To retrieve the audit logs for your subaccount using the SAP Audit Log Viewer se
 
 > ### Note:  
 > Only account members with the `Security Administrator` role are authorized to edit application authorizations.
+
+**Related Information**  
+
+
+[Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md "When you purchase an enterprise account, you are entitled to use a specific set of resources, such as the amount of memory that can be allocated to your applications.")
 

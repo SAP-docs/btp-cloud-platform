@@ -74,10 +74,12 @@ where:
 
 Go to [SAP Business Accelerator Hub](https://api.sap.com/api/APISaasManagerService/resource) and select the **Application Operations for App Providers** section to get information about all the available APIs and their details.
 
-You can also try out the APIs in the SAP API Business Hub. For more information, see [Trying Out APIs](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/de255b9e0c374ce68151f6b9ad517aba.html).
+You can also try out the APIs in theSAP Business Accelerator Hub.
+
+For more information, see [Trying Out APIs](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/de255b9e0c374ce68151f6b9ad517aba.html).
 
 > ### Note:  
-> To authenticate to try out the APIs in SAP API Business Hub, configure an environment.
+> To authenticate to try out the APIs in SAP Business Accelerator Hub, configure an environment.
 > 
 > During the environment configuration, select the *OAuth 2.0 Application Flow* option from the dropdown menu. You must do so for the Application Provider API group because these specific APIs only support the Client Credentials authentication type.
 > 
@@ -108,9 +110,9 @@ To learn how to authenticate, see [Getting an Access Token for SAP Cloud Managem
 
 Go to [SAP Business Accelerator Hub](https://api.sap.com/api/APISaasManagerService/resource) and select the **Subscription Operations for App Consumers** section to get information about all the available APIs and their details.
 
-You can also try out the APIs in the SAP API Business Hub. For more information, see [Trying Out APIs](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/de255b9e0c374ce68151f6b9ad517aba.html).
+You can also try out the APIs in the SAP Business Accelerator Hub. For more information, see [Trying Out APIs](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/de255b9e0c374ce68151f6b9ad517aba.html).
 
-To authenticate to try out the APIs in SAP API Business Hub, configure an environment.
+To authenticate to try out the APIs inSAP Business Accelerator Hub, configure an environment.
 
 For more information about configuring an environment in general, see [Trying Out APIs in a Configured Environment](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/f7796baaef6a48e9867298827f5028ff.html).
 

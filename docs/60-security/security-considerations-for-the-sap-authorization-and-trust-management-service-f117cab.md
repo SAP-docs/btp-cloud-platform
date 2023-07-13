@@ -129,11 +129,6 @@ For more information about the application security descriptor, see [Application
 
 By default, SAP Authorization and Trust Management service sets the validity of tokens as shown in the following table.
 
-> ### Remember:  
-> As of September 23, 2022, we announced our intentions to change the validity values of access and refresh tokens in 2023. This change may require you to make changes in your applications or configuration.
-> 
-> For more information, see [Planned Restriction in the Validity of Access and Refresh Tokens](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Valid_as_Of=2022-09-23%3A2022-09-23&locale=en-US&version=Cloud&Component=Authorization%20and%20Trust%20Management%20Service).
-
 **Default Validity of Tokens**
 
 
@@ -191,6 +186,8 @@ Default: 604800 seconds \(7 days\)
 On request, SAP Authorization and Trust Management service issues access and refresh tokens.
 
 With a valid access token, you can access a protected resource. Once an access token expires, you can get new access tokens with a refresh token. Once the refresh token expires, you must reauthenticate and request new access and refresh tokens.
+
+See also [Authorization](https://help.sap.com/docs/btp/sap-business-technology-platform/security-administration-managing-authentication-and-authorization?version=Cloud#authorization) for information on how tokens affect authorizations.
 
 > ### Recommendation:  
 > Relaxing the token policy means that users reauthenticate less. However, increasing the token validity also means that if a malicious user manages to steal a token, that malicious user has access until the token expires. Keep token validity as short as possible, but not less than 30 minutes.

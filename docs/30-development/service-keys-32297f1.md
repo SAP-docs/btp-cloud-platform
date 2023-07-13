@@ -66,3 +66,52 @@ As a result, the application `app123` has the environment variable `keycredentia
 > 
 > -   `env-var-name` - required dependency parameter, which defines what is the name of the new environment variable of the application. The default value is the service key name.
 
+
+
+<a name="loio32297f15898f47329df76b706447fc3e__section_cvh_3hj_wxb"/>
+
+## Automatic Service Key Renewal
+
+It’s a common use case to want an automatic service key renewal \(e.g. if you want to rotate generated service credentials or certificates\).
+
+Service key renewal on MTA redeployment is supported by using changed key names. You can do this either by manually changing the service key name in the descriptor or by using a dynamic parameter as part of it - `${timestamp}`. This parameter will always resolve to the current timestamp at the time of deployment. This means that the key will have a different name on each subsequent deployment. This ensures that it will be considered as new and created. Afterwards the old key will be deleted. This functionality applies to service keys modelled under a resource using the `service-keys:` parameter. Example descriptor for automated key renewal/rotation:
+
+> ### Sample Code:  
+> ```
+> ...
+> resources:
+>   - name: my-service
+>     type: org.cloudfoundry.managed-service
+>     parameters:
+>       service-plan: plan
+>       service: offering
+>       service-keys:
+>         - name: my-rotating-key-${timestamp}
+> ...
+> ```
+
+To consume a service key with a changing name in an application environment, make sure to use the parameter `env-var-name` when defining the service key `requires` section in the consuming module. This will ensure that the service key details are persisted under a static alias in the application environment. e.g.
+
+> ### Sample Code:  
+> ```
+> modules:
+> - name: my-app
+> ...
+>   requires:
+>     - name: rotating-key
+>       parameters:
+>         env-var-name: *keycredentials*
+> ...
+> resources:
+>   - name: my-service
+>     type: org.cloudfoundry.managed-service
+>     parameters:
+>       service-keys:
+>         - name: rotating-key-${timestamp}
+>   - name: rotating-key
+>     type: org.cloudfoundry.existing-service-key
+>     parameters:
+>       service-name: my-service
+>       service-key-name: rotating-key-${timestamp}
+> ```
+

@@ -41,10 +41,10 @@ Assign entitlements to directories by adding service plans and distribute the qu
 
 1.  In the *Account Explorer*, navigate to the directory for which you want to manage entitlements.
 
-2.  If entitlement management is not yet enabled for this directory yet, navigate to the direrctory's *Entitlements* page and select *Enable Entitlement Management*.
+2.  If entitlement management is not yet enabled for this directory yet, navigate to the directory's *Entitlements* page and select *Enable Entitlement Management*.
 
     > ### Tip:  
-    > You can quickly tell if the entitlement management has enabled if the directory's *Entitlements* page in the navigation panel has two subpages, *Entity Assignments* and *Service Assignments*. Also the directory's *Overview* page will have the *Disable Entitlement Management*button.
+    > You can quickly tell if the entitlement management has enabled if the directory's *Entitlements* page in the navigation panel has two subpages, *Entity Assignments* and *Service Assignments*. Also the directory's *Overview* page will have the *Disable Entitlement Management* button.
 
     > ### Note:  
     > Any given directory path in the account hierarchy can have only one directory that is enabled with the entitlement management feature \(or with the authorization management feature\). If such a directory exists, other directories in that path can only have the default directory features enabled.

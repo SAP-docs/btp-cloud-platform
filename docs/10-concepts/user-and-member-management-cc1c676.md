@@ -28,7 +28,7 @@ Before diving into the different user and member management concepts, it's impor
 
 Platform users who were added as members and who have administrative permissions can view or manage the list of global accounts, subaccounts, and environments, such as Cloud Foundry orgs and spaces. Members access them using the SAP BTP Cockpit or the SAP BTP command-line interface \(btp CLI\) or environment-specific CLI, such as the Cloud Foundry \(CF\) CLI.
 
-For platform users, there's a [default identity provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md). We expect that you have your own identity provider. We recommend that you configure your custom tenant of Identity Authentication as the identity provider and connect Identity Authentication to your own corporate identity provider. Custom identity provider for platform users are only supported in cloud management tools feature set A.
+For platform users, there's a [default identity provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md). We expect that you have your own identity provider. We recommend that you configure your custom tenant of Identity Authentication as the identity provider and connect Identity Authentication to your own corporate identity provider.
 
 > ### Note:  
 > For China \(Shanghai\) region, a different default identity provider is used.

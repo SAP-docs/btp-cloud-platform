@@ -12,7 +12,7 @@ The following service plans are available for subaccounts in SAP BTP paired with
 
 This service plan enables all communication scenarios, both predefined and custom, which allow you to consume SAP S/4HANA Cloud APIs and integrate your extension applications with the respective SAP S/4HANA Cloud functionality.
 
--   To access the specific documentation of these APIs, see [SAP S/4HANA Cloud APIs at SAP API Business Hub](https://api.sap.com/package/SAPS4HANACloud?section=Artifacts).
+-   To access the specific documentation of these APIs, see [SAP S/4HANA Cloud APIs at SAP Business Accelerator Hub](https://api.sap.com/package/SAPS4HANACloud?section=Artifacts).
 
 -   For more information about SAP S/4HANA Cloud communication scenarios see:
 

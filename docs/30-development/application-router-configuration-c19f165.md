@@ -119,7 +119,7 @@ You can configure the application router to send additional HTTP headers, for ex
 
 
 
-<a name="loioc19f165084d742e096c5d1625cecd2d4__section_cmm_gb2_p1b"/>
+<a name="loioc19f165084d742e096c5d1625cecd2d4__section_session_handling"/>
 
 ## Sessions
 
@@ -127,6 +127,13 @@ The application router establishes a session with the client \(browser\) using a
 
 > ### Note:  
 > Non-session cookies from back-end services **are** forwarded to the client, which might cause collisions between cookies. Applications should be able to handle cookie collisions.
+
+> ### Restriction:  
+> You must not use multiple destinations with the same URL in an application router user session!
+> 
+> The application router stores the session cookies from the backend services in a user session according to the destination URLs for the backend services. If there are multiple destinations with the same URL, the application router cannot correctly send the cookies back to the backend services.
+> 
+> To avoid conflicts, the destination URLs must have different domains.
 
 If there is no session in the application router, either because there has been a session timeout or because no session has been created yet, and if the incoming request matches a non-public route, the application router triggers a redirect to the authentication service \(UAA or IAS\).
 

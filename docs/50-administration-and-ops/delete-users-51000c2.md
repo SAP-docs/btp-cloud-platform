@@ -28,6 +28,13 @@ It's also possible to delete users using APIs. For more information, see the rel
 
 Keep in mind that you also delete the user's role collection assignments.
 
+> ### Remember:  
+> When you delete a user at the Cloud Foundry level, SAP BTP doesn’t delete the corresponding shadow user at the subaccount level.
+> 
+> When you delete a user at the subaccount level, ensure that you delete the user at the Cloud Foundry level too. Otherwise, if the Cloud Foundry user logs on again, the system automatically creates the corresponding user at the subaccount level.
+> 
+> So ensure that you delete the shadow users on all levels.
+
 > ### Caution:  
 > You cannot undo the deletion of a user.
 

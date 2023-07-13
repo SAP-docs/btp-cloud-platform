@@ -2,9 +2,6 @@
 
 # Accessing the Landscape Portal
 
-> ### Caution:  
-> You can only access the Landscape Portal through a subaccount of region cf-eu10.
-
 
 
 <a name="loio2e1e3931d39b4e2e88a411799de31616__section_pgv_55b_jtb"/>

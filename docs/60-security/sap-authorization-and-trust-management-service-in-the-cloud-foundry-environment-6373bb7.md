@@ -528,6 +528,10 @@ Our troubleshooting information can be found in our Guided Answers [Troubleshoot
 
 -   [User from corporate IdP can't log on to Neo subaccount](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:53598)
 
+-   [409 error code on deleting a custom identity provider](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:56635)
+
+-   [Share Authorization and Trust Management service instances](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:56637)
+
 
 
 

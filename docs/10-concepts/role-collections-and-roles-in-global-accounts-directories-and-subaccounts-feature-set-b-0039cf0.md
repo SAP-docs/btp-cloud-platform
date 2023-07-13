@@ -89,7 +89,7 @@ Description
 </td>
 <td valign="top">
 
-Includes read-write authorizations for updating the global account, setting entitlements, and creating, updating, and deleting subaccounts.
+Role for global account members with read-write authorizations for core commercialization operations, such as updating global accounts, setting entitlements, and creating, updating, and deleting subaccounts.
 
 The *GlobalAccount\_Admin* role template contains this role. You find the role template in the SAP BTP Cockpit if you choose the *cis-central!*<suffix\>** application identifier.
 
@@ -110,7 +110,7 @@ The *GlobalAccount\_Admin* role template contains this role. You find the role t
 </td>
 <td valign="top">
 
-Includes read-only authorizations for viewing global account usage information.
+Role for global account members with read-only authorizations for core commercialization operations, such as viewing global account usage information.
 
 The *GlobalAccount\_Usage\_Reporting\_Viewer* role template provides this role. You find the role template in the SAP BTP Cockpit if you chose the *uas!*<suffix\>** application identifier
 
@@ -128,7 +128,7 @@ The *GlobalAccount\_Usage\_Reporting\_Viewer* role template provides this role. 
 </td>
 <td valign="top">
 
-Includes read-write authorizations for trusted identity providers, role collections, roles and users.
+Manage authorizations, trusted identity providers, and users.
 
 The *xsuaa\_admin* role template provides this role. You find the role template in the SAP BTP Cockpit if you choose the *xsuaa!*<suffix\>** application identifier.
 
@@ -149,7 +149,7 @@ The *xsuaa\_admin* role template provides this role. You find the role template 
 </td>
 <td valign="top">
 
-Includes read-write authorizations for registering SAP systems and assigning SAP systems to formations.
+Administrative access to systems and scenario-related resources.
 
 The *GlobalAccount\_System\_Landscape\_Administrator* role template provides this role. You find the role template in the SAP BTP Cockpit if you choose the *cmp!*<suffix\>** application identifier.
 
@@ -226,7 +226,7 @@ Description
 </td>
 <td valign="top">
 
- Includes read-write authorizations for viewing subaccount entitlements and for creating and deleting environment instances. 
+ Role for subaccount members with read-write authorizations for core commercialization operations, such as viewing subaccount entitlements, and creating and deleting environment instances. 
 
 
 
@@ -258,7 +258,7 @@ Description
 </td>
 <td valign="top">
 
- Includes read-write authorizations for trusted identity providers, role collections, roles and users. 
+ Manage authorizations, trusted identity providers, and users. 
 
 
 
@@ -480,7 +480,7 @@ Description
 </td>
 <td valign="top">
 
- Includes read authorizations for viewing subaccount entitlements and for creating and deleting environment instances. 
+ Role for global account members with read-only authorizations for core commercialization operations, such as viewing global accounts, subaccounts, entitlements, and regions. 
 
 
 
@@ -496,7 +496,7 @@ Description
 </td>
 <td valign="top">
 
- Includes read-only authorizations for viewing global account usage information. 
+ Role for global account members with read-only authorizations for core commercialization operations, such as viewing global account usage information. 
 
 
 
@@ -512,7 +512,7 @@ Description
 </td>
 <td valign="top">
 
- Includes read authorizations for trusted identity providers and users 
+ Read-only access for authorizations, trusted identity providers, and users. 
 
 
 
@@ -616,7 +616,7 @@ Description
 </td>
 <td valign="top">
 
- Includes read authorizations for viewing subaccount entitlements and for creating and deleting environment instances. 
+ Role for subaccount members with read-only authorizations for core commercialization operations, such as viewing subaccount entitlements, details of environment instances, and job results. 
 
 
 
@@ -632,7 +632,7 @@ Description
 </td>
 <td valign="top">
 
- Includes read authorizations for trusted identity providers and users 
+ Read-only access for authorizations, trusted identity providers, and users. 
 
 
 
@@ -712,7 +712,7 @@ Role for directory members with read-only authorizations for core commercializat
 </td>
 <td valign="top">
 
- Includes read-write authorizations for trusted identity providers, role collections, roles and users. 
+ Manage authorizations, trusted identity providers, and users. 
 
 
 
@@ -784,7 +784,7 @@ Role for directory members with read-only authorizations for core commercializat
 </td>
 <td valign="top">
 
- Includes read authorizations for trusted identity providers and users 
+ Read-only access for authorizations, trusted identity providers, and users. 
 
 
 

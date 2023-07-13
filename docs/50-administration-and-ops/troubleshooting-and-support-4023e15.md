@@ -53,7 +53,10 @@ Here is an example of the `btp list security/role-collection` command call witho
 > 
 > ```
 
-If you use `btp --verbose list security/role-collection`, the output is much more lengthy. It contains information such as client version and the current context, the correlation ID, and request and response details.
+If you use `btp --verbose list security/role-collection`, the output is much more lengthy. It contains information such as client version and the current context, the correlation ID, and request and response details. This output may include sensitive information, so we recommend to use the verbose mode only for troubleshooting, not as default, and only on your local machine.
+
+> ### Caution:  
+> Use the verbose output only if you can control the output of your terminal, i.e. only locally. It should not be used in production or shared environments, where logs may be persisted or even transported out of the system.
 
 > ### Sample Code:  
 > ```

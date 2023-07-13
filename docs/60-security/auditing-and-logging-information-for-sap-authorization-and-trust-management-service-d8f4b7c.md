@@ -576,6 +576,40 @@ Other attributes:
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Token Embedding
+
+
+
+</td>
+<td valign="top">
+
+Embedding error
+
+
+
+</td>
+<td valign="top">
+
+`Error during handling of IAS Tokens for embedding.`
+
+audit.security-events
+
+
+
+</td>
+<td valign="top">
+
+Occurs when an error occurs when attempting to exchange a token for a token with an embedded token from Identity Authentication or a corporate identity provider. Check the configuration of the application.
+
+For more information, see [Include Tokens from Corporate Identity Providers or Identity Authentication in Tokens of the SAP Authorization and Trust Management Service](../30-development/include-tokens-from-corporate-identity-providers-or-identity-authentication-in-tokens-of-8dc480a.md).
+
+
+
+</td>
+</tr>
+<tr>
 <td valign="top" rowspan="7">
 
 SAML authentication

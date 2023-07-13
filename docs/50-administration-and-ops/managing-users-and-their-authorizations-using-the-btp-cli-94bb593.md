@@ -15,11 +15,7 @@ User authorizations are managed by assigning role collections to users \(for exa
 
 Role collections are user-related authorizations that allow access to resources and services. You give users permissions by assigning role collections to them. All users in the global accounts, directories, and subaccounts are stored in identity providers, either in the default or in a custom identity provider. When the first role collection assignment to a user happens, SAP BTP creates a copy of this user in the global account, directory, or subaccount. This copy of the user is called shadow user.
 
-When you do the first role collection assignment to a user through the btp CLI, you need to initially create the shadow user with parameter `--create-user-if-missing`. For example, after creating a subaccount, assign the role collection "Subaccount Administrator" to a user with the following command:
-
-```
-btp assign security/role-collection "Subaccount Administrator" --to-user name@example.com --create-user-if-missing --subaccount "my-subaccount-id"
-```
+When you do the first role collection assignment to a user through the btp CLI, such a shadow usern is created by default. If you want to prevent this, you need to pass the `--create-user-if-missing false` parameter with value `false`.
 
 See [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md) and [User and Member Management](../10-concepts/user-and-member-management-cc1c676.md).
 
@@ -554,6 +550,8 @@ Delete a role collection
 [Managing Trust from SAP BTP to an Identity Authentication Tenant](managing-trust-from-sap-btp-to-an-identity-authentication-tenant-6140107.md "SAP BTP supports identity federation. Its concept is to reuse the user bases of identity providers. To use a custom identity provider, your global account or subaccount in SAP BTP must have a trust relationship to the identity provider you want to use.")
 
 [Managing Signing Keys for Access Tokens](managing-signing-keys-for-access-tokens-dfca1d3.md "Use the SAP BTP command line interface (btp CLI) to manage signing keys for access tokens in the subaccount.")
+
+[Managing Security Settings](managing-security-settings-168dd75.md "Use the SAP BTP command line interface (btp CLI) to display and update the security settings for the global account or subaccount.")
 
 [Working With Resources of the SAP Service Manager Using the btp CLI](working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md "Use the SAP BTP command line interface to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.")
 

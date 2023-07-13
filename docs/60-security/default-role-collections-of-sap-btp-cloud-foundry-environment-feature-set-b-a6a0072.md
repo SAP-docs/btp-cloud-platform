@@ -78,7 +78,7 @@ cis-central!*<suffix\>*
 </td>
 <td valign="top">
 
-Includes read-write authorizations for updating the global account, setting entitlements, and creating, updating, and deleting subaccounts.
+Role for global account members with read-write authorizations for core commercialization operations, such as updating global accounts, setting entitlements, and creating, updating, and deleting subaccounts.
 
 
 
@@ -115,7 +115,7 @@ Global Account Administrator
 </td>
 <td valign="top">
 
- Includes read-only authorizations for viewing global account usage information. 
+ Role for global account members with read-only authorizations for core commercialization operations, such as viewing global account usage information. 
 
 
 
@@ -152,7 +152,7 @@ Global Account Administrator
 </td>
 <td valign="top">
 
- Includes read-write authorizations for trusted identity providers, role collections, roles and users. 
+ Manage authorizations, trusted identity providers, and users. 
 
 
 
@@ -189,7 +189,7 @@ Global Account Administrator
 </td>
 <td valign="top">
 
- Includes read-write authorizations for registering SAP systems and assigning SAP systems to formations. 
+ Administrative access to systems and scenario-related resources. 
 
 
 
@@ -337,7 +337,7 @@ Subaccount Administrator
 </td>
 <td valign="top">
 
- Includes read-write authorizations for viewing subaccount entitlements and for creating and deleting environment instances. 
+ Role for subaccount members with read-write authorizations for core commercialization operations, such as viewing subaccount entitlements, and creating and deleting environment instances. 
 
 
 
@@ -374,7 +374,7 @@ Subaccount Administrator
 </td>
 <td valign="top">
 
- Includes read-write authorizations for trusted identity providers, role collections, roles and users. 
+ Manage authorizations, trusted identity providers, and users. 
 
 
 
@@ -448,7 +448,7 @@ Global Account Viewer
 </td>
 <td valign="top">
 
- Includes read authorizations for viewing subaccount entitlements and for creating and deleting environment instances. 
+ Role for global account members with read-only authorizations for core commercialization operations, such as viewing global accounts, subaccounts, entitlements, and regions. 
 
 
 
@@ -485,7 +485,7 @@ GlobalAccount\_Usage\_Reporting\_Viewer
 </td>
 <td valign="top">
 
- Includes read-only authorizations for viewing global account usage information. 
+ Role for global account members with read-only authorizations for core commercialization operations, such as viewing global account usage information. 
 
 
 
@@ -522,7 +522,7 @@ Global Account Viewer
 </td>
 <td valign="top">
 
- Includes read authorizations for trusted identity providers and users 
+ Read-only access for authorizations, trusted identity providers, and users. 
 
 
 
@@ -633,7 +633,7 @@ Subaccount Viewer
 </td>
 <td valign="top">
 
- Includes read authorizations for viewing subaccount entitlements and for creating and deleting environment instances. 
+ Role for subaccount members with read-only authorizations for core commercialization operations, such as viewing subaccount entitlements, details of environment instances, and job results. 
 
 
 
@@ -670,7 +670,7 @@ xsuaa\_auditor
 </td>
 <td valign="top">
 
- Includes read authorizations for trusted identity providers and users 
+ Read-only access for authorizations, trusted identity providers, and users. 
 
 
 
@@ -966,7 +966,7 @@ Directory Administrator
 </td>
 <td valign="top">
 
- Includes read-write authorizations for trusted identity providers, role collections, roles and users. 
+ Manage authorizations, trusted identity providers, and users. 
 
 
 
@@ -1077,7 +1077,7 @@ Directory Viewer
 </td>
 <td valign="top">
 
- Includes read authorizations for trusted identity providers and users 
+ Read-only access for authorizations, trusted identity providers, and users. 
 
 
 

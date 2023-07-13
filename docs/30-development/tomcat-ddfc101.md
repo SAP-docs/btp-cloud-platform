@@ -2,14 +2,13 @@
 
 # Tomcat
 
-By default, web applications deployed with SAP Java Buildpack are running in an Apache Tomcat container.
+By default, web applications pushed with SAP Java Buildpack are running in an Apache Tomcat container.
 
 Applications can explicitly define the target application container by using the TARGET\_RUNTIME environment variable in the application's `manifest.yml` file.
 
-> ### Sample Code:  
-> manifest.yml
-> 
+> ### Example:  
 > ```
+> 
 > ---
 > applications:
 > - name: myapp
@@ -90,9 +89,9 @@ Java API for WebSocket 1.1
 
 ## Customizing the SAP Java Buildpack Defaults
 
-SAP Java Buildpack provides some default configurations for the Apache Tomcat application container, which can be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature.
+SAP Java Buildpack provides some default configurations for the Apache Tomcat application container. They can be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature.
 
-Below is a list of all of the placeholders that can be customized by the application, along with their default values:
+Below is a list of all the placeholders than can be customized by the application, along with their default values:
 
 
 <table>
@@ -122,7 +121,7 @@ Default Value
 <tr>
 <td valign="top">
 
- `connector.maxHttpHeaderSiz`e
+ `connector.maxHttpHeaderSize` 
 
 
 
@@ -217,7 +216,7 @@ env:
 
 ## Configure the maximum number of active sessions
 
-SAP Java Buildpack provides the default configurations for unlimited sessions for the Tomcat application container. They can be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature. To limit the number of active sessions, set the *maxActiveSessions* attribute on a *Manager* element. For example:
+SAP Java Buildpack provides the default configurations for unlimited sessions for the Apache Tomcat application container. They can be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature. To limit the number of active sessions, set the *maxActiveSessions* attribute on a *Manager* element. For example:
 
 > ### Example:  
 > ```
@@ -232,13 +231,14 @@ SAP Java Buildpack provides the default configurations for unlimited sessions fo
 
 ## Configure the session timeout value
 
-To set session timeout value of active sessions, set the *session-config* tag in the application's `web.xml` file:
+To set session timeout value of active sessions, set the *<session-config\>* tag in the application's `web.xml` file:
 
-```
-<session-config>
-    <session-timeout>1</session-timeout>
-</session-config>
-```
+> ### Example:  
+> ```
+> <session-config>
+>     <session-timeout>1</session-timeout>
+> </session-config>
+> ```
 
 
 
@@ -246,28 +246,30 @@ To set session timeout value of active sessions, set the *session-config* tag in
 
 ## Configure the context path attribute
 
-The default value of context path in `server.xml` is ***""*** \(Empty String\). You can override this default value by using `app_context_root` in the application's `manifest.yml` file. For example:
+The default value of context path in `server.xml` is ***""*** \(Empty String\). You can override this default value by using *app\_context\_root* in the application's `manifest.yml` file. For example:
 
-```
-...
-  env:
-    JBP_CONFIG_TOMCAT: "[tomcat:{app_context_root: test_context_path}]"
-...
-```
+> ### Example:  
+> ```
+> 
+> ...
+>   env:
+>     JBP_CONFIG_TOMCAT: "[tomcat:{app_context_root: test_context_path}]"
+> ...
+> ```
 
 
 
-<a name="loioddfc10180fe844049cc71f6989942dc2__section_czq_ffl_wxb"/>
+<a name="loioddfc10180fe844049cc71f6989942dc2__section_gz5_3ns_zxb"/>
 
 ## Configure the cookie processor
 
 In Tomcat 8.5.84, a custom cookie processor has been created, based on the RFC 6265 Cookie Processor. If the PROCESS\_COOKIE environment variable is set to **true**, then this new cookie processor will override the default one.
 
-**Reason**: In Tomcat Apache 8.5.84, the date format used with the **expires** attribute of HTTP cookies was corrected to be compliant with RFC 6265. A single space rather than a single dash is now used to separate the day, month, and year components. See: [Tomcat 8 Changelog](https://tomcat.apache.org/tomcat-8.5-doc/changelog.html)
+**Reason**: In Tomcat Apache 8.5.84, the date format used with the *expires* attribute of HTTP cookies was corrected to be compliant with RFC 6265. A single space rather than a single dash is now used to separate the day, month, and year components. See: [Tomcat 8 Changelog](https://tomcat.apache.org/tomcat-8.5-doc/changelog.html)
 
 The purpose of the new cookie processor is to set the *Cookie Expire* date to format with '-' \(*dash*\) delimiter instead of ' ' \(*space*\) so that no errors would be thrown.
 
-Sample error message when not using the new customization:
+Below is a sample error message thrown when **not** using the new customization:
 
 > ### Example:  
 > ```

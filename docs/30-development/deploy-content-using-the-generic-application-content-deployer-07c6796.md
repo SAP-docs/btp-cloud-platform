@@ -100,5 +100,5 @@ You can deploy your content to the HTML5 Application Repository using the GACD \
 **Related Information**  
 
 
-[Content Deployment](content-deployment-d3e2319.md "Direct content deployment provides a mechanism for deploying content to services without the need for an application-specific deployer.")
+[Deploying Content with Generic Application Content Deployment](deploying-content-with-generic-application-content-deployment-d3e2319.md "This approach provides a mechanism for direct content deployment from SAP Cloud Deployment service to the content backend without the need for an intermediate Cloud Foundry application.")
 

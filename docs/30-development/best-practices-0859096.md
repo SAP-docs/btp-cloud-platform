@@ -14,7 +14,7 @@ The following graphic offers an overview of the most important considerations to
 
 ## Development Options
 
-![](images/Image_Map_Best_Practives_Overview_a356b5a.png)
+![](images/Best_Practices_Overview_1_2_1936742.png)
 
 
 

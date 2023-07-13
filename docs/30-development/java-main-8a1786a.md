@@ -27,7 +27,7 @@ In this section, applications like this are referred as *Java Main applications*
 
 1.  Make sure your built JAR archive is configured properly.
 
-    Regardless of the tool you're using to build your Java application, you have to make sure that the following tasks are performed:
+    Regardless of the tool you use to build your Java application, you have to make sure that the following tasks are performed:
 
     1.  You have built a JAR archive.
 
@@ -48,7 +48,7 @@ In this section, applications like this are referred as *Java Main applications*
     3.  You have packaged all your dependent libraries in the JAR file, also known as creating an [uber JAR](https://maven.apache.org/plugins/maven-shade-plugin/examples/includes-excludes.html) or a *flat JAR*.
 
 
-    If you're using Maven as your build tool, you can use `maven-shade-plugin` to perform the above tasks.
+    If you are using Maven as your build tool, you can use the `maven-shade-plugin` to perform the above tasks.
 
     > ### Sample Code:  
     > Sample configuration for the `maven-shade-plugin`
@@ -97,7 +97,7 @@ In this section, applications like this are referred as *Java Main applications*
     > </build>
     > ```
 
-2.  Configure the `manifest.yml` file.
+2.  Configure the `manifest.yml`.
 
     To be able to push the Java Main application, you need to specify the path to the `.jar` archive in the `manifest.yml` file.
 
@@ -105,6 +105,7 @@ In this section, applications like this are referred as *Java Main applications*
     > manifest.yml
     > 
     > ```
+    > 
     > ---
     > applications:
     > - name: java-main
@@ -113,7 +114,7 @@ In this section, applications like this are referred as *Java Main applications*
     >   instances: 1
     > ```
 
-3.  \(Optional\) If you're using SAP HANA JDBC, we recommend that you include the dependent JAR files in the uber JAR. Then refer these files, as a space separated list, in the `Class-Path` header field of the MANIFEST.MF file. For example:
+3.  \(Optional\) If you use SAP HANA JDBC, we recommend that you include the dependent JAR files in the uber JAR. Then refer these files, as a space separated list, in the `Class-Path` header field of the MANIFEST.MF file. For example:
 
     > ### Sample Code:  
     > ```
@@ -129,9 +130,9 @@ In this section, applications like this are referred as *Java Main applications*
 
 
 
-To create a Java Main application that's using its own runtime, proceed as follows:
+To create a Java Main application that is using its own runtime, proceed as follows:
 
-1.  Create a *sample\_main* application. Use Spring Boot for that purpose.
+1.  Create an application, named *sample\_main*. Use Spring Boot for that purpose.
 
 2.  Navigate to the `sample_main` directory of the application, using the command line tool, and build it. To do that, execute:
 
@@ -143,9 +144,9 @@ To create a Java Main application that's using its own runtime, proceed as follo
 
 4.  Open the **sample\_main.jar** file and check that the `META-INF/MANIFEST.MF` file contains the `Main-Class` header, whose value is the name of the main class.
 
-5.  Add the path to the JAR file in the `manifest.yml` file.
+5.  Add the path to the JAR file in the **manifest.yml** file.
 
-    You need to do this to make sure that the application can be pushed to the Cloud Foundry environment. For that purpose, add the following line in the `manifest.yml` file:
+    You need to do this to make sure that the application can be pushed to the Cloud Foundry environment. For that purpose, add the following line in the **manifest.yml** file:
 
     ```
     path: ./target/sample_main.jar

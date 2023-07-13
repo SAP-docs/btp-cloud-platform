@@ -12,7 +12,8 @@ You can assign users groups to a role collection by adding them to the role coll
 
 ## Prerequisites
 
-You're using a custom identity provider. For more information, see [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md).
+-   You're using a custom identity provider. For more information, see [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md).
+
 
 
 

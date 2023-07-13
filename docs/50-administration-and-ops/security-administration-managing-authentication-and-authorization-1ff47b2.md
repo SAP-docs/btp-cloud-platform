@@ -185,6 +185,9 @@ SAP BTP cockpit
 </tr>
 </table>
 
+> ### Note:  
+> When users log on, their authorizations are stored in each user's current browser session. These authorizations are not dynamically updated and are removed from there only if the session is terminated or invalidated. This means that if you assign a role collection to a user, only the authorizations that are in their current token, apply. The user must log out and log on again to get a new token.
+
 **Related Information**  
 
 

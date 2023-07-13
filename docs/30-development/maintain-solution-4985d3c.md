@@ -23,6 +23,11 @@ In general, you \(as a provider\) can have multiple accounts, for example test o
 
 The consumer can now subscribe to the provider’s SaaS solution.
 
+> ### Caution:  
+> It is only allowed to deploy one app per space. If you are about to reuse an ID, the following message will be shown:
+> 
+> ![](images/CFspacemessage_3223f2d.png)
+
 
 
 ### Process Description

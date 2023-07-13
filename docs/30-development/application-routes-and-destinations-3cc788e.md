@@ -24,6 +24,11 @@ The application router is used to serve static content, propagates user informat
 
 A destination defines the back-end connectivity. In its simplest form, a destination is a URL to which requests are forwarded. There has to be a destination for every single app \(microservice\) that is a part of the business application.
 
+> ### Note:  
+> You must not use multiple destinations with the same URL in an application router user session!
+> 
+> The application router stores the session cookies from the backend services in a user session according to the destination URLs for the backend services. If there are multiple destinations with the same URL, the application router cannot correctly send back the cookies to the backend services. Note that to avoid conflicts, the destination URLs must have different domains. For more information, see [Sessions](application-router-configuration-c19f165.md#loioc19f165084d742e096c5d1625cecd2d4__section_session_handling).
+
 The destinations configuration can be provided by the destinations environment variable or by the destination service.
 
 

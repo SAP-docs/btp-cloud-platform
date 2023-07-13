@@ -98,7 +98,7 @@ applications:
 **Related Information**  
 
 
-[Tomcat](tomcat-ddfc101.md "By default, web applications deployed with SAP Java Buildpack are running in an Apache Tomcat container.")
+[Tomcat](tomcat-ddfc101.md "By default, web applications pushed with SAP Java Buildpack are running in an Apache Tomcat container.")
 
 [Java Main](java-main-8a1786a.md "You can create a Java application that starts its own runtime. This allows the usage of frameworks and Java runtimes, such as Spring Boot, Jetty, Undertow, or Netty.")
 

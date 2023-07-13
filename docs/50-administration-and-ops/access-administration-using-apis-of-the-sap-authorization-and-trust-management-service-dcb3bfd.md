@@ -57,7 +57,7 @@ Identity Provider Management
 </td>
 <td valign="top">
 
-Provides functions to manage identity providers in the Cloud Foundry environment.
+Provides functions to manage identity providers in in the Cloud Foundry environment.
 
 
 

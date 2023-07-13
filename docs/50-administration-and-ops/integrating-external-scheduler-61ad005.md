@@ -114,5 +114,5 @@ The details included in the response vary according to the type of operation. Fo
 
 ## Additional Information
 
-The link to the API on the `SAP API Business Hub`: [External Scheduler Integration](https://api.sap.com/api/BC_EXT_APPJOB_MANAGEMENT/overview).
+The link to the API on the SAP Business Accelerator Hub: [External Scheduler Integration](https://api.sap.com/api/BC_EXT_APPJOB_MANAGEMENT/overview).
 

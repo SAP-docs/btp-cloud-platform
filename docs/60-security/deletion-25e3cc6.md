@@ -25,6 +25,13 @@ For more information about deleting shadow users, see:
 
 -   [Delete Shadow Users for Data Protection and Privacy Using APIs](delete-shadow-users-for-data-protection-and-privacy-using-apis-eb70f16.md)
 
+    > ### Remember:  
+    > When you delete a user at the Cloud Foundry level, SAP BTP doesn’t delete the corresponding shadow user at the subaccount level.
+    > 
+    > When you delete a user at the subaccount level, ensure that you delete the user at the Cloud Foundry level too. Otherwise, if the Cloud Foundry user logs on again, the system automatically creates the corresponding user at the subaccount level.
+    > 
+    > So ensure that you delete the shadow users on all levels.
+
 
 For all other services which persist data, you can retrieve the data you stored with the same APIs, protocols, or languages which you used to store the data.
 

@@ -4,12 +4,11 @@
 
 By default, web applications deployed with SAP Java Buildpack are running in an Apache Tomcat container.
 
-Applications can explicitly define the target application container - Apache TomEE 7, by using the TARGET\_RUNTIME environment variable in the application's `manifest.yml` file.
+Applications can explicitly define the target application container by using the TARGET\_RUNTIME environment variable in the application's `manifest.yml` file
 
-> ### Sample Code:  
-> manifest.yml
-> 
+> ### Example:  
 > ```
+> 
 > ---
 > applications:
 > - name: myapp
@@ -61,7 +60,7 @@ tomee7
 </td>
 <td valign="top">
 
-Apache TomEE 7 \(Java EE 7 Web Profile\)
+Apache TomEE 7 \(*Java EE 7 Web Profile*\)
 
 
 
@@ -114,9 +113,9 @@ Contexts and Dependency Injection for Java EE platform 1.1
 
 ## Customizing the SAP Java Buildpack Defaults
 
-SAP Java Buildpack provides some default configurations for the Apache TomEE 7 application container, which can be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature.
+SAP Java Buildpack provides some default configurations for the Apache TomEE 7 application container. They can be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature.
 
-Below is a list of all of the placeholders that can be customized by the application, along with their default values:
+Below is a list of all the placeholders that can be customized by the application, along with their default values:
 
 
 <table>
@@ -241,7 +240,7 @@ env:
 
 ## Configure the maximum number of active sessions
 
-SAP Java Buildpack provides the default configurations for unlimited sessions for the TomEE 7 application containe. They can be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature. To limit the number of active sessions, set the *maxActiveSessions* attribute on a *Manager* element. For example:
+SAP Java Buildpack provides the default configurations for unlimited sessions for the Apache TomEE 7 application container. They can be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature. To limit the number of active sessions, set the *maxActiveSessions* attribute on a *Manager* element. For example:
 
 > ### Example:  
 > ```
@@ -256,13 +255,14 @@ SAP Java Buildpack provides the default configurations for unlimited sessions fo
 
 ## Configure the session timeout value
 
-To set session timeout value of active sessions, set the *session-config* tag in the application's `web.xml` file:
+To set session timeout value of active sessions, set the *<session-config\>* tag in the application's `web.xml` file:
 
-```
-<session-config>
-    <session-timeout>1</session-timeout>
-</session-config>
-```
+> ### Example:  
+> ```
+> <session-config>
+>     <session-timeout>1</session-timeout>
+> </session-config>
+> ```
 
 
 
@@ -272,10 +272,12 @@ To set session timeout value of active sessions, set the *session-config* tag in
 
 The default value of context path in `server.xml` is ***""*** \(Empty String\). You can override this default value by using `app_context_root` in the application's `manifest.yml` file. For example:
 
-```
-...
-  env:
-    JBP_CONFIG_TOMCAT: "[tomee7:{app_context_root: test_context_path}]"
-...
-```
+> ### Example:  
+> ```
+> 
+> ...
+>   env:
+>     JBP_CONFIG_TOMCAT: "[tomee7:{app_context_root: test_context_path}]"
+> ...
+> ```
 

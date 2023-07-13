@@ -20,7 +20,10 @@ You have created an ABAP Cloud project and a package in ABAP Development Tools.
 
 ## Context
 
-With the class you define the metric model and measurement.
+With the class, you define the metric model and measurement.
+
+> ### Note:  
+> For code samples, see [https://github.com/SAP-samples/abap-platform-ops](https://github.com/SAP-samples/abap-platform-ops).
 
 
 

@@ -29,7 +29,7 @@ In scenarios where your SAP BTP application interacts with applications that don
 
 Imagine you have an on-premise SAP system that trusts your corporate provider. You want to access data in that system from an application on SAP BTP. Your application can get a token from SAP Authorization and Trust Management service, but you don't want to or can't configure your SAP system to trust that token.
 
-In this scenario, you can configure the SAP Authorization and Trust Management service to embed the token of a corporate identity provider trusted by the trusted Identity Authentication tenant. In this example, when the SAP BTP application makes a service call to the Cloud Connector proxy, SAP Authorization and Trust Management service gets a fresh token from the identity provider. Cloud Connector extracts the token for your application and presents it to the on-premise SAP system.
+In this scenario, configure the SAP Authorization and Trust Management service to embed the token of a corporate identity provider trusted by the trusted Identity Authentication tenant. In this example, before the SAP BTP application makes a service call to the Cloud Connector proxy, the application calls SAP Authorization and Trust Management service to exchange its current token for a new token that embeds a token from the identity provider. Cloud Connector presents the identity provider token to the on-premise SAP system.
 
 The following figure illustrates this scenario.
 
@@ -105,7 +105,7 @@ The following figure illustrates this scenario.
 
 2.  In the Identity Authentication application that represents your SAP BTP application, add the default attribute `xsuaa-persist-corporate-idp-token` with the value `true`.
 
-    This attribute ensure that the service knows to embed the tokens.
+    This attribute ensures that the service knows to embed the tokens.
 
     For more information, see [Configure the Default Attributes Sent to the Application](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/a2f1e4692e7d4379ab82144ab309e7b3.html) in the Identity Authentication documentation.
 

@@ -1,16 +1,16 @@
 <!-- loio54dd7126d5b74efeb7a21f6b0bfe5f1a -->
 
-# ABAP Development Tools for Eclipse \(ADT\)
+# ABAP Development Tools for Eclipse
 
-ABAP development tools for Eclipse \(ADT\) is SAP’s state-of-the-art integrated development environment \(IDE\) for ABAP development on the open Eclipse platform.
+ABAP development tools for Eclipse is SAP’s state-of-the-art integrated development environment \(IDE\) for ABAP development on the open Eclipse platform.
 
 
 
 ## Features
 
-ADT enables you to perform ABAP-based development tasks, when you want to build, to extend, and to run ABAP applications based on SAP products, such as SAP S/4HANA and SAP S/4HANA Cloud, private edition for classic ABAP development as well as SAP BTP, ABAP environment and SAP S/4HANA Cloud for Cloud development.
+ABAP development tools for Eclipse enables you to perform ABAP-based development tasks, when you want to build, to extend, and to run ABAP applications based on SAP products, such as SAP S/4HANA and SAP S/4HANA Cloud, private edition for classic ABAP development as well as SAP BTP, ABAP environment and SAP S/4HANA Cloud for Cloud development.
 
-ADT supports ABAP developers with the following possibilities:
+ABAP development tools for Eclipse supports ABAP developers with the following possibilities:
 
 -   Highly flexible, customizable Eclipse UI for ABAP development tools
 
@@ -27,7 +27,7 @@ ADT supports ABAP developers with the following possibilities:
 -   Built-in extensibility of the IDE using the established Eclipse plug-in technology
 
 
-In particular, ADT is a modern development toolset where ABAP developers can use, for example the following features:
+In particular, ABAP development tools for Eclipse is a modern development toolset where ABAP developers can use, for example the following features:
 
 -   Syntax check
 
@@ -64,19 +64,19 @@ The [ABAP for SAP HANA Development Tools: User Guide](https://help.sap.com/docs/
 
 ## Release Notes
 
-ADT is released to customers in combination with the SAP BTP ABAP environment shipments. Documentation in the context of ABAP Platform will be shipped in accordance with the relevant SAP product shipments.
+ABAP development tools for Eclipse is released to customers in combination with the SAP BTP ABAP environment shipments. Documentation in the context of ABAP Platform will be shipped in accordance with the relevant SAP product shipments.
 
-The ADT release notes are a general overview of the most significant changes relating to ABAP Development Tools \(ADT\) features in the context of ABAP development and the ABAP programming models.
+The release notes are a general overview of the most significant changes relating to features of ABAP development tools for Eclipse in the context of ABAP development and the ABAP programming models.
 
-For more information, see [Release Notes of ABAP Development Tools](https://help.sap.com/docs/btp/sap-abap-development-tools-release-notes/release-notes-of-abap-development-tools?version=Cloud)
+For more information, see [Release Notes of ABAP Development Tools for Eclipse](https://help.sap.com/docs/btp/sap-abap-development-tools-release-notes/release-notes-of-abap-development-tools?version=Cloud)
 
 
 
 <a name="loio54dd7126d5b74efeb7a21f6b0bfe5f1a__section_kc5_5rh_3xb"/>
 
-## FAQs for ADT
+## FAQs
 
-If you are an `SE80` expert and new to ADT, the frequently asked questions \(FAQs\) enable you to skim the features you want to perform in ADT.
+If you are an `SE80` expert and new to ABAP development tools for Eclipse, the frequently asked questions \(FAQs\) enable you to skim the features you want to perform in ADT.
 
 For more information, see [FAQs for SE80 Experts Using ADT](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/bd5c5b75eeab4b7892eff1e1abce7485.html)
 
@@ -84,11 +84,11 @@ For more information, see [FAQs for SE80 Experts Using ADT](https://help.sap.com
 
 ## Installation
 
-To install ABAP Development Tools, follow the [Installation Guide](https://help.sap.com/doc/2e9cf4a457d84c7a81f33d8c3fdd9694/LATEST/en-US/inst_guide_abap_development_tools.pdf). Alternatively, you may get ABAP Development Tools from the[SAP Development Tools](https://tools.hana.ondemand.com/#abap) page under the terms of the [SAP DEVELOPER LICENSE AGREEMENT](https://tools.hana.ondemand.com/developer-license-3_1.txt).
+To install ABAP development tools for Eclipse, follow the [Installation Guide](https://help.sap.com/doc/2e9cf4a457d84c7a81f33d8c3fdd9694/LATEST/en-US/inst_guide_abap_development_tools.pdf). Alternatively, you may get ABAP development tools for Eclipse from the[SAP Development Tools](https://tools.hana.ondemand.com/#abap) page under the terms of the [SAP DEVELOPER LICENSE AGREEMENT](https://tools.hana.ondemand.com/developer-license-3_1.txt).
 
 
 
 ## Support
 
-The use of ABAP Development Tools \(ADT\) is subject to the terms and conditions of your license agreement with SAP which is directly related to the SAP shipment channel from which ABAP Development Tools was initially downloaded and installed.
+The use of ABAP development tools for Eclipse is subject to the terms and conditions of your license agreement with SAP which is directly related to the SAP shipment channel from whichABAP development tools for Eclipse was initially downloaded and installed.
 

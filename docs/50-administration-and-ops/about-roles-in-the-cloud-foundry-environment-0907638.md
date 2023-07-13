@@ -48,14 +48,9 @@ Org Manager
 
 
 </td>
-<td valign="top" rowspan="3">
+<td valign="top">
 
-See [https://docs.cloudfoundry.org/concepts/roles.html\#orgs](https://docs.cloudfoundry.org/concepts/roles.html#orgs).
-
-> ### Note:  
-> Managing members and roles for an organization takes place on the navigation level of the subaccount to which the organization is assigned.
-
-Cloud Foundry assigns members of orgs and spaces the `Org User` role implicitly even if the user has no other role. SAP BTP cockpit doesn't show this role assignment.
+Manages the organization.
 
 
 
@@ -69,11 +64,34 @@ Org Auditor
 
 
 </td>
+<td valign="top">
+
+Provides read-only access to user information and org quota usage information.
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
 
 Org User
+
+
+
+</td>
+<td valign="top">
+
+Provides read-only access to the list of other organization users and their roles.
+
+> ### Note:  
+> When creating a space member, the Org User role is always one of the assigned organization roles. When creating an organization member, you can choose one or more of the following roles:
+> 
+> -   Org Manager
+> 
+> -   Org User
+> 
+> -   Org Auditor
 
 
 
@@ -94,15 +112,9 @@ Space Manager
 
 
 </td>
-<td valign="top" rowspan="4">
+<td valign="top">
 
-See [https://docs.cloudfoundry.org/concepts/roles.html\#spaces](https://docs.cloudfoundry.org/concepts/roles.html#spaces).
-
-> ### Caution:  
-> The `Space Developer` role has broad rights within Cloud Foundry and, in particular, has access to the credentials used in various services and app bindings as well as other sensitive data. For more information, see [Giving Access Rights to Platform Users](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/a03d08e4038b46d480c410395593bbd2.html "If you&apos;ve set up a staged development environment using different subaccounts or spaces, such as for development, testing, and production, we recommend that you grant the Cloud Development Team access to development subaccounts and spaces, but that you grant only the Platform Engineering Team access to the testing and production subaccounts or spaces.") :arrow_upper_right:.
-
-> ### Note:  
-> To add the Space Supporter role using the `set-space-role` command, you need to have installed version 8 of the Cloud Foundry Command Line Interface \(cf CLI\). See [https://docs.cloudfoundry.org/cf-cli/install-go-cli.html](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html).
+Manages a space within an organization.
 
 
 
@@ -116,11 +128,28 @@ Space Developer
 
 
 </td>
+<td valign="top">
+
+Manages applications, services, and space-scoped service brokers in a space.
+
+> ### Caution:  
+> The Space Developer role has broad rights within Cloud Foundry and, in particular, has access to the credentials used in various services and app bindings as well as other sensitive data. For more information, see [Giving Access Rights to Platform Users](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/a03d08e4038b46d480c410395593bbd2.html "If you&apos;ve set up a staged development environment using different subaccounts or spaces, such as for development, testing, and production, we recommend that you grant the Cloud Development Team access to development subaccounts and spaces, but that you grant only the Platform Engineering Team access to the testing and production subaccounts or spaces.") :arrow_upper_right:.
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
 
 Space Auditor
+
+
+
+</td>
+<td valign="top">
+
+Provides read-only access to a space.
 
 
 
@@ -134,8 +163,23 @@ Space Supporter
 
 
 </td>
+<td valign="top">
+
+Allows you to troubleshoot and debug applications and service bindings in a space.
+
+> ### Note:  
+> To add the Space Supporter role using the `set-space-role` command, you need to have installed version 8 of the Cloud Foundry Command Line Interface \(cf CLI\). See [https://docs.cloudfoundry.org/cf-cli/install-go-cli.html](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html).
+
+
+
+</td>
 </tr>
 </table>
+
+> ### Note:  
+> Managing members and roles for an organization takes place on the navigation level of the subaccount to which the organization is assigned.
+
+For more information about organization and space roles in Cloud Foundry, see [https://docs.cloudfoundry.org/concepts/roles.html](https://docs.cloudfoundry.org/concepts/roles.html).
 
 **Related Information**  
 

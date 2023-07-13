@@ -1,17 +1,12 @@
-<!-- loiodfca1d3ff19240f5ad6b88bc935515f4 -->
+<!-- loio168dd7528a784595b16388403cddd1a2 -->
 
-# Managing Signing Keys for Access Tokens
+# Managing Security Settings
 
-Use the SAP BTP command line interface \(btp CLI\) to manage signing keys for access tokens in the subaccount.
+Use the SAP BTP command line interface \(btp CLI\) to display and update the security settings for the global account or subaccount.
 
-You can create a new signing key for access tokens.
+The security settings comprise configuration settings, such as information about signing keys, URLs for cross origin resource sharing or iframing, and about bindings.
 
-> ### Note:  
-> The newly created key only becomes active once you enable it. The number of keys is restricted to 2 per subaccount.
-
-When a signing key is enabled, all newly requested tokens are signed with this key and the existing signing key is disabled. It's also possible to list all signing keys, no matter whether they're enabled or disabled. You can also delete a disabled signing key.
-
-For more information, see [**Rotate Signing Keys of Access Tokens**](https://help.sap.com/docs/CP_AUTHORIZ_TRUST_MNG/ae8e8427ecdf407790d96dad93b5f723/b279adf3ec134b2a8611a42bff1ee9d9.html).
+For more information, see [Configure Trusted Domains for SAP Authorization and Trust Management Service \[Feature Set B\]](configure-trusted-domains-for-sap-authorization-and-trust-management-service-feature-se-c5e9972.md) and [Configure Token Policy for SAP Authorization and Trust Management Service](configure-token-policy-for-sap-authorization-and-trust-management-service-40290a9.md).
 
 
 <table>
@@ -41,44 +36,21 @@ Command help
 <tr>
 <td valign="top">
 
-Create a new signing key for access tokens
+Show the security settings of a global account or subaccount
 
 
 
 </td>
 <td valign="top">
 
-`btp create security/token-key`
+`btp list security/settings`
 
 
 
 </td>
 <td valign="top">
 
-[https://help.sap.com/docs/BTP/btp-cli/btp-create-security-token-key.html](https://help.sap.com/docs/BTP/btp-cli/btp-create-security-token-key.html)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Enable an existing key as signing key for access tokens
-
-
-
-</td>
-<td valign="top">
-
-`btp enable security/token-key`
-
-
-
-</td>
-<td valign="top">
-
-[https://help.sap.com/docs/BTP/btp-cli/btp-enable-security-token-key.html](https://help.sap.com/docs/BTP/btp-cli/btp-enable-security-token-key.html)
+[https://help.sap.com/docs/BTP/btp-cli/btp-list-security-settings.html](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-settings.html)
 
 
 
@@ -87,44 +59,21 @@ Enable an existing key as signing key for access tokens
 <tr>
 <td valign="top">
 
-Delete a disabled signing key for access tokens
+Update the security settings of a global account or subaccount
 
 
 
 </td>
 <td valign="top">
 
-`btp delete security/token-key` 
+`btp update security/settings`
 
 
 
 </td>
 <td valign="top">
 
-[https://help.sap.com/docs/BTP/btp-cli/btp-delete-security-token-key.html](https://help.sap.com/docs/BTP/btp-cli/btp-delete-security-token-key.html)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-List the existing signing keys for access tokens and indicates which key is currently enabled
-
-
-
-</td>
-<td valign="top">
-
-`btp list security/token-key`
-
-
-
-</td>
-<td valign="top">
-
-[https://help.sap.com/docs/BTP/btp-cli/btp-list-security-token-key.html](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-token-key.html)
+[https://help.sap.com/docs/BTP/btp-cli/btp-update-security-settings.html](https://help.sap.com/docs/BTP/btp-cli/btp-update-security-settings.html)
 
 
 
@@ -149,7 +98,7 @@ List the existing signing keys for access tokens and indicates which key is curr
 
 [Managing Users and Their Authorizations Using the btp CLI](managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md "User authorizations are managed by assigning role collections to users (for example, Subaccount Administrator). Use the SAP BTP command-line interface (btp CLI) to manage roles and role collections, and to assign role collections to users.")
 
-[Managing Security Settings](managing-security-settings-168dd75.md "Use the SAP BTP command line interface (btp CLI) to display and update the security settings for the global account or subaccount.")
+[Managing Signing Keys for Access Tokens](managing-signing-keys-for-access-tokens-dfca1d3.md "Use the SAP BTP command line interface (btp CLI) to manage signing keys for access tokens in the subaccount.")
 
 [Working With Resources of the SAP Service Manager Using the btp CLI](working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md "Use the SAP BTP command line interface to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.")
 

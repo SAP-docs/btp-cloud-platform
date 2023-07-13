@@ -30,7 +30,7 @@ You want to use a custom identity provider for the platform users of SAP BTP in 
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
-Platform users perform technical development, deployment, and administration tasks. For example, they perform subaccount administration in the SAP BTP cockpit or access the Cloud Foundry Command Line Interface \(CF CLI\). By hosting these users in your own identity provider, you gain a number of advantages over hosting them in the default identity provider.
+Platform users perform technical development, deployment, and administration tasks. For example, they perform subaccount administration in the SAP BTP cockpit or access the Cloud Foundry command line interface \(CF CLI\). By hosting these users in your own identity provider, you gain a number of advantages over hosting them in the default identity provider.
 
 -   Integrate the management of these users with your corporate identity management strategy, hosted on your own identity providers. You control your own user lifecycle and single sign-on strategies throughout the entire landscape.
 
@@ -118,7 +118,7 @@ You've configured trust in your tenant of the Identity Authentication service, w
 
     For more information, see [Corporate Identity Provider](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/19f3eca47db643b6aad448b5dc1075ad.html) in the documentation for the Identity Authentication service.
 
--   Work in the SAP BTP Command Line Interface \(btp CLI\).
+-   Work in the SAP BTP command line interface \(btp CLI\).
 
     To log on to a global account, you need to provide the hostname of the tenant \(for example, *ar9ibaxhm*\) with the `--idp` parameter. See [Log in with a Custom Identity Provider](log-in-with-a-custom-identity-provider-e48e486.md).
 
@@ -126,7 +126,9 @@ You've configured trust in your tenant of the Identity Authentication service, w
 
     Both values can be found in the cockpit under *Security* → *Trust Configuration* → *Custom Platform Identity Providers*.
 
--   Work in the Cloud Foundry Command Line Interface \(CF CLI\).
+    As an administrator, you want to determine which of the Identity Authentication tenants' domains SAP BTP should use for platform user logon. For this reason, you specify a custom domain for an Identity Authentication tenant. You can use the `btp update security/trust` command and specify the domain in the `--domain` parameter.
+
+-   Work in the Cloud Foundry command line interface \(CF CLI\).
 
     For more information, see [Log On with a Custom Identity Provider to the Cloud Foundry Environment Using the Cloud Foundry Command-Line Interface](log-on-with-a-custom-identity-provider-to-the-cloud-foundry-environment-using-the-cloud-d477618.md).
 
