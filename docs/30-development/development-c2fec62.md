@@ -72,7 +72,7 @@ ABAP
 -   Built-in zero downtime infrastructure
 -   Support for CAP – an opinionated business app development framework
 -   More flexible with Kubernetes
--   Support for CAP – an opinionated business app development framework
+
 
 
 
