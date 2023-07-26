@@ -20,7 +20,7 @@ Your subaccount is subscribed to a multitenant application in the Cloud Foundry 
 
 You can use any SAML 2.0 standard compliant identity provider. See [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md).
 
- <a name="task_fqg_rdl_3cb"/>
+<a name="task_fqg_rdl_3cb"/>
 
 <!-- task\_fqg\_rdl\_3cb -->
 
@@ -44,7 +44,7 @@ You can use any SAML 2.0 standard compliant identity provider. See [Trust and Fe
     > You can also manage roles without opening the application overview page, by selecting the three dots at the end of the application row. Choose *Manage Roles* from the drop-down menu.
 
 
- <a name="task_vvv_12l_3cb"/>
+<a name="task_vvv_12l_3cb"/>
 
 <!-- task\_vvv\_12l\_3cb -->
 

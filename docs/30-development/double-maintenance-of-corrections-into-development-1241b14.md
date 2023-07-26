@@ -4,9 +4,6 @@
 
 For corrections, double maintenance is necessary so that everything that had to be fixed during release testing or usage can be retrofitted into the development system.
 
-> ### Caution:  
-> Missing double maintenance can lead to data loss in production systems.
-
 As there is no selective picking of transport requests to merge corrections back into the main branch, this is manual effort.
 
 You can use the *Compare Editor* in ABAP Development Tools for Eclipse to merge corrections back to the main branch.

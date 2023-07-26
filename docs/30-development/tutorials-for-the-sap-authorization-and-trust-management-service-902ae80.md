@@ -48,7 +48,7 @@ Node.js
 </td>
 <td valign="top">
 
- [SAP Developers](https://developers.sap.com/tutorials/cp-cf-security-xsuaa-create.html) 
+[SAP Developers](https://developers.sap.com/tutorials/cp-cf-security-xsuaa-create.html) 
 
 
 
@@ -71,7 +71,7 @@ Java, SAP Cloud SDK
 </td>
 <td valign="top">
 
- [SAP Developers](https://developers.sap.com/tutorials/s4sdk-secure-cloudfoundry.html) 
+[SAP Developers](https://developers.sap.com/tutorials/s4sdk-secure-cloudfoundry.html) 
 
 
 
@@ -94,7 +94,7 @@ Spring \(Boot\)
 </td>
 <td valign="top">
 
- [GitHub](https://github.com/SAP/cloud-security-xsuaa-integration/tree/master/samples/spring-security-xsuaa-usage) 
+[GitHub](https://github.com/SAP/cloud-security-xsuaa-integration/tree/master/samples/spring-security-xsuaa-usage) 
 
 
 
@@ -117,7 +117,7 @@ Node.js
 </td>
 <td valign="top">
 
- [SAP Developers](https://developers.sap.com/tutorials/cp-cf-security-xsuaa-multi-tenant.html) 
+[SAP Developers](https://developers.sap.com/tutorials/cp-cf-security-xsuaa-multi-tenant.html) 
 
 
 
@@ -165,7 +165,7 @@ Node.js
 </td>
 <td valign="top">
 
- [GitHub](https://github.com/SAP-samples/cloud-nodejs-oflm#readme) 
+[GitHub](https://github.com/SAP-samples/cloud-nodejs-oflm#readme) 
 
 
 
@@ -188,7 +188,7 @@ Java
 </td>
 <td valign="top">
 
- [GitHub](https://github.com/SAP/cloud-security-xsuaa-integration/tree/master/samples/java-security-usage) 
+[GitHub](https://github.com/SAP/cloud-security-xsuaa-integration/tree/master/samples/java-security-usage) 
 
 
 
@@ -211,7 +211,7 @@ Java
 </td>
 <td valign="top">
 
- [GitHub](https://github.com/SAP-samples/cloud-espm-cloud-native#security-implementation) 
+[GitHub](https://github.com/SAP-samples/cloud-espm-cloud-native#security-implementation) 
 
 
 

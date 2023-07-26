@@ -28,7 +28,7 @@ To be able to make calls to the SAP SuccessFactors OData APIs with user propagat
 
 [Consuming the Destination Service \(Cloud Foundry Environment\)](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/7e306250e08340f89d6c103e28840f30.html)
 
- <a name="loioe76681718c074250b5fe4f0e9cd6b989"/>
+<a name="loioe76681718c074250b5fe4f0e9cd6b989"/>
 
 <!-- loioe76681718c074250b5fe4f0e9cd6b989 -->
 
@@ -47,7 +47,7 @@ To be able to make calls to the SAP SuccessFactors OData APIs with user propagat
 4.  Open the certificate in a text editor and copy the content between *\-----BEGIN CERTIFICATE-----* and *\-----END CERTIFICATE-----*.
 
 
- <a name="loio868a6652aa3543b89d3776936a9c6455"/>
+<a name="loio868a6652aa3543b89d3776936a9c6455"/>
 
 <!-- loio868a6652aa3543b89d3776936a9c6455 -->
 
@@ -70,7 +70,7 @@ To be able to make calls to the SAP SuccessFactors OData APIs with user propagat
 6.  Choose *Register* to save the OAuth client.
 
 
- <a name="loioc259878c79a64f6ba6c5b585bae9f88b"/>
+<a name="loioc259878c79a64f6ba6c5b585bae9f88b"/>
 
 <!-- loioc259878c79a64f6ba6c5b585bae9f88b -->
 
@@ -109,14 +109,14 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     <tr>
     <td valign="top">
     
-        *Name*
+    *Name*
 
 
     
     </td>
     <td valign="top">
     
-        Enter a name for the destination.
+    Enter a name for the destination.
 
     For example, `sap_hcmcloud_core_odata`.
 
@@ -127,30 +127,14 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     <tr>
     <td valign="top">
     
-        *Type*
+    *Type*
 
 
     
     </td>
     <td valign="top">
     
-        HTTP
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *URL*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Enter the URL of the SAP SuccessFactors OData API you want to consume. For a list of the API Endpoint URL for the SAP SuccessFactors environments, see [About HXM Suite OData APIs](https://help.sap.com/viewer/28bc3c8e3f214ab487ec51b1b8709adc/LATEST/en-US/03e1fc3791684367a6a76a614a2916de.html).
+    HTTP
 
 
     
@@ -159,30 +143,14 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     <tr>
     <td valign="top">
     
-        *Proxy Type*
+    *URL*
 
 
     
     </td>
     <td valign="top">
     
-        Internet
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Authentication*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        OAuth2SAMLBearerAssertion
+    Enter the URL of the SAP SuccessFactors OData API you want to consume. For a list of the API Endpoint URL for the SAP SuccessFactors environments, see [About HXM Suite OData APIs](https://help.sap.com/viewer/28bc3c8e3f214ab487ec51b1b8709adc/LATEST/en-US/03e1fc3791684367a6a76a614a2916de.html).
 
 
     
@@ -191,30 +159,14 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     <tr>
     <td valign="top">
     
-        *Audience*
+    *Proxy Type*
 
 
     
     </td>
     <td valign="top">
     
-        www.successfactors.com
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *AuthnContextClassRef*
-
-
-    
-    </td>
-    <td valign="top">
-    
-         `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession` 
+    Internet
 
 
     
@@ -223,14 +175,14 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     <tr>
     <td valign="top">
     
-        *Client Key*
+    *Authentication*
 
 
     
     </td>
     <td valign="top">
     
-        Enter the API Key of the OAuth client you created in SAP SuccessFactors.
+    OAuth2SAMLBearerAssertion
 
 
     
@@ -239,14 +191,62 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     <tr>
     <td valign="top">
     
-        *Token Service URL*
+    *Audience*
 
 
     
     </td>
     <td valign="top">
     
-        Enter the API Endpoint URL for the SAP SuccessFactors instance followed by `/oauth/token`. For example, `https://apisalesdemo2.successfactors.eu/oauth/token`.
+    www.successfactors.com
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *AuthnContextClassRef*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession` 
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Client Key*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Enter the API Key of the OAuth client you created in SAP SuccessFactors.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Token Service URL*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Enter the API Endpoint URL for the SAP SuccessFactors instance followed by `/oauth/token`. For example, `https://apisalesdemo2.successfactors.eu/oauth/token`.
 
     For a list of the API Endpoint URL for the SAP SuccessFactors environments, see [About HXM Suite OData APIs](https://help.sap.com/viewer/28bc3c8e3f214ab487ec51b1b8709adc/LATEST/en-US/03e1fc3791684367a6a76a614a2916de.html).
 
@@ -279,14 +279,14 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     <tr>
     <td valign="top">
     
-        *apiKey*
+    *apiKey*
 
 
     
     </td>
     <td valign="top">
     
-        Enter the API Key of the OAuth client you created in SAP SuccessFactors.
+    Enter the API Key of the OAuth client you created in SAP SuccessFactors.
 
 
     
@@ -295,14 +295,14 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     <tr>
     <td valign="top">
     
-        \(Deprecated\) *SystemUser*
+    \(Deprecated\) *SystemUser*
 
 
     
     </td>
     <td valign="top">
     
-        The technical user for an OData access with SAML 2.0 Bearer Assertion authentication with technical user.
+    The technical user for an OData access with SAML 2.0 Bearer Assertion authentication with technical user.
 
     Specify a value for this setting if you want to configure OData access with SAML 2.0 Bearer Assertion authentication with technical user.
 
@@ -318,14 +318,14 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     <tr>
     <td valign="top">
     
-        *companyId*
+    *companyId*
 
 
     
     </td>
     <td valign="top">
     
-        The ID of your SAP SuccessFactors company.
+    The ID of your SAP SuccessFactors company.
 
 
     
@@ -334,14 +334,14 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     <tr>
     <td valign="top">
     
-        *nameIdFormat*
+    *nameIdFormat*
 
 
     
     </td>
     <td valign="top">
     
-        `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified` if the user ID will be propagated to SAP SuccessFactors application
+    `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified` if the user ID will be propagated to SAP SuccessFactors application
 
     or
 
@@ -378,30 +378,14 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     <tr>
     <td valign="top">
     
-        *WebIDEUsage*
+    *WebIDEUsage*
 
 
     
     </td>
     <td valign="top">
     
-        Specify this property with value `odata_gen` to consume an OData service in your application.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *WebIDEEnabled*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
+    Specify this property with value `odata_gen` to consume an OData service in your application.
 
 
     
@@ -410,14 +394,14 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     <tr>
     <td valign="top">
     
-        *HTML5.DynamicDestination*
+    *WebIDEEnabled*
 
 
     
     </td>
     <td valign="top">
     
-        If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
+    If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
 
 
     
@@ -426,14 +410,30 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
     <tr>
     <td valign="top">
     
-        *product.name*
+    *HTML5.DynamicDestination*
 
 
     
     </td>
     <td valign="top">
     
-        `SAP SuccessFactors`
+    If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *product.name*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    `SAP SuccessFactors`
 
     The type of the SAP System for which you create this HTTP destination.
 
@@ -446,7 +446,7 @@ You create an HTTP destination to be able to make calls to the SAP SuccessFactor
 6.  Save the changes.
 
 
- <a name="loio528d9ae5e6e4495cbd65514294f3994a"/>
+<a name="loio528d9ae5e6e4495cbd65514294f3994a"/>
 
 <!-- loio528d9ae5e6e4495cbd65514294f3994a -->
 

@@ -50,7 +50,7 @@ Description
 <tr>
 <td valign="top">
 
- `source` 
+`source` 
 
 
 
@@ -85,7 +85,7 @@ A request matches a particular route when its path contains the given pattern. T
 <tr>
 <td valign="top">
 
- <code><a href="routes-666eb55.md#loio666eb55032d849beabb906b18712509b__section_httpMethods">httpMethods</a></code> 
+<code><a href="routes-666eb55.md#loio666eb55032d849beabb906b18712509b__section_httpMethods">httpMethods</a></code> 
 
 
 
@@ -118,7 +118,7 @@ HTTP methods that are served by this route; the supported methods are: `DELETE`,
 <tr>
 <td valign="top">
 
- `target` 
+`target` 
 
 
 
@@ -148,7 +148,7 @@ Defines how the incoming request path is rewritten for the corresponding destina
 <tr>
 <td valign="top">
 
- `destination` 
+`destination` 
 
 
 
@@ -240,7 +240,7 @@ The name of the endpoint within the service to which the incoming request is for
 <tr>
 <td valign="top">
 
- <code><a href="routes-666eb55.md#loio666eb55032d849beabb906b18712509b__section_localDir">localDir</a></code> 
+<code><a href="routes-666eb55.md#loio666eb55032d849beabb906b18712509b__section_localDir">localDir</a></code> 
 
 
 
@@ -300,7 +300,7 @@ Defines from which subaccount the destination is retrieved. If`preferLocal` is t
 <tr>
 <td valign="top">
 
- <code><a href="routes-666eb55.md#loio666eb55032d849beabb906b18712509b__section_replace">replace</a></code> 
+<code><a href="routes-666eb55.md#loio666eb55032d849beabb906b18712509b__section_replace">replace</a></code> 
 
 
 
@@ -371,7 +371,7 @@ If the value `none` is used, no authentication is required for this route.
 <tr>
 <td valign="top">
 
- `csrfProtection` 
+`csrfProtection` 
 
 
 
@@ -710,7 +710,7 @@ Description
 <tr>
 <td valign="top">
 
- `pathSuffixes` 
+`pathSuffixes` 
 
 
 
@@ -733,7 +733,7 @@ An array defining the path suffixes that are relative to `localDir`. Only files 
 <tr>
 <td valign="top">
 
- `vars` 
+`vars` 
 
 
 
@@ -829,7 +829,7 @@ Result
 <tr>
 <td valign="top">
 
- `{ "pathSuffixes": [".html"] }` 
+`{ "pathSuffixes": [".html"] }` 
 
 
 
@@ -845,7 +845,7 @@ All files with the extension `.html` under `localDir` and its subfolders are pro
 <tr>
 <td valign="top">
 
- `{ "pathSuffixes": ["/abc/main.html", "some.html"] }` 
+`{ "pathSuffixes": ["/abc/main.html", "some.html"] }` 
 
 
 
@@ -863,7 +863,7 @@ For the suffix `some.html`, all files with a name that ends with â€œ`some.html`â
 <tr>
 <td valign="top">
 
- `{ "pathSuffixes": [".html"] }` 
+`{ "pathSuffixes": [".html"] }` 
 
 
 
@@ -1091,7 +1091,7 @@ In the setup above, `GET` requests will be routed to `"dest-1"`, and all the res
 
 An application specific scope uses the following format:
 
- `<application-name>.<scope-name>` 
+`<application-name>.<scope-name>` 
 
 It is possible to configure what scope the user needs to possess in order to access a specific resource. Those configurations are per route. The user should have at least one of the scopes in order to access the corresponding resource.
 

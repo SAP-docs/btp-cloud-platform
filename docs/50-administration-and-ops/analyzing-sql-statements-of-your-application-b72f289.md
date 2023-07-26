@@ -29,7 +29,7 @@ During developing and operating applications on your ABAP environment, these sit
 
         This opens the *SQL Trace Analysis* screen of the technical monitoring cockpit.
 
-        ![](images/SQL_Trace_Directory_a274f4d.png) 
+        ![](images/SQL_Trace_Directory_a274f4d.png)
 
 
 2.  On the *Trace Directory* tab page of the SQL trace analysis, choose the new trace you just took.

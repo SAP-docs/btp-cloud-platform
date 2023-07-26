@@ -34,24 +34,24 @@ You have one of the following configurations:
 
     For this case, you don't change the architecture, only the protocol between the subaccount and the Identity Authentication tenant. If you use a corporate identity provider, configure the new Identity Authentication application to authenticate with it.
 
-       
+      
       
     **Update of Existing Trust Configuration for Identity Authentication**
 
-     ![](images/IAS_protocol_switch_a732ec6.png "Update of Existing Trust Configuration for Identity
-                                    Authentication") 
+    ![](images/IAS_protocol_switch_a732ec6.png "Update of Existing Trust Configuration for Identity
+                                    Authentication")
 
 -   You've connected your corporate identity provider directly with your subaccount as the trusted identity provider with SAML.
 
     For this case, you insert trust to Identity Authentication in between and configure Identity Authentication as a proxy for your corporate identity provider.
 
-       
+      
       
     **Insertion of Identity Authentication in Trust Chain of Identity Providers**
 
-     ![](images/Injection_of_IAS_Between_Corp_IDP_db96a95.png "Insertion of Identity
+    ![](images/Injection_of_IAS_Between_Corp_IDP_db96a95.png "Insertion of Identity
                                     Authentication in Trust Chain of Identity
-    							Providers") 
+    							Providers")
 
 
 

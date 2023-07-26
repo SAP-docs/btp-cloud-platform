@@ -12,9 +12,9 @@ With this app, business process configuration experts can keep track of content 
 
 ## Access Information
 
-To access the app, you need to have the following business catalog assigned to your user: `SAP_CA_BC_IC_LND_PC` - customizing - business configuration.
+To access the app, you need to have the following business catalog assigned to your user: `SAP_CORE_BC_BCT_LOG_PC` - Business Configuration - Change Logs.
 
-This business catalog is available in the cusiness role template: `SAP_BR_BPC_EXPERT`.
+This business catalog is available in the business role template: `SAP_BR_BPC_EXPERT`.
 
 To display the change logs for tables, users must have the authorization for the object `S_TABU_NAM` with `Display Change Documents` for `ACTVT` and the name of the table for `TABLE`.
 

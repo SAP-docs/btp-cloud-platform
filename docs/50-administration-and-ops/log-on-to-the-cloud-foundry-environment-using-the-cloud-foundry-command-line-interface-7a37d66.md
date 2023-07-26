@@ -37,7 +37,7 @@ Use the Cloud Foundry Command Line Interface \(cf CLI\) to log on to the Cloud F
     cf api https://api.cf.eu10.hana.ondemand.com
     ```
 
-     
+
 
     For more information, see [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md).
 

@@ -2,11 +2,11 @@
 
 # Integrating Enterprise Event Enablement
 
-Get an overview on integrating the enterprise event enablement framework into your SAP S/4HANA Cloud system.
+Get an overview of integrating the enterprise event enablement framework into your SAP S/4HANA Cloud system.
 
 
 
-The enterprise event enablement framework enables the exchange of events across different platforms for seamless event-driven communication. In order to successfully exchange events between the SAP Event Mesh and an ABAP environment system, an upright connection is required. This connection is maintained by the enterprise event enablement framework during the creation of the corresponding *Communication Management* artifacts like *Communication Arrangements* and *Communication Systems*.
+The enterprise event enablement framework enables the exchange of events across different platforms for seamless event-driven communication. To successfully exchange events between the SAP Event Mesh and an ABAP environment system, an upright connection is required. This connection is maintained by the enterprise event enablement framework during the creation of the corresponding *Communication Management* artifacts like *Communication Arrangements* and *Communication Systems*.
 
 
 

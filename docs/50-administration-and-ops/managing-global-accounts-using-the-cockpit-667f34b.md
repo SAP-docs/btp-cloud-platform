@@ -27,5 +27,5 @@ In the *Subaccount Defaults* tab in the global account settings, you can set the
 
 [Managing Subaccounts Using the Cockpit](managing-subaccounts-using-the-cockpit-55d0b6d.md "Learn how to structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements by managing subaccounts.")
 
-[Creating a Staged Development Environment](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/74eb32ef49804e6e8107338c4ed44d49.html "The number of subaccounts you create, and for which purpose, depends on your organizational setup and your use case.") :arrow_upper_right:
+
 

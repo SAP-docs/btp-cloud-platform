@@ -60,7 +60,7 @@ For more information, see [Prepare for Migration from SAML Trust to OpenID Conne
     <tr>
     <td valign="top">
     
-        ```
+    ```
     userName P000011
     origin my-origin-key
     zoneId 9fcd13d0-77d7-4cfa-86b0-a41b02e662a6
@@ -91,7 +91,7 @@ For more information, see [Prepare for Migration from SAML Trust to OpenID Conne
     </td>
     <td valign="top">
     
-        ```
+    ```
     userName P000011
     origin my-origin-key
     zoneId 9fcd13d0-77d7-4cfa-86b0-a41b02e662a6

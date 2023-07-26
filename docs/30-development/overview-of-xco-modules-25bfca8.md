@@ -28,6 +28,10 @@ The Cloud Platform \(CP\) edition of the XCO library is comprised of the followi
 
     Provides ways to build ABAP SQL constraints to be used in conjunction with the filtering offerings of the XCO ABAP Repository module.
 
+-   ABAP Unit \(XCO\_CP\_ABAP\_UNIT\)
+
+    Provides access to enumerations in the context of ABAP Unit.
+
 -   AMDP \(XCO\_CP\_AMDP\)
 
     Provides access to enumerations in the context of ABAP-managed database procedures.
@@ -67,6 +71,10 @@ The Cloud Platform \(CP\) edition of the XCO library is comprised of the followi
 -   CDS Annotation \(XCO\_CP\_CDS\_ANNOTATION\)
 
     Provides ways to build CDS annotation values to be used when generating DDLS, DDLX or SRVD objects via the XCO Generation APIs.
+
+-   CDS Type Definition \(XCO\_CP\_CDS\_TYPE\_DEFINITION
+
+    Provides access to enumerations specific to CDS type definitions as well as to supported versions and origins as they can be used in the context of the XCO Read APIs for CDS type definitions.
 
 -   Character \(XCO\_CP\_CHARACTER\)
 
@@ -167,6 +175,14 @@ The Cloud Platform \(CP\) edition of the XCO library is comprised of the followi
 -   Regular expression \(XCO\_CP\_REGULAR\_EXPRESSION\)
 
     Provides access to abstractions used when working with regular expressions in the context of the XCO standard library, such as different regular expression engines.
+
+-   SAP object node type \(XCO\_CP\_SAP\_OBJECT\_NODE\_TYPE\)
+
+    Provides access to enumerations specific to SAP object node types as well as to supported versions and origins as they can be used in the context of the XCO Read APIs for SAP object node types.
+
+-   SAP object type \(XCO\_CP\_SAP\_OBJECT\_TYPE\)
+
+    Provides access to enumerations specific to SAP object types as well as to supported versions and origins as they can be used in the context of the XCO Read APIs for SAP object types.
 
 -   Service binding \(XCO\_CP\_SERVICE\_BINDING\)
 

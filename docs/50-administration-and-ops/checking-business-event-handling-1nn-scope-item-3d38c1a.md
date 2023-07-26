@@ -19,9 +19,9 @@ The **Business Event Handling** \(1NN\) scope item must be active to use the *Co
 
 ## Context
 
-It is mandatory that the **Business Event Handling** \(1NN\) scope item is active.
+The **Business Event Handling** \(1NN\) scope item must be active.
 
-Depending on your configuration environment for ABAP environment, choose one of the following options to check the status.
+Depending on your configuration environment for the ABAP environment, choose one of the following options to check the status.
 
 
 
@@ -56,7 +56,7 @@ Depending on your configuration environment for ABAP environment, choose one of 
 
 ## Results
 
-The item scope should be active. If the scope item is not active, request the activation using the `XX-S4C-OPR-SRV` BCP ticket component.
+The scope item should be active. If the scope item is not active, request the activation using the `XX-S4C-OPR-SRV` BCP ticket component.
 
 For more information, see [Setting Up Business Event Handling \(1NN\)](https://support.sap.com/content/dam/SAAP/Sol_Pack/Library/Setup/1NN_Set-Up_EN_XX.pdf).
 

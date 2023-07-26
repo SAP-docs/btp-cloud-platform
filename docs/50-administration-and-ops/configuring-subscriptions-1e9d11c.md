@@ -10,7 +10,7 @@
 
 -   The *Enterprise Event Enablement ‒ Configure Channel Bindings* app is visible.
 
-    If the *Enterprise Event Enablement ‒ Configure Channel Bindings* app is not visible, add the *Enterprise Event Enablement* business catalog to the `SAP_BR_ADMINISTRATOR` role using the *Maintain Business Roles* app. The change in your role becomes effective after you have logged out and logged in again. For more information about adding catalogs to business roles, refer to [Maintain Business Roles](maintain-business-roles-8980ad0.md).
+    If the *Enterprise Event Enablement ‒ Configure Channel Bindings* app is not visible, add the *Enterprise Event Enablement* business catalog to the `SAP_BR_ADMINISTRATOR` role using the *Maintain Business Roles* app. The change in your role becomes effective after you have logged out and logged in again. For more information about adding catalogs to business roles, refer to [Maintain Business Roles \(Deprecated\)](maintain-business-roles-deprecated-8980ad0.md).
 
 
 
@@ -55,14 +55,14 @@ Subscriptions, which are based on a queue, provide all incoming events. These in
     <tr>
     <td valign="top">
     
-        **Create a new subscription.**
+    **Create a new subscription.**
 
 
     
     </td>
     <td valign="top">
     
-        1.  Choose *Create*.
+    1.  Choose *Create*.
     2.  Enter a valid subscription address that corresponds to the name of the queue created in the SAP Event Mesh.
     3.  Choose *Create* to save your entries.
 
@@ -78,14 +78,14 @@ Subscriptions, which are based on a queue, provide all incoming events. These in
     <tr>
     <td valign="top">
     
-        **Delete an existing subscription.**
+    **Delete an existing subscription.**
 
 
     
     </td>
     <td valign="top">
     
-        1.  Select the checkbox of the subscription you want to delete.
+    1.  Select the checkbox of the subscription you want to delete.
     2.  Choose *Delete*.
 
 
@@ -95,14 +95,14 @@ Subscriptions, which are based on a queue, provide all incoming events. These in
     <tr>
     <td valign="top">
     
-        **Define table parameters.**
+    **Define table parameters.**
 
 
     
     </td>
     <td valign="top">
     
-        Press the gear icon to define the table parameters.
+    Click the gear icon to define the table parameters.
 
 
     

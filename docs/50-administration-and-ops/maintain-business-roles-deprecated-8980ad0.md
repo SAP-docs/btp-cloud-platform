@@ -1,12 +1,17 @@
 <!-- loio8980ad05330b4585ab96a8e09cef4688 -->
 
-# Maintain Business Roles
+# Maintain Business Roles \(Deprecated\)
 
 You can use this app to create and edit business roles, add business catalogs to the roles, and maintain access restrictions.
 
 
 
 With the *Maintain Business Roles* app you define business roles by combining predefined business catalogs and, if necessary, define value help, read and write access by maintaining the allowed values for fields. You use business roles to control the access to your applications. The predefined catalogs contain the actual authorizations that allow users to access apps and allow to define instance-based restrictions where necessary. Business catalogs bundle authorizations for a specific business area. Once you have created a business role, you can assign it to multiple business users who perform similar business tasks.
+
+> ### Note:  
+> This app is deprecated as of SAP S/4HANA Cloud 2308. Please use the successor app *Maintain Business Roles* in the future. For more information about this app, see the *Related Information* section in this document.
+> 
+> You can still use the old *Maintain/Display Restrictions* view until the deprecated app will be removed from the system. You can directly navigate to this view from the successor app.
 
 
 

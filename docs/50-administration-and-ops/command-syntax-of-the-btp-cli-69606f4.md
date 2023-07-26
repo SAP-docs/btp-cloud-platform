@@ -73,6 +73,8 @@ btp list accounts/subscription
 
 
 
+## Example
+
 In this example, we assign the **Global Account Administrator** role collection to user **name@example.com** and try out some options.
 
 Use `help` or `--help` to display command-specific help to learn how to use the command:

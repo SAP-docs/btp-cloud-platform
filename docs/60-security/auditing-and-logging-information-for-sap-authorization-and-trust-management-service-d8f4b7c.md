@@ -75,7 +75,7 @@ Trust identity provider.
 </td>
 <td valign="top">
 
- `object with type "IdentityProvider" and id consisting of: crudType "CREATE"` 
+`object with type "IdentityProvider" and id consisting of: crudType "CREATE"` 
 
 
 
@@ -91,7 +91,7 @@ Attributes of the identity provider.
 <tr>
 <td valign="top">
 
- `tableName "xs_tenant", crudType "UPDATE"` 
+`tableName "xs_tenant", crudType "UPDATE"` 
 
 
 
@@ -114,7 +114,7 @@ Update trust with identity provider.
 </td>
 <td valign="top">
 
- `object with type "IdentityProvider" and id consisting of: crudType "UPDATE"` 
+`object with type "IdentityProvider" and id consisting of: crudType "UPDATE"` 
 
 
 
@@ -130,7 +130,7 @@ Old attributes of the identity provider and any attributes required to identify 
 <tr>
 <td valign="top">
 
- `tableName "xs_tenant", crudType "UPDATE"` 
+`tableName "xs_tenant", crudType "UPDATE"` 
 
 
 
@@ -153,7 +153,7 @@ Delete trust with identity provider.
 </td>
 <td valign="top">
 
- `object with type "IdentityProvider" and id consisting of: crudType "DELETE"` 
+`object with type "IdentityProvider" and id consisting of: crudType "DELETE"` 
 
 
 
@@ -169,7 +169,7 @@ Attributes of the service instance.
 <tr>
 <td valign="top">
 
- `tableName "xs_tenant", crudType "UPDATE"` 
+`tableName "xs_tenant", crudType "UPDATE"` 
 
 
 
@@ -386,7 +386,7 @@ Assign roles to role collection.
 </td>
 <td valign="top">
 
- `tableName "xsrolecollection2role", crudType "CREATE"` 
+`tableName "xsrolecollection2role", crudType "CREATE"` 
 
 
 

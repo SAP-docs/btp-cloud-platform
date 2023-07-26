@@ -31,5 +31,5 @@ You find all available services, solutions, and use cases in the [SAP Discovery 
 
 Use the service catalog to access service-specific resources:
 
- ![](images/DiscoveryCenter_ServiceDocumentation_cff0a49.gif)
+![](images/DiscoveryCenter_ServiceDocumentation_cff0a49.gif)
 

@@ -99,7 +99,7 @@ Action
 <tr>
 <td valign="top">
 
- **Global Account Info** 
+**Global Account Info** 
 
 
 
@@ -187,7 +187,7 @@ Actual costs are updated after the monthly statement is generated.
 <tr>
 <td valign="top">
 
- **Global Account Overview** 
+**Global Account Overview** 
 
 
 
@@ -222,7 +222,7 @@ For the chart display, select a row, and filter by period. If no row is selected
 <tr>
 <td valign="top">
 
- **Service Usage** 
+**Service Usage** 
 
 
 
@@ -247,7 +247,7 @@ For the chart display, select a row, and filter by period. If no row is selected
 <tr>
 <td valign="top">
 
- **Directory/Subaccount Usage** 
+**Directory/Subaccount Usage** 
 
 
 

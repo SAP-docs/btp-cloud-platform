@@ -9,7 +9,7 @@ You can apply this setup if you have:
 
 The ABAP system landscape consists of a permanent production system and an on-demand development system.
 
-![](images/Production_ABAP_system_and_an_on-demand_development_ABAP_system_d7688a6.png) 
+![](images/Production_ABAP_system_and_an_on-demand_development_ABAP_system_d7688a6.png)
 
 The advantage of this setup is that you have to administer few systems and only pay for the development system during the development periods. The payment model according to the lifetime of a system requires an SAP BTP enterprise agreement contract.
 
@@ -551,7 +551,7 @@ De-provision system DEV
 </td>
 <td valign="top">
 
- SAP BTP cockpit
+SAP BTP cockpit
 
 
 
@@ -649,7 +649,7 @@ Provision a new development system
 </td>
 <td valign="top">
 
- SAP BTP cockpit
+SAP BTP cockpit
 
 
 

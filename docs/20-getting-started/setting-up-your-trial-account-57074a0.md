@@ -6,7 +6,7 @@
 
 Your global trial account is set up automatically, so that you can start using it right away. However, if one or more of the automatic steps fail, you can also finalize the setup manually by following the steps below.
 
- <a name="loio8b6b4f9267ba4f26bc1d85c0c67e4934"/>
+<a name="loio8b6b4f9267ba4f26bc1d85c0c67e4934"/>
 
 <!-- loio8b6b4f9267ba4f26bc1d85c0c67e4934 -->
 
@@ -47,7 +47,7 @@ The first thing that is needed in the setup of your trial account is the creatio
     <tr>
     <td valign="top">
     
-        Display Name
+    Display Name
 
     > ### Note:  
     > The value for this parameter is a sample one, you can provide a name of your choice.
@@ -57,7 +57,7 @@ The first thing that is needed in the setup of your trial account is the creatio
     </td>
     <td valign="top">
     
-        `trial`
+    `trial`
 
 
     
@@ -66,30 +66,14 @@ The first thing that is needed in the setup of your trial account is the creatio
     <tr>
     <td valign="top">
     
-        **Description**
+    **Description**
 
 
     
     </td>
     <td valign="top">
     
-        Optional
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        **Provider**
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Desired infrastructure provider
+    Optional
 
 
     
@@ -98,14 +82,14 @@ The first thing that is needed in the setup of your trial account is the creatio
     <tr>
     <td valign="top">
     
-        **Region**
+    **Provider**
 
 
     
     </td>
     <td valign="top">
     
-        Desired region
+    Desired infrastructure provider
 
 
     
@@ -114,14 +98,30 @@ The first thing that is needed in the setup of your trial account is the creatio
     <tr>
     <td valign="top">
     
-        **Subdomain**
+    **Region**
 
 
     
     </td>
     <td valign="top">
     
-        `<your_id>trial`
+    Desired region
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    **Subdomain**
+
+
+    
+    </td>
+    <td valign="top">
+    
+    `<your_id>trial`
 
     Example: **P0123456789trial**
 
@@ -132,14 +132,14 @@ The first thing that is needed in the setup of your trial account is the creatio
     <tr>
     <td valign="top">
     
-        **Enable beta features**
+    **Enable beta features**
 
 
     
     </td>
     <td valign="top">
     
-        Optional
+    Optional
 
     Enables the use of beta services and applications.
 
@@ -150,14 +150,14 @@ The first thing that is needed in the setup of your trial account is the creatio
     <tr>
     <td valign="top">
     
-        **Custom Properties**
+    **Custom Properties**
 
 
     
     </td>
     <td valign="top">
     
-        Optional
+    Optional
 
     You can use custom properties to identify and organize the subaccounts in your global account. For example, you can filter subaccounts by custom property in some cockpit pages.
 
@@ -176,7 +176,7 @@ The first thing that is needed in the setup of your trial account is the creatio
 
 You have successfully set up your trial subaccount.
 
- <a name="loio421278ccecab4d829c2cead64af293d7"/>
+<a name="loio421278ccecab4d829c2cead64af293d7"/>
 
 <!-- loio421278ccecab4d829c2cead64af293d7 -->
 
@@ -206,7 +206,7 @@ Once you have a subaccount \(whether it was created automatically or you followe
 6.  Finally, choose *Save* to save all your changes and exit edit mode.
 
 
- <a name="loio6313afa84b8940f7963ceec0bb236780"/>
+<a name="loio6313afa84b8940f7963ceec0bb236780"/>
 
 <!-- loio6313afa84b8940f7963ceec0bb236780 -->
 
@@ -237,7 +237,7 @@ After you’ve successfully added the entitlements, you can enable your trial Ky
 
 Your Kyma trial environment is now ready to use.
 
- <a name="loiod022bb1dde7d499685ee6ef3ab825680"/>
+<a name="loiod022bb1dde7d499685ee6ef3ab825680"/>
 
 <!-- loiod022bb1dde7d499685ee6ef3ab825680 -->
 
@@ -257,7 +257,7 @@ After your trial Kyma environment has expired, you must disable it to remove all
     > On deletion of the expired cluster, we attempt to delete the Service Instances that you created with the cluster. If we cannot do that, you have to [remove the Service Instances yourself](https://help.sap.com/docs/SERVICEMANAGEMENT/09cc82baadc542a688176dce601398de/99016f83ce8e4d049316b61b5cadf1fc.html) before you disable such a *Kyma Environment*.
 
 
- <a name="loio2e07cf4be857422aa5ba911fc160b284"/>
+<a name="loio2e07cf4be857422aa5ba911fc160b284"/>
 
 <!-- loio2e07cf4be857422aa5ba911fc160b284 -->
 

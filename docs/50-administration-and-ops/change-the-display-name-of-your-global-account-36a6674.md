@@ -15,7 +15,7 @@ Change the display name for the global account using the SAP BTP cockpit.
 > ### Tip:  
 > To find out how to tell which cloud management tools feature set your global account uses, see [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
 
- <a name="task_af5_xsw_2qb"/>
+<a name="task_af5_xsw_2qb"/>
 
 <!-- task\_af5\_xsw\_2qb -->
 
@@ -52,7 +52,7 @@ The overview of global accounts available to you is your starting point for view
 3.  Save your changes.
 
 
- <a name="task_o14_g5w_2qb"/>
+<a name="task_o14_g5w_2qb"/>
 
 <!-- task\_o14\_g5w\_2qb -->
 

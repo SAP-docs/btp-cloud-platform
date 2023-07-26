@@ -21,7 +21,7 @@ To create a business role for the administrator, proceed as follows:
 
 ### Process Steps
 
- ![](images/Create_Business_Role_for_the_Key_User_ef4396e.png) 
+![](images/Create_Business_Role_for_the_Key_User_ef4396e.png)
 
 
 

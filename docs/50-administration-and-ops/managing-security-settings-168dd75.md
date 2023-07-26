@@ -2,7 +2,7 @@
 
 # Managing Security Settings
 
-Use the SAP BTP command line interface \(btp CLI\) to display and update the security settings for the global account or subaccount.
+Use the SAP BTP command line interface \(btp CLI\) to display and update the security settings for the subaccount.
 
 The security settings comprise configuration settings, such as information about signing keys, URLs for cross origin resource sharing or iframing, and about bindings.
 
@@ -36,7 +36,7 @@ Command help
 <tr>
 <td valign="top">
 
-Show the security settings of a global account or subaccount
+Show the security settings of a subaccount
 
 
 
@@ -59,7 +59,7 @@ Show the security settings of a global account or subaccount
 <tr>
 <td valign="top">
 
-Update the security settings of a global account or subaccount
+Update the security settings of a subaccount
 
 
 

@@ -89,7 +89,7 @@ To do so, you configure the entitlements and assign the corresponding quota and 
 </td>
 <td valign="top">
 
- [Configure the Entitlements for the SAP S/4HANA Cloud Extensibility Service](configure-the-entitlements-for-the-sap-s-4hana-cloud-extensibility-service-65ad330.md) 
+[Configure the Entitlements for the SAP S/4HANA Cloud Extensibility Service](configure-the-entitlements-for-the-sap-s-4hana-cloud-extensibility-service-65ad330.md) 
 
 
 

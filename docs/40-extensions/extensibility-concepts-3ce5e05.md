@@ -220,6 +220,14 @@ Include additional systems to a given formation or exclude already included syst
 
 If your business case features more than one system, you can include additional systems in the formation. You can include as many systems as you want to your formation.
 
+**Resynchronizing Systems in a Formation**
+
+When you include systems in a formation, these systems are synchronized in the background. If an error occurs, you can resynchronize these systems to restart the synchronization process. To do that, choose *Resynchronize* for the particular formation. You will have this action available only for formations that are in status *Error*.
+
+**Reseting and Resynchronizing Systems in a Formation**
+
+If you want to reconfigure the systems in a formation from scratch without excluding them, you have to choose *Reset and Resynchronize*. You will have this action available only for formations that have no status in SAP BTP cockpit their formation type is Side-by-Side Extensibility with Kyma..
+
 **Deleting Formations**
 
 Detach the systems, unassign the subaccount, and delete the formation at one go.

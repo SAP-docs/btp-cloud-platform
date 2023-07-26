@@ -7,7 +7,7 @@ The purpose of the Maintain Solution app is to guide providers through the compl
 > ### Note:  
 > Specific implementations for the approuter are not supported. Providers that need such enhancements need to configure and deploy the solution manually.
 
- ![](images/MSA_scheme_30b106a.png) 
+![](images/MSA_scheme_30b106a.png)
 
 
 

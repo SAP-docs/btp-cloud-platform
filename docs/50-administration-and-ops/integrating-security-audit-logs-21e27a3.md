@@ -6,7 +6,7 @@ Service name: `RSAU_LOG_API`
 
 This service enables you to retrieve the security audit log data. You can use the audit log data to integrate them into your Security and Event Management solution \(SIEM\) to detect security relevant event situations.
 
-This is an OData version 4 service. This version aims to improve processing time and resource consumption of clients and servers and to reflect the complexity of the underlying business model. This includes a lightweight JSON format that reduces the size of every response. Business data can be retrieved in the exact amount, at the right time, and in appropriate mode by using new synchronization mechanisms. Calculations are made and data is aggregated by using the tiers best suited for this task. Sophisticated metadata artifacts enable a true-to-life modeling of business models.
+This is an OData version 4 service. This version aims to improve processing time and resource consumption of clients and servers. This includes a lightweight JSON format that reduces the size of every response.
 
 
 
@@ -53,28 +53,28 @@ Version
 <tr>
 <td valign="top">
 
- `RSAU_LOG_API` 
+`RSAU_LOG_API` 
 
 
 
 </td>
 <td valign="top">
 
- `SRVD_A2X` 
+`SRVD_A2X` 
 
 
 
 </td>
 <td valign="top">
 
- `RSAU_LOG_API_SERVICE` 
+`RSAU_LOG_API_SERVICE` 
 
 
 
 </td>
 <td valign="top">
 
- `0001` 
+`0001` 
 
 
 
@@ -154,7 +154,7 @@ Security Audit Log
 </td>
 <td valign="top">
 
- [Retrieving Security Audit Log](retrieving-security-audit-log-ce39470.md) 
+[Retrieving Security Audit Log](retrieving-security-audit-log-ce39470.md) 
 
 
 

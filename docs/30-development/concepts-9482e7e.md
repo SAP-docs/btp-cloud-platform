@@ -4,7 +4,7 @@
 
 Learn more about the system landscape/account model, ABAP environment pipeline, as well as versioning and branches.
 
- <a name="loio4ca756395fc24e56a42b77632a6bd862"/>
+<a name="loio4ca756395fc24e56a42b77632a6bd862"/>
 
 <!-- loio4ca756395fc24e56a42b77632a6bd862 -->
 
@@ -98,7 +98,7 @@ To separate development and production purposes, you have to create different gl
 
 For development and maintenance processes, the steps mentioned below, that are similar to the ones described in [Use Case 2: One Development and Correction Codeline in a 5-System Landscape](use-case-2-one-development-and-correction-codeline-in-a-5-system-landscape-4e53874.md), are performed.
 
- ![](images/Global_Development_Account_and_Branching_62a2652.png) 
+![](images/Global_Development_Account_and_Branching_62a2652.png)
 
 -   ABAP system COR and QAS have the same software state, unless a new change is tested and released. This means, transport requests are released in ABAP system DEV only if development is completed and it’s planned to import the changes to the production ABAP system.
 -   Upon cutoff date, development is finished. All development that is released at this time must be tested and be of good quality. From then on, you must fix defects in the COR system and maintain them in parallel in the DEV system.
@@ -144,7 +144,7 @@ For development and maintenance processes, the steps mentioned below, that are s
 
 
 
- <a name="loio2398b874f7c5445db188b780ff0cef89"/>
+<a name="loio2398b874f7c5445db188b780ff0cef89"/>
 
 <!-- loio2398b874f7c5445db188b780ff0cef89 -->
 
@@ -250,7 +250,7 @@ The service is offered in the SAP Service and Support systems, which means that 
 > ### Note:  
 > If you need support or experience issues during the add-on build, see [Troubleshooting](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#troubleshooting).
 
- <a name="loioc8730736a52645b49ca76c08214bf181"/>
+<a name="loioc8730736a52645b49ca76c08214bf181"/>
 
 <!-- loioc8730736a52645b49ca76c08214bf181 -->
 
@@ -270,13 +270,13 @@ The way ABAP service instances and tenants are used for consumer subscriptions a
 > ### Tip:  
 > You should align your decision whether to enable multitenancy mode for your solution based on whether the [Multitenancy Development Guideline](multitenancy-development-guideline-9d994c8.md) can be followed during ABAP development.
 
- <a name="loio8c087bca40584f9b899282b4ec515753"/>
+<a name="loio8c087bca40584f9b899282b4ec515753"/>
 
 <!-- loio8c087bca40584f9b899282b4ec515753 -->
 
 ## Versioning and Branches
 
- <a name="loio882c222035734ff39ffaf36f463a4cda"/>
+<a name="loio882c222035734ff39ffaf36f463a4cda"/>
 
 <!-- loio882c222035734ff39ffaf36f463a4cda -->
 
@@ -340,7 +340,7 @@ For the patch level, there is a technical limit of 36³, limited to 9999. The pa
 
 For more information on software component versioning, see [Software Component Version](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#software-component-version).
 
- <a name="loio398be26971414fbb91cbe3b0a3cb8a26"/>
+<a name="loio398be26971414fbb91cbe3b0a3cb8a26"/>
 
 <!-- loio398be26971414fbb91cbe3b0a3cb8a26 -->
 
@@ -383,7 +383,7 @@ These delivery packages include only those objects that were changed since the p
 
 For more information on the add-on package types and how these are determined based on changes to the software component version, see [Software Component Version](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/#software-component-version).
 
- <a name="loioea47e09911c24f658e5f111d21729ffd"/>
+<a name="loioea47e09911c24f658e5f111d21729ffd"/>
 
 <!-- loioea47e09911c24f658e5f111d21729ffd -->
 
@@ -415,7 +415,7 @@ All corrections to a software component based on a certain support package level
 
 For each ABAP system, only one branch can be active at a time. Therefore, in development system DEV and test system TST, the main branch of a software component is checked out. Whereas in correction system COR and quality assurance system QAS, the currently relevant maintenance branch is checked out.
 
- <a name="loio326508756a144c49b98e5fcf442cce40"/>
+<a name="loio326508756a144c49b98e5fcf442cce40"/>
 
 <!-- loio326508756a144c49b98e5fcf442cce40 -->
 
@@ -482,7 +482,7 @@ This delivery model is similar to processes commonly used to ship on-premise sol
 
 Branch v1.1.0, that is based on branch v1.0.0, includes the same commits as branch v1.0.0 \(Z, A, and D\). For the build of CPK v1.0.2 and CSP v1.1.0, however, only the objects that have been changed since the previous CSP/AOI are included in the object list.
 
- <a name="loio919be04888aa4e07b1a99416fb8bb68d"/>
+<a name="loio919be04888aa4e07b1a99416fb8bb68d"/>
 
 <!-- loio919be04888aa4e07b1a99416fb8bb68d -->
 

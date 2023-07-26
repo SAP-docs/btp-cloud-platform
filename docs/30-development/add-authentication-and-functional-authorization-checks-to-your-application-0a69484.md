@@ -10,7 +10,7 @@ Learn how to create a security application descriptor file and use it to create 
 
 You want to protect your application resources \(functionality and data\) so that only authenticated and authorized business users are able to access these resources.
 
- ![](images/Authorization_and_Trust_Management_Concepts_CF_71e83d3.png) 
+![](images/Authorization_and_Trust_Management_Concepts_CF_71e83d3.png)
 
 You declare your application security descriptor with JSON syntax and store it in a flat file on the filesystem. The standard name for this file is `xs-security.json`.
 

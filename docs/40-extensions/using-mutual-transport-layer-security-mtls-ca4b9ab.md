@@ -36,7 +36,7 @@ Follow these steps to enable mTLS when configuring the extension application's c
 3.  [Create the X509 Certificate Mapping in SAP SuccessFactors](using-mutual-transport-layer-security-mtls-ca4b9ab.md#loioe90cafcd92a54d1cba7d7fa049f674fa).
 
 
- <a name="loioab90478fa95c4df4b4ce5d83e7fd1f47"/>
+<a name="loioab90478fa95c4df4b4ce5d83e7fd1f47"/>
 
 <!-- loioab90478fa95c4df4b4ce5d83e7fd1f47 -->
 
@@ -79,7 +79,7 @@ Before creating the HTTP destination, you have to generate an X509 certificate f
 
 
 
- <a name="loio108642f0d9904731b0f25fcb41091f4c"/>
+<a name="loio108642f0d9904731b0f25fcb41091f4c"/>
 
 <!-- loio108642f0d9904731b0f25fcb41091f4c -->
 
@@ -124,14 +124,14 @@ You have to create an HTTP destination to be able to make calls to the SAP Succe
     <tr>
     <td valign="top">
     
-        *Name*
+    *Name*
 
 
     
     </td>
     <td valign="top">
     
-        Enter a name for the destination.
+    Enter a name for the destination.
 
     For example, `sap_hcmcloud_core_odata`.
 
@@ -142,14 +142,14 @@ You have to create an HTTP destination to be able to make calls to the SAP Succe
     <tr>
     <td valign="top">
     
-        *Type*
+    *Type*
 
 
     
     </td>
     <td valign="top">
     
-        HTTP
+    HTTP
 
 
     
@@ -158,14 +158,14 @@ You have to create an HTTP destination to be able to make calls to the SAP Succe
     <tr>
     <td valign="top">
     
-        *URL*
+    *URL*
 
 
     
     </td>
     <td valign="top">
     
-        Enter the URL of the SAP SuccessFactors OData API you want to consume with *cert.* before *successfactors.com*. For a list of the API Endpoint URL for the SAP SuccessFactors environments, see [List of SAP SuccessFactors API Servers](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/28bc3c8e3f214ab487ec51b1b8709adc/af2b8d5437494b12be88fe374eba75b6.html?version=LATEST&locale=en-US).
+    Enter the URL of the SAP SuccessFactors OData API you want to consume with *cert.* before *successfactors.com*. For a list of the API Endpoint URL for the SAP SuccessFactors environments, see [List of SAP SuccessFactors API Servers](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/28bc3c8e3f214ab487ec51b1b8709adc/af2b8d5437494b12be88fe374eba75b6.html?version=LATEST&locale=en-US).
 
     For example, *https://apisalesdemo8.cert.successfactors.com*.
 
@@ -176,30 +176,14 @@ You have to create an HTTP destination to be able to make calls to the SAP Succe
     <tr>
     <td valign="top">
     
-        *Proxy Type*
+    *Proxy Type*
 
 
     
     </td>
     <td valign="top">
     
-        Internet
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Authentication*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        ClientCertificateAuthentication
+    Internet
 
 
     
@@ -208,14 +192,30 @@ You have to create an HTTP destination to be able to make calls to the SAP Succe
     <tr>
     <td valign="top">
     
-        *Key Store Location*
+    *Authentication*
 
 
     
     </td>
     <td valign="top">
     
-        Select the certificate you have generated for the destinations in your subaccount in SAP BTP. See [Generate X509 Certificate in SAP BTP](using-mutual-transport-layer-security-mtls-ca4b9ab.md#loioab90478fa95c4df4b4ce5d83e7fd1f47).
+    ClientCertificateAuthentication
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Key Store Location*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Select the certificate you have generated for the destinations in your subaccount in SAP BTP. See [Generate X509 Certificate in SAP BTP](using-mutual-transport-layer-security-mtls-ca4b9ab.md#loioab90478fa95c4df4b4ce5d83e7fd1f47).
 
 
     
@@ -237,7 +237,7 @@ You have to create an HTTP destination to be able to make calls to the SAP Succe
     > Using this modified PEM file, you will create the X509 certificate mapping in SAP SuccessFactors. See [Create the X509 Certificate Mapping in SAP SuccessFactors](using-mutual-transport-layer-security-mtls-ca4b9ab.md#loioe90cafcd92a54d1cba7d7fa049f674fa).
 
 
- <a name="loioe90cafcd92a54d1cba7d7fa049f674fa"/>
+<a name="loioe90cafcd92a54d1cba7d7fa049f674fa"/>
 
 <!-- loioe90cafcd92a54d1cba7d7fa049f674fa -->
 

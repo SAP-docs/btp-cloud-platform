@@ -17,11 +17,11 @@ In this example, the call between the application and the service uses technical
 > 
 > We also assume that both applications have their own application router. Having separate application routers means that the applications can define their own authorization models.
 
-   
+  
   
 **Two Developments Tightly Coupled Using Technical Communication**
 
- ![](images/app_plan_technical_user_pptx_1ded4e5.png "Two Developments Tightly Coupled Using Technical Communication") 
+![](images/app_plan_technical_user_pptx_1ded4e5.png "Two Developments Tightly Coupled Using Technical Communication")
 
 Like a trust arrangement, you must configure service B to grant the authority to business application A to use the `$XSAPPNAME.Create` scope. Likewise, you must configure business application A to accept such declarations of authority. This configuration is part of the `xs-security.json` of the UAA service instances of the two developments.
 

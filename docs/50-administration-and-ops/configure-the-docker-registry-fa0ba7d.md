@@ -67,7 +67,7 @@ In the Kyma environment, you can switch at runtime to a chosen external registry
 **Related Information**  
 
 
-[Kyma: Container registries](https://kyma-project.io/docs/kyma/latest/01-overview/main-areas/serverless/svls-03-container-registries)
+[Kyma: Container registries](https://kyma-project.io/docs/kyma/latest/01-overview/serverless/svls-03-container-registries)
 
 [Kyma: Admission webhook and its role in the registry change process](https://kyma-project.io/docs/kyma/latest/05-technical-reference/svls-07-supported-webhooks#admission-webhook)
 

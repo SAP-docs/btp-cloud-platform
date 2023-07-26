@@ -2,7 +2,7 @@
 
 # SAP Cloud Application Programming Model
 
- The SAP Cloud Application Programming Model offers a consistent end-to-end programming model that includes languages, libraries, and APIs that are tailored for full-stack development on SAP BTP.
+The SAP Cloud Application Programming Model offers a consistent end-to-end programming model that includes languages, libraries, and APIs that are tailored for full-stack development on SAP BTP.
 
 It simplifies the development process by enabling you to create concise and comprehensive data and service models at a conceptual level, which are then used as input for the data, service, and UI layers. The SAP Cloud Application Programming Model is compatible with any development environment, but we recommend SAP Business Application Studio.
 

@@ -6,11 +6,11 @@ The standard variant of the *Custom Business Configurations* app shows you the l
 
 If the list needs to be structured in a simple hierarchical manner, you have the option to group the business configuration maintenance objects semantically.
 
- ![](images/Grouping_Overview_b08ae3f.png) 
+![](images/Grouping_Overview_b08ae3f.png)
 
 As the developer of the business configuration maintenance object, you specify a data element of the same software component as configuration group.
 
- ![](images/Grouping_ADT_411c8ad.png) 
+![](images/Grouping_ADT_411c8ad.png)
 
 The name of the data element can then be used by the custom business configurations app user as the *Group By* element in the table settings.
 

@@ -81,7 +81,7 @@ hide-secret
 </td>
 <td valign="top">
 
- `true` 
+`true` 
 
 
 
@@ -97,7 +97,7 @@ The client secret is omitted in the binding information.
 <tr>
 <td valign="top">
 
- `false` \(default\)
+`false` \(default\)
 
 
 

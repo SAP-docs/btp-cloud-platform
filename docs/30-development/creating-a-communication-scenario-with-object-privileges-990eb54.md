@@ -53,30 +53,14 @@ To be able to use a technical user in the ABAP system to access the service bind
     <tr>
     <td valign="top">
     
-        **SQL\_SCHEMA**
+    **SQL\_SCHEMA**
 
 
     
     </td>
     <td valign="top">
     
-        The name of the service binding that you want to grant access to
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        **SQL\_VIEW**
-
-
-    
-    </td>
-    <td valign="top">
-    
-        \* \(if you want to allow access to all views in the service definition\)
+    The name of the service binding that you want to grant access to
 
 
     
@@ -85,14 +69,30 @@ To be able to use a technical user in the ABAP system to access the service bind
     <tr>
     <td valign="top">
     
-        **SQL\_VIEWOP**
+    **SQL\_VIEW**
 
 
     
     </td>
     <td valign="top">
     
-        SELECT
+    \* \(if you want to allow access to all views in the service definition\)
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    **SQL\_VIEWOP**
+
+
+    
+    </td>
+    <td valign="top">
+    
+    SELECT
 
     > ### Note:  
     > Only read access is allowed, so SQL\_VIEWOP=SELECT is mandatory.

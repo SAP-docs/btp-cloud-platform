@@ -42,7 +42,7 @@ Description
 <tr>
 <td valign="top">
 
- **Service Usage** 
+**Service Usage** 
 
 
 
@@ -58,7 +58,7 @@ Displays high-level usage information for a selected service or business applica
 <tr>
 <td valign="top">
 
- **Directory/Subaccount Usage** 
+**Directory/Subaccount Usage** 
 
 
 

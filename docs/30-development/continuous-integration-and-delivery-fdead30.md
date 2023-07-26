@@ -4,7 +4,7 @@
 
 Learn how to integrate CI/CD into your development with the SAP Cloud Application Programming Model \(CAP\).
 
- <a name="loio31cbeccf367e465fa3fc83e367c9c6f1"/>
+<a name="loio31cbeccf367e465fa3fc83e367c9c6f1"/>
 
 <!-- loio31cbeccf367e465fa3fc83e367c9c6f1 -->
 
@@ -63,17 +63,17 @@ The **continuous delivery \(CD\)** concept expands on the one of continuous inte
 
 The following graphic shows the relation between continuous integration and continuous delivery:
 
-   
+  
   
 **Relation Between CI and CD**
 
- ![Relation Between CI and CD](images/Continuous_Integration_vs_Continuous_Delivery_dd91996.png "Relation Between CI and CD") 
+![Relation Between CI and CD](images/Continuous_Integration_vs_Continuous_Delivery_dd91996.png "Relation Between CI and CD")
 
 The continuous delivery process makes sure that the most current version of the software product is successfully built, tested, and provided in a shippable format. Based on the release decision by the development team or delivery manager, it can be shipped to customers or deployed to production at any time.
 
 For more information about the concepts and principles of continuous integration and delivery, see the [Continuous Integration and Delivery Introduction Guide](https://help.sap.com/viewer/Continuous-Integration-and-Delivery-Introduction-Guide/7fc38a80cda446ef856c01f748dbede8.html).
 
- <a name="loio862ec834e72842a6b027d8d1518055dd"/>
+<a name="loio862ec834e72842a6b027d8d1518055dd"/>
 
 <!-- loio862ec834e72842a6b027d8d1518055dd -->
 
@@ -140,7 +140,7 @@ SAP Continuous Integration and Delivery
 </td>
 <td valign="top">
 
- [sap-cloud-sdk](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/bfe48a4b12ed41868f92fa564829f752.html) 
+[sap-cloud-sdk](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/bfe48a4b12ed41868f92fa564829f752.html) 
 
 
 
@@ -163,7 +163,7 @@ Project “Piper”
 </td>
 <td valign="top">
 
- [Build and Deploy SAP Cloud Application Programming Model Applications](https://sap.github.io/jenkins-library/scenarios/CAP_Scenario/) 
+[Build and Deploy SAP Cloud Application Programming Model Applications](https://sap.github.io/jenkins-library/scenarios/CAP_Scenario/) 
 
 
 

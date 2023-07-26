@@ -26,7 +26,7 @@ Learn how to quickly create a communication user and communication arrangement f
 
 3.  Select *Services* \> *Instances* from the navigation area and find your ABAP system service instance.
 
-4.  Click on <span class="SAP-icons"></span>  and select *Create Service Key*.
+4.  Click on <span class="SAP-icons"></span>and select *Create Service Key*.
 
 5.  In the *New Service Key* dialog, enter a name for your service key and specify the parameters in JSON format as follows:
 
@@ -41,7 +41,7 @@ Learn how to quickly create a communication user and communication arrangement f
     > ### Note:  
     > `SAP_COM_XYZ` is the ID of the communication scenario in your ABAP system.
     > 
-    >  `basic` is the type of service key that is needed to generate a communication user and communication arrangement for an inbound communication scenario.
+    > `basic` is the type of service key that is needed to generate a communication user and communication arrangement for an inbound communication scenario.
 
 
 

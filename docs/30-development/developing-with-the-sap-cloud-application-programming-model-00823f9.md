@@ -14,10 +14,10 @@ The programming model is compatible with any development environment, but we rec
 
 The following graphic shows the relationship between CAP, SAP Business Technology Platform, platform services, and development tools:
 
-   
+  
   
 **Overview of the SAP Cloud Application Programming Model**
 
- ![](images/Overview_Graphic_CAP_c76db81.png "Overview of the SAP Cloud Application Programming
-                                    Model") 
+![](images/Overview_Graphic_CAP_c76db81.png "Overview of the SAP Cloud Application Programming
+                                    Model")
 

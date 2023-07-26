@@ -137,7 +137,7 @@ Managed Kyma
 <tr>
 <td valign="top">
 
-Logging<sup> [1](kyma-functionalities-4b83be9.md#loio4b83be95f7db4fddba5c46d388ebf39a__ol_tcn_pdp_pvb)</sup>
+Logging<sup>[1](kyma-functionalities-4b83be9.md#loio4b83be95f7db4fddba5c46d388ebf39a__ol_tcn_pdp_pvb)</sup>
 
 
 
@@ -167,7 +167,7 @@ No customization in SAP BTP, Kyma runtime
 <tr>
 <td valign="top">
 
-Monitoring<sup> [2](kyma-functionalities-4b83be9.md#loio4b83be95f7db4fddba5c46d388ebf39a__ol_tcn_pdp_pvb)</sup>
+Monitoring<sup>[2](kyma-functionalities-4b83be9.md#loio4b83be95f7db4fddba5c46d388ebf39a__ol_tcn_pdp_pvb)</sup>
 
 
 

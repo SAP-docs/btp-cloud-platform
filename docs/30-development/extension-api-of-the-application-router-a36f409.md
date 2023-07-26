@@ -28,7 +28,7 @@ The application router uses the “Connect” framework for the insertion of mid
 <tr>
 <td valign="top">
 
- `approuter()` 
+`approuter()` 
 
 
 
@@ -44,7 +44,7 @@ Creates a new instance of the application router
 <tr>
 <td valign="top">
 
- `first` 
+`first` 
 
 
 
@@ -63,7 +63,7 @@ Defines a “middleware slot” \(a slot for the insertion of middleware\) immed
 <tr>
 <td valign="top">
 
- `beforeRequestHandler` 
+`beforeRequestHandler` 
 
 
 
@@ -82,7 +82,7 @@ Defines a “middleware slot” before the standard application router request h
 <tr>
 <td valign="top">
 
- `beforeErrorHandler` 
+`beforeErrorHandler` 
 
 
 
@@ -101,7 +101,7 @@ Defines a “middleware slot” before the standard application router error han
 <tr>
 <td valign="top">
 
- `start(options, callback)` 
+`start(options, callback)` 
 
 
 
@@ -127,7 +127,7 @@ Starts the application router with the given options.
 <tr>
 <td valign="top">
 
- `close(callback)` 
+`close(callback)` 
 
 
 
@@ -158,7 +158,7 @@ Manage the insertion of middleware slots with the application router.
 <tr>
 <td valign="top">
 
- `use(path, handler)` 
+`use(path, handler)` 
 
 
 

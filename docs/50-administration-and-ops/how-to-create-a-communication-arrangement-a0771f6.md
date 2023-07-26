@@ -43,7 +43,7 @@ To create a communication arrangement, proceed as follows:
 
 5.  If the communication scenario provides inbound services, you have to select the desired communication user and authentication method from the assigned communication system. The defined communication user then has the authorization to call these services. In the *Inbound Services* section, the URLs to the service endpoints are displayed. Depending on the underlying scenario, maintain the required inbound parameters.
 
-     **Note:** Always use the API hostname of your tenant including the "-api" suffix. Don't use the UI hostname without the "-api".
+    **Note:** Always use the API hostname of your tenant including the "-api" suffix. Don't use the UI hostname without the "-api".
 
 6.  If the communication scenario provides outbound services, you have to select the desired outbound user and authentication method from the assigned communication system. In the *Outbound Services* section, the URL path and port need to be defined. Depending on the underlying scenario, maintain the required outbound parameters and job execution details.
 

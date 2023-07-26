@@ -109,7 +109,7 @@ To deploy several entities of a multitarget application using namespaces, procee
 
 You might have one of the following results, depending on your usage
 
--    ![](images/MTA_namespaces_01_image_3b94992.png) 
+-   ![](images/MTA_namespaces_01_image_3b94992.png)
 
     -   This image shows an MTA deployed in the same space - once without namespace \(default behaviour\), and once with namespace `foo`. The second deployment creates applications `foo-appA` and `foo-appB` from modules `appA` and `appB` and service instance `foo-service` from resource `service`
     -   If `appA` is bound to `appA.my-domain.com`, then `foo-appA` is automatically bound to `foo-appA.my-domain.com` upon deployment

@@ -53,7 +53,7 @@ If you’re the Org Manager, you don’t need to first add the users as org memb
 
 5.  Enter one or more e-mail addresses.
 
-    Use commas \(`,`\), spaces \(` `\), semicolons \(. The changes you make to the roles of a member take effect immediately.`;`\), or line breaks to separate members.
+    Use commas \(`,`\), spaces \(``\), semicolons \(. The changes you make to the roles of a member take effect immediately.`;`\), or line breaks to separate members.
 
 6.  Enter the *Origin* for the identity provider, which hosts the members you just added.
 

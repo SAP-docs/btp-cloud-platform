@@ -12,12 +12,12 @@ To be able to run compatibility checks for your released objects using the ATC c
 
 The *Manage API Snapshots* app is part of the business process that helps you to ensure the stability of your released APIs. This overview contains all steps that need to be considered when developing, releasing and reworking APIs for use by others:
 
-   
+  
   
 **Business Process Description of Compatibility Checks for Released APIs**
 
- ![](images/CompatibilityCheckAPPSRV_5624efb.png "Business Process Description of Compatibility Checks for Released
-						APIs") 
+![](images/CompatibilityCheckAPPSRV_5624efb.png "Business Process Description of Compatibility Checks for Released
+						APIs")
 
 
 

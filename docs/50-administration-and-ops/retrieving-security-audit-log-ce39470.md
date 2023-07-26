@@ -40,7 +40,7 @@ Comment
 <tr>
 <td valign="top">
 
- `eventID` 
+`eventID` 
 
 
 
@@ -68,7 +68,7 @@ Security Audit Log Event
 <tr>
 <td valign="top">
 
- `log_tstmp` 
+`log_tstmp` 
 
 
 
@@ -96,7 +96,7 @@ Timestamp of the security audit log event
 <tr>
 <td valign="top">
 
- `slgmand` 
+`slgmand` 
 
 
 
@@ -124,7 +124,7 @@ Client within the SAP System
 <tr>
 <td valign="top">
 
- `sid` 
+`sid` 
 
 
 
@@ -150,7 +150,7 @@ System ID
 <tr>
 <td valign="top">
 
- `counter` 
+`counter` 
 
 
 
@@ -175,7 +175,7 @@ Message counter
 <tr>
 <td valign="top">
 
- `slgtc` 
+`slgtc` 
 
 
 
@@ -203,7 +203,7 @@ Transaction Code
 <tr>
 <td valign="top">
 
- `slgrepna` 
+`slgrepna` 
 
 
 

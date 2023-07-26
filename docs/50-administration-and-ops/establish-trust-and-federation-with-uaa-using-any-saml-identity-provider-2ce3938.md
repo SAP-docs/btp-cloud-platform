@@ -4,7 +4,7 @@
 
 To establish trust, configure the trust configuration of the SAML 2.0 identity provider in your subaccount using the SAP BTP cockpit. Next, register your subaccount in User Account and Authentication service using the administration console of your SAML 2.0 identity provider. To complete federation, maintain the federation attributes of the SAML 2.0 user groups. This makes sure that you can assign authorizations to user groups.
 
- <a name="loio8a213ea1a8664e6b96c0593e71339e0e"/>
+<a name="loio8a213ea1a8664e6b96c0593e71339e0e"/>
 
 <!-- loio8a213ea1a8664e6b96c0593e71339e0e -->
 
@@ -66,7 +66,7 @@ You must establish a trust relationship with an SAML 2.0 identity provider in yo
 
 [Managing Security Administrators in Your Subaccount \[Feature Set A\]](managing-security-administrators-in-your-subaccount-feature-set-a-6752c4b.md "Running on the cloud management tools feature set A: When you create a subaccount, SAP BTP automatically grants your user the role for the administration of business users and their authorizations in the subaccount. Having this role, you can also add or remove other users who will then also be user and role administrators of this subaccount.")
 
- <a name="loio2bf08c7e91794ddfa0702a353be4c61d"/>
+<a name="loio2bf08c7e91794ddfa0702a353be4c61d"/>
 
 <!-- loio2bf08c7e91794ddfa0702a353be4c61d -->
 

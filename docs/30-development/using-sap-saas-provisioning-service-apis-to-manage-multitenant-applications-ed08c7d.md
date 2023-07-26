@@ -66,7 +66,7 @@ curl -XPOST '<url>/oauth/token?grant_type=client_credentials&client_id=<clientid
 
 where:
 
- *<encodedString\>* is the result of base64 encoding <code><i class="varname">&lt;clientid&gt;</i>:<i class="varname">&lt;clientsecret&gt;</i>.</code>
+*<encodedString\>* is the result of base64 encoding <code><i class="varname">&lt;clientid&gt;</i>:<i class="varname">&lt;clientsecret&gt;</i>.</code>
 
 
 

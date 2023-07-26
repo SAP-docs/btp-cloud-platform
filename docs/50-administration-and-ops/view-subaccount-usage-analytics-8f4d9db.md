@@ -37,7 +37,7 @@ Description
 <tr>
 <td valign="top">
 
- **Subaccount** 
+**Subaccount** 
 
 
 
@@ -55,7 +55,7 @@ Some information in this view is displayed only for global account admins.
 <tr>
 <td valign="top">
 
- **Services** 
+**Services** 
 
 
 
@@ -71,7 +71,7 @@ Displays usage per service plan for the region of the subaccount, and the select
 <tr>
 <td valign="top">
 
- **Spaces** 
+**Spaces** 
 
 
 

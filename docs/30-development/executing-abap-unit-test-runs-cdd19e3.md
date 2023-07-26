@@ -64,14 +64,14 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <tr>
     <td valign="top">
     
-        accept
+    accept
 
 
     
     </td>
     <td valign="top">
     
-        application/vnd.sap.adt.api.abapunit.run-status.v1+xml
+    application/vnd.sap.adt.api.abapunit.run-status.v1+xml
 
 
     
@@ -80,14 +80,14 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <tr>
     <td valign="top">
     
-        x-csrf-token
+    x-csrf-token
 
 
     
     </td>
     <td valign="top">
     
-        fetch
+    fetch
 
 
     
@@ -120,14 +120,14 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <tr>
     <td valign="top">
     
-        x-csrf-token
+    x-csrf-token
 
 
     
     </td>
     <td valign="top">
     
-        <token\>
+    <token\>
 
 
     
@@ -136,14 +136,14 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <tr>
     <td valign="top">
     
-        location
+    location
 
 
     
     </td>
     <td valign="top">
     
-        /sap/bc/adt/api/abapunit/runs/00000000000000000000000000000000
+    /sap/bc/adt/api/abapunit/runs/00000000000000000000000000000000
 
 
     
@@ -180,14 +180,14 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <tr>
     <td valign="top">
     
-        x-csrf-token
+    x-csrf-token
 
 
     
     </td>
     <td valign="top">
     
-        <token\>
+    <token\>
 
 
     
@@ -196,14 +196,14 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <tr>
     <td valign="top">
     
-        content type
+    content type
 
 
     
     </td>
     <td valign="top">
     
-        application/vnd.sap.adt.api.abapunit.run.v1+xml
+    application/vnd.sap.adt.api.abapunit.run.v1+xml
 
 
     
@@ -263,14 +263,14 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <tr>
     <td valign="top">
     
-        location
+    location
 
 
     
     </td>
     <td valign="top">
     
-        /sap/bc/adt/api/abapunit/runs/\{runId\}
+    /sap/bc/adt/api/abapunit/runs/\{runId\}
 
 
     
@@ -307,14 +307,14 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <tr>
     <td valign="top">
     
-        accept
+    accept
 
 
     
     </td>
     <td valign="top">
     
-        application/vnd.sap.adt.api.abapunit.run-status.v1+xml
+    application/vnd.sap.adt.api.abapunit.run-status.v1+xml
 
 
     
@@ -369,14 +369,14 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <tr>
     <td valign="top">
     
-        Accept
+    Accept
 
 
     
     </td>
     <td valign="top">
     
-        application/vnd.sap.adt.api.junit.run-result.v1+xml
+    application/vnd.sap.adt.api.junit.run-result.v1+xml
 
 
     

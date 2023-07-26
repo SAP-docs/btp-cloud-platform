@@ -4,9 +4,9 @@
 
 # Delete a Subaccount
 
- Delete subaccounts using the SAP BTP cockpit to clean up your account hierarchy, free up quota used by services in your subaccounts, and to reduce overall costs. 
+Delete subaccounts using the SAP BTP cockpit to clean up your account hierarchy, free up quota used by services in your subaccounts, and to reduce overall costs. 
 
- <a name="task_a4g_zp3_bvb"/>
+<a name="task_a4g_zp3_bvb"/>
 
 <!-- task\_a4g\_zp3\_bvb -->
 
@@ -62,7 +62,7 @@
 
 [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 
- <a name="task_hm1_y43_bvb"/>
+<a name="task_hm1_y43_bvb"/>
 
 <!-- task\_hm1\_y43\_bvb -->
 

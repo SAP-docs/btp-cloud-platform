@@ -29,7 +29,7 @@ This service runs in multi-environment and Neo subaccounts.
 <dl>
 <dt><b>
 
- Use your corporate or a default IdP 
+Use your corporate or a default IdP 
 
 </b></dt>
 <dd>
@@ -40,7 +40,7 @@ Enable user management for your applications by handling authentication to an ex
 
 </dd><dt><b>
 
- Enable role-based access to applications 
+Enable role-based access to applications 
 
 </b></dt>
 <dd>

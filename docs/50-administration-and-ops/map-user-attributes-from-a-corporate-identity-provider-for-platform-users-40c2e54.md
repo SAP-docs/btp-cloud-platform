@@ -37,7 +37,7 @@ There are several options to customize attribute mappings in Identity Authentica
     > ### Note:  
     > You can't remove the default attributes or edit the listed attribute names, but you can edit their values, depending on which attribute from the corporate identity provider maps to these attributes. You can also add custom attributes, such as *groups* or other attributes for mapping to role collections.
 
-     ![](images/Attribute_Mapping_in_Identity_Authentication_Tokens_e70dd08.png) 
+    ![](images/Attribute_Mapping_in_Identity_Authentication_Tokens_e70dd08.png)
 
     If the corporate identity provider sends user attributes for email address, first and last name with other names than *mail*, *first\_name*, or *last\_name*, set the right attribute name by replacing those values.
 
@@ -76,7 +76,7 @@ Purpose
 <tr>
 <td valign="top">
 
- `Subject name identifier` 
+`Subject name identifier` 
 
 
 
@@ -94,7 +94,7 @@ Default value: ***User ID***
 <tr>
 <td valign="top">
 
- `mail` 
+`mail` 
 
 
 
@@ -117,7 +117,7 @@ For more information, see the [prerequisites](establish-trust-and-federation-of-
 <tr>
 <td valign="top">
 
- `first_name` 
+`first_name` 
 
 
 
@@ -133,7 +133,7 @@ First name of the user.
 <tr>
 <td valign="top">
 
- `last_name` 
+`last_name` 
 
 
 
@@ -149,7 +149,7 @@ Last name of the user.
 <tr>
 <td valign="top">
 
- `groups` 
+`groups` 
 
 
 

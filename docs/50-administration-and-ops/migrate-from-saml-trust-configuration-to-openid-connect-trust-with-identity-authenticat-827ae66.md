@@ -25,11 +25,11 @@ If your subaccount uses the SAML protocol to connect to your custom identity pro
 
     You can look up the origin key in the trust configuration in the SAP BTP cockpit using the btp CLI, or the Identity Provider Management API.
 
-       
+      
       
     **Finding the Origin Key in the Cockpit**
 
-     ![](images/Show_Origin_Key_in_cockpit_7e03dc2.png "Finding the Origin Key in the Cockpit") 
+    ![](images/Show_Origin_Key_in_cockpit_7e03dc2.png "Finding the Origin Key in the Cockpit")
 
 2.  To migrate the trust configuration from SAML to OIDC, use the SAP BTP command line interface \(CLI\).
 

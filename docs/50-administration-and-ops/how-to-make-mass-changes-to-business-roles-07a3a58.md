@@ -8,7 +8,10 @@
 
 ## Context
 
-You can use the mass change wizard to change multiple business roles at once. This is helpful, for example, if you have switched from using custom spaces to SAP-delivered spaces or if you start using spaces. In that case, you can select all affected business roles and click *Assign SAP-Delivered Spaces*. The system then automatically assigns SAP-delivered spaces to all of the business roles in question. If you click *Remove Launchpad Spaces Already Assigned*, the custom spaces that were assigned to the business roles previously are automatically removed.
+You can use the mass change wizard to change multiple business roles at once. This is helpful, for example, if you have switched from using custom spaces to predefined spaces or if you start using spaces. In that case, you can select all affected business roles and click *Assign Predefined Spaces*. The system then automatically assigns predefined spaces to all of the business roles in question. If you click *Remove Launchpad Spaces Already Assigned*, the custom spaces that were assigned to the business roles previously are automatically removed.
+
+> ### Note:  
+> Please note that SAP-defined business roles can only be modified for business user assignment in the initial set-up. Apart from this, they can be updated by SAP only. We recommend that you create your own business roles from templates so that you can modify them as required.
 
 Select the business roles you want to change and click *Mass Change*. The *Mass Change Wizard* appears. It has the following pattern:
 
@@ -41,14 +44,14 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     <tr>
     <td valign="top">
     
-        **Business Role Data**
+    **Business Role Data**
 
 
     
     </td>
     <td valign="top">
     
-        Role Group
+    Role Group
 
     Expose to SAP BTP
 
@@ -61,14 +64,14 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     <tr>
     <td valign="top">
     
-        **Business User Assignment**
+    **Business User Assignment**
 
 
     
     </td>
     <td valign="top">
     
-        Add Business Users
+    Add Business Users
 
     Remove Business Users
 
@@ -79,14 +82,14 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     <tr>
     <td valign="top">
     
-        **Business Catalog Assignment**
+    **Business Catalog Assignment**
 
 
     
     </td>
     <td valign="top">
     
-        Add Business Catalogs
+    Add Business Catalogs
 
     Remove Business Catalogs
 
@@ -97,14 +100,14 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     <tr>
     <td valign="top">
     
-        **Launchpad Space Assignment**
+    **Launchpad Space Assignment**
 
 
     
     </td>
     <td valign="top">
     
-        Add Launchpad Spaces
+    Add Launchpad Spaces
 
     Remove Launchpad Spaces
 
@@ -115,14 +118,14 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     <tr>
     <td valign="top">
     
-        **Assign SAP-Delivered Spaces**
+    **Assign Predefined Spaces**
 
 
     
     </td>
     <td valign="top">
     
-        Assign SAP-Delivered Spaces to your business roles
+    Assign predefined spaces your business roles
 
     You see the results and can filter for error or success statuses in the *Mass Change Overview*.
 
@@ -136,14 +139,30 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     <tr>
     <td valign="top">
     
-        **Access Categories**
+    **Access Categories**
 
 
     
     </td>
     <td valign="top">
     
-        Change access categories as required.
+    Change access categories as required.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    **Restrictions**
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Select the required access category, such as *Value Help* and select the required restriction change, such as *Add Restrictions*.
 
 
     
@@ -161,5 +180,7 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
 **Related Information**  
 
 
-[**Assigning an Existing Space to Several Business Roles**](https://help.sap.com/docs/SAP_S4HANA_CLOUD/4fc8d03390c342da8a60f8ee387bca1a/af2b6ad24bd94047bc5e0d84ecc7ebe3.html?version=latest)
+[Assigning Spaces to Several Business Roles at Once](https://help.sap.com/docs/SAP_S4HANA_CLOUD/4fc8d03390c342da8a60f8ee387bca1a/af2b6ad24bd94047bc5e0d84ecc7ebe3.html?version=latest)
+
+[How to Maintain Restrictions Using the Mass Change Wizard](how-to-maintain-restrictions-using-the-mass-change-wizard-376bdf1.md "")
 

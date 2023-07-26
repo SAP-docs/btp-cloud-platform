@@ -36,7 +36,7 @@ Common Error Scenarios
 <tr>
 <td valign="top">
 
- `cf list-backup` 
+`cf list-backup` 
 
 
 
@@ -50,7 +50,7 @@ Shows a list of all the service instance backups. These backups are specific to 
 </td>
 <td valign="top">
 
- **Unauthorized Access:** if you do not have permission to access the space containing the service instance or the service instance itself. Verify that you have the required permission.
+**Unauthorized Access:** if you do not have permission to access the space containing the service instance or the service instance itself. Verify that you have the required permission.
 
 
 
@@ -59,7 +59,7 @@ Shows a list of all the service instance backups. These backups are specific to 
 <tr>
 <td valign="top">
 
- `cf list-backup` *<service\_instance\_name\>* 
+`cf list-backup` *<service\_instance\_name\>* 
 
 
 
@@ -73,7 +73,7 @@ Shows a list of backups that are specific to the service instance within a space
 </td>
 <td valign="top">
 
- **Unauthorized Access:** if you do not have permission to access the space containing the service instance or the service instance itself. Verify that you have the required permission.
+**Unauthorized Access:** if you do not have permission to access the space containing the service instance or the service instance itself. Verify that you have the required permission.
 
 
 
@@ -82,7 +82,7 @@ Shows a list of backups that are specific to the service instance within a space
 <tr>
 <td valign="top">
 
- `cf backup`*<backup\_id\>* 
+`cf backup`*<backup\_id\>* 
 
 
 
@@ -119,7 +119,7 @@ Shows the list of all backups for the given service-fabrik service instance. The
 </td>
 <td valign="top">
 
- **Unauthorized Access:** if you do not have permission to access the space containing the service instance or the service instance itself. Verify that you have the required permission.
+**Unauthorized Access:** if you do not have permission to access the space containing the service instance or the service instance itself. Verify that you have the required permission.
 
 
 
@@ -155,7 +155,7 @@ Shows the list of all backups for a deleted service-fabrik service instance. \(W
 <tr>
 <td valign="top">
 
- `cf start-restore` *<service\_instance\_name\>* *<backup\_id\>* 
+`cf start-restore` *<service\_instance\_name\>* *<backup\_id\>* 
 
 
 
@@ -180,7 +180,7 @@ Restores a service instance from the specified instance name and backup ID. Befo
 <tr>
 <td valign="top">
 
- `cf abort-restore`*<service\_instance\_name\>* 
+`cf abort-restore`*<service\_instance\_name\>* 
 
 
 
@@ -205,7 +205,7 @@ Aborts an ongoing restore operation of the specified service instance. You can v
 <tr>
 <td valign="top">
 
- `cf instance-events --delete` 
+`cf instance-events --delete` 
 
 
 
@@ -219,7 +219,7 @@ List all delete service instance events in the space.
 </td>
 <td valign="top">
 
- **Unauthorized Access:** if you do not have permission to access the space containing the service instance or the service instance itself. Verify that you have the required permission.
+**Unauthorized Access:** if you do not have permission to access the space containing the service instance or the service instance itself. Verify that you have the required permission.
 
 
 
@@ -228,7 +228,7 @@ List all delete service instance events in the space.
 <tr>
 <td valign="top">
 
- `cf restore`*<service\_instance\_name\>* 
+`cf restore`*<service\_instance\_name\>* 
 
 
 

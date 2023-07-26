@@ -48,6 +48,22 @@ A Kubernetes cluster provisioned with the latest version of the open-source proj
 <tr>
 <td valign="top">
 
+Kyma module
+
+
+
+</td>
+<td valign="top">
+
+An extension to the Kyma environment that can be enabled, disabled or re-configured at runtime
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Role
 
 

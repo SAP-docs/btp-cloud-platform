@@ -62,7 +62,7 @@ Description
 <tr>
 <td valign="top">
 
- `protocol` 
+`protocol` 
 
 
 
@@ -92,7 +92,7 @@ URI scheme, for example “HTTP”.
 <tr>
 <td valign="top">
 
- `host` 
+`host` 
 
 
 
@@ -122,7 +122,7 @@ A valid host name, for example, `acme.com.hostname`, or a domain name defined wi
 <tr>
 <td valign="top">
 
- `port` 
+`port` 
 
 
 

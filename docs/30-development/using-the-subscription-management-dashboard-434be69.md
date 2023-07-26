@@ -87,7 +87,7 @@ You can apply various search and filtering criteria such as plan, subscription s
 > ### Tip:  
 > Select the *Show provider subaccounts only* checkbox to see only the subaccounts that are in the global account in which your application is deployed. This can be useful because you can only create new subscriptions for these subaccounts.
 
- ![](images/For_Dashboard1_c5bee05.png) 
+![](images/For_Dashboard1_c5bee05.png)
 
 Clicking on a subscription row opens details about the subscription to the right where you can find more information about the subscription and analyze errors if the subscription status is `Failed`.
 
@@ -95,11 +95,11 @@ You can also perform additional operations, such as update subscription dependen
 
 This operation updates the subscription with the latest list of dependencies \(if an app provider has added or removed dependencies of a particular subscription, for example.\)
 
- ![](images/For_Dashboard2_9b943b5.png) 
+![](images/For_Dashboard2_9b943b5.png)
 
 You can choose to see your subscription dependencies in a tree or table view. See the following image for the tree view representation:
 
- ![](images/For_Dashboard3_8ff2261.png) 
+![](images/For_Dashboard3_8ff2261.png)
 
 > ### Tip:  
 > If you've more than one multitenant application, you can switch between them in the dashboard. Click on the dropdown menu in the upper-left corner and select the application for which you want to view or manage subscriptions.

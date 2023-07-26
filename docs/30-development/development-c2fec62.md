@@ -69,10 +69,9 @@ ABAP
 -   Refined horizontal and vertical automatic scalability
 -   More flexible with Kubernetes
 -   Dedicated application runtime
--   Built-in zero downtime infrastructure
+-   Zero downtime infrastructure setup by default
 -   Support for CAP – an opinionated business app development framework
 -   More flexible with Kubernetes
-
 
 
 

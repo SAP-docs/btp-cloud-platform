@@ -30,6 +30,10 @@ The XCO Generation APIs are the part of the XCO library that allows the programm
 
 -   MSAG \(Message Classes\)
 
+-   NONT \(SAP Object Node Types\)
+
+-   RONT \(SAP Object Types\)
+
 -   SRVB \(Service Bindings\)
 
 -   SRVD \(Service Definitions\)
@@ -543,6 +547,80 @@ X
 <td valign="top">
 
 MSAG
+
+
+
+</td>
+<td valign="top">
+
+X
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+X
+
+
+
+</td>
+<td valign="top">
+
+X
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+NONT
+
+
+
+</td>
+<td valign="top">
+
+X
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+X
+
+
+
+</td>
+<td valign="top">
+
+X
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RONT
 
 
 

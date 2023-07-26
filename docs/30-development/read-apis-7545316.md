@@ -12,7 +12,7 @@ The XCO Read APIs provide homogenous, yet strongly-typed, APIs that allow to acc
 
 The overall design of the XCO Read APIs \(regardless of the concrete object type\) is based on a natural hierarchical model for each respective object type. The hierarchical model used by the XCO Read APIs regards an object as a rooted tree, with the root node given by the header of the object and all other nodes corresponding to parts of the object. To illustrate, the diagram below contains the hierarchical object model for a database table of the ABAP Dictionary as used by the XCO Read APIs:
 
- ![](images/Hierarchical_Object_Model_8256a7e.png) 
+![](images/Hierarchical_Object_Model_8256a7e.png)
 
 For each node in the hierarchical object model for an object type, two abstractions are provided:
 
@@ -348,6 +348,50 @@ No
 <tr>
 <td valign="top">
 
+DRTY
+
+
+
+</td>
+<td valign="top">
+
+CDS Type Definition
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+<td valign="top">
+
+XCO\_CP\_CDS\_TYPE\_DEFINITION
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+<td valign="top">
+
+No
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 DTEL
 
 
@@ -597,6 +641,94 @@ No
 <td valign="top">
 
 \-
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+NONT
+
+
+
+</td>
+<td valign="top">
+
+SAP Object Node Type
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+<td valign="top">
+
+XCO\_CP\_SAP\_OBJECT\_NODE\_TYPE=\>ORIGIN
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+<td valign="top">
+
+No
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RONT
+
+
+
+</td>
+<td valign="top">
+
+SAP Object Type
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+<td valign="top">
+
+XCO\_CP\_SAP\_OBJECT\_TYPE=\>ORIGIN
+
+
+
+</td>
+<td valign="top">
+
+Yes
+
+
+
+</td>
+<td valign="top">
+
+No
 
 
 

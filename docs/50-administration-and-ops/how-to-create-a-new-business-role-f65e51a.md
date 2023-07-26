@@ -19,7 +19,7 @@ You use business roles to control the access to your applications. To create a b
 
 ### Process Steps
 
-![](images/Create_Business_Role_5abe629.png) 
+![](images/Create_Business_Role_5abe629.png)
 
 
 

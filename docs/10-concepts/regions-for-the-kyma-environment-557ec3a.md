@@ -7,7 +7,7 @@ To work with the Kyma environment, you need to specify the region for both your 
 
 
 > ### Note:  
-> In the Kyma environment, there are no static IP addresses. All IP addresses are configured dynamically for the NAT Gateway that handles the egress traffic.
+> In the Kyma environment, IP addresses for NAT Gateway that handles the egress traffic are configured dynamically. This means that you cannot identify the IP address of NAT Gateway in advance. However, once the IP address is assigned, it remains unchanged throughout the cluster's lifecycle.
 
 
 

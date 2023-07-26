@@ -56,7 +56,7 @@ Some further activities in ADT and in the administrator’s launchpad are necess
 
 With the 2105 cloud release, you can access only your own jobs in the *Application Jobs* app. In order to grant access to other users' objects used in the *Application Jobs* app, create a new business role assigning the business catalog `SAP_CORE_BC_APJ_JCE` to it. You can modify the provided restriction types according to your needs.
 
-1.  Create a new business role assigning the business catalog `SAP_CORE_BC_APJ_JCE` to it. The restriction type `Job Catalog Entry/Application Job Part` contains the two fields `Application Job Catalog Entry` and `Application Job Part`. For more information, see [Maintain Business Roles](../50-administration-and-ops/maintain-business-roles-8980ad0.md).
+1.  Create a new business role assigning the business catalog `SAP_CORE_BC_APJ_JCE` to it. The restriction type `Job Catalog Entry/Application Job Part` contains the two fields `Application Job Catalog Entry` and `Application Job Part`. For more information, see [Maintain Business Roles \(Deprecated\)](../50-administration-and-ops/maintain-business-roles-deprecated-8980ad0.md).
 
     > ### Note:  
     > With this restriction type you'll be able to provide the necessary authorizations for certain actions on other users' application jobs, which are based on a specified job catalog entry. With this, you can display the logs of other users' jobs, which are based on this specified job catalog entry.

@@ -29,7 +29,7 @@ Description
 <tr>
 <td valign="top">
 
- Cloud Connector 
+Cloud Connector 
 
 
 
@@ -53,7 +53,7 @@ For more information, see [Use a Custom IDP for Subaccount Configuration](https:
 <tr>
 <td valign="top">
 
- SAP BTP Command Line Interface \(btp CLI\)
+SAP BTP Command Line Interface \(btp CLI\)
 
 
 
@@ -78,7 +78,7 @@ Both values can be found in the cockpit under *Security* → *Trust Configuratio
 <tr>
 <td valign="top">
 
- Cloud Foundry command-line interface \(CF CLI\)
+Cloud Foundry command-line interface \(CF CLI\)
 
 
 
@@ -101,7 +101,7 @@ See also [Using the Cloud Foundry CLI with SAP HANA Cloud](https://help.sap.com/
 <tr>
 <td valign="top">
 
- SAP Application Logging service and Kibana
+SAP Application Logging service and Kibana
 
 
 
@@ -119,7 +119,7 @@ For more information, see the [SAP Application Logging service](https://help.sap
 <tr>
 <td valign="top">
 
- SAP BTP cockpit 
+SAP BTP cockpit 
 
 
 
@@ -153,7 +153,7 @@ For more information, see [SAP Cloud Transport Management](https://help.sap.com/
 <tr>
 <td valign="top">
 
- SAP HANA Cloud Cockpit
+SAP HANA Cloud Cockpit
 
 
 
@@ -171,7 +171,7 @@ For more information, see [SAP HANA Cockpit](https://help.sap.com/docs/HANA_CLOU
 <tr>
 <td valign="top">
 
- SAP Job Scheduling service 
+SAP Job Scheduling service 
 
 
 
@@ -187,7 +187,7 @@ Platform users logged on using custom identity providers can use the SAP Job Sch
 <tr>
 <td valign="top">
 
- SAP Mobile Services 
+SAP Mobile Services 
 
 
 
@@ -245,7 +245,7 @@ Description
 <tr>
 <td valign="top">
 
- SAP Business Application Studio 
+SAP Business Application Studio 
 
 
 
@@ -268,7 +268,7 @@ For more information, see [Terminal](https://help.sap.com/products/SAP%20Busines
 <tr>
 <td valign="top">
 
- SAP HANA Service Dashboard
+SAP HANA Service Dashboard
 
 
 
@@ -289,7 +289,7 @@ This tool doesn't support log on with a platform user from a custom identity pro
 <tr>
 <td valign="top">
 
- SAP Rapid Application Development by Mendix 
+SAP Rapid Application Development by Mendix 
 
 
 
@@ -323,7 +323,7 @@ If you use services with dashboards, you can't access these dashboards with a pl
 <tr>
 <td valign="top">
 
- SAP Web IDE 
+SAP Web IDE 
 
 
 

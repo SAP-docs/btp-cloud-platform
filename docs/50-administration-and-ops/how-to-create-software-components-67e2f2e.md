@@ -42,14 +42,14 @@ To create a new software component, perform the following steps:
     <tr>
     <td valign="top">
     
-        Development
+    Development
 
 
     
     </td>
     <td valign="top">
     
-        Used for standard ABAP application development.
+    Used for standard ABAP application development.
 
 
     
@@ -58,14 +58,14 @@ To create a new software component, perform the following steps:
     <tr>
     <td valign="top">
     
-        Business Configuration
+    Business Configuration
 
 
     
     </td>
     <td valign="top">
     
-        Used to transport customizing content from one ABAP environment system to another ABAP environment system.
+    Used to transport customizing content from one ABAP environment system to another ABAP environment system.
 
     > ### Note:  
     > You can create multiple business configuration software components. You can only clone one business configuration software component to a system. You can only release customizing transports to a business configuration software component

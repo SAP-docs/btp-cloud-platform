@@ -27,11 +27,18 @@ You can schedule a job to automatically lock business users who haven't logged o
 
 3.  Define the recurrence pattern of your job and click *Step 3*.
 
-4.  Under *Parameters*, enter the required number of days you want to use for the automatic lock.
+4.  Under *Parameters*, enter the required number of days since the last logon you want to use for the automatic lock.
 
-5.  Click *Schedule*.
+5.  Add the business users you want to exclude.
 
-    > ### Note:  
-    > You can exclude business users from this scheduling job if required.
+    Optional:
+
+    Open the value help if you want to define further conditions.
+
+    Go to the *Define Conditions* tab. Here you can define single users or whole user areas you want to exclude from the selection. You can enter multiple users at once by using copy and paste, for example to transfer users from lists.
+
+    Please note that you can also restrict the list of users that should be processed by this job.
+
+6.  Click *Schedule*.
 
 

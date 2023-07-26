@@ -36,7 +36,7 @@ Property
 <tr>
 <td valign="top">
 
- `TextEdit` 
+`TextEdit` 
 
 
 
@@ -52,7 +52,7 @@ Value
 <tr>
 <td valign="top">
 
- `TextView` 
+`TextView` 
 
 
 
@@ -68,7 +68,7 @@ Text
 <tr>
 <td valign="top">
 
- `FormattedTextEdit` 
+`FormattedTextEdit` 
 
 
 
@@ -84,7 +84,7 @@ Value
 <tr>
 <td valign="top">
 
- `FormattedTextView` 
+`FormattedTextView` 
 
 
 
@@ -102,7 +102,7 @@ If *value suggest* is active, all proposed texts for this UI element that are di
 <tr>
 <td valign="top">
 
- `InputField` 
+`InputField` 
 
 
 
@@ -122,7 +122,7 @@ Historical values are not recorded.
 <tr>
 <td valign="top">
 
- `ToolbarInputField` 
+`ToolbarInputField` 
 
 
 
@@ -138,7 +138,7 @@ Value
 <tr>
 <td valign="top">
 
- `DropdownByIndex` 
+`DropdownByIndex` 
 
 
 
@@ -154,7 +154,7 @@ Texts
 <tr>
 <td valign="top">
 
- `Caption` 
+`Caption` 
 
 
 
@@ -170,7 +170,7 @@ Text
 <tr>
 <td valign="top">
 
- `Button` 
+`Button` 
 
 
 
@@ -186,7 +186,7 @@ Text
 <tr>
 <td valign="top">
 
- `ToolbarButton` 
+`ToolbarButton` 
 
 
 
@@ -202,7 +202,7 @@ Text
 <tr>
 <td valign="top">
 
- `ToolbarDropdownByIndex` 
+`ToolbarDropdownByIndex` 
 
 
 
@@ -218,7 +218,7 @@ Texts
 <tr>
 <td valign="top">
 
- `LinkChoice` 
+`LinkChoice` 
 
 
 
@@ -234,7 +234,7 @@ Text
 <tr>
 <td valign="top">
 
- `ToolbarLinkChoice` 
+`ToolbarLinkChoice` 
 
 
 
@@ -250,7 +250,7 @@ Text
 <tr>
 <td valign="top">
 
- `ButtonChoice` 
+`ButtonChoice` 
 
 
 
@@ -266,7 +266,7 @@ Text
 <tr>
 <td valign="top">
 
- `ToolbarBtnChoice` 
+`ToolbarBtnChoice` 
 
 
 
@@ -282,7 +282,7 @@ Text
 <tr>
 <td valign="top">
 
- `ToggleButton` 
+`ToggleButton` 
 
 
 
@@ -298,7 +298,7 @@ Text
 <tr>
 <td valign="top">
 
- `ToolbarToggleButton` 
+`ToolbarToggleButton` 
 
 
 
@@ -314,7 +314,7 @@ Text
 <tr>
 <td valign="top">
 
- `Checkbox` 
+`Checkbox` 
 
 
 
@@ -330,7 +330,7 @@ Text
 <tr>
 <td valign="top">
 
- `Label` 
+`Label` 
 
 
 
@@ -346,7 +346,7 @@ Text
 <tr>
 <td valign="top">
 
- `LinkToAction` 
+`LinkToAction` 
 
 
 
@@ -362,7 +362,7 @@ Text
 <tr>
 <td valign="top">
 
- `LinkToURL` 
+`LinkToURL` 
 
 
 
@@ -378,7 +378,7 @@ Text
 <tr>
 <td valign="top">
 
- `ToolbarLinkToAction` 
+`ToolbarLinkToAction` 
 
 
 
@@ -394,7 +394,7 @@ Text
 <tr>
 <td valign="top">
 
- `ToolbarLinkToURL` 
+`ToolbarLinkToURL` 
 
 
 
@@ -410,7 +410,7 @@ Text
 <tr>
 <td valign="top">
 
- `FileDownload` 
+`FileDownload` 
 
 
 
@@ -426,7 +426,7 @@ fileName, mimeType, text, data
 <tr>
 <td valign="top">
 
- `Panel` 
+`Panel` 
 
 
 
@@ -442,7 +442,7 @@ Title
 <tr>
 <td valign="top">
 
- `RadioButton` 
+`RadioButton` 
 
 
 
@@ -460,7 +460,7 @@ Selected Key
 <tr>
 <td valign="top">
 
- `RadioButtonGroupByIndex` 
+`RadioButtonGroupByIndex` 
 
 
 
@@ -476,7 +476,7 @@ Text
 <tr>
 <td valign="top">
 
- `RadioButtonGroupByKey` 
+`RadioButtonGroupByKey` 
 
 
 
@@ -492,7 +492,7 @@ Selected Key
 <tr>
 <td valign="top">
 
- `ToggleLink` 
+`ToggleLink` 
 
 
 
@@ -508,7 +508,7 @@ Text
 <tr>
 <td valign="top">
 
- `TriStateCheckbox` 
+`TriStateCheckbox` 
 
 
 
@@ -524,7 +524,7 @@ Text
 <tr>
 <td valign="top">
 
- `SectionHeader` 
+`SectionHeader` 
 
 
 
@@ -540,7 +540,7 @@ Text
 <tr>
 <td valign="top">
 
- `DropdownByKey` 
+`DropdownByKey` 
 
 
 
@@ -556,7 +556,7 @@ Selected Key
 <tr>
 <td valign="top">
 
- `ToolbarDropdownByKey` 
+`ToolbarDropdownByKey` 
 
 
 
@@ -572,7 +572,7 @@ Selected Key
 <tr>
 <td valign="top">
 
- `DropdownListBox` 
+`DropdownListBox` 
 
 
 
@@ -592,7 +592,7 @@ Texts
 <tr>
 <td valign="top">
 
- `ToolbarDropdownListBox` 
+`ToolbarDropdownListBox` 
 
 
 
@@ -613,15 +613,15 @@ Texts
 
 The constituents of the following multiple UI elements can be logged with Read Access Logging:
 
--    `Table` 
+-   `Table` 
 
--    `CTable` 
+-   `CTable` 
 
--    `RowRepeater` 
+-   `RowRepeater` 
 
--    `MultiPane` 
+-   `MultiPane` 
 
--    `Accordion` and `MultiAccordionItem` 
+-   `Accordion` and `MultiAccordionItem` 
 
 
 **Related Information**  

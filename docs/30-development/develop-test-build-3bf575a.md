@@ -20,7 +20,7 @@ Once the add-on build/assembly is finished, you can release the add-on for insta
 > 
 > See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
- <a name="loio4338854e3133407abb47d3a281dbd1e1"/>
+<a name="loio4338854e3133407abb47d3a281dbd1e1"/>
 
 <!-- loio4338854e3133407abb47d3a281dbd1e1 -->
 
@@ -53,7 +53,7 @@ Once you’ve completed these steps, you can start developing an add-on.
 -   To set up transports from the development to the test system, you need a test system and optionally a pipeline in a Jenkins CI/CD server that is provisioned using a Cx Server to automatically import new changes. See [Jenkins](https://www.jenkins.io/) and [Cx Server](https://www.project-piper.io/infrastructure/overview/#cx-server-recommended).
 -   To set up add-on development, you need a development system.
 
- <a name="loiocc5a3c6f78cf4889960c314dd09a5060"/>
+<a name="loiocc5a3c6f78cf4889960c314dd09a5060"/>
 
 <!-- loiocc5a3c6f78cf4889960c314dd09a5060 -->
 
@@ -70,7 +70,7 @@ As an S-user with authorization *Reserve Namespaces*, you have to reserve a name
 
 Due to length restrictions of some objects, namespaces should have 5–8 characters. See SAP note [105132](https://launchpad.support.sap.com/#/notes/105132) and [395083](https://launchpad.support.sap.com/#/notes/395083).
 
- <a name="loio9f2150f2b15e414aacd46c1723ce48fb"/>
+<a name="loio9f2150f2b15e414aacd46c1723ce48fb"/>
 
 <!-- loio9f2150f2b15e414aacd46c1723ce48fb -->
 
@@ -300,7 +300,7 @@ If you want to integrate an existing corporate identity provider in the subaccou
 > ### Tip:  
 > For in-depth information about the system landscape/account model, check out [System Landscape/Account Model](concepts-9482e7e.md#loio4ca756395fc24e56a42b77632a6bd862).
 
- <a name="loio2e7b4b631e814de1b8fe3959af4105bc"/>
+<a name="loio2e7b4b631e814de1b8fe3959af4105bc"/>
 
 <!-- loio2e7b4b631e814de1b8fe3959af4105bc -->
 
@@ -416,7 +416,7 @@ If you want to integrate an existing corporate identity provider in the subaccou
 > ### Tip:  
 > For in-depth information about the system landscape/account model, check out [System Landscape/Account Model](concepts-9482e7e.md#loio4ca756395fc24e56a42b77632a6bd862).
 
- <a name="loio17aa433273c24bd2b949c297513851fe"/>
+<a name="loio17aa433273c24bd2b949c297513851fe"/>
 
 <!-- loio17aa433273c24bd2b949c297513851fe -->
 
@@ -530,7 +530,7 @@ Use service parameter `is_development_allowed` to differentiate between developm
 
 Subscribe to the Web Access for ABAP to gain access to the SAP Fiori launchpad in all subaccounts of the global production account.
 
- <a name="loio3f03dfe2f21b471ab98abc6f208c3762"/>
+<a name="loio3f03dfe2f21b471ab98abc6f208c3762"/>
 
 <!-- loio3f03dfe2f21b471ab98abc6f208c3762 -->
 
@@ -543,7 +543,7 @@ As a developer user, you can then create an SAP Fiori dev space and generate UI 
 > ### Recommendation:  
 > For frontend development, we recommend using SAP Business Application Studio. See [Develop an SAP Fiori Application UI and Deploy it to ABAP Using SAP Business Application Studio](develop-an-sap-fiori-application-ui-and-deploy-it-to-abap-using-sap-business-application-eaaeba4.md).
 
- <a name="loio89a353151e534380a03b2a572a227731"/>
+<a name="loio89a353151e534380a03b2a572a227731"/>
 
 <!-- loio89a353151e534380a03b2a572a227731 -->
 
@@ -574,7 +574,7 @@ We recommend enabling the blocking of transport releases in case of priority 1 \
 
 Interrupting a transport release in case of severe findings can help to fix issues early on during development. The later errors are detected in the development process, the more costly it is to resolve them. See [Launching ATC Check Implicitly](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/d6ccb9bbafd44eb7bf9564e18b699112.html)
 
- <a name="loiobf557544f90f4bc88911c4865ec78207"/>
+<a name="loiobf557544f90f4bc88911c4865ec78207"/>
 
 <!-- loiobf557544f90f4bc88911c4865ec78207 -->
 
@@ -597,7 +597,7 @@ As a DevOps engineer, you can configure the ABAP environment pipeline for an aut
 
 The continuous testing scenario of the ABAP environment pipeline is described in detail in [Continuous Testing on SAP BTP ABAP Environment](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentTest/).
 
- <a name="loio9464e3af139d4e0581cb4e819886b0c8"/>
+<a name="loio9464e3af139d4e0581cb4e819886b0c8"/>
 
 <!-- loio9464e3af139d4e0581cb4e819886b0c8 -->
 
@@ -621,7 +621,7 @@ Once you’ve completed these development activities, the solution is ready to b
 -   For UI development, you need a developer user using SAP Business Application Studio. See [Develop an SAP Fiori Application UI and Deploy it to ABAP Using SAP Business Application Studio](develop-an-sap-fiori-application-ui-and-deploy-it-to-abap-using-sap-business-application-eaaeba4.md).
 -   For custom code migration, you need a business user that is assigned the business role based on business role template `SAP_BR_IT_PROJECT_MANAGER`, and a communication arrangement instance for `SAP_COM_0464`. See [Custom Code Migration](../50-administration-and-ops/custom-code-migration-651ef65.md).
 
- <a name="loiofa5af4ecdf90496b8eec54fe0e22150c"/>
+<a name="loiofa5af4ecdf90496b8eec54fe0e22150c"/>
 
 <!-- loiofa5af4ecdf90496b8eec54fe0e22150c -->
 
@@ -704,7 +704,7 @@ With the ABAP environment, you can build multitenancy-enabled SaaS solutions. To
 > ### Tip:  
 > For in-depth information about multitenancy, check out [Multitenancy](concepts-9482e7e.md#loioc8730736a52645b49ca76c08214bf181).
 
- <a name="loiof3be8246edc74be59c10779443f67793"/>
+<a name="loiof3be8246edc74be59c10779443f67793"/>
 
 <!-- loiof3be8246edc74be59c10779443f67793 -->
 
@@ -719,7 +719,7 @@ As a developer user, once business services are implemented as UI services, you 
 > 
 > To simplify this process, we recommend structuring the IAM business catalogs that include IAM apps for the UI according to business roles by using business role templates. See [Providing Access to the SAP Fiori Application](providing-access-to-the-sap-fiori-application-b569abb.md).
 
- <a name="loiof438645cb5664399a6b21f8d9bd3d004"/>
+<a name="loiof438645cb5664399a6b21f8d9bd3d004"/>
 
 <!-- loiof438645cb5664399a6b21f8d9bd3d004 -->
 
@@ -729,7 +729,7 @@ Optionally, you can migrate existing custom ABAP code for add-on development pur
 
 After adapting the code and making necessary changes, you can migrate the code via abapGit. See [How to Bring your ABAP Custom Code to SAP BTP ABAP Environment](https://blogs.sap.com/2019/11/11/how-to-bring-your-abap-custom-code-to-sap-cloud-platform-abap-environment/).
 
- <a name="loio023cf9d301b1479484e70b17cd5cf587"/>
+<a name="loio023cf9d301b1479484e70b17cd5cf587"/>
 
 <!-- loio023cf9d301b1479484e70b17cd5cf587 -->
 
@@ -753,7 +753,7 @@ If the solution is successfully tested and works correctly, you can proceed with
 -   For testing in the ABAP Test Cockpit, you need a developer user using ABAP Development Tools. See [Getting Started as a Developer in the ABAP Environment](../20-getting-started/getting-started-as-a-developer-in-the-abap-environment-4b896c9.md).
 -   \(Optional\) For running ATC checks as part of the ABAP environment pipeline, you have to create a pipeline in a Jenkins CI/CD server that is provisioned using the Cx Server tool. See [Jenkins](https://www.jenkins.io/) and [Cx Server](https://www.project-piper.io/infrastructure/overview/#cx-server-recommended).
 
- <a name="loio8c5b4d76a05b4bed8df01937f4d8d487"/>
+<a name="loio8c5b4d76a05b4bed8df01937f4d8d487"/>
 
 <!-- loio8c5b4d76a05b4bed8df01937f4d8d487 -->
 
@@ -767,7 +767,7 @@ Before testing new developments in a software component in the test system, as a
 
 Before creating and assigning business roles, you have to make sure that business users are already available. They can be created manually or automatically. See [User Provisioning](user-provisioning-ef52a68.md).
 
-To test the developed business services, as a test user, create business roles from the role templates in the test system and assign them to your user. See [Maintain Business Roles](../50-administration-and-ops/maintain-business-roles-8980ad0.md).
+To test the developed business services, as a test user, create business roles from the role templates in the test system and assign them to your user. See [Maintain Business Roles \(Deprecated\)](../50-administration-and-ops/maintain-business-roles-deprecated-8980ad0.md).
 
 **Create Launchpad Space and Pages for Business Roles**
 
@@ -804,7 +804,7 @@ As a test user in a Partner Test tenant \(client \>= 200\), you configure key us
 -   See [Custom Logic \(Deprecated\)](../50-administration-and-ops/custom-logic-deprecated-05880c7.md) for guidance on how to use the *Custom Logic* app to create and maintain custom logic for business add-ins \(BAdIs\).
 -   See [Configuring Predefined Custom Fields](../50-administration-and-ops/configuring-predefined-custom-fields-0033cbc.md) for guidance on how to configure predefined custom fields to customize applications and their UIs.
 
- <a name="loiof0b71a1c959842258772c27d292c43b0"/>
+<a name="loiof0b71a1c959842258772c27d292c43b0"/>
 
 <!-- loiof0b71a1c959842258772c27d292c43b0 -->
 
@@ -836,7 +836,7 @@ As a DevOps engineer, configure the ABAP environment pipeline by using a static 
 
 The continuous testing scenario of the ABAP environment pipeline is described in detail in [Continuous Testing on SAP BTP ABAP Environment](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentTest/).
 
- <a name="loio25049720bde447e395b3df0bc05e5a50"/>
+<a name="loio25049720bde447e395b3df0bc05e5a50"/>
 
 <!-- loio25049720bde447e395b3df0bc05e5a50 -->
 
@@ -873,7 +873,7 @@ Once the build and test installation have been completed successfully, an add-on
 -   For the add-on build, you have to set up a Jenkins CI/CD server that is provisioned using the Cx server and you need an S-user in SAP One Support Launchpad with user management authorization. See [Jenkins](https://www.jenkins.io/), [Cx Server](https://www.project-piper.io/infrastructure/overview/#cx-server-recommended), and SAP note [1271482](https://launchpad.support.sap.com/#/notes/1271482).
 -   To build the first add-on version, you have to configure the add-on build pipeline. See [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
 
- <a name="loioccf0c1ef30ce4d6aa6e39bb583fb8ba1"/>
+<a name="loioccf0c1ef30ce4d6aa6e39bb583fb8ba1"/>
 
 <!-- loioccf0c1ef30ce4d6aa6e39bb583fb8ba1 -->
 
@@ -942,7 +942,7 @@ As a DevOps engineer, create an ABAP environment pipeline configuration for the 
 
 The add-on build scenario of the ABAP environment pipeline is described in detail in [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
 
- <a name="loio96f9db9e6c784e5a89ede4d038daaa43"/>
+<a name="loio96f9db9e6c784e5a89ede4d038daaa43"/>
 
 <!-- loio96f9db9e6c784e5a89ede4d038daaa43 -->
 

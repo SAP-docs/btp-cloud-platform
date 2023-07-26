@@ -52,7 +52,5 @@ If you need support or experience issues, please report an incident under compon
 **Related Information**  
 
 
-[How to Create Communication Systems](how-to-create-communication-systems-c2234ac.md "")
-
 [Communication Arrangements](communication-arrangements-1decd8b.md)
 

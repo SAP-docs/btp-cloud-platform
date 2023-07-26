@@ -49,7 +49,7 @@ See [OData Version 4.01. Part 1: Protocol](https://docs.oasis-open.org/odata/oda
 
 ### Action
 
- **Actions** are operation exposed by an OData service that can have side effects. Actions can return data but **must not** be composed with additional path segments. Actions are invoked using HTTP method `POST`.
+**Actions** are operation exposed by an OData service that can have side effects. Actions can return data but **must not** be composed with additional path segments. Actions are invoked using HTTP method `POST`.
 
 
 

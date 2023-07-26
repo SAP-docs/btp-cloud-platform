@@ -44,7 +44,7 @@ Partner Account
 <tr>
 <td valign="top">
 
- **Use case** 
+**Use case** 
 
 
 
@@ -73,7 +73,7 @@ If you want to start out exploring services for free, you can sign up for a Pay-
 <tr>
 <td valign="top">
 
- **Benefits** 
+**Benefits** 
 
 
 
@@ -101,7 +101,7 @@ Support for productive applications.
 <tr>
 <td valign="top">
 
- **Services available** 
+**Services available** 
 
 
 
@@ -124,7 +124,7 @@ Productive and beta services.
 <tr>
 <td valign="top">
 
- **Limitations** 
+**Limitations** 
 
 
 
@@ -147,7 +147,7 @@ Predefined resources according to your partner package. You can purchase additio
 <tr>
 <td valign="top">
 
- **Registration** 
+**Registration** 
 
 
 
@@ -174,7 +174,7 @@ Sign up to join the [SAP Partner Program](https://www.sap.com/partners/partner-p
 <tr>
 <td valign="top">
 
- **Available Regions** 
+**Available Regions** 
 
 
 
@@ -195,6 +195,14 @@ See [Regions](regions-350356d.md).
 </td>
 </tr>
 </table>
+
+
+
+<a name="loio171511cc425c4e079d0684936486eee6__section_u12_ww2_2yb"/>
+
+## Cancelling a SAP BTP Enterprise Account
+
+As a business user, you can cancel your contract via your account executive. As an individual user with a SAP BTP Pay-As-You-Go contract, you can cancel your account in your [SAP for Me account](https://me.sap.com). You can also contact the SAP store via their "Contact Us" function.
 
 
 

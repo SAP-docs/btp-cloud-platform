@@ -16,7 +16,7 @@ There is also a tutorial with an introduction to securing your application, and 
 
 ## Node.js Community Buildpack
 
- SAP BTP uses the standard [Node.js buildpack](https://github.com/cloudfoundry/nodejs-buildpack) provided by the Cloud Foundry community to deploy Node.js applications.
+SAP BTP uses the standard [Node.js buildpack](https://github.com/cloudfoundry/nodejs-buildpack) provided by the Cloud Foundry community to deploy Node.js applications.
 
 To get familiar with the buildpack and how to deploy applications with it, take a look at the [Cloud Foundry Node.js Buildpack documentation](https://docs.cloudfoundry.org/buildpacks/node/index.html).
 
@@ -58,24 +58,23 @@ To learn about changes in Node.js versions and features, regularly check the lat
 
 ## Supported Versions
 
-The `nodejs_buildpack` supports the following versions:
+The `nodejs_buildpack` running on SAP BTP, Cloud Foundry environment supports the following versions:
 
--   Node.js **14**
 -   Node.js **16**
 -   Node.js **18**
 
 
 
-### Node.js 14 is reaching end of life
+### Node.js 14 end of life
 
-Please be informed that Node.js 14 will reach end of life on **April 30, 2023** as stated in the [Node.js Roadmap](https://github.com/nodejs/Release), and shortly after will be removed from the Cloud Foundry community [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack). This means that deployment and redeployment of applications with Node.js 14 will fail. To avoid such issues, please plan migration to Node.js 16 or higher as soon as possible.
+Please be informed that Node.js 14 reached end of life on **April 30, 2023** as stated in the [Node.js Roadmap](https://github.com/nodejs/Release), and was removed from the Cloud Foundry community in [version 1.8.10](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.10). This means that deployment and redeployment of applications with Node.js 14 will fail. To avoid such issues, please migrate to Node.js 16 or higher as soon as possible.
 
 Applications using XSJS are strongly impacted as the [@sap/fibers](https://www.npmjs.com/package/@sap/fibers) library \(on which [@sap/xsjs](https://www.npmjs.com/package/@sap/xsjs) depends\) is **not supported** on Node.js 16 and later versions. To learn more, see: [Migrating Applications from XSJS to Async-XSJS](migrating-applications-from-xsjs-to-async-xsjs-40ded9d.md)
 
-In exceptional cases \(if you haven’t completed the migration to Node.js 16\), to avoid application failures during redeployment, you may pin the last buildpack version that contains Node.js14, as provided by the [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack) community. You can do this in your **manifest.yml** file, and then redeploy your app. To learn how, see: [Specify a buildpack version in manifest.yml](tips-and-tricks-for-node-js-applications-3a5fe88.md#loio3a5fe887f6e64abb827494baac352059__specify_node_bp_version) 
+In exceptional cases \(if you haven’t completed the migration to Node.js 16\), to avoid application failures during redeployment, you may pin the last buildpack version that contains Node.js 14, as provided by the [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack) community. To learn how, see: [Specify a buildpack version in manifest.yml](tips-and-tricks-for-node-js-applications-3a5fe88.md#loio3a5fe887f6e64abb827494baac352059__specify_node_bp_version) 
 
 > ### Note:  
-> Please be advised, that SAP does **not** recommended usage of Node.js 14 after April 2023, as no support and security fixes will be provided for this version.
+> Please be advised that SAP does **not** recommend use of Node.js 14, as no support and security fixes are provided for this version anymore.
 
 
 
@@ -86,7 +85,7 @@ In exceptional cases \(if you haven’t completed the migration to Node.js 16\),
 To see the latest news and updates about the Node.js system buildpack, regularly check the release notes on the [What's New portal](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&Component=Node.js%20System%20Buildpack).
 
 > ### Caution:  
-> In May 2023, SAP plans to migrate the root file system used in the Cloud Foundry environment in SAP BTP from the deprecated `cflinuxfs3` stack to **`cflinuxfs4`**. If you are running Node.js applications on SAP BTP, Cloud Foundry using the Node.js buildpack, we recommend that you update and migrate your applications, as well as the Node.js buildpack. For more information about migration timelines, risks, and consequences, see:
+> In May 2023, SAP migrated the root file system used in the Cloud Foundry environment in SAP BTP from the deprecated `cflinuxfs3` stack to **`cflinuxfs4`**. If you are running Node.js applications on SAP BTP, Cloud Foundry using the Node.js buildpack, we recommend that you update and migrate your applications, as well as the Node.js buildpack. For more information about migration timelines, risks, and consequences, see:
 > 
 > -   [Deprecation of Cloud Foundry Stack cflinuxfs3 and Migration to cflinuxfs4](https://blogs.sap.com/2023/02/16/deprecation-of-cloud-foundry-stack-cflinuxfs3-and-migration-to-cflinuxfs4/)
 > 

@@ -9,7 +9,7 @@ Decisions you make when using or administrating the SAP Authorization and Trust 
 
 [Configuration Options for the SAP Authorization and Trust Management Service](configuration-options-for-the-sap-authorization-and-trust-management-service-3654087.md#loio3654087e15864b49a1bca3967a54a095 "The following configuration options enable you to manipulate the operation of the SAP Authorization and Trust Management service (XSUAA). Set these options in the application security descriptor (xs-security.json) at design time for your application.")
 
- <a name="loioea351dd76f8946c995145bc6a4b235f3"/>
+<a name="loioea351dd76f8946c995145bc6a4b235f3"/>
 
 <!-- loioea351dd76f8946c995145bc6a4b235f3 -->
 
@@ -54,7 +54,7 @@ This configuration has several security implications like:
 
 Ensure that no attacker can add malicious web pages or Javascript to any of the hosts allowed to frame the login page. This recommendation also includes hosts that act as reverse proxies, where an attacker can put their content on a different host behind the reverse proxy. Ensure that everything exposed by those framing hosts is safe.
 
- <a name="loio88b7d9d4c6ff4498b48dbc0b7be8a294"/>
+<a name="loio88b7d9d4c6ff4498b48dbc0b7be8a294"/>
 
 <!-- loio88b7d9d4c6ff4498b48dbc0b7be8a294 -->
 
@@ -97,7 +97,7 @@ We support explicit wildcards, namely domain relaxing and arbitrary paths. For e
 
 [Configure Redirect URLs for Browser Logout](../30-development/configure-redirect-urls-for-browser-logout-690931c.md "To avoid open redirect attacks, direct users to a safe and valid URL when they log out.")
 
- <a name="loio74c07afd318d46218db291ffb8c25b23"/>
+<a name="loio74c07afd318d46218db291ffb8c25b23"/>
 
 <!-- loio74c07afd318d46218db291ffb8c25b23 -->
 
@@ -121,7 +121,7 @@ For more information, see [Managing Secrets of the SAP Authorization and Trust M
 
 For more information about the application security descriptor, see [Application Security Descriptor Configuration Syntax](../30-development/application-security-descriptor-configuration-syntax-517895a.md).
 
- <a name="loioc8770b0b43084d838e475bd76eeb4715"/>
+<a name="loioc8770b0b43084d838e475bd76eeb4715"/>
 
 <!-- loioc8770b0b43084d838e475bd76eeb4715 -->
 
@@ -227,7 +227,7 @@ To change token validity, use one of the following methods:
     For more information, see [Security Settings API](https://api.sap.com/api/SecuritySettingsAPI/resource) on [SAP Business Accelerator Hub](https://api.sap.com/package/authtrustmgmnt?section=Artifacts).
 
 
- <a name="loio0b406a94f4604a4f98bbe606ef92d50d"/>
+<a name="loio0b406a94f4604a4f98bbe606ef92d50d"/>
 
 <!-- loio0b406a94f4604a4f98bbe606ef92d50d -->
 
@@ -248,7 +248,7 @@ Administrators are any SAP BTP cockpit users with the *User and Role Administrat
 
 [Default Role Collections of SAP BTP Cloud Foundry Environment \[Feature Set B\]](default-role-collections-of-sap-btp-cloud-foundry-environment-feature-set-b-a6a0072.md "The following table displays the default role collections available with cloud management tools feature set B after initially deploying your accounts. For more information, see the related links.")
 
- <a name="loio24c226d64f994d80879d5f2518c0d0ab"/>
+<a name="loio24c226d64f994d80879d5f2518c0d0ab"/>
 
 <!-- loio24c226d64f994d80879d5f2518c0d0ab -->
 

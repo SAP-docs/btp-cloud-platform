@@ -51,14 +51,14 @@ The first start of the application occurs when you deploy the app, if enough quo
     <tr>
     <td valign="top">
     
-        *Applications* page
+    *Applications* page
 
 
     
     </td>
     <td valign="top">
     
-        For the application that you'd like to start or stop, choose the respective icon from the *Actions* column:
+    For the application that you'd like to start or stop, choose the respective icon from the *Actions* column:
 
     -   <span style="color:#346187;"><span class="SAP-icons"></span></span> \(*Start*\) - This starts the first instance of your application and makes it available to users.
 
@@ -77,14 +77,14 @@ The first start of the application occurs when you deploy the app, if enough quo
     <tr>
     <td valign="top">
     
-        *Overview* page of your application
+    *Overview* page of your application
 
 
     
     </td>
     <td valign="top">
     
-        Choose the button corresponding to the desired action:
+    Choose the button corresponding to the desired action:
 
     -   *Start* - This starts the first instance of your application and makes it available to users.
 

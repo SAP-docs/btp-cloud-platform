@@ -134,7 +134,7 @@ Amazon Web Services
 </td>
 <td valign="top">
 
- [Amazon Relational Database Service \(RDS\) - PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US) 
+[Amazon Relational Database Service \(RDS\) - PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US) 
 
 
 
@@ -150,7 +150,7 @@ Microsoft Azure
 </td>
 <td valign="top">
 
- [Azure Database for PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US).
+[Azure Database for PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US).
 
 
 

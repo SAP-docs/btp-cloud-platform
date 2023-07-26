@@ -26,7 +26,7 @@ The *Manage Test Tenant Status* displays an overview of each test tenant, identi
 
 A visual representation on the right side shows you the status of the test tenant in percent:
 
- ![](images/completedstatus_33e2b5b.png) 
+![](images/completedstatus_33e2b5b.png)
 
 
 

@@ -77,6 +77,6 @@ To debug an application using [SapMachine](https://github.com/SAP/SapMachine), y
     Your local port 8000 is connected to the debugging port 8000 of the JVM, which running in the Cloud Foundry container.
 
     > ### Caution:  
-    > The connection is active until you close the SSH tunnel. When you finish debugging, close the SSH tunnel by pressing  [Ctrl\] + [C\] . Connect a Java debugger to your application. For example, use the standard Java debugger provided by Eclipse IDE and connect to `localhost:8000`
+    > The connection is active until you close the SSH tunnel. When you finish debugging, close the SSH tunnel by pressing [Ctrl\] + [C\] . Connect a Java debugger to your application. For example, use the standard Java debugger provided by Eclipse IDE and connect to `localhost:8000`
 
 

@@ -15,7 +15,7 @@ Use the legacy blue-green deployment strategy of Multitarget applications.
 
 You have a previously deployed MTA, with functional productive applications and routes:
 
- ![](images/Blue_Application_Version_of_an_MTA_f76d0da.png) 
+![](images/Blue_Application_Version_of_an_MTA_f76d0da.png)
 
 
 
@@ -33,7 +33,7 @@ You have a previously deployed MTA, with functional productive applications and 
     -   creates new applications adding “green” to their existing application names
     -   creates temporary routes to the “green” applications.
 
-         ![](images/Blue-Green_with_a_Temporatry_Route_6797ebb.png) 
+        ![](images/Blue-Green_with_a_Temporatry_Route_6797ebb.png)
 
     -   interrupts the process showing a message similar to the following:
 
@@ -65,14 +65,14 @@ You have a previously deployed MTA, with functional productive applications and 
 
     -   maps the productive routes to your green versions
 
-         ![](images/Blue-Green_Deployment_of_an_MTA_2add17e.png) 
+        ![](images/Blue-Green_Deployment_of_an_MTA_2add17e.png)
 
     -   deletes the temporary routes
     -   restarts “green” apps with productive route configurations
     -   restarts the applications, so that the environment URLs are updated
     -   deletes the “blue” applications, which were productive before
 
-     ![](images/Green_Application_version_of_an_MTA_d0dec55.png) 
+    ![](images/Green_Application_version_of_an_MTA_d0dec55.png)
 
 
 **Related Information**  

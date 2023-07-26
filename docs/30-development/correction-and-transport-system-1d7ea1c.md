@@ -48,6 +48,20 @@ This statement will create a new workbench transport request with one unclassifi
 > lo_transport_request->release( ).
 > ```
 
+When releasing a transport, it's also possible to specify dedicated release options that should be considered when the transport is released. Transport release options are accessible via `XCO_CP_TRANSPORT=>RELEASE_OPTION` and as of now, the following transport release options are offered:
+
+-   `IGNORE_OBJECTS_CHECK`: If non-critical issues are detected with objects contained on the transport \(such as issues due to ATC violations\), this option allows you to ignore these issues and release the transport anyways. Setting this option has an effect equivalent to explicitly confirming the release of the transport when an interactive tool, such as the ADT Transport Organizer, is used to release the transport.
+
+
+Releasing a transport request with the ignore objects check option can be done like this:
+
+> ### Sample Code:  
+> ```abap
+> DATA(lo_ignore_objects_check_option) = xco_cp_transport=>release_option->ignore_objects_check( ).
+> 
+> lo_transport_request->release( VALUE #( ( lo_ignore_objects_check_option ) ) ).
+> ```
+
 Besides being able to easily release transport tasks and requests, it is also possible to protect and unprotect transport requests:
 
 > ### Sample Code:  

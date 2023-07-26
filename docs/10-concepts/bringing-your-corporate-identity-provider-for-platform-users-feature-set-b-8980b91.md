@@ -16,13 +16,13 @@ Platform users perform technical development, operations, and administration tas
 
 The following figure illustrates the architecture required for platform users. This configuration is independent of the default configuration with SAP ID service. You can continue to use SAP ID service in parallel.
 
-   
+  
   
 **Authentication Architecture for Platform Users with a Corporate Identity Provider**
 
- 
 
- ![](images/SAP_BTP_Account_Mapping_e29be15.png) 
+
+![](images/SAP_BTP_Account_Mapping_e29be15.png)
 
 In the preceding figure, you enable trust between the SAP BTP global account and your corporate identity provider over your tenant of SAP Cloud Identity Services - Identity Authentication. For each global account, you choose the Identity Authentication tenant to use as the identity provider for platform users. For the platform identify provider, you can have up to three Identity Authentication tenants per global account. Multiple global accounts can share the same Identity Authentication tenant. When you log on to a platform resource, such as the cockpit, you indicate the Identity Authentication tenant that you want to log on with. For example, to log on to the cockpit, copy a URL parameter from the cockpit to identify the tenant:
 

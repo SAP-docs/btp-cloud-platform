@@ -747,6 +747,94 @@ N/A
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+`mta-version`
+
+
+
+</td>
+<td valign="top">
+
+All
+
+
+
+</td>
+<td valign="top">
+
+Write
+
+
+
+</td>
+<td valign="top">
+
+The version of the MTA
+
+
+
+</td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
+<td valign="top">
+
+`1.0.0`
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`mta-id`
+
+
+
+</td>
+<td valign="top">
+
+All
+
+
+
+</td>
+<td valign="top">
+
+Write
+
+
+
+</td>
+<td valign="top">
+
+The ID of the MTA
+
+
+
+</td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
+<td valign="top">
+
+`1.0.0`
+
+
+
+</td>
+</tr>
 </table>
 
 

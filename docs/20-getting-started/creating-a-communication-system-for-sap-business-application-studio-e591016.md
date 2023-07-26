@@ -42,14 +42,14 @@ Create a communication system to set up communication between your ABAP environm
     <tr>
     <td valign="top">
     
-        **User ID Mapping Mode**
+    **User ID Mapping Mode**
 
 
     
     </td>
     <td valign="top">
     
-        User Name
+    User Name
 
 
     
@@ -58,14 +58,14 @@ Create a communication system to set up communication between your ABAP environm
     <tr>
     <td valign="top">
     
-        **SAML Bearer Issuer**
+    **SAML Bearer Issuer**
 
 
     
     </td>
     <td valign="top">
     
-        From the *Signing Certificate Subject*, copy the common name \(the string after *CN=*\) and paste it in the *SAML Bearer Issuer* field.
+    From the *Signing Certificate Subject*, copy the common name \(the string after *CN=*\) and paste it in the *SAML Bearer Issuer* field.
 
 
     

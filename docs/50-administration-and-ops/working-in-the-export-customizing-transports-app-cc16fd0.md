@@ -21,6 +21,16 @@ If the automatic recording for the client is not allowed, you can save changed c
 
 
 
+<a name="loiocc16fd0c10ef4ed39a50ac718c71e5a8__section_ok1_4dv_vxb"/>
+
+## Display Request
+
+1.  Navigate to a request's object page to display its tasks, objects, attributes, documentation and logs.
+2.  Select a customizing task to display the objects recorded in it.
+3.  Select an object to display the table keys recorded in it.
+
+
+
 <a name="loiocc16fd0c10ef4ed39a50ac718c71e5a8__section_qfh_hwf_bpb"/>
 
 ## Create Request
@@ -36,13 +46,23 @@ If the automatic recording for the client is not allowed, you can save changed c
 
 
 
-<a name="loiocc16fd0c10ef4ed39a50ac718c71e5a8__section_kcp_j5s_vrb"/>
+<a name="loiocc16fd0c10ef4ed39a50ac718c71e5a8__section_ukj_jcv_vxb"/>
 
-## Display Request
+## Check All
 
-1.  Navigate to a request's object page to display its tasks, objects, attributes, and logs.
-2.  Select a customizing task to display the objects recorded in it.
-3.  Select an object to display the table keys recorded in it.
+1.  Open the *Export Customizing Transports* app. A list of customizing requests is displayed, with the latest request shown first at the top.
+
+2.  You may put a filter on *Status* for modifiable and checking status. Additionally you can sort the transports in ascending order to see the current status of those transports sequentially.
+
+3.  Click *Check All* to trigger consistency check for all open transports.
+
+    > ### Note:  
+    > Consistency check gets triggered in thebackground and the UI shows the latest transport request status as soon as *Check All* is triggered. The UI gets refreshed everytime after certain interval showing the latest status. The transport with status *Checking* shows the request currently being processed.
+    > 
+    > As soon as the consistency check is complete, a momentarily message gets displayed at the bottom.
+    > 
+    > If the *Check all* is already running, you can't trigger another and it will give you an error message
+
 
 
 
@@ -56,7 +76,7 @@ If the automatic recording for the client is not allowed, you can save changed c
 
 4.  To refresh the status of a released or simulated request: Select the request with the status *Checking* or *Release Started* and click *Refresh*.
 
-     ![](images/RefreshImage_9bb7b10.png) 
+    ![](images/RefreshImage_9bb7b10.png)
 
 5.  View the results of the simulation or direct release in the *Logs* tab.
 
@@ -75,7 +95,7 @@ If there are dependencies between different requests or several business users h
 
 3.  In the selection dialog, enter the target request number to which the selected request should be merged, and click *Merge*.
 
-     ![](images/MergeScreen_b7973c1.png) 
+    ![](images/MergeScreen_b7973c1.png)
 
 
 > ### Note:  

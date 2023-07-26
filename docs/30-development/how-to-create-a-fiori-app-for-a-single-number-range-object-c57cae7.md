@@ -44,11 +44,11 @@ A development package and a transport request are needed to implement the soluti
 
 2.  Choose SAPUI5 freestyle from the drop-down menu *Application Type* and press *Next*.
 
-     ![](images/controller_e4f5be1.png) 
+    ![](images/controller_e4f5be1.png)
 
 3.  For *Data source* choose *None* out of the drop-down menu and press *Next*. You can use the proposed view name in the next step or rename it. Press *Next*.
 
-     ![](images/deploy_8984fb5.png) 
+    ![](images/deploy_8984fb5.png)
 
 4.  After filling in the mandatory fields of the project attributes, add your deployment configuration as well as your FLP configuration by choosing *Yes*.
 

@@ -220,7 +220,7 @@ Username of the person responsible in change document. Only those change documen
 <tr>
 <td valign="top">
 
-IT\_READ\_OPTIONS
+IS\_READ\_OPTIONS
 
 
 
@@ -308,6 +308,52 @@ it\_changenr
 Range table for change document number. Change document numbers were created internally as part of key of change documents. The key of change document is represented by Object name, Object ID of the application object and a change number. During creation of change documents using the write method of class `<name space>CL_<change document object name>_CHDO`
 
 Change documents numbers were received by export paramter `CHANGENUMBER`.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+only\_headers
+
+
+
+</td>
+<td valign="top">
+
+Only return the change document header information without the position
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+IV\_READ\_ARCHIVE
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+Control the interface to read change documents from the archive, too
 
 
 
@@ -1393,6 +1439,71 @@ VERSION
 >     ENDTRY.
 >   ENDMETHOD.
 > ENDCLASS.
+> 
+> ```
+
+> ### Sample Code:  
+> Read all change documents for object class `ZCHDO_TEST` including the archive.
+> 
+> ```abap
+> CLASS zcl_chdo_read DEFINITION
+>   PUBLIC
+>   FINAL
+>   CREATE PUBLIC .
+> 
+>   PUBLIC SECTION.
+>     INTERFACES if_oo_adt_classrun.
+>   PROTECTED SECTION.
+>   PRIVATE SECTION.
+> ENDCLASS.
+> 
+> CLASS zcl_chdo_read IMPLEMENTATION.
+>   METHOD if_oo_adt_classrun~main.
+> 
+>     DATA: rt_cdredadd TYPE cl_chdo_read_tools=>tt_cdredadd_tab,
+>           lr_err      TYPE REF TO cx_chdo_read_error.
+>     DATA lt_cdredadd TYPE cl_chdo_read_tools=>tt_cdredadd_tab.
+> 
+>     TRY.
+> 
+>         DATA(lt_files) = cl_arch_read_api=>get_files_to_read( iv_archiving_object = 'ZAOBJ_TEST' ).
+>         SORT lt_files BY creation_date DESCENDING creation_time DESCENDING.
+>         READ TABLE lt_files ASSIGNING FIELD-SYMBOL(<ls_file>) INDEX 1.
+>         CHECK sy-subrc = 0. " no files
+> 
+>         DATA(lo_read) = cl_arch_read_api=>get_instance( iv_archiving_object = 'ZAOBJ_TEST'
+>                                                         iv_archive_key = <ls_file>-archive_key ).
+>         DO.
+>           lo_read->get_next_data_object( IMPORTING ev_end_of_file = DATA(lv_end_of_file)
+>                                                    ev_archive_key = DATA(lv_archive_key)
+>                                                    ev_object_offset = DATA(lv_offset) ).
+>           IF lv_end_of_file = abap_true.
+>             EXIT.
+>           ENDIF.
+> *          no application data
+> *          lo_read->get_data_records( EXPORTING iv_record_structure = 'XXX'
+> *                                     IMPORTING et_data_records = lt_data ).
+> *          APPEND LINES OF lt_data TO lt_data_all.
+>           TRY.
+>               cl_chdo_read_tools=>changedocument_read(
+>                 EXPORTING
+>                   i_objectclass    = 'ZCHDO_TEST'
+>                   iv_read_archive  = lo_read
+>                 IMPORTING
+>                   et_cdredadd_tab  = DATA(lt_cd)
+>               ).
+>             CATCH cx_chdo_read_error INTO DATA(ls_read_err).
+>               out->write( |Exception occurred: { ls_read_err->get_text( ) }| ).
+>           ENDTRY.
+>           APPEND LINES OF lt_cd TO lt_cdredadd.
+> 
+>         ENDDO.
+>         lo_read->close( ).
+>       CATCH cx_arch_api INTO DATA(lx_error).
+>         out->write( |Exception occurred: { lx_error->get_text( ) }| ).
+>     ENDTRY.
+> 
+>   ENDMETHOD.
 > 
 > ```
 

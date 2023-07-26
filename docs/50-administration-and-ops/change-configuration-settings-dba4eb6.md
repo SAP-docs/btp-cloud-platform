@@ -29,30 +29,14 @@ To find out where the configuration file is stored, use `btp --info`. Use the fo
     <tr>
     <td valign="top">
     
-        `--format FORMAT`
+    `--format FORMAT`
 
 
     
     </td>
     <td valign="top">
     
-        The output format of commands. Valid values: text \(default\), json
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        `--verbose BOOL`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        If set to true, command output includes tracing information for support. Valid values: false \(default\), true
+    The output format of commands. Valid values: text \(default\), json
 
 
     
@@ -61,14 +45,30 @@ To find out where the configuration file is stored, use `btp --info`. Use the fo
     <tr>
     <td valign="top">
     
-        `--target.hierarchy BOOL`
+    `--verbose BOOL`
 
 
     
     </td>
     <td valign="top">
     
-        If set to true, `btp target` displays the full hierarchy of all global accounts. Valid values: false \(default\), true
+    If set to true, command output includes tracing information for support. Valid values: false \(default\), true
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `--target.hierarchy BOOL`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    If set to true, `btp target` displays the full hierarchy of all global accounts. Valid values: false \(default\), true
 
     See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
 

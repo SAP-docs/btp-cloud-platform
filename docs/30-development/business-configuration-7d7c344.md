@@ -15,13 +15,13 @@ Depending on your scenario, you can use one of the following transport patterns:
     > ### Note:  
     > All consumer tenants \(≥200\) in multitenant systems are isolated tenants because the administration of software components is not supported in these tenants.
 
--   Simple – transports via software component of type *Business Configuration*. See [Transport Business Configuration via Software Components of Type Development](transport-business-configuration-via-software-components-of-type-development-d801854.md).
+-   Simple – transports via software component of type *Business Configuration*. See [Transport Business Configuration via Software Component of Type Business Configuration](transport-business-configuration-via-software-component-of-type-business-configuration-03a3611.md).
 
     You can transport business configuration for simple solutions via a software component of type *Business Configuration*. Since you can only clone one software component of this type in each system, all business configuration content is pushed to the same remote repository.
 
     In this scenario, you have to create and manage customizing transport requests with the *Export Customizing Transports* SAP Fiori app. See [Export Customizing Transports](../50-administration-and-ops/export-customizing-transports-a772a0f.md).
 
--   Multiple software components/Git repositories – transports via software components/Git repositores of type *Development*. See [Transport Business Configuration via Software Component of Type Business Configuration](transport-business-configuration-via-software-component-of-type-business-configuration-03a3611.md)
+-   Multiple software components/Git repositories – transports via software components/Git repositores of type *Development*. See [Transport Business Configuration via Software Components of Type Development](transport-business-configuration-via-software-components-of-type-development-d801854.md).
 
     If you want to work on multiple separated development projects in parallel in one development system with decoupled release schedules and in multiple software components, it is not advisable to use a software component of type *Business Configuration* because you may need to transport different sets of business configuration content independently from one another. Instead, transport the configuration together with the development via the corresponding software components of type *Development*.
 

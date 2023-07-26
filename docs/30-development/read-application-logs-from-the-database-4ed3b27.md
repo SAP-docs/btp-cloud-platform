@@ -6,22 +6,22 @@ You can use interface `IF_BALI_LOG_DB` to read one or more application logs from
 
 Interface `IF_BALI_LOG_DB` contains the following methods which can be used to read the logs from the database:
 
--   LOAD\_LOG: Load one application log from the database.
+-   LOAD\_LOG / LOAD\_LOG\_WITH\_ITEMS: Load one application log from the database.
 
     -   The log is identified by the log handle.
 
     -   The method returns an object of interface `IF_BALI_LOG`.
 
-    -   If the optional parameter `READ_ONLY_HEADER` is set, only the log header is read from the database. The log items are not read yet.
+    -   With method `LOAD_LOG_WITH_ITEMS`, the complete log including all items is read from the database. If you use method `LOAD_LOG` and set the optional parameter `READ_ONLY_HEADER`, only the log header is read from the database. The log items are not read yet.
 
 
--   LOAD\_LOGS\_VIA\_FILTER: Load one or more logs from the database.
+-   LOAD\_LOGS\_VIA\_FILTER / LOAD\_LOGS\_W\_ITEMS\_VIA\_FILTER: Load one or more logs from the database.
 
     -   The logs are identified by a filter object of interface `IF_BALI_LOG_FILTER`.
 
     -   The method returns an internal table of objects of interface `IF_BALI_LOG`.
 
-    -   If the optional parameter `READ_ONLY_HEADER` is set, only the log headers are read from the database. The log items are not read yet.
+    -   With method `LOAD_LOG_W_ITEMS_VIA_FILTER`, the complete logs including all items are read from the database. If you use method `LOAD_LOGS_VIA_FILTER` and set the optional parameter `READ_ONLY_HEADER`, only the log headers are read from the database. The log items are not read yet.
 
 
 
@@ -69,7 +69,7 @@ Authorization object: `S_APPL_LOG`, with
 > >                                      end_time = l_timestamp_now ).
 > > 
 > >         " Read all Application Logs from the database which fit to the filter
-> >         DATA(log_table) = cl_bali_log_db=>get_instance( )->load_logs_via_filter( filter = l_filter ).
+> >         DATA(log_table) = cl_bali_log_db=>get_instance( )->load_logs_w_items_via_filter( filter = l_filter ).
 > > 
 > >         LOOP AT log_table INTO DATA(l_log).
 > >           " Output log handle
@@ -129,7 +129,7 @@ Authorization object: `S_APPL_LOG`, with
 > > ...
 > >     TRY.
 > >         DATA(l_filter) = cl_bali_log_filter=>create( )->set_create_info( user = sy-uname ).
-> >         DATA(log_table) = cl_bali_log_db=>get_instance( )->load_logs_via_filter( filter = l_filter ).
+> >         DATA(log_table) = cl_bali_log_db=>get_instance( )->load_logs_w_items_via_filter( filter = l_filter ).
 > >       CATCH cx_bali_runtime INTO DATA(l_exception).
 > >         out->write( l_exception->get_text(  ) ).
 > >     ENDTRY.

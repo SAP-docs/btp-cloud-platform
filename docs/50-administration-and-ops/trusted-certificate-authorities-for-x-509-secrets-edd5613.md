@@ -34,14 +34,14 @@ Validity
 <tr>
 <td valign="top">
 
- `C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2` 
+`C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2` 
 
 
 
 </td>
 <td valign="top">
 
- `C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2` 
+`C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2` 
 
 
 
@@ -57,14 +57,14 @@ Jan 15 12:00:00 2038 GMT
 <tr>
 <td valign="top">
 
- `C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root CA` 
+`C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root CA` 
 
 
 
 </td>
 <td valign="top">
 
- `C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root CA` 
+`C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root CA` 
 
 
 
@@ -80,14 +80,14 @@ Nov 10 00:00:00 2031 GMT
 <tr>
 <td valign="top">
 
- `C=US, O=Entrust, Inc., OU=www.entrust.net/legal-terms, CN=Entrust Root Certification Authority - G2` 
+`C=US, O=Entrust, Inc., OU=www.entrust.net/legal-terms, CN=Entrust Root Certification Authority - G2` 
 
 
 
 </td>
 <td valign="top">
 
- `C=US, O=Entrust, Inc., OU=www.entrust.net/legal-terms, CN=Entrust Root Certification Authority - G2` 
+`C=US, O=Entrust, Inc., OU=www.entrust.net/legal-terms, CN=Entrust Root Certification Authority - G2` 
 
 
 
@@ -103,14 +103,14 @@ Nov 10 00:00:00 2031 GMT
 <tr>
 <td valign="top">
 
- `C=IE, O=Baltimore, OU=CyberTrust, CN=Baltimore CyberTrust Root` 
+`C=IE, O=Baltimore, OU=CyberTrust, CN=Baltimore CyberTrust Root` 
 
 
 
 </td>
 <td valign="top">
 
- `C=IE, O=Baltimore, OU=CyberTrust, CN=Baltimore CyberTrust Root` 
+`C=IE, O=Baltimore, OU=CyberTrust, CN=Baltimore CyberTrust Root` 
 
 
 
@@ -126,14 +126,14 @@ May 12 23:59:00 2025 GMT
 <tr>
 <td valign="top">
 
- `C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root CA` 
+`C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root CA` 
 
 
 
 </td>
 <td valign="top">
 
- `C=US, O=DigiCert Inc, CN=DigiCert SHA2 Secure Server CA` 
+`C=US, O=DigiCert Inc, CN=DigiCert SHA2 Secure Server CA` 
 
 
 

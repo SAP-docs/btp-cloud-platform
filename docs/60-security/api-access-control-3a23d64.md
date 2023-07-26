@@ -8,7 +8,7 @@ A business system uses APIs to directly access the resources in the runtime cont
 
 The following diagram shows the architecture with the components that are responsible for business system authentication, authorization management, and security.
 
- ![](images/API_Access_Diagram_e9d66bf.png) 
+![](images/API_Access_Diagram_e9d66bf.png)
 
 The User Account and Authentication \(UAA\) component is the central infrastructure component of the runtime platform for authentication and authorization management. The users can be stored in the following identity providers:
 

@@ -26,6 +26,10 @@ You can use this app to:
 
 -   Display dependencies: Check if a business catalog depends on other business catalogs or if other business catalogs depend on a business catalog in order to be fully operational.
 
+-   Display scope items: check which scope items the business catalogs depend on. Business catalogs that do not depend on any scope items are always visible in the system. For these business catalogs, *Scope Items \(0\)* is displayed on the relevant tab and the following message appears in the table: *The business catalog is not scope-dependent*.
+
+-   Display component: check under which component you can create an incident if required.
+
 
 
 

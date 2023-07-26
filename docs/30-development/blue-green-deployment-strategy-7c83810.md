@@ -15,7 +15,7 @@ Use the current blue-green deployment of Multitarget applications.
 
 You have a previously deployed MTA, with functional productive applications and routes:
 
- ![](images/Blue_Application_Version_of_an_MTA_NEW_8d66427.png) 
+![](images/Blue_Application_Version_of_an_MTA_NEW_8d66427.png)
 
 
 
@@ -42,7 +42,7 @@ You have a previously deployed MTA, with functional productive applications and 
     -   new applications adding “idle” to the original application names
     -   temporary routes to the idle applications
 
-         ![](images/Blue-Green_with_a_Temporatry_Route_NEW_2519972.png) 
+        ![](images/Blue-Green_with_a_Temporatry_Route_NEW_2519972.png)
 
     -   an interrupt to the process showing a message similar to the following:
 
@@ -78,7 +78,7 @@ You have a previously deployed MTA, with functional productive applications and 
     -   restarts “idle” apps with productive route configurations
     -   deletes the “live” applications, which were productive before
 
-         ![](images/Green_Application_version_of_an_MTA_NEW_ec69fb7.png) 
+        ![](images/Green_Application_version_of_an_MTA_NEW_ec69fb7.png)
 
 
 

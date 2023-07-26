@@ -18,7 +18,7 @@ A factory calendar is based on a country-specific holiday calendar and defines w
 Read on to learn about the set of data we deliver for these categories.
 
 > ### Note:  
-> Class `CL_SCAL_API` is still available, but deprecated. We recommend that you use class `CL_FHC_CALENDAR_RUNTIME` and the related interfaces instead. For information about the mapping between SCAL-relevant IDs and FHC-relevant IDs, see the corresponding section below.
+> Class `CL_SCAL_API` is still available, but deprecated. We recommend that you use class `CL_FHC_CALENDAR_RUNTIME` and the related interfaces `IF_FHC_FCAL_RUNTIME`, `IF_FHC_HCAL_RUNTIME` and `IF_FHC_HOLIDAY_RUNTIME` instead. Furthermore the CDS Views from the section [Accessing Holiday and Factory Calendar Tables Using VDM-Compliant CDS Views](accessing-holiday-and-factory-calendar-tables-using-vdm-compliant-cds-views-cc36b14.md) can be used to get an overview of existing factory- and holiday calendars. For information about the mapping between SCAL-relevant IDs and FHC-relevant IDs, see the corresponding section below.
 
 
 
@@ -341,6 +341,22 @@ get\_id
 <td valign="top">
 
 Provides the ID of the factory calendar
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+date\_compute\_day
+
+
+
+</td>
+<td valign="top">
+
+Provides the name and the number of the weeday for a specified date
 
 
 
@@ -901,6 +917,22 @@ DATE\_GET\_WEEK
 <td valign="top">
 
 Provides the year and week of a date
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DATE\_COMPUTE\_DAY
+
+
+
+</td>
+<td valign="top">
+
+Provides the name and number of the weekday for a specified date
 
 
 

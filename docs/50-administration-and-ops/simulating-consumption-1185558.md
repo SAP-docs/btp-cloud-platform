@@ -8,7 +8,7 @@
 
 -   The *Enterprise Event Enablement ‒ Configure Channel Bindings* app is visible.
 
-    If the *Enterprise Event Enablement ‒ Configure Channel Bindings* app is not visible, add the *Enterprise Event Enablement* business catalog to the `SAP_BR_ADMINISTRATOR` role using the *Maintain Business Roles* app. The change in your role becomes effective after you have logged out and logged in again. For more information about adding catalogs to business roles, refer to [Maintain Business Roles](maintain-business-roles-8980ad0.md).
+    If the *Enterprise Event Enablement ‒ Configure Channel Bindings* app is not visible, add the *Enterprise Event Enablement* business catalog to the `SAP_BR_ADMINISTRATOR` role using the *Maintain Business Roles* app. The change in your role becomes effective after you have logged out and logged in again. For more information about adding catalogs to business roles, refer to [Maintain Business Roles \(Deprecated\)](maintain-business-roles-deprecated-8980ad0.md).
 
 -   You have an inbound topic binding with status *Ok* in your *Inbound Topics* table.
 

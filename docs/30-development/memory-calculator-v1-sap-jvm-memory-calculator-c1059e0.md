@@ -107,44 +107,21 @@ The **memory\_calculator** section encloses the input data for the memory calcul
     <tr>
     <td valign="top">
     
-        120M
+    120M
 
 
     
     </td>
     <td valign="top">
     
-        120M
+    120M
 
 
     
     </td>
     <td valign="top">
     
-        120M
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        120M..
-
-
-    
-    </td>
-    <td valign="top">
-    
-        \[120M\)
-
-
-    
-    </td>
-    <td valign="top">
-    
-        \>=120M
+    120M
 
 
     
@@ -153,21 +130,44 @@ The **memory\_calculator** section encloses the input data for the memory calcul
     <tr>
     <td valign="top">
     
-        120M..150M
+    120M..
 
 
     
     </td>
     <td valign="top">
     
-        \[120M, 150M\]
+    \[120M\)
 
 
     
     </td>
     <td valign="top">
     
-        \>=120M & <=150M
+    \>=120M
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    120M..150M
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \[120M, 150M\]
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \>=120M & <=150M
 
 
     
@@ -369,7 +369,7 @@ Memory calculator settings
 
 `memory_sizes`:
 
--    *metaspace*: 64m..70m
+-   *metaspace*: 64m..70m
 
 
 `memory_heuristics`:

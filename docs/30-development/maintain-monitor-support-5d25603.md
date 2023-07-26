@@ -4,7 +4,7 @@
 
 After the go-live of the SaaS solution and the deployment of its updates, consumers using the solution might run into issues that you have to troubleshoot and debug.
 
- <a name="loio9721f0fb92a84e2a95309acf445cb0a9"/>
+<a name="loio9721f0fb92a84e2a95309acf445cb0a9"/>
 
 <!-- loio9721f0fb92a84e2a95309acf445cb0a9 -->
 
@@ -26,7 +26,7 @@ Once everything is implemented, built, and the maintenance delivery is deployed,
 -   To trigger the add-on product build, you need a Jenkins pipeline and a pipeline configuration including the new add-on version.
 -   To apply updates for the SaaS solution, you need a subscription to the Landscape Portal application and a user assigned to role collection `LandscapePortalAdminRoleCollection`.
 
- <a name="loio44035458f01e4142a18d44f9c0301e62"/>
+<a name="loio44035458f01e4142a18d44f9c0301e62"/>
 
 <!-- loio44035458f01e4142a18d44f9c0301e62 -->
 
@@ -166,7 +166,7 @@ Users in the ABAP correction system COR might be locked and need to be unlocked 
 > ### Tip:  
 > For in-depth information about the system landscape/account model, check out [System Landscape/Account Model](concepts-9482e7e.md#loio4ca756395fc24e56a42b77632a6bd862).
 
- <a name="loioa35582346bff4914a5b4b0bcb776668c"/>
+<a name="loioa35582346bff4914a5b4b0bcb776668c"/>
 
 <!-- loioa35582346bff4914a5b4b0bcb776668c -->
 
@@ -247,7 +247,7 @@ Patch versions are used to deliver unplanned and most likely urgent corrections 
 
         As a tester, test the corrections in the QAS system to validate that the provided bug fixes are solving the problem and are working properly. As an add-on admin, use the software components app to import the latest changes into the quality assurance system QAS.
 
-        Required testing can involve anything from maintaining business roles, creating communication arrangements to more complex testing scenarios where connectivity is involved. See [Maintain Business Roles](../50-administration-and-ops/maintain-business-roles-8980ad0.md), [How to Create a Communication Arrangement](../50-administration-and-ops/how-to-create-a-communication-arrangement-a0771f6.md), and [Connectivity](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html). What needs to be tested is related to the implemented corrections.
+        Required testing can involve anything from maintaining business roles, creating communication arrangements to more complex testing scenarios where connectivity is involved. See [Maintain Business Roles \(Deprecated\)](../50-administration-and-ops/maintain-business-roles-deprecated-8980ad0.md), [How to Create a Communication Arrangement](../50-administration-and-ops/how-to-create-a-communication-arrangement-a0771f6.md), and [Connectivity](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html). What needs to be tested is related to the implemented corrections.
 
 
 -   **Double maintenance of corrections into development**
@@ -442,7 +442,7 @@ Release versions are used to deliver new major, planned functional enhancements.
     > Only with new release deliveries, you can change the software component version bundle in a new release.
 
 
- <a name="loio7f6988a9a9f94845825d8c7ff66990fb"/>
+<a name="loio7f6988a9a9f94845825d8c7ff66990fb"/>
 
 <!-- loio7f6988a9a9f94845825d8c7ff66990fb -->
 
@@ -471,7 +471,7 @@ Finally, the previously created target vector for the new add-on product version
 
 After a successful build, all ABAP systems used are deprovisioned and the add-on is technically available for deployment to the ABAP environment.
 
- <a name="loio90ada4e99f684deba48664fed04acc12"/>
+<a name="loio90ada4e99f684deba48664fed04acc12"/>
 
 <!-- loio90ada4e99f684deba48664fed04acc12 -->
 
@@ -479,7 +479,7 @@ After a successful build, all ABAP systems used are deprovisioned and the add-on
 
 Use the *Check Product Version* app in Landscape Portal to check whether the product version, its components, and respective packages are ready for delivery. See [Check Product Version](check-product-version-0da158a.md).
 
- <a name="loio0a80d4c5c079435e9aca4eb9e6841de9"/>
+<a name="loio0a80d4c5c079435e9aca4eb9e6841de9"/>
 
 <!-- loio0a80d4c5c079435e9aca4eb9e6841de9 -->
 
@@ -500,7 +500,7 @@ The listed add-on product versions are based on these versions where the corresp
 
 Afterwards, you can select the systems where the update should be applied, and schedule the update.
 
- <a name="loio00de26798389472f989601306d2207e1"/>
+<a name="loio00de26798389472f989601306d2207e1"/>
 
 <!-- loio00de26798389472f989601306d2207e1 -->
 
@@ -550,7 +550,7 @@ To reproduce the consumer issue, the following information should be provided:
     To reproduce the customer issue, you need detailed information about the user actions that lead to the error, and, if possible, user input that was performed during these steps.
 
 
- <a name="loio3687b52c5d3349f7956e93bf2f807e6c"/>
+<a name="loio3687b52c5d3349f7956e93bf2f807e6c"/>
 
 <!-- loio3687b52c5d3349f7956e93bf2f807e6c -->
 

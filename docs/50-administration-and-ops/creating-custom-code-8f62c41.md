@@ -18,6 +18,11 @@ The method signature on the right provides information about the method's parame
 
 Put the cursor on a class, interface, or parameter to view the documentation displayed in the element information at the bottom of the page.
 
+In edit mode, you can add prebuilt code blocks by selecting *Insert Code Snippet*.
+
+> ### Note:  
+> Do not use the `return` statement in your code because it can affect the framework logic. It can result in missing custom logic trace entries or unexpected code behavior.
+
 
 
 <a name="loio8f62c414203546faa96542ad723f932e__section_orr_1t2_4vb"/>
@@ -70,7 +75,7 @@ What Is It Used For?
 <tr>
 <td valign="top">
 
-  [Ctrl\] + [Space\]  
+[Ctrl\] + [Space\]  
 
 
 
@@ -86,7 +91,7 @@ To turn on code completion
 <tr>
 <td valign="top">
 
-  [Shift\] + [F1\]  
+[Shift\] + [F1\]  
 
 
 
@@ -102,9 +107,9 @@ To use the pretty printer
 <tr>
 <td valign="top">
 
- [Ctrl\] + [/\] \(Slash\)
+[Ctrl\] + [/\] \(Slash\)
 
- [Ctrl\] + [\#\] \(Hash\)
+[Ctrl\] + [\#\] \(Hash\)
 
 
 

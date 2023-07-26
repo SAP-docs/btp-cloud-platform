@@ -139,7 +139,7 @@ OpenID Connect \(OIDC\) issuer in the *Name* field of the Identity Authenticatio
 <tr>
 <td valign="top">
 
- Neo CLI
+Neo CLI
 
 
 
@@ -158,7 +158,7 @@ No restriction for new Neo subaccount if this [prerequisite](https://help.sap.co
 <tr>
 <td valign="top">
 
- Neo Git service
+Neo Git service
 
 
 
@@ -174,7 +174,7 @@ Logging on with a password to the Neo Git service doesn't work with custom ident
 <tr>
 <td valign="top">
 
- Cloud connector 
+Cloud connector 
 
 
 

@@ -28,11 +28,11 @@ Once you've created a condition and you want to log events only in a certain con
 
 5.  Search for your configuration in the *Search Criteria* section. Refer to [Searching for Existing Configurations](searching-for-existing-configurations-84c908b.md).
 
-6.  Press the *Edit Configuration* icon of the configuration you want to define a condition for.
+6.  Click the *Edit Configuration* icon of the configuration you want to define a condition for.
 
 7.  In the *Conditions* section, select the condition you want to add expressions for.
 
-8.  Press *Create* in the *Expressions* section of the condition.
+8.  Click *Create* in the *Expressions* section of the condition.
 
     1.  Define a name for the *Expression*.
 
@@ -43,7 +43,7 @@ Once you've created a condition and you want to log events only in a certain con
 
 9.  Drag and drop the *Access Context* condition field from the *Field List* \> *Channel Fields* \> *Condition Fields* to the *Select options* section under *Details of Expression*.
 
-10. Press *Save as Active* to activate your configuration including assigned conditions.
+10. Click *Save as Active* to activate your configuration including assigned conditions.
 
 
 **Related Information**  

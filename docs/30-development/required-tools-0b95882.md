@@ -5,7 +5,7 @@
 Different actions require different tools. In the process descriptions, the following tools are used:
 
 -   SAP BTP cockpit \(web-based administration interface\)
--   SAP Fiori app [Maintain Business Roles](../50-administration-and-ops/maintain-business-roles-8980ad0.md)
+-   SAP Fiori app [Maintain Business Roles \(Deprecated\)](../50-administration-and-ops/maintain-business-roles-deprecated-8980ad0.md)
 -   SAP Fiori app [Maintain Business Users](../50-administration-and-ops/maintain-business-users-e40e710.md)
 -   SAP Fiori app [Manage Software Components](../50-administration-and-ops/manage-software-components-3dcf76a.md) 
 -   SAP Fiori app [Export Customizing Transports](../50-administration-and-ops/export-customizing-transports-a772a0f.md)

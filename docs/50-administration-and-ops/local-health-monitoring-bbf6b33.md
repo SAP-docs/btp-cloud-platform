@@ -22,6 +22,8 @@ The *Health Monitoring* app offers the following features:
 
 -   Multiple characteristics are visible in one chart if applicable.
 
+-   From some cards, you can navigate to related apps for further analysis or issue fixing.
+
 
 > ### Note:  
 > If you want to monitor the health of multiple systems **centrally**, you can use SAP Cloud ALM. For more information, see [Central Health Monitoring Using SAP Focused Run and SAP Cloud ALM](central-health-monitoring-using-sap-focused-run-and-sap-cloud-alm-8d6e2e7.md).

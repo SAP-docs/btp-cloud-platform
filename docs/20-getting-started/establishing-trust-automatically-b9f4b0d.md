@@ -62,14 +62,14 @@ If you have custom identity provider, you can use a function in SAP BTP cockpit 
     <tr>
     <td valign="top">
     
-        **email**
+    **email**
 
 
     
     </td>
     <td valign="top">
     
-        email
+    email
 
 
     
@@ -78,14 +78,14 @@ If you have custom identity provider, you can use a function in SAP BTP cockpit 
     <tr>
     <td valign="top">
     
-        **user\_name**
+    **user\_name**
 
 
     
     </td>
     <td valign="top">
     
-        login name
+    login name
 
 
     

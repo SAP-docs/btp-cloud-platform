@@ -10,7 +10,7 @@
 
 -   The *Enterprise Event Enablement ‒ Configure Channel Bindings* app is visible.
 
-    If the *Enterprise Event Enablement ‒ Configure Channel Bindings* app is not visible, add the *Enterprise Event Enablement* business catalog to the `SAP_BR_ADMINISTRATOR` role using the *Maintain Business Roles* app. The change in your role becomes effective after you have logged out and logged in again. For more information about adding catalogs to business roles, refer to [Maintain Business Roles](maintain-business-roles-8980ad0.md).
+    If the *Enterprise Event Enablement ‒ Configure Channel Bindings* app is not visible, add the *Enterprise Event Enablement* business catalog to the `SAP_BR_ADMINISTRATOR` role using the *Maintain Business Roles* app. The change in your role becomes effective after you have logged out and logged in again. For more information about adding catalogs to business roles, refer to [Maintain Business Roles \(Deprecated\)](maintain-business-roles-deprecated-8980ad0.md).
 
 
 
@@ -52,14 +52,14 @@ You can configure event consumers delivered by SAP manually.
     <tr>
     <td valign="top">
     
-        **Create a new topic.**
+    **Create a new topic.**
 
 
     
     </td>
     <td valign="top">
     
-        1.  Choose *Create*.
+    1.  Choose *Create*.
     2.  Enter a topic name.
     3.  Choose *Create* to save your entries.
 
@@ -72,14 +72,14 @@ You can configure event consumers delivered by SAP manually.
     <tr>
     <td valign="top">
     
-        **Delete an existing topic created by an end user.**
+    **Delete an existing topic created by an end user.**
 
 
     
     </td>
     <td valign="top">
     
-        1.  Select the checkbox of the topic you want to delete.
+    1.  Select the checkbox of the topic you want to delete.
     2.  Choose *Delete*.
 
 
@@ -89,14 +89,14 @@ You can configure event consumers delivered by SAP manually.
     <tr>
     <td valign="top">
     
-        **Define table parameters.**
+    **Define table parameters.**
 
 
     
     </td>
     <td valign="top">
     
-        Press the gear icon to define the table parameters.
+    Click the gear icon to define the table parameters.
 
 
     
@@ -187,7 +187,7 @@ Is the topic presentation.
 </td>
 <td valign="top">
 
-The event inbound topic binding was created manually by an user.
+The event inbound topic binding was created manually by a user.
 
 
 
@@ -203,7 +203,7 @@ The event inbound topic binding was created manually by an user.
 </td>
 <td valign="top">
 
-The event inbound topic binding was created automatically during the configuration of a generated *Event Consumption Model*.
+The event inbound topic binding was created automatically during the configuration of a generated event consumption model.
 
 
 
@@ -215,8 +215,10 @@ The event inbound topic binding was created automatically during the configurati
 > In case invalid bindings maintained by an end user exist, you can delete this binding by:
 > 
 > -   choosing *Delete invalid bindings* on top of the page or
-> -   selecting the respective topic and choose *Delete*.
+> -   selecting the respective topic and choosing *Delete*.
 
 > ### Note:  
-> To enable the consumption of events, the `AMQP` protocol replaces the `MQTT` protocol. New communication arrangements use the `AMQP` protocol by default. Existing communication arrangements can be updated via service key. To do so, refer to [Maintaining Communication Arrangements](maintaining-communication-arrangements-8fb8dab.md)
+> To enable the consumption of events, the `AMQP` protocol replaces the `MQTT` protocol. New communication arrangements use the `AMQP` protocol by default. Existing communication arrangements can be updated via the service key. To do so, refer to [Maintaining Communication Arrangements](maintaining-communication-arrangements-8fb8dab.md)
+> 
+> .
 

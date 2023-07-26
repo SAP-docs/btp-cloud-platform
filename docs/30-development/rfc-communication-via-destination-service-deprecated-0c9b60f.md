@@ -41,6 +41,8 @@ Create a destination object using class `cl_http_destination_provider` and metho
 
 
 
+## Example
+
 **Using a Service Consumption Model**
 
 You can consume your service using a Service Consumption Model \(SRVC\). Create an SRVC and replace the call of the method`cl_rfc_destination_provider=>create_by_comm_arrangement( )` that is proposed in the SRVC with`cl_rfc_destination_provider=>create_by_cloud_destination( )`:

@@ -71,7 +71,7 @@ If you need further assistance with creating and deploying an application, check
 > ### Prerequisite:  
 > Business catalog `SAP_A4C_BC_DEV_PC` is assigned to your user, which is required for development with ABAP Development Tools. See [Business Catalogs for Development Tasks](../50-administration-and-ops/business-catalogs-for-development-tasks-a9f4278.md).
 
-![](images/Custom_UI_Using_BAS_Step_3_3aa2ba1.png) 
+![](images/Custom_UI_Using_BAS_Step_3_3aa2ba1.png)
 
 1.  To manage access to your SAP Fiori application, you have to log on as a developer in ABAP Development Tools for Eclipse to create an Identity and Access Management \(IAM\) application, assign a UI5 application and a service, and maintain authorizations \(steps 1-3 in the figure above\). See [Creating an IAM App for the Business Service \(Developer\)](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2a2ddf967a704a878ee975f44630f71d.html).
 2.  Once you have created your IAM app, you have to create a business catalog. See [Creating a Business Catalog \(Developer\)](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/42c6a55947fe4bc89bd63b0f50b54c8a.html).
@@ -99,7 +99,5 @@ Launch your app in SAP Fiori launchpad. See [Add Your App to SAP Fiori Launchpad
 
 [Tutorial: Integrate List Report into ABAP Fiori Launchpad](https://developers.sap.com/tutorials/abap-environment-abap-flp.html)
 
-
-
-[https://developers.sap.com/group.sap-btp-abap-shell-plugin.html](https://developers.sap.com/group.sap-btp-abap-shell-plugin.html)
+[Tutorial: Create a Shell-Plug-in in the SAP BTP ABAP Environment](https://developers.sap.com/group.sap-btp-abap-shell-plugin.html)
 

@@ -60,30 +60,14 @@ Usage: `btp [OPTIONS] target [PARAMS]`
     <tr>
     <td valign="top">
     
-        `--global-account, -ga` *<SUBDOMAIN\>*
+    `--global-account, -ga` *<SUBDOMAIN\>*
 
 
     
     </td>
     <td valign="top">
     
-        The subdomain of the global account to be targeted.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        `--directory, -dir`*<ID\>*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        The ID of the directory to be targeted. You can find the directory ID by using `btp get accounts/global-account --show-hierarchy`.
+    The subdomain of the global account to be targeted.
 
 
     
@@ -92,14 +76,30 @@ Usage: `btp [OPTIONS] target [PARAMS]`
     <tr>
     <td valign="top">
     
-        `--subaccount, -sa` *<ID\>*
+    `--directory, -dir`*<ID\>*
 
 
     
     </td>
     <td valign="top">
     
-        The ID of the subaccount to be targeted. You can find the subaccount ID by using `btp list accounts/subaccount`.
+    The ID of the directory to be targeted. You can find the directory ID by using `btp get accounts/global-account --show-hierarchy`.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `--subaccount, -sa` *<ID\>*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    The ID of the subaccount to be targeted. You can find the subaccount ID by using `btp list accounts/subaccount`.
 
 
     
@@ -117,6 +117,8 @@ Usage: `btp [OPTIONS] target [PARAMS]`
 The CLI client displays the current target as a hierarchy. To execute a command in the targeted entity, you can omit the corresponding parameter.
 
 
+
+## Example
 
 A global account can group together different directories and subaccounts that the global account administrator makes available to users. CLI commands can be executed on all levels of this account hierarchy, that is in the global account, a directory, or a subaccount, usually specified by the above-mentioned parameters. The table below shows some example commands, and explains in which account entity they can be executed and how the target mechanism can be used.
 
@@ -167,7 +169,7 @@ Command is Executed in
 </td>
 <td valign="top">
 
- `--subaccount` 
+`--subaccount` 
 
 
 
@@ -215,7 +217,7 @@ The parent directory of the targeted subaccount
 </td>
 <td valign="top">
 
- `--global-account` 
+`--global-account` 
 
 
 

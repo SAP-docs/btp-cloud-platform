@@ -4,7 +4,7 @@
 
 Find additional references in the following sections.
 
- <a name="loio5c6e5cf501b14004870358fbc00effc4"/>
+<a name="loio5c6e5cf501b14004870358fbc00effc4"/>
 
 <!-- loio5c6e5cf501b14004870358fbc00effc4 -->
 
@@ -17,7 +17,7 @@ Find out what is new and what has changed in CAP since the last release.
 -   [Changelog](https://cap.cloud.sap/docs/releases/changelog/)
 
 
- <a name="loio047c4a01f0b44d37be13231b183e8920"/>
+<a name="loio047c4a01f0b44d37be13231b183e8920"/>
 
 <!-- loio047c4a01f0b44d37be13231b183e8920 -->
 
@@ -27,7 +27,7 @@ Learn about the golden path that CAP gives users to create service-based applica
 
 Try out the [Learning Journey](https://help.sap.com/doc/221f8f84afef43d29ad37ef2af0c4adf/latest/en-US/972e35035f404685ba6bb54b03f7c167.html).
 
- <a name="loio964cd11bc8fa44dcb21d4d21dcb9d030"/>
+<a name="loio964cd11bc8fa44dcb21d4d21dcb9d030"/>
 
 <!-- loio964cd11bc8fa44dcb21d4d21dcb9d030 -->
 
@@ -37,7 +37,7 @@ CAP enables you to quickly create business applications by allowing you to focus
 
 Get started with samples and reusable packages created based on CAP for [Node.js](https://github.com/SAP-samples/cloud-cap-samples) and [Java](https://github.com/SAP-samples/cloud-cap-samples-java) provided can be run in a local setup on, for example, a SQLite database.
 
- <a name="loio5ec8c983a0bf43b4a13186fcf59015fc"/>
+<a name="loio5ec8c983a0bf43b4a13186fcf59015fc"/>
 
 <!-- loio5ec8c983a0bf43b4a13186fcf59015fc -->
 
@@ -49,7 +49,7 @@ Get started with samples and reusable packages created based on CAP for [Node.js
 -   Find more tutorials using the SAP Cloud Application Programming Model \(CAP\) in the [Tutorial Navigator](https://developers.sap.com/tutorial-navigator.html?tag=software-product-function:sap-cloud-application-programming-model).
 
 
- <a name="loio3854933fc6dd48deabd161c6ab337d1f"/>
+<a name="loio3854933fc6dd48deabd161c6ab337d1f"/>
 
 <!-- loio3854933fc6dd48deabd161c6ab337d1f -->
 
@@ -64,7 +64,7 @@ Learn more about CAP by visiting SAP Community.
 -   Ask [questions](https://answers.sap.com/questions/ask.html?primaryTagId=9f13aee1-834c-4105-8e43-ee442775e5ce&topics=Visual%20Studio%20Code&b=%3Cp%3E%3Cb%3EYour%20environment%20(run%20the%20following%20commands):%3C/b%3E%3C/p%3E%3Cul%3E%3Cli%3Ecds%20-v%3C/li%3E%3Cli%3Enode%20-v%3C/li%3E%3Cli%3Ejava%20-version%20(if%20applicable)%3C/li%3E%3C/ul%3E%3Cp%3E%3Cb%3ESteps%20to%20reproduce:%3C/b%3E%3C/p%3E%3Cul%3E%3Cli%3Ecommand%20line%20used%3C/li%3E%3Cli%3Eactions%20in%20IDE%3C/li%3E%3C/ul%3E%3Cp%3E%3Cb%3EAdditional%20information%20(if%20applicable):%3C/b%3E%3C/p%3E%3Cul%3E%3Cli%3Eproject%20files%3C/li%3E%3Cli%3Elogs%3C/li%3E%3Cli%3Escreenshots%3C/li%3E%3Cli%3E...%3C/li%3E%3C/ul%3E) related to CAP to get help from developers and other community members.
 
 
- <a name="loio9f5e0e517e54489eae5f4ed1ab4d248f"/>
+<a name="loio9f5e0e517e54489eae5f4ed1ab4d248f"/>
 
 <!-- loio9f5e0e517e54489eae5f4ed1ab4d248f -->
 

@@ -50,5 +50,3 @@ If you need support or experience issues, please report an incident under compon
 
 [Business Catalogs for Identity and Access Management Apps](business-catalogs-for-identity-and-access-management-apps-9bbbfc7.md "Get an overview of available business role catalogs and their restrictions.")
 
-
-

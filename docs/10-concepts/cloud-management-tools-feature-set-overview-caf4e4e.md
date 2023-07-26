@@ -355,7 +355,7 @@ See:
 
 [User and Member Management](user-and-member-management-cc1c676.md)
 
- [Add Members to Your Global Account](../50-administration-and-ops/add-members-to-your-global-account-4a04913.md)
+[Add Members to Your Global Account](../50-administration-and-ops/add-members-to-your-global-account-4a04913.md)
 
 [Impact of Upgrading from Feature Set A to Feature Set B on User and Account Management](impact-of-upgrading-from-feature-set-a-to-feature-set-b-on-user-and-account-management-1ac8143.md)
 
@@ -416,7 +416,7 @@ See:
 
 [User and Member Management](user-and-member-management-cc1c676.md)
 
- [Managing Security Administrators in Your Subaccount \[Feature Set A\]](../50-administration-and-ops/managing-security-administrators-in-your-subaccount-feature-set-a-6752c4b.md)
+[Managing Security Administrators in Your Subaccount \[Feature Set A\]](../50-administration-and-ops/managing-security-administrators-in-your-subaccount-feature-set-a-6752c4b.md)
 
 [Impact of Upgrading from Feature Set A to Feature Set B on User and Account Management](impact-of-upgrading-from-feature-set-a-to-feature-set-b-on-user-and-account-management-1ac8143.md)
 

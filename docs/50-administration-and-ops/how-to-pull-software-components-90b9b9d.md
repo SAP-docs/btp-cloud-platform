@@ -60,30 +60,14 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-         *<ID\>* 
+    *<ID\>* 
 
 
     
     </td>
     <td valign="top">
     
-        A unique key \(UUID\) of the software component. This column is initially hidden.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-         *<Branch Name\>* 
-
-
-    
-    </td>
-    <td valign="top">
-    
-        The branch which was used for the executed action.
+    A unique key \(UUID\) of the software component. This column is initially hidden.
 
 
     
@@ -92,30 +76,14 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-         *<Short Commit ID\>* 
+    *<Branch Name\>* 
 
 
     
     </td>
     <td valign="top">
     
-        The short commit id that was used for the executed action.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-         *<Tag\>* 
-
-
-    
-    </td>
-    <td valign="top">
-    
-        The name of the tag which is eventually assigned to the used commit.
+    The branch which was used for the executed action.
 
 
     
@@ -124,14 +92,14 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-         *<Last Status Change\>* 
+    *<Short Commit ID\>* 
 
 
     
     </td>
     <td valign="top">
     
-        The relative time from current system time and the timestamp of the last status change.
+    The short commit id that was used for the executed action.
 
 
     
@@ -140,14 +108,46 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-         *<Status\>* 
+    *<Tag\>* 
 
 
     
     </td>
     <td valign="top">
     
-        Displays whether the pull or checkout process has been successful, is still running, or there has been an error.
+    The name of the tag which is eventually assigned to the used commit.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *<Last Status Change\>* 
+
+
+    
+    </td>
+    <td valign="top">
+    
+    The relative time from current system time and the timestamp of the last status change.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *<Status\>* 
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Displays whether the pull or checkout process has been successful, is still running, or there has been an error.
 
     > ### Note:  
     > Only one pull can be in status *Running*. If you trigger several pulls, other software components will switch to status *Error*.
@@ -161,30 +161,14 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-         *<Started By\>* 
+    *<Started By\>* 
 
 
     
     </td>
     <td valign="top">
     
-        E-Mail address of the user who started the pull.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-         *<Start Time\>* 
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Date and time when the pull has been triggered.
+    E-Mail address of the user who started the pull.
 
 
     
@@ -193,14 +177,30 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-         *<Change Time\>* 
+    *<Start Time\>* 
 
 
     
     </td>
     <td valign="top">
     
-        Date and time of the changes during the pull procedure.
+    Date and time when the pull has been triggered.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *<Change Time\>* 
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Date and time of the changes during the pull procedure.
 
 
     
@@ -243,30 +243,14 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-        *<Index\>*
+    *<Index\>*
 
 
     
     </td>
     <td valign="top">
     
-        Index number to sort the table properly.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *<Log\>*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Name of the log.
+    Index number to sort the table properly.
 
 
     
@@ -275,30 +259,14 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-        *<Severity\>*
+    *<Log\>*
 
 
     
     </td>
     <td valign="top">
     
-        Can have the status success, warning, error or other.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *<Transport Request\>*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Transport request ID which was used for the log.
+    Name of the log.
 
 
     
@@ -307,14 +275,14 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-        *<File inlcuding Path\>*
+    *<Severity\>*
 
 
     
     </td>
     <td valign="top">
     
-        The system file path where the log files are saved.
+    Can have the status success, warning, error or other.
 
 
     
@@ -323,14 +291,46 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-        *<Timestamp\>*
+    *<Transport Request\>*
 
 
     
     </td>
     <td valign="top">
     
-        Date and time when the log was created.
+    Transport request ID which was used for the log.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *<File inlcuding Path\>*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    The system file path where the log files are saved.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *<Timestamp\>*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Date and time when the log was created.
 
 
     

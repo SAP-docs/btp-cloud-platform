@@ -14,7 +14,7 @@ There is also a tutorial with an introduction to securing your application, and 
 
 ## Python Community Buildpack
 
- SAP BTP uses the standard [Python buildpack](https://github.com/cloudfoundry/python-buildpack) provided by the Cloud Foundry community to deploy Python applications.
+SAP BTP uses the standard [Python buildpack](https://github.com/cloudfoundry/python-buildpack) provided by the Cloud Foundry community to deploy Python applications.
 
 To get familiar with the buildpack and how to deploy applications with it, take a look at the [Cloud Foundry Python Buildpack documentation](https://docs.cloudfoundry.org/buildpacks/python/index.html).
 
@@ -49,7 +49,7 @@ Description
 <tr>
 <td valign="top">
 
- `sap_instance_manager` 
+`sap_instance_manager` 
 
 
 
@@ -65,7 +65,7 @@ Python package for creating and deleting service instances per tenant within an 
 <tr>
 <td valign="top">
 
- `sap_audit_logging` 
+`sap_audit_logging` 
 
 
 
@@ -81,7 +81,7 @@ Provides audit logging functionalities for Python applications.
 <tr>
 <td valign="top">
 
- `sap_xssec` 
+`sap_xssec` 
 
 
 
@@ -97,7 +97,7 @@ SAP XS Advanced Container Security API for Python.
 <tr>
 <td valign="top">
 
- `sap_cf_logging` 
+`sap_cf_logging` 
 
 
 
@@ -116,7 +116,7 @@ This is a collection of support libraries for Python applications running on Clo
 <tr>
 <td valign="top">
 
- [`hdbcli`](https://help.sap.com/viewer/0eec0d68141541d1b07893a39944924e/2.0.02/en-US/f3b8fabf34324302b123297cdbe710f0.html) 
+[`hdbcli`](https://help.sap.com/viewer/0eec0d68141541d1b07893a39944924e/2.0.02/en-US/f3b8fabf34324302b123297cdbe710f0.html) 
 
 
 

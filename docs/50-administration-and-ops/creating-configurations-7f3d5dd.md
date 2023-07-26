@@ -20,7 +20,7 @@ The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\
 
 4.  Choose *Enterprise Event Enablement* as *Channel*.
 
-5.  Press *Create* at the bottom of the page.
+5.  Click *Create* at the bottom of the page.
 
 6.  On the *Create Configuration* screen, you can search for existing event consumers or event producers to which you can assign a configuration. To do so, specify your search criteria:
 
@@ -39,7 +39,7 @@ The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\
 
     2.  Choose one producer or consumer.
 
-    3.  Press *Create*.
+    3.  Click *Create*.
 
         For the chosen consumer or producer, the following sections are displayed:
 
@@ -48,14 +48,14 @@ The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\
         <tr>
         <td valign="top">
         
-                *Attributes*
+        *Attributes*
 
 
         
         </td>
         <td valign="top">
         
-                -   *Application/Software Component* that is assigned to a consumer or producer
+        -   *Application/Software Component* that is assigned to a consumer or producer
         -   Description for the *Application/Software Component*
 
 
@@ -65,14 +65,14 @@ The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\
         <tr>
         <td valign="top">
         
-                *Administrative Information*
+        *Administrative Information*
 
 
         
         </td>
         <td valign="top">
         
-                -   *Technical Data*
+        -   *Technical Data*
         -   *Created*
         -   *Changed*
 
@@ -83,23 +83,23 @@ The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\
         <tr>
         <td valign="top">
         
-                *Log Groups*
+        *Log Groups*
 
 
         
         </td>
         <td valign="top">
         
-                Log groups are groups of fields that are displayed in one log entry in the read access log.
+        Log groups are groups of fields that are displayed in one log entry in the read access log.
 
         To add a log group, do the following:
 
-        -   Press the button with the tooltip *Create Log Group*.
+        -   Click the button with the tooltip *Create Log Group*.
         -   In the *Create Log Group* dialog box, do the following:
             -   Define the *Purpose*.
             -   Define the *Description*.
 
-        -   Press *Create*.
+        -   Click *Create*.
 
         > ### Note:  
         > Keep in mind to drag and drop *Channel Fields* and/or *System Fields* from the *Field list* to the *Fields* section of the log group.
@@ -114,21 +114,21 @@ The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\
         <tr>
         <td valign="top">
         
-                *Conditions*
+        *Conditions*
 
 
         
         </td>
         <td valign="top">
         
-                To add a condition, do the following:
+        To add a condition, do the following:
 
-        -   Press the button with the tooltip *Create Condition*.
+        -   Click the button with the tooltip *Create Condition*.
         -   In the *Create Condition* dialog box, do the following:
             -   Define the *Condition*.
             -   Define the *Description*.
 
-        -   Press *Create*.
+        -   Click *Create*.
 
 
         
@@ -137,14 +137,14 @@ The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\
         <tr>
         <td valign="top">
         
-                *Field list*
+        *Field list*
 
 
         
         </td>
         <td valign="top">
         
-                 
+         
 
 
         
@@ -152,7 +152,7 @@ The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\
         </tr>
         </table>
         
-    4.  Press *Save as Active* to activate your configuration.
+    4.  Click *Save as Active* to activate your configuration.
 
 
 

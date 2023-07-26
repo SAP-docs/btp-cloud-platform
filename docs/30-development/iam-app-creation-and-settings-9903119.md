@@ -28,7 +28,7 @@ To publish a business catalog, you need to create a new IAM app first in case yo
 2.  Assign the previously published business catalog to the business role and press *Save*.
 3.  In order to run your application properly, your business role should contain the following business catalogs:
 
-     ![](images/business_roles_9643124.png) 
+    ![](images/business_roles_9643124.png)
 
 4.  Go back to the Fiori Launchpad Home view and find your application by searching via App Finder in the drop-down menu of your account icon on the upper right corner of the screen. Now you can also pin the app on your home screen.
 

@@ -23,7 +23,7 @@ When you create a role based on a template, as a default the read and value help
 
 ### Process Steps
 
- ![](images/How_to_Create_a_Business_Role_from_a_Template_7d0a47f.png) 
+![](images/How_to_Create_a_Business_Role_from_a_Template_7d0a47f.png)
 
 
 
@@ -31,22 +31,22 @@ When you create a role based on a template, as a default the read and value help
 
 ## Procedure
 
-1.  Select the tile of the Maintain Business Roles app on the SAP Fiori Launchpad to open the app. On the initial screen select *Create From Template*.
+1.  Select the tile of the *Maintain Business Roles* app on the SAP Fiori launchpad to open the app. On the initial screen select *Create From Template*.
 
-2.  Select the required template. Define the ID and the name of the new business role. If required, select *Create and Assign Launchpad Space Based on Space Template* and define the new space ID \(for more information, see the *Related information* section below\). Click *OK*.
+2.  Select the required template. Define the ID and the name of the new business role. If required, go to the *Assigned Launchpad Spaces* tab, click *Add*, select *Use Predefined Space*, select the required launchpad space and click Assign Space \(for more information, see the *Related Information* section below\). Click *OK*.
 
-3.  A template already contains one or more business catalogs that will be assigned to. Adjust the displayed template to your requirements, for example, change the general role details, and add or delete catalogs.
+3.  A template already contains one or more business catalogs that the business role will be assigned to. Adjust the displayed template to your requirements, for example, change the general role details, and add or delete catalogs.
 
-4.  By default the value help and read access for each business catalog is set to unrestricted and there is no write access. If you want to change these restrictions, select *Maintain Restrictions*.
+4.  By default, the value help and read access for each business catalog is set to unrestricted and there is no write access. If you want to change these restrictions, select *Maintain Restrictions*.
 
 5.  Maintain instance-based restrictions for all required business objects \(following the requirements of your local authorization concept\).
 
-6.  On the *Assigned Business Users* tab you can assign the business users to your new business role. These users will receive the authorizations as defined in the business role.
+6.  On the *Assigned Business Users* tab, you can assign the business users to your new business role. These users will receive the authorizations as defined in the business role.
 
 7.  Save the business role to activate it.
 
     > ### Note:  
-    > If you go back to the business roles overview **without saving** the business role, the business role will automatically be saved in a draft status. You can access it again and edit it from the business roles overview.
+    > If you go back to the business roles overview **without saving** the business role, the business role is automatically saved in a draft status. You can access it again and edit it from the business roles overview.
 
 
 **Related Information**  

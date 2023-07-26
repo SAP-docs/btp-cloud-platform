@@ -46,7 +46,7 @@ Use custom identity providers for better integration and policy enforcement.
 </td>
 <td valign="top">
 
- [BTP-UAA-0008](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0008) 
+[BTP-UAA-0008](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0008) 
 
 
 
@@ -62,7 +62,7 @@ Check your custom identity providers.
 </td>
 <td valign="top">
 
- [BTP-UAA-0015](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0015) 
+[BTP-UAA-0015](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0015) 
 
 
 
@@ -78,7 +78,7 @@ Synchronize the user data with a provisioning service.
 </td>
 <td valign="top">
 
- [BTP-UAA-0016](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0016) 
+[BTP-UAA-0016](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0016) 
 
 
 
@@ -94,7 +94,7 @@ Keep a few global account administrators from the default identity provider.
 </td>
 <td valign="top">
 
- [BTP-UAA-0009](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0009) 
+[BTP-UAA-0009](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0009) 
 
 
 
@@ -110,7 +110,7 @@ Check which users have critical roles.
 </td>
 <td valign="top">
 
- [BTP-UAA-0017](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0017) 
+[BTP-UAA-0017](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0017) 
 
 
 
@@ -126,7 +126,7 @@ Check that only administrators have acccess to REST APIs.
 </td>
 <td valign="top">
 
- [BTP-UAA-0022](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0022) 
+[BTP-UAA-0022](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0022) 
 
 
 
@@ -142,7 +142,7 @@ Remove users who haven't logged on for a long time.
 </td>
 <td valign="top">
 
- [BTP-UAA-0010](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0010) 
+[BTP-UAA-0010](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0010) 
 
 
 
@@ -158,7 +158,7 @@ Implement a data deletion strategy.
 </td>
 <td valign="top">
 
- [BTP-UAA-0011](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0011) 
+[BTP-UAA-0011](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0011) 
 
 
 
@@ -174,7 +174,7 @@ Check the validity configuration for access tokens.
 </td>
 <td valign="top">
 
- [BTP-UAA-0005](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0005) 
+[BTP-UAA-0005](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0005) 
 
 
 
@@ -190,7 +190,7 @@ Rotate the signing keys for access tokens.
 </td>
 <td valign="top">
 
- [BTP-UAA-0019](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0019) 
+[BTP-UAA-0019](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0019) 
 
 
 
@@ -206,7 +206,7 @@ Rotate the signing keys for the SAML protocol.
 </td>
 <td valign="top">
 
- [BTP-UAA-0020](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0020) 
+[BTP-UAA-0020](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0020) 
 
 
 
@@ -222,7 +222,7 @@ Ensure understandable links for identity providers on logon pages.
 </td>
 <td valign="top">
 
- [BTP-UAA-0018](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0018) 
+[BTP-UAA-0018](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0018) 
 
 
 
@@ -238,7 +238,7 @@ Archive audit log entries.
 </td>
 <td valign="top">
 
- [BTP-UAA-0012](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0012) 
+[BTP-UAA-0012](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0012) 
 
 
 
@@ -254,7 +254,7 @@ Integrate the audit log with your corporate event management system.
 </td>
 <td valign="top">
 
- [BTP-UAA-0013](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0013) 
+[BTP-UAA-0013](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0013) 
 
 
 
@@ -270,7 +270,7 @@ If you embed the login page of this service, check where you allow the page to b
 </td>
 <td valign="top">
 
- [BTP-UAA-0001](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0001) 
+[BTP-UAA-0001](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0001) 
 
 
 
@@ -286,7 +286,7 @@ Train business users how to handle session timeouts
 </td>
 <td valign="top">
 
- [BTP-UAA-0023](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0023) 
+[BTP-UAA-0023](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0023) 
 
 
 
@@ -332,7 +332,7 @@ Enable individual secrets for each binding of a service instance.
 </td>
 <td valign="top">
 
- [BTP-UAA-0003](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0003) 
+[BTP-UAA-0003](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0003) 
 
 
 
@@ -348,7 +348,7 @@ Set the ***redirect-uris*** parameter to restrict access as much as possible.
 </td>
 <td valign="top">
 
- [BTP-UAA-0002](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0002) 
+[BTP-UAA-0002](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0002) 
 
 
 
@@ -364,7 +364,7 @@ Check your custom code for updates to client libraries offered by SAP in your de
 </td>
 <td valign="top">
 
- [BTP-UAA-0021](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0021) 
+[BTP-UAA-0021](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0021) 
 
 
 
@@ -410,7 +410,7 @@ Automate your deployment process to cope with the lifetime of the X.509 certific
 </td>
 <td valign="top">
 
- [BTP-UAA-0014](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0014) 
+[BTP-UAA-0014](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0014) 
 
 
 

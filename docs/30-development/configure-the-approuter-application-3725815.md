@@ -24,7 +24,7 @@ In each development landscape, SAP provides a different standard domain you can 
 
 Using that domain, and following the specified URL structure, a created URL would be:
 
- `tenant1-myapprouter.cfapps.sap.hana.ondemand.com` 
+`tenant1-myapprouter.cfapps.sap.hana.ondemand.com` 
 
 Here `tenant1-myapprouter` is the hostname, and `cfapps.sap.hana.ondemand.com` is the SAP-provided standard domain for this development landscape. In this format, create a new URL for each new tenant.
 
@@ -37,7 +37,7 @@ Here `tenant1-myapprouter` is the hostname, and `cfapps.sap.hana.ondemand.com` i
 
 During a production phase of your multitenant application, apply for a custom domain via the custom domain service, then create a URL using the following structure:
 
- `*.<YOUR_CUSTOM_DOMAIN>` 
+`*.<YOUR_CUSTOM_DOMAIN>` 
 
 where \* is the wildcard hostname.
 

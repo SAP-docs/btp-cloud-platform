@@ -53,6 +53,8 @@ You can use this app to:
 
 -   Take over tasks and transports from other users and assign them to your user.
 
+-   Ceck consistency of all open requests
+
 
 
 

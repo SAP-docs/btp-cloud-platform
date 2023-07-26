@@ -29,7 +29,7 @@ After creating a communication arrangement, you can still change parameters, eit
 
 **Update by Service Key**
 
-4.  To change connection details, press the *Update by Service Key* button.
+4.  To change connection details, click the *Update by Service Key* button.
 
 5.  Enter the service key with the new connection details.
 

@@ -31,7 +31,7 @@ Description
 <tr>
 <td valign="top">
 
- `BANK` 
+`BANK` 
 
 
 
@@ -47,7 +47,7 @@ Data referring to a bank account
 <tr>
 <td valign="top">
 
- `BIOMETRIC`\*
+`BIOMETRIC`\*
 
 
 
@@ -63,7 +63,7 @@ Data referring to biometric data
 <tr>
 <td valign="top">
 
- `CRIME`\*
+`CRIME`\*
 
 
 
@@ -79,7 +79,7 @@ Data referring to criminal or administrative offenses or suspected criminal or a
 <tr>
 <td valign="top">
 
- `ETHNIC_ORIGIN`\*
+`ETHNIC_ORIGIN`\*
 
 
 
@@ -95,7 +95,7 @@ Data referring to racial or ethnic origin
 <tr>
 <td valign="top">
 
- `GENETIC`\*
+`GENETIC`\*
 
 
 
@@ -111,7 +111,7 @@ Data referring to genetic data
 <tr>
 <td valign="top">
 
- `HEALTH`\*
+`HEALTH`\*
 
 
 
@@ -127,7 +127,7 @@ Data referring to health data
 <tr>
 <td valign="top">
 
- `POLITICAL_OPINION`\*
+`POLITICAL_OPINION`\*
 
 
 
@@ -143,7 +143,7 @@ Data referring to political opinion
 <tr>
 <td valign="top">
 
- `PROFILE`\*
+`PROFILE`\*
 
 
 
@@ -159,7 +159,7 @@ Data which is usually based on profiling like: scoring, rating, unwanted custome
 <tr>
 <td valign="top">
 
- `RELIGION`\*
+`RELIGION`\*
 
 
 
@@ -175,7 +175,7 @@ Data referring to religious or philosophical beliefs
 <tr>
 <td valign="top">
 
- `SECRECY`\*
+`SECRECY`\*
 
 
 
@@ -191,7 +191,7 @@ Data referring to professional secrecy
 <tr>
 <td valign="top">
 
- `SEX_LIFE`\*
+`SEX_LIFE`\*
 
 
 
@@ -207,7 +207,7 @@ Data referring to sex life
 <tr>
 <td valign="top">
 
- `SEXUAL_ORIENTATION`\*
+`SEXUAL_ORIENTATION`\*
 
 
 
@@ -223,7 +223,7 @@ Data referring to sexual orientation
 <tr>
 <td valign="top">
 
- `SSN` 
+`SSN` 
 
 
 
@@ -239,7 +239,7 @@ Data referring to social security number
 <tr>
 <td valign="top">
 
- `TRADE_UNION`\*
+`TRADE_UNION`\*
 
 
 

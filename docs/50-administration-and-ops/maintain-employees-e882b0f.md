@@ -16,7 +16,7 @@ You can use this app to:
 
 
 
--   Create employees directly in the app or with csv file import
+-   Create employees directly in the app or with CSV file import
 -   Edit employee information
 -   Retrieve the change log to view modified employee data
 -   Select employees for archiving

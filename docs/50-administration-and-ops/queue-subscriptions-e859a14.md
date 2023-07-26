@@ -12,6 +12,8 @@ Once a queue has been subscribed to the corresponding topic and you have subscri
 
 > ### Note:  
 > The syntax used to compose topics and the payload for SAP S/4HANA Cloud business events supports the standardized **CloudEvents** format \([https://cloudevents.io](https://cloudevents.io)\).
+> 
+> For more information about the syntax, see also [Syntax for Service Descriptor](https://help.sap.com/docs/SAP_EM/bf82e6b26456494cbdd197057c09979f/5696828fd5724aa5b26412db09163530.html).
 
 Ensure that the pattern of the topic, to which the queue is subscribed, consists of the following three parts:
 
@@ -43,7 +45,7 @@ Topic namespace
 </td>
 <td valign="top">
 
--   Contains the three segments: vendor, product information, and a technical identifier.
+-   Contains three segments: vendor, product information, and a technical identifier.
 -   The topic namespace originates from the namespace of the service key created for the respective SAP Event Mesh instance.
 
 > ### Note:  
@@ -90,7 +92,7 @@ Value as displayed in the value help in the previous *Outbound Topic Binding* co
 You can also use wildcards, such as `<namespace>/*`.
 
 > ### Example:  
-> If you want to create a queue-topic subscription for the `sap/s4/beh/businesspartner/v1/BusinessPartner/Changed/v1` event topic, you need to add the topic namespace and the `ce` abbreviation in the beginning of the topic: `<namespace>/ce/sap/s4/beh/businesspartner/v1/BusinessPartner/Changed/v1`.
+> If you want to create a queue-topic subscription for the `sap/s4/beh/businesspartner/v1/BusinessPartner/Changed/v1` event topic, you need to add the topic namespace and the `ce` abbreviation at the beginning of the topic: `<namespace>/ce/sap/s4/beh/businesspartner/v1/BusinessPartner/Changed/v1`.
 
 **Related Information**  
 

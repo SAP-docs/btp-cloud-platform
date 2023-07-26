@@ -12,11 +12,11 @@ Role templates refer to attributes and scopes. The role templates contain the au
 
 Information that is specific to the user is stored in attributes. For each attribute, administrators can specify the value that restricts data access. Static attributes are stored in the role, whereas in cases in which a custom identity provider provides the business users, you can dynamically reference all the attributes that come with the access token.
 
-   
+  
   
 **Relationship Between Authorization Components**
 
- ![Understand how the different authorization components relate to each other.](images/Relationship_between_authorization_entities_fef7332.png "Relationship Between Authorization Components") 
+![Understand how the different authorization components relate to each other.](images/Relationship_between_authorization_entities_fef7332.png "Relationship Between Authorization Components")
 
 
 

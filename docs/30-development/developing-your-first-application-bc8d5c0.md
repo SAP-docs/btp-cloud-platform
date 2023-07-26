@@ -2,7 +2,7 @@
 
 # Developing Your First Application
 
- Follow any of these tutorials to develop your first application on SAP BTP. Choose your preferred programming model and technology. 
+Follow any of these tutorials to develop your first application on SAP BTP. Choose your preferred programming model and technology. 
 
 
 

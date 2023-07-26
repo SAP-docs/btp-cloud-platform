@@ -29,7 +29,7 @@ When importing the content into a package **Z\_*****MYTEST*****\_01** you will g
 -   ZMYTEST01\_RUN\_01
 -   ZMYTEST01\_RUN\_02
 
- 
+
 
 Other examples, including valid package prefix:
 
@@ -45,7 +45,7 @@ This will produce the following folder structure:
 
 /src/bar/qux
 
- 
+
 
 Invalid package prefix:
 
@@ -62,7 +62,7 @@ The folder logic FULL forces the installation of a repository into packages with
 -   ZSOMETHING
 -   ZHELLO
 
- 
+
 
 This will produce the following folder structure:
 

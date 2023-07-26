@@ -4,7 +4,7 @@
 
 Identity management comprises setting up trust and providing credentials for business users.
 
- ![](images/IAM_Hybrid_Landscape_Architecture_c3494d2.png) 
+![](images/IAM_Hybrid_Landscape_Architecture_c3494d2.png)
 
 
 

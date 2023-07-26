@@ -30,7 +30,7 @@ For further assistance with creating and deploying an application into SAP Fiori
 > -   Business catalog `SAP_CORE_BC_EXT_TST` is assigned to your user, which allows you to preview your application and discover available OData services. See [Business Catalog for Key User Tasks](../50-administration-and-ops/business-catalog-for-key-user-tasks-65b70bf.md).
 > -   You have an open transport request.
 
-![](images/VS_Code_Deploy_to_ABAP_20a9f0b.png) 
+![](images/VS_Code_Deploy_to_ABAP_20a9f0b.png)
 
 1.  As a developer user in Visual Studio Code, generate an SAP Fiori application. See [Generate an Application](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/db44d45051794d778f1dd50def0fa267.html).
 
@@ -68,7 +68,7 @@ For further assistance with creating and deploying an application into SAP Fiori
 > ### Prerequisite:  
 > Business catalog `SAP_A4C_BC_DEV_PC` is assigned to your user, which is required for development with ABAP Development Tools. See [Business Catalogs for Development Tasks](../50-administration-and-ops/business-catalogs-for-development-tasks-a9f4278.md).
 
-![](images/Custom_UI_Using_BAS_Step_3_3aa2ba1.png) 
+![](images/Custom_UI_Using_BAS_Step_3_3aa2ba1.png)
 
 1.  To manage access to your SAP Fiori application, you have to log on as a developer in ABAP Development Tools for Eclipse to create an Identity and Access Management \(IAM\) application, assign a UI5 application and a service, and maintain authorizations \(steps 1-3 in the figure above\). See [Creating an IAM App for the Business Service \(Developer\)](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2a2ddf967a704a878ee975f44630f71d.html).
 2.  Once you have created your IAM app, you have to create a business catalog. See [Creating a Business Catalog \(Developer\)](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/42c6a55947fe4bc89bd63b0f50b54c8a.html).

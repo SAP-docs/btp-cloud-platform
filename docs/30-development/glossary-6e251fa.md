@@ -235,7 +235,7 @@ The pipeline for building ABAP add-ons has been created specifically for Jenkins
 <tr>
 <td valign="top">
 
- Cloud Foundry environment
+Cloud Foundry environment
 
 
 

@@ -69,7 +69,7 @@ Node.js
 </td>
 <td valign="top">
 
- [SAP Developers](https://developers.sap.com/tutorials/cp-cf-security-xsuaa-create.html) 
+[SAP Developers](https://developers.sap.com/tutorials/cp-cf-security-xsuaa-create.html) 
 
 
 
@@ -92,7 +92,7 @@ Java, SAP Cloud SDK
 </td>
 <td valign="top">
 
- [SAP Developers](https://developers.sap.com/tutorials/s4sdk-secure-cloudfoundry.html) 
+[SAP Developers](https://developers.sap.com/tutorials/s4sdk-secure-cloudfoundry.html) 
 
 
 
@@ -115,7 +115,7 @@ Spring \(Boot\)
 </td>
 <td valign="top">
 
- [GitHub](https://github.com/SAP/cloud-security-xsuaa-integration/tree/master/samples/spring-security-xsuaa-usage) 
+[GitHub](https://github.com/SAP/cloud-security-xsuaa-integration/tree/master/samples/spring-security-xsuaa-usage) 
 
 
 
@@ -138,7 +138,7 @@ Node.js
 </td>
 <td valign="top">
 
- [SAP Developers](https://developers.sap.com/tutorials/cp-cf-security-xsuaa-multi-tenant.html) 
+[SAP Developers](https://developers.sap.com/tutorials/cp-cf-security-xsuaa-multi-tenant.html) 
 
 
 
@@ -186,7 +186,7 @@ Node.js
 </td>
 <td valign="top">
 
- [GitHub](https://github.com/SAP-samples/cloud-nodejs-oflm#readme) 
+[GitHub](https://github.com/SAP-samples/cloud-nodejs-oflm#readme) 
 
 
 
@@ -209,7 +209,7 @@ Java
 </td>
 <td valign="top">
 
- [GitHub](https://github.com/SAP/cloud-security-xsuaa-integration/tree/master/samples/java-security-usage) 
+[GitHub](https://github.com/SAP/cloud-security-xsuaa-integration/tree/master/samples/java-security-usage) 
 
 
 
@@ -232,7 +232,7 @@ Java
 </td>
 <td valign="top">
 
- [GitHub](https://github.com/SAP-samples/cloud-espm-cloud-native#security-implementation) 
+[GitHub](https://github.com/SAP-samples/cloud-espm-cloud-native#security-implementation) 
 
 
 
@@ -271,11 +271,11 @@ SAP BTP supports identity federation, a concept of linking and reusing digital i
 > 
 > For more information, see [Corporate Identity Providers](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/19f3eca47db643b6aad448b5dc1075ad.html) and [Configure Conditional Authentication for an Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/0143dce88a604533ab5ab17e639fec09.html) in [What Is Identity Authentication](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/27882717f44b445fa287936c6f43dc1f.html) and [SAP Cloud Identity Services - Identity Authentication](https://help.sap.com/viewer/product/IDENTITY_AUTHENTICATION/Cloud/en-US)
 
-   
+  
   
 **Identity Provider and XSUAA in SAP BTP Architecture**
 
- ![](images/CF_Trust_for_Identity_Providers_3663b18.png "Identity Provider and XSUAA in SAP BTP Architecture") 
+![](images/CF_Trust_for_Identity_Providers_3663b18.png "Identity Provider and XSUAA in SAP BTP Architecture")
 
 Identity Authentication is a multitenancy enabled identity provider and authentication service for all applications powered by SAP BTP and optionally on-premise applications. The service provides capabilities for authentication, single sign-on, and on-premise integration as well as self-services like self-registration or password reset — for both the employees and the partners and customers of your organization. For administrators, the service offers features for user management and reporting capabilities in the administration console.
 

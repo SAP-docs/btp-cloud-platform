@@ -27,7 +27,7 @@ By default, communication between the approuter and connected services is timed 
 
 3.  Select *Services* \> *Instances* from the navigation area and navigate to your ABAP system service instance.
 
-4.  Click on <span class="SAP-icons"></span>  and select *Create Service Key*.
+4.  Click on <span class="SAP-icons"></span>and select *Create Service Key*.
 
 5.  In the *New Service Key* dialog, enter a name for your service key and specify the parameter in JSON format as follows:
 

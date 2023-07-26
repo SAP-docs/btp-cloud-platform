@@ -23,11 +23,11 @@ In a Read Access Logging configuration for Dynpro and Web Dynpro channels, you m
 
 The graphic below shows a sequence of three screens. On Screen 1, the user enters an employee number. Screen 2 displays the social security number and religion of the employee. Screen 3 displays the salary of the employee.
 
-   
+  
   
 **Example screen sequence**
 
- ![](images/RAL-Screen-Sequence_fddde8a.png "Example screen sequence") 
+![](images/RAL-Screen-Sequence_fddde8a.png "Example screen sequence")
 
 The table below shows how to configure the screen sequence depicted in the graphic above. Note that the field *Employee Number* is a different field on the three screens; on the first screen, it is an input field and on the second and third field, it is an output field like the other fields that cannot be edited.
 
@@ -232,7 +232,7 @@ As it is the only field that is configured on this screen, the salary of this em
 </tr>
 </table>
 
- **Result** 
+**Result** 
 
 When a user clicks through this screen sequence when it is configured as described above, two log entries are created, one for Screen 2 and one for Screen 3. On Screen 1, no output field exists that can be logged. On Screen 3, the employee number does not have to be logged as the employee number field from screen 2 is the log context and is thus automatically logged during a screen sequence even if it is not displayed on subsequent screens.
 

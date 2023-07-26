@@ -42,6 +42,8 @@ To enable EOIO processing, proceed as follows.
 
 
 
+## Example
+
 > ### Note:  
 > First, you must get a SOAP destination object according to your SAP product as described in [Enable SOAP Communication in Your ABAP Code](enable-soap-communication-in-your-abap-code-6ab460e.md).
 

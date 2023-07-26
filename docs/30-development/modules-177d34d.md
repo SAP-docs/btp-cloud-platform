@@ -973,7 +973,7 @@ Empty, or as specified in the deploy service configuration
 </td>
 <td valign="top">
 
- `buildpack: git://github.acme.com/xs2-java/xs2javabuildpack` 
+`buildpack: git://github.acme.com/xs2-java/xs2javabuildpack` 
 
 
 
@@ -1010,7 +1010,7 @@ Empty, or as specified in the deploy service configuration
 </td>
 <td valign="top">
 
- `buildpacks: [java_buildpack, nodejs_buildpack, staticfile_buildpack]` 
+`buildpacks: [java_buildpack, nodejs_buildpack, staticfile_buildpack]` 
 
 
 
@@ -1047,7 +1047,7 @@ Empty, or as specified in the deploy service configuration
 </td>
 <td valign="top">
 
- `command: node index.js` 
+`command: node index.js` 
 
 
 
@@ -2580,7 +2580,7 @@ The password used for authentication by the XS controller at the service broker 
 </td>
 <td valign="top">
 
- `service-broker-password: ${generated-password}` 
+`service-broker-password: ${generated-password}` 
 
 
 
@@ -2691,7 +2691,7 @@ The name of the user required for authentication by the XS controller at the ser
 </td>
 <td valign="top">
 
- `service-broker-user: ${generated-user}` 
+`service-broker-user: ${generated-user}` 
 
 
 

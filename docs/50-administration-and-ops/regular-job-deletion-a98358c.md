@@ -144,6 +144,8 @@ Periodic value\*31\*24 days
 
 
 
+## Example
+
 You have scheduled a job that runs every two weeks and ends after 20 runs. The first run starts in the calendar week 2 and ends in the calendar week 40. Each job run stays in the system for the certain retention time. Retention period is always set to 24 runs. Retention time=periodic value \* retention periods \* weekdays \[days\] = 2 \* 24 \*7 \[days\] = 336 \[days\] = 48 \[weeks\]. The first job run will be deleted a day after 48 weeks since this job run took place.
 
 > ### Note:  

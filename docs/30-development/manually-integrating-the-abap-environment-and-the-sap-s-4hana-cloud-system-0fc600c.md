@@ -18,8 +18,8 @@ You have a business user in SAP S/4HANA Cloud that is assigned to a business rol
   
 **Administration Activities for Establishing Trust Between SAP S/4HANA Cloud and Cloud Foundry \(Developer Activities Grayed Out\)**
 
- ![](images/SAP_BTP_and_SAP_S_4HANA_Cloud_Integration_8449d3b.png "Administration Activities for Establishing Trust Between SAP S/4HANA Cloud
-					and Cloud Foundry (Developer Activities Grayed Out)") 
+![](images/SAP_BTP_and_SAP_S_4HANA_Cloud_Integration_8449d3b.png "Administration Activities for Establishing Trust Between SAP S/4HANA Cloud
+					and Cloud Foundry (Developer Activities Grayed Out)")
 
 > ### Note:  
 > Some of the steps are only relevant if your developers are supposed to expose business services using the OAuth 2.0 authentication method. If you only want to use basic authentication \(user ID and password\), some of the steps for setting up a trust relationship are not necessary.

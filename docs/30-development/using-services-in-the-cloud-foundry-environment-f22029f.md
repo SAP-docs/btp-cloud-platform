@@ -2,7 +2,7 @@
 
 # Using Services in the Cloud Foundry Environment
 
- Learn more about using services in the Cloud Foundry environment, how to create \(user-provided\) service instances and bind them to applications, and how to create service keys.
+Learn more about using services in the Cloud Foundry environment, how to create \(user-provided\) service instances and bind them to applications, and how to create service keys.
 
 
 

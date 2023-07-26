@@ -38,7 +38,7 @@ Add users as org members and assign roles to grant the users access to informati
 
 4.  Enter one or more e-mail addresses.
 
-    Use commas \(`,`\), spaces \(` `\), semicolons \(`;`\), or line breaks to separate members.
+    Use commas \(`,`\), spaces \(``\), semicolons \(`;`\), or line breaks to separate members.
 
 5.  Enter the *Origin* for the identity provider, which hosts the members you just added.
 

@@ -20,11 +20,11 @@ SAP ID service provides:
 
 Use SAP ID service as a preconfigured user store in your starter scenarios or for testing. You can also use the default identity provider as a backup identity provider if access to your custom identity provider fails. SAP ID service is the place where you register to get initial access to SAP BTP.
 
-   
+  
   
 **SAP ID Service Authenticates Users**
 
- ![](images/Authorization_and_Trust_Management_in_the_Neo_Environment_graph3_68bb064.png "SAP ID Service Authenticates Users") 
+![](images/Authorization_and_Trust_Management_in_the_Neo_Environment_graph3_68bb064.png "SAP ID Service Authenticates Users")
 
 If you're a new user, you can use the self-service registration option at the [SAP Web site](https://www.sap.com) The SAP website registers you with SAP Universal ID, which also registers you with SAP ID service.
 
@@ -38,11 +38,11 @@ SAP Universal ID manages the users of official SAP sites, including the SAP deve
 
 The following figure illustrates how default and custom identity providers can federate other identity providers.
 
-   
+  
   
 **Identity Providers and Federation**
 
- ![](images/idp_proxies_a1b2a3b.png "Identity Providers and Federation") 
+![](images/idp_proxies_a1b2a3b.png "Identity Providers and Federation")
 
 
 
@@ -71,7 +71,7 @@ For SAP ID service, you can ask users hosted by this identity provider to enable
 > 
 > For more information, see:
 > 
-> -    [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md)
+> -   [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md)
 > 
 > -   [Establish Trust and Federation Between UAA and Identity Authentication](establish-trust-and-federation-between-uaa-and-identity-authentication-161f8f0.md)
 

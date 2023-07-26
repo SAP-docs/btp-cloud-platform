@@ -44,7 +44,13 @@ Make sure that you've the latest versions of the tools you're using \(recommende
 > ### Note:  
 > Trial users \(without an S-user\) can ask for support by posting a question in [SAP Community](https://www.sap.com/community/topic/cloud-platform.html). However, they should first check for answers in [SAP Community](https://www.sap.com/community/topic/cloud-platform.html) and [Guided Answers](https://ga.support.sap.com/dtp/viewer/#/tree/2065/actions/26547).
 
- <a name="concept_tbg_yzt_mqb"/>
+
+
+### Try Out Built-In Support Within SAP BTP Cockpit
+
+When using SAP BTP cockpit as an S-user, try Built-In Support to get customer help within the cockpit. See [Built-In Support](https://help.sap.com/docs/built-in-support).
+
+<a name="concept_tbg_yzt_mqb"/>
 
 <!-- concept\_tbg\_yzt\_mqb -->
 
@@ -52,7 +58,7 @@ Make sure that you've the latest versions of the tools you're using \(recommende
 
 To report an incident \(issue\) in SAP Support Portal, proceed as follows:
 
- <a name="task_hpg_4tm_s2b"/>
+<a name="task_hpg_4tm_s2b"/>
 
 <!-- task\_hpg\_4tm\_s2b -->
 
@@ -66,7 +72,7 @@ To report an incident \(issue\) in SAP Support Portal, proceed as follows:
 
 Open [SAP ONE Support Launchpad](https://launchpad.support.sap.com/).
 
- <a name="task_d4t_cvc_t4b"/>
+<a name="task_d4t_cvc_t4b"/>
 
 <!-- task\_d4t\_cvc\_t4b -->
 
@@ -95,7 +101,7 @@ You can search in Knowledge Base for existing solutions in:
 
 ![](images/Knowledge_Base_Search_f053486.png)
 
- <a name="task_jf1_4vc_t4b"/>
+<a name="task_jf1_4vc_t4b"/>
 
 <!-- task\_jf1\_4vc\_t4b -->
 
@@ -110,7 +116,7 @@ You can search in Knowledge Base for existing solutions in:
 > ### Caution:  
 > If your S-user is assigned to several customer numbers, select a customer number from the drop-down list.
 
- <a name="task_z4m_25m_s2b"/>
+<a name="task_z4m_25m_s2b"/>
 
 <!-- task\_z4m\_25m\_s2b -->
 
@@ -152,7 +158,7 @@ You can see recommended knowledge resources for the selected product area on the
 > 
 > Not choosing the appropriate system and product area may negatively affect the processing of the incident.
 
- <a name="task_smh_4vm_s2b"/>
+<a name="task_smh_4vm_s2b"/>
 
 <!-- task\_smh\_4vm\_s2b -->
 
@@ -204,7 +210,7 @@ You can see recommended knowledge resources for the selected product area on the
 
 
 
- <a name="task_gg4_qrb_q4b"/>
+<a name="task_gg4_qrb_q4b"/>
 
 <!-- task\_gg4\_qrb\_q4b -->
 
@@ -218,7 +224,7 @@ You can see recommended knowledge resources for the selected product area on the
 
 Upload attachments complying with the required size and file types.
 
- <a name="task_g4p_p4b_q4b"/>
+<a name="task_g4p_p4b_q4b"/>
 
 <!-- task\_g4p\_p4b\_q4b -->
 
@@ -235,7 +241,7 @@ Upload attachments complying with the required size and file types.
 -   \(Optional\) Define any additional contacts, apart from the reporter \(who is filled in automatically\).
 
 
- <a name="id_ofw_ssb_q4b"/>
+<a name="id_ofw_ssb_q4b"/>
 
 <!-- id\_ofw\_ssb\_q4b -->
 

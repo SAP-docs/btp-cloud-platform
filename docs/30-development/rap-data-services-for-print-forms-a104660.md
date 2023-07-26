@@ -69,7 +69,7 @@ Definition
 <tr>
 <td valign="top">
 
- `IT_SELECT` 
+`IT_SELECT` 
 
 
 
@@ -85,7 +85,7 @@ Key parameters
 <tr>
 <td valign="top">
 
- `IV_LANGUAGE` \(Optional\)
+`IV_LANGUAGE` \(Optional\)
 
 
 
@@ -125,7 +125,7 @@ Definition
 <tr>
 <td valign="top">
 
- `RV_XML` 
+`RV_XML` 
 
 
 
@@ -183,7 +183,7 @@ Definition
 <tr>
 <td valign="top">
 
- `RV_XML` 
+`RV_XML` 
 
 
 

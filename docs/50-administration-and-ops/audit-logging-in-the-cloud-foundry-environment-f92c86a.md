@@ -2,7 +2,7 @@
 
 # Audit Loggingin the Cloud Foundry Environment
 
-In this section, you can find information for audit log functionalities in the  Cloud Foundry environment.
+In this section, you can find information for audit log functionalities in the Cloud Foundry environment.
 
 The SAP Audit Log service is a platform service which stores all the audit logs written on your behalf by other platform services that you use. It allows you to retrieve the audit logs for your subaccount via the audit log retrieval API or view them using the Audit Log Viewer. To retrieve the audit logs stored for your global account, create a support ticket with component BC-CP-CF-SEC-AUDITLG.
 

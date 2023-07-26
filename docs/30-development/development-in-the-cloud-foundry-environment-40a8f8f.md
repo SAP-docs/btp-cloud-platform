@@ -16,7 +16,7 @@ SAP BTP, Cloud Foundry environment is an open Platform-as-a-Service \(PaaS\) tar
 <dl>
 <dt><b>
 
- Develop polyglot applications 
+Develop polyglot applications 
 
 </b></dt>
 <dd>
@@ -27,7 +27,7 @@ Build on open standards with SAP Java, Node.js, and Python buildpacks or bring y
 
 </dd><dt><b>
 
- Manage the lifecycle of applications 
+Manage the lifecycle of applications 
 
 </b></dt>
 <dd>
@@ -38,7 +38,7 @@ Start, stop, scale, and configure distributed cloud applications using standard 
 
 </dd><dt><b>
 
- Optimize development and operations 
+Optimize development and operations 
 
 </b></dt>
 <dd>
@@ -49,7 +49,7 @@ Use the rich set of SAP BTP services including messaging, persistence, and many 
 
 </dd><dt><b>
 
- Use the application programming model 
+Use the application programming model 
 
 </b></dt>
 <dd>

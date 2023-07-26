@@ -53,11 +53,11 @@ Before we can start releasing transport requests that generate commits, a new co
 1.  Open the *Manage Software Components* app and navigate to the desired software component and a branch.
 2.  Select a commit for the export and click on the *Export to cTMS* button.
 
-     ![](images/list_of_commits_4f0719b.png) 
+    ![](images/list_of_commits_4f0719b.png)
 
 3.  A new dialog will open, where you will be prompted to select a cTMS node you want to use for this export.
 
-     ![](images/Export_to_cTMS_3ca4f84.png) 
+    ![](images/Export_to_cTMS_3ca4f84.png)
 
 4.  Click on *Export* after you are ready with the selection. A status modal in the center of the screen will let you know if the process was completed successfully.
 

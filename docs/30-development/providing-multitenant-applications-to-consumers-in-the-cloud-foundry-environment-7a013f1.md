@@ -2,7 +2,7 @@
 
 # Providing Multitenant Applications to Consumers in the Cloud Foundry Environment
 
- Once you have built a multitenant application in the Cloud Foundry environment using SAP BTP, you can then share the application with multiple consumers, such as business units in your organization. 
+Once you have built a multitenant application in the Cloud Foundry environment using SAP BTP, you can then share the application with multiple consumers, such as business units in your organization. 
 
 
 
@@ -27,12 +27,12 @@ The application provider is responsible for:
 
 Typically, consumers of multitenant applications provided by a non-SAP application owner, such as an IT department of an organization, do not own or have access to their tenant subaccount.
 
-   
+  
   
 **Account setup for an application owner provisioning a multitenant application to its consumers.**
 
- ![](images/CF_Subscriptions_with_External_Providers_-_Detailed_a65f2d5.png "Account
-					setup for an application owner provisioning a multitenant application to its consumers.") 
+![](images/CF_Subscriptions_with_External_Providers_-_Detailed_a65f2d5.png "Account
+					setup for an application owner provisioning a multitenant application to its consumers.")
 
 Subaccount members are users who are registered via the SAP ID service. Subaccount members may have different privileges regarding the operations that are possible for a subaccount \(for example, subaccount administration, deploy, start, and stop applications\).
 

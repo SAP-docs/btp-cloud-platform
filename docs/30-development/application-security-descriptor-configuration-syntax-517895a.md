@@ -146,7 +146,7 @@ Description
 <tr>
 <td valign="top">
 
- `dedicated` 
+`dedicated` 
 
 
 
@@ -162,7 +162,7 @@ An OAuth client gets a separate client secret for each subaccount.
 <tr>
 <td valign="top">
 
- `shared` \(default\)
+`shared` \(default\)
 
 
 
@@ -178,7 +178,7 @@ An OAuth client always gets the same client secret. It’s valid in all subaccou
 <tr>
 <td valign="top">
 
- `external` 
+`external` 
 
 
 
@@ -351,7 +351,7 @@ Example
 <tr>
 <td valign="top">
 
- `name` 
+`name` 
 
 
 
@@ -365,7 +365,7 @@ The name of the attribute with a value to apply when building the role template
 </td>
 <td valign="top">
 
- `Country` 
+`Country` 
 
 
 
@@ -374,7 +374,7 @@ The name of the attribute with a value to apply when building the role template
 <tr>
 <td valign="top">
 
- `description` 
+`description` 
 
 
 
@@ -388,7 +388,7 @@ A short summary of the attribute defined
 </td>
 <td valign="top">
 
- `Country` 
+`Country` 
 
 
 
@@ -397,7 +397,7 @@ A short summary of the attribute defined
 <tr>
 <td valign="top">
 
- `valueType` 
+`valueType` 
 
 
 
@@ -411,7 +411,7 @@ The type of value expected for the defined attribute; possible values are: `stri
 </td>
 <td valign="top">
 
- `int` 
+`int` 
 
 
 
@@ -436,7 +436,7 @@ For more information, see [Relationship Between `default-values` of `attribute-r
 </td>
 <td valign="top">
 
- `true` 
+`true` 
 
 
 
@@ -522,7 +522,7 @@ Example
 <tr>
 <td valign="top">
 
- `name` 
+`name` 
 
 
 
@@ -536,7 +536,7 @@ The name of the role to build from the role template
 </td>
 <td valign="top">
 
- `Viewer` 
+`Viewer` 
 
 
 
@@ -545,7 +545,7 @@ The name of the role to build from the role template
 <tr>
 <td valign="top">
 
- `description` 
+`description` 
 
 
 
@@ -559,7 +559,7 @@ A short summary of the role to build
 </td>
 <td valign="top">
 
- `View all books` 
+`View all books` 
 
 
 
@@ -568,7 +568,7 @@ A short summary of the role to build
 <tr>
 <td valign="top">
 
- `default-role-name` 
+`default-role-name` 
 
 
 
@@ -584,7 +584,7 @@ The name can be up to 255 characters long. The naming conventions of `role-templ
 </td>
 <td valign="top">
 
- `Viewer: Authorized to Read All Books` 
+`Viewer: Authorized to Read All Books` 
 
 
 
@@ -593,7 +593,7 @@ The name can be up to 255 characters long. The naming conventions of `role-templ
 <tr>
 <td valign="top">
 
- `scope-references` 
+`scope-references` 
 
 
 
@@ -607,7 +607,7 @@ The security **scope** to apply to the application-related role
 </td>
 <td valign="top">
 
- `$XSAPPNAME.Display` 
+`$XSAPPNAME.Display` 
 
 
 
@@ -616,7 +616,7 @@ The security **scope** to apply to the application-related role
 <tr>
 <td valign="top">
 
- `attribute-references` 
+`attribute-references` 
 
 
 
@@ -723,7 +723,7 @@ Example
 <tr>
 <td valign="top">
 
- `name` 
+`name` 
 
 
 
@@ -737,7 +737,7 @@ The name of the role collection to build
 </td>
 <td valign="top">
 
- `Employee` 
+`Employee` 
 
 
 
@@ -746,7 +746,7 @@ The name of the role collection to build
 <tr>
 <td valign="top">
 
- `description` 
+`description` 
 
 
 
@@ -760,7 +760,7 @@ A short summary of the role collection to build
 </td>
 <td valign="top">
 
- `Employee roles` 
+`Employee roles` 
 
 
 
@@ -769,7 +769,7 @@ A short summary of the role collection to build
 <tr>
 <td valign="top">
 
- `role-template-references` 
+`role-template-references` 
 
 
 
@@ -916,7 +916,7 @@ Example
 <tr>
 <td valign="top">
 
- `token-validity` 
+`token-validity` 
 
 
 
@@ -940,7 +940,7 @@ Default: 43200 seconds \(12 hours\)
 </td>
 <td valign="top">
 
- `1800` \(30 minutes\)
+`1800` \(30 minutes\)
 
 
 
@@ -949,7 +949,7 @@ Default: 43200 seconds \(12 hours\)
 <tr>
 <td valign="top">
 
- `refresh-token-validity` 
+`refresh-token-validity` 
 
 
 
@@ -965,7 +965,7 @@ Default: 604800 seconds \(7 days\)
 </td>
 <td valign="top">
 
- `604800` \(7 days\)
+`604800` \(7 days\)
 
 
 
@@ -974,7 +974,7 @@ Default: 604800 seconds \(7 days\)
 <tr>
 <td valign="top">
 
- `redirect-uris` 
+`redirect-uris` 
 
 
 
@@ -995,7 +995,7 @@ For more information, see [Listing Allowed Redirect URIs](../60-security/securit
 </td>
 <td valign="top">
 
- <code>["https://<i class="varname">&lt;application_ hostname1&gt;</i>.<i class="varname">&lt;landscape_domain&gt;</i><i class="varname">&lt;path&gt;</i>","https://<i class="varname">&lt;application_ hostname2&gt;</i>.<i class="varname">&lt;custom_domain&gt;</i><i class="varname">&lt;path&gt;</i>"]</code> 
+<code>["https://<i class="varname">&lt;application_ hostname1&gt;</i>.<i class="varname">&lt;landscape_domain&gt;</i><i class="varname">&lt;path&gt;</i>","https://<i class="varname">&lt;application_ hostname2&gt;</i>.<i class="varname">&lt;custom_domain&gt;</i><i class="varname">&lt;path&gt;</i>"]</code> 
 
 
 
@@ -1004,7 +1004,7 @@ For more information, see [Listing Allowed Redirect URIs](../60-security/securit
 <tr>
 <td valign="top">
 
- `credential-types` 
+`credential-types` 
 
 
 
@@ -1027,7 +1027,7 @@ The default value is `instance-secret`. With `instance-secret` all bindings of a
 </td>
 <td valign="top">
 
- `["binding-secret"]` 
+`["binding-secret"]` 
 
 
 
@@ -1036,7 +1036,7 @@ The default value is `instance-secret`. With `instance-secret` all bindings of a
 <tr>
 <td valign="top">
 
- `system-attributes` 
+`system-attributes` 
 
 
 
@@ -1065,7 +1065,7 @@ For more information, see [Include Tokens from Corporate Identity Providers or I
 </td>
 <td valign="top">
 
- `["groups","rolecollections"]` 
+`["groups","rolecollections"]` 
 
 
 
@@ -1074,7 +1074,7 @@ For more information, see [Include Tokens from Corporate Identity Providers or I
 <tr>
 <td valign="top">
 
- `allowedproviders` 
+`allowedproviders` 
 
 
 
@@ -1093,7 +1093,7 @@ As an option, developers can configure on application level which identity provi
 </td>
 <td valign="top">
 
- `["origin_key1","origin_key2"]` 
+`["origin_key1","origin_key2"]` 
 
 
 
@@ -1145,7 +1145,7 @@ Description
 <tr>
 <td valign="top">
 
- `false` \(default\)
+`false` \(default\)
 
 
 
@@ -1161,7 +1161,7 @@ Cloud Foundry command line interface commands are executed synchronously.
 <tr>
 <td valign="top">
 
- `true` 
+`true` 
 
 
 
@@ -1219,7 +1219,7 @@ Application in the current `xs-security.json` file
 </td>
 <td valign="top">
 
- `$XSAPPNAME` 
+`$XSAPPNAME` 
 
 
 
@@ -1299,7 +1299,7 @@ Example
 <tr>
 <td valign="top">
 
- `granted-apps` 
+`granted-apps` 
 
 
 
@@ -1329,7 +1329,7 @@ Granting scopes to other applications.
 <tr>
 <td valign="top">
 
- `grant-as-authority-to-apps` 
+`grant-as-authority-to-apps` 
 
 
 
@@ -1359,7 +1359,7 @@ Use this property if you want to grant a scope to other applications for a clien
 <tr>
 <td valign="top">
 
- `authorities` 
+`authorities` 
 
 
 
@@ -1385,7 +1385,7 @@ Granting authorities \(for a client credentials scenario\)
 <tr>
 <td valign="top">
 
- `scope-references` 
+`scope-references` 
 
 
 
@@ -1411,7 +1411,7 @@ Referencing scopes in role templates
 <tr>
 <td valign="top">
 
- `foreign-scope-references` 
+`foreign-scope-references` 
 
 
 

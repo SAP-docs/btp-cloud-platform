@@ -35,19 +35,19 @@ When accessing a web application, like a service dashboard \(for example `logs.c
 
     If this is the first time you're loging on or your browser cache has been cleaned of cookies, you're prompted to provide the origin key of your custom identity provider or choose the default identity provider.
 
-       
+      
       
     **Logon Page Without Cookies**
 
-     ![](images/Logon_page_for_CF_platform_3ee6653.png "Logon Page Without Cookies") 
+    ![](images/Logon_page_for_CF_platform_3ee6653.png "Logon Page Without Cookies")
 
     Otherwise the sign in page lists your accounts on custom identity providers with which you previously logged on.
 
-       
+      
       
     **Logon Page With Previous Logon**
 
-     ![](images/BTP_login_with_cookies_c0319a7.png "Logon Page With Previous Logon") 
+    ![](images/BTP_login_with_cookies_c0319a7.png "Logon Page With Previous Logon")
 
 2.  Choose your identity provider and log on.
 

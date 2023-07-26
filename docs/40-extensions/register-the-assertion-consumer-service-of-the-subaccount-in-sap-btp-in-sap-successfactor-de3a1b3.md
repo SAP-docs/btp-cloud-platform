@@ -65,30 +65,14 @@ You need to register the assertion consumer service of the subaccount as an auth
     <tr>
     <td valign="top">
     
-        *Assertion Consumer Service*
+    *Assertion Consumer Service*
 
 
     
     </td>
     <td valign="top">
     
-        This is the value of the `Location` attribute of the `AssertionConsumerService` element with the `HTTP-POST` binding you copied in **step 1**.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Logout URL*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        This is the value of the `Location` attribute of the `SingleLogoutService` element with the `HTTP-POST` binding you copied in **step 1**.
+    This is the value of the `Location` attribute of the `AssertionConsumerService` element with the `HTTP-POST` binding you copied in **step 1**.
 
 
     
@@ -97,30 +81,14 @@ You need to register the assertion consumer service of the subaccount as an auth
     <tr>
     <td valign="top">
     
-        *Audience Url*
+    *Logout URL*
 
 
     
     </td>
     <td valign="top">
     
-        This is the value of the `EntityID` attribute of `EntityDescriptor` element you copied in **step 1** 
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Application Name*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Select *SAP Business Technology Platform* from the drop-down list.
+    This is the value of the `Location` attribute of the `SingleLogoutService` element with the `HTTP-POST` binding you copied in **step 1**.
 
 
     
@@ -129,14 +97,46 @@ You need to register the assertion consumer service of the subaccount as an auth
     <tr>
     <td valign="top">
     
-        *SHA-256 Certificate*
+    *Audience Url*
 
 
     
     </td>
     <td valign="top">
     
-        Select the checkbox if it is not automatically selected when specifying the *Application Name* value.
+    This is the value of the `EntityID` attribute of `EntityDescriptor` element you copied in **step 1** 
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Application Name*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Select *SAP Business Technology Platform* from the drop-down list.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *SHA-256 Certificate*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Select the checkbox if it is not automatically selected when specifying the *Application Name* value.
 
 
     

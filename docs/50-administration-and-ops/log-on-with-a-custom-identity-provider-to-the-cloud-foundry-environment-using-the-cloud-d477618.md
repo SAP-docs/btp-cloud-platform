@@ -67,7 +67,7 @@ You can open a browser during the logon process.
 </td>
 <td valign="top">
 
- [Log On Manually With a Custom Identity Provider](log-on-manually-with-a-custom-identity-provider-e1009b4.md).
+[Log On Manually With a Custom Identity Provider](log-on-manually-with-a-custom-identity-provider-e1009b4.md).
 
 
 
@@ -86,7 +86,7 @@ The logon process is automated, for example with a script or there’s no possib
 </td>
 <td valign="top">
 
- [Log On as a Technical User With a Custom Identity Provider](log-on-as-a-technical-user-with-a-custom-identity-provider-98ec56a.md) 
+[Log On as a Technical User With a Custom Identity Provider](log-on-as-a-technical-user-with-a-custom-identity-provider-98ec56a.md) 
 
 
 

@@ -113,7 +113,7 @@ Effect
 <tr>
 <td valign="top">
 
- <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
+<code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
 
 
 
@@ -136,7 +136,7 @@ The requests are executed at once.
 <tr>
 <td valign="top">
 
- <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
+<code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
 
 
 
@@ -159,7 +159,7 @@ The requests are queued and then executed.
 <tr>
 <td valign="top">
 
- <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
+<code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
 
 
 
@@ -182,7 +182,7 @@ An `HTTP 429 Too Many Requests` response status code is sent.
 <tr>
 <td valign="top">
 
- <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.cert.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
+<code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.cert.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
 
 
 
@@ -205,7 +205,7 @@ The requests are executed at once.
 <tr>
 <td valign="top">
 
- <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.cert.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
+<code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.cert.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
 
 
 
@@ -228,7 +228,7 @@ The requests are queued and then executed.
 <tr>
 <td valign="top">
 
- <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.cert.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
+<code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.cert.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
 
 
 

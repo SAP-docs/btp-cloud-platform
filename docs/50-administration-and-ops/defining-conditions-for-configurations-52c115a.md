@@ -22,15 +22,15 @@ You've created a configuration in the *Read Access Logging Configuration* app. R
 
 5.  Search for your configuration in the *Search Criteria* section. Refer to [Searching for Existing Configurations](searching-for-existing-configurations-84c908b.md).
 
-6.  Press the *Edit Configuration* icon of the configuration you want to define a condition for.
+6.  Click the *Edit Configuration* icon of the configuration you want to define a condition for.
 
-7.  In the *Conditions* section, press the button with the tooltip *Create Condition*.
+7.  In the *Conditions* section, click the button with the tooltip *Create Condition*.
 
     1.  Define the *Condition*.
 
     2.  Define the *Description*.
 
-    3.  Press *Create*.
+    3.  Click *Create*.
 
 
 

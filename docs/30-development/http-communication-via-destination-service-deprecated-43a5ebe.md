@@ -64,14 +64,14 @@ Create a destination object using class `cl_http_destination_provider` and metho
     <tr>
     <td valign="top">
     
-        `if_a4c_cp_service=>user_propagation`
+    `if_a4c_cp_service=>user_propagation`
 
 
     
     </td>
     <td valign="top">
     
-        -   [OAuth User Token Exchange Authentication](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/oauth-user-token-exchange-authentication?version=Cloud)
+    -   [OAuth User Token Exchange Authentication](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/oauth-user-token-exchange-authentication?version=Cloud)
 
     -   [OAuth SAML Bearer Assertion Authentication](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/oauth-saml-bearer-assertion-authentication?version=Cloud)
 
@@ -83,7 +83,7 @@ Create a destination object using class `cl_http_destination_provider` and metho
     </td>
     <td valign="top">
     
-        [Principal Propagation SSO Authentication for HTTP](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/principal-propagation-sso-authentication-for-http?version=Cloud)
+    [Principal Propagation SSO Authentication for HTTP](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/principal-propagation-sso-authentication-for-http?version=Cloud)
 
 
     
@@ -92,14 +92,14 @@ Create a destination object using class `cl_http_destination_provider` and metho
     <tr>
     <td valign="top">
     
-        `if_a4c_cp_service=>service_specific`
+    `if_a4c_cp_service=>service_specific`
 
 
     
     </td>
     <td valign="top">
     
-        -   No Authentication
+    -   No Authentication
 
     -   Basic Authentication
 
@@ -115,7 +115,7 @@ Create a destination object using class `cl_http_destination_provider` and metho
     </td>
     <td valign="top">
     
-        -   No Authentication
+    -   No Authentication
 
     -   Basic Authentication
 
@@ -130,6 +130,8 @@ Create a destination object using class `cl_http_destination_provider` and metho
 Other authentication methods are currently not supported by the SAP BTP, ABAP environment.
 
 
+
+## Example
 
 The actual processing of an HTTP request and its response is shown in the following code example:
 

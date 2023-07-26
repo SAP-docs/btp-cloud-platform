@@ -48,7 +48,7 @@ Values
 <tr>
 <td valign="top">
 
- `authenticationMethod` 
+`authenticationMethod` 
 
 
 

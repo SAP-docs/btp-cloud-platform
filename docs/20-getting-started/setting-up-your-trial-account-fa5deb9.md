@@ -6,7 +6,7 @@
 
 Your trial account is set up automatically, so that you can start using it right away. However, if one or more of the automatic steps fail, you can also finalize the setup manually, by following the steps below.
 
- <a name="loio495f2c2fff4341e895eb0fc294991557"/>
+<a name="loio495f2c2fff4341e895eb0fc294991557"/>
 
 <!-- loio495f2c2fff4341e895eb0fc294991557 -->
 
@@ -45,30 +45,14 @@ The first thing that is needed in the setup of your trial account is the creatio
     <tr>
     <td valign="top">
     
-        **Display Name**
+    **Display Name**
 
 
     
     </td>
     <td valign="top">
     
-        `trial`
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        **Description**
-
-
-    
-    </td>
-    <td valign="top">
-    
-        \(Optional\) Any text that describes your subaccount
+    `trial`
 
 
     
@@ -77,30 +61,14 @@ The first thing that is needed in the setup of your trial account is the creatio
     <tr>
     <td valign="top">
     
-        **Provider**
+    **Description**
 
 
     
     </td>
     <td valign="top">
     
-        Desired infrastructure provider
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        **Region**
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Desired region
+    \(Optional\) Any text that describes your subaccount
 
 
     
@@ -109,14 +77,46 @@ The first thing that is needed in the setup of your trial account is the creatio
     <tr>
     <td valign="top">
     
-        **Subdomain**
+    **Provider**
 
 
     
     </td>
     <td valign="top">
     
-        `<your_id>trial`
+    Desired infrastructure provider
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    **Region**
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Desired region
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    **Subdomain**
+
+
+    
+    </td>
+    <td valign="top">
+    
+    `<your_id>trial`
 
     Example: **P0123456789trial**
 
@@ -127,14 +127,14 @@ The first thing that is needed in the setup of your trial account is the creatio
     <tr>
     <td valign="top">
     
-        **\[Advanced\] Enable beta features**
+    **\[Advanced\] Enable beta features**
 
 
     
     </td>
     <td valign="top">
     
-        \(Optional\) Enables the use of beta services and applications.
+    \(Optional\) Enables the use of beta services and applications.
 
 
     
@@ -143,14 +143,14 @@ The first thing that is needed in the setup of your trial account is the creatio
     <tr>
     <td valign="top">
     
-        **\[Advanced\] Labels**
+    **\[Advanced\] Labels**
 
 
     
     </td>
     <td valign="top">
     
-        \(Optional\) You can assign labels to help identify and organize the subaccounts in your global account. For example, you can filter subaccounts by custom property in the *Account Explorer* page. See [Labels \[Feature Set B\]](../10-concepts/account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
+    \(Optional\) You can assign labels to help identify and organize the subaccounts in your global account. For example, you can filter subaccounts by custom property in the *Account Explorer* page. See [Labels \[Feature Set B\]](../10-concepts/account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
 
 
     
@@ -165,7 +165,7 @@ The first thing that is needed in the setup of your trial account is the creatio
 
 You have successfully set up your trial subaccount.
 
- <a name="loio3d54b2aee0c64f7b9e257b353818b47d"/>
+<a name="loio3d54b2aee0c64f7b9e257b353818b47d"/>
 
 <!-- loio3d54b2aee0c64f7b9e257b353818b47d -->
 
@@ -203,7 +203,7 @@ Once you have a subaccount \(whether it was created automatically or you followe
 
 You now have an org and all the entitlements for your subaccount. The last thing you need is a space where you can use the services you've configured entitlements for and deploy applications.
 
- <a name="loioe9aed07891e545dd88192df013646897"/>
+<a name="loioe9aed07891e545dd88192df013646897"/>
 
 <!-- loioe9aed07891e545dd88192df013646897 -->
 

@@ -219,6 +219,158 @@ Internal error during processing
 </table>
 
 > ### Note:  
+> It is recommended to use method `LOAD_LOG_WITH_ITEMS` if all items should be loaded.
+> 
+> The following authorization is checked:
+> 
+> Authorization Object: S\_APPL\_LOG with:
+> 
+> -   ALG\_OBJECT: Object name of the application log
+> 
+> -   ALG\_SUBOBJ: Subobject of the application log
+> 
+> -   ACTVT: 03
+
+
+
+Load a single log including all items from the database into the memory:
+
+**LOAD\_LOG\_WITH\_ITEMS**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Name
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Importing parameters**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+HANDLE
+
+
+
+</td>
+<td valign="top">
+
+Handle of the application log that should be read
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Returning parameter**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+LOG
+
+
+
+</td>
+<td valign="top">
+
+Log that was read from the database: Reference to interface IF\_BALI\_LOG
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CX\_BALI\_NOT\_FOUND
+
+
+
+</td>
+<td valign="top">
+
+-   The log handle is initial
+
+-   The log was not found in the database
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CX\_BALI\_NOT\_POSSIBLE
+
+
+
+</td>
+<td valign="top">
+
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>OBJECT\_NOT\_ALLOWED: Access to the log object is not allowed
+
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>NO\_AUTHORIZATION: No authorization to access the log
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CX\_BALI\_INTERNAL\_ERROR
+
+
+
+</td>
+<td valign="top">
+
+Internal error during processing
+
+
+
+</td>
+</tr>
+</table>
+
+> ### Note:  
 > The following authorization is checked:
 > 
 > Authorization Object: S\_APPL\_LOG with:
@@ -384,6 +536,8 @@ Internal error during processing
 </table>
 
 > ### Note:  
+> It is recommended to use method `LOAD_LOGS_W_ITEMS_VIA_FILTER` if all items should be loaded.
+> 
 > The following authorization is checked:
 > 
 > Authorization Object: S\_APPL\_LOG with:
@@ -395,11 +549,161 @@ Internal error during processing
 > -   ACTVT: 03
 > 
 > 
-> If the object of a log is not allowed or if the log does not pass the authorization check, it is removed from the table of logs which is returned. An exception is only raised, if the final table is empty.
+> If the object of a log is not allowed or if the log doesn't pass the authorization check, it is removed from the table of logs which is returned. An exception is only raised if the final table is empty.
 
 
 
-Save a single log to the database:
+Load several logs including all items via a filter from the database into the memory:
+
+**LOAD\_LOGs\_W\_ITEMS\_VIA\_FILTER**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Name
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Importing parameters**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+FILTER
+
+
+
+</td>
+<td valign="top">
+
+Log filter object: Reference to interface IF\_BALI\_LOG\_FILTER
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Returning parameter**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+LOG\_TABLE
+
+
+
+</td>
+<td valign="top">
+
+Table of logs which were read from the database: Table of references to interface IF\_BALI\_LOG
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CX\_BALI\_NOT\_FOUND
+
+
+
+</td>
+<td valign="top">
+
+No log can be returned that fits to the filter criteria
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CX\_BALI\_INVALID\_PARAMETERS
+
+
+
+</td>
+<td valign="top">
+
+-   The filter contains invalid values
+
+-   The filter is initial or empty
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CX\_BALI\_INTERNAL\_ERROR
+
+
+
+</td>
+<td valign="top">
+
+Internal error during processing
+
+
+
+</td>
+</tr>
+</table>
+
+> ### Note:  
+> The following authorization is checked:
+> 
+> Authorization Object: S\_APPL\_LOG with:
+> 
+> -   ALG\_OBJECT: Object name of the application log
+> 
+> -   ALG\_SUBOBJ: Subobject of the application log
+> 
+> -   ACTVT: 03
+> 
+> 
+> If the object of a log is not allowed or if the log doesn't pass the authorization check, it's removed from the table of logs that is returned. An exception is only raised if the final table is empty.
+
+
+
+Save a single log to the database using the default database connection:
 
 **SAVE\_LOG**
 
@@ -440,7 +744,7 @@ LOG
 </td>
 <td valign="top">
 
-Log which shall be saved: Reference to interface IF\_BALI\_LOG
+Log that should be saved: Reference to interface IF\_BALI\_LOG
 
 
 
@@ -456,9 +760,7 @@ USE\_2ND\_DB\_CONNECTION
 </td>
 <td valign="top">
 
-\(Optional\): If set, use 2nd database connection for saving
-
-Default: Not set
+Deprecated: Please use method SAVE\_LOG\_2ND\_DB\_CONNECTION instead
 
 
 
@@ -542,9 +844,138 @@ Internal error during processing
 </table>
 
 > ### Note:  
-> -   If a second database connection is used to save the log, a commit is executed on this connection after the saving.
+> If parameter LOG is initial, the method returns without exception.
+
+
+
+Save a single log to the database using a service connection to the database:
+
+**SAVE\_LOG\_2ND\_DB\_CONNECTION**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Name
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Importing parameters**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+LOG
+
+
+
+</td>
+<td valign="top">
+
+Log that should be saved: Reference to interface IF\_BALI\_LOG
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ASSIGN\_TO\_CURRENT\_APPL\_JOB
+
+
+
+</td>
+<td valign="top">
+
+\(Optional\): If set, and if the application runs in an application job, a connection between the application log and an application job is established
+
+Default: Not set
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CX\_BALI\_NOT\_POSSIBLE
+
+
+
+</td>
+<td valign="top">
+
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>OBJECT\_NOT\_ALLOWED:
+
+    Access to the log object is not allowed
+
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>SAVE\_NOT\_ALLOWED:
+
+    -   Log object and log subobject are empty
+
+    -   Locking of the log is not possible
+
+    -   Error during saving into the database
+
+
+-   ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED:
+
+    The memory of the log was released. The log can't be used
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CX\_BALI\_INTERNAL\_ERROR
+
+
+
+</td>
+<td valign="top">
+
+Internal error during processing
+
+
+
+</td>
+</tr>
+</table>
+
+> ### Note:  
+> A commit is executed on the service connection after the saving.
 > 
-> -   If parameter LOG is initial, the method returns without exception.
+> If parameter LOG is initial, the method returns without exception.
 
 
 

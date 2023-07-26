@@ -38,7 +38,7 @@ Description
 <tr>
 <td valign="top">
 
- `standard` 
+`standard` 
 
 
 
@@ -56,7 +56,7 @@ By default, a Cloud Foundry org that is created with this plan does not have any
 <tr>
 <td valign="top">
 
- `free` 
+`free` 
 
 
 
@@ -129,14 +129,14 @@ Additional Info
 <tr>
 <td valign="top">
 
- `list` 
+`list` 
 
 
 
 </td>
 <td valign="top">
 
- <code>btp list accounts/environment-instance --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i></code> 
+<code>btp list accounts/environment-instance --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i></code> 
 
 
 
@@ -150,7 +150,7 @@ List all the Cloud Foundry orgs and other environment instances in a subaccount.
 </td>
 <td valign="top">
 
- `SUBACCOUNT_ID`: The ID of the subaccount.
+`SUBACCOUNT_ID`: The ID of the subaccount.
 
 
 
@@ -166,14 +166,14 @@ List all the Cloud Foundry orgs and other environment instances in a subaccount.
 <tr>
 <td valign="top">
 
- `get` 
+`get` 
 
 
 
 </td>
 <td valign="top">
 
- <code>btp get accounts/environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i></code> 
+<code>btp get accounts/environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i></code> 
 
 
 
@@ -205,14 +205,14 @@ Get the details of a specific Cloud Foundry org in a subaccount.
 <tr>
 <td valign="top">
 
- `create` 
+`create` 
 
 
 
 </td>
 <td valign="top">
 
- <code>btp create accounts/environment-instance --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --display-name <i class="varname">&lt;DISPLAY_NAME&gt;</i> --service <i class="varname">&lt;SERVICE&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i> --environment cloudfoundry --parameters "{\"instance_name\":\"<i class="varname">&lt;ORG_NAME&gt;</i>\"}"</code> 
+<code>btp create accounts/environment-instance --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --display-name <i class="varname">&lt;DISPLAY_NAME&gt;</i> --service <i class="varname">&lt;SERVICE&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i> --environment cloudfoundry --parameters "{\"instance_name\":\"<i class="varname">&lt;ORG_NAME&gt;</i>\"}"</code> 
 
 
 
@@ -248,14 +248,14 @@ For examples that show how to pass JSON parameters in the command line with diff
 <tr>
 <td valign="top">
 
- `update` 
+`update` 
 
 
 
 </td>
 <td valign="top">
 
- <code>btp update accounts/environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i></code> 
+<code>btp update accounts/environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i></code> 
 
 
 
@@ -292,14 +292,14 @@ For the Cloud Foundry environment, you can use this command to change only the p
 <tr>
 <td valign="top">
 
- `delete` 
+`delete` 
 
 
 
 </td>
 <td valign="top">
 
- <code>btp delete accounts/ environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i></code> 
+<code>btp delete accounts/ environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i></code> 
 
 
 

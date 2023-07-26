@@ -76,6 +76,8 @@ Client Certificate Authentication
 
 OAuth 2.0 Client Credentials Grant
 
+OAuth 2.0 SAML Bearer Assertion
+
 
 
 </td>

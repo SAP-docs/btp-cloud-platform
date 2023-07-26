@@ -15,7 +15,7 @@ A **global account** is the realization of a contract you or your company has ma
 -   [Get an Enterprise Account](getting-a-global-account-d61c281.md#loio82f9ff522f754e26ae89e0cd7ec7aa11)
 
 
- <a name="loio42e7e54590424e65969fced1acd47694"/>
+<a name="loio42e7e54590424e65969fced1acd47694"/>
 
 <!-- loio42e7e54590424e65969fced1acd47694 -->
 
@@ -35,7 +35,7 @@ A **free trial** account is intended for individuals, for example students, who 
 
 To learn which is best for your needs, see the [Set Up an SAP BTP Account for Tutorials](https://developers.sap.com/group.btp-setup.html) group in the SAP Developer Center.
 
- <a name="loio82f9ff522f754e26ae89e0cd7ec7aa11"/>
+<a name="loio82f9ff522f754e26ae89e0cd7ec7aa11"/>
 
 <!-- loio82f9ff522f754e26ae89e0cd7ec7aa11 -->
 
@@ -50,7 +50,7 @@ For more information about the scope of our enterprise offering, see [Enterprise
 
 [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html)
 
- <a name="loioa71a081b39e343e097046bf487f57af3"/>
+<a name="loioa71a081b39e343e097046bf487f57af3"/>
 
 <!-- loioa71a081b39e343e097046bf487f57af3 -->
 
@@ -98,11 +98,11 @@ If you are located in China and want to buy a global account on SAP BTP, you nee
 
 [Commercial Models](../10-concepts/commercial-models-263d400.md "SAP BTP offers two different commercial models for enterprise accounts.")
 
-[Using Free Service Plans](../10-concepts/using-free-service-plans-524e108.md "The free tier model for SAP BTP lets you try out services in global accounts without any additional cost using the consumption-based commercial model.")
+[Using Free Service Plans](../10-concepts/using-free-service-plans-524e108.md "The free tier model for SAP BTP lets you try out services in global accounts without any additional cost using the consumption-based commercial model and an enterprise account.")
 
 [Access the Cockpit](../50-administration-and-ops/access-the-cockpit-4e75066.md "Learn how to access the SAP BTP cockpit.")
 
- <a name="loio0730b01feb484396b5a3daaa5115d73d"/>
+<a name="loio0730b01feb484396b5a3daaa5115d73d"/>
 
 <!-- loio0730b01feb484396b5a3daaa5115d73d -->
 

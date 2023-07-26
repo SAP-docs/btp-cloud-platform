@@ -25,7 +25,7 @@ Learn how to navigate to your global accounts and subaccounts in the SAP BTP coc
 
 2.  Become familiar with the navigation behavior in the SAP BTP cockpit.
 
-    -    [Navigate in the Cockpit to Global Accounts and Subaccounts \[Feature Set A\]](navigate-in-the-cockpit-0874895.md#loio0874895f1f78459f9517da55a11ffebd__Navigate-FSA) 
+    -   [Navigate in the Cockpit to Global Accounts and Subaccounts \[Feature Set A\]](navigate-in-the-cockpit-0874895.md#loio0874895f1f78459f9517da55a11ffebd__Navigate-FSA) 
 
     -   [Navigate in the Cockpit to Global Accounts and Subaccounts \[Feature Set B\]](navigate-in-the-cockpit-0874895.md#loio0874895f1f78459f9517da55a11ffebd__Navigate-FSB)
 
@@ -35,7 +35,7 @@ Learn how to navigate to your global accounts and subaccounts in the SAP BTP coc
 
 [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 
- <a name="Navigate-FSA"/>
+<a name="Navigate-FSA"/>
 
 <!-- Navigate-FSA -->
 
@@ -65,7 +65,7 @@ Learn how to navigate to your global accounts and subaccounts in the SAP BTP coc
     :house: Home / <span class="SAP-icons"></span> <global\_account\> / <span class="SAP-icons"></span> <subaccount\>
 
 
- <a name="Navigate-FSB"/>
+<a name="Navigate-FSB"/>
 
 <!-- Navigate-FSB -->
 

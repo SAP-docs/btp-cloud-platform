@@ -22,7 +22,7 @@ When you're planning, for example, system capacities or facing performance issue
 
 2.  To gain insights into the memory utilization of the ABAP application server, choose the *Memory Utilization* tile.
 
-     ![](images/SUI_ABAP_Resource_Utilization_-_2_24cd587.png) 
+    ![](images/SUI_ABAP_Resource_Utilization_-_2_24cd587.png)
 
     For more information about the *Memory Utilization* screen, see [Memory Utilization \(Application Server ABAP\)](https://help.sap.com/viewer/tmc_cloud/d4d31df7fa044d6ebe0a47ee449cbacb.html).
 
@@ -36,7 +36,7 @@ When you're planning, for example, system capacities or facing performance issue
 
     Click on any peak in the chart to get the top 10 most contributing ABAP requests in the *System Workload: Details* section.
 
-     ![](images/SUI_ABAP_Resource_Utilization_-_3_d026d7b.png) 
+    ![](images/SUI_ABAP_Resource_Utilization_-_3_d026d7b.png)
 
     For more information about the *System Workload* screen, see [System Workload](https://help.sap.com/viewer/tmc_cloud/178c9777ad174bf5a2710312f009745a.html).
 

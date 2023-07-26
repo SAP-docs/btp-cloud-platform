@@ -6,11 +6,16 @@ You can use interface `IF_BALI_LOG_DB` to write an application log to the databa
 
 To change the logs in the database, interface `IF_BALI_LOG_DB` contains the following methods:
 
--   SAVE\_LOG: Save an application log in the database. The log is identified by the log object \(which uses interface`IF_BAL_LOG`\).
+-   SAVE\_LOG / SAVE\_LOG\_2ND\_DB\_CONNECTION: Save an application log in the database. The log is identified by the log object \(which uses interface`IF_BAL_LOG`\).
 
     It may be required to commit the saving of the log immediately after the saving. It ensures that the log is stored, even if the application calls *ROLLBACK WORK* later on. Whether it is required depends on the application. Some applications want to keep the log entries after the rollback, others want to remove everything by the *ROLLBACK WORK*, including the log entries.
 
-    To save an application log, the optional parameter `USE_2ND_DB_CONNECTION` is available. If the parameter is set, a second database connection is used for the saving. This second database connection is committed immediately after the save.
+    Therefore, there are two different methods to save an application log:
+
+    -   SAVE\_LOG uses the default database connection. This means that the changes of the log are only committed if the application calls `COMMIT_WORK`.
+
+    -   SAVE\_LOG\_2ND\_DB\_CONNECTION uses a service connection to the database for the saving, and it immediately commits the saving of the log.
+
 
     In addition, the optional parameter `ASSIGN_TO_CURRENT_APPL_JOB` is available. If this parameter is set, and if the application runs in an application job, the connection between the application log and an application job is established. The application log is visible in the application job display.
 
@@ -52,8 +57,7 @@ To change the logs in the database, interface `IF_BALI_LOG_DB` contains the foll
 > > 
 > > ...
 > >     TRY.
-> >         cl_bali_log_db=>get_instance( )->save_log( log = l_log
-> >                                                    use_2nd_db_connection = abap_true ).
+> >         cl_bali_log_db=>get_instance( )->save_log_2nd_db_connection( log = l_log ).
 > >       CATCH cx_bali_runtime INTO DATA(l_exception).
 > >         out->write( l_exception->get_text(  ) ).
 > >     ENDTRY.

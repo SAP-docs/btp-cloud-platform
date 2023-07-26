@@ -16,7 +16,7 @@ The main components of Identity and Access Management are:
 -   Roles and Authorization
 -   Authentication
 
-![](images/IAM_Overview_215b0ed.png) 
+![](images/IAM_Overview_215b0ed.png)
 
 In the configuration phase, an administrator registers and authorizes access rights.
 

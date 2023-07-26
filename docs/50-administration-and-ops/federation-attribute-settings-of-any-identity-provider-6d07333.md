@@ -38,7 +38,7 @@ Recommended Value
 <tr>
 <td valign="top">
 
- *SAML 2.0 Configuration* 
+*SAML 2.0 Configuration* 
 
 
 
@@ -61,7 +61,7 @@ Upload the metadata file from the UAA service.
 <tr>
 <td valign="top">
 
- *Default Name ID Format* 
+*Default Name ID Format* 
 
 
 
@@ -100,7 +100,7 @@ Possible settings:
 <tr>
 <td valign="top">
 
- *Select Assertion Attributes* 
+*Select Assertion Attributes* 
 
 
 

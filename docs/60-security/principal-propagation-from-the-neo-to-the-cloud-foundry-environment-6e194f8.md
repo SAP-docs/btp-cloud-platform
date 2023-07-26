@@ -168,7 +168,7 @@ See:
 > ### Note:  
 > You can use the [XSA Security Sample Application](https://github.com/raepple/cfsectest) in GitHub \(instructions and code\) to develop and deploy an application compliant with the above requirements.
 
- <a name="loioa4025821716e443a9091c2fa180415ab"/>
+<a name="loioa4025821716e443a9091c2fa180415ab"/>
 
 <!-- loioa4025821716e443a9091c2fa180415ab -->
 
@@ -230,14 +230,14 @@ Connect the first subaccount to the second subaccount by describing the source c
     <tr>
     <td valign="top">
     
-        Name
+    Name
 
 
     
     </td>
     <td valign="top">
     
-        Technical name of the destination. It can be used later on to get an instance of that destination. It must be unique for the global account.
+    Technical name of the destination. It can be used later on to get an instance of that destination. It must be unique for the global account.
 
     > ### Note:  
     > For the purposes of the example listed in this document, use *pptest* as value.
@@ -249,14 +249,14 @@ Connect the first subaccount to the second subaccount by describing the source c
     <tr>
     <td valign="top">
     
-        URL
+    URL
 
 
     
     </td>
     <td valign="top">
     
-        The URL of the protected resource in the Cloud Foundry environment. See [Configuring Application URLs](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7ceeaa5e528140c48ae53b68433293ba.html "By default, all applications running on SAP BTP are accessed on the hana.ondemand.com domain.") :arrow_upper_right:.
+    The URL of the protected resource in the Cloud Foundry environment. See [Configuring Application URLs](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7ceeaa5e528140c48ae53b68433293ba.html "By default, all applications running on SAP BTP are accessed on the hana.ondemand.com domain.") :arrow_upper_right:.
 
     Example: `https://<tenant-specific-route-for-your-business-app>.cfapps.eu10.hana.ondemand.com/`
 
@@ -267,30 +267,14 @@ Connect the first subaccount to the second subaccount by describing the source c
     <tr>
     <td valign="top">
     
-        Authentication
+    Authentication
 
 
     
     </td>
     <td valign="top">
     
-        OAuth2SAMLBearerAssertion
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        Proxy Type
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Internet
+    OAuth2SAMLBearerAssertion
 
 
     
@@ -299,14 +283,30 @@ Connect the first subaccount to the second subaccount by describing the source c
     <tr>
     <td valign="top">
     
-        Audience
+    Proxy Type
 
 
     
     </td>
     <td valign="top">
     
-        Copy the value of `entityID` property of the SAML 2.0 metadata representing your subaccount in the Cloud Foundry environment.
+    Internet
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Audience
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Copy the value of `entityID` property of the SAML 2.0 metadata representing your subaccount in the Cloud Foundry environment.
 
     > ### Tip:  
     > You can open the metadata of the subaccount in the Cloud Foundry environment using the following URL:
@@ -330,14 +330,14 @@ Connect the first subaccount to the second subaccount by describing the source c
     <tr>
     <td valign="top">
     
-        Client Key
+    Client Key
 
 
     
     </td>
     <td valign="top">
     
-        In the cloud cockpit, navigate to the application in the Cloud Foundry environment \(*<path to your subaccount\>* \> *Spaces* \> *<your space\>* \> *Applications* \> *<your application\>*\). Open *Environment Variables*. Copy the value of the *clientid* property in *VCAP\_SERVICES* \> *xsuaa* \> *credentials*.
+    In the cloud cockpit, navigate to the application in the Cloud Foundry environment \(*<path to your subaccount\>* \> *Spaces* \> *<your space\>* \> *Applications* \> *<your application\>*\). Open *Environment Variables*. Copy the value of the *clientid* property in *VCAP\_SERVICES* \> *xsuaa* \> *credentials*.
 
 
     
@@ -346,14 +346,14 @@ Connect the first subaccount to the second subaccount by describing the source c
     <tr>
     <td valign="top">
     
-        Token Service URL
+    Token Service URL
 
 
     
     </td>
     <td valign="top">
     
-        Get the **token service URL** from the SAML 2.0 metadata representing your subaccount in the Cloud Foundry environment. The **token service URL** is defined in the `Location` attribute of the element marked as `AssertionConsumerService`, like this :
+    Get the **token service URL** from the SAML 2.0 metadata representing your subaccount in the Cloud Foundry environment. The **token service URL** is defined in the `Location` attribute of the element marked as `AssertionConsumerService`, like this :
 
     <code>&lt;md:AssertionConsumerService Location="<b>&lt;Token Service URL&gt;</b>" Binding="urn:oasis:names:tc:SAML:2.0:bindings:URI" index="1"/&gt;</code>
 
@@ -379,30 +379,14 @@ Connect the first subaccount to the second subaccount by describing the source c
     <tr>
     <td valign="top">
     
-        Token Service User
+    Token Service User
 
 
     
     </td>
     <td valign="top">
     
-        In the cloud cockpit, navigate to the application in the Cloud Foundry environment \(*<path to your subaccount\>* \> *Spaces* \> *<your space\>* \> *Applications* \> *<your application\>*\). Open *Environment Variables*. Copy the value of the *clientid* property in *VCAP\_SERVICES* \> *xsuaa* \> *credentials*.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        Token Service Password
-
-
-    
-    </td>
-    <td valign="top">
-    
-        In the cloud cockpit, navigate to the application in the Cloud Foundry environment \(*<path to your subaccount\>* \> *Spaces* \> *<your space\>* \> *Applications* \> *<your application\>*\). Open *Environment Variables*. Copy the value of the *clientsecret* property in *VCAP\_SERVICES* \> *xsuaa* \> *credentials*.
+    In the cloud cockpit, navigate to the application in the Cloud Foundry environment \(*<path to your subaccount\>* \> *Spaces* \> *<your space\>* \> *Applications* \> *<your application\>*\). Open *Environment Variables*. Copy the value of the *clientid* property in *VCAP\_SERVICES* \> *xsuaa* \> *credentials*.
 
 
     
@@ -411,14 +395,30 @@ Connect the first subaccount to the second subaccount by describing the source c
     <tr>
     <td valign="top">
     
-        System User
+    Token Service Password
 
 
     
     </td>
     <td valign="top">
     
-        Empty.
+    In the cloud cockpit, navigate to the application in the Cloud Foundry environment \(*<path to your subaccount\>* \> *Spaces* \> *<your space\>* \> *Applications* \> *<your application\>*\). Open *Environment Variables*. Copy the value of the *clientsecret* property in *VCAP\_SERVICES* \> *xsuaa* \> *credentials*.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    System User
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Empty.
 
 
     
@@ -429,7 +429,7 @@ Connect the first subaccount to the second subaccount by describing the source c
 4.  Save the changes.
 
 
- <a name="loio561b0623e9a34a1c9bfc20efa1e773c5"/>
+<a name="loio561b0623e9a34a1c9bfc20efa1e773c5"/>
 
 <!-- loio561b0623e9a34a1c9bfc20efa1e773c5 -->
 

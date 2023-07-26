@@ -119,5 +119,5 @@ This node provides the available code lists for SAP specific codes. For example 
 </table>
 
 > ### Note:  
-> To display more information about the service node on the SAP API Business Hub, select the operation.
+> To display more information about the service node on the SAP Business Accelerator Hub, select the operation.
 

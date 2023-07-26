@@ -39,7 +39,7 @@ If you deploy an application with a resource type attribute `active` set to `fal
 
 No binding is created and in case of `managed-service`, no service is created .
 
- **Deployment with `org.cloudfoundry.existing-service-key` **
+**Deployment with `org.cloudfoundry.existing-service-key` **
 
 No binding to an application environment will be done in the following cases:
 
@@ -1301,7 +1301,7 @@ Generated as described in the description.
 </td>
 <td valign="top">
 
- `INITIAL_INITIAL_SERVICE_NAME` 
+`INITIAL_INITIAL_SERVICE_NAME` 
 
 
 

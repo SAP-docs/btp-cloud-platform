@@ -13,7 +13,7 @@ If you want to use a Kyma module, you must enable it. If you don't need it anymo
 
 [Kyma Modules](../10-concepts/kyma-modules-0dda141.md "With Kyma's modular approach, you can install just the modules you need, instead of a predefined set of components.")
 
- <a name="loio83744213890d4efe979d72ce706e1115"/>
+<a name="loio83744213890d4efe979d72ce706e1115"/>
 
 <!-- loio83744213890d4efe979d72ce706e1115 -->
 
@@ -78,7 +78,7 @@ This process may take a while, depending on the number of modules. The operation
 -   To disable a module, edit your Kyma instance and select the trash icon next to your module.
 
 
- <a name="loio88a8e99e4be945398dae2baa69f8ad30"/>
+<a name="loio88a8e99e4be945398dae2baa69f8ad30"/>
 
 <!-- loio88a8e99e4be945398dae2baa69f8ad30 -->
 

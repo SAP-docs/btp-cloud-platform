@@ -78,7 +78,7 @@ Dimensions:
 -   Customer
 -   Agency
 
- ![](images/starschema_1e2da3c.png) 
+![](images/starschema_1e2da3c.png)
 
 > ### Note:  
 > Note that we will not be associating any text views in our example.

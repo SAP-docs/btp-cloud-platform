@@ -6,5 +6,5 @@ Event consumption can be configured manually for some event types \(for example 
 
 
 
-You can configure consumption of events. To do so, proceed as follows:
+You can configure the consumption of events. To do so, proceed as follows:
 

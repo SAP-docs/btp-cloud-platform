@@ -29,7 +29,7 @@ Description
 <tr>
 <td valign="top">
 
- [`httpHeaders`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_rhz_hgn_mv) 
+[`httpHeaders`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_rhz_hgn_mv) 
 
 
 
@@ -45,7 +45,7 @@ Configures the application router to return additional HTTP headers in its respo
 <tr>
 <td valign="top">
 
- [`destinations`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_bv4_tdf_x1b) 
+[`destinations`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_bv4_tdf_x1b) 
 
 
 
@@ -61,7 +61,7 @@ Provides information about the available application \(microservice\) destinatio
 <tr>
 <td valign="top">
 
- [`cookies`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_gbt_1nc_4kb) 
+[`cookies`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_gbt_1nc_4kb) 
 
 
 
@@ -77,7 +77,7 @@ Provides cookies that the application router returns to the client in its respon
 <tr>
 <td valign="top">
 
- [`SESSION_TIMEOUT`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_blz_hgn_mv) 
+[`SESSION_TIMEOUT`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_blz_hgn_mv) 
 
 
 
@@ -93,7 +93,7 @@ Sets the time to trigger an automatic central log out from the User Account and 
 <tr>
 <td valign="top">
 
- [`SEND_XFRAMEOPTIONS`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_d4z_hgn_mv) 
+[`SEND_XFRAMEOPTIONS`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_d4z_hgn_mv) 
 
 
 
@@ -109,7 +109,7 @@ Sets or changes the `X-Frame-Options` header
 <tr>
 <td valign="top">
 
- [`CJ_PROTECT_WHITELIST`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_nrz_hgn_mv) 
+[`CJ_PROTECT_WHITELIST`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_nrz_hgn_mv) 
 
 
 
@@ -125,7 +125,7 @@ A list of allowed server or domain origins to use when checking for click-jackin
 <tr>
 <td valign="top">
 
- [`WS_ALLOWED_ORIGINS`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_ijs_5fm_4v) 
+[`WS_ALLOWED_ORIGINS`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_ijs_5fm_4v) 
 
 
 
@@ -141,7 +141,7 @@ A list of the allowed server \(or domain\) origins that the application router u
 <tr>
 <td valign="top">
 
- [`JWT_REFRESH`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_x5z_hgn_mv) 
+[`JWT_REFRESH`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_x5z_hgn_mv) 
 
 
 
@@ -157,7 +157,7 @@ Configures the automatic refresh of the JSON Web Token \(JWT\) provided by the U
 <tr>
 <td valign="top">
 
- [`UAA_SERVICE_NAME`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_wf1_lgn_mv) 
+[`UAA_SERVICE_NAME`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_wf1_lgn_mv) 
 
 
 
@@ -173,7 +173,7 @@ Specifies the **exact** name of the UAA service to bind to an application.
 <tr>
 <td valign="top">
 
- [`INCOMING_CONNECTION_TIMEOUT`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_owp_xch_wx) 
+[`INCOMING_CONNECTION_TIMEOUT`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_owp_xch_wx) 
 
 
 
@@ -189,7 +189,7 @@ Specifies the maximum time \(in milliseconds\) for a client connection. If the s
 <tr>
 <td valign="top">
 
- [`TENANT_HOST_PATTERN`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_zhq_xch_wx) 
+[`TENANT_HOST_PATTERN`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_zhq_xch_wx) 
 
 
 
@@ -205,7 +205,7 @@ Defines a regular expression to use when resolving tenant host names in the requ
 <tr>
 <td valign="top">
 
- [`COMPRESSION`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_vsq_xch_wx) 
+[`COMPRESSION`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_vsq_xch_wx) 
 
 
 
@@ -221,7 +221,7 @@ Configures the compression of resources before a response to the client.
 <tr>
 <td valign="top">
 
- [`SECURE_SESSION_COOKIE`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_wpy_yfg_2z) 
+[`SECURE_SESSION_COOKIE`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_wpy_yfg_2z) 
 
 
 
@@ -237,7 +237,7 @@ Configures the enforcement of the `Secure` flag of the application router's sess
 <tr>
 <td valign="top">
 
- [`REQUEST_TRACE`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_s1p_qvj_2z) 
+[`REQUEST_TRACE`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_s1p_qvj_2z) 
 
 
 
@@ -253,7 +253,7 @@ Enables additional traces of the incoming and outgoing requests.
 <tr>
 <td valign="top">
 
- `EXTERNAL_REVERSE_PROXY` 
+`EXTERNAL_REVERSE_PROXY` 
 
 
 
@@ -269,7 +269,7 @@ Indicates the use of the application router behind an external reverse proxy out
 <tr>
 <td valign="top">
 
- [`CORS`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_nt3_t4k_sz) 
+[`CORS`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_nt3_t4k_sz) 
 
 
 
@@ -285,7 +285,7 @@ Provides support for cross-origin requests, for example, by allowing the modific
 <tr>
 <td valign="top">
 
- [`DIRECT_ROUTING_URI_PATTERNS`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_DIRECT_ROUTING) 
+[`DIRECT_ROUTING_URI_PATTERNS`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_DIRECT_ROUTING) 
 
 
 
@@ -301,7 +301,7 @@ Defines a list of URIs that are directed to the routing configuration file \(xs-
 <tr>
 <td valign="top">
 
- `EXT_SESSION_MGT` 
+`EXT_SESSION_MGT` 
 
 
 
@@ -317,7 +317,7 @@ You can configure external session management. See [External Session Management]
 <tr>
 <td valign="top">
 
- `CF_NODEJS_LOGGING_LEVEL` 
+`CF_NODEJS_LOGGING_LEVEL` 
 
 
 
@@ -333,7 +333,7 @@ Sets the minimal logging level of the `cf-nodejs-logging-support` library of the
 <tr>
 <td valign="top">
 
- `STATE_PARAMETER_SECRET` 
+`STATE_PARAMETER_SECRET` 
 
 
 
@@ -351,7 +351,7 @@ If this environment variable is set, the application router creates a state para
 <tr>
 <td valign="top">
 
- `HTTP2_SUPPORT` 
+`HTTP2_SUPPORT` 
 
 
 
@@ -372,7 +372,7 @@ Enables the application router to start as an HTTP/2 server.
 <tr>
 <td valign="top">
 
- `FULL_CERTIFICATE_CHAIN` 
+`FULL_CERTIFICATE_CHAIN` 
 
 
 
@@ -451,7 +451,7 @@ Description
 <tr>
 <td valign="top">
 
- `name` 
+`name` 
 
 
 
@@ -481,7 +481,7 @@ A unique indentifier for the destination
 <tr>
 <td valign="top">
 
- `url` 
+`url` 
 
 
 
@@ -511,7 +511,7 @@ The Unique Resource Locator for the application \(microservice\)
 <tr>
 <td valign="top">
 
- `proxyHost` 
+`proxyHost` 
 
 
 
@@ -544,7 +544,7 @@ The host of the proxy server used in case the request should go through a proxy 
 <tr>
 <td valign="top">
 
- `proxyPort` 
+`proxyPort` 
 
 
 
@@ -577,7 +577,7 @@ The port of the proxy server used in case the request should go through a proxy 
 <tr>
 <td valign="top">
 
- `forwardAuthToken` 
+`forwardAuthToken` 
 
 
 
@@ -607,7 +607,7 @@ If true, the OAuth token will be sent to the destination. The default value is �
 <tr>
 <td valign="top">
 
- `strictSSL` 
+`strictSSL` 
 
 
 
@@ -640,7 +640,7 @@ Configures whether the application router should reject untrusted certificates. 
 <tr>
 <td valign="top">
 
- `timeout` 
+`timeout` 
 
 
 
@@ -673,7 +673,7 @@ A positive integer representing the maximum amount of time to wait for a respons
 <tr>
 <td valign="top">
 
- `proxyType` 
+`proxyType` 
 
 
 
@@ -845,7 +845,7 @@ Description
 <tr>
 <td valign="top">
 
- `protocol` 
+`protocol` 
 
 
 
@@ -875,7 +875,7 @@ URI scheme, for example “HTTP”.
 <tr>
 <td valign="top">
 
- `host` 
+`host` 
 
 
 
@@ -905,7 +905,7 @@ A valid host name, for example, `acme.com.hostname`, or a domain name defined wi
 <tr>
 <td valign="top">
 
- `port` 
+`port` 
 
 
 
@@ -1317,7 +1317,7 @@ A comma-separated list of **response** headers that are allowed to be exposed. I
 <tr>
 <td valign="top">
 
- `allowedCredentials` 
+`allowedCredentials` 
 
 
 

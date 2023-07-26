@@ -59,7 +59,7 @@ Description
 <tr>
 <td valign="top">
 
- `logoutPath` 
+`logoutPath` 
 
 
 
@@ -89,7 +89,7 @@ The log out end point for your destination. The `logoutPath` will be called when
 <tr>
 <td valign="top">
 
- `logoutMethod` 
+`logoutMethod` 
 
 
 

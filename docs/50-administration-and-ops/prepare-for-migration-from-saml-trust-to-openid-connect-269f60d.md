@@ -31,13 +31,13 @@ Before migrating your trust configuration, check which user data are sent today,
 
     If you previously had configured your subaccount trust to your corporate identity provider directly, configure your Identity Authentication tenant to trust your corporate identity provider.
 
-       
+      
       
     **Insertion of Identity Authentication in Trust Chain of Identity Providers**
 
-     ![](images/Injection_of_IAS_Between_Corp_IDP_db96a95.png "Insertion of Identity
+    ![](images/Injection_of_IAS_Between_Corp_IDP_db96a95.png "Insertion of Identity
                                     Authentication in Trust Chain of Identity
-    							Providers") 
+    							Providers")
 
     In the preceding figure, we're configuring the SAML or OIDC trust between the Identity Authentication tenant and the corporate identity provider. Configure the corporate identity provider to send the same value for subject name identifier and the attributes. Keep the attribute names the same, too, except for the attribute names listed in the following table.
 
@@ -62,30 +62,14 @@ Before migrating your trust configuration, check which user data are sent today,
     <tr>
     <td valign="top">
     
-        first\_name
+    first\_name
 
 
     
     </td>
     <td valign="top">
     
-        given\_name
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        last\_name
-
-
-    
-    </td>
-    <td valign="top">
-    
-        family\_name
+    given\_name
 
 
     
@@ -94,14 +78,30 @@ Before migrating your trust configuration, check which user data are sent today,
     <tr>
     <td valign="top">
     
-        mail
+    last\_name
 
 
     
     </td>
     <td valign="top">
     
-        email
+    family\_name
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    mail
+
+
+    
+    </td>
+    <td valign="top">
+    
+    email
 
 
     

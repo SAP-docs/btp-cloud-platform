@@ -22,5 +22,5 @@ For information about service availability, prices, and estimators, see [https:/
 
 
 
- ![Commercial Models Available for Enterprise Accounts](images/Infographic_-_SAP_CP_Commercial_Models_6734474.png) 
+![Commercial Models Available for Enterprise Accounts](images/Infographic_-_SAP_CP_Commercial_Models_6734474.png)
 

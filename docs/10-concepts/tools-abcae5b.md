@@ -91,7 +91,7 @@ The SAP BTP command line interface \(btp CLI\) is the command line tool for conv
 <tr>
 <td valign="top">
 
- [kubectl](https://kubernetes.io/docs/reference/kubectl/)
+[kubectl](https://kubernetes.io/docs/reference/kubectl/)
 
 
 
@@ -171,7 +171,7 @@ The SAP BTP SDK for iOS is based on the Apple Swift programming language for dev
 <tr>
 <td valign="top">
 
-[ SAP BTP SDK for Android](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_SDK_FOR_ANDROID/Latest/en-US)
+[SAP BTP SDK for Android](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_SDK_FOR_ANDROID/Latest/en-US)
 
 
 

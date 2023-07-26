@@ -117,30 +117,14 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     <tr>
     <td valign="top">
     
-        *First Name*
+    *First Name*
 
 
     
     </td>
     <td valign="top">
     
-        `first_name`
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Last Name*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        `last_name`
+    `first_name`
 
 
     
@@ -149,14 +133,14 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     <tr>
     <td valign="top">
     
-        *E-Mail*
+    *Last Name*
 
 
     
     </td>
     <td valign="top">
     
-        `mail`
+    `last_name`
 
 
     
@@ -165,14 +149,30 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     <tr>
     <td valign="top">
     
-        *Groups*
+    *E-Mail*
 
 
     
     </td>
     <td valign="top">
     
-        `Groups`
+    `mail`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Groups*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    `Groups`
 
 
     

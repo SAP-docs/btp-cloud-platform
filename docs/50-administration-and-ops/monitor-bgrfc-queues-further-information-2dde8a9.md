@@ -10,4 +10,6 @@ Please note the following when using the *Monitor bgRFC Queues* app.
 
 -   Queues and units can be stopped from the monitor. This function is only intended for analysis and not for regular operations, because it has consequences for runtime. If a queue is to be stopped, this also refers to the top unit that uses this queue. As soon as the unit is restarted, the queue is released again.
 
+-   Transactional \(*T-Type*\) units can be displayed to check whether any errors occurred. They are listed below the *BGPF*\(Background Processing Framework\) *Inbound Destination*. To call them up, you need to click the*Standard* list entry of the relevant queue.
+
 

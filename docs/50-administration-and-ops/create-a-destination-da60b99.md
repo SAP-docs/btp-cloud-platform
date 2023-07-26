@@ -35,30 +35,14 @@ In the SAP BTP cockpit, you need to create a destination to enable the communica
     <tr>
     <td valign="top">
     
-        Name
+    Name
 
 
     
     </td>
     <td valign="top">
     
-        Enter the destination name. This name is also used in the SAP Web IDE as the destination name in the service task properties.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        Type
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Select *HTTP*.
+    Enter the destination name. This name is also used in the SAP Web IDE as the destination name in the service task properties.
 
 
     
@@ -67,14 +51,14 @@ In the SAP BTP cockpit, you need to create a destination to enable the communica
     <tr>
     <td valign="top">
     
-        Description
+    Type
 
 
     
     </td>
     <td valign="top">
     
-        Enter a description.
+    Select *HTTP*.
 
 
     
@@ -83,14 +67,30 @@ In the SAP BTP cockpit, you need to create a destination to enable the communica
     <tr>
     <td valign="top">
     
-        URL
+    Description
 
 
     
     </td>
     <td valign="top">
     
-        URL for the ABAP environment. The format is: `https://*****.ondemand.com/`.
+    Enter a description.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    URL
+
+
+    
+    </td>
+    <td valign="top">
+    
+    URL for the ABAP environment. The format is: `https://*****.ondemand.com/`.
 
     Set the destination URL to the authorization endpoint URL found in the service key that was created for the workflow capability when creating the communication arrangement. Access the communication arrangement and copy the root URL under *Inbound Services* \> *Service URL/Service Interface*.
 
@@ -101,30 +101,14 @@ In the SAP BTP cockpit, you need to create a destination to enable the communica
     <tr>
     <td valign="top">
     
-        Proxy Type
+    Proxy Type
 
 
     
     </td>
     <td valign="top">
     
-         *Internet* 
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        Authentication
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Select *BasicAuthentication*.
+    *Internet* 
 
 
     
@@ -133,14 +117,14 @@ In the SAP BTP cockpit, you need to create a destination to enable the communica
     <tr>
     <td valign="top">
     
-        User
+    Authentication
 
 
     
     </td>
     <td valign="top">
     
-        Set the user to the client ID as specified for the inbound communication.
+    Select *BasicAuthentication*.
 
 
     
@@ -149,14 +133,30 @@ In the SAP BTP cockpit, you need to create a destination to enable the communica
     <tr>
     <td valign="top">
     
-        Password
+    User
 
 
     
     </td>
     <td valign="top">
     
-        Set the password to the secret.
+    Set the user to the client ID as specified for the inbound communication.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Password
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Set the password to the secret.
 
 
     

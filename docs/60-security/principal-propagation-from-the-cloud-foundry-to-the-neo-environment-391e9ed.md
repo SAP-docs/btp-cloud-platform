@@ -20,7 +20,7 @@ The graphic below illustrates the overall setup of the scenario.
 
 -   You have a *custom* local service provider configuration \(this means in *cloud cockpit* \> *Security* \> *Trust* \> *Local Service Provider* \> ** you have chosen *Configuration Type* \> *Custom*\) in your subaccount in the Neo environment. See [Configure the Local Service Provider](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/dc618538d97610148155d97dcd123c24.html#loiodcdfe339f94947bc96508daa686cc56d "Your SAP BTP subaccount is the local service provider in the SAML communication. Configure signing keys, certificates, and other trust settings.") :arrow_upper_right:.
 -   Both accounts have a trust configuration to the same identity provider. See:
-    -    [Configure Trust to the SAML Identity Provider](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/dc618538d97610148155d97dcd123c24.html#loiob6cfc4bb4bff4ace90afc71b0962fcb5 "") :arrow_upper_right: \(for the Neo environment\)
+    -   [Configure Trust to the SAML Identity Provider](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/dc618538d97610148155d97dcd123c24.html#loiob6cfc4bb4bff4ace90afc71b0962fcb5 "") :arrow_upper_right: \(for the Neo environment\)
     -   [Establish Trust with Any SAML 2.0 Identity Provider in a Subaccount](../50-administration-and-ops/establish-trust-and-federation-with-uaa-using-any-saml-identity-provider-2ce3938.md#loio8a213ea1a8664e6b96c0593e71339e0e) \(for the Cloud Foundry environment\)
 
 -   The application in the Neo environment is protected using OAuth 2.0. See [OAuth 2.0 Service](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/e526ca3998954d62833ffd5a19ec4523.html "Use OAuth 2.0 service on SAP BTP to protect applications in the Neo environment using the OAuth 2.0 protocol.") :arrow_upper_right:.
@@ -43,7 +43,7 @@ The graphic below illustrates the overall setup of the scenario.
 -   [Create an OAuth Client](principal-propagation-from-the-cloud-foundry-to-the-neo-environment-391e9ed.md#loiofb9a98644f674d7481e179f97ae26c72)
 -   [Create a Destination](principal-propagation-from-the-cloud-foundry-to-the-neo-environment-391e9ed.md#loio3b8d026b714240ff89ae73cf250af799)
 
- <a name="loio5ff035ce421c4d6c80f0cff028c7df1a"/>
+<a name="loio5ff035ce421c4d6c80f0cff028c7df1a"/>
 
 <!-- loio5ff035ce421c4d6c80f0cff028c7df1a -->
 
@@ -99,7 +99,7 @@ Exchange keys and certificates between the subaccounts, and configure trust betw
 
 
 
- <a name="loiofb9a98644f674d7481e179f97ae26c72"/>
+<a name="loiofb9a98644f674d7481e179f97ae26c72"/>
 
 <!-- loiofb9a98644f674d7481e179f97ae26c72 -->
 
@@ -138,7 +138,7 @@ For more information about working with OAuth clients, see [Create an OAuth Clie
     > -   *Secret*
 
 
- <a name="loio3b8d026b714240ff89ae73cf250af799"/>
+<a name="loio3b8d026b714240ff89ae73cf250af799"/>
 
 <!-- loio3b8d026b714240ff89ae73cf250af799 -->
 
@@ -185,30 +185,14 @@ Connect the two subaccounts by describing the connection properties in a destina
     <tr>
     <td valign="top">
     
-        Name
+    Name
 
 
     
     </td>
     <td valign="top">
     
-        Technical name of the destination. It can be used later on to get an instance of that destination. It must be unique for the global account.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        Description
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Free-text description.
+    Technical name of the destination. It can be used later on to get an instance of that destination. It must be unique for the global account.
 
 
     
@@ -217,14 +201,14 @@ Connect the two subaccounts by describing the connection properties in a destina
     <tr>
     <td valign="top">
     
-        Type
+    Description
 
 
     
     </td>
     <td valign="top">
     
-        HTTP
+    Free-text description.
 
 
     
@@ -233,14 +217,30 @@ Connect the two subaccounts by describing the connection properties in a destina
     <tr>
     <td valign="top">
     
-        URL
+    Type
 
 
     
     </td>
     <td valign="top">
     
-        The URL of the protected resource in the Neo environment.
+    HTTP
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    URL
+
+
+    
+    </td>
+    <td valign="top">
+    
+    The URL of the protected resource in the Neo environment.
 
     Example: `https://myneoapp.hana.ondemand.com/myprotectedresource/`
 
@@ -251,30 +251,14 @@ Connect the two subaccounts by describing the connection properties in a destina
     <tr>
     <td valign="top">
     
-        Authentication
+    Authentication
 
 
     
     </td>
     <td valign="top">
     
-        OAuth2SAMLBearerAssertion
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        Proxy Type
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Internet
+    OAuth2SAMLBearerAssertion
 
 
     
@@ -283,14 +267,30 @@ Connect the two subaccounts by describing the connection properties in a destina
     <tr>
     <td valign="top">
     
-        Audience
+    Proxy Type
 
 
     
     </td>
     <td valign="top">
     
-        The value of the local service provider name in the subaccount in the Neo environment.
+    Internet
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Audience
+
+
+    
+    </td>
+    <td valign="top">
+    
+    The value of the local service provider name in the subaccount in the Neo environment.
 
     Copy the value from *cockpit* \> *<your Neo subaccount\>* \> *Security* \> *Trust* \> *Local Service Provider* \> *Local Service Provider Name*.
 
@@ -303,14 +303,14 @@ Connect the two subaccounts by describing the connection properties in a destina
     <tr>
     <td valign="top">
     
-        Client Key
+    Client Key
 
 
     
     </td>
     <td valign="top">
     
-        The ID of the OAuth client for the application in the Neo environment.
+    The ID of the OAuth client for the application in the Neo environment.
 
 
     
@@ -319,14 +319,14 @@ Connect the two subaccounts by describing the connection properties in a destina
     <tr>
     <td valign="top">
     
-        Token Service URL
+    Token Service URL
 
 
     
     </td>
     <td valign="top">
     
-        Copy the value of *Token Endpoint* from the following place: *cockpit* \> *<your Neo subaccount\>* \> *Security* \> *OAuth* \> *Branding*.
+    Copy the value of *Token Endpoint* from the following place: *cockpit* \> *<your Neo subaccount\>* \> *Security* \> *OAuth* \> *Branding*.
 
     ![](images/OAuthTokenEndpoint_b08846c.png)
 
@@ -337,30 +337,14 @@ Connect the two subaccounts by describing the connection properties in a destina
     <tr>
     <td valign="top">
     
-        Token Service User
+    Token Service User
 
 
     
     </td>
     <td valign="top">
     
-        The ID of the OAuth client for the application in the Neo environment.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        Token Service Password
-
-
-    
-    </td>
-    <td valign="top">
-    
-        The secret from the OAuth client.
+    The ID of the OAuth client for the application in the Neo environment.
 
 
     
@@ -369,30 +353,14 @@ Connect the two subaccounts by describing the connection properties in a destina
     <tr>
     <td valign="top">
     
-        System User
+    Token Service Password
 
 
     
     </td>
     <td valign="top">
     
-        Empty.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        authnContextClassRef
-
-
-    
-    </td>
-    <td valign="top">
-    
-         *urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession* 
+    The secret from the OAuth client.
 
 
     
@@ -401,14 +369,46 @@ Connect the two subaccounts by describing the connection properties in a destina
     <tr>
     <td valign="top">
     
-        nameIdFormat
+    System User
 
 
     
     </td>
     <td valign="top">
     
-         *urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified* if the user ID will be propagated to the Neo application or *nameIdFormat = urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress* if the user email will be propagated to the Neo application.
+    Empty.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    authnContextClassRef
+
+
+    
+    </td>
+    <td valign="top">
+    
+    *urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession* 
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    nameIdFormat
+
+
+    
+    </td>
+    <td valign="top">
+    
+    *urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified* if the user ID will be propagated to the Neo application or *nameIdFormat = urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress* if the user email will be propagated to the Neo application.
 
 
     

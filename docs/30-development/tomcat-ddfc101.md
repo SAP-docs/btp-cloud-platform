@@ -121,7 +121,7 @@ Default Value
 <tr>
 <td valign="top">
 
- `connector.maxHttpHeaderSize` 
+`connector.maxHttpHeaderSize` 
 
 
 
@@ -135,7 +135,7 @@ The maximum size of the request and response HTTP header, specified in bytes
 </td>
 <td valign="top">
 
- **8192** 
+**8192** 
 
 
 
@@ -144,7 +144,7 @@ The maximum size of the request and response HTTP header, specified in bytes
 <tr>
 <td valign="top">
 
- `connector.maxThreads` 
+`connector.maxThreads` 
 
 
 
@@ -158,7 +158,7 @@ The maximum number of request processing threads to be created by this Connector
 </td>
 <td valign="top">
 
- **200** 
+**200** 
 
 
 
@@ -167,7 +167,7 @@ The maximum number of request processing threads to be created by this Connector
 <tr>
 <td valign="top">
 
- `connector.allowTrace` 
+`connector.allowTrace` 
 
 
 
@@ -181,7 +181,7 @@ A Boolean value that enables or disables the TRACE HTTP method
 </td>
 <td valign="top">
 
- **false** 
+**false** 
 
 
 

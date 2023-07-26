@@ -46,14 +46,14 @@ The `SaaS Provisioning` service allows application providers to register multite
     <tr>
     <td valign="top">
     
-        xsappname
+    xsappname
 
 
     
     </td>
     <td valign="top">
     
-        The xsappname configured in the security descriptor file used to create the XSUAA instance.
+    The xsappname configured in the security descriptor file used to create the XSUAA instance.
 
 
     
@@ -62,14 +62,14 @@ The `SaaS Provisioning` service allows application providers to register multite
     <tr>
     <td valign="top">
     
-        getDependencies
+    getDependencies
 
 
     
     </td>
     <td valign="top">
     
-        **\(Optional\)**Any URL that the application exposes for GET dependencies. If the application does not have dependencies and the callback is not implemented, it should not be declared. **Note:**The JSON response of the callback must be encoded as either UTF8, UTF16, or UTF32, otherwise an error is returned. **Important:** You can either provide your own getDependencies Callback or use the default implementation of the AppRouter \(recommended if no special logic is needed\). **But:** If an own implementation is provided you have to make sure that the ABAP Solution instance is returned as a dependency.
+    **\(Optional\)**Any URL that the application exposes for GET dependencies. If the application does not have dependencies and the callback is not implemented, it should not be declared. **Note:**The JSON response of the callback must be encoded as either UTF8, UTF16, or UTF32, otherwise an error is returned. **Important:** You can either provide your own getDependencies Callback or use the default implementation of the AppRouter \(recommended if no special logic is needed\). **But:** If an own implementation is provided you have to make sure that the ABAP Solution instance is returned as a dependency.
 
     The path is: /callback/v1.0/dependencies
 
@@ -80,14 +80,14 @@ The `SaaS Provisioning` service allows application providers to register multite
     <tr>
     <td valign="top">
     
-        onSubscription
+    onSubscription
 
 
     
     </td>
     <td valign="top">
     
-        Any URL that the application exposes via PUT and DELETE subscription. It must end with /\{tenantId\}. The tenant for the subscription is passed to this callback as a path parameter. You must keep \{tenantId\} as a parameter in the URL so that it is replaced at real time with the tenant calling the subscription. This callback URL is called when a subscription between a multitenant application and a consumer tenant is created \(PUT\) and when the subscription is removed \(DELETE\).**Important:**You can either provide your own onSubscription Callback or use the default implementation of the approuter \(recommended if no special logic is needed\).
+    Any URL that the application exposes via PUT and DELETE subscription. It must end with /\{tenantId\}. The tenant for the subscription is passed to this callback as a path parameter. You must keep \{tenantId\} as a parameter in the URL so that it is replaced at real time with the tenant calling the subscription. This callback URL is called when a subscription between a multitenant application and a consumer tenant is created \(PUT\) and when the subscription is removed \(DELETE\).**Important:**You can either provide your own onSubscription Callback or use the default implementation of the approuter \(recommended if no special logic is needed\).
 
     The path is: /callback/v1.0/tenants/\{tenantId\}
 
@@ -98,30 +98,14 @@ The `SaaS Provisioning` service allows application providers to register multite
     <tr>
     <td valign="top">
     
-        displayName
+    displayName
 
 
     
     </td>
     <td valign="top">
     
-        **\(Optional\)**The display name of the application when viewed in the cockpit. For example, in the application's tile. If left empty, takes the application's technical name.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        description
-
-
-    
-    </td>
-    <td valign="top">
-    
-        **\(Optional\)** The description of the application when viewed in the cockpit. For example, in the application's tile. If left empty, takes the application's display name.
+    **\(Optional\)**The display name of the application when viewed in the cockpit. For example, in the application's tile. If left empty, takes the application's technical name.
 
 
     
@@ -130,14 +114,30 @@ The `SaaS Provisioning` service allows application providers to register multite
     <tr>
     <td valign="top">
     
-        category
+    description
 
 
     
     </td>
     <td valign="top">
     
-        **\(Optional\)**The category to which the application is grouped in the Subscriptions page in the cockpit. If left empty, gets assigned to the default category.
+    **\(Optional\)** The description of the application when viewed in the cockpit. For example, in the application's tile. If left empty, takes the application's display name.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    category
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **\(Optional\)**The category to which the application is grouped in the Subscriptions page in the cockpit. If left empty, gets assigned to the default category.
 
 
     
@@ -201,14 +201,14 @@ The `SaaS Provisioning` service allows application providers to register multite
     <tr>
     <td valign="top">
     
-        SAAS\_REGISTRY\_SERVICE\_INSTANCE
+    SAAS\_REGISTRY\_SERVICE\_INSTANCE
 
 
     
     </td>
     <td valign="top">
     
-        The new name for your service instance. Use only alphanumeric characters, hyphens, and underscores.
+    The new name for your service instance. Use only alphanumeric characters, hyphens, and underscores.
 
 
     
@@ -217,14 +217,14 @@ The `SaaS Provisioning` service allows application providers to register multite
     <tr>
     <td valign="top">
     
-        JSON\_CONFIG\_FILE
+    JSON\_CONFIG\_FILE
 
 
     
     </td>
     <td valign="top">
     
-        The file name of the service-specific configuration parameters, in a valid JSON object \(described above\).
+    The file name of the service-specific configuration parameters, in a valid JSON object \(described above\).
 
 
     
@@ -268,14 +268,14 @@ The `SaaS Provisioning` service allows application providers to register multite
     <tr>
     <td valign="top">
     
-        APP\_NAME
+    APP\_NAME
 
 
     
     </td>
     <td valign="top">
     
-        The ID of your deployed multitenant application.
+    The ID of your deployed multitenant application.
 
 
     

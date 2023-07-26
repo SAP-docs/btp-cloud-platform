@@ -4,7 +4,7 @@
 
 You can provide an application to multiple customers as a SaaS solution in the ABAP environment. This process comprises the following steps: the build of an add-on version, its deployment, its ordering and provisioning with a multitenant application, and a possible updating process. The following concrete example guides you step by step through this process.
 
- <a name="loio73ebc486aa7f46eb9783799c924b7556"/>
+<a name="loio73ebc486aa7f46eb9783799c924b7556"/>
 
 <!-- loio73ebc486aa7f46eb9783799c924b7556 -->
 
@@ -24,7 +24,7 @@ Build a first version of your add-on. See [Build](develop-test-build-3bf575a.md#
     -   *02 Test* for testing
     -   *03 Build/Assemble* \(for example with the Cloud Foundry organization name *saas-build-assemble* and a development space with the name *Build/Assemble*\) for assembling the add-on product
     -   *04 Build/Test* \(for example with the Cloud Foundry organization name *saas-build-test* and a development space with the name *Build/Test*\) for installing and testing the add-on
-    -    *05 Provide* \(for example with Region *cf-eu10*\) for providing the add-on to customers
+    -   *05 Provide* \(for example with Region *cf-eu10*\) for providing the add-on to customers
     -   *06 Consume* \(for example with the subdomain *my-consumer-subdomain*\) to access the solution as a customer
 
     See [Set Up a Global Account for Development](develop-test-build-3bf575a.md#loio9f2150f2b15e414aacd46c1723ce48fb).
@@ -175,18 +175,18 @@ Build a first version of your add-on. See [Build](develop-test-build-3bf575a.md#
 
     The final structure should look like this:
 
-     ![](images/Pipeline_definition_8a9a4e5.png) 
+    ![](images/Pipeline_definition_8a9a4e5.png)
 
 3.  Start the build pipeline.
 4.  Once the build was successful, publish your initial add-on version: hover over the *Publish* stage in your pipeline and select *Confirm*.
 
- <a name="loio7e91d5f55e5e4a6aa723b8282ad804fe"/>
+<a name="loio7e91d5f55e5e4a6aa723b8282ad804fe"/>
 
 <!-- loio7e91d5f55e5e4a6aa723b8282ad804fe -->
 
 ## Deploy
 
- 
+
 
 To provision multitenant-enabled systems in the ABAP environment, implement a multitenant application as a multitarget application and deploy it to Cloud Foundry. See [Deploy](order-and-provide-975bd3e.md#loio4e35eb027f284b7fa6219bc70561fb4e).
 
@@ -407,7 +407,7 @@ To provision multitenant-enabled systems in the ABAP environment, implement a mu
 
     The final structure looks like this:
 
-     ![](images/Folder_structure_multitarget_application_894aa3f.png) 
+    ![](images/Folder_structure_multitarget_application_894aa3f.png)
 
     > ### Note:  
     > Depending on the setup of your development environment, you need to run command `npm install` within the approuter folder to install the dependencies in the local `node_modules` folder.
@@ -423,7 +423,7 @@ To provision multitenant-enabled systems in the ABAP environment, implement a mu
 > ### Note:  
 > During the MTA build, an MTA archive file is automatically created with the MTA ID acting as the file name. For example, `product1-saas-solution_1.0.0.mtar` is created for MTA ID `product1-saas-solution`.
 
- <a name="loio1d90459d98ca4ba0bc8857c24e328c03"/>
+<a name="loio1d90459d98ca4ba0bc8857c24e328c03"/>
 
 <!-- loio1d90459d98ca4ba0bc8857c24e328c03 -->
 
@@ -480,7 +480,7 @@ Order and provide your solution. See [Order and Provide](order-and-provide-975bd
     After triggering initial user onboarding, you are redirected to the SAP Fiori launchpad of the SaaS solution.
 
 
- <a name="loio874dd6060ac64c56a1741d3b6401cf1e"/>
+<a name="loio874dd6060ac64c56a1741d3b6401cf1e"/>
 
 <!-- loio874dd6060ac64c56a1741d3b6401cf1e -->
 
@@ -538,7 +538,7 @@ Support package versions are used to deliver planned functional enhancements out
 1.  Implement the new feature in the main branch in ABAP development system DEV.
 2.  Import the main branch into ABAP test system TST.
 3.  Test new feature in ABAP test system TST.
-4.   *In the Manage Software Components* app, create a new maintenance branch v1.1.0 that is based on the main branch.
+4.  *In the Manage Software Components* app, create a new maintenance branch v1.1.0 that is based on the main branch.
 5.  Configure the `addon.yml` file.
 
     ```
@@ -564,7 +564,7 @@ Release versions are used to deliver new major, planned functional enhancements.
 1.  Implement the new feature in the main branch in ABAP development system DEV.
 2.  Import the main branch into ABAP test system TST.
 3.  Test new feature in ABAP test system TST.
-4.   *In the Manage Software Components* app, create a new maintenance branch v2.0.0 that is based on the main branch.
+4.  *In the Manage Software Components* app, create a new maintenance branch v2.0.0 that is based on the main branch.
 5.  Configure the `addon.yml` file.
 
     ```

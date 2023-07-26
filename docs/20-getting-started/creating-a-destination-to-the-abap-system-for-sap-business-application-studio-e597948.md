@@ -41,30 +41,14 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <tr>
     <td valign="top">
     
-        *Name*
+    *Name*
 
 
     
     </td>
     <td valign="top">
     
-        Enter a name for the destination, for example, `SAP_Business_Application_Studio`.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-         *Type* 
-
-
-    
-    </td>
-    <td valign="top">
-    
-         *HTTP* 
+    Enter a name for the destination, for example, `SAP_Business_Application_Studio`.
 
 
     
@@ -73,30 +57,14 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <tr>
     <td valign="top">
     
-        *Description*
+    *Type* 
 
 
     
     </td>
     <td valign="top">
     
-         
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *URL*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Enter the URL of the ABAP system that you copied from the `<url>` element in the service key \(see [Creating a Service Key for the ABAP System](creating-a-service-key-for-the-abap-system-7af8259.md)\).
+    *HTTP* 
 
 
     
@@ -105,30 +73,14 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <tr>
     <td valign="top">
     
-        *Proxy Type*
+    *Description*
 
 
     
     </td>
     <td valign="top">
     
-        *Internet*
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Authentication*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        *OAuth2UserTokenExchange​*
+     
 
 
     
@@ -137,30 +89,14 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <tr>
     <td valign="top">
     
-        *Client ID*
+    *URL*
 
 
     
     </td>
     <td valign="top">
     
-        Enter the content of the `<clientID>` element that you copied from the `uaa` section of the service key \(see [Creating a Service Key for the ABAP System](creating-a-service-key-for-the-abap-system-7af8259.md)\).
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Client Secret*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Enter the content of the `<clientsecret>` element that you copied from the `uaa` section of the service key \(see [Creating a Service Key for the ABAP System](creating-a-service-key-for-the-abap-system-7af8259.md)\).
+    Enter the URL of the ABAP system that you copied from the `<url>` element in the service key \(see [Creating a Service Key for the ABAP System](creating-a-service-key-for-the-abap-system-7af8259.md)\).
 
 
     
@@ -169,14 +105,14 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <tr>
     <td valign="top">
     
-        *Token Service URL Type*
+    *Proxy Type*
 
 
     
     </td>
     <td valign="top">
     
-        Choose *Dedicated*.
+    *Internet*
 
 
     
@@ -185,14 +121,78 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <tr>
     <td valign="top">
     
-        *Token Service URL*
+    *Authentication*
 
 
     
     </td>
     <td valign="top">
     
-        Enter `<uaa-url>/oauth/token`, where `<uaa-url>` is the content of the `<url>` element that you copied from the `uaa` section of the service key \(see [Creating a Service Key for the ABAP System](creating-a-service-key-for-the-abap-system-7af8259.md)\).
+    *OAuth2UserTokenExchange​*
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Client ID*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Enter the content of the `<clientID>` element that you copied from the `uaa` section of the service key \(see [Creating a Service Key for the ABAP System](creating-a-service-key-for-the-abap-system-7af8259.md)\).
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Client Secret*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Enter the content of the `<clientsecret>` element that you copied from the `uaa` section of the service key \(see [Creating a Service Key for the ABAP System](creating-a-service-key-for-the-abap-system-7af8259.md)\).
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Token Service URL Type*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Choose *Dedicated*.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Token Service URL*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Enter `<uaa-url>/oauth/token`, where `<uaa-url>` is the content of the `<url>` element that you copied from the `uaa` section of the service key \(see [Creating a Service Key for the ABAP System](creating-a-service-key-for-the-abap-system-7af8259.md)\).
 
 
     
@@ -223,30 +223,14 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <tr>
     <td valign="top">
     
-        *HTML5.DynamicDestination*
+    *HTML5.DynamicDestination*
 
 
     
     </td>
     <td valign="top">
     
-        `true`
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *HTML5.Timeout*​
-
-
-    
-    </td>
-    <td valign="top">
-    
-        `60000`
+    `true`
 
 
     
@@ -255,14 +239,14 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <tr>
     <td valign="top">
     
-        *WebIDEEnabled*
+    *HTML5.Timeout*​
 
 
     
     </td>
     <td valign="top">
     
-        `true`
+    `60000`
 
 
     
@@ -271,14 +255,30 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <tr>
     <td valign="top">
     
-        *WebIDEUsage*
+    *WebIDEEnabled*
 
 
     
     </td>
     <td valign="top">
     
-        `odata_abap,dev_abap,abap_cloud`
+    `true`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *WebIDEUsage*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    `odata_abap,dev_abap,abap_cloud`
 
 
     

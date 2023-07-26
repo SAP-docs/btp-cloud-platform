@@ -10,7 +10,7 @@
 
 -   The *Enterprise Event Enablement ‒ Configure Channel Bindings* app is visible.
 
-    If the *Enterprise Event Enablement ‒ Configure Channel Bindings* app is not visible, add the *Enterprise Event Enablement* business catalog to the `SAP_BR_ADMINISTRATOR` role using the *Maintain Business Roles* app. The change in your role becomes effective after you have logged out and logged in again. For more information about adding catalogs to business roles, refer to [Maintain Business Roles](maintain-business-roles-8980ad0.md).
+    If the *Enterprise Event Enablement ‒ Configure Channel Bindings* app is not visible, add the *Enterprise Event Enablement* business catalog to the `SAP_BR_ADMINISTRATOR` role using the *Maintain Business Roles* app. The change in your role becomes effective after you have logged out and logged in again. For more information about adding catalogs to business roles, refer to [Maintain Business Roles \(Deprecated\)](maintain-business-roles-deprecated-8980ad0.md).
 
 
 
@@ -19,12 +19,12 @@
 
 The enterprise event enablement is applying the CloudEvents specification \([https://cloudevents.io](https://cloudevents.io)\) for the runtime representation of an event. CloudEvents is a specification for describing event data in common formats to ensure interoperability across services, platforms, and systems.
 
-You can find all released SAP events on the *SAP API Business Hub* \([https://api.sap.com](https://api.sap.com)\). The *SAP API Business Hub* is the central catalogue of SAP and selected partner APIs to search, discover, test, and consume these APIs to build extensions or integrations using the SAP Business Technology Platform.
+You can find all released SAP events on the SAP Business Accelerator Hub \([https://api.sap.com](https://api.sap.com)\). The SAP Business Accelerator Hub is the central catalog of SAP and selected partner APIs to search, discover, test, and consume these APIs to build extensions or integrations using the SAP Business Technology Platform.
 
-The enterprise event enablement applies the AsyncAPI specification to describe a catalogue of events.
+The enterprise event enablement applies the AsyncAPI specification to describe a catalog of events.
 
 > ### Note:  
-> You can find the corresponding AsyncAPI event catalogues for released events in the *Event Resources* section of the individual released events on the *SAP API Business Hub*. This specification is required for example to create an *Event Consumption Model*.
+> You can find the corresponding AsyncAPI event catalogs for released events in the *Event Resources* section of the individual released events on the SAP Business Accelerator Hub. This specification is required for example to create an event consumption model.
 
 
 
@@ -43,7 +43,7 @@ The enterprise event enablement applies the AsyncAPI specification to describe a
 
 ## Next Steps
 
-In the *Event Metadata* tab, you can view the metadata for the event types selected on the *Outbound Topic Bindings* tab for event publishing. This metadata contains the definition of the structure of all event types, which you have selected for publishing from the ABAP environment system. The metadata is represented as AsyncAPI catalog of events and can contain released SAP events as well as customer events. You can also use the AsyncAPI representation for creating your *Event Consumption Model*.
+In the *Event Metadata* tab, you can view the metadata for the event types selected on the *Outbound Topic Bindings* tab for event publishing. This metadata contains the definition of the structure of all event types, which you have selected for publishing from the ABAP environment system. The metadata is represented as an AsyncAPI catalog of events and can contain released SAP events as well as customer events. You can also use the AsyncAPI representation for creating your event consumption model.
 
 **Related Information**  
 

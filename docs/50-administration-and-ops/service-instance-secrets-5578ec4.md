@@ -30,13 +30,13 @@ The service instance can use multiple secrets in the ***application*** plan.
 
 The following figure illustrates the XSUAA app and the binding information about the OAuth 2.0 client as part of a service instance of the SAP Authorization and Trust Management service. A consuming application, functioning as an OAuth 2.0 client is bound to the SAP Authorization and Trust Management service instance. The secret is part of the environment of the consuming application and the information about the OAuth 2.0 client saved with the XSUAA app. Alternatively, this information is saved as part of a service key.
 
-   
+  
   
 **Binding Between an SAP Authorization and Trust Management Service Instance and a Consuming Application**
 
- ![](images/BindingInformation_4bcb021.png "Binding Between an SAP
+![](images/BindingInformation_4bcb021.png "Binding Between an SAP
 									Authorization and Trust Management Service
-				Instance and a Consuming Application") 
+				Instance and a Consuming Application")
 
 The `credential-types` parameter of the OAuth client configuration in the application security descriptor \(`xs-security.json`\) determines which types of secrets that bindings support.
 

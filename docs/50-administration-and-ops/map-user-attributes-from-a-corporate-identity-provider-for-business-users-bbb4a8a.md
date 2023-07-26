@@ -59,30 +59,14 @@ For more information about identity federation, see [Configure Identity Federati
     <tr>
     <td valign="top">
     
-        `email`
+    `email`
 
 
     
     </td>
     <td valign="top">
     
-        `${corporateIdP.email}`
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        `email_verified`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        `${corporateIdP.email_verified}`
+    `${corporateIdP.email}`
 
 
     
@@ -91,30 +75,14 @@ For more information about identity federation, see [Configure Identity Federati
     <tr>
     <td valign="top">
     
-        `family_name`
+    `email_verified`
 
 
     
     </td>
     <td valign="top">
     
-        `${corporateIdP.family_name}`
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        `given_name`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        `${corporateIdP.given_name}`
+    `${corporateIdP.email_verified}`
 
 
     
@@ -123,14 +91,14 @@ For more information about identity federation, see [Configure Identity Federati
     <tr>
     <td valign="top">
     
-        `groups`
+    `family_name`
 
 
     
     </td>
     <td valign="top">
     
-        `${corporateIdP.groups}`
+    `${corporateIdP.family_name}`
 
 
     
@@ -139,14 +107,46 @@ For more information about identity federation, see [Configure Identity Federati
     <tr>
     <td valign="top">
     
-        `user_uuid`
+    `given_name`
 
 
     
     </td>
     <td valign="top">
     
-        `${corporateIdP.user_uuid}`
+    `${corporateIdP.given_name}`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `groups`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    `${corporateIdP.groups}`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `user_uuid`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    `${corporateIdP.user_uuid}`
 
 
     
@@ -159,12 +159,12 @@ For more information about identity federation, see [Configure Identity Federati
     > ### Example:  
     > If your corporate identity provider sends users' last names as attribute `sn`, map the `sn` attribute to the `family_name` attribute required by your application with the value `${corporateIdP.sn}`.
 
-       
+      
       
     **Default Attribute Configuration in Identity Authentication**
 
-     ![](images/Default_attributes_for_corporate_IdP_b33e732.png "Default Attribute Configuration in Identity
-                                    Authentication") 
+    ![](images/Default_attributes_for_corporate_IdP_b33e732.png "Default Attribute Configuration in Identity
+                                    Authentication")
 
     For more information, see [Configure the Default Attributes Sent to the Application](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/a2f1e4692e7d4379ab82144ab309e7b3.html?version=Cloud&q=corporateidp).
 
@@ -211,14 +211,14 @@ Description
 <tr>
 <td valign="top">
 
- `mail` 
+`mail` 
 
 
 
 </td>
 <td valign="top">
 
- `email` 
+`email` 
 
 
 
@@ -236,14 +236,14 @@ See the table *Default Configurations of the Subaccount in Identity Authenticati
 <tr>
 <td valign="top">
 
- `mailVerified` 
+`mailVerified` 
 
 
 
 </td>
 <td valign="top">
 
- `email_verified` 
+`email_verified` 
 
 
 
@@ -259,14 +259,14 @@ Indicates whether the subject has confirmed their e-mail address. Your identity 
 <tr>
 <td valign="top">
 
- `lastName` 
+`lastName` 
 
 
 
 </td>
 <td valign="top">
 
- `family_name` 
+`family_name` 
 
 
 
@@ -282,14 +282,14 @@ Last name of the subject.
 <tr>
 <td valign="top">
 
- `firstName` 
+`firstName` 
 
 
 
 </td>
 <td valign="top">
 
- `given_name` 
+`given_name` 
 
 
 
@@ -305,14 +305,14 @@ First name of the subject.
 <tr>
 <td valign="top">
 
- `companyGroups` 
+`companyGroups` 
 
 
 
 </td>
 <td valign="top">
 
- `groups` 
+`groups` 
 
 
 
@@ -328,14 +328,14 @@ Any groups the subject is assigned to in the identity provider.
 <tr>
 <td valign="top">
 
- `userUuid` 
+`userUuid` 
 
 
 
 </td>
 <td valign="top">
 
- `user_uuid` 
+`user_uuid` 
 
 
 

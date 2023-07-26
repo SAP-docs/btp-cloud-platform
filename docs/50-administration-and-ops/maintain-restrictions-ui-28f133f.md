@@ -8,7 +8,7 @@
 
 ## Maintain Restrictions
 
-The new UI for maintaining restrictions is accessible using the *Maintain Business Roles \(New\)* app on the SAP Fiori Launchpad. The new UI combines all restrictions of a restriction type of all access categories per business role in one place. It includes a main view showing all access categories and assigned restriction types and a detail view where you can change the assigned restrictions and values if required.
+The *Maintain Restrictions UI* combines all restrictions of a restriction type of all access categories per business role in one place. It includes a main view showing all access categories and assigned restriction types and a detail view where you can change the assigned restrictions and values if required.
 
 **Main View**
 

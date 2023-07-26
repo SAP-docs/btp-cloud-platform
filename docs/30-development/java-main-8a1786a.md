@@ -130,6 +130,8 @@ In this section, applications like this are referred as *Java Main applications*
 
 
 
+## Example
+
 To create a Java Main application that is using its own runtime, proceed as follows:
 
 1.  Create an application, named *sample\_main*. Use Spring Boot for that purpose.

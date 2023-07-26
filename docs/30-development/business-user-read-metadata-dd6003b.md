@@ -10,7 +10,7 @@ This service enables you to read metadata information from your external data so
 
 This service provides the search parameter `RoleCategory`, which restricts the result set of the metadata information of the service. The response includes the metadata information based on the given criteria. If errors occur, the log contains information about the severity code, the message number and message texts.
 
-This service is available on the SAP API Business Hub, for more information see [APIs on SAP API Business Hub](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/1e60f14bdc224c2c975c8fa8bcfd7f3f.html).
+This service is available on the SAP Business Accelerator Hub, for more information see [APIs on SAP Business Accelerator Hub](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/1e60f14bdc224c2c975c8fa8bcfd7f3f.html).
 
 
 
@@ -173,7 +173,7 @@ Link to Details
 </td>
 <td valign="top">
 
- `RoleCategoryDependentMetaData` 
+`RoleCategoryDependentMetaData` 
 
 
 
@@ -196,7 +196,7 @@ This node contains all metadata, which depends on the role category of a busines
 <tr>
 <td valign="top">
 
- `CodeList` 
+`CodeList` 
 
 
 
@@ -219,7 +219,7 @@ This node provides the available code lists for SAP specific codes. For example 
 <tr>
 <td valign="top" colspan="2">
 
- `Log` 
+`Log` 
 
 
 
@@ -348,5 +348,5 @@ Currently this SOAP service is only enabled for English.
 If you have any issues, report an incident for component `CA-GTF-BUM`.
 
 > ### Note:  
-> For more information about the API, choose the *Details* tab on the SAP API Business Hub.
+> For more information about the API, choose the *Details* tab on the SAP Business Accelerator Hub.
 

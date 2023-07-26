@@ -1640,7 +1640,7 @@ Description
 <tr>
 <td valign="top">
 
- *<MTA\_ID\>* 
+*<MTA\_ID\>* 
 
 
 
@@ -1682,7 +1682,7 @@ Description
 <tr>
 <td valign="top">
 
- <code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code> 
+<code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code> 
 
 
 
@@ -1740,7 +1740,7 @@ Description
 <tr>
 <td valign="top">
 
- <code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code> 
+<code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code> 
 
 
 
@@ -2042,7 +2042,7 @@ Description
 <tr>
 <td valign="top">
 
- <code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code> 
+<code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code> 
 
 
 

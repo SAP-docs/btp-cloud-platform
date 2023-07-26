@@ -55,7 +55,7 @@ To debug an application, you need to open a debugging port on your Cloud Foundry
     > The default port is 8000.
 
     > ### Caution:  
-    > The connection is active until you close the SSH tunnel. When you finish debugging, close the SSH tunnel by pressing  [Ctrl\] + [C\] .
+    > The connection is active until you close the SSH tunnel. When you finish debugging, close the SSH tunnel by pressing [Ctrl\] + [C\] .
 
 5.  Connect a Java debugger to your application. For example, use the standard Java debugger provided by Eclipse IDE and connect to `localhost:8000`
 

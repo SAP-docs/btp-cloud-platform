@@ -62,7 +62,7 @@ Description
 <tr>
 <td valign="top">
 
- `credential-type` 
+`credential-type` 
 
 
 
@@ -80,7 +80,7 @@ For more information, see [Application Security Descriptor Configuration Syntax]
 <tr>
 <td valign="top">
 
- `x509` 
+`x509` 
 
 
 
@@ -96,7 +96,7 @@ In this parameter, you include the certificate and the options of uniqueness and
 <tr>
 <td valign="top">
 
- `certificate` 
+`certificate` 
 
 
 
@@ -123,7 +123,7 @@ Provide the certificate string in privacy-enhanced mail \(PEM\) format. This par
 <tr>
 <td valign="top">
 
- `ensure-uniqueness` 
+`ensure-uniqueness` 
 
 
 
@@ -142,7 +142,7 @@ Ensures that the certificate is unique among all following clone instances. The 
 <tr>
 <td valign="top">
 
- `certificate-pinning` 
+`certificate-pinning` 
 
 
 
@@ -164,7 +164,7 @@ The default value is ***true***.
 <tr>
 <td valign="top">
 
- `hide-certificate` 
+`hide-certificate` 
 
 
 

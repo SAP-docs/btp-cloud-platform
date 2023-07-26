@@ -8,7 +8,7 @@ As with the whole XCO library, the design of the XCO Generation APIs is governed
 
     The prerequisite for building and executing operations is a generation environment. A generation environment is backed by a transport which must be in status ‘Modifiable’ and is obtained via the XCO\_CP\_GENERATION API.
 
-     
+
 
     > ### Sample Code:  
     > ```abap
@@ -33,7 +33,7 @@ As with the whole XCO library, the design of the XCO Generation APIs is governed
 
     Upon execution, a PUT operation either creates or updates its objects according to provided specifications \(depending on whether the object already exists in the system\). Each object type defines a form-based specification tailored to the specific attributes of the object type which is used to describe the content of each object of the PUT operation. As a PUT operation potentially creates new objects a valid package must be provided for all objects without a package. This package is used when the object is newly created but is ignored when the object already exists and is only updated.
 
-     
+
 
     > ### Sample Code:  
     > ```abap
@@ -135,7 +135,7 @@ As with the whole XCO library, the design of the XCO Generation APIs is governed
 
     Conceptual abstractions represent entities in the ABAP system which can be used in conjunction with different object types. For example, a built-in type of the ABAP Dictionary may be used as the format for a domain \(DOMA\), the data type of a data element \(DTEL\) or the row type of a table type \(TTYP\). Conceptual abstractions create a common language which can be used across different object types in the context of generation.
 
-     
+
 
     > ### Sample Code:  
     > ```abap
@@ -157,6 +157,8 @@ As with the whole XCO library, the design of the XCO Generation APIs is governed
     -   TABL \(Database tables and structures\)
 
     -   TTYP \(Table types\)
+
+    -   DDLS \(Data Definitions\)
 
 
     Using templates, it is e.g. possible to easily copy an existing object. The following code sample uses the active version of domain ZSOURCE\_DOMAIN as a template and will create \(resp. update\) domain ZCOPIED\_DOMAIN to reflect the content of ZSOURCE\_DOMAIN:

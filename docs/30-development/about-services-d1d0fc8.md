@@ -8,13 +8,13 @@ In a PaaS environment, all external dependencies, such as databases, messaging s
 
 To integrate services with applications, the service credentials must be delivered to the application. To do so, you can bind service instances to your application to automatically deliver these credentials to your application. Or you can use service keys to generate credentials to communicate directly with a service instance. As shown in the figure below, you can deploy an application first and then bind it to a service instance:
 
-   
+  
   
 **Using Services in the Cloud Foundry Environment**
 
- ![](images/Using_Services_CF_93c24e7.png "Using Services in the Cloud
+![](images/Using_Services_CF_93c24e7.png "Using Services in the Cloud
                                 Foundry
-				Environment") 
+				Environment")
 
 Alternatively, you can also bind the service instance to your application as part of the application push via the application manifest. For more information, see [https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html\#services-block](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html#services-block).
 

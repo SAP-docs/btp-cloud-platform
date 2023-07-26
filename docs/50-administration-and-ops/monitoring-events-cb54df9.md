@@ -10,7 +10,7 @@
 
 -   The *Enterprise Event Enablement ‒ Event Monitor* app is visible.
 
-    If the *Enterprise Event Enablement ‒ Event Monitor* app is not visible, add the *Enterprise Event Enablement* business catalog to the `SAP_BR_ADMINISTRATOR` role using the *Maintain Business Roles* app. The change in your role becomes effective after you have logged out and logged in again. For more information about adding catalogs to business roles, refer to [Maintain Business Roles](maintain-business-roles-8980ad0.md).
+    If the *Enterprise Event Enablement ‒ Event Monitor* app is not visible, add the *Enterprise Event Enablement* business catalog to the `SAP_BR_ADMINISTRATOR` role using the *Maintain Business Roles* app. The change in your role becomes effective after you have logged out and logged in again. For more information about adding catalogs to business roles, refer to [Maintain Business Roles \(Deprecated\)](maintain-business-roles-deprecated-8980ad0.md).
 
 
 
@@ -46,14 +46,14 @@ Using the *Enterprise Event Enablement ‒ Event Monitor* app, you can monitor e
     <tr>
     <td valign="top">
     
-        *Times*
+    *Times*
 
 
     
     </td>
     <td valign="top">
     
-        -   *Publish Time*
+    -   *Publish Time*
 
     -   *Arrival Time*
 
@@ -69,14 +69,14 @@ Using the *Enterprise Event Enablement ‒ Event Monitor* app, you can monitor e
     <tr>
     <td valign="top">
     
-        *Event Data*
+    *Event Data*
 
 
     
     </td>
     <td valign="top">
     
-        -   *Cloud Event Source*
+    -   *Cloud Event Source*
 
     -   *Cloud Event ID*
 
@@ -90,14 +90,14 @@ Using the *Enterprise Event Enablement ‒ Event Monitor* app, you can monitor e
     <tr>
     <td valign="top">
     
-        *Consumed by*
+    *Consumed by*
 
 
     
     </td>
     <td valign="top">
     
-        -   *Consumer ID*
+    -   *Consumer ID*
 
     -   *Consumer Version*
 
@@ -109,14 +109,14 @@ Using the *Enterprise Event Enablement ‒ Event Monitor* app, you can monitor e
     <tr>
     <td valign="top">
     
-        *Payload*
+    *Payload*
 
 
     
     </td>
     <td valign="top">
     
-        -   *Payload*
+    -   *Payload*
 
     -   *Size \(kB\)*
 

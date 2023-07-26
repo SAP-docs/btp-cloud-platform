@@ -45,11 +45,11 @@ The User Account and Authentication service stores user-related data records in 
 
 4.  From the list of users, select the users to delete.
 
-       
+      
       
     **Filter for Users Who Haven't Logged On**
 
-     ![](images/find_old_shadowusers_aeb30b2.png "Filter for Users Who Haven't Logged On") 
+    ![](images/find_old_shadowusers_aeb30b2.png "Filter for Users Who Haven't Logged On")
 
     > ### Recommendation:  
     > Users, who have left your organization, haven't logged on recently. Use the *Hasn't Logged On* filter option to find users who haven't logged on in the last 180 days.
@@ -70,11 +70,11 @@ The User Account and Authentication service stores user-related data records in 
 
 5.  Delete the selected users.
 
-       
+      
       
     **Delete Selected Users**
 
-     ![](images/delete_shadow_users_c490b82.png "Delete Selected Users") 
+    ![](images/delete_shadow_users_c490b82.png "Delete Selected Users")
 
 
 **Related Information**  

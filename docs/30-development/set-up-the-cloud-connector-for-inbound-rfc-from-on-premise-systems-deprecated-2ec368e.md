@@ -17,7 +17,7 @@ RFC connections from on-premise systems to the ABAP environment can be performed
 
 To establish an RFC connection from an on-premise system to the ABAP environment, the Cloud Connector opens an RFC port just like an RFC gateway and acts as a local proxy for the cloud system. Connections to this port are routed through a secure tunnel to SAP BTP.
 
- ![](images/AE_Inbound_RFC_Connection_ff1e24c.png) 
+![](images/AE_Inbound_RFC_Connection_ff1e24c.png)
 
 In the Cloud Connector, you create a service channel with a local instance number. In the on-premise ABAP system, you correspondingly create an RFC destination in transaction SM59 with the hostname of the Cloud Connector in your on-premise network and the same instance number.
 

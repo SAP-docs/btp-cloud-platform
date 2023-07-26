@@ -41,7 +41,7 @@ You have completed the following steps:
 
     For more information on all the different query annotations, see [AnalyticsDetails Annotations](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/362d98c100ed4497aead426b72a64e16.html).
 
-     **Query Annotations**
+    **Query Annotations**
 
     ```abap
         @AnalyticsDetails.query.display: #KEY_TEXT
@@ -56,7 +56,7 @@ You have completed the following steps:
 
 ### Analytical Report 1
 
- **Z\_VE\_ANA\_PROJVIEW\_Q** 
+**Z\_VE\_ANA\_PROJVIEW\_Q** 
 
 ```
 @EndUserText.label: 'Analytical projection view'

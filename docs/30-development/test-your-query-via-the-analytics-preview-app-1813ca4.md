@@ -4,5 +4,5 @@
 
 A data preview for analytical queries is available via the *Preview Analytical Queries* app. Simply right-click on the query \> *Open with* \> *Data Preview*.
 
- ![](images/Preview_Query_e067a24.jpg) 
+![](images/Preview_Query_e067a24.jpg)
 

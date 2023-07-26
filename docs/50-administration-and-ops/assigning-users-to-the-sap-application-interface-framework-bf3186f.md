@@ -12,7 +12,7 @@ The user must have the business role `BR_CONF_EXPERT_BUS_NET_INT` \(Configuratio
 
 ## Context
 
-In order to receive alerts for the consumption with the given *Event Consumption Model*, you can assign your user to the SAP Application Interface Framework interface by a corresponding recipient.
+In order to receive alerts for the consumption with the given event consumption model, you can assign your user to the SAP Application Interface Framework interface by a corresponding recipient.
 
 
 

@@ -161,6 +161,19 @@ The following example illustrates how the string values of the cells in column A
 
 
 
+<a name="loio5359a35b78334d5fb94a69dbd710d52a__section_gdj_qbv_4xb"/>
+
+## Reading out hyperlinks
+
+When data is accessed via a cursor, it's also possible to read out the hyperlink associated with a given cell. To this extent, once a handle for a cell has been obtained in the form of an object of type `IF_XCO_XLSX_RA_CELL`, it's possible to
+
+-   Check if a hyperlink is associated to the given cell via method `HAS_HYPERLINK` on `IF_XCO_XLSX_RA_CELL`
+-   Obtain the handle for the hyperlink of the given cell via method `GET_HYPERLINK` on `IF_XCO_XLSX_RA_CELL`
+
+The handle for a hyperlink, `IF_XCO_XLSX_RA_HYPERLINK`, can then be used to obtain both the target and the location of the hyperlink via methods `GET_TARGET` and `GET_LOCATION`. Both target and location are returned exactly as they are stored within the XLSX document.
+
+
+
 <a name="loio5359a35b78334d5fb94a69dbd710d52a__section_vrx_qkh_wtb"/>
 
 ## Value transformations

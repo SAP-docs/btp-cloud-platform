@@ -15,7 +15,7 @@ Use your SAP Cloud Identity Services - Identity Authentication tenant as an iden
 > 
 > For more information, see [Establish Trust and Federation Between UAA and Identity Authentication](establish-trust-and-federation-between-uaa-and-identity-authentication-161f8f0.md).
 
- <a name="loioaedb8eed952b41c4b87c50b92bf651e4"/>
+<a name="loioaedb8eed952b41c4b87c50b92bf651e4"/>
 
 <!-- loioaedb8eed952b41c4b87c50b92bf651e4 -->
 
@@ -82,7 +82,7 @@ You must establish a trust relationship with an SAML 2.0 identity provider in yo
 
 [Managing Security Administrators in Your Subaccount \[Feature Set A\]](managing-security-administrators-in-your-subaccount-feature-set-a-6752c4b.md "Running on the cloud management tools feature set A: When you create a subaccount, SAP BTP automatically grants your user the role for the administration of business users and their authorizations in the subaccount. Having this role, you can also add or remove other users who will then also be user and role administrators of this subaccount.")
 
- <a name="loio347cc6991eda439ea7d87ef1311913bf"/>
+<a name="loio347cc6991eda439ea7d87ef1311913bf"/>
 
 <!-- loio347cc6991eda439ea7d87ef1311913bf -->
 

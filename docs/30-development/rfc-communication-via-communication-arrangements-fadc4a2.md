@@ -43,44 +43,21 @@ To establish communication via RFC, you need to create an outbound service of ty
     <tr>
     <td valign="top">
     
-        `comm_scenario`
+    `comm_scenario`
 
 
     
     </td>
     <td valign="top">
     
-        mandatory
+    mandatory
 
 
     
     </td>
     <td valign="top">
     
-        ID of the developed communication scenario
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        `comm_system_id`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        optional
-
-
-    
-    </td>
-    <td valign="top">
-    
-        ID of the configured communication system
+    ID of the developed communication scenario
 
 
     
@@ -89,21 +66,44 @@ To establish communication via RFC, you need to create an outbound service of ty
     <tr>
     <td valign="top">
     
-        `service_id`
+    `comm_system_id`
 
 
     
     </td>
     <td valign="top">
     
-        optional
+    optional
 
 
     
     </td>
     <td valign="top">
     
-        ID of the developed outbound service
+    ID of the configured communication system
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `service_id`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    optional
+
+
+    
+    </td>
+    <td valign="top">
+    
+    ID of the developed outbound service
 
 
     
@@ -119,6 +119,8 @@ To establish communication via RFC, you need to create an outbound service of ty
 3.  Call the RFC service as described in the example. Copy the code from the *Overview* tab in your SRVC and add the `comm_system_id` and `service_id` parameters if necessary.
 
 
+
+## Example
 
 **Using a Service Consumption Model**
 

@@ -15,7 +15,7 @@ Learn how to use the Message Monitor Overview App to monitor asynchronous SOAP c
     -   `SAP_CA_BC_COM_ERR_PC`
     -   `SAP_CA_BC_COM_CONF_PC`
 
-    See [Maintain Business Roles](../50-administration-and-ops/maintain-business-roles-8980ad0.md) and [Business Catalogs](../50-administration-and-ops/business-catalogs-dd0abf5.md) for more information.
+    See [Maintain Business Roles \(Deprecated\)](../50-administration-and-ops/maintain-business-roles-deprecated-8980ad0.md) and [Business Catalogs](../50-administration-and-ops/business-catalogs-dd0abf5.md) for more information.
 
 -   The user is a recipient of the `/SPRX` namespace. You can manage this in the Assign Recipients to Users app. See [Assign Recipients to Users](../50-administration-and-ops/assign-recipients-to-users-576fa8d.md) for more information.
 

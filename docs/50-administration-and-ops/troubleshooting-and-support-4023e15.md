@@ -22,7 +22,9 @@ Use `btp --help` to display an overview of all commands. If new commands are ava
 
 ## I cannot log on
 
-To log on, run `btp login`. During interactive logon, confirm the server URL that is proposed by the CLI and provide the subdomain of your global account. The btp CLI is part of our cloud management tools feature set B. This means that you can only access a global account that uses this feature set B. For example, all trial accounts are on feature set B. For more information, see [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
+The btp CLI is part of our cloud management tools feature set B. This means that you can only access a global account that uses this feature set B. For example, all trial accounts are on feature set B. For more information, see [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
+
+To log on, we recommend to run `btp login --sso` or `btp login` without parameters. Then confirm the server URL that is proposed by the CLI and provide tyour credentials when you are prompted. After successful authentication, the btp CLI will log you into your global account, or, if you have more than one, will show all available global accounts for you to select the one you need.
 
 
 
@@ -56,6 +58,8 @@ Here is an example of the `btp list security/role-collection` command call witho
 If you use `btp --verbose list security/role-collection`, the output is much more lengthy. It contains information such as client version and the current context, the correlation ID, and request and response details. This output may include sensitive information, so we recommend to use the verbose mode only for troubleshooting, not as default, and only on your local machine.
 
 > ### Caution:  
+> The `--verbose` option prints input data that you pass as parameters through files. For example, if you pass a .json file as a parameter without the `--verbose` option, its content is sent directly to the backend service to be processed. If you use the `--verbose` option, the btp CLI prints the content of the file to the terminal. If there is sensitive information in such a file, the btp CLI cannot filter it out, as it doesn't understand its semantics.
+> 
 > Use the verbose output only if you can control the output of your terminal, i.e. only locally. It should not be used in production or shared environments, where logs may be persisted or even transported out of the system.
 
 > ### Sample Code:  

@@ -21,7 +21,7 @@ A single sign-on configuration between SAP Cloud for Customer and the cloud plat
 > ### Tip:  
 > We recommend that you use SSO and OData access with principal propagation, to ensure that the data is accessed on behalf of the proper authorized user.
 
- **Implementation with SSO and principal propagation** 
+**Implementation with SSO and principal propagation** 
 
 When your scenario requires SSO and principal propagation, the SAP Cloud for Customer system and the subaccount in SAP BTPSAP BTP \(where the extension application is deployed or subscribed\) have to trust each other and use one and the same identity provider. For more information, see [Configuring Single Sign-On on Cloud Foundry Environment](configuring-single-sign-on-on-cloud-foundry-environment-6080a92.md).
 

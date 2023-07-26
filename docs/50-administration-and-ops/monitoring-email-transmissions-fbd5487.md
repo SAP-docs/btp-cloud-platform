@@ -60,6 +60,14 @@ You can get additional information about the present and former recipient's stat
 
 
 
+<a name="loiofbd5487a4212481087b4c27371ea02a7__section_jlp_y4s_2xb"/>
+
+## Email Reorganization
+
+Due to data protection reasons, all displayed emails will be deleted from the table view after 30 days.
+
+
+
 <a name="loiofbd5487a4212481087b4c27371ea02a7__section_qyb_dxb_3vb"/>
 
 ## Testmail Functionality

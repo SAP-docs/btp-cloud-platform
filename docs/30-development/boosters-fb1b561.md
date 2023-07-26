@@ -31,7 +31,7 @@ Boosters automate processes and always achieve a technical goal, often in the fo
 
 When you start a booster, a wizard opens up which guides you through a set of steps. Following these steps enables you to reach the result described in the booster overview.
 
- 
+
 
 **Related Information**  
 

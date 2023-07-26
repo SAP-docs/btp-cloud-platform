@@ -757,5 +757,5 @@ Node property codes are:
 </table>
 
 > ### Note:  
-> To display more information about the service node on the SAP API Business Hub, choose *API References* and select the operation.
+> To display more information about the service nodes on the SAP Business Accelerator Hub, select the *API Reference* tab and choose the *View Details* button in the table.
 

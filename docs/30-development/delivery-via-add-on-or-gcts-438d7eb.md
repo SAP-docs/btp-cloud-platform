@@ -258,7 +258,7 @@ Not possible
 <tr>
 <td valign="top" rowspan="2">
 
- **Certifications and Compliance of Solution**
+**Certifications and Compliance of Solution**
 
 
 

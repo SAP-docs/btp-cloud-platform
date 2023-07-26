@@ -29,7 +29,7 @@ What Is It Used for?
 <tr>
 <td valign="top">
 
-  [Ctrl\] + [Space\]  
+[Ctrl\] + [Space\]  
 
 
 
@@ -45,9 +45,9 @@ To turn on code completion
 <tr>
 <td valign="top">
 
- [Ctrl\] + [/\] 
+[Ctrl\] + [/\] 
 
- [Ctrl\] + [\#\] 
+[Ctrl\] + [\#\] 
 
 
 
@@ -63,7 +63,7 @@ To uncomment or comment out a code block
 <tr>
 <td valign="top">
 
-  [Shift\] + [F1\]  
+[Shift\] + [F1\]  
 
 
 

@@ -46,7 +46,7 @@ Default trust configuration \(SAP ID service\)
 </td>
 <td valign="top">
 
- [Assign Users to Role Collections](assign-users-to-role-collections-c576676.md) 
+[Assign Users to Role Collections](assign-users-to-role-collections-c576676.md) 
 
 
 

@@ -68,14 +68,14 @@ To set up your ABAP environment, you have to create a communication arrangement 
     <tr>
     <td valign="top">
     
-        *Host Name*
+    *Host Name*
 
 
     
     </td>
     <td valign="top">
     
-        Enter the name of the region host of your Neo subaccount.
+    Enter the name of the region host of your Neo subaccount.
 
     If your Neo URL is [https://account.xyz.hana.ondemand.com](https://account.xyz.hana.ondemand.com), you need to enter `xyz.hana.ondemand.com`, where `xyz` represents the region name. See [Regions and Hosts Available for the Neo Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html#loiod722f7cea9ec408b85db4c3dcba07b52).
 
@@ -86,30 +86,14 @@ To set up your ABAP environment, you have to create a communication arrangement 
     <tr>
     <td valign="top">
     
-        *HTTPS Port*
+    *HTTPS Port*
 
 
     
     </td>
     <td valign="top">
     
-        Enter `443`.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        Checkbox *Use Cloud Connector*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Make sure this checkbox is **not checked** .
+    Enter `443`.
 
 
     
@@ -118,14 +102,30 @@ To set up your ABAP environment, you have to create a communication arrangement 
     <tr>
     <td valign="top">
     
-        User for Outbound Communication
+    Checkbox *Use Cloud Connector*
 
 
     
     </td>
     <td valign="top">
     
-        a\) Scroll down to this section.
+    Make sure this checkbox is **not checked** .
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    User for Outbound Communication
+
+
+    
+    </td>
+    <td valign="top">
+    
+    a\) Scroll down to this section.
 
     b\) Add a new user.
 
@@ -172,30 +172,14 @@ To set up your ABAP environment, you have to create a communication arrangement 
     <tr>
     <td valign="top">
     
-        *Communication System*
+    *Communication System*
 
 
     
     </td>
     <td valign="top">
     
-        Enter the name of the communication system created in steps 1-3, or select it from the value help.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Additional Properties* \> *Account Name*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Enter the name of your Neo subaccount.
+    Enter the name of the communication system created in steps 1-3, or select it from the value help.
 
 
     
@@ -204,14 +188,30 @@ To set up your ABAP environment, you have to create a communication arrangement 
     <tr>
     <td valign="top">
     
-        *Outbound Communication* \> *User Name*
+    *Additional Properties* \> *Account Name*
 
 
     
     </td>
     <td valign="top">
     
-         
+    Enter the name of your Neo subaccount.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Outbound Communication* \> *User Name*
+
+
+    
+    </td>
+    <td valign="top">
+    
+     
 
 
     

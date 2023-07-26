@@ -35,7 +35,7 @@ In the following example, let's analyze the usage of an application built accord
 
 3.  Let's assume you're interested in the behavior of the OData V2 services and set a filter on *Request Entry Type* for *OData V2*.
 
-     ![](images/User_Story_HANA_CPU_Time_1_dcb401d.png)
+    ![](images/User_Story_HANA_CPU_Time_1_dcb401d.png)
 
 4.  At 4.30 p.m., the HANA CPU time went up. In the chart, click on the relevant tenant and time. The *HANA CPU Time: Details* section shows the top contributors to the HANA CPU time of the chosen time and tenant. The contributors are grouped by request entry type and request entry name.
 

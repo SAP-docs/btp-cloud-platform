@@ -66,7 +66,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
- `IntervalBoundaryTypeCode` 
+`IntervalBoundaryTypeCode` 
 
 
 
@@ -123,7 +123,7 @@ This field is mandatory if `LowerBoundaryPersonExtID` is set.
 <tr>
 <td valign="top">
 
- `LowerBoundaryPersonExtID` 
+`LowerBoundaryPersonExtID` 
 
 
 
@@ -153,7 +153,7 @@ Employee name
 <tr>
 <td valign="top">
 
- `UpperBoundaryPersonExtID` 
+`UpperBoundaryPersonExtID` 
 
 
 
@@ -190,7 +190,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
- `IntervalBoundaryTypeCode` 
+`IntervalBoundaryTypeCode` 
 
 
 
@@ -247,7 +247,7 @@ This field is mandatory if `LowerBoundaryPersonID` is set.
 <tr>
 <td valign="top">
 
- `LowerBoundaryPersonID` 
+`LowerBoundaryPersonID` 
 
 
 
@@ -275,7 +275,7 @@ This field is mandatory if `LowerBoundaryPersonID` is set.
 <tr>
 <td valign="top">
 
- `UpperBoundaryPersonID` 
+`UpperBoundaryPersonID` 
 
 
 
@@ -312,7 +312,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
- `IntervalBoundaryTypeCode` 
+`IntervalBoundaryTypeCode` 
 
 
 
@@ -369,7 +369,7 @@ This field is mandatory if `LowerBoundaryBusinessPartnerRoleCode` is set.
 <tr>
 <td valign="top">
 
- `LowerBoundaryBusinessPartnerRoleCode` 
+`LowerBoundaryBusinessPartnerRoleCode` 
 
 
 
@@ -408,7 +408,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
- `IntervalBoundaryTypeCode` 
+`IntervalBoundaryTypeCode` 
 
 
 
@@ -443,7 +443,7 @@ The following values exist:
 <tr>
 <td valign="top">
 
- `LowerBoundaryMarkedForArchivingIndicator` 
+`LowerBoundaryMarkedForArchivingIndicator` 
 
 
 
@@ -482,7 +482,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
- `IntervalBoundaryTypeCode` 
+`IntervalBoundaryTypeCode` 
 
 
 
@@ -539,7 +539,7 @@ This field is mandatory if `LowerBoundaryUserID` is set.
 <tr>
 <td valign="top">
 
- `LowerBoundaryUserID` 
+`LowerBoundaryUserID` 
 
 
 
@@ -567,7 +567,7 @@ This field is mandatory if `LowerBoundaryUserID` is set.
 <tr>
 <td valign="top">
 
- `UpperBoundaryUserID` 
+`UpperBoundaryUserID` 
 
 
 
@@ -604,7 +604,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
- `IntervalBoundaryTypeCode` 
+`IntervalBoundaryTypeCode` 
 
 
 
@@ -661,7 +661,7 @@ This field is mandatory if `LowerBoundaryUserName` is set.
 <tr>
 <td valign="top">
 
- `LowerBoundaryUserName` 
+`LowerBoundaryUserName` 
 
 
 
@@ -689,7 +689,7 @@ This field is mandatory if `LowerBoundaryUserName` is set.
 <tr>
 <td valign="top">
 
- `UpperBoundaryUserName` 
+`UpperBoundaryUserName` 
 
 
 
@@ -726,7 +726,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
- `IntervalBoundaryTypeCode` 
+`IntervalBoundaryTypeCode` 
 
 
 
@@ -783,7 +783,7 @@ This field is mandatory if `LowerBoundaryFirstName` is set.
 <tr>
 <td valign="top">
 
- `LowerBoundaryFirstName` 
+`LowerBoundaryFirstName` 
 
 
 
@@ -811,7 +811,7 @@ This field is mandatory if `LowerBoundaryFirstName` is set.
 <tr>
 <td valign="top">
 
- `UpperBoundaryFirstName` 
+`UpperBoundaryFirstName` 
 
 
 
@@ -848,7 +848,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
- `IntervalBoundaryTypeCode` 
+`IntervalBoundaryTypeCode` 
 
 
 
@@ -905,7 +905,7 @@ This field is mandatory if `LowerBoundaryLastName` is set.
 <tr>
 <td valign="top">
 
- `LowerBoundaryLastName` 
+`LowerBoundaryLastName` 
 
 
 
@@ -935,7 +935,7 @@ This field is mandatory if `LowerBoundaryLastName` is set.
 <tr>
 <td valign="top">
 
- `UpperBoundaryLastName` 
+`UpperBoundaryLastName` 
 
 
 
@@ -974,7 +974,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
- `IntervalBoundaryTypeCode` 
+`IntervalBoundaryTypeCode` 
 
 
 
@@ -1004,7 +1004,7 @@ Cardinality: 0..unbounded
 <tr>
 <td valign="top">
 
- `LowerBoundaryEmailAddress` 
+`LowerBoundaryEmailAddress` 
 
 
 
@@ -1032,7 +1032,7 @@ Cardinality: 0..unbounded
 <tr>
 <td valign="top">
 
- `UpperBoundaryEmailAddress` 
+`UpperBoundaryEmailAddress` 
 
 
 
@@ -1100,7 +1100,7 @@ Cardinality
 <tr>
 <td valign="top">
 
- `QueryHitsTotalNumberIndicator` 
+`QueryHitsTotalNumberIndicator` 
 
 
 
@@ -1135,7 +1135,7 @@ The following values exist:
 <tr>
 <td valign="top">
 
- `QueryHitsMaximumNumberValue` 
+`QueryHitsMaximumNumberValue` 
 
 
 
@@ -1165,7 +1165,7 @@ Enter the maximum number of hits. If no value is entered, the default is automat
 <tr>
 <td valign="top">
 
- `QueryHitsUnlimitedIndicator` 
+`QueryHitsUnlimitedIndicator` 
 
 
 
@@ -1200,7 +1200,7 @@ Set **True** to get all data based on selection criteria.
 <tr>
 <td valign="top">
 
- `QueryLastReturnedObjectID` 
+`QueryLastReturnedObjectID` 
 
 
 
@@ -1315,7 +1315,7 @@ Cardinality
 <tr>
 <td valign="top" colspan="3">
 
- `PersonExternalID` 
+`PersonExternalID` 
 
 
 
@@ -1345,7 +1345,7 @@ Person External ID
 <tr>
 <td valign="top" colspan="3">
 
- `PersonID` 
+`PersonID` 
 
 
 
@@ -1375,7 +1375,7 @@ Person ID
 <tr>
 <td valign="top" colspan="3">
 
- `PersonUUID` 
+`PersonUUID` 
 
 
 
@@ -1405,7 +1405,7 @@ Person UUID
 <tr>
 <td valign="top" colspan="3">
 
- `BusinessPartnerRoleCode` 
+`BusinessPartnerRoleCode` 
 
 
 
@@ -1435,7 +1435,7 @@ Business Partner Role Code
 <tr>
 <td valign="top" colspan="3">
 
- `MarkedForArchivingIndicator` 
+`MarkedForArchivingIndicator` 
 
 
 
@@ -1477,7 +1477,7 @@ Cardinality: 0..1
 </td>
 <td valign="top" colspan="2">
 
- `StartDate` 
+`StartDate` 
 
 
 
@@ -1507,7 +1507,7 @@ YYYY-MM-DD
 <tr>
 <td valign="top" colspan="2">
 
- `EndDate` 
+`EndDate` 
 
 
 
@@ -1546,7 +1546,7 @@ Cardinality: 0..1
 </td>
 <td valign="top" colspan="2">
 
- `FormOfAddress` 
+`FormOfAddress` 
 
 
 
@@ -1576,7 +1576,7 @@ Form of address
 <tr>
 <td valign="top" colspan="2">
 
- `FirstName` 
+`FirstName` 
 
 
 
@@ -1606,7 +1606,7 @@ First name
 <tr>
 <td valign="top" colspan="2">
 
- `LastName` 
+`LastName` 
 
 
 
@@ -1636,7 +1636,7 @@ Last name
 <tr>
 <td valign="top" colspan="2">
 
- `PersonFullName` 
+`PersonFullName` 
 
 
 
@@ -1666,7 +1666,7 @@ Person full name
 <tr>
 <td valign="top" colspan="2">
 
- `AcademicTitle` 
+`AcademicTitle` 
 
 
 
@@ -1696,7 +1696,7 @@ Academic title
 <tr>
 <td valign="top" colspan="2">
 
- `CorrespondenceLanguage` 
+`CorrespondenceLanguage` 
 
 
 
@@ -1726,7 +1726,7 @@ Correspondence language
 <tr>
 <td valign="top" colspan="2">
 
- `MiddleName` 
+`MiddleName` 
 
 
 
@@ -1756,7 +1756,7 @@ Middle name
 <tr>
 <td valign="top" colspan="2">
 
- `AdditionalLastName` 
+`AdditionalLastName` 
 
 
 
@@ -1786,7 +1786,7 @@ Additional last name
 <tr>
 <td valign="top" colspan="2">
 
- `BirthName` 
+`BirthName` 
 
 
 
@@ -1816,7 +1816,7 @@ Birth name
 <tr>
 <td valign="top" colspan="2">
 
- `NickName` 
+`NickName` 
 
 
 
@@ -1846,7 +1846,7 @@ Nick name
 <tr>
 <td valign="top" colspan="2">
 
- `Initials` 
+`Initials` 
 
 
 
@@ -1876,7 +1876,7 @@ Initials
 <tr>
 <td valign="top" colspan="2">
 
- `AcademicSecondTitle` 
+`AcademicSecondTitle` 
 
 
 
@@ -1906,7 +1906,7 @@ Academic second title
 <tr>
 <td valign="top" colspan="2">
 
- `LastNamePrefix` 
+`LastNamePrefix` 
 
 
 
@@ -1936,7 +1936,7 @@ Last name prefix
 <tr>
 <td valign="top" colspan="2">
 
- `LastNameSecondPrefix` 
+`LastNameSecondPrefix` 
 
 
 
@@ -1966,7 +1966,7 @@ Last name second prefix
 <tr>
 <td valign="top" colspan="2">
 
- `NameSupplement` 
+`NameSupplement` 
 
 
 
@@ -2005,7 +2005,7 @@ Cardinality: 0..1
 </td>
 <td valign="top" colspan="2">
 
- `UserID` 
+`UserID` 
 
 
 
@@ -2035,7 +2035,7 @@ User ID
 <tr>
 <td valign="top" colspan="2">
 
- `UserName` 
+`UserName` 
 
 
 
@@ -2065,7 +2065,7 @@ User name/Alias
 <tr>
 <td valign="top" colspan="2">
 
- `LogonLanguageCode` 
+`LogonLanguageCode` 
 
 
 
@@ -2095,7 +2095,7 @@ Logon language
 <tr>
 <td valign="top" colspan="2">
 
- `DateFormatCode` 
+`DateFormatCode` 
 
 
 
@@ -2150,7 +2150,7 @@ The following values exist:
 <tr>
 <td valign="top" colspan="2">
 
- `DecimalFormatCode` 
+`DecimalFormatCode` 
 
 
 
@@ -2187,7 +2187,7 @@ The following values exist:
 <tr>
 <td valign="top" colspan="2">
 
- `TimeZoneCode` 
+`TimeZoneCode` 
 
 
 
@@ -2217,7 +2217,7 @@ Time zone
 <tr>
 <td valign="top" colspan="2">
 
- `TimeFormatCode` 
+`TimeFormatCode` 
 
 
 
@@ -2258,7 +2258,7 @@ The following values exist:
 <tr>
 <td valign="top" colspan="2">
 
- `LockedIndicator` 
+`LockedIndicator` 
 
 
 
@@ -2297,7 +2297,7 @@ Cardinality: 1
 </td>
 <td valign="top">
 
- `StartDate` 
+`StartDate` 
 
 
 
@@ -2331,7 +2331,7 @@ If no start date is maintained for the `User`, the `StartDate` for the `Business
 <tr>
 <td valign="top">
 
- `EndDate` 
+`EndDate` 
 
 
 
@@ -2374,7 +2374,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
- `RoleName` 
+`RoleName` 
 
 
 
@@ -2413,7 +2413,7 @@ Cardinality: 0..1
 </td>
 <td valign="top" colspan="2">
 
- `UserID` 
+`UserID` 
 
 
 
@@ -2443,7 +2443,7 @@ User ID
 <tr>
 <td valign="top" colspan="2">
 
- `UserName` 
+`UserName` 
 
 
 
@@ -2471,7 +2471,7 @@ User ID
 <tr>
 <td valign="top" colspan="2">
 
- `UserAssignmentStatusCode` 
+`UserAssignmentStatusCode` 
 
 
 
@@ -2515,7 +2515,7 @@ Cardinality: 0..1
 </td>
 <td valign="top" colspan="2">
 
- `EmailAddress` 
+`EmailAddress` 
 
 
 
@@ -2556,7 +2556,7 @@ One set of phone information per phone type supported.
 </td>
 <td valign="top">
 
- `PhoneType` 
+`PhoneType` 
 
 
 
@@ -2586,7 +2586,7 @@ Phone type
 <tr>
 <td valign="top">
 
- `CountryDialingCode` 
+`CountryDialingCode` 
 
 
 
@@ -2616,7 +2616,7 @@ Country dialing code
 <tr>
 <td valign="top">
 
- `PhoneNumberAreaID` 
+`PhoneNumberAreaID` 
 
 
 
@@ -2646,7 +2646,7 @@ Phone number area code
 <tr>
 <td valign="top">
 
- `PhoneNumberSubscriberID` 
+`PhoneNumberSubscriberID` 
 
 
 
@@ -2676,7 +2676,7 @@ Phone number subscriber ID
 <tr>
 <td valign="top">
 
- `PhoneNumberExtension` 
+`PhoneNumberExtension` 
 
 
 
@@ -2706,7 +2706,7 @@ Phone number extension
 <tr>
 <td valign="top" colspan="2">
 
- `FunctionalTitleName` 
+`FunctionalTitleName` 
 
 
 
@@ -2736,7 +2736,7 @@ Functional title name
 <tr>
 <td valign="top" colspan="2">
 
- `Department` 
+`Department` 
 
 
 
@@ -2766,7 +2766,7 @@ Department name
 <tr>
 <td valign="top" colspan="2">
 
- `RoomNumber` 
+`RoomNumber` 
 
 
 
@@ -2796,7 +2796,7 @@ Room number
 <tr>
 <td valign="top" colspan="2">
 
- `Building` 
+`Building` 
 
 
 
@@ -2862,7 +2862,7 @@ Cardinality
 <tr>
 <td valign="top">
 
- `HitsTotalNumberValue` 
+`HitsTotalNumberValue` 
 
 
 
@@ -2892,7 +2892,7 @@ Contains the number of users based on given criteria.
 <tr>
 <td valign="top">
 
- `ReturnedQueryHitsNumberValue` 
+`ReturnedQueryHitsNumberValue` 
 
 
 
@@ -2922,7 +2922,7 @@ Contains the number of found data sets for business users.
 <tr>
 <td valign="top">
 
- `MoreHitsAvailableIndiactor` 
+`MoreHitsAvailableIndiactor` 
 
 
 
@@ -2950,7 +2950,7 @@ The indicator is set if the query was limited to a number of hits, but more busi
 <tr>
 <td valign="top">
 
- `LastReturnedObjectID` 
+`LastReturnedObjectID` 
 
 
 
@@ -3046,7 +3046,7 @@ Cardinality
 <tr>
 <td valign="top" colspan="2">
 
- `MaximumLogItemSeverityCode` 
+`MaximumLogItemSeverityCode` 
 
 
 

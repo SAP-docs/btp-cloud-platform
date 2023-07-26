@@ -74,7 +74,7 @@ In order to implement the reusable component in a Fiori Elements app, you first 
 
     After your app was deployed successfully to an SAP BTP, ABAP environment system, the *BSP application* and the *SAP Fiori Launchpad* app descriptor item will appear under your created package in Eclipse.
 
-    ![](images/Eclipse_ABAP_Environment_e0a96c5.png) 
+    ![](images/Eclipse_ABAP_Environment_e0a96c5.png)
 
 6.  Now, you need to create a new *IAM App*. Follow the instructions described here: [Defining an IAM App for the Business Service](defining-an-iam-app-for-the-business-service-3fb85a8.md).
 

@@ -89,7 +89,7 @@ To do so, you configure the entitlements and assign the corresponding quota wher
 </td>
 <td valign="top">
 
- [Configure the Entitlements for the SAP SuccessFactors Extensibility Service](configure-the-entitlements-for-the-sap-successfactors-extensibility-service-b01e625.md) 
+[Configure the Entitlements for the SAP SuccessFactors Extensibility Service](configure-the-entitlements-for-the-sap-successfactors-extensibility-service-b01e625.md) 
 
 
 
@@ -116,7 +116,7 @@ SAP BTP supports the following authentication scenarios for SAP SuccessFactors:
 </td>
 <td valign="top">
 
- [Create a Service Instance to Consume the SAP SuccessFactors HXM Suite OData API](create-a-service-instance-to-consume-the-sap-successfactors-hxm-suite-odata-api-46c5ea1.md) 
+[Create a Service Instance to Consume the SAP SuccessFactors HXM Suite OData API](create-a-service-instance-to-consume-the-sap-successfactors-hxm-suite-odata-api-46c5ea1.md) 
 
 
 
@@ -134,7 +134,7 @@ To ensure the required security for accessing the applications, you need to conf
 </td>
 <td valign="top">
 
- [Configure Single Sign-On Between a Subaccount in SAP BTP and SAP SuccessFactors](configure-single-sign-on-between-a-subaccount-in-sap-btp-and-sap-successfactors-64da613.md) 
+[Configure Single Sign-On Between a Subaccount in SAP BTP and SAP SuccessFactors](configure-single-sign-on-between-a-subaccount-in-sap-btp-and-sap-successfactors-64da613.md) 
 
 
 

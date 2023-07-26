@@ -44,6 +44,8 @@ If you want the configuration file to be created in a different folder, you can 
 
 
 
+## Example
+
 Let's assume you want to work in two subaccounts in parallel, using two terminals. For example, with the first terminal \(A\), you want to work in a subaccount with ID 1000, with the second terminal \(B\) you want to work in a subaccount with ID 2000, and you want to list the users in each subaccount.
 
 

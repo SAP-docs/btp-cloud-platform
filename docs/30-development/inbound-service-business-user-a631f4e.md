@@ -84,7 +84,7 @@ Necessity
 <tr>
 <td valign="top" colspan="3">
 
- `PersonExternalID` 
+`PersonExternalID` 
 
 
 
@@ -123,7 +123,7 @@ Optional for update \(at least one of the person IDs is mandatory.\)
 <tr>
 <td valign="top" colspan="3">
 
- `PersonID` 
+`PersonID` 
 
 
 
@@ -162,7 +162,7 @@ Optional
 <tr>
 <td valign="top" colspan="3">
 
- `PersonUUID` 
+`PersonUUID` 
 
 
 
@@ -201,7 +201,7 @@ Optional
 <tr>
 <td valign="top" colspan="3">
 
- `BusinessPartnerRoleCode` 
+`BusinessPartnerRoleCode` 
 
 
 
@@ -240,7 +240,7 @@ Optional for update.
 <tr>
 <td valign="top" colspan="3">
 
- `MarkedForArchivingIndicator` 
+`MarkedForArchivingIndicator` 
 
 
 
@@ -300,7 +300,7 @@ Cardinality: 0..1
 </td>
 <td valign="top" colspan="2">
 
- `StartDate` 
+`StartDate` 
 
 
 
@@ -339,7 +339,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `EndDate` 
+`EndDate` 
 
 
 
@@ -387,7 +387,7 @@ Cardinality: 0..1
 </td>
 <td valign="top" colspan="2">
 
- `FormOfAddress` 
+`FormOfAddress` 
 
 
 
@@ -424,7 +424,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `FirstName` 
+`FirstName` 
 
 
 
@@ -461,7 +461,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `LastName` 
+`LastName` 
 
 
 
@@ -500,7 +500,7 @@ Mandatory
 <tr>
 <td valign="top" colspan="2">
 
- `PersonFullName` 
+`PersonFullName` 
 
 
 
@@ -537,7 +537,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `AcademicTitle` 
+`AcademicTitle` 
 
 
 
@@ -574,7 +574,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `CorrespondenceLanguage` 
+`CorrespondenceLanguage` 
 
 
 
@@ -611,7 +611,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `MiddleName` 
+`MiddleName` 
 
 
 
@@ -648,7 +648,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `AdditionalLastName` 
+`AdditionalLastName` 
 
 
 
@@ -685,7 +685,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `BirthName` 
+`BirthName` 
 
 
 
@@ -722,7 +722,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `NickName` 
+`NickName` 
 
 
 
@@ -759,7 +759,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `Initials` 
+`Initials` 
 
 
 
@@ -796,7 +796,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `AcademicSecondTitle` 
+`AcademicSecondTitle` 
 
 
 
@@ -833,7 +833,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `LastNamePrefix` 
+`LastNamePrefix` 
 
 
 
@@ -870,7 +870,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `LastNameSecondPrefix` 
+`LastNameSecondPrefix` 
 
 
 
@@ -907,7 +907,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `NameSupplement` 
+`NameSupplement` 
 
 
 
@@ -944,7 +944,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `actionCode` 
+`actionCode` 
 
 
 
@@ -1002,7 +1002,7 @@ Cardinality: 0..1
 </td>
 <td valign="top" colspan="2">
 
- `UserName` 
+`UserName` 
 
 
 
@@ -1039,7 +1039,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `LogonLanguageCode` 
+`LogonLanguageCode` 
 
 
 
@@ -1076,7 +1076,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `DateFormatCode` 
+`DateFormatCode` 
 
 
 
@@ -1138,7 +1138,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `DecimalFormatCode` 
+`DecimalFormatCode` 
 
 
 
@@ -1182,7 +1182,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `TimeZoneCode` 
+`TimeZoneCode` 
 
 
 
@@ -1219,7 +1219,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `TimeFormatCode` 
+`TimeFormatCode` 
 
 
 
@@ -1267,7 +1267,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `LockedIndicator` 
+`LockedIndicator` 
 
 
 
@@ -1313,7 +1313,7 @@ Cardinality: 1
 </td>
 <td valign="top">
 
- `StartDate` 
+`StartDate` 
 
 
 
@@ -1354,7 +1354,7 @@ Optional
 <tr>
 <td valign="top">
 
- `EndDate` 
+`EndDate` 
 
 
 
@@ -1404,7 +1404,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
- `RoleName` 
+`RoleName` 
 
 
 
@@ -1441,7 +1441,7 @@ Optional
 <tr>
 <td valign="top">
 
- `actionCode` 
+`actionCode` 
 
 
 
@@ -1557,7 +1557,7 @@ Optional
 <tr>
 <td valign="top" colspan="2">
 
- `actionCode` 
+`actionCode` 
 
 
 
@@ -1649,7 +1649,7 @@ Cardinality: 0..1
 </td>
 <td valign="top" colspan="2">
 
- `UserID` 
+`UserID` 
 
 
 
@@ -1686,7 +1686,7 @@ N/A
 <tr>
 <td valign="top" colspan="2">
 
- `actionCode` 
+`actionCode` 
 
 
 
@@ -1732,14 +1732,14 @@ N/A
 <tr>
 <td valign="top" rowspan="13">
 
- `WorkplaceInformation` 
+`WorkplaceInformation` 
 
 
 
 </td>
 <td valign="top" colspan="2">
 
- `EmailAddress` 
+`EmailAddress` 
 
 
 
@@ -1787,7 +1787,7 @@ One set of phone information per phone type supported.
 </td>
 <td valign="top">
 
- `PhoneType` 
+`PhoneType` 
 
 
 
@@ -1829,7 +1829,7 @@ N/A
 <tr>
 <td valign="top">
 
- `CountryDialingCode` 
+`CountryDialingCode` 
 
 
 
@@ -1868,7 +1868,7 @@ N/A
 <tr>
 <td valign="top">
 
- `PhoneNumberAreaID` 
+`PhoneNumberAreaID` 
 
 
 
@@ -1907,7 +1907,7 @@ N/A
 <tr>
 <td valign="top">
 
- `PhoneNumberSubscriberID` 
+`PhoneNumberSubscriberID` 
 
 
 
@@ -1946,7 +1946,7 @@ N/A
 <tr>
 <td valign="top">
 
- `PhoneNumberExtension` 
+`PhoneNumberExtension` 
 
 
 
@@ -1985,7 +1985,7 @@ N/A
 <tr>
 <td valign="top">
 
- `actionCode` 
+`actionCode` 
 
 
 
@@ -2031,7 +2031,7 @@ N/A
 <tr>
 <td valign="top" colspan="2">
 
- `FunctionalTitleName` 
+`FunctionalTitleName` 
 
 
 
@@ -2068,7 +2068,7 @@ N/A
 <tr>
 <td valign="top" colspan="2">
 
- `Department` 
+`Department` 
 
 
 
@@ -2105,7 +2105,7 @@ N/A
 <tr>
 <td valign="top" colspan="2">
 
- `RoomNumber` 
+`RoomNumber` 
 
 
 
@@ -2142,7 +2142,7 @@ N/A
 <tr>
 <td valign="top" colspan="2">
 
- `Building` 
+`Building` 
 
 
 
@@ -2179,7 +2179,7 @@ N/A
 <tr>
 <td valign="top" colspan="2">
 
- `actionCode` 
+`actionCode` 
 
 
 
@@ -2262,63 +2262,26 @@ N/A
 <tr>
 <td valign="top" rowspan="10">
 
- `Relationship`\(only for on-premise\)
+`Relationship`\(only for on-premise\)
 
 
 
 </td>
 <td valign="top" rowspan="4">
 
- `Partner1` 
+`Partner1` 
 
 
 
 </td>
 <td valign="top">
 
- `BusinessPartnerID` 
+`BusinessPartnerID` 
 
 
 
 </td>
 <td valign="top">
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-N/A
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `BusinessPartnerUUID` 
-
-
-
-</td>
-<td valign="top">
-
- 
 
 
 
@@ -2348,7 +2311,7 @@ N/A
 <tr>
 <td valign="top">
 
- `BusinessPartnerExternalID` 
+`BusinessPartnerUUID` 
 
 
 
@@ -2385,7 +2348,44 @@ N/A
 <tr>
 <td valign="top">
 
- `BusinessPartnerExternalIDCategoryCode` 
+`BusinessPartnerExternalID` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+N/A
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`BusinessPartnerExternalIDCategoryCode` 
 
 
 
@@ -2422,14 +2422,14 @@ N/A
 <tr>
 <td valign="top" rowspan="4">
 
- `Partner2` 
+`Partner2` 
 
 
 
 </td>
 <td valign="top">
 
- `BusinessPartnerID` 
+`BusinessPartnerID` 
 
 
 
@@ -2460,7 +2460,7 @@ N/A
 <tr>
 <td valign="top">
 
- `BusinessPartnerUUID` 
+`BusinessPartnerUUID` 
 
 
 
@@ -2493,7 +2493,7 @@ N/A
 <tr>
 <td valign="top">
 
- `BusinessPartnerExternalID` 
+`BusinessPartnerExternalID` 
 
 
 
@@ -2526,7 +2526,7 @@ N/A
 <tr>
 <td valign="top">
 
- `BusinessPartnerExternalIDCategoryCode` 
+`BusinessPartnerExternalIDCategoryCode` 
 
 
 
@@ -2559,7 +2559,7 @@ N/A
 <tr>
 <td valign="top" colspan="2">
 
- `RelationshipCategoryCode` 
+`RelationshipCategoryCode` 
 
 
 
@@ -2592,7 +2592,7 @@ N/A
 <tr>
 <td valign="top" colspan="2">
 
- `actionCode` 
+`actionCode` 
 
 
 
@@ -3018,7 +3018,7 @@ Cardinality
 <tr>
 <td valign="top" colspan="3">
 
- `PersonExternalID` 
+`PersonExternalID` 
 
 
 
@@ -3048,7 +3048,7 @@ Person External ID
 <tr>
 <td valign="top" colspan="3">
 
- `PersonID` 
+`PersonID` 
 
 
 
@@ -3078,7 +3078,7 @@ Person ID
 <tr>
 <td valign="top" colspan="3">
 
- `PersonUUID` 
+`PersonUUID` 
 
 
 
@@ -3117,7 +3117,7 @@ Cardinality: 1
 </td>
 <td valign="top" colspan="2">
 
- `BusinessDocumentProcessingResultCode` 
+`BusinessDocumentProcessingResultCode` 
 
 
 
@@ -3147,7 +3147,7 @@ Not in use
 <tr>
 <td valign="top" colspan="2">
 
- `MaximumLogItemSeverityCode` 
+`MaximumLogItemSeverityCode` 
 
 
 
@@ -3186,7 +3186,7 @@ Cardinality: 0..unbounded
 </td>
 <td valign="top">
 
- `TypeID` 
+`TypeID` 
 
 
 
@@ -3216,7 +3216,7 @@ Message number
 <tr>
 <td valign="top">
 
- `CategoryCode` 
+`CategoryCode` 
 
 
 
@@ -3246,7 +3246,7 @@ Not in use
 <tr>
 <td valign="top">
 
- `SeverityCode` 
+`SeverityCode` 
 
 
 
@@ -3283,7 +3283,7 @@ Severity code definition:
 <tr>
 <td valign="top">
 
- `Note` 
+`Note` 
 
 
 
@@ -3313,7 +3313,7 @@ Contains the message texts.
 <tr>
 <td valign="top">
 
- `WebURI` 
+`WebURI` 
 
 
 

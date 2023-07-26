@@ -4,7 +4,7 @@
 
 Prevent unauthorized read access to the data exposed by your service using access control. For this purpose, you create an access control and then implement it for the CDS view on which your service is based.
 
- <a name="task_esc_kjb_vmb"/>
+<a name="task_esc_kjb_vmb"/>
 
 <!-- task\_esc\_kjb\_vmb -->
 
@@ -36,7 +36,7 @@ For the data definitions that you want to protect, you need to define the use of
 2.  If you’re using additional data definitions of type projection view, you also need to define the use of an access control in them.
 
 
- <a name="task_vrg_jy4_nlb"/>
+<a name="task_vrg_jy4_nlb"/>
 
 <!-- task\_vrg\_jy4\_nlb -->
 
@@ -65,7 +65,7 @@ Even if you have modeled necessary authorizations for your service by creating a
 3.  If you’re using additional data definitions of type projection view, you also need to create additional access controls for them using the template *Define Role with Inherited Conditions*.
 
 
- <a name="task_olt_ny4_nlb"/>
+<a name="task_olt_ny4_nlb"/>
 
 <!-- task\_olt\_ny4\_nlb -->
 

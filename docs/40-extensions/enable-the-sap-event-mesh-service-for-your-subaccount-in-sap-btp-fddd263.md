@@ -88,7 +88,7 @@ Related Documentation
 </td>
 <td valign="top">
 
- [Define SAP Event Mesh Service Descriptor JSON/YAML File](define-sap-event-mesh-service-descriptor-json-yaml-file-5722fc4.md) 
+[Define SAP Event Mesh Service Descriptor JSON/YAML File](define-sap-event-mesh-service-descriptor-json-yaml-file-5722fc4.md) 
 
 
 
@@ -104,7 +104,7 @@ Related Documentation
 </td>
 <td valign="top">
 
- [Create Queues and Subscribe to Them](create-queues-and-subscribe-to-them-e54e609.md) 
+[Create Queues and Subscribe to Them](create-queues-and-subscribe-to-them-e54e609.md) 
 
 
 

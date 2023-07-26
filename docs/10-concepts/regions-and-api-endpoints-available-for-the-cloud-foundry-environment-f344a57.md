@@ -614,7 +614,7 @@ ch20.hana.ondemand.com
 </td>
 <td valign="top">
 
- [Feature Set B](https://eu-access.cockpit.btp.cloud.sap/) 
+[Feature Set B](https://eu-access.cockpit.btp.cloud.sap/) 
 
 
 
@@ -1522,7 +1522,7 @@ eu30.hana.ondemand.com
 </td>
 <td valign="top">
 
- [Feature Set B](https://emea.cockpit.btp.cloud.sap/) 
+[Feature Set B](https://emea.cockpit.btp.cloud.sap/) 
 
 
 
@@ -1594,7 +1594,7 @@ in30.hana.ondemand.com
 </td>
 <td valign="top">
 
- [Feature Set B](https://apac.cockpit.btp.cloud.sap/) 
+[Feature Set B](https://apac.cockpit.btp.cloud.sap/) 
 
 
 
@@ -1666,7 +1666,7 @@ cn40.platform.sapcloud.cn
 </td>
 <td valign="top">
 
- [Feature Set B](https://cockpit.cn40.platform.sapcloud.cn/cockpit) 
+[Feature Set B](https://cockpit.cn40.platform.sapcloud.cn/cockpit) 
 
 
 
@@ -1888,7 +1888,7 @@ ap21.hana.ondemand.com
 </td>
 <td valign="top">
 
- [Trial](https://cockpit.hanatrial.ondemand.com/trial) 
+[Trial](https://cockpit.hanatrial.ondemand.com/trial) 
 
 
 

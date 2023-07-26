@@ -565,7 +565,7 @@ Description
 <tr>
 <td valign="top">
 
- `CX_BALI_INVALID_PARAMETER` 
+`CX_BALI_INVALID_PARAMETER` 
 
 
 
@@ -581,7 +581,7 @@ An input parameter of the method is invalid \(e.g. the log object doesn't exist\
 <tr>
 <td valign="top">
 
- `CX_BALI_NOT_FOUND` 
+`CX_BALI_NOT_FOUND` 
 
 
 
@@ -597,7 +597,7 @@ The entry which shall be read or changed was not found.
 <tr>
 <td valign="top">
 
- `CX_BALI_NOT_POSSIBLE` 
+`CX_BALI_NOT_POSSIBLE` 
 
 
 
@@ -626,7 +626,7 @@ Possible values of class attribute `ERROR_CODE`:
 <tr>
 <td valign="top">
 
- `CX_BALI_INTERNAL_ERROR` 
+`CX_BALI_INTERNAL_ERROR` 
 
 
 

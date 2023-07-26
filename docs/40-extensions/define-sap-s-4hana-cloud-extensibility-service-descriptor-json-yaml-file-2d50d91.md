@@ -50,7 +50,7 @@ Description
 <tr>
 <td valign="top">
 
- `systemName` 
+`systemName` 
 
 
 
@@ -73,7 +73,7 @@ The name of the system you have registered in the global account in SAP BTP.
 <tr>
 <td valign="top">
 
- `emClientId` 
+`emClientId` 
 
 
 
@@ -101,7 +101,7 @@ Using default patterns, it generates **communication arrangement name**, **chann
 <tr>
 <td valign="top">
 
- `communicationArrangement` 
+`communicationArrangement` 
 
 
 
@@ -117,7 +117,7 @@ Defines the communication arrangement for the SAP S4/HANA Cloud tenant.
 <tr>
 <td valign="top">
 
- `communicationArrangementName` 
+`communicationArrangementName` 
 
 
 
@@ -146,7 +146,7 @@ The name of the communication arrangement for the SAP S/4HANA Cloud tenant.
 <tr>
 <td valign="top">
 
- `attributes` 
+`attributes` 
 
 
 
@@ -166,7 +166,7 @@ The name of the property is equivalent to the *Technical Property Name* column i
 <tr>
 <td valign="top">
 
- `CHANNEL NAME` 
+`CHANNEL NAME` 
 
 
 
@@ -198,7 +198,7 @@ The name of the communication channel.
 <tr>
 <td valign="top">
 
- `DESCRIPTION` 
+`DESCRIPTION` 
 
 
 
@@ -227,7 +227,7 @@ Short description.
 <tr>
 <td valign="top">
 
- `TOPIC SPACE` 
+`TOPIC SPACE` 
 
 
 
@@ -260,7 +260,7 @@ The identifier for the events that originate from the same source. This is the t
 <tr>
 <td valign="top">
 
- `MQTT_QOS` 
+`MQTT_QOS` 
 
 
 
@@ -293,7 +293,7 @@ Defines the quality of service.
 <tr>
 <td valign="top">
 
- `RECONNECT ATTEMPTS` 
+`RECONNECT ATTEMPTS` 
 
 
 
@@ -320,7 +320,7 @@ The number of attempts the Enterprise Event Enablement framework tries to reesta
 <tr>
 <td valign="top">
 
- `WAIT TIME` 
+`WAIT TIME` 
 
 
 
@@ -367,7 +367,7 @@ Description
 <tr>
 <td valign="top">
 
- `emname` 
+`emname` 
 
 
 
@@ -396,7 +396,7 @@ Specifies the name of the Enterprise Messaging client. It is used by SAP Event M
 <tr>
 <td valign="top">
 
- `namespace` 
+`namespace` 
 
 
 
@@ -429,7 +429,7 @@ Namespace for the message client.
 <tr>
 <td valign="top">
 
- `rules` 
+`rules` 
 
 
 
@@ -452,7 +452,7 @@ Defines the access privileges of the message client.
 <tr>
 <td valign="top">
 
- `topicRules` 
+`topicRules` 
 
 
 
@@ -473,7 +473,7 @@ A `rules` attribute.
 <tr>
 <td valign="top">
 
- `inboundFilter` 
+`inboundFilter` 
 
 
 

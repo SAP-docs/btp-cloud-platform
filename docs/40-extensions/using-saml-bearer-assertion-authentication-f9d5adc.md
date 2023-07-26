@@ -23,7 +23,7 @@ To be able to use SAML Bearer Assertion authentication, you need to configure bo
 
 [SAML Bearer Assertion Authentication](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e51e152ceaeb4b75affe5f15c65dfe6c.html)
 
- <a name="loio1c58ebce86514260a3b5be9fb9587745"/>
+<a name="loio1c58ebce86514260a3b5be9fb9587745"/>
 
 <!-- loio1c58ebce86514260a3b5be9fb9587745 -->
 
@@ -56,7 +56,7 @@ To use SAML Bearer Assertion authentication for the communication between your e
 
 [Use Destination Certificates](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/df1bb55a526942b9bee78fea2ebb3162.html)
 
- <a name="loio78d6b87a564c4f9d93d73e009aa2bd3f"/>
+<a name="loio78d6b87a564c4f9d93d73e009aa2bd3f"/>
 
 <!-- loio78d6b87a564c4f9d93d73e009aa2bd3f -->
 
@@ -125,7 +125,7 @@ From the SAP S/4HANA Cloud side you need to maintain the communication settings 
     > When you have the communication arrangement created, choose *OAuth 2.0 Details.*. Copy and save locally the fields and their values. You will need them when setting up the destination in the SAP BTP cockpit.
 
 
- <a name="loiob5cd7da31eff4e6f82febecd5431ac48"/>
+<a name="loiob5cd7da31eff4e6f82febecd5431ac48"/>
 
 <!-- loiob5cd7da31eff4e6f82febecd5431ac48 -->
 
@@ -176,30 +176,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <tr>
         <td valign="top">
         
-                `Name`
+        `Name`
 
 
         
         </td>
         <td valign="top">
         
-                Enter a meaningful name.
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `Type`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                `HTTP`
+        Enter a meaningful name.
 
 
         
@@ -208,14 +192,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <tr>
         <td valign="top">
         
-                `Description`
+        `Type`
 
 
         
         </td>
         <td valign="top">
         
-                \(Optional\) Enter a meaningful description.
+        `HTTP`
 
 
         
@@ -224,14 +208,30 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <tr>
         <td valign="top">
         
-                `URL`
+        `Description`
 
 
         
         </td>
         <td valign="top">
         
-                The service URL from the communication arrangement.
+        \(Optional\) Enter a meaningful description.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `URL`
+
+
+        
+        </td>
+        <td valign="top">
+        
+        The service URL from the communication arrangement.
 
         > ### Note:  
         > Make sure you use the HTTPS protocol.
@@ -243,30 +243,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <tr>
         <td valign="top">
         
-                `Proxy Type`
+        `Proxy Type`
 
 
         
         </td>
         <td valign="top">
         
-                `Internet`
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `Authentication`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                `OAuth2SAMLBearerAssertion`
+        `Internet`
 
 
         
@@ -275,14 +259,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <tr>
         <td valign="top">
         
-                `Key Store Location`
+        `Authentication`
 
 
         
         </td>
         <td valign="top">
         
-                In the dropdown list, select the key-pair keystore file you have uploaded in [Upload Your Key-Pair Keystore in SAP BTP](using-saml-bearer-assertion-authentication-f9d5adc.md#loio1c58ebce86514260a3b5be9fb9587745).
+        `OAuth2SAMLBearerAssertion`
 
 
         
@@ -291,14 +275,30 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <tr>
         <td valign="top">
         
-                `Key Store Password`
+        `Key Store Location`
 
 
         
         </td>
         <td valign="top">
         
-                The password for the keystore.
+        In the dropdown list, select the key-pair keystore file you have uploaded in [Upload Your Key-Pair Keystore in SAP BTP](using-saml-bearer-assertion-authentication-f9d5adc.md#loio1c58ebce86514260a3b5be9fb9587745).
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `Key Store Password`
+
+
+        
+        </td>
+        <td valign="top">
+        
+        The password for the keystore.
 
         > ### Note:  
         > The pasword for the keystore must be the same as the one for the key pair entry in the keystore file.
@@ -310,14 +310,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <tr>
         <td valign="top">
         
-                `Audience`
+        `Audience`
 
 
         
         </td>
         <td valign="top">
         
-                The URL of your SAP S/4HANA Cloud account. To get it, log on to your SAP S/4HANA Cloud account. Select the profile picture and then choose *Settings* and copy the value from the *Server* field.
+        The URL of your SAP S/4HANA Cloud account. To get it, log on to your SAP S/4HANA Cloud account. Select the profile picture and then choose *Settings* and copy the value from the *Server* field.
 
         > ### Note:  
         > Make sure you use the HTTPS protocol.
@@ -329,30 +329,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <tr>
         <td valign="top">
         
-                `Client Key`
+        `Client Key`
 
 
         
         </td>
         <td valign="top">
         
-                The name of the communication user you have in the SAP S/4HANA Cloud tenant.
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `Token Service URL`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                This is the *Token Service URL* from the *OAuth 2.0 Details* in the communication arrangement. See [Set Up SAP S/4HANA Cloud Side](using-saml-bearer-assertion-authentication-f9d5adc.md#loio78d6b87a564c4f9d93d73e009aa2bd3f), **step 3**.
+        The name of the communication user you have in the SAP S/4HANA Cloud tenant.
 
 
         
@@ -361,30 +345,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <tr>
         <td valign="top">
         
-                `Token Service User`
+        `Token Service URL`
 
 
         
         </td>
         <td valign="top">
         
-                The name of the communication user you have in the SAP S/4HANA Cloud tenant.
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `Token Service Password`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                The password for the communication user.
+        This is the *Token Service URL* from the *OAuth 2.0 Details* in the communication arrangement. See [Set Up SAP S/4HANA Cloud Side](using-saml-bearer-assertion-authentication-f9d5adc.md#loio78d6b87a564c4f9d93d73e009aa2bd3f), **step 3**.
 
 
         
@@ -393,14 +361,46 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <tr>
         <td valign="top">
         
-                `System User`
+        `Token Service User`
 
 
         
         </td>
         <td valign="top">
         
-                This parameter is not used, leave the field empty.
+        The name of the communication user you have in the SAP S/4HANA Cloud tenant.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `Token Service Password`
+
+
+        
+        </td>
+        <td valign="top">
+        
+        The password for the communication user.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `System User`
+
+
+        
+        </td>
+        <td valign="top">
+        
+        This parameter is not used, leave the field empty.
 
 
         
@@ -431,14 +431,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <tr>
         <td valign="top">
         
-                `authnContextClassRef`
+        `authnContextClassRef`
 
 
         
         </td>
         <td valign="top">
         
-                 `urn:oasis:names:tc:SAML:2.0:ac:classes:X509` 
+        `urn:oasis:names:tc:SAML:2.0:ac:classes:X509` 
 
 
         
@@ -447,14 +447,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <tr>
         <td valign="top">
         
-                `assertionIssuer`
+        `assertionIssuer`
 
 
         
         </td>
         <td valign="top">
         
-                Issuer of the SAML assertion.
+        Issuer of the SAML assertion.
 
         Enter the provider name you have specified when creating the communication system in SAP S/4HANA Cloud. See [Set Up SAP S/4HANA Cloud Side](using-saml-bearer-assertion-authentication-f9d5adc.md#loio78d6b87a564c4f9d93d73e009aa2bd3f).
 
@@ -489,30 +489,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <tr>
         <td valign="top">
         
-                `WebIDEUsage`
+        `WebIDEUsage`
 
 
         
         </td>
         <td valign="top">
         
-                Specify this property with value `odata_gen` to consume an OData service in your application.
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `WebIDEEnabled`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
+        Specify this property with value `odata_gen` to consume an OData service in your application.
 
 
         
@@ -521,14 +505,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <tr>
         <td valign="top">
         
-                `HTML5.DynamicDestination`
+        `WebIDEEnabled`
 
 
         
         </td>
         <td valign="top">
         
-                If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
+        If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
 
 
         
@@ -537,14 +521,30 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <tr>
         <td valign="top">
         
-                `product.name`
+        `HTML5.DynamicDestination`
 
 
         
         </td>
         <td valign="top">
         
-                `SAP S/4HANA Cloud`
+        If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `product.name`
+
+
+        
+        </td>
+        <td valign="top">
+        
+        `SAP S/4HANA Cloud`
 
         The type of the SAP System for which you create this HTTP destination.
 
@@ -555,14 +555,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <tr>
         <td valign="top">
         
-                `communicationScenarioID`
+        `communicationScenarioID`
 
 
         
         </td>
         <td valign="top">
         
-                The ID of the communication scenario.
+        The ID of the communication scenario.
 
 
         

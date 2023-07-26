@@ -45,7 +45,7 @@ Description
 <tr>
 <td valign="top">
 
- [`@sap/approuter`](authentication-for-node-js-applications-4902b6e.md#loio4902b6e66cbd42648b5d9eaddc6a363d__section_zrn_flt_vt) 
+[`@sap/approuter`](authentication-for-node-js-applications-4902b6e.md#loio4902b6e66cbd42648b5d9eaddc6a363d__section_zrn_flt_vt) 
 
 
 
@@ -61,7 +61,7 @@ The application router is the single entry point for the \(business\) applicatio
 <tr>
 <td valign="top">
 
- [`@sap/xssec`](authentication-for-node-js-applications-4902b6e.md#loio4902b6e66cbd42648b5d9eaddc6a363d__section_atx_2vt_vt) 
+[`@sap/xssec`](authentication-for-node-js-applications-4902b6e.md#loio4902b6e66cbd42648b5d9eaddc6a363d__section_atx_2vt_vt) 
 
 
 
@@ -163,7 +163,7 @@ SAP NPM registry
 </td>
 <td valign="top">
 
- `@sap:registry = "https://registry.npmjs.org` 
+`@sap:registry = "https://registry.npmjs.org` 
 
 
 
@@ -179,7 +179,7 @@ Default NPM registry
 </td>
 <td valign="top">
 
- `registry = "http://registry.npmjs.org/"` 
+`registry = "http://registry.npmjs.org/"` 
 
 
 
@@ -240,7 +240,7 @@ Description
 <tr>
 <td valign="top">
 
- `createSecurityContext` 
+`createSecurityContext` 
 
 
 
@@ -275,7 +275,7 @@ Returns a structure with the following properties:
 <tr>
 <td valign="top">
 
- `checkLocalScope` 
+`checkLocalScope` 
 
 
 
@@ -291,7 +291,7 @@ Checks a scope that is published by the current application in the `xs-security.
 <tr>
 <td valign="top">
 
- `checkScope` 
+`checkScope` 
 
 
 
@@ -307,7 +307,7 @@ Checks a scope that is published by an application
 <tr>
 <td valign="top">
 
- `getToken` 
+`getToken` 
 
 
 
@@ -332,7 +332,7 @@ Returns a token that can be used to connect to the SAP HANA database. If the tok
 <tr>
 <td valign="top">
 
- `hasAttributes` 
+`hasAttributes` 
 
 
 
@@ -348,7 +348,7 @@ Returns “`true`” if the token contains any XS advanced user attributes; othe
 <tr>
 <td valign="top">
 
- `getAttribute` 
+`getAttribute` 
 
 
 
@@ -369,7 +369,7 @@ Returns the attribute exactly as it is contained in the access token. If no attr
 <tr>
 <td valign="top">
 
- `isInForeignMode` 
+`isInForeignMode` 
 
 
 
@@ -385,7 +385,7 @@ Returns “`true`” if the token, that the security context has been instantiat
 <tr>
 <td valign="top">
 
- `getIdentityZone` 
+`getIdentityZone` 
 
 
 

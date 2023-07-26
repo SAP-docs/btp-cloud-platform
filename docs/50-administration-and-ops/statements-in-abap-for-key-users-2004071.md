@@ -310,7 +310,7 @@ CONVERT
 </td>
 <td valign="top">
 
- **Restricted to following keywords:**
+**Restricted to following keywords:**
 
 CONVERT-DATE-TIME
 

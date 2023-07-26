@@ -17,11 +17,11 @@ The figure that follows illustrates this scenario.
 > 
 > We also assume that both applications have their own application router. Having separate application routers means that the applications can define their own authorization models.
 
-   
+  
   
 **Two Applications, Tightly Coupled Using Principal Propagation**
 
- ![](images/app_plan_named_user_pptx_70172fa.png "Two Applications, Tightly Coupled Using Principal Propagation") 
+![](images/app_plan_named_user_pptx_70172fa.png "Two Applications, Tightly Coupled Using Principal Propagation")
 
 In this scenario, we enable the service to accept the JSON Web Token \(JWT\) of the business application. The JWT of the business application includes the scopes of both developments. When the service receives a JWT of the business application with the scopes of the service in it, the service implicitly accepts the JWT of the business application. This configuration is part of the `xs-security.json` of the UAA service instances of the two developments.
 

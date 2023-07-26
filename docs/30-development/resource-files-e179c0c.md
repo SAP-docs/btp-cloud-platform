@@ -38,7 +38,7 @@ Mandatory
 <tr>
 <td valign="top">
 
- `package.json` 
+`package.json` 
 
 
 
@@ -61,7 +61,7 @@ Yes
 <tr>
 <td valign="top">
 
- `xs-app.json` 
+`xs-app.json` 
 
 
 
@@ -84,7 +84,7 @@ Yes
 <tr>
 <td valign="top">
 
- `resources/` 
+`resources/` 
 
 
 
@@ -110,7 +110,7 @@ No
 <tr>
 <td valign="top">
 
- `local-destinations.json` 
+`local-destinations.json` 
 
 
 
@@ -133,7 +133,7 @@ No
 <tr>
 <td valign="top">
 
- `default-services.json` 
+`default-services.json` 
 
 
 

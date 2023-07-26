@@ -12,7 +12,7 @@ Create a communication arrangement in SAP S/4HANA Cloud to establish trust to th
 
 Depending on your system \(development or production\), you might have a different role when you create a communication arrangement. While it might be acceptable that a developer creates communication arrangements in development systems, you'll need an administration user for a production system, or you have a dedicated user who takes care of communication arrangements. Your user needs a business role with the business catalog *Communication Management* \(`SAP_CORE_BC_COM`\) assigned \(see [Creating a Role for Communication Management \(Optional\)](creating-a-role-for-communication-management-optional-45e1f2f.md)\).
 
- <a name="task_wzf_1sn_zhb"/>
+<a name="task_wzf_1sn_zhb"/>
 
 <!-- task\_wzf\_1sn\_zhb -->
 
@@ -28,7 +28,7 @@ As a preparatory step for creating a communication system later, you need to ret
 
 Retrieve the host name from the service key of the service instance for the ABAP environment in your Cloud Foundry subaccount \(`property=url`\)​, for example, `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.abap.eu10.hana.ondemand.com`.
 
- <a name="loio157a12b9f6b9496da9f2fdd52fb30b75"/>
+<a name="loio157a12b9f6b9496da9f2fdd52fb30b75"/>
 
 <!-- loio157a12b9f6b9496da9f2fdd52fb30b75 -->
 
@@ -55,7 +55,7 @@ Retrieve the host name from the service key of the service instance for the ABAP
 6.  Choose *Create*.
 
 
- <a name="loiof2a8b85de4564b0d811522ac1673b34d"/>
+<a name="loiof2a8b85de4564b0d811522ac1673b34d"/>
 
 <!-- loiof2a8b85de4564b0d811522ac1673b34d -->
 
@@ -81,7 +81,7 @@ Retrieve the host name from the service key of the service instance for the ABAP
 5.  Don't save yet, but continue with uploading the trust certificate.
 
 
- <a name="loio362302e59e0940adb25390764a8661ed"/>
+<a name="loio362302e59e0940adb25390764a8661ed"/>
 
 <!-- loio362302e59e0940adb25390764a8661ed -->
 
@@ -114,7 +114,7 @@ As we are using OAuth as authentication method in this example, uploading the tr
 5.  Don't save the communication arrangement yet, but continue with creating communication users.
 
 
- <a name="loio6734978c17c94c089796148b3e8c1b7b"/>
+<a name="loio6734978c17c94c089796148b3e8c1b7b"/>
 
 <!-- loio6734978c17c94c089796148b3e8c1b7b -->
 
@@ -164,7 +164,7 @@ As outbound communication is not relevant in this documentation, a communication
 9.  To save your communication arrangement, choose *Save*.
 
 
- <a name="loio4e31cbbae8224ab0b36fbb3c40da2754"/>
+<a name="loio4e31cbbae8224ab0b36fbb3c40da2754"/>
 
 <!-- loio4e31cbbae8224ab0b36fbb3c40da2754 -->
 

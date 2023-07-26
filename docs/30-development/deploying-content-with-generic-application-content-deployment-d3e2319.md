@@ -77,7 +77,7 @@ There should be only one content target defined per MTA module of type `com.sap.
 
 The content target is defined when a content module requires a service or service key, and in that required dependency the parameter `content-target` is set to `true`. In case of a missing or duplicated `content-target` parameter in more than one required dependency, the deployment will not proceed.
 
-Normally, content modules require MTA resources that represent Cloud Foundry service instances or service keys. When multiple service instances or keys are required, they are used by default for content deployment configuration. For more information see the [d3e23196166b443db17b3545c912dfc0.md\#loiod3e23196166b443db17b3545c912dfc0\_\_ConfigOtherServiceKeys](deploying-content-with-generic-application-content-deployment-d3e2319.md#loiod3e23196166b443db17b3545c912dfc0__ConfigOtherServiceKeys) section.
+Normally, content modules require MTA resources that represent Cloud Foundry service instances or service keys. When multiple service instances or keys are required, they are used by default for content deployment configuration. For more information see the [Configuration from other service instances/keys](deploying-content-with-generic-application-content-deployment-d3e2319.md#loiod3e23196166b443db17b3545c912dfc0__ConfigOtherServiceKeys) section.
 
 
 

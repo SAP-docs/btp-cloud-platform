@@ -4,7 +4,7 @@
 
 Create subaccounts in your global account using the SAP BTP cockpit.
 
- <a name="task_pdx_hmd_cqb"/>
+<a name="task_pdx_hmd_cqb"/>
 
 <!-- task\_pdx\_hmd\_cqb -->
 
@@ -86,7 +86,7 @@ A new tile appears in the global account page with the subaccount details.
 
 Once you've created your subaccount, navigate to it to enable the environment that you wish to use.
 
- <a name="task_dvg_gmd_cqb"/>
+<a name="task_dvg_gmd_cqb"/>
 
 <!-- task\_dvg\_gmd\_cqb -->
 

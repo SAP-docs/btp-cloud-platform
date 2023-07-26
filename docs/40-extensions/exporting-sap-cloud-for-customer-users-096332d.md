@@ -111,72 +111,35 @@ The CSV file with the SAP Cloud for Customer user data must contain the followin
         <tr>
         <td valign="top">
         
-                active
+        active
 
 
         
         </td>
         <td valign="top">
         
-                EID00001
+        EID00001
 
 
         
         </td>
         <td valign="top">
         
-                michael.adams@example.com
+        michael.adams@example.com
 
 
         
         </td>
         <td valign="top">
         
-                Michael
+        Michael
 
 
         
         </td>
         <td valign="top">
         
-                Adams
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                active
-
-
-        
-        </td>
-        <td valign="top">
-        
-                EID00002
-
-
-        
-        </td>
-        <td valign="top">
-        
-                julie.armstrong@example.com
-
-
-        
-        </td>
-        <td valign="top">
-        
-                Julie
-
-
-        
-        </td>
-        <td valign="top">
-        
-                Armstrong
+        Adams
 
 
         
@@ -185,35 +148,72 @@ The CSV file with the SAP Cloud for Customer user data must contain the followin
         <tr>
         <td valign="top">
         
-                active
+        active
 
 
         
         </td>
         <td valign="top">
         
-                EID00003
+        EID00002
 
 
         
         </td>
         <td valign="top">
         
-                donna.moore@example.com
+        julie.armstrong@example.com
 
 
         
         </td>
         <td valign="top">
         
-                Donna
+        Julie
 
 
         
         </td>
         <td valign="top">
         
-                Moore
+        Armstrong
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        active
+
+
+        
+        </td>
+        <td valign="top">
+        
+        EID00003
+
+
+        
+        </td>
+        <td valign="top">
+        
+        donna.moore@example.com
+
+
+        
+        </td>
+        <td valign="top">
+        
+        Donna
+
+
+        
+        </td>
+        <td valign="top">
+        
+        Moore
 
 
         

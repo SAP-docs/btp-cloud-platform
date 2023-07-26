@@ -122,3 +122,10 @@ The following code sample illustrates the generation of classes and interfaces:
 > ENDCLASS.
 > ```
 
+Note that the XCO Generation APIs for classes also allow the specification of local types and local test classes:
+
+-   Method `ADD_LOCAL_CLASS` on `IF_XCO_CP_GEN_CLAS_S_FORM` can be used to add a local type to the generated class. The content of the local class can be fully specified via the returned local class specification `IF_XCO_GEN_CLAS_S_FO_LCL_CLASS`
+
+-   Method `ADD_TEST_CLASS` on `IF_XCO_CP_GEN_CLAS_S_FORM` can be used to add a local test class to the generated class. The content of the local test class can be fully specified via the returned test class specification `IF_XCO_GEN_CLAS_S_FO_TST_CLASS`. Note that the API `XCO_CP_ABAP_UNIT` offers XCO enumeration constants for ABAP Unit durations and risk levels
+
+

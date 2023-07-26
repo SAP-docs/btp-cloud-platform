@@ -18,7 +18,7 @@ If you want to use CloudEvent, make sure that your ecosystem supports it.
 
 ## Context
 
-You can extend a given SAP system in the Kyma environment with workloads \([Functions](https://kyma-project.io/docs/kyma/latest/01-overview/main-areas/serverless/svls-01-overview) or microservices\).
+You can extend a given SAP system in the Kyma environment with workloads \([Functions](https://kyma-project.io/docs/kyma/latest/01-overview/serverless/svls-01-overview) or microservices\).
 
 -   Functions are simple code snippets that are called when the Function is triggered. They implement the exact business logic you define in the code, and you don’t need to worry about containerization and deployment in Kyma runtime. Because Kyma Serverless is taking care of that, using Functions is convenient and fast.
 
@@ -47,7 +47,7 @@ Follow these steps to get familiar with workloads and learn how to use them.
 
 2.  Choose a Namespace in your cluster and create a simple Function \([Deploy and expose a Function](https://kyma-project.io/docs/kyma/latest/02-get-started/02-deploy-expose-function)\) or a microservice \([Deploy and expose a microservice](https://kyma-project.io/docs/kyma/latest/02-get-started/03-deploy-expose-microservice)\).
 
-3.  If you want to expose your workload outside the cluster, read [Expose a workload](https://kyma-project.io/docs/kyma/latest/03-tutorials/00-api-exposure/apix-03-expose-workload-apigateway/).
+3.  If you want to expose your workload outside the cluster, read [Expose a workload](https://kyma-project.io/docs/kyma/latest/03-tutorials/00-api-exposure/apix-04-expose-workload/apix-04-01-expose-workload-apigateway/).
 
     > ### Note:  
     > For more details on the available security options in Kyma, see [Configure Authorization \(OAuth2, JWT\)](https://kyma-project.io/docs/kyma/latest/05-technical-reference/apix-01-config-authorizations-apigateway).

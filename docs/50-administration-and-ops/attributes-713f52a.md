@@ -51,30 +51,14 @@ For each attribute, administrators have multiple options to specify the value wh
     > <tr>
     > <td valign="top">
     > 
-    >  *first\_name* 
+    > *first\_name* 
     > 
     > 
     > 
     > </td>
     > <td valign="top">
     > 
-    >  *given\_name* 
-    > 
-    > 
-    > 
-    > </td>
-    > </tr>
-    > <tr>
-    > <td valign="top">
-    > 
-    >  *last\_name* 
-    > 
-    > 
-    > 
-    > </td>
-    > <td valign="top">
-    > 
-    >  *family\_name* 
+    > *given\_name* 
     > 
     > 
     > 
@@ -83,14 +67,30 @@ For each attribute, administrators have multiple options to specify the value wh
     > <tr>
     > <td valign="top">
     > 
-    >  *mail* 
+    > *last\_name* 
     > 
     > 
     > 
     > </td>
     > <td valign="top">
     > 
-    >  *email* 
+    > *family\_name* 
+    > 
+    > 
+    > 
+    > </td>
+    > </tr>
+    > <tr>
+    > <td valign="top">
+    > 
+    > *mail* 
+    > 
+    > 
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > *email* 
     > 
     > 
     > 

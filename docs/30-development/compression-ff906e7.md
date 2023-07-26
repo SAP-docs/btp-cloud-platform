@@ -69,7 +69,7 @@ Description
 <tr>
 <td valign="top">
 
- `minSize` 
+`minSize` 
 
 
 
@@ -99,7 +99,7 @@ Text resources larger than this size will be compressed.
 <tr>
 <td valign="top">
 
- `enabled` 
+`enabled` 
 
 
 
@@ -129,7 +129,7 @@ Globally disables or enables compression. The default value is true.
 <tr>
 <td valign="top">
 
- `compressResponseMixedTypeContent` 
+`compressResponseMixedTypeContent` 
 
 
 

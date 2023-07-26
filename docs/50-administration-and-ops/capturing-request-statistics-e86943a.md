@@ -49,30 +49,14 @@ You can view the captured data from all profiles in the technical monitoring coc
     <tr>
     <td valign="top">
     
-        *Profile ID*
+    *Profile ID*
 
 
     
     </td>
     <td valign="top">
     
-        Enter a short, meaningful name for your profile. Don't use the prefix `SAP_` because this prefix is reserved for profiles predefined by SAP.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Description*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        If needed, you can enter a longer description of your profile.
+    Enter a short, meaningful name for your profile. Don't use the prefix `SAP_` because this prefix is reserved for profiles predefined by SAP.
 
 
     
@@ -81,30 +65,14 @@ You can view the captured data from all profiles in the technical monitoring coc
     <tr>
     <td valign="top">
     
-        *Start/End Time*
+    *Description*
 
 
     
     </td>
     <td valign="top">
     
-        The start and end time specify when request statistics were captured by the app. These fields are automatically filled after you have activated the profile.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Retention Time*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Select how long you want to keep the captured request statistics stored in the system.
+    If needed, you can enter a longer description of your profile.
 
 
     
@@ -113,14 +81,46 @@ You can view the captured data from all profiles in the technical monitoring coc
     <tr>
     <td valign="top">
     
-        *Record Limit per Minute*
+    *Start/End Time*
 
 
     
     </td>
     <td valign="top">
     
-        Enter the maximum number of records that you want the system to capture per minute.
+    The start and end time specify when request statistics were captured by the app. These fields are automatically filled after you have activated the profile.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Retention Time*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Select how long you want to keep the captured request statistics stored in the system.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Record Limit per Minute*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Enter the maximum number of records that you want the system to capture per minute.
 
     The record limit prevents that too much database memory is consumed by captured request statistics. The maximum possible record limit per minute is 1,000.
 
@@ -134,14 +134,14 @@ You can view the captured data from all profiles in the technical monitoring coc
     <tr>
     <td valign="top">
     
-        *Sampling Rate*
+    *Sampling Rate*
 
 
     
     </td>
     <td valign="top">
     
-        Enter a sampling rate, which is the probability of capturing one single ABAP statistics record in percent.
+    Enter a sampling rate, which is the probability of capturing one single ABAP statistics record in percent.
 
     With the sampling rate, you ensure that a number of random records are selected during the capturing of request statistics.
 
@@ -152,30 +152,14 @@ You can view the captured data from all profiles in the technical monitoring coc
     <tr>
     <td valign="top">
     
-        *Target User Group*
+    *Target User Group*
 
 
     
     </td>
     <td valign="top">
     
-        Choose one of the target groups starting with *Customer*.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Profile Type*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        This field is automatically populated by the system. Only static profile types \(with fixed values\) are possible.
+    Choose one of the target groups starting with *Customer*.
 
 
     
@@ -184,14 +168,14 @@ You can view the captured data from all profiles in the technical monitoring coc
     <tr>
     <td valign="top">
     
-        *Profile Owner*
+    *Profile Type*
 
 
     
     </td>
     <td valign="top">
     
-        The profile owner is automatically set to *Customer* when you create a new profile. Predefined profiles have the profile owner *SAP*.
+    This field is automatically populated by the system. Only static profile types \(with fixed values\) are possible.
 
 
     
@@ -200,14 +184,30 @@ You can view the captured data from all profiles in the technical monitoring coc
     <tr>
     <td valign="top">
     
-        *Health Monitoring*
+    *Profile Owner*
 
 
     
     </td>
     <td valign="top">
     
-        You can select the checkbox *Health Monitoring* for any capture profile that you create. As a result, the total number of captured ABAP statistics records for these profiles is shown in Health Monitoring of SAP Cloud ALM. For more information, see [Central Health Monitoring Using SAP Focused Run and SAP Cloud ALM](central-health-monitoring-using-sap-focused-run-and-sap-cloud-alm-8d6e2e7.md).
+    The profile owner is automatically set to *Customer* when you create a new profile. Predefined profiles have the profile owner *SAP*.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Health Monitoring*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    You can select the checkbox *Health Monitoring* for any capture profile that you create. As a result, the total number of captured ABAP statistics records for these profiles is shown in Health Monitoring of SAP Cloud ALM. For more information, see [Central Health Monitoring Using SAP Focused Run and SAP Cloud ALM](central-health-monitoring-using-sap-focused-run-and-sap-cloud-alm-8d6e2e7.md).
 
 
     

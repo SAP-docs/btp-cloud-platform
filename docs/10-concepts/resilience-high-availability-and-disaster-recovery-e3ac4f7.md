@@ -42,7 +42,7 @@ Regional Availability
 <tr>
 <td valign="top">
 
- **Availability Zones** 
+**Availability Zones** 
 
 
 
@@ -65,7 +65,7 @@ All regions that support the Cloud Foundry environment. See [Regions and API End
 <tr>
 <td valign="top">
 
- **Backups in the Kyma environment** 
+**Backups in the Kyma environment** 
 
 
 
@@ -88,7 +88,7 @@ All regions that support the Kyma environment. See [Regions for the Kyma Environ
 <tr>
 <td valign="top">
 
- **Backup and Recovery for SAP HANA Cloud** 
+**Backup and Recovery for SAP HANA Cloud** 
 
 
 
@@ -111,7 +111,7 @@ All regions where SAP HANA Cloud is available. See [Availability of SAP HANA Clo
 <tr>
 <td valign="top">
 
- **Disaster Recovery** 
+**Disaster Recovery** 
 
 
 
@@ -150,7 +150,7 @@ In addition to the services offered by SAP BTP, you can follow our best practice
     To benefit from the high availability mechanisms in Cloud Foundry, set up your applications with multiple instances. For more information, see [Developing Resilient Applications in the Cloud Foundry Environment](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/b1b929a5aea64571b2f74e810b622568.html "Our best practices about resilient application design help you to make your applications running on SAP BTP stable and highly available.") :arrow_upper_right:.
 
 
- <a name="loio001180644f8a428bb422cd41caebb95f"/>
+<a name="loio001180644f8a428bb422cd41caebb95f"/>
 
 <!-- loio001180644f8a428bb422cd41caebb95f -->
 

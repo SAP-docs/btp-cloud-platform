@@ -17,7 +17,7 @@ For example, you have created the business roles 1 and 2 that both include the b
 
 This overriding effect can also be caused if one restriction type is used in different assigned business roles of different business catalogs.
 
-Using the *Maintain Business Roles \(New\)* app, you have the following options for maintaining restrictions:
+Using the *Maintain Business Roles* app, you have the following options for maintaining restrictions:
 
 
 
@@ -86,7 +86,7 @@ Using the *Maintain Business Roles \(New\)* app, you have the following options 
 
     The status of the restriction fields that belong to this section can be changed to*Leading Restriction*. You can do this by selecting the *Leading Restriction* checkbox. This status is visible through the*Leading Restriction* symbol in the *Restrictions Overview*. The respective symbol looks like this:
 
-    ![](images/icon_8274923.gif) 
+    ![](images/icon_8274923.gif)
 
     That means the value in this field is automatically inherited to other restriction types the field is used in as well.
 

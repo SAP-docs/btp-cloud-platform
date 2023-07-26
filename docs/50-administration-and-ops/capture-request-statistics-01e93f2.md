@@ -22,6 +22,8 @@ This app provides the following key features:
 
 -   Navigation to the analysis of request statistics and to system sizing
 
+-   Activation and deactivation of SQL traces
+
 
 
 

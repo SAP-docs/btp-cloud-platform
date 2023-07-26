@@ -10,7 +10,7 @@ The user load on a Kyma cluster typically consists of various Kubernetes objects
 
 ## Object Backup for Kubernetes Configuration
 
- Kyma environment relies on the managed Kubernetes cluster for periodic backups of Kubernetes objects. Automatic backup doesn't include Kubernetes volumes.
+Kyma environment relies on the managed Kubernetes cluster for periodic backups of Kubernetes objects. Automatic backup doesn't include Kubernetes volumes.
 
 For example, project "Gardener" uses etcd as the Kubernetes' backing store for all cluster data. This means that all Kubernetes objects are stored on etcd. Gardener uses periodic jobs to take major and minor snapshots of the etcd database. A major snapshot \(including all the resources\) takes place every day, and each minor snapshot \(including only the changes in between\) takes place every 5 minutes. If the etcd database experiences any problems, Gardener automatically restores the Kubernetes cluster using the latest snapshot.
 

@@ -6,7 +6,7 @@ The Cloud Foundry environment extends SAP BTP. It provides platform security fun
 
 The following diagram shows the architecture with the components that are responsible for business user authentication, authorization management, and security. It is not mandatory for applications to use the User Account and Authentication service and the application router.
 
- ![](images/HCP-IE_ArchitecturalOverview_f4d1a4e.png) 
+![](images/HCP-IE_ArchitecturalOverview_f4d1a4e.png)
 
 The User Account and Authentication \(UAA\) component provides a programming model for business applications. It is the central infrastructure component of the runtime platform for business user authentication and authorization management. The users can be stored in the following identity providers:
 

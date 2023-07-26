@@ -6,7 +6,7 @@ If you haven’t worked with an ABAP system before, you might find this introduc
 
 Let's assume that you create business services. During the service implementation, you create a service definition, which exposes a data definition. In the ABAP RESTful Application Programming Model \(RAP\), you use behaviors to specify the operations and field properties of an individual business object. You can later enhance the behavior definition and implementation to include an authorization control. For more information about the ABAP RESTful Application Programming Model \(RAP\), see the documentation [SAP - ABAP RESTful Application Programming Model](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/289477a81eec4d4e84c0302fb6835035.html). The documentation of the ABAP RESTful Application Programming Model also describes the service implementation, that is, the creation of all objects highlighted in medium blue in the following graphic.
 
- ![](images/Authorization_Concept_Overview_e27b0b1.png) 
+![](images/Authorization_Concept_Overview_e27b0b1.png)
 
 To provide access to your business service, you also create additional development objects in ABAP Development Tools \(ADT\). These additional objects help define which users can eventually access which data with their authorizations. Such objects can be authorization objects, authorization fields, IAM apps, IAM catalogs, and so on \(highlighted in light and dark blue in the graphic above\).
 

@@ -22,11 +22,11 @@ For more information, see [Migrate from SAML Trust Configuration to OpenID Conne
 
     You can look up the origin key in the trust configuration in the SAP BTP cockpit, using the SAP BTP command-line interface \(CLI\), or the Identity Provider Management API.
 
-       
+      
       
     **Finding the Origin Key in the Cockpit**
 
-     ![](images/OIDC_Migration_Backup_68d59f6.png "Finding the Origin Key in the Cockpit") 
+    ![](images/OIDC_Migration_Backup_68d59f6.png "Finding the Origin Key in the Cockpit")
 
 2.  To restore the trust configuration from OIDC to SAML, use the SAP BTP command line interface \(CLI\).
 

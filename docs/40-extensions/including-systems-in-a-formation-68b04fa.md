@@ -61,6 +61,10 @@ A formation can have the following status values:
     An error occurred while some of the systems that are included in the formation were synchronizing in the background. In this case, report an incident in the `BC-CP-MP` component.
 
 
+When you include systems in a formation, these systems are synchronized in the background. If an error occurs, you can resynchronize these systems to restart the synchronization process. To do that, choose *Resynchronize* for the particular formation. You will have this action available only for formations that are in status *Error*.
+
+If you want to reconfigure the systems in a formation from scratch without excluding them, you have to choose *Reset and Resynchronize*. You will have this action available only for formations that have no status in SAP BTP cockpit and their formation type is Side-by-Side Extensibility with Kyma.
+
 The table below outlines the system types that you can include in a formation, as well as, the supported SAP BTP environment:
 
 
@@ -75,14 +79,14 @@ System Type
 </th>
 <th valign="top">
 
- Cloud Foundry Environment
+Cloud Foundry Environment
 
 
 
 </th>
 <th valign="top">
 
- Kyma Environment
+Kyma Environment
 
 
 
@@ -276,14 +280,14 @@ Supported
         <tr>
         <td valign="top">
         
-                 *Side-by-side Extensibility with Kyma* 
+        *Side-by-Side Extensibility with Kyma* 
 
 
         
         </td>
         <td valign="top">
         
-                Formations of type *Side-by-side extensibility with Kyma* enable business scenarios that involve extending the functionality of several SAP systems at a time with SAP BTP Kyma environment instance.
+        Formations of type *Side-by-Side extensibility with Kyma* enable business scenarios that involve extending the functionality of several SAP systems at a time with SAP BTP Kyma environment instance.
 
         See [Enabling Side-by-Side Extensibility with Kyma](enabling-side-by-side-extensibility-with-kyma-9154051.md).
 
@@ -294,14 +298,14 @@ Supported
         <tr>
         <td valign="top">
         
-                 *Developing with SAP Business Application Studio* 
+        *Developing with SAP Business Application Studio* 
 
 
         
         </td>
         <td valign="top">
         
-                Formations of type *Developing with SAP Business Application Studio* enable connectivity between given SAP systems of type *SAP S/4HANA Cloud* from the *System Landscape* page of SAP BTP cockpit and the SAP Business Application Studio, you must create a formation of the corresponding type and include the SAP S/4HANA Cloud systems in it.
+        Formations of type *Developing with SAP Business Application Studio* enable connectivity between given SAP systems of type *SAP S/4HANA Cloud* from the *System Landscape* page of SAP BTP cockpit and the SAP Business Application Studio, you must create a formation of the corresponding type and include the SAP S/4HANA Cloud systems in it.
 
         See [Enabling System Landscape for SAP Business Application Studio](enabling-system-landscape-for-sap-business-application-studio-272ca23.md).
 

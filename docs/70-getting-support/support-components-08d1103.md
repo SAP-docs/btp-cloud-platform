@@ -78,7 +78,7 @@ Release Status
 <tr>
 <td valign="top">
 
- [Agentry](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/f2ae8487f264418e9b6ee49f350124a3.html) 
+[Agentry](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/f2ae8487f264418e9b6ee49f350124a3.html) 
 
 
 
@@ -147,7 +147,7 @@ Develop and run Agentry metadata-driven mobile applications.
 <tr>
 <td valign="top">
 
- [Alert Notification](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
+[Alert Notification](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
 
 
 
@@ -217,7 +217,7 @@ Create and receive real-time alerts about your services
 <tr>
 <td valign="top">
 
- [Alert Notification](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
+[Alert Notification](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
 
 
 
@@ -283,7 +283,7 @@ Create and receive real-time alerts about your services
 <tr>
 <td valign="top">
 
- [Alert Notification](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
+[Alert Notification](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
 
 
 
@@ -347,7 +347,7 @@ Create and receive real-time alerts about your services
 <tr>
 <td valign="top">
 
- [Alert Notification](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
+[Alert Notification](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
 
 
 
@@ -407,7 +407,7 @@ Create and receive real-time alerts about your services
 <tr>
 <td valign="top">
 
- [API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
+[API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
 
 
 
@@ -476,7 +476,7 @@ Expose your data and processes as APIs and manage their lifecycles.
 <tr>
 <td valign="top">
 
- [API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
+[API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
 
 
 
@@ -540,7 +540,7 @@ Expose your data and processes as APIs and manage their lifecycles.
 <tr>
 <td valign="top">
 
- [API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
+[API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
 
 
 
@@ -603,7 +603,7 @@ Expose your data and processes as APIs and manage their lifecycles.
 <tr>
 <td valign="top">
 
- [API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
+[API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
 
 
 
@@ -661,7 +661,7 @@ Expose your data and processes as APIs and manage their lifecycles.
 <tr>
 <td valign="top">
 
- [Mobile App and Device Management](http://help.sap.com/hcp-mobileservice-security) 
+[Mobile App and Device Management](http://help.sap.com/hcp-mobileservice-security) 
 
 
 
@@ -724,7 +724,7 @@ Manage your mobile devices.
 <tr>
 <td valign="top">
 
- [Application Autoscaler](https://help.sap.com/viewer/product/Application_Autoscaler/Cloud/en-US) 
+[Application Autoscaler](https://help.sap.com/viewer/product/Application_Autoscaler/Cloud/en-US) 
 
 
 
@@ -789,7 +789,7 @@ Automatically increase or decrease the number of application instances.
 <tr>
 <td valign="top">
 
- [Application Autoscaler](https://help.sap.com/viewer/product/Application_Autoscaler/Cloud/en-US) 
+[Application Autoscaler](https://help.sap.com/viewer/product/Application_Autoscaler/Cloud/en-US) 
 
 
 
@@ -852,7 +852,7 @@ Automatically increase or decrease the number of application instances.
 <tr>
 <td valign="top">
 
- [Application Autoscaler](https://help.sap.com/viewer/product/Application_Autoscaler/Cloud/en-US) 
+[Application Autoscaler](https://help.sap.com/viewer/product/Application_Autoscaler/Cloud/en-US) 
 
 
 
@@ -911,7 +911,7 @@ Automatically increase or decrease the number of application instances.
 <tr>
 <td valign="top">
 
- [Application Autoscaler](https://help.sap.com/viewer/product/Application_Autoscaler/Cloud/en-US) 
+[Application Autoscaler](https://help.sap.com/viewer/product/Application_Autoscaler/Cloud/en-US) 
 
 
 
@@ -969,7 +969,7 @@ Automatically increase or decrease the number of application instances.
 <tr>
 <td valign="top">
 
- [Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
+[Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
 
 
 
@@ -1038,7 +1038,7 @@ Create, store, access, and analyze application logs.
 <tr>
 <td valign="top">
 
- [Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
+[Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
 
 
 
@@ -1104,7 +1104,7 @@ Create, store, access, and analyze application logs.
 <tr>
 <td valign="top">
 
- [Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
+[Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
 
 
 
@@ -1167,7 +1167,7 @@ Create, store, access, and analyze application logs.
 <tr>
 <td valign="top">
 
- [Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
+[Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
 
 
 
@@ -1226,7 +1226,7 @@ Create, store, access, and analyze application logs.
 <tr>
 <td valign="top">
 
- [Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
+[Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
 
 
 
@@ -1284,7 +1284,7 @@ Create, store, access, and analyze application logs.
 <tr>
 <td valign="top">
 
- [Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
+[Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
 
 
 
@@ -1354,7 +1354,7 @@ Manage application authorizations and trusted connections to identity providers.
 <tr>
 <td valign="top">
 
- [Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
+[Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
 
 
 
@@ -1420,7 +1420,7 @@ Manage application authorizations and trusted connections to identity providers.
 <tr>
 <td valign="top">
 
- [Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
+[Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
 
 
 
@@ -1483,7 +1483,7 @@ Manage application authorizations and trusted connections to identity providers.
 <tr>
 <td valign="top">
 
- [Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
+[Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
 
 
 
@@ -1542,7 +1542,7 @@ Manage application authorizations and trusted connections to identity providers.
 <tr>
 <td valign="top">
 
- [Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
+[Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
 
 
 
@@ -1600,7 +1600,7 @@ Manage application authorizations and trusted connections to identity providers.
 <tr>
 <td valign="top">
 
- [Big Data Services](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_BIG_DATA_SERVICES/Cloud/en-US) 
+[Big Data Services](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_BIG_DATA_SERVICES/Cloud/en-US) 
 
 
 
@@ -1656,7 +1656,7 @@ Ready-to-use, fully managed Hadoop and Spark.
 <tr>
 <td valign="top">
 
- [Blockchain Application Enablement](https://help.sap.com/viewer/p/BLOCKCHAIN_APPLICATION_ENABLEMENT/) 
+[Blockchain Application Enablement](https://help.sap.com/viewer/p/BLOCKCHAIN_APPLICATION_ENABLEMENT/) 
 
 
 
@@ -1715,7 +1715,7 @@ Deliver blockchain-based services on any connected blockchain network.
 <tr>
 <td valign="top">
 
- [SAP Build Classic](https://help.sap.com/viewer/product/SAP_BUILD_CLASSIC/Cloud/en-US) 
+[SAP Build Classic](https://help.sap.com/viewer/product/SAP_BUILD_CLASSIC/Cloud/en-US) 
 
 
 
@@ -1785,7 +1785,7 @@ Create interactive prototypes based on end-user feedback without code writing.
 <tr>
 <td valign="top">
 
- [Business Entity Recognition](https://help.sap.com/ber) 
+[Business Entity Recognition](https://help.sap.com/ber) 
 
 
 
@@ -1847,7 +1847,7 @@ Detect and highlight entities from unstructured text using machine learning.
 <tr>
 <td valign="top">
 
- [Business Rules](https://help.sap.com/viewer/product/BUSINESS_RULES/Cloud/en-US) 
+[Business Rules](https://help.sap.com/viewer/product/BUSINESS_RULES/Cloud/en-US) 
 
 
 
@@ -1916,7 +1916,7 @@ Enrich cloud offerings with decision modeling, management, and execution service
 <tr>
 <td valign="top">
 
- [Business Rules](https://help.sap.com/viewer/product/BUSINESS_RULES/Cloud/en-US) 
+[Business Rules](https://help.sap.com/viewer/product/BUSINESS_RULES/Cloud/en-US) 
 
 
 
@@ -1982,7 +1982,7 @@ Enrich cloud offerings with decision modeling, management, and execution service
 <tr>
 <td valign="top">
 
- [Business Rules](https://help.sap.com/viewer/product/BUSINESS_RULES/Cloud/en-US) 
+[Business Rules](https://help.sap.com/viewer/product/BUSINESS_RULES/Cloud/en-US) 
 
 
 
@@ -2045,7 +2045,7 @@ Enrich cloud offerings with decision modeling, management, and execution service
 <tr>
 <td valign="top">
 
- [Business Rules](https://help.sap.com/viewer/product/BUSINESS_RULES/Cloud/en-US) 
+[Business Rules](https://help.sap.com/viewer/product/BUSINESS_RULES/Cloud/en-US) 
 
 
 
@@ -2104,7 +2104,7 @@ Enrich cloud offerings with decision modeling, management, and execution service
 <tr>
 <td valign="top">
 
- [Business Rules](https://help.sap.com/viewer/product/BUSINESS_RULES/Cloud/en-US) 
+[Business Rules](https://help.sap.com/viewer/product/BUSINESS_RULES/Cloud/en-US) 
 
 
 
@@ -2162,7 +2162,7 @@ Enrich cloud offerings with decision modeling, management, and execution service
 <tr>
 <td valign="top">
 
- [Process Integration](https://help.sap.com/viewer/product/CLOUD_INTEGRATION/Cloud/en-US) 
+[Process Integration](https://help.sap.com/viewer/product/CLOUD_INTEGRATION/Cloud/en-US) 
 
 
 
@@ -2231,7 +2231,7 @@ Seamlessly orchestrate business processes and integrate data in real time.
 <tr>
 <td valign="top">
 
- [Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html) 
+[Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html) 
 
 
 
@@ -2301,7 +2301,7 @@ Establish connections between cloud applications and on-premise systems.
 <tr>
 <td valign="top">
 
- [Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html) 
+[Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html) 
 
 
 
@@ -2367,7 +2367,7 @@ Establish connections between cloud applications and on-premise systems.
 <tr>
 <td valign="top">
 
- [Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html) 
+[Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html) 
 
 
 
@@ -2430,7 +2430,7 @@ Establish connections between cloud applications and on-premise systems.
 <tr>
 <td valign="top">
 
- [Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html) 
+[Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html) 
 
 
 
@@ -2489,7 +2489,7 @@ Establish connections between cloud applications and on-premise systems.
 <tr>
 <td valign="top">
 
- [Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html) 
+[Connectivity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html) 
 
 
 
@@ -2547,7 +2547,7 @@ Establish connections between cloud applications and on-premise systems.
 <tr>
 <td valign="top">
 
- [Continuous Integration and Delivery](https://help.sap.com/docs/CONTINUOUS_DELIVERY?version=Cloud) 
+[Continuous Integration and Delivery](https://help.sap.com/docs/CONTINUOUS_DELIVERY?version=Cloud) 
 
 
 
@@ -2608,7 +2608,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 <tr>
 <td valign="top">
 
- [Data Integration](https://help.sap.com/viewer/p/SAP_CLOUD_PLATFORM_INTEGRATION_FOR_DATA_SERVICES) 
+[Data Integration](https://help.sap.com/viewer/p/SAP_CLOUD_PLATFORM_INTEGRATION_FOR_DATA_SERVICES) 
 
 
 
@@ -2670,7 +2670,7 @@ Integrate data between on-premise and cloud applications on a scheduled \(batch\
 <tr>
 <td valign="top">
 
- [Credential Store](https://help.sap.com/viewer/product/CREDENTIAL_STORE/Cloud/en-US) 
+[Credential Store](https://help.sap.com/viewer/product/CREDENTIAL_STORE/Cloud/en-US) 
 
 
 
@@ -2734,7 +2734,7 @@ Store and retrieve credentials such as cryptographic keys and passwords.
 <tr>
 <td valign="top">
 
- [Credential Store](https://help.sap.com/viewer/product/CREDENTIAL_STORE/Cloud/en-US) 
+[Credential Store](https://help.sap.com/viewer/product/CREDENTIAL_STORE/Cloud/en-US) 
 
 
 
@@ -2796,7 +2796,7 @@ Store and retrieve credentials such as cryptographic keys and passwords.
 <tr>
 <td valign="top">
 
- [Credential Store](https://help.sap.com/viewer/product/CREDENTIAL_STORE/Cloud/en-US) 
+[Credential Store](https://help.sap.com/viewer/product/CREDENTIAL_STORE/Cloud/en-US) 
 
 
 
@@ -2854,7 +2854,7 @@ Store and retrieve credentials such as cryptographic keys and passwords.
 <tr>
 <td valign="top">
 
- [Credential Store](https://help.sap.com/viewer/product/CREDENTIAL_STORE/Cloud/en-US) 
+[Credential Store](https://help.sap.com/viewer/product/CREDENTIAL_STORE/Cloud/en-US) 
 
 
 
@@ -2912,7 +2912,7 @@ Store and retrieve credentials such as cryptographic keys and passwords.
 <tr>
 <td valign="top">
 
- [Custom Domain Service](https://help.sap.com/viewer/product/CUSTOM_DOMAINS/Cloud/en-US) 
+[Custom Domain Service](https://help.sap.com/viewer/product/CUSTOM_DOMAINS/Cloud/en-US) 
 
 
 
@@ -2981,7 +2981,7 @@ Configure and expose your application under your own domain.
 <tr>
 <td valign="top">
 
- [Custom Domain Service](https://help.sap.com/viewer/product/CUSTOM_DOMAINS/Cloud/en-US) 
+[Custom Domain Service](https://help.sap.com/viewer/product/CUSTOM_DOMAINS/Cloud/en-US) 
 
 
 
@@ -3047,7 +3047,7 @@ Configure and expose your application under your own domain.
 <tr>
 <td valign="top">
 
- [Custom Domain Service](https://help.sap.com/viewer/product/CUSTOM_DOMAINS/Cloud/en-US) 
+[Custom Domain Service](https://help.sap.com/viewer/product/CUSTOM_DOMAINS/Cloud/en-US) 
 
 
 
@@ -3110,7 +3110,7 @@ Configure and expose your application under your own domain.
 <tr>
 <td valign="top">
 
- [Custom Domain Service](https://help.sap.com/viewer/product/CUSTOM_DOMAINS/Cloud/en-US) 
+[Custom Domain Service](https://help.sap.com/viewer/product/CUSTOM_DOMAINS/Cloud/en-US) 
 
 
 
@@ -3169,7 +3169,7 @@ Configure and expose your application under your own domain.
 <tr>
 <td valign="top">
 
- [Custom Domain Service](https://help.sap.com/viewer/product/CUSTOM_DOMAINS/Cloud/en-US) 
+[Custom Domain Service](https://help.sap.com/viewer/product/CUSTOM_DOMAINS/Cloud/en-US) 
 
 
 
@@ -3227,7 +3227,7 @@ Configure and expose your application under your own domain.
 <tr>
 <td valign="top">
 
- [Data Attribute Recommendation](https://help.sap.com/dar) 
+[Data Attribute Recommendation](https://help.sap.com/dar) 
 
 
 
@@ -3287,7 +3287,7 @@ Apply machine learning to predict and classify data records.
 <tr>
 <td valign="top">
 
- [Data Enrichment](https://help.sap.com/viewer/product/Cloud_Platform_Data_Enrichment/latest/en-US) 
+[Data Enrichment](https://help.sap.com/viewer/product/Cloud_Platform_Data_Enrichment/latest/en-US) 
 
 
 
@@ -3347,7 +3347,7 @@ Create or enrich master data using trusted third-party data.
 <tr>
 <td valign="top">
 
- [Data Quality Services](https://help.sap.com/viewer/product/SAP_Data_Quality_Management_microservices_for_location_data/Cloud/en-US) 
+[Data Quality Services](https://help.sap.com/viewer/product/SAP_Data_Quality_Management_microservices_for_location_data/Cloud/en-US) 
 
 
 
@@ -3406,7 +3406,7 @@ Embed data quality services to validate addresses and enrich with geocodes.
 <tr>
 <td valign="top">
 
- [Java Debugging](https://help.sap.com/viewer/product/DEBUGGING_SERVICE/Cloud/en-US) 
+[Java Debugging](https://help.sap.com/viewer/product/DEBUGGING_SERVICE/Cloud/en-US) 
 
 
 
@@ -3476,7 +3476,7 @@ Debug your Java application even through networks with high latency.
 <tr>
 <td valign="top">
 
- [Destination Service](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html) 
+[Destination Service](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html) 
 
 
 
@@ -3542,7 +3542,7 @@ Retrieve information about destinations in the Cloud Foundry environment.
 <tr>
 <td valign="top">
 
- [Destination Service](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html) 
+[Destination Service](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html) 
 
 
 
@@ -3605,7 +3605,7 @@ Retrieve information about destinations in the Cloud Foundry environment.
 <tr>
 <td valign="top">
 
- [Destination Service](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html) 
+[Destination Service](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html) 
 
 
 
@@ -3664,7 +3664,7 @@ Retrieve information about destinations in the Cloud Foundry environment.
 <tr>
 <td valign="top">
 
- [Destination Service](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html) 
+[Destination Service](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html) 
 
 
 
@@ -3722,7 +3722,7 @@ Retrieve information about destinations in the Cloud Foundry environment.
 <tr>
 <td valign="top">
 
- [Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+[Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
 
 
 
@@ -3792,7 +3792,7 @@ Build and run mobile apps for B2E and B2B use cases.
 <tr>
 <td valign="top">
 
- [Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+[Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
 
 
 
@@ -3858,7 +3858,7 @@ Build and run mobile apps for B2E and B2B use cases.
 <tr>
 <td valign="top">
 
- [Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+[Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
 
 
 
@@ -3920,7 +3920,7 @@ Build and run mobile apps for B2E and B2B use cases.
 <tr>
 <td valign="top">
 
- [Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+[Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
 
 
 
@@ -3980,7 +3980,7 @@ Build and run mobile apps for B2E and B2B use cases.
 <tr>
 <td valign="top">
 
- [Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+[Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
 
 
 
@@ -4038,7 +4038,7 @@ Build and run mobile apps for B2E and B2B use cases.
 <tr>
 <td valign="top">
 
- [Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+[Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
 
 
 
@@ -4107,7 +4107,7 @@ Build and run mobile apps for B2C use cases.
 <tr>
 <td valign="top">
 
- [Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+[Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
 
 
 
@@ -4173,7 +4173,7 @@ Build and run mobile apps for B2C use cases.
 <tr>
 <td valign="top">
 
- [Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+[Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
 
 
 
@@ -4235,7 +4235,7 @@ Build and run mobile apps for B2C use cases.
 <tr>
 <td valign="top">
 
- [Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+[Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
 
 
 
@@ -4295,7 +4295,7 @@ Build and run mobile apps for B2C use cases.
 <tr>
 <td valign="top">
 
- [Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+[Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
 
 
 
@@ -4353,7 +4353,7 @@ Build and run mobile apps for B2C use cases.
 <tr>
 <td valign="top">
 
- [Document Classification](https://help.sap.com/dc) 
+[Document Classification](https://help.sap.com/dc) 
 
 
 
@@ -4411,7 +4411,7 @@ Classify business documents automatically using machine learning.
 <tr>
 <td valign="top">
 
- [Document Information Extraction](https://help.sap.com/dox) 
+[Document Information Extraction](https://help.sap.com/dox) 
 
 
 
@@ -4473,7 +4473,7 @@ Automate your document information extraction processes.
 <tr>
 <td valign="top">
 
- [Document Management Service, Integration Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
+[Document Management Service, Integration Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
 
 
 
@@ -4539,7 +4539,7 @@ Provide API and UI based document management capabilities to your business appli
 <tr>
 <td valign="top">
 
- [Document Management Service, Integration Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
+[Document Management Service, Integration Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
 
 
 
@@ -4601,7 +4601,7 @@ Provide API and UI based document management capabilities to your business appli
 <tr>
 <td valign="top">
 
- [Document Management Service, Integration Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
+[Document Management Service, Integration Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
 
 
 
@@ -4660,7 +4660,7 @@ Provide API and UI based document management capabilities to your business appli
 <tr>
 <td valign="top">
 
- [Document Service](https://help.sap.com/viewer/product/DOCUMENT_SERVICE/) 
+[Document Service](https://help.sap.com/viewer/product/DOCUMENT_SERVICE/) 
 
 
 
@@ -4730,7 +4730,7 @@ Store and manage your documents.
 <tr>
 <td valign="top">
 
- [Dynatrace Agent Activation](https://help.sap.com/viewer/p/DYNATRACE_AGENT_ACTIVATION) 
+[Dynatrace Agent Activation](https://help.sap.com/viewer/p/DYNATRACE_AGENT_ACTIVATION) 
 
 
 
@@ -4800,7 +4800,7 @@ Connect your Java applications to a Dynatrace SaaS monitoring environment.
 <tr>
 <td valign="top">
 
- [Enhanced Disaster Recovery](https://help.sap.com/viewer/p/DISASTER_RECOVERY) 
+[Enhanced Disaster Recovery](https://help.sap.com/viewer/p/DISASTER_RECOVERY) 
 
 
 
@@ -4861,7 +4861,7 @@ Restore your cloud production environment with minimal data loss.
 <tr>
 <td valign="top">
 
- [Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
+[Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
 
 
 
@@ -4925,7 +4925,7 @@ Connect applications, services and systems across different landscapes.
 <tr>
 <td valign="top">
 
- [Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
+[Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
 
 
 
@@ -4987,7 +4987,7 @@ Connect applications, services and systems across different landscapes.
 <tr>
 <td valign="top">
 
- [Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
+[Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
 
 
 
@@ -5045,7 +5045,7 @@ Connect applications, services and systems across different landscapes.
 <tr>
 <td valign="top">
 
- [Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
+[Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
 
 
 
@@ -5103,7 +5103,7 @@ Connect applications, services and systems across different landscapes.
 <tr>
 <td valign="top">
 
- [Extension Factory, serverless runtime](https://help.sap.com/viewer/product/XF_SERVERLESS_RUNTIME/Cloud/en-US) 
+[Extension Factory, serverless runtime](https://help.sap.com/viewer/product/XF_SERVERLESS_RUNTIME/Cloud/en-US) 
 
 
 
@@ -5168,7 +5168,7 @@ Allows you to create, manage, configure extensions on SAP Cloud Platform
 <tr>
 <td valign="top">
 
- [Extension Factory, serverless runtime](https://help.sap.com/viewer/product/XF_SERVERLESS_RUNTIME/Cloud/en-US) 
+[Extension Factory, serverless runtime](https://help.sap.com/viewer/product/XF_SERVERLESS_RUNTIME/Cloud/en-US) 
 
 
 
@@ -5230,7 +5230,7 @@ Allows you to create, manage, configure extensions on SAP Cloud Platform
 <tr>
 <td valign="top">
 
- [Feature Flags](https://help.sap.com/viewer/product/FEATURE_FLAGS/Cloud/en-US) 
+[Feature Flags](https://help.sap.com/viewer/product/FEATURE_FLAGS/Cloud/en-US) 
 
 
 
@@ -5297,7 +5297,7 @@ Control the rollout of new features.
 <tr>
 <td valign="top">
 
- [Feature Flags](https://help.sap.com/viewer/product/FEATURE_FLAGS/Cloud/en-US) 
+[Feature Flags](https://help.sap.com/viewer/product/FEATURE_FLAGS/Cloud/en-US) 
 
 
 
@@ -5360,7 +5360,7 @@ Control the rollout of new features.
 <tr>
 <td valign="top">
 
- [Feature Flags](https://help.sap.com/viewer/product/FEATURE_FLAGS/Cloud/en-US) 
+[Feature Flags](https://help.sap.com/viewer/product/FEATURE_FLAGS/Cloud/en-US) 
 
 
 
@@ -5419,7 +5419,7 @@ Control the rollout of new features.
 <tr>
 <td valign="top">
 
- [Feature Flags](https://help.sap.com/viewer/product/FEATURE_FLAGS/Cloud/en-US) 
+[Feature Flags](https://help.sap.com/viewer/product/FEATURE_FLAGS/Cloud/en-US) 
 
 
 
@@ -5477,7 +5477,7 @@ Control the rollout of new features.
 <tr>
 <td valign="top">
 
- [SAP Fiori Cloud](https://help.sap.com/viewer/p/SAP_FIORI_CLOUD_ALL) 
+[SAP Fiori Cloud](https://help.sap.com/viewer/p/SAP_FIORI_CLOUD_ALL) 
 
 
 
@@ -5547,7 +5547,7 @@ Revamp your user experience with SAP Fiori on SAP Cloud Platform.
 <tr>
 <td valign="top">
 
- [SAP Fiori Mobile](https://help.sap.com/viewer/product/MOBILE_SERVICE_FOR_SAP_FIORI/Cloud/en-US) 
+[SAP Fiori Mobile](https://help.sap.com/viewer/product/MOBILE_SERVICE_FOR_SAP_FIORI/Cloud/en-US) 
 
 
 
@@ -5612,7 +5612,7 @@ Optimize, build, manage, and monitor SAP Fiori apps on mobile devices.
 <tr>
 <td valign="top">
 
- [Forms Service by Adobe](https://help.sap.com/viewer/product/CP_FORMS_BY_ADOBE/Cloud/en-US) 
+[Forms Service by Adobe](https://help.sap.com/viewer/product/CP_FORMS_BY_ADOBE/Cloud/en-US) 
 
 
 
@@ -5682,7 +5682,7 @@ Generate print and interactive forms using Adobe Document Services.
 <tr>
 <td valign="top">
 
- [Gamification](https://help.sap.com/viewer/product/GAMIFICATION/) 
+[Gamification](https://help.sap.com/viewer/product/GAMIFICATION/) 
 
 
 
@@ -5752,7 +5752,7 @@ Introduce gamification concepts into your applications.
 <tr>
 <td valign="top">
 
- [Git Service](https://help.sap.com/viewer/product/GIT_SERVICE/Cloud/en-US) 
+[Git Service](https://help.sap.com/viewer/product/GIT_SERVICE/Cloud/en-US) 
 
 
 
@@ -5822,7 +5822,7 @@ Store and version source code in Git repositories.
 <tr>
 <td valign="top">
 
- [HTML5 Application Repository Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/11d77aa154f64c2e83cc9652a78bb985.html) 
+[HTML5 Application Repository Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/11d77aa154f64c2e83cc9652a78bb985.html) 
 
 
 
@@ -5888,7 +5888,7 @@ Enables storage of HTML5 applications and provides runtime environment for HTML5
 <tr>
 <td valign="top">
 
- [HTML5 Application Repository Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/11d77aa154f64c2e83cc9652a78bb985.html) 
+[HTML5 Application Repository Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/11d77aa154f64c2e83cc9652a78bb985.html) 
 
 
 
@@ -5950,7 +5950,7 @@ Enables storage of HTML5 applications and provides runtime environment for HTML5
 <tr>
 <td valign="top">
 
- [HTML5 Application Repository Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/11d77aa154f64c2e83cc9652a78bb985.html) 
+[HTML5 Application Repository Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/11d77aa154f64c2e83cc9652a78bb985.html) 
 
 
 
@@ -6008,7 +6008,7 @@ Enables storage of HTML5 applications and provides runtime environment for HTML5
 <tr>
 <td valign="top">
 
- [HTML5 Application Repository Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/11d77aa154f64c2e83cc9652a78bb985.html) 
+[HTML5 Application Repository Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/11d77aa154f64c2e83cc9652a78bb985.html) 
 
 
 
@@ -6066,7 +6066,7 @@ Enables storage of HTML5 applications and provides runtime environment for HTML5
 <tr>
 <td valign="top">
 
- [Hyperledger Fabric](https://help.sap.com/viewer/p/HYPERLEDGER_FABRIC/) 
+[Hyperledger Fabric](https://help.sap.com/viewer/p/HYPERLEDGER_FABRIC/) 
 
 
 
@@ -6125,7 +6125,7 @@ Create Hyperledger Fabric nodes and connect them to a blockchain network.
 <tr>
 <td valign="top">
 
- [Identity Authentication - Additional Tenant](https://help.sap.com/viewer/product/IDENTITY_AUTHENTICATION/Cloud/en-US) 
+[Identity Authentication - Additional Tenant](https://help.sap.com/viewer/product/IDENTITY_AUTHENTICATION/Cloud/en-US) 
 
 
 
@@ -6181,7 +6181,7 @@ Secure authentication and single sign-on for users in the cloud.
 <tr>
 <td valign="top">
 
- [Identity Authentication](https://help.sap.com/viewer/product/IDENTITY_AUTHENTICATION/Cloud/en-US) 
+[Identity Authentication](https://help.sap.com/viewer/product/IDENTITY_AUTHENTICATION/Cloud/en-US) 
 
 
 
@@ -6237,7 +6237,7 @@ Secure authentication and single sign-on for users in the cloud.
 <tr>
 <td valign="top">
 
- [Identity Provisioning](https://help.sap.com/viewer/product/IDENTITY_PROVISIONING/Cloud/en-US) 
+[Identity Provisioning](https://help.sap.com/viewer/product/IDENTITY_PROVISIONING/Cloud/en-US) 
 
 
 
@@ -6307,7 +6307,7 @@ Manage identity lifecycle processes for cloud and on-premise systems.
 <tr>
 <td valign="top">
 
- [Intelligent Product Design](https://help.sap.com/viewer/p/PLM_CP) 
+[Intelligent Product Design](https://help.sap.com/viewer/p/PLM_CP) 
 
 
 
@@ -6365,7 +6365,7 @@ Accelerate product innovation with instant collaboration and live product intell
 <tr>
 <td valign="top">
 
- [Intelligent Product Design](https://help.sap.com/viewer/p/PLM_CP) 
+[Intelligent Product Design](https://help.sap.com/viewer/p/PLM_CP) 
 
 
 
@@ -6423,7 +6423,7 @@ Accelerate product innovation with instant collaboration and live product intell
 <tr>
 <td valign="top">
 
- [Internet of Things](https://help.sap.com/viewer/product/SAP_CP_IOT_CF/Cloud/en-US) 
+[Internet of Things](https://help.sap.com/viewer/product/SAP_CP_IOT_CF/Cloud/en-US) 
 
 
 
@@ -6482,7 +6482,7 @@ Develop, customize, and operate IoT business applications in the cloud.
 <tr>
 <td valign="top">
 
- [Invoice Object Recommendation](https://help.sap.com/viewer/product/Invoice_Object_Recommendation) 
+[Invoice Object Recommendation](https://help.sap.com/viewer/product/Invoice_Object_Recommendation) 
 
 
 
@@ -6540,7 +6540,7 @@ Recommendation of the G/L accounts using machine learning.
 <tr>
 <td valign="top">
 
- [Peppol Exchange](https://help.sap.com/viewer/product/DC_PEPPOL/Cloud/en-US) 
+[Peppol Exchange](https://help.sap.com/viewer/product/DC_PEPPOL/Cloud/en-US) 
 
 
 
@@ -6597,7 +6597,7 @@ Meet compliance requirements by exchanging documents with the Peppol network.
 <tr>
 <td valign="top">
 
- [Java Server](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7613c8c7711e1014839a8273b0e91070.html) 
+[Java Server](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7613c8c7711e1014839a8273b0e91070.html) 
 
 
 
@@ -6667,7 +6667,7 @@ Develop and run Java Web applications on SAP Cloud Platform Neo Environment.
 <tr>
 <td valign="top">
 
- [Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
+[Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
 
 
 
@@ -6733,7 +6733,7 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 <tr>
 <td valign="top">
 
- [Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
+[Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
 
 
 
@@ -6796,7 +6796,7 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 <tr>
 <td valign="top">
 
- [Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
+[Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
 
 
 
@@ -6855,7 +6855,7 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 <tr>
 <td valign="top">
 
- [Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
+[Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
 
 
 
@@ -6913,7 +6913,7 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 <tr>
 <td valign="top">
 
- [Keystore Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/a18327e4b1a34bd6844384ae1c7f3d51.html) 
+[Keystore Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/a18327e4b1a34bd6844384ae1c7f3d51.html) 
 
 
 
@@ -6983,7 +6983,7 @@ Manage cryptographic keys and certificates.
 <tr>
 <td valign="top">
 
- [Kyma Runtime](https://help.sap.com/viewer/3504ec5ef16548778610c7e89cc0eac3/Cloud/en-US/468c2f3c3ca24c2c8497ef9f83154c44.html) 
+[Kyma Runtime](https://help.sap.com/viewer/3504ec5ef16548778610c7e89cc0eac3/Cloud/en-US/468c2f3c3ca24c2c8497ef9f83154c44.html) 
 
 
 
@@ -7042,7 +7042,7 @@ Develop and run containerized applications and extensions on Kubernetes.
 <tr>
 <td valign="top">
 
- [Java Apps Lifecycle Management](https://help.sap.com/viewer/product/LIFECYCLE_MGMT/Cloud/en-US) 
+[Java Apps Lifecycle Management](https://help.sap.com/viewer/product/LIFECYCLE_MGMT/Cloud/en-US) 
 
 
 
@@ -7112,7 +7112,7 @@ Manage the lifecycle of Java applications by using a REST API.
 <tr>
 <td valign="top">
 
- [SAP Live Link 365 for Authentication](https://livelink.sapmobileservices.com/documentation/#/integrate/apiReferences) 
+[SAP Live Link 365 for Authentication](https://livelink.sapmobileservices.com/documentation/#/integrate/apiReferences) 
 
 
 
@@ -7168,7 +7168,7 @@ Generate and validate configurable one-time PINs or verification codes.
 <tr>
 <td valign="top">
 
- [SAP Live Link 365 for SMS](https://livelink.sapmobileservices.com/documentation/#/integrate/apiReferences) 
+[SAP Live Link 365 for SMS](https://livelink.sapmobileservices.com/documentation/#/integrate/apiReferences) 
 
 
 
@@ -7224,7 +7224,7 @@ Send and receive SMSs globally via REST APIs. View traffic logs and analytics.
 <tr>
 <td valign="top">
 
- [Rapid Application Development by Mendix](https://help.sap.com/viewer/product/Mendix/Cloud/en-US) 
+[Rapid Application Development by Mendix](https://help.sap.com/viewer/product/Mendix/Cloud/en-US) 
 
 
 
@@ -7280,7 +7280,7 @@ Develop SAP business applications with a low-code, graphical toolset.
 <tr>
 <td valign="top">
 
- [MongoDB](https://help.sap.com/viewer/product/MongoDB/Cloud/en-US) 
+[MongoDB](https://help.sap.com/viewer/product/MongoDB/Cloud/en-US) 
 
 
 
@@ -7346,7 +7346,7 @@ Implement a NoSQL document store.
 <tr>
 <td valign="top">
 
- [MongoDB](https://help.sap.com/viewer/product/MongoDB/Cloud/en-US) 
+[MongoDB](https://help.sap.com/viewer/product/MongoDB/Cloud/en-US) 
 
 
 
@@ -7409,7 +7409,7 @@ Implement a NoSQL document store.
 <tr>
 <td valign="top">
 
- [MongoDB](https://help.sap.com/viewer/product/MongoDB/Cloud/en-US) 
+[MongoDB](https://help.sap.com/viewer/product/MongoDB/Cloud/en-US) 
 
 
 
@@ -7468,7 +7468,7 @@ Implement a NoSQL document store.
 <tr>
 <td valign="top">
 
- [Monitoring](https://help.sap.com/viewer/product/MONITORING_SERVICE/Cloud/en-US) 
+[Monitoring](https://help.sap.com/viewer/product/MONITORING_SERVICE/Cloud/en-US) 
 
 
 
@@ -7538,7 +7538,7 @@ Monitor Java, SAP HANA XS and HTML5 applications, and databases.
 <tr>
 <td valign="top">
 
- [MultiChain](https://help.sap.com/viewer/p/MULTICHAIN/) 
+[MultiChain](https://help.sap.com/viewer/p/MULTICHAIN/) 
 
 
 
@@ -7597,7 +7597,7 @@ Create MultiChain nodes and connect them to a blockchain network.
 <tr>
 <td valign="top">
 
- [OAuth 2.0](https://help.hana.ondemand.com/help/frameset.htm?7e658b3e4cea4a79b035d0f1d2798c1f.html) 
+[OAuth 2.0](https://help.hana.ondemand.com/help/frameset.htm?7e658b3e4cea4a79b035d0f1d2798c1f.html) 
 
 
 
@@ -7667,7 +7667,7 @@ Protect applications and APIs with OAuth 2.0.
 <tr>
 <td valign="top">
 
- [Object Store](https://help.sap.com/viewer/product/ObjectStore/Cloud/en-US) 
+[Object Store](https://help.sap.com/viewer/product/ObjectStore/Cloud/en-US) 
 
 
 
@@ -7733,7 +7733,7 @@ Supports storage and management of unstructured data \(files, BLOBs\).
 <tr>
 <td valign="top">
 
- [Object Store](https://help.sap.com/viewer/product/ObjectStore/Cloud/en-US) 
+[Object Store](https://help.sap.com/viewer/product/ObjectStore/Cloud/en-US) 
 
 
 
@@ -7796,7 +7796,7 @@ Supports storage and management of unstructured data \(files, BLOBs\).
 <tr>
 <td valign="top">
 
- [Object Store](https://help.sap.com/viewer/product/ObjectStore/Cloud/en-US) 
+[Object Store](https://help.sap.com/viewer/product/ObjectStore/Cloud/en-US) 
 
 
 
@@ -7855,7 +7855,7 @@ Supports storage and management of unstructured data \(files, BLOBs\).
 <tr>
 <td valign="top">
 
- [OData Provisioning](https://help.sap.com/viewer/product/ODATA_PROVISIONING/Cloud/en-US) 
+[OData Provisioning](https://help.sap.com/viewer/product/ODATA_PROVISIONING/Cloud/en-US) 
 
 
 
@@ -7924,7 +7924,7 @@ Access data in SAP Business Suite using OData services.
 <tr>
 <td valign="top">
 
- [OData Provisioning](https://help.sap.com/viewer/product/ODATA_PROVISIONING/Cloud/en-US) 
+[OData Provisioning](https://help.sap.com/viewer/product/ODATA_PROVISIONING/Cloud/en-US) 
 
 
 
@@ -7983,7 +7983,7 @@ Access data in SAP Business Suite using OData services.
 <tr>
 <td valign="top">
 
- [OData Provisioning](https://help.sap.com/viewer/product/ODATA_PROVISIONING/Cloud/en-US) 
+[OData Provisioning](https://help.sap.com/viewer/product/ODATA_PROVISIONING/Cloud/en-US) 
 
 
 
@@ -8043,7 +8043,7 @@ Access data in SAP Business Suite using OData services.
 <tr>
 <td valign="top">
 
- [Open Connectors](https://help.sap.com/viewer/p/OPEN_CONNECTORS) 
+[Open Connectors](https://help.sap.com/viewer/p/OPEN_CONNECTORS) 
 
 
 
@@ -8105,7 +8105,7 @@ Simplify integration via APIs
 <tr>
 <td valign="top">
 
- [Open Connectors](https://help.sap.com/viewer/p/OPEN_CONNECTORS) 
+[Open Connectors](https://help.sap.com/viewer/p/OPEN_CONNECTORS) 
 
 
 
@@ -8169,7 +8169,7 @@ Simplify integration via APIs
 <tr>
 <td valign="top">
 
- [Open Connectors](https://help.sap.com/viewer/p/OPEN_CONNECTORS) 
+[Open Connectors](https://help.sap.com/viewer/p/OPEN_CONNECTORS) 
 
 
 
@@ -8232,7 +8232,7 @@ Simplify integration via APIs
 <tr>
 <td valign="top">
 
- [Open Connectors](https://help.sap.com/viewer/p/OPEN_CONNECTORS) 
+[Open Connectors](https://help.sap.com/viewer/p/OPEN_CONNECTORS) 
 
 
 
@@ -8290,7 +8290,7 @@ Simplify integration via APIs
 <tr>
 <td valign="top">
 
- [SAP S/4HANA Cloud for Intelligent Product Selection](https://help.sap.com/viewer/product/S4H_CLOUD_INT_PROD_SEL) 
+[SAP S/4HANA Cloud for Intelligent Product Selection](https://help.sap.com/viewer/product/S4H_CLOUD_INT_PROD_SEL) 
 
 
 
@@ -8349,7 +8349,7 @@ Enable an intelligent customer experience for complex configurable products
 <tr>
 <td valign="top">
 
- [Personalized Recommendation](https://help.sap.com/pr) 
+[Personalized Recommendation](https://help.sap.com/pr) 
 
 
 
@@ -8408,7 +8408,7 @@ Personalized Recommendation draws insights from user data to deliver highly pers
 <tr>
 <td valign="top">
 
- [Platform Identity Provider](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/80edbe70b8f3478d8a59c21a91a47aa6.html) 
+[Platform Identity Provider](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/80edbe70b8f3478d8a59c21a91a47aa6.html) 
 
 
 
@@ -8477,7 +8477,7 @@ Use your user base from the identity authentication tenant for admin tasks.
 <tr>
 <td valign="top">
 
- [Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
+[Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
 
 
 
@@ -8547,7 +8547,7 @@ Create role based, multi-channel sites to access business apps and content.
 <tr>
 <td valign="top">
 
- [Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
+[Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
 
 
 
@@ -8613,7 +8613,7 @@ Create role based, multi-channel sites to access business apps and content.
 <tr>
 <td valign="top">
 
- [Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
+[Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
 
 
 
@@ -8676,7 +8676,7 @@ Create role based, multi-channel sites to access business apps and content.
 <tr>
 <td valign="top">
 
- [Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
+[Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
 
 
 
@@ -8736,7 +8736,7 @@ Create role based, multi-channel sites to access business apps and content.
 <tr>
 <td valign="top">
 
- [Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
+[Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/latest/en-US) 
 
 
 
@@ -8794,7 +8794,7 @@ Create role based, multi-channel sites to access business apps and content.
 <tr>
 <td valign="top">
 
- [PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US) 
+[PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US) 
 
 
 
@@ -8860,7 +8860,7 @@ Consume an object-relational database with PostgreSQL.
 <tr>
 <td valign="top">
 
- [PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US) 
+[PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US) 
 
 
 
@@ -8923,7 +8923,7 @@ Consume an object-relational database with PostgreSQL.
 <tr>
 <td valign="top">
 
- [PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US) 
+[PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US) 
 
 
 
@@ -8982,7 +8982,7 @@ Consume an object-relational database with PostgreSQL.
 <tr>
 <td valign="top">
 
- [Pricing service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
+[Pricing service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
 
 
 
@@ -9042,7 +9042,7 @@ Calculate prices for configurable- and non-configurable products
 <tr>
 <td valign="top">
 
- [Pricing service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
+[Pricing service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
 
 
 
@@ -9100,7 +9100,7 @@ Calculate prices for configurable- and non-configurable products
 <tr>
 <td valign="top">
 
- [Print Service](https://help.sap.com/viewer/product/SCP_PRINT_SERVICE/SHIP/en-US) 
+[Print Service](https://help.sap.com/viewer/product/SCP_PRINT_SERVICE/SHIP/en-US) 
 
 
 
@@ -9158,7 +9158,7 @@ Manage print queues, connect print clients and monitor print status
 <tr>
 <td valign="top">
 
- [Process Visibility](https://help.sap.com/viewer/product/VISIBILITY_SERVICE/Cloud/en-US) 
+[Process Visibility](https://help.sap.com/viewer/product/VISIBILITY_SERVICE/Cloud/en-US) 
 
 
 
@@ -9224,7 +9224,7 @@ Cloud Offering with End-to-End visibility on Business Processes
 <tr>
 <td valign="top">
 
- [Process Visibility](https://help.sap.com/viewer/product/VISIBILITY_SERVICE/Cloud/en-US) 
+[Process Visibility](https://help.sap.com/viewer/product/VISIBILITY_SERVICE/Cloud/en-US) 
 
 
 
@@ -9287,7 +9287,7 @@ Cloud Offering with End-to-End visibility on Business Processes
 <tr>
 <td valign="top">
 
- [Process Visibility](https://help.sap.com/viewer/product/VISIBILITY_SERVICE/Cloud/en-US) 
+[Process Visibility](https://help.sap.com/viewer/product/VISIBILITY_SERVICE/Cloud/en-US) 
 
 
 
@@ -9346,7 +9346,7 @@ Cloud Offering with End-to-End visibility on Business Processes
 <tr>
 <td valign="top">
 
- [Process Visibility](https://help.sap.com/viewer/product/VISIBILITY_SERVICE/Cloud/en-US) 
+[Process Visibility](https://help.sap.com/viewer/product/VISIBILITY_SERVICE/Cloud/en-US) 
 
 
 
@@ -9404,7 +9404,7 @@ Cloud Offering with End-to-End visibility on Business Processes
 <tr>
 <td valign="top">
 
- [Java Profiling](https://help.sap.com/viewer/product/PROFILING_SERVICE/Cloud/en-US) 
+[Java Profiling](https://help.sap.com/viewer/product/PROFILING_SERVICE/Cloud/en-US) 
 
 
 
@@ -9474,7 +9474,7 @@ Profile and analyze your Java applications.
 <tr>
 <td valign="top">
 
- [Quorum](https://help.sap.com/viewer/p/QUORUM) 
+[Quorum](https://help.sap.com/viewer/p/QUORUM) 
 
 
 
@@ -9533,7 +9533,7 @@ Create Quorum nodes and connect them to a blockchain network.
 <tr>
 <td valign="top">
 
- [RabbitMQ](https://help.sap.com/viewer/product/RabbitMQ/Cloud/en-US) 
+[RabbitMQ](https://help.sap.com/viewer/product/RabbitMQ/Cloud/en-US) 
 
 
 
@@ -9599,7 +9599,7 @@ Get robust asynchronous messaging between applications.
 <tr>
 <td valign="top">
 
- [RabbitMQ](https://help.sap.com/viewer/product/RabbitMQ/Cloud/en-US) 
+[RabbitMQ](https://help.sap.com/viewer/product/RabbitMQ/Cloud/en-US) 
 
 
 
@@ -9662,7 +9662,7 @@ Get robust asynchronous messaging between applications.
 <tr>
 <td valign="top">
 
- [RabbitMQ](https://help.sap.com/viewer/product/RabbitMQ/Cloud/en-US) 
+[RabbitMQ](https://help.sap.com/viewer/product/RabbitMQ/Cloud/en-US) 
 
 
 
@@ -9721,7 +9721,7 @@ Get robust asynchronous messaging between applications.
 <tr>
 <td valign="top">
 
- [Redis](https://help.sap.com/viewer/product/Redis/Cloud/en-US) 
+[Redis](https://help.sap.com/viewer/product/Redis/Cloud/en-US) 
 
 
 
@@ -9787,7 +9787,7 @@ Implement an in-memory caching layer with Redis.
 <tr>
 <td valign="top">
 
- [Redis](https://help.sap.com/viewer/product/Redis/Cloud/en-US) 
+[Redis](https://help.sap.com/viewer/product/Redis/Cloud/en-US) 
 
 
 
@@ -9850,7 +9850,7 @@ Implement an in-memory caching layer with Redis.
 <tr>
 <td valign="top">
 
- [Redis](https://help.sap.com/viewer/product/Redis/Cloud/en-US) 
+[Redis](https://help.sap.com/viewer/product/Redis/Cloud/en-US) 
 
 
 
@@ -9909,7 +9909,7 @@ Implement an in-memory caching layer with Redis.
 <tr>
 <td valign="top">
 
- [Remote Data Sync](https://help.hana.ondemand.com/help/frameset.htm?ee09ac72de1b46128c7ae9ebda69afc1.html) 
+[Remote Data Sync](https://help.hana.ondemand.com/help/frameset.htm?ee09ac72de1b46128c7ae9ebda69afc1.html) 
 
 
 
@@ -9973,7 +9973,7 @@ Synchronize data between remote databases and a cloud SAP HANA database.
 <tr>
 <td valign="top">
 
- [Data Retention Manager](https://help.sap.com/viewer/p/DATA_RETENTION_MANAGER) 
+[Data Retention Manager](https://help.sap.com/viewer/p/DATA_RETENTION_MANAGER) 
 
 
 
@@ -10033,7 +10033,7 @@ Manage retention and residence rules to block or delete personal data.
 <tr>
 <td valign="top">
 
- [Data Retention Manager](https://help.sap.com/viewer/p/DATA_RETENTION_MANAGER) 
+[Data Retention Manager](https://help.sap.com/viewer/p/DATA_RETENTION_MANAGER) 
 
 
 
@@ -10092,7 +10092,7 @@ Manage retention and residence rules to block or delete personal data.
 <tr>
 <td valign="top">
 
- [SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
+[SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
 
 
 
@@ -10158,7 +10158,7 @@ Develop, debug, test, and deploy SAP business applications.
 <tr>
 <td valign="top">
 
- [SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
+[SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
 
 
 
@@ -10220,7 +10220,7 @@ Develop, debug, test, and deploy SAP business applications.
 <tr>
 <td valign="top">
 
- [SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
+[SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
 
 
 
@@ -10279,7 +10279,7 @@ Develop, debug, test, and deploy SAP business applications.
 <tr>
 <td valign="top">
 
- [SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
+[SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
 
 
 
@@ -10337,7 +10337,7 @@ Develop, debug, test, and deploy SAP business applications.
 <tr>
 <td valign="top">
 
- [Document Management Service, Application Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
+[Document Management Service, Application Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
 
 
 
@@ -10403,7 +10403,7 @@ Organize your documents with ready-to-use document management capabilities.
 <tr>
 <td valign="top">
 
- [Document Management Service, Application Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
+[Document Management Service, Application Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
 
 
 
@@ -10465,7 +10465,7 @@ Organize your documents with ready-to-use document management capabilities.
 <tr>
 <td valign="top">
 
- [Document Management Service, Application Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
+[Document Management Service, Application Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
 
 
 
@@ -10524,7 +10524,7 @@ Organize your documents with ready-to-use document management capabilities.
 <tr>
 <td valign="top">
 
- [SAP Secure Login Service for SAP GUI](https://help.sap.com/sls) 
+[SAP Secure Login Service for SAP GUI](https://help.sap.com/sls) 
 
 
 
@@ -10580,7 +10580,7 @@ Get client certificates via Secure Login Client \(SLC\) to log-on with SAP GUI.
 <tr>
 <td valign="top">
 
- [SAP Analytics Cloud, embedded edition](https://help.sap.com/viewer/product/SAC_EMBEDDED_EDITION/1.0/en-US) 
+[SAP Analytics Cloud, embedded edition](https://help.sap.com/viewer/product/SAC_EMBEDDED_EDITION/1.0/en-US) 
 
 
 
@@ -10643,7 +10643,7 @@ Analyze data via live connection to your business application's SAP HANA databas
 <tr>
 <td valign="top">
 
- [SAP API Business Hub](https://help.sap.com/viewer/84b35b9c39b247e3ba2a31f02beee46d/Cloud/en-US) 
+[SAP API Business Hub](https://help.sap.com/viewer/84b35b9c39b247e3ba2a31f02beee46d/Cloud/en-US) 
 
 
 
@@ -10699,7 +10699,7 @@ Discover, explore and test the APIs offered by SAP.
 <tr>
 <td valign="top">
 
- [SAP ASE Service](https://help.sap.com/viewer/product/ASE_SERVICE/Cloud/en-US) 
+[SAP ASE Service](https://help.sap.com/viewer/product/ASE_SERVICE/Cloud/en-US) 
 
 
 
@@ -10769,7 +10769,7 @@ Create and consume SAP ASE databases.
 <tr>
 <td valign="top">
 
- [SAP Build Work Zone, standard edition](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
+[SAP Build Work Zone, standard edition](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
 
 
 
@@ -10835,7 +10835,7 @@ Simplify access to applications by establishing a central entry point.
 <tr>
 <td valign="top">
 
- [SAP Build Work Zone, standard edition](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
+[SAP Build Work Zone, standard edition](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
 
 
 
@@ -10898,7 +10898,7 @@ Simplify access to applications by establishing a central entry point.
 <tr>
 <td valign="top">
 
- [SAP Build Work Zone, standard edition](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
+[SAP Build Work Zone, standard edition](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
 
 
 
@@ -10958,7 +10958,7 @@ Simplify access to applications by establishing a central entry point.
 <tr>
 <td valign="top">
 
- [SAP Build Work Zone, standard edition](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
+[SAP Build Work Zone, standard edition](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US) 
 
 
 
@@ -11016,7 +11016,7 @@ Simplify access to applications by establishing a central entry point.
 <tr>
 <td valign="top">
 
- [SAP Analytics Cloud](https://help.sap.com/cloud4analytics) 
+[SAP Analytics Cloud](https://help.sap.com/cloud4analytics) 
 
 
 
@@ -11083,7 +11083,7 @@ Carry out business intelligence, planning, and predictive analysis tasks.
 <tr>
 <td valign="top">
 
- [SAP Analytics Cloud](https://help.sap.com/cloud4analytics) 
+[SAP Analytics Cloud](https://help.sap.com/cloud4analytics) 
 
 
 
@@ -11148,7 +11148,7 @@ Carry out business intelligence, planning, and predictive analysis tasks.
 <tr>
 <td valign="top">
 
- [SAP Analytics Cloud](https://help.sap.com/cloud4analytics) 
+[SAP Analytics Cloud](https://help.sap.com/cloud4analytics) 
 
 
 
@@ -11207,7 +11207,7 @@ Carry out business intelligence, planning, and predictive analysis tasks.
 <tr>
 <td valign="top">
 
- [SAP Analytics Cloud](https://help.sap.com/cloud4analytics) 
+[SAP Analytics Cloud](https://help.sap.com/cloud4analytics) 
 
 
 
@@ -11265,7 +11265,7 @@ Carry out business intelligence, planning, and predictive analysis tasks.
 <tr>
 <td valign="top">
 
- [Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
+[Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
 
 
 
@@ -11331,7 +11331,7 @@ Operate polyglot cloud applications in Cloud Foundry.
 <tr>
 <td valign="top">
 
- [Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
+[Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
 
 
 
@@ -11394,7 +11394,7 @@ Operate polyglot cloud applications in Cloud Foundry.
 <tr>
 <td valign="top">
 
- [Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
+[Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
 
 
 
@@ -11453,7 +11453,7 @@ Operate polyglot cloud applications in Cloud Foundry.
 <tr>
 <td valign="top">
 
- [Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
+[Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
 
 
 
@@ -11511,7 +11511,7 @@ Operate polyglot cloud applications in Cloud Foundry.
 <tr>
 <td valign="top">
 
- [Integration Suite](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_INTEGRATION_SUITE) 
+[Integration Suite](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_INTEGRATION_SUITE) 
 
 
 
@@ -11575,7 +11575,7 @@ Integrate applications, services, and systems across landscapes.
 <tr>
 <td valign="top">
 
- [Integration Suite](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_INTEGRATION_SUITE) 
+[Integration Suite](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_INTEGRATION_SUITE) 
 
 
 
@@ -11637,7 +11637,7 @@ Integrate applications, services, and systems across landscapes.
 <tr>
 <td valign="top">
 
- [Integration Suite](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_INTEGRATION_SUITE) 
+[Integration Suite](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_INTEGRATION_SUITE) 
 
 
 
@@ -11695,7 +11695,7 @@ Integrate applications, services, and systems across landscapes.
 <tr>
 <td valign="top">
 
- [SAP Conversational AI](https://help.sap.com/viewer/p/SAP_CONVERSATIONAL_AI) 
+[SAP Conversational AI](https://help.sap.com/viewer/p/SAP_CONVERSATIONAL_AI) 
 
 
 
@@ -11753,7 +11753,7 @@ Build and deploy innovative chatbots using this comprehensive end-to-end platfor
 <tr>
 <td valign="top">
 
- [SAP Customer Order Sourcing](https://help.sap.com/viewer/product/SAP_CUSTOMER_ORDER_SOURCING/Cloud/) 
+[SAP Customer Order Sourcing](https://help.sap.com/viewer/product/SAP_CUSTOMER_ORDER_SOURCING/Cloud/) 
 
 
 
@@ -11811,7 +11811,7 @@ Calculate sourcing results based on your own sourcing strategies.
 <tr>
 <td valign="top">
 
- [SAP Data Intelligence](https://help.sap.com/viewer/product/SAP_DATA_INTELLIGENCE/Cloud/en-US) 
+[SAP Data Intelligence](https://help.sap.com/viewer/product/SAP_DATA_INTELLIGENCE/Cloud/en-US) 
 
 
 
@@ -11872,7 +11872,7 @@ Connect data from various sources to enable next-generation data management.
 <tr>
 <td valign="top">
 
- [SAP Data Intelligence](https://help.sap.com/viewer/product/SAP_DATA_INTELLIGENCE/Cloud/en-US) 
+[SAP Data Intelligence](https://help.sap.com/viewer/product/SAP_DATA_INTELLIGENCE/Cloud/en-US) 
 
 
 
@@ -11931,7 +11931,7 @@ Connect data from various sources to enable next-generation data management.
 <tr>
 <td valign="top">
 
- [SAP Document Center](http://help.sap.com/mdocs) 
+[SAP Document Center](http://help.sap.com/mdocs) 
 
 
 
@@ -12000,7 +12000,7 @@ Use uniform standard-based file access and mobilize your business content.
 <tr>
 <td valign="top">
 
- [SAP Excise Tax Management](https://help.sap.com/viewer/p/EXCISE_TAX) 
+[SAP Excise Tax Management](https://help.sap.com/viewer/p/EXCISE_TAX) 
 
 
 
@@ -12058,7 +12058,7 @@ Help Excise Tax customers calculate, track, and comply with excise duty tax requ
 <tr>
 <td valign="top">
 
- [SAP HANA Cloud](https://help.sap.com/viewer/p/HANA_CLOUD) 
+[SAP HANA Cloud](https://help.sap.com/viewer/p/HANA_CLOUD) 
 
 
 
@@ -12122,7 +12122,7 @@ A single gateway to all your data.
 <tr>
 <td valign="top">
 
- [SAP HANA Cloud](https://help.sap.com/viewer/p/HANA_CLOUD) 
+[SAP HANA Cloud](https://help.sap.com/viewer/p/HANA_CLOUD) 
 
 
 
@@ -12184,7 +12184,7 @@ A single gateway to all your data.
 <tr>
 <td valign="top">
 
- [SAP HANA Cloud](https://help.sap.com/viewer/p/HANA_CLOUD) 
+[SAP HANA Cloud](https://help.sap.com/viewer/p/HANA_CLOUD) 
 
 
 
@@ -12242,7 +12242,7 @@ A single gateway to all your data.
 <tr>
 <td valign="top">
 
- [SAP HANA spatial services](https://help.sap.com/viewer/product/SAP_HANA_SPATIAL_SERVICES/latest/) 
+[SAP HANA spatial services](https://help.sap.com/viewer/product/SAP_HANA_SPATIAL_SERVICES/latest/) 
 
 
 
@@ -12301,7 +12301,7 @@ SAP HANA spatial services provides a set of APIs for location-based services.
 <tr>
 <td valign="top">
 
- [SAP HANA Service](https://help.sap.com/viewer/product/HANA_SERVICE/Cloud/en-US) 
+[SAP HANA Service](https://help.sap.com/viewer/product/HANA_SERVICE/Cloud/en-US) 
 
 
 
@@ -12371,7 +12371,7 @@ Create and consume SAP HANA databases.
 <tr>
 <td valign="top">
 
- [SAP HANA Service](https://help.sap.com/viewer/product/HANA_SERVICE/Cloud/en-US) 
+[SAP HANA Service](https://help.sap.com/viewer/product/HANA_SERVICE/Cloud/en-US) 
 
 
 
@@ -12435,7 +12435,7 @@ Create and consume SAP HANA databases.
 <tr>
 <td valign="top">
 
- [SAP HANA Service](https://help.sap.com/viewer/product/HANA_SERVICE/Cloud/en-US) 
+[SAP HANA Service](https://help.sap.com/viewer/product/HANA_SERVICE/Cloud/en-US) 
 
 
 
@@ -12498,7 +12498,7 @@ Create and consume SAP HANA databases.
 <tr>
 <td valign="top">
 
- [SAP HANA Service](https://help.sap.com/viewer/product/HANA_SERVICE/Cloud/en-US) 
+[SAP HANA Service](https://help.sap.com/viewer/product/HANA_SERVICE/Cloud/en-US) 
 
 
 
@@ -12556,7 +12556,7 @@ Create and consume SAP HANA databases.
 <tr>
 <td valign="top">
 
- [SAP HANA Service](https://help.sap.com/viewer/product/HANA_SERVICE/Cloud/en-US) 
+[SAP HANA Service](https://help.sap.com/viewer/product/HANA_SERVICE/Cloud/en-US) 
 
 
 
@@ -12614,7 +12614,7 @@ Create and consume SAP HANA databases.
 <tr>
 <td valign="top">
 
- [SAP Intelligent Robotic Process Automation](https://help.sap.com/viewer/p/IRPA) 
+[SAP Intelligent Robotic Process Automation](https://help.sap.com/viewer/p/IRPA) 
 
 
 
@@ -12676,7 +12676,7 @@ Design, configure, and execute automation projects.
 <tr>
 <td valign="top">
 
- [SAP Intelligent Robotic Process Automation](https://help.sap.com/viewer/p/IRPA) 
+[SAP Intelligent Robotic Process Automation](https://help.sap.com/viewer/p/IRPA) 
 
 
 
@@ -12734,7 +12734,7 @@ Design, configure, and execute automation projects.
 <tr>
 <td valign="top">
 
- [SAP IoT](https://help.sap.com/viewer/p/SAP_Leonardo_IoT) 
+[SAP IoT](https://help.sap.com/viewer/p/SAP_Leonardo_IoT) 
 
 
 
@@ -12793,7 +12793,7 @@ Put raw sensor data into business context and leverage it in analytical or trans
 <tr>
 <td valign="top">
 
- [SAP IoT](https://help.sap.com/viewer/p/SAP_Leonardo_IoT) 
+[SAP IoT](https://help.sap.com/viewer/p/SAP_Leonardo_IoT) 
 
 
 
@@ -12851,7 +12851,7 @@ Put raw sensor data into business context and leverage it in analytical or trans
 <tr>
 <td valign="top">
 
- [SAP IoT Connect 365](https://community.sapmobileservices.com/t5/SAP-IoT-Connect-365/bd-p/SAPIoTConnect365) 
+[SAP IoT Connect 365](https://community.sapmobileservices.com/t5/SAP-IoT-Connect-365/bd-p/SAPIoTConnect365) 
 
 
 
@@ -12907,7 +12907,7 @@ Simplify the complex connectivity, scalability, and management of IoT.
 <tr>
 <td valign="top">
 
- [SAP Leonardo ML Foundation](https://help.sap.com/viewer/p/SAP_LEONARDO_MACHINE_LEARNING_FOUNDATION) 
+[SAP Leonardo ML Foundation](https://help.sap.com/viewer/p/SAP_LEONARDO_MACHINE_LEARNING_FOUNDATION) 
 
 
 
@@ -12968,7 +12968,7 @@ Infuse your applications with intelligent, easy-to-use services based on Machine
 <tr>
 <td valign="top">
 
- [SAP Leonardo ML Foundation](https://help.sap.com/viewer/p/SAP_LEONARDO_MACHINE_LEARNING_FOUNDATION) 
+[SAP Leonardo ML Foundation](https://help.sap.com/viewer/p/SAP_LEONARDO_MACHINE_LEARNING_FOUNDATION) 
 
 
 
@@ -13026,7 +13026,7 @@ Infuse your applications with intelligent, easy-to-use services based on Machine
 <tr>
 <td valign="top">
 
- [Market Rates, Bring Your Own Rates](https://help.sap.com/viewer/p/SAP_CP_BUS_REUSE_SERVICE_MRM_APP) 
+[Market Rates, Bring Your Own Rates](https://help.sap.com/viewer/p/SAP_CP_BUS_REUSE_SERVICE_MRM_APP) 
 
 
 
@@ -13085,7 +13085,7 @@ Upload market rates and download the same multiple times from different systems.
 <tr>
 <td valign="top">
 
- [Market Rates, Refinitiv](https://help.sap.com/viewer/p/SAP_CP_BUS_REUSE_SERVICE_MRM_TR) 
+[Market Rates, Refinitiv](https://help.sap.com/viewer/p/SAP_CP_BUS_REUSE_SERVICE_MRM_TR) 
 
 
 
@@ -13143,7 +13143,7 @@ Get daily and historical Exchange Rates and Interest Rates from Refinitiv.
 <tr>
 <td valign="top">
 
- [SAP Omnichannel Promotion Pricing](https://help.sap.com/viewer/p/OPP) 
+[SAP Omnichannel Promotion Pricing](https://help.sap.com/viewer/p/OPP) 
 
 
 
@@ -13201,7 +13201,7 @@ Calculate effective sales prices by applying promotional rules.
 <tr>
 <td valign="top">
 
- [SAP Omnichannel Promotion Pricing](https://help.sap.com/viewer/p/OPP) 
+[SAP Omnichannel Promotion Pricing](https://help.sap.com/viewer/p/OPP) 
 
 
 
@@ -13261,7 +13261,7 @@ Calculate effective sales prices by applying promotional rules.
 <tr>
 <td valign="top">
 
- [SAP Process Mining by Celonis, cloud edition](https://help.sap.com/viewer/product/SAP_PROCESS_MINING_BY_CELONIS/latest/en-US) 
+[SAP Process Mining by Celonis, cloud edition](https://help.sap.com/viewer/product/SAP_PROCESS_MINING_BY_CELONIS/latest/en-US) 
 
 
 
@@ -13319,7 +13319,7 @@ Mine data from your operational systems, visualize processes, and transform your
 <tr>
 <td valign="top">
 
- [SAP Procurement Intelligence](https://help.sap.com/viewer/product/SAP_S4HANA_CLOUD_INTELLIGENT_INSIGHTS/2005/en-US) 
+[SAP Procurement Intelligence](https://help.sap.com/viewer/product/SAP_S4HANA_CLOUD_INTELLIGENT_INSIGHTS/2005/en-US) 
 
 
 
@@ -13377,7 +13377,7 @@ Automate and simplify your business processes by applying machine learning intel
 <tr>
 <td valign="top">
 
- [SAP RealSpend](https://help.sap.com/viewer/p/SAP_RealSpend) 
+[SAP RealSpend](https://help.sap.com/viewer/p/SAP_RealSpend) 
 
 
 
@@ -13435,7 +13435,7 @@ Manage and track expenses, and compare them against your budget in real time.
 <tr>
 <td valign="top">
 
- [SAP S/4HANA Cloud Extensibility](https://help.sap.com/viewer/7b98ddc13f8d4a3ba08a74042a0baa7f/Cloud/en-US/346864df64f24011b49abee07bbd79af.html) 
+[SAP S/4HANA Cloud Extensibility](https://help.sap.com/viewer/7b98ddc13f8d4a3ba08a74042a0baa7f/Cloud/en-US/346864df64f24011b49abee07bbd79af.html) 
 
 
 
@@ -13499,7 +13499,7 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP S/4
 <tr>
 <td valign="top">
 
- [SAP S/4HANA Cloud Extensibility](https://help.sap.com/viewer/7b98ddc13f8d4a3ba08a74042a0baa7f/Cloud/en-US/346864df64f24011b49abee07bbd79af.html) 
+[SAP S/4HANA Cloud Extensibility](https://help.sap.com/viewer/7b98ddc13f8d4a3ba08a74042a0baa7f/Cloud/en-US/346864df64f24011b49abee07bbd79af.html) 
 
 
 
@@ -13559,7 +13559,7 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP S/4
 <tr>
 <td valign="top">
 
- [SAP S/4HANA Cloud Extensibility](https://help.sap.com/viewer/7b98ddc13f8d4a3ba08a74042a0baa7f/Cloud/en-US/346864df64f24011b49abee07bbd79af.html) 
+[SAP S/4HANA Cloud Extensibility](https://help.sap.com/viewer/7b98ddc13f8d4a3ba08a74042a0baa7f/Cloud/en-US/346864df64f24011b49abee07bbd79af.html) 
 
 
 
@@ -13618,7 +13618,7 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP S/4
 <tr>
 <td valign="top">
 
- [SAP SuccessFactors Extensibility](https://help.sap.com/viewer/7b98ddc13f8d4a3ba08a74042a0baa7f/Cloud/en-US/346864df64f24011b49abee07bbd79af.html) 
+[SAP SuccessFactors Extensibility](https://help.sap.com/viewer/7b98ddc13f8d4a3ba08a74042a0baa7f/Cloud/en-US/346864df64f24011b49abee07bbd79af.html) 
 
 
 
@@ -13682,7 +13682,7 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP Suc
 <tr>
 <td valign="top">
 
- [SAP SuccessFactors Extensibility](https://help.sap.com/viewer/7b98ddc13f8d4a3ba08a74042a0baa7f/Cloud/en-US/346864df64f24011b49abee07bbd79af.html) 
+[SAP SuccessFactors Extensibility](https://help.sap.com/viewer/7b98ddc13f8d4a3ba08a74042a0baa7f/Cloud/en-US/346864df64f24011b49abee07bbd79af.html) 
 
 
 
@@ -13742,7 +13742,7 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP Suc
 <tr>
 <td valign="top">
 
- [SAP SuccessFactors Extensibility](https://help.sap.com/viewer/7b98ddc13f8d4a3ba08a74042a0baa7f/Cloud/en-US/346864df64f24011b49abee07bbd79af.html) 
+[SAP SuccessFactors Extensibility](https://help.sap.com/viewer/7b98ddc13f8d4a3ba08a74042a0baa7f/Cloud/en-US/346864df64f24011b49abee07bbd79af.html) 
 
 
 
@@ -13801,7 +13801,7 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP Suc
 <tr>
 <td valign="top">
 
- [SAP Translation Hub](https://help.sap.com/viewer/product/SAP_TRANSLATION_HUB/Cloud/en-US) 
+[SAP Translation Hub](https://help.sap.com/viewer/product/SAP_TRANSLATION_HUB/Cloud/en-US) 
 
 
 
@@ -13866,7 +13866,7 @@ Translate UI texts and get suggestions for UI texts during development.
 <tr>
 <td valign="top">
 
- [SAP Web IDE Full-Stack](https://help.sap.com/viewer/product/SAP_Web_IDE/CF/en-US) 
+[SAP Web IDE Full-Stack](https://help.sap.com/viewer/product/SAP_Web_IDE/CF/en-US) 
 
 
 
@@ -13936,7 +13936,7 @@ Create and extend SAP full-stack applications for browsers and mobile devices.
 <tr>
 <td valign="top">
 
- [Service Manager](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/3a27b85a47fc4dff99184dd5bf181e14.html) 
+[Service Manager](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/3a27b85a47fc4dff99184dd5bf181e14.html) 
 
 
 
@@ -14000,7 +14000,7 @@ The central registry for service brokers and platforms in SAP BTP.
 <tr>
 <td valign="top">
 
- [Service Manager](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/3a27b85a47fc4dff99184dd5bf181e14.html) 
+[Service Manager](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/3a27b85a47fc4dff99184dd5bf181e14.html) 
 
 
 
@@ -14062,7 +14062,7 @@ The central registry for service brokers and platforms in SAP BTP.
 <tr>
 <td valign="top">
 
- [Service Manager](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/3a27b85a47fc4dff99184dd5bf181e14.html) 
+[Service Manager](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/3a27b85a47fc4dff99184dd5bf181e14.html) 
 
 
 
@@ -14121,7 +14121,7 @@ The central registry for service brokers and platforms in SAP BTP.
 <tr>
 <td valign="top">
 
- [Service Ticket Intelligence](https://help.sap.com/stint) 
+[Service Ticket Intelligence](https://help.sap.com/stint) 
 
 
 
@@ -14180,7 +14180,7 @@ Build a self-driven customer service powered by machine learning.
 <tr>
 <td valign="top">
 
- [Service Ticket Intelligence](https://help.sap.com/stint) 
+[Service Ticket Intelligence](https://help.sap.com/stint) 
 
 
 
@@ -14238,7 +14238,7 @@ Build a self-driven customer service powered by machine learning.
 <tr>
 <td valign="top">
 
- [SAP Smart Business Service](https://help.sap.com/viewer/product/SAP_Smart_Business_Service/Cloud_Dev/en-US) 
+[SAP Smart Business Service](https://help.sap.com/viewer/product/SAP_Smart_Business_Service/Cloud_Dev/en-US) 
 
 
 
@@ -14306,7 +14306,7 @@ Expose KPIs and OPIs as SAP Fiori applications without the need to write any cod
 <tr>
 <td valign="top">
 
- [SAP Smart Business Service](https://help.sap.com/viewer/product/SAP_Smart_Business_Service/Cloud_Dev/en-US) 
+[SAP Smart Business Service](https://help.sap.com/viewer/product/SAP_Smart_Business_Service/Cloud_Dev/en-US) 
 
 
 
@@ -14365,7 +14365,7 @@ Expose KPIs and OPIs as SAP Fiori applications without the need to write any cod
 <tr>
 <td valign="top">
 
- [Solutions Lifecycle Management](https://help.sap.com/viewer/product/SOLUTIONS_LIFECYCLE_MANAGEMENT/Cloud/en-US) 
+[Solutions Lifecycle Management](https://help.sap.com/viewer/product/SOLUTIONS_LIFECYCLE_MANAGEMENT/Cloud/en-US) 
 
 
 
@@ -14435,7 +14435,7 @@ Deploy, subscribe and transport solutions using multi-target applications \(MTAs
 <tr>
 <td valign="top">
 
- [Streaming Analytics](https://help.sap.com/viewer/p/Streaming_Analytics) 
+[Streaming Analytics](https://help.sap.com/viewer/p/Streaming_Analytics) 
 
 
 
@@ -14503,7 +14503,7 @@ Process continuous streams of event data in real time and act on the results.
 <tr>
 <td valign="top">
 
- [Tax Service](https://help.sap.com/viewer/product/SLH_tax_service/Cloud/en-US) 
+[Tax Service](https://help.sap.com/viewer/product/SLH_tax_service/Cloud/en-US) 
 
 
 
@@ -14561,7 +14561,7 @@ Determine and calculate indirect taxes to support tax compliance.
 <tr>
 <td valign="top">
 
- [Tax Service](https://help.sap.com/viewer/product/SLH_tax_service/Cloud/en-US) 
+[Tax Service](https://help.sap.com/viewer/product/SLH_tax_service/Cloud/en-US) 
 
 
 
@@ -14620,7 +14620,7 @@ Determine and calculate indirect taxes to support tax compliance.
 <tr>
 <td valign="top">
 
- [Tax Service](https://help.sap.com/viewer/product/SLH_tax_service/Cloud/en-US) 
+[Tax Service](https://help.sap.com/viewer/product/SLH_tax_service/Cloud/en-US) 
 
 
 
@@ -14678,7 +14678,7 @@ Determine and calculate indirect taxes to support tax compliance.
 <tr>
 <td valign="top">
 
- [Cloud Transport Management](https://help.sap.com/viewer/p/TRANSPORT_MANAGEMENT_SERVICE) 
+[Cloud Transport Management](https://help.sap.com/viewer/p/TRANSPORT_MANAGEMENT_SERVICE) 
 
 
 
@@ -14744,7 +14744,7 @@ Provides programmatic access to Cloud Transport Management.
 <tr>
 <td valign="top">
 
- [Cloud Transport Management](https://help.sap.com/viewer/p/TRANSPORT_MANAGEMENT_SERVICE) 
+[Cloud Transport Management](https://help.sap.com/viewer/p/TRANSPORT_MANAGEMENT_SERVICE) 
 
 
 
@@ -14808,7 +14808,7 @@ Provides programmatic access to Cloud Transport Management.
 <tr>
 <td valign="top">
 
- [Cloud Transport Management](https://help.sap.com/viewer/p/TRANSPORT_MANAGEMENT_SERVICE) 
+[Cloud Transport Management](https://help.sap.com/viewer/p/TRANSPORT_MANAGEMENT_SERVICE) 
 
 
 
@@ -14868,7 +14868,7 @@ Provides programmatic access to Cloud Transport Management.
 <tr>
 <td valign="top">
 
- [UI Theme Designer](https://help.sap.com/viewer/product/UI_THEME_DESIGNER/Cloud/en-US) 
+[UI Theme Designer](https://help.sap.com/viewer/product/UI_THEME_DESIGNER/Cloud/en-US) 
 
 
 
@@ -14938,7 +14938,7 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 <tr>
 <td valign="top">
 
- [UI Theme Designer](https://help.sap.com/viewer/product/UI_THEME_DESIGNER/Cloud/en-US) 
+[UI Theme Designer](https://help.sap.com/viewer/product/UI_THEME_DESIGNER/Cloud/en-US) 
 
 
 
@@ -15002,7 +15002,7 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 <tr>
 <td valign="top">
 
- [UI Theme Designer](https://help.sap.com/viewer/product/UI_THEME_DESIGNER/Cloud/en-US) 
+[UI Theme Designer](https://help.sap.com/viewer/product/UI_THEME_DESIGNER/Cloud/en-US) 
 
 
 
@@ -15064,7 +15064,7 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 <tr>
 <td valign="top">
 
- [UI Theme Designer](https://help.sap.com/viewer/product/UI_THEME_DESIGNER/Cloud/en-US) 
+[UI Theme Designer](https://help.sap.com/viewer/product/UI_THEME_DESIGNER/Cloud/en-US) 
 
 
 
@@ -15123,7 +15123,7 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 <tr>
 <td valign="top">
 
- [UI Theme Designer](https://help.sap.com/viewer/product/UI_THEME_DESIGNER/Cloud/en-US) 
+[UI Theme Designer](https://help.sap.com/viewer/product/UI_THEME_DESIGNER/Cloud/en-US) 
 
 
 
@@ -15181,7 +15181,7 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 <tr>
 <td valign="top">
 
- [UI5 flexibility for key users](https://help.sap.com/viewer/product/UI5_FLEXIBILITY_KEY_USER/Cloud/en-US) 
+[UI5 flexibility for key users](https://help.sap.com/viewer/product/UI5_FLEXIBILITY_KEY_USER/Cloud/en-US) 
 
 
 
@@ -15247,7 +15247,7 @@ Add UI adaptation to your UI5 applications.
 <tr>
 <td valign="top">
 
- [UI5 flexibility for key users](https://help.sap.com/viewer/product/UI5_FLEXIBILITY_KEY_USER/Cloud/en-US) 
+[UI5 flexibility for key users](https://help.sap.com/viewer/product/UI5_FLEXIBILITY_KEY_USER/Cloud/en-US) 
 
 
 
@@ -15310,7 +15310,7 @@ Add UI adaptation to your UI5 applications.
 <tr>
 <td valign="top">
 
- [UI5 flexibility for key users](https://help.sap.com/viewer/product/UI5_FLEXIBILITY_KEY_USER/Cloud/en-US) 
+[UI5 flexibility for key users](https://help.sap.com/viewer/product/UI5_FLEXIBILITY_KEY_USER/Cloud/en-US) 
 
 
 
@@ -15370,7 +15370,7 @@ Add UI adaptation to your UI5 applications.
 <tr>
 <td valign="top">
 
- [Variant Configuration service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
+[Variant Configuration service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
 
 
 
@@ -15430,7 +15430,7 @@ Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
 <tr>
 <td valign="top">
 
- [Variant Configuration service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
+[Variant Configuration service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
 
 
 
@@ -15488,7 +15488,7 @@ Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
 <tr>
 <td valign="top">
 
- [Virtual Machines](https://help.sap.com/viewer/product/VIRTUAL_MACHINES/Cloud/en-US) 
+[Virtual Machines](https://help.sap.com/viewer/product/VIRTUAL_MACHINES/Cloud/en-US) 
 
 
 
@@ -15547,7 +15547,7 @@ Virtualized hardware resources \(CPU, RAM, disk space, installed OS\) to install
 <tr>
 <td valign="top">
 
- [Web Analytics](https://help.sap.com/viewer/product/SAP_WEB_ANALYTICS/Cloud/en-US) 
+[Web Analytics](https://help.sap.com/viewer/product/SAP_WEB_ANALYTICS/Cloud/en-US) 
 
 
 
@@ -15610,7 +15610,7 @@ Analyze usage of your websites and web applications.
 <tr>
 <td valign="top">
 
- [Web Analytics](https://help.sap.com/viewer/product/SAP_WEB_ANALYTICS/Cloud/en-US) 
+[Web Analytics](https://help.sap.com/viewer/product/SAP_WEB_ANALYTICS/Cloud/en-US) 
 
 
 
@@ -15672,7 +15672,7 @@ Analyze usage of your websites and web applications.
 <tr>
 <td valign="top">
 
- [Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
+[Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
 
 
 
@@ -15738,7 +15738,7 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 <tr>
 <td valign="top">
 
- [Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
+[Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
 
 
 
@@ -15801,7 +15801,7 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 <tr>
 <td valign="top">
 
- [Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
+[Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
 
 
 
@@ -15859,7 +15859,7 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 <tr>
 <td valign="top">
 
- [Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
+[Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
 
 
 
@@ -15917,7 +15917,7 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 <tr>
 <td valign="top">
 
- [Workflow](https://help.sap.com/viewer/p/WORKFLOW_SERVICE) 
+[Workflow](https://help.sap.com/viewer/p/WORKFLOW_SERVICE) 
 
 
 
@@ -15986,7 +15986,7 @@ Automate business processes using workflow technology.
 <tr>
 <td valign="top">
 
- [Workflow](https://help.sap.com/viewer/p/WORKFLOW_SERVICE) 
+[Workflow](https://help.sap.com/viewer/p/WORKFLOW_SERVICE) 
 
 
 
@@ -16052,7 +16052,7 @@ Automate business processes using workflow technology.
 <tr>
 <td valign="top">
 
- [Workflow](https://help.sap.com/viewer/p/WORKFLOW_SERVICE) 
+[Workflow](https://help.sap.com/viewer/p/WORKFLOW_SERVICE) 
 
 
 
@@ -16115,7 +16115,7 @@ Automate business processes using workflow technology.
 <tr>
 <td valign="top">
 
- [Workflow](https://help.sap.com/viewer/p/WORKFLOW_SERVICE) 
+[Workflow](https://help.sap.com/viewer/p/WORKFLOW_SERVICE) 
 
 
 
@@ -16174,7 +16174,7 @@ Automate business processes using workflow technology.
 <tr>
 <td valign="top">
 
- [Workflow](https://help.sap.com/viewer/p/WORKFLOW_SERVICE) 
+[Workflow](https://help.sap.com/viewer/p/WORKFLOW_SERVICE) 
 
 
 
@@ -16282,7 +16282,7 @@ BC-CP-CF-CPT \[Cloud Foundry environment UI\]
 <tr>
 <td valign="top">
 
- SAP BTP Command Line Interface
+SAP BTP Command Line Interface
 
 
 

@@ -10,7 +10,7 @@
 
 -   The *Enterprise Event Enablement ‒ Configure Channel Bindings* app is visible.
 
-    If the *Enterprise Event Enablement ‒ Configure Channel Bindings* app is not visible, add the *Enterprise Event Enablement* business catalog to the `SAP_BR_ADMINISTRATOR` role using the *Maintain Business Roles* app. The change in your role becomes effective after you have logged out and logged in again. For more information about adding catalogs to business roles, refer to [Maintain Business Roles](maintain-business-roles-8980ad0.md).
+    If the *Enterprise Event Enablement ‒ Configure Channel Bindings* app is not visible, add the *Enterprise Event Enablement* business catalog to the `SAP_BR_ADMINISTRATOR` role using the *Maintain Business Roles* app. The change in your role becomes effective after you have logged out and logged in again. For more information about adding catalogs to business roles, refer to [Maintain Business Roles \(Deprecated\)](maintain-business-roles-deprecated-8980ad0.md).
 
 
 
@@ -52,14 +52,14 @@ You can configure outbound event topic bindings for publishing events.
     <tr>
     <td valign="top">
     
-        **Create a new topic.**
+    **Create a new topic.**
 
 
     
     </td>
     <td valign="top">
     
-        1.  Choose *Create*.
+    1.  Choose *Create*.
     2.  Enter a topic name.
     3.  Choose *Create* to save your entries.
 
@@ -72,14 +72,14 @@ You can configure outbound event topic bindings for publishing events.
     <tr>
     <td valign="top">
     
-        **Delete an existing topic.**
+    **Delete an existing topic.**
 
 
     
     </td>
     <td valign="top">
     
-        1.  Select the checkbox of the topic you want to delete.
+    1.  Select the checkbox of the topic you want to delete.
     2.  Choose *Delete*.
 
 
@@ -89,14 +89,14 @@ You can configure outbound event topic bindings for publishing events.
     <tr>
     <td valign="top">
     
-        **Define table parameters.**
+    **Define table parameters.**
 
 
     
     </td>
     <td valign="top">
     
-        Press the gear icon to define the table parameters.
+    Click the gear icon to define the table parameters.
 
 
     

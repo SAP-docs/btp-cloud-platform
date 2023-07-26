@@ -24,7 +24,7 @@ The only possible way for your XSJS applications to be up and running on latest 
 > ### Note:  
 > In exceptional cases \(if you haven’t completed the migration to Async-XSJS\), to avoid application failures during redeployment, you may pin the last buildpack version that contains Node.js14, as provided by the [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack) community. You can do this in your **manifest.yml** file, and then redeploy your app. To learn how, see: [Specify a buildpack version in manifest.yml](tips-and-tricks-for-node-js-applications-3a5fe88.md#loio3a5fe887f6e64abb827494baac352059__specify_node_bp_version) 
 > 
-> Please be advised, that SAP does **not** recommended usage of Node.js 14 after April 2023, as no support and security fixes will be provided for this version.
+> Please be advised, that SAP does **not** recommended usage of Node.js 14, as no support and security fixes are provided for this version anymore.
 
 
 

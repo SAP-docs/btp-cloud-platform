@@ -111,14 +111,14 @@ If there are authentication problems in your application, enable logging for the
     <tr>
     <td valign="top">
     
-         `SAP_EXT_TRC` 
+    `SAP_EXT_TRC` 
 
 
     
     </td>
     <td valign="top">
     
-        Enablement of logs
+    Enablement of logs
 
 
     
@@ -127,14 +127,14 @@ If there are authentication problems in your application, enable logging for the
     <tr>
     <td valign="top">
     
-         `SAP_EXT_TRL` 
+    `SAP_EXT_TRL` 
 
 
     
     </td>
     <td valign="top">
     
-        Log level ranging from off to high
+    Log level ranging from off to high
 
     Values \(integer\):
 
@@ -176,14 +176,14 @@ If there are authentication problems in your application, enable logging for the
     <tr>
     <td valign="top">
     
-         `DEBUG` 
+    `DEBUG` 
 
 
     
     </td>
     <td valign="top">
     
-        Detailed logs of the security API for Node.js
+    Detailed logs of the security API for Node.js
 
     Value \(string\): `xssec*`
 

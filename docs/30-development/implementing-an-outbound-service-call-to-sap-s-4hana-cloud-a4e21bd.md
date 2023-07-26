@@ -4,11 +4,11 @@
 
 After an administrator has created an OAuth2SAMLBearerAssertion destination to integrate SAP S/4HANA Cloud and the ABAP environment, as a developer user, you can now implement applications in the ABAP environment that call external services in SAP S/4HANA Cloud.
 
-   
+  
   
 **Outbound Service Call Using Client Proxy: Developer Activitities \(Administration Activities Grayed Out\)**
 
- ![](images/Integration_of_ABAP_Environment_with_S_4HANA_Cloud_Developer_Activitities_455579a.png "Outbound Service Call Using Client Proxy: Developer Activitities (Administration Activities Grayed Out)") 
+![](images/Integration_of_ABAP_Environment_with_S_4HANA_Cloud_Developer_Activitities_455579a.png "Outbound Service Call Using Client Proxy: Developer Activitities (Administration Activities Grayed Out)")
 
 The next steps of the developers would be the following:
 

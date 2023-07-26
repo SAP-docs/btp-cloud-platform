@@ -35,7 +35,7 @@ You have the Administrator role in the global account.
 
 [User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, member management happens at all levels from global account to environment, while user management is done for business applications.")
 
- <a name="AddMembers-FSA"/>
+<a name="AddMembers-FSA"/>
 
 <!-- AddMembers-FSA -->
 
@@ -86,7 +86,7 @@ On the *Members* page at the global account level in the cockpit, all global acc
 
 To delete members at global account level, choose :wastebasket: next to the user's ID.
 
- <a name="AddMembers-FSB"/>
+<a name="AddMembers-FSB"/>
 
 <!-- AddMembers-FSB -->
 

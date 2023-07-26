@@ -10,11 +10,11 @@
 
 Business users are replicated from your central HR system. You can change user data \(for example, the user name\) and regional settings \(for example, the date and time format\).
 
-   
+  
   
 **How users get access to SAP Fiori apps**
 
- ![](images/How_users_get_access_to_SAP_Fiori_apps_9ff1771.png "How users get access to SAP Fiori apps") 
+![](images/How_users_get_access_to_SAP_Fiori_apps_9ff1771.png "How users get access to SAP Fiori apps")
 
 
 
@@ -78,14 +78,14 @@ Business users are replicated from your central HR system. You can change user d
     > <tr>
     > <td valign="top">
     > 
-    >  `User Name` 
+    > `User Name` 
     > 
     > 
     > 
     > </td>
     > <td valign="top">
     > 
-    >  `User ID` \(Optional\)
+    > `User ID` \(Optional\)
     > 
     > 
     > 
@@ -101,14 +101,14 @@ Business users are replicated from your central HR system. You can change user d
     > <tr>
     > <td valign="top">
     > 
-    >  *<User name 1\>* 
+    > *<User name 1\>* 
     > 
     > 
     > 
     > </td>
     > <td valign="top">
     > 
-    >  *<Business user ID 1\>* 
+    > *<Business user ID 1\>* 
     > 
     > 
     > 
@@ -124,14 +124,14 @@ Business users are replicated from your central HR system. You can change user d
     > <tr>
     > <td valign="top">
     > 
-    >  *<User name 2\>* 
+    > *<User name 2\>* 
     > 
     > 
     > 
     > </td>
     > <td valign="top">
     > 
-    >  *<Business user ID 2\>* 
+    > *<Business user ID 2\>* 
     > 
     > 
     > 
@@ -147,14 +147,14 @@ Business users are replicated from your central HR system. You can change user d
     > <tr>
     > <td valign="top">
     > 
-    >  *<User name 3\>* 
+    > *<User name 3\>* 
     > 
     > 
     > 
     > </td>
     > <td valign="top">
     > 
-    >  *<Business user ID 3\>* 
+    > *<Business user ID 3\>* 
     > 
     > 
     > 
@@ -170,21 +170,21 @@ Business users are replicated from your central HR system. You can change user d
     > <tr>
     > <td valign="top">
     > 
-    >  *<User name n\>* 
+    > *<User name n\>* 
     > 
     > 
     > 
     > </td>
     > <td valign="top">
     > 
-    >  *<Business user ID n\>* 
+    > *<Business user ID n\>* 
     > 
     > 
     > 
     > </td>
     > <td valign="top">
     > 
-    >  *<Business role ID n\>* 
+    > *<Business role ID n\>* 
     > 
     > 
     > 

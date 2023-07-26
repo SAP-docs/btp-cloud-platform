@@ -121,7 +121,7 @@ Google Cloud regions
 <tr>
 <td valign="top">
 
- China \(Shanghai\) region
+China \(Shanghai\) region
 
 
 
@@ -144,7 +144,7 @@ See [Getting Support](https://help.sap.com/viewer/cc53ad464a57404b8d453bbadbc81c
 <tr>
 <td valign="top">
 
- Government Cloud \(US\) region
+Government Cloud \(US\) region
 
 
 

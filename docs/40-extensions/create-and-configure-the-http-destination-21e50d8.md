@@ -47,30 +47,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <tr>
         <td valign="top">
         
-                `Name`
+        `Name`
 
 
         
         </td>
         <td valign="top">
         
-                Enter a meaningful name.
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `Type`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                `HTTP`
+        Enter a meaningful name.
 
 
         
@@ -79,30 +63,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <tr>
         <td valign="top">
         
-                `Description`
+        `Type`
 
 
         
         </td>
         <td valign="top">
         
-                \(Optional\) Enter a meaningful description.
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `URL`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                <code>https://<i class="varname">&lt;my_SAP_Cloud_for_Customer_system_name&gt;</i>.crm.ondemand.com/sap/c4c/odata/v1/c4codataapi</code>
+        `HTTP`
 
 
         
@@ -111,30 +79,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <tr>
         <td valign="top">
         
-                `Proxy Type`
+        `Description`
 
 
         
         </td>
         <td valign="top">
         
-                `Internet`
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `Authentication`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                `OAuth2SAMLBearerAssertion`
+        \(Optional\) Enter a meaningful description.
 
 
         
@@ -143,14 +95,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <tr>
         <td valign="top">
         
-                `Audience`
+        `URL`
 
 
         
         </td>
         <td valign="top">
         
-                Go to the SAP Cloud for Customer administration view, then navigate to *Configure Single Sign-On* under *General Settings* and copy the value from the *Local Service Provider* field.
+        <code>https://<i class="varname">&lt;my_SAP_Cloud_for_Customer_system_name&gt;</i>.crm.ondemand.com/sap/c4c/odata/v1/c4codataapi</code>
 
 
         
@@ -159,14 +111,62 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <tr>
         <td valign="top">
         
-                `Client Key`
+        `Proxy Type`
 
 
         
         </td>
         <td valign="top">
         
-                Client ID
+        `Internet`
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `Authentication`
+
+
+        
+        </td>
+        <td valign="top">
+        
+        `OAuth2SAMLBearerAssertion`
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `Audience`
+
+
+        
+        </td>
+        <td valign="top">
+        
+        Go to the SAP Cloud for Customer administration view, then navigate to *Configure Single Sign-On* under *General Settings* and copy the value from the *Local Service Provider* field.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `Client Key`
+
+
+        
+        </td>
+        <td valign="top">
+        
+        Client ID
 
         Paste the entry you have copied from the *Client ID* field when configuring the OAuth client. For more information, see [Configure the OAuth Client for OData Access](configure-the-oauth-client-for-odata-access-2c9c02d.md).
 
@@ -177,14 +177,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <tr>
         <td valign="top">
         
-                `Token Service URL`
+        `Token Service URL`
 
 
         
         </td>
         <td valign="top">
         
-                <code>https://<i class="varname">&lt;my_SAP_Cloud_for_Customer_system_name&gt;</i>.crm.ondemand.com/sap/bc/sec/oauth2/token</code>
+        <code>https://<i class="varname">&lt;my_SAP_Cloud_for_Customer_system_name&gt;</i>.crm.ondemand.com/sap/bc/sec/oauth2/token</code>
 
 
         
@@ -193,14 +193,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <tr>
         <td valign="top">
         
-                `Token Service User`
+        `Token Service User`
 
 
         
         </td>
         <td valign="top">
         
-                Client ID
+        Client ID
 
         Paste the entry you have copied from the *Client ID* field when configuring the OAuth client. For more information, see [Configure the OAuth Client for OData Access](configure-the-oauth-client-for-odata-access-2c9c02d.md).
 
@@ -211,14 +211,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <tr>
         <td valign="top">
         
-                `Token Service Password`
+        `Token Service Password`
 
 
         
         </td>
         <td valign="top">
         
-                Client secret
+        Client secret
 
         Paste the entry you have copied from the *Client Secret* field when configuring the OAuth client. For more information, see [Configure the OAuth Client for OData Access](configure-the-oauth-client-for-odata-access-2c9c02d.md).
 
@@ -254,30 +254,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <tr>
         <td valign="top">
         
-                `authnContextClassRef`
+        `authnContextClassRef`
 
 
         
         </td>
         <td valign="top">
         
-                 `urn:none` 
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `nameIdFormat`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                 `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress` 
+        `urn:none` 
 
 
         
@@ -286,14 +270,30 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <tr>
         <td valign="top">
         
-                `scope`
+        `nameIdFormat`
 
 
         
         </td>
         <td valign="top">
         
-                Scope ID entries separated by space.
+        `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress` 
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `scope`
+
+
+        
+        </td>
+        <td valign="top">
+        
+        Scope ID entries separated by space.
 
         Paste the entry you have copied from the Client ID field when configuring the OAuth client. For more information, see [Configure the OAuth Client for OData Access](configure-the-oauth-client-for-odata-access-2c9c02d.md).
 
@@ -306,14 +306,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <tr>
         <td valign="top">
         
-                `userIdSource`
+        `userIdSource`
 
 
         
         </td>
         <td valign="top">
         
-                email
+        email
 
 
         

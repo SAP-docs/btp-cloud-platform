@@ -66,7 +66,7 @@ Within the BTP Operator module, BTP Manager installs SAP BTP Service Operator th
 <td valign="top">
 
 -   [Using SAP BTP Services in the Kyma Environment](../30-development/using-sap-btp-services-in-the-kyma-environment-ea4dd81.md)
--   [BTP Operator module](https://kyma-docs.netlify.app//?basePath=https://raw.githubusercontent.com/kyma-project/btp-manager/main/&homepage=docs/user/README.md&sidebar=true&loadSidebar=docs/user/_sidebar.md&browser-tab-title=BTP%20Operator%20Documentation#/docs/user/README)
+-   [BTP Operator module](https://docs.kyma-project.io//?basePath=https://raw.githubusercontent.com/kyma-project/btp-manager/main/&homepage=docs/user/README.md&sidebar=true&loadSidebar=docs/user/_sidebar.md&browser-tab-title=BTP%20Operator%20Documentation#/docs/user/README)
 -   [BTP Manger releases](https://github.com/kyma-project/btp-manager/releases)
 -   [SAP BTP Service Operator releases](https://github.com/SAP/sap-btp-service-operator/releases)
 
@@ -91,7 +91,7 @@ The Keda module comes with Keda Manager, an extension to Kyma that allows you to
 </td>
 <td valign="top">
 
--   [Keda module](https://kyma-docs.netlify.app//?basePath=https://raw.githubusercontent.com/kyma-project/keda-manager/main/&homepage=docs/user/README.md&sidebar=true&loadSidebar=docs/user/_sidebar.md&browser-tab-title=Keda%20module%20Documentation#/docs/user/README)
+-   [Keda module](https://docs.kyma-project.io//?basePath=https://raw.githubusercontent.com/kyma-project/keda-manager/main/&homepage=docs/user/README.md&sidebar=true&loadSidebar=docs/user/_sidebar.md&browser-tab-title=Keda%20module%20Documentation#/docs/user/README)
 
 
 

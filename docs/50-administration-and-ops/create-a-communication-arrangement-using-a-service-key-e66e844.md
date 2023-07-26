@@ -44,7 +44,7 @@ To connect the ABAP environment and the SAP BTP cockpit, you need a communicatio
 
 You’ve created the communication arrangement, the communication system, and an inbound user. The communication arrangement is assigned to the DEFAULT consumer type. The consumer type is used to identify the communication arrangement. Therefore, you must only assign it to exactly one communication arrangement. You can assign one communication arrangement to multiple consumer types.
 
- <a name="copyf51d48f2a6d34ec8b98468e67ef55c46"/>
+<a name="copyf51d48f2a6d34ec8b98468e67ef55c46"/>
 
 <!-- copyf51d48f2a6d34ec8b98468e67ef55c46 -->
 

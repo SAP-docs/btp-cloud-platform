@@ -8,7 +8,7 @@
 
 To be able to use client certificate authentication, you need to configure both SAP S/4HANA Cloud and SAP BTP sides.
 
- <a name="loiod8e98a9d49b844479049208bf00593a1"/>
+<a name="loiod8e98a9d49b844479049208bf00593a1"/>
 
 <!-- loiod8e98a9d49b844479049208bf00593a1 -->
 
@@ -64,7 +64,7 @@ To use client certificate authentication, you first start with creating and conf
     You can use the already created communication system. The settings in the *Inbound Communication* section are filled in automatically. Save the value from the *URL* field, you will need it when creating a destination in the subaccount in SAP BTP.
 
 
- <a name="loio311edbe5befa4e06b434c2130bc493b2"/>
+<a name="loio311edbe5befa4e06b434c2130bc493b2"/>
 
 <!-- loio311edbe5befa4e06b434c2130bc493b2 -->
 
@@ -111,30 +111,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <tr>
     <td valign="top">
     
-        `Name`
+    `Name`
 
 
     
     </td>
     <td valign="top">
     
-        Enter a meaningful name.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        `Type`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        `HTTP`
+    Enter a meaningful name.
 
 
     
@@ -143,14 +127,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <tr>
     <td valign="top">
     
-        `Description`
+    `Type`
 
 
     
     </td>
     <td valign="top">
     
-        \(Optional\) Enter a meaningful description.
+    `HTTP`
 
 
     
@@ -159,14 +143,30 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <tr>
     <td valign="top">
     
-        `URL`
+    `Description`
 
 
     
     </td>
     <td valign="top">
     
-        The service URL from the communication arrangement.
+    \(Optional\) Enter a meaningful description.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `URL`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    The service URL from the communication arrangement.
 
     Make sure you use the HTTPS protocol, otherwise the *ClientCertificateAuthentication* option would not appear in the *Authentication* doropdown list.
 
@@ -177,14 +177,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <tr>
     <td valign="top">
     
-        `Proxy Type`
+    `Proxy Type`
 
 
     
     </td>
     <td valign="top">
     
-         `Internet` 
+    `Internet` 
 
 
     
@@ -193,14 +193,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <tr>
     <td valign="top">
     
-        `Authentication`
+    `Authentication`
 
 
     
     </td>
     <td valign="top">
     
-        `ClientCertificateAuthentication`
+    `ClientCertificateAuthentication`
 
     > ### Note:  
     > Once you have selected this option, the system displays the *Upload and Delete Certificate* link.
@@ -236,30 +236,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <tr>
     <td valign="top">
     
-        `WebIDEUsage`
+    `WebIDEUsage`
 
 
     
     </td>
     <td valign="top">
     
-        Specify this property with value `odata_gen` to consume an OData service in your application.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        `WebIDEEnabled`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
+    Specify this property with value `odata_gen` to consume an OData service in your application.
 
 
     
@@ -268,14 +252,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <tr>
     <td valign="top">
     
-        `HTML5.DynamicDestination`
+    `WebIDEEnabled`
 
 
     
     </td>
     <td valign="top">
     
-        If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
+    If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
 
 
     
@@ -284,14 +268,30 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <tr>
     <td valign="top">
     
-        `product.name`
+    `HTML5.DynamicDestination`
 
 
     
     </td>
     <td valign="top">
     
-        `SAP S/4HANA Cloud`
+    If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `product.name`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    `SAP S/4HANA Cloud`
 
     The type of the SAP System for which you create this HTTP destination.
 
@@ -302,14 +302,14 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <tr>
     <td valign="top">
     
-        `communicationScenarioID`
+    `communicationScenarioID`
 
 
     
     </td>
     <td valign="top">
     
-        The ID of the communication scenario.
+    The ID of the communication scenario.
 
 
     

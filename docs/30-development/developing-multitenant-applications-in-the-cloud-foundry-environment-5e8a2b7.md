@@ -2,7 +2,7 @@
 
 # Developing Multitenant Applications in the Cloud Foundry Environment
 
- In the Cloud Foundry environment, you can develop and run multitenant applications, and share them with multiple consumers simultaneously on SAP BTP. 
+In the Cloud Foundry environment, you can develop and run multitenant applications, and share them with multiple consumers simultaneously on SAP BTP. 
 
 
 
@@ -21,7 +21,7 @@ With tenant-aware applications, you can:
 -   Update applications efficiently, in a single step
 
 
- ![](images/CF_Subscriptions_031f5cb.png) 
+![](images/CF_Subscriptions_031f5cb.png)
 
 Consumers cannot see the data of other consumers; the multitenant application maintains data separation between tenants, and SAP Customer Identity and Access Management \(SAP CIAM\) is kept isolated. Each consumer accesses the multitenant application through a dedicated URL.
 
@@ -94,7 +94,7 @@ When a consumer accesses the application, the application environment identifies
 
 The following figure illustrates the relationship between the application provider's subaccount and consumer subaccounts \(tenants\) in the provider's global account. You deploy the multitenant application to the provider subaccount, and subsequently the consumer subaccounts subscribe to the deployed application. The application uses the tenant-aware `approuter` application and `xsuaa` service \(with the `application` plan\) to authenticate business users of the application at runtime. The application is then registered with the SAP Software-as-a-Service Provisioning service \(technical name: `saas-registry`\) with the `application` plan, which makes the application available for subscription to consumers.
 
- ![](images/CF_SaaS_-_Multitenancy_Diagram_for_Developer_Guide_ca302c3.png) 
+![](images/CF_SaaS_-_Multitenancy_Diagram_for_Developer_Guide_ca302c3.png)
 
 
 

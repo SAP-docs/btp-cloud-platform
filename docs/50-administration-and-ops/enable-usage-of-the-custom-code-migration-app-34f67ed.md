@@ -10,7 +10,7 @@
 
 -   Your company has a global account for *SAP Business Technology Platform*.
 
--   You need permission to access the *SAP BTP cockpit* and the *Cloud Connector*.
+-   You need permission to access the *Cloud Connector*.
 
 
 
@@ -49,39 +49,40 @@ To enable communication from your ABAP environment to your on-premise systems us
 
 To set up the connection from the ABAP system in the ABAP environment to your on-premise system, proceed as follows:
 
-1.  In the *SAP BTP Cockpit*, create a destination to the on-premise system \(see [Setting Up Destinations to Enable On-Premise Connectivity](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9b6510edf4d844a28f022b3db41f3202.html)\).
+1.  Log on to the *SAP Fiori launchpad* of your ABAP environment.
 
-2.  Log on to the *SAP Fiori launchpad* of your ABAP environment.
+2.  In the *Communication Management* section, select the *Communication Arrangement* tile.
 
-3.  In the *Communication Management* section, select the *Communication Arrangement* tile.
+3.  Create a new communication arrangement using the `SAP_COM_0464` scenario.
 
-4.  Create a new communication arrangement using the `SAP_COM_0464` scenario.
+4.  If not yet available or defined, create a communication system for the communication arrangement to define an endpoint for your checked system.
 
-5.  If not yet available or defined, create a communication system for the communication arrangement to define an endpoint for your checked system.
+    1.  For the *Communication System*, choose *New*.
+    2.  In the *New Communication System* dialog, enter the *System ID* and *System Name* of the checked system.
 
-    1.  Use the *System ID* and *System Name* of the checked system.
+    3.  Choose *Create*.
 
-    2.  Choose *Create*.
+    4.  In the *Technical Data* tab under *General*, enter the virtual host as specified in your *Cloud Connector* as *Host Name*. The field *Port* has already been filled in automatically with the default *443*.
 
-    3.  Switch on the slider for the *Destination Service*.
+    5.  Switch on the slider for *Cloud Connector*.
 
-    4.  Mark the checkbox *Use Default Instance* to use the default instance.
+    6.  Filling in the field *SCC Location ID* is optional.
 
-        > ### Note:  
-        > To use a different instance, unmark the checkbox. Use the value help to choose an instance in the field *Instance*. You can use an arrangement based on the scenario [SAP CP CF Destination Service Integration](https://help.sap.com/viewer/a96b1df8525f41f79484717368e30626/Cloud/en-US/7c1b45781c6f4d9ca23177b61805d179.html) \(*SAP\_COM\_0276*\).
+    7.  Under *RFC Settings*, fill in the fields *Client*, *Instance Number* and *Target Host* as specified as virtual host in your *Cloud Connector*.
 
-    5.  Enter the corresponding destination to your on-premise system that you have defined in the service instance in your *SAP BTP Cockpit* as *Name*.
+    8.  Under *User for Outbound Communication*, choose *\+* to assign the RFC user you created in the checked system to the communication system.
 
-        > ### Note:  
-        > You have to enter the exact name of the destination for *Name*.
+    9.  Choose *Create* and then *Save* to save the communication system and to be navigated back to the Communication Arrangement creation page.
 
-    6.  Confirm with *Save*.
-
-
-6.  Select the communication system created in step 5 for your communication arrangement and confirm with *Save*.
+    10. Confirm with *Save*.
 
 
-Now, you can use the communication arrangement as *Destination* in the `Custom Code Migration` app to establish the connection to your on-premise system.
+5.  Under *Outbound Services* \> *Retrieve Custom Code*, ensure that the *Service Status* is set to *Active*.
+
+6.  Choose *Save* to save the communication arrangement. A message should now pop up at the bottom of the screen telling you that the activation was successful.
+
+
+You can now select the communication arrangement in the *Connection to Remote System* field in the `Custom Code Migration` app to establish the connection to your on-premise system.
 
 
 

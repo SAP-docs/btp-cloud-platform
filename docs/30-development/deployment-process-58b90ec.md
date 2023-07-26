@@ -18,7 +18,7 @@ The deployment status can be shown as Not Deployed, Initial, Deployed or Error. 
 
 Navigate to the *Solutions* tab. By choosing a solution out of the list, the solutions overview page will display. Here, you can scroll down to the *Deployment Configurations* section. To trigger the deployment of a solution, select a deployment configuration by clicking the radio button on the left side. Now when you click onto the deployment configuration, a new window opens where you can deploy the configuration and see the so far occurring *Deployment History*.
 
- ![](images/testbild_f9d07bb.png) 
+![](images/testbild_f9d07bb.png)
 
 Clicking this for the first time will set the deployment configurations status on Initial \(if the pipeline runs without errors\).
 
@@ -36,7 +36,7 @@ The deployment can also be triggered by navigating into the object page of the d
 
 Clicking on the Items in the *Deployment History* will show you the according pipeline status. The three steps Init, Build and Publish are shown. When selecting one of the corresponding steps to these icons, the matching section of the log will be displayed. When a step icon is marked in grey, no information is available. A step icon in yellow represents the current step being processed. Lastly, a step icon in red informs you about an error. In this case you need to scan the log to find the source of this error.
 
- ![](images/pipeline_status_f38ce96.png) 
+![](images/pipeline_status_f38ce96.png)
 
 Here, errors may occur that will trigger the status *Error* to be shown. With the status *Error*, the *Deploy* button on the solution’s overview page will be activated again to be clicked.
 

@@ -4,7 +4,7 @@
 
 # Managing Resource Providers
 
- SAP BTP allows you to connect your global account in the SAP BTP cockpit to your provider account from a non-SAP cloud vendor, and consume remote service resources that you already own and which are supported by SAP through this channel.
+SAP BTP allows you to connect your global account in the SAP BTP cockpit to your provider account from a non-SAP cloud vendor, and consume remote service resources that you already own and which are supported by SAP through this channel.
 
 > ### Note:  
 > The use of this functionality is subject to the availability of the supported non-SAP cloud vendors in your country or region.
@@ -71,7 +71,7 @@ Azure Database for PostgreSQL
 
 More information: [PostgreSQL on SAP BTP - Product Documentation](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US) 
 
- <a name="task_mjl_zgl_g3b"/>
+<a name="task_mjl_zgl_g3b"/>
 
 <!-- task\_mjl\_zgl\_g3b -->
 
@@ -145,7 +145,7 @@ To consume the resources provisioned by your provider account, you need to first
 
 After you configure a new resource provider, its supported services are added as entitlements in your global account. In the *Entitlements* page in the cockpit, you can then allocate the required services and quotas to the relevant directories and subaccounts in your global account.
 
- <a name="task_vvv_12l_3cb"/>
+<a name="task_vvv_12l_3cb"/>
 
 <!-- task\_vvv\_12l\_3cb -->
 
@@ -194,7 +194,7 @@ Follow these steps to manage the resource providers that you have already config
     <tr>
     <td valign="top">
     
-        <span class="SAP-icons"></span>
+    <span class="SAP-icons"></span>
 
     Manage Entitlements and Quotas
 
@@ -203,7 +203,7 @@ Follow these steps to manage the resource providers that you have already config
     </td>
     <td valign="top">
     
-        View the subaccount entitlements and quotas of services that are consumed from a resource provider.
+    View the subaccount entitlements and quotas of services that are consumed from a resource provider.
 
     This action opens the *Entitlements* \> *Service Assignments* page in the cockpit, and is prefiltered for the selected resource provider.
 
@@ -217,7 +217,7 @@ Follow these steps to manage the resource providers that you have already config
     <tr>
     <td valign="top">
     
-        :pencil2:
+    :pencil2:
 
     Edit Resource Provider
 
@@ -226,7 +226,7 @@ Follow these steps to manage the resource providers that you have already config
     </td>
     <td valign="top">
     
-        Edit the display name, description, and configuration properties of a resource provider.
+    Edit the display name, description, and configuration properties of a resource provider.
 
     > ### Note:  
     > You cannot change the technical name of a resource provider.
@@ -238,7 +238,7 @@ Follow these steps to manage the resource providers that you have already config
     <tr>
     <td valign="top">
     
-        :wastebasket:
+    :wastebasket:
 
     Delete
 
@@ -247,7 +247,7 @@ Follow these steps to manage the resource providers that you have already config
     </td>
     <td valign="top">
     
-        Delete a resource provider.
+    Delete a resource provider.
 
     When you delete an existing resource provider, all the services offered by this instance of the resource provider will no longer be available on SAP BTP.
 

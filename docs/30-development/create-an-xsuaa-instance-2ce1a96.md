@@ -98,14 +98,14 @@
     <tr>
     <td valign="top">
     
-        XSUAA\_INSTANCE\_NAME
+    XSUAA\_INSTANCE\_NAME
 
 
     
     </td>
     <td valign="top">
     
-        The new name for the xsuaa service instance. Use only alphanumeric characters, hyphens, and underscores.
+    The new name for the xsuaa service instance. Use only alphanumeric characters, hyphens, and underscores.
 
 
     
@@ -114,14 +114,14 @@
     <tr>
     <td valign="top">
     
-        <XS\_SECURITY\_JSON\>
+    <XS\_SECURITY\_JSON\>
 
 
     
     </td>
     <td valign="top">
     
-        The name of the security descriptor file from the previous step.
+    The name of the security descriptor file from the previous step.
 
 
     

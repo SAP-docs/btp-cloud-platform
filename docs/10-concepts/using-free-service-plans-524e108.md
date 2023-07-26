@@ -4,7 +4,7 @@
 
 # Using Free Service Plans
 
-The free tier model for SAP BTP lets you try out services in global accounts without any additional cost using the consumption-based commercial model.
+The free tier model for SAP BTP lets you try out services in global accounts without any additional cost using the consumption-based commercial model and an [enterprise account](https://help.sap.com/docs/btp/sap-business-technology-platform/enterprise-accounts?version=Cloud).
 
 
 
@@ -20,7 +20,7 @@ The consumption-based commercial model is available in two flavors; the **CPEA**
 To try out services that participate in the free tier model for SAP BTP, create a service instance using the **Free** service plan offered by the service.
 
 > ### Tip:  
-> To find out which services offer the Free plans, see [Discover Free Services](using-free-service-plans-524e108.md#loio524e1081d8dc4b0f9d055a6bec383ec3__Find-FreeServices). Here, you also find information on how to identify the technical limitations of the Free plan of each service.[Access Free Services](using-free-service-plans-524e108.md#loio524e1081d8dc4b0f9d055a6bec383ec3__Access-FreeServices) by assigning entitlements to subaccounts and creating service instances.
+> To find out which services offer the Free plans, see [Discover Free Services](using-free-service-plans-524e108.md#loio524e1081d8dc4b0f9d055a6bec383ec3__Find-FreeServices). Here, you also find information on how to identify the technical limitations of the Free plan of each service. [Access Free Services](using-free-service-plans-524e108.md#loio524e1081d8dc4b0f9d055a6bec383ec3__Access-FreeServices) by assigning entitlements to subaccounts and creating service instances.
 
 Once you reach the technical limits of a service and want to continue using it, you must move to a paid service plan. Upgrading an existing service instance from free tier to paid usually doesn't require creating a new service instance. Find out how to upgrade a service plan at [Upgrade to a Paid Service Plan](using-free-service-plans-524e108.md#loio524e1081d8dc4b0f9d055a6bec383ec3__Upgrade-FreeServices).
 

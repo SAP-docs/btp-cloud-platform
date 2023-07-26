@@ -36,7 +36,7 @@ Whe working with the btp CLI in your terminal, you can access the help by execut
 
 ## How the btp CLI Works
 
- ![](images/Overview_of_CLI_for_SAP_BTP_3a71aa7.png) 
+![](images/Overview_of_CLI_for_SAP_BTP_3a71aa7.png)
 
 You download the btp CLI client to your local desktop and access it through the shell of your operating system. The client then accesses all required platform services through its backend, the CLI server, where the command definitions are stored. The CLI server delegates authentication and authorization to the authorization server, and forwards trust to the platform services, which then take care of authorization at the execution of each command.
 

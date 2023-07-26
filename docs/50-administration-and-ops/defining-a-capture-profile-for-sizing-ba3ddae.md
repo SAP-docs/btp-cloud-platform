@@ -54,30 +54,14 @@ With the definition and activation of a capture profile, you can capture system 
     <tr>
     <td valign="top">
     
-        *Profile ID*
+    *Profile ID*
 
 
     
     </td>
     <td valign="top">
     
-        Enter a short, meaningful name for your profile. Don't use the prefix `SAP_` because this prefix is reserved for profiles predefined by SAP.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Description*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        If needed, you can enter a longer description of your profile.
+    Enter a short, meaningful name for your profile. Don't use the prefix `SAP_` because this prefix is reserved for profiles predefined by SAP.
 
 
     
@@ -86,30 +70,14 @@ With the definition and activation of a capture profile, you can capture system 
     <tr>
     <td valign="top">
     
-        *Start/End Time*
+    *Description*
 
 
     
     </td>
     <td valign="top">
     
-        The start and end time specify when request statistics were captured by the app. These fields are automatically filled after you have activated the profile.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Retention Time*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Select how long you want to keep the captured request statistics stored in the system, for example, 14 days.
+    If needed, you can enter a longer description of your profile.
 
 
     
@@ -118,14 +86,46 @@ With the definition and activation of a capture profile, you can capture system 
     <tr>
     <td valign="top">
     
-        *Record Limit*
+    *Start/End Time*
 
 
     
     </td>
     <td valign="top">
     
-        Enter the maximum number of records that you want the system to capture per minute, for example, 1,000 records.
+    The start and end time specify when request statistics were captured by the app. These fields are automatically filled after you have activated the profile.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Retention Time*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Select how long you want to keep the captured request statistics stored in the system, for example, 14 days.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Record Limit*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Enter the maximum number of records that you want the system to capture per minute, for example, 1,000 records.
 
     The record limit prevents that too much database memory is consumed by captured request statistics. The maximum possible record limit per minute is 1,000.
 
@@ -139,14 +139,14 @@ With the definition and activation of a capture profile, you can capture system 
     <tr>
     <td valign="top">
     
-        **Sampling Rate**
+    **Sampling Rate**
 
 
     
     </td>
     <td valign="top">
     
-        Enter a sampling rate, which is the probability of capturing one single ABAP statistics record in percent.
+    Enter a sampling rate, which is the probability of capturing one single ABAP statistics record in percent.
 
     > ### Note:  
     > To get a realistic idea of the workload, consider a relatively high sampling rate, if possible 100. However, you must keep in mind that you generate load on your system while request statistics are captured.
@@ -158,30 +158,14 @@ With the definition and activation of a capture profile, you can capture system 
     <tr>
     <td valign="top">
     
-        *Target User Group*
+    *Target User Group*
 
 
     
     </td>
     <td valign="top">
     
-        Choose one of the target groups starting with *Customer*.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Profile Type*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        This field is automatically populated by the system. Only static profile types \(with fixed values\) are possible.
+    Choose one of the target groups starting with *Customer*.
 
 
     
@@ -190,14 +174,30 @@ With the definition and activation of a capture profile, you can capture system 
     <tr>
     <td valign="top">
     
-        *Profile Owner*
+    *Profile Type*
 
 
     
     </td>
     <td valign="top">
     
-        The profile owner is automatically set to *Customer* when you create a new profile.
+    This field is automatically populated by the system. Only static profile types \(with fixed values\) are possible.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Profile Owner*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    The profile owner is automatically set to *Customer* when you create a new profile.
 
 
     

@@ -16,11 +16,11 @@ Platform users perform technical development, deployment, and administration tas
 
 The following figure illustrates the architecture required for platform users. This configuration is independent of the default configuration with SAP ID service. You can continue to use SAP ID service in parallel for platform users.
 
-   
+  
   
 **Architecture Required for Custom User Base of Platform Users**
 
- ![](images/architecture_platform_users_features_set_a_14e046f.png "Architecture Required for Custom User Base of Platform Users") 
+![](images/architecture_platform_users_features_set_a_14e046f.png "Architecture Required for Custom User Base of Platform Users")
 
 In the preceding figure, you enable trust between SAP BTP and your corporate identity provider over your tenant of SAP Cloud Identity Services - Identity Authentication. For each Neo subaccount, you choose the Identity Authentication tenant to use as the platform identity provider. The Identity Authentication tenant automatically configures an application within the tenant and generates an identifier to establish the connection between the two entities. When you log on to a platform resource, such as the cockpit, you indicate the Neo subaccount you want to log on with using this identifier in the subdomain, for example, `https://account-abcd123456.hana.ondemand.com/cockpit`. SAP BTP uses the connection between subaccount and Identity Authentication application to identify your corporate identity provider to perform the authentication. Once you’ve logged on with your platform user, the cockpit displays any global accounts and subaccounts your platform user is a member of.
 

@@ -91,5 +91,5 @@ You can view all log entries using the Read Access Logging monitor. For more inf
 **Related Information**  
 
 
-[Best-Practice Guide for Data Protection and Privacy \(Scope Item 5LE\)](https://rapid.sap.com/bp/#/browse/scopeitems/5LE)
+[SAP Signavio Process Navigator for Data Protection and Privacy \(Scope Item 5LE\)](https://me.sap.com/processnavigator/SolP/5LE)
 

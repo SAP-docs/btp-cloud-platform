@@ -23,9 +23,3 @@ You can use the *Restrictions Overview* to display all restrictions of different
 
 Clicking on a restriction leads you directly to the maintenance screen where you can make adjustments if required. You can also open the maintenance screen by clicking *Maintain Restrictions*in the top right corner of the screen.
 
-
-
-**Prerequisites**
-
-The *Restrictions Overview* is accessible using the *Maintain Business Roles \(New\)* app on the SAP Fiori Launchpad.
-

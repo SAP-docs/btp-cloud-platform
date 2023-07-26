@@ -4,9 +4,9 @@
 
 Learn more about the basic principles of communication management when integrating your system or solution with other systems to enable data exchange in your ABAP environment.
 
-![](images/ABAP_Environment_Communication_Management_Overview_38d2057.png) 
+![](images/ABAP_Environment_Communication_Management_Overview_38d2057.png)
 
- <a name="loio7ea7276c89a644d9867bf0f8627aed67"/>
+<a name="loio7ea7276c89a644d9867bf0f8627aed67"/>
 
 <!-- loio7ea7276c89a644d9867bf0f8627aed67 -->
 
@@ -32,7 +32,7 @@ The following types of communication scenarios are available:
 
 [Developing APIs for Inbound Communication](developing-apis-for-inbound-communication-94ebfa0.md "Learn more about developing APIs for inbound communication.")
 
- <a name="loio875a3d6b20cb4934bcfea815e28afaa1"/>
+<a name="loio875a3d6b20cb4934bcfea815e28afaa1"/>
 
 <!-- loio875a3d6b20cb4934bcfea815e28afaa1 -->
 
@@ -46,7 +46,7 @@ Instead of maintaining the credentials for outbound communication in the communi
 
 An administrator user in the ABAP environment has to create the communication system in the [Communication Systems](../50-administration-and-ops/communication-systems-15663c1.md) app in SAP Fiori launchpad. Note that the communication system is not transported between ABAP systems but created locally. The communication partner can vary for each system.
 
- <a name="loio09a1ee098bde4f42baab2bdc14b42f9b"/>
+<a name="loio09a1ee098bde4f42baab2bdc14b42f9b"/>
 
 <!-- loio09a1ee098bde4f42baab2bdc14b42f9b -->
 
@@ -58,7 +58,7 @@ A communication user is added as a user for inbound communication to communicati
 
 An administrator user in the ABAP environment creates the communication user in the [Maintain Communication Users](../50-administration-and-ops/maintain-communication-users-eef80dd.md) app in SAP Fiori launchpad. Note that the communication user is not transported between systems but created locally. The technical users and their credentials can vary for each system.
 
- <a name="loio201de48e2f57404e9222181b019eff14"/>
+<a name="loio201de48e2f57404e9222181b019eff14"/>
 
 <!-- loio201de48e2f57404e9222181b019eff14 -->
 
@@ -79,7 +79,7 @@ For inbound-only scenarios, you can create a communication arrangement by creati
 
 [Maintain a Communication Arrangement for Inbound Communication](https://developers.sap.com/tutorials/abap-environment-communication-arrangement.html)
 
- <a name="loioeeb0ec2318fb4dda87830a09ac7a02fa"/>
+<a name="loioeeb0ec2318fb4dda87830a09ac7a02fa"/>
 
 <!-- loioeeb0ec2318fb4dda87830a09ac7a02fa -->
 
@@ -96,7 +96,7 @@ The destination service allows you to read and manage the address of a remote se
 
 [Create a Destination](create-a-destination-3fa7934.md "If your business application uses external services, you have to set up a destination for outbound communication either in your subaccount, which is recommended, or in your space.")
 
- <a name="loio118f66e9776144f98bf2cdb2beedf9ba"/>
+<a name="loio118f66e9776144f98bf2cdb2beedf9ba"/>
 
 <!-- loio118f66e9776144f98bf2cdb2beedf9ba -->
 
@@ -121,7 +121,7 @@ You can use a destination to:
 
 [Managing Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/84e45e071c7646c88027fffc6a7bb787.html)
 
- <a name="loiodf870b8fc35147309482ab177db265a8"/>
+<a name="loiodf870b8fc35147309482ab177db265a8"/>
 
 <!-- loiodf870b8fc35147309482ab177db265a8 -->
 

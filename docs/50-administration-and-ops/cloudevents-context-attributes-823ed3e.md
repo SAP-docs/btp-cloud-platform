@@ -78,11 +78,11 @@ identifies the issuer of the event
 containing:
 
 -   `region` 
-    -   region where the application service is located
+    -   the region where the application service is located
     -   value: `default`
 
 -   `applicationNamespace` 
-    -   registered namespace of the application, which emits the event
+    -   the registered namespace of the application, which emits the event
     -   value
         -   `sap.s4.beh` for SAP released events
         -   `sap.abap.custom` for events created by customers

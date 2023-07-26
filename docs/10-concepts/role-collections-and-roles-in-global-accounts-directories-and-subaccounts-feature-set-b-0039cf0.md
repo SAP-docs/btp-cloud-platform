@@ -82,7 +82,7 @@ Description
 <tr>
 <td valign="top">
 
- Global Account Admin 
+Global Account Admin 
 
 
 
@@ -103,7 +103,7 @@ The *GlobalAccount\_Admin* role template contains this role. You find the role t
 <tr>
 <td valign="top">
 
- Global Account Usage Reporting Viewer 
+Global Account Usage Reporting Viewer 
 
 
 
@@ -121,7 +121,7 @@ The *GlobalAccount\_Usage\_Reporting\_Viewer* role template provides this role. 
 <tr>
 <td valign="top">
 
- User and Role Administrator 
+User and Role Administrator 
 
 
 
@@ -142,7 +142,7 @@ The *xsuaa\_admin* role template provides this role. You find the role template 
 <tr>
 <td valign="top">
 
- System Landscape Administrator 
+System Landscape Administrator 
 
 
 
@@ -187,30 +187,14 @@ Description
 <tr>
 <td valign="top">
 
- Cloud Connector Administrator 
+Cloud Connector Administrator 
 
 
 
 </td>
 <td valign="top">
 
- Operate the data transmission tunnels used by the Cloud connector. 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- Destination Administrator 
-
-
-
-</td>
-<td valign="top">
-
- Manage destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
+Operate the data transmission tunnels used by the Cloud connector. 
 
 
 
@@ -219,30 +203,14 @@ Description
 <tr>
 <td valign="top">
 
- Subaccount Admin 
+Destination Administrator 
 
 
 
 </td>
 <td valign="top">
 
- Role for subaccount members with read-write authorizations for core commercialization operations, such as viewing subaccount entitlements, and creating and deleting environment instances. 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- Subaccount Service Administrator 
-
-
-
-</td>
-<td valign="top">
-
- Administrative access to service brokers and environments on a subaccount level. 
+Manage destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
 
 
 
@@ -251,14 +219,46 @@ Description
 <tr>
 <td valign="top">
 
- User and Role Administrator 
+Subaccount Admin 
 
 
 
 </td>
 <td valign="top">
 
- Manage authorizations, trusted identity providers, and users. 
+Role for subaccount members with read-write authorizations for core commercialization operations, such as viewing subaccount entitlements, and creating and deleting environment instances. 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Subaccount Service Administrator 
+
+
+
+</td>
+<td valign="top">
+
+Administrative access to service brokers and environments on a subaccount level. 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+User and Role Administrator 
+
+
+
+</td>
+<td valign="top">
+
+Manage authorizations, trusted identity providers, and users. 
 
 
 
@@ -291,14 +291,14 @@ Description
 <tr>
 <td valign="top">
 
- Cloud Connector Administrator 
+Cloud Connector Administrator 
 
 
 
 </td>
 <td valign="top">
 
- Operate the data transmission tunnels used by the Cloud connector. 
+Operate the data transmission tunnels used by the Cloud connector. 
 
 
 
@@ -331,14 +331,14 @@ Description
 <tr>
 <td valign="top">
 
- Cloud Connector Administrator 
+Cloud Connector Administrator 
 
 
 
 </td>
 <td valign="top">
 
- Operate the data transmission tunnels used by the Cloud connector. 
+Operate the data transmission tunnels used by the Cloud connector. 
 
 
 
@@ -347,14 +347,14 @@ Description
 <tr>
 <td valign="top">
 
- Destination Administrator 
+Destination Administrator 
 
 
 
 </td>
 <td valign="top">
 
- Manage destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
+Manage destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
 
 
 
@@ -387,14 +387,14 @@ Description
 <tr>
 <td valign="top">
 
- Destination Administrator 
+Destination Administrator 
 
 
 
 </td>
 <td valign="top">
 
- Manage destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
+Manage destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
 
 
 
@@ -427,14 +427,14 @@ Description
 <tr>
 <td valign="top">
 
- Subaccount Service Administrator 
+Subaccount Service Administrator 
 
 
 
 </td>
 <td valign="top">
 
- Administrative access to service brokers and environments on a subaccount level. 
+Administrative access to service brokers and environments on a subaccount level. 
 
 
 
@@ -473,30 +473,14 @@ Description
 <tr>
 <td valign="top">
 
- Global Account Viewer 
+Global Account Viewer 
 
 
 
 </td>
 <td valign="top">
 
- Role for global account members with read-only authorizations for core commercialization operations, such as viewing global accounts, subaccounts, entitlements, and regions. 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- Global Account Usage Reporting Viewer 
-
-
-
-</td>
-<td valign="top">
-
- Role for global account members with read-only authorizations for core commercialization operations, such as viewing global account usage information. 
+Role for global account members with read-only authorizations for core commercialization operations, such as viewing global accounts, subaccounts, entitlements, and regions. 
 
 
 
@@ -505,14 +489,14 @@ Description
 <tr>
 <td valign="top">
 
- User and Role Auditor 
+Global Account Usage Reporting Viewer 
 
 
 
 </td>
 <td valign="top">
 
- Read-only access for authorizations, trusted identity providers, and users. 
+Role for global account members with read-only authorizations for core commercialization operations, such as viewing global account usage information. 
 
 
 
@@ -521,14 +505,30 @@ Description
 <tr>
 <td valign="top">
 
- System Landscape Viewer 
+User and Role Auditor 
 
 
 
 </td>
 <td valign="top">
 
- Viewer access to systems and scenario-related resources. 
+Read-only access for authorizations, trusted identity providers, and users. 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System Landscape Viewer 
+
+
+
+</td>
+<td valign="top">
+
+Viewer access to systems and scenario-related resources. 
 
 
 
@@ -561,30 +561,14 @@ Description
 <tr>
 <td valign="top">
 
- Cloud Connector Auditor 
+Cloud Connector Auditor 
 
 
 
 </td>
 <td valign="top">
 
- View the data transmission tunnels used by the Cloud connector to communicate with back-end systems. 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- Destination Viewer 
-
-
-
-</td>
-<td valign="top">
-
- View destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
+View the data transmission tunnels used by the Cloud connector to communicate with back-end systems. 
 
 
 
@@ -593,30 +577,14 @@ Description
 <tr>
 <td valign="top">
 
- Subaccount Service Auditor 
+Destination Viewer 
 
 
 
 </td>
 <td valign="top">
 
- Read-only access to service brokers and environments on a subaccount level 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- Subaccount Viewer 
-
-
-
-</td>
-<td valign="top">
-
- Role for subaccount members with read-only authorizations for core commercialization operations, such as viewing subaccount entitlements, details of environment instances, and job results. 
+View destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
 
 
 
@@ -625,14 +593,46 @@ Description
 <tr>
 <td valign="top">
 
- User and Role Auditor 
+Subaccount Service Auditor 
 
 
 
 </td>
 <td valign="top">
 
- Read-only access for authorizations, trusted identity providers, and users. 
+Read-only access to service brokers and environments on a subaccount level 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Subaccount Viewer 
+
+
+
+</td>
+<td valign="top">
+
+Role for subaccount members with read-only authorizations for core commercialization operations, such as viewing subaccount entitlements, details of environment instances, and job results. 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+User and Role Auditor 
+
+
+
+</td>
+<td valign="top">
+
+Read-only access for authorizations, trusted identity providers, and users. 
 
 
 
@@ -673,14 +673,14 @@ Description
 <tr>
 <td valign="top">
 
- Directory Admin 
+Directory Admin 
 
 
 
 </td>
 <td valign="top">
 
- Role for directory members with read-write authorizations for core commercialization operations, such as updating directories, setting entitlements, and creating, updating, and deleting subaccounts. 
+Role for directory members with read-write authorizations for core commercialization operations, such as updating directories, setting entitlements, and creating, updating, and deleting subaccounts. 
 
 
 
@@ -705,14 +705,14 @@ Role for directory members with read-only authorizations for core commercializat
 <tr>
 <td valign="top">
 
- User and Role Administrator 
+User and Role Administrator 
 
 
 
 </td>
 <td valign="top">
 
- Manage authorizations, trusted identity providers, and users. 
+Manage authorizations, trusted identity providers, and users. 
 
 
 
@@ -761,14 +761,14 @@ Role for directory members with read-only authorizations for core commercializat
 <tr>
 <td valign="top">
 
- Directory Viewer 
+Directory Viewer 
 
 
 
 </td>
 <td valign="top">
 
- Role for directory members with read-only authorizations for core commercialization operations, such as viewing directories, subaccounts, entitlements, and regions. 
+Role for directory members with read-only authorizations for core commercialization operations, such as viewing directories, subaccounts, entitlements, and regions. 
 
 
 
@@ -777,14 +777,14 @@ Role for directory members with read-only authorizations for core commercializat
 <tr>
 <td valign="top">
 
- User and Role Auditor 
+User and Role Auditor 
 
 
 
 </td>
 <td valign="top">
 
- Read-only access for authorizations, trusted identity providers, and users. 
+Read-only access for authorizations, trusted identity providers, and users. 
 
 
 
@@ -845,7 +845,7 @@ Application Identifier
 <tr>
 <td valign="top">
 
- Cloud Connector Administrator 
+Cloud Connector Administrator 
 
 
 
@@ -859,14 +859,14 @@ Subaccount
 </td>
 <td valign="top">
 
- Cloud\_Connector\_Administrator 
+Cloud\_Connector\_Administrator 
 
 
 
 </td>
 <td valign="top">
 
- connectivity!*<suffix\>* 
+connectivity!*<suffix\>* 
 
 
 
@@ -875,7 +875,7 @@ Subaccount
 <tr>
 <td valign="top">
 
- Cloud Connector Auditor 
+Cloud Connector Auditor 
 
 
 
@@ -889,14 +889,14 @@ Subaccount
 </td>
 <td valign="top">
 
- Cloud\_Connector\_Auditor 
+Cloud\_Connector\_Auditor 
 
 
 
 </td>
 <td valign="top">
 
- connectivity!*<suffix\>* 
+connectivity!*<suffix\>* 
 
 
 
@@ -905,7 +905,7 @@ Subaccount
 <tr>
 <td valign="top">
 
- Destination Administrator 
+Destination Administrator 
 
 
 
@@ -919,14 +919,14 @@ Subaccount
 </td>
 <td valign="top">
 
- Destination\_Administrator 
+Destination\_Administrator 
 
 
 
 </td>
 <td valign="top">
 
- destination-xsappname!*<suffix\>* 
+destination-xsappname!*<suffix\>* 
 
 
 
@@ -935,7 +935,7 @@ Subaccount
 <tr>
 <td valign="top">
 
- Destination Viewer 
+Destination Viewer 
 
 
 
@@ -949,14 +949,14 @@ Subaccount
 </td>
 <td valign="top">
 
- Destination\_Viewer 
+Destination\_Viewer 
 
 
 
 </td>
 <td valign="top">
 
- destination-xsappname!*<suffix\>* 
+destination-xsappname!*<suffix\>* 
 
 
 
@@ -965,7 +965,7 @@ Subaccount
 <tr>
 <td valign="top">
 
- Directory Admin 
+Directory Admin 
 
 
 
@@ -979,14 +979,14 @@ Directory
 </td>
 <td valign="top">
 
- Directory\_Viewer 
+Directory\_Viewer 
 
 
 
 </td>
 <td valign="top">
 
- cis-central!*<suffix\>* 
+cis-central!*<suffix\>* 
 
 
 
@@ -1025,7 +1025,7 @@ uas!*<suffix\>*
 <tr>
 <td valign="top">
 
- Directory Viewer 
+Directory Viewer 
 
 
 
@@ -1039,14 +1039,14 @@ Directory
 </td>
 <td valign="top">
 
- Directory\_Admin 
+Directory\_Admin 
 
 
 
 </td>
 <td valign="top">
 
- cis-central!*<suffix\>* 
+cis-central!*<suffix\>* 
 
 
 
@@ -1055,7 +1055,7 @@ Directory
 <tr>
 <td valign="top">
 
- Global Account Admin 
+Global Account Admin 
 
 
 
@@ -1069,14 +1069,14 @@ Global account
 </td>
 <td valign="top">
 
- GlobalAccount\_Admin 
+GlobalAccount\_Admin 
 
 
 
 </td>
 <td valign="top">
 
- cis-central!*<suffix\>* 
+cis-central!*<suffix\>* 
 
 
 
@@ -1085,7 +1085,7 @@ Global account
 <tr>
 <td valign="top">
 
- Global Account Viewer 
+Global Account Viewer 
 
 
 
@@ -1099,14 +1099,14 @@ Global account
 </td>
 <td valign="top">
 
- GlobalAccount\_Viewer 
+GlobalAccount\_Viewer 
 
 
 
 </td>
 <td valign="top">
 
- cis-central!*<suffix\>* 
+cis-central!*<suffix\>* 
 
 
 
@@ -1115,7 +1115,7 @@ Global account
 <tr>
 <td valign="top">
 
- Global Account Usage Reporting Viewer 
+Global Account Usage Reporting Viewer 
 
 
 
@@ -1129,14 +1129,14 @@ Global account
 </td>
 <td valign="top">
 
- GlobalAccount\_Usage\_Reporting\_Viewer 
+GlobalAccount\_Usage\_Reporting\_Viewer 
 
 
 
 </td>
 <td valign="top">
 
- uas!*<suffix\>*  
+uas!*<suffix\>*  
 
 
 
@@ -1145,7 +1145,7 @@ Global account
 <tr>
 <td valign="top">
 
- System Landscape Administrator 
+System Landscape Administrator 
 
 
 
@@ -1159,14 +1159,14 @@ Global account
 </td>
 <td valign="top">
 
- GlobalAccount\_System\_Landscape\_Administrator 
+GlobalAccount\_System\_Landscape\_Administrator 
 
 
 
 </td>
 <td valign="top">
 
- cmp!*<suffix\>*  
+cmp!*<suffix\>*  
 
 
 
@@ -1175,7 +1175,7 @@ Global account
 <tr>
 <td valign="top">
 
- System Landscape Viewer 
+System Landscape Viewer 
 
 
 
@@ -1189,14 +1189,14 @@ Global account
 </td>
 <td valign="top">
 
- GlobalAccount\_System\_Landscape\_Viewer 
+GlobalAccount\_System\_Landscape\_Viewer 
 
 
 
 </td>
 <td valign="top">
 
- extension-service-cmp!*<suffix\>*  
+extension-service-cmp!*<suffix\>*  
 
 
 
@@ -1205,7 +1205,7 @@ Global account
 <tr>
 <td valign="top">
 
- Subaccount Admin 
+Subaccount Admin 
 
 
 
@@ -1219,14 +1219,14 @@ Subaccount
 </td>
 <td valign="top">
 
- Subaccount\_Admin 
+Subaccount\_Admin 
 
 
 
 </td>
 <td valign="top">
 
- cis-local!*<suffix\>* 
+cis-local!*<suffix\>* 
 
 
 
@@ -1235,7 +1235,7 @@ Subaccount
 <tr>
 <td valign="top">
 
- Subaccount Viewer 
+Subaccount Viewer 
 
 
 
@@ -1249,14 +1249,14 @@ Subaccount
 </td>
 <td valign="top">
 
- Subaccount\_Viewer 
+Subaccount\_Viewer 
 
 
 
 </td>
 <td valign="top">
 
- cis-local!*<suffix\>* 
+cis-local!*<suffix\>* 
 
 
 
@@ -1265,7 +1265,7 @@ Subaccount
 <tr>
 <td valign="top">
 
- Subaccount Service Administrator 
+Subaccount Service Administrator 
 
 
 
@@ -1279,14 +1279,14 @@ Subaccount
 </td>
 <td valign="top">
 
- Subaccount\_Service\_Administrator 
+Subaccount\_Service\_Administrator 
 
 
 
 </td>
 <td valign="top">
 
- service-manager!*<suffix\>* 
+service-manager!*<suffix\>* 
 
 
 
@@ -1295,7 +1295,7 @@ Subaccount
 <tr>
 <td valign="top">
 
- Subaccount Service Auditor 
+Subaccount Service Auditor 
 
 
 
@@ -1309,14 +1309,14 @@ Subaccount
 </td>
 <td valign="top">
 
- Subaccount\_Service\_Auditor 
+Subaccount\_Service\_Auditor 
 
 
 
 </td>
 <td valign="top">
 
- service-manager!*<suffix\>* 
+service-manager!*<suffix\>* 
 
 
 
@@ -1325,7 +1325,7 @@ Subaccount
 <tr>
 <td valign="top">
 
- User and Role Administrator 
+User and Role Administrator 
 
 
 
@@ -1339,14 +1339,14 @@ Global account and subaccount
 </td>
 <td valign="top">
 
- xsuaa\_admin 
+xsuaa\_admin 
 
 
 
 </td>
 <td valign="top">
 
- xsuaa!*<suffix\>* 
+xsuaa!*<suffix\>* 
 
 
 
@@ -1355,7 +1355,7 @@ Global account and subaccount
 <tr>
 <td valign="top">
 
- User and Role Auditor 
+User and Role Auditor 
 
 
 
@@ -1369,14 +1369,14 @@ Global account and subaccount
 </td>
 <td valign="top">
 
- xsuaa\_auditor 
+xsuaa\_auditor 
 
 
 
 </td>
 <td valign="top">
 
- xsuaa!*<suffix\>* 
+xsuaa!*<suffix\>* 
 
 
 

@@ -32,44 +32,21 @@
     <tr>
     <td valign="top">
     
-        `comm_scenario`
+    `comm_scenario`
 
 
     
     </td>
     <td valign="top">
     
-        mandatory
+    mandatory
 
 
     
     </td>
     <td valign="top">
     
-        ID of the developed communication scenario
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        `comm_system_id`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        optional
-
-
-    
-    </td>
-    <td valign="top">
-    
-        ID of the configured communication system
+    ID of the developed communication scenario
 
 
     
@@ -78,21 +55,44 @@
     <tr>
     <td valign="top">
     
-        `service_id`
+    `comm_system_id`
 
 
     
     </td>
     <td valign="top">
     
-        optional
+    optional
 
 
     
     </td>
     <td valign="top">
     
-        ID of the developed outbound service
+    ID of the configured communication system
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `service_id`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    optional
+
+
+    
+    </td>
+    <td valign="top">
+    
+    ID of the developed outbound service
 
 
     

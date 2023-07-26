@@ -58,7 +58,7 @@ Description
 <tr>
 <td valign="top">
 
- `credential-type` 
+`credential-type` 
 
 
 
@@ -76,7 +76,7 @@ For more information, see [Application Security Descriptor Configuration Syntax]
 <tr>
 <td valign="top">
 
- `x509` 
+`x509` 
 
 
 
@@ -92,7 +92,7 @@ In this parameter, you define the certificate options of key length, validity pe
 <tr>
 <td valign="top">
 
- `key-length` 
+`key-length` 
 
 
 
@@ -108,7 +108,7 @@ Specifies the byte length of the generated private key. The default length is 20
 <tr>
 <td valign="top">
 
- `validity` 
+`validity` 
 
 
 
@@ -126,7 +126,7 @@ Together with the `validity-type` the range of validity runs from `1 DAYS` to `3
 <tr>
 <td valign="top">
 
- `validity-type` 
+`validity-type` 
 
 
 

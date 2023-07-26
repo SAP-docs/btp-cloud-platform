@@ -15,13 +15,13 @@ All objects in our data model \(dimensions, cubes, analytical queries, etc.\) wi
 3.  In the context menu, select *File* → *New* → *Other*. This opens a search tool, where you can search for data definition. Click next to launch the creation wizard.
 4.  Enter a *Name* \(taking into account your namespace\) and *Description* for the data definition to be created.
 
-     
+
 
 5.  Click *Next*.
 6.  Assign a transport request and click *Next*.
 7.  Select the *Define View Entity* template to speed up the view definition.
 
-     
+
 
 8.  Click *Finish*.
 

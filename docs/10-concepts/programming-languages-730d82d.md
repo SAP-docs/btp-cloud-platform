@@ -36,7 +36,7 @@ Cloud Foundry environment
 </td>
 <td valign="top">
 
- [SAP HANA](../30-development/developing-sap-hana-in-the-cloud-foundry-environment-14224d7.md#loio14224d75f6c64b499d189e3ebd131ec2) 
+[SAP HANA](../30-development/developing-sap-hana-in-the-cloud-foundry-environment-14224d7.md#loio14224d75f6c64b499d189e3ebd131ec2) 
 
 
 
@@ -45,7 +45,7 @@ Cloud Foundry environment
 <tr>
 <td valign="top">
 
- [Java](../30-development/developing-java-in-the-cloud-foundry-environment-a3f9006.md) 
+[Java](../30-development/developing-java-in-the-cloud-foundry-environment-a3f9006.md) 
 
 
 
@@ -54,7 +54,7 @@ Cloud Foundry environment
 <tr>
 <td valign="top">
 
- [Node.js](../30-development/developing-node-js-in-the-cloud-foundry-environment-3a7a0be.md) 
+[Node.js](../30-development/developing-node-js-in-the-cloud-foundry-environment-3a7a0be.md) 
 
 
 
@@ -63,7 +63,7 @@ Cloud Foundry environment
 <tr>
 <td valign="top">
 
- [Python](../30-development/developing-python-in-the-cloud-foundry-environment-acf8f49.md) 
+[Python](../30-development/developing-python-in-the-cloud-foundry-environment-acf8f49.md) 
 
 
 
@@ -72,7 +72,7 @@ Cloud Foundry environment
 <tr>
 <td valign="top">
 
- [SAPUI5](../30-development/developing-sapui5-839cb81.md) 
+[SAPUI5](../30-development/developing-sapui5-839cb81.md) 
 
 
 
@@ -81,7 +81,7 @@ Cloud Foundry environment
 <tr>
 <td valign="top">
 
- [HTML5](../30-development/development-c2fec62.md) 
+[HTML5](../30-development/development-c2fec62.md) 
 
 
 
@@ -97,7 +97,7 @@ ABAP environment
 </td>
 <td valign="top">
 
- [ABAP](../30-development/development-in-the-abap-environment-31367ef.md) 
+[ABAP](../30-development/development-in-the-abap-environment-31367ef.md) 
 
 
 
@@ -113,7 +113,7 @@ Kyma environment
 </td>
 <td valign="top">
 
- [Serverless Functions: Node.js and Python](../30-development/deploy-workloads-in-the-kyma-environment-to-extend-sap-systems-fe4ba5b.md) 
+[Serverless Functions: Node.js and Python](../30-development/deploy-workloads-in-the-kyma-environment-to-extend-sap-systems-fe4ba5b.md) 
 
 
 

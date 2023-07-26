@@ -9,7 +9,7 @@ The following configuration options enable you to manipulate the operation of th
 
 [Security Considerations for the SAP Authorization and Trust Management Service](security-considerations-for-the-sap-authorization-and-trust-management-service-f117cab.md#loiof117cab6b92d438cb2a0b5204713994b "Decisions you make when using or administrating the SAP Authorization and Trust Management service (XSUAA) can have an impact on the security of your applications. The information provided is meant to help you decide.")
 
- <a name="loio974545ba325a493680870ad9d38d7ff3"/>
+<a name="loio974545ba325a493680870ad9d38d7ff3"/>
 
 <!-- loio974545ba325a493680870ad9d38d7ff3 -->
 
@@ -31,7 +31,7 @@ For more information about the application security descriptor, see [Application
 
 See also [400 Error: Call to /oauth/token Was Not Successful](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:40211) in *Guided Answers*.
 
- <a name="loio6f51fa1ac4ab472ebdf5b38afd4d65bc"/>
+<a name="loio6f51fa1ac4ab472ebdf5b38afd4d65bc"/>
 
 <!-- loio6f51fa1ac4ab472ebdf5b38afd4d65bc -->
 
@@ -66,7 +66,7 @@ For more information about authorizations, see [Authorization Entities](authoriz
 
 For more information about the application security descriptor, see [Application Security Descriptor Configuration Syntax](../30-development/application-security-descriptor-configuration-syntax-517895a.md).
 
- <a name="loioc951392e3b6e4561bde2c0e8e21c8a0d"/>
+<a name="loioc951392e3b6e4561bde2c0e8e21c8a0d"/>
 
 <!-- loioc951392e3b6e4561bde2c0e8e21c8a0d -->
 

@@ -358,7 +358,7 @@ You have to consider the following limits for the MTA artifacts, which can be ha
 
 -   Maximum size of the MTA archive: 4 GB
 -   Maximum size of MTA module content: 1 GB
--   Maximum size of MTA resource content: 1 GB
+-   Maximum size of MTA resource content: 1 MB
 -   Maximum size of MTA descriptors \(`mtad.yaml` and `MANIFEST.MF`\): 1 MB
 
 **Related Information**  
@@ -367,4 +367,6 @@ You have to consider the following limits for the MTA artifacts, which can be ha
 [JAR File Specification](http://docs.oracle.com/javase/7/docs/technotes/guides/jar/jar.html)
 
 [Cloud MTA Build Tool](https://sap.github.io/cloud-mta-build-tool/)
+
+[Release Notes for Multitarget Applications for Cloud Foundry](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Multitarget%20Applications%20for%20Cloud%20Foundry&Valid_as_Of=2022-01-01%3A2023-12-31&locale=en-US)
 

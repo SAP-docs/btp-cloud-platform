@@ -21,7 +21,7 @@ First, you need to create a service definition on top of your query.
 
 ### Result
 
- **Z\_BOOKINGS\_SERVICE** 
+**Z\_BOOKINGS\_SERVICE** 
 
 ```
 @EndUserText.label: 'Bookings Service Definition'
