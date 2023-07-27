@@ -264,7 +264,7 @@ This section describes the approach to obtain credentials for authentication and
     curl --cert <path to certificate.pem> --key <path to key.pem> --request POST https://<value of "uaa.certurl">/oauth/token -d 'grant_type=client_credentials&client_id=<Value of "uaa.clientid">'
     ```
 
-    You can also execute the JWT token request via REST client, like Postman. In such case, make sure to configure the certifciates in the Postman settings as described at https://learning.postman.com/docs/sending-requests/certificates/.
+    You can also execute the JWT token request via REST client, like Postman. In such case, make sure to configure the certifciates in the Postman settings as described at [https://learning.postman.com/docs/sending-requests/certificates/](https://learning.postman.com/docs/sending-requests/certificates/).
 
     Pass the issued JWT token in the Authorization header when calling the Audit Log Server Write REST API: `Authorization: Bearer <token-value>`. Example:
 
