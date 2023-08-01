@@ -251,6 +251,70 @@ SAP API Management
 <tr>
 <td valign="top">
 
+SAP Build Apps
+
+
+
+</td>
+<td valign="top">
+
+[Auditing and Logging Information](https://help.sap.com/docs/build-apps/service-guide/auditing-and-logging-information)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Build Process Automation
+
+
+
+</td>
+<td valign="top">
+
+[Audit Logging](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/audit-logging)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Build Work Zone, standard edition
+
+
+
+</td>
+<td valign="top">
+
+[Auditing and Logging Information](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/auditing-and-logging-information)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Build Work Zone, advanced edition
+
+
+
+</td>
+<td valign="top">
+
+[Auditing and Logging Information](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/auditing-and-logging-information)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Business Application Studio
 
 
