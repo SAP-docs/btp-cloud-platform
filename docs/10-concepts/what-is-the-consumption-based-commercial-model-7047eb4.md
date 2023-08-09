@@ -60,7 +60,7 @@ If you want information about the **Pay-As-You-Go for SAP BTP for Partners** com
 </table>
 
 > ### Note:  
-> -   In global accounts that use the consumption-based commercial model, SAP BTP, Cloud Foundry Runtime is not listed in the *Entitlements* pages in the SAP BTP cockpit. A quota limit of 50 GB of Cloud Foundry Runtime memory is assigned by default to every subaccount.
+> -   In global accounts that use the consumption-based commercial model, SAP BTP, Cloud Foundry Runtime is not listed in the *Entitlements* pages in the SAP BTP cockpit. A quota limit of 200 GB of Cloud Foundry Runtime memory is assigned by default to every subaccount.
 > -   If you need to increase this limit, report an incident to [SAP support](https://support.sap.com) on the BC-NEO-CIS component. This also applies to other services that have a technical quota limit.
 
 > ### Tip:  

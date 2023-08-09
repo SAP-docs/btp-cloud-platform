@@ -226,7 +226,7 @@ When you include systems in a formation, these systems are synchronized in the b
 
 **Reseting and Resynchronizing Systems in a Formation**
 
-If you want to reconfigure the systems in a formation from scratch without excluding them, you have to choose *Reset and Resynchronize*. You will have this action available only for formations that have no status in SAP BTP cockpit their formation type is Side-by-Side Extensibility with Kyma..
+If you want to reconfigure the systems in a formation from scratch without excluding them, you have to choose *Reset and Resynchronize*. You will have this action available only for formations that have no status in SAP BTP cockpit their formation type is Side-by-Side Extensibility with Kyma.
 
 **Deleting Formations**
 

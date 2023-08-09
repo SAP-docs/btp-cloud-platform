@@ -95,6 +95,14 @@ The operation returns the status of an application job.
 
 
 
+<a name="loio182356103df94ce89796163bad321436__section_zm4_s5q_gyb"/>
+
+## Additional Information
+
+Please note that to obtain the status of jobs that weren't scheduled using the external scheduler API, you should assign your communication user not only to SAP\_COM\_0064 but also to SAP\_COM\_0326. For more information on this issue, see [3358110](https://launchpad.support.sap.com/#/notes/3358110).
+
+
+
 <a name="loio182356103df94ce89796163bad321436__section_mwv_vwt_zhb"/>
 
 ## Examples

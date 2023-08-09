@@ -745,14 +745,14 @@ COR
 </td>
 <td valign="top">
 
-Release Manager
+Developer
 
 
 
 </td>
 <td valign="top">
 
-Release the transport request\(s\). The changes are now in the release candidate.
+Release the development transport request\(s\). The changes are now in the release candidate.
 
 
 

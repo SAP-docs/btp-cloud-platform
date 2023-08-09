@@ -2,23 +2,25 @@
 
 # Creating a Job Catalog Entry and a Job Template in ADT
 
-Follow these steps to create a Job Catalog Entry and a Job Template in ADT.
+Follow these steps to create a job catalog entry and a job template in ADT.
 
 
 
 ## Procedure
 
-1.  Implement the business logic. You need to create a class which implements certain interfaces so that it is usable in an application job. For more information, see [Implementing the Business Logic](implementing-the-business-logic-99dcde1.md).
+1.  Implement the business logic. You need to create a class which implements certain interfaces so that it's usable in an application job. For more information, see [Implementing the Business Logic](implementing-the-business-logic-99dcde1.md).
 
-2.  Define the Job Catalog Entry. With a method of a certain framework class, you create a Job Catalog Entry which refers to the class of step 1. For more information, see [Defining the Job Catalog Entry](defining-the-job-catalog-entry-1cff59e.md).
+2.  Define the job catalog entry. With a method of a certain framework class, you create a job catalog entry which refers to the class of step 1. For more information, see [Creating the Job Catalog Entry](creating-the-job-catalog-entry-1cff59e.md).
 
-3.  Define the Job Template. With another method of the framework class, you create a Job Template which refers to the Job Catalog Entry of step 2. For more information, see [Defining the Job Template](defining-the-job-template-1f04ad2.md).
+3.  Define the job template. With another method of the framework class, you create a job template which refers to the job catalog entry of step 2. For more information, see [Creating the Job Template](creating-the-job-template-1f04ad2.md).
+
+    For more information on how to create a job catalog entry and a job template in ADT, see [Working with Application Job Objects](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/95e647db5c1e44188f6bc00a9fbf286d.html).
+
+    If you want to implement a simple RAP \(ABAP RESTful application programming model\) business object, see[Code Sample: How to Schedule Application Jobs from a RAP-based Business Object](https://github.com/SAP-samples/abap-platform-application-jobs). This code sample allows you to schedule a class as an application job that takes the semantic key of the selected entity as a parameter.
 
 
 **Related Information**  
 
 
 [Setting up the Authorizations](setting-up-the-authorizations-bb559a5.md "Some further activities in ADT and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app Application Jobs.")
-
-
 

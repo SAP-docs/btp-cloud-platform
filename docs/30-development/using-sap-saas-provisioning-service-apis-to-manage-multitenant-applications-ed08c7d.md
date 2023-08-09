@@ -19,6 +19,8 @@ Application providers can use both groups to either manage their application sub
 
 Consumers can use the second group to work with the multitenant applications.
 
+All SaaS Provisioning Service APIs adhere to the rate limiting rules as described in [Rate Limiting](../50-administration-and-ops/rate-limiting-77b217b.md).
+
 
 
 <a name="loioed08c7dcb35d4082936c045e7d7b3ecd__section_c12_z5j_5vb"/>

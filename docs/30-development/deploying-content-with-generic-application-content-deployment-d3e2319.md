@@ -15,7 +15,7 @@ This approach provides a mechanism for direct content deployment from SAP Cloud 
 > ### Note:  
 > The examples below are partial and they intend to show the different capabilities of content deployment. For specific application content, see the dedicated documentation linked below.
 
-The mechanism utilizes the Generic Application Content Deployment protocol \(GACD\). It allows you to deploy content represented by an MTA module oftype `com.sap.application.content` to a certain list of supported services.
+The mechanism utilizes the Generic Application Content Deployment protocol \(GACD\). It allows you to deploy content represented by an MTA module oftype `com.sap.application.content` to a certain listof supported services.
 
 
 

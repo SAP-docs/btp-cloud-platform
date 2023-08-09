@@ -25,8 +25,6 @@ Based on your assigned business role catalog, you can view the SAP Fiori launchp
 
 The required user and the respective business catalog role and business role template for the **Customer Data Browser** app are described below.
 
-****
-
 
 <table>
 <tr>
@@ -156,9 +154,9 @@ The roles are used for the following purposes:
 
 -   `SAP_BR_ADMINISTRATOR` \(Administrator\): With this role, you can maintain authorization restrictions using the[https://help.sap.com/docs/SAP\_S4HANA\_CLOUD/a630d57fc5004c6383e7a81efee7a8bb/365b0d6fe67d4cecbfe11cc8344264cc.html](https://help.sap.com/docs/SAP_S4HANA_CLOUD/a630d57fc5004c6383e7a81efee7a8bb/365b0d6fe67d4cecbfe11cc8344264cc.html) app.
 
-    For more information about maintaining restrictions for Customer Data Browser, see [How to Define Authorizations Based on Restrictions](../50-administration-and-ops/how-to-define-authorizations-based-on-restrictions-c926d69.md)
+    For more information about maintaining restrictions for Customer Data Browser, see [How to Define Authorizations Based on Restrictions](../50-administration-and-ops/how-to-define-authorizations-based-on-restrictions-c926d69.md).
 
-    For more information about restriction fields for Customer Data Browser, see .
+    For more information about restriction fields for Customer Data Browser, see [Restrictions and App Behavior](restrictions-and-app-behavior-15fb03d.md).
 
 -   `SAP_BR_ADMINISTRATOR_DANA` \(Administrator – Data Analysis\): With this role, you can access Customer Data Browser application.
 

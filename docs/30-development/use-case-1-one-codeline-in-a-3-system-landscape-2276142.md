@@ -292,7 +292,7 @@ Release Manager
 </td>
 <td valign="top">
 
-The changes are now in the release branch YYYY-<nn\>
+The changes are now in the main branch
 
 
 
@@ -750,7 +750,44 @@ Custom Business Configurations app
 <tr>
 <td valign="top">
 
-3
+3a
+
+
+
+</td>
+<td valign="top">
+
+DEV
+
+
+
+</td>
+<td valign="top">
+
+Developer
+
+
+
+</td>
+<td valign="top">
+
+Releases the development transport requests.
+
+
+
+</td>
+<td valign="top">
+
+ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing Transports* app
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+3b
 
 
 
@@ -771,7 +808,7 @@ Release Manager
 </td>
 <td valign="top">
 
-Release the transport request\(s\). The changes are now in the release branch
+Releases the customizing transport requests.
 
 
 

@@ -6,13 +6,11 @@ With Kyma's modular approach, you can install just the modules you need, instead
 
 
 
-You can choose to enable any modules as required. Learn how to enable a module under [Enable and Disable a Kyma Module](../50-administration-and-ops/enable-and-disable-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+You can choose to enable any modules as required; see [Enable and Disable a Kyma Module](../50-administration-and-ops/enable-and-disable-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c). To find out which module version is running on your cluster, go to Kyma Dashboard.
 
-To find out which module version is running on your cluster, go to Kyma Dashboard.
-
-Step by step, all Kyma components are converted to modules that work independently from each other.
-
-> ### Caution:  
+> ### Remember:  
+> Step by step, all Kyma components are converted to modules that work independently from each other.
+> 
 > Table entries marked with “\*” are still components and will be modularized soon.
 
 

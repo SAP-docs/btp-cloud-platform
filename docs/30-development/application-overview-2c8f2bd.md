@@ -6,7 +6,7 @@ Customer Data Browser is a self-service application that you can use to view dat
 
 The CDS views and database tables allowed for user access by SAP in the Customer Data Browser app are called Customer Data Browser objects.
 
-You can create Customer Data Browser objects using the ABAP Development Tools \(ADT\). For more information, see .
+You can create Customer Data Browser objects using the ABAP Development Tools \(ADT\). For more information, see [Working with Customer Data Browser Objects](https://help.sap.com/docs/btp/sap-abap-development-user-guide/working-with-customer-data-browser-objects?version=Cloud).
 
 
 

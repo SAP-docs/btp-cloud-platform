@@ -14,7 +14,7 @@ The overall starting point is the class CL\_SWF\_CPWF\_API\_FACTORY\_A4C. Once y
 
 ## Prerequisites
 
-You've executed the integration steps in your ABAP environment. See [Workflow Integration](../50-administration-and-ops/workflow-integration-b7931f7.md).
+You've executed the integration steps in your ABAP environment. See [Integrating Workflow](../50-administration-and-ops/integrating-workflow-b7931f7.md).
 
 
 

@@ -8,21 +8,21 @@
 
 ## Context
 
-[SapMachine](https://sap.github.io/SapMachine/) is an alternative to SAP JVM. It provides a Java Runtime Environment \(JRE\) with Java 11, while SAP JVM provides a JRE with Java 8.
+[SapMachine](https://sap.github.io/SapMachine/) is an alternative to SAP JVM. It provides a Java Runtime Environment \(JRE\) with Java 11 and 17, while SAP JVM provides a JRE with Java 8.
 
-SapMachine works only with [Tomcat](tomcat-ddfc101.md) and [Java Main](java-main-8a1786a.md) application containers.
+SapMachine works with [Tomcat - 8.5 and 9](tomcat-ddfc101.md), [TomEE 7.1](tomee-7-79c039a.md) and [Java Main](java-main-8a1786a.md) application containers.
 
 
 
 <a name="loio785d6b390b834bee818e242160f87df5__section_lly_ftm_33b"/>
 
-## Activation
+## Activation Using JRE
 
 
 
-### Using JRE
+### SapMachine 11
 
-To activate SapMachine **JRE** \(instead of the default SAPJVM JRE\) in SAP Java Buildpack, you have to add the following environment variable:
+To activate SapMachine **JRE** \(instead of the default SAP JVM JRE\) in SAP Java Buildpack, you have to add the following environment variable:
 
 ```
 ---
@@ -34,7 +34,7 @@ applications:
   ...
 ```
 
-This will make your application use the SapMachine JRE 11 version bundled with SAP Java Buildpack.
+This will make your application use the SapMachine JRE 11, bundled with SAP Java Buildpack.
 
 Alternatively, you can direct the buildpack to download any published SapMachine patch version by adding additional configuration parameters, like the following:
 
@@ -51,11 +51,54 @@ applications:
 
 Setting `use_offline_repository` to *false* will direct the buildpack to attempt a download of the SapMachine JRE of version "`<version>`" from the GitHub asset repository. This will only work if your Cloud Foundry instance has access to [GitHub: SapMachine](https://github.com/SAP/SapMachine).
 
+You can also point to the major version of the SapMachine JRE 11, in order to always get the latest patch versions. In this case, specify it the following way:
+
+```
+---
+applications:
+- name: <app-name>
+  ...
+  env:
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
+    JBP_CONFIG_SAP_MACHINE_JRE: "{ version: 11.+ }"
+```
 
 
-### Using JDK
 
-Furthermore, you can also use a full SapMachine **JDK**:
+### SapMachine 17
+
+Use environment variable JBP\_CONFIG\_SAP\_MACHINE\_JRE in analogical way. For example:
+
+```
+---
+applications:
+- name: <app-name>
+  ...
+  env:
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
+    JBP_CONFIG_SAP_MACHINE_JRE: '{ version: 17.0.8 }'
+  ...
+```
+
+To point to the major version of the SapMachine JRE 17, specify it the following way:
+
+```
+---
+applications:
+- name: <app-name>
+  ...
+  env:
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
+    JBP_CONFIG_SAP_MACHINE_JRE: "{ version: 17.+ }"
+```
+
+
+
+<a name="loio785d6b390b834bee818e242160f87df5__section_b4d_ktv_jyb"/>
+
+## Activation Using JDK
+
+To use a full SapMachine **JDK**, use the following configurations:
 
 ```
 ---
@@ -69,6 +112,10 @@ applications:
 
 To specify the JDK version, use environment variable JBP\_CONFIG\_SAP\_MACHINE\_JDK. For example:
 
+
+
+### SapMachine 11
+
 ```
 ---
 applications:
@@ -80,7 +127,7 @@ applications:
   ...
 ```
 
-You can also point to the major version of the SapMachine JDK, in order to always get the latest patch versions. In this case, specify it the following way:
+To point to the major version of the SapMachine JDK 11, specify it the following way:
 
 ```
 ---
@@ -92,13 +139,44 @@ applications:
     JBP_CONFIG_SAP_MACHINE_JDK: "{ version: 11.+ }"
 ```
 
+
+
+### SapMachine 17
+
+Use environment variable JBP\_CONFIG\_SAP\_MACHINE\_JDK in analogical way. For example:
+
+```
+---
+applications:
+- name: <app-name>
+  ...
+  env:
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
+    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 17.0.8 }'
+  ...
+```
+
+To point to the major version of the SapMachine JDK 17, specify it the following way:
+
+```
+---
+applications:
+- name: <app-name>
+  ...
+  env:
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
+    JBP_CONFIG_SAP_MACHINE_JDK: "{ version: 17.+ }"
+```
+
 > ### Restriction:  
-> As the SapMachine JDK is not bundled into the SAP Java Buildpack, you will always have to download it from GitHub as an online component.
+> As the SapMachine JDK is not bundled into the SAP Java Buildpack, if you want to use SapMachine JDK 11 or 17, you always have to download them from the [GitHub project](https://sap.github.io/SapMachine/) as an online component.
 
 **Related Information**  
 
 
 [Tomcat](tomcat-ddfc101.md "By default, web applications pushed with SAP Java Buildpack are running in an Apache Tomcat container.")
+
+[TomEE 7](tomee-7-79c039a.md "By default, web applications deployed with SAP Java Buildpack are running in an Apache Tomcat container.")
 
 [Java Main](java-main-8a1786a.md "You can create a Java application that starts its own runtime. This allows the usage of frameworks and Java runtimes, such as Spring Boot, Jetty, Undertow, or Netty.")
 

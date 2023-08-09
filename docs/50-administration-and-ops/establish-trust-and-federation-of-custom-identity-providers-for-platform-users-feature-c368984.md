@@ -18,7 +18,7 @@ You want to use a custom identity provider for the platform users of SAP BTP in 
 
     For more information, see [**Reuse SAP Cloud Identity Services Tenants for Different Customer IDs**](https://help.sap.com/docs/identity-authentication/identity-authentication/reuse-sap-cloud-identity-services-tenants-for-different-customer-ids) in the documentation for Identity Authentication.
 
--   Make sure that the e-mail addresses of all users in your identity provider are unique and correct.
+-   Make sure that the email addresses of all users in your identity provider are unique and correct.
 
 
 
@@ -59,7 +59,18 @@ You must establish a trust relationship with a custom identity provider in your 
 
     The identity providers listed are the Identity Authentication tenants associated with your customer ID.
 
-3.  Select an identity provider from the list of available tenants and choose *Establish Trust*.
+3.  Select an identity provider from the list of available tenants and choose *Next*.
+
+4.  Choose your desired domain of the tenant and continue with *Next*. For a good single sign-on experience, choose the same domain for all SAP BTP accounts and non SAP BTP applications that use this tenant.
+
+5.  Enter a name and a description of the new trust configuration. If possible, set the origin key. The origin key always ends with *\-platform*. Continue with *Next*.
+
+    > ### Note:  
+    > The origin key is a technical identifier of an identity provider for platform users. Administrators need it when managing users. Platform users from the identity provider need the origin key when signing in with certain tools, such as the Cloud Foundry command line interface or service dashboards.
+    > 
+    > You can only set the origin key once for the whole landscape. You can't change the origin key later.
+
+6.  The wizard shows you a preview of your configuration. To complete your new trust configuration, choose *Finish*.
 
 
 
@@ -131,6 +142,10 @@ You've configured trust in your tenant of the Identity Authentication service, w
 -   Work in the Cloud Foundry command line interface \(CF CLI\).
 
     For more information, see [Log On with a Custom Identity Provider to the Cloud Foundry Environment Using the Cloud Foundry Command-Line Interface](log-on-with-a-custom-identity-provider-to-the-cloud-foundry-environment-using-the-cloud-d477618.md).
+
+-   The Kyma environment has a separate configuration for the identity provider. We recommend that you also configure your Kyma environment to use Identity Authentication as your custom identity provider.
+
+    For more information, see [Configure a Custom Identity Provider for Kyma](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/67bcc6e2d4d749659faf3ede1853f19e.html).
 
 
 **Related Information**  

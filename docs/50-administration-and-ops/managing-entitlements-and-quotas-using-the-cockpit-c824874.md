@@ -283,7 +283,7 @@ In the Cloud Foundry environment, you can further distribute the quotas that are
 > Optionally, you can configure entitlements and quotas for supported services that you own or subscribe to from supported non-SAP cloud vendors. These services can be consumed in SAP BTP in your subaccounts alongside your self-developed services and those provided by SAP. This functionality requires first setting up a resource provider instance for your provider account in the cockpit. For more information, see [Managing Resource Providers](managing-resource-providers-e2c250d.md).
 
 > ### Note:  
-> -   In global accounts that use the consumption-based commercial model, SAP BTP, Cloud Foundry Runtime is not listed in the *Entitlements* pages in the SAP BTP cockpit. A quota limit of 50 GB of Cloud Foundry Runtime memory is assigned by default to every subaccount.
+> -   In global accounts that use the consumption-based commercial model, SAP BTP, Cloud Foundry Runtime is not listed in the *Entitlements* pages in the SAP BTP cockpit. A quota limit of 200 GB of Cloud Foundry Runtime memory is assigned by default to every subaccount.
 > -   If you need to increase this limit, report an incident to [SAP support](https://support.sap.com) on the BC-NEO-CIS component. This also applies to other services that have a technical quota limit.
 
 **Related Information**  

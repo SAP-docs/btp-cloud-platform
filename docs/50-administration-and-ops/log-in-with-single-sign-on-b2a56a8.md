@@ -14,6 +14,17 @@ Login through a browser is only available if you use the default server URL that
 
 
 
+<a name="loiob2a56a8a222940089fd2704a9c26140d__context_xj5_nsd_15b"/>
+
+## Context
+
+If you have a custom identity provider configured in your global account, use `btp login --sso --idp <TENANT>`. See [Log in with a Custom Identity Provider](log-in-with-a-custom-identity-provider-e48e486.md).
+
+> ### Tip:  
+> If you like logging in through single sign-on in a browser, you can configure this as the default behavior of `btp login` to save a few keystrokes at login. Use `btp set config --login.sso browser`. See [Change Configuration Settings](change-configuration-settings-dba4eb6.md) .
+
+
+
 ## Procedure
 
 1.  Enter the following and press [ENTER\] to be prompted for the server URL and the subdomain of your global account:
@@ -51,4 +62,6 @@ You’ve successfully logged in. You can return to the command line to work in y
 
 
 [Log in](log-in-e241b30.md "Log in with the btp CLI is on global account level.")
+
+[Log in with a Custom Identity Provider](log-in-with-a-custom-identity-provider-e48e486.md "")
 

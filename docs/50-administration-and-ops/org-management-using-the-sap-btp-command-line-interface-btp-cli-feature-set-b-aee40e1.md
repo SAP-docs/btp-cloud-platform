@@ -273,7 +273,7 @@ Update an existing Cloud Foundry org in a subaccount.
 
 `SUBACCOUNT_ID`: The ID of the subaccount.
 
-`PLAN`: Specify `standard` as the value.
+`PLAN`: Specify either `standard` or `free` as the value.
 
 
 
@@ -332,6 +332,139 @@ The Cloud Foundry org and all its data will be lost.
 
 > ### Note:  
 > You can obtain the subaccount ID by running `btp list accounts/subaccount`. You can also target the subaccount using <code>btp target --subaccount <i class="varname">&lt;ID&gt;</i></code>, and then omit the `subaccount` parameter from the rest of the commands.
+
+
+
+<a name="loioaee40e1afa56445a9bd57c2621d6eaaa__section_k2c_hj1_fyb"/>
+
+## Adding and Removing of Org Members
+
+You can also use the btp CLI to add or remove org members.
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+Action
+
+
+
+</th>
+<th valign="top">
+
+Command
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+<th valign="top">
+
+Parameters
+
+
+
+</th>
+<th valign="top">
+
+Additional Info
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`update` 
+
+
+
+</td>
+<td valign="top">
+
+<code>btp update accounts/environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i> --parameters "{\"usersToAdd\":[{\"id\":\"myUserID\",\"email\":\name@example.com\}]}"</code> 
+
+
+
+</td>
+<td valign="top">
+
+Add one or more users to a Cloud Foundry org in a subaccount.
+
+
+
+</td>
+<td valign="top">
+
+`ID`: The ID of the environment instance for which to add org members.
+
+`SUBACCOUNT_ID`: The ID of the subaccount.
+
+`PLAN`: Specify either `standard` or `free` as the value.
+
+
+
+</td>
+<td valign="top">
+
+For examples that show how to pass JSON parameters in the command line with different operating systems and shells, see the [Passing JSON Parameters on the Command Line](passing-json-parameters-on-the-command-line-899fe34.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`update` 
+
+
+
+</td>
+<td valign="top">
+
+<code>btp update accounts/environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i> --parameters "{\"usersToRemove\":[{\"id\":\"myUserID\",\"email\":\name@example.com\}]}"</code> 
+
+
+
+</td>
+<td valign="top">
+
+Remove one or more users from a Cloud Foundry org in a subaccount.
+
+
+
+</td>
+<td valign="top">
+
+`ID`: The ID of the environment instance for which to remove org members.
+
+`SUBACCOUNT_ID`: The ID of the subaccount.
+
+`PLAN`: Specify either `standard` or `free` as the value.
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+</table>
 
 **Related Information**  
 

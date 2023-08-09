@@ -346,6 +346,11 @@ An identifier for a user that is unique across technology layers such as user in
 
 Business applications can use this identifier to correlate information about the user. While not necessary for platform users, the attribute doesn't hinder such users either.
 
+> ### Note:  
+> SAP Authorization and Trust Management service supports global user identifiers. When Identity Authentication sends a global user identifier, it is included in the SAP Authorization and Trust Management service tokens, which means that you can use it in scenarios where you need to make use of global user identifiers.
+> 
+> For more information, see [Global User ID in Integration Scenarios](https://help.sap.com/docs/cloud-identity/system-integration-guide/global-user-id-in-integration-scenarios?version=Cloud).
+
 
 
 </td>

@@ -160,7 +160,7 @@ You've created a communication scenario as described in [Defining a Communicatio
 
 To test your outbound call, you have to provide a configuration for the outbound service you want to call in your code.
 
-Create a communication system and communication arrangement for the communication scenario and maintain the required data, such as host name and credentials in the Communication Systems and Communication Arrangements apps.
+Create a communication system and communication arrangement for the communication scenario and maintain the required data, such as host name and credentials in the Communication Systems and Communication Arrangements apps. For more information, see [Communication Management](communication-management-5b8ff39.md#loio5b8ff39ddb6741a29ddfcf587939e8f4).
 
 **Related Information**  
 

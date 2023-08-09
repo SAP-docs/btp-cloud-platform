@@ -2,12 +2,14 @@
 
 # Maintain Solution
 
-The purpose of the Maintain Solution app is to guide providers through the complex SaaS solution configuration process. In addition, the deployment can be performed and monitored.
+The purpose of the Maintain Solution app is to comfortably guide you, as provider, through the SaaS solution configuration process, and to enable you to trigger and monitor the deployment of your SaaS solution.
+
+At the end of this process, your consumers will be able to subscribe to your SaaS solution.
 
 > ### Note:  
-> Specific implementations for the approuter are not supported. Providers that need such enhancements need to configure and deploy the solution manually.
+> Specific implementations for the approuter are not supported in the Maintain Solution app. Providers that need such enhancements need to configure and deploy the solution manually. See [Configure the Approuter Application](configure-the-approuter-application-3725815.md).
 
-![](images/MSA_scheme_30b106a.png)
+![](images/MSA_2cc7866.png)
 
 
 
@@ -15,24 +17,38 @@ The purpose of the Maintain Solution app is to guide providers through the compl
 
 ## Introduction
 
-Once you have created your product and registered using the Build Product Version app, you can use the Maintain Solution app to create and maintain the deployment of your solution to the Business Technology Platform, so that your customers can subscribe to it.
+Once you have created your product and built a new product version using the *Build Product Version* app, you can use the *Maintain Solution* app to create and maintain the necessary configuration settings for your SaaS solution, its deployment and to trigger the deployment of your solution to SAP BTP Cloud Foundry so that your consumers can subscribe to it.
 
-On one hand, the app supports you in defining how an ABAP system should technically look like. For this purpose, the app provides a guided configuration of a plan. This plan defines which product name and version will be included in the ABAP system as well as which resources will be used to create the system.
+The app supports you in defining what your SaaS solution should technically look like. For this purpose, the app guides you through the creation and configuration of a ‚solution plan‘, which is required for the subscription in SAP BTP Cloud Foundry. A plan contains technical parameters on how the ABAP system containing your solution will be set up.
 
-In general, you \(as a provider\) can have multiple accounts, for example test or productive account, where it is possible to install a solution. On the other hand, the app provides the generation of several deployment configurations as the settings for each subaccount vary. The ABAP system with a specified plan \(as described above\) will be created within the given Cloud Foundry space, which is part of the CF organization, that belongs to the provider account. Not only can you define the deployment configuration, but also trigger it from the app and monitor the process.
+The app also lets you create different deployment configurations for the same SaaS solution. Since the settings for each subaccount vary, you may also need to create different deployment configurations \(e.g. one for a subaccount used for testing, another for the production subaccount\).
 
-The consumer can now subscribe to the provider’s SaaS solution.
+Once you have defined a deployment configuration, you can trigger your solution deployment and monitor the progress in the app.
 
-> ### Caution:  
-> It is only allowed to deploy one app per space. If you are about to reuse an ID, the following message will be shown:
-> 
-> ![](images/CFspacemessage_3223f2d.png)
+The ABAP system with the plan \(that you specified when configuring your solution\) will be created within the CF space which is part of the CF organisation \(both of which you specified in the deployment configuration\) that your provider account belongs to.
 
+When your solution has successfully been deployed, your consumers will be able to subscribe to it.
 
 
-### Process Description
 
-After creating the credentials necessary to access the subaccounts, you can create a new solution using a step-by-step wizard. This wizard also includes the set up of a plan in step two. For the last step, you determine the deployment configurations.
+<a name="loio4985d3cf71564b908a972a5126585029__section_nsc_hvb_3yb"/>
 
-To understand this better, read the first subpage called *Create Process* that will guide you through the detailed creation process of the Maintain Solution app.
+## Process Description
+
+After creating the credentials necessary to access the provider subaccounts where the solution ist to be deployed \(see [Maintain Credentials](maintain-credentials-6006a60.md)\), you use the step-by-step guide to create a new solution \(step 1\), configure a solution plan \(step 2\), and specify some advanced settings \(step 3\) \(see [Create Solution](create-solution-aca34fa.md)\). Then, you create a deployment configuration using another step-by-step guide \(see [Create Deployment Configuration](create-deployment-configuration-58b90ec.md)\). Afterwards, you can deploy your solution with the respective deployment configuration \(see [Deploy Solution](deploy-solution-0b7df99.md)\). You can then monitor the progress of the deployment in the app \(see [Monitor Deployment](monitor-deployment-61575d9.md)\).
+
+
+
+![](images/Image_Map_MSA_Process_7f05e13.png)
+
+
+
+<a name="loio4985d3cf71564b908a972a5126585029__section_nh1_3yb_3yb"/>
+
+## Prerequisites
+
+-   You have created a space in your provider subaccount. This is the space that your solution will be deployed to.
+
+-   You have created a technical user \(email address\) that has the Space Developer role assigned to it. This technical user needs to be available in SAP ID service. This user will be used for the deployment.
+
 

@@ -1,6 +1,6 @@
 <!-- loiofe6a53bfe48e4831b2f5ae7f06d4f07d -->
 
-# Working With Resources of the SAP Service Manager Using the btp CLI
+# Working with Resources of the SAP Service Manager Using the btp CLI
 
 Use the SAP BTP command line interface to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.
 
@@ -9,7 +9,7 @@ You can also get information about the service plans and service offerings assoc
 For more information about the SAP Service Manager, see [SAP Service Manager](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/3a27b85a47fc4dff99184dd5bf181e14.html).
 
 > ### Tip:  
-> All of these commands are executed in subaccounts. If you know you'll be working in a specific subaccount, we recommend using the `btp target` command to set the target to this subaccount. Then you won't have to provide the subaccount ID with every command call. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
+> All of these commands are executed in subaccounts. If you know you are working in a specific subaccount, we recommend using the `btp target` command to set the target to this subaccount. Then you won't have to provide the subaccount ID with every command call. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
 
 For detailed descriptions of all SAP Service Manager CLI commands, see [SAP Service Manager Commands for SAP BTP command line interface \[Feature Set B\]](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/4dceb6a597274c65b255a400bb837400.html).
 
@@ -432,7 +432,68 @@ Delete an existing service instance.
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Share a service instance
+
+
+
+</td>
+<td valign="top">
+
+`btp share services/instance`
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Unshare a service instance
+
+
+
+</td>
+<td valign="top">
+
+`btp unshare services/instance`
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
 </table>
+
+> ### Note:  
+> The optional `--show-parameters` available for `btp get services/instance` and `btp get services/binding` commands returns parameters only if the service offering associated with the instance or binding for which to view parameters has the `instances_retrievable` or `bindings_retrievable` parameter values respectively set to **true**.
+
+> ### Tip:  
+> To check associated service offering's `instances_retrievable` value, run the following commands:
+> 
+> 1.  `btp get services/instance` and find the `plan_id` for the instance. Use the plan ID in
+> 
+> 2.  `btp get services/plan` and check the `offering_id` for the instance. Use the offering ID in
+> 
+> 3.  `btp get services/offering` and see whether the `instances_retrievable` parameter's value is set to true.
+> 
+> 
+> Start with `btp get services/binding` and then use the same commands for plan and offering details if you're checking the `bindings_retrievable` value.
 
 
 

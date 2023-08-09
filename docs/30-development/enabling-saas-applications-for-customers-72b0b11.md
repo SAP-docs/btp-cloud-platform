@@ -10,7 +10,7 @@ You can provide an application to multiple customers as a SaaS solution in the A
 
 ## Build
 
-Build a first version of your add-on. See [Build](develop-test-build-3bf575a.md#loio25049720bde447e395b3df0bc05e5a50).
+Build a first version of your add-on. See [Build](build-2504972.md#loio25049720bde447e395b3df0bc05e5a50).
 
 
 
@@ -27,10 +27,10 @@ Build a first version of your add-on. See [Build](develop-test-build-3bf575a.md#
     -   *05 Provide* \(for example with Region *cf-eu10*\) for providing the add-on to customers
     -   *06 Consume* \(for example with the subdomain *my-consumer-subdomain*\) to access the solution as a customer
 
-    See [Set Up a Global Account for Development](develop-test-build-3bf575a.md#loio9f2150f2b15e414aacd46c1723ce48fb).
+    See [Set Up a Global Account for Development](prepare-4338854.md#loio9f2150f2b15e414aacd46c1723ce48fb).
 
--   You've purchased entitlements that are necessary for the account setup. See [Prepare](develop-test-build-3bf575a.md#loio4338854e3133407abb47d3a281dbd1e1).
--   You've registered a namespace at SAP, for example /NAMESPC/. See [Register a Namespace](develop-test-build-3bf575a.md#loiocc5a3c6f78cf4889960c314dd09a5060).
+-   You've purchased entitlements that are necessary for the account setup. See [Prepare](prepare-4338854.md#loio4338854e3133407abb47d3a281dbd1e1).
+-   You've registered a namespace at SAP, for example /NAMESPC/. See [Register a Namespace](prepare-4338854.md#loiocc5a3c6f78cf4889960c314dd09a5060).
 -   You've registered your add-on at SAP, for example /NAMESPC/PRODUCTX. See [Build](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/3bf575a3dc5043f895f8bd411d2a86a1.html#loio25049720bde447e395b3df0bc05e5a50).
 -   You've set up a Jenkins build pipeline and have ensured that an external Git repository is available for the pipeline definition. See [ABAP Environment Pipeline](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9482e7eef4634cb993a4ae296b2029fa.html#loio2398b874f7c5445db188b780ff0cef89).
     -   You've created a technical communication user, for example with the credentials ID `TechUserAAKaaS`.

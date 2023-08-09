@@ -53,7 +53,6 @@ Combination of the two methods
 >     parameters:
 >       config:
 >         xsappname: java-hello-world
->         path: <path to directory>
 > ```
 
 
@@ -100,9 +99,10 @@ Combination of the two methods
 >   - name: java-uaa
 >     type: com.sap.xs.uaa
 >     parameters:
+>       path: <path to directory>
 >       config:
->         xsappname: java-hello-world-custom
->         path: <path to directory>
+>         xsappname: java-hello-world
+>         
 > ```
 
 > ### Sample Code:  

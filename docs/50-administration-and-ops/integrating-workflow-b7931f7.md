@@ -1,6 +1,6 @@
 <!-- loiob7931f7b42d5433987b9d3f30e2445fd -->
 
-# Workflow Integration
+# Integrating Workflow
 
 You can enable the communication between the ABAP environment and the workflow capability within the SAP Workflow Management service.
 

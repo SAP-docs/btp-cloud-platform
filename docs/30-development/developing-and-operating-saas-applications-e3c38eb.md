@@ -24,6 +24,8 @@ The way ABAP service instances and tenants are used for consumer subscription ap
 -   **Single-tenant enabled**: With each new consumer, a new ABAP service instance is created
 -   **Multi-tenant enabled**: For multiple consumers, the same ABAP service instance is used
 
+For more information, see [Multitenancy in the ABAP Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/multitenancy-in-abap-environment?version=Cloud).
+
 
 
 <a name="loioe3c38ebaefc44523b679e7a0c375bc86__section_mcg_pgt_rnb"/>
@@ -36,7 +38,7 @@ The [Concepts](concepts-9482e7e.md#loio9482e7eef4634cb993a4ae296b2029fa) chapter
 
 The [Glossary](glossary-6e251fa.md) contains a list of all the technical terms and phrases used in this scenario.
 
-Chapter [Develop, Test, Build](develop-test-build-3bf575a.md#loio3bf575a3dc5043f895f8bd411d2a86a1) describes the actual development activities. This includes the setup of the required account structure and system landscape, as well as the recommended testing process and subsequent build of the add-on.
+Chapter [Develop, Test, Build](develop-test-build-3bf575a.md) describes the actual development activities. This includes the setup of the required account structure and system landscape, as well as the recommended testing process and subsequent build of the add-on.
 
 Chapter [Order and Provide](order-and-provide-975bd3e.md#loio975bd3e54cbe4e52af346740658d1a4a) illustrates how a developed add-on can be deployed and made available to consumers. It also shows how consumers order solutions and what steps you, as the provider, need to perform to provision the solution.
 

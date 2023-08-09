@@ -293,7 +293,7 @@ For the following process of creating a consumer subaccount for your customer, y
 
 For the following process of creating a consumer subaccount for your customer, you have to create consumer subaccounts in the global account for production so that customers can subscribe to the provided SaaS solution.
 
-This means, on top of subaccount *05 Provide*, you have to create a subaccount in the global account for production for each consumer. See [Set Up a Global Account for Production](develop-test-build-3bf575a.md#loio2e7b4b631e814de1b8fe3959af4105bc).
+This means, on top of subaccount *05 Provide*, you have to create a subaccount in the global account for production for each consumer. See [Set Up a Global Account for Production](prepare-4338854.md#loio2e7b4b631e814de1b8fe3959af4105bc).
 
 After a customer has ordered the SaaS solution, you, as an operator of the global account for production, need to create a *06 Consume* subaccount.
 

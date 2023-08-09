@@ -84,7 +84,7 @@ This process may take a while, depending on the number of modules. The operation
 
 ## Enable and Disable a Kyma Module Using Kyma CLI
 
-Use Kyma CLI to enable or disable a Kyma module in the release channel of your choice.
+Use [Kyma CLI](https://github.com/kyma-project/cli) to enable or disable a Kyma module in the release channel of your choice.
 
 
 
@@ -92,7 +92,7 @@ Use Kyma CLI to enable or disable a Kyma module in the release channel of your c
 
 ## Context
 
-Enable or disable a module using Kyma CLI:
+Enable or disable a module using [Kyma CLI](https://github.com/kyma-project/cli):
 
 
 

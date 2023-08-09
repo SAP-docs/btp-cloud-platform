@@ -274,7 +274,7 @@ SAP BTP Workflow Integration \(SAP\_COM\_0542\).
 </td>
 <td valign="top">
 
-[Workflow Integration](workflow-integration-b7931f7.md)
+[Integrating Workflow](integrating-workflow-b7931f7.md)
 
 
 

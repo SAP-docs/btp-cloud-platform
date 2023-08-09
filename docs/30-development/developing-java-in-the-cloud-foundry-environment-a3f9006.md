@@ -164,7 +164,10 @@ modules:
 The SAP Java Buildpack \(`sap_java_buildpack`\) supports the following Java versions:
 
 -   Java **8** – default version when you use SAP JVM \(*it provides a JRE with Java 8*\)
--   Java **11** – default version when you use SapMachine \(*it provides a JRE with Java 11*\). To learn how to configure your application to use SapMachine JRE and JDK, see: [SapMachine](sapmachine-785d6b3.md)
+-   Java **11** – default version when you use SapMachine \(*it provides a JRE with Java 11*\)
+-   Java **17** – possible version when you use SapMachine \(*it provides a JRE with Java 17*\)
+
+To learn how to configure your application to use SapMachine JRE and JDK, see: [SapMachine](sapmachine-785d6b3.md)
 
 
 
@@ -186,6 +189,16 @@ SAP Java Buildpack provides the following components \(containers, JREs, framewo
 
 -   JVMKill Agent
 
+
+
+
+<a name="loioa3f90069d6cd41da82f34a6123d82ce6__section_m1p_3w4_jyb"/>
+
+## Async Servlets
+
+In the current version of the SAP Java Buildpack, the async servlets are *not supported*.
+
+**Reason:** Some of the [valves](https://tomcat.apache.org/tomcat-8.0-doc/config/valve.html) that SAP Java Buildpack brings to Tomcat and TomEE 7 are not "async enabled".
 
 
 

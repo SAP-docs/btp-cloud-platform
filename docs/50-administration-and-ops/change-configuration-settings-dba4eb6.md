@@ -8,7 +8,7 @@ Change the configuration settings to customize the behavior of the btp CLI.
 
 ## Context
 
-There are a few configuration settings that you can set to customize how the btp CLI works. Currently, these settings include two options, which, instead of passing them with each command, can be set persistently: changing the output format to json and turning on verbose mode. The third setting is command-specific: you can configure how the `btp target` command behaves.
+There are a few configuration settings that you can set to customize how the btp CLI works.
 
 These settings are saved to the configuration file, which governs how the btp CLI works. You can have more than one configuration file for working in different accounts at the same time by logging in with the `--config PATH` option and then also providing it with each command call. See [Specify the Location of the Configuration File](specify-the-location-of-the-configuration-file-e57288d.md).
 
@@ -71,6 +71,22 @@ To find out where the configuration file is stored, use `btp --info`. Use the fo
     If set to true, `btp target` displays the full hierarchy of all global accounts. Valid values: false \(default\), true
 
     See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `--login.sso MODE`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Single sign-on mode of `btp login`. Valid values: none \(default\), browser, manual. For example, if you want `btp login` to always open a browser for login at your identity provider, use `btp set config --login.sso browser`.
 
 
     

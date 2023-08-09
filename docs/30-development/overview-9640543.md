@@ -43,14 +43,14 @@ User/Role
 <tr>
 <td valign="top" rowspan="7">
 
-[Prepare](develop-test-build-3bf575a.md#loio4338854e3133407abb47d3a281dbd1e1)
+[Prepare](prepare-4338854.md#loio4338854e3133407abb47d3a281dbd1e1)
 
 
 
 </td>
 <td valign="top">
 
-Register a namespace. See [Register a Namespace](develop-test-build-3bf575a.md#loiocc5a3c6f78cf4889960c314dd09a5060).
+Register a namespace. See [Register a Namespace](prepare-4338854.md#loiocc5a3c6f78cf4889960c314dd09a5060).
 
 
 
@@ -78,7 +78,7 @@ S-user
 <tr>
 <td valign="top">
 
-Set up a global account for development. See [Set Up a Global Account for Development](develop-test-build-3bf575a.md#loio9f2150f2b15e414aacd46c1723ce48fb).
+Set up a global account for development. See [Set Up a Global Account for Development](prepare-4338854.md#loio9f2150f2b15e414aacd46c1723ce48fb).
 
 
 
@@ -116,7 +116,7 @@ Operator
 <tr>
 <td valign="top">
 
-Set up a global account for production. See [Set Up a Global Account for Production](develop-test-build-3bf575a.md#loio2e7b4b631e814de1b8fe3959af4105bc).
+Set up a global account for production. See [Set Up a Global Account for Production](prepare-4338854.md#loio2e7b4b631e814de1b8fe3959af4105bc).
 
 
 
@@ -155,7 +155,7 @@ Operator
 <tr>
 <td valign="top">
 
-Create ABAP instance\(s\). See [Create ABAP Instances](develop-test-build-3bf575a.md#loio17aa433273c24bd2b949c297513851fe).
+Create ABAP instance\(s\). See [Create ABAP Instances](prepare-4338854.md#loio17aa433273c24bd2b949c297513851fe).
 
 
 
@@ -190,7 +190,7 @@ Operator
 <tr>
 <td valign="top">
 
-Set up UI development. See [Set Up UI Development](develop-test-build-3bf575a.md#loio3f03dfe2f21b471ab98abc6f208c3762).
+Set up UI development. See [Set Up UI Development](prepare-4338854.md#loio3f03dfe2f21b471ab98abc6f208c3762).
 
 
 
@@ -213,7 +213,7 @@ Operator
 <tr>
 <td valign="top">
 
-Set up add-on development. [Set Up Add-On Development](develop-test-build-3bf575a.md#loio89a353151e534380a03b2a572a227731).
+Set up add-on development. [Set Up Add-On Development](prepare-4338854.md#loio89a353151e534380a03b2a572a227731).
 
 
 
@@ -236,7 +236,7 @@ Add-on administrator
 <tr>
 <td valign="top">
 
-Transport from development to test system. See [Set Up Transport from Development to Test System](develop-test-build-3bf575a.md#loiobf557544f90f4bc88911c4865ec78207).
+Transport from development to test system. See [Set Up Transport from Development to Test System](prepare-4338854.md#loiobf557544f90f4bc88911c4865ec78207).
 
 
 
@@ -264,14 +264,14 @@ Add-on administrator
 <tr>
 <td valign="top" rowspan="3">
 
-[Develop](develop-test-build-3bf575a.md#loio9464e3af139d4e0581cb4e819886b0c8)
+[Develop](develop-9464e3a.md#loio9464e3af139d4e0581cb4e819886b0c8)
 
 
 
 </td>
 <td valign="top">
 
-ABAP development. See [ABAP Development](develop-test-build-3bf575a.md#loiofa5af4ecdf90496b8eec54fe0e22150c).
+ABAP development. See [ABAP Development](develop-9464e3a.md#loiofa5af4ecdf90496b8eec54fe0e22150c).
 
 
 
@@ -296,7 +296,7 @@ Developer
 <tr>
 <td valign="top">
 
-UI development. See [UI Development](develop-test-build-3bf575a.md#loiof3be8246edc74be59c10779443f67793).
+UI development. See [UI Development](develop-9464e3a.md#loiof3be8246edc74be59c10779443f67793).
 
 
 
@@ -319,7 +319,7 @@ Developer
 <tr>
 <td valign="top">
 
-\[Optional\] Code migration. See [\(Optional\) Code Migration from On-Premise](develop-test-build-3bf575a.md#loiof438645cb5664399a6b21f8d9bd3d004).
+\[Optional\] Code migration. See [\(Optional\) Code Migration from On-Premise](develop-9464e3a.md#loiof438645cb5664399a6b21f8d9bd3d004).
 
 
 
@@ -344,14 +344,14 @@ See [Blog: How to bring your ABAP custom to the ABAP Environment](https://blogs.
 <tr>
 <td valign="top" rowspan="2">
 
-[Test](develop-test-build-3bf575a.md#loio023cf9d301b1479484e70b17cd5cf587)
+[Test](test-023cf9d.md#loio023cf9d301b1479484e70b17cd5cf587)
 
 
 
 </td>
 <td valign="top">
 
-Test in cloud system. See [Test in the ABAP Environment SAP Fiori Launchpad](develop-test-build-3bf575a.md#loio8c5b4d76a05b4bed8df01937f4d8d487).
+Test in cloud system. See [Test in the ABAP Environment SAP Fiori Launchpad](test-023cf9d.md#loio8c5b4d76a05b4bed8df01937f4d8d487).
 
 
 
@@ -376,7 +376,7 @@ Test user
 <tr>
 <td valign="top">
 
-Test in the ABAP Test Cockpit. See [Test in the ABAP Test Cockpit](develop-test-build-3bf575a.md#loiof0b71a1c959842258772c27d292c43b0).
+Test in the ABAP Test Cockpit. See [Test in the ABAP Test Cockpit](test-023cf9d.md#loiof0b71a1c959842258772c27d292c43b0).
 
 
 
@@ -401,14 +401,14 @@ Developer
 <tr>
 <td valign="top" rowspan="2">
 
-[Build](develop-test-build-3bf575a.md#loio25049720bde447e395b3df0bc05e5a50)
+[Build](build-2504972.md#loio25049720bde447e395b3df0bc05e5a50)
 
 
 
 </td>
 <td valign="top">
 
-Prepare your add-on build. See [Set Up Add-On Build](develop-test-build-3bf575a.md#loioccf0c1ef30ce4d6aa6e39bb583fb8ba1).
+Prepare your add-on build. See [Set Up Add-On Build](build-2504972.md#loioccf0c1ef30ce4d6aa6e39bb583fb8ba1).
 
 
 
@@ -440,7 +440,7 @@ Register the add-on product in the global account for development and production
 <tr>
 <td valign="top">
 
-Build your first add-on version. See [Build the First Add-On Version](develop-test-build-3bf575a.md#loio96f9db9e6c784e5a89ede4d038daaa43).
+Build your first add-on version. See [Build the First Add-On Version](build-2504972.md#loio96f9db9e6c784e5a89ede4d038daaa43).
 
 
 

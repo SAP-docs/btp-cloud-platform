@@ -310,7 +310,7 @@ A support package version could be used for example to deliver a new simple busi
 
         As development in system DEV is done on the main branch, the same branch is imported into the test system.
 
-        As an add-on admin, use the *Manage Software Components* app to import the changes in the main branch into test system TST. Alternatively, changes can be imported automatically by using a Jenkins pipeline, see section *Transport from dev to test system via gCTS* described in [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89). The pipeline creation is described in section *Set Up Transport from Development to Test System via gCTS* in [Prepare](develop-test-build-3bf575a.md#loio4338854e3133407abb47d3a281dbd1e1).
+        As an add-on admin, use the *Manage Software Components* app to import the changes in the main branch into test system TST. Alternatively, changes can be imported automatically by using a Jenkins pipeline, see section *Transport from dev to test system via gCTS* described in [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89). The pipeline creation is described in section *Set Up Transport from Development to Test System via gCTS* in [Prepare](prepare-4338854.md#loio4338854e3133407abb47d3a281dbd1e1).
 
         > ### Note:  
         > Support package deliveries aren’t limited to changes to only one software component. But only software component support packages and patches should be included in a support package delivery. The software components that are part of an add-on product can only be changed as part of a release delivery.
@@ -462,10 +462,10 @@ Based on the target vector published in the Build stage, the Integration Tests s
 
 Use add-on installation test system ATI to confirm the successful add-on installation before the new add-on version is published.
 
-You can also use add-on installation test system ATI for additional tests, similar to the steps described in [Test in the ABAP Environment SAP Fiori Launchpad](develop-test-build-3bf575a.md#loio8c5b4d76a05b4bed8df01937f4d8d487). For testing in a multitenancy environment, you can create tenants of type Partner Test using the Landscape Portal application. See [Use Test Tenants](use-test-tenants-dd7d8e8.md).
+You can also use add-on installation test system ATI for additional tests, similar to the steps described in [Test in the ABAP Environment SAP Fiori Launchpad](test-023cf9d.md#loio8c5b4d76a05b4bed8df01937f4d8d487). For testing in a multitenancy environment, you can create tenants of type Partner Test using the Landscape Portal application. See [Use Test Tenants](use-test-tenants-dd7d8e8.md).
 
 > ### Note:  
-> Please make sure that the add-on product version to be published is properly tested before confirming the release decision. This includes testing in SAP Fiori launchpad and the ABAP Test Cockpit. See [Test in the ABAP Environment SAP Fiori Launchpad](develop-test-build-3bf575a.md#loio8c5b4d76a05b4bed8df01937f4d8d487) and [Test in the ABAP Test Cockpit](develop-test-build-3bf575a.md#loiof0b71a1c959842258772c27d292c43b0).
+> Please make sure that the add-on product version to be published is properly tested before confirming the release decision. This includes testing in SAP Fiori launchpad and the ABAP Test Cockpit. See [Test in the ABAP Environment SAP Fiori Launchpad](test-023cf9d.md#loio8c5b4d76a05b4bed8df01937f4d8d487) and [Test in the ABAP Test Cockpit](test-023cf9d.md#loiof0b71a1c959842258772c27d292c43b0).
 
 Finally, the previously created target vector for the new add-on product version is published in production scope after the add-on administrator has confirmed the release decision in the Confirm stage.
 

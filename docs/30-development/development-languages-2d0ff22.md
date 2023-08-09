@@ -2,7 +2,7 @@
 
 # Development Languages
 
-Learn about the development languages supported in the Cloud Foundry environment.
+Learn about the development languages supported in the SAP BTP, Cloud Foundry environment.
 
 The polylglot nature of SAP BTP means that you have the freedom to choose between various development languages. While we do recommend using Java and Node.js for most use cases, you're free to use the language that best suits your development needs.
 
