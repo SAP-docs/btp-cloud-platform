@@ -10,6 +10,9 @@
 
 You can create a support user to access a consumer tenant.
 
+> ### Note:  
+> Support users can only be created in tenants that are live and are of type "Partner Customer Production Tenant" or type "Partner Customer Test Tenant", i.e. the tenant must have been created through a subscription \(see [Tenant Business Types](tenant-business-types-018e8bd.md)\). For test tenants created in the Landscape Portal, support users cannot be created.
+
 
 
 <a name="loiob31712cc9dbf44fb8a603ab4be6f8d28__section_dtt_2rf_knb"/>

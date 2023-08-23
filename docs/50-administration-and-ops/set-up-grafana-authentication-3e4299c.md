@@ -1,8 +1,8 @@
 <!-- loio3e4299cfd0884c428e6b4774225638e8 -->
 
-# Set up Grafana Authentication
+# Set Up Grafana Authentication
 
-Kyma comes with Grafana, which provides a dashboard and a graph editor to visualize metrics and logs. By default, Kyma doesn't expose Grafana. We recommend that you expose Grafana securely so you can access it directly from Kyma Dashboard. Alternatively, you can set up port forwarding every time you want to see the metrics and logs.
+Kyma comes with Grafana, which provides a dashboard and a graph editor to visualize metrics. By default, Kyma doesn't expose Grafana. We recommend that you expose Grafana securely so you can access it directly from Kyma Dashboard. Alternatively, you can set up port forwarding every time you want to see the metrics.
 
 
 
@@ -11,14 +11,14 @@ Kyma comes with Grafana, which provides a dashboard and a graph editor to visual
 ## Prerequisites
 
 > ### Caution:  
-> The in-cluster Logging and Monitoring capabilities, a well as any integration with Grafana, have been deprecated. See *What's New* for Kyma about [Logging](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%20Runtime&Software_Lifecycle=Deprecated&q=logging&locale=en-US&version=Cloud&Valid_as_Of=2022-12-01%3A2023-09-30) and [Monitoring](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%20Runtime&Software_Lifecycle=Deprecated&q=monitoring&locale=en-US&version=Cloud&Valid_as_Of=2022-12-01%3A2023-09-30).
+> The in-cluster Monitoring capabilities, a well as any integration with Grafana, have been deprecated. See *What's New* for Kyma about [Monitoring](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%20Runtime&Software_Lifecycle=Deprecated&q=monitoring&locale=en-US&version=Cloud&Valid_as_Of=2022-12-01%3A2023-09-30).
 
 -   You’ve defined the kubeconfig file for your cluster as default \(see [Kubernetes: Organizing Cluster Access Using kubeconfig Files](https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/)\).
 
 -   You have an Identity Authentication \(IAS\) tenant. To learn more about using Identity Authentication, see the [operation guide](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/6a8e67cf98bf41968ea2849dfd0b6bbd.html).
 
     > ### Note:  
-    > If you have no custom IAS tenant, you can access the metrics and logs using port forwarding:
+    > If you have no custom IAS tenant, you can access the metrics using port forwarding:
     > 
     > 1.  To forward a local port to a port on the Grafana Pod, run the following command:
     > 
@@ -40,7 +40,7 @@ Kyma manages an [OAuth2 Proxy](https://oauth2-proxy.github.io/oauth2-proxy/) ins
 > ### Note:  
 > You can’t use the default Kyma IAS tenant as IdP for Grafana because you can’t manage user groups in that shared IdP. Most of all, you can’t manage allowed callback URLs to fulfill the OIDC authentication flow initiated by Grafana's OAuth2 Proxy. You need a custom IdP for Grafana.
 > 
-> However, a single IdP can be shared to access Kubernetes and Grafana, so you can reuse the same Identity Authentication tenant for both. Alternatively, you can choose a completely different IdP, as long it's compliant with OpenIDConnect.
+> However, a single IdP can be shared to access Kubernetes and Grafana, so you can reuse the same Identity Authentication tenant for both. Alternatively, you can choose a different IdP, as long it's compliant with OpenIDConnect.
 
 
 
@@ -93,14 +93,14 @@ Kyma manages an [OAuth2 Proxy](https://oauth2-proxy.github.io/oauth2-proxy/) ins
 
 ## Results
 
-You directly go to the Grafana UI instead being redirected to documentation.
+You directly go to the Grafana UI instead of being redirected to documentation.
 
 **Related Information**  
 
 
-[Authentication and Authorization in the Kyma Environment](../60-security/authentication-and-authorization-in-the-kyma-environment-85200d8.md "Kyma allows you to use the default or a custom Identity Provider to authenticate in the Kyma environment.")
+[Authentication and Authorization in the Kyma Environment](../60-security/authentication-and-authorization-in-the-kyma-environment-85200d8.md "To authenticate in the Kyma environment, you can either use the default identity provider or set up a custom identity provider.")
 
 [Create OpenID Connect Application for Client Credentials Flow](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/98015c81af554b5d9192ad550168e331.html)
 
-[Kyma: Access and Expose Kiali, Grafana, and Jaeger](https://kyma-project.io/docs/kyma/latest/04-operation-guides/security/sec-06-access-expose-kiali-grafana#expose-kiali-grafana-and-jaeger-securely)
+[Kyma: Access and Expose Grafana](https://kyma-project.io/#/04-operation-guides/security/sec-06-access-expose-grafana)
 

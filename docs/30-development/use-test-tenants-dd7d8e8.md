@@ -38,7 +38,7 @@ As a SAP BTP ABAP environment user, you might want to test your solution on a te
 
 ## Deleting a Test Tenant:
 
-Test tenants can be deleted in the *Landscape Portal* app. Once you don't need your test tenant anymore, you can simply delete it by selecting the tenant and clicking *Delete* on the tenant's details page.
+Test tenants can be deleted in the *Landscape Portal*. Once you don't need your test tenant anymore, you can simply delete it by selecting the tenant and clicking *Delete* on the tenant's details page.
 
 Keep in mind that there is no retention time: once the test tenant is deleted, it cannot be restored. All the requests related to a test tenant that has been deleted will be removed from the request log.
 

@@ -25,7 +25,7 @@ The app also lets you create different deployment configurations for the same Sa
 
 Once you have defined a deployment configuration, you can trigger your solution deployment and monitor the progress in the app.
 
-The ABAP system with the plan \(that you specified when configuring your solution\) will be created within the CF space which is part of the CF organisation \(both of which you specified in the deployment configuration\) that your provider account belongs to.
+The ABAP system with the plan \(that you specified when configuring your solution\) will be created within the CF space into which you deployed your solution and which is part of the CF organisation \(both of which you specified in the deployment configuration\) that your provider account belongs to.
 
 When your solution has successfully been deployed, your consumers will be able to subscribe to it.
 
@@ -49,6 +49,6 @@ After creating the credentials necessary to access the provider subaccounts wher
 
 -   You have created a space in your provider subaccount. This is the space that your solution will be deployed to.
 
--   You have created a technical user \(email address\) that has the Space Developer role assigned to it. This technical user needs to be available in SAP ID service. This user will be used for the deployment.
+-   You have created a technical user \(email address\) that has the Space Developer role assigned to it. This technical user needs to be available in SAP ID provider. This user will be used for the deployment.
 
 

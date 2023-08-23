@@ -41,7 +41,7 @@ The `cluster-admin` role is assigned to your account.
 
     4.  As *Kind*, choose *User*.
 
-    5.  As *User name*, insert the user e-mail address.
+    5.  As *User name*, insert the user email address.
 
 
 4.  Select *Create*.
@@ -66,5 +66,5 @@ If the permissions of the default role aren't sufficient, clone the role and add
 **Related Information**  
 
 
-[Authorization in Kyma](https://kyma-project.io/docs/kyma/latest/04-operation-guides/security/sec-02-authorization-in-kyma)
+[Authorization in Kyma](https://kyma-project.io/#/04-operation-guides/security/sec-02-authorization-in-kyma)
 

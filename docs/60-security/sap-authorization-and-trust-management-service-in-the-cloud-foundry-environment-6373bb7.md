@@ -532,6 +532,8 @@ Our troubleshooting information can be found in our Guided Answers [Troubleshoot
 
 -   [Share Authorization and Trust Management service instances](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:56637)
 
+-   [Invalid "redirect\_uri"](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:57351)
+
 
 
 

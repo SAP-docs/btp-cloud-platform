@@ -71,6 +71,8 @@ Select the text sources that you want to have translated.
 > 
 > -   The database table is located in the same software component as the translation project.
 > 
+> -   The translation of text tables that contain key fields of type p \(packed number\), i \(integer\) or x \(byte field\) is not supported. That includes any kind of UUID and raw types, such as `SYSUUID_X16`.
+> 
 > 
 > If these requirements are fulfilled, the database table can be added to a translation project as a text table. Additionally, the following rules apply:
 > 

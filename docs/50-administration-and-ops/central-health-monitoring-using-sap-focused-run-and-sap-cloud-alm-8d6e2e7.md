@@ -286,6 +286,38 @@ ABAP System
 </td>
 <td valign="top">
 
+ABAP Compute Units
+
+
+
+</td>
+<td valign="top">
+
+abap\_acu\_used\_count\_5m \(type: cpu\)
+
+
+
+</td>
+<td valign="top">
+
+Used quota for ABAP CPU utilization during the last 5 minutes
+
+A quota represents the available system size and therefore the maximum allowed consumption of a resource. A resource is measured against the quota independently. For ABAP system resources, the quota is measured in ABAP compute units \(ACUs\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ABAP System
+
+
+
+</td>
+<td valign="top">
+
 Expiry of Client Certificates
 
 

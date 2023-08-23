@@ -64,7 +64,7 @@ Within the BTP Operator module, BTP Manager installs SAP BTP Service Operator th
 <td valign="top">
 
 -   [Using SAP BTP Services in the Kyma Environment](../30-development/using-sap-btp-services-in-the-kyma-environment-ea4dd81.md)
--   [BTP Operator module](https://docs.kyma-project.io//?basePath=https://raw.githubusercontent.com/kyma-project/btp-manager/main/&homepage=docs/user/README.md&sidebar=true&loadSidebar=docs/user/_sidebar.md&browser-tab-title=BTP%20Operator%20Documentation#/docs/user/README)
+-   [BTP Operator module](https://kyma-project.io/#/btp-manager/user/README)
 -   [BTP Manger releases](https://github.com/kyma-project/btp-manager/releases)
 -   [SAP BTP Service Operator releases](https://github.com/SAP/sap-btp-service-operator/releases)
 
@@ -89,7 +89,7 @@ The Keda module comes with Keda Manager, an extension to Kyma that allows you to
 </td>
 <td valign="top">
 
--   [Keda module](https://docs.kyma-project.io//?basePath=https://raw.githubusercontent.com/kyma-project/keda-manager/main/&homepage=docs/user/README.md&sidebar=true&loadSidebar=docs/user/_sidebar.md&browser-tab-title=Keda%20module%20Documentation#/docs/user/README)
+-   [Keda module](https://kyma-project.io/#/keda-manager/user/README)
 
 
 
@@ -112,7 +112,7 @@ Istio is a service mesh with Kyma-specific configuration.
 </td>
 <td valign="top">
 
--   [What is Service Mesh is Kyma?](https://kyma-project.io/docs/kyma/latest/01-overview/service-mesh/)
+-   [What is Service Mesh in Kyma?](https://kyma-project.io/#/01-overview/service-mesh/)
 
 
 
@@ -136,7 +136,7 @@ With the Serverless module, you can define simple code snippets \(Funtions\) wit
 <td valign="top">
 
 -   [Deploy Workloads in the Kyma Environment to Extend SAP Systems](../30-development/deploy-workloads-in-the-kyma-environment-to-extend-sap-systems-fe4ba5b.md)
--   [What is Serverless in Kyma?](https://kyma-project.io/docs/kyma/latest/01-overview/serverless/)
+-   [What is Serverless in Kyma?](https://kyma-project.io/#/01-overview/serverless/)
 -   [https://github.com/kyma-project/serverless-manager](https://github.com/kyma-project/serverless-manager)
 
 
@@ -160,7 +160,7 @@ Enable telemetry agents to easily collect application logs and distributed trace
 </td>
 <td valign="top">
 
--   [What is Telemetry in Kyma?](https://kyma-project.io/docs/kyma/latest/01-overview/telemetry/)
+-   [What is Telemetry in Kyma?](https://kyma-project.io/#/01-overview/telemetry/)
 -   [https://github.com/kyma-project/telemetry-manager](https://github.com/kyma-project/telemetry-manager)
 
 
@@ -256,7 +256,7 @@ API Gateway provides functionalities that allow you to expose and secure APIs.
 </td>
 <td valign="top">
 
--   [API Gateway in Kyma](https://kyma-project.io/docs/kyma/latest/01-overview/api-exposure/apix-01-api-gateway/)
+-   [API Gateway in Kyma](https://kyma-project.io/#/01-overview/api-exposure/apix-01-api-gateway)
 
 
 

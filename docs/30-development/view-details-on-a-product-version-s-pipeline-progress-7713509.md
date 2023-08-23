@@ -167,3 +167,6 @@ Here's how this is done:
     If the pipeline is still running, you can update the view using the *Refresh* button in the upper right corner.
 
 
+> ### Note:  
+> *Important*: The logs will be deleted after 28 days. Up to 99 builds can be saved within this period. In case of further builds, the oldest ones will be deleted.
+

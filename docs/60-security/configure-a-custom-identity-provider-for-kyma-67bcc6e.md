@@ -96,7 +96,7 @@ Access to Kyma is realized using the authorization code flow with PKCE. Therefor
 **Related Information**  
 
 
-[Authentication and Authorization in the Kyma Environment](authentication-and-authorization-in-the-kyma-environment-85200d8.md "Kyma allows you to use the default or a custom Identity Provider to authenticate in the Kyma environment.")
+[Authentication and Authorization in the Kyma Environment](authentication-and-authorization-in-the-kyma-environment-85200d8.md "To authenticate in the Kyma environment, you can either use the default identity provider or set up a custom identity provider.")
 
 [Identity Authentication: Initial Setup](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/LATEST/en-US/31af7da133874e199a7df1d42905241b.html)
 

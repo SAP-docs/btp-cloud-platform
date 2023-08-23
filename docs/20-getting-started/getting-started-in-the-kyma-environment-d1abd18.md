@@ -15,6 +15,9 @@ As an administrator, you must perform several steps to set up a fully operationa
 -   Additionally, the subaccount admin must assign the Kyma environment as an entitlement to the subaccount. For details, see [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md).
 
 
+> ### Note:  
+> The required Service Manager entitlement is added by default. If you remove the entitlement, you must add it again in your subaccount.
+
 
 
 <a name="loiod1abd18556f24fb091d081b2e3454b8b__steps_xs3_l23_nrb"/>

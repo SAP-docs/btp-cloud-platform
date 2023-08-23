@@ -90,7 +90,7 @@ Production System
 </td>
 <td valign="top">
 
-**Partner Customer Test**
+**Partner Customer Test Tenant**
 
 
 

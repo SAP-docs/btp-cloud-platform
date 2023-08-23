@@ -90,4 +90,6 @@ As a business user in a *Partner Customer Test* or *Partner Customer Production*
 
 -   See [Custom Logic \(Deprecated\)](../50-administration-and-ops/custom-logic-deprecated-05880c7.md) for guidance on how to use the *Custom Logic* app to create and maintain custom logic for business add-ins \(BAdIs\).
 -   See [Configuring Predefined Custom Fields](../50-administration-and-ops/configuring-predefined-custom-fields-0033cbc.md) for guidance on how to configure predefined custom fields to customize applications and their UIs.
+-   See [Adapting SAP Fiori UIs at Runtime - Key User Adaptation](https://help.sap.com/docs/btp/sap-fiori-launchpad-for-sap-btp-abap-environment/adapting-sap-fiori-uis-at-runtime-key-user-adaptation?version=Cloud)for guidance on how to adapt the user interface of an app separately for specific user roles.
+
 

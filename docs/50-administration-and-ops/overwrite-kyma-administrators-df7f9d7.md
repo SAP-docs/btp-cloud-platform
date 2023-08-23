@@ -19,10 +19,10 @@ In some cases, you may need to overwrite usernames of the current administrators
 
 ## Context
 
-To overwrite the names for the **cluster-admin** role, update the Kyma instance and provide new value for the **administrators** field.
+To overwrite the names for the `cluster-admin` role, update the Kyma instance and provide a new value for the *administrators* field.
 
 > ### Caution:  
-> This procedure overwrites current administrators and shouldn't be used to add new ones. Treat it as an emergency self-service procedure in case of lost access. To provide access to new users, the **cluster-admin** should create a RoleBinding and/or a ClusterRoleBinding in the runtime as described in [Authorization in Kyma](https://kyma-project.io/docs/kyma/latest/04-operation-guides/security/sec-02-authorization-in-kyma#role-binding).
+> This procedure overwrites current administrators and shouldn't be used to add new ones. Treat it as an emergency self-service procedure in case of lost access. To provide access to new users, the `cluster-admin` should create a RoleBinding and/or a ClusterRoleBinding in the runtime as described in [Kyma: Role binding](https://kyma-project.io/#/04-operation-guides/security/sec-02-authorization-in-kyma?id=role-binding).
 
 
 

@@ -29,7 +29,12 @@ To delete a software component, perform the following steps:
 
 2.  Choose *Delete* in the control panel.
 
-3.  
+3.  You will be prompted to confirm the action.
+
+    > ### Caution:  
+    > Make sure you delete all artifacts in the system locally first as the deletion will only delete the software component remotely. Please note that this action can't be undone.
+
+
 
 
 <a name="loioa982ba36da184788a133df4500b25a08__section_j3z_ffl_vvb"/>

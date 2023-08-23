@@ -111,7 +111,7 @@ Let's say, you want to pin version [1.8.9](https://github.com/cloudfoundry/nodej
 
 1.  Open the **manifest.yml** file of your Node.js application.
 
-2.  For the `buildpack` attribute, add the URL to version 1.8.4, like this:
+2.  For the `buildpack` attribute, add the URL to version 1.8.9, like this:
 
     ```
     

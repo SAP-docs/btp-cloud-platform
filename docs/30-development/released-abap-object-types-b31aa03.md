@@ -268,6 +268,22 @@ Data Element
 <tr>
 <td valign="top">
 
+EEEC
+
+
+
+</td>
+<td valign="top">
+
+Event Consumption Modell
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 ENHO
 
 
