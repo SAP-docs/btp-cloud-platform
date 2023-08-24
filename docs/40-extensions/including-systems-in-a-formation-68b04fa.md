@@ -298,6 +298,24 @@ Supported
         <tr>
         <td valign="top">
         
+        *Eventing Between SAP Cloud Systems* 
+
+
+        
+        </td>
+        <td valign="top">
+        
+        Formations of type *Eventing Between SAP Cloud Systems* enable end-to-end communication flow of events between the SAP systems that are included in the given formation. As the name of the formation suggests, the systems transmit information about events using SAP Event Broker. To be able to exchange such events information, the SAP systems must be also visible and configurable in the SAP Event Broker user interface. The formation makes the systems visible in SAP Event Broker, however, it requires a subscription to SAP Event Broker in the corresponding SAP BTP subaccount first.
+
+        See [Enabling Events Exchange Between SAP Cloud Systems](enabling-events-exchange-between-sap-cloud-systems-1592246.md).
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
         *Developing with SAP Business Application Studio* 
 
 

@@ -25,7 +25,7 @@ Your customer data isn't backed up automatically. If you're using Kubernetes vol
 **Related Information**  
 
 
-[Kyma: Create on-demand volume snapshots](https://kyma-project.io/docs/kyma/latest/04-operation-guides/operations/10-backup-kyma/#create-on-demand-volume-snapshots)
+[Kyma: Create on-demand volume snapshots](https://kyma-project.io/#/04-operation-guides/operations/10-backup-kyma?id=create-on-demand-volume-snapshots)
 
 [Change Storage Size in Kyma](change-storage-size-in-kyma-027f5e2.md "If the amount of data for the applications in your Kyma environment grows, you can expand the storage size for your customer data by resizing the respective Persistent Volume Claim (PVC).")
 

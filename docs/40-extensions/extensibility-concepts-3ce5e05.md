@@ -179,6 +179,10 @@ The formation type defines the use case. Therefore, depending on the use case, y
 
 Formations of type *Side-by-Side Extensibility with Kyma* enable business scenarios that involve extending the functionality of several systems at a time with SAP BTP Kyma environment instance. See [Enabling Side-by-Side Extensibility with Kyma](enabling-side-by-side-extensibility-with-kyma-9154051.md).
 
+**Eventing Between SAP Cloud Systems**
+
+Systems that are included in *Eventing Between SAP Cloud Systems* formations on the *System Landscape* page of the SAP BTP cockpit can publish and consume events. The process of publishing and consumption of events is in fact an exchange of event information across the customer system landscape and is driven by the system formations on the one hand side and the SAP Event Broker on the other.
+
 **Developing with SAP Business Application Studio**
 
 Formations of type *Developing with SAP Business Application Studio* enable connectivity between given SAP systems of type *SAP S/4HANA Cloud* from the *System Landscape* page of SAP BTP cockpit and the SAP Business Application Studio, you must create a formation of the corresponding type and include the SAP S/4HANA Cloud systems in it. See [Enabling System Landscape for SAP Business Application Studio](enabling-system-landscape-for-sap-business-application-studio-272ca23.md).

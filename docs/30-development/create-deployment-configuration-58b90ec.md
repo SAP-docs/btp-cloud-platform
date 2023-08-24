@@ -108,7 +108,7 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     </td>
     <td valign="top">
     
-    Cloud Foundry endpoint of the landscape the solution should be deployed to. You can find this information in the SAP BTP Cockpit, in your provider subaccount under Overview \> General tab\> Cloud Foundry Environment section\> API Endpoint. It could be that your region is located in an extension. In that case, please make sure to use the complete url that is displayed in the SAP BTP Cockpit, e.g. cfapps.eu10-004.hana.ondemand.com.
+    Cloud Foundry endpoint of the landscape the solution should be deployed to. You can find this information in the SAP BTP Cockpit, in your provider subaccount under Overview \> General tab\> Cloud Foundry Environment section\> API Endpoint.
 
 
     
@@ -214,7 +214,7 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     </td>
     <td valign="top">
     
-    You can select an app domain from the list of the available SAP app domains. The app domain should match the region domain name, i.e. the CF endpoint URL, e.g. cfapps.eu10-004.hana.ondemand.com.
+    You can select an app domain from the list of the available SAP app domains.
 
 
     

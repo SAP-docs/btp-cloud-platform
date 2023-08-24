@@ -32,8 +32,6 @@ Use your SAP Cloud Identity Services - Identity Authentication tenant as an iden
 
 > ### Restriction:  
 > You can only establish trust with a single tenant of Identity Authentication per subaccount using this method.
-> 
-> Your Identity Authentication tenant can be changed only when no Identity Authentication-based subscriptions \(for example, SAP Build or SAP Integration Suite, advanced event mesh\) exist.
 
 > ### Recommendation:  
 > We recommend that you always use SAP Cloud Identity Services - Identity Authentication as single identity provider for SAP BTP. If you use corporate identity providers, connect them to your Identity Authentication tenant, which then acts as a hub. We especially recommend this if you are using multiple corporate identity providers. For platform users, the use of SAP Cloud Identity Services - Identity Authentication is mandatory.

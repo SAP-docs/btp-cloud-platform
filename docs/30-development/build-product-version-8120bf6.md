@@ -6,16 +6,9 @@ You can use the *Build Product Version* app to easily trigger the build of new p
 
 The app guides you through the creation of runs for your product versions and triggers them to be deployed on a system.
 
-Since technical users are needed in various steps, the app can also be used to add and maintain credentials that can be reused in multiple products.
+Since technical users are needed in various steps, the app can also be used to add and maintain credentials that can be reused in multiple products, see [Maintain Credentials](maintain-credentials-67b5aee.md).
 
-Previously, the scenario has been described in project "Piper". For more information, see [Build and Publish Add-On Products on SAP BTP, ABAP Environment.](https://www.project-piper.io/scenarios/abapEnvironmentAddons/) We recommend using the *Build Product Version* app that enables the Build Add-On Product scenario for you without the need to set up a Jenkins server.
-
-> ### Note:  
-> Please notice, that only 99 builds can be saved in a 28 day period. In case of further builds, the oldest one will be deleted.
-> 
-> Therefore, you can only see the build protocols of the currently saved builds.
-> 
-> Although normally being singular, the number of builds for a version can vary. You are able to repeat the build processes for one version until it works.
+Previously, the scenario was described in project "Piper", see [Build and Publish Add-On Products on SAP BTP, ABAP Environment.](https://www.project-piper.io/scenarios/abapEnvironmentAddons/) We recommend using the *Build Product Version* app that enables the 'Build Add-On Products' scenario for you without the need to set up a Jenkins server.
 
 
 

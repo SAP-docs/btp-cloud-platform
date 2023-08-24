@@ -29,7 +29,8 @@ You can also use the buildpack attribute to specify it in the `manifest.yml` fil
 ---
 applications:
 - name: <APP_NAME>
-  buildpack: sap_java_buildpack
+  buildpacks:
+  - sap_java_buildpack
   ...
 ```
 
@@ -90,7 +91,7 @@ To check these versions:
 Let's say that the latest version of SAP Java Buildpack is **1.50.0**. Then, the output of the `cf buildpacks` command would be:
 
 ```
-	buildpack           position   enabled   locked   filename
+buildpack           position   enabled   locked   filename
 
 sap_java_buildpack           1         true      false    sap_java_buildpack-1.50.0.zip
 sap_java_buildpack_1_50      2         true      false    sap_java_buildpack-1.50.0.zip
@@ -101,7 +102,7 @@ sap_java_buildpack_1_48      4         true      false    sap_java_buildpack-1.4
 When SAP Java Buildpack is updated on the SAP BTP, Cloud Foundry from version **1.50.0** to **1.51.0**, the list will change to:
 
 ```
-	buildpack           position   enabled   locked   filename
+buildpack           position   enabled   locked   filename
 
 sap_java_buildpack           1         true      false    sap_java_buildpack-1.51.0.zip
 sap_java_buildpack_1_51      2         true      false    sap_java_buildpack-1.51.0.zip
@@ -131,11 +132,12 @@ For example:
 ```
 ---
 applications:
-- name: application-name
+- name: myapp
   memory: 128M
-  path: ./target/application-name.war
+  path: ./target/myapp.war
   instances: 1
-  buildpack: sap_java_buildpack
+  buildpacks:
+  - sap_java_buildpack
 ```
 
 You can do the same in the `mtad.yml` of your **mtar** archive:
@@ -143,15 +145,15 @@ You can do the same in the `mtad.yml` of your **mtar** archive:
 ```
 ...
 modules:
-  - name: application-name
+  - name: myapp
     type: java.tomcat
-    path: ./target/application-name.war
+    path: ./target/myapp.war
     properties:
       ...
     parameters:
       ...
       memory: 512M
-      buildpack: sap_java_buildpack_1.50
+      buildpack: sap_java_buildpack_1_50
 ...
 ```
 
@@ -207,13 +209,6 @@ In the current version of the SAP Java Buildpack, the async servlets are *not su
 ## What's New
 
 To see the latest news and updates about SAP Java Buildpack, regularly check the release notes on the [What's New portal](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&Component=SAP%20Java%20Buildpack).
-
-> ### Caution:  
-> In May 2023, SAP plans to migrate the root file system used in the Cloud Foundry environment in SAP BTP from the deprecated `cflinuxfs3` stack to **`cflinuxfs4`**. If you are running Java applications on SAP BTP, Cloud Foundry using SAP Java Buildpack, we recommend that you update and migrate your applications, as well as the SAP Java Buildpack. For more information about migration timelines, risks, and consequences, see:
-> 
-> -   [Deprecation of Cloud Foundry Stack cflinuxfs3 and Migration to cflinuxfs4](https://blogs.sap.com/2023/02/16/deprecation-of-cloud-foundry-stack-cflinuxfs3-and-migration-to-cflinuxfs4/)
-> 
-> -   [What's New for SAP BTP, Cloud Foundry Runtime \(cflinuxfs\)](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%20BTP,%20Cloud%20Foundry%20Runtime&q=cflinuxfs&locale=en-US&version=Cloud)
 
 
 

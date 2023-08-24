@@ -156,15 +156,18 @@ To learn about changes in Python versions and features, regularly check the late
 
 The `python_buildpack` supports the following versions:
 
--   Python **3.7**
 -   Python **3.8**
 -   Python **3.9**
 -   Python **3.10**
+-   Python **3.11**
 
 > ### Note:  
-> Version **3.6** is out of maintenance, as per [Python release roadmap](https://www.python.org/downloads/). We strongly recommend that you switch to version 3.7 or higher.
+> Version **3.7** is out of maintenance, as per [Python release roadmap](https://www.python.org/downloads/). We strongly recommend that you switch to version 3.8 or higher.
 
 You can also decide to deploy your application with a particular buildpack version from the community [python-buildpack](https://github.com/cloudfoundry/python-buildpack) repository. To learn how, see: [Specify a buildpack version in manifest.yml](tips-and-tricks-for-python-applications-b5e1c82.md#loiob5e1c8244e594f53936b6406905c7937__specify_python_bp_version)
+
+> ### Remember:  
+> SAP does **not** recommend use of deprecated Python versions, as no support and security fixes are provided for them anymore.
 
 
 
@@ -172,8 +175,10 @@ You can also decide to deploy your application with a particular buildpack versi
 
 ## What's New
 
-> ### Caution:  
-> In May 2023, SAP plans to migrate the root file system used in the Cloud Foundry environment in SAP BTP from the deprecated `cflinuxfs3` stack to **`cflinuxfs4`**. If you are running Python applications on SAP BTP, Cloud Foundry using the Python buildpack, we recommend that you update and migrate your applications, as well as the Python buildpack. For more information about migration timelines, risks, and consequences, see:
+To see the latest news and updates about the Python buildpack, regularly check the release notes on the [buildpack releases](https://github.com/cloudfoundry/python-buildpack/releases) in the GitHub community page.
+
+> ### Note:  
+> In May 2023, SAP migrated the root file system used in the Cloud Foundry environment in SAP BTP from the deprecated `cflinuxfs3` stack to **`cflinuxfs4`**. If you are running Python applications on SAP BTP, Cloud Foundry using the Python buildpack, we recommend that you update and migrate your applications, as well as the Python buildpack. For more information about migration timelines, risks, and consequences, see:
 > 
 > -   [Deprecation of Cloud Foundry Stack cflinuxfs3 and Migration to cflinuxfs4](https://blogs.sap.com/2023/02/16/deprecation-of-cloud-foundry-stack-cflinuxfs3-and-migration-to-cflinuxfs4/)
 > 

@@ -2,7 +2,7 @@
 
 # Create Solution
 
-You want to prepare a new solution for delivery to your consumers. Since a solution can be deployed to more than one subaccount, the creation of the solution has been separated from the creation of its deployment configurations \(see Create Deployment Configuration\).
+You want to prepare a new solution for delivery to your consumers. Since a solution can be deployed to more than one subaccount, the creation of the solution has been separated from the creation of its deployment configurations \(see [Create Deployment Configuration](create-deployment-configuration-58b90ec.md)\).
 
 Here's how to create a new solution.
 
@@ -85,10 +85,10 @@ Here's how to create a new solution.
     </td>
     <td valign="top">
     
-    It is mandatory for you as a provider to name your ABAP system. When a value has been supplied, the new system\(s\) will be created with this parameter. To avoid using forbidden SIDs, read more aboutReserved SAP System Identifiers \(SAPSID\) with Software Provisioning Manager.
+    It is mandatory for you as a provider to name your ABAP system. When a value has been supplied, the new system\(s\) will be created with this parameter.
 
     > ### Note:  
-    > To avoid using forbidden SIDs, read more about[Reserved SAP System Identifiers \(SAPSID\) with Software Provisioning Manager](https://launchpad.support.sap.com/#/notes/1979280).
+    > To avoid using forbidden SIDs, read more about [Reserved SAP System Identifiers \(SAPSID\) with Software Provisioning Manager](https://launchpad.support.sap.com/#/notes/1979280).
 
 
     
@@ -193,7 +193,7 @@ Here's how to create a new solution.
     </td>
     <td valign="top">
     
-    The IFrame integration incorporates your solution into the Fiori Launchpad Build Work Zone which could result in security risks. The shell header and the application UI are decoupled from each other, and each can point to a different domain. If the two frames each point to different domains, it can lead to issues with the browser and cookie policies. See [Security Guidelines for Content Providers](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/security-guidelines-for-content-providers)
+    The IFrame integration enables you to incorporate your solution into the Fiori Launchpad Build Work Zone. Keep in mind that enabling the IFrame integration might reduce security. The shell header and the application UI are decoupled from each other, and each can point to a different domain. If the two frames each point to different domains, it can lead to issues with the browser and cookie policies. See [Security Guidelines for Content Providers](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/security-guidelines-for-content-providers)
 
 
     

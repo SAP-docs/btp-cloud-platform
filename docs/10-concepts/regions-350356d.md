@@ -65,7 +65,7 @@ SAP has a number of processes in place to support resilience in SAP BTP, and pro
 Some customer contracts include EU Access, which restricts processing of personal data to EEA/Switzerland. If the global account is marked with EU Access, the actual EU Access compliance status of subaccounts will be displayed during creation of subaccounts.
 
 > ### Note:  
-> If you need a subaccount with EU Access, make sure to select a provider and region, where EU Access is available. For more information, see [Regions](regions-350356d.md)
+> If you require a subaccount with EU Access, make sure to select a provider and region where EU Access is available. Regions that allow for EU Access are labeled as such in the map view filter in the SAP Discovery Center.
 > 
 > For some services, EU Access is generally not available, not even if the provider and region support EU Access.
 

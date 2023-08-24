@@ -8,7 +8,11 @@
 
 ## Context
 
-Multitenancy allows service providers to host different consumers \(tenants\) on a single shared system. But how do you, as a service provider, keep track of all your tenants and systems? This is where the *Landscape Portal* comes in. The *Landscape Portal* acts as a central tool to allow service providers to perform lifecycle management operations such as add-on updates, provisioning new consumers as new tenants, and more.
+Multitenancy allows providers to host different consumers \(tenants\) on a single shared system. But how do you, as a provider, keep track of all your tenants and systems? This is where the *Landscape Portal* comes in. The *Landscape Portal* acts as a central tool to allow service providers to perform lifecycle management operations such as building and updating product versions, configuring and deploying multitenant SaaS solutions, managing system hibernations, and more. See the current key features of the *Landscape Portal* listed below or learn more about the different apps the *Landscape Portal* has to offer by clicking on the app tiles in the interactive graphic.
+
+
+
+![](images/image_map_LP_fe99587.png)
 
 
 
@@ -18,22 +22,19 @@ Multitenancy allows service providers to host different consumers \(tenants\) on
 
 You can currently use the *Landscape Portal* to do the following:
 
--   Get an overview of your systems and tenants.
-
--   See which version a system software is currently on.
-
--   Create support users.
-
--   Create test tenants.
-
--   Perform add-on updates.
-
--   View the request log.
-
--   Create a ticket with support context.
-
--   Restore tenants that are still in retention time.
-
+-   get an overview of all your ABAP systems and tenants
+-   create new namespaces and install them in your ABAP system
+-   schedule \(regularly occuring\) system hibernation periods for specific systems
+-   register specific ABAP systems for a pre-upgrade
+-   restore deleted consumer tenants that are still in retention time
+-   create test tenants
+-   create support users to access consumer tenants
+-   create a new product and register your product for your global accounts
+-   build a product version via pipelines based on templates for different use cases \(e.g. new release deliveries, support packages, patches\)
+-   check a product version to see if it's ready for delivery
+-   update a product version in specific systems
+-   configure and deploy your solution
+-   monitor your operations in the Landscape Portal
 
 > ### Note:  
 > Keep in mind that a consumer subscription-based multitenancy is only possible in those systems in which you provide your software as a service \(SaaS\) solution to consumers, i.e. your production and test systems that are created via the ABAP Solution service on first subscription. It is not available in development systems. However, in development systems, in addition to your development tenant, you can create further test tenants within the *Landscape Portal* if required.

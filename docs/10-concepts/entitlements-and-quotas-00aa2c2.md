@@ -34,9 +34,13 @@ An **entitlement** is your right to provision and consume a resource. In other w
 
 A **quota** represents the numeric quantity that defines the maximum allowed consumption of a resource. In other words, **how much** of a service plan you're entitled to use.
 
-Some service plans use numeric quota, which means that you can increase or decrease the number of units available in a subaccount. Depending on the service, these units represent different things and may impact the number of service instances, applications, or routes you can have in a subaccount.
+Some service plans use a numeric quota, which means that you can increase or decrease the number of units available in a subaccount. Depending on the service, these units represent different things and may impact the number of service instances, applications, or routes you can have in a subaccount.
 
-There are also service plans where the quota is shown as “limited”. The unit that is metered and billed for service plans with limited quota depends on the service. In that case, you can entitle that service to multiple subaccounts without having to worry about how much of it to distribute to each subaccount. You can think of assigning entitlements for such service plans as “enabling” or "allowing" subaccounts to use them.
+There are also service plans where the quota is shown as either "limited" or "unlimited":
+
+-   **Limited:** Service plans specified as "limited" have a predefined quota that is available to a global account and which can be shared across all its subaccounts. These plans are represented as "*<n\>* shared units" in the *Entity Assignments* page in SAP BTP cockpit. Each service defines its shared units and how they are used. Note that most multitenant SaaS applications are offered as "limited" plans with a quota of one unit because they're always limited to one subscription per subaccount. You can think of assigning entitlements for such service plans as "enabling" or "allowing" subaccounts to use them.
+
+-   **Unlimited:** Service plans specified as "unlimited" have no restriction on the quota that can be allocated per subaccount. This is typical of most services that are eligible to global accounts with a consumption-based commercial model agreement.
 
 For more information, see [Managing Entitlements and Quotas Using the Cockpit](../50-administration-and-ops/managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
 
