@@ -6,11 +6,11 @@ The following application containers are available for usage with the SAP Java B
 
 
 
--   [Tomcat](tomcat-ddfc101.md)
-
 -   [TomEE \(Deprecated\)](tomee-deprecated-a9590c2.md)
 
 -   [TomEE 7](tomee-7-79c039a.md)
+
+-   [Tomcat](tomcat-ddfc101.md)
 
 -   [Java Main](java-main-8a1786a.md)
 

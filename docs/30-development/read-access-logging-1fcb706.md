@@ -83,7 +83,7 @@ Log viewing and accessing data along with the search filter criteria
 </table>
 
 > ### Note:  
-> See SAP Note [3351781](https://launchpad.support.sap.com/#/notes/3351781) for information about the template RAL configuration file for Customer Data Browser.
+> See SAP Note [3351781](https://me.sap.com/notes/3351781) for information about the template RAL configuration file for Customer Data Browser.
 
 **Related Information**  
 

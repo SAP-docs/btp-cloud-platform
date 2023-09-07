@@ -98,7 +98,7 @@ To see the latest news and updates about the Node.js system buildpack, regularly
 ## Troubleshooting
 
 -   Guided Answers: [Node.js Buildpack](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51218/?version=current)
--   SAP Note: [3100002](https://launchpad.support.sap.com/#/notes/3100002) *How to pin the new nodejs\_buildpack\_migratе solution*
+-   SAP Note: [3100002](https://me.sap.com/notes/3100002) *How to pin the new nodejs\_buildpack\_migratе solution*
 
 
 

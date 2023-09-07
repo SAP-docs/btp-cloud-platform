@@ -10,7 +10,7 @@ In your RAL application, you can create different customizing objects like confi
 
 -   Configurations
 
-    Refer to SAP note [2963664](https://launchpad.support.sap.com/#/notes/2963664) for details.
+    Refer to SAP note [2963664](https://me.sap.com/notes/2963664) for details.
 
 -   Log domains
 

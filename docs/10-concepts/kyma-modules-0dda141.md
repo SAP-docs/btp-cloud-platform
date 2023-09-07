@@ -112,7 +112,7 @@ Istio is a service mesh with Kyma-specific configuration.
 </td>
 <td valign="top">
 
--   [What is Service Mesh in Kyma?](https://kyma-project.io/#/01-overview/service-mesh/)
+-   [Istio Service Mesh](http://kyma-project.io/#/istio/user/00-overview/00-20-overview-service-mesh)
 
 
 

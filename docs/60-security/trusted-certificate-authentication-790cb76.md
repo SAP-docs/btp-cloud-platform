@@ -8,5 +8,5 @@ All components of SAP BTP rely on a list of trusted Certificate Authorities \(CA
 
 For your scenarios with SAP BTP, be aware of this list of CAs to ensure that you can provide trusted certificates that are signed by a trusted CA.
 
-A list of all root CAs approved by SAP Global Security is available in SAP Note [2801396](https://launchpad.support.sap.com/#/notes/2801396) \(SAP Global Trust List\).
+A list of all root CAs approved by SAP Global Security is available in SAP Note [2801396](https://me.sap.com/notes/2801396) \(SAP Global Trust List\).
 

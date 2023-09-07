@@ -81,7 +81,7 @@ The new SAP HANA Cloud service made significant moves to reduce footprint and be
 -   [Design-time Content Compatibility](https://help.sap.com/viewer/3c53bc7b58934a9795b6dd8c7e28cf05/hanacloud/en-US/9c8656d9c1a34c829fab426cb77b4639.html)
 
 
-You can find another collection of these features and elements in the following SAP Note:[2868742](https://launchpad.support.sap.com/#/notes/2868742) 
+You can find another collection of these features and elements in the following SAP Note:[2868742](https://me.sap.com/notes/2868742) 
 
 
 

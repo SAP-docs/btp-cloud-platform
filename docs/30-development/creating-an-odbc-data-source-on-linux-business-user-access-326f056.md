@@ -41,7 +41,7 @@ In the example used in this documentation, you need the ODBC data source for a b
 
     You can create a system-wide driver definition and DSN in a similar way.
 
-3.  In the `/home/myuser/.odbc.ini` file, insert the DSN-specific connection parameters for the ODBC driver for ABAP as described in SAP Note [3076454](https://launchpad.support.sap.com/#/notes/3076454). In addition, you configure the browser-logon method using `AuthenticationType` and `AuthenticationURL`.
+3.  In the `/home/myuser/.odbc.ini` file, insert the DSN-specific connection parameters for the ODBC driver for ABAP as described in SAP Note [3076454](https://me.sap.com/notes/3076454). In addition, you configure the browser-logon method using `AuthenticationType` and `AuthenticationURL`.
 
     For example, these parameters can look as follows:
 

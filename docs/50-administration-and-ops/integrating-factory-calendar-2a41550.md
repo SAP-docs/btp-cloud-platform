@@ -18,7 +18,7 @@ This communication scenario allows you to set up a connection to the import fact
 
 ## Prerequisites
 
-You have to connect your ABAP system via RFC. To do this, follow the steps described in [3148310](https://launchpad.support.sap.com/#/notes/3148310) or install the required support package. The following RFC-enabled function modules are called during import:
+You have to connect your ABAP system via RFC. To do this, follow the steps described in [3148310](https://me.sap.com/notes/3148310) or install the required support package. The following RFC-enabled function modules are called during import:
 
 -   `SCAL_TO_FHC_MIG_COMPLETED`
 -   `SCAL_READ_CUSTOMIZING`

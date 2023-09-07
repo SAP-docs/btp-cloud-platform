@@ -6,7 +6,7 @@
 
 Cloud management tools represent the group of technologies designed for managing SAP BTP.
 
-We're currently renovating and adding core functionalities to SAP BTP. As part of this process, we're upgrading enterprise accounts from the existing cloud management tools feature set A to the renovated cloud management tools feature set B. We're doing this upgrade as a phased rollout, so cloud management tools feature sets A and B will coexist for some time. For more information about the account upgrade process and frequently-asked questions, see [3027721](https://launchpad.support.sap.com/#/notes/3027721).
+We're currently renovating and adding core functionalities to SAP BTP. As part of this process, we're upgrading enterprise accounts from the existing cloud management tools feature set A to the renovated cloud management tools feature set B. We're doing this upgrade as a phased rollout, so cloud management tools feature sets A and B will coexist for some time. For more information about the account upgrade process and frequently-asked questions, see [3027721](https://me.sap.com/notes/3027721).
 
 
 

@@ -204,7 +204,7 @@ After a refresh in the FLP of SAP BTP ABAP Environment, your custom theme is ava
 
     **Solution**: Is it possible to specify theme ID to be used for FLP in SAP BTP ABAP Environment using an URL parameter `sap-theme=<theme-id>`
 
-    See *Usage of the sap-theme URL parameter* in SAP Note [2043817](https://launchpad.support.sap.com/#/notes/2043817).
+    See *Usage of the sap-theme URL parameter* in SAP Note [2043817](https://me.sap.com/notes/2043817).
 
     This is especially useful if the FLP is broken, and the business user needs to select another theme to resolve the issue e.g., while using SAP-provided theme `sap-theme=sap_fiori_3`.
 

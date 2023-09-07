@@ -90,12 +90,12 @@ You can now select the communication arrangement in the *Connection to Remote Sy
 
 ## On-Premise System: Install Remote Stubs
 
-To analyze your custom code in your on-premise system using the `Custom Code Migration` app, see SAP Note [2599695](https://launchpad.support.sap.com/#/notes/2599695) Custom Code Migration Fiori App: Remote Stubs for the Checked System.
+To analyze your custom code in your on-premise system using the `Custom Code Migration` app, see SAP Note [2599695](https://me.sap.com/notes/2599695) Custom Code Migration Fiori App: Remote Stubs for the Checked System.
 
 **Related Information**  
 
 
-[SAP Note 2436688](https://launchpad.support.sap.com/#/notes/2436688)
+[SAP Note 2436688](https://me.sap.com/notes/2436688)
 
 [Custom Code Migration Guide for SAP S/4HANA](https://help.sap.com/doc/9dcbc5e47ba54a5cbb509afaa49dd5a1/latest/en-US/CustomCodeMigration_EndtoEnd.pdf)
 

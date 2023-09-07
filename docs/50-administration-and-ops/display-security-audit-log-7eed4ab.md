@@ -31,7 +31,7 @@ The Security Audit Log records the following information:
 -   Information that provides a higher level of transparency \(for example, successful and unsuccessful logon attempts\)
 -   Information that enables the reconstruction of a series of events \(for example, successful or unsuccessful transaction starts\)
 
-SAP Note [2903873](https://launchpad.support.sap.com/#/notes/2903873) provides a list of currently recorded Security Audit Log events.
+SAP Note [2903873](https://me.sap.com/notes/2903873) provides a list of currently recorded Security Audit Log events.
 
 
 

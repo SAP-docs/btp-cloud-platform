@@ -488,7 +488,7 @@ Let’s take a closer look at how to configure a pipeline template for a product
     </td>
     <td valign="top">
     
-    The credential name referring to a [2174416](https://launchpad.support.sap.com/#/notes/2174416)technical communication user used to access Add-on Assembly Kit as a Service
+    The credential name referring to a [2174416](https://me.sap.com/notes/2174416)technical communication user used to access Add-on Assembly Kit as a Service
 
 
     

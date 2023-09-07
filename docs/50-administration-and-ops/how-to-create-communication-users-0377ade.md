@@ -35,7 +35,7 @@ To create a new communication user, perform the following steps:
 
     2.  Configure certificate-based authentication by uploading a X.509 client certificate.
 
-        The customer system must use a client certificate signed by an appropriate certification authority \(CA\). A list of all root CAs approved by SAP Global Security is available in SAP Note [2801396](https://launchpad.support.sap.com/#/notes/2801396) \(SAP Global Trust List\).
+        The customer system must use a client certificate signed by an appropriate certification authority \(CA\). A list of all root CAs approved by SAP Global Security is available in SAP Note [2801396](https://me.sap.com/notes/2801396) \(SAP Global Trust List\).
 
 
 4.  Select *Create* to save the user.

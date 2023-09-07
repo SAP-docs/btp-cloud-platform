@@ -24,7 +24,7 @@ In the example used in this documentation, you need the ODBC data source for a b
 
     The DSN setup dialog of the ODBC driver for ABAP starts.
 
-3.  In this dialog, choose a DSN and fill in the driver-specific parameters that are described in more detail in SAP Note [3076454](https://launchpad.support.sap.com/#/notes/3076454).
+3.  In this dialog, choose a DSN and fill in the driver-specific parameters that are described in more detail in SAP Note [3076454](https://me.sap.com/notes/3076454).
 
     > ### Note:  
     > `ServicePath` must point to the SQL service that you created \(in the example used here, `ZData`\): `ServicePath=/sap/bc/sql/sql1/sap/zdata`.

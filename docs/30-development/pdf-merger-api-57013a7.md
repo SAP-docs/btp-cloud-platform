@@ -42,7 +42,7 @@ The PDF merger has the following restrictions:
 -   It can only handle PDF files.
 -   It can't handle encrypted PDF files. Usually, you can check whether a PDF file is encrypted by checking the *Security* section of the file properties. Another possibility is that you open the file with a text editor and search for the key word **Encrypt**, which marks an encrypted file.
 -   It can't handle damaged PDF files. For example, if parts of the file are missing, or if some bytes were changed, the file can't be processed. PDF files are usually binary data, so any conversion like a code page conversion damages the file.
--   Further restrictions can be found in SAP note [2264208](https://launchpad.support.sap.com/#/notes/2264208).
+-   Further restrictions can be found in SAP note [2264208](https://me.sap.com/notes/2264208).
 
 **Related Information**  
 

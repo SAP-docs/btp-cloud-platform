@@ -56,7 +56,7 @@ Use the Cloud Foundry Command Line Interface \(cf CLI\) to log on to the Cloud F
     > 
     >     If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
     > 
-    >     For more information, see SAP Note [3085908](https://launchpad.support.sap.com/#/notes/3085908).
+    >     For more information, see SAP Note [3085908](https://me.sap.com/notes/3085908).
     > 
     > -   To log on with a specific identity provider, use the option `--origin`.
     > 

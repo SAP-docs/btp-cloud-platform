@@ -288,7 +288,7 @@ S-User
 </td>
 <td valign="top">
 
-S-users are used by partners and customers to log on to SAP ONE Support Launchpad to reserve development namespaces or to create technical communication users. User management is taken care of by user administrators in the *User Management* app. If customer numbers are assigned to a Partner ID, S-users are registered via PartnerEdge. See [User Management](https://support.sap.com/content/dam/support/en_us/library/ssp/my-support/help-for-sap-support-applications/online_help-user_management.html) and SAP note [2261006](https://launchpad.support.sap.com/#/notes/2261006).
+S-users are used by partners and customers to log on to SAP ONE Support Launchpad to reserve development namespaces or to create technical communication users. User management is taken care of by user administrators in the *User Management* app. If customer numbers are assigned to a Partner ID, S-users are registered via PartnerEdge. See [User Management](https://support.sap.com/content/dam/support/en_us/library/ssp/my-support/help-for-sap-support-applications/online_help-user_management.html) and SAP note [2261006](https://me.sap.com/notes/2261006).
 
 
 
@@ -298,7 +298,7 @@ S-users are used by partners and customers to log on to SAP ONE Support Launchpa
 -   Reserving development namespace in Namespace Application See [https://launchpad.support.sap.com/\#/namespaces](https://launchpad.support.sap.com/#/namespaces).
 
 -   Activating new namespaces in already existing systems using Landscape Portal. See [Maintain Namespaces](maintain-namespaces-5456007.md).
--   Creating technical communication user. See SAP note [2532813](https://launchpad.support.sap.com/#/notes/2532813).
+-   Creating technical communication user. See SAP note [2532813](https://me.sap.com/notes/2532813).
 
 
 
@@ -378,7 +378,7 @@ Technical Communication User
 </td>
 <td valign="top">
 
-A technical communication user \(created via SAP ONE Support Launchpad\) is used for system-to-system connections with the SAP Support backbone. For information on how technical communication users are different from S-users, see SAP note [2668288](https://launchpad.support.sap.com/#/notes/2668288).
+A technical communication user \(created via SAP ONE Support Launchpad\) is used for system-to-system connections with the SAP Support backbone. For information on how technical communication users are different from S-users, see SAP note [2668288](https://me.sap.com/notes/2668288).
 
 
 

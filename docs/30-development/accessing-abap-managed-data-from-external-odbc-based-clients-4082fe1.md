@@ -10,7 +10,7 @@ As a developer in the ABAP environment, you can access CDS view entities in an A
 
 ## Why ODBC?
 
-There are situations where you would like to have external SQL read access to CDS objects owned by the ABAP system. Direct SQL read access to the underlying SAP HANA database of an ABAP system isn't a good choice because, for example, ABAP-level security concepts are bypassed and typecasts might not be performed as expected \(see also SAP Note [2511210](https://launchpad.support.sap.com/#/notes/2511210)\).
+There are situations where you would like to have external SQL read access to CDS objects owned by the ABAP system. Direct SQL read access to the underlying SAP HANA database of an ABAP system isn't a good choice because, for example, ABAP-level security concepts are bypassed and typecasts might not be performed as expected \(see also SAP Note [2511210](https://me.sap.com/notes/2511210)\).
 
 Security concerns and other issues don't arise if you treat the ABAP system itself as a database by accessing the ABAP system directly using ODBC. In this case, authentication and authorization are done using an ABAP user. Full ABAP SQL semantics apply and even buffering on application server level can be used as well as ABAP-level access control and read access logging.
 

@@ -39,7 +39,7 @@ The unixODBC software package provides an ODBC driver manager that can read from
 
     You can create a system-wide driver definition and DSN in a similar way.
 
-3.  In the `/home/myuser/.odbc.ini` file, insert the DSN-specific connection parameters for the ODBC driver for ABAP as described in SAP Note [3076454](https://launchpad.support.sap.com/#/notes/3076454).
+3.  In the `/home/myuser/.odbc.ini` file, insert the DSN-specific connection parameters for the ODBC driver for ABAP as described in SAP Note [3076454](https://me.sap.com/notes/3076454).
 
     For example, these parameters can look as follows:
 

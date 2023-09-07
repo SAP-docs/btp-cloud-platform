@@ -14,7 +14,7 @@ The *ODBC Data Sources \(64 bit\)* tool is part of a standard Windows installati
 
     The DSN setup dialog of the ODBC driver for ABAP starts.
 
-3.  In this dialog, choose a DSN and fill in the driver-specific parameters that are described in more detail in SAP Note [3076454](https://launchpad.support.sap.com/#/notes/3076454).
+3.  In this dialog, choose a DSN and fill in the driver-specific parameters that are described in more detail in SAP Note [3076454](https://me.sap.com/notes/3076454).
 
     > ### Note:  
     > You can derive the host name and the service path from the service URL that you wrote down when you created the communication arrangement.

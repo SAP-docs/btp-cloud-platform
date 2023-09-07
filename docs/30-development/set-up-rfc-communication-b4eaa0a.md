@@ -65,7 +65,7 @@ There are no `SM59`-managed destinations \(destinations created via SAP transact
 
 ## Fast Serialization
 
-If you've configured on-premise connectivity \(via Cloud Connector\) in the RFC settings of your communication system or destination service, use fast serialization. See SAP Note [2418683](https://launchpad.support.sap.com/#/notes/2418683) for more information. For example, if you use an SCM, data and structures containing includes can be transferred incorrectly because of displaced offsets.
+If you've configured on-premise connectivity \(via Cloud Connector\) in the RFC settings of your communication system or destination service, use fast serialization. See SAP Note [2418683](https://me.sap.com/notes/2418683) for more information. For example, if you use an SCM, data and structures containing includes can be transferred incorrectly because of displaced offsets.
 
 **Related Information**  
 

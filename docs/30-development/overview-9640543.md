@@ -62,7 +62,7 @@ A namespace is mandatory and must be reserved at [https://support.sap.com/namesp
 > ### Note:  
 > You have to register a namespace before the first ABAP system is provisioned. To create namespaces after system provisioning, see [Maintain Namespaces](maintain-namespaces-5456007.md).
 > 
-> Namespaces should have 5–8 characters due to length restrictions of certain objects. See SAP note [105132](https://launchpad.support.sap.com/#/notes/105132) and [395083](https://launchpad.support.sap.com/#/notes/395083).
+> Namespaces should have 5–8 characters due to length restrictions of certain objects. See SAP note [105132](https://me.sap.com/notes/105132) and [395083](https://me.sap.com/notes/395083).
 
 
 

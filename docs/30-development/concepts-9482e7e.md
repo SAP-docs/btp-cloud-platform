@@ -294,7 +294,7 @@ Instead of importing software components into productive systems, when providing
 
 You can only install one add-on product for each system using the ABAP environment `saas_oem` service plan instead of the `standard` service. During provisioning of this service, parameters `addon_product_name` and `addon_product_version` are used to install a certain add-on product version into the system, after the system has been provisioned. See [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
 
-The add-on product name includes a reserved development namespace to separate the name from other customers/partners. See SAP note [84282](https://launchpad.support.sap.com/#/notes/84282).
+The add-on product name includes a reserved development namespace to separate the name from other customers/partners. See SAP note [84282](https://me.sap.com/notes/84282).
 
 The versioning pattern `<Release>.<Support Package Stack Level>.<Patch Level>` applies to the add-on product version.
 

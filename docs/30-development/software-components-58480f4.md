@@ -27,14 +27,14 @@ Your development, including transportation, is organized and managed in so-calle
 >     For more information about moving development objects into ABAP packages, see [Changing the Package Assignment of Development Objects](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/99f8f1c9b8ed4bfe87fa8fcc36bfcb1f.html).
 > 
 > -   You can use the same ABAP systems regarding development, testing, and production \(your system landscape\) for all your software components. Lifecycle processes for software components can even be independent from each other, as long as there are no development dependencies.
-> -   gCTS only supports certain object types. For a complete list of the restricted object types, see SAP note [2888887](https://launchpad.support.sap.com/#/notes/2888887).
+> -   gCTS only supports certain object types. For a complete list of the restricted object types, see SAP note [2888887](https://me.sap.com/notes/2888887).
 > -   gCTS repositories are currently always stored on the AWS data center **Europe - Frankfurt EU Access**, independent of the chosen hyperscaler and the data center where the ABAP environment instance was created.
 
 You create your software components in the development system:
 
 -   The software component `ZLOCAL` is available by default. It serves a similar role like `$TMP` in an on-premise system.
 -   Create your software components with the SAP Fiori app Manage Software Components \(business catalog `Lifecycle Management - Software Components SAP_A4C_BC_MSCL_PC`\). Afterwards, pull the software component into the ABAP system to start developing in it.
--   You can use an ABAP namespace in the ABAP environment. If you have registered a namespace at SAP, it is automatically provided during provisioning. For more information on namespaces, see SAP note [105132](https://launchpad.support.sap.com/#/notes/105132) on how to reserve a namespace and ONE Support Launchpad [Namespace Application](https://launchpad.support.sap.com/#/namespaces). A developer key and repair key are created and assigned automatically by the ABAP system. In the namespace application, you can search for your key assignments by filtering the installation number \(`CLOUDSYSTM`\).
+-   You can use an ABAP namespace in the ABAP environment. If you have registered a namespace at SAP, it is automatically provided during provisioning. For more information on namespaces, see SAP note [105132](https://me.sap.com/notes/105132) on how to reserve a namespace and ONE Support Launchpad [Namespace Application](https://launchpad.support.sap.com/#/namespaces). A developer key and repair key are created and assigned automatically by the ABAP system. In the namespace application, you can search for your key assignments by filtering the installation number \(`CLOUDSYSTM`\).
 -   If you want to transport business configuration content across ABAP systems, create a software component. You have to decide which type you want to use for transporting business configuration:
 
     -   You can create a software component of type `Business Configuration` and transport all your configuration via this software component. If a software component of type `Business Configuration` is available in a tenant, applications can automatically select or create a customizing transport request for this software component.

@@ -45,7 +45,7 @@ You use business roles to control the access to your applications. To create a b
     > ### Note:  
     > The group-based home page is deprecated. It will be removed in a future version. For new systems \(starting with SAP S/4HANA Cloud 2302\), the group-based home page is no longer available. It will be replaced with the spaces and pages mode. Therefore, a warning message is shown. It appears when you save a business role without an assigned space. It reminds you that you need to assign a space to make the tiles visible for the users when you have already switched to the spaces and pages mode.
     > 
-    > For more information, see SAP Note [2970113](https://launchpad.support.sap.com/#/notes/2970113).
+    > For more information, see SAP Note [2970113](https://me.sap.com/notes/2970113).
 
 7.  On the *Assigned Business Users* tab, you can assign the business users to your new business role. These users will receive the authorizations as defined in the business role.
 

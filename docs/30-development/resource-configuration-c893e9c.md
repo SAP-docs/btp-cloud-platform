@@ -2,9 +2,11 @@
 
 # Resource Configuration
 
-Both application containers [Tomcat](tomcat-ddfc101.md) and [TomEE \(Deprecated\)](tomee-deprecated-a9590c2.md) are configured through text configuration files. For example – `conf/server.xml`, `conf/tomee.xml` or `conf/logging.properties` \(see [Apache Tomcat 8 Configuration Reference](https://tomcat.apache.org/tomcat-8.0-doc/config/)\). Resource configuration feature of the SAP Java Buildpack provides means for changing parameterized values in all text files part of the application container or part of the application files during staging.
+Both application containers [Tomcat](tomcat-ddfc101.md) and [TomEE 7](tomee-7-79c039a.md) are configured through text configuration files. For example – `conf/server.xml`, `conf/tomee7.xml` or `conf/logging.properties` \(see [Apache Tomcat 9 Configuration Reference](https://tomcat.apache.org/tomcat-9.0-doc/config/)\).
 
-Files can contain multiple key value pairs containing placeholders \(marked as `${propname}`\). To prevent undesired modifications, all files that could be changed must be explicitly listed by the application in a corresponding `resource_configuration.yml` file along with the default values for all placeholders.
+Resource configuration feature of SAP Java Buildpack provides means for changing parameterized values in all text files \(part of the application container or part of the application files\) during staging.
+
+Files can contain multiple key value pairs containing placeholders – marked as **`${propname}`**. To prevent undesired modifications, all files that can be changed must be explicitly listed by the application in a corresponding `resource_configuration.yml` file, along with the default values for all placeholders.
 
 **Example** for `resource_configuration.yml`:
 
@@ -17,7 +19,7 @@ filepath2:
   key1: value1
 ```
 
-The `filepath` must start with either **tomcat** or **tomee** to match the used application container, and then contain a subpath to a resource.
+The `filepath` must start with either **tomcat** or **tomee7** to match the used application container, and then contain a subpath to a resource.
 
 -   When changing parametrized values inside application files, the file path should look like this:
 

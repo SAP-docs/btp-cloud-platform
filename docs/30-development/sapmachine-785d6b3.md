@@ -8,9 +8,17 @@
 
 ## Context
 
-[SapMachine](https://sap.github.io/SapMachine/) is an alternative to SAP JVM. It provides a Java Runtime Environment \(JRE\) with Java 11 and 17, while SAP JVM provides a JRE with Java 8.
+[SapMachine](https://sap.github.io/SapMachine/) is an alternative to SAP JVM. It provides a Java Runtime Environment \(JRE\) with Java 11 and 17, while SAP JVM provides a JRE with Java 8. SapMachine works with the following application containers:
 
-SapMachine works with [Tomcat - 8.5 and 9](tomcat-ddfc101.md), [TomEE 7.1](tomee-7-79c039a.md) and [Java Main](java-main-8a1786a.md) application containers.
+-   [Tomcat 9](tomcat-ddfc101.md)
+
+-   [Java Main](java-main-8a1786a.md)
+
+-   [TomEE 7.1](tomee-7-79c039a.md)
+
+    > ### Note:  
+    > Bear in mind that TomEE 7.1 supports only Java 7 and 8. Thus, even if your TomEE 7 application runs successfully with SapMachine JRE 17, at some point it might crash. Also, TomEE 7.1 has already [reached end of life](https://tomee.apache.org/tomee-7.1-eol.html). See also: [Discontinued TomEE versions](https://tomee.apache.org/download-discontinued.html)
+
 
 
 
@@ -169,7 +177,7 @@ applications:
 ```
 
 > ### Restriction:  
-> As the SapMachine JDK is not bundled into the SAP Java Buildpack, if you want to use SapMachine JDK 11 or 17, you always have to download them from the [GitHub project](https://sap.github.io/SapMachine/) as an online component.
+> As the SapMachine JDK is not bundled into the SAP Java Buildpack, if you want to use SapMachine JDK 11 or 17, you have to download them from the [GitHub project](https://sap.github.io/SapMachine/) as an online component.
 
 **Related Information**  
 

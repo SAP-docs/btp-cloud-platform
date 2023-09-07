@@ -49,5 +49,5 @@ If you need support or experience issues, please report an incident under compon
 
 ## More Information
 
-For more information about the partitioning limits of the SAP HANA database, see SAP Note[2154870](https://launchpad.support.sap.com/#/notes/2154870) and [Partitioning Limits](https://help.sap.com/docs/SAP_HANA_PLATFORM/6b94445c94ae495c83a19646e7c3fd56/8dd866a688ec4914a074727a2c800142.html).
+For more information about the partitioning limits of the SAP HANA database, see SAP Note[2154870](https://me.sap.com/notes/2154870) and [Partitioning Limits](https://help.sap.com/docs/SAP_HANA_PLATFORM/6b94445c94ae495c83a19646e7c3fd56/8dd866a688ec4914a074727a2c800142.html).
 

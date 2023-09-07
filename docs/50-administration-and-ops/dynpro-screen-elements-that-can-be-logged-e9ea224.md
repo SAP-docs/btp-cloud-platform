@@ -391,7 +391,7 @@ It is not possible to log other screen objects, such as the following:
 -   ALV tree
 -   File download
 
-For more information about the availability of features of Read Access Logging, see SAP Note [1969086](https://launchpad.support.sap.com/#/notes/1969086).
+For more information about the availability of features of Read Access Logging, see SAP Note [1969086](https://me.sap.com/notes/1969086).
 
 **Related Information**  
 

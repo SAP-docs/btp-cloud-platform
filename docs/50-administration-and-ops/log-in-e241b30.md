@@ -80,7 +80,7 @@ To suppress automatic browser opening, use `--sso manual`. To use a custom ident
 > ### Note:  
 > To log on with SAP Universal ID, you need to use this parameter. Otherwise log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
 > 
-> For more information, see SAP Note [3085908](https://launchpad.support.sap.com/#/notes/3085908) and [Log in with Single Sign-On](log-in-with-single-sign-on-b2a56a8.md).
+> For more information, see SAP Note [3085908](https://me.sap.com/notes/3085908) and [Log in with Single Sign-On](log-in-with-single-sign-on-b2a56a8.md).
 
 
 

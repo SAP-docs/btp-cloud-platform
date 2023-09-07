@@ -22,7 +22,7 @@ To set up your ABAP environment, you have to create a communication arrangement 
 -   The name of the region host of your Neo subaccount
 
     > ### Note:  
-    > Please check out the supported Neo subaccounts for on-premise connectivity of the ABAP environment. See SAP Note [2765161](https://launchpad.support.sap.com/#/notes/2765161).
+    > Please check out the supported Neo subaccounts for on-premise connectivity of the ABAP environment. See SAP Note [2765161](https://me.sap.com/notes/2765161).
 
 -   Installation of Cloud Connector version 2.11 or higher. See [Cloud Connector: Installation](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/57ae3d62f63440f7952e57bfcef948d3.html)
 -   Initial configuration for Cloud Connector and the Neo subaccount. See [Cloud Connector: Initial Configuration](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/db9170a7d97610148537d5a84bf79ba2.html)

@@ -5,7 +5,7 @@
 While we've tried to make upgrading your account management feature set as simple as possible, we've had to make a few adjustments. To help you find your way, we've gathered a summary of changes you can expect in your accounts.
 
 > ### Note:  
-> For more information about the upgrade process itself, see SAP Note [3027721](https://launchpad.support.sap.com/#/notes/3027721).
+> For more information about the upgrade process itself, see SAP Note [3027721](https://me.sap.com/notes/3027721).
 
 
 
@@ -31,7 +31,7 @@ For more information about shadow users, see [Working with Users](../50-administ
 
 ## Custom Identity Providers for Platform Users
 
-In cloud management tools feature set B, you're free to integrate custom identity providers for platform users. If you use custom identity providers for platform users in cloud management tools feature set A, see SAP Note [3264627](https://launchpad.support.sap.com/#/notes/3264627).
+In cloud management tools feature set B, you're free to integrate custom identity providers for platform users. If you use custom identity providers for platform users in cloud management tools feature set A, see SAP Note [3264627](https://me.sap.com/notes/3264627).
 
 
 

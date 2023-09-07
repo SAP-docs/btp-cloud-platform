@@ -281,7 +281,7 @@ To submit an incident, you can use one of the following support channels:
 ## Results
 
 > ### Note:  
-> If you have problems creating and sending an incident, or your incident isn’t processed as fast as you need, contact the 24/7 phone hotlines. See SAP Note [560499](https://launchpad.support.sap.com/#/notes/560499).
+> If you have problems creating and sending an incident, or your incident isn’t processed as fast as you need, contact the 24/7 phone hotlines. See SAP Note [560499](https://me.sap.com/notes/560499).
 
 **Related Information**  
 

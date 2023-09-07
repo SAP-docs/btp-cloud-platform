@@ -60,25 +60,26 @@ tomcat
 </td>
 <td valign="top">
 
--   Apache Tomcat 8
-
--   Apache Tomcat 9
-
+Apache Tomcat 9
 
 
 
 </td>
 <td valign="top">
 
-Java Servlets 3.1
+Java Servlets 4.0
 
-Java ServerPages \(JSP\) 2.3
+Java Server Pages \(JSP\) 2.3
 
 Expression Language \(EL\) 3.0
 
 Debugging Support for Other Languages 1.0
 
 Java API for WebSocket 1.1
+
+Java Authentication Service Provider Interface for Containers \(JASPIC\) 1.1
+
+For more information, see [Apache Tomcat: Tomcat Versions](https://tomcat.apache.org/whichversion.html)
 
 
 
@@ -268,7 +269,7 @@ The default value of context path in `server.xml` is ***""*** \(Empty String\). 
 
 In Tomcat 8.5.84, a custom cookie processor has been created, based on the RFC 6265 Cookie Processor. If the PROCESS\_COOKIE environment variable is set to **true**, then this new cookie processor will override the default one.
 
-**Reason**: In Tomcat Apache 8.5.84, the date format used with the *expires* attribute of HTTP cookies was corrected to be compliant with RFC 6265. A single space rather than a single dash is now used to separate the day, month, and year components. See: [Tomcat 8 Changelog](https://tomcat.apache.org/tomcat-8.5-doc/changelog.html)
+**Reason**: In Tomcat Apache 8.5.84, the date format used with the *expires* attribute of HTTP cookies was corrected to be compliant with RFC 6265. A single space rather than a single dash is now used to separate the day, month, and year components. For more information, see [Apache Tomcat: Tomcat 8 Changelog](https://tomcat.apache.org/tomcat-8.5-doc/changelog.html)
 
 The purpose of the new cookie processor is to set the *Cookie Expire* date to format with '-' \(*dash*\) delimiter instead of ' ' \(*space*\) so that no errors would be thrown.
 
@@ -276,6 +277,6 @@ Below is a sample error message thrown when **not** using the new customization:
 
 > ### Example:  
 > ```
-> Sample error: "Invalid cookie header: "set-cookie: username=John; Max-Age=21; Expires=Thu, 16 Feb 2023 13:31:55 GMT". Invalid 'expires' attribute: Thu, 16 Feb 2023 13:31:55 GMT "
+> Sample error: "Invalid cookie header: "set-cookie: username=John; Max-Age=21; Expires=Thu, 17 Aug 2023 13:31:55 GMT". Invalid 'expires' attribute: Thu, 17 Aug 2023 13:31:55 GMT "
 > ```
 
