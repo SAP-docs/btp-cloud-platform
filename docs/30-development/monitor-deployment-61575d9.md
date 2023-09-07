@@ -4,7 +4,7 @@
 
 You’ve triggered the deployment of a solution with a specific deployment configuration. Now you want to monitor the pipeline status and see whether the deployment was successful.
 
-1.  Log in to the *Landscape Portal* from your provider subaccount.
+1.  Log in to the *Landscape Portal*.
 
 2.  Under *Solution*, click on the *Maintain Solution* tile to open the app.
 
@@ -12,7 +12,7 @@ You’ve triggered the deployment of a solution with a specific deployment confi
 
 4.  Under *Deployment Configurations*, select a deployment configuration to view more details.
 
-5.  5. Scroll to “Deployment History” to see the status of your deployment. Click on an entry to view the logs for this deployment. Click on the icons \(Init, Build, Publish\) to jump to the respective sections of the log.
+5.  Scroll to “Deployment History” to see the status of your deployment. Click on an entry to view the logs for this deployment. Click on the icons \(Init, Build, Publish\) to jump to the respective sections of the log.
 
     If an icon is grey: There is no information available.
 

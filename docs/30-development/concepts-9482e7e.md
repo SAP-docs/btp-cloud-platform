@@ -53,15 +53,22 @@ To separate development and production purposes, you have to create different gl
 
 ![](images/Global_Development_Account_d2da7d3.png)
 
-1.  **01 Develop: Development subaccount including development space**
+1.  **00 Landscape Portal**
+
+    Since the Landscape Portal service is only available in region eu10, we recommend creating a dedicated subaccount in this region. This subaccount will contain your Landscape Portal & CI/CD service subscriptions for you to freely choose other regions for your other subaccounts.
+
+    > ### Note:  
+    > If you plan to create any of the other subaccounts in eu10, then you can simply reuse one of those subaccounts.
+
+2.  **01 Develop: Development subaccount including development space**
 
     ABAP development system DEV and correction system COR are created in this subaccount. You need to subscribe to SAP Business Application Studio to develop SAP Fiori UIs and implement multitenant applications. See [Setup of UI Development in SAP Business Application Studio](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/37a896bfac604076ae825a1d37b0bd0a.html?version=Cloud).
 
-2.  **02 Test: Test subaccount including test space**
+3.  **02 Test: Test subaccount including test space**
 
     ABAP test system TST and quality assurance system QAS are created in this subaccount. See [Use Case 2: One Development and Correction Codeline in a 5-System Landscape](use-case-2-one-development-and-correction-codeline-in-a-5-system-landscape-4e53874.md). Since development is structured with software components that are stored in a repository for each global account, these software components can automatically be imported to the test system on a regular basis automated by the CI/CD server. See [Test Integration \(SAP\_COM\_0510\)](test-integration-sap-com-0510-b04a9ae.md). The CI/CD server uses a Git repository to read the pipeline definition and configuration.
 
-3.  **03 Build/Assemble: Subaccount for add-on assembly including build/assemble space**
+4.  **03 Build/Assemble: Subaccount for add-on assembly including build/assemble space**
 
     > ### Note:  
     > The ABAP environment platform version of the assembly system is used to determine the minimum platform version for the add-on product version that is created.
@@ -70,15 +77,15 @@ To separate development and production purposes, you have to create different gl
 
     For the add-on build process, an assembly system BLD is provisioned in this subaccount by the CI/CD server. See [Software Assembly Integration \(SAP\_COM\_0582\)](software-assembly-integration-sap-com-0582-26b8df5.md). After the add-on has been successfully built, the system is deleted. In this case, the CI/CD server reads the add-on definition from a Git repository \(add-on descriptor\).
 
-4.  **04 Build/Test: Subaccount for add-on installation test including build/test space**
+5.  **04 Build/Test: Subaccount for add-on installation test including build/test space**
 
     After the add-on has been assembled during the build of an add-on version, an installation test is required to verify that the add-on can be installed without errors into a system. As part of the add-on build pipeline, an `abap/saas_oem` system ATI is provisioned in this subaccount and the add-on is installed. In this case, the CI/CD server reads the add-on definition \(add-on descriptor\) and the provisioning parameters for the add-on installation test system from a Git repository.
 
-5.  **05 Provide: Provider subaccount including provider space**
+6.  **05 Provide: Provider subaccount including provider space**
 
     During the development phase, the multitenant application is deployed to this space for testing purposes. The ABAP solution service can then provision `abap/saas_oem` systems AMT, tenants, and users in this account, once a consumer subscribes to the provided SaaS solution.
 
-6.  **06 Consume: Consumer subaccount**
+7.  **06 Consume: Consumer subaccount**
 
     To test the subscription to the SaaS solution during the development phase of the multitenant application, a consumer subaccount is created in the global account for development. This allows your consumers to have their own configuration of:
 
@@ -114,13 +121,20 @@ For development and maintenance processes, the steps mentioned below, that are s
 
 ![](images/Global_Production_Account_e65057f.png)
 
-1.  **05 Provide: Provider subaccount including provider space**
+1.  **00 Landscape Portal**
+
+    Since the Landscape Portal service is only available in region eu10, we recommend creating a dedicated subaccount in this region. This subaccount will contain your Landscape Portal & CI/CD service subscriptions for you to freely choose other regions for your other subaccounts.
+
+    > ### Note:  
+    > If you plan to create any of the other subaccounts in eu10, then you can simply reuse one of those subaccounts.
+
+2.  **05 Provide: Provider subaccount including provider space**
 
     The multitenant application is deployed to the provider subaccount in the global account for production.
 
     The ABAP solution service can then provision `abap/saas_oem` systems \(AMT\), tenants, and users in this account once a consumer subscribes to the provided SaaS solution.
 
-2.  **06 Consume: Consumer subaccount**
+3.  **06 Consume: Consumer subaccount**
 
     For each customer, a consumer subaccount is created in the global account for production.
 
@@ -154,6 +168,27 @@ The goal of the ABAP environment pipeline is to enable continuous integration fo
 
 
 
+The pipeline contains several stages and currently supports two relevant scenarios:
+
+-   Add-on build using AAKaaS
+
+-   Continuous testing via gCTS
+
+
+A pipeline definition, containing all configuration, and a running CI/CD server are required to execute the ABAP environment pipeline. You can consume the different scenarios by enabling different pipeline stages in the configuration. For more information on how to configure the ABAP environment steps and stages, see [Configuration](https://www.project-piper.io/pipelines/abapEnvironment/configuration/) and [ABAP Environment Pipeline](https://www.project-piper.io/pipelines/abapEnvironment/introduction/).
+
+The Landscape Portal offers the option to configure and execute the add-on build scenario using the [Build Product Version app](https://help.sap.com/docs/btp/sap-business-technology-platform-internal/build-product-version?state=DRAFT&version=Internal), without the need for external repositories or Jenkins servers.
+
+> ### Note:  
+> The *Continuous Testing* scenario is currently not supported by the Landscape Portal. This means that a running Jenkins server is required, even when using the Build Product Version app. See [Add-On or gCTS](https://help.sap.com/docs/btp/sap-business-technology-platform/delivery-via-add-on-or-gcts?version=Cloud).
+
+
+
+### Jenkins Setup
+
+> ### Note:  
+> This is only required for running the Continuous Testing scenario. The add-on build scenario can be realized using the Build Product Version app in the Landscape Portal.
+
 The general configuration of the ABAP environment pipeline always follows the same approach regardless of the scenario that you want to configure:
 
 1.  **Prepare Git Repository**
@@ -162,7 +197,7 @@ The general configuration of the ABAP environment pipeline always follows the sa
 
 2.  **Create Service User for Git Repository**
 
-    To enable read access to the Git repository, you have to create a service user and assign it to the repository. Later, this user’s access credentials are stored in the Jenkins credentials by the Jenkins administrator. See [Using Credentials](https://www.jenkins.io/doc/book/using/using-credentials/).
+    To enable read access to the Git repository, you need to create a service user and assign it to the repository. Later, this user’s access credentials are stored in the Jenkins credentials by the Jenkins administrator. See [Using Credentials](https://www.jenkins.io/doc/book/using/using-credentials/).
 
 3.  **Create Jenkins Instance via Cx Server**
 
@@ -175,8 +210,6 @@ The general configuration of the ABAP environment pipeline always follows the sa
 
 For more information on how to configure the ABAP environment steps and stages, see [Configuration](https://sap.github.io/jenkins-library/pipelines/abapEnvironment/configuration/).
 
-The pipeline contains several stages and supports different scenarios. The add-on build is one possible scenario for usage of the ABAP environment pipeline. However, you can configure the ABAP environment for different scenarios by enabling different pipeline stages. See [ABAP Environment Pipeline](https://sap.github.io/jenkins-library/pipelines/abapEnvironment/introduction/). However, you can configure the ABAP environment for different scenarios by enabling different pipeline stages.
-
 
 
 <a name="loio2398b874f7c5445db188b780ff0cef89__section_e1g_1lj_grb"/>
@@ -185,13 +218,9 @@ The pipeline contains several stages and supports different scenarios. The add-o
 
 ![](images/Pipeline_Test_Scenario_187fa7e.png)
 
-Development system DEV and test system TST stay on the same main branch. To make the latest implementations available in the test system, the developed software components can be imported on a regular basis to test system TST and tested using the ABAP Test Cockpit by scheduling a planned execution of the ABAP environment pipeline. See [Continuous Testing on SAP BTP ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentTest/).
+Development system DEV and test system TST stay on the same main branch. To make the latest implementations available in the test system, the developed software components can be imported on a regular basis to test system TST and tested using the ABAP Test Cockpit by scheduling a planned execution of the ABAP environment pipeline. See [Continuous Testing on SAP BTP ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentTest/) and [Running ATC Checks and ABAP Unit Tests on a Static ABAP Environment System](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/atc-static).
 
 The ABAP environment pipeline is executed in a Jenkins server that is connected to subaccount *02 Test* in the global account for development by authenticating via a technical Cloud Foundry platform user. The permanent test system TST is used to import software components and run ABAP Test Cockpit checks.
-
-The pipeline configuration and the definition of the add-on product in the add-on descriptor file is created in the pipeline git repository. A configuration example is available at [Running ATC Checks and ABAP Unit Tests on a Static ABAP Environment System](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/atc-static).
-
-As part of this pipeline scenario, a test system including an instance of communication scenario `SAP_COM_0510` is used. See [Test Integration \(SAP\_COM\_0510\)](test-integration-sap-com-0510-b04a9ae.md). The pipeline creates a service key in test system TST including the parameters referring to communication scenario `SAP_COM_0510`. With this service key, a communication arrangement is created that can be used by the pipeline for inbound communication. See [Create a Communication Arrangement for Inbound Communication with Service Key Type Basic](create-a-communication-arrangement-for-inbound-communication-with-service-key-type-basic-1cc5a1d.md).
 
 
 
@@ -199,18 +228,15 @@ As part of this pipeline scenario, a test system including an instance of commun
 
 ## Build Add-On Version
 
-The add-on build and assembly process are automated in a different pipeline scenario. From creating a combined data file in the assembly system to publishing the add-on release, all steps are part of this pipeline that has to be triggered by you as an add-on admin. See [Build and Publish Add-on Products on SAP BTP ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
+The ABAP environment pipeline can automate the build and assembly process of ABAP add-ons. From creating the delivery packages in the assembly system to publishing the add-on release, all steps are part of this pipeline.
+
+This scenario can be run in the Landscape Portal using the [Build Product Version app](https://help.sap.com/docs/btp/sap-business-technology-platform/build-product-version?version=Cloud), or it can be configured manually and run on a local Jenkins server. In both cases, the same pipeline stages will be executed.
+
+See [Build and Publish Add-on Products on SAP BTP ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
 
 ![](images/Pipeline_Build_Scenario_084167f.png)
 
-The ABAP environment  pipeline is executed in a Jenkins server that is connected to subaccount *03 Build/Assemble* and *04 Build/Test* in the global account for development by authenticating via a technical Cloud Foundry platform user. Transient systems are used for add-on assembly \(BLD\) and installation tests \(ATI\).
-
-For the consumption of the add-on as a SaaS solution, software components are installed via add-on delivery packages into multitenancy-enabled production systems \(AMT\) provisioned via the ABAP Solution service. See [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
-
-The pipeline configuration and the definition of the add-on product in the add-on descriptor file is created in the pipeline git repository. A configuration example is available at [Build Add-Ons on a Transient ABAP Environment System](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/addon-build).
-
-> ### Note:  
-> To define the add-on descriptor file, follow the best practices mentioned in [Add-On Descriptor File](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#add-on-descriptor-file).
+The ABAP environment  pipeline is executed in a Jenkins server that is connected to subaccount *03 Build/Assemble* and *04 Build/Test* in the global account for development by authenticating via a technical Cloud Foundry platform user. Transient systems are then provisioned for add-on assembly \(BLD\) and installation tests \(ATI\).
 
 
 
@@ -218,34 +244,33 @@ The pipeline configuration and the definition of the add-on product in the add-o
 
 Add-on assembly system BLD includes an instance of communication scenario `SAP_COM_0510` and an instance of communication scenario `SAP_COM_0582`. See [Test Integration \(SAP\_COM\_0510\)](test-integration-sap-com-0510-b04a9ae.md) and [Software Assembly Integration \(SAP\_COM\_0582\)](software-assembly-integration-sap-com-0582-26b8df5.md). Service keys with parameters referring to the communication scenarios are created in the BLD system, which leads to the creation of communication arrangements that can be used by the pipeline for inbound communication.
 
-In the **Prepare System** pipeline stage, a new transient system BLD is provisioned for the add-on assembly. See [Prepare System](https://www.project-piper.io/pipelines/abapEnvironment/stages/prepareSystem/). ABAP Test Cockpit checks, software component imports, and the local build of deliveries are performed in this stage. In the **Post** pipeline stage, the system is deleted afterwards. See [Post](https://www.project-piper.io/pipelines/abapEnvironment/stages/post/).
+In the **Prepare System** pipeline stage, a new transient system BLD is provisioned for the add-on assembly. See [Prepare System](https://www.project-piper.io/pipelines/abapEnvironment/stages/prepareSystem/). ABAP Test Cockpit checks, software component imports, and the local build of deliveries are performed in this stage. By default, the system is deleted again in the **Post** pipeline stage. See [Post](https://www.project-piper.io/pipelines/abapEnvironment/stages/post/).
 
-By default, the system is created from scratch for each new add-on version. However, for certain scenarios, we recommend reusing a permanent system. To use a permanent add-on assembly system instead of a transient system saves build time at the expense of build cost: System provisioning is one of the most time-consuming tasks performed by the pipeline, therefore, reusing an existing system leads to improved build time. On the other hand, ABAP service instances can't be in an idle state and therefore cause cost if they continue to exist.
+The communication with remote components is enabled via communication scenario [Test Integration \(SAP COM 0510\)](https://help.sap.com/docs/btp/sap-business-technology-platform/test-integration-sap-com-0510?version=Cloud) and communication scenario [Software Assembly Integration \(SAP COM 0582\)](https://help.sap.com/docs/btp/sap-business-technology-platform/software-assembly-integration-sap-com-0582?version=Cloud).
 
-> ### Recommendation:  
-> Whenever you create a new maintenance branch, for example v1.0.0, you should also create a new add-on assembly system. To do so, use the pipeline configuration for using a permanent ABAP system. See [Build Add-Ons on a Permanent ABAP Environment System](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/addon-build-static). This system is used for the duration of a maintenance branch and gets deleted afterwards:
-> 
-> 1.  Maintenance branch v1.0.0 is created before the build of the initial add-on version 1.0.0.
-> 2.  For the add-on build of product version 1.0.0, a new add-on assembly system is created. Software components are imported via the Manage Software Components app. See [Manage Software Components](../50-administration-and-ops/manage-software-components-3dcf76a.md).
-> 3.  A new patch version 1.0.1 of the add-on is being built in the same add-on assembly system.
-> 4.  A new maintenance branch v1.1.0 is created before build of a new add-on version 1.1.0.
-> 5.  The previous add-on assembly system is deleted and a new add-on assembly system is created.
-> 
-> For a pipeline configuration using a permanent system, see [Example Build Add-Ons on a Permanent System](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/addon-build-static).
+By default, the system is created from scratch for each new add-on version. If you are configuring your pipeline manually, you can choose to reuse a permanent BLD system instead of provisioning a new one each time. This has the advantage of reducing the pipeline execution time, as system provisioning is one of the most time-consuming tasks. See [Build Add-Ons on a Permanent ABAP Environment System](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/addon-build-static).
+
+To reduce costs, it is recommended that you shut down the permanent system when no builds are scheduled. See [Manage System Hibernation](https://help.sap.com/docs/btp/sap-business-technology-platform/manage-system-hibernation?version=Cloud). Please note that hibernated systems still incur costs.
 
 **Add-on Installation Test System**
 
 To verify that the delivery packages included in the add-on product version are installable, a target vector is published in "test" scope during the **Build** stage.
 
-In the **Integration Tests** pipeline stage, a new transient system ATI is then provisioned for an add-on deployment test that installs the add-on product version. See [Integration Tests](https://www.project-piper.io/pipelines/abapEnvironment/stages/integrationTest/).
+In the **Integration Tests** pipeline stage, a new transient system ATI is then provisioned for an add-on deployment test that installs the add-on product version. See [Integration Tests](https://www.project-piper.io/pipelines/abapEnvironment/stages/integrationTest/). After the successful add-on installation is confirmed, the system is deleted, unless otherwise specified.
 
-After the successful add-on installation is confirmed, the system is deleted.
+The communication with remote components is enabled via communication scenario [Test Integration \(SAP COM 0510\)](https://help.sap.com/docs/btp/sap-business-technology-platform/test-integration-sap-com-0510?version=Cloud).
+
+By default, the ATI system is created from scratch for each new add-on version. If you are configuring your pipeline manually, you can choose to reuse a permanent ATI system instead of provisioning a new one each time. This has the advantage of reducing the pipeline execution time, as system provisioning is one of the most time-consuming tasks. We recommend that you provision a new ATI system at least for each new major release of your add-on.
 
 **Add-on Assembly Kit as a Service**
 
 The Add-on Assembly Kit as a Service \(AAKaaS\) is used for registering and publishing the software product.
 
 The service is offered in the SAP Service and Support systems, which means that access is granted via a technical communication user that packs the delivery into an importable package format. It is similar to the Software Delivery Assembler \(SDA, transaction SSDA\) as a part of the SAP Add-On Assembly Kit. See [SAP Add-On Assembly Kit](https://help.sap.com/viewer/product/SAP_ADD-ON_ASSEMBLY_KIT/) and  [Add-On Assembly Kit as a Service](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/#add-on-assembly-kit-as-a-service-aakaas).
+
+**Add-on Consumption**
+
+For the consumption of the add-on as a SaaS solution, software components are installed via add-on delivery packages into multitenancy-enabled production systems \(AMT\) provisioned via the ABAP Solution service. This is orchestrated via a multi-tenant application deployed to the Cloud Foundry environment on SAP BTP. See [Multitenant Application](https://help.sap.com/docs/btp/sap-business-technology-platform/multitenant-application?version=Cloud) and [Deploy](https://help.sap.com/docs/btp/sap-business-technology-platform/saas-apps-order-and-provide?version=Cloud#deploy).
 
 > ### Note:  
 > If you need support or experience issues during the add-on build, see [Troubleshooting](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#troubleshooting).

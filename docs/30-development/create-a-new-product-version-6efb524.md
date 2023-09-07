@@ -11,7 +11,7 @@ Find out how to create a new product version:
 
 1.  Log in to the *Landscape Portal* and click on the tile *Build Product Version*.
 
-2.  Select one of your products from the list. You will be forwarded to the *Product Versions* tab. Here, you can see a table listing all the existing versions of this product, their type \(see a table overview of the types [here](https://help.sap.com/docs/btp/sap-business-technology-platform/configure-pipeline-template?version=Cloud), or reade more about [The Add-On Product](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#add-on-product-version)\), when they were created, as well as their delivery status:
+2.  Select one of your products from the list. You will be forwarded to the *Product Versions* tab. Here, you can see a table listing all the existing versions of this product, their type \(see a table overview of the types [here](https://help.sap.com/docs/btp/sap-business-technology-platform/configure-pipeline-template?version=Cloud), or read more about [The Add-On Product](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#add-on-product-version)\), when they were created, as well as their delivery status:
 
     -   **Not ready**: The product version is currently being built and is not available for test or production use yet.
 
@@ -74,7 +74,7 @@ Find out how to create a new product version:
 > </td>
 > <td valign="top">
 > 
-> The product version you built did not originate from the Build Product Version App.
+> The product version you built did not originate from the Build Product Version app.
 > 
 > 
 > 
@@ -90,7 +90,7 @@ Find out how to create a new product version:
 > </td>
 > <td valign="top">
 > 
-> The configuration for your build has been set in the Build Product Version App.
+> The configuration for your build has been set in the Build Product Version app.
 > 
 > 
 > 
@@ -154,7 +154,7 @@ Find out how to create a new product version:
 > </td>
 > <td valign="top">
 > 
-> Indicates, that there is currently a running build assembling your product version.
+> There is currently a running build assembling your product version.
 > 
 > 
 > 
@@ -170,7 +170,7 @@ Find out how to create a new product version:
 > </td>
 > <td valign="top">
 > 
-> Indicates that your recently running build ran into an error and failed.
+> Your recent build ran into an error and failed.
 > 
 > 
 > 
@@ -186,7 +186,7 @@ Find out how to create a new product version:
 > </td>
 > <td valign="top">
 > 
-> Indicates, that your recently running build ran successfully and is completed now.
+> Your recent build ran successfully and is finished now.
 > 
 > 
 > 

@@ -8,8 +8,6 @@ You can configure your application to use a database connection so that the appl
 
 -   [Configure a Database Connection for the Tomcat Application Container](configure-a-database-connection-for-the-tomcat-application-container-820994a.md)
 
--   [Configure a Database Connection for the TomEE Application Container](configure-a-database-connection-for-the-tomee-application-container-cf1499d.md)
-
 -   [Configure a Database Connection for the TomEE 7 Application Container](configure-a-database-connection-for-the-tomee-7-application-container-03cfb10.md)
 
 -   [Database Connection Configuration Details](database-connection-configuration-details-f0d2d05.md)

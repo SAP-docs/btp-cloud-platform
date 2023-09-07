@@ -15,7 +15,7 @@ A Service Consumption Model is the main requirement for consuming a Web service 
 > ### Recommendation:  
 > We recommend creating a Service Consumption Model in an empty package. Dependent enterprise service objects are reused between different Service Consumption Models in the same package.
 
-For the consumption type Web service, you need to provide the WSDL of the service you want to consume via the local file system. See [Generating Proxies for Remote Web Service](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/3b9c145adad147058177cec27cef1f44.html?version=Cloud&q=generating%20proxies). Upon successful activation, all the dependent objects are created and displayed in the ADT project explorer, such as:
+For the consumption type Web service, you need to provide the WSDL of the service you want to consume via the local file system. See [Generating Proxies for Remote Web Service](https://help.sap.com/docs/btp/sap-abap-development-user-guide/generating-proxies-for-remote-web-service?version=Cloud). Upon successful activation, all the dependent objects are created and displayed in the ADT project explorer, such as:
 
 -   The enterprise service
 -   Corresponding dictionary objects

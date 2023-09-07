@@ -1,6 +1,15 @@
 <!-- loiocf1499da58144c94868ce12bd25a970f -->
 
-# Configure a Database Connection for the TomEE Application Container
+# Configure a Database Connection for the TomEE Application Container \(Deprecated\)
+
+
+
+<a name="loiocf1499da58144c94868ce12bd25a970f__context_uvr_vml_qyb"/>
+
+## Context
+
+> ### Caution:  
+> Effective **May 5, 2022**, Apache TomEE 1.7 is no longer supported by the SAP Java buildpack for the SAP BTP, Cloud Foundry environment. TomEE was removed from the buildpack with version 1.53.0.
 
 
 

@@ -14,6 +14,9 @@ After the initial add-on release has been shipped as a SaaS solution offering, t
 
 Once everything is implemented, built, and the maintenance delivery is deployed, the corresponding changes become available in the customer production system AMT.
 
+> ### Note:  
+> New features are developed on different code lines \(branches\). If you create a so-called maintenance branch to implement patches while new features are implemented in the main branch of a software component, you can implement new features and provide bug fixes at the same time. For more information, see [Versioning and Branches](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts?version=Cloud#versioning-and-branches).
+
 
 
 <a name="loio9721f0fb92a84e2a95309acf445cb0a9__section_qhv_tdp_drb"/>
@@ -21,10 +24,10 @@ Once everything is implemented, built, and the maintenance delivery is deployed,
 ## Prerequisites
 
 -   To set up the maintenance system landscape, you need the relevant entitlements in the global account for development. See [Entitlements and Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00aa2c23479d42568b18882b1ca90d79.html).
--   To create updates for the SaaS solution, you need a maintenance system landscape. Business users with authorization to use the *Manage Software Components* app and developer users using ABAP Development Tools have to be available in the systems. See [Manage Software Components](../50-administration-and-ops/manage-software-components-3dcf76a.md) and [Getting Started as a Developer in the ABAP Environment](../20-getting-started/getting-started-as-a-developer-in-the-abap-environment-4b896c9.md).
--   To configure new add-on versions, you need the existing pipeline configuration for an add-on build pipeline. See [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
--   To trigger the add-on product build, you need a Jenkins pipeline and a pipeline configuration including the new add-on version.
--   To apply updates for the SaaS solution, you need a subscription to the Landscape Portal application and a user assigned to role collection `LandscapePortalAdminRoleCollection`.
+-   • When using a maintenance system landscape, you require business users with authorization to use the Manage Software Components app and developer users using ABAP Development Tools must be available in the systems. See [Manage Software Components](../50-administration-and-ops/manage-software-components-3dcf76a.md) and [Getting Started as a Developer in the ABAP Environment](../20-getting-started/getting-started-as-a-developer-in-the-abap-environment-4b896c9.md).
+-   To configure new add-on versions, you need the existing pipeline configuration for an add-on build pipeline. These can be the pipeline templates in the Build Product Version app or a manual configuration. See [Build Product Version](https://help.sap.com/docs/btp/sap-business-technology-platform/build-product-version?version=Cloud)and [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
+-   If you have configured the add-on build pipeline manually, you need a Jenkins server where you can execute it.
+-   To use the Landscape Portal, you need a subscription to the Landscape Portal application and a user assigned to role collection `LandscapePortalAdminRoleCollection`.
 
 <a name="loio44035458f01e4142a18d44f9c0301e62"/>
 
@@ -34,9 +37,16 @@ Once everything is implemented, built, and the maintenance delivery is deployed,
 
 ![](images/Prepare_a_Development_Account_e29111f.png)
 
-Bug fixes aren’t implemented as part of the development code line \(systems DEV and TST\) but in a separate correction code line with separate systems to develop and test these corrections.
+Bug fixes aren’t implemented as part of the development code line, but in a separate correction code line. In this manner, corrections can be delivered to consumers even while regular development is ongoing.
 
-The ABAP systems that you use for development, testing, and add-on assembly are of type`abap/standard` and made available via entitlements. As a SaaS solution operator, you have to assign service entitlements to different subaccounts according to the following structure:
+We recommend setting up a maintenance system landscape that runs in parallel to the development system landscape. This maintenance landscape consists of:
+
+-   A correction system COR where corrections are developed. This system is provisioned in subaccount *01 Develop* in the development space. Set parameter `is_development_allowed = true`.
+
+-   A quality assurance system QAS for testing the corrections. This system is provisioned in subaccount *02 Test* in the test space. Set parameter `is_development_allowed = false`.
+
+
+The required entitlements and system-related details are listed in the table below:
 
 
 <table>
@@ -103,7 +113,7 @@ Develop
 
 1x abap/standard
 
-abap/hana\_compute\_unit \(standard: 4\)
+abap/hana\_compute\_unit \(standard: 2\)
 
 abap/abap\_compute\_unit \(standard: 1\)
 
@@ -137,7 +147,7 @@ Test
 
 1x abap/standard
 
-abap/hana\_compute\_unit \(standard: 4\)
+abap/hana\_compute\_unit \(standard: 2\)
 
 abap/abap\_compute\_unit \(standard: 1\)
 
@@ -153,6 +163,10 @@ QAS
 </td>
 </tr>
 </table>
+
+The Manage System Hibernation app in the Landscape Portal allows you to shut down the maintenance systems when no corrections are being developed, significantly reducing the costs incurred. See [Manage System Hibernation](https://help.sap.com/docs/btp/sap-business-technology-platform/manage-system-hibernation?version=Cloud). For more information on working with two codelines, see [Use Case 2: One Development and Correction Codeline in a 5-System Landscape](https://help.sap.com/docs/btp/sap-business-technology-platform/use-case-2-one-development-and-correction-codeline-in-5-system-landscape?version=Cloud).
+
+It is not strictly necessary to set up a separate maintenance system landscape. You can also implement corrections in the existing development and test systems to further reduce costs. In this case, ongoing development must be stopped while the release branch is checked out and worked on. See [Use Case 1: One Codeline in a 3-System Landscape](https://help.sap.com/docs/btp/sap-business-technology-platform/use-case-1-one-codeline-in-3-system-landscape?version=Cloud).
 
 Use service parameter `is_development_allowed` to differentiate between development and test systems.
 
@@ -354,93 +368,50 @@ Maintenance branch v1.1.0, created based on the main branch, is used later on fo
 
 **Create new release version \(product version\)**
 
-> ### gCTS Delivery:  
-> For delivering a new major version via gCTS instead of using add-ons, see section *For Go Live/Development after Go Live \(Including Deferrable Corrections\)* in [Use Case 2: One Development and Correction Codeline in a 5-System Landscape](use-case-2-one-development-and-correction-codeline-in-a-5-system-landscape-4e53874.md) and follow the steps.
-> 
-> -   **Develop**
-> 
->     For a new major version, implement your new release deliveries in the main branch of your development system DEV and release it, see step 1-2.
-> 
-> -   **Test**
-> 
->     Using the *Manage Software Components* app in your test system TST, pull the main branch to import the changes to your test system, see step 3-4. Test the changes to validate the functionality.
-> 
-> -   **Create Maintenance Branch**
-> 
->     In the *Manage Software Components* app in your quality and assurance system QAS, create a new maintenance branch for your new major version. Check out the maintenance branch and test your changes, see step 5-7.
-> 
-> -   In your correction system COR, check out and pull the maintenance branch. In case of a deferrable correction, implement your correction in the maintenance branch of your correction system and release it \(step 8-10\). Pull the changes to your quality and assurance system \(QAS\) and test the changes, see step 12-14.
-> -   **Release**
-> 
->     In the *Manage Software Components* app of the provider tenant in your production system AMT, pull the maintenance branch, see step 15. The corrections and new functionalities are now imported into the production system AMT.
-> 
-> -   **Double Maintenance of Corrections**
-> 
->     If you want to implement deferrable corrections, perform the same changes in your development system DEV. Release it to maintain it on the main branch of your software component and pull it into your test system TST, see step 16-18.
-> 
-> 
-> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
-
 Release versions are used to deliver new major, planned functional enhancements. Typically, they include multiple new implemented features. For example, multiple new apps could be introduced with such a major release.
 
+> ### Note:  
+> Only with new release deliveries, you can change the software component version bundle in a new release.
+
+To deliver a new release version, see the following steps:
+
 -   **Develop**
-    -   Implement a new feature in the ABAP development system
-
-        As a developer, implement the new feature in the main branch in the ABAP development system DEV. Bug fixes should be delivered via patches or support packages instead.
-
-        After releasing the transport task and request in the development system, the changes are available for testing in the ABAP test system TST.
+    -   As a developer, implement the new feature in the main branch in the ABAP development system DEV. Bug fixes should be delivered via patches or support packages instead. Release the transport tasks and requests.
 
 
 -   **Test**
-    -   Import the main branch into the ABAP test system
+    -   As an add-on admin, use the *Manage Software Components* app to import the main branch into the test system TST so that new developments can be tested.
 
-        As development in system DEV is done on the main branch, the same branch is imported into the test system TST.
-
-        As an add-on admin, use the *Manage Software Components* app to import the main branch into the test system TST so that new developments can be tested.
-
-    -   Test the new feature in the ABAP test system
-
-        As a tester, test the new implemented features in system TST to validate the functionality.
+    -   As a tester, test the new implemented features in system TST to validate the functionality.
 
         Required testing can involve anything from maintaining business roles, creating communication arrangements to more complex testing scenarios where connectivity is involved.
 
 
 -   **Create maintenance branch**
 
-    For each new release version of a software component, you, as an add-on admin user, create a maintenance branch based on the main branch in development system DEV using the *Manage Software Components* app.
+     As an add-on admin, create a new maintenance branch for each new release version of a software component. These maintenance branches are used for developing bug fixes and maintaining deliveries. This assures that these bug fixes can be implemented in the correction code line to not block ongoing development on the main branch.
 
-    1.  In the test system, open the *Manage Software Components* app.
-    2.  Open the software component.
-    3.  Create branch v2.0.0 based on the main branch.
+-   **Configure new product version**
 
--   **Configure addon.yml file**
+    As an add-on admin, you can use the Build Product Version app in the Landscape Portal to create new release versions:
 
-    As an add-on admin, change the add-on descriptor file according to the add-on product version that you want to build.
+    -   Make sure that the pipeline template for Release Delivery is configured. If you want to validate the add-on build beforehand, configure the template for Test Release Delivery as well. See [Configure Pipeline Template](https://help.sap.com/docs/btp/sap-business-technology-platform/configure-pipeline-template?version=Cloud).
 
-    Optionally, you can specify a commit ID. All released changes up to the specified commit are included. You can retrieve this commit ID from the commit history in the *Manage Software Components* app.
 
-    ```
-    ---
-    addonProduct: "/NAMESPC/PRODUCTX"
-    addonVersion: "2.0.0"
-    repositories:
-       - name: "/NAMESPC/PRODUCTX"
-         branch: "v2.0.0"
-         version: "2.0.0"
-         commitID: "12345xy"
-    ```
+-   Choose the relevant add-on product and create a new product version of type Release Delivery. See [Create a New Product Version](https://help.sap.com/docs/btp/sap-business-technology-platform/create-new-product-version?version=Cloud).
 
-    `addonProduct` must include a development namespace prefix and the add-on product name.
 
-    `addonVersion` is version 2.0.0, marking an add-on installation delivery.
+If you are configuring the add-on build pipeline manually, adjust your add-on descriptor file to build the new patch version. See [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#addonyml).
 
-    The repositories include all involved software components as well as the branch and software component version to be used for the add-on build.
+**gCTS Delivery**
 
-    The branch of software component `/NAMESPC/PRODUCTX` is pointing to the maintenance branch that was created for the support package level 0 of the new release version 2. The commit ID is referencing the short commit ID for the latest changes in the maintenance branch. You can retrieve these software component details from the *Manage Software Components* app.
+If you use gCTS for delivery, the process of creating an update for SaaS solutions is grouped into urgent corrections \(patch version\) and new releases \(release version\). See [Use Case 2: One Development and Correction Codeline in a 5-System Landscape](https://help.sap.com/docs/btp/sap-business-technology-platform/use-case-2-one-development-and-correction-codeline-in-5-system-landscape?version=Cloud) and [Delivery via Add-On or gCTS](https://help.sap.com/docs/btp/sap-business-technology-platform/delivery-via-add-on-or-gcts?version=Cloud).
 
-    > ### Note:  
-    > Only with new release deliveries, you can change the software component version bundle in a new release.
+For delivering an emergency patch via gCTS, see section Urgent Corrections in [Use Case 2: One Development and Correction Codeline in a 5-System Landscape](https://help.sap.com/docs/btp/sap-business-technology-platform/use-case-2-one-development-and-correction-codeline-in-5-system-landscape?version=Cloud)
 
+For delivering a new major version via gCTS instead of using add-ons, see section For Go Live/Development after Go Live \(Including Deferrable Corrections\) in [Use Case 2: One Development and Correction Codeline in a 5-System Landscape](https://help.sap.com/docs/btp/sap-business-technology-platform/use-case-2-one-development-and-correction-codeline-in-5-system-landscape?version=Cloud).
+
+For general information regarding gCTS delivery, see [Delivery via Add-On or gCTS](https://help.sap.com/docs/btp/sap-business-technology-platform/delivery-via-add-on-or-gcts?version=Cloud).
 
 <a name="loio7f6988a9a9f94845825d8c7ff66990fb"/>
 
@@ -456,16 +427,14 @@ Release versions are used to deliver new major, planned functional enhancements.
 
 ![](images/Pipeline_add-on_build_d36cfe1.png)
 
-Similar to the build of the initial add-on version, as an add-on administrator, you need to trigger the execution of the configured ABAP environment pipeline for an add-on build.
+Similar to the build of the initial add-on version, as an add-on administrator, you need to trigger the execution of the configured ABAP environment pipeline for an add-on build. You can do this using the Build Product Version button in the corresponding app. After a successful build, the new add-on version is technically available for deployment to the ABAP environment. See [Create a New Produt Version](https://help.sap.com/docs/btp/sap-business-technology-platform/create-new-product-version?version=Cloud). If you are configuring the add-on build pipeline manually, then you need to trigger its execution in your Jenkins server. For in-depth information about the ABAP environment pipeline, check out [ABAP Environment Pipeline](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts?version=Cloud#abap-environment-pipeline).
 
-Based on the target vector published in the Build stage, the Integration Tests stage of the ABAP environment pipeline creates add-on installation test system ATI. After the system and the add-on have been provisioned successfully, a provisioning mail is sent to the system administrator and the pipeline stage can be confirmed by the add-on administrator.
+*gCTS Delivery*
 
-Use add-on installation test system ATI to confirm the successful add-on installation before the new add-on version is published.
-
-You can also use add-on installation test system ATI for additional tests, similar to the steps described in [Test in the ABAP Environment SAP Fiori Launchpad](test-023cf9d.md#loio8c5b4d76a05b4bed8df01937f4d8d487). For testing in a multitenancy environment, you can create tenants of type Partner Test using the Landscape Portal application. See [Use Test Tenants](use-test-tenants-dd7d8e8.md).
+If you are using gCTS instead of add-ons for delivering software components into production systems, an add-on build is not required.
 
 > ### Note:  
-> Please make sure that the add-on product version to be published is properly tested before confirming the release decision. This includes testing in SAP Fiori launchpad and the ABAP Test Cockpit. See [Test in the ABAP Environment SAP Fiori Launchpad](test-023cf9d.md#loio8c5b4d76a05b4bed8df01937f4d8d487) and [Test in the ABAP Test Cockpit](test-023cf9d.md#loiof0b71a1c959842258772c27d292c43b0).
+> Please ensure that the add-on product version to be published is properly tested before confirming the release decision. This includes testing in SAP Fiori launchpad and the ABAP Test Cockpit. See [Test in the ABAP Environment SAP Fiori Launchpad](test-023cf9d.md#loio8c5b4d76a05b4bed8df01937f4d8d487) and [Test in the ABAP Test Cockpit](test-023cf9d.md#loiof0b71a1c959842258772c27d292c43b0).
 
 Finally, the previously created target vector for the new add-on product version is published in production scope after the add-on administrator has confirmed the release decision in the Confirm stage.
 
@@ -485,20 +454,12 @@ Use the *Check Product Version* app in Landscape Portal to check whether the pro
 
 ### Deploy Add-On Update
 
-> ### gCTS Delivery:  
-> To create a new software component or update an existing one, we recommend using the development and correction codeline in a 5-ABAP-System landscape. See [Use Case 2: One Development and Correction Codeline in a 5-System Landscape](use-case-2-one-development-and-correction-codeline-in-a-5-system-landscape-4e53874.md).
-> 
-> Following this codeline, the software component is implemented in the development system and runs through a test, correction, and quality and assurance system before it can be imported into the production system.
-> 
-> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
-
 As a SaaS solution operator, you can apply add-on updates to existing systems via the [Update Product Version](update-product-version-32c4f7d.md) app in the Landscape Portal.
 
-You can select the target add-on product and version for the update.
+You can select the target add-on product and version for the update. Afterwards, you can select the systems where the update should be applied and schedule the update.
 
-The listed add-on product versions are based on these versions where the corresponding target vector was published during the add-on build. The target vector is created as part of the add-on build process and is published in the productive scope after the release decision. See [The Add-On Product](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/#the-add-on-product).
-
-Afterwards, you can select the systems where the update should be applied, and schedule the update.
+> ### gCTS Delivery:  
+> If you are using gCTS instead of add-ons for delivering software components into production systems, you need to pull the changes of all relevant software components into all productive systems using the *Manage Software Components* app. An update deployment via the Landscape Portal is not required.
 
 <a name="loio00de26798389472f989601306d2207e1"/>
 

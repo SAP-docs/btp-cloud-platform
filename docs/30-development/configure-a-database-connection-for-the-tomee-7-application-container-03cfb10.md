@@ -85,7 +85,7 @@ As a result of this configuration, when the application starts, the *com.sap.xs.
 
 [SAP HANA HDI Data Source Usage](sap-hana-hdi-data-source-usage-c9d288e.md)
 
-[Database Connection Configuration Details](database-connection-configuration-details-f0d2d05.md "Define details of the database connection used by your Java Web Application running on Cloud Foundry Environment with the SAP Java Buildpack.")
+[Database Connection Configuration Details](database-connection-configuration-details-f0d2d05.md "Define details of the database connection used by your Java Web Application running on SAP BTP, Cloud Foundry with SAP Java Buildpack.")
 
 [Configuring a Database Connection](configuring-a-database-connection-7568c3d.md)
 

@@ -5,7 +5,7 @@
 As a SAP BTP ABAP environment user, you might want to test your solution on a test tenant. While you could create a new subaccount and provision a new tenant for yourself for test purposes, the *Landscape Portal* offers a much simpler and faster way for you to create a test tenant.
 
 > ### Note:  
-> The business type of the test tenant depends on the system type. In a development system, a tenant of type "Partner Test Tenant" is created. In non-development systems, a tenant of type "Test Tenant" is created. Unlike consumer tenants, created via subscription, test tenants can be created in any type of system.
+> The business type of the test tenant depends on the system type. In a development system, a tenant of type "Partner Test Tenant" is created. In non-development systems, a tenant of type "Test Tenant" is created. Unlike consumer tenants, created via subscription, test tenants can be created in any type of system. For more information, see [Tenant Business Types](tenant-business-types-018e8bd.md).
 
 
 
@@ -24,10 +24,9 @@ As a SAP BTP ABAP environment user, you might want to test your solution on a te
 
 ## Accessing a Test Tenant:
 
-1.  Once the test tenant and the initial tenant admin have been provisioned, the test tenant is added to the list of *Tenants* with *Lifecycle Status* "*Live*".
-2.  You can now click on the tenant's client number to open the test tenant.
-3.  Use the initial tenant admin's credentials to sign into the test tenant for the first time.
-4.  \(Optional\) To add new users to the tenant, use the apps *Maintain Employees* and *Maintain Business Users*.
+1.  Once the test tenant and the initial tenant admin have been provisioned, the test tenant is added to the list of *Tenants* with *Lifecycle Status* "*Live*". You can now click on the tenant's client number to open the test tenant.
+2.  Use the initial tenant admin's credentials to sign into the test tenant for the first time.
+3.  \(Optional\) To add new users to the tenant, use the apps *Maintain Employees* and *Maintain Business Users*.
 
 > ### Note:  
 > Note that you cannot access a test tenant via ADT with a support user.

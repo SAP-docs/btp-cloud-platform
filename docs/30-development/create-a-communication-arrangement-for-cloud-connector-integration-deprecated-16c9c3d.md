@@ -240,7 +240,7 @@ You have associated the ABAP environment tenant with the Neo subaccount. This en
 
 ## Next Steps
 
-After completing the setup of communication scenario `SAP_COM_0200`, you are ready to set up your actual data connections between your ABAP environment and on-premise systems. This requires the configuration of other communication systems and communication arrangements in the ABAP environment tenant as well as the configuration of Cloud Connector. See [Setting Up Destinations to Enable On-Premise Connectivity](setting-up-destinations-to-enable-on-premise-connectivity-9b6510e.md).
+After completing the setup of communication scenario `SAP_COM_0200`, you are ready to set up your actual data connections between your ABAP environment and on-premise systems. This requires the configuration of other communication systems and communication arrangements in the ABAP environment tenant as well as the configuration of Cloud Connector. See [Enable On-Premise Connectivity](enable-on-premise-connectivity-9b6510e.md).
 
 To **migrate** to the usage of the **Cloud Foundry Connectivity service**, proceed as follows:
 

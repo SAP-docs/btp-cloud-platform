@@ -2,7 +2,7 @@
 
 # Database Connection Configuration Details
 
-Define details of the database connection used by your Java Web Application running on Cloud Foundry Environment with the SAP Java Buildpack.
+Define details of the database connection used by your Java Web Application running on SAP BTP, Cloud Foundry with SAP Java Buildpack.
 
 
 
@@ -14,7 +14,7 @@ To configure your application to establish a connection to the SAP HANA database
 
 The easiest way to define the required data source is to declare the keys for the data source in a resource file.
 
-For the Tomcat Application Container, you can create a `context.xml` file in the `META-INF/` directory with the following content:
+For the Tomcat application container, you can create a `context.xml` file in the `META-INF/` directory with the following content:
 
 > ### Sample Code:  
 > context.xml
@@ -30,7 +30,7 @@ For the Tomcat Application Container, you can create a `context.xml` file in the
 > </Context>
 > ```
 
-For the TomEE Application Container, you can create a `resources.xml` file in the `WEB-INF/` directory with the following content:
+For the TomEE 7 application container, you can create a `resources.xml` file in the `WEB-INF/` directory with the following content:
 
 > ### Sample Code:  
 > resources.xml

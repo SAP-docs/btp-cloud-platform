@@ -18,7 +18,7 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
 
 ## Working in the Register Systems for Pre-Upgrade app
 
-1.  Log into the Landscape Portal from your provider subaccount.
+1.  Log into the Landscape Portal.
 
 2.  Under *Systems*, click on the *Register Systems for Pre-Upgrade* tile to open the app.
 

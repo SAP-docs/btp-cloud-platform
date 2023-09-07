@@ -65,13 +65,15 @@ For more information about creating service instances, see [Create Service Insta
     > 
     > The ABAP system ID must consist of exactly three alphanumeric characters. Only uppercase letters are allowed. The first character must be a letter \(not a digit\). The ID does not have to be technically unique.
     > 
-    > The ABAP runtime size \(parameter `size_of_runtime`\) refers to the size of the ABAP runtime. It's part of the quota plan *abap\_compute\_unit*, with one ABAP compute unit representing 16 GB. The supported number of abap\_compute\_unit is 1, 2, 4, 6, 8, 16, or 24. For more information, see [ABAP Compute Units](../50-administration-and-ops/abap-compute-units-7d1caa8.md).
+    > The ABAP runtime size \(parameter `size_of_runtime`\) refers to the size of the ABAP runtime. It's part of the quota plan *abap\_compute\_unit*, with one ABAP compute unit representing 16 GB. The supported number of abap\_compute\_unit is 1, 2, 4, 6, 8, 16, 24, or 32. For more information, see [ABAP Compute Units](../50-administration-and-ops/abap-compute-units-7d1caa8.md).
     > 
     > The HANA memory size \(parameter `size_of_persistence`\) refers to the size of SAP HANA memory. It's part of the quota plan *hana\_compute\_unit*, with one HANA compute unit representing the suitable block size for the underlying SAP HANA Cloud instance \(15 GB on AWS or 16 GB on Microsoft Azure\). The supported number of hana\_compute\_unit per HANA instance is 2, 4, 8, 16, 32, or 64.
     > 
     > The size of persistence disk \(parameter `size_of_persistence_disk` refers to the size of the SAP HANA Cloud storage in GB. If the parameter is set to `auto`, the SAP HANA Cloud storage size is set to the minimal value 40 \* size\_of\_persistence + 40. The maximum allowed value is 120 \* size\_of\_persistence + 40. If you set a higher value, it will consume 0.002 HANA compute units \(HCU\) for any GB exceeding the minimal default size of the persistence disk. Therefore, the HCU ratio of additional storage disk to RAM is 1 : 33.33 per GB on AWS \(as 1 HCU = 15 GB\) and 1 : 31.25 per GB on Microsoft Azure \(as 1 HCU = 16 GB\).
     > 
     > Make sure that you don't choose more compute units than you have assigned to your subaccount for the ABAP environment \(see [Increasing the Quota for the ABAP Environment](increasing-the-quota-for-the-abap-environment-c40cb18.md)\).
+    > 
+    > For more information about ABAP system sizing and Native Storage Extension for selected SAP HANA tables, see [ABAP System Sizing](../50-administration-and-ops/abap-system-sizing-90b515d.md) and [Native Storage Extension for the ABAP Environment](../50-administration-and-ops/native-storage-extension-for-the-abap-environment-68eb2a0.md).
 
     > ### Caution:  
     > If you update your ABAP system, you can only change the system description and ABAP runtime size \(parameter `size_of_runtime`\). See [Updating an ABAP System](updating-an-abap-system-7890ffa.md).

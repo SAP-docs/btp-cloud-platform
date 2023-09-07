@@ -32,7 +32,7 @@ Calling only `set_uri_path` overwrites the URL used to instanciate the client:
 >   ENDIF.
 >  
 > CATCH cx_web_http_client_error cx_http_dest_provider_error.
->   WRITE 'An exception has occurrred!'.
+>    " handle exception here
 > ENDTRY.
 > 
 > ```
@@ -64,7 +64,7 @@ If you call the method `enable_path_prefix` before calling `set_uri_path`, the p
 >   ENDIF.
 >  
 > CATCH cx_web_http_client_error cx_http_dest_provider_error.
->   WRITE 'An exception has occurrred!'.
+>    " handle exception here
 > ENDTRY.
 > 
 > ```

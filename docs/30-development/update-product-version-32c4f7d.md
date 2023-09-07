@@ -18,7 +18,7 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
 
 ## Working in the Update Product Version App
 
-1.  Sign in to the *Landscape Portal* from your provider subaccount.
+1.  Sign in to the *Landscape Portal*.
 
 2.  Scroll down to *Product* and click on the *Update Product Version* tile to open the app.
 

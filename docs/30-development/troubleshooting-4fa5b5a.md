@@ -8,9 +8,9 @@ You can check the following:
 
 -   Display the log of the application job *Collect Metric Provider Values*. In the log, search for `*GSM*` or the name of the metric provider.
 
-    The log contains the names of banned metric providers and the reasons for the bans. Fix the issues and wait for the next collection of metric provider values.
+    In the log, you might find error messages saying that metric providers have been banned and the reasons for the bans.
 
-    Background: If the metric provider framework detects any kind of runtime violation like too many dumps, a longer runtime, or too much memory consumption during the metric value collection, the relevant metric provider is banned for 24 hours. The ban protects the metric measurement of other metric providers.
+    Background: If the metric provider framework detects any kind of runtime violation such as, for example, too many consecutive dumps, an exceeded runtime limit, or too much memory consumption during the metric value collection, the relevant metric provider is banned for 24 hours. The ban protects the metric measurement of other metric providers. Fix the issues mentioned in the log. After 24 hours, if the issue has been fixed in the meantime, the ban is lifted.
 
 -   If the metric provider is executed, but a metric is missing, you might need to retransport the metric provider to trigger an implicit metric model synchronization.
 

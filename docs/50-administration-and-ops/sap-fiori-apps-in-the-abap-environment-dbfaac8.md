@@ -22,5 +22,5 @@ To be able to view and use the apps in the SAP Fiori launchpad, you need a busin
 **Related Information**  
 
 
-[SAP Fiori Launchpad - User Guide](https://help.sap.com/viewer/fd8f9fda63fa4c7a92bb1d4b4ac5582c/Cloud/en-US/2e034767ee0c4d43a5159ce4a4c014f5.html "This guide provides you, the end user, with information on how to optimally use the SAP Fiori launchpad.") :arrow_upper_right:
+[SAP Fiori Launchpad - User Guide](https://help.sap.com/viewer/fd8f9fda63fa4c7a92bb1d4b4ac5582c/Cloud/en-US/2e034767ee0c4d43a5159ce4a4c014f5.html "This guide provides you, the user, with information on how to optimally use the SAP Fiori launchpad.") :arrow_upper_right:
 

@@ -162,7 +162,7 @@ Here's how this is done:
     </tr>
     </table>
     
-    If a stage has successfully been processed, its icon will be blue; in case of errors it will be red. All stages that are still due are colored in grey and the stages that have been switched off in the template cannot be selected at all.
+    If a stage has successfully been completed, its icon will be blue; in case of errors it will be red. All stages that are still due are shown in grey and the stages that have been switched off in the template cannot be selected at all.
 
     If the pipeline is still running, you can update the view using the *Refresh* button in the upper right corner.
 

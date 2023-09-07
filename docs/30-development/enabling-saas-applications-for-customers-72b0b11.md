@@ -499,7 +499,7 @@ Order and provide your solution. See [Order and Provide](order-and-provide-975bd
 
 ## Prerequisites
 
--   You've assigned the `LandscapePortalAdminRoleCollection` in your *05 Provide* subaccount in the global account for development. See [Access to Landscape Portal](order-and-provide-975bd3e.md#loio195a685a71f84953813e7b3bd255e849).
+-   You've assigned the `LandscapePortalAdminRoleCollection` in your *05 Provide* subaccount in the global account for development. See [Access to Landscape Portal](access-to-landscape-portal-195a685.md).
 -   You’ve set up the maintenance system landscape. See [Set Up Maintenance System Landscape](maintain-monitor-support-5d25603.md#loio44035458f01e4142a18d44f9c0301e62).
 
 

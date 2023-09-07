@@ -331,7 +331,7 @@ The following response status codes can be returned from the Audit Log Write API
 
 -   401 \(Unauthorized\): Missing or invalid "Authorization" header
 
--   413 \(Payload Too Large\): The Audit log message size is too big
+-   413 \(Payload Too Large\): The Audit log message size exceeds 10KB
 
 -   429 \(Too Many Requests\): Rate limit per tenant \(provider\_tenant,org,space\) is hit
 

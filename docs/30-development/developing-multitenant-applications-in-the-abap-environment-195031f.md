@@ -12,7 +12,7 @@ As a service provider, you need to fulfill the following prerequisites.
 
 -   You’ve been registered by SAP, have your own global account and Cloud Foundry-enabled production subaccount with at least one space.
 
--   In your provider subaccount, the*Landscape Portal* subscription has been created.
+-   In your provider global account, a subscription to the*Landscape Portal* has been created.
 
 -   The Cloud Foundry role "Space Developer" is assigned to your S-user.
 

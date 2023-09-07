@@ -488,7 +488,7 @@ Let’s take a closer look at how to configure a pipeline template for a product
     </td>
     <td valign="top">
     
-    The credential name referring to a [2174416](https://me.sap.com/notes/2174416)technical communication user used to access Add-on Assembly Kit as a Service
+    The credential name refers to a technical communication user used to access Add-on Assembly Kit as a Service, see [2174416](https://me.sap.com/notes/2174416)
 
 
     
@@ -503,20 +503,19 @@ Let’s take a closer look at how to configure a pipeline template for a product
     </tr>
     </table>
     
-    Proceed to the next step
+    Proceed to the next step.
 
 7.  **Integration Tests**
 
-    Please notice that this step is mandatory to execute in order to achieve a secured deployment in production.
-
-    The possibility to disable it might be turned off without any further notice from SAP in the future.
-
     In this stage a system is prepared for the product version test installation. The system will be deprovisioned after successful testing has been completed.
+
+    > ### Note:  
+    > This step is mandatory for a secure deployment in production. The possibility to disable the integration tests might be turned off at a future date without further notice from SAP.
 
     Enter the information.
 
     > ### Note:  
-    > The pipeline step '5. Integration Tests' is inactive when you are configuring a test template.
+    > The pipeline step 'Integration Tests' is inactive when you are configuring a test template.
 
 
     <table>
@@ -560,7 +559,7 @@ Let’s take a closer look at how to configure a pipeline template for a product
     </td>
     <td valign="top">
     
-    Run Integration Test Stage:
+    Run Integration Test Stage
 
 
     
@@ -574,7 +573,7 @@ Let’s take a closer look at how to configure a pipeline template for a product
     </td>
     <td valign="top">
     
-    The Run Integration Test Stage prevents from defective add-ons being installed onto the production system.
+    The Run Integration Test Stage prevents defective add-ons from being installed in the production system.
 
 
     

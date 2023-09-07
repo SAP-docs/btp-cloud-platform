@@ -22,6 +22,9 @@ The goal of this process is as follows:
 
 In the SAP BTP cockpit under *Custom Identity Provider for Applications*, there are no trust configurations with protocol OpenID Connect and no more than one with SAML.
 
+> ### Note:  
+> The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
+
 
 
 <a name="loiod097ce26cb2d4b8fa9a597a5381cb3cb__section_gvh_gkj_gxb"/>

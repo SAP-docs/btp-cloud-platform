@@ -43,7 +43,7 @@ All other parameters correspond to the known `execute` method.
 >     ENDIF.
 > 
 >   CATCH cx_web_http_client_error cx_http_dest_provider_error.
->     WRITE 'An exception has occurrred!'.
+>      " handle exception here
 > ENDTRY. has occurrred!'.
 > ENDTRY.
 > 

@@ -32,7 +32,7 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
 
 ## Request Namespaces
 
-1.  Log into the Landscape portal from your provider subaccount.
+1.  Log into the Landscape Portal.
 
 2.  In the *Systems* section, click on the *Maintain Namespaces* tile to open the app.
 3.  The Namespaces tab shows you the list of your provider namespaces and their description checked against all existing SAP Provider Namespaces.

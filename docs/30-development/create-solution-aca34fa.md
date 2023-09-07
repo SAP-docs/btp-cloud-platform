@@ -6,7 +6,7 @@ You want to prepare a new solution for delivery to your consumers. Since a solut
 
 Here's how to create a new solution.
 
-1.  Log in to the *Landscape Portal* from your provider subaccount.
+1.  Log in to the *Landscape Portal*.
 
 2.  Under *Solution*, click on the *Maintain Solution* tile to open the app.
 

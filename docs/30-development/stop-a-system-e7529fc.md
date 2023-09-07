@@ -8,7 +8,7 @@ You want to put a system into hibernation immediately. This will cause the syste
 
 Here's how it's done.
 
-1.  Log into the *Landscape Portal* from your provider subaccount.
+1.  Log into the *Landscape Portal*.
 2.  In the *Systems* section, click on the*Manage System Hibernation* tile to open the app.
 3.  On the left side, under *Systems*, you can see a list of all your systems, as well as their current status \(*Live* or *Stopped*\). *Live* systems are currently active, *Stopped* systems are in hibernation. You can also see if a system is currently in the process of *Stopping* or *Starting*.
 4.  Select one or more systems with status *Live* that you want to put into hibernation, then click the *Stop* button at the top.

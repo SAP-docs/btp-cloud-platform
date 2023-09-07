@@ -1,6 +1,6 @@
 <!-- loio9b6510edf4d844a28f022b3db41f3202 -->
 
-# Setting Up Destinations to Enable On-Premise Connectivity
+# Enable On-Premise Connectivity
 
 Create an HTTP and an RFC destination to enable communication from the ABAP environment to your on-premise systems.
 

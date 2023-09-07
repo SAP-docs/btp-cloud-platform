@@ -22,7 +22,7 @@ You can archive change documents together with their application documents.
 
 1.  Add the archiving class `CHANGEDOCU` to the archiving classes of your archiving object using `ABAP Development Tools` \(ADT\):
 
-    ![](images/e11e67b70ca04f0c9a526210777ff593.image)
+    ![](images/Archiving_Documents_e11e67b.png)
 
 2.  Update the write class of your archiving object to archive change documents.
 

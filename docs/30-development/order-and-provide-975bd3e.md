@@ -12,9 +12,20 @@ After the initial add-on version has been built, you have to deploy and provide 
 
 
 
-For multitenant applications based on the ABAP environment, the ABAP Solution service is used to provision ABAP systems, tenants, and users on demand. Once you’ve configured this implementation, you can deploy it to the *Provide* space of your *05 Provide* subaccount in the global account for development. After testing the subscription process in this provider subaccount during the development phase, the multitenant application can be deployed to the *Provide* space in the *05 Provide* subaccount in the global account for production. See [System Landscape/Account Model](concepts-9482e7e.md#loio4ca756395fc24e56a42b77632a6bd862).
+To offer a multitenant application based on an ABAP add-on product, a multi-target application \(MTA\) is developed and deployed to the Cloud Foundry environment on SAP BTP. The MTA integrates the different services required for this scenario, such as the ABAP Solution service, responsible for provisioning ABAP systems, tenants, and users on demand. For more in-depth information, see [Multitenant Application](https://help.sap.com/docs/btp/sap-business-technology-platform/multitenant-application?version=Cloud).
+
+Once you’ve configured your multitenant application, you can deploy it once for testing purposes in the global account for development.
+
+After testing the subscription process in this provider subaccount during the development phase, the multitenant application can be deployed to the *Provide* space in the *05 Provide* subaccount in the global account for production. See [System Landscape/Account Model](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts?version=Cloud#system-landscape%2Faccount-model).
 
 After the multitenant application has been deployed for production purposes, the SaaS solution is ready for commercialization.
+
+You have two options for implementing and deploying the application. The recommended approach is to use the Maintain Solution app in the Landscape Portal. See [Maintain Solution](https://help.sap.com/docs/btp/sap-business-technology-platform/maintain-solution?version=Cloud). Alternatively, you can create your own multitenant application. This allows you to modify parameters that are not exposed in the Maintain Solution app. However, the app should cover all common use cases. See [Developing Multitenant Applications in the ABAP Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/developing-multitenant-applications-in-abap-environment?version=Cloud).
+
+> ### gCTS Delivery:  
+> If you use gCTS instead of add-ons for delivering software components to production systems, the value for the add-on product name inside the MTA extension descriptor file has to be empty.
+> 
+> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
 
 
@@ -22,9 +33,36 @@ After the multitenant application has been deployed for production purposes, the
 
 ## Prerequisites
 
--   To configure the sizing of a SaaS solution, you have to determine the expected load per region by using the Technical Monitoring Cockpit. See [Technical Monitoring Cockpit \(Cloud Version\)](https://help.sap.com/viewer/tmc_cloud/eb867c69739a4cf3be6361d3990d26a2.html).
--   To implement and deploy a multitenant application for a SaaS solution, you have to assign the necessary entitlements in the provider subaccount, for example for the ABAP Solution service. See [Developing Multitenant Applications in the ABAP Environment](developing-multitenant-applications-in-the-abap-environment-195031f.md) and [Entitlements and Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00aa2c23479d42568b18882b1ca90d79.html).
--   To subscribe to the Landscape Portal application, you need the corresponding entitlement. See [Landscape Portal](landscape-portal-5eb70fb.md).
+-   To configure the sizing of a SaaS solution, you need to determine the expected load per region by using the Technical Monitoring Cockpit. See [Technical Monitoring Cockpit \(Cloud Version\)](https://help.sap.com/viewer/tmc_cloud/eb867c69739a4cf3be6361d3990d26a2.html).
+-   To implement and deploy a multitenant application for a SaaS solution, you need to assign the necessary entitlements in the provider subaccount, for example for the ABAP Solution service. See [Multitenant Application](https://help.sap.com/docs/btp/sap-business-technology-platform/multitenant-application?version=Cloud) and [Entitlements and Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00aa2c23479d42568b18882b1ca90d79.html).
+
+<a name="loioff85cb02dc284aea9fd0745fc6904aed"/>
+
+<!-- loioff85cb02dc284aea9fd0745fc6904aed -->
+
+### Create Cloud Controller Destination
+
+As an operator, you need to create a destination for the Cloud Foundry Cloud Controller access in the 05 Provide subaccount in the global accounts for development and production. See [Create a Destination for the Cloud Foundry Cloud Controller Access](https://help.sap.com/docs/btp/sap-business-technology-platform/create-destination-for-cloud-foundry-cloud-controller-access?version=Cloud). The Cloud Foundry Cloud Controller API maintains records of orgs, spaces, services, service instances, user roles, and more and is used to create new ABAP instances in the Provide space when necessary.
+
+> ### Note:  
+> We recommend using a technical Cloud Foundry platform user for Cloud Controller access. See [Create SAP User Accounts](https://help.sap.com/docs/btp/sap-business-technology-platform/create-sap-user-accounts?version=Cloud).
+
+**Define Routes**
+
+When a consumer accesses the application, their consumer tenant calls the multitenant application with their tenant-specific URL. The URL follows the same pattern for all application consumers and consists of a hostname and a domain:
+
+`https://<hostname>.<domain>`
+
+For each consumer, you need a route that maps that URL to the approuter of your multitenant application. The routes are created inside the Cloud Foundry space where the multitenant application is deployed.
+
+You can either create the required routes upon deployment of the application or create them manually after deployment. If you create a route manually, you also need to map it to the approuter application manually.
+
+During the development phase, we recommend that you use one of the shared domains available on SAP Business Technology Plattform for your application. You will need to create a separate route for each test consumer in the global account for development. During the production phase, we recommend that you use a custom domain for your application. In this case, it makes sense to define a wildcard route that works for all hostnames. The Maintain Solution app does this automatically.
+
+For more information, see [Approuter Application](https://help.sap.com/docs/btp/sap-business-technology-platform/approuter-application?state=DRAFT).
+
+> ### Note:  
+> The desired route is not reserved. That means that in case of a shared domain such as `cfapps.eu10.hana.ondemand.com` the subdomains are not reserved and could be used by other SAP Business Technology Platform customers. This is why wildcard routes shall not be used for shared domains.
 
 <a name="loio1782f253e102484dac378887b3d6d769"/>
 
@@ -34,7 +72,17 @@ After the multitenant application has been deployed for production purposes, the
 
 The sizing of the SaaS application determines the scope and metric of your offering.
 
-For multitenancy offerings, there’s no sizing/quota per customer. You must decide on an overall sizing depending on the expected load in a region. Sizing can be configured via parameters in the ABAP Solution service, that is managing systems and tenants for systems used to provide the SaaS application.
+Before deploying your application, you must decide on a tenant limit. Once that number of consumer tenants is reached in a system, a new system will be provisioned for the next consumer. If you choose a limit of 1, you will be defining a single tenant offering, with one consumer per system.
+
+> ### Tip:  
+> For in-depth information about multitenancy, check out [this section](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts?version=Cloud#multitenancy).
+
+Additionally, you need to define the sizing of each provisioned ABAP system. The sizing is defined by the number of ABAP compute units \(runtime\) and HANA compute units \(persistence\) each system is assigned.
+
+For multitenancy offerings, there’s no sizing/quota per customer. You must decide on an overall sizing depending on the expected load in a region.
+
+> ### Note:  
+> If the quota for a system is exceeded, you can request a resizing of the ABAP runtime or persistency depending on the needs of the SaaS application.
 
 <a name="loio6cb128101a6f40f3a8f234a1d9bb8b01"/>
 
@@ -120,60 +168,22 @@ See [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
 
 **Implement the Multitenant Application**
 
-As a DevOps engineer, you can implement the multitenant application using SAP Business Application Studio in the development subaccount.
+As a DevOps engineer, you can implement the multitenant application using the Maintain Solution app in the Landscape Portal. Create a new solution using your add-on and initial add-on verison. Create two deployment configurations, one pointing to the *05 Provide* subaccount of the global account for *development* and one pointing to the*05 Provide* subaccount of the global account for *production*. See [Create Process](https://help.sap.com/docs/btp/sap-business-technology-platform/solutions?version=Cloud).
 
-For more information on how to create multitenant-enabled applications in the ABAP environment, see [Developing Multitenant Applications in the ABAP Environment](developing-multitenant-applications-in-the-abap-environment-195031f.md).
-
-> ### Recommendation:  
-> We recommend following the MTA-based implementation approach. See [MTA-Based Approach \(Recommended\)](mta-based-approach-recommended-ca0cc10.md).
-
-1.  You start off by defining your ABAP solution, for example, the parameters explained in the previous chapter need to be configured. See [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
-
-    > ### gCTS Delivery:  
-    > When defining your ABAP solution, you can ignore the add-on product name in the service configuration. The value for `addon_product_name` has to be empty so that ABAP systems without an add-on \(abap/standard\) are provisioned for the solution.
-    > 
-    > See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
-
-2.  In the configuration for the XSUAA instance, you specify the functional authorization scopes for the application. See [Create an XSUAA Instance](create-an-xsuaa-instance-2ce1a96.md).
-
-3.  A tenant-aware approuter application is developed that is used to authenticate business users of the application at runtime. See [Develop the Approuter Application](develop-the-approuter-application-44dbd0a.md).
-
-    Depending on the purpose of the approuter application, whether used for development or production, it needs to be configured differently. See [Configure the Approuter Application](configure-the-approuter-application-3725815.md)
-
-4.  To make a multitenant application available for subscription to SaaS consumer tenants, you have to register the application in the Cloud Foundry environment via the SaaS Provisioning service \(saas-registry\). See [Register the Multitenant Application to the SaaS Provisioning Service](register-the-multitenant-application-to-the-saas-provisioning-service-2cd8913.md).
-
-5.  Bind your approuter application to the xsuaa service instance, which acts as an OAuth 2.0 client to your application, and to the ABAP Solution service instance, which represents your ABAP solution. See [Bind the approuter Application to the xsuaa and the ABAP Solution Service Instance](bind-the-approuter-application-to-the-xsuaa-and-the-abap-solution-service-instance-04b9258.md).
-
+You can also configure the multitenant application manually. In this case, you can use MTA extension descriptors to configure the required values for deployment to different targets. See [MTA-Based Approach](https://help.sap.com/docs/btp/sap-business-technology-platform/mta-based-approach-recommended?version=Cloud).
 
 > ### Note:  
 > If you need support or experience issues during implementation of the multitenant application, see [Troubleshooting](troubleshooting-257ba65.md).
 
-**Deploy Multitenant Application**
+**Deploy the Multitenant Application for Test Purposes**
 
 After completing development, you, as a DevOps engineer, must build and deploy the resulting multitenant application for testing purposes to the *Provide* space in the *05 Provide* subaccount in your global account for development.
 
-By using MTA extension descriptors, you can configure the required values for deployment in the development phase. See [Development Descriptor](development-descriptor-767fb00.md) and [Using MTA Extension Descriptors](using-mta-extension-descriptors-383f3a3.md).
-
-> ### gCTS Delivery:  
-> If you use gCTS instead of add-ons for delivering software components to production systems, the value for the add-on product name inside the MTA extension descriptor file has to be empty.
-> 
-> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
-
-**Create Cloud Controller Destination**
-
-As an operator, you need to create a destination for the Cloud Foundry Cloud Controller access in the *05 Provide* subaccount in the global accounts for development and production. See [Create a Destination for the Cloud Foundry Cloud Controller Access](create-a-destination-for-the-cloud-foundry-cloud-controller-access-35b5acb.md). The Cloud Foundry Cloud Controller API maintains records of orgs, spaces, services, service instances, user roles, and more and is used to create new ABAP instances in the *Provide* space when necessary.
-
-> ### Recommendation:  
-> We recommend using a technical Cloud Foundry platform user for Cloud Controller access. See [Create SAP User Accounts](../50-administration-and-ops/create-sap-user-accounts-ebe42f6.md).
+You can deploy your configuration from the Maintain Solution app using the Deploy action. See [Deployment Process](https://help.sap.com/docs/btp/sap-business-technology-platform/credentials?version=Cloud).
 
 **Test Multitenant Application Deployed for Development Purposes**
 
-> ### Note:  
-> Using a multitenant application deployed during the development phase, you need to add a new tenant-specific route pointing to the approuter application.
-> 
-> You have to create a route for the consumer subaccount that maps to the approuter in the multitenant application. New routes are created inside the space where the multitenant application is deployed. For the creation of a new route, you have to specify the domain and hostname. In the development phase, the hostname combines the subdomain of the consumer \(sub-\)account, using a "`-`" separator, and the app name of the SaaS solution. Once the route is created, you have to map it to the approuter application.
-> 
-> However, there is a constraint while testing the multitenant application in the development phase: The hostname of a route can only have 63 characters \(=length subdomain of consumer subaccount\). If a suffix is used in the `TENANT_HOST_PATTERN`, the consumer-specific route might not be valid \(hostname \> 63 characters\). Since "`-`" is used as separator, only 63 characters minus the number of characters used for the app name of the solution can be used for subdomains.
+If you want to configure your application manually, build and deploy your project using the corresponding command line tools. See [Multitenant Application](https://help.sap.com/docs/btp/sap-business-technology-platform/multitenant-application?version=Cloud).
 
 As a DevOps engineer test the multitenant application deployed to the *05 Provide* subaccount in the global account for development by subscribing from a consumer subaccount created in the global account for development. See [**Subscribe to Multitenant Applications Using the Cockpit**](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/7a3e39622be14413b2a4df7c02ca1170.html).
 
@@ -181,31 +191,11 @@ Once the subscription is successful, you may also want to test the initial user 
 
 **Deploy Multitenant Application for Production Purposes**
 
-> ### Note:  
-> During the production phase, you should use a route with wildcard hostname combined with a custom domain so that you don't have to create them manually in the space where the multitenant application is deployed. See [Configure the Approuter Application](configure-the-approuter-application-3725815.md) and [Create Routes](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/9fddeea396b34b528bc8d286f3d5d9cf.html?version=Cloud). This guarantess the following:
-> 
-> -   All possible subdomains can be replaced in tenant host pattern while resulting in a valid hostname/route since separator "`.`" is used instead of "`-`".
-> 
-> -   The desired route is not reserved. That means, in case of a shared domain, such as cfapps.eu10.hana.ondemand.com, the subdomains are not reserved and could be used by other SAP BTP platform customers.
+After completing development, as a DevOps engineer you must build and deploy the multitenant application for production purposes to the *Provide* space in the *05 Provide* subaccount in the global account for production. Once it is successfully deployed, subscription to your solution will be possible.
 
-After completing development, as a DevOps engineer you must build and deploy the multitenant application for production purposes to the *Provide* space in the *05 Provide* subaccount in the global account for production. See [Configure the Approuter Application](configure-the-approuter-application-3725815.md).
+You can deploy your configuration from the Maintain Solution app using the *Deploy* action. See [Deployment Process](https://help.sap.com/docs/btp/sap-business-technology-platform/credentials?version=Cloud).
 
-By using MTA extension descriptors, you can configure the required values for deployment in the production phase. See [Development Descriptor](development-descriptor-767fb00.md) and [Using MTA Extension Descriptors](using-mta-extension-descriptors-383f3a3.md).
-
-<a name="loio195a685a71f84953813e7b3bd255e849"/>
-
-<!-- loio195a685a71f84953813e7b3bd255e849 -->
-
-### Access to Landscape Portal
-
-The *Landscape Portal* acts as a central tool that allows you to perform lifecycle management operations, such as provisioning new consumers tenants, users, and more. See [Landscape Portal](landscape-portal-5eb70fb.md).
-
-As an operator, subscribe to the *Landscape Portal* application in the *05 Provide* subaccount in both the global account for development and global account for production. The `LandscapePortalAdminRoleCollection` needs to be assigned to the users in the default identity provider of the subaccount that you want to provide access to the *Landscape Portal* app. See [Accessing the Landscape Portal](accessing-the-landscape-portal-2e1e393.md).
-
-> ### gCTS Delivery:  
-> In the Landscape Portal, you can access the provider system and choose the provider tenant \(client 100\). Via the provider tenant, you get access to Fiori Apps, for example the *Manage Software Components* app, which is used for importing software components via gCTS.
-> 
-> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+If you want to configure your application manually, build and deploy your project using the corresponding command line tools. See [Multitenant Application](https://help.sap.com/docs/btp/sap-business-technology-platform/multitenant-application?version=Cloud).
 
 <a name="loio57c19c7c4dfa4c3cbb846c1ac57e2095"/>
 

@@ -569,7 +569,7 @@ DevOps engineer
 <tr>
 <td valign="top">
 
-Access the Landscape Portal. See [Access to Landscape Portal](order-and-provide-975bd3e.md#loio195a685a71f84953813e7b3bd255e849).
+Access the Landscape Portal. See [Access to Landscape Portal](access-to-landscape-portal-195a685.md).
 
 
 

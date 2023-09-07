@@ -214,7 +214,7 @@ None.
 
 We recommend that you cache access tokens in your application as long as they're valid, instead of always getting a new token. If you constantly get a new token, you risk running up against the rate limits in the service and downtime for your application.
 
-For more information, see .[Rate Limiting](../60-security/rate-limiting-d203e2d.md)
+For more information, see [Rate Limiting](../60-security/rate-limiting-d203e2d.md).
 
 Having a local cache also improves the performance of your applications.
 

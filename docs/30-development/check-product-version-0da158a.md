@@ -18,7 +18,7 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
 
 ## Working in the Check Product Version app
 
-1.  Log into the *Landscape Portal* from your provider subaccount.
+1.  Log into the *Landscape Portal*.
 
 2.  In the *Product* section, click on the *Check Product Version* tile to open the app.
 

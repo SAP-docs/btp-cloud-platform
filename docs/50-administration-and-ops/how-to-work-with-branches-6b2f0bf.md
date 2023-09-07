@@ -22,7 +22,7 @@ Find out how to create, check out and switch between different branches:
 
 2.  Scroll down to *Branching* to see a list of all available branches for your component. The table shows you which branch the different branches originally derived from and which branch is currently checked out. The first branch is always named 'main'. The main branch will be created directly with the creation of the software component. If a branch was successfully created, it should directly be visible on all other system instances.
 
-    The column *Delta Available* shows information about the currently active/checked-out branch. It indicates if the commit id which is currently imported in the local system instance is also the last remote commit. If that is the case, the column has the value *Synchronized \(no delta\)*. If the remote repository has a new commit available that is not yet pulled, it has the value *Yes \(Not Synced\)*. This information is only valid for the currently active branch.
+    The column *Delta* shows information about the currently active/checked-out branch. It indicates if the commit id which is currently imported in the local system instance is also the last remote commit. If that is the case, the column has the value *Synchronized \(no delta\)*. If the remote repository has a new commit available that is not yet pulled, it has the value *Yes \(Not Synced\)*. This information is only valid for the currently active branch.
 
 3.  Note that you need to clone the repository once before you can check out a branch. Clone the repository by clicking *Clone*.
 

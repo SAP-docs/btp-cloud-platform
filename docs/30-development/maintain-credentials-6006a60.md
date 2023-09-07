@@ -4,7 +4,7 @@
 
 Before you configure and deploy your SaaS solution, you need to maintain the necessary credentials for the user that will be used in the deployment. You have already created a technical user that is available in SAP ID service, and have assigned it the Space Developer role in the Cloud Foundry space that you want to deploy your SaaS solution to. Now you need to add this user in the *Maintain Solution* app.
 
-1.  Log in to the *Landscape Portal* from your provider subaccount.
+1.  Log in to the *Landscape Portal*.
 
 2.  Under *Solution*, click on the *Maintain Solution* tile to open the app.
 

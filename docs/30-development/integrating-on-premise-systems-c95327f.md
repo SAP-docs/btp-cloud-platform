@@ -36,7 +36,7 @@ After you have completed the setup, a connection from the ABAP environment tenan
 
 ## Next Steps
 
-To set up your actual data connections between your ABAP environment and on-premise systems, you must configure the required destinations. See [Setting Up Destinations to Enable On-Premise Connectivity](setting-up-destinations-to-enable-on-premise-connectivity-9b6510e.md).
+To set up your actual data connections between your ABAP environment and on-premise systems, you must configure the required destinations. See [Enable On-Premise Connectivity](enable-on-premise-connectivity-9b6510e.md).
 
 
 

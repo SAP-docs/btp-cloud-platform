@@ -799,7 +799,11 @@ Cause
 </td>
 <td valign="top">
 
-The application name provided in URL is not correct. Application names are stored in HTML5 application repository without using full stops as separators in the URL. If *manifest.json app.id* equals *country.list*, then the application name is *countrylist* and the same application name should be used in URL.
+The application name provided in URL is not correct or the request URL doesn’t provide the application key:
+
+Application names are stored in HTML5 application repository without using full stops as separators in the URL. If *manifest.json app.id* equals *country.list*, then the application name is *countrylist* and the same application name should be used in URL.
+
+A request to the application router must provide the application key in the URL because the application router uses the application key to fetch the xs-app.json file of the HTML5 application from the HTML5 Application Repository. The application key can consist of the business service prefix, application name, and application version. \(Only the application name is mandatory.\).
 
 
 
@@ -815,7 +819,14 @@ Solution
 </td>
 <td valign="top">
 
-Check the application name.
+First check the application name. For the request URL, use the application name without full stops as separators.
+
+If the application name is correct, check if the request URL to the application router contains the application key. If it doesn’t contain the application key, check how you configured the backend application data retrieval in your HTML5 application:
+
+-   If you use SAP Fiori tools such as BAS, in the `manifest.json` file of the application, check the `dataSources.uri` property. The value for `dataSources.uri` must not start with a slash\("`/`"\). For example, the value `northwind/V2/ Northwind.svc` this is correct, but <code><b>/</b>northwind/V2/ Northwind.svc/</code> is wrong because it would create an absolute path from which the browser cannot concatenate the application key for the request. If there is a slash, remove it.
+
+-   • If you use a JQueryAjax call for the request, make sure that the URL that is provided to the JQueryAjax call is a relative path and does not start with a slash \("`/`"\).
+
 
 
 
@@ -999,7 +1010,7 @@ Issue
 </td>
 <td valign="top">
 
-Serving content from the application router failed with an internal server error. In the approuter application log, an error: "Destination <destinationName\> is not defined as a dynamic destination in destination service, configure additional property HTML5.DynamicDestination true" appears.
+Serving content from the application router failed with an internal server error. In the application router application log, an error: "Destination <destinationName\> is not defined as a dynamic destination in destination service, configure additional property HTML5.DynamicDestination true" appears.
 
 
 

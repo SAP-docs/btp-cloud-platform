@@ -115,7 +115,7 @@ Starts the application router with the given options.
     -   `port` - a TCP port the application router will listen to \(string, optional\)
     -   `workingDir` - the working directory for the application router, should contain the `xs-app.json` file \(string, optional\)
     -   `extensions` - an array of extensions, each one is an object as defined in Application Router Extensions \(optional\)
-    -   `xsappContext` - An object representing the content which is usually put in `xs-app.json` file. If this property is present it will take precedence over the content of `xs-app.json`.
+    -   `xsappConfig` - An object representing the content which is usually put in `xs-app.json` file. If this property is present it will take precedence over the content of `xs-app.json`.
 
 -   `callback` - optional function with signature `callback(err)`. It is invoked when the application router has started or an error has occurred. If not provided and an error occurs \(for example the port is busy\), the application will abort.
 
