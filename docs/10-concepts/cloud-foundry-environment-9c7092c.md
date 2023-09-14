@@ -124,7 +124,7 @@ The following technical configurations are specific to SAP BTP and differ from t
 
     The number of running threads per application instance is limited to 10 420. Reaching this limit can cause performance issues.
 
--   When pushing or scaling your application, you can define a `disk_quota` that can be up to 4 GB. For more information, see [https://docs.cloudfoundry.org/devguide/deploy-apps/manifest-attributes.html\#disk-quota](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest-attributes.html#disk-quota).
+-   When pushing or scaling your application, you can define a `disk_quota` that can be up to 10 GB. For more information, see [https://docs.cloudfoundry.org/devguide/deploy-apps/manifest-attributes.html\#disk-quota](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest-attributes.html#disk-quota).
 
 -   When deploying applications on SAP BTP, the maximum application package size is 1.5 GB. If your application is larger than that, the deployment fails. For more information, see [https://docs.cloudfoundry.org/devguide/deploy-apps/large-app-deploy.html](https://docs.cloudfoundry.org/devguide/deploy-apps/large-app-deploy.html)
 
