@@ -15,7 +15,7 @@ Since identity providers provide the users or user groups, you make then sure th
 
 ## Authentication
 
-Identity providers provide the business users. The default platform identity provider SAP BTP is SAP ID service. If you use external identity providers, you must configure the trust relationship using the SAP BTP cockpit. The respective subaccount must have a trust relationship with the identity provider. Using the SAP BTP cockpit, you, as an administrator of the Cloud Foundry environment, establish this trust relationship.
+Identity providers provide the business users. The default platform identity provider for SAP BTP is SAP ID service. If you use external identity providers, you must configure the trust relationship using the SAP BTP cockpit. The respective subaccount must have a trust relationship with the identity provider. Using the SAP BTP cockpit, you, as an administrator of the Cloud Foundry environment, establish this trust relationship.
 
 
 

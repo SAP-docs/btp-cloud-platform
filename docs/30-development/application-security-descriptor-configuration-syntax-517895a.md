@@ -202,7 +202,7 @@ A tenant has multiple subscriptions to applications. For each subscription to an
 
 ## scopes
 
-In the application security file \(`xs-security.json`\), the `scopes` property defines an array of one or more security scopes that apply for an application. You can define multiple `scopes`; each scope has a name and a short description. The list of scopes defined in the `xs-security.json`**local** and **foreign** scopes; that is, the permissions the application requires to be able to respond to all requests. file is used to authorize the OAuth client of the application with the correct set of
+In the application security file \(`xs-security.json`\), the `scopes` property defines an array of one or more security scopes that apply for an application. You can define multiple `scopes`; each scope has a name and a short description. The list of scopes defined in the `xs-security.json` file is used to authorize the OAuth client of the application with the correct set of **local** and **foreign** scopes; that is, the permissions the application requires to be able to respond to all requests.
 
 ```json
 "scopes": [ 
@@ -731,6 +731,9 @@ Example
 <td valign="top">
 
 The name of the role collection to build
+
+> ### Caution:  
+> If you change the name of a role collection and update the service instance, you delete the role collection with the old name and create a role collection with the new name. This means that the newly created role collection doesn't have any user assignments.
 
 
 

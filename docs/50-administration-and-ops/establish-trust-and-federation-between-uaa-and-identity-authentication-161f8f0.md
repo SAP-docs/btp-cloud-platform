@@ -78,6 +78,9 @@ You've configured trust in your tenant of the Identity Authentication service, w
 > ### Tip:  
 > To troubleshoot problems with tokens from Identity Authentication, see [Logging OpenID Connect Tokens](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/b6c42b53518b46de8b4dffd8c4c52ed7.html?version=Cloud) in the documentation for Identity Authentication.
 
+> ### Restriction:  
+> If the OIDC issuer is changed in the trust configuration, the trust breaks. To adapt the trust configuration on SAP BTP side, use the `btp update security/trust` command of the SAP BTP command line interface together with the `--refresh` parameter. This parameter refreshes the trust configuration to reflect changes in the Identity Authentication tenant, for example the issuer value. For more information, see [Managing Trust from SAP BTP to an Identity Authentication Tenant](managing-trust-from-sap-btp-to-an-identity-authentication-tenant-6140107.md).
+
 
 
 <a name="loio161f8f0cfac64c4fa2d973bc5f08a894__postreq_z32_k52_tmb"/>

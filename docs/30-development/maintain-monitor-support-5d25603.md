@@ -234,7 +234,7 @@ As an add-on administrator, you can provide different kinds of updates. The deci
 > ### Note:  
 > For a new patch version, you can use a permanent add-on assembly system to save build time. See [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
 
-Patch versions are used to deliver unplanned and most likely urgent corrections that are required to keep the application up and running. These changes could be required for a service consumption model of an OData Client Proxy in case of changes to the structure of the underlying OData service. See [OData Client Proxy Configurations](odata-client-proxy-configurations-0d92f49.md).
+Patch versions are used to deliver unplanned and most likely urgent corrections that are required to keep the application up and running. These changes could be required for a service consumption model of an OData Client Proxy in case of changes to the structure of the underlying OData service. See [OData Client Proxies](odata-client-proxies-0d92f49.md).
 
 -   **Develop**
     -   Import the maintenance branch in the ABAP correction system
@@ -523,12 +523,12 @@ If a customer faces an issue, you have to provide troubleshooting based on a rep
 
 The ABAP system can be identified in the *Systems Overview* in the Landscape Portal application. See [View Tenants and Systems](view-tenants-and-systems-99c975e.md).
 
-The system ID is defined in the ABAP Solution service via configuration parameter `sap_system_name`. If there are multiple solutions, the system description identifies the corresponding ABAP system as it always follows the same pattern: *ABAP Solution System for <parameter "name" in ABAP Solution service\>*. See [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
+The system ID is defined in the ABAP Solution service via configuration parameter `sap_system_name`. If there are multiple solutions, the system description identifies the corresponding ABAP system as it always follows the same pattern: *ABAP Solution System for <parameter "name" in ABAP Solution service\>*. See [ABAP Solution Service](abap-solution-service-1697387.md).
 
-Based on the SAP Fiori launchpad URL of a consumer tenant, the consumer subaccount subdomain, that uniquely identifies the tenant, can be derived. The pattern to extract the subdomain is defined in `TENANT_HOST_PATTERN`. This is defined as environment variable of the deployed approuter, which is part of the multitenant application. See [Configure the Approuter Application](configure-the-approuter-application-3725815.md).
+Based on the SAP Fiori launchpad URL of a consumer tenant, the consumer subaccount subdomain, that uniquely identifies the tenant, can be derived. The pattern to extract the subdomain is defined in `TENANT_HOST_PATTERN`. This is defined as environment variable of the deployed approuter, which is part of the multitenant application. See [Approuter Application](approuter-application-44dbd0a.md).
 
 > ### Example:  
-> Identifying the subdomain with a multitenant application created based on the [MTA-Based Approach \(Recommended\)](mta-based-approach-recommended-ca0cc10.md).
+> Identifying the subdomain with a multitenant application created based on the MTA-based approach, see [Developing Multitenant Applications in the ABAP Environment](developing-multitenant-applications-in-the-abap-environment-195031f.md).
 > 
 > -   `TENANT_HOST_PATTERN = (.*)${route-prefix}.${app-domain}`
 > 

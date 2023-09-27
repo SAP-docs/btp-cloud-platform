@@ -18,7 +18,7 @@ The**ABAP system** used to serve the application to the consumers is provisioned
 
 The **Landscape Portal** functions as a central plane for tenant management that allows providers to perform lifecycle management operations such as add-on updates, creating test tenants or support users and more. For more information on how to access and use the Landscape Portal, see [Landscape Portal](landscape-portal-5eb70fb.md).
 
-The **ASP\_CC Destination** is a destination created on subaccount-level in the provider subaccounts. It points to the Cloud Foundry Cloud Controller API and is utilized by the multitenant application to create the ABAP system in the Cloud Foundry space/org where the multitenant application is deployed. See [Create a Destination for the Cloud Foundry Cloud Controller Access](create-a-destination-for-the-cloud-foundry-cloud-controller-access-35b5acb.md).
+The **ASP\_CC Destination** is a destination created on subaccount-level in the provider subaccounts. It points to the Cloud Foundry Cloud Controller API and is utilized by the multitenant application to create the ABAP system in the Cloud Foundry space/org where the multitenant application is deployed. See [Cloud Controller Access Destination](cloud-controller-access-destination-35b5acb.md).
 
 > ### Note:  
 > When building tenant-aware applications on top of the ABAP environment, providers need to follow specific ABAP implementation rules to ensure a content separation between different consumers. To view these guidelines, see [Multitenancy Development Guideline](multitenancy-development-guideline-9d994c8.md).

@@ -35,7 +35,7 @@ You can currently use the *Landscape Portal* to do the following:
 -   monitor your operations in the Landscape Portal
 
 > ### Note:  
-> Keep in mind that a consumer subscription-based multitenancy is only possible in those systems in which you provide your software as a service \(SaaS\) solution to consumers, i.e. your production and test systems that are created via the ABAP Solution service on first subscription. It is not available in development systems. However, in development systems, in addition to your development tenant, you can create further test tenants within the *Landscape Portal* if required.
+> Keep in mind that a consumer subscription-based multitenancy is only possible in those systems in which you provide your software as a service \(SaaS\) solution to consumers, i.e. your production and test systems that are created via the ABAP Solution service on first subscription. It is not available in development systems. However, in development systems, in addition to your development tenant, you can create further test tenants within the *Landscape Portal* if required, see [Manage Test Tenants](manage-test-tenants-dd7d8e8.md).
 
 **Related Information**  
 

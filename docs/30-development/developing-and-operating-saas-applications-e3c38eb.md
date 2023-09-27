@@ -17,7 +17,7 @@ The ABAP environment allows you to leverage existing ABAP know-how to create cus
 
 Following the add-on build process, you can develop a multitenant application to share the add-on with multiple consumers \(tenants\) simultaneously. See [Developing Multitenant Applications in the ABAP Environment](developing-multitenant-applications-in-the-abap-environment-195031f.md). The application is registered with the Software-as-a-Service provisioning service \(saas-registry\) to make the application available for subscription to consumers. See [Register the Multitenant Application to the SaaS Provisioning Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/3971151ba22e4faa9b245943feecea54.html).
 
-In this context, the [ABAP Solution Service](abap-solution-service-4370115.md) accounts for the provisioning of new ABAP service instances, including the installation of the add-on, and the creation of tenants whenever required for a new consumer subscription.
+In this context, the [ABAP Solution Service](abap-solution-service-1697387.md) accounts for the provisioning of new ABAP service instances, including the installation of the add-on, and the creation of tenants whenever required for a new consumer subscription.
 
 The way ABAP service instances and tenants are used for consumer subscription applications can be configured as follows:
 
@@ -48,9 +48,6 @@ Chapter [Maintain, Monitor, Support](maintain-monitor-support-5d25603.md#loio5d2
 
 Chapter [Dismantle](dismantle-35a5882.md) provides information about consumer offboarding, in particular about deleting and restoring tenants.
 
-> ### Tip:  
-> To learn how to enable your SaaS application for customers, refer to the detailed step-by-step description in [Enabling SaaS Applications for Customers](enabling-saas-applications-for-customers-72b0b11.md#loio72b0b1130ee243179b0905ea2cd5adb1).
-
 > ### Note:  
 > If you decide to use gCTS transport instead of add-on delivery, please refer to the gCTS Delivery boxes across the guide. See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
 
@@ -59,5 +56,5 @@ Chapter [Dismantle](dismantle-35a5882.md) provides information about consumer of
 **Related Information**  
 
 
-[Enabling SaaS Applications for Customers](enabling-saas-applications-for-customers-72b0b11.md#loio72b0b1130ee243179b0905ea2cd5adb1 "You can provide an application to multiple customers as a SaaS solution in the ABAP environment. This process comprises the following steps: the build of an add-on version, its deployment, its ordering and provisioning with a multitenant application, and a possible updating process. The following concrete example guides you step by step through this process.")
+
 

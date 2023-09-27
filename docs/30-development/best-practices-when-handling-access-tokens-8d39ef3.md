@@ -6,6 +6,8 @@ Calls to SAP Authorization and Trust Management service can fail for many reason
 
 How your application handles access tokens has an impact on its resiliency. Cache tokens to avoid running into the rate limiting restrictions of the SAP Authorization and Trust Management service. Retry with cached tokens instead of always getting a new one.
 
+For recommended configuration settings, see [Security Considerations for the SAP Authorization and Trust Management Service](../60-security/security-considerations-for-the-sap-authorization-and-trust-management-service-f117cab.md#loiof117cab6b92d438cb2a0b5204713994b).
+
 
 
 <a name="loio8d39ef36427f489aa50c8e4e12c336d0__section_izc_qzn_fyb"/>

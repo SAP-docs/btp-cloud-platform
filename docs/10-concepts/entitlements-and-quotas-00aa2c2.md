@@ -42,6 +42,8 @@ There are also service plans where the quota is shown as either "limited" or "un
 
 -   **Unlimited:** Service plans specified as "unlimited" have no restriction on the quota that can be allocated per subaccount. This is typical of most services that are eligible to global accounts with a consumption-based commercial model agreement.
 
+Note that the terms "limited" and "unlimited" refer to quota assignments, and not subaccount assignments.
+
 For more information, see [Managing Entitlements and Quotas Using the Cockpit](../50-administration-and-ops/managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
 
 
@@ -64,14 +66,14 @@ For more information, see [Configure Entitlements and Quotas for Subaccounts](..
 
 ## Distribution and Usage of Entitlements and Quotas \[Feature Set B\]
 
-Entitlements and quotas are purchased and managed at global account level, from where they’re distributed to directories and/or subaccounts, which consume them.
+Entitlements and quotas are purchased and managed at global account level, from where they’re distributed to directories and/or subaccounts, which consume them. Assigning entitlements to directories is optional.
+
+> ### Tip:  
+> By default, directories are not enabled to manage entitlements. This feature needs to be enabled per directory by the global account administrator.
 
 When assigning entitlements and quotas to directories, you also have the option to automatically assign a set amount of quota to each new subaccount added to the directory. This option doesn’t apply to subaccounts that are already in the directory when you select this option. The quota you assigned to the directory is then gradually distributed to all subaccounts that you add to that directory, until it runs out. Once the directory quota runs out, if you add a new subaccount to that directory it won't get any quota automatically anymore.
 
-> ### Tip:  
-> Not all directories manage their own entitlements. This feature needs to be enabled per directory by the directory administrator.
-
-Since directories are only a way of grouping subaccounts, you can’t consume a service at directory level. However, when you assign entitlements and quotas from the global account to a directory, the quota you assigned is shown as used, even if there are no subaccounts in that directory to consume the quota. You can think of it as a way to "reserve" quota and make sure it's not assigned to other subaccounts or directories.
+Since directories are only a way of grouping subaccounts, you can't consume a service at directory level. However, when you assign entitlements and quotas from the global account to a directory, the quota you assigned is shown as used, even if there are no subaccounts in that directory to consume the quota. You can think of it as a way to "reserve" quota and make sure it's not assigned to other subaccounts or directories.
 
 When you remove quotas or entitlements from a directory or subaccount, they become available again at global account level and can be assigned to other directories or subaccounts; unless the quota is reserved for a given directory then the freed quota remains available only to that directory and its subaccounts.
 

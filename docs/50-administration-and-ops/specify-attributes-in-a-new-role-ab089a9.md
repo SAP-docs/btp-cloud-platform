@@ -132,7 +132,7 @@ You have maintained the attributes of the users in your identity provider if you
 **Related Information**  
 
 
-[Subscribe to Multitenant Applications Using the Cockpit](subscribe-to-multitenant-applications-using-the-cockpit-7a3e396.md "Subscribe to multitenant applications from the Subscriptions page in the SAP BTP cockpit.")
+[Subscribe to Multitenant Applications Using the Cockpit](subscribe-to-multitenant-applications-using-the-cockpit-7a3e396.md "Subscribe to multitenant applications from the Service Marketplace page in the SAP BTP cockpit.")
 
 [Maintain Role Collections](maintain-role-collections-d5f1612.md "Role collections group together different roles that can be applied to the application users.")
 

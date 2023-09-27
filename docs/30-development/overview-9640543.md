@@ -553,8 +553,6 @@ Implement a multitenant application and deploy it to the provider subaccount in 
 
 Create the multitenant application with SaaS registry, XSUAA, and ABAP Solution Provider. Deploy to the provider subaccount with parameters used for development phase.
 
-See [Development Descriptor](development-descriptor-767fb00.md).
-
 
 
 </td>
@@ -624,7 +622,7 @@ Deploy the multitenant application to the provider subaccount in the global acco
 </td>
 <td valign="top">
 
-Deploy to the provider subaccount with parameters used for production phase. See [Production Descriptor](production-descriptor-38ff6d0.md).
+Deploy to the provider subaccount with parameters used for production phase.
 
 
 

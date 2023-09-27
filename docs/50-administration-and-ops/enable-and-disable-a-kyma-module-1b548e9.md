@@ -7,7 +7,7 @@ If you want to use a Kyma module, you must enable it. If you don't need it anymo
 **Related Information**  
 
 
-[Kyma's Modular Approach](../10-concepts/kyma-s-modular-approach-95a4101.md "With Kyma's modular approach, you can install just the modules you need, giving you more flexibility and reducing the footprint of your Kyma cluster.")
+[Kyma's Modular Approach](../10-concepts/kyma-s-modular-approach-95a4101.md "With Kyma's modular approach, you can install only the modules you need, instead of a predefined set of components.")
 
 [Kyma Release Channels](../10-concepts/kyma-s-modular-approach-95a4101.md#loio95a410144d7c449687c957da0cc43a0d__section_kyma_release_channels)
 
@@ -43,20 +43,18 @@ If you want to enable additional modules, follow this procedure:
 
 3.  In the *Kyma* section, choose the Kyma resource.
 
-4.  Select your Kyma instance \(`default-kyma`\) and click *Edit*.
+4.  Select your Kyma instance \(`default`\) and click *Edit*.
 
-5.  Change the release channel for all your modules at the Kyma custom resource \(CR\) level, or keep the default one.
+5.  In *Kyma Default Channel*, you can change the release channel for all your modules at the Kyma custom resource \(CR\) level, or keep the default one.
 
     > ### Note:  
     > By default, Kyma modules are part of the regular channel. It allows for delivering the modules at a slower, predictable rate for production environments with minimal disturbance. You can change to the fast channel for a more fluid release process that offers the latest technical updates and features at a quicker pace. For more information about the release channels, see [Kyma Release Channels](https://help.sap.com/docs/btp/sap-business-technology-platform-internal/kyma-s-modular-approach?locale=en-US&state=DRAFT&version=Internal#kyma-release-channels).
 
-6.  In the *Modules* section, click *Add*.
+6.  In the *Modules* section, check the modules you want to enable.
 
-7.  Choose the name of your desired module.
+7.  **Optional:** At the module level, you can overwrite the release channel for the current module by choosing the available channel.
 
-8.  **Optional:** At the module level, you can overwrite the release channel for the current module by choosing the available channel.
-
-9.  Select *Update*.
+8.  Select *Update*.
 
 
 
@@ -75,16 +73,16 @@ This process may take a while, depending on the number of modules. The operation
 
 -   To configure your module, use the module CR that you can find in the module repository.
 
--   To disable a module, edit your Kyma instance and select the trash icon next to your module.
+-   To disable a module, edit your Kyma instance, uncheck the modules you want to disable, and click *Update*.
 
 
 <a name="loio88a8e99e4be945398dae2baa69f8ad30"/>
 
 <!-- loio88a8e99e4be945398dae2baa69f8ad30 -->
 
-## Enable and Disable a Kyma Module Using Kyma CLI
+## Enable and Disable a Kyma Module Using Command Line
 
-Use [Kyma CLI](https://github.com/kyma-project/cli) to enable or disable a Kyma module in the release channel of your choice.
+Use the command line to enable or disable a Kyma module in the release channel of your choice.
 
 
 
@@ -92,7 +90,16 @@ Use [Kyma CLI](https://github.com/kyma-project/cli) to enable or disable a Kyma 
 
 ## Context
 
-Enable or disable a module using [Kyma CLI](https://github.com/kyma-project/cli):
+Enable or disable a module using kubectl or [Kyma CLI](https://github.com/kyma-project/cli).
+
+-   To enable a module using kubectl, run the following command, providing the name of your module:
+
+    ```
+    kubectl patch kyma default -n kyma-system --type='json' -p="[{\"op\": \"add\", \"path\": \"/spec/modules\", \"value\": [{\"name\": \"{NAME_OF_YOUR_MODULE}\" }] }]"
+    ```
+
+-   To enable a module using Kyma CLI, perform the following steps:
+
 
 
 
@@ -135,6 +142,6 @@ Enable or disable a module using [Kyma CLI](https://github.com/kyma-project/cli)
 
 -   To configure your module, use the module CR that you can find in the module repository.
 
--   To disable a module, run: `kyma alpha disable module {MODULE_NAME}` 
+-   To disable a module using Kyma CLI, run: `kyma alpha disable module {MODULE_NAME}` 
 
 

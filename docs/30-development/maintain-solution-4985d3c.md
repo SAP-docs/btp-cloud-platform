@@ -7,7 +7,7 @@ The purpose of the Maintain Solution app is to comfortably guide you, as provide
 At the end of this process, your consumers will be able to subscribe to your SaaS solution.
 
 > ### Note:  
-> Specific implementations for the approuter are not supported in the Maintain Solution app. Providers that need such enhancements need to configure and deploy the solution manually. See [Configure the Approuter Application](configure-the-approuter-application-3725815.md).
+> Specific implementations for the approuter are not supported in the Maintain Solution app. Providers that need such enhancements need to configure and deploy the solution manually. See [Approuter Application](approuter-application-44dbd0a.md).
 
 ![](images/MSA_2cc7866.png)
 

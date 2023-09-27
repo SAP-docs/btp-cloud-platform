@@ -19,6 +19,9 @@ The *Manage System Hibernation* app allows you to put systems into hibernation \
 
 In case you have a consumption-based contract, stopping a system allows you to reduce resource usage and thus operating costs. For more information, see [Blog Post: SAP BTP ABAP Environment – Manage System Hibernation](https://blogs.sap.com/2023/07/26/sap-btp-abap-environment-manage-system-hibernation/).
 
+> ### Note:  
+> As a provider, you can still trigger lifecycle events for stopped systems. Stopped systems will automatically be \(re-\)started for lifecycle events \(e.g. product version updates, SAP upgrades\). Once the event is complete, the system will automatically be stopped again.
+
 
 
 <a name="loio26e2ee1a14b640389b6fddf3abf57aaa__section_xwm_lhm_hyb"/>

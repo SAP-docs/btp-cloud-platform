@@ -9,11 +9,61 @@
 
 Assign entitlements to directories by adding service plans and distribute the quotas available in your global account to your directories using the SAP BTP cockpit.
 
+<a name="task_pxy_ph1_ryb"/>
+
+<!-- task\_pxy\_ph1\_ryb -->
+
+## Enable Entitlement Management for a Directory
+
+Before you can assign entitlements to a directory so that the respective service plans and quota can be distributed to the directory's subaccounts, you must first enable the entitlement management feature for the directory. This configuration only needs to be done once for each directory.
+
+> ### Note:  
+> -   In the account hierarchy, each directory path can have only one directory enabled with the entitlement management feature \(or the user management feature\). Consequently, if a directory in the path already has one of these features enabled, it is not possible to enable either of them for other parent or child directories within the same path as this directory.
+> 
+> -   Enabling entitlement management for a directory that already contains subaccounts will result in the automatic assignment of any existing entitlements and quotas \(for the subaccounts\) to the directory.
+
+
+
+<a name="task_pxy_ph1_ryb__prereq_qxy_ph1_ryb"/>
+
+## Prerequisites
+
+-   You are a global account administrator.
+
+
+
+
+<a name="task_pxy_ph1_ryb__steps-unordered_xxj_1j1_ryb"/>
+
+## Procedure
+
+There are several ways you can enable the entitlement management feature for a directory:
+
+-   In the *Account Explorer*, click the <span class="SAP-icons"></span> Actions button for a specific directory and select *Edit*. In the *Edit Directory* dialog box, under *Advanced*, choose the *Enable entitlement management* option.
+
+-   Navigate to the directory's *Entitlements* page and select *Enable Entitlement Management*.
+
+-   Navigate to your global account and open the *Entitlements* \> *Entity Assignments* from the navigation panel. Select the <span class="SAP-icons"></span> icon in the *Select Entity* dropdown menu.
+
+    Then, in the *Select Entities* dialog box, choose the directory for which you want to manage entitlements. Click *Select* and then *Enable Entitlement Management*.
+
+    > ### Tip:  
+    > To disable entitlement management for a directory, redo these steps from the global account's *Entitlements* \> *Entity Assignments* page, but choose *Disable Entitlement Management* at then end. When you disable entitlement management, any entitlements and quota that are currently assigned to the directory are "returned" to the global account and are then available for distribution to other directories and subaccounts.
+
+
+
+
+<a name="task_pxy_ph1_ryb__postreq_rmz_nng_ryb"/>
+
+## Next Steps
+
+Once you've enabled entitlement management for a directory, you can now configure its entitlement and quota assignments as described below.
+
 <a name="task_amv_krf_mqb"/>
 
 <!-- task\_amv\_krf\_mqb -->
 
-## Configure Entitlements and Quotas for a Single Directory \[Feature Set B\]
+## Configure Entitlements and Quotas for a Single Directory
 
 
 
@@ -22,6 +72,9 @@ Assign entitlements to directories by adding service plans and distribute the qu
 ## Prerequisites
 
 -   You are a global account administrator.
+
+    > ### Note:  
+    > If the directory has user management enabled, then you must be an admininstrator of the directory. See [Manage Users in Directories \[Feature Set B\]](manage-users-in-directories-feature-set-b-ff4d4a4.md).
 
 -   The service and applications that you intend to assign to your directory must be entitled to your global account.
 
@@ -41,19 +94,14 @@ Assign entitlements to directories by adding service plans and distribute the qu
 
 1.  In the *Account Explorer*, navigate to the directory for which you want to manage entitlements.
 
-2.  If entitlement management is not yet enabled for this directory yet, navigate to the directory's *Entitlements* page and select *Enable Entitlement Management*.
-
-    > ### Tip:  
-    > You can quickly tell if the entitlement management has enabled if the directory's *Entitlements* page in the navigation panel has two subpages, *Entity Assignments* and *Service Assignments*. Also the directory's *Overview* page will have the *Disable Entitlement Management* button.
+2.  Navigate to *Entitlements* \> *Entity Assignments*.
 
     > ### Note:  
-    > Any given directory path in the account hierarchy can have only one directory that is enabled with the entitlement management feature \(or with the authorization management feature\). If such a directory exists, other directories in that path can only have the default directory features enabled.
+    > If your directory does not have the entitlement management feature enabled yet, it won't have a *Entity Assignments* child page. To enable the feature for that directory, in the directory's *Entitlements* page, select *Enable Entitlement Management*.
 
-3.  Navigate to *Entitlements* \> *Entity Assignments*.
+3.  Click *Configure Entitlements*.
 
-4.  Click *Configure Entitlements*.
-
-5.  You can now edit the entitlements table:
+4.  You can now edit the entitlements table:
 
 
     <table>
@@ -87,7 +135,7 @@ Assign entitlements to directories by adding service plans and distribute the qu
 
     Remember, the services that you see depend on the type of global account you have and your contract details \(see the prerequisites above for more information\).
 
-    Once you've added new service plans, you can also change the quota for those plans as described in the following row and enable the option to auto-assign quota to subaccounts. For service plans where quota can be increased or decreased, you can also specify what amount should be auto-assigned to each subaccount that is created or added to the directory.
+    Once you've added new service plans, you can also change the quota for those plans as described in the following row and enable the option to auto-assign quota to new subaccounts that are added to the directory. For service plans where quota can be increased or decreased, you can also specify what amount should be auto-assigned to each subaccount that is created or added to the directory.
 
     > ### Note:  
     > To subscribe a subaccount to a multitenant application, you must first assign the application to the specific subaccount using the process described in [Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-5ba357b.md).
@@ -142,14 +190,16 @@ Assign entitlements to directories by adding service plans and distribute the qu
     </tr>
     </table>
     
-6.  Once you're done, choose *Save* to save the changes and exit edit mode for that directory.
+5.  Once you're done, choose *Save* to save the changes and exit edit mode for that directory.
 
 
 <a name="task_mtd_ssf_mqb"/>
 
 <!-- task\_mtd\_ssf\_mqb -->
 
-## Configure Entitlements and Quotas for Multiple Directories \[Feature Set B\]
+## Configure Entitlements and Quotas for Multiple Directories
+
+You can also use this method to configure entitlements and quotas for a single directory.
 
 
 
@@ -159,13 +209,8 @@ Assign entitlements to directories by adding service plans and distribute the qu
 
 -   You are a global account administrator.
 
--   Your directories have the entitlement management feature enabled. To do that, navigate to the directory and on the *Entitlements* page, click *Enable Entitlement Management*.
-
-    > ### Tip:  
-    > You can quickly tell if the entitlement management has enabled if the directory's *Entitlements* page in the navigation panel has two subpages, *Entity Assignments* and *Service Assignments*. Also the directory's *Overview* page will have the *Disable Entitlement Management*button.
-
     > ### Note:  
-    > Any given directory path in the account hierarchy can have only one directory that is enabled with the entitlement management feature \(or with the authorization management feature\). If such a directory exists, other directories in that path can only have the default directory features enabled.
+    > If a directory has user management enabled, then you must be an admininstrator of the directory. See [Manage Users in Directories \[Feature Set B\]](manage-users-in-directories-feature-set-b-ff4d4a4.md).
 
 -   The service and applications that you intend to assign to your directories must be entitled to your global account.
 
@@ -187,18 +232,23 @@ Assign entitlements to directories by adding service plans and distribute the qu
 
 2.  Choose *Entitlements* \> *Entity Assignments* from the left hand-side navigation.
 
-3.  At the top of the page, choose *Show: Directories* and then select all the directories for which you would like to configure or display entitlements.
+3.  Select the <span class="SAP-icons"></span> icon in the *Select Entity* dropdown menu.
 
-4.  Choose *Go* to apply the filter.
+4.  In the *Select Entities* dialog box, choose the directories for which you want to manage entitlements.
+
+5.  Click *Select*.
+
+    > ### Note:  
+    > If you select a directory for which entitlement management is not enabled, you can click *Enable Entitlement Management* to enable the feature. Remember that you can enable this feature only for a single directory in a path.
 
     You get a table for each of the directories you selected, displaying the current entitlement and quota assignments. You can choose *Show subaccount assignments* next to the table title to see the entitlement and quota assignments for the subaccounts in a specific directory.
 
-5.  Choose *Configure Entitlements* to start editing entitlements for a particular directory.
+6.  Choose *Configure Entitlements* to start editing entitlements for a particular directory.
 
     > ### Note:  
     > You can only edit entitlements for one directory at a time.
 
-6.  You can now edit the entitlements table:
+7.  You can now edit the entitlements table:
 
 
     <table>
@@ -232,7 +282,7 @@ Assign entitlements to directories by adding service plans and distribute the qu
 
     Remember, the services that you see depend on the type of global account you have and your contract details \(see the prerequisites above for more information\).
 
-    Once you've added new service plans, you can also change the quota for those plans as described in the following row and enable the option to auto-assign quota to subaccounts. For service plans where quota can be increased or decreased, you can also specify what amount should be auto-assigned to each subaccount that is created or added to the directory.
+    Once you've added new service plans, you can also change the quota for those plans as described in the following row and enable the option to auto-assign quota to new subaccounts that are added to the directory. For service plans where quota can be increased or decreased, you can also specify what amount should be auto-assigned to each subaccount that is created or added to the directory.
 
     > ### Note:  
     > To subscribe a subaccount to a multitenant application, you must first assign the application to the specific subaccount using the process described in [Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-5ba357b.md).
@@ -287,9 +337,9 @@ Assign entitlements to directories by adding service plans and distribute the qu
     </tr>
     </table>
     
-7.  Once you're done, choose *Save* to save the changes and exit edit mode for that directory.
+8.  Once you're done, choose *Save* to save the changes and exit edit mode for that directory.
 
-8.  **Optional:** Repeat steps 5 to 7 to configure entitlements for the other directories selected.
+9.  **Optional:** Repeat steps 6 to 7 to configure entitlements for the other directories selected.
 
 
 **Related Information**  
@@ -298,6 +348,10 @@ Assign entitlements to directories by adding service plans and distribute the qu
 [Entitlements and Quotas](../10-concepts/entitlements-and-quotas-00aa2c2.md "When you purchase an enterprise account, you’re entitled to use a specific set of resources, such as the amount of memory that can be allocated to your applications.")
 
 [Directories \[Feature Set B\]](../10-concepts/account-model-8ed4a70.md#loioa92721fc75524ec09a7a7255997dbd94 "Directories allow you to organize and manage your subaccounts according to your technical and business needs.")
+
+[Manage Users in Directories \[Feature Set B\]](manage-users-in-directories-feature-set-b-ff4d4a4.md "Manage members in your directory using the SAP BTP cockpit.")
+
+[Create a Directory \[Feature Set B\]](create-a-directory-feature-set-b-b8ef1c4.md "Create a directory using the SAP BTP cockpit to organize and manage your subaccounts. For example, you can group subaccounts by project, team, or department.")
 
 [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 

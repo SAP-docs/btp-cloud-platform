@@ -65,7 +65,7 @@ Our troubleshooting information can be found in our Guided Answers [Troubleshoot
 **Related Information**  
 
 
-[Getting Support](../70-getting-support/getting-support-5dd7398.md "Use SAP Community, get guided answers, or explore SAP Support Portal.")
+[Getting Support](../70-getting-support/getting-support-5dd7398.md "To get assistance, use the available support channels provided by SAP for Me.")
 
 [Enable and Provide Application Logs](enable-and-provide-application-logs-f22d510.md "If there are authentication problems in your application, enable logging for the container security library in question, reproduce the problem, and attach the application logs. To obtain more details, set the environment variables for the application.")
 

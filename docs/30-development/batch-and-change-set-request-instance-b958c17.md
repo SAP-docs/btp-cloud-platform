@@ -43,7 +43,7 @@ After you create a batch request instance, you can define the operations and add
 **Related Information**  
 
 
-[OData Client Proxy Tasks](odata-client-proxy-tasks-2ad7bcc.md "Get an overview of some of the most common OData Client Proxy tasks.")
+[OData Client Proxy Overview](odata-client-proxy-overview-2ad7bcc.md "Get an overview of some of the most common OData Client Proxy tasks.")
 
 [OData Request as Batch Including Changesets](odata-request-as-batch-including-changesets-fc10253.md "Create an $batch request, including changesets in the Client Proxy instance.")
 

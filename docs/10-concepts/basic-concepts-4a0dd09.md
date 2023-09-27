@@ -55,7 +55,7 @@ Kyma module
 </td>
 <td valign="top">
 
-An extension to the Kyma environment that can be enabled, disabled or re-configured at runtime
+An extension to the Kyma environment that can be enabled, disabled or re-configured at runtime.
 
 
 

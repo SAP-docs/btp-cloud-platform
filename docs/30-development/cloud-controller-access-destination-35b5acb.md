@@ -1,4 +1,4 @@
-<!-- loioa391dc8f538d444bb8f2e742c5b1e4df -->
+<!-- loio35b5acbb32024aa6b90a22e9f957a9f6 -->
 
 # Cloud Controller Access Destination
 
@@ -239,12 +239,12 @@ Instead of creating the ASP\_CC destination manually, you can also save the foll
 > ### Sample Code:  
 > ```
 > Type=HTTP
-> clientId=cf
-> Authentication=OAuth2Password
-> Name=ASP_CC
-> tokenServiceURL=https\://uaa.cf.eu10.hana.ondemand.com/oauth/token
-> ProxyType=Internet
-> URL=https\://api.cf.eu10.hana.ondemand.com
-> 
+> 						clientId=cf
+> 						Authentication=OAuth2Password
+> 						Name=ASP_CC
+> 						tokenServiceURL=https\://uaa.cf.eu10.hana.ondemand.com/oauth/token
+> 						ProxyType=Internet
+> 						URL=https\://api.cf.eu10.hana.ondemand.com
+> 					
 > ```
 

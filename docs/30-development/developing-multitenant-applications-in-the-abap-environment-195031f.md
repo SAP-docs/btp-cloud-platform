@@ -2,321 +2,114 @@
 
 # Developing Multitenant Applications in the ABAP Environment
 
+To make the software components in the ABAP System available for multiple different consumers, a multitenant application is deployed into the provider subaccount. This application can then be accessed by different tenants through a dedicated URL.
 
+![](images/MT_Application_e366cdc.png)
 
-<a name="loio195031ff8f484b51af16fe392ec2ae6e__section_b4k_brp_qmb"/>
+For the multitenant application, different services and apps are used:
 
-## Prerequisites:
+-   **Approuter application**: The application router is the single point-of-entry for the multitenant application and used to forward tenant-specific requests to the corresponding tenant in the ABAP system.
 
-As a service provider, you need to fulfill the following prerequisites.
+    See [Application Router](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/01c5f9ba7d6847aaaf069d153b981b51.html?locale=en-US&version=Cloud).
 
--   You’ve been registered by SAP, have your own global account and Cloud Foundry-enabled production subaccount with at least one space.
+-   **ABAP Solution Service**: ABAP Solution service is required to create multitenant-enabled, ABAP environment-based SaaS solutions. Instead of a service binding from the approuter application to the ABAP environment business service, the approuter is bound to an ABAP Solution service instance. The service orchestrates creation of ABAP systems upon consumer subscription as well as tenant provisioning/decommissioning. Requests routed via the approuter application to the ABAP solution service instance are automatically proxied to the corresponding ABAP tenant.
 
--   In your provider global account, a subscription to the*Landscape Portal* has been created.
+-   SAP Authorization and Trust Management service \(XSUAA\): The `xsuaa` service instance acts as an OAuth 2.0 client to the multitenant application, and to the `ABAP Solution`service instance. The SAP Authorization and Trust Management service lets you manage user authorizations and trust to identity providers used for the multitenant application. The service instance is created with a corresponding security configuration. See
 
--   The Cloud Foundry role "Space Developer" is assigned to your S-user.
+    [SAP Authorization and Trust Management Service in the Cloud Foundry Environment](https://help.sap.com/docs/CP_AUTHORIZ_TRUST_MNG/ae8e8427ecdf407790d96dad93b5f723/6373bb7a96114d619bfdfdc6f505d1b9.html?version=Cloud&locale=en-US).
 
+-   **SaaS Provisioning Service**: The `SaaS Provisioning`service allows application providers to register multitenant applications and services in the Cloud Foundry environment in SAP Business Technology Platform. After a SaaS Provisioning service instance is created, the multitenant application becomes available for subscription in a consumer subaccount.
 
-Instead of transporting software components \(via gCTS\) for software delivery, software components can be contained into add-on products for a more sophisticated lifecycle management process. These add-on products are built and published with the ABAP Environment Pipeline. For more information see [Build and Publish Add-on Products on SAP BTP ABAP Environment](https://sap.github.io/jenkins-library/scenarios/abapEnvironmentAddons/).
+-   **ABAP System**: ABAP systems and tenants used to provide the multitenant application are not created manually but are managed by the ABAP Solution service: Upon first subscription the ABAP system is created as well the consumer tenant in the system. To be able to create the system, the ABAP solution service uses credentials of a technical platform user that is defined in the ASP\_CC destination. Depending on the configuration of the ABAP solution, for every subsequent subscription either a new tenant is created in the same ABAP system \(`tenant_mode = multi`\) or a new system is created for every new subscription \(t`enant_mode = single`\). The ABAP system can only be deleted if no consumer tenants exist.
 
+    Consumer subscription-based multitenancy is only possible in those systems in which you provide your software as a service \(SaaS\) solution to consumers, i.e. your production and test systems. It is not available in development systems.
 
+    See [Creating an ABAP System.](https://help.sap.com/docs/BTP/60f1b283f0fd4d0aa7b3f8cea4d73d1d/50b32f144e184154987a06e4b55ce447.html?state=DRAFT&version=Internal)
 
-<a name="loio195031ff8f484b51af16fe392ec2ae6e__section_bx2_fgd_1rb"/>
+-   **Landscape Portal**: The Landscape Portal acts as a central tool to allow service providers to perform lifecycle management operations such as add-on updates, provisioning new consumers as new tenants, and more. A subscription to the Landscape Portal in the provider subaccount where the multitenant application is deployed is required for the subscription flow to work.
 
-## Regions:
+    See [Landscape Portal.](https://help.sap.com/docs/BTP/60f1b283f0fd4d0aa7b3f8cea4d73d1d/5eb70fb003954619b09224167a0afaa4.html?state=DRAFT&version=Internal)
 
-As a provider, you can deploy your SaaS solution in a subaccount that is located in one of the regions available for the ABAP environment:
+-   **ASP\_CC Destination**: An `OAuth2Password` destination pointing to the Cloud Foundry Cloud Controller API is required for the ABAP Solution service to create and access ABAP service instances. Credentials of a technical platform user, that is assigned as a space developer in a space where the multitenant application is deployed, are maintained.
 
-****
 
 
-<table>
-<tr>
-<th valign="top">
 
-CF Landscape
 
 
+### Multitarget Application
 
-</th>
-<th valign="top">
+The multitenant application is deployed as a multitarget application \(MTA\), which is logically a single application comprised of multiple parts created with different technologies.
 
-Regions
+The MTA describes the desired result in an mta.yaml file using the MTA model which contains MTA modules, MTA resources and interdependencies between them. Afterwards, the MTA deployment service validates, orchestrates, and automates the deployment of the MTA, which results in Cloud Foundry \(CF\) applications, services and SAP-specific contents. For more information about the Multitarget Application model, see the official The Multitarget Application Model specification. For more details on how to use it in the CF Environment, which is the case here, see [Multitarget Applications in the Cloud Foundry Environment.](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/d04fc0e2ad894545aebfd7126384307c.html?locale=en-US&version=Cloud)
 
+A complete reference example of the multitenant application MTA is provided in GitHub/SAPSamples:[https://github.com/sap-software/abap-saas-reference-solution](https://github.com/sap-software/abap-saas-reference-solution) 
 
 
-</th>
-</tr>
-<tr>
-<td valign="top">
 
-cf-ap10
+### MTA Parameters
 
+Parameters are defined at the beginning of the mta.yaml file, so that the actual structure of the MTA model does not have to be changed but can be extended via extension files. The parameters are referenced in the subsequent sections of the MTA using the syntax `${parameter-name}`. For more details on parameters, see [Parameters and Properties](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/490c8f71e2b74bc0a59302cada66117c.html?locale=en-US&version=Cloud).
 
+-   **Freely defined parameters:**
 
-</td>
-<td valign="top">
+    -   app-domain: The domain that should be used for the approuter and therefore the SaaS application. In our example, this is the $\{default-domain\} \(equals to the cfapps-domain of the current landscapes\) for a development deployment; for production it should be the custom domain \(so here: `mydomain.com`\).
 
-Australia \(Sydney\)
+    -   appname: The value that should be used as xsappname and solution name \(here: `abap-saas-reference-solution)`.
 
+    -   route-prefix: The value that should be used as a prefix in the route of the approuter, allowing it to deploy the same MTA to the same landscape muliple times using the default landscape domain.
 
+    -   addon-product-name: Name of add-on product to be installed
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+    -   provider-admin-email: Provider administrator e-mail address used for provisioning of ABAP systems
 
-cf-ap11
+    -   saas-display-name: Display name of SaaS application shown in subscription tile
 
+    -   saas-description: Description of SaaS application shown in subscription tile
 
+    -   tenant-mode: Whether to provide a `'single'` or `'multi'` tenancy solution
 
-</td>
-<td valign="top">
 
-Singapore
+-   **Parameter with semantics to MTA deployer:**
 
+    -   enable-parallel-deployments: If set to `true`, deploys multiple modules at the same time.
 
 
-</td>
-</tr>
-<tr>
-<td valign="top">
 
-cf-ap12
 
 
+### MTA Extension Descriptors
 
-</td>
-<td valign="top">
+The parameters defined in the MTA can be adapted for the corresponding landscape using MTA extension descriptor files. These files extend the original MTA descriptor file \(mta.yaml\) and allow it to change certain values during deployment. The descriptor files have the file extension \*.mtaext and are used during the deployment using CF CLI with MultiApps plugin, see [MultiApps CF CLI Plugin](https://github.com/cloudfoundry-incubator/multiapps-cli-plugin).
 
-South Korea \(Seoul\)
+For more information on MTA extension descriptors, see: [Defining MTA Extension Descriptors.](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/50df803465324d36851c79fd07e8972c.html) 
 
+The extension descriptor files are usually in the folder “extensions” next to the mta.yaml file.
 
+Depending on the stage of implementation of the multitenant application, a different approuter configuration is being used. This is controlled via different extension descriptor files used during MTA deployment:
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+-   Configuration for **Development Phase**:
 
-cf-ap20
+    For development, test and demo purposes, MTA deployment can be done using the`${default-domain}` as `app-domain`and a `route-prefix`, which will avoid collisions due to the default domain. Additionally, we set the property `XS_APP_LOG_LEVEL` on the approuter module to `debug` to ensure that we have more detailed logging output.
 
+-   Configuration for **Production Phase**:
 
+    For purpose of providing solution to application consumers in a productive scenario, MTA deployment should be done using a custom domain as `app-domain` and an empty `route-prefix.` Using the custom domain, a wildcard route for tenant access \("`*.${app-domain}`"\) can be created.
 
-</td>
-<td valign="top">
 
-Australia \(Sydney\)
 
 
+### MTA Build and Deploy
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+Before MTA deployment, the MTA project is built using the[Cloud MTA Build Tool \(MBT\)](https://sap.github.io/cloud-mta-build-tool/). Afterwards the deployment-ready multitarget application archive \(\*.mtar file\) is deployed in combination with the corresponding MTA extension descriptor file using the Cloud Foundry CLI with the MultiApps plugin: `cf deploy <path to .mtar file> -e <path to MTA extension descriptor>`
 
-cf-ap21
 
 
+### Related Information
 
-</td>
-<td valign="top">
+[Installing the cf CLI](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html)
 
-Singapore
+[MultiApps CF CLI Plugin - Download and Installation](https://github.com/cloudfoundry-incubator/multiapps-cli-plugin#download-and-installation)
 
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-cf-br10
-
-
-
-</td>
-<td valign="top">
-
-Brazil \(São Paolo\)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-cf-ca10
-
-
-
-</td>
-<td valign="top">
-
-Canada \(Montreal\)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-cf-ch20
-
-
-
-</td>
-<td valign="top">
-
-Switzerland \(Zurich\) Azure EU Access
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-cf-eu10
-
-
-
-</td>
-<td valign="top">
-
-Europe \(Frankfurt\)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-cf-eu11
-
-
-
-</td>
-<td valign="top">
-
-Europe \(Frankfurt\) EU Access
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-cf-eu20
-
-
-
-</td>
-<td valign="top">
-
-Europe \(Netherlands\)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-cf-jp10
-
-
-
-</td>
-<td valign="top">
-
-Japan \(Tokyo\)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-cf-jp20
-
-
-
-</td>
-<td valign="top">
-
-Japan \(Tokyo\)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-cf-us10
-
-
-
-</td>
-<td valign="top">
-
-US East \(VA\)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-cf-us20
-
-
-
-</td>
-<td valign="top">
-
-US West \(WA\)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-cf-us21
-
-
-
-</td>
-<td valign="top">
-
-US East \(VA\)
-
-
-
-</td>
-</tr>
-</table>
-
-A consumer can then subscribe to and access your SaaS solution from a subaccount. The consumer subaccount needs to be located in the same region as the subaccount which you deployed the SaaS solution in.
-
-Keep in mind that regions are chosen on the subaccount level: For each subaccount, you select exactly one region. This is done when creating the subaccount. The *Landscape Portal* can only be accessed from subaccounts located in region cf-eu10. You thus need to make sure that the subaccount from which you want to access the*Landscape Portal* has the region attribute cf-eu10. For more information on regions, see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html).
-
- 
-
-**Related Information**  
-
-
-[Developing Multitenant Applications in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5e8a2b74e4f2442b8257c850ed912f48.html)
-
-[Multitenancy Development Guideline](multitenancy-development-guideline-9d994c8.md "Multitenancy is required if you want to run several customers on the same ABAP system. When building tenant-aware applications on top of the ABAP environment, you must follow dedicated rules to ensure, for example, a content separation between different customers.")
-
-[MTA-Based Approach \(Recommended\)](mta-based-approach-recommended-ca0cc10.md "The previous steps can also be done in a descriptive way using a so called multitarget application (MTA).")
+[MultiApps CF CLI Plugin - Usage](https://github.com/cloudfoundry-incubator/multiapps-cli-plugin#usage)
 

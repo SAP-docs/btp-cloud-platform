@@ -113,6 +113,11 @@ For more information, see [Supported Tools and Services When Using Custom Identi
 
 5.  In your Identity Authentication application, update your *OpenID Connect Configuration* with the redirect URIs provided by SAP Support.
 
+    > ### Remember:  
+    > If the OIDC issuer was changed in the trust configuration, the trust breaks, but the global account automatically repairs the trust after 24 hours.
+    > 
+    > To adapt the trust configuration on SAP BTP side, use the `btp update security/trust` command of the SAP BTP command line interface together with the `--refresh` parameter. This parameter immediately refreshes the trust configuration to reflect changes in the Identity Authentication tenant, for example the issuer value. For more information, see [Managing Trust from SAP BTP to an Identity Authentication Tenant](managing-trust-from-sap-btp-to-an-identity-authentication-tenant-6140107.md).
+
     For more information, see [Configure OpenID Connect Application for Resource Owner Password Credentials Flow](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/cafba7730eeb4d4bbfaa0b200e8cfbac.html) in the documentation for the Identity Authentication service.
 
 6.  Test the login redirect URI.

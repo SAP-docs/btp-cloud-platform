@@ -1,4 +1,4 @@
-<!-- loio2b63c066bd5f4459838889041cd3d6fd -->
+<!-- loio2ce1a962c3be48dd8035513b0a2d7397 -->
 
 # SAP Authorization and Trust Management Service
 
@@ -7,27 +7,27 @@
 > ### Sample Code:  
 > ```
 > - name: xsuaa
->     type: com.sap.xs.uaa
->     requires:
->       - name: abap-solution
->     parameters:
->       service-plan: application
->       service-name: xsuaa
->       config:
->         xsappname: ${appname}
->         tenant-mode: shared
->         scopes:
->           - name: $XSAPPNAME.Callback
->             description: With this scope set, the callbacks for tenant onboarding, offboarding and getDependencies can be called.
->             grant-as-authority-to-apps:
->               - $XSAPPNAME(application,sap-provisioning,tenant-onboarding)
->         foreign-scope-references:
->           - uaa.user
->         role-collections:
->           - name: ${appname}-admin
->             role-template-references:
->               - $XSSERVICENAME(abap-solution).SolutionAdmin
-> 
+> 					type: com.sap.xs.uaa
+> 					requires:
+> 					- name: abap-solution
+> 					parameters:
+> 					service-plan: application
+> 					service-name: xsuaa
+> 					config:
+> 					xsappname: ${appname}
+> 					tenant-mode: shared
+> 					scopes:
+> 					- name: $XSAPPNAME.Callback
+> 					description: With this scope set, the callbacks for tenant onboarding, offboarding and getDependencies can be called.
+> 					grant-as-authority-to-apps:
+> 					- $XSAPPNAME(application,sap-provisioning,tenant-onboarding)
+> 					foreign-scope-references:
+> 					- uaa.user
+> 					role-collections:
+> 					- name: ${appname}-admin
+> 					role-template-references:
+> 					- $XSSERVICENAME(abap-solution).SolutionAdmin
+> 				
 > ```
 
 The `xsuaa` service instance, acts as an OAuth 2.0 client to the multitenant application, and to the `ABAP Solution` service instance. It provides access to the SaaS Provisioning service for calling callbacks and getting the dependencies API by granting corresponding scopes.

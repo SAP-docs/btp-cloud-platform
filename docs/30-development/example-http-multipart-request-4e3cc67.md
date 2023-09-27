@@ -47,7 +47,7 @@ The code examples below show an **HTTP multipart request**:
 >   ENDIF.
 >  
 > CATCH cx_web_http_client_error cx_http_dest_provider_error.
->   out->write( 'An exception has occurrred!' ).
+>   "Handle exception here.
 > ENDTRY.
 > 
 > ```

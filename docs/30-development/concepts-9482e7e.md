@@ -111,7 +111,7 @@ For development and maintenance processes, the steps mentioned below, that are s
 -   Upon cutoff date, development is finished. All development that is released at this time must be tested and be of good quality. From then on, you must fix defects in the COR system and maintain them in parallel in the DEV system.
 -   Upon release date, all defects must be fixed. If, during testing in the QAS system, you make the decision that a complete functionality isn’t delivered, developers must delete, revert, or disable the functionality in the COR system and release the corresponding transport requests. You can't remove objects from the release branch, e.g. by deselecting transport requests. To revert objects to a previous transported state, use the Compare editor of the Eclipse History view. If you want to withdraw the functionality in the DEV system as well, it’s considered a correction and you have to perform double maintenance of corrections into the DEV system. See [Double Maintenance of Corrections into Development](double-maintenance-of-corrections-into-development-1241b14.md).
 -   Users in ABAP system COR are locked during ongoing development and only unlocked when a correction has to be implemented
--   For the consumption as a SaaS solution, instead of importing a release branch into a productive system, software components are installed via add-on delivery packages into multitenancy-enabled production systems AMT provisioned via the ABAP Solution service. See [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
+-   For the consumption as a SaaS solution, instead of importing a release branch into a productive system, software components are installed via add-on delivery packages into multitenancy-enabled production systems AMT provisioned via the ABAP Solution service. See [ABAP Solution Service](abap-solution-service-1697387.md).
 
 
 
@@ -283,7 +283,7 @@ For the consumption of the add-on as a SaaS solution, software components are in
 
 The ABAP environment provides capabilities for multitenancy, meaning to host different customers on a single ABAP system. See [Multitenancy in the ABAP Environment](multitenancy-in-the-abap-environment-633cc61.md).
 
-The way ABAP service instances and tenants are used for consumer subscriptions application can be configured via parameter `tenant_mode` of the ABAP Solution service. See [Define Your ABAP Solution](define-your-abap-solution-1697387.md):
+The way ABAP service instances and tenants are used for consumer subscriptions application can be configured via parameter `tenant_mode` of the ABAP Solution service. See [ABAP Solution Service](abap-solution-service-1697387.md):
 
 -   **Single**: With each new consumer, a new ABAP service instance is created.
 
@@ -317,7 +317,7 @@ For the add-on delivery process, certain versioning principles apply. Learn how 
 
 Instead of importing software components into productive systems, when providing a SaaS solution in the ABAP environment, software components are packaged and installed into ABAP systems based on so-called add-on products/software products.
 
-You can only install one add-on product for each system using the ABAP environment `saas_oem` service plan instead of the `standard` service. During provisioning of this service, parameters `addon_product_name` and `addon_product_version` are used to install a certain add-on product version into the system, after the system has been provisioned. See [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
+You can only install one add-on product for each system using the ABAP environment `saas_oem` service plan instead of the `standard` service. During provisioning of this service, parameters `addon_product_name` and `addon_product_version` are used to install a certain add-on product version into the system, after the system has been provisioned. See [ABAP Solution Service](abap-solution-service-1697387.md).
 
 The add-on product name includes a reserved development namespace to separate the name from other customers/partners. See SAP note [84282](https://me.sap.com/notes/84282).
 

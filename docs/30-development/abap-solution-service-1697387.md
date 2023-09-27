@@ -1,29 +1,29 @@
-<!-- loioe5fc60e36a7c4ec4b5fe63a824a9d045 -->
+<!-- loio1697387c02e74e66a55cf21a05678167 -->
 
-# ABAP Solution Services
+# ABAP Solution Service
 
 
 
 > ### Sample Code:  
 > ```
 > - name: abap-solution
->     type: org.cloudfoundry.managed-service
->     parameters: 
->       service: abap-solution
->       service-plan: standard
->       service-name: abap-solution
->       config:
->         name: ${appname}
->         addon_product_name: ${addon-product-name}
->         size_of_runtime: 1
->         size_of_persistence: 4
->         tenant_mode: ${tenant-mode}
->         consumer_id_pattern: ([^-]*).*
->         provider_admin_email: ${provider-admin-email}
->         usage: prod
->         xs-security:
->           xsappname: ${appname}
-> 
+> 				type: org.cloudfoundry.managed-service
+> 				parameters: 
+> 				service: abap-solution
+> 				service-plan: standard
+> 				service-name: abap-solution
+> 				config:
+> 				name: ${appname}
+> 				addon_product_name: ${addon-product-name}
+> 				size_of_runtime: 1
+> 				size_of_persistence: 4
+> 				tenant_mode: ${tenant-mode}
+> 				consumer_id_pattern: ([^-]*).*
+> 				provider_admin_email: ${provider-admin-email}
+> 				usage: prod
+> 				xs-security:
+> 				xsappname: ${appname}
+> 			
 > ```
 
 ABAP Solution Service is used to enable multitenancy for ABAP Environment systems: Instead of creating the ABAP system manually it is created by the ABAP Solution service during the first subscription of an application consumer.

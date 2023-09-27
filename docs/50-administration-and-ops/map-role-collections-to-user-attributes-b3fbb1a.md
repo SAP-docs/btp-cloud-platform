@@ -43,7 +43,7 @@ The identity provider hosts the users and their attributes. When a user is authe
 
 4.  Under *Attribute Mapping*, select an identity provider.
 
-5.  Enter the name of the attribute and the value for the SAP Authorization and Trust Management service to use to map the role collection to users.
+5.  Enter the name of the attribute and the value for the SAP Authorization and Trust Management service to use to map the role collection to users. The attributes are combined with logical OR operations. If you assign multiple attributes to the role collection, and one of them is true, the users with this attribute are assigned to this role collection.
 
     > ### Tip:  
     > Provide the **exact** name of the attribute and its value as provided by the identity provider. These values are case-sensitive.

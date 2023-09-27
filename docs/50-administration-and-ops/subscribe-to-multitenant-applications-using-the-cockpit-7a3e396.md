@@ -4,7 +4,7 @@
 
 # Subscribe to Multitenant Applications Using the Cockpit
 
-Subscribe to multitenant applications from the *Subscriptions* page in the SAP BTP cockpit.
+Subscribe to multitenant applications from the *Service Marketplace* page in the SAP BTP cockpit.
 
 
 
@@ -134,7 +134,7 @@ The instructions provided here apply whether you are an SAP customer subscribing
 
 1.  Configure user access to the application.
 
-    See [Configure Application Roles and Assign Roles to Users](configure-application-roles-and-assign-roles-to-users-56a7153.md).
+    See [Working with Role Collections](working-with-role-collections-393ea0b.md).
 
 2.  If the application consumer isn't the subaccount owner or administrator, provide the consumer-specific URL of the application to the consumer or the users of the application.
 

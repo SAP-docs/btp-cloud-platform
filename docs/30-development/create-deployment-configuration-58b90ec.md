@@ -6,7 +6,7 @@
 
 You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\). Now you want to create a deployment configuration. Here's how it's done.
 
-1.  Log in to the *Landscape Portal*.
+1.  Log in to the *Landscape Portal*from your provider subaccount.
 
 2.  Under *Solution*, click on the *Maintain Solution* tile to open the app.
 

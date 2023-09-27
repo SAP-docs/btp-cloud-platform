@@ -18,8 +18,6 @@ The *Systems Overview* app helps you keep track of your tenants and systems.
 
 -   Create support users.
 
--   Create test tenants.
-
 -   Perform add-on updates.
 
 -   View the request log.

@@ -48,7 +48,7 @@ To delete a software component, perform the following steps:
 <tr>
 <td valign="top">
 
-1.  The software component contains no object locally in the service instance and no changes are committed to the remote repository. The remote repository, the associated structure package of the software component, and the software component itself are deleted. The deletion of the ABAP structure package and software component is executed without creating a transport request.
+The software component contains no object locally in the service instance and no changes are committed to the remote repository. The remote repository, the associated structure package of the software component, and the software component itself are deleted. The deletion of the ABAP structure package and software component is executed without creating a transport request.
 
 
 
@@ -80,7 +80,7 @@ The software component contains objects locally and possible changes are committ
 
 ## Result
 
-The selected software component is deleted centrally.
+The selected software component is deleted centrally if the checkbox *remote deletion* was selected. Otherwise it is only a local deletion, affecting the current system instance.
 
 You can no longer pull or clone the software component to a service instance.
 

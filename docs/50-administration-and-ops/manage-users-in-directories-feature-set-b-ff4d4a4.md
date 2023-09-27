@@ -14,10 +14,18 @@ Manage members in your directory using the SAP BTP cockpit.
 
 -   User management is enabled for this directory.
 
-    Choose *Enable User Management* to enable the user management capabilities for this directory if the feature isn't enabled already.
+    If the feature isn't enabled already, you can do so using one of the following methods:
+
+    -   Go to the *Account Explorer* page, edit the directory, and then under *Advanced*, choose the *Enable User Management* option.
+
+    -   Navigate into the directory from the *Account Explorer* page, and then in the *Users* page, choose the *Enable Entitlement and User Management* option \(if entitlement management is already enabled for the directory, then choose the *Enable User Management* option instead\).
 
     > ### Note:  
-    > Only one directory in a path can manage entitlements or users.
+    > -   The user management feature can be enabled only in combination with the entitlement management feature on the same directory in given path.
+    > 
+    > -   Only a single directory in any given directory path can have the user management and/or entitlement management features enabled. See [Configure Entitlements and Quotas for Directories \[Feature Set B\]](configure-entitlements-and-quotas-for-directories-feature-set-b-37f8871.md).
+    > 
+    >     For example, if you have 3 stacked directories in your account hierarchy and the middle directory has both the user and entitlement management features enabled, then neither of these features can be enabled for its parent or child directory since these two directories are in the same direct path as the middle directory.
 
 -   Your platform user exists in a trusted identity provider.
 

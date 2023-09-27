@@ -6,10 +6,10 @@ With Kyma's modular approach, you can install just the modules you need, instead
 
 
 
-You can choose to enable any modules as required; see [Enable and Disable a Kyma Module](../50-administration-and-ops/enable-and-disable-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c). To find out which module version is running on your cluster, go to Kyma Dashboard.
+You can choose to enable any modules as required. To learn how, see [Enable and Disable a Kyma Module](../50-administration-and-ops/enable-and-disable-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c). To find out which module version is running on your cluster, go to Kyma Dashboard.
 
 > ### Remember:  
-> Step by step, all Kyma components are converted to modules that work independently from each other.
+> One by one, all Kyma components are converted to modules that work independently from each other.
 > 
 > Table entries marked with “\*” are still components and will be modularized soon.
 
@@ -49,14 +49,14 @@ Documentation
 <tr>
 <td valign="top">
 
-BTP Operator
+*SAP BTP Operator* 
 
 
 
 </td>
 <td valign="top">
 
-Within the BTP Operator module, BTP Manager installs SAP BTP Service Operator that allows you to consume SAP BTP services from your Kubernetes cluster using Kubernetes-native tools.
+Within the SAP BTP Operator module, BTP Manager installs SAP BTP Service Operator that allows you to consume SAP BTP services from your Kubernetes cluster using Kubernetes-native tools.
 
 
 
@@ -64,9 +64,9 @@ Within the BTP Operator module, BTP Manager installs SAP BTP Service Operator th
 <td valign="top">
 
 -   [Using SAP BTP Services in the Kyma Environment](../30-development/using-sap-btp-services-in-the-kyma-environment-ea4dd81.md)
--   [BTP Operator module](https://kyma-project.io/#/btp-manager/user/README)
--   [BTP Manger releases](https://github.com/kyma-project/btp-manager/releases)
--   [SAP BTP Service Operator releases](https://github.com/SAP/sap-btp-service-operator/releases)
+-   [kyma-project.io: SAP BTP Operator module](https://kyma-project.io/#/btp-manager/user/README)
+-   [GitHub: BTP Manger releases](https://github.com/kyma-project/btp-manager/releases)
+-   [GitHub: SAP BTP Service Operator releases](https://github.com/SAP/sap-btp-service-operator/releases)
 
 
 
@@ -75,7 +75,7 @@ Within the BTP Operator module, BTP Manager installs SAP BTP Service Operator th
 <tr>
 <td valign="top">
 
-Keda
+*Keda* 
 
 
 
@@ -89,7 +89,7 @@ The Keda module comes with Keda Manager, an extension to Kyma that allows you to
 </td>
 <td valign="top">
 
--   [Keda module](https://kyma-project.io/#/keda-manager/user/README)
+-   [kyma-project.io: Keda module](https://kyma-project.io/#/keda-manager/user/README)
 
 
 
@@ -98,21 +98,23 @@ The Keda module comes with Keda Manager, an extension to Kyma that allows you to
 <tr>
 <td valign="top">
 
-Istio\*
+*Telemetry* 
 
 
 
 </td>
 <td valign="top">
 
-Istio is a service mesh with Kyma-specific configuration.
+The Telemetry module collects application logs and distributed traces for your application, and dispatches them to your preferred backends.
 
 
 
 </td>
 <td valign="top">
 
--   [Istio Service Mesh](http://kyma-project.io/#/istio/user/00-overview/00-20-overview-service-mesh)
+-   [kyma-project.io: Telemetry module](https://kyma-project.io/#/telemetry-manager/user/README)
+-   [GitHub: Telemetry manager releases](https://github.com/kyma-project/telemetry-manager/releases)
+-   [GitHub repository: Telemetry](https://github.com/kyma-project/telemetry-manager)
 
 
 
@@ -128,7 +130,7 @@ Serverless\*
 </td>
 <td valign="top">
 
-With the Serverless module, you can define simple code snippets \(Funtions\) with minimal implementation effort.
+With the Serverless module, you can define simple code snippets \(Functions\) with minimal implementation effort.
 
 
 
@@ -136,32 +138,8 @@ With the Serverless module, you can define simple code snippets \(Funtions\) wit
 <td valign="top">
 
 -   [Deploy Workloads in the Kyma Environment to Extend SAP Systems](../30-development/deploy-workloads-in-the-kyma-environment-to-extend-sap-systems-fe4ba5b.md)
--   [What is Serverless in Kyma?](https://kyma-project.io/#/01-overview/serverless/)
--   [https://github.com/kyma-project/serverless-manager](https://github.com/kyma-project/serverless-manager)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Telemetry\*
-
-
-
-</td>
-<td valign="top">
-
-Enable telemetry agents to easily collect application logs and distributed traces for your application and dispatch them to backends.
-
-
-
-</td>
-<td valign="top">
-
--   [What is Telemetry in Kyma?](https://kyma-project.io/#/01-overview/telemetry/)
--   [https://github.com/kyma-project/telemetry-manager](https://github.com/kyma-project/telemetry-manager)
+-   [kyma-project.io: What is Serverless in Kyma?](https://kyma-project.io/#/01-overview/serverless/)
+-   [GitHub repository: Serverless](https://github.com/kyma-project/serverless-manager)
 
 
 
@@ -187,7 +165,7 @@ At the moment, the SAP Event Mesh default plan and NATS \(provided by the NATS m
 <td valign="top">
 
 -   [Using Kyma Eventing with SAP Event Mesh](../30-development/using-kyma-eventing-with-sap-event-mesh-407d126.md)
--   [https://github.com/kyma-project/eventing-manager](https://github.com/kyma-project/eventing-manager) 
+-   [GitHub repository: Eventing](https://github.com/kyma-project/eventing-manager) 
 
 
 
@@ -210,7 +188,7 @@ NATS deploys a NATS cluster within the Kyma cluster. You can use it as a backend
 </td>
 <td valign="top">
 
--   [https://github.com/kyma-project/nats-manager](https://github.com/kyma-project/nats-manager)
+-   [GitHub repository: NATS](https://github.com/kyma-project/nats-manager)
 
 
 
@@ -233,7 +211,7 @@ Application Connector allows you to connect with external solutions. No matter i
 </td>
 <td valign="top">
 
--   [https://github.com/kyma-project/application-connector-manager](https://github.com/kyma-project/application-connector-manager)
+-   [GitHub repository: Application Connector](https://github.com/kyma-project/application-connector-manager)
 
 
 
@@ -256,7 +234,30 @@ API Gateway provides functionalities that allow you to expose and secure APIs.
 </td>
 <td valign="top">
 
--   [API Gateway in Kyma](https://kyma-project.io/#/01-overview/api-exposure/apix-01-api-gateway)
+-   [kyma-project.io: API Gateway in Kyma](https://kyma-project.io/#/01-overview/api-exposure/apix-01-api-gateway)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Istio\*
+
+
+
+</td>
+<td valign="top">
+
+Istio is a service mesh with Kyma-specific configuration.
+
+
+
+</td>
+<td valign="top">
+
+-   [kyma-project.io: Istio Service Mesh](http://kyma-project.io/#/istio/user/00-overview/00-20-overview-service-mesh)
 
 
 

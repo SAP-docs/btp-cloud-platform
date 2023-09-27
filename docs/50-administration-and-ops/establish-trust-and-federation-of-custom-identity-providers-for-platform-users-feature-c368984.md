@@ -16,7 +16,7 @@ You want to use a custom identity provider for the platform users of SAP BTP in 
 
 -   The Identity Authentication tenant is associated with the customer IDs of the relevant global account of SAP BTP.
 
-    For more information, see [**Reuse SAP Cloud Identity Services Tenants for Different Customer IDs**](https://help.sap.com/docs/identity-authentication/identity-authentication/reuse-sap-cloud-identity-services-tenants-for-different-customer-ids) in the documentation for Identity Authentication.
+    For more information, see [Reuse SAP Cloud Identity Services Tenants for Different Customer IDs](https://help.sap.com/docs/identity-authentication/identity-authentication/reuse-sap-cloud-identity-services-tenants-for-different-customer-ids) in the documentation for Identity Authentication.
 
 -   Make sure that the email addresses of all users in your identity provider are unique and correct.
 
@@ -71,6 +71,11 @@ You must establish a trust relationship with a custom identity provider in your 
     > You can only set the origin key once for the whole landscape. You can't change the origin key later.
 
 6.  The wizard shows you a preview of your configuration. To complete your new trust configuration, choose *Finish*.
+
+    > ### Remember:  
+    > If the OIDC issuer was changed in the trust configuration, the trust breaks, but the global account automatically repairs the trust after 24 hours.
+    > 
+    > To adapt the trust configuration on SAP BTP side, use the `btp update security/trust` command of the SAP BTP command line interface together with the `--refresh` parameter. This parameter immediately refreshes the trust configuration to reflect changes in the Identity Authentication tenant, for example the issuer value. For more information, see [Managing Trust from SAP BTP to an Identity Authentication Tenant](managing-trust-from-sap-btp-to-an-identity-authentication-tenant-6140107.md).
 
 
 

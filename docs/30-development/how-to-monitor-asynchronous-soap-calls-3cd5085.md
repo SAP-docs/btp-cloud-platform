@@ -53,5 +53,5 @@ You've created an AIF interface for each operation in your asynchronous Web serv
 **Related Information**  
 
 
-[Set Up SOAP Communication](set-up-soap-communication-8b6723b.md "Developers can consume SOAP-based Web services for outbound communication from the ABAP environment.")
+[Set Up SOAP Communication](set-up-soap-communication-8b6723b.md "Developers can consume SOAP-based web services for outbound communication from the ABAP environment.")
 

@@ -420,7 +420,7 @@ Let’s take a closer look at how to configure a pipeline template for a product
 
 4.  **Clone Repositories:**
 
-    Here you can select the clone strategy \(*CheckoutPull*, *Clone*, *Pull*\) for software components that are relevant for the build of the product version. This influences which steps will be executed to import the repositories. For more information, see [Clone Repositories](https://www.project-piper.io/pipelines/abapEnvironment/stages/cloneRepositories/).
+    Here, you can select the clone strategy \(*CheckoutPull*, *Clone*, *Pull*\) for software components that are relevant for the build of the product version. This influences which steps will be executed to import the repositories. For more information, see [Clone Repositories](https://www.project-piper.io/pipelines/abapEnvironment/stages/cloneRepositories/).
 
     Select the desired clone strategy from the drop-down menu and proceed to the next step.
 
@@ -509,13 +509,13 @@ Let’s take a closer look at how to configure a pipeline template for a product
 
     In this stage a system is prepared for the product version test installation. The system will be deprovisioned after successful testing has been completed.
 
-    > ### Note:  
-    > This step is mandatory for a secure deployment in production. The possibility to disable the integration tests might be turned off at a future date without further notice from SAP.
-
-    Enter the information.
+    > ### Caution:  
+    > This step is necessary for a secure deployment in production. If you disable the integration tests, you risk defective add-ons being installed onto the production system. The possibility to disable the integration tests might be turned off at a future date without further notice from SAP.
 
     > ### Note:  
     > The pipeline step 'Integration Tests' is inactive when you are configuring a test template.
+
+    Fill in the information.
 
 
     <table>
@@ -809,8 +809,6 @@ Let’s take a closer look at how to configure a pipeline template for a product
     <td valign="top">
     
     The email-address for the initial administrator of the integration test system. This user can be used to access the system for error analysis purposes. See [Creating an ABAP System.](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/50b32f144e184154987a06e4b55ce447.html)
-
-    The email-address for the initial administrator of the integration test system. This user can be used to access the system for error analysis purposes.
 
 
     

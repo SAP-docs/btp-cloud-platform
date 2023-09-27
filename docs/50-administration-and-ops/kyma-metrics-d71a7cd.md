@@ -1,11 +1,11 @@
 <!-- loiod71a7cdb9c654860b41276b579d30da1 -->
 
-# Kyma Metrics and Logs
+# Kyma Metrics
 
-In the Kyma environment, you can query, visualize, and explore metrics and logs collected for the Kyma components.
+In the Kyma environment, you can query, visualize, and explore metrics collected for the Kyma components.
 
 > ### Caution:  
-> The in-cluster Monitoring capabilities, a well as any integration with Grafana, have been deprecated. See *What's New* for Kyma about [Monitoring](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%20Runtime&Software_Lifecycle=Deprecated&q=monitoring&locale=en-US&version=Cloud&Valid_as_Of=2022-12-01%3A2023-09-30).
+> The in-cluster Monitoring capabilities, a well as any integration with Grafana, have been deprecated. See *What's New* for Kyma about [Monitoring](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%20Runtime&Software_Lifecycle=Deleted%3BDeprecated&q=monitoring&locale=en-US&version=Cloud).
 
 
 
@@ -39,7 +39,7 @@ For more information on dashboard search and data filtering, see the [official G
 
 <a name="loiod71a7cdb9c654860b41276b579d30da1__section_pzg_pdc_grb"/>
 
-## Explore Metrics and Logs with Queries
+## Explore Metrics with Queries
 
 The *Explore* view provides [Prometheus](https://prometheus.io/docs/introduction/overview/) \(an open-source toolkit used for system monitoring and alerting\) as the data source that you can query to get information about system metrics.
 

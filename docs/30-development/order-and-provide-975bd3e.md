@@ -36,34 +36,6 @@ You have two options for implementing and deploying the application. The recomme
 -   To configure the sizing of a SaaS solution, you need to determine the expected load per region by using the Technical Monitoring Cockpit. See [Technical Monitoring Cockpit \(Cloud Version\)](https://help.sap.com/viewer/tmc_cloud/eb867c69739a4cf3be6361d3990d26a2.html).
 -   To implement and deploy a multitenant application for a SaaS solution, you need to assign the necessary entitlements in the provider subaccount, for example for the ABAP Solution service. See [Multitenant Application](https://help.sap.com/docs/btp/sap-business-technology-platform/multitenant-application?version=Cloud) and [Entitlements and Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00aa2c23479d42568b18882b1ca90d79.html).
 
-<a name="loioff85cb02dc284aea9fd0745fc6904aed"/>
-
-<!-- loioff85cb02dc284aea9fd0745fc6904aed -->
-
-### Create Cloud Controller Destination
-
-As an operator, you need to create a destination for the Cloud Foundry Cloud Controller access in the 05 Provide subaccount in the global accounts for development and production. See [Create a Destination for the Cloud Foundry Cloud Controller Access](https://help.sap.com/docs/btp/sap-business-technology-platform/create-destination-for-cloud-foundry-cloud-controller-access?version=Cloud). The Cloud Foundry Cloud Controller API maintains records of orgs, spaces, services, service instances, user roles, and more and is used to create new ABAP instances in the Provide space when necessary.
-
-> ### Note:  
-> We recommend using a technical Cloud Foundry platform user for Cloud Controller access. See [Create SAP User Accounts](https://help.sap.com/docs/btp/sap-business-technology-platform/create-sap-user-accounts?version=Cloud).
-
-**Define Routes**
-
-When a consumer accesses the application, their consumer tenant calls the multitenant application with their tenant-specific URL. The URL follows the same pattern for all application consumers and consists of a hostname and a domain:
-
-`https://<hostname>.<domain>`
-
-For each consumer, you need a route that maps that URL to the approuter of your multitenant application. The routes are created inside the Cloud Foundry space where the multitenant application is deployed.
-
-You can either create the required routes upon deployment of the application or create them manually after deployment. If you create a route manually, you also need to map it to the approuter application manually.
-
-During the development phase, we recommend that you use one of the shared domains available on SAP Business Technology Plattform for your application. You will need to create a separate route for each test consumer in the global account for development. During the production phase, we recommend that you use a custom domain for your application. In this case, it makes sense to define a wildcard route that works for all hostnames. The Maintain Solution app does this automatically.
-
-For more information, see [Approuter Application](https://help.sap.com/docs/btp/sap-business-technology-platform/approuter-application?state=DRAFT).
-
-> ### Note:  
-> The desired route is not reserved. That means that in case of a shared domain such as `cfapps.eu10.hana.ondemand.com` the subdomains are not reserved and could be used by other SAP Business Technology Platform customers. This is why wildcard routes shall not be used for shared domains.
-
 <a name="loio1782f253e102484dac378887b3d6d769"/>
 
 <!-- loio1782f253e102484dac378887b3d6d769 -->
@@ -90,7 +62,7 @@ For multitenancy offerings, there’s no sizing/quota per customer. You must dec
 
 #### Multitenancy
 
-As a DevOps engineer using parameter `tenant_mode` in the ABAP Solution service, you can define whether a customer gets a tenant in a dedicated system \(single\) or a shared system \(multi\). See [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
+As a DevOps engineer using parameter `tenant_mode` in the ABAP Solution service, you can define whether a customer gets a tenant in a dedicated system \(single\) or a shared system \(multi\). See [ABAP Solution Service](abap-solution-service-1697387.md).
 
 > ### Tip:  
 > For in-depth information about multitenancy, check out [Multitenancy](concepts-9482e7e.md#loioc8730736a52645b49ca76c08214bf181).
@@ -155,7 +127,7 @@ Parameter `size_of_persistence` is referring to quota plan `abap/hana_compute_un
 </tr>
 </table>
 
-See [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
+See [ABAP Solution Service](abap-solution-service-1697387.md).
 
 > ### Note:  
 > If the quota for a system is exceeded, you can request a resizing of the ABAP runtime or persistency depending on the needs of the SaaS application.
@@ -292,7 +264,7 @@ While creating the subaccount, you must provide the following details:
 -   **Name**: Give the subaccount a unique display name. This can be the name of the customer, a customer number or a specific naming pattern
 -   **Provider**: Choose the IaaS provider according to the IaaS provider selected for the provider subaccount
 -   **Region**: Choose the subaccount region according to the region where the provider subaccount was created. See [Regions and API Endpoints for the ABAP Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html#loio879f37370d9b45e99a16538e0f37ff2c).
--   **Subdomain**: The subdomain is important because it becomes the consumer-specific part of the tenant-specific application URL according to the `TENANT_HOST_PATTERN` that you defined in the approuter configuration for the multitenant application. See [Configure the Approuter Application](configure-the-approuter-application-3725815.md).
+-   **Subdomain**: The subdomain is important because it becomes the consumer-specific part of the tenant-specific application URL according to the `TENANT_HOST_PATTERN` that you defined in the approuter configuration for the multitenant application. See [Approuter Application](approuter-application-44dbd0a.md).
 
 <a name="loio477ea31394504182b2ea5ef9ce26802d"/>
 
@@ -309,7 +281,7 @@ After you have finalized the consumer subaccount configuration as an operator us
 
 Follow the instructions in [Subscribe to Multitenant Applications Using the Cockpit](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/7a3e39622be14413b2a4df7c02ca1170.html) to subscribe consumers:
 
-In the consumer subaccount, navigate to the *Service Marketplace*. To subscribe to the SaaS solution, choose *Create*. The subscribed application is now displayed in *Services* \> *Instances and Subscriptions*. Once the subscription to the SaaS Solution is complete, an email notification about system/tenant provisioning is sent. The email address is defined in the service configuration of your ABAP solution by setting parameter `provider_admin_email`. See [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
+In the consumer subaccount, navigate to the *Service Marketplace*. To subscribe to the SaaS solution, choose *Create*. The subscribed application is now displayed in *Services* \> *Instances and Subscriptions*. Once the subscription to the SaaS Solution is complete, an email notification about system/tenant provisioning is sent. The email address is defined in the service configuration of your ABAP solution by setting parameter `provider_admin_email`. See [ABAP Solution Service](abap-solution-service-1697387.md).
 
 > ### Note:  
 > In the production phase, the link to the application only works if you have defined a route with wildcard hostname \(and custom domain\) for the approuter application so that routes do not need to be created manually for each new subscription.
@@ -325,7 +297,7 @@ The subscription process triggers provisioning of
 
 In both cases, you, as a SaaS solution operator, receive a confirmation mail.
 
-The business type of the consumer tenant depends on the usage parameter configured for the ABAP Solution service. If you have set `usage = prod`, a tenant of business type `Partner Customer Production Tenant` is created. If you have set `usage = test`, a tenant of business type `Partner Customer Test Tenant` is created. For more information on the solution usage, see [Define Your ABAP Solution](define-your-abap-solution-1697387.md).
+The business type of the consumer tenant depends on the usage parameter configured for the ABAP Solution service. If you have set `usage = prod`, a tenant of business type `Partner Customer Production Tenant` is created. If you have set `usage = test`, a tenant of business type `Partner Customer Test Tenant` is created. For more information on the solution usage, see [ABAP Solution Service](abap-solution-service-1697387.md).
 
 As an operator user assigned to the role collection `LandscapePortalAdminRoleCollection`, you can access the systems overview of the *Landscape Portal* and check both provisioned systems and new tenants. See [Landscape Portal](landscape-portal-5eb70fb.md).
 
@@ -381,7 +353,7 @@ After the configuration in the consumer subaccount, your customer needs an initi
 To create such an initial administrator user, as a consumer subaccount administrator, you have to assign the role collection including the `SolutionAdmin` role to your user in the *Role Collections* view in the consumer subaccount.
 
 1.  Log on to the consumer subaccount and navigate to *Security* \> *Role Collections*.
-2.  Select the role collection you defined in [Create an XSUAA Instance](create-an-xsuaa-instance-2ce1a96.md), choose *Edit*, scroll down to *Users*, and select *\+*. Enter the email address of the initial consumer, select SAP ID Service as your identity provider or use your preferred custom identity provider, and save your changes.
+2.  Select the role collection you defined in [SAP Authorization and Trust Management Service](sap-authorization-and-trust-management-service-2ce1a96.md), choose *Edit*, scroll down to *Users*, and select *\+*. Enter the email address of the initial consumer, select SAP ID Service as your identity provider or use your preferred custom identity provider, and save your changes.
 
 In the confirmation dialog, you must confirm details such as email, subdomain, and subaccount ID to onboard the initial user:
 

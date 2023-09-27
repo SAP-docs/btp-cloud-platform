@@ -64,7 +64,7 @@ Key user extensibility that is enabled in the SaaS solution can be configured an
 > ### Note:  
 > Key user extensibility provided in a SaaS solution can only be configured in tenants of particular types, for testing purposes in tenants of type Partner Test.
 > 
-> These tenant types are provisioned in non-development systems, such as test system TST or quality assurance system QAS, where development is not allowed \(`is_development_allowed = false`\). The tenants are created independently from a subscription to the SaaS solution by using the *Landscape Portal* application. See [Use Test Tenants](use-test-tenants-dd7d8e8.md).
+> These tenant types are provisioned in non-development systems, such as test system TST or quality assurance system QAS, where development is not allowed \(`is_development_allowed = false`\). The tenants are created independently from a subscription to the SaaS solution by using the *Landscape Portal* application. See [Manage Test Tenants](manage-test-tenants-dd7d8e8.md).
 
 As a test user in a Partner Test tenant \(client \>= 200\), you configure key user extensibility in a test system.
 

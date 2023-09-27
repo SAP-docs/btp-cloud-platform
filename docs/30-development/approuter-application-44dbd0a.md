@@ -1,4 +1,4 @@
-<!-- loio2dc72581211842b2a0a3e16d1cecd9c6 -->
+<!-- loio44dbd0ae4d4b4d9c9c8371d711c22bfe -->
 
 # Approuter Application
 
@@ -21,30 +21,30 @@ To make sure that the approuter routes all relevant requests to the ABAP Solutio
 > ### Sample Code:  
 > ```
 > {
-> 	"authenticationMethod": "route",
-> 	"welcomeFile": "/ui",
-> 	"logout": {
-> 		"logoutEndpoint": "/sap/public/bc/icf/logoff",
->     		"logoutPage": "/ui"
-> 	},
->   	"routes": [
-> 		{
-> 			"source": "^/sap/(.*)$",
-> 			"target": "/sap/$1",
-> 			"authenticationType": "xsuaa",
-> 			"service": "com.sap.cloud.abap.solution",
-> 			"csrfProtection": false
-> 		},
-> 		{
-> 			"source": "^/ui(.*)$",
-> 			"target": "/ui$1",
-> 			"authenticationType": "xsuaa",
-> 			"service": "com.sap.cloud.abap.solution",
-> 			"csrfProtection": false
-> 		}
-> 	]
-> }
-> 
+> 								"authenticationMethod": "route",
+> 								"welcomeFile": "/ui",
+> 								"logout": {
+> 								"logoutEndpoint": "/sap/public/bc/icf/logoff",
+> 								"logoutPage": "/ui"
+> 								},
+> 								"routes": [
+> 								{
+> 								"source": "^/sap/(.*)$",
+> 								"target": "/sap/$1",
+> 								"authenticationType": "xsuaa",
+> 								"service": "com.sap.cloud.abap.solution",
+> 								"csrfProtection": false
+> 								},
+> 								{
+> 								"source": "^/ui(.*)$",
+> 								"target": "/ui$1",
+> 								"authenticationType": "xsuaa",
+> 								"service": "com.sap.cloud.abap.solution",
+> 								"csrfProtection": false
+> 								}
+> 								]
+> 								}
+> 							
 > ```
 
 -   **Requests to the …/sap/… path**are backend requests and will be routed to the ABAP Solution service after successful authentication. CSRF token protection is disabled for this route as CSRF protection is already enforced via the underlying services in the ABAP system.

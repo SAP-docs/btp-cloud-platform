@@ -1,6 +1,6 @@
 <!-- loio0d92f493624f47fba997d3a5e0dd2a0d -->
 
-# OData Client Proxy Configurations
+# OData Client Proxies
 
 There are several consumption types and OData versions for your OData Client Proxy configurations, depending on your use case.
 
