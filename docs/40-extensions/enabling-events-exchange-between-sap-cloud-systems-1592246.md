@@ -21,9 +21,10 @@ The following procedure outlines the steps you need to perform to enable the exc
 
 ## Prerequisites
 
-You have subscribed to SAP Event Broker application.
+-   You are a global account administrator, or you are a system landscape administrator. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
 
-See [Subscribing to SAP Event Broker Application](https://help.sap.com/docs/SAP_EMKS/19cb7423096b476d940924799c9e8f5a/53f34cca6bf74610836585e6af9b3745.html).
+-   You have subscribed to SAP Event Broker application. See [Subscribing to SAP Event Broker Application](https://help.sap.com/docs/SAP_EMKS/19cb7423096b476d940924799c9e8f5a/53f34cca6bf74610836585e6af9b3745.html).
+
 
 
 
@@ -41,7 +42,7 @@ See [Subscribing to SAP Event Broker Application](https://help.sap.com/docs/SAP_
 
     -   *Subaccount/*<my-subaccount\>**
 
-        A subscription in SAP BTP cockpit associated with a given subaccount. The subscription has been discovered and added automatically through the subaccount.
+        A subscription in SAP BTP cockpit associated with a given subaccount. The subscription has been discovered and added automatically through the subaccount. Check the value of the *Discovery* column to see the subaccount where your system is subscribed.
 
     -   *Manually added*
 
@@ -55,9 +56,21 @@ See [Subscribing to SAP Event Broker Application](https://help.sap.com/docs/SAP_
 
 2.  Create a formation of type *Eventing Between SAP Cloud Systems* and include the relevant systems in it.
 
-    To enable events exchange between the systems in your system landscape via SAP Event Broker, these systems must be grouped logically together and associated with the subaccount in SAP BTP. The grouping of systems into an eventing formation defines the use case with these systems and denotes that they can share events as part of the formation.
+    1.  Add any name that helps you identify your formation.
 
-    See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
+    2.  In the *Formation Type* dropdown menu, select *Eventing Between SAP Cloud Systems*.
+
+    3.  In the *Subaccount* dropdown menu, select the subaccount where SAP Event Broker is subscribed.
+
+        > ### Note:  
+        > The subaccount where SAP Event Broker is subscribed can only be part of one formation in a global account.
+        > 
+        > SAP systems can only be added to one formation of type *Eventing Between SAP Cloud Systems* in a global account.
+
+    4.  Select the systems that you want to include in the formation.
+
+    5.  Review your selections and create the formation.
+
 
 
 
@@ -66,7 +79,13 @@ See [Subscribing to SAP Event Broker Application](https://help.sap.com/docs/SAP_
 
 ## Next Steps
 
-When the formation is prepared, navigate to the SAP Event Broker UI and enable the event subscriptions.
+When the formation is created, navigate to the SAP Event Broker application and enable the event subscriptions. See [Enabling SAP Event Subscriptions](https://help.sap.com/docs/SAP_EMKS/19cb7423096b476d940924799c9e8f5a/e0b4046096524301ba1d738909368b9f.html).
 
-See [Enabling SAP Event Subscriptions](https://help.sap.com/docs/SAP_EMKS/19cb7423096b476d940924799c9e8f5a/e0b4046096524301ba1d738909368b9f.html).
+
+
+<a name="loio15922463e5a54538857795316eb4d997__section_lq4_2sr_xyb"/>
+
+## Remove a System from the Formation
+
+If you want to remove an SAP system from a formation of type *Eventing Between SAP Cloud Systems*, make sure that all active event subscriptions are disabled first in SAP Event Broker. You can check your subscriptions in the SAP Event Broker application on the *Subscriptions* page. See [Disabling SAP Event Subscriptions](https://help.sap.com/docs/event-broker/event-broker-service-guide/disable-event-subscriptions?version=Cloud).
 

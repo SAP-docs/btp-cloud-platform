@@ -12,7 +12,7 @@ In scenarios where your SAP BTP application interacts with applications that don
 
 -   Trust with an Identity Authentication tenant is configured with OpenID Connect \(OIDC\).
 
-    For more information, see [Establish Trust and Federation Between UAA and Identity Authentication](../50-administration-and-ops/establish-trust-and-federation-between-uaa-and-identity-authentication-161f8f0.md).
+    For more information, see [Establish Trust and Federation Between SAP Authorization and Trust Management Service and Identity Authentication](../50-administration-and-ops/establish-trust-and-federation-between-sap-authorization-and-trust-management-service-a-161f8f0.md).
 
 -   Trust with a corporate identity provider by your Identity Authentication is configured with OIDC.
 

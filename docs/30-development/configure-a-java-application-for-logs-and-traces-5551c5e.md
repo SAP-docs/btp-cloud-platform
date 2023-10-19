@@ -90,7 +90,7 @@ The recommended framework for logging is Simple Logging Facade for Java \(SLF4J\
 **Related Information**  
 
 
-
+ <?sap-ot O2O class="- topic/link " href="5c3be084b9e845dc90f1ace920ce1cb1.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/5551c5e4ef15482998adfbfa0aed7f6b.xml" ?> 
 
 [Configure the Access Logs of an Application](configure-the-access-logs-of-an-application-64c1153.md "The SAP Java Buildpack uses the logback-access module to provide HTTP-access log functionality.")
 

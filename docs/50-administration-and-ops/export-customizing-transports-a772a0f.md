@@ -35,11 +35,13 @@ You can use this app to:
 
 -   Create new customizing transport requests.
 
--   Display the customizing tasks and objects of a customizing transport request.
+-   Display the customizing tasks, objects, attributes, notes and logs of a customizing transport request.
 
 -   Display the objects recorded in a customizing task.
 
 -   Display the table keys recorded for an object.
+
+-   Add N´notes to a customizing request.
 
 -   Check customizing transport requests.
 

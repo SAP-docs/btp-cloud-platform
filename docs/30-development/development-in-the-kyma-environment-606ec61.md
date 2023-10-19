@@ -38,7 +38,7 @@ The [Kyma Environment](../10-concepts/kyma-environment-468c2f3.md) allows you to
 
 ## Language of Choice
 
-With the Kyma environment, you can create microservices in the language of your choice and run them as containerized applications. Additionally, you can create Functions in Node.js \(v12 and v14\) or Python \(v3.8\).
+With the Kyma environment, you can create microservices in the language of your choice and run them as containerized applications. Additionally, you can create Functions in Node.js or Python.
 
 
 
@@ -49,6 +49,14 @@ With the Kyma environment, you can create microservices in the language of your 
 The Kyma environment comes with a central administration dashboard \(Kyma Dashboard\), which allows you to deploy microservices, create Functions, and manage their configurations. You can also use it to connect SAP BTP services to your cluster and manage them using SAP BTP Service Operator, create instances of these services, and use them in your microservices or Functions.
 
 For those who prefer to work with command-line tools, the Kyma environment also offers the Kubernetes command-line tool, kubectl.
+
+
+
+<a name="loio606ec610ee4746c09d5d2bef5a85a124__section_nhd_xcy_bzb"/>
+
+## SAP Cloud Application Programming Model
+
+The SAP Cloud Application Programming Model \(CAP\) is the recommended framework for application and service development in the Kyma environment. To learn more, see [SAP Cloud Application Programming Model](../10-concepts/sap-cloud-application-programming-model-042061d.md).
 
 
 
@@ -97,7 +105,7 @@ To help you get started with the development process, go through the set of tuto
 
     Kyma provides a ready-to-use project that contains sample applications. You can take advantage of them to build event- and API-based extensions in the Kyma environment using your favorite technology. These samples are implemented in multiple languages and demonstrate various Kyma environment features and use case scenarios.
 
--   [Using SAP BTP Services in the Kyma Environment](using-sap-btp-services-in-the-kyma-environment-ea4dd81.md)
+-   [Using SAP BTP Services in the Kyma Environment](using-sap-btp-services-in-the-kyma-environment-ea4dd81.md#loioea4dd81e49254dd482d32e3c20f4477a)
 
     Kyma environment allows you to extend the SAP systems to build and deploy your own applications.
 

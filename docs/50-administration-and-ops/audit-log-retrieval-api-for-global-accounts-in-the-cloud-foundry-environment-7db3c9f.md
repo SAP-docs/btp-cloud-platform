@@ -11,7 +11,14 @@ Your central region is the eu10 Europe \(Frankfurt\) region, unless your global 
 
 Audit Log Retrieval API is protected by OAuth, and to consume it, you need your system to generate and use a valid OAuth.
 
-Retrieving of audit logs via Audit Log Retrieval API is limited to the size of the audit logs written on behalf of the global account.
+Retrieving of audit logs via Audit Log Retrieval API is limited to the size of the audit logs written on behalf of the global account. The possible request rate is now limited to:
+
+-   4 requests per second per auth-token/tenant on CF-EU11, CF-EU30, CF-US20, CF-US21, CF-JP10, CF-JP20, CF-BR10. There is also a burst queue that can temporarily allow up to 20 requests per second.
+
+-   8 requests per second per auth-token/tenant on CF-EU10, CF-EU20, CF-US10, CF-US30. There is also a burst queue that can temporarily allow up to 40 requests per second.
+
+
+The API returns a HTTP 429 response code when the limit is exceeded.
 
 
 
@@ -256,6 +263,8 @@ Response codes:
 `HTTP 400 BAD_REQUEST`
 
 `HTTP 403 FORBIDDEN`
+
+`HTTP 429 Too Many Requests`
 
 Predefined audit log message categories:
 

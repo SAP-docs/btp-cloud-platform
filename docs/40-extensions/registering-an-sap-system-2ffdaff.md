@@ -45,21 +45,6 @@ When you add a system, it appears in the system landscape list as a record with 
 > 
 > This means that you cannot have more than 1000 systems in the Systems list of the same type with an empty status and generated token that is not used yet.
 
-The following SAP system types are supported:
-
--   SAP S/4HANA Cloud \(available for Cloud Foundry and Kyma environment\)
-
--   SAP Marketing Cloud \(available for Cloud Foundry and Kyma environment\)
-
--   SAP SuccessFactors \(available for Cloud Foundry and Kyma environment\)
-
--   SAP Commerce Cloud \(available for Kyma environment\)
-
--   SAP Cloud for Customer \(available for Kyma environment\)
-
--   SAP Field Service Management \(available for Kyma environment\)
-
-
 The registration process has the following states displayed in the cockpit:
 
 -   No status displayed in the *Status* column - the registration token for an SAP system has been created but the registration on the respective SAP system side has not been performed or completed yet.
@@ -89,6 +74,17 @@ If the registration error persists, report an incident in one of the following c
 1.  In the cockpit, navigate to your global account, and then choose *System Landscape* \> *Systems* .
 
 2.  On the *Systems* page, choose *Add System*.
+
+    > ### Note:  
+    > Before adding your system, make sure it's not already auto-discovered and listed automatically in the *Systems* list. Some of the SAP systems have additional configurations described in dedicated procedures. See:
+    > 
+    > -   [Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](register-an-sap-s-4hana-cloud-system-in-a-global-account-in-sap-btp-28171b6.md)
+    > 
+    > -   [Register an SAP Marketing Cloud System in a Global Account in SAP BTP](register-an-sap-marketing-cloud-system-in-a-global-account-in-sap-btp-e9d975a.md)
+    > 
+    > -   [Register an SAP SuccessFactors System in a Global Account in SAP BTP](register-an-sap-successfactors-system-in-a-global-account-in-sap-btp-e956ba2.md)
+    > 
+    > -   [Register an SAP Customer Experience System](register-an-sap-customer-experience-system-1582d72.md)
 
 3.  In the *Add System* wizard:
 

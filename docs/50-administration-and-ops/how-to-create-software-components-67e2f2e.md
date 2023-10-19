@@ -85,7 +85,7 @@ To create a new software component, perform the following steps:
     2.  The instance is integrated with the ABAP Development Tools \(ADT\), where ABAP development objects are created in development packages and uploaded to the structure package.
 
         > ### Note:  
-        > Note that you have to create a development package first. Afterward, create ABAP development objects in this newly created development package. The development package is a sub-package of the structure package dependent on the software component.
+        > Note that you have to create a development package first. Afterwards, create ABAP development objects in this newly created development package. The development package is a sub-package of the structure package dependent on the software component.
 
         > ### Tip:  
         > We recommend that you add all your cloned software components \(structure packages\) to your *Favorite Packages* in eclipse to a have an easy and quick access to it.

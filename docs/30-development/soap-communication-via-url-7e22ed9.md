@@ -49,7 +49,7 @@ Instead of setting the *Additional Properties* as in the destination service app
 **Related Information**  
 
 
-[Enable SOAP Communication in Your ABAP Code](enable-soap-communication-in-your-abap-code-6ab460e.md "SOAP-based Web service outbound communication within the ABAP environment is enabled by using SOAP destination objects.")
+[Enable SOAP Communication in Your ABAP Code](enable-soap-communication-in-your-abap-code-6ab460e.md "SOAP-based web service outbound communication within the ABAP environment is enabled by using SOAP destination objects.")
 
 [Tutorial: Consume SOAP-Based Web Services with SAP BTP ABAP Environment](https://developers.sap.com/tutorials/abap-environment-soap-web-services.html)
 

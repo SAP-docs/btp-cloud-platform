@@ -12,7 +12,7 @@ You can include various SAP systems into a formation and thus combine diverse SA
 
 -   You are a global account administrator, or you are a system landscape administrator. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
 
--   The SAP solution systems that you want to include to a formation must be added at the *Systems* screen. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
+-   The SAP solution systems that you want to include to a formation must be added at the *Systems* list in the *System Landscape* page. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
 
 
 

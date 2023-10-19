@@ -8,7 +8,7 @@ Here's how this is done:
 
 1.  Log in to the Landscape Portal and click on the tile *Build Product Version*.
 
-2.  Select one of your products from the list. You will be forwarded to the *Product Versions* tab. Here, you can see a table listing all the existing versions of this product, their type \(*Release Delivery*, *Patch Delivery*, *Support Package Stack*\), when they were created, as well as their delivery status \(for more information on the delivery status, see [Create a New Product Version](create-a-new-product-version-6efb524.md)\).
+2.  Select one of your products from the list. You will be forwarded to the *Product Versions* tab. Here, you can see a table listing all the existing versions of this product, their type, when they were created, as well as their delivery status \(for more information on the delivery status, see [Create a New Product Version](create-a-new-product-version-6efb524.md)\).
 
 3.  Click on the product version for which you would like to see the pipeline progress. You will be redirected to a screen showing the *Pipeline Status* for that product version.
 

@@ -21,13 +21,13 @@ Check the following Cloud Foundry documentation:
 
 When deploying an application in Cloud Foundry environment without specifying the *npm* version in the **package.json** file, it will install the default *npm* version \(depending on the Node.js version\) during the build step. A version mismatch can cause the build step to fail.
 
-To check your Node.js version, execute:
+To check your Node.js version, run:
 
 ```
 node --version
 ```
 
-To check your npm version, execute:
+To check your npm version, run:
 
 ```
 npm --version
@@ -70,7 +70,7 @@ There are various reasons to use vendoring. For example, productive applications
 > ### Note:  
 > Bear in mind when using dependencies containing native code that you need to reinstall in the same environment as the Cloud Foundry container, or make sure that the package has built-in support for it.
 
-To ensure that prepackaged dependencies are pushed to the Cloud Foundry environment and on-premise runtime, make sure that the **`node_modules`** directory isn’t listed in the `.cfignore` file. It’s also preferable that development dependencies are not deployed for productive deployments. To ensure that, execute:
+To ensure that prepackaged dependencies are pushed to the Cloud Foundry environment and on-premise runtime, make sure that the **`node_modules`** directory isn’t listed in the `.cfignore` file. It’s also preferable that development dependencies are not deployed for productive deployments. To ensure that, run:
 
 ```
 npm prune --production
@@ -93,7 +93,7 @@ Example for an application started with 256M of RAM:
 > node --max_old_space_size=192 server.js
 > ```
 
-You can optimize V8 behavior using additional options. To list these options, execute:
+You can optimize V8 behavior using additional options. To list these options, run:
 
 ```
 node --v8-options
@@ -123,7 +123,7 @@ Let's say, you want to pin version [1.8.9](https://github.com/cloudfoundry/nodej
       memory: 128M
     ```
 
-3.  Redeploy your application by executing:
+3.  Redeploy your application. Run:
 
     ```
     cf push myapp
@@ -134,13 +134,13 @@ Let's say, you want to pin version [1.8.9](https://github.com/cloudfoundry/nodej
 
 If you don't want to make changes in your **manifest.yml** file, you can include the buildpack version in the `cf push` command.
 
--   To deploy just a **single** application with this particular buildpack version, execute:
+-   To deploy just a **single** application with this particular buildpack version, run:
 
     ```
     cf push myapp -b https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.9
     ```
 
--   To pin this buildpack version for **all** applications running in your SAP BTP, Cloud Foundry subaccount, execute:
+-   To pin this buildpack version for **all** applications running in your SAP BTP, Cloud Foundry subaccount, run:
 
     ```
     cf push -b https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.9

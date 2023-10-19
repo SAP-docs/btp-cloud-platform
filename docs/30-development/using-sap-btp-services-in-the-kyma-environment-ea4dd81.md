@@ -10,7 +10,9 @@ With the Kyma environment, you can connect SAP BTP services to your cluster and 
 
 ## Prerequisites
 
--   For CLI interactions: You have installed [kubectl](https://kubernetes.io/docs/tasks/tools/) v1.17 or higher.
+-   The SAP BTP Operator module is enabled, see [Enable and Disable a Kyma Module](../50-administration-and-ops/enable-and-disable-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c). Otherwise, you get the following error message: `resource mapping not found for {...} ensure CRDs are installed first`.
+
+-   For CLI interactions: [kubectl](https://kubernetes.io/docs/tasks/tools/) v1.17 or higher.
 
 -   You know the `serviceOfferingName` and `servicePlanName` for the SAP BTP service you want to connect to the Kyma cluster. You find these values in the Service Marketplace of the SAP BTP cockpit. Click on the service's tile and find *name* and *Plan*, respectively.
 
@@ -18,14 +20,25 @@ With the Kyma environment, you can connect SAP BTP services to your cluster and 
 > ### Note:  
 > You can use [SAP BTP kubectl plugin](https://github.com/SAP/sap-btp-service-operator#sap-btp-kubectl-plugin-experimental) to get the available services in your SAP BTP account by using the access credentials stored in the cluster. However, the plugin is still experimental.
 
+<a name="loioc8520b1c5c67409eb2d6e06c519eef18"/>
+
+<!-- loioc8520b1c5c67409eb2d6e06c519eef18 -->
+
+## Creating and Managing Services Using kubectl
+
+Create and manage Service Instances and Service Bindings using kubectl.
 
 
-<a name="loioea4dd81e49254dd482d32e3c20f4477a__steps_ayb_vch_ypb"/>
+
+## Context
+
+Use kubectl to create and manage your resources.
+
+
+
+<a name="loioc8520b1c5c67409eb2d6e06c519eef18__steps_ayb_vch_ypb"/>
 
 ## Procedure
-
-> ### Note:  
-> You can choose to create and manage resources such as Service Instances and Service Bindings in Kyma Dashboard, in the *Namespace* view, under *Service Management*. Still, you need the service details, such as service name and plan, from the SAP BTP cockpit.
 
 1.  Create a Service Instance:
 
@@ -78,23 +91,66 @@ With the Kyma environment, you can connect SAP BTP services to your cluster and 
 
     You can see the status ***created*** and the message ***ServiceBinding provisioned successfully***.
 
-5.  You can now use a given service in your Kyma cluster. To see credentials, run:
-
-    ```
-    kubectl get secret {BINDING_NAME} -o yaml
-    ```
-
-6.  Clean up your resources:
-
-    ```
-    kubectl delete servicebindings.services.cloud.sap.com {BINDING_NAME}
-    kubectl delete serviceinstances.services.cloud.sap.com {INSTANCE_NAME}
-    
-    ```
 
 
-**Related Information**  
+
+<a name="loioc8520b1c5c67409eb2d6e06c519eef18__result_sch_bjy_bzb"/>
+
+## Results
+
+You can now use a given service in your Kyma cluster. To see credentials, run:
+
+```
+kubectl get secret {BINDING_NAME} -o yaml
+```
 
 
-[SAP BTPService Operator](https://github.com/SAP/sap-btp-service-operator)
+
+<a name="loioc8520b1c5c67409eb2d6e06c519eef18__postreq_jqd_mjy_bzb"/>
+
+## Next Steps
+
+To clean up your resources, run:
+
+```
+kubectl delete servicebindings.services.cloud.sap.com {BINDING_NAME}
+kubectl delete serviceinstances.services.cloud.sap.com {INSTANCE_NAME}
+```
+
+<a name="loio975983821be040f0b7886791abcf3b7e"/>
+
+<!-- loio975983821be040f0b7886791abcf3b7e -->
+
+## Creating and Managing Services Using Kyma Dashboard
+
+Create and manage Service Instances and Service Bindings using Kyma Dashboard.
+
+
+
+## Context
+
+Use Kyma Dashboard to create and manage your resources.
+
+
+
+## Procedure
+
+1.  In the *Namespace* view, go to *Service Management**→Service Instances*.
+
+2.  Create Service Instance using the required service details.
+
+    You see the status `PROVISIONED`.
+
+3.  Go to *Service Management**→Service Bindings* and create Service Binding, choosing your instance name from the dropdown list.
+
+    You see the status `PROVISIONED`.
+
+
+
+
+<a name="loio975983821be040f0b7886791abcf3b7e__result_m43_t3y_bzb"/>
+
+## Results
+
+You can now use a given service in your Kyma cluster.
 

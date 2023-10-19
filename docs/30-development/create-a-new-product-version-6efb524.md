@@ -20,11 +20,7 @@ Find out how to create a new product version:
     -   **Ready for production**: The product version is ready for production use. An ABAP environment production system can now be updated to this product version.
 
 
-3.  To create a new product version of type *Release Delivery*, click on the *Create* button on the right and select *Release Delivery*.
-
-    To create a product version of type *Patch Delivery* or *Support Package Stack*, first select a parent version from the list of product versions, then click the *Create* button on the right and select the desired type.
-
-    The resulting product version will be calculated automatically.
+3.  To create a new product version, click the *Create* button, choose *Delivery* or *Test* and select the desired type. The resulting product version will be calculated automatically.
 
 4.  Select software components to be included in your new product version. To add additional software components, click the *Add* button on the right. For each software component, define a component version, enter the desired branch and commit ID as seen in the Manage Software Components app, and select in which languages your product version should be built. You can change the order of how the software components are imported via drag and drop in the table or by selecting a component and moving it using the arrows on the right. For more information, see [Manage Software Components.](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/3dcf76a072c9450eb46b99db947dab46.html?version=Cloud)
 

@@ -111,7 +111,7 @@ In the [SAP Discovery Center service catalog overview](https://discovery-center.
 
 [Getting Started with a Trial Account in the Cloud Foundry Environment](../20-getting-started/getting-started-with-a-trial-account-in-the-cloud-foundry-environment-e50ab7b.md "Quickly get started with a trial account.")
 
-
+ <?sap-ot O2O class="- topic/link " href="720c423ef1a8498ab690cf0e5512ba50.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/046f127f2a614438b616ccfc575fdb16.xml" ?> 
 
 [Getting Started with a Trial Account in the Kyma Environment](../20-getting-started/getting-started-with-a-trial-account-in-the-kyma-environment-ccb83c7.md "Quickly get started with a trial account in the Kyma environment.")
 

@@ -33,11 +33,11 @@ When your organization signs a contract for SAP BTP services, an e-mail is sent 
 
     When using cloud management tools feature set A: Choose [https://account.eu1.hana.ondemand.com](https://account.eu1.hana.ondemand.com) to access the cockpit.
 
-    When using cloud management tools feature set B: Choose `https://<cockpit region>.cockpit.btp.cloud.sap` to access the cockpit and replace <code><i class="varname">&lt;cockpit region&gt;</i></code> with one of the following, depending on your geographic location:
+    When using cloud management tools feature set B:
 
-    -   `emea`
-    -   `amer`
-    -   `apac`
+    Choose `https://cockpit.btp.cloud.sap` to access the cockpit. Depending on your own geo location this URL will redirect you to the closest regional Cockpit URL.
+
+    For more information, see [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
 
     > ### Note:  
     > If single sign-on has not been configured for you, you will have to enter your credentials. You’ll find your logon ID in your Welcome e-mail.

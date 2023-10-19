@@ -153,5 +153,5 @@ The local Client Proxy \(both Version 2 and Version 4\) can't be used to consume
 **Related Information**  
 
 
-[Service Consumption Model](service-consumption-model-ed5d88e.md "Consume a remote OData request in the Client Proxy instance.")
+[Service Consumption Model](service-consumption-model-ed5d88e.md "A Service Consumption Model (SRVC) generates proxy artifacts to consume OData, RFC, or SOAP services.")
 

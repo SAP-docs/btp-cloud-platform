@@ -36,7 +36,7 @@ After creating a communication arrangement, you can still delete the communicati
 You have deleted a communication arrangement.
 
 > ### Note:  
-> When a communication arrangement is deleted, all events belonging to the channel ‒ including those that have not yet been successfully published to the SAP Event Mesh service ‒ are deleted from the event queue. Additionally, the configuration for the underlying channel, such as inbound and outbound bindings, is deleted.
+> When a communication arrangement is deleted, all events belonging to the channel ‒ including those that have not yet been successfully published to the SAP Event Broker service ‒ are deleted from the event queue. Additionally, the configuration for the underlying channel, such as inbound and outbound bindings, is deleted.
 
 
 

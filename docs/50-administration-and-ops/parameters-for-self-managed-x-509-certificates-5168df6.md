@@ -16,7 +16,7 @@ Use these parameters to provide your own certificates for a binding or service k
 
 -   To use your own public key infrastructure \(PKI\), the certificates must be issued from one of the following certificate authorities \(CA\).
 
-    For more information, see [Trusted Certificate Authorities for X.509 Secrets](trusted-certificate-authorities-for-x-509-secrets-edd5613.md).
+    For more information, see [Trusted Authorities for X.509 Certificates](trusted-authorities-for-x-509-certificates-edd5613.md).
 
 
 

@@ -269,7 +269,7 @@ Provides the last valid date
 <tr>
 <td valign="top">
 
-is\_workingday
+is\_date\_workingday
 
 
 
@@ -657,6 +657,11 @@ To enable the use of the above mentioned runtimes, it may be necessary that an a
 You can do such a mapping using the interface IF\_FHC\_ID\_MAPPER and class `CL_FHC_CALENDAR_ID_MAPPER`. The mapping is available for holidays, holiday calendars, and factory calendars.
 
 The `CL_FHC_CALENDAR_ID_MAPPER` class returns an ID mapper instance. Subsequently, you can use the methods provided by the interface `IF_FHC_ID_MAPPER` to perform the desired mappings.
+
+> ### Caution:  
+> It can't be guaranteed that the 2-digit legacy ID will point to the same calendar on each system. The 2-digit legacy ID should only be used if applications have already used `CL_SCAL_API`, stored the 2-digit legacy ID and have not yet migrated to the new APIs and IDs. The 2-digit legacy IDs are only intended for the transition phase.
+> 
+> We recommend using and saving the new 32-digit IDs on the application side. The whole functionality is optimized for using the new 32-digit ID.
 
 
 

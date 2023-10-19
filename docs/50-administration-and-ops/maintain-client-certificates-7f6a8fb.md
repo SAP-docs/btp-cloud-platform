@@ -12,7 +12,7 @@ With this app you can upload client certificates for your area to enable secure 
 
 ## Key Features
 
-a\) You can use this app to:
+You can use this app to:
 
 
 

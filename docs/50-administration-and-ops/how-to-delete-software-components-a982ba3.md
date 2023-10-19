@@ -15,7 +15,7 @@ You want to delete a software component in order to:
 -   get rid of software components that have been created by mistake \(e.g. a typo in the software component name\).
 
 
-For every delete activity, the user is documented in a log.
+For every delete activity, the executing business user is documented in a log.
 
 
 
@@ -25,11 +25,13 @@ For every delete activity, the user is documented in a log.
 
 To delete a software component, perform the following steps:
 
-1.  On the *Manage Software Components* screen, select a software component you want to delete.
+1.  In the *Manage Software Components* app, search for the software component out of the list that you want to delete.
 
-2.  Choose *Delete* in the control panel.
+2.  Click onto the software component to be redirected to its detail page.
 
-3.  You will be prompted to confirm the action.
+3.  Choose the *Delete* button in the upper right corner.
+
+4.  You will be prompted to confirm the action and receive the opportunity to delete the remote repository together with the local one.
 
     > ### Caution:  
     > Make sure you delete all artifacts in the system locally first as the deletion will only delete the software component remotely. Please note that this action can't be undone.
@@ -41,10 +43,26 @@ To delete a software component, perform the following steps:
 
 ## Software component deletion in a service instance
 
-**Types of Software Component deletion**
+**Types of Software Component Deletion**
 
 
 <table>
+<tr>
+<th valign="top">
+
+Empty Software Component
+
+
+
+</th>
+<th valign="top">
+
+Used Software Component
+
+
+
+</th>
+</tr>
 <tr>
 <td valign="top">
 
@@ -56,6 +74,94 @@ The software component contains no object locally in the service instance and no
 <td valign="top">
 
 The software component contains objects locally and possible changes are committed to the remote repository. The remote repository is then deleted and the software component is locked. Since the software component is locked, no object changes can be released \(pushed to remote\) anymore.
+
+
+
+</td>
+</tr>
+</table>
+
+**Local and Remote Deletion**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Local Deletion
+
+
+
+</th>
+<th valign="top">
+
+Remote Deletion
+
+
+
+</th>
+<th valign="top">
+
+Local and Remote Deletion
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+When only deleting the local representation of the software component, this means all ABAP objects including the parent structure package.
+
+
+
+</td>
+<td valign="top">
+
+When only deleting the remote representation \(remote repository\), a warning text will appear:
+
+*The software component will be remotely deleted. As a consequence, no actions can be performed anymore. Please make sure to first delete the software component locally on all system instances where it is cloned. The component cannot be deleted from the other systems after it is remotely erased. This action cannot be undone.*
+
+
+
+</td>
+<td valign="top">
+
+When deleting local and remote representations, local means only the current system instance.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Consequences:
+
+You can re-clone the software component again.
+
+> ### Caution:  
+> A local deletion can be critical when database tables are deleted. The local \(not transported\) table entries contained in this table will get lost. Though this would be a possible scenario on a quality or production system. On development systems, usually, there should be no business data \(like table entries\).
+
+
+
+</td>
+<td valign="top">
+
+Consequences:
+
+You cannot re-clone the software component again.
+
+> ### Caution:  
+> If only the remote repository is deleted, the local objects will stay in the system, but the software component \(structure package\) will be locked. Currently, there is no safe option available for unproblematic recoveries or unlocking.
+
+
+
+</td>
+<td valign="top">
+
+> ### Note:  
+> A distributed local deletion \(deleting local software components on other system instances than the current one\) is not possible.
 
 
 
@@ -82,6 +188,9 @@ The software component contains objects locally and possible changes are committ
 
 The selected software component is deleted centrally if the checkbox *remote deletion* was selected. Otherwise it is only a local deletion, affecting the current system instance.
 
+> ### Caution:  
+> Here, centrally means the repository visible throughout the global account is deleted.
+
 You can no longer pull or clone the software component to a service instance.
 
 If this software component has already been pulled to a service instance, objects are not deleted in the ABAP instances but the status of the software component and all belonging objects are changed to *read-only*. You're not able to make any changes to the dedicated structure package and the development package that is contained in there. If you want to delete the objects, you must delete them and import the deletion into other systems, before you delete the software component.
@@ -91,5 +200,5 @@ If this software component has already been pulled to a service instance, object
 ## Restoring Deleted Software Components
 
 > ### Note:  
-> Currently you can't restore software components that have been deleted.
+> Currently you cannot restore software components that have been deleted. Please also use new software component name instead of reusing previously deleted software components/ software component names.
 

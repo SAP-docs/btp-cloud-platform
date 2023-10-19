@@ -2,7 +2,7 @@
 
 # Deploying Content with CF Task Execution
 
-This approach for content deployment relies on an intermediateCloud Foundry applicationthat communicates with the content backend. This application includes both the content and the content specific deployer.
+This approach for content deployment relies on an intermediate Cloud Foundry application that communicates with the content backend. This application includes both the content and the content specific deployer.
 
 The content specific deployer is defined as an application dependency during design time. It is then included in the MTA archive. During deployment it serves as a client for the actual content deployment to the content backend.
 

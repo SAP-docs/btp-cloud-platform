@@ -218,6 +218,8 @@ We recommend that you cache access tokens in your application as long as they're
 
 For more information, see [Rate Limiting](../60-security/rate-limiting-d203e2d.md).
 
+However, renewing tokens before they actually expire improves the resiliency of your applications. If your application only renews tokens at their expiration and the service isn't available at that moment, your users experience a downtime. For example, if your token validity is set to 12 hours, try to renew the token after 6 hours.
+
 Having a local cache also improves the performance of your applications.
 
 Implement a method to remove invalid tokens from your cache. When your application calls with a token from your cache and receives the return codes in the following table, remove the token from your cache and request a new token.
@@ -299,7 +301,7 @@ Occurs if the token is valid but a scope is missing.
 </table>
 
 > ### Tip:  
-> SAP Authorization and Trust Management service ensures that key remain valid for 2 hours after key rotations. Exception: When subaccount administrators force a key rotation, the key is immediately invalid. We recommend that you configure your cache with a 2-hour time-to-live \(TTL\). If you use a longer TTL, your application must be able to invalidate cache entries when the service responds with 401. Have your application only retry once on failure.
+> SAP Authorization and Trust Management service ensures that keys remain valid for 2 hours after key rotations. Exception: When subaccount administrators force a key rotation, the key is immediately invalid. We recommend that you configure your cache with a 2-hour time-to-live \(TTL\). If you use a longer TTL, your application must be able to invalidate cache entries when the service responds with 401. Have your application only retry once on failure.
 
 > ### Restriction:  
 > When administrators force key rotation, applications that use cached tokens must accept a downtime until their caches have been cleared.

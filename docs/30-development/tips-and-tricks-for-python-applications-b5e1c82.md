@@ -49,7 +49,7 @@ Let's say, you want to pin version [1.8.4](https://github.com/cloudfoundry/pytho
       memory: 128M
     ```
 
-3.  Redeploy your application by executing:
+3.  Redeploy your application. Run:
 
     ```
     cf push myapp
@@ -60,13 +60,13 @@ Let's say, you want to pin version [1.8.4](https://github.com/cloudfoundry/pytho
 
 If you don't want to make changes in your **manifest.yml** file, you can include the buildpack version in the `cf push` command.
 
--   To deploy just a single application with this particular buildpack version, execute:
+-   To deploy just a single application with this particular buildpack version, run:
 
     ```
     cf push myapp -b https://github.com/cloudfoundry/python-buildpack.git#v1.8.4
     ```
 
--   To pin this buildpack version for all applications running in your SAP BTP, Cloud Foundry subaccount, execute:
+-   To pin this buildpack version for all applications running in your SAP BTP, Cloud Foundry subaccount, run:
 
     ```
     cf push -b https://github.com/cloudfoundry/python-buildpack.git#v1.8.4

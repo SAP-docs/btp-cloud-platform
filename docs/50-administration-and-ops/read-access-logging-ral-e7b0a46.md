@@ -131,7 +131,7 @@ Transaction code
 
 [Read Access Logging](read-access-logging-5688c3a.md "")
 
+ <?sap-ot O2O class="- topic/link " href="2fc65edfd6604391b89753ca9feb6218.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/e7b0a46a4bbf400e8a052dac277ab803.xml" ?> 
 
-
-
+ <?sap-ot O2O class="- topic/link " href="8cbf952e55364254be2da77aa1342aa5.xml" text="" desc="" xtrc="link:3" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/e7b0a46a4bbf400e8a052dac277ab803.xml" ?> 
 

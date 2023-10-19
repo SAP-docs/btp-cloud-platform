@@ -285,9 +285,9 @@ We recommend that you request your own Identity Authentication tenant \(see [Get
 
 For business users:
 
--   [Establish Trust and Federation Between UAA and Identity Authentication](../50-administration-and-ops/establish-trust-and-federation-between-uaa-and-identity-authentication-161f8f0.md)
+-   [Establish Trust and Federation Between SAP Authorization and Trust Management Service and Identity Authentication](../50-administration-and-ops/establish-trust-and-federation-between-sap-authorization-and-trust-management-service-a-161f8f0.md)
 
--   [Manually Establish Trust and Federation Between UAA and Identity Authentication](../50-administration-and-ops/manually-establish-trust-and-federation-between-uaa-and-identity-authentication-7c6aa87.md#loio7c6aa87459764b179aeccadccd4f91f3)
+-   [Manually Establish Trust and Federation Between SAP Authorization and Trust Management Service and Identity Authentication](../50-administration-and-ops/manually-establish-trust-and-federation-between-sap-authorization-and-trust-management-7c6aa87.md#loio7c6aa87459764b179aeccadccd4f91f3)
 
 -   [Establish Trust and Federation with UAA Using Any SAML Identity Provider](../50-administration-and-ops/establish-trust-and-federation-with-uaa-using-any-saml-identity-provider-2ce3938.md#loio2ce3938c66d94479848bff3090999027)
 

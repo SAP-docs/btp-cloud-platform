@@ -6,33 +6,37 @@
 
 > ### Sample Code:  
 > ```
-> - name: abap-solution
-> 				type: org.cloudfoundry.managed-service
-> 				parameters: 
-> 				service: abap-solution
-> 				service-plan: standard
-> 				service-name: abap-solution
-> 				config:
-> 				name: ${appname}
-> 				addon_product_name: ${addon-product-name}
-> 				size_of_runtime: 1
-> 				size_of_persistence: 4
-> 				tenant_mode: ${tenant-mode}
-> 				consumer_id_pattern: ([^-]*).*
-> 				provider_admin_email: ${provider-admin-email}
-> 				usage: prod
-> 				xs-security:
-> 				xsappname: ${appname}
+> 
+>   - name: abap-solution
+>     type: org.cloudfoundry.managed-service
+>     parameters:
+>       service: abap-solution
+>       service-plan: standard
+>       service-name: ${appname}-abap-solution
+>       config:
+>         name: ${appname}
+>         consumer_id_pattern: ${consumer-id-pattern}
+>         plans:
+>           - plan_name: ${plan-name}
+>             addon_product_name: ${addon-product-name}
+>             size_of_runtime: ${size-of-runtime}
+>             size_of_persistence: ${size-of-persistence}
+>             provider_admin_email: ${provider-admin-email}
+>             consumer_tenant_limit: ${consumer-tenant-limit}
+>             sap_system_name: ${sap-system-name}
+>             usage: ${usage-mode}
+>         xs-security:
+>           xsappname: xs-app-${appname}
 > 			
 > ```
 
-ABAP Solution Service is used to enable multitenancy for ABAP Environment systems: Instead of creating the ABAP system manually it is created by the ABAP Solution service during the first subscription of an application consumer.
+ABAP Solution Service is used to enable multitenancy for ABAP Environment systems: Instead of creating the ABAP system manually it is created by the ABAP Solution service during the first subscription of an application consumer or once the consumer tenant limit for all viable systems has been reached.
 
 Credentials provided in the ASP\_CC destination are used by ABAP Solution Service to authenticate at the Cloud Foundry Cloud Controller API endpoint and to create required ABAP service instances.
 
 The service plan used for created ABAP service instances is depending on the `addon_product_name` parameter: `abap/standard` is used for a system without add-on, `abap/saas_oem` is used for a system with installed add-on. Provisioning parameters like `sap_system_name`, `provider_admin_email` and sizing-relevant parameters can be defined.
 
-After a new system is created, a tenant for the application consumer is provisioned. The business type \(see [Tenant Business Types](https://help.sap.com/docs/BTP/60f1b283f0fd4d0aa7b3f8cea4d73d1d/018e8bd109d64140ade5429c3a9dbef0.html?state=DRAFT&version=Internal)\) used for provisioning of the tenant depends on the `usage` parameter: In case of `usage = test`, the tenant is created as Partner Customer Test tenant. Whereas with `usage = prod`, the tenant is created as `Partner Customer Production` tenant. Parameter `tenant_mode` controls if per subscription a new tenant is created in the same system and with `consumer_tenant_limit` the number of tenants per system is configured.
+After a new system is created, a tenant for the application consumer is provisioned. The business type \(see [Tenant Business Types](https://help.sap.com/docs/BTP/60f1b283f0fd4d0aa7b3f8cea4d73d1d/018e8bd109d64140ade5429c3a9dbef0.html?state=DRAFT&version=Internal)\) used for provisioning of the tenant depends on the `usage` parameter: In case of `usage = test`, the tenant is created as `Partner Customer Test` tenant. Whereas with `usage = prod`, the tenant is created as `Partner Customer Production` tenant. Parameter `tenant_mode` controls if per subscription a new tenant is created in the same system and with `consumer_tenant_limit` the number of tenants per system is configured.
 
 
 
@@ -226,7 +230,7 @@ string
 </td>
 <td valign="top">
 
-Version of the add-on product to be installed. A released product version needs to be defined. If you do not specify the parameter, the latest released product version will be used during the add-on installation. If you specify other versions than allowed, the add-on installation will be unsuccessful.
+Version of the add-on product to be installed. A released product version needs to be defined. If you do not specify the parameter, the latest released product version will be used during the add-on installation. If you specify other versions than allowed, the add-on installation and therefore also the system provisioning and consumer subscription will be unsuccessful.
 
 
 
@@ -251,8 +255,6 @@ Yes \(updated value applies for new systems only\)
 
 consumer\_tenant\_limit
 
-\(optional\)
-
 
 
 </td>
@@ -265,12 +267,12 @@ int
 </td>
 <td valign="top">
 
-Maximum number of tenants in the multitenant ABAP system. If the consumer tenant limit is exceeded, a new multitenant system will be created.
+Maximum number of consumer tenants in the multitenant ABAP system. If the consumer tenant limit is exceeded, a new multitenant system will be created.
 
 consumer\_tenant\_limit \>= 1
 
 > ### Note:  
-> A recently deleted tenant will be counted towards the limit, in case it is restored during the grace period. After the 30-day grace period is up, it will no longer be considered for the limit.See [Consumer Offbording](https://help.sap.com/docs/BTP/60f1b283f0fd4d0aa7b3f8cea4d73d1d/c882a2af60e84cf8912b878ddabff3cf.html?state=DRAFT&version=Internal)
+> A recently deleted tenant will be counted towards the limit, in case it is restored during the grace period. After the 30-day grace period is up, it will no longer be considered for the limit.
 
 
 
@@ -307,7 +309,7 @@ int
 </td>
 <td valign="top">
 
-Default sizing for solution
+Default sizing \(ABAP runtime\) of abap system\(s\) created/provisioned by solution
 
 
 
@@ -344,7 +346,7 @@ int
 </td>
 <td valign="top">
 
-Default sizing for solution
+Default sizing \(ABAP persistence \[HANA\]\) of abap system\(s\) created/provisioned by solution
 
 
 
@@ -368,6 +370,8 @@ Yes \(updated value applies for new systems only\)
 <td valign="top">
 
 tenant\_mode
+
+\(deprecated\)
 
 
 

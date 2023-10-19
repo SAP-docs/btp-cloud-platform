@@ -29,7 +29,7 @@ You can use this app to:
 -   Check, for example, which business roles and business catalogs are required to make a certain app visible for a business user on the SAP Fiori Launchpad.
 
     > ### Note:  
-    > You can also display the scope items the business catalogs depend on. Business catalogs that do not depend on any scope items are always visible in the system. For these business catalogs, **Scope Items \(0\)** is displayed on the relevant tab and following message appears in the table: *The business catalog is not scope-dependent* . Moreover, you can display the component you can use for creating an incident if required.
+    > You can also display the scope items the business catalogs depend on. Business catalogs that do not depend on any scope items are always visible in the system. For these business catalogs, **Scope Items \(0\)** is displayed on the relevant tab and following message appears in the table: *The business catalog is not scope-dependent*.
 
 
 

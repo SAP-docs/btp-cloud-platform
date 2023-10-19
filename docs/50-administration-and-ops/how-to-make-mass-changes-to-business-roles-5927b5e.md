@@ -182,5 +182,5 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
 
 [Assigning Spaces to Several Business Roles at Once](https://help.sap.com/docs/SAP_S4HANA_CLOUD/4fc8d03390c342da8a60f8ee387bca1a/af2b6ad24bd94047bc5e0d84ecc7ebe3.html?version=latest)
 
-[How to Maintain Restrictions Using the Mass Change Wizard](how-to-maintain-restrictions-using-the-mass-change-wizard-376bdf1.md "")
+ <?sap-ot O2O class="- topic/link " href="376bdf15d848467da5b2383454d53a24.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/5927b5ebd0944e399d90fdbb073cf939.xml" ?> 
 

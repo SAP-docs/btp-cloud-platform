@@ -12,11 +12,15 @@ As an administrator, you must perform several steps to set up a fully operationa
 
 -   To perform administrative and development tasks, you need a global account and one or several subaccounts for which you can provision the Kyma environment. For details, see [Create the Kyma Environment Instance](../50-administration-and-ops/create-the-kyma-environment-instance-09dd313.md).
 
--   Additionally, the subaccount admin must assign the Kyma environment as an entitlement to the subaccount. For details, see [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md).
+-   The subaccount must have the following entitlements assigned:
+
+    -   Kyma environment \(added by the subaccount manager\)
+
+    -   Service Manager \(added by default\). However, if you removed the entitlement, you must add it again in your subaccount
 
 
-> ### Note:  
-> The required Service Manager entitlement is added by default. If you remove the entitlement, you must add it again in your subaccount.
+    For details, see [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md).
+
 
 
 
@@ -28,12 +32,12 @@ As an administrator, you must perform several steps to set up a fully operationa
 
 2.  Assign the roles to users to allow the administrators to manage Kyma and the developers to create Functions: [Assign Roles in the Kyma Environment](../50-administration-and-ops/assign-roles-in-the-kyma-environment-148ae38.md)
 
-    > ### Note:  
+    > ### Caution:  
     > Assign the roles before the users start using the Kyma Dashboard. Not granting the roles results in an error.
 
 3.  Use the Kyma environment to integrate external systems: [Register an SAP Customer Experience System](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/1582d723f3814d30beba5fc0daa0bb0d.html)
 
-    Your options are as follows:
+    You have the following options:
 
     -   Integrate a CX system and the Kyma environment so that the Functions you develop can use the system's API and receive business events.
 

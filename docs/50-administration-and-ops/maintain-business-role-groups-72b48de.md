@@ -4,7 +4,7 @@
 
 
 
-With this app you can create business role groups and assign multiple business roles to them. This helps you to organize your area and easily search for all business roles of a certain category \(for example to assign business users to them\). Grouping also facilitates maintenance of authorizations. If you are the super administrator for all areas, you can delegate this task to administrators for the relevant areas, such as Financials. In this case, you would create a business role group for Financials.
+With this app you can create business role groups and assign multiple business roles to them. This helps you to organize your area and easily search for all business roles of a certain category \(for example to assign business users to them\). Grouping also facilitates maintenance of authorizations. If you are the super administrator for all areas, you can delegate this task to administrators for the relevant areas, such as Financials. In this case, you would create a business role group for Financials and allow to assign these business roles only to particular user groups.
 
 Please note that the name of business role group is created automatically in namespace *ZCB*.
 

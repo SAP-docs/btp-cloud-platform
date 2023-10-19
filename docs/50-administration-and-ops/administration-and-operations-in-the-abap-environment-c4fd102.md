@@ -129,6 +129,29 @@ For more information, see [Communication Operations](communication-operations-ac
 <tr>
 <td valign="top">
 
+Performing lifecycle management operations and system administration tasks such as
+
+-   stopping currently unused systems and scheduling \(regularly recurring\) stop/starts for a system to save resource usage.
+
+-   restoring recently deleted tenants that are still in retention time.
+
+-   monitoring operations.
+
+
+
+
+</td>
+<td valign="top">
+
+The [Landscape Portal](../30-development/landscape-portal-5eb70fb.md) functions as a central tool for providers to perform lifecycle management operations and system admininistation tasks, see [Manage System Hibernation](../30-development/manage-system-hibernation-26e2ee1.md), [Restore Consumer Tenants](../30-development/restore-consumer-tenants-619c40e.md), [Operations Dashboard](../30-development/operations-dashboard-0a3a735.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Getting notifications about planned maintenance events and about unplanned service outages
 
 

@@ -344,5 +344,5 @@ You can pull \(remotely available\) changes of your software component to the se
 
 [How to Clone Software Components](how-to-clone-software-components-18564c5.md "")
 
-
+ <?sap-ot O2O class="- topic/link " href="51bed3bd15394dceae0909906ec15676.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/90b9b9d5219c4875825be35137d9128f.xml" ?> 
 

@@ -49,7 +49,7 @@ To make sure that the approuter routes all relevant requests to the ABAP Solutio
 
 -   **Requests to the …/sap/… path**are backend requests and will be routed to the ABAP Solution service after successful authentication. CSRF token protection is disabled for this route as CSRF protection is already enforced via the underlying services in the ABAP system.
 
--   **Requests to the …/ui/…**are requests to FLP and will be routed to the ABAP Solution service after successful authentication. CSRF token protection is disabled for this route as CSRF protection is already enforced via the underlying services in the ABAP system.
+-   **Requests to the …/ui/…**are requests to the Fiori Launchpad / End User UI and will be routed to the ABAP Solution service after successful authentication. CSRF token protection is disabled for this route as CSRF protection is already enforced via the underlying services in the ABAP system.
 
 
 For more details on the parameters, see [Routing Configuration File.](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/c103fb414988447ead2023f768096dcc.html)
@@ -58,7 +58,7 @@ For more details on the parameters, see [Routing Configuration File.](https://he
 
 ### Approuter Multitenancy
 
-When a consumer accesses the application, their consumer tenant calls the multitenant application via the application router with their tenant-specific URL. The URL follows the same pattern for all application consumers and differs depending on the implementation phase of the multitenant application:
+The consumer accesses their multitenant application via the tenant-specific url which is resolved by the app router and "forwarded" \(calls\) to the corresponding abap tenant \(client\). The URL follows the same pattern for all application consumers and differs depending on the implementation phase of the multitenant application:
 
 -   **During development phase:**
 
@@ -66,9 +66,9 @@ When a consumer accesses the application, their consumer tenant calls the multit
 
     In each development landscape, SAP provides a different standard domain you can use to create URLs.
 
-    Using that domain, and following the specified URL structure, a created URL would be:
+    Using that domain, and following the specified URL structure, an example for a created URL could be:
 
-    tenant1-myapprouter.cfapps.sap.hana.ondemand.com
+    tenant1-myapprouter.cfapps.eu10.hana.ondemand.com
 
     Here `tenant1-myapprouter` is the hostname, and `cfapps.sap.hana.ondemand.com` is the SAP-provided standard domain for this development landscape. In this format, a new route must be created manually for each new tenant.
 

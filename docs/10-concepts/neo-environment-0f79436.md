@@ -18,7 +18,7 @@ See also:
 
 -   [Security, Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/3438252775d84bdfa211e79147561c99.html "Authorization and trust management, OAuth, key and certificate management, principal propagation and other security features in the Neo Environment.") :arrow_upper_right:
 
--   [Getting Support, Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/fc2bf6a63c254b92afb3356e2df0f930.html "Use SAP Community, get guided answers, or explore SAP Support Portal.") :arrow_upper_right:
+-   [Getting Support, Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/fc2bf6a63c254b92afb3356e2df0f930.html "To get assistance, use the available support channels provided by SAP for Me.") :arrow_upper_right:
 
 
 

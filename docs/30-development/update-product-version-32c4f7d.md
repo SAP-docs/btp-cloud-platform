@@ -37,10 +37,10 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
     > ### Note:  
     > The product version can only be updated to a higher version. It is not possible to update the product version to a lower version.
 
-5.  In the *Available Systems* section, select at least one system in which you want to update the product version. You can also select multiple systems at once. For each selectable system, the app automatically calculates, whether the delivery of a product version can be done online or requires a downtime. Therefore, every available system listed includes an information called *Business Downtime* and informs you with "Business downtime required" or "Business downtime not required".
+5.  In the *Available Systems* section, select at least one system in which you want to update the product version. You can also select multiple systems at once. For each selected system, the app automatically calculates whether the delivery of a product version can be done online or whether it requires a downtime.
 
     > ### Note:  
-    > The according business downtime information will only be shown with the above mentioned selection of a product and version from the drop-down menu.
+    > Whether or not downtime is required will only be displayed once you select a product and version from the drop-down menu.
 
 6.  Click the *Update* button. A dialog box will open. Fill in the remaining details:
 

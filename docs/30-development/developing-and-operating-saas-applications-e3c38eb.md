@@ -15,7 +15,7 @@ The ABAP environment allows you to leverage existing ABAP know-how to create cus
 > ### Note:  
 > You should only consider using add-on delivery if you intend to offer a Software as a Service \(SaaS\) solution.
 
-Following the add-on build process, you can develop a multitenant application to share the add-on with multiple consumers \(tenants\) simultaneously. See [Developing Multitenant Applications in the ABAP Environment](developing-multitenant-applications-in-the-abap-environment-195031f.md). The application is registered with the Software-as-a-Service provisioning service \(saas-registry\) to make the application available for subscription to consumers. See [Register the Multitenant Application to the SaaS Provisioning Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/3971151ba22e4faa9b245943feecea54.html).
+Following the add-on build process, you can develop a multitenant application to share the add-on with multiple consumers \(tenants\) simultaneously. See [Multitenant Applications](multitenant-applications-195031f.md). The application is registered with the Software-as-a-Service provisioning service \(saas-registry\) to make the application available for subscription to consumers. See [Register the Multitenant Application to the SaaS Provisioning Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/3971151ba22e4faa9b245943feecea54.html).
 
 In this context, the [ABAP Solution Service](abap-solution-service-1697387.md) accounts for the provisioning of new ABAP service instances, including the installation of the add-on, and the creation of tenants whenever required for a new consumer subscription.
 
@@ -53,8 +53,13 @@ Chapter [Dismantle](dismantle-35a5882.md) provides information about consumer of
 
 ![](images/E2E_Guide_Introduction_3a1c720.png)
 
+For more information, see [Build ABAP Code into an Add-on Product and Make it Available as a Tenant-Aware SaaS Solution](https://developers.sap.com/mission.abap-environment-saas-solution.html).
+
+> ### Caution:  
+> The turorial group "Convert Your Add-on Product into a Tenant-aware SaaS Solution" is now replaced by the functionality of the [Maintain Solution app](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/maintain-solution?q=maintain%20solution).
+
 **Related Information**  
 
 
-
+ <?sap-ot O2O class="- topic/link " href="72b0b1130ee243179b0905ea2cd5adb1.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/e3c38ebaefc44523b679e7a0c375bc86.xml" ?> 
 

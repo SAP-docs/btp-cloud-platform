@@ -80,9 +80,9 @@ This process may take a while, depending on the number of modules. The operation
 
 <!-- loio88a8e99e4be945398dae2baa69f8ad30 -->
 
-## Enable and Disable a Kyma Module Using Command Line
+## Enable and Disable a Kyma Module Using Kyma CLI
 
-Use the command line to enable or disable a Kyma module in the release channel of your choice.
+Use Kyma CLI to enable or disable a Kyma module in the release channel of your choice.
 
 
 
@@ -90,16 +90,9 @@ Use the command line to enable or disable a Kyma module in the release channel o
 
 ## Context
 
-Enable or disable a module using kubectl or [Kyma CLI](https://github.com/kyma-project/cli).
+Enable or disable a module using [Kyma CLI](https://github.com/kyma-project/cli).
 
--   To enable a module using kubectl, run the following command, providing the name of your module:
-
-    ```
-    kubectl patch kyma default -n kyma-system --type='json' -p="[{\"op\": \"add\", \"path\": \"/spec/modules\", \"value\": [{\"name\": \"{NAME_OF_YOUR_MODULE}\" }] }]"
-    ```
-
--   To enable a module using Kyma CLI, perform the following steps:
-
+To enable a module using Kyma CLI, perform the following steps:
 
 
 
@@ -142,6 +135,6 @@ Enable or disable a module using kubectl or [Kyma CLI](https://github.com/kyma-p
 
 -   To configure your module, use the module CR that you can find in the module repository.
 
--   To disable a module using Kyma CLI, run: `kyma alpha disable module {MODULE_NAME}` 
+-   To disable a module, run: `kyma alpha disable module {MODULE_NAME}` 
 
 

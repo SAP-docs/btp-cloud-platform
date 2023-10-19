@@ -22,7 +22,7 @@ You can use this app to:
 
 -   Define if the messages are displayed or hidden on the Message Dashboard.
 
--   Define if the user is a technical user who can see messages that are in process or that had a technical error.
+-   Define if the user can see messages that are in process or that had a technical error using *Advanced Error Handling*.
 
 -   Unassign recipients from users.
 

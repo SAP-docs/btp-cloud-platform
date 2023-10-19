@@ -20,6 +20,9 @@ SAP provides specific features and functions to support compliance with regard t
 
 You also need to make sure that no personal data enters the system in an uncontrolled or non-purpose related way, for example, in free-text fields, or customer extensions.
 
+> ### Caution:  
+> Please don’t enter personal data in fields such as global and subaccount names, Cloud Foundry orgs and spaces names, database names, and tenant names. These fields aren’t intended to process personal data, so our EU Access commitment doesn’t apply to them. Personal data in such fields can be processed outside of the European Economic Area and Switzerland. The previous list of example fields is not complete.
+
 
 
 <a name="loio7e513d31704a4a87831191e504ca850a__section_bqk_4j2_5db"/>

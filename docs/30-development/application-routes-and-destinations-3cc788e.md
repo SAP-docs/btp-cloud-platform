@@ -292,6 +292,22 @@ This is expected by ABAP back-end systems.
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+HTML5.IASDependencyName
+
+
+
+</td>
+<td valign="top">
+
+Configures the name of the Identity Authentication dependency that is used to exchange the Identity Authentication token used for the user authentication at login. If configured, the exchanged token is then also forwarded to the backend application.
+
+
+
+</td>
+</tr>
 </table>
 
 -   If a destination with the same name is defined both in the environment destination and the destination service, the destination configuration loads the settings from the environment.
@@ -310,6 +326,18 @@ This is expected by ABAP back-end systems.
 ## Connectivity
 
 Application Router supports integration with the SAP Connectivity service. The Connectivity service handles proxy access to the Cloud Connector, which tunnels connections to private network systems. In order to use connectivity, a connectivity service instance must be created and bound to the Application Router application. In addition, the relevant destination configurations must contain `proxyType=OnPremise` and a valid XSUAA login token must be obtained from the login flow.
+
+
+
+<a name="loio3cc788ebc00e40a091505c6b3fa485e7__section_kmx_bq1_1zb"/>
+
+## Configure the IASDependencyName Property to Enable App-to-App Navigation
+
+You can enable an application to consume the APIs of another application. For more information, see: [Configure Integration Between Applications](https://help.sap.com/docs/identity-authentication/identity-authentication/communicate-between-applications?version=Cloud) and [Consume APIs from Other Applications](https://help.sap.com/docs/identity-authentication/identity-authentication/consume-apis-from-other-applications?version=Cloud)
+
+To enable the technical communication between the applications, the application router must exchange the Identity Authentication token that was used for the user authentication at login to the application with the Identity Authentication token used for the other application. The exchanged token is then forwarded by the application router to the backend applications.
+
+For this, you must configure either a new destination with an `HTML5.IASDependencyName` property that points to the backend application or a destination environment variable with the `IASDependencyName` property \(see [Environment Variables](environment-variables-ba52705.md)\). When the application router has to send a request to the backend destination, the application router uses the `IASDependencyName` property to trigger the exchange of the token and the exchanged token is then forwarded to the backend application in the `Authorization` header.
 
 **Related Information**  
 

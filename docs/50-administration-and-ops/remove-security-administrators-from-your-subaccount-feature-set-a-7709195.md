@@ -54,7 +54,7 @@ To remove security administrators from your subaccount, take the following steps
 
 [Add Org Members Using the Cockpit](add-org-members-using-the-cockpit-a4eeaf1.md "Add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.")
 
-
+ <?sap-ot O2O class="- topic/link " href="30eaa74f50154ebbb8d41439bc814f31.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/7709195cab8d4807be08b0b5167e1940.xml" ?> 
 
 [User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, member management happens at all levels from global account to environment, while user management is done for business applications.")
 

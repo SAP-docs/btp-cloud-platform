@@ -280,6 +280,8 @@ Bear in mind the following restrictions regarding the length and content of a sc
 -   The maximum length of a scope name, including the fully qualified application name, is 193 characters.
 
 
+For other limits when using the properties, see [Limits for the Application Security Descriptor](../60-security/limits-for-technical-artifacts-of-the-sap-authorization-and-trust-management-service-6d3ef52.md#loio6d3ef5260f4a4232ad43542ab1441694__section_p33_zyq_zyb).
+
 
 
 <a name="loio517895a9612241259d6941dbf9ad81cb__section_pv5_5qr_xs"/>
@@ -452,6 +454,8 @@ Bear in mind the following restrictions regarding the length and content of attr
 
 -   The maximum length of a security attribute name is 64 characters.
 
+
+For other limits when using the properties, see [Limits for the Application Security Descriptor](../60-security/limits-for-technical-artifacts-of-the-sap-authorization-and-trust-management-service-6d3ef52.md#loio6d3ef5260f4a4232ad43542ab1441694__section_p33_zyq_zyb).
 
 
 
@@ -666,6 +670,8 @@ Bear in mind the following restrictions regarding the length and content of role
 -   The maximum length of a role-template name is 64 characters.
 
 
+For other limits when using the properties, see [Limits for the Application Security Descriptor](../60-security/limits-for-technical-artifacts-of-the-sap-authorization-and-trust-management-service-6d3ef52.md#loio6d3ef5260f4a4232ad43542ab1441694__section_p33_zyq_zyb).
+
 
 
 <a name="loio517895a9612241259d6941dbf9ad81cb__section_u21_sm5_23b"/>
@@ -823,6 +829,8 @@ The role templates must fulfill one of the following conditions regarding attrib
 
 
 This makes sure that a default role is automatically created for the role-templates after developers have deployed the application. The role collections use the predefined roles, which have been created automatically.
+
+For other limits when using the properties, see [Limits for the Application Security Descriptor](../60-security/limits-for-technical-artifacts-of-the-sap-authorization-and-trust-management-service-6d3ef52.md#loio6d3ef5260f4a4232ad43542ab1441694__section_p33_zyq_zyb).
 
 
 

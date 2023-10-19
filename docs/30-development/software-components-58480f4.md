@@ -44,6 +44,6 @@ You create your software components in the development system:
 
     -   You can transport the configuration using the software components that you also use for your development objects, which is typically the same software component for tables and table content. This is advisable if you run multiple projects on the same landscape that are well separated and have decoupled time schedules.
 
-    See [Business Configuration](business-configuration-7d7c344.md).
+    See [Transport of Business Configuration](transport-of-business-configuration-7d7c344.md).
 
 

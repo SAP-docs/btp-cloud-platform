@@ -25,7 +25,7 @@ If the automatic recording for the client is not allowed, you can save changed c
 
 ## Display Request
 
-1.  Navigate to a request's object page to display its tasks, objects, attributes, documentation and logs.
+1.  Navigate to a request's object page to display its tasks, objects, attributes, notes and logs.
 2.  Select a customizing task to display the objects recorded in it.
 3.  Select an object to display the table keys recorded in it.
 

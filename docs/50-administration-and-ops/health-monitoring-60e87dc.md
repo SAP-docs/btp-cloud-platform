@@ -22,6 +22,8 @@ This app provides the following key features: 
 
 -   Display of the history of the metrics to, for example, compare trends, identify performance bottlenecks, or investigate resource shortages
 
+-   Navigation to related apps from some cards for further analysis or issue fixing
+
 
 
 

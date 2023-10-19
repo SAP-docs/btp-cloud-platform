@@ -121,7 +121,7 @@ Please refer to the example code for an application jobs main class. Literals ar
 
 [Setting up the Authorizations](setting-up-the-authorizations-bb559a5.md "Some further activities in ADT and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app Application Jobs.")
 
-
+ <?sap-ot O2O class="- topic/link " href="147d689cddc74828a90b884ee4f9d9a5.xml" text="" desc="" xtrc="link:4" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/99dcde1a72ed4e7fb0959ead46a7fbf5.xml" ?> 
 
 [Application Logs](application-logs-091bec9.md "You can use the Application Logs to display and check if any errors occurred during runtime.")
 

@@ -63,7 +63,7 @@ Within the SAP BTP Operator module, BTP Manager installs SAP BTP Service Operato
 </td>
 <td valign="top">
 
--   [Using SAP BTP Services in the Kyma Environment](../30-development/using-sap-btp-services-in-the-kyma-environment-ea4dd81.md)
+-   [Using SAP BTP Services in the Kyma Environment](../30-development/using-sap-btp-services-in-the-kyma-environment-ea4dd81.md#loioea4dd81e49254dd482d32e3c20f4477a)
 -   [kyma-project.io: SAP BTP Operator module](https://kyma-project.io/#/btp-manager/user/README)
 -   [GitHub: BTP Manger releases](https://github.com/kyma-project/btp-manager/releases)
 -   [GitHub: SAP BTP Service Operator releases](https://github.com/SAP/sap-btp-service-operator/releases)
@@ -98,6 +98,31 @@ The Keda module comes with Keda Manager, an extension to Kyma that allows you to
 <tr>
 <td valign="top">
 
+*Serverless* 
+
+
+
+</td>
+<td valign="top">
+
+With the Serverless module, you can define simple code snippets \(Functions\) with minimal implementation effort.
+
+
+
+</td>
+<td valign="top">
+
+-   [Deploy Workloads in the Kyma Environment to Extend SAP Systems](../30-development/deploy-workloads-in-the-kyma-environment-to-extend-sap-systems-fe4ba5b.md)
+-   [kyma-project.io: What is Serverless in Kyma?](https://kyma-project.io/#/serverless-manager/user/README)
+-   [GitHub repository: Serverless](https://github.com/kyma-project/serverless-manager)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 *Telemetry* 
 
 
@@ -123,23 +148,22 @@ The Telemetry module collects application logs and distributed traces for your a
 <tr>
 <td valign="top">
 
-Serverless\*
+*NATS* 
 
 
 
 </td>
 <td valign="top">
 
-With the Serverless module, you can define simple code snippets \(Functions\) with minimal implementation effort.
+NATS deploys a NATS cluster within the Kyma cluster. You can use it as a backend for Kyma Eventing.
 
 
 
 </td>
 <td valign="top">
 
--   [Deploy Workloads in the Kyma Environment to Extend SAP Systems](../30-development/deploy-workloads-in-the-kyma-environment-to-extend-sap-systems-fe4ba5b.md)
--   [kyma-project.io: What is Serverless in Kyma?](https://kyma-project.io/#/01-overview/serverless/)
--   [GitHub repository: Serverless](https://github.com/kyma-project/serverless-manager)
+-   [kyma-project.io: NATS module](https://kyma-project.io/#/nats-manager/user/README)
+-   [GitHub repository: NATS](https://github.com/kyma-project/nats-manager)
 
 
 
@@ -174,29 +198,6 @@ At the moment, the SAP Event Mesh default plan and NATS \(provided by the NATS m
 <tr>
 <td valign="top">
 
-NATS\*
-
-
-
-</td>
-<td valign="top">
-
-NATS deploys a NATS cluster within the Kyma cluster. You can use it as a backend for Kyma Eventing.
-
-
-
-</td>
-<td valign="top">
-
--   [GitHub repository: NATS](https://github.com/kyma-project/nats-manager)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Application Connector\*
 
 
@@ -211,7 +212,7 @@ Application Connector allows you to connect with external solutions. No matter i
 </td>
 <td valign="top">
 
--   [GitHub repository: Application Connector](https://github.com/kyma-project/application-connector-manager)
+-   [GitHub repository: Application Connector default plan and NATS \(provided by the NATS module\) are supported.](https://github.com/kyma-project/application-connector-manager)
 
 
 
@@ -234,7 +235,7 @@ API Gateway provides functionalities that allow you to expose and secure APIs.
 </td>
 <td valign="top">
 
--   [kyma-project.io: API Gateway in Kyma](https://kyma-project.io/#/01-overview/api-exposure/apix-01-api-gateway)
+-   [default plan and NATS \(provided by the NATS module\) arekyma-project.io: API Gateway in Kyma](https://kyma-project.io/#/01-overview/api-exposure/apix-01-api-gateway)
 
 
 
@@ -266,6 +267,62 @@ Istio is a service mesh with Kyma-specific configuration.
 </table>
 
 
+
+<a name="loio0dda141a58d54f29a860a4b3164bf4a9__section_jcm_gyz_jxb"/>
+
+## Third-Party Modules
+
+**Third-Party Modules**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Module
+
+
+
+</th>
+<th valign="top">
+
+Purpose
+
+
+
+</th>
+<th valign="top">
+
+Documentation
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+*Transparent Proxy* 
+
+
+
+</td>
+<td valign="top">
+
+Use the transparent proxy for Kubernetes to connect workloads on a Kubernetes cluster to Internet and on-premise applications.
+
+
+
+</td>
+<td valign="top">
+
+-   [Transparent Proxy in the Kyma Environment](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/transparent-proxy-in-kyma-environment?version=Cloud)
+
+
+
+</td>
+</tr>
+</table>
 
 
 

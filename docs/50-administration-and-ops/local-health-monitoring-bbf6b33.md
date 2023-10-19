@@ -12,7 +12,7 @@ With the *Health Monitoring* app, you can check the health of your local ABAP sy
 
 This app allows you to monitor your system health **locally** directly on your ABAP system.
 
-You get an overview of the metrics for the monitored system on one screen. The health metrics are represented on individual cards with a KPI that summarizes the current status and with a history of the metrics to, for example, compare trends, identify performance bottlenecks, or investigate resource shortages. 
+You get an overview of the metrics for the monitored system on one overview page. The health metrics are represented on individual cards with a KPI that summarizes the current status and with a history of the metrics to, for example, compare trends, identify performance bottlenecks, or investigate resource shortages. 
 
 The *Health Monitoring* app offers the following features:
 
@@ -80,11 +80,11 @@ Description
 </td>
 <td valign="top">
 
-Used quota for ABAP system memory during the last 5 minutes
+Used quota for ABAP system resources during the last 5 minutes
 
-A quota represents the available system size and therefore the maximum allowed consumption of a resource. A resource is measured against the quota independently. For ABAP system resources, the quota is measured in ABAP compute units \(ACUs\).
+A quota represents the available system size and therefore the maximum allowed consumption of a resource. Each resource \(memory or CPU\) is measured against the quota independently. For ABAP system resources, the quota is measured in ABAP compute units \(ACUs\).
 
-The number of ACUs on this card refers to the resource \(in this case the memory\) and its quota usage.
+The number of ACUs on this card refers to the resource \(memory or CPU\) with the highest quota usage.
 
 
 

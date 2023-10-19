@@ -139,11 +139,11 @@ The SAP HANA Database Client provides means for database connectivity.
 
 The SAP BTP, Cloud Foundry environment provides one recent version of the Python buildpack as part of its system buildpacks. To check this version:
 
-1.  Log in to a particular SAP BTP region and subaccount. Execute: **`cf api <SAP BTP region>`**
+1.  Log in to a particular SAP BTP region and subaccount. Run: **`cf api <SAP BTP region>`**
 
     For example: **`cf api https://api.cf.eu10.hana.ondemand.com`**
 
-2.  Then execute: **`cf buildpacks`**
+2.  Then run: **`cf buildpacks`**
 
 
 To learn about changes in Python versions and features, regularly check the latest [buildpack releases](https://github.com/cloudfoundry/python-buildpack/releases) in the GitHub community page.
@@ -167,7 +167,7 @@ The `python_buildpack` supports the following versions:
 You can also decide to deploy your application with a particular buildpack version from the community [python-buildpack](https://github.com/cloudfoundry/python-buildpack) repository. To learn how, see: [Specify a buildpack version in manifest.yml](tips-and-tricks-for-python-applications-b5e1c82.md#loiob5e1c8244e594f53936b6406905c7937__specify_python_bp_version)
 
 > ### Remember:  
-> SAP does **not** recommend use of deprecated Python versions, as no support and security fixes are provided for them anymore.
+> SAP does **not** recommend use of deprecated Python versions, as support and security fixes are no longer provided for them.
 
 
 
@@ -190,7 +190,12 @@ To see the latest news and updates about the Python buildpack, regularly check t
 
 ## Troubleshooting
 
-To find known issues related to the Python buildpack, see our Guided Answers: [Python Buildpack](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51231/?version=current)
+If you encounter an issue while using the Python buildpack, you can:
+
+-   Search for your problem in our Guided Answers: [Python Buildpack](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51231/?version=current)
+
+-   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51220/?version=current) 
+
 
 
 

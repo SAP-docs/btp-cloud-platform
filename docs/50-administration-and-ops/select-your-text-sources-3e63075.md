@@ -41,6 +41,7 @@ Select the text sources that you want to have translated.
         > -   The delivery class of the text table has to be C
         > -   There must be exactly one language key field
         > -   Every character-like, non key field with a length greater than one will be treated as a text attribute
+        > -   The translation of text tables that contain key fields of type p \(packed number\), i \(integer\) or x \(byte field\) is not supported. That includes any kind of UUID and raw types, such as `SYSUUID_X16`.
 
 
 4.  Select *Add* to open the *Add Text Source* dialog which displays all text sources that can be added to the translation project. By filtering the type and name, you can choose the text sources you want to add. Select *Add* to add the text sources you selected to your translation project.

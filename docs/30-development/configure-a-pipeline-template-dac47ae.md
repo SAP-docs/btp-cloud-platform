@@ -82,7 +82,7 @@ Test Release Delivery
 
 Release versions of the product usually include new deliveries of software components that are planned and used for new functionalities and feature enhancements. *Test Release Delivery* is part of the continuous testing in the development process. The run performs static code checks and builds the next release delivery locally \(no upload to the product framework\) to detect findings early that might delay a productive build later on. It should be executed using a permanent build system. Execution of an integration test stage is not possible as no package is uploaded to the product framework.
 
-The generated product versions in the test run are not released, thus the versioning of the build runs can be reused for multiple runs, and hence reducing the consumption of product version numbers.
+The generated product versions in the test run are not released, thus the versioning of the build runs can be reused for multiple runs, hence reducing the consumption of product version numbers.
 
 
 
@@ -100,7 +100,7 @@ Test Support Package Stack
 
 Support package stack deliveries of the product usually include new support package deliveries of software components that are planned and used for smaller functional enhancements. *Test Support Package* is part of the continuous testing in the development branch. The run performs static code checks and builds the next support package locally \(no upload to the product framework\) to detect findings early that might delay a productive build. It should be executed using a permanent build or test system dedicated to the development branch. An add-on update test is not possible as no package is uploaded to the product framework.
 
-The generated product versions in the test run mode are not released, thus the versioning of the build runs can be reused for multiple runs, and hence reducing the consumption of product version numbers.
+The generated product versions in the test run mode are not released, thus the versioning of the build runs can be reused for multiple runs, hence reducing the consumption of product version numbers.
 
 
 
@@ -118,7 +118,7 @@ Test Patch Delivery
 
 Patch delivery versions of the product should only include new patch deliveries of software components that contain unplanned, urgent and small corrections. *Test Patch Delivery* is part of the continuous testing in the development branch. The run performs static code checks and builds the next patch delivery locally \(no upload to the product framework\) to detect findings early that might delay a productive build. It should be executed using a permanent build or test system dedicated to the development branch. An add-on update test is not possible as no package is uploaded to the product framework.
 
-The generated product versions in the test run mode are not released, thus the versioning of the build runs can be reused for multiple runs, and hence reducing the consumption of product version numbers.
+The generated product versions in the test run mode are not released, thus the versioning of the build runs can be reused for multiple runs, hence reducing the consumption of product version numbers.
 
 
 
@@ -126,7 +126,7 @@ The generated product versions in the test run mode are not released, thus the v
 </tr>
 </table>
 
-These three different pipeline templates need to be configured for each of your products. For each template you add information on the credentials that should be used, the clone strategy, software components, tests, and more. Once you’ve configured the templates for a product, you can easily trigger the build of new versions \(be it release deliveries, support package stacks or patch deliveries\) of this product based on the information given in the templates. For more information on add-on product/software component versioning, see [The Add-On Product.](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#the-add-on-product)
+These different pipeline templates need to be configured for each of your products. For each template you add information on the credentials that should be used, the clone strategy, software components, tests, and more. Once you’ve configured the templates for a product, you can easily trigger the build of new versions \(be it release deliveries, support package stacks or patch deliveries\) of this product based on the information given in the templates. For more information on add-on product/software component versioning, see [The Add-On Product.](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#the-add-on-product)
 
 Let’s take a closer look at how to configure a pipeline template for a product:
 
@@ -226,7 +226,7 @@ Let’s take a closer look at how to configure a pipeline template for a product
     </td>
     <td valign="top">
     
-    User needs to be org member and assigned to space withs space developer role
+    User needs to be org member and assigned to space with space developer role
 
 
     
@@ -318,7 +318,7 @@ Let’s take a closer look at how to configure a pipeline template for a product
     </td>
     <td valign="top">
     
-    The service instance name can be used to identify systems in Systems Overview application
+    The service instance name can be used to identify systems in the Systems Overview application
 
 
     
@@ -732,7 +732,7 @@ Let’s take a closer look at how to configure a pipeline template for a product
     <tr>
     <td valign="top">
     
-    Installation Test System
+     
 
 
     
@@ -764,7 +764,7 @@ Let’s take a closer look at how to configure a pipeline template for a product
     <tr>
     <td valign="top">
     
-     
+    Installation Test System
 
 
     

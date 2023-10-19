@@ -379,7 +379,7 @@ Enables the application router to start as an HTTP/2 server.
 </td>
 <td valign="top">
 
-Enables the application router to send the entire chain of certificates provided in the binding of the authentication service \(XSUAA or IAS\) to the backend applications. The certificates are required for mutual TLS authentication \(mTLS handshake\). See [Mutual TLS Authentication \(mTLS\) and Certificates Handling](mutual-tls-authentication-mtls-and-certificates-handling-46b8b85.md).
+Enables the application router to send the entire chain of certificates provided in the binding of the authentication service \(XSUAA or Indentity Authentication\) to the backend applications. The certificates are required for mutual TLS authentication \(mTLS handshake\). See [Mutual TLS Authentication \(mTLS\) and Certificates Handling](mutual-tls-authentication-mtls-and-certificates-handling-46b8b85.md).
 
 
 
@@ -698,6 +698,36 @@ Indicates if the destination is used to access applications in private networks 
 
 > ### Tip:  
 > In Cloud environments, if you set the application's destination `proxyType` to `onPremise`, a binding to the SAP BTP connectivity service is required, and the `forwardAuthToken` property must not be set.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`IASDependencyName` 
+
+
+
+</td>
+<td valign="top">
+
+String
+
+
+
+</td>
+<td valign="top">
+
+No
+
+
+
+</td>
+<td valign="top">
+
+Configures the name of the Identity Authentication dependency that is used to exchange the Identity Authentication token used for the user authentication at login. If configured, the exchanged token is then also forwarded to the backend applications.
 
 
 

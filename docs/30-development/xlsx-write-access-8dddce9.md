@@ -15,7 +15,7 @@ Creating a new, empty XLSX document and obtaining write access for it can be acc
 > DATA(lo_write_access) = xco_cp_xlsx=>document->empty( )->write_access( ).
 > ```
 
-An empty XLSX document consists of one worksheet \(named `Sheet1` which is accessible via
+An empty XLSX document consists of one worksheet named `Sheet1` which is accessible via
 
 > ### Sample Code:  
 > ```abap

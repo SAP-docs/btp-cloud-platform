@@ -2,7 +2,7 @@
 
 # Service Consumption Model
 
-Consume a remote OData request in the Client Proxy instance.
+A Service Consumption Model \(SRVC\) generates proxy artifacts to consume OData, RFC, or SOAP services.
 
 
 
@@ -10,7 +10,7 @@ Consume a remote OData request in the Client Proxy instance.
 
 ## Overview
 
-Before consuming remote ODATA request request, you must first create a Service Consumption Model for the OData Service you want to consume. See [Creating Service Consumption Model](https://help.sap.com/docs/SAP_S4HANA_CLOUD/25cf71e63940453397a32dc2b7676947/96132822b3554016b653d3601bb9ff1a.html) for more information.
+To consume OData, SOAP, or RFC services, you must first create a Service Consumption Model \(SRVC\). See [Creating Service Consumption Model](https://help.sap.com/docs/SAP_S4HANA_CLOUD/25cf71e63940453397a32dc2b7676947/96132822b3554016b653d3601bb9ff1a.html) for more information. An SRVC creates proxy artifacts and a code snippet that you can copy and paste to your code to perform the service call. For RFC, the SRVC is optional.
 
 
 
@@ -22,13 +22,13 @@ Before consuming remote ODATA request request, you must first create a Service C
 
 ### Overview
 
-A remote Client Proxy request needs a corresponding Service Consumption Model.
+A remote client proxy request needs a corresponding SRVC.
 
-The benefits of using a Service Consumption Model \(instead of manually creating a corresponding model\) are:
+The benefits of using an SRVC \(instead of manually creating a corresponding model\) are:
 
 -   Simple creation using XML or EDMX file uploading. You don't need to manually define the model.
 
--   The code generator creates code snippets to use as blueprint on how to write Client Proxy-related coding.
+-   The code generator creates code snippets to use as blueprint on how to write client proxy-related coding.
 
 
 ![](images/Service_Consumption_1cdb46d.png)
@@ -43,7 +43,11 @@ Create a Service Consumption Model for remote consumption of your OData service.
 
 ### Step-by-step
 
-See [Generating Proxies for Remote OData Service](https://help.sap.com/viewer/25cf71e63940453397a32dc2b7676947/2111.500/en-US/aa3a88a28694471d8c90623dc32ceabe.html) for how to create your Service Consumption Model.
+See the following information for how to create your SRVC:
+
+-   [Generating Proxies for Remote OData Service](https://help.sap.com/docs/btp/sap-abap-development-user-guide/generating-proxies-for-remote-odata-service?version=Cloud)
+-   [Generating Proxies for Remote Function Call \(RFC\)](https://help.sap.com/docs/SAP_S4HANA_CLOUD/25cf71e63940453397a32dc2b7676947/32812d950d3848359ce391dae477f201.html?q=generating%20proxies)
+-   [Generating Proxies for Remote Web Service](https://help.sap.com/docs/SAP_S4HANA_CLOUD/25cf71e63940453397a32dc2b7676947/3b9c145adad147058177cec27cef1f44.html)
 
 
 
@@ -51,6 +55,5 @@ See [Generating Proxies for Remote OData Service](https://help.sap.com/viewer/25
 
 ## Constraints
 
--   Not all OData service model features are supported for Service Consumption Models. For example, you might not be able to create a Service Consumption Model for your underlying OData service. This is the case if your Service Model contains Complex Collections, Actions, or Functions.
-
+Not all OData service model features are supported for Service Consumption Models. For example, you might not be able to create a Service Consumption Model for your underlying OData service. This is the case if your Service Model contains Complex Collections, Actions, or Functions.
 

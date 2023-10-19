@@ -34,3 +34,6 @@ The before mentioned API methods require a transport request to be passed. For t
 
 Save the result of the action in a virtual field of the draft entity. When recording or validating the changes the previously selected transport request can then be retrieved from the draft entity.
 
+> ### Note:  
+> When developing custom business configuration objects, you can decide if you want to provide a transport selection screen for change recording. If you are using this transport pattern, we recommend autofilling the transport request based on the software component of the business configuration object.
+

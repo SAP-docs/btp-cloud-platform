@@ -70,11 +70,11 @@ The SAP BTP, Cloud Foundry environment provides four versions of SAP Java Buildp
 
 To check these versions:
 
-1.  Log in to a particular SAP BTP region and subaccount. Execute: **`cf api <SAP BTP region>`**
+1.  Log in to a particular SAP BTP region and subaccount. Run: **`cf api <SAP BTP region>`**
 
     For example: **`cf api https://api.cf.eu10.hana.ondemand.com`**
 
-2.  Then execute: **`cf buildpacks`**
+2.  Then run: **`cf buildpacks`**
 
 
 
@@ -216,10 +216,18 @@ To see the latest news and updates about SAP Java Buildpack, regularly check the
 
 ## Troubleshooting
 
--   Guided Answers: [SAP Java Buildpack](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51219/?version=current)
--   SAP Note: [3155402](https://me.sap.com/notes/3155402) *Explicitly pin SAP Java Buildpack 1.48.1 in your manifest file*
--   SAP Note: [3214025](https://me.sap.com/notes/3214025) *Migrating Java Applications from TomEE 1.7 to TomEE 7*
+If you encounter an issue while using SAP Java Buildpack, you can:
+
+-   Search for your problem in our Guided Answers: [SAP Java Buildpack](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51219/?version=current)
+
+-   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51220/?version=current) 
+
+
+See also:
+
 -   SAP Note: [3261748](https://me.sap.com/notes/3261748) *SapMachine is replacing OpenJDK 11 & 17 in java\_buildpack*
+-   SAP Note: [3214025](https://me.sap.com/notes/3214025) *Migrating Java Applications from TomEE 1.7 to TomEE 7*
+-   SAP Note: [3155402](https://me.sap.com/notes/3155402) *Explicitly pin SAP Java Buildpack 1.48.1 in your manifest file*
 
 
 
@@ -237,6 +245,6 @@ The following tutorial will guide you through creating a Java application in Clo
 
 This section lists Cloud Foundry Java components and updates maintained by SAP that belong to the online community [Java Buildpack](https://github.com/cloudfoundry/java-buildpack).
 
--   **SapMachine** – as of [v4.55](https://github.com/cloudfoundry/java-buildpack/releases/tag/v4.55) of the Java Buildpack, SAP will provide SapMachine 11 and 17 instead of OpenJDK 11 and 17 in the offline **`java_buildpack`**. For more information, see SAP Note: [3261748](https://me.sap.com/notes/3261748) *SapMachine is replacing OpenJDK 11 & 17 in java\_buildpack*
+-   **SapMachine** – as of [v4.55](https://github.com/cloudfoundry/java-buildpack/releases/tag/v4.55) of the Java Buildpack, SAP has provides SapMachine 11 and 17 instead of OpenJDK 11 and 17 in the offline **`java_buildpack`**. For more information, see SAP Note: [3261748](https://me.sap.com/notes/3261748) *SapMachine is replacing OpenJDK 11 & 17 in java\_buildpack*
 
 

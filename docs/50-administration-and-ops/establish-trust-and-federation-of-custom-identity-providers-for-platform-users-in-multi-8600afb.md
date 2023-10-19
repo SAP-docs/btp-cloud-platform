@@ -8,7 +8,7 @@
 > ### Note:  
 > The content in this section is only relevant for **platform users** and **not** business users.
 > 
-> For more information about establishing trust for subaccounts for business users, see [Establish Trust and Federation Between UAA and Identity Authentication](establish-trust-and-federation-between-uaa-and-identity-authentication-161f8f0.md).
+> For more information about establishing trust for subaccounts for business users, see [Establish Trust and Federation Between SAP Authorization and Trust Management Service and Identity Authentication](establish-trust-and-federation-between-sap-authorization-and-trust-management-service-a-161f8f0.md).
 
 By default, platform users in multi-environment subaccounts are users in SAP ID service. The use of your own identity provider requires integration between the user bases of multi-environment and Neo subaccounts.
 

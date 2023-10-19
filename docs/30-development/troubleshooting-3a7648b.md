@@ -10,7 +10,7 @@
 
 -   Always use MTA Undeployment \(cf undeploy <MTA ID\> --delete-services\) instead of deleting service instances individually.
 
--   Check if the saas-registry service instance still contains active subscriptions: the saas-registry instance can only be deleted once there are no more active subscriptions. Unsubscribe using the [Subscription Management Dashboard](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/434be695f9e946ccb4c28911dd1e16d0.html?locale=en-US&version=Cloud).
+-   Check if the saas-registry service instance still contains active subscriptions: the saas-registry instance can only be deleted once there are no more active subscriptions. Unsubscribe using the [Subscription Management Dashboard](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/434be695f9e946ccb4c28911dd1e16d0.html?locale=en-US&version=Cloud) Note, however that if the subscription is forced to be deleted through any additional channel \(using the Subscription Management Dashboard or by subaccount deletion\), it will lead to an orphan tenant in the ABAP Solution. Providers need to be aware of this before deleting subscriptions with the ‘force’ option.
 
 
 
@@ -34,7 +34,7 @@
 
 ## After deployment of MTA for multitenant application, no abap system is created
 
--   ABAP systems are automatically created by the ABAP Solution Provider \(ASP\) during the first subscription.
+-   ABAP systems are automatically created by the ABAP Solution Provider \(ASP\) during the first subscription and not after the solution deployment.
 
 
 
@@ -43,6 +43,6 @@
 
 ## Issues with parameter consumer\_tenant\_limit
 
--   Keep in mind that recently deleted consumer tenants are counted towards the tenant limit. Systems are automatically created.
+-   Keep in mind that recently deleted consumer tenants are counted towards the tenant limit as long as they are still in retention time. Systems are automatically created. Non-consumer tenants \(provider tenant, test tenants\) do not count towards this limit.
 
 

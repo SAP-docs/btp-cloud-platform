@@ -39,7 +39,7 @@ The standard user flow is described in the following diagram. Hover over the dif
 ## Prerequisites
 
 -   Users need to have the “LandscapePortalAdmin” user role assigned to their user account to access this app.
--   Users need an active subscription for the SAP Continuous Integration and Delivery service in the BTP subacccount of the Landscape Portal subscription to be able to use the Build Product Version app. If this subscription is not maintained, the following error will occur: 'No subscription to CI/CD service found for this subaccount. Please see the note below for more information on how to add the CI/CD service as entitlement and how to subscribe to it.
+-   Users need an active subscription for the SAP Continuous Integration and Delivery service in the BTP subacccount of the Landscape Portal subscription to be able to use the *Build Product Version* app. If this subscription is not maintained, the following error will occur: 'No subscription to CI/CD service found for this subaccount. Please see the note below for more information on how to add the CI/CD service as entitlement and how to subscribe to it.
 
 > ### Note:  
 > Follow these steps to add the CI/CD service as entitlement and to subscibe to it.

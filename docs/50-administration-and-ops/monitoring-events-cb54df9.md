@@ -183,7 +183,7 @@ The event has been successfully published or consumed according to the chosen qu
 <tr>
 <td valign="top">
 
-After 24 hours
+After 7 days
 
 
 

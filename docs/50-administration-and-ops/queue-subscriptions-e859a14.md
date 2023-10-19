@@ -99,7 +99,7 @@ You can also use wildcards, such as `<namespace>/*`.
 
 [CloudEvents Context Attributes](cloudevents-context-attributes-823ed3e.md "Events published through the enterprise event enablement are compliant with the CloudEvents specification. Context attributes contained in events are listed in this topic.")
 
-
+ <?sap-ot O2O class="- topic/link " href="8cbf952e55364254be2da77aa1342aa5.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/e859a1494f6d46748972377c93ee8705.xml" ?> 
 
 [Manage Queue Subscriptions](https://help.sap.com/docs/SAP_EM/bf82e6b26456494cbdd197057c09979f/753f4c9627f64a26ad349a982de5dcfe.html?version=Cloud "Manage Queue Subscriptions")
 

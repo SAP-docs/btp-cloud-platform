@@ -102,7 +102,7 @@ The DevOps engineer is responsible for the configuration of the pipeline and imp
 
 -   Implementing pipeline extensions if necessary
 
--   Implementing a multitenant application. See [Developing Multitenant Applications in the ABAP Environment](developing-multitenant-applications-in-the-abap-environment-195031f.md).
+-   Implementing a multitenant application. See [Multitenant Applications](multitenant-applications-195031f.md).
 
 -   Deploy multitenant application to provider subaccount in global account for development
 -   Subscribe to multitenant application from consumer subaccount in global account for development

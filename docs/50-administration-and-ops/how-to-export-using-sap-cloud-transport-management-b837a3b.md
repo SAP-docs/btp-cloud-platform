@@ -51,9 +51,9 @@ Before we can start releasing transport requests that generate commits, a new co
 ### Export to SAP Cloud Transport Management using the Manage Software Components app
 
 1.  Open the *Manage Software Components* app and navigate to the desired software component and a branch.
-2.  Select a commit for the export and click on the *Export to cTMS* button.
+2.  Select a commit for the export and click on the *Export Commit* button.
 
-    ![](images/list_of_commits_4f0719b.png)
+    ![](images/ListofCommits_e84a73c.png)
 
 3.  A new dialog will open, where you will be prompted to select a cTMS node you want to use for this export.
 

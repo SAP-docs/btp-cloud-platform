@@ -18,7 +18,7 @@ A destination called ASP\_CC needs to be created for ABAP Solution Service to be
 
 
 > ### Note:  
-> Please note that you should never set your own personal credentials in the User and Password fields. Always use a technical user instead.
+> Please note that you should never set personal credentials \(e.g. for your account\) in the User and Password fields. Always use a technical user instead.
 
 
 
@@ -244,7 +244,7 @@ Instead of creating the ASP\_CC destination manually, you can also save the foll
 > 						Name=ASP_CC
 > 						tokenServiceURL=https\://uaa.cf.eu10.hana.ondemand.com/oauth/token
 > 						ProxyType=Internet
-> 						URL=https\://api.cf.eu10.hana.ondemand.com
+> 						URL=https\://api.cf.<e.g.eu10>.hana.ondemand.com
 > 					
 > ```
 

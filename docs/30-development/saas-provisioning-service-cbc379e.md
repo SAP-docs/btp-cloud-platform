@@ -6,11 +6,12 @@
 
 > ### Sample Code:  
 > ```
-> - name: saas-registry
+> 
+>   - name: saas-registry
 >     type: org.cloudfoundry.managed-service
 >     parameters:
 >       service: saas-registry
->       service-plan: application 
+>       service-plan: application
 >       service-name: saas-registry
 >       config:
 >         xsappname: ${appname}
@@ -20,7 +21,6 @@
 >           onSubscription: https://cis${route-prefix}.${app-domain}/callback/v1.0/tenants/{tenantId}
 >         displayName: ${saas-display-name}
 >         description: ${saas-description}
-> 
 > ```
 
 The `SaaS Provisioning` service allows application providers to register multitenant applications and services in the Cloud Foundry environment in SAP Business Technology Platform.
