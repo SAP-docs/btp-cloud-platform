@@ -15,7 +15,7 @@ User authorizations are managed by assigning role collections to users \(for exa
 
 Role collections are user-related authorizations that allow access to resources and services. You give users permissions by assigning role collections to them. All users in the global accounts, directories, and subaccounts are stored in identity providers, either in the default or in a custom identity provider. When the first role collection assignment to a user happens, SAP BTP creates a copy of this user in the global account, directory, or subaccount. This copy of the user is called shadow user.
 
-When you do the first role collection assignment to a user through the btp CLI, such a shadow usern is created by default. If you want to prevent this, you need to pass the `--create-user-if-missing false` parameter with value `false`.
+When you do the first role collection assignment to a user through the btp CLI, such a shadow user is created by default. If you want to prevent this, you need to pass the `--create-user-if-missing` parameter with value `false`.
 
 See [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md) and [User and Member Management](../10-concepts/user-and-member-management-cc1c676.md).
 
