@@ -2,7 +2,7 @@
 
 # Basic Platform Concepts
 
-SAP BTP offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.
+SAP BTP offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications.
 
 
 
