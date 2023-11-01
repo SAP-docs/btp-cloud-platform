@@ -27,21 +27,15 @@ A list of additional commands to deploy multitarget applications \(MTA\) to the 
 
 Command
 
-
-
 </th>
 <th valign="top">
 
 Alias
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -50,21 +44,15 @@ Description
 
 [`deploy`](multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md#loio65ddb1b51a0642148c6b468a759a8a2e__section_irt_3dc_zs)
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Deploy a new Multitarget Application \(MTA\) or synchronize changes to an existing MTA
-
-
 
 </td>
 </tr>
@@ -73,21 +61,15 @@ Deploy a new Multitarget Application \(MTA\) or synchronize changes to an existi
 
 [`bg-deploy`](multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md#loio65ddb1b51a0642148c6b468a759a8a2e__section_lmg_5p4_kv)
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Deploy a Multitarget Application using “blue-green” \(zero-downtime\) deployment
-
-
 
 </td>
 </tr>
@@ -96,21 +78,15 @@ Deploy a Multitarget Application using “blue-green” \(zero-downtime\) deploy
 
 [`undeploy`](multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md#loio65ddb1b51a0642148c6b468a759a8a2e__section_axl_phv_kt)
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Undeploy a Multitarget Application \(MTA\)
-
-
 
 </td>
 </tr>
@@ -119,21 +95,15 @@ Undeploy a Multitarget Application \(MTA\)
 
 [`mta`](multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md#loio65ddb1b51a0642148c6b468a759a8a2e__section_hww_4hv_kt)
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Display information about a deployed Multitarget Application \(MTA\)
-
-
 
 </td>
 </tr>
@@ -142,21 +112,15 @@ Display information about a deployed Multitarget Application \(MTA\)
 
 [`mtas`](multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md#loio65ddb1b51a0642148c6b468a759a8a2e__section_x3p_4hv_kt)
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 List all deployed Multitarget Applications \(MTA\)
-
-
 
 </td>
 </tr>
@@ -165,21 +129,15 @@ List all deployed Multitarget Applications \(MTA\)
 
 [`mta-ops`](multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md#loio65ddb1b51a0642148c6b468a759a8a2e__section_cpf_rkk_vt)
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 List all active operations for Multitarget Applications
-
-
 
 </td>
 </tr>
@@ -188,21 +146,15 @@ List all active operations for Multitarget Applications
 
 [`download-mta-op-logs`](multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md#loio65ddb1b51a0642148c6b468a759a8a2e__section_fhv_fkk_vt)
 
-
-
 </td>
 <td valign="top">
 
 `dmol`
 
-
-
 </td>
 <td valign="top">
 
 Download the log files for one or more operations concerning Multitarget Applications
-
-
 
 </td>
 </tr>
@@ -211,21 +163,15 @@ Download the log files for one or more operations concerning Multitarget Applica
 
 [`purge-mta-config`](multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md#loio65ddb1b51a0642148c6b468a759a8a2e__section_jxk_n4p_wx)
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Purge all configuration entries and subscriptions, which are no longer valid
-
-
 
 </td>
 </tr>
@@ -317,14 +263,10 @@ The Cloud Deployment service uses the content of the mtad.yaml descriptor, and b
 
 Argument
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -333,14 +275,10 @@ Description
 
 *<MTA\_ARCHIVE\>*
 
-
-
 </td>
 <td valign="top">
 
 The path to \(and name of\) the archive or the directory containing the Multitarget Application to deploy; the application archive must have the format \(and file extension\) `mtar`, for example, `MTApp1.mtar`. If the value of this argument is a directory, the checks if an mtad.yaml file exists in that directory, and based on it assembles an MTA archive before deploying it. If no argument exists, the current directory is used.
-
-
 
 </td>
 </tr>
@@ -349,14 +287,10 @@ The path to \(and name of\) the archive or the directory containing the Multitar
 
 *<DIRECTORY\_PATH\>*
 
-
-
 </td>
 <td valign="top">
 
 The Cloud Deployment service also accepts a path to a directory where an `mtad.yaml` is maintained with path elements, for example, `cf deploy ./`.
-
-
 
 </td>
 </tr>
@@ -365,14 +299,10 @@ The Cloud Deployment service also accepts a path to a directory where an `mtad.y
 
 *<--retries\>*
 
-
-
 </td>
 <td valign="top">
 
 Retry the operation specified number of times in case a non-content error \(default 3\).
-
-
 
 </td>
 </tr>
@@ -391,14 +321,10 @@ Retry the operation specified number of times in case a non-content error \(defa
 
 Option
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -407,14 +333,10 @@ Description
 
 <code><i>-e</i> <i class="varname">&lt;EXT_DESCRIPTOR_1&gt;</i>[,<i class="varname">&lt;EXT_DESCRIPTOR_2&gt;</i>]</code>
 
-
-
 </td>
 <td valign="top">
 
 Define one or more extensions to the deployment descriptors; multiple extension descriptors must be separated by commas.
-
-
 
 </td>
 </tr>
@@ -423,14 +345,10 @@ Define one or more extensions to the deployment descriptors; multiple extension 
 
 <code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Specify the URL for the deployment-service end-point that is to be used for the deployment operation
-
-
 
 </td>
 </tr>
@@ -439,14 +357,10 @@ Specify the URL for the deployment-service end-point that is to be used for the 
 
 <code><i>-t</i> <i class="varname">&lt;TIMEOUT&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Specify the maximum amount of time \(in seconds\) that the service must wait for before starting the deployed application
-
-
 
 </td>
 </tr>
@@ -455,14 +369,10 @@ Specify the maximum amount of time \(in seconds\) that the service must wait for
 
 <code><i>-v</i> <i class="varname">&lt;VERSION_RULE&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Specify the rule to apply to determine how the application version number is used to trigger an application-update deployment operation, for example: “`HIGHER`”, “`SAME_HIGHER`”, or “`ALL`”.
-
-
 
 </td>
 </tr>
@@ -471,14 +381,10 @@ Specify the rule to apply to determine how the application version number is use
 
 <code><i>-i</i> <i class="varname">&lt;OPERATION_ID&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Specify the ID of the deploy operation that you want to perform an action on
-
-
 
 </td>
 </tr>
@@ -487,14 +393,10 @@ Specify the ID of the deploy operation that you want to perform an action on
 
 <code><i>-a</i> <i class="varname">&lt;ACTION&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Specify the action to perform on the deploy operation, for example, “abort”, “retry”, or “monitor”, or “resume”
-
-
 
 </td>
 </tr>
@@ -502,8 +404,6 @@ Specify the action to perform on the deploy operation, for example, “abort”,
 <td valign="top">
 
 <code><i>-f</i> </code>
-
-
 
 </td>
 <td valign="top">
@@ -522,14 +422,10 @@ Force deployment without requiring any confirmation about aborting any conflicti
 
 <code><i>--no-start</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Do not start application after deployment
-
-
 
 </td>
 </tr>
@@ -538,14 +434,10 @@ Do not start application after deployment
 
 <code><i>--delete-services</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Re-create changed services and delete discontinued services
-
-
 
 </td>
 </tr>
@@ -554,14 +446,10 @@ Re-create changed services and delete discontinued services
 
 <code><i>--delete-service-keys</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Delete the existing service keys and apply the new ones
-
-
 
 </td>
 </tr>
@@ -570,14 +458,10 @@ Delete the existing service keys and apply the new ones
 
 <code><i>--delete-service-brokers</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Delete discontinued service brokers
-
-
 
 </td>
 </tr>
@@ -586,14 +470,10 @@ Delete discontinued service brokers
 
 <code><i>--keep-files</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Keep the files used for deployment
-
-
 
 </td>
 </tr>
@@ -602,14 +482,10 @@ Keep the files used for deployment
 
 <code><i>--no-restart-subscribed-apps</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Do not restart subscribed applications that are updated during the deployment
-
-
 
 </td>
 </tr>
@@ -618,14 +494,10 @@ Do not restart subscribed applications that are updated during the deployment
 
 <code><i>--do-not-fail-on-missing-permissions</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Perform the deployment, even if required administrator permissions are missing for some operations \(for example, the creation of service brokers\).
-
-
 
 </td>
 </tr>
@@ -634,14 +506,10 @@ Perform the deployment, even if required administrator permissions are missing f
 
 <code><i>--abort-on-error</i></code>
 
-
-
 </td>
 <td valign="top">
 
 If an operation fails, the corresponding process is automatically aborted and cannot be retried using the option *\-a retry*. However, if you run a new operation for the same MTA, you will not receive an error message that there is an ongoing process for the MTA and ask you if you want to abort it.
-
-
 
 </td>
 </tr>
@@ -649,8 +517,6 @@ If an operation fails, the corresponding process is automatically aborted and ca
 <td valign="top">
 
 <code><i>-m &lt;module name&gt;</i></code>
-
-
 
 </td>
 <td valign="top">
@@ -669,8 +535,6 @@ Deploy only the module with the specified name.
 
 <code><i>--all-modules</i></code>
 
-
-
 </td>
 <td valign="top">
 
@@ -687,8 +551,6 @@ Deploy all modules.
 <td valign="top">
 
 <code><i>-r &lt;resource name&gt;</i></code>
-
-
 
 </td>
 <td valign="top">
@@ -707,8 +569,6 @@ Deploy only the resource with the specified name
 
 <code><i>--all-resources</i></code>
 
-
-
 </td>
 <td valign="top">
 
@@ -726,8 +586,6 @@ Deploy all resources.
 
 <code><i>--strategy</i></code>
 
-
-
 </td>
 <td valign="top">
 
@@ -735,16 +593,12 @@ Announce to the platform a special deployment approach, for example when perform
 
 Using this option, you will not be asked to manually confirm the deletion of the older version of the MTA applications. This means that the deployment process is performed without any interruptions and you are not prompted to confirm the switch of routes to the new version of the MTA applications.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 <code><i>--skip-testing-phase</i></code>
-
-
 
 </td>
 <td valign="top">
@@ -755,8 +609,6 @@ When using the *\--strategy* option for “blue-green”, you can choose to skip
 > This option is equivalent to *\--no-confrim* from “bg-deploy”.
 
 Note
-
-
 
 </td>
 </tr>
@@ -775,8 +627,6 @@ Note
 
 Namespace for the MTA. They are also applied to the application and service names. For more information, see [\(Experimental\) Namespaces](../30-development/experimental-namespaces-b28fd77.md).
 
-
-
 </td>
 </tr>
 <tr>
@@ -793,8 +643,6 @@ Namespace for the MTA. They are also applied to the application and service name
 <td valign="top">
 
 When using the *\--strategy* option for “blue-green”, you can choose to skip the starting of the newly deployed applications on idle routes. This means that the newly deployed applications will be mapped directly to live routes. Under the hood this option includes *\--skip-testing-phase*.
-
-
 
 </td>
 </tr>
@@ -856,14 +704,10 @@ cf bg-deploy  [-i <OPERATION_ID>] [-a <ACTION>]
 
 Argument
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -876,14 +720,10 @@ or
 
 *<DIRECTORY\_PATH\>*
 
-
-
 </td>
 <td valign="top">
 
 The path to \(and name of\) the archive or the path to the directory containing the Multitarget Application to deploy. The application archive must have the format \(and file extension\) `mtar`, for example, `MTApp1.mtar`; the specified directory can be specified as a path \(for example, `myApp/` or `.` \(current directory\).
-
-
 
 </td>
 </tr>
@@ -892,14 +732,10 @@ The path to \(and name of\) the archive or the path to the directory containing 
 
 *<--retries\>*
 
-
-
 </td>
 <td valign="top">
 
 Retry the operation specified number of times in case a non-content error \(default 3\).
-
-
 
 </td>
 </tr>
@@ -918,14 +754,10 @@ Retry the operation specified number of times in case a non-content error \(defa
 
 Option
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -934,14 +766,10 @@ Description
 
 <code><i>-e</i> <i class="varname">&lt;EXT_DESCRIPTOR_1&gt;</i>[,<i class="varname">&lt;EXT_DESCRIPTOR_2&gt;</i>]</code>
 
-
-
 </td>
 <td valign="top">
 
 Define one or more extensions to the deployment descriptors; multiple extension descriptors must be separated by commas.
-
-
 
 </td>
 </tr>
@@ -950,14 +778,10 @@ Define one or more extensions to the deployment descriptors; multiple extension 
 
 <code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Specify the URL for the deployment-service end-point that is to be used for the deployment operation
-
-
 
 </td>
 </tr>
@@ -966,14 +790,10 @@ Specify the URL for the deployment-service end-point that is to be used for the 
 
 <code><i>-t</i> <i class="varname">&lt;TIMEOUT&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Specify the maximum amount of time \(in seconds\) that the service must wait for before starting the deployed application
-
-
 
 </td>
 </tr>
@@ -982,14 +802,10 @@ Specify the maximum amount of time \(in seconds\) that the service must wait for
 
 <code><i>-v</i> <i class="varname">&lt;VERSION_RULE&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Specify the rule to apply to determine how the application version number is used to trigger an application-update deployment operation, for example: “`HIGHER`”, “`SAME_HIGHER`”, or “`ALL`”.
-
-
 
 </td>
 </tr>
@@ -998,14 +814,10 @@ Specify the rule to apply to determine how the application version number is use
 
 <code><i>-i</i> <i class="varname">&lt;OPERATION_ID&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Specify the ID of the deploy operation that you want to perform an action on
-
-
 
 </td>
 </tr>
@@ -1014,14 +826,10 @@ Specify the ID of the deploy operation that you want to perform an action on
 
 <code><i>-a</i> <i class="varname">&lt;ACTION&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Specify the action to perform on the deploy operation, for example, “abort”, “retry”, or “monitor”, or “resume”
-
-
 
 </td>
 </tr>
@@ -1030,14 +838,10 @@ Specify the action to perform on the deploy operation, for example, “abort”,
 
 <code><i>-f</i> </code>
 
-
-
 </td>
 <td valign="top">
 
 Force deploy without requiring any confirmation for aborting any conflicting processes
-
-
 
 </td>
 </tr>
@@ -1046,14 +850,10 @@ Force deploy without requiring any confirmation for aborting any conflicting pro
 
 <code><i>--no-start</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Do not start application after deployment
-
-
 
 </td>
 </tr>
@@ -1062,14 +862,10 @@ Do not start application after deployment
 
 <code><i>--use-namespaces</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Use namespaces in application \(and service\) names during application deployment
-
-
 
 </td>
 </tr>
@@ -1078,14 +874,10 @@ Use namespaces in application \(and service\) names during application deploymen
 
 <code><i>--no-namespaces-for-services</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Do not use namespaces in service names
-
-
 
 </td>
 </tr>
@@ -1094,14 +886,10 @@ Do not use namespaces in service names
 
 <code><i>--delete-services</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Re-create changed services and delete discontinued services
-
-
 
 </td>
 </tr>
@@ -1110,14 +898,10 @@ Re-create changed services and delete discontinued services
 
 <code><i>--delete-service-keys</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Delete the existing service keys and apply the new ones
-
-
 
 </td>
 </tr>
@@ -1126,14 +910,10 @@ Delete the existing service keys and apply the new ones
 
 <code><i>--delete-service-brokers</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Delete discontinued service brokers
-
-
 
 </td>
 </tr>
@@ -1142,14 +922,10 @@ Delete discontinued service brokers
 
 <code><i>--keep-files</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Keep the files used for deployment
-
-
 
 </td>
 </tr>
@@ -1158,14 +934,10 @@ Keep the files used for deployment
 
 <code><i>--no-restart-subscribed-apps</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Do not restart subscribed applications that are updated during the deployment
-
-
 
 </td>
 </tr>
@@ -1174,14 +946,10 @@ Do not restart subscribed applications that are updated during the deployment
 
 <code><i>--no-confirm</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Use this option to turn off the manual confirmation for deleting the older version of the MTA applications. Thus the deployment process is performed from start to finish uninterrupted, and you are not prompted to confirm the switch of routes to the new version of the MTA applications.
-
-
 
 </td>
 </tr>
@@ -1190,14 +958,10 @@ Use this option to turn off the manual confirmation for deleting the older versi
 
 <code><i>--do-not-fail-on-missing-permissions</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Perform the deployment, even if required administrator permissions are missing for some operations \(for example, the creation of service brokers\).
-
-
 
 </td>
 </tr>
@@ -1206,14 +970,10 @@ Perform the deployment, even if required administrator permissions are missing f
 
 <code><i>--abort-on-error</i></code>
 
-
-
 </td>
 <td valign="top">
 
 If an operation fails, the corresponding process is automatically aborted and cannot be retried using the option *\-a retry*
-
-
 
 </td>
 </tr>
@@ -1221,8 +981,6 @@ If an operation fails, the corresponding process is automatically aborted and ca
 <td valign="top">
 
 <code><i>-m &lt;module name&gt;. However, if you run a new operation for the same MTA, you will not receive an error message that there is an ongoing process for the MTA and ask you if you want to abort it.</i></code>
-
-
 
 </td>
 <td valign="top">
@@ -1241,8 +999,6 @@ Deploy only the module with the specified name.
 
 <code><i>--all-modules</i></code>
 
-
-
 </td>
 <td valign="top">
 
@@ -1260,8 +1016,6 @@ Deploy all modules.
 
 <code><i>-r &lt;resource name&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
@@ -1278,8 +1032,6 @@ Deploy only the resource with the specified name
 <td valign="top">
 
 <code><i>--all-resources</i></code>
-
-
 
 </td>
 <td valign="top">
@@ -1307,8 +1059,6 @@ Deploy all resources.
 <td valign="top">
 
 You can choose to skip the starting of the newly deployed applications on idle routes. This means that the newly deployed applications will be mapped directly to live routes. Under the hood this option includes *\--no-confirm*.
-
-
 
 </td>
 </tr>
@@ -1365,14 +1115,10 @@ cf undeploy [-i <UNDEPLOY_ID>] [-a <ACTION>]
 
 Argument
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -1381,14 +1127,10 @@ Description
 
 *<MTA\_ID\>*
 
-
-
 </td>
 <td valign="top">
 
 The ID of the MTA you want to undeploy
-
-
 
 </td>
 </tr>
@@ -1397,14 +1139,10 @@ The ID of the MTA you want to undeploy
 
 *<--retries\>*
 
-
-
 </td>
 <td valign="top">
 
 Retry the operation specified number of times in case a non-content error \(default 3\).
-
-
 
 </td>
 </tr>
@@ -1423,14 +1161,10 @@ Retry the operation specified number of times in case a non-content error \(defa
 
 Option
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -1439,14 +1173,10 @@ Description
 
 <code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Specify the URL for the service end-point that is to be used for the undeployment operation
-
-
 
 </td>
 </tr>
@@ -1455,14 +1185,10 @@ Specify the URL for the service end-point that is to be used for the undeploymen
 
 <code><i>-i</i> <i class="varname">&lt;OPERATION_ID&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Specify the ID of the undeploy operation that you want to perform an action on
-
-
 
 </td>
 </tr>
@@ -1471,14 +1197,10 @@ Specify the ID of the undeploy operation that you want to perform an action on
 
 <code><i>-a</i> <i class="varname">&lt;ACTION&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Specify the action to perform on the undeploy operation, for example, “abort”, “retry”, or “monitor”
-
-
 
 </td>
 </tr>
@@ -1487,14 +1209,10 @@ Specify the action to perform on the undeploy operation, for example, “abort�
 
 <code><i>-f</i> </code>
 
-
-
 </td>
 <td valign="top">
 
 Force completion of the undeploy operation without any system prompt or confirmation
-
-
 
 </td>
 </tr>
@@ -1503,14 +1221,10 @@ Force completion of the undeploy operation without any system prompt or confirma
 
 <code><i>--delete-services</i> </code>
 
-
-
 </td>
 <td valign="top">
 
 Delete any related services
-
-
 
 </td>
 </tr>
@@ -1519,14 +1233,10 @@ Delete any related services
 
 <code><i>--delete-service-brokers</i> </code>
 
-
-
 </td>
 <td valign="top">
 
 Delete discontinued service brokers
-
-
 
 </td>
 </tr>
@@ -1535,14 +1245,10 @@ Delete discontinued service brokers
 
 <code><i>--no-restart-subscribed-apps</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Do not restart subscribed applications that are updated during the deployment
-
-
 
 </td>
 </tr>
@@ -1551,14 +1257,10 @@ Do not restart subscribed applications that are updated during the deployment
 
 <code><i>--do-not-fail-on-missing-permissions</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Perform the deployment, even if required administrator permissions are missing for some operations \(for example, the creation of service brokers\).
-
-
 
 </td>
 </tr>
@@ -1567,14 +1269,10 @@ Perform the deployment, even if required administrator permissions are missing f
 
 <code><i>--abort-on-error</i></code>
 
-
-
 </td>
 <td valign="top">
 
 If an operation fails, the corresponding process is automatically aborted and cannot be retried using the option *\-a retry*. However, if you run a new operation for the same MTA, you will not receive an error message that there is an ongoing process for the MTA and ask you if you want to abort it.
-
-
 
 </td>
 </tr>
@@ -1583,14 +1281,10 @@ If an operation fails, the corresponding process is automatically aborted and ca
 
 <code><i>--delete-service-keys</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Delete the existing service keys
-
-
 
 </td>
 </tr>
@@ -1626,14 +1320,10 @@ cf mta MTA_ID
 
 Argument
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -1642,14 +1332,10 @@ Description
 
 *<MTA\_ID\>* 
 
-
-
 </td>
 <td valign="top">
 
 The ID of the MTA whose details you want to display
-
-
 
 </td>
 </tr>
@@ -1668,14 +1354,10 @@ The ID of the MTA whose details you want to display
 
 Option
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -1684,14 +1366,10 @@ Description
 
 <code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code> 
 
-
-
 </td>
 <td valign="top">
 
 Specify the URL for the deployment-service end-point to use to obtain details of the selected MTA
-
-
 
 </td>
 </tr>
@@ -1726,14 +1404,10 @@ cf mtas [-u <URL>]
 
 Option
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -1742,14 +1416,10 @@ Description
 
 <code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code> 
 
-
-
 </td>
 <td valign="top">
 
 Specify the URL for the deployment-service end-point to use to obtain details of the selected MTA
-
-
 
 </td>
 </tr>
@@ -1784,14 +1454,10 @@ cf mta-ops [--mta <MTA>] [-u <URL>] [--last <NUM>] [--all]
 
 Option
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -1800,14 +1466,10 @@ Description
 
 <code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Specify the URL for the deployment-service end-point to use to obtain details of the selected MTA operations
-
-
 
 </td>
 </tr>
@@ -1816,14 +1478,10 @@ Specify the URL for the deployment-service end-point to use to obtain details of
 
 <code><i>--last</i> <i class="varname">&lt;NUM&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 List the last *<NUM\>* active MTA operations
-
-
 
 </td>
 </tr>
@@ -1832,14 +1490,10 @@ List the last *<NUM\>* active MTA operations
 
 <code><i>--all</i></code>
 
-
-
 </td>
 <td valign="top">
 
 List all active MTA operations
-
-
 
 </td>
 </tr>
@@ -1848,14 +1502,10 @@ List all active MTA operations
 
 <code><i>– mta &lt;MTA&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Specify the MTA whose operations you want to list.
-
-
 
 </td>
 </tr>
@@ -1900,14 +1550,10 @@ cf download-mta-op-logs --mta <MTA> [ --last <NUM>] [ -u <URL>] [ -d <DIRECTORY>
 
 Option
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -1916,14 +1562,10 @@ Description
 
 <code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Specify the URL for the deployment-service end-point to use to obtain details of the selected MTA operations
-
-
 
 </td>
 </tr>
@@ -1932,14 +1574,10 @@ Specify the URL for the deployment-service end-point to use to obtain details of
 
 <code><i>-i</i> <i class="varname">&lt;OPERATION_ID&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Specify the identity \(ID\) of the MTA operation whose logs you want to download
-
-
 
 </td>
 </tr>
@@ -1948,14 +1586,10 @@ Specify the identity \(ID\) of the MTA operation whose logs you want to download
 
 <code><i>-d</i> <i class="varname">&lt;DIRECTORY&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Specify the path to the location where you want to save the downloaded MTA operation logs; by default, the location is <code>./mta-op-<i class="varname">&lt;OPERATION_ID&gt;</i>/</code>
-
-
 
 </td>
 </tr>
@@ -1963,8 +1597,6 @@ Specify the path to the location where you want to save the downloaded MTA opera
 <td valign="top">
 
 <code><i>--mta</i><i class="varname">&lt;MTA&gt;</i></code>
-
-
 
 </td>
 <td valign="top">
@@ -1983,14 +1615,10 @@ Specify the MTA whose logs you want to download.
 
 <code><i>--last</i><i class="varname">&lt;NUM&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Download the last <NUM\> logs for the specified MTA.
-
-
 
 </td>
 </tr>
@@ -2028,14 +1656,10 @@ Invalid configuration entries are often produced when the application that is pr
 
 Option
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -2044,14 +1668,10 @@ Description
 
 <code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code> 
 
-
-
 </td>
 <td valign="top">
 
 The URL of the deploy service
-
-
 
 </td>
 </tr>

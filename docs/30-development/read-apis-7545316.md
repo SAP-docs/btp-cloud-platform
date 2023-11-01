@@ -137,35 +137,25 @@ Note that not all object types support the origin concept yet \(see table below\
 
 Object Type
 
-
-
 </th>
 <th valign="top">
 
 Supports Origins?
-
-
 
 </th>
 <th valign="top">
 
 Origin Factory
 
-
-
 </th>
 <th valign="top">
 
 Supports Local Origin
 
-
-
 </th>
 <th valign="top">
 
 Supports Remote Origin
-
-
 
 </th>
 </tr>
@@ -174,42 +164,30 @@ Supports Remote Origin
 
 APLO
 
-
-
 </td>
 <td valign="top">
 
 Application Log Object
-
-
 
 </td>
 <td valign="top">
 
 No
 
+</td>
+<td valign="top">
 
+\-
 
 </td>
 <td valign="top">
 
 \-
 
-
-
 </td>
 <td valign="top">
 
 \-
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
 
 </td>
 </tr>
@@ -218,42 +196,30 @@ No
 
 CLAS
 
-
-
 </td>
 <td valign="top">
 
 Class
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 XCO\_CP\_ABAP\_OBJECTS=\>ORIGIN
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -262,42 +228,30 @@ Yes
 
 DDLS
 
-
-
 </td>
 <td valign="top">
 
 Data Definition
-
-
 
 </td>
 <td valign="top">
 
 No
 
+</td>
+<td valign="top">
 
+\-
 
 </td>
 <td valign="top">
 
 \-
 
-
-
 </td>
 <td valign="top">
 
 \-
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
 
 </td>
 </tr>
@@ -306,42 +260,30 @@ No
 
 DOMA
 
-
-
 </td>
 <td valign="top">
 
 Domain
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 XCO\_CP\_DOMAIN=\>ORIGIN
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -350,42 +292,30 @@ No
 
 DRTY
 
-
-
 </td>
 <td valign="top">
 
 CDS Type Definition
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 XCO\_CP\_CDS\_TYPE\_DEFINITION
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -394,42 +324,30 @@ No
 
 DTEL
 
-
-
 </td>
 <td valign="top">
 
 Data Element
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 XCO\_CP\_DATA\_ELEMENT=\>ORIGIN
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -438,42 +356,30 @@ No
 
 EVTB
 
-
-
 </td>
 <td valign="top">
 
 Event Binding
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 XCO\_CP\_EVENT\_BINDING=\>ORIGIN
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -482,42 +388,30 @@ No
 
 FUGR
 
-
-
 </td>
 <td valign="top">
 
 Function Group
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 XCO\_CP\_FUNCTION\_GROUP=\>ORIGIN
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -526,35 +420,25 @@ No
 
 Function Module
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 XCO\_CP\_FUNCTION\_MODULE=\>ORIGIN
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -563,42 +447,30 @@ No
 
 INTF
 
-
-
 </td>
 <td valign="top">
 
 Interface
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 XCO\_CP\_ABAP\_OBJECTS=\>ORIGIN
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -607,42 +479,30 @@ Yes
 
 MSAG
 
-
-
 </td>
 <td valign="top">
 
 Message Class
-
-
 
 </td>
 <td valign="top">
 
 No
 
+</td>
+<td valign="top">
 
+\-
 
 </td>
 <td valign="top">
 
 \-
 
-
-
 </td>
 <td valign="top">
 
 \-
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
 
 </td>
 </tr>
@@ -651,42 +511,30 @@ No
 
 NONT
 
-
-
 </td>
 <td valign="top">
 
 SAP Object Node Type
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 XCO\_CP\_SAP\_OBJECT\_NODE\_TYPE=\>ORIGIN
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -695,42 +543,30 @@ No
 
 RONT
 
-
-
 </td>
 <td valign="top">
 
 SAP Object Type
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 XCO\_CP\_SAP\_OBJECT\_TYPE=\>ORIGIN
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -739,42 +575,30 @@ No
 
 SRVB
 
-
-
 </td>
 <td valign="top">
 
 Service Binding
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 XCO\_CP\_SERVICE\_BINDING=\>ORIGIN
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -783,42 +607,30 @@ No
 
 SRVC
 
-
-
 </td>
 <td valign="top">
 
 Service Consumption Model
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 XCO\_CP\_SERVICE\_CONS\_MODEL=\>ORIGIN
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -827,42 +639,30 @@ No
 
 SRVD
 
-
-
 </td>
 <td valign="top">
 
 Service Definition
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 XCO\_CP\_SERVICE\_DEFINITION=\>ORIGIN
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -871,42 +671,30 @@ No
 
 TABL
 
-
-
 </td>
 <td valign="top">
 
 Structure
-
-
 
 </td>
 <td valign="top">
 
 No
 
+</td>
+<td valign="top">
 
+\-
 
 </td>
 <td valign="top">
 
 \-
 
-
-
 </td>
 <td valign="top">
 
 \-
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
 
 </td>
 </tr>
@@ -915,35 +703,25 @@ No
 
 Database Table
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 XCO\_CP\_DATABASE\_TABLE=\>ORIGIN
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -952,35 +730,25 @@ No
 
 Global Temporary Table
 
-
-
 </td>
 <td valign="top">
 
 No
 
+</td>
+<td valign="top">
 
+\-
 
 </td>
 <td valign="top">
 
 \-
 
-
-
 </td>
 <td valign="top">
 
 \-
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
 
 </td>
 </tr>
@@ -989,42 +757,30 @@ No
 
 TTYP
 
-
-
 </td>
 <td valign="top">
 
 Table Type
-
-
 
 </td>
 <td valign="top">
 
 No
 
+</td>
+<td valign="top">
 
+\-
 
 </td>
 <td valign="top">
 
 \-
 
-
-
 </td>
 <td valign="top">
 
 \-
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
 
 </td>
 </tr>
@@ -1033,42 +789,30 @@ No
 
 XSLT
 
-
-
 </td>
 <td valign="top">
 
 Transformation
-
-
 
 </td>
 <td valign="top">
 
 No
 
+</td>
+<td valign="top">
 
+\-
 
 </td>
 <td valign="top">
 
 \-
 
-
-
 </td>
 <td valign="top">
 
 \-
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
 
 </td>
 </tr>

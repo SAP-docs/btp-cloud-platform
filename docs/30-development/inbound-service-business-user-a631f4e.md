@@ -49,35 +49,25 @@ The service nodes contain the service's business data.
 
 Node or Field
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Maximum Field Length
 
-
-
 </th>
 <th valign="top">
 
 Cardinality
 
-
-
 </th>
 <th valign="top">
 
 Necessity
-
-
 
 </th>
 </tr>
@@ -86,28 +76,20 @@ Necessity
 
 `PersonExternalID` 
 
-
-
 </td>
 <td valign="top">
 
 The Person External ID is the ID of the employee.
-
-
 
 </td>
 <td valign="top">
 
 60
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 <td valign="top">
@@ -116,8 +98,6 @@ Mandatory for create for business partner category \(`BUP003` - Employee\).
 
 Optional for update \(at least one of the person IDs is mandatory.\)
 
-
-
 </td>
 </tr>
 <tr>
@@ -125,28 +105,20 @@ Optional for update \(at least one of the person IDs is mandatory.\)
 
 `PersonID` 
 
-
-
 </td>
 <td valign="top">
 
 Person ID is the ID of the business partner.
-
-
 
 </td>
 <td valign="top">
 
 10
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 <td valign="top">
@@ -154,8 +126,6 @@ Person ID is the ID of the business partner.
 Optional
 
 \(At least one of the person IDs is mandatory.\)
-
-
 
 </td>
 </tr>
@@ -164,28 +134,20 @@ Optional
 
 `PersonUUID` 
 
-
-
 </td>
 <td valign="top">
 
 Person UUID is the unique ID of the business partner.
-
-
 
 </td>
 <td valign="top">
 
 36
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 <td valign="top">
@@ -194,8 +156,6 @@ Optional
 
 \(At least one of the person IDs is mandatory.\)
 
-
-
 </td>
 </tr>
 <tr>
@@ -203,28 +163,20 @@ Optional
 
 `BusinessPartnerRoleCode` 
 
-
-
 </td>
 <td valign="top">
 
 Business Partner Role Code
-
-
 
 </td>
 <td valign="top">
 
 6
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 <td valign="top">
@@ -233,16 +185,12 @@ Mandatory for create for Business partner category \(`BUP003` - Employee\).
 
 Optional for update.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top" colspan="3">
 
 `MarkedForArchivingIndicator` 
-
-
 
 </td>
 <td valign="top">
@@ -270,21 +218,15 @@ Set to **False**:
 
  
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -295,14 +237,10 @@ Optional
 
 Cardinality: 0..1
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 `StartDate` 
-
-
 
 </td>
 <td valign="top">
@@ -313,8 +251,6 @@ YYYY-MM-DD
 
 By default, the system date is set.
 
-
-
 </td>
 <td valign="top">
 
@@ -325,14 +261,10 @@ By default, the system date is set.
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -340,8 +272,6 @@ Optional
 <td valign="top" colspan="2">
 
 `EndDate` 
-
-
 
 </td>
 <td valign="top">
@@ -352,8 +282,6 @@ YYYY-MM-DD
 
 By default, 9999-12-31 is set.
 
-
-
 </td>
 <td valign="top">
 
@@ -364,14 +292,10 @@ By default, 9999-12-31 is set.
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -382,42 +306,30 @@ Optional
 
 Cardinality: 0..1
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 `FormOfAddress` 
-
-
 
 </td>
 <td valign="top">
 
 Form of address
 
-
-
 </td>
 <td valign="top">
 
 4
-
-
 
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -426,35 +338,25 @@ Optional
 
 `FirstName` 
 
-
-
 </td>
 <td valign="top">
 
 First name
-
-
 
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -463,8 +365,6 @@ Optional
 
 `LastName` 
 
-
-
 </td>
 <td valign="top">
 
@@ -472,28 +372,20 @@ Last name
 
 This field is mandatory.
 
-
-
 </td>
 <td valign="top">
 
 40
-
-
 
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Mandatory
-
-
 
 </td>
 </tr>
@@ -502,35 +394,25 @@ Mandatory
 
 `PersonFullName` 
 
-
-
 </td>
 <td valign="top">
 
 Person full name
-
-
 
 </td>
 <td valign="top">
 
 80
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -539,35 +421,25 @@ Optional
 
 `AcademicTitle` 
 
-
-
 </td>
 <td valign="top">
 
 Academic title
-
-
 
 </td>
 <td valign="top">
 
 4
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -576,35 +448,25 @@ Optional
 
 `CorrespondenceLanguage` 
 
-
-
 </td>
 <td valign="top">
 
 Correspondence language
-
-
 
 </td>
 <td valign="top">
 
 9
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -613,35 +475,25 @@ Optional
 
 `MiddleName` 
 
-
-
 </td>
 <td valign="top">
 
 Middle name
-
-
 
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -650,35 +502,25 @@ Optional
 
 `AdditionalLastName` 
 
-
-
 </td>
 <td valign="top">
 
 Additional last name
-
-
 
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -687,35 +529,25 @@ Optional
 
 `BirthName` 
 
-
-
 </td>
 <td valign="top">
 
 Birth name
-
-
 
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -724,35 +556,25 @@ Optional
 
 `NickName` 
 
-
-
 </td>
 <td valign="top">
 
 Nick name
-
-
 
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -761,35 +583,25 @@ Optional
 
 `Initials` 
 
-
-
 </td>
 <td valign="top">
 
 Initials
-
-
 
 </td>
 <td valign="top">
 
 10
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -798,35 +610,25 @@ Optional
 
 `AcademicSecondTitle` 
 
-
-
 </td>
 <td valign="top">
 
 Academic second title
-
-
 
 </td>
 <td valign="top">
 
 4
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -835,35 +637,25 @@ Optional
 
 `LastNamePrefix` 
 
-
-
 </td>
 <td valign="top">
 
 Last name prefix
-
-
 
 </td>
 <td valign="top">
 
 4
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -872,35 +664,25 @@ Optional
 
 `LastNameSecondPrefix` 
 
-
-
 </td>
 <td valign="top">
 
 Last name second prefix
-
-
 
 </td>
 <td valign="top">
 
 4
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -909,35 +691,25 @@ Optional
 
 `NameSupplement` 
 
-
-
 </td>
 <td valign="top">
 
 Name supplement
-
-
 
 </td>
 <td valign="top">
 
 4
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -945,8 +717,6 @@ Optional
 <td valign="top" colspan="2">
 
 `actionCode` 
-
-
 
 </td>
 <td valign="top">
@@ -962,28 +732,20 @@ You can use the following values:
 
 Mandatory if \[2\] is not set and personal information data are given.
 
-
-
 </td>
 <td valign="top">
 
 2
-
-
 
 </td>
 <td valign="top">
 
 optional
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -1004,35 +766,25 @@ Cardinality: 0..1
 
 `UserName` 
 
-
-
 </td>
 <td valign="top">
 
 User name/Alias
-
-
 
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -1041,35 +793,25 @@ Optional
 
 `LogonLanguageCode` 
 
-
-
 </td>
 <td valign="top">
 
 Logon language
-
-
 
 </td>
 <td valign="top">
 
 9
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -1077,8 +819,6 @@ Optional
 <td valign="top" colspan="2">
 
 `DateFormatCode` 
-
-
 
 </td>
 <td valign="top">
@@ -1117,21 +857,15 @@ You can use the following values:
 
 2
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -1139,8 +873,6 @@ Optional
 <td valign="top" colspan="2">
 
 `DecimalFormatCode` 
-
-
 
 </td>
 <td valign="top">
@@ -1161,21 +893,15 @@ You can use the following values:
 
 2
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -1184,35 +910,25 @@ Optional
 
 `TimeZoneCode` 
 
-
-
 </td>
 <td valign="top">
 
 Time zone
-
-
 
 </td>
 <td valign="top">
 
 10
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -1220,8 +936,6 @@ Optional
 <td valign="top" colspan="2">
 
 `TimeFormatCode` 
-
-
 
 </td>
 <td valign="top">
@@ -1246,21 +960,15 @@ You can use the following values:
 
 2
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -1269,35 +977,25 @@ Optional
 
 `LockedIndicator` 
 
-
-
 </td>
 <td valign="top">
 
 Locked indicator
-
-
 
 </td>
 <td valign="top">
 
 5
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -1308,14 +1006,10 @@ Optional
 
 Cardinality: 1
 
-
-
 </td>
 <td valign="top">
 
 `StartDate` 
-
-
 
 </td>
 <td valign="top">
@@ -1326,28 +1020,20 @@ YYYY-MM-DD
 
 If the start date is not maintained for the `User`, the `StartDate` for the `BusinessUser` is entered.
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -1355,8 +1041,6 @@ Optional
 <td valign="top">
 
 `EndDate` 
-
-
 
 </td>
 <td valign="top">
@@ -1367,28 +1051,20 @@ YYYY-MM-DD
 
 If the `EndDate` is not maintained, it is set to 9999-12-31.
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -1399,42 +1075,30 @@ Optional
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top">
 
 `RoleName` 
-
-
 
 </td>
 <td valign="top">
 
 Role name
 
-
-
 </td>
 <td valign="top">
 
 40
-
-
 
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -1442,8 +1106,6 @@ Optional
 <td valign="top">
 
 `actionCode` 
-
-
 
 </td>
 <td valign="top">
@@ -1457,28 +1119,20 @@ You can use the following values:
 
 Mandatory if \[6\] is not set and role name data is given.
 
-
-
 </td>
 <td valign="top">
 
 2
 
-
-
 </td>
 <td valign="top">
 
 Optional
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -1487,21 +1141,15 @@ Optional
 
 GlobalUserID
 
-
-
 </td>
 <td valign="top">
 
 Used to uniquely identify your business user across different systems.
 
-
-
 </td>
 <td valign="top">
 
 36
-
-
 
 </td>
 <td valign="top">
@@ -1512,8 +1160,6 @@ Used to uniquely identify your business user across different systems.
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -1522,35 +1168,25 @@ Optional
 
 UserGroupCode
 
-
-
 </td>
 <td valign="top">
 
 Assign a business user to an existing user group.
-
-
 
 </td>
 <td valign="top">
 
 12
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -1558,8 +1194,6 @@ Optional
 <td valign="top" colspan="2">
 
 `actionCode` 
-
-
 
 </td>
 <td valign="top">
@@ -1575,28 +1209,20 @@ You can use the following values:
 
 Mandatory if \[3\] is not set and user data \(`UserName` and `Role`\) are given.
 
-
-
 </td>
 <td valign="top">
 
 2
 
-
-
 </td>
 <td valign="top">
 
 Optional
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -1605,8 +1231,6 @@ Optional
 
 \[6\] `roleListCompleteTransmissionIndicator` 
 
-
-
 </td>
 <td valign="top">
 
@@ -1614,8 +1238,6 @@ CTI for the `Role` node
 
 See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d14474384beb3__CTI_Note) for more information.
 
-
-
 </td>
 <td valign="top">
 
@@ -1626,14 +1248,10 @@ See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d
 
 Optional
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -1644,42 +1262,30 @@ Optional
 
 Cardinality: 0..1
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 `UserID` 
-
-
 
 </td>
 <td valign="top">
 
 User ID
 
-
-
 </td>
 <td valign="top">
 
 12
-
-
 
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -1687,8 +1293,6 @@ N/A
 <td valign="top" colspan="2">
 
 `actionCode` 
-
-
 
 </td>
 <td valign="top">
@@ -1704,28 +1308,20 @@ You can use the following values:
 
 Mandatory if \[4\] is not set and User ID data are given.
 
-
-
 </td>
 <td valign="top">
 
 2
-
-
 
 </td>
 <td valign="top">
 
 Optional
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -1734,42 +1330,30 @@ N/A
 
 `WorkplaceInformation` 
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 `EmailAddress` 
-
-
 
 </td>
 <td valign="top">
 
 Email address
 
-
-
 </td>
 <td valign="top">
 
 241
-
-
 
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -1782,14 +1366,10 @@ Cardinality: 0..2
 
 One set of phone information per phone type supported.
 
-
-
 </td>
 <td valign="top">
 
 `PhoneType` 
-
-
 
 </td>
 <td valign="top">
@@ -1808,21 +1388,15 @@ Phone type
 
 1
 
-
-
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -1831,8 +1405,6 @@ N/A
 
 `CountryDialingCode` 
 
-
-
 </td>
 <td valign="top">
 
@@ -1840,28 +1412,20 @@ Country dialing code
 
 Used for both phone types.
 
-
-
 </td>
 <td valign="top">
 
 10
-
-
 
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -1870,8 +1434,6 @@ N/A
 
 `PhoneNumberAreaID` 
 
-
-
 </td>
 <td valign="top">
 
@@ -1879,28 +1441,20 @@ Phone number area code
 
 Used only for phone type B.
 
-
-
 </td>
 <td valign="top">
 
 10
-
-
 
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -1909,8 +1463,6 @@ N/A
 
 `PhoneNumberSubscriberID` 
 
-
-
 </td>
 <td valign="top">
 
@@ -1918,28 +1470,20 @@ Phone number subscriber ID
 
 Used for both phone types.
 
-
-
 </td>
 <td valign="top">
 
 30
-
-
 
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -1948,8 +1492,6 @@ N/A
 
 `PhoneNumberExtension` 
 
-
-
 </td>
 <td valign="top">
 
@@ -1957,28 +1499,20 @@ Phone number extension
 
 Used only for phone type B.
 
-
-
 </td>
 <td valign="top">
 
 10
-
-
 
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -1986,8 +1520,6 @@ N/A
 <td valign="top">
 
 `actionCode` 
-
-
 
 </td>
 <td valign="top">
@@ -2003,28 +1535,20 @@ You can use the following values:
 
 Mandatory if \[7\] is not set and phone data is given.
 
-
-
 </td>
 <td valign="top">
 
 2
-
-
 
 </td>
 <td valign="top">
 
 Optional
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -2033,35 +1557,25 @@ N/A
 
 `FunctionalTitleName` 
 
-
-
 </td>
 <td valign="top">
 
 Functional title name
-
-
 
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -2070,35 +1584,25 @@ N/A
 
 `Department` 
 
-
-
 </td>
 <td valign="top">
 
 Department name
-
-
 
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -2107,35 +1611,25 @@ N/A
 
 `RoomNumber` 
 
-
-
 </td>
 <td valign="top">
 
 Room number
-
-
 
 </td>
 <td valign="top">
 
 10
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -2144,35 +1638,25 @@ N/A
 
 `Building` 
 
-
-
 </td>
 <td valign="top">
 
 Building name
-
-
 
 </td>
 <td valign="top">
 
 10
 
-
-
 </td>
 <td valign="top">
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -2180,8 +1664,6 @@ N/A
 <td valign="top" colspan="2">
 
 `actionCode` 
-
-
 
 </td>
 <td valign="top">
@@ -2197,28 +1679,20 @@ You can use the following values:
 
 Mandatory if \[5\] is not set and workplace information data is given.
 
-
-
 </td>
 <td valign="top">
 
 2
-
-
 
 </td>
 <td valign="top">
 
 Optional
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -2227,16 +1701,12 @@ N/A
 
 \[7\] `phoneInformationListCompleteTransmissionIndicator` 
 
-
-
 </td>
 <td valign="top">
 
 CTI for the `PhoneInformation` node
 
 See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d14474384beb3__CTI_Note) for more information.
-
-
 
 </td>
 <td valign="top">
@@ -2248,14 +1718,10 @@ See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d
 
 Optional
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -2264,22 +1730,16 @@ N/A
 
 `Relationship`\(only for on-premise\)
 
-
-
 </td>
 <td valign="top" rowspan="4">
 
 `Partner1` 
-
-
 
 </td>
 <td valign="top">
 
 `BusinessPartnerID` 
 
-
-
 </td>
 <td valign="top">
 
@@ -2290,21 +1750,15 @@ N/A
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -2313,35 +1767,25 @@ N/A
 
 `BusinessPartnerUUID` 
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -2350,35 +1794,25 @@ N/A
 
 `BusinessPartnerExternalID` 
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -2387,35 +1821,25 @@ N/A
 
 `BusinessPartnerExternalIDCategoryCode` 
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -2424,14 +1848,10 @@ N/A
 
 `Partner2` 
 
-
-
 </td>
 <td valign="top">
 
 `BusinessPartnerID` 
-
-
 
 </td>
 <td valign="top">
@@ -2452,8 +1872,6 @@ N/A
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -2462,8 +1880,6 @@ N/A
 
 `BusinessPartnerUUID` 
 
-
-
 </td>
 <td valign="top">
 
@@ -2479,14 +1895,10 @@ N/A
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -2495,8 +1907,6 @@ N/A
 
 `BusinessPartnerExternalID` 
 
-
-
 </td>
 <td valign="top">
 
@@ -2512,14 +1922,10 @@ N/A
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -2528,8 +1934,6 @@ N/A
 
 `BusinessPartnerExternalIDCategoryCode` 
 
-
-
 </td>
 <td valign="top">
 
@@ -2545,14 +1949,10 @@ N/A
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -2561,8 +1961,6 @@ N/A
 
 `RelationshipCategoryCode` 
 
-
-
 </td>
 <td valign="top">
 
@@ -2578,14 +1976,10 @@ N/A
 
 0..1
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -2593,8 +1987,6 @@ N/A
 <td valign="top" colspan="2">
 
 `actionCode` 
-
-
 
 </td>
 <td valign="top">
@@ -2611,14 +2003,10 @@ N/A
 
 Optional
 
-
-
 </td>
 <td valign="top">
 
 N/A
-
-
 
 </td>
 </tr>
@@ -2626,8 +2014,6 @@ N/A
 <td valign="top" colspan="3">
 
 \[1\] `actionCode` 
-
-
 
 </td>
 <td valign="top">
@@ -2643,28 +2029,20 @@ You can use the following values:
 
 This attribute is mandatory.
 
-
-
 </td>
 <td valign="top">
 
 2
 
-
-
 </td>
 <td valign="top">
 
 Optional
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -2673,8 +2051,6 @@ Optional
 
 \[2\] `personalInformationListCompleteTransmissionIndicator` 
 
-
-
 </td>
 <td valign="top">
 
@@ -2682,8 +2058,6 @@ CTI for the `PersonalInformation` node
 
 See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d14474384beb3__CTI_Note) for more information.
 
-
-
 </td>
 <td valign="top">
 
@@ -2694,14 +2068,10 @@ See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d
 
 Optional
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -2710,8 +2080,6 @@ Optional
 
 \[3\] `userListCompleteTransmissionIndicator` 
 
-
-
 </td>
 <td valign="top">
 
@@ -2719,8 +2087,6 @@ CTI for the `User` node
 
 See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d14474384beb3__CTI_Note) for more information.
 
-
-
 </td>
 <td valign="top">
 
@@ -2731,14 +2097,10 @@ See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d
 
 Optional
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -2747,8 +2109,6 @@ Optional
 
 \[4\] `userAssignmentListCompleteTransmissionIndicator` 
 
-
-
 </td>
 <td valign="top">
 
@@ -2756,8 +2116,6 @@ CTI for the `UserAssignment` node
 
 See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d14474384beb3__CTI_Note) for more information.
 
-
-
 </td>
 <td valign="top">
 
@@ -2768,14 +2126,10 @@ See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d
 
 Optional
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -2784,8 +2138,6 @@ Optional
 
 \[5\] `workplaceInformationListCompleteTransmissionIndicator` 
 
-
-
 </td>
 <td valign="top">
 
@@ -2793,8 +2145,6 @@ CTI for the `WorkplaceInformation` node
 
 See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d14474384beb3__CTI_Note) for more information.
 
-
-
 </td>
 <td valign="top">
 
@@ -2805,14 +2155,10 @@ See [CTI note](inbound-service-business-user-a631f4e.md#loioa631f4ead22743598f1d
 
 Optional
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -2821,15 +2167,11 @@ Optional
 
 \[5\] `relationshipListCompleteTransmissionIndicator` 
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
@@ -2840,14 +2182,10 @@ Optional
 
 Optional
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -2990,28 +2328,20 @@ The following table provides an overview of the response structure for the `Busi
 
 Field or Node
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Maximum Field Length
 
-
-
 </th>
 <th valign="top">
 
 Cardinality
-
-
 
 </th>
 </tr>
@@ -3020,28 +2350,20 @@ Cardinality
 
 `PersonExternalID` 
 
-
-
 </td>
 <td valign="top">
 
 Person External ID
-
-
 
 </td>
 <td valign="top">
 
 60
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -3050,28 +2372,20 @@ Person External ID
 
 `PersonID` 
 
-
-
 </td>
 <td valign="top">
 
 Person ID
-
-
 
 </td>
 <td valign="top">
 
 10
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -3080,28 +2394,20 @@ Person ID
 
 `PersonUUID` 
 
-
-
 </td>
 <td valign="top">
 
 Person UUID
-
-
 
 </td>
 <td valign="top">
 
 36
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -3112,35 +2418,25 @@ Person UUID
 
 Cardinality: 1
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 `BusinessDocumentProcessingResultCode` 
-
-
 
 </td>
 <td valign="top">
 
 Not in use
 
-
-
 </td>
 <td valign="top">
 
 2
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -3149,28 +2445,20 @@ Not in use
 
 `MaximumLogItemSeverityCode` 
 
-
-
 </td>
 <td valign="top">
 
 If several messages are stored for a business user, the maximum of all received severity codes the most severe level will be shown.
-
-
 
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -3181,35 +2469,25 @@ If several messages are stored for a business user, the maximum of all received 
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top">
 
 `TypeID` 
-
-
 
 </td>
 <td valign="top">
 
 Message number
 
-
-
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -3218,28 +2496,20 @@ Message number
 
 `CategoryCode` 
 
-
-
 </td>
 <td valign="top">
 
 Not in use
-
-
 
 </td>
 <td valign="top">
 
 15
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -3247,8 +2517,6 @@ Not in use
 <td valign="top">
 
 `SeverityCode` 
-
-
 
 </td>
 <td valign="top">
@@ -3269,14 +2537,10 @@ Severity code definition:
 
 1
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -3285,28 +2549,20 @@ Severity code definition:
 
 `Note` 
 
-
-
 </td>
 <td valign="top">
 
 Contains the message texts.
-
-
 
 </td>
 <td valign="top">
 
 200
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -3315,14 +2571,10 @@ Contains the message texts.
 
 `WebURI` 
 
-
-
 </td>
 <td valign="top">
 
 Not in use
-
-
 
 </td>
 <td valign="top">
@@ -3333,8 +2585,6 @@ Not in use
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -3351,14 +2601,10 @@ Not in use
 
 Error Code
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -3367,8 +2613,6 @@ Description
 
 104
 
-
-
 </td>
 <td valign="top">
 
@@ -3376,16 +2620,12 @@ Combination of Ext. ID &1 and ID &2 inconsistent. Processing cancelled.
 
 `PersonExternalID` and `PersonID` have a 1:1 relationship. Enter the`PersonID` that corresponds with the `PersonExternalID`.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 105
-
-
 
 </td>
 <td valign="top">
@@ -3395,8 +2635,6 @@ Combination of Ext. ID &1 and UUID &2 inconsistent.
 `Person ExternalID` and `PersonUUID` have a 1:1 relationship.
 
 Enter the`PersonUUID` that corresponds with the `PersonExternalID`
-
-
 
 </td>
 </tr>

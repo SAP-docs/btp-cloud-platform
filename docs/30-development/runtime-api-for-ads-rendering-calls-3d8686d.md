@@ -13,14 +13,10 @@ The `CL_FP_ADS_UTIL` class provides the ABAP Runtime API for *Adobe Document Ser
 
 Method
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -29,14 +25,10 @@ Description
 
 `RENDER_PDF` 
 
-
-
 </td>
 <td valign="top">
 
 Rendering PDF
-
-
 
 </td>
 </tr>
@@ -45,14 +37,10 @@ Rendering PDF
 
 `RENDER_4_PQ` 
 
-
-
 </td>
 <td valign="top">
 
 Rendering for Print Queue
-
-
 
 </td>
 </tr>
@@ -88,14 +76,10 @@ The `RENDER_PDF` method calls the ADS to render print PDF using the XDP form fil
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -104,14 +88,10 @@ Description
 
 `IV_XML_DATA` 
 
-
-
 </td>
 <td valign="top">
 
 XML data
-
-
 
 </td>
 </tr>
@@ -120,14 +100,10 @@ XML data
 
 `IV_XDP_LAYOUT` 
 
-
-
 </td>
 <td valign="top">
 
 Adobe XDP form template
-
-
 
 </td>
 </tr>
@@ -136,14 +112,10 @@ Adobe XDP form template
 
 `IV_LOCALE` 
 
-
-
 </td>
 <td valign="top">
 
 Locale for rendering the language: `language_COUNTRY`, for example en\_US
-
-
 
 </td>
 </tr>
@@ -152,14 +124,10 @@ Locale for rendering the language: `language_COUNTRY`, for example en\_US
 
 `IS_OPTIONS` 
 
-
-
 </td>
 <td valign="top">
 
 PDF rendering parameters \(optional\)
-
-
 
 </td>
 </tr>
@@ -174,14 +142,10 @@ PDF rendering parameters \(optional\)
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -190,14 +154,10 @@ Description
 
 `EV_PDF` 
 
-
-
 </td>
 <td valign="top">
 
 PDF rendering result
-
-
 
 </td>
 </tr>
@@ -206,14 +166,10 @@ PDF rendering result
 
 `EV_PAGES` 
 
-
-
 </td>
 <td valign="top">
 
 Number of pages
-
-
 
 </td>
 </tr>
@@ -222,14 +178,10 @@ Number of pages
 
 `EV_TRACE_STRING` 
 
-
-
 </td>
 <td valign="top">
 
 Trace string
-
-
 
 </td>
 </tr>
@@ -272,14 +224,10 @@ The `RENDER_4_PQ` method calls the ADS to render in the print output format requ
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -288,14 +236,10 @@ Description
 
 `IV_XML_DATA` 
 
-
-
 </td>
 <td valign="top">
 
 XML data
-
-
 
 </td>
 </tr>
@@ -304,14 +248,10 @@ XML data
 
 `IV_XDP_LAYOUT` 
 
-
-
 </td>
 <td valign="top">
 
 Adobe XDP form template
-
-
 
 </td>
 </tr>
@@ -320,14 +260,10 @@ Adobe XDP form template
 
 `IV_LOCALE` 
 
-
-
 </td>
 <td valign="top">
 
 Locale for rendering the language: `language_COUNTRY`, for example en\_US
-
-
 
 </td>
 </tr>
@@ -336,14 +272,10 @@ Locale for rendering the language: `language_COUNTRY`, for example en\_US
 
 `IV_PQ_NAME` 
 
-
-
 </td>
 <td valign="top">
 
 Print Queue name
-
-
 
 </td>
 </tr>
@@ -352,14 +284,10 @@ Print Queue name
 
 `IS_OPTIONS` 
 
-
-
 </td>
 <td valign="top">
 
 PDL rendering parameters \(optional\)
-
-
 
 </td>
 </tr>
@@ -374,14 +302,10 @@ PDL rendering parameters \(optional\)
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -390,14 +314,10 @@ Description
 
 `EV_PDL` 
 
-
-
 </td>
 <td valign="top">
 
 PDF rendering result
-
-
 
 </td>
 </tr>
@@ -406,14 +326,10 @@ PDF rendering result
 
 `EV_PAGES` 
 
-
-
 </td>
 <td valign="top">
 
 Number of pages
-
-
 
 </td>
 </tr>
@@ -422,14 +338,10 @@ Number of pages
 
 `EV_TRACE_STRING` 
 
-
-
 </td>
 <td valign="top">
 
 Trace string
-
-
 
 </td>
 </tr>

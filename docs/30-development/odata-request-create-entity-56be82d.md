@@ -207,14 +207,10 @@ DATA:	lo_update_request       TYPE REF TO /iwbep/if_cp_request_create,
 
 Properties
 
-
-
 </th>
 <th valign="top">
 
 Internal Names
-
-
 
 </th>
 </tr>
@@ -223,14 +219,10 @@ Internal Names
 
 Id
 
-
-
 </td>
 <td valign="top">
 
 `ID`
-
-
 
 </td>
 </tr>
@@ -239,14 +231,10 @@ Id
 
 Name
 
-
-
 </td>
 <td valign="top">
 
 `NAME`
-
-
 
 </td>
 </tr>
@@ -255,14 +243,10 @@ Name
 
 Age
 
-
-
 </td>
 <td valign="top">
 
 `AGE`
-
-
 
 </td>
 </tr>
@@ -271,14 +255,10 @@ Age
 
 EntryDate
 
-
-
 </td>
 <td valign="top">
 
 `ENTRY_DATE`
-
-
 
 </td>
 </tr>
@@ -287,14 +267,10 @@ EntryDate
 
 ManagerId
 
-
-
 </td>
 <td valign="top">
 
 `MANAGER_ID`
-
-
 
 </td>
 </tr>
@@ -303,14 +279,10 @@ ManagerId
 
 RoomId
 
-
-
 </td>
 <td valign="top">
 
 `ROOM_ID`
-
-
 
 </td>
 </tr>
@@ -319,14 +291,10 @@ RoomId
 
 TeamId
 
-
-
 </td>
 <td valign="top">
 
 `TEAM_ID`
-
-
 
 </td>
 </tr>
@@ -335,14 +303,10 @@ TeamId
 
 Status
 
-
-
 </td>
 <td valign="top">
 
 `STATUS`
-
-
 
 </td>
 </tr>
@@ -351,14 +315,10 @@ Status
 
 IsManager
 
-
-
 </td>
 <td valign="top">
 
 `IS_MANAGER`
-
-
 
 </td>
 </tr>

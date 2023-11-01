@@ -56,15 +56,11 @@ The SaaS Provisioning Service allows application providers to register multitena
         <th valign="top">
 
         Parameters
-
-
         
         </th>
         <th valign="top">
 
         Description
-
-
         
         </th>
         </tr>
@@ -72,15 +68,11 @@ The SaaS Provisioning Service allows application providers to register multitena
         <td valign="top">
         
         `xsappname`
-
-
         
         </td>
         <td valign="top">
         
         The `xsappname` configured in the security descriptor file used to create the `xsuaa` instance \(see [Develop the Multitenant Application](develop-the-multitenant-application-ff54047.md)\).
-
-
         
         </td>
         </tr>
@@ -88,8 +80,6 @@ The SaaS Provisioning Service allows application providers to register multitena
         <td valign="top">
         
         `getDependencies`
-
-
         
         </td>
         <td valign="top">
@@ -140,15 +130,11 @@ The SaaS Provisioning Service allows application providers to register multitena
         <td valign="top">
         
         `onSubscription`
-
-
         
         </td>
         <td valign="top">
         
         Any URL that the application exposes via `PUT` and `DELETE` subscription. It must end with `/{tenantId}`. The tenant for the subscription is passed to this callback as a path parameter. You must keep `{tenantId}` as a parameter in the URL so that it’s replaced at real time with the tenant calling the subscription. This callback URL is called when a subscription between a multitenant application and a consumer tenant is created \(`PUT`\) and when the subscription is removed \(`DELETE`\).
-
-
         
         </td>
         </tr>
@@ -156,15 +142,11 @@ The SaaS Provisioning Service allows application providers to register multitena
         <td valign="top">
         
         `appPlans`
-
-
         
         </td>
         <td valign="top">
         
         \(Optional\) Specify the plan for your application. Name it and provide a short description. With the help of plans, you can try out your application in different modes or variations. For example, an app for staging or development purposes. Note that the plans are only visible in the subaccounts that belong to the provider global account.
-
-
         
         </td>
         </tr>
@@ -172,15 +154,11 @@ The SaaS Provisioning Service allows application providers to register multitena
         <td valign="top">
         
         `displayName`
-
-
         
         </td>
         <td valign="top">
         
         \(Optional\) The display name of the application when viewed in the cockpit. For example, in the application's tile. If left empty, takes the application's technical name.
-
-
         
         </td>
         </tr>
@@ -188,15 +166,11 @@ The SaaS Provisioning Service allows application providers to register multitena
         <td valign="top">
         
         `description`
-
-
         
         </td>
         <td valign="top">
         
         \(Optional\) The description of the application when viewed in the cockpit. For example, in the application's tile. If left empty, takes the application's display name.
-
-
         
         </td>
         </tr>
@@ -204,15 +178,11 @@ The SaaS Provisioning Service allows application providers to register multitena
         <td valign="top">
         
         `category`
-
-
         
         </td>
         <td valign="top">
         
         \(Optional\) The category to which the application is grouped in the *Subscriptions* page in the cockpit. If left empty, gets assigned to the default category.
-
-
         
         </td>
         </tr>
@@ -220,8 +190,6 @@ The SaaS Provisioning Service allows application providers to register multitena
         <td valign="top">
         
         `onSubscriptionAsync`
-
-
         
         </td>
         <td valign="top">
@@ -229,8 +197,6 @@ The SaaS Provisioning Service allows application providers to register multitena
         Whether the subscription callback is asynchronous.
 
         If set to true, `callbackTimeoutMillis` is mandatory.
-
-
         
         </td>
         </tr>
@@ -238,15 +204,11 @@ The SaaS Provisioning Service allows application providers to register multitena
         <td valign="top">
         
         `callbackTimeoutMillis`
-
-
         
         </td>
         <td valign="top">
         
         The number of milliseconds the SaaS Provisioning Service waits for the application's subscription asynchronous callback to execute, before it changes the subscription status to `FAILED`.
-
-
         
         </td>
         </tr>
@@ -254,8 +216,6 @@ The SaaS Provisioning Service allows application providers to register multitena
         <td valign="top">
         
         `allowContextUpdates`
-
-
         
         </td>
         <td valign="top">
@@ -265,8 +225,6 @@ The SaaS Provisioning Service allows application providers to register multitena
         For example, when a subaccount with which the instance is associated is moved to a different global account.
 
         Defaut value is false.
-
-
         
         </td>
         </tr>
@@ -302,15 +260,11 @@ The SaaS Provisioning Service allows application providers to register multitena
         <th valign="top">
 
         Parameters
-
-
         
         </th>
         <th valign="top">
 
         Description
-
-
         
         </th>
         </tr>
@@ -318,15 +272,11 @@ The SaaS Provisioning Service allows application providers to register multitena
         <td valign="top">
         
         `SAAS_REGISTRY_SERVICE_INSTANCE`
-
-
         
         </td>
         <td valign="top">
         
         The new name for your service instance. Use only alphanumeric characters, hyphens, and underscores.
-
-
         
         </td>
         </tr>
@@ -334,15 +284,11 @@ The SaaS Provisioning Service allows application providers to register multitena
         <td valign="top">
         
         `JSON_CONFIG_FILE`
-
-
         
         </td>
         <td valign="top">
         
         The file name of the service-specific configuration parameters, in a valid JSON object \(described above\).
-
-
         
         </td>
         </tr>
@@ -383,15 +329,11 @@ The SaaS Provisioning Service allows application providers to register multitena
     <th valign="top">
 
     Parameters
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -399,15 +341,11 @@ The SaaS Provisioning Service allows application providers to register multitena
     <td valign="top">
     
     `APP_NAME`
-
-
     
     </td>
     <td valign="top">
     
     The ID of your deployed multitenant application.
-
-
     
     </td>
     </tr>
@@ -415,15 +353,11 @@ The SaaS Provisioning Service allows application providers to register multitena
     <td valign="top">
     
     `SAAS_REGISTRY_SERVICE_INSTANCE`
-
-
     
     </td>
     <td valign="top">
     
     The name of the SaaS Provisioning Service instance you created in step 1 above.
-
-
     
     </td>
     </tr>
@@ -453,15 +387,11 @@ The SaaS Provisioning Service allows application providers to register multitena
     <th valign="top">
 
     Parameters
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -469,15 +399,11 @@ The SaaS Provisioning Service allows application providers to register multitena
     <td valign="top">
     
     `APP_NAME`
-
-
     
     </td>
     <td valign="top">
     
     The ID of your deployed multitenant application.
-
-
     
     </td>
     </tr>

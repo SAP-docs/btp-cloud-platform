@@ -23,21 +23,15 @@ Technical name: `CommunicationUserCertificates`
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Necessity
-
-
 
 </th>
 </tr>
@@ -46,21 +40,15 @@ Necessity
 
 UserID
 
-
-
 </td>
 <td valign="top">
 
 User ID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -69,21 +57,15 @@ Mandatory \(Key\)
 
 SubjectHash
 
-
-
 </td>
 <td valign="top">
 
 Subject Hash
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -92,22 +74,16 @@ Mandatory \(Key\)
 
 IssuerHash
 
-
-
 </td>
 <td valign="top">
 
 Issuer Hash
-
-
 
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
 
-
-
 </td>
 </tr>
 <tr>
@@ -115,21 +91,15 @@ Mandatory \(Key\)
 
 Issuer
 
-
-
 </td>
 <td valign="top">
 
 Issuer
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -138,21 +108,15 @@ Optional
 
 Subject
 
-
-
 </td>
 <td valign="top">
 
 Subject
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>

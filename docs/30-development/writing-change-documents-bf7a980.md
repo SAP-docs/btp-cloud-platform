@@ -16,14 +16,10 @@ The `WRITE` method in the generated class `<name space>CL_<change document objec
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -32,14 +28,10 @@ Value Help
 
 OBJECTID
 
-
-
 </td>
 <td valign="top">
 
 Identifier of the changed application object
-
-
 
 </td>
 </tr>
@@ -48,14 +40,10 @@ Identifier of the changed application object
 
 UTIME
 
-
-
 </td>
 <td valign="top">
 
 Time of change
-
-
 
 </td>
 </tr>
@@ -64,14 +52,10 @@ Time of change
 
 UDATE
 
-
-
 </td>
 <td valign="top">
 
 Date of change
-
-
 
 </td>
 </tr>
@@ -80,14 +64,10 @@ Date of change
 
 USERNAME
 
-
-
 </td>
 <td valign="top">
 
 User name of the person responsible in change document
-
-
 
 </td>
 </tr>
@@ -96,14 +76,10 @@ User name of the person responsible in change document
 
 PLANNED\_CHANGE\_NUMBER
 
-
-
 </td>
 <td valign="top">
 
 Planned change number \(only for writing planned changes\)
-
-
 
 </td>
 </tr>
@@ -111,8 +87,6 @@ Planned change number \(only for writing planned changes\)
 <td valign="top">
 
 OBJECT\_CHANGE\_INDICATOR
-
-
 
 </td>
 <td valign="top">
@@ -134,8 +108,6 @@ Type of Change to Application Object. Possible values are:
 <td valign="top">
 
 PLANNED\_OR\_REAL\_CHANGES
-
-
 
 </td>
 <td valign="top">
@@ -160,14 +132,10 @@ Available values:
 
 NO\_CHANGE\_POINTERS
 
-
-
 </td>
 <td valign="top">
 
 ‘X’: no change pointers will be written. Change pointers are used for Application Link Enabling \(ALE\) master data scenarios. Currently, this parameter is obsolete for SAP Business Technology Platform \(SAP BTP\), ABAP Environment.
-
-
 
 </td>
 </tr>
@@ -175,8 +143,6 @@ NO\_CHANGE\_POINTERS
 <td valign="top">
 
 ICDTXT\_<change document object name\>
-
-
 
 </td>
 <td valign="top">
@@ -201,8 +167,6 @@ In this structure, the change document-relevant texts are collected with the cor
 
 UPD\_ICDTXT\_<change document object name\>
 
-
-
 </td>
 <td valign="top">
 
@@ -222,14 +186,10 @@ Change flag for text table:
 
 O\_<table name\>
 
-
-
 </td>
 <td valign="top">
 
 Object-specific parameter for single case tables with the same table structure as <table name\>. The workarea must contain the original data.
-
-
 
 </td>
 </tr>
@@ -238,14 +198,10 @@ Object-specific parameter for single case tables with the same table structure a
 
 N\_<table name\>
 
-
-
 </td>
 <td valign="top">
 
 Object-specific parameter for single case tables with the same table structure as <table name\>. The workarea must contain the original data.
-
-
 
 </td>
 </tr>
@@ -254,8 +210,6 @@ Object-specific parameter for single case tables with the same table structure a
 
 Y<table name\>
 
-
-
 </td>
 <td valign="top">
 
@@ -263,16 +217,12 @@ Object-specific parameter for multiple case tables.
 
 The table must contain the original version of the changed or deleted records. The structure consists of the table, as specified in the change document object definition under table name, a processing flag \(TYPE C, length 1\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 X<table name\>
-
-
 
 </td>
 <td valign="top">
@@ -286,16 +236,12 @@ The table must contain the current version of the changed or created records. Th
 
 The parameter UPD\_<table name \> \(see below\) initially determines whether the record is new or changed. The processing flag is only checked when - with the parameter value "U" - the following key comparison between the two tables x<table name\> and y<table name\> finds two records with the same key.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 UPD\_<table name \>
-
-
 
 </td>
 <td valign="top">
@@ -333,14 +279,10 @@ With this flag, you determine the processing logic. The following values exist:
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -349,14 +291,10 @@ Value Help
 
 CHANGENUMBER
 
-
-
 </td>
 <td valign="top">
 
 Change number of the document
-
-
 
 </td>
 </tr>

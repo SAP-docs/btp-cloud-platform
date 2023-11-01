@@ -74,21 +74,15 @@ The table below outlines the system types that you can include in a formation, a
 
 System Type
 
-
-
 </th>
 <th valign="top">
 
 Cloud Foundry Environment
 
-
-
 </th>
 <th valign="top">
 
 Kyma Environment
-
-
 
 </th>
 </tr>
@@ -97,21 +91,15 @@ Kyma Environment
 
 SAP S/4HANA Cloud
 
-
-
 </td>
 <td valign="top">
 
 Supported
 
-
-
 </td>
 <td valign="top">
 
 Supported
-
-
 
 </td>
 </tr>
@@ -120,21 +108,15 @@ Supported
 
 SAP Marketing Cloud
 
-
-
 </td>
 <td valign="top">
 
 Supported
 
-
-
 </td>
 <td valign="top">
 
 Supported
-
-
 
 </td>
 </tr>
@@ -143,21 +125,15 @@ Supported
 
 SAP SuccessFactors
 
-
-
 </td>
 <td valign="top">
 
 Supported
 
-
-
 </td>
 <td valign="top">
 
 Supported
-
-
 
 </td>
 </tr>
@@ -166,21 +142,15 @@ Supported
 
 SAP Commerce Cloud
 
-
-
 </td>
 <td valign="top">
 
 \-
 
-
-
 </td>
 <td valign="top">
 
 Supported
-
-
 
 </td>
 </tr>
@@ -189,21 +159,15 @@ Supported
 
 SAP Cloud for Customer
 
-
-
 </td>
 <td valign="top">
 
 \-
 
-
-
 </td>
 <td valign="top">
 
 Supported
-
-
 
 </td>
 </tr>
@@ -212,21 +176,15 @@ Supported
 
 SAP Field Service Management
 
-
-
 </td>
 <td valign="top">
 
 \-
 
-
-
 </td>
 <td valign="top">
 
 Supported
-
-
 
 </td>
 </tr>
@@ -265,15 +223,11 @@ Supported
         <th valign="top">
 
         Formation Type
-
-
         
         </th>
         <th valign="top">
 
         Description
-
-
         
         </th>
         </tr>
@@ -281,8 +235,6 @@ Supported
         <td valign="top">
         
         *Side-by-Side Extensibility with Kyma* 
-
-
         
         </td>
         <td valign="top">
@@ -290,8 +242,6 @@ Supported
         Formations of type *Side-by-Side extensibility with Kyma* enable business scenarios that involve extending the functionality of several SAP systems at a time with SAP BTP Kyma environment instance.
 
         See [Enabling Side-by-Side Extensibility with Kyma](enabling-side-by-side-extensibility-with-kyma-9154051.md).
-
-
         
         </td>
         </tr>
@@ -299,8 +249,6 @@ Supported
         <td valign="top">
         
         *Eventing Between SAP Cloud Systems* 
-
-
         
         </td>
         <td valign="top">
@@ -308,8 +256,6 @@ Supported
         Formations of type *Eventing Between SAP Cloud Systems* enable end-to-end communication flow of events between the SAP systems that are included in the given formation. As the name of the formation suggests, the systems transmit information about events using SAP Event Broker. To be able to exchange such events information, the SAP systems must be also visible and configurable in the SAP Event Broker user interface. The formation makes the systems visible in SAP Event Broker, however, it requires a subscription to SAP Event Broker in the corresponding SAP BTP subaccount first.
 
         See [Enabling Events Exchange Between SAP Cloud Systems](enabling-events-exchange-between-sap-cloud-systems-1592246.md).
-
-
         
         </td>
         </tr>
@@ -317,8 +263,6 @@ Supported
         <td valign="top">
         
         *Developing with SAP Business Application Studio* 
-
-
         
         </td>
         <td valign="top">
@@ -326,8 +270,6 @@ Supported
         Formations of type *Developing with SAP Business Application Studio* enable connectivity between given SAP systems of type *SAP S/4HANA Cloud* from the *System Landscape* page of SAP BTP cockpit and the SAP Business Application Studio, you must create a formation of the corresponding type and include the SAP S/4HANA Cloud systems in it.
 
         See [Enabling System Landscape for SAP Business Application Studio](enabling-system-landscape-for-sap-business-application-studio-272ca23.md).
-
-
         
         </td>
         </tr>

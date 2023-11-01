@@ -38,15 +38,11 @@ To be able to use a technical user in the ABAP system to access the service bind
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Value
-
-
     
     </th>
     </tr>
@@ -54,15 +50,11 @@ To be able to use a technical user in the ABAP system to access the service bind
     <td valign="top">
     
     **SQL\_SCHEMA**
-
-
     
     </td>
     <td valign="top">
     
     The name of the service binding that you want to grant access to
-
-
     
     </td>
     </tr>
@@ -70,15 +62,11 @@ To be able to use a technical user in the ABAP system to access the service bind
     <td valign="top">
     
     **SQL\_VIEW**
-
-
     
     </td>
     <td valign="top">
     
     \* \(if you want to allow access to all views in the service definition\)
-
-
     
     </td>
     </tr>
@@ -86,8 +74,6 @@ To be able to use a technical user in the ABAP system to access the service bind
     <td valign="top">
     
     **SQL\_VIEWOP**
-
-
     
     </td>
     <td valign="top">

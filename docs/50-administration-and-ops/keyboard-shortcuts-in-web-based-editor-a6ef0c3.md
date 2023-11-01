@@ -15,14 +15,10 @@ The following key combinations are provided in the web-based editor:
 
 Key Combination
 
-
-
 </th>
 <th valign="top">
 
 What Is It Used for?
-
-
 
 </th>
 </tr>
@@ -31,14 +27,10 @@ What Is It Used for?
 
 [Ctrl\] + [Space\]  
 
-
-
 </td>
 <td valign="top">
 
 To turn on code completion
-
-
 
 </td>
 </tr>
@@ -49,14 +41,10 @@ To turn on code completion
 
 [Ctrl\] + [\#\] 
 
-
-
 </td>
 <td valign="top">
 
 To uncomment or comment out a code block
-
-
 
 </td>
 </tr>
@@ -65,14 +53,10 @@ To uncomment or comment out a code block
 
 [Shift\] + [F1\]  
 
-
-
 </td>
 <td valign="top">
 
 To use pretty printer
-
-
 
 </td>
 </tr>

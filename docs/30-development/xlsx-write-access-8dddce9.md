@@ -129,28 +129,20 @@ For an otherwise empty worksheet, this will produce the following content:
 
  
 
-
-
 </th>
 <th valign="top">
 
 A
-
-
 
 </th>
 <th valign="top">
 
 B
 
-
-
 </th>
 <th valign="top">
 
 C
-
-
 
 </th>
 </tr>
@@ -159,28 +151,20 @@ C
 
 1
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -189,28 +173,20 @@ C
 
 2
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Date:
 
-
-
 </td>
 <td valign="top">
 
 $LV\_DATE$
-
-
 
 </td>
 </tr>
@@ -219,28 +195,20 @@ $LV\_DATE$
 
 3
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Time:
 
-
-
 </td>
 <td valign="top">
 
 $LV\_TIME$
-
-
 
 </td>
 </tr>

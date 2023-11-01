@@ -12,7 +12,7 @@ Learn how to transport business configuration via a software component of type *
 
 To use the *Manage Software Components* app, business role `SAP_BR_ADMINISTRATOR` has to be assigned.
 
-To use the *Export Customizing Transports* app or to create a customizing request in ABAP Development Tools for Eclipse, business role `SAP_BR_BPC_EXPERT` has to be assigned.
+To use the *Export Customizing Transports* app or to create a customizing request in ABAP Development Tools for Eclipse, business role `SAP_BR_BPC_EXPERT` or `SAP_BR_ADMINISTRATOR` has to be assigned.
 
 To use the Transport Organizer view in ABAP Development for Eclipse, business role `SAP_BR_DEVELOPER` has to be assigned. See [Transport Organizer](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/9c53fba4bf08445286e8b40fd0a6fd03.html).
 

@@ -27,15 +27,11 @@ To create a new software component, perform the following steps:
     <th valign="top">
 
     Software Component Type
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -43,15 +39,11 @@ To create a new software component, perform the following steps:
     <td valign="top">
     
     Development
-
-
     
     </td>
     <td valign="top">
     
     Used for standard ABAP application development.
-
-
     
     </td>
     </tr>
@@ -59,8 +51,6 @@ To create a new software component, perform the following steps:
     <td valign="top">
     
     Business Configuration
-
-
     
     </td>
     <td valign="top">

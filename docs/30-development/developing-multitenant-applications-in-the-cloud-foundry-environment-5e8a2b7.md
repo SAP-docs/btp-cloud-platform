@@ -40,14 +40,10 @@ The multitenancy concept involves two main user roles:
 
 Application provider
 
-
-
 </td>
 <td valign="top">
 
 An SAP global account owner that uses SAP BTP to own, build, run, and offer custom-developed applications to its consumers.
-
-
 
 </td>
 </tr>
@@ -56,14 +52,10 @@ An SAP global account owner that uses SAP BTP to own, build, run, and offer cust
 
 Application consumer
 
-
-
 </td>
 <td valign="top">
 
 A consumer of the application provider, such as a department or organizational unit, whose users use the multitenant application.
-
-
 
 </td>
 </tr>

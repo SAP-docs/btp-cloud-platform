@@ -19,21 +19,15 @@ You can include the following properties in the URL of the request:
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Necessity
 
-
-
 </th>
 <th valign="top">
 
 Comment
-
-
 
 </th>
 </tr>
@@ -42,21 +36,15 @@ Comment
 
 JobUser
 
-
-
 </td>
 <td valign="top">
 
 Optional
 
-
-
 </td>
 <td valign="top">
 
 This is the user performing the job.
-
-
 
 </td>
 </tr>
@@ -65,21 +53,15 @@ This is the user performing the job.
 
 TestModeInd
 
-
-
 </td>
 <td valign="top">
 
 Optional
 
-
-
 </td>
 <td valign="top">
 
 Reserved should be set to false.
-
-
 
 </td>
 </tr>
@@ -88,21 +70,15 @@ Reserved should be set to false.
 
 JobParameterValues
 
-
-
 </td>
 <td valign="top">
 
 Optional
 
-
-
 </td>
 <td valign="top">
 
 These are the parameter values of the application job.
-
-
 
 </td>
 </tr>
@@ -111,21 +87,15 @@ These are the parameter values of the application job.
 
 JobTemplateName
 
-
-
 </td>
 <td valign="top">
 
 Mandatory
 
-
-
 </td>
 <td valign="top">
 
 This is the name of the application job template.
-
-
 
 </td>
 </tr>
@@ -134,21 +104,15 @@ This is the name of the application job template.
 
 JobText
 
-
-
 </td>
 <td valign="top">
 
 Mandatory
 
-
-
 </td>
 <td valign="top">
 
 This is the name of the application.
-
-
 
 </td>
 </tr>
@@ -157,21 +121,15 @@ This is the name of the application.
 
 JobUser
 
-
-
 </td>
 <td valign="top">
 
 Mandatory
 
-
-
 </td>
 <td valign="top">
 
 This is the user ID of the user performing the job.
-
-
 
 </td>
 </tr>
@@ -180,21 +138,15 @@ This is the user ID of the user performing the job.
 
 JobUserName
 
-
-
 </td>
 <td valign="top">
 
 Obsolete
 
-
-
 </td>
 <td valign="top">
 
 This is the user name of the user performing the job.
-
-
 
 </td>
 </tr>
@@ -203,21 +155,15 @@ This is the user name of the user performing the job.
 
 JobUserID
 
-
-
 </td>
 <td valign="top">
 
 Obsolete
 
-
-
 </td>
 <td valign="top">
 
 This is the ID of the application job user.
-
-
 
 </td>
 </tr>

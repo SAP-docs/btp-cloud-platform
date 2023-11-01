@@ -41,14 +41,10 @@ Here are some features of the Cloud Foundry environment you have to implement yo
 
 Supported with SAP Java buildpack
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -57,14 +53,10 @@ Description
 
 Dynatrace
 
-
-
 </td>
 <td valign="top">
 
 Enable applications for Dynatrace based monitoring.
-
-
 
 </td>
 </tr>
@@ -73,14 +65,10 @@ Enable applications for Dynatrace based monitoring.
 
 XSUAA
 
-
-
 </td>
 <td valign="top">
 
 Automatic validation of OAuth token and mapping of OAuth scopes to JEE roles, if `auth-method` is set to XSUAA in `web.xml`.
-
-
 
 </td>
 </tr>
@@ -89,14 +77,10 @@ Automatic validation of OAuth token and mapping of OAuth scopes to JEE roles, if
 
 Dynamic Logging
 
-
-
 </td>
 <td valign="top">
 
 Set of log level via CLI without restart.
-
-
 
 </td>
 </tr>
@@ -105,14 +89,10 @@ Set of log level via CLI without restart.
 
 Switch to debug via CLI
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -121,14 +101,10 @@ Switch to debug via CLI
 
 OS & JVM management
 
-
-
 </td>
 <td valign="top">
 
 Consume newer versions \(especially patches\) of the underlying OS and JVM regularly..
-
-
 
 </td>
 </tr>

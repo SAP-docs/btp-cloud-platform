@@ -19,14 +19,10 @@ Use method `UNIT_PARAMETERS_GET` to determine the data conversion factors of a u
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -35,14 +31,10 @@ Value Help
 
 UNIT
 
-
-
 </td>
 <td valign="top">
 
 Unit of measurement
-
-
 
 </td>
 </tr>
@@ -63,14 +55,10 @@ Unit of measurement
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -79,14 +67,10 @@ Value Help
 
 DECIMALS 
 
-
-
 </td>
 <td valign="top">
 
 Number of decimal places for rounding
-
-
 
 </td>
 </tr>
@@ -95,14 +79,10 @@ Number of decimal places for rounding
 
 DIMENSION
 
-
-
 </td>
 <td valign="top">
 
 Dimension key
-
-
 
 </td>
 </tr>
@@ -111,14 +91,10 @@ Dimension key
 
 NUMERATOR
 
-
-
 </td>
 <td valign="top">
 
 Numerator for conversion to SI unit
-
-
 
 </td>
 </tr>
@@ -127,14 +103,10 @@ Numerator for conversion to SI unit
 
 DENOMINATOR
 
-
-
 </td>
 <td valign="top">
 
 Denominator for conversion to SI unit
-
-
 
 </td>
 </tr>
@@ -143,14 +115,10 @@ Denominator for conversion to SI unit
 
 EXPONENT
 
-
-
 </td>
 <td valign="top">
 
 Base ten exponent for conversion to SI unit
-
-
 
 </td>
 </tr>
@@ -159,14 +127,10 @@ Base ten exponent for conversion to SI unit
 
 ADD\_CONST
 
-
-
 </td>
 <td valign="top">
 
 Additive constant for conversion to SI unit
-
-
 
 </td>
 </tr>
@@ -175,14 +139,10 @@ Additive constant for conversion to SI unit
 
 DECAN
 
-
-
 </td>
 <td valign="top">
 
 Number of decimal places for number display
-
-
 
 </td>
 </tr>
@@ -191,14 +151,10 @@ Number of decimal places for number display
 
 FAMUNIT
 
-
-
 </td>
 <td valign="top">
 
 Unit of measurement family
-
-
 
 </td>
 </tr>
@@ -219,14 +175,10 @@ Unit of measurement family
 
 Exception Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -235,14 +187,10 @@ Value Help
 
 UNIT\_NOT\_FOUND
 
-
-
 </td>
 <td valign="top">
 
 Unit of measurement is not maintained
-
-
 
 </td>
 </tr>

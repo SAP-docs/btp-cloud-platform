@@ -22,28 +22,20 @@ Defines all route objects, for example: `source`, `target`, and, `destination`.
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Mandatory
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -52,21 +44,15 @@ Description
 
 `source` 
 
-
-
 </td>
 <td valign="top">
 
 RegEx
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
@@ -87,21 +73,15 @@ A request matches a particular route when its path contains the given pattern. T
 
 <code><a href="routes-666eb55.md#loio666eb55032d849beabb906b18712509b__section_httpMethods">httpMethods</a></code> 
 
-
-
 </td>
 <td valign="top">
 
 Array of uppercase HTTP methods
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
@@ -120,28 +100,20 @@ HTTP methods that are served by this route; the supported methods are: `DELETE`,
 
 `target` 
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Defines how the incoming request path is rewritten for the corresponding destination or static resource.
-
-
 
 </td>
 </tr>
@@ -150,21 +122,15 @@ Defines how the incoming request path is rewritten for the corresponding destina
 
 `destination` 
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
@@ -173,8 +139,6 @@ The name of the destination to which the incoming request is forwarded. The dest
 
 For more information about additional destination properties, see [Application Routes and Destinations](application-routes-and-destinations-3cc788e.md).
 
-
-
 </td>
 </tr>
 <tr>
@@ -182,28 +146,20 @@ For more information about additional destination properties, see [Application R
 
 `service`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 The name of the service to which the incoming request is forwarded.
-
-
 
 </td>
 </tr>
@@ -212,28 +168,20 @@ The name of the service to which the incoming request is forwarded.
 
 `endpoint`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 The name of the endpoint within the service to which the incoming request is forwarded. It must only be used in a route containing a service attribute.
-
-
 
 </td>
 </tr>
@@ -242,28 +190,20 @@ The name of the endpoint within the service to which the incoming request is for
 
 <code><a href="routes-666eb55.md#loio666eb55032d849beabb906b18712509b__section_localDir">localDir</a></code> 
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 The directory from which application router serves static content \(for example, from the application's `web/` module\).
-
-
 
 </td>
 </tr>
@@ -272,28 +212,20 @@ The directory from which application router serves static content \(for example,
 
 <code><code>preferLocal</code></code>
 
-
-
 </td>
 <td valign="top">
 
 Boolean
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Defines from which subaccount the destination is retrieved. If`preferLocal` is true, the destination is retrieved from the provider subaccount. If `preferLocal` is false or undefined, the destination is retrieved from the subscriber subaccount.
-
-
 
 </td>
 </tr>
@@ -302,21 +234,15 @@ Defines from which subaccount the destination is retrieved. If`preferLocal` is t
 
 <code><a href="routes-666eb55.md#loio666eb55032d849beabb906b18712509b__section_replace">replace</a></code> 
 
-
-
 </td>
 <td valign="top">
 
 Object
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
@@ -335,21 +261,15 @@ An object that contains the configuration for replacing placeholders with values
 
 `authenticationType`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
@@ -364,8 +284,6 @@ The `basic` authenticationType works with SAP S/4 HANA users, SAP ID service, an
 
 If the value `none` is used, no authentication is required for this route.
 
-
-
 </td>
 </tr>
 <tr>
@@ -373,28 +291,20 @@ If the value `none` is used, no authentication is required for this route.
 
 `csrfProtection` 
 
-
-
 </td>
 <td valign="top">
 
 Boolean
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Toggle whether this route needs CSRF token protection. The default value is “true”. The application router enforces CSRF protection for any HTTP request that changes state on the server side, for example: PUT, POST, or DELETE.
-
-
 
 </td>
 </tr>
@@ -403,28 +313,20 @@ Toggle whether this route needs CSRF token protection. The default value is “t
 
 `scope`
 
-
-
 </td>
 <td valign="top">
 
 Array/String/Object
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 The authorization scope required to access the target path. The scope itself is defined in the application's security descriptor \(`xs-security.json`\), for example, <code>“$XSAPPNAME.Display”</code> or <code>“$XSAPPNAME.Create”</code>.
-
-
 
 </td>
 </tr>
@@ -433,21 +335,15 @@ The authorization scope required to access the target path. The scope itself is 
 
 `cacheControl`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
@@ -470,21 +366,15 @@ The cacheControl property is only effective when one of the following settings i
 
 `identityProvider`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
@@ -503,21 +393,15 @@ The name of the identity provider you use if it’s provided in the definition o
 
 `dynamicIdentityProvider`
 
-
-
 </td>
 <td valign="top">
 
 Boolean
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
@@ -525,8 +409,6 @@ No
 Enables dynamic identity provider provisioning.
 
 If `dynamicIdentityProvider` is `true`, the end user can set the identity provider \(IDP\) for the application’s login process by filling the request query parameter `sap_idp` with the IDP origin key. If the `IdentityProvider` property is defined in the route, its value is overwritten by the `sap_idp` query parameter value. The default value for `dynamicIdentityProvider` is `false`.
-
-
 
 </td>
 </tr>
@@ -689,21 +571,15 @@ The `replace` keyword requires the following properties:
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -712,21 +588,15 @@ Description
 
 `pathSuffixes` 
 
-
-
 </td>
 <td valign="top">
 
 Array
 
-
-
 </td>
 <td valign="top">
 
 An array defining the path suffixes that are relative to `localDir`. Only files with a path ending with any of these suffixes are processed.
-
-
 
 </td>
 </tr>
@@ -735,21 +605,15 @@ An array defining the path suffixes that are relative to `localDir`. Only files 
 
 `vars` 
 
-
-
 </td>
 <td valign="top">
 
 Array
 
-
-
 </td>
 <td valign="top">
 
 A whitelist with the environment variables that are replaced in the files matching the suffix specified in `pathSuffixes`.
-
-
 
 </td>
 </tr>
@@ -815,14 +679,10 @@ The following table illustrates some examples of the `pathSuffixes` properties:
 
 Example
 
-
-
 </th>
 <th valign="top">
 
 Result
-
-
 
 </th>
 </tr>
@@ -831,14 +691,10 @@ Result
 
 `{ "pathSuffixes": [".html"] }` 
 
-
-
 </td>
 <td valign="top">
 
 All files with the extension `.html` under `localDir` and its subfolders are processed .
-
-
 
 </td>
 </tr>
@@ -847,16 +703,12 @@ All files with the extension `.html` under `localDir` and its subfolders are pro
 
 `{ "pathSuffixes": ["/abc/main.html", "some.html"] }` 
 
-
-
 </td>
 <td valign="top">
 
 For the suffix `/abc/main.html`, all files named `main.html` that are inside a folder named `abc` are processed.
 
 For the suffix `some.html`, all files with a name that ends with “`some.html`” are processed. For example:`some.html`, `awesome.html`.
-
-
 
 </td>
 </tr>
@@ -865,14 +717,10 @@ For the suffix `some.html`, all files with a name that ends with “`some.html`�
 
 `{ "pathSuffixes": [".html"] }` 
 
-
-
 </td>
 <td valign="top">
 
 All files with the name “`some.html`” are processed. For example: `some.html` , `/abc/some.html`.
-
-
 
 </td>
 </tr>

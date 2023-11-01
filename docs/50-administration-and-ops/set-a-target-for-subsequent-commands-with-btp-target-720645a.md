@@ -45,15 +45,11 @@ Usage: `btp [OPTIONS] target [PARAMS]`
     <th valign="top">
 
     Parameter
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -61,15 +57,11 @@ Usage: `btp [OPTIONS] target [PARAMS]`
     <td valign="top">
     
     `--global-account, -ga` *<SUBDOMAIN\>*
-
-
     
     </td>
     <td valign="top">
     
     The subdomain of the global account to be targeted.
-
-
     
     </td>
     </tr>
@@ -77,15 +69,11 @@ Usage: `btp [OPTIONS] target [PARAMS]`
     <td valign="top">
     
     `--directory, -dir`*<ID\>*
-
-
     
     </td>
     <td valign="top">
     
     The ID of the directory to be targeted. You can find the directory ID by using `btp get accounts/global-account --show-hierarchy`.
-
-
     
     </td>
     </tr>
@@ -93,15 +81,11 @@ Usage: `btp [OPTIONS] target [PARAMS]`
     <td valign="top">
     
     `--subaccount, -sa` *<ID\>*
-
-
     
     </td>
     <td valign="top">
     
     The ID of the subaccount to be targeted. You can find the subaccount ID by using `btp list accounts/subaccount`.
-
-
     
     </td>
     </tr>
@@ -141,21 +125,15 @@ Now, when you run commands without specifying an account entity as parameter, th
 
 Example Command
 
-
-
 </th>
 <th valign="top">
 
 Command is Available for
 
-
-
 </th>
 <th valign="top">
 
 Command is Executed in
-
-
 
 </th>
 </tr>
@@ -164,21 +142,15 @@ Command is Executed in
 
 `btp get accounts/available-environment`
 
-
-
 </td>
 <td valign="top">
 
 `--subaccount` 
 
-
-
 </td>
 <td valign="top">
 
 The targeted subaccount
-
-
 
 </td>
 </tr>
@@ -187,8 +159,6 @@ The targeted subaccount
 
 `btp update accounts/directory`
 
-
-
 </td>
 <td valign="top">
 
@@ -196,14 +166,10 @@ The targeted subaccount
 
 Note that the directory ID is a positional parameter in this command. You can omit it when a subaccount inside the directory is targeted: `btp update accounts/directory [directory ID]`.
 
-
-
 </td>
 <td valign="top">
 
 The parent directory of the targeted subaccount
-
-
 
 </td>
 </tr>
@@ -212,21 +178,15 @@ The parent directory of the targeted subaccount
 
 `btp list accounts/available-region`
 
-
-
 </td>
 <td valign="top">
 
 `--global-account` 
 
-
-
 </td>
 <td valign="top">
 
 The parent global account of the targeted subaccount
-
-
 
 </td>
 </tr>
@@ -234,8 +194,6 @@ The parent global account of the targeted subaccount
 <td valign="top">
 
 `btp list security/user`
-
-
 
 </td>
 <td valign="top">
@@ -245,8 +203,6 @@ The parent global account of the targeted subaccount
 `--directory`
 
 `--subaccount`
-
-
 
 </td>
 <td valign="top">
@@ -265,8 +221,6 @@ The targeted subaccount
 
 `btp list security/user --subaccount "1111XXXX-22XX-33XX-44XX-55555555XXXX"`
 
-
-
 </td>
 <td valign="top">
 
@@ -276,14 +230,10 @@ The targeted subaccount
 
 `--subaccount`
 
-
-
 </td>
 <td valign="top">
 
 The specified subaccount, which overrides the target
-
-
 
 </td>
 </tr>

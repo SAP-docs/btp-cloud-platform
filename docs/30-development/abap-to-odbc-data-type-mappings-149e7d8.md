@@ -71,14 +71,10 @@ All other ABAP data types are mapped to their corresponding ODBC SQL types indep
 
 ABAP Data Type
 
-
-
 </th>
 <th valign="top">
 
 Mapped ODBC SQL Type
-
-
 
 </th>
 </tr>
@@ -87,14 +83,10 @@ Mapped ODBC SQL Type
 
 `INT1/INT2`
 
-
-
 </td>
 <td valign="top">
 
 `SQL_SMALLINT`
-
-
 
 </td>
 </tr>
@@ -103,14 +95,10 @@ Mapped ODBC SQL Type
 
 `INT4`
 
-
-
 </td>
 <td valign="top">
 
 `SQL_INTEGER`
-
-
 
 </td>
 </tr>
@@ -119,14 +107,10 @@ Mapped ODBC SQL Type
 
 `INT8`
 
-
-
 </td>
 <td valign="top">
 
 `SQL_BIGINT`
-
-
 
 </td>
 </tr>
@@ -135,14 +119,10 @@ Mapped ODBC SQL Type
 
 `DEC`
 
-
-
 </td>
 <td valign="top">
 
 `SQL_NUMERIC`
-
-
 
 </td>
 </tr>
@@ -151,14 +131,10 @@ Mapped ODBC SQL Type
 
 `UTCL`
 
-
-
 </td>
 <td valign="top">
 
 `SQL_TIMESTAMP/SQL_TYPE_TIMESTAMP`
-
-
 
 </td>
 </tr>

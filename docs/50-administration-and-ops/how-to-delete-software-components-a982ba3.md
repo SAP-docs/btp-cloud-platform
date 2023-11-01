@@ -52,14 +52,10 @@ To delete a software component, perform the following steps:
 
 Empty Software Component
 
-
-
 </th>
 <th valign="top">
 
 Used Software Component
-
-
 
 </th>
 </tr>
@@ -68,14 +64,10 @@ Used Software Component
 
 The software component contains no object locally in the service instance and no changes are committed to the remote repository. The remote repository, the associated structure package of the software component, and the software component itself are deleted. The deletion of the ABAP structure package and software component is executed without creating a transport request.
 
-
-
 </td>
 <td valign="top">
 
 The software component contains objects locally and possible changes are committed to the remote repository. The remote repository is then deleted and the software component is locked. Since the software component is locked, no object changes can be released \(pushed to remote\) anymore.
-
-
 
 </td>
 </tr>
@@ -90,21 +82,15 @@ The software component contains objects locally and possible changes are committ
 
 Local Deletion
 
-
-
 </th>
 <th valign="top">
 
 Remote Deletion
 
-
-
 </th>
 <th valign="top">
 
 Local and Remote Deletion
-
-
 
 </th>
 </tr>
@@ -113,8 +99,6 @@ Local and Remote Deletion
 
 When only deleting the local representation of the software component, this means all ABAP objects including the parent structure package.
 
-
-
 </td>
 <td valign="top">
 
@@ -122,14 +106,10 @@ When only deleting the remote representation \(remote repository\), a warning te
 
 *The software component will be remotely deleted. As a consequence, no actions can be performed anymore. Please make sure to first delete the software component locally on all system instances where it is cloned. The component cannot be deleted from the other systems after it is remotely erased. This action cannot be undone.*
 
-
-
 </td>
 <td valign="top">
 
 When deleting local and remote representations, local means only the current system instance.
-
-
 
 </td>
 </tr>

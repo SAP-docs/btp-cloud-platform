@@ -80,21 +80,15 @@ Business users are replicated from your central HR system. You can change user d
     > 
     > `User Name` 
     > 
-    > 
-    > 
     > </td>
     > <td valign="top">
     > 
     > `User ID` \(Optional\)
     > 
-    > 
-    > 
     > </td>
     > <td valign="top">
     > 
     > `Role ID`
-    > 
-    > 
     > 
     > </td>
     > </tr>
@@ -103,21 +97,15 @@ Business users are replicated from your central HR system. You can change user d
     > 
     > *<User name 1\>* 
     > 
-    > 
-    > 
     > </td>
     > <td valign="top">
     > 
     > *<Business user ID 1\>* 
     > 
-    > 
-    > 
     > </td>
     > <td valign="top">
     > 
     > *<Business role ID 1\>*
-    > 
-    > 
     > 
     > </td>
     > </tr>
@@ -126,21 +114,15 @@ Business users are replicated from your central HR system. You can change user d
     > 
     > *<User name 2\>* 
     > 
-    > 
-    > 
     > </td>
     > <td valign="top">
     > 
     > *<Business user ID 2\>* 
     > 
-    > 
-    > 
     > </td>
     > <td valign="top">
     > 
     > *<Business role ID 2\>*
-    > 
-    > 
     > 
     > </td>
     > </tr>
@@ -149,21 +131,15 @@ Business users are replicated from your central HR system. You can change user d
     > 
     > *<User name 3\>* 
     > 
-    > 
-    > 
     > </td>
     > <td valign="top">
     > 
     > *<Business user ID 3\>* 
     > 
-    > 
-    > 
     > </td>
     > <td valign="top">
     > 
     > *<Business role ID 3\>*
-    > 
-    > 
     > 
     > </td>
     > </tr>
@@ -172,21 +148,15 @@ Business users are replicated from your central HR system. You can change user d
     > 
     > *<User name n\>* 
     > 
-    > 
-    > 
     > </td>
     > <td valign="top">
     > 
     > *<Business user ID n\>* 
     > 
-    > 
-    > 
     > </td>
     > <td valign="top">
     > 
     > *<Business role ID n\>* 
-    > 
-    > 
     > 
     > </td>
     > </tr>
@@ -229,14 +199,10 @@ If you create a new business user, the following fields in the *User Data* area 
 
 Field
 
-
-
 </th>
 <th valign="top">
 
 Default Value
-
-
 
 </th>
 </tr>
@@ -245,14 +211,10 @@ Default Value
 
 *Valid From*
 
-
-
 </td>
 <td valign="top">
 
 01/01/1901
-
-
 
 </td>
 </tr>
@@ -261,14 +223,10 @@ Default Value
 
 *Valid To*
 
-
-
 </td>
 <td valign="top">
 
 12/31/9999
-
-
 
 </td>
 </tr>
@@ -277,14 +235,10 @@ Default Value
 
 *Decimal Format*
 
-
-
 </td>
 <td valign="top" rowspan="5">
 
 This default value is derived from the standard setting that is valid in the country of the workplace address. If the workplace address is not maintained, the value is derived from the business user’s private address.
-
-
 
 </td>
 </tr>
@@ -293,16 +247,12 @@ This default value is derived from the standard setting that is valid in the cou
 
 *Date Format*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Time Format*
-
-
 
 </td>
 </tr>
@@ -311,16 +261,12 @@ This default value is derived from the standard setting that is valid in the cou
 
 *Time Zone*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Language*
-
-
 
 </td>
 </tr>

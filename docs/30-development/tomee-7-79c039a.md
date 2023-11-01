@@ -32,21 +32,15 @@ The **tomee7** application runtime container provides the following standard API
 
 Runtime
 
-
-
 </th>
 <th valign="top">
 
 TomEE 7
 
-
-
 </th>
 <th valign="top">
 
 Supported Specification Version
-
-
 
 </th>
 </tr>
@@ -55,14 +49,10 @@ Supported Specification Version
 
 tomee7
 
-
-
 </td>
 <td valign="top">
 
 Apache TomEE 7 \(*Java EE 7 Web Profile*\)
-
-
 
 </td>
 <td valign="top">
@@ -101,8 +91,6 @@ Dependency Injection for Java 1.0
 
 Contexts and Dependency Injection for Java EE platform 1.1
 
-
-
 </td>
 </tr>
 </table>
@@ -124,21 +112,15 @@ Below is a list of all the placeholders that can be customized by the applicatio
 
 Placeholder
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Default Value
-
-
 
 </th>
 </tr>
@@ -147,21 +129,15 @@ Default Value
 
 `connector.maxHttpHeaderSize` 
 
-
-
 </td>
 <td valign="top">
 
 The maximum size of the request and response HTTP header, specified in bytes
 
-
-
 </td>
 <td valign="top">
 
 **8192** 
-
-
 
 </td>
 </tr>
@@ -170,21 +146,15 @@ The maximum size of the request and response HTTP header, specified in bytes
 
 `connector.maxThreads` 
 
-
-
 </td>
 <td valign="top">
 
 The maximum number of request processing threads to be created by this Connector, which therefore determines the maximum number of simultaneous requests that can be handled
 
-
-
 </td>
 <td valign="top">
 
 **200** 
-
-
 
 </td>
 </tr>
@@ -193,21 +163,15 @@ The maximum number of request processing threads to be created by this Connector
 
 `connector.allowTrace` 
 
-
-
 </td>
 <td valign="top">
 
 A Boolean value that enables or disables the TRACE HTTP method
 
-
-
 </td>
 <td valign="top">
 
 **false** 
-
-
 
 </td>
 </tr>

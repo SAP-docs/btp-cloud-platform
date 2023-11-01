@@ -15,14 +15,10 @@ The following table lists the environment variables that you can use to configur
 
 Variable
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -31,14 +27,10 @@ Description
 
 [`httpHeaders`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_rhz_hgn_mv) 
 
-
-
 </td>
 <td valign="top">
 
 Configures the application router to return additional HTTP headers in its responses to client requests
-
-
 
 </td>
 </tr>
@@ -47,14 +39,10 @@ Configures the application router to return additional HTTP headers in its respo
 
 [`destinations`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_bv4_tdf_x1b) 
 
-
-
 </td>
 <td valign="top">
 
 Provides information about the available application \(microservice\) destinations.
-
-
 
 </td>
 </tr>
@@ -63,14 +51,10 @@ Provides information about the available application \(microservice\) destinatio
 
 [`cookies`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_gbt_1nc_4kb) 
 
-
-
 </td>
 <td valign="top">
 
 Provides cookies that the application router returns to the client in its responses.
-
-
 
 </td>
 </tr>
@@ -79,14 +63,10 @@ Provides cookies that the application router returns to the client in its respon
 
 [`SESSION_TIMEOUT`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_blz_hgn_mv) 
 
-
-
 </td>
 <td valign="top">
 
 Sets the time to trigger an automatic central log out from the User Account and Authentication \(UAA\) server.
-
-
 
 </td>
 </tr>
@@ -95,14 +75,10 @@ Sets the time to trigger an automatic central log out from the User Account and 
 
 [`SEND_XFRAMEOPTIONS`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_d4z_hgn_mv) 
 
-
-
 </td>
 <td valign="top">
 
 Sets or changes the `X-Frame-Options` header
-
-
 
 </td>
 </tr>
@@ -111,14 +87,10 @@ Sets or changes the `X-Frame-Options` header
 
 [`CJ_PROTECT_WHITELIST`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_nrz_hgn_mv) 
 
-
-
 </td>
 <td valign="top">
 
 A list of allowed server or domain origins to use when checking for click-jacking attacks.
-
-
 
 </td>
 </tr>
@@ -127,14 +99,10 @@ A list of allowed server or domain origins to use when checking for click-jackin
 
 [`WS_ALLOWED_ORIGINS`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_ijs_5fm_4v) 
 
-
-
 </td>
 <td valign="top">
 
 A list of the allowed server \(or domain\) origins that the application router uses to verify requests.
-
-
 
 </td>
 </tr>
@@ -143,14 +111,10 @@ A list of the allowed server \(or domain\) origins that the application router u
 
 [`JWT_REFRESH`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_x5z_hgn_mv) 
 
-
-
 </td>
 <td valign="top">
 
 Configures the automatic refresh of the JSON Web Token \(JWT\) provided by the User Account and Authentication \(UAA\) service to prevent expiry \(default is 5 minutes\).
-
-
 
 </td>
 </tr>
@@ -159,14 +123,10 @@ Configures the automatic refresh of the JSON Web Token \(JWT\) provided by the U
 
 [`UAA_SERVICE_NAME`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_wf1_lgn_mv) 
 
-
-
 </td>
 <td valign="top">
 
 Specifies the **exact** name of the UAA service to bind to an application.
-
-
 
 </td>
 </tr>
@@ -175,14 +135,10 @@ Specifies the **exact** name of the UAA service to bind to an application.
 
 [`INCOMING_CONNECTION_TIMEOUT`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_owp_xch_wx) 
 
-
-
 </td>
 <td valign="top">
 
 Specifies the maximum time \(in milliseconds\) for a client connection. If the specified time is exceeded, the connection is closed.
-
-
 
 </td>
 </tr>
@@ -191,14 +147,10 @@ Specifies the maximum time \(in milliseconds\) for a client connection. If the s
 
 [`TENANT_HOST_PATTERN`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_zhq_xch_wx) 
 
-
-
 </td>
 <td valign="top">
 
 Defines a regular expression to use when resolving tenant host names in the request’s host name.
-
-
 
 </td>
 </tr>
@@ -207,14 +159,10 @@ Defines a regular expression to use when resolving tenant host names in the requ
 
 [`COMPRESSION`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_vsq_xch_wx) 
 
-
-
 </td>
 <td valign="top">
 
 Configures the compression of resources before a response to the client.
-
-
 
 </td>
 </tr>
@@ -223,14 +171,10 @@ Configures the compression of resources before a response to the client.
 
 [`SECURE_SESSION_COOKIE`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_wpy_yfg_2z) 
 
-
-
 </td>
 <td valign="top">
 
 Configures the enforcement of the `Secure` flag of the application router's session cookie.
-
-
 
 </td>
 </tr>
@@ -239,14 +183,10 @@ Configures the enforcement of the `Secure` flag of the application router's sess
 
 [`REQUEST_TRACE`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_s1p_qvj_2z) 
 
-
-
 </td>
 <td valign="top">
 
 Enables additional traces of the incoming and outgoing requests.
-
-
 
 </td>
 </tr>
@@ -255,14 +195,10 @@ Enables additional traces of the incoming and outgoing requests.
 
 `EXTERNAL_REVERSE_PROXY` 
 
-
-
 </td>
 <td valign="top">
 
 Indicates the use of the application router behind an external reverse proxy outside of the Cloud Foundry domain. For more information, see **Customer Header** under [Headers](headers-9010419.md).
-
-
 
 </td>
 </tr>
@@ -271,14 +207,10 @@ Indicates the use of the application router behind an external reverse proxy out
 
 [`CORS`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_nt3_t4k_sz) 
 
-
-
 </td>
 <td valign="top">
 
 Provides support for cross-origin requests, for example, by allowing the modification of the request header.
-
-
 
 </td>
 </tr>
@@ -287,14 +219,10 @@ Provides support for cross-origin requests, for example, by allowing the modific
 
 [`DIRECT_ROUTING_URI_PATTERNS`](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_DIRECT_ROUTING) 
 
-
-
 </td>
 <td valign="top">
 
 Defines a list of URIs that are directed to the routing configuration file \(xs-app.json file\) of the application router instead of to a specific applicaion's xs-app.json file that is stored in the HTML5 Application Repository. This configuration improves the application loading time and monitoring options.
-
-
 
 </td>
 </tr>
@@ -303,14 +231,10 @@ Defines a list of URIs that are directed to the routing configuration file \(xs-
 
 `EXT_SESSION_MGT` 
 
-
-
 </td>
 <td valign="top">
 
 You can configure external session management. See [External Session Management](external-session-management-d4a75d6.md).
-
-
 
 </td>
 </tr>
@@ -319,14 +243,10 @@ You can configure external session management. See [External Session Management]
 
 `CF_NODEJS_LOGGING_LEVEL` 
 
-
-
 </td>
 <td valign="top">
 
 Sets the minimal logging level of the `cf-nodejs-logging-support` library of the application router.
-
-
 
 </td>
 </tr>
@@ -335,8 +255,6 @@ Sets the minimal logging level of the `cf-nodejs-logging-support` library of the
 
 `STATE_PARAMETER_SECRET` 
 
-
-
 </td>
 <td valign="top">
 
@@ -344,16 +262,12 @@ Enables the use of state parameters to prevent CRFS attacks.
 
 If this environment variable is set, the application router creates a state parameter for each initial authorization request. By validating that the authentication server returns the same state parameter in its response, the application server can verify that the response did not originate from a third party.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `HTTP2_SUPPORT` 
-
-
 
 </td>
 <td valign="top">
@@ -374,14 +288,10 @@ Enables the application router to start as an HTTP/2 server.
 
 `FULL_CERTIFICATE_CHAIN` 
 
-
-
 </td>
 <td valign="top">
 
 Enables the application router to send the entire chain of certificates provided in the binding of the authentication service \(XSUAA or Indentity Authentication\) to the backend applications. The certificates are required for mutual TLS authentication \(mTLS handshake\). See [Mutual TLS Authentication \(mTLS\) and Certificates Handling](mutual-tls-authentication-mtls-and-certificates-handling-46b8b85.md).
-
-
 
 </td>
 </tr>
@@ -423,28 +333,20 @@ The destinations configuration is an array of objects that is defined in the `de
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Mandatory
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -453,28 +355,20 @@ Description
 
 `name` 
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 A unique indentifier for the destination
-
-
 
 </td>
 </tr>
@@ -483,28 +377,20 @@ A unique indentifier for the destination
 
 `url` 
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 The Unique Resource Locator for the application \(microservice\)
-
-
 
 </td>
 </tr>
@@ -513,21 +399,15 @@ The Unique Resource Locator for the application \(microservice\)
 
 `proxyHost` 
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
@@ -546,21 +426,15 @@ The host of the proxy server used in case the request should go through a proxy 
 
 `proxyPort` 
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
@@ -579,28 +453,20 @@ The port of the proxy server used in case the request should go through a proxy 
 
 `forwardAuthToken` 
 
-
-
 </td>
 <td valign="top">
 
 Boolean
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 If true, the OAuth token will be sent to the destination. The default value is “false”. This token contains the user identity, scopes, and some other attributes. The token is signed by the User Account and Authorization \(UAA\) service so that the token can be used for user-authentication and authorization purposed by back-end services.
-
-
 
 </td>
 </tr>
@@ -609,21 +475,15 @@ If true, the OAuth token will be sent to the destination. The default value is �
 
 `strictSSL` 
 
-
-
 </td>
 <td valign="top">
 
 Boolean
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
@@ -642,21 +502,15 @@ Configures whether the application router should reject untrusted certificates. 
 
 `timeout` 
 
-
-
 </td>
 <td valign="top">
 
 Number
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
@@ -675,21 +529,15 @@ A positive integer representing the maximum amount of time to wait for a respons
 
 `proxyType` 
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
@@ -708,28 +556,20 @@ Indicates if the destination is used to access applications in private networks 
 
 `IASDependencyName` 
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Configures the name of the Identity Authentication dependency that is used to exchange the Identity Authentication token used for the user authentication at login. If configured, the exchanged token is then also forwarded to the backend applications.
-
-
 
 </td>
 </tr>
@@ -847,28 +687,20 @@ The content is a JSON list of objects with the properties listed in the followin
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Mandatory
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -877,28 +709,20 @@ Description
 
 `protocol` 
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 URI scheme, for example “HTTP”.
-
-
 
 </td>
 </tr>
@@ -907,28 +731,20 @@ URI scheme, for example “HTTP”.
 
 `host` 
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 A valid host name, for example, `acme.com.hostname`, or a domain name defined with an asterisk \(\*\) `*.acme.com`.
-
-
 
 </td>
 </tr>
@@ -937,28 +753,20 @@ A valid host name, for example, `acme.com.hostname`, or a domain name defined wi
 
 `port` 
 
-
-
 </td>
 <td valign="top">
 
 String/Number
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Port string or number containing a valid port.
-
-
 
 </td>
 </tr>
@@ -1131,28 +939,20 @@ The CORS configuration includes an array of objects with the following propertie
 
 CORS Property
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Mandatory
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -1161,28 +961,20 @@ Description
 
 `uriPattern`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 A regular expression \(RegExp\) representing the source routes to which the CORS configuration applies. To ensure that the RegExp matches the complete path, surround it with ^ and $,f or example, `"uriPattern": "^\route1$"`. Defaults: none
-
-
 
 </td>
 </tr>
@@ -1191,21 +983,15 @@ A regular expression \(RegExp\) representing the source routes to which the CORS
 
 `allowedOrigin`
 
-
-
 </td>
 <td valign="top">
 
 Array
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
@@ -1217,8 +1003,6 @@ A comma-separated list of objects each of which contains a host name, port and p
 
 The default configuration is: `[{“host”: "*"}]`, which means that the server allows **any** origin to access the resource.
 
-
-
 </td>
 </tr>
 <tr>
@@ -1226,21 +1010,15 @@ The default configuration is: `[{“host”: "*"}]`, which means that the server
 
 `allowedMethods`
 
-
-
 </td>
 <td valign="top">
 
 Array
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
@@ -1259,28 +1037,20 @@ A comma-separated list of HTTP methods that are allowed by the server, for examp
 
 `allowedHeaders`
 
-
-
 </td>
 <td valign="top">
 
 Array
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 A comma-separated list of request headers that are allowed by the server. the default values are as follows: `[“Origin”, “Accept”, “X-Requested-With”, “Content-Type”, “Access-Control-Request-Method”, “Access-Control-Request-Headers”]`.
-
-
 
 </td>
 </tr>
@@ -1289,28 +1059,20 @@ A comma-separated list of request headers that are allowed by the server. the de
 
 `maxAge`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 A single value specifying the length of time \(in seconds\) a preflight request should be cached for. A negative value that prevents CORS filter from adding this response header to the pre-flight response. If `maxAge` is defined but no value is specified, the default time of “1800” seconds applies.
-
-
 
 </td>
 </tr>
@@ -1319,28 +1081,20 @@ A single value specifying the length of time \(in seconds\) a preflight request 
 
 `exposeHeaders`
 
-
-
 </td>
 <td valign="top">
 
 Array
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 A comma-separated list of **response** headers that are allowed to be exposed. If `exposeHeaders` is defined but no response header is specified for exposure, no default value is supplied.
-
-
 
 </td>
 </tr>
@@ -1349,28 +1103,20 @@ A comma-separated list of **response** headers that are allowed to be exposed. I
 
 `allowedCredentials` 
 
-
-
 </td>
 <td valign="top">
 
 Boolean
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 A Boolean flag that indicates whether the specified resource supports user credentials. The default setting is “true”.
-
-
 
 </td>
 </tr>

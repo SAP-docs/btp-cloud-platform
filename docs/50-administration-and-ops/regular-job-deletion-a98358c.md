@@ -17,14 +17,10 @@ All jobs that are not removed by a user remain in the system until a technical c
 
 Periodic Granularity of the Job to Be Deleted
 
-
-
 </th>
 <th valign="top">
 
 Job is Automatically Deleted After
-
-
 
 </th>
 </tr>
@@ -33,14 +29,10 @@ Job is Automatically Deleted After
 
 Not periodic
 
-
-
 </td>
 <td valign="top">
 
 14 days
-
-
 
 </td>
 </tr>
@@ -49,14 +41,10 @@ Not periodic
 
 Minutes
 
-
-
 </td>
 <td valign="top">
 
 7 days
-
-
 
 </td>
 </tr>
@@ -65,14 +53,10 @@ Minutes
 
 Hours
 
-
-
 </td>
 <td valign="top">
 
 14 days
-
-
 
 </td>
 </tr>
@@ -81,14 +65,10 @@ Hours
 
 Days
 
-
-
 </td>
 <td valign="top">
 
 Periodic value\*24 days
-
-
 
 </td>
 </tr>
@@ -97,14 +77,10 @@ Periodic value\*24 days
 
 Weeks
 
-
-
 </td>
 <td valign="top">
 
 Periodic value\*7\*24 days
-
-
 
 </td>
 </tr>
@@ -113,14 +89,10 @@ Periodic value\*7\*24 days
 
 Months
 
-
-
 </td>
 <td valign="top">
 
 Periodic value\*31\*24 days
-
-
 
 </td>
 </tr>
@@ -129,14 +101,10 @@ Periodic value\*31\*24 days
 
 Every X week in every Y month
 
-
-
 </td>
 <td valign="top">
 
 Periodic value\*31\*24 days
-
-
 
 </td>
 </tr>

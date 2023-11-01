@@ -26,14 +26,10 @@ Here's the help syntax:
 
 Example Help Calls \(progressing in level of detail\)
 
-
-
 </th>
 <th valign="top">
 
 What to Expect
-
-
 
 </th>
 </tr>
@@ -42,14 +38,10 @@ What to Expect
 
 `btp help`
 
-
-
 </td>
 <td valign="top">
 
 Explains the syntax and shows plenty of examples.
-
-
 
 </td>
 </tr>
@@ -58,14 +50,10 @@ Explains the syntax and shows plenty of examples.
 
 `btp help all`
 
-
-
 </td>
 <td valign="top">
 
 Displays an overview of all available commands, ordered according to their group/object combinations.
-
-
 
 </td>
 </tr>
@@ -74,14 +62,10 @@ Displays an overview of all available commands, ordered according to their group
 
 `btp help list`
 
-
-
 </td>
 <td valign="top">
 
 Displays *list* commands with short summaries.
-
-
 
 </td>
 </tr>
@@ -90,14 +74,10 @@ Displays *list* commands with short summaries.
 
 `btp help accounts`
 
-
-
 </td>
 <td valign="top">
 
 Displays all objects in *accounts* group, and all available actions per group/object combination.
-
-
 
 </td>
 </tr>
@@ -106,14 +86,10 @@ Displays all objects in *accounts* group, and all available actions per group/ob
 
 `btp help accounts/subaccount`
 
-
-
 </td>
 <td valign="top">
 
 Displays all available commands for this group/object combination.
-
-
 
 </td>
 </tr>
@@ -122,14 +98,10 @@ Displays all available commands for this group/object combination.
 
 `btp help list accounts/subaccount`
 
-
-
 </td>
 <td valign="top">
 
 Displays command-specific help, such as usage, a list of all parameters with descriptions, helpful tips, examples, and links to further documentation.
-
-
 
 </td>
 </tr>

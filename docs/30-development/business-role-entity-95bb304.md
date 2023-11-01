@@ -23,21 +23,15 @@ Technical name: `BusinessRoles`
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Necessity
-
-
 
 </th>
 </tr>
@@ -46,21 +40,15 @@ Necessity
 
 BusinessRoleID
 
-
-
 </td>
 <td valign="top">
 
 Business role ID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -69,21 +57,15 @@ Mandatory \(Key\)
 
 Description
 
-
-
 </td>
 <td valign="top">
 
 Description
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -92,21 +74,15 @@ Optional
 
 LongText
 
-
-
 </td>
 <td valign="top">
 
 Long Text
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -115,21 +91,15 @@ Optional
 
 BusinessRoleTemplateID
 
-
-
 </td>
 <td valign="top">
 
 Business role template ID
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -138,21 +108,15 @@ Optional
 
 IsLeading
 
-
-
 </td>
 <td valign="top">
 
 Leading business role
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -161,21 +125,15 @@ Optional
 
 LeadingBusinessRoleID
 
-
-
 </td>
 <td valign="top">
 
 Leading business role ID
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -184,21 +142,15 @@ Optional
 
 IsDerived
 
-
-
 </td>
 <td valign="top">
 
 Derived business role
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -207,14 +159,10 @@ Optional
 
 BusinessRoleGroup
 
-
-
 </td>
 <td valign="top">
 
 Business role group
-
-
 
 </td>
 <td valign="top">
@@ -223,8 +171,6 @@ Optional
 
 Not available in SAP IBP
 
-
-
 </td>
 </tr>
 <tr>
@@ -232,21 +178,15 @@ Not available in SAP IBP
 
 ExposedToSAPBTP
 
-
-
 </td>
 <td valign="top">
 
 Exposed to SAP BTP
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -255,21 +195,15 @@ Optional
 
 PriceCategoryCode
 
-
-
 </td>
 <td valign="top">
 
 Price category code
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -278,21 +212,15 @@ Optional
 
 PriceCategory
 
-
-
 </td>
 <td valign="top">
 
 Price category
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -301,8 +229,6 @@ Optional
 
 WriteAccessRestrictionCode
 
-
-
 </td>
 <td valign="top">
 
@@ -318,8 +244,6 @@ WriteAccessRestrictionCode
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -328,8 +252,6 @@ Optional
 
 ReadAccessRestrictionCode
 
-
-
 </td>
 <td valign="top">
 
@@ -345,8 +267,6 @@ ReadAccessRestrictionCode
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -355,8 +275,6 @@ Optional
 
 F4AccessRestrictionCode
 
-
-
 </td>
 <td valign="top">
 
@@ -373,8 +291,6 @@ F4AccessRestrictionCode
 
 Optional
 
-
-
 </td>
 </tr>
 <tr>
@@ -382,21 +298,15 @@ Optional
 
 Imported
 
-
-
 </td>
 <td valign="top">
 
 Imported
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -405,21 +315,15 @@ Optional
 
 Exported
 
-
-
 </td>
 <td valign="top">
 
 Exported
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -428,21 +332,15 @@ Optional
 
 LastChangedDateTime
 
-
-
 </td>
 <td valign="top">
 
 *Changed On:* <date\>, <time\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -451,21 +349,15 @@ Optional
 
 LastChangedByUserID
 
-
-
 </td>
 <td valign="top">
 
 *Changed By:* <user ID\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -474,21 +366,15 @@ Optional
 
 LastChangedByUserName
 
-
-
 </td>
 <td valign="top">
 
 *Changed By:* <user name\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -497,21 +383,15 @@ Optional
 
 LastChangedByUserDescription
 
-
-
 </td>
 <td valign="top">
 
 *Changed By:* <user description\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -520,21 +400,15 @@ Optional
 
 LastChangedByEMailAddress
 
-
-
 </td>
 <td valign="top">
 
 *Changed By:* <email address\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -543,21 +417,15 @@ Optional
 
 LastChangedByGlobalUserID
 
-
-
 </td>
 <td valign="top">
 
 *Changed By:* <global user ID\>
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>

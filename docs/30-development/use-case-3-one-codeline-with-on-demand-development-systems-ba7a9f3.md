@@ -42,35 +42,25 @@ We thus strongly recommend developing with [Use Case 1: One Codeline in a 3-Syst
 
 Step
 
-
-
 </th>
 <th valign="top">
 
 System
-
-
 
 </th>
 <th valign="top">
 
 Role
 
-
-
 </th>
 <th valign="top">
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Tool
-
-
 
 </th>
 </tr>
@@ -79,35 +69,25 @@ Tool
 
 1
 
-
-
 </td>
 <td valign="top">
 
 DEV, PRD
-
-
 
 </td>
 <td valign="top">
 
 System Administrator
 
-
-
 </td>
 <td valign="top">
 
 Provision a development and a production system
 
-
-
 </td>
 <td valign="top">
 
 SAP BTP cockpit 
-
-
 
 </td>
 </tr>
@@ -116,35 +96,25 @@ SAP BTP cockpit
 
 2
 
-
-
 </td>
 <td valign="top">
 
 DEV, PRD
-
-
 
 </td>
 <td valign="top">
 
 User Administrator
 
-
-
 </td>
 <td valign="top">
 
 Create users and maintain roles
 
-
-
 </td>
 <td valign="top">
 
 *Maintain Business Users* and *Maintain Business Roles* app
-
-
 
 </td>
 </tr>
@@ -153,35 +123,25 @@ Create users and maintain roles
 
 3
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Create a software component of type *Development* and, if required, a software component of type *Business Configuration*. Pull the software component\(s\) into the development system.
 
-
-
 </td>
 <td valign="top">
 
 *Manage Software Components* app
-
-
 
 </td>
 </tr>
@@ -190,35 +150,25 @@ Create a software component of type *Development* and, if required, a software c
 
 4
 
-
-
 </td>
 <td valign="top">
 
 PRD
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Pull the \(empty\) software component\(s\) into the production system
 
-
-
 </td>
 <td valign="top">
 
 *Manage Software Components* app
-
-
 
 </td>
 </tr>
@@ -227,35 +177,25 @@ Pull the \(empty\) software component\(s\) into the production system
 
 5a
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Developer
 
-
-
 </td>
 <td valign="top">
 
 Develop new functional requirements or correct existing functionalities. All required changes are collected in Workbench transport requests
 
-
-
 </td>
 <td valign="top">
 
 ABAP Development Tools for Eclipse
-
-
 
 </td>
 </tr>
@@ -264,35 +204,25 @@ ABAP Development Tools for Eclipse
 
 5b
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Business Configuration Expert
 
-
-
 </td>
 <td valign="top">
 
 Maintain business configuration. All changes are collected in customizing transport requests.
 
-
-
 </td>
 <td valign="top">
 
 *Maintain Business Configurations* app
-
-
 
 </td>
 </tr>
@@ -301,28 +231,20 @@ Maintain business configuration. All changes are collected in customizing transp
 
 6
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Tester
 
-
-
 </td>
 <td valign="top">
 
 Test the change and report the test results
-
-
 
 </td>
 <td valign="top">
@@ -331,8 +253,6 @@ ABAP Development Tools for Eclipse with and custom SAP Fiori apps as well as ext
 
 External documentation tool
 
-
-
 </td>
 </tr>
 <tr>
@@ -340,35 +260,25 @@ External documentation tool
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 If changes are required, repeat steps 5-6
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -377,35 +287,25 @@ If changes are required, repeat steps 5-6
 
 7
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Release decision: the changes are successfully tested and approved.
 
-
-
 </td>
 <td valign="top">
 
 External documentation tool
-
-
 
 </td>
 </tr>
@@ -414,35 +314,25 @@ External documentation tool
 
 8
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Release the transport request\(s\)
 
-
-
 </td>
 <td valign="top">
 
 ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing Transports* app
-
-
 
 </td>
 </tr>
@@ -451,35 +341,25 @@ ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing T
 
 9
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Create a release branch YYYY-<nn\> for each software component
 
-
-
 </td>
 <td valign="top">
 
 *Manage Software Components* app
-
-
 
 </td>
 </tr>
@@ -488,35 +368,25 @@ Create a release branch YYYY-<nn\> for each software component
 
 10
 
-
-
 </td>
 <td valign="top">
 
 PRD
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Check out the release branch YYYY-<nn\> of each software component
 
-
-
 </td>
 <td valign="top">
 
 *Manage Software Components* app
-
-
 
 </td>
 </tr>
@@ -525,35 +395,25 @@ Check out the release branch YYYY-<nn\> of each software component
 
 11
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 System Administrator
 
-
-
 </td>
 <td valign="top">
 
 De-provision system DEV
 
-
-
 </td>
 <td valign="top">
 
 SAP BTP cockpit
-
-
 
 </td>
 </tr>
@@ -586,35 +446,25 @@ SAP BTP cockpit
 
 Step
 
-
-
 </th>
 <th valign="top">
 
 System
-
-
 
 </th>
 <th valign="top">
 
 Role
 
-
-
 </th>
 <th valign="top">
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Tool
-
-
 
 </th>
 </tr>
@@ -623,35 +473,25 @@ Tool
 
 1
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Provision a new development system
 
-
-
 </td>
 <td valign="top">
 
 SAP BTP cockpit
-
-
 
 </td>
 </tr>
@@ -660,35 +500,25 @@ SAP BTP cockpit
 
 2
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Create users, maintain and assign roles
 
-
-
 </td>
 <td valign="top">
 
 *Manage Business Users* and *Manage Business Roles* app
-
-
 
 </td>
 </tr>
@@ -697,35 +527,25 @@ Create users, maintain and assign roles
 
 3
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Import main branch of each software component into the newly provisioned development system
 
-
-
 </td>
 <td valign="top">
 
 *Manage Software Components* app
-
-
 
 </td>
 </tr>
@@ -734,35 +554,25 @@ Import main branch of each software component into the newly provisioned develop
 
 4a
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Developer
 
-
-
 </td>
 <td valign="top">
 
 Develop features. All required changes are collected in Workbench transport requests.
 
-
-
 </td>
 <td valign="top">
 
 ADT for Eclipse
-
-
 
 </td>
 </tr>
@@ -771,35 +581,25 @@ ADT for Eclipse
 
 4b
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Business Configuration Expert
 
-
-
 </td>
 <td valign="top">
 
 Maintain business configuration. All changes are collected in customizing transport requests.
 
-
-
 </td>
 <td valign="top">
 
 *Maintain Business Configurations* app
-
-
 
 </td>
 </tr>
@@ -808,35 +608,25 @@ Maintain business configuration. All changes are collected in customizing transp
 
 5
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Developer
 
-
-
 </td>
 <td valign="top">
 
 Release all transport requests
 
-
-
 </td>
 <td valign="top">
 
 ADT for Eclipse: Transport Organizer or *Export Customizing Transports* app
-
-
 
 </td>
 </tr>
@@ -845,35 +635,25 @@ ADT for Eclipse: Transport Organizer or *Export Customizing Transports* app
 
 6
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Tester
 
-
-
 </td>
 <td valign="top">
 
 Test new developments/fixes
 
-
-
 </td>
 <td valign="top">
 
 ADT for Eclipse and custom SAP Fiori apps as well as external test tools
-
-
 
 </td>
 </tr>
@@ -882,35 +662,25 @@ ADT for Eclipse and custom SAP Fiori apps as well as external test tools
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 If changes are required, repeat steps 3-5
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -919,35 +689,25 @@ If changes are required, repeat steps 3-5
 
 7
 
-
-
 </td>
 <td valign="top">
 
 PRD
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Pull the main branch of each software component into system PRD
 
-
-
 </td>
 <td valign="top">
 
 Manage Software Components app
-
-
 
 </td>
 </tr>
@@ -956,35 +716,25 @@ Manage Software Components app
 
 8
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Delete the development system
 
-
-
 </td>
 <td valign="top">
 
 SAP BTP cockpit
-
-
 
 </td>
 </tr>

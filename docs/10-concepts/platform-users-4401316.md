@@ -30,28 +30,20 @@ Member management happens at global account, directory, subaccount, and environm
 
  
 
-
-
 </th>
 <th valign="top">
 
 Global Accounts
-
-
 
 </th>
 <th valign="top">
 
 Directories
 
-
-
 </th>
 <th valign="top">
 
 Subaccounts
-
-
 
 </th>
 </tr>
@@ -59,8 +51,6 @@ Subaccounts
 <td valign="top">
 
 Feature Set A
-
-
 
 </td>
 <td valign="top">
@@ -73,14 +63,10 @@ You can only manage global account administrators using the cockpit.
 
 See [Add Members to Your Global Account](../50-administration-and-ops/add-members-to-your-global-account-4a04913.md).
 
-
-
 </td>
 <td valign="top">
 
 Not available
-
-
 
 </td>
 <td valign="top">
@@ -95,16 +81,12 @@ You can only manage subaccount security administrators using the cockpit.
 
 See [Managing Security Administrators in Your Subaccount \[Feature Set A\]](../50-administration-and-ops/managing-security-administrators-in-your-subaccount-feature-set-a-6752c4b.md)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Feature Set B
-
-
 
 </td>
 <td valign="top">
@@ -124,8 +106,6 @@ See:
 
 [Create Users](../50-administration-and-ops/create-users-a3bc7e8.md)
 
-
-
 </td>
 <td valign="top">
 
@@ -143,8 +123,6 @@ See:
 [Create Users](../50-administration-and-ops/create-users-a3bc7e8.md)
 
 [Manage Users in Directories \[Feature Set B\]](../50-administration-and-ops/manage-users-in-directories-feature-set-b-ff4d4a4.md)
-
-
 
 </td>
 <td valign="top">
@@ -171,8 +149,6 @@ See:
 
 [Create Users](../50-administration-and-ops/create-users-a3bc7e8.md)
 
-
-
 </td>
 </tr>
 </table>
@@ -188,14 +164,10 @@ Member management in the Cloud Foundry environment is independent of the feature
 
 Orgs
 
-
-
 </th>
 <th valign="top">
 
 Spaces
-
-
 
 </th>
 </tr>
@@ -214,8 +186,6 @@ See:
 
 [Add Org Members Using the Cockpit](../50-administration-and-ops/add-org-members-using-the-cockpit-a4eeaf1.md)
 
-
-
 </td>
 <td valign="top">
 
@@ -230,8 +200,6 @@ See:
 [https://docs.cloudfoundry.org/concepts/roles.html\#roles](https://docs.cloudfoundry.org/concepts/roles.html#roles)
 
 [Add Space Members Using the Cockpit](../50-administration-and-ops/add-space-members-using-the-cockpit-81d0b4d.md)
-
-
 
 </td>
 </tr>

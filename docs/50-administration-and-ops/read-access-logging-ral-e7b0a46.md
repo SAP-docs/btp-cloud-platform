@@ -37,21 +37,15 @@ The following types can be logged once a corresponding configuration exists:
 
 Channel Fields
 
-
-
 </td>
 <td valign="top">
 
 Condition Fields
 
-
-
 </td>
 <td valign="top">
 
 Access Context
-
-
 
 </td>
 </tr>
@@ -59,8 +53,6 @@ Access Context
 <td valign="top">
 
 Cloud Event Context Fields
-
-
 
 </td>
 <td valign="top">
@@ -79,14 +71,10 @@ Cloud Event Context Fields
 
 Payload Types
 
-
-
 </td>
 <td valign="top">
 
 Payload types of a selected producer or consumer. A producer or consumer is a set of event types belonging to a business entity.
-
-
 
 </td>
 </tr>
@@ -95,14 +83,10 @@ Payload types of a selected producer or consumer. A producer or consumer is a se
 
 System Fields
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 User Name
-
-
 
 </td>
 </tr>
@@ -111,16 +95,12 @@ User Name
 
 Screen Title
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
 
 Transaction code
-
-
 
 </td>
 </tr>

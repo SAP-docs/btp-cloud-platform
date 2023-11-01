@@ -55,14 +55,10 @@ Let's assume you want to work in two subaccounts in parallel, using two terminal
 
 Terminal A
 
-
-
 </th>
 <th valign="top">
 
 Terminal B
-
-
 
 </th>
 </tr>
@@ -77,8 +73,6 @@ btp login
 
 Run all commands as usual. The btp CLI uses the default configuration file.
 
-
-
 </td>
 <td valign="top">
 
@@ -89,8 +83,6 @@ btp --config "C:\my-cli-folder" login
 ```
 
 Use this option with each command call.
-
-
 
 </td>
 </tr>

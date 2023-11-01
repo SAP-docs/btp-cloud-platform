@@ -15,21 +15,15 @@ The following roles can be assigned to users in the Cloud Foundry environment on
 
 Level
 
-
-
 </th>
 <th valign="top">
 
 Role
 
-
-
 </th>
 <th valign="top">
 
 Role Description
-
-
 
 </th>
 </tr>
@@ -38,21 +32,15 @@ Role Description
 
 Organization
 
-
-
 </td>
 <td valign="top">
 
 Org Manager
 
-
-
 </td>
 <td valign="top">
 
 Manages the organization.
-
-
 
 </td>
 </tr>
@@ -61,14 +49,10 @@ Manages the organization.
 
 Org Auditor
 
-
-
 </td>
 <td valign="top">
 
 Provides read-only access to user information and org quota usage information.
-
-
 
 </td>
 </tr>
@@ -76,8 +60,6 @@ Provides read-only access to user information and org quota usage information.
 <td valign="top">
 
 Org User
-
-
 
 </td>
 <td valign="top">
@@ -102,21 +84,15 @@ Provides read-only access to the list of other organization users and their role
 
 Space
 
-
-
 </td>
 <td valign="top">
 
 Space Manager
 
-
-
 </td>
 <td valign="top">
 
 Manages a space within an organization.
-
-
 
 </td>
 </tr>
@@ -124,8 +100,6 @@ Manages a space within an organization.
 <td valign="top">
 
 Space Developer
-
-
 
 </td>
 <td valign="top">
@@ -144,14 +118,10 @@ Manages applications, services, and space-scoped service brokers in a space.
 
 Space Auditor
 
-
-
 </td>
 <td valign="top">
 
 Provides read-only access to a space.
-
-
 
 </td>
 </tr>
@@ -159,8 +129,6 @@ Provides read-only access to a space.
 <td valign="top">
 
 Space Supporter
-
-
 
 </td>
 <td valign="top">

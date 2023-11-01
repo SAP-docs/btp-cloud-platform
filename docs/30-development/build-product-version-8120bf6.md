@@ -2,9 +2,9 @@
 
 # Build Product Version
 
-You can use the *Build Product Version* app to easily trigger the build of new product versions via pipelines based on templates that you can configure for different use cases such as new release deliveries, support packages or hotfixes/patch deliveries.
+You can use the *Build Product Version* app to easily trigger the build of new product versions via pipelines based on templates that you can configure for different use cases such as new \(test\) release deliveries, \(test\) support packages or \(test\) hotfixes/patch deliveries.
 
-The app guides you through the creation of runs for your product versions and triggers them to be deployed on a system.
+The app guides you through the creation of runs for your product versions and provisions an integration test system.
 
 Since technical users are needed in various steps, the app can also be used to add and maintain credentials that can be reused in multiple products, see [Maintain Credentials](maintain-credentials-67b5aee.md).
 
@@ -19,9 +19,9 @@ Previously, the scenario was described in project "Piper", see [Build and Publis
 You can use the *Build Product Version* app to:
 
 -   Choose prepared pipeline templates depending on your use case and configure them to create different types of pipelines for your product versions:
-    -   Release Deliveries
-    -   Support Package Stacks
-    -   Patch Deliveries
+    -   Release Deliveries / Test Release Deliveries
+    -   Support Package Stacks / Test Support Package Stacks
+    -   Patch Deliveries / Test Patch Deliveries
 
 -   View details on a product version’s pipeline progress
 -   Maintain credentials for users that can be reused for different products
@@ -48,7 +48,7 @@ The standard user flow is described in the following diagram. Hover over the dif
 > 
 > 1.  Sign into your account in the *SAP BTP Cockpit*.
 > 2.  On global account level, navigate to *Entity Assignments* in the Entitlements menu tree.
-> 3.  Open the value help for *Select Entities* and choose the subaccount to which the *CI/CD Service* entitlement shall be added. Click *Select*.
+> 3.  Open the value help for *Select Entities* and choose the subaccount to which the *Continuous Integration & Delivery app/application* entitlement shall be added. Click *Select*.
 > 4.  Click the button *Configure Entitlements* and then *Add Service Plans*.
 > 5.  Select *Continuous Integration & Delivery* from the list and choose the service plan *default \(Application\)*, then click *Add 1 Service Plan*.
 > 6.  Click *Save* to add the service plan to your selected subaccount.

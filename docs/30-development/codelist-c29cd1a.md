@@ -20,21 +20,15 @@
 
 Node or Field
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Cardinality
-
-
 
 </th>
 </tr>
@@ -43,21 +37,15 @@ Cardinality
 
 `FieldName`
 
-
-
 </td>
 <td valign="top">
 
 Name of the field.
 
-
-
 </td>
 <td valign="top">
 
 1..1
-
-
 
 </td>
 </tr>
@@ -68,28 +56,20 @@ Name of the field.
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 `FieldValue`
-
-
 
 </td>
 <td valign="top" rowspan="2">
 
 This node provides the available code lists for SAP specific codes. For example country/region code, academic title.
 
-
-
 </td>
 <td valign="top">
 
 1..1
-
-
 
 </td>
 </tr>
@@ -98,21 +78,15 @@ This node provides the available code lists for SAP specific codes. For example 
 
 `FieldDescription`
 
-
-
 </td>
 <td valign="top">
 
 `languageCode`
 
-
-
 </td>
 <td valign="top">
 
 0..unbounded
-
-
 
 </td>
 </tr>

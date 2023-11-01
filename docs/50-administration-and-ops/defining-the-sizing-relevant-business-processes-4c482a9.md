@@ -41,35 +41,25 @@ The resulting overview of sizing-relevant business processes can look as follows
 
 Business Process
 
-
-
 </th>
 <th valign="top">
 
 Load Type
-
-
 
 </th>
 <th valign="top">
 
 Process Executions per Minute
 
-
-
 </th>
 <th valign="top">
 
 Criticality
 
-
-
 </th>
 <th valign="top">
 
 Variable Dimensions
-
-
 
 </th>
 </tr>
@@ -78,35 +68,25 @@ Variable Dimensions
 
 Creation of a new travel request
 
-
-
 </td>
 <td valign="top">
 
 HTTPS / User-driven
-
-
 
 </td>
 <td valign="top">
 
 160 per minute during main business hours \(8 am to 7 pm\)
 
-
-
 </td>
 <td valign="top">
 
 High
 
-
-
 </td>
 <td valign="top">
 
 Number of bookings per travel
-
-
 
 </td>
 </tr>
@@ -115,35 +95,25 @@ Number of bookings per travel
 
 Approval of a travel request
 
-
-
 </td>
 <td valign="top">
 
 HTTPS / User-driven
-
-
 
 </td>
 <td valign="top">
 
 160 per minute during main business hours \(8 am to 7 pm\)
 
-
-
 </td>
 <td valign="top">
 
 High
 
-
-
 </td>
 <td valign="top">
 
 \--
-
-
 
 </td>
 </tr>
@@ -152,35 +122,25 @@ High
 
 Calculation and sending of metrics for reporting
 
-
-
 </td>
 <td valign="top">
 
 Batch Job / Scheduled
-
-
 
 </td>
 <td valign="top">
 
 Once a day
 
-
-
 </td>
 <td valign="top">
 
 Low
 
-
-
 </td>
 <td valign="top">
 
 Number of travel requests created per day
-
-
 
 </td>
 </tr>

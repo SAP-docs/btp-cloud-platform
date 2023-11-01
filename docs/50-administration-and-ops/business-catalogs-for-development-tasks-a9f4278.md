@@ -19,28 +19,20 @@ Certain business catalogs are only available in development systems \(see [Creat
 
 Business Catalog
 
-
-
 </th>
 <th valign="top">
 
 Authorizations
-
-
 
 </th>
 <th valign="top">
 
 Restrictions
 
-
-
 </th>
 <th valign="top">
 
 Availability
-
-
 
 </th>
 </tr>
@@ -51,28 +43,20 @@ Availability
 
 SAP\_A4C\_BC\_DEV\_PC
 
-
-
 </td>
 <td valign="top">
 
 ADT Development
-
-
 
 </td>
 <td valign="top">
 
 No transport request management \(transport tasks only\)
 
-
-
 </td>
 <td valign="top">
 
 In development systems only
-
-
 
 </td>
 </tr>
@@ -82,8 +66,6 @@ In development systems only
 *Development - Analysis and Support*
 
 SAP\_A4C\_BC\_DEV\_SUP\_PC
-
-
 
 </td>
 <td valign="top">
@@ -100,14 +82,10 @@ Troubleshooting tools such as logs, traces, and the debugger.
 
 \-
 
-
-
 </td>
 <td valign="top">
 
 In all systems
-
-
 
 </td>
 </tr>
@@ -118,28 +96,20 @@ In all systems
 
 SAP\_A4C\_BC\_DEV\_TST\_PC
 
-
-
 </td>
 <td valign="top">
 
 Testing ABAP-based APIs released by SAP
-
-
 
 </td>
 <td valign="top">
 
 \-
 
-
-
 </td>
 <td valign="top">
 
 In development systems only
-
-
 
 </td>
 </tr>
@@ -150,28 +120,20 @@ In development systems only
 
 SAP\_A4C\_BC\_DEV\_CLA\_RUN\_PC
 
-
-
 </td>
 <td valign="top">
 
 Executing class runners in ABAP Development Tools
-
-
 
 </td>
 <td valign="top">
 
 \-
 
-
-
 </td>
 <td valign="top">
 
 In all systems
-
-
 
 </td>
 </tr>
@@ -182,28 +144,20 @@ In all systems
 
 SAP\_A4C\_BC\_DEV\_DAT\_PRV\_PC
 
-
-
 </td>
 <td valign="top">
 
 Using data preview in ABAP Development Tools
-
-
 
 </td>
 <td valign="top">
 
 \-
 
-
-
 </td>
 <td valign="top">
 
 In all systems
-
-
 
 </td>
 </tr>
@@ -214,28 +168,20 @@ In all systems
 
 SAP\_A4C\_BC\_DEV\_OBJ\_DIS\_PC
 
-
-
 </td>
 <td valign="top">
 
 Viewing \(read-only\) development objects in ABAP Development Tools
-
-
 
 </td>
 <td valign="top">
 
 \-
 
-
-
 </td>
 <td valign="top">
 
 In all systems
-
-
 
 </td>
 </tr>
@@ -246,28 +192,20 @@ In all systems
 
 SAP\_A4C\_BC\_TRN\_MNG\_PC
 
-
-
 </td>
 <td valign="top">
 
 ADT Transport Management
-
-
 
 </td>
 <td valign="top">
 
 No release of transport requests and no customizing requests
 
-
-
 </td>
 <td valign="top">
 
 In development systems only
-
-
 
 </td>
 </tr>
@@ -278,28 +216,20 @@ In development systems only
 
 SAP\_A4C\_BC\_TRN\_REL\_PC
 
-
-
 </td>
 <td valign="top">
 
 ADT Transport Release Management
-
-
 
 </td>
 <td valign="top">
 
 No customizing requests
 
-
-
 </td>
 <td valign="top">
 
 In development systems only
-
-
 
 </td>
 </tr>
@@ -310,28 +240,20 @@ In development systems only
 
 SAP\_A4C\_BC\_DEV\_UID\_PC
 
-
-
 </td>
 <td valign="top">
 
 Deployment of UIs into the ABAP system repository
-
-
 
 </td>
 <td valign="top">
 
 \-
 
-
-
 </td>
 <td valign="top">
 
 In development systems only
-
-
 
 </td>
 </tr>
@@ -341,8 +263,6 @@ In development systems only
 *Development Support - Data Preview - Business Data*
 
 SAP\_A4C\_BC\_DAT\_PRV\_DFT\_PC
-
-
 
 </td>
 <td valign="top">
@@ -354,21 +274,15 @@ Usage of the data preview in ABAP Development Tools for objects that are conside
 
 Data of CDS views can be viewed with or without application of the DCL.
 
-
-
 </td>
 <td valign="top">
 
 \-
 
-
-
 </td>
 <td valign="top">
 
 In all systems
-
-
 
 </td>
 </tr>
@@ -378,8 +292,6 @@ In all systems
 *Development Support - Data Preview - Cross-Client and Customizing Data*
 
 SAP\_A4C\_BC\_DAT\_PRV\_RDO\_PC
-
-
 
 </td>
 <td valign="top">
@@ -397,14 +309,10 @@ Usage of the data preview in ABAP Development Tools for objects that are conside
 
 \-
 
-
-
 </td>
 <td valign="top">
 
 In all systems
-
-
 
 </td>
 </tr>
@@ -414,8 +322,6 @@ In all systems
 *Extensibility - Custom Apps and Services*
 
 SAP\_CORE\_BC\_EXT\_TST
-
-
 
 </td>
 <td valign="top">
@@ -431,14 +337,10 @@ SAP\_CORE\_BC\_EXT\_TST
 
 Only services that have their original in the current system
 
-
-
 </td>
 <td valign="top">
 
 In development systems only
-
-
 
 </td>
 </tr>

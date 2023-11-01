@@ -33,28 +33,20 @@ SAP Authorization and Trust Management service records all its changes in its da
 
 Event grouping
 
-
-
 </th>
 <th valign="top">
 
 What events are logged
-
-
 
 </th>
 <th valign="top">
 
 How to identify related log events
 
-
-
 </th>
 <th valign="top">
 
 Additional information
-
-
 
 </th>
 </tr>
@@ -63,28 +55,20 @@ Additional information
 
 Identity provider management
 
-
-
 </td>
 <td valign="top" rowspan="2">
 
 Trust identity provider.
-
-
 
 </td>
 <td valign="top">
 
 `object with type "IdentityProvider" and id consisting of: crudType "CREATE"` 
 
-
-
 </td>
 <td valign="top">
 
 Attributes of the identity provider.
-
-
 
 </td>
 </tr>
@@ -93,14 +77,10 @@ Attributes of the identity provider.
 
 `tableName "xs_tenant", crudType "UPDATE"` 
 
-
-
 </td>
 <td valign="top">
 
 Trusting an identity provider using OpenID Connect triggers a change in the XSUAA tenant.
-
-
 
 </td>
 </tr>
@@ -109,21 +89,15 @@ Trusting an identity provider using OpenID Connect triggers a change in the XSUA
 
 Update trust with identity provider.
 
-
-
 </td>
 <td valign="top">
 
 `object with type "IdentityProvider" and id consisting of: crudType "UPDATE"` 
 
-
-
 </td>
 <td valign="top">
 
 Old attributes of the identity provider and any attributes required to identify the changes.
-
-
 
 </td>
 </tr>
@@ -132,14 +106,10 @@ Old attributes of the identity provider and any attributes required to identify 
 
 `tableName "xs_tenant", crudType "UPDATE"` 
 
-
-
 </td>
 <td valign="top">
 
 Updating trust in an identity provider using OpenID Connect can trigger a change in the XSUAA tenant.
-
-
 
 </td>
 </tr>
@@ -148,21 +118,15 @@ Updating trust in an identity provider using OpenID Connect can trigger a change
 
 Delete trust with identity provider.
 
-
-
 </td>
 <td valign="top">
 
 `object with type "IdentityProvider" and id consisting of: crudType "DELETE"` 
 
-
-
 </td>
 <td valign="top">
 
 Attributes of the service instance.
-
-
 
 </td>
 </tr>
@@ -171,14 +135,10 @@ Attributes of the service instance.
 
 `tableName "xs_tenant", crudType "UPDATE"` 
 
-
-
 </td>
 <td valign="top">
 
 Removing trust in an identity provider using OpenID Connect triggers a change in the XSUAA tenant.
-
-
 
 </td>
 </tr>
@@ -187,14 +147,10 @@ Removing trust in an identity provider using OpenID Connect triggers a change in
 
 Instance management
 
-
-
 </td>
 <td valign="top">
 
 Create instance.
-
-
 
 </td>
 <td valign="top">
@@ -205,14 +161,10 @@ Create instance.
 
 <code>object with type "<i class="varname">&lt;Instance_Name&gt;</i>" and id consisting of: crudType "CREATE"</code>
 
-
-
 </td>
 <td valign="top">
 
 Attributes of the service instance.
-
-
 
 </td>
 </tr>
@@ -220,8 +172,6 @@ Attributes of the service instance.
 <td valign="top">
 
 Update instance.
-
-
 
 </td>
 <td valign="top">
@@ -232,14 +182,10 @@ Update instance.
 
 <code>object with type "<i class="varname">&lt;Instance_Name&gt;</i>" and id consisting of: crudType "UPDATE"</code>
 
-
-
 </td>
 <td valign="top">
 
 Old attributes of the service instance and any attributes required to identify the changes.
-
-
 
 </td>
 </tr>
@@ -247,8 +193,6 @@ Old attributes of the service instance and any attributes required to identify t
 <td valign="top">
 
 Delete instance.
-
-
 
 </td>
 <td valign="top">
@@ -259,14 +203,10 @@ Delete instance.
 
 <code>object with type "<i class="varname">&lt;Instance_Name&gt;</i>" and id consisting of: crudType "DELETE"</code>
 
-
-
 </td>
 <td valign="top">
 
 Attributes of the service instance.
-
-
 
 </td>
 </tr>
@@ -285,14 +225,10 @@ Attributes of the service instance.
 
 Role collection management
 
-
-
 </td>
 <td valign="top">
 
 Create role collection.
-
-
 
 </td>
 <td valign="top">
@@ -300,8 +236,6 @@ Create role collection.
 `tableName "xsrolecollections", crudType "CREATE"`
 
 audit.configuration
-
-
 
 </td>
 <td valign="top">
@@ -326,8 +260,6 @@ Other attributes:
 
 Assign users to role collection.
 
-
-
 </td>
 <td valign="top">
 
@@ -336,8 +268,6 @@ Direct assignment to users: `tableName "xs_rolecollection2user", crudType "CREAT
 Mapping to users with attributes: `tableName "xsrolecollection2samlattribute", crudType "CREATE"`
 
 audit.configuration
-
-
 
 </td>
 <td valign="top">
@@ -381,14 +311,10 @@ Other attributes for mapping:
 
 Assign roles to role collection.
 
-
-
 </td>
 <td valign="top">
 
 `tableName "xsrolecollection2role", crudType "CREATE"` 
-
-
 
 </td>
 <td valign="top">
@@ -419,16 +345,12 @@ Assign roles to role collection.
 
 Delete role collection.
 
-
-
 </td>
 <td valign="top">
 
 `tableName "xsrolecollections", crudType "DELETE"`
 
 audit.configuration
-
-
 
 </td>
 <td valign="top">
@@ -453,14 +375,10 @@ Other attributes:
 
 Role management
 
-
-
 </td>
 <td valign="top">
 
 Create role.
-
-
 
 </td>
 <td valign="top">
@@ -468,8 +386,6 @@ Create role.
 `tableName "xsrole", crudType "CREATE"`
 
 audit.configuration
-
-
 
 </td>
 <td valign="top">
@@ -498,16 +414,12 @@ Other attributes:
 
 Modify attribute values in role.
 
-
-
 </td>
 <td valign="top">
 
 `tableName "xsattribute2role", crudType "CREATE"`
 
 audit.configuration
-
-
 
 </td>
 <td valign="top">
@@ -542,16 +454,12 @@ Other attributes:
 
 Delete role.
 
-
-
 </td>
 <td valign="top">
 
 `tableName "xsrole", crudType "DELETE"`
 
 audit.configuration
-
-
 
 </td>
 <td valign="top">
@@ -580,14 +488,10 @@ Other attributes:
 
 Token Embedding
 
-
-
 </td>
 <td valign="top">
 
 Embedding error
-
-
 
 </td>
 <td valign="top">
@@ -596,16 +500,12 @@ Embedding error
 
 audit.security-events
 
-
-
 </td>
 <td valign="top">
 
 Occurs when an error occurs when attempting to exchange a token for a token with an embedded token from Identity Authentication or a corporate identity provider. Check the configuration of the application.
 
 For more information, see [Include Tokens from Corporate Identity Providers or Identity Authentication in Tokens of the SAP Authorization and Trust Management Service](../30-development/include-tokens-from-corporate-identity-providers-or-identity-authentication-in-tokens-of-8dc480a.md).
-
-
 
 </td>
 </tr>
@@ -614,14 +514,10 @@ For more information, see [Include Tokens from Corporate Identity Providers or I
 
 SAML authentication
 
-
-
 </td>
 <td valign="top" rowspan="5">
 
 Authentication error
-
-
 
 </td>
 <td valign="top">
@@ -632,16 +528,12 @@ Authentication error
 
 audit.security-events
 
-
-
 </td>
 <td valign="top">
 
 Occurs when the time skew between SAP Authorization and Trust Management service and the identity provider is larger than 60 seconds. Or the authentication response took more than 60 seconds to reach the SAP Authorization and Trust Management service after being issued.
 
 Check the time skew between the identity provider and SAP Authorization and Trust Management service. Synchronize the clock of the identity provider.
-
-
 
 </td>
 </tr>
@@ -654,14 +546,10 @@ Check the time skew between the identity provider and SAP Authorization and Trus
 
 audit.security-events
 
-
-
 </td>
 <td valign="top">
 
 The user has probably chosen the back button on the browser, triggering a second authentication request to the identity provider with the same user ID. The identity provider issues a second authentication response for the same user ID. SAP Authorization and Trust Management service rejects duplicate responses.
-
-
 
 </td>
 </tr>
@@ -674,16 +562,12 @@ The user has probably chosen the back button on the browser, triggering a second
 
 audit.security-events
 
-
-
 </td>
 <td valign="top">
 
 Occurs when an authentication response from an identity provider takes more than 15 minutes.
 
 If this error occurs consistently, check why the identity provider needs more than 15 minutes to issue an authentication response.
-
-
 
 </td>
 </tr>
@@ -696,14 +580,10 @@ If this error occurs consistently, check why the identity provider needs more th
 
 audit.security-events
 
-
-
 </td>
 <td valign="top">
 
 Occurs when a user attempts to log on or refresh a session for which the authentication request has expired, for example, if this message is preceded by `AuthnRequest expired - ID`.
-
-
 
 </td>
 </tr>
@@ -716,14 +596,10 @@ Occurs when a user attempts to log on or refresh a session for which the authent
 
 audit.security-events
 
-
-
 </td>
 <td valign="top">
 
 Occurs when the certificate used to sign the SAML response isn't valid.
-
-
 
 </td>
 </tr>
@@ -732,16 +608,12 @@ Occurs when the certificate used to sign the SAML response isn't valid.
 
 Authentication success
 
-
-
 </td>
 <td valign="top">
 
 `UserAuthenticationSuccess`
 
 audit.security-events
-
-
 
 </td>
 <td valign="top">
@@ -766,16 +638,12 @@ These entries are in addition to the entries made by the UAA. See the previous s
 
 SAML responses
 
-
-
 </td>
 <td valign="top">
 
 <code>"msgNo":<i class="varname">&lt;index&gt;</i>,"msgId":"<i class="varname">&lt;message_id&gt;</i>",</code>
 
 audit.security-events
-
-
 
 </td>
 <td valign="top">

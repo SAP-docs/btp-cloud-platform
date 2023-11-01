@@ -83,14 +83,10 @@ The following guidelines apply to the configuration of the mandatory properties 
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -99,14 +95,10 @@ Description
 
 Type
 
-
-
 </td>
 <td valign="top">
 
 Only HTTP is supported.
-
-
 
 </td>
 </tr>
@@ -114,8 +106,6 @@ Only HTTP is supported.
 <td valign="top">
 
 Authentication
-
-
 
 </td>
 <td valign="top">
@@ -137,8 +127,6 @@ All authentication types are supported.
 <td valign="top">
 
 ProxyType
-
-
 
 </td>
 <td valign="top">
@@ -173,14 +161,10 @@ The following guidelines apply to the configuration of the additional properties
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -188,8 +172,6 @@ Description
 <td valign="top">
 
 HTML5.ForwardAuthToken
-
-
 
 </td>
 <td valign="top">
@@ -210,8 +192,6 @@ If `true`, the OAuth token is sent to the destination. The default value is `fal
 
 HTML5.Timeout
 
-
-
 </td>
 <td valign="top">
 
@@ -229,16 +209,12 @@ Positive integer representing the maximum time to wait for a response \(in milli
 
 HTML5.PreserveHostHeader
 
-
-
 </td>
 <td valign="top">
 
 If `true`, the application router preserves the host header in the back-end request.
 
 This is expected by some back-end systems like AS ABAP, which don’t process `x-forwarded-*` headers.
-
-
 
 </td>
 </tr>
@@ -247,14 +223,10 @@ This is expected by some back-end systems like AS ABAP, which don’t process `x
 
 HTML5.DynamicDestination
 
-
-
 </td>
 <td valign="top">
 
 If `true`, the application router allows this destination to be used dynamically on the host or path level.
-
-
 
 </td>
 </tr>
@@ -263,14 +235,10 @@ If `true`, the application router allows this destination to be used dynamically
 
 HTML5.SetXForwardedHeaders
 
-
-
 </td>
 <td valign="top">
 
 If true , the application router adds X-Forwarded-\(Host, Path, Proto\) headers to the back-end request. The default value is `true`.
-
-
 
 </td>
 </tr>
@@ -279,16 +247,12 @@ If true , the application router adds X-Forwarded-\(Host, Path, Proto\) headers 
 
 sap-client
 
-
-
 </td>
 <td valign="top">
 
 If `true`, the application router propagates the `sap-client` and its value as a header in the back-end request.
 
 This is expected by ABAP back-end systems.
-
-
 
 </td>
 </tr>
@@ -297,14 +261,10 @@ This is expected by ABAP back-end systems.
 
 HTML5.IASDependencyName
 
-
-
 </td>
 <td valign="top">
 
 Configures the name of the Identity Authentication dependency that is used to exchange the Identity Authentication token used for the user authentication at login. If configured, the exchanged token is then also forwarded to the backend application.
-
-
 
 </td>
 </tr>

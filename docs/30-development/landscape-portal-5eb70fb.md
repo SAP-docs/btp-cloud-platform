@@ -10,7 +10,7 @@
 
 Multitenancy allows providers to host different consumers \(tenants\) on a single shared system. But how do you, as a provider, keep track of all your tenants and systems? This is where the *Landscape Portal* comes in. The *Landscape Portal* acts as a central tool to allow service providers to perform lifecycle management operations such as building and updating product versions, configuring and deploying multitenant SaaS solutions, managing system hibernations, and more. See the current key features of the *Landscape Portal* listed below or learn more about the different apps the *Landscape Portal* has to offer by clicking on the app tiles in the image.
 
-![](images/Imagemap_Landscape_Portal_App_Overview_72bc2b3.png)
+![](images/Landscape_Portal_45b5e7f.png)
 
 
 

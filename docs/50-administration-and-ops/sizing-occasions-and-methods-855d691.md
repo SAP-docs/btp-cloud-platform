@@ -41,21 +41,15 @@ There are different sizing methods that allow you to perform sizing with differe
 
 Sizing Method
 
-
-
 </th>
 <th valign="top">
 
 Advantages
 
-
-
 </th>
 <th valign="top">
 
 Disadvantages
-
-
 
 </th>
 </tr>
@@ -65,8 +59,6 @@ Disadvantages
 Educated guess
 
 \(Rule of thumb\)
-
-
 
 </td>
 <td valign="top">
@@ -97,8 +89,6 @@ T-shirt sizing
 
 \(Predefined application model and categories of workload sizes\)
 
-
-
 </td>
 <td valign="top">
 
@@ -127,8 +117,6 @@ T-shirt sizing
 Expert sizing
 
 \(Manual measurement and creation of sizing formula\)
-
-
 
 </td>
 <td valign="top">

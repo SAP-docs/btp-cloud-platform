@@ -15,14 +15,10 @@ If you update a service instance, you can add, change, and/or delete scopes, att
 
 Security Artifacts in the xs-security.json File
 
-
-
 </th>
 <th valign="top">
 
 Action
-
-
 
 </th>
 </tr>
@@ -30,8 +26,6 @@ Action
 <td valign="top">
 
 Scope
-
-
 
 </td>
 <td valign="top">
@@ -55,8 +49,6 @@ Scope
 <td valign="top">
 
 Attribute
-
-
 
 </td>
 <td valign="top">
@@ -82,8 +74,6 @@ Attribute
 <td valign="top">
 
 Role template
-
-
 
 </td>
 <td valign="top">

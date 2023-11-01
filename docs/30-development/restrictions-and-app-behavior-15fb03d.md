@@ -19,14 +19,10 @@ The*Read/Value Help*restriction type for the Customer Data Browser app consists 
 
 Restriction Field
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -35,16 +31,12 @@ Description
 
 Object Group
 
-
-
 </td>
 <td valign="top">
 
 Logically groups Customer Data Browser objects.
 
 Note that this field is not active.
-
-
 
 </td>
 </tr>
@@ -53,14 +45,10 @@ Note that this field is not active.
 
 Object Name
 
-
-
 </td>
 <td valign="top">
 
 Displays a list of Customer Data Browser objects and their descriptions.
-
-
 
 </td>
 </tr>
@@ -68,8 +56,6 @@ Displays a list of Customer Data Browser objects and their descriptions.
 <td valign="top">
 
 Object Fields
-
-
 
 </td>
 <td valign="top">
@@ -82,16 +68,12 @@ Provides access to the following categories of fields in Customer Data Browser o
 
 Note that the field categories are determined by internal SAP classifications.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Object Records
-
-
 
 </td>
 <td valign="top">
@@ -128,14 +110,10 @@ Refer to the restriction matrix below to understand the expected behavior of the
 
 Restrictions Set By the Administrator
 
-
-
 </th>
 <th valign="top" colspan="5">
 
 Display Behavior in Customer Data Browser App
-
-
 
 </th>
 </tr>
@@ -144,56 +122,40 @@ Display Behavior in Customer Data Browser App
 
 **For Object Name**
 
-
-
 </td>
 <td valign="top">
 
 **For Object Field** 
-
-
 
 </td>
 <td valign="top">
 
 **For Object Record** 
 
-
-
 </td>
 <td valign="top">
 
 **Objects**
-
-
 
 </td>
 <td valign="top">
 
 **CDS Views**
 
-
-
 </td>
 <td valign="top">
 
 **Database Tables**
-
-
 
 </td>
 <td valign="top">
 
 **Fields**
 
-
-
 </td>
 <td valign="top">
 
 **Records**
-
-
 
 </td>
 </tr>
@@ -202,56 +164,40 @@ Display Behavior in Customer Data Browser App
 
 Unrestricted access
 
-
-
 </td>
 <td valign="top">
 
 Unrestricted
 
-
-
 </td>
 <td valign="top">
 
 Unrestricted
-
-
 
 </td>
 <td valign="top">
 
 Displays all objects
 
-
-
 </td>
 <td valign="top">
 
 Displays data that is authorized for the user. Note that the user is explicitly required to obtain the necessary authorizations.
-
-
 
 </td>
 <td valign="top">
 
 No data displayed
 
-
-
 </td>
 <td valign="top">
 
 Displays general \(GE\) and sensitive personal \(SP\) fields
 
-
-
 </td>
 <td valign="top">
 
 Displays records that fulfill access controls \(AC\)
-
-
 
 </td>
 </tr>
@@ -260,56 +206,40 @@ Displays records that fulfill access controls \(AC\)
 
 Restrictions not maintained
 
-
-
 </td>
 <td valign="top">
 
 Restrictions not maintained
 
-
-
 </td>
 <td valign="top">
 
 Restrictions not maintained
-
-
 
 </td>
 <td valign="top">
 
 Displays no objects
 
+</td>
+<td valign="top">
 
+No data displayed
 
 </td>
 <td valign="top">
 
 No data displayed
 
-
-
 </td>
 <td valign="top">
 
 No data displayed
 
-
-
 </td>
 <td valign="top">
 
 No data displayed
-
-
-
-</td>
-<td valign="top">
-
-No data displayed
-
-
 
 </td>
 </tr>
@@ -317,57 +247,41 @@ No data displayed
 <td valign="top">
 
 Restricted access
-
-
 
 </td>
 <td valign="top">
 
 Access to general fields \(GE\)
 
-
-
 </td>
 <td valign="top">
 
 Access to records that fulfill access controls \(AC\)
-
-
 
 </td>
 <td valign="top">
 
 Displays objects with access
 
-
-
 </td>
 <td valign="top">
 
 Displays data that is authorized for the user. Note that the user is explicitly required to obtain the necessary authorizations.
-
-
 
 </td>
 <td valign="top">
 
 No data displayed
 
-
-
 </td>
 <td valign="top">
 
 Displays general fields \(GE\)
 
-
-
 </td>
 <td valign="top">
 
 Displays records that fulfill access controls \(AC\)
-
-
 
 </td>
 </tr>
@@ -375,57 +289,41 @@ Displays records that fulfill access controls \(AC\)
 <td valign="top">
 
 Restricted access
-
-
 
 </td>
 <td valign="top">
 
 Access to sensitive personal fields \(SP\)
 
-
-
 </td>
 <td valign="top">
 
 Access to records that fulfill access controls \(AC\)
-
-
 
 </td>
 <td valign="top">
 
 Displays objects with access
 
-
-
 </td>
 <td valign="top">
 
 Displays data that is authorized for the user. Note that the user is explicitly required to obtain the necessary authorizations.
 
-
-
 </td>
 <td valign="top">
 
 No data displayed
-
-
 
 </td>
 <td valign="top">
 
 Displays sensitive personal fields \(SP\)
 
-
-
 </td>
 <td valign="top">
 
 Displays records that fulfill access controls \(AC\)
-
-
 
 </td>
 </tr>
@@ -433,57 +331,41 @@ Displays records that fulfill access controls \(AC\)
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Access to general \(GE\) and sensitive personal \(SP\) fields
 
-
-
 </td>
 <td valign="top">
 
 Access to records that fulfill access controls \(AC\)
-
-
 
 </td>
 <td valign="top">
 
 Displays objects with access
 
-
-
 </td>
 <td valign="top">
 
 Displays data that is authorized for the user. Note that the user is explicitly required to obtain the necessary authorizations.
-
-
 
 </td>
 <td valign="top">
 
 No data displayed
 
-
-
 </td>
 <td valign="top">
 
 Displays general \(GE\) and sensitive personal \(SP\) fields
 
-
-
 </td>
 <td valign="top">
 
 Displays records that fulfill access controls \(AC\)
-
-
 
 </td>
 </tr>
@@ -492,56 +374,40 @@ Displays records that fulfill access controls \(AC\)
 
  
 
-
-
 </td>
 <td valign="top">
 
 Access to general fields \(GE\)
-
-
 
 </td>
 <td valign="top">
 
 Access to records with bypassed access controls \(OV\)
 
-
-
 </td>
 <td valign="top">
 
 Displays objects with access
 
-
-
 </td>
 <td valign="top">
 
 Displays all data
 
-
-
 </td>
 <td valign="top">
 
 Displays all data
-
-
 
 </td>
 <td valign="top">
 
 Displays general fields \(GE\)
 
-
-
 </td>
 <td valign="top">
 
 Displays all records
-
-
 
 </td>
 </tr>
@@ -550,56 +416,40 @@ Displays all records
 
 Restricted Read Access
 
-
-
 </td>
 <td valign="top">
 
 Access to sensitive personal fields \(SP\)
-
-
 
 </td>
 <td valign="top">
 
 Access to records with bypassed access controls \(OV\)
 
-
-
 </td>
 <td valign="top">
 
 Displays objects with access
 
-
-
 </td>
 <td valign="top">
 
 Displays all data
 
-
-
 </td>
 <td valign="top">
 
 Displays all data
-
-
 
 </td>
 <td valign="top">
 
 Displays sensitive personal fields \(SP\)
 
-
-
 </td>
 <td valign="top">
 
 Displays all records
-
-
 
 </td>
 </tr>
@@ -608,56 +458,40 @@ Displays all records
 
 Restricted access
 
-
-
 </td>
 <td valign="top">
 
 Access to general \(GE\) and sensitive personal \(SP\) fields
-
-
 
 </td>
 <td valign="top">
 
 Access to records with bypassed access controls \(OV\)
 
-
-
 </td>
 <td valign="top">
 
 Displays objects with access
 
-
-
 </td>
 <td valign="top">
 
 Displays all data
 
-
-
 </td>
 <td valign="top">
 
 Displays all data
-
-
 
 </td>
 <td valign="top">
 
 Displays general \(GE\) and sensitive personal \(SP\) fields
 
-
-
 </td>
 <td valign="top">
 
 Displays all records
-
-
 
 </td>
 </tr>
@@ -678,21 +512,15 @@ Displays all records
 
 You can access…
 
-
-
 </th>
 <th valign="top">
 
 If…
 
-
-
 </th>
 <th valign="top">
 
 Even if…
-
-
 
 </th>
 </tr>
@@ -701,21 +529,15 @@ Even if…
 
 Data in CDS views
 
-
-
 </td>
 <td valign="top">
 
 You have the required CDS view-specific access controls
 
-
-
 </td>
 <td valign="top">
 
 You have Customer Data Browser-specific access to bypass access controls \(Object Records: OV\)
-
-
 
 </td>
 </tr>
@@ -724,21 +546,15 @@ You have Customer Data Browser-specific access to bypass access controls \(Objec
 
 Data in database tables
 
-
-
 </td>
 <td valign="top">
 
 You have Customer Data Browser-specific access to bypass access controls \(Object Records: OV\)
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>

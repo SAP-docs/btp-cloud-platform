@@ -13,21 +13,15 @@ First use `GET_INSTANCE` method to create an instance for the interface `IF_CHDO
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -36,21 +30,15 @@ Value Help
 
 RO\_INSTANCE
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Return parameter for instance creation
-
-
 
 </td>
 </tr>
@@ -67,21 +55,15 @@ Method `IF_CHDO_DELETE_TOOLS~CHANGEDOCUMENT_DELETE` deletes the change documents
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -90,21 +72,15 @@ Value Help
 
 I\_OBJECTCLASS
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Name of change document object
-
-
 
 </td>
 </tr>
@@ -113,21 +89,15 @@ Name of change document object
 
 I\_OBJECTID
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Parameter of application objects IDs
-
-
 
 </td>
 </tr>
@@ -136,14 +106,10 @@ Parameter of application objects IDs
 
 I\_UP\_TO\_DATE
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
@@ -152,8 +118,6 @@ Date by which the change documents are to be deleted
 
 All change documents until the specified date are deleted.
 
-
-
 </td>
 </tr>
 <tr>
@@ -161,14 +125,10 @@ All change documents until the specified date are deleted.
 
 I\_CHANGENUMBER
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
@@ -177,8 +137,6 @@ Change Number of Document
 
 If only one specific change document number is to be deleted, it can be transferred here.
 
-
-
 </td>
 </tr>
 <tr>
@@ -186,14 +144,10 @@ If only one specific change document number is to be deleted, it can be transfer
 
 I\_WITH\_COMMIT
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
@@ -202,8 +156,6 @@ Flag whether there should be a `COMMIT WORK` in the method.
 
 The flag determines whether a `COMMIT WORK` should be called in the method. This can be necessary when a lot is to be deleted. In this case the delete operations are divided up to avoid Rollback segment overflow. The division is by clusters, so that no inconsistencies occur in the case of cancellation.
 
-
-
 </td>
 </tr>
 <tr>
@@ -211,14 +163,10 @@ The flag determines whether a `COMMIT WORK` should be called in the method. This
 
 COMMIT\_COUNTER
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
@@ -226,8 +174,6 @@ COMMIT\_COUNTER
 The parameter is only effective when a `COMMIT WORK` should be performed in the method \(see parameter `I_WITH_COMMIT`\).
 
 In the method, as many object change documents are read as are passed in `COMMIT_COUNTER`. These change documents are then deleted, and `COMMIT WORK` called. This procedure is repeated until there are no more change documents for the object before the until date.
-
-
 
 </td>
 </tr>
@@ -242,21 +188,15 @@ In the method, as many object change documents are read as are passed in `COMMIT
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -265,14 +205,10 @@ Value Help
 
 E\_NUMBER\_OF\_DELETED\_HEADERS
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
@@ -281,8 +217,6 @@ Number of deleted change document headers
 
 This parameter contains the number of deleted change document headers
 
-
-
 </td>
 </tr>
 <tr>
@@ -290,14 +224,10 @@ This parameter contains the number of deleted change document headers
 
 E\_NUMBER\_OF\_DELETED\_POSITIONS
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
@@ -306,8 +236,6 @@ Number of deleted change document items
 
 This parameter contains the number of deleted change document items.
 
-
-
 </td>
 </tr>
 <tr>
@@ -315,21 +243,15 @@ This parameter contains the number of deleted change document items.
 
 E\_NUMBER\_OF\_DELETED\_UIDS
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Number of deleted change document item GUIDs
-
-
 
 </td>
 </tr>
@@ -338,14 +260,10 @@ Number of deleted change document item GUIDs
 
 E\_NUMBER\_OF\_DELETED\_STRINGS
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
@@ -353,8 +271,6 @@ E\_NUMBER\_OF\_DELETED\_STRINGS
 Number of deleted change document item STRINGs
 
 This parameter contains the number of deleted change document items with STRINGs.
-
-
 
 </td>
 </tr>

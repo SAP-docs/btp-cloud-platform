@@ -13,21 +13,15 @@ Use the `CREATE` method to create number range intervals.
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -36,44 +30,32 @@ Value Help
 
 INTERVAL
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Interval Table
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 SUBOBJECT
 
-
-
 </td>
 <td valign="top">
 
 Number Range Object Sub-object Value
-
-
 
 </td>
 </tr>
@@ -81,22 +63,16 @@ Number Range Object Sub-object Value
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 NRRANGENR
 
-
-
 </td>
 <td valign="top">
 
 Number Range Number
-
-
 
 </td>
 </tr>
@@ -104,22 +80,16 @@ Number Range Number
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 TOYEAR
 
-
-
 </td>
 <td valign="top">
 
 To Fiscal Year
-
-
 
 </td>
 </tr>
@@ -127,22 +97,16 @@ To Fiscal Year
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 FROMNUMBER
 
-
-
 </td>
 <td valign="top">
 
 From Number
-
-
 
 </td>
 </tr>
@@ -150,22 +114,16 @@ From Number
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 TONUMBER
 
-
-
 </td>
 <td valign="top">
 
 To Number
-
-
 
 </td>
 </tr>
@@ -173,22 +131,16 @@ To Number
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 NRLEVEL
 
-
-
 </td>
 <td valign="top">
 
 Number Range Level
-
-
 
 </td>
 </tr>
@@ -196,22 +148,16 @@ Number Range Level
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 EXTERNIND
 
-
-
 </td>
 <td valign="top">
 
 Internal \(' '\) or external \('X'\) number range flag
-
-
 
 </td>
 </tr>
@@ -220,21 +166,15 @@ Internal \(' '\) or external \('X'\) number range flag
 
  
 
-
-
 </td>
 <td valign="top">
 
 PROCIND
 
-
-
 </td>
 <td valign="top">
 
 Processing flag \(I=Insert, D=Delete, U=Update,' '=no changes\)
-
-
 
 </td>
 </tr>
@@ -243,21 +183,15 @@ Processing flag \(I=Insert, D=Delete, U=Update,' '=no changes\)
 
 OBJECT
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Number Range Object
-
-
 
 </td>
 </tr>
@@ -266,21 +200,15 @@ Number Range Object
 
 SUBOBJECT
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Sub-object
-
-
 
 </td>
 </tr>
@@ -295,21 +223,15 @@ Sub-object
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -318,21 +240,15 @@ Value Help
 
 ERROR
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Flag showing that an error occurred during testing
-
-
 
 </td>
 </tr>
@@ -341,44 +257,32 @@ Flag showing that an error occurred during testing
 
 ERROR\_INF
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Error Information
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 MSGNR
 
-
-
 </td>
 <td valign="top">
 
 Message Number
-
-
 
 </td>
 </tr>
@@ -386,22 +290,16 @@ Message Number
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 TABLENAME
 
-
-
 </td>
 <td valign="top">
 
 Parameter Name
-
-
 
 </td>
 </tr>
@@ -409,22 +307,16 @@ Parameter Name
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 FIELDNAME
 
-
-
 </td>
 <td valign="top">
 
 Field Name
-
-
 
 </td>
 </tr>
@@ -433,21 +325,15 @@ Field Name
 
  
 
-
-
 </td>
 <td valign="top">
 
 TABIX
 
-
-
 </td>
 <td valign="top">
 
 Index of Row with Error
-
-
 
 </td>
 </tr>
@@ -456,44 +342,32 @@ Index of Row with Error
 
 ERROR\_IV
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Intervals with errors
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 SUBOBJECT
 
-
-
 </td>
 <td valign="top">
 
 Number range object subobject value
-
-
 
 </td>
 </tr>
@@ -501,22 +375,16 @@ Number range object subobject value
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 NRRANGENR
 
-
-
 </td>
 <td valign="top">
 
 Number range number
-
-
 
 </td>
 </tr>
@@ -524,22 +392,16 @@ Number range number
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 TOYEAR
 
-
-
 </td>
 <td valign="top">
 
 To fiscal year
-
-
 
 </td>
 </tr>
@@ -547,22 +409,16 @@ To fiscal year
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 FROMNUMBER
 
-
-
 </td>
 <td valign="top">
 
 From number
-
-
 
 </td>
 </tr>
@@ -570,22 +426,16 @@ From number
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 TONUMBER
 
-
-
 </td>
 <td valign="top">
 
 To number
-
-
 
 </td>
 </tr>
@@ -593,22 +443,16 @@ To number
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 NRLEVEL
 
-
-
 </td>
 <td valign="top">
 
 Number range level
-
-
 
 </td>
 </tr>
@@ -616,22 +460,16 @@ Number range level
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 EXTERNIND
 
-
-
 </td>
 <td valign="top">
 
 Internal \(' '\) or external \('X'\) number range flag
-
-
 
 </td>
 </tr>
@@ -640,21 +478,15 @@ Internal \(' '\) or external \('X'\) number range flag
 
  
 
-
-
 </td>
 <td valign="top">
 
 PROCIND
 
-
-
 </td>
 <td valign="top">
 
 Processing flag \(I=Insert, D=Delete, U=Update,' '=no changes\)
-
-
 
 </td>
 </tr>
@@ -663,21 +495,15 @@ Processing flag \(I=Insert, D=Delete, U=Update,' '=no changes\)
 
 WARNING
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Flag: Warning after check?
-
-
 
 </td>
 </tr>

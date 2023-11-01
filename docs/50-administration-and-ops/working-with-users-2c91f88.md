@@ -44,14 +44,10 @@ SAP BTP creates a copy of the user in the global account or in the subaccount wh
 
 Use Case
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -60,16 +56,12 @@ Description
 
 Enable a new hire to log on to the subaccount and have access to necessary resources.
 
-
-
 </td>
 <td valign="top">
 
 If automatic creation of shadow users was switched off for this identity provider, shadow users aren't created automatically in the subaccount \(see the related link\). This means that the new user can't log on to the subaccount. As an administrator, create a shadow user that corresponds to the user in the identity provider and assign the necessary role collections to this user.
 
 See [Create Users](create-users-a3bc7e8.md).
-
-
 
 </td>
 </tr>
@@ -80,16 +72,12 @@ If automatic creation of shadow users was switched off for this identity provide
 
 See [Assign User Groups to Role Collections](assign-user-groups-to-role-collections-9562d9d.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Enable a new hire to have access to necessary resources.
-
-
 
 </td>
 <td valign="top">
@@ -98,8 +86,6 @@ A shadow user is automatically created in the subaccount. This means that the ne
 
 See [Assign Users to Role Collections](assign-users-to-role-collections-c576676.md).
 
-
-
 </td>
 </tr>
 <tr>
@@ -107,16 +93,12 @@ See [Assign Users to Role Collections](assign-users-to-role-collections-c576676.
 
 Enable a new hire to log on.
 
-
-
 </td>
 <td valign="top">
 
 If automatic creation of shadow users was switched off for this identity provider, shadow users aren't created automatically in the subaccount \(see the related link\). As an administrator, create a new shadow user in the subaccount.
 
 See [Create Users](create-users-a3bc7e8.md).
-
-
 
 </td>
 </tr>
@@ -127,16 +109,12 @@ If your subaccount uses the default trust configuration, you can also create a s
 
 See [Add Users from SAP ID Service for Multi-Environment Subaccounts](add-users-from-sap-id-service-for-multi-environment-subaccounts-760ab77.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Review authorizations of individual users.
-
-
 
 </td>
 <td valign="top">
@@ -145,16 +123,12 @@ You want to find out which authorizations have been granted to users. To do so, 
 
 See [Find Users and Their Role Collection Assignments](find-users-and-their-role-collection-assignments-870533e.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Delete users of employees who have left the company.
-
-
 
 </td>
 <td valign="top">
@@ -165,16 +139,12 @@ How to find users, see [Find Inactive Users](find-inactive-users-90380a6.md).
 
 How to delete users, see [Delete Users](delete-users-51000c2.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Find users who have never logged on.
-
-
 
 </td>
 <td valign="top">
@@ -183,8 +153,6 @@ You want to find users who never logged on. For example, they could be manually 
 
 See [Delete Users](delete-users-51000c2.md).
 
-
-
 </td>
 </tr>
 <tr>
@@ -192,16 +160,12 @@ See [Delete Users](delete-users-51000c2.md).
 
 Delete shadows user to comply with data protection and privacy regulations.
 
-
-
 </td>
 <td valign="top">
 
 For data protection and privacy reasons, administrators might be legallly obliged to delete shadow users who belonged to employees who left the company. You can find and delete the shadow users in the SAP BTP cockpit.
 
 See [Delete Users](delete-users-51000c2.md).
-
-
 
 </td>
 </tr>
@@ -211,8 +175,6 @@ See [Delete Users](delete-users-51000c2.md).
 You can also delete the users using APIs.
 
 See [Delete Shadow Users for Data Protection and Privacy Using APIs](../60-security/delete-shadow-users-for-data-protection-and-privacy-using-apis-eb70f16.md).
-
-
 
 </td>
 </tr>

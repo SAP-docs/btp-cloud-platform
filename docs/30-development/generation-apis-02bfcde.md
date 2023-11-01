@@ -67,35 +67,25 @@ The matrix below shows which kinds of operations are supported for which object 
 
  
 
-
-
 </th>
 <th valign="top">
 
 PUT
-
-
 
 </th>
 <th valign="top">
 
 POST
 
-
-
 </th>
 <th valign="top">
 
 PATCH
 
-
-
 </th>
 <th valign="top">
 
 DELETE
-
-
 
 </th>
 </tr>
@@ -104,35 +94,25 @@ DELETE
 
 BDEF
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 </tr>
@@ -141,35 +121,25 @@ X
 
 CLAS
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 X
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 </tr>
@@ -178,35 +148,25 @@ X
 
 DCLS
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 </tr>
@@ -215,35 +175,25 @@ X
 
 DDLS
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 </tr>
@@ -252,35 +202,25 @@ X
 
 DDLX
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 </tr>
@@ -289,35 +229,25 @@ X
 
 DEVC
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 </tr>
@@ -326,35 +256,25 @@ X
 
 DOMA
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 X
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 </tr>
@@ -363,35 +283,25 @@ X
 
 DRTY
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 </tr>
@@ -400,35 +310,25 @@ X
 
 DTEL
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 X
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 </tr>
@@ -437,35 +337,25 @@ X
 
 EVTB
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 X
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 </tr>
@@ -474,35 +364,25 @@ X
 
 FUGR
 
-
-
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+X
 
 </td>
 <td valign="top">
 
 X
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
-
-</td>
-<td valign="top">
-
-X
-
-
 
 </td>
 </tr>
@@ -511,35 +391,25 @@ X
 
 INTF
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 X
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 </tr>
@@ -548,35 +418,25 @@ X
 
 MSAG
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 X
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 </tr>
@@ -585,35 +445,25 @@ X
 
 NONT
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 X
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 </tr>
@@ -622,35 +472,25 @@ X
 
 RONT
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 X
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 </tr>
@@ -659,35 +499,25 @@ X
 
 SRVB
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 </tr>
@@ -696,35 +526,25 @@ X
 
 SRVD
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 </tr>
@@ -733,35 +553,25 @@ X
 
 TABL
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 </tr>
@@ -770,35 +580,25 @@ X
 
 TTYP
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 </tr>
@@ -807,35 +607,25 @@ X
 
 XSLT
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 X
-
-
 
 </td>
 </tr>

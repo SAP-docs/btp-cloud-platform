@@ -4,7 +4,25 @@
 
 In this section, you can find information for audit log functionalities in the Cloud Foundry environment.
 
-SAP Audit Log is a core, security, and compliance-based SAP BTP service to provide means for audit purposes. The default and advanced capabilities of Audit Log Service are available for SAP BTP Applications and Services. The advanced features enable you to comply with the SAP Product Standards and Business Industry regulations you're subject to. To enable the advanced features, you need to enable the Premium edition service plan, where additional costs are applied based on the consumed volumes.
+SAP Audit Log is a core, security, and compliance-based SAP BTP service to provide means for audit purposes. The following features of Audit Log Service are available for SAP BTP Applications and Services:
+
+-   With the default features, you have:
+
+    -   Written compliance audit data from SAP BTP services and applications, through oAuth2 service plan.
+    -   Audit data securely stored for a default retention time of 90 days with no additional costs applied.
+
+    -   Retrieval of audit data within the default retention period ensured as part of the Auditlog Management Service.
+
+
+-   With the advanced features you can:
+
+    -   Write audit data from your owned BTP applications.
+
+    -   Configure the retention period.
+
+
+
+The advanced features enable you to comply with the SAP Product Standards and Business Industry regulations you're subject to. To enable the advanced features, you need to enable the premium edition service plan, where additional costs are applied based on the consumed volumes.
 
 Audit logs are a special type of logs. They represent security-relevant chronological records that provide documentary evidence for an event or activity. The following table gives you a better understanding what is the difference between audit logs, activity logs, and application logs. The SAP Audit Log service only stores audit logs written by SAP BTP services, when you take action over your account data.
 

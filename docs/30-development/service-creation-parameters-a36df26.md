@@ -22,21 +22,15 @@ The deploy service supports the following methods for the specification of servi
 
 Method A
 
-
-
 </th>
 <th valign="top">
 
 Method B
 
-
-
 </th>
 <th valign="top">
 
 Combination of the two methods
-
-
 
 </th>
 </tr>

@@ -24,21 +24,15 @@ With the ABAP type, you can control the mapping between XSD and ABAP types. The 
 
 Node name
 
-
-
 </th>
 <th valign="top">
 
 Technical Type
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -47,21 +41,15 @@ Description
 
 `abap:prefix`
 
-
-
 </td>
 <td valign="top">
 
 Up to 20 characters, case insensitive
 
-
-
 </td>
 <td valign="top">
 
 ABAP prefix \(only used if the object is represented by an ABAP object such as `CLAS`, `INTF`, `TABL`, `DTEL`\)
-
-
 
 </td>
 </tr>
@@ -70,21 +58,15 @@ ABAP prefix \(only used if the object is represented by an ABAP object such as `
 
 `abap:name`
 
-
-
 </td>
 <td valign="top">
 
 Up to 30 characters, case insensitive
 
-
-
 </td>
 <td valign="top">
 
 ABAP name
-
-
 
 </td>
 </tr>
@@ -93,21 +75,15 @@ ABAP name
 
 `abap:type`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 Default or set ABAP type
-
-
 
 </td>
 </tr>
@@ -116,21 +92,15 @@ Default or set ABAP type
 
 `abap:availableTypes`
 
-
-
 </td>
 <td valign="top">
 
 Comma-separated list of 30 characters
 
-
-
 </td>
 <td valign="top">
 
 List of all available ABAP types
-
-
 
 </td>
 </tr>
@@ -139,21 +109,15 @@ List of all available ABAP types
 
 `abap:description`
 
-
-
 </td>
 <td valign="top">
 
 Up to 60 characters
 
-
-
 </td>
 <td valign="top">
 
 Description
-
-
 
 </td>
 </tr>
@@ -162,21 +126,15 @@ Description
 
 `abap:prefixT`
 
-
-
 </td>
 <td valign="top">
 
 See `abap:prefix`
 
-
-
 </td>
 <td valign="top">
 
 Prefix for corresponding table type \(if `maxOccurs` \> 1 and additional table type is generated and a prefix is required\)
-
-
 
 </td>
 </tr>
@@ -185,21 +143,15 @@ Prefix for corresponding table type \(if `maxOccurs` \> 1 and additional table t
 
 `abap:nameT`
 
-
-
 </td>
 <td valign="top">
 
 See `abap:name`
 
-
-
 </td>
 <td valign="top">
 
 Name for corresponding table type \(if `maxOccurs` \> 1 and additional table type is generated\)
-
-
 
 </td>
 </tr>
@@ -208,21 +160,15 @@ Name for corresponding table type \(if `maxOccurs` \> 1 and additional table typ
 
 `abap:descriptionT`
 
-
-
 </td>
 <td valign="top">
 
 See `abap:description`
 
-
-
 </td>
 <td valign="top">
 
 Description for corresponding table type \(if maxOccurs \> 1 and additional table type is generated\)
-
-
 
 </td>
 </tr>

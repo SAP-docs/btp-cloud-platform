@@ -11,35 +11,25 @@ Describes the service plans for the SAP Cloud Management service for SAP BTP and
 
 Service Display Name
 
-
-
 </th>
 <th valign="top">
 
 Technical Name
-
-
 
 </th>
 <th valign="top">
 
 Service Plan
 
-
-
 </th>
 <th valign="top">
 
 Scopes
 
-
-
 </th>
 <th valign="top">
 
 Additional Configuration Parameters
-
-
 
 </th>
 </tr>
@@ -48,21 +38,15 @@ Additional Configuration Parameters
 
 Cloud Management Service
 
-
-
 </td>
 <td valign="top" rowspan="2">
 
 `cis`
 
-
-
 </td>
 <td valign="top">
 
 **`central`:** Service plan for using SAP Cloud Management service APIs to manage your global accounts, subaccounts, directories, and entitlements.
-
-
 
 </td>
 <td valign="top">
@@ -98,8 +82,6 @@ Cloud Management Service
 
 For more information, see [Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md).
 
-
-
 </td>
 </tr>
 <tr>
@@ -107,14 +89,10 @@ For more information, see [Getting an Access Token for SAP Cloud Management Serv
 
 Cloud Management Service
 
-
-
 </td>
 <td valign="top">
 
 **`local`:** Service plan for using SAP Cloud Management service APIs to manage your environments and subscriptions to multitenant applications.
-
-
 
 </td>
 <td valign="top">
@@ -136,8 +114,6 @@ Cloud Management Service
 
 `grantType`: Choose whether to get a Client Credentials or Password grant type token when using the SAP Service Manager API, CLI, or the SAP BTP cockpit to create the service instance of the SAP Cloud Management service \(`cis`\). If you don't specify this parameter, the Password grant type is chosen by default. For more information, see [Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md).
 
-
-
 </td>
 </tr>
 <tr>
@@ -145,21 +121,15 @@ Cloud Management Service
 
 SaaS Provisioning Service
 
-
-
 </td>
 <td valign="top">
 
 `saas-registry`
 
-
-
 </td>
 <td valign="top">
 
 **`application`:** Service plan for application owners to manage the lifecycle of multitenant applications with SAP Software-as-a-Service Provisioning service APIs.
-
-
 
 </td>
 <td valign="top">
@@ -175,8 +145,6 @@ SaaS Provisioning Service
 <td valign="top">
 
 See configuration JSON file properties in [Register the Multitenant Application to the SAP SaaS Provisioning Service](../30-development/register-the-multitenant-application-to-the-sap-saas-provisioning-service-3971151.md).
-
-
 
 </td>
 </tr>

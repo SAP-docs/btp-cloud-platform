@@ -31,15 +31,11 @@ Each released client version is supported for at least a year. If a client is de
     <th valign="top">
 
     Operating System
-
-
     
     </th>
     <th valign="top">
 
     Link to latest version
-
-
     
     </th>
     </tr>
@@ -47,15 +43,11 @@ Each released client version is supported for at least a year. If a client is de
     <td valign="top">
     
     Microsoft Windows
-
-
     
     </td>
     <td valign="top">
     
     [amd64](https://tools.hana.ondemand.com/additional/btp-cli-windows-amd64-latest.tar.gz) 
-
-
     
     </td>
     </tr>
@@ -63,15 +55,11 @@ Each released client version is supported for at least a year. If a client is de
     <td valign="top">
     
     Apple macOS
-
-
     
     </td>
     <td valign="top">
     
     [amd64](https://tools.hana.ondemand.com/additional/btp-cli-darwin-amd64-latest.tar.gz) | [arm64](https://tools.hana.ondemand.com/additional/btp-cli-darwin-arm64-latest.tar.gz) 
-
-
     
     </td>
     </tr>
@@ -79,15 +67,11 @@ Each released client version is supported for at least a year. If a client is de
     <td valign="top">
     
     Linux
-
-
     
     </td>
     <td valign="top">
     
     [amd64](https://tools.hana.ondemand.com/additional/btp-cli-linux-amd64-latest.tar.gz) | [arm64](https://tools.hana.ondemand.com/additional/btp-cli-linux-arm64-latest.tar.gz) 
-
-
     
     </td>
     </tr>
@@ -117,7 +101,7 @@ Each released client version is supported for at least a year. If a client is de
 
 5.  Run `btp` in your terminal. Note that you need read and write permissions in the target folder to run this executable.
 
-6.  Log in to your global account with `btp login` or `btp login --sso`. The login flow is interactive and will prompt for all required information. Note that you need to confirm the btp CLI server url \(`https://cpcli.cf.eu10.hana.ondemand.com`\) and, if you have more than one, select your global account. For details, see [Log in](log-in-e241b30.md).
+6.  Log in to your global account with `btp login` or `btp login --sso`. The login flow is interactive and will prompt for all required information. Note that you need to confirm the btp CLI server url \(`https://cli.btp.cloud.sap/`\) and, if you have more than one, select your global account. For details, see [Log in](log-in-e241b30.md).
 
 7.  Once you're logged in, familiarize yourself with the btp CLI, for example with [How to Work with the btp CLI](how-to-work-with-the-btp-cli-11d9f67.md), [Command Syntax of the btp CLI](command-syntax-of-the-btp-cli-69606f4.md), or simply by trying out a few commands, such as the following:
 

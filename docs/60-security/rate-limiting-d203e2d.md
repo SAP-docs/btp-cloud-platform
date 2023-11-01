@@ -30,14 +30,10 @@ To protect the SAP Authorization and Trust Management service from overload of m
 > 
 > Element
 > 
-> 
-> 
 > </th>
 > <th valign="top">
 > 
 > Maximum Size
-> 
-> 
 > 
 > </th>
 > </tr>
@@ -46,14 +42,10 @@ To protect the SAP Authorization and Trust Management service from overload of m
 > 
 > HTTP header
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 > 16 KB
-> 
-> 
 > 
 > </td>
 > </tr>
@@ -62,14 +54,10 @@ To protect the SAP Authorization and Trust Management service from overload of m
 > 
 > POST body
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 > 1 MB
-> 
-> 
 > 
 > </td>
 > </tr>
@@ -92,22 +80,16 @@ The token endpoint enables you to authenticate with OAuth 2.0.
 
 Endpoint
 
-
-
 </th>
 <th valign="top">
 
 Subaccount Limit
-
-
 
 </th>
 <th valign="top">
 
 Effect
 
-
-
 </th>
 </tr>
 <tr>
@@ -115,21 +97,15 @@ Effect
 
 <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
 
-
-
 </td>
 <td valign="top">
 
 Up to 60 requests per second
 
-
-
 </td>
 <td valign="top">
 
 The requests are executed at once.
-
-
 
 </td>
 </tr>
@@ -138,21 +114,15 @@ The requests are executed at once.
 
 <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
 
-
-
 </td>
 <td valign="top">
 
 Exceeding 60 requests per second
 
-
-
 </td>
 <td valign="top">
 
 The requests are queued and then executed.
-
-
 
 </td>
 </tr>
@@ -161,21 +131,15 @@ The requests are queued and then executed.
 
 <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
 
-
-
 </td>
 <td valign="top">
 
 Significantly exceeding 60 requests per second
 
-
-
 </td>
 <td valign="top">
 
 An `HTTP 429 Too Many Requests` response status code is sent.
-
-
 
 </td>
 </tr>
@@ -183,22 +147,16 @@ An `HTTP 429 Too Many Requests` response status code is sent.
 <td valign="top">
 
 <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.cert.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
-
-
 
 </td>
 <td valign="top">
 
 Up to 60 requests per second
 
-
-
 </td>
 <td valign="top">
 
 The requests are executed at once.
-
-
 
 </td>
 </tr>
@@ -206,22 +164,16 @@ The requests are executed at once.
 <td valign="top">
 
 <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.cert.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
-
-
 
 </td>
 <td valign="top">
 
 Exceeding 60 requests per second
 
-
-
 </td>
 <td valign="top">
 
 The requests are queued and then executed.
-
-
 
 </td>
 </tr>
@@ -230,21 +182,15 @@ The requests are queued and then executed.
 
 <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentication.cert.<i class="varname">&lt;landscape&gt;</i>/oauth/token</code> 
 
-
-
 </td>
 <td valign="top">
 
 Significantly exceeding 60 requests per second
 
-
-
 </td>
 <td valign="top">
 
 An `HTTP 429 Too Many Requests` response status code is sent.
-
-
 
 </td>
 </tr>
@@ -267,22 +213,16 @@ The authorization, security settings, and identity provider management APIs enab
 
 Endpoint
 
-
-
 </th>
 <th valign="top">
 
 Subaccount Limit
-
-
 
 </th>
 <th valign="top">
 
 Effect
 
-
-
 </th>
 </tr>
 <tr>
@@ -292,21 +232,15 @@ Effect
 
 \(Including all APIs with subpaths, for example `sap/rest/authorization/v2/apps`\)
 
-
-
 </td>
 <td valign="top">
 
 Up to 30 requests per second
 
-
-
 </td>
 <td valign="top">
 
 The requests are executed at once.
-
-
 
 </td>
 </tr>
@@ -317,21 +251,15 @@ The requests are executed at once.
 
 \(Including all APIs with subpaths, for example `sap/rest/authorization/v2/apps`\)
 
-
-
 </td>
 <td valign="top">
 
 Exceeding 30 requests per second
 
-
-
 </td>
 <td valign="top">
 
 The requests are queued and then executed.
-
-
 
 </td>
 </tr>
@@ -342,21 +270,15 @@ The requests are queued and then executed.
 
 \(Including all APIs with subpaths, for example `sap/rest/authorization/v2/apps`\)
 
-
-
 </td>
 <td valign="top">
 
 Significantly exceeding 30 requests per second
 
-
-
 </td>
 <td valign="top">
 
 An `HTTP 429 Too Many Requests` response status code is sent.
-
-
 
 </td>
 </tr>
@@ -366,22 +288,16 @@ An `HTTP 429 Too Many Requests` response status code is sent.
 <code>https://api.authentication.<i class="varname">&lt;landscape&gt;</i>/sap/rest/identity-providers</code>
 
 \(Including all APIs with subpaths, for example `sap/rest/identity-providers/{id}`\)
-
-
 
 </td>
 <td valign="top">
 
 Up to 30 requests per second
 
-
-
 </td>
 <td valign="top">
 
 The requests are executed at once.
-
-
 
 </td>
 </tr>
@@ -391,22 +307,16 @@ The requests are executed at once.
 <code>https://api.authentication.<i class="varname">&lt;landscape&gt;</i>/sap/rest/identity-providers</code>
 
 \(Including all APIs with subpaths, for example `sap/rest/identity-providers/{id}`\)
-
-
 
 </td>
 <td valign="top">
 
 Exceeding 30 requests per second
 
-
-
 </td>
 <td valign="top">
 
 The requests are queued and then executed.
-
-
 
 </td>
 </tr>
@@ -417,21 +327,15 @@ The requests are queued and then executed.
 
 \(Including all APIs with subpaths, for example `sap/rest/identity-providers/{id}`\)
 
-
-
 </td>
 <td valign="top">
 
 Significantly exceeding 30 requests per second
 
-
-
 </td>
 <td valign="top">
 
 An `HTTP 429 Too Many Requests` response status code is sent.
-
-
 
 </td>
 </tr>
@@ -454,22 +358,16 @@ The user management \(SCIM\) APIs enable you to manage shadow users and role col
 
 Endpoint
 
-
-
 </th>
 <th valign="top">
 
 Subaccount Limit
-
-
 
 </th>
 <th valign="top">
 
 Effect
 
-
-
 </th>
 </tr>
 <tr>
@@ -479,21 +377,15 @@ Effect
 
 \(Including all APIs with subpaths, for example `sap/rest/groups/{id}`\)
 
-
-
 </td>
 <td valign="top">
 
 Up to 3 requests per second
 
-
-
 </td>
 <td valign="top">
 
 The requests are executed at once.
-
-
 
 </td>
 </tr>
@@ -504,21 +396,15 @@ The requests are executed at once.
 
 \(Including all APIs with subpaths, for example `sap/rest/groups/{id}`\)
 
-
-
 </td>
 <td valign="top">
 
 Exceeding 3 requests per second
 
-
-
 </td>
 <td valign="top">
 
 The requests are queued and then executed.
-
-
 
 </td>
 </tr>
@@ -529,21 +415,15 @@ The requests are queued and then executed.
 
 \(Including all APIs with subpaths, for example `sap/rest/groups/{id}`\)
 
-
-
 </td>
 <td valign="top">
 
 Significantly exceeding 3 requests per second
 
-
-
 </td>
 <td valign="top">
 
 An `HTTP 429 Too Many Requests` response status code is sent.
-
-
 
 </td>
 </tr>
@@ -553,22 +433,16 @@ An `HTTP 429 Too Many Requests` response status code is sent.
 <code>https://api.authentication.<i class="varname">&lt;landscape&gt;</i>/users</code>
 
 \(Including all APIs with subpaths, for example `sap/rest/users/{id}`\)
-
-
 
 </td>
 <td valign="top">
 
 Up to 3 requests per second
 
-
-
 </td>
 <td valign="top">
 
 The requests are executed at once.
-
-
 
 </td>
 </tr>
@@ -578,22 +452,16 @@ The requests are executed at once.
 <code>https://api.authentication.<i class="varname">&lt;landscape&gt;</i>/users</code>
 
 \(Including all APIs with subpaths, for example `sap/rest/users/{id}`\)
-
-
 
 </td>
 <td valign="top">
 
 Exceeding 3 requests per second
 
-
-
 </td>
 <td valign="top">
 
 The requests are queued and then executed.
-
-
 
 </td>
 </tr>
@@ -604,21 +472,15 @@ The requests are queued and then executed.
 
 \(Including all APIs with subpaths, for example `sap/rest/users/{id}`\)
 
-
-
 </td>
 <td valign="top">
 
 Significantly exceeding 3 requests per second
 
-
-
 </td>
 <td valign="top">
 
 An `HTTP 429 Too Many Requests` response status code is sent.
-
-
 
 </td>
 </tr>

@@ -9,28 +9,20 @@
 
 User
 
-
-
 </th>
 <th valign="top">
 
 Role
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Tasks/Usage
-
-
 
 </th>
 </tr>
@@ -39,21 +31,15 @@ Tasks/Usage
 
 Provider
 
-
-
 </td>
 <td valign="top">
 
 Add-On Administrator
 
-
-
 </td>
 <td valign="top">
 
 The add-on administrator is responsible for everything related to the add-on production, for example, releasing an add-on product version.
-
-
 
 </td>
 <td valign="top">
@@ -86,14 +72,10 @@ The add-on administrator is responsible for everything related to the add-on pro
 
 DevOps Engineer
 
-
-
 </td>
 <td valign="top">
 
 The DevOps engineer is responsible for the configuration of the pipeline and implementation of the multitenant application that needs to be deployed to enable the add-on as a SaaS solution.
-
-
 
 </td>
 <td valign="top">
@@ -117,14 +99,10 @@ The DevOps engineer is responsible for the configuration of the pipeline and imp
 
 Developer
 
-
-
 </td>
 <td valign="top">
 
 Developer users use ABAP Development Tools \(ADT\) to create backend service artifacts and UI developers create and deploy SAP Fiori apps in SAP Business Application Studio. See [What is SAP Business Application Studio](https://help.sap.com/viewer/9d1db9835307451daa8c930fbd9ab264/Cloud/en-US/8f46c6e6f86641cc900871c903761fd4.html).
-
-
 
 </td>
 <td valign="top">
@@ -145,14 +123,10 @@ Developer users use ABAP Development Tools \(ADT\) to create backend service art
 
 Test User
 
-
-
 </td>
 <td valign="top">
 
 Test users are business users in test systems TST and QAS that validate the correct implementation of the add-on. This involves, among others, maintaining business roles and communication arrangements delivered as part of the add-on.
-
-
 
 </td>
 <td valign="top">
@@ -178,14 +152,10 @@ Test users are business users in test systems TST and QAS that validate the corr
 
 Provider Identity Authentication Administrator
 
-
-
 </td>
 <td valign="top">
 
 An Identity Authentication service tenant can be configured for authentication in development/test/assembly systems. The Identity Authentication administrator configures the trust setup between the subaccount and Identity Authentication application. See [SAP Cloud Identity Services - Identity Authentication](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
-
-
 
 </td>
 <td valign="top">
@@ -204,14 +174,10 @@ An Identity Authentication service tenant can be configured for authentication i
 
 Operator
 
-
-
 </td>
 <td valign="top">
 
 The SaaS solution operator is responsible for creating the account model on the provider side \(creating consumer subaccounts\), adding subaccount members etc.
-
-
 
 </td>
 <td valign="top">
@@ -227,7 +193,7 @@ The SaaS solution operator is responsible for creating the account model on the 
     -   Tester users in TST/QAS systems
 
 
--   Add-on update of existing systems in the Update Product Version app. See [Update Product Version](update-product-version-32c4f7d.md).
+-   Add-on update of existing systems in the Update Product Version app. See [Deploy Product](deploy-product-32c4f7d.md).
 
 -   Monitoring of system/tenant provisioning and user onboarding. See [Operations Dashboard](operations-dashboard-0a3a735.md).
 
@@ -246,14 +212,10 @@ The SaaS solution operator is responsible for creating the account model on the 
 
 Jenkins Administrator
 
-
-
 </td>
 <td valign="top">
 
 A Jenkins CI/CD server is used as the infrastructure for automation purposes. Pipeline configuration, user management, credentials management etc. is handled by the Jenkins administrator. See [Continuous Integration and Delivery \(CI/CD\)](../10-concepts/continuous-integration-and-delivery-ci-cd-fe74df5.md).
-
-
 
 </td>
 <td valign="top">
@@ -283,14 +245,10 @@ A Jenkins CI/CD server is used as the infrastructure for automation purposes. Pi
 
 S-User
 
-
-
 </td>
 <td valign="top">
 
 S-users are used by partners and customers to log on to SAP ONE Support Launchpad to reserve development namespaces or to create technical communication users. User management is taken care of by user administrators in the *User Management* app. If customer numbers are assigned to a Partner ID, S-users are registered via PartnerEdge. See [User Management](https://support.sap.com/content/dam/support/en_us/library/ssp/my-support/help-for-sap-support-applications/online_help-user_management.html) and SAP note [2261006](https://me.sap.com/notes/2261006).
-
-
 
 </td>
 <td valign="top">
@@ -310,21 +268,15 @@ S-users are used by partners and customers to log on to SAP ONE Support Launchpa
 
 Technical Users of Provider
 
-
-
 </td>
 <td valign="top">
 
 Technical Cloud Foundry Platform User
 
-
-
 </td>
 <td valign="top">
 
 A platform user is added as a member to subaccounts in the Cloud Foundry environment to create or delete ABAP service instances, create service keys etc. This user should be a non-personalized user, for example based on a distribution list. The user does not need authorizations in SAP ONE Support Launchpad. The user does not need authorizations in SAP ONE Support Launchpad. Platform users are created by default in SAP ID Service. See [User and Member Management](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/cc1c676b43904066abb2a4838cbd0c37.html) and [Default Identity Provider](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/d6a8db70bdde459f92f2837349f95090.html).
-
-
 
 </td>
 <td valign="top">
@@ -347,14 +299,10 @@ A platform user is added as a member to subaccounts in the Cloud Foundry environ
 
 Service User Git
 
-
-
 </td>
 <td valign="top">
 
 Jenkins pipeline definitions are source-code-based and stored in a source code repository, usually a Git repository. To retrieve the pipeline definition from the repository, a \(technical\) service user is configured.
-
-
 
 </td>
 <td valign="top">
@@ -373,21 +321,15 @@ Jenkins pipeline definitions are source-code-based and stored in a source code r
 
 Technical Communication User
 
-
-
 </td>
 <td valign="top">
 
 A technical communication user \(created via SAP ONE Support Launchpad\) is used for system-to-system connections with the SAP Support backbone. For information on how technical communication users are different from S-users, see SAP note [2668288](https://me.sap.com/notes/2668288).
 
-
-
 </td>
 <td valign="top">
 
 Used for communication with the AAKaaS. See [Add-on Assembly Kit as a Service \(=AAKaaS\)](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#add-on-assembly-kit-as-a-service-aakaas).
-
-
 
 </td>
 </tr>
@@ -396,21 +338,15 @@ Used for communication with the AAKaaS. See [Add-on Assembly Kit as a Service \(
 
 Consumer
 
-
-
 </td>
 <td valign="top">
 
 Consumer Identity Authentication Administrator
 
-
-
 </td>
 <td valign="top">
 
 An Identity Authentication Service tenant can be configured for authentication at consumer tenants in the productive ABAP systems. The Identity Authentication admin configures the trust setup between consumer subaccount and Identity Authentication application. See [Identity Authentication Service](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
-
-
 
 </td>
 <td valign="top">
@@ -428,8 +364,6 @@ An Identity Authentication Service tenant can be configured for authentication a
 <td valign="top">
 
 Consumer Subaccount Administrator
-
-
 
 </td>
 <td valign="top">
@@ -461,14 +395,10 @@ The consumer subaccount administrator is responsible for the configuration of:
 
 Business User
 
-
-
 </td>
 <td valign="top">
 
 Business users make use of the SaaS solution in the consumer tenant for their daily work.
-
-
 
 </td>
 <td valign="top">
@@ -496,14 +426,10 @@ Business users make use of the SaaS solution in the consumer tenant for their da
 
 Cloud Connector Administrator
 
-
-
 </td>
 <td valign="top">
 
 To connect on-premise systems on the customer side to the consumer tenant with the SaaS solution, Cloud Connector can be configured in the consumer subaccount. The Cloud Connector administrator maintains the consumer subaccount, cloud-to-on-premise system mappings etc. See [Cloud Connector](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e6c7616abb5710148cfcf3e75d96d596.html#loioe6c7616abb5710148cfcf3e75d96d596__context).
-
-
 
 </td>
 <td valign="top">

@@ -36,15 +36,11 @@ The first start of the application occurs when you deploy the app, if enough quo
     <th valign="top">
 
     Page
-
-
     
     </th>
     <th valign="top">
 
     Actions
-
-
     
     </th>
     </tr>
@@ -52,8 +48,6 @@ The first start of the application occurs when you deploy the app, if enough quo
     <td valign="top">
     
     *Applications* page
-
-
     
     </td>
     <td valign="top">
@@ -78,8 +72,6 @@ The first start of the application occurs when you deploy the app, if enough quo
     <td valign="top">
     
     *Overview* page of your application
-
-
     
     </td>
     <td valign="top">

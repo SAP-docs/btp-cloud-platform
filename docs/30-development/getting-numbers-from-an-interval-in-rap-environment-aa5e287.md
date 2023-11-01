@@ -27,14 +27,10 @@ Use the NUMBER\_GET\_MAIN\_MEMORY method to determine the next number of a numbe
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -43,14 +39,10 @@ Value Help
 
 IV\_OBJECT
 
-
-
 </td>
 <td valign="top">
 
 Number Range Object
-
-
 
 </td>
 </tr>
@@ -59,14 +51,10 @@ Number Range Object
 
 IV\_SUBOBJECT
 
-
-
 </td>
 <td valign="top">
 
 Sub-object
-
-
 
 </td>
 </tr>
@@ -75,14 +63,10 @@ Sub-object
 
 IV\_INTERVAL
 
-
-
 </td>
 <td valign="top">
 
 Interval Number
-
-
 
 </td>
 </tr>
@@ -91,14 +75,10 @@ Interval Number
 
 IV\_QUANTITY
 
-
-
 </td>
 <td valign="top">
 
 Number of Numbers in Buffer
-
-
 
 </td>
 </tr>
@@ -107,14 +87,10 @@ Number of Numbers in Buffer
 
 IV\_TOYEAR
 
-
-
 </td>
 <td valign="top">
 
 To Fiscal Year
-
-
 
 </td>
 </tr>
@@ -129,14 +105,10 @@ To Fiscal Year
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -145,14 +117,10 @@ Value Help
 
 EV\_NUMBER
 
-
-
 </td>
 <td valign="top">
 
 Returned Number
-
-
 
 </td>
 </tr>
@@ -161,14 +129,10 @@ Returned Number
 
 EV\_RETURNCODE
 
-
-
 </td>
 <td valign="top">
 
 Return Code
-
-
 
 </td>
 </tr>
@@ -177,14 +141,10 @@ Return Code
 
 EV\_RETURNED\_QUANTITY
 
-
-
 </td>
 <td valign="top">
 
 Number of Returned Numbers
-
-
 
 </td>
 </tr>
@@ -225,14 +185,10 @@ Use NUMBER\_GET\_PARALLEL method to determine the next number of a number range 
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -241,14 +197,10 @@ Value Help
 
 IV\_OBJECT
 
-
-
 </td>
 <td valign="top">
 
 Number Range Object
-
-
 
 </td>
 </tr>
@@ -257,14 +209,10 @@ Number Range Object
 
 IV\_SUBOBJECT
 
-
-
 </td>
 <td valign="top">
 
 Sub-object
-
-
 
 </td>
 </tr>
@@ -273,14 +221,10 @@ Sub-object
 
 IV\_INTERVAL
 
-
-
 </td>
 <td valign="top">
 
 Interval Number
-
-
 
 </td>
 </tr>
@@ -289,14 +233,10 @@ Interval Number
 
 IV\_QUANTITY
 
-
-
 </td>
 <td valign="top">
 
 Number of Numbers in Buffer
-
-
 
 </td>
 </tr>
@@ -305,14 +245,10 @@ Number of Numbers in Buffer
 
 IV\_TOYEAR
 
-
-
 </td>
 <td valign="top">
 
 To Fiscal Year
-
-
 
 </td>
 </tr>
@@ -327,14 +263,10 @@ To Fiscal Year
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -343,14 +275,10 @@ Value Help
 
 EV\_NUMBER
 
-
-
 </td>
 <td valign="top">
 
 Returned Number
-
-
 
 </td>
 </tr>
@@ -359,14 +287,10 @@ Returned Number
 
 EV\_RETURNCODE
 
-
-
 </td>
 <td valign="top">
 
 Return Code
-
-
 
 </td>
 </tr>
@@ -406,14 +330,10 @@ Use the NUMBER\_GET\_NO\_BUFFER method to determine the next number of a number 
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -422,14 +342,10 @@ Value Help
 
 EV\_NUMBER
 
-
-
 </td>
 <td valign="top">
 
 Returned Number
-
-
 
 </td>
 </tr>
@@ -438,14 +354,10 @@ Returned Number
 
 EV\_RETURNCODE
 
-
-
 </td>
 <td valign="top">
 
 Return Code
-
-
 
 </td>
 </tr>
@@ -454,14 +366,10 @@ Return Code
 
 EV\_RETURNED\_QUANTITY
 
-
-
 </td>
 <td valign="top">
 
 Number of Returned Numbers
-
-
 
 </td>
 </tr>

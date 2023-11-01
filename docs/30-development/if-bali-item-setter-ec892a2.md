@@ -23,14 +23,10 @@ If a new item, such as a message or an exception, is added to an application log
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -38,8 +34,6 @@ Description
 <td valign="top">
 
 CATEGORY
-
-
 
 </td>
 <td valign="top">
@@ -76,14 +70,10 @@ Check whether the item can pass an item filter:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -92,8 +82,6 @@ Description
 
 **Importing parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -101,14 +89,10 @@ Description
 
 ITEM\_FILTER
 
-
-
 </td>
 <td valign="top">
 
 Reference to the item filter that is being checked
-
-
 
 </td>
 </tr>
@@ -117,8 +101,6 @@ Reference to the item filter that is being checked
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -126,14 +108,10 @@ Reference to the item filter that is being checked
 
 FILTER\_PASSED
 
-
-
 </td>
 <td valign="top">
 
 If set, the item can pass the item filter
-
-
 
 </td>
 </tr>

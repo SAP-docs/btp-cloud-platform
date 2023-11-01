@@ -25,28 +25,20 @@ A test case description for the business process *Creating a new travel request*
 
 Step ID
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Input Fields
 
-
-
 </th>
 <th valign="top">
 
 Input Values
-
-
 
 </th>
 </tr>
@@ -55,8 +47,6 @@ Input Values
 
 **Preparation Steps \(Not Measured\)**
 
-
-
 </td>
 </tr>
 <tr>
@@ -64,14 +54,10 @@ Input Values
 
 SystemLogon
 
-
-
 </td>
 <td valign="top">
 
 Link to SAP Fiori launchpad
-
-
 
 </td>
 <td valign="top">
@@ -80,14 +66,10 @@ User
 
 Password
 
-
-
 </td>
 <td valign="top">
 
 *<tester name\>*, *<tester password\>*
-
-
 
 </td>
 </tr>
@@ -96,8 +78,6 @@ Password
 
 **Test Case \(Measured\)**
 
-
-
 </td>
 </tr>
 <tr>
@@ -105,28 +85,20 @@ Password
 
 OpenApp
 
-
-
 </td>
 <td valign="top">
 
 Open the travel management app from the launchpad \(or using the Fiori Elements preview\).
 
-
-
 </td>
 <td valign="top">
 
 \--
 
-
-
 </td>
 <td valign="top">
 
 \--
-
-
 
 </td>
 </tr>
@@ -135,28 +107,20 @@ Open the travel management app from the launchpad \(or using the Fiori Elements 
 
 CreateTravel\_1a
 
-
-
 </td>
 <td valign="top">
 
 Choose *Create* from the table toolbar of the travel overview.
 
-
-
 </td>
 <td valign="top">
 
 \--
 
-
-
 </td>
 <td valign="top">
 
 \--
-
-
 
 </td>
 </tr>
@@ -164,8 +128,6 @@ Choose *Create* from the table toolbar of the travel overview.
 <td valign="top">
 
 CreateTravel\_1b
-
-
 
 </td>
 <td valign="top">
@@ -184,14 +146,10 @@ CreateTravel\_1b
 
 Customer ID
 
-
-
 </td>
 <td valign="top">
 
 *<arbitrary, using search help\>*
-
-
 
 </td>
 </tr>
@@ -199,8 +157,6 @@ Customer ID
 <td valign="top">
 
 CreateTravel\_1c
-
-
 
 </td>
 <td valign="top">
@@ -219,14 +175,10 @@ CreateTravel\_1c
 
 Agency ID
 
-
-
 </td>
 <td valign="top">
 
 *<arbitrary, using search help\>*
-
-
 
 </td>
 </tr>
@@ -234,8 +186,6 @@ Agency ID
 <td valign="top">
 
 CreateTravel\_1d
-
-
 
 </td>
 <td valign="top">
@@ -254,14 +204,10 @@ CreateTravel\_1d
 
 Currency
 
-
-
 </td>
 <td valign="top">
 
 EUR
-
-
 
 </td>
 </tr>
@@ -270,14 +216,10 @@ EUR
 
 CreateTravel\_1e
 
-
-
 </td>
 <td valign="top">
 
 Enter the remaining input and choose *Save*.
-
-
 
 </td>
 <td valign="top">
@@ -294,8 +236,6 @@ Status
 
 Description
 
-
-
 </td>
 <td valign="top">
 
@@ -311,16 +251,12 @@ O
 
 *<optional\>*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top" colspan="4">
 
 **Cleanup Steps \(Not Measured\)**
-
-
 
 </td>
 </tr>
@@ -329,28 +265,20 @@ O
 
 DeleteTravel
 
-
-
 </td>
 <td valign="top">
 
 Delete the created travel from either the travel overview or the travel details.
 
-
-
 </td>
 <td valign="top">
 
 \--
 
-
-
 </td>
 <td valign="top">
 
 \--
-
-
 
 </td>
 </tr>

@@ -23,21 +23,15 @@ Technical name: `CommUserCommArrangements`
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Necessity
-
-
 
 </th>
 </tr>
@@ -46,21 +40,15 @@ Necessity
 
 UserID
 
-
-
 </td>
 <td valign="top">
 
 User ID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -69,21 +57,15 @@ Mandatory \(Key\)
 
 CommunicationArrangementUUID
 
-
-
 </td>
 <td valign="top">
 
 Communication arrangement UUID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -92,21 +74,15 @@ Mandatory \(Key\)
 
 CommunicationArrangementName
 
-
-
 </td>
 <td valign="top">
 
 Communication arrangement name
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -115,21 +91,15 @@ Optional
 
 CommunicationSystemID
 
-
-
 </td>
 <td valign="top">
 
 Communication system ID
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -138,21 +108,15 @@ Optional
 
 CommunicationScenarioID
 
-
-
 </td>
 <td valign="top">
 
 Communication scenario ID
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>

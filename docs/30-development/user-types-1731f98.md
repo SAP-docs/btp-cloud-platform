@@ -19,35 +19,25 @@ In the ABAP environment, there are different types of users such as business use
 
  
 
-
-
 </td>
 <td valign="top">
 
 **Business User**
-
-
 
 </td>
 <td valign="top">
 
 **Communication User**
 
-
-
 </td>
 <td valign="top">
 
 **SAP Support User**
 
-
-
 </td>
 <td valign="top">
 
 **Provider Support User**
-
-
 
 </td>
 </tr>
@@ -56,35 +46,25 @@ In the ABAP environment, there are different types of users such as business use
 
 **Owner**
 
-
-
 </td>
 <td valign="top">
 
 Customer
 
-
-
 </td>
 <td valign="top">
 
 Customer
-
-
 
 </td>
 <td valign="top">
 
 SAP
 
-
-
 </td>
 <td valign="top">
 
 Provider
-
-
 
 </td>
 </tr>
@@ -93,35 +73,25 @@ Provider
 
 **Purpose**
 
-
-
 </td>
 <td valign="top">
 
 Accessing business applications \(SAP Fiori Applications\) and using ABAP Development Tools
-
-
 
 </td>
 <td valign="top">
 
 System to system communication
 
-
-
 </td>
 <td valign="top">
 
 Analyzing and troubleshooting
 
-
-
 </td>
 <td valign="top">
 
 Analyzing and troubleshooting consumer tenants
-
-
 
 </td>
 </tr>
@@ -130,35 +100,25 @@ Analyzing and troubleshooting consumer tenants
 
 **Authentication**
 
-
-
 </td>
 <td valign="top">
 
 Identity Provider
 
+</td>
+<td valign="top">
 
+Local
 
 </td>
 <td valign="top">
 
 Local
 
-
-
 </td>
 <td valign="top">
 
 Local
-
-
-
-</td>
-<td valign="top">
-
-Local
-
-
 
 </td>
 </tr>
@@ -167,35 +127,25 @@ Local
 
 **Authorization**
 
-
-
 </td>
 <td valign="top">
 
 Business Role
-
-
 
 </td>
 <td valign="top">
 
 Communication Scenario Role
 
-
-
 </td>
 <td valign="top">
 
 Support Role
 
-
-
 </td>
 <td valign="top">
 
 Access to Identity and Access Management and Communication Management apps
-
-
 
 </td>
 </tr>
@@ -204,35 +154,25 @@ Access to Identity and Access Management and Communication Management apps
 
 **User ID**
 
-
-
 </td>
 <td valign="top">
 
 CB\*
-
-
 
 </td>
 <td valign="top">
 
 CC\*
 
-
-
 </td>
 <td valign="top">
 
 \_SAP\*
 
-
-
 </td>
 <td valign="top">
 
 PS\*
-
-
 
 </td>
 </tr>
@@ -241,35 +181,25 @@ PS\*
 
 **Access**
 
-
-
 </td>
 <td valign="top">
 
 `<host>.abap-web.<region>...`
-
-
 
 </td>
 <td valign="top">
 
 `<host>.abap.<region>...`
 
-
-
 </td>
 <td valign="top">
 
 `<host>.abap-support.<region>...`
 
-
-
 </td>
 <td valign="top">
 
 <host\>.abap-provider-web.<region\>
-
-
 
 </td>
 </tr>

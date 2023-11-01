@@ -21,21 +21,15 @@ General considerations:
 
  
 
-
-
 </th>
 <th valign="top">
 
 User Locking
 
-
-
 </th>
 <th valign="top">
 
 Read-Only + Write Developer Role
-
-
 
 </th>
 </tr>
@@ -44,21 +38,15 @@ Read-Only + Write Developer Role
 
 How-to Details
 
-
-
 </td>
 <td valign="top">
 
 Unlock user on demand
 
-
-
 </td>
 <td valign="top">
 
 Assign write role on demand
-
-
 
 </td>
 </tr>
@@ -67,14 +55,10 @@ Assign write role on demand
 
 Pros
 
-
-
 </td>
 <td valign="top">
 
 No additional role needed
-
-
 
 </td>
 <td valign="top">
@@ -85,8 +69,6 @@ No logon with different user for read access needed
 
 User-specific auditing
 
-
-
 </td>
 </tr>
 <tr>
@@ -94,21 +76,15 @@ User-specific auditing
 
 Cons
 
-
-
 </td>
 <td valign="top">
 
 Generic read user needed if you want to provide read access
 
-
-
 </td>
 <td valign="top">
 
 Additional role needed
-
-
 
 </td>
 </tr>
@@ -142,35 +118,25 @@ This process can also be used for deferrable corrections, which do not need to r
 
 Step
 
-
-
 </th>
 <th valign="top">
 
 System
-
-
 
 </th>
 <th valign="top">
 
 Role
 
-
-
 </th>
 <th valign="top">
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Tool
-
-
 
 </th>
 </tr>
@@ -179,35 +145,25 @@ Tool
 
 0
 
-
-
 </td>
 <td valign="top" rowspan="2">
 
 DEV
-
-
 
 </td>
 <td valign="top" rowspan="2">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 At Go Live only: create a software component of type *Development* and, if required, a software component of type *Business Configuration*. Pull the software component\(s\) into the system.
 
-
-
 </td>
 <td valign="top">
 
 *Manage Software Components* app
-
-
 
 </td>
 </tr>
@@ -216,14 +172,10 @@ At Go Live only: create a software component of type *Development* and, if requi
 
 If required, create a customizing transport request and create tasks for the relevant business configuration expert\(s\)
 
-
-
 </td>
 <td valign="top">
 
 *Export Customizing Transports* app
-
-
 
 </td>
 </tr>
@@ -232,35 +184,25 @@ If required, create a customizing transport request and create tasks for the rel
 
 1a
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Developer
 
-
-
 </td>
 <td valign="top">
 
 Develop a new functionality or a deferrable correction. All changes are collected in Workbench transport requests
 
-
-
 </td>
 <td valign="top">
 
 ABAP Development Tools for Eclipse
-
-
 
 </td>
 </tr>
@@ -269,35 +211,25 @@ ABAP Development Tools for Eclipse
 
 1b
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Business Configuration Expert
 
-
-
 </td>
 <td valign="top">
 
 Maintain business configuration. All changes are collected in customizing transport requests
 
-
-
 </td>
 <td valign="top">
 
 *Maintain Business Configurations* app
-
-
 
 </td>
 </tr>
@@ -306,35 +238,25 @@ Maintain business configuration. All changes are collected in customizing transp
 
 2
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Developer
 
-
-
 </td>
 <td valign="top">
 
 Once development is finished, release the transport request\(s\). The changes are now in the main branch
 
-
-
 </td>
 <td valign="top">
 
 ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing Transports* app
-
-
 
 </td>
 </tr>
@@ -343,35 +265,25 @@ ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing T
 
 3
 
-
-
 </td>
 <td valign="top">
 
 TST
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Pull the software component\(s\) into system TST
 
-
-
 </td>
 <td valign="top">
 
 *Manage Software Components* app
-
-
 
 </td>
 </tr>
@@ -380,28 +292,20 @@ Pull the software component\(s\) into system TST
 
 4
 
-
-
 </td>
 <td valign="top">
 
 TST
-
-
 
 </td>
 <td valign="top">
 
 Tester
 
-
-
 </td>
 <td valign="top">
 
 Test the change and report the test result
-
-
 
 </td>
 <td valign="top">
@@ -410,8 +314,6 @@ ABAP Development Tools for Eclipse and custom SAP Fiori apps as well as external
 
 External documentation tool
 
-
-
 </td>
 </tr>
 <tr>
@@ -419,35 +321,25 @@ External documentation tool
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 If changes are required, repeat steps 1-4
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -456,35 +348,25 @@ If changes are required, repeat steps 1-4
 
 5
 
-
-
 </td>
 <td valign="top">
 
 QAS or any other
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Cutoff: at cutoff date, create a release branch YYYY-<nn+1\> for each software component \(at Go Live: YYYY-01\) \(release candidate\)
 
-
-
 </td>
 <td valign="top">
 
 *Manage Software Components* app
-
-
 
 </td>
 </tr>
@@ -493,35 +375,25 @@ Cutoff: at cutoff date, create a release branch YYYY-<nn+1\> for each software c
 
 6
 
-
-
 </td>
 <td valign="top">
 
 QAS
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Check out the release branch YYYY-<nn+1\> of each software component \(at Go Live: YYYY-01\) into system QAS
 
-
-
 </td>
 <td valign="top">
 
 *Manage Software Components* app
-
-
 
 </td>
 </tr>
@@ -530,28 +402,20 @@ Check out the release branch YYYY-<nn+1\> of each software component \(at Go Liv
 
 7
 
-
-
 </td>
 <td valign="top">
 
 QAS
-
-
 
 </td>
 <td valign="top">
 
 Tester
 
-
-
 </td>
 <td valign="top">
 
 Test the release candidate and report the test result
-
-
 
 </td>
 <td valign="top">
@@ -560,8 +424,6 @@ ABAP Development Tools for Eclipse with ADT and custom SAP Fiori apps as well as
 
 External documentation tool
 
-
-
 </td>
 </tr>
 <tr>
@@ -569,35 +431,25 @@ External documentation tool
 
 8
 
-
-
 </td>
 <td valign="top">
 
 COR
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Check out the branch YYYY-<nn+1\> of each software component \(at Go Live: YYYY-01\) into system COR
 
-
-
 </td>
 <td valign="top">
 
 *Manage Software Components* app
-
-
 
 </td>
 </tr>
@@ -606,35 +458,25 @@ Check out the branch YYYY-<nn+1\> of each software component \(at Go Live: YYYY-
 
 9
 
-
-
 </td>
 <td valign="top" rowspan="2">
 
 COR
-
-
 
 </td>
 <td valign="top" rowspan="2">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Enable the respective development users for development in system COR, depending on the process you decided for, either by unlocking or assigning a different role
 
-
-
 </td>
 <td valign="top">
 
 *Maintain Business Users* app
-
-
 
 </td>
 </tr>
@@ -643,14 +485,10 @@ Enable the respective development users for development in system COR, depending
 
 If required, create a customizing transport request and create tasks for the relevant business configuration expert\(s\)
 
-
-
 </td>
 <td valign="top">
 
 *Export Customizing Transports* app
-
-
 
 </td>
 </tr>
@@ -659,35 +497,25 @@ If required, create a customizing transport request and create tasks for the rel
 
 10a
 
-
-
 </td>
 <td valign="top">
 
 COR
-
-
 
 </td>
 <td valign="top">
 
 Developer
 
-
-
 </td>
 <td valign="top">
 
 Implement development-related corrections
 
-
-
 </td>
 <td valign="top">
 
 ABAP Development Tools for Eclipse
-
-
 
 </td>
 </tr>
@@ -696,35 +524,25 @@ ABAP Development Tools for Eclipse
 
 10b
 
-
-
 </td>
 <td valign="top">
 
 COR
-
-
 
 </td>
 <td valign="top">
 
 Business Configuration Expert
 
-
-
 </td>
 <td valign="top">
 
 Implement corrections to business configuration content
 
-
-
 </td>
 <td valign="top">
 
 *Maintain Business Configurations* app
-
-
 
 </td>
 </tr>
@@ -733,35 +551,25 @@ Implement corrections to business configuration content
 
 11
 
-
-
 </td>
 <td valign="top">
 
 COR
-
-
 
 </td>
 <td valign="top">
 
 Developer
 
-
-
 </td>
 <td valign="top">
 
 Release the development transport request\(s\). The changes are now in the release candidate.
 
-
-
 </td>
 <td valign="top">
 
 ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing Transports* app
-
-
 
 </td>
 </tr>
@@ -770,35 +578,25 @@ ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing T
 
 12
 
-
-
 </td>
 <td valign="top">
 
 QAS
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Pull the software component\(s\) to get the correction into the already checked out release branch YYYY-<nn+1\> \(@Go Live: YYYY-01\)
 
-
-
 </td>
 <td valign="top">
 
 *Manage Software Components* app
-
-
 
 </td>
 </tr>
@@ -807,28 +605,20 @@ Pull the software component\(s\) to get the correction into the already checked 
 
 13
 
-
-
 </td>
 <td valign="top">
 
 QAS
-
-
 
 </td>
 <td valign="top">
 
 Tester
 
-
-
 </td>
 <td valign="top">
 
 Test the change and report the test result
-
-
 
 </td>
 <td valign="top">
@@ -837,8 +627,6 @@ ABAP Development Tools for Eclipse and custom SAP Fiori apps as well as external
 
 External documentation tool
 
-
-
 </td>
 </tr>
 <tr>
@@ -846,35 +634,25 @@ External documentation tool
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 If changes are required, repeat steps 11-13
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -883,35 +661,25 @@ If changes are required, repeat steps 11-13
 
 14
 
-
-
 </td>
 <td valign="top">
 
 QAS
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Release decision: the changes are successfully tested and approved
 
-
-
 </td>
 <td valign="top">
 
 External documentation tool
-
-
 
 </td>
 </tr>
@@ -920,35 +688,25 @@ External documentation tool
 
 15
 
-
-
 </td>
 <td valign="top">
 
 PRD
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Check out the release branch YYYY-<nn+1\> of each software component \(at GoLive: YYYY-01\) into system PRD
 
-
-
 </td>
 <td valign="top">
 
 *Manage Software Components* app
-
-
 
 </td>
 </tr>
@@ -957,35 +715,25 @@ Check out the release branch YYYY-<nn+1\> of each software component \(at GoLive
 
 16
 
-
-
 </td>
 <td valign="top">
 
 COR
-
-
 
 </td>
 <td valign="top" rowspan="2">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Disable the respective development users for development in system COR
 
-
-
 </td>
 <td valign="top">
 
 *Maintain Business Users* app
-
-
 
 </td>
 </tr>
@@ -994,21 +742,15 @@ Disable the respective development users for development in system COR
 
 DEV
 
-
-
 </td>
 <td valign="top">
 
 If required, create a customizing transport request for the double maintenance of the correction, and create tasks for the relevant business configuration expert\(s\)
 
-
-
 </td>
 <td valign="top">
 
 *Export Customizing Transports* app
-
-
 
 </td>
 </tr>
@@ -1017,35 +759,25 @@ If required, create a customizing transport request for the double maintenance o
 
 17a
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Developer
 
-
-
 </td>
 <td valign="top">
 
 Perform double maintenance of your development-related corrections in the main branch
 
-
-
 </td>
 <td valign="top">
 
 ABAP Development Tools for Eclipse
-
-
 
 </td>
 </tr>
@@ -1054,35 +786,25 @@ ABAP Development Tools for Eclipse
 
 17b
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Business Configuration Expert
 
-
-
 </td>
 <td valign="top">
 
 Perform double maintenance of your business configuration corrections in the main branch
 
-
-
 </td>
 <td valign="top">
 
 *Maintain Business Configurations* app
-
-
 
 </td>
 </tr>
@@ -1091,35 +813,25 @@ Perform double maintenance of your business configuration corrections in the mai
 
 17c
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Release the transport request\(s\). The corrections are now implemented both in the main branch and in the current release branch.
 
-
-
 </td>
 <td valign="top">
 
 ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing Transports* app
-
-
 
 </td>
 </tr>
@@ -1128,35 +840,25 @@ ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing T
 
 18
 
-
-
 </td>
 <td valign="top">
 
 TST
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Pull the software component\(s\) to get the correction into the already checked out main branch
 
-
-
 </td>
 <td valign="top">
 
 *Manage Software Components* app
-
-
 
 </td>
 </tr>
@@ -1195,35 +897,25 @@ This process is a subset of the previous development process and can be applied 
 
 Step
 
-
-
 </th>
 <th valign="top">
 
 System
-
-
 
 </th>
 <th valign="top">
 
 Role
 
-
-
 </th>
 <th valign="top">
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Tool
-
-
 
 </th>
 </tr>
@@ -1232,35 +924,25 @@ Tool
 
 1
 
-
-
 </td>
 <td valign="top" rowspan="2">
 
 COR
-
-
 
 </td>
 <td valign="top" rowspan="2">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Enable the respective development users for development in system COR, depending on the process you decided for, either by unlocking or assigning a different role.
 
-
-
 </td>
 <td valign="top">
 
 *Maintain Business Users* app
-
-
 
 </td>
 </tr>
@@ -1269,14 +951,10 @@ Enable the respective development users for development in system COR, depending
 
 If required, create a customizing transport request, and create tasks for the relevant Business Configuration Expert\(s\)
 
-
-
 </td>
 <td valign="top">
 
 *Export Customizing Transports* app
-
-
 
 </td>
 </tr>
@@ -1285,35 +963,25 @@ If required, create a customizing transport request, and create tasks for the re
 
 2a
 
-
-
 </td>
 <td valign="top">
 
 COR
-
-
 
 </td>
 <td valign="top">
 
 Developer
 
-
-
 </td>
 <td valign="top">
 
 Create a Workbench transport request and implement the correction
 
-
-
 </td>
 <td valign="top">
 
 ABAP Development Tools for Eclipse
-
-
 
 </td>
 </tr>
@@ -1322,35 +990,25 @@ ABAP Development Tools for Eclipse
 
 2b
 
-
-
 </td>
 <td valign="top">
 
 COR
-
-
 
 </td>
 <td valign="top">
 
 Business Configuration Expert
 
-
-
 </td>
 <td valign="top">
 
 Maintain business configuration. All changes are collected in customizing transport requests
 
-
-
 </td>
 <td valign="top">
 
 *Maintain Business Configurations* app
-
-
 
 </td>
 </tr>
@@ -1359,35 +1017,25 @@ Maintain business configuration. All changes are collected in customizing transp
 
 3
 
-
-
 </td>
 <td valign="top">
 
 COR
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Release the transport request\(s\). The changes are now in the release candidate
 
-
-
 </td>
 <td valign="top">
 
 ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing Transports* app
-
-
 
 </td>
 </tr>
@@ -1396,35 +1044,25 @@ ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing T
 
 4
 
-
-
 </td>
 <td valign="top">
 
 QAS
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Pull the already checked out branch YYYY-<nn+1\> of each software component into system QAS
 
-
-
 </td>
 <td valign="top">
 
 *Manage Software Components* app or external tool calling the pull service of communication scenario `Test Integration`
-
-
 
 </td>
 </tr>
@@ -1433,28 +1071,20 @@ Pull the already checked out branch YYYY-<nn+1\> of each software component into
 
 5
 
-
-
 </td>
 <td valign="top">
 
 QAS
-
-
 
 </td>
 <td valign="top">
 
 Tester
 
-
-
 </td>
 <td valign="top">
 
 Test the change and report the test result
-
-
 
 </td>
 <td valign="top">
@@ -1463,8 +1093,6 @@ ABAP Development Tools for Eclipse and custom SAP Fiori apps as well as external
 
 External documentation tool
 
-
-
 </td>
 </tr>
 <tr>
@@ -1472,35 +1100,25 @@ External documentation tool
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 If changes are required, repeat steps 2-5
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1509,35 +1127,25 @@ If changes are required, repeat steps 2-5
 
 6
 
-
-
 </td>
 <td valign="top">
 
 QAS
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 As the correction was successfully tested before it gets approved now.
 
-
-
 </td>
 <td valign="top">
 
 External documentation tool
-
-
 
 </td>
 </tr>
@@ -1546,35 +1154,25 @@ External documentation tool
 
 7
 
-
-
 </td>
 <td valign="top">
 
 PRD
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Pull the already checked out release branch YYYY-<nn+1\> of each software component into system PRD
 
-
-
 </td>
 <td valign="top">
 
 *Manage Software Components* app
-
-
 
 </td>
 </tr>
@@ -1583,35 +1181,25 @@ Pull the already checked out release branch YYYY-<nn+1\> of each software compon
 
 8
 
-
-
 </td>
 <td valign="top">
 
 COR
-
-
 
 </td>
 <td valign="top" rowspan="2">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Disable the respective development users for development in system COR
 
-
-
 </td>
 <td valign="top">
 
 *Maintain Business Users* app
-
-
 
 </td>
 </tr>
@@ -1620,21 +1208,15 @@ Disable the respective development users for development in system COR
 
 DEV
 
-
-
 </td>
 <td valign="top">
 
 If required, create a customizing transport request for the double maintenance of the corrections, and create tasks for the relevant business configuration expert\(s\)
 
-
-
 </td>
 <td valign="top">
 
 *Export Customizing Transports* app
-
-
 
 </td>
 </tr>
@@ -1643,35 +1225,25 @@ If required, create a customizing transport request for the double maintenance o
 
 9a
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Developer
 
-
-
 </td>
 <td valign="top">
 
 Perform double maintenance of your development-related corrections in the main branch
 
-
-
 </td>
 <td valign="top">
 
 ABAP Development Tools for Eclipse
-
-
 
 </td>
 </tr>
@@ -1680,35 +1252,25 @@ ABAP Development Tools for Eclipse
 
 9b
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Business Configuration Expert
 
-
-
 </td>
 <td valign="top">
 
 Perform double maintenance of your business configuration corrections in the main branch
 
-
-
 </td>
 <td valign="top">
 
 *Maintain Business Configurations* app
-
-
 
 </td>
 </tr>
@@ -1717,35 +1279,25 @@ Perform double maintenance of your business configuration corrections in the mai
 
 9c
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Release the transport request\(s\). The corrections are now implemented both in the main branch and in the current release branch.
 
-
-
 </td>
 <td valign="top">
 
 ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing Transports* app
-
-
 
 </td>
 </tr>
@@ -1754,35 +1306,25 @@ ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing T
 
 10
 
-
-
 </td>
 <td valign="top">
 
 TST
-
-
 
 </td>
 <td valign="top">
 
 Release Manager
 
-
-
 </td>
 <td valign="top">
 
 Pull the software component to get correction into already checked out main branch
 
-
-
 </td>
 <td valign="top">
 
 *Manage Software Components* app
-
-
 
 </td>
 </tr>

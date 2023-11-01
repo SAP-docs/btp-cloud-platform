@@ -219,6 +219,9 @@ Supported request parameters:
 
 -   `handle` – in case the result set is too large, it's chunked, and a handle is returned for reading the next chunk. The handle is returned as a Response Header in the form: Paging: `handle=<value>`. Then you can provide `handle=<value>` as a request parameter in the subsequent retrieval request.
 
+    > ### Note:  
+    > The `handle` parameter is a base 64 encoded string. Don't attempt to decode it. Send the `handle` in the subsequent request exactly as received in the previous one, without any modification.
+
 
 
 
@@ -246,9 +249,7 @@ Execute the following HTTP GET request:
 
 Execute the following HTTP GET request:
 
-`<url_from_service_key>/auditlog/v2/auditlogrecords?handle=2018-06-14T10:11:18.968<4f932695-8616-4e1f-ac9a-1cdfb758f01d<2018-06-14T10:11:00.000`
-
-`<url_from_service_key>/auditlog/v2/auditlogrecords?handle=<handle value>`
+`<url_from_service_key>/auditlog/v2/auditlogrecords?time_from=2018-05-10T10:42:00&time_to=2018-05-11T10:46:00&handle= <handle value>`
 
 Response codes:
 

@@ -19,21 +19,15 @@ Use method `CREATE` to create a unit of measurement. For customer units, the nam
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -42,21 +36,15 @@ Value Help
 
 UNIT\_DIMID
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Dimension key
-
-
 
 </td>
 </tr>
@@ -65,21 +53,15 @@ Dimension key
 
 UNIT\_INT
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Internal unit of measurement
-
-
 
 </td>
 </tr>
@@ -88,44 +70,32 @@ Internal unit of measurement
 
 UNIT\_CRE\_TS
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Structure for creating a unit of measurement
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 COMMERCIAL
 
-
-
 </td>
 <td valign="top">
 
 Commercial/external measurement unit format
-
-
 
 </td>
 </tr>
@@ -133,22 +103,16 @@ Commercial/external measurement unit format
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 TECHNICAL
 
-
-
 </td>
 <td valign="top">
 
 Technical measurement unit format
-
-
 
 </td>
 </tr>
@@ -156,22 +120,16 @@ Technical measurement unit format
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 DEC\_ROUND
 
-
-
 </td>
 <td valign="top">
 
 Number of decimal places to which this measurement unit should be rounded for conversion
-
-
 
 </td>
 </tr>
@@ -179,22 +137,16 @@ Number of decimal places to which this measurement unit should be rounded for co
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 NUMERATOR
 
-
-
 </td>
 <td valign="top">
 
 Numerator for conversion to SI unit
-
-
 
 </td>
 </tr>
@@ -202,22 +154,16 @@ Numerator for conversion to SI unit
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 DENOMINATOR
 
-
-
 </td>
 <td valign="top">
 
 Denominator for conversion into SI unit
-
-
 
 </td>
 </tr>
@@ -225,22 +171,16 @@ Denominator for conversion into SI unit
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 EXPONENT
 
-
-
 </td>
 <td valign="top">
 
 Base ten exponent for conversion to SI unit
-
-
 
 </td>
 </tr>
@@ -248,22 +188,16 @@ Base ten exponent for conversion to SI unit
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 CONSTANT
 
-
-
 </td>
 <td valign="top">
 
 Additive constant for conversion to SI unit
-
-
 
 </td>
 </tr>
@@ -271,22 +205,16 @@ Additive constant for conversion to SI unit
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 DEC\_DISP
 
-
-
 </td>
 <td valign="top">
 
 Number of decimal places with which this measurement unit is displayed
-
-
 
 </td>
 </tr>
@@ -294,22 +222,16 @@ Number of decimal places with which this measurement unit is displayed
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 ISOCODE
 
-
-
 </td>
 <td valign="top">
 
 ISO code for measurement units. An ISO code can be assigned to several internal measurement units of a dimension.
-
-
 
 </td>
 </tr>
@@ -318,14 +240,10 @@ ISO code for measurement units. An ISO code can be assigned to several internal 
 
  
 
-
-
 </td>
 <td valign="top">
 
 PRIMARY
-
-
 
 </td>
 <td valign="top">
@@ -336,30 +254,22 @@ Unit of measure flagged as a primary unit for an ISO code
 
 `‘X’`: Set as primary
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 TEXT
 
-
-
 </td>
 <td valign="top">
 
 Description of a unit of measurement
-
-
 
 </td>
 </tr>
@@ -368,21 +278,15 @@ Description of a unit of measurement
 
  
 
-
-
 </td>
 <td valign="top">
 
 LONG\_TEXT
 
-
-
 </td>
 <td valign="top">
 
 Long description of a unit of measurement
-
-
 
 </td>
 </tr>
@@ -403,14 +307,10 @@ Long description of a unit of measurement
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -419,16 +319,12 @@ Value Help
 
 ERROR
 
-
-
 </td>
 <td valign="top">
 
 `Space`: No error
 
 `‘X’`: Save error
-
-
 
 </td>
 </tr>

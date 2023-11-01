@@ -13,14 +13,10 @@ The table below gives an overview of the escaping rules in these commonly used s
 
 Shell
 
-
-
 </th>
 <th valign="top">
 
 Correct Escaping and Quotes
-
-
 
 </th>
 </tr>
@@ -28,8 +24,6 @@ Correct Escaping and Quotes
 <td valign="top">
 
 Bash
-
-
 
 </td>
 <td valign="top">
@@ -40,8 +34,6 @@ or
 
 Use `--parameter 'VALUE'` and do not escape quotes within `VALUE`
 
-
-
 </td>
 </tr>
 <tr>
@@ -49,14 +41,10 @@ Use `--parameter 'VALUE'` and do not escape quotes within `VALUE`
 
 Windows Command Prompt
 
-
-
 </td>
 <td valign="top">
 
 Use `--param "VALUE"` and escape quotes with `\"` within `VALUE` 
-
-
 
 </td>
 </tr>
@@ -65,14 +53,10 @@ Use `--param "VALUE"` and escape quotes with `\"` within `VALUE`
 
 Windows PowerShell
 
-
-
 </td>
 <td valign="top">
 
 Use `--param "VALUE"` and escape quotes with `\"` within `VALUE` 
-
-
 
 </td>
 </tr>

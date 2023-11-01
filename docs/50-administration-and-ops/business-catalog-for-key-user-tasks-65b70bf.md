@@ -17,21 +17,15 @@ You assign business catalogs to business roles that are assigned to business use
 
 Business Catalog
 
-
-
 </th>
 <th valign="top">
 
 Authorizations
 
-
-
 </th>
 <th valign="top">
 
 Restrictions
-
-
 
 </th>
 </tr>
@@ -42,21 +36,15 @@ Restrictions
 
 SAP\_CORE\_BC\_EXT\_TST
 
-
-
 </td>
 <td valign="top">
 
 Testing of custom apps and custom services
 
-
-
 </td>
 <td valign="top">
 
 Only services that have their original in the current system
-
-
 
 </td>
 </tr>
@@ -67,21 +55,15 @@ Only services that have their original in the current system
 
 SAP\_CORE\_BC\_EXT\_FLEX
 
-
-
 </td>
 <td valign="top">
 
 Key user adaptation
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>

@@ -26,13 +26,17 @@ The btp CLI is part of our cloud management tools feature set B. This means that
 
 To log on, we recommend to run `btp login --sso` or `btp login` without parameters. Then confirm the server URL that is proposed by the CLI and provide tyour credentials when you are prompted. After successful authentication, the btp CLI will log you into your global account, or, if you have more than one, will show all available global accounts for you to select the one you need.
 
+To log on with SAP Universal ID, you need to use the `--sso` parameter. Otherwise log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
+
+For more information, see SAP Note [3085908](https://me.sap.com/notes/3085908) and [Log in with Single Sign-On](log-in-with-single-sign-on-b2a56a8.md).
+
 
 
 <a name="loio4023e1504ebc4a00a5108b8f716fe9a3__section_tpf_hyh_xlb"/>
 
 ## I'd like to setup a global account with the command line
 
-If you don't know how to get started, you might want to have a look at the appropriate workflow: [Setting Up a Trial Account via the Command Line \[Feature Set B\]](../20-getting-started/setting-up-a-trial-account-via-the-command-line-feature-set-b-a21360f.md) or [Setting Up a Global Account via the Command Line \[Feature Set B\]](../20-getting-started/setting-up-a-global-account-via-the-command-line-feature-set-b-accd5b2.md).
+If you don't know how to get started, you might want to have a look at the appropriate workflow: [Setting Up a Trial Account via the Command Line \[Feature Set B\]](../20-getting-started/setting-up-a-trial-account-via-the-command-line-feature-set-b-a21360f.md) or [Setting Up a Global Account via the Command Line](../20-getting-started/setting-up-a-global-account-via-the-command-line-accd5b2.md).
 
 
 

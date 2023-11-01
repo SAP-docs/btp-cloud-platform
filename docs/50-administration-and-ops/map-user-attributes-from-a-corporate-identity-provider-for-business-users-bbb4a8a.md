@@ -44,15 +44,11 @@ For more information about identity federation, see [Configure Identity Federati
     <th valign="top">
 
     Attribute
-
-
     
     </th>
     <th valign="top">
 
     Corporate Identity Provider
-
-
     
     </th>
     </tr>
@@ -60,15 +56,11 @@ For more information about identity federation, see [Configure Identity Federati
     <td valign="top">
     
     `email`
-
-
     
     </td>
     <td valign="top">
     
     `${corporateIdP.email}`
-
-
     
     </td>
     </tr>
@@ -76,15 +68,11 @@ For more information about identity federation, see [Configure Identity Federati
     <td valign="top">
     
     `email_verified`
-
-
     
     </td>
     <td valign="top">
     
     `${corporateIdP.email_verified}`
-
-
     
     </td>
     </tr>
@@ -92,15 +80,11 @@ For more information about identity federation, see [Configure Identity Federati
     <td valign="top">
     
     `family_name`
-
-
     
     </td>
     <td valign="top">
     
     `${corporateIdP.family_name}`
-
-
     
     </td>
     </tr>
@@ -108,15 +92,11 @@ For more information about identity federation, see [Configure Identity Federati
     <td valign="top">
     
     `given_name`
-
-
     
     </td>
     <td valign="top">
     
     `${corporateIdP.given_name}`
-
-
     
     </td>
     </tr>
@@ -124,15 +104,11 @@ For more information about identity federation, see [Configure Identity Federati
     <td valign="top">
     
     `groups`
-
-
     
     </td>
     <td valign="top">
     
     `${corporateIdP.groups}`
-
-
     
     </td>
     </tr>
@@ -140,15 +116,11 @@ For more information about identity federation, see [Configure Identity Federati
     <td valign="top">
     
     `user_uuid`
-
-
     
     </td>
     <td valign="top">
     
     `${corporateIdP.user_uuid}`
-
-
     
     </td>
     </tr>
@@ -190,21 +162,15 @@ In the default configuration, the attributes provided in the ID token issued by 
 
 Identity Authentication User Attribute
 
-
-
 </th>
 <th valign="top">
 
 Assertion Attribute
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -213,14 +179,10 @@ Description
 
 `mail` 
 
-
-
 </td>
 <td valign="top">
 
 `email` 
-
-
 
 </td>
 <td valign="top">
@@ -229,8 +191,6 @@ E-mail address of the subject. By default, this value is used for the subject na
 
 See the table *Default Configurations of the Subaccount in Identity Authentication* following this table.
 
-
-
 </td>
 </tr>
 <tr>
@@ -238,21 +198,15 @@ See the table *Default Configurations of the Subaccount in Identity Authenticati
 
 `mailVerified` 
 
-
-
 </td>
 <td valign="top">
 
 `email_verified` 
 
-
-
 </td>
 <td valign="top">
 
 Indicates whether the subject has confirmed their e-mail address. Your identity provider might require users to verify their e-mail address.
-
-
 
 </td>
 </tr>
@@ -261,21 +215,15 @@ Indicates whether the subject has confirmed their e-mail address. Your identity 
 
 `lastName` 
 
-
-
 </td>
 <td valign="top">
 
 `family_name` 
 
-
-
 </td>
 <td valign="top">
 
 Last name of the subject.
-
-
 
 </td>
 </tr>
@@ -284,21 +232,15 @@ Last name of the subject.
 
 `firstName` 
 
-
-
 </td>
 <td valign="top">
 
 `given_name` 
 
-
-
 </td>
 <td valign="top">
 
 First name of the subject.
-
-
 
 </td>
 </tr>
@@ -307,21 +249,15 @@ First name of the subject.
 
 `companyGroups` 
 
-
-
 </td>
 <td valign="top">
 
 `groups` 
 
-
-
 </td>
 <td valign="top">
 
 Any groups the subject is assigned to in the identity provider.
-
-
 
 </td>
 </tr>
@@ -330,14 +266,10 @@ Any groups the subject is assigned to in the identity provider.
 
 `userUuid` 
 
-
-
 </td>
 <td valign="top">
 
 `user_uuid` 
-
-
 
 </td>
 <td valign="top">
@@ -374,14 +306,10 @@ In the application of Identity Authentication that represents the subaccount, th
 
 Configuration
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -389,8 +317,6 @@ Description
 <td valign="top">
 
 Subject name identifier
-
-
 
 </td>
 <td valign="top">
@@ -401,16 +327,12 @@ Default value: ***E-Mail***.
 
 For more information, see [Configure the Subject Name Identifier Sent to the Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/1d020e3a3ba34c43a71fde70bfa6419a.html) in the documentation of Identity Authentication.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 List of allowed redirect URIs
-
-
 
 </td>
 <td valign="top">
@@ -423,16 +345,12 @@ For example: `https://mysubdomain.authentication.us10.hana.ondemand.com/login.ca
 
 For more information, see [OpenID Connect Application Configurations](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/1ae324ee3b2d4a728650eb022d5fd910.html) in the documentation of Identity Authentication.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Post logout redirect URIs
-
-
 
 </td>
 <td valign="top">
@@ -444,8 +362,6 @@ Default value: <code>https://<i class="varname">&lt;subdomain&gt;</i>.authentica
 For example: `https://mysubdomain.authentication.us10.hana.ondemand.com/*`
 
 For more information, see [OpenID Connect Application Configurations](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/1ae324ee3b2d4a728650eb022d5fd910.html) in the documentation of Identity Authentication.
-
-
 
 </td>
 </tr>

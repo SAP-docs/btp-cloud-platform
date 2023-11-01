@@ -11,21 +11,15 @@ The external job scheduling service API offers the following operations:
 
 Operation
 
-
-
 </th>
 <th valign="top">
 
 HTTP Method
 
-
-
 </th>
 <th valign="top">
 
 Sample URL
-
-
 
 </th>
 </tr>
@@ -34,21 +28,15 @@ Sample URL
 
 [Read Application Job Templates](read-application-job-templates-b4f28ea.md)
 
-
-
 </td>
 <td valign="top">
 
 GET
 
-
-
 </td>
 <td valign="top">
 
 <host\>/sap/opu/odata/SAP/BC\_EXT\_APPJOB\_MANAGEMENT;v=0002/JobTemplateSet
-
-
 
 </td>
 </tr>
@@ -57,21 +45,15 @@ GET
 
 [Schedule an Application Job](schedule-an-application-job-f2a48b0.md)
 
-
-
 </td>
 <td valign="top">
 
 POST
 
-
-
 </td>
 <td valign="top">
 
 <host\>/sap/opu/odata/SAP/BC\_EXT\_APPJOB\_MANAGEMENT;v=0002/JobSchedule?JobTemplateName='TemplateName'&JobText='Test'&JobUser='BusinessUser'&TestModeInd=false&JobParameterValues=''
-
-
 
 </td>
 </tr>
@@ -80,21 +62,15 @@ POST
 
 [Read Application Job Status](read-application-job-status-1823561.md)
 
-
-
 </td>
 <td valign="top">
 
 GET
 
-
-
 </td>
 <td valign="top">
 
 <host\>/sap/opu/odata/SAP/BC\_EXT\_APPJOB\_MANAGEMENT;v=0002/JobStatusGet?JobName='JobName'&JobRunCount='JobCount'
-
-
 
 </td>
 </tr>
@@ -103,21 +79,15 @@ GET
 
 [Abort a Running Application Job](abort-a-running-application-job-c018248.md) 
 
-
-
 </td>
 <td valign="top">
 
 POST
 
-
-
 </td>
 <td valign="top">
 
 <host\>/sap/opu/odata/SAP/BC\_EXT\_APPJOB\_MANAGEMENT;v=0002/JobAbort?JobName='JobName'&JobRunCount='JobCount'
-
-
 
 </td>
 </tr>
@@ -126,21 +96,15 @@ POST
 
 [Cancel an Application Job](cancel-an-application-job-3018768.md)
 
-
-
 </td>
 <td valign="top">
 
 POST
 
-
-
 </td>
 <td valign="top">
 
 <host\>/sap/opu/odata/SAP/BC\_EXT\_APPJOB\_MANAGEMENT;v=0002/JobCancel?JobName='JobName'&JobRunCount='JobCount'
-
-
 
 </td>
 </tr>
@@ -149,21 +113,15 @@ POST
 
 [Read Detailed Job and Step Information](read-detailed-job-and-step-information-7a63794.md) 
 
-
-
 </td>
 <td valign="top">
 
 GET
 
-
-
 </td>
 <td valign="top">
 
 <host\>/sap/opu/odata/SAP/BC\_EXT\_APPJOB\_MANAGEMENT;v=0002/JobinfoGet?JobName='JobName'&JobRunCount='JobCount'
-
-
 
 </td>
 </tr>
@@ -178,21 +136,15 @@ The meaning of a non-zero return code used in the above operations can be found 
 
 Message code
 
-
-
 </th>
 <th valign="top">
 
 Message constant
 
-
-
 </th>
 <th valign="top">
 
 Text
-
-
 
 </th>
 </tr>
@@ -201,21 +153,15 @@ Text
 
 001
 
-
-
 </td>
 <td valign="top">
 
 TECHNICAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Job was aborted due to a technical error.
-
-
 
 </td>
 </tr>
@@ -224,21 +170,15 @@ Job was aborted due to a technical error.
 
 002
 
-
-
 </td>
 <td valign="top">
 
 no\_appl\_log\_found
 
-
-
 </td>
 <td valign="top">
 
 No application log found
-
-
 
 </td>
 </tr>
@@ -247,21 +187,15 @@ No application log found
 
 003
 
-
-
 </td>
 <td valign="top">
 
 no\_job\_exists
 
-
-
 </td>
 <td valign="top">
 
 Job doesn't exist.
-
-
 
 </td>
 </tr>
@@ -270,21 +204,15 @@ Job doesn't exist.
 
 004
 
-
-
 </td>
 <td valign="top">
 
 cancel\_job\_failed
 
-
-
 </td>
 <td valign="top">
 
 Job &1 couldn't be canceled.
-
-
 
 </td>
 </tr>
@@ -293,21 +221,15 @@ Job &1 couldn't be canceled.
 
 005
 
-
-
 </td>
 <td valign="top">
 
 no\_cancel\_privilege
 
-
-
 </td>
 <td valign="top">
 
 User &1 has no authorization to cancel job &2.
-
-
 
 </td>
 </tr>
@@ -316,21 +238,15 @@ User &1 has no authorization to cancel job &2.
 
 006
 
-
-
 </td>
 <td valign="top">
 
 delete\_job\_failed
 
-
-
 </td>
 <td valign="top">
 
 Job &1 couldn't be deleted.
-
-
 
 </td>
 </tr>
@@ -339,21 +255,15 @@ Job &1 couldn't be deleted.
 
 007
 
-
-
 </td>
 <td valign="top">
 
 no\_job\_delete\_privilege
 
-
-
 </td>
 <td valign="top">
 
 User &1 has no authorization to delete job &2.
-
-
 
 </td>
 </tr>
@@ -362,21 +272,15 @@ User &1 has no authorization to delete job &2.
 
 008
 
-
-
 </td>
 <td valign="top">
 
 job\_cancel\_internal\_error
 
-
-
 </td>
 <td valign="top">
 
 Job &1 couldn't be canceled due to an internal error.
-
-
 
 </td>
 </tr>
@@ -385,21 +289,15 @@ Job &1 couldn't be canceled due to an internal error.
 
 009
 
-
-
 </td>
 <td valign="top">
 
 job\_cancellation\_succesful
 
-
-
 </td>
 <td valign="top">
 
 Job &1 has been canceled.
-
-
 
 </td>
 </tr>
@@ -408,21 +306,15 @@ Job &1 has been canceled.
 
 010
 
-
-
 </td>
 <td valign="top">
 
 job\_deletion\_succesful
 
-
-
 </td>
 <td valign="top">
 
 Job &1 has been deleted.
-
-
 
 </td>
 </tr>
@@ -431,21 +323,15 @@ Job &1 has been deleted.
 
 011
 
-
-
 </td>
 <td valign="top">
 
 job\_wrong\_state\_for\_deletion
 
-
-
 </td>
 <td valign="top">
 
 You can't delete job &1 due to its status.
-
-
 
 </td>
 </tr>
@@ -454,21 +340,15 @@ You can't delete job &1 due to its status.
 
 012
 
-
-
 </td>
 <td valign="top">
 
 no\_runs\_for\_job\_found
 
-
-
 </td>
 <td valign="top">
 
 Job &1 has no runs.
-
-
 
 </td>
 </tr>
@@ -477,21 +357,15 @@ Job &1 has no runs.
 
 013
 
-
-
 </td>
 <td valign="top">
 
 job\_schedule\_successfully
 
-
-
 </td>
 <td valign="top">
 
 Job &1 has been scheduled.
-
-
 
 </td>
 </tr>
@@ -500,21 +374,15 @@ Job &1 has been scheduled.
 
 014
 
-
-
 </td>
 <td valign="top">
 
 job\_catalog\_entry\_not\_found
 
-
-
 </td>
 <td valign="top">
 
 Job catalog entry &1 doesn't exist.
-
-
 
 </td>
 </tr>
@@ -523,21 +391,15 @@ Job catalog entry &1 doesn't exist.
 
 015
 
-
-
 </td>
 <td valign="top">
 
 job\_template\_entry\_not\_found
 
-
-
 </td>
 <td valign="top">
 
 Job template &1 doesn't exist.
-
-
 
 </td>
 </tr>
@@ -546,21 +408,15 @@ Job template &1 doesn't exist.
 
 016
 
-
-
 </td>
 <td valign="top">
 
 report\_for\_job\_not\_found
 
-
-
 </td>
 <td valign="top">
 
 Job &1 couldn't be created.
-
-
 
 </td>
 </tr>
@@ -569,21 +425,15 @@ Job &1 couldn't be created.
 
 017
 
-
-
 </td>
 <td valign="top">
 
 job\_creation\_failed
 
-
-
 </td>
 <td valign="top">
 
 Report for job &1 couldn't be found.
-
-
 
 </td>
 </tr>
@@ -592,21 +442,15 @@ Report for job &1 couldn't be found.
 
 018
 
-
-
 </td>
 <td valign="top">
 
 job\_metadata\_inconsistent
 
-
-
 </td>
 <td valign="top">
 
 Job &1 metadata are inconsistent.
-
-
 
 </td>
 </tr>
@@ -615,21 +459,15 @@ Job &1 metadata are inconsistent.
 
 019
 
-
-
 </td>
 <td valign="top">
 
 read\_job\_log\_failed
 
-
-
 </td>
 <td valign="top">
 
 Log for job &1 couldn't be read.
-
-
 
 </td>
 </tr>
@@ -638,21 +476,15 @@ Log for job &1 couldn't be read.
 
 020
 
-
-
 </td>
 <td valign="top">
 
 job\_start\_immediate\_failed
 
-
-
 </td>
 <td valign="top">
 
 Job &1 couldn't start immediately
-
-
 
 </td>
 </tr>
@@ -661,21 +493,15 @@ Job &1 couldn't start immediately
 
 021
 
-
-
 </td>
 <td valign="top">
 
 job\_invalid\_startdate
 
-
-
 </td>
 <td valign="top">
 
 Job &1 has an invalid start date.
-
-
 
 </td>
 </tr>
@@ -684,21 +510,15 @@ Job &1 has an invalid start date.
 
 022
 
-
-
 </td>
 <td valign="top">
 
 job\_close\_failed
 
-
-
 </td>
 <td valign="top">
 
 Job &1 couldn't be scheduled.
-
-
 
 </td>
 </tr>
@@ -707,21 +527,15 @@ Job &1 couldn't be scheduled.
 
 023
 
-
-
 </td>
 <td valign="top">
 
 job\_list\_internal\_error
 
-
-
 </td>
 <td valign="top">
 
 Internal error occurred during job list processing.
-
-
 
 </td>
 </tr>
@@ -730,21 +544,15 @@ Internal error occurred during job list processing.
 
 024
 
-
-
 </td>
 <td valign="top">
 
 user\_no\_auth\_report
 
-
-
 </td>
 <td valign="top">
 
 User &1 not authorized to schedule report &2. Report on BC-SRV-APS-APJ.
-
-
 
 </td>
 </tr>
@@ -753,21 +561,15 @@ User &1 not authorized to schedule report &2. Report on BC-SRV-APS-APJ.
 
 025
 
-
-
 </td>
 <td valign="top">
 
 future\_schedules\_restricted
 
-
-
 </td>
 <td valign="top">
 
 Job &1 was restricted to 1000 scheduled runs.
-
-
 
 </td>
 </tr>
@@ -776,21 +578,15 @@ Job &1 was restricted to 1000 scheduled runs.
 
 026
 
-
-
 </td>
 <td valign="top">
 
 job\_completed\_wo\_info
 
-
-
 </td>
 <td valign="top">
 
 Job completed without errors
-
-
 
 </td>
 </tr>
@@ -799,21 +595,15 @@ Job completed without errors
 
 027
 
-
-
 </td>
 <td valign="top">
 
 no\_auth\_appl\_log
 
-
-
 </td>
 <td valign="top">
 
 User &1 is not authorized to read the log.
-
-
 
 </td>
 </tr>
@@ -822,21 +612,15 @@ User &1 is not authorized to read the log.
 
 028
 
-
-
 </td>
 <td valign="top">
 
 no\_auth\_job\_details
 
-
-
 </td>
 <td valign="top">
 
 User &1 is not authorized to read the job details.
-
-
 
 </td>
 </tr>
@@ -845,21 +629,15 @@ User &1 is not authorized to read the job details.
 
 029
 
-
-
 </td>
 <td valign="top">
 
 no\_auth\_job\_log
 
-
-
 </td>
 <td valign="top">
 
 User &1 is not authorized to read the job log.
-
-
 
 </td>
 </tr>
@@ -868,21 +646,15 @@ User &1 is not authorized to read the job log.
 
 030
 
-
-
 </td>
 <td valign="top">
 
 no\_auth\_job\_delete
 
-
-
 </td>
 <td valign="top">
 
 User &1 is not authorized to delete the job.
-
-
 
 </td>
 </tr>
@@ -891,21 +663,15 @@ User &1 is not authorized to delete the job.
 
 031
 
-
-
 </td>
 <td valign="top">
 
 no\_auth\_job\_cancel
 
-
-
 </td>
 <td valign="top">
 
 User &1 is not authorized to cancel the job.
-
-
 
 </td>
 </tr>
@@ -914,21 +680,15 @@ User &1 is not authorized to cancel the job.
 
 032
 
-
-
 </td>
 <td valign="top">
 
 job\_schduling\_failed
 
-
-
 </td>
 <td valign="top">
 
 Job couldn't be scheduled.
-
-
 
 </td>
 </tr>
@@ -937,21 +697,15 @@ Job couldn't be scheduled.
 
 033
 
-
-
 </td>
 <td valign="top">
 
 job\_no\_end\_date
 
-
-
 </td>
 <td valign="top">
 
 No end date supplied for job &1.
-
-
 
 </td>
 </tr>
@@ -960,21 +714,15 @@ No end date supplied for job &1.
 
 034
 
-
-
 </td>
 <td valign="top">
 
 job\_start\_before\_end\_date
 
-
-
 </td>
 <td valign="top">
 
 Job &1 must start before the end date.
-
-
 
 </td>
 </tr>
@@ -983,21 +731,15 @@ Job &1 must start before the end date.
 
 035
 
-
-
 </td>
 <td valign="top">
 
 job\_no\_max\_iterations
 
-
-
 </td>
 <td valign="top">
 
 Enter a number of iterations for the job &1.
-
-
 
 </td>
 </tr>
@@ -1006,21 +748,15 @@ Enter a number of iterations for the job &1.
 
 036
 
-
-
 </td>
 <td valign="top">
 
 job\_end\_cond\_ignored
 
-
-
 </td>
 <td valign="top">
 
 End date of job &1 will be ignored due to missing recurrence pattern.
-
-
 
 </td>
 </tr>
@@ -1029,21 +765,15 @@ End date of job &1 will be ignored due to missing recurrence pattern.
 
 037
 
-
-
 </td>
 <td valign="top">
 
 job\_aborted
 
-
-
 </td>
 <td valign="top">
 
 An error occurred. Please create an incident on component &1.
-
-
 
 </td>
 </tr>
@@ -1052,21 +782,15 @@ An error occurred. Please create an incident on component &1.
 
 038
 
-
-
 </td>
 <td valign="top">
 
 job\_cancel\_checking\_failed
 
-
-
 </td>
 <td valign="top">
 
 Job &1 couldn't be canceled: Check of job failed
-
-
 
 </td>
 </tr>
@@ -1075,21 +799,15 @@ Job &1 couldn't be canceled: Check of job failed
 
 039
 
-
-
 </td>
 <td valign="top">
 
 job\_cancel\_not\_exist
 
-
-
 </td>
 <td valign="top">
 
 Job couldn't be canceled: Job does not exist.
-
-
 
 </td>
 </tr>
@@ -1098,21 +816,15 @@ Job couldn't be canceled: Job does not exist.
 
 040
 
-
-
 </td>
 <td valign="top">
 
 JOB\_CANCEL\_NOT\_RUNNING
 
-
-
 </td>
 <td valign="top">
 
 Job couldn't be canceled: Job is not running.
-
-
 
 </td>
 </tr>
@@ -1121,21 +833,15 @@ Job couldn't be canceled: Job is not running.
 
 041
 
-
-
 </td>
 <td valign="top">
 
 job\_delete\_event\_failed
 
-
-
 </td>
 <td valign="top">
 
 Job &1 couldn't be deleted: Event scheduling can't be deleted
-
-
 
 </td>
 </tr>
@@ -1144,21 +850,15 @@ Job &1 couldn't be deleted: Event scheduling can't be deleted
 
 042
 
-
-
 </td>
 <td valign="top">
 
 job\_delete\_steps\_failed
 
-
-
 </td>
 <td valign="top">
 
 Job &1 couldn't be deleted: Job steps couldn't be deleted
-
-
 
 </td>
 </tr>
@@ -1167,21 +867,15 @@ Job &1 couldn't be deleted: Job steps couldn't be deleted
 
 043
 
-
-
 </td>
 <td valign="top">
 
 job\_delete\_time\_failed
 
-
-
 </td>
 <td valign="top">
 
 Job &1 couldn't be deleted: Deadline scheduling can't be deleted
-
-
 
 </td>
 </tr>
@@ -1190,21 +884,15 @@ Job &1 couldn't be deleted: Deadline scheduling can't be deleted
 
 044
 
-
-
 </td>
 <td valign="top">
 
 job\_delete\_derelease
 
-
-
 </td>
 <td valign="top">
 
 Job &1 couldn't be deleted: Previous job can't be modified
-
-
 
 </td>
 </tr>
@@ -1213,21 +901,15 @@ Job &1 couldn't be deleted: Previous job can't be modified
 
 045
 
-
-
 </td>
 <td valign="top">
 
 job\_delete\_enq\_pre
 
-
-
 </td>
 <td valign="top">
 
 Job &1 couldn't be deleted: Succeeding job can't be locked
-
-
 
 </td>
 </tr>
@@ -1236,21 +918,15 @@ Job &1 couldn't be deleted: Succeeding job can't be locked
 
 046
 
-
-
 </td>
 <td valign="top">
 
 job\_delete\_enq\_suc
 
-
-
 </td>
 <td valign="top">
 
 Job &1 couldn't be deleted: Previous job can't be locked
-
-
 
 </td>
 </tr>
@@ -1259,21 +935,15 @@ Job &1 couldn't be deleted: Previous job can't be locked
 
 047
 
-
-
 </td>
 <td valign="top">
 
 job\_delete\_enq\_tbtco
 
-
-
 </td>
 <td valign="top">
 
 Job &1 couldn't be deleted: Job can't be locked
-
-
 
 </td>
 </tr>
@@ -1282,21 +952,15 @@ Job &1 couldn't be deleted: Job can't be locked
 
 048
 
-
-
 </td>
 <td valign="top">
 
 job\_delete\_update\_pre
 
-
-
 </td>
 <td valign="top">
 
 Job &1 couldn't be deleted: Previous job can't be modified
-
-
 
 </td>
 </tr>
@@ -1305,21 +969,15 @@ Job &1 couldn't be deleted: Previous job can't be modified
 
 049
 
-
-
 </td>
 <td valign="top">
 
 job\_delete\_update\_suc
 
-
-
 </td>
 <td valign="top">
 
 Job &1 couldn't be deleted: Succeeding job can't be modified
-
-
 
 </td>
 </tr>
@@ -1328,21 +986,15 @@ Job &1 couldn't be deleted: Succeeding job can't be modified
 
 050
 
-
-
 </td>
 <td valign="top">
 
 job\_delete\_commit\_failed
 
-
-
 </td>
 <td valign="top">
 
 Job &1 couldn't be deleted: A technical error occurred.
-
-
 
 </td>
 </tr>
@@ -1351,21 +1003,15 @@ Job &1 couldn't be deleted: A technical error occurred.
 
 051
 
-
-
 </td>
 <td valign="top">
 
 job\_delete\_already\_run
 
-
-
 </td>
 <td valign="top">
 
 Job &1 couldn't be deleted: Job has already been published.
-
-
 
 </td>
 </tr>
@@ -1374,21 +1020,15 @@ Job &1 couldn't be deleted: Job has already been published.
 
 052
 
-
-
 </td>
 <td valign="top">
 
 illegal\_report\_or\_variant
 
-
-
 </td>
 <td valign="top">
 
 Report name or variant name contains invalid characters.
-
-
 
 </td>
 </tr>
@@ -1397,21 +1037,15 @@ Report name or variant name contains invalid characters.
 
 053
 
-
-
 </td>
 <td valign="top">
 
 illegal\_variantname
 
-
-
 </td>
 <td valign="top">
 
 Variant couldn't be created: Its name is empty, or contains '&' or '%'.
-
-
 
 </td>
 </tr>
@@ -1420,21 +1054,15 @@ Variant couldn't be created: Its name is empty, or contains '&' or '%'.
 
 054
 
-
-
 </td>
 <td valign="top">
 
 no\_auth\_variant\_create
 
-
-
 </td>
 <td valign="top">
 
 User &1 is not authorized to create a variant.
-
-
 
 </td>
 </tr>
@@ -1443,21 +1071,15 @@ User &1 is not authorized to create a variant.
 
 055
 
-
-
 </td>
 <td valign="top">
 
 variant\_not\_executed
 
-
-
 </td>
 <td valign="top">
 
 Variant couldn't be created: Variant can't be executed.
-
-
 
 </td>
 </tr>
@@ -1466,21 +1088,15 @@ Variant couldn't be created: Variant can't be executed.
 
 056
 
-
-
 </td>
 <td valign="top">
 
 variant\_no\_report\_exists
 
-
-
 </td>
 <td valign="top">
 
 Variant couldn't be created: Report doesn't exist.
-
-
 
 </td>
 </tr>
@@ -1489,21 +1105,15 @@ Variant couldn't be created: Report doesn't exist.
 
 057
 
-
-
 </td>
 <td valign="top">
 
 variant\_no\_report\_supplied
 
-
-
 </td>
 <td valign="top">
 
 Variant couldn't be created: Report is not of type 1.
-
-
 
 </td>
 </tr>
@@ -1512,21 +1122,15 @@ Variant couldn't be created: Report is not of type 1.
 
 058
 
-
-
 </td>
 <td valign="top">
 
 variant\_locked
 
-
-
 </td>
 <td valign="top">
 
 Variant couldn't be created: Variant is locked.
-
-
 
 </td>
 </tr>
@@ -1535,21 +1139,15 @@ Variant couldn't be created: Variant is locked.
 
 059
 
-
-
 </td>
 <td valign="top">
 
 variant\_lock\_enqueue\_error
 
-
-
 </td>
 <td valign="top">
 
 Variant couldn't be created: Internal error from enqueue server
-
-
 
 </td>
 </tr>
@@ -1558,21 +1156,15 @@ Variant couldn't be created: Internal error from enqueue server
 
 060
 
-
-
 </td>
 <td valign="top">
 
 job\_must\_not\_periodic
 
-
-
 </td>
 <td valign="top">
 
 Job &1 must not be periodic. Report incident on component BC-SRV-APS-APJ.
-
-
 
 </td>
 </tr>
@@ -1581,21 +1173,15 @@ Job &1 must not be periodic. Report incident on component BC-SRV-APS-APJ.
 
 061
 
-
-
 </td>
 <td valign="top">
 
 job\_wrong\_periodic\_value
 
-
-
 </td>
 <td valign="top">
 
 Value &1 for recurrence pattern is invalid for job &2.
-
-
 
 </td>
 </tr>
@@ -1604,21 +1190,15 @@ Value &1 for recurrence pattern is invalid for job &2.
 
 062
 
-
-
 </td>
 <td valign="top">
 
 invalid\_factory\_calendar
 
-
-
 </td>
 <td valign="top">
 
 Job &1 is not scheduled due to invalid calendar.
-
-
 
 </td>
 </tr>
@@ -1627,21 +1207,15 @@ Job &1 is not scheduled due to invalid calendar.
 
 063
 
-
-
 </td>
 <td valign="top">
 
 invalid\_restriction\_code
 
-
-
 </td>
 <td valign="top">
 
 Job &1 is not scheduled due to invalid restriction code
-
-
 
 </td>
 </tr>
@@ -1650,21 +1224,15 @@ Job &1 is not scheduled due to invalid restriction code
 
 064
 
-
-
 </td>
 <td valign="top">
 
 job\_list\_filter\_failed
 
-
-
 </td>
 <td valign="top">
 
 Filter for job list couldn't be applied.
-
-
 
 </td>
 </tr>
@@ -1673,21 +1241,15 @@ Filter for job list couldn't be applied.
 
 065
 
-
-
 </td>
 <td valign="top">
 
 job\_delete\_internal\_error
 
-
-
 </td>
 <td valign="top">
 
 Job couldn't be deleted due to an internal error.
-
-
 
 </td>
 </tr>
@@ -1696,21 +1258,15 @@ Job couldn't be deleted due to an internal error.
 
 066
 
-
-
 </td>
 <td valign="top">
 
 INVALID\_MONTH\_SHIFT\_DIR
 
-
-
 </td>
 <td valign="top">
 
 Invalid shift direction for days of month
-
-
 
 </td>
 </tr>
@@ -1719,21 +1275,15 @@ Invalid shift direction for days of month
 
 067
 
-
-
 </td>
 <td valign="top">
 
 WEEKDAY\_WRONG\_STARTDATE
 
-
-
 </td>
 <td valign="top">
 
 Start date and day of recurrence must be the same weekday.
-
-
 
 </td>
 </tr>
@@ -1742,21 +1292,15 @@ Start date and day of recurrence must be the same weekday.
 
 068
 
-
-
 </td>
 <td valign="top">
 
 INVALID\_TIMEZONE
 
-
-
 </td>
 <td valign="top">
 
 Time zone &1 is invalid.
-
-
 
 </td>
 </tr>
@@ -1765,21 +1309,15 @@ Time zone &1 is invalid.
 
 069
 
-
-
 </td>
 <td valign="top">
 
 INVALID\_FC\_ID
 
-
-
 </td>
 <td valign="top">
 
 Calendar &1 is invalid.
-
-
 
 </td>
 </tr>
@@ -1788,21 +1326,15 @@ Calendar &1 is invalid.
 
 070
 
-
-
 </td>
 <td valign="top">
 
 SCHEDULING\_DATE\_ADJUSTED
 
-
-
 </td>
 <td valign="top">
 
 Start date was adjusted to fit the recurrence pattern.
-
-
 
 </td>
 </tr>
@@ -1811,21 +1343,15 @@ Start date was adjusted to fit the recurrence pattern.
 
 071
 
-
-
 </td>
 <td valign="top">
 
 INVALID\_SCHEDULING\_START\_TS
 
-
-
 </td>
 <td valign="top">
 
 Job must start before the end date.
-
-
 
 </td>
 </tr>
@@ -1834,21 +1360,15 @@ Job must start before the end date.
 
 072
 
-
-
 </td>
 <td valign="top">
 
 SELECT\_AT\_LEAST\_ONE\_WEEKDAY
 
-
-
 </td>
 <td valign="top">
 
 For weekly recurrence, select at least one weekday.
-
-
 
 </td>
 </tr>
@@ -1857,21 +1377,15 @@ For weekly recurrence, select at least one weekday.
 
 073
 
-
-
 </td>
 <td valign="top">
 
 CREATE\_JOB\_VARIANT\_FAILED
 
-
-
 </td>
 <td valign="top">
 
 Job variant couldn't be created.
-
-
 
 </td>
 </tr>
@@ -1880,21 +1394,15 @@ Job variant couldn't be created.
 
 074
 
-
-
 </td>
 <td valign="top">
 
 VALUES\_OF\_READ\_ONLY\_PARAM\_REM
 
-
-
 </td>
 <td valign="top">
 
 Parameter &1 has been removed because it is read-only
-
-
 
 </td>
 </tr>
@@ -1903,21 +1411,15 @@ Parameter &1 has been removed because it is read-only
 
 075
 
-
-
 </td>
 <td valign="top">
 
 USER\_NO\_AUTH\_TO\_SCHEDULE\_JOB
 
-
-
 </td>
 <td valign="top">
 
 Parameter &1 has been removed because it's read-only
-
-
 
 </td>
 </tr>
@@ -1926,21 +1428,15 @@ Parameter &1 has been removed because it's read-only
 
 076
 
-
-
 </td>
 <td valign="top">
 
 JOB\_CANCELED\_BY\_USER
 
-
-
 </td>
 <td valign="top">
 
 Job was canceled by user &1.
-
-
 
 </td>
 </tr>
@@ -1949,21 +1445,15 @@ Job was canceled by user &1.
 
 077
 
-
-
 </td>
 <td valign="top">
 
 NO\_AUTH\_SCHEDULE\_FOR\_USER
 
-
-
 </td>
 <td valign="top">
 
 User &1 has no authorization to schedule the job.
-
-
 
 </td>
 </tr>
@@ -1972,21 +1462,15 @@ User &1 has no authorization to schedule the job.
 
 078
 
-
-
 </td>
 <td valign="top">
 
 PARAM\_CHANGE\_BEFORE\_SCHEDULE
 
-
-
 </td>
 <td valign="top">
 
 Invalid change of parameter when scheduling. Please open a ticket on &1
-
-
 
 </td>
 </tr>
@@ -1995,21 +1479,15 @@ Invalid change of parameter when scheduling. Please open a ticket on &1
 
 079
 
-
-
 </td>
 <td valign="top">
 
 INVALID\_JOB\_RUN\_STATUS
 
-
-
 </td>
 <td valign="top">
 
 Invalid job run status.
-
-
 
 </td>
 </tr>
@@ -2018,21 +1496,15 @@ Invalid job run status.
 
 080
 
-
-
 </td>
 <td valign="top">
 
 JOBCATALOG\_IS\_NOT\_BASIC
 
-
-
 </td>
 <td valign="top">
 
 Job catalog is not basic.
-
-
 
 </td>
 </tr>
@@ -2041,21 +1513,15 @@ Job catalog is not basic.
 
 081
 
-
-
 </td>
 <td valign="top">
 
 JOB\_RESTART\_INCORRECT\_STATUS
 
-
-
 </td>
 <td valign="top">
 
 Can't restart the job due to the status
-
-
 
 </td>
 </tr>
@@ -2064,21 +1530,15 @@ Can't restart the job due to the status
 
 082
 
-
-
 </td>
 <td valign="top">
 
 JOB\_RESTART\_INCORRECT\_MODE
 
-
-
 </td>
 <td valign="top">
 
 Can't restart the job after the last step
-
-
 
 </td>
 </tr>
@@ -2087,21 +1547,15 @@ Can't restart the job after the last step
 
 083
 
-
-
 </td>
 <td valign="top">
 
 INVALID\_USER
 
-
-
 </td>
 <td valign="top">
 
 User &1 doesn't exist or is invalid.
-
-
 
 </td>
 </tr>

@@ -26,21 +26,15 @@ For example:
 
 Placeholder
 
-
-
 </th>
 <th valign="top">
 
 Mandatory
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -49,21 +43,15 @@ Description
 
 bsPrefix
 
-
-
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Used when the application is provided by a business service bound to this approuter.
-
-
 
 </td>
 </tr>
@@ -72,14 +60,10 @@ Used when the application is provided by a business service bound to this approu
 
 appName
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
@@ -98,21 +82,15 @@ Used to uniquely identify the application in HTML5 Application Repository.
 
 appVersion
 
-
-
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Used to uniquely identify a specific application version in HTML5 Application Repository. If no version is provided, the default application version will be used.
-
-
 
 </td>
 </tr>
@@ -121,21 +99,15 @@ Used to uniquely identify a specific application version in HTML5 Application Re
 
 resourcePath
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 The path to the file as it was stored in HTML5 Application Repository.
-
-
 
 </td>
 </tr>

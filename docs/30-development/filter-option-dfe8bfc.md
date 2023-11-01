@@ -129,14 +129,10 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Buildings?$filter=Loca
 
 Properties
 
-
-
 </th>
 <th valign="top">
 
 Internal Names
-
-
 
 </th>
 </tr>
@@ -145,14 +141,10 @@ Internal Names
 
 Cityname
 
-
-
 </td>
 <td valign="top">
 
 CITYNAME
-
-
 
 </td>
 </tr>
@@ -161,14 +153,10 @@ CITYNAME
 
 Location
 
-
-
 </td>
 <td valign="top">
 
 LOCATION
-
-
 
 </td>
 </tr>
@@ -177,14 +165,10 @@ LOCATION
 
 City
 
-
-
 </td>
 <td valign="top">
 
 CITY
-
-
 
 </td>
 </tr>

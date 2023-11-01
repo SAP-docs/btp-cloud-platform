@@ -13,14 +13,10 @@ Here's a list of some common terms you'll see when creating OData Requests.
 
 Term
 
-
-
 </th>
 <th valign="top">
 
 Definition
-
-
 
 </th>
 </tr>
@@ -29,14 +25,10 @@ Definition
 
 Request
 
-
-
 </td>
 <td valign="top">
 
 OData Protocol enables clients to make requests and retrieve responses from the OData service.
-
-
 
 </td>
 </tr>
@@ -45,14 +37,10 @@ OData Protocol enables clients to make requests and retrieve responses from the 
 
 Entity
 
-
-
 </td>
 <td valign="top">
 
 An entity is an instance of the **EntityType** element \(for example, Customer or Employee\) that is a structured record with a key that uniquely identifies it.
-
-
 
 </td>
 </tr>
@@ -61,14 +49,10 @@ An entity is an instance of the **EntityType** element \(for example, Customer o
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -77,14 +61,10 @@ An entity is an instance of the **EntityType** element \(for example, Customer o
 
 Entity Key
 
-
-
 </td>
 <td valign="top">
 
 Each entity has a key that uniquely identifies it \(for example, CustomerId or EmployeeId\). The key is defined by a subset of the entity type properties.
-
-
 
 </td>
 </tr>
@@ -93,14 +73,10 @@ Each entity has a key that uniquely identifies it \(for example, CustomerId or E
 
 Entity Type
 
-
-
 </td>
 <td valign="top">
 
 An entity type is a collection or category that a particular entity belongs to.
-
-
 
 </td>
 </tr>
@@ -109,14 +85,10 @@ An entity type is a collection or category that a particular entity belongs to.
 
 Entity Set
 
-
-
 </td>
 <td valign="top">
 
 An entity set is a group of all entities \(for example, the EntitySet Customers is a set of Customer instances\) for a particular entity type at any point in time.
-
-
 
 </td>
 </tr>
@@ -125,14 +97,10 @@ An entity set is a group of all entities \(for example, the EntitySet Customers 
 
 Property
 
-
-
 </td>
 <td valign="top">
 
 An entity type has one or more properties that define the entity type's structure. Each property has a name and one or more values.
-
-
 
 </td>
 </tr>

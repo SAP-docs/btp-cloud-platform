@@ -71,42 +71,30 @@ The example below shows the parameter \``memory`\` on a module level which defin
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Scope
-
-
 
 </th>
 <th valign="top">
 
 Read-Only \(System\)
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Default Value
 
-
-
 </th>
 <th valign="top">
 
 Example
-
-
 
 </th>
 </tr>
@@ -115,42 +103,30 @@ Example
 
 `authorization-url`
 
-
-
 </td>
 <td valign="top">
 
 All
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 The authorization URL as specified in the cloud controller's `/v2/info` endpoint.
-
-
 
 </td>
 <td valign="top">
 
 Generated as described in the description.
 
-
-
 </td>
 <td valign="top">
 
 `https://login.cf.sap.hana.ondemand.com`
-
-
 
 </td>
 </tr>
@@ -159,42 +135,30 @@ Generated as described in the description.
 
 `controller-url`
 
-
-
 </td>
 <td valign="top">
 
 All
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 The URL of the cloud controller
-
-
 
 </td>
 <td valign="top">
 
 Generated as described in the description.
 
-
-
 </td>
 <td valign="top">
 
 `https://api.cf.sap.hana.ondemand.com`
-
-
 
 </td>
 </tr>
@@ -203,35 +167,25 @@ Generated as described in the description.
 
 `default-domain`
 
-
-
 </td>
 <td valign="top">
 
 All
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 The default domain \(configured in the Cloud Foundry environment\)
 
-
-
 </td>
 <td valign="top">
 
 Generated as described in the description.
-
-
 
 </td>
 <td valign="top">
@@ -240,8 +194,6 @@ Generated as described in the description.
 
 `cfapps.acme.com`
 
-
-
 </td>
 </tr>
 <tr>
@@ -249,42 +201,30 @@ Generated as described in the description.
 
 `deploy-url`
 
-
-
 </td>
 <td valign="top">
 
 All
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 The deploy service URL for the Cloud Foundry environment
-
-
 
 </td>
 <td valign="top">
 
 Generated as described in the description.
 
-
-
 </td>
 <td valign="top">
 
 ``
-
-
 
 </td>
 </tr>
@@ -293,42 +233,30 @@ Generated as described in the description.
 
 `generated-password`
 
-
-
 </td>
 <td valign="top">
 
 All
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Randomly generated string value that is composed of 16 characters that may contain upper and lower case letters, digits and special characters \(\_, -, @, $, &, \#, \*\).
-
-
 
 </td>
 <td valign="top">
 
 Generated as described in the description.
 
-
-
 </td>
 <td valign="top">
 
 `IG@zGg#2g-cvMvsW`
-
-
 
 </td>
 </tr>
@@ -337,42 +265,30 @@ Generated as described in the description.
 
 `generated-user`
 
-
-
 </td>
 <td valign="top">
 
 All
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 A generated user id that is composed of 16 characters that may contain upper and lower case letters, digits and special characters \(\_, -, @, $, &, \#, \*\).
-
-
 
 </td>
 <td valign="top">
 
 Generated as described in the description.
 
-
-
 </td>
 <td valign="top">
 
 `uYi$d41TzM1-Dm6f`
-
-
 
 </td>
 </tr>
@@ -381,21 +297,15 @@ Generated as described in the description.
 
 `keep-existing-routes`
 
-
-
 </td>
 <td valign="top">
 
 Global
 
-
-
 </td>
 <td valign="top">
 
 Write
-
-
 
 </td>
 <td valign="top">
@@ -414,8 +324,6 @@ When specified on global level, under the `parameters` section of the descriptor
 <td valign="top">
 
 `false`
-
-
 
 </td>
 <td valign="top">
@@ -444,42 +352,30 @@ modules:
 
 `org`
 
-
-
 </td>
 <td valign="top">
 
 All
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Name of the target organization
-
-
 
 </td>
 <td valign="top">
 
 The current name of the target organization
 
-
-
 </td>
 <td valign="top">
 
 `initial, trial`
-
-
 
 </td>
 </tr>
@@ -488,42 +384,30 @@ The current name of the target organization
 
 `protocol`
 
-
-
 </td>
 <td valign="top">
 
 All
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 The protocol used by the Cloud Foundry environment.
-
-
 
 </td>
 <td valign="top">
 
 `http` or `https`
 
-
-
 </td>
 <td valign="top">
 
 `http, https`
-
-
 
 </td>
 </tr>
@@ -532,42 +416,30 @@ The protocol used by the Cloud Foundry environment.
 
 `space`
 
-
-
 </td>
 <td valign="top">
 
 All
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Name of the target organizational space
-
-
 
 </td>
 <td valign="top">
 
 Generated as described in the description.
 
-
-
 </td>
 <td valign="top">
 
 `initial, a007007`
-
-
 
 </td>
 </tr>
@@ -576,42 +448,30 @@ Generated as described in the description.
 
 `user`
 
-
-
 </td>
 <td valign="top">
 
 All
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Name of the current user
-
-
 
 </td>
 <td valign="top">
 
 Generated as described in the description.
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -620,42 +480,30 @@ Generated as described in the description.
 
 `xs-type`
 
-
-
 </td>
 <td valign="top">
 
 All
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 The XS type, Cloud Foundry or XS advanced
-
-
 
 </td>
 <td valign="top">
 
 CF
 
-
-
 </td>
 <td valign="top">
 
 `CF, XSA`
-
-
 
 </td>
 </tr>
@@ -664,42 +512,30 @@ CF
 
 `org-guid`
 
-
-
 </td>
 <td valign="top">
 
 All
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 GUID \(Globally Unique Identifier\) of the target organization
-
-
 
 </td>
 <td valign="top">
 
 N/A
 
-
-
 </td>
 <td valign="top">
 
 `06564ad5-1b38-458d-8c85-a2e0bcd990a9`
-
-
 
 </td>
 </tr>
@@ -708,42 +544,30 @@ N/A
 
 `space-guid`
 
-
-
 </td>
 <td valign="top">
 
 All
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 GUID \(Globally Unique Identifier\) of the target space
-
-
 
 </td>
 <td valign="top">
 
 N/A
 
-
-
 </td>
 <td valign="top">
 
 `06564ad5-1b38-458d-8c85-a2e0bcd990a9`
-
-
 
 </td>
 </tr>
@@ -752,42 +576,30 @@ N/A
 
 `mta-version`
 
-
-
 </td>
 <td valign="top">
 
 All
-
-
 
 </td>
 <td valign="top">
 
 Write
 
-
-
 </td>
 <td valign="top">
 
 The version of the MTA
-
-
 
 </td>
 <td valign="top">
 
 N/A
 
-
-
 </td>
 <td valign="top">
 
 `1.0.0`
-
-
 
 </td>
 </tr>
@@ -796,42 +608,30 @@ N/A
 
 `mta-id`
 
-
-
 </td>
 <td valign="top">
 
 All
-
-
 
 </td>
 <td valign="top">
 
 Write
 
-
-
 </td>
 <td valign="top">
 
 The ID of the MTA
-
-
 
 </td>
 <td valign="top">
 
 N/A
 
-
-
 </td>
 <td valign="top">
 
 `1.0.0`
-
-
 
 </td>
 </tr>
@@ -849,42 +649,30 @@ These parameters can be used with the `provides` or `requires` dependencies:
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Scope
-
-
 
 </th>
 <th valign="top">
 
 Read-Only \(System\)
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Default Value
 
-
-
 </th>
 <th valign="top">
 
 Example
-
-
 
 </th>
 </tr>
@@ -893,42 +681,30 @@ Example
 
 `env-var-name`
 
-
-
 </td>
 <td valign="top">
 
 required dependency
-
-
 
 </td>
 <td valign="top">
 
 Write
 
-
-
 </td>
 <td valign="top">
 
 Used when consuming an existing service key. Specifies the name of the environment variable that will contain the service key's credentials. See Consumption of existing service keys for more information.
-
-
 
 </td>
 <td valign="top">
 
 The name of the service key.
 
-
-
 </td>
 <td valign="top">
 
 `env-var-name: SERVICE_KEY_CREDENTIALS`
-
-
 
 </td>
 </tr>
@@ -937,28 +713,20 @@ The name of the service key.
 
 `visibility`
 
-
-
 </td>
 <td valign="top">
 
 provided dependency
-
-
 
 </td>
 <td valign="top">
 
 Write
 
-
-
 </td>
 <td valign="top">
 
 Specifies the organizations and spaces in which public provided dependencies are visible. See Visibility of cross-MTA configuration for more information.
-
-
 
 </td>
 <td valign="top">
@@ -1113,7 +881,7 @@ The feature enables an existing Cloud Foundry entity parameter value to be used 
 > -   `org.cloudfoundry.user-provided-service`
 > -   `org.cloudfoundry.existing-service`
 
-Resolved parameters can be referenced only from other resources. If a dynamic parameter is referenced from other places, like modules or configuration entries, the reference won’t be resolved.
+Resolved parameters can only be referenced from other resources or from a cross-MTA dependency. If a dynamic parameter is referenced from other places, like modules, the reference won’t be resolved.
 
 > ### Sample Code:  
 > MTA Deployment Descriptor \(`mtad.yaml`\)
@@ -1124,12 +892,12 @@ Resolved parameters can be referenced only from other resources. If a dynamic pa
 > version: 1.0.0 
 > 
 > modules: 
->  - name: sample-app 
->    type: staticfile 
->    path: content.zip 
->    requires: 
->      - name: test-service 
->      - name: hana-service 
+>   - name: sample-app 
+>     type: staticfile 
+>     path: content.zip 
+>     requires: 
+>       - name: test-service 
+>       - name: hana-service 
 > 
 > resources: 
 >   - name: test-service 

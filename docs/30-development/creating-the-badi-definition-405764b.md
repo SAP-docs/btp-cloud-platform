@@ -17,28 +17,20 @@ When creating a BAdI definition, please pay attention that some features may not
 
 Option
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Restriction
 
-
-
 </th>
 <th valign="top">
 
 Comment
-
-
 
 </th>
 </tr>
@@ -47,28 +39,20 @@ Comment
 
 Description
 
-
-
 </td>
 <td valign="top">
 
 The short description of the BAdI definition
-
-
 
 </td>
 <td valign="top">
 
 Mandatory
 
-
-
 </td>
 <td valign="top">
 
 Please keep the short description clear and intuitive for frontend display.
-
-
 
 </td>
 </tr>
@@ -77,28 +61,20 @@ Please keep the short description clear and intuitive for frontend display.
 
 Instantiation
 
-
-
 </td>
 <td valign="top">
 
 BAdI implementations are objects that may contain a state. Therefore, it's important whether subsequent similar requests for BAdI instances return the same or different instances of the BAdI implementation. For the instantiation of BAdIs, three different modes are supported.
-
-
 
 </td>
 <td valign="top">
 
 Set to `Creating New Instances`
 
-
-
 </td>
 <td valign="top">
 
 This option simplifies the instantiation process.
-
-
 
 </td>
 </tr>
@@ -107,28 +83,20 @@ This option simplifies the instantiation process.
 
 Multiple Use Indicator
 
-
-
 </td>
 <td valign="top">
 
 If this indicator is set, several BAdI implementations can be active at the same time.
-
-
 
 </td>
 <td valign="top">
 
 Set to `TRUE`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -137,28 +105,20 @@ Set to `TRUE`
 
 Use Fallback Indicator
 
-
-
 </td>
 <td valign="top">
 
 If this indicator is set, the fallback class will be executed in case no other implementation is called.
-
-
 
 </td>
 <td valign="top">
 
 No restrictions
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -167,28 +127,20 @@ No restrictions
 
 Limited Filter Use Indicator
 
-
-
 </td>
 <td valign="top">
 
 If this checkbox is marked, at most only one filter must be defined in the BAdI definition.
-
-
 
 </td>
 <td valign="top">
 
 Set to `FALSE`
 
-
-
 </td>
 <td valign="top">
 
 It's not allowed to prevent interference with the mandatory filter `TENANT_PREFIX`.
-
-
 
 </td>
 </tr>
@@ -197,28 +149,20 @@ It's not allowed to prevent interference with the mandatory filter `TENANT_PREFI
 
 AMDP BAdI
 
-
-
 </td>
 <td valign="top">
 
 Option to use a BAdI definition in an ABAP-Managed Database Procedure \(AMDP\)
-
-
 
 </td>
 <td valign="top">
 
 Set to `FALSE`
 
-
-
 </td>
 <td valign="top">
 
 This option can't be set due to the limitations of our app.
-
-
 
 </td>
 </tr>
@@ -227,28 +171,20 @@ This option can't be set due to the limitations of our app.
 
 Example Classes
 
-
-
 </td>
 <td valign="top">
 
 In order to demonstrate how to implement the BAdI method, you may use implementation example classes to provide a template for your customers.
-
-
 
 </td>
 <td valign="top">
 
 Mandatory
 
-
-
 </td>
 <td valign="top">
 
 Exactly one example class must be implemented for your customers to refer to. The class should contain meaningful restricted ABAP coding.
-
-
 
 </td>
 </tr>
@@ -257,28 +193,20 @@ Exactly one example class must be implemented for your customers to refer to. Th
 
 BAdI Interface
 
-
-
 </td>
 <td valign="top">
 
 Defines the methods for this BAdI.
-
-
 
 </td>
 <td valign="top">
 
 For restrictions, see the next section below
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -345,21 +273,15 @@ Define a filter for your BAdI definition. Note that filter usage in BAdI impleme
 
 Option
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Recommendation/Restriction
-
-
 
 </th>
 </tr>
@@ -368,14 +290,10 @@ Recommendation/Restriction
 
 Type
 
-
-
 </td>
 <td valign="top">
 
 Data type of BAdI filter attribute.
-
-
 
 </td>
 <td valign="top">
@@ -402,21 +320,15 @@ The following types are available:
 
 Description
 
-
-
 </td>
 <td valign="top">
 
 The short description of the filter.
 
-
-
 </td>
 <td valign="top">
 
 This field is mandatory. Please keep the short description clear and intuitive for frontend display.
-
-
 
 </td>
 </tr>
@@ -425,21 +337,15 @@ This field is mandatory. Please keep the short description clear and intuitive f
 
 Only constant filter values
 
-
-
 </td>
 <td valign="top">
 
 The field indicates filters which must be specified as constants when calling them. Therefore, you can already make sure during the compilation of your BAdI whether or not a corresponding BAdI implementation is called. This improves the runtime.
 
-
-
 </td>
 <td valign="top">
 
 This option can be set depending on business use case. The default is that the indicator is not set.
-
-
 
 </td>
 </tr>
@@ -448,21 +354,15 @@ This option can be set depending on business use case. The default is that the i
 
 Value check
 
-
-
 </td>
 <td valign="top">
 
 It's possible to check the filter values maintained for BAdI implementations.
 
-
-
 </td>
 <td valign="top">
 
 Set the value check to `FALSE`. Note that filter value checks are not supported.
-
-
 
 </td>
 </tr>

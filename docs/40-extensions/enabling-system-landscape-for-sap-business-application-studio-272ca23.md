@@ -32,22 +32,16 @@ The following procedure outlines the steps you need to perform to consume the AP
         <th valign="top">
 
         Additional Properties \(variant 1\)
-
-
         
         </th>
         <th valign="top">
 
         Additional Properties \(variant 2\)
-
-
         
         </th>
         <th valign="top">
 
         Description
-
-
         
         </th>
         </tr>
@@ -55,22 +49,16 @@ The following procedure outlines the steps you need to perform to consume the AP
         <td valign="top">
         
         `x-correlation-id` 
-
-
         
         </td>
         <td valign="top">
         
         `x-correlation-id` 
-
-
         
         </td>
         <td valign="top">
         
         The property identifies the consumption bundle and its APIs that are exposed by the SAP S/4HANA Cloud system. The destination also provides the required credentials to consume the bundle and use it for further development in the SAP Business Application Studio.
-
-
         
         </td>
         </tr>
@@ -78,22 +66,16 @@ The following procedure outlines the steps you need to perform to consume the AP
         <td valign="top">
         
         `x-system-id` 
-
-
         
         </td>
         <td valign="top">
         
         `x-system-name` 
-
-
         
         </td>
         <td valign="top" rowspan="2">
         
         Properties that uniquely identify the local tenant of the registered SAP S/4HANA Cloud system.
-
-
         
         </td>
         </tr>
@@ -101,15 +83,11 @@ The following procedure outlines the steps you need to perform to consume the AP
         <td valign="top">
         
         `x-system-type` 
-
-
         
         </td>
         <td valign="top">
         
         `x-system-base-url` 
-
-
         
         </td>
         </tr>

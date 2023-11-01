@@ -45,15 +45,11 @@ You can pull \(remotely available\) changes of your software component to the se
     <th valign="top">
 
     Column Name
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -61,15 +57,11 @@ You can pull \(remotely available\) changes of your software component to the se
     <td valign="top">
     
     *<ID\>* 
-
-
     
     </td>
     <td valign="top">
     
     A unique key \(UUID\) of the software component. This column is initially hidden.
-
-
     
     </td>
     </tr>
@@ -77,15 +69,11 @@ You can pull \(remotely available\) changes of your software component to the se
     <td valign="top">
     
     *<Branch Name\>* 
-
-
     
     </td>
     <td valign="top">
     
     The branch which was used for the executed action.
-
-
     
     </td>
     </tr>
@@ -93,15 +81,11 @@ You can pull \(remotely available\) changes of your software component to the se
     <td valign="top">
     
     *<Short Commit ID\>* 
-
-
     
     </td>
     <td valign="top">
     
     The short commit id that was used for the executed action.
-
-
     
     </td>
     </tr>
@@ -109,15 +93,11 @@ You can pull \(remotely available\) changes of your software component to the se
     <td valign="top">
     
     *<Tag\>* 
-
-
     
     </td>
     <td valign="top">
     
     The name of the tag which is eventually assigned to the used commit.
-
-
     
     </td>
     </tr>
@@ -125,15 +105,11 @@ You can pull \(remotely available\) changes of your software component to the se
     <td valign="top">
     
     *<Last Status Change\>* 
-
-
     
     </td>
     <td valign="top">
     
     The relative time from current system time and the timestamp of the last status change.
-
-
     
     </td>
     </tr>
@@ -141,8 +117,6 @@ You can pull \(remotely available\) changes of your software component to the se
     <td valign="top">
     
     *<Status\>* 
-
-
     
     </td>
     <td valign="top">
@@ -162,15 +136,11 @@ You can pull \(remotely available\) changes of your software component to the se
     <td valign="top">
     
     *<Started By\>* 
-
-
     
     </td>
     <td valign="top">
     
     E-Mail address of the user who started the pull.
-
-
     
     </td>
     </tr>
@@ -178,15 +148,11 @@ You can pull \(remotely available\) changes of your software component to the se
     <td valign="top">
     
     *<Start Time\>* 
-
-
     
     </td>
     <td valign="top">
     
     Date and time when the pull has been triggered.
-
-
     
     </td>
     </tr>
@@ -194,15 +160,11 @@ You can pull \(remotely available\) changes of your software component to the se
     <td valign="top">
     
     *<Change Time\>* 
-
-
     
     </td>
     <td valign="top">
     
     Date and time of the changes during the pull procedure.
-
-
     
     </td>
     </tr>
@@ -228,15 +190,11 @@ You can pull \(remotely available\) changes of your software component to the se
     <th valign="top">
 
     Column Name
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -244,15 +202,11 @@ You can pull \(remotely available\) changes of your software component to the se
     <td valign="top">
     
     *<Index\>*
-
-
     
     </td>
     <td valign="top">
     
     Index number to sort the table properly.
-
-
     
     </td>
     </tr>
@@ -260,15 +214,11 @@ You can pull \(remotely available\) changes of your software component to the se
     <td valign="top">
     
     *<Log\>*
-
-
     
     </td>
     <td valign="top">
     
     Name of the log.
-
-
     
     </td>
     </tr>
@@ -276,15 +226,11 @@ You can pull \(remotely available\) changes of your software component to the se
     <td valign="top">
     
     *<Severity\>*
-
-
     
     </td>
     <td valign="top">
     
     Can have the status success, warning, error or other.
-
-
     
     </td>
     </tr>
@@ -292,15 +238,11 @@ You can pull \(remotely available\) changes of your software component to the se
     <td valign="top">
     
     *<Transport Request\>*
-
-
     
     </td>
     <td valign="top">
     
     Transport request ID which was used for the log.
-
-
     
     </td>
     </tr>
@@ -308,15 +250,11 @@ You can pull \(remotely available\) changes of your software component to the se
     <td valign="top">
     
     *<File inlcuding Path\>*
-
-
     
     </td>
     <td valign="top">
     
     The system file path where the log files are saved.
-
-
     
     </td>
     </tr>
@@ -324,15 +262,11 @@ You can pull \(remotely available\) changes of your software component to the se
     <td valign="top">
     
     *<Timestamp\>*
-
-
     
     </td>
     <td valign="top">
     
     Date and time when the log was created.
-
-
     
     </td>
     </tr>

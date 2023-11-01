@@ -17,14 +17,10 @@ You can search the tables for specific ABAP keywords and system fields that are 
 
 ABAP System Field
 
-
-
 </th>
 <th valign="top">
 
 Restriction
-
-
 
 </th>
 </tr>
@@ -33,14 +29,10 @@ Restriction
 
 sy-dbcnt
 
-
-
 </td>
 <td valign="top">
 
 read-only access
-
-
 
 </td>
 </tr>
@@ -49,14 +41,10 @@ read-only access
 
 sy-fdpos
 
-
-
 </td>
 <td valign="top">
 
 read-only access
-
-
 
 </td>
 </tr>
@@ -65,14 +53,10 @@ read-only access
 
 sy-index
 
-
-
 </td>
 <td valign="top">
 
 read-only access
-
-
 
 </td>
 </tr>
@@ -81,14 +65,10 @@ read-only access
 
 sy-subrc
 
-
-
 </td>
 <td valign="top">
 
 read-only access
-
-
 
 </td>
 </tr>
@@ -97,14 +77,10 @@ read-only access
 
 sy-tabix
 
-
-
 </td>
 <td valign="top">
 
 read-only access
-
-
 
 </td>
 </tr>
@@ -121,14 +97,10 @@ read-only access
 
 ABAP Keyword
 
-
-
 </th>
 <th valign="top">
 
 Subordinate Keyword
-
-
 
 </th>
 </tr>
@@ -136,8 +108,6 @@ Subordinate Keyword
 <td valign="top">
 
 APPEND
-
-
 
 </td>
 <td valign="top">
@@ -151,8 +121,6 @@ APPEND
 
 ASSIGN
 
-
-
 </td>
 <td valign="top">
 
@@ -164,8 +132,6 @@ ASSIGN
 <td valign="top">
 
 CASE
-
-
 
 </td>
 <td valign="top">
@@ -179,8 +145,6 @@ CASE
 
 CATCH
 
-
-
 </td>
 <td valign="top">
 
@@ -192,8 +156,6 @@ CATCH
 <td valign="top">
 
 CHECK
-
-
 
 </td>
 <td valign="top">
@@ -207,8 +169,6 @@ CHECK
 
 CLEANUP
 
-
-
 </td>
 <td valign="top">
 
@@ -220,8 +180,6 @@ CLEANUP
 <td valign="top">
 
 CLEAR
-
-
 
 </td>
 <td valign="top">
@@ -235,8 +193,6 @@ CLEAR
 
 COLLECT
 
-
-
 </td>
 <td valign="top">
 
@@ -248,8 +204,6 @@ COLLECT
 <td valign="top">
 
 CONCATENATE
-
-
 
 </td>
 <td valign="top">
@@ -263,8 +217,6 @@ CONCATENATE
 
 CONDENSE
 
-
-
 </td>
 <td valign="top">
 
@@ -276,8 +228,6 @@ CONDENSE
 <td valign="top">
 
 CONSTANTS
-
-
 
 </td>
 <td valign="top">
@@ -291,8 +241,6 @@ CONSTANTS
 
 CONTINUE
 
-
-
 </td>
 <td valign="top">
 
@@ -305,8 +253,6 @@ CONTINUE
 
 CONVERT
 
-
-
 </td>
 <td valign="top">
 
@@ -318,16 +264,12 @@ CONVERT-TEXT
 
 CONVERT-TIME-STAMP
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 DATA
-
-
 
 </td>
 <td valign="top">
@@ -341,8 +283,6 @@ DATA
 
 DELETE
 
-
-
 </td>
 <td valign="top">
 
@@ -350,16 +290,12 @@ DELETE
 
 DELETE-ITAB
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 DO
-
-
 
 </td>
 <td valign="top">
@@ -373,8 +309,6 @@ DO
 
 ELSE
 
-
-
 </td>
 <td valign="top">
 
@@ -386,8 +320,6 @@ ELSE
 <td valign="top">
 
 ELSEIF
-
-
 
 </td>
 <td valign="top">
@@ -401,8 +333,6 @@ ELSEIF
 
 ENDCASE
 
-
-
 </td>
 <td valign="top">
 
@@ -414,8 +344,6 @@ ENDCASE
 <td valign="top">
 
 ENDDO
-
-
 
 </td>
 <td valign="top">
@@ -429,8 +357,6 @@ ENDDO
 
 ENDIF
 
-
-
 </td>
 <td valign="top">
 
@@ -442,8 +368,6 @@ ENDIF
 <td valign="top">
 
 ENDLOOP
-
-
 
 </td>
 <td valign="top">
@@ -457,8 +381,6 @@ ENDLOOP
 
 ENDSELECT
 
-
-
 </td>
 <td valign="top">
 
@@ -470,8 +392,6 @@ ENDSELECT
 <td valign="top">
 
 ENDTRY
-
-
 
 </td>
 <td valign="top">
@@ -485,8 +405,6 @@ ENDTRY
 
 ENDWHILE
 
-
-
 </td>
 <td valign="top">
 
@@ -498,8 +416,6 @@ ENDWHILE
 <td valign="top">
 
 EXIT
-
-
 
 </td>
 <td valign="top">
@@ -513,8 +429,6 @@ EXIT
 
 EXPORT
 
-
-
 </td>
 <td valign="top">
 
@@ -524,16 +438,12 @@ EXPORT-DATA-BUFFER
 
 EXPORT-ITAB
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 FIELD-SYMBOLS
-
-
 
 </td>
 <td valign="top">
@@ -547,8 +457,6 @@ FIELD-SYMBOLS
 
 FIND
 
-
-
 </td>
 <td valign="top">
 
@@ -561,8 +469,6 @@ FIND
 
 GET
 
-
-
 </td>
 <td valign="top">
 
@@ -572,8 +478,6 @@ GET-BIT
 
 GET-TIME-STAMP
 
-
-
 </td>
 </tr>
 <tr>
@@ -581,14 +485,10 @@ GET-TIME-STAMP
 
 IF
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -596,8 +496,6 @@ IF
 <td valign="top">
 
 IMPORT
-
-
 
 </td>
 <td valign="top">
@@ -608,16 +506,12 @@ IMPORT-DATA-BUFFER
 
 IMPORT-ITAB
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 INSERT
-
-
 
 </td>
 <td valign="top">
@@ -626,16 +520,12 @@ INSERT
 
 INSERT-ITAB
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 LOOP
-
-
 
 </td>
 <td valign="top">
@@ -644,16 +534,12 @@ LOOP
 
 LOOP-ITAB
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 MESSAGE
-
-
 
 </td>
 <td valign="top">
@@ -662,16 +548,12 @@ MESSAGE
 
 MESSAGE-INTO
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 MODIFY
-
-
 
 </td>
 <td valign="top">
@@ -680,16 +562,12 @@ MODIFY
 
 MODIFY-ITAB
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 MOVE-CORRESPONDING
-
-
 
 </td>
 <td valign="top">
@@ -703,8 +581,6 @@ MOVE-CORRESPONDING
 
 OVERLAY
 
-
-
 </td>
 <td valign="top">
 
@@ -717,16 +593,12 @@ OVERLAY
 
 RAISE
 
-
-
 </td>
 <td valign="top">
 
 **Restricted to following keywords:**
 
 RAISE-EXCEPTION
-
-
 
 </td>
 </tr>
@@ -735,8 +607,6 @@ RAISE-EXCEPTION
 
 READ
 
-
-
 </td>
 <td valign="top">
 
@@ -744,16 +614,12 @@ READ
 
 READ-ITAB
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 REPLACE
-
-
 
 </td>
 <td valign="top">
@@ -767,8 +633,6 @@ REPLACE
 
 RESUME
 
-
-
 </td>
 <td valign="top">
 
@@ -780,8 +644,6 @@ RESUME
 <td valign="top">
 
 RETRY
-
-
 
 </td>
 <td valign="top">
@@ -795,8 +657,6 @@ RETRY
 
 RETURN
 
-
-
 </td>
 <td valign="top">
 
@@ -808,8 +668,6 @@ RETURN
 <td valign="top">
 
 SELECT
-
-
 
 </td>
 <td valign="top">
@@ -823,8 +681,6 @@ SELECT
 
 SET
 
-
-
 </td>
 <td valign="top">
 
@@ -834,8 +690,6 @@ SET-ASSOCIATION
 
 SET-BIT
 
-
-
 </td>
 </tr>
 <tr>
@@ -843,14 +697,10 @@ SET-BIT
 
 SHIFT
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -859,8 +709,6 @@ SHIFT
 
 SORT
 
-
-
 </td>
 <td valign="top">
 
@@ -868,16 +716,12 @@ SORT
 
 SORT-ITAB
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 SPLIT
-
-
 
 </td>
 <td valign="top">
@@ -891,8 +735,6 @@ SPLIT
 
 TRANSLATE
 
-
-
 </td>
 <td valign="top">
 
@@ -904,8 +746,6 @@ TRANSLATE
 <td valign="top">
 
 TRY
-
-
 
 </td>
 <td valign="top">
@@ -919,8 +759,6 @@ TRY
 
 TYPES
 
-
-
 </td>
 <td valign="top">
 
@@ -932,8 +770,6 @@ TYPES
 <td valign="top">
 
 UNASSIGN
-
-
 
 </td>
 <td valign="top">
@@ -947,8 +783,6 @@ UNASSIGN
 
 WHEN
 
-
-
 </td>
 <td valign="top">
 
@@ -960,8 +794,6 @@ WHEN
 <td valign="top">
 
 WHILE
-
-
 
 </td>
 <td valign="top">

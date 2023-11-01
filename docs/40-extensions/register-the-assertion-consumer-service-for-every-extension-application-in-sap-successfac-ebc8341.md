@@ -41,15 +41,11 @@
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Value
-
-
     
     </th>
     </tr>
@@ -57,15 +53,11 @@
     <td valign="top">
     
     *Assertion Consumer Service*
-
-
     
     </td>
     <td valign="top">
     
     This is the absolute URL that corresponds to the URL of the application router. See [Application Router](../30-development/application-router-01c5f9b.md).
-
-
     
     </td>
     </tr>
@@ -73,8 +65,6 @@
     <td valign="top">
     
     *Logout URL*
-
-
     
     </td>
     <td valign="top">
@@ -95,15 +85,11 @@
     <td valign="top">
     
     *Application Name*
-
-
     
     </td>
     <td valign="top">
     
     Select *SAP Business Technology Platform* from the drop-down list.
-
-
     
     </td>
     </tr>
@@ -111,15 +97,11 @@
     <td valign="top">
     
     *SHA-256 Certificate*
-
-
     
     </td>
     <td valign="top">
     
     Select the checkbox if it is not automatically selected when specifying the *Application Name* value.
-
-
     
     </td>
     </tr>

@@ -19,14 +19,10 @@ The class CL\_MAIL\_ADDRESS implements the interface IF\_MAIL\_ADDRESS and allow
 
 Method
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -35,14 +31,10 @@ Description
 
 Create\_instance
 
-
-
 </td>
 <td valign="top">
 
 Provides an email address instance.
-
-
 
 </td>
 </tr>
@@ -51,14 +43,10 @@ Provides an email address instance.
 
 validate
 
-
-
 </td>
 <td valign="top">
 
 Validates whether a string is a syntactic valid mail address \(according to RFC 5322 Standard\).
-
-
 
 </td>
 </tr>

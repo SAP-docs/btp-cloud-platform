@@ -12,5 +12,5 @@ In the Cloud Foundry environment, you deploy applications and consume services a
 
 -   [Managing Orgs](managing-orgs-fe1ebf3.md)
 -   [Managing Spaces](managing-spaces-5209d55.md)
--   [Managing Space Quota Plans](managing-space-quota-plans-4e5f0ee.md)
+-   [Managing Space Quotas](managing-space-quotas-4e5f0ee.md)
 

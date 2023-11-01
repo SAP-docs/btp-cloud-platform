@@ -32,14 +32,10 @@ To administer your Cloud Foundry environment, navigate to orgs, and spaces in th
 
 Entity You'd Like to Navigate to
 
-
-
 </th>
 <th valign="top">
 
 Navigation Path
-
-
 
 </th>
 </tr>
@@ -47,8 +43,6 @@ Navigation Path
 <td valign="top">
 
 Org
-
-
 
 </td>
 <td valign="top">
@@ -66,8 +60,6 @@ Navigate to the subaccount that contains the Cloud Foundry org. If you've alread
 <td valign="top">
 
 Space
-
-
 
 </td>
 <td valign="top">

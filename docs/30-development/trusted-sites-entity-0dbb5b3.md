@@ -23,21 +23,15 @@ Technical name: `TrustedSites`
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Necessity
-
-
 
 </th>
 </tr>
@@ -46,21 +40,15 @@ Necessity
 
 ListName
 
-
-
 </td>
 <td valign="top">
 
 Trusted Sites
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>

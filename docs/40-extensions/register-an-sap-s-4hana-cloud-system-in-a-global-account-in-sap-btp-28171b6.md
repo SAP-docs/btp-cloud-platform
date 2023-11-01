@@ -97,11 +97,20 @@ The registration process has the following states displayed in the cockpit:
 
     3.  Choose *Add*.
 
-    4.  Choose *Get Token*.
+    4.  In the *Communication Scenario Groups* dropdown menu, select one of the following options:
+
+        -   *All Communication Scenarios*: to create any of the communication scenarios in SAP S/4HANA Cloud.
+
+        -   *Integration with SAP Ariba Buying*: to allow the automatic enablement of the `SAP_COM_0545` and `SAP_COM_0A00` communication scenarios in SAP S/4HANA Cloud.
+
+        -   *Integration with SAP Start*: to allow the automatic enablement of the `SAP_COM_0647` communication scenario in SAP S/4HANA Cloud.
+
+
+    5.  Choose *Get Token*.
 
         The system generates the registration token.
 
-    5.  Copy the registration token and send it to the tenant administrator for the respective SAP S/4HANA Cloud system. You need it for configuring the integration on the extended SAP S/4HANA Cloud system side.
+    6.  Copy the registration token and send it to the tenant administrator for the respective SAP S/4HANA Cloud system. You need it for configuring the integration on the extended SAP S/4HANA Cloud system side.
 
         You can also get the registration token later, once the system appears in the list on the *Systems* page.
 
@@ -110,7 +119,7 @@ The registration process has the following states displayed in the cockpit:
         > ### Note:  
         > A registration token can be used only once, for registering a single SAP S/4HANA Cloud system.
 
-    6.  Close the wizard.
+    7.  Close the wizard.
 
         The SAP S/4HANA Cloud system appears in the list of systems on the *Systems* page. Its *Status* field is empty because the registration process is not yet completed.
 

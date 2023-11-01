@@ -21,21 +21,15 @@ Use method `IF_CHDO_OBJECT_TOOLS_REL~CHECK_AUTHORIZATION` to run an additional a
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -44,21 +38,15 @@ Value Help
 
 IV\_OBJECT
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Name of Change Document Object
-
-
 
 </td>
 </tr>
@@ -67,14 +55,10 @@ Name of Change Document Object
 
 IV\_ACTIVITY
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
@@ -99,21 +83,15 @@ Activity to be checked. Existing values:
 
 IV\_DEVCLASS
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -128,21 +106,15 @@ IV\_DEVCLASS
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -151,21 +123,15 @@ Value Help
 
 RV\_IS\_AUTHORIZED
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 ABAP\_TRUE if the authority check was successfully
-
-
 
 </td>
 </tr>

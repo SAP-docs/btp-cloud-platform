@@ -19,42 +19,30 @@ The methods TO and FROM provide flexible ways to extract a substring from a stri
 
 A
 
-
-
 </th>
 <th valign="top">
 
 B
-
-
 
 </th>
 <th valign="top">
 
 C
 
-
-
 </th>
 <th valign="top">
 
 D
-
-
 
 </th>
 <th valign="top">
 
 E
 
-
-
 </th>
 <th valign="top">
 
 F
-
-
 
 </th>
 </tr>
@@ -63,42 +51,30 @@ F
 
 1
 
-
-
 </td>
 <td valign="top">
 
 2
-
-
 
 </td>
 <td valign="top">
 
 3
 
-
-
 </td>
 <td valign="top">
 
 4
-
-
 
 </td>
 <td valign="top">
 
 5
 
-
-
 </td>
 <td valign="top">
 
 6
-
-
 
 </td>
 </tr>
@@ -107,42 +83,30 @@ F
 
 \-6
 
-
-
 </td>
 <td valign="top">
 
 \-5
-
-
 
 </td>
 <td valign="top">
 
 \-4
 
-
-
 </td>
 <td valign="top">
 
 \-3
-
-
 
 </td>
 <td valign="top">
 
 \-2
 
-
-
 </td>
 <td valign="top">
 
 \-1
-
-
 
 </td>
 </tr>

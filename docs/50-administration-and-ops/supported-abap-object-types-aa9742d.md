@@ -13,21 +13,15 @@ The following table contains all released ABAP object types that are supported i
 
 Object Name
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Generated
-
-
 
 </th>
 </tr>
@@ -36,14 +30,10 @@ Generated
 
 ADSO
 
-
-
 </td>
 <td valign="top">
 
 DataStore Object
-
-
 
 </td>
 <td valign="top">
@@ -57,14 +47,10 @@ DataStore Object
 
 ADVC
 
-
-
 </td>
 <td valign="top">
 
 App Variant \(LRep cross-client content\)
-
-
 
 </td>
 <td valign="top">
@@ -78,14 +64,10 @@ App Variant \(LRep cross-client content\)
 
 AIFC
 
-
-
 </td>
 <td valign="top">
 
 Objects from AIF content
-
-
 
 </td>
 <td valign="top">
@@ -99,14 +81,10 @@ Objects from AIF content
 
 APCO
 
-
-
 </td>
 <td valign="top">
 
 Application Components
-
-
 
 </td>
 <td valign="top">
@@ -120,14 +98,10 @@ Application Components
 
 APIS
 
-
-
 </td>
 <td valign="top">
 
 API Release State of Objects
-
-
 
 </td>
 <td valign="top">
@@ -141,14 +115,10 @@ API Release State of Objects
 
 APLO
 
-
-
 </td>
 <td valign="top">
 
 Application Log Object
-
-
 
 </td>
 <td valign="top">
@@ -162,14 +132,10 @@ Application Log Object
 
 AREA
 
-
-
 </td>
 <td valign="top">
 
 InfoArea
-
-
 
 </td>
 <td valign="top">
@@ -183,14 +149,10 @@ InfoArea
 
 AUTH
 
-
-
 </td>
 <td valign="top">
 
 Authorization Check Fields
-
-
 
 </td>
 <td valign="top">
@@ -204,14 +166,10 @@ Authorization Check Fields
 
 BDEF
 
-
-
 </td>
 <td valign="top">
 
 Behavior Definition
-
-
 
 </td>
 <td valign="top">
@@ -225,14 +183,10 @@ Behavior Definition
 
 BRLC
 
-
-
 </td>
 <td valign="top">
 
 Business Role Custom
-
-
 
 </td>
 <td valign="top">
@@ -246,14 +200,10 @@ Business Role Custom
 
 BUGR
 
-
-
 </td>
 <td valign="top">
 
 Business User Group
-
-
 
 </td>
 <td valign="top">
@@ -267,14 +217,10 @@ Business User Group
 
 CDAT
 
-
-
 </td>
 <td valign="top">
 
 View Cluster Maintenance: Data
-
-
 
 </td>
 <td valign="top">
@@ -288,14 +234,10 @@ View Cluster Maintenance: Data
 
 CFDA
 
-
-
 </td>
 <td valign="top">
 
 Custom Fields: BAdIs of Business Context
-
-
 
 </td>
 <td valign="top">
@@ -309,14 +251,10 @@ Custom Fields: BAdIs of Business Context
 
 CFDF
 
-
-
 </td>
 <td valign="top">
 
 Custom Field
-
-
 
 </td>
 <td valign="top">
@@ -330,14 +268,10 @@ Custom Field
 
 CHDO
 
-
-
 </td>
 <td valign="top">
 
 Change Document
-
-
 
 </td>
 <td valign="top">
@@ -351,14 +285,10 @@ Change Document
 
 CHKC
 
-
-
 </td>
 <td valign="top">
 
 ATC Check Category
-
-
 
 </td>
 <td valign="top">
@@ -372,14 +302,10 @@ ATC Check Category
 
 CHKE
 
-
-
 </td>
 <td valign="top">
 
 Exemptions
-
-
 
 </td>
 <td valign="top">
@@ -393,14 +319,10 @@ Exemptions
 
 CHKO
 
-
-
 </td>
 <td valign="top">
 
 ATC Check Object
-
-
 
 </td>
 <td valign="top">
@@ -414,14 +336,10 @@ ATC Check Object
 
 CHKV
 
-
-
 </td>
 <td valign="top">
 
 ATC Check Variant
-
-
 
 </td>
 <td valign="top">
@@ -435,14 +353,10 @@ ATC Check Variant
 
 CLAS
 
-
-
 </td>
 <td valign="top">
 
 Class
-
-
 
 </td>
 <td valign="top">
@@ -456,14 +370,10 @@ Class
 
 CTRT
 
-
-
 </td>
 <td valign="top">
 
 Currency Translation Type
-
-
 
 </td>
 <td valign="top">
@@ -477,14 +387,10 @@ Currency Translation Type
 
 DCLS
 
-
-
 </td>
 <td valign="top">
 
 ABAP Data Control Language Sources
-
-
 
 </td>
 <td valign="top">
@@ -498,14 +404,10 @@ ABAP Data Control Language Sources
 
 DDLS
 
-
-
 </td>
 <td valign="top">
 
 Data Definition Language Source
-
-
 
 </td>
 <td valign="top">
@@ -519,14 +421,10 @@ Data Definition Language Source
 
 DDLX
 
-
-
 </td>
 <td valign="top">
 
 Core Data Services Metadata Extensions
-
-
 
 </td>
 <td valign="top">
@@ -540,14 +438,10 @@ Core Data Services Metadata Extensions
 
 DEVC
 
-
-
 </td>
 <td valign="top">
 
 Package
-
-
 
 </td>
 <td valign="top">
@@ -561,14 +455,10 @@ Package
 
 DMOD
 
-
-
 </td>
 <td valign="top">
 
 Data Flow
-
-
 
 </td>
 <td valign="top">
@@ -582,14 +472,10 @@ Data Flow
 
 DOMA
 
-
-
 </td>
 <td valign="top">
 
 Domain
-
-
 
 </td>
 <td valign="top">
@@ -603,14 +489,10 @@ Domain
 
 DPTA
 
-
-
 </td>
 <td valign="top">
 
 Data Protection Template
-
-
 
 </td>
 <td valign="top">
@@ -624,14 +506,10 @@ Data Protection Template
 
 DRTY
 
-
-
 </td>
 <td valign="top">
 
 Dictionary: CDS Type Definitions
-
-
 
 </td>
 <td valign="top">
@@ -645,14 +523,10 @@ Dictionary: CDS Type Definitions
 
 DTDC
 
-
-
 </td>
 <td valign="top">
 
 Dictionary Dynamic Cache
-
-
 
 </td>
 <td valign="top">
@@ -666,14 +540,10 @@ Dictionary Dynamic Cache
 
 DTEB
 
-
-
 </td>
 <td valign="top">
 
 Dictionary Tuning: Entities Buffer
-
-
 
 </td>
 <td valign="top">
@@ -687,14 +557,10 @@ Dictionary Tuning: Entities Buffer
 
 DTEL
 
-
-
 </td>
 <td valign="top">
 
 Data Element
-
-
 
 </td>
 <td valign="top">
@@ -708,14 +574,10 @@ Data Element
 
 DTPA
 
-
-
 </td>
 <td valign="top">
 
 Data Transfer Process: Active Version
-
-
 
 </td>
 <td valign="top">
@@ -729,14 +591,10 @@ Data Transfer Process: Active Version
 
 EEEC
 
-
-
 </td>
 <td valign="top">
 
 Enterprise Event Enablement - Event Consumer
-
-
 
 </td>
 <td valign="top">
@@ -750,14 +608,10 @@ Enterprise Event Enablement - Event Consumer
 
 ENHO
 
-
-
 </td>
 <td valign="top">
 
 Enhancement Implementation Object
-
-
 
 </td>
 <td valign="top">
@@ -771,14 +625,10 @@ Enhancement Implementation Object
 
 ENHS
 
-
-
 </td>
 <td valign="top">
 
 Enhancement Spot Object
-
-
 
 </td>
 <td valign="top">
@@ -792,14 +642,10 @@ Enhancement Spot Object
 
 ENQU
 
-
-
 </td>
 <td valign="top">
 
 Lock Object
-
-
 
 </td>
 <td valign="top">
@@ -813,14 +659,10 @@ Lock Object
 
 EVTB
 
-
-
 </td>
 <td valign="top">
 
 Event Binding
-
-
 
 </td>
 <td valign="top">
@@ -834,14 +676,10 @@ Event Binding
 
 FUGR
 
-
-
 </td>
 <td valign="top">
 
 Function Group
-
-
 
 </td>
 <td valign="top">
@@ -855,14 +693,10 @@ Function Group
 
 FUNC
 
-
-
 </td>
 <td valign="top">
 
 Function Module
-
-
 
 </td>
 <td valign="top">
@@ -876,14 +710,10 @@ Function Module
 
 G4BA
 
-
-
 </td>
 <td valign="top">
 
 OData v4 – BEP - Service Group and Assignments
-
-
 
 </td>
 <td valign="top">
@@ -897,14 +727,10 @@ OData v4 – BEP - Service Group and Assignments
 
 G4BS
 
-
-
 </td>
 <td valign="top">
 
 OData v4 – BEP - Service
-
-
 
 </td>
 <td valign="top">
@@ -918,14 +744,10 @@ OData v4 – BEP - Service
 
 GSMP
 
-
-
 </td>
 <td valign="top">
 
 Metric Provider
-
-
 
 </td>
 <td valign="top">
@@ -939,14 +761,10 @@ Metric Provider
 
 HCPR
 
-
-
 </td>
 <td valign="top">
 
 SAP HANA Composite Provider
-
-
 
 </td>
 <td valign="top">
@@ -960,14 +778,10 @@ SAP HANA Composite Provider
 
 HTTP
 
-
-
 </td>
 <td valign="top">
 
 HTTP Service
-
-
 
 </td>
 <td valign="top">
@@ -981,14 +795,10 @@ HTTP Service
 
 INA1
 
-
-
 </td>
 <td valign="top">
 
 InA Service
-
-
 
 </td>
 <td valign="top">
@@ -1002,14 +812,10 @@ InA Service
 
 INTF
 
-
-
 </td>
 <td valign="top">
 
 Interface
-
-
 
 </td>
 <td valign="top">
@@ -1023,14 +829,10 @@ Interface
 
 IOBJ
 
-
-
 </td>
 <td valign="top">
 
 InfoObject
-
-
 
 </td>
 <td valign="top">
@@ -1044,14 +846,10 @@ InfoObject
 
 IWMO
 
-
-
 </td>
 <td valign="top">
 
 SAP Gateway Business Suite Enablement - Model
-
-
 
 </td>
 <td valign="top">
@@ -1065,21 +863,15 @@ SAP Gateway Business Suite Enablement - Model
 
 IWOM
 
-
-
 </td>
 <td valign="top">
 
 SAP Gateway: Model Metadata
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -1088,21 +880,15 @@ Yes
 
 IWSG
 
-
-
 </td>
 <td valign="top">
 
 SAP Gateway: Service Groups Metadata
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -1111,21 +897,15 @@ Yes
 
 IWSV
 
-
-
 </td>
 <td valign="top">
 
 SAP Gateway Business Suite Enablement - Service
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -1134,21 +914,15 @@ Yes
 
 IWVB
 
-
-
 </td>
 <td valign="top">
 
 SAP Gateway Business Suite Enablement -Vocabulary Annotation
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -1157,14 +931,10 @@ Yes
 
 LRCC
 
-
-
 </td>
 <td valign="top">
 
 LRepository cross-client content
-
-
 
 </td>
 <td valign="top">
@@ -1178,14 +948,10 @@ LRepository cross-client content
 
 LRCD
 
-
-
 </td>
 <td valign="top">
 
 LRepository client-dependent content
-
-
 
 </td>
 <td valign="top">
@@ -1199,14 +965,10 @@ LRepository client-dependent content
 
 LRST
 
-
-
 </td>
 <td valign="top">
 
 LRepository client-dependent content - customizing requests
-
-
 
 </td>
 <td valign="top">
@@ -1220,14 +982,10 @@ LRepository client-dependent content - customizing requests
 
 MSAG
 
-
-
 </td>
 <td valign="top">
 
 Message Class
-
-
 
 </td>
 <td valign="top">
@@ -1241,14 +999,10 @@ Message Class
 
 NROB
 
-
-
 </td>
 <td valign="top">
 
 Number Range Object
-
-
 
 </td>
 <td valign="top">
@@ -1262,14 +1016,10 @@ Number Range Object
 
 OA2S
 
-
-
 </td>
 <td valign="top">
 
 OAuth2 Scope Yes
-
-
 
 </td>
 <td valign="top">
@@ -1283,14 +1033,10 @@ OAuth2 Scope Yes
 
 PCFN
 
-
-
 </td>
 <td valign="top">
 
 Predefined Field: Extensible Node
-
-
 
 </td>
 <td valign="top">
@@ -1304,14 +1050,10 @@ Predefined Field: Extensible Node
 
 PROG
 
-
-
 </td>
 <td valign="top">
 
 Program
-
-
 
 </td>
 <td valign="top">
@@ -1325,14 +1067,10 @@ Program
 
 RABR
 
-
-
 </td>
 <td valign="top">
 
 Read Access Logging: Recording
-
-
 
 </td>
 <td valign="top">
@@ -1346,14 +1084,10 @@ Read Access Logging: Recording
 
 RADB
 
-
-
 </td>
 <td valign="top">
 
 Read Access Logging: Dynpro
-
-
 
 </td>
 <td valign="top">
@@ -1367,14 +1101,10 @@ Read Access Logging: Dynpro
 
 RAGB
 
-
-
 </td>
 <td valign="top">
 
 Read Access Logging: Generic Channel
-
-
 
 </td>
 <td valign="top">
@@ -1388,14 +1118,10 @@ Read Access Logging: Generic Channel
 
 RARB
 
-
-
 </td>
 <td valign="top">
 
 Read Access Logging: Remote Function Call
-
-
 
 </td>
 <td valign="top">
@@ -1409,14 +1135,10 @@ Read Access Logging: Remote Function Call
 
 RASB
 
-
-
 </td>
 <td valign="top">
 
 Read Access Logging: Web-Service
-
-
 
 </td>
 <td valign="top">
@@ -1430,14 +1152,10 @@ Read Access Logging: Web-Service
 
 RAWB
 
-
-
 </td>
 <td valign="top">
 
 Read Access Logging: Web Dynpro
-
-
 
 </td>
 <td valign="top">
@@ -1451,14 +1169,10 @@ Read Access Logging: Web Dynpro
 
 RDOM
 
-
-
 </td>
 <td valign="top">
 
 Read Access Logging: Log Domain
-
-
 
 </td>
 <td valign="top">
@@ -1472,14 +1186,10 @@ Read Access Logging: Log Domain
 
 RGRP
 
-
-
 </td>
 <td valign="top">
 
 Business Role Group
-
-
 
 </td>
 <td valign="top">
@@ -1493,14 +1203,10 @@ Business Role Group
 
 RONT
 
-
-
 </td>
 <td valign="top">
 
 SAP Object Type
-
-
 
 </td>
 <td valign="top">
@@ -1514,14 +1220,10 @@ SAP Object Type
 
 RPUR
 
-
-
 </td>
 <td valign="top">
 
 Read Access Logging: Purpose
-
-
 
 </td>
 <td valign="top">
@@ -1535,14 +1237,10 @@ Read Access Logging: Purpose
 
 RSDS
 
-
-
 </td>
 <td valign="top">
 
 DataSource in BW
-
-
 
 </td>
 <td valign="top">
@@ -1556,14 +1254,10 @@ DataSource in BW
 
 RSPC
 
-
-
 </td>
 <td valign="top">
 
 Process chain
-
-
 
 </td>
 <td valign="top">
@@ -1577,14 +1271,10 @@ Process chain
 
 RSPI
 
-
-
 </td>
 <td valign="top">
 
 Interrupt Process
-
-
 
 </td>
 <td valign="top">
@@ -1598,14 +1288,10 @@ Interrupt Process
 
 RSPT
 
-
-
 </td>
 <td valign="top">
 
 Trigger Process
-
-
 
 </td>
 <td valign="top">
@@ -1619,14 +1305,10 @@ Trigger Process
 
 RSPV
 
-
-
 </td>
 <td valign="top">
 
 Process variants
-
-
 
 </td>
 <td valign="top">
@@ -1640,14 +1322,10 @@ Process variants
 
 SAJC
 
-
-
 </td>
 <td valign="top">
 
 Application Job Catalog Entry
-
-
 
 </td>
 <td valign="top">
@@ -1661,14 +1339,10 @@ Application Job Catalog Entry
 
 SAJT
 
-
-
 </td>
 <td valign="top">
 
 Application Job Template
-
-
 
 </td>
 <td valign="top">
@@ -1682,14 +1356,10 @@ Application Job Template
 
 SCO1
 
-
-
 </td>
 <td valign="top">
 
 Communication: Communication Scenario
-
-
 
 </td>
 <td valign="top">
@@ -1703,21 +1373,15 @@ Communication: Communication Scenario
 
 SCO2
 
-
-
 </td>
 <td valign="top">
 
 Communication: Inbound Service
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -1726,14 +1390,10 @@ Yes
 
 SCO3
 
-
-
 </td>
 <td valign="top">
 
 Outbound Service
-
-
 
 </td>
 <td valign="top">
@@ -1747,14 +1407,10 @@ Outbound Service
 
 SIA1
 
-
-
 </td>
 <td valign="top">
 
 IAM: Business Catalog
-
-
 
 </td>
 <td valign="top">
@@ -1768,14 +1424,10 @@ IAM: Business Catalog
 
 SIA2
 
-
-
 </td>
 <td valign="top">
 
 IAM: Restriction Type
-
-
 
 </td>
 <td valign="top">
@@ -1789,14 +1441,10 @@ IAM: Restriction Type
 
 SIA3
 
-
-
 </td>
 <td valign="top">
 
 IAM: Authorization Object Extension
-
-
 
 </td>
 <td valign="top">
@@ -1810,14 +1458,10 @@ IAM: Authorization Object Extension
 
 SIA5
 
-
-
 </td>
 <td valign="top">
 
 IAM: Restriction Field
-
-
 
 </td>
 <td valign="top">
@@ -1831,14 +1475,10 @@ IAM: Restriction Field
 
 SIA6
 
-
-
 </td>
 <td valign="top">
 
 IAM: App
-
-
 
 </td>
 <td valign="top">
@@ -1852,21 +1492,15 @@ IAM: App
 
 SIA7
 
-
-
 </td>
 <td valign="top">
 
 IAM: Business Catalog App Assignment
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -1875,14 +1509,10 @@ Yes
 
 SIA8
 
-
-
 </td>
 <td valign="top">
 
 IAM: Business Role Template
-
-
 
 </td>
 <td valign="top">
@@ -1896,14 +1526,10 @@ IAM: Business Role Template
 
 SIA9
 
-
-
 </td>
 <td valign="top">
 
 IAM: Business Role Templ. Bus. Catalog Assignment
-
-
 
 </td>
 <td valign="top">
@@ -1917,14 +1543,10 @@ IAM: Business Role Templ. Bus. Catalog Assignment
 
 SIAD
 
-
-
 </td>
 <td valign="top">
 
 Business Role Template Fiori Space Assignment
-
-
 
 </td>
 <td valign="top">
@@ -1938,14 +1560,10 @@ Business Role Template Fiori Space Assignment
 
 SICF
 
-
-
 </td>
 <td valign="top">
 
 ICFService
-
-
 
 </td>
 <td valign="top">
@@ -1959,14 +1577,10 @@ ICFService
 
 SKTD
 
-
-
 </td>
 <td valign="top">
 
 Knowledge Transfer Document
-
-
 
 </td>
 <td valign="top">
@@ -1980,14 +1594,10 @@ Knowledge Transfer Document
 
 SMBC
 
-
-
 </td>
 <td valign="top">
 
 Maintainable Business Configuration
-
-
 
 </td>
 <td valign="top">
@@ -2001,21 +1611,15 @@ Maintainable Business Configuration
 
 SMIM
 
-
-
 </td>
 <td valign="top">
 
 MIME Object
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -2024,21 +1628,15 @@ Yes
 
 SPRX
 
-
-
 </td>
 <td valign="top">
 
 Proxy Object
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -2047,14 +1645,10 @@ Yes
 
 SQL1
 
-
-
 </td>
 <td valign="top">
 
 ABAP SQL Service
-
-
 
 </td>
 <td valign="top">
@@ -2068,14 +1662,10 @@ ABAP SQL Service
 
 SRVB
 
-
-
 </td>
 <td valign="top">
 
 Service Binding
-
-
 
 </td>
 <td valign="top">
@@ -2089,14 +1679,10 @@ Service Binding
 
 SRVC
 
-
-
 </td>
 <td valign="top">
 
 Service Consumption Model
-
-
 
 </td>
 <td valign="top">
@@ -2110,14 +1696,10 @@ Service Consumption Model
 
 SRVD
 
-
-
 </td>
 <td valign="top">
 
 Service Definition
-
-
 
 </td>
 <td valign="top">
@@ -2131,14 +1713,10 @@ Service Definition
 
 SUSH
 
-
-
 </td>
 <td valign="top">
 
 Assignment: Service --\> Authorization Objects
-
-
 
 </td>
 <td valign="top">
@@ -2152,14 +1730,10 @@ Assignment: Service --\> Authorization Objects
 
 SUSO
 
-
-
 </td>
 <td valign="top">
 
 Authorization Object
-
-
 
 </td>
 <td valign="top">
@@ -2173,14 +1747,10 @@ Authorization Object
 
 TABL
 
-
-
 </td>
 <td valign="top">
 
 Table Definition
-
-
 
 </td>
 <td valign="top">
@@ -2194,14 +1764,10 @@ Table Definition
 
 TABU
 
-
-
 </td>
 <td valign="top">
 
 Table Contents
-
-
 
 </td>
 <td valign="top">
@@ -2215,14 +1781,10 @@ Table Contents
 
 TDAT
 
-
-
 </td>
 <td valign="top">
 
 Customizing: Table Contents
-
-
 
 </td>
 <td valign="top">
@@ -2236,14 +1798,10 @@ Customizing: Table Contents
 
 TOBJ
 
-
-
 </td>
 <td valign="top">
 
 Definition of a Maintenance and Transport Object
-
-
 
 </td>
 <td valign="top">
@@ -2257,14 +1815,10 @@ Definition of a Maintenance and Transport Object
 
 TRCS
 
-
-
 </td>
 <td valign="top">
 
 Communication Structure for Transformation
-
-
 
 </td>
 <td valign="top">
@@ -2278,14 +1832,10 @@ Communication Structure for Transformation
 
 TRFN
 
-
-
 </td>
 <td valign="top">
 
 Transformation
-
-
 
 </td>
 <td valign="top">
@@ -2299,14 +1849,10 @@ Transformation
 
 TRPC
 
-
-
 </td>
 <td valign="top">
 
 Translation Project - Customizing
-
-
 
 </td>
 <td valign="top">
@@ -2320,14 +1866,10 @@ Translation Project - Customizing
 
 TRPR
 
-
-
 </td>
 <td valign="top">
 
 Translation Project
-
-
 
 </td>
 <td valign="top">
@@ -2341,14 +1883,10 @@ Translation Project
 
 TTYP
 
-
-
 </td>
 <td valign="top">
 
 Table Type
-
-
 
 </td>
 <td valign="top">
@@ -2362,14 +1900,10 @@ Table Type
 
 TYPE
 
-
-
 </td>
 <td valign="top">
 
 Type Group
-
-
 
 </td>
 <td valign="top">
@@ -2383,14 +1917,10 @@ Type Group
 
 UIAD
 
-
-
 </td>
 <td valign="top">
 
 Application Descriptors for the Fiori Launchpad Enviornment
-
-
 
 </td>
 <td valign="top">
@@ -2404,14 +1934,10 @@ Application Descriptors for the Fiori Launchpad Enviornment
 
 UIPC
 
-
-
 </td>
 <td valign="top">
 
 Fiori Launchpad Page - Customizing
-
-
 
 </td>
 <td valign="top">
@@ -2425,14 +1951,10 @@ Fiori Launchpad Page - Customizing
 
 UISC
 
-
-
 </td>
 <td valign="top">
 
 Fiori Launchpad Space - Customizing
-
-
 
 </td>
 <td valign="top">
@@ -2446,14 +1968,10 @@ Fiori Launchpad Space - Customizing
 
 UOMT
 
-
-
 </td>
 <td valign="top">
 
 Quantity Conversion Type
-
-
 
 </td>
 <td valign="top">
@@ -2467,14 +1985,10 @@ Quantity Conversion Type
 
 VDAT
 
-
-
 </td>
 <td valign="top">
 
 View Maintenance: Data
-
-
 
 </td>
 <td valign="top">
@@ -2488,21 +2002,15 @@ View Maintenance: Data
 
 WAPA
 
-
-
 </td>
 <td valign="top">
 
 BSP Page
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -2511,14 +2019,10 @@ Yes
 
 XSLT
 
-
-
 </td>
 <td valign="top">
 
 Transformation
-
-
 
 </td>
 <td valign="top">
@@ -2541,14 +2045,10 @@ Transformation
 
 Object Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -2557,14 +2057,10 @@ Description
 
 CDAT
 
-
-
 </td>
 <td valign="top">
 
 View Cluster Maintenance: Data
-
-
 
 </td>
 </tr>
@@ -2573,14 +2069,10 @@ View Cluster Maintenance: Data
 
 SNUMS
 
-
-
 </td>
 <td valign="top">
 
 Number Range Configuration
-
-
 
 </td>
 </tr>
@@ -2589,14 +2081,10 @@ Number Range Configuration
 
 TABU
 
-
-
 </td>
 <td valign="top">
 
 Table Entries
-
-
 
 </td>
 </tr>
@@ -2605,14 +2093,10 @@ Table Entries
 
 TDAT
 
-
-
 </td>
 <td valign="top">
 
 Customizing: Table Contents
-
-
 
 </td>
 </tr>
@@ -2621,14 +2105,10 @@ Customizing: Table Contents
 
 VDAT
 
-
-
 </td>
 <td valign="top">
 
 View Maintenance: Data
-
-
 
 </td>
 </tr>

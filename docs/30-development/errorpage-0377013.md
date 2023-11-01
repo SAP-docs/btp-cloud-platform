@@ -17,28 +17,20 @@ The property is an array of objects, each object can have the following properti
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Mandatory
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -47,28 +39,20 @@ Description
 
 `status` 
 
-
-
 </td>
 <td valign="top">
 
 Number/Array
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 HTTP status code.
-
-
 
 </td>
 </tr>
@@ -77,28 +61,20 @@ HTTP status code.
 
 `file` 
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 File path relative to the working directory of the application router.
-
-
 
 </td>
 </tr>

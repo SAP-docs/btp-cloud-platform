@@ -13,21 +13,15 @@ Use the `READ` method to read the attributes of a number range object.
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -36,21 +30,15 @@ Value Help
 
 LANGUAGE
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Language for the object texts
-
-
 
 </td>
 </tr>
@@ -59,21 +47,15 @@ Language for the object texts
 
 OBJECT
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Number Range Object
-
-
 
 </td>
 </tr>
@@ -88,21 +70,15 @@ Number Range Object
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -111,44 +87,32 @@ Value Help
 
 ATTRIBUTES
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Number Range Object Definition.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 OBJECT
 
-
-
 </td>
 <td valign="top">
 
 Number Range Object.
-
-
 
 </td>
 </tr>
@@ -156,22 +120,16 @@ Number Range Object.
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 DTELSOBJ
 
-
-
 </td>
 <td valign="top">
 
 Data element for sub-object.
-
-
 
 </td>
 </tr>
@@ -179,22 +137,16 @@ Data element for sub-object.
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 YEARIND
 
-
-
 </td>
 <td valign="top">
 
 Flag, whether number range object is to-year relevant.
-
-
 
 </td>
 </tr>
@@ -202,22 +154,16 @@ Flag, whether number range object is to-year relevant.
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 DOMLEN
 
-
-
 </td>
 <td valign="top">
 
 Domain, which determines the length of the numbers.
-
-
 
 </td>
 </tr>
@@ -225,22 +171,16 @@ Domain, which determines the length of the numbers.
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 PERCENTAGE
 
-
-
 </td>
 <td valign="top">
 
 Percentage of numbers remaining in an interval after having identified in which number assignment a warning is given.
-
-
 
 </td>
 </tr>
@@ -248,22 +188,16 @@ Percentage of numbers remaining in an interval after having identified in which 
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 CODE
 
-
-
 </td>
 <td valign="top">
 
 Transaction code to call interval maintenance \(obsolete for ABAP CP\).
-
-
 
 </td>
 </tr>
@@ -271,22 +205,16 @@ Transaction code to call interval maintenance \(obsolete for ABAP CP\).
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 BUFFER
 
-
-
 </td>
 <td valign="top">
 
 Buffering type for number assignment.
-
-
 
 </td>
 </tr>
@@ -294,22 +222,16 @@ Buffering type for number assignment.
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 NOIVBUFFER
 
-
-
 </td>
 <td valign="top">
 
 Number of numbers in the buffer.
-
-
 
 </td>
 </tr>
@@ -317,22 +239,16 @@ Number of numbers in the buffer.
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 NRSWAP
 
-
-
 </td>
 <td valign="top">
 
 Selecting the flag prevents intervals from automatically starting from the beginning at the upper limit.
-
-
 
 </td>
 </tr>
@@ -341,21 +257,15 @@ Selecting the flag prevents intervals from automatically starting from the begin
 
  
 
-
-
 </td>
 <td valign="top">
 
 NRCHECKASCII
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -364,21 +274,15 @@ NRCHECKASCII
 
 INTERVAL\_EXISTS
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -387,44 +291,32 @@ INTERVAL\_EXISTS
 
 OBJ\_TEXT
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Texts for objects for change document object creation.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 LANGU
 
-
-
 </td>
 <td valign="top">
 
 Language.
-
-
 
 </td>
 </tr>
@@ -432,22 +324,16 @@ Language.
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 TXT
 
-
-
 </td>
 <td valign="top">
 
 Description of object, long text.
-
-
 
 </td>
 </tr>
@@ -456,21 +342,15 @@ Description of object, long text.
 
  
 
-
-
 </td>
 <td valign="top">
 
 TXTSHORT
 
-
-
 </td>
 <td valign="top">
 
 Description of object, short text.
-
-
 
 </td>
 </tr>

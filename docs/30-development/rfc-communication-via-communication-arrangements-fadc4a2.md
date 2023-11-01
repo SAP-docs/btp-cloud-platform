@@ -44,22 +44,16 @@ To establish communication via RFC, you need to create an outbound service of ty
     <td valign="top">
     
     `comm_scenario`
-
-
     
     </td>
     <td valign="top">
     
     mandatory
-
-
     
     </td>
     <td valign="top">
     
     ID of the developed communication scenario
-
-
     
     </td>
     </tr>
@@ -67,22 +61,16 @@ To establish communication via RFC, you need to create an outbound service of ty
     <td valign="top">
     
     `comm_system_id`
-
-
     
     </td>
     <td valign="top">
     
     optional
-
-
     
     </td>
     <td valign="top">
     
     ID of the configured communication system
-
-
     
     </td>
     </tr>
@@ -90,22 +78,16 @@ To establish communication via RFC, you need to create an outbound service of ty
     <td valign="top">
     
     `service_id`
-
-
     
     </td>
     <td valign="top">
     
     optional
-
-
     
     </td>
     <td valign="top">
     
     ID of the developed outbound service
-
-
     
     </td>
     </tr>

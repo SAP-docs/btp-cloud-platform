@@ -33,35 +33,25 @@ Delete a branch.
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Required
-
-
 
 </th>
 <th valign="top">
 
 Data Type
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Parameter Type
-
-
 
 </th>
 </tr>
@@ -70,35 +60,25 @@ Parameter Type
 
 sc\_name
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 <td valign="top">
 
 string
 
-
-
 </td>
 <td valign="top">
 
 name of the software component
 
-
-
 </td>
 <td valign="top">
 
 query string
-
-
 
 </td>
 </tr>
@@ -107,35 +87,25 @@ query string
 
 branch\_name
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 <td valign="top">
 
 string
 
-
-
 </td>
 <td valign="top">
 
 name of the branch
 
-
-
 </td>
 <td valign="top">
 
 query string
-
-
 
 </td>
 </tr>
@@ -182,21 +152,15 @@ query string
 
 Code
 
-
-
 </th>
 <th valign="top">
 
 Reason
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -205,21 +169,15 @@ Description
 
 204
 
-
-
 </td>
 <td valign="top">
 
 No content
 
-
-
 </td>
 <td valign="top">
 
 Branch was deleted successfully
-
-
 
 </td>
 </tr>
@@ -228,21 +186,15 @@ Branch was deleted successfully
 
 400
 
-
-
 </td>
 <td valign="top">
 
 Bad Request
 
-
-
 </td>
 <td valign="top">
 
 Could not delete branch due to the values passed in the request body.
-
-
 
 </td>
 </tr>

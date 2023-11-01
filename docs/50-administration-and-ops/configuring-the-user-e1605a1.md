@@ -15,21 +15,15 @@ In the **checked system**, the RFC user needs the following authorizations:
 
 Authorization Object Value
 
-
-
 </th>
 <th valign="top">
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Value
-
-
 
 </th>
 </tr>
@@ -38,21 +32,15 @@ Value
 
 `S_RFC`
 
-
-
 </td>
 <td valign="top">
 
 `ACTVT`
 
-
-
 </td>
 <td valign="top">
 
 `16` \(Execute\)
-
-
 
 </td>
 </tr>
@@ -61,14 +49,10 @@ Value
 
 `RFC_TYPE`
 
-
-
 </td>
 <td valign="top">
 
 `FUGR`
-
-
 
 </td>
 </tr>
@@ -76,8 +60,6 @@ Value
 <td valign="top">
 
 `RFC_NAME`
-
-
 
 </td>
 <td valign="top">
@@ -92,8 +74,6 @@ Value
 
 `S_CODE_INSPECTOR_TESTS`
 
-
-
 </td>
 </tr>
 <tr>
@@ -101,21 +81,15 @@ Value
 
 `S_RFC`
 
-
-
 </td>
 <td valign="top">
 
 `ACTVT`
 
-
-
 </td>
 <td valign="top">
 
 `16` \(Execute\)
-
-
 
 </td>
 </tr>
@@ -124,14 +98,10 @@ Value
 
 `RFC_TYPE`
 
-
-
 </td>
 <td valign="top">
 
 `FUNC`
-
-
 
 </td>
 </tr>
@@ -139,8 +109,6 @@ Value
 <td valign="top">
 
 `RFC_NAME`
-
-
 
 </td>
 <td valign="top">
@@ -163,8 +131,6 @@ Value
 
 `SLDAG_GET_SYSTEM_NAME`
 
-
-
 </td>
 </tr>
 <tr>
@@ -172,21 +138,15 @@ Value
 
 `S_DEVELOP`
 
-
-
 </td>
 <td valign="top">
 
 `ACTVT`
 
-
-
 </td>
 <td valign="top">
 
 `03` \(Display\)
-
-
 
 </td>
 </tr>
@@ -195,14 +155,10 @@ Value
 
 `DEVCLASS`
 
-
-
 </td>
 <td valign="top">
 
 `*`
-
-
 
 </td>
 </tr>
@@ -211,14 +167,10 @@ Value
 
 `OBJNAME`
 
-
-
 </td>
 <td valign="top">
 
 `*`
-
-
 
 </td>
 </tr>
@@ -227,14 +179,10 @@ Value
 
 `OBJTYPE`
 
-
-
 </td>
 <td valign="top">
 
 `*`
-
-
 
 </td>
 </tr>
@@ -243,14 +191,10 @@ Value
 
 `P_GROUP`
 
-
-
 </td>
 <td valign="top">
 
 `*`
-
-
 
 </td>
 </tr>
@@ -259,14 +203,10 @@ Value
 
 `S_SYS_RWBO`
 
-
-
 </td>
 <td valign="top">
 
 `ACTVT`
-
-
 
 </td>
 <td valign="top">
@@ -276,8 +216,6 @@ Value
 `02` \(Change\)
 
 `03` \(Display\)
-
-
 
 </td>
 </tr>
@@ -286,14 +224,10 @@ Value
 
 `DOMAIN`
 
-
-
 </td>
 <td valign="top">
 
 `*`
-
-
 
 </td>
 </tr>
@@ -302,14 +236,10 @@ Value
 
 `DESTSYS`
 
-
-
 </td>
 <td valign="top">
 
 `*`
-
-
 
 </td>
 </tr>
@@ -318,14 +248,10 @@ Value
 
 `TTYPE`
 
-
-
 </td>
 <td valign="top">
 
 `TRAN`
-
-
 
 </td>
 </tr>
@@ -334,14 +260,10 @@ Value
 
 `S_TRANSPRT`
 
-
-
 </td>
 <td valign="top">
 
 `ACTVT`
-
-
 
 </td>
 <td valign="top">
@@ -352,8 +274,6 @@ Value
 
 `03` \(Display\)
 
-
-
 </td>
 </tr>
 <tr>
@@ -361,14 +281,10 @@ Value
 
 `TTYPE`
 
-
-
 </td>
 <td valign="top">
 
 `TRAN`
-
-
 
 </td>
 </tr>
@@ -377,21 +293,15 @@ Value
 
 `S_DATASET`
 
-
-
 </td>
 <td valign="top">
 
 `ACTVT`
 
-
-
 </td>
 <td valign="top">
 
 `34` \(Write\)
-
-
 
 </td>
 </tr>
@@ -400,14 +310,10 @@ Value
 
 `FILENAME`
 
-
-
 </td>
 <td valign="top">
 
 `*`
-
-
 
 </td>
 </tr>
@@ -416,16 +322,12 @@ Value
 
 `PROGRAM`
 
-
-
 </td>
 <td valign="top">
 
 `SAPLSABC`
 
 `SAPLSTRF`
-
-
 
 </td>
 </tr>
@@ -442,14 +344,10 @@ In the **Central Check System**, you need the following user to use transaction 
 
 User Role
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -458,14 +356,10 @@ Description
 
 `SAP_SATC_ADMIN` 
 
-
-
 </td>
 <td valign="top">
 
 Authorization for setting up ABAP Test Cockpit \(ATC\) for central quality checking
-
-
 
 </td>
 </tr>
@@ -480,28 +374,20 @@ In addition, you need the following authorization object for importing the Simpl
 
 Name of Authorization Object
 
-
-
 </th>
 <th valign="top">
 
 Name of the Authorization Field
-
-
 
 </th>
 <th valign="top">
 
 Value of the Authorization Field
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -510,28 +396,20 @@ Description
 
 `S_YCM` 
 
-
-
 </td>
 <td valign="top">
 
 `SYCM_AREA` 
-
-
 
 </td>
 <td valign="top">
 
 `SDB` 
 
-
-
 </td>
 <td valign="top" rowspan="2">
 
 Authorization for importing the Simplification Database
-
-
 
 </td>
 </tr>
@@ -540,14 +418,10 @@ Authorization for importing the Simplification Database
 
 `ACTVT` 
 
-
-
 </td>
 <td valign="top">
 
 `UL` 
-
-
 
 </td>
 </tr>

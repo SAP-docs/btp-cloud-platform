@@ -96,15 +96,11 @@ If there are authentication problems in your application, enable logging for the
     <th valign="top">
 
     Environment Variables
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -112,15 +108,11 @@ If there are authentication problems in your application, enable logging for the
     <td valign="top">
     
     `SAP_EXT_TRC` 
-
-
     
     </td>
     <td valign="top">
     
     Enablement of logs
-
-
     
     </td>
     </tr>
@@ -128,8 +120,6 @@ If there are authentication problems in your application, enable logging for the
     <td valign="top">
     
     `SAP_EXT_TRL` 
-
-
     
     </td>
     <td valign="top">
@@ -161,15 +151,11 @@ If there are authentication problems in your application, enable logging for the
     <th valign="top">
 
     Environment Variables
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -177,8 +163,6 @@ If there are authentication problems in your application, enable logging for the
     <td valign="top">
     
     `DEBUG` 
-
-
     
     </td>
     <td valign="top">
@@ -186,8 +170,6 @@ If there are authentication problems in your application, enable logging for the
     Detailed logs of the security API for Node.js
 
     Value \(string\): `xssec*`
-
-
     
     </td>
     </tr>

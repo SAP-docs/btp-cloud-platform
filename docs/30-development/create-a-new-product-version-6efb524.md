@@ -22,10 +22,10 @@ Find out how to create a new product version:
 
 3.  To create a new product version, click the *Create* button, choose *Delivery* or *Test* and select the desired type. The resulting product version will be calculated automatically.
 
-4.  Select software components to be included in your new product version. To add additional software components, click the *Add* button on the right. For each software component, define a component version, enter the desired branch and commit ID as seen in the Manage Software Components app, and select in which languages your product version should be built. You can change the order of how the software components are imported via drag and drop in the table or by selecting a component and moving it using the arrows on the right. For more information, see [Manage Software Components.](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/3dcf76a072c9450eb46b99db947dab46.html?version=Cloud)
+4.  Select software components to be included in your new product version. To add additional software components, click the *Add* button on the right. For each software component, define a component version, enter the desired branch and commit ID as seen in the Manage Software Components app, and select in which languages your product version should be built. You can change the order of how the software components are imported via drag and drop in the table or by selecting a component and moving it using the arrows on the right. Note that software components cannot be removed or added in patch versions; this is only possible in support package & release. For more information, see [Manage Software Components.](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/3dcf76a072c9450eb46b99db947dab46.html?version=Cloud)
 
     > ### Note:  
-    > The leading software component \(software component is exclusively used as part of one add-on product\) should be the first, whereas a reuse software component \(software component is used as part of multiple add-on products\) would be the last in order.
+    > The leading software component is the software component that is, as opposed to a reuse software component, exclusively used as part of one add-on product. The reuse software component should be the first, whereas a leading software component would be the last in order. This is to make sure that that the software components are imported in the correct order, making sure to adhere to dependencies.
 
 5.  Click the *Build Product Version* button to trigger the build of the pipeline for your new product version.
 
@@ -49,14 +49,10 @@ Find out how to create a new product version:
 > 
 > Log Availability
 > 
-> 
-> 
 > </th>
 > <th valign="top">
 > 
 > Definition
-> 
-> 
 > 
 > </th>
 > </tr>
@@ -65,14 +61,10 @@ Find out how to create a new product version:
 > 
 > Not built in LP
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 > The product version you built did not originate from the Build Product Version app.
-> 
-> 
 > 
 > </td>
 > </tr>
@@ -81,14 +73,10 @@ Find out how to create a new product version:
 > 
 > Not yet triggered
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 > The configuration for your build has been set in the Build Product Version app.
-> 
-> 
 > 
 > </td>
 > </tr>
@@ -97,14 +85,10 @@ Find out how to create a new product version:
 > 
 > Wrong Subaccount
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 > The subaccount you want to use is not the one in which the current build has been started.
-> 
-> 
 > 
 > </td>
 > </tr>
@@ -113,14 +97,10 @@ Find out how to create a new product version:
 > 
 > Log expired
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 > Your product version log expired and is not available anymore.
-> 
-> 
 > 
 > </td>
 > </tr>
@@ -129,14 +109,10 @@ Find out how to create a new product version:
 > 
 > Unknown
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 >  
-> 
-> 
 > 
 > </td>
 > </tr>
@@ -145,14 +121,10 @@ Find out how to create a new product version:
 > 
 > Build running
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 > There is currently a running build assembling your product version.
-> 
-> 
 > 
 > </td>
 > </tr>
@@ -161,14 +133,10 @@ Find out how to create a new product version:
 > 
 > Build failed
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 > Your recent build ran into an error and failed.
-> 
-> 
 > 
 > </td>
 > </tr>
@@ -177,14 +145,10 @@ Find out how to create a new product version:
 > 
 > Build success
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 > Your recent build ran successfully and is finished now.
-> 
-> 
 > 
 > </td>
 > </tr>

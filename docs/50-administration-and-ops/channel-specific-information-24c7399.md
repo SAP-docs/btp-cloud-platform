@@ -17,14 +17,10 @@ The following table shows the objects for each channel that can be logged.
 
 Channel
 
-
-
 </th>
 <th valign="top">
 
 Data Logged
-
-
 
 </th>
 </tr>
@@ -32,8 +28,6 @@ Data Logged
 <td valign="top">
 
 Remote Function Call
-
-
 
 </td>
 <td valign="top">
@@ -53,8 +47,6 @@ Read Access Logging takes place when data leaves the system.
 <td valign="top">
 
 Dynpro
-
-
 
 </td>
 <td valign="top">
@@ -77,8 +69,6 @@ For more information, see:
 
 Web Dynpro
 
-
-
 </td>
 <td valign="top">
 
@@ -100,8 +90,6 @@ For more information, see:
 <td valign="top">
 
 Web Service
-
-
 
 </td>
 <td valign="top">
@@ -129,8 +117,6 @@ Web service operations:
 
 ALE/IDoc Communication
 
-
-
 </td>
 <td valign="top">
 
@@ -145,16 +131,12 @@ Supported are the following default IDoc outbound protocols:
 
 Read Access Logging takes place when IDoc data leaves the system, right before the data is handed over to the single communication protocols.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 SAP BW
-
-
 
 </td>
 <td valign="top">
@@ -174,16 +156,12 @@ SAP BW
 
 KPro
 
-
-
 </td>
 <td valign="top">
 
 Read Access Logging takes place when Knowledge Provider \(KPro\) is used to access the documents.
 
 Logging is done for specific PHIO classes for which the Read Access Logging is activated.
-
-
 
 </td>
 </tr>
@@ -192,14 +170,10 @@ Logging is done for specific PHIO classes for which the Read Access Logging is a
 
 Output Forms \(DDIC Interface\)
 
-
-
 </td>
 <td valign="top">
 
 Read Access Logging takes place when an Output Form is rendered for Print Output, Preview or next processing by application. You can configure logging for the name of the Output Form as well as for its fields. Note that the name of the form is logged as the field `FORM_NAME`.
-
-
 
 </td>
 </tr>
@@ -207,8 +181,6 @@ Read Access Logging takes place when an Output Form is rendered for Print Output
 <td valign="top">
 
 SAP Gateway \(OData\)
-
-
 
 </td>
 <td valign="top">
@@ -232,8 +204,6 @@ For more information, see:
 <td valign="top">
 
 Electronic Document
-
-
 
 </td>
 <td valign="top">

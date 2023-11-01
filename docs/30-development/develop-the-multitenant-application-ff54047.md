@@ -137,15 +137,11 @@ When developing tenant-aware applications in the Cloud Foundry environment, keep
     <th valign="top">
 
     Parameter
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -153,15 +149,11 @@ When developing tenant-aware applications in the Cloud Foundry environment, keep
     <td valign="top">
     
     `XSUAA_INSTANCE_NAME`
-
-
     
     </td>
     <td valign="top">
     
     The new name for the `xsuaa` service instance. Use only alphanumeric characters, hyphens, and underscores.
-
-
     
     </td>
     </tr>
@@ -169,15 +161,11 @@ When developing tenant-aware applications in the Cloud Foundry environment, keep
     <td valign="top">
     
     `<XS_SECURITY_JSON>`
-
-
     
     </td>
     <td valign="top">
     
     Name of the security descriptor file from the previous step.
-
-
     
     </td>
     </tr>

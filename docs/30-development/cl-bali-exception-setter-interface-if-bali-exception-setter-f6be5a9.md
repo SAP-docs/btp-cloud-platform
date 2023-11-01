@@ -13,14 +13,10 @@ To add a new exception to an application log, an object of class `CL_BALI_EXCEPT
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -31,16 +27,12 @@ CATEGORY
 
 \(from IF\_BALI\_ITEM\_SETTER\)
 
-
-
 </td>
 <td valign="top">
 
 Category of the item
 
 Contains fixed value: IF\_BALI\_CONSTANTS=\>C\_CATEGORY\_EXCEPTION
-
-
 
 </td>
 </tr>
@@ -61,14 +53,10 @@ Create an instance of the exception class. Set the reference of the ABAP excepti
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -77,16 +65,12 @@ Description
 
 **Importing parameters**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 SEVERITY
-
-
 
 </td>
 <td valign="top">
@@ -95,8 +79,6 @@ SEVERITY
 
 Default: IF\_BALI\_CONSTANTS=\>C\_SEVERITY\_STATUS
 
-
-
 </td>
 </tr>
 <tr>
@@ -104,14 +86,10 @@ Default: IF\_BALI\_CONSTANTS=\>C\_SEVERITY\_STATUS
 
 EXCEPTION
 
-
-
 </td>
 <td valign="top">
 
 Reference to ABAP exception class instance
-
-
 
 </td>
 </tr>
@@ -120,8 +98,6 @@ Reference to ABAP exception class instance
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -129,14 +105,10 @@ Reference to ABAP exception class instance
 
 EXCEPTION\_OBJ
 
-
-
 </td>
 <td valign="top">
 
 Exception object: A reference to interface IF\_BALI\_EXCEPTION\_SETTER
-
-
 
 </td>
 </tr>
@@ -155,14 +127,10 @@ Set the ABAP exception class instance and severity:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -171,16 +139,12 @@ Description
 
 **Importing parameters**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 SEVERITY
-
-
 
 </td>
 <td valign="top">
@@ -189,8 +153,6 @@ SEVERITY
 
 Default: IF\_BALI\_CONSTANTS=\>C\_SEVERITY\_STATUS
 
-
-
 </td>
 </tr>
 <tr>
@@ -198,14 +160,10 @@ Default: IF\_BALI\_CONSTANTS=\>C\_SEVERITY\_STATUS
 
 EXCEPTION
 
-
-
 </td>
 <td valign="top">
 
 Reference to ABAP exception class instance
-
-
 
 </td>
 </tr>
@@ -214,8 +172,6 @@ Reference to ABAP exception class instance
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -223,14 +179,10 @@ Reference to ABAP exception class instance
 
 NEW\_EXCEPTION\_OBJ
 
-
-
 </td>
 <td valign="top">
 
 Reference to current application log exception object
-
-
 
 </td>
 </tr>
@@ -249,14 +201,10 @@ Set the level of detail of the exception:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -265,16 +213,12 @@ Description
 
 **Importing parameter**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 DETAIL\_LEVEL
-
-
 
 </td>
 <td valign="top">
@@ -283,16 +227,12 @@ Detail level of the exception
 
 Allowed values: Number between '1' and '9' or ' '
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
 
 **Returning parameter**
-
-
 
 </td>
 </tr>
@@ -301,14 +241,10 @@ Allowed values: Number between '1' and '9' or ' '
 
 NEW\_EXCEPTION\_OBJ
 
-
-
 </td>
 <td valign="top">
 
 Reference to current application log exception object
-
-
 
 </td>
 </tr>
@@ -329,14 +265,10 @@ Get all exception values:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -345,8 +277,6 @@ Description
 
 **Exporting parameters**
 
-
-
 </td>
 </tr>
 <tr>
@@ -354,14 +284,10 @@ Description
 
 DETAIL\_LEVEL
 
-
-
 </td>
 <td valign="top">
 
 Detail level of the exception \(number between '1' and '9' or ' '\)
-
-
 
 </td>
 </tr>
@@ -370,14 +296,10 @@ Detail level of the exception \(number between '1' and '9' or ' '\)
 
 SEVERITY
 
-
-
 </td>
 <td valign="top">
 
 Severity of the exception \('Error', 'Warning', etc\)
-
-
 
 </td>
 </tr>
@@ -386,14 +308,10 @@ Severity of the exception \('Error', 'Warning', etc\)
 
 EXCEPTION
 
-
-
 </td>
 <td valign="top">
 
 Reference to ABAP exception class instance
-
-
 
 </td>
 </tr>
@@ -412,14 +330,10 @@ Check whether the exception can pass an item filter:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -428,8 +342,6 @@ Description
 
 **Importing parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -437,14 +349,10 @@ Description
 
 ITEM\_FILTER
 
-
-
 </td>
 <td valign="top">
 
 Reference to the item filter that is being checked
-
-
 
 </td>
 </tr>
@@ -453,8 +361,6 @@ Reference to the item filter that is being checked
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -462,14 +368,10 @@ Reference to the item filter that is being checked
 
 FILTER\_PASSED
 
-
-
 </td>
 <td valign="top">
 
 If set, the exception can pass the item filter
-
-
 
 </td>
 </tr>

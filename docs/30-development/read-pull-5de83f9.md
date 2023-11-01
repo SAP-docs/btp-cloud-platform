@@ -29,21 +29,15 @@ Read a pull jon.
 
 Header
 
-
-
 </th>
 <th valign="top">
 
 Required
 
-
-
 </th>
 <th valign="top">
 
 Values
-
-
 
 </th>
 </tr>
@@ -52,14 +46,10 @@ Values
 
 Accept
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 <td valign="top">
@@ -68,8 +58,6 @@ application/json
 
 application/xml
 
-
-
 </td>
 </tr>
 <tr>
@@ -77,21 +65,15 @@ application/xml
 
 x-csrf-token
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 fetch
-
-
 
 </td>
 </tr>
@@ -110,35 +92,25 @@ fetch
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Required
-
-
 
 </th>
 <th valign="top">
 
 Data Type
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Parameter Type
-
-
 
 </th>
 </tr>
@@ -147,35 +119,25 @@ Parameter Type
 
 uuid
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 <td valign="top">
 
 string
 
-
-
 </td>
 <td valign="top">
 
 ID of the job
 
-
-
 </td>
 <td valign="top">
 
 query string
-
-
 
 </td>
 </tr>
@@ -214,14 +176,10 @@ query string
 
 Header
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -230,14 +188,10 @@ Description
 
 x-csrf-token
 
-
-
 </td>
 <td valign="top">
 
 Token, which can be used for POST requests
-
-
 
 </td>
 </tr>
@@ -256,21 +210,15 @@ Token, which can be used for POST requests
 
 Code
 
-
-
 </th>
 <th valign="top">
 
 Reason
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -279,21 +227,15 @@ Description
 
 200
 
-
-
 </td>
 <td valign="top">
 
 OK
 
-
-
 </td>
 <td valign="top">
 
 Read pull succesfully
-
-
 
 </td>
 </tr>
@@ -302,21 +244,15 @@ Read pull succesfully
 
 400
 
-
-
 </td>
 <td valign="top">
 
 Bad Request
 
-
-
 </td>
 <td valign="top">
 
 Could not find a pull entity with the specified UUID.
-
-
 
 </td>
 </tr>

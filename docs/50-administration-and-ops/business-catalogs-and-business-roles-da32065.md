@@ -18,28 +18,20 @@ Get an overview about which business catalogs and business roles are required fo
 
 Area
 
-
-
 </th>
 <th valign="top">
 
 Application
-
-
 
 </th>
 <th valign="top">
 
 Business Role Template ID
 
-
-
 </th>
 <th valign="top">
 
 Business Catalog ID
-
-
 
 </th>
 </tr>
@@ -48,14 +40,10 @@ Business Catalog ID
 
 Extensibility
 
-
-
 </td>
 <td valign="top">
 
 [Custom Logic \(Deprecated\)](custom-logic-deprecated-05880c7.md) 
-
-
 
 </td>
 <td valign="top">
@@ -63,8 +51,6 @@ Extensibility
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -73,8 +59,6 @@ Extensibility
 
 *Extensibility - Key User Adaptation* 
 
-
-
 </td>
 </tr>
 <tr>
@@ -82,14 +66,10 @@ Extensibility
 
 Extensibility
 
-
-
 </td>
 <td valign="top">
 
 [Configure Predefined Custom Fields](configure-predefined-custom-fields-0eaa01c.md) 
-
-
 
 </td>
 <td valign="top">
@@ -97,8 +77,6 @@ Extensibility
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -107,8 +85,6 @@ Extensibility
 
 *Extensibility - Predefined Custom Fields* 
 
-
-
 </td>
 </tr>
 <tr>
@@ -116,14 +92,10 @@ Extensibility
 
 Employee Master Data
 
-
-
 </td>
 <td valign="top">
 
 [Maintain Employees](maintain-employees-e882b0f.md) 
-
-
 
 </td>
 <td valign="top">
@@ -131,8 +103,6 @@ Employee Master Data
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -141,8 +111,6 @@ Employee Master Data
 
 *Employee - Master Data* 
 
-
-
 </td>
 </tr>
 <tr>
@@ -150,14 +118,10 @@ Employee Master Data
 
 Read Access Logging
 
-
-
 </td>
 <td valign="top">
 
 [Read Access Logging Configuration](read-access-logging-configuration-f96bc25.md) 
-
-
 
 </td>
 <td valign="top">
@@ -165,8 +129,6 @@ Read Access Logging
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -175,8 +137,6 @@ Read Access Logging
 
 *Read Access Logging - Configuration* 
 
-
-
 </td>
 </tr>
 <tr>
@@ -184,14 +144,10 @@ Read Access Logging
 
 Read Access Logging
 
-
-
 </td>
 <td valign="top">
 
 [Read Access Logging: Monitor](read-access-logging-monitor-c65808a.md) 
-
-
 
 </td>
 <td valign="top">
@@ -200,16 +156,12 @@ Read Access Logging
 
 *Data Privacy Specialist*
 
-
-
 </td>
 <td valign="top">
 
 `SAP_CORE_BC_RAL`
 
 *Read Access Logging - Monitoring* 
-
-
 
 </td>
 </tr>
@@ -218,14 +170,10 @@ Read Access Logging
 
 User Interface Configuration
 
-
-
 </td>
 <td valign="top">
 
 [Managing Launchpad Spaces and Pages](https://help.sap.com/docs/btp/user-interface-configurations/managing-launchpad-spaces-and-pages) 
-
-
 
 </td>
 <td valign="top">
@@ -233,8 +181,6 @@ User Interface Configuration
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -243,8 +189,6 @@ User Interface Configuration
 
 *User Interface - Fiori Launchpad Design* 
 
-
-
 </td>
 </tr>
 <tr>
@@ -252,14 +196,10 @@ User Interface Configuration
 
 User Interface Configuration
 
-
-
 </td>
 <td valign="top">
 
 [Manage Launchpad Settings](https://help.sap.com/docs/btp/user-interface-configurations/manage-launchpad-settings) 
-
-
 
 </td>
 <td valign="top">
@@ -267,8 +207,6 @@ User Interface Configuration
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -277,8 +215,6 @@ User Interface Configuration
 
 *User Interface - Configuration* 
 
-
-
 </td>
 </tr>
 <tr>
@@ -286,14 +222,10 @@ User Interface Configuration
 
 User Interface Monitoring
 
-
-
 </td>
 <td valign="top">
 
 [Display Launchpad Content Exposure Logs](display-launchpad-content-exposure-logs-3f4fc64.md) 
-
-
 
 </td>
 <td valign="top">
@@ -302,16 +234,12 @@ User Interface Monitoring
 
 *Administrator*
 
-
-
 </td>
 <td valign="top">
 
 `SAP_CORE_BC_UI_MON`
 
 *User Interface - Monitoring* 
-
-
 
 </td>
 </tr>
@@ -320,14 +248,10 @@ User Interface Monitoring
 
 ABAP Test Cockpit
 
-
-
 </td>
 <td valign="top">
 
 [ABAP Test Cockpit Configurator](abap-test-cockpit-configurator-22c26ff.md) 
-
-
 
 </td>
 <td valign="top">
@@ -335,8 +259,6 @@ ABAP Test Cockpit
 `SAP_BR_ADMINISTRATOR_SW_DEV`
 
 *Administrator - Software Development*
-
-
 
 </td>
 <td valign="top">
@@ -345,8 +267,6 @@ ABAP Test Cockpit
 
 *ABAP Test Cockpit Configuration* 
 
-
-
 </td>
 </tr>
 <tr>
@@ -354,14 +274,10 @@ ABAP Test Cockpit
 
 ABAP Test Cockpit
 
-
-
 </td>
 <td valign="top">
 
 [Manage API Snapshots](manage-api-snapshots-8dda6b6.md) 
-
-
 
 </td>
 <td valign="top">
@@ -370,8 +286,6 @@ ABAP Test Cockpit
 
 *Administrator - Software Development*
 
-
-
 </td>
 <td valign="top">
 
@@ -379,32 +293,24 @@ ABAP Test Cockpit
 
 *Lifecycle Management - API Snapshots* 
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Business Configuration
-
-
 
 </td>
 <td valign="top">
 
 [Business Configuration Change Logs](business-configuration-change-logs-5c6cf20.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_BPC_EXPERT`
 
 *Configuration Expert - Business Process Configuration*
-
-
 
 </td>
 <td valign="top">
@@ -413,32 +319,24 @@ Business Configuration
 
 *Business Configuration - Customizing* 
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Business Configuration
-
-
 
 </td>
 <td valign="top">
 
 [Manage Number Range Intervals](manage-number-range-intervals-2edf0f2.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_BPC_EXPERT`
 
 *Configuration Expert - Business Process Configuration*
-
-
 
 </td>
 <td valign="top">
@@ -447,32 +345,24 @@ Business Configuration
 
 *Business Configuration - Customizing* 
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Business Configuration
-
-
 
 </td>
 <td valign="top">
 
 [Upload Business Configuration](upload-business-configuration-c8ca7be.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_BPC_EXPERT`
 
 *Configuration Expert - Business Process Configuration*
-
-
 
 </td>
 <td valign="top">
@@ -481,32 +371,24 @@ Business Configuration
 
 *Business Configuration - Customizing* 
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Business Configuration
-
-
 
 </td>
 <td valign="top">
 
 [Custom Business Configurations App](custom-business-configurations-app-76384d8.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_BPC_EXPERT`
 
 *Configuration Expert - Business Process Configuration*
-
-
 
 </td>
 <td valign="top">
@@ -515,8 +397,6 @@ Business Configuration
 
 *Business Configuration - Customizing* 
 
-
-
 </td>
 </tr>
 <tr>
@@ -524,14 +404,10 @@ Business Configuration
 
 Business Configuration
 
-
-
 </td>
 <td valign="top">
 
 [Export Customizing Transports](export-customizing-transports-a772a0f.md)
-
-
 
 </td>
 <td valign="top">
@@ -539,8 +415,6 @@ Business Configuration
 `SAP_BR_BPC_EXPERT`
 
 *Configuration Expert - Business Process Configuration*
-
-
 
 </td>
 <td valign="top">
@@ -553,32 +427,24 @@ Business Configuration
 
 *Business Configuration - Transport Release Management*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Application Jobs
-
-
 
 </td>
 <td valign="top">
 
 [Application Jobs](application-jobs-37e7a01.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_ADMINISTRATOR` 
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -587,32 +453,24 @@ Application Jobs
 
 *Application Jobs*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Application Jobs
-
-
 
 </td>
 <td valign="top">
 
 [Maintain Job Users](maintain-job-users-bd73961.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_ADMINISTRATOR` 
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -621,8 +479,6 @@ Application Jobs
 
 *Application Jobs*
 
-
-
 </td>
 </tr>
 <tr>
@@ -630,14 +486,10 @@ Application Jobs
 
 Application Jobs
 
-
-
 </td>
 <td valign="top">
 
 [Application Job Templates](application-job-templates-9c930d5.md) 
-
-
 
 </td>
 <td valign="top">
@@ -645,8 +497,6 @@ Application Jobs
 `SAP_BR_ADMINISTRATOR` 
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -655,8 +505,6 @@ Application Jobs
 
 *Application Job Templates*
 
-
-
 </td>
 </tr>
 <tr>
@@ -664,14 +512,10 @@ Application Jobs
 
 System Management
 
-
-
 </td>
 <td valign="top">
 
 [Maintain User Sessions](maintain-user-sessions-dde9087.md) 
-
-
 
 </td>
 <td valign="top">
@@ -679,8 +523,6 @@ System Management
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -689,32 +531,24 @@ System Management
 
 *System Management - Sessions* 
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Factory Calendar
-
-
 
 </td>
 <td valign="top">
 
 [Maintain Holidays](maintain-holidays-ad19373.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -723,24 +557,18 @@ Factory Calendar
 
 *Factory Calendar - Configuration* 
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Factory Calendar
-
-
 
 </td>
 <td valign="top">
 
 [Maintain Holiday Calendars](maintain-holiday-calendars-2964c20.md) 
 
-
-
 </td>
 <td valign="top">
 
@@ -748,16 +576,12 @@ Factory Calendar
 
 *Administrator*
 
-
-
 </td>
 <td valign="top">
 
 `SAP_CA_BC_IC_LND_CAL_CA1_PC`
 
 *Factory Calendar - Configuration* 
-
-
 
 </td>
 </tr>
@@ -766,14 +590,10 @@ Factory Calendar
 
 Factory Calendar
 
-
-
 </td>
 <td valign="top">
 
 [Maintain Factory Calendars](maintain-factory-calendars-1bf9d1d.md) 
-
-
 
 </td>
 <td valign="top">
@@ -782,16 +602,12 @@ Factory Calendar
 
 *Administrator*
 
-
-
 </td>
 <td valign="top">
 
 `SAP_CA_BC_IC_LND_CAL_CA1_PC`
 
 *Factory Calendar - Configuration* 
-
-
 
 </td>
 </tr>
@@ -800,14 +616,10 @@ Factory Calendar
 
 Health Monitoring
 
-
-
 </td>
 <td valign="top">
 
 [Health Monitoring](health-monitoring-60e87dc.md)
-
-
 
 </td>
 <td valign="top">
@@ -815,8 +627,6 @@ Health Monitoring
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -825,32 +635,24 @@ Health Monitoring
 
 *Technical Monitoring Cockpit Infrastructure* 
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Identity and Access Management
-
-
 
 </td>
 <td valign="top">
 
 [Business Catalogs](business-catalogs-dd0abf5.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -859,32 +661,24 @@ Identity and Access Management
 
 *Role Management* 
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Identity and Access Management
-
-
 
 </td>
 <td valign="top">
 
 [Business Role Templates](business-role-templates-223dfd3.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -893,32 +687,24 @@ Identity and Access Management
 
 *Role Management* 
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Identity and Access Management
-
-
 
 </td>
 <td valign="top">
 
 [Display Authorization Trace](display-authorization-trace-79b3c9b.md)
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -931,32 +717,24 @@ Identity and Access Management
 
 *Role Assignment*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Identity and Access Management
-
-
 
 </td>
 <td valign="top">
 
 [Display Restriction Types](display-restriction-types-9203905.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -969,32 +747,24 @@ Identity and Access Management
 
 *Role Assignment*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Identity and Access Management
-
-
 
 </td>
 <td valign="top">
 
 [Display Technical Users](display-technical-users-7fb79d7.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1003,32 +773,24 @@ Identity and Access Management
 
 *User Management*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Identity and Access Management
-
-
 
 </td>
 <td valign="top">
 
 [IAM Information System](iam-information-system-82d17cf.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1045,8 +807,6 @@ Identity and Access Management
 
 *User Management*
 
-
-
 </td>
 </tr>
 <tr>
@@ -1054,14 +814,10 @@ Identity and Access Management
 
 Identity and Access Management
 
-
-
 </td>
 <td valign="top">
 
 [Maintain Business Roles \(Deprecated\)](maintain-business-roles-deprecated-8980ad0.md) 
-
-
 
 </td>
 <td valign="top">
@@ -1069,8 +825,6 @@ Identity and Access Management
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1083,8 +837,6 @@ Identity and Access Management
 
 *Role Management*
 
-
-
 </td>
 </tr>
 <tr>
@@ -1092,14 +844,10 @@ Identity and Access Management
 
 Identity and Access Management
 
-
-
 </td>
 <td valign="top">
 
 [Maintain Business Users](maintain-business-users-e40e710.md)
-
-
 
 </td>
 <td valign="top">
@@ -1107,8 +855,6 @@ Identity and Access Management
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1121,8 +867,6 @@ Identity and Access Management
 
 *User Management* 
 
-
-
 </td>
 </tr>
 <tr>
@@ -1130,14 +874,10 @@ Identity and Access Management
 
 Identity and Access Management
 
-
-
 </td>
 <td valign="top">
 
 [Maintain Business User Groups](maintain-business-user-groups-24f5b79.md)
-
-
 
 </td>
 <td valign="top">
@@ -1145,8 +885,6 @@ Identity and Access Management
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1159,8 +897,6 @@ Identity and Access Management
 
 \(SAP\_CORE\_BC\_IAM\_GRP\_PC\)
 
-
-
 </td>
 </tr>
 <tr>
@@ -1168,14 +904,10 @@ Identity and Access Management
 
 Identity and Access Management
 
-
-
 </td>
 <td valign="top">
 
 [Maintain Business Role Groups](maintain-business-role-groups-72b48de.md)
-
-
 
 </td>
 <td valign="top">
@@ -1183,8 +915,6 @@ Identity and Access Management
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1199,8 +929,6 @@ Identity and Access Management
 
 \(SAP\_CORE\_BC\_IAM\_GRP\_PC\)
 
-
-
 </td>
 </tr>
 <tr>
@@ -1208,14 +936,10 @@ Identity and Access Management
 
 Identity and Access Management
 
-
-
 </td>
 <td valign="top">
 
 [Maintain Deleted Business Users](maintain-deleted-business-users-a904bdd.md)
-
-
 
 </td>
 <td valign="top">
@@ -1223,8 +947,6 @@ Identity and Access Management
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1233,8 +955,6 @@ Identity and Access Management
 
 *Identity and Access Management - User Management of Deleted Users* 
 
-
-
 </td>
 </tr>
 <tr>
@@ -1242,14 +962,10 @@ Identity and Access Management
 
 Identity and Access Management
 
-
-
 </td>
 <td valign="top">
 
 [IAM Key Figures](iam-key-figures-f249696.md)
-
-
 
 </td>
 <td valign="top">
@@ -1257,8 +973,6 @@ Identity and Access Management
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1275,8 +989,6 @@ Identity and Access Management
 
 *Role Management*
 
-
-
 </td>
 </tr>
 <tr>
@@ -1284,14 +996,10 @@ Identity and Access Management
 
 Identity and Access Management
 
-
-
 </td>
 <td valign="top">
 
 [Maintain Business Roles](maintain-business-roles-365b0d6.md)
-
-
 
 </td>
 <td valign="top">
@@ -1299,8 +1007,6 @@ Identity and Access Management
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1309,24 +1015,18 @@ Identity and Access Management
 
 *Role Management*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Identity and Access Management
-
-
 
 </td>
 <td valign="top">
 
 [Maintain Business User Groups](maintain-business-user-groups-24f5b79.md)
 
-
-
 </td>
 <td valign="top">
 
@@ -1334,16 +1034,12 @@ Identity and Access Management
 
 *Administrator*
 
-
-
 </td>
 <td valign="top">
 
 `SAP_CORE_BC_IAM_GRP_PC`
 
 *Identity and Access Management - Group Management*
-
-
 
 </td>
 </tr>
@@ -1352,14 +1048,10 @@ Identity and Access Management
 
 Identity and Access Management
 
-
-
 </td>
 <td valign="top">
 
 [Maintain Business Role Groups](maintain-business-role-groups-72b48de.md)
-
-
 
 </td>
 <td valign="top">
@@ -1368,16 +1060,12 @@ Identity and Access Management
 
 *Administrator*
 
-
-
 </td>
 <td valign="top">
 
 `SAP_CORE_BC_IAM_GRP_PC`
 
 *Identity and Access Management - Group Management*
-
-
 
 </td>
 </tr>
@@ -1386,14 +1074,10 @@ Identity and Access Management
 
 Security
 
-
-
 </td>
 <td valign="top">
 
 [Maintain Certificate Trust List](maintain-certificate-trust-list-2b3c3f1.md) 
-
-
 
 </td>
 <td valign="top">
@@ -1401,8 +1085,6 @@ Security
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1411,8 +1093,6 @@ Security
 
 *Security*
 
-
-
 </td>
 </tr>
 <tr>
@@ -1420,14 +1100,10 @@ Security
 
 Security
 
-
-
 </td>
 <td valign="top">
 
 [Maintain Protection Allowlists](maintain-protection-allowlists-81aed02.md) 
-
-
 
 </td>
 <td valign="top">
@@ -1436,8 +1112,6 @@ Security
 
 *Administrator*
 
-
-
 </td>
 <td valign="top">
 
@@ -1445,32 +1119,24 @@ Security
 
 *Security* 
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Security
-
-
 
 </td>
 <td valign="top">
 
 [Manage Content Security Policy](manage-content-security-policy-31d793c.md)
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1479,32 +1145,24 @@ Security
 
 *Security*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Security
-
-
 
 </td>
 <td valign="top">
 
 [Maintain Client Certificates](maintain-client-certificates-7f6a8fb.md)
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1513,8 +1171,6 @@ Security
 
 *Security*
 
-
-
 </td>
 </tr>
 <tr>
@@ -1522,14 +1178,10 @@ Security
 
 Security
 
-
-
 </td>
 <td valign="top">
 
 [Display Security Audit Log](display-security-audit-log-7eed4ab.md)
-
-
 
 </td>
 <td valign="top">
@@ -1546,8 +1198,6 @@ Security
 
 *External Auditor*
 
-
-
 </td>
 <td valign="top">
 
@@ -1555,32 +1205,24 @@ Security
 
 *Security Audit Log*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Communication Management
-
-
 
 </td>
 <td valign="top">
 
 [Communication Arrangements](communication-arrangements-1decd8b.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1589,32 +1231,24 @@ Communication Management
 
 *Communication Management*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Communication Management
-
-
 
 </td>
 <td valign="top">
 
 [Display Communication Scenarios](display-communication-scenarios-baa798b.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1623,32 +1257,24 @@ Communication Management
 
 *Communication Management*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Communication Management
-
-
 
 </td>
 <td valign="top">
 
 [Communication Systems](communication-systems-15663c1.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1657,24 +1283,18 @@ Communication Management
 
 *Communication Management*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Communication Management
-
-
 
 </td>
 <td valign="top">
 
 [Maintain Communication Users](maintain-communication-users-eef80dd.md) 
 
-
-
 </td>
 <td valign="top">
 
@@ -1682,8 +1302,6 @@ Communication Management
 
 *Administrator*
 
-
-
 </td>
 <td valign="top">
 
@@ -1691,32 +1309,24 @@ Communication Management
 
 *Communication Management*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Communication Management
-
-
 
 </td>
 <td valign="top">
 
 [Maintain Extensions on SAP BTP](maintain-extensions-on-sap-btp-cb81f1b.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_ADMINISTRATOR` 
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1725,32 +1335,24 @@ Communication Management
 
 *Communication Management*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Communication Management
-
-
 
 </td>
 <td valign="top">
 
 [Display Connectivity Trace](display-connectivity-trace-a4f6ccd.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_ADMINISTRATOR` 
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1759,32 +1361,24 @@ Communication Management
 
 *Communication Management*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Communication Management
-
-
 
 </td>
 <td valign="top">
 
 [Monitor bgRFC Queues](monitor-bgrfc-queues-e7d35d3.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_ADMINISTRATOR` 
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1793,8 +1387,6 @@ Communication Management
 
 *Communication Management*
 
-
-
 </td>
 </tr>
 <tr>
@@ -1802,14 +1394,10 @@ Communication Management
 
 Communication Management
 
-
-
 </td>
 <td valign="top">
 
 [Display Inbound Services](display-inbound-services-e939433.md)
-
-
 
 </td>
 <td valign="top">
@@ -1817,8 +1405,6 @@ Communication Management
 `SAP_BR_ADMINISTRATOR` 
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1827,8 +1413,6 @@ Communication Management
 
 *Communication Management - Display* \(SAP\_CORE\_BC\_COM\_DISP\_PC\)
 
-
-
 </td>
 </tr>
 <tr>
@@ -1836,14 +1420,10 @@ Communication Management
 
 i18n Services
 
-
-
 </td>
 <td valign="top">
 
 [Language Configuration](language-configuration-9e501ed.md) 
-
-
 
 </td>
 <td valign="top">
@@ -1852,16 +1432,12 @@ i18n Services
 
 *Administrator*
 
-
-
 </td>
 <td valign="top">
 
 `SAP_CORE_BC_I18N_LANG`
 
 *Language Configuration*
-
-
 
 </td>
 </tr>
@@ -1870,14 +1446,10 @@ i18n Services
 
 Output Management
 
-
-
 </td>
 <td valign="top">
 
 [Maintain Print Queues](maintain-print-queues-9dd6f64.md) 
-
-
 
 </td>
 <td valign="top">
@@ -1885,8 +1457,6 @@ Output Management
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1895,8 +1465,6 @@ Output Management
 
 *Output Management - Printing*
 
-
-
 </td>
 </tr>
 <tr>
@@ -1904,14 +1472,10 @@ Output Management
 
 Output Management
 
-
-
 </td>
 <td valign="top">
 
 [Monitor Email Transmissions](monitor-email-transmissions-8cf1ac9.md) 
-
-
 
 </td>
 <td valign="top">
@@ -1919,8 +1483,6 @@ Output Management
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1929,8 +1491,6 @@ Output Management
 
 *Output Management - Monitor Email Transmissions*
 
-
-
 </td>
 </tr>
 <tr>
@@ -1938,14 +1498,10 @@ Output Management
 
 Additional Software
 
-
-
 </td>
 <td valign="top">
 
 [Install Additional Software](install-additional-software-2feca99.md) 
-
-
 
 </td>
 <td valign="top">
@@ -1953,8 +1509,6 @@ Additional Software
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -1963,8 +1517,6 @@ Additional Software
 
 *Additional Software*
 
-
-
 </td>
 </tr>
 <tr>
@@ -1972,14 +1524,10 @@ Additional Software
 
 Custom Code Migration
 
-
-
 </td>
 <td valign="top">
 
 [Custom Code Migration](custom-code-migration-651ef65.md) 
-
-
 
 </td>
 <td valign="top">
@@ -1988,16 +1536,12 @@ Custom Code Migration
 
 *Project Manager - IT*
 
-
-
 </td>
 <td valign="top">
 
 `SAP_CORE_BC_CCM`
 
 *Custom Code Migration*
-
-
 
 </td>
 </tr>
@@ -2006,14 +1550,10 @@ Custom Code Migration
 
 Software Component Lifecycle Management
 
-
-
 </td>
 <td valign="top">
 
 [Manage Software Components](manage-software-components-3dcf76a.md) 
-
-
 
 </td>
 <td valign="top">
@@ -2021,8 +1561,6 @@ Software Component Lifecycle Management
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -2031,32 +1569,24 @@ Software Component Lifecycle Management
 
 *Lifecycle Management - Software Components*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Message Monitoring
-
-
 
 </td>
 <td valign="top">
 
 [SOAP Error Log, OData Error Log, and Event Error Log](soap-error-log-odata-error-log-and-event-error-log-e5799c5.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_CONF_EXPERT_BUS_NET_INT`
 
 *Configuration Expert - Business Network Integration*
-
-
 
 </td>
 <td valign="top">
@@ -2065,32 +1595,24 @@ Message Monitoring
 
 *Communication Management - Technical Message Monitoring*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Message Monitoring
-
-
 
 </td>
 <td valign="top">
 
 [Message Dashboard](message-dashboard-cebfdfc.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_CONF_EXPERT_BUS_NET_INT`
 
 *Configuration Expert - Business Network Integration*
-
-
 
 </td>
 <td valign="top">
@@ -2099,32 +1621,24 @@ Message Monitoring
 
 *Communication Management - Technical Message Monitoring*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Message Monitoring
-
-
 
 </td>
 <td valign="top">
 
 [Message Monitoring Overview](message-monitoring-overview-503c823.md) 
 
-
-
 </td>
 <td valign="top">
 
 `SAP_BR_CONF_EXPERT_BUS_NET_INT`
 
 *Configuration Expert - Business Network Integration*
-
-
 
 </td>
 <td valign="top">
@@ -2133,24 +1647,18 @@ Message Monitoring
 
 *Communication Management - Technical Message Monitoring*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Message Monitoring
-
-
 
 </td>
 <td valign="top">
 
 [Message Monitoring for Integration Experts](message-monitoring-for-integration-experts-69bf7dc.md) 
 
-
-
 </td>
 <td valign="top">
 
@@ -2158,16 +1666,12 @@ Message Monitoring
 
 *Configuration Expert - Business Network Integration*
 
-
-
 </td>
 <td valign="top">
 
 `SAP_CA_BC_COM_TECH_ERR_PC`
 
 *Communication Management - Technical Message Monitoring*
-
-
 
 </td>
 </tr>
@@ -2176,14 +1680,10 @@ Message Monitoring
 
 Message Monitoring
 
-
-
 </td>
 <td valign="top">
 
 [Assign Recipients to Users](assign-recipients-to-users-576fa8d.md) 
-
-
 
 </td>
 <td valign="top">
@@ -2192,16 +1692,12 @@ Message Monitoring
 
 *Configuration Expert - Business Network Integration*
 
-
-
 </td>
 <td valign="top">
 
 `SAP_CA_BC_COM_TECH_ERR_PC`
 
 *Communication Management - Technical Message Monitoring*
-
-
 
 </td>
 </tr>
@@ -2210,14 +1706,10 @@ Message Monitoring
 
 Message Monitoring \(Emergency Correction\)
 
-
-
 </td>
 <td valign="top">
 
 [Message Monitoring \(Emergency Correction\)](message-monitoring-emergency-correction-4330ce7.md) 
-
-
 
 </td>
 <td valign="top">
@@ -2226,8 +1718,6 @@ Message Monitoring \(Emergency Correction\)
 
 *Configuration Expert - Business Network Integration*
 
-
-
 </td>
 <td valign="top">
 
@@ -2235,24 +1725,18 @@ Message Monitoring \(Emergency Correction\)
 
 *Communication Management - Emergency Message Monitoring*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Development
-
-
 
 </td>
 <td valign="top">
 
 [SQL Trace Analysis](sql-trace-analysis-ed7805c.md) 
 
-
-
 </td>
 <td valign="top">
 
@@ -2264,16 +1748,12 @@ Development
 
 *Application Support Engineer - Development Support*
 
-
-
 </td>
 <td valign="top">
 
 `SAP_A4C_BC_DEV_SUP_PC`
 
 *Development - Analysis and Support*
-
-
 
 </td>
 </tr>
@@ -2282,14 +1762,10 @@ Development
 
 Development
 
-
-
 </td>
 <td valign="top">
 
 [Display Publishing Processes](display-publishing-processes-b851c7d.md) 
-
-
 
 </td>
 <td valign="top">
@@ -2302,8 +1778,6 @@ Development
 
 *Application Support Engineer - Development Support*
 
-
-
 </td>
 <td valign="top">
 
@@ -2311,24 +1785,18 @@ Development
 
 *Development - Analysis and Support*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Technical Monitoring
-
-
 
 </td>
 <td valign="top">
 
 [Application System Overview](application-system-overview-1b5964d.md) 
 
-
-
 </td>
 <td valign="top">
 
@@ -2340,8 +1808,6 @@ Technical Monitoring
 
 *Developer*
 
-
-
 </td>
 <td valign="top">
 
@@ -2349,24 +1815,18 @@ Technical Monitoring
 
 *Technical Monitoring*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Technical Monitoring
-
-
 
 </td>
 <td valign="top">
 
 [System Workload](system-workload-ad68ab1.md) 
 
-
-
 </td>
 <td valign="top">
 
@@ -2378,8 +1838,6 @@ Technical Monitoring
 
 *Developer*
 
-
-
 </td>
 <td valign="top">
 
@@ -2387,24 +1845,18 @@ Technical Monitoring
 
 *Technical Monitoring*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Technical Monitoring
-
-
 
 </td>
 <td valign="top">
 
 [Database System Overview](database-system-overview-6162756.md) 
 
-
-
 </td>
 <td valign="top">
 
@@ -2416,8 +1868,6 @@ Technical Monitoring
 
 *Developer*
 
-
-
 </td>
 <td valign="top">
 
@@ -2425,24 +1875,18 @@ Technical Monitoring
 
 *Technical Monitoring*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Technical Monitoring
-
-
 
 </td>
 <td valign="top">
 
 [SQL Statement Analysis](sql-statement-analysis-f2dd9ae.md) 
 
-
-
 </td>
 <td valign="top">
 
@@ -2454,8 +1898,6 @@ Technical Monitoring
 
 *Developer*
 
-
-
 </td>
 <td valign="top">
 
@@ -2463,24 +1905,18 @@ Technical Monitoring
 
 *Technical Monitoring*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Technical Monitoring
-
-
 
 </td>
 <td valign="top">
 
 [Table Analysis](table-analysis-8ec349b.md) 
 
-
-
 </td>
 <td valign="top">
 
@@ -2492,8 +1928,6 @@ Technical Monitoring
 
 *Developer*
 
-
-
 </td>
 <td valign="top">
 
@@ -2501,24 +1935,18 @@ Technical Monitoring
 
 *Technical Monitoring*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Technical Monitoring
-
-
 
 </td>
 <td valign="top">
 
 [Work Process Analysis](work-process-analysis-4931945.md) 
 
-
-
 </td>
 <td valign="top">
 
@@ -2530,8 +1958,6 @@ Technical Monitoring
 
 *Developer*
 
-
-
 </td>
 <td valign="top">
 
@@ -2539,24 +1965,18 @@ Technical Monitoring
 
 *Technical Monitoring*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Technical Monitoring
-
-
 
 </td>
 <td valign="top">
 
 [Tenant Workload](tenant-workload-af6535c.md) 
 
-
-
 </td>
 <td valign="top">
 
@@ -2568,8 +1988,6 @@ Technical Monitoring
 
 *Developer*
 
-
-
 </td>
 <td valign="top">
 
@@ -2577,24 +1995,18 @@ Technical Monitoring
 
 *Technical Monitoring*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Technical Monitoring
-
-
 
 </td>
 <td valign="top">
 
 [Capture Request Statistics](capture-request-statistics-01e93f2.md) 
 
-
-
 </td>
 <td valign="top">
 
@@ -2606,8 +2018,6 @@ Technical Monitoring
 
 *Developer*
 
-
-
 </td>
 <td valign="top">
 
@@ -2615,24 +2025,18 @@ Technical Monitoring
 
 *Technical Monitoring*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Technical Monitoring
-
-
 
 </td>
 <td valign="top">
 
 [Perform System Sizing](perform-system-sizing-1b2be3f.md) 
 
-
-
 </td>
 <td valign="top">
 
@@ -2644,8 +2048,6 @@ Technical Monitoring
 
 *Developer*
 
-
-
 </td>
 <td valign="top">
 
@@ -2653,24 +2055,18 @@ Technical Monitoring
 
 *Technical Monitoring*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Technical Monitoring
-
-
 
 </td>
 <td valign="top">
 
 [System Outbound Communication](system-outbound-communication-a95efa6.md) 
 
-
-
 </td>
 <td valign="top">
 
@@ -2682,8 +2078,6 @@ Technical Monitoring
 
 *Developer*
 
-
-
 </td>
 <td valign="top">
 
@@ -2691,24 +2085,18 @@ Technical Monitoring
 
 *Technical Monitoring*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Technical Monitoring
-
-
 
 </td>
 <td valign="top">
 
 [Sampled Work Process Data](sampled-work-process-data-14df8cc.md)
 
-
-
 </td>
 <td valign="top">
 
@@ -2720,16 +2108,12 @@ Technical Monitoring
 
 *Developer*
 
-
-
 </td>
 <td valign="top">
 
 `SAP_CORE_BC_TMC`
 
 *Technical Monitoring*
-
-
 
 </td>
 </tr>
@@ -2738,14 +2122,10 @@ Technical Monitoring
 
 Technical Monitoring
 
-
-
 </td>
 <td valign="top">
 
 [Partition HANA Tables](partition-hana-tables-c2af316.md)
-
-
 
 </td>
 <td valign="top">
@@ -2753,8 +2133,6 @@ Technical Monitoring
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -2763,8 +2141,6 @@ Technical Monitoring
 
 *Technical Monitoring*
 
-
-
 </td>
 </tr>
 <tr>
@@ -2772,14 +2148,10 @@ Technical Monitoring
 
 Translation
 
-
-
 </td>
 <td valign="top">
 
 [Maintain Translations](maintain-translations-e2ca05c.md)
-
-
 
 </td>
 <td valign="top">
@@ -2787,8 +2159,6 @@ Translation
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
-
-
 
 </td>
 <td valign="top">
@@ -2797,24 +2167,18 @@ Translation
 
 *Translation*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 ABAP Dictionary
-
-
 
 </td>
 <td valign="top">
 
 [Manage Database Cache Configuration](manage-database-cache-configuration-7a79d3e.md) 
 
-
-
 </td>
 <td valign="top">
 
@@ -2822,16 +2186,12 @@ ABAP Dictionary
 
 *Administrator*
 
-
-
 </td>
 <td valign="top">
 
 `SAP_CORE_BC_A4C_DIC`
 
 *Administration - ABAP Dictionary*
-
-
 
 </td>
 </tr>
@@ -2840,14 +2200,10 @@ ABAP Dictionary
 
 ABAP Dictionary
 
-
-
 </td>
 <td valign="top">
 
 [Repair CDS Views](repair-cds-views-a7328be.md) 
-
-
 
 </td>
 <td valign="top">
@@ -2856,16 +2212,12 @@ ABAP Dictionary
 
 *Administrator*
 
-
-
 </td>
 <td valign="top">
 
 `SAP_CORE_BC_A4C_DIC`
 
 *Administration - ABAP Dictionary*
-
-
 
 </td>
 </tr>

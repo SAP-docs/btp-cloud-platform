@@ -47,15 +47,11 @@ Before migrating your trust configuration, check which user data are sent today,
     <th valign="top">
 
     From User Attribute
-
-
     
     </th>
     <th valign="top">
 
     To Assertion Attribute
-
-
     
     </th>
     </tr>
@@ -63,15 +59,11 @@ Before migrating your trust configuration, check which user data are sent today,
     <td valign="top">
     
     first\_name
-
-
     
     </td>
     <td valign="top">
     
     given\_name
-
-
     
     </td>
     </tr>
@@ -79,15 +71,11 @@ Before migrating your trust configuration, check which user data are sent today,
     <td valign="top">
     
     last\_name
-
-
     
     </td>
     <td valign="top">
     
     family\_name
-
-
     
     </td>
     </tr>
@@ -95,15 +83,11 @@ Before migrating your trust configuration, check which user data are sent today,
     <td valign="top">
     
     mail
-
-
     
     </td>
     <td valign="top">
     
     email
-
-
     
     </td>
     </tr>

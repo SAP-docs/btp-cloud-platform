@@ -43,14 +43,10 @@ With multitarget applications you can manage the lifecycle of content provided b
 
 Module Type
 
-
-
 </th>
 <th valign="top">
 
 Content Deployment Mechanism
-
-
 
 </th>
 </tr>
@@ -59,14 +55,10 @@ Content Deployment Mechanism
 
 `com.sap.portal.site-content`
 
-
-
 </td>
 <td valign="top">
 
 Simulated App Execution
-
-
 
 </td>
 </tr>
@@ -75,14 +67,10 @@ Simulated App Execution
 
 `business-logging`
 
-
-
 </td>
 <td valign="top">
 
 Simulated App Execution
-
-
 
 </td>
 </tr>
@@ -91,14 +79,10 @@ Simulated App Execution
 
 `com.sap.html5.application-content`
 
-
-
 </td>
 <td valign="top">
 
 Simulated App Execution
-
-
 
 </td>
 </tr>
@@ -107,14 +91,10 @@ Simulated App Execution
 
 `com.sap.portal.content`
 
-
-
 </td>
 <td valign="top">
 
 CF task execution
-
-
 
 </td>
 </tr>
@@ -123,14 +103,10 @@ CF task execution
 
 `com.sap.business-logging.content`
 
-
-
 </td>
 <td valign="top">
 
 CF task execution
-
-
 
 </td>
 </tr>
@@ -139,14 +115,10 @@ CF task execution
 
 `com.sap.html5.application.content`
 
-
-
 </td>
 <td valign="top">
 
 CF task execution
-
-
 
 </td>
 </tr>
@@ -155,14 +127,10 @@ CF task execution
 
 `com.sap.xs.hdi`
 
-
-
 </td>
 <td valign="top">
 
 CF task execution
-
-
 
 </td>
 </tr>
@@ -171,14 +139,10 @@ CF task execution
 
 `com.sap.application.content`
 
-
-
 </td>
 <td valign="top">
 
 Generic Application Content Deployment
-
-
 
 </td>
 </tr>
@@ -187,14 +151,10 @@ Generic Application Content Deployment
 
 `com.sap.integration`
 
-
-
 </td>
 <td valign="top">
 
 CPI content deployment
-
-
 
 </td>
 </tr>
@@ -203,14 +163,10 @@ CPI content deployment
 
 `com.sap.api.management`
 
-
-
 </td>
 <td valign="top">
 
 CPI content deployment
-
-
 
 </td>
 </tr>

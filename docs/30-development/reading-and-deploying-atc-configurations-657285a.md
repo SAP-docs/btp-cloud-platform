@@ -46,15 +46,11 @@ The communication scenario **SAP\_COM\_0763** offers an OData V4 API for mainten
     <th valign="top">
 
     KEY
-
-
     
     </th>
     <th valign="top">
 
     VALUE
-
-
     
     </th>
     </tr>
@@ -62,15 +58,11 @@ The communication scenario **SAP\_COM\_0763** offers an OData V4 API for mainten
     <td valign="top">
     
     x-csrf-token
-
-
     
     </td>
     <td valign="top">
     
     fetch
-
-
     
     </td>
     </tr>
@@ -86,15 +78,11 @@ The communication scenario **SAP\_COM\_0763** offers an OData V4 API for mainten
     <th valign="top">
 
     KEY
-
-
     
     </th>
     <th valign="top">
 
     VALUE
-
-
     
     </th>
     </tr>
@@ -102,15 +90,11 @@ The communication scenario **SAP\_COM\_0763** offers an OData V4 API for mainten
     <td valign="top">
     
     x-csrf-token
-
-
     
     </td>
     <td valign="top">
     
     <token\>
-
-
     
     </td>
     </tr>
@@ -128,15 +112,11 @@ The communication scenario **SAP\_COM\_0763** offers an OData V4 API for mainten
     <th valign="top">
 
     KEY
-
-
     
     </th>
     <th valign="top">
 
     VALUE
-
-
     
     </th>
     </tr>
@@ -144,15 +124,11 @@ The communication scenario **SAP\_COM\_0763** offers an OData V4 API for mainten
     <td valign="top">
     
     x-csrf-token
-
-
     
     </td>
     <td valign="top">
     
     <token\>
-
-
     
     </td>
     </tr>
@@ -188,15 +164,11 @@ The communication scenario **SAP\_COM\_0763** offers an OData V4 API for mainten
     <th valign="top">
 
     KEY
-
-
     
     </th>
     <th valign="top">
 
     VALUE
-
-
     
     </th>
     </tr>
@@ -204,15 +176,11 @@ The communication scenario **SAP\_COM\_0763** offers an OData V4 API for mainten
     <td valign="top">
     
     content-type
-
-
     
     </td>
     <td valign="top">
     
     application/json
-
-
     
     </td>
     </tr>
@@ -220,15 +188,11 @@ The communication scenario **SAP\_COM\_0763** offers an OData V4 API for mainten
     <td valign="top">
     
     x-csrf-token
-
-
     
     </td>
     <td valign="top">
     
     <token\>
-
-
     
     </td>
     </tr>

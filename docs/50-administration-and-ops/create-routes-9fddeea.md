@@ -32,15 +32,11 @@ The following steps guide you through the procedure of creating routes by using 
     <th valign="top">
 
     Parameter
-
-
     
     </th>
     <th valign="top">
 
     Details
-
-
     
     </th>
     </tr>
@@ -48,8 +44,6 @@ The following steps guide you through the procedure of creating routes by using 
     <td valign="top">
     
     **Domain**
-
-
     
     </td>
     <td valign="top">
@@ -59,8 +53,6 @@ The following steps guide you through the procedure of creating routes by using 
     From the dropdown menu, you can choose either a shared domain or a private domain that you've previously created using the CF CLI.
 
     For more information on private domains, see [https://docs.cloudfoundry.org/devguide/deploy-apps/routes-domains.html\#private-domains](https://docs.cloudfoundry.org/devguide/deploy-apps/routes-domains.html#private-domains).
-
-
     
     </td>
     </tr>
@@ -68,8 +60,6 @@ The following steps guide you through the procedure of creating routes by using 
     <td valign="top">
     
     **Host Name** 
-
-
     
     </td>
     <td valign="top">
@@ -79,8 +69,6 @@ The following steps guide you through the procedure of creating routes by using 
     <code>https://<b>&lt;host name&gt;</b>.&lt;domain&gt;</code>
 
     The host name can contain up to 63 characters.
-
-
     
     </td>
     </tr>
@@ -88,8 +76,6 @@ The following steps guide you through the procedure of creating routes by using 
     <td valign="top">
     
     **Path**
-
-
     
     </td>
     <td valign="top">
@@ -97,8 +83,6 @@ The following steps guide you through the procedure of creating routes by using 
     In addition to the domain and subdomain, you can also add a path. You can use paths if you want to create routes for multiple applications available for the same host name and domain. The path becomes part of the URL as follows:
 
     <code>https://&lt;host name&gt;.&lt;domain&gt;<b>/&lt;path&gt;</b></code>
-
-
     
     </td>
     </tr>
@@ -122,5 +106,5 @@ Once you’ve created a route, you must map it to your application. Additionally
 
 [Map Routes to Applications](map-routes-to-applications-b25cf8a.md "Once a route has been created, you can map it to an application to make this application reachable for end users.")
 
-[Create Space Quota Plans](create-space-quota-plans-b13c4a2.md "You can use the cockpit to create space quota plans.")
+[Create Space Quotas](create-space-quotas-b13c4a2.md "You can use the cockpit to create space quotas.")
 

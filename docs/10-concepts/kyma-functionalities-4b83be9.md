@@ -19,21 +19,15 @@ For all functionalities that the Kyma environment offers, see the official [proj
 
 Functionality
 
-
-
 </th>
 <th valign="top">
 
 open source project "Kyma"
 
-
-
 </th>
 <th valign="top">
 
 SAP BTP, Kyma runtime
-
-
 
 </th>
 </tr>
@@ -42,21 +36,15 @@ SAP BTP, Kyma runtime
 
 Service Level Agreements
 
-
-
 </td>
 <td valign="top">
 
 :x:
 
-
-
 </td>
 <td valign="top">
 
 :heavy_check_mark:
-
-
 
 </td>
 </tr>
@@ -65,21 +53,15 @@ Service Level Agreements
 
 Managed Kubernetes
 
-
-
 </td>
 <td valign="top">
 
 :x:
 
-
-
 </td>
 <td valign="top">
 
 :heavy_check_mark:
-
-
 
 </td>
 </tr>
@@ -88,21 +70,15 @@ Managed Kubernetes
 
 Managed Kyma
 
-
-
 </td>
 <td valign="top">
 
 :x:
 
-
-
 </td>
 <td valign="top">
 
 :heavy_check_mark:
-
-
 
 </td>
 </tr>
@@ -111,21 +87,15 @@ Managed Kyma
 
 Monitoring<sup>[1](kyma-functionalities-4b83be9.md#loio4b83be95f7db4fddba5c46d388ebf39a__ol_tcn_pdp_pvb)</sup>
 
-
-
 </td>
 <td valign="top">
 
 :heavy_check_mark:
 
-
-
 </td>
 <td valign="top">
 
 limited \(no customization in SAP BTP, Kyma runtime\)
-
-
 
 </td>
 </tr>
@@ -134,21 +104,15 @@ limited \(no customization in SAP BTP, Kyma runtime\)
 
 Kyma CLI
 
-
-
 </td>
 <td valign="top">
 
 :heavy_check_mark:
 
-
-
 </td>
 <td valign="top">
 
 limited \(SAP BTP, Kyma runtime supports commands for serverless Functions, not the commands related to installation.\)
-
-
 
 </td>
 </tr>
@@ -157,21 +121,15 @@ limited \(SAP BTP, Kyma runtime supports commands for serverless Functions, not 
 
 Centrally hosted Kyma Dashboard
 
-
-
 </td>
 <td valign="top">
 
 :x:
 
-
-
 </td>
 <td valign="top">
 
 :heavy_check_mark:
-
-
 
 </td>
 </tr>
@@ -180,21 +138,15 @@ Centrally hosted Kyma Dashboard
 
 System landscape management in SAP BTP cockpit
 
-
-
 </td>
 <td valign="top">
 
 :x:
 
-
-
 </td>
 <td valign="top">
 
 :heavy_check_mark:
-
-
 
 </td>
 </tr>
@@ -203,21 +155,15 @@ System landscape management in SAP BTP cockpit
 
 In-cluster system landscape management \(Application Connector\)
 
-
-
 </td>
 <td valign="top">
 
 :heavy_check_mark:
 
-
-
 </td>
 <td valign="top">
 
 :x:
-
-
 
 </td>
 </tr>

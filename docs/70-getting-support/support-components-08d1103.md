@@ -32,14 +32,10 @@ A list of support components for SAP BTP services and tools. Filter for the serv
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Support Component
-
-
 
 </th>
 </tr>
@@ -47,8 +43,6 @@ Support Component
 <td valign="top">
 
 SAP BTP Cockpit
-
-
 
 </td>
 <td valign="top">
@@ -59,8 +53,6 @@ BC-CP-CPT \[Feature Set B\]
 
 BC-CP-CF-CPT \[Cloud Foundry environment UI\]
 
-
-
 </td>
 </tr>
 <tr>
@@ -68,14 +60,10 @@ BC-CP-CF-CPT \[Cloud Foundry environment UI\]
 
 SAP BTP Command Line Interface
 
-
-
 </td>
 <td valign="top">
 
 BC-CP-TOOLS-CLI
-
-
 
 </td>
 </tr>
@@ -84,14 +72,10 @@ BC-CP-TOOLS-CLI
 
 SAP BTP Console Client
 
-
-
 </td>
 <td valign="top">
 
 BC-NEO-CMDTOOL
-
-
 
 </td>
 </tr>
@@ -100,14 +84,10 @@ BC-NEO-CMDTOOL
 
 SAP UI Development Toolkit for HTML5 \(SAPUI5\)
 
-
-
 </td>
 <td valign="top">
 
 CA-WDE
-
-
 
 </td>
 </tr>
@@ -116,14 +96,10 @@ CA-WDE
 
 SDK for SAP BTP, Neo Environment
 
-
-
 </td>
 <td valign="top">
 
 BC-NEO-SDK
-
-
 
 </td>
 </tr>
@@ -132,14 +108,10 @@ BC-NEO-SDK
 
 SAP HANA Cockpit 2.0
 
-
-
 </td>
 <td valign="top">
 
 HAN-CLS-CPT
-
-
 
 </td>
 </tr>
@@ -156,14 +128,10 @@ HAN-CLS-CPT
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Support Component
-
-
 
 </th>
 </tr>
@@ -172,14 +140,10 @@ Support Component
 
 Deployment \(Neo Environment\)
 
-
-
 </td>
 <td valign="top">
 
 BC-NEO-DPL
-
-
 
 </td>
 </tr>
@@ -188,14 +152,10 @@ BC-NEO-DPL
 
 Deployment \(Cloud Foundry Environment\)
 
-
-
 </td>
 <td valign="top">
 
 BC-XS-SL-DS
-
-
 
 </td>
 </tr>
@@ -212,14 +172,10 @@ BC-XS-SL-DS
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Support Component
-
-
 
 </th>
 </tr>
@@ -228,14 +184,10 @@ Support Component
 
 Infrastructure \(Neo environment\)
 
-
-
 </td>
 <td valign="top">
 
 BC-NEO-IT-NW
-
-
 
 </td>
 </tr>
@@ -244,14 +196,10 @@ BC-NEO-IT-NW
 
 SAP Cloud Management Service
 
-
-
 </td>
 <td valign="top">
 
 BC-NEO-CIS
-
-
 
 </td>
 </tr>
@@ -260,14 +208,10 @@ BC-NEO-CIS
 
 SAP Usage Data Management Service
 
-
-
 </td>
 <td valign="top">
 
 BC-NEO-MET-REP
-
-
 
 </td>
 </tr>
@@ -276,16 +220,12 @@ BC-NEO-MET-REP
 
 SAP Audit Log service
 
-
-
 </td>
 <td valign="top">
 
 BC-NEO-AUDITLOG \(Neo environment\)
 
 BC-CP-CF-SEC-AUDITLG \(Cloud Foundry environment\)
-
-
 
 </td>
 </tr>
@@ -294,14 +234,10 @@ BC-CP-CF-SEC-AUDITLG \(Cloud Foundry environment\)
 
 SAP Streaming Analytics
 
-
-
 </td>
 <td valign="top">
 
 HAN-SDS
-
-
 
 </td>
 </tr>
@@ -309,8 +245,6 @@ HAN-SDS
 <td valign="top">
 
 SAP Cloud Application Programming Model \(CAP\)
-
-
 
 </td>
 <td valign="top">
@@ -324,8 +258,6 @@ BC-XS-CDX-JAV \(Java Runtime\)
 BC-XS-CDX-NJS \(Node.js Runtime\)
 
 BC-XS-CDX-TLS \(Tools, IDEs, Build, Deployment\)
-
-
 
 </td>
 </tr>

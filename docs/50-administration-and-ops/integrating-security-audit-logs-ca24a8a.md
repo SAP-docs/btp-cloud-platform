@@ -25,28 +25,20 @@ In the OData version 4 \(V4\) runtime implementation of the SAP Gateway Foundati
 
 Service Group \(incl. Namespace if Existent\)
 
-
-
 </th>
 <th valign="top">
 
 Repository ID
-
-
 
 </th>
 <th valign="top">
 
 Service Name \(incl. Namespace if Existent\)
 
-
-
 </th>
 <th valign="top">
 
 Version
-
-
 
 </th>
 </tr>
@@ -55,28 +47,20 @@ Version
 
 `RSAU_LOG_API` 
 
-
-
 </td>
 <td valign="top">
 
 `SRVD_A2X` 
-
-
 
 </td>
 <td valign="top">
 
 `RSAU_LOG_API_SERVICE` 
 
-
-
 </td>
 <td valign="top">
 
 `0001` 
-
-
 
 </td>
 </tr>
@@ -105,28 +89,20 @@ The entities contain the business data of the service.
 
 Entity
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Necessity
 
-
-
 </th>
 <th valign="top">
 
 Link to Details
-
-
 
 </th>
 </tr>
@@ -135,28 +111,20 @@ Link to Details
 
 Security Audit Log
 
-
-
 </td>
 <td valign="top">
 
 Security Audit Log
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 [Retrieving Security Audit Log](retrieving-security-audit-log-ce39470.md) 
-
-
 
 </td>
 </tr>

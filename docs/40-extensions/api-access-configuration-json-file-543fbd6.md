@@ -13,14 +13,10 @@ Use the authentication type JSON descriptor to define the authentication type fo
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -28,8 +24,6 @@ Description
 <td valign="top">
 
 `systemName`
-
-
 
 </td>
 <td valign="top">
@@ -52,8 +46,6 @@ The name of the system you have registered in a global account in SAP BTP.
 <td valign="top">
 
 `technicalUser`
-
-
 
 </td>
 <td valign="top">

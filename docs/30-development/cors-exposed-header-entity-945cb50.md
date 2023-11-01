@@ -21,21 +21,15 @@ Technical name: `CORSExposedHeaders`
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Necessity
-
-
 
 </th>
 </tr>
@@ -44,21 +38,15 @@ Necessity
 
 HostName
 
-
-
 </td>
 <td valign="top">
 
 Host Name
 
-
-
 </td>
 <td valign="top">
 
 Mandatory: Key
-
-
 
 </td>
 </tr>
@@ -67,21 +55,15 @@ Mandatory: Key
 
 ExposedHeader
 
-
-
 </td>
 <td valign="top">
 
 Exposed header
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>

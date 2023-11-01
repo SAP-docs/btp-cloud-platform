@@ -49,15 +49,11 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
         <th valign="top">
 
         URL
-
-
         
         </th>
         <th valign="top">
 
         Name
-
-
         
         </th>
         </tr>
@@ -65,15 +61,11 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
         <td valign="top">
         
         `POST/accounts/v1/subaccounts/{subaccountGUID}/serviceManagementBinding`
-
-
         
         </td>
         <td valign="top">
         
         `Create a Service Management binding`
-
-
         
         </td>
         </tr>
@@ -81,15 +73,11 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
         <td valign="top">
         
         `GET/accounts/v1/subaccounts/{subaccountGUID}/serviceManagementBinding`
-
-
         
         </td>
         <td valign="top">
         
         `Get a Service Management binding`
-
-
         
         </td>
         </tr>
@@ -97,15 +85,11 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
         <td valign="top">
         
         `DELETE/accounts/v1/subaccounts/{subaccountGUID}/serviceManagementBinding`
-
-
         
         </td>
         <td valign="top">
         
         `Delete a Service Management binding`
-
-
         
         </td>
         </tr>

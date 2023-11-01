@@ -38,6 +38,8 @@ Consider the following restrictions and tips before you start.
 > -   Your Identity Authentication tenant can be changed only when no Identity Authentication-based subscriptions \(for example, SAP Build or SAP Integration Suite, advanced event mesh\) exist.
 > 
 > -   You've already created a trust configuration with a custom identity provider for applications. In this case, you can't add a trust configuration with the same Identity Authentication tenant using another protocol.
+> 
+>     Consider the upper limits for trust configrations in the subaccount. See [Limits for the Subaccount](../60-security/limits-for-technical-artifacts-of-the-sap-authorization-and-trust-management-service-6d3ef52.md#loio6d3ef5260f4a4232ad43542ab1441694__section_ddk_bhf_fzb).
 
 > ### Tip:  
 > -   We recommend that you always use SAP Cloud Identity Services - Identity Authentication as single identity provider for SAP BTP. If you use corporate identity providers, connect them to your Identity Authentication tenant, which then acts as a hub. We especially recommend this if you are using multiple corporate identity providers. For platform users, the use of SAP Cloud Identity Services - Identity Authentication is mandatory.

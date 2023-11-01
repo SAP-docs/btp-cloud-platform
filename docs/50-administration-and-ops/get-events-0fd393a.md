@@ -39,28 +39,20 @@ You have obtained an access token with the `$XSAPPNAME.event.read` scope.
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Required
-
-
 
 </th>
 <th valign="top">
 
 Parameter Type
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -69,28 +61,20 @@ Description
 
 `entityId`
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
 
 Array of strings
 
-
-
 </td>
 <td valign="top">
 
 The ID of the entity associated with the event.
-
-
 
 </td>
 </tr>
@@ -99,21 +83,15 @@ The ID of the entity associated with the event.
 
 `entityType`
 
-
-
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Array of strings
-
-
 
 </td>
 <td valign="top">
@@ -122,8 +100,6 @@ The type of entity associated with the event.
 
 For example Subaccount, Directory, or Tenant.
 
-
-
 </td>
 </tr>
 <tr>
@@ -131,21 +107,15 @@ For example Subaccount, Directory, or Tenant.
 
 `eventType`
 
-
-
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Array of strings
-
-
 
 </td>
 <td valign="top">
@@ -178,21 +148,15 @@ The examples of some of the events for both groups:
 
 `fromActionTime`
 
-
-
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Integer
-
-
 
 </td>
 <td valign="top">
@@ -213,21 +177,15 @@ Use the Unix epoch time in milliseconds \(you can find an online converter from 
 
 `fromCreationTime`
 
-
-
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Integer
-
-
 
 </td>
 <td valign="top">
@@ -248,28 +206,20 @@ Use the Unix epoch time in milliseconds \(you can find an online converter from 
 
 `id`
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
 
 Array of integers
 
-
-
 </td>
 <td valign="top">
 
 The ID of the event.
-
-
 
 </td>
 </tr>
@@ -278,28 +228,20 @@ The ID of the event.
 
 `pageNum`
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 The page number to retrieve.
-
-
 
 </td>
 </tr>
@@ -308,28 +250,20 @@ The page number to retrieve.
 
 `pageSize`
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 The number of events to retrieve per page \(max = 150\).
-
-
 
 </td>
 </tr>
@@ -338,28 +272,20 @@ The number of events to retrieve per page \(max = 150\).
 
 `searchParams`
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
 
 JSON Object
 
-
-
 </td>
 <td valign="top">
 
 Additional search parameters that depend on the type of the events.
-
-
 
 </td>
 </tr>
@@ -368,28 +294,20 @@ Additional search parameters that depend on the type of the events.
 
 `sortField`
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 Field by which to sort the events.
-
-
 
 </td>
 </tr>
@@ -398,21 +316,15 @@ Field by which to sort the events.
 
 `sortOrder`
 
-
-
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
@@ -423,8 +335,6 @@ Can be ascending or descending.
 
 Available values: `ASC`,`DESC`.
 
-
-
 </td>
 </tr>
 <tr>
@@ -432,21 +342,15 @@ Available values: `ASC`,`DESC`.
 
 `toActionTime`
 
-
-
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Integer
-
-
 
 </td>
 <td valign="top">
@@ -467,21 +371,15 @@ Use the Unix epoch time in milliseconds \(you can find an online converter from 
 
 `toCreationTime`
 
-
-
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Integer
-
-
 
 </td>
 <td valign="top">
@@ -520,14 +418,10 @@ Returns the list of events, and its associated objects.
 
 Code
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -536,14 +430,10 @@ Description
 
 200
 
-
-
 </td>
 <td valign="top">
 
 Found events \(OK\)
-
-
 
 </td>
 </tr>
@@ -551,8 +441,6 @@ Found events \(OK\)
 <td valign="top">
 
 400
-
-
 
 </td>
 <td valign="top">
@@ -577,8 +465,6 @@ Possible reasons:
 
 401
 
-
-
 </td>
 <td valign="top">
 
@@ -600,14 +486,10 @@ Possible reasons:
 
 403
 
-
-
 </td>
 <td valign="top">
 
 Forbidden
-
-
 
 </td>
 </tr>
@@ -616,14 +498,10 @@ Forbidden
 
 404
 
-
-
 </td>
 <td valign="top">
 
 Not Found
-
-
 
 </td>
 </tr>
@@ -632,14 +510,10 @@ Not Found
 
 429
 
-
-
 </td>
 <td valign="top">
 
 Rate Limit Exceeded
-
-
 
 </td>
 </tr>
@@ -647,8 +521,6 @@ Rate Limit Exceeded
 <td valign="top">
 
 500
-
-
 
 </td>
 <td valign="top">
@@ -683,21 +555,15 @@ A collection of the event objects associated with the API call and the used scop
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Parameter Type
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -706,16 +572,12 @@ Description
 
 `events`
 
-
-
 </td>
 <td valign="top">
 
 Array of JSON objects:
 
 `BusinessEventResponseObject`
-
-
 
 </td>
 <td valign="top">
@@ -724,8 +586,6 @@ List of the event objects.
 
 See the next table `BusinessEventResponseObject` for its parameters.
 
-
-
 </td>
 </tr>
 <tr>
@@ -733,21 +593,15 @@ See the next table `BusinessEventResponseObject` for its parameters.
 
 `morePages`
 
-
-
 </td>
 <td valign="top">
 
 Boolean
 
-
-
 </td>
 <td valign="top">
 
 Whether there are more pages with event objects to return.
-
-
 
 </td>
 </tr>
@@ -756,21 +610,15 @@ Whether there are more pages with event objects to return.
 
 `pageNum`
 
-
-
 </td>
 <td valign="top">
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 The current page number.
-
-
 
 </td>
 </tr>
@@ -779,21 +627,15 @@ The current page number.
 
 `total`
 
-
-
 </td>
 <td valign="top">
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 Total number of results.
-
-
 
 </td>
 </tr>
@@ -802,21 +644,15 @@ Total number of results.
 
 `totalPages`
 
-
-
 </td>
 <td valign="top">
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 Total number of pages.
-
-
 
 </td>
 </tr>
@@ -835,21 +671,15 @@ Includes details about an event in the list.
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Parameter Type
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -858,14 +688,10 @@ Description
 
 `actionTime`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
@@ -874,8 +700,6 @@ The time the action triggered the event.
 
 The format is Unix epoch time in milliseconds.
 
-
-
 </td>
 </tr>
 <tr>
@@ -883,14 +707,10 @@ The format is Unix epoch time in milliseconds.
 
 `creationTime`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
@@ -899,8 +719,6 @@ The time the event record was created.
 
 The format is Unix epoch time in milliseconds.
 
-
-
 </td>
 </tr>
 <tr>
@@ -908,21 +726,15 @@ The format is Unix epoch time in milliseconds.
 
 `details`
 
-
-
 </td>
 <td valign="top">
 
 JSON object
 
-
-
 </td>
 <td valign="top">
 
 Contains description and details about the requested events.
-
-
 
 </td>
 </tr>
@@ -931,21 +743,15 @@ Contains description and details about the requested events.
 
 `entityId`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 The ID of the entity associated with the event.
-
-
 
 </td>
 </tr>
@@ -954,21 +760,15 @@ The ID of the entity associated with the event.
 
 `entityType`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 The type of the entity associated with the event.
-
-
 
 </td>
 </tr>
@@ -977,21 +777,15 @@ The type of the entity associated with the event.
 
 `eventOrigin`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 The service that reported the event.
-
-
 
 </td>
 </tr>
@@ -1000,14 +794,10 @@ The service that reported the event.
 
 `eventType`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
@@ -1036,21 +826,15 @@ The examples of some of the events for both groups:
 
 `globalAccountGUID`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 The unique ID of the global account associated with the event.
-
-
 
 </td>
 </tr>
@@ -1059,21 +843,15 @@ The unique ID of the global account associated with the event.
 
 `id`
 
-
-
 </td>
 <td valign="top">
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 The ID of the event.
-
-
 
 </td>
 </tr>

@@ -21,21 +21,15 @@ Use the `NUMBER_CHECK` method to check whether a number is within an external in
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -44,21 +38,15 @@ Value Help
 
 NR\_RANGE\_NR
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Interval number
-
-
 
 </td>
 </tr>
@@ -67,21 +55,15 @@ Interval number
 
 NUMBER
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Number to be checked
-
-
 
 </td>
 </tr>
@@ -90,21 +72,15 @@ Number to be checked
 
 NUMERIC\_CHECK
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Numeric check \(for numeric intervals only\)
-
-
 
 </td>
 </tr>
@@ -113,21 +89,15 @@ Numeric check \(for numeric intervals only\)
 
 OBJECT
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Number range object
-
-
 
 </td>
 </tr>
@@ -136,21 +106,15 @@ Number range object
 
 SUBOBJECT
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Sub-object
-
-
 
 </td>
 </tr>
@@ -159,21 +123,15 @@ Sub-object
 
 TOYEAR
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 To fiscal year
-
-
 
 </td>
 </tr>
@@ -182,21 +140,15 @@ To fiscal year
 
 NUMBER\_ALPHA
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Obsolete. Please use the parameter `NUMBER` 
-
-
 
 </td>
 </tr>
@@ -205,21 +157,15 @@ Obsolete. Please use the parameter `NUMBER`
 
 LENGTH\_CHECK
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Check of number length
-
-
 
 </td>
 </tr>
@@ -234,21 +180,15 @@ Check of number length
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -257,21 +197,15 @@ Value Help
 
 RETURNCODE
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Return code
-
-
 
 </td>
 </tr>
@@ -294,21 +228,15 @@ Use the `NUMBER_GET` method to determine the next number of a number range inter
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -317,21 +245,15 @@ Value Help
 
 IGNORE\_BUFFER
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Ignore Buffer
-
-
 
 </td>
 </tr>
@@ -340,21 +262,15 @@ Ignore Buffer
 
 NR\_RANGE\_NR
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Interval Number
-
-
 
 </td>
 </tr>
@@ -363,21 +279,15 @@ Interval Number
 
 OBJECT
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Number Range Object
-
-
 
 </td>
 </tr>
@@ -386,21 +296,15 @@ Number Range Object
 
 QUANTITY
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Number of Numbers in Buffer
-
-
 
 </td>
 </tr>
@@ -409,21 +313,15 @@ Number of Numbers in Buffer
 
 SUBOBJECT
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Sub-object
-
-
 
 </td>
 </tr>
@@ -432,21 +330,15 @@ Sub-object
 
 TOYEAR
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 To Fiscal Year
-
-
 
 </td>
 </tr>
@@ -461,21 +353,15 @@ To Fiscal Year
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -484,21 +370,15 @@ Value Help
 
 NUMBER
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Returned number
-
-
 
 </td>
 </tr>
@@ -507,21 +387,15 @@ Returned number
 
 RETURNCODE
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Return code
-
-
 
 </td>
 </tr>
@@ -530,21 +404,15 @@ Return code
 
 RETURNED\_QUANTITY
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Number of returned numbers
-
-
 
 </td>
 </tr>
@@ -584,21 +452,15 @@ Use the `NUMBER_STATUS` method to determine the number status of a number range 
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -607,21 +469,15 @@ Value Help
 
 NR\_RANGE\_NR
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Interval number
-
-
 
 </td>
 </tr>
@@ -630,21 +486,15 @@ Interval number
 
 OBJECT
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Number range object
-
-
 
 </td>
 </tr>
@@ -653,21 +503,15 @@ Number range object
 
 SUBOBJECT
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Sub-object
-
-
 
 </td>
 </tr>
@@ -676,21 +520,15 @@ Sub-object
 
 TOYEAR
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 To Fiscal Year
-
-
 
 </td>
 </tr>
@@ -705,21 +543,15 @@ To Fiscal Year
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -728,21 +560,15 @@ Value Help
 
 NUMBER
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Number status of the interval
-
-
 
 </td>
 </tr>

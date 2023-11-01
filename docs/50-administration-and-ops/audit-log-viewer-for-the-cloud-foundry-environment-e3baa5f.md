@@ -6,7 +6,7 @@ The SAP Audit Log Viewer service displays the audit logs for your Cloud Foundry 
 
 The UI allows you to:
 
--   read the audit logs written for your account in selected time frame. The SAP Audit Log Viewer service displays 5000 audit log records per request. If you want to view more audit log records, specify a shorter time frame.
+-   read the audit logs written for your account in selected time frame. The SAP Audit Log Viewer service displays 500 audit log records per request. If you want to view more audit log records, specify a shorter time frame.
 
 -   display more detailed information on each single audit log record.
 

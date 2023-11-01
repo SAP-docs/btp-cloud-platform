@@ -62,14 +62,10 @@ You can create and deploy a Multitarget Application in the Cloud Foundry environ
 
 To learn more about
 
-
-
 </th>
 <th valign="top">
 
 See
-
-
 
 </th>
 </tr>
@@ -78,14 +74,10 @@ See
 
 Multitarget Application deployment descriptor
 
-
-
 </td>
 <td valign="top">
 
 [Defining Multitarget Application Deployment Descriptors for Cloud Foundry](defining-multitarget-application-deployment-descriptors-for-cloud-foundry-f48880b.md)
-
-
 
 </td>
 </tr>
@@ -94,14 +86,10 @@ Multitarget Application deployment descriptor
 
 Multitarget Application archive
 
-
-
 </td>
 <td valign="top">
 
 [Defining Multitarget Application Archives](defining-multitarget-application-archives-33a0e0e.md)
-
-
 
 </td>
 </tr>
@@ -110,14 +98,10 @@ Multitarget Application archive
 
 Multitarget Application extension descriptor
 
-
-
 </td>
 <td valign="top">
 
 [Defining MTA Extension Descriptors](defining-mta-extension-descriptors-50df803.md)
-
-
 
 </td>
 </tr>
@@ -126,14 +110,10 @@ Multitarget Application extension descriptor
 
 Multitarget Application structure
 
-
-
 </td>
 <td valign="top">
 
 [Multitarget Application Structure](multitarget-application-structure-f443b9f.md)
-
-
 
 </td>
 </tr>
@@ -142,14 +122,10 @@ Multitarget Application structure
 
 How to deploy the Multitarget Application
 
-
-
 </td>
 <td valign="top">
 
 [Multitarget Application Plug-In for the Cloud Foundry Command Line Interface](../50-administration-and-ops/multitarget-application-plug-in-for-the-cloud-foundry-command-line-interface-e93b231.md)
-
-
 
 </td>
 </tr>
@@ -170,14 +146,10 @@ How to deploy the Multitarget Application
 
 Term
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -186,14 +158,10 @@ Description
 
 Multitarget application \(MTA\)
 
-
-
 </td>
 <td valign="top">
 
 An application comprised of multiple software modules, which are created with different technologies and deployed to different runtimes.
-
-
 
 </td>
 </tr>
@@ -202,14 +170,10 @@ An application comprised of multiple software modules, which are created with di
 
 Development descriptor
 
-
-
 </td>
 <td valign="top">
 
 A `YAML` file named `mta.yaml` that contains a list of all entities, such as modules, resources, and properties that belong to an application or are used by it at runtime, and the dependencies between them. It is automatically generated when an MTA project is created or modified, or when a module is added or removed. The developer needs to edit the descriptor manually to define resources, properties, and dependencies, as well as fill in missing information.
-
-
 
 </td>
 </tr>
@@ -218,14 +182,10 @@ A `YAML` file named `mta.yaml` that contains a list of all entities, such as mod
 
 Deployment descriptor
 
-
-
 </td>
 <td valign="top">
 
 A `YAML` file named `mtad.yaml` that contains a list of all entities which is created from SAP Web IDE Full-Stack or from SAP Business Application Studio or from Cloud MTA Build Tool or manually. This file is similar to Development Descriptor but is used from the SAP Cloud Deployment service..
-
-
 
 </td>
 </tr>
@@ -234,14 +194,10 @@ A `YAML` file named `mtad.yaml` that contains a list of all entities which is cr
 
 Module
 
-
-
 </td>
 <td valign="top">
 
 A self-contained application of a certain type, which is developed, packaged, and deployed.
-
-
 
 </td>
 </tr>
@@ -250,14 +206,10 @@ A self-contained application of a certain type, which is developed, packaged, an
 
 Module type
 
-
-
 </td>
 <td valign="top">
 
 A type that defines the structure and the development technology of a module. You can see a list of the module types at [Modules](modules-177d34d.md).
-
-
 
 </td>
 </tr>
@@ -266,14 +218,10 @@ A type that defines the structure and the development technology of a module. Yo
 
 Resource
 
-
-
 </td>
 <td valign="top">
 
 Any resource, such as an external service that is required by a module at runtime but not provided by the module itself.
-
-
 
 </td>
 </tr>
@@ -282,14 +230,10 @@ Any resource, such as an external service that is required by a module at runtim
 
 Property
 
-
-
 </td>
 <td valign="top">
 
 A property \(key-value pair\) of an application, module, or resource, that is used during deployment or at runtime.
-
-
 
 </td>
 </tr>
@@ -298,14 +242,10 @@ A property \(key-value pair\) of an application, module, or resource, that is us
 
 Parameter
 
-
-
 </td>
 <td valign="top">
 
 A reserved variable belonging to a module or resource, whose value is used during deployment or at runtime.
-
-
 
 </td>
 </tr>
@@ -313,8 +253,6 @@ A reserved variable belonging to a module or resource, whose value is used durin
 <td valign="top">
 
 Dependency
-
-
 
 </td>
 <td valign="top">
@@ -335,14 +273,10 @@ A relationship between a module and another module, resource, or property, such 
 
 MTA archive \(MTAR\)
 
-
-
 </td>
 <td valign="top">
 
 Archive containing a deployment descriptor, the module and resource binaries, and configuration files. The archive follows the JAR file specification.
-
-
 
 </td>
 </tr>

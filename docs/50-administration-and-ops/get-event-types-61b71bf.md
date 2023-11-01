@@ -49,14 +49,10 @@ Returns the event types, their descriptions and categories.
 
 Code
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -65,14 +61,10 @@ Description
 
 200
 
-
-
 </td>
 <td valign="top">
 
 OK
-
-
 
 </td>
 </tr>
@@ -80,8 +72,6 @@ OK
 <td valign="top">
 
 401
-
-
 
 </td>
 <td valign="top">
@@ -102,14 +92,10 @@ Possible reasons:
 
 403
 
-
-
 </td>
 <td valign="top">
 
 Forbidden
-
-
 
 </td>
 </tr>
@@ -118,14 +104,10 @@ Forbidden
 
 404
 
-
-
 </td>
 <td valign="top">
 
 Not Found
-
-
 
 </td>
 </tr>
@@ -134,14 +116,10 @@ Not Found
 
 429
 
-
-
 </td>
 <td valign="top">
 
 Rate Limit Exceeded
-
-
 
 </td>
 </tr>
@@ -149,8 +127,6 @@ Rate Limit Exceeded
 <td valign="top">
 
 500
-
-
 
 </td>
 <td valign="top">
@@ -185,21 +161,15 @@ A JSON object that contains details about event types.
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Parameter Type
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -208,14 +178,10 @@ Description
 
 `category`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
@@ -238,21 +204,15 @@ Possible values:
 
 `description`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 The description of the event type.
-
-
 
 </td>
 </tr>
@@ -261,14 +221,10 @@ The description of the event type.
 
 `searchParams`
 
-
-
 </td>
 <td valign="top">
 
 Array
-
-
 
 </td>
 <td valign="top">
@@ -289,14 +245,10 @@ Provided inline.
 
 `type`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">

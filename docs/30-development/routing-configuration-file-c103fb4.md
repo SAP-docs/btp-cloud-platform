@@ -86,21 +86,15 @@ The following table lists the properties that either must be set or can be speci
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -109,21 +103,15 @@ Description
 
 [welcomeFile](welcomefile-f1d9ff4.md)
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 The Web page served by default if the HTTP request does not include a specific path, for example, index.html.
-
-
 
 </td>
 </tr>
@@ -132,21 +120,15 @@ The Web page served by default if the HTTP request does not include a specific p
 
 [authenticationMethod](authenticationmethod-ff58bb0.md)
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 The method used to authenticate user requests, for example: “route” or “none” \(no authentication\).
-
-
 
 </td>
 </tr>
@@ -155,21 +137,15 @@ The method used to authenticate user requests, for example: “route” or “no
 
 [sessionTimeout](sessiontimeout-9d24198.md)
 
-
-
 </td>
 <td valign="top">
 
 Number
 
-
-
 </td>
 <td valign="top">
 
 Define the amount of time \(in minutes\) for which a session can remain inactive before it closes automatically \(times out\); the default time out is 15 minutes.
-
-
 
 </td>
 </tr>
@@ -178,21 +154,15 @@ Define the amount of time \(in minutes\) for which a session can remain inactive
 
 [routes](routes-666eb55.md)
 
-
-
 </td>
 <td valign="top">
 
 Array
 
-
-
 </td>
 <td valign="top">
 
 Defines all route objects, for example: `source`, `target`, and, `destination`.
-
-
 
 </td>
 </tr>
@@ -201,21 +171,15 @@ Defines all route objects, for example: `source`, `target`, and, `destination`.
 
 [login](login-0698797.md)
 
-
-
 </td>
 <td valign="top">
 
 Object
 
-
-
 </td>
 <td valign="top">
 
 A redirect to the application router at a specific endpoint takes place during OAuth2 authentication with the User Account and Authentication service \(UAA\).
-
-
 
 </td>
 </tr>
@@ -224,21 +188,15 @@ A redirect to the application router at a specific endpoint takes place during O
 
 [logout](logout-2296b4d.md)
 
-
-
 </td>
 <td valign="top">
 
 Object
 
-
-
 </td>
 <td valign="top">
 
 You can define any options that apply if you want your application to have central log out end point.
-
-
 
 </td>
 </tr>
@@ -247,21 +205,15 @@ You can define any options that apply if you want your application to have centr
 
 [destinations](destinations-6b303d0.md)
 
-
-
 </td>
 <td valign="top">
 
 Object
 
-
-
 </td>
 <td valign="top">
 
 Specify any additional options for your destinations.
-
-
 
 </td>
 </tr>
@@ -270,21 +222,15 @@ Specify any additional options for your destinations.
 
 [services](services-92741fa.md)
 
-
-
 </td>
 <td valign="top">
 
 Object
 
-
-
 </td>
 <td valign="top">
 
 Specify options for a service in your application.
-
-
 
 </td>
 </tr>
@@ -293,21 +239,15 @@ Specify options for a service in your application.
 
 [responseHeaders](responseheaders-4393490.md)
 
-
-
 </td>
 <td valign="top">
 
 Array
 
-
-
 </td>
 <td valign="top">
 
 Add custom response headers to your application.
-
-
 
 </td>
 </tr>
@@ -316,21 +256,15 @@ Add custom response headers to your application.
 
 [compression](compression-ff906e7.md)
 
-
-
 </td>
 <td valign="top">
 
 Object
 
-
-
 </td>
 <td valign="top">
 
 The `compression` keyword enables you to define if the application router compresses text resources before sending them.
-
-
 
 </td>
 </tr>
@@ -339,21 +273,15 @@ The `compression` keyword enables you to define if the application router compre
 
 [pluginMetadataEndpoint](pluginmetadataendpoint-df4ca32.md)
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 Adds an endpoint that serves a JSON string representing all configured plugins.
-
-
 
 </td>
 </tr>
@@ -362,21 +290,15 @@ Adds an endpoint that serves a JSON string representing all configured plugins.
 
 [whitelistService](whitelistservice-435d5a6.md)
 
-
-
 </td>
 <td valign="top">
 
 Object
 
-
-
 </td>
 <td valign="top">
 
 Enable the allowlist service to help preventing click-jacking attacks.
-
-
 
 </td>
 </tr>
@@ -385,21 +307,15 @@ Enable the allowlist service to help preventing click-jacking attacks.
 
 [websockets](websockets-44bc1e7.md)
 
-
-
 </td>
 <td valign="top">
 
 Object
 
-
-
 </td>
 <td valign="top">
 
 The application router can forward web-socket communication. Web-socket communication must be enabled in the application router configuration.
-
-
 
 </td>
 </tr>
@@ -408,21 +324,15 @@ The application router can forward web-socket communication. Web-socket communic
 
 [errorPage](errorpage-0377013.md)
 
-
-
 </td>
 <td valign="top">
 
 Array
 
-
-
 </td>
 <td valign="top">
 
 Errors originating in the application router show the HTTP status code of the error. It is possible to display a custom error page using the `errorPage` property.
-
-
 
 </td>
 </tr>

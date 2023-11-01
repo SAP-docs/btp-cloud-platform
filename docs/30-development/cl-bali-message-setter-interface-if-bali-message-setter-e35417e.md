@@ -13,14 +13,10 @@ To add a new message to an application log an object of class *CL\_BALI\_MESSAGE
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -31,16 +27,12 @@ CATEGORY
 
 \(from IF\_BALI\_ITEM\_SETTER\)
 
-
-
 </td>
 <td valign="top">
 
 Category of the item
 
 Contains fixed value: IF\_BALI\_CONSTANTS=\>C\_CATEGORY\_MESSAGE
-
-
 
 </td>
 </tr>
@@ -61,14 +53,10 @@ Create a message class instance and set the message attributes:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -77,16 +65,12 @@ Description
 
 **Importing parameters**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 SEVERITY
-
-
 
 </td>
 <td valign="top">
@@ -95,8 +79,6 @@ SEVERITY
 
 Default: IF\_BALI\_CONSTANTS=\>C\_SEVERITY\_STATUS
 
-
-
 </td>
 </tr>
 <tr>
@@ -104,14 +86,10 @@ Default: IF\_BALI\_CONSTANTS=\>C\_SEVERITY\_STATUS
 
 ID
 
-
-
 </td>
 <td valign="top">
 
 Message ID
-
-
 
 </td>
 </tr>
@@ -120,14 +98,10 @@ Message ID
 
 NUMBER
 
-
-
 </td>
 <td valign="top">
 
 Message number
-
-
 
 </td>
 </tr>
@@ -136,14 +110,10 @@ Message number
 
 VARIABLE\_1
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\): Message variable 1
-
-
 
 </td>
 </tr>
@@ -152,14 +122,10 @@ VARIABLE\_1
 
 VARIABLE\_2
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\): Message variable 2
-
-
 
 </td>
 </tr>
@@ -168,14 +134,10 @@ VARIABLE\_2
 
 VARIABLE\_3
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\): Message variable 3
-
-
 
 </td>
 </tr>
@@ -184,14 +146,10 @@ VARIABLE\_3
 
 VARIABLE\_4
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\): Message variable 4
-
-
 
 </td>
 </tr>
@@ -200,8 +158,6 @@ VARIABLE\_4
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -209,14 +165,10 @@ VARIABLE\_4
 
 MESSAGE
 
-
-
 </td>
 <td valign="top">
 
 Message object: A reference to interface IF\_BALI\_MESSAGE\_SETTER
-
-
 
 </td>
 </tr>
@@ -235,14 +187,10 @@ Create a message class instance. The message attributes are read from the fields
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -251,8 +199,6 @@ Description
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -260,14 +206,10 @@ Description
 
 MESSAGE
 
-
-
 </td>
 <td valign="top">
 
 Message object: A reference to interface IF\_BALI\_MESSAGE\_SETTER
-
-
 
 </td>
 </tr>
@@ -286,14 +228,10 @@ Create a message class instance. The message attributes are read from a structur
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -302,8 +240,6 @@ Description
 
 **Importing parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -311,14 +247,10 @@ Description
 
 MESSAGE\_DATA
 
-
-
 </td>
 <td valign="top">
 
 Message attributes \(a structure of type BAPIRET2\)
-
-
 
 </td>
 </tr>
@@ -327,8 +259,6 @@ Message attributes \(a structure of type BAPIRET2\)
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -336,14 +266,10 @@ Message attributes \(a structure of type BAPIRET2\)
 
 MESSAGE
 
-
-
 </td>
 <td valign="top">
 
 Message object: A reference to interface IF\_BALI\_MESSAGE\_SETTER
-
-
 
 </td>
 </tr>
@@ -362,14 +288,10 @@ Set attributes of the message:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -378,16 +300,12 @@ Description
 
 **Importing parameters**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 SEVERITY
-
-
 
 </td>
 <td valign="top">
@@ -396,8 +314,6 @@ SEVERITY
 
 Default: IF\_BALI\_CONSTANTS=\>C\_SEVERITY\_STATUS
 
-
-
 </td>
 </tr>
 <tr>
@@ -405,14 +321,10 @@ Default: IF\_BALI\_CONSTANTS=\>C\_SEVERITY\_STATUS
 
 ID
 
-
-
 </td>
 <td valign="top">
 
 Message ID
-
-
 
 </td>
 </tr>
@@ -421,14 +333,10 @@ Message ID
 
 NUMBER
 
-
-
 </td>
 <td valign="top">
 
 Message number
-
-
 
 </td>
 </tr>
@@ -437,14 +345,10 @@ Message number
 
 VARIABLE\_1
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\): Message variable 1
-
-
 
 </td>
 </tr>
@@ -453,14 +357,10 @@ VARIABLE\_1
 
 VARIABLE\_2
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\): Message variable 2
-
-
 
 </td>
 </tr>
@@ -469,14 +369,10 @@ VARIABLE\_2
 
 VARIABLE\_3
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\): Message variable 3
-
-
 
 </td>
 </tr>
@@ -485,14 +381,10 @@ VARIABLE\_3
 
 VARIABLE\_4
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\): Message variable 4
-
-
 
 </td>
 </tr>
@@ -501,8 +393,6 @@ VARIABLE\_4
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -510,14 +400,10 @@ VARIABLE\_4
 
 NEW\_MESSAGE
 
-
-
 </td>
 <td valign="top">
 
 Reference to current message object
-
-
 
 </td>
 </tr>
@@ -536,14 +422,10 @@ Set message attributes from the fields of structure SY \(like SY-MSGID\):
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -552,8 +434,6 @@ Description
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -561,14 +441,10 @@ Description
 
 NEW\_MESSAGE
 
-
-
 </td>
 <td valign="top">
 
 Reference to current message object
-
-
 
 </td>
 </tr>
@@ -587,14 +463,10 @@ Set message attributes from structure BAPIRET2:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -603,8 +475,6 @@ Description
 
 **Importing parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -612,14 +482,10 @@ Description
 
 MESSAGE\_DATA
 
-
-
 </td>
 <td valign="top">
 
 Message attributes \(a structure of type BAPIRET2\)
-
-
 
 </td>
 </tr>
@@ -628,8 +494,6 @@ Message attributes \(a structure of type BAPIRET2\)
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -637,14 +501,10 @@ Message attributes \(a structure of type BAPIRET2\)
 
 MESSAGE
 
-
-
 </td>
 <td valign="top">
 
 Reference to current message object
-
-
 
 </td>
 </tr>
@@ -663,14 +523,10 @@ Set the level of detail of the item:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -679,16 +535,12 @@ Description
 
 **Importing parameter**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 DETAIL\_LEVEL
-
-
 
 </td>
 <td valign="top">
@@ -697,16 +549,12 @@ Detail level of the item
 
 Allowed values: Number between '1' and '9' or ' '
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
 
 **Returning parameter**
-
-
 
 </td>
 </tr>
@@ -715,14 +563,10 @@ Allowed values: Number between '1' and '9' or ' '
 
 MESSAGE
 
-
-
 </td>
 <td valign="top">
 
 Reference to current message object
-
-
 
 </td>
 </tr>
@@ -741,14 +585,10 @@ Get all message values:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -757,8 +597,6 @@ Description
 
 **Exporting parameters**
 
-
-
 </td>
 </tr>
 <tr>
@@ -766,14 +604,10 @@ Description
 
 DETAIL\_LEVELDETAIL\_LEVEL
 
-
-
 </td>
 <td valign="top">
 
 Detail Level of the item \(number between '1' and '9' or ' '\)
-
-
 
 </td>
 </tr>
@@ -782,14 +616,10 @@ Detail Level of the item \(number between '1' and '9' or ' '\)
 
 SEVERITY
 
-
-
 </td>
 <td valign="top">
 
 Severity of the message \('Error', 'Warning', etc\)
-
-
 
 </td>
 </tr>
@@ -798,14 +628,10 @@ Severity of the message \('Error', 'Warning', etc\)
 
 ID
 
-
-
 </td>
 <td valign="top">
 
 Message ID
-
-
 
 </td>
 </tr>
@@ -814,14 +640,10 @@ Message ID
 
 NUMBER
 
-
-
 </td>
 <td valign="top">
 
 Message number
-
-
 
 </td>
 </tr>
@@ -830,14 +652,10 @@ Message number
 
 VARIABLE\_1
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\): Message variable 1
-
-
 
 </td>
 </tr>
@@ -846,14 +664,10 @@ VARIABLE\_1
 
 VARIABLE\_2
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\): Message variable 2
-
-
 
 </td>
 </tr>
@@ -862,14 +676,10 @@ VARIABLE\_2
 
 VARIABLE\_3
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\): Message variable 3
-
-
 
 </td>
 </tr>
@@ -878,14 +688,10 @@ VARIABLE\_3
 
 VARIABLE\_4
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\): Message variable 4
-
-
 
 </td>
 </tr>
@@ -894,8 +700,6 @@ VARIABLE\_4
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -903,14 +707,10 @@ VARIABLE\_4
 
 NEW\_MESSAGE
 
-
-
 </td>
 <td valign="top">
 
 Reference to current message object
-
-
 
 </td>
 </tr>
@@ -929,14 +729,10 @@ Check whether the message can pass an item filter:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -945,8 +741,6 @@ Description
 
 **Importing parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -954,14 +748,10 @@ Description
 
 ITEM\_FILTER
 
-
-
 </td>
 <td valign="top">
 
 Reference to the item filter that is being checked
-
-
 
 </td>
 </tr>
@@ -970,8 +760,6 @@ Reference to the item filter that is being checked
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -979,14 +767,10 @@ Reference to the item filter that is being checked
 
 FILTER\_PASSED
 
-
-
 </td>
 <td valign="top">
 
 If set, the message can pass the item filter
-
-
 
 </td>
 </tr>

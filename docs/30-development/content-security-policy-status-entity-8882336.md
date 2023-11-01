@@ -23,21 +23,15 @@ Technical name: `ContentSecurityPolicyStatus`
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Necessity
-
-
 
 </th>
 </tr>
@@ -46,21 +40,15 @@ Necessity
 
 ContentSecurityPolicyStatus
 
-
-
 </td>
 <td valign="top">
 
 Content Security Policy Status
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>

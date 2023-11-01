@@ -78,21 +78,15 @@ The global account's *Usage Analytics* page provides information about the usage
 
 View
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
-
-
 
 </th>
 </tr>
@@ -101,14 +95,10 @@ Action
 
 **Global Account Info** 
 
-
-
 </td>
 <td valign="top">
 
 Displays general information about the global account, including the number of directories and subaccounts it contains, and the number of regions which have these subaccounts.
-
-
 
 </td>
 <td valign="top">
@@ -116,8 +106,6 @@ Displays general information about the global account, including the number of d
 \[Feature Set B\]: Click the *Directories* or *Subaccounts* links to navigate directly to the *Account Explorer* page.
 
 \[Feature Set A\]: Click the *Subaccounts* link to navigate directly to the *Subaccounts* page.
-
-
 
 </td>
 </tr>
@@ -127,8 +115,6 @@ Displays general information about the global account, including the number of d
 **Cloud Credits Usage**
 
 \(Only displayed when there is a cloud-credit balance for a global account that uses the consumption-based commercial mode.\)
-
-
 
 </td>
 <td valign="top">
@@ -144,14 +130,10 @@ Displays the current balance and monthly usage of cloud credits as a percentage 
 
 Alerts are displayed when you have used more than 90% and when you reach 100% of your cloud credits.
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -162,8 +144,6 @@ Alerts are displayed when you have used more than 90% and when you reach 100% of
 
 \(Only displayed when there is no cloud-credit balance for a global account that uses the consumption-based commercial mode.\)
 
-
-
 </td>
 <td valign="top">
 
@@ -173,14 +153,10 @@ All cost information is for all regions in the global account.
 
 Actual costs are updated after the monthly statement is generated.
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -188,8 +164,6 @@ Actual costs are updated after the monthly statement is generated.
 <td valign="top">
 
 **Global Account Overview** 
-
-
 
 </td>
 <td valign="top">
@@ -215,8 +189,6 @@ Use the filter to select the environment and service for which you want to view 
 
 For the chart display, select a row, and filter by period. If no row is selected, the chart displays information for all the service plans in the table.
 
-
-
 </td>
 </tr>
 <tr>
@@ -224,14 +196,10 @@ For the chart display, select a row, and filter by period. If no row is selected
 
 **Service Usage** 
 
-
-
 </td>
 <td valign="top">
 
 Displays resource usage according to service. Some service plans may display usage according to multiple metrics.
-
-
 
 </td>
 <td valign="top">
@@ -240,8 +208,6 @@ Use the filter to select the service and directory or subaccount for which to di
 
 For the chart display, select a row, and filter by period. If no row is selected, the chart displays information for all the service plans in the table.
 
-
-
 </td>
 </tr>
 <tr>
@@ -249,14 +215,10 @@ For the chart display, select a row, and filter by period. If no row is selected
 
 **Directory/Subaccount Usage** 
 
-
-
 </td>
 <td valign="top">
 
 Displays resource usage according to subaccount or directory. Some service plans may display usage according to multiple metrics.
-
-
 
 </td>
 <td valign="top">
@@ -264,8 +226,6 @@ Displays resource usage according to subaccount or directory. Some service plans
 Use the filter to select the directory or subaccount for which to display usage.
 
 For the chart display, select a row and filter by period. If no row is selected, the chart displays information for all the service plans in the table.
-
-
 
 </td>
 </tr>
@@ -291,21 +251,15 @@ The document with the relevant data is downloaded. The document contains several
 
 Sheet Name
 
-
-
 </th>
 <th valign="top" rowspan="2">
 
 Description
 
-
-
 </th>
 <th valign="top" align="center" colspan="2">
 
 Commercial Model
-
-
 
 </th>
 </tr>
@@ -314,14 +268,10 @@ Commercial Model
 
 Subscription-Based
 
-
-
 </th>
 <th valign="top" align="center">
 
 Consumption-Based
-
-
 
 </th>
 </tr>
@@ -330,28 +280,20 @@ Consumption-Based
 
 Global Account Info
 
-
-
 </td>
 <td valign="top">
 
 Provides general information about your global account. If there is a cloud-credit balance for the global account, then its cloud-credit usage, per month as a percentage of your total cloud credits for the current contract period, is also shown.
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -360,8 +302,6 @@ Yes
 
 Global Account Costs
 
-
-
 </td>
 <td valign="top">
 
@@ -369,21 +309,15 @@ Allows you to view total monthly usage data and costs for all billable services 
 
 The items listed are all the billed items that are created in the accounting system and deducted from the cloud-credit balance of your global account.
 
-
-
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -391,8 +325,6 @@ Yes
 <td valign="top">
 
 Subaccount Costs by Service
-
-
 
 </td>
 <td valign="top">
@@ -408,21 +340,15 @@ All subaccount calculations are estimated and proportionate to the total global 
 
 This sheet is not included in the spreadsheet if your global account is licensed for both the consumption-based and subscription-based commercial models.
 
-
-
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -430,8 +356,6 @@ Yes
 <td valign="top">
 
 Actual Usage
-
-
 
 </td>
 <td valign="top">
@@ -442,21 +366,15 @@ Actual or raw usage data is different to the billed usage that is used in your b
 
 The aggregated usage for each service is based on a formula that is specific to each service, for example, MIN, MAX, or AVG.
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -465,8 +383,6 @@ Yes
 
 Labels
 
-
-
 </td>
 <td valign="top">
 
@@ -474,21 +390,15 @@ Lists the user-defined labels that are assigned directly to each subaccount that
 
 This sheet does not display any usage data; however, you can use this information to determine usage by label, by extrapolating the subaccount usage data in the other sheets to the labels assigned to the subaccounts in this sheet.
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -504,14 +414,10 @@ Yes
 > 
 > Subaccount 1
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 > 1x SAP HANA 256 GB, 200 MB of Application Runtime, and 300 API calls of Destination 
-> 
-> 
 > 
 > </td>
 > </tr>
@@ -520,8 +426,6 @@ Yes
 > 
 > 200 MB of Application Runtime and 300 API calls of Destination 
 > 
-> 
-> 
 > </td>
 > </tr>
 > <tr>
@@ -529,14 +433,10 @@ Yes
 > 
 > Subaccount 2
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 > 1x SAP HANA 512 GB, 600 MB of Application Runtime, and 300 API calls of Destination 
-> 
-> 
 > 
 > </td>
 > </tr>
@@ -551,14 +451,10 @@ Yes
 > 
 > Sheet
 > 
-> 
-> 
 > </th>
 > <th valign="top">
 > 
 > Sample Usage and Cost Data Displayed in Spreadsheet
-> 
-> 
 > 
 > </th>
 > </tr>
@@ -566,8 +462,6 @@ Yes
 > <td valign="top">
 > 
 > Global Account Costs
-> 
-> 
 > 
 > </td>
 > <td valign="top">
@@ -587,8 +481,6 @@ Yes
 > <td valign="top">
 > 
 > Subaccount Costs by Service
-> 
-> 
 > 
 > </td>
 > <td valign="top">
@@ -610,8 +502,6 @@ Yes
 > <td valign="top">
 > 
 > Actual Usage
-> 
-> 
 > 
 > </td>
 > <td valign="top">

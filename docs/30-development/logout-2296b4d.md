@@ -17,28 +17,20 @@ In this object you can define an application's central logout end point by using
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Mandatory
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -47,28 +39,20 @@ Description
 
 `logoutPath`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 The path to be used when logging out from the application router
-
-
 
 </td>
 </tr>
@@ -77,28 +61,20 @@ The path to be used when logging out from the application router
 
 `logoutPage`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 The URL path of the logout page
-
-
 
 </td>
 </tr>
@@ -107,21 +83,15 @@ The URL path of the logout page
 
 `logoutMethod`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
@@ -142,21 +112,15 @@ The default value is `GET`.
 
 `csrfProtection`
 
-
-
 </td>
 <td valign="top">
 
 Boolean
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
@@ -164,8 +128,6 @@ No
 Can only be defined if the`logoutMethod` is `POST`.
 
 If the `logoutMethod` is `POST` and this property is not defined, the default value is `true`. You can set it to `false` – for example if csrfProtection is implemented in back-end application
-
-
 
 </td>
 </tr>

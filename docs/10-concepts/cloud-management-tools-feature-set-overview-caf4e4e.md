@@ -47,21 +47,15 @@ For more information, see [Cloud Management Tools — Feature Set Overview](clou
 
 New/Changed Features and Behaviors
 
-
-
 </th>
 <th valign="top">
 
 Feature Set A
 
-
-
 </th>
 <th valign="top">
 
 Feature Set B
-
-
 
 </th>
 </tr>
@@ -70,14 +64,10 @@ Feature Set B
 
 **Directories — NEW**
 
-
-
 </td>
 <td valign="top">
 
 *Not applicable*
-
-
 
 </td>
 <td valign="top">
@@ -101,8 +91,6 @@ See:
 
 [Manage the Account Explorer Hierarchy \[Feature Set B\]](../50-administration-and-ops/manage-the-account-explorer-hierarchy-feature-set-b-2e2a5b6.md)
 
-
-
 </td>
 </tr>
 <tr>
@@ -110,14 +98,10 @@ See:
 
 **Labels — NEW**
 
-
-
 </td>
 <td valign="top">
 
 *Not applicable*
-
-
 
 </td>
 <td valign="top">
@@ -135,8 +119,6 @@ You can manage labels for the supported entities using the SAP BTP cockpit, comm
 
 See [Labels \[Feature Set B\]](account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
 
-
-
 </td>
 </tr>
 <tr>
@@ -144,14 +126,10 @@ See [Labels \[Feature Set B\]](account-model-8ed4a70.md#loioe8663c08ead648faa673
 
 **APIs for SAP BTP — NEW**
 
-
-
 </td>
 <td valign="top">
 
 *Not applicable*
-
-
 
 </td>
 <td valign="top">
@@ -173,8 +151,6 @@ Discover and consume REST APIs to manage, build, and extend the cloud operation 
 
 See [Account Administration Using APIs of the SAP Cloud Management Service \[Feature Set B\]](../50-administration-and-ops/account-administration-using-apis-of-the-sap-cloud-management-service-feature-set-b-17b6a17.md) and [Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](../50-administration-and-ops/monitoring-usage-information-using-apis-of-the-sap-usage-data-management-service-featur-bf2b304.md).
 
-
-
 </td>
 </tr>
 <tr>
@@ -182,14 +158,10 @@ See [Account Administration Using APIs of the SAP Cloud Management Service \[Fea
 
 **SAP BTP command line interface \(btp CLI\) — NEW**
 
-
-
 </td>
 <td valign="top">
 
 *Not applicable*
-
-
 
 </td>
 <td valign="top">
@@ -217,9 +189,7 @@ See:
 
 [btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 
-[Setting Up a Global Account via the Command Line \[Feature Set B\]](../20-getting-started/setting-up-a-global-account-via-the-command-line-feature-set-b-accd5b2.md)
-
-
+[Setting Up a Global Account via the Command Line](../20-getting-started/setting-up-a-global-account-via-the-command-line-accd5b2.md)
 
 </td>
 </tr>
@@ -227,8 +197,6 @@ See:
 <td valign="top">
 
 **Global account navigation — CHANGED**
-
-
 
 </td>
 <td valign="top">
@@ -247,8 +215,6 @@ Since it has several views outside of the global account scope, your cockpit con
 Once you're in a global account, the first page you see is the global account overview page. To navigate to a subaccount, you have to navigate to the *Subaccounts* page from the left hand-side navigation.
 
 See [Navigate in the Cockpit](../50-administration-and-ops/navigate-in-the-cockpit-0874895.md)
-
-
 
 </td>
 <td valign="top">
@@ -269,16 +235,12 @@ Once you're in a global account, the first page you see is the *Subaccounts* pag
 
 See [Navigate in the Cockpit](../50-administration-and-ops/navigate-in-the-cockpit-0874895.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 **Entitlements — CHANGED**
-
-
 
 </td>
 <td valign="top">
@@ -298,8 +260,6 @@ See:
 [Managing Entitlements and Quotas Using the Cockpit](../50-administration-and-ops/managing-entitlements-and-quotas-using-the-cockpit-c824874.md)
 
 [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md)
-
-
 
 </td>
 <td valign="top">
@@ -328,16 +288,12 @@ See:
 
 [Subscribe to Multitenant Applications Using the Cockpit](../50-administration-and-ops/subscribe-to-multitenant-applications-using-the-cockpit-7a3e396.md)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 **Global account security — CHANGED**
-
-
 
 </td>
 <td valign="top">
@@ -358,8 +314,6 @@ See:
 [Add Members to Your Global Account](../50-administration-and-ops/add-members-to-your-global-account-4a04913.md)
 
 [Impact of Upgrading from Feature Set A to Feature Set B on User and Account Management](impact-of-upgrading-from-feature-set-a-to-feature-set-b-on-user-and-account-management-1ac8143.md)
-
-
 
 </td>
 <td valign="top">
@@ -389,16 +343,12 @@ See:
 
 [Default Role Collections of SAP BTP Cloud Foundry Environment \[Feature Set B\]](../60-security/default-role-collections-of-sap-btp-cloud-foundry-environment-feature-set-b-a6a0072.md)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 **Subaccount security — CHANGED**
-
-
 
 </td>
 <td valign="top">
@@ -419,8 +369,6 @@ See:
 [Managing Security Administrators in Your Subaccount \[Feature Set A\]](../50-administration-and-ops/managing-security-administrators-in-your-subaccount-feature-set-a-6752c4b.md)
 
 [Impact of Upgrading from Feature Set A to Feature Set B on User and Account Management](impact-of-upgrading-from-feature-set-a-to-feature-set-b-on-user-and-account-management-1ac8143.md)
-
-
 
 </td>
 <td valign="top">
@@ -450,16 +398,12 @@ See:
 
 [Default Role Collections of SAP BTP Cloud Foundry Environment \[Feature Set B\]](../60-security/default-role-collections-of-sap-btp-cloud-foundry-environment-feature-set-b-a6a0072.md)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 **Custom Identity Provider for Platform Users — CHANGED**
-
-
 
 </td>
 <td valign="top">
@@ -472,8 +416,6 @@ See: [Trust and Federation with Identity Providers](../50-administration-and-ops
 
 [Impact of Upgrading from Feature Set A to Feature Set B on User and Account Management](impact-of-upgrading-from-feature-set-a-to-feature-set-b-on-user-and-account-management-1ac8143.md)
 
-
-
 </td>
 <td valign="top">
 
@@ -485,8 +427,6 @@ See: [Trust and Federation with Identity Providers](../50-administration-and-ops
 
 [Restrictions When Using Custom Identity Providers for Platform Users \[Feature Set B\]](../50-administration-and-ops/restrictions-when-using-custom-identity-providers-for-platform-users-feature-set-b-6f0a623.md)
 
-
-
 </td>
 </tr>
 <tr>
@@ -494,14 +434,10 @@ See: [Trust and Federation with Identity Providers](../50-administration-and-ops
 
 **\(Trial Only\) Automatic Setup of Trial Account — CHANGED**
 
-
-
 </td>
 <td valign="top">
 
 *Not applicable*
-
-
 
 </td>
 <td valign="top">
@@ -514,8 +450,6 @@ Summary:
 
 With feature set B, you can access the trial homepage in the cockpit before your trial account is set up and ready to use. This means that you can launch a starter scenario or guided tour before you have the global account, subaccount, org, space and entitlements in place. You trigger the automatic creation when you first choose *Enter Your Trial Account* from the trial homepage.
 
-
-
 </td>
 </tr>
 <tr>
@@ -523,14 +457,10 @@ With feature set B, you can access the trial homepage in the cockpit before your
 
 **\(Trial Only\) Trial Account Extension - CHANGED**
 
-
-
 </td>
 <td valign="top">
 
 *Not applicable*
-
-
 
 </td>
 <td valign="top">
@@ -559,14 +489,10 @@ With feature set B, it's not possible anymore to access suspended trial global a
 
 **\(Trial Only\) Deletion of SAP BTP Trial - NEW**
 
-
-
 </td>
 <td valign="top">
 
 *Not applicable*
-
-
 
 </td>
 <td valign="top">
@@ -576,8 +502,6 @@ Summary:
 -   Possible to easily delete only your SAP BTP trial account.
 
 With feature set B, you can delete your SAP BTP trial account. Simply navigate into your trial global account by choosing *Enter Your Trial Account* on the trial home page. Once you're on the *Subaccounts* page of your global account, you will see a new button giving you the option to delete your trial account.
-
-
 
 </td>
 </tr>

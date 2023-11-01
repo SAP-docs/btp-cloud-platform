@@ -23,21 +23,15 @@ Technical name: `CommArrangementsOutboundServ`
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Necessity
-
-
 
 </th>
 </tr>
@@ -46,21 +40,15 @@ Necessity
 
 CommunicationArrangementUUID
 
-
-
 </td>
 <td valign="top">
 
 Communication arrangement UUID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -69,21 +57,15 @@ Mandatory \(Key\)
 
 ServiceUUID
 
-
-
 </td>
 <td valign="top">
 
 Service UUID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -92,21 +74,15 @@ Mandatory \(Key\)
 
 ServiceNumber
 
-
-
 </td>
 <td valign="top">
 
 Service number
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -115,21 +91,15 @@ Optional
 
 ServiceID
 
-
-
 </td>
 <td valign="top">
 
 Service ID
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -138,21 +108,15 @@ Optional
 
 ServiceType
 
-
-
 </td>
 <td valign="top">
 
 Service type
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -161,21 +125,15 @@ Optional
 
 Status
 
-
-
 </td>
 <td valign="top">
 
 Status
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -184,21 +142,15 @@ Optional
 
 IsActive
 
-
-
 </td>
 <td valign="top">
 
 Active
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -207,21 +159,15 @@ Optional
 
 URL
 
-
-
 </td>
 <td valign="top">
 
 URL
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -230,21 +176,15 @@ Optional
 
 TCPPort
 
-
-
 </td>
 <td valign="top">
 
 TCP port
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -253,21 +193,15 @@ Optional
 
 SOAPWSRMVersion
 
-
-
 </td>
 <td valign="top">
 
 SOAPWSRM version
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -276,21 +210,15 @@ Optional
 
 JobTimezoneCode
 
-
-
 </td>
 <td valign="top">
 
 Job time zone code
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -299,21 +227,15 @@ Optional
 
 JobStartTime
 
-
-
 </td>
 <td valign="top">
 
 Job start time
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -322,21 +244,15 @@ Optional
 
 JobPackageSize
 
-
-
 </td>
 <td valign="top">
 
 Job package size
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -345,21 +261,15 @@ Optional
 
 JobRecurrenceValue
 
-
-
 </td>
 <td valign="top">
 
 Job recurrence value
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -368,21 +278,15 @@ Optional
 
 JobFrequency
 
-
-
 </td>
 <td valign="top">
 
 Job frequency
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>

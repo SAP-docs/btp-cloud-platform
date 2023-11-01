@@ -39,15 +39,11 @@ With the definition and activation of a capture profile, you can capture system 
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     What to enter
-
-
     
     </th>
     </tr>
@@ -55,15 +51,11 @@ With the definition and activation of a capture profile, you can capture system 
     <td valign="top">
     
     *Profile ID*
-
-
     
     </td>
     <td valign="top">
     
     Enter a short, meaningful name for your profile. Don't use the prefix `SAP_` because this prefix is reserved for profiles predefined by SAP.
-
-
     
     </td>
     </tr>
@@ -71,15 +63,11 @@ With the definition and activation of a capture profile, you can capture system 
     <td valign="top">
     
     *Description*
-
-
     
     </td>
     <td valign="top">
     
     If needed, you can enter a longer description of your profile.
-
-
     
     </td>
     </tr>
@@ -87,15 +75,11 @@ With the definition and activation of a capture profile, you can capture system 
     <td valign="top">
     
     *Start/End Time*
-
-
     
     </td>
     <td valign="top">
     
     The start and end time specify when request statistics were captured by the app. These fields are automatically filled after you have activated the profile.
-
-
     
     </td>
     </tr>
@@ -103,15 +87,11 @@ With the definition and activation of a capture profile, you can capture system 
     <td valign="top">
     
     *Retention Time*
-
-
     
     </td>
     <td valign="top">
     
     Select how long you want to keep the captured request statistics stored in the system, for example, 14 days.
-
-
     
     </td>
     </tr>
@@ -119,8 +99,6 @@ With the definition and activation of a capture profile, you can capture system 
     <td valign="top">
     
     *Record Limit*
-
-
     
     </td>
     <td valign="top">
@@ -140,8 +118,6 @@ With the definition and activation of a capture profile, you can capture system 
     <td valign="top">
     
     **Sampling Rate**
-
-
     
     </td>
     <td valign="top">
@@ -159,15 +135,11 @@ With the definition and activation of a capture profile, you can capture system 
     <td valign="top">
     
     *Target User Group*
-
-
     
     </td>
     <td valign="top">
     
     Choose one of the target groups starting with *Customer*.
-
-
     
     </td>
     </tr>
@@ -175,15 +147,11 @@ With the definition and activation of a capture profile, you can capture system 
     <td valign="top">
     
     *Profile Type*
-
-
     
     </td>
     <td valign="top">
     
     This field is automatically populated by the system. Only static profile types \(with fixed values\) are possible.
-
-
     
     </td>
     </tr>
@@ -191,15 +159,11 @@ With the definition and activation of a capture profile, you can capture system 
     <td valign="top">
     
     *Profile Owner*
-
-
     
     </td>
     <td valign="top">
     
     The profile owner is automatically set to *Customer* when you create a new profile.
-
-
     
     </td>
     </tr>

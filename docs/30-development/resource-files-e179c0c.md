@@ -17,21 +17,15 @@ The application router is used to serve static content, authenticate users, rewr
 
 File
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Mandatory
-
-
 
 </th>
 </tr>
@@ -40,21 +34,15 @@ Mandatory
 
 `package.json` 
 
-
-
 </td>
 <td valign="top">
 
 The package descriptor is used by the Node.js package manager \(`npm`\) to start the application router; in the <code>“dependencies”: {} section</code> 
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -63,21 +51,15 @@ Yes
 
 `xs-app.json` 
 
-
-
 </td>
 <td valign="top">
 
 The application descriptor contains the configuration used by the application router \(for example, destinations for request forwarding\)
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -85,8 +67,6 @@ Yes
 <td valign="top">
 
 `resources/` 
-
-
 
 </td>
 <td valign="top">
@@ -103,8 +83,6 @@ A folder that contains all static resources which should be served by the applic
 
 No
 
-
-
 </td>
 </tr>
 <tr>
@@ -112,21 +90,15 @@ No
 
 `local-destinations.json` 
 
-
-
 </td>
 <td valign="top">
 
 Provides the required destinations information for local development
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -135,21 +107,15 @@ No
 
 `default-services.json` 
 
-
-
 </td>
 <td valign="top">
 
 Defines the configuration for one or more special User Account and Authentication \(UAA\) services for local development
 
-
-
 </td>
 <td valign="top">
 
 \-
-
-
 
 </td>
 </tr>

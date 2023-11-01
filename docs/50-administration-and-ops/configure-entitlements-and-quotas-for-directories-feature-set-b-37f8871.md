@@ -7,7 +7,7 @@
 > ### Note:  
 > This feature is new in Feature Set B so there is no equivalent in Feature Set A. For more information, see [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
 
-Assign entitlements to directories by adding service plans and distribute the quotas available in your global account to your directories using the SAP BTP cockpit.
+Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using the SAP BTP cockpit.
 
 <a name="task_pxy_ph1_ryb"/>
 
@@ -15,12 +15,12 @@ Assign entitlements to directories by adding service plans and distribute the qu
 
 ## Enable Entitlement Management for a Directory
 
-Before you can assign entitlements to a directory so that the respective service plans and quota can be distributed to the directory's subaccounts, you must first enable the entitlement management feature for the directory. This configuration only needs to be done once for each directory.
+Before you can assign plans and quotas to a directory so that they can be further distributed to the directory's subaccounts, you must first enable the **entitlement management** feature for the directory. This configuration only needs to be done once for each directory.
 
 > ### Note:  
 > -   In the account hierarchy, each directory path can have only one directory enabled with the entitlement management feature \(or the user management feature\). Consequently, if a directory in the path already has one of these features enabled, it is not possible to enable either of them for other parent or child directories within the same path as this directory.
 > 
-> -   Enabling entitlement management for a directory that already contains subaccounts will result in the automatic assignment of any existing entitlements and quotas \(for the subaccounts\) to the directory.
+> -   Enabling entitlement management for a directory that already contains subaccounts will result in the automatic assignment of any existing assignments and quotas \(for the subaccounts\) to the directory.
 
 
 
@@ -45,10 +45,10 @@ There are several ways you can enable the entitlement management feature for a d
 
 -   Navigate to your global account and open the *Entitlements* \> *Entity Assignments* from the navigation panel. Select the <span class="SAP-icons"></span> icon in the *Select Entity* dropdown menu.
 
-    Then, in the *Select Entities* dialog box, choose the directory for which you want to manage entitlements. Click *Select* and then *Enable Entitlement Management*.
+    Then, in the *Select Entities* dialog box, choose the directory for which you want to manage assignments. Click *Select* and then *Enable Entitlement Management*.
 
     > ### Tip:  
-    > To disable entitlement management for a directory, redo these steps from the global account's *Entitlements* \> *Entity Assignments* page, but choose *Disable Entitlement Management* at then end. When you disable entitlement management, any entitlements and quota that are currently assigned to the directory are "returned" to the global account and are then available for distribution to other directories and subaccounts.
+    > To disable entitlement management for a directory, redo these steps from the global account's *Entitlements* \> *Entity Assignments* page, but choose *Disable Entitlement Management* at then end. When you disable entitlement management, any assignments and quota that are currently assigned to the directory are "returned" to the global account and are then available for distribution to other directories and subaccounts.
 
 
 
@@ -63,7 +63,7 @@ Once you've enabled entitlement management for a directory, you can now configur
 
 <!-- task\_amv\_krf\_mqb -->
 
-## Configure Entitlements and Quotas for a Single Directory
+## Configure Assignments and Quotas for a Single Directory
 
 
 
@@ -92,7 +92,7 @@ Once you've enabled entitlement management for a directory, you can now configur
 
 ## Procedure
 
-1.  In the *Account Explorer*, navigate to the directory for which you want to manage entitlements.
+1.  In the *Account Explorer*, navigate to the directory for which you want to manage assignments.
 
 2.  Navigate to *Entitlements* \> *Entity Assignments*.
 
@@ -101,7 +101,7 @@ Once you've enabled entitlement management for a directory, you can now configur
 
 3.  Click *Configure Entitlements*.
 
-4.  You can now edit the entitlements table:
+4.  You can now edit the assignments table:
 
 
     <table>
@@ -109,15 +109,11 @@ Once you've enabled entitlement management for a directory, you can now configur
     <th valign="top">
 
     Action
-
-
     
     </th>
     <th valign="top">
 
     Steps
-
-
     
     </th>
     </tr>
@@ -125,8 +121,6 @@ Once you've enabled entitlement management for a directory, you can now configur
     <td valign="top">
     
     **Add new service plans to the directory**
-
-
     
     </td>
     <td valign="top">
@@ -153,8 +147,6 @@ Once you've enabled entitlement management for a directory, you can now configur
     <td valign="top">
     
     **Edit the quota for one or more service plans**
-
-
     
     </td>
     <td valign="top">
@@ -176,15 +168,11 @@ Once you've enabled entitlement management for a directory, you can now configur
     <td valign="top">
     
     **Delete a service plan and its quota from the directory**
-
-
     
     </td>
     <td valign="top">
     
     Choose :wastebasket: from the *Actions* column.
-
-
     
     </td>
     </tr>
@@ -197,9 +185,9 @@ Once you've enabled entitlement management for a directory, you can now configur
 
 <!-- task\_mtd\_ssf\_mqb -->
 
-## Configure Entitlements and Quotas for Multiple Directories
+## Configure Assignments and Quotas for Multiple Directories
 
-You can also use this method to configure entitlements and quotas for a single directory.
+You can also use this method to configure assignments and quotas for a single directory.
 
 
 
@@ -234,21 +222,21 @@ You can also use this method to configure entitlements and quotas for a single d
 
 3.  Select the <span class="SAP-icons"></span> icon in the *Select Entity* dropdown menu.
 
-4.  In the *Select Entities* dialog box, choose the directories for which you want to manage entitlements.
+4.  In the *Select Entities* dialog box, choose the directories for which you want to manage assignments.
 
 5.  Click *Select*.
 
     > ### Note:  
     > If you select a directory for which entitlement management is not enabled, you can click *Enable Entitlement Management* to enable the feature. Remember that you can enable this feature only for a single directory in a path.
 
-    You get a table for each of the directories you selected, displaying the current entitlement and quota assignments. You can choose *Show subaccount assignments* next to the table title to see the entitlement and quota assignments for the subaccounts in a specific directory.
+    You get a table for each of the directories you selected, displaying the current assignments and quotas. You can choose *Show subaccount assignments* next to the table title to see the assignments and quotas for the subaccounts in a specific directory.
 
-6.  Choose *Configure Entitlements* to start editing entitlements for a particular directory.
+6.  Choose *Configure Entitlements* to start editing assignments for a particular directory.
 
     > ### Note:  
-    > You can only edit entitlements for one directory at a time.
+    > You can only edit assignments for one directory at a time.
 
-7.  You can now edit the entitlements table:
+7.  You can now edit the assignments table:
 
 
     <table>
@@ -256,15 +244,11 @@ You can also use this method to configure entitlements and quotas for a single d
     <th valign="top">
 
     Action
-
-
     
     </th>
     <th valign="top">
 
     Steps
-
-
     
     </th>
     </tr>
@@ -272,8 +256,6 @@ You can also use this method to configure entitlements and quotas for a single d
     <td valign="top">
     
     **Add new service plans to the directory**
-
-
     
     </td>
     <td valign="top">
@@ -300,8 +282,6 @@ You can also use this method to configure entitlements and quotas for a single d
     <td valign="top">
     
     **Edit the quota for one or more service plans**
-
-
     
     </td>
     <td valign="top">
@@ -323,15 +303,11 @@ You can also use this method to configure entitlements and quotas for a single d
     <td valign="top">
     
     **Delete a service plan and its quota from the directory**
-
-
     
     </td>
     <td valign="top">
     
     Choose :wastebasket: from the *Actions* column.
-
-
     
     </td>
     </tr>
@@ -339,7 +315,7 @@ You can also use this method to configure entitlements and quotas for a single d
     
 8.  Once you're done, choose *Save* to save the changes and exit edit mode for that directory.
 
-9.  **Optional:** Repeat steps 6 to 7 to configure entitlements for the other directories selected.
+9.  **Optional:** Repeat steps 6 to 7 to configure assignments for the other selected directories.
 
 
 **Related Information**  

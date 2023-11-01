@@ -42,22 +42,16 @@ Create a destination object using class `cl_http_destination_provider` and metho
     <th valign="top">
 
     Value
-
-
     
     </th>
     <th valign="top">
 
     Proxy Type *Internet*
-
-
     
     </th>
     <th valign="top">
 
     Proxy Type *OnPremise*
-
-
     
     </th>
     </tr>
@@ -65,8 +59,6 @@ Create a destination object using class `cl_http_destination_provider` and metho
     <td valign="top">
     
     `if_a4c_cp_service=>user_propagation`
-
-
     
     </td>
     <td valign="top">
@@ -84,8 +76,6 @@ Create a destination object using class `cl_http_destination_provider` and metho
     <td valign="top">
     
     [Principal Propagation SSO Authentication for HTTP](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/principal-propagation-sso-authentication-for-http?version=Cloud)
-
-
     
     </td>
     </tr>
@@ -93,8 +83,6 @@ Create a destination object using class `cl_http_destination_provider` and metho
     <td valign="top">
     
     `if_a4c_cp_service=>service_specific`
-
-
     
     </td>
     <td valign="top">

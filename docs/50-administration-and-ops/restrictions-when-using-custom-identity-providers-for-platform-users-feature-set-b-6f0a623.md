@@ -17,14 +17,10 @@ The following is a list of restrictions that apply to the use of custom identity
 
 Supported with Restrictions
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -32,8 +28,6 @@ Description
 <td valign="top">
 
 Maximum number of parallel sessions per user per identity provider
-
-
 
 </td>
 <td valign="top">
@@ -52,14 +46,10 @@ Each user is allowed a maximum of 10 parallel sessions, per identity provider. T
 
 Single logout \(SLO\)
 
-
-
 </td>
 <td valign="top">
 
 For platform users of custom identity providers, logging out from the SAP BTP cockpit \(including Neo cockpit\) terminates the session in the used Identity Authentication tenant and sessions of other applications that connect to the same tenant. What is required is that the sessions support this kind of logout. This requirement doesn't apply for other instances of the SAP BTP cockpit except for instances where the user initially logged out from. In this case, sessions remain active.
-
-
 
 </td>
 </tr>
@@ -85,14 +75,10 @@ The following is a list of restrictions that only apply for Neo subaccounts when
 
 Supported with Restrictions
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -100,8 +86,6 @@ Description
 <td valign="top">
 
 Working with custom domains for an Identity Authentication tenant
-
-
 
 </td>
 <td valign="top">
@@ -124,8 +108,6 @@ SAP BTP always uses the default domain of the Identity Authentication tenant, re
 
 OpenID Connect \(OIDC\) issuer in the *Name* field of the Identity Authentication tenant
 
-
-
 </td>
 <td valign="top">
 
@@ -141,16 +123,12 @@ OpenID Connect \(OIDC\) issuer in the *Name* field of the Identity Authenticatio
 
 Neo CLI
 
-
-
 </td>
 <td valign="top">
 
 No restriction for new Neo subaccounts if this [prerequisite](https://help.sap.com/docs/btp/sap-btp-neo-environment/configuring-platform-identity-provider-feature-set-b) is fulfilled.
 
 For basic authentication, the Neo CLI has limited support for existing Neo subaccounts when using custom identity providers for platform users.
-
-
 
 </td>
 </tr>
@@ -159,14 +137,10 @@ For basic authentication, the Neo CLI has limited support for existing Neo subac
 
 Neo Git service
 
-
-
 </td>
 <td valign="top">
 
 Logging on with a password to the Neo Git service doesn't work with custom identity providers for platform users.
-
-
 
 </td>
 </tr>
@@ -175,14 +149,10 @@ Logging on with a password to the Neo Git service doesn't work with custom ident
 
 Cloud connector 
 
-
-
 </td>
 <td valign="top">
 
 Logging on with a password to the Cloud connector doesn't work with custom identity providers for platform users.
-
-
 
 </td>
 </tr>
@@ -191,14 +161,10 @@ Logging on with a password to the Cloud connector doesn't work with custom ident
 
 SAP HANA studio 
 
-
-
 </td>
 <td valign="top">
 
 No restriction for new Neo subaccounts if this [prerequisite](https://help.sap.com/docs/btp/sap-btp-neo-environment/configuring-platform-identity-provider-feature-set-b) is fulfilled.
-
-
 
 </td>
 </tr>

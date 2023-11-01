@@ -15,21 +15,15 @@ For more information, see [Configure Trusted Domains for SAP Authorization and T
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Run the command ...
 
-
-
 </th>
 <th valign="top">
 
 Command help
-
-
 
 </th>
 </tr>
@@ -38,21 +32,15 @@ Command help
 
 Show the security settings of a subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp list security/settings`
 
-
-
 </td>
 <td valign="top">
 
 [https://help.sap.com/docs/BTP/btp-cli/btp-list-security-settings.html](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-settings.html)
-
-
 
 </td>
 </tr>
@@ -61,21 +49,15 @@ Show the security settings of a subaccount
 
 Update the security settings of a subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp update security/settings`
 
-
-
 </td>
 <td valign="top">
 
 [https://help.sap.com/docs/BTP/btp-cli/btp-update-security-settings.html](https://help.sap.com/docs/BTP/btp-cli/btp-update-security-settings.html)
-
-
 
 </td>
 </tr>

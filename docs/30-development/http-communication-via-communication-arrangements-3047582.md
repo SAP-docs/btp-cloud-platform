@@ -36,22 +36,16 @@ You've created a communication scenario as described in [Defining a Communicatio
     <td valign="top">
     
     `comm_scenario`
-
-
     
     </td>
     <td valign="top">
     
     mandatory
-
-
     
     </td>
     <td valign="top">
     
     ID of the developed communication scenario.
-
-
     
     </td>
     </tr>
@@ -59,22 +53,16 @@ You've created a communication scenario as described in [Defining a Communicatio
     <td valign="top">
     
     `comm_system_id`
-
-
     
     </td>
     <td valign="top">
     
     optional
-
-
     
     </td>
     <td valign="top">
     
     ID of the configured communication system. Use method `query_ca` of class`cl_com_arrangement_factory` to derive it dynamically.
-
-
     
     </td>
     </tr>
@@ -82,22 +70,16 @@ You've created a communication scenario as described in [Defining a Communicatio
     <td valign="top">
     
     `service_id`
-
-
     
     </td>
     <td valign="top">
     
     optional
-
-
     
     </td>
     <td valign="top">
     
     ID of the developed outbound service.
-
-
     
     </td>
     </tr>

@@ -37,14 +37,10 @@ Use class `CL_FHC_CALENDAR_RUNTIME` that contains the following list of methods 
 
 Method
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -53,14 +49,10 @@ Description
 
 create\_factorycalendar\_runtime
 
-
-
 </td>
 <td valign="top">
 
 Provides a factory calendar runtime
-
-
 
 </td>
 </tr>
@@ -69,14 +61,10 @@ Provides a factory calendar runtime
 
 create\_holidaycalendar\_runtime
 
-
-
 </td>
 <td valign="top">
 
 Provides a holiday calendar runtime
-
-
 
 </td>
 </tr>
@@ -85,14 +73,10 @@ Provides a holiday calendar runtime
 
 create\_holiday\_runtime
 
-
-
 </td>
 <td valign="top">
 
 Provides a holiday runtime
-
-
 
 </td>
 </tr>
@@ -127,14 +111,10 @@ Use the before created runtime to access the following list of methods provided 
 
 Method
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -143,14 +123,10 @@ Description
 
 convert\_date\_to\_factorydate
 
-
-
 </td>
 <td valign="top">
 
 Converts a date to a factory date
-
-
 
 </td>
 </tr>
@@ -159,14 +135,10 @@ Converts a date to a factory date
 
 convert\_factorydate\_to\_date
 
-
-
 </td>
 <td valign="top">
 
 Converts a factory date to a date
-
-
 
 </td>
 </tr>
@@ -175,14 +147,10 @@ Converts a factory date to a date
 
 get\_last\_factorydate
 
-
-
 </td>
 <td valign="top">
 
 Provides the last factory date of the calendar
-
-
 
 </td>
 </tr>
@@ -191,14 +159,10 @@ Provides the last factory date of the calendar
 
 calc\_workingdays\_between\_dates
 
-
-
 </td>
 <td valign="top">
 
 Calculates the number of working days between two dates
-
-
 
 </td>
 </tr>
@@ -207,14 +171,10 @@ Calculates the number of working days between two dates
 
 add\_workingdays\_to\_date
 
-
-
 </td>
 <td valign="top">
 
 Adds working days to a date
-
-
 
 </td>
 </tr>
@@ -223,14 +183,10 @@ Adds working days to a date
 
 subtract\_workingdays\_from\_date
 
-
-
 </td>
 <td valign="top">
 
 Subtracts working days to a date
-
-
 
 </td>
 </tr>
@@ -239,14 +195,10 @@ Subtracts working days to a date
 
 get\_validity\_start
 
-
-
 </td>
 <td valign="top">
 
 Provides the first valid date
-
-
 
 </td>
 </tr>
@@ -255,14 +207,10 @@ Provides the first valid date
 
 get\_validity\_end
 
-
-
 </td>
 <td valign="top">
 
 Provides the last valid date
-
-
 
 </td>
 </tr>
@@ -271,14 +219,10 @@ Provides the last valid date
 
 is\_date\_workingday
 
-
-
 </td>
 <td valign="top">
 
 Check if a weekday is a working day
-
-
 
 </td>
 </tr>
@@ -287,14 +231,10 @@ Check if a weekday is a working day
 
 is\_holiday\_workingday
 
-
-
 </td>
 <td valign="top">
 
 Check if holiday is a working day
-
-
 
 </td>
 </tr>
@@ -303,14 +243,10 @@ Check if holiday is a working day
 
 get\_description
 
-
-
 </td>
 <td valign="top">
 
 Provides the description of the calendar
-
-
 
 </td>
 </tr>
@@ -319,14 +255,10 @@ Provides the description of the calendar
 
 get\_hcal\_assignment
 
-
-
 </td>
 <td valign="top">
 
 Provides the assigned holiday calendar runtime
-
-
 
 </td>
 </tr>
@@ -335,14 +267,10 @@ Provides the assigned holiday calendar runtime
 
 get\_id
 
-
-
 </td>
 <td valign="top">
 
 Provides the ID of the factory calendar
-
-
 
 </td>
 </tr>
@@ -351,14 +279,10 @@ Provides the ID of the factory calendar
 
 date\_compute\_day
 
-
-
 </td>
 <td valign="top">
 
 Provides the name and the number of the weeday for a specified date
-
-
 
 </td>
 </tr>
@@ -393,14 +317,10 @@ Use the before created runtime to access the following list of methods provided 
 
 Method
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -409,14 +329,10 @@ Description
 
 is\_holiday
 
-
-
 </td>
 <td valign="top">
 
 Check if a date is a holiday
-
-
 
 </td>
 </tr>
@@ -425,14 +341,10 @@ Check if a date is a holiday
 
 get\_holiday
 
-
-
 </td>
 <td valign="top">
 
 Provides the assigned holiday for a date
-
-
 
 </td>
 </tr>
@@ -441,14 +353,10 @@ Provides the assigned holiday for a date
 
 calc\_holidays\_between\_dates
 
-
-
 </td>
 <td valign="top">
 
 Calculates the number of holidays between two dates
-
-
 
 </td>
 </tr>
@@ -457,14 +365,10 @@ Calculates the number of holidays between two dates
 
 get\_validity\_start
 
-
-
 </td>
 <td valign="top">
 
 Provides the first valid date
-
-
 
 </td>
 </tr>
@@ -473,14 +377,10 @@ Provides the first valid date
 
 get\_validity\_end
 
-
-
 </td>
 <td valign="top">
 
 Provides the last valid date
-
-
 
 </td>
 </tr>
@@ -489,14 +389,10 @@ Provides the last valid date
 
 get\_description
 
-
-
 </td>
 <td valign="top">
 
 Provides the description of the calendar
-
-
 
 </td>
 </tr>
@@ -505,14 +401,10 @@ Provides the description of the calendar
 
 get\_holiday\_assignments
 
-
-
 </td>
 <td valign="top">
 
 Get the assigned holidays from current holiday calendar
-
-
 
 </td>
 </tr>
@@ -521,14 +413,10 @@ Get the assigned holidays from current holiday calendar
 
 get\_id
 
-
-
 </td>
 <td valign="top">
 
 Provides the ID of the holiday calendar
-
-
 
 </td>
 </tr>
@@ -551,14 +439,10 @@ Use the before created runtime to access the following list of methods provided 
 
 Method
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -567,14 +451,10 @@ Description
 
 get\_holiday\_id
 
-
-
 </td>
 <td valign="top">
 
 Provides the ID of the holiday
-
-
 
 </td>
 </tr>
@@ -583,14 +463,10 @@ Provides the ID of the holiday
 
 get\_type
 
-
-
 </td>
 <td valign="top">
 
 Provides the type of the holiday
-
-
 
 </td>
 </tr>
@@ -599,14 +475,10 @@ Provides the type of the holiday
 
 get\_class
 
-
-
 </td>
 <td valign="top">
 
 Provides the class of the holiday
-
-
 
 </td>
 </tr>
@@ -615,14 +487,10 @@ Provides the class of the holiday
 
 get\_confession
 
-
-
 </td>
 <td valign="top">
 
 Provides the confession of the holiday
-
-
 
 </td>
 </tr>
@@ -631,14 +499,10 @@ Provides the confession of the holiday
 
 get\_text
 
-
-
 </td>
 <td valign="top">
 
 Provides the title and description of the holiday in a specific language
-
-
 
 </td>
 </tr>
@@ -676,14 +540,10 @@ The `CL_FHC_CALENDAR_ID_MAPPER` class returns an ID mapper instance. Subsequentl
 
 Method
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -692,14 +552,10 @@ Description
 
 create\_id\_mapper
 
-
-
 </td>
 <td valign="top">
 
 Provides an ID mapper instance
-
-
 
 </td>
 </tr>
@@ -724,14 +580,10 @@ Provides an ID mapper instance
 
 Method
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -740,14 +592,10 @@ Description
 
 mapping\_fcal\_legacyid\_to\_id
 
-
-
 </td>
 <td valign="top">
 
 Provides the 32-digit factory calendar ID for a two-digit SCAL factory calendar ID
-
-
 
 </td>
 </tr>
@@ -756,14 +604,10 @@ Provides the 32-digit factory calendar ID for a two-digit SCAL factory calendar 
 
 mapping\_hcal\_legacyid\_to\_id
 
-
-
 </td>
 <td valign="top">
 
 Provides the 32-digit holiday calendar ID for a two-digit SCAL holiday calendar ID
-
-
 
 </td>
 </tr>
@@ -772,14 +616,10 @@ Provides the 32-digit holiday calendar ID for a two-digit SCAL holiday calendar 
 
 mapping\_hol\_legacyid\_to\_id
 
-
-
 </td>
 <td valign="top">
 
 Provides the 32-digit holiday ID for a three-digit SCAL holiday ID
-
-
 
 </td>
 </tr>
@@ -788,14 +628,10 @@ Provides the 32-digit holiday ID for a three-digit SCAL holiday ID
 
 mapping\_fcal\_id\_to\_legacyid
 
-
-
 </td>
 <td valign="top">
 
 Provides the two-digit SCAL factory calendar ID for a 32-digit factory calendar ID
-
-
 
 </td>
 </tr>
@@ -804,14 +640,10 @@ Provides the two-digit SCAL factory calendar ID for a 32-digit factory calendar 
 
 mapping\_hcal\_id\_to\_legacyid
 
-
-
 </td>
 <td valign="top">
 
 Provides the two-digit SCAL holiday calendar ID for a 32-digit holiday calendar ID
-
-
 
 </td>
 </tr>
@@ -820,14 +652,10 @@ Provides the two-digit SCAL holiday calendar ID for a 32-digit holiday calendar 
 
 mapping\_hol\_id\_to\_legacyid
 
-
-
 </td>
 <td valign="top">
 
 Provides the three-digit SCAL holiday calendar ID for a 32-digit holiday ID
-
-
 
 </td>
 </tr>
@@ -868,14 +696,10 @@ Independently from the above factory calendar information, you can use class `CL
 
 Method
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -884,14 +708,10 @@ Description
 
 MONTH\_NAMES\_GET
 
-
-
 </td>
 <td valign="top">
 
 Provides the names of the months
-
-
 
 </td>
 </tr>
@@ -900,14 +720,10 @@ Provides the names of the months
 
 WEEK\_GET\_FIRST\_DAY
 
-
-
 </td>
 <td valign="top">
 
 Provides the first day of a week
-
-
 
 </td>
 </tr>
@@ -916,14 +732,10 @@ Provides the first day of a week
 
 DATE\_GET\_WEEK
 
-
-
 </td>
 <td valign="top">
 
 Provides the year and week of a date
-
-
 
 </td>
 </tr>
@@ -932,14 +744,10 @@ Provides the year and week of a date
 
 DATE\_COMPUTE\_DAY
 
-
-
 </td>
 <td valign="top">
 
 Provides the name and number of the weekday for a specified date
-
-
 
 </td>
 </tr>

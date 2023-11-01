@@ -32,14 +32,10 @@ The following authorization check statuses are possible:
 
 Status
 
-
-
 </th>
 <th valign="top">
 
 Meaning
-
-
 
 </th>
 </tr>
@@ -48,14 +44,10 @@ Meaning
 
 Successful
 
-
-
 </td>
 <td valign="top">
 
 The authorization check was successful.
-
-
 
 </td>
 </tr>
@@ -64,14 +56,10 @@ The authorization check was successful.
 
 Failed
 
-
-
 </td>
 <td valign="top">
 
 The authorization check failed.
-
-
 
 </td>
 </tr>
@@ -80,14 +68,10 @@ The authorization check failed.
 
 Filtered
 
-
-
 </td>
 <td valign="top">
 
 When reading an object, an authorization check is taking place and certain data is filtered out defined by a DCL \(Data Control Language\).
-
-
 
 </td>
 </tr>

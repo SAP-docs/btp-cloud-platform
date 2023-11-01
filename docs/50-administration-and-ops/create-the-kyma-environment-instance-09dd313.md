@@ -65,9 +65,12 @@ You have created a Kyma environment instance.
 
 ## Next Steps
 
-To get the link to Kyma Dashboard, navigate to the overview of the instance under *Instances and Subscriptions*.
+-   To get the link to Kyma Dashboard, navigate to the overview of the instance under *Instances and Subscriptions*.
 
-To manage access to the Kyma environment and Kyma Dashboard, assign roles as needed.
+-   To manage access to the Kyma environment and Kyma Dashboard, assign roles as needed.
+
+-   To use functionalities such as telemetry and eventing, or to use BTP services, enable the respective Kyma module.
+
 
 **Related Information**  
 
@@ -77,6 +80,8 @@ To manage access to the Kyma environment and Kyma Dashboard, assign roles as nee
 [Configure a Custom Identity Provider for Kyma](../60-security/configure-a-custom-identity-provider-for-kyma-67bcc6e.md "Enable the Kyma environment with a custom identity provider (IdP).")
 
 [Assign Roles in the Kyma Environment](assign-roles-in-the-kyma-environment-148ae38.md "Kyma uses roles to manage access within the cluster, which give the assigned users the permissions suitable for their purposes.")
+
+[Enable and Disable a Kyma Module](enable-and-disable-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c "If you want to use a Kyma module, you must enable it. If you don't need it anymore, disable the module to save resources.")
 
 [Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md "Use the SAP BTP command line interface (btp CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the SAP BTP cockpit for users who like to work in a terminal or want to automate operations using scripts.")
 

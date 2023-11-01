@@ -64,35 +64,25 @@ This service plan is like the standard service plan of the ABAP service \(see [C
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Data Type
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Purpose
 
-
-
 </th>
 <th valign="top">
 
 Updateable
-
-
 
 </th>
 </tr>
@@ -101,35 +91,25 @@ Updateable
 
 name
 
-
-
 </td>
 <td valign="top">
 
 string
-
-
 
 </td>
 <td valign="top">
 
 Name of the solution as defined by the provider. Must be unique in the scope of the Global Account \(or globally if this information is not available\)
 
-
-
 </td>
 <td valign="top">
 
 Used to identify the solution and will be passed through to ABAP System \(saas\_oem plan\)
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -140,35 +120,25 @@ sap\_system\_name
 
 \(optional\)
 
-
-
 </td>
 <td valign="top">
 
 string
-
-
 
 </td>
 <td valign="top">
 
 Name of the system as defined by the provider. If a value is supplied, the new system\(s\) will be created with this parameter.
 
-
-
 </td>
 <td valign="top">
 
 Passed through ABAP System
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -179,35 +149,25 @@ addon\_product\_name
 
 \(optional\)
 
-
-
 </td>
 <td valign="top">
 
 string
-
-
 
 </td>
 <td valign="top">
 
 Registered name of the add-on product
 
-
-
 </td>
 <td valign="top">
 
 Passed through ABAP System \(saas\_oem plan\)
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -218,35 +178,25 @@ addon\_product\_version
 
 \(optional\)
 
-
-
 </td>
 <td valign="top">
 
 string
-
-
 
 </td>
 <td valign="top">
 
 Version of the add-on product to be installed. A released product version needs to be defined. If you do not specify the parameter, the latest released product version will be used during the add-on installation. If you specify other versions than allowed, the add-on installation and therefore also the system provisioning and consumer subscription will be unsuccessful.
 
-
-
 </td>
 <td valign="top">
 
 Passed through ABAP System \(saas\_oem plan\)
 
-
-
 </td>
 <td valign="top">
 
 Yes \(updated value applies for new systems only\)
-
-
 
 </td>
 </tr>
@@ -255,14 +205,10 @@ Yes \(updated value applies for new systems only\)
 
 consumer\_tenant\_limit
 
-
-
 </td>
 <td valign="top">
 
 int
-
-
 
 </td>
 <td valign="top">
@@ -281,14 +227,10 @@ consumer\_tenant\_limit \>= 1
 
 Passed through ABAP System \(saas\_oem plan\)
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -297,35 +239,25 @@ Yes
 
 size\_of\_runtime
 
-
-
 </td>
 <td valign="top">
 
 int
-
-
 
 </td>
 <td valign="top">
 
 Default sizing \(ABAP runtime\) of abap system\(s\) created/provisioned by solution
 
-
-
 </td>
 <td valign="top">
 
 Passed through to ABAP System
 
-
-
 </td>
 <td valign="top">
 
 Yes \(updated value applies for new systems only\)
-
-
 
 </td>
 </tr>
@@ -334,35 +266,25 @@ Yes \(updated value applies for new systems only\)
 
 size\_of\_persistence
 
-
-
 </td>
 <td valign="top">
 
 int
-
-
 
 </td>
 <td valign="top">
 
 Default sizing \(ABAP persistence \[HANA\]\) of abap system\(s\) created/provisioned by solution
 
-
-
 </td>
 <td valign="top">
 
 Passed through to ABAP System
 
-
-
 </td>
 <td valign="top">
 
 Yes \(updated value applies for new systems only\)
-
-
 
 </td>
 </tr>
@@ -373,8 +295,6 @@ tenant\_mode
 
 \(deprecated\)
 
-
-
 </td>
 <td valign="top">
 
@@ -384,14 +304,10 @@ enum \(string\):
 
 \- multi
 
-
-
 </td>
 <td valign="top">
 
 Tenant Mode of the solution
-
-
 
 </td>
 <td valign="top">
@@ -408,14 +324,10 @@ Decides whether a customer will have a tenant in
 
 The parameter will be passed through to ABAP System \(saas\_oem plan\).
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -424,35 +336,25 @@ No
 
 consumer\_id\_pattern
 
-
-
 </td>
 <td valign="top">
 
 string \(regex\)
-
-
 
 </td>
 <td valign="top">
 
 String containing a regular expression with a capturing group. The **subdomain of the consumer** is matched against this regular expression. The value of the first capturing group is used as consumer id.
 
-
-
 </td>
 <td valign="top">
 
 To allow the provider to group his consumer subaccounts based on a self-chosen consumer identifier: e.g. the subdomains of consumer subaccounts always include a static part that identifies the application consumer, then event if there are multiple test & production consumer subaccounts, the application consumer can be identified in Landscape Portal.
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -461,35 +363,25 @@ No
 
 provider\_admin\_email
 
-
-
 </td>
 <td valign="top">
 
 email
-
-
 
 </td>
 <td valign="top">
 
 Email address of initial provider user
 
-
-
 </td>
 <td valign="top">
 
 Passed through to ABAP System \(saas\_oem plan\).
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 </tr>
@@ -500,14 +392,10 @@ xs-security/xsappname
 
 \(optional\)
 
-
-
 </td>
 <td valign="top">
 
 tring
-
-
 
 </td>
 <td valign="top">
@@ -518,21 +406,15 @@ xsappname used for the OAuth clone during instance creation. Will be visible in 
 
 **Recommendation:** Provide the same value as defined in the xs-security.json of the XSUAA Instance of your application
 
-
-
 </td>
 <td valign="top">
 
 Allows providing a meaningful application name to assign the onboarding roles.
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -540,8 +422,6 @@ No
 <td valign="top">
 
 usage
-
-
 
 </td>
 <td valign="top">
@@ -552,28 +432,20 @@ enum \(string\):
 
 \- prod
 
-
-
 </td>
 <td valign="top">
 
 Specifies whether it is a test or production solution.
-
-
 
 </td>
 <td valign="top">
 
 In case of usage = test a Partner Customer Test tenant is created, whereas with usage = prod, a Partner Customer Production tenant is provisioned.
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>

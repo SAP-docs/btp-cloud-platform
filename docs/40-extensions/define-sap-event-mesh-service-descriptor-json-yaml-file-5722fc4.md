@@ -86,14 +86,10 @@ Define the JSON file for the SAP Event Mesh service instance following the requi
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -101,8 +97,6 @@ Description
 <td valign="top">
 
 `emname`
-
-
 
 </td>
 <td valign="top">
@@ -123,16 +117,12 @@ Specifies the name of the SAP Event Mesh client. It is used by SAP Event Mesh to
 
 **Rules/Guidelines:** It is unique within a subaccount.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `version`
-
-
 
 </td>
 <td valign="top">
@@ -157,8 +147,6 @@ It specifies the version of the service descriptor.
 <td valign="top">
 
 `namespace`
-
-
 
 </td>
 <td valign="top">
@@ -190,14 +178,10 @@ Namespace for the messaging client.
 
 `options`
 
-
-
 </td>
 <td valign="top">
 
 Defines the access channels for the message client.
-
-
 
 </td>
 </tr>
@@ -205,8 +189,6 @@ Defines the access channels for the message client.
 <td valign="top">
 
 `management`
-
-
 
 </td>
 <td valign="top">
@@ -257,8 +239,6 @@ Enables/Disables the usage of the messaging REST APIs.
 
 `messaging`
 
-
-
 </td>
 <td valign="top">
 
@@ -282,8 +262,6 @@ Enables/disables the usage of the messaging gateway.
 
 `rules`
 
-
-
 </td>
 <td valign="top">
 
@@ -305,8 +283,6 @@ Defines the access privileges of the messaging client.
 
 `topicRules`
 
-
-
 </td>
 <td valign="top">
 
@@ -325,8 +301,6 @@ A `rules` attribute.
 <td valign="top">
 
 `subscribeFilter`
-
-
 
 </td>
 <td valign="top">

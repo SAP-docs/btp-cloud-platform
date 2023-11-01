@@ -23,14 +23,10 @@
 
 HTTP Method
 
-
-
 </th>
 <th valign="top">
 
 Operation
-
-
 
 </th>
 </tr>
@@ -39,14 +35,10 @@ Operation
 
 GET
 
-
-
 </td>
 <td valign="top">
 
 [Read Transport Log](read-transport-log-4446ee4.md)
-
-
 
 </td>
 </tr>
@@ -65,14 +57,10 @@ GET
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -81,14 +69,10 @@ Description
 
 uuid
 
-
-
 </td>
 <td valign="top">
 
 ID of the job
-
-
 
 </td>
 </tr>
@@ -97,14 +81,10 @@ ID of the job
 
 index\_no
 
-
-
 </td>
 <td valign="top">
 
 Index number of the log entry
-
-
 
 </td>
 </tr>
@@ -113,14 +93,10 @@ Index number of the log entry
 
 type
 
-
-
 </td>
 <td valign="top">
 
 Type of the log \(information, warning, etc...\)
-
-
 
 </td>
 </tr>
@@ -129,14 +105,10 @@ Type of the log \(information, warning, etc...\)
 
 descry
 
-
-
 </td>
 <td valign="top">
 
 Description text of this log entry
-
-
 
 </td>
 </tr>
@@ -145,14 +117,10 @@ Description text of this log entry
 
 timestamp
 
-
-
 </td>
 <td valign="top">
 
 Timestamp of the log entry
-
-
 
 </td>
 </tr>

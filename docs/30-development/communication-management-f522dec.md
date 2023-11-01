@@ -17,14 +17,10 @@ These classes and methods can only be used if the authorizations are defined via
 
 Class/Method
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -33,14 +29,10 @@ Description
 
 CL\_COM\_SCENARIO\_FACTORY
 
-
-
 </td>
 <td valign="top">
 
 Factory class for IF\_COM\_SCENARIO\_FACTORY
-
-
 
 </td>
 </tr>
@@ -49,14 +41,10 @@ Factory class for IF\_COM\_SCENARIO\_FACTORY
 
 IF\_COM\_SCENARIO\_FACTORY
 
-
-
 </td>
 <td valign="top">
 
 Allows you to query and retrieve communication scenarios
-
-
 
 </td>
 </tr>
@@ -65,14 +53,10 @@ Allows you to query and retrieve communication scenarios
 
 IF\_COM\_SCENARIO
 
-
-
 </td>
 <td valign="top">
 
 Allows you to read attributes of communication scenarios
-
-
 
 </td>
 </tr>
@@ -87,14 +71,10 @@ Allows you to read attributes of communication scenarios
 
 Class/Method
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -103,14 +83,10 @@ Description
 
 CL\_COM\_USER\_FACTORY
 
-
-
 </td>
 <td valign="top">
 
 Factory class for IF\_COM\_USER\_FACTORY
-
-
 
 </td>
 </tr>
@@ -119,14 +95,10 @@ Factory class for IF\_COM\_USER\_FACTORY
 
 IF\_COM\_USER\_FACTORY
 
-
-
 </td>
 <td valign="top">
 
 Allows you to query and retrieve communication users
-
-
 
 </td>
 </tr>
@@ -135,14 +107,10 @@ Allows you to query and retrieve communication users
 
 IF\_COM\_USER
 
-
-
 </td>
 <td valign="top">
 
 Allows you to read attributes of communication users
-
-
 
 </td>
 </tr>
@@ -157,14 +125,10 @@ Allows you to read attributes of communication users
 
 Class/Method
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -173,14 +137,10 @@ Description
 
 CL\_COM\_SYSTEM\_FACTORY
 
-
-
 </td>
 <td valign="top">
 
 Factory class for IF\_COM\_SYSTEM\_FACTORY
-
-
 
 </td>
 </tr>
@@ -189,14 +149,10 @@ Factory class for IF\_COM\_SYSTEM\_FACTORY
 
 IF\_COM\_SYSTEM\_FACTORY
 
-
-
 </td>
 <td valign="top">
 
 Allows you to query and retrieve communication systems
-
-
 
 </td>
 </tr>
@@ -205,14 +161,10 @@ Allows you to query and retrieve communication systems
 
 IF\_COM\_SYSTEM
 
-
-
 </td>
 <td valign="top">
 
 Allows you to read attributes of communication systems
-
-
 
 </td>
 </tr>
@@ -227,14 +179,10 @@ Allows you to read attributes of communication systems
 
 Class/Method
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -243,14 +191,10 @@ Description
 
 CL\_COM\_ARRANGEMENT\_FACTORY
 
-
-
 </td>
 <td valign="top">
 
 Factory class for IF\_COM\_ARRANGEMENT\_FACTORY
-
-
 
 </td>
 </tr>
@@ -259,14 +203,10 @@ Factory class for IF\_COM\_ARRANGEMENT\_FACTORY
 
 IF\_COM\_ARRANGEMENT\_FACTORY
 
-
-
 </td>
 <td valign="top">
 
 Allows you to query and retrieve communication arrangements
-
-
 
 </td>
 </tr>
@@ -275,14 +215,10 @@ Allows you to query and retrieve communication arrangements
 
 IF\_COM\_ ARRANGEMENT
 
-
-
 </td>
 <td valign="top">
 
 Allows you to read attributes of communication arrangements
-
-
 
 </td>
 </tr>

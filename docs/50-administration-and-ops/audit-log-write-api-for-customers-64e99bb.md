@@ -19,21 +19,15 @@ There are four categories of audit relevant events:
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Examples
-
-
 
 </th>
 </tr>
@@ -42,21 +36,15 @@ Examples
 
 Log read access to sensitive personal data
 
-
-
 </td>
 <td valign="top">
 
 Use a data-accesses audit log record for the cases where an access to personal data is executed. The audit log contains information on the accessed personal data, as well as the full information of the user that is accessing the personal data, the owner of the personal data \(the Data Subject\), and the identifier of the place where the access to the personal data have been executed \(the Object\).
 
-
-
 </td>
 <td valign="top">
 
 Examples of personal data access events are all the read accesses sensitive personal data, which means information on racial or ethnic origin, political opinions, religious or philosophical beliefs, trade-union membership, health or sex life, bank account and credit card data, genetic data and bio-metric data for the purpose of uniquely identifying a natural person.
-
-
 
 </td>
 </tr>
@@ -65,21 +53,15 @@ Examples of personal data access events are all the read accesses sensitive pers
 
 Log changes to personal data
 
-
-
 </td>
 <td valign="top">
 
 Use a data-modification audit log record for the events that are related to modification of personal data. The audit log contains information on the modified personal data, as well as the full information of the user that is accessing the personal data, the owner of the personal data \(the Data Subject\), and the identifier of the place where the access to the personal data have been executed \(the Object\).
 
-
-
 </td>
 <td valign="top">
 
 Examples of personal data modification events are writing, deleting, or changes on an address, e-mail address, phone number, and any other data that can lead to a persona identification.
-
-
 
 </td>
 </tr>
@@ -88,21 +70,15 @@ Examples of personal data modification events are writing, deleting, or changes 
 
 Security event log
 
-
-
 </td>
 <td valign="top">
 
 Log security data for all events that might have an impact over the system security.
 
-
-
 </td>
 <td valign="top">
 
 Examples for such events are successful and non-successful login and logout events, changes in access control permissions, changes in credentials, changes in sensitive configurations, and so on.
-
-
 
 </td>
 </tr>
@@ -111,21 +87,15 @@ Examples for such events are successful and non-successful login and logout even
 
 Configuration change log
 
-
-
 </td>
 <td valign="top">
 
 Use the configuration change audit log events for various changes in configurations. The audit log contains the changed configuration parts with old and new value. Log only the changed parts with the old and new value. If old or new value doesn't exist in case of adding a new property or deleting one respectively, skip the missing values or set them as null.
 
-
-
 </td>
 <td valign="top">
 
 Examples of configuration change events are creation/deletion of service instances, binding/unbinding service instances, software update, changes in configurations, and so on.
-
-
 
 </td>
 </tr>
@@ -429,14 +399,10 @@ The following response status codes can be returned from the Audit Log Write API
 
 Code
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -445,14 +411,10 @@ Description
 
 201 \(Created\)
 
-
-
 </td>
 <td valign="top">
 
 Audit log successfully created.
-
-
 
 </td>
 </tr>
@@ -460,8 +422,6 @@ Audit log successfully created.
 <td valign="top">
 
 400 \(Bad Request\)
-
-
 
 </td>
 <td valign="top">
@@ -486,14 +446,10 @@ Bad request for one of the following reasons:
 
 401 \(Unauthorized\)
 
-
-
 </td>
 <td valign="top">
 
 Missing or invalid *Authorization* header.
-
-
 
 </td>
 </tr>
@@ -502,14 +458,10 @@ Missing or invalid *Authorization* header.
 
 413 \(Payload Too Large\)
 
-
-
 </td>
 <td valign="top">
 
 The Audit log message size exceeds 10KB.
-
-
 
 </td>
 </tr>
@@ -518,14 +470,10 @@ The Audit log message size exceeds 10KB.
 
 429 \(Too Many Requests\)
 
-
-
 </td>
 <td valign="top">
 
 Rate limit per tenant \(provider\_tenant, org, space\) is hit.
-
-
 
 </td>
 </tr>
@@ -534,14 +482,10 @@ Rate limit per tenant \(provider\_tenant, org, space\) is hit.
 
 500 \(Internal Server Error\)
 
-
-
 </td>
 <td valign="top">
 
 An unexpected exception occurred.
-
-
 
 </td>
 </tr>
@@ -550,14 +494,10 @@ An unexpected exception occurred.
 
 502 \(Bad Gateway\)
 
-
-
 </td>
 <td valign="top">
 
 Load balancer issue.
-
-
 
 </td>
 </tr>
@@ -566,14 +506,10 @@ Load balancer issue.
 
 503 \(Service Unavailable\)
 
-
-
 </td>
 <td valign="top">
 
 Global rate limit is hit.
-
-
 
 </td>
 </tr>
@@ -582,14 +518,10 @@ Global rate limit is hit.
 
 504 \(Gateway Timeout\)
 
-
-
 </td>
 <td valign="top">
 
 Load balancer issue.
-
-
 
 </td>
 </tr>
@@ -609,15 +541,11 @@ The audit log record contains the following two main parts - the first one is fi
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Semantics
-
-
     
     </th>
     </tr>
@@ -625,15 +553,11 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `uuid`
-
-
     
     </td>
     <td valign="top">
     
     Unique identifier of the message.
-
-
     
     </td>
     </tr>
@@ -641,15 +565,11 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `time`
-
-
     
     </td>
     <td valign="top">
     
     The time when the auditable event has been executed.
-
-
     
     </td>
     </tr>
@@ -657,15 +577,11 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `user`
-
-
     
     </td>
     <td valign="top">
     
     The user that is logged in and performs the auditable action. To let the server-side extract the user from the JWT token, set the “$USER” string, or set a custom user and set a custom field.
-
-
     
     </td>
     </tr>
@@ -673,15 +589,11 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `data_subject`
-
-
     
     </td>
     <td valign="top">
     
     The persona that is the owner of the personal data, which is being accessed or modified in Log read access to sensitive personal data events and Log changes to personal data.
-
-
     
     </td>
     </tr>
@@ -689,15 +601,11 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `object`
-
-
     
     </td>
     <td valign="top">
     
     The unique identificator for the location of the personal data that is being accessed or modified in case of Log read access to sensitive personal data events and Log changes to personal data, as well as the unique identificator of the location and configuration that is being changed.
-
-
     
     </td>
     </tr>
@@ -705,8 +613,6 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `attributes`
-
-
     
     </td>
     <td valign="top">
@@ -725,15 +631,11 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `attachment`
-
-
     
     </td>
     <td valign="top">
     
     The list of attachments that contain a personal data and has been opened for reading by a user, and which must be reflected in an audit log entry.
-
-
     
     </td>
     </tr>
@@ -741,15 +643,11 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `ip`
-
-
     
     </td>
     <td valign="top">
     
     The IP where the audited security-relevant event is executed \(only available for security audit log events\).
-
-
     
     </td>
     </tr>
@@ -757,15 +655,11 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `data`
-
-
     
     </td>
     <td valign="top">
     
     The message that contains the needed information for the logged security event \(only available for security audit log events\).
-
-
     
     </td>
     </tr>
@@ -773,15 +667,11 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `tenant`
-
-
     
     </td>
     <td valign="top">
     
     The identifier of the owner of the audit log message. Each audit log entry can have only single tenant equal to the zone ID, which determines the subaccount that is the owner of the message. The message is visible only for users in a role that has permissions to read the audit logs for this subaccount. The retention of the audit log message is determined based on the setup retention for this subaccount. For the premium plan, set the string “$PROVIDER”, which lets the servers extract the tenant zone ID automatically from the used JWT token.
-
-
     
     </td>
     </tr>
@@ -789,15 +679,11 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `success`
-
-
     
     </td>
     <td valign="top">
     
     The field is used for transactional messages only. When you mean to log the action as intention, skip the success field. If with the audit log message you mean to confirm the success of the action execution or to state that it was not successful, add the “success” field with values TRUE or FALSE.
-
-
     
     </td>
     </tr>
@@ -811,15 +697,11 @@ The audit log record contains the following two main parts - the first one is fi
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Semantics
-
-
     
     </th>
     </tr>
@@ -827,15 +709,11 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `service_instance_id`
-
-
     
     </td>
     <td valign="top">
     
     The GUID of the audit log instance that is used to write audit logs.
-
-
     
     </td>
     </tr>
@@ -843,15 +721,11 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `platform`
-
-
     
     </td>
     <td valign="top">
     
     The platform identifier together with the region information from where the audit log is written.
-
-
     
     </td>
     </tr>
@@ -859,15 +733,11 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `org_name`
-
-
     
     </td>
     <td valign="top">
     
     Empty in the newest version for security reasons.
-
-
     
     </td>
     </tr>
@@ -875,15 +745,11 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `org_guid`
-
-
     
     </td>
     <td valign="top">
     
     The organization GUID of the component that is using the audit log service to write audit logs.
-
-
     
     </td>
     </tr>
@@ -891,15 +757,11 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `space_name`
-
-
     
     </td>
     <td valign="top">
     
     Empty in the newest version for security reasons.
-
-
     
     </td>
     </tr>
@@ -907,15 +769,11 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `space_guid`
-
-
     
     </td>
     <td valign="top">
     
     The space GUID of the component that is using the audit log service to write audit logs.
-
-
     
     </td>
     </tr>
@@ -923,15 +781,11 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `app_name`
-
-
     
     </td>
     <td valign="top">
     
     Empty in the newest version for security reasons.
-
-
     
     </td>
     </tr>
@@ -939,15 +793,11 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `app_guid`
-
-
     
     </td>
     <td valign="top">
     
     The GUID of the application that is using the audit log service to write audit logs.
-
-
     
     </td>
     </tr>
@@ -955,15 +805,11 @@ The audit log record contains the following two main parts - the first one is fi
     <td valign="top">
     
     `category`
-
-
     
     </td>
     <td valign="top">
     
     Message category is set implicitly by the framework.
-
-
     
     </td>
     </tr>

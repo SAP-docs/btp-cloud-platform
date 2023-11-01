@@ -13,21 +13,15 @@ The following example call stack, captured by running a locally created ADT clas
 
 Line
 
-
-
 </th>
 <th valign="top">
 
 Positive position
 
-
-
 </th>
 <th valign="top">
 
 Negative position
-
-
 
 </th>
 </tr>
@@ -36,21 +30,15 @@ Negative position
 
 `ZCL_XCO_CALL_STACK` main \[method\]
 
-
-
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 \-17
-
-
 
 </td>
 </tr>
@@ -59,21 +47,15 @@ Negative position
 
 `CL_XCO_ADT_CR_SIMPLE_ACTION` execute \[method\]
 
-
-
 </td>
 <td valign="top">
 
 2
 
-
-
 </td>
 <td valign="top">
 
 \-16
-
-
 
 </td>
 </tr>
@@ -82,21 +64,15 @@ Negative position
 
 `CL_XCO_DP_ACTION_ABSTRACT` if\_xco\_dp\_action~execute \[method\]
 
-
-
 </td>
 <td valign="top">
 
 3
 
-
-
 </td>
 <td valign="top">
 
 \-15
-
-
 
 </td>
 </tr>
@@ -105,21 +81,15 @@ Negative position
 
 `CL_XCO_ADT_CALL_CLASSRUN` if\_xco\_rt\_adt\_call\_classrun~dispatch \[method\]
 
-
-
 </td>
 <td valign="top">
 
 4
 
-
-
 </td>
 <td valign="top">
 
 \-14
-
-
 
 </td>
 </tr>
@@ -128,21 +98,15 @@ Negative position
 
 `CL_XCO_RT_ADT_CLASSRUN_ABSTR` if\_oo\_adt\_classrun~main \[method\]
 
-
-
 </td>
 <td valign="top">
 
 5
 
-
-
 </td>
 <td valign="top">
 
 \-13
-
-
 
 </td>
 </tr>
@@ -151,21 +115,15 @@ Negative position
 
 `CL_OO_ADT_RES_CLASSRUN` execute\_clas \[method\]
 
-
-
 </td>
 <td valign="top">
 
 6
 
-
-
 </td>
 <td valign="top">
 
 \-12
-
-
 
 </td>
 </tr>
@@ -174,21 +132,15 @@ Negative position
 
 `CL_OO_ADT_RES_CLASSRUN` post \[method\]
 
-
-
 </td>
 <td valign="top">
 
 7
 
-
-
 </td>
 <td valign="top">
 
 \-11
-
-
 
 </td>
 </tr>
@@ -197,44 +149,32 @@ Negative position
 
 `CL_ADT_REST_RESOURCE` if\_rest\_handler~handle \[method\]
 
-
-
 </td>
 <td valign="top">
 
 8
-
-
 
 </td>
 <td valign="top">
 
 \-10
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `CL_REST_ROUTER` if\_rest\_handler~handle \[method\]
-
-
 
 </td>
 <td valign="top">
 
 9
 
-
-
 </td>
 <td valign="top">
 
 \-9
-
-
 
 </td>
 </tr>
@@ -243,21 +183,15 @@ Negative position
 
 `CL_REST_ROUTER` if\_rest\_handler~handle \[method\]
 
-
-
 </td>
 <td valign="top">
 
 10
 
-
-
 </td>
 <td valign="top">
 
 \-8
-
-
 
 </td>
 </tr>
@@ -266,21 +200,15 @@ Negative position
 
 `CL_REST_HTTP_HANDLER` if\_http\_extension~handle\_request \[method\]
 
-
-
 </td>
 <td valign="top">
 
 11
 
-
-
 </td>
 <td valign="top">
 
 \-7
-
-
 
 </td>
 </tr>
@@ -289,21 +217,15 @@ Negative position
 
 `CL_ADT_WB_RES_APP` lif\_request\_handler~handle\_request \[method\]
 
-
-
 </td>
 <td valign="top">
 
 12
 
-
-
 </td>
 <td valign="top">
 
 \-6
-
-
 
 </td>
 </tr>
@@ -312,21 +234,15 @@ Negative position
 
 `CL_ADT_WB_RES_APP` handle\_request \[method\]
 
-
-
 </td>
 <td valign="top">
 
 13
 
-
-
 </td>
 <td valign="top">
 
 \-5
-
-
 
 </td>
 </tr>
@@ -335,21 +251,15 @@ Negative position
 
 `CL_ADT_WB_RES_APP` if\_http\_extension~handle\_request
 
-
-
 </td>
 <td valign="top">
 
 14
 
-
-
 </td>
 <td valign="top">
 
 \-4
-
-
 
 </td>
 </tr>
@@ -358,21 +268,15 @@ Negative position
 
 `CL_HTTP_SERVER` \[system\] execute\_request \[method\]
 
-
-
 </td>
 <td valign="top">
 
 15
 
-
-
 </td>
 <td valign="top">
 
 \-3
-
-
 
 </td>
 </tr>
@@ -381,21 +285,15 @@ Negative position
 
 `SAPLHTTP_RUNTIME` \[system\] http\_dispatch\_request \[function\]
 
-
-
 </td>
 <td valign="top">
 
 16
 
-
-
 </td>
 <td valign="top">
 
 \-2
-
-
 
 </td>
 </tr>
@@ -404,21 +302,15 @@ Negative position
 
 `SAPMHTTP` \[system\] %\_http\_start \[module \(pbo\)\]
 
-
-
 </td>
 <td valign="top">
 
 17
 
-
-
 </td>
 <td valign="top">
 
 \-1
-
-
 
 </td>
 </tr>
@@ -486,21 +378,15 @@ In total three extractions are applied. The first extraction, `->FROM→POSITION
 
 Line
 
-
-
 </th>
 <th valign="top">
 
 Positive position
 
-
-
 </th>
 <th valign="top">
 
 Negative position
-
-
 
 </th>
 </tr>
@@ -509,21 +395,15 @@ Negative position
 
 `CL_XCO_ADT_CR_SIMPLE_ACTION` execute \[method\]
 
-
-
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 \-16
-
-
 
 </td>
 </tr>
@@ -532,21 +412,15 @@ Negative position
 
 `CL_XCO_DP_ACTION_ABSTRACT` if\_xco\_dp\_action~execute \[method\]
 
-
-
 </td>
 <td valign="top">
 
 2
 
-
-
 </td>
 <td valign="top">
 
 \-15
-
-
 
 </td>
 </tr>
@@ -555,21 +429,15 @@ Negative position
 
 `CL_XCO_ADT_CALL_CLASSRUN` if\_xco\_rt\_adt\_call\_classrun~dispatch \[method\]
 
-
-
 </td>
 <td valign="top">
 
 3
 
-
-
 </td>
 <td valign="top">
 
 \-14
-
-
 
 </td>
 </tr>
@@ -578,21 +446,15 @@ Negative position
 
 `CL_XCO_RT_ADT_CLASSRUN_ABSTR` if\_oo\_adt\_classrun~main \[method\]
 
-
-
 </td>
 <td valign="top">
 
 4
 
-
-
 </td>
 <td valign="top">
 
 \-13
-
-
 
 </td>
 </tr>
@@ -601,21 +463,15 @@ Negative position
 
 `CL_OO_ADT_RES_CLASSRUN` execute\_clas \[method\]
 
-
-
 </td>
 <td valign="top">
 
 5
 
-
-
 </td>
 <td valign="top">
 
 \-12
-
-
 
 </td>
 </tr>
@@ -624,21 +480,15 @@ Negative position
 
 `CL_OO_ADT_RES_CLASSRUN` post \[method\]
 
-
-
 </td>
 <td valign="top">
 
 6
 
-
-
 </td>
 <td valign="top">
 
 \-11
-
-
 
 </td>
 </tr>
@@ -647,44 +497,32 @@ Negative position
 
 `CL_ADT_REST_RESOURCE` if\_rest\_handler~handle \[method\]
 
-
-
 </td>
 <td valign="top">
 
 7
-
-
 
 </td>
 <td valign="top">
 
 \-10
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `CL_REST_ROUTER` if\_rest\_handler~handle \[method\]
-
-
 
 </td>
 <td valign="top">
 
 8
 
-
-
 </td>
 <td valign="top">
 
 \-9
-
-
 
 </td>
 </tr>
@@ -693,21 +531,15 @@ Negative position
 
 `CL_REST_ROUTER` if\_rest\_handler~handle \[method\]
 
-
-
 </td>
 <td valign="top">
 
 9
 
-
-
 </td>
 <td valign="top">
 
 \-8
-
-
 
 </td>
 </tr>
@@ -716,21 +548,15 @@ Negative position
 
 `CL_REST_HTTP_HANDLER` if\_http\_extension~handle\_request \[method\]
 
-
-
 </td>
 <td valign="top">
 
 10
 
-
-
 </td>
 <td valign="top">
 
 \-7
-
-
 
 </td>
 </tr>
@@ -739,21 +565,15 @@ Negative position
 
 `CL_ADT_WB_RES_APP` lif\_request\_handler~handle\_request \[method\]
 
-
-
 </td>
 <td valign="top">
 
 11
 
-
-
 </td>
 <td valign="top">
 
 \-6
-
-
 
 </td>
 </tr>
@@ -762,21 +582,15 @@ Negative position
 
 `CL_ADT_WB_RES_APP` handle\_request \[method\]
 
-
-
 </td>
 <td valign="top">
 
 12
 
-
-
 </td>
 <td valign="top">
 
 \-5
-
-
 
 </td>
 </tr>
@@ -785,21 +599,15 @@ Negative position
 
 `CL_ADT_WB_RES_APP` if\_http\_extension~handle\_request
 
-
-
 </td>
 <td valign="top">
 
 13
 
-
-
 </td>
 <td valign="top">
 
 \-4
-
-
 
 </td>
 </tr>
@@ -808,21 +616,15 @@ Negative position
 
 `CL_HTTP_SERVER` \[system\] execute\_request \[method\]
 
-
-
 </td>
 <td valign="top">
 
 14
 
-
-
 </td>
 <td valign="top">
 
 \-3
-
-
 
 </td>
 </tr>
@@ -831,21 +633,15 @@ Negative position
 
 `SAPLHTTP_RUNTIME` \[system\] http\_dispatch\_request \[function\]
 
-
-
 </td>
 <td valign="top">
 
 15
 
-
-
 </td>
 <td valign="top">
 
 \-2
-
-
 
 </td>
 </tr>
@@ -854,21 +650,15 @@ Negative position
 
 `SAPMHTTP` \[system\] %\_http\_start \[module \(pbo\)\]
 
-
-
 </td>
 <td valign="top">
 
 16
 
-
-
 </td>
 <td valign="top">
 
 \-1
-
-
 
 </td>
 </tr>
@@ -883,21 +673,15 @@ The second extraction, `->to->last_occurence_of( lo_line_pattern )`, applied to 
 
 Line
 
-
-
 </th>
 <th valign="top">
 
 Positive position
 
-
-
 </th>
 <th valign="top">
 
 Negative position
-
-
 
 </th>
 </tr>
@@ -906,21 +690,15 @@ Negative position
 
 `CL_XCO_ADT_CR_SIMPLE_ACTION` execute \[method\]
 
-
-
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 \-4
-
-
 
 </td>
 </tr>
@@ -929,21 +707,15 @@ Negative position
 
 `CL_XCO_DP_ACTION_ABSTRACT` if\_xco\_dp\_action~execute \[method\]
 
-
-
 </td>
 <td valign="top">
 
 2
 
-
-
 </td>
 <td valign="top">
 
 \-3
-
-
 
 </td>
 </tr>
@@ -952,21 +724,15 @@ Negative position
 
 `CL_XCO_ADT_CALL_CLASSRUN` if\_xco\_rt\_adt\_call\_classrun~dispatch \[method\]
 
-
-
 </td>
 <td valign="top">
 
 3
 
-
-
 </td>
 <td valign="top">
 
 \-2
-
-
 
 </td>
 </tr>
@@ -975,21 +741,15 @@ Negative position
 
 `CL_XCO_RT_ADT_CLASSRUN_ABSTR` if\_oo\_adt\_classrun~main \[method\]
 
-
-
 </td>
 <td valign="top">
 
 4
 
-
-
 </td>
 <td valign="top">
 
 \-1
-
-
 
 </td>
 </tr>
@@ -1004,21 +764,15 @@ Finally, the application of the third extraction, `->to->position( -2 )`, to the
 
 Line
 
-
-
 </th>
 <th valign="top">
 
 Positive position
 
-
-
 </th>
 <th valign="top">
 
 Negative position
-
-
 
 </th>
 </tr>
@@ -1027,21 +781,15 @@ Negative position
 
 `CL_XCO_ADT_CR_SIMPLE_ACTION` execute \[method\]
 
-
-
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 \-3
-
-
 
 </td>
 </tr>
@@ -1050,21 +798,15 @@ Negative position
 
 `CL_XCO_DP_ACTION_ABSTRACT` if\_xco\_dp\_action~execute \[method\]
 
-
-
 </td>
 <td valign="top">
 
 2
 
-
-
 </td>
 <td valign="top">
 
 \-2
-
-
 
 </td>
 </tr>
@@ -1073,21 +815,15 @@ Negative position
 
 `CL_XCO_ADT_CALL_CLASSRUN` if\_xco\_rt\_adt\_call\_classrun~dispatch \[method\]
 
-
-
 </td>
 <td valign="top">
 
 3
 
-
-
 </td>
 <td valign="top">
 
 \-1
-
-
 
 </td>
 </tr>

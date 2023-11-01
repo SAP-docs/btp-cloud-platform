@@ -25,14 +25,10 @@ Create an instance of the PDF merger class.
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -41,8 +37,6 @@ Description
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -50,14 +44,10 @@ Description
 
 `MERGER_INSTANCE`
 
-
-
 </td>
 <td valign="top">
 
 PDF merger instance: A reference to interface `IF_RSPO_PDF_MERGER`
-
-
 
 </td>
 </tr>
@@ -76,14 +66,10 @@ Add a PDF document to the list of files that you want to merge.
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -92,8 +78,6 @@ Description
 
 **Importing parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -101,14 +85,10 @@ Description
 
 `DOCUMENT`
 
-
-
 </td>
 <td valign="top">
 
 Data of the PDF document that you want to merge \(type `XSTRING`\)
-
-
 
 </td>
 </tr>
@@ -127,14 +107,10 @@ Merge all PDF documents into a single PDF file.
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -143,8 +119,6 @@ Description
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -152,14 +126,10 @@ Description
 
 `MERGED_DOCUMENT`
 
-
-
 </td>
 <td valign="top">
 
 Data of the merged document \(type `XSTRING`\)
-
-
 
 </td>
 </tr>
@@ -168,8 +138,6 @@ Data of the merged document \(type `XSTRING`\)
 
 **Exceptions**
 
-
-
 </td>
 </tr>
 <tr>
@@ -177,14 +145,10 @@ Data of the merged document \(type `XSTRING`\)
 
 `CX_RSPO_PDF_MERGER`
 
-
-
 </td>
 <td valign="top">
 
 Exceptions of the PDF merger
-
-
 
 </td>
 </tr>

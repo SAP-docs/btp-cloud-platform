@@ -56,21 +56,15 @@ The following table lists the role collections for account administration that a
 
 Authorizations in Feature Set A
 
-
-
 </th>
 <th valign="top">
 
 Authorizations in Feature Set B
 
-
-
 </th>
 <th valign="top">
 
 More Information
-
-
 
 </th>
 </tr>
@@ -79,14 +73,10 @@ More Information
 
 Administrator of global account
 
-
-
 </td>
 <td valign="top">
 
 *Global Account Administrator* in global account and *Subaccount Administrator* in multi-environment subaccounts
-
-
 
 </td>
 <td valign="top">
@@ -105,21 +95,15 @@ In cloud management tools feature set A, members of the global account have glob
 
 Security administrator in multi-environment subaccount
 
-
-
 </td>
 <td valign="top">
 
 *Subaccount Administrator* in multi-environment subaccount
 
-
-
 </td>
 <td valign="top">
 
 Security administrators rely mostly on the *User & Role Administrator* role for their authorizations. In cloud management tools feature set B, these authorizations are bundled in the *Subaccount Administrator* role collection.
-
-
 
 </td>
 </tr>
@@ -142,21 +126,15 @@ The following table lists the roles and role collections a user receives, based 
 
 Authorizations in Feature Set A
 
-
-
 </th>
 <th valign="top">
 
 Authorizations in Feature Set B
 
-
-
 </th>
 <th valign="top">
 
 More Information
-
-
 
 </th>
 </tr>
@@ -168,8 +146,6 @@ More Information
 *Space Manager*
 
 *Space Developer*
-
-
 
 </td>
 <td valign="top">
@@ -190,8 +166,6 @@ More Information
 
 In cloud management tools feature set A, a user with the *Org Manager*, *Space Manager*, or *Space Developer* roles could also manage cloud connectors and destinations. To make sure that such users don't lose any authorizations, we check the users authorizations and add the required role collections.
 
-
-
 </td>
 </tr>
 <tr>
@@ -201,8 +175,6 @@ In cloud management tools feature set A, a user with the *Org Manager*, *Space M
 
 *Space Auditor*
 
-
-
 </td>
 <td valign="top">
 
@@ -210,14 +182,10 @@ In cloud management tools feature set A, a user with the *Org Manager*, *Space M
 
 *Space Auditor*
 
-
-
 </td>
 <td valign="top">
 
 No change.
-
-
 
 </td>
 </tr>

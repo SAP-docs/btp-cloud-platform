@@ -11,5 +11,5 @@ Learn how to create and delete Cloud Foundry spaces, as well as how to add membe
 **Related Information**  
 
 
-[Managing Space Quota Plans](managing-space-quota-plans-4e5f0ee.md "Learn how to create, assign and change space quota plans in the Cloud Foundry environment.")
+[Managing Space Quotas](managing-space-quotas-4e5f0ee.md "Learn how to create, assign, and edit space quotas in the Cloud Foundry environment.")
 

@@ -30,15 +30,11 @@ To run an SQL trace, you create a profile of type *SQL Trace* and activate it \(
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     What to Enter
-
-
     
     </th>
     </tr>
@@ -46,15 +42,11 @@ To run an SQL trace, you create a profile of type *SQL Trace* and activate it \(
     <td valign="top">
     
     *Profile ID*
-
-
     
     </td>
     <td valign="top">
     
     Enter a short, meaningful name for your profile. Don't use the prefix `SAP_` because this prefix is reserved for profiles predefined by SAP.
-
-
     
     </td>
     </tr>
@@ -62,15 +54,11 @@ To run an SQL trace, you create a profile of type *SQL Trace* and activate it \(
     <td valign="top">
     
     *Description*
-
-
     
     </td>
     <td valign="top">
     
     If needed, you can enter a longer description of your profile.
-
-
     
     </td>
     </tr>
@@ -78,8 +66,6 @@ To run an SQL trace, you create a profile of type *SQL Trace* and activate it \(
     <td valign="top">
     
     *Target User Group*
-
-
     
     </td>
     <td valign="top">
@@ -97,15 +83,11 @@ To run an SQL trace, you create a profile of type *SQL Trace* and activate it \(
     <td valign="top">
     
     **Profile Type**
-
-
     
     </td>
     <td valign="top">
     
     Choose *SQL Trace*.
-
-
     
     </td>
     </tr>

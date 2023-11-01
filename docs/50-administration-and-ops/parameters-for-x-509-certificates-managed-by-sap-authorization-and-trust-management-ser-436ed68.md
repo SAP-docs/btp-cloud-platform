@@ -44,14 +44,10 @@ The following table describes the supported parameters.
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -60,16 +56,12 @@ Description
 
 `credential-type` 
 
-
-
 </td>
 <td valign="top">
 
 Only required to use X.509 when X.509 isn't specified as default in the application security descriptor \(`xs-security.json`\).
 
 For more information, see [Application Security Descriptor Configuration Syntax](../30-development/application-security-descriptor-configuration-syntax-517895a.md).
-
-
 
 </td>
 </tr>
@@ -78,14 +70,10 @@ For more information, see [Application Security Descriptor Configuration Syntax]
 
 `x509` 
 
-
-
 </td>
 <td valign="top">
 
 In this parameter, you define the certificate options of key length, validity period, and unit of length. This parameter is optional.
-
-
 
 </td>
 </tr>
@@ -94,14 +82,10 @@ In this parameter, you define the certificate options of key length, validity pe
 
 `key-length` 
 
-
-
 </td>
 <td valign="top">
 
 Specifies the byte length of the generated private key. The default length is 2048 bytes. You can also choose 4096 bytes or 8192 bytes.
-
-
 
 </td>
 </tr>
@@ -110,16 +94,12 @@ Specifies the byte length of the generated private key. The default length is 20
 
 `validity` 
 
-
-
 </td>
 <td valign="top">
 
 Specifies the number of time units for `validity-type`. The default value is 7.
 
 Together with the `validity-type` the range of validity runs from `1 DAYS` to `30 DAYS`.
-
-
 
 </td>
 </tr>
@@ -128,14 +108,10 @@ Together with the `validity-type` the range of validity runs from `1 DAYS` to `3
 
 `validity-type` 
 
-
-
 </td>
 <td valign="top">
 
 Specifies the time unit for validity. Supported value is `DAYS`. The default value is `DAYS`.
-
-
 
 </td>
 </tr>

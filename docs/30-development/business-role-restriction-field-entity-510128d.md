@@ -23,21 +23,15 @@ Technical name: `BusinessRoleRestrictionFields`
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Necessity
-
-
 
 </th>
 </tr>
@@ -46,21 +40,15 @@ Necessity
 
 BusinessRoleID
 
-
-
 </td>
 <td valign="top">
 
 Business role ID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -69,21 +57,15 @@ Mandatory \(Key\)
 
 RestrictionTypeAssignmentUUID
 
-
-
 </td>
 <td valign="top">
 
 Restriction type assignment UUID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -92,21 +74,15 @@ Mandatory \(Key\)
 
 FieldName
 
-
-
 </td>
 <td valign="top">
 
 Field name
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -114,8 +90,6 @@ Mandatory \(Key\)
 <td valign="top">
 
 MaintainStatus
-
-
 
 </td>
 <td valign="top">
@@ -126,14 +100,10 @@ not\_maint: Maintenance status set to *Not Maintained*.
 
 maint\_derived: Maintenance Status set to *Maintained in Derived Role*.
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -142,21 +112,15 @@ Optional
 
 IsLeading
 
-
-
 </td>
 <td valign="top">
 
 Leading
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>

@@ -23,14 +23,10 @@ The subaccount *Usage Analytics* page contains views that display usage at diffe
 
 View
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -39,16 +35,12 @@ Description
 
 **Subaccount** 
 
-
-
 </td>
 <td valign="top">
 
 Displays high-level usage information for your subaccount relating to services, business application subscriptions, and Cloud Foundry org spaces.
 
 Some information in this view is displayed only for global account admins.
-
-
 
 </td>
 </tr>
@@ -57,14 +49,10 @@ Some information in this view is displayed only for global account admins.
 
 **Services** 
 
-
-
 </td>
 <td valign="top">
 
 Displays usage per service plan for the region of the subaccount, and the selected metric and period. Information is shown for all services whose metered consumption in the subaccount is greater than zero.
-
-
 
 </td>
 </tr>
@@ -73,14 +61,10 @@ Displays usage per service plan for the region of the subaccount, and the select
 
 **Spaces** 
 
-
-
 </td>
 <td valign="top">
 
 \(Cloud Foundry environment only\) Displays service plan usage per space for the services shown in the *Services* view.
-
-
 
 </td>
 </tr>

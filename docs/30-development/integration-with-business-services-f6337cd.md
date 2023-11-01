@@ -20,15 +20,11 @@ To access business services, the following applies:
     <th valign="top">
 
     Grant Type
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -36,15 +32,11 @@ To access business services, the following applies:
     <td valign="top">
     
     `user_token`
-
-
     
     </td>
     <td valign="top">
     
     The application router performs a token exchange between the login JWT token and the Business Service token, and uses it to trigger a request to the Business Service endpoint.
-
-
     
     </td>
     </tr>
@@ -52,15 +44,11 @@ To access business services, the following applies:
     <td valign="top">
     
     `client_credentials`
-
-
     
     </td>
     <td valign="top">
     
     The application router generates a `client_credentials` token and uses it to trigger a request to the Business Service endpoint.
-
-
     
     </td>
     </tr>
@@ -76,21 +64,15 @@ To bind a Business Service instance to the application router, provide the follo
 
 Information
 
-
-
 </th>
 <th valign="top">
 
 Mandatory
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -99,21 +81,15 @@ Description
 
 sap.cloud.service
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Service name as referenced from `xs-app.json` route and business service prefix, if provided by the Business Service UI.
-
-
 
 </td>
 </tr>
@@ -122,21 +98,15 @@ Service name as referenced from `xs-app.json` route and business service prefix,
 
 sap.cloud.service.alias
 
-
-
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Short service name alias for user friendly URL business service prefix. Make sure the alias is unique in the context of the application router.
-
-
 
 </td>
 </tr>
@@ -145,21 +115,15 @@ Short service name alias for user friendly URL business service prefix. Make sur
 
 endpoints
 
-
-
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 One or more endpoints that can be used to access Business Service data.
-
-
 
 </td>
 </tr>
@@ -168,21 +132,15 @@ One or more endpoints that can be used to access Business Service data.
 
 html5-apps-repo
 
-
-
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 The `html5-apps-repo.app_host_id` contains one or more `html5-apps-repo` service instance GUIDs that can be used to retrieve Business Service UIs.
-
-
 
 </td>
 </tr>
@@ -191,21 +149,15 @@ The `html5-apps-repo.app_host_id` contains one or more `html5-apps-repo` service
 
 saasregistryenabled
 
-
-
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Indicates that this Business Service supports SaaS Registry subscription. If provided, the application router returns this Business Service xsappname in the SaaS Registry `getDependencies` callback.
-
-
 
 </td>
 </tr>
@@ -214,21 +166,15 @@ Indicates that this Business Service supports SaaS Registry subscription. If pro
 
 grant\_type
 
-
-
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 The grant type that should be used to trigger requests to the Business Service. Allowed values: `user_token` \(default\) or `client_credentials`.
-
-
 
 </td>
 </tr>
@@ -243,35 +189,25 @@ The value of the `endpoints` is an object containing the following properties:
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Optional
 
-
-
 </th>
 <th valign="top">
 
 Default
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -280,35 +216,25 @@ Description
 
 url
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 URL to access the Business Service data.
-
-
 
 </td>
 </tr>
@@ -317,35 +243,25 @@ URL to access the Business Service data.
 
 timeout
 
-
-
 </td>
 <td valign="top">
 
 Number
-
-
 
 </td>
 <td valign="top">
 
 X
 
-
-
 </td>
 <td valign="top">
 
 30000ms
 
-
-
 </td>
 <td valign="top">
 
 Positive integer representing the maximum wait time for a response \(in milliseconds\) from the Business Service.
-
-
 
 </td>
 </tr>

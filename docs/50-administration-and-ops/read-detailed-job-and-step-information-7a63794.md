@@ -21,21 +21,15 @@ You can include the following properties in the URL of the request:
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Necessity
 
-
-
 </th>
 <th valign="top">
 
 Comment
-
-
 
 </th>
 </tr>
@@ -44,21 +38,15 @@ Comment
 
 JobRunCount
 
-
-
 </td>
 <td valign="top">
 
 Mandatory
 
-
-
 </td>
 <td valign="top">
 
 This is the ID of an application job.
-
-
 
 </td>
 </tr>
@@ -67,21 +55,15 @@ This is the ID of an application job.
 
 JobName
 
-
-
 </td>
 <td valign="top">
 
 Mandatory
 
-
-
 </td>
 <td valign="top">
 
 This is the name of an application job.
-
-
 
 </td>
 </tr>

@@ -31,21 +31,15 @@ The entities contain the service's business data.
 
 Entity
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Necessity
-
-
 
 </th>
 </tr>
@@ -54,21 +48,15 @@ Necessity
 
 `BusinessRoleID`
 
-
-
 </td>
 <td valign="top">
 
 Business Role ID
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -77,21 +65,15 @@ Optional
 
 `ChangedOn`
 
-
-
 </td>
 <td valign="top">
 
 Change on Date/Time
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -99,8 +81,6 @@ Optional
 <td valign="top">
 
 `ChangeCategory`
-
-
 
 </td>
 <td valign="top">
@@ -131,8 +111,6 @@ The following values are available:
 
 Optional
 
-
-
 </td>
 </tr>
 <tr>
@@ -140,21 +118,15 @@ Optional
 
 `ChangeCategoryText`
 
-
-
 </td>
 <td valign="top">
 
 Category of change description \(such as *Business catalog added*\)
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -163,21 +135,15 @@ Optional
 
 `Attribute`
 
-
-
 </td>
 <td valign="top">
 
 Name of changed attribute
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -186,21 +152,15 @@ Optional
 
 `ValueChangedFrom`
 
-
-
 </td>
 <td valign="top">
 
 Old value
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -209,21 +169,15 @@ Optional
 
 `ValueChangedTo`
 
-
-
 </td>
 <td valign="top">
 
 New value
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -232,21 +186,15 @@ Optional
 
 `ChangedByUserName`
 
-
-
 </td>
 <td valign="top">
 
 Changed by user identified by user name
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -255,21 +203,15 @@ Optional
 
 `ChangedByUserID`
 
-
-
 </td>
 <td valign="top">
 
 Changed by user identified by user ID
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -278,21 +220,15 @@ Optional
 
 `ChangedByUserEmailAddress`
 
-
-
 </td>
 <td valign="top">
 
 Changed by user identified by email address
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -301,21 +237,15 @@ Optional
 
 `ChangedByGlobalUserID`
 
-
-
 </td>
 <td valign="top">
 
 Changed by user identified by *Global User ID*
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -324,21 +254,15 @@ Optional
 
 `Action`
 
-
-
 </td>
 <td valign="top">
 
 Action
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -359,14 +283,10 @@ The details of an API response are according to the operation types that are sup
 
 Entity
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -375,14 +295,10 @@ Description
 
 200
 
-
-
 </td>
 <td valign="top">
 
 OK
-
-
 
 </td>
 </tr>
@@ -391,14 +307,10 @@ OK
 
 400
 
-
-
 </td>
 <td valign="top">
 
 Bad Request
-
-
 
 </td>
 </tr>
@@ -407,14 +319,10 @@ Bad Request
 
 403
 
-
-
 </td>
 <td valign="top">
 
 Forbidden
-
-
 
 </td>
 </tr>

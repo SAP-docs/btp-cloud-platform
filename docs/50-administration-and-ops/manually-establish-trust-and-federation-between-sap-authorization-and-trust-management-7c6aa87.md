@@ -51,6 +51,9 @@ You must establish a trust relationship with an SAML 2.0 identity provider in yo
 > > ### Example:  
 > > If there is already a trust configuration with Open ID Connect, you can't create one using the SAML protocol.
 
+> ### Restriction:  
+> Consider the upper limits for trust configrations in the subaccount. See [Limits for the Subaccount](../60-security/limits-for-technical-artifacts-of-the-sap-authorization-and-trust-management-service-6d3ef52.md#loio6d3ef5260f4a4232ad43542ab1441694__section_ddk_bhf_fzb).
+
 
 
 ## Procedure

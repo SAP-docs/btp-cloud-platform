@@ -15,28 +15,20 @@ SAP BTP supports multiple environments. It features a number of tools and progra
 
  
 
-
-
 </th>
 <th valign="top">
 
 Cloud Foundry
-
-
 
 </th>
 <th valign="top">
 
 Kyma
 
-
-
 </th>
 <th valign="top">
 
 ABAP
-
-
 
 </th>
 </tr>
@@ -44,8 +36,6 @@ ABAP
 <td valign="top">
 
 **Benefits**
-
-
 
 </td>
 <td valign="top">
@@ -92,8 +82,6 @@ ABAP
 
 **Shared Benefits**
 
-
-
 </td>
 <td valign="top" colspan="3">
 
@@ -114,8 +102,6 @@ ABAP
 <td valign="top">
 
 **Good For**
-
-
 
 </td>
 <td valign="top">
@@ -158,8 +144,6 @@ ABAP
 <td valign="top">
 
 **Skills**
-
-
 
 </td>
 <td valign="top">

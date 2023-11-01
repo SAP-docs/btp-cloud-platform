@@ -43,8 +43,6 @@ Create a destination of connection type `W`:
 
 *Technical Settings*
 
-
-
 </td>
 </tr>
 <tr>
@@ -52,14 +50,10 @@ Create a destination of connection type `W`:
 
 `Host`
 
-
-
 </td>
 <td valign="top">
 
 The API-URL defined in the Communication Arrangement without the `https://` prefix
-
-
 
 </td>
 </tr>
@@ -68,14 +62,10 @@ The API-URL defined in the Communication Arrangement without the `https://` pref
 
 `Port`
 
-
-
 </td>
 <td valign="top">
 
 `443`
-
-
 
 </td>
 </tr>
@@ -84,8 +74,6 @@ The API-URL defined in the Communication Arrangement without the `https://` pref
 
 *Logon & Security*
 
-
-
 </td>
 </tr>
 <tr>
@@ -93,14 +81,10 @@ The API-URL defined in the Communication Arrangement without the `https://` pref
 
 `Explicit Client`
 
-
-
 </td>
 <td valign="top">
 
 `by Hostname`
-
-
 
 </td>
 </tr>
@@ -108,8 +92,6 @@ The API-URL defined in the Communication Arrangement without the `https://` pref
 <td valign="top" rowspan="2">
 
 `Authentication Method`
-
-
 
 </td>
 <td valign="top">
@@ -127,8 +109,6 @@ The API-URL defined in the Communication Arrangement without the `https://` pref
 <td valign="top">
 
 `by X.509 Certificate`
-
-
 
 </td>
 </tr>

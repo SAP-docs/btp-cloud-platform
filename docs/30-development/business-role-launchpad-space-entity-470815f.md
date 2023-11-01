@@ -23,21 +23,15 @@ Technical name: `BusinessRoleLaunchpadSpaces`
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Necessity
-
-
 
 </th>
 </tr>
@@ -46,21 +40,15 @@ Necessity
 
 BusinessRoleID
 
-
-
 </td>
 <td valign="top">
 
 Business role ID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -69,21 +57,15 @@ Mandatory \(Key\)
 
 SpaceID
 
-
-
 </td>
 <td valign="top">
 
 Space ID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>

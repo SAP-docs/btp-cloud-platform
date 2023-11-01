@@ -61,15 +61,11 @@ Keep in mind that you also delete the user's role collection assignments.
     <th valign="top">
 
     Options
-
-
     
     </th>
     <th valign="top">
 
     Procedure
-
-
     
     </th>
     </tr>
@@ -77,8 +73,6 @@ Keep in mind that you also delete the user's role collection assignments.
     <td valign="top">
     
     Delete a single user
-
-
     
     </td>
     <td valign="top">
@@ -96,8 +90,6 @@ Keep in mind that you also delete the user's role collection assignments.
     <td valign="top">
     
     Delete multiple users
-
-
     
     </td>
     <td valign="top">

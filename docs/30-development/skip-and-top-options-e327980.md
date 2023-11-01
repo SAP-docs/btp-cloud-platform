@@ -25,14 +25,10 @@ A data service URI with:
 
 `$skip` System Query Option
 
-
-
 </th>
 <th valign="top">
 
 `$top` System Query Option
-
-
 
 </th>
 </tr>
@@ -41,14 +37,10 @@ A data service URI with:
 
 identifies a subset of the entities in an entity collection \(identified by the Resource Path section of the URI\)
 
-
-
 </td>
 <td valign="top">
 
 identifies a subset of the entities in an entity collection \(identified by the Resource Path section of the URI\)
-
-
 
 </td>
 </tr>
@@ -57,14 +49,10 @@ identifies a subset of the entities in an entity collection \(identified by the 
 
 the subset is defined by searching `N` entities in an collection and selecting **only the remaining entities** \(starting with entity `N+1`\).
 
-
-
 </td>
 <td valign="top">
 
 the subset is formed by selecting **only the first** `N` items of the set.
-
-
 
 </td>
 </tr>
@@ -73,14 +61,10 @@ the subset is formed by selecting **only the first** `N` items of the set.
 
 `N` is a positive integer specified by this query option.
 
-
-
 </td>
 <td valign="top">
 
 `N` is a positive integer specified by this query option.
-
-
 
 </td>
 </tr>
@@ -101,14 +85,10 @@ A data service URI with:
 
 `$skip` System Query Option
 
-
-
 </th>
 <th valign="top">
 
 `$top` System Query Option
-
-
 
 </th>
 </tr>
@@ -117,14 +97,10 @@ A data service URI with:
 
 specifies a non-negative integer `n` that **excludes** the first `n` items of the queried collection.
 
-
-
 </td>
 <td valign="top">
 
 specifies a non-negative integer `n` that **limits** the number of items returned from a collection.
-
-
 
 </td>
 </tr>
@@ -133,14 +109,10 @@ specifies a non-negative integer `n` that **limits** the number of items returne
 
 the service returns items starting at position `n+1`.
 
-
-
 </td>
 <td valign="top">
 
 the service returns the number of available items up to but not greater than the specified value `n`.
-
-
 
 </td>
 </tr>

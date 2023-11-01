@@ -58,15 +58,11 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     <th valign="top">
 
     KEY
-
-
     
     </th>
     <th valign="top">
 
     VALUE
-
-
     
     </th>
     </tr>
@@ -74,15 +70,11 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     <td valign="top">
     
     accept
-
-
     
     </td>
     <td valign="top">
     
     application/vnd.sap.atc.run.v1+xml
-
-
     
     </td>
     </tr>
@@ -90,15 +82,11 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     <td valign="top">
     
     x-csrf-token
-
-
     
     </td>
     <td valign="top">
     
     fetch
-
-
     
     </td>
     </tr>
@@ -125,15 +113,11 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     <th valign="top">
 
     KEY
-
-
     
     </th>
     <th valign="top">
 
     VALUE
-
-
     
     </th>
     </tr>
@@ -141,15 +125,11 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     <td valign="top">
     
     x-csrf-token
-
-
     
     </td>
     <td valign="top">
     
     <token\>
-
-
     
     </td>
     </tr>
@@ -157,15 +137,11 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     <td valign="top">
     
     location
-
-
     
     </td>
     <td valign="top">
     
     /sap/bc/adt/atc/runs/00000000000000000000000000000000
-
-
     
     </td>
     </tr>
@@ -185,15 +161,11 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     <th valign="top">
 
     KEY
-
-
     
     </th>
     <th valign="top">
 
     VALUE
-
-
     
     </th>
     </tr>
@@ -201,15 +173,11 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     <td valign="top">
     
     x-csrf-token
-
-
     
     </td>
     <td valign="top">
     
     <token\>
-
-
     
     </td>
     </tr>
@@ -217,15 +185,11 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     <td valign="top">
     
     content type
-
-
     
     </td>
     <td valign="top">
     
     application/vnd.sap.atc.run.parameters.v1+xml
-
-
     
     </td>
     </tr>
@@ -272,15 +236,11 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     <th valign="top">
 
     KEY
-
-
     
     </th>
     <th valign="top">
 
     VALUE
-
-
     
     </th>
     </tr>
@@ -288,15 +248,11 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     <td valign="top">
     
     location
-
-
     
     </td>
     <td valign="top">
     
     /sap/bc/adt/api/atc/runs/<UUID\>
-
-
     
     </td>
     </tr>
@@ -316,15 +272,11 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     <th valign="top">
 
     KEY
-
-
     
     </th>
     <th valign="top">
 
     VALUE
-
-
     
     </th>
     </tr>
@@ -332,15 +284,11 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     <td valign="top">
     
     accept
-
-
     
     </td>
     <td valign="top">
     
     application/vnd.sap.atc.run.v1+xml
-
-
     
     </td>
     </tr>
@@ -381,15 +329,11 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     <th valign="top">
 
     KEY
-
-
     
     </th>
     <th valign="top">
 
     VALUE
-
-
     
     </th>
     </tr>
@@ -397,15 +341,11 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     <td valign="top">
     
     Accept
-
-
     
     </td>
     <td valign="top">
     
     application/vnd.sap.atc.checkstyle.v1+xml
-
-
     
     </td>
     </tr>

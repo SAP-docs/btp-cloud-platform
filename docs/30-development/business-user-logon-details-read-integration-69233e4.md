@@ -32,28 +32,20 @@ This is an OData version 4 service. This version aims to improve processing time
 
 Service Group \(incl. Namespace if It Exists\)
 
-
-
 </th>
 <th valign="top">
 
 Repository ID
-
-
 
 </th>
 <th valign="top">
 
 Service Name \(incl. Namespace if It Exists\)
 
-
-
 </th>
 <th valign="top">
 
 Version
-
-
 
 </th>
 </tr>
@@ -62,28 +54,20 @@ Version
 
 `aps_iam_api_buser_read`
 
-
-
 </td>
 <td valign="top">
 
 `srvd_a2x`
-
-
 
 </td>
 <td valign="top">
 
 `BusinessUser`
 
-
-
 </td>
 <td valign="top">
 
 `0001`
-
-
 
 </td>
 </tr>
@@ -112,28 +96,20 @@ The entities contain the business data of the service.
 
 Entity
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Necessity
 
-
-
 </th>
 <th valign="top">
 
 Link to Details
-
-
 
 </th>
 </tr>
@@ -142,28 +118,20 @@ Link to Details
 
 BusinessUsers
 
-
-
 </td>
 <td valign="top">
 
 Contains Business Users
-
-
 
 </td>
 <td valign="top">
 
 Mandatory
 
-
-
 </td>
 <td valign="top">
 
 For more information, see the *Related Information* section.
-
-
 
 </td>
 </tr>

@@ -60,14 +60,10 @@ All users are assigned to one of the following user groups:
 
 Group
 
-
-
 </th>
 <th valign="top">
 
 Explanation
-
-
 
 </th>
 </tr>
@@ -76,14 +72,10 @@ Explanation
 
 **SAP Technical Users**
 
-
-
 </td>
 <td valign="top">
 
 These users are predefined by SAP to run tasks in the system for cloud operation activities and automated processes. SAP technical users are also required for customer-specific tasks, such as running and scheduling jobs. The required job template contains the SAP technical user needed to run the job by default.
-
-
 
 </td>
 </tr>
@@ -91,8 +83,6 @@ These users are predefined by SAP to run tasks in the system for cloud operation
 <td valign="top">
 
 **Communication Users**
-
-
 
 </td>
 <td valign="top">
@@ -117,14 +107,10 @@ Communication users are technical users required for communication between your 
 
 **Support Users**
 
-
-
 </td>
 <td valign="top">
 
 SAP uses support users to provide customers with support if issues occur in the system. These users only exist temporarily and are deleted by SAP after the support process is completed.
-
-
 
 </td>
 </tr>
@@ -154,14 +140,10 @@ SAP uses support users to provide customers with support if issues occur in the 
 
  
 
-
-
 </th>
 <th valign="top">
 
  
-
-
 
 </th>
 </tr>
@@ -170,14 +152,10 @@ SAP uses support users to provide customers with support if issues occur in the 
 
 `SAP*`
 
-
-
 </td>
 <td valign="top">
 
 This user has always been used in on-premise systems to log on to newly created tenants. This user is locked in your tenant and it'sn't used for any system operation.
-
-
 
 </td>
 </tr>
@@ -186,14 +164,10 @@ This user has always been used in on-premise systems to log on to newly created 
 
 `SAP_CUST_BUS`
 
-
-
 </td>
 <td valign="top">
 
 This user is a reference user assigned to all customer business users and SAP support users. General authorizations required for basic system access are assigned through this reference \(for example to access Fiori Launchpad\). The user can't be used by itself. It's locked and has no logon credentials.
-
-
 
 </td>
 </tr>
@@ -202,14 +176,10 @@ This user is a reference user assigned to all customer business users and SAP su
 
 `SAP_LMADM`
 
-
-
 </td>
 <td valign="top">
 
 This user is used for system internal, automated software lifecycle management across all tenants. It's used in processes that need to update tenant-specific data after changes to tenant-independent data. This user is unlocked. External system logon isn't possible.
-
-
 
 </td>
 </tr>
@@ -218,14 +188,10 @@ This user is used for system internal, automated software lifecycle management a
 
 `SAP_SMTP_IN`
 
-
-
 </td>
 <td valign="top">
 
 This user is used as the SMTP mail server user.
-
-
 
 </td>
 </tr>
@@ -234,14 +200,10 @@ This user is used as the SMTP mail server user.
 
 `SAP_SPC`
 
-
-
 </td>
 <td valign="top">
 
 This user is used for SAP-internal automated system operation.
-
-
 
 </td>
 </tr>
@@ -250,14 +212,10 @@ This user is used for SAP-internal automated system operation.
 
 `SAP_SYSTEM`
 
-
-
 </td>
 <td valign="top">
 
 This user is the default user to run system-internal technical jobs.
-
-
 
 </td>
 </tr>
@@ -266,14 +224,10 @@ This user is the default user to run system-internal technical jobs.
 
 `SAP_WFRT`
 
-
-
 </td>
 <td valign="top">
 
 This user is used by Business Workflow for the automated background processing of work items.
-
-
 
 </td>
 </tr>
@@ -282,14 +236,10 @@ This user is used by Business Workflow for the automated background processing o
 
 `SAP_WSRT`
 
-
-
 </td>
 <td valign="top">
 
 This user is used for system internal processing in the Web service runtime.
-
-
 
 </td>
 </tr>

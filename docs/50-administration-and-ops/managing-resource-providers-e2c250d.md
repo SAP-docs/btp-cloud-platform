@@ -24,14 +24,10 @@ SAP BTP currently supports the following vendors and their consumable services:
 
 Cloud Vendor
 
-
-
 </th>
 <th valign="top">
 
 Supported Services
-
-
 
 </th>
 </tr>
@@ -40,14 +36,10 @@ Supported Services
 
 Amazon Web Services
 
-
-
 </td>
 <td valign="top">
 
 Amazon Relational Database Service \(RDS\) - PostgreSQL
-
-
 
 </td>
 </tr>
@@ -56,14 +48,10 @@ Amazon Relational Database Service \(RDS\) - PostgreSQL
 
 Microsoft Azure
 
-
-
 </td>
 <td valign="top">
 
 Azure Database for PostgreSQL
-
-
 
 </td>
 </tr>
@@ -179,15 +167,11 @@ Follow these steps to manage the resource providers that you have already config
     <th valign="top">
 
     Action
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -197,8 +181,6 @@ Follow these steps to manage the resource providers that you have already config
     <span class="SAP-icons"></span>
 
     Manage Entitlements and Quotas
-
-
     
     </td>
     <td valign="top">
@@ -220,8 +202,6 @@ Follow these steps to manage the resource providers that you have already config
     :pencil2:
 
     Edit Resource Provider
-
-
     
     </td>
     <td valign="top">
@@ -241,8 +221,6 @@ Follow these steps to manage the resource providers that you have already config
     :wastebasket:
 
     Delete
-
-
     
     </td>
     <td valign="top">
@@ -264,5 +242,5 @@ Follow these steps to manage the resource providers that you have already config
 **Related Information**  
 
 
-[Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-5ba357b.md "Assign entitlements to subaccounts by adding service plans and distribute the quotas available in your global account to your subaccounts using the SAP BTP cockpit.")
+[Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-5ba357b.md "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using the SAP BTP cockpit.")
 

@@ -13,14 +13,10 @@ If a free text is read from an application log, an object instance of interface 
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -31,16 +27,12 @@ CATEGORY
 
 \(from IF\_BALI\_ITEM\_GETTER\)
 
-
-
 </td>
 <td valign="top">
 
 Category of the item
 
 Contains fixed value: IF\_BALI\_CONSTANTS=\>C\_CATEGORY\_FREE\_TEXT
-
-
 
 </td>
 </tr>
@@ -51,14 +43,10 @@ LOG\_ITEM\_NUMBER
 
 \(from IF\_BALI\_ITEM\_GETTER\)
 
-
-
 </td>
 <td valign="top">
 
 Serial number which is the position of the free text in the log
-
-
 
 </td>
 </tr>
@@ -69,14 +57,10 @@ SEVERITY
 
 \(from IF\_BALI\_ITEM\_GETTER\)
 
-
-
 </td>
 <td valign="top">
 
 Severity of the free text \('Error', 'Warning', etc\)
-
-
 
 </td>
 </tr>
@@ -87,14 +71,10 @@ DETAIL\_LEVEL
 
 \(from IF\_BALI\_ITEM\_GETTER\)
 
-
-
 </td>
 <td valign="top">
 
 Detail level of the free text \(number between '1' and '9' or ' '\)
-
-
 
 </td>
 </tr>
@@ -105,14 +85,10 @@ TIMESTAMP
 
 \(from IF\_BALI\_ITEM\_GETTER\)
 
-
-
 </td>
 <td valign="top">
 
 UTC time stamp of the free text creation
-
-
 
 </td>
 </tr>
@@ -133,14 +109,10 @@ Get the content of the free text:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -149,8 +121,6 @@ Description
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -158,14 +128,10 @@ Description
 
 MESSAGE\_TEXT
 
-
-
 </td>
 <td valign="top">
 
 Content of the free text
-
-
 
 </td>
 </tr>

@@ -28,14 +28,10 @@ The directory *Usage Analytics* page contains two views that display the same us
 
 View
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -44,14 +40,10 @@ Description
 
 **Service Usage** 
 
-
-
 </td>
 <td valign="top">
 
 Displays high-level usage information for a selected service or business application subscriptions according to the directory from which you accessed the *Usage Analytics* page. You can also drill down and view usage data for specific subdirectories and subaccounts that are located in this directory.
-
-
 
 </td>
 </tr>
@@ -60,14 +52,10 @@ Displays high-level usage information for a selected service or business applica
 
 **Directory/Subaccount Usage** 
 
-
-
 </td>
 <td valign="top">
 
 Displays high-level usage information for all services and business application subscriptions according to the directory from which you accessed the *Usage Analytics* page. You can also drill down and view usage data for specific subdirectories and subaccounts that are located in this directory.
-
-
 
 </td>
 </tr>

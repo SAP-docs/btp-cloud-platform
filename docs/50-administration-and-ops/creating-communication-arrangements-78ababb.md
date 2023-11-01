@@ -75,14 +75,10 @@ Create a communication arrangement to enable the exchange of events.
         > 
         > 0
         > 
-        > 
-        > 
         > </th>
         > <th valign="top">
         > 
         > 1
-        > 
-        > 
         > 
         > </th>
         > </tr>
@@ -91,14 +87,10 @@ Create a communication arrangement to enable the exchange of events.
         > 
         > At most once delivery.
         > 
-        > 
-        > 
         > </td>
         > <td valign="top">
         > 
         > At least once delivery.
-        > 
-        > 
         > 
         > </td>
         > </tr>
@@ -107,14 +99,10 @@ Create a communication arrangement to enable the exchange of events.
         > 
         > The message is delivered according to the capabilities of the underlying network. No response is sent by the receiver and no retry is performed by the sender. The message arrives at the SAP Event Mesh either once or not at all.
         > 
-        > 
-        > 
         > </td>
         > <td valign="top">
         > 
         > This Quality of Service ensures that the message arrives at the SAP Event Mesh at least once.
-        > 
-        > 
         > 
         > </td>
         > </tr>

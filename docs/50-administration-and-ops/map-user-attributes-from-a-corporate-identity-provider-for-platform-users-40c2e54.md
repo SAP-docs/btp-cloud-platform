@@ -62,14 +62,10 @@ For more information, see [Configure the Subject Name Identifier Sent to the App
 
 User Attribute Expected by SAP BTP
 
-
-
 </th>
 <th valign="top">
 
 Purpose
-
-
 
 </th>
 </tr>
@@ -78,8 +74,6 @@ Purpose
 
 `Subject name identifier` 
 
-
-
 </td>
 <td valign="top">
 
@@ -87,16 +81,12 @@ This is the user identifier for Neo subaccounts.
 
 Default value: ***User ID***
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `mail` 
-
-
 
 </td>
 <td valign="top">
@@ -110,8 +100,6 @@ The e-mail addresses of all the users in the Identity Authentication tenant must
 
 For more information, see the [prerequisites](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md#loioc36898473d704e07a33268c9f9d29515__prereq_avv_mp1_5tb) for establishing trust and federation of custom identity providers for platform users \[feature set B\].
 
-
-
 </td>
 </tr>
 <tr>
@@ -119,14 +107,10 @@ For more information, see the [prerequisites](establish-trust-and-federation-of-
 
 `first_name` 
 
-
-
 </td>
 <td valign="top">
 
 First name of the user.
-
-
 
 </td>
 </tr>
@@ -135,14 +119,10 @@ First name of the user.
 
 `last_name` 
 
-
-
 </td>
 <td valign="top">
 
 Last name of the user.
-
-
 
 </td>
 </tr>
@@ -151,14 +131,10 @@ Last name of the user.
 
 `groups` 
 
-
-
 </td>
 <td valign="top">
 
 Any groups the subject is assigned to in the identity provider.
-
-
 
 </td>
 </tr>

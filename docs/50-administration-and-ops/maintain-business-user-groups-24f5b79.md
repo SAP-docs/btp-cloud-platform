@@ -44,14 +44,10 @@ The following restriction types \(in the following business catalogs\) are requi
 
 Business Catalogs
 
-
-
 </th>
 <th valign="top">
 
 Restriction Types
-
-
 
 </th>
 </tr>
@@ -60,14 +56,10 @@ Restriction Types
 
 SAP\_CORE\_BC\_IAM\_RM
 
-
-
 </td>
 <td valign="top">
 
 *Business Role* \(S\_BRL\)
-
-
 
 </td>
 </tr>
@@ -76,14 +68,10 @@ SAP\_CORE\_BC\_IAM\_RM
 
 SAP\_CORE\_BC\_IAM\_UM
 
-
-
 </td>
 <td valign="top">
 
 *Business User*\(CLASS\)
-
-
 
 </td>
 </tr>
@@ -92,16 +80,12 @@ SAP\_CORE\_BC\_IAM\_UM
 
 SAP\_CORE\_BC\_IAM\_RA
 
-
-
 </td>
 <td valign="top">
 
 *Business Role* \(S\_BRL\)
 
 *Business User* \(CLASS\)
-
-
 
 </td>
 </tr>
@@ -110,14 +94,10 @@ SAP\_CORE\_BC\_IAM\_RA
 
 SAP\_CORE\_BC\_IAM\_RM\_DISP\_PC
 
-
-
 </td>
 <td valign="top">
 
 *Business Role* \(ROLE\_GROUP\)
-
-
 
 </td>
 </tr>
@@ -126,14 +106,10 @@ SAP\_CORE\_BC\_IAM\_RM\_DISP\_PC
 
 SAP\_CORE\_BC\_IAM\_UM\_DISP\_PC
 
-
-
 </td>
 <td valign="top">
 
 *Business User* \(CLASS\)
-
-
 
 </td>
 </tr>

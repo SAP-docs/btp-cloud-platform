@@ -14,14 +14,10 @@ The following table contains all the released ABAP object types that can be impo
 
 APIS
 
-
-
 </td>
 <td valign="top">
 
 API Release State of Objects
-
-
 
 </td>
 </tr>
@@ -30,14 +26,10 @@ API Release State of Objects
 
 APLO
 
-
-
 </td>
 <td valign="top">
 
 Application Log Object
-
-
 
 </td>
 </tr>
@@ -46,14 +38,10 @@ Application Log Object
 
 AUTH
 
-
-
 </td>
 <td valign="top">
 
 Authorization Check Fields
-
-
 
 </td>
 </tr>
@@ -62,14 +50,10 @@ Authorization Check Fields
 
 BDEF
 
-
-
 </td>
 <td valign="top">
 
 Behavior Definition
-
-
 
 </td>
 </tr>
@@ -78,14 +62,10 @@ Behavior Definition
 
 CFDF
 
-
-
 </td>
 <td valign="top">
 
 Custom Field
-
-
 
 </td>
 </tr>
@@ -94,14 +74,10 @@ Custom Field
 
 CHDO
 
-
-
 </td>
 <td valign="top">
 
 Change Document
-
-
 
 </td>
 </tr>
@@ -110,14 +86,10 @@ Change Document
 
 CHKC
 
-
-
 </td>
 <td valign="top">
 
 ATC Check Category
-
-
 
 </td>
 </tr>
@@ -126,14 +98,10 @@ ATC Check Category
 
 CHKO
 
-
-
 </td>
 <td valign="top">
 
 ATC Check Object
-
-
 
 </td>
 </tr>
@@ -142,14 +110,10 @@ ATC Check Object
 
 CHKV
 
-
-
 </td>
 <td valign="top">
 
 ATC Check Variant
-
-
 
 </td>
 </tr>
@@ -158,14 +122,10 @@ ATC Check Variant
 
 CLAS
 
-
-
 </td>
 <td valign="top">
 
 Class
-
-
 
 </td>
 </tr>
@@ -174,14 +134,10 @@ Class
 
 DCLS
 
-
-
 </td>
 <td valign="top">
 
 ABAP Data Control Language Sources
-
-
 
 </td>
 </tr>
@@ -190,14 +146,10 @@ ABAP Data Control Language Sources
 
 DDLS
 
-
-
 </td>
 <td valign="top">
 
 Data Definition Language Source
-
-
 
 </td>
 </tr>
@@ -206,14 +158,10 @@ Data Definition Language Source
 
 DDLX
 
-
-
 </td>
 <td valign="top">
 
 Core Data Services Metadata Extensions
-
-
 
 </td>
 </tr>
@@ -222,14 +170,10 @@ Core Data Services Metadata Extensions
 
 DEVC
 
-
-
 </td>
 <td valign="top">
 
 Package
-
-
 
 </td>
 </tr>
@@ -238,14 +182,10 @@ Package
 
 DOMA
 
-
-
 </td>
 <td valign="top">
 
 Domain
-
-
 
 </td>
 </tr>
@@ -254,14 +194,10 @@ Domain
 
 DTEL
 
-
-
 </td>
 <td valign="top">
 
 Data Element
-
-
 
 </td>
 </tr>
@@ -270,14 +206,10 @@ Data Element
 
 EEEC
 
-
-
 </td>
 <td valign="top">
 
 Event Consumption Modell
-
-
 
 </td>
 </tr>
@@ -286,14 +218,10 @@ Event Consumption Modell
 
 ENHO
 
-
-
 </td>
 <td valign="top">
 
 Enhancement Implementation Object
-
-
 
 </td>
 </tr>
@@ -302,14 +230,10 @@ Enhancement Implementation Object
 
 ENHS
 
-
-
 </td>
 <td valign="top">
 
 Enhancement Spot Object
-
-
 
 </td>
 </tr>
@@ -318,14 +242,10 @@ Enhancement Spot Object
 
 EVTB
 
-
-
 </td>
 <td valign="top">
 
 Event Binding
-
-
 
 </td>
 </tr>
@@ -334,14 +254,10 @@ Event Binding
 
 ENQU
 
-
-
 </td>
 <td valign="top">
 
 Lock Object
-
-
 
 </td>
 </tr>
@@ -350,14 +266,10 @@ Lock Object
 
 FUGR
 
-
-
 </td>
 <td valign="top">
 
 Function Group
-
-
 
 </td>
 </tr>
@@ -366,14 +278,10 @@ Function Group
 
 FUNC
 
-
-
 </td>
 <td valign="top">
 
 Function Module
-
-
 
 </td>
 </tr>
@@ -382,14 +290,10 @@ Function Module
 
 GSMP
 
-
-
 </td>
 <td valign="top">
 
 Metric Provider
-
-
 
 </td>
 </tr>
@@ -398,14 +302,10 @@ Metric Provider
 
 HTTP
 
-
-
 </td>
 <td valign="top">
 
 HTTP Service
-
-
 
 </td>
 </tr>
@@ -414,14 +314,10 @@ HTTP Service
 
 INTF
 
-
-
 </td>
 <td valign="top">
 
 Interface
-
-
 
 </td>
 </tr>
@@ -430,14 +326,10 @@ Interface
 
 MSAG
 
-
-
 </td>
 <td valign="top">
 
 Message Class
-
-
 
 </td>
 </tr>
@@ -446,14 +338,10 @@ Message Class
 
 NROB
 
-
-
 </td>
 <td valign="top">
 
 Number Range Object
-
-
 
 </td>
 </tr>
@@ -462,14 +350,10 @@ Number Range Object
 
 SCO1
 
-
-
 </td>
 <td valign="top">
 
 Communication: Communication Scenario
-
-
 
 </td>
 </tr>
@@ -478,14 +362,10 @@ Communication: Communication Scenario
 
 SCO2
 
-
-
 </td>
 <td valign="top">
 
 Communication: Inbound Service
-
-
 
 </td>
 </tr>
@@ -494,14 +374,10 @@ Communication: Inbound Service
 
 SCO3
 
-
-
 </td>
 <td valign="top">
 
 Outbound Service
-
-
 
 </td>
 </tr>
@@ -510,14 +386,10 @@ Outbound Service
 
 SIA1
 
-
-
 </td>
 <td valign="top">
 
 IAM: Business Catalog
-
-
 
 </td>
 </tr>
@@ -526,14 +398,10 @@ IAM: Business Catalog
 
 SIA2
 
-
-
 </td>
 <td valign="top">
 
 IAM: Restriction Type
-
-
 
 </td>
 </tr>
@@ -542,14 +410,10 @@ IAM: Restriction Type
 
 SIA3
 
-
-
 </td>
 <td valign="top">
 
 IAM: Authorization Object Extension
-
-
 
 </td>
 </tr>
@@ -558,14 +422,10 @@ IAM: Authorization Object Extension
 
 SIA5
 
-
-
 </td>
 <td valign="top">
 
 IAM: Restriction Field
-
-
 
 </td>
 </tr>
@@ -574,14 +434,10 @@ IAM: Restriction Field
 
 SIA6
 
-
-
 </td>
 <td valign="top">
 
 IAM: App
-
-
 
 </td>
 </tr>
@@ -590,14 +446,10 @@ IAM: App
 
 SIA7
 
-
-
 </td>
 <td valign="top">
 
 IAM: Business Catalog App Assignment
-
-
 
 </td>
 </tr>
@@ -606,14 +458,10 @@ IAM: Business Catalog App Assignment
 
 SIA8
 
-
-
 </td>
 <td valign="top">
 
 IAM: Business Role Template
-
-
 
 </td>
 </tr>
@@ -622,14 +470,10 @@ IAM: Business Role Template
 
 SIA9
 
-
-
 </td>
 <td valign="top">
 
 IAM: Business Role Templ. Bus. Catalog Assignment
-
-
 
 </td>
 </tr>
@@ -638,14 +482,10 @@ IAM: Business Role Templ. Bus. Catalog Assignment
 
 SIAD
 
-
-
 </td>
 <td valign="top">
 
 Business Role Template Fiori Space Assignment
-
-
 
 </td>
 </tr>
@@ -654,14 +494,10 @@ Business Role Template Fiori Space Assignment
 
 SKTD
 
-
-
 </td>
 <td valign="top">
 
 Knowledge Transfer Document
-
-
 
 </td>
 </tr>
@@ -670,14 +506,10 @@ Knowledge Transfer Document
 
 SMBC
 
-
-
 </td>
 <td valign="top">
 
 Maintainable Business Configuration
-
-
 
 </td>
 </tr>
@@ -686,14 +518,10 @@ Maintainable Business Configuration
 
 SRVD
 
-
-
 </td>
 <td valign="top">
 
 Service Definition
-
-
 
 </td>
 </tr>
@@ -702,14 +530,10 @@ Service Definition
 
 SUSH
 
-
-
 </td>
 <td valign="top">
 
 Assignment: Service --\> Authorization Objects
-
-
 
 </td>
 </tr>
@@ -718,14 +542,10 @@ Assignment: Service --\> Authorization Objects
 
 SUSO
 
-
-
 </td>
 <td valign="top">
 
 Authorization Object
-
-
 
 </td>
 </tr>
@@ -734,14 +554,10 @@ Authorization Object
 
 TABL
 
-
-
 </td>
 <td valign="top">
 
 Table Definition
-
-
 
 </td>
 </tr>
@@ -750,14 +566,10 @@ Table Definition
 
 TTYP
 
-
-
 </td>
 <td valign="top">
 
 Table Type
-
-
 
 </td>
 </tr>
@@ -766,14 +578,10 @@ Table Type
 
 XSLT
 
-
-
 </td>
 <td valign="top">
 
 Transformation
-
-
 
 </td>
 </tr>

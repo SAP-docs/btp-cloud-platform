@@ -20,21 +20,15 @@ Use the SAP BTP command line interface \(btp CLI\) to manage operations with glo
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Run the command...
 
-
-
 </th>
 <th valign="top">
 
 Command help
-
-
 
 </th>
 </tr>
@@ -43,21 +37,15 @@ Command help
 
 Get details about a global account, and the account structure \(directories and subaccounts\) of the global account.
 
-
-
 </td>
 <td valign="top">
 
 `btp get accounts/global-account`
 
-
-
 </td>
 <td valign="top">
 
 [btp get accounts/global-account](https://help.sap.com/docs/BTP/btp-cli/btp-get-accounts-global-account.html)
-
-
 
 </td>
 </tr>
@@ -66,21 +54,15 @@ Get details about a global account, and the account structure \(directories and 
 
 Update the display name and/or description of a global account.
 
-
-
 </td>
 <td valign="top">
 
 `btp update accounts/global-account`
 
-
-
 </td>
 <td valign="top">
 
 [btp update accounts/global-account](https://help.sap.com/docs/BTP/btp-cli/btp-update-accounts-global-account.html)
-
-
 
 </td>
 </tr>
@@ -106,21 +88,15 @@ Directories allow you to organize and manage your subaccounts according to your 
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Run the command...
 
-
-
 </th>
 <th valign="top">
 
 Command help
-
-
 
 </th>
 </tr>
@@ -129,21 +105,15 @@ Command help
 
 Get details about a directory and list the subaccounts and subdirectories in the directory
 
-
-
 </td>
 <td valign="top">
 
 `btp get accounts/directory`
 
-
-
 </td>
 <td valign="top">
 
 [btp get accounts/directory](https://help.sap.com/docs/BTP/btp-cli/btp-get-accounts-directory.html)
-
-
 
 </td>
 </tr>
@@ -152,21 +122,15 @@ Get details about a directory and list the subaccounts and subdirectories in the
 
 Create a directory
 
-
-
 </td>
 <td valign="top">
 
 `btp create accounts/directory`
 
-
-
 </td>
 <td valign="top">
 
 [btp create accounts/directory](https://help.sap.com/docs/BTP/btp-cli/btp-create-accounts-directory.html)
-
-
 
 </td>
 </tr>
@@ -175,21 +139,15 @@ Create a directory
 
 Update a directory
 
-
-
 </td>
 <td valign="top">
 
 `btp update accounts/directory`
 
-
-
 </td>
 <td valign="top">
 
 [btp update accounts/directory](https://help.sap.com/docs/BTP/btp-cli/btp-update-accounts-directory.html)
-
-
 
 </td>
 </tr>
@@ -198,21 +156,15 @@ Update a directory
 
 Delete a directory
 
-
-
 </td>
 <td valign="top">
 
 `btp delete accounts/directory`
 
-
-
 </td>
 <td valign="top">
 
 [btp delete accounts/directory](https://help.sap.com/docs/BTP/btp-cli/btp-delete-accounts-directory.html)
-
-
 
 </td>
 </tr>
@@ -221,21 +173,15 @@ Delete a directory
 
 Change the set of enabled features \(user and entitlement management\) for a directory
 
-
-
 </td>
 <td valign="top">
 
 `btp enable accounts/directory`
 
-
-
 </td>
 <td valign="top">
 
 [btp enable accounts/directory](https://help.sap.com/docs/BTP/btp-cli/btp-enable-accounts-directory.html)
-
-
 
 </td>
 </tr>
@@ -244,21 +190,15 @@ Change the set of enabled features \(user and entitlement management\) for a dir
 
 List the user-defined labels assigned to a directory
 
-
-
 </td>
 <td valign="top">
 
 `btp list accounts/labels`
 
-
-
 </td>
 <td valign="top">
 
 [btp list accounts/label](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-label.html)
-
-
 
 </td>
 </tr>
@@ -277,14 +217,10 @@ List the custom properties assigned to a directory
 
 `btp list accounts/custom-property`
 
-
-
 </td>
 <td valign="top">
 
 [btp list accounts/custom-property](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-custom-property.html)
-
-
 
 </td>
 </tr>
@@ -308,21 +244,15 @@ For more information, see [Directories \[Feature Set B\]](../10-concepts/account
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Run the command...
 
-
-
 </th>
 <th valign="top">
 
 Command help
-
-
 
 </th>
 </tr>
@@ -330,8 +260,6 @@ Command help
 <td valign="top">
 
 List all subaccounts in a global account
-
-
 
 </td>
 <td valign="top">
@@ -347,8 +275,6 @@ btp list accounts/subaccount
 
 [btp list accounts/subaccount](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-subaccount.html)
 
-
-
 </td>
 </tr>
 <tr>
@@ -356,21 +282,15 @@ btp list accounts/subaccount
 
 Get details about a subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp get accounts/subaccount`
 
-
-
 </td>
 <td valign="top">
 
 [btp get accounts/subaccount](https://help.sap.com/docs/BTP/btp-cli/btp-get-accounts-subaccount.html)
-
-
 
 </td>
 </tr>
@@ -379,21 +299,15 @@ Get details about a subaccount
 
 Create a subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp create accounts/subaccount`
 
-
-
 </td>
 <td valign="top">
 
 [btp create accounts/subaccount](https://help.sap.com/docs/BTP/btp-cli/btp-create-accounts-subaccount.html)
-
-
 
 </td>
 </tr>
@@ -402,21 +316,15 @@ Create a subaccount
 
 Update a subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp update accounts/subaccount`
 
-
-
 </td>
 <td valign="top">
 
 [btp update accounts/subaccount](https://help.sap.com/docs/BTP/btp-cli/btp-update-accounts-subaccount.html)
-
-
 
 </td>
 </tr>
@@ -425,21 +333,15 @@ Update a subaccount
 
 Delete a subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp delete accounts/subaccount`
 
-
-
 </td>
 <td valign="top">
 
 [btp delete accounts/subaccount](https://help.sap.com/docs/BTP/btp-cli/btp-delete-accounts-subaccount.html)
-
-
 
 </td>
 </tr>
@@ -448,21 +350,15 @@ Delete a subaccount
 
 Move a subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp move accounts/subaccount`
 
-
-
 </td>
 <td valign="top">
 
 [btp move accounts/subaccount](https://help.sap.com/docs/BTP/btp-cli/btp-move-accounts-subaccount.html)
-
-
 
 </td>
 </tr>
@@ -471,21 +367,15 @@ Move a subaccount
 
 List the user-defined labels assigned to a subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp list accounts/labels`
 
-
-
 </td>
 <td valign="top">
 
 [btp list accounts/label](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-label.html)
-
-
 
 </td>
 </tr>
@@ -504,14 +394,10 @@ List the custom properties assigned to a subaccount
 
 `btp list accounts/custom-property`
 
-
-
 </td>
 <td valign="top">
 
 [btp list accounts/custom-property](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-custom-property.html)
-
-
 
 </td>
 </tr>
@@ -520,21 +406,15 @@ List the custom properties assigned to a subaccount
 
 Get all available regions for global account
 
-
-
 </td>
 <td valign="top">
 
 `btp list accounts/available-region`
 
-
-
 </td>
 <td valign="top">
 
 [btp list accounts/available-region](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-available-region.html)
-
-
 
 </td>
 </tr>

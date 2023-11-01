@@ -15,21 +15,15 @@ For the ABAP environment, you can choose between central monitoring tools such a
 
  
 
-
-
 </th>
 <th valign="top">
 
 SAP Cloud ALM or SAP Focused Run
 
-
-
 </th>
 <th valign="top">
 
 SAP Fiori App
-
-
 
 </th>
 </tr>
@@ -38,21 +32,15 @@ SAP Fiori App
 
 **Use cases**
 
-
-
 </td>
 <td valign="top">
 
 Monitoring multiple systems in a customer system landscape
 
-
-
 </td>
 <td valign="top">
 
 Monitoring the local ABAP system
-
-
 
 </td>
 </tr>
@@ -61,21 +49,15 @@ Monitoring the local ABAP system
 
 **Prerequisites and constraints**
 
-
-
 </td>
 <td valign="top">
 
 SAP Cloud ALM or SAP Focused Run available
 
-
-
 </td>
 <td valign="top">
 
 Local monitoring of only the system where the user is logged on
-
-
 
 </td>
 </tr>
@@ -83,8 +65,6 @@ Local monitoring of only the system where the user is logged on
 <td valign="top">
 
 **Benefits**
-
-
 
 </td>
 <td valign="top">
@@ -98,8 +78,6 @@ Local monitoring of only the system where the user is logged on
 <td valign="top">
 
 Overview of metrics on one single screen
-
-
 
 </td>
 </tr>

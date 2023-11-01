@@ -29,15 +29,11 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     <th valign="top">
 
     Area
-
-
     
     </th>
     <th valign="top">
 
     Attributes
-
-
     
     </th>
     </tr>
@@ -45,8 +41,6 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     <td valign="top">
     
     **Business Role Data**
-
-
     
     </td>
     <td valign="top">
@@ -56,8 +50,6 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     Expose to SAP BTP
 
     Inherit Spaces in Derived Business Roles
-
-
     
     </td>
     </tr>
@@ -65,8 +57,6 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     <td valign="top">
     
     **Business User Assignment**
-
-
     
     </td>
     <td valign="top">
@@ -74,8 +64,6 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     Add Business Users
 
     Remove Business Users
-
-
     
     </td>
     </tr>
@@ -83,8 +71,6 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     <td valign="top">
     
     **Business Catalog Assignment**
-
-
     
     </td>
     <td valign="top">
@@ -92,8 +78,6 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     Add Business Catalogs
 
     Remove Business Catalogs
-
-
     
     </td>
     </tr>
@@ -101,8 +85,6 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     <td valign="top">
     
     **Launchpad Space Assignment**
-
-
     
     </td>
     <td valign="top">
@@ -110,8 +92,6 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     Add Launchpad Spaces
 
     Remove Launchpad Spaces
-
-
     
     </td>
     </tr>
@@ -119,8 +99,6 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     <td valign="top">
     
     **Assign Predefined Spaces**
-
-
     
     </td>
     <td valign="top">
@@ -140,15 +118,11 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     <td valign="top">
     
     **Access Categories**
-
-
     
     </td>
     <td valign="top">
     
     Change access categories as required.
-
-
     
     </td>
     </tr>
@@ -156,15 +130,11 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     <td valign="top">
     
     **Restrictions**
-
-
     
     </td>
     <td valign="top">
     
     Select the required access category, such as *Value Help* and select the required restriction change, such as *Add Restrictions*.
-
-
     
     </td>
     </tr>

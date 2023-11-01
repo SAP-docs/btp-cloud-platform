@@ -55,35 +55,25 @@ The required entitlements and system-related details are listed in the table bel
 
 Global Account
 
-
-
 </th>
 <th valign="top">
 
 Subaccount
-
-
 
 </th>
 <th valign="top">
 
 Space
 
-
-
 </th>
 <th valign="top">
 
 Entitlements
 
-
-
 </th>
 <th valign="top">
 
 ABAP System
-
-
 
 </th>
 </tr>
@@ -92,21 +82,15 @@ ABAP System
 
 Global Account for Development
 
-
-
 </td>
 <td valign="top">
 
 01 Develop
 
-
-
 </td>
 <td valign="top">
 
 Develop
-
-
 
 </td>
 <td valign="top">
@@ -117,14 +101,10 @@ abap/hana\_compute\_unit \(standard: 2\)
 
 abap/abap\_compute\_unit \(standard: 1\)
 
-
-
 </td>
 <td valign="top">
 
 COR
-
-
 
 </td>
 </tr>
@@ -133,14 +113,10 @@ COR
 
 02 Test
 
-
-
 </td>
 <td valign="top">
 
 Test
-
-
 
 </td>
 <td valign="top">
@@ -151,14 +127,10 @@ abap/hana\_compute\_unit \(standard: 2\)
 
 abap/abap\_compute\_unit \(standard: 1\)
 
-
-
 </td>
 <td valign="top">
 
 QAS
-
-
 
 </td>
 </tr>
@@ -343,7 +315,7 @@ Use the *Check Product Version* app in Landscape Portal to check whether the pro
 
 ### Deploy Add-On Update
 
-As a SaaS solution operator, you can apply add-on updates to existing systems via the [Update Product Version](update-product-version-32c4f7d.md) app in the Landscape Portal.
+As a SaaS solution operator, you can apply add-on updates to existing systems via the [Deploy Product](deploy-product-32c4f7d.md) app in the Landscape Portal.
 
 You can select the target add-on product and version for the update. Afterwards, you can select the systems where the update should be applied and schedule the update.
 

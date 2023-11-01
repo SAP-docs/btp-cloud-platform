@@ -61,14 +61,10 @@ You can use keyboard shortcuts while working with the ABAP Cloud editor. The fol
 
 Key Combination
 
-
-
 </th>
 <th valign="top">
 
 What Is It Used For?
-
-
 
 </th>
 </tr>
@@ -77,14 +73,10 @@ What Is It Used For?
 
 [Ctrl\] + [Space\]  
 
-
-
 </td>
 <td valign="top">
 
 To turn on code completion
-
-
 
 </td>
 </tr>
@@ -93,14 +85,10 @@ To turn on code completion
 
 [Shift\] + [F1\]  
 
-
-
 </td>
 <td valign="top">
 
 To use the pretty printer
-
-
 
 </td>
 </tr>
@@ -111,14 +99,10 @@ To use the pretty printer
 
 [Ctrl\] + [\#\] \(Hash\)
 
-
-
 </td>
 <td valign="top">
 
 To uncomment or comment out a code block
-
-
 
 </td>
 </tr>

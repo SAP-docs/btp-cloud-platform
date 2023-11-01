@@ -31,15 +31,11 @@ Here's how to create a new solution.
     <th valign="top">
 
      
-
-
     
     </th>
     <th valign="top">
 
      
-
-
     
     </th>
     </tr>
@@ -47,15 +43,11 @@ Here's how to create a new solution.
     <td valign="top">
     
     Provider Admin Email
-
-
     
     </td>
     <td valign="top">
     
     The provider admin email is not only the email address of the initial provider user and owner of the system, but also enables the access to it, functioning as the login email address.
-
-
     
     </td>
     </tr>
@@ -63,15 +55,11 @@ Here's how to create a new solution.
     <td valign="top">
     
     Usage Mode
-
-
     
     </td>
     <td valign="top">
     
     The usage mode specifies whether you create a test or production solution. It will be passed on to the ABAP system during the creation request.
-
-
     
     </td>
     </tr>
@@ -79,8 +67,6 @@ Here's how to create a new solution.
     <td valign="top">
     
     ABAP System Name
-
-
     
     </td>
     <td valign="top">
@@ -98,15 +84,11 @@ Here's how to create a new solution.
     <td valign="top">
     
     Size of Runtime
-
-
     
     </td>
     <td valign="top">
     
     The size of runtime describes the default sizing for your solution and is passed on to your ABAP system during the creation request.
-
-
     
     </td>
     </tr>
@@ -114,15 +96,11 @@ Here's how to create a new solution.
     <td valign="top">
     
     Size of Persistence
-
-
     
     </td>
     <td valign="top">
     
     The size of persistence describes the default amount of resources available for your solution and is passed on to your ABAP system during the creation request.
-
-
     
     </td>
     </tr>
@@ -130,8 +108,6 @@ Here's how to create a new solution.
     <td valign="top">
     
     Consumer Tenant Limit
-
-
     
     </td>
     <td valign="top">
@@ -155,15 +131,11 @@ Here's how to create a new solution.
     <td valign="top">
     
     ABAP Timeout \(ms\)
-
-
     
     </td>
     <td valign="top">
     
     The ABAP endpoint timeout is a timeout for requests issued by the approuter to the ABAP backend. It consists of a positive integer, stated in milliseconds. If you do not enter a value, the system will use the default value.
-
-
     
     </td>
     </tr>
@@ -171,15 +143,11 @@ Here's how to create a new solution.
     <td valign="top">
     
     Application Log Level
-
-
     
     </td>
     <td valign="top">
     
     The application log level defines how much detail the approuter writes into the log. Since a longer log is performance-intensive and harder to read, you can choose to only write errors or warning messages for example.
-
-
     
     </td>
     </tr>
@@ -187,15 +155,11 @@ Here's how to create a new solution.
     <td valign="top">
     
     Enable IFrame Integration
-
-
     
     </td>
     <td valign="top">
     
     The IFrame integration enables you to incorporate your solution into the Fiori Launchpad Build Work Zone. Keep in mind that enabling the IFrame integration might reduce security. The shell header and the application UI are decoupled from each other, and each can point to a different domain. If the two frames each point to different domains, it can lead to issues with the browser and cookie policies. See [Security Guidelines for Content Providers](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/security-guidelines-for-content-providers)
-
-
     
     </td>
     </tr>

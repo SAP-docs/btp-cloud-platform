@@ -20,21 +20,15 @@ For more information, see [**Rotate Signing Keys of Access Tokens**](https://hel
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Run the command ...
 
-
-
 </th>
 <th valign="top">
 
 Command help
-
-
 
 </th>
 </tr>
@@ -43,21 +37,15 @@ Command help
 
 Create a new signing key for access tokens
 
-
-
 </td>
 <td valign="top">
 
 `btp create security/token-key`
 
-
-
 </td>
 <td valign="top">
 
 [https://help.sap.com/docs/BTP/btp-cli/btp-create-security-token-key.html](https://help.sap.com/docs/BTP/btp-cli/btp-create-security-token-key.html)
-
-
 
 </td>
 </tr>
@@ -66,21 +54,15 @@ Create a new signing key for access tokens
 
 Enable an existing key as signing key for access tokens
 
-
-
 </td>
 <td valign="top">
 
 `btp enable security/token-key`
 
-
-
 </td>
 <td valign="top">
 
 [https://help.sap.com/docs/BTP/btp-cli/btp-enable-security-token-key.html](https://help.sap.com/docs/BTP/btp-cli/btp-enable-security-token-key.html)
-
-
 
 </td>
 </tr>
@@ -89,21 +71,15 @@ Enable an existing key as signing key for access tokens
 
 Delete a disabled signing key for access tokens
 
-
-
 </td>
 <td valign="top">
 
 `btp delete security/token-key` 
 
-
-
 </td>
 <td valign="top">
 
 [https://help.sap.com/docs/BTP/btp-cli/btp-delete-security-token-key.html](https://help.sap.com/docs/BTP/btp-cli/btp-delete-security-token-key.html)
-
-
 
 </td>
 </tr>
@@ -112,21 +88,15 @@ Delete a disabled signing key for access tokens
 
 List the existing signing keys for access tokens and indicates which key is currently enabled
 
-
-
 </td>
 <td valign="top">
 
 `btp list security/token-key`
 
-
-
 </td>
 <td valign="top">
 
 [https://help.sap.com/docs/BTP/btp-cli/btp-list-security-token-key.html](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-token-key.html)
-
-
 
 </td>
 </tr>

@@ -60,7 +60,7 @@ In order to implement the reusable component in a Fiori Elements app, you first 
 
     -   **log handle**: The application log handle
 
-    -   **Optional persistencyKey**: Set a personalization key which is then used to set app-specific variants for `SmartFilterBar` or `SmartTable`. This parameter is optional. The default value is defined in the *Application Log* app.
+    -   **Optional persistencyKey**: Set a personalization key which is then used to set app-specific variants for `SmartTable`. This parameter is optional. The default value is defined in the *Application Log* app.
 
         Make sure not to change the key value again, since users might lose their variants.
 

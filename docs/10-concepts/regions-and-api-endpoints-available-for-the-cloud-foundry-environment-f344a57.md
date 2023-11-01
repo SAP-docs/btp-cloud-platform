@@ -13,70 +13,50 @@
 
 IaaS Provider
 
-
-
 </th>
 <th valign="top">
 
 Region
-
-
 
 </th>
 <th valign="top">
 
 Region Name
 
-
-
 </th>
 <th valign="top">
 
 Technical Key
-
-
 
 </th>
 <th valign="top">
 
 Technical Key of IaaS Provider
 
-
-
 </th>
 <th valign="top">
 
 NAT IPs \(egress, IPs for requests from a Cloud Foundry app\)
-
-
 
 </th>
 <th valign="top">
 
 LB IPs \(ingress, for incoming requests\)
 
-
-
 </th>
 <th valign="top">
 
 API Endpoint
-
-
 
 </th>
 <th valign="top">
 
 Domain
 
-
-
 </th>
 <th valign="top">
 
 Cockpit Logon
-
-
 
 </th>
 </tr>
@@ -85,35 +65,25 @@ Cockpit Logon
 
 Microsoft Azure
 
-
-
 </td>
 <td valign="top">
 
 eu20
-
-
 
 </td>
 <td valign="top">
 
 Europe \(Netherlands\)
 
-
-
 </td>
 <td valign="top">
 
 cf-eu20
 
-
-
 </td>
 <td valign="top">
 
 West Europe
-
-
 
 </td>
 <td valign="top">
@@ -126,8 +96,6 @@ West Europe
 
 20.54.248.90, 20.54.248.142, 20.54.250.88, 20.54.250.91, 20.56.17.109, 20.56.18.130, 20.56.18.132, 20.56.18.179, 20.86.17.114, 20.86.17.142, 20.86.17.153, 20.86.17.159
 
-
-
 </td>
 <td valign="top">
 
@@ -138,8 +106,6 @@ West Europe
 **cf-eu20-001:**
 
 20.82.83.59
-
-
 
 </td>
 <td valign="top">
@@ -152,8 +118,6 @@ api.cf.eu20.hana.ondemand.com
 
 api.cf.eu20-001.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
@@ -165,16 +129,12 @@ eu20.hana.ondemand.com
 
 eu20-001.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Feature Set A ](https://account.eu1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-eu20)
 
 [Feature Set B](https://cockpit.btp.cloud.sap/)
-
-
 
 </td>
 </tr>
@@ -183,63 +143,45 @@ eu20-001.hana.ondemand.com
 
 Microsoft Azure
 
-
-
 </td>
 <td valign="top">
 
 ap20
-
-
 
 </td>
 <td valign="top">
 
 Australia \(Sydney\)
 
-
-
 </td>
 <td valign="top">
 
 cf-ap20
-
-
 
 </td>
 <td valign="top">
 
 Australia East
 
-
-
 </td>
 <td valign="top">
 
 40.82.211.52, 40.82.206.131, 20.70.176.247, 20.40.81.59, 20.40.80.246, 20.40.81.36, 20.70.208.178, 20.70.208.228, 20.70.208.235, 20.70.201.155, 20.70.201.89, 20.70.201.66
-
-
 
 </td>
 <td valign="top">
 
 20.53.99.41
 
-
-
 </td>
 <td valign="top">
 
 api.cf.ap20.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 ap20.hana.ondemand.com
-
-
 
 </td>
 <td valign="top">
@@ -248,8 +190,6 @@ ap20.hana.ondemand.com
 
 [Feature Set B](https://cockpit.btp.cloud.sap/)
 
-
-
 </td>
 </tr>
 <tr>
@@ -257,63 +197,45 @@ ap20.hana.ondemand.com
 
 Microsoft Azure
 
-
-
 </td>
 <td valign="top">
 
 ap21
-
-
 
 </td>
 <td valign="top">
 
 Singapore
 
-
-
 </td>
 <td valign="top">
 
 cf-ap21
-
-
 
 </td>
 <td valign="top">
 
 Southeast Asia
 
-
-
 </td>
 <td valign="top">
 
 40.90.179.153, 20.198.169.214, 20.198.168.45, 20.198.169.5, 40.90.170.226, 20.198.225.78, 20.198.225.102, 20.198.225.27, 40.90.162.117, 20.191.154.174, 20.191.154.191, 20.191.154.193
-
-
 
 </td>
 <td valign="top">
 
 20.184.61.122
 
-
-
 </td>
 <td valign="top">
 
 api.cf.ap21.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 ap21.hana.ondemand.com
-
-
 
 </td>
 <td valign="top">
@@ -322,8 +244,6 @@ ap21.hana.ondemand.com
 
 [Feature Set B](https://cockpit.btp.cloud.sap/)
 
-
-
 </td>
 </tr>
 <tr>
@@ -331,63 +251,45 @@ ap21.hana.ondemand.com
 
 Microsoft Azure
 
-
-
 </td>
 <td valign="top">
 
 us20
-
-
 
 </td>
 <td valign="top">
 
 US West \(WA\)
 
-
-
 </td>
 <td valign="top">
 
 cf-us20
-
-
 
 </td>
 <td valign="top">
 
 West US 2
 
-
-
 </td>
 <td valign="top">
 
 40.90.195.191, 20.57.129.106, 20.57.128.95, 20.57.128.118, 40.90.209.71, 20.72.210.109, 20.72.209.240, 20.72.209.187, 40.90.200.224, 40.90.201.197, 40.90.201.85, 40.90.200.237
-
-
 
 </td>
 <td valign="top">
 
 40.91.120.100
 
-
-
 </td>
 <td valign="top">
 
 api.cf.us20.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 us20.hana.ondemand.com
-
-
 
 </td>
 <td valign="top">
@@ -396,8 +298,6 @@ us20.hana.ondemand.com
 
 [Feature Set B](https://cockpit.btp.cloud.sap/)
 
-
-
 </td>
 </tr>
 <tr>
@@ -405,63 +305,45 @@ us20.hana.ondemand.com
 
 Microsoft Azure
 
-
-
 </td>
 <td valign="top">
 
 jp20
-
-
 
 </td>
 <td valign="top">
 
 Japan \(Tokyo\)
 
-
-
 </td>
 <td valign="top">
 
 cf-jp20
-
-
 
 </td>
 <td valign="top">
 
 Japan East
 
-
-
 </td>
 <td valign="top">
 
 52.185.186.130, 20.194.193.229, 20.194.193.167, 20.194.194.97, 40.81.200.207, 20.78.122.9, 20.78.121.237, 20.78.122.8, 20.40.96.175, 20.78.2.104, 20.78.2.106, 20.78.2.107
-
-
 
 </td>
 <td valign="top">
 
 20.43.89.91
 
-
-
 </td>
 <td valign="top">
 
 api.cf.jp20.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 jp20.hana.ondemand.com
-
-
 
 </td>
 <td valign="top">
@@ -470,8 +352,6 @@ jp20.hana.ondemand.com
 
 [Feature Set B](https://cockpit.btp.cloud.sap/)
 
-
-
 </td>
 </tr>
 <tr>
@@ -479,63 +359,45 @@ jp20.hana.ondemand.com
 
 Microsoft Azure
 
-
-
 </td>
 <td valign="top">
 
 us21
-
-
 
 </td>
 <td valign="top">
 
 US East \(VA\)
 
-
-
 </td>
 <td valign="top">
 
 cf-us21
-
-
 
 </td>
 <td valign="top">
 
 East US
 
-
-
 </td>
 <td valign="top">
 
 40.90.251.147, 52.146.1.155, 20.51.255.236, 52.146.1.223, 40.90.232.167, 20.55.49.185, 20.55.49.92, 20.55.49.186, 40.90.231.101, 52.151.248.29, 52.146.15.82, 52.146.10.227
-
-
 
 </td>
 <td valign="top">
 
 40.88.52.17
 
-
-
 </td>
 <td valign="top">
 
 api.cf.us21.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 us21.hana.ondemand.com
-
-
 
 </td>
 <td valign="top">
@@ -544,8 +406,6 @@ us21.hana.ondemand.com
 
 [Feature Set B](https://cockpit.btp.cloud.sap/)
 
-
-
 </td>
 </tr>
 <tr>
@@ -553,70 +413,50 @@ us21.hana.ondemand.com
 
 Microsoft Azure
 
-
-
 </td>
 <td valign="top">
 
 ch20
-
-
 
 </td>
 <td valign="top">
 
 Switzerland \(Zurich\)
 
-
-
 </td>
 <td valign="top">
 
 cf-ch20
-
-
 
 </td>
 <td valign="top">
 
 Switzerland North
 
-
-
 </td>
 <td valign="top">
 
 20.208.128.83, 20.208.128.86, 20.208.128.87, 20.208.128.88, 51.103.208.79, 51.103.208.81, 51.103.208.85, 51.103.208.87, 51.107.2.38, 51.107.2.50, 51.107.2.52, 51.107.2.54
-
-
 
 </td>
 <td valign="top">
 
 20.208.56.83
 
-
-
 </td>
 <td valign="top">
 
 api.cf.ch20.hana.ondemand.com
-
-
 
 </td>
 <td valign="top">
 
 ch20.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Feature Set B](https://eu-access.cockpit.btp.cloud.sap/) 
-
-
 
 </td>
 </tr>
@@ -625,63 +465,45 @@ ch20.hana.ondemand.com
 
 Amazon Web Services
 
-
-
 </td>
 <td valign="top">
 
 br10
-
-
 
 </td>
 <td valign="top">
 
 Brazil \(São Paulo\)
 
-
-
 </td>
 <td valign="top">
 
 cf-br10
-
-
 
 </td>
 <td valign="top">
 
 sa-east-1
 
+</td>
+<td valign="top">
 
+52.67.245.111, 18.231.45.151, 54.207.173.126, 18.230.81.234, 18.229.169.29, 54.94.110.127, 18.231.101.158, 177.71.170.199, 54.232.227.140, 52.67.251.43, 54.232.20.181, 54.94.136.11, 52.67.221.224, 18.229.54.222, 54.232.250.83, 18.228.194.102, 18.228.198.142, 177.71.168.150
 
 </td>
 <td valign="top">
 
-52.67.245.111, 18.231.45.151, 54.207.173.126, 18.229.169.29, 54.94.110.127, 18.231.101.158, 18.230.81.234, 54.232.227.140, 52.67.251.43, 54.232.20.181, 177.71.170.199, 54.94.136.11, 52.67.221.224, 18.229.54.222, 54.232.250.83
-
-
-
-</td>
-<td valign="top">
-
-18.229.91.150, 52.67.135.4, 54.232.179.204
-
-
+18.229.91.150, 52.67.135.4, 54.232.179.204, 18.228.53.198, 52.67.149.240, 54.94.179.209
 
 </td>
 <td valign="top">
 
 api.cf.br10.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 br10.hana.ondemand.com
-
-
 
 </td>
 <td valign="top">
@@ -690,8 +512,6 @@ br10.hana.ondemand.com
 
 [Feature Set B](https://cockpit.btp.cloud.sap/)
 
-
-
 </td>
 </tr>
 <tr>
@@ -699,63 +519,45 @@ br10.hana.ondemand.com
 
 Amazon Web Services
 
-
-
 </td>
 <td valign="top">
 
 jp10
-
-
 
 </td>
 <td valign="top">
 
 Japan \(Tokyo\)
 
-
-
 </td>
 <td valign="top">
 
 cf-jp10
-
-
 
 </td>
 <td valign="top">
 
 ap-northeast-1
 
+</td>
+<td valign="top">
 
+54.238.10.97, 54.250.43.250, 52.192.218.156, 35.74.54.33, 18.177.86.79, 35.74.144.49, 3.114.115.232, 18.179.150.168, 54.249.134.63, 18.179.66.68, 54.250.33.48, 54.95.22.24, 52.198.77.221, 35.73.255.50, 54.178.62.192, 3.113.232.224, 52.198.66.114, 13.230.215.218
 
 </td>
 <td valign="top">
 
-18.177.86.79, 35.74.144.49, 3.114.115.232, 35.74.54.33, 54.249.134.63, 18.179.66.68, 54.250.33.48, 18.179.150.168, 52.198.77.221, 35.73.255.50, 54.178.62.192, 54.95.22.24, 54.238.10.97, 54.250.43.250, 52.192.218.156
-
-
-
-</td>
-<td valign="top">
-
-3.113.252.15, 3.114.248.68, 13.114.117.83
-
-
+3.114.248.68, 3.113.252.15, 13.114.117.83, 18.178.155.134, 57.180.140.5, 57.180.145.179
 
 </td>
 <td valign="top">
 
 api.cf.jp10.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 jp10.hana.ondemand.com
-
-
 
 </td>
 <td valign="top">
@@ -764,8 +566,6 @@ jp10.hana.ondemand.com
 
 [Feature Set B](https://cockpit.btp.cloud.sap/)
 
-
-
 </td>
 </tr>
 <tr>
@@ -773,63 +573,45 @@ jp10.hana.ondemand.com
 
 Amazon Web Services
 
-
-
 </td>
 <td valign="top">
 
 ap10
-
-
 
 </td>
 <td valign="top">
 
 Australia \(Sydney\)
 
-
-
 </td>
 <td valign="top">
 
 cf-ap10
-
-
 
 </td>
 <td valign="top">
 
 ap-southeast-2
 
+</td>
+<td valign="top">
 
+52.62.223.36, 13.55.100.204, 13.54.168.75, 13.55.239.117, 13.210.173.131, 13.54.77.205, 13.237.182.31, 52.65.102.82, 54.79.72.145, 13.236.142.207, 54.79.43.227, 13.54.252.220, 54.79.26.135, 13.54.220.129, 13.236.59.235, 13.238.9.23, 54.153.242.51, 3.105.234.54
 
 </td>
 <td valign="top">
 
-13.210.173.131, 13.54.77.205, 13.237.182.31, 13.55.239.117, 54.79.72.145, 13.236.142.207, 54.79.43.227, 52.65.102.82, 54.79.26.135, 13.54.220.129, 13.236.59.235, 13.54.252.220, 52.62.223.36, 13.55.100.204, 13.54.168.75
-
-
-
-</td>
-<td valign="top">
-
-3.105.95.184, 13.211.73.244, 13.236.220.84
-
-
+13.236.220.84, 13.211.73.244, 3.105.95.184, 13.55.188.95, 3.105.212.249, 3.106.45.106
 
 </td>
 <td valign="top">
 
 api.cf.ap10.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 ap10.hana.ondemand.com
-
-
 
 </td>
 <td valign="top">
@@ -838,8 +620,6 @@ ap10.hana.ondemand.com
 
 [Feature Set B](https://cockpit.btp.cloud.sap/)
 
-
-
 </td>
 </tr>
 <tr>
@@ -847,63 +627,45 @@ ap10.hana.ondemand.com
 
 Amazon Web Services
 
-
-
 </td>
 <td valign="top">
 
 ap11
-
-
 
 </td>
 <td valign="top">
 
 Asia Pacific \(Singapore\)
 
-
-
 </td>
 <td valign="top">
 
 cf-ap11
-
-
 
 </td>
 <td valign="top">
 
 ap-southeast-1
 
+</td>
+<td valign="top">
 
+13.251.40.148, 13.228.68.14, 13.251.49.36, 52.76.185.92, 13.229.13.240, 54.251.74.134, 52.220.111.202, 54.179.77.154, 52.76.123.164, 54.179.253.138, 13.213.119.83, 3.1.38.48, 52.76.114.209, 13.213.105.43, 13.213.132.88, 13.250.92.77, 18.140.150.56, 18.140.255.164
 
 </td>
 <td valign="top">
 
-13.229.13.240, 54.251.74.134, 52.220.111.202, 52.76.185.92, 52.76.123.164, 54.179.253.138, 13.213.119.83, 54.179.77.154, 52.76.114.209, 13.213.105.43, 13.213.132.88, 3.1.38.48, 13.251.40.148, 13.228.68.14, 13.251.49.36
-
-
-
-</td>
-<td valign="top">
-
-3.0.9.102, 18.139.147.53, 18.140.39.70
-
-
+18.139.147.53, 3.0.9.102, 18.140.39.70, 13.229.158.122, 18.140.228.217, 52.74.215.89
 
 </td>
 <td valign="top">
 
 api.cf.ap11.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 ap11.hana.ondemand.com
-
-
 
 </td>
 <td valign="top">
@@ -912,8 +674,6 @@ ap11.hana.ondemand.com
 
 [Feature Set B](https://cockpit.btp.cloud.sap/)
 
-
-
 </td>
 </tr>
 <tr>
@@ -921,63 +681,45 @@ ap11.hana.ondemand.com
 
 Amazon Web Services
 
-
-
 </td>
 <td valign="top">
 
 ap12
-
-
 
 </td>
 <td valign="top">
 
 Asia Pacific \(Seoul\)
 
-
-
 </td>
 <td valign="top">
 
 cf-ap12
-
-
 
 </td>
 <td valign="top">
 
 ap-northeast-2
 
+</td>
+<td valign="top">
 
+15.165.116.197, 54.180.53.68, 3.35.252.222, 52.78.49.16, 15.164.33.162, 3.34.19.116, 3.36.2.67, 3.35.57.231, 15.164.254.80, 3.36.165.189, 52.78.38.74, 15.165.249.251, 13.124.251.247, 13.124.16.17, 15.165.83.237
 
 </td>
 <td valign="top">
 
-15.164.33.162, 3.34.19.116, 3.36.2.67, 52.78.49.16, 15.164.254.80, 3.36.165.189, 52.78.38.74, 3.35.57.231, 13.124.251.247, 13.124.16.17, 15.165.83.237, 15.165.249.251, 15.165.116.197, 54.180.53.68, 3.35.252.222
-
-
-
-</td>
-<td valign="top">
-
-3.35.255.45, 3.35.106.215, 3.35.215.12
-
-
+3.35.106.215, 3.35.255.45, 3.35.215.12, 13.209.236.215, 43.201.194.105, 43.202.204.5
 
 </td>
 <td valign="top">
 
 api.cf.ap12.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 ap12.hana.ondemand.com
-
-
 
 </td>
 <td valign="top">
@@ -986,8 +728,6 @@ ap12.hana.ondemand.com
 
 [Feature Set B](https://cockpit.btp.cloud.sap/)
 
-
-
 </td>
 </tr>
 <tr>
@@ -995,63 +735,45 @@ ap12.hana.ondemand.com
 
 Amazon Web Services
 
-
-
 </td>
 <td valign="top">
 
 ca10
-
-
 
 </td>
 <td valign="top">
 
 Canada \(Montreal\)
 
-
-
 </td>
 <td valign="top">
 
 cf-ca10
-
-
 
 </td>
 <td valign="top">
 
 ca-central-1
 
+</td>
+<td valign="top">
 
+35.182.118.205, 35.182.198.31, 3.98.159.3, 3.96.101.45, 15.222.120.34, 3.96.14.215, 3.97.48.154, 3.97.119.250, 35.182.95.49, 3.97.228.23, 35.182.185.156, 3.98.252.245, 15.223.62.0, 99.79.181.241, 3.98.167.60, 99.79.110.245, 52.60.239.204, 52.60.212.33
 
 </td>
 <td valign="top">
 
-35.182.198.31, 35.182.118.205,3.98.159.3, 15.222.120.34, 3.96.14.215, 3.97.48.154, 3.96.101.45, 35.182.95.49, 3.97.228.23, 35.182.185.156, 3.97.119.250, 3.98.252.245, 15.223.62.0, 99.79.181.241, 3.98.167.60
-
-
-
-</td>
-<td valign="top">
-
-35.182.75.101, 35.183.74.34, 3.98.102.153
-
-
+35.183.74.34, 35.182.75.101, 3.98.102.153, 15.157.88.166, 3.98.202.222, 52.60.210.33
 
 </td>
 <td valign="top">
 
 api.cf.ca10.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 ca10.hana.ondemand.com
-
-
 
 </td>
 <td valign="top">
@@ -1060,8 +782,6 @@ ca10.hana.ondemand.com
 
 [Feature Set B](https://cockpit.btp.cloud.sap/)
 
-
-
 </td>
 </tr>
 <tr>
@@ -1069,77 +789,63 @@ ca10.hana.ondemand.com
 
 Amazon Web Services
 
-
-
 </td>
 <td valign="top">
 
 eu10
-
-
 
 </td>
 <td valign="top">
 
 Europe \(Frankfurt\)
 
-
-
 </td>
 <td valign="top">
 
 cf-eu10
-
-
 
 </td>
 <td valign="top">
 
 eu-central-1
 
+</td>
+<td valign="top">
 
+**cf-eu10:**
+
+52.59.128.222, 52.28.241.88, 18.184.81.94, 3.67.200.70, 3.68.51.135, 3.124.174.204, 3.68.31.37, 3.67.58.183, 3.67.0.172, 3.67.244.62, 3.126.117.58, 3.66.100.105, 3.68.13.226, 3.126.45.133, 3.67.249.135, 18.194.183.183, 3.67.246.74, 3.66.68.201, 3.68.0.70, 52.28.56.202, 3.126.95.250, 3.66.68.127, 18.195.244.40, 3.67.107.121, 3.67.24.253, 18.193.50.255, 3.121.35.143
+
+**cf-eu10-002:**
+
+18.198.196.89, 18.193.21.232, 3.65.9.91, 52.29.190.137, 18.197.134.65, 3.67.182.154, 3.67.255.232, 3.66.249.150, 3.68.44.236
+
+**cf-eu10-003:**
+
+3.64.131.199, 3.64.88.217, 3.64.142.243, 18.198.18.157, 3.68.40.83, 3.67.235.98, 3.68.17.221, 18.198.149.19, 3.68.38.23
+
+**cf-eu10-004:**
+
+3.69.195.103, 3.64.170.167, 3.68.176.248, 3.121.49.211, 18.197.219.60, 3.70.38.84
 
 </td>
 <td valign="top">
 
 **cf-eu10:**
 
-3.68.51.135, 3.124.174.204, 3.68.31.37, 3.67.58.183, 3.67.0.172, 3.67.244.62, 3.126.117.58, 3.67.200.70, 3.68.13.226, 3.126.45.133, 3.67.249.135, 18.194.183.183, 3.67.246.74, 3.66.68.201, 3.68.0.70, 3.66.100.105, 3.126.95.250, 3.66.68.127, 18.195.244.40, 3.67.107.121, 3.67.24.253, 18.193.50.255, 3.121.35.143, 52.28.56.202, 52.59.128.222, 52.28.241.88, 18.184.81.94
+3.124.208.223, 3.122.209.241, 3.124.222.77, 18.159.31.22, 3.69.186.98, 3.77.195.119
 
 **cf-eu10-002:**
 
-18.197.134.65, 52.29.190.137, 3.67.255.232, 3.67.182.154, 3.68.44.236, 3.66.249.150, 18.198.196.89, 18.193.21.232, 3.65.9.91
+3.126.229.22, 18.193.180.19, 3.64.227.236, 18.153.123.11, 3.121.37.195, 3.73.215.90
 
 **cf-eu10-003:**
 
-3.68.40.83, 18.198.18.157, 3.68.17.221, 3.67.235.98, 3.68.38.23, 18.198.149.19, 3.64.131.199, 3.64.88.217, 3.64.142.243
+3.127.77.3, 3.64.196.58, 18.156.151.247, 18.197.252.154, 3.79.137.29, 52.58.93.50
 
 **cf-eu10-004:**
 
-3.121.49.211, 18.197.219.60, 3.70.38.84, 3.69.195.103, 3.64.170.167, 3.68.176.248
-
-
-
-</td>
-<td valign="top">
-
-**cf-eu10:**
-
-3.124.222.77, 3.122.209.241, 3.124.208.223
-
-**cf-eu10-002:**
-
-3.64.227.236, 3.126.229.22, 18.193.180.19
-
-**cf-eu10-003:**
-
-18.156.151.247, 3.64.196.58, 3.127.77.3
-
-**cf-eu10-004:**
-
-3.65.185.47, 3.70.38.218, 18.196.206.8
-
-
+3.70.38.218, 18.196.206.8, 3.65.185.47, 3.73.109.100, 3.73.8.210, 52.59.18.183
 
 </td>
 <td valign="top">
@@ -1160,8 +866,6 @@ api.cf.eu10-003.hana.ondemand.com
 
 api.cf.eu10-004.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
@@ -1181,16 +885,12 @@ eu10-003.hana.ondemand.com
 
 eu10-004.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Feature Set A](https://account.eu2.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-eu10)
 
 [Feature Set B](https://cockpit.btp.cloud.sap/)
-
-
 
 </td>
 </tr>
@@ -1199,63 +899,45 @@ eu10-004.hana.ondemand.com
 
 Amazon Web Services
 
-
-
 </td>
 <td valign="top">
 
 eu11
-
-
 
 </td>
 <td valign="top">
 
 Europe \(Frankfurt\)
 
-
-
 </td>
 <td valign="top">
 
 cf-eu11
-
-
 
 </td>
 <td valign="top">
 
 eu-central-1
 
+</td>
+<td valign="top">
 
+18.156.140.38, 3.121.55.100, 35.156.198.246, 52.59.77.121, 18.185.57.85, 3.121.79.209, 3.67.237.8, 35.156.31.32, 3.65.63.251, 3.122.176.63, 18.198.13.57, 18.157.114.142, 18.184.172.97, 18.159.180.188, 35.157.5.44
 
 </td>
 <td valign="top">
 
-18.185.57.85, 3.121.79.209, 3.67.237.8, 52.59.77.121, 3.65.63.251, 3.122.176.63, 18.198.13.57, 35.156.31.32, 18.184.172.97, 18.159.180.188, 35.157.5.44, 18.157.114.142, 18.156.140.38, 3.121.55.100, 35.156.198.246
-
-
-
-</td>
-<td valign="top">
-
-3.124.207.41, 18.157.105.117, 18.156.209.198
-
-
+18.156.209.198, 18.157.105.117, 3.124.207.41, 3.66.26.249, 3.72.216.204, 3.74.99.245
 
 </td>
 <td valign="top">
 
 api.cf.eu11.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 eu11.hana.ondemand.com
-
-
 
 </td>
 <td valign="top">
@@ -1264,8 +946,6 @@ eu11.hana.ondemand.com
 
 [Feature Set B](https://eu-access.cockpit.btp.cloud.sap/)
 
-
-
 </td>
 </tr>
 <tr>
@@ -1273,69 +953,55 @@ eu11.hana.ondemand.com
 
 Amazon Web Services
 
-
-
 </td>
 <td valign="top">
 
 us10
-
-
 
 </td>
 <td valign="top">
 
 US East \(VA\)
 
-
-
 </td>
 <td valign="top">
 
 cf-us10
-
-
 
 </td>
 <td valign="top">
 
 us-east-1
 
+</td>
+<td valign="top">
 
+**cf-us10:**
+
+52.200.16.71, 52.23.123.125, 52.202.170.155, 18.210.47.160, 18.211.235.11, 54.156.172.106, 34.234.191.59, 34.192.134.47, 18.204.173.15, 3.213.197.54, 184.73.43.82, 52.20.242.182, 3.216.16.207, 34.225.190.250, 52.2.110.230, 54.234.93.200, 35.153.88.132, 52.204.111.138, 3.88.250.160, 54.221.30.91, 52.71.83.110, 52.200.165.163, 54.208.119.130, 34.202.136.35, 34.192.100.96, 54.85.65.82, 54.205.71.200
+
+**cf-us10-001:**
+
+52.0.214.195, 18.213.153.162, 54.227.144.195, 3.225.73.158, 34.233.151.91, 23.23.172.117, 3.222.22.16, 34.238.1.234, 34.194.239.31, 3.225.44.56, 34.201.208.150, 75.101.157.228
+
+**cf-us10-002:**
+
+54.162.233.194, 34.206.160.141, 35.168.80.144, 18.232.28.65, 54.82.224.146, 3.221.4.74, 18.211.12.227, 54.159.45.198, 72.44.51.245
 
 </td>
 <td valign="top">
 
 **cf-us10:**
 
-18.211.235.11, 54.156.172.106, 34.234.191.59, 34.192.134.47, 18.204.173.15, 3.213.197.54, 184.73.43.82, 18.210.47.160, 3.216.16.207, 34.225.190.250, 52.2.110.230, 54.234.93.200, 35.153.88.132, 52.204.111.138, 3.88.250.160, 52.20.242.182, 52.71.83.110, 52.200.165.163, 54.208.119.130, 34.202.136.35, 34.192.100.96, 54.85.65.82, 54.205.71.200, 54.221.30.91, 52.200.16.71, 52.23.123.125, 52.202.170.155
+52.4.101.240, 52.23.1.211, 52.23.189.23, 18.213.242.208, 3.214.110.153, 34.205.56.51
 
 **cf-us10-001:**
 
-34.233.151.91, 3.225.73.158, 3.222.22.16, 23.23.172.117, 34.194.239.31, 34.238.1.234, 18.213.153.162, 52.0.214.195, 54.227.144.195, 34.201.208.150, 75.101.157.228, 3.225.44.56
+3.227.182.44, 52.86.131.53, 3.220.114.17, 44.218.82.203, 44.219.57.163, 50.16.106.103
 
 **cf-us10-002:**
 
-54.82.224.146, 18.232.28.65, 18.211.12.227, 3.221.4.74, 72.44.51.245, 54.159.45.198, 34.206.160.141, 35.168.80.144, 54.162.233.194
-
-
-
-</td>
-<td valign="top">
-
-**cf-us10:**
-
-52.23.189.23, 52.4.101.240, 52.23.1.211
-
-**cf-us10-001:**
-
-3.220.114.17, 3.227.182.44, 52.86.131.53
-
-**cf-us10-002:**
-
-34.202.68.0, 107.20.66.86, 54.234.152.59
-
-
+107.20.66.86, 54.234.152.59, 34.202.68.0, 3.214.116.95, 54.144.230.36, 54.226.37.104
 
 </td>
 <td valign="top">
@@ -1352,8 +1018,6 @@ api.cf.us10-001.hana.ondemand.com
 
 api.cf.us10-002.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
@@ -1369,16 +1033,12 @@ us10-001.hana.ondemand.com
 
 us10-002.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Feature Set A](https://account.us1.hana.ondemand.com/cockpit#/home/allaccounts/?datacenter=cf-us10)
 
 [Feature Set B](https://cockpit.btp.cloud.sap/)
-
-
 
 </td>
 </tr>
@@ -1387,63 +1047,45 @@ us10-002.hana.ondemand.com
 
 Google Cloud
 
-
-
 </td>
 <td valign="top">
 
 us30
-
-
 
 </td>
 <td valign="top">
 
 US Central \(IA\)
 
-
-
 </td>
 <td valign="top">
 
 cf-us30
-
-
 
 </td>
 <td valign="top">
 
 us-central-1
 
-
-
 </td>
 <td valign="top">
 
 35.202.96.192, 35.193.171.152, 35.193.168.31, 35.202.69.204, 35.202.175.147, 35.193.69.164, 35.202.1.6, 23.236.63.113, 35.193.30.116, 35.202.66.196, 34.68.152.205, 35.222.158.222, 104.197.20.168, 35.232.105.70, 35.224.211.196, 35.222.192.158, 35.193.8.172, 34.171.4.220, 34.172.37.175, 34.170.206.220, 34.172.145.231, 35.222.38.254, 35.239.28.216, 34.134.91.47, 34.123.17.36, 35.202.205.85, 34.118.207.84, 35.193.6.192, 34.122.222.203, 104.197.157.121, 34.135.159.154, 35.223.208.27, 146.148.74.171, 34.132.192.46, 34.68.109.37, 104.198.49.58, 35.225.164.132
-
-
 
 </td>
 <td valign="top">
 
 35.184.169.79
 
-
-
 </td>
 <td valign="top">
 
 api.cf.us30.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 us30.hana.ondemand.com
-
-
 
 </td>
 <td valign="top">
@@ -1452,79 +1094,57 @@ us30.hana.ondemand.com
 
 [Feature Set B](https://cockpit.btp.cloud.sap/)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Google Cloud
-
-
 
 </td>
 <td valign="top">
 
 eu30
 
-
-
 </td>
 <td valign="top">
 
 Europe \(Frankfurt\) GCP
-
-
 
 </td>
 <td valign="top">
 
 cf-eu30
 
-
-
 </td>
 <td valign="top">
 
 europe-west3
-
-
 
 </td>
 <td valign="top">
 
 34.107.28.38, 34.141.10.217, 34.141.116.52, 34.141.1.228, 34.141.123.52, 34.141.125.107, 34.141.46.51, 34.89.130.182, 34.89.146.167, 34.89.203.91, 34.89.232.158, 34.89.243.40, 35.198.83.71, 35.234.65.38, 35.242.208.222, 35.246.155.42, 35.246.171.35, 34.141.28.26, 34.159.160.86, 34.107.19.175, 34.159.165.29, 35.242.240.154, 34.141.73.130, 34.159.27.236, 34.89.152.211, 35.242.194.75, 35.246.235.253, 34.159.127.190, 34.141.82.126, 35.234.69.102, 34.89.231.53, 34.159.188.133, 35.246.203.194, 34.159.201.78, 34.141.112.232, 35.198.84.213, 34.89.165.33
 
-
-
 </td>
 <td valign="top">
 
 35.198.143.110
-
-
 
 </td>
 <td valign="top">
 
 api.cf.eu30.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 eu30.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Feature Set B](https://cockpit.btp.cloud.sap/) 
-
-
 
 </td>
 </tr>
@@ -1533,70 +1153,50 @@ eu30.hana.ondemand.com
 
 Google Cloud
 
-
-
 </td>
 <td valign="top">
 
 in30
-
-
 
 </td>
 <td valign="top">
 
 India \(Mumbai\) GCP
 
-
-
 </td>
 <td valign="top">
 
 cf-in30
-
-
 
 </td>
 <td valign="top">
 
 asia-south1
 
-
-
 </td>
 <td valign="top">
 
 34.93.27.36, 34.93.89.145, 34.93.92.210, 34.93.137.163, 34.93.148.247, 34.93.155.252, 34.93.166.164, 34.93.180.0, 34.93.221.129, 35.200.131.125, 35.200.144.1, 35.200.175.62, 35.200.183.224, 35.200.194.175, 35.200.198.26, 35.200.209.142, 35.244.29.120, 35.200.137.225, 34.100.186.241, 35.200.169.254, 35.200.151.131, 35.200.252.103, 35.244.15.103, 35.244.16.76, 34.93.255.115, 35.244.53.153, 35.200.168.60, 35.200.222.30, 34.100.178.164, 35.244.2.193, 34.93.11.49, 34.100.211.195, 34.100.151.15, 34.93.95.83, 34.100.215.143, 34.93.205.174, 34.93.159.24
-
-
 
 </td>
 <td valign="top">
 
 34.93.125.74
 
-
-
 </td>
 <td valign="top">
 
 api.cf.in30.hana.ondemand.com
-
-
 
 </td>
 <td valign="top">
 
 in30.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Feature Set B](https://cockpit.btp.cloud.sap/) 
-
-
 
 </td>
 </tr>
@@ -1605,70 +1205,50 @@ in30.hana.ondemand.com
 
 Alibaba Cloud
 
-
-
 </td>
 <td valign="top">
 
 cn40
-
-
 
 </td>
 <td valign="top">
 
 China \(Shanghai\)
 
-
-
 </td>
 <td valign="top">
 
 cf-cn40
-
-
 
 </td>
 <td valign="top">
 
 cn-shanghai
 
-
-
 </td>
 <td valign="top">
 
 101.132.190.155, 106.14.165.33, 106.14.184.113
-
-
 
 </td>
 <td valign="top">
 
 139.224.7.71
 
-
-
 </td>
 <td valign="top">
 
 api.cf.cn40.platform.sapcloud.cn
-
-
 
 </td>
 <td valign="top">
 
 cn40.platform.sapcloud.cn
 
-
-
 </td>
 <td valign="top">
 
 [Feature Set B](https://cockpit.cn40.platform.sapcloud.cn/cockpit) 
-
-
 
 </td>
 </tr>
@@ -1683,70 +1263,50 @@ cn40.platform.sapcloud.cn
 
 IaaS Provider
 
-
-
 </th>
 <th valign="top">
 
 Region
-
-
 
 </th>
 <th valign="top">
 
 Region Name
 
-
-
 </th>
 <th valign="top">
 
 Technical Key
-
-
 
 </th>
 <th valign="top">
 
 Technical Key of IaaS Provider
 
-
-
 </th>
 <th valign="top">
 
 Trial NAT IPs \(egress, IPs for requests from a Cloud Foundry app\)
-
-
 
 </th>
 <th valign="top">
 
 LB IPs \(ingress, for incoming requests\)
 
-
-
 </th>
 <th valign="top">
 
 API Endpoint
-
-
 
 </th>
 <th valign="top">
 
 Domain
 
-
-
 </th>
 <th valign="top">
 
 Cockpit Logon
-
-
 
 </th>
 </tr>
@@ -1755,70 +1315,50 @@ Cockpit Logon
 
 Amazon Web Services
 
-
-
 </td>
 <td valign="top">
 
 us10
-
-
 
 </td>
 <td valign="top">
 
 US East \(VA\)
 
-
-
 </td>
 <td valign="top">
 
 cf-us10
-
-
 
 </td>
 <td valign="top">
 
 us-east-1
 
-
-
 </td>
 <td valign="top">
 
 3.218.99.154, 52.72.147.227, 3.218.112.63
-
-
 
 </td>
 <td valign="top">
 
 52.23.189.23, 52.4.101.240, 52.23.1.211
 
-
-
 </td>
 <td valign="top">
 
 api.cf.us10.hana.ondemand.com
-
-
 
 </td>
 <td valign="top">
 
 us10.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Trial](https://cockpit.hanatrial.ondemand.com/trial)
-
-
 
 </td>
 </tr>
@@ -1827,70 +1367,50 @@ us10.hana.ondemand.com
 
 Microsoft Azure
 
-
-
 </td>
 <td valign="top">
 
 ap21
-
-
 
 </td>
 <td valign="top">
 
 Singapore
 
-
-
 </td>
 <td valign="top">
 
 cf-ap21
-
-
 
 </td>
 <td valign="top">
 
 Southeast Asia
 
-
-
 </td>
 <td valign="top">
 
 52.139.216.172, 20.195.24.178, 20.195.9.169
-
-
 
 </td>
 <td valign="top">
 
 20.184.61.122
 
-
-
 </td>
 <td valign="top">
 
 api.cf.ap21.hana.ondemand.com
-
-
 
 </td>
 <td valign="top">
 
 ap21.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Trial](https://cockpit.hanatrial.ondemand.com/trial) 
-
-
 
 </td>
 </tr>

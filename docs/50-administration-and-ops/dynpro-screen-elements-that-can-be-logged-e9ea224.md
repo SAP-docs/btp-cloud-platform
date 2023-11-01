@@ -15,14 +15,10 @@ The table below shows the basic screen elements that can be logged in Dynpro app
 
 Basic Screen Element
 
-
-
 </th>
 <th valign="top">
 
 Comment
-
-
 
 </th>
 </tr>
@@ -31,14 +27,10 @@ Comment
 
 Input fields
 
-
-
 </td>
 <td valign="top">
 
 Value of input field
-
-
 
 </td>
 </tr>
@@ -47,14 +39,10 @@ Value of input field
 
 Output fields
 
-
-
 </td>
 <td valign="top">
 
 Value of output field
-
-
 
 </td>
 </tr>
@@ -63,14 +51,10 @@ Value of output field
 
 Radio buttons
 
-
-
 </td>
 <td valign="top">
 
 For each radio button, a value is logged \(true/false\). Note that each radio button is logged separately. There is no logging of entire groups of radio buttons.
-
-
 
 </td>
 </tr>
@@ -79,14 +63,10 @@ For each radio button, a value is logged \(true/false\). Note that each radio bu
 
 Checkboxes
 
-
-
 </td>
 <td valign="top">
 
 Value of checkbox
-
-
 
 </td>
 </tr>
@@ -95,14 +75,10 @@ Value of checkbox
 
 Dropdown lists
 
-
-
 </td>
 <td valign="top">
 
 Technical key value with marker for selected key. Note that the texts from the user interface are not logged.
-
-
 
 </td>
 </tr>
@@ -111,14 +87,10 @@ Technical key value with marker for selected key. Note that the texts from the u
 
 Table controls
 
-
-
 </td>
 <td valign="top">
 
 Columns of table control
-
-
 
 </td>
 </tr>
@@ -127,14 +99,10 @@ Columns of table control
 
 Parameters
 
-
-
 </td>
 <td valign="top">
 
 Value of the parameters of a selection screen
-
-
 
 </td>
 </tr>
@@ -143,14 +111,10 @@ Value of the parameters of a selection screen
 
 Subscreens
 
-
-
 </td>
 <td valign="top">
 
 As subscreens consist of the same elements as screens, logging takes place for the elements of subscreens in the same way as for screens
-
-
 
 </td>
 </tr>
@@ -158,8 +122,6 @@ As subscreens consist of the same elements as screens, logging takes place for t
 <td valign="top">
 
 Select-Options
-
-
 
 </td>
 <td valign="top">
@@ -194,14 +156,10 @@ Input data provided via variant for other parameter fields on a selection screen
 
 Value help \(F4\)
 
-
-
 </td>
 <td valign="top">
 
 Entries from the value help \(F4 help\) can be recorded by choosing the read access logging function from the context menu.
-
-
 
 </td>
 </tr>
@@ -216,14 +174,10 @@ The table below shows the screen attributes that can be logged:
 
 Screen Attribute
 
-
-
 </th>
 <th valign="top">
 
 Comment
-
-
 
 </th>
 </tr>
@@ -232,14 +186,10 @@ Comment
 
 Screen title
 
-
-
 </td>
 <td valign="top">
 
 The title of a screen
-
-
 
 </td>
 </tr>
@@ -248,14 +198,10 @@ The title of a screen
 
 Transaction code
 
-
-
 </td>
 <td valign="top">
 
 The value of a transaction code at runtime
-
-
 
 </td>
 </tr>
@@ -264,14 +210,10 @@ The value of a transaction code at runtime
 
 OK code
 
-
-
 </td>
 <td valign="top">
 
 Code that is set when triggering an action \(for example, clicking a button\)
-
-
 
 </td>
 </tr>
@@ -280,14 +222,10 @@ Code that is set when triggering an action \(for example, clicking a button\)
 
 Message
 
-
-
 </td>
 <td valign="top">
 
 The status message displayed on a screen
-
-
 
 </td>
 </tr>
@@ -302,14 +240,10 @@ The table below shows the controls that can be logged:
 
 Control
 
-
-
 </th>
 <th valign="top">
 
 Comment
-
-
 
 </th>
 </tr>
@@ -318,14 +252,10 @@ Comment
 
 ALV grid
 
-
-
 </td>
 <td valign="top">
 
 Columns of a display-only ALV grid control
-
-
 
 </td>
 </tr>
@@ -334,14 +264,10 @@ Columns of a display-only ALV grid control
 
 Tab strip
 
-
-
 </td>
 <td valign="top">
 
 Same logging behavior as for subscreens. If switching tabs happens on front-end, logging is done together for all tabs. If, on the other hand, switching tabs happens on application level, the tabs are logged separately. In addition, an OK code can only be logged when switching tabs happens on application level.
-
-
 
 </td>
 </tr>
@@ -356,14 +282,10 @@ The table below shows the additional screen elements that can be logged:
 
 Screen Element
 
-
-
 </th>
 <th valign="top">
 
 Comment
-
-
 
 </th>
 </tr>
@@ -372,14 +294,10 @@ Comment
 
 ABAP Lists
 
-
-
 </td>
 <td valign="top">
 
 ABAP lists can be recorded by choosing the read access logging function from the context menu. The pseudo field `$_LIST_CODE` will be added to the created recording. Using this pseudo field, all lists of a program can be configured for logging. It is not possible to log input fields and OK codes of a list.
-
-
 
 </td>
 </tr>

@@ -35,14 +35,10 @@ The following table lists the SAP Python packages that are currently available. 
 
 Package
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -51,14 +47,10 @@ Description
 
 `sap_instance_manager` 
 
-
-
 </td>
 <td valign="top">
 
 Python package for creating and deleting service instances per tenant within an application at runtime.
-
-
 
 </td>
 </tr>
@@ -67,14 +59,10 @@ Python package for creating and deleting service instances per tenant within an 
 
 `sap_audit_logging` 
 
-
-
 </td>
 <td valign="top">
 
 Provides audit logging functionalities for Python applications.
-
-
 
 </td>
 </tr>
@@ -83,14 +71,10 @@ Provides audit logging functionalities for Python applications.
 
 `sap_xssec` 
 
-
-
 </td>
 <td valign="top">
 
 SAP XS Advanced Container Security API for Python.
-
-
 
 </td>
 </tr>
@@ -98,8 +82,6 @@ SAP XS Advanced Container Security API for Python.
 <td valign="top">
 
 `sap_cf_logging` 
-
-
 
 </td>
 <td valign="top">
@@ -118,14 +100,10 @@ This is a collection of support libraries for Python applications running on Clo
 
 [`hdbcli`](https://help.sap.com/viewer/0eec0d68141541d1b07893a39944924e/2.0.02/en-US/f3b8fabf34324302b123297cdbe710f0.html) 
 
-
-
 </td>
 <td valign="top">
 
 The SAP HANA Database Client provides means for database connectivity.
-
-
 
 </td>
 </tr>

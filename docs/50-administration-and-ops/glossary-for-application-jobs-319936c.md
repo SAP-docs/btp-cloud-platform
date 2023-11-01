@@ -15,21 +15,15 @@ Overview of terminology used for application jobs
 
 Term
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Area
-
-
 
 </th>
 </tr>
@@ -38,21 +32,15 @@ Area
 
 Job chain
 
-
-
 </td>
 <td valign="top">
 
 A series of jobs that should be performed in a specific sequence.
 
-
-
 </td>
 <td valign="top">
 
 Application Jobs
-
-
 
 </td>
 </tr>

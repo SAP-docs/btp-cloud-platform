@@ -48,14 +48,10 @@ Define the details of your message client in SAP Event Mesh as parameters in a d
 
 Process Step
 
-
-
 </th>
 <th valign="top">
 
 Related Documentation
-
-
 
 </th>
 </tr>
@@ -63,8 +59,6 @@ Related Documentation
 <td valign="top">
 
 1. Create an SAP Event Mesh service instance with service plan `default`.
-
-
 
 </td>
 <td valign="top">
@@ -83,14 +77,10 @@ Related Documentation
 
 2. Define a dedicated JSON file that you add either when creating the SAP Event Mesh service instance, or after that.
 
-
-
 </td>
 <td valign="top">
 
 [Define SAP Event Mesh Service Descriptor JSON/YAML File](define-sap-event-mesh-service-descriptor-json-yaml-file-5722fc4.md) 
-
-
 
 </td>
 </tr>
@@ -99,14 +89,10 @@ Related Documentation
 
 3. Create a queue in the message client that refers to the SAP Event Mesh service instance and then subscribe the topic of the namespace of the SAP S/4HANA Cloud Extensibility service to that queue.
 
-
-
 </td>
 <td valign="top">
 
 [Create Queues and Subscribe to Them](create-queues-and-subscribe-to-them-e54e609.md) 
-
-
 
 </td>
 </tr>

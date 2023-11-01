@@ -13,22 +13,16 @@ Service instances of the SAP Authorization and Trust Management service \(XSUAA\
 
 Subject
 
-
-
 </th>
 <th valign="top">
 
 Issuer
-
-
 
 </th>
 <th valign="top">
 
 Validity
 
-
-
 </th>
 </tr>
 <tr>
@@ -36,22 +30,16 @@ Validity
 
 `C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2` 
 
-
-
 </td>
 <td valign="top">
 
 `C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2` 
-
-
 
 </td>
 <td valign="top">
 
 Jan 15 12:00:00 2038 GMT
 
-
-
 </td>
 </tr>
 <tr>
@@ -59,22 +47,16 @@ Jan 15 12:00:00 2038 GMT
 
 `C=DE, L=Walldorf, O=SAP AG, CN=SAP Global Root CA` 
 
-
-
 </td>
 <td valign="top">
 
 `C=DE, L=Walldorf, O=SAP AG, CN=SAP Global Root CA` 
-
-
 
 </td>
 <td valign="top">
 
 Apr 26 15:46:27 2032 GMT
 
-
-
 </td>
 </tr>
 <tr>
@@ -82,21 +64,15 @@ Apr 26 15:46:27 2032 GMT
 
 `C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root CA` 
 
-
-
 </td>
 <td valign="top">
 
 `C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root CA` 
 
-
-
 </td>
 <td valign="top">
 
 Nov 10 00:00:00 2031 GMT
-
-
 
 </td>
 </tr>
@@ -105,22 +81,16 @@ Nov 10 00:00:00 2031 GMT
 
 `C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert SHA2 Secure Server CA` 
 
-
-
 </td>
 <td valign="top">
 
 `C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root CA` 
-
-
 
 </td>
 <td valign="top">
 
 Sep 22 23:59:59 2030 GMT
 
-
-
 </td>
 </tr>
 <tr>
@@ -128,22 +98,16 @@ Sep 22 23:59:59 2030 GMT
 
 `C=US, O=Entrust, Inc., OU=www.entrust.net/legal-terms, CN=Entrust Root Certification Authority - G2` 
 
-
-
 </td>
 <td valign="top">
 
 `C=US, O=Entrust, Inc., OU=www.entrust.net/legal-terms, CN=Entrust Root Certification Authority - G2` 
-
-
 
 </td>
 <td valign="top">
 
 Dec 07 17:55:54 2030 GMT
 
-
-
 </td>
 </tr>
 <tr>
@@ -151,21 +115,15 @@ Dec 07 17:55:54 2030 GMT
 
 `C=IE, O=Baltimore, OU=CyberTrust, CN=Baltimore CyberTrust Root` 
 
-
-
 </td>
 <td valign="top">
 
 `C=IE, O=Baltimore, OU=CyberTrust, CN=Baltimore CyberTrust Root` 
 
-
-
 </td>
 <td valign="top">
 
 May 12 23:59:00 2025 GMT
-
-
 
 </td>
 </tr>

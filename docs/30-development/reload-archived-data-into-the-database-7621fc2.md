@@ -22,8 +22,6 @@ The runtime to reload archived data from an external storage system back into th
 
 `CL_ARCH_RELOAD_API` \(API to reload archived data\)
 
-
-
 </th>
 </tr>
 <tr>
@@ -31,21 +29,15 @@ The runtime to reload archived data from an external storage system back into th
 
 *Method*
 
-
-
 </td>
 <td valign="top">
 
 *Parameter*
 
-
-
 </td>
 <td valign="top">
 
 *Description*
-
-
 
 </td>
 </tr>
@@ -56,21 +48,15 @@ The runtime to reload archived data from an external storage system back into th
 
 Returns an instance of the delete API. Reference to interface `IF_ARCH_RELOAD_API`
 
-
-
 </td>
 <td valign="top">
 
 Importing: <code><i>IV_ARCHIVING_OBJECT</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Name of the archiving object which will be used
-
-
 
 </td>
 </tr>
@@ -79,14 +65,10 @@ Name of the archiving object which will be used
 
 Importing:<code><i>IV_ARCHIVING_SESSION</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Sessions of the archiving object which will be used
-
-
 
 </td>
 </tr>
@@ -95,14 +77,10 @@ Sessions of the archiving object which will be used
 
 Importing:<code><i>IV_TESTMODE</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Reload program runs in test mode
-
-
 
 </td>
 </tr>
@@ -111,14 +89,10 @@ Reload program runs in test mode
 
 Returning:<code><i>RO_RELOAD_INSTANCE</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Instance of the reload API for further processing
-
-
 
 </td>
 </tr>
@@ -129,21 +103,15 @@ Instance of the reload API for further processing
 
 Read a data object from an archive file
 
-
-
 </td>
 <td valign="top">
 
 Importing: <code><i>IT_DATA_SELECTION</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Range on dates on which archive files have been created
-
-
 
 </td>
 </tr>
@@ -152,14 +120,10 @@ Range on dates on which archive files have been created
 
 Importing: <code><i>IT_USER_SELECTION</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Range on users which have created archive files
-
-
 
 </td>
 </tr>
@@ -168,14 +132,10 @@ Range on users which have created archive files
 
 Importing: <code><i>IV_ARCHIVING_OBJECT</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Archiving object which will be used
-
-
 
 </td>
 </tr>
@@ -184,14 +144,10 @@ Archiving object which will be used
 
 Returning: <code><i>RT_SESSION_ATTRIBUTES</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Archiving sessions' attributes
-
-
 
 </td>
 </tr>
@@ -204,8 +160,6 @@ Archiving sessions' attributes
 
 `IF_ARCH_RELOAD_API` \(Interface to reload archived data\)
 
-
-
 </th>
 </tr>
 <tr>
@@ -213,21 +167,15 @@ Archiving sessions' attributes
 
 *Method*
 
-
-
 </td>
 <td valign="top">
 
 *Parameter*
 
-
-
 </td>
 <td valign="top">
 
 *Description*
-
-
 
 </td>
 </tr>
@@ -238,21 +186,15 @@ Archiving sessions' attributes
 
 Read records by structure from the current data object
 
-
-
 </td>
 <td valign="top">
 
 Importing: <code><i>IV_RECORDS_STRUCTURE</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Name of a structure of all data records in the table
-
-
 
 </td>
 </tr>
@@ -261,14 +203,10 @@ Name of a structure of all data records in the table
 
 Exporting:<code><i>ET_DATA_RECORDS</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Table containing the data records
-
-
 
 </td>
 </tr>
@@ -279,21 +217,15 @@ Table containing the data records
 
 Read data object from the archive file
 
-
-
 </td>
 <td valign="top">
 
 Exporting: <code><i>EV_ARCHIVE_KEY</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Archive key according to archive management
-
-
 
 </td>
 </tr>
@@ -301,8 +233,6 @@ Archive key according to archive management
 <td valign="top">
 
 Exporting: <code><i>EV_END_OF_FILE</i></code>
-
-
 
 </td>
 <td valign="top">
@@ -313,8 +243,6 @@ Boolean values:
 
 *FALSE* \(= ‘ ‘\)
 
-
-
 </td>
 </tr>
 <tr>
@@ -322,14 +250,10 @@ Boolean values:
 
 Exporting: <code><i>EV_ARCHIVING_SESSION</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Sessions of the archiving object which will be used
-
-
 
 </td>
 </tr>
@@ -338,14 +262,10 @@ Sessions of the archiving object which will be used
 
 Exporting: <code><i>EV_OBJECT_OFFSET</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Offset of data object in the archive
-
-
 
 </td>
 </tr>
@@ -354,21 +274,15 @@ Offset of data object in the archive
 
 <code><i>RELOAD_DATA_FOR_OBJECT</i></code>
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -379,21 +293,15 @@ Offset of data object in the archive
 
 Reloading the data of an internal table
 
-
-
 </td>
 <td valign="top">
 
 Importing: <code><i>IV_TABLE_NAME</i></code>
 
-
-
 </td>
 <td valign="top">
 
 DDIC structure name of an internal table
-
-
 
 </td>
 </tr>
@@ -402,14 +310,10 @@ DDIC structure name of an internal table
 
 Tables: <code><i>IT_TABLE_NAME</i></code>
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -420,21 +324,15 @@ Tables: <code><i>IT_TABLE_NAME</i></code>
 
 Open archive files will be closed
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>

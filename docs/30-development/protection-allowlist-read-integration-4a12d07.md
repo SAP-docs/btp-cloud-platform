@@ -34,28 +34,20 @@ This is an OData version 4 service. This version aims to improve processing time
 
 Service Group \(incl. Namespace if It Exists\)
 
-
-
 </th>
 <th valign="top">
 
 Repository ID
-
-
 
 </th>
 <th valign="top">
 
 Service Name \(incl. Namespace if It Exists\)
 
-
-
 </th>
 <th valign="top">
 
 Version
-
-
 
 </th>
 </tr>
@@ -64,28 +56,20 @@ Version
 
 `aps_sec_api_pal_read`
 
-
-
 </td>
 <td valign="top">
 
 `srvd_a2`
-
-
 
 </td>
 <td valign="top">
 
 `ProtectionAllowlist`
 
-
-
 </td>
 <td valign="top">
 
 `0001`
-
-
 
 </td>
 </tr>
@@ -114,28 +98,20 @@ The entities contain the business data of the service.
 
 Entity
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Necessity
 
-
-
 </th>
 <th valign="top">
 
 Link to Details
-
-
 
 </th>
 </tr>
@@ -144,28 +120,20 @@ Link to Details
 
 ClickjackingProtection
 
-
-
 </td>
 <td valign="top">
 
 Contains trusted hosts for Clickjacking Protection
-
-
 
 </td>
 <td valign="top">
 
 Mandatory
 
-
-
 </td>
 <td valign="top">
 
 For more information, see the *Related Information* section.
-
-
 
 </td>
 </tr>
@@ -174,28 +142,20 @@ For more information, see the *Related Information* section.
 
 TrustedNetworkZones
 
-
-
 </td>
 <td valign="top">
 
 Contains trusted hosts for trusted network zones
-
-
 
 </td>
 <td valign="top">
 
 Mandatory
 
-
-
 </td>
 <td valign="top">
 
 For more information, see the *Related Information* section.
-
-
 
 </td>
 </tr>
@@ -204,28 +164,20 @@ For more information, see the *Related Information* section.
 
 TrustedCSSStyleSheets
 
-
-
 </td>
 <td valign="top">
 
 Contains trusted hosts CSS Style Sheets
-
-
 
 </td>
 <td valign="top">
 
 Mandatory
 
-
-
 </td>
 <td valign="top">
 
 For more information, see the *Related Information* section.
-
-
 
 </td>
 </tr>
@@ -234,28 +186,20 @@ For more information, see the *Related Information* section.
 
 CrossOriginResourceSharing
 
-
-
 </td>
 <td valign="top">
 
 Contains trusted hosts for Cross-Origin Resource sharing
-
-
 
 </td>
 <td valign="top">
 
 Mandatory
 
-
-
 </td>
 <td valign="top">
 
 For more information, see the *Related Information* section.
-
-
 
 </td>
 </tr>

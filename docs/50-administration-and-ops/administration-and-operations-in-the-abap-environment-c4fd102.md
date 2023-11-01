@@ -40,14 +40,10 @@ Here's an overview of tools, apps, and functions that are available to you to pe
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Tools, Apps, or Functions
-
-
 
 </th>
 </tr>
@@ -55,8 +51,6 @@ Tools, Apps, or Functions
 <td valign="top">
 
 Managing accounts and organizations
-
-
 
 </td>
 <td valign="top">
@@ -74,8 +68,6 @@ For more information, see the following:
 
 For more information about business roles in the ABAP environment, see [Business Catalogs and Business Roles](business-catalogs-and-business-roles-da32065.md).
 
-
-
 </td>
 </tr>
 <tr>
@@ -83,14 +75,10 @@ For more information about business roles in the ABAP environment, see [Business
 
 Performing administration tasks, such as identity and access management, business configuration, communication management, and more
 
-
-
 </td>
 <td valign="top">
 
 In the Fiori launchpad, you can find apps that support you as an administrator or developer with various operational tasks. For more information, see [SAP Fiori Apps in the ABAP Environment](sap-fiori-apps-in-the-abap-environment-dbfaac8.md).
-
-
 
 </td>
 </tr>
@@ -99,14 +87,10 @@ In the Fiori launchpad, you can find apps that support you as an administrator o
 
 Performing technical operations, such as monitoring the performance of your systems as well as the exhaustion of your purchased service volume
 
-
-
 </td>
 <td valign="top">
 
 You can use tools such as the technical monitoring cockpit, health monitoring, and more. There’s also guidance available for the most common tasks in technical operations and for system sizing. For more information, see [Technical Operations](technical-operations-181ce28.md).
-
-
 
 </td>
 </tr>
@@ -115,14 +99,10 @@ You can use tools such as the technical monitoring cockpit, health monitoring, a
 
 Operating communications when you integrate your system or solution with other systems to enable data exchange in your ABAP environment
 
-
-
 </td>
 <td valign="top">
 
 For more information, see [Communication Operations](communication-operations-ac9137d.md).
-
-
 
 </td>
 </tr>
@@ -145,8 +125,6 @@ Performing lifecycle management operations and system administration tasks such 
 
 The [Landscape Portal](../30-development/landscape-portal-5eb70fb.md) functions as a central tool for providers to perform lifecycle management operations and system admininistation tasks, see [Manage System Hibernation](../30-development/manage-system-hibernation-26e2ee1.md), [Restore Consumer Tenants](../30-development/restore-consumer-tenants-619c40e.md), [Operations Dashboard](../30-development/operations-dashboard-0a3a735.md).
 
-
-
 </td>
 </tr>
 <tr>
@@ -154,14 +132,10 @@ The [Landscape Portal](../30-development/landscape-portal-5eb70fb.md) functions 
 
 Getting notifications about planned maintenance events and about unplanned service outages
 
-
-
 </td>
 <td valign="top">
 
 Register for the Cloud Availability Center. For more information, see the information about the [Cloud Availability Center](https://support.sap.com/en/my-support/systems-installations/cac.html)on SAP Support Portal.
-
-
 
 </td>
 </tr>
@@ -169,8 +143,6 @@ Register for the Cloud Availability Center. For more information, see the inform
 <td valign="top">
 
 Operating cloud-centric SAP solution landscapes
-
-
 
 </td>
 <td valign="top">
@@ -182,8 +154,6 @@ SAP Cloud ALM is the central entry point to operate cloud-centric SAP solution l
 -   Alert notifications \(currently limited to SAP-defined metrics of the health monitoring framework\)
 
 For more information about the available metrics for health monitoring, see [Central Health Monitoring Using SAP Focused Run and SAP Cloud ALM](central-health-monitoring-using-sap-focused-run-and-sap-cloud-alm-8d6e2e7.md).
-
-
 
 </td>
 </tr>

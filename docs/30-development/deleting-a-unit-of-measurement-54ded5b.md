@@ -19,14 +19,10 @@ Use method `DELETE` to delete a unit of measurement. For customer units, the nam
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -35,14 +31,10 @@ Value Help
 
 UNIT
 
-
-
 </td>
 <td valign="top">
 
 Internal unit of measurement
-
-
 
 </td>
 </tr>
@@ -63,14 +55,10 @@ Internal unit of measurement
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -79,16 +67,12 @@ Value Help
 
 ERROR
 
-
-
 </td>
 <td valign="top">
 
 `Space`: No error
 
 `‘X’`: Save error
-
-
 
 </td>
 </tr>

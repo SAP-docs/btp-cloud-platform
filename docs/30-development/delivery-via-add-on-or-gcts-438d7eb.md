@@ -53,21 +53,15 @@ The customer production system AMT is provisioned during the initial subscriptio
 
  
 
-
-
 </td>
 <td valign="top">
 
 **Add-On Build Delivery \(Productive Build Pipeline\)** 
 
-
-
 </td>
 <td valign="top">
 
 **gCTS Transport Delivery \(Transport Mechanism\)**
-
-
 
 </td>
 </tr>
@@ -75,8 +69,6 @@ The customer production system AMT is provisioned during the initial subscriptio
 <td valign="top">
 
 **System Landscape/Account Model**
-
-
 
 </td>
 <td valign="top">
@@ -104,8 +96,6 @@ The customer production system AMT is provisioned during the initial subscriptio
 
 **Ease of Use**
 
-
-
 </td>
 <td valign="top">
 
@@ -132,8 +122,6 @@ The customer production system AMT is provisioned during the initial subscriptio
 <td valign="top">
 
 **Quality Measures/Resilience**
-
-
 
 </td>
 <td valign="top">
@@ -167,8 +155,6 @@ gCTS transport includes basic checks, for strict checks additional processes nee
 
 **Auditability/Traceability**
 
-
-
 </td>
 <td valign="top">
 
@@ -198,8 +184,6 @@ gCTS transport includes basic checks, for strict checks additional processes nee
 <td valign="top">
 
 **Scalability**
-
-
 
 </td>
 <td valign="top">
@@ -234,8 +218,6 @@ gCTS transport includes basic checks, for strict checks additional processes nee
 
 **SAP Software Certification**
 
-
-
 </td>
 <td valign="top">
 
@@ -251,8 +233,6 @@ Possible, check details here:
 
 Not possible
 
-
-
 </td>
 </tr>
 <tr>
@@ -260,14 +240,10 @@ Not possible
 
 **Certifications and Compliance of Solution**
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 SAP Compliance Offerings available in SAP Trust Center. See [https://www.sap.com/about/trust-center/certification-compliance.html](https://www.sap.com/about/trust-center/certification-compliance.html).
-
-
 
 </td>
 </tr>
@@ -276,14 +252,10 @@ SAP Compliance Offerings available in SAP Trust Center. See [https://www.sap.com
 
 Requires less effort to be compliant because a strict process, supported by SAP delivery/deployment tools, is provided.
 
-
-
 </td>
 <td valign="top">
 
 Requires additional effort to to be compliant because a strict process needs to be established without SAP tooling support.
-
-
 
 </td>
 </tr>

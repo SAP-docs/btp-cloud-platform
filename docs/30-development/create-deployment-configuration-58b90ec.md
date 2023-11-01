@@ -26,15 +26,11 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     <th valign="top">
 
      
-
-
     
     </th>
     <th valign="top">
 
      
-
-
     
     </th>
     </tr>
@@ -42,15 +38,11 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     <td valign="top">
     
     ID
-
-
     
     </td>
     <td valign="top">
     
     The deployment ID references this particular deployment. It will be reflected in the name of the deployed application, as well as in that of provisioned service instances created during SaaS deployment.
-
-
     
     </td>
     </tr>
@@ -58,15 +50,11 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     <td valign="top">
     
     Description
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) You can add a description.
-
-
     
     </td>
     </tr>
@@ -86,15 +74,11 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     <th valign="top">
 
      
-
-
     
     </th>
     <th valign="top">
 
      
-
-
     
     </th>
     </tr>
@@ -102,15 +86,11 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     <td valign="top">
     
     CF API Endpoint
-
-
     
     </td>
     <td valign="top">
     
     Cloud Foundry endpoint of the landscape the solution should be deployed to. You can find this information in the SAP BTP Cockpit, in your provider subaccount under Overview \> General tab\> Cloud Foundry Environment section\> API Endpoint.
-
-
     
     </td>
     </tr>
@@ -118,15 +98,11 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     <td valign="top">
     
     CF Organization Name
-
-
     
     </td>
     <td valign="top">
     
     Name of the organization your solution gets deployed to. You can find this information in the SAP BTP Cockpit, in your provider subaccount under Overview \> General tab\> Cloud Foundry Environment section\> Org Name.
-
-
     
     </td>
     </tr>
@@ -134,15 +110,11 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     <td valign="top">
     
     CF Space Name
-
-
     
     </td>
     <td valign="top">
     
     Name of the space your solution gets deployed to. You can find this information in the SAP BTP Cockpit, in your provider subaccount under Overview \> General tab\> Cloud Foundry Environment section\> Spaces.
-
-
     
     </td>
     </tr>
@@ -162,22 +134,16 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     <th valign="top">
 
     Setting
-
-
     
     </th>
     <th valign="top">
 
     Shared Domain Type
-
-
     
     </th>
     <th valign="top">
 
     Custom Domain Type
-
-
     
     </th>
     </tr>
@@ -185,22 +151,16 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     <td valign="top">
     
     Domain Type
-
-
     
     </td>
     <td valign="top">
     
     Shared
-
-
     
     </td>
     <td valign="top">
     
     Custom
-
-
     
     </td>
     </tr>
@@ -208,22 +168,16 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     <td valign="top">
     
     App Domain
-
-
     
     </td>
     <td valign="top">
     
     You can select an app domain from the list of the available SAP app domains.
-
-
     
     </td>
     <td valign="top">
     
     You can enter a custom domain that is registered for your company.
-
-
     
     </td>
     </tr>
@@ -231,22 +185,16 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     <td valign="top">
     
     Route Prefix
-
-
     
     </td>
     <td valign="top">
     
     The route prefix needs to be unique and is defaulted to your deployment configuration name.
-
-
     
     </td>
     <td valign="top">
     
     The route prefix field is not visible.
-
-
     
     </td>
     </tr>
@@ -254,22 +202,16 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     <td valign="top">
     
     Use wildcard route
-
-
     
     </td>
     <td valign="top">
     
     The wildcard route is unchecked and set to read-only.
-
-
     
     </td>
     <td valign="top">
     
     The wildcard route is checked and set to read-only
-
-
     
     </td>
     </tr>
@@ -277,22 +219,16 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     <td valign="top">
     
     Subdomains
-
-
     
     </td>
     <td valign="top">
     
     At least one subdomain needs to be maintained for the shared domain type.
-
-
     
     </td>
     <td valign="top">
     
     Subdomains are not visible.
-
-
     
     </td>
     </tr>

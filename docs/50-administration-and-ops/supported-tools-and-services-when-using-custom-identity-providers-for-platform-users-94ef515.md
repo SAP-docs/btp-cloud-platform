@@ -15,14 +15,10 @@ Not all tools and services of SAP BTP support the use of custom identity provide
 
 Supported
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -30,8 +26,6 @@ Description
 <td valign="top">
 
 Cloud Connector 
-
-
 
 </td>
 <td valign="top">
@@ -55,8 +49,6 @@ For more information, see [Use a Custom IDP for Subaccount Configuration](https:
 
 SAP BTP Command Line Interface \(btp CLI\)
 
-
-
 </td>
 <td valign="top">
 
@@ -71,16 +63,12 @@ To work with users and role collections on global account, directory, or subacco
 
 Both values can be found in the cockpit under *Security* → *Trust Configuration* → *Custom Platform Identity Providers*.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Cloud Foundry command-line interface \(CF CLI\)
-
-
 
 </td>
 <td valign="top">
@@ -94,16 +82,12 @@ For more information, see [Log On with a Custom Identity Provider to the Cloud F
 
 See also [Using the Cloud Foundry CLI with SAP HANA Cloud](https://help.sap.com/docs/HANA_CLOUD/9ae9104a46f74a6583ce5182e7fb20cb/921f3e46247947779d69b8c85c9b9985.html)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 SAP Application Logging service and Kibana
-
-
 
 </td>
 <td valign="top">
@@ -112,8 +96,6 @@ Users logged on using custom identity providers can analyze logs written using t
 
 For more information, see the [SAP Application Logging service](https://help.sap.com/docs/APPLICATION_LOGGING) documentation.
 
-
-
 </td>
 </tr>
 <tr>
@@ -121,14 +103,10 @@ For more information, see the [SAP Application Logging service](https://help.sap
 
 SAP BTP cockpit 
 
-
-
 </td>
 <td valign="top">
 
 Platform users logged on using custom identity providers can use the full range of the SAP BTP cockpit.
-
-
 
 </td>
 </tr>
@@ -137,16 +115,12 @@ Platform users logged on using custom identity providers can use the full range 
 
 SAP Cloud Transport Management
 
-
-
 </td>
 <td valign="top">
 
 Platform users logged on to SAP Cloud Transport Management service using custom identity providers can use all functions of the service as described in the SAP Cloud Transport Management documentation.
 
 For more information, see [SAP Cloud Transport Management](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE).
-
-
 
 </td>
 </tr>
@@ -155,16 +129,12 @@ For more information, see [SAP Cloud Transport Management](https://help.sap.com/
 
 SAP HANA Cloud Cockpit
 
-
-
 </td>
 <td valign="top">
 
 Platform users logged on using custom identity providers can use the full range of SAP HANA Cloud Cockpit.
 
 For more information, see [SAP HANA Cockpit](https://help.sap.com/docs/HANA_CLOUD/9630e508caef4578b34db22014998dba/6a42679ed8574fb79e94f3e03e6d57bf.html).
-
-
 
 </td>
 </tr>
@@ -173,14 +143,10 @@ For more information, see [SAP HANA Cockpit](https://help.sap.com/docs/HANA_CLOU
 
 SAP Job Scheduling service 
 
-
-
 </td>
 <td valign="top">
 
 Platform users logged on using custom identity providers can use the SAP Job Scheduling service dashboard.
-
-
 
 </td>
 </tr>
@@ -188,8 +154,6 @@ Platform users logged on using custom identity providers can use the SAP Job Sch
 <td valign="top">
 
 SAP Mobile Services 
-
-
 
 </td>
 <td valign="top">
@@ -200,8 +164,6 @@ Based on their space member roles, platform users can log on using a custom iden
 
 For more information, see [Set Up Customer Accounts](https://help.sap.com/docs/SAP_MOBILE_SERVICES/468990a67780424a9e66eb096d4345bb/d2a9afc1681c4e57a4a0f2039274d250.html) in the SAP Mobile Services documentation.
 
-
-
 </td>
 </tr>
 <tr>
@@ -209,14 +171,10 @@ For more information, see [Set Up Customer Accounts](https://help.sap.com/docs/S
 
 Service Fabrik
 
-
-
 </td>
 <td valign="top">
 
 You can use the Service Fabrik backing service.
-
-
 
 </td>
 </tr>
@@ -231,14 +189,10 @@ You can use the Service Fabrik backing service.
 
 Supported with Restrictions
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -246,8 +200,6 @@ Description
 <td valign="top">
 
 SAP Business Application Studio 
-
-
 
 </td>
 <td valign="top">
@@ -261,16 +213,12 @@ SAP Business Application Studio supports custom identity providers with the foll
 
 For more information, see [Terminal](https://help.sap.com/products/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/8f46c6e6f86641cc900871c903761fd4.html) in the SAP Business Application Studio documentation.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 SAP HANA Service Dashboard
-
-
 
 </td>
 <td valign="top">
@@ -291,16 +239,12 @@ This tool doesn't support log on with a platform user from a custom identity pro
 
 SAP Rapid Application Development by Mendix 
 
-
-
 </td>
 <td valign="top">
 
 You can't perform operations on multi-environment subaccounts, like deployments with SAP Rapid Application Development by Mendix when using a custom identity provider for platform users.
 
 For more information, see [SAP Rapid Application Development by Mendix](https://help.sap.com/docs/Mendix).
-
-
 
 </td>
 </tr>
@@ -309,14 +253,10 @@ For more information, see [SAP Rapid Application Development by Mendix](https://
 
 Service dashboards of services that aren't listed as supported.
 
-
-
 </td>
 <td valign="top">
 
 If you use services with dashboards, you can't access these dashboards with a platform user from a custom identity provider. Using service dashboards is only possible with the default identity provider \(SAP ID service\).
-
-
 
 </td>
 </tr>
@@ -324,8 +264,6 @@ If you use services with dashboards, you can't access these dashboards with a pl
 <td valign="top">
 
 SAP Web IDE 
-
-
 
 </td>
 <td valign="top">

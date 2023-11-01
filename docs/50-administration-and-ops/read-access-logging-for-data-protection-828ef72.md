@@ -17,14 +17,10 @@ The following table lists the log domains that are part of the delivered sample 
 
 Log Domain Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -33,14 +29,10 @@ Description
 
 `BANK` 
 
-
-
 </td>
 <td valign="top">
 
 Data referring to a bank account
-
-
 
 </td>
 </tr>
@@ -49,14 +41,10 @@ Data referring to a bank account
 
 `BIOMETRIC`\*
 
-
-
 </td>
 <td valign="top">
 
 Data referring to biometric data
-
-
 
 </td>
 </tr>
@@ -65,14 +53,10 @@ Data referring to biometric data
 
 `CRIME`\*
 
-
-
 </td>
 <td valign="top">
 
 Data referring to criminal or administrative offenses or suspected criminal or administrative offenses
-
-
 
 </td>
 </tr>
@@ -81,14 +65,10 @@ Data referring to criminal or administrative offenses or suspected criminal or a
 
 `ETHNIC_ORIGIN`\*
 
-
-
 </td>
 <td valign="top">
 
 Data referring to racial or ethnic origin
-
-
 
 </td>
 </tr>
@@ -97,14 +77,10 @@ Data referring to racial or ethnic origin
 
 `GENETIC`\*
 
-
-
 </td>
 <td valign="top">
 
 Data referring to genetic data
-
-
 
 </td>
 </tr>
@@ -113,14 +89,10 @@ Data referring to genetic data
 
 `HEALTH`\*
 
-
-
 </td>
 <td valign="top">
 
 Data referring to health data
-
-
 
 </td>
 </tr>
@@ -129,14 +101,10 @@ Data referring to health data
 
 `POLITICAL_OPINION`\*
 
-
-
 </td>
 <td valign="top">
 
 Data referring to political opinion
-
-
 
 </td>
 </tr>
@@ -145,14 +113,10 @@ Data referring to political opinion
 
 `PROFILE`\*
 
-
-
 </td>
 <td valign="top">
 
 Data which is usually based on profiling like: scoring, rating, unwanted customer
-
-
 
 </td>
 </tr>
@@ -161,14 +125,10 @@ Data which is usually based on profiling like: scoring, rating, unwanted custome
 
 `RELIGION`\*
 
-
-
 </td>
 <td valign="top">
 
 Data referring to religious or philosophical beliefs
-
-
 
 </td>
 </tr>
@@ -177,14 +137,10 @@ Data referring to religious or philosophical beliefs
 
 `SECRECY`\*
 
-
-
 </td>
 <td valign="top">
 
 Data referring to professional secrecy
-
-
 
 </td>
 </tr>
@@ -193,14 +149,10 @@ Data referring to professional secrecy
 
 `SEX_LIFE`\*
 
-
-
 </td>
 <td valign="top">
 
 Data referring to sex life
-
-
 
 </td>
 </tr>
@@ -209,14 +161,10 @@ Data referring to sex life
 
 `SEXUAL_ORIENTATION`\*
 
-
-
 </td>
 <td valign="top">
 
 Data referring to sexual orientation
-
-
 
 </td>
 </tr>
@@ -225,14 +173,10 @@ Data referring to sexual orientation
 
 `SSN` 
 
-
-
 </td>
 <td valign="top">
 
 Data referring to social security number
-
-
 
 </td>
 </tr>
@@ -241,14 +185,10 @@ Data referring to social security number
 
 `TRADE_UNION`\*
 
-
-
 </td>
 <td valign="top">
 
 Data referring to trade union membership
-
-
 
 </td>
 </tr>

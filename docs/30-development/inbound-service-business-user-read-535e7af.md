@@ -29,28 +29,20 @@ The service node contains the search parameters.
 
 Field or Node
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Maximum Field Length
 
-
-
 </th>
 <th valign="top">
 
 Cardinality
-
-
 
 </th>
 </tr>
@@ -61,14 +53,10 @@ Cardinality
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top">
 
 `IntervalBoundaryTypeCode` 
-
-
 
 </td>
 <td valign="top">
@@ -102,21 +90,15 @@ The following values exist:
 
 This field is mandatory if `LowerBoundaryPersonExtID` is set.
 
-
-
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -125,28 +107,20 @@ This field is mandatory if `LowerBoundaryPersonExtID` is set.
 
 `LowerBoundaryPersonExtID` 
 
-
-
 </td>
 <td valign="top">
 
 Employee name
-
-
 
 </td>
 <td valign="top">
 
 60
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -155,8 +129,6 @@ Employee name
 
 `UpperBoundaryPersonExtID` 
 
-
-
 </td>
 <td valign="top">
 
@@ -167,14 +139,10 @@ Employee name
 
 60
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -185,14 +153,10 @@ Employee name
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top">
 
 `IntervalBoundaryTypeCode` 
-
-
 
 </td>
 <td valign="top">
@@ -226,21 +190,15 @@ The following values exist:
 
 This field is mandatory if `LowerBoundaryPersonID` is set.
 
-
-
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -249,8 +207,6 @@ This field is mandatory if `LowerBoundaryPersonID` is set.
 
 `LowerBoundaryPersonID` 
 
-
-
 </td>
 <td valign="top">
 
@@ -261,14 +217,10 @@ This field is mandatory if `LowerBoundaryPersonID` is set.
 
 10
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -277,8 +229,6 @@ This field is mandatory if `LowerBoundaryPersonID` is set.
 
 `UpperBoundaryPersonID` 
 
-
-
 </td>
 <td valign="top">
 
@@ -289,14 +239,10 @@ This field is mandatory if `LowerBoundaryPersonID` is set.
 
 10
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -307,14 +253,10 @@ This field is mandatory if `LowerBoundaryPersonID` is set.
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top">
 
 `IntervalBoundaryTypeCode` 
-
-
 
 </td>
 <td valign="top">
@@ -348,21 +290,15 @@ The following values exist:
 
 This field is mandatory if `LowerBoundaryBusinessPartnerRoleCode` is set.
 
-
-
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -371,28 +307,20 @@ This field is mandatory if `LowerBoundaryBusinessPartnerRoleCode` is set.
 
 `LowerBoundaryBusinessPartnerRoleCode` 
 
-
-
 </td>
 <td valign="top">
 
 Only business partner role code BUP003 \(Employee\) is supported.
-
-
 
 </td>
 <td valign="top">
 
 6
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -403,14 +331,10 @@ Only business partner role code BUP003 \(Employee\) is supported.
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top">
 
 `IntervalBoundaryTypeCode` 
-
-
 
 </td>
 <td valign="top">
@@ -429,14 +353,10 @@ The following values exist:
 
  
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -445,28 +365,20 @@ The following values exist:
 
 `LowerBoundaryMarkedForArchivingIndicator` 
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -477,14 +389,10 @@ The following values exist:
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top">
 
 `IntervalBoundaryTypeCode` 
-
-
 
 </td>
 <td valign="top">
@@ -518,21 +426,15 @@ The following values exist:
 
 This field is mandatory if `LowerBoundaryUserID` is set.
 
-
-
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -541,8 +443,6 @@ This field is mandatory if `LowerBoundaryUserID` is set.
 
 `LowerBoundaryUserID` 
 
-
-
 </td>
 <td valign="top">
 
@@ -553,14 +453,10 @@ This field is mandatory if `LowerBoundaryUserID` is set.
 
 12
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -569,8 +465,6 @@ This field is mandatory if `LowerBoundaryUserID` is set.
 
 `UpperBoundaryUserID` 
 
-
-
 </td>
 <td valign="top">
 
@@ -581,14 +475,10 @@ This field is mandatory if `LowerBoundaryUserID` is set.
 
 12
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -599,14 +489,10 @@ This field is mandatory if `LowerBoundaryUserID` is set.
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top">
 
 `IntervalBoundaryTypeCode` 
-
-
 
 </td>
 <td valign="top">
@@ -640,21 +526,15 @@ The following values exist:
 
 This field is mandatory if `LowerBoundaryUserName` is set.
 
-
-
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -663,8 +543,6 @@ This field is mandatory if `LowerBoundaryUserName` is set.
 
 `LowerBoundaryUserName` 
 
-
-
 </td>
 <td valign="top">
 
@@ -675,14 +553,10 @@ This field is mandatory if `LowerBoundaryUserName` is set.
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -691,8 +565,6 @@ This field is mandatory if `LowerBoundaryUserName` is set.
 
 `UpperBoundaryUserName` 
 
-
-
 </td>
 <td valign="top">
 
@@ -703,14 +575,10 @@ This field is mandatory if `LowerBoundaryUserName` is set.
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -721,14 +589,10 @@ This field is mandatory if `LowerBoundaryUserName` is set.
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top">
 
 `IntervalBoundaryTypeCode` 
-
-
 
 </td>
 <td valign="top">
@@ -762,21 +626,15 @@ The following values exist:
 
 This field is mandatory if `LowerBoundaryFirstName` is set.
 
-
-
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -785,8 +643,6 @@ This field is mandatory if `LowerBoundaryFirstName` is set.
 
 `LowerBoundaryFirstName` 
 
-
-
 </td>
 <td valign="top">
 
@@ -797,14 +653,10 @@ This field is mandatory if `LowerBoundaryFirstName` is set.
 
 35
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -813,8 +665,6 @@ This field is mandatory if `LowerBoundaryFirstName` is set.
 
 `UpperBoundaryFirstName` 
 
-
-
 </td>
 <td valign="top">
 
@@ -825,14 +675,10 @@ This field is mandatory if `LowerBoundaryFirstName` is set.
 
 35
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -843,14 +689,10 @@ This field is mandatory if `LowerBoundaryFirstName` is set.
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top">
 
 `IntervalBoundaryTypeCode` 
-
-
 
 </td>
 <td valign="top">
@@ -884,21 +726,15 @@ The following values exist:
 
 This field is mandatory if `LowerBoundaryLastName` is set.
 
-
-
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -907,28 +743,20 @@ This field is mandatory if `LowerBoundaryLastName` is set.
 
 `LowerBoundaryLastName` 
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -937,28 +765,20 @@ This field is mandatory if `LowerBoundaryLastName` is set.
 
 `UpperBoundaryLastName` 
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -969,35 +789,25 @@ This field is mandatory if `LowerBoundaryLastName` is set.
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top">
 
 `IntervalBoundaryTypeCode` 
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -1006,8 +816,6 @@ Cardinality: 0..unbounded
 
 `LowerBoundaryEmailAddress` 
 
-
-
 </td>
 <td valign="top">
 
@@ -1018,14 +826,10 @@ Cardinality: 0..unbounded
 
 241
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -1034,8 +838,6 @@ Cardinality: 0..unbounded
 
 `UpperBoundaryEmailAddress` 
 
-
-
 </td>
 <td valign="top">
 
@@ -1046,14 +848,10 @@ Cardinality: 0..unbounded
 
 241
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -1072,28 +870,20 @@ The service nodes contain the service's business data.
 
 Field
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Maximum Field Length
 
-
-
 </th>
 <th valign="top">
 
 Cardinality
-
-
 
 </th>
 </tr>
@@ -1101,8 +891,6 @@ Cardinality
 <td valign="top">
 
 `QueryHitsTotalNumberIndicator` 
-
-
 
 </td>
 <td valign="top">
@@ -1121,14 +909,10 @@ The following values exist:
 
  
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -1137,28 +921,20 @@ The following values exist:
 
 `QueryHitsMaximumNumberValue` 
 
-
-
 </td>
 <td valign="top">
 
 Enter the maximum number of hits. If no value is entered, the default is automatically set to 1000.
-
-
 
 </td>
 <td valign="top">
 
 999999999
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -1166,8 +942,6 @@ Enter the maximum number of hits. If no value is entered, the default is automat
 <td valign="top">
 
 `QueryHitsUnlimitedIndicator` 
-
-
 
 </td>
 <td valign="top">
@@ -1181,8 +955,6 @@ The following values exist:
 
 Set **True** to get all data based on selection criteria.
 
-
-
 </td>
 <td valign="top">
 
@@ -1193,16 +965,12 @@ Set **True** to get all data based on selection criteria.
 
 1
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `QueryLastReturnedObjectID` 
-
-
 
 </td>
 <td valign="top">
@@ -1216,21 +984,15 @@ The following values exist:
 
 If `QueryHitsMaximumNumberValue` is set and more data is available, you can set this value to **True**.
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -1287,28 +1049,20 @@ If `QueryHitsMaximumNumberValue` is set and more data is available, you can set 
 
 Node or Field
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Maximum Field Length
 
-
-
 </th>
 <th valign="top">
 
 Cardinality
-
-
 
 </th>
 </tr>
@@ -1317,28 +1071,20 @@ Cardinality
 
 `PersonExternalID` 
 
-
-
 </td>
 <td valign="top">
 
 Person External ID
-
-
 
 </td>
 <td valign="top">
 
 60
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -1347,28 +1093,20 @@ Person External ID
 
 `PersonID` 
 
-
-
 </td>
 <td valign="top">
 
 Person ID
-
-
 
 </td>
 <td valign="top">
 
 10
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -1377,28 +1115,20 @@ Person ID
 
 `PersonUUID` 
 
-
-
 </td>
 <td valign="top">
 
 Person UUID
-
-
 
 </td>
 <td valign="top">
 
 36
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -1407,28 +1137,20 @@ Person UUID
 
 `BusinessPartnerRoleCode` 
 
-
-
 </td>
 <td valign="top">
 
 Business Partner Role Code
-
-
 
 </td>
 <td valign="top">
 
 6
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -1436,8 +1158,6 @@ Business Partner Role Code
 <td valign="top" colspan="3">
 
 `MarkedForArchivingIndicator` 
-
-
 
 </td>
 <td valign="top">
@@ -1454,14 +1174,10 @@ Business Partner Role Code
 
  
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -1472,14 +1188,10 @@ Business Partner Role Code
 
 Cardinality: 0..1
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 `StartDate` 
-
-
 
 </td>
 <td valign="top">
@@ -1487,8 +1199,6 @@ Cardinality: 0..1
 Format:
 
 YYYY-MM-DD
-
-
 
 </td>
 <td valign="top">
@@ -1499,8 +1209,6 @@ YYYY-MM-DD
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -1509,16 +1217,12 @@ YYYY-MM-DD
 
 `EndDate` 
 
-
-
 </td>
 <td valign="top">
 
 Format:
 
 YYYY-MM-DD
-
-
 
 </td>
 <td valign="top">
@@ -1529,8 +1233,6 @@ YYYY-MM-DD
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -1541,35 +1243,25 @@ YYYY-MM-DD
 
 Cardinality: 0..1
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 `FormOfAddress` 
-
-
 
 </td>
 <td valign="top">
 
 Form of address
 
-
-
 </td>
 <td valign="top">
 
 4
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -1578,28 +1270,20 @@ Form of address
 
 `FirstName` 
 
-
-
 </td>
 <td valign="top">
 
 First name
-
-
 
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -1608,28 +1292,20 @@ First name
 
 `LastName` 
 
-
-
 </td>
 <td valign="top">
 
 Last name
-
-
 
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -1638,28 +1314,20 @@ Last name
 
 `PersonFullName` 
 
-
-
 </td>
 <td valign="top">
 
 Person full name
-
-
 
 </td>
 <td valign="top">
 
 80
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -1668,28 +1336,20 @@ Person full name
 
 `AcademicTitle` 
 
-
-
 </td>
 <td valign="top">
 
 Academic title
-
-
 
 </td>
 <td valign="top">
 
 4
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -1698,28 +1358,20 @@ Academic title
 
 `CorrespondenceLanguage` 
 
-
-
 </td>
 <td valign="top">
 
 Correspondence language
-
-
 
 </td>
 <td valign="top">
 
 9
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -1728,28 +1380,20 @@ Correspondence language
 
 `MiddleName` 
 
-
-
 </td>
 <td valign="top">
 
 Middle name
-
-
 
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -1758,28 +1402,20 @@ Middle name
 
 `AdditionalLastName` 
 
-
-
 </td>
 <td valign="top">
 
 Additional last name
-
-
 
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -1788,28 +1424,20 @@ Additional last name
 
 `BirthName` 
 
-
-
 </td>
 <td valign="top">
 
 Birth name
-
-
 
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -1818,28 +1446,20 @@ Birth name
 
 `NickName` 
 
-
-
 </td>
 <td valign="top">
 
 Nick name
-
-
 
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -1848,28 +1468,20 @@ Nick name
 
 `Initials` 
 
-
-
 </td>
 <td valign="top">
 
 Initials
-
-
 
 </td>
 <td valign="top">
 
 10
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -1878,28 +1490,20 @@ Initials
 
 `AcademicSecondTitle` 
 
-
-
 </td>
 <td valign="top">
 
 Academic second title
-
-
 
 </td>
 <td valign="top">
 
 4
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -1908,28 +1512,20 @@ Academic second title
 
 `LastNamePrefix` 
 
-
-
 </td>
 <td valign="top">
 
 Last name prefix
-
-
 
 </td>
 <td valign="top">
 
 4
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -1938,28 +1534,20 @@ Last name prefix
 
 `LastNameSecondPrefix` 
 
-
-
 </td>
 <td valign="top">
 
 Last name second prefix
-
-
 
 </td>
 <td valign="top">
 
 4
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -1968,28 +1556,20 @@ Last name second prefix
 
 `NameSupplement` 
 
-
-
 </td>
 <td valign="top">
 
 Name supplement
-
-
 
 </td>
 <td valign="top">
 
 4
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -2000,35 +1580,25 @@ Name supplement
 
 Cardinality: 0..1
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 `UserID` 
-
-
 
 </td>
 <td valign="top">
 
 User ID
 
-
-
 </td>
 <td valign="top">
 
 12
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -2037,28 +1607,20 @@ User ID
 
 `UserName` 
 
-
-
 </td>
 <td valign="top">
 
 User name/Alias
-
-
 
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -2067,28 +1629,20 @@ User name/Alias
 
 `LogonLanguageCode` 
 
-
-
 </td>
 <td valign="top">
 
 Logon language
-
-
 
 </td>
 <td valign="top">
 
 9
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -2096,8 +1650,6 @@ Logon language
 <td valign="top" colspan="2">
 
 `DateFormatCode` 
-
-
 
 </td>
 <td valign="top">
@@ -2136,14 +1688,10 @@ The following values exist:
 
 2
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -2151,8 +1699,6 @@ The following values exist:
 <td valign="top" colspan="2">
 
 `DecimalFormatCode` 
-
-
 
 </td>
 <td valign="top">
@@ -2173,14 +1719,10 @@ The following values exist:
 
 2
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -2189,28 +1731,20 @@ The following values exist:
 
 `TimeZoneCode` 
 
-
-
 </td>
 <td valign="top">
 
 Time zone
-
-
 
 </td>
 <td valign="top">
 
 10
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -2218,8 +1752,6 @@ Time zone
 <td valign="top" colspan="2">
 
 `TimeFormatCode` 
-
-
 
 </td>
 <td valign="top">
@@ -2244,14 +1776,10 @@ The following values exist:
 
 2
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -2260,28 +1788,20 @@ The following values exist:
 
 `LockedIndicator` 
 
-
-
 </td>
 <td valign="top">
 
 Locked indicator
-
-
 
 </td>
 <td valign="top">
 
 5
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -2292,14 +1812,10 @@ Locked indicator
 
 Cardinality: 1
 
-
-
 </td>
 <td valign="top">
 
 `StartDate` 
-
-
 
 </td>
 <td valign="top">
@@ -2310,21 +1826,15 @@ YYYY-MM-DD
 
 If no start date is maintained for the `User`, the `StartDate` for the `BusinessUser` is entered.
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -2332,8 +1842,6 @@ If no start date is maintained for the `User`, the `StartDate` for the `Business
 <td valign="top">
 
 `EndDate` 
-
-
 
 </td>
 <td valign="top">
@@ -2344,21 +1852,15 @@ YYYY-MM-DD
 
 If no `EndDate` is maintained, it is set to 9999-12-31.
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -2369,35 +1871,25 @@ If no `EndDate` is maintained, it is set to 9999-12-31.
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top">
 
 `RoleName` 
-
-
 
 </td>
 <td valign="top">
 
 Role name
 
-
-
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -2408,35 +1900,25 @@ Role name
 
 Cardinality: 0..1
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 `UserID` 
-
-
 
 </td>
 <td valign="top">
 
 User ID
 
-
-
 </td>
 <td valign="top">
 
 12
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -2444,8 +1926,6 @@ User ID
 <td valign="top" colspan="2">
 
 `UserName` 
-
-
 
 </td>
 <td valign="top">
@@ -2457,14 +1937,10 @@ User ID
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -2472,8 +1948,6 @@ User ID
 <td valign="top" colspan="2">
 
 `UserAssignmentStatusCode` 
-
-
 
 </td>
 <td valign="top">
@@ -2492,14 +1966,10 @@ The following values exist:
 
 1
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -2510,35 +1980,25 @@ The following values exist:
 
 Cardinality: 0..1
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 `EmailAddress` 
-
-
 
 </td>
 <td valign="top">
 
 Email address
 
-
-
 </td>
 <td valign="top">
 
 241
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -2551,35 +2011,25 @@ Cardinality: 0..2
 
 One set of phone information per phone type supported.
 
-
-
 </td>
 <td valign="top">
 
 `PhoneType` 
-
-
 
 </td>
 <td valign="top">
 
 Phone type
 
-
-
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -2588,28 +2038,20 @@ Phone type
 
 `CountryDialingCode` 
 
-
-
 </td>
 <td valign="top">
 
 Country dialing code
-
-
 
 </td>
 <td valign="top">
 
 10
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -2618,28 +2060,20 @@ Country dialing code
 
 `PhoneNumberAreaID` 
 
-
-
 </td>
 <td valign="top">
 
 Phone number area code
-
-
 
 </td>
 <td valign="top">
 
 10
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -2648,28 +2082,20 @@ Phone number area code
 
 `PhoneNumberSubscriberID` 
 
-
-
 </td>
 <td valign="top">
 
 Phone number subscriber ID
-
-
 
 </td>
 <td valign="top">
 
 30
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -2678,28 +2104,20 @@ Phone number subscriber ID
 
 `PhoneNumberExtension` 
 
-
-
 </td>
 <td valign="top">
 
 Phone number extension
-
-
 
 </td>
 <td valign="top">
 
 10
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -2708,28 +2126,20 @@ Phone number extension
 
 `FunctionalTitleName` 
 
-
-
 </td>
 <td valign="top">
 
 Functional title name
-
-
 
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -2738,28 +2148,20 @@ Functional title name
 
 `Department` 
 
-
-
 </td>
 <td valign="top">
 
 Department name
-
-
 
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -2768,28 +2170,20 @@ Department name
 
 `RoomNumber` 
 
-
-
 </td>
 <td valign="top">
 
 Room number
-
-
 
 </td>
 <td valign="top">
 
 10
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -2798,28 +2192,20 @@ Room number
 
 `Building` 
 
-
-
 </td>
 <td valign="top">
 
 Building name
-
-
 
 </td>
 <td valign="top">
 
 10
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -2834,28 +2220,20 @@ Building name
 
 Field
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Maximum Field Length
 
-
-
 </th>
 <th valign="top">
 
 Cardinality
-
-
 
 </th>
 </tr>
@@ -2864,28 +2242,20 @@ Cardinality
 
 `HitsTotalNumberValue` 
 
-
-
 </td>
 <td valign="top">
 
 Contains the number of users based on given criteria.
-
-
 
 </td>
 <td valign="top">
 
 999999999
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -2894,28 +2264,20 @@ Contains the number of users based on given criteria.
 
 `ReturnedQueryHitsNumberValue` 
 
-
-
 </td>
 <td valign="top">
 
 Contains the number of found data sets for business users.
-
-
 
 </td>
 <td valign="top">
 
 999999999
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -2924,14 +2286,10 @@ Contains the number of found data sets for business users.
 
 `MoreHitsAvailableIndiactor` 
 
-
-
 </td>
 <td valign="top">
 
 The indicator is set if the query was limited to a number of hits, but more business user data sets are available based on the query.
-
-
 
 </td>
 <td valign="top">
@@ -2943,8 +2301,6 @@ The indicator is set if the query was limited to a number of hits, but more busi
 
 1
 
-
-
 </td>
 </tr>
 <tr>
@@ -2952,28 +2308,20 @@ The indicator is set if the query was limited to a number of hits, but more busi
 
 `LastReturnedObjectID` 
 
-
-
 </td>
 <td valign="top">
 
 Displays the last row of the results list limited by the found hits or by the value given for `QueryHitsMaximumNumberValue`.
-
-
 
 </td>
 <td valign="top">
 
 999999999
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -2990,28 +2338,20 @@ If errors occur, the log contains the information shown in the table below:
 
 Field or Node
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Maximum Field Length
 
-
-
 </th>
 <th valign="top">
 
 Cardinality
-
-
 
 </th>
 </tr>
@@ -3019,8 +2359,6 @@ Cardinality
 <td valign="top" colspan="2">
 
 `BusinessDocumentProcessingResultCode`
-
-
 
 </td>
 <td valign="top">
@@ -3032,14 +2370,10 @@ Cardinality
 
 2
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -3048,28 +2382,20 @@ Cardinality
 
 `MaximumLogItemSeverityCode` 
 
-
-
 </td>
 <td valign="top">
 
 If several messages are stored for a business user, the most severe level is shown from the maximum of all received severity codes.
-
-
 
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -3080,35 +2406,25 @@ If several messages are stored for a business user, the most severe level is sho
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top">
 
 TypeID
-
-
 
 </td>
 <td valign="top">
 
 Message number
 
-
-
 </td>
 <td valign="top">
 
 40
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -3117,28 +2433,20 @@ Message number
 
 CateoryCode
 
-
-
 </td>
 <td valign="top">
 
 Not in use
-
-
 
 </td>
 <td valign="top">
 
 15
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -3146,8 +2454,6 @@ Not in use
 <td valign="top">
 
 SeverityCode
-
-
 
 </td>
 <td valign="top">
@@ -3168,14 +2474,10 @@ Severity code definition:
 
 1
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -3184,28 +2486,20 @@ Severity code definition:
 
 Note
 
-
-
 </td>
 <td valign="top">
 
 Contains the message texts.
-
-
 
 </td>
 <td valign="top">
 
 200
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -3214,14 +2508,10 @@ Contains the message texts.
 
 WebURI
 
-
-
 </td>
 <td valign="top">
 
 Not in use
-
-
 
 </td>
 <td valign="top">
@@ -3232,8 +2522,6 @@ Not in use
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>

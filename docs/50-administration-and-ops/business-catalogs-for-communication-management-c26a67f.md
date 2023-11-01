@@ -15,21 +15,15 @@ You assign business catalogs to business roles that are assigned to business use
 
 Business Role Catalog
 
-
-
 </th>
 <th valign="top">
 
 Authorizations
 
-
-
 </th>
 <th valign="top">
 
 Restrictions
-
-
 
 </th>
 </tr>
@@ -40,21 +34,15 @@ Restrictions
 
 SAP\_CORE\_BC\_COM
 
-
-
 </td>
 <td valign="top">
 
 All authorizations for the COM apps
 
-
-
 </td>
 <td valign="top">
 
 None
-
-
 
 </td>
 </tr>

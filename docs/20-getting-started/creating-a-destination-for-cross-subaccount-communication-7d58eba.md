@@ -24,15 +24,11 @@ Learn how to create a destination with SAML assertion authentication to establis
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     User Input
-
-
     
     </th>
     </tr>
@@ -40,15 +36,11 @@ Learn how to create a destination with SAML assertion authentication to establis
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
     
     Enter a name for the destination, for example `SAP_Business_Application_Studio`.
-
-
     
     </td>
     </tr>
@@ -56,15 +48,11 @@ Learn how to create a destination with SAML assertion authentication to establis
     <td valign="top">
     
     *Type* 
-
-
     
     </td>
     <td valign="top">
     
     *HTTP* 
-
-
     
     </td>
     </tr>
@@ -72,15 +60,11 @@ Learn how to create a destination with SAML assertion authentication to establis
     <td valign="top">
     
     *Description*
-
-
     
     </td>
     <td valign="top">
     
     Optionally, enter a description.
-
-
     
     </td>
     </tr>
@@ -88,15 +72,11 @@ Learn how to create a destination with SAML assertion authentication to establis
     <td valign="top">
     
     *URL*
-
-
     
     </td>
     <td valign="top">
     
     Enter the URL of your system by copying the *Host Name* from the *Communications Systems* app, for example `1a354373-d200-46f6-9d5c-daab9a65d9b6.abap.eu10.hana.ondemand.com` 
-
-
     
     </td>
     </tr>
@@ -104,15 +84,11 @@ Learn how to create a destination with SAML assertion authentication to establis
     <td valign="top">
     
     *Proxy Type*
-
-
     
     </td>
     <td valign="top">
     
     *Internet*
-
-
     
     </td>
     </tr>
@@ -120,15 +96,11 @@ Learn how to create a destination with SAML assertion authentication to establis
     <td valign="top">
     
     *Authentication*
-
-
     
     </td>
     <td valign="top">
     
     *SAMLAssertion​*
-
-
     
     </td>
     </tr>
@@ -136,15 +108,11 @@ Learn how to create a destination with SAML assertion authentication to establis
     <td valign="top">
     
     *Audience*
-
-
     
     </td>
     <td valign="top">
     
     Enter the URL of your system and add `-web` as follows `1a354373-d200-46f6-9d5c-daab9a65d9b6.abap-web.eu10.hana.ondemand.com`
-
-
     
     </td>
     </tr>
@@ -152,15 +120,11 @@ Learn how to create a destination with SAML assertion authentication to establis
     <td valign="top">
     
     *AuthnContextClassRef*
-
-
     
     </td>
     <td valign="top">
     
     *urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession*
-
-
     
     </td>
     </tr>
@@ -174,15 +138,11 @@ Learn how to create a destination with SAML assertion authentication to establis
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Value
-
-
     
     </th>
     </tr>
@@ -190,15 +150,11 @@ Learn how to create a destination with SAML assertion authentication to establis
     <td valign="top">
     
     *HTML5.DynamicDestination*
-
-
     
     </td>
     <td valign="top">
     
     `true`
-
-
     
     </td>
     </tr>
@@ -206,15 +162,11 @@ Learn how to create a destination with SAML assertion authentication to establis
     <td valign="top">
     
     *HTML5.Timeout*​
-
-
     
     </td>
     <td valign="top">
     
     `60000`
-
-
     
     </td>
     </tr>
@@ -222,15 +174,11 @@ Learn how to create a destination with SAML assertion authentication to establis
     <td valign="top">
     
     *WebIDEEnabled*
-
-
     
     </td>
     <td valign="top">
     
     `true`
-
-
     
     </td>
     </tr>
@@ -238,15 +186,11 @@ Learn how to create a destination with SAML assertion authentication to establis
     <td valign="top">
     
     *WebIDEUsage*
-
-
     
     </td>
     <td valign="top">
     
     `odata_abap,dev_abap`
-
-
     
     </td>
     </tr>
@@ -254,8 +198,6 @@ Learn how to create a destination with SAML assertion authentication to establis
     <td valign="top">
     
     *nameIdFormat*
-
-
     
     </td>
     <td valign="top">
@@ -267,8 +209,6 @@ Learn how to create a destination with SAML assertion authentication to establis
     urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified
 
     depending on the login\_attribute configuration chosen during ABAP system provisioning \(see [Creating ABAP System](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-abap-system?version=Cloud)\)
-
-
     
     </td>
     </tr>

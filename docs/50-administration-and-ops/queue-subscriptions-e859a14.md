@@ -24,14 +24,10 @@ Ensure that the pattern of the topic, to which the queue is subscribed, consists
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -39,8 +35,6 @@ Description
 <td valign="top">
 
 Topic namespace
-
-
 
 </td>
 <td valign="top">
@@ -60,14 +54,10 @@ Topic namespace
 
 Abbreviation
 
-
-
 </td>
 <td valign="top">
 
 Value `ce` for cloud events
-
-
 
 </td>
 </tr>
@@ -76,14 +66,10 @@ Value `ce` for cloud events
 
 Event topic
 
-
-
 </td>
 <td valign="top">
 
 Value as displayed in the value help in the previous *Outbound Topic Binding* configuration step.
-
-
 
 </td>
 </tr>

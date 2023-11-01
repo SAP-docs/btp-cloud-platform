@@ -23,14 +23,10 @@ You can change to the following subaccount details:
 
 Field
 
-
-
 </th>
 <th valign="top">
 
 Details
-
-
 
 </th>
 </tr>
@@ -39,14 +35,10 @@ Details
 
 Display Name
 
-
-
 </td>
 <td valign="top">
 
 Specify a human-readable name for your subaccount and change it later on, if necessary. This way you can distinguish between multiple subaccounts.
-
-
 
 </td>
 </tr>
@@ -55,14 +47,10 @@ Specify a human-readable name for your subaccount and change it later on, if nec
 
 Description
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\) Specify a short descriptive text about the subaccount.
-
-
 
 </td>
 </tr>
@@ -70,8 +58,6 @@ Description
 <td valign="top">
 
 Used for production
-
-
 
 </td>
 <td valign="top">
@@ -82,16 +68,12 @@ This does not change the configuration of your subaccount. Use this flag for you
 
 Do not select this option if your account is used for non-production purposes, such as development, testing, and demos.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Enable beta features
-
-
 
 </td>
 <td valign="top">
@@ -119,14 +101,10 @@ Enable beta features
 
 Field
 
-
-
 </th>
 <th valign="top">
 
 Details
-
-
 
 </th>
 </tr>
@@ -135,14 +113,10 @@ Details
 
 Display Name
 
-
-
 </td>
 <td valign="top">
 
 Specify a human-readable name for your subaccount and change it later on, if necessary. This way you can distinguish between multiple subaccounts.
-
-
 
 </td>
 </tr>
@@ -151,14 +125,10 @@ Specify a human-readable name for your subaccount and change it later on, if nec
 
 Description
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\) Specify a short descriptive text about the subaccount.
-
-
 
 </td>
 </tr>
@@ -167,8 +137,6 @@ Description
 
 Parent
 
-
-
 </td>
 <td valign="top">
 
@@ -176,16 +144,12 @@ Change the parent of your subaccount.
 
 When you create a subaccount, this is added as a direct child of the global account you created it in. You can change your subaccount's parent and add it to a directory, move it from one directory to another, or remove from a directory by making the global account its parent once again.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Used for production
-
-
 
 </td>
 <td valign="top">
@@ -196,16 +160,12 @@ This does not change the configuration of your subaccount. Use this flag for you
 
 Do not select this option if your account is used for non-production purposes, such as development, testing, and demos.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Labels
-
-
 
 </td>
 <td valign="top">
@@ -224,8 +184,6 @@ Labels
 <td valign="top">
 
 Enable beta features
-
-
 
 </td>
 <td valign="top">

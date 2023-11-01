@@ -84,21 +84,15 @@ You use this token to manage the SAP SaaS Provisioning service APIs.
 
 Header
 
-
-
 </th>
 <th valign="top">
 
 Required
 
-
-
 </th>
 <th valign="top">
 
 Values
-
-
 
 </th>
 </tr>
@@ -107,21 +101,15 @@ Values
 
 `Content-Type`
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 *<application/x-www-form-urlencoded\>*
-
-
 
 </td>
 </tr>
@@ -130,14 +118,10 @@ Yes
 
 `Authorization`
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
@@ -145,8 +129,6 @@ Yes
 Basic *<encodedString\>* where *<encodedString\>* is the result of base64 encoding the OAuth client's values as `clientId`:`clientSecret` that you obtained from the binding object as described in the previous section.
 
 For more information about the base64 encoding, see [Base64](https://www.base64encode.org/)
-
-
 
 </td>
 </tr>
@@ -163,35 +145,25 @@ For more information about the base64 encoding, see [Base64](https://www.base64e
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Required
-
-
 
 </th>
 <th valign="top">
 
 Data Type
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Parameter Type
-
-
 
 </th>
 </tr>
@@ -200,21 +172,15 @@ Parameter Type
 
 `grant_type`
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
@@ -223,14 +189,10 @@ The type of the authorization that is supported by the authorization server.
 
 Set it to `client_credentials`.
 
-
-
 </td>
 <td valign="top">
 
 Authorization protocol
-
-
 
 </td>
 </tr>
@@ -239,21 +201,15 @@ Authorization protocol
 
 `client_id`
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
@@ -262,14 +218,10 @@ The ID of the client associated with the `SaaS Provisioning` service instance.
 
 Obtained from the service binding object. See the section Obtaining API Request Parameters of this document for details.
 
-
-
 </td>
 <td valign="top">
 
 Relative URL path or JavaScript source code
-
-
 
 </td>
 </tr>
@@ -322,14 +274,10 @@ Generates the access token for a multitenant application.
 
 Header
 
-
-
 </th>
 <th valign="top">
 
 Values
-
-
 
 </th>
 </tr>
@@ -338,14 +286,10 @@ Values
 
 `Content-Type`
 
-
-
 </td>
 <td valign="top">
 
 <application/json;charset=UTF-8\>
-
-
 
 </td>
 </tr>
@@ -362,14 +306,10 @@ Values
 
 Code
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -378,14 +318,10 @@ Description
 
 200
 
-
-
 </td>
 <td valign="top">
 
 Access token created successfully.
-
-
 
 </td>
 </tr>
@@ -402,21 +338,15 @@ Access token created successfully.
 
 Property Name
 
-
-
 </th>
 <th valign="top">
 
 Property Type
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -425,14 +355,10 @@ Description
 
 `access_token` 
 
-
-
 </td>
 <td valign="top">
 
 JWT
-
-
 
 </td>
 <td valign="top">
@@ -443,8 +369,6 @@ This is the value for which you call the API
 
 .
 
-
-
 </td>
 </tr>
 <tr>
@@ -452,21 +376,15 @@ This is the value for which you call the API
 
 `token_type`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 The type of access token issued.
-
-
 
 </td>
 </tr>
@@ -475,21 +393,15 @@ The type of access token issued.
 
 `expires_in`
 
-
-
 </td>
 <td valign="top">
 
 Number
 
-
-
 </td>
 <td valign="top">
 
 The number of seconds until the access token expires.
-
-
 
 </td>
 </tr>
@@ -498,21 +410,15 @@ The number of seconds until the access token expires.
 
 `scope`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 A space-delimited list of scopes that you authorized for the client.
-
-
 
 </td>
 </tr>
@@ -521,21 +427,15 @@ A space-delimited list of scopes that you authorized for the client.
 
 `jti`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 A globally unique identifier for JWT.
-
-
 
 </td>
 </tr>

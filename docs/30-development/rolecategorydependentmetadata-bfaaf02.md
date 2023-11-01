@@ -20,21 +20,15 @@
 
 Node or Field
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Cardinality
-
-
 
 </th>
 </tr>
@@ -45,28 +39,20 @@ Cardinality
 
 Cardinality: 1..1
 
-
-
 </td>
 <td valign="top" colspan="4">
 
 `BusinessPartnerRoleCategoryCode`
-
-
 
 </td>
 <td valign="top">
 
 For example: `BUP003` 
 
-
-
 </td>
 <td valign="top">
 
 1..1
-
-
 
 </td>
 </tr>
@@ -75,28 +61,20 @@ For example: `BUP003`
 
 `Description`
 
-
-
 </td>
 <td valign="top" colspan="3">
 
 `languageCode`
-
-
 
 </td>
 <td valign="top">
 
 For example: Employee
 
-
-
 </td>
 <td valign="top">
 
 0..unbounded
-
-
 
 </td>
 </tr>
@@ -107,28 +85,20 @@ For example: Employee
 
 Cardinality: 1..1
 
-
-
 </td>
 <td valign="top" colspan="3">
 
 `BusinessPartnerRoleCode`
-
-
 
 </td>
 <td valign="top">
 
 For example: `BBP005`
 
-
-
 </td>
 <td valign="top">
 
 1..1
-
-
 
 </td>
 </tr>
@@ -137,28 +107,20 @@ For example: `BBP005`
 
 `Description`
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 `languageCode`
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 0..unbounded
-
-
 
 </td>
 </tr>
@@ -167,21 +129,15 @@ For example: `BBP005`
 
 `DefaultIndicator`
 
-
-
 </td>
 <td valign="top">
 
 Can be *true* or *false*
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -192,28 +148,20 @@ Can be *true* or *false*
 
 Cardinality: 0..1
 
-
-
 </td>
 <td valign="top" colspan="4">
 
 `BusinessPartnerExternalIDCategoryCode`
-
-
 
 </td>
 <td valign="top">
 
 For example: `HCM030`
 
-
-
 </td>
 <td valign="top">
 
 1..1
-
-
 
 </td>
 </tr>
@@ -222,28 +170,20 @@ For example: `HCM030`
 
 `Description`
 
-
-
 </td>
 <td valign="top" colspan="3">
 
 `languageCode`
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 0..unbounded
-
-
 
 </td>
 </tr>
@@ -254,28 +194,20 @@ For example: `HCM030`
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top" colspan="3">
 
 `BusinessPartnerExternalIDCode`
-
-
 
 </td>
 <td valign="top">
 
 For example: `HCM030`
 
-
-
 </td>
 <td valign="top">
 
 1..1
-
-
 
 </td>
 </tr>
@@ -284,28 +216,20 @@ For example: `HCM030`
 
 `Description`
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 `languageCode`
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 0..unbounded
-
-
 
 </td>
 </tr>
@@ -314,21 +238,15 @@ For example: `HCM030`
 
 `DefaultIndicator`
 
-
-
 </td>
 <td valign="top">
 
 The value can be either*true* or *false*
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -339,28 +257,20 @@ The value can be either*true* or *false*
 
 Cardinality: 0..1
 
-
-
 </td>
 <td valign="top" colspan="4">
 
 `BusinessPartnerRelationshipCategoryCode`
-
-
 
 </td>
 <td valign="top">
 
 For example: `BUR025`
 
-
-
 </td>
 <td valign="top">
 
 1..1
-
-
 
 </td>
 </tr>
@@ -369,28 +279,20 @@ For example: `BUR025`
 
 `Description`
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 `languageCode`
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 0..unbounded
-
-
 
 </td>
 </tr>
@@ -401,14 +303,10 @@ For example: `BUR025`
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 `BusinessPartnerCategoryCode`
-
-
 
 </td>
 <td valign="top">
@@ -427,8 +325,6 @@ Can be:
 
 1..1
 
-
-
 </td>
 </tr>
 <tr>
@@ -436,28 +332,20 @@ Can be:
 
 `Description`
 
-
-
 </td>
 <td valign="top">
 
 `languageCode`
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 0..unbounded
-
-
 
 </td>
 </tr>
@@ -468,14 +356,10 @@ Can be:
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 `BusinessPartnerCategoryCode`
-
-
 
 </td>
 <td valign="top">
@@ -492,8 +376,6 @@ Can be:
 
 1..1
 
-
-
 </td>
 </tr>
 <tr>
@@ -501,28 +383,20 @@ Can be:
 
 `Description`
 
-
-
 </td>
 <td valign="top">
 
 `languageCode`
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 0..unbounded
-
-
 
 </td>
 </tr>
@@ -533,28 +407,20 @@ Can be:
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top" colspan="4">
 
 `NodePath`
-
-
 
 </td>
 <td valign="top">
 
 For example: `BUSINESS_USER`
 
-
-
 </td>
 <td valign="top">
 
 1..1
-
-
 
 </td>
 </tr>
@@ -565,14 +431,10 @@ For example: `BUSINESS_USER`
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 `NodePropertyCode`
-
-
 
 </td>
 <td valign="top" rowspan="2">
@@ -593,8 +455,6 @@ Node property codes are:
 
 1..1
 
-
-
 </td>
 </tr>
 <tr>
@@ -602,21 +462,15 @@ Node property codes are:
 
 `Description`
 
-
-
 </td>
 <td valign="top">
 
 `languageCode`
 
-
-
 </td>
 <td valign="top">
 
 0..unbounded
-
-
 
 </td>
 </tr>
@@ -627,14 +481,10 @@ Node property codes are:
 
 0..unbounded
 
-
-
 </td>
 <td valign="top" colspan="4">
 
 `NodePath`
-
-
 
 </td>
 <td valign="top">
@@ -652,8 +502,6 @@ For example:
 
 1..1
 
-
-
 </td>
 </tr>
 <tr>
@@ -661,21 +509,15 @@ For example:
 
 `Fieldname`
 
-
-
 </td>
 <td valign="top">
 
 Name of a field.
 
-
-
 </td>
 <td valign="top">
 
 1..1
-
-
 
 </td>
 </tr>
@@ -686,14 +528,10 @@ Name of a field.
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 `FieldPropertyCode`
-
-
 
 </td>
 <td valign="top">
@@ -720,8 +558,6 @@ Node property codes are:
 
 1..1
 
-
-
 </td>
 </tr>
 <tr>
@@ -729,28 +565,20 @@ Node property codes are:
 
 `Description`
 
-
-
 </td>
 <td valign="top">
 
 `languageCode`
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 0..unbounded
-
-
 
 </td>
 </tr>

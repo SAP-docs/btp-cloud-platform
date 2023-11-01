@@ -53,21 +53,15 @@ The `hide-secret` element defines whether the client secret is omitted.
 
 Element
 
-
-
 </th>
 <th valign="top">
 
 Value
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -76,21 +70,15 @@ Description
 
 hide-secret
 
-
-
 </td>
 <td valign="top">
 
 `true` 
 
-
-
 </td>
 <td valign="top">
 
 The client secret is omitted in the binding information.
-
-
 
 </td>
 </tr>
@@ -99,14 +87,10 @@ The client secret is omitted in the binding information.
 
 `false` \(default\)
 
-
-
 </td>
 <td valign="top">
 
 The client secret is included in the binding information.
-
-
 
 </td>
 </tr>

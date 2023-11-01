@@ -86,57 +86,41 @@ Selections are a central concept within the XCO XLSX module. A selection is base
 
  
 
-
-
 </th>
 <th valign="top">
 
 A
-
-
 
 </th>
 <th valign="top">
 
 B
 
-
-
 </th>
 <th valign="top">
 
 C
-
-
 
 </th>
 <th valign="top">
 
 D
 
-
-
 </th>
 <th valign="top">
 
 E
-
-
 
 </th>
 <th valign="top">
 
 F
 
-
-
 </th>
 <th valign="top">
 
 ...
 
-
-
 </th>
 </tr>
 <tr>
@@ -144,56 +128,40 @@ F
 
 1
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -202,56 +170,40 @@ F
 
 2
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 2
 
-
-
 </td>
 <td valign="top">
 
 3
-
-
 
 </td>
 <td valign="top">
 
 4
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -260,56 +212,40 @@ F
 
 3
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 5
 
-
-
 </td>
 <td valign="top">
 
 6
-
-
 
 </td>
 <td valign="top">
 
 7
 
-
-
 </td>
 <td valign="top">
 
 8
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -318,56 +254,40 @@ F
 
 4
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 9
 
-
-
 </td>
 <td valign="top">
 
 10
-
-
 
 </td>
 <td valign="top">
 
 11
 
-
-
 </td>
 <td valign="top">
 
 12
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -376,56 +296,40 @@ F
 
 5
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 13
 
-
-
 </td>
 <td valign="top">
 
 14
-
-
 
 </td>
 <td valign="top">
 
 15
 
-
-
 </td>
 <td valign="top">
 
 16
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -434,56 +338,40 @@ F
 
 6
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -492,56 +380,40 @@ F
 
 ...
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>

@@ -14,7 +14,7 @@ If trust is configured between your global account and a custom identity provide
 To learn how to configure trust to a custom identity provider, see [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md) or the command help of [btp create security/trust](https://help.sap.com/docs/BTP/btp-cli/btp-create-security-trust.html).
 
 > ### Restriction:  
-> If you work with a custom identity provider for platform users in Feature Set B, keep in mind that each user is allowed a maximum of 10 parallel sessions per identity provider. This number takes into account all tools, including the cockpit and CLIs.
+> Keep in mind that each user is allowed a maximum of 10 parallel sessions per identity provider. This number takes into account all tools, including the cockpit and CLIs.
 > 
 > For more information, see [Restrictions When Using Custom Identity Providers for Platform Users \[Feature Set B\]](restrictions-when-using-custom-identity-providers-for-platform-users-feature-set-b-6f0a623.md).
 

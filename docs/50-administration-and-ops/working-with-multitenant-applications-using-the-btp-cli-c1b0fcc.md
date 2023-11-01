@@ -14,21 +14,15 @@ Use the SAP BTP command line interface \(btp CLI\) to manage the multitenant app
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Run the command...
 
-
-
 </th>
 <th valign="top">
 
 Command help
-
-
 
 </th>
 </tr>
@@ -37,21 +31,15 @@ Command help
 
 Get all applications to which a subaccount is entitled to subscribe
 
-
-
 </td>
 <td valign="top">
 
 `btp list accounts/subscription`
 
-
-
 </td>
 <td valign="top">
 
 [btp list accounts/subscription](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-subscription.html)
-
-
 
 </td>
 </tr>
@@ -60,21 +48,15 @@ Get all applications to which a subaccount is entitled to subscribe
 
 Get details of a multitenant application in a subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp get accounts/subscription`
 
-
-
 </td>
 <td valign="top">
 
 [btp get accounts/subscription](https://help.sap.com/docs/BTP/btp-cli/btp-get-accounts-subscription.html)
-
-
 
 </td>
 </tr>
@@ -83,21 +65,15 @@ Get details of a multitenant application in a subaccount
 
 Subscribe to an application from a subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp subscribe accounts/subaccount`
 
-
-
 </td>
 <td valign="top">
 
 [btp subscribe accounts/subaccount](https://help.sap.com/docs/BTP/btp-cli/btp-subscribe-accounts-subaccount.html)
-
-
 
 </td>
 </tr>
@@ -116,14 +92,10 @@ Update the plan of an existing subscription
 
 `btp update accounts/subscription`
 
-
-
 </td>
 <td valign="top">
 
 [btp update accounts/subscription](https://help.sap.com/docs/BTP/btp-cli/btp-update-accounts-subscription.html)
-
-
 
 </td>
 </tr>
@@ -132,21 +104,15 @@ Update the plan of an existing subscription
 
 Unsubscribe an application from a subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp unsubscribe accounts/subaccount`
 
-
-
 </td>
 <td valign="top">
 
 [btp unsubscribe accounts/subaccount](https://help.sap.com/docs/BTP/btp-cli/btp-unsubscribe-accounts-subaccount.html)
-
-
 
 </td>
 </tr>

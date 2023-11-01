@@ -30,15 +30,11 @@ The first thing that is needed in the setup of your trial account is the creatio
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Input
-
-
     
     </th>
     </tr>
@@ -46,15 +42,11 @@ The first thing that is needed in the setup of your trial account is the creatio
     <td valign="top">
     
     **Display Name**
-
-
     
     </td>
     <td valign="top">
     
     `trial`
-
-
     
     </td>
     </tr>
@@ -62,15 +54,11 @@ The first thing that is needed in the setup of your trial account is the creatio
     <td valign="top">
     
     **Description**
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Any text that describes your subaccount
-
-
     
     </td>
     </tr>
@@ -78,15 +66,11 @@ The first thing that is needed in the setup of your trial account is the creatio
     <td valign="top">
     
     **Provider**
-
-
     
     </td>
     <td valign="top">
     
     Desired infrastructure provider
-
-
     
     </td>
     </tr>
@@ -94,15 +78,11 @@ The first thing that is needed in the setup of your trial account is the creatio
     <td valign="top">
     
     **Region**
-
-
     
     </td>
     <td valign="top">
     
     Desired region
-
-
     
     </td>
     </tr>
@@ -110,8 +90,6 @@ The first thing that is needed in the setup of your trial account is the creatio
     <td valign="top">
     
     **Subdomain**
-
-
     
     </td>
     <td valign="top">
@@ -119,8 +97,6 @@ The first thing that is needed in the setup of your trial account is the creatio
     `<your_id>trial`
 
     Example: **P0123456789trial**
-
-
     
     </td>
     </tr>
@@ -128,15 +104,11 @@ The first thing that is needed in the setup of your trial account is the creatio
     <td valign="top">
     
     **\[Advanced\] Enable beta features**
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Enables the use of beta services and applications.
-
-
     
     </td>
     </tr>
@@ -144,15 +116,11 @@ The first thing that is needed in the setup of your trial account is the creatio
     <td valign="top">
     
     **\[Advanced\] Labels**
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) You can assign labels to help identify and organize the subaccounts in your global account. For example, you can filter subaccounts by custom property in the *Account Explorer* page. See [Labels \[Feature Set B\]](../10-concepts/account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
-
-
     
     </td>
     </tr>

@@ -29,21 +29,15 @@ Read entities from tags.
 
 Header
 
-
-
 </th>
 <th valign="top">
 
 Required
 
-
-
 </th>
 <th valign="top">
 
 Values
-
-
 
 </th>
 </tr>
@@ -52,14 +46,10 @@ Values
 
 Accept
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 <td valign="top">
@@ -68,8 +58,6 @@ application/json
 
 application/xml
 
-
-
 </td>
 </tr>
 <tr>
@@ -77,21 +65,15 @@ application/xml
 
 x-csrf-token
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 fetch
-
-
 
 </td>
 </tr>
@@ -136,14 +118,10 @@ No parameters.
 
 Header
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -152,14 +130,10 @@ Description
 
 x-csrf-token
 
-
-
 </td>
 <td valign="top">
 
 Token, which can be used for POST requests
-
-
 
 </td>
 </tr>
@@ -178,21 +152,15 @@ Token, which can be used for POST requests
 
 Code
 
-
-
 </th>
 <th valign="top">
 
 Reason
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -201,21 +169,15 @@ Description
 
 200
 
-
-
 </td>
 <td valign="top">
 
 OK
 
-
-
 </td>
 <td valign="top">
 
 Branch was read successfully
-
-
 
 </td>
 </tr>
@@ -224,21 +186,15 @@ Branch was read successfully
 
 404
 
-
-
 </td>
 <td valign="top">
 
 Not foumd
 
-
-
 </td>
 <td valign="top">
 
 Could not read branch; software component or branch may not exist..
-
-
 
 </td>
 </tr>

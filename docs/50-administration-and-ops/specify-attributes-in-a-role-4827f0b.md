@@ -45,15 +45,11 @@ You have maintained the attributes of the users in your identity provider if you
     <th valign="top">
 
     Source
-
-
     
     </th>
     <th valign="top">
 
     Value/SAML Attribute
-
-
     
     </th>
     </tr>
@@ -61,15 +57,11 @@ You have maintained the attributes of the users in your identity provider if you
     <td valign="top">
     
     *Static* 
-
-
     
     </td>
     <td valign="top">
     
     Enter a static value, for example `USA` to refine the role depending on the country.
-
-
     
     </td>
     </tr>
@@ -77,8 +69,6 @@ You have maintained the attributes of the users in your identity provider if you
     <td valign="top">
     
     *Identity Provider \(SAML\)* 
-
-
     
     </td>
     <td valign="top">
@@ -98,15 +88,11 @@ You have maintained the attributes of the users in your identity provider if you
     <td valign="top">
     
     *Unrestricted* 
-
-
     
     </td>
     <td valign="top">
     
     In this case, you want to express that it is not necessary to set a specific value for this attribute. The behavior is the same as if the attribute would not exist for this role.
-
-
     
     </td>
     </tr>

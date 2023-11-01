@@ -13,14 +13,10 @@ To add a new free text to an application log, an object of class `CL_BALI_FREE_T
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -31,16 +27,12 @@ CATEGORY
 
 \(from IF\_BALI\_ITEM\_SETTER\)
 
-
-
 </td>
 <td valign="top">
 
 Category of the item
 
 Contains fixed value: IF\_BALI\_CONSTANTS=\>C\_CATEGORY\_FREE\_TEXT
-
-
 
 </td>
 </tr>
@@ -61,14 +53,10 @@ Create an instance of the free text class and set the text and the severity:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -77,16 +65,12 @@ Description
 
 **Importing parameters**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 SEVERITY
-
-
 
 </td>
 <td valign="top">
@@ -95,8 +79,6 @@ SEVERITY
 
 Default: IF\_BALI\_CONSTANTS=\>C\_SEVERITY\_STATUS
 
-
-
 </td>
 </tr>
 <tr>
@@ -104,14 +86,10 @@ Default: IF\_BALI\_CONSTANTS=\>C\_SEVERITY\_STATUS
 
 TEXT
 
-
-
 </td>
 <td valign="top">
 
 Free text
-
-
 
 </td>
 </tr>
@@ -120,8 +98,6 @@ Free text
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -129,14 +105,10 @@ Free text
 
 FREE\_TEXT
 
-
-
 </td>
 <td valign="top">
 
 Free text object: A reference to interface IF\_BALI\_FREE\_TEXT\_SETTER
-
-
 
 </td>
 </tr>
@@ -155,14 +127,10 @@ Set the free text and severity:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -171,16 +139,12 @@ Description
 
 **Importing parameters**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 SEVERITY
-
-
 
 </td>
 <td valign="top">
@@ -189,8 +153,6 @@ SEVERITY
 
 Default: IF\_BALI\_CONSTANTS=\>C\_SEVERITY\_STATUS
 
-
-
 </td>
 </tr>
 <tr>
@@ -198,14 +160,10 @@ Default: IF\_BALI\_CONSTANTS=\>C\_SEVERITY\_STATUS
 
 TEXT
 
-
-
 </td>
 <td valign="top">
 
 Free text
-
-
 
 </td>
 </tr>
@@ -214,8 +172,6 @@ Free text
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -223,14 +179,10 @@ Free text
 
 NEW\_FREE\_TEXT
 
-
-
 </td>
 <td valign="top">
 
 Reference to current free text object
-
-
 
 </td>
 </tr>
@@ -249,14 +201,10 @@ Set the level of detail of the free text:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -265,16 +213,12 @@ Description
 
 **Importing parameter**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 DETAIL\_LEVEL
-
-
 
 </td>
 <td valign="top">
@@ -283,16 +227,12 @@ Detail level of the free text
 
 Allowed values: Number between '1' and '9' or ' '
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
 
 **Returning parameter**
-
-
 
 </td>
 </tr>
@@ -301,14 +241,10 @@ Allowed values: Number between '1' and '9' or ' '
 
 NEW\_FREE\_TEXT
 
-
-
 </td>
 <td valign="top">
 
 Reference to current free text object
-
-
 
 </td>
 </tr>
@@ -327,14 +263,10 @@ Get all free text values:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -343,16 +275,12 @@ Description
 
 **Exporting parameters**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 DETAIL\_LEVEL
-
-
 
 </td>
 <td valign="top">
@@ -361,8 +289,6 @@ Detail level of the free text
 
 Number between '1' and '9' or ' '
 
-
-
 </td>
 </tr>
 <tr>
@@ -370,14 +296,10 @@ Number between '1' and '9' or ' '
 
 SEVERITY
 
-
-
 </td>
 <td valign="top">
 
 Severity of the free text \('Error', 'Warning', etc\)
-
-
 
 </td>
 </tr>
@@ -386,14 +308,10 @@ Severity of the free text \('Error', 'Warning', etc\)
 
 TEXT
 
-
-
 </td>
 <td valign="top">
 
 Content of the free text
-
-
 
 </td>
 </tr>
@@ -412,14 +330,10 @@ Check whether the free text can pass an item filter:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -428,8 +342,6 @@ Description
 
 **Importing parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -437,14 +349,10 @@ Description
 
 ITEM\_FILTER
 
-
-
 </td>
 <td valign="top">
 
 Reference to the item filter that is being checked
-
-
 
 </td>
 </tr>
@@ -453,8 +361,6 @@ Reference to the item filter that is being checked
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -462,14 +368,10 @@ Reference to the item filter that is being checked
 
 FILTER\_PASSED
 
-
-
 </td>
 <td valign="top">
 
 If set, the free text can pass the item filter
-
-
 
 </td>
 </tr>

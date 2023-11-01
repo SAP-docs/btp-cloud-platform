@@ -90,14 +90,10 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0003/Employees('0002')?$sel
 
 Properties
 
-
-
 </th>
 <th valign="top">
 
 Internal Names
-
-
 
 </th>
 </tr>
@@ -106,14 +102,10 @@ Internal Names
 
 Age
 
-
-
 </td>
 <td valign="top">
 
 `AGE`
-
-
 
 </td>
 </tr>
@@ -122,14 +114,10 @@ Age
 
 Location
 
-
-
 </td>
 <td valign="top">
 
 `LOCATION`
-
-
 
 </td>
 </tr>
@@ -138,14 +126,10 @@ Location
 
 City
 
-
-
 </td>
 <td valign="top">
 
 `CITY`
-
-
 
 </td>
 </tr>
@@ -154,14 +138,10 @@ City
 
 Cityname
 
-
-
 </td>
 <td valign="top">
 
 `CITYNAME`
-
-
 
 </td>
 </tr>
@@ -170,14 +150,10 @@ Cityname
 
 Name
 
-
-
 </td>
 <td valign="top">
 
 `NAME`
-
-
 
 </td>
 </tr>

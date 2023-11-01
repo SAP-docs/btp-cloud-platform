@@ -36,14 +36,10 @@ Define the SAP S/4HANA Cloud Extensibility service descriptor in a JSON structur
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -51,8 +47,6 @@ Description
 <td valign="top">
 
 `systemName` 
-
-
 
 </td>
 <td valign="top">
@@ -74,8 +68,6 @@ The name of the system you have registered in the global account in SAP BTP.
 <td valign="top">
 
 `emClientId` 
-
-
 
 </td>
 <td valign="top">
@@ -103,14 +95,10 @@ Using default patterns, it generates **communication arrangement name**, **chann
 
 `communicationArrangement` 
 
-
-
 </td>
 <td valign="top">
 
 Defines the communication arrangement for the SAP S4/HANA Cloud tenant.
-
-
 
 </td>
 </tr>
@@ -118,8 +106,6 @@ Defines the communication arrangement for the SAP S4/HANA Cloud tenant.
 <td valign="top">
 
 `communicationArrangementName` 
-
-
 
 </td>
 <td valign="top">
@@ -148,8 +134,6 @@ The name of the communication arrangement for the SAP S/4HANA Cloud tenant.
 
 `attributes` 
 
-
-
 </td>
 <td valign="top">
 
@@ -159,16 +143,12 @@ Defines the configuration properties for the communication arrangement.
 
 The name of the property is equivalent to the *Technical Property Name* column in the properties table in the Display Communication Scenarios app in the SAP S/4HANA Cloud system. See [Display Communication Scenarios](https://help.sap.com/viewer/f544846954f24b9183eddadcc41bdc3b/latest/en-US/baa798b6a1024d229ca3f51bde6f24f9.html).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `CHANNEL NAME` 
-
-
 
 </td>
 <td valign="top">
@@ -200,8 +180,6 @@ The name of the communication channel.
 
 `DESCRIPTION` 
 
-
-
 </td>
 <td valign="top">
 
@@ -228,8 +206,6 @@ Short description.
 <td valign="top">
 
 `TOPIC SPACE` 
-
-
 
 </td>
 <td valign="top">
@@ -262,8 +238,6 @@ The identifier for the events that originate from the same source. This is the t
 
 `MQTT_QOS` 
 
-
-
 </td>
 <td valign="top">
 
@@ -295,8 +269,6 @@ Defines the quality of service.
 
 `RECONNECT ATTEMPTS` 
 
-
-
 </td>
 <td valign="top">
 
@@ -321,8 +293,6 @@ The number of attempts the Enterprise Event Enablement framework tries to reesta
 <td valign="top">
 
 `WAIT TIME` 
-
-
 
 </td>
 <td valign="top">
@@ -353,14 +323,10 @@ Specifies the time \(in seconds\) for which the Enterprise Event Enablement fram
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -368,8 +334,6 @@ Description
 <td valign="top">
 
 `emname` 
-
-
 
 </td>
 <td valign="top">
@@ -397,8 +361,6 @@ Specifies the name of the Enterprise Messaging client. It is used by SAP Event M
 <td valign="top">
 
 `namespace` 
-
-
 
 </td>
 <td valign="top">
@@ -431,8 +393,6 @@ Namespace for the message client.
 
 `rules` 
 
-
-
 </td>
 <td valign="top">
 
@@ -454,8 +414,6 @@ Defines the access privileges of the message client.
 
 `topicRules` 
 
-
-
 </td>
 <td valign="top">
 
@@ -474,8 +432,6 @@ A `rules` attribute.
 <td valign="top">
 
 `inboundFilter` 
-
-
 
 </td>
 <td valign="top">

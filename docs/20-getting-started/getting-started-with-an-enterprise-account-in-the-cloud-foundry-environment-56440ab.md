@@ -4,7 +4,7 @@
 
 Quickly get started with an enterprise account in the Cloud Foundry Environment.
 
-This topic focuses on how to get started with a customer or partner account using the SAP BTP cockpit. However, you can also perform these tasks using the CLI. See [Setting Up a Global Account via the Command Line \[Feature Set B\]](setting-up-a-global-account-via-the-command-line-feature-set-b-accd5b2.md).
+This topic focuses on how to get started with a customer or partner account using the SAP BTP cockpit. However, you can also perform these tasks using the CLI. See [Setting Up a Global Account via the Command Line](setting-up-a-global-account-via-the-command-line-accd5b2.md).
 
 
 
@@ -34,8 +34,8 @@ This topic focuses on how to get started with a customer or partner account usin
 -   [Add Org Members Using the Cockpit](../50-administration-and-ops/add-org-members-using-the-cockpit-a4eeaf1.md)
 -   [Add Space Members Using the Cockpit](../50-administration-and-ops/add-space-members-using-the-cockpit-81d0b4d.md)
 -   [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md)
--   [Create Space Quota Plans](../50-administration-and-ops/create-space-quota-plans-b13c4a2.md)
--   [Assign Quota Plans to Spaces](../50-administration-and-ops/assign-quota-plans-to-spaces-13028c4.md)
+-   [Create Space Quotas](../50-administration-and-ops/create-space-quotas-b13c4a2.md)
+-   [Assign Space Quotas to Spaces](../50-administration-and-ops/assign-space-quotas-to-spaces-13028c4.md)
 -   [Managing Entitlements and Quotas Using the Cockpit](../50-administration-and-ops/managing-entitlements-and-quotas-using-the-cockpit-c824874.md)
 
 1.  You can either use the cockpit or the cf CLI to configure your environment. If you'd like to use the cockpit, it's important you understand how you can navigate to your accounts and spaces. See [Navigate to Orgs and Spaces](../50-administration-and-ops/navigate-to-orgs-and-spaces-5bf8735.md).
@@ -45,8 +45,8 @@ This topic focuses on how to get started with a customer or partner account usin
 3.  You can also add members at a space level. See [Add Space Members Using the Cockpit](../50-administration-and-ops/add-space-members-using-the-cockpit-81d0b4d.md).
 
 4.  Before you can start using resources such as services or application runtimes, you need to manage your entitlements and add quotas to your subaccounts. See [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md). To learn more about entitlements and quotas, see [Managing Entitlements and Quotas Using the Cockpit](../50-administration-and-ops/managing-entitlements-and-quotas-using-the-cockpit-c824874.md). Note that if you want to try out services for free, you need to select free tier service plans if available. For a list of free services, check the [SAP Discovery Center](https://discovery-center.cloud.sap/viewServices/?category=freetierservices&provider=all&regions=all).
-5.  You can also assign quotas to different spaces within a subaccount. To do so, first create a space quota plan. See [Create Space Quota Plans](../50-administration-and-ops/create-space-quota-plans-b13c4a2.md) or [Create Space Quota Plans Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/create-space-quota-plans-using-the-cloud-foundry-command-line-interface-504fde9.md).
-6.  Then assign the quota plan to your space. See [Assign Quota Plans to Spaces](../50-administration-and-ops/assign-quota-plans-to-spaces-13028c4.md) or [Assign Quota Plans to Spaces Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/assign-quota-plans-to-spaces-using-the-cloud-foundry-command-line-interface-d1e4203.md).
+5.  You can also assign quotas to different spaces within a subaccount. To do so, first create a space quota plan. See [Create Space Quotas](../50-administration-and-ops/create-space-quotas-b13c4a2.md) or [Create Space Quota Plans Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/create-space-quota-plans-using-the-cloud-foundry-command-line-interface-504fde9.md).
+6.  Then assign the quota plan to your space. See [Assign Space Quotas to Spaces](../50-administration-and-ops/assign-space-quotas-to-spaces-13028c4.md) or [Assign Quota Plans to Spaces Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/assign-quota-plans-to-spaces-using-the-cloud-foundry-command-line-interface-d1e4203.md).
 
 
 

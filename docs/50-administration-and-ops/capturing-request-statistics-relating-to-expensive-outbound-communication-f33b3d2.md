@@ -40,15 +40,11 @@ With the checkbox *Health Monitoring* selected, you can also automatically expor
     <th valign="top">
 
     Option
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -56,15 +52,11 @@ With the checkbox *Health Monitoring* selected, you can also automatically expor
     <td valign="top">
     
     **Field ID**
-
-
     
     </td>
     <td valign="top">
     
     Choose *Calling Time \[ms\]* from the dropdown list.
-
-
     
     </td>
     </tr>
@@ -72,8 +64,6 @@ With the checkbox *Health Monitoring* selected, you can also automatically expor
     <td valign="top">
     
     **Operator**
-
-
     
     </td>
     <td valign="top">
@@ -91,15 +81,11 @@ With the checkbox *Health Monitoring* selected, you can also automatically expor
     <td valign="top">
     
     **Low**
-
-
     
     </td>
     <td valign="top">
     
     Enter a threshold for the calling time, for example, 1000. As a result, data for all service requests is captured whose calling time exceed 1,000 ms.
-
-
     
     </td>
     </tr>
@@ -107,15 +93,11 @@ With the checkbox *Health Monitoring* selected, you can also automatically expor
     <td valign="top">
     
     **High**
-
-
     
     </td>
     <td valign="top">
     
     Leave this field empty.
-
-
     
     </td>
     </tr>
@@ -133,15 +115,11 @@ With the checkbox *Health Monitoring* selected, you can also automatically expor
     <th valign="top">
 
     Option
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -149,15 +127,11 @@ With the checkbox *Health Monitoring* selected, you can also automatically expor
     <td valign="top">
     
     **Field ID**
-
-
     
     </td>
     <td valign="top">
     
     Select *Communication Arrangement* from the dropdown list.
-
-
     
     </td>
     </tr>
@@ -165,15 +139,11 @@ With the checkbox *Health Monitoring* selected, you can also automatically expor
     <td valign="top">
     
     **Operator**
-
-
     
     </td>
     <td valign="top">
     
     Select *Include equal to*.
-
-
     
     </td>
     </tr>
@@ -181,15 +151,11 @@ With the checkbox *Health Monitoring* selected, you can also automatically expor
     <td valign="top">
     
     **Low**
-
-
     
     </td>
     <td valign="top">
     
     From the dropdown list, select the communication arrangement that you want to monitor.
-
-
     
     </td>
     </tr>
@@ -197,15 +163,11 @@ With the checkbox *Health Monitoring* selected, you can also automatically expor
     <td valign="top">
     
     **High**
-
-
     
     </td>
     <td valign="top">
     
     Leave this field empty.
-
-
     
     </td>
     </tr>

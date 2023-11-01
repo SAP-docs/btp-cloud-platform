@@ -15,28 +15,20 @@
 
 Phase
 
-
-
 </th>
 <th valign="top">
 
 Step
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 User/Role
-
-
 
 </th>
 </tr>
@@ -45,14 +37,10 @@ User/Role
 
 [Prepare](prepare-4338854.md#loio4338854e3133407abb47d3a281dbd1e1)
 
-
-
 </td>
 <td valign="top">
 
 Register a namespace. See [Register a Namespace](prepare-4338854.md#loiocc5a3c6f78cf4889960c314dd09a5060).
-
-
 
 </td>
 <td valign="top">
@@ -71,16 +59,12 @@ A namespace is mandatory and must be reserved at [https://support.sap.com/namesp
 
 S-user
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Set up a global account for development. See [Set Up a Global Account for Development](prepare-4338854.md#loio9f2150f2b15e414aacd46c1723ce48fb).
-
-
 
 </td>
 <td valign="top">
@@ -102,14 +86,10 @@ Required entitlements:
 
 The `saas-registry` and `xsuaa` service are available without entitlement. See [SAPPartnerEdge Test, Demo and Development Price List](https://partneredge.sap.com/en/library/assets/partnership/sales/order_license/pl_pl_part_price_list.html).
 
-
-
 </td>
 <td valign="top">
 
 Operator
-
-
 
 </td>
 </tr>
@@ -117,8 +97,6 @@ Operator
 <td valign="top">
 
 Set up a global account for production. See [Set Up a Global Account for Production](prepare-4338854.md#loio2e7b4b631e814de1b8fe3959af4105bc).
-
-
 
 </td>
 <td valign="top">
@@ -141,14 +119,10 @@ Required entitlements:
 
 See [SAPPartnerEdge: Resources for OEM Partners](https://partneredge.sap.com/en/partnership/manage/op_resource/oem.html).
 
-
-
 </td>
 <td valign="top">
 
 Operator
-
-
 
 </td>
 </tr>
@@ -156,8 +130,6 @@ Operator
 <td valign="top">
 
 Create ABAP instance\(s\). See [Create ABAP Instances](prepare-4338854.md#loio17aa433273c24bd2b949c297513851fe).
-
-
 
 </td>
 <td valign="top">
@@ -176,14 +148,10 @@ Set up your development/test subaccounts and ABAP system and create the followin
 
 See [Getting Started with a Customer Account: Workflow in the ABAP Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e34a329acc804c0e874496548183682f.html) and [Create an ABAP System](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/f0163565eb554f009f990652ca41d1c6.html).
 
-
-
 </td>
 <td valign="top">
 
 Operator
-
-
 
 </td>
 </tr>
@@ -192,21 +160,15 @@ Operator
 
 Set up UI development. See [Set Up UI Development](prepare-4338854.md#loio3f03dfe2f21b471ab98abc6f208c3762).
 
-
-
 </td>
 <td valign="top">
 
 Configure SAP Business Application Studio for UI development.
 
-
-
 </td>
 <td valign="top">
 
 Operator
-
-
 
 </td>
 </tr>
@@ -215,21 +177,15 @@ Operator
 
 Set up add-on development. [Set Up Add-On Development](prepare-4338854.md#loio89a353151e534380a03b2a572a227731).
 
-
-
 </td>
 <td valign="top">
 
 Create a new software component for add-on development and clone the main branch of the software component to the development and test system.
 
-
-
 </td>
 <td valign="top">
 
 Add-on administrator
-
-
 
 </td>
 </tr>
@@ -237,8 +193,6 @@ Add-on administrator
 <td valign="top">
 
 Transport from development to test system. See [Set Up Transport from Development to Test System](prepare-4338854.md#loiobf557544f90f4bc88911c4865ec78207).
-
-
 
 </td>
 <td valign="top">
@@ -257,8 +211,6 @@ Plan and set up the transport of software components from development to test sy
 
 Add-on administrator
 
-
-
 </td>
 </tr>
 <tr>
@@ -266,14 +218,10 @@ Add-on administrator
 
 [Develop](develop-9464e3a.md#loio9464e3af139d4e0581cb4e819886b0c8)
 
-
-
 </td>
 <td valign="top">
 
 ABAP development. See [ABAP Development](develop-9464e3a.md#loiofa5af4ecdf90496b8eec54fe0e22150c).
-
-
 
 </td>
 <td valign="top">
@@ -282,14 +230,10 @@ Follow the guidelines to enable multitenancy for applications built on the ABAP 
 
 See [Multitenancy Development Guideline](multitenancy-development-guideline-9d994c8.md) and [Tutorials](https://developers.sap.com/tutorial-navigator.html?tag=products:technology-platform/sap-cloud-platform/sap-cloud-platform-abap-environment).
 
-
-
 </td>
 <td valign="top">
 
 Developer
-
-
 
 </td>
 </tr>
@@ -298,21 +242,15 @@ Developer
 
 UI development. See [UI Development](develop-9464e3a.md#loiof3be8246edc74be59c10779443f67793).
 
-
-
 </td>
 <td valign="top">
 
 Develop UIs using SAP Business Application Studio. See [Develop an SAP Fiori Application UI and Deploy it to ABAP Using SAP Business Application Studio](develop-an-sap-fiori-application-ui-and-deploy-it-to-abap-using-sap-business-application-eaaeba4.md).
 
-
-
 </td>
 <td valign="top">
 
 Developer
-
-
 
 </td>
 </tr>
@@ -321,8 +259,6 @@ Developer
 
 \[Optional\] Code migration. See [\(Optional\) Code Migration from On-Premise](develop-9464e3a.md#loiof438645cb5664399a6b21f8d9bd3d004).
 
-
-
 </td>
 <td valign="top">
 
@@ -330,14 +266,10 @@ Migrate your ABAP code from on-premise.
 
 See [Blog: How to bring your ABAP custom to the ABAP Environment](https://blogs.sap.com/2019/11/11/how-to-bring-your-abap-custom-code-to-sap-cloud-platform-abap-environment/) and [Blog: How to check your custom ABAP code for the ABAP Environment](https://blogs.sap.com/2018/10/02/how-to-check-your-custom-abap-code-for-sap-cloud-platform-abap-environment/).
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -346,14 +278,10 @@ See [Blog: How to bring your ABAP custom to the ABAP Environment](https://blogs.
 
 [Test](test-023cf9d.md#loio023cf9d301b1479484e70b17cd5cf587)
 
-
-
 </td>
 <td valign="top">
 
 Test in cloud system. See [Test in the ABAP Environment SAP Fiori Launchpad](test-023cf9d.md#loio8c5b4d76a05b4bed8df01937f4d8d487).
-
-
 
 </td>
 <td valign="top">
@@ -362,14 +290,10 @@ Import the ABAP service and the UI into your test system.
 
 Create a role and assign it to users, then test the service and UI.
 
-
-
 </td>
 <td valign="top">
 
 Test user
-
-
 
 </td>
 </tr>
@@ -378,8 +302,6 @@ Test user
 
 Test in the ABAP Test Cockpit. See [Test in the ABAP Test Cockpit](test-023cf9d.md#loiof0b71a1c959842258772c27d292c43b0).
 
-
-
 </td>
 <td valign="top">
 
@@ -387,14 +309,10 @@ Run ABAP Test Cockpit checks in DEV and/or TST systems.
 
 See [ABAP Test Cockpit in the Cloud – What is already possible](https://blogs.sap.com/2020/08/14/abap-test-cockpit-in-the-cloud-what-is-already-possible/) and [ABAP Test Cockpit Configurator](../50-administration-and-ops/abap-test-cockpit-configurator-22c26ff.md).
 
-
-
 </td>
 <td valign="top">
 
 Developer
-
-
 
 </td>
 </tr>
@@ -403,14 +321,10 @@ Developer
 
 [Build](build-2504972.md#loio25049720bde447e395b3df0bc05e5a50)
 
-
-
 </td>
 <td valign="top">
 
 Prepare your add-on build. See [Set Up Add-On Build](build-2504972.md#loioccf0c1ef30ce4d6aa6e39bb583fb8ba1).
-
-
 
 </td>
 <td valign="top">
@@ -422,8 +336,6 @@ Create a technical communication user to access AAKaaS.
 See [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
 
 Register the add-on product in the global account for development and production as described in [Register Add-on Product for a Global Account](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#register-add-on-product-for-a-global-account) and [Register Product](register-product-dc15fb4.md).
-
-
 
 </td>
 <td valign="top">
@@ -442,8 +354,6 @@ Register the add-on product in the global account for development and production
 
 Build your first add-on version. See [Build the First Add-On Version](build-2504972.md#loio96f9db9e6c784e5a89ede4d038daaa43).
 
-
-
 </td>
 <td valign="top">
 
@@ -453,14 +363,10 @@ Configure the addon.yml file.
 
 Trigger the add-on product build/test/release.
 
-
-
 </td>
 <td valign="top">
 
 Add-on administrator to create maintenance branch, configure addon.yml file, and trigger build pipeline
-
-
 
 </td>
 </tr>
@@ -479,28 +385,20 @@ Add-on administrator to create maintenance branch, configure addon.yml file, and
 
 Phase
 
-
-
 </th>
 <th valign="top">
 
 Step
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 User/Role
-
-
 
 </th>
 </tr>
@@ -509,14 +407,10 @@ User/Role
 
 [Deploy](order-and-provide-975bd3e.md#loio4e35eb027f284b7fa6219bc70561fb4e)
 
-
-
 </td>
 <td valign="top">
 
 Configure the sizing of the SaaS application. See [Sizing](order-and-provide-975bd3e.md#loio1782f253e102484dac378887b3d6d769).
-
-
 
 </td>
 <td valign="top">
@@ -537,8 +431,6 @@ Decide on the metric of your offering \(for example users, documents, space\) an
 
 DevOps engineer
 
-
-
 </td>
 </tr>
 <tr>
@@ -546,21 +438,15 @@ DevOps engineer
 
 Implement a multitenant application and deploy it to the provider subaccount in the global account for development. See [Multitenant Application](order-and-provide-975bd3e.md#loiof3305f65648248318028e02c84375323).
 
-
-
 </td>
 <td valign="top">
 
 Create the multitenant application with SaaS registry, XSUAA, and ABAP Solution Provider. Deploy to the provider subaccount with parameters used for development phase.
 
-
-
 </td>
 <td valign="top">
 
 DevOps engineer
-
-
 
 </td>
 </tr>
@@ -569,8 +455,6 @@ DevOps engineer
 
 Access the Landscape Portal. See [Access to Landscape Portal](access-to-landscape-portal-195a685.md).
 
-
-
 </td>
 <td valign="top">
 
@@ -578,14 +462,10 @@ Subscribe to the Landscape Portal application in the global accounts for develop
 
 See [Accessing the Landscape Portal](accessing-the-landscape-portal-2e1e393.md).
 
-
-
 </td>
 <td valign="top">
 
 Operator
-
-
 
 </td>
 </tr>
@@ -594,21 +474,15 @@ Operator
 
 Test the multitenant application deployed to the global account for development.
 
-
-
 </td>
 <td valign="top">
 
 Subscribe to the SaaS solution from the consumer subaccount.
 
-
-
 </td>
 <td valign="top">
 
 DevOps engineer
-
-
 
 </td>
 </tr>
@@ -617,21 +491,15 @@ DevOps engineer
 
 Deploy the multitenant application to the provider subaccount in the global account for production.
 
-
-
 </td>
 <td valign="top">
 
 Deploy to the provider subaccount with parameters used for production phase.
 
-
-
 </td>
 <td valign="top">
 
 DevOps engineer
-
-
 
 </td>
 </tr>
@@ -640,14 +508,10 @@ DevOps engineer
 
 [Commercialize](order-and-provide-975bd3e.md#loio57c19c7c4dfa4c3cbb846c1ac57e2095)
 
-
-
 </td>
 <td valign="top">
 
 \[Optional\] SAP Store registration. See [\(Optional\) Register SaaS Solution in SAP Store](order-and-provide-975bd3e.md#loio607aa8614ea34ee7b366b01ad03bfc4c).
-
-
 
 </td>
 <td valign="top">
@@ -656,14 +520,10 @@ Register your SaaS solution in SAP Store.
 
 See [https://store.sap.com/dcp/en/](https://store.sap.com/dcp/en/).
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -672,8 +532,6 @@ See [https://store.sap.com/dcp/en/](https://store.sap.com/dcp/en/).
 
 \[Optional\] Certification. See [\(Optional\) Certification](order-and-provide-975bd3e.md#loioace3b22147eb40d3989c5525491eb729).
 
-
-
 </td>
 <td valign="top">
 
@@ -681,14 +539,10 @@ Get an optional certification for your product.
 
 See [Certification](https://www.sap.com/documents/2016/10/7cf3eaec-907c-0010-82c7-eda71af511fa.html) and [Certified Solutions](https://www.sap.com/dmc/exp/2013_09_adpd/enEN/#/partners).
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -697,28 +551,20 @@ See [Certification](https://www.sap.com/documents/2016/10/7cf3eaec-907c-0010-82c
 
 [Order and Provide](order-and-provide-975bd3e.md#loioa24217a0d6fa434bbce97869dfb70dda)
 
-
-
 </td>
 <td valign="top">
 
 Create a consumer subaccount. See [Create Consumer Subaccount](order-and-provide-975bd3e.md#loio8b92024cc5d44268bf4737551e4fa981).
-
-
 
 </td>
 <td valign="top">
 
 Set the account structure for the consumer subaccount.
 
-
-
 </td>
 <td valign="top">
 
 Operator
-
-
 
 </td>
 </tr>
@@ -727,21 +573,15 @@ Operator
 
 Subscribe to the SaaS solution. See [Subscribe to SaaS Solution](order-and-provide-975bd3e.md#loio477ea31394504182b2ea5ef9ce26802d).
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Operator
-
-
 
 </td>
 </tr>
@@ -749,8 +589,6 @@ Operator
 <td valign="top">
 
 Configure consumer subaccount. See [Configure Consumer Subaccount \(Feature Set B\)](order-and-provide-975bd3e.md#loio6301a275af664613a51147e3451386e6).
-
-
 
 </td>
 <td valign="top">
@@ -767,8 +605,6 @@ Configure customer subaccount.
 
 Consumer subaccount administrator
 
-
-
 </td>
 </tr>
 <tr>
@@ -776,21 +612,15 @@ Consumer subaccount administrator
 
 Initial user onboarding. See [Initial User Onboarding](order-and-provide-975bd3e.md#loio4a9c5011922847ac91db165c78656149)
 
-
-
 </td>
 <td valign="top">
 
 Create an initial administrator user for the customer.
 
-
-
 </td>
 <td valign="top">
 
 Consumer subaccount administrator
-
-
 
 </td>
 </tr>
@@ -809,28 +639,20 @@ Consumer subaccount administrator
 
 Phase
 
-
-
 </th>
 <th valign="top">
 
 Step
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 User/Role
-
-
 
 </th>
 </tr>
@@ -839,14 +661,10 @@ User/Role
 
 [Configure and Implement a Customer Project](configure-and-implement-a-customer-project-363d2ea.md#loio363d2ea033b14ecfa5c67cf8d3e7cb01)
 
-
-
 </td>
 <td valign="top">
 
 Set up Identity and Access Management in the consumer tenant of the customer.
-
-
 
 </td>
 <td valign="top">
@@ -855,14 +673,10 @@ Create and assign business roles.
 
 Create spaces and pages for business roles.
 
-
-
 </td>
 <td valign="top">
 
 Business user
-
-
 
 </td>
 </tr>
@@ -871,21 +685,15 @@ Business user
 
 Integrate the customer project in the consumer tenant of the customer.
 
-
-
 </td>
 <td valign="top">
 
 Create communication arrangements.
 
-
-
 </td>
 <td valign="top">
 
 Business user
-
-
 
 </td>
 </tr>
@@ -894,8 +702,6 @@ Business user
 
 Configure the customer project in the consumer tenant of the customer.
 
-
-
 </td>
 <td valign="top">
 
@@ -903,14 +709,10 @@ Create business configuration.
 
 Configure key user extemsibility.
 
-
-
 </td>
 <td valign="top">
 
 Business user
-
-
 
 </td>
 </tr>
@@ -929,28 +731,20 @@ Business user
 
 Phase
 
-
-
 </th>
 <th valign="top">
 
 Step
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 User/Role
-
-
 
 </th>
 </tr>
@@ -959,28 +753,20 @@ User/Role
 
 [Maintain](maintain-monitor-support-5d25603.md#loio9721f0fb92a84e2a95309acf445cb0a9)
 
-
-
 </td>
 <td valign="top">
 
 Set up your test and maintenance system landscape and processes. See [Set Up Maintenance System Landscape](maintain-monitor-support-5d25603.md#loio44035458f01e4142a18d44f9c0301e62).
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Operator
-
-
 
 </td>
 </tr>
@@ -989,14 +775,10 @@ Operator
 
 Create an update. See [Create Add-On Update](maintain-monitor-support-5d25603.md#loioa35582346bff4914a5b4b0bcb776668c).
 
-
-
 </td>
 <td valign="top">
 
-Create a new patch version, support package version, or release/product version. See [Update Product Version](update-product-version-32c4f7d.md).
-
-
+Create a new patch version, support package version, or release/product version. See [Deploy Product](deploy-product-32c4f7d.md).
 
 </td>
 <td valign="top">
@@ -1014,21 +796,15 @@ Create a new patch version, support package version, or release/product version.
 
 Trigger the add-on product build. See [Trigger Add-On Build Pipeline](maintain-monitor-support-5d25603.md#loio7f6988a9a9f94845825d8c7ff66990fb).
 
-
-
 </td>
 <td valign="top">
 
 Trigger the execution of the configured ABAP environment pipeline for an add-on build. See [Operations Dashboard](operations-dashboard-0a3a735.md).
 
-
-
 </td>
 <td valign="top">
 
 Add-on administrator
-
-
 
 </td>
 </tr>
@@ -1037,8 +813,6 @@ Add-on administrator
 
 Apply update for SaaS solution \(=add-on product\). See [Deploy Add-On Update](maintain-monitor-support-5d25603.md#loio0a80d4c5c079435e9aca4eb9e6841de9).
 
-
-
 </td>
 <td valign="top">
 
@@ -1046,14 +820,10 @@ Deploy your add-on update by using the Landscape Portal.
 
 See [Landscape Portal](landscape-portal-5eb70fb.md).
 
-
-
 </td>
 <td valign="top">
 
 Operator
-
-
 
 </td>
 </tr>
@@ -1061,8 +831,6 @@ Operator
 <td valign="top">
 
 Troubleshoot and debug. See [Troubleshoot and Debug](maintain-monitor-support-5d25603.md#loio3687b52c5d3349f7956e93bf2f807e6c).
-
-
 
 </td>
 <td valign="top">
@@ -1078,14 +846,10 @@ Troubleshoot and debug. See [Troubleshoot and Debug](maintain-monitor-support-5d
 
  
 
-
-
 </td>
 <td valign="top">
 
 Operator
-
-
 
 </td>
 </tr>
@@ -1104,28 +868,20 @@ Operator
 
 Phase
 
-
-
 </th>
 <th valign="top">
 
 Step
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 User/Role
-
-
 
 </th>
 </tr>
@@ -1134,28 +890,20 @@ User/Role
 
 [Dismantle](dismantle-35a5882.md)
 
-
-
 </td>
 <td valign="top">
 
 Delete tenants.
-
-
 
 </td>
 <td valign="top">
 
 Unsubscribe the SaaS solution. See [Dismantle](dismantle-35a5882.md).
 
-
-
 </td>
 <td valign="top">
 
 Consumer subaccount administrator or operator using Subscription Management Dashboard
-
-
 
 </td>
 </tr>
@@ -1164,21 +912,15 @@ Consumer subaccount administrator or operator using Subscription Management Dash
 
 \(Optional\) Restore deleted tenants.
 
-
-
 </td>
 <td valign="top">
 
 Restore the deleted tenants within a grace period of 30 days. See [Dismantle](dismantle-35a5882.md).
 
-
-
 </td>
 <td valign="top">
 
 Operator
-
-
 
 </td>
 </tr>

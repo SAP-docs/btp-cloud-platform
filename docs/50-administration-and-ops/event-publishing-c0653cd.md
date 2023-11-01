@@ -37,15 +37,11 @@ You can configure outbound event topic bindings for publishing events.
     <th valign="top">
 
     Option
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -53,8 +49,6 @@ You can configure outbound event topic bindings for publishing events.
     <td valign="top">
     
     **Create a new topic.**
-
-
     
     </td>
     <td valign="top">
@@ -64,8 +58,6 @@ You can configure outbound event topic bindings for publishing events.
     3.  Choose *Create* to save your entries.
 
     The new topic will be listed in the *Topic* table.
-
-
     
     </td>
     </tr>
@@ -73,8 +65,6 @@ You can configure outbound event topic bindings for publishing events.
     <td valign="top">
     
     **Delete an existing topic.**
-
-
     
     </td>
     <td valign="top">
@@ -90,15 +80,11 @@ You can configure outbound event topic bindings for publishing events.
     <td valign="top">
     
     **Define table parameters.**
-
-
     
     </td>
     <td valign="top">
     
     Click the gear icon to define the table parameters.
-
-
     
     </td>
     </tr>
@@ -118,14 +104,10 @@ Events reside in an internal queue of the enterprise event enablement. Once the 
 
 **Status: Ok**
 
-
-
 </td>
 <td valign="top">
 
 The event has been successfully published according to the chosen quality of service.
-
-
 
 </td>
 </tr>
@@ -134,14 +116,10 @@ The event has been successfully published according to the chosen quality of ser
 
 **Status: Failed**
 
-
-
 </td>
 <td valign="top">
 
 The enterprise event enablement failed to publish the event after 5 attempts.
-
-
 
 </td>
 </tr>

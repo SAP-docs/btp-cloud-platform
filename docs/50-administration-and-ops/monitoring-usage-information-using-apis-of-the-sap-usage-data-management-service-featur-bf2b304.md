@@ -40,22 +40,16 @@ Your global account admin has entitled the service plan for the SAP Usage Data M
 
 HTTP Method
 
-
-
 </th>
 <th valign="top">
 
 Action
-
-
 
 </th>
 <th valign="top">
 
 URI
 
-
-
 </th>
 </tr>
 <tr>
@@ -63,44 +57,32 @@ URI
 
 GET
 
-
-
 </td>
 <td valign="top">
 
 Get the cloud credit data history for a global account.
-
-
 
 </td>
 <td valign="top">
 
 `/cloudCreditDetails`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 GET
-
-
 
 </td>
 <td valign="top">
 
 Get monthly usage reporting data for a directory and a specified time period.
 
-
-
 </td>
 <td valign="top">
 
 `/monthlyDirectoryUsage`
-
-
 
 </td>
 </tr>
@@ -108,22 +90,16 @@ Get monthly usage reporting data for a directory and a specified time period.
 <td valign="top">
 
 GET
-
-
 
 </td>
 <td valign="top">
 
 Get monthly usage-reporting data for a global account and a specified time period.
 
-
-
 </td>
 <td valign="top">
 
 `/monthlyUsage`
-
-
 
 </td>
 </tr>
@@ -131,22 +107,16 @@ Get monthly usage-reporting data for a global account and a specified time perio
 <td valign="top">
 
 GET
-
-
 
 </td>
 <td valign="top">
 
 Get usage-reporting data for a subaccount.
 
-
-
 </td>
 <td valign="top">
 
 `/subaccountUsage`
-
-
 
 </td>
 </tr>
@@ -155,21 +125,15 @@ Get usage-reporting data for a subaccount.
 
 GET
 
-
-
 </td>
 <td valign="top">
 
 Get monthly cost reporting data for all subaccounts for the Cloud Platform Enterprise Agreement \(CPEA\) consumption-based commercial model.
 
-
-
 </td>
 <td valign="top">
 
 `/monthlySubaccountsCost`
-
-
 
 </td>
 </tr>

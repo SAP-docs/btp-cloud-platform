@@ -26,15 +26,11 @@ You can use the mass change wizard to change multiple business users at once. Th
     <th valign="top">
 
     Area
-
-
     
     </th>
     <th valign="top">
 
     Attributes
-
-
     
     </th>
     </tr>
@@ -42,15 +38,11 @@ You can use the mass change wizard to change multiple business users at once. Th
     <td valign="top">
     
     **User Data**
-
-
     
     </td>
     <td valign="top">
     
     Select one or more attributes \(such as timezone or language\) you want to change in all selected business users.
-
-
     
     </td>
     </tr>
@@ -58,8 +50,6 @@ You can use the mass change wizard to change multiple business users at once. Th
     <td valign="top">
     
     **Role Assignment**
-
-
     
     </td>
     <td valign="top">
@@ -67,8 +57,6 @@ You can use the mass change wizard to change multiple business users at once. Th
     Add Business Roles
 
     Remove Business Roles
-
-
     
     </td>
     </tr>

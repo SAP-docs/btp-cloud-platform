@@ -34,21 +34,15 @@ The capabilities of a tenant used by the application provider or application con
 
  
 
-
-
 </th>
 <th valign="top" colspan="2">
 
 Partner Development System
 
-
-
 </th>
 <th valign="top" colspan="4">
 
 Production System
-
-
 
 </th>
 </tr>
@@ -57,49 +51,35 @@ Production System
 
  
 
-
-
 </td>
 <td valign="top">
 
 **Patner Development Tenant**
-
-
 
 </td>
 <td valign="top">
 
 **Partner Test Tenant**
 
-
-
 </td>
 <td valign="top">
 
 **Production Tenant**
-
-
 
 </td>
 <td valign="top">
 
 **Partner Test**
 
-
-
 </td>
 <td valign="top">
 
 **Partner Customer Test Tenant**
 
-
-
 </td>
 <td valign="top">
 
 **Partner Customer Production Tenant**
-
-
 
 </td>
 </tr>
@@ -108,49 +88,35 @@ Production System
 
 **Target Group**
 
+</td>
+<td valign="top">
 
+Application Provider
 
 </td>
 <td valign="top">
 
 Application Provider
 
-
-
 </td>
 <td valign="top">
 
 Application Provider
 
-
-
 </td>
 <td valign="top">
 
 Application Provider
-
-
-
-</td>
-<td valign="top">
-
-Application Provider
-
-
 
 </td>
 <td valign="top">
 
 Application Consumer
 
-
-
 </td>
 <td valign="top">
 
 Application Consumer
-
-
 
 </td>
 </tr>
@@ -159,49 +125,35 @@ Application Consumer
 
 **ABAP System Client**
 
+</td>
+<td valign="top">
 
+100
+
+</td>
+<td valign="top">
+
+\>=200
 
 </td>
 <td valign="top">
 
 100
 
+</td>
+<td valign="top">
 
+\>=200
 
 </td>
 <td valign="top">
 
 \>=200
 
-
-
-</td>
-<td valign="top">
-
-100
-
-
-
 </td>
 <td valign="top">
 
 \>=200
-
-
-
-</td>
-<td valign="top">
-
-\>=200
-
-
-
-</td>
-<td valign="top">
-
-\>=200
-
-
 
 </td>
 </tr>
@@ -210,49 +162,35 @@ Application Consumer
 
 **Business User Logon**
 
+</td>
+<td valign="top">
 
+Logon via Identity Provider configured in provider subaccount
 
 </td>
 <td valign="top">
 
 Logon via Identity Provider configured in provider subaccount
 
-
-
 </td>
 <td valign="top">
 
 Logon via Identity Provider configured in provider subaccount
 
-
-
 </td>
 <td valign="top">
 
 Logon via Identity Provider configured in provider subaccount
-
-
-
-</td>
-<td valign="top">
-
-Logon via Identity Provider configured in provider subaccount
-
-
 
 </td>
 <td valign="top">
 
 Logon via Identity Provider configured in consumer subaccount
 
-
-
 </td>
 <td valign="top">
 
 Logon via Identity Provider configured in consumer subaccount
-
-
 
 </td>
 </tr>
@@ -261,49 +199,35 @@ Logon via Identity Provider configured in consumer subaccount
 
 **Provider Support User Access**
 
+</td>
+<td valign="top">
 
+Not available
 
 </td>
 <td valign="top">
 
 Not available
 
-
-
 </td>
 <td valign="top">
 
 Not available
 
-
-
 </td>
 <td valign="top">
 
 Not available
-
-
-
-</td>
-<td valign="top">
-
-Not available
-
-
 
 </td>
 <td valign="top">
 
 Available via Landscape Portal
 
-
-
 </td>
 <td valign="top">
 
 Available via Landscape Portal
-
-
 
 </td>
 </tr>
@@ -312,49 +236,35 @@ Available via Landscape Portal
 
 **Key-User Extensibility Configuration**
 
+</td>
+<td valign="top">
 
+Not available
 
 </td>
 <td valign="top">
 
 Not available
 
-
-
 </td>
 <td valign="top">
 
 Not available
 
-
-
 </td>
 <td valign="top">
 
-Not available
-
-
+Available
 
 </td>
 <td valign="top">
 
 Available
 
-
-
 </td>
 <td valign="top">
 
 Available
-
-
-
-</td>
-<td valign="top">
-
-Available
-
-
 
 </td>
 </tr>
@@ -363,49 +273,35 @@ Available
 
 **Software Component Import**
 
+</td>
+<td valign="top">
 
+Manage Software Components app available
+
+</td>
+<td valign="top">
+
+Not available
 
 </td>
 <td valign="top">
 
 Manage Software Components app available
 
+</td>
+<td valign="top">
 
+Not available
 
 </td>
 <td valign="top">
 
 Not available
 
-
-
-</td>
-<td valign="top">
-
-Manage Software Components app available
-
-
-
 </td>
 <td valign="top">
 
 Not available
-
-
-
-</td>
-<td valign="top">
-
-Not available
-
-
-
-</td>
-<td valign="top">
-
-Not available
-
-
 
 </td>
 </tr>
@@ -414,49 +310,35 @@ Not available
 
 **Tenant Onboarding**
 
-
-
 </td>
 <td valign="top">
 
 Created during system provisioning
-
-
 
 </td>
 <td valign="top">
 
 Test Tenant created in Landscape Portal
 
-
-
 </td>
 <td valign="top">
 
 Created during system provisioning
 
-
-
 </td>
 <td valign="top">
 
 Test Tenant created in Landscape Portal
-
-
 
 </td>
 <td valign="top">
 
 Created during subscription to solution with parameter`usage = test`
 
-
-
 </td>
 <td valign="top">
 
 Created during subscription to solution with parameter `usage = prod`
-
-
 
 </td>
 </tr>
@@ -465,49 +347,35 @@ Created during subscription to solution with parameter `usage = prod`
 
 **Initial Administrator Onboarding**
 
-
-
 </td>
 <td valign="top">
 
 Created during system provisioning based on `provider_admin_email`parameter
 
-
-
 </td>
 <td valign="top">
 
 Created during test tenant creation in Landscape Portal
-
-
 
 </td>
 <td valign="top">
 
 Created during system provisioning based on `provider_admin_email`paramete
 
-
-
 </td>
 <td valign="top">
 
 Created during test tenant creation in Landscape Portal
 
-
-
 </td>
 <td valign="top">
 
 Created using initial user onboarding form after subscription
 
-
-
 </td>
 <td valign="top">
 
 Created using initial user onboarding form after subscription
-
-
 
 </td>
 </tr>
@@ -516,49 +384,35 @@ Created using initial user onboarding form after subscription
 
 **Tenant Offboarding**
 
-
-
 </td>
 <td valign="top">
 
 Deleted during system decommissioning
-
-
 
 </td>
 <td valign="top">
 
 Deleted in Landscape Portal
 
-
-
 </td>
 <td valign="top">
 
 Deleted during system decommissioning
-
-
 
 </td>
 <td valign="top">
 
 Deleted in Landscape Portal
 
-
-
 </td>
 <td valign="top">
 
 Deleted automatically after retention period
 
-
-
 </td>
 <td valign="top">
 
 Deleted automatically after retention period
-
-
 
 </td>
 </tr>
@@ -567,49 +421,35 @@ Deleted automatically after retention period
 
 **Tenant Restore**
 
+</td>
+<td valign="top">
 
+Not available
 
 </td>
 <td valign="top">
 
 Not available
 
-
-
 </td>
 <td valign="top">
 
 Not available
 
-
-
 </td>
 <td valign="top">
 
 Not available
-
-
-
-</td>
-<td valign="top">
-
-Not available
-
-
 
 </td>
 <td valign="top">
 
 Consumer Tenant restore using Landscape Portal
 
-
-
 </td>
 <td valign="top">
 
 Consumer Tenant restore using Landscape Portal
-
-
 
 </td>
 </tr>

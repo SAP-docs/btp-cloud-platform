@@ -13,21 +13,15 @@ Use method `DELETE` to delete number range objects.
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -36,21 +30,15 @@ Value Help
 
 OBJECT
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Number Range Object
-
-
 
 </td>
 </tr>
@@ -59,21 +47,15 @@ Number Range Object
 
 CORRNR
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Correction number for transport
-
-
 
 </td>
 </tr>

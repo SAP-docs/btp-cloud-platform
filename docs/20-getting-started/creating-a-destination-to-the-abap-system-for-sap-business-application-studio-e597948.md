@@ -26,15 +26,11 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     User Input
-
-
     
     </th>
     </tr>
@@ -42,15 +38,11 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
     
     Enter a name for the destination, for example, `SAP_Business_Application_Studio`.
-
-
     
     </td>
     </tr>
@@ -58,15 +50,11 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <td valign="top">
     
     *Type* 
-
-
     
     </td>
     <td valign="top">
     
     *HTTP* 
-
-
     
     </td>
     </tr>
@@ -74,15 +62,11 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <td valign="top">
     
     *Description*
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -90,15 +74,11 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <td valign="top">
     
     *URL*
-
-
     
     </td>
     <td valign="top">
     
     Enter the URL of the ABAP system that you copied from the `<url>` element in the service key \(see [Creating a Service Key for the ABAP System](creating-a-service-key-for-the-abap-system-7af8259.md)\).
-
-
     
     </td>
     </tr>
@@ -106,15 +86,11 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <td valign="top">
     
     *Proxy Type*
-
-
     
     </td>
     <td valign="top">
     
     *Internet*
-
-
     
     </td>
     </tr>
@@ -122,15 +98,11 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <td valign="top">
     
     *Authentication*
-
-
     
     </td>
     <td valign="top">
     
     *OAuth2UserTokenExchange​*
-
-
     
     </td>
     </tr>
@@ -138,15 +110,11 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <td valign="top">
     
     *Client ID*
-
-
     
     </td>
     <td valign="top">
     
     Enter the content of the `<clientID>` element that you copied from the `uaa` section of the service key \(see [Creating a Service Key for the ABAP System](creating-a-service-key-for-the-abap-system-7af8259.md)\).
-
-
     
     </td>
     </tr>
@@ -154,15 +122,11 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <td valign="top">
     
     *Client Secret*
-
-
     
     </td>
     <td valign="top">
     
     Enter the content of the `<clientsecret>` element that you copied from the `uaa` section of the service key \(see [Creating a Service Key for the ABAP System](creating-a-service-key-for-the-abap-system-7af8259.md)\).
-
-
     
     </td>
     </tr>
@@ -170,15 +134,11 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <td valign="top">
     
     *Token Service URL Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose *Dedicated*.
-
-
     
     </td>
     </tr>
@@ -186,15 +146,11 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <td valign="top">
     
     *Token Service URL*
-
-
     
     </td>
     <td valign="top">
     
     Enter `<uaa-url>/oauth/token`, where `<uaa-url>` is the content of the `<url>` element that you copied from the `uaa` section of the service key \(see [Creating a Service Key for the ABAP System](creating-a-service-key-for-the-abap-system-7af8259.md)\).
-
-
     
     </td>
     </tr>
@@ -208,15 +164,11 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Value
-
-
     
     </th>
     </tr>
@@ -224,15 +176,11 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <td valign="top">
     
     *HTML5.DynamicDestination*
-
-
     
     </td>
     <td valign="top">
     
     `true`
-
-
     
     </td>
     </tr>
@@ -240,15 +188,11 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <td valign="top">
     
     *HTML5.Timeout*​
-
-
     
     </td>
     <td valign="top">
     
     `60000`
-
-
     
     </td>
     </tr>
@@ -256,15 +200,11 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <td valign="top">
     
     *WebIDEEnabled*
-
-
     
     </td>
     <td valign="top">
     
     `true`
-
-
     
     </td>
     </tr>
@@ -272,15 +212,11 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
     <td valign="top">
     
     *WebIDEUsage*
-
-
     
     </td>
     <td valign="top">
     
     `odata_abap,dev_abap,abap_cloud`
-
-
     
     </td>
     </tr>

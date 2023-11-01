@@ -19,21 +19,15 @@ You have to include the following properties in the URL of the request:
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Necessity
 
-
-
 </th>
 <th valign="top">
 
 Comment
-
-
 
 </th>
 </tr>
@@ -42,14 +36,10 @@ Comment
 
 `eventID` 
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 <td valign="top">
@@ -70,14 +60,10 @@ Security Audit Log Event
 
 `log_tstmp` 
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 <td valign="top">
@@ -98,14 +84,10 @@ Timestamp of the security audit log event
 
 `slgmand` 
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 <td valign="top">
@@ -126,14 +108,10 @@ Client within the SAP System
 
 `sid` 
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 <td valign="top">
@@ -152,14 +130,10 @@ System ID
 
 `counter` 
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 <td valign="top">
@@ -177,14 +151,10 @@ Message counter
 
 `slgtc` 
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 <td valign="top">
@@ -205,14 +175,10 @@ Transaction Code
 
 `slgrepna` 
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 <td valign="top">

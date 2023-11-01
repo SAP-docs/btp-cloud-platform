@@ -28,37 +28,47 @@ You can choose to enable any modules as required. To learn how, see [Enable and 
 
 Module
 
-
-
 </th>
 <th valign="top">
 
 Purpose
-
-
 
 </th>
 <th valign="top">
 
 Documentation
 
-
-
 </th>
+</tr>
+<tr>
+<td valign="top">
+
+*Application Connector* 
+
+</td>
+<td valign="top">
+
+Application Connector allows you to connect with external solutions. No matter if you want to integrate an on-premise or a cloud system, the integration process doesn't change, which allows you to avoid any configuration or network-related problems.
+
+</td>
+<td valign="top">
+
+-   [kyma-project.io: What is Application Connectivity in Kyma?](https://kyma-project.io/#/application-connector-manager/user/README)
+-   [GitHub repository: Application Connector Manager](https://github.com/kyma-project/application-connector-manager) 
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
 
 *SAP BTP Operator* 
 
-
-
 </td>
 <td valign="top">
 
 Within the SAP BTP Operator module, BTP Manager installs SAP BTP Service Operator that allows you to consume SAP BTP services from your Kubernetes cluster using Kubernetes-native tools.
-
-
 
 </td>
 <td valign="top">
@@ -77,14 +87,10 @@ Within the SAP BTP Operator module, BTP Manager installs SAP BTP Service Operato
 
 *Keda* 
 
-
-
 </td>
 <td valign="top">
 
 The Keda module comes with Keda Manager, an extension to Kyma that allows you to install [KEDA](https://keda.sh) \(Kubernetes Event Driven Autoscaler\).
-
-
 
 </td>
 <td valign="top">
@@ -100,14 +106,10 @@ The Keda module comes with Keda Manager, an extension to Kyma that allows you to
 
 *Serverless* 
 
-
-
 </td>
 <td valign="top">
 
 With the Serverless module, you can define simple code snippets \(Functions\) with minimal implementation effort.
-
-
 
 </td>
 <td valign="top">
@@ -125,14 +127,10 @@ With the Serverless module, you can define simple code snippets \(Functions\) wi
 
 *Telemetry* 
 
-
-
 </td>
 <td valign="top">
 
 The Telemetry module collects application logs and distributed traces for your application, and dispatches them to your preferred backends.
-
-
 
 </td>
 <td valign="top">
@@ -150,14 +148,10 @@ The Telemetry module collects application logs and distributed traces for your a
 
 *NATS* 
 
-
-
 </td>
 <td valign="top">
 
 NATS deploys a NATS cluster within the Kyma cluster. You can use it as a backend for Kyma Eventing.
-
-
 
 </td>
 <td valign="top">
@@ -174,45 +168,18 @@ NATS deploys a NATS cluster within the Kyma cluster. You can use it as a backend
 
 Eventing\*
 
-
-
 </td>
 <td valign="top">
 
 Eventing provides functionality to publish and subscribe to CloudEvents.
 
-At the moment, the SAP Event Mesh default plan and NATS \(provided by the NATS module\) are supported.
-
-
+At the moment, the SAP Event Mesh default plan and NATS are supported. If you choose NATS, enable the NATS module.
 
 </td>
 <td valign="top">
 
--   [Using Kyma Eventing with SAP Event Mesh](../30-development/using-kyma-eventing-with-sap-event-mesh-407d126.md)
+-   [Configure a Backend for Kyma Eventing](../30-development/configure-a-backend-for-kyma-eventing-407d126.md)
 -   [GitHub repository: Eventing](https://github.com/kyma-project/eventing-manager) 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Application Connector\*
-
-
-
-</td>
-<td valign="top">
-
-Application Connector allows you to connect with external solutions. No matter if you want to integrate an on-premise or a cloud system, the integration process doesn't change, which allows you to avoid any configuration or network-related problems.
-
-
-
-</td>
-<td valign="top">
-
--   [GitHub repository: Application Connector default plan and NATS \(provided by the NATS module\) are supported.](https://github.com/kyma-project/application-connector-manager)
 
 
 
@@ -223,19 +190,15 @@ Application Connector allows you to connect with external solutions. No matter i
 
 API Gateway\*
 
-
-
 </td>
 <td valign="top">
 
 API Gateway provides functionalities that allow you to expose and secure APIs.
 
-
-
 </td>
 <td valign="top">
 
--   [default plan and NATS \(provided by the NATS module\) arekyma-project.io: API Gateway in Kyma](https://kyma-project.io/#/01-overview/api-exposure/apix-01-api-gateway)
+-   [kyma-project.io: API Gateway in Kyma](https://kyma-project.io/#/01-overview/api-exposure/apix-01-api-gateway)
 
 
 
@@ -246,14 +209,10 @@ API Gateway provides functionalities that allow you to expose and secure APIs.
 
 Istio\*
 
-
-
 </td>
 <td valign="top">
 
 Istio is a service mesh with Kyma-specific configuration.
-
-
 
 </td>
 <td valign="top">
@@ -281,21 +240,15 @@ Istio is a service mesh with Kyma-specific configuration.
 
 Module
 
-
-
 </th>
 <th valign="top">
 
 Purpose
 
-
-
 </th>
 <th valign="top">
 
 Documentation
-
-
 
 </th>
 </tr>
@@ -304,14 +257,10 @@ Documentation
 
 *Transparent Proxy* 
 
-
-
 </td>
 <td valign="top">
 
 Use the transparent proxy for Kubernetes to connect workloads on a Kubernetes cluster to Internet and on-premise applications.
-
-
 
 </td>
 <td valign="top">

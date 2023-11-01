@@ -17,21 +17,15 @@ Since there are multiple identity providers you can use, we display the paramete
 
 UI Element
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Recommended Value
-
-
 
 </th>
 </tr>
@@ -40,21 +34,15 @@ Recommended Value
 
 *SAML 2.0 Configuration* 
 
-
-
 </td>
 <td valign="top">
 
 Configures the trust with a service provider using an uploaded metadata file.
 
-
-
 </td>
 <td valign="top">
 
 Upload the metadata file from the UAA service.
-
-
 
 </td>
 </tr>
@@ -62,8 +50,6 @@ Upload the metadata file from the UAA service.
 <td valign="top">
 
 *Default Name ID Format* 
-
-
 
 </td>
 <td valign="top">
@@ -102,8 +88,6 @@ Possible settings:
 
 *Select Assertion Attributes* 
 
-
-
 </td>
 <td valign="top">
 
@@ -123,8 +107,6 @@ Some possible settings:
 
 
 You can choose from a number of user attributes and add them.
-
-
 
 </td>
 <td valign="top">

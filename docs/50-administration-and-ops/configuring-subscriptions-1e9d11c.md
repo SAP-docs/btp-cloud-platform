@@ -40,15 +40,11 @@ Subscriptions, which are based on a queue, provide all incoming events. These in
     <th valign="top">
 
     Option
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -56,8 +52,6 @@ Subscriptions, which are based on a queue, provide all incoming events. These in
     <td valign="top">
     
     **Create a new subscription.**
-
-
     
     </td>
     <td valign="top">
@@ -79,8 +73,6 @@ Subscriptions, which are based on a queue, provide all incoming events. These in
     <td valign="top">
     
     **Delete an existing subscription.**
-
-
     
     </td>
     <td valign="top">
@@ -96,15 +88,11 @@ Subscriptions, which are based on a queue, provide all incoming events. These in
     <td valign="top">
     
     **Define table parameters.**
-
-
     
     </td>
     <td valign="top">
     
     Click the gear icon to define the table parameters.
-
-
     
     </td>
     </tr>
@@ -126,14 +114,10 @@ The *Subscriptions* table contains all subscriptions that exist for the selected
 
 **Status: New**
 
-
-
 </td>
 <td valign="top">
 
 Subscription was newly created and has not been acknowledged by the SAP Event Mesh service instance yet.
-
-
 
 </td>
 </tr>
@@ -142,14 +126,10 @@ Subscription was newly created and has not been acknowledged by the SAP Event Me
 
 **Status: Acknowledged**
 
-
-
 </td>
 <td valign="top">
 
 Subscription is active and acknowledged by the SAP Event Mesh service instance.
-
-
 
 </td>
 </tr>
@@ -158,14 +138,10 @@ Subscription is active and acknowledged by the SAP Event Mesh service instance.
 
 **Status: Rejected**
 
-
-
 </td>
 <td valign="top">
 
 The channel has been deactivated and the subscription is rejected by the SAP Event Mesh service instance.
-
-
 
 </td>
 </tr>
@@ -174,14 +150,10 @@ The channel has been deactivated and the subscription is rejected by the SAP Eve
 
 **Status: Inactive**
 
-
-
 </td>
 <td valign="top">
 
 Subscription wasn't acknowledged by the SAP Event Mesh service instance.
-
-
 
 </td>
 </tr>
@@ -190,14 +162,10 @@ Subscription wasn't acknowledged by the SAP Event Mesh service instance.
 
 **Subscription Address**
 
-
-
 </td>
 <td valign="top">
 
 Depicts the current address.
-
-
 
 </td>
 </tr>
@@ -206,14 +174,10 @@ Depicts the current address.
 
 **Type Kind**
 
-
-
 </td>
 <td valign="top">
 
 Queue-Based Subscription
-
-
 
 </td>
 </tr>

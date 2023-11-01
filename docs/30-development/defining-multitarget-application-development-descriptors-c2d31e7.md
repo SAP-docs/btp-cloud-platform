@@ -9,7 +9,7 @@ The development descriptor \(`mta.yaml`\) defines the elements and dependencies 
 > ### Note:  
 > The MTA development descriptor \(`mta.yaml`\) is used to generate the deployment descriptor \(`mtad.yaml`\), which is required for deploying an MTA to the target runtime. If you use command-line tools to deploy an MTA, you do not need an `mta.yaml` file. However, in these cases you have to manually create the `mtad.yaml` file.
 
-For more information about the MTA development descriptor, see [Inside an MTA Descriptor](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/26d41dcc35ab4c458c2e3714ec422b80.html).
+For more information about the MTA development descriptor, see [Defining Multitarget Application Deployment Descriptors for Cloud Foundry](https://help.sap.com/docs/btp/sap-business-technology-platform/defining-multitarget-application-deployment-descriptors-for-cloud-foundry).
 
 **Related Information**  
 

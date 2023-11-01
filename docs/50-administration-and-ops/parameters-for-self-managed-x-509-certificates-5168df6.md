@@ -48,14 +48,10 @@ The create binding or create service key command expects a `parameters.json` in 
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -64,16 +60,12 @@ Description
 
 `credential-type` 
 
-
-
 </td>
 <td valign="top">
 
 Only required to use X.509 when X.509 isn't specified as default in the application security descriptor \(`xs-security.json`\).
 
 For more information, see [Application Security Descriptor Configuration Syntax](../30-development/application-security-descriptor-configuration-syntax-517895a.md).
-
-
 
 </td>
 </tr>
@@ -82,14 +74,10 @@ For more information, see [Application Security Descriptor Configuration Syntax]
 
 `x509` 
 
-
-
 </td>
 <td valign="top">
 
 In this parameter, you include the certificate and the options of uniqueness and pinning. This parameter is required.
-
-
 
 </td>
 </tr>
@@ -97,8 +85,6 @@ In this parameter, you include the certificate and the options of uniqueness and
 <td valign="top">
 
 `certificate` 
-
-
 
 </td>
 <td valign="top">
@@ -125,8 +111,6 @@ Provide the certificate string in privacy-enhanced mail \(PEM\) format. This par
 
 `ensure-uniqueness` 
 
-
-
 </td>
 <td valign="top">
 
@@ -144,8 +128,6 @@ Ensures that the certificate is unique among all following clone instances. The 
 
 `certificate-pinning` 
 
-
-
 </td>
 <td valign="top">
 
@@ -157,16 +139,12 @@ Set to ***true*** for blue and green deployments, where you deploy a new applica
 
 The default value is ***true***.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `hide-certificate` 
-
-
 
 </td>
 <td valign="top">

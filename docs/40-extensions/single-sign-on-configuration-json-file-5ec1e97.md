@@ -16,14 +16,10 @@ Use the single sign-on \(SSO\) configuration JSON file to define the assertion c
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -31,8 +27,6 @@ Description
 <td valign="top">
 
 `systemName`
-
-
 
 </td>
 <td valign="top">
@@ -54,8 +48,6 @@ The name must be the same as the one defined during the system registration in t
 <td valign="top">
 
 `logoutURLs`
-
-
 
 </td>
 <td valign="top">

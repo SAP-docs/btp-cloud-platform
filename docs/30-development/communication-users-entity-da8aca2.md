@@ -23,21 +23,15 @@ Technical name: `CommunicationUsers`
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Necessity
-
-
 
 </th>
 </tr>
@@ -46,21 +40,15 @@ Necessity
 
 UserID
 
-
-
 </td>
 <td valign="top">
 
 User ID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -69,21 +57,15 @@ Mandatory \(Key\)
 
 UserName
 
-
-
 </td>
 <td valign="top">
 
 User Name
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -92,21 +74,15 @@ Optional
 
 Description
 
-
-
 </td>
 <td valign="top">
 
 Description
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -115,21 +91,15 @@ Optional
 
 LastLogonDateTime
 
-
-
 </td>
 <td valign="top">
 
 Date and time of last logon
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -138,21 +108,15 @@ Optional
 
 LockStatus
 
-
-
 </td>
 <td valign="top">
 
 Lock status
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -161,21 +125,15 @@ Optional
 
 PasswordStatus
 
-
-
 </td>
 <td valign="top">
 
 Password status
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -184,21 +142,15 @@ Optional
 
 LastChangedDateTime
 
-
-
 </td>
 <td valign="top">
 
 Date and time of last change
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -207,21 +159,15 @@ Optional
 
 LastChangedByUserID
 
-
-
 </td>
 <td valign="top">
 
 Last changed by <user ID\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -230,21 +176,15 @@ Optional
 
 LastChangedByUserName
 
-
-
 </td>
 <td valign="top">
 
 Last changed by <user name\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -253,21 +193,15 @@ Optional
 
 LastChangedByUserDescription
 
-
-
 </td>
 <td valign="top">
 
 Last changed by <user description\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -276,21 +210,15 @@ Optional
 
 LastChangedByEMailAddress
 
-
-
 </td>
 <td valign="top">
 
 Last changed by <email address\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -299,21 +227,15 @@ Optional
 
 LastChangedByGlobalUserID
 
-
-
 </td>
 <td valign="top">
 
 Last changed by <global user ID\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>

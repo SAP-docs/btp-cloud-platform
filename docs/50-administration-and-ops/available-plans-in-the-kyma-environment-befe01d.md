@@ -21,28 +21,20 @@ For details on the trial cluster specification, see [Scope and Limitations](../2
 
 Field
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Default Value
 
-
-
 </th>
 <th valign="top">
 
 Allowed Input
-
-
 
 </th>
 </tr>
@@ -53,28 +45,20 @@ Allowed Input
 
 btp CLI parameter: `plan`
 
-
-
 </td>
 <td valign="top">
 
 Defines the plan you can use in your subaccount \(only relevant for btp CLI\).
-
-
 
 </td>
 <td valign="top">
 
 Trial
 
-
-
 </td>
 <td valign="top">
 
 `trial`
-
-
 
 </td>
 </tr>
@@ -85,21 +69,15 @@ Trial
 
 btp CLI parameter: `name`
 
-
-
 </td>
 <td valign="top">
 
 Defines the name of your cluster.
 
-
-
 </td>
 <td valign="top">
 
 n/a
-
-
 
 </td>
 <td valign="top">
@@ -107,8 +85,6 @@ n/a
 Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0–9\), periods, underscores, and hyphens.
 
 It can't contain white spaces.
-
-
 
 </td>
 </tr>
@@ -120,7 +96,22 @@ It can't contain white spaces.
 
 ## Free
 
-The free plan offers you a one-node cluster and is only available on AWS. The upgrade to the paid plan is not yet supported. Only community support is available for free tier service plans and these are not subject to SLAs. For more information, read [Using Free Service Plans](../10-concepts/using-free-service-plans-524e108.md).
+Using the free service plans for Kyma allows you to try out services in global accounts without any additional cost. However, the free model account has certain limitations.
+
+-   The free plan offers you a one-node cluster and is only available on AWS.
+
+-   Only community support is available for free tier service plans and these are not subject to SLAs.
+
+-   Before you enable the Kyma environment, you must first assign the environment as an entitlement to your subaccount.
+
+-   You have only one free service plan quota available per global account.
+
+-   The services you plan to use must be available in the same region as the subaccount for the Kyma runtime. If necessary, change the default subaccount region.
+
+-   The upgrade to the paid plan is not yet supported.
+
+
+For more information, read [Using Free Service Plans](../10-concepts/using-free-service-plans-524e108.md).
 
 **Free Plan Specification**
 
@@ -131,28 +122,20 @@ The free plan offers you a one-node cluster and is only available on AWS. The up
 
 Field
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Default Value
 
-
-
 </th>
 <th valign="top">
 
 Allowed Input
-
-
 
 </th>
 </tr>
@@ -163,28 +146,20 @@ Allowed Input
 
 btp CLI parameter: `plan`
 
-
-
 </td>
 <td valign="top">
 
 Defines the plan you can use in your subaccount.
-
-
 
 </td>
 <td valign="top">
 
 Free
 
-
-
 </td>
 <td valign="top">
 
 `free`
-
-
 
 </td>
 </tr>
@@ -195,21 +170,15 @@ Free
 
 btp CLI parameter: `name`
 
-
-
 </td>
 <td valign="top">
 
 Defines the name of your cluster.
 
-
-
 </td>
 <td valign="top">
 
 n/a
-
-
 
 </td>
 <td valign="top">
@@ -217,8 +186,6 @@ n/a
 Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0–9\), periods, underscores, and hyphens.
 
 It can't contain white spaces.
-
-
 
 </td>
 </tr>
@@ -229,28 +196,20 @@ It can't contain white spaces.
 
 btp CLI parameter: `region`
 
-
-
 </td>
 <td valign="top">
 
 Defines a region \(set of datacenters\) where your cluster will run.
-
-
 
 </td>
 <td valign="top">
 
 `eu-central-1`
 
-
-
 </td>
 <td valign="top">
 
 Look up the technical cluster region names at [Regions for the Kyma Environment](../10-concepts/regions-for-the-kyma-environment-557ec3a.md) - only “Amazon Web Services” regions available.
-
-
 
 </td>
 </tr>
@@ -277,28 +236,20 @@ While the high availability is guaranteed for Kubernetes and native Kyma compone
 
 Field
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Default Value
 
-
-
 </th>
 <th valign="top">
 
 Allowed Input
-
-
 
 </th>
 </tr>
@@ -309,21 +260,15 @@ Allowed Input
 
 btp CLI parameter: `plan`
 
-
-
 </td>
 <td valign="top">
 
 Defines the plan you can use in your subaccount.
 
-
-
 </td>
 <td valign="top">
 
 The plan assigned to your subaccount.
-
-
 
 </td>
 <td valign="top">
@@ -343,21 +288,15 @@ The plan assigned to your subaccount.
 
 btp CLI parameter: `name`
 
-
-
 </td>
 <td valign="top">
 
 Defines the name of your cluster.
 
-
-
 </td>
 <td valign="top">
 
 n/a
-
-
 
 </td>
 <td valign="top">
@@ -365,8 +304,6 @@ n/a
 Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0–9\), periods, underscores, and hyphens.
 
 It can't contain white spaces.
-
-
 
 </td>
 </tr>
@@ -377,14 +314,10 @@ It can't contain white spaces.
 
 btp CLI parameter: `region`
 
-
-
 </td>
 <td valign="top">
 
 Defines a region \(set of datacenters\) where your cluster will run.
-
-
 
 </td>
 <td valign="top">
@@ -400,8 +333,6 @@ Defines a region \(set of datacenters\) where your cluster will run.
 
 Look up the technical cluster region names at [Regions for the Kyma Environment](../10-concepts/regions-for-the-kyma-environment-557ec3a.md).
 
-
-
 </td>
 </tr>
 <tr>
@@ -410,8 +341,6 @@ Look up the technical cluster region names at [Regions for the Kyma Environment]
 *Machine Type*
 
 btp CLI parameter: `machineType`
-
-
 
 </td>
 <td valign="top">
@@ -439,8 +368,6 @@ Specifies the provider-specific virtual machine type. For details, see:
 
 See all options in the SAP BTP cockpit wizard to create Kyma runtime.
 
-
-
 </td>
 </tr>
 <tr>
@@ -450,28 +377,20 @@ See all options in the SAP BTP cockpit wizard to create Kyma runtime.
 
 btp CLI parameter: `autoScalerMin`
 
-
-
 </td>
 <td valign="top">
 
 Specifies the minimum number of virtual machines to create.
-
-
 
 </td>
 <td valign="top">
 
 `3`
 
-
-
 </td>
 <td valign="top">
 
 Number between 3 and 80, but smaller than or equal to *autoScalerMax*.
-
-
 
 </td>
 </tr>
@@ -482,28 +401,20 @@ Number between 3 and 80, but smaller than or equal to *autoScalerMax*.
 
 btp CLI parameter: `autoScalerMax`
 
-
-
 </td>
 <td valign="top">
 
 Specifies the maximum number of virtual machines to create.
-
-
 
 </td>
 <td valign="top">
 
 `20`
 
-
-
 </td>
 <td valign="top">
 
 Number between 3 and 80, but greater than or equal to *autoScalerMin*.
-
-
 
 </td>
 </tr>
@@ -527,28 +438,20 @@ Number between 3 and 80, but greater than or equal to *autoScalerMin*.
 
 Field
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Default Value
 
-
-
 </th>
 <th valign="top">
 
 Allowed Input
-
-
 
 </th>
 </tr>
@@ -559,28 +462,20 @@ Allowed Input
 
 btp CLI parameter: `plan`
 
-
-
 </td>
 <td valign="top">
 
 Defines the plan you can use in your subaccount.
-
-
 
 </td>
 <td valign="top">
 
 The plan assigned to your subaccount.
 
-
-
 </td>
 <td valign="top">
 
 `azure_lite`
-
-
 
 </td>
 </tr>
@@ -591,21 +486,15 @@ The plan assigned to your subaccount.
 
 btp CLI parameter: `name`
 
-
-
 </td>
 <td valign="top">
 
 Defines the name of your cluster.
 
-
-
 </td>
 <td valign="top">
 
 n/a
-
-
 
 </td>
 <td valign="top">
@@ -613,8 +502,6 @@ n/a
 Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0–9\), periods, underscores, and hyphens.
 
 It can't contain white spaces.
-
-
 
 </td>
 </tr>
@@ -625,28 +512,20 @@ It can't contain white spaces.
 
 btp CLI parameter: `region`
 
-
-
 </td>
 <td valign="top">
 
 Defines a region \(set of datacenters\) where your cluster will run.
-
-
 
 </td>
 <td valign="top">
 
 `eastus`
 
-
-
 </td>
 <td valign="top">
 
 Look up the technical cluster region names at [Regions for the Kyma Environment](../10-concepts/regions-for-the-kyma-environment-557ec3a.md) \(only Azure regions available\).
-
-
 
 </td>
 </tr>
@@ -657,28 +536,20 @@ Look up the technical cluster region names at [Regions for the Kyma Environment]
 
 btp CLI parameter: `machineType`
 
-
-
 </td>
 <td valign="top">
 
 Specifies the provider-specific virtual machine type. For details, see [Azure docs](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-sizes-specs#dv3-series).
 
-
-
 </td>
 <td valign="top">
 
 `Standard_D4_v3`
 
-
-
 </td>
 <td valign="top">
 
 `Standard_D4_v3`
-
-
 
 </td>
 </tr>
@@ -689,28 +560,20 @@ Specifies the provider-specific virtual machine type. For details, see [Azure do
 
 btp CLI parameter: `autoScalerMin`
 
-
-
 </td>
 <td valign="top">
 
 Specifies the minimum number of virtual machines to create.
-
-
 
 </td>
 <td valign="top">
 
 `2`
 
-
-
 </td>
 <td valign="top">
 
 Number between 2 and 40, but smaller than or equal to *autoScalerMax*.
-
-
 
 </td>
 </tr>
@@ -721,28 +584,20 @@ Number between 2 and 40, but smaller than or equal to *autoScalerMax*.
 
 btp CLI parameter: `autoScalerMax`
 
-
-
 </td>
 <td valign="top">
 
 Specifies the maximum number of virtual machines to create.
-
-
 
 </td>
 <td valign="top">
 
 `10`
 
-
-
 </td>
 <td valign="top">
 
 Number between 2 and 40, but greater than or equal to *autoScalerMin*.
-
-
 
 </td>
 </tr>

@@ -12,9 +12,15 @@ Log in with the btp CLI is on global account level.
 
 -   Your global account must be on feature set B. See [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
 
--   You have to enter the correct CLI server URL. Usually, it is proposed during login and you can confirm with [ENTER\]: `https://cpcli.cf.eu10.hana.ondemand.com`. If your operator has provided you with a different server URL, you'll have to enter that one.
+-   You need to pass the CLI server URL. Usually, it is proposed during login and you can confirm with [ENTER\]: `https://cli.btp.cloud.sap/`.
+
+    Note that in clients up until version 2.49.0, the old server URL `https://cpcli.cf.eu10.hana.ondemand.com` is proposed. For the time being, you can use either one, but we recommend to switch to `https://cli.btp.cloud.sap/`. If you are in a private cloud and your operator has provided you with a different server URL, you'll have to enter that one.
 
 -   Your user is assigned to the `Global Account Viewer` or the `Global Account Administrator` role collection. See [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md).
+
+-   To log on with SAP Universal ID, you need to log on with the single sign-on parameter \(`btp login --sso`\). If you don't want to use single sign-on, log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
+
+    For more information, see SAP Note [3085908](https://me.sap.com/notes/3085908) and [Log in with Single Sign-On](log-in-with-single-sign-on-b2a56a8.md).
 
 
 
@@ -68,21 +74,12 @@ Usage: `btp [OPTIONS] login [PARAMS]`
 
 `--sso`
 
-
-
 </td>
 <td valign="top">
 
-Opens a browser for single sign-on at the identity provider. The btp CLI doesn't prompt for this parameter.
+Opens a browser for single sign-on at the identity provider. The btp CLI doesn't prompt for this parameter. If you use SAP Universal ID, you need to use this parameter.
 
 To suppress automatic browser opening, use `--sso manual`. To use a custom identity provider, you need to add the `--idp` parameter.
-
-> ### Note:  
-> To log on with SAP Universal ID, you need to use this parameter. Otherwise log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
-> 
-> For more information, see SAP Note [3085908](https://me.sap.com/notes/3085908) and [Log in with Single Sign-On](log-in-with-single-sign-on-b2a56a8.md).
-
-
 
 </td>
 </tr>
@@ -90,8 +87,6 @@ To suppress automatic browser opening, use `--sso manual`. To use a custom ident
 <td valign="top">
 
 `--idp` *<TENANT\>*
-
-
 
 </td>
 <td valign="top">
@@ -105,8 +100,6 @@ If trust is configured between your global account and a custom identity provide
 
 For more information about using a custom identity provider, see [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md).
 
-
-
 </td>
 </tr>
 <tr>
@@ -114,17 +107,10 @@ For more information about using a custom identity provider, see [Establish Trus
 
 `--url` *<URL\>*
 
-
-
 </td>
 <td valign="top">
 
-The client proposes this CLI server URL: `https://cpcli.cf.eu10.hana.ondemand.com`, which you can confirm by pressing [ENTER\]. If your operator has provided you with a different server URL, you can specify it here. Note that when you enter a new server URL for the first time, you’re asked to confirm that you trust it.
-
-> ### Note:  
-> There is just one central CLI server, independent of the regions of your subaccounts. Unless you're in a private cloud and have received a CLI server URL from your operator, you should not change the proposed URL.
-
-
+The client proposes this CLI server URL: `https://cli.btp.cloud.sap/`, which you can confirm by pressing [ENTER\]. If your operator has provided you with a different server URL, you can specify it here. Note that when you enter a new server URL for the first time, you’re asked to confirm that you trust it.
 
 </td>
 </tr>
@@ -133,14 +119,10 @@ The client proposes this CLI server URL: `https://cpcli.cf.eu10.hana.ondemand.co
 
 `--user` *<USER\>*
 
-
-
 </td>
 <td valign="top">
 
 Your user name, usually an email address.
-
-
 
 </td>
 </tr>
@@ -149,12 +131,10 @@ Your user name, usually an email address.
 
 `--password` *<PASSWORD\>*
 
-
-
 </td>
 <td valign="top">
 
-Your password. If you have enabled 2-Factor-Authentication, append your token to your password.
+Your password. If you have enabled Two-Factor-Authentication, append your token to your password.
 
 > ### Tip:  
 > We don’t recommend to provide the password with this parameter, as it appears in plain text and may be recorded in your shell history. Rather, enter it when you’re prompted.
@@ -167,8 +147,6 @@ Your password. If you have enabled 2-Factor-Authentication, append your token to
 <td valign="top">
 
 `--subdomain` *<GLOBALACCOUNT\>*
-
-
 
 </td>
 <td valign="top">

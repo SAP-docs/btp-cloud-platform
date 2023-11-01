@@ -15,7 +15,7 @@ User authorizations are managed by assigning role collections to users \(for exa
 
 Role collections are user-related authorizations that allow access to resources and services. You give users permissions by assigning role collections to them. All users in the global accounts, directories, and subaccounts are stored in identity providers, either in the default or in a custom identity provider. When the first role collection assignment to a user happens, SAP BTP creates a copy of this user in the global account, directory, or subaccount. This copy of the user is called shadow user.
 
-When you do the first role collection assignment to a user through the btp CLI, such a shadow user is created by default. If you want to prevent this, you need to pass the `--create-user-if-missing` parameter with value `false`.
+When you do the first role collection assignment to a user through the btp CLI, such a shadow usern is created by default. If you want to prevent this, you need to pass the `--create-user-if-missing false` parameter with value `false`.
 
 See [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md) and [User and Member Management](../10-concepts/user-and-member-management-cc1c676.md).
 
@@ -26,21 +26,15 @@ See [Role Collections and Roles in Global Accounts, Directories, and Subaccounts
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Run the command ...
 
-
-
 </th>
 <th valign="top">
 
 Command help
-
-
 
 </th>
 </tr>
@@ -49,21 +43,15 @@ Command help
 
 List users
 
-
-
 </td>
 <td valign="top">
 
 `btp list security/user`
 
-
-
 </td>
 <td valign="top">
 
 [btp list security/user](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-user.html)
-
-
 
 </td>
 </tr>
@@ -72,21 +60,15 @@ List users
 
 Get details about a specific user, including role collections
 
-
-
 </td>
 <td valign="top">
 
 `btp get security/user` 
 
-
-
 </td>
 <td valign="top">
 
 [btp get security/user](https://help.sap.com/docs/BTP/btp-cli/btp-get-security-user.html)
-
-
 
 </td>
 </tr>
@@ -95,21 +77,15 @@ Get details about a specific user, including role collections
 
 Delete a user
 
-
-
 </td>
 <td valign="top">
 
 `btp delete security/user`
 
-
-
 </td>
 <td valign="top">
 
 [btp delete security/user](https://help.sap.com/docs/BTP/btp-cli/btp-delete-security-user.html)
-
-
 
 </td>
 </tr>
@@ -118,21 +94,15 @@ Delete a user
 
 Assign a role collection to a user, user group, or to an attribute
 
-
-
 </td>
 <td valign="top">
 
 `btp assign security/role-collection`
 
-
-
 </td>
 <td valign="top">
 
 [btp assign security/role-collection](https://help.sap.com/docs/BTP/btp-cli/btp-assign-security-role-collection.html)
-
-
 
 </td>
 </tr>
@@ -141,21 +111,15 @@ Assign a role collection to a user, user group, or to an attribute
 
 Unassign a role collection from a user, user group, or from an attribute
 
-
-
 </td>
 <td valign="top">
 
 `btp unassign security/role-collection`
 
-
-
 </td>
 <td valign="top">
 
 [btp unassign security/role-collection](https://help.sap.com/docs/BTP/btp-cli/btp-unassign-security-role-collection.html)
-
-
 
 </td>
 </tr>
@@ -176,21 +140,15 @@ A role is an instance of a role template; you can build a role based on a role t
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Run the command ...
 
-
-
 </th>
 <th valign="top">
 
 Command help
-
-
 
 </th>
 </tr>
@@ -199,21 +157,15 @@ Command help
 
 List apps
 
-
-
 </td>
 <td valign="top">
 
 `btp list security/app`
 
-
-
 </td>
 <td valign="top">
 
 [btp list security/app](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-app.html)
-
-
 
 </td>
 </tr>
@@ -221,8 +173,6 @@ List apps
 <td valign="top">
 
 Get details about a specific application
-
-
 
 </td>
 <td valign="top">
@@ -233,14 +183,10 @@ To get the ID of a specific app, run `btp list security/app`
 
 .
 
-
-
 </td>
 <td valign="top">
 
 [btp get security/app](https://help.sap.com/docs/BTP/btp-cli/btp-get-security-app.html)
-
-
 
 </td>
 </tr>
@@ -249,21 +195,15 @@ To get the ID of a specific app, run `btp list security/app`
 
 List roles
 
-
-
 </td>
 <td valign="top">
 
 `btp list security/role`
 
-
-
 </td>
 <td valign="top">
 
 [btp list security/role](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-role.html)
-
-
 
 </td>
 </tr>
@@ -272,21 +212,15 @@ List roles
 
 Get details about a specific role
 
-
-
 </td>
 <td valign="top">
 
 `btp get security/role`
 
-
-
 </td>
 <td valign="top">
 
 [btp get security/role](https://help.sap.com/docs/BTP/btp-cli/btp-get-security-role.html)
-
-
 
 </td>
 </tr>
@@ -295,21 +229,15 @@ Get details about a specific role
 
 Create a role
 
-
-
 </td>
 <td valign="top">
 
 `btp create security/role`
 
-
-
 </td>
 <td valign="top">
 
 [btp create security/role](https://help.sap.com/docs/BTP/btp-cli/btp-create-security-role.html)
-
-
 
 </td>
 </tr>
@@ -318,21 +246,15 @@ Create a role
 
 Delete a role
 
-
-
 </td>
 <td valign="top">
 
 `btp delete security/role`
 
-
-
 </td>
 <td valign="top">
 
 [btp delete security/role](https://help.sap.com/docs/BTP/btp-cli/btp-delete-security-role.html)
-
-
 
 </td>
 </tr>
@@ -341,21 +263,15 @@ Delete a role
 
 Add a role to a role collection
 
-
-
 </td>
 <td valign="top">
 
 `btp add security/role`
 
-
-
 </td>
 <td valign="top">
 
 [btp add security/role](https://help.sap.com/docs/BTP/btp-cli/btp-add-security-role.html)
-
-
 
 </td>
 </tr>
@@ -364,21 +280,15 @@ Add a role to a role collection
 
 Remove a role from a role collection
 
-
-
 </td>
 <td valign="top">
 
 `btp remove security/role`
 
-
-
 </td>
 <td valign="top">
 
 [btp remove security/role](https://help.sap.com/docs/BTP/btp-cli/btp-remove-security-role.html)
-
-
 
 </td>
 </tr>
@@ -399,21 +309,15 @@ Role collections consist of roles, which, in turn, are based on role templates. 
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Run the command ...
 
-
-
 </th>
 <th valign="top">
 
 Command help
-
-
 
 </th>
 </tr>
@@ -422,21 +326,15 @@ Command help
 
 List role collections
 
-
-
 </td>
 <td valign="top">
 
 `btp list security/role-collection`
 
-
-
 </td>
 <td valign="top">
 
 [btp list security/role-collection](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-role-collection.html)
-
-
 
 </td>
 </tr>
@@ -445,21 +343,15 @@ List role collections
 
 Get details about a specific role collection
 
-
-
 </td>
 <td valign="top">
 
 `btp get security/role-collection`
 
-
-
 </td>
 <td valign="top">
 
 [btp get security/role-collection](https://help.sap.com/docs/BTP/btp-cli/btp-get-security-role-collection.html)
-
-
 
 </td>
 </tr>
@@ -468,21 +360,15 @@ Get details about a specific role collection
 
 Create a role collection
 
-
-
 </td>
 <td valign="top">
 
 `btp create security/role-collection`
 
-
-
 </td>
 <td valign="top">
 
 [btp create security/role-collection](https://help.sap.com/docs/BTP/btp-cli/btp-create-security-role-collection.html)
-
-
 
 </td>
 </tr>
@@ -491,21 +377,15 @@ Create a role collection
 
 Change the description of a role collection
 
-
-
 </td>
 <td valign="top">
 
 `btp update security/role-collection`
 
-
-
 </td>
 <td valign="top">
 
 [btp update security/role-collection](https://help.sap.com/docs/BTP/btp-cli/btp-update-security-role-collection.html)
-
-
 
 </td>
 </tr>
@@ -514,21 +394,15 @@ Change the description of a role collection
 
 Delete a role collection
 
-
-
 </td>
 <td valign="top">
 
 `btp delete security/role-collection`
 
-
-
 </td>
 <td valign="top">
 
 [btp delete security/role-collection](https://help.sap.com/docs/BTP/btp-cli/btp-delete-security-role-collection.html)
-
-
 
 </td>
 </tr>

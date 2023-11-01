@@ -25,28 +25,20 @@ When your application or service tries to get a token and fails, retry the conne
 
 Event Type
 
-
-
 </th>
 <th valign="top">
 
 HTTP Status Code
-
-
 
 </th>
 <th valign="top">
 
 Retry
 
-
-
 </th>
 <th valign="top">
 
 Backoff Policy
-
-
 
 </th>
 </tr>
@@ -55,28 +47,20 @@ Backoff Policy
 
 Connection error
 
-
-
 </td>
 <td valign="top">
 
 None
-
-
 
 </td>
 <td valign="top">
 
 Yes, retry up to three times.
 
-
-
 </td>
 <td valign="top" rowspan="2">
 
 Initial retry after 300 ms with a multiplier of 2.
-
-
 
 </td>
 </tr>
@@ -84,8 +68,6 @@ Initial retry after 300 ms with a multiplier of 2.
 <td valign="top">
 
 Timeout
-
-
 
 </td>
 <td valign="top">
@@ -106,8 +88,6 @@ Timeout
 
 Yes, retry up to three times.
 
-
-
 </td>
 </tr>
 <tr>
@@ -115,28 +95,20 @@ Yes, retry up to three times.
 
 Rate Limiting
 
-
-
 </td>
 <td valign="top">
 
 429: Too many requests
-
-
 
 </td>
 <td valign="top">
 
 Yes, retry up to three times.
 
-
-
 </td>
 <td valign="top">
 
 Base retry on the `Retry-After` header.
-
-
 
 </td>
 </tr>
@@ -144,8 +116,6 @@ Base retry on the `Retry-After` header.
 <td valign="top">
 
 Other Events
-
-
 
 </td>
 <td valign="top">
@@ -162,14 +132,10 @@ Other Events
 
 Yes, retry up to three times.
 
-
-
 </td>
 <td valign="top">
 
 Initial retry after 1000 ms with a multiplier of 3.
-
-
 
 </td>
 </tr>
@@ -177,8 +143,6 @@ Initial retry after 1000 ms with a multiplier of 3.
 <td valign="top">
 
 Access Control
-
-
 
 </td>
 <td valign="top">
@@ -195,14 +159,10 @@ Access Control
 
 No, don't retry.
 
-
-
 </td>
 <td valign="top">
 
 None.
-
-
 
 </td>
 </tr>
@@ -233,21 +193,15 @@ Implement a method to remove invalid tokens from your cache. When your applicati
 
 HTTP Status Code
 
-
-
 </th>
 <th valign="top">
 
 Potential Causes
 
-
-
 </th>
 <th valign="top">
 
 Application Response
-
-
 
 </th>
 </tr>
@@ -255,8 +209,6 @@ Application Response
 <td valign="top">
 
 401: Unauthorized
-
-
 
 </td>
 <td valign="top">
@@ -275,16 +227,12 @@ Application Response
 
 Remove the token from the cache and request a new token.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 403: Forbidden
-
-
 
 </td>
 <td valign="top">

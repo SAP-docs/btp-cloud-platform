@@ -16,14 +16,10 @@ When the Java Buildpack acts as the final buildpack in a multiple buildpack depl
 
 Integration Point
 
-
-
 </th>
 <th valign="top">
 
 Buildpack Usage
-
-
 
 </th>
 </tr>
@@ -32,14 +28,10 @@ Buildpack Usage
 
 `/bin`
 
-
-
 </td>
 <td valign="top">
 
 An existing `/bin` directory contributed by a non-final buildpack will be added to the *<$PATH\>* of the application as it executes.
-
-
 
 </td>
 </tr>
@@ -48,14 +40,10 @@ An existing `/bin` directory contributed by a non-final buildpack will be added 
 
 `/lib`
 
-
-
 </td>
 <td valign="top">
 
 An existing `/lib` directory contributed by a non-final buildpack will be added to the *<$LD\_LIBRARY\_PATH\>* of the application as it executes.
-
-
 
 </td>
 </tr>

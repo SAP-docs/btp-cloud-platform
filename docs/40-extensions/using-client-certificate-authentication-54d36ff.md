@@ -96,15 +96,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <th valign="top">
 
     Parameter
-
-
     
     </th>
     <th valign="top">
 
     Value
-
-
     
     </th>
     </tr>
@@ -112,15 +108,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <td valign="top">
     
     `Name`
-
-
     
     </td>
     <td valign="top">
     
     Enter a meaningful name.
-
-
     
     </td>
     </tr>
@@ -128,15 +120,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <td valign="top">
     
     `Type`
-
-
     
     </td>
     <td valign="top">
     
     `HTTP`
-
-
     
     </td>
     </tr>
@@ -144,15 +132,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <td valign="top">
     
     `Description`
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Enter a meaningful description.
-
-
     
     </td>
     </tr>
@@ -160,8 +144,6 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <td valign="top">
     
     `URL`
-
-
     
     </td>
     <td valign="top">
@@ -169,8 +151,6 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     The service URL from the communication arrangement.
 
     Make sure you use the HTTPS protocol, otherwise the *ClientCertificateAuthentication* option would not appear in the *Authentication* doropdown list.
-
-
     
     </td>
     </tr>
@@ -178,15 +158,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <td valign="top">
     
     `Proxy Type`
-
-
     
     </td>
     <td valign="top">
     
     `Internet` 
-
-
     
     </td>
     </tr>
@@ -194,8 +170,6 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <td valign="top">
     
     `Authentication`
-
-
     
     </td>
     <td valign="top">
@@ -221,15 +195,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <th valign="top">
 
     Parameter
-
-
     
     </th>
     <th valign="top">
 
     Value
-
-
     
     </th>
     </tr>
@@ -237,15 +207,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <td valign="top">
     
     `WebIDEUsage`
-
-
     
     </td>
     <td valign="top">
     
     Specify this property with value `odata_gen` to consume an OData service in your application.
-
-
     
     </td>
     </tr>
@@ -253,15 +219,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <td valign="top">
     
     `WebIDEEnabled`
-
-
     
     </td>
     <td valign="top">
     
     If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
-
-
     
     </td>
     </tr>
@@ -269,15 +231,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <td valign="top">
     
     `HTML5.DynamicDestination`
-
-
     
     </td>
     <td valign="top">
     
     If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
-
-
     
     </td>
     </tr>
@@ -285,8 +243,6 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <td valign="top">
     
     `product.name`
-
-
     
     </td>
     <td valign="top">
@@ -294,8 +250,6 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     `SAP S/4HANA Cloud`
 
     The type of the SAP System for which you create this HTTP destination.
-
-
     
     </td>
     </tr>
@@ -303,15 +257,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
     <td valign="top">
     
     `communicationScenarioID`
-
-
     
     </td>
     <td valign="top">
     
     The ID of the communication scenario.
-
-
     
     </td>
     </tr>

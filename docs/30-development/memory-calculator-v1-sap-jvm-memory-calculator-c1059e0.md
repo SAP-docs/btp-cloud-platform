@@ -85,22 +85,16 @@ The **memory\_calculator** section encloses the input data for the memory calcul
     <th valign="top">
 
     Syntax
-
-
     
     </th>
     <th valign="top">
 
     Range
-
-
     
     </th>
     <th valign="top">
 
     Value that satisfies the Range
-
-
     
     </th>
     </tr>
@@ -108,22 +102,16 @@ The **memory\_calculator** section encloses the input data for the memory calcul
     <td valign="top">
     
     120M
-
-
     
     </td>
     <td valign="top">
     
     120M
-
-
     
     </td>
     <td valign="top">
     
     120M
-
-
     
     </td>
     </tr>
@@ -131,22 +119,16 @@ The **memory\_calculator** section encloses the input data for the memory calcul
     <td valign="top">
     
     120M..
-
-
     
     </td>
     <td valign="top">
     
     \[120M\)
-
-
     
     </td>
     <td valign="top">
     
     \>=120M
-
-
     
     </td>
     </tr>
@@ -154,22 +136,16 @@ The **memory\_calculator** section encloses the input data for the memory calcul
     <td valign="top">
     
     120M..150M
-
-
     
     </td>
     <td valign="top">
     
     \[120M, 150M\]
-
-
     
     </td>
     <td valign="top">
     
     \>=120M & <=150M
-
-
     
     </td>
     </tr>
@@ -273,14 +249,10 @@ Let's say that the calculated value for *heap*, according to the *memory\_heuris
 
 Memory limit
 
-
-
 </th>
 <th valign="top">
 
 Memory calculator settings
-
-
 
 </th>
 </tr>
@@ -289,14 +261,10 @@ Memory calculator settings
 
 1G
 
-
-
 </td>
 <td valign="top">
 
 default
-
-
 
 </td>
 </tr>
@@ -346,14 +314,10 @@ First, the algorithm will try to estimate the number of threads for the given *m
 
 Memory limit
 
-
-
 </th>
 <th valign="top">
 
 Memory calculator settings
-
-
 
 </th>
 </tr>
@@ -361,8 +325,6 @@ Memory calculator settings
 <td valign="top">
 
 1G
-
-
 
 </td>
 <td valign="top">

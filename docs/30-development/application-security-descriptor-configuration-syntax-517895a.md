@@ -132,14 +132,10 @@ The following tenant modes are available:
 
 Value
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -148,14 +144,10 @@ Description
 
 `dedicated` 
 
-
-
 </td>
 <td valign="top">
 
 An OAuth client gets a separate client secret for each subaccount.
-
-
 
 </td>
 </tr>
@@ -164,14 +156,10 @@ An OAuth client gets a separate client secret for each subaccount.
 
 `shared` \(default\)
 
-
-
 </td>
 <td valign="top">
 
 An OAuth client always gets the same client secret. It’s valid in all subaccounts. The application service plan uses this tenant mode.
-
-
 
 </td>
 </tr>
@@ -180,14 +168,10 @@ An OAuth client always gets the same client secret. It’s valid in all subaccou
 
 `external` 
 
-
-
 </td>
 <td valign="top">
 
 A tenant has multiple subscriptions to applications. For each subscription to an application, the tenant gets an OAuth client with a client secret.
-
-
 
 </td>
 </tr>
@@ -332,21 +316,15 @@ The `attributes` definition can take the following properties:
 
 Key
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Example
-
-
 
 </th>
 </tr>
@@ -355,21 +333,15 @@ Example
 
 `name` 
 
-
-
 </td>
 <td valign="top">
 
 The name of the attribute with a value to apply when building the role template
 
-
-
 </td>
 <td valign="top">
 
 `Country` 
-
-
 
 </td>
 </tr>
@@ -378,21 +350,15 @@ The name of the attribute with a value to apply when building the role template
 
 `description` 
 
-
-
 </td>
 <td valign="top">
 
 A short summary of the attribute defined
 
-
-
 </td>
 <td valign="top">
 
 `Country` 
-
-
 
 </td>
 </tr>
@@ -401,21 +367,15 @@ A short summary of the attribute defined
 
 `valueType` 
 
-
-
 </td>
 <td valign="top">
 
 The type of value expected for the defined attribute; possible values are: `string` \(or `s`\), `int` \(integer\), or `date` 
 
-
-
 </td>
 <td valign="top">
 
 `int` 
-
-
 
 </td>
 </tr>
@@ -424,8 +384,6 @@ The type of value expected for the defined attribute; possible values are: `stri
 
 `valueRequired`
 
-
-
 </td>
 <td valign="top">
 
@@ -433,14 +391,10 @@ By default, every attribute needs dedicated attribute values. The default value 
 
 For more information, see [Relationship Between `default-values` of `attribute-references` and `valueRequired`](application-security-descriptor-configuration-syntax-517895a.md#loio517895a9612241259d6941dbf9ad81cb__section_c1n_jfd_tkb).
 
-
-
 </td>
 <td valign="top">
 
 `true` 
-
-
 
 </td>
 </tr>
@@ -505,21 +459,15 @@ A role template must be instantiated. This is especially true with regard to any
 
 Key
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Example
-
-
 
 </th>
 </tr>
@@ -528,21 +476,15 @@ Example
 
 `name` 
 
-
-
 </td>
 <td valign="top">
 
 The name of the role to build from the role template
 
-
-
 </td>
 <td valign="top">
 
 `Viewer` 
-
-
 
 </td>
 </tr>
@@ -551,21 +493,15 @@ The name of the role to build from the role template
 
 `description` 
 
-
-
 </td>
 <td valign="top">
 
 A short summary of the role to build
 
-
-
 </td>
 <td valign="top">
 
 `View all books` 
-
-
 
 </td>
 </tr>
@@ -574,8 +510,6 @@ A short summary of the role to build
 
 `default-role-name` 
 
-
-
 </td>
 <td valign="top">
 
@@ -583,14 +517,10 @@ The name of the role in Unicode
 
 The name can be up to 255 characters long. The naming conventions of `role-templates` don't apply here.
 
-
-
 </td>
 <td valign="top">
 
 `Viewer: Authorized to Read All Books` 
-
-
 
 </td>
 </tr>
@@ -599,21 +529,15 @@ The name can be up to 255 characters long. The naming conventions of `role-templ
 
 `scope-references` 
 
-
-
 </td>
 <td valign="top">
 
 The security **scope** to apply to the application-related role
 
-
-
 </td>
 <td valign="top">
 
 `$XSAPPNAME.Display` 
-
-
 
 </td>
 </tr>
@@ -621,8 +545,6 @@ The security **scope** to apply to the application-related role
 <td valign="top">
 
 `attribute-references` 
-
-
 
 </td>
 <td valign="top">
@@ -654,8 +576,6 @@ For more information, see [Relationship between default-values of attribute-refe
 \(an array of objects\)
 
 `["Country"]` \(an array of string\)
-
-
 
 </td>
 </tr>
@@ -708,21 +628,15 @@ The `role-collections` property only makes sense if application developers refer
 
 Key
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Example
-
-
 
 </th>
 </tr>
@@ -730,8 +644,6 @@ Example
 <td valign="top">
 
 `name` 
-
-
 
 </td>
 <td valign="top">
@@ -748,8 +660,6 @@ The name of the role collection to build
 
 `Employee` 
 
-
-
 </td>
 </tr>
 <tr>
@@ -757,21 +667,15 @@ The name of the role collection to build
 
 `description` 
 
-
-
 </td>
 <td valign="top">
 
 A short summary of the role collection to build
 
-
-
 </td>
 <td valign="top">
 
 `Employee roles` 
-
-
 
 </td>
 </tr>
@@ -780,14 +684,10 @@ A short summary of the role collection to build
 
 `role-template-references` 
 
-
-
 </td>
 <td valign="top">
 
 The role templates referenced by the `role collections` property
-
-
 
 </td>
 <td valign="top">
@@ -906,21 +806,15 @@ The following configuration keys are available:
 
 Key
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Example
-
-
 
 </th>
 </tr>
@@ -928,8 +822,6 @@ Example
 <td valign="top">
 
 `token-validity` 
-
-
 
 </td>
 <td valign="top">
@@ -953,16 +845,12 @@ Default: 43200 seconds \(12 hours\)
 
 `1800` \(30 minutes\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `refresh-token-validity` 
-
-
 
 </td>
 <td valign="top">
@@ -971,14 +859,10 @@ Sets the token lifetime in seconds for refresh tokens issued by SAP Authorizatio
 
 Default: 604800 seconds \(7 days\)
 
-
-
 </td>
 <td valign="top">
 
 `604800` \(7 days\)
-
-
 
 </td>
 </tr>
@@ -986,8 +870,6 @@ Default: 604800 seconds \(7 days\)
 <td valign="top">
 
 `redirect-uris` 
-
-
 
 </td>
 <td valign="top">
@@ -1001,14 +883,10 @@ We support explicit wildcards, namely domain relaxing and arbitrary paths. For e
 
 For more information, see [Listing Allowed Redirect URIs](../60-security/security-considerations-for-the-sap-authorization-and-trust-management-service-f117cab.md#loio88b7d9d4c6ff4498b48dbc0b7be8a294).
 
-
-
 </td>
 <td valign="top">
 
 <code>["https://<i class="varname">&lt;application_ hostname1&gt;</i>.<i class="varname">&lt;landscape_domain&gt;</i><i class="varname">&lt;path&gt;</i>","https://<i class="varname">&lt;application_ hostname2&gt;</i>.<i class="varname">&lt;custom_domain&gt;</i><i class="varname">&lt;path&gt;</i>"]</code> 
-
-
 
 </td>
 </tr>
@@ -1016,8 +894,6 @@ For more information, see [Listing Allowed Redirect URIs](../60-security/securit
 <td valign="top">
 
 `credential-types` 
-
-
 
 </td>
 <td valign="top">
@@ -1040,16 +916,12 @@ The default value is `instance-secret`. With `instance-secret` all bindings of a
 
 `["binding-secret"]` 
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `system-attributes` 
-
-
 
 </td>
 <td valign="top">
@@ -1078,16 +950,12 @@ For more information, see [Include Tokens from Corporate Identity Providers or I
 
 `["groups","rolecollections"]` 
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `allowedproviders` 
-
-
 
 </td>
 <td valign="top">
@@ -1105,8 +973,6 @@ As an option, developers can configure on application level which identity provi
 <td valign="top">
 
 `["origin_key1","origin_key2"]` 
-
-
 
 </td>
 </tr>
@@ -1142,14 +1008,10 @@ Syntax
 
 Value
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -1158,14 +1020,10 @@ Description
 
 `false` \(default\)
 
-
-
 </td>
 <td valign="top">
 
 Cloud Foundry command line interface commands are executed synchronously.
-
-
 
 </td>
 </tr>
@@ -1174,14 +1032,10 @@ Cloud Foundry command line interface commands are executed synchronously.
 
 `true` 
 
-
-
 </td>
 <td valign="top">
 
 Cloud Foundry command line interface commands are executed asynchronously.
-
-
 
 </td>
 </tr>
@@ -1209,14 +1063,10 @@ If you want to grant scopes to an application for example, you must reference th
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Syntax
-
-
 
 </th>
 </tr>
@@ -1225,14 +1075,10 @@ Syntax
 
 Application in the current `xs-security.json` file
 
-
-
 </td>
 <td valign="top">
 
 `$XSAPPNAME` 
-
-
 
 </td>
 </tr>
@@ -1240,8 +1086,6 @@ Application in the current `xs-security.json` file
 <td valign="top">
 
 Application in the same subaccount
-
-
 
 </td>
 <td valign="top">
@@ -1263,16 +1107,12 @@ Application in the same subaccount
 
 Reference to any service instance in the same subaccount and space
 
-
-
 </td>
 <td valign="top">
 
 <code>$XSSERVICENAME(<i class="varname">&lt;service_instance_name&gt;</i>)</code>
 
 This is the service instance name you used when you created it.
-
-
 
 </td>
 </tr>
@@ -1289,21 +1129,15 @@ You can use these references with the following properties:
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Example
-
-
 
 </th>
 </tr>
@@ -1312,14 +1146,10 @@ Example
 
 `granted-apps` 
 
-
-
 </td>
 <td valign="top">
 
 Granting scopes to other applications.
-
-
 
 </td>
 <td valign="top">
@@ -1342,14 +1172,10 @@ Granting scopes to other applications.
 
 `grant-as-authority-to-apps` 
 
-
-
 </td>
 <td valign="top">
 
 Use this property if you want to grant a scope to other applications for a client credential scenario.
-
-
 
 </td>
 <td valign="top">
@@ -1372,14 +1198,10 @@ Use this property if you want to grant a scope to other applications for a clien
 
 `authorities` 
 
-
-
 </td>
 <td valign="top">
 
 Granting authorities \(for a client credentials scenario\)
-
-
 
 </td>
 <td valign="top">
@@ -1398,14 +1220,10 @@ Granting authorities \(for a client credentials scenario\)
 
 `scope-references` 
 
-
-
 </td>
 <td valign="top">
 
 Referencing scopes in role templates
-
-
 
 </td>
 <td valign="top">
@@ -1424,14 +1242,10 @@ Referencing scopes in role templates
 
 `foreign-scope-references` 
 
-
-
 </td>
 <td valign="top">
 
 Using this property, you can reference scopes in foreign applications \(for a user scenario\).
-
-
 
 </td>
 <td valign="top">
@@ -1470,21 +1284,15 @@ This means that an attribute can be referenced in multiple role templates. You c
 
 Use Case
 
-
-
 </th>
 <th valign="top">
 
 Role Template
 
-
-
 </th>
 <th valign="top">
 
 Attribute
-
-
 
 </th>
 </tr>
@@ -1492,8 +1300,6 @@ Attribute
 <td valign="top">
 
 A default role with default values is generated automatically. Administrators must set attribute values for their roles.
-
-
 
 </td>
 <td valign="top">
@@ -1513,16 +1319,12 @@ A default role with default values is generated automatically. Administrators mu
 
 or no `valueRequired` key at all
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 A default role with default values is generated automatically. Administrators don't have to set attribute values for their role. A role that isn't restricted by attributes \(unrestricted\) is created.
-
-
 
 </td>
 <td valign="top">
@@ -1549,14 +1351,10 @@ A default role with default values is generated automatically. Administrators do
 
 A default role is generated automatically. Administrators don't have to set attribute values for their roles. A role that isn't restricted by attributes \(unrestricted\) is created.
 
-
-
 </td>
 <td valign="top">
 
 No `default-values` element
-
-
 
 </td>
 <td valign="top">

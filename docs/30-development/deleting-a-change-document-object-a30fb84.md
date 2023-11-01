@@ -19,21 +19,15 @@ The object will be deleted if no exception and no error messages of kind ‘E-�
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -42,21 +36,15 @@ Value Help
 
 IV\_OBJECT
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Change document object name
-
-
 
 </td>
 </tr>
@@ -65,21 +53,15 @@ Change document object name
 
 IV\_CORRNR
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Transport request where deletion should be logged
-
-
 
 </td>
 </tr>
@@ -88,21 +70,15 @@ Transport request where deletion should be logged
 
 IV\_DEL\_CL\_WHEN\_USED
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Delete generated class "CL\_<change document object name\>\_CHDO" even if it is currently used.
-
-
 
 </td>
 </tr>
@@ -117,21 +93,15 @@ Delete generated class "CL\_<change document object name\>\_CHDO" even if it is 
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -140,21 +110,15 @@ Value Help
 
 ET\_ERRORS
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -162,22 +126,16 @@ ET\_ERRORS
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 kind
 
-
-
 </td>
 <td valign="top">
 
 Message type \(emtpy means information message, ‚E-‚ means error\)
-
-
 
 </td>
 </tr>
@@ -185,22 +143,16 @@ Message type \(emtpy means information message, ‚E-‚ means error\)
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 msgid
 
-
-
 </td>
 <td valign="top">
 
 Message class \(CD\)
-
-
 
 </td>
 </tr>
@@ -208,22 +160,16 @@ Message class \(CD\)
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 msgnr
 
-
-
 </td>
 <td valign="top">
 
 Message ID
-
-
 
 </td>
 </tr>
@@ -231,22 +177,16 @@ Message ID
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 v1
 
-
-
 </td>
 <td valign="top">
 
 Variable to message
-
-
 
 </td>
 </tr>
@@ -254,22 +194,16 @@ Variable to message
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 v2
 
-
-
 </td>
 <td valign="top">
 
 Variable to message
-
-
 
 </td>
 </tr>
@@ -277,22 +211,16 @@ Variable to message
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 v3
 
-
-
 </td>
 <td valign="top">
 
 Variable to message
-
-
 
 </td>
 </tr>
@@ -300,22 +228,16 @@ Variable to message
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 v4
 
-
-
 </td>
 <td valign="top">
 
 Variable to message
-
-
 
 </td>
 </tr>
@@ -324,21 +246,15 @@ Variable to message
 
  
 
-
-
 </td>
 <td valign="top">
 
 text
 
-
-
 </td>
 <td valign="top">
 
 Short text of the message
-
-
 
 </td>
 </tr>

@@ -13,14 +13,10 @@ If an exception is read from an application log, an object instance of interface
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -31,16 +27,12 @@ CATEGORY
 
 \(from IF\_BALI\_ITEM\_GETTER\)
 
-
-
 </td>
 <td valign="top">
 
 Category of the item
 
 Contains fixed value: IF\_BALI\_CONSTANTS=\>C\_CATEGORY\_EXCEPTION
-
-
 
 </td>
 </tr>
@@ -51,14 +43,10 @@ LOG\_ITEM\_NUMBER
 
 \(from IF\_BALI\_ITEM\_GETTER\)
 
-
-
 </td>
 <td valign="top">
 
 Serial number which is the position of the exception in the log
-
-
 
 </td>
 </tr>
@@ -69,14 +57,10 @@ SEVERITY
 
 \(from IF\_BALI\_ITEM\_GETTER\)
 
-
-
 </td>
 <td valign="top">
 
 Severity of the exception \('Error', 'Warning', etc\)
-
-
 
 </td>
 </tr>
@@ -87,14 +71,10 @@ DETAIL\_LEVEL
 
 \(from IF\_BALI\_ITEM\_GETTER\)
 
-
-
 </td>
 <td valign="top">
 
 Detail level of the exception \(number between '1' and '9' or ' '\)
-
-
 
 </td>
 </tr>
@@ -105,14 +85,10 @@ TIMESTAMP
 
 \(from IF\_BALI\_ITEM\_GETTER\)
 
-
-
 </td>
 <td valign="top">
 
 UTC time stamp of the exception creation
-
-
 
 </td>
 </tr>
@@ -121,14 +97,10 @@ UTC time stamp of the exception creation
 
 EXCEPTION\_CLASS
 
-
-
 </td>
 <td valign="top">
 
 Name of the ABAP exception class
-
-
 
 </td>
 </tr>
@@ -137,14 +109,10 @@ Name of the ABAP exception class
 
 EXCEPTION\_ID\_NAME
 
-
-
 </td>
 <td valign="top">
 
 Name of the Text ID of the ABAP exception
-
-
 
 </td>
 </tr>
@@ -165,14 +133,10 @@ Get the message short text of the exception \(the output of method GET\_TEXT of 
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -181,8 +145,6 @@ Description
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -190,14 +152,10 @@ Description
 
 MESSAGE\_TEXT
 
-
-
 </td>
 <td valign="top">
 
 Message short text of the exception in the logon language
-
-
 
 </td>
 </tr>

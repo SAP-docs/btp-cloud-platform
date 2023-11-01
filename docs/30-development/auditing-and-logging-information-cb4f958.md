@@ -13,28 +13,20 @@ Here you can find a list of the security events that are logged by the HTML5 app
 
 Event grouping
 
-
-
 </th>
 <th valign="top">
 
 What events are logged
-
-
 
 </th>
 <th valign="top">
 
 How to identify related log events
 
-
-
 </th>
 <th valign="top">
 
 Additional information
-
-
 
 </th>
 </tr>
@@ -43,21 +35,15 @@ Additional information
 
 Authentication failure
 
-
-
 </td>
 <td valign="top">
 
 Authentication failed because of an invalid token
 
-
-
 </td>
 <td valign="top">
 
 Message: *Authentication failure status: 401*
-
-
 
 </td>
 <td valign="top">
@@ -71,21 +57,15 @@ Message: *Authentication failure status: 401*
 
 Authentication failed because the token has expired
 
-
-
 </td>
 <td valign="top">
 
 Message: *Authentication failure status: 403* 
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -94,14 +74,10 @@ Message: *Authentication failure status: 403*
 
 Attempt to access an application with an invalid app-host ID
 
-
-
 </td>
 <td valign="top">
 
 Attempt to access an application with an invalid app-host ID
-
-
 
 </td>
 <td valign="top">
@@ -110,14 +86,10 @@ Message: *Invalid App Host ID*
 
 If there was an attempt to get an application that was deployed by a developer in another space.
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -126,28 +98,20 @@ If there was an attempt to get an application that was deployed by a developer i
 
 Attempt to access a private application from another space
 
-
-
 </td>
 <td valign="top">
 
 Attempt to access a private application from another space
-
-
 
 </td>
 <td valign="top">
 
 Message: *Attempt to access private application. application name :*`'+ appKey + ', app-host : ' + dtServiceInstanceId` 
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -158,28 +122,20 @@ Deletion of an application
 
 \(Deletion of an app-host service instance from the HTML5 application repository\)
 
-
-
 </td>
 <td valign="top">
 
 Deletion of data started
-
-
 
 </td>
 <td valign="top">
 
 Message: *Deletion of data started for SPACE <space\> in ORG <org\>* 
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -188,21 +144,15 @@ Message: *Deletion of data started for SPACE <space\> in ORG <org\>*
 
 Deletion of data completed
 
-
-
 </td>
 <td valign="top">
 
 Message:*Deletion of data completed for SPACE <space\> in ORG <org\>* 
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -211,21 +161,15 @@ Message:*Deletion of data completed for SPACE <space\> in ORG <org\>*
 
 Deletion of data failed
 
-
-
 </td>
 <td valign="top">
 
 Message: *Deletion of data failed for SPACE <space\> in ORG <org\>*
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>

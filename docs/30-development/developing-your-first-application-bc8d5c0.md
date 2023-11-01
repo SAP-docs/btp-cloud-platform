@@ -13,14 +13,10 @@ Follow any of these tutorials to develop your first application on SAP BTP. Choo
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Technology
-
-
 
 </th>
 </tr>
@@ -29,14 +25,10 @@ Technology
 
 [Build a Business Application Using CAP for Node.js](https://developers.sap.com/mission.cp-starter-extensions-cap.html)
 
-
-
 </td>
 <td valign="top">
 
 SAP Cloud Application Programming Model \(CDS and Node.js\)
-
-
 
 </td>
 </tr>
@@ -45,14 +37,10 @@ SAP Cloud Application Programming Model \(CDS and Node.js\)
 
 [Develop a Simple Hello World Application Using SAPUI5](https://sapui5.hana.ondemand.com/#docs/guide/592f36fd077b45349a67dcb3efb46ab1.html)
 
-
-
 </td>
 <td valign="top">
 
 SAPUI5
-
-
 
 </td>
 </tr>
@@ -61,14 +49,10 @@ SAPUI5
 
 [Create an Application with SAP Java Buildpack](https://developers.sap.com/tutorials/btp-cf-buildpacks-java-create.html)
 
-
-
 </td>
 <td valign="top">
 
 Java
-
-
 
 </td>
 </tr>
@@ -77,14 +61,10 @@ Java
 
 [Create an Application with Cloud Foundry Python Buildpack](https://developers.sap.com/tutorials/btp-cf-buildpacks-python-create.html)
 
-
-
 </td>
 <td valign="top">
 
 Python
-
-
 
 </td>
 </tr>
@@ -93,14 +73,10 @@ Python
 
 [Create an Application with Cloud Foundry Node.js Buildpack](https://developers.sap.com/tutorials/btp-cf-buildpacks-node-create.html)
 
-
-
 </td>
 <td valign="top">
 
 Node.js
-
-
 
 </td>
 </tr>

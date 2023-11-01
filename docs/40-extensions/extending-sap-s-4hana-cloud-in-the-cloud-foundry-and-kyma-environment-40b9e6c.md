@@ -43,14 +43,10 @@ To integrate the cloud platform and SAP S/4HANA Cloud so that you can build exte
 
 Process Step
 
-
-
 </th>
 <th valign="top">
 
 Related Documentation
-
-
 
 </th>
 </tr>
@@ -60,8 +56,6 @@ Related Documentation
 1. Connect the SAP S/4HANA Cloud system you want to extend with the corresponding global account in SAP BTP.
 
 During the pairing process you create an registration token which is then used by the SAP S/4HANA Cloud system tenant administrator to configure the integration on the SAP S/4HANA Cloud system side.
-
-
 
 </td>
 <td valign="top">
@@ -84,14 +78,10 @@ During the pairing process you create an registration token which is then used b
 
 To do so, you configure the entitlements and assign the corresponding quota and service plans to the subaccounts where the extension applications will reside for the system you registered in the previous step.
 
-
-
 </td>
 <td valign="top">
 
 [Configure the Entitlements for the SAP S/4HANA Cloud Extensibility Service](configure-the-entitlements-for-the-sap-s-4hana-cloud-extensibility-service-65ad330.md) 
-
-
 
 </td>
 </tr>

@@ -20,15 +20,11 @@ Copy the following configurations from the old SAML-based Identity Authenticatio
     <th valign="top">
 
     From User Attribute
-
-
     
     </th>
     <th valign="top">
 
     To Assertion Attribute
-
-
     
     </th>
     </tr>
@@ -36,15 +32,11 @@ Copy the following configurations from the old SAML-based Identity Authenticatio
     <td valign="top">
     
     first\_name
-
-
     
     </td>
     <td valign="top">
     
     given\_name
-
-
     
     </td>
     </tr>
@@ -52,15 +44,11 @@ Copy the following configurations from the old SAML-based Identity Authenticatio
     <td valign="top">
     
     last\_name
-
-
     
     </td>
     <td valign="top">
     
     family\_name
-
-
     
     </td>
     </tr>
@@ -68,15 +56,11 @@ Copy the following configurations from the old SAML-based Identity Authenticatio
     <td valign="top">
     
     mail
-
-
     
     </td>
     <td valign="top">
     
     email
-
-
     
     </td>
     </tr>

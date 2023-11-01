@@ -32,35 +32,25 @@ The required user and the respective business catalog role and business role tem
 
 Required User
 
-
-
 </th>
 <th valign="top">
 
 User Task
-
-
 
 </th>
 <th valign="top">
 
 Business Catalog Role
 
-
-
 </th>
 <th valign="top">
 
 Business Role Template
 
-
-
 </th>
 <th valign="top">
 
 Application
-
-
 
 </th>
 </tr>
@@ -69,21 +59,15 @@ Application
 
 Business User
 
-
-
 </td>
 <td valign="top">
 
 Access application
 
-
-
 </td>
 <td valign="top">
 
 SAP\_CORE\_BC\_CDB\_PC
-
-
 
 </td>
 <td valign="top">
@@ -92,14 +76,10 @@ SAP\_BR\_ADMINISTRATOR\_DANA
 
 \(Administrator - Data Analysis\)
 
-
-
 </td>
 <td valign="top">
 
 Customer Data Browser
-
-
 
 </td>
 </tr>
@@ -108,21 +88,15 @@ Customer Data Browser
 
 Admin User
 
-
-
 </td>
 <td valign="top">
 
 Maintain authorization restrictions
 
-
-
 </td>
 <td valign="top">
 
 Not relevant
-
-
 
 </td>
 <td valign="top">
@@ -131,14 +105,10 @@ SAP\_BR\_ADMINISTRATOR
 
 \(Administrator\)
 
-
-
 </td>
 <td valign="top">
 
 Maintain Business Roles
-
-
 
 </td>
 </tr>

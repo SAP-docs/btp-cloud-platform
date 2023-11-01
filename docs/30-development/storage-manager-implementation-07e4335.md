@@ -21,15 +21,11 @@ As a precondition for data archiving, you need to create a class which implement
     <th valign="top">
 
     Parameter
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -37,15 +33,11 @@ As a precondition for data archiving, you need to create a class which implement
     <td valign="top">
     
     Importing: <code><i>IV_ARCHIVE_KEY</i></code>
-
-
     
     </td>
     <td valign="top">
     
     Key of the archive file to be stored
-
-
     
     </td>
     </tr>
@@ -53,15 +45,11 @@ As a precondition for data archiving, you need to create a class which implement
     <td valign="top">
     
     Importing: <code><i>IV_DATA</i></code>
-
-
     
     </td>
     <td valign="top">
     
     Content of the archive file \(binary data\)
-
-
     
     </td>
     </tr>
@@ -69,15 +57,11 @@ As a precondition for data archiving, you need to create a class which implement
     <td valign="top">
     
     Importing: <code><i>IV_LENGTH</i></code>
-
-
     
     </td>
     <td valign="top">
     
     Length of the binary content
-
-
     
     </td>
     </tr>
@@ -85,15 +69,11 @@ As a precondition for data archiving, you need to create a class which implement
     <td valign="top">
     
     Returning: <code><i>RV_DOCUMENT_ID</i></code>
-
-
     
     </td>
     <td valign="top">
     
     Document identifier which can be used to access the archived data. The document ID needs to be returned by the storage manager and will be stored in a link table in the SAP system.
-
-
     
     </td>
     </tr>
@@ -107,15 +87,11 @@ As a precondition for data archiving, you need to create a class which implement
     <th valign="top">
 
     Parameter
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -123,15 +99,11 @@ As a precondition for data archiving, you need to create a class which implement
     <td valign="top">
     
     Importing: <code><i>IV_DOCUMENT_ID</i></code>
-
-
     
     </td>
     <td valign="top">
     
     Document identifier
-
-
     
     </td>
     </tr>
@@ -139,15 +111,11 @@ As a precondition for data archiving, you need to create a class which implement
     <td valign="top">
     
     Importing: <code><i>IV_FROM_OFFSET</i></code>
-
-
     
     </td>
     <td valign="top">
     
     Data object address
-
-
     
     </td>
     </tr>
@@ -155,15 +123,11 @@ As a precondition for data archiving, you need to create a class which implement
     <td valign="top">
     
     Importing: <code><i>IV_LENGTH</i></code>
-
-
     
     </td>
     <td valign="top">
     
     Length of the binary content
-
-
     
     </td>
     </tr>
@@ -171,15 +135,11 @@ As a precondition for data archiving, you need to create a class which implement
     <td valign="top">
     
     Exporting: <code><i>EV_DATA</i></code>
-
-
     
     </td>
     <td valign="top">
     
     Content of the archive file \(binary data\)
-
-
     
     </td>
     </tr>
@@ -187,15 +147,11 @@ As a precondition for data archiving, you need to create a class which implement
     <td valign="top">
     
     Exporting:<code><i>EV_ACT_LENGTH</i></code>
-
-
     
     </td>
     <td valign="top">
     
     Length of the byte stream which is returned
-
-
     
     </td>
     </tr>
@@ -209,15 +165,11 @@ As a precondition for data archiving, you need to create a class which implement
     <th valign="top">
 
     Parameter
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -225,15 +177,11 @@ As a precondition for data archiving, you need to create a class which implement
     <td valign="top">
     
     Importing: <code><i>IV_DOCUMENT_ID</i></code>
-
-
     
     </td>
     <td valign="top">
     
     Document identifier
-
-
     
     </td>
     </tr>
@@ -241,15 +189,11 @@ As a precondition for data archiving, you need to create a class which implement
     <td valign="top">
     
     Returning:<code><i>RV_DATA</i></code>
-
-
     
     </td>
     <td valign="top">
     
     Content of the archive file \(binary data\) which will be returned by the storage manager
-
-
     
     </td>
     </tr>
@@ -263,15 +207,11 @@ As a precondition for data archiving, you need to create a class which implement
     <th valign="top">
 
     Parameter
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -279,15 +219,11 @@ As a precondition for data archiving, you need to create a class which implement
     <td valign="top">
     
     Importing: <code><i>IV_DOCUMENT_ID</i></code>
-
-
     
     </td>
     <td valign="top">
     
     Document identifier
-
-
     
     </td>
     </tr>

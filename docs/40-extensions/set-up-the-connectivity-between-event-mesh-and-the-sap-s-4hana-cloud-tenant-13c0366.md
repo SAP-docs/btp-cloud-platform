@@ -32,14 +32,10 @@ After you have created the `SAP S/4HANA Cloud Extensibility` service instance, e
 
 Process Step
 
-
-
 </th>
 <th valign="top">
 
 Related Documentation
-
-
 
 </th>
 </tr>
@@ -47,8 +43,6 @@ Related Documentation
 <td valign="top">
 
 1. Create an `SAP S/4HANA Cloud Extensibility` service instance with service plan `messaging`.
-
-
 
 </td>
 <td valign="top">
@@ -67,14 +61,10 @@ Related Documentation
 
 2. Define a dedicated JSON file that you add either when creating the `SAP S/4HANA Cloud Extensibility` service instance, or after that.
 
-
-
 </td>
 <td valign="top">
 
 [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON/YAML File](define-sap-s-4hana-cloud-extensibility-service-descriptor-json-yaml-file-2d50d91.md) 
-
-
 
 </td>
 </tr>
@@ -83,14 +73,10 @@ Related Documentation
 
 3. Configure event topics for the channel inside SAP S/4HANA Cloud tenant.
 
-
-
 </td>
 <td valign="top">
 
 [Configure Event Topics in SAP S/4HANA Cloud](configure-event-topics-in-sap-s-4hana-cloud-f5bbc57.md) 
-
-
 
 </td>
 </tr>

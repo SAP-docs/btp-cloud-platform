@@ -15,21 +15,15 @@ If your problem is related to a SAP HANA service database, the details you need 
 
 Infrastructure Provider
 
-
-
 </th>
 <th valign="top">
 
 Details You Need to Provide
 
-
-
 </th>
 <th valign="top">
 
 How to Find the Details You Need
-
-
 
 </th>
 </tr>
@@ -38,14 +32,10 @@ How to Find the Details You Need
 
 Azure regions
 
-
-
 </td>
 <td valign="top" rowspan="2">
 
 The URL of the space the database is provisioned in
-
-
 
 </td>
 <td valign="top" rowspan="2">
@@ -74,8 +64,6 @@ AWS regions
 
 \(databases provisioned before June 4, 2018\)
 
-
-
 </td>
 </tr>
 <tr>
@@ -85,14 +73,10 @@ AWS regions
 
 \(databases provisioned after June 4, 2018\)
 
-
-
 </td>
 <td valign="top" rowspan="2">
 
 The service instance ID
-
-
 
 </td>
 <td valign="top" rowspan="2">
@@ -114,8 +98,6 @@ The service instance ID
 
 Google Cloud regions
 
-
-
 </td>
 </tr>
 <tr>
@@ -123,21 +105,15 @@ Google Cloud regions
 
 China \(Shanghai\) region
 
-
-
 </td>
 <td valign="top">
 
 See [Getting Support](https://help.sap.com/viewer/cc53ad464a57404b8d453bbadbc81ceb/alibabacloud/en-US/7d64c7f819f246a59d8860146567c0e9.html) 
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -146,14 +122,10 @@ See [Getting Support](https://help.sap.com/viewer/cc53ad464a57404b8d453bbadbc81c
 
 Government Cloud \(US\) region
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 Please contact your operator.
-
-
 
 </td>
 </tr>

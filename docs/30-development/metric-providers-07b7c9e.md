@@ -11,14 +11,10 @@ The following objects were released for use in the ABAP environment:
 
 Object
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -27,14 +23,10 @@ Description
 
 CL\_GSM\_API\_TEST
 
-
-
 </td>
 <td valign="top">
 
 Convenience class to test the metric provider implementation
-
-
 
 </td>
 </tr>
@@ -43,14 +35,10 @@ Convenience class to test the metric provider implementation
 
 CX\_GSM\_API
 
-
-
 </td>
 <td valign="top">
 
 Metric provider exception class
-
-
 
 </td>
 </tr>
@@ -59,14 +47,10 @@ Metric provider exception class
 
 IF\_GSM\_API\_CONSTANTS
 
-
-
 </td>
 <td valign="top">
 
 Interface for metric provider constants
-
-
 
 </td>
 </tr>
@@ -75,14 +59,10 @@ Interface for metric provider constants
 
 IF\_GSM\_API\_METRIC
 
-
-
 </td>
 <td valign="top">
 
 Interface for metric definition
-
-
 
 </td>
 </tr>
@@ -91,14 +71,10 @@ Interface for metric definition
 
 IF\_GSM\_API\_METRIC\_GROUP
 
-
-
 </td>
 <td valign="top">
 
 Interface for metric group definition
-
-
 
 </td>
 </tr>
@@ -107,14 +83,10 @@ Interface for metric group definition
 
 IF\_GSM\_API\_MODEL
 
-
-
 </td>
 <td valign="top">
 
 Interface for metric provider model definition
-
-
 
 </td>
 </tr>
@@ -123,14 +95,10 @@ Interface for metric provider model definition
 
 IF\_GSM\_API\_PROVIDER
 
-
-
 </td>
 <td valign="top">
 
 Interface for metric provider definition
-
-
 
 </td>
 </tr>
@@ -139,14 +107,10 @@ Interface for metric provider definition
 
 IF\_GSM\_API\_TEST
 
-
-
 </td>
 <td valign="top">
 
 Interface for metric provider testing
-
-
 
 </td>
 </tr>
@@ -155,14 +119,10 @@ Interface for metric provider testing
 
 IF\_GSM\_API\_TYPES
 
-
-
 </td>
 <td valign="top">
 
 Interface for metric provider type definitions
-
-
 
 </td>
 </tr>

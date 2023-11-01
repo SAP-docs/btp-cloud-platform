@@ -36,14 +36,10 @@ Find out which Cloud Foundry features the Cloud Foundry environment on SAP BTP s
 
 Supported Features
 
-
-
 </th>
 <th valign="top">
 
 Unsupported Features
-
-
 
 </th>
 </tr>
@@ -211,14 +207,10 @@ Links to additional information about Cloud Foundry that is useful to know but n
 
 Content
 
-
-
 </th>
 <th valign="top">
 
 Location
-
-
 
 </th>
 </tr>
@@ -227,14 +219,10 @@ Location
 
 BOSH
 
-
-
 </td>
 <td valign="top">
 
 [http://bosh.cloudfoundry.org](http://bosh.cloudfoundry.org) 
-
-
 
 </td>
 </tr>
@@ -243,14 +231,10 @@ BOSH
 
 BOSH documentation
 
-
-
 </td>
 <td valign="top">
 
 [http://bosh.io/docs](http://bosh.io/docs) 
-
-
 
 </td>
 </tr>
@@ -259,14 +243,10 @@ BOSH documentation
 
 Buildpacks
 
-
-
 </td>
 <td valign="top">
 
 [http://docs.cloudfoundry.org/buildpacks](http://docs.cloudfoundry.org/buildpacks) 
-
-
 
 </td>
 </tr>
@@ -275,14 +255,10 @@ Buildpacks
 
 Components of Cloud Foundry 
 
-
-
 </td>
 <td valign="top">
 
 [http://docs.cloudfoundry.org/concepts/architecture/](http://docs.cloudfoundry.org/concepts/architecture/) 
-
-
 
 </td>
 </tr>
@@ -291,14 +267,10 @@ Components of Cloud Foundry
 
 Cloud Foundry Concepts
 
-
-
 </td>
 <td valign="top">
 
 [http://docs.cloudfoundry.org/concepts/](http://docs.cloudfoundry.org/concepts/) 
-
-
 
 </td>
 </tr>
@@ -307,14 +279,10 @@ Cloud Foundry Concepts
 
 Deployment of Cloud Foundry 
 
-
-
 </td>
 <td valign="top">
 
 [http://docs.cloudfoundry.org/deploying](http://docs.cloudfoundry.org/deploying) 
-
-
 
 </td>
 </tr>
@@ -323,14 +291,10 @@ Deployment of Cloud Foundry
 
 Developer Guide for Cloud Foundry 
 
-
-
 </td>
 <td valign="top">
 
 [http://docs.cloudfoundry.org/devguide](http://docs.cloudfoundry.org/devguide) 
-
-
 
 </td>
 </tr>
@@ -339,14 +303,10 @@ Developer Guide for Cloud Foundry
 
 Diego Application Process Balancing
 
-
-
 </td>
 <td valign="top">
 
 [https://docs.cloudfoundry.org/concepts/diego/diego-auction.html](https://docs.cloudfoundry.org/concepts/diego/diego-auction.html) 
-
-
 
 </td>
 </tr>
@@ -355,14 +315,10 @@ Diego Application Process Balancing
 
 Glossary for Cloud Foundry 
 
-
-
 </td>
 <td valign="top">
 
 [http://docs.cloudfoundry.org/concepts/glossary.html](http://docs.cloudfoundry.org/concepts/glossary.html) 
-
-
 
 </td>
 </tr>
@@ -371,14 +327,10 @@ Glossary for Cloud Foundry
 
 Overview of Cloud Foundry 
 
-
-
 </td>
 <td valign="top">
 
 [http://docs.cloudfoundry.org/concepts/overview.html](http://docs.cloudfoundry.org/concepts/overview.html) 
-
-
 
 </td>
 </tr>
@@ -387,14 +339,10 @@ Overview of Cloud Foundry
 
 Sample applications for Cloud Foundry 
 
-
-
 </td>
 <td valign="top">
 
 [https://github.com/cloudfoundry-samples](https://github.com/cloudfoundry-samples) 
-
-
 
 </td>
 </tr>
@@ -403,14 +351,10 @@ Sample applications for Cloud Foundry
 
 Security settings for Cloud Foundry 
 
-
-
 </td>
 <td valign="top">
 
 [http://docs.cloudfoundry.org/concepts/security.html](http://docs.cloudfoundry.org/concepts/security.html) 
-
-
 
 </td>
 </tr>
@@ -419,16 +363,12 @@ Security settings for Cloud Foundry
 
 Cloud Foundry Services
 
-
-
 </td>
 <td valign="top">
 
 [http://docs.cloudfoundry.org/services](http://docs.cloudfoundry.org/services)
 
 [http://docs.cloudfoundry.org/devguide/services/user-provided.html](http://docs.cloudfoundry.org/devguide/services/user-provided.html)
-
-
 
 </td>
 </tr>
@@ -437,14 +377,10 @@ Cloud Foundry Services
 
 Considerations for designing and running an application in the cloud
 
-
-
 </td>
 <td valign="top">
 
 [http://docs.cloudfoundry.org/devguide/deploy-apps/prepare-to-deploy.html](http://docs.cloudfoundry.org/devguide/deploy-apps/prepare-to-deploy.html) 
-
-
 
 </td>
 </tr>
@@ -453,14 +389,10 @@ Considerations for designing and running an application in the cloud
 
 Installing the Cloud Foundry command line interface
 
-
-
 </td>
 <td valign="top">
 
 [http://docs.cloudfoundry.org/devguide/installcf/install-go-cli.html](http://docs.cloudfoundry.org/devguide/installcf/install-go-cli.html) 
-
-
 
 </td>
 </tr>
@@ -469,14 +401,10 @@ Installing the Cloud Foundry command line interface
 
 Blog about Cloud Foundry 
 
-
-
 </td>
 <td valign="top">
 
 [http://blog.cloudfoundry.org/](http://blog.cloudfoundry.org/) 
-
-
 
 </td>
 </tr>

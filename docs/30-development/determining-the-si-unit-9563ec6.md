@@ -19,14 +19,10 @@ Use method `SI_UNIT_GET` to determine the SI unit.
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -35,14 +31,10 @@ Value Help
 
 DIMENSION
 
-
-
 </td>
 <td valign="top">
 
 Dimension key
-
-
 
 </td>
 </tr>
@@ -51,14 +43,10 @@ Dimension key
 
 UNIT
 
-
-
 </td>
 <td valign="top">
 
 Unit of measurement
-
-
 
 </td>
 </tr>
@@ -79,14 +67,10 @@ Unit of measurement
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -95,14 +79,10 @@ Value Help
 
 SI\_UNIT
 
-
-
 </td>
 <td valign="top">
 
 Base unit/SI unit of a dimension
-
-
 
 </td>
 </tr>
@@ -123,14 +103,10 @@ Base unit/SI unit of a dimension
 
 Exception Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -139,14 +115,10 @@ Value Help
 
 DIMENSION\_NOT\_FOUND
 
-
-
 </td>
 <td valign="top">
 
 Dimension is not defined
-
-
 
 </td>
 </tr>
@@ -155,14 +127,10 @@ Dimension is not defined
 
 UNIT\_NOT\_FOUND
 
-
-
 </td>
 <td valign="top">
 
 Unit of measurement is not maintained
-
-
 
 </td>
 </tr>
@@ -171,14 +139,10 @@ Unit of measurement is not maintained
 
 SI\_UNIT\_NOT\_FOUND
 
-
-
 </td>
 <td valign="top">
 
 SI unit is not defined
-
-
 
 </td>
 </tr>

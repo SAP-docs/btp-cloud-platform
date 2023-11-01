@@ -15,35 +15,25 @@ The Custom Domain plugin includes commands that you can use to configure and man
 
 Command
 
-
-
 </th>
 <th valign="top">
 
 Alias
-
-
 
 </th>
 <th valign="top">
 
 Usage
 
-
-
 </th>
 <th valign="top">
 
 Options
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -52,21 +42,15 @@ Description
 
 `cf custom-domain-create-key`
 
-
-
 </td>
 <td valign="top">
 
 `cdck`
 
-
-
 </td>
 <td valign="top">
 
 `cf custom-domain-create-key KEY SUBJECT DOMAIN [DOMAIN ...] [options]`
-
-
 
 </td>
 <td valign="top">
@@ -78,14 +62,10 @@ Description
 
 `-skip-ssl-validation`
 
-
-
 </td>
 <td valign="top">
 
 Do not attempt to validate SSL certificate.
-
-
 
 </td>
 </tr>
@@ -94,14 +74,10 @@ Do not attempt to validate SSL certificate.
 
 `-verbose`
 
-
-
 </td>
 <td valign="top">
 
 Show verbose information.
-
-
 
 </td>
 </tr>
@@ -110,14 +86,10 @@ Show verbose information.
 
 `-force`
 
-
-
 </td>
 <td valign="top">
 
 Force key creation without confirmation.
-
-
 
 </td>
 </tr>
@@ -130,8 +102,6 @@ Force key creation without confirmation.
 
 Generate a new private and public key pair.
 
-
-
 </td>
 </tr>
 <tr>
@@ -139,21 +109,15 @@ Generate a new private and public key pair.
 
 `cf custom-domain-get-csr`
 
-
-
 </td>
 <td valign="top">
 
 `cdgc`
 
-
-
 </td>
 <td valign="top">
 
 `cf custom-domain-get-csr KEY [FILE] [options]`
-
-
 
 </td>
 <td valign="top">
@@ -165,14 +129,10 @@ Generate a new private and public key pair.
 
 `-skip-ssl-validation`
 
-
-
 </td>
 <td valign="top">
 
 Do not attempt to validate SSL certificate.
-
-
 
 </td>
 </tr>
@@ -181,14 +141,10 @@ Do not attempt to validate SSL certificate.
 
 `-verbose`
 
-
-
 </td>
 <td valign="top">
 
 Show verbose information.
-
-
 
 </td>
 </tr>
@@ -201,8 +157,6 @@ Show verbose information.
 
 Download the certificate signing request corresponding to a new key.
 
-
-
 </td>
 </tr>
 <tr>
@@ -210,21 +164,15 @@ Download the certificate signing request corresponding to a new key.
 
 `cf custom-domain-upload-certificate-chain`
 
-
-
 </td>
 <td valign="top">
 
 `cducc`
 
-
-
 </td>
 <td valign="top">
 
 `cf custom-domain-upload-certificate-chain KEY FILE [options]`
-
-
 
 </td>
 <td valign="top">
@@ -236,14 +184,10 @@ Download the certificate signing request corresponding to a new key.
 
 `-skip-ssl-validation`
 
-
-
 </td>
 <td valign="top">
 
 Do not attempt to validate SSL certificate.
-
-
 
 </td>
 </tr>
@@ -252,14 +196,10 @@ Do not attempt to validate SSL certificate.
 
 `-verbose`
 
-
-
 </td>
 <td valign="top">
 
 Show verbose information.
-
-
 
 </td>
 </tr>
@@ -268,14 +208,10 @@ Show verbose information.
 
 `-force`
 
-
-
 </td>
 <td valign="top">
 
 Force uploading the certificate chain without confirmation.
-
-
 
 </td>
 </tr>
@@ -288,8 +224,6 @@ Force uploading the certificate chain without confirmation.
 
 Upload a certificate chain for a given key.
 
-
-
 </td>
 </tr>
 <tr>
@@ -297,21 +231,15 @@ Upload a certificate chain for a given key.
 
 `cf custom-domain-activate`
 
-
-
 </td>
 <td valign="top">
 
 `cda`
 
-
-
 </td>
 <td valign="top">
 
 `cf custom-domain-activate KEY DOMAIN [DOMAIN ...] [options]`
-
-
 
 </td>
 <td valign="top">
@@ -323,14 +251,10 @@ Upload a certificate chain for a given key.
 
 `-skip-ssl-validation`
 
-
-
 </td>
 <td valign="top">
 
 Do not attempt to validate SSL certificate.
-
-
 
 </td>
 </tr>
@@ -339,14 +263,10 @@ Do not attempt to validate SSL certificate.
 
 `-verbose`
 
-
-
 </td>
 <td valign="top">
 
 Show verbose information.
-
-
 
 </td>
 </tr>
@@ -359,8 +279,6 @@ Show verbose information.
 
 Activate the server certificate for specified domains.
 
-
-
 </td>
 </tr>
 <tr>
@@ -368,21 +286,15 @@ Activate the server certificate for specified domains.
 
 `cf custom-domain-list`
 
-
-
 </td>
 <td valign="top">
 
 `cdl`
 
-
-
 </td>
 <td valign="top">
 
 `cf custom-domain-list`
-
-
 
 </td>
 <td valign="top">
@@ -394,14 +306,10 @@ Activate the server certificate for specified domains.
 
 `-skip-ssl-validation`
 
-
-
 </td>
 <td valign="top">
 
 Do not attempt to validate SSL certificate.
-
-
 
 </td>
 </tr>
@@ -410,14 +318,10 @@ Do not attempt to validate SSL certificate.
 
 `-verbose`
 
-
-
 </td>
 <td valign="top">
 
 Show verbose information.
-
-
 
 </td>
 </tr>
@@ -430,8 +334,6 @@ Show verbose information.
 
 List domains and their configuration status.
 
-
-
 </td>
 </tr>
 <tr>
@@ -439,21 +341,15 @@ List domains and their configuration status.
 
 `cf custom-domain-show-certificates`
 
-
-
 </td>
 <td valign="top">
 
 `cdsc`
 
-
-
 </td>
 <td valign="top">
 
 `cf custom-domain-show-certificates KEY [FILE] [options]`
-
-
 
 </td>
 <td valign="top">
@@ -465,14 +361,10 @@ List domains and their configuration status.
 
 `-dump`
 
-
-
 </td>
 <td valign="top">
 
 Dump the certificates in PEM format.
-
-
 
 </td>
 </tr>
@@ -481,14 +373,10 @@ Dump the certificates in PEM format.
 
 `-skip-ssl-validation`
 
-
-
 </td>
 <td valign="top">
 
 Do not attempt to validate SSL certificate.
-
-
 
 </td>
 </tr>
@@ -497,14 +385,10 @@ Do not attempt to validate SSL certificate.
 
 `-verbose`
 
-
-
 </td>
 <td valign="top">
 
 Show verbose information.
-
-
 
 </td>
 </tr>
@@ -517,8 +401,6 @@ Show verbose information.
 
 Show certificates for a specified key.
 
-
-
 </td>
 </tr>
 <tr>
@@ -526,21 +408,15 @@ Show certificates for a specified key.
 
 `cf custom-domain-enable-client-authentication`
 
-
-
 </td>
 <td valign="top">
 
 `cdeca`
 
-
-
 </td>
 <td valign="top">
 
 `cf custom-domain-enable-client-authentication FILE DOMAIN [DOMAIN ...] [options]`
-
-
 
 </td>
 <td valign="top">
@@ -552,14 +428,10 @@ Show certificates for a specified key.
 
 `-skip-ssl-validation`
 
-
-
 </td>
 <td valign="top">
 
 Do not attempt to validate SSL certificate.
-
-
 
 </td>
 </tr>
@@ -568,14 +440,10 @@ Do not attempt to validate SSL certificate.
 
 `-verbose`
 
-
-
 </td>
 <td valign="top">
 
 Show verbose information.
-
-
 
 </td>
 </tr>
@@ -588,8 +456,6 @@ Show verbose information.
 
 Activate client authentication for specified domains.
 
-
-
 </td>
 </tr>
 <tr>
@@ -597,21 +463,15 @@ Activate client authentication for specified domains.
 
 `cf custom-domain-disable-client-authentication`
 
-
-
 </td>
 <td valign="top">
 
 `cddca`
 
-
-
 </td>
 <td valign="top">
 
 `cf custom-domain-disable-client-authentication DOMAIN [options]`
-
-
 
 </td>
 <td valign="top">
@@ -623,14 +483,10 @@ Activate client authentication for specified domains.
 
 `-skip-ssl-validation`
 
-
-
 </td>
 <td valign="top">
 
 Do not attempt to validate SSL certificate.
-
-
 
 </td>
 </tr>
@@ -639,14 +495,10 @@ Do not attempt to validate SSL certificate.
 
 `-verbose`
 
-
-
 </td>
 <td valign="top">
 
 Show verbose information.
-
-
 
 </td>
 </tr>
@@ -655,14 +507,10 @@ Show verbose information.
 
 `-force`
 
-
-
 </td>
 <td valign="top">
 
 Force deactivation of client authentication without confirmation.
-
-
 
 </td>
 </tr>
@@ -675,8 +523,6 @@ Force deactivation of client authentication without confirmation.
 
 Disable client authentication for a domain.
 
-
-
 </td>
 </tr>
 <tr>
@@ -684,21 +530,15 @@ Disable client authentication for a domain.
 
 `cf custom-domain-show-trusted-certificates`
 
-
-
 </td>
 <td valign="top">
 
 `cdstc`
 
-
-
 </td>
 <td valign="top">
 
 `cf custom-domain-show-trusted-certificates DOMAIN [FILE] [options]`
-
-
 
 </td>
 <td valign="top">
@@ -710,14 +550,10 @@ Disable client authentication for a domain.
 
 `-dump`
 
-
-
 </td>
 <td valign="top">
 
 Dump the certificates in PEM format.
-
-
 
 </td>
 </tr>
@@ -726,14 +562,10 @@ Dump the certificates in PEM format.
 
 `-skip-ssl-validation`
 
-
-
 </td>
 <td valign="top">
 
 Do not attempt to validate SSL certificate.
-
-
 
 </td>
 </tr>
@@ -742,14 +574,10 @@ Do not attempt to validate SSL certificate.
 
 `-verbose`
 
-
-
 </td>
 <td valign="top">
 
 Show verbose information.
-
-
 
 </td>
 </tr>
@@ -762,8 +590,6 @@ Show verbose information.
 
 Show the trusted certificates for a domain.
 
-
-
 </td>
 </tr>
 <tr>
@@ -771,21 +597,15 @@ Show the trusted certificates for a domain.
 
 `cf custom-domain-deactivate`
 
-
-
 </td>
 <td valign="top">
 
 `cdd`
 
-
-
 </td>
 <td valign="top">
 
 `cf custom-domain-deactivate DOMAIN [options]`
-
-
 
 </td>
 <td valign="top">
@@ -797,14 +617,10 @@ Show the trusted certificates for a domain.
 
 `-skip-ssl-validation`
 
-
-
 </td>
 <td valign="top">
 
 Do not attempt to validate SSL certificate.
-
-
 
 </td>
 </tr>
@@ -813,14 +629,10 @@ Do not attempt to validate SSL certificate.
 
 `-verbose`
 
-
-
 </td>
 <td valign="top">
 
 Show verbose information.
-
-
 
 </td>
 </tr>
@@ -829,14 +641,10 @@ Show verbose information.
 
 `-force`
 
-
-
 </td>
 <td valign="top">
 
 Force deactivation without confirmation.
-
-
 
 </td>
 </tr>
@@ -849,8 +657,6 @@ Force deactivation without confirmation.
 
 Deactivate the certificate for a specified domain.
 
-
-
 </td>
 </tr>
 <tr>
@@ -858,21 +664,15 @@ Deactivate the certificate for a specified domain.
 
 `cf custom-domain-delete-key`
 
-
-
 </td>
 <td valign="top">
 
 `cddk`
 
-
-
 </td>
 <td valign="top">
 
 `cf custom-domain-delete-key KEY [options]`
-
-
 
 </td>
 <td valign="top">
@@ -884,14 +684,10 @@ Deactivate the certificate for a specified domain.
 
 `-skip-ssl-validation`
 
-
-
 </td>
 <td valign="top">
 
 Do not attempt to validate SSL certificate.
-
-
 
 </td>
 </tr>
@@ -900,14 +696,10 @@ Do not attempt to validate SSL certificate.
 
 `-verbose`
 
-
-
 </td>
 <td valign="top">
 
 Show verbose information.
-
-
 
 </td>
 </tr>
@@ -916,14 +708,10 @@ Show verbose information.
 
 `-force`
 
-
-
 </td>
 <td valign="top">
 
 Force key deletion without confirmation.
-
-
 
 </td>
 </tr>
@@ -936,8 +724,6 @@ Force key deletion without confirmation.
 
 Delete the private key and its certificates.
 
-
-
 </td>
 </tr>
 <tr>
@@ -945,21 +731,15 @@ Delete the private key and its certificates.
 
 `cf custom-domain-version`
 
-
-
 </td>
 <td valign="top">
 
 `cdv`
 
-
-
 </td>
 <td valign="top">
 
 `cf custom-domain-version`
-
-
 
 </td>
 <td valign="top">
@@ -971,14 +751,10 @@ Delete the private key and its certificates.
 
 `-skip-ssl-validation`
 
-
-
 </td>
 <td valign="top">
 
 Do not attempt to validate SSL certificate.
-
-
 
 </td>
 </tr>
@@ -987,14 +763,10 @@ Do not attempt to validate SSL certificate.
 
 `-verbose`
 
-
-
 </td>
 <td valign="top">
 
 Show verbose information.
-
-
 
 </td>
 </tr>
@@ -1007,8 +779,6 @@ Show verbose information.
 
 Show the Custom Domain plugin version.
 
-
-
 </td>
 </tr>
 <tr>
@@ -1016,21 +786,15 @@ Show the Custom Domain plugin version.
 
 `cf custom-domain-map-route`
 
-
-
 </td>
 <td valign="top">
 
 `cdmr`
 
-
-
 </td>
 <td valign="top">
 
 `cf custom-domain-map-route STANDARD_ROUTE CUSTOM_ROUTE`
-
-
 
 </td>
 <td valign="top">
@@ -1042,14 +806,10 @@ Show the Custom Domain plugin version.
 
 `-skip-ssl-validation`
 
-
-
 </td>
 <td valign="top">
 
 Do not attempt to validate SSL certificate.
-
-
 
 </td>
 </tr>
@@ -1058,14 +818,10 @@ Do not attempt to validate SSL certificate.
 
 `-verbose`
 
-
-
 </td>
 <td valign="top">
 
 Show verbose information.
-
-
 
 </td>
 </tr>
@@ -1078,8 +834,6 @@ Show verbose information.
 
 Map a custom domain route to a SaaS application.
 
-
-
 </td>
 </tr>
 <tr>
@@ -1087,21 +841,15 @@ Map a custom domain route to a SaaS application.
 
 `cf custom-domain-unmap-route`
 
-
-
 </td>
 <td valign="top">
 
 `cdur`
 
-
-
 </td>
 <td valign="top">
 
 `cf custom-domain-unmap-route CUSTOM_ROUTE`
-
-
 
 </td>
 <td valign="top">
@@ -1113,14 +861,10 @@ Map a custom domain route to a SaaS application.
 
 `-skip-ssl-validation`
 
-
-
 </td>
 <td valign="top">
 
 Do not attempt to validate SSL certificate.
-
-
 
 </td>
 </tr>
@@ -1129,14 +873,10 @@ Do not attempt to validate SSL certificate.
 
 `-verbose`
 
-
-
 </td>
 <td valign="top">
 
 Show verbose information.
-
-
 
 </td>
 </tr>
@@ -1149,8 +889,6 @@ Show verbose information.
 
 Unmap a custom domain route from a SaaS application.
 
-
-
 </td>
 </tr>
 <tr>
@@ -1158,21 +896,15 @@ Unmap a custom domain route from a SaaS application.
 
 `cf custom-domain-routes`
 
-
-
 </td>
 <td valign="top">
 
 `cdr`
 
-
-
 </td>
 <td valign="top">
 
 `cf custom-domain-routes`
-
-
 
 </td>
 <td valign="top">
@@ -1184,14 +916,10 @@ Unmap a custom domain route from a SaaS application.
 
 `-skip-ssl-validation`
 
-
-
 </td>
 <td valign="top">
 
 Do not attempt to validate SSL certificate.
-
-
 
 </td>
 </tr>
@@ -1200,14 +928,10 @@ Do not attempt to validate SSL certificate.
 
 `-verbose`
 
-
-
 </td>
 <td valign="top">
 
 Show verbose information.
-
-
 
 </td>
 </tr>
@@ -1219,8 +943,6 @@ Show verbose information.
 <td valign="top">
 
 List all configured routes of SaaS applications with custom domains.
-
-
 
 </td>
 </tr>

@@ -15,21 +15,15 @@ The following table lists required and optional context attributes of the CloudE
 
 Context Attribute
 
-
-
 </th>
 <th valign="top">
 
 Requirement
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -38,21 +32,15 @@ Description
 
 `id`
 
-
-
 </td>
 <td valign="top">
 
 required
 
-
-
 </td>
 <td valign="top">
 
 identifies the event instance
-
-
 
 </td>
 </tr>
@@ -61,14 +49,10 @@ identifies the event instance
 
 `source`
 
-
-
 </td>
 <td valign="top">
 
 required
-
-
 
 </td>
 <td valign="top">
@@ -105,14 +89,10 @@ containing:
 
 `specversion`
 
-
-
 </td>
 <td valign="top">
 
 required
-
-
 
 </td>
 <td valign="top">
@@ -121,8 +101,6 @@ specifies the version of the CloudEvents specification, which the event uses
 
 currently: 1.0
 
-
-
 </td>
 </tr>
 <tr>
@@ -130,21 +108,15 @@ currently: 1.0
 
 `type`
 
-
-
 </td>
 <td valign="top">
 
 required
 
-
-
 </td>
 <td valign="top">
 
 specifies the type of event
-
-
 
 </td>
 </tr>
@@ -153,21 +125,15 @@ specifies the type of event
 
 `datacontenttype`
 
-
-
 </td>
 <td valign="top">
 
 optional
 
-
-
 </td>
 <td valign="top">
 
 content type of the event
-
-
 
 </td>
 </tr>
@@ -176,21 +142,15 @@ content type of the event
 
 `time`
 
-
-
 </td>
 <td valign="top">
 
 optional
 
-
-
 </td>
 <td valign="top">
 
 timestamp of the occurrence of the event
-
-
 
 </td>
 </tr>
@@ -199,21 +159,15 @@ timestamp of the occurrence of the event
 
 `data`
 
-
-
 </td>
 <td valign="top">
 
 optional
 
-
-
 </td>
 <td valign="top">
 
 business payload of the event
-
-
 
 </td>
 </tr>

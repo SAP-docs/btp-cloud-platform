@@ -21,21 +21,15 @@ Technical name: `CrossOriginResourceSharing`
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Necessity
-
-
 
 </th>
 </tr>
@@ -44,21 +38,15 @@ Necessity
 
 HostName
 
-
-
 </td>
 <td valign="top">
 
 Host Name
 
-
-
 </td>
 <td valign="top">
 
 Mandatory: Key
-
-
 
 </td>
 </tr>
@@ -67,21 +55,15 @@ Mandatory: Key
 
 ServicePath
 
-
-
 </td>
 <td valign="top">
 
 Service Path
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -90,21 +72,15 @@ Optional
 
 HTTPGet
 
-
-
 </td>
 <td valign="top">
 
 HTTP Get
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -113,21 +89,15 @@ Optional
 
 HTTPPost
 
-
-
 </td>
 <td valign="top">
 
 HTTP Post
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -136,21 +106,15 @@ Optional
 
 HTTPHead
 
-
-
 </td>
 <td valign="top">
 
 HTTP head
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -159,21 +123,15 @@ Optional
 
 HTTPPut
 
-
-
 </td>
 <td valign="top">
 
 HTTP Put
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -182,21 +140,15 @@ Optional
 
 HTTPPatch
 
-
-
 </td>
 <td valign="top">
 
 HTTP Patch
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -205,21 +157,15 @@ Optional
 
 HTTPDelete
 
-
-
 </td>
 <td valign="top">
 
 HTTP Delete
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -228,21 +174,15 @@ Optional
 
 HTTPTrace
 
-
-
 </td>
 <td valign="top">
 
 HTTP Trace
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -251,21 +191,15 @@ Optional
 
 HTTPOptions
 
-
-
 </td>
 <td valign="top">
 
 HTTP Options
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -274,21 +208,15 @@ Optional
 
 HTTPConnect
 
-
-
 </td>
 <td valign="top">
 
 HTTP Connect
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -297,21 +225,15 @@ Optional
 
 AllowCredentials
 
-
-
 </td>
 <td valign="top">
 
 Allow Credentials
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -320,21 +242,15 @@ Optional
 
 AllowPrivateNetworkAccess
 
-
-
 </td>
 <td valign="top">
 
 Allow Private Network Access
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -343,21 +259,15 @@ Optional
 
 MaximumAge
 
-
-
 </td>
 <td valign="top">
 
 MaximumAge
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>

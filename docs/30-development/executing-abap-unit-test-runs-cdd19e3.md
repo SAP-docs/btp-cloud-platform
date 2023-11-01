@@ -49,15 +49,11 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <th valign="top">
 
     KEY
-
-
     
     </th>
     <th valign="top">
 
     VALUE
-
-
     
     </th>
     </tr>
@@ -65,15 +61,11 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <td valign="top">
     
     accept
-
-
     
     </td>
     <td valign="top">
     
     application/vnd.sap.adt.api.abapunit.run-status.v1+xml
-
-
     
     </td>
     </tr>
@@ -81,15 +73,11 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <td valign="top">
     
     x-csrf-token
-
-
     
     </td>
     <td valign="top">
     
     fetch
-
-
     
     </td>
     </tr>
@@ -105,15 +93,11 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <th valign="top">
 
     KEY
-
-
     
     </th>
     <th valign="top">
 
     VALUE
-
-
     
     </th>
     </tr>
@@ -121,15 +105,11 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <td valign="top">
     
     x-csrf-token
-
-
     
     </td>
     <td valign="top">
     
     <token\>
-
-
     
     </td>
     </tr>
@@ -137,15 +117,11 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <td valign="top">
     
     location
-
-
     
     </td>
     <td valign="top">
     
     /sap/bc/adt/api/abapunit/runs/00000000000000000000000000000000
-
-
     
     </td>
     </tr>
@@ -165,15 +141,11 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <th valign="top">
 
     KEY
-
-
     
     </th>
     <th valign="top">
 
     VALUE
-
-
     
     </th>
     </tr>
@@ -181,15 +153,11 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <td valign="top">
     
     x-csrf-token
-
-
     
     </td>
     <td valign="top">
     
     <token\>
-
-
     
     </td>
     </tr>
@@ -197,15 +165,11 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <td valign="top">
     
     content type
-
-
     
     </td>
     <td valign="top">
     
     application/vnd.sap.adt.api.abapunit.run.v1+xml
-
-
     
     </td>
     </tr>
@@ -248,15 +212,11 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <th valign="top">
 
     KEY
-
-
     
     </th>
     <th valign="top">
 
     VALUE
-
-
     
     </th>
     </tr>
@@ -264,15 +224,11 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <td valign="top">
     
     location
-
-
     
     </td>
     <td valign="top">
     
     /sap/bc/adt/api/abapunit/runs/\{runId\}
-
-
     
     </td>
     </tr>
@@ -292,15 +248,11 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <th valign="top">
 
     KEY
-
-
     
     </th>
     <th valign="top">
 
     VALUE
-
-
     
     </th>
     </tr>
@@ -308,15 +260,11 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <td valign="top">
     
     accept
-
-
     
     </td>
     <td valign="top">
     
     application/vnd.sap.adt.api.abapunit.run-status.v1+xml
-
-
     
     </td>
     </tr>
@@ -354,15 +302,11 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <th valign="top">
 
     KEY
-
-
     
     </th>
     <th valign="top">
 
     VALUE
-
-
     
     </th>
     </tr>
@@ -370,15 +314,11 @@ For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https:
     <td valign="top">
     
     Accept
-
-
     
     </td>
     <td valign="top">
     
     application/vnd.sap.adt.api.junit.run-result.v1+xml
-
-
     
     </td>
     </tr>

@@ -84,21 +84,15 @@ For systems and tenants created automatically by the ABAP Solution service, the 
 
 `size_of_runtime`
 
-
-
 </td>
 <td valign="top">
 
 Default sizing for solution
 
-
-
 </td>
 <td valign="top">
 
 Parameter `size_of_runtime` is referring to quota plan `abap/abap_compute_unit`. See [Creating an ABAP System](../20-getting-started/creating-an-abap-system-50b32f1.md).
-
-
 
 </td>
 </tr>
@@ -107,21 +101,15 @@ Parameter `size_of_runtime` is referring to quota plan `abap/abap_compute_unit`.
 
 `size_of_persistence`
 
-
-
 </td>
 <td valign="top">
 
 Default sizing for solution
 
-
-
 </td>
 <td valign="top">
 
 Parameter `size_of_persistence` is referring to quota plan `abap/hana_compute_unit`. See [Creating an ABAP System](../20-getting-started/creating-an-abap-system-50b32f1.md).
-
-
 
 </td>
 </tr>

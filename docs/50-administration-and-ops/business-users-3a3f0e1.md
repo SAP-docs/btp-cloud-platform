@@ -21,5 +21,5 @@ For business users, there's a [default identity provider](default-identity-provi
 
 [Establish Trust and Federation with UAA Using Any SAML Identity Provider](establish-trust-and-federation-with-uaa-using-any-saml-identity-provider-2ce3938.md#loio2ce3938c66d94479848bff3090999027 "To establish trust, configure the trust configuration of the SAML 2.0 identity provider in your subaccount using the SAP BTP cockpit. Next, register your subaccount in User Account and Authentication service using the administration console of your SAML 2.0 identity provider. To complete federation, maintain the federation attributes of the SAML 2.0 user groups. This makes sure that you can assign authorizations to user groups.")
 
-[Provide Logon Link Help to Identity Provider for Business Users](provide-logon-link-help-to-identity-provider-for-business-users-b8c0aac.md "You have configured trust configurations for multiple identity providers. You want to provide an understandable link on the logon page so that business users know where to log on.")
+[Provide Logon Link Help to Identity Provider for Business Users](provide-logon-link-help-to-identity-provider-for-business-users-b8c0aac.md "You have configured trust configurations for multiple identity providers. You want to guide business users to the right identity provider for logon.")
 

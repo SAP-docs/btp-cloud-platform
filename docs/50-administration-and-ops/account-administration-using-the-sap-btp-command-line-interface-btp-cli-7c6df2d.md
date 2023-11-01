@@ -25,7 +25,7 @@ In this documentation, you learn how to download, install, update, and use the b
 
 -   [Automate Account Operations with the Command Line Interface](https://developers.sap.com/tutorials/cp-cli-automate-operations.html): This tutorial uses a bash shell script to automate the setup of a global account.
 
--   [Setting Up a Global Account via the Command Line \[Feature Set B\]](../20-getting-started/setting-up-a-global-account-via-the-command-line-feature-set-b-accd5b2.md): This chapter lists the commands of the btp CLI and the cf CLI that you need to create a subaccount and enable Cloud Foundry.
+-   [Setting Up a Global Account via the Command Line](../20-getting-started/setting-up-a-global-account-via-the-command-line-accd5b2.md): This chapter lists the commands of the btp CLI and the cf CLI that you need to create a subaccount and enable Cloud Foundry.
 
 
 Whe working with the btp CLI in your terminal, you can access the help by executing `btp help` or by appending `--help` to a command.

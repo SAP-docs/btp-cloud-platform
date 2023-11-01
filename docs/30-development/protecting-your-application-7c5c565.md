@@ -28,28 +28,20 @@ The tasks required to set up authorization artifacts are performed by two distin
 
 Step
 
-
-
 </th>
 <th valign="top">
 
 Task
-
-
 
 </th>
 <th valign="top">
 
 User Role
 
-
-
 </th>
 <th valign="top">
 
 Tool
-
-
 
 </th>
 </tr>
@@ -58,28 +50,20 @@ Tool
 
 1
 
-
-
 </td>
 <td valign="top">
 
 Specify the application security descriptor file containing the functional authorization scopes for your application.
-
-
 
 </td>
 <td valign="top">
 
 Application developer
 
-
-
 </td>
 <td valign="top">
 
 Text editor
-
-
 
 </td>
 </tr>
@@ -88,28 +72,20 @@ Text editor
 
  
 
-
-
 </td>
 <td valign="top">
 
 \(If applicable\) If you want to create an OAuth 2.0 client in an application-related subaccount, you must use a separate security descriptor file where you specify the subaccount.
-
-
 
 </td>
 <td valign="top">
 
 Application developer
 
-
-
 </td>
 <td valign="top">
 
 CF command line interface
-
-
 
 </td>
 </tr>
@@ -118,28 +94,20 @@ CF command line interface
 
 2
 
-
-
 </td>
 <td valign="top">
 
 Create role templates for the application using the application security descriptor file.
-
-
 
 </td>
 <td valign="top">
 
 Application developer
 
-
-
 </td>
 <td valign="top">
 
 Text editor
-
-
 
 </td>
 </tr>
@@ -148,28 +116,20 @@ Text editor
 
 3
 
-
-
 </td>
 <td valign="top">
 
 Create a service instance from the `xsuaa` service using the service broker
-
-
 
 </td>
 <td valign="top">
 
 Application developer
 
-
-
 </td>
 <td valign="top">
 
 CF command line interface
-
-
 
 </td>
 </tr>
@@ -178,28 +138,20 @@ CF command line interface
 
 4
 
-
-
 </td>
 <td valign="top">
 
 Bind the service instance to the application by including it into the manifest file
-
-
 
 </td>
 <td valign="top">
 
 Application developer
 
-
-
 </td>
 <td valign="top">
 
 Text editor
-
-
 
 </td>
 </tr>
@@ -208,28 +160,20 @@ Text editor
 
 5
 
-
-
 </td>
 <td valign="top">
 
 Deploy the application
-
-
 
 </td>
 <td valign="top">
 
 Application developer
 
-
-
 </td>
 <td valign="top">
 
 CF command line interface or SAP BTP cockpit
-
-
 
 </td>
 </tr>
@@ -255,21 +199,15 @@ CF command line interface or SAP BTP cockpit
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 User Role
 
-
-
 </th>
 <th valign="top">
 
 Tool
-
-
 
 </th>
 </tr>
@@ -280,14 +218,10 @@ Use an existing role or create a new one using role templates
 
 [Add Roles to Role Collections on the Application Level](../50-administration-and-ops/add-roles-to-role-collections-on-the-application-level-7596a0b.md)
 
-
-
 </td>
 <td valign="top">
 
 Administrator of the Cloud Foundry environment
-
-
 
 </td>
 <td valign="top">
@@ -295,8 +229,6 @@ Administrator of the Cloud Foundry environment
 SAP BTP cockpit
 
 Command line interface for SAP BTP
-
-
 
 </td>
 </tr>
@@ -307,14 +239,10 @@ Create a role collection and assign roles to it
 
 [Maintain Role Collections](../50-administration-and-ops/maintain-role-collections-d5f1612.md)
 
-
-
 </td>
 <td valign="top">
 
 Administrator of the Cloud Foundry environment
-
-
 
 </td>
 <td valign="top">
@@ -322,8 +250,6 @@ Administrator of the Cloud Foundry environment
 SAP BTP cockpit
 
 Command line interface for SAP BTP
-
-
 
 </td>
 </tr>
@@ -334,14 +260,10 @@ Assign the role collections to users
 
 [Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md) or [Mapping Role Collections in the Subaccount](../50-administration-and-ops/mapping-role-collections-in-the-subaccount-9e1bf57.md)
 
-
-
 </td>
 <td valign="top">
 
 Administrator of the Cloud Foundry environment
-
-
 
 </td>
 <td valign="top">
@@ -349,8 +271,6 @@ Administrator of the Cloud Foundry environment
 SAP BTP cockpit
 
 Command line interface for SAP BTP
-
-
 
 </td>
 </tr>
@@ -361,21 +281,15 @@ Command line interface for SAP BTP
 
 [Map Role Collections to User Groups](../50-administration-and-ops/map-role-collections-to-user-groups-51acfc8.md)
 
-
-
 </td>
 <td valign="top">
 
 Administrator of the Cloud Foundry environment
 
-
-
 </td>
 <td valign="top">
 
 SAP BTP cockpit
-
-
 
 </td>
 </tr>
@@ -386,21 +300,15 @@ Assign the role collection to the business users provided by an identity provide
 
 [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md)
 
-
-
 </td>
 <td valign="top">
 
 Administrator of the Cloud Foundry environment
 
-
-
 </td>
 <td valign="top">
 
 SAP BTP cockpit
-
-
 
 </td>
 </tr>

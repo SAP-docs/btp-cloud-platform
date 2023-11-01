@@ -20,21 +20,15 @@ The following table provides an overview of the SAP Cloud Management service API
 
 API / Microservice
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Region Availability<sup>\(1\)</sup>
-
-
 
 </th>
 </tr>
@@ -43,21 +37,15 @@ Region Availability<sup>\(1\)</sup>
 
 `Accounts`
 
-
-
 </td>
 <td valign="top">
 
 Provides functions to manage the directories and subaccounts in your global accounts' structure in SAP BTP.
 
-
-
 </td>
 <td valign="top">
 
 Central region<sup>\(2\)</sup>
-
-
 
 </td>
 </tr>
@@ -66,21 +54,15 @@ Central region<sup>\(2\)</sup>
 
 `Entitlements`
 
-
-
 </td>
 <td valign="top">
 
 Provides functions to manage product entitlements and assignments across your global account, directories, and subaccounts.
 
-
-
 </td>
 <td valign="top">
 
 Central region<sup>\(2\)</sup>
-
-
 
 </td>
 </tr>
@@ -89,21 +71,15 @@ Central region<sup>\(2\)</sup>
 
 `Provisioning`
 
-
-
 </td>
 <td valign="top">
 
 Provides functions to manage the provisioning of your environment instances, multitenant application subscriptions, and services for subaccounts in their corresponding region.
 
-
-
 </td>
 <td valign="top">
 
 All regions
-
-
 
 </td>
 </tr>
@@ -112,21 +88,15 @@ All regions
 
 `Events`
 
-
-
 </td>
 <td valign="top">
 
 Provides functions to get information about events relating to administrative operations in your accounts.
 
-
-
 </td>
 <td valign="top">
 
 All regions
-
-
 
 </td>
 </tr>

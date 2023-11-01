@@ -51,21 +51,15 @@ For the SQL dialect of the ABAP SQL service, the following limitations apply:
 
 Function
 
-
-
 </th>
 <th valign="top">
 
 Supported
 
-
-
 </th>
 <th valign="top">
 
 Comments
-
-
 
 </th>
 </tr>
@@ -74,14 +68,10 @@ Comments
 
 LIKE\_REGEXPR
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
@@ -90,8 +80,6 @@ Only supported as comparison operator, the `case_sensitive` parameter is not sup
 
 Different syntax: `LIKE_REGEXPR pcre`
 
-
-
 </td>
 </tr>
 <tr>
@@ -99,14 +87,10 @@ Different syntax: `LIKE_REGEXPR pcre`
 
 LOCATE\_REGEXPR
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
@@ -115,8 +99,6 @@ The `case_sensitive` parameter is not supported.
 
 Different syntax: `LOCATE_REGEXPR( pcre IN value [FROM start] [OCCURRENCE occ] [GROUP group] )`
 
-
-
 </td>
 </tr>
 <tr>
@@ -124,14 +106,10 @@ Different syntax: `LOCATE_REGEXPR( pcre IN value [FROM start] [OCCURRENCE occ] [
 
 LOCATE\_REGEXPR\_AFTER
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
@@ -140,8 +118,6 @@ The `case_sensitive` parameter is not supported.
 
 Different syntax: `LOCATE_REGEXPR( AFTER pcre IN value [FROM start] [OCCURRENCE occ] [GROUP group] )`
 
-
-
 </td>
 </tr>
 <tr>
@@ -149,14 +125,10 @@ Different syntax: `LOCATE_REGEXPR( AFTER pcre IN value [FROM start] [OCCURRENCE 
 
 OCCURENCES\_REGEXPR
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
@@ -165,8 +137,6 @@ The `case_sensitive` parameter is not supported.
 
 Different syntax: `OCCURRENCES_REGEXPR( pcre IN value )`
 
-
-
 </td>
 </tr>
 <tr>
@@ -174,14 +144,10 @@ Different syntax: `OCCURRENCES_REGEXPR( pcre IN value )`
 
 REPLACE\_REGEXPR
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
@@ -190,8 +156,6 @@ The `case_sensitive` parameter is not supported.
 
 Different syntax: `REPLACE_REGEXPR( pcre IN sql_exp1 WITH sql_exp2 [FROM start] [OCCURRENCE occ])`
 
-
-
 </td>
 </tr>
 <tr>
@@ -199,14 +163,10 @@ Different syntax: `REPLACE_REGEXPR( pcre IN sql_exp1 WITH sql_exp2 [FROM start] 
 
 SUBSTRING\_REGEXPR
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
@@ -214,8 +174,6 @@ Yes
 The `case_sensitive` parameter is not supported.
 
 Different syntax: `SUBSTRING_REGEXPR( pcre IN value [FROM start] [OCCURRENCE occ] [GROUP group] )`
-
-
 
 </td>
 </tr>
@@ -230,21 +188,15 @@ Different syntax: `SUBSTRING_REGEXPR( pcre IN value [FROM start] [OCCURRENCE occ
 
 Function
 
-
-
 </th>
 <th valign="top">
 
 Supported
 
-
-
 </th>
 <th valign="top">
 
 Commens
-
-
 
 </th>
 </tr>
@@ -253,21 +205,15 @@ Commens
 
 ABAP\_SYSTEM\_TIMEZONE
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Only with default parameters, named parameters are not supported.
-
-
 
 </td>
 </tr>
@@ -276,21 +222,15 @@ Only with default parameters, named parameters are not supported.
 
 ABAP\_USER\_TIMEZONE
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Only with default parameters, named parameters are not supported.
-
-
 
 </td>
 </tr>

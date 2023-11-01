@@ -30,21 +30,15 @@ HTTP/1.1 400 Bad Request
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 </tr>
@@ -53,21 +47,15 @@ Type
 
 `error.code`
 
-
-
 </td>
 <td valign="top">
 
 A unique application error code. Common values are listed below.
 
-
-
 </td>
 <td valign="top">
 
 Number
-
-
 
 </td>
 </tr>
@@ -76,21 +64,15 @@ Number
 
 `error.message`
 
-
-
 </td>
 <td valign="top">
 
 A description of the error.
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 </tr>
@@ -99,21 +81,15 @@ String
 
 `error.target`
 
-
-
 </td>
 <td valign="top">
 
 The resource URL of the request.
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 </tr>
@@ -122,21 +98,15 @@ String
 
 `error.details`
 
-
-
 </td>
 <td valign="top">
 
 An array of additional error codes and descriptions with further details about the error and its root cause. If this field exists, the array will contain at least one element.
 
-
-
 </td>
 <td valign="top">
 
 Array
-
-
 
 </td>
 </tr>
@@ -159,14 +129,10 @@ Provides a list of error codes and the details of the errors.
 
 Error Code
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -175,14 +141,10 @@ Description
 
 10XXX
 
-
-
 </td>
 <td valign="top">
 
 Server errors
-
-
 
 </td>
 </tr>
@@ -191,14 +153,10 @@ Server errors
 
 11XXX
 
-
-
 </td>
 <td valign="top">
 
 General request errors
-
-
 
 </td>
 </tr>
@@ -207,14 +165,10 @@ General request errors
 
 12XXX
 
-
-
 </td>
 <td valign="top">
 
 General operations failures
-
-
 
 </td>
 </tr>
@@ -223,14 +177,10 @@ General operations failures
 
 2XXXX
 
-
-
 </td>
 <td valign="top">
 
 Accounts service errors
-
-
 
 </td>
 </tr>
@@ -239,14 +189,10 @@ Accounts service errors
 
 3XXXX
 
-
-
 </td>
 <td valign="top">
 
 Entitlements service errors
-
-
 
 </td>
 </tr>
@@ -255,14 +201,10 @@ Entitlements service errors
 
 40XXX
 
-
-
 </td>
 <td valign="top">
 
 Tenants operations failures
-
-
 
 </td>
 </tr>
@@ -271,14 +213,10 @@ Tenants operations failures
 
 41XXX
 
-
-
 </td>
 <td valign="top">
 
 Environment instances operations failures
-
-
 
 </td>
 </tr>
@@ -287,14 +225,10 @@ Environment instances operations failures
 
 42XXX
 
-
-
 </td>
 <td valign="top">
 
 Provisioning service errors
-
-
 
 </td>
 </tr>
@@ -303,14 +237,10 @@ Provisioning service errors
 
 5XXXX
 
-
-
 </td>
 <td valign="top">
 
 Service Management service proxy errors
-
-
 
 </td>
 </tr>
@@ -319,14 +249,10 @@ Service Management service proxy errors
 
 6XXXX
 
-
-
 </td>
 <td valign="top">
 
 Order Processing service errors
-
-
 
 </td>
 </tr>
@@ -335,14 +261,10 @@ Order Processing service errors
 
 7XXXX
 
-
-
 </td>
 <td valign="top">
 
 CLI backend errors
-
-
 
 </td>
 </tr>
@@ -351,14 +273,10 @@ CLI backend errors
 
 8XXXX
 
-
-
 </td>
 <td valign="top">
 
 Asynchronous jobs failures
-
-
 
 </td>
 </tr>
@@ -367,14 +285,10 @@ Asynchronous jobs failures
 
 9XXXX
 
-
-
 </td>
 <td valign="top">
 
 SaaS Provisioning service errors
-
-
 
 </td>
 </tr>
@@ -383,14 +297,10 @@ SaaS Provisioning service errors
 
 10XXXX
 
-
-
 </td>
 <td valign="top">
 
 Events service errors
-
-
 
 </td>
 </tr>

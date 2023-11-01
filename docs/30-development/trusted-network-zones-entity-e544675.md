@@ -21,21 +21,15 @@ Technical name: `TrustedNetworkZones`
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Necessity
-
-
 
 </th>
 </tr>
@@ -44,21 +38,15 @@ Necessity
 
 HostName
 
-
-
 </td>
 <td valign="top">
 
 Host name
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -67,21 +55,15 @@ Mandatory \(Key\)
 
 SchemeCode
 
-
-
 </td>
 <td valign="top">
 
 Scheme code
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -90,21 +72,15 @@ Optional
 
 Port
 
-
-
 </td>
 <td valign="top">
 
 Port
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>

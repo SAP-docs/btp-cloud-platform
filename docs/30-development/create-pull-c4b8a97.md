@@ -29,21 +29,15 @@ Create a pull job.
 
 Header
 
-
-
 </th>
 <th valign="top">
 
 Required
 
-
-
 </th>
 <th valign="top">
 
 Values
-
-
 
 </th>
 </tr>
@@ -52,14 +46,10 @@ Values
 
 Accept
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 <td valign="top">
@@ -67,8 +57,6 @@ no
 application/json
 
 application/xml
-
-
 
 </td>
 </tr>
@@ -77,14 +65,10 @@ application/xml
 
 Content-Type
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 <td valign="top">
@@ -93,8 +77,6 @@ application/json
 
 application/xml
 
-
-
 </td>
 </tr>
 <tr>
@@ -102,21 +84,15 @@ application/xml
 
 x-csrf-token
 
-
-
 </td>
 <td valign="top">
 
 yes
 
-
-
 </td>
 <td valign="top">
 
 Value of x-csrf-token
-
-
 
 </td>
 </tr>
@@ -135,35 +111,25 @@ Value of x-csrf-token
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Required
-
-
 
 </th>
 <th valign="top">
 
 Data Type
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Parameter Type
-
-
 
 </th>
 </tr>
@@ -172,35 +138,25 @@ Parameter Type
 
 sc\_name
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 <td valign="top">
 
 string
 
-
-
 </td>
 <td valign="top">
 
 name of the software component
 
-
-
 </td>
 <td valign="top">
 
 Request body
-
-
 
 </td>
 </tr>
@@ -209,35 +165,25 @@ Request body
 
 commit\_id
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 <td valign="top">
 
 string
 
-
-
 </td>
 <td valign="top">
 
 commit ID
 
-
-
 </td>
 <td valign="top">
 
 Request body
-
-
 
 </td>
 </tr>
@@ -281,21 +227,15 @@ Request body
 
 Code
 
-
-
 </th>
 <th valign="top">
 
 Reason
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -304,21 +244,15 @@ Description
 
 201
 
-
-
 </td>
 <td valign="top">
 
 Created
 
-
-
 </td>
 <td valign="top">
 
 Created a pull job
-
-
 
 </td>
 </tr>
@@ -327,21 +261,15 @@ Created a pull job
 
 400
 
-
-
 </td>
 <td valign="top">
 
 Bad Request
 
-
-
 </td>
 <td valign="top">
 
 Could not read the pull job. Please check the parameters.
-
-
 
 </td>
 </tr>

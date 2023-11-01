@@ -19,14 +19,10 @@ Get an Instance of the Database Handler:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -35,8 +31,6 @@ Description
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -44,14 +38,10 @@ Description
 
 DB\_HANDLER
 
-
-
 </td>
 <td valign="top">
 
 Database handler object: A reference to interface IF\_BALI\_LOG\_DB
-
-
 
 </td>
 </tr>
@@ -70,14 +60,10 @@ Load a single log from the database into the memory:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -86,8 +72,6 @@ Description
 
 **Importing parameters**
 
-
-
 </td>
 </tr>
 <tr>
@@ -95,14 +79,10 @@ Description
 
 HANDLE
 
-
-
 </td>
 <td valign="top">
 
 Handle of the Application Log which shall be read
-
-
 
 </td>
 </tr>
@@ -111,16 +91,12 @@ Handle of the Application Log which shall be read
 
 READ\_ONLY\_HEADER
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\): If set, only the header of the log is read \(no items\)
 
 Default: Not set
-
-
 
 </td>
 </tr>
@@ -129,8 +105,6 @@ Default: Not set
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -138,14 +112,10 @@ Default: Not set
 
 LOG
 
-
-
 </td>
 <td valign="top">
 
 Log which was read from the database: Reference to interface IF\_BALI\_LOG
-
-
 
 </td>
 </tr>
@@ -154,16 +124,12 @@ Log which was read from the database: Reference to interface IF\_BALI\_LOG
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 CX\_BALI\_NOT\_FOUND
-
-
 
 </td>
 <td valign="top">
@@ -181,8 +147,6 @@ CX\_BALI\_NOT\_FOUND
 <td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
-
-
 
 </td>
 <td valign="top">
@@ -205,14 +169,10 @@ CX\_BALI\_NOT\_POSSIBLE
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>
@@ -244,14 +204,10 @@ Load a single log including all items from the database into the memory:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -260,8 +216,6 @@ Description
 
 **Importing parameters**
 
-
-
 </td>
 </tr>
 <tr>
@@ -269,14 +223,10 @@ Description
 
 HANDLE
 
-
-
 </td>
 <td valign="top">
 
 Handle of the application log that should be read
-
-
 
 </td>
 </tr>
@@ -285,8 +235,6 @@ Handle of the application log that should be read
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -294,14 +242,10 @@ Handle of the application log that should be read
 
 LOG
 
-
-
 </td>
 <td valign="top">
 
 Log that was read from the database: Reference to interface IF\_BALI\_LOG
-
-
 
 </td>
 </tr>
@@ -310,16 +254,12 @@ Log that was read from the database: Reference to interface IF\_BALI\_LOG
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 CX\_BALI\_NOT\_FOUND
-
-
 
 </td>
 <td valign="top">
@@ -338,8 +278,6 @@ CX\_BALI\_NOT\_FOUND
 
 CX\_BALI\_NOT\_POSSIBLE
 
-
-
 </td>
 <td valign="top">
 
@@ -357,14 +295,10 @@ CX\_BALI\_NOT\_POSSIBLE
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>
@@ -394,14 +328,10 @@ Load several logs via a filter from the database into the memory:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -410,8 +340,6 @@ Description
 
 **Importing parameters**
 
-
-
 </td>
 </tr>
 <tr>
@@ -419,14 +347,10 @@ Description
 
 FILTER
 
-
-
 </td>
 <td valign="top">
 
 Log filter object: Reference to interface IF\_BALI\_LOG\_FILTER
-
-
 
 </td>
 </tr>
@@ -435,16 +359,12 @@ Log filter object: Reference to interface IF\_BALI\_LOG\_FILTER
 
 READ\_ONLY\_HEADER
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\): If set, only the headers of the logs are read \(no items\)
 
 Default: Not set
-
-
 
 </td>
 </tr>
@@ -453,8 +373,6 @@ Default: Not set
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -462,14 +380,10 @@ Default: Not set
 
 LOG\_TABLE
 
-
-
 </td>
 <td valign="top">
 
 Table of logs which were read from the database: Table of references to interface IF\_BALI\_LOG
-
-
 
 </td>
 </tr>
@@ -478,8 +392,6 @@ Table of logs which were read from the database: Table of references to interfac
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
@@ -487,14 +399,10 @@ Table of logs which were read from the database: Table of references to interfac
 
 CX\_BALI\_NOT\_FOUND
 
-
-
 </td>
 <td valign="top">
 
 No log can be returned which fits to the filter criteria
-
-
 
 </td>
 </tr>
@@ -502,8 +410,6 @@ No log can be returned which fits to the filter criteria
 <td valign="top">
 
 CX\_BALI\_INVALID\_PARAMETERS
-
-
 
 </td>
 <td valign="top">
@@ -522,14 +428,10 @@ CX\_BALI\_INVALID\_PARAMETERS
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>
@@ -564,14 +466,10 @@ Load several logs including all items via a filter from the database into the me
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -580,8 +478,6 @@ Description
 
 **Importing parameters**
 
-
-
 </td>
 </tr>
 <tr>
@@ -589,14 +485,10 @@ Description
 
 FILTER
 
-
-
 </td>
 <td valign="top">
 
 Log filter object: Reference to interface IF\_BALI\_LOG\_FILTER
-
-
 
 </td>
 </tr>
@@ -605,8 +497,6 @@ Log filter object: Reference to interface IF\_BALI\_LOG\_FILTER
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -614,14 +504,10 @@ Log filter object: Reference to interface IF\_BALI\_LOG\_FILTER
 
 LOG\_TABLE
 
-
-
 </td>
 <td valign="top">
 
 Table of logs which were read from the database: Table of references to interface IF\_BALI\_LOG
-
-
 
 </td>
 </tr>
@@ -630,8 +516,6 @@ Table of logs which were read from the database: Table of references to interfac
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
@@ -639,14 +523,10 @@ Table of logs which were read from the database: Table of references to interfac
 
 CX\_BALI\_NOT\_FOUND
 
-
-
 </td>
 <td valign="top">
 
 No log can be returned that fits to the filter criteria
-
-
 
 </td>
 </tr>
@@ -654,8 +534,6 @@ No log can be returned that fits to the filter criteria
 <td valign="top">
 
 CX\_BALI\_INVALID\_PARAMETERS
-
-
 
 </td>
 <td valign="top">
@@ -674,14 +552,10 @@ CX\_BALI\_INVALID\_PARAMETERS
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>
@@ -714,14 +588,10 @@ Save a single log to the database using the default database connection:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -730,8 +600,6 @@ Description
 
 **Importing parameters**
 
-
-
 </td>
 </tr>
 <tr>
@@ -739,14 +607,10 @@ Description
 
 LOG
 
-
-
 </td>
 <td valign="top">
 
 Log that should be saved: Reference to interface IF\_BALI\_LOG
-
-
 
 </td>
 </tr>
@@ -755,14 +619,10 @@ Log that should be saved: Reference to interface IF\_BALI\_LOG
 
 USE\_2ND\_DB\_CONNECTION
 
-
-
 </td>
 <td valign="top">
 
 Deprecated: Please use method SAVE\_LOG\_2ND\_DB\_CONNECTION instead
-
-
 
 </td>
 </tr>
@@ -771,16 +631,12 @@ Deprecated: Please use method SAVE\_LOG\_2ND\_DB\_CONNECTION instead
 
 ASSIGN\_TO\_CURRENT\_APPL\_JOB
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\): If set, and if the application runs in an application job, a connection between the application log and an application job is established
 
 Default: Not set
-
-
 
 </td>
 </tr>
@@ -789,16 +645,12 @@ Default: Not set
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
-
-
 
 </td>
 <td valign="top">
@@ -830,14 +682,10 @@ CX\_BALI\_NOT\_POSSIBLE
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>
@@ -859,14 +707,10 @@ Save a single log to the database using a service connection to the database:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -875,8 +719,6 @@ Description
 
 **Importing parameters**
 
-
-
 </td>
 </tr>
 <tr>
@@ -884,14 +726,10 @@ Description
 
 LOG
 
-
-
 </td>
 <td valign="top">
 
 Log that should be saved: Reference to interface IF\_BALI\_LOG
-
-
 
 </td>
 </tr>
@@ -900,16 +738,12 @@ Log that should be saved: Reference to interface IF\_BALI\_LOG
 
 ASSIGN\_TO\_CURRENT\_APPL\_JOB
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\): If set, and if the application runs in an application job, a connection between the application log and an application job is established
 
 Default: Not set
-
-
 
 </td>
 </tr>
@@ -918,16 +752,12 @@ Default: Not set
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
-
-
 
 </td>
 <td valign="top">
@@ -959,14 +789,10 @@ CX\_BALI\_NOT\_POSSIBLE
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>
@@ -990,14 +816,10 @@ Delete a single log from the database:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -1006,8 +828,6 @@ Description
 
 **Importing parameters**
 
-
-
 </td>
 </tr>
 <tr>
@@ -1015,14 +835,10 @@ Description
 
 LOG
 
-
-
 </td>
 <td valign="top">
 
 Log which shall be saved: Reference to interface IF\_BALI\_LOG
-
-
 
 </td>
 </tr>
@@ -1031,16 +847,12 @@ Log which shall be saved: Reference to interface IF\_BALI\_LOG
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
-
-
 
 </td>
 <td valign="top">
@@ -1067,14 +879,10 @@ CX\_BALI\_NOT\_POSSIBLE
 
 CX\_BALI\_NOT\_FOUND
 
-
-
 </td>
 <td valign="top">
 
 The log was not found in the database
-
-
 
 </td>
 </tr>
@@ -1083,14 +891,10 @@ The log was not found in the database
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>
@@ -1122,14 +926,10 @@ Set an SAP enqueue on a log:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -1138,8 +938,6 @@ Description
 
 **Importing parameters**
 
-
-
 </td>
 </tr>
 <tr>
@@ -1147,14 +945,10 @@ Description
 
 LOG
 
-
-
 </td>
 <td valign="top">
 
 Log which shall be saved: Reference to interface IF\_BALI\_LOG
-
-
 
 </td>
 </tr>
@@ -1163,16 +957,12 @@ Log which shall be saved: Reference to interface IF\_BALI\_LOG
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
-
-
 
 </td>
 <td valign="top">
@@ -1199,14 +989,10 @@ CX\_BALI\_NOT\_POSSIBLE
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>
@@ -1228,14 +1014,10 @@ Clear an SAP enqueue from a log:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -1244,8 +1026,6 @@ Description
 
 **Importing parameters**
 
-
-
 </td>
 </tr>
 <tr>
@@ -1253,14 +1033,10 @@ Description
 
 LOG
 
-
-
 </td>
 <td valign="top">
 
 Log which shall be saved: Reference to interface IF\_BALI\_LOG
-
-
 
 </td>
 </tr>
@@ -1269,16 +1045,12 @@ Log which shall be saved: Reference to interface IF\_BALI\_LOG
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
-
-
 
 </td>
 <td valign="top">
@@ -1301,14 +1073,10 @@ CX\_BALI\_NOT\_POSSIBLE
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>

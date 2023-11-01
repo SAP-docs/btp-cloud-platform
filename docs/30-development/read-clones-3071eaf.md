@@ -27,21 +27,15 @@ Read a clone job. The entity is only available after the job has finished. To tr
 
 Header
 
-
-
 </th>
 <th valign="top">
 
 Required
 
-
-
 </th>
 <th valign="top">
 
 Values
-
-
 
 </th>
 </tr>
@@ -50,14 +44,10 @@ Values
 
 Accept
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 <td valign="top">
@@ -66,8 +56,6 @@ application/json
 
 application/xml
 
-
-
 </td>
 </tr>
 <tr>
@@ -75,21 +63,15 @@ application/xml
 
 x-csrf-token
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 fetch
-
-
 
 </td>
 </tr>
@@ -108,35 +90,25 @@ fetch
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Required
-
-
 
 </th>
 <th valign="top">
 
 Data Type
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Parameter Type
-
-
 
 </th>
 </tr>
@@ -145,35 +117,25 @@ Parameter Type
 
 sc\_name
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 <td valign="top">
 
 string
 
-
-
 </td>
 <td valign="top">
 
 name of the software component
 
-
-
 </td>
 <td valign="top">
 
 query string
-
-
 
 </td>
 </tr>
@@ -182,35 +144,25 @@ query string
 
 branch\_name
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 <td valign="top">
 
 string
 
-
-
 </td>
 <td valign="top">
 
 name of the branch
 
-
-
 </td>
 <td valign="top">
 
 query string
-
-
 
 </td>
 </tr>
@@ -219,35 +171,25 @@ query string
 
 uuid
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 <td valign="top">
 
 string
 
-
-
 </td>
 <td valign="top">
 
 ID of the job
 
-
-
 </td>
 <td valign="top">
 
 query string
-
-
 
 </td>
 </tr>
@@ -286,14 +228,10 @@ query string
 
 Header
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -302,14 +240,10 @@ Description
 
 x-csrf-token
 
-
-
 </td>
 <td valign="top">
 
 Token, which can be used for POST requests
-
-
 
 </td>
 </tr>
@@ -328,21 +262,15 @@ Token, which can be used for POST requests
 
 Code
 
-
-
 </th>
 <th valign="top">
 
 Reason
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -351,21 +279,15 @@ Description
 
 200
 
-
-
 </td>
 <td valign="top">
 
 OK
 
-
-
 </td>
 <td valign="top">
 
 Read clone succesfully
-
-
 
 </td>
 </tr>
@@ -374,21 +296,15 @@ Read clone succesfully
 
 400
 
-
-
 </td>
 <td valign="top">
 
 Bad Request
 
-
-
 </td>
 <td valign="top">
 
 Could not read the clone entity. Please check the parameters.
-
-
 
 </td>
 </tr>

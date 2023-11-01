@@ -34,22 +34,16 @@ For more information about permissions, see [Getting an Access Token for SAP Clo
 
 HTTP Method
 
-
-
 </th>
 <th valign="top">
 
 Action
-
-
 
 </th>
 <th valign="top">
 
 URI
 
-
-
 </th>
 </tr>
 <tr>
@@ -57,21 +51,15 @@ URI
 
 GET
 
-
-
 </td>
 <td valign="top">
 
 Get events
 
-
-
 </td>
 <td valign="top">
 
 <code>events-service.<i class="varname">&lt;app domain&gt;</i>.<i class="varname">&lt;landscape domain&gt;</i>/cloud-management/v1/events</code>
-
-
 
 </td>
 </tr>
@@ -80,21 +68,15 @@ Get events
 
 GET
 
-
-
 </td>
 <td valign="top">
 
 Get event types
 
-
-
 </td>
 <td valign="top">
 
 <code>events-service.<i class="varname">&lt;app domain&gt;</i>.<i class="varname">&lt;landscape domain&gt;</i>/cloud-management/v1/events/types</code>
-
-
 
 </td>
 </tr>

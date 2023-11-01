@@ -49,8 +49,6 @@ The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\
         <td valign="top">
         
         *Attributes*
-
-
         
         </td>
         <td valign="top">
@@ -66,8 +64,6 @@ The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\
         <td valign="top">
         
         *Administrative Information*
-
-
         
         </td>
         <td valign="top">
@@ -84,8 +80,6 @@ The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\
         <td valign="top">
         
         *Log Groups*
-
-
         
         </td>
         <td valign="top">
@@ -115,8 +109,6 @@ The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\
         <td valign="top">
         
         *Conditions*
-
-
         
         </td>
         <td valign="top">
@@ -138,15 +130,11 @@ The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\
         <td valign="top">
         
         *Field list*
-
-
         
         </td>
         <td valign="top">
         
          
-
-
         
         </td>
         </tr>

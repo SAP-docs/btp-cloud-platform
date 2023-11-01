@@ -2,11 +2,11 @@
 
 # Provide Logon Link Help to Identity Provider for Business Users
 
-You have configured trust configurations for multiple identity providers. You want to provide an understandable link on the logon page so that business users know where to log on.
+You have configured trust configurations for multiple identity providers. You want to guide business users to the right identity provider for logon.
 
-You want to make life easy for business users and provide a logon link that they can easily recognize as such. This link provides an identity provider logon that enables them to log on to the application that they want to work with. To make it even easier, you can hide the logon of the default trust configuration \(`SAP ID service`\) for platform users, although it remains active. That way, your business users know at once which link to use for their logon.
+You want to provide an understandable link on the logon page and guide business to the right identity provider. You want to make life easy for business users and provide a logon link that they can easily recognize as such. This link provides an identity provider logon that enables them to log on to the application that they want to work with. To make it even easier, you can hide the logon of the default trust configuration \(`SAP ID service`\) for platform users, although it remains active. That way, your business users know at once which link to use for their logon.
 
-To implement this, configure the following:
+We strongly recommend to use the following procedure:
 
 1.  Hide the default identity provider \(`SAP ID service`\) from the logon page.
 

@@ -52,14 +52,10 @@ Specify the following parameters:
 
 Parameters
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -68,14 +64,10 @@ Description
 
 `xsappname`
 
-
-
 </td>
 <td valign="top">
 
 The `xsappname` configured in the security descriptor file used to create the XSUAA instance \(see [Develop the Multitenant Application](develop-the-multitenant-application-ff54047.md)\).
-
-
 
 </td>
 </tr>
@@ -84,14 +76,10 @@ The `xsappname` configured in the security descriptor file used to create the XS
 
 `getDependenciesPath`
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\) Any URL that the application exposes for `GET` dependencies. If the application doesn’t have dependencies and the callback isn’t implemented, it mustn't be declared.
-
-
 
 </td>
 </tr>
@@ -100,14 +88,10 @@ The `xsappname` configured in the security descriptor file used to create the XS
 
 `onSubscriptionPath`
 
-
-
 </td>
 <td valign="top">
 
 This parameter must end with `/{tenantId}`. The tenant for the subscription is passed to this callback as a path parameter. You must keep `{tenantId}` as a parameter in the URL so that it’s replaced at runtime with the tenant calling the subscription. This callback URL is called when a subscription between a multitenant application and a consumer tenant is created `(PUT)` and when the subscription is removed `(DELETE)`.
-
-
 
 </td>
 </tr>
@@ -116,14 +100,10 @@ This parameter must end with `/{tenantId}`. The tenant for the subscription is p
 
 `displayName`
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\) The display name of the application when viewed in the cockpit. For example, in the application's tile. If left empty, takes the application's technical name.
-
-
 
 </td>
 </tr>
@@ -132,14 +112,10 @@ This parameter must end with `/{tenantId}`. The tenant for the subscription is p
 
 `description`
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\) The description of the application when viewed in the cockpit. For example, in the application's tile. If left empty, takes the application's display name.
-
-
 
 </td>
 </tr>
@@ -148,14 +124,10 @@ This parameter must end with `/{tenantId}`. The tenant for the subscription is p
 
 `category`
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\) The category to which the application is grouped in the *Subscriptions* page in the cockpit. If this parameter is left empty, it’s assigned to the default category.
-
-
 
 </td>
 </tr>

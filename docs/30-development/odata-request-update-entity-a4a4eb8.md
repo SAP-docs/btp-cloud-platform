@@ -183,14 +183,10 @@ DATA:	 lo_update_request  TYPE REF TO /iwbep/if_cp_request_update,
 
 Properties
 
-
-
 </th>
 <th valign="top">
 
 Internal Names
-
-
 
 </th>
 </tr>
@@ -199,14 +195,10 @@ Internal Names
 
 Age
 
-
-
 </td>
 <td valign="top">
 
 `AGE`
-
-
 
 </td>
 </tr>
@@ -215,14 +207,10 @@ Age
 
 Status
 
-
-
 </td>
 <td valign="top">
 
 `STATUS`
-
-
 
 </td>
 </tr>
@@ -231,14 +219,10 @@ Status
 
 IsManager
 
-
-
 </td>
 <td valign="top">
 
 `IS_MANAGER`
-
-
 
 </td>
 </tr>

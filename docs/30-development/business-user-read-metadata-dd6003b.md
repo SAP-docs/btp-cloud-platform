@@ -31,21 +31,15 @@ The service nodes contain the service's business data.
 
 Node or Field
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Cardinality
-
-
 
 </th>
 </tr>
@@ -56,14 +50,10 @@ Cardinality
 
 Cardinality: 0..unbounded
 
-
-
 </td>
 <td valign="top">
 
 `IntervalBoundaryTypeCode`
-
-
 
 </td>
 <td valign="top">
@@ -80,8 +70,6 @@ You can only use the following value:
 
 1..1
 
-
-
 </td>
 </tr>
 <tr>
@@ -89,21 +77,15 @@ You can only use the following value:
 
 `LowerBoundaryBusinessPartnerRoleCategoryCode`
 
-
-
 </td>
 <td valign="top">
 
 For example: `BUP003` 
 
-
-
 </td>
 <td valign="top">
 
 0..1
-
-
 
 </td>
 </tr>
@@ -145,21 +127,15 @@ For example: `BUP003`
 
 Service Node
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Link to Details
-
-
 
 </th>
 </tr>
@@ -168,28 +144,20 @@ Link to Details
 
 `BusinessUserMetaData`
 
-
-
 </td>
 <td valign="top">
 
 `RoleCategoryDependentMetaData` 
-
-
 
 </td>
 <td valign="top">
 
 This node contains all metadata, which depends on the role category of a business user, such as the role category with its role, external ID category with its external ID type or relationship category.
 
-
-
 </td>
 <td valign="top">
 
 [RoleCategoryDependentMetaData](rolecategorydependentmetadata-bfaaf02.md)
-
-
 
 </td>
 </tr>
@@ -198,21 +166,15 @@ This node contains all metadata, which depends on the role category of a busines
 
 `CodeList` 
 
-
-
 </td>
 <td valign="top">
 
 This node provides the available code lists for SAP specific codes. For example country/region code, academic title.
 
-
-
 </td>
 <td valign="top">
 
 [CodeList](codelist-c29cd1a.md)
-
-
 
 </td>
 </tr>
@@ -221,21 +183,15 @@ This node provides the available code lists for SAP specific codes. For example 
 
 `Log` 
 
-
-
 </td>
 <td valign="top">
 
 This nodes displays occurred messages.
 
-
-
 </td>
 <td valign="top">
 
 [Log](log-8599598.md)
-
-
 
 </td>
 </tr>
@@ -254,21 +210,15 @@ This nodes displays occurred messages.
 
 Error Code
 
-
-
 </th>
 <th valign="top">
 
 Message
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -277,14 +227,10 @@ Description
 
 112
 
-
-
 </td>
 <td valign="top">
 
 Interval Boundary Type Code &1 is not supported for BusinessPartnerRoleCategoryInterval.
-
-
 
 </td>
 <td valign="top">
@@ -303,21 +249,15 @@ You can only use the following value:
 
 118
 
-
-
 </td>
 <td valign="top">
 
 No data found by given search criteria.
 
-
-
 </td>
 <td valign="top">
 
 To display all data, don't enter any value.
-
-
 
 </td>
 </tr>

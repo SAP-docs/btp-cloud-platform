@@ -138,14 +138,10 @@ By default, SAP Authorization and Trust Management service sets the validity of 
 
 Token Type
 
-
-
 </th>
 <th valign="top">
 
 Validity
-
-
 
 </th>
 </tr>
@@ -154,14 +150,10 @@ Validity
 
 Access tokens
 
-
-
 </td>
 <td valign="top">
 
 Default: 43200 seconds \(12 hours\)
-
-
 
 </td>
 </tr>
@@ -170,14 +162,10 @@ Default: 43200 seconds \(12 hours\)
 
 Refresh tokens
 
-
-
 </td>
 <td valign="top">
 
 Default: 604800 seconds \(7 days\)
-
-
 
 </td>
 </tr>

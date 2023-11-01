@@ -23,28 +23,20 @@ In the following configurations, fields are logged in combination with additiona
 
 Channel
 
-
-
 </th>
 <th valign="top">
 
 Configuration
-
-
 
 </th>
 <th valign="top">
 
 Fields Logged
 
-
-
 </th>
 <th valign="top">
 
 Business Context
-
-
 
 </th>
 </tr>
@@ -53,14 +45,10 @@ Business Context
 
 SAP Gateway \(OData\)
 
-
-
 </td>
 <td valign="top">
 
 `BC/BC-SRV-APS-CDB/Template for Preview Access` 
-
-
 
 </td>
 <td valign="top">
@@ -69,14 +57,10 @@ Username \(`SY-UNAME`\)
 
 Request URL \(`:Request URL`\)\>
 
-
-
 </td>
 <td valign="top">
 
 Log viewing and accessing data along with the search filter criteria
-
-
 
 </td>
 </tr>

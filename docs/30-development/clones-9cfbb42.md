@@ -23,14 +23,10 @@
 
 HTTP Method
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -39,14 +35,10 @@ Description
 
 GET
 
-
-
 </td>
 <td valign="top">
 
 [Read Clones](read-clones-3071eaf.md)
-
-
 
 </td>
 </tr>
@@ -55,14 +47,10 @@ GET
 
 POST
 
-
-
 </td>
 <td valign="top">
 
 [Create Clone](create-clone-214a3f1.md)
-
-
 
 </td>
 </tr>
@@ -81,14 +69,10 @@ POST
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -97,14 +81,10 @@ Description
 
 uuid
 
-
-
 </td>
 <td valign="top">
 
 ID of the job
-
-
 
 </td>
 </tr>
@@ -113,14 +93,10 @@ ID of the job
 
 sc\_name
 
-
-
 </td>
 <td valign="top">
 
 Name of the software component
-
-
 
 </td>
 </tr>
@@ -129,14 +105,10 @@ Name of the software component
 
 branch\_name
 
-
-
 </td>
 <td valign="top">
 
 Name of the branch
-
-
 
 </td>
 </tr>
@@ -145,14 +117,10 @@ Name of the branch
 
 commit\_id
 
-
-
 </td>
 <td valign="top">
 
 Commit ID
-
-
 
 </td>
 </tr>
@@ -161,14 +129,10 @@ Commit ID
 
 import\_type
 
-
-
 </td>
 <td valign="top">
 
 Type of import
-
-
 
 </td>
 </tr>
@@ -177,14 +141,10 @@ Type of import
 
 status
 
-
-
 </td>
 <td valign="top">
 
 Status of the job
-
-
 
 </td>
 </tr>
@@ -193,14 +153,10 @@ Status of the job
 
 status\_descr
 
-
-
 </td>
 <td valign="top">
 
 Status description
-
-
 
 </td>
 </tr>
@@ -209,14 +165,10 @@ Status description
 
 user\_name
 
-
-
 </td>
 <td valign="top">
 
 Name of the user who triggered the action
-
-
 
 </td>
 </tr>
@@ -225,14 +177,10 @@ Name of the user who triggered the action
 
 start\_time
 
-
-
 </td>
 <td valign="top">
 
 Start time of the job
-
-
 
 </td>
 </tr>
@@ -241,14 +189,10 @@ Start time of the job
 
 change\_time
 
-
-
 </td>
 <td valign="top">
 
 Last update of the job
-
-
 
 </td>
 </tr>

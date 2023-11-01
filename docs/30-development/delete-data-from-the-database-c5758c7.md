@@ -20,8 +20,6 @@ There are different ways to delete archived data from the database:
 
 `CL_ARCH_DELETE_API` \(API for deleting archived data from the database\)
 
-
-
 </th>
 </tr>
 <tr>
@@ -29,21 +27,15 @@ There are different ways to delete archived data from the database:
 
 *Method*
 
-
-
 </td>
 <td valign="top">
 
 *Parameter*
 
-
-
 </td>
 <td valign="top">
 
 *Description*
-
-
 
 </td>
 </tr>
@@ -54,21 +46,15 @@ There are different ways to delete archived data from the database:
 
 Returns an instance of the delete API. Reference to interface `IF_ARCH_DELETE_API`
 
-
-
 </td>
 <td valign="top">
 
 Importing: <code><i>IV_ARCHIVING_OBJECT</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Name of the archiving object which will be used
-
-
 
 </td>
 </tr>
@@ -77,14 +63,10 @@ Name of the archiving object which will be used
 
 Importing:<code><i>IV_ARCHIVE_KEY</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Archive key for which data should be deleted
-
-
 
 </td>
 </tr>
@@ -93,16 +75,12 @@ Archive key for which data should be deleted
 
 Importing:<code><i>IV_TESTMODE</i></code>
 
-
-
 </td>
 <td valign="top">
 
 *True*: no storage takes place
 
 *False*: Archive content is written, and storage is requested
-
-
 
 </td>
 </tr>
@@ -111,14 +89,10 @@ Importing:<code><i>IV_TESTMODE</i></code>
 
 Returning:<code><i>RO_DELETE_INSTANCE</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Instance of the delete API
-
-
 
 </td>
 </tr>
@@ -129,21 +103,15 @@ Instance of the delete API
 
 Returns a table with archive keys which have not yet been processed by deletion
 
-
-
 </td>
 <td valign="top">
 
 Importing: <code><i>IV_ARCHIVING_OBJECT</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Name of the archiving object which will be used
-
-
 
 </td>
 </tr>
@@ -152,14 +120,10 @@ Name of the archiving object which will be used
 
 Importing: <code><i>IT_DATE_SELECTION</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Range of dates on which archive files have been created
-
-
 
 </td>
 </tr>
@@ -168,14 +132,10 @@ Range of dates on which archive files have been created
 
 Importing: <code><i>IT_USER_SELECTION</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Range of users which have created archive files
-
-
 
 </td>
 </tr>
@@ -184,14 +144,10 @@ Range of users which have created archive files
 
 Returning: <code><i>RT_ARCHIVE_FILE_ATTRIBUTES</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Table of archive keys which fulfill the selection criteria for dates and users
-
-
 
 </td>
 </tr>
@@ -204,8 +160,6 @@ Table of archive keys which fulfill the selection criteria for dates and users
 
 `IF_ARCH_DELETE_API` \(Interface for deleting archived data from the database\)
 
-
-
 </th>
 </tr>
 <tr>
@@ -213,21 +167,15 @@ Table of archive keys which fulfill the selection criteria for dates and users
 
 *Method*
 
-
-
 </td>
 <td valign="top">
 
 *Parameter*
 
-
-
 </td>
 <td valign="top">
 
 *Description*
-
-
 
 </td>
 </tr>
@@ -238,21 +186,15 @@ Table of archive keys which fulfill the selection criteria for dates and users
 
 Reads the next data object for the archived data
 
-
-
 </td>
 <td valign="top">
 
 Exporting: <code><i>EV_OBJECT_OFSET</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Offset at which the data of the data object starts. This can be used to build application-owned indices for the archived data.
-
-
 
 </td>
 </tr>
@@ -261,14 +203,10 @@ Offset at which the data of the data object starts. This can be used to build ap
 
 Exporting:<code><i>EV_ARCHIVE_KEY</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Archive key of the archive file to which the data was written. This can be used to build application-owned indices for the archived data.
-
-
 
 </td>
 </tr>
@@ -277,14 +215,10 @@ Archive key of the archive file to which the data was written. This can be used 
 
 Exporting:<code><i>EV_ARCHIVING_SESSION</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Sessions of the archiving object which will be used
-
-
 
 </td>
 </tr>
@@ -293,16 +227,12 @@ Sessions of the archiving object which will be used
 
 Exporting:<code><i>EV_END_OF_FILE</i></code>
 
-
-
 </td>
 <td valign="top">
 
 *True*: All data contained in the files is processed, and the application should finalize the deletion
 
 *False*: The application should continue processing the next data object
-
-
 
 </td>
 </tr>
@@ -311,21 +241,15 @@ Exporting:<code><i>EV_END_OF_FILE</i></code>
 
 <code><i>GET_DATA_RECORDS</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Importing: <code><i>IV_RECORD_STRUCTURE</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Name of the table for which archived data should be returned
-
-
 
 </td>
 </tr>
@@ -334,14 +258,10 @@ Name of the table for which archived data should be returned
 
 Exporting: <code><i>ET_DATA_RECORDS</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Records of the table
-
-
 
 </td>
 </tr>
@@ -352,21 +272,15 @@ Records of the table
 
 Deletes the data for a specific table from the database
 
-
-
 </td>
 <td valign="top">
 
 Importing: <code><i>IV_TABLE_NAME</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Name of the table for which archived data should be deleted
-
-
 
 </td>
 </tr>
@@ -375,14 +289,10 @@ Name of the table for which archived data should be deleted
 
 Importing: <code><i>IT_RECORDS</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Records of the table to be deleted
-
-
 
 </td>
 </tr>
@@ -393,21 +303,15 @@ Records of the table to be deleted
 
 Deletes all table entries contained in the data object
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -418,21 +322,15 @@ Deletes all table entries contained in the data object
 
 Finalizes processing
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>

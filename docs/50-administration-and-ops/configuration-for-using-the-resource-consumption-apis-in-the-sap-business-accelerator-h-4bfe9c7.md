@@ -26,15 +26,11 @@ The **Resource Consumption** APIs of the SAP Usage Data Management service for S
         <th valign="top">
 
         API
-
-
         
         </th>
         <th valign="top">
 
         Role Collection Required
-
-
         
         </th>
         </tr>
@@ -42,15 +38,11 @@ The **Resource Consumption** APIs of the SAP Usage Data Management service for S
         <td valign="top">
         
         `monthlyUsage`, `/monthlySubaccountsCost`, and `subaccountUsage`
-
-
         
         </td>
         <td valign="top">
         
         Global Account Administrator and Global Account Viewer
-
-
         
         </td>
         </tr>

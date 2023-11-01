@@ -102,15 +102,11 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     <th valign="top">
 
     User Attribute
-
-
     
     </th>
     <th valign="top">
 
     Assertion Attribute
-
-
     
     </th>
     </tr>
@@ -118,15 +114,11 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     <td valign="top">
     
     *First Name*
-
-
     
     </td>
     <td valign="top">
     
     `first_name`
-
-
     
     </td>
     </tr>
@@ -134,15 +126,11 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     <td valign="top">
     
     *Last Name*
-
-
     
     </td>
     <td valign="top">
     
     `last_name`
-
-
     
     </td>
     </tr>
@@ -150,15 +138,11 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     <td valign="top">
     
     *E-Mail*
-
-
     
     </td>
     <td valign="top">
     
     `mail`
-
-
     
     </td>
     </tr>
@@ -166,15 +150,11 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     <td valign="top">
     
     *Groups*
-
-
     
     </td>
     <td valign="top">
     
     `Groups`
-
-
     
     </td>
     </tr>

@@ -10,7 +10,7 @@ Use the single sign-on parameter \(`btp login --sso`\) to log in to your identit
 
 ## Prerequisites
 
-Login through a browser is only available if you use the default server URL that is proposed by the CLI during login \(`https://cpcli.cf.eu10.hana.ondemand.com`\). This is the case unless your operator has provided you specifically with a different server URL.
+Login through a browser is only available if you use the default server URL that is proposed by the CLI during login \(`https://cli.btp.cloud.sap/`\). This is the case unless your operator has provided you specifically with a different server URL.
 
 
 
@@ -36,7 +36,7 @@ If you have a custom identity provider configured in your global account, use `b
     Alternatively, you can pass the server URL and the subdomain of your global account as parameters:
 
     ```
-    btp login --sso --url https://cpcli.cf.eu10.hana.ondemand.com --subdomain <my-subdomain>
+    btp login --sso --url https://cli.btp.cloud.sap/ --subdomain <my-subdomain>
     ```
 
     To suppress the automatic browser-opening, you can run the command as follows:

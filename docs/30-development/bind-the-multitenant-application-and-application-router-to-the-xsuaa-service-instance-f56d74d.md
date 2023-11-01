@@ -27,14 +27,10 @@ Specify the following parameters:
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -43,14 +39,10 @@ Description
 
 `APP_NAME`
 
-
-
 </td>
 <td valign="top">
 
 The name of the deployed multitenant application.
-
-
 
 </td>
 </tr>
@@ -59,14 +51,10 @@ The name of the deployed multitenant application.
 
 `XSUAA_INSTANCE_NAME`
 
-
-
 </td>
 <td valign="top">
 
 The name of the `xsuaa` service instance you created in [Develop the Multitenant Application](develop-the-multitenant-application-ff54047.md).
-
-
 
 </td>
 </tr>
@@ -75,14 +63,10 @@ The name of the `xsuaa` service instance you created in [Develop the Multitenant
 
 `APPROUTER_APP_NAME`
 
-
-
 </td>
 <td valign="top">
 
 The name of the `xsuaa` application you deployed in [Configure the approuter Application](configure-the-approuter-application-5af9067.md).
-
-
 
 </td>
 </tr>

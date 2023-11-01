@@ -190,28 +190,20 @@ Modify the default MTA resource types by providing specific properties or parame
 
 Resource Type
 
-
-
 </th>
 <th valign="top">
 
 Service
-
-
 
 </th>
 <th valign="top">
 
 Service Plan
 
-
-
 </th>
 <th valign="top">
 
 Created Service
-
-
 
 </th>
 </tr>
@@ -220,28 +212,20 @@ Created Service
 
 `com.sap.xs.hana-sbss`
 
-
-
 </td>
 <td valign="top">
 
 `hana`
-
-
 
 </td>
 <td valign="top">
 
 `sbss`
 
-
-
 </td>
 <td valign="top">
 
 Service-broker security
-
-
 
 </td>
 </tr>
@@ -269,21 +253,15 @@ Service-broker security
 
 `hana`
 
-
-
 </td>
 <td valign="top">
 
 `schema`
 
-
-
 </td>
 <td valign="top">
 
 Plain schema
-
-
 
 </td>
 </tr>
@@ -292,28 +270,20 @@ Plain schema
 
 `com.sap.xs.hana-securestore`
 
-
-
 </td>
 <td valign="top">
 
 `hana`
-
-
 
 </td>
 <td valign="top">
 
 `securestore`
 
-
-
 </td>
 <td valign="top">
 
 SAP HANA secure store
-
-
 
 </td>
 </tr>
@@ -341,21 +311,15 @@ SAP HANA secure store
 
 `hana`
 
-
-
 </td>
 <td valign="top">
 
 `hdi-shared`
 
-
-
 </td>
 <td valign="top">
 
 HDI container
-
-
 
 </td>
 </tr>
@@ -364,28 +328,20 @@ HDI container
 
 `com.sap.xs.jobscheduler`
 
-
-
 </td>
 <td valign="top">
 
 `jobscheduler`
-
-
 
 </td>
 <td valign="top">
 
 `lite`
 
-
-
 </td>
 <td valign="top">
 
 Job Scheduler
-
-
 
 </td>
 </tr>
@@ -394,28 +350,20 @@ Job Scheduler
 
 `com.sap.xs.uaa`
 
-
-
 </td>
 <td valign="top">
 
 `xsuaa`
-
-
 
 </td>
 <td valign="top">
 
 `applicaton`
 
-
-
 </td>
 <td valign="top">
 
 Application UAA
-
-
 
 </td>
 </tr>
@@ -424,28 +372,20 @@ Application UAA
 
 `com.sap.xs.uaa-application`
 
-
-
 </td>
 <td valign="top">
 
 `xsuaa`
-
-
 
 </td>
 <td valign="top">
 
 `application`
 
-
-
 </td>
 <td valign="top">
 
 Application UAA
-
-
 
 </td>
 </tr>
@@ -454,28 +394,20 @@ Application UAA
 
 `com.sap.xs.uaa-devuser`
 
-
-
 </td>
 <td valign="top">
 
 `xsuaa`
-
-
 
 </td>
 <td valign="top">
 
 `application`
 
-
-
 </td>
 <td valign="top">
 
 Application UAA
-
-
 
 </td>
 </tr>
@@ -484,28 +416,20 @@ Application UAA
 
 `com.sap.xs.uaa-space`
 
-
-
 </td>
 <td valign="top">
 
 `xsuaa`
-
-
 
 </td>
 <td valign="top">
 
 `application`
 
-
-
 </td>
 <td valign="top">
 
 Application UAA
-
-
 
 </td>
 </tr>
@@ -524,21 +448,15 @@ Application UAA
 
 `application-logs`
 
-
-
 </td>
 <td valign="top">
 
 `lite`
 
-
-
 </td>
 <td valign="top">
 
 Streams logs of bound applications to a central application logging stack
-
-
 
 </td>
 </tr>
@@ -557,21 +475,15 @@ Streams logs of bound applications to a central application logging stack
 
 `portal-services`
 
-
-
 </td>
 <td valign="top">
 
 `site-content`
 
-
-
 </td>
 <td valign="top">
 
 Portal services
-
-
 
 </td>
 </tr>
@@ -590,21 +502,15 @@ Portal services
 
 `portal-services`
 
-
-
 </td>
 <td valign="top">
 
 `site-host`
 
-
-
 </td>
 <td valign="top">
 
 Portal services
-
-
 
 </td>
 </tr>
@@ -613,28 +519,20 @@ Portal services
 
 `com.sap.xs.auditlog`
 
-
-
 </td>
 <td valign="top">
 
 `auditlog`
-
-
 
 </td>
 <td valign="top">
 
 `standard`
 
-
-
 </td>
 <td valign="top">
 
 Audit log service
-
-
 
 </td>
 </tr>
@@ -643,28 +541,20 @@ Audit log service
 
 `auditlog`
 
-
-
 </td>
 <td valign="top">
 
 `auditlog`
-
-
 
 </td>
 <td valign="top">
 
 `standard`
 
-
-
 </td>
 <td valign="top">
 
 Audit log service
-
-
 
 </td>
 </tr>
@@ -673,29 +563,21 @@ Audit log service
 
 `autoscaler`
 
-
-
 </td>
 <td valign="top">
 
 `autoscaler`
-
-
 
 </td>
 <td valign="top">
 
 `lite`
-
-
 
 </td>
 <td valign="top">
 
 Automatically increase or decrease the number of application instances based on a policy you define.
 
-
-
 </td>
 </tr>
 <tr>
@@ -703,28 +585,20 @@ Automatically increase or decrease the number of application instances based on 
 
 `application-logs`
 
-
-
 </td>
 <td valign="top">
 
 `application-logs`
-
-
 
 </td>
 <td valign="top">
 
 `lite`
 
-
-
 </td>
 <td valign="top">
 
 Streams logs of bound applications to a central application logging stack
-
-
 
 </td>
 </tr>
@@ -733,28 +607,20 @@ Streams logs of bound applications to a central application logging stack
 
 `connectivity`
 
-
-
 </td>
 <td valign="top">
 
 `connectivity` 
-
-
 
 </td>
 <td valign="top">
 
 `lite`
 
-
-
 </td>
 <td valign="top">
 
 Establishes a secure and reliable connectivity between cloud applications and on-premise systems
-
-
 
 </td>
 </tr>
@@ -763,28 +629,20 @@ Establishes a secure and reliable connectivity between cloud applications and on
 
 `destination`
 
-
-
 </td>
 <td valign="top">
 
 `destination`
-
-
 
 </td>
 <td valign="top">
 
 `lite`
 
-
-
 </td>
 <td valign="top">
 
 Provides a secure and a reliable access to destination configurations
-
-
 
 </td>
 </tr>
@@ -793,29 +651,21 @@ Provides a secure and a reliable access to destination configurations
 
 `feature-flags`
 
-
-
 </td>
 <td valign="top">
 
 `feature-flags` 
 
-
-
 </td>
 <td valign="top">
 
 `lite`
-
-
 
 </td>
 <td valign="top">
 
 Feature Flags service for controlling feature rollout
 
-
-
 </td>
 </tr>
 <tr>
@@ -823,28 +673,20 @@ Feature Flags service for controlling feature rollout
 
 `ml-foundation-services`
 
-
-
 </td>
 <td valign="top">
 
 `ml-foundation-services`
-
-
 
 </td>
 <td valign="top">
 
 `lite`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -853,28 +695,20 @@ Feature Flags service for controlling feature rollout
 
 `objectstore`
 
-
-
 </td>
 <td valign="top">
 
 `objectstore`
-
-
 
 </td>
 <td valign="top">
 
 `s3-standard`
 
-
-
 </td>
 <td valign="top">
 
 Highly available and distributed consistent object store
-
-
 
 </td>
 </tr>
@@ -893,21 +727,15 @@ Highly available and distributed consistent object store
 
 `mongodb`
 
-
-
 </td>
 <td valign="top">
 
 `v3.0-container`
 
-
-
 </td>
 <td valign="top">
 
 MongoDB document-oriented database system.
-
-
 
 </td>
 </tr>
@@ -916,28 +744,20 @@ MongoDB document-oriented database system.
 
 `mongodb`
 
-
-
 </td>
 <td valign="top">
 
 `mongodb`
-
-
 
 </td>
 <td valign="top">
 
 `v3.0-container`
 
-
-
 </td>
 <td valign="top">
 
 MongoDB document-oriented database system
-
-
 
 </td>
 </tr>
@@ -956,21 +776,15 @@ MongoDB document-oriented database system
 
 `postgresql`
 
-
-
 </td>
 <td valign="top">
 
 `v9.4-container`
 
-
-
 </td>
 <td valign="top">
 
 PostgreSQL object-relational database system
-
-
 
 </td>
 </tr>
@@ -979,28 +793,20 @@ PostgreSQL object-relational database system
 
 `postgresql`
 
-
-
 </td>
 <td valign="top">
 
 `postgresql`
-
-
 
 </td>
 <td valign="top">
 
 `v9.4-container`
 
-
-
 </td>
 <td valign="top">
 
 PostgreSQL object-relational database system
-
-
 
 </td>
 </tr>
@@ -1019,21 +825,15 @@ PostgreSQL object-relational database system
 
 `rabbitmq`
 
-
-
 </td>
 <td valign="top">
 
 `v3.6-container`
 
-
-
 </td>
 <td valign="top">
 
 RabbitMQ messaging
-
-
 
 </td>
 </tr>
@@ -1042,28 +842,20 @@ RabbitMQ messaging
 
 `rabbitmq`
 
-
-
 </td>
 <td valign="top">
 
 `rabbitmq`
-
-
 
 </td>
 <td valign="top">
 
 `v3.6-container`
 
-
-
 </td>
 <td valign="top">
 
 RabbitMQ messaging
-
-
 
 </td>
 </tr>
@@ -1082,21 +874,15 @@ RabbitMQ messaging
 
 `redis`
 
-
-
 </td>
 <td valign="top">
 
 `v3.0-container`
 
-
-
 </td>
 <td valign="top">
 
 Redis in-memory data structure store
-
-
 
 </td>
 </tr>
@@ -1105,28 +891,20 @@ Redis in-memory data structure store
 
 `redis`
 
-
-
 </td>
 <td valign="top">
 
 `redis`
-
-
 
 </td>
 <td valign="top">
 
 `v3.0-container`
 
-
-
 </td>
 <td valign="top">
 
 Redis in-memory data structure store
-
-
 
 </td>
 </tr>
@@ -1154,35 +932,25 @@ The following parameters are supported:
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Read-Only \(System\)
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Default Value
 
-
-
 </th>
 <th valign="top">
 
 Example
-
-
 
 </th>
 </tr>
@@ -1191,35 +959,25 @@ Example
 
 `config`
 
-
-
 </td>
 <td valign="top">
 
 Write
-
-
 
 </td>
 <td valign="top">
 
 Defines service creation parameters. More information in [Service Creation Parameters](service-creation-parameters-a36df26.md).
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 See [Service Creation Parameters](service-creation-parameters-a36df26.md).
-
-
 
 </td>
 </tr>
@@ -1228,14 +986,10 @@ See [Service Creation Parameters](service-creation-parameters-a36df26.md).
 
 `syslog-drain-url`
 
-
-
 </td>
 <td valign="top">
 
 Write
-
-
 
 </td>
 <td valign="top">
@@ -1251,8 +1005,6 @@ The URL to which logs for bound applications are streamed.
 <td valign="top">
 
 n/a
-
-
 
 </td>
 <td valign="top">
@@ -1275,35 +1027,25 @@ resources:
 
 `default-container-name`
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 Default value for the container-name parameter that is used during HDI creation. It is based on the organization, space and service name, which are combined in a way that conforms to the container-name restrictions for length and legal characters.
 
-
-
 </td>
 <td valign="top">
 
 Generated as described in the description.
 
-
-
 </td>
 <td valign="top">
 
 `INITIAL_INITIAL_SERVICE_NAME` 
-
-
 
 </td>
 </tr>
@@ -1312,28 +1054,20 @@ Generated as described in the description.
 
 `default-service-name`
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 The name of the service in the Cloud Foundry environment to be created for this resource, based on the resource name with or without a name-space prefix.
 
-
-
 </td>
 <td valign="top">
 
 The resource name with or without a name-space prefix
-
-
 
 </td>
 <td valign="top">
@@ -1342,8 +1076,6 @@ The resource name with or without a name-space prefix
 
 `com.sap.xs2.samples.xsjshelloworld.nodejs-hdi-container`
 
-
-
 </td>
 </tr>
 <tr>
@@ -1351,35 +1083,25 @@ The resource name with or without a name-space prefix
 
 `default-xsappname`
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 Default value for the `xsappname` parameter that is used during UAA creation. It is based on the service name, which is modified in a way that conforms to the `xsappname` restrictions for length and legal characters.
 
-
-
 </td>
 <td valign="top">
 
 Generated as described in the description.
 
-
-
 </td>
 <td valign="top">
 
 `xs_-deploy-service-database` \(if the service name is “`xs@-deploy-service-database`”\)
-
-
 
 </td>
 </tr>
@@ -1388,35 +1110,25 @@ Generated as described in the description.
 
 `service`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 The type of the created service
 
-
-
 </td>
 <td valign="top">
 
 Empty, or as specified in resource-type
 
-
-
 </td>
 <td valign="top">
 
 `service: hana`
-
-
 
 </td>
 </tr>
@@ -1425,35 +1137,25 @@ Empty, or as specified in resource-type
 
 `service-key-name`
 
-
-
 </td>
 <td valign="top">
 
 Write
-
-
 
 </td>
 <td valign="top">
 
 Used when consuming an existing service key. Specifies the name of the service key. See Consumption of existing service keys for more information.
 
-
-
 </td>
 <td valign="top">
 
 The name of the resource.
 
-
-
 </td>
 <td valign="top">
 
 `service-key-name: my-service-key`
-
-
 
 </td>
 </tr>
@@ -1462,14 +1164,10 @@ The name of the resource.
 
 `service-name`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
@@ -1486,16 +1184,12 @@ The name of the service in the Cloud Foundry environment to be created for this 
 
 `${default-service-name}`
 
-
-
 </td>
 <td valign="top">
 
 `nodejs-hdi-container`
 
 `com.sap.xs2.samples.xsjshelloworld.nodejs-hdi-container`
-
-
 
 </td>
 </tr>
@@ -1504,35 +1198,25 @@ The name of the service in the Cloud Foundry environment to be created for this 
 
 `service-plan`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 The plan of the created service
 
-
-
 </td>
 <td valign="top">
 
 Empty, or as specified in resource-type
 
-
-
 </td>
 <td valign="top">
 
 `service-plan: hdi-shared`
-
-
 
 </td>
 </tr>
@@ -1541,28 +1225,20 @@ Empty, or as specified in resource-type
 
 `service-tags`
 
-
-
 </td>
 <td valign="top">
 
 Write
-
-
 
 </td>
 <td valign="top">
 
 Some services employ a list of custom tags, which provide an easier way for applications to parse `<VCAP_SERVICES>` for credentials. You can provide custom tags when creating a service instance. For more information, see [Service Tags](service-tags-3e36d13.md).
 
-
-
 </td>
 <td valign="top">
 
 n/a
-
-
 
 </td>
 <td valign="top">
@@ -1584,28 +1260,20 @@ resources:
 
 `service-broker`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Use this parameter to specify the service broker you want to employ when you create your service. This can be useful for testing purposes, among others.
 
-
-
 </td>
 <td valign="top">
 
 Name of service broker you want to be used.
-
-
 
 </td>
 <td valign="top">
@@ -1629,28 +1297,20 @@ resources:
 
 `skip-service-updates`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 This parameter allows you to specify the service configuration changes to `ignore`, when deciding if you want to update a service instance – in particular changes of service `parameters`, `plan`, or `tags`.
 
-
-
 </td>
 <td valign="top">
 
 The default value for all is `false`. The service instance would be updated on change in any of the configurations.
-
-
 
 </td>
 <td valign="top">
@@ -1673,8 +1333,6 @@ In the example above, `skip-service-updates` modifies the update strategy as fol
 -   allows users to specify which configurations should not be updated
 
 Note that these 3 key-value pairs can be in any order.
-
-
 
 </td>
 </tr>

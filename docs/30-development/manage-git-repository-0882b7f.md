@@ -52,14 +52,10 @@ In order to access this service, you need to:
 
 Service Entity
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -68,14 +64,10 @@ Description
 
 [Branches](branches-bbaf3c1.md)
 
-
-
 </td>
 <td valign="top">
 
 Branches of a software component
-
-
 
 </td>
 </tr>
@@ -84,14 +76,10 @@ Branches of a software component
 
 [Clones](clones-9cfbb42.md)
 
-
-
 </td>
 <td valign="top">
 
 Clone job of a software component
-
-
 
 </td>
 </tr>
@@ -100,14 +88,10 @@ Clone job of a software component
 
 [Execution Log](execution-log-3c1ec56.md)
 
-
-
 </td>
 <td valign="top">
 
 Execution Log of a software component
-
-
 
 </td>
 </tr>
@@ -116,14 +100,10 @@ Execution Log of a software component
 
 [Pull](pull-3198c2a.md)
 
-
-
 </td>
 <td valign="top">
 
 Pull job of a software component
-
-
 
 </td>
 </tr>
@@ -132,14 +112,10 @@ Pull job of a software component
 
 [Transport Log](transport-log-ed88be1.md)
 
-
-
 </td>
 <td valign="top">
 
 Transport log of an impored transport
-
-
 
 </td>
 </tr>

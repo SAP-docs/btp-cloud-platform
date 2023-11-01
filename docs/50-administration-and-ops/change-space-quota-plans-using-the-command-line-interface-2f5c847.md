@@ -41,9 +41,9 @@ Change space quota plans in the Cloud Foundry environment using the Cloud Foundr
 **Related Information**  
 
 
-[Change Space Quota Plans](change-space-quota-plans-2a58364.md "Manage space quota plans in the Cloud Foundry environment using the SAP BTP cockpit.")
+[Edit Space Quotas](edit-space-quotas-2a58364.md "Edit space quotas in the Cloud Foundry environment using the SAP BTP cockpit.")
 
-[Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-5ba357b.md "Assign entitlements to subaccounts by adding service plans and distribute the quotas available in your global account to your subaccounts using the SAP BTP cockpit.")
+[Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-5ba357b.md "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using the SAP BTP cockpit.")
 
 [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md "When you purchase an enterprise account, you are entitled to use a specific set of resources, such as the amount of memory that can be allocated to your applications.")
 

@@ -23,21 +23,15 @@
 
 HTTP Method
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Operation
-
-
 
 </th>
 </tr>
@@ -46,21 +40,15 @@ Operation
 
 GET
 
-
-
 </td>
 <td valign="top">
 
 Read pull
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -69,21 +57,15 @@ Read pull
 
 POST
 
-
-
 </td>
 <td valign="top">
 
 Trigger a pull job
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -102,28 +84,20 @@ Trigger a pull job
 
 HTTP Method
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Operation
 
-
-
 </th>
 <th valign="top">
 
 URI
-
-
 
 </th>
 </tr>
@@ -132,29 +106,21 @@ URI
 
 GET
 
-
-
 </td>
 <td valign="top">
 
 Associationl
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 /sap/opu/odata/sap/MANAGE\_GIT\_REPOSITORY /Pull\(guid’UUID’\)/to\_Executiong\_log
 
-
-
 </td>
 </tr>
 <tr>
@@ -162,28 +128,20 @@ Associationl
 
 GET
 
-
-
 </td>
 <td valign="top">
 
 Associationl
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 /sap/opu/odata/sap/MANAGE\_GIT\_REPOSITORY /Pull\(guid’UUID’\)/to\_Transport\_log
-
-
 
 </td>
 </tr>
@@ -202,14 +160,10 @@ Associationl
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -218,14 +172,10 @@ Description
 
 uuid
 
-
-
 </td>
 <td valign="top">
 
 ID of the job
-
-
 
 </td>
 </tr>
@@ -234,14 +184,10 @@ ID of the job
 
 sc\_name
 
-
-
 </td>
 <td valign="top">
 
 Name of the software component
-
-
 
 </td>
 </tr>
@@ -250,14 +196,10 @@ Name of the software component
 
 branch\_name
 
-
-
 </td>
 <td valign="top">
 
 Name of the branch
-
-
 
 </td>
 </tr>
@@ -266,14 +208,10 @@ Name of the branch
 
 commit\_id
 
-
-
 </td>
 <td valign="top">
 
 Commit ID
-
-
 
 </td>
 </tr>
@@ -282,14 +220,10 @@ Commit ID
 
 import\_type
 
-
-
 </td>
 <td valign="top">
 
 Type of import
-
-
 
 </td>
 </tr>
@@ -298,14 +232,10 @@ Type of import
 
 status
 
-
-
 </td>
 <td valign="top">
 
 Status of the job
-
-
 
 </td>
 </tr>
@@ -314,14 +244,10 @@ Status of the job
 
 status\_descr
 
-
-
 </td>
 <td valign="top">
 
 Status description
-
-
 
 </td>
 </tr>
@@ -330,14 +256,10 @@ Status description
 
 user\_name
 
-
-
 </td>
 <td valign="top">
 
 Name of the user who triggered the action
-
-
 
 </td>
 </tr>
@@ -346,14 +268,10 @@ Name of the user who triggered the action
 
 start\_time
 
-
-
 </td>
 <td valign="top">
 
 Start time of the job
-
-
 
 </td>
 </tr>
@@ -362,14 +280,10 @@ Start time of the job
 
 change\_time
 
-
-
 </td>
 <td valign="top">
 
 Last update of the job
-
-
 
 </td>
 </tr>

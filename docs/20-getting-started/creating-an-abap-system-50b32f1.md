@@ -76,7 +76,7 @@ For more information about creating service instances, see [Create Service Insta
     > For more information about ABAP system sizing and Native Storage Extension for selected SAP HANA tables, see [ABAP System Sizing](../50-administration-and-ops/abap-system-sizing-90b515d.md) and [Native Storage Extension for the ABAP Environment](../50-administration-and-ops/native-storage-extension-for-the-abap-environment-68eb2a0.md).
 
     > ### Caution:  
-    > If you update your ABAP system, you can only change the system description and ABAP runtime size \(parameter `size_of_runtime`\). See [Updating an ABAP System](updating-an-abap-system-7890ffa.md).
+    > Be aware that not all parameters can be changed if you update your ABAP system. For a list of updatable parameters, see [Updating an ABAP System](updating-an-abap-system-7890ffa.md).
 
 10. Choose *Next* to review and verify your instance details.
 

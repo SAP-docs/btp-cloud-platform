@@ -24,35 +24,25 @@ To make a comparison, from the context menu of the object in the *Project Explor
 
 Step
 
-
-
 </th>
 <th valign="top">
 
 System
-
-
 
 </th>
 <th valign="top">
 
 Role
 
-
-
 </th>
 <th valign="top">
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Tool
-
-
 
 </th>
 </tr>
@@ -61,21 +51,15 @@ Tool
 
 1
 
-
-
 </td>
 <td valign="top">
 
 COR
 
-
-
 </td>
 <td valign="top">
 
 Developer
-
-
 
 </td>
 <td valign="top">
@@ -84,14 +68,10 @@ Select the corrected objects in the transport request and open them.
 
 This can be done selectively object by object.
 
-
-
 </td>
 <td valign="top">
 
 ABAP Development Tools for Eclipse: Transport Organizer View
-
-
 
 </td>
 </tr>
@@ -100,21 +80,15 @@ ABAP Development Tools for Eclipse: Transport Organizer View
 
 2
 
-
-
 </td>
 <td valign="top">
 
 COR, DEV
 
-
-
 </td>
 <td valign="top">
 
 Developer
-
-
 
 </td>
 <td valign="top">
@@ -130,8 +104,6 @@ Developer
 
 ABAP Development Tools for Eclipse: Project Explorer
 
-
-
 </td>
 </tr>
 <tr>
@@ -139,35 +111,25 @@ ABAP Development Tools for Eclipse: Project Explorer
 
 3
 
-
-
 </td>
 <td valign="top">
 
 DEV
-
-
 
 </td>
 <td valign="top">
 
 Developer
 
-
-
 </td>
 <td valign="top">
 
 Merge the changes into the DEV system
 
-
-
 </td>
 <td valign="top">
 
 ABAP Development Tools for Eclipse
-
-
 
 </td>
 </tr>

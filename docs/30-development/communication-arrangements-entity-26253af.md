@@ -23,21 +23,15 @@ Technical name: `CommunicationArrangements`
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Necessity
-
-
 
 </th>
 </tr>
@@ -46,21 +40,15 @@ Necessity
 
 CommunicationArrangementUUID
 
-
-
 </td>
 <td valign="top">
 
 Communication arrangement UUID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -69,21 +57,15 @@ Mandatory \(Key\)
 
 CommunicationArrangementName
 
-
-
 </td>
 <td valign="top">
 
 Communicaton arrangement name
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -92,21 +74,15 @@ Optional
 
 CommunicationSystemID
 
-
-
 </td>
 <td valign="top">
 
 Communication system ID
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -115,21 +91,15 @@ Optional
 
 CommunicationSystemName
 
-
-
 </td>
 <td valign="top">
 
 Communication system name
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -138,21 +108,15 @@ Optional
 
 CommunicationScenarioID
 
-
-
 </td>
 <td valign="top">
 
 Communication scenario ID
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -161,21 +125,15 @@ Optional
 
 CommunicationScenarioName
 
-
-
 </td>
 <td valign="top">
 
 Communication scenario name
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -184,21 +142,15 @@ Optional
 
 LastChangedDateTime
 
-
-
 </td>
 <td valign="top">
 
 Date and time of last change
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -207,21 +159,15 @@ Optional
 
 LastChangedByUserID
 
-
-
 </td>
 <td valign="top">
 
 Last changed by <user ID\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -230,21 +176,15 @@ Optional
 
 LastChangedByUserName
 
-
-
 </td>
 <td valign="top">
 
 Last changed by <user name\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -253,21 +193,15 @@ Optional
 
 LastChangedByUserDescription
 
-
-
 </td>
 <td valign="top">
 
 Last changed by <user description\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -276,21 +210,15 @@ Optional
 
 LastChangedByEMailAddress
 
-
-
 </td>
 <td valign="top">
 
 Last changed by <email address\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -299,21 +227,15 @@ Optional
 
 LastChangedByGlobalUserID
 
-
-
 </td>
 <td valign="top">
 
 Last changed by <global user ID\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>

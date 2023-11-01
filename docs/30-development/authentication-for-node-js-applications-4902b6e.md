@@ -31,14 +31,10 @@ The `SAP CLIENT LIB 1.0` package contains the following modules:
 
 Package Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -47,14 +43,10 @@ Description
 
 [`@sap/approuter`](authentication-for-node-js-applications-4902b6e.md#loio4902b6e66cbd42648b5d9eaddc6a363d__section_zrn_flt_vt) 
 
-
-
 </td>
 <td valign="top">
 
 The application router is the single entry point for the \(business\) application.
-
-
 
 </td>
 </tr>
@@ -63,14 +55,10 @@ The application router is the single entry point for the \(business\) applicatio
 
 [`@sap/xssec`](authentication-for-node-js-applications-4902b6e.md#loio4902b6e66cbd42648b5d9eaddc6a363d__section_atx_2vt_vt) 
 
-
-
 </td>
 <td valign="top">
 
 The client security library, including the XS advanced container security API for Node.js
-
-
 
 </td>
 </tr>
@@ -142,14 +130,10 @@ Path to the NPM registries:
 
 NPM Registry
 
-
-
 </th>
 <th valign="top">
 
 Path
-
-
 
 </th>
 </tr>
@@ -158,14 +142,10 @@ Path
 
 SAP NPM registry
 
-
-
 </td>
 <td valign="top">
 
 `@sap:registry = "https://registry.npmjs.org` 
-
-
 
 </td>
 </tr>
@@ -174,14 +154,10 @@ SAP NPM registry
 
 Default NPM registry
 
-
-
 </td>
 <td valign="top">
 
 `registry = "http://registry.npmjs.org/"` 
-
-
 
 </td>
 </tr>
@@ -226,14 +202,10 @@ We recommend that you disable the session as in the example above. Each request 
 
 API
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -241,8 +213,6 @@ Description
 <td valign="top">
 
 `createSecurityContext` 
-
-
 
 </td>
 <td valign="top">
@@ -277,14 +247,10 @@ Returns a structure with the following properties:
 
 `checkLocalScope` 
 
-
-
 </td>
 <td valign="top">
 
 Checks a scope that is published by the current application in the `xs-security.json` file
-
-
 
 </td>
 </tr>
@@ -293,14 +259,10 @@ Checks a scope that is published by the current application in the `xs-security.
 
 `checkScope` 
 
-
-
 </td>
 <td valign="top">
 
 Checks a scope that is published by an application
-
-
 
 </td>
 </tr>
@@ -308,8 +270,6 @@ Checks a scope that is published by an application
 <td valign="top">
 
 `getToken` 
-
-
 
 </td>
 <td valign="top">
@@ -334,14 +294,10 @@ Returns a token that can be used to connect to the SAP HANA database. If the tok
 
 `hasAttributes` 
 
-
-
 </td>
 <td valign="top">
 
 Returns “`true`” if the token contains any XS advanced user attributes; otherwise “`false`”.
-
-
 
 </td>
 </tr>
@@ -349,8 +305,6 @@ Returns “`true`” if the token contains any XS advanced user attributes; othe
 <td valign="top">
 
 `getAttribute` 
-
-
 
 </td>
 <td valign="top">
@@ -371,14 +325,10 @@ Returns the attribute exactly as it is contained in the access token. If no attr
 
 `isInForeignMode` 
 
-
-
 </td>
 <td valign="top">
 
 Returns “`true`” if the token, that the security context has been instantiated with, is a foreign token that was not originally issued for the current application, otherwise “`false`”.
-
-
 
 </td>
 </tr>
@@ -387,14 +337,10 @@ Returns “`true`” if the token, that the security context has been instantiat
 
 `getIdentityZone` 
 
-
-
 </td>
 <td valign="top">
 
 Returns the subaccount that the access token has been issued for.
-
-
 
 </td>
 </tr>

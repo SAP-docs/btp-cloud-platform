@@ -23,21 +23,15 @@ Each communication scenario defines which authentication methods can be used. Th
 
 Protocol
 
-
-
 </th>
 <th valign="top">
 
 Available Authentication Methods via Destination Service
 
-
-
 </th>
 <th valign="top">
 
 Available Authentication via Outbound Communication User
-
-
 
 </th>
 </tr>
@@ -45,8 +39,6 @@ Available Authentication via Outbound Communication User
 <td valign="top">
 
 HTTP \(Internet\)
-
-
 
 </td>
 <td valign="top">
@@ -63,8 +55,6 @@ OAuth 2.0 SAML Bearer Assertion
 
 OAuth 2.0 User Token Exchange
 
-
-
 </td>
 <td valign="top">
 
@@ -78,16 +68,12 @@ OAuth 2.0 Client Credentials Grant
 
 OAuth 2.0 SAML Bearer Assertion
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 HTTP \(Cloud Connector\)
-
-
 
 </td>
 <td valign="top">
@@ -98,16 +84,12 @@ Basic Authentication
 
 Principal Propagation
 
-
-
 </td>
 <td valign="top">
 
 No Authentication
 
 Basic Authentication
-
-
 
 </td>
 </tr>
@@ -116,8 +98,6 @@ Basic Authentication
 
 SOAP \(Internet\)
 
-
-
 </td>
 <td valign="top">
 
@@ -129,8 +109,6 @@ Client Certificate Authentication
 
 OAuth 2.0 Client Credentials Grant
 
-
-
 </td>
 <td valign="top">
 
@@ -141,8 +119,6 @@ Basic Authentication
 Client Certificate Authentication
 
 OAuth 2.0 Client Credentials Grant
-
-
 
 </td>
 </tr>
@@ -151,8 +127,6 @@ OAuth 2.0 Client Credentials Grant
 
 SOAP \(Cloud Connector\)
 
-
-
 </td>
 <td valign="top">
 
@@ -162,16 +136,12 @@ Basic Authentication
 
 Principal Propagation
 
-
-
 </td>
 <td valign="top">
 
 No Authentication
 
 Basic Authentication
-
-
 
 </td>
 </tr>
@@ -180,8 +150,6 @@ Basic Authentication
 
 RFC \(Internet\)
 
-
-
 </td>
 <td valign="top">
 
@@ -189,16 +157,12 @@ Basic Authentication
 
 Client Certificate Authentication
 
-
-
 </td>
 <td valign="top">
 
 Basic Authentication
 
 Client Certificate Authentication
-
-
 
 </td>
 </tr>
@@ -207,8 +171,6 @@ Client Certificate Authentication
 
 RFC \(Cloud Connector\)
 
-
-
 </td>
 <td valign="top">
 
@@ -216,14 +178,10 @@ Basic Authentication
 
 Principal Propagation
 
-
-
 </td>
 <td valign="top">
 
 Basic Authentication
-
-
 
 </td>
 </tr>
@@ -245,21 +203,15 @@ Basic Authentication
 
 Protocol
 
-
-
 </th>
 <th valign="top">
 
 Available Authentication via Inbound Communication User
 
-
-
 </th>
 <th valign="top">
 
 Available Authentication via Business User
-
-
 
 </th>
 </tr>
@@ -268,16 +220,12 @@ Available Authentication via Business User
 
 HTTP
 
-
-
 </td>
 <td valign="top">
 
 Basic Authentication
 
 Client Certificate Authentication
-
-
 
 </td>
 <td valign="top">
@@ -286,16 +234,12 @@ SAML Assertion Authentication
 
 OpenID Connect Bearer Token
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 RFC \(Internet\)
-
-
 
 </td>
 <td valign="top">
@@ -304,14 +248,10 @@ Basic Authentication
 
 Client Certificate Authentication
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -320,21 +260,15 @@ Client Certificate Authentication
 
 RFC \(Cloud Connector\)
 
-
-
 </td>
 <td valign="top">
 
 Basic Authentication
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -343,8 +277,6 @@ Basic Authentication
 
 SQL service
 
-
-
 </td>
 <td valign="top">
 
@@ -352,14 +284,10 @@ Basic Authentication
 
 Client Certificate Authentication
 
-
-
 </td>
 <td valign="top">
 
 OpenID Connect Bearer Token
-
-
 
 </td>
 </tr>

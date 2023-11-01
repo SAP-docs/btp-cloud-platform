@@ -17,28 +17,20 @@ The responsibilities for operating the Cloud Foundry environment are listed in t
 
 Process
 
-
-
 </th>
 <th valign="top">
 
 Task
-
-
 
 </th>
 <th valign="top">
 
 Operator
 
-
-
 </th>
 <th valign="top">
 
 Customer
-
-
 
 </th>
 </tr>
@@ -47,14 +39,10 @@ Customer
 
 Communication Management
 
-
-
 </td>
 <td valign="top">
 
 Appoint an English-speaking contact person and communicate the name to the operator. This is required to ensure timely processing of configuration change requests affecting the customer system, interacting with the operator for efficient incident processing, and other interaction between the operator and the customer.
-
-
 
 </td>
 <td valign="top">
@@ -65,8 +53,6 @@ Appoint an English-speaking contact person and communicate the name to the opera
 <td valign="top">
 
 x
-
-
 
 </td>
 </tr>
@@ -75,8 +61,6 @@ x
 
 Subscribe to the communication channels offered by the operator for receiving prompt information about any service disruptions, critical maintenance activities affecting the customer system, and change requests requiring action on the customer side.
 
-
-
 </td>
 <td valign="top">
 
@@ -86,8 +70,6 @@ Subscribe to the communication channels offered by the operator for receiving pr
 <td valign="top">
 
 x
-
-
 
 </td>
 </tr>
@@ -96,14 +78,10 @@ x
 
 Inform the customer about service disruptions and critical maintenance activities affecting the customer system.
 
-
-
 </td>
 <td valign="top">
 
 x
-
-
 
 </td>
 <td valign="top">
@@ -117,21 +95,15 @@ x
 
 Asset Management
 
-
-
 </td>
 <td valign="top">
 
 Management of the hardware and infrastructure resources in the region, from acquisition through disposal. This includes the request and approval process, procurement management, life-cycle management, and disposal management.
 
-
-
 </td>
 <td valign="top">
 
 x
-
-
 
 </td>
 <td valign="top">
@@ -145,14 +117,10 @@ x
 
 Protect IT assets such as systems, network, and data from threats that arise from unauthorized physical access or physical influence on those assets.
 
-
-
 </td>
 <td valign="top">
 
 x
-
-
 
 </td>
 <td valign="top">
@@ -166,21 +134,15 @@ x
 
 Provisioning
 
-
-
 </td>
 <td valign="top">
 
 Provisioning of resources and systems to customers in accordance with the ordered package and subscriptions. This includes the allocation and provisioning of technical \(physical and virtual\) resources, such as storage, network, compute units, systems, and database hosts, the deployment of the operator's application software and the proper initial configuration of quotas, service subscriptions, permissions, and trust configuration.
 
-
-
 </td>
 <td valign="top">
 
 x
-
-
 
 </td>
 <td valign="top">
@@ -194,8 +156,6 @@ x
 
 Provide quota according to the ordered package and subscriptions that can be used to enable resources and services \(for example, subscribing to a service\).
 
-
-
 </td>
 <td valign="top">
 
@@ -205,8 +165,6 @@ Provide quota according to the ordered package and subscriptions that can be use
 <td valign="top">
 
 x
-
-
 
 </td>
 </tr>
@@ -215,21 +173,15 @@ x
 
 Change Management
 
-
-
 </td>
 <td valign="top">
 
 Apply regular product increments, as well as corrections to the infrastructure, systems, and services to avoid incidents with minimal possible disruption of normal operations. Ensure that all platform changes \(such as updates of the runtime or operating system patches, but not of the customer applications\) are evaluated, authorized, prioritized, planned, tested, implemented, documented, and reviewed prior to implementation.
 
-
-
 </td>
 <td valign="top">
 
 x
-
-
 
 </td>
 <td valign="top">
@@ -243,14 +195,10 @@ x
 
 Perform updates of the infrastructure, systems, and services in a biweekly cycle if required. Respectively, for selected services, offer self-services for applying controlled updates of new versions. Emergency changes, for example, triggered by Incident Management processes, have accelerated testing, approval, and implementation.
 
-
-
 </td>
 <td valign="top">
 
 x
-
-
 
 </td>
 <td valign="top">
@@ -278,8 +226,6 @@ x
 
 x
 
-
-
 </td>
 <td valign="top">
 
@@ -292,8 +238,6 @@ x
 
 Adopt the latest patches or updates via the available self-services and by restarting applications when necessary. For example, when a security issue arises.
 
-
-
 </td>
 <td valign="top">
 
@@ -303,8 +247,6 @@ Adopt the latest patches or updates via the available self-services and by resta
 <td valign="top">
 
 x
-
-
 
 </td>
 </tr>
@@ -313,21 +255,15 @@ x
 
 Incident Management
 
-
-
 </td>
 <td valign="top">
 
 Process incidents reported by the customer according to the Service Level Agreement. The incident is recorded and prioritized in the incident tracking system. Monitor the status and progress of the incident throughout its whole lifecycle and give regular status updates to the customer.
 
-
-
 </td>
 <td valign="top">
 
 x
-
-
 
 </td>
 <td valign="top">
@@ -341,8 +277,6 @@ x
 
 In the event of incidents, make reasonable effort to support end users and manage their incidents, to explore self-help tools to find already documented solutions, and to liaise with operator support in the event of new problems to ensure timely processing of incidents affecting the resources in the customer account.
 
-
-
 </td>
 <td valign="top">
 
@@ -352,8 +286,6 @@ In the event of incidents, make reasonable effort to support end users and manag
 <td valign="top">
 
 x
-
-
 
 </td>
 </tr>
@@ -362,8 +294,6 @@ x
 
 Confirm incident resolution in the incident tracking system.
 
-
-
 </td>
 <td valign="top">
 
@@ -373,8 +303,6 @@ Confirm incident resolution in the incident tracking system.
 <td valign="top">
 
 x
-
-
 
 </td>
 </tr>
@@ -383,21 +311,15 @@ x
 
 Service Requests
 
-
-
 </td>
 <td valign="top">
 
 Process service requests reported by the customer according to the Service Level Agreement. The service request is recorded and prioritized in the service request tracking system. Monitor the status and progress of the service request throughout its whole lifecycle and give regular status updates to the customer.
 
-
-
 </td>
 <td valign="top">
 
 x
-
-
 
 </td>
 <td valign="top">
@@ -411,8 +333,6 @@ x
 
 Confirm service request completion in the service request tracking system.
 
-
-
 </td>
 <td valign="top">
 
@@ -422,8 +342,6 @@ Confirm service request completion in the service request tracking system.
 <td valign="top">
 
 x
-
-
 
 </td>
 </tr>
@@ -432,21 +350,15 @@ x
 
 Backup & Restore
 
-
-
 </td>
 <td valign="top">
 
 Perform a backup of the database systems hosted in the subaccount. A database log backup is done according to the Service Level Agreement and stored on the primary storage. The logs are transferred from primary to secondary storage according to the Service Level Agreement. Full data backup is done every day.
 
-
-
 </td>
 <td valign="top">
 
 x
-
-
 
 </td>
 <td valign="top">
@@ -460,14 +372,10 @@ x
 
 Restore previously backed-up data to recover to a consistent state. Note: For some database services, there is a self-service for the restore process. Verify the completeness of the restored data based on log files created during the recovery and smoke tests to verify the system’s consistency.
 
-
-
 </td>
 <td valign="top">
 
 x
-
-
 
 </td>
 <td valign="top">
@@ -481,14 +389,10 @@ x
 
 Give regular status updates to the customer throughout the entire restore procedure.
 
-
-
 </td>
 <td valign="top">
 
 x
-
-
 
 </td>
 <td valign="top">
@@ -502,8 +406,6 @@ x
 
 Collaborate with the operator to ensure timely processing of data restores if required.
 
-
-
 </td>
 <td valign="top">
 
@@ -513,8 +415,6 @@ Collaborate with the operator to ensure timely processing of data restores if re
 <td valign="top">
 
 x
-
-
 
 </td>
 </tr>
@@ -523,8 +423,6 @@ x
 
 Validate logical integrity and consistency of the restored data.
 
-
-
 </td>
 <td valign="top">
 
@@ -534,8 +432,6 @@ Validate logical integrity and consistency of the restored data.
 <td valign="top">
 
 x
-
-
 
 </td>
 </tr>
@@ -544,14 +440,10 @@ x
 
 User Access Management
 
-
-
 </td>
 <td valign="top">
 
 Manage users, permissions, and security configurations within the subaccount.
-
-
 
 </td>
 <td valign="top">
@@ -562,8 +454,6 @@ Manage users, permissions, and security configurations within the subaccount.
 <td valign="top">
 
 x
-
-
 
 </td>
 </tr>
@@ -572,21 +462,15 @@ x
 
 System Monitoring
 
-
-
 </td>
 <td valign="top">
 
 Ensure availability of the customer system according to the Service Level Agreements as agreed in the contractual agreement between the operator and the customer, by active monitoring, prompt issue detection, and incident prevention.
 
-
-
 </td>
 <td valign="top">
 
 x
-
-
 
 </td>
 <td valign="top">
@@ -600,14 +484,10 @@ x
 
 Monitor the resource consumption \(memory, CPU, storage\) to detect issues in technical operations.
 
-
-
 </td>
 <td valign="top">
 
 x
-
-
 
 </td>
 <td valign="top">
@@ -621,21 +501,15 @@ x
 
 Malware Management
 
-
-
 </td>
 <td valign="top">
 
 Ensure that the infrastructure and platform services are free of viruses, spam, spyware, and other malicious software. If malware is detected, an auto-notification is generated, which is assessed and resolved by the operator.
 
-
-
 </td>
 <td valign="top">
 
 x
-
-
 
 </td>
 <td valign="top">
@@ -649,14 +523,10 @@ x
 
 Application Management
 
-
-
 </td>
 <td valign="top">
 
 Design, develop, deploy, configure, maintain, and operate the application within the subaccount. This includes maintaining a staged environment for application delivery \(if required\), application resource management, and managing application availability and performance.
-
-
 
 </td>
 <td valign="top">
@@ -667,8 +537,6 @@ Design, develop, deploy, configure, maintain, and operate the application within
 <td valign="top">
 
 x
-
-
 
 </td>
 </tr>
@@ -677,14 +545,10 @@ x
 
 Provide infrastructure, tools, and application programming interfaces for the lifecycle management and operations of the application in the subaccount.
 
-
-
 </td>
 <td valign="top">
 
 x
-
-
 
 </td>
 <td valign="top">
@@ -698,8 +562,6 @@ x
 
 Regularly adopt the latest versions of the tools for lifecycle management and operations offered at the [SAP Development Tools site](https://tools.hana.ondemand.com/).
 
-
-
 </td>
 <td valign="top">
 
@@ -709,8 +571,6 @@ Regularly adopt the latest versions of the tools for lifecycle management and op
 <td valign="top">
 
 x
-
-
 
 </td>
 </tr>
@@ -719,21 +579,15 @@ x
 
 Network Management
 
-
-
 </td>
 <td valign="top">
 
 Manage the network isolation of the subaccounts provisioned to the customer.
 
-
-
 </td>
 <td valign="top">
 
 x
-
-
 
 </td>
 <td valign="top">
@@ -747,14 +601,10 @@ x
 
 Operate the network infrastructure transparently for customers, ensuring elasticity, high availability, and security.
 
-
-
 </td>
 <td valign="top">
 
 x
-
-
 
 </td>
 <td valign="top">
@@ -768,8 +618,6 @@ x
 
 Create and manage own Web domain for the application in the subaccount to ensure data isolation.
 
-
-
 </td>
 <td valign="top">
 
@@ -779,8 +627,6 @@ Create and manage own Web domain for the application in the subaccount to ensure
 <td valign="top">
 
 x
-
-
 
 </td>
 </tr>
@@ -789,14 +635,10 @@ x
 
 Penetration Testing
 
-
-
 </td>
 <td valign="top">
 
 Inform the operator about any penetration testing that shall be performed for the customer account and ask for their approval. Testing isn’t allowed on any resources shared with other customers. The results, if any, from the test are to be treated strictly as the confidential information of the operator and the customer aren’t to be shared with any person or entity without explicit written authorization from the operator. Customers are required to share the results with the operator and work together with the operator's operations to mitigate or remedy any security issues.
-
-
 
 </td>
 <td valign="top">
@@ -807,8 +649,6 @@ Inform the operator about any penetration testing that shall be performed for th
 <td valign="top">
 
 x
-
-
 
 </td>
 </tr>
@@ -817,21 +657,15 @@ x
 
 Decommissioning
 
-
-
 </td>
 <td valign="top">
 
 Ensure the secure deletion of data and hardware disposal. This includes the disassembling of systems along with peripherals and their removal from the region. Before dismantling and handover for further use or return to the vendor, the data is wiped securely from the system.
 
-
-
 </td>
 <td valign="top">
 
 x
-
-
 
 </td>
 <td valign="top">

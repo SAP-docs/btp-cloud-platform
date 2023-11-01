@@ -14,21 +14,15 @@ Use the SAP BTP command line interface \(btp CLI\) to set entitlements to define
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Run the command...
 
-
-
 </th>
 <th valign="top">
 
 Command help
-
-
 
 </th>
 </tr>
@@ -37,21 +31,15 @@ Command help
 
 Get all the entitlements and quota assignments for a global account, directories, and subaccounts
 
-
-
 </td>
 <td valign="top">
 
 `btp list accounts/entitlement`
 
-
-
 </td>
 <td valign="top">
 
 [btp list accounts/entitlement](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-entitlement.html)
-
-
 
 </td>
 </tr>
@@ -60,21 +48,15 @@ Get all the entitlements and quota assignments for a global account, directories
 
 Assign or update an entitlement to a subaccount or a directory
 
-
-
 </td>
 <td valign="top">
 
 `btp assign accounts/entitlement`
 
-
-
 </td>
 <td valign="top">
 
 [btp assign accounts/entitlement](https://help.sap.com/docs/BTP/btp-cli/btp-assign-accounts-entitlement.html)
-
-
 
 </td>
 </tr>

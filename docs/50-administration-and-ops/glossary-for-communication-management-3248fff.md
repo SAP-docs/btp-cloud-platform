@@ -15,14 +15,10 @@ Overview of terminology used for communication management
 
 Term
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -31,14 +27,10 @@ Description
 
 Communication arrangement
 
-
-
 </td>
 <td valign="top">
 
 A communication arrangement describes a communication scenario with a remote system during configuration time. It provides the necessary metadata for service configuration.
-
-
 
 </td>
 </tr>
@@ -47,14 +39,10 @@ A communication arrangement describes a communication scenario with a remote sys
 
 Communication system
 
-
-
 </td>
 <td valign="top">
 
 A communication system represents the communication partner with all technical information that is required for communication, that is hostname, identity, user information, certificates, etc.
-
-
 
 </td>
 </tr>
@@ -63,14 +51,10 @@ A communication system represents the communication partner with all technical i
 
 Communication user
 
-
-
 </td>
 <td valign="top">
 
 A communication user is a special type of technical users that is assigned to a communication system. You create a communication user for particular communication scenarios.
-
-
 
 </td>
 </tr>
@@ -79,14 +63,10 @@ A communication user is a special type of technical users that is assigned to a 
 
 Communication scenario
 
-
-
 </td>
 <td valign="top">
 
 A communication scenario defines the communication between external systems and your own SAP cloud system. It bundles inbound and outbound services and additional properties that are required for configuration settings.
-
-
 
 </td>
 </tr>

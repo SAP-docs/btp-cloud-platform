@@ -33,14 +33,10 @@ For specific sample YAML files, see [Communication Arrangement YAML File - Examp
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -48,8 +44,6 @@ Description
 <td valign="top">
 
 `systemName` 
-
-
 
 </td>
 <td valign="top">
@@ -73,8 +67,6 @@ The name of the system you have registered in SAP BTP global account.
 
 `communicationArrangement` 
 
-
-
 </td>
 <td valign="top">
 
@@ -93,8 +85,6 @@ Represents a communication arrangement in SAP S/4HANA Cloud.
 <td valign="top">
 
 `communicationArrangementName` 
-
-
 
 </td>
 <td valign="top">
@@ -121,8 +111,6 @@ Meaningful name of the communication arrangement that will be created for the SA
 
 `scenarioId` 
 
-
-
 </td>
 <td valign="top">
 
@@ -147,8 +135,6 @@ The ID of the SAP S/4HANA Cloud communication scenario.
 <td valign="top">
 
 `inboundAuthentication` 
-
-
 
 </td>
 <td valign="top">
@@ -183,8 +169,6 @@ The authentication type for the SAP S/4HANA Cloud API access.
 
 `outboundAuthentication` 
 
-
-
 </td>
 <td valign="top">
 
@@ -217,8 +201,6 @@ The type of the authentication used by SAP S/4HANA Cloud to call SAP BTP APIs.
 
 `communicationSystem` 
 
-
-
 </td>
 <td valign="top">
 
@@ -239,8 +221,6 @@ This represents the *Communication System* view of the communication arrangement
 <td valign="top">
 
 `communicationSystemHostname` 
-
-
 
 </td>
 <td valign="top">
@@ -264,8 +244,6 @@ This is equivalent to *Technical Data* \> *General* \> *Host Name* in the*Commun
 <td valign="top">
 
 `port` 
-
-
 
 </td>
 <td valign="top">
@@ -294,8 +272,6 @@ The port for outbound calls to the remote system hosting the APIs that will be c
 
 `oAuthAuthEndpoint` 
 
-
-
 </td>
 <td valign="top">
 
@@ -317,8 +293,6 @@ The OAuth authorization endpoint of the remote OAuth service in case the communi
 
 `oAuthTokenEndpoint` 
 
-
-
 </td>
 <td valign="top">
 
@@ -339,8 +313,6 @@ The OAuth token endpoint. This is equivalent to *Technical Data* \> *OAuth 2.0 S
 <td valign="top">
 
 `outboundCommunicationUser` 
-
-
 
 </td>
 <td valign="top">
@@ -366,8 +338,6 @@ The communication user used for outbound authentication. This is equivalent to a
 
 `username` 
 
-
-
 </td>
 <td valign="top">
 
@@ -389,8 +359,6 @@ The username of the communication user.
 
 `password` 
 
-
-
 </td>
 <td valign="top">
 
@@ -411,8 +379,6 @@ The password of the communication user.
 <td valign="top">
 
 `outboundServices` 
-
-
 
 </td>
 <td valign="top">
@@ -437,8 +403,6 @@ This is equivalent to the *Outbound Services* section in the SAP S/4HANA Cloud *
 
 `outboundService` 
 
-
-
 </td>
 <td valign="top">
 
@@ -459,8 +423,6 @@ A specific outbound service object.
 <td valign="top">
 
 `name` 
-
-
 
 </td>
 <td valign="top">
@@ -483,8 +445,6 @@ The name of the outbound service. It must be an exact match of the name displaye
 
 `urlPath` 
 
-
-
 </td>
 <td valign="top">
 
@@ -505,8 +465,6 @@ This is equivalent to the *Path* field in the SAP S/4HANA Cloud system. It is us
 <td valign="top">
 
 `isServiceActive` 
-
-
 
 </td>
 <td valign="top">
@@ -531,8 +489,6 @@ This is equivalent to the *Service Status* checkbox in the SAP S/4HANA Cloud sys
 
 `attributes` 
 
-
-
 </td>
 <td valign="top">
 
@@ -556,8 +512,6 @@ This is equivalent to the *Additional Properties* section of the outbound servic
 
 `attribute` 
 
-
-
 </td>
 <td valign="top">
 
@@ -578,8 +532,6 @@ A specific attribute object. Represents an additional property in the outbound s
 <td valign="top">
 
 `name` 
-
-
 
 </td>
 <td valign="top">
@@ -602,8 +554,6 @@ The name of the additional property of the outbound service. It is equivalent to
 
 `value` 
 
-
-
 </td>
 <td valign="top">
 
@@ -624,8 +574,6 @@ Enter value for the additional property of the outbound service.
 <td valign="top">
 
 `attributes` 
-
-
 
 </td>
 <td valign="top">
@@ -650,8 +598,6 @@ This is equivalent to the *Additional Properties* section of the communication a
 
 `attribute` 
 
-
-
 </td>
 <td valign="top">
 
@@ -673,8 +619,6 @@ A specific attribute object. Represents an additional property in the communicat
 
 `name` 
 
-
-
 </td>
 <td valign="top">
 
@@ -695,8 +639,6 @@ It is equivalent to the *Technical Property Name* section in the *Additional Pro
 <td valign="top">
 
 `value` 
-
-
 
 </td>
 <td valign="top">

@@ -43,14 +43,10 @@ To integrate SAP BTP and SAP SuccessFactors so that you can build extension appl
 
 Process Step
 
-
-
 </th>
 <th valign="top">
 
 Related Documentation
-
-
 
 </th>
 </tr>
@@ -60,8 +56,6 @@ Related Documentation
 1. Connect the SAP SuccessFactors system that you want to extend with the corresponding global account in SAP BTP.
 
 During the pairing process you create a registration token which is then used by the SAP SuccessFactors system tenant administrator to configure the integration on the SAP SuccessFactors system side.
-
-
 
 </td>
 <td valign="top">
@@ -84,14 +78,10 @@ During the pairing process you create a registration token which is then used by
 
 To do so, you configure the entitlements and assign the corresponding quota where the extension applications will reside.
 
-
-
 </td>
 <td valign="top">
 
 [Configure the Entitlements for the SAP SuccessFactors Extensibility Service](configure-the-entitlements-for-the-sap-successfactors-extensibility-service-b01e625.md) 
-
-
 
 </td>
 </tr>
@@ -118,8 +108,6 @@ SAP BTP supports the following authentication scenarios for SAP SuccessFactors:
 
 [Create a Service Instance to Consume the SAP SuccessFactors HXM Suite OData API](create-a-service-instance-to-consume-the-sap-successfactors-hxm-suite-odata-api-46c5ea1.md) 
 
-
-
 </td>
 </tr>
 <tr>
@@ -129,14 +117,10 @@ SAP BTP supports the following authentication scenarios for SAP SuccessFactors:
 
 To ensure the required security for accessing the applications, you need to configure the single sign-on between the subaccount in SAP BTP and the SAP SuccessFactors system using a SAML identity provider.
 
-
-
 </td>
 <td valign="top">
 
 [Configure Single Sign-On Between a Subaccount in SAP BTP and SAP SuccessFactors](configure-single-sign-on-between-a-subaccount-in-sap-btp-and-sap-successfactors-64da613.md) 
-
-
 
 </td>
 </tr>
@@ -145,14 +129,10 @@ To ensure the required security for accessing the applications, you need to conf
 
 5. If you have performed an automated instance refresh or your cloud operators have performed a manual instance refresh, you need to restore some of the extension configuration settings.
 
-
-
 </td>
 <td valign="top">
 
 [Restore Configuration Settings After an Instance Refresh](restore-configuration-settings-after-an-instance-refresh-4c1bf98.md)
-
-
 
 </td>
 </tr>

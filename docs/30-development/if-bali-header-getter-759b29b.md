@@ -13,14 +13,10 @@ If the header attributes of an application log are read, they are returned in an
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -29,14 +25,10 @@ Description
 
 OBJECT
 
-
-
 </td>
 <td valign="top">
 
 Object of the log
-
-
 
 </td>
 </tr>
@@ -45,14 +37,10 @@ Object of the log
 
 SUBOBJECT
 
-
-
 </td>
 <td valign="top">
 
 Subobject of the log
-
-
 
 </td>
 </tr>
@@ -61,14 +49,10 @@ Subobject of the log
 
 EXTERNAL\_ID
 
-
-
 </td>
 <td valign="top">
 
 External identifier of the log
-
-
 
 </td>
 </tr>
@@ -77,14 +61,10 @@ External identifier of the log
 
 LOG\_TIMESTAMP
 
-
-
 </td>
 <td valign="top">
 
 UTC time stamp of the log \(usually the creation time\)
-
-
 
 </td>
 </tr>
@@ -93,14 +73,10 @@ UTC time stamp of the log \(usually the creation time\)
 
 LOG\_USER
 
-
-
 </td>
 <td valign="top">
 
 Log user \(usually the user who created the log\)
-
-
 
 </td>
 </tr>
@@ -109,14 +85,10 @@ Log user \(usually the user who created the log\)
 
 EXPIRY\_DATE
 
-
-
 </td>
 <td valign="top">
 
 Date when the log expires and can be deleted
-
-
 
 </td>
 </tr>
@@ -125,14 +97,10 @@ Date when the log expires and can be deleted
 
 KEEP\_UNTIL\_EXPIRY
 
-
-
 </td>
 <td valign="top">
 
 If set: It's not allowed to delete the log before the expiry date
-
-
 
 </td>
 </tr>
@@ -141,14 +109,10 @@ If set: It's not allowed to delete the log before the expiry date
 
 NUMBER\_ALL\_ITEMS
 
-
-
 </td>
 <td valign="top">
 
 Total number of items which are stored in the log
-
-
 
 </td>
 </tr>
@@ -157,14 +121,10 @@ Total number of items which are stored in the log
 
 NUMBER\_ABORT\_ITEMS
 
-
-
 </td>
 <td valign="top">
 
 Number of abort items which are stored in the log
-
-
 
 </td>
 </tr>
@@ -173,14 +133,10 @@ Number of abort items which are stored in the log
 
 NUMBER\_ERROR\_ITEMS
 
-
-
 </td>
 <td valign="top">
 
 Number of error items which are stored in the log
-
-
 
 </td>
 </tr>
@@ -189,14 +145,10 @@ Number of error items which are stored in the log
 
 NUMBER\_WARNING\_ITEMS
 
-
-
 </td>
 <td valign="top">
 
 Number of warning items which are stored in the log
-
-
 
 </td>
 </tr>
@@ -205,14 +157,10 @@ Number of warning items which are stored in the log
 
 NUMBER\_INFORMATION\_ITEMS
 
-
-
 </td>
 <td valign="top">
 
 Number of information items which are stored in the log
-
-
 
 </td>
 </tr>
@@ -221,14 +169,10 @@ Number of information items which are stored in the log
 
 NUMBER\_STATUS\_ITEMS
 
-
-
 </td>
 <td valign="top">
 
 Number of status items which are stored in the log
-
-
 
 </td>
 </tr>
@@ -249,14 +193,10 @@ Get description text of the log object in the logon language:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -265,8 +205,6 @@ Description
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -274,14 +212,10 @@ Description
 
 OBJECT\_DESCRIPTION
 
-
-
 </td>
 <td valign="top">
 
 Description of the object in the logon language
-
-
 
 </td>
 </tr>
@@ -300,14 +234,10 @@ Get description text of log subobject in the logon language:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -316,8 +246,6 @@ Description
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -325,14 +253,10 @@ Description
 
 SUBOBJECT\_DESCRIPTION
 
-
-
 </td>
 <td valign="top">
 
 Description of the subobject in the logon language
-
-
 
 </td>
 </tr>

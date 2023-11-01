@@ -30,14 +30,10 @@ The main features of enterprise accounts are described for use by customers and 
 
 Customer Account
 
-
-
 </th>
 <th valign="top">
 
 Partner Account
-
-
 
 </th>
 </tr>
@@ -45,8 +41,6 @@ Partner Account
 <td valign="top">
 
 **Use case** 
-
-
 
 </td>
 <td valign="top">
@@ -57,16 +51,12 @@ You can purchase a global account just like any other SAP software. You can upgr
 
 If you want to start out exploring services for free, you can sign up for a Pay-As-You-Go for SAP BTP global account and make use of the free tier services only. See [Using Free Service Plans](using-free-service-plans-524e108.md).
 
-
-
 </td>
 <td valign="top">
 
 A global account that enables you to build applications and to sell them to your customers.
 
 If you want to start out exploring services for free, you can sign up for a Pay-As-You-Go for SAP BTP global account and make use of the free tier services only. See [Using Free Service Plans](using-free-service-plans-524e108.md).
-
-
 
 </td>
 </tr>
@@ -75,14 +65,10 @@ If you want to start out exploring services for free, you can sign up for a Pay-
 
 **Benefits** 
 
-
-
 </td>
 <td valign="top">
 
 Support for productive applications.
-
-
 
 </td>
 <td valign="top">
@@ -103,21 +89,15 @@ Support for productive applications.
 
 **Services available** 
 
-
-
 </td>
 <td valign="top">
 
 Productive services.
 
-
-
 </td>
 <td valign="top">
 
 Productive and beta services.
-
-
 
 </td>
 </tr>
@@ -126,21 +106,15 @@ Productive and beta services.
 
 **Limitations** 
 
-
-
 </td>
 <td valign="top">
 
 Resources according to your contract.
 
-
-
 </td>
 <td valign="top">
 
 Predefined resources according to your partner package. You can purchase additional resources if necessary.
-
-
 
 </td>
 </tr>
@@ -148,8 +122,6 @@ Predefined resources according to your partner package. You can purchase additio
 <td valign="top">
 
 **Registration** 
-
-
 
 </td>
 <td valign="top">
@@ -160,14 +132,10 @@ Contact us on [SAP BTP](https://www.sap.com/products/business-technology-platfor
 
 If you’re located in China and want to buy a global account onSAP BTP you need to contact an SAP sales representative: [https://www.sap.cn/registration/contact.html](https://www.sap.cn/registration/contact.html).
 
-
-
 </td>
 <td valign="top">
 
 Sign up to join the [SAP Partner Program](https://www.sap.com/partners/partner-program/build.html).
-
-
 
 </td>
 </tr>
@@ -176,21 +144,15 @@ Sign up to join the [SAP Partner Program](https://www.sap.com/partners/partner-p
 
 **Available Regions** 
 
-
-
 </td>
 <td valign="top">
 
 See [Regions](regions-350356d.md).
 
-
-
 </td>
 <td valign="top">
 
 See [Regions](regions-350356d.md).
-
-
 
 </td>
 </tr>

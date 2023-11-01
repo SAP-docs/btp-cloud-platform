@@ -30,15 +30,11 @@ To find out where the configuration file is stored, use `btp --info`. Use the fo
     <td valign="top">
     
     `--format FORMAT`
-
-
     
     </td>
     <td valign="top">
     
     The output format of commands. Valid values: text \(default\), json
-
-
     
     </td>
     </tr>
@@ -46,15 +42,11 @@ To find out where the configuration file is stored, use `btp --info`. Use the fo
     <td valign="top">
     
     `--verbose BOOL`
-
-
     
     </td>
     <td valign="top">
     
     If set to true, command output includes tracing information for support. Valid values: false \(default\), true
-
-
     
     </td>
     </tr>
@@ -62,8 +54,6 @@ To find out where the configuration file is stored, use `btp --info`. Use the fo
     <td valign="top">
     
     `--target.hierarchy BOOL`
-
-
     
     </td>
     <td valign="top">
@@ -71,8 +61,6 @@ To find out where the configuration file is stored, use `btp --info`. Use the fo
     If set to true, `btp target` displays the full hierarchy of all global accounts. Valid values: false \(default\), true
 
     See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
-
-
     
     </td>
     </tr>
@@ -80,15 +68,11 @@ To find out where the configuration file is stored, use `btp --info`. Use the fo
     <td valign="top">
     
     `--login.sso MODE`
-
-
     
     </td>
     <td valign="top">
     
     Single sign-on mode of `btp login`. Valid values: none \(default\), browser, manual. For example, if you want `btp login` to always open a browser for login at your identity provider, use `btp set config --login.sso browser`.
-
-
     
     </td>
     </tr>

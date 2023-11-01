@@ -34,21 +34,15 @@ In the Cloud Foundry environment, application developers create and deploy appli
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 User Role
 
-
-
 </th>
 <th valign="top">
 
 Tool
-
-
 
 </th>
 </tr>
@@ -59,14 +53,10 @@ Use an existing role or create a new one using role templates
 
 [Add Roles to Role Collections on the Application Level](add-roles-to-role-collections-on-the-application-level-7596a0b.md)
 
-
-
 </td>
 <td valign="top">
 
 Administrator of the Cloud Foundry environment
-
-
 
 </td>
 <td valign="top">
@@ -74,8 +64,6 @@ Administrator of the Cloud Foundry environment
 SAP BTP cockpit
 
 Command line interface for SAP BTP
-
-
 
 </td>
 </tr>
@@ -86,14 +74,10 @@ Create a role collection and assign roles to it
 
 [Maintain Role Collections](maintain-role-collections-d5f1612.md)
 
-
-
 </td>
 <td valign="top">
 
 Administrator of the Cloud Foundry environment
-
-
 
 </td>
 <td valign="top">
@@ -101,8 +85,6 @@ Administrator of the Cloud Foundry environment
 SAP BTP cockpit
 
 Command line interface for SAP BTP
-
-
 
 </td>
 </tr>
@@ -113,14 +95,10 @@ Assign the role collections to users
 
 [Managing Users and Their Authorizations Using the btp CLI](managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md) or [Mapping Role Collections in the Subaccount](mapping-role-collections-in-the-subaccount-9e1bf57.md)
 
-
-
 </td>
 <td valign="top">
 
 Administrator of the Cloud Foundry environment
-
-
 
 </td>
 <td valign="top">
@@ -128,8 +106,6 @@ Administrator of the Cloud Foundry environment
 SAP BTP cockpit
 
 Command line interface for SAP BTP
-
-
 
 </td>
 </tr>
@@ -140,21 +116,15 @@ Command line interface for SAP BTP
 
 [Map Role Collections to User Groups](map-role-collections-to-user-groups-51acfc8.md)
 
-
-
 </td>
 <td valign="top">
 
 Administrator of the Cloud Foundry environment
 
-
-
 </td>
 <td valign="top">
 
 SAP BTP cockpit
-
-
 
 </td>
 </tr>
@@ -165,21 +135,15 @@ Assign the role collection to the business users provided by an identity provide
 
 [Working with Role Collections](working-with-role-collections-393ea0b.md)
 
-
-
 </td>
 <td valign="top">
 
 Administrator of the Cloud Foundry environment
 
-
-
 </td>
 <td valign="top">
 
 SAP BTP cockpit
-
-
 
 </td>
 </tr>

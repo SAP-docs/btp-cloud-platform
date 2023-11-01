@@ -69,14 +69,10 @@ btp [OPTIONS] ACTION GROUP/OBJECT [PARAMS]
 
 Options
 
-
-
 </th>
 <th valign="top">
 
  
-
-
 
 </th>
 </tr>
@@ -85,14 +81,10 @@ Options
 
 \--config
 
-
-
 </td>
 <td valign="top">
 
 Specifies the location of the configuration file. See [Specify the Location of the Configuration File](specify-the-location-of-the-configuration-file-e57288d.md).
-
-
 
 </td>
 </tr>
@@ -101,14 +93,10 @@ Specifies the location of the configuration file. See [Specify the Location of t
 
 \--info
 
-
-
 </td>
 <td valign="top">
 
 Displays client and server versions, target, and context. Note that this option only works on its own \(`btp --info)` and cannot be added to other command calls. You can also just use `btp` to display this info. See [View Version and Current Context](view-version-and-current-context-9c29222.md).
-
-
 
 </td>
 </tr>
@@ -117,14 +105,10 @@ Displays client and server versions, target, and context. Note that this option 
 
 \--help
 
-
-
 </td>
 <td valign="top">
 
 Displays help. See [Get Help](get-help-f8fd1e5.md).
-
-
 
 </td>
 </tr>
@@ -132,8 +116,6 @@ Displays help. See [Get Help](get-help-f8fd1e5.md).
 <td valign="top">
 
 \--verbose
-
-
 
 </td>
 <td valign="top">
@@ -156,16 +138,12 @@ To set the command output to verbose persistently, you can change the configurat
 
 \--format
 
-
-
 </td>
 <td valign="top">
 
 Changes the output format of a command to JSON. See [Change the Output Format to JSON](change-the-output-format-to-json-dcb85b7.md).
 
 To set the command output to json persistently, you can change the configuration settings with `btp set config --format json`. See [Change Configuration Settings](change-configuration-settings-dba4eb6.md).
-
-
 
 </td>
 </tr>
@@ -174,14 +152,10 @@ To set the command output to json persistently, you can change the configuration
 
 \--version
 
-
-
 </td>
 <td valign="top">
 
 Prints the version of the client.
-
-
 
 </td>
 </tr>

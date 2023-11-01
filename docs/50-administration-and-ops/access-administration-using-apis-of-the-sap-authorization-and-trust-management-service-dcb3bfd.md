@@ -20,14 +20,10 @@ The following table provides an overview of the APIs. For more information about
 
 API
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -36,14 +32,10 @@ Description
 
 Authorization
 
-
-
 </td>
 <td valign="top">
 
 Provides functions to administrate the SAP Authorization and Trust Management service of Cloud Foundry environment. Manage service instances of the SAP Authorization and Trust Management service. You can also manage roles, role templates, and role collections of your subaccount.
-
-
 
 </td>
 </tr>
@@ -52,14 +44,10 @@ Provides functions to administrate the SAP Authorization and Trust Management se
 
 Identity Provider Management
 
-
-
 </td>
 <td valign="top">
 
 Provides functions to manage identity providers in in the Cloud Foundry environment.
-
-
 
 </td>
 </tr>
@@ -68,14 +56,10 @@ Provides functions to manage identity providers in in the Cloud Foundry environm
 
 Security Settings
 
-
-
 </td>
 <td valign="top">
 
 Provides functions to manage the security settings of an account in Cloud Foundry environment. Use this API to manage access token validity and signing keys.
-
-
 
 </td>
 </tr>
@@ -84,14 +68,10 @@ Provides functions to manage the security settings of an account in Cloud Foundr
 
 User Management \(System for Cross-domain Identity Management \(SCIM\)\)
 
-
-
 </td>
 <td valign="top">
 
 Provides functions to administrate the SAP Authorization and Trust Management service of the Cloud Foundry environment. Provision users from identity providers and manage roles and role collections. Use this API to manage shadow users; users the service provisions from your identity provider to the subaccount.
-
-
 
 </td>
 </tr>

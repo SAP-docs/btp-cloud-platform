@@ -161,15 +161,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <th valign="top">
 
         Parameter
-
-
         
         </th>
         <th valign="top">
 
         Value
-
-
         
         </th>
         </tr>
@@ -177,15 +173,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `Name`
-
-
         
         </td>
         <td valign="top">
         
         Enter a meaningful name.
-
-
         
         </td>
         </tr>
@@ -193,15 +185,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `Type`
-
-
         
         </td>
         <td valign="top">
         
         `HTTP`
-
-
         
         </td>
         </tr>
@@ -209,15 +197,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `Description`
-
-
         
         </td>
         <td valign="top">
         
         \(Optional\) Enter a meaningful description.
-
-
         
         </td>
         </tr>
@@ -225,8 +209,6 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `URL`
-
-
         
         </td>
         <td valign="top">
@@ -244,15 +226,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `Proxy Type`
-
-
         
         </td>
         <td valign="top">
         
         `Internet`
-
-
         
         </td>
         </tr>
@@ -260,15 +238,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `Authentication`
-
-
         
         </td>
         <td valign="top">
         
         `OAuth2SAMLBearerAssertion`
-
-
         
         </td>
         </tr>
@@ -276,15 +250,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `Key Store Location`
-
-
         
         </td>
         <td valign="top">
         
         In the dropdown list, select the key-pair keystore file you have uploaded in [Upload Your Key-Pair Keystore in SAP BTP](using-saml-bearer-assertion-authentication-f9d5adc.md#loio1c58ebce86514260a3b5be9fb9587745).
-
-
         
         </td>
         </tr>
@@ -292,8 +262,6 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `Key Store Password`
-
-
         
         </td>
         <td valign="top">
@@ -311,8 +279,6 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `Audience`
-
-
         
         </td>
         <td valign="top">
@@ -330,15 +296,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `Client Key`
-
-
         
         </td>
         <td valign="top">
         
         The name of the communication user you have in the SAP S/4HANA Cloud tenant.
-
-
         
         </td>
         </tr>
@@ -346,15 +308,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `Token Service URL`
-
-
         
         </td>
         <td valign="top">
         
         This is the *Token Service URL* from the *OAuth 2.0 Details* in the communication arrangement. See [Set Up SAP S/4HANA Cloud Side](using-saml-bearer-assertion-authentication-f9d5adc.md#loio78d6b87a564c4f9d93d73e009aa2bd3f), **step 3**.
-
-
         
         </td>
         </tr>
@@ -362,15 +320,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `Token Service User`
-
-
         
         </td>
         <td valign="top">
         
         The name of the communication user you have in the SAP S/4HANA Cloud tenant.
-
-
         
         </td>
         </tr>
@@ -378,15 +332,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `Token Service Password`
-
-
         
         </td>
         <td valign="top">
         
         The password for the communication user.
-
-
         
         </td>
         </tr>
@@ -394,15 +344,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `System User`
-
-
         
         </td>
         <td valign="top">
         
         This parameter is not used, leave the field empty.
-
-
         
         </td>
         </tr>
@@ -416,15 +362,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <th valign="top">
 
         Parameter
-
-
         
         </th>
         <th valign="top">
 
         Value
-
-
         
         </th>
         </tr>
@@ -432,15 +374,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `authnContextClassRef`
-
-
         
         </td>
         <td valign="top">
         
         `urn:oasis:names:tc:SAML:2.0:ac:classes:X509` 
-
-
         
         </td>
         </tr>
@@ -448,8 +386,6 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `assertionIssuer`
-
-
         
         </td>
         <td valign="top">
@@ -457,8 +393,6 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         Issuer of the SAML assertion.
 
         Enter the provider name you have specified when creating the communication system in SAP S/4HANA Cloud. See [Set Up SAP S/4HANA Cloud Side](using-saml-bearer-assertion-authentication-f9d5adc.md#loio78d6b87a564c4f9d93d73e009aa2bd3f).
-
-
         
         </td>
         </tr>
@@ -474,15 +408,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <th valign="top">
 
         Parameter
-
-
         
         </th>
         <th valign="top">
 
         Value
-
-
         
         </th>
         </tr>
@@ -490,15 +420,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `WebIDEUsage`
-
-
         
         </td>
         <td valign="top">
         
         Specify this property with value `odata_gen` to consume an OData service in your application.
-
-
         
         </td>
         </tr>
@@ -506,15 +432,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `WebIDEEnabled`
-
-
         
         </td>
         <td valign="top">
         
         If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
-
-
         
         </td>
         </tr>
@@ -522,15 +444,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `HTML5.DynamicDestination`
-
-
         
         </td>
         <td valign="top">
         
         If your application does not run on Cloud Foundry, you have to establish a connection to an external system by setting this property to `true`.
-
-
         
         </td>
         </tr>
@@ -538,8 +456,6 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `product.name`
-
-
         
         </td>
         <td valign="top">
@@ -547,8 +463,6 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         `SAP S/4HANA Cloud`
 
         The type of the SAP System for which you create this HTTP destination.
-
-
         
         </td>
         </tr>
@@ -556,15 +470,11 @@ You have logged into the SAP BTP cockpit from the SAP BTP landing page for your 
         <td valign="top">
         
         `communicationScenarioID`
-
-
         
         </td>
         <td valign="top">
         
         The ID of the communication scenario.
-
-
         
         </td>
         </tr>

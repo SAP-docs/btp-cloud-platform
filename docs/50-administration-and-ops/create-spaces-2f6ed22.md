@@ -33,7 +33,7 @@ See [Create Orgs](create-orgs-a9b1f54.md).
 
 ## Next Steps
 
-To assign quota to spaces, see [Change Space Quota Plans](change-space-quota-plans-2a58364.md).
+To assign quota to spaces, see [Edit Space Quotas](edit-space-quotas-2a58364.md).
 
 You can change the name of a space by going to the *Cloud Foundry* \> *Spaces* page from the left hand-side navigation and choosing ![](images/Edit_Icon_abfe424.png) \(Edit\) on the tile of that space. You can also create additional spaces from there.
 

@@ -23,21 +23,15 @@ Technical name: `CommunicationSystems`
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Necessity
-
-
 
 </th>
 </tr>
@@ -46,21 +40,15 @@ Necessity
 
 CommunicationSystemID
 
-
-
 </td>
 <td valign="top">
 
 Communication system ID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -69,21 +57,15 @@ Mandatory \(Key\)
 
 CommunicationSystemName
 
-
-
 </td>
 <td valign="top">
 
 Communication system name
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -92,21 +74,15 @@ Optional
 
 HostName
 
-
-
 </td>
 <td valign="top">
 
 Host name
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -115,21 +91,15 @@ Optional
 
 UIHostName
 
-
-
 </td>
 <td valign="top">
 
 UI host name
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -138,21 +108,15 @@ Optional
 
 TCPPort
 
-
-
 </td>
 <td valign="top">
 
 TCP port
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -161,21 +125,15 @@ Optional
 
 LogicalSystemID
 
-
-
 </td>
 <td valign="top">
 
 Logical system ID
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -184,21 +142,15 @@ Optional
 
 BusinessSystemID
 
-
-
 </td>
 <td valign="top">
 
 Business system ID
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -207,21 +159,15 @@ Optional
 
 InboundOnly
 
-
-
 </td>
 <td valign="top">
 
 Inbound only
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -230,21 +176,15 @@ Optional
 
 HubSystem
 
-
-
 </td>
 <td valign="top">
 
 Hub system
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -253,21 +193,15 @@ Optional
 
 SAPClient
 
-
-
 </td>
 <td valign="top">
 
 SAP client
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -276,21 +210,15 @@ Optional
 
 RFCLoadBalancing
 
-
-
 </td>
 <td valign="top">
 
 RFC load balancing
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -299,21 +227,15 @@ Optional
 
 RFCSAPSystemID
 
-
-
 </td>
 <td valign="top">
 
 RFC SAP system ID
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -322,21 +244,15 @@ Optional
 
 RFCSAPSystemNumber
 
-
-
 </td>
 <td valign="top">
 
 RFC SAP system ID number
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -345,21 +261,15 @@ Optional
 
 RFCLogonGroup
 
-
-
 </td>
 <td valign="top">
 
 RFC logon group
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -368,21 +278,15 @@ Optional
 
 RFCMessageServerTargetHost
 
-
-
 </td>
 <td valign="top">
 
 RFC message server target host
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -391,21 +295,15 @@ Optional
 
 OwnSystem
 
-
-
 </td>
 <td valign="top">
 
 Own system
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -414,21 +312,15 @@ Optional
 
 OAuth2IdentityProviderActive
 
-
-
 </td>
 <td valign="top">
 
 OAuth 2.0 identity provider is active
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -437,21 +329,15 @@ Optional
 
 OAuth2IdentityProviderName
 
-
-
 </td>
 <td valign="top">
 
 OAuth 2.0 identity provider name
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -460,21 +346,15 @@ Optional
 
 OAuth2IDPUserLogonType
 
-
-
 </td>
 <td valign="top">
 
 OAuth 2.0 IDP user logon type
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -483,21 +363,15 @@ Optional
 
 OAuth2AuthEndpoint
 
-
-
 </td>
 <td valign="top">
 
 OAuth 2.0 authorization endpoint
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -506,21 +380,15 @@ Optional
 
 OAuth2TokenEndpoint
 
-
-
 </td>
 <td valign="top">
 
 OAuth 2.0 token endpoint
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -529,21 +397,15 @@ Optional
 
 OAuth2Audience
 
-
-
 </td>
 <td valign="top">
 
 OAuth 2.0 audience
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -552,21 +414,15 @@ Optional
 
 SAPCloudConnectorActive
 
-
-
 </td>
 <td valign="top">
 
 SAP Cloud Connector is active
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -575,21 +431,15 @@ Optional
 
 SAPCloudConnectorLocationID
 
-
-
 </td>
 <td valign="top">
 
 SAP Cloud Connector location ID
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -598,21 +448,15 @@ Optional
 
 SAMLBearerAssertionProvActive
 
-
-
 </td>
 <td valign="top">
 
 SAML Bearer Assertion Provider is active
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -621,21 +465,15 @@ Optional
 
 SAMLBearerAssertionProvName
 
-
-
 </td>
 <td valign="top">
 
 SAML Bearer Assertion Provider name
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -644,21 +482,15 @@ Optional
 
 SAMLBearerAssProvUserLogonType
 
-
-
 </td>
 <td valign="top">
 
 SAML Bearer Assertion Provider user logon type
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -667,21 +499,15 @@ Optional
 
 OwnerContactPersonName
 
-
-
 </td>
 <td valign="top">
 
 Owner contact person name
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -690,21 +516,15 @@ Optional
 
 OwnerContactPersonPhone
 
-
-
 </td>
 <td valign="top">
 
 Owner contact person phone
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -713,21 +533,15 @@ Optional
 
 OwnerContactPersonEMail
 
-
-
 </td>
 <td valign="top">
 
 Owner contact person email
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -736,21 +550,15 @@ Optional
 
 LastChangedDateTime
 
-
-
 </td>
 <td valign="top">
 
 Date and time of last change
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -759,21 +567,15 @@ Optional
 
 LastChangedByUserID
 
-
-
 </td>
 <td valign="top">
 
 Last changed by <user ID\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -782,21 +584,15 @@ Optional
 
 LastChangedByUserName
 
-
-
 </td>
 <td valign="top">
 
 Last changed by <user name\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -805,21 +601,15 @@ Optional
 
 LastChangedByUserDescription
 
-
-
 </td>
 <td valign="top">
 
 Last changed by <user description\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -828,21 +618,15 @@ Optional
 
 LastChangedByEMailAddress
 
-
-
 </td>
 <td valign="top">
 
 Last changed by <email address\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -851,21 +635,15 @@ Optional
 
 LastChangedByGlobalUserID
 
-
-
 </td>
 <td valign="top">
 
 Last changed by <global user ID\>
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>

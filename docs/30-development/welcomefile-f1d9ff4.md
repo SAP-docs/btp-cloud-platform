@@ -15,28 +15,20 @@ The Web page served by default if the HTTP request does not include a specific p
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Mandatory
 
-
-
 </th>
 <th valign="top">
 
 Values
-
-
 
 </th>
 </tr>
@@ -45,28 +37,20 @@ Values
 
 `welcomeFile` 
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 HTML page, for example, `index.html`
-
-
 
 </td>
 </tr>

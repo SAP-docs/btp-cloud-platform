@@ -23,21 +23,15 @@ Technical name: `CommSystemInboundUsers`
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Necessity
-
-
 
 </th>
 </tr>
@@ -46,21 +40,15 @@ Necessity
 
 CommunicationSystemID
 
-
-
 </td>
 <td valign="top">
 
 Communication system ID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -69,21 +57,15 @@ Mandatory \(Key\)
 
 InboundUUID
 
-
-
 </td>
 <td valign="top">
 
 Inbound UUID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -92,21 +74,15 @@ Mandatory \(Key\)
 
 UserID
 
-
-
 </td>
 <td valign="top">
 
 User ID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -115,21 +91,15 @@ Mandatory \(Key\)
 
 UserName
 
-
-
 </td>
 <td valign="top">
 
 User name
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -138,21 +108,15 @@ Optional
 
 OAuth2ClientID
 
-
-
 </td>
 <td valign="top">
 
 OAuth 2.0 client ID
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -161,21 +125,15 @@ Optional
 
 OAuth2GrantType
 
-
-
 </td>
 <td valign="top">
 
 OAuth 2.0 grant type
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -183,8 +141,6 @@ Optional
 <td valign="top">
 
 AuthMethod
-
-
 
 </td>
 <td valign="top">
@@ -203,14 +159,10 @@ AuthMethod
 
 `oauth2_mtls`: OAuth 2.0 \(mTLS\)
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>

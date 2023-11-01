@@ -24,21 +24,15 @@ The supported type casts in the SQL dialect of the ABAP SQL service are more HAN
 
  
 
-
-
 </th>
 <th valign="top">
 
 Data Type in Cast
 
-
-
 </th>
 <th valign="top">
 
 Corresponding ABAP Data Type
-
-
 
 </th>
 </tr>
@@ -47,21 +41,15 @@ Corresponding ABAP Data Type
 
 Integer data types
 
-
-
 </td>
 <td valign="top">
 
 `SMALLINT`, `INTEGER`, `BIGINT`
 
-
-
 </td>
 <td valign="top">
 
 `abap.int2`, `abap.int4`, `abap.int8`
-
-
 
 </td>
 </tr>
@@ -70,21 +58,15 @@ Integer data types
 
 Fixed-point decimal types
 
-
-
 </td>
 <td valign="top">
 
 `DECIMAL( p, s )` where `p` <= 31 and `s` <= 14
 
-
-
 </td>
 <td valign="top">
 
 `abap.dec(p,s)`
-
-
 
 </td>
 </tr>
@@ -93,21 +75,15 @@ Fixed-point decimal types
 
 Double
 
-
-
 </td>
 <td valign="top">
 
 `DOUBLE`
 
-
-
 </td>
 <td valign="top">
 
 `abap.double`
-
-
 
 </td>
 </tr>
@@ -116,8 +92,6 @@ Double
 
 Character-like types
 
-
-
 </td>
 <td valign="top">
 
@@ -125,14 +99,10 @@ Character-like types
 
 Synonyms: `VARCHAR(n)`, `NVARCHAR(n)`
 
-
-
 </td>
 <td valign="top">
 
 `abap.char(n)`
-
-
 
 </td>
 </tr>
@@ -141,21 +111,15 @@ Synonyms: `VARCHAR(n)`, `NVARCHAR(n)`
 
 Decimal floating point types
 
-
-
 </td>
 <td valign="top">
 
 `DECIMAL`, `SMALLDECIMAL`
 
-
-
 </td>
 <td valign="top">
 
 `abap.df34n`, `abap.df16n`
-
-
 
 </td>
 </tr>

@@ -45,35 +45,25 @@ Set up your account model by creating subaccounts in your enterprise account tha
 
 Step No.
 
-
-
 </th>
 <th valign="top">
 
 Task
-
-
 
 </th>
 <th valign="top">
 
 Performed By
 
-
-
 </th>
 <th valign="top">
 
 Do This
 
-
-
 </th>
 <th valign="top">
 
 More Information
-
-
 
 </th>
 </tr>
@@ -82,21 +72,15 @@ More Information
 
 1.
 
-
-
 </td>
 <td valign="top">
 
 Log in to your global account using the URL of the btp CLI server and the subdomain of your global account.
 
-
-
 </td>
 <td valign="top">
 
 Global account administrator or viewer
-
-
 
 </td>
 <td valign="top">
@@ -105,14 +89,10 @@ Run this command in the btp CLI:
 
 `btp login`
 
-
-
 </td>
 <td valign="top">
 
 See [Log in](../50-administration-and-ops/log-in-e241b30.md).
-
-
 
 </td>
 </tr>
@@ -121,21 +101,15 @@ See [Log in](../50-administration-and-ops/log-in-e241b30.md).
 
 2.
 
-
-
 </td>
 <td valign="top">
 
 View details of your global account.
 
-
-
 </td>
 <td valign="top">
 
 Global account admin or viewer
-
-
 
 </td>
 <td valign="top">
@@ -144,14 +118,10 @@ Run this command in the btp CLI:
 
 `btp get accounts/global-account`
 
-
-
 </td>
 <td valign="top">
 
 See [Working with Global Accounts, Directories, and Subaccounts Using the btp CLI](../50-administration-and-ops/working-with-global-accounts-directories-and-subaccounts-using-the-btp-cli-85a683e.md).
-
-
 
 </td>
 </tr>
@@ -160,21 +130,15 @@ See [Working with Global Accounts, Directories, and Subaccounts Using the btp CL
 
 3.
 
-
-
 </td>
 <td valign="top">
 
 Add admins to your global account.
 
-
-
 </td>
 <td valign="top">
 
 Global account admin
-
-
 
 </td>
 <td valign="top">
@@ -183,14 +147,10 @@ Assign the role collection `Global Account Administrator` to a user by running t
 
 <code>btp assign security/role-collection "Global Account Administrator" --to-user <i class="varname">&lt;user&gt;</i> --create-user-if-missing</code>
 
-
-
 </td>
 <td valign="top">
 
 See [Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md) and [Security Administration: Managing Authentication and Authorization](../50-administration-and-ops/security-administration-managing-authentication-and-authorization-1ff47b2.md).
-
-
 
 </td>
 </tr>
@@ -199,21 +159,15 @@ See [Managing Users and Their Authorizations Using the btp CLI](../50-administra
 
 4.
 
-
-
 </td>
 <td valign="top">
 
 View all the regions that are available to your global account and subaccounts.
 
-
-
 </td>
 <td valign="top">
 
 Global account admin or viewer
-
-
 
 </td>
 <td valign="top">
@@ -222,14 +176,10 @@ Run this command in the btp CLI:
 
 `btp list accounts/available-region`
 
-
-
 </td>
 <td valign="top">
 
 This command also provides information about the environments and infrastructure provider of each region.
-
-
 
 </td>
 </tr>
@@ -238,21 +188,15 @@ This command also provides information about the environments and infrastructure
 
 5.
 
-
-
 </td>
 <td valign="top">
 
 Create subaccounts in your global account.
 
-
-
 </td>
 <td valign="top">
 
 Global account admin
-
-
 
 </td>
 <td valign="top">
@@ -261,14 +205,10 @@ Run this command in the btp CLI:
 
 <code>btp create accounts/subaccount --display-name <i class="varname">&lt;my-subaccount&gt;</i> --region <i class="varname">&lt;my-region&gt;</i> --subdomain <i class="varname">&lt;my-subaccount-subdomain&gt;</i> </code>
 
-
-
 </td>
 <td valign="top">
 
 See [Working with Global Accounts, Directories, and Subaccounts Using the btp CLI](../50-administration-and-ops/working-with-global-accounts-directories-and-subaccounts-using-the-btp-cli-85a683e.md) and [Relationship Between Global Accounts and Subaccounts \[Feature Set A\]](../10-concepts/account-model-8ed4a70.md#loioeeda449cf252418a97e0f7c9abd30b9a).
-
-
 
 </td>
 </tr>
@@ -277,21 +217,15 @@ See [Working with Global Accounts, Directories, and Subaccounts Using the btp CL
 
 6.
 
-
-
 </td>
 <td valign="top">
 
 View the details of the subaccounts in your global account.
 
-
-
 </td>
 <td valign="top">
 
 Global account admin or viewer
-
-
 
 </td>
 <td valign="top">
@@ -300,14 +234,10 @@ Run this command in the btp CLI:
 
 <code>btp get accounts/subaccount <i class="varname">&lt;ID of new subaccount&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 See [Working with Global Accounts, Directories, and Subaccounts Using the btp CLI](../50-administration-and-ops/working-with-global-accounts-directories-and-subaccounts-using-the-btp-cli-85a683e.md).
-
-
 
 </td>
 </tr>
@@ -316,21 +246,15 @@ See [Working with Global Accounts, Directories, and Subaccounts Using the btp CL
 
 7.
 
-
-
 </td>
 <td valign="top">
 
 Add admins to your subaccounts.
 
-
-
 </td>
 <td valign="top">
 
 Subaccount admin
-
-
 
 </td>
 <td valign="top">
@@ -339,14 +263,10 @@ Assign the role collection `Subaccount Administrator` to the user by running the
 
 <code>btp assign security/role-collection "Subaccount Administrator" --to-user <i class="varname">&lt;user&gt;</i> --create-user-if-missing</code>
 
-
-
 </td>
 <td valign="top">
 
 See [Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md) and [Security Administration: Managing Authentication and Authorization](../50-administration-and-ops/security-administration-managing-authentication-and-authorization-1ff47b2.md).
-
-
 
 </td>
 </tr>
@@ -355,21 +275,15 @@ See [Managing Users and Their Authorizations Using the btp CLI](../50-administra
 
 8.
 
-
-
 </td>
 <td valign="top">
 
 View all the services and applications that are entitled to your global account, including quota information per service plan.
 
-
-
 </td>
 <td valign="top">
 
 Global account admin or viewer
-
-
 
 </td>
 <td valign="top">
@@ -378,14 +292,10 @@ Run this command in the btp CLI:
 
 `btp list accounts/entitlement`
 
-
-
 </td>
 <td valign="top">
 
 See [Setting Entitlements Using the btp CLI](../50-administration-and-ops/setting-entitlements-using-the-btp-cli-5af849c.md).
-
-
 
 </td>
 </tr>
@@ -394,21 +304,15 @@ See [Setting Entitlements Using the btp CLI](../50-administration-and-ops/settin
 
 9.
 
-
-
 </td>
 <td valign="top">
 
 Assign quotas to your subaccounts.
 
-
-
 </td>
 <td valign="top">
 
 Global account admin
-
-
 
 </td>
 <td valign="top">
@@ -421,14 +325,10 @@ Validate with this command:
 
 `btp list accounts/entitlement`
 
-
-
 </td>
 <td valign="top">
 
 See [Setting Entitlements Using the btp CLI](../50-administration-and-ops/setting-entitlements-using-the-btp-cli-5af849c.md).
-
-
 
 </td>
 </tr>
@@ -437,21 +337,15 @@ See [Setting Entitlements Using the btp CLI](../50-administration-and-ops/settin
 
 10.
 
-
-
 </td>
 <td valign="top">
 
 View all the entitlements in your subaccounts.
 
-
-
 </td>
 <td valign="top">
 
 Subaccount admin or viewer
-
-
 
 </td>
 <td valign="top">
@@ -460,14 +354,10 @@ Run this command in the btp CLI:
 
 <code>btp list accounts/entitlement --subaccount <i class="varname">&lt;my-subaccount-id&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 See [Setting Entitlements Using the btp CLI](../50-administration-and-ops/setting-entitlements-using-the-btp-cli-5af849c.md).
-
-
 
 </td>
 </tr>
@@ -476,21 +366,15 @@ See [Setting Entitlements Using the btp CLI](../50-administration-and-ops/settin
 
 11.
 
-
-
 </td>
 <td valign="top">
 
 Create a Cloud Foundry org \(environment instance\) in your subaccounts.
 
-
-
 </td>
 <td valign="top">
 
 Subaccount admin
-
-
 
 </td>
 <td valign="top">
@@ -499,14 +383,10 @@ Run this command in the btp CLI:
 
 <code>btp create accounts/environment-instance --subaccount <i class="varname">&lt;my-subaccount-id&gt;</i> --display-name <i class="varname">&lt;my-environment&gt;</i> --environment <i class="varname">&lt;cloudfoundry&gt;</i> --plan standard --parameters "{\"instance_name\":\"myOrg\"}"</code>
 
-
-
 </td>
 <td valign="top">
 
 See [Working with Environments Using the btp CLI](../50-administration-and-ops/working-with-environments-using-the-btp-cli-48db155.md) and[Org Management Using the SAP BTP Command Line Interface \(btp CLI\) \[Feature Set B\]](../50-administration-and-ops/org-management-using-the-sap-btp-command-line-interface-btp-cli-feature-set-b-aee40e1.md) .
-
-
 
 </td>
 </tr>
@@ -515,21 +395,15 @@ See [Working with Environments Using the btp CLI](../50-administration-and-ops/w
 
 12.
 
-
-
 </td>
 <td valign="top">
 
 View details of the environment instances in your subaccounts.
 
-
-
 </td>
 <td valign="top">
 
 Subaccount admin or viewer
-
-
 
 </td>
 <td valign="top">
@@ -538,14 +412,10 @@ Run this command in the btp CLI:
 
 <code>btp list accounts/environment-instance --subaccount <i class="varname">&lt;my-subaccount-id&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 See [Working with Environments Using the btp CLI](../50-administration-and-ops/working-with-environments-using-the-btp-cli-48db155.md).
-
-
 
 </td>
 </tr>
@@ -554,21 +424,15 @@ See [Working with Environments Using the btp CLI](../50-administration-and-ops/w
 
 13.
 
-
-
 </td>
 <td valign="top">
 
 Create a Cloud Foundry space.
 
-
-
 </td>
 <td valign="top">
 
 Org manager
-
-
 
 </td>
 <td valign="top">
@@ -579,14 +443,10 @@ Run these cf CLI commands:
 
 `cf create-space`
 
-
-
 </td>
 <td valign="top">
 
 See [Create Spaces Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/create-spaces-using-the-cloud-foundry-command-line-interface-a2e5e29.md).
-
-
 
 </td>
 </tr>
@@ -595,21 +455,15 @@ See [Create Spaces Using the Cloud Foundry Command Line Interface](../50-adminis
 
 14.
 
-
-
 </td>
 <td valign="top">
 
 Add Cloud Foundry org and space members.
 
-
-
 </td>
 <td valign="top">
 
 Org manager
-
-
 
 </td>
 <td valign="top">
@@ -620,14 +474,10 @@ Run these cf CLI commands:
 
 <code>cf set-space-role <i class="varname">&lt;USERNAME&gt;</i><i class="varname">&lt;ORG&gt;</i><i class="varname">&lt;SPACE&gt;</i><i class="varname">&lt;ROLE&gt;</i></code>
 
-
-
 </td>
 <td valign="top">
 
 See [Add Organization Members Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/add-organization-members-using-the-cloud-foundry-command-line-interface-1422a5d.md) and [Add Space Members Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/add-space-members-using-the-cloud-foundry-command-line-interface-d23ea8b.md).
-
-
 
 </td>
 </tr>
@@ -636,21 +486,15 @@ See [Add Organization Members Using the Cloud Foundry Command Line Interface](..
 
 15.
 
-
-
 </td>
 <td valign="top">
 
 Display all available services in the Cloud Foundry marketplace.
 
-
-
 </td>
 <td valign="top">
 
 Org manager
-
-
 
 </td>
 <td valign="top">
@@ -667,8 +511,6 @@ cf marketplace
 <td valign="top">
 
 See [Using Services in the Cloud Foundry Environment](../30-development/using-services-in-the-cloud-foundry-environment-f22029f.md).
-
-
 
 </td>
 </tr>

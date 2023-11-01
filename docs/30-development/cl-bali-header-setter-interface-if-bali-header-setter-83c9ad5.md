@@ -19,14 +19,10 @@ Create an instance of the header class with the settings of the descriptor \(obj
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -35,8 +31,6 @@ Description
 
 **Importing parameters**
 
-
-
 </td>
 </tr>
 <tr>
@@ -44,14 +38,10 @@ Description
 
 OBJECT
 
-
-
 </td>
 <td valign="top">
 
 Object of the log
-
-
 
 </td>
 </tr>
@@ -60,16 +50,12 @@ Object of the log
 
 SUBOBJECT
 
-
-
 </td>
 <td valign="top">
 
 Subobject of the log
 
 If no subobjects were defined for the log object, the parameter should be empty
-
-
 
 </td>
 </tr>
@@ -78,16 +64,12 @@ If no subobjects were defined for the log object, the parameter should be empty
 
 EXTERNAL\_ID
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\): External identifier of the log
 
 Default: ' '
-
-
 
 </td>
 </tr>
@@ -96,8 +78,6 @@ Default: ' '
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -105,14 +85,10 @@ Default: ' '
 
 HEADER
 
-
-
 </td>
 <td valign="top">
 
 Header object: A reference to interface IF\_BALI\_HEADER\_SETTER
-
-
 
 </td>
 </tr>
@@ -121,16 +97,12 @@ Header object: A reference to interface IF\_BALI\_HEADER\_SETTER
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
-
-
 
 </td>
 <td valign="top">
@@ -139,8 +111,6 @@ ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>OBJECT\_NOT\_ALLOWED:
 
 Access to the log object is not allowed
 
-
-
 </td>
 </tr>
 <tr>
@@ -148,14 +118,10 @@ Access to the log object is not allowed
 
 CX\_BALI\_INVALID\_PARAMETER
 
-
-
 </td>
 <td valign="top">
 
 The log object or subobject of the header doesn't exist
-
-
 
 </td>
 </tr>
@@ -174,14 +140,10 @@ Set object, subobject and external identifier of the log:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -190,8 +152,6 @@ Description
 
 **Importing parameters**
 
-
-
 </td>
 </tr>
 <tr>
@@ -199,14 +159,10 @@ Description
 
 OBJECT
 
-
-
 </td>
 <td valign="top">
 
 Object of the log
-
-
 
 </td>
 </tr>
@@ -215,14 +171,10 @@ Object of the log
 
 SUBOBJECT
 
-
-
 </td>
 <td valign="top">
 
 Subobject of the log
-
-
 
 </td>
 </tr>
@@ -231,16 +183,12 @@ Subobject of the log
 
 EXTERNAL\_ID
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\): External identifier of the log
 
 Default: ' '
-
-
 
 </td>
 </tr>
@@ -249,8 +197,6 @@ Default: ' '
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -258,14 +204,10 @@ Default: ' '
 
 NEW\_HEADER
 
-
-
 </td>
 <td valign="top">
 
 Reference to current header object
-
-
 
 </td>
 </tr>
@@ -274,16 +216,12 @@ Reference to current header object
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
-
-
 
 </td>
 <td valign="top">
@@ -292,8 +230,6 @@ ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>OBJECT\_NOT\_ALLOWED:
 
 Access to the log object is not allowed
 
-
-
 </td>
 </tr>
 <tr>
@@ -301,14 +237,10 @@ Access to the log object is not allowed
 
 CX\_BALI\_INVALID\_PARAMETER
 
-
-
 </td>
 <td valign="top">
 
 The log object or subobject of the header doesn't exist
-
-
 
 </td>
 </tr>
@@ -327,14 +259,10 @@ Set the expiry date and attributes:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -343,8 +271,6 @@ Description
 
 **Importing parameters**
 
-
-
 </td>
 </tr>
 <tr>
@@ -352,14 +278,10 @@ Description
 
 EXPIRY\_DATE
 
-
-
 </td>
 <td valign="top">
 
 Date when the log expires and can be deleted. If the parameter is initial, the expiry date remains unchanged; the default value of the expiry date is the creation date of the log + 7 days.
-
-
 
 </td>
 </tr>
@@ -368,16 +290,12 @@ Date when the log expires and can be deleted. If the parameter is initial, the e
 
 KEEP\_UNTIL\_EXPIRY
 
-
-
 </td>
 <td valign="top">
 
 \(Optional\): If set: It is not allowed to delete the log before the expiry date
 
 Default: Not set
-
-
 
 </td>
 </tr>
@@ -386,8 +304,6 @@ Default: Not set
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -395,14 +311,10 @@ Default: Not set
 
 NEW\_HEADER
 
-
-
 </td>
 <td valign="top">
 
 Reference to current header object
-
-
 
 </td>
 </tr>
@@ -421,14 +333,10 @@ Get all header values:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -437,8 +345,6 @@ Description
 
 **Exporting parameters**
 
-
-
 </td>
 </tr>
 <tr>
@@ -446,14 +352,10 @@ Description
 
 OBJECT
 
-
-
 </td>
 <td valign="top">
 
 Object of the log
-
-
 
 </td>
 </tr>
@@ -462,14 +364,10 @@ Object of the log
 
 SUBOBJECT
 
-
-
 </td>
 <td valign="top">
 
 Subobject of the log
-
-
 
 </td>
 </tr>
@@ -478,14 +376,10 @@ Subobject of the log
 
 EXTERNAL\_ID
 
-
-
 </td>
 <td valign="top">
 
 External identifier of the log
-
-
 
 </td>
 </tr>
@@ -494,14 +388,10 @@ External identifier of the log
 
 EXPIRY\_DATE
 
-
-
 </td>
 <td valign="top">
 
 Date when the log expires and can be deleted
-
-
 
 </td>
 </tr>
@@ -510,14 +400,10 @@ Date when the log expires and can be deleted
 
 KEEP\_UNTIL\_EXPIRY
 
-
-
 </td>
 <td valign="top">
 
 If set: It is not allowed to delete the log before the expiry date
-
-
 
 </td>
 </tr>

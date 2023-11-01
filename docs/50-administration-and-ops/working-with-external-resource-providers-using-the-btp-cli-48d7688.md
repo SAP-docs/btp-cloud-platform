@@ -16,21 +16,15 @@ Creating a resource provider instance allows your global account to connect to y
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Run the command...
 
-
-
 </th>
 <th valign="top">
 
 Command help
-
-
 
 </th>
 </tr>
@@ -39,21 +33,15 @@ Command help
 
 List all resource provider instances in a global account
 
-
-
 </td>
 <td valign="top">
 
 `btp list accounts/resource-provider`
 
-
-
 </td>
 <td valign="top">
 
 [btp list accounts/resource-provider](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-resource-provider.html)
-
-
 
 </td>
 </tr>
@@ -62,21 +50,15 @@ List all resource provider instances in a global account
 
 Get details about a resource provider instance
 
-
-
 </td>
 <td valign="top">
 
 `btp get accounts/resource-provider`
 
-
-
 </td>
 <td valign="top">
 
 [btp get accounts/resource-provider](https://help.sap.com/docs/BTP/btp-cli/btp-get-accounts-resource-provider.html)
-
-
 
 </td>
 </tr>
@@ -85,21 +67,15 @@ Get details about a resource provider instance
 
 Create a resource provider instance
 
-
-
 </td>
 <td valign="top">
 
 `btp create accounts/resource-provider`
 
-
-
 </td>
 <td valign="top">
 
 [btp create accounts/resource-provider](https://help.sap.com/docs/BTP/btp-cli/btp-create-accounts-resource-provider.html)
-
-
 
 </td>
 </tr>
@@ -108,21 +84,15 @@ Create a resource provider instance
 
 Update a resource provider instance
 
-
-
 </td>
 <td valign="top">
 
 `btp update accounts/resource-provider`
 
-
-
 </td>
 <td valign="top">
 
 [btp update accounts/resource-provider](https://help.sap.com/docs/BTP/btp-cli/btp-update-accounts-resource-provider.html)
-
-
 
 </td>
 </tr>
@@ -131,21 +101,15 @@ Update a resource provider instance
 
 Delete a resource provider instance
 
-
-
 </td>
 <td valign="top">
 
 `btp delete accounts/resource-provider`
 
-
-
 </td>
 <td valign="top">
 
 [btp delete accounts/resource-provider](https://help.sap.com/docs/BTP/btp-cli/btp-delete-accounts-resource-provider.html)
-
-
 
 </td>
 </tr>

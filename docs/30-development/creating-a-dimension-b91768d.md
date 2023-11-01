@@ -19,21 +19,15 @@ Use method `CREATE` to create a new dimension. For customer dimensions, the name
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -42,44 +36,32 @@ Value Help
 
 DIM\_CRE\_TS
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Structure for creating a dimension
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 DIMID
 
-
-
 </td>
 <td valign="top">
 
 Dimension key
-
-
 
 </td>
 </tr>
@@ -87,22 +69,16 @@ Dimension key
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 TXDIM
 
-
-
 </td>
 <td valign="top">
 
 Description of the dimension key
-
-
 
 </td>
 </tr>
@@ -110,22 +86,16 @@ Description of the dimension key
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 LENGTH
 
-
-
 </td>
 <td valign="top">
 
 Length exponent of the dimension
-
-
 
 </td>
 </tr>
@@ -133,22 +103,16 @@ Length exponent of the dimension
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 MASS
 
-
-
 </td>
 <td valign="top">
 
 Mass exponent of the dimension
-
-
 
 </td>
 </tr>
@@ -156,22 +120,16 @@ Mass exponent of the dimension
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 TIME
 
-
-
 </td>
 <td valign="top">
 
 Time exponent of the dimension
-
-
 
 </td>
 </tr>
@@ -179,22 +137,16 @@ Time exponent of the dimension
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 CURRENT
 
-
-
 </td>
 <td valign="top">
 
 Electric current exponent of the dimension
-
-
 
 </td>
 </tr>
@@ -202,22 +154,16 @@ Electric current exponent of the dimension
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 TEMPERATURE
 
-
-
 </td>
 <td valign="top">
 
 Temperature exponent of the dimension
-
-
 
 </td>
 </tr>
@@ -225,22 +171,16 @@ Temperature exponent of the dimension
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 MOLE\_QTY
 
-
-
 </td>
 <td valign="top">
 
 Mole quantity exponent of the dimension
-
-
 
 </td>
 </tr>
@@ -249,21 +189,15 @@ Mole quantity exponent of the dimension
 
  
 
-
-
 </td>
 <td valign="top">
 
 LUMINOSITY
 
-
-
 </td>
 <td valign="top">
 
 Light exponent of the dimension
-
-
 
 </td>
 </tr>
@@ -284,14 +218,10 @@ Light exponent of the dimension
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -300,16 +230,12 @@ Value Help
 
 ERROR
 
-
-
 </td>
 <td valign="top">
 
 `Space`: No error
 
 `‘X’`: Save error
-
-
 
 </td>
 </tr>

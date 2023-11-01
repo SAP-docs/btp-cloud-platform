@@ -15,35 +15,25 @@ Let's use the flight reference scenario and let's assume you've performed system
 
 Business Process
 
-
-
 </th>
 <th valign="top">
 
 ABAP Total Memory
-
-
 
 </th>
 <th valign="top">
 
 Work Process Time
 
-
-
 </th>
 <th valign="top">
 
 ABAP CPU Time
 
-
-
 </th>
 <th valign="top">
 
 Process Executions/Minute
-
-
 
 </th>
 </tr>
@@ -52,35 +42,25 @@ Process Executions/Minute
 
 Create a new travel request
 
-
-
 </td>
 <td valign="top">
 
 0.108 ACUs
-
-
 
 </td>
 <td valign="top">
 
 0.306 ACUs
 
-
-
 </td>
 <td valign="top">
 
 0.414 ACUs
 
-
-
 </td>
 <td valign="top">
 
 180
-
-
 
 </td>
 </tr>
@@ -89,35 +69,25 @@ Create a new travel request
 
 Approve a travel request
 
-
-
 </td>
 <td valign="top">
 
 0.072 ACUs
-
-
 
 </td>
 <td valign="top">
 
 0.162 ACUs
 
-
-
 </td>
 <td valign="top">
 
 0.234 ACUs
 
-
-
 </td>
 <td valign="top">
 
 180
-
-
 
 </td>
 </tr>
@@ -126,35 +96,25 @@ Approve a travel request
 
 Calculate and send metrics for reporting
 
-
-
 </td>
 <td valign="top">
 
 0.025 ACUs
-
-
 
 </td>
 <td valign="top">
 
 0.331 ACUs
 
-
-
 </td>
 <td valign="top">
 
 0.092 ACUs
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -179,21 +139,15 @@ To simplify the consumption of the sizing formulas that you created, you can opt
 
 T-Shirt Size
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Required ABAP Compute Units
-
-
 
 </th>
 </tr>
@@ -202,21 +156,15 @@ Required ABAP Compute Units
 
 S
 
-
-
 </td>
 <td valign="top">
 
 Up to 180 travels created and approved per minute
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -225,21 +173,15 @@ Up to 180 travels created and approved per minute
 
 M
 
-
-
 </td>
 <td valign="top">
 
 Up to 360 travels created and approved per minute
 
-
-
 </td>
 <td valign="top">
 
 2
-
-
 
 </td>
 </tr>
@@ -248,21 +190,15 @@ Up to 360 travels created and approved per minute
 
 L
 
-
-
 </td>
 <td valign="top">
 
 Up to 540 travels created and approved per minute
 
-
-
 </td>
 <td valign="top">
 
 3
-
-
 
 </td>
 </tr>

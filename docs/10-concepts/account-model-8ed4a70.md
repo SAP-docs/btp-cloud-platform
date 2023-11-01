@@ -92,9 +92,9 @@ Optionally, you can also enable the following features in your directories:
 
 [Manage the Account Explorer Hierarchy \[Feature Set B\]](../50-administration-and-ops/manage-the-account-explorer-hierarchy-feature-set-b-2e2a5b6.md "Create an account structure by creating a hierarchy of directories and subaccounts using the SAP BTP cockpit. Add, move, and delete subaccounts and directories in your structure.")
 
-[Configure Entitlements and Quotas for Directories \[Feature Set B\]](../50-administration-and-ops/configure-entitlements-and-quotas-for-directories-feature-set-b-37f8871.md "Assign entitlements to directories by adding service plans and distribute the quotas available in your global account to your directories using the SAP BTP cockpit.")
+[Configure Entitlements and Quotas for Directories \[Feature Set B\]](../50-administration-and-ops/configure-entitlements-and-quotas-for-directories-feature-set-b-37f8871.md "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using the SAP BTP cockpit.")
 
-[Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md "Assign entitlements to subaccounts by adding service plans and distribute the quotas available in your global account to your subaccounts using the SAP BTP cockpit.")
+[Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using the SAP BTP cockpit.")
 
 [Getting a Global Account](../20-getting-started/getting-a-global-account-d61c281.md#loiod61c2819034b48e68145c45c36acba6e "SAP BTP offers two types of global accounts: Trial accounts (completely free of charge) and enterprise accounts. Within an enterprise account, you can use both free and paid plans.")
 
@@ -176,14 +176,10 @@ Labels are made up of a *label name* \(also referred to as a *key*\) and up to 1
 
 Types of Labels
 
-
-
 </th>
 <th valign="top">
 
 Examples
-
-
 
 </th>
 </tr>
@@ -191,8 +187,6 @@ Examples
 <td valign="top">
 
 Single-value labels are useful for labels that have an identifier, or for labels with fixed lists.
-
-
 
 </td>
 <td valign="top">
@@ -219,8 +213,6 @@ Single-value labels are useful for labels that have an identifier, or for labels
 
 Multi-value labels make them useful for labels that typically have more than one value assigned to them.
 
-
-
 </td>
 <td valign="top">
 
@@ -239,8 +231,6 @@ Multi-value labels make them useful for labels that typically have more than one
 Labels can also be assigned with a name only and no value. In such cases, the label behaves like tag.
 
 Note that currently for service instances, labels must have at least value.
-
-
 
 </td>
 <td valign="top">

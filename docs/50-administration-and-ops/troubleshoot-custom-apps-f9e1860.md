@@ -39,14 +39,10 @@ Business role template `Application Support Engineer - Development Support` incl
 
 Business Catalog
 
-
-
 </th>
 <th valign="top">
 
 Authorization
-
-
 
 </th>
 </tr>
@@ -54,8 +50,6 @@ Authorization
 <td valign="top">
 
 Development Support - Data Preview - Business Data \(`SAP_A4C_BC_DAT_PRV_DFT_PC`\)
-
-
 
 </td>
 <td valign="top">
@@ -75,8 +69,6 @@ This business catalog enables you to use the data preview in ABAP Development To
 
 Development Support - Data Preview - Cross-Client and Customizing Data \(`SAP_A4C_BC_DAT_PRV_RDO_PC`\)
 
-
-
 </td>
 <td valign="top">
 
@@ -95,14 +87,10 @@ This business catalog enables you to use the data preview in ABAP Development To
 
 Development - Class Runner Execution \(`SAP_A4C_BC_DEV_CLA_RUN_PC`\)
 
-
-
 </td>
 <td valign="top">
 
 This business catalog enables you to execute class runners in ABAP Development Tools.
-
-
 
 </td>
 </tr>
@@ -110,8 +98,6 @@ This business catalog enables you to execute class runners in ABAP Development T
 <td valign="top">
 
 Development - Data Preview - Released Objects \(`SAP_A4C_BC_DEV_DAT_PRV_PC`\)
-
-
 
 </td>
 <td valign="top">
@@ -131,14 +117,10 @@ This business catalog enables you to use the data preview in ABAP Development To
 
 Development - Development Objects Display \(`SAP_A4C_BC_DEV_OBJ_DIS_PC`\)
 
-
-
 </td>
 <td valign="top">
 
 This business catalog enables you to sign in to ABAP Development Tools and view development objects with read-only authorization.
-
-
 
 </td>
 </tr>
@@ -147,16 +129,12 @@ This business catalog enables you to sign in to ABAP Development Tools and view 
 
 Development - Analysis and Support \(`SAP_A4C_BC_DEV_SUP_PC`\)
 
-
-
 </td>
 <td valign="top">
 
 This business catalog gives you access to troubleshooting tools such as logs, traces, and the debugger.
 
 Business user assigned to the business role `Development` or any kind of source code changes are not permitted. Nevertheless, business users can execute the class runner in a test or productive system, unless this is not restricted by the administrator.
-
-
 
 </td>
 </tr>

@@ -34,14 +34,10 @@ To integrate SAP BTP and SAP Customer Experience products so that you can build 
 
 Process Step
 
-
-
 </th>
 <th valign="top">
 
 Related Documentation
-
-
 
 </th>
 </tr>
@@ -52,14 +48,10 @@ Related Documentation
 
 During the registration process you create an integration token which is then used in the SAP Customer Experience system for configuring the integration on the SAP Customer Experience side.
 
-
-
 </td>
 <td valign="top">
 
 [Register an SAP Customer Experience System](register-an-sap-customer-experience-system-1582d72.md)
-
-
 
 </td>
 </tr>
@@ -69,8 +61,6 @@ During the registration process you create an integration token which is then us
 2. Configure the integration on SAP Customer Experience side.
 
 To do so, you pair the integration token with your SAP Customer Experience system.
-
-
 
 </td>
 <td valign="top">
@@ -89,14 +79,10 @@ To do so, you pair the integration token with your SAP Customer Experience syste
 
 3. Assign the SAP Customer Experience system to a formation to enable the API access to the corresponding SAP Customer Experience product's APIs.
 
-
-
 </td>
 <td valign="top">
 
 [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md)
-
-
 
 </td>
 </tr>
@@ -105,14 +91,10 @@ To do so, you pair the integration token with your SAP Customer Experience syste
 
 4.Call a registered external service using Central Application Gateway URL.
 
-
-
 </td>
 <td valign="top">
 
 [Call a registered external service from Kyma](https://kyma-project.io/docs/kyma/latest/03-tutorials/00-application-connectivity/ac-05-call-registered-service-from-kyma)
-
-
 
 </td>
 </tr>

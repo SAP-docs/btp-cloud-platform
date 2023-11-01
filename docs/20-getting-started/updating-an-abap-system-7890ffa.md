@@ -11,19 +11,21 @@ Learn how to update your ABAP environment instance.
 ## Context
 
 > ### Note:  
-> After you have created an ABAP environment instance, you can only change the ABAP system description and ABAP runtime size.
+> After you have created an ABAP environment instance, you can change the following properties:
+> 
+> -   ABAP System Description
+> 
+> -   ABAP Runtime Size
+> 
+> -   HANA Memory Size
+> 
+> -   Size of Persistence Disk
+> 
 > 
 > To change the initial admin, you have to use the *Maintain Employees* SAP Fiori app. See [Maintain Employees](../50-administration-and-ops/maintain-employees-e882b0f.md).
 
 > ### Restriction:  
-> You only have the following options to increase the ABAP runtime size:
-> 
-> -   From 1 to 2, 4, 6, or 8
-> -   From 2 to 8
-> -   From 4 to 6 or 8
-> -   From 6 to 8
-> 
-> If you want to decrease the number of ABAP runtime size, create an incident using component BC-CP-ABA.
+> The HANA memory size can currently only be increased, and not yet decreased.
 
 
 
@@ -35,9 +37,9 @@ Learn how to update your ABAP environment instance.
 
     You see a list of all instances that have been created.
 
-3.  Select your *ABAP environment* instance and choose *Update* by clicking on <span class="SAP-icons"></span> at the end of the row.
+3.  Select your *ABAP environment* instance and choose *Update* by clicking on <span class="SAP-icons"></span> at the end of the row. If you'd like to check the values that are currently configured first, please select *View Parameters* instead.
 
-4.  In the *Update Instance* wizard, you can update the description of your ABAP environment instance and the size of the ABAP runtime. See [Increasing the Quota for the ABAP Environment](increasing-the-quota-for-the-abap-environment-c40cb18.md).
+4.  In the *Update Instance* wizard, you can update the parameters listed above. See [Increasing the Quota for the ABAP Environment](increasing-the-quota-for-the-abap-environment-c40cb18.md).
 
 5.  Choose *Update Instance* to save your changes.
 

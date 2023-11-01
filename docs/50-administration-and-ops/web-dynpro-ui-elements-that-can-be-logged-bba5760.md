@@ -22,14 +22,10 @@ The table below shows all UI elements that can be logged in Web Dynpro applicati
 
 UI Element
 
-
-
 </th>
 <th valign="top">
 
 Property
-
-
 
 </th>
 </tr>
@@ -38,14 +34,10 @@ Property
 
 `TextEdit` 
 
-
-
 </td>
 <td valign="top">
 
 Value
-
-
 
 </td>
 </tr>
@@ -54,14 +46,10 @@ Value
 
 `TextView` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -70,14 +58,10 @@ Text
 
 `FormattedTextEdit` 
 
-
-
 </td>
 <td valign="top">
 
 Value
-
-
 
 </td>
 </tr>
@@ -86,8 +70,6 @@ Value
 
 `FormattedTextView` 
 
-
-
 </td>
 <td valign="top">
 
@@ -95,16 +77,12 @@ Text
 
 If *value suggest* is active, all proposed texts for this UI element that are displayed on the UI are logged.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `InputField` 
-
-
 
 </td>
 <td valign="top">
@@ -115,8 +93,6 @@ If *value suggest* is active, all proposed texts for this UI element that are di
 
 Historical values are not recorded.
 
-
-
 </td>
 </tr>
 <tr>
@@ -124,14 +100,10 @@ Historical values are not recorded.
 
 `ToolbarInputField` 
 
-
-
 </td>
 <td valign="top">
 
 Value
-
-
 
 </td>
 </tr>
@@ -140,14 +112,10 @@ Value
 
 `DropdownByIndex` 
 
-
-
 </td>
 <td valign="top">
 
 Texts
-
-
 
 </td>
 </tr>
@@ -156,14 +124,10 @@ Texts
 
 `Caption` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -172,14 +136,10 @@ Text
 
 `Button` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -188,14 +148,10 @@ Text
 
 `ToolbarButton` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -204,14 +160,10 @@ Text
 
 `ToolbarDropdownByIndex` 
 
-
-
 </td>
 <td valign="top">
 
 Texts
-
-
 
 </td>
 </tr>
@@ -220,14 +172,10 @@ Texts
 
 `LinkChoice` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -236,14 +184,10 @@ Text
 
 `ToolbarLinkChoice` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -252,14 +196,10 @@ Text
 
 `ButtonChoice` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -268,14 +208,10 @@ Text
 
 `ToolbarBtnChoice` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -284,14 +220,10 @@ Text
 
 `ToggleButton` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -300,14 +232,10 @@ Text
 
 `ToolbarToggleButton` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -316,14 +244,10 @@ Text
 
 `Checkbox` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -332,14 +256,10 @@ Text
 
 `Label` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -348,14 +268,10 @@ Text
 
 `LinkToAction` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -364,14 +280,10 @@ Text
 
 `LinkToURL` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -380,14 +292,10 @@ Text
 
 `ToolbarLinkToAction` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -396,14 +304,10 @@ Text
 
 `ToolbarLinkToURL` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -412,14 +316,10 @@ Text
 
 `FileDownload` 
 
-
-
 </td>
 <td valign="top">
 
 fileName, mimeType, text, data
-
-
 
 </td>
 </tr>
@@ -428,14 +328,10 @@ fileName, mimeType, text, data
 
 `Panel` 
 
-
-
 </td>
 <td valign="top">
 
 Title
-
-
 
 </td>
 </tr>
@@ -444,16 +340,12 @@ Title
 
 `RadioButton` 
 
-
-
 </td>
 <td valign="top">
 
 Text
 
 Selected Key
-
-
 
 </td>
 </tr>
@@ -462,14 +354,10 @@ Selected Key
 
 `RadioButtonGroupByIndex` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -478,14 +366,10 @@ Text
 
 `RadioButtonGroupByKey` 
 
-
-
 </td>
 <td valign="top">
 
 Selected Key
-
-
 
 </td>
 </tr>
@@ -494,14 +378,10 @@ Selected Key
 
 `ToggleLink` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -510,14 +390,10 @@ Text
 
 `TriStateCheckbox` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -526,14 +402,10 @@ Text
 
 `SectionHeader` 
 
-
-
 </td>
 <td valign="top">
 
 Text
-
-
 
 </td>
 </tr>
@@ -542,14 +414,10 @@ Text
 
 `DropdownByKey` 
 
-
-
 </td>
 <td valign="top">
 
 Selected Key
-
-
 
 </td>
 </tr>
@@ -558,14 +426,10 @@ Selected Key
 
 `ToolbarDropdownByKey` 
 
-
-
 </td>
 <td valign="top">
 
 Selected Key
-
-
 
 </td>
 </tr>
@@ -574,8 +438,6 @@ Selected Key
 
 `DropdownListBox` 
 
-
-
 </td>
 <td valign="top">
 
@@ -584,8 +446,6 @@ ItemText
 ItemDescription
 
 Texts
-
-
 
 </td>
 </tr>
@@ -594,8 +454,6 @@ Texts
 
 `ToolbarDropdownListBox` 
 
-
-
 </td>
 <td valign="top">
 
@@ -604,8 +462,6 @@ ItemText
 ItemDescription
 
 Texts
-
-
 
 </td>
 </tr>

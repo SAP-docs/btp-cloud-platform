@@ -24,21 +24,15 @@ In the MTA deployment descriptor, the `requires` dependency between a module and
 
 Method 1
 
-
-
 </th>
 <th valign="top">
 
 Method 2
 
-
-
 </th>
 <th valign="top">
 
 Combination of the two methods
-
-
 
 </th>
 </tr>

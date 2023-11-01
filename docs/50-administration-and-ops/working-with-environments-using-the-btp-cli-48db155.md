@@ -14,21 +14,15 @@ Use the SAP BTP command line interface \(btp CLI\) to manage runtime environment
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Run the command ...
 
-
-
 </th>
 <th valign="top">
 
 Command help
-
-
 
 </th>
 </tr>
@@ -37,21 +31,15 @@ Command help
 
 Get all available environments for a subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp list accounts/available-environment`
 
-
-
 </td>
 <td valign="top">
 
 [btp list accounts/available-environment](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-available-environment.html)
-
-
 
 </td>
 </tr>
@@ -60,21 +48,15 @@ Get all available environments for a subaccount
 
 Get details about an environment available for a subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp get accounts/available-environment`
 
-
-
 </td>
 <td valign="top">
 
 [btp get accounts/available-environment](https://help.sap.com/docs/BTP/btp-cli/btp-get-accounts-available-environment.html)
-
-
 
 </td>
 </tr>
@@ -83,21 +65,15 @@ Get details about an environment available for a subaccount
 
 Get all environment instances of a subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp list accounts/environment-instance`
 
-
-
 </td>
 <td valign="top">
 
 [btp list accounts/environment-instance](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-environment-instance.html)
-
-
 
 </td>
 </tr>
@@ -106,21 +82,15 @@ Get all environment instances of a subaccount
 
 Get a specific environment instance of a subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp get accounts/environment-instance`
 
-
-
 </td>
 <td valign="top">
 
 [btp get accounts/environment-instance](https://help.sap.com/docs/BTP/btp-cli/btp-get-accounts-environment-instance.html)
-
-
 
 </td>
 </tr>
@@ -129,21 +99,15 @@ Get a specific environment instance of a subaccount
 
 Create an environment instance in a subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp create accounts/environment-instance`
 
-
-
 </td>
 <td valign="top">
 
 [btp create accounts/environment-instance](https://help.sap.com/docs/BTP/btp-cli/btp-create-accounts-environment-instance.html)
-
-
 
 </td>
 </tr>
@@ -152,21 +116,15 @@ Create an environment instance in a subaccount
 
 Update the plan and/or configuration parameters of an environment in a subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp update accounts/environment-instance`
 
-
-
 </td>
 <td valign="top">
 
 [btp update accounts/environment-instance](https://help.sap.com/docs/BTP/btp-cli/btp-update-accounts-environment-instance.html)
-
-
 
 </td>
 </tr>
@@ -175,21 +133,15 @@ Update the plan and/or configuration parameters of an environment in a subaccoun
 
 Delete environment instances of a subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp delete accounts/environment-instance`
 
-
-
 </td>
 <td valign="top">
 
 [btp delete accounts/environment-instance](https://help.sap.com/docs/BTP/btp-cli/btp-delete-accounts-environment-instance.html)
-
-
 
 </td>
 </tr>

@@ -14,28 +14,20 @@ Describes the plans available for the SAP Usage Data Management service for SAP 
 
 Display Name
 
-
-
 </th>
 <th valign="top">
 
 Technical Service Name
-
-
 
 </th>
 <th valign="top">
 
 Service Plans
 
-
-
 </th>
 <th valign="top">
 
 Scopes
-
-
 
 </th>
 </tr>
@@ -44,14 +36,10 @@ Scopes
 
 Usage Data Management Service \(UDM\)
 
-
-
 </td>
 <td valign="top" rowspan="2">
 
 `uas`
-
-
 
 </td>
 <td valign="top">
@@ -60,14 +48,10 @@ Usage Data Management Service \(UDM\)
 
 This microservice is used to generate reports based on resource and cost consumption of a global account.
 
-
-
 </td>
 <td valign="top">
 
 `Reporting.GA_Admin`
-
-
 
 </td>
 </tr>
@@ -96,8 +80,6 @@ When you create a service instance of this plan, you have to pass the directory 
 <td valign="top">
 
 `$XSAPPNAME.reporting.Directory_Admin`
-
-
 
 </td>
 </tr>

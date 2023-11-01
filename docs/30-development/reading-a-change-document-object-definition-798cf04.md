@@ -15,21 +15,15 @@ The name of the object is assigned using the import parameter `IV_OBJECT`. The i
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -38,21 +32,15 @@ Value Help
 
 IV\_OBJECT
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Change document object name
-
-
 
 </td>
 </tr>
@@ -67,22 +55,16 @@ Change document object name
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
-
-
 
 </th>
 <th valign="top">
 
 Value Help
 
-
-
 </th>
 </tr>
 <tr>
@@ -90,21 +72,15 @@ Value Help
 
 ET\_OBJECT\_INFO
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -113,22 +89,16 @@ ET\_OBJECT\_INFO
 
  
 
-
-
 </td>
 <td valign="top">
 
 ET\_OBJECT\_INFO
-
-
 
 </td>
 <td valign="top">
 
 Name of the change document object
 
-
-
 </td>
 </tr>
 <tr>
@@ -136,22 +106,16 @@ Name of the change document object
 
  
 
-
-
 </td>
 <td valign="top">
 
 ET\_OBJECT\_INFO
-
-
 
 </td>
 <td valign="top">
 
 Generation information counter for field gen\_type
 
-
-
 </td>
 </tr>
 <tr>
@@ -159,22 +123,16 @@ Generation information counter for field gen\_type
 
  
 
-
-
 </td>
 <td valign="top">
 
 ET\_OBJECT\_INFO
-
-
 
 </td>
 <td valign="top">
 
 Generation information type technical name \(DEFINITION, GENERATION, CLASS\)
 
-
-
 </td>
 </tr>
 <tr>
@@ -182,22 +140,16 @@ Generation information type technical name \(DEFINITION, GENERATION, CLASS\)
 
  
 
-
-
 </td>
 <td valign="top">
 
 ET\_OBJECT\_INFO
-
-
 
 </td>
 <td valign="top">
 
 Generation information type text \(Definition, Generate, Class details\)
 
-
-
 </td>
 </tr>
 <tr>
@@ -205,22 +157,16 @@ Generation information type text \(Definition, Generate, Class details\)
 
  
 
-
-
 </td>
 <td valign="top">
 
 ET\_OBJECT\_INFO
-
-
 
 </td>
 <td valign="top">
 
 Line counter for field name
 
-
-
 </td>
 </tr>
 <tr>
@@ -228,22 +174,16 @@ Line counter for field name
 
  
 
-
-
 </td>
 <td valign="top">
 
 ET\_OBJECT\_INFO
-
-
 
 </td>
 <td valign="top">
 
 Information long text
 
-
-
 </td>
 </tr>
 <tr>
@@ -251,22 +191,16 @@ Information long text
 
  
 
-
-
 </td>
 <td valign="top">
 
 ET\_OBJECT\_INFO
-
-
 
 </td>
 <td valign="top">
 
 Information technical name
 
-
-
 </td>
 </tr>
 <tr>
@@ -274,21 +208,15 @@ Information technical name
 
  
 
-
-
 </td>
 <td valign="top">
 
 ET\_OBJECT\_INFO
 
-
-
 </td>
 <td valign="top">
 
 Value of the change document object
-
-
 
 </td>
 </tr>
@@ -302,14 +230,10 @@ Value of the change document object
 
 OBJECTCLASS
 
-
-
 </td>
 <td valign="top">
 
 Name of the change document object
-
-
 
 </td>
 </tr>
@@ -323,14 +247,10 @@ Name of the change document object
 
 GNR
 
-
-
 </td>
 <td valign="top">
 
 Generation information counter for field gen\_type
-
-
 
 </td>
 </tr>
@@ -344,14 +264,10 @@ Generation information counter for field gen\_type
 
 GEN\_TYPE
 
-
-
 </td>
 <td valign="top">
 
 Generation information type technical name \(DEFINITION, GENERATION, CLASS\)
-
-
 
 </td>
 </tr>
@@ -365,14 +281,10 @@ Generation information type technical name \(DEFINITION, GENERATION, CLASS\)
 
 GROUP
 
-
-
 </td>
 <td valign="top">
 
 Generation information type text \(Definition, Generate, Class details\)
-
-
 
 </td>
 </tr>
@@ -386,14 +298,10 @@ Generation information type text \(Definition, Generate, Class details\)
 
 ZNR
 
-
-
 </td>
 <td valign="top">
 
 Line counter
-
-
 
 </td>
 </tr>
@@ -407,14 +315,10 @@ Line counter
 
 INFOTEXT
 
-
-
 </td>
 <td valign="top">
 
 Information long text
-
-
 
 </td>
 </tr>
@@ -428,14 +332,10 @@ Information long text
 
 OBJ\_TYPE
 
-
-
 </td>
 <td valign="top">
 
 Information technical name
-
-
 
 </td>
 </tr>
@@ -449,14 +349,10 @@ Information technical name
 
 NAME
 
-
-
 </td>
 <td valign="top">
 
 Information value \(e.g. table name, package, user name, class name\)
-
-
 
 </td>
 </tr>

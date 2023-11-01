@@ -23,14 +23,10 @@ The entities contain the business data of the service.
 
 Entity
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -39,14 +35,10 @@ Description
 
 Jobinfo
 
-
-
 </td>
 <td valign="top">
 
 Detailed information on a single application job.
-
-
 
 </td>
 </tr>
@@ -55,14 +47,10 @@ Detailed information on a single application job.
 
 JobTemplate
 
-
-
 </td>
 <td valign="top">
 
 Information on an application job template.
-
-
 
 </td>
 </tr>
@@ -71,14 +59,10 @@ Information on an application job template.
 
 JobScheduleStatus
 
-
-
 </td>
 <td valign="top">
 
 Information on a scheduled job.
-
-
 
 </td>
 </tr>
@@ -87,14 +71,10 @@ Information on a scheduled job.
 
 FuncImpReturn
 
-
-
 </td>
 <td valign="top">
 
 Return code.
-
-
 
 </td>
 </tr>

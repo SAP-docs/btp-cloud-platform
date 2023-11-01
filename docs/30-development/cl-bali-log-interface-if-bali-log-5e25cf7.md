@@ -19,14 +19,10 @@ Create an instance of the log class:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -35,8 +31,6 @@ Description
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -44,14 +38,10 @@ Description
 
 LOG
 
-
-
 </td>
 <td valign="top">
 
 Log object: A reference to interface IF\_BALI\_LOG
-
-
 
 </td>
 </tr>
@@ -60,8 +50,6 @@ Log object: A reference to interface IF\_BALI\_LOG
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
@@ -69,14 +57,10 @@ Log object: A reference to interface IF\_BALI\_LOG
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>
@@ -95,14 +79,10 @@ Create an instance of the log class and set the header:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -111,8 +91,6 @@ Description
 
 **Importing parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -120,14 +98,10 @@ Description
 
 HEADER
 
-
-
 </td>
 <td valign="top">
 
 Header which is put into the log: Reference to interface IF\_BALI\_HEADER\_SETTER
-
-
 
 </td>
 </tr>
@@ -136,8 +110,6 @@ Header which is put into the log: Reference to interface IF\_BALI\_HEADER\_SETTE
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -145,14 +117,10 @@ Header which is put into the log: Reference to interface IF\_BALI\_HEADER\_SETTE
 
 LOG
 
-
-
 </td>
 <td valign="top">
 
 Log object: A reference to interface IF\_BALI\_LOG
-
-
 
 </td>
 </tr>
@@ -161,16 +129,12 @@ Log object: A reference to interface IF\_BALI\_LOG
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
-
-
 
 </td>
 <td valign="top">
@@ -179,8 +143,6 @@ ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>OBJECT\_NOT\_ALLOWED:
 
 Access to the log object of the header is not allowed
 
-
-
 </td>
 </tr>
 <tr>
@@ -188,14 +150,10 @@ Access to the log object of the header is not allowed
 
 CX\_BALI\_INVALID\_PARAMETER
 
-
-
 </td>
 <td valign="top">
 
 The log object or subobject of the header don't exist
-
-
 
 </td>
 </tr>
@@ -204,14 +162,10 @@ The log object or subobject of the header don't exist
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>
@@ -230,14 +184,10 @@ Get the log handle which is the unique identifier of the log:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -246,8 +196,6 @@ Description
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -255,14 +203,10 @@ Description
 
 HANDLE
 
-
-
 </td>
 <td valign="top">
 
 Log handle
-
-
 
 </td>
 </tr>
@@ -281,14 +225,10 @@ Get the log header:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -297,8 +237,6 @@ Description
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -306,14 +244,10 @@ Description
 
 HEADER
 
-
-
 </td>
 <td valign="top">
 
 Log header: References to interface IF\_BALI\_HEADER\_GETTER
-
-
 
 </td>
 </tr>
@@ -322,16 +256,12 @@ Log header: References to interface IF\_BALI\_HEADER\_GETTER
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
-
-
 
 </td>
 <td valign="top">
@@ -340,8 +270,6 @@ ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED:
 
 The memory of the log was released. The log can't be used
 
-
-
 </td>
 </tr>
 <tr>
@@ -349,14 +277,10 @@ The memory of the log was released. The log can't be used
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>
@@ -375,14 +299,10 @@ Set the log header:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -391,8 +311,6 @@ Description
 
 **Importing parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -400,14 +318,10 @@ Description
 
 HEADER
 
-
-
 </td>
 <td valign="top">
 
 Header which is put into the log: References to interface IF\_BALI\_HEADER\_SETTER
-
-
 
 </td>
 </tr>
@@ -416,16 +330,12 @@ Header which is put into the log: References to interface IF\_BALI\_HEADER\_SETT
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
-
-
 
 </td>
 <td valign="top">
@@ -448,14 +358,10 @@ CX\_BALI\_NOT\_POSSIBLE
 
 CX\_BALI\_INVALID\_PARAMETER
 
-
-
 </td>
 <td valign="top">
 
 The log object or subobject of the header don't exist
-
-
 
 </td>
 </tr>
@@ -464,14 +370,10 @@ The log object or subobject of the header don't exist
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>
@@ -490,14 +392,10 @@ Add an item \(e.g. a message\) to the log:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -506,8 +404,6 @@ Description
 
 **Importing parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -515,14 +411,10 @@ Description
 
 ITEM
 
-
-
 </td>
 <td valign="top">
 
 Item which is added: Reference to interface IF\_BALI\_ITEM\_SETTER
-
-
 
 </td>
 </tr>
@@ -531,16 +423,12 @@ Item which is added: Reference to interface IF\_BALI\_ITEM\_SETTER
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
-
-
 
 </td>
 <td valign="top">
@@ -563,14 +451,10 @@ CX\_BALI\_NOT\_POSSIBLE
 
 CX\_BALI\_INVALID\_PARAMETER
 
-
-
 </td>
 <td valign="top">
 
 The log object or subobject of the header don't exist
-
-
 
 </td>
 </tr>
@@ -579,14 +463,10 @@ The log object or subobject of the header don't exist
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>
@@ -608,14 +488,10 @@ If the item is a message, it's checked whether the log already contains another 
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -624,8 +500,6 @@ Description
 
 **Importing parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -633,14 +507,10 @@ Description
 
 ITEM
 
-
-
 </td>
 <td valign="top">
 
 Item which is cumulated or added: Reference to interface IF\_BALI\_ITEM\_SETTER
-
-
 
 </td>
 </tr>
@@ -649,16 +519,12 @@ Item which is cumulated or added: Reference to interface IF\_BALI\_ITEM\_SETTER
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
-
-
 
 </td>
 <td valign="top">
@@ -681,14 +547,10 @@ CX\_BALI\_NOT\_POSSIBLE
 
 CX\_BALI\_INVALID\_PARAMETER
 
-
-
 </td>
 <td valign="top">
 
 The log object or subobject of the header don't exist
-
-
 
 </td>
 </tr>
@@ -697,14 +559,10 @@ The log object or subobject of the header don't exist
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>
@@ -726,14 +584,10 @@ Add all messages from an internal table of type `BAPIRETTAB` table to the log:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -742,8 +596,6 @@ Description
 
 **Importing parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -751,14 +603,10 @@ Description
 
 MESSAGE\_TABLE
 
-
-
 </td>
 <td valign="top">
 
 An internal table with messages which use type BAPIRETTAB
-
-
 
 </td>
 </tr>
@@ -767,16 +615,12 @@ An internal table with messages which use type BAPIRETTAB
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
-
-
 
 </td>
 <td valign="top">
@@ -799,14 +643,10 @@ CX\_BALI\_NOT\_POSSIBLE
 
 CX\_BALI\_INVALID\_PARAMETER
 
-
-
 </td>
 <td valign="top">
 
 The message ID of one of the messages is initial
-
-
 
 </td>
 </tr>
@@ -815,14 +655,10 @@ The message ID of one of the messages is initial
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>
@@ -844,14 +680,10 @@ Add a message from the ABAP Restful Application Programming Model \(interface IF
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -860,8 +692,6 @@ Description
 
 **Importing parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -869,14 +699,10 @@ Description
 
 MESSAGE
 
-
-
 </td>
 <td valign="top">
 
 A reference to the interface IF\_ABAP\_BEHV\_MESSAGE
-
-
 
 </td>
 </tr>
@@ -885,16 +711,12 @@ A reference to the interface IF\_ABAP\_BEHV\_MESSAGE
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
-
-
 
 </td>
 <td valign="top">
@@ -913,14 +735,10 @@ CX\_BALI\_NOT\_POSSIBLE
 
 CX\_BALI\_INVALID\_PARAMETER
 
-
-
 </td>
 <td valign="top">
 
 The message ID of the messages is initial
-
-
 
 </td>
 </tr>
@@ -929,14 +747,10 @@ The message ID of the messages is initial
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>
@@ -955,14 +769,10 @@ Add all items from another log to this log:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -971,8 +781,6 @@ Description
 
 **Importing parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -980,14 +788,10 @@ Description
 
 SOURCE\_LOG
 
-
-
 </td>
 <td valign="top">
 
 Reference to the log whose items are to be copied
-
-
 
 </td>
 </tr>
@@ -996,16 +800,12 @@ Reference to the log whose items are to be copied
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 CX\_BALI\_NOT\_POSSIBLE
-
-
 
 </td>
 <td valign="top">
@@ -1024,14 +824,10 @@ CX\_BALI\_NOT\_POSSIBLE
 
 CX\_BALI\_INVALID\_PARAMETER
 
-
-
 </td>
 <td valign="top">
 
 The source log is invalid. It contains a log handle which doesn't exist
-
-
 
 </td>
 </tr>
@@ -1040,14 +836,10 @@ The source log is invalid. It contains a log handle which doesn't exist
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>
@@ -1069,14 +861,10 @@ Add an item filter to the log. The item filter is checked before an item is adde
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -1085,8 +873,6 @@ Description
 
 **Importing parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -1094,14 +880,10 @@ Description
 
 FILTER
 
-
-
 </td>
 <td valign="top">
 
 A reference to the item filter
-
-
 
 </td>
 </tr>
@@ -1110,8 +892,6 @@ A reference to the item filter
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
@@ -1119,14 +899,10 @@ A reference to the item filter
 
 CX\_BALI\_NOT\_POSSIBLE
 
-
-
 </td>
 <td valign="top">
 
 ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED: The memory of the log was released. The log can't be used
-
-
 
 </td>
 </tr>
@@ -1152,14 +928,10 @@ Get the item filter which was set using SET\_FILTER\_FOR\_ADD\_ITEM.
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -1168,8 +940,6 @@ Description
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -1177,14 +947,10 @@ Description
 
 FILTER
 
-
-
 </td>
 <td valign="top">
 
 A reference to the item filter which is currently used by the log
-
-
 
 </td>
 </tr>
@@ -1193,8 +959,6 @@ A reference to the item filter which is currently used by the log
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
@@ -1202,14 +966,10 @@ A reference to the item filter which is currently used by the log
 
 CX\_BALI\_NOT\_POSSIBLE
 
-
-
 </td>
 <td valign="top">
 
 ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED: The memory of the log was released. The log can't be used
-
-
 
 </td>
 </tr>
@@ -1228,14 +988,10 @@ Get a single item from the log:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -1244,8 +1000,6 @@ Description
 
 **Importing parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -1253,14 +1007,10 @@ Description
 
 LOG\_ITEM\_NUMBER
 
-
-
 </td>
 <td valign="top">
 
 Serial number of the item which shall be read \(it is the position of the item in the log\)
-
-
 
 </td>
 </tr>
@@ -1269,8 +1019,6 @@ Serial number of the item which shall be read \(it is the position of the item i
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -1278,14 +1026,10 @@ Serial number of the item which shall be read \(it is the position of the item i
 
 ITEM
 
-
-
 </td>
 <td valign="top">
 
 Item which was read: Reference to interface IF\_BALI\_ITEM\_GETTER
-
-
 
 </td>
 </tr>
@@ -1294,8 +1038,6 @@ Item which was read: Reference to interface IF\_BALI\_ITEM\_GETTER
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
@@ -1303,14 +1045,10 @@ Item which was read: Reference to interface IF\_BALI\_ITEM\_GETTER
 
 CX\_BALI\_NOT\_FOUND
 
-
-
 </td>
 <td valign="top">
 
 An item with the requested log item number does not exist
-
-
 
 </td>
 </tr>
@@ -1319,14 +1057,10 @@ An item with the requested log item number does not exist
 
 CX\_BALI\_NOT\_POSSIBLE
 
-
-
 </td>
 <td valign="top">
 
 ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED: The memory of the log was released. The log can't be used
-
-
 
 </td>
 </tr>
@@ -1335,14 +1069,10 @@ ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED: The memory of the 
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>
@@ -1361,14 +1091,10 @@ Get all items from the log:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -1377,16 +1103,12 @@ Description
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 ITEM\_TABLE
-
-
 
 </td>
 <td valign="top">
@@ -1407,8 +1129,6 @@ Table of all items which are stored in the log. The table has the following stru
 
 **Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
 
-
-
 </td>
 </tr>
 <tr>
@@ -1416,14 +1136,10 @@ Table of all items which are stored in the log. The table has the following stru
 
 CX\_BALI\_NOT\_FOUND
 
-
-
 </td>
 <td valign="top">
 
 No item was found in the log
-
-
 
 </td>
 </tr>
@@ -1432,14 +1148,10 @@ No item was found in the log
 
 CX\_BALI\_NOT\_POSSIBLE
 
-
-
 </td>
 <td valign="top">
 
 ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED: The memory of the log was released. The log can't be used
-
-
 
 </td>
 </tr>
@@ -1448,14 +1160,10 @@ ERROR\_CODE: CX\_BALI\_NOT\_POSSIBLE=\>LOG\_WAS\_INVALIDATED: The memory of the 
 
 CX\_BALI\_INTERNAL\_ERROR
 
-
-
 </td>
 <td valign="top">
 
 Internal error during processing
-
-
 
 </td>
 </tr>
@@ -1482,14 +1190,10 @@ Check whether the memory of the log was released in order to verify that the log
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -1498,8 +1202,6 @@ Description
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -1507,14 +1209,10 @@ Description
 
 IS\_INVALIDATED
 
-
-
 </td>
 <td valign="top">
 
 If set, the log is invalidated and can no longer be used
-
-
 
 </td>
 </tr>

@@ -21,8 +21,6 @@ A typical index-based solution needs a transparent table containing columns for 
 
 `CL_ARCH_READ_API` \(API to read archived data\)
 
-
-
 </th>
 </tr>
 <tr>
@@ -30,21 +28,15 @@ A typical index-based solution needs a transparent table containing columns for 
 
 *Method*
 
-
-
 </td>
 <td valign="top">
 
 *Parameter*
 
-
-
 </td>
 <td valign="top">
 
 *Description*
-
-
 
 </td>
 </tr>
@@ -55,21 +47,15 @@ A typical index-based solution needs a transparent table containing columns for 
 
 Selection of archiving sessions and files
 
-
-
 </td>
 <td valign="top">
 
 Importing: <code><i>IT_DATE_SELECTION</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Range on dates on which archive files have been created
-
-
 
 </td>
 </tr>
@@ -78,14 +64,10 @@ Range on dates on which archive files have been created
 
 Importing:<code><i>IT_USER_SELECTION</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Range on users which have created archive files
-
-
 
 </td>
 </tr>
@@ -94,14 +76,10 @@ Range on users which have created archive files
 
 Importing:<code><i>IT_ARCHIVING_OBJECT</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Archiving object which will be used
-
-
 
 </td>
 </tr>
@@ -110,14 +88,10 @@ Archiving object which will be used
 
 Returning:<code><i>RT_ARCHIVING_FILE_ATTRIBUTES</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Archiving sessions' attributes
-
-
 
 </td>
 </tr>
@@ -128,21 +102,15 @@ Archiving sessions' attributes
 
 Returns an instance of the delete API. Reference to interface `IF_ARCH_READ_API`
 
-
-
 </td>
 <td valign="top">
 
 Importing: <code><i>IV_ARCHIVING_OBJECT</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Name of the archiving object which will be used
-
-
 
 </td>
 </tr>
@@ -151,14 +119,10 @@ Name of the archiving object which will be used
 
 Importing: <code><i>IV_ARCHIVING_SESSION</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Sessions of the archiving object which will be used
-
-
 
 </td>
 </tr>
@@ -167,14 +131,10 @@ Sessions of the archiving object which will be used
 
 Importing: <code><i>IT_ARCHIVE_KEY</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Archive key for which data should be read
-
-
 
 </td>
 </tr>
@@ -183,14 +143,10 @@ Archive key for which data should be read
 
 Returning: <code><i>RO_READ_INSTANCE</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Instance of the read API for further processing
-
-
 
 </td>
 </tr>
@@ -203,8 +159,6 @@ Instance of the read API for further processing
 
 `IF_ARCH_READ_API` \(Interface to read archived data\)
 
-
-
 </th>
 </tr>
 <tr>
@@ -212,21 +166,15 @@ Instance of the read API for further processing
 
 *Method*
 
-
-
 </td>
 <td valign="top">
 
 *Parameter*
 
-
-
 </td>
 <td valign="top">
 
 *Description*
-
-
 
 </td>
 </tr>
@@ -237,21 +185,15 @@ Instance of the read API for further processing
 
 Read records by structure from the current data object
 
-
-
 </td>
 <td valign="top">
 
 Importing: <code><i>IV_RECORDS_STRUCTURE</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Name of the structure of all data records in the table
-
-
 
 </td>
 </tr>
@@ -260,14 +202,10 @@ Name of the structure of all data records in the table
 
 Exporting:<code><i>EV_DATA_RECORDS</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Table containing the data records
-
-
 
 </td>
 </tr>
@@ -278,21 +216,15 @@ Table containing the data records
 
 Read data object from the archive file
 
-
-
 </td>
 <td valign="top">
 
 Exporting: <code><i>EV_ARCHIVE_KEY</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Archive key according to archive management
-
-
 
 </td>
 </tr>
@@ -300,8 +232,6 @@ Archive key according to archive management
 <td valign="top">
 
 Exporting: <code><i>EV_END_OF_FILE</i></code>
-
-
 
 </td>
 <td valign="top">
@@ -312,8 +242,6 @@ Boolean values:
 
 *FALSE* \(= ‘ ‘\)
 
-
-
 </td>
 </tr>
 <tr>
@@ -321,14 +249,10 @@ Boolean values:
 
 Exporting: <code><i>EV_ARCHIVING_SESSION</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Sessions of the archiving object which will be used
-
-
 
 </td>
 </tr>
@@ -337,14 +261,10 @@ Sessions of the archiving object which will be used
 
 Exporting: <code><i>EV_OBJECT_OFFSET</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Offset of data object in the archive
-
-
 
 </td>
 </tr>
@@ -355,21 +275,15 @@ Offset of data object in the archive
 
 Open archive files will be closed
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>

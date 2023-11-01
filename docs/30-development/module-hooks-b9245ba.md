@@ -51,22 +51,16 @@ Depending on the deployment strategy you use, the `phases` values are:
     <th valign="top">
 
     Phase
-
-
     
     </th>
     <th valign="top">
 
     Supported for types
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -74,22 +68,16 @@ Depending on the deployment strategy you use, the `phases` values are:
     <td valign="top">
     
     `deploy.application.before-stop`
-
-
     
     </td>
     <td valign="top">
     
     `task`
-
-
     
     </td>
     <td valign="top">
     
     Executed before the application corresponding to the module is stopped.
-
-
     
     </td>
     </tr>
@@ -97,22 +85,16 @@ Depending on the deployment strategy you use, the `phases` values are:
     <td valign="top">
     
     `deploy.application.after-stop`
-
-
     
     </td>
     <td valign="top">
     
     `task`
-
-
     
     </td>
     <td valign="top">
     
     Executed after the application corresponding to the module is stopped.
-
-
     
     </td>
     </tr>
@@ -120,22 +102,16 @@ Depending on the deployment strategy you use, the `phases` values are:
     <td valign="top">
     
     `deploy.application.before-start`
-
-
     
     </td>
     <td valign="top">
     
     `task`
-
-
     
     </td>
     <td valign="top">
     
     Executed before the application corresponding to the module is started.
-
-
     
     </td>
     </tr>
@@ -149,22 +125,16 @@ Depending on the deployment strategy you use, the `phases` values are:
     <th valign="top">
 
     Phase
-
-
     
     </th>
     <th valign="top">
 
     Supported for types
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -172,22 +142,16 @@ Depending on the deployment strategy you use, the `phases` values are:
     <td valign="top">
     
     `blue-green.application.before-stop.idle` 
-
-
     
     </td>
     <td valign="top">
     
     `task`
-
-
     
     </td>
     <td valign="top">
     
     Executed before the idle application corresponding to the module is stopped. Idle applications are created as part of blue-green deployments and are restarted \(stopped and started again\) after the deployment validation phase of their productization. That is after the live routes are mapped to them and their environments are rebuilt to contain only live routes.
-
-
     
     </td>
     </tr>
@@ -195,22 +159,16 @@ Depending on the deployment strategy you use, the `phases` values are:
     <td valign="top">
     
     `blue-green.application.before-stop.live`
-
-
     
     </td>
     <td valign="top">
     
     `task`
-
-
     
     </td>
     <td valign="top">
     
     Executed before the live application corresponding to the module is stopped. Live applications are the ones that are already up and running before the deployment starts.
-
-
     
     </td>
     </tr>
@@ -218,22 +176,16 @@ Depending on the deployment strategy you use, the `phases` values are:
     <td valign="top">
     
     `blue-green.application.after-stop.idle`
-
-
     
     </td>
     <td valign="top">
     
     `task`
-
-
     
     </td>
     <td valign="top">
     
     Executed after the idle application corresponding to the module is stopped.
-
-
     
     </td>
     </tr>
@@ -241,22 +193,16 @@ Depending on the deployment strategy you use, the `phases` values are:
     <td valign="top">
     
     `blue-green.application.after-stop.live`
-
-
     
     </td>
     <td valign="top">
     
     `task`
-
-
     
     </td>
     <td valign="top">
     
     Executed after the live application corresponding to the module is stopped.
-
-
     
     </td>
     </tr>
@@ -264,22 +210,16 @@ Depending on the deployment strategy you use, the `phases` values are:
     <td valign="top">
     
     `blue-green.application.before-unmap-routes.live`
-
-
     
     </td>
     <td valign="top">
     
     `task`
-
-
     
     </td>
     <td valign="top">
     
     Executed before unmapping the route of the live application that corresponds to the module.
-
-
     
     </td>
     </tr>
@@ -287,22 +227,16 @@ Depending on the deployment strategy you use, the `phases` values are:
     <td valign="top">
     
     `blue-green.application.before-start.idle`
-
-
     
     </td>
     <td valign="top">
     
     `task`
-
-
     
     </td>
     <td valign="top">
     
     Executed before the idle application corresponding to the module is started.
-
-
     
     </td>
     </tr>
@@ -310,22 +244,16 @@ Depending on the deployment strategy you use, the `phases` values are:
     <td valign="top">
     
     `blue-green.application.before-start.live`
-
-
     
     </td>
     <td valign="top">
     
     `task`
-
-
     
     </td>
     <td valign="top">
     
     Executed before the live application corresponding to the module is started.
-
-
     
     </td>
     </tr>
@@ -349,35 +277,25 @@ The table below contains the parameters of the supported module hook types:
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Is It Mandatory?
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Default Value
 
-
-
 </th>
 <th valign="top">
 
 Example
-
-
 
 </th>
 </tr>
@@ -386,35 +304,25 @@ Example
 
 `name`
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
 
 Defines the name of the Cloud Foundry task that should be executed.
 
-
-
 </td>
 <td valign="top">
 
 The name of the hook.
 
-
-
 </td>
 <td valign="top">
 
 `name: db_migration`
-
-
 
 </td>
 </tr>
@@ -423,35 +331,25 @@ The name of the hook.
 
 `command`
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 Defines the actual command that is executed as a Cloud Foundry task.
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 `command: "bin/rails db:migrate"`
-
-
 
 </td>
 </tr>
@@ -460,21 +358,15 @@ Defines the actual command that is executed as a Cloud Foundry task.
 
 `memory`
 
-
-
 </td>
 <td valign="top" rowspan="2">
 
 No
 
-
-
 </td>
 <td valign="top" rowspan="2">
 
 Defines the memory that is available to the Cloud Foundry task.
-
-
 
 </td>
 <td valign="top" rowspan="2">
@@ -491,16 +383,12 @@ Landscape specific value that is equal to the default application memory.
 
 `memory: 256M`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `memory: 1G`
-
-
 
 </td>
 </tr>
@@ -509,21 +397,15 @@ Landscape specific value that is equal to the default application memory.
 
 `disk-quota`
 
-
-
 </td>
 <td valign="top" rowspan="2">
 
 No
 
-
-
 </td>
 <td valign="top" rowspan="2">
 
 Defines the disk space that is available to the Cloud Foundry task.
-
-
 
 </td>
 <td valign="top" rowspan="2">
@@ -540,16 +422,12 @@ Landscape specific value that is equal to the default application disk quota.
 
 `disk-quota: 256M`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `disk-quota: 1G`
-
-
 
 </td>
 </tr>

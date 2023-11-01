@@ -55,14 +55,10 @@ The `READ_TO_XML` method retrieves the data structure of the service definition 
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Definition
-
-
 
 </th>
 </tr>
@@ -71,14 +67,10 @@ Definition
 
 `IT_SELECT` 
 
-
-
 </td>
 <td valign="top">
 
 Key parameters
-
-
 
 </td>
 </tr>
@@ -87,14 +79,10 @@ Key parameters
 
 `IV_LANGUAGE` \(Optional\)
 
-
-
 </td>
 <td valign="top">
 
 Overwrites the locale language \(useful if you want to control how dynamic values \(e.g. unites\) are resolved
-
-
 
 </td>
 </tr>
@@ -111,14 +99,10 @@ The `READ_TO_XML` method has the following returning parameters:
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Definition
-
-
 
 </th>
 </tr>
@@ -127,14 +111,10 @@ Definition
 
 `RV_XML` 
 
-
-
 </td>
 <td valign="top">
 
 Resulting XML as XSTRING
-
-
 
 </td>
 </tr>
@@ -169,14 +149,10 @@ The `GET_XSD` method retrieves the XML Schema Definition \(XSD\) for the service
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Definition
-
-
 
 </th>
 </tr>
@@ -185,14 +161,10 @@ Definition
 
 `RV_XML` 
 
-
-
 </td>
 <td valign="top">
 
 Resulting XSD as XSTRING
-
-
 
 </td>
 </tr>

@@ -15,21 +15,15 @@ Method `CHANGEDOCUMENT_READ` reads the change documents for one change document 
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -38,21 +32,15 @@ Value Help
 
 ET\_CDREDADD\_TAB
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Table type for structure `CDREDADD`, change documents return table
-
-
 
 </td>
 </tr>
@@ -61,21 +49,15 @@ Table type for structure `CDREDADD`, change documents return table
 
 I\_OBJECTCLAS
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Name of change document object
-
-
 
 </td>
 </tr>
@@ -84,21 +66,15 @@ Name of change document object
 
 IT\_OBJECTID
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Range table of application object IDs
-
-
 
 </td>
 </tr>
@@ -107,21 +83,15 @@ Range table of application object IDs
 
 I\_DATE\_OF\_CHANGE
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 From-change date for search. All change documents are selected written on the specified date or later are found.
-
-
 
 </td>
 </tr>
@@ -130,21 +100,15 @@ From-change date for search. All change documents are selected written on the sp
 
 I\_TIME\_OF\_CHANGE
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 From-change time for search. If no change time is specified, a selection is made from the time '000000'.
-
-
 
 </td>
 </tr>
@@ -153,21 +117,15 @@ From-change time for search. If no change time is specified, a selection is made
 
 I\_DATE\_UNTIL
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Change date up to which you want to search. All change documents are selected written up to and including this date.
-
-
 
 </td>
 </tr>
@@ -176,21 +134,15 @@ Change date up to which you want to search. All change documents are selected wr
 
 I\_TIME\_UNTIL
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Latest change time in search. Time to which change documents are read on the "To" change date. If no time is passed, all change documents on the "To" change date are read.
-
-
 
 </td>
 </tr>
@@ -199,21 +151,15 @@ Latest change time in search. Time to which change documents are read on the "To
 
 IT\_USERNAME
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Username of the person responsible in change document. Only those change documents are selected that document changes made by this user. If no user name is passed, change documents are read for all users.
-
-
 
 </td>
 </tr>
@@ -222,14 +168,10 @@ Username of the person responsible in change document. Only those change documen
 
 IS\_READ\_OPTIONS
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
@@ -242,22 +184,16 @@ IS\_READ\_OPTIONS
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 local\_time
 
-
-
 </td>
 <td valign="top">
 
 If it is set, the date and time information in the formatted change documents is displayed in the local time of the user.
-
-
 
 </td>
 </tr>
@@ -266,14 +202,10 @@ If it is set, the date and time information in the formatted change documents is
 
  
 
-
-
 </td>
 <td valign="top">
 
 time\_zone
-
-
 
 </td>
 <td valign="top">
@@ -284,8 +216,6 @@ If it contains a time zone, this zone is used as the time zone in which the chan
 
 If the change documents were saved in CET, the parameter must be set to CET.
 
-
-
 </td>
 </tr>
 <tr>
@@ -293,14 +223,10 @@ If the change documents were saved in CET, the parameter must be set to CET.
 
  
 
-
-
 </td>
 <td valign="top">
 
 it\_changenr
-
-
 
 </td>
 <td valign="top">
@@ -309,8 +235,6 @@ Range table for change document number. Change document numbers were created int
 
 Change documents numbers were received by export paramter `CHANGENUMBER`.
 
-
-
 </td>
 </tr>
 <tr>
@@ -318,21 +242,15 @@ Change documents numbers were received by export paramter `CHANGENUMBER`.
 
  
 
-
-
 </td>
 <td valign="top">
 
 only\_headers
 
-
-
 </td>
 <td valign="top">
 
 Only return the change document header information without the position
-
-
 
 </td>
 </tr>
@@ -341,21 +259,15 @@ Only return the change document header information without the position
 
 IV\_READ\_ARCHIVE
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Control the interface to read change documents from the archive, too
-
-
 
 </td>
 </tr>
@@ -370,21 +282,15 @@ Control the interface to read change documents from the archive, too
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Field Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -398,14 +304,10 @@ Value Help
 
 OBJECTCLAS
 
-
-
 </td>
 <td valign="top">
 
 Name of Change Document Object
-
-
 
 </td>
 </tr>
@@ -419,14 +321,10 @@ Name of Change Document Object
 
 OBJECTID
 
-
-
 </td>
 <td valign="top">
 
 Object ID of application object
-
-
 
 </td>
 </tr>
@@ -440,14 +338,10 @@ Object ID of application object
 
 OBJECTID\_DB
 
-
-
 </td>
 <td valign="top">
 
 Object value
-
-
 
 </td>
 </tr>
@@ -461,14 +355,10 @@ Object value
 
 CHANGENR
 
-
-
 </td>
 <td valign="top">
 
 Change Number of Document
-
-
 
 </td>
 </tr>
@@ -482,14 +372,10 @@ Change Number of Document
 
 OBJECTTXT
 
-
-
 </td>
 <td valign="top">
 
 Object Description
-
-
 
 </td>
 </tr>
@@ -503,14 +389,10 @@ Object Description
 
 USERNAME
 
-
-
 </td>
 <td valign="top">
 
 Username of the person responsible in change document
-
-
 
 </td>
 </tr>
@@ -524,14 +406,10 @@ Username of the person responsible in change document
 
 USERNAME\_DB
 
-
-
 </td>
 <td valign="top">
 
 Username of the person responsible in change document
-
-
 
 </td>
 </tr>
@@ -545,14 +423,10 @@ Username of the person responsible in change document
 
 UDATE
 
-
-
 </td>
 <td valign="top">
 
 Creation date of the change document
-
-
 
 </td>
 </tr>
@@ -566,14 +440,10 @@ Creation date of the change document
 
 UDATE\_DB
 
-
-
 </td>
 <td valign="top">
 
 Creation date of the change document
-
-
 
 </td>
 </tr>
@@ -587,14 +457,10 @@ Creation date of the change document
 
 UTIME
 
-
-
 </td>
 <td valign="top">
 
 Time changed
-
-
 
 </td>
 </tr>
@@ -608,14 +474,10 @@ Time changed
 
 UTIME\_DB
 
-
-
 </td>
 <td valign="top">
 
 Time changed
-
-
 
 </td>
 </tr>
@@ -629,14 +491,10 @@ Time changed
 
 TCODE
 
-
-
 </td>
 <td valign="top">
 
 Transaction in which a change was made
-
-
 
 </td>
 </tr>
@@ -650,14 +508,10 @@ Transaction in which a change was made
 
 APPLNAME
 
-
-
 </td>
 <td valign="top">
 
 Application Object
-
-
 
 </td>
 </tr>
@@ -671,14 +525,10 @@ Application Object
 
 APPLTYPE
 
-
-
 </td>
 <td valign="top">
 
 Application Type
-
-
 
 </td>
 </tr>
@@ -692,14 +542,10 @@ Application Type
 
 TABNAME
 
-
-
 </td>
 <td valign="top">
 
 Change document creation: Table name
-
-
 
 </td>
 </tr>
@@ -713,14 +559,10 @@ Change document creation: Table name
 
 TABNAME\_DB
 
-
-
 </td>
 <td valign="top">
 
 Change document creation: Table name
-
-
 
 </td>
 </tr>
@@ -734,14 +576,10 @@ Change document creation: Table name
 
 TABKEY
 
-
-
 </td>
 <td valign="top">
 
 Key of Changed Table Line
-
-
 
 </td>
 </tr>
@@ -755,14 +593,10 @@ Key of Changed Table Line
 
 TABKEY\_DB
 
-
-
 </td>
 <td valign="top">
 
 Key of Changed Table Line
-
-
 
 </td>
 </tr>
@@ -776,14 +610,10 @@ Key of Changed Table Line
 
 KEYLEN
 
-
-
 </td>
 <td valign="top">
 
 Table key length
-
-
 
 </td>
 </tr>
@@ -797,14 +627,10 @@ Table key length
 
 CHNGIND
 
-
-
 </td>
 <td valign="top">
 
 Type of Change
-
-
 
 </td>
 </tr>
@@ -818,14 +644,10 @@ Type of Change
 
 FNAME
 
-
-
 </td>
 <td valign="top">
 
 Field Name
-
-
 
 </td>
 </tr>
@@ -839,14 +661,10 @@ Field Name
 
 FNAME\_DB
 
-
-
 </td>
 <td valign="top">
 
 Field Name
-
-
 
 </td>
 </tr>
@@ -860,14 +678,10 @@ Field Name
 
 FTEXT
 
-
-
 </td>
 <td valign="top">
 
 Explanatory Short Text
-
-
 
 </td>
 </tr>
@@ -881,14 +695,10 @@ Explanatory Short Text
 
 TEXTART
 
-
-
 </td>
 <td valign="top">
 
 Create change document: Text type
-
-
 
 </td>
 </tr>
@@ -902,14 +712,10 @@ Create change document: Text type
 
 SPRACHE
 
-
-
 </td>
 <td valign="top">
 
 Language Key
-
-
 
 </td>
 </tr>
@@ -923,14 +729,10 @@ Language Key
 
 TEXT\_CASE
 
-
-
 </td>
 <td valign="top">
 
 Text change flag \('X'\)
-
-
 
 </td>
 </tr>
@@ -944,14 +746,10 @@ Text change flag \('X'\)
 
 OUTLEN
 
-
-
 </td>
 <td valign="top">
 
 Output length of the old and new value
-
-
 
 </td>
 </tr>
@@ -965,14 +763,10 @@ Output length of the old and new value
 
 F\_OLD
 
-
-
 </td>
 <td valign="top">
 
 Old contents of changed field
-
-
 
 </td>
 </tr>
@@ -986,14 +780,10 @@ Old contents of changed field
 
 F\_NEW
 
-
-
 </td>
 <td valign="top">
 
 New contents of changed field
-
-
 
 </td>
 </tr>
@@ -1007,14 +797,10 @@ New contents of changed field
 
 F\_NEW\_DB
 
-
-
 </td>
 <td valign="top">
 
 New contents of changed field
-
-
 
 </td>
 </tr>
@@ -1028,14 +814,10 @@ New contents of changed field
 
 VALUE\_OLD
 
-
-
 </td>
 <td valign="top">
 
 Old Extended Value \(Long\)
-
-
 
 </td>
 </tr>
@@ -1049,14 +831,10 @@ Old Extended Value \(Long\)
 
 VALUE\_OLD\_DB
 
-
-
 </td>
 <td valign="top">
 
 Old Extended Value \(Long\)
-
-
 
 </td>
 </tr>
@@ -1070,14 +848,10 @@ Old Extended Value \(Long\)
 
 VALUE\_NEW
 
-
-
 </td>
 <td valign="top">
 
 New Extended Value \(Long\)
-
-
 
 </td>
 </tr>
@@ -1091,14 +865,10 @@ New Extended Value \(Long\)
 
 VALUE\_NEW\_DB
 
-
-
 </td>
 <td valign="top">
 
 New Extended Value \(Long\)
-
-
 
 </td>
 </tr>
@@ -1112,14 +882,10 @@ New Extended Value \(Long\)
 
 VALUE\_RAWSTR\_OLD
 
-
-
 </td>
 <td valign="top">
 
 Old Change Document Value for RAWSTRING Variable
-
-
 
 </td>
 </tr>
@@ -1133,14 +899,10 @@ Old Change Document Value for RAWSTRING Variable
 
 VALUE\_RAWSTR\_OLD\_DB
 
-
-
 </td>
 <td valign="top">
 
 Old Change Document Value for RAWSTRING Variable
-
-
 
 </td>
 </tr>
@@ -1154,14 +916,10 @@ Old Change Document Value for RAWSTRING Variable
 
 VALUE\_RAWSTR\_NEW
 
-
-
 </td>
 <td valign="top">
 
 New Change Document Value for RAWSTRING Variable
-
-
 
 </td>
 </tr>
@@ -1175,14 +933,10 @@ New Change Document Value for RAWSTRING Variable
 
 VALUE\_RAWSTR\_NEW\_DB
 
-
-
 </td>
 <td valign="top">
 
 New Change Document Value for RAWSTRING Variable
-
-
 
 </td>
 </tr>
@@ -1196,14 +950,10 @@ New Change Document Value for RAWSTRING Variable
 
 VALUE\_SHSTR\_OLD
 
-
-
 </td>
 <td valign="top">
 
 Old Extended Value \(Short\)
-
-
 
 </td>
 </tr>
@@ -1217,14 +967,10 @@ Old Extended Value \(Short\)
 
 VALUE\_SHSTR\_OLD\_DB
 
-
-
 </td>
 <td valign="top">
 
 Old Extended Value \(Short\)
-
-
 
 </td>
 </tr>
@@ -1238,14 +984,10 @@ Old Extended Value \(Short\)
 
 VALUE\_SHSTR\_NEW
 
-
-
 </td>
 <td valign="top">
 
 New Extended Value \(Short\)
-
-
 
 </td>
 </tr>
@@ -1259,14 +1001,10 @@ New Extended Value \(Short\)
 
 VALUE\_SHSTR\_NEW\_DB
 
-
-
 </td>
 <td valign="top">
 
 New Extended Value \(Short\)
-
-
 
 </td>
 </tr>
@@ -1280,14 +1018,10 @@ New Extended Value \(Short\)
 
 KEYGUID
 
-
-
 </td>
 <td valign="top">
 
 KEYGUID for Link to CDPOS\_UID
-
-
 
 </td>
 </tr>
@@ -1301,14 +1035,10 @@ KEYGUID for Link to CDPOS\_UID
 
 TABKEY254
 
-
-
 </td>
 <td valign="top">
 
 Key of Modified Table Row
-
-
 
 </td>
 </tr>
@@ -1322,14 +1052,10 @@ Key of Modified Table Row
 
 TABKEY254\_DB
 
-
-
 </td>
 <td valign="top">
 
 Key of Modified Table Row
-
-
 
 </td>
 </tr>
@@ -1343,14 +1069,10 @@ Key of Modified Table Row
 
 EXT\_KEYLEN
 
-
-
 </td>
 <td valign="top">
 
 Table key length
-
-
 
 </td>
 </tr>
@@ -1364,14 +1086,10 @@ Table key length
 
 KEYGUID\_STR
 
-
-
 </td>
 <td valign="top">
 
 KEYGUID for Link to CDPOS\_STR
-
-
 
 </td>
 </tr>
@@ -1385,14 +1103,10 @@ KEYGUID for Link to CDPOS\_STR
 
 VERSION
 
-
-
 </td>
 <td valign="top">
 
 3-Byte field
-
-
 
 </td>
 </tr>

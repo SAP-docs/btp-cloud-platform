@@ -25,14 +25,10 @@ How you assign users to their authorizations depends on the type of trust config
 
 Trust Configuration
 
-
-
 </th>
 <th valign="top">
 
 Assignment Options
-
-
 
 </th>
 </tr>
@@ -41,14 +37,10 @@ Assignment Options
 
 Default trust configuration \(SAP ID service\)
 
-
-
 </td>
 <td valign="top">
 
 [Assign Users to Role Collections](assign-users-to-role-collections-c576676.md) 
-
-
 
 </td>
 </tr>
@@ -56,8 +48,6 @@ Default trust configuration \(SAP ID service\)
 <td valign="top">
 
 Custom trust configuration \(for example: a tenant of the Identity Authentication service\)
-
-
 
 </td>
 <td valign="top">

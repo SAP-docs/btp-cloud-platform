@@ -22,15 +22,11 @@
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     User Input
-
-
     
     </th>
     </tr>
@@ -38,15 +34,11 @@
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
     
     `S4BusinessPartnerOAuth2`
-
-
     
     </td>
     </tr>
@@ -54,15 +46,11 @@
     <td valign="top">
     
     *Type* 
-
-
     
     </td>
     <td valign="top">
     
     *HTTP* 
-
-
     
     </td>
     </tr>
@@ -70,15 +58,11 @@
     <td valign="top">
     
     *Description*
-
-
     
     </td>
     <td valign="top">
     
     *S/4HANA Cloud Business Partner OAuth2​*
-
-
     
     </td>
     </tr>
@@ -86,15 +70,11 @@
     <td valign="top">
     
     *URL*
-
-
     
     </td>
     <td valign="top">
     
     *<Host name of the service URL from the communication arrangement​\>*, for example, `https://my303291-api.s4hana.ondemand.com` \(see [Copying the Inbound Service URL and Other Communication Details](copying-the-inbound-service-url-and-other-communication-details-a14394b.md)\)
-
-
     
     </td>
     </tr>
@@ -102,15 +82,11 @@
     <td valign="top">
     
     *Proxy Type*
-
-
     
     </td>
     <td valign="top">
     
     *Internet*
-
-
     
     </td>
     </tr>
@@ -118,15 +94,11 @@
     <td valign="top">
     
     *Authentication*
-
-
     
     </td>
     <td valign="top">
     
     *OAuth2SAMLBearerAssertion​*
-
-
     
     </td>
     </tr>
@@ -134,15 +106,11 @@
     <td valign="top">
     
     *Audience*
-
-
     
     </td>
     <td valign="top">
     
     *<SAML2 Audience from Oauth 2.0 Details\>* \(see [Copying the Inbound Service URL and Other Communication Details](copying-the-inbound-service-url-and-other-communication-details-a14394b.md)\)
-
-
     
     </td>
     </tr>
@@ -150,15 +118,11 @@
     <td valign="top">
     
     *authnContextClassRef*
-
-
     
     </td>
     <td valign="top">
     
     `urn:oasis:names:tc:SAML:2.0:ac:classes:X509​`
-
-
     
     </td>
     </tr>
@@ -166,15 +130,11 @@
     <td valign="top">
     
     *Client Key*
-
-
     
     </td>
     <td valign="top">
     
     *<Client ID from Oauth 2.0 Details\>* \(see [Copying the Inbound Service URL and Other Communication Details](copying-the-inbound-service-url-and-other-communication-details-a14394b.md)\)
-
-
     
     </td>
     </tr>
@@ -182,15 +142,11 @@
     <td valign="top">
     
     *Token Service URL*
-
-
     
     </td>
     <td valign="top">
     
     *<Token Service URL from Oauth 2.0 Details\>* \(see [Copying the Inbound Service URL and Other Communication Details](copying-the-inbound-service-url-and-other-communication-details-a14394b.md)\)
-
-
     
     </td>
     </tr>
@@ -198,15 +154,11 @@
     <td valign="top">
     
     *Token Service User*
-
-
     
     </td>
     <td valign="top">
     
     *<Communication user name​ from Oauth 2.0 Details\>* \(see [Copying the Inbound Service URL and Other Communication Details](copying-the-inbound-service-url-and-other-communication-details-a14394b.md)\)
-
-
     
     </td>
     </tr>
@@ -214,15 +166,11 @@
     <td valign="top">
     
     *Token Service Password​*
-
-
     
     </td>
     <td valign="top">
     
     *<Password of communication user\>* \(see [Creating a Communication Arrangement in SAP S/4HANA Cloud](creating-a-communication-arrangement-in-sap-s-4hana-cloud-889fbe3.md)\)
-
-
     
     </td>
     </tr>
@@ -236,15 +184,11 @@
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Value
-
-
     
     </th>
     </tr>
@@ -252,15 +196,11 @@
     <td valign="top">
     
     *nameIdFormat*​
-
-
     
     </td>
     <td valign="top">
     
     `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
-
-
     
     </td>
     </tr>

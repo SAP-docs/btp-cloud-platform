@@ -37,15 +37,11 @@ You can configure event consumers delivered by SAP manually.
     <th valign="top">
 
     Option
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -53,8 +49,6 @@ You can configure event consumers delivered by SAP manually.
     <td valign="top">
     
     **Create a new topic.**
-
-
     
     </td>
     <td valign="top">
@@ -64,8 +58,6 @@ You can configure event consumers delivered by SAP manually.
     3.  Choose *Create* to save your entries.
 
     The new topic is listed in the *Inbound Topics* table.
-
-
     
     </td>
     </tr>
@@ -73,8 +65,6 @@ You can configure event consumers delivered by SAP manually.
     <td valign="top">
     
     **Delete an existing topic created by an end user.**
-
-
     
     </td>
     <td valign="top">
@@ -90,15 +80,11 @@ You can configure event consumers delivered by SAP manually.
     <td valign="top">
     
     **Define table parameters.**
-
-
     
     </td>
     <td valign="top">
     
     Click the gear icon to define the table parameters.
-
-
     
     </td>
     </tr>
@@ -118,14 +104,10 @@ The *Inbound Topics* table contains all inbound event topic bindings that exist 
 
 **Status: Ok**
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -134,14 +116,10 @@ The *Inbound Topics* table contains all inbound event topic bindings that exist 
 
 **Status: Incomplete**
 
-
-
 </td>
 <td valign="top">
 
 No topic consumer exists for current topic binding.
-
-
 
 </td>
 </tr>
@@ -150,14 +128,10 @@ No topic consumer exists for current topic binding.
 
 **Status: Invalid**
 
-
-
 </td>
 <td valign="top">
 
 The current topic binding is invalid for at least one topic consumer. This means either the topic filter doesn't exist or the corresponding destination is incorrect.
-
-
 
 </td>
 </tr>
@@ -166,14 +140,10 @@ The current topic binding is invalid for at least one topic consumer. This means
 
 **Topic**
 
-
-
 </td>
 <td valign="top">
 
 Is the topic presentation.
-
-
 
 </td>
 </tr>
@@ -182,14 +152,10 @@ Is the topic presentation.
 
 **Maintained by: End User**
 
-
-
 </td>
 <td valign="top">
 
 The event inbound topic binding was created manually by a user.
-
-
 
 </td>
 </tr>
@@ -198,14 +164,10 @@ The event inbound topic binding was created manually by a user.
 
 **Maintained by: Communication Management**
 
-
-
 </td>
 <td valign="top">
 
 The event inbound topic binding was created automatically during the configuration of a generated event consumption model.
-
-
 
 </td>
 </tr>

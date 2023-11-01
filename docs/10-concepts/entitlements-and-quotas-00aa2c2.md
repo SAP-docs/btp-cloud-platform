@@ -32,19 +32,23 @@ An **entitlement** is your right to provision and consume a resource. In other w
 
 ## Quotas
 
-A **quota** represents the numeric quantity that defines the maximum allowed consumption of a resource. In other words, **how much** of a service plan you're entitled to use.
+A **quota** represents the numeric quantity of a service plan that you're entitled to consume in your global account and its subaccounts.
 
-Some service plans use a numeric quota, which means that you can increase or decrease the number of units available in a subaccount. Depending on the service, these units represent different things and may impact the number of service instances, applications, or routes you can have in a subaccount.
+From the perspective of your SAP BTP global account contract, the global quota of a service plan can be defined as either fixed or unlimited:
 
-There are also service plans where the quota is shown as either "limited" or "unlimited":
+-   **Fixed quota:** The quota or allowance of the service plan is the upper limit at which the plan can be consumed collectively across your global account. This is typical of global accounts that have the **subscription-based** commercial model agreement.
 
--   **Limited:** Service plans specified as "limited" have a predefined quota that is available to a global account and which can be shared across all its subaccounts. These plans are represented as "*<n\>* shared units" in the *Entity Assignments* page in SAP BTP cockpit. Each service defines its shared units and how they are used. Note that most multitenant SaaS applications are offered as "limited" plans with a quota of one unit because they're always limited to one subscription per subaccount. You can think of assigning entitlements for such service plans as "enabling" or "allowing" subaccounts to use them.
+-   **Unlimited quota:** There is no upper limit to how much the service plan can be used collectively across your global account. This is typical of most services that are eligible to global accounts with a **consumption-based** commercial model agreement \(Cloud Platform Enterprise Agreement \(CPEA\) and Pay-As-You-Go for SAP BTP\). At the end of the month, the number of units used determines how much you are charged.
 
--   **Unlimited:** Service plans specified as "unlimited" have no restriction on the quota that can be allocated per subaccount. This is typical of most services that are eligible to global accounts with a consumption-based commercial model agreement.
 
-Note that the terms "limited" and "unlimited" refer to quota assignments, and not subaccount assignments.
+Regardless of whether the global quota of a plan on the global account level is fixed or unlimited, the specifics and properties of each plan determines how its quota can be distributed by the global account admin to the subaccounts in your global account. There are two types of quota assignments:
 
-For more information, see [Managing Entitlements and Quotas Using the Cockpit](../50-administration-and-ops/managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
+-   **Numeric assignments:** The global account admin assigns the plan to a subaccount and specifies the maximum quantity of units from the global quota that can be consumed by the subaccount. Admins can use this assignment to limit users from exceeding a specific quota for cost-controlling purposes. Typically, but not always, the assigned quota is directly related to the number of instances that can be created in subaccounts for the assigned plan.
+
+-   **Non-numeric assignments:** The global account admin does not assign a specific quantity but simply grants access to the specific plan by assigning the plan to the subaccount. When the plan is assigned, it's available for use by the subaccount. SaaS application assignments are typically non-numeric, whereby a subaccount can either subscribe to the app or not. For services that fall into this category of non-numeric assignments, there is usually no limit to the number of instances that can be created.
+
+
+See also the sections below and [Managing Entitlements and Quotas Using the Cockpit](../50-administration-and-ops/managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
 
 
 
@@ -98,7 +102,7 @@ Space quota plans are optional and are used to limit how much each space can use
 For more information on space quota plans in the Cloud Foundry environment, see:
 
 -   [https://docs.cloudfoundry.org/adminguide/quota-plans.html](https://docs.cloudfoundry.org/adminguide/quota-plans.html)
--   [Managing Space Quota Plans](../50-administration-and-ops/managing-space-quota-plans-4e5f0ee.md)
+-   [Managing Space Quotas](../50-administration-and-ops/managing-space-quotas-4e5f0ee.md)
 
 
 
@@ -119,14 +123,10 @@ SAP BTP currently supports the following vendors and their consumable services:
 
 Cloud Vendor
 
-
-
 </th>
 <th valign="top">
 
 Supported Services
-
-
 
 </th>
 </tr>
@@ -135,14 +135,10 @@ Supported Services
 
 Amazon Web Services
 
-
-
 </td>
 <td valign="top">
 
 [Amazon Relational Database Service \(RDS\) - PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US) 
-
-
 
 </td>
 </tr>
@@ -151,14 +147,10 @@ Amazon Web Services
 
 Microsoft Azure
 
-
-
 </td>
 <td valign="top">
 
 [Azure Database for PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US).
-
-
 
 </td>
 </tr>

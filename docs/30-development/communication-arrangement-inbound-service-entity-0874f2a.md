@@ -23,21 +23,15 @@ Technical name: `CommArrangementsInboundServ`
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Necessity
-
-
 
 </th>
 </tr>
@@ -46,21 +40,15 @@ Necessity
 
 CommunicationArrangementUUID
 
-
-
 </td>
 <td valign="top">
 
 Communication arrangement UUID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -69,21 +57,15 @@ Mandatory \(Key\)
 
 ServiceUUID
 
-
-
 </td>
 <td valign="top">
 
 Service UUID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -92,21 +74,15 @@ Mandatory \(Key\)
 
 ServiceNumber
 
-
-
 </td>
 <td valign="top">
 
 Service number
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -115,21 +91,15 @@ Optional
 
 ServiceID
 
-
-
 </td>
 <td valign="top">
 
 Service ID
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -138,21 +108,15 @@ Optional
 
 ServiceType
 
-
-
 </td>
 <td valign="top">
 
 Service type
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -161,21 +125,15 @@ Optional
 
 IsHidden
 
-
-
 </td>
 <td valign="top">
 
 Hidden
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>

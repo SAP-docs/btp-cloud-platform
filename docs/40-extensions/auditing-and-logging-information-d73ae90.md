@@ -13,28 +13,20 @@ Here you can find a list of the events that are logged by SAP SuccessFactors Ext
 
 Event grouping
 
-
-
 </th>
 <th valign="top">
 
 What events are logged
-
-
 
 </th>
 <th valign="top">
 
 How to identify related log events
 
-
-
 </th>
 <th valign="top">
 
 Additional information
-
-
 
 </th>
 </tr>
@@ -43,14 +35,10 @@ Additional information
 
 Creating an integration
 
-
-
 </td>
 <td valign="top">
 
 Start of create-integration process
-
-
 
 </td>
 <td valign="top">
@@ -71,16 +59,12 @@ Event that signifies an integration of a global account with an SAP SuccessFacto
 
 The `customDetails` attribute contains details such as the issuer of the integration token, the global account ID, the name of the SAP SuccessFactors system and the SAP SuccessFactors company ID, the SAP SuccessFactors host name, and other.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 End of create-integration process
-
-
 
 </td>
 <td valign="top">
@@ -103,16 +87,12 @@ Event that signifies an integration of a global account with an SAP SuccessFacto
 
 The `customDetails` attribute contains details such as the issuer of the integration token, the global account ID, the name of the SAP SuccessFactors system and the SAP SuccessFactors company ID, the SAP SuccessFactors host name, and other.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Failure of create-integration process
-
-
 
 </td>
 <td valign="top">
@@ -135,16 +115,12 @@ Event that signifies an integration of a global account with an SAP SuccessFacto
 
 The `customDetails` attribute contains details such as the issuer of the integration token, the global account ID, the name of the SAP SuccessFactors system and the SAP SuccessFactors company ID, the SAP SuccessFactors host name, and other.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Start of delete-integration
-
-
 
 </td>
 <td valign="top">
@@ -165,16 +141,12 @@ Event that signifies a deletion of the integration of a global account with an S
 
 The `customDetails` attribute contains details such as the issuer of the integration token, the global account ID, the name of the SAP SuccessFactors system and the SAP SuccessFactors company ID, the SAP SuccessFactors host name, and other.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 End of delete-integration
-
-
 
 </td>
 <td valign="top">
@@ -197,16 +169,12 @@ Event that signifies a deletion of the integration of a global account with an S
 
 The `customDetails` attribute contains details such as the issuer of the integration token, the global account ID, the name of the SAP SuccessFactors system and the SAP SuccessFactors company ID, the SAP SuccessFactors host name, and other.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Failure of delete-integration
-
-
 
 </td>
 <td valign="top">
@@ -229,8 +197,6 @@ Event that signifies a deletion of the integration of a global account with an S
 
 The `customDetails` attribute contains details such as the issuer of the integration token, the global account ID, the name of the SAP SuccessFactors system and the SAP SuccessFactors company ID, the SAP SuccessFactors host name, and other.
 
-
-
 </td>
 </tr>
 <tr>
@@ -238,14 +204,10 @@ The `customDetails` attribute contains details such as the issuer of the integra
 
 Setting up the connectivity
 
-
-
 </td>
 <td valign="top">
 
 Start of create-inbound-connection process
-
-
 
 </td>
 <td valign="top">
@@ -266,16 +228,12 @@ Event that signifies a creation of a service instance of the SAP SuccessFactors 
 
 The `customDetails` attribute contains details such as the subaccount ID, the global account ID, SAP SuccessFactors host name, and other.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 End of create-inbound-connection process
-
-
 
 </td>
 <td valign="top">
@@ -296,16 +254,12 @@ Event that signifies a creation of a service instance of the SAP SuccessFactors 
 
 The `customDetails` attribute contains details such as the subaccount ID, the global account ID, SAP SuccessFactors host name, and other.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Start of delete-inbound-connection
-
-
 
 </td>
 <td valign="top">
@@ -326,16 +280,12 @@ Event that signifies the deletion of a service instance of the SAP SuccessFactor
 
 The `customDetails` attribute contains details such as the subaccount ID, the global account ID, SAP SuccessFactors host name, and other.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 End of delete-inbound-connection
-
-
 
 </td>
 <td valign="top">
@@ -358,16 +308,12 @@ Event that signifies the deletion of a service instance of the SAP SuccessFactor
 
 The `customDetails` attribute contains details such as the subaccount ID, the global account ID, SAP SuccessFactors host name, and other.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Failure of delete-inbound-connection
-
-
 
 </td>
 <td valign="top">
@@ -389,8 +335,6 @@ Failure of delete-inbound-connection
 Event that signifies the deletion of a service instance of the SAP SuccessFactors Extensibility service could not be completed.
 
 The `customDetails` attribute contains details such as the subaccount ID, the global account ID, SAP SuccessFactors host name, and other.
-
-
 
 </td>
 </tr>

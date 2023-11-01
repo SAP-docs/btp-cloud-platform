@@ -23,14 +23,10 @@
 
 HTTP Method
 
-
-
 </th>
 <th valign="top">
 
 Operation
-
-
 
 </th>
 </tr>
@@ -39,14 +35,10 @@ Operation
 
 GET
 
-
-
 </td>
 <td valign="top">
 
 [Read Branches](read-branches-e8e40c2.md)
-
-
 
 </td>
 </tr>
@@ -55,14 +47,10 @@ GET
 
 POST
 
-
-
 </td>
 <td valign="top">
 
 [Create Branch](create-branch-a9ce22e.md)
-
-
 
 </td>
 </tr>
@@ -71,14 +59,10 @@ POST
 
 DELETE
 
-
-
 </td>
 <td valign="top">
 
 [Delete Branches](delete-branches-425717b.md)
-
-
 
 </td>
 </tr>
@@ -97,28 +81,20 @@ DELETE
 
 HTTP Method
 
-
-
 </th>
 <th valign="top">
 
 Operation Type
-
-
 
 </th>
 <th valign="top">
 
 Operation
 
-
-
 </th>
 <th valign="top">
 
 URI
-
-
 
 </th>
 </tr>
@@ -127,28 +103,20 @@ URI
 
 POST
 
-
-
 </td>
 <td valign="top">
 
 Action
-
-
 
 </td>
 <td valign="top">
 
 [Checkout Branches](checkout-branches-069b979.md)
 
-
-
 </td>
 <td valign="top">
 
 /sap/opu/odata/sap/MANAGE\_GIT\_REPOSITORY/checkout\_branch
-
-
 
 </td>
 </tr>
@@ -167,14 +135,10 @@ Action
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -183,14 +147,10 @@ Description
 
 branch\_name
 
-
-
 </td>
 <td valign="top">
 
 name of the branch
-
-
 
 </td>
 </tr>
@@ -199,14 +159,10 @@ name of the branch
 
 sc\_name
 
-
-
 </td>
 <td valign="top">
 
 name of the software component
-
-
 
 </td>
 </tr>
@@ -215,14 +171,10 @@ name of the software component
 
 is\_active
 
-
-
 </td>
 <td valign="top">
 
 indicates if the branch is active in the system
-
-
 
 </td>
 </tr>
@@ -230,8 +182,6 @@ indicates if the branch is active in the system
 <td valign="top">
 
 critivality
-
-
 
 </td>
 <td valign="top">
@@ -245,14 +195,10 @@ critivality
 
 derived\_from
 
-
-
 </td>
 <td valign="top">
 
 name of the original branch from which the branch was derived
-
-
 
 </td>
 </tr>
@@ -261,14 +207,10 @@ name of the original branch from which the branch was derived
 
 created\_by
 
-
-
 </td>
 <td valign="top">
 
 user who created the branch
-
-
 
 </td>
 </tr>
@@ -277,14 +219,10 @@ user who created the branch
 
 created\_on
 
-
-
 </td>
 <td valign="top">
 
 date when the branch was created
-
-
 
 </td>
 </tr>
@@ -293,14 +231,10 @@ date when the branch was created
 
 commit\_id
 
-
-
 </td>
 <td valign="top">
 
 latest commit ID on the branch
-
-
 
 </td>
 </tr>
@@ -309,14 +243,10 @@ latest commit ID on the branch
 
 commit\_message
 
-
-
 </td>
 <td valign="top">
 
 commit message of the latest commit
-
-
 
 </td>
 </tr>
@@ -325,14 +255,10 @@ commit message of the latest commit
 
 last\_commit\_by
 
-
-
 </td>
 <td valign="top">
 
 user who commited the last commit
-
-
 
 </td>
 </tr>
@@ -341,14 +267,10 @@ user who commited the last commit
 
 last\_commit\_on
 
-
-
 </td>
 <td valign="top">
 
 date of the latest commit
-
-
 
 </td>
 </tr>

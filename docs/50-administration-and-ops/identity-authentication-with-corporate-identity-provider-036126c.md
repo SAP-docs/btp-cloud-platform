@@ -42,14 +42,10 @@ If the assertion attributes don't come from the corporate identity provider as y
 
 From User Attribute
 
-
-
 </th>
 <th valign="top">
 
 To Assertion Attribute
-
-
 
 </th>
 </tr>
@@ -58,14 +54,10 @@ To Assertion Attribute
 
 first\_name
 
-
-
 </td>
 <td valign="top">
 
 given\_name
-
-
 
 </td>
 </tr>
@@ -74,14 +66,10 @@ given\_name
 
 last\_name
 
-
-
 </td>
 <td valign="top">
 
 family\_name
-
-
 
 </td>
 </tr>
@@ -90,14 +78,10 @@ family\_name
 
 mail
 
-
-
 </td>
 <td valign="top">
 
 email
-
-
 
 </td>
 </tr>
@@ -138,14 +122,10 @@ Configure your new OIDC-based Identity Authentication application to send the sa
     > 
     > From User Attribute
     > 
-    > 
-    > 
     > </th>
     > <th valign="top">
     > 
     > To Assertion Attribute
-    > 
-    > 
     > 
     > </th>
     > </tr>
@@ -154,14 +134,10 @@ Configure your new OIDC-based Identity Authentication application to send the sa
     > 
     > first\_name
     > 
-    > 
-    > 
     > </td>
     > <td valign="top">
     > 
     > given\_name
-    > 
-    > 
     > 
     > </td>
     > </tr>
@@ -170,14 +146,10 @@ Configure your new OIDC-based Identity Authentication application to send the sa
     > 
     > last\_name
     > 
-    > 
-    > 
     > </td>
     > <td valign="top">
     > 
     > family\_name
-    > 
-    > 
     > 
     > </td>
     > </tr>
@@ -186,14 +158,10 @@ Configure your new OIDC-based Identity Authentication application to send the sa
     > 
     > mail
     > 
-    > 
-    > 
     > </td>
     > <td valign="top">
     > 
     > email
-    > 
-    > 
     > 
     > </td>
     > </tr>

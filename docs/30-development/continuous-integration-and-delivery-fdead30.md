@@ -112,21 +112,15 @@ The following links guide you to the SAP Cloud Application Programming Model \(C
 
 CI/CD Solution
 
-
-
 </th>
 <th valign="top">
 
 CAP Section
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -135,21 +129,15 @@ Description
 
 SAP Continuous Integration and Delivery
 
-
-
 </td>
 <td valign="top">
 
 [sap-cloud-sdk](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/bfe48a4b12ed41868f92fa564829f752.html) 
 
-
-
 </td>
 <td valign="top">
 
 Configure a CI/CD pipeline for the development of applications that follow the SAP Cloud Application Programming Model in the Cloud Foundry environment.
-
-
 
 </td>
 </tr>
@@ -158,21 +146,15 @@ Configure a CI/CD pipeline for the development of applications that follow the S
 
 Project “Piper”
 
-
-
 </td>
 <td valign="top">
 
 [Build and Deploy SAP Cloud Application Programming Model Applications](https://sap.github.io/jenkins-library/scenarios/CAP_Scenario/) 
 
-
-
 </td>
 <td valign="top">
 
 Set up a CI/CD Pipeline for an SAP Cloud Application Programming Model \(CAP\) project.
-
-
 
 </td>
 </tr>

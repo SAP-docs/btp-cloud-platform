@@ -17,14 +17,10 @@ These classes and methods can only be used if the authorizations are defined via
 
 Class/Method
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -33,14 +29,10 @@ Description
 
 CL\_IAM\_BUSINESS\_ROLE\_FACTORY
 
-
-
 </td>
 <td valign="top">
 
 Factory class for IF\_IAM\_BUSINESS\_ROLE\_FACTORY
-
-
 
 </td>
 </tr>
@@ -49,14 +41,10 @@ Factory class for IF\_IAM\_BUSINESS\_ROLE\_FACTORY
 
 IF\_IAM\_BUSINESS\_ROLE\_FACTORY
 
-
-
 </td>
 <td valign="top">
 
 Allows you to query and retrieve business role instances
-
-
 
 </td>
 </tr>
@@ -65,14 +53,10 @@ Allows you to query and retrieve business role instances
 
 IF\_IAM\_BUSINESS\_ROLE
 
-
-
 </td>
 <td valign="top">
 
 Allows you to read and modify attributes of business roles
-
-
 
 </td>
 </tr>
@@ -270,14 +254,10 @@ Allows you to read and modify attributes of business roles
 
 Class/Method
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -286,14 +266,10 @@ Description
 
 CL\_IAM\_BUSINESS\_USER\_FACTORY
 
-
-
 </td>
 <td valign="top">
 
 Factory class for IF\_IAM\_BUSINESS\_USER\_FACTORY
-
-
 
 </td>
 </tr>
@@ -302,14 +278,10 @@ Factory class for IF\_IAM\_BUSINESS\_USER\_FACTORY
 
 IF\_IAM\_BUSINESS\_USER\_FACTORY
 
-
-
 </td>
 <td valign="top">
 
 Allows you to query and retrieve business user instances
-
-
 
 </td>
 </tr>
@@ -318,14 +290,10 @@ Allows you to query and retrieve business user instances
 
 IF\_IAM\_BUSINESS\_USER
 
-
-
 </td>
 <td valign="top">
 
 Allows you to read and modify attributes of business users
-
-
 
 </td>
 </tr>

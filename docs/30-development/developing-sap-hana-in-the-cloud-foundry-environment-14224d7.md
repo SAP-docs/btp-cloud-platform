@@ -17,14 +17,10 @@ There are multiple scenarios when you start using SAP HANA Cloud in the SAP BTP,
 
 Scenario
 
-
-
 </th>
 <th valign="top">
 
 Recommendation
-
-
 
 </th>
 </tr>
@@ -33,16 +29,12 @@ Recommendation
 
 You're starting a new project and want to leverage SAP HANA capabilities in the cloud.
 
-
-
 </td>
 <td valign="top">
 
 We recommend using the SAP Cloud Application Programming Model and SAP HANA Cloud.
 
 See [SAP HANA Cloud](developing-sap-hana-in-the-cloud-foundry-environment-14224d7.md#loioa697b1b1b5ad4b598378ff0fa091fa35)
-
-
 
 </td>
 </tr>
@@ -51,14 +43,10 @@ See [SAP HANA Cloud](developing-sap-hana-in-the-cloud-foundry-environment-14224d
 
 You're using SAP HANA service for SAP BTP and SAP HANA Platform 2.0 \(XS advanced\) on-premise.
 
-
-
 </td>
 <td valign="top">
 
 Get to know the differences. Read about features that have been supported by other SAP HANA versions but aren’t supported by SAP HANA Cloud: [SAP HANA Cloud Compatibility Reference](https://help.sap.com/viewer/3c53bc7b58934a9795b6dd8c7e28cf05/cloud/en-US/3101cb652bb74739a3e39593ea969bc5.html) 
-
-
 
 </td>
 </tr>
@@ -66,8 +54,6 @@ Get to know the differences. Read about features that have been supported by oth
 <td valign="top">
 
 You're using SAP HANA Platform 2.0 \(XS advanced\) on-premise.
-
-
 
 </td>
 <td valign="top">
@@ -83,8 +69,6 @@ The new SAP HANA Cloud service made significant moves to reduce footprint and be
 
 You can find another collection of these features and elements in the following SAP Note:[2868742](https://me.sap.com/notes/2868742) 
 
-
-
 </td>
 </tr>
 <tr>
@@ -92,14 +76,10 @@ You can find another collection of these features and elements in the following 
 
 You're using SAP HANA Platform 1.0 \(XS classic\) on-premise. This scenario also includes any usage of XS classic artifacts even if you use XS advanced \(compatibility\) or the Neo environment
 
-
-
 </td>
 <td valign="top">
 
 This scenario is presumably a bigger project. The task isn’t only to use a different version of SAP HANA but also to make architectural changes: from monolithic applications to microservice-based applications. To give you an overview on things you need to consider, have a look at our guide: [Migrating from the Neo Environment to the Multi-Cloud Foundation (Cloud Foundry and Kyma)](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/aae4e0ae1cdf434b908c3c8cf3ea942a.html "Learn why and how to migrate your scenarios on SAP Business Technology Platform (SAP BTP) from the Neo environment to the multi-cloud foundation.") :arrow_upper_right: 
-
-
 
 </td>
 </tr>

@@ -29,21 +29,15 @@ Create a new branch.
 
 Header
 
-
-
 </th>
 <th valign="top">
 
 Required
 
-
-
 </th>
 <th valign="top">
 
 Values
-
-
 
 </th>
 </tr>
@@ -52,14 +46,10 @@ Values
 
 Accept
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 <td valign="top">
@@ -67,8 +57,6 @@ no
 application/json
 
 application/xml
-
-
 
 </td>
 </tr>
@@ -77,14 +65,10 @@ application/xml
 
 Content-Type
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 <td valign="top">
@@ -93,8 +77,6 @@ application/json
 
 application/xml
 
-
-
 </td>
 </tr>
 <tr>
@@ -102,21 +84,15 @@ application/xml
 
 x-csrf-token
 
-
-
 </td>
 <td valign="top">
 
 yes
 
-
-
 </td>
 <td valign="top">
 
 Value of x-csrf-token
-
-
 
 </td>
 </tr>
@@ -135,35 +111,25 @@ Value of x-csrf-token
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Required
-
-
 
 </th>
 <th valign="top">
 
 Data Type
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Parameter Type
-
-
 
 </th>
 </tr>
@@ -172,35 +138,25 @@ Parameter Type
 
 sc\_name
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 <td valign="top">
 
 string
 
-
-
 </td>
 <td valign="top">
 
 name of the software component
 
-
-
 </td>
 <td valign="top">
 
 Request body
-
-
 
 </td>
 </tr>
@@ -209,35 +165,25 @@ Request body
 
 branch\_name
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 <td valign="top">
 
 string
 
-
-
 </td>
 <td valign="top">
 
 name of the branch
 
-
-
 </td>
 <td valign="top">
 
 Request body
-
-
 
 </td>
 </tr>
@@ -246,35 +192,25 @@ Request body
 
 derived\_from
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 <td valign="top">
 
 string
 
-
-
 </td>
 <td valign="top">
 
 name of the original branch form which the branch was derived
 
-
-
 </td>
 <td valign="top">
 
 Request body
-
-
 
 </td>
 </tr>
@@ -319,21 +255,15 @@ Request body
 
 Code
 
-
-
 </th>
 <th valign="top">
 
 Reason
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -342,21 +272,15 @@ Description
 
 201
 
-
-
 </td>
 <td valign="top">
 
 Created
 
-
-
 </td>
 <td valign="top">
 
 Branch was created successfully
-
-
 
 </td>
 </tr>
@@ -365,21 +289,15 @@ Branch was created successfully
 
 400
 
-
-
 </td>
 <td valign="top">
 
 Bad Request
 
-
-
 </td>
 <td valign="top">
 
 Could not create a branch due to the values passed in the request body.
-
-
 
 </td>
 </tr>

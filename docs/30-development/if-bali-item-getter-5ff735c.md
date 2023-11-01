@@ -13,14 +13,10 @@ If an item like a message or exception is read from an application log, its obje
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -28,8 +24,6 @@ Description
 <td valign="top">
 
 CATEGORY
-
-
 
 </td>
 <td valign="top">
@@ -54,14 +48,10 @@ Possible values:
 
 LOG\_ITEM\_NUMBER
 
-
-
 </td>
 <td valign="top">
 
 Serial number which is the position of the item in the log
-
-
 
 </td>
 </tr>
@@ -70,14 +60,10 @@ Serial number which is the position of the item in the log
 
 SEVERITY
 
-
-
 </td>
 <td valign="top">
 
 Severity of the item \('Error', 'Warning', etc\)
-
-
 
 </td>
 </tr>
@@ -86,14 +72,10 @@ Severity of the item \('Error', 'Warning', etc\)
 
 DETAIL\_LEVEL
 
-
-
 </td>
 <td valign="top">
 
 Detail level of the item \(number between '1' and '9' or ' '\)
-
-
 
 </td>
 </tr>
@@ -104,14 +86,10 @@ TIMESTAMP
 
 \(from IF\_BALI\_ITEM\_GETTER\)
 
-
-
 </td>
 <td valign="top">
 
 UTC time stamp of the item creation
-
-
 
 </td>
 </tr>
@@ -139,14 +117,10 @@ Get the message text of the item. It is:
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -155,8 +129,6 @@ Description
 
 **Returning parameter**
 
-
-
 </td>
 </tr>
 <tr>
@@ -164,14 +136,10 @@ Description
 
 MESSAGE\_TEXT
 
-
-
 </td>
 <td valign="top">
 
 ext of the item message in the logon language
-
-
 
 </td>
 </tr>

@@ -23,21 +23,15 @@ Technical name: `BusinessRoleRestrictionValues`
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Necessity
-
-
 
 </th>
 </tr>
@@ -46,21 +40,15 @@ Necessity
 
 BusinessRoleID
 
-
-
 </td>
 <td valign="top">
 
 Business role ID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -69,21 +57,15 @@ Mandatory \(Key\)
 
 RestrictionTypeAssignmentUUID
 
-
-
 </td>
 <td valign="top">
 
 Restriction type assignment UUID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -92,21 +74,15 @@ Mandatory \(Key\)
 
 FieldName
 
-
-
 </td>
 <td valign="top">
 
 Field name
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -115,21 +91,15 @@ Mandatory \(Key\)
 
 RestrictionValueAssignmentUUID
 
-
-
 </td>
 <td valign="top">
 
 Restriction value assignment UUID
 
-
-
 </td>
 <td valign="top">
 
 Mandatory \(Key\)
-
-
 
 </td>
 </tr>
@@ -138,21 +108,15 @@ Mandatory \(Key\)
 
 LowValue
 
-
-
 </td>
 <td valign="top">
 
 Low value
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>
@@ -161,21 +125,15 @@ Optional
 
 HighValue
 
-
-
 </td>
 <td valign="top">
 
 High value
 
-
-
 </td>
 <td valign="top">
 
 Optional
-
-
 
 </td>
 </tr>

@@ -47,15 +47,11 @@ If you have custom identity provider, you can use a function in SAP BTP cockpit 
     <th valign="top">
 
     ABAP login\_attribute
-
-
     
     </th>
     <th valign="top">
 
     SAP Cloud Identity Services Subject Name Identifier
-
-
     
     </th>
     </tr>
@@ -63,15 +59,11 @@ If you have custom identity provider, you can use a function in SAP BTP cockpit 
     <td valign="top">
     
     **email**
-
-
     
     </td>
     <td valign="top">
     
     email
-
-
     
     </td>
     </tr>
@@ -79,15 +71,11 @@ If you have custom identity provider, you can use a function in SAP BTP cockpit 
     <td valign="top">
     
     **user\_name**
-
-
     
     </td>
     <td valign="top">
     
     login name
-
-
     
     </td>
     </tr>

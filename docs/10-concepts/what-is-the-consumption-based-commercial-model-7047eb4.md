@@ -18,8 +18,6 @@ The consumption-based commercial model is available in two flavors; the **CPEA**
 
 **CPEA**
 
-
-
 </td>
 <td valign="top">
 
@@ -39,8 +37,6 @@ The consumption-based commercial model is available in two flavors; the **CPEA**
 
 **Pay-As-You-Go for SAP BTP**
 
-
-
 </td>
 <td valign="top">
 
@@ -52,8 +48,6 @@ The consumption-based commercial model is available in two flavors; the **CPEA**
 -   A seamless transition to the CPEA model is available, on the condition that you have no other CPEA-based global accounts.
 
 If you want information about the **Pay-As-You-Go for SAP BTP for Partners** commercial model , go to the[SAP Partner Portal](https://partneredge.sap.com/en/partnership/licenses/tdd/wp_payg_btp.html).
-
-
 
 </td>
 </tr>

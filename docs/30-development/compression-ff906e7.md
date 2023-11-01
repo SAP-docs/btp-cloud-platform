@@ -41,28 +41,20 @@ You can disable compression in the following ways:
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Mandatory
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -71,28 +63,20 @@ Description
 
 `minSize` 
 
-
-
 </td>
 <td valign="top">
 
 Number
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Text resources larger than this size will be compressed.
-
-
 
 </td>
 </tr>
@@ -101,28 +85,20 @@ Text resources larger than this size will be compressed.
 
 `enabled` 
 
-
-
 </td>
 <td valign="top">
 
 Boolean
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Globally disables or enables compression. The default value is true.
-
-
 
 </td>
 </tr>
@@ -131,28 +107,20 @@ Globally disables or enables compression. The default value is true.
 
 `compressResponseMixedTypeContent` 
 
-
-
 </td>
 <td valign="top">
 
 Boolean
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Determines whether response content of the multipart / mixed content type should be compressed. The default value is `false`.
-
-
 
 </td>
 </tr>

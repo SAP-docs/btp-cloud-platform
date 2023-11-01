@@ -45,15 +45,11 @@ For more information, see [Prepare for Migration from SAML Trust to OpenID Conne
     <th valign="top">
 
     Before \(SAML\)
-
-
     
     </th>
     <th valign="top">
 
     After \(OIDC\)
-
-
     
     </th>
     </tr>

@@ -2,7 +2,7 @@
 
 # Basic Platform Concepts
 
-SAP BTP offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications.
+SAP BTP offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.
 
 
 
@@ -172,7 +172,7 @@ When you purchase an enterprise account, you’re entitled to use a specific set
 
 -   An **entitlement** is your right to provision and consume a resource. In other words, entitlements are **the service plans** that you're entitled to use.
 
--   A **quota** represents the numeric quantity that defines the maximum allowed consumption of a resource. In other words, **how much** of a service plan you're entitled to use.
+-   A **quota** represents the numeric quantity of a service plan that you're entitled to consume in your global account and its subaccounts.
 
 
 For more information, see [Entitlements and Quotas](entitlements-and-quotas-00aa2c2.md).

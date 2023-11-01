@@ -17,8 +17,6 @@ The following table shows the write API to collect the data that will be archive
 
 `CL_ARCH_WRITE_API`
 
-
-
 </th>
 </tr>
 <tr>
@@ -26,21 +24,15 @@ The following table shows the write API to collect the data that will be archive
 
 *Method*
 
-
-
 </td>
 <td valign="top">
 
 *Parameter*
 
-
-
 </td>
 <td valign="top">
 
 *Description*
-
-
 
 </td>
 </tr>
@@ -51,21 +43,15 @@ The following table shows the write API to collect the data that will be archive
 
 Static method which returns an instance of the write API via parameter `RO_WRITE_INSTANCE`
 
-
-
 </td>
 <td valign="top">
 
 Importing: <code><i>IV_ARCHIVING_OBJECT</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Name of the archiving object which will be used
-
-
 
 </td>
 </tr>
@@ -74,16 +60,12 @@ Name of the archiving object which will be used
 
 Importing:<code><i>IV_TESTMODE</i></code>
 
-
-
 </td>
 <td valign="top">
 
 *True*: no storage takes place
 
 *False*: Archive content is written, and storage is requested
-
-
 
 </td>
 </tr>
@@ -92,14 +74,10 @@ Importing:<code><i>IV_TESTMODE</i></code>
 
 Returning:<code><i>RO_WRITE_INSTANCE</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Instance of the write API for further processing
-
-
 
 </td>
 </tr>
@@ -114,8 +92,6 @@ The following table shows the interface for writing archived data:
 
 `IF_ARCH_WRITE_API`
 
-
-
 </th>
 </tr>
 <tr>
@@ -123,21 +99,15 @@ The following table shows the interface for writing archived data:
 
 *Method*
 
-
-
 </td>
 <td valign="top">
 
 *Parameter*
 
-
-
 </td>
 <td valign="top">
 
 *Description*
-
-
 
 </td>
 </tr>
@@ -148,21 +118,15 @@ The following table shows the interface for writing archived data:
 
 Opens a new data object for the data of the business object instance
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -173,21 +137,15 @@ Opens a new data object for the data of the business object instance
 
 Writes the data for a specific table to the open data object
 
-
-
 </td>
 <td valign="top">
 
 Importing:<code><i>IV_TABLE_NAME</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Name of the table which will be archived
-
-
 
 </td>
 </tr>
@@ -196,14 +154,10 @@ Name of the table which will be archived
 
 Importing:<code><i>IT_RECORDS</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Records of the table
-
-
 
 </td>
 </tr>
@@ -214,21 +168,15 @@ Records of the table
 
 Closes the data object and writes it to the archive file
 
-
-
 </td>
 <td valign="top">
 
 Exporting:<code><i>EV_OBJECT_OFFSET</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Offset at which the data of the data object starts \(can be used to build application owned indices for the archived data\)
-
-
 
 </td>
 </tr>
@@ -237,14 +185,10 @@ Offset at which the data of the data object starts \(can be used to build applic
 
 Exporting:<code><i>EV_ARCHIVE_KEY</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Archive key of the archive file to which the data was written \(can be used to build application owned indices for the archived data\)
-
-
 
 </td>
 </tr>
@@ -253,14 +197,10 @@ Archive key of the archive file to which the data was written \(can be used to b
 
 Exporting:<code><i>EV_ARCHIVING_SESSION</i></code>
 
-
-
 </td>
 <td valign="top">
 
 Sessions of the archiving object to be used
-
-
 
 </td>
 </tr>
@@ -271,21 +211,15 @@ Sessions of the archiving object to be used
 
 Finalizes processing and closes the archiving session
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>

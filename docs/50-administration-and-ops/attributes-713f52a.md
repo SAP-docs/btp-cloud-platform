@@ -37,14 +37,10 @@ For each attribute, administrators have multiple options to specify the value wh
     > 
     > Attribute from Identity Provider
     > 
-    > 
-    > 
     > </th>
     > <th valign="top">
     > 
     > Automatically Mapped to Attribute
-    > 
-    > 
     > 
     > </th>
     > </tr>
@@ -53,14 +49,10 @@ For each attribute, administrators have multiple options to specify the value wh
     > 
     > *first\_name* 
     > 
-    > 
-    > 
     > </td>
     > <td valign="top">
     > 
     > *given\_name* 
-    > 
-    > 
     > 
     > </td>
     > </tr>
@@ -69,14 +61,10 @@ For each attribute, administrators have multiple options to specify the value wh
     > 
     > *last\_name* 
     > 
-    > 
-    > 
     > </td>
     > <td valign="top">
     > 
     > *family\_name* 
-    > 
-    > 
     > 
     > </td>
     > </tr>
@@ -85,14 +73,10 @@ For each attribute, administrators have multiple options to specify the value wh
     > 
     > *mail* 
     > 
-    > 
-    > 
     > </td>
     > <td valign="top">
     > 
     > *email* 
-    > 
-    > 
     > 
     > </td>
     > </tr>

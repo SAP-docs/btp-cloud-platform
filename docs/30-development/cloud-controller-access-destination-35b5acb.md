@@ -33,15 +33,11 @@ A destination called ASP\_CC needs to be created for ABAP Solution Service to be
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Value
-
-
     
     </th>
     </tr>
@@ -49,15 +45,11 @@ A destination called ASP\_CC needs to be created for ABAP Solution Service to be
     <td valign="top">
     
     Name
-
-
     
     </td>
     <td valign="top">
     
     ASP\_CC
-
-
     
     </td>
     </tr>
@@ -65,15 +57,11 @@ A destination called ASP\_CC needs to be created for ABAP Solution Service to be
     <td valign="top">
     
     Type
-
-
     
     </td>
     <td valign="top">
     
     HTTP
-
-
     
     </td>
     </tr>
@@ -81,15 +69,11 @@ A destination called ASP\_CC needs to be created for ABAP Solution Service to be
     <td valign="top">
     
     Description
-
-
     
     </td>
     <td valign="top">
     
     Access the Cloud Foundry Cloud Controller API
-
-
     
     </td>
     </tr>
@@ -97,8 +81,6 @@ A destination called ASP\_CC needs to be created for ABAP Solution Service to be
     <td valign="top">
     
     URL
-
-
     
     </td>
     <td valign="top">
@@ -118,15 +100,11 @@ A destination called ASP\_CC needs to be created for ABAP Solution Service to be
     <td valign="top">
     
     Proxy Type
-
-
     
     </td>
     <td valign="top">
     
     Internet
-
-
     
     </td>
     </tr>
@@ -134,15 +112,11 @@ A destination called ASP\_CC needs to be created for ABAP Solution Service to be
     <td valign="top">
     
     Authentication
-
-
     
     </td>
     <td valign="top">
     
     OAuth2Password
-
-
     
     </td>
     </tr>
@@ -150,15 +124,11 @@ A destination called ASP\_CC needs to be created for ABAP Solution Service to be
     <td valign="top">
     
     User
-
-
     
     </td>
     <td valign="top">
     
     <User ID/E-mail\>
-
-
     
     </td>
     </tr>
@@ -166,15 +136,11 @@ A destination called ASP\_CC needs to be created for ABAP Solution Service to be
     <td valign="top">
     
     Password
-
-
     
     </td>
     <td valign="top">
     
     <Password\>
-
-
     
     </td>
     </tr>
@@ -182,15 +148,11 @@ A destination called ASP\_CC needs to be created for ABAP Solution Service to be
     <td valign="top">
     
     Client ID
-
-
     
     </td>
     <td valign="top">
     
     cf
-
-
     
     </td>
     </tr>
@@ -198,15 +160,11 @@ A destination called ASP\_CC needs to be created for ABAP Solution Service to be
     <td valign="top">
     
     Client Secret
-
-
     
     </td>
     <td valign="top">
     
     <needs to be left blank\>
-
-
     
     </td>
     </tr>
@@ -214,8 +172,6 @@ A destination called ASP\_CC needs to be created for ABAP Solution Service to be
     <td valign="top">
     
     Token Service URL
-
-
     
     </td>
     <td valign="top">

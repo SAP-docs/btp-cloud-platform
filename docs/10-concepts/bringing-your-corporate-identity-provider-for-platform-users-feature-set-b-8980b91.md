@@ -26,9 +26,9 @@ The following figure illustrates the architecture required for platform users. T
 
 In the preceding figure, you enable trust between the SAP BTP global account and your corporate identity provider over your tenant of SAP Cloud Identity Services - Identity Authentication. For each global account, you choose the Identity Authentication tenant to use as the identity provider for platform users. For the platform identify provider, you can have up to three Identity Authentication tenants per global account. Multiple global accounts can share the same Identity Authentication tenant. When you log on to a platform resource, such as the cockpit, you indicate the Identity Authentication tenant that you want to log on with. For example, to log on to the cockpit, copy a URL parameter from the cockpit to identify the tenant:
 
-<code>https://<i class="varname">&lt;cockpit_region&gt;</i>.cockpit.btp.cloud.sap/cockpit/?idp=<i class="varname">&lt;tenant&gt;</i>.accounts.ondemand.com</code>
+<code>https://cockpit.btp.cloud.sap/cockpit/?idp=<i class="varname">&lt;tenant&gt;</i>.accounts.ondemand.com</code>
 
-For example: `https://emea.cockpit.btp.cloud.sap/cockpit/?idp=cidppuxhm.accounts.ondemand.com`
+For example: `https://cockpit.btp.cloud.sap/cockpit/?idp=cidppuxhm.accounts.ondemand.com`
 
 Once you’ve logged on, the cockpit displays any global accounts and subaccounts of which your platform user is a member.
 

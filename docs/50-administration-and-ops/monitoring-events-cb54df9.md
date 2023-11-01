@@ -47,8 +47,6 @@ Using the *Enterprise Event Enablement ‒ Event Monitor* app, you can monitor e
     <td valign="top">
     
     *Times*
-
-
     
     </td>
     <td valign="top">
@@ -70,8 +68,6 @@ Using the *Enterprise Event Enablement ‒ Event Monitor* app, you can monitor e
     <td valign="top">
     
     *Event Data*
-
-
     
     </td>
     <td valign="top">
@@ -91,8 +87,6 @@ Using the *Enterprise Event Enablement ‒ Event Monitor* app, you can monitor e
     <td valign="top">
     
     *Consumed by*
-
-
     
     </td>
     <td valign="top">
@@ -110,8 +104,6 @@ Using the *Enterprise Event Enablement ‒ Event Monitor* app, you can monitor e
     <td valign="top">
     
     *Payload*
-
-
     
     </td>
     <td valign="top">
@@ -139,21 +131,15 @@ Events reside in an internal queue of the enterprise event enablement. Once the 
 
 Deletion timeline
 
-
-
 </th>
 <th valign="top">
 
 Event status
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -162,21 +148,15 @@ Description
 
 Hourly before the current full hour
 
-
-
 </td>
 <td valign="top">
 
 Acknowledged
 
-
-
 </td>
 <td valign="top">
 
 The event has been successfully published or consumed according to the chosen quality of service. An hourly background job deletes all acknowledged events from the event monitor.
-
-
 
 </td>
 </tr>
@@ -185,21 +165,15 @@ The event has been successfully published or consumed according to the chosen qu
 
 After 7 days
 
-
-
 </td>
 <td valign="top">
 
 Failed
 
-
-
 </td>
 <td valign="top">
 
 The enterprise event enablement either failed to publish the event after 5 attempts or the event could not be consumed by the corresponding consumer.
-
-
 
 </td>
 </tr>
@@ -208,21 +182,15 @@ The enterprise event enablement either failed to publish the event after 5 attem
 
 No deletion
 
-
-
 </td>
 <td valign="top">
 
 Not processed yet
 
-
-
 </td>
 <td valign="top">
 
 All events that have a different status than acknowledged or failed are not deleted since they are not yet fully processed.
-
-
 
 </td>
 </tr>

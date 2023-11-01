@@ -22,14 +22,10 @@ Use method `UNIT_CONVERSION_SIMPLE` to convert values from one measurement unit 
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -38,14 +34,10 @@ Value Help
 
 INPUT
 
-
-
 </td>
 <td valign="top">
 
 Input value
-
-
 
 </td>
 </tr>
@@ -53,8 +45,6 @@ Input value
 <td valign="top">
 
 NO\_TYPE\_CHECK
-
-
 
 </td>
 <td valign="top">
@@ -65,16 +55,12 @@ Conversion factor type check
 
 `Space`: Type check
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 ROUND\_SIGN
-
-
 
 </td>
 <td valign="top">
@@ -87,8 +73,6 @@ Rounding flag
 
 `'X'`: Commercial
 
-
-
 </td>
 </tr>
 <tr>
@@ -96,14 +80,10 @@ Rounding flag
 
 UNIT\_IN
 
-
-
 </td>
 <td valign="top">
 
 Unit of input value
-
-
 
 </td>
 </tr>
@@ -124,14 +104,10 @@ Unit of input value
 
 Parameter Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -140,14 +116,10 @@ Value Help
 
 ADD\_CONST
 
-
-
 </td>
 <td valign="top">
 
 Additive constant for conversion
-
-
 
 </td>
 </tr>
@@ -156,14 +128,10 @@ Additive constant for conversion
 
 DECIMALS
 
-
-
 </td>
 <td valign="top">
 
 Number of decimal places for rounding
-
-
 
 </td>
 </tr>
@@ -172,14 +140,10 @@ Number of decimal places for rounding
 
 DENOMINATOR
 
-
-
 </td>
 <td valign="top">
 
 Denominator for conversion
-
-
 
 </td>
 </tr>
@@ -188,14 +152,10 @@ Denominator for conversion
 
 NUMERATOR
 
-
-
 </td>
 <td valign="top">
 
 Numerator for conversion
-
-
 
 </td>
 </tr>
@@ -204,14 +164,10 @@ Numerator for conversion
 
 OUTPUT
 
-
-
 </td>
 <td valign="top">
 
 Output value
-
-
 
 </td>
 </tr>
@@ -232,14 +188,10 @@ Output value
 
 Exception Name
 
-
-
 </th>
 <th valign="top">
 
 Value Help
-
-
 
 </th>
 </tr>
@@ -248,14 +200,10 @@ Value Help
 
 CONVERSION\_NOT\_FOUND
 
-
-
 </td>
 <td valign="top">
 
 Conversion factor could not be determined
-
-
 
 </td>
 </tr>
@@ -264,14 +212,10 @@ Conversion factor could not be determined
 
 DIVISION\_BY\_ZERO
 
-
-
 </td>
 <td valign="top">
 
 Division by zero caught
-
-
 
 </td>
 </tr>
@@ -280,14 +224,10 @@ Division by zero caught
 
 INPUT\_INVALID
 
-
-
 </td>
 <td valign="top">
 
 Input value is not a number
-
-
 
 </td>
 </tr>
@@ -296,14 +236,10 @@ Input value is not a number
 
 OUTPUT\_INVALID
 
-
-
 </td>
 <td valign="top">
 
 Output parameter is not a number
-
-
 
 </td>
 </tr>
@@ -312,14 +248,10 @@ Output parameter is not a number
 
 OVERFLOW
 
-
-
 </td>
 <td valign="top">
 
 Field overflow
-
-
 
 </td>
 </tr>
@@ -328,14 +260,10 @@ Field overflow
 
 TYPE\_INVALID
 
-
-
 </td>
 <td valign="top">
 
 Output parameter is not a number
-
-
 
 </td>
 </tr>
@@ -344,14 +272,10 @@ Output parameter is not a number
 
 UNITS\_MISSING
 
-
-
 </td>
 <td valign="top">
 
 No units specified
-
-
 
 </td>
 </tr>
@@ -360,14 +284,10 @@ No units specified
 
 UNIT\_IN\_NOT\_FOUND
 
-
-
 </td>
 <td valign="top">
 
 UNIT\_IN is not maintained
-
-
 
 </td>
 </tr>
@@ -376,14 +296,10 @@ UNIT\_IN is not maintained
 
 UNIT\_OUT\_NOT\_FOUND
 
-
-
 </td>
 <td valign="top">
 
 UNIT\_OUT is not maintained
-
-
 
 </td>
 </tr>

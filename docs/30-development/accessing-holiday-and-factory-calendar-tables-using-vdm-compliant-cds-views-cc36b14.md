@@ -18,14 +18,10 @@ The following CDS views access the factory- and holiday calendar tables:
 
 CDS View
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -34,14 +30,10 @@ Description
 
 I\_PublicHolidayCalendarBasic
 
-
-
 </td>
 <td valign="top">
 
 General information about holiday calendars
-
-
 
 </td>
 </tr>
@@ -50,14 +42,10 @@ General information about holiday calendars
 
 I\_PublHolidayCalendarBasicText
 
-
-
 </td>
 <td valign="top">
 
 Maintained description for holiday calendars
-
-
 
 </td>
 </tr>
@@ -66,14 +54,10 @@ Maintained description for holiday calendars
 
 I\_PublicHolidayCalendarVH
 
-
-
 </td>
 <td valign="top">
 
 Value help for holiday calendars containing the holiday calendar ID, legacy holiday calendar ID, the validity start and end date and description
-
-
 
 </td>
 </tr>
@@ -82,14 +66,10 @@ Value help for holiday calendars containing the holiday calendar ID, legacy holi
 
 I\_FactoryCalendarBasic
 
-
-
 </td>
 <td valign="top">
 
 General information about a factory calendar
-
-
 
 </td>
 </tr>
@@ -98,14 +78,10 @@ General information about a factory calendar
 
 I\_FactoryCalendarBasicText
 
-
-
 </td>
 <td valign="top">
 
 Maintained description for factory calendars
-
-
 
 </td>
 </tr>
@@ -114,14 +90,10 @@ Maintained description for factory calendars
 
 I\_FactoryCalendarValueHelp
 
-
-
 </td>
 <td valign="top">
 
 Value help for factory calendars containing the factory calendar ID, legacy factory calendar ID, the validity start and end date and description
-
-
 
 </td>
 </tr>

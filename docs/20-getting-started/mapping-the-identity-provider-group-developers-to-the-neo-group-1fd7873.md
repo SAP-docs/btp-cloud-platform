@@ -39,15 +39,11 @@ The mapping is part of the trust configuration to the SAML identity provider. Fo
     <th valign="top">
 
     Option
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -55,15 +51,11 @@ The mapping is part of the trust configuration to the SAML identity provider. Fo
     <td valign="top">
     
     *Group*
-
-
     
     </td>
     <td valign="top">
     
     Select *Developers.*
-
-
     
     </td>
     </tr>
@@ -71,15 +63,11 @@ The mapping is part of the trust configuration to the SAML identity provider. Fo
     <td valign="top">
     
     *Mapping Rules* \(part 1\)
-
-
     
     </td>
     <td valign="top">
     
     Enter *Groups*.
-
-
     
     </td>
     </tr>
@@ -87,8 +75,6 @@ The mapping is part of the trust configuration to the SAML identity provider. Fo
     <td valign="top">
     
     *Mapping Rules* \(part 2\)
-
-
     
     </td>
     <td valign="top">
@@ -96,8 +82,6 @@ The mapping is part of the trust configuration to the SAML identity provider. Fo
     Select
 
     *equals*.
-
-
     
     </td>
     </tr>
@@ -105,8 +89,6 @@ The mapping is part of the trust configuration to the SAML identity provider. Fo
     <td valign="top">
     
     *Mapping Rules* \(part 3\)
-
-
     
     </td>
     <td valign="top">
@@ -114,8 +96,6 @@ The mapping is part of the trust configuration to the SAML identity provider. Fo
     Enter the developer group name from the Identity Authentication service that was created by the administrator for the Identity Authentication service, for example, *Developers*.
 
     If you are not the responsible administrator for the Identity Authentication service, make sure that you are informed about the group name \(see also [Creating an Identity Provider Group for Developers](creating-an-identity-provider-group-for-developers-2f72082.md)\).
-
-
     
     </td>
     </tr>
