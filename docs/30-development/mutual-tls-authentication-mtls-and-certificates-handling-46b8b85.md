@@ -10,6 +10,8 @@ To enable the mTLS authentication for backend connections, the following prerequ
 
     If the private key isn't provided in the credentials, you can also configure the environment variables XSUAA\_PRIVATE\_KEY \(Authorization and Trust Management\) and IAS\_PRIVATE\_KEY \(Identity Authentication\) in the application router to provide the private key.
 
+-   The destinations for the backend applications must contain either the `HTML5.ForwardAuthCertificate`s property in the configuration provided by the destination service \(see [Application Routes and Destinations](application-routes-and-destinations-3cc788e.md) \) or the `forwardAuthCertificate`s property in the destinations environment variable \(see [Environment Variables](environment-variables-ba52705.md)\).
+
 -   In Cloud Foundry, the client certificate is propagated using the `x-forwarded-client-cert` header. To enable this, the backend URL must contain a `.cert` segment in its domain.
 
 

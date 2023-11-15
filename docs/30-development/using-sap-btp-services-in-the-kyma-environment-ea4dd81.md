@@ -24,15 +24,15 @@ With the Kyma environment, you can connect SAP BTP services to your cluster and 
 
 <!-- loio975983821be040f0b7886791abcf3b7e -->
 
-## Creating and Managing Services Using Kyma Dashboard
+## Creating and Managing Services Using Kyma dashboard
 
-Create and manage Service Instances and Service Bindings using Kyma Dashboard.
+Create and manage Service Instances and Service Bindings using Kyma dashboard.
 
 
 
 ## Context
 
-Use Kyma Dashboard to create and manage your resources.
+Use Kyma dashboard to create and manage your resources.
 
 
 

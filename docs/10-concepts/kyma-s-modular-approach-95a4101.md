@@ -38,7 +38,15 @@ You can use one or both release channels in your Kyma cluster, but you can defin
 > ### Note:  
 > You can upgrade module versions, but you cannot downgrade them. To test the upstream versions, you can switch a module or an entire cluster from the regular channel to the fast one. To return to the regular channel, switch back to it, and wait until the upgrade is automatically applied in your cluster. Alternatively, you can delete and enable your module from the regular channel.
 
-To find out which module version is running on your cluster, go to [Kyma Dashboard](https://dashboard.kyma.cloud.sap/clusters).
+To find out which module version is running on your cluster, go to [Kyma dashboard](https://dashboard.kyma.cloud.sap/clusters).
+
+
+
+<a name="loio95a410144d7c449687c957da0cc43a0d__section_eqm_3qd_gzb"/>
+
+## Release Notes
+
+A release of a new module’s version is announced with a release note in [What’s New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&version=Cloud) for both, the fast and regular channels. On the day of the release in the fast channel, a release note is published with the `preview` label. The `preview` label is removed after approximately two weeks when the module version becomes available in the regular channel.
 
 **Related Information**  
 

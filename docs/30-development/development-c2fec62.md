@@ -80,6 +80,28 @@ ABAP
 <tr>
 <td valign="top">
 
+**Additional Information**
+
+</td>
+<td valign="top">
+
+[Comparison: SAP BTP, Kyma Runtime and SAP BTP, Cloud Foundry Runtime](https://help.sap.com/docs/btp/comparison-btp-runtimes/runtime-comparison?version=Cloud)
+
+</td>
+<td valign="top">
+
+[Comparison: SAP BTP, Kyma Runtime and SAP BTP, Cloud Foundry Runtime](https://help.sap.com/docs/btp/comparison-btp-runtimes/runtime-comparison?version=Cloud)
+
+</td>
+<td valign="top">
+
+[Development in the ABAP Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/development-in-abap-environment?version=Cloud)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 **Shared Benefits**
 
 </td>

@@ -16,7 +16,7 @@ In managed Kyma, customers can’t manage the tenant themselves, for example, ma
 
 The Identity Authentication on-demand tenant uses SAP Corporate IdP as an upstream source of identities. Therefore, it recognizes everyone with an account at `accounts.sap.com` and issues a valid OIDC access token to any SAP customer or employee.
 
-It doesn't mean that anybody with an account at `accounts.sap.com` has access to your Kyma runtime. The shared IdP validates identities, but permissions \(roles and role bindings\) are configured in your Kyma runtime, and not in the IdP or SAP BTP cockpit. Kyma uses Kubernetes Role Based Access Control \(RBAC\) and has the provisioning process that assures that a user who creates and owns a particular runtime is given the `cluster-admin` role. The `cluster-admin` can define any additional cluster roles or use those defined in Kyma and bind them to other users \(by username\) from Kyma Dashboard or with the kubectl CLI tool.
+It doesn't mean that anybody with an account at `accounts.sap.com` has access to your Kyma runtime. The shared IdP validates identities, but permissions \(roles and role bindings\) are configured in your Kyma runtime, and not in the IdP or SAP BTP cockpit. Kyma uses Kubernetes Role Based Access Control \(RBAC\) and has the provisioning process that assures that a user who creates and owns a particular runtime is given the `cluster-admin` role. The `cluster-admin` can define any additional cluster roles or use those defined in Kyma and bind them to other users \(by username\) from Kyma dashboard or with the kubectl CLI tool.
 
 ![](images/defaultid_7240dd9.png)
 

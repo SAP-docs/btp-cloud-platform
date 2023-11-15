@@ -33,7 +33,7 @@ Whichever workload variant you choose, you can make it part of the SAP system ex
 
 
 > ### Note:  
-> Most of the linked tutorials contain steps that you can perform both on the Kyma Dashboard and in the terminal after downloading the kubeconfig file with the cluster configuration.
+> Most of the linked tutorials contain steps that you can perform both on the Kyma dashboard and in the terminal after downloading the kubeconfig file with the cluster configuration.
 
 Follow these steps to get familiar with workloads and learn how to use them.
 

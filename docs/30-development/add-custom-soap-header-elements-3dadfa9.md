@@ -2,7 +2,7 @@
 
 # Add Custom SOAP Header Elements
 
-With the Web services SOAP header protocol, you can programmatically add custom XML elements to the SOAP request header.
+With the web services SOAP header protocol, you can programmatically add custom XML elements to the SOAP request header.
 
 
 
@@ -10,7 +10,7 @@ With the Web services SOAP header protocol, you can programmatically add custom 
 
 ## Context
 
-Some services can require setting specific XML elements in the SOAP header. To add such custom elements, you can use method `add_soap_header_element`.
+Some services can require setting specific XML elements in the SOAP header. To add such custom elements, you can use the method `ADD_SOAP_HEADER_ELEMENT`.
 
 
 
@@ -20,8 +20,8 @@ Some services can require setting specific XML elements in the SOAP header. To a
 
 1.  Create a consumer proxy by instantiating the generated class with a SOAP destination object. See [Enable SOAP Communication in Your ABAP Code](enable-soap-communication-in-your-abap-code-6ab460e.md) for more information.
 
-2.  Pass the proxy object to the factory method `CL_WS_PROTOCOL_FACTORY=>get_soap_header_protocol( )`. The factory method returns a \(proxy-specific\) WS protocol object to adjust the SOAP header.
-3.  Pass the custom XML element as string to method `ADD_SOAP_HEADER_ELEMENT`.
+2.  Pass the proxy object to the factory method `cl_ws_protocol_factory=>get_soap_header_protocol( )`. The factory method returns a \(proxy-specific\) WS protocol object to adjust the SOAP header.
+3.  Pass the custom XML element as string to the method `add_soap_header_element`.
 
 ```abap
 DATA(ws_soap_header_facade) = cl_ws_protocol_factory=>get_soap_header_protocol( proxy ).
@@ -35,7 +35,7 @@ ws_soap_header_facade->add_soap_header_element( '<XML element>' ).
 
 ## Exception Handling
 
-The API raises the exception `cx_ws_protocol_error`, for example, if the code snippet is syntactically incorrect or if one of the following reserved namespaces is used:
+The API raises the exception `CX_WS_PROTOCOL_ERROR`, for example, if the code snippet is syntactically incorrect or if one of the following reserved namespaces is used:
 
 -   `http://schemas.xmlsoap.org/ws/2004/08/addressing`
 -   `http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd`
@@ -53,14 +53,14 @@ The API raises the exception `cx_ws_protocol_error`, for example, if the code sn
 
 ## Example
 
-The following example shows how to adjust the SOAP request header followed by the Web service call.
+The following example shows how to adjust the SOAP request header followed by the web service call.
 
 > ### Note:  
 > First, you must get a SOAP destination object according to your SAP product as described in [Enable SOAP Communication in Your ABAP Code](enable-soap-communication-in-your-abap-code-6ab460e.md).
 
 > ### Sample Code:  
 > ```abap
-> "get destination object
+> " Get destination object
 > TRY.
 >     DATA(proxy) = NEW example_consumer( destination = soap_destination ).
 >      

@@ -35,7 +35,7 @@ The configuration JSON file must use the following format and set these properti
    "xsappname" : "<xsappname>",
    "appUrls": {
       "getDependencies" : "<approuter-host>/<getDependenciesPath>/{tenantId}",
-      "onSubscription" : ""<approuter-host>/<onSubscriptionPath>/{tenantId}"
+      "onSubscription" : "<approuter-host>/<onSubscriptionPath>/{tenantId}"
    },
    "displayName" : "<displayName>",
    "description" : "<description>",

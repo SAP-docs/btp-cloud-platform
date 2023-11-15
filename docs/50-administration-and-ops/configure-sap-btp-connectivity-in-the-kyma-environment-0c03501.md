@@ -27,7 +27,7 @@ To learn more, see [Extending SAP Customer Experience Products in the Kyma Envir
 
 ## Procedure
 
-1.  In Kyma Dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *Service Instances*.
+1.  In Kyma dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *Service Instances*.
 
 2.  Click *Create Service Instance +* and provide the following details:
 
@@ -43,7 +43,7 @@ To learn more, see [Extending SAP Customer Experience Products in the Kyma Envir
 
     The connectivity service instance is created.
 
-4.  In Kyma Dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *Service Bindings*.
+4.  In Kyma dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *Service Bindings*.
 
 5.  Click *Create Service Binding +* and provide the following details:
 

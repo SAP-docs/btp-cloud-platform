@@ -125,9 +125,56 @@ GET
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+[Read Application Job Status Texts](read-application-job-status-texts-2473b53.md)
+
+</td>
+<td valign="top">
+
+GET
+
+</td>
+<td valign="top">
+
+<host\>/sap/opu/odata/SAP/BC\_EXT\_APPJOB\_MANAGEMENT;v=0002/JobStatusInfoSet
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Restart a Failed Application Job](restart-a-failed-application-job-08a32d9.md)
+
+</td>
+<td valign="top">
+
+POST
+
+</td>
+<td valign="top">
+
+<host\>/sap/opu/odata/sap/BC\_EXT\_APPJOB\_MANAGEMENT;v=0002/JobRestart?JobName='JobName'&JobRunCount='JobCount'&JobRestartMode='E'
+
+</td>
+</tr>
 </table>
 
-The meaning of a non-zero return code used in the above operations can be found in the following table:
+For more information on these operations, see [3383044](https://me.sap.com/notes/3383044).
+
+**Error Handling**
+
+In case of an error, the external job scheduling service API sets the http status code to 400 and returns a message of an SAP message class. In the http response, you'll see the message class, the message number, and the message text. One example:
+
+> ### Sample Code:  
+> ```
+> <code>APJ_RT/003</code><message xml:lang="en">Job doesn't exist.</message>
+> ```
+
+In this example, the message with number 003 of message class `APJ_RT` and the text "Job doesn't exist" was returned.
+
+In most cases, a message of the message class `APJ_RT` is used. The following table lists the message numbers and the corresponding texts:
 
 
 <table>

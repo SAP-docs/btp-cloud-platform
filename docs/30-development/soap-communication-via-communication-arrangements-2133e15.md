@@ -100,7 +100,7 @@
 >     DATA(soap_destination) = cl_soap_destination_provider=>create_by_comm_arrangement(
 >                                comm_scenario  = '<test scenario>'
 >                                service_id     = '<service id>'
->                                comm_system    = '<comm system>' ).
+>                                comm_system_id    = '<comm system>' ).
 >  
 >     DATA(proxy) = NEW zsc_co_epm_product_soap( destination = soap_destination ).
 >  

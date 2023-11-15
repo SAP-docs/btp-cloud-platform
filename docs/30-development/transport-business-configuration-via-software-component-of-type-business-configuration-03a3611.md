@@ -12,7 +12,7 @@ Learn how to transport business configuration via a software component of type *
 
 To use the *Manage Software Components* app, business role `SAP_BR_ADMINISTRATOR` has to be assigned.
 
-To use the *Export Customizing Transports* app, business role `SAP_BR_BPC_EXPERT` or `SAP_BR_ADMINISTRATOR` has to be assigned.
+To use the *Export Customizing Transports* app, business role `SAP_BR_BPC_EXPERT` has to be assigned.
 
 
 

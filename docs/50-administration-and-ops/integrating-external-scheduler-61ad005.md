@@ -88,11 +88,3 @@ Return code.
 
 The details included in the response vary according to the type of operation. For more information, see [Operations for External Job Scheduling Service](operations-for-external-job-scheduling-service-cbeb209.md).
 
-
-
-<a name="loio61ad00559ce7498a97f4a6dcfc1fcb8d__section_emr_pxs_jwb"/>
-
-## Additional Information
-
-The link to the API on the SAP Business Accelerator Hub: [External Scheduler Integration](https://api.sap.com/api/BC_EXT_APPJOB_MANAGEMENT/overview).
-

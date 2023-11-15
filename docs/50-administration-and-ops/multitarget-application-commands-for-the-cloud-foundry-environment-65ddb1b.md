@@ -606,9 +606,9 @@ Using this option, you will not be asked to manually confirm the deletion of the
 When using the *\--strategy* option for “blue-green”, you can choose to skip the phase for testing and you will not be asked to manually confirm the deletion of the older version of the MTA applications. The deployment process is performed without any interruptions and you are not prompted to confirm the switch of routes to the new version of the MTA applications.
 
 > ### Note:  
-> This option is equivalent to *\--no-confrim* from “bg-deploy”.
+> This option is equivalent to *\--no-confirm* from “bg-deploy”.
 
-Note
+
 
 </td>
 </tr>

@@ -22,8 +22,6 @@ You can view the captured data from all profiles in the technical monitoring coc
 
     The *Capture Request Statistics* app opens.
 
-    ![](images/Capture_Request_Statistics_Entry_Screen_54a4fb1.png)
-
 2.  To create a new capture profile, choose *Create*.
 
 3.  Enter the following data:
@@ -167,7 +165,7 @@ You can view the captured data from all profiles in the technical monitoring coc
     </td>
     <td valign="top">
     
-    You can select the checkbox *Health Monitoring* for any capture profile that you create. As a result, the total number of captured ABAP statistics records for these profiles is shown in Health Monitoring of SAP Cloud ALM. For more information, see [Central Health Monitoring Using SAP Focused Run and SAP Cloud ALM](central-health-monitoring-using-sap-focused-run-and-sap-cloud-alm-8d6e2e7.md).
+    You can select the checkbox *Health Monitoring* for any capture profile that you create. As a result, the total number of captured ABAP statistics records for these profiles is shown in Health Monitoring of SAP Cloud ALM.
     
     </td>
     </tr>

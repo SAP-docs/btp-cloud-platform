@@ -997,6 +997,23 @@ Message Class
 <tr>
 <td valign="top">
 
+NONT
+
+</td>
+<td valign="top">
+
+SAP Object Note Type
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 NROB
 
 </td>

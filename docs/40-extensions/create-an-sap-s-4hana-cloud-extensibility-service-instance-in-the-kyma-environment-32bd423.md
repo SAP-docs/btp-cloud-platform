@@ -36,7 +36,7 @@ For communication arrangements with inbound connections, a destination on a suba
 
 1.  Navigate to the subaccount for which you want to create an SAP S/4HANA Cloud Extensibility service instance.
 
-2.  On the subaccount *Overview* page, in the *Kyma Environment* section, open the Kyma Dashboard.
+2.  On the subaccount *Overview* page, in the *Kyma Environment* section, open the Kyma dashboard.
 
 3.  Choose *Namespaces* from the left-hand side navigation and open the namespace in which you want to create a service instance.
 

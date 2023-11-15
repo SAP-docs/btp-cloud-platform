@@ -965,7 +965,7 @@ Includes an array of allowed identity providers. The default is that all identit
 As an option, developers can configure on application level which identity providers can be used for business users to log on to a certain application. The value of `allowedproviders` is the origin key of your identity provider. You find the origin key in your subaccount in the *Security* \> *Trust Configuration* page of your identity providers.
 
 > ### Recommendation:  
-> We recommend that you configure allowed identity providers on subaccount level. For more information, see [Provide Logon Link Help to Identity Provider for Business Users](../50-administration-and-ops/provide-logon-link-help-to-identity-provider-for-business-users-b8c0aac.md).
+> We recommend that you configure allowed identity providers on subaccount level. For more information, see [Using Multiple Identity Providers from the Same Subaccount](../50-administration-and-ops/using-multiple-identity-providers-from-the-same-subaccount-b8c0aac.md).
 
 
 

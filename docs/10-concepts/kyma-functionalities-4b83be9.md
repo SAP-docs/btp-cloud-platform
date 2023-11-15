@@ -119,7 +119,7 @@ limited \(SAP BTP, Kyma runtime supports commands for serverless Functions, not 
 <tr>
 <td valign="top">
 
-Centrally hosted Kyma Dashboard
+Centrally hosted Kyma dashboard
 
 </td>
 <td valign="top">

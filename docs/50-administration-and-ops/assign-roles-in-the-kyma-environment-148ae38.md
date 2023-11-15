@@ -29,9 +29,9 @@ You can assign roles to a group of users only if you use a custom identity provi
 
 ## Procedure
 
-1.  Log in to Kyma Dashboard. The URL is in the *Overview* section of your subaccount.
+1.  Log in to Kyma dashboard. The URL is in the *Overview* section of your subaccount.
 
-2.  In Kyma Dashboard, select or create the Namespace in which you want to assign roles.
+2.  In Kyma dashboard, select or create the Namespace in which you want to assign roles.
 
 3.  To create a role binding, go to *Configuration* \> *Role Bindings* \> *\+ Create Role Binding*. Fill in the required fields:
 
@@ -55,7 +55,7 @@ You can assign roles to a group of users only if you use a custom identity provi
 
 ## Results
 
-The users have the required permissions within the specified Namespace. If the users don't have additional Cluster Role Binding to list the Namespaces, they can still access the Kyma Dashboard overview but must enter the required Namespace name manually.
+The users have the required permissions within the specified Namespace. If the users don't have additional Cluster Role Binding to list the Namespaces, they can still access the Kyma dashboard overview but must enter the required Namespace name manually.
 
 
 

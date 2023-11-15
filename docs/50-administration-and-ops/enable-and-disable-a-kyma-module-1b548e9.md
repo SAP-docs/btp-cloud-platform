@@ -17,9 +17,9 @@ If you want to use a Kyma module, you must enable it. If you don't need it anymo
 
 <!-- loio83744213890d4efe979d72ce706e1115 -->
 
-## Enable and Disable a Kyma Module Using Kyma Dashboard
+## Enable and Disable a Kyma Module Using Kyma dashboard
 
-Use Kyma Dashboard to enable and disable a Kyma module in the release channel of your choice.
+Use Kyma dashboard to enable and disable a Kyma module in the release channel of your choice.
 
 
 
@@ -37,7 +37,7 @@ If you want to enable additional modules, follow this procedure:
 
 ## Procedure
 
-1.  Log in to Kyma Dashboard. The URL is in the *Overview* section of your subaccount.
+1.  Log in to Kyma dashboard. The URL is in the *Overview* section of your subaccount.
 
 2.  Go to the *kyma-system* Namespace.
 

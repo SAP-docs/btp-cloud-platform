@@ -89,7 +89,7 @@ Your Kyma environment is instantiated with a custom IdP.
 ## Next Steps
 
 > ### Caution:  
-> According to Oauth2 flows, IdPs have lists of allowed callback URLs. Configure the Kyma Dashboard URL \(`https://dashboard.kyma.cloud.sap`\) and the localhost for kubectl authentication \(`http://localhost:8000`\) as allowed callback URLs at your IdP provider, so that authenticated users can be redirected back to the Kyma application.
+> According to Oauth2 flows, IdPs have lists of allowed callback URLs. Configure the Kyma dashboard URL \(`https://dashboard.kyma.cloud.sap`\) and the localhost for kubectl authentication \(`http://localhost:8000`\) as allowed callback URLs at your IdP provider, so that authenticated users can be redirected back to the Kyma application.
 
 Access to Kyma is realized using the authorization code flow with PKCE. Therefore, make sure that *Allow Public Client Flows* is enabled in your Identity Authentication tenant. For more information, see [Configure OpenID Connect Application for Authorization Code Flow](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/4a9425465cbb4a7aa7c3d86c9cabca51.html?locale=en-US&version=Cloud#next-steps), section *Next Steps*.
 

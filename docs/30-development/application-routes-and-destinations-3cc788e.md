@@ -268,6 +268,18 @@ Configures the name of the Identity Authentication dependency that is used to ex
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+HTML5.ForwardAuthCertificates
+
+</td>
+<td valign="top">
+
+If `true`, the certificates and key of the authentication service are added to the HTTP connection to the destination. The default value is `false`. For more information see: [Mutual TLS Authentication \(mTLS\) and Certificates Handling](mutual-tls-authentication-mtls-and-certificates-handling-46b8b85.md).
+
+</td>
+</tr>
 </table>
 
 -   If a destination with the same name is defined both in the environment destination and the destination service, the destination configuration loads the settings from the environment.

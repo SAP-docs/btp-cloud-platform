@@ -18,7 +18,7 @@ The *Custom Business Configurations* app serves as an entry point to the [Busine
 
 ## Access Information
 
-The following business catalog needs to be assigned to your user to access the app: `SAP_CA_BC_IC_LND_PC`.
+The following business catalog needs to be assigned to your user to access the app: `SAP_CORE_BC_BCT_MBC_PC`.
 
 The business catalog is contained in the business role template: `SAP_BR_BPC_EXPERT`.
 

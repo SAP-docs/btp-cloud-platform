@@ -101,6 +101,8 @@ The registration process has the following states displayed in the cockpit:
 
         -   *All Communication Scenarios*: to create any of the communication scenarios in SAP S/4HANA Cloud.
 
+        -   *Eventing Between SAP Cloud Systems*: to allow the automatic enablement of the `SAP_COM_0892` communication scenario in SAP S/4HANA Cloud.
+
         -   *Integration with SAP Ariba Buying*: to allow the automatic enablement of the `SAP_COM_0545` and `SAP_COM_0A00` communication scenarios in SAP S/4HANA Cloud.
 
         -   *Integration with SAP Start*: to allow the automatic enablement of the `SAP_COM_0647` communication scenario in SAP S/4HANA Cloud.

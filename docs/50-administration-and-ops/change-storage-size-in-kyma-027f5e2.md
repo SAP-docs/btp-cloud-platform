@@ -25,7 +25,7 @@ In a Kubernetes cluster, your customer data is stored in volumes. A “Persisten
 
 ## Procedure
 
-1.  Go to Kyma Dashboard and select the correct namespace and workload.
+1.  Go to Kyma dashboard and select the correct namespace and workload.
 
 2.  Find the PVC you want to resize and enter the desired new size of the volume.
 

@@ -132,7 +132,7 @@ SAP Continuous Integration and Delivery
 </td>
 <td valign="top">
 
-[sap-cloud-sdk](https://help.sap.com/viewer/SAP-Cloud-Platform-Continuous-Integration-and-Delivery/bfe48a4b12ed41868f92fa564829f752.html) 
+[Configure an SAP Cloud Application Programming Model Job in Your Repository](https://help.sap.com/docs/continuous-integration-and-delivery/continuous-integration-and-delivery-internal/configure-sap-cloud-application-programming-model-job-in-your-repository) 
 
 </td>
 <td valign="top">

@@ -12,7 +12,7 @@ Add members to your subaccount to enable users to access resources available the
 
 -   You’re managing a multi-environment subaccount.
 
-    For more information about adding members to Neo subaccounts, see [Add Members to Your Subaccount \[Feature Set B\]](add-members-to-your-subaccount-feature-set-b-1e1b7b6.md).
+    For more information about adding members to Neo subaccounts, see[Add Members to Your Neo Subaccount](https://help.sap.com/docs/btp/sap-btp-neo-environment/add-members-to-your-neo-subaccount?version=Cloud).
 
 -   You must be a subaccount administrator to add other subaccount members.
 
@@ -62,7 +62,7 @@ There are two types of users in subaccounts:
 
 ## Procedure
 
-1.  Navigate to your subaccount account.
+1.  Navigate to your subaccount.
 
 2.  Add a user to your subaccount.
 
@@ -85,4 +85,6 @@ The user can log on to SAP BTP and access resources according to the role collec
 
 
 [User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, member management happens at all levels from global account to environment, while user management is done for business applications.")
+
+[Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md "Learn how to navigate to your global accounts and subaccounts in the SAP BTP cockpit.")
 

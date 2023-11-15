@@ -192,6 +192,18 @@ Domain
 <tr>
 <td valign="top">
 
+DRTY
+
+</td>
+<td valign="top">
+
+Dictionary: CDS Type Definitions
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 DTEL
 
 </td>
@@ -336,12 +348,60 @@ Message Class
 <tr>
 <td valign="top">
 
+NONT
+
+</td>
+<td valign="top">
+
+SAP Object Node Type
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 NROB
 
 </td>
 <td valign="top">
 
 Number Range Object
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RONT
+
+</td>
+<td valign="top">
+
+SAP Object Type
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAJC
+
+</td>
+<td valign="top">
+
+Application Job Catalog Entry
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAJT
+
+</td>
+<td valign="top">
+
+Application Job Template
 
 </td>
 </tr>

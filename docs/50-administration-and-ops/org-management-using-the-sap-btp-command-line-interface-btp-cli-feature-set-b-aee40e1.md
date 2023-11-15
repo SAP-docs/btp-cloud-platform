@@ -168,7 +168,12 @@ Get the details of a specific Cloud Foundry org in a subaccount.
 </td>
 <td valign="top">
 
-<code>btp create accounts/environment-instance --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --display-name <i class="varname">&lt;DISPLAY_NAME&gt;</i> --service <i class="varname">&lt;SERVICE&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i> --environment cloudfoundry --parameters "{\"instance_name\":\"<i class="varname">&lt;ORG_NAME&gt;</i>\"}"</code> 
+<code>btp create accounts/environment-instance --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --display-name <i class="varname">&lt;DISPLAY_NAME&gt;</i> --service <i class="varname">&lt;SERVICE&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i> --environment cloudfoundry --parameters "{\"instance_name\":\"<i class="varname">&lt;ORG_NAME&gt;</i>\"}"</code>
+
+> ### Note:  
+> If the logged-in region has multiple landscapes, then you must specify the name of the landscape using the `--landscape` parameter in the command. You can obtain the valid values using the `btp list accounts/available-environment` command.
+
+
 
 </td>
 <td valign="top">
@@ -267,9 +272,9 @@ The Cloud Foundry org and all its data will be lost.
 
 <a name="loioaee40e1afa56445a9bd57c2621d6eaaa__section_k2c_hj1_fyb"/>
 
-## Adding and Removing of Org Members
+## Adding and Removing Org Managers
 
-You can also use the btp CLI to add or remove org members.
+You can also use the btp CLI to add or remove org managers.
 
 ****
 
@@ -315,12 +320,14 @@ Additional Info
 </td>
 <td valign="top">
 
-Add one or more users to a Cloud Foundry org in a subaccount.
+Add one or more org managers to a Cloud Foundry org in a subaccount.
+
+`usersToAdd` adds the OrgManager role to the user, and, if it doesnt exist yet, it creates the user in the org.
 
 </td>
 <td valign="top">
 
-`ID`: The ID of the environment instance for which to add org members.
+`ID`: The ID of the environment instance for which to add org managers.
 
 `SUBACCOUNT_ID`: The ID of the subaccount.
 
@@ -346,12 +353,14 @@ For examples that show how to pass JSON parameters in the command line with diff
 </td>
 <td valign="top">
 
-Remove one or more users from a Cloud Foundry org in a subaccount.
+Remove one or more org managers from a Cloud Foundry org in a subaccount.
+
+`usersToRemove` removes the OrgManager role from the the user, but it doesn't remove the user from the org.
 
 </td>
 <td valign="top">
 
-`ID`: The ID of the environment instance for which to remove org members.
+`ID`: The ID of the environment instance for which to remove org managers.
 
 `SUBACCOUNT_ID`: The ID of the subaccount.
 
@@ -360,7 +369,7 @@ Remove one or more users from a Cloud Foundry org in a subaccount.
 </td>
 <td valign="top">
 
- 
+To learn how to remove a user from the Cloud Foundry org and the subaccount, see [About User Management in the Cloud Foundry Environment](about-user-management-in-the-cloud-foundry-environment-8e6ce96.md).
 
 </td>
 </tr>
@@ -378,4 +387,6 @@ Remove one or more users from a Cloud Foundry org in a subaccount.
 [Add Org Members Using the Cockpit](add-org-members-using-the-cockpit-a4eeaf1.md "Add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.")
 
 [Managing Spaces](managing-spaces-5209d55.md "Learn how to create and delete Cloud Foundry spaces, as well as how to add members to a space.")
+
+[About User Management in the Cloud Foundry Environment](about-user-management-in-the-cloud-foundry-environment-8e6ce96.md "The Cloud Foundry environment has its own store for user data within SAP BTP. Understanding the relationship between SAP BTP and the Cloud Foundry environment is useful.")
 

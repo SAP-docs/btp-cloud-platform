@@ -56,3 +56,5 @@ You can perform the following tasks:
 
 [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md "In the cloud management tools feature set B, SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.")
 
+[Limits for Technical Artifacts of the SAP Authorization and Trust Management Service](../60-security/limits-for-technical-artifacts-of-the-sap-authorization-and-trust-management-service-6d3ef52.md "To improve the resiliency of the SAP Authorization and Trust Management service, we have introduced limitations on technical artifacts of the service.")
+

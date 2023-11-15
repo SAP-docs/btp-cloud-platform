@@ -573,7 +573,31 @@ Configures the name of the Identity Authentication dependency that is used to ex
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+forwardAuthCertificates
+
+</td>
+<td valign="top">
+
+Boolean
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+If `true`, the certificates and key of the authentication service are added to the HTTP connection to the destination. The default value is `false`. For more information see: [Mutual TLS Authentication \(mTLS\) and Certificates Handling](mutual-tls-authentication-mtls-and-certificates-handling-46b8b85.md) 
+
+</td>
+</tr>
 </table>
+
+If `true`, the certificates and key of the authentication service are added to the HTTP connection to the destination. The default value is `false`. For more information see: [Mutual TLS Authentication \(mTLS\) and Certificates Handling](mutual-tls-authentication-mtls-and-certificates-handling-46b8b85.md)
 
 The following example shows a simple configuration for the *<destinations\>* environment variable:
 

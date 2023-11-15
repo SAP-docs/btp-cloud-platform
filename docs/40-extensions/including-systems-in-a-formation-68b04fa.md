@@ -273,6 +273,34 @@ Supported
         
         </td>
         </tr>
+        <tr>
+        <td valign="top">
+        
+        *Integration with SAP Ariba Buying* 
+        
+        </td>
+        <td valign="top">
+        
+        Formations of type *Integration with SAP Ariba Buying* set up SAP Ariba Buying with SAP S/4HANA Cloud on SAP BTP.
+
+        See [Enabling SAP Ariba Buying](enabling-sap-ariba-buying-3c98c84.md).
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        *Integration with SAP Start* 
+        
+        </td>
+        <td valign="top">
+        
+        Formations of type *Integration with SAP Start* set up SAP Start with SAP S/4HANA Cloud on SAP BTP.
+
+        See [Enabling SAP Start](enabling-sap-start-f7d3f5e.md).
+        
+        </td>
+        </tr>
         </table>
         
         Depending on the type, a list of systems that can be included in this formation is loaded at the following step of the wizard.

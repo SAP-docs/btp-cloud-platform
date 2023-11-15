@@ -27,6 +27,9 @@ Learn how to update your ABAP environment instance.
 > ### Restriction:  
 > The HANA memory size can currently only be increased, and not yet decreased.
 
+> ### Note:  
+> Currently, you can increase, but not decrease the values of the size of persistence and size of persistence disk.
+
 
 
 ## Procedure
@@ -41,7 +44,9 @@ Learn how to update your ABAP environment instance.
 
 4.  In the *Update Instance* wizard, you can update the parameters listed above. See [Increasing the Quota for the ABAP Environment](increasing-the-quota-for-the-abap-environment-c40cb18.md).
 
-5.  Choose *Update Instance* to save your changes.
+5.  In the *Update Instance* wizard, you can keep values that you don't want to change on '-1' or 'auto'.
+
+6.  Choose *Update Instance* to save your changes.
 
 
 

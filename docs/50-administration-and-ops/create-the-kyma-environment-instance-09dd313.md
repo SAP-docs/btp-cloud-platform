@@ -65,9 +65,9 @@ You have created a Kyma environment instance.
 
 ## Next Steps
 
--   To get the link to Kyma Dashboard, navigate to the overview of the instance under *Instances and Subscriptions*.
+-   To get the link to Kyma dashboard, navigate to the overview of the instance under *Instances and Subscriptions*.
 
--   To manage access to the Kyma environment and Kyma Dashboard, assign roles as needed.
+-   To manage access to the Kyma environment and Kyma dashboard, assign roles as needed.
 
 -   To use functionalities such as telemetry and eventing, or to use BTP services, enable the respective Kyma module.
 

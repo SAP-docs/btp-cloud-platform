@@ -194,9 +194,9 @@ After you’ve successfully added the entitlements, you can enable your trial Ky
 
 3.  Provide the name of your cluster and, optionally, a description.
 
-    Now you need to wait a bit until the environment is provisioned. Once this step is completed, you see the link to the Kyma Dashboard.
+    Now you need to wait a bit until the environment is provisioned. Once this step is completed, you see the link to the Kyma dashboard.
 
-4.  Access the Kyma Dashboard. For further information on the development options, see [Development in the Kyma Environment](../30-development/development-in-the-kyma-environment-606ec61.md).
+4.  Access the Kyma dashboard. For further information on the development options, see [Development in the Kyma Environment](../30-development/development-in-the-kyma-environment-606ec61.md).
 
 
 

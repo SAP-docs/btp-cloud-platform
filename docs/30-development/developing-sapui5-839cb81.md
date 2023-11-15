@@ -25,26 +25,27 @@ If you are about to decide which UI technology to use , read everything you need
 
 
 
-### SAP Web IDE Full-Stack
+### SAP Business Application Studio
 
-Use the SAP Web IDE Full-Stack to develop on Cloud Foundry. Even though the SAP Web IDE Full-Stack is running on the Neo Environment, you can define your space in the Cloud Foundry environment in the project settings of your project. The possibility to define space settings is limited to Multi-Target Application projects.
+Use the SAP Business Application Studio to develop on Cloud Foundry. You just need to create a dev space, which is a preconfigured development environment with the tools, capabilities, and resources needed for developing your application.
 
 1.  Register for an SAP BTP trial account at [https://account.hanatrial.ondemand.com/](https://account.hanatrial.ondemand.com/) and log on afterwards.
 
-2.  [Open SAP Web IDE Full-Stack](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/51321a804b1a4935b0ab7255447f5f84.html)
+2.  [Set Up SAP Business Application Studio in a trial account.](https://help.sap.com/docs/bas/sap-business-application-studio/getting-started-with-trial-account?version=Cloud)
 
-3.  [Setting Up Application Projects - Create a Project from Scratch & Select a Cloud Foundry Space](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/3b533e3723674fad90f94510b92f10af.html)
+3.  [Create a SAP Fiori dev space.](https://help.sap.com/docs/bas/sap-business-application-studio/sap-fiori?version=Cloud)
+4.  [Create a Project - either using the wizard or the terminal.](https://help.sap.com/docs/bas/sap-business-application-studio/create-project?version=Cloud)
 
-4.  [Create an HTML5 Module](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/ca3733f0bb5748c39568952e51f86d16.html)
 
+[Learn how you can use SAP Business Application Studio together with UI5 Tooling to develop state-of-the-art UI5 apps.](https://sapui5.hana.ondemand.com/#/topic/6bbad66475d040f39df6fbbaabe6f40f.html)
 
 
 
 ### Tutorials
 
-In an HTML5 module in SAP Web IDE Full-Stack, more files are created than described in these tutorials, but you can run through it and at the end you have a running application on the Cloud Foundry environment.
+Depending on the project template you're using you have a project that is more advanced than what you see in the following tutorials. Those tutorials show you the basics and you can start a new and empty project to follow along those SAPUI5 tutorials from the demo kit.
 
-For more information have a look at the [Get Started: Setup and Tutorials](https://sapui5.hana.ondemand.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218) section that contains the following topics and more:
+Have a look at the [Get Started: Setup and Tutorials](https://sapui5.hana.ondemand.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218) section that contains the following topics and more:
 
 -   [“Hello World!”](https://sapui5.hana.ondemand.com/#/topic/592f36fd077b45349a67dcb3efb46ab1)
 

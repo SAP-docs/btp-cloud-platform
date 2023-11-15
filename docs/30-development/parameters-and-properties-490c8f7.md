@@ -921,3 +921,67 @@ Resolved parameters can only be referenced from other resources or from a cross-
 > ### Note:  
 > In order to use this feature, it is necessary to specify `${service-guid}` inside the `properties` section of the resource. Consumer of service GUID value must add respective resource name in the `requires` section and specify the `processed-after` parameter because the order of resource processing must be explicitly described.
 
+
+
+### Dynamic parameter as a cross-MTA dependency
+
+Resolved parameters can also be referenced from a cross-MTA dependency, allowing the service instance to be referenced from another MTA.
+
+The following example shows the dependency declaration referencing a dynamic parameter in the deployment descriptor of the “provider” MTA:
+
+> ### Sample Code:  
+> ```
+> _schema-version: 3
+> ID: dynamic-service-guid-consumer
+> version: 1.0.0
+> 
+> modules:
+>   - name: app-consumer
+>     type: staticfile
+>     path: content.zip
+>     requires:
+>       - name: db-config
+>         properties:
+>           reference_instance: ~{db-instanceid}
+> 
+> resources:
+>   - name: db-config
+>     type: configuration
+>     parameters:
+>       provider-id: "dynamic-service-guid-provider:db-guid"
+>       version: ">=1.0.0"
+>       target:
+>         org: ${org}
+>         space: ${space}
+> ```
+
+The following example shows the dependency declaration in the deployment descriptor of the “consumer” MTA:
+
+> ### Sample Code:  
+> ```
+> _schema-version: 3
+> ID: dynamic-service-guid-consumer
+> version: 1.0.0
+> 
+> modules:
+>   - name: app-consumer
+>     type: staticfile
+>     path: content.zip
+>     requires:
+>       - name: db-config
+>         properties:
+>           reference_instance: ~{db-instanceid}
+> 
+> resources:
+>   - name: db-config
+>     type: configuration
+>     parameters:
+>       provider-id: "dynamic-service-guid-provider:db-guid"
+>       version: ">=1.0.0"
+>       target:
+>         org: ${org}
+>         space: ${space}
+> ```
+
+For more information about cross-MTA configurations see [Cross-MTA Dependencies](cross-mta-dependencies-b8e1953.md).
+

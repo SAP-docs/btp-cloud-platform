@@ -15,6 +15,11 @@ Find more information on the three main languages supported by SAP by following 
 -   [Developing Python in the Cloud Foundry Environment](developing-python-in-the-cloud-foundry-environment-acf8f49.md)
 
 
+> ### Note:  
+> Please be informed that the SAP BTP, Cloud Foundry runtime Cloud Service is an open Platform-as-a-Service targeted at microservice development and orchestration. SAP is a member of the Cloud Foundry Foundation, which provides Cloud Foundry, a model for cloud-native application delivery. SAP allows use of certain, publicly available, system buildpacks that are supported by the Cloud Service. However, SAP is not in possession or control of, and cannot be responsible for the content, operation, or use of such system buildpacks, which are not part of the Cloud Service \(including SAP Business Technology Platform\).
+> 
+> SAP may, without notice, remove any system buildpacks at any time and at SAP’s own discretion.
+
 
 
 <a name="loio2d0ff228fbd049638daa3cc2a66066cb__section_r4z_vr2_25b"/>

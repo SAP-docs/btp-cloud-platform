@@ -2,7 +2,7 @@
 
 # Troubleshooting: Forbidden Access to Kyma
 
-Learn how to get rid of the `forbidden` error messages while using Kyma Dashboard or kubectl CLI tool.
+Learn how to get rid of the `forbidden` error messages while using Kyma dashboard or kubectl CLI tool.
 
 
 
@@ -10,7 +10,7 @@ Learn how to get rid of the `forbidden` error messages while using Kyma Dashboar
 
 ## Symptom
 
-You see the `forbidden` error messages while using Kyma Dashboard or kubectl CLI tool, even though they worked fine before.
+You see the `forbidden` error messages while using Kyma dashboard or kubectl CLI tool, even though they worked fine before.
 
 
 

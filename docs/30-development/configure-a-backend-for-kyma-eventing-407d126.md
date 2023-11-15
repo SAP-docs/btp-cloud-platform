@@ -31,7 +31,7 @@ By default, Kyma clusters have an Eventing backend based on the [NATS](https://n
 
 ## Procedure
 
-1.  Log in to Kyma Dashboard. The URL is in the *Overview* section of your subaccount.
+1.  Log in to Kyma dashboard. The URL is in the *Overview* section of your subaccount.
 
 2.  To generate an SAP Event Mesh Secret, select a Namespace and go to *Service Management* \> *BTP Service Instance*.
 
@@ -86,21 +86,15 @@ By default, Kyma clusters have an Eventing backend based on the [NATS](https://n
 
 6.  Go to *Service Management* \> *BTP Service Bindings* and click *Create Service Binding +*.
 
-7.  Provide the name of your binding, and select the name of your instance from the list, then click *Create*.
+7.  Provide the name of your binding, select the name of your instance from the list, and click *Create*.
 
-8.  In your Namespace, go to *Configuration* \> *Secrets*.
+8.  Go to the `kyma-system` namespace.
 
-9.  To switch the backend to SAP Event Mesh, you must label your Secret. Choose the name of your binding, click *Edit*, and label the Secret with `kyma-project.io/eventing-backend: beb`.
+9.  Go to *Kyma* \> *Eventing*, open the `eventing` resource, and click *Edit*.
 
-    > ### Note:  
-    > To see the SAP Event Mesh Secret information, click *Decode*.
+10. In the *Backend Type* section, select `EventMesh` from the dropdown.
 
-    In the editor, you see the following:
-
-    ```
-      labels:
-          kyma-project.io/eventing-backend: beb
-    ```
+11. In the *Event Mesh Secret* section, select the `namespace` and `name` of your binding, and click *Update*.
 
 
 
@@ -111,8 +105,6 @@ By default, Kyma clusters have an Eventing backend based on the [NATS](https://n
 
 You can use SAP Event Mesh.
 
-There can be only one labeled SAP Event Mesh Secret in the whole Kyma cluster. If there are multiple Secrets, the Eventing infrastructure is marked as not ready.
-
 
 
 <a name="loio407d1266017f4b529b61665fa7408c41__postreq_vqh_yw3_dzb"/>
@@ -121,11 +113,11 @@ There can be only one labeled SAP Event Mesh Secret in the whole Kyma cluster. I
 
 You can switch the Eventing backend from SAP Event Mesh back to NATS:
 
-1.  Log in to Kyma Dashboard and select your namespace.
+1.  Log in to Kyma dashboard and select the `kyma-system` namespace.
 
-2.  Go to *Configuration* \> *Secrets*, and delete the Secret.
+2.  Go to *Kyma* \> *Eventing*, open the `eventing` resource and click *Edit*.
 
-3.  Enable the NATS module.
+3.  In the *Backend Type* section, select `NATS` from the dropdown, and click *Update*.
 
 
 **Related Information**  
