@@ -37,7 +37,7 @@ If you deploy an application with a resource type attribute `active` set to `fal
 
 **Deployment with `managed-service`, `existing-service` and `user-provided service`**
 
-No binding is created and in case of `managed-service`, no service is created .
+No binding is created and in case of `managed-service`, no service is created.
 
 **Deployment with `org.cloudfoundry.existing-service-key` **
 
@@ -121,7 +121,7 @@ In the above example:
     > ```
 
     > ### Note:  
-    > To choose a different service plan for a predefined MTA resource type, for example, to change the service plan for `PostgreSQL` service, you define it using:
+    > To choose a different service plan for a predefined MTA resource type, for example to change the service plan for `PostgreSQL` service, you define it using:
     > 
     > > ### Sample Code:  
     > > ```
@@ -152,21 +152,20 @@ In the above example:
         > ### Note:  
         > Service names that do not comply with the Cloud Foundry limitation of 50 symbols are automatically corrected. In such cases, the name is shortened and its end is replaced with a hash code.
 
-    -   \(Required\) `config` - Map value, containing the service creation configuration, for example, url and user credentials \(user and password\)
+    -   \(Required\) `config` - Map value, containing the service creation configuration, for example url and user credentials \(user and password\)
 
     > ### Example:  
-
-    > ### Sample Code:  
-    > ```
-    > resources:
-    >   - name: my-destination-service
-    >     type: org.cloudfoundry.user-provided-service
-    >     parameters:
-    >       config:
-    >         <credential1>: <value1>
-    >         <credential2>: <value2>
-    > 
-    > ```
+    > > ### Sample Code:  
+    > > ```
+    > > resources:
+    > >   - name: my-destination-service
+    > >     type: org.cloudfoundry.user-provided-service
+    > >     parameters:
+    > >       config:
+    > >         <credential1>: <value1>
+    > >         <credential2>: <value2>
+    > > 
+    > > ```
 
 -   `configuration`
 
@@ -1145,7 +1144,7 @@ Write
 </td>
 <td valign="top">
 
-Used when consuming an existing service key. Specifies the name of the service key. See Consumption of existing service keys for more information.
+Used when consuming an existing service key. Specifies the name of the service key. See [Consumption of Service Keys](service-keys-32297f1.md#loio32297f15898f47329df76b706447fc3e__consumption-of-service-keys) for more information.
 
 </td>
 <td valign="top">

@@ -4,7 +4,7 @@
 
 A Multitarget application \(MTA\) is logically a single application comprised of multiple parts created with different technologies, which share the same lifecycle.
 
-The developers of the MTA describe the desired result using the MTA model, which contains MTA modules, MTA resources, and interdependencies between them. Afterward, the SAP Cloud Deployment service validates, orchestrates, and automates the deployment of the MTA, which results in Cloud Foundry applications, services and SAP specific contents. For more information about the Multitarget Application model, see the official [The Multitarget Application Model v.2](https://www.sap.com/documents/2016/06/e2f618e4-757c-0010-82c7-eda71af511fa.html) and the [The Multitarge Application Model v.3](https://www.sap.com/documents/2021/09/66d96898-fa7d-0010-bca6-c68f7e60039b.html) specification documents.
+The developers of the MTA describe the desired result using the MTA model, which contains MTA modules, MTA resources, and interdependencies between them. Afterward, the SAP Cloud Deployment service validates, orchestrates, and automates the deployment of the MTA, which results in Cloud Foundry applications, services and SAP specific contents. For more information about the Multitarget Application model, see the official [The Multitarget Application Model v.2](https://www.sap.com/documents/2016/06/e2f618e4-757c-0010-82c7-eda71af511fa.html) and the [The Multitarget Application Model v.3](https://www.sap.com/documents/2021/09/66d96898-fa7d-0010-bca6-c68f7e60039b.html) specification documents.
 
 You can create and deploy a Multitarget Application in the Cloud Foundry environment as described below by following different approaches that can yield the same result:
 
@@ -185,7 +185,7 @@ Deployment descriptor
 </td>
 <td valign="top">
 
-A `YAML` file named `mtad.yaml` that contains a list of all entities which is created from SAP Web IDE Full-Stack or from SAP Business Application Studio or from Cloud MTA Build Tool or manually. This file is similar to Development Descriptor but is used from the SAP Cloud Deployment service..
+A `YAML` file named `mtad.yaml` that contains a list of all entities which is created from either SAP Web IDE Full-Stack, SAP Business Application Studio, Cloud MTA Build Tool or manually. This file is similar to Development Descriptor but is used from the SAP Cloud Deployment service.
 
 </td>
 </tr>

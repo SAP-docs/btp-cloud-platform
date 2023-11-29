@@ -20,7 +20,7 @@ An MTA archive consists of the following:
 
 > ### Note:  
 > -   The MTA extension descriptor is not part of the MTA archive. During deployment you provide it as a separate file, or as parameters you enter manually when the SAP BTP requests them.
-> -   Using a `resources` directory as in some examples is not mandatory. You can store the necessary resource files on root level of the MTA archive, or in another directory with name of your choice.
+> -   Using a `resources` directory, as shown in some examples, is not mandatory. You can store the necessary resource files on root level of the MTA archive, or in another directory with name of your choice.
 
 The following example shows the basic structure of an MTA archive. It contains a Java application `.war` file and a `META-INF` directory, which contains an MTA deployment descriptor with a module and a `MANIFEST.MF` file.
 
@@ -70,7 +70,7 @@ The example above instructs the SAP BTP to:
 **Related Information**  
 
 
-[https://sap.github.io/cloud-mta-build-tool/](https://sap.github.io/cloud-mta-build-tool/)
+[Cloud MTA Build Tool](https://sap.github.io/cloud-mta-build-tool/)
 
 [The Multitarget Application Model v.2](http://go.sap.com/documents/2016/06/e2f618e4-757c-0010-82c7-eda71af511fa.html)
 

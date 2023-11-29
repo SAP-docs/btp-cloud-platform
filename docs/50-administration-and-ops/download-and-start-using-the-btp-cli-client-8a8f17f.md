@@ -17,13 +17,15 @@ The client is available for 64-bit versions of the following operating systems:
 -   Linux \(amd64 and arm64\)
 
 
-Each released client version is supported for at least a year. If a client is deprecated, you are notified six months before it stops working in the [What's New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%20BTP%20Command%20Line%20Interface&locale=en-US&version=Cloud) page on SAP Help Portal \(filter for *SAP BTP Command Line Interface\)* as well as in the client itself. Most of the updates to the btp CLI don't require a new client installation, but are made available through updates of the btp CLI server, so that you can use them in your installed version of the client.
+Each client version is supported for at least a year and most of the updates to the btp CLI don't require a new client installation, but are made available through the btp CLI server, so that you can use them in your installed version of the client. However, to make sure you don't miss any new features or security updates, we recommend to regularly update the client anyways.
+
+In the [What's New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%20BTP%20Command%20Line%20Interface&locale=en-US&version=Cloud) page on SAP Help Portal \(filtered for *SAP BTP Command Line Interface\)* we inform about new features, client releases, as well about client deprecations and discontinuations.
 
 
 
 ## Procedure
 
-1.  Download the appropriate client for your operating system from [SAP Development Tools](https://tools.hana.ondemand.com/#cloud-btpcli) or use the links in the table below. They are tar.gz archives that contain one executable file.
+1.  Download the appropriate client for your operating system from [SAP Development Tools](https://tools.hana.ondemand.com/#cloud-btpcli) with the links in the able below. If you prefer using the the command line or a script, you can use the curl command from the table below, which downloads and saves the latest client version to your computer and accepts the SAP Developer Agreement \(EULA\).
 
 
     <table>
@@ -35,7 +37,12 @@ Each released client version is supported for at least a year. If a client is de
     </th>
     <th valign="top">
 
-    Link to latest version
+    Link to Latest Version
+    
+    </th>
+    <th valign="top">
+
+    curl Command to Download Latest version
     
     </th>
     </tr>
@@ -50,6 +57,15 @@ Each released client version is supported for at least a year. If a client is de
     [amd64](https://tools.hana.ondemand.com/additional/btp-cli-windows-amd64-latest.tar.gz) 
     
     </td>
+    <td valign="top">
+    
+    ```
+    curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-windows-amd64-latest.tar.gz --cookie "eula_3_1_agreed=tools.hana.ondemand.com/developer-license-3_1.txt"
+    ```
+
+
+    
+    </td>
     </tr>
     <tr>
     <td valign="top">
@@ -62,6 +78,19 @@ Each released client version is supported for at least a year. If a client is de
     [amd64](https://tools.hana.ondemand.com/additional/btp-cli-darwin-amd64-latest.tar.gz) | [arm64](https://tools.hana.ondemand.com/additional/btp-cli-darwin-arm64-latest.tar.gz) 
     
     </td>
+    <td valign="top">
+    
+    ```
+    curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-darwin-amd64-latest.tar.gz --cookie "eula_3_1_agreed=tools.hana.ondemand.com/developer-license-3_1.txt"
+    ```
+
+    ```
+    curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-darwin-arm64-latest.tar.gz --cookie "eula_3_1_agreed=tools.hana.ondemand.com/developer-license-3_1.txt"
+    ```
+
+
+    
+    </td>
     </tr>
     <tr>
     <td valign="top">
@@ -72,6 +101,19 @@ Each released client version is supported for at least a year. If a client is de
     <td valign="top">
     
     [amd64](https://tools.hana.ondemand.com/additional/btp-cli-linux-amd64-latest.tar.gz) | [arm64](https://tools.hana.ondemand.com/additional/btp-cli-linux-arm64-latest.tar.gz) 
+    
+    </td>
+    <td valign="top">
+    
+    ```
+    curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-linux-amd64-latest.tar.gz --cookie "eula_3_1_agreed=tools.hana.ondemand.com/developer-license-3_1.txt"
+    ```
+
+    ```
+    curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-linux-arm64-latest.tar.gz --cookie "eula_3_1_agreed=tools.hana.ondemand.com/developer-license-3_1.txt"
+    ```
+
+
     
     </td>
     </tr>

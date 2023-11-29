@@ -52,11 +52,11 @@ In particular, ABAP development tools for Eclipse is a modern development toolse
 
 ## Tools User Guides
 
-The [ABAP Development Tools: User Guide](https://help.sap.com/docs/btp/sap-abap-development-user-guide/about-abap-development-user-guide?version=Cloud) describes the functionality and usage of the possibilities. It focuses on use cases for creating, editing, testing, debugging, and profiling development objects.
+The [ABAP Development Tools: User Guide](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/about-abap-development-tools-user-guide?version=sap_btp) describes the functionality and usage of the possibilities. It focuses on use cases for creating, editing, testing, debugging, and profiling development objects.
 
-The [ABAP CDS Development Tools: User Guide](https://help.sap.com/docs/btp/sap-abap-cds-development-user-guide/about-abap-cds-development-user-guide?version=Cloud) describes the functionality and usage of tools for ABAP Core Data Services \(CDS\) in the ABAP environment. It focuses on use cases for creating, editing, testing, and analyzing ABAP CDS entities.
+The [ABAP CDS Development Tools: User Guide](https://help.sap.com/docs/abap-cloud/abap-cds-tools-user-guide/about-abap-cds-development-tools-user-guide?version=sap_btp) describes the functionality and usage of tools for ABAP Core Data Services \(CDS\) in the ABAP environment. It focuses on use cases for creating, editing, testing, and analyzing ABAP CDS entities.
 
-The [ABAP for SAP HANA Development Tools: User Guide](https://help.sap.com/docs/btp/sap-abap-for-sap-hana-development-user-guide/about-abap-for-sap-hana-development-user-guide?version=Cloud) describes the basic idea to manage SAP HANA procedures and their lifecycle inside the ABAP server. To allow native consumption of SAP HANA features from within the ABAP layer, the SAP HANA database procedure language SQLScript has been integrated into the ABAP stack.
+The [ABAP for SAP HANA Development Tools: User Guide](https://help.sap.com/docs/abap-cloud/abap-hana-tools-user-guide/about-abap-for-sap-hana-development-tools-user-guide?version=sap_btp) describes the basic idea to manage SAP HANA procedures and their lifecycle inside the ABAP server. To allow native consumption of SAP HANA features from within the ABAP layer, the SAP HANA database procedure language SQLScript has been integrated into the ABAP stack.
 
 
 
@@ -68,7 +68,7 @@ ABAP development tools for Eclipse is released to customers in combination with 
 
 The release notes are a general overview of the most significant changes relating to features of ABAP development tools for Eclipse in the context of ABAP development and the ABAP programming models.
 
-For more information, see [Release Notes of ABAP Development Tools for Eclipse](https://help.sap.com/docs/btp/sap-abap-development-tools-release-notes/release-notes-of-abap-development-tools?version=Cloud)
+For more information, see [Release Notes of ABAP Development Tools for Eclipse](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-eclipse-release-notes/release-notes-of-abap-development-tools-for-eclipse?version=sap_btp)
 
 
 

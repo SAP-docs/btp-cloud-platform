@@ -85,23 +85,6 @@ Managed Kyma
 <tr>
 <td valign="top">
 
-Monitoring<sup>[1](kyma-functionalities-4b83be9.md#loio4b83be95f7db4fddba5c46d388ebf39a__ol_tcn_pdp_pvb)</sup>
-
-</td>
-<td valign="top">
-
-:heavy_check_mark:
-
-</td>
-<td valign="top">
-
-limited \(no customization in SAP BTP, Kyma runtime\)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Kyma CLI
 
 </td>
@@ -168,7 +151,4 @@ In-cluster system landscape management \(Application Connector\)
 </td>
 </tr>
 </table>
-
-> ### Caution:  
-> 1.  The Monitoring capability based on Prometheus, which enables you to query metrics using Grafana, has been deprecated. For details, see [What's New for Kyma on Jan 20, 2023](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%20Runtime&locale=en-US&version=Cloud&Valid_as_Of=2023-01-20%3A2023-01-20). In the future, it will be removed from both, SAP BTP, Kyma runtime and open source project "Kyma".
 

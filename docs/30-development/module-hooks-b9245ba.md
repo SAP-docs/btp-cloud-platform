@@ -374,7 +374,7 @@ Defines the memory that is available to the Cloud Foundry task.
 Landscape specific value that is equal to the default application memory.
 
 > ### Remember:  
-> Do not rely on the default value, as it will probably be much more higher than you need and may not fit into the limitations of your quota.
+> Do not rely on the default value, as it will probably be much higher than you need and may not fit into the limitations of your quota.
 
 
 
@@ -413,7 +413,7 @@ Defines the disk space that is available to the Cloud Foundry task.
 Landscape specific value that is equal to the default application disk quota.
 
 > ### Remember:  
-> Do not rely on the default value, as it will probably be much more higher than you need and may not fit into the limitations of your quota.
+> Do not rely on the default value, as it will probably be much higher than you need and may not fit into the limitations of your quota.
 
 
 

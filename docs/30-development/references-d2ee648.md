@@ -70,7 +70,7 @@ Learn more about CAP by visiting SAP Community.
 
 ## Troubleshooting
 
-If you run into issues working with CAP samples or tutorials, please refer to the [Troubleshooting](https://cap.cloud.sap/docs/resources/troubleshooting) guide. There you can find a collection of frequently asked questions and provided solutions.
+If you run into issues working with CAP samples or tutorials, please refer to the [Troubleshooting](https://cap.cloud.sap/docs/get-started/troubleshooting) guide. There you can find a collection of frequently asked questions and provided solutions.
 
 Furthermore, you can get support as mentioned in section [Resources](https://cap.cloud.sap/docs/resources).
 

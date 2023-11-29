@@ -15,7 +15,7 @@ To work with the Kyma environment, you need to specify the region for both your 
 
 The table lists the regions you can choose from when creating a subaccount.
 
-**Subaccount Regions for the Kyma Environment**
+**Subaccount Regions for Kyma**
 
 
 <table>
@@ -1073,8 +1073,72 @@ India \(Mumbai\)
 </tr>
 </table>
 
+
+
+<a name="loio557ec3adc3174ed4914ec9d6d13487cf__section_krh_1rd_nzb"/>
+
+## Load Balancers
+
+Depending on the IaaS Provider, the following Load Balancers are provisioned by default:
+
+**Default Load Balancers**
+
+
+<table>
+<tr>
+<th valign="top">
+
+IaaS Provider
+
+</th>
+<th valign="top">
+
+Default Load Balancer
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+Standard
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Amazon Web Services
+
+</td>
+<td valign="top">
+
+Classic Network Load Balancer
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+External passthrough Network Load Balancer
+
+</td>
+</tr>
+</table>
+
+For more details on the Load Balancers and their features, check out the official documention of the respective IaaS provider.
+
 **Related Information**  
 
 
-[Create the Kyma Environment Instance](../50-administration-and-ops/create-the-kyma-environment-instance-09dd313.md "Set up a Kubernetes cluster with project &quot;Kyma&quot; and use it to build applications and extensions to your SAP and third-party solutions.")
+[Create the Kyma Instance](../50-administration-and-ops/create-the-kyma-instance-09dd313.md "Set up a Kubernetes cluster with project &quot;Kyma&quot; and use it to build applications and extensions to your SAP and third-party solutions.")
 

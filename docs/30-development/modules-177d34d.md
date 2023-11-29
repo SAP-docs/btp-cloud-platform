@@ -12,7 +12,7 @@ The following elements are mandatory:
 
 Optional module attributes include:
 
--   `path` -the file-system path relative to the root of the MTA directory. The content of the file is used to create or update the CF app or content, depending on the module target. The `path` is used only during MTA build. In already build MTA archive \(MTAR\), path is ignored and only corresponding entry in `MANIFEST.MF` for the module is processed.
+-   `path` -the file-system path relative to the root of the MTA directory. The content of the file is used to create or update the CF app or content, depending on the module target. The `path` is used only during MTA build. In already built MTA archive \(MTAR\), path is ignored and only corresponding entry in `MANIFEST.MF` for the module is processed.
 
     The path is applicable only when MTA is assembled based on deployment descriptor \(mtad.yaml\), and not on development descriptor \(mta.yaml\)
 
@@ -20,7 +20,7 @@ Optional module attributes include:
 -   `properties` - a structured set of name-value pairs; if a module, which requires the resource, represents a CF application, the resource properties are injected into the environment of the application
 -   `parameters` - reserved variables that affect the behavior of the MTA-aware tools, such as the deployer
 -   `deployed-after` - the attribute is used to create an order, in which modules should be processed. If a module has this attribute, it will be processed after the other modules in a higher position are processed. The attribute value is a structured set of a list comprised of other module names of the same MTA.
--   `requires` - specifies the names of `requires`sections provided in `resource` that have been declared for the same MTA. Tools check if all required names are provided within the MTA
+-   `requires` - specifies the names of `requires` sections provided in `resource` that have been declared for the same MTA. Tools check if all required names are provided within the MTA.
 -   `provides` - specifies the names of `provides` sections, each containing configuration data; the data provided can be `required` by other `modules` in the same MTA
 
 > ### Tip:  
@@ -210,7 +210,7 @@ CF application with Tomcat runtime of sap\_java\_buildpack
 <tr>
 <td valign="top">
 
-`java.tomee`
+`java.tomee7`
 
 </td>
 <td valign="top">
@@ -220,12 +220,12 @@ CF application with Tomcat runtime of sap\_java\_buildpack
 </td>
 <td valign="top">
 
-None
+`tomee7`
 
 </td>
 <td valign="top">
 
-CF application with TomEE runtime of sap\_java\_buildpack
+CF application with TomEE 7 runtime of sap\_java\_buildpack
 
 </td>
 </tr>
@@ -533,28 +533,6 @@ CF application with static file runtime
 <tr>
 <td valign="top">
 
-`ruby`
-
-</td>
-<td valign="top">
-
-`buildpack`\(`ruby_buildpack`\)
-
-</td>
-<td valign="top">
-
-None
-
-</td>
-<td valign="top">
-
-CF application with Ruby runtime
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 `go`
 
 </td>
@@ -637,28 +615,6 @@ None
 <td valign="top">
 
 CF application with Binary runtime
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`dotnet_core`
-
-</td>
-<td valign="top">
-
-`buildpack`\(`dotnet_core_buildpack`\)
-
-</td>
-<td valign="top">
-
-None
-
-</td>
-<td valign="top">
-
-CF application with Dotnet runtime
 
 </td>
 </tr>
@@ -1695,7 +1651,7 @@ The number of application instances that will be started during the deployment
 </td>
 <td valign="top">
 
-Defines the application attributes which will be kept after the deployment or blue-green deployment has finished. The supported attributes which could be kept are application environment, application bindings and application routes. If not specified, the default values are false, which indicates that each application attribute will be updated with the new values presented in the deployment descriptor
+Defines the application attributes which will be kept after the deployment or blue-green deployment has finished. The supported attributes which could be kept are application environment, application bindings and application routes. If not specified, the default values are false, which indicates that each application attribute will be updated with the new values presented in the deployment descriptor.
 
 </td>
 <td valign="top">
@@ -1837,7 +1793,7 @@ false
 Start/do not start the application during deployment.
 
 > ### Tip:  
-> This parameter setting overrides the command-line option *\--no-start*.
+> This parameter setting overrides the command-line option `--no-start`.
 
 If you explicitly set the `no-start` to `false` for the module `foo` in the example provided, then the module `foo` **is** started on deployment, even if you also specify the command-line option `--no-start` with the `cf deploy` command.
 
@@ -1918,7 +1874,7 @@ Specifies whether an application should be restarted if an environment variable 
 </td>
 <td valign="top">
 
-A parameter that lists multiple HTTP routes. For more information, see [Routes](routes-53daaaf.md) 
+A parameter that lists multiple HTTP routes. For more information, see [Routes](routes-53daaaf.md).
 
 </td>
 <td valign="top">
@@ -1958,7 +1914,7 @@ A parameter that lists multiple HTTP routes. For more information, see [Routes](
 </td>
 <td valign="top">
 
-The context “route-path” which is part of the application default URI. Context path routing is routing based not only on domain names \(host header\) but also the path specified in the URL
+The context “route-path” which is part of the application default URI. Context path routing is routing based not only on domain names \(host header\) but also the path specified in the URL.
 
 </td>
 <td valign="top">
@@ -2394,7 +2350,7 @@ If deployment is based on an MTA archive, it is not necessary to duplicate the c
 **Related Information**  
 
 
-[https://docs.cloudfoundry.org/services/managing-service-brokers.html](https://docs.cloudfoundry.org/services/managing-service-brokers.html)
+[Managing Service Brokers](https://docs.cloudfoundry.org/services/managing-service-brokers.html)
 
 [Parameters and Properties](parameters-and-properties-490c8f7.md)
 

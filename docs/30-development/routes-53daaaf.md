@@ -15,7 +15,7 @@ In case the new routes parameter and the old ones are available, the `routes` va
 > ### Remember:  
 > Note the following:
 > 
-> -   if you do not define the route using the `routes` parameter or the `host` and `domain` parameters, a placeholder `default-uri` is automatically applied. This placeholder is resolved to `${default-host}.${default-domain}`. The `default-host`, as part of the URI, is resolved to `${org}-${space}-<module_name>`. See [Modules](modules-177d34d.md), table *MTA Development and Deployment Module Parameters* for more information about `default-` parameters.
+> -   if you do not define the route using the `routes` parameter or the `host` and `domain` parameters, a placeholder `default-uri` is automatically applied. This placeholder is resolved to `${default-host}.${default-domain}`. The `default-host`, as part of the URI, is resolved to `${org}-${space}-<module_name>`. For more information about `default-` parameters, see [Module-Specific Parameters](modules-177d34d.md#loio177d34d45e3d4fd99f4eeeffc5814cf1__section_moduleSpecificParameters).
 > -   We recommend that you explicitly set the `routes` parameter instead of using the automatically set default route.
 
 > ### Example:  

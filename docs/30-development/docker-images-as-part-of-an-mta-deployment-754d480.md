@@ -11,7 +11,7 @@ This type of application deployment is faster, as images are already built. Thus
 > ### Note:  
 > When you reference docker images, MTA packages are not self-sustained - they depend on external repositories hosting images for the deployment.
 
-You can deploy Docker images as MTA modules using theCloud Foundry command line interface.
+You can deploy Docker images as MTA modules using the Cloud Foundry command line interface.
 
 To deploy a Docker image as a Cloud Foundry application, your deployment descriptor should reference the image in a module as described in the following example:
 

@@ -8,7 +8,7 @@ You can use a class-based API to create and read application logs. The applicati
 
 If an application wants to collect messages and exceptions which occur during runtime of an application program, the following steps are required:
 
--   [Create a new Application Log](create-a-new-application-log-f7c20f7.md)
+-   [Create a New Application Log](create-a-new-application-log-f7c20f7.md)
 
 -   [Set Header Information](set-header-information-b962eb9.md)
 

@@ -86,6 +86,9 @@ Enable beta features
 > ### Note:  
 > Once you have enabled this setting in a subaccount you cannot disable it.
 
+> ### Note:  
+> If you enable this setting in a subaccount that is already consuming services and subscriptions, these consumed resources will not be automatically updated to beta versions if they exist.
+
 
 
 </td>
@@ -195,6 +198,9 @@ Enable beta features
 
 > ### Note:  
 > Once you have enabled this setting in a subaccount you cannot disable it.
+
+> ### Note:  
+> If you enable this setting in a subaccount that is already consuming services and subscriptions, these consumed resources will not be automatically updated to beta versions if they exist.
 
 
 

@@ -64,7 +64,7 @@ The administrators of the Kyma environment take care of setting it up and make s
 
 -   [Assign Roles in the Kyma Environment](assign-roles-in-the-kyma-environment-148ae38.md)
 
--   [Create the Kyma Environment Instance](create-the-kyma-environment-instance-09dd313.md)
+-   [Create the Kyma Instance](create-the-kyma-instance-09dd313.md)
 
 -   [Kyma Environment Backup](kyma-environment-backup-ab959cf.md)
 

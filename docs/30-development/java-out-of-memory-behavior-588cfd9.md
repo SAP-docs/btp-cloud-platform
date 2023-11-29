@@ -2,7 +2,7 @@
 
 # Java Out Of Memory Behavior
 
-The SAP Java Buildpack prints a histogram of the heap to the logs, when the JVM encounters a terminal failure. In addition to that, if the application is bound to a volume service with name or tag that contains *heap-dump*, a heap dump file is also generated and stored in the mounted volume.
+SAP Java Buildpack prints a histogram of the heap to the logs when the JVM encounters a terminal failure.
 
 > ### Output Code:  
 > ```
@@ -31,12 +31,14 @@ The SAP Java Buildpack prints a histogram of the heap to the logs, when the JVM 
 > 
 > ```
 
-This functionality is activated by default. It is possible to deactivate it by adding the `-XX:+ExitVMOnOutOfMemoryError` property \(through the `JBP_CONFIG_JAVA_OPTS` property\) in the application manifest file.
+This functionality is **activated** by default.
+
+If you want to deactivate it, add property `-XX:+ExitVMOnOutOfMemoryError` through the `JBP_CONFIG_JAVA_OPTS` property in the application's *manifest.yml* file:
 
 > ### Sample Code:  
 > ```
 > JBP_CONFIG_JAVA_OPTS: 'false, java_opts: ''-XX:+ExitVMOnOutOfMemoryError'''
 > ```
 
-For more information about the *jmvkill* agent, see [Cloud Foundry jvmkill documentation](https://github.com/cloudfoundry/jvmkill).
+See also: [Cloud Foundry jvmkill](https://github.com/cloudfoundry/jvmkill)
 

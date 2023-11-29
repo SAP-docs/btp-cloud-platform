@@ -25,7 +25,7 @@ Quickly get started with an enterprise account in the Kyma environment using the
 
     You can also download and use the SAP BTP command line interface \(btp CLI\) to create new subaccounts. See [Download and Start Using the btp CLI Client](../50-administration-and-ops/download-and-start-using-the-btp-cli-client-8a8f17f.md) and [Working with Global Accounts, Directories, and Subaccounts Using the btp CLI](../50-administration-and-ops/working-with-global-accounts-directories-and-subaccounts-using-the-btp-cli-85a683e.md).
 
-3.  Create your Kyma environment. For more information, see [Create the Kyma Environment Instance](../50-administration-and-ops/create-the-kyma-environment-instance-09dd313.md).
+3.  Create your Kyma environment. For more information, see [Create the Kyma Instance](../50-administration-and-ops/create-the-kyma-instance-09dd313.md).
 
 4.  Configure your Kyma environment.
 

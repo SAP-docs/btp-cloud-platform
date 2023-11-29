@@ -59,7 +59,7 @@ You create subaccounts in your global account. Once you create a new subaccount,
     > 
     > You can change your selection at any time by editing the subaccount properties. Do not select this option if your account is used for non-production purposes, such as development, testing, and demos.
 
-8.  **Optional:** To use beta services and applications in the subaccount, select *Enable beta features*.
+8.  **Optional:** To use beta services and applications in the current subaccount, select *Enable beta features*.
 
     > ### Caution:  
     > You shouldn't use SAP BTP beta features in subaccounts that belong to productive enterprise accounts. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).
@@ -141,7 +141,7 @@ You create subaccounts in your global account. Once you create a new subaccount,
     > 
     > You can change your selection at any time by editing the subaccount properties. Do not select this option if your account is used for non-production purposes, such as development, testing, and demos.
 
-9.  **Optional:** To use beta services and applications in the subaccount, under *Advanced*, select *Enable beta features*.
+9.  **Optional:** To use beta services and applications in the current subaccount, under *Advanced*, select *Enable beta features*.
 
     > ### Caution:  
     > You shouldn't use SAP BTP beta features in subaccounts that belong to productive enterprise accounts. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).

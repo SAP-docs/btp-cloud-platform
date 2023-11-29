@@ -12,10 +12,10 @@ By using the blue-green deployment technique, you can update the system without 
 In the context of Multitarget applications, you have the following options for using blue-green deployment:
 
 -   [Legacy Blue-Green Deployment](legacy-blue-green-deployment-764308c.md) - where the productive environments are called “blue” and “green”
--   [Blue-Green Deployment Strategy](blue-green-deployment-strategy-7c83810.md) - where the production environments are called “live” and “idle”.
+-   [Blue-Green Deployment Strategy](blue-green-deployment-strategy-7c83810.md) - where the production environments are called “live” and “idle”
 
 **Related Information**  
 
 
-[https://docs.cloudfoundry.org/devguide/deploy-apps/blue-green.html](https://docs.cloudfoundry.org/devguide/deploy-apps/blue-green.html)
+[Using Blue-Green Deployment To Reduce Downtime](https://docs.cloudfoundry.org/devguide/deploy-apps/blue-green.html)
 

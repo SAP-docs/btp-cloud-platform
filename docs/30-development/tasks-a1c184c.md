@@ -67,5 +67,5 @@ The following codeblock contains an example for a database migration task:
 **Related Information**  
 
 
-[https://docs.cloudfoundry.org/devguide/using-tasks.html](https://docs.cloudfoundry.org/devguide/using-tasks.html)
+[Using Tasks](https://docs.cloudfoundry.org/devguide/using-tasks.html)
 

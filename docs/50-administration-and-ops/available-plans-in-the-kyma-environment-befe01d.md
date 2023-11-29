@@ -102,7 +102,7 @@ Using the free service plans for Kyma allows you to try out services in global a
 
 -   Only community support is available for free tier service plans and these are not subject to SLAs.
 
--   Before you enable the Kyma environment, you must first assign the environment as an entitlement to your subaccount.
+-   Before you enable the Kyma environment, you must first assign it as an entitlement to your subaccount.
 
 -   You have only one free service plan quota available per global account.
 

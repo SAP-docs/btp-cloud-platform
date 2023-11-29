@@ -5,20 +5,25 @@
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
-A Java agent that generates heap dumps based on preconfigured conditions in the memory usage of the application. See [Java Memory Assistant](https://github.com/SAP/java-memory-assistant).
+Java Memory Assistant is a Java agent that generates heap dumps based on preconfigured conditions in the memory usage of the application. See: [Java Memory Assistant](https://github.com/SAP/java-memory-assistant)
 
-When enabled in the buildpack, the agent will generate two files – `*.hprof` \(heap dump\) and `*.addons`, when the configured memory limits are met. The \*.addons file contains:
+> ### Note:  
+> This public repository went out of maintenance on **Sept 21, 2023**. Nevertheless, its latest version [0.5.0](https://github.com/SAP-archive/java-memory-assistant/releases/tag/0.5.0) is working fine so you can keep using it.
 
--   command line parameters
+When enabled in the buildpack, the agent generates two files – **\*.hprof** \(heap dump\) and **\*.addons**, when the configured memory limits are met.
 
--   the implemented interfaces for the classes
+The **\*.addons** file contains:
 
--   information \(name\) about transient fields for the classes
+-   Command-line parameters
 
--   a class and metaspace statistic
+-   Implemented interfaces for the classes
 
--   stack traces of the last OOM errors
+-   Information \(name\) about transient fields for the classes
+
+-   Class and metaspace statistics
+
+-   Stack traces of the last OOM errors
 
 
-See [Java Memory Assistant Framework](https://github.com/cloudfoundry/java-buildpack/blob/master/docs/framework-java_memory_assistant.md).
+See also: [Java Memory Assistant Framework](https://github.com/cloudfoundry/java-buildpack/blob/main/docs/framework-java_memory_assistant.md) 
 

@@ -2,12 +2,12 @@
 
 # Defining MTA Extension Descriptors
 
-The Multitarget Application \(МТА\) extension descriptor is a YAML file that contains data complementary to the deployment descriptor. The data can be environment or deployment specific, for example, credentials depending on the user who performs the deployment. The MTA extension descriptor is a YAML file that has a similar structure to the deployment descriptor, by following the Multitarget Application Model structure with several limitations and differences. Normally, extension descriptor extends deployment descriptor but it is possible to extends other extension descriptor, making extension descriptors chain. It can add or overwrite existing data if necessary.
+The Multitarget Application \(МТА\) extension descriptor is a YAML file that contains data complementary to the deployment descriptor. The data can be environment or deployment specific, for example, credentials depending on the user who performs the deployment. The MTA extension descriptor is a YAML file that has a similar structure to the deployment descriptor, following the Multitarget Application Model structure with several limitations and differences. Normally, the extension descriptor extends the deployment descriptor but it is possible to extend another extension descriptor, making an extension descriptors chain. It can add or overwrite existing data if necessary.
 
 Several extension descriptors can be additionally used after the initial deployment.
 
 > ### Note:  
-> The format and available options within the extension descriptor may change with newer versions of the MTA specification. You must always specify the schema version option when defining an extension descriptor to inform the SAP BTP which MTA specification version should be used. Furthermore, the schema version used within the extension descriptor and the deployment descriptor should always be same.
+> The format and available options within the extension descriptor may change with newer versions of the MTA specification. You must always specify the schema version option when defining an extension descriptor to inform the SAP BTP which MTA specification version should be used. Furthermore, the schema version used within the extension descriptor and the deployment descriptor should always be the same.
 
 In the examples below, we have a deployment descriptor, which has already been defined, and several extension descriptors.
 
@@ -84,9 +84,9 @@ The example above instructs the SAP BTP to:
 
 You can do the following using an extension descriptor:
 
--   Add a new data in properties and parameters on module level, resource level, provided section level and required section level
+-   Add new data in properties and parameters on module level, resource level, provided section level and required section level
 
--   Overwrite an existing data \(in depth\) in modules, resources, parameters, properties, provides, requires sections. This depends on the parameter or property metadata overwritable. See section 9. Metadata for Properties and Parameters
+-   Overwrite an existing data \(in depth\) in modules, resources, parameters, properties, provides, requires sections. This depends on the parameter or property metadata overwritable. See [Metadata for Properties and Parameters](metadata-for-properties-and-parameters-fca2ced.md).
 
 -   As of schema version 3.xx, by default parameters and properties are overwritable and optional. If you want to make a certain parameter or property non-overwritable or required, you need to add specific metadata. See [Metadata for Properties and Parameters](metadata-for-properties-and-parameters-fca2ced.md).
 
@@ -95,6 +95,8 @@ You cannot use an extension descriptor to:
 -   Add new entities such as modules or resources
 -   Change module or resource type
 -   Alter read-only \(system\) parameters
+-   Add new provided or required dependencies
+-   Change the processing order of modules and resources with `deployed-after` and `processed-after` parameters
 
 **Related Information**  
 

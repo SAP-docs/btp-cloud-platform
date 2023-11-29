@@ -1,6 +1,6 @@
 <!-- loiof7c20f7b2fce4fbaba79ae0c5182d869 -->
 
-# Create a new Application Log
+# Create a New Application Log
 
 If you want to create a new application log, you must first create an object of class `CL_BALI_LOG`. This object manages a single application log and allows to get and set the log header and all log items, such as messages or exceptions.
 

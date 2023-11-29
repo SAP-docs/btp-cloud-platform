@@ -35,11 +35,11 @@ With your ABAP applications, you can **consume**:
 
 [ABAP RESTful Application Programming Model](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/289477a81eec4d4e84c0302fb6835035.html)
 
-[ABAP Development User Guide](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/4b190c90ceba4d02a99e0a2286b89358.html)
+[ABAP Development Tools for Eclipse: User Guide](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/about-abap-development-tools-user-guide?version=sap_btp)
 
-[ABAP CDS Development User Guide](https://help.sap.com/viewer/f859579898c7494dbe2449bb7f278dcc/Cloud/en-US/4ed1f2e06e391014adc9fffe4e204223.html)
+[ABAP CDS Development User Guide](https://help.sap.com/docs/abap-cloud/abap-cds-tools-user-guide/about-abap-cds-development-tools-user-guide?version=sap_btp)
 
-[ABAP for SAP HANA Development User Guide](https://help.sap.com/viewer/090a7cb96c1f45428741601c5c520be8/Cloud/en-US/34dfb3083df34453beb5eb8ade7bd4ed.html)
+[ABAP for SAP HANA Development User Guide](https://help.sap.com/docs/abap-cloud/abap-hana-tools-user-guide/about-abap-for-sap-hana-development-tools-user-guide?version=sap_btp)
 
 [ABAP Keyword Documentation](abap-keyword-documentation-1632c79.md)
 

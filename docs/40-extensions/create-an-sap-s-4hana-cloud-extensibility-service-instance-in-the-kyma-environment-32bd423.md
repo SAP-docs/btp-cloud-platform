@@ -12,7 +12,7 @@
 
 -   Configure the roles in the Kyma environment. See [Assign Roles in the Kyma Environment](../50-administration-and-ops/assign-roles-in-the-kyma-environment-148ae38.md).
 
--   Have the Kyma environment enabled for the subaccount you are using. See [Create the Kyma Environment Instance](../50-administration-and-ops/create-the-kyma-environment-instance-09dd313.md).
+-   Have the Kyma environment enabled for the subaccount you are using. See [Create the Kyma Instance](../50-administration-and-ops/create-the-kyma-instance-09dd313.md).
 
 -   Have the entitlements of the SAP S/4HANA Cloud Extensibility service configured. See [Configure the Entitlements for the SAP S/4HANA Cloud Extensibility Service](configure-the-entitlements-for-the-sap-s-4hana-cloud-extensibility-service-65ad330.md).
 

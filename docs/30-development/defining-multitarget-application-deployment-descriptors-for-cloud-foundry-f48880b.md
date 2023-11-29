@@ -2,7 +2,7 @@
 
 # Defining Multitarget Application Deployment Descriptors for Cloud Foundry
 
-The Multitarget Application \(MTA\) deployment descriptor is a YAML file that defines the relations between you as a provider of а deployable artefacts and the SAP Cloud Deployment service in SAP BTP as a deployer tool.
+The Multitarget Application \(MTA\) deployment descriptor is a YAML file that defines the relations between you as a provider of а deployable artifacts and the SAP Cloud Deployment service in SAP BTP as a deployer tool.
 
 Using the YAML data serialization language you describe the MTA in an MTA deployment descriptor \(`mtad.yaml`\) file following the [Multitarget Application Structure](multitarget-application-structure-f443b9f.md).
 
@@ -17,5 +17,5 @@ Using the YAML data serialization language you describe the MTA in an MTA deploy
 
 Writing `YAML` descriptors in plain text is often hard, so we have contributed a schema to the public Schema Store. This would provide you with an almost out of the box support when writing MTA deployment descriptors in some of the more popular IDEs. The schema would provide you with auto-completion as well as suggestions and syntax checking.
 
-For more information, see [https://github.com/cloudfoundry-incubator/multiapps-controller/wiki/Deployment-Descriptor\#editor-schema-support](https://github.com/cloudfoundry-incubator/multiapps-controller/wiki/Deployment-Descriptor#editor-schema-support)
+For more information, see [Editor Schema Support](https://github.com/cloudfoundry-incubator/multiapps-controller/wiki/Deployment-Descriptor#editor-schema-support).
 

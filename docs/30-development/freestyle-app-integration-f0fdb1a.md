@@ -30,40 +30,48 @@ To be able to use the reusable components, you need to adapt the code that can b
     > ### Sample Code:  
     > ```
     > var that = this;
-    > 							
+    >  
     > this.getOwnerComponent().createComponent({
-    > usage: "ApplicationLogs",
-    > id: "LogMessagesControlComponent",
-    > settings: {
-    > "persistencyKey": "MY_LOG_DISPLAY_VIEW",
-    > "showHeader": false,
-    > "showFilterBar": false,
-    > "showAsTree": false
-    > }
+    >     usage: "ApplicationLogs",
+    >     id: "LogMessagesControlComponent",
+    >     settings: {
+    >         "persistencyKey": "MY_LOG_DISPLAY_VIEW",
+    >         "showHeader": false,
+    >         "showFilterBar": false,
+    >         "showAsTree": false
+    >     }
     > }).then(function (oComp) {
-    > that.byId("LogMessagesControlContainer").setComponent(oComp);
-    > oComp.setLogHandle("<LogHandle>");
-    > oComp.refresh();
+    >     that.byId("LogMessagesControlContainer").setComponent(oComp);
+    >     oComp.setLogHandle("<LogHandle>");
+    >     oComp.refresh();
     > });
     > ```
 
     > ### Note:  
     > The component you embed makes use of the *SmartFilter* and the *SmartTable* control. Both controls enable a user to configure the components interactively, and also to store a current set of configuration settings as a named variant. By providing a value for the `persistencyKey` parameter, you make sure that the variants that get created in your application become visible only to the users of your application, and not to all users of the component in all applications.
 
-3.  Adapt your *<manifest.json\>* file and add the *sap.nw.core.applogs.lib.reuse* library under the `dependencies` section:
+3.  Adapt your *<manifest.json\>* file and add the `sap.nw.core.applogs.lib.reuse.applogs` component:
 
     > ### Sample Code:  
     > ```
-    > "dependencies": {
-    > "libs": {
-    > "sap.nw.core.applogs.lib.reuse": {
-    > "lazy": true
-    > }
-    > }
-    > }
+    > "sap.ui5": {
+    >     "dependencies": {
+    >       "libs": {
+    >         "sap.nw.core.applogs.lib.reuse": {
+    >         "lazy": true
+    >         }
+    >     },
+    >       "components": {}
+    >     },
+    >     "componentUsages": {
+    >         "ApplicationLogs": {
+    >             "name": "sap.nw.core.applogs.lib.reuse.applogs",
+    >             "lazy": true
+    >             }
+    >         }
     > ```
 
-    After your app was deployed successfully to an SAP BTP, ABAP environment system, the *BSP application* and the *SAP Fiori Launchpad* app descriptor item will appear under your created package in Eclipse.
+    After your app was deployed successfully to an SAP BTP, ABAP environment system, the *BSP application* and the *SAP Fiori launchpad* app descriptor item will appear under your created package in Eclipse.
 
     ![](images/Eclipse_ABAP_Environment_e0a96c5.png)
 

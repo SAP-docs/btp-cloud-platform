@@ -10,7 +10,7 @@ As an administrator, you must perform several steps to set up a fully operationa
 
 ## Prerequisites
 
--   To perform administrative and development tasks, you need a global account and one or several subaccounts for which you can provision the Kyma environment. For details, see [Create the Kyma Environment Instance](../50-administration-and-ops/create-the-kyma-environment-instance-09dd313.md).
+-   To perform administrative and development tasks, you need a global account and one or several subaccounts for which you can provision the Kyma environment. For details, see [Create the Kyma Instance](../50-administration-and-ops/create-the-kyma-instance-09dd313.md).
 
 -   The subaccount must have the following entitlements assigned:
 
@@ -28,7 +28,7 @@ As an administrator, you must perform several steps to set up a fully operationa
 
 ## Procedure
 
-1.  Set up a Kubernetes cluster with the project "Kyma" to connect and extend SAP systems: [Create the Kyma Environment Instance](../50-administration-and-ops/create-the-kyma-environment-instance-09dd313.md)
+1.  Set up a Kubernetes cluster with the project "Kyma" to connect and extend SAP systems: [Create the Kyma Instance](../50-administration-and-ops/create-the-kyma-instance-09dd313.md)
 
 2.  Assign the roles to users to allow the administrators to manage Kyma and the developers to create Functions: [Assign Roles in the Kyma Environment](../50-administration-and-ops/assign-roles-in-the-kyma-environment-148ae38.md)
 
@@ -65,5 +65,5 @@ You have set up the Kyma environment and connected it as required.
 
 ## Next Steps
 
-Once the administrator sets up the environment, the developers can access the Kyma environment through the Kyma dashboard. After logging on, developers can start creating extensions for the SAP systems either from the Kyma dashboard or from the terminal after downloading the kubeconfig file with the cluster configuration. For details, see [Development in the Kyma Environment](../30-development/development-in-the-kyma-environment-606ec61.md).
+After the administrator has set up the Kyma environment, the developers can access it through the Kyma dashboard. After logging on, developers can start creating extensions for the SAP systems either from the Kyma dashboard or from the terminal after downloading the kubeconfig file with the cluster configuration. For details, see [Development in the Kyma Environment](../30-development/development-in-the-kyma-environment-606ec61.md).
 

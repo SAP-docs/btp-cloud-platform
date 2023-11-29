@@ -33,6 +33,8 @@ As shown in the example above, every service key entry under the `service-keys` 
 
 
 
+<a name="loio32297f15898f47329df76b706447fc3e__consumption-of-service-keys"/>
+
 ## Consumption of Service Keys
 
 To be consumed, the existing service keys are modeled as a resource of type `org.cloudfoundry.existing-service-key`. MTA modules might be set to depend on these resources by using a configuration in the `requires` section, which results in an injection of the service key credentials in the application environment.

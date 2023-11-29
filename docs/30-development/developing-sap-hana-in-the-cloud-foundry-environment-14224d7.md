@@ -131,11 +131,11 @@ There are two tools you need to know, SAP Business Application Studio and SAP HA
 
 To develop your data model, we recommend the SAP Cloud Application Programming Model.
 
--   The SAP Cloud Application Programming Model \(CAP\) provides a guide explaining the concepts and best practices of domain modeling using CAP CDS, see [Domain Modeling](https://cap.cloud.sap/docs/guides/domain-models)
+-   The SAP Cloud Application Programming Model \(CAP\) provides a guide explaining the concepts and best practices of domain modeling using CAP CDS, see [Domain Modeling](https://cap.cloud.sap/docs/guides/domain-modeling)
 
 -   To define your data models, queries and expressions, there’s a CAP CDS reference guide. It contains samples and best practices that support your learning journey. See [Core Data Services \(CDS\) - Language Reference Documentation for the application programming model](https://cap.cloud.sap/docs/cds).
 
--   You have existing database objects and want to use them with CAP CDS. Learn about facade entities in CAP CDS and how to design them. See [Native SAP HANA](https://cap.cloud.sap/docs/advanced/hana).
+-   You have existing database objects and want to use them with CAP CDS. Learn about facade entities in CAP CDS and how to design them. See [Native SAP HANA](https://cap.cloud.sap/docs/guides/databases-hana).
 
 
 When you've created your data model with the SAP Cloud Application Programming Model, you want to leverage more of the SAP HANA power. The SAP HANA Cloud documentation provides an extensive library of guides. Find here selected links that make an easy start.

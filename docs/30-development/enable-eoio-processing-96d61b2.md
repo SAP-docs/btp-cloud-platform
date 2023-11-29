@@ -75,12 +75,12 @@ To enable EOIO processing, proceed as follows.
 >  
 >     COMMIT WORK.   
 >  
->       CATCH cx_ws_protocol_error INTO DATA(lx_protocol_error).
->         " Handle response
->       CATCH cx_ai_system_fault INTO DATA(lx_fault).
->         " Handle error
->       CATCH cx_srt_check_oper_fault INTO DATA(lx_oper_fault).
->         " Handle error
+>       CATCH cx_ws_protocol_error
+>         "handle response
+>       CATCH cx_ai_system_fault.
+>         "handle error
+>       CATCH cx_srt_check_oper_fault.
+>         "handle error
 >   ENDTRY.
 > ```
 

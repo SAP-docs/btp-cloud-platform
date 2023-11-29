@@ -20,7 +20,7 @@ The following sections describe how to set up a development environment to get y
 
 -   [Adding Custom Logic](https://cap.cloud.sap/docs/get-started/in-a-nutshell#adding-custom-logic)
 
--   [Deploying to Cloud](https://cap.cloud.sap/docs/advanced/deploy-to-cloud)
+-   [Deploying to Cloud](https://cap.cloud.sap/docs/guides/deployment/)
 
 -   [Model Processing in Node.js](https://cap.cloud.sap/docs/cds/compiler)
 

@@ -6,27 +6,22 @@ With Kyma's modular approach, you can install just the modules you need, instead
 
 
 
-You can choose to enable any modules as required. To learn how, see [Enable and Disable a Kyma Module](../50-administration-and-ops/enable-and-disable-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c). To find out which module version is running on your cluster, go to the Kyma dashboard.
+You can choose to enable any modules as required. To learn how, see [Enable and Disable a Kyma Module](../50-administration-and-ops/enable-and-disable-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c). To find out which module version is running on your cluster, go to Kyma dashboard.
 
 > ### Note:  
 > A release of a new module’s version is announced with a release note in [What’s New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&version=Cloud) for both, the fast and regular channels. On the day of the release in the fast channel, a release note is published with the `preview` label. The `preview` label is removed after approximately two weeks when the module version becomes available in the regular channel.
 
 
 
-<a name="loio0dda141a58d54f29a860a4b3164bf4a9__section_rpm_hyz_jxb"/>
+<a name="loio0dda141a58d54f29a860a4b3164bf4a9__section_skp_zxx_kzb"/>
 
-## Kyma Modules
+## Default Kyma Modules
 
-
-
-> ### Remember:  
-> One by one, all Kyma components are converted to modules that work independently from each other.
-> 
-> Table entries marked with “\*” are still components and will be modularized soon.
+When you create Kyma runtime in SAP BTP cockpit, it is provisioned with the default modules enabled. The default modules are not mandatory. You can disable them in [Kyma dashboard](https://dashboard.kyma.cloud.sap/clusters) if you don't need them.
 
 
 
-**Kyma Modules**
+**Default Kyma Modules**
 
 
 <table>
@@ -34,9 +29,6 @@ You can choose to enable any modules as required. To learn how, see [Enable and 
 <th valign="top">
 
 Module
-
-</th>
-<th valign="top">
 
 Technical name
 
@@ -55,10 +47,66 @@ Documentation
 <tr>
 <td valign="top">
 
-*Application Connector* 
+*API Gateway*
+
+`api-gateway`
 
 </td>
 <td valign="top">
+
+API Gateway provides functionalities that allow you to expose and secure APIs.
+
+</td>
+<td valign="top">
+
+[kyma-project.io: API Gateway module](https://kyma-project.io/#/api-gateway/user/README)
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loio0dda141a58d54f29a860a4b3164bf4a9__section_rpm_hyz_jxb"/>
+
+## Non-Default Kyma Modules
+
+
+
+> ### Remember:  
+> One by one, all Kyma components are converted to modules that work independently from each other.
+> 
+> Table entries marked with “\*” are still components and will be modularized soon.
+
+
+
+**Non-Default Kyma Modules**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Module
+
+Technical name
+
+</th>
+<th valign="top">
+
+Purpose
+
+</th>
+<th valign="top">
+
+Documentation
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+*Application Connector*
 
 `application-connector`
 
@@ -80,10 +128,7 @@ Application Connector allows you to connect with external solutions. No matter i
 <tr>
 <td valign="top">
 
-*SAP BTP Operator* 
-
-</td>
-<td valign="top">
+*SAP BTP Operator*
 
 `btp-operator`
 
@@ -107,10 +152,7 @@ Within the SAP BTP Operator module, BTP Manager installs SAP BTP Service Operato
 <tr>
 <td valign="top">
 
-*Keda* 
-
-</td>
-<td valign="top">
+*Keda*
 
 `keda`
 
@@ -131,10 +173,7 @@ The Keda module comes with Keda Manager, an extension to Kyma that allows you to
 <tr>
 <td valign="top">
 
-*Serverless* 
-
-</td>
-<td valign="top">
+*Serverless*
 
 `serverless`
 
@@ -157,10 +196,7 @@ With the Serverless module, you can define simple code snippets \(Functions\) wi
 <tr>
 <td valign="top">
 
-*Telemetry* 
-
-</td>
-<td valign="top">
+*Telemetry*
 
 `telemetry`
 
@@ -183,10 +219,7 @@ The Telemetry module collects application logs and distributed traces for your a
 <tr>
 <td valign="top">
 
-*NATS* 
-
-</td>
-<td valign="top">
+*NATS*
 
 `nats`
 
@@ -208,10 +241,7 @@ NATS deploys a NATS cluster within the Kyma cluster. You can use it as a backend
 <tr>
 <td valign="top">
 
-*Eventing* 
-
-</td>
-<td valign="top">
+*Eventing*
 
 `eventing`
 
@@ -236,36 +266,9 @@ At the moment, the SAP Event Mesh default plan and NATS are supported. If you ch
 <tr>
 <td valign="top">
 
-API Gateway\*
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-API Gateway provides functionalities that allow you to expose and secure APIs.
-
-</td>
-<td valign="top">
-
--   [kyma-project.io: API Gateway in Kyma](https://kyma-project.io/#/01-overview/api-exposure/apix-01-api-gateway)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Istio\*
 
-</td>
-<td valign="top">
-
- 
+`istio`
 
 </td>
 <td valign="top">
@@ -298,9 +301,6 @@ Istio is a service mesh with Kyma-specific configuration.
 
 Module
 
-</th>
-<th valign="top">
-
 Technical name
 
 </th>
@@ -318,10 +318,7 @@ Documentation
 <tr>
 <td valign="top">
 
-*Transparent Proxy* 
-
-</td>
-<td valign="top">
+*Transparent Proxy*
 
 `transparent-proxy`
 

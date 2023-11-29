@@ -21,7 +21,7 @@ The event service in Kyma runtime supports two backends: NATS and SAP Event Mesh
 
 ## Context
 
-You can send and receive events in Kyma with the built-in Eventing infrastructure. To learn more about Kyma Eventing, read [What is Eventing in Kyma?](https://kyma-project.io/#/01-overview/eventing/) and follow the [Eventing tutorials](https://kyma-project.io/#/03-tutorials/00-eventing/).
+You can send and receive events in Kyma with the built-in Eventing infrastructure. To learn more about Kyma Eventing, read [What is Eventing in Kyma?](https://kyma-project.io/#/eventing-manager/user/README) and follow the [Eventing tutorials](https://kyma-project.io/#/eventing-manager/user/tutorials/evnt-01-prerequisites).
 
 By default, Kyma clusters have an Eventing backend based on the [NATS](https://nats.io/) technology. You can switch the Kyma Eventing backend from NATS to SAP Event Mesh by following these steps:
 
@@ -123,5 +123,5 @@ You can switch the Eventing backend from SAP Event Mesh back to NATS:
 **Related Information**  
 
 
-[Enable and Disable a Kyma Module](../50-administration-and-ops/enable-and-disable-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c "If you want to use a Kyma module, you must enable it. If you don't need it anymore, disable the module to save resources.")
+[Enable and Disable a Kyma Module](../50-administration-and-ops/enable-and-disable-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c "To use a Kyma module, you must enable it first. Use Kyma dashboard or Kyma CLI to do that. If you don't need the module anymore, disable it to save resources.")
 

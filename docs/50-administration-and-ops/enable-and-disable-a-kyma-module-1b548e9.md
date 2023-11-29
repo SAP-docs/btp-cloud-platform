@@ -2,22 +2,13 @@
 
 # Enable and Disable a Kyma Module
 
-If you want to use a Kyma module, you must enable it. If you don't need it anymore, disable the module to save resources.
-
-**Related Information**  
-
-
-[Kyma's Modular Approach](../10-concepts/kyma-s-modular-approach-95a4101.md "With Kyma's modular approach, you can install only the modules you need, instead of a predefined set of components.")
-
-[Kyma Release Channels](../10-concepts/kyma-s-modular-approach-95a4101.md#loio95a410144d7c449687c957da0cc43a0d__section_kyma_release_channels)
-
-[Kyma Modules](../10-concepts/kyma-modules-0dda141.md "With Kyma's modular approach, you can install just the modules you need, instead of a predefined set of components.")
+To use a Kyma module, you must enable it first. Use Kyma dashboard or Kyma CLI to do that. If you don't need the module anymore, disable it to save resources.
 
 <a name="loio83744213890d4efe979d72ce706e1115"/>
 
 <!-- loio83744213890d4efe979d72ce706e1115 -->
 
-## Enable and Disable a Kyma Module Using Kyma dashboard
+## Enable and Disable a Kyma Module Using Kyma Dashboard
 
 Use Kyma dashboard to enable and disable a Kyma module in the release channel of your choice.
 
@@ -43,12 +34,12 @@ If you want to enable additional modules, follow this procedure:
 
 3.  In the *Kyma* section, choose the Kyma resource.
 
-4.  Select your Kyma instance \(`default`\) and click *Edit*.
+4.  Select your Kyma instance \(`default`\) and choose *Edit*.
 
 5.  In *Kyma Default Channel*, you can change the release channel for all your modules at the Kyma custom resource \(CR\) level, or keep the default one.
 
     > ### Note:  
-    > By default, Kyma modules are part of the regular channel. It allows for delivering the modules at a slower, predictable rate for production environments with minimal disturbance. You can change to the fast channel for a more fluid release process that offers the latest technical updates and features at a quicker pace. For more information about the release channels, see [Kyma Release Channels](https://help.sap.com/docs/btp/sap-business-technology-platform-internal/kyma-s-modular-approach?locale=en-US&state=DRAFT&version=Internal#kyma-release-channels).
+    > By default, Kyma modules are part of the regular channel. It allows for delivering the modules at a slower, predictable rate for production environments with minimal disturbance. You can change to the fast channel for a more fluid release process that offers the latest technical updates and features at a quicker pace. For more information about the release channels, see [Kyma Release Channels](https://help.sap.com/docs/btp/sap-business-technology-platform/kyma-s-modular-approach?locale=en-US&version=Cloud#kyma-release-channels).
 
 6.  In the *Modules* section, check the modules you want to enable.
 
@@ -73,7 +64,7 @@ This process may take a while, depending on the number of modules. The operation
 
 -   To configure your module, use the module CR that you can find in the module repository.
 
--   To disable a module, edit your Kyma instance, uncheck the modules you want to disable, and click *Update*.
+-   To disable a module, edit your Kyma instance, uncheck the modules you want to disable, and choose *Update*.
 
 
 <a name="loio88a8e99e4be945398dae2baa69f8ad30"/>
@@ -116,7 +107,7 @@ To enable a module using Kyma CLI, perform the following steps:
 2.  Enable a module on your cluster in the release channel of your choice. Run:
 
     ```
-    kyma alpha enable module {MODULE_NAME} --channel {CHANNEL_NAME} --wait
+    kyma alpha enable module {MODULE_NAME} --channel {CHANNEL_NAME} --kyma-name default --wait
     ```
 
     You should see the following message:
@@ -135,6 +126,21 @@ To enable a module using Kyma CLI, perform the following steps:
 
 -   To configure your module, use the module CR that you can find in the module repository.
 
--   To disable a module, run: `kyma alpha disable module {MODULE_NAME}` 
+-   To disable a module, run:
 
+    ```
+    kyma alpha disable module {MODULE_NAME} --kyma-name default
+    ```
+
+
+**Related Information**  
+
+
+[Kyma's Modular Approach](../10-concepts/kyma-s-modular-approach-95a4101.md "With Kyma's modular approach, you can install only the modules you need, instead of a predefined set of components.")
+
+[Kyma Release Channels](../10-concepts/kyma-s-modular-approach-95a4101.md#loio95a410144d7c449687c957da0cc43a0d__section_kyma_release_channels)
+
+[Kyma Modules](../10-concepts/kyma-modules-0dda141.md "With Kyma's modular approach, you can install just the modules you need, instead of a predefined set of components.")
+
+[https://github.com/kyma-project/cli](https://github.com/kyma-project/cli)
 

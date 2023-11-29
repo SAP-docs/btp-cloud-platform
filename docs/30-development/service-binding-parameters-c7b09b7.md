@@ -8,7 +8,7 @@ The SAP Cloud Deployment service supports the following methods for the specific
 
 -   Method 1 - an entry in the MTA deployment descriptor \(or the extension\)
 -   Method 2 - A JSON file with the required service-configuration parameters
--   A combination of the first two methods, as described in the table below.
+-   A combination of the first two methods, as described in the table below
 
 > ### Note:  
 > If service-binding information is supplied both in the MTA's deployment \(or extension\) descriptor **and** in a supporting JSON file, the parameters specified directly in the deployment \(or extension\) descriptor override the parameters specified in the JSON file.
