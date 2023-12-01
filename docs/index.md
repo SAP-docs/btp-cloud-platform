@@ -829,8 +829,6 @@
                     -   [Schedule a \(Recurring\) Stop/Start](30-development/schedule-a-recurring-stop-start-04053dd.md)
                 -   [Restore Consumer Tenants](30-development/restore-consumer-tenants-619c40e.md)
                 -   [Manage Test Tenants](30-development/manage-test-tenants-dd7d8e8.md)
-                -   [Publish Product](30-development/publish-product-55d19e4.md)
-                -   [Register External Product](30-development/register-external-product-b90f70d.md)
                 -   [Register Product](30-development/register-product-dc15fb4.md)
                 -   [Build Product Version](30-development/build-product-version-8120bf6.md)
                     -   [Maintain Credentials](30-development/maintain-credentials-67b5aee.md)
