@@ -62,6 +62,11 @@ You have maintained the attributes of the users in your identity provider if you
     <td valign="top">
     
     Enter a static value, for example `USA` to refine the role depending on the country.
+
+    > ### Remember:  
+    > Follow entries with the [Enter\] key. Otherwise you can't save the role.
+
+
     
     </td>
     </tr>

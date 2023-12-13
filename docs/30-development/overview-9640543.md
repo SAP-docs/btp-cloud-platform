@@ -436,7 +436,7 @@ DevOps engineer
 <tr>
 <td valign="top">
 
-Implement a multitenant application and deploy it to the provider subaccount in the global account for development. See [Multitenant Application](order-and-provide-975bd3e.md#loiof3305f65648248318028e02c84375323).
+Implement a multitenant application and deploy it to the provider subaccount in the global account for development. See [Multitenant Applications](order-and-provide-975bd3e.md#loio195031ff8f484b51af16fe392ec2ae6e).
 
 </td>
 <td valign="top">
@@ -549,7 +549,7 @@ See [Certification](https://www.sap.com/documents/2016/10/7cf3eaec-907c-0010-82c
 <tr>
 <td valign="top" rowspan="4">
 
-[Order and Provide](order-and-provide-975bd3e.md#loioa24217a0d6fa434bbce97869dfb70dda)
+[Subscribe](order-and-provide-975bd3e.md#loioa24217a0d6fa434bbce97869dfb70dda)
 
 </td>
 <td valign="top">
@@ -588,7 +588,7 @@ Operator
 <tr>
 <td valign="top">
 
-Configure consumer subaccount. See [Configure Consumer Subaccount \(Feature Set B\)](order-and-provide-975bd3e.md#loio6301a275af664613a51147e3451386e6).
+Configure consumer subaccount. See [Configure Consumer Subaccount](order-and-provide-975bd3e.md#loio6301a275af664613a51147e3451386e6).
 
 </td>
 <td valign="top">

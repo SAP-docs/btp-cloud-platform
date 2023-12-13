@@ -24,8 +24,3 @@ You can initiate a restore via a service request by using component `BC-CP-ABA`.
     > In case of SAP-managed software updates, that are part of scheduled maintenance, the target point-in-time can only be set after the last software update.
 
 
-**Related Information**  
-
-
-[SAP HANA Cloud Administration with SAP HANA Cloud Central - Backup and Recovery](https://help.sap.com/viewer/9ae9104a46f74a6583ce5182e7fb20cb/hanacloud/en-US/89d71f01daca4ecaaa069d6a060167f5.html)
-

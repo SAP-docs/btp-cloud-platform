@@ -48,7 +48,7 @@ The identity provider hosts the users and their attributes. When a user is authe
     > ### Tip:  
     > Provide the **exact** name of the attribute and its value as provided by the identity provider. These values are case-sensitive.
     > 
-    > For more information, see [Configure the User Attributes Sent to the Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d361407d36c5443298a909acbbd96ec4.html) in the documentation of the Identity Authentication service.
+    > For more information, see [Settings for Default SAML Federation Attributes of Any Identity Provider](settings-for-default-saml-federation-attributes-of-any-identity-provider-6d07333.md) and [Configure the User Attributes Sent to the Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d361407d36c5443298a909acbbd96ec4.html) in the documentation of the Identity Authentication service.
 
 6.  Save your entries.
 

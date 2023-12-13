@@ -1,6 +1,6 @@
 <!-- loio6d073332bc5743fdb7f7f06bde499ab7 -->
 
-# Federation Attribute Settings of Any Identity Provider
+# Settings for Default SAML Federation Attributes of Any Identity Provider
 
 This table is supposed to display the attribute settings of the identity provider and the values administrators use to establish trust between the SAML 2.0 identity provider and a new subaccount.
 

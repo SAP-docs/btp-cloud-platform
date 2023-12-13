@@ -64,3 +64,23 @@ In the example above, `no-hostname: false` has no effect on the second route, si
 > ### Caution:  
 > The MTA deployer attempts to create the subdomain if it does not exist, but cannot resolve any specific corner cases about subdomain/domain ownership permissions. If the subdomain has already been created, the deployer maps the application to it.
 
+
+
+<a name="loio53daaafe8f8345fc9b8497b86d17c9d9__section_dxq_1y3_pzb"/>
+
+## Deploy applications to http2 routes
+
+If you want to enable http2 routing traffic to MTA modules \(applications\) you can use the `protocol: http2` parameter on route level.
+
+Note that the protocol value must be `http1` or `http2` and must be included in every route in order for it to take effect. If the `protocol` parameter is not specified, the value will be set to `http1` by default.
+
+> ### Sample Code:  
+> ```
+> routes:
+>   - route: http1-route.some-domain.com
+>   - route: http1- route.some-domain.com
+>     protocol: http1 # The default value if not provided
+>   - route: http2- route.some-domain.com
+>     protocol: http2
+> ```
+

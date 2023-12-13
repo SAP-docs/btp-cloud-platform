@@ -8,18 +8,20 @@ With Kyma's modular approach, you can install just the modules you need, instead
 
 You can choose to enable any modules as required. To learn how, see [Enable and Disable a Kyma Module](../50-administration-and-ops/enable-and-disable-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c). To find out which module version is running on your cluster, go to Kyma dashboard.
 
-> ### Note:  
-> A release of a new module’s version is announced with a release note in [What’s New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&version=Cloud) for both, the fast and regular channels. On the day of the release in the fast channel, a release note is published with the `preview` label. The `preview` label is removed after approximately two weeks when the module version becomes available in the regular channel.
+> ### Tip:  
+> A release of a new module’s version is announced with a release note in [What’s New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&version=Cloud) for both, the fast and regular channels:
+> 
+> -   On the day of the release in the fast channel, a release note is published with the *Preview* label.
+> 
+> -   When the module version becomes available in the regular channel \(after approximately two weeks\), the *Preview* label is removedl.
 
 
 
-<a name="loio0dda141a58d54f29a860a4b3164bf4a9__section_skp_zxx_kzb"/>
+<a name="loio0dda141a58d54f29a860a4b3164bf4a9__section_y2m_kzd_nzb"/>
 
 ## Default Kyma Modules
 
 When you create Kyma runtime in SAP BTP cockpit, it is provisioned with the default modules enabled. The default modules are not mandatory. You can disable them in [Kyma dashboard](https://dashboard.kyma.cloud.sap/clusters) if you don't need them.
-
-
 
 **Default Kyma Modules**
 
@@ -63,22 +65,34 @@ API Gateway provides functionalities that allow you to expose and secure APIs.
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+*Istio*
+
+`istio`
+
+</td>
+<td valign="top">
+
+Istio is a service mesh with Kyma-specific configuration.
+
+</td>
+<td valign="top">
+
+[kyma-project.io: Istio module](http://kyma-project.io/#/istio/user/README)
+
+</td>
+</tr>
 </table>
 
 
 
-<a name="loio0dda141a58d54f29a860a4b3164bf4a9__section_rpm_hyz_jxb"/>
+<a name="loio0dda141a58d54f29a860a4b3164bf4a9__section_zty_yc2_lzb"/>
 
 ## Non-Default Kyma Modules
 
-
-
-> ### Remember:  
-> One by one, all Kyma components are converted to modules that work independently from each other.
-> 
-> Table entries marked with “\*” are still components and will be modularized soon.
-
-
+When you create Kyma runtime in SAP BTP cockpit, the following modules are not enabled by default, but you can choose to enable \(and disable\) them anytime.
 
 **Non-Default Kyma Modules**
 
@@ -258,27 +272,6 @@ At the moment, the SAP Event Mesh default plan and NATS are supported. If you ch
 -   [Configure a Backend for Kyma Eventing](../30-development/configure-a-backend-for-kyma-eventing-407d126.md)
 -   [kyma-project.io: Eventing module](https://kyma-project.io/#/eventing-manager/user/README)
 -   [GitHub repository: Eventing](https://github.com/kyma-project/eventing-manager) 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Istio\*
-
-`istio`
-
-</td>
-<td valign="top">
-
-Istio is a service mesh with Kyma-specific configuration.
-
-</td>
-<td valign="top">
-
--   [kyma-project.io: Istio Service Mesh](http://kyma-project.io/#/istio/user/00-overview/00-20-overview-service-mesh)
 
 
 

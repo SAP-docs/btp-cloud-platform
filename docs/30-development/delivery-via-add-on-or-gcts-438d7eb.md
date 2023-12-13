@@ -268,7 +268,7 @@ Requires additional effort to to be compliant because a strict process needs to 
 > 
 > The **gCTS transport delivery** approach is a more lightweight approach that might be used especially if a simple setup and quick readiness are important. Ease-of-use of the approach comes with disadvantages in auditability, traceability, scalability, and resilience. These trade-offs might be resolved by establishing additional manual process steps or documentation requirements.
 > 
-> If the multitenant application is configured with `tenant_mode = single`, a dedicated system is created per subscription. See [ABAP Solution Service](abap-solution-service-1697387.md). In that case, gCTS delivery is only recommended if the SaaS solution is expecting a small set of customers or if the subscription is performed together with the customer. Otherwise, the effort for executing manual tasks, such as importing software components would be too high.
+> If the multitenant application is configured with `tenant_mode = single`, a dedicated system is created per subscription. See [ABAP Solution Service](order-and-provide-975bd3e.md#loio1697387c02e74e66a55cf21a05678167). In that case, gCTS delivery is only recommended if the SaaS solution is expecting a small set of customers or if the subscription is performed together with the customer. Otherwise, the effort for executing manual tasks, such as importing software components would be too high.
 > 
 > Example scenarios: Prototyping projects, quick time-to-market launch, in-house solutions, predictable number of consumers, and no expected exceptional growth rate
 > 

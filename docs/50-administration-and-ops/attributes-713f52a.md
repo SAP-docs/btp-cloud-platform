@@ -21,66 +21,10 @@ For each attribute, administrators have multiple options to specify the value wh
 
 -   Attributes from a custom identity provider
 
-    Since an identity provider provides the business users, you can dynamically reference all attributes that come with the SAML 2.0 assertion. You define the attributes and the attribute values in the identity provider. In the Cloud Foundry environment of SAP BTP, administrators can use the assertion attributes to refine the roles.
+    Since an identity provider provides the business users, you can dynamically reference all attributes that come with the SAML 2.0 assertion. You define the attributes and the attribute values in the identity provider. In the Cloud Foundry environment of SAP BTP, administrators can use the attributes to refine the roles.
 
     > ### Note:  
-    > If you want to reference attributes from your identity provider, you must know the exact identifier of the assertion attribute. Go to the SAML 2.0 configuration of your identity provider and use the assertion attributes as they are defined there.
-    > 
-    > There is an exception. The following attributes from the identity provider are automatically mapped:
-    > 
-    > **Automatic Mapping of Attributes**
-    > 
-    > 
-    > <table>
-    > <tr>
-    > <th valign="top">
-    > 
-    > Attribute from Identity Provider
-    > 
-    > </th>
-    > <th valign="top">
-    > 
-    > Automatically Mapped to Attribute
-    > 
-    > </th>
-    > </tr>
-    > <tr>
-    > <td valign="top">
-    > 
-    > *first\_name* 
-    > 
-    > </td>
-    > <td valign="top">
-    > 
-    > *given\_name* 
-    > 
-    > </td>
-    > </tr>
-    > <tr>
-    > <td valign="top">
-    > 
-    > *last\_name* 
-    > 
-    > </td>
-    > <td valign="top">
-    > 
-    > *family\_name* 
-    > 
-    > </td>
-    > </tr>
-    > <tr>
-    > <td valign="top">
-    > 
-    > *mail* 
-    > 
-    > </td>
-    > <td valign="top">
-    > 
-    > *email* 
-    > 
-    > </td>
-    > </tr>
-    > </table>
+    > If you want to reference attributes from your identity provider, you must know the exact identifier of the attribute. Go to the SAML 2.0 or OpenID Connect configuration of your identity provider and use the attributes as they are defined there.
 
 -   Unrestricted attributes
 

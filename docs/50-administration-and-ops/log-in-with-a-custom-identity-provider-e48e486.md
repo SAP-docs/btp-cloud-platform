@@ -6,7 +6,7 @@
 
 ## Context
 
-If trust is configured between your global account and a custom identity provider, you need to use the `--idp` parameter to log in through this identity provider. As value, you provide its tenant ID. You find the correct value in the cockpit under *Security* → *Trust Configuration* → *Custom Platform Identity Providers* in the *btp CLI* column.
+If trust is configured between your global account and a custom identity provider, you need to use the `--idp` parameter to log in through this identity provider. As value, you provide its tenant ID. To retrieve the required value, you can use `btp list security/trust` and check the *Tenant* column. Or you can use the Global Account view of the cockpit under *Security* → *Trust Configuration* → *Custom Platform Identity Providers* and use the value from the *BTP CLI* column.
 
 > ### Note:  
 > To work with users from a custom identity provider, you need to specify the `--of-idp` parameter by providing the origin key of the custom identity provider. This is applicable to the following commands: `btp list security/user`, `btp get security/user`, `btp delete security/user`, `btp assign security/role-collection`, `btp unassign security/role-collection`, and you find this origin key in the cockpit under *Security*.

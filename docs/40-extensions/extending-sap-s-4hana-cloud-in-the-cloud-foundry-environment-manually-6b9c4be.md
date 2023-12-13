@@ -11,7 +11,7 @@ This section guides you through the configuration tasks that you need to perform
 ## Process Flow
 
 > ### Note:  
-> Use the manual configuration steps only if your scenario is not covered by the automated process with SAP BTP. If you configure the integration between the cloud platform and SAP S/4HANA Cloud manually, you may not be able to benefit from any automatons.
+> Use the manual configuration steps only if your scenario is not covered by the automated process with SAP BTP. If you configure the integration between the cloud platform and SAP S/4HANA Cloud manually, you may not be able to benefit from any automations.
 
 You have to configure the cloud platform extension integration with SAP S/4HANA Cloud to enable the use of applications running on top of the platform from SAP S/4HANA Cloud.
 

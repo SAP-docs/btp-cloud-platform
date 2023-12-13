@@ -31,6 +31,16 @@ It can be populated with data using the means described below. Once the workshee
 > DATA(lv_file_content) = lo_write_access->get_file_content( ).
 > ```
 
+Adding a new worksheet works like this:
+
+> ### Sample Code:  
+> ```abap
+> DATA(lo_worksheet) = lo_write_access->get_workbook(
+>   )->add_new_sheet( ).
+> ```
+
+You can provide a name for the sheet by filling the optional parameter `iv_name`.
+
 
 
 <a name="loio8dddce9fd9954e72a09d2b39d22db995__section_xlz_dmn_1vb"/>
@@ -238,7 +248,7 @@ The default value transformation is the best effort value transformation. Value 
 
 
 
-### "Best efffort" value transformation
+### "Best effort" value transformation
 
 The **best effort** value transformation is based on an inspection \(based on ABAP runtime type services\) of the ABAP field that should be written to a given cell. Based on the type determined for the ABAP field, a transformation is applied to the value before it's written to the cell of the worksheet. The **best effort** value transformation provides support for the following types of ABAP fields:
 

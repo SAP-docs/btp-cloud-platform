@@ -384,12 +384,12 @@ If a customer faces an issue, you have to provide troubleshooting based on a rep
 
 The ABAP system can be identified in the *Systems Overview* in the Landscape Portal application. See [View Tenants and Systems](view-tenants-and-systems-99c975e.md).
 
-The system ID is defined in the ABAP Solution service via configuration parameter `sap_system_name`. If there are multiple solutions, the system description identifies the corresponding ABAP system as it always follows the same pattern: *ABAP Solution System for <parameter "name" in ABAP Solution service\>*. See [ABAP Solution Service](abap-solution-service-1697387.md).
+The system ID is defined in the ABAP Solution service via configuration parameter `sap_system_name`. If there are multiple solutions, the system description identifies the corresponding ABAP system as it always follows the same pattern: *ABAP Solution System for <parameter "name" in ABAP Solution service\>*. See [ABAP Solution Service](order-and-provide-975bd3e.md#loio1697387c02e74e66a55cf21a05678167).
 
-Based on the SAP Fiori launchpad URL of a consumer tenant, the consumer subaccount subdomain, that uniquely identifies the tenant, can be derived. The pattern to extract the subdomain is defined in `TENANT_HOST_PATTERN`. This is defined as environment variable of the deployed approuter, which is part of the multitenant application. See [Approuter Application](approuter-application-44dbd0a.md).
+Based on the SAP Fiori launchpad URL of a consumer tenant, the consumer subaccount subdomain, that uniquely identifies the tenant, can be derived. The pattern to extract the subdomain is defined in `TENANT_HOST_PATTERN`. This is defined as environment variable of the deployed approuter, which is part of the multitenant application. See [Approuter Application](order-and-provide-975bd3e.md#loio44dbd0ae4d4b4d9c9c8371d711c22bfe).
 
 > ### Example:  
-> Identifying the subdomain with a multitenant application created based on the MTA-based approach, see [Multitenant Applications](multitenant-applications-195031f.md).
+> Identifying the subdomain with a multitenant application created based on the MTA-based approach, see [Multitenant Applications](order-and-provide-975bd3e.md#loio195031ff8f484b51af16fe392ec2ae6e).
 > 
 > -   `TENANT_HOST_PATTERN = (.*)${route-prefix}.${app-domain}`
 > 

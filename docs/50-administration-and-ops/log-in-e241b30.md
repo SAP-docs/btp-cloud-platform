@@ -29,7 +29,7 @@ Log in with the btp CLI is on global account level.
 
 ## Context
 
-When you log in to your global account with the btp CLI, a token is created and stored on your computer that allows to close and reopen the command line without losing your login. With each command call, this token is renewed and valid for 24 hours. So, if you take a longer break from working with the btp CLI, you’ll have to log in again. If you want to end your login earlier, you can use `btp logout`.
+When you log in to your global account with the btp CLI, a token is created and stored on your computer that allows to close and reopen the command line without losing your login. With each command call, this token is renewed and valid for 12 hours. So, if you take a longer break from working with the btp CLI, you’ll have to log in again. If you want to end your login earlier, you can use `btp logout`.
 
 
 
@@ -79,7 +79,7 @@ Usage: `btp [OPTIONS] login [PARAMS]`
 
 Opens a browser for single sign-on at the identity provider. The btp CLI doesn't prompt for this parameter. If you use SAP Universal ID, you need to use this parameter.
 
-To suppress automatic browser opening, use `--sso manual`. To use a custom identity provider, you need to add the `--idp` parameter.
+To suppress automatic browser opening, use `--sso manual`.
 
 </td>
 </tr>
@@ -91,9 +91,9 @@ To suppress automatic browser opening, use `--sso manual`. To use a custom ident
 </td>
 <td valign="top">
 
-This parameter is only needed to work with a custom identity provider. The CLI doesn't prompt for it.
+This parameter is only needed if you want to log in through a custom identity provider. The CLI doesn't prompt for it.
 
-If trust is configured between your global account and a custom identity provider, use this parameter to log in through this identity provider by providing its tenant ID. You find the correct value in the cockpit under *Security* → *Trust Configuration* → *Custom Platform Identity Providers* 
+If trust is configured between your global account and a custom identity provider, use this parameter to log in through this identity provider by providing its tenant ID. To retrieve the required value, you can run `btp list security/trust` and use the value from the *Tenant* column. Or you can use the Global Account view in the cockpit, under *Security* → *Trust Configuration* → *Custom Platform Identity Providers*. The value is displayed in the *BTP CLI* column.
 
 > ### Note:  
 > To work with users from a custom identity provider, you need to specify the `--of-idp` parameter by providing the origin key of the custom identity provider. This is applicable to the following commands: `btp list security/user`, `btp get security/user`, `btp delete security/user`, `btp assign security/role-collection`, `btp unassign security/role-collection`, and you find this origin key in the cockpit under *Security*.

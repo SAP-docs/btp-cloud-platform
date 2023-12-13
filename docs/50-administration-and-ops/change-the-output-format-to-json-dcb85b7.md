@@ -51,7 +51,7 @@ ebXXXX3e-f3a2-4XXf-a080-3eXXXX9b9ced   my-subaccount-2                          
 ### Example with JSON output
 
 ```
-btp list --format json accounts/subaccount
+btp --format json list accounts/subaccount
 {
   "value": [
 

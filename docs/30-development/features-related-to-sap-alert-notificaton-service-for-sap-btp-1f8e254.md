@@ -10,7 +10,7 @@ Deploy and update the SAP Alert Notification service for SAP BTP using the multi
 
 ## Deploying and Updating the service
 
-As an alternative to the manual procedure, you can use a deployment descriptor to automate the initial deployment of SAP Alert Notification service. You can use the same procedure to update the service parameters. See the procedure described in [Updating for the Cloud Foundry Environment](https://help.sap.com/viewer/5967a369d4b74f7a9c2b91f5df8e6ab6/Cloud/en-US/8e65bf3b94d945918440b01646d8d473.html), section *Update using a Multi-Target Application deployment descriptor*.
+As an alternative to the manual procedure, you can use a deployment descriptor to automate the initial deployment of SAP Alert Notification service. You can use the same procedure to update the service parameters. See the procedure described in [Configuration Management Using Multitarget Application Descriptors](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/configuration-management-using-multitarget-application-descriptors?version=Cloud).
 
 
 

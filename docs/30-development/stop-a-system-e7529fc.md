@@ -22,4 +22,6 @@ The selected system\(s\) will now be put into hibernation.
 
 > ### Note:  
 > Note that it might take a few minutes for the system to stop.
+> 
+> Note that a stopped system doesn't process any regular or event-driven business tasks. The system must explicitly be started again to process these tasks.
 

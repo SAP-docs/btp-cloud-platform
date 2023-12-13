@@ -84,7 +84,7 @@ The DevOps engineer is responsible for the configuration of the pipeline and imp
 
 -   Implementing pipeline extensions if necessary
 
--   Implementing a multitenant application. See [Multitenant Applications](multitenant-applications-195031f.md).
+-   Implementing a multitenant application. See [Multitenant Applications](order-and-provide-975bd3e.md#loio195031ff8f484b51af16fe392ec2ae6e).
 
 -   Deploy multitenant application to provider subaccount in global account for development
 -   Subscribe to multitenant application from consumer subaccount in global account for development

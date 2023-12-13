@@ -30,7 +30,7 @@ With the automated configuration you have the following key benefits:
 
 You can use the extension capabilities of SAP BTP to implement additional workflows or modules on top of your existing SAP solutions. You can extend one or more SAP solutions grouped together in a common business case. The following SAP system types are supported:
 
--   SAP S/4HANA Cloud
+-   SAP S/4HANA Cloud, public edition
 
 -   SAP Marketing Cloud
 

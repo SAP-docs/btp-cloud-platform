@@ -141,6 +141,6 @@ spec:
         - name: SAP Enterprise Architecture Designer Integration
           isServiceActive: true
       communicationSystem:
-        communicationSystemHostname: ['default.com', 'host'] 
+        communicationSystemHostname: default.com 
 ```
 

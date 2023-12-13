@@ -79,41 +79,41 @@ To check these versions:
 
 
 
-### Considerations about the usage of different versions of SAP Java Buildpack
+### How to use the SAP Java Buildpack versions?
 
--   If you always use **sap\_java\_buildpack** – This is the way to go in order to take advantage of any new features and fixes in SAP Java Buildpack. Thus it's guaranteed that the buildpack is always available. The drawback in this case is the limited time for any adoption which might be needed. In such a scenario, applications can fall back to an older version temporarily to avoid any down time.
+-   Use the default **sap\_java\_buildpack** – You take advantage of all latest features and fixes in SAP Java Buildpack. This way, it's guaranteed that the buildpack is always available. The drawback in this case is the limited time for any adoption which might be needed. In such a scenario, applications can fall back to an older version temporarily to avoid any downtime.
 
--   If you pin a version of the buildpack - developers should be aware of the fact that this version will exist for a limited amount of time. This may lead to the situation where application restage is failing because the used version of the buildpack is not available anymore. To avoid this, it is recommended to follow the updates of the buildpack and test the application with the newest buildpack so that it could be adopted in time \(in case adoption is required\), and to update the version regularly. In this scenario, developers should never allow their application to run on an outdated buildpack version.
+-   Set a particular version of the buildpack - Bear in mind that this version will exist for a limited amount of time. This may lead to the situation where application restage is failing because the used version of the buildpack is no longer available. To avoid this, we recommend that you follow the updates of the buildpack and test your applications with the latest buildpack version. Developers should never allow their applications to run on an outdated buildpack version.
 
 
 **Example:**
 
-Let's say that the latest version of SAP Java Buildpack is **1.50.0**. Then, the output of the `cf buildpacks` command would be:
+Let's say that the latest version of SAP Java Buildpack is **1.80.0**. Then, the output of the `cf buildpacks` command would be:
 
 ```
 buildpack           position   enabled   locked   filename
 
-sap_java_buildpack           1         true      false    sap_java_buildpack-1.50.0.zip
-sap_java_buildpack_1_50      2         true      false    sap_java_buildpack-1.50.0.zip
-sap_java_buildpack_1_49      3         true      false    sap_java_buildpack-1.49.0.zip
-sap_java_buildpack_1_48      4         true      false    sap_java_buildpack-1.48.0.zip
+sap_java_buildpack           1         true      false    sap_java_buildpack-1.80.0.zip
+sap_java_buildpack_1_80      2         true      false    sap_java_buildpack-1.80.0.zip
+sap_java_buildpack_1_79      3         true      false    sap_java_buildpack-1.79.0.zip
+sap_java_buildpack_1_78      4         true      false    sap_java_buildpack-1.78.0.zip
 ```
 
-When SAP Java Buildpack is updated on the SAP BTP, Cloud Foundry from version **1.50.0** to **1.51.0**, the list will change to:
+When SAP Java Buildpack is updated on the SAP BTP, Cloud Foundry from version **1.80.0** to **1.81.0**, the list will change to:
 
 ```
 buildpack           position   enabled   locked   filename
 
-sap_java_buildpack           1         true      false    sap_java_buildpack-1.51.0.zip
-sap_java_buildpack_1_51      2         true      false    sap_java_buildpack-1.51.0.zip
-sap_java_buildpack_1_50      3         true      false    sap_java_buildpack-1.50.0.zip
-sap_java_buildpack_1_49      4         true      false    sap_java_buildpack-1.49.0.zip
+sap_java_buildpack           1         true      false    sap_java_buildpack-1.81.0.zip
+sap_java_buildpack_1_81      2         true      false    sap_java_buildpack-1.81.0.zip
+sap_java_buildpack_1_80      3         true      false    sap_java_buildpack-1.80.0.zip
+sap_java_buildpack_1_79      4         true      false    sap_java_buildpack-1.79.0.zip
 ```
 
-This means that *sap\_java\_buildpack\_1\_48* will no longer be available for applications.
+This means that *sap\_java\_buildpack\_1\_78* will no longer be available for applications.
 
 > ### Note:  
-> No fixes will be provided to the older versions of the buildpack. Fixes, including security ones, will be part of the latest version.
+> No fixes will be provided to older versions of the buildpack. Fixes, including security ones, will be part of the latest version.
 
 
 
@@ -137,7 +137,7 @@ applications:
   path: ./target/myapp.war
   instances: 1
   buildpacks:
-  - sap_java_buildpack
+  - sap_java_buildpack_1_80
 ```
 
 You can do the same in the `mtad.yml` of your **mtar** archive:
@@ -153,7 +153,7 @@ modules:
     parameters:
       ...
       memory: 512M
-      buildpack: sap_java_buildpack_1_50
+      buildpack: sap_java_buildpack_1_80
 ...
 ```
 
@@ -227,7 +227,6 @@ See also:
 
 -   SAP Note: [3261748](https://me.sap.com/notes/3261748) *SapMachine is replacing OpenJDK 11 & 17 in java\_buildpack*
 -   SAP Note: [3214025](https://me.sap.com/notes/3214025) *Migrating Java Applications from TomEE 1.7 to TomEE 7*
--   SAP Note: [3155402](https://me.sap.com/notes/3155402) *Explicitly pin SAP Java Buildpack 1.48.1 in your manifest file*
 
 
 
@@ -243,8 +242,10 @@ The following tutorial will guide you through creating a Java application in Clo
 
 ## Community Cloud Foundry Java Buildpack
 
-This section lists Cloud Foundry Java components and updates maintained by SAP that belong to the online community [Java Buildpack](https://github.com/cloudfoundry/java-buildpack).
+This section lists Cloud Foundry Java components and updates maintained by SAP that belong to the public [Java Buildpack community](https://github.com/cloudfoundry/java-buildpack).
 
--   **SapMachine** – as of [v4.55](https://github.com/cloudfoundry/java-buildpack/releases/tag/v4.55) of the Java Buildpack, SAP has provides SapMachine 11 and 17 instead of OpenJDK 11 and 17 in the offline **`java_buildpack`**. For more information, see SAP Note: [3261748](https://me.sap.com/notes/3261748) *SapMachine is replacing OpenJDK 11 & 17 in java\_buildpack*
+-   **SapMachine** – as of [v4.55](https://github.com/cloudfoundry/java-buildpack/releases/tag/v4.55) of the Java Buildpack, SAP has provides SapMachine 11 and 17 instead of OpenJDK 11 and 17 in the offline **`java_buildpack`**.
+
+    See SAP Note: [3261748](https://me.sap.com/notes/3261748) *SapMachine is replacing OpenJDK 11 & 17 in java\_buildpack*
 
 

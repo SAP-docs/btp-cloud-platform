@@ -12,21 +12,21 @@ Learn more about the basic principles of communication management when integrati
 
 ## Communication Scenario
 
-A communication scenario, which is created in the development system using ABAP Development Tools and transported to other systems, is a design time description of how two communication partners communicate with each other. It consists of inbound and/or outbound services as well as supported authentication methods.
+A communication scenario, which is created in the development system using `ABAP Development Tools` and transported to other systems, is a design time description of how two communication partners communicate with each other. It consists of inbound and/or outbound services as well as supported authentication methods.
 
-It provides technical information, such as the used inbound and outbound services and their service type, for example OData or SOAP, and the number of allowed communication arrangement instances. If the scenario exposes inbound services, it specifies the authorizations that are required to execute the services.
+It provides technical information, such as the used inbound and outbound services and their service type, for example OData or SOAP, and the number of allowed communication arrangement instances. If the scenario exposes inbound services, it specifies the authorizations that are required to run the services.
 
 The following types of communication scenarios are available:
 
 -   **Managed by SAP**, where SAP provides a ready-to-use communication scenario and you create and maintain a communication arrangement.
--   **Managed by customer**, where you develop a communication scenario and create and maintain a communication arrangement.
+-   **Managed by the customer**, where you develop a communication scenario and create and maintain a communication arrangement.
 
 **Related Information**  
 
 
 [Display Communication Scenarios](display-communication-scenarios-baa798b.md "You can use this app to get an overview of available communication scenarios.")
 
-[Overview of Communication Scenarios Managed by SAP](overview-of-communication-scenarios-managed-by-sap-2d16f49.md "Find a quick overview of all the communication scenarios in the ABAP environment.")
+[Overview of Communication Scenarios Managed by SAP](https://help.sap.com/docs/btp/sap-business-technology-platform/overview-of-communication-scenarios-managed-by-sap?version=Cloud)
 
 [Developing External Service Consumption \(Outbound Communication\)](../30-development/developing-external-service-consumption-outbound-communication-f871712.md "Get more information about consuming external services.")
 

@@ -75,33 +75,53 @@ To deploy several entities of a multitarget application using namespaces, procee
 
 2.  Using the CF CLI, deploy the initial MTA archive by using the following command:
 
-    `$ cf deploy ./MyMTA.mtar`
+    ```
+    $ cf deploy ./MyMTA.mtar
+    ```
 
 3.  \(Optional\) Check the deployment by inspecting the applications and details. Use the commands:
 
-    `$ cf a`
+    ```
+    $ cf app
+    ```
 
-    `$ cf mtas`
+    ```
+    $ cf mtas
+    ```
 
-    `$ cf mta MyMTA`
+    ```
+    $ cf mta MyMTA
+    ```
 
 4.  For each subsequent deployment of the same MTA archive, use the following command:
 
-    `$ cf deploy ./MyMTA.mtar --namespace <your namespace>`
+    ```
+    $ cf deploy ./MyMTA.mtar --namespace <your namespace>
+    ```
 
 5.  \(Optional\) Check whether your subsequent deployments have not removed the original MTA deployment:
 
-    `$ cf a`
+    ```
+    $ cf app
+    ```
 
-    `$ cf mtas`
+    ```
+    $ cf mtas
+    ```
 
-    `$ cf mta MyMTA --namespace <your namespace>`
+    ```
+    $ cf mta MyMTA --namespace <your namespace>
+    ```
 
 6.  Validate your deployments by calling their exposed web endpoints:
 
-    `$ cf a | grep '^appA'`
+    ```
+    $ cf app | grep '^appA'
+    ```
 
-    `$ cf a | grep '^<your namespace>-appA'`
+    ```
+    $ cf app | grep '^<your namespace>-appA'
+    ```
 
     1.  when using a route without a namespace `curl https://route-without-namespace.<domain>`
     2.  when using a route with a namespace `curl https://<your namespace>-route-with-namespace.<domain>`

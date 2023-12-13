@@ -65,7 +65,7 @@ Select the text sources that you want to have translated.
 > 
 > A database table needs to fulfill the following requirements to be considered a text table by the *Maintain Translations* app:
 > 
-> -   The database table has exactly one key field of ABAP Dictionary Built-in Type LANG.
+> -   The database table has exactly one key field of ABAP Dictionary built-in type LANG.
 > 
 > -   The database table is of delivery class C or S.
 > 

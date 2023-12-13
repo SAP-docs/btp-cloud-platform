@@ -256,7 +256,7 @@ Command line interface for SAP BTP
 <tr>
 <td valign="top">
 
-Assign the role collections to users
+Assign the role collections to users and user groups, manage attribute mappings
 
 [Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md) or [Mapping Role Collections in the Subaccount](../50-administration-and-ops/mapping-role-collections-in-the-subaccount-9e1bf57.md)
 
@@ -309,6 +309,8 @@ Administrator of the Cloud Foundry environment
 <td valign="top">
 
 SAP BTP cockpit
+
+Command line interface for SAP BTP
 
 </td>
 </tr>

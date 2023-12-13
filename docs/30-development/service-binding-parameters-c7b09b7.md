@@ -2,12 +2,15 @@
 
 # Service Binding Parameters
 
-Some services support additional configuration parameters in the `create-bind` request; these parameters are passed in a valid JSON object containing the service-specific configuration parameters.
+Some services support additional configuration parameters with the bind request. These parameters are passed in a valid JSON object containing service-specific configuration parameters, provided either in-line or in a file. For a list of supported configuration parameters, see documentation for the particular service offering.
+
+> ### Note:  
+> At the time being user-provided services do not support arbitrary binding parameters.
 
 The SAP Cloud Deployment service supports the following methods for the specification of service-binding parameters:
 
--   Method 1 - an entry in the MTA deployment descriptor \(or the extension\)
--   Method 2 - A JSON file with the required service-configuration parameters
+-   Method 1 - In-line parameters into MTA descriptors \(deployment or extension descriptors\)
+-   Method 2 - JSON file with external configuration, containing the required service-configuration parameters
 -   A combination of the first two methods, as described in the table below
 
 > ### Note:  
@@ -128,6 +131,9 @@ Combination of the two methods
 </td>
 </tr>
 </table>
+
+> ### Note:  
+> The examples are only illustrative for service-binding parameters. Each service offering supports its own set of parameters.
 
 Method 1 shows how to define the service-binding parameters in the MTA deployment descriptor \(`mtad.yaml`\). If you use this method, all parameters under the special `config` parameter are used for the service-bind request. This parameter is optional.
 

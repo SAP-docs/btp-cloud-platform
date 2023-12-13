@@ -1,8 +1,8 @@
 <!-- loio3943c74328df43ad9a1fd22c39882aae -->
 
-# Using an SAP BTP System as ATC Central Check System
+# Optional: Configuring the ATC Developer Scenario
 
-You can use a system in SAP BTP, ABAP Environment as a central check system to run ATC checks from an on-premise system against this system \(ATC Developer Scenario\).
+You can use a system in SAP BTP ABAP environment as a central check system to run ATC checks from an on-premise system against this system \(ATC Developer Scenario\).
 
 
 
@@ -10,7 +10,7 @@ You can use a system in SAP BTP, ABAP Environment as a central check system to r
 
 ## Prerequisites
 
--   You’ve defined communication arrangement `SAP_COM_0464` \(SAP Custom Code Migration Integration\) to enable communication from your ABAP environment to your on-premise systems using remote function calls \(RFC\). For more information, see [Maintaining Communication Arrangements](https://help.sap.com/docs/btp/sap-business-technology-platform/maintaining-communication-arrangements-52579888e08546ea80700c5df791582e).
+-   You’ve defined communication arrangement `SAP_COM_0464` \(SAP Custom Code Migration Integration\) to enable communication from your ABAP environment to your on-premise systems using remote function calls \(RFC\). For more information, see [Maintaining Communication Arrangements](maintaining-communication-arrangements-7849aa4.md).
 
 -   You’ve implemented [SAP Note 3358660 - Developer Scenario Cloud](https://me.sap.com/notes/3358660/E) in your checked system.
 

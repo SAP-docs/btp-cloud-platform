@@ -71,7 +71,7 @@ You must establish a trust relationship with an SAML 2.0 identity provider in yo
 
 5.  Choose the *Upload* button to insert the SAML 2.0 metadata.
 
-6.  To validate the metadata, choose *Parse*. This will fill the *Subject* and *Issuer* fields with the relevant data from the SAP Cloud Identity Services - Identity Authentication - your SAML 2.0 identity provider.
+6.  To validate the metadata, choose *Parse*. This will fill the *Subject* and *Issuer* fields with the relevant data from the SAP Cloud Identity Services - Identity Authentication - your SAML 2.0 identity provider. You see the fields when you choose *Show Details*.
 
     The name of the new trust configuration now shows the value `<Identity_Authentication_tenant>.accounts.ondemand.com`. It represents the custom identity provider SAP Cloud Identity Services - Identity Authentication.
 

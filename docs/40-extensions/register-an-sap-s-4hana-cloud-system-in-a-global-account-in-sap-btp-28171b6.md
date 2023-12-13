@@ -2,7 +2,7 @@
 
 # Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP
 
-To connect an SAP S/4HANA Cloud system with a global account in SAP BTP, you need to register the system in the corresponding global account.
+To connect an SAP S/4HANA Cloud, public edition system with a global account in SAP BTP, you need to register the system in the corresponding global account.
 
 
 
@@ -20,6 +20,9 @@ To connect an SAP S/4HANA Cloud system with a global account in SAP BTP, you nee
 
 
 ## Context
+
+> ### Note:  
+> This documentation refers to SAP S/4HANA Cloud, public edition. See [Introduction to the Universe of SAP S/4HANA Cloud, public edition](https://help.sap.com/docs/SAP_S4HANA_CLOUD/f77dde055ecb4541b57787d362c46a36/2962fce53eef47b4b3a8e6c945adafbe.html).
 
 The registration process is based on a registration token that is used for the pairing of the SAP S/4HANA Cloud system and the corresponding global account. You create the token in the global account, and then the tenant administrator of the respective SAP S/4HANA Cloud system uses the token to start the automated registration process on the SAP S/4HANA Cloud system side.
 

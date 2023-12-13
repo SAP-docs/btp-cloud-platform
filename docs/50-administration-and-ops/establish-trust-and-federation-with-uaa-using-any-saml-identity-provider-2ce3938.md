@@ -124,7 +124,7 @@ To establish trust from a tenant of your identity provider to a subaccount, assi
 **Related Information**  
 
 
-[Federation Attribute Settings of Any Identity Provider](federation-attribute-settings-of-any-identity-provider-6d07333.md "This table is supposed to display the attribute settings of the identity provider and the values administrators use to establish trust between the SAML 2.0 identity provider and a new subaccount.")
+[Settings for Default SAML Federation Attributes of Any Identity Provider](settings-for-default-saml-federation-attributes-of-any-identity-provider-6d07333.md "This table is supposed to display the attribute settings of the identity provider and the values administrators use to establish trust between the SAML 2.0 identity provider and a new subaccount.")
 
 [SAP Developers](https://developers.sap.com/tutorials/cp-azure-ad-saml.html)
 

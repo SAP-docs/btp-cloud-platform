@@ -43,8 +43,3 @@ You must set up a communication arrangement based on communication scenario `SAP
 
 The metric provider values are collected and saved to the generic metric store.
 
-**Related Information**  
-
-
-[Creating an Application Job](../50-administration-and-ops/creating-an-application-job-5c085de.md "Find out how to create your own application jobs in the Application Jobs app.")
-

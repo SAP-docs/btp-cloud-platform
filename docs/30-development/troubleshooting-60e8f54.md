@@ -12,7 +12,7 @@ Find out which steps you can take to identify and resolve specific issues that m
 
 -   The *Landscape Portal* subscription might be missing. Make sure the *Landscape Portal* is subscribed to in the provider subaccount. This needs to be done before the SaaS subscription.
 
--   The ASP\_CC \(CF Cloud Controller\) destination might have failed: An ASP\_CC destination with the correct credentials/URLs must exist in the provider subaccount \(see [Cloud Controller Access Destination](cloud-controller-access-destination-35b5acb.md)\). You can use a connection check in the destination for a basic connectivity test. You can also test if the user that was used in the ASP\_CC destination is able to authenticate with the following cf command: cf login -a <cf-api-endpoint e.g. https://api.cf.eu10.hana.ondemand.com\> -u <destination-user-name\> -p <password\> -s <provider-space\> -o <provider-org\>. Make sure the following is the case:
+-   The ASP\_CC \(CF Cloud Controller\) destination might have failed: An ASP\_CC destination with the correct credentials/URLs must exist in the provider subaccount \(see [Cloud Controller Access Destination](order-and-provide-975bd3e.md#loio35b5acbb32024aa6b90a22e9f957a9f6)\). You can use a connection check in the destination for a basic connectivity test. You can also test if the user that was used in the ASP\_CC destination is able to authenticate with the following cf command: cf login -a <cf-api-endpoint e.g. https://api.cf.eu10.hana.ondemand.com\> -u <destination-user-name\> -p <password\> -s <provider-space\> -o <provider-org\>. Make sure the following is the case:
 
     -   You have the credentials you require \(space developer user\). This user is a CF Platform User, i.e. it is either an S-User or a P-User, usually created using a distribution list so that it is a non-personalized e-mail address. A technical communication user that can also be created similar to normal S-Users cannot be used here.
 
@@ -27,9 +27,9 @@ Find out which steps you can take to identify and resolve specific issues that m
 
 -   There might be missing entitlements for ABAP systems: During the subscription, the multitenant application/ASP automatically provisions ABAP systems. Make sure that the necessary entitlements are added to the provider subaccount:
 
-    -   abap/standard \(for delivery via gCTS\) or abap/saas\_oem \(for add-on based delivery\), depending on the configuration of ASP parameter addon\_product\_name. See [Multitenancy in the ABAP Environment](multitenancy-in-the-abap-environment-633cc61.md) and [ABAP Solution Service](abap-solution-service-1697387.md).
+    -   abap/standard \(for delivery via gCTS\) or abap/saas\_oem \(for add-on based delivery\), depending on the configuration of ASP parameter addon\_product\_name. See [Multitenancy in the ABAP Environment](multitenancy-in-the-abap-environment-633cc61.md) and [ABAP Solution Service](order-and-provide-975bd3e.md#loio1697387c02e74e66a55cf21a05678167).
 
-    -   abap\_compute\_unit and hana\_compute\_unit depending on the configuration of ASP parameter size\_of\_runtime and size\_of\_persistence. See [Multitenancy in the ABAP Environment](multitenancy-in-the-abap-environment-633cc61.md) and [ABAP Solution Service](abap-solution-service-1697387.md).
+    -   abap\_compute\_unit and hana\_compute\_unit depending on the configuration of ASP parameter size\_of\_runtime and size\_of\_persistence. See [Multitenancy in the ABAP Environment](multitenancy-in-the-abap-environment-633cc61.md) and [ABAP Solution Service](order-and-provide-975bd3e.md#loio1697387c02e74e66a55cf21a05678167).
 
 
 -   There might be missing entitlements for multitenant app deployment. Make sure that the necessary entitlements are added to the provider subaccount:
