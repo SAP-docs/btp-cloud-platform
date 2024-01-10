@@ -166,18 +166,6 @@ For more information, see [Set Up Customer Accounts](https://help.sap.com/docs/S
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-Service Fabrik
-
-</td>
-<td valign="top">
-
-You can use the Service Fabrik backing service.
-
-</td>
-</tr>
 </table>
 
 **Supported with Restrictions When Using Platform Identity Providers**

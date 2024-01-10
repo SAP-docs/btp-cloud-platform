@@ -81,14 +81,19 @@ You do this procedure through Cloud Foundry Environment, which is part of a suba
     -   \(Recommended\) For mTLS authentication using X.509 certificates, use:
 
         ```
-        cf create-service auditlog-management central <SERVICE_INSTANCE> -c '{
-        "xs-security": {"xsappname": "auditlog",
-        "oauth2-configuration": {
-        "credential-types": ["x509"],
-        "grant-types": ["client_x509","client_credentials"]
-        }
-        }
-        }
+        cf create-service auditlog-management default <SERVICE_INSTANCE> -c '{
+            "xs-security": {
+                "xsappname": "auditlog",
+                "oauth2-configuration": {
+                    "credential-types": [
+                        "x509"
+                    ],
+                    "grant-types": [
+                        "client_credentials"
+                    ]
+                }
+            }
+        }'
         ```
 
     -   For non-mTLS authentication, use
@@ -105,15 +110,15 @@ You do this procedure through Cloud Foundry Environment, which is part of a suba
 
         ```
         cf create-service-key <SERVICE_INSTANCE> <SERVICE_KEY> -c '{
-        "xsuaa": {
-        "credential-type": "x509",
-        "x509": {
-        "key-length": 2048,
-        "validity": 1,
-        "validity-type": "DAYS"
-        }
-        }
-        }
+            "xsuaa": {
+                "credential-type": "x509",
+                "x509": {
+                    "key-length": 2048,
+                    "validity": 1,
+                    "validity-type": "DAYS"
+                }
+            }
+        }'
         ```
 
         > ### Note:  

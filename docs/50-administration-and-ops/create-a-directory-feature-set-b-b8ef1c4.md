@@ -13,7 +13,10 @@ Create a directory using the SAP BTP cockpit to organize and manage your subacco
 > ### Note:  
 > This feature is new in Feature Set B so there is no equivalent in Feature Set A. For more information, see [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
 
-For more information on directories, see [Directories \[Feature Set B\]](../10-concepts/account-model-8ed4a70.md#loioa92721fc75524ec09a7a7255997dbd94).
+> ### Recommendation:  
+> Before creating your subaccounts, we recommend you learn more about [Setting Up Your Account Model](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/2db81f42f5194454beecde6cd4994dda.html "The hierarchical structure between global accounts, directories, and subaccounts lets you define an account model that accurately fits your business and development needs.") :arrow_upper_right:.
+
+For more information about directories, see [Directories \[Feature Set B\]](../10-concepts/account-model-8ed4a70.md#loioa92721fc75524ec09a7a7255997dbd94).
 
 
 
@@ -24,7 +27,7 @@ For more information on directories, see [Directories \[Feature Set B\]](../10-c
 2.  In the *Create* dropdown, choose *Directory*.
 
     > ### Tip:  
-    > You can also create a directory by selecting *Create Directory* from the <span class="SAP-icons"></span> Actions menu button for the global account or a specific directory.
+    > You can also create a directory by selecting *Create Directory* from the <span class="SAP-icons"></span> Actions menu button of the global account or an existing directory.
 
 3.  In the *Create Directory* dialog box, enter a display name for your new directory and choose a parent. The parent can be the global account or another directory.
 

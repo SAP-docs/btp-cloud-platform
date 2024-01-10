@@ -20,6 +20,8 @@ Here, you'll learn how to:
 
 -   Delete directories and subaccounts from the account structure
 
+-   Export the account structure to Microsoft Excel format.
+
 
 A subaccount moves with its assigned service plans and quota. The entitlements of the source and target directories are adjusted accordingly.
 
@@ -29,29 +31,42 @@ You can create a hierarchical structure that is up to 7 levels deep. The highest
 
 
 
-<a name="loio2e2a5b67f5ba4782a9070534148e8426__steps_x5j_1ft_1qb"/>
+<a name="loio2e2a5b67f5ba4782a9070534148e8426__steps-unordered_nvj_ppn_szb"/>
 
 ## Procedure
 
-1.  Add directories and subaccounts to a directory.
+-   Add directories and subaccounts to a directory.
 
-    1.  When creating a new directory or subaccount, you can choose the parent directory directly in the creation dialog.
+    -   In the *Create* dropdown, choose *Directory*.
 
+        When creating the new directory, you choose its location in the account structure by selecting its parent directory or the global account directly in the creation dialog box.
 
-2.  Move subaccounts in the account structure.
-
-    1.  Click <span class="SAP-icons"></span> Actions and select *Edit*. Then select a new parent.
-
-    2.  Click <span class="SAP-icons"></span> Actions and select *Move*. Then select a new parent.
-
-    3.  Click <span class="SAP-icons"></span> Move to move subaccounts by drag and dropping.
+    -   You can also create a directory by selecting *Create Directory* from the <span class="SAP-icons"></span> Actions menu button for the global account or a specific parent directory.
 
 
-3.  Delete directories and subaccounts from the account structure.
+-   Move subaccounts in the account structure.
 
-    1.  Click <span class="SAP-icons"></span> Actions and select *Delete*.
+    -   Click <span class="SAP-icons"></span> Actions and select *Edit*. Then select a new parent.
 
-    2.  To delete a subaccount, you can also navigate into the subaccount and click *Delete Subaccount*.
+    -   Click <span class="SAP-icons"></span> Actions and select *Move*. Then select a new parent.
+
+    -   Click <span class="SAP-icons"></span> Move to move subaccounts by drag and dropping.
+
+
+-   Delete directories and subaccounts from the account structure.
+
+    -   Click <span class="SAP-icons"></span> Actions and select *Delete*.
+
+    -   To delete a subaccount, you can also navigate into the subaccount and click *Delete Subaccount*.
+
+
+-   Export the account structure to Microsoft Excel format.
+
+    -   Click <span class="SAP-icons"></span> Export.
+
+        The exported Microsoft Excel file contains a sheet \(tab\) called *Account Structure*, which lists all the subaccounts and directories in the account structure, and includes information about each entity. Each subaccount and directory displays its name, ID, description, path, creation/change dates, and the user that created it.
+
+        Subaccounts also display information about their environment, provider, region, used for production setting, and whether the beta feature option is enabled. Directories also display whether they are configured to manage users and entitlements.
 
 
 
@@ -65,4 +80,6 @@ You can create a hierarchical structure that is up to 7 levels deep. The highest
 [Create a Directory \[Feature Set B\]](create-a-directory-feature-set-b-b8ef1c4.md "Create a directory using the SAP BTP cockpit to organize and manage your subaccounts. For example, you can group subaccounts by project, team, or department.")
 
 [Create a Subaccount](create-a-subaccount-05280a1.md "Create subaccounts in your global account using the SAP BTP cockpit.")
+
+[Delete a Subaccount](delete-a-subaccount-419dc3d.md "Delete subaccounts using the SAP BTP cockpit to clean up your account hierarchy, free up quota used by services in your subaccounts, and to reduce overall costs.")
 

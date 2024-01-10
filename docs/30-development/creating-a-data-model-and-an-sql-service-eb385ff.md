@@ -1,6 +1,6 @@
 <!-- loioeb385ff717914a3087fabc11153a3044 -->
 
-# Developing a Data Model and an SQL Service
+# Creating a Data Model and an SQL Service
 
 Before you set up the data access for ODBC-based clients, you must create a data model and an SQL service in ABAP Development Tools.
 

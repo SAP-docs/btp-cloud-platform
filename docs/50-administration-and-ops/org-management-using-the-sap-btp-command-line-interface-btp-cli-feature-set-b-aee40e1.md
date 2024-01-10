@@ -61,6 +61,23 @@ For more information about the free tier model for SAP BTP and its availability,
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+`trial` 
+
+</td>
+<td valign="top">
+
+Use this plan to utilize your trial period.
+
+> ### Note:  
+> Your subaccount's type must be trial to use this plan.
+
+
+
+</td>
+</tr>
 </table>
 
 For more information, about the features that each plan offers, see [Cloud Foundry Runtime](https://discovery-center.cloud.sap/serviceCatalog/cloud-foundry-runtime) on SAP Discovery Center.

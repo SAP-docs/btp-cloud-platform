@@ -2,17 +2,13 @@
 
 # Creating a Communication System and a Communication User
 
-
-
-## Context
-
-The final preparation tasks in the ABAP system can't be performed in ADT and need to be done in the administration UI of the ABAP system.
+An administrator must create a communication system and a communication user for accessing ABAP-managed data from external ODBC-based clients.
 
 
 
 ## Procedure
 
-1.  Log on to the SAP Fiori launchpad of the ABAP environment.
+1.  Log on to the SAP Fiori launchpad of the ABAP environment as an administrator.
 
 2.  Under *Communication Management*, choose the *Communication Systems* app.
 

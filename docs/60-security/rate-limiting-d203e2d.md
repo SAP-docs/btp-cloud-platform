@@ -15,6 +15,13 @@ To protect the SAP Authorization and Trust Management service from overload of m
 -   If too many requests are queued so that the response time due to queuing exceeds a certain time, the service sends an HTTP 429 response code. This response also contains the http `Retry-After` header, which indicates when the client can retry.
 
 
+> ### Recommendation:  
+> There might be company events that trigger a lot of users to log on and try to access one special resource, such as the launch of a special employee discount sale for a certain day. Therefore, it's very likely that a high load of users will try to log on to the special discount website at the announced time. This means that you can foresee that users might run into HTTP 429 error response codes.
+> 
+> -   We recommend sending the announcement emails in waves. By doing so, you can avoid a situation where almost all users try to log on at about the same time.
+> 
+> -   Additionally, it's helpful to handle the HTTP 429 error message by also sending a clear text message like ***We are sorry, but the server is currently experiencing high demand. Please try again later.*** Such a message gives the users guidance of what to do.
+
 > ### Note:  
 > Since rate limiting is per subaccount, SaaS applications probably don't notice rate limiting because the load is distributed across different SaaS subaccounts.
 

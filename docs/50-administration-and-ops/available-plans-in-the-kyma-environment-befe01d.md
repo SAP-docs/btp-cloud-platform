@@ -10,7 +10,10 @@ Depending on your global account type, you have access to a different plan that 
 
 ## Trial
 
-For details on the trial cluster specification, see [Scope and Limitations](../20-getting-started/about-the-trial-account-c4fff0f.md#loioc4fff0f58f90424f8e0af28975ac7f0f__section_trial_scope_limitations).
+The technical name of the plan is `trial`. For details on the trial cluster specification, see [Scope and Limitations](../20-getting-started/about-the-trial-account-c4fff0f.md#loioc4fff0f58f90424f8e0af28975ac7f0f__section_trial_scope_limitations).
+
+> ### Remember:  
+> The parameters marked with an asterisk "\*" are mandatory.
 
 **Trial Plan Specification**
 
@@ -19,7 +22,7 @@ For details on the trial cluster specification, see [Scope and Limitations](../2
 <tr>
 <th valign="top">
 
-Field
+Parameter
 
 </th>
 <th valign="top">
@@ -29,43 +32,19 @@ Description
 </th>
 <th valign="top">
 
-Default Value
+Supported Operation
 
 </th>
 <th valign="top">
 
-Allowed Input
+More Information
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
-*Plan*
-
-btp CLI parameter: `plan`
-
-</td>
-<td valign="top">
-
-Defines the plan you can use in your subaccount \(only relevant for btp CLI\).
-
-</td>
-<td valign="top">
-
-Trial
-
-</td>
-<td valign="top">
-
-`trial`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Cluster Name*
+*Cluster Name\**
 
 btp CLI parameter: `name`
 
@@ -77,14 +56,88 @@ Defines the name of your cluster.
 </td>
 <td valign="top">
 
-n/a
+Provisioning
 
 </td>
 <td valign="top">
 
-Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0–9\), periods, underscores, and hyphens.
+[Cluster Name\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Cluster_Name)
 
-It can't contain white spaces.
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Modules*
+
+btp CLI parameter: `modules`
+
+</td>
+<td valign="top">
+
+Defines which Kyma modules are provisioned in your cluster.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+[Modules](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Modules)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*OpenID Connect*
+
+btp CLI parameter: `oidc`
+
+</td>
+<td valign="top">
+
+Provides a custom Open ID Connect \(OIDC\) configuration.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+[OpenID Connect \(OIDC\)](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_OIDC)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Administrators*
+
+btp CLI parameter: `administrators`
+
+</td>
+<td valign="top">
+
+Specifies the list of runtime administrators.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+[Administrators](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Administrators)
 
 </td>
 </tr>
@@ -96,7 +149,7 @@ It can't contain white spaces.
 
 ## Free
 
-Using the free service plans for Kyma allows you to try out services in global accounts without any additional cost. However, the free model account has certain limitations.
+The technical name of the plan is `free`. Using the free service plans for Kyma allows you to try out services in global accounts without any additional cost. However, the free model account has certain limitations.
 
 -   The free plan offers you a one-node cluster and is only available on AWS.
 
@@ -113,6 +166,9 @@ Using the free service plans for Kyma allows you to try out services in global a
 
 For more information, read [Using Free Service Plans](../10-concepts/using-free-service-plans-524e108.md).
 
+> ### Remember:  
+> The parameters marked with an asterisk "\*" are mandatory.
+
 **Free Plan Specification**
 
 
@@ -120,7 +176,7 @@ For more information, read [Using Free Service Plans](../10-concepts/using-free-
 <tr>
 <th valign="top">
 
-Field
+Parameter
 
 </th>
 <th valign="top">
@@ -130,43 +186,19 @@ Description
 </th>
 <th valign="top">
 
-Default Value
+Supported Operation
 
 </th>
 <th valign="top">
 
-Allowed Input
+More Information
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
-*Plan*
-
-btp CLI parameter: `plan`
-
-</td>
-<td valign="top">
-
-Defines the plan you can use in your subaccount.
-
-</td>
-<td valign="top">
-
-Free
-
-</td>
-<td valign="top">
-
-`free`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Cluster Name*
+*Cluster Name\**
 
 btp CLI parameter: `name`
 
@@ -178,38 +210,136 @@ Defines the name of your cluster.
 </td>
 <td valign="top">
 
-n/a
+Provisioning
 
 </td>
 <td valign="top">
 
-Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0–9\), periods, underscores, and hyphens.
-
-It can't contain white spaces.
+[Cluster Name\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Cluster_Name)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-*Region*
+*Region\**
 
 btp CLI parameter: `region`
 
 </td>
 <td valign="top">
 
-Defines a region \(set of datacenters\) where your cluster will run.
+Defines a region \(set of datacenters\) where your cluster runs.
 
 </td>
 <td valign="top">
 
-`eu-central-1`
+Provisioning
 
 </td>
 <td valign="top">
 
-Look up the technical cluster region names at [Regions for the Kyma Environment](../10-concepts/regions-for-the-kyma-environment-557ec3a.md) - only “Amazon Web Services” regions available.
+[Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Modules*
+
+btp CLI parameter: `modules`
+
+</td>
+<td valign="top">
+
+Defines which Kyma modules are provisioned in your cluster.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+[Modules](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Modules)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Networking*
+
+btp CLI parameter: `networking`
+
+</td>
+<td valign="top">
+
+Provides a custom IP range for worker nodes.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+[Networking](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Networking)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*OpenID Connect*
+
+btp CLI parameter: `oidc`
+
+</td>
+<td valign="top">
+
+Provides a custom Open ID Connect \(OIDC\) configuration.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+[OpenID Connect \(OIDC\)](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_OIDC)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Administrators*
+
+btp CLI parameter: `administrators`
+
+</td>
+<td valign="top">
+
+Specifies the list of runtime administrators.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+[Administrators](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Administrators)
 
 </td>
 </tr>
@@ -219,22 +349,25 @@ Look up the technical cluster region names at [Regions for the Kyma Environment]
 
 <a name="loiobefe01d5d8864e59bf847fa5a5f3d669__section_y4g_qld_hpb"/>
 
-## Enterprise \(AWS, Google Cloud, Azure\)
+## Amazon Web Services, Google Cloud, and Microsoft Azure
 
-The Enterprise plans offer highly available Kubernetes clusters, where the Kubernetes and Kyma configurations are optimized for production use cases. The Kubernetes worker nodes are deployed in three availability zones of the respective [cloud region](../10-concepts/regions-for-the-kyma-environment-557ec3a.md), and thus can provide zone level failure tolerance for Kyma and applications deployed on the Kyma runtime.
+The technical names of the enterprise plans are `aws`, `gcp`, and `azure`. They offer highly available Kubernetes clusters, where the Kubernetes and Kyma configurations are optimized for production use cases. The Kubernetes worker nodes are deployed in three availability zones of the respective [cloud region](../10-concepts/regions-for-the-kyma-environment-557ec3a.md), and thus can provide zone level failure tolerance for Kyma and applications deployed on the Kyma runtime.
 
 The [Kubernetes control plane](https://kubernetes.io/docs/reference/glossary/?all=true#term-control-plane) is also hosted in three availability zones of the respective region.
 
-While the high availability is guaranteed for Kubernetes and native Kyma components, by default it's not guaranteed for the customer's own applications. To guarantee high availability for your applications deployed on Kyma, you must manually configure these applications so.
+While the high availability is guaranteed for Kubernetes and native Kyma components, by default it's not guaranteed for the customer's own applications. To guarantee high availability for your applications deployed on Kyma, you must manually configure these applications.
 
-**Enterprise Plan Specification**
+> ### Remember:  
+> The parameters marked with an asterisk "\*" are mandatory.
+
+**Amazon Web Services, Google Cloud, and Microsoft Azure Plans Specification**
 
 
 <table>
 <tr>
 <th valign="top">
 
-Field
+Parameter
 
 </th>
 <th valign="top">
@@ -244,47 +377,19 @@ Description
 </th>
 <th valign="top">
 
-Default Value
+Supported Operation
 
 </th>
 <th valign="top">
 
-Allowed Input
+More Information
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
-*Plan*
-
-btp CLI parameter: `plan`
-
-</td>
-<td valign="top">
-
-Defines the plan you can use in your subaccount.
-
-</td>
-<td valign="top">
-
-The plan assigned to your subaccount.
-
-</td>
-<td valign="top">
-
--   `aws`
--   `gcp`
--   `azure`
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Cluster Name*
+*Cluster Name\**
 
 btp CLI parameter: `name`
 
@@ -296,42 +401,36 @@ Defines the name of your cluster.
 </td>
 <td valign="top">
 
-n/a
+Provisioning
 
 </td>
 <td valign="top">
 
-Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0–9\), periods, underscores, and hyphens.
-
-It can't contain white spaces.
+[Cluster Name\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Cluster_Name)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-*Region*
+*Region\**
 
 btp CLI parameter: `region`
 
 </td>
 <td valign="top">
 
-Defines a region \(set of datacenters\) where your cluster will run.
+Defines a region \(set of datacenters\) where your cluster runs.
 
 </td>
 <td valign="top">
 
--   AWS: `eu-central-1`
--   Google Cloud: `europe-west3`
--   Azure: `eastus`
-
-
+Provisioning
 
 </td>
 <td valign="top">
 
-Look up the technical cluster region names at [Regions for the Kyma Environment](../10-concepts/regions-for-the-kyma-environment-557ec3a.md).
+[Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region)
 
 </td>
 </tr>
@@ -345,28 +444,19 @@ btp CLI parameter: `machineType`
 </td>
 <td valign="top">
 
-Specifies the provider-specific virtual machine type. For details, see:
-
--   [AWS docs](https://aws.amazon.com/ec2/instance-types/)
-
--   [Google Cloud docs](https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines)
--   [Azure docs](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-sizes-specs#dv3-series)
-
-
+Specifies the provider-specific virtual machine type.
 
 </td>
 <td valign="top">
 
--   AWS: `m5.xlarge`
--   Google Cloud: `n2-standard-4`
--   Azure: `Standard_D4_v3`
+Provisioning
 
-
+Updating
 
 </td>
 <td valign="top">
 
-See all options in the SAP BTP cockpit wizard to create Kyma runtime.
+[Machine Type](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Machine_Type)
 
 </td>
 </tr>
@@ -385,12 +475,14 @@ Specifies the minimum number of virtual machines to create.
 </td>
 <td valign="top">
 
-`3`
+Provisioning
+
+Updating
 
 </td>
 <td valign="top">
 
-Number between 3 and 80, but smaller than or equal to *autoScalerMax*.
+[Auto Scaler Min](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Auto_Scaler_Min)
 
 </td>
 </tr>
@@ -409,34 +501,138 @@ Specifies the maximum number of virtual machines to create.
 </td>
 <td valign="top">
 
-`20`
+Provisioning
+
+Updating
 
 </td>
 <td valign="top">
 
-Number between 3 and 80, but greater than or equal to *autoScalerMin*.
+[Auto Scaler Max](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Auto_Scaler_Max)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Modules*
+
+btp CLI parameter: `modules`
+
+</td>
+<td valign="top">
+
+Defines which Kyma modules are provisioned in your cluster.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+[Modules](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Modules)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Networking*
+
+btp CLI parameter: `networking`
+
+</td>
+<td valign="top">
+
+Provides a custom IP range for worker nodes.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+[Networking](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Networking)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*OpenID Connect*
+
+btp CLI parameter: `oidc`
+
+</td>
+<td valign="top">
+
+Provides a custom Open ID Connect \(OIDC\) configuration.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+[OpenID Connect \(OIDC\)](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_OIDC)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Administrators*
+
+btp CLI parameter: `administrators`
+
+</td>
+<td valign="top">
+
+Specifies the list of runtime administrators.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+[Administrators](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Administrators)
 
 </td>
 </tr>
 </table>
 
-> ### Note:  
-> You can configure *Auto Scaler Min*, *Auto Scaler Max* and *Machine Type* during both provisioning and update operations.
-
 
 
 <a name="loiobefe01d5d8864e59bf847fa5a5f3d669__section_vbl_4w4_wsb"/>
 
-## Partner Test, Demo, and Development \(Azure Lite\)
+## Azure Lite
 
-**Partner Test, Demo, and Development Plan Specification**
+The technical name of the plan is `azure_lite`. The Asure Lite plan is offered to Partners, who can use it for testing, development and demo purposes.
+
+> ### Remember:  
+> The parameters marked with an asterisk "\*" are mandatory.
+
+**Azure Lite Plan Specification**
 
 
 <table>
 <tr>
 <th valign="top">
 
-Field
+Parameter
 
 </th>
 <th valign="top">
@@ -446,43 +642,19 @@ Description
 </th>
 <th valign="top">
 
-Default Value
+Supported Operation
 
 </th>
 <th valign="top">
 
-Allowed Input
+More Information
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
-*Plan*
-
-btp CLI parameter: `plan`
-
-</td>
-<td valign="top">
-
-Defines the plan you can use in your subaccount.
-
-</td>
-<td valign="top">
-
-The plan assigned to your subaccount.
-
-</td>
-<td valign="top">
-
-`azure_lite`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Cluster Name*
+*Cluster Name\**
 
 btp CLI parameter: `name`
 
@@ -494,38 +666,36 @@ Defines the name of your cluster.
 </td>
 <td valign="top">
 
-n/a
+Provisioning
 
 </td>
 <td valign="top">
 
-Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0–9\), periods, underscores, and hyphens.
-
-It can't contain white spaces.
+[Cluster Name\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Cluster_Name)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-*Region*
+*Region\**
 
 btp CLI parameter: `region`
 
 </td>
 <td valign="top">
 
-Defines a region \(set of datacenters\) where your cluster will run.
+Defines a region \(set of datacenters\) where your cluster runs.
 
 </td>
 <td valign="top">
 
-`eastus`
+Provisioning
 
 </td>
 <td valign="top">
 
-Look up the technical cluster region names at [Regions for the Kyma Environment](../10-concepts/regions-for-the-kyma-environment-557ec3a.md) \(only Azure regions available\).
+[Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region)
 
 </td>
 </tr>
@@ -539,17 +709,19 @@ btp CLI parameter: `machineType`
 </td>
 <td valign="top">
 
-Specifies the provider-specific virtual machine type. For details, see [Azure docs](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-sizes-specs#dv3-series).
+Specifies the provider-specific virtual machine type.
 
 </td>
 <td valign="top">
 
-`Standard_D4_v3`
+Provisioning
+
+Updating
 
 </td>
 <td valign="top">
 
-`Standard_D4_v3`
+[Machine Type](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Machine_Type)
 
 </td>
 </tr>
@@ -568,12 +740,14 @@ Specifies the minimum number of virtual machines to create.
 </td>
 <td valign="top">
 
-`2`
+Provisioning
+
+Updating
 
 </td>
 <td valign="top">
 
-Number between 2 and 40, but smaller than or equal to *autoScalerMax*.
+[Auto Scaler Min](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Auto_Scaler_Min)
 
 </td>
 </tr>
@@ -592,12 +766,114 @@ Specifies the maximum number of virtual machines to create.
 </td>
 <td valign="top">
 
-`10`
+Provisioning
+
+Updating
 
 </td>
 <td valign="top">
 
-Number between 2 and 40, but greater than or equal to *autoScalerMin*.
+[Auto Scaler Max](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Auto_Scaler_Max)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Modules*
+
+btp CLI parameter: `modules`
+
+</td>
+<td valign="top">
+
+Defines which Kyma modules are provisioned in your cluster.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+[Modules](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Modules)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Networking*
+
+btp CLI parameter: `networking`
+
+</td>
+<td valign="top">
+
+Provides a custom IP range for worker nodes.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+[Networking](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Networking)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*OpenID Connect*
+
+btp CLI parameter: `oidc`
+
+</td>
+<td valign="top">
+
+Provides a custom Open ID Connect \(OIDC\) configuration.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+[OpenID Connect \(OIDC\)](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_OIDC)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Administrators*
+
+btp CLI parameter: `administrators`
+
+</td>
+<td valign="top">
+
+Specifies the list of runtime administrators.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+[Administrators](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Administrators)
 
 </td>
 </tr>
@@ -606,7 +882,11 @@ Number between 2 and 40, but greater than or equal to *autoScalerMin*.
 **Related Information**  
 
 
+[Provisioning and Updating Parameters in the Kyma Environment](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md "You can configure the cluster parameters in the Kyma environment.")
+
 [Regions for the Kyma Environment](../10-concepts/regions-for-the-kyma-environment-557ec3a.md "To work with the Kyma environment, you need to specify the region for both your subaccount and the cluster.")
+
+[Kyma Modules](../10-concepts/kyma-modules-0dda141.md "With Kyma's modular approach, you can install just the modules you need, instead of a predefined set of components.")
 
 [Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md "Use the SAP BTP command line interface (btp CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the SAP BTP cockpit for users who like to work in a terminal or want to automate operations using scripts.")
 

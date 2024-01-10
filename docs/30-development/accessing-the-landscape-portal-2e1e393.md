@@ -2,7 +2,10 @@
 
 # Accessing the Landscape Portal
 
-The Landscape Portal is part of SAP BTP ABAP environment and requires no additional license. To set up access to the Landscape Portal, you just need to add the Landscape Portal as entitlement to your subaccount, subscribe to it, and assign the necessary role collections to your user. Once you have done this, you can easily access the Landscape Portal by clicking on its tile in the Service Marketplace.
+The Landscape Portal itself is part of SAP BTP ABAP environment and requires no additional license. To build and deploy products \(see [Build Product Version](build-product-version-8120bf6.md) and [Maintain Solution](maintain-solution-4985d3c.md)\) a subscription to the SAP Continuous Integration and Delivery service is needed, which requires a separate license, see [SAP Continuous Integration and Delivery](https://discovery-center.cloud.sap/serviceCatalog/continuous-integration--delivery?region=all). To set up access to the Landscape Portal, you just need to add the Landscape Portal as entitlement to your subaccount, subscribe to it, and assign the necessary role collections to your user. Once you have done this, you can easily access the Landscape Portal by clicking on its tile in the Service Marketplace.
+
+> ### Note:  
+> The Landscape Portal authorization is handled by the SAP ID Service \(accounts.sap.com\) for SAP BTP only. No other identity providers, such as custom IDPs, are supported. For more information on how to proceed, see [Default Identity Provider](https://help.sap.com/docs/btp/sap-business-technology-platform/default-identity-provider?version=Cloud).
 
 > ### Note:  
 > *Important*: The Landscape Portal can only be accessed from subaccounts located in region cf-eu10. Please use a subaccount located in this region to add the entitlement and to subscribe to and access the Landscape Portal.

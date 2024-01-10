@@ -33,11 +33,11 @@ SAP Continuous Integration and Delivery lets you configure and run predefined pi
 
 -   [SAP Cloud Application Programming Model](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/sap-cloud-application-programming-model?version=Cloud) 
 
-    Configure a CI/CD pipeline for the development of applications that follow the SAP Cloud Application Programming Model in the Cloud Foundry environment.
+    Configure a CI/CD pipeline for the development of applications that follow the SAP Cloud Application Programming Model in the Cloud Foundry runtime.
 
 -   [SAP Fiori in the Cloud Foundry Environment](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/sap-fiori-in-cloud-foundry-environment?version=Cloud)
 
-    Configure a CI/CD pipeline for the development of SAPUI5/SAP Fiori applications in the Cloud Foundry environment.
+    Configure a CI/CD pipeline for the development of SAPUI5/SAP Fiori applications in the Cloud Foundry runtime.
 
 -   [SAP Fiori in the Neo environment](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/sap-fiori-in-neo-environment?version=Cloud)
 
@@ -49,7 +49,7 @@ SAP Continuous Integration and Delivery lets you configure and run predefined pi
 
 -   [SAP Integration Suite Artifacts](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/sap-integration-suite-artifacts?version=Cloud)
 
-    Configure a CI/CD pipeline for the development of SAP Cloud Integration artifacts in the Cloud Foundry environment.
+    Configure a CI/CD pipeline for the development of SAP Cloud Integration artifacts in the Cloud Foundry runtime.
 
 -   [Container-Based Applications](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/container-based-applications?version=Cloud)
 

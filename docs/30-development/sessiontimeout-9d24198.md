@@ -7,7 +7,9 @@ Define the amount of time \(in minutes\) for which a session can remain inactive
 
 
 > ### Note:  
-> The `sessionTimeout` property is no longer available; to set the session time out value, use the environment variable *<SESSION\_TIMEOUT\>*[SESSION\_TIMEOUT](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_blz_hgn_mv).
+> We recommend using the environment variable [SESSION\_TIMEOUT](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_blz_hgn_mv) to configure the session timeout.
+> 
+> If the environment variable [SESSION\_TIMEOUT](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_blz_hgn_mv) is set this property will be overwritten.
 
 > ### Sample Code:  
 > ```

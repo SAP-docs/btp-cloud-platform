@@ -55,7 +55,7 @@ The `/attributes` endpoint response has the following format:
 > 
 > -   User scopes from the xsuaa access token are added to the response of both endpoints \(`/currentUser` and `/attributes` \).
 > 
-> -   User attributes from the identity provider \(IdP\) chosen for the authentication are added to the response of the `/attributes` endpoint. If a custom IdP is configured for Identity Authentication Service \(IAS\), the custom user attributes are also added to the response of the `/attributes` endpoint. For more information about the definition of custom properties in IAS, see [Configure the Default Attributes Sent to the Application](https://help.sap.com/docs/identity-authentication/identity-authentication/configure-default-attributes-sent-to-application?version=Cloud).
+> -   User attributes from the identity provider \(IdP\) chosen for the authentication are added to the response of the `/attributes` endpoint. If a custom IdP is configured for SAP Cloud Identity Services – Identity Authentication, the custom user attributes are also added to the response of the `/attributes` endpoint. For more information about the definition of user attributes in Identity Authentication, see .[User Attributes](https://help.sap.com/docs/identity-authentication/identity-authentication/user-attributes?version=Cloud) .
 > 
 > -   To get the user attributes from the custom IdP, add the following property to xs-security.json file of the application router: `"foreign-scope-references": ["user_attributes"]`
 

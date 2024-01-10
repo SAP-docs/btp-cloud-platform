@@ -33,3 +33,5 @@ You can perform the following tasks:
 
 [Limits for Technical Artifacts of the SAP Authorization and Trust Management Service](../60-security/limits-for-technical-artifacts-of-the-sap-authorization-and-trust-management-service-6d3ef52.md "To improve the resiliency of the SAP Authorization and Trust Management service, we have introduced limitations on technical artifacts of the service.")
 
+[Adding Authentication and Authorization](../30-development/adding-authentication-and-authorization-419ae2e.md "Developers create authorization information for business users in their environment and deploy this information in an application. They make this available to administrators, who complete the authorization setup and assign the authorizations to business users.")
+

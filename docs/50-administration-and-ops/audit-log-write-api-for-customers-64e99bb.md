@@ -140,7 +140,7 @@ The *premium* plan of the auditlog service uses mTLS authentication via X.509 ce
       "xs-security": {"xsappname": "<some-unique-name>",
             "oauth2-configuration": {
                 "credential-types": ["x509"],
-                "grant-types": ["client_x509","client_credentials"]
+                "grant-types": ["client_credentials"]
         }
       }
     }'

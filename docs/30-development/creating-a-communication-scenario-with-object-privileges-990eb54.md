@@ -6,7 +6,7 @@
 
 ## Context
 
-To be able to use a technical user in the ABAP system to access the service binding, you must create a communication scenario in ABAP Development Tools. This communication scenario is the basis of a communication arrangement in the ABAP environment that you also need.
+To be able to use a communication user in the ABAP system to access the service binding, you must create a communication scenario in ABAP Development Tools. This communication scenario is the basis of a communication arrangement in the ABAP environment that you also need.
 
 
 

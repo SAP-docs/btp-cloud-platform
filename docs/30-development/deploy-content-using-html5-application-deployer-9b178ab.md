@@ -15,10 +15,10 @@ Use the HTML5 application deployer module to deploy the content of the HTML5 app
 -   The multi-target application \(MTA\) plug-in for the Cloud Foundry command line interface to deploy MTAs is installed locally. For more information, see [Install the MultiApps CLI Plugin in the Cloud Foundry Environment](../50-administration-and-ops/install-the-multiapps-cli-plugin-in-the-cloud-foundry-environment-27f3af3.md).
 
 
-> ### Restriction:  
-> Please note that application deployment using the HTML5 application deployer is limited to total of 10 MB.
+> ### Note:  
+> It is not recommended to use the HTML5 application deployer to deploy application content that is larger than 10 MB.
 > 
-> For larger application content, please use the [Generic Application Content Deployer \(GACD\)](deploy-content-using-the-generic-application-content-deployer-07c6796.md).
+> For larger application content, please use the [Generic Application Content Deployer \(GACD\)](deploy-content-using-the-generic-application-content-deployer-07c6796.md) or configure the [asynchronous content upload](asynchronous-upload-using-the-html5-application-deployer-18c1edc.md).
 
 
 

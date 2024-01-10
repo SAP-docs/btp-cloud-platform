@@ -20,7 +20,7 @@ Kyma implements a dedicated application runtime to deploy highly scalable, robus
 Every Kyma environment consists of:
 
 -   A Kubernetes cluster based on project "Gardener" on a cloud provider and region \(data center\) of your choice. To find out the available regions and providers, see [Regions for the Kyma Environment](regions-for-the-kyma-environment-557ec3a.md).
--   The open-source [project "Kyma"](https://kyma-project.io/) installed in its latest version on the provisioned cluster.
+-   A set of Kyma modules picked by a user in the release channel of their choice installed on the provisioned cluster.
 
 ![](images/SKR_stack_6b4e9b8.png)
 

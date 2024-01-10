@@ -2,7 +2,7 @@
 
 # Operating Model in the Kyma Environment
 
-This operating model clearly defines the separation of tasks between SAP and the customer during all phases of an integration project.
+This operating model clearly defines the separation of tasks between SAP and the customer during all phases of a project.
 
 
 
@@ -25,55 +25,50 @@ Task
 </th>
 <th valign="top">
 
-SAP
-
-</th>
-<th valign="top">
-
-Customer
+Responsibility
 
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="3">
+<td valign="top">
 
 Communication Management
 
 </td>
 <td valign="top">
 
-Appoint an English-speaking contact person and communicate the name to the operator. This is required to ensure timely processing of configuration change requests affecting the customer system, interacting with the operator for efficient incident processing, and other interaction between the operator and the customer.
+Appoint an English-speaking contact person and communicate the name to SAP. This is required to ensure timely processing of configuration change requests affecting the customer system, interacting with SAP for efficient incident processing, and other interaction between SAP and the customer.
 
 </td>
 <td valign="top">
 
-
-
-</td>
-<td valign="top">
-
-x
+Customer
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Subscribe to the communication channels offered by the operator for receiving prompt information about any service disruptions, critical maintenance activities affecting the customer system, and change requests requiring action on the customer side.
+Communication Management
 
 </td>
 <td valign="top">
 
-
+Subscribe to the communication channels offered by SAP for receiving prompt information about any service disruptions, critical maintenance activities affecting the customer system, and change requests requiring action on the customer side.
 
 </td>
 <td valign="top">
 
-x
+Customer
 
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Communication Management
+
+</td>
 <td valign="top">
 
 Inform the customer about service disruptions and critical maintenance activities affecting the customer system.
@@ -81,38 +76,33 @@ Inform the customer about service disruptions and critical maintenance activitie
 </td>
 <td valign="top">
 
-x
-
-</td>
-<td valign="top">
-
-
+SAP
 
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top">
 
 Asset Management
 
 </td>
 <td valign="top">
 
-Management of the hardware and infrastructure resources in the region, from acquisition through disposal. This includes the request and approval process, procurement management, life-cycle management, and disposal management.
+Manage the hardware and infrastructure resources in the region, from acquisition through disposal. This includes the request and approval process, procurement management, lifecycle management, and disposal management.
 
 </td>
 <td valign="top">
 
-x
-
-</td>
-<td valign="top">
-
-
+SAP
 
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Asset Management
+
+</td>
 <td valign="top">
 
 Protect IT assets such as systems, network, and data from threats that arise from unauthorized physical access or physical influence on those assets.
@@ -120,12 +110,7 @@ Protect IT assets such as systems, network, and data from threats that arise fro
 </td>
 <td valign="top">
 
-x
-
-</td>
-<td valign="top">
-
-
+SAP
 
 </td>
 </tr>
@@ -137,22 +122,36 @@ Provisioning
 </td>
 <td valign="top">
 
-Provisioning of resources and systems to customers in accordance with the ordered package and subscriptions. This includes the allocation and provisioning of technical \(physical and virtual\) resources, such as storage, network, compute units, systems, and database hosts, the deployment of the operator's application software and the proper initial configuration of quotas, service subscriptions, permissions, and trust configuration.
+Provision resources and systems to customers in accordance with the ordered package and subscriptions. This includes the allocation and provisioning of technical \(physical and virtual\) resources, such as storage, network, compute units, systems, and database hosts, the deployment of SAP's application software and the proper initial configuration of quotas, service subscriptions, permissions, and trust configuration.
 
 </td>
 <td valign="top">
 
-x
-
-</td>
-<td valign="top">
-
-
+SAP
 
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="4">
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+Provide a quota according to the ordered package and subscriptions that can be used to enable resources and services \(for example, subscribing to a service\).
+
+Kyma runtime offers a consumption-based service plan. Hence, you can limit the resources \(and costs\) by configuring the minimum and maximum VMs. Such a configuration impacts the resources \(compute units\) available for developers to deploy applications.
+
+</td>
+<td valign="top">
+
+Customer
+
+</td>
+</tr>
+<tr>
+<td valign="top">
 
 Change Management
 
@@ -164,16 +163,16 @@ Apply regular product increments, as well as corrections to the infrastructure, 
 </td>
 <td valign="top">
 
-x
-
-</td>
-<td valign="top">
-
-
+SAP
 
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Change Management
+
+</td>
 <td valign="top">
 
 Perform updates of the infrastructure, systems, and services if required. Respectively, for selected services, offer self-services for applying controlled updates of new versions. Emergency changes, for example, triggered by Incident Management processes, have accelerated testing, approval, and implementation.
@@ -181,23 +180,21 @@ Perform updates of the infrastructure, systems, and services if required. Respec
 </td>
 <td valign="top">
 
-x
-
-</td>
-<td valign="top">
-
-
+SAP
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
+Change Management
+
+</td>
+<td valign="top">
+
 -   Ensure prompt delivery of security patches via the Security Patch Management process.
 
--   Provision new database systems and Java applications with the latest patched versions.
-
--   Apply the security patches on live customer systems \(application runtimes or databases\), in case the patches don’t require downtime, or if the vulnerable system puts at risk the operator or other customers.
+-   Apply the security patches on live customer systems \(application runtimes or databases\), in case the patches don’t require downtime, or if the vulnerable system puts at risk SAP or other customers.
 
 -   Inform the customers about the availability of security patches.
 
@@ -207,34 +204,34 @@ x
 </td>
 <td valign="top">
 
-x
-
-</td>
-<td valign="top">
-
-
+SAP
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Adopt the latest patches or updates by restarting applications when necessary. For example, when a security issue arises.
+Change Management
 
 </td>
 <td valign="top">
 
+-   Handle any security patches to Java or any other languages. You have to create a new Docker image and update the applications to use the new image.
+
+-   Adopt the latest patches or updates by restarting applications when necessary. For example, when a security issue arises.
+
+
 
 
 </td>
 <td valign="top">
 
-x
+Customer
 
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="3">
+<td valign="top">
 
 Incident Management
 
@@ -246,33 +243,33 @@ Process incidents reported by the customer according to the Service Level Agreem
 </td>
 <td valign="top">
 
-x
-
-</td>
-<td valign="top">
-
-
+SAP
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-In the event of incidents, make reasonable effort to support end users and manage their incidents, to explore self-help tools to find already documented solutions, and to liaise with operator support in the event of new problems to ensure timely processing of incidents affecting the resources in the customer account.
+Incident Management
 
 </td>
 <td valign="top">
 
-
+In the event of incidents, make reasonable effort to support end users and manage their incidents, to explore self-help tools to find already documented solutions, and to liaise with SAP support in the event of new problems to ensure timely processing of incidents affecting the resources in the customer account.
 
 </td>
 <td valign="top">
 
-x
+Customer
 
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Incident Management
+
+</td>
 <td valign="top">
 
 Confirm incident resolution in the incident tracking system.
@@ -280,12 +277,24 @@ Confirm incident resolution in the incident tracking system.
 </td>
 <td valign="top">
 
+Customer
 
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Service Requests
 
 </td>
 <td valign="top">
 
-x
+Process service requests reported by the customer according to the Service Level Agreement. The service request is recorded and prioritized in the service request tracking system. Monitor the status and progress of the service request throughout its whole lifecycle and give regular status updates to the customer.
+
+</td>
+<td valign="top">
+
+SAP
 
 </td>
 </tr>
@@ -302,38 +311,103 @@ Confirm service request completion in the service request tracking system.
 </td>
 <td valign="top">
 
-
-
-</td>
-<td valign="top">
-
-x
+Customer
 
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top">
 
 Backup & Restore
 
 </td>
 <td valign="top">
 
-Collaborate with the operator to ensure timely processing of data restores if required.
+Perform a backup of the database systems hosted in the subaccount. A database log backup is done according to the Service Level Agreement and stored on the primary storage. The logs are transferred from primary to secondary storage according to the Service Level Agreement. Full data backup is done every day.
+
+Note: If you as a customer deploy your custom databases, you're then responsible. See [Volume Backup for Customer Data](https://help.sap.com/docs/btp/sap-business-technology-platform/kyma-environment-backup?version=Cloud#volume-backup-for-customer-data).
 
 </td>
 <td valign="top">
 
+-   SAP
+-   Customer
 
 
-</td>
-<td valign="top">
-
-x
 
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Backup & Restore
+
+</td>
+<td valign="top">
+
+Restore previously backed-up data to recover to a consistent state. Note: For some database services, there is a self-service for the restore process. Verify the completeness of the restored data based on log files created during the recovery and smoke tests to verify the system’s consistency.
+
+Note: If you as a customer deploy your custom databases, you're then responsible. See [Volume Backup for Customer Data](https://help.sap.com/docs/btp/sap-business-technology-platform/kyma-environment-backup?version=Cloud#volume-backup-for-customer-data).
+
+</td>
+<td valign="top">
+
+-   SAP
+-   Customer
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Backup & Restore
+
+</td>
+<td valign="top">
+
+Give regular status updates to the customer throughout the entire restore procedure.
+
+This responsibility is applicable only for the SAP BTP database services.
+
+Note: If you as a customer deploy your custom databases, you're then responsible. See [Volume Backup for Customer Data](https://help.sap.com/docs/btp/sap-business-technology-platform/kyma-environment-backup?version=Cloud#volume-backup-for-customer-data).
+
+</td>
+<td valign="top">
+
+-   SAP
+-   Customer
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Backup & Restore
+
+</td>
+<td valign="top">
+
+Collaborate with SAP to ensure timely processing of data restores if required.
+
+This responsibility is applicable only for the SAP BTP database services.
+
+</td>
+<td valign="top">
+
+Customer
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Backup & Restore
+
+</td>
 <td valign="top">
 
 Validate logical integrity and consistency of the restored data.
@@ -341,12 +415,7 @@ Validate logical integrity and consistency of the restored data.
 </td>
 <td valign="top">
 
-
-
-</td>
-<td valign="top">
-
-x
+Customer
 
 </td>
 </tr>
@@ -363,38 +432,33 @@ Manage users, permissions, and security configurations within the subaccount.
 </td>
 <td valign="top">
 
-
-
-</td>
-<td valign="top">
-
-x
+Customer
 
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top">
 
 System Monitoring
 
 </td>
 <td valign="top">
 
-Ensure availability of the customer system according to the Service Level Agreements as agreed in the contractual agreement between the operator and the customer, by active monitoring, prompt issue detection, and incident prevention.
+Ensure availability of the customer system according to the Service Level Agreements as agreed in the contractual agreement between SAP and the customer, by active monitoring, prompt issue detection, and incident prevention.
 
 </td>
 <td valign="top">
 
-x
-
-</td>
-<td valign="top">
-
-
+SAP
 
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+System Monitoring
+
+</td>
 <td valign="top">
 
 Monitor the resource consumption \(memory, CPU, storage\) to detect issues in technical operations.
@@ -402,17 +466,34 @@ Monitor the resource consumption \(memory, CPU, storage\) to detect issues in te
 </td>
 <td valign="top">
 
-x
+SAP
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Malware Management
 
 </td>
 <td valign="top">
+
+Ensure that the infrastructure and platform services are free of viruses, spam, spyware, and other malicious software. If malware is detected, an auto-notification is generated, which is assessed and resolved by SAP.
+
+Note: If your custom application has vulnerabilities, you as a customer are responsible to fix them, to build a new Docker image, and to update the application.
+
+</td>
+<td valign="top">
+
+-   SAP
+-   Customer
 
 
 
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="3">
+<td valign="top">
 
 Application Management
 
@@ -424,16 +505,16 @@ Design, develop, deploy, configure, maintain, and operate the application within
 </td>
 <td valign="top">
 
-
-
-</td>
-<td valign="top">
-
-x
+Customer
 
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Application Management
+
+</td>
 <td valign="top">
 
 Provide infrastructure, tools, and application programming interfaces for the lifecycle management and operations of the application in the subaccount.
@@ -441,16 +522,16 @@ Provide infrastructure, tools, and application programming interfaces for the li
 </td>
 <td valign="top">
 
-x
-
-</td>
-<td valign="top">
-
-
+SAP
 
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Application Management
+
+</td>
 <td valign="top">
 
 Regularly adopt the latest versions of the tools for lifecycle management and operations offered at the [SAP Development Tools site](https://tools.hana.ondemand.com/).
@@ -458,17 +539,12 @@ Regularly adopt the latest versions of the tools for lifecycle management and op
 </td>
 <td valign="top">
 
-
-
-</td>
-<td valign="top">
-
-x
+Customer
 
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top">
 
 Network Management
 
@@ -480,16 +556,16 @@ Manage the network isolation of the subaccounts provisioned to the customer.
 </td>
 <td valign="top">
 
-x
-
-</td>
-<td valign="top">
-
-
+SAP
 
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Network Management
+
+</td>
 <td valign="top">
 
 Operate the network infrastructure transparently for customers, ensuring elasticity, high availability, and security.
@@ -497,12 +573,41 @@ Operate the network infrastructure transparently for customers, ensuring elastic
 </td>
 <td valign="top">
 
-x
+SAP
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Network Management
 
 </td>
 <td valign="top">
 
+Create and manage a custom Web domain for the application in the subaccount to ensure data isolation.
 
+</td>
+<td valign="top">
+
+Customer
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Network Management
+
+</td>
+<td valign="top">
+
+Create and manage the default SAP Web domain for the application in the subaccount to ensure data isolation.
+
+</td>
+<td valign="top">
+
+SAP
 
 </td>
 </tr>
@@ -514,17 +619,12 @@ Penetration Testing
 </td>
 <td valign="top">
 
-Inform the operator about any penetration testing that shall be performed for the customer account and ask for their approval. Testing isn’t allowed on any resources shared with other customers. The results, if any, from the test are to be treated strictly as the confidential information of the operator and the customer aren’t to be shared with any person or entity without explicit written authorization from the operator. Customers are required to share the results with the operator and work together with the operator's operations to mitigate or remedy any security issues.
+Inform SAP about any penetration testing that shall be performed for the customer account and ask for their approval. Testing isn’t allowed on any resources shared with other customers. The results, if any, from the test are to be treated strictly as the confidential information of SAP and the customer aren’t to be shared with any person or entity without explicit written authorization from SAP. Customers are required to share the results with SAP and work together with SAP's operations to mitigate or remedy any security issues.
 
 </td>
 <td valign="top">
 
-
-
-</td>
-<td valign="top">
-
-x
+Customer
 
 </td>
 </tr>
@@ -541,12 +641,7 @@ Ensure the secure deletion of data and hardware disposal. This includes the disa
 </td>
 <td valign="top">
 
-x
-
-</td>
-<td valign="top">
-
-
+SAP
 
 </td>
 </tr>
@@ -555,7 +650,9 @@ x
 **Related Information**  
 
 
-[Operating Model in the Cloud Foundry Environment](operating-model-in-the-cloud-foundry-environment-de55b6e.md "This operating model clearly defines the separation of tasks between the operator and the customer during all phases of an integration project.")
+[Operating Model in the Cloud Foundry Environment](operating-model-in-the-cloud-foundry-environment-de55b6e.md "This operating model clearly defines the separation of tasks between SAP and the customer during all phases of a project.")
+
+[Comparison between the Operating Models of Kyma and Cloud Foundry Runtimes](comparison-between-the-operating-models-of-kyma-and-cloud-foundry-runtimes-3978f94.md "This operating model clearly defines the separation of tasks between SAP and the customer. It's relevant for all phases of a project for both environments.")
 
 [SLAs for Cloud Services](https://www.sap.com/about/trust-center/agreements/cloud/cloud-services.html?search=Service%20Level%20Agreement&sort=latest_desc)
 

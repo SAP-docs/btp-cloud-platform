@@ -37,9 +37,30 @@ Availability and Performance
 
 
 
+<a name="loiof8520f572a6445a7bfaff4a1bbcbe60a__section_pvp_22v_vzb"/>
+
+## Environment
+
+This service is available in the following environments:
+
+-   Cloud Foundry environment
+
+-   Kyma environment
+
+
+
+
+<a name="loiof8520f572a6445a7bfaff4a1bbcbe60a__section_jhb_f2v_vzb"/>
+
+## Multitenancy Support
+
+This service supports multitenancy. It can be used in tenant-aware applications.
+
+
+
 <a name="loiof8520f572a6445a7bfaff4a1bbcbe60a__section_jjv_12v_1cb"/>
 
-## Restrictions
+## Technical Constraints
 
 -   The size of an application deployed to the repository is limited to 100 MB per service instance of the *app-host* service plan.
 
