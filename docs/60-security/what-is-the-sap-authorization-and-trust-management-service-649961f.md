@@ -68,7 +68,7 @@ The components and their interactions are depicted in the block-diagram below. I
 
 ### Application, Microservice, and App
 
-The Cloud Foundry environment of SAP BTP is a runtime platform for business web applications. These are referred to as applications. An SAP SAP BTP application is implemented in an architectural style that structures the application as a collection of loosely coupled components, termed microservices. Microservices can be deployed independently from one another. This eliminates the need to deploy the complete application if only a subset of its microservices have received new features or a bug fix. In the terminology of the Cloud Foundry environment of SAP BTP, microservices are referred to as apps.
+The Cloud Foundry environment of SAP BTP is a runtime platform for business web applications. These are referred to as applications. An SAP BTP application is implemented in an architectural style that structures the application as a collection of loosely coupled components, termed microservices. Microservices can be deployed independently from one another. This eliminates the need to deploy the complete application if only a subset of its microservices have received new features or a bug fix. In the terminology of the Cloud Foundry environment of SAP BTP, microservices are referred to as apps.
 
 
 
