@@ -6,10 +6,10 @@ The examples in this section will help you to create the service JSON descriptor
 
 
 
-The information that you need to create the JSON file is available in the Display Communication Scenario app in the corresponding SAP S/4HANA Cloud system. It contains information such as scenario details and properties, and supported inbound and outbound authentication methods. See [Display Communication Scenarios](https://help.sap.com/viewer/f544846954f24b9183eddadcc41bdc3b/latest/en-US/baa798b6a1024d229ca3f51bde6f24f9.html).
+The information that you need to create the JSON file is available in the *Display Communication Scenario* app in the corresponding SAP S/4HANA Cloud system. It contains information such as scenario details and properties, and supported inbound and outbound authentication methods. See [Display Communication Scenarios](https://help.sap.com/viewer/f544846954f24b9183eddadcc41bdc3b/latest/en-US/baa798b6a1024d229ca3f51bde6f24f9.html).
 
 > ### Note:  
-> [Communication Arrangement JSON/YAML File - Properties](communication-arrangement-json-yaml-file-properties-553a4c6.md).
+> The purpose of these examples is just to give you an idea how you construct your JSON file. For more details of the properties of these JSON files, see [Communication Arrangement JSON/YAML File - Properties](communication-arrangement-json-yaml-file-properties-553a4c6.md).
 
 
 
@@ -17,7 +17,7 @@ The information that you need to create the JSON file is available in the Displa
 
 ## Example of Enabling Communication Scenario of Type Basic Authentication
 
-This is an example of a JSON file for a communication arrangement with an inbound connection with The purpose of these examples is just to give you an idea how you construct your JSON file. For more details of the properties of these JSON files, see *Basic Authentication* and an outbound connection with *The purpose of these examples is just to give you an idea how you construct yourBasic Authentication*.
+This is an example of a JSON file for a communication arrangement with an inbound connection with *Basic Authentication* and an outbound connection with *Basic Authentication*.
 
 ```json
 {
@@ -111,6 +111,10 @@ This is an example of a JSON file for a communication arrangement with an outbou
 ## Example for Enabling Communication Scenario of Type OAuth2SAMLBearerAssertion
 
 This is an example of a JSON file for a communication arrangement with an inbound connection with *OAuth2SAMLBearerAssertion* and an outbound connection with *NoAuthentication*.
+
+To communicate with SAP S/4HANA Cloud the extension application can use Principal Propagation which is done using OAuth 2.0 SAML Bearer Assertion flows. Principal Propagation means you forward the identity of the logged-in cloud users when accessing or updating data in the SAP S/4HANA Cloud system.
+
+This is useful in scenarios where you need to have restricted data access based on the logged-in user from your extension. Or, you want to ensure only users with the right permissions are able to update the system via extensions deployed in SAP BTP, Cloud Foundry runtime.
 
 ```json
 { 

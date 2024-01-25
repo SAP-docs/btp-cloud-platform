@@ -13,7 +13,7 @@ To establish communication via RFC, you need to create an outbound service of ty
 ## Prerequisites
 
 -   You've created a communication scenario as described in [Defining a Communication Scenario Including Authorization Values](defining-a-communication-scenario-including-authorization-values-bba0fd2.md).
--   If you want to call other systems via SRVC, you must have created an SRVC of type RFC as described in [Generating Proxies for Remote Function Call \(RFC\)](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/32812d950d3848359ce391dae477f201.html).
+-   If you want to call other systems via SRVC, you must have created an SRVC of type RFC as described in [Generating Proxies for Remote Function Call \(RFC\)](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/generating-proxies-for-remote-function-call-rfc?version=sap_btp).
 
 
 
@@ -36,64 +36,11 @@ To establish communication via RFC, you need to create an outbound service of ty
 
     7.  Save the outbound service.
 
-2.  Add the newly created outbound service to a communication scenario. See [Service Consumption via Communication Arrangements](service-consumption-via-communication-arrangements-86aece6.md) for more information. According to your developed communication scenario, add the following:
+2.  Add the newly created outbound service to a communication scenario. See [Service Consumption via Communication Arrangements](service-consumption-via-communication-arrangements-86aece6.md) for more information. According to your developed communication scenario, pass the ID of you developed communication scenario to the `comm_scenario` parameter.
 
-
-    <table>
-    <tr>
-    <td valign="top">
-    
-    `comm_scenario`
-    
-    </td>
-    <td valign="top">
-    
-    mandatory
-    
-    </td>
-    <td valign="top">
-    
-    ID of the developed communication scenario
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    `comm_system_id`
-    
-    </td>
-    <td valign="top">
-    
-    optional
-    
-    </td>
-    <td valign="top">
-    
-    ID of the configured communication system
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    `service_id`
-    
-    </td>
-    <td valign="top">
-    
-    optional
-    
-    </td>
-    <td valign="top">
-    
-    ID of the developed outbound service
-    
-    </td>
-    </tr>
-    </table>
-    
     > ### Note:  
+    > You can't use the `create_by_comm_arrangement` method for SAP-delivered scenarios.
+    > 
     > To call an RFC function module in your communication scenario, it's sufficient to define one outbound service of type RFC that can be used to call multiple RFC function modules. For this outbound service, go to the corresponding communication scenario. On the *Outbound* tab in the *Outbound Service* section, select *Generate Destination*.
     > 
     > To document which RFC function modules are called by a communication scenario, you can define separate outbound services and define the name of the function modules without selecting *Generate Destination*.
@@ -114,7 +61,8 @@ This example shows how to use RFC communication with an SRVC.
 >  
 >  
 > " find Communication Arrangement by scenario ID
-> lr_cscn = VALUE #( ( sign = 'I' option = 'EQ' low = '<Scenario ID>' ) ).DATA(lo_factory) = cl_com_arrangement_factory=>create_instance( ).lo_factory->query_ca(
+> lr_cscn = VALUE #( ( sign = 'I' option = 'EQ' low = '<Scenario ID>' ) ).
+> DATA(lo_factory) = cl_com_arrangement_factory=>create_instance( ).lo_factory->query_ca(
 >   EXPORTING
 >     is_query = VALUE #( cscn_id_range = lr_cscn )
 >   IMPORTING
@@ -131,9 +79,7 @@ This example shows how to use RFC communication with an SRVC.
 > TRY.
 >   DATA(lo_dest) = cl_rfc_destination_provider=>create_by_comm_arrangement(
 >     EXPORTING
->       comm_scenario = '<Scneario ID>'
->       service_id = '<Outbound Service ID>'
->       comm_system_id = lo_ca->get_comm_system_id( )
+>       comm_scenario = '<Scenario ID>'
 >       ).
 >   CATCH cx_rfc_dest_provider_error.
 >     " handle CX_RFC_DEST_PROVIDER_ERROR
@@ -159,7 +105,10 @@ This example shows how to use RFC communication with an SRVC.
 > ENDTRY.
 > ```
 
-**Using `CALL FUNCTION ... DESTINATION`**
+> ### Note:  
+> We recommend to retrieve the correct destination reference based on the communication scenario and a customer-defined property as described in [Service Consumption via Communication Arrangements](service-consumption-via-communication-arrangements-86aece6.md).
+
+**Using CALL FUNCTION ... DESTINATION**
 
 To use the `CALL FUNCTION ... DESTINATION` statement, use the following code:
 

@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-You have access to the SAP Fiori launchpad with a quality manager authorization.
+You have access to the SAP Fiori launchpad with a quality manager authorization and you've configured the ATC Developer Scenario. For more information, see [Using an SAP BTP System as ATC Central Check System](https://help.sap.com/docs/btp/sap-business-technology-platform/using-sap-btp-system-as-atc-central-check-system?version=Cloud).
 
 
 
@@ -32,7 +32,7 @@ You have access to the SAP Fiori launchpad with a quality manager authorization.
     \(See also: [How to Maintain Business Users](how-to-maintain-business-users-db1d0b4.md).\)
 
 
-When you now log on to SAP Firoi launchpad with the assigned business user, the tile *Approve ATC Exemptions* will be available.
+When you now log on to the SAP Fiori launchpad with the assigned business user, the tile *Approve ATC Exemptions* will be available.
 
 **Related Information**  
 

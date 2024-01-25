@@ -31,7 +31,7 @@ The approuter has these main functions:
 
 -   Performs route mapping \(URL mapping\)
 
--   In case of multitenancy, it derives the tenant information from the URL and provides it to the extended services for the Authorization and Trust Management service to redirect the authentication request to the tenant-specific identity provider. See [SAP Authorization and Trust Management Service in the Cloud Foundry Environment](../60-security/sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md).
+-   In case of multitenancy, it derives the tenant information from the URL and provides it to the extended services for the Authorization and Trust Management service to redirect the authentication request to the tenant-specific identity provider. See [SAP Authorization and Trust Management Service](../60-security/sap-authorization-and-trust-management-service-6373bb7.md).
 
 
 

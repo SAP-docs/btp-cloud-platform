@@ -14,7 +14,7 @@ Follow these steps to create a job catalog entry and a job template in ADT.
 
 3.  Define the job template. With another method of the framework class, you create a job template which refers to the job catalog entry of step 2. For more information, see [Creating the Job Template](creating-the-job-template-1f04ad2.md).
 
-    For more information on how to create a job catalog entry and a job template in ADT, see [Working with Application Job Objects](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/95e647db5c1e44188f6bc00a9fbf286d.html).
+    For more information on how to create a job catalog entry and a job template in ADT, see [Working with Application Job Objects](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-application-job-objects?version=sap_btp).
 
     If you want to implement a simple RAP \(ABAP RESTful application programming model\) business object, see[Code Sample: How to Schedule Application Jobs from a RAP-based Business Object](https://github.com/SAP-samples/abap-platform-application-jobs). This code sample allows you to schedule a class as an application job that takes the semantic key of the selected entity as a parameter.
 

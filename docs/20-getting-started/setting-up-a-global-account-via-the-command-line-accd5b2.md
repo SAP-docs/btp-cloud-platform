@@ -2,7 +2,7 @@
 
 # Setting Up a Global Account via the Command Line
 
-Your global account is the entry point for managing the resources, landscape, and entitlements for your departments and projects in a self-service manner in SAP BTP. You can use the command-line tool **btp CLI** to set it up.
+Your global account is the entry point for managing the resources, landscape, and entitlements for your departments and projects in a self-service manner in SAP BTP. You can use the command-line tool **btp CLI** to set it up, and the**cf CLI** to manage Cloud Foundry instances.
 
 
 
@@ -11,7 +11,9 @@ Your global account is the entry point for managing the resources, landscape, an
 
 
 
-Set up your account model by creating subaccounts in your enterprise account that is running on the cloud management tools feature set B. You can create any number of subaccounts in the Cloud Foundry environment and region.
+Set up your account model using the btp CLI by creating subaccounts in your enterprise account that is running on the cloud management tools feature set B. You can create any number of subaccounts in the Cloud Foundry environment and region.
+
+To manage Cloud Foundry, i.e. for managing service instances and members in orgs and spaces, creating spaces, as well as assigning quota to orgs and spaces, you use the cf CLI.
 
 
 

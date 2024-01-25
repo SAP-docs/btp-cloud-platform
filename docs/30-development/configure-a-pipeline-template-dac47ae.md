@@ -331,7 +331,7 @@ Let’s take a closer look at how to configure a pipeline template for a product
     Without Run ATC Stage enabled, you risk a defective product version being built.
 
     > ### Caution:  
-    > Created delivery packages for an add-on product version are final, so to fix any errors in these packages, another add-on product version would have to be built. ATC findings should be resolved during development as early as possible, e.g. [during transport release](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/c0d95a9263da476eb5b6ae03225ce7ba.html?version=Cloud) and by using an additional pipeline configured for the [Continuous Testing on SAP BTP, ABAP Environment scenario.](https://www.project-piper.io/scenarios/abapEnvironmentTest/)
+    > Created delivery packages for an add-on product version are final, so to fix any errors in these packages, another add-on product version would have to be built. ATC findings should be resolved during development as early as possible, e.g. [during transport release](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-during-transport-release?locale=en-US) and by using an additional pipeline configured for the [Continuous Testing on SAP BTP, ABAP Environment scenario.](https://www.project-piper.io/scenarios/abapEnvironmentTest/)
 
 6.  **Build:**
 

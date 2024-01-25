@@ -10,13 +10,13 @@ Instead of using the `CALL FUNCTION ... DESTINATION` statement, you can configur
 
 ## Concept
 
-Based on tool support in ABAP Development Tools \(ADT\), you can generate an ABAP proxy for calling one or more remote-enabled function modules \(RFMs\) using the SRVC.
+Based on tool support in ABAP development tools for Eclipse \(ADT\), you can generate an ABAP proxy for calling one or more remote-enabled function modules \(RFMs\) using the SRVC. To learn how to create a Service Consumption Model with ADT, see [Creating Service Consumption Model](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/creating-service-consumption-model?version=sap_btp).
 
 The proxy class contains a specific method for each called RFM. The main benefit of using an SRVC for RFC is that in this class, all data types required for the RFM parameters are generated automatically.
 
 The best way to define an RFC proxy class is to use it for calling only one RFM, or a few RFMs that belong together semantically.
 
-For more information on generating an RFC proxy class based on an SRVC, see [Generating Proxies for Remote Function Call \(RFC\)](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/32812d950d3848359ce391dae477f201.html?version=Cloud).
+For more information on generating an RFC proxy class based on an SRVC, see [Generating Proxies for Remote Function Call \(RFC\)](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/generating-proxies-for-remote-function-call-rfc?version=sap_btp).
 
 In ADT, you can find an example code snippet in the SRVC object of the corresponding RFM.
 

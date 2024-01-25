@@ -20,6 +20,8 @@ Start the *Monitor Email Transmissions* app. On the starting page, you can searc
 
 -   Created at
 
+-   Recipient Address
+
 
 In addition, you can
 
@@ -72,7 +74,7 @@ Due to data protection reasons, all displayed emails will be deleted from the ta
 
 ## Testmail Functionality
 
-You can send out a test email to any recipient chosen by you. The subject and the text are fixed values that are set by the app. After the successful creation of the send requests, the email can be viewed in the main table of the *Monitor Email Transmissions* app.
+You can send out a test email to any recipient chosen by you. The subject and the text are fixed values that are set by the app. The mail sender will automatically be set as the email address of the user currently logged on, or, if that user has no email address, as the default email address. After the successful creation of the send requests, the email can be viewed in the main table of the *Monitor Email Transmissions* app.
 
 Sending test emails can help administrators to check if the email outbound of their system is working. If the email outbound is not working, you'll either directly receive an error message, or you can see the error message in the main view of the *Monitor Email Transmissions* app.
 

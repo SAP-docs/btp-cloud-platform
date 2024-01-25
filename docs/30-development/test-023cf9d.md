@@ -79,13 +79,13 @@ As a test user in a Partner Test tenant \(client \>= 200\), you configure key us
 
 With the ABAP Test Cockpit, you can run a set of checks \(check variants\) on software component or package level. See [Checking Quality of ABAP Code with ATC](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/4ec5711c6e391014adc9fffe4e204223.html) and [ABAP Test Cockpit in the Cloud – What is already possible](https://blogs.sap.com/2020/08/14/abap-test-cockpit-in-the-cloud-what-is-already-possible/).
 
-To fix and revalidate ABAP Test Cockpit findings, as a developer user, you can run ABAP Test Cockpit checks on developed software components explicitly via ABAP Development Tools in the DEV system. See [Launching ATC Check Run from the Project Explorer](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/71d7ffbc6c2f48e888e89f0100ac345e.html) and [Launching ATC Check Run Explicitly](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/4ec5a60b6e391014adc9fffe4e204223.html).
+To fix and revalidate ABAP Test Cockpit findings, as a developer user, you can run ABAP Test Cockpit checks on developed software components explicitly via ABAP Development Tools in the DEV system. See [Launching ATC Check Run from the Project Explorer](https://help.sap.com/docs/btp/sap-abap-development-user-guide/launching-atc-check-run-from-project-explorer?version=Cloud) and [Launching ATC Check Run Explicitly](https://help.sap.com/docs/btp/sap-abap-development-user-guide/launching-atc-check-run-explicitly?version=Cloud).
 
-If transport blocking in case of ABAP Test Cockpit findings is configured \(see [Set Up Add-On Development](prepare-4338854.md#loio89a353151e534380a03b2a572a227731)\), ABAP Test Cockpit checks are executed implicitly. See [Launching ATC Check Implicitly](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/d6ccb9bbafd44eb7bf9564e18b699112.html).
+If transport blocking in case of ABAP Test Cockpit findings is configured \(see [Set Up Add-On Development](https://help.sap.com/docs/btp/sap-business-technology-platform/prepare?version=Cloud#set-up-add-on-development)\), ABAP Test Cockpit checks are executed implicitly. See [Launching ATC Check Implicitly](https://help.sap.com/docs/btp/sap-abap-development-user-guide/launching-atc-check-implicitly?version=Cloud).
 
 **ATC Exemptions**
 
-If you can't clear an ABAP Test Cockpit finding by correcting the underlying problem, you can still clear it by requesting an exemption. Exemptions are created as part of a specific software component. See [Working with ATC Exemptions](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/b317b37b06304f99a8cf36e0ebf30861.html).
+If you can't clear an ABAP Test Cockpit finding by correcting the underlying problem, you can still clear it by requesting an exemption. Exemptions are created as part of a specific software component. See [Working with ATC Exemptions](https://help.sap.com/docs/btp/sap-abap-development-user-guide/working-with-atc-exemptions?version=Cloud).
 
 **Continuous Testing using ABAP Environment Pipeline**
 
@@ -94,7 +94,7 @@ If you can't clear an ABAP Test Cockpit finding by correcting the underlying pro
 
 ![](images/Pipeline_dev_to_test_8d52073.png)
 
-To schedule a regular execution of ABAP Test Cockpit checks for a software component in the test system, you can use a CI server and pipeline to automate this process. You can reuse the previously described setup of a transport from development to test system using the ABAP environment pipeline. See [Set Up Transport from Development to Test System](prepare-4338854.md#loiobf557544f90f4bc88911c4865ec78207).
+To schedule a regular execution of ABAP Test Cockpit checks for a software component in the test system, you can use a CI server and pipeline to automate this process. You can reuse the previously described setup of a transport from development to test system using the ABAP environment pipeline. See [Set Up Transport from Development to Test System](https://help.sap.com/docs/btp/sap-business-technology-platform/prepare?version=Cloud#set-up-transport-from-development-to-test-system).
 
 As a DevOps engineer, configure the ABAP environment pipeline by using a static and preconfigured system. With the pipeline, the following steps are then automated, triggered by the pipeline execution of a Jenkins administrator:
 

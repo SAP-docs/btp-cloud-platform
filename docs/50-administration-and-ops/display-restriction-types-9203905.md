@@ -20,6 +20,8 @@ You can use this app to:
 -   Check whether the restriction fields support number ranges.
 
 -   Display how these restriction types can be used in which business catalogs.
+-   Display component: check under which component you can create an incident if required.
+
 
 Restriction types bundle one or more restriction fields. The restriction type *Organizational Area*, for example, contains the following fields: *Purchasing Group*, *Purchasing Organization*, *Division*, *Sales Organization*, *Distribution Channel*.
 

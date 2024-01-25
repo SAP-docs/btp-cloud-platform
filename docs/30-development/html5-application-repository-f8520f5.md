@@ -66,6 +66,14 @@ This service supports multitenancy. It can be used in tenant-aware applications.
 
 -   Since the applications stored in HTML5 application repository can be shared, it is advised not to add personal data to them.
 
+-   You can perform up to 50 deployments per minute at design time per SAP BTP subaccount.
+
+    If you exceed this rate limit, the HTTP error code 429 is returned.
+
+-   You can make up to 300 requests per second at runtime per SAP BTP subaccount.
+
+    If you exceed this rate limit, the HTTP error code 429 is returned.
+
 
 
 

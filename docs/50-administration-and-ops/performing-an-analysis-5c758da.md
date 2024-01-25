@@ -2,5 +2,5 @@
 
 # Performing an Analysis
 
-This chapter focuses on creating a custom code analysis project and analyzing the findings.
+This chapter focuses on creating a custom code analysis project, analyzing the findings and how to perform a dependency and complexity analysis.
 

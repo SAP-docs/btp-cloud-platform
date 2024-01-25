@@ -14,9 +14,9 @@ If you need further assistance with creating and deploying an application, check
 
 ## Prerequisites
 
--   You have set up SAP Business Application Studio. See [Setup of UI Development in SAP Business Application Studio](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37a896bfac604076ae825a1d37b0bd0a.html).
+-   You have set up SAP Business Application Studio. See [Setup of UI Development in SAP Business Application Studio](https://help.sap.com/docs/btp/sap-business-technology-platform/setup-of-ui-development-in-sap-business-application-studio-optional?version=Cloud).
 
--   You have established trust by setting up a custom Identity service. See [Setup of a Custom Identity Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/550251abaf49432bbaa65147b65a1f39.html).
+-   You have established trust by setting up a custom Identity service. See [Setup of a Custom Identity Service](https://help.sap.com/docs/btp/sap-business-technology-platform/setup-of-custom-identity-service?version=Cloud).
 
 
 
@@ -25,10 +25,10 @@ If you need further assistance with creating and deploying an application, check
 ## 1. Generating and Deploying Your Application
 
 > ### Prerequisites:  
-> -   You have created a development package in ABAP Development Tools for Eclipse. See [Creating ABAP Packages](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/d33ab697df394140874519c8c066ea82.html).
-> -   You have exposed a RAP business service as an OData service. See [Using Service Binding Editor for OData V2 Service](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/81dc788fbda74883bd775a4036fa4b67.html).
+> -   You have created a development package in ABAP Development Tools for Eclipse. See [Creating ABAP Packages](https://help.sap.com/docs/btp/sap-abap-development-user-guide/creating-abap-packages?version=Cloud).
+> -   You have exposed a RAP business service as an OData service. See [Using Service Binding Editor for OData V2 Service](https://help.sap.com/docs/btp/sap-abap-cds-development-user-guide/using-service-binding-editor-for-odata-v2-service?version=Cloud).
 > -   Business catalog `SAP_A4C_BC_DEV_UID_PC` is assigned to your user, which allows you to deploy your application.
-> -   Business catalog `SAP_CORE_BC_EXT_TST` is assigned to your user, which allows you to preview your application and discover available OData services. See [Business Catalog for Key User Tasks](../50-administration-and-ops/business-catalog-for-key-user-tasks-65b70bf.md).
+> -   Business catalog `SAP_CORE_BC_EXT_TST` is assigned to your user, which allows you to preview your application and discover available OData services. See [Business Catalog for Key User Tasks](https://help.sap.com/docs/btp/sap-business-technology-platform/business-catalog-for-key-user-tasks?version=Cloud).
 > -   You have an open transport request.
 
 ![](images/BAS_Deploy_to_ABAP_14eae97.png)
@@ -38,7 +38,7 @@ If you need further assistance with creating and deploying an application, check
 
         -   Data source: *Connect to a System*.
         -   System:
-            -   \(Option 1\) Select the destination that you have created for the SAP Business Application studio integration \(`SAP_Business_Application_Studio`\). See [Creating a Destination to the ABAP System for SAP Business Application Studio](../20-getting-started/creating-a-destination-to-the-abap-system-for-sap-business-application-studio-e597948.md).
+            -   \(Option 1\) Select the destination that you have created for the SAP Business Application studio integration \(`SAP_Business_Application_Studio`\). See [Creating a Destination to the ABAP System for SAP Business Application Studio](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-destination-to-abap-system-for-sap-business-application-studio?version=Cloud).
             -   \(Option 2\) Select *ABAP Environment on SAP Business Technology Platform*.
 
                 From the ABAP environment drop-down menu, choose a service instance.
@@ -73,8 +73,8 @@ If you need further assistance with creating and deploying an application, check
 
 ![](images/Custom_UI_Using_BAS_Step_3_3aa2ba1.png)
 
-1.  To manage access to your SAP Fiori application, you have to log on as a developer in ABAP Development Tools for Eclipse to create an Identity and Access Management \(IAM\) application, assign a UI5 application and a service, and maintain authorizations \(steps 1-3 in the figure above\). See [Creating an IAM App for the Business Service \(Developer\)](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2a2ddf967a704a878ee975f44630f71d.html).
-2.  Once you have created your IAM app, you have to create a business catalog. See [Creating a Business Catalog \(Developer\)](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/42c6a55947fe4bc89bd63b0f50b54c8a.html).
+1.  To manage access to your SAP Fiori application, you have to log on as a developer in ABAP Development Tools for Eclipse to create an Identity and Access Management \(IAM\) application, assign a UI5 application and a service, and maintain authorizations \(steps 1-3 in the figure above\). See [Creating an IAM App for the Business Service](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-iam-app-for-business-service?version=Cloud).
+2.  Once you have created your IAM app, you have to create a business catalog. See [Creating a Business Catalog](https://help.sap.com/docs/btp/sap-business-technology-platform/iam-creating-business-catalog?version=Cloud).
 3.  Assign your IAM app to the business catalog.
 4.  Publish the IAM app and business catalog locally.
 
@@ -84,12 +84,12 @@ If you need further assistance with creating and deploying an application, check
 
 ## Next Step
 
-Launch your app in SAP Fiori launchpad. See [Add Your App to SAP Fiori Launchpad](add-your-app-to-sap-fiori-launchpad-ea41912.md).
+Launch your app in SAP Fiori launchpad. See [Add Your App to SAP Fiori Launchpad](https://help.sap.com/docs/btp/sap-business-technology-platform/add-your-app-to-sap-fiori-launchpad?version=Cloud).
 
 **Related Information**  
 
 
-[SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US)
+[SAP Business Application Studio](https://help.sap.com/docs/bas)
 
 [SAP Fiori Tools](https://help.sap.com/viewer/product/SAP_FIORI_tools/Latest/en-US)
 

@@ -10,9 +10,9 @@ In the SAP BTP cockpit, you can see the users of your global account or subaccou
 
 ## Overview
 
-All users in the global account and in the subaccount are stored in identity providers. Users in the global account of SAP BTP are stored in the default identity provider. Users in the subaccounts of SAP BTP are either stored in the default identity provider or in a custom identity provider.
+All users in the global account, subaccount, directories, and environments are stored in identity providers. Users in the subaccounts of SAP BTP are either stored in the default identity provider or in a custom identity provider.
 
-SAP BTP creates a copy of the user in the global account or in the subaccount when a user-related action happens. This copy of the user is called a shadow user. Global account or subaccount administrators of SAP BTP assign role collections to shadow users. To comply with data protection and privacy regulations, administrators can be obliged to delete users who belonged to employees who left the company.
+SAP BTP creates a copy of the user in the global account or in the subaccount when a user-related action happens. This copy of the user is called a shadow user. Global account or subaccount administrators of SAP BTP assign role collections to shadow users. To comply with data protection and privacy regulations, administrators can be obliged to delete shadow users who belonged to employees who left the company.
 
 > ### Note:  
 > For access tokens of subaccounts created after September 23, 2020, user IDs preserve the case that they are created in. This means that both uppercase and lowercase letters can be used. However, this does not qualify as a means to differentiate between them; for example, denise.smith@example.com and Denise.Smith@example.com are considered to be the same.
@@ -138,6 +138,20 @@ You want to find and delete users of employees who have left the company, but th
 How to find users, see [Find Inactive Users](find-inactive-users-90380a6.md).
 
 How to delete users, see [Delete Users](delete-users-51000c2.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Automate the provisioning of users.
+
+</td>
+<td valign="top">
+
+You want to provision users to SAP cloud solutions, such as SAP BTP so that you can manage your identities centrally.
+
+How to provision users to SAP BTP, see [Provision Users to SAP BTP](provision-users-to-sap-btp-bb1b2f4.md).
 
 </td>
 </tr>

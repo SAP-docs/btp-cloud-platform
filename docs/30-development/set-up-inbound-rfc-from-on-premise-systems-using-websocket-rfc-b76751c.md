@@ -115,7 +115,7 @@ The API-URL defined in the Communication Arrangement without the `https://` pref
 </table>
 
 > ### Note:  
-> These settings are available with SAP S/4HANA Cloud 1909. For older releases, you need to transform from a CPIC-based RFC to WebSocket RFC via Business Connector. See [SAP Business Connector](https://support.sap.com/en/product/connectors/bc.html) for more information.
+> These settings are available with S/4HANA 1909. For older releases, you need to transform from a CPIC-based RFC to WebSocket RFC via Business Connector. See [SAP Business Connector](https://support.sap.com/en/product/connectors/bc.html) for more information.
 
 **Related Information**  
 

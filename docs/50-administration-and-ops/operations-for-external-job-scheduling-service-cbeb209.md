@@ -26,6 +26,23 @@ Sample URL
 <tr>
 <td valign="top">
 
+[Read an Application Job Without Parameters](read-an-application-job-without-parameters-8cd59f9.md)
+
+</td>
+<td valign="top">
+
+GET
+
+</td>
+<td valign="top">
+
+<host\>/sap/opu/odata/SAP/BC\_EXT\_APPJOB\_MANAGEMENT;v=0002/JobHeaderSet\(JobName='JobName',JobRunCount='JobCount'\)?$expand=JobStepSet/JobStepLogInfoSet/JobLogMessageSet
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [Read Application Job Templates](read-application-job-templates-b4f28ea.md)
 
 </td>
@@ -156,6 +173,23 @@ POST
 <td valign="top">
 
 <host\>/sap/opu/odata/sap/BC\_EXT\_APPJOB\_MANAGEMENT;v=0002/JobRestart?JobName='JobName'&JobRunCount='JobCount'&JobRestartMode='E'
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Check Parameters for Scheduling a Job](check-parameters-for-scheduling-a-job-b331bde.md)
+
+</td>
+<td valign="top">
+
+POST
+
+</td>
+<td valign="top">
+
+<host\>/sap/opu/odata/SAP/BC\_EXT\_APPJOB\_MANAGEMENT;v=0002/JobScheduleCheck? JobTemplateName='TemplateName'&JobParameterValues='ParameterValueString'
 
 </td>
 </tr>

@@ -68,7 +68,7 @@ The components and their interactions are depicted in the block-diagram below. I
 
 ### Application, Microservice, and App
 
-The Cloud Foundry environment of SAP BTP is a runtime platform for business web applications. These are referred to as applications. An SAP BTP application is implemented in an architectural style that structures the application as a collection of loosely coupled components, termed microservices. Microservices can be deployed independently from one another. This eliminates the need to deploy the complete application if only a subset of its microservices have received new features or a bug fix. In the terminology of the Cloud Foundry environment of SAP BTP, microservices are referred to as apps.
+The Cloud Foundry environment of SAP BTP is a runtime platform for business web applications. These are referred to as applications. An SAP SAP BTP application is implemented in an architectural style that structures the application as a collection of loosely coupled components, termed microservices. Microservices can be deployed independently from one another. This eliminates the need to deploy the complete application if only a subset of its microservices have received new features or a bug fix. In the terminology of the Cloud Foundry environment of SAP BTP, microservices are referred to as apps.
 
 
 
@@ -147,7 +147,7 @@ The cloud or business application has a trust relationship with the authorizatio
 
 [https://tools.ietf.org/html/rfc6749\#section-1.4](https://tools.ietf.org/html/rfc6749#section-1.4)
 
-[SAP Authorization and Trust Management Service in the Cloud Foundry Environment](sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md "The global account and subaccounts get their users from identity providers. Administrators make sure that users can only access their dedicated subaccount by making sure that there is a dedicated trust relationship only between the identity providers and the respective subaccounts. Developers configure and deploy application-based security artifacts containing authorizations, and administrators assign these authorizations using the SAP BTP cockpit.")
+[SAP Authorization and Trust Management Service](sap-authorization-and-trust-management-service-6373bb7.md "The global account and subaccounts get their users from identity providers. Administrators make sure that users can only access their dedicated subaccount by making sure that there is a dedicated trust relationship only between the identity providers and the respective subaccounts. Developers configure and deploy application-based security artifacts containing authorizations, and administrators assign these authorizations using the SAP BTP cockpit.")
 
 [Cloud Foundry API Reference for User Account and Authentication Server API](https://docs.cloudfoundry.org/)
 

@@ -21,7 +21,7 @@ The `cluster-admin` role is assigned to your account.
 
 ## Context
 
-You can assign roles to a group of users only if you use a custom identity provider. Assigning roles in Kyma is based on the Kubernetes [role-based access control](https://kubernetes.io/docs/reference/access-authn-authz/rbac/) \(RBAC\). You can see the list of available roles in Kyma dashboard when you create a Role Binding \(see Step 3c\). Once you become the admin, your user name is read from the SAP BTP \(RBAC\) concept and is passed to the Kyma provisioner to be bound to the `cluster-admin` role in Kyma.
+You can assign roles to a group of users only if you use a custom identity provider. Assigning roles in Kyma is based on the Kubernetes [role-based access control](https://kubernetes.io/docs/reference/access-authn-authz/rbac/) \(RBAC\). You can see the list of available roles in Kyma dashboard when you create a Role Binding. Once you become the admin, your user name is read from the SAP BTP \(RBAC\) concept and is passed to the Kyma provisioner to be bound to the `cluster-admin` role in Kyma.
 
 
 
@@ -69,4 +69,6 @@ If the permissions of the default role aren't sufficient, clone the role and add
 
 
 [Authorization in Kyma](https://kyma-project.io/#/04-operation-guides/security/sec-02-authorization-in-kyma)
+
+ <?sap-ot O2O class="- topic/link " href="bb31080fd0474d38a050e32a7a7ed629.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/148ae38b7d6f4e61bbb696bbfb3996b2.xml" output-class="" current-file="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 

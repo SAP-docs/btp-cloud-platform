@@ -63,6 +63,11 @@ DIM\_UPD\_TS
 
 Structure for updating a dimension
 
+> ### Caution:  
+> Be aware that all the fields belonging to the structure will be updated.
+
+
+
 </td>
 </tr>
 <tr>
@@ -267,42 +272,40 @@ ERROR
 >   PUBLIC 
 >   FINAL 
 >   CREATE PUBLIC . 
-> 
+>  
 >   PUBLIC SECTION. 
 >     INTERFACES if_oo_adt_classrun. 
-> 
+>  
 >   PROTECTED SECTION. 
 >   PRIVATE SECTION. 
 > ENDCLASS. 
-> 
+>  
 > CLASS zcl_uom_dimension_update_test IMPLEMENTATION. 
 >   METHOD if_oo_adt_classrun~main. 
+>    DATA(lo_dim) = cl_uom_dim_maintenance=>get_instance( ).
 > 
->     DATA: lo_dim TYPE REF TO cl_uom_dim_maintenance, 
->           ls_dim TYPE cl_uom_dim_maintenance=>ty_dim_upd_ts. 
 > 
->     "Get instance 
->     cl_uom_dim_maintenance=>get_instance( 
->     RECEIVING 
->       ro_dimension = lo_dim ). 
+>    TRY.
+>         lo_dim->read( EXPORTING dimid    = 'ZNEWDI'
+>               IMPORTING dim_st = DATA(ls_dim) ).
 > 
->     ls_dim-txdim = 'Update Dimension'. 
->     ls_dim-mass  = 88. 
->     ls_dim-length = 88. 
+>    DATA(ls_upd_dim) = VALUE cl_uom_dim_maintenance=>ty_dim_upd_ts(
+>                       BASE CORRESPONDING #( ls_dim )
+>                                             txdim = 'Update Dimension'
+>                                             mass  = 88
+>                                             length = 89 ).
 > 
->     TRY. 
->         lo_dim->update( EXPORTING dimid = 'ZNEWDI' 
->                                   dim_upd_ts = ls_dim 
->                     IMPORTING 
->                          error = DATA(error) 
->                    ). 
->       CATCH cx_uom_error INTO DATA(lo_error). 
->         out->write( |Exception raised| ). 
->         out->write( lo_error->get_text( ) ). 
->     ENDTRY. 
+>     lo_dim->update( EXPORTING dimid      = 'ZNEWDI'
+>                               dim_upd_ts = ls_upd_dim
+>                     IMPORTING error      = DATA(lv_error) ).
 > 
+> 
+>    CATCH cx_uom_error INTO DATA(lo_error).
+>       out->write( |Exception raised| ).
+>       out->write( lo_error->get_text( ) ).
+>    ENDTRY.
 >   ENDMETHOD. 
-> 
 > ENDCLASS.
+> 
 > ```
 

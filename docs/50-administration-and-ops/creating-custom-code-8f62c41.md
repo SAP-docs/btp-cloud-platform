@@ -18,7 +18,9 @@ The method signature on the right provides information about the method's parame
 
 Put the cursor on a class, interface, or parameter to view the documentation displayed in the element information at the bottom of the page.
 
-In edit mode, you can add prebuilt code blocks by selecting *Insert Code Snippet*. For more information, see  <?sap-ot O2O class="- topic/xref " href="614b05a6962a4859a49d2839530dac72.xml" text="" desc="" xtrc="xref:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/8f62c414203546faa96542ad723f932e.xml" ?> .
+In edit mode, you can add prebuilt code blocks by selecting *Insert Code Snippet*. For more information, see [Inserting Code Snippets](inserting-code-snippets-614b05a.md).
+
+You can use keyboard shortcuts while working with the ABAP Cloud editor. You can view a list of all possible shortcuts by clicking *Show Keyboard Shortcuts*.
 
 > ### Note:  
 > Do not use the `return` statement in your code because it can affect the framework logic. It can result in missing custom logic trace entries or unexpected code behavior.
@@ -45,66 +47,4 @@ On the *Compare* tab, you can compare different code versions. If you have a dra
 
 > ### Note:  
 > Please make sure that your draft logic is syntactically correct and tested. Otherwise, the draft logic might be lost when your system is upgraded to another release.
-
-
-
-<a name="loio8f62c414203546faa96542ad723f932e__section_qr5_p3t_cwb"/>
-
-## Keyboard Shortcuts
-
-You can use keyboard shortcuts while working with the ABAP Cloud editor. The following key combinations are provided:
-
-
-<table>
-<tr>
-<th valign="top">
-
-Key Combination
-
-</th>
-<th valign="top">
-
-What Is It Used For?
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-[Ctrl\] + [Space\]  
-
-</td>
-<td valign="top">
-
-To turn on code completion
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Shift\] + [F1\]  
-
-</td>
-<td valign="top">
-
-To use the pretty printer
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Ctrl\] + [/\] \(Slash\)
-
-[Ctrl\] + [\#\] \(Hash\)
-
-</td>
-<td valign="top">
-
-To uncomment or comment out a code block
-
-</td>
-</tr>
-</table>
 

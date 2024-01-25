@@ -14,7 +14,7 @@ To use the *Manage Software Components* app, business role `SAP_BR_ADMINISTRATOR
 
 To use the *Export Customizing Transports* app or to create a customizing request in ABAP Development Tools for Eclipse, business role `SAP_BR_BPC_EXPERT` has to be assigned.
 
-To use the Transport Organizer view in ABAP Development for Eclipse, business role `SAP_BR_DEVELOPER` has to be assigned. See [Transport Organizer](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/9c53fba4bf08445286e8b40fd0a6fd03.html).
+To use the Transport Organizer view in ABAP Development for Eclipse, business role `SAP_BR_DEVELOPER` has to be assigned. See [Transport Organizer](https://help.sap.com/docs/btp/sap-abap-development-user-guide/transport-organizer?version=Cloud).
 
 
 
@@ -22,7 +22,7 @@ To use the Transport Organizer view in ABAP Development for Eclipse, business ro
 
 ## Procedure
 
-1.  In the *Manage Software Components* app, create software components of type *Development* and clone them to the tenant where you want the business configuration to be created. See [How to Create Software Components](../50-administration-and-ops/how-to-create-software-components-67e2f2e.md) and [How to Clone Software Components](../50-administration-and-ops/how-to-clone-software-components-18564c5.md).
+1.  In the *Manage Software Components* app, create software components of type *Development* and clone them to the tenant where you want the business configuration to be created. See [How to Create Software Components](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-create-software-components?version=Cloud) and [How to Clone Software Components](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-clone-software-components?version=Cloud).
 
     > ### Note:  
     > If you have already started development, such components may already be available.
@@ -34,7 +34,7 @@ To use the Transport Organizer view in ABAP Development for Eclipse, business ro
     -   `SAP_ATO_TRANSPORT_TYPE = BC`
     -   `SAP_CUS_TRANSPORT_CATEGORY = MANUAL_CUST`
 
-4.  In the *Export Customizing Transports* app, release the transport request. See [Working in the Export Customizing Transports App](../50-administration-and-ops/working-in-the-export-customizing-transports-app-cc16fd0.md).
+4.  In the *Export Customizing Transports* app, release the transport request. See [Working in the Export Customizing Transports App](https://help.sap.com/docs/btp/sap-business-technology-platform/working-in-export-customizing-transports-app?version=Cloud).
 
     > ### Note:  
     > When developing custom business configuration objects, you can decide if you want to provide a transport selection screen for change recording. If you are using this transport pattern, we recommend autofilling the transport request based on the software component of the business configuration object.

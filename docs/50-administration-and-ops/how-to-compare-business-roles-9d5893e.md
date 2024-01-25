@@ -8,7 +8,7 @@
 
 ## Context
 
-To display the common features and the differences between business roles, you can compare them in the *Maintain Business Roles* app. On the *Compare Business Roles* screen, you can display the restrictions, business users and business catalogs, which the business roles have in common, or those that the business roles don’t have in common. You can only compare a maximum of two business roles. They can be active or in draft mode.
+To display the common features and the differences between business roles, you can compare them in the *Maintain Business Roles* app. On the *Compare Business Roles* screen, you can display the restrictions, business users, business catalogs and launchpad spaces, which the business roles have in common, or those that the business roles don’t have in common. You can only compare a maximum of two business roles. They can be active or in draft mode.
 
 
 
@@ -18,7 +18,7 @@ To display the common features and the differences between business roles, you c
 
 1.  On the *Maintain Business Roles* initial screen, select the two business roles you want to compare.
 
-2.  Click *Compare*. The system displays the*Compare Business Roles* screen for these two business roles including information about the assigned restrictions, business users and business catalogs.
+2.  Click *Compare*. The system displays the*Compare Business Roles* screen for these two business roles including information about the assigned restrictions, business users, business catalogs and launchpad spaces.
 
     If the *Write*, *Read* or *Value Help* access category is restricted in both roles, you can navigate further to display the assigned restriction types for that access category.
 
@@ -100,20 +100,20 @@ To display the common features and the differences between business roles, you c
 
     The system displays the restriction types assigned to the roles you want to compare next to each other. If there are differences between the two roles, the order of the instances reflects the degree of similarity. You can use drag and drop if you want to compare two other restriction types than the ones suggested by the system.
 
-    **Business Users and Business Catalogs**
+    **Business Users, Business Catalogs and Launchpad Spaces**
 
-    You have the following options for comparing business users and business catalogs:
+    You have the following options for comparing business users, business catalogs and launchpad spaces:
 
     *Display All*
 
-    Display all business users or business catalogs that are assigned to one of the roles or both.
+    Display all business users, business catalogs and launchpad spaces that are assigned to one of the roles or both.
 
-    *Display Only Common Business Users / Display Only Common Business Catalogs*
+    *Display Only Common Business Users / Display Only Common Business Catalogs / Display Only Common Launchpad Spaces*
 
-    Display only the business users or business catalogs the two business roles have in common or that are assigned to both.
+    Display only the business users, business catalogs or launchpad spaces the two business roles have in common or that are assigned to both.
 
-    *Display only Different Business Users / Display only Different Business Catalogs*
+    *Display only Different Business Users / Display only Different Business Catalogs / Display Only Different Launchpad Spaces*
 
-    Display only the business users or business catalogs that differ from one business role to the other or that are assigned to one business role but not to the other.
+    Display only the business users, business catalogs or launchpad spaces that differ from one business role to the other or that are assigned to one business role but not to the other.
 
 

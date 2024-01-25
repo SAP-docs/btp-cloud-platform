@@ -8,9 +8,7 @@
 
 ## Context
 
-Multitenancy allows providers to host different consumers \(tenants\) on a single shared system. But how do you, as a provider, keep track of all your tenants and systems? This is where the *Landscape Portal* comes in. The *Landscape Portal* acts as a central tool to allow service providers to perform lifecycle management operations such as building and updating product versions, configuring and deploying multitenant SaaS solutions, managing system hibernations, and more. See the current key features of the *Landscape Portal* listed below or learn more about the different apps the *Landscape Portal* has to offer by clicking on the app tiles in the image.
-
-![](images/Landscape_Portal_45b5e7f.png)
+Multitenancy allows providers to host different consumers \(tenants\) on a single shared system. But how do you, as a provider, keep track of all your tenants and systems? This is where the *Landscape Portal* comes in. The *Landscape Portal* acts as a central tool to allow service providers to perform lifecycle management operations such as building and updating product versions, configuring and deploying multitenant SaaS solutions, managing system hibernations, and more.
 
 
 
@@ -42,5 +40,5 @@ You can currently use the *Landscape Portal* to do the following:
 
 [Accessing the Landscape Portal](accessing-the-landscape-portal-2e1e393.md)
 
- <?sap-ot O2O class="- topic/link " href="f2c01360c49e43c09c1a4f15c9ba519c.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/5eb70fb003954619b09224167a0afaa4.xml" ?> 
+ <?sap-ot O2O class="- topic/link " href="f2c01360c49e43c09c1a4f15c9ba519c.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/5eb70fb003954619b09224167a0afaa4.xml" output-class="" current-file="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 

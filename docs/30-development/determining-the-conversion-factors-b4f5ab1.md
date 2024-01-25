@@ -201,50 +201,37 @@ Unit of measurement is not maintained
 > CLASS zcl_uom_conversion DEFINITION
 >   PUBLIC
 >   FINAL
->   CREATE PUBLIC .
-> 
+>   CREATE PUBLIC.
+>  
 >   PUBLIC SECTION.
 >      INTERFACES if_oo_adt_classrun.
 >   PROTECTED SECTION.
 >   PRIVATE SECTION.
 > ENDCLASS.
-> 
+>  
 > CLASS zcl_uom_conversion IMPLEMENTATION.
-> 
 >   METHOD if_oo_adt_classrun~main.
-> 
->     data: lo_unit     type ref to cl_uom_conversion,
->           decimal     type cl_uom_conversion=>ty_andec,
->           dimension   type cl_uom_conversion=>ty_dimid,
->           numerator   type cl_uom_conversion=>ty_dzaehl,
->           denominator type cl_uom_conversion=>ty_nennr.
-> 
-> 
->    lo_unit = cl_uom_conversion=>create( ).
-> 
->    lo_unit->unit_parameters_get(
->      EXPORTING
->        unit           = 'G'
->      IMPORTING
->        decimals       = decimal
->        dimension      = dimension
->        numerator      = numerator
->        denominator    = denominator
-> 
->      EXCEPTIONS
->        unit_not_found = 1
->        others         = 2
->     ).
->     IF SY-SUBRC = 0.
->       out->write( dimension ).
->       out->write( decimal ).
->       out->write( numerator ).
->       out->write( denominator ).
->    ENDIF.
-> 
+>      DATA(lo_unit) = cl_uom_conversion=>create( ).
+>     lo_unit->unit_parameters_get(
+>       EXPORTING
+>         unit           = 'G'
+>       IMPORTING
+>         decimals       = DATA(lv_decimal)
+>         dimension      = DATA(lv_dimension)
+>         numerator      = DATA(lv_numerator)
+>         denominator    = DATA(lv_denominator)
+>       EXCEPTIONS
+>         unit_not_found = 1
+>         OTHERS         = 2 ).
+>     
+>     IF sy-subrc = 0.
+>       out->write( lv_dimension ).
+>       out->write( lv_decimal ).
+>       out->write( lv_numerator ).
+>       out->write( lv_denominator ).
+>     ENDIF.
 >   ENDMETHOD.
-> 
->  ENDCLASS.
+> ENDCLASS.
 > 
 > ```
 

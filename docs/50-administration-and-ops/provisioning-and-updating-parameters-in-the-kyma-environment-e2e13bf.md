@@ -531,25 +531,97 @@ Updating
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="6">
+<td valign="top" rowspan="12">
 
 Microsoft Azure
 
 technical name: `azure`
 
 </td>
-<td valign="top" rowspan="6">
+<td valign="top" rowspan="12">
 
 Provisioning
 
 Updating
 
 </td>
-<td valign="top" rowspan="6">
+<td valign="top" rowspan="12">
 
-`Standard_D4_v3`
+`Standard_D4s_v5`
 
 </td>
+<td valign="top">
+
+`Standard_D4s_v5`
+
+</td>
+<td valign="top">
+
+4vCPU, 16GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Standard_D8s_v5`
+
+</td>
+<td valign="top">
+
+8vCPU, 32GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Standard_D16s_v5`
+
+</td>
+<td valign="top">
+
+16vCPU, 64GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Standard_D32s_v5`
+
+</td>
+<td valign="top">
+
+32vCPU, 128GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Standard_D48s_v5`
+
+</td>
+<td valign="top">
+
+48vCPU, 192GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Standard_D64s_v5`
+
+</td>
+<td valign="top">
+
+64vCPU, 256GB RAM
+
+</td>
+</tr>
+<tr>
 <td valign="top">
 
 `Standard_D4_v3`
@@ -622,25 +694,37 @@ Updating
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="2">
 
 Azure Lite
 
 technical name: `azure_lite`
 
 </td>
-<td valign="top">
+<td valign="top" rowspan="2">
 
 Provisioning
 
 Updating
 
 </td>
-<td valign="top">
+<td valign="top" rowspan="2">
 
-`Standard_D4_v3`
+`Standard_D4s_v5`
 
 </td>
+<td valign="top">
+
+`Standard_D4s_v5`
+
+</td>
+<td valign="top">
+
+4vCPU, 16GB RAM
+
+</td>
+</tr>
+<tr>
 <td valign="top">
 
 `Standard_D4_v3`

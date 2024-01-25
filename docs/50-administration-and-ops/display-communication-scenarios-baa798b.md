@@ -23,6 +23,10 @@ You can use this app to:
 -   Download certificates for specific purposes
 -   Display communication arrangements in which a communication scenario is used
 -   Create a new communication arrangement based on a communication scenario
+-   Display scope items: check which scope items the communication scenarios depend on. Communication scenarios that do not depend on any scope items are always visible in the system. For these communication scenarios, *Scope Items \(0\)* is displayed on the relevant tab and the following message appears in the table: *The communication scenario is not scope-dependent*.
+
+-   Display component: check under which component you can create an incident if required.
+
 
 
 

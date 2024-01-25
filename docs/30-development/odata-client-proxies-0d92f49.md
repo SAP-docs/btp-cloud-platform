@@ -65,5 +65,5 @@ For Client Proxy known constraints, see SAP Note [2428114 - SAP Gateway Foundati
 
 [OData Request Terms](odata-request-terms-a3b0e95.md "An overview of some OData Request terminology.")
 
-[OData Services](odata-services-811b523.md "")
+[OData Outbound Communication](odata-outbound-communication-811b523.md "The OData Client Proxy is the interface between the client (consumer of a service) and the service implementation (data provisioning) in the OData service consumption in ABAP. This enables ABAP developers to create OData client coding to run OData requests in your ABAP coding.")
 

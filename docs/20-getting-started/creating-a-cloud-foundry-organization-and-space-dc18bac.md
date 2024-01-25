@@ -31,6 +31,8 @@ For more information about creating Cloud Foundry spaces, see [Create Spaces](ht
 
     2.  On the *Create Cloud Foundry Organization* dialog, enter a name for the Cloud Foundry organization and choose *Create*.
 
+    3.  Choose the free or standard plan for the Cloud Foundry runtime according to your needs.
+
 
 5.  On the *Cloud Foundry* screen area, choose the link for spaces.
 

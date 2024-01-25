@@ -4,15 +4,17 @@
 
 To use or get the most out of some applications, such as SAP Build Work Zone and SAP Build Apps, your subaccount must use Identity Authentication with OpenID Connect \(OIDC\) as the custom identity provider. This process helps you change an SAML trust configuration to an OIDC configuration with as little impact to your application users as possible, especially in productive subaccounts.
 
-> ### Caution:  
-> You could achieve a similar result by deleting your current SAML trust configuration and setting up a new trust with OIDC. This method can cause an interruption in the service to your business users. Deleting the trust deletes any local shadow users in the subaccount and their role collection assignments. You would need to re-create those users and their role collection assignments. You would also permanently lose any connection to application data for those users. The internal IDs of the re-created users will never be the same as with the original trust configuration.
-
 The goal of this process is as follows:
 
 -   Preserve user records, including their authorizations, and also all user-related data in applications and services. User IDs don't change. We update the existing trust configuration instead of creating a new one.
 
+-   Preserve role collection mappings to groups or other attributes.
+
 -   Ensure that applications receive exactly the same information about users as they did before. We provide guidance and verification steps for when you reconfigure authentication along the chain of subaccount, Identity Authentication tenant, and potentially corporate identity provider.
 
+
+> ### Caution:  
+> You could achieve a similar result by deleting your current SAML trust configuration and setting up a new trust with OIDC. However, this method can cause an interruption in the service to your business users. Deleting the trust deletes any local shadow users in the subaccount and their role collection assignments. You would need to re-create those users and their role collection assignments. You would also permanently lose any connection to application data for those users. The internal IDs of the re-created users will never be the same as with the original trust configuration.
 
 
 

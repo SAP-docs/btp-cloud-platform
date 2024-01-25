@@ -85,7 +85,7 @@ When developing tenant-aware applications in the Cloud Foundry environment, keep
 
 3.  Configure the application's authentication and authorization for the SAP HANA XS advanced Java run time.
 
-    For general instructions, see [SAP Authorization and Trust Management Service in the Cloud Foundry Environment](../60-security/sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md).
+    For general instructions, see [SAP Authorization and Trust Management Service](../60-security/sap-authorization-and-trust-management-service-6373bb7.md).
 
 4.  Create a security descriptor file in JSON format that specifies the functional authorization scopes for the application:
 

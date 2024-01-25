@@ -69,7 +69,7 @@ Namespace
 </td>
 <td valign="top">
 
-Namespaces are used to organize objects in a cluster and provide a way to divide cluster resources. This way, several users can share a cluster but have access only to resources within the Namespace they have permissions for. This allows for increasing the security and organization of your cluster by dividing it into smaller units. Access to Namespaces in the Kyma environment depends on your permissions. SAP BTP users with the KymaRuntimeNamespaceAdmins role are entitled to create Namespaces, while users with the KymaRuntimeNamespaceDeveloper role can only list and edit Kubernetes and Kyma-specific resources scoped to specific Namespaces.
+Namespaces are used to organize objects in a cluster and provide a way to divide cluster resources. This way, several users can share a cluster but have access only to resources within the namespace they have permissions for. This allows for increasing the security and organization of your cluster by dividing it into smaller units. Access to namespaces in the Kyma environment depends on your Kubernetes RBAC permissions.
 
 </td>
 </tr>

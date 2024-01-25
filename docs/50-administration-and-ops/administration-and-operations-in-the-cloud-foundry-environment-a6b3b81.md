@@ -19,7 +19,7 @@ Learn about the different account administration and application operation tasks
 -   [Application Operations in the Cloud Foundry Environment](application-operations-in-the-cloud-foundry-environment-0f1286a.md)
 -   [Log on with a Browser to the Cloud Foundry CLI and Service Dashboards](log-on-with-a-browser-to-the-cloud-foundry-cli-and-service-dashboards-7eb0943.md)
 
--   [Access Administration Using APIs of the SAP Authorization and Trust Management Service](access-administration-using-apis-of-the-sap-authorization-and-trust-management-service-dcb3bfd.md)
+-   [Accessing Administration Using APIs of the SAP Authorization and Trust Management Service](accessing-administration-using-apis-of-the-sap-authorization-and-trust-management-servi-dcb3bfd.md)
 
 -   [Audit Logging in the Cloud Foundry Environment](audit-logging-in-the-cloud-foundry-environment-f92c86a.md)
 

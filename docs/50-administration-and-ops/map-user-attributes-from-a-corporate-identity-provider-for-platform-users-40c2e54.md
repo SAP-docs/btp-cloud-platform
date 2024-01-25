@@ -32,20 +32,29 @@ There are several options to customize attribute mappings in Identity Authentica
 
 -   When identity federation is enabled, Identity Authentication doesn't automatically propagate any attributes from the corporate identity provider to the application. This option requires mappings in the Identity Authentication application, for each attribute that is needed by the application.
 
-    Use the *Default Attributes* in the Identity Authentication application representing SAP BTP.
+    Use the attributes in the Identity Authentication application representing SAP BTP.
 
     > ### Note:  
-    > You can't remove the default attributes or edit the listed attribute names, but you can edit their values, depending on which attribute from the corporate identity provider maps to these attributes. You can also add custom attributes, such as *groups* or other attributes for mapping to role collections.
+    > You can add attribute sources or disable the default application attributes. You can also add self-defined attributes for mapping to role collections.
+    > 
+    > For example, you have so many groups being added to your token and you're running into size limits. You can disable the standard groups configuration and add a regular expression to include only those groups, which begin with BTP. So, to the *groups* attribute, you add a source of type `Expression` with the value `${companyGroups:regex[BTP.*]}`.
+
+      
+      
+    **Default Configuration of Application Attributes for the Platform Identity Provider**
+
+    ![](images/default_attributes_platform_1fcf046.png "Default Configuration of Application Attributes for the Platform
+    								Identity Provider")
 
     If the corporate identity provider sends user attributes for email address, first and last name with other names than *mail*, *first\_name*, or *last\_name*, set the right attribute name by replacing those values.
 
     > ### Example:  
-    > If your corporate identity provider sends users' last names as attribute `sn`, map the `sn` attribute to the `last_name` attribute required by SAP BTP with the value `${corporateIdP.sn}`.
+    > If your corporate identity provider sends users' last names as the `sn` attribute, add the corporate identity provider as source to the *last\_name* attribute with the value `sn`.
 
-    For more information, see [Configure the Default Attributes Sent to the Application](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/a2f1e4692e7d4379ab82144ab309e7b3.html?version=Cloud&q=corporateidp).
+    For more information, see [User Attributes](https://help.sap.com/docs/identity-authentication/identity-authentication/user-attributes?version=Cloud) in the documentation of Identity Authentication.
 
 
-The following table provides the information needed for mapping the attributes, independently from where you do this in Identity Authentication.
+The following table provides the information needed for mapping the attributes.
 
 The subject name identifier attribute is used by SAP BTP to uniquely identify the user in Neo subaccounts. The e-mail address is used as the user identifier in the Cloud Foundry environment \(global account, directory, multi-environment subaccount\).
 
@@ -75,7 +84,7 @@ Purpose
 </td>
 <td valign="top">
 
-This is the user identifier for Neo subaccounts.
+User identifier for Neo subaccounts.
 
 Default value: ***User ID***
 
@@ -92,7 +101,7 @@ Default value: ***User ID***
 E-mail address of the user.
 
 > ### Note:  
-> This is the user identifier for all the account levels \(global account, directory, multi-environment subaccount\), and for the Cloud Foundry environment.
+> User identifier for all the account levels \(global account, directory, multi-environment subaccount\), and for the Cloud Foundry environment.
 
 The e-mail addresses of all the users in the Identity Authentication tenant must be unique.
 

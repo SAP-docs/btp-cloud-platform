@@ -10,9 +10,9 @@ When you enable trust with a tenant of SAP Cloud Identity Services - Identity Au
 
 ## Finding the Application for Your Subaccount
 
-The name of the application in the administration console of Identity Authentication that represents you subaccount has the prefix ***XSUAA\_*** and the display name of your subaccount.
+The name of the application in the administration console of Identity Authentication that represents you subaccount has the prefix ***XSUAA\_*** or ***SAP BTP subaccount*** and the display name of your subaccount.
 
-If your subaccount is named ***My Subaccount***, the resulting application in Identity Authentication is ***XSUAA\_My Subaccount***.
+If your subaccount is named ***My Subaccount***, the resulting application in Identity Authentication is ***XSUAA\_My Subaccount*** or ***SAP BTP subaccount My Subaccount***.
 
 
 
@@ -34,21 +34,21 @@ For more information about identity federation, see [Configure Identity Federati
 
 -   When identity federation is enabled, Identity Authentication doesn't automatically propagate any attributes from the corporate identity provider to the application. This option requires mappings in the Identity Authentication application, for each attribute that is needed by the application.
 
-    Use the *Default Attributes* in the Identity Authentication application representing your subaccount.
+    Use the *Attributes* in the Identity Authentication application representing your subaccount.
 
-    SAP BTP expects the following attributes. Add these attributes if they're missing:
+    SAP BTP expects the following attributes. The default configuration of the trust configuration sets up the values in the following table in the Identity Authentication tenant.
 
 
     <table>
     <tr>
     <th valign="top">
 
-    Attribute
+    Self-Defined Attributes
     
     </th>
     <th valign="top">
 
-    Corporate Identity Provider
+    Identity Directory
     
     </th>
     </tr>
@@ -60,7 +60,7 @@ For more information about identity federation, see [Configure Identity Federati
     </td>
     <td valign="top">
     
-    `${corporateIdP.email}`
+    `Email`
     
     </td>
     </tr>
@@ -72,7 +72,7 @@ For more information about identity federation, see [Configure Identity Federati
     </td>
     <td valign="top">
     
-    `${corporateIdP.email_verified}`
+    `Email Verified`
     
     </td>
     </tr>
@@ -84,7 +84,7 @@ For more information about identity federation, see [Configure Identity Federati
     </td>
     <td valign="top">
     
-    `${corporateIdP.family_name}`
+    `Last Name`
     
     </td>
     </tr>
@@ -96,7 +96,7 @@ For more information about identity federation, see [Configure Identity Federati
     </td>
     <td valign="top">
     
-    `${corporateIdP.given_name}`
+    `First Name`
     
     </td>
     </tr>
@@ -108,7 +108,7 @@ For more information about identity federation, see [Configure Identity Federati
     </td>
     <td valign="top">
     
-    `${corporateIdP.groups}`
+    `Groups`
     
     </td>
     </tr>
@@ -120,25 +120,25 @@ For more information about identity federation, see [Configure Identity Federati
     </td>
     <td valign="top">
     
-    `${corporateIdP.user_uuid}`
+    `Global user ID`
     
     </td>
     </tr>
     </table>
     
-    If the corporate identity provider sends user attributes with other names, map the attribute for the corporate identity provider to the right attribute name.
+    If the corporate identity provider sends user attributes with other names, set the source to the corporate identity provider and the value to the correct attribute name.
 
     > ### Example:  
-    > If your corporate identity provider sends users' last names as attribute `sn`, map the `sn` attribute to the `family_name` attribute required by your application with the value `${corporateIdP.sn}`.
+    > If your corporate identity provider sends users' last names as the **sn** attribute, add the corporate identity provider as source to the *last\_name* attribute with the value `sn`.
 
       
       
-    **Default Attribute Configuration in Identity Authentication**
+    **Customized Last Name Attribute Configuration in Identity Authentication**
 
-    ![](images/Default_attributes_for_corporate_IdP_b33e732.png "Default Attribute Configuration in Identity
+    ![](images/last_name-sn_attributes_subaccount_b820b4d.png "Customized Last Name Attribute Configuration in Identity
                                     Authentication")
 
-    For more information, see [Configure the Default Attributes Sent to the Application](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/a2f1e4692e7d4379ab82144ab309e7b3.html?version=Cloud&q=corporateidp).
+    For more information, see [User Attributes](https://help.sap.com/docs/identity-authentication/identity-authentication/user-attributes?version=Cloud) in the documentation of Identity Authentication.
 
 
 The subject name identifier attribute is used by SAP BTP to uniquely identify the application user.
@@ -274,12 +274,12 @@ Any groups the subject is assigned to in the identity provider.
 </td>
 <td valign="top">
 
-An identifier for a user that is unique across technology layers such as user interface, APIs, and security tokens, as well as across products and lines of businesses contributing to a business process in the Intelligent Enterprise.
+An identifier for a user that’s unique across technology layers such as user interface, APIs, and security tokens, as well as across products and lines of businesses contributing to a business process in the Intelligent Enterprise.
 
 Business applications can use this identifier to correlate information about the user. While not necessary for platform users, the attribute doesn't hinder such users either.
 
 > ### Note:  
-> SAP Authorization and Trust Management service supports global user identifiers. When Identity Authentication sends a global user identifier, it is included in the SAP Authorization and Trust Management service tokens, which means that you can use it in scenarios where you need to make use of global user identifiers.
+> SAP Authorization and Trust Management service supports global user identifiers. When Identity Authentication sends a global user identifier, it's included in the SAP Authorization and Trust Management service tokens, which means that you can use it in scenarios where you need to use global user identifiers.
 > 
 > For more information, see [Global User ID in Integration Scenarios](https://help.sap.com/docs/cloud-identity/system-integration-guide/global-user-id-in-integration-scenarios?version=Cloud).
 
@@ -321,7 +321,7 @@ Subject name identifier
 </td>
 <td valign="top">
 
-This attribute is used to by SAP Authorization and Trust Management service to identify the user for authentication.
+This attribute is used to by the SAP Authorization and Trust Management service to identify the user for authentication.
 
 Default value: ***E-Mail***.
 

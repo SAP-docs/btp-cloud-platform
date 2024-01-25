@@ -45,7 +45,7 @@ From User Attribute
 </th>
 <th valign="top">
 
-To Assertion Attribute
+To User Attribute
 
 </th>
 </tr>
@@ -125,7 +125,7 @@ Configure your new OIDC-based Identity Authentication application to send the sa
     > </th>
     > <th valign="top">
     > 
-    > To Assertion Attribute
+    > To User Attribute
     > 
     > </th>
     > </tr>
@@ -167,11 +167,7 @@ Configure your new OIDC-based Identity Authentication application to send the sa
     > </tr>
     > </table>
 
-    See [Configure the User Attributes Sent to the Application](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/d361407d36c5443298a909acbbd96ec4.html) in the documentation of Identity Authentication.
-
--   Default attributes
-
-    See [Configure the Default Attributes Sent to the Application](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/a2f1e4692e7d4379ab82144ab309e7b3.html) in the documentation of Identity Authentication.
+    See [Configuring User Attributes from a Corporate Identity Provider](https://help.sap.com/docs/identity-authentication/identity-authentication/configure-default-attributes-for-subscribed-applications?version=Cloud) in the documentation of Identity Authentication.
 
 
 Compare the attributes you got before the migration to the attributes you get now.

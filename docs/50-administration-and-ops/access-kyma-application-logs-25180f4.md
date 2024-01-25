@@ -44,7 +44,7 @@ You have access to short-term logs of every container in your Kyma runtime.
 ## Next Steps
 
 > ### Recommendation:  
-> To enable long-term storage of logs with advanced querying, dashboarding, and alerting capabilities, use SAP Cloud Logging with the Kyma Telemetry module for integration.
+> If you want long-term storage of logs with advanced querying, dashboarding, and alerting capabilities, set up SAP Cloud Logging to ingest observability data with Kyma runtime.
 
 **Related Information**  
 
@@ -53,5 +53,5 @@ You have access to short-term logs of every container in your Kyma runtime.
 
 [Create an SAP Cloud Logging Instance through SAP BTP Service Operator](https://help.sap.com/docs/cloud-logging/cloud-logging/create-sap-cloud-logging-instance-through-sap-btp-service-operator?locale=en-US&version=Cloud)
 
-[Ingest via Kyma Runtime](https://help.sap.com/docs/cloud-logging/cloud-logging/ingest-via-kyma-runtime?version=Cloud)
+[SAP Cloud Logging: Ingest via Kyma Runtime](https://help.sap.com/docs/cloud-logging/cloud-logging/ingest-via-kyma-runtime?version=Cloud)
 

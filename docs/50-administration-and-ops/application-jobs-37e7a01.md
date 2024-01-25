@@ -4,11 +4,14 @@
 
 
 
-You can use this app to schedule and monitor application-related jobs. If you have manual activities that you often need to do at a specific time, the *Application Jobs* app can reduce your workload by running these tasks smoothly in the background. You can plan regular jobs which keeps you free to concentrate on other tasks.
+You can use this app to monitor all application jobs from all specialized application jobs apps \(example: Schedule Overhead Accounting Jobs,...\) that business users have scheduled. You can also cancel application jobs.
 
 
 
 ## Key Features
+
+> ### Note:  
+> You can use the scheduling, copying and restarting features in the *Application Jobs* app only if you have been granted the necessary authorization via a business role. For more information on how to get the necessary authorizations for this app, see  <?sap-ot O2O class="- topic/xref " href="171039b7300345cb81392ba058db5dd4.xml" text="" desc="" xtrc="xref:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/37e7a011a524405882af49cce79f0fb4.xml" output-class="" current-file="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 
 You can use this app to:
 
@@ -19,7 +22,7 @@ You can use this app to:
 -   Work with personalized job templates: Create and personalize a job template, save personalized job template for later use, and share personalized template
 
     > ### Note:  
-    > The parameters under *Scheduling Information* cannot be saved as a part of a template.
+    > The parameters under *Scheduling Information* can't be saved as a part of a template.
 
 -   Schedule jobs with a custom factory calendar: In the *Application Jobs* app, define the scheduling information, change an existing calendar, create a new one, and define execution days
 
@@ -27,7 +30,7 @@ You can use this app to:
 
 -   Monitor jobs
 
--   Display logs and results: You can navigate to job logs and job results by clicking on the icon in the *Log* or the*Results* column
+-   Display logs and results: You can navigate to application job logs and application job results by clicking on the icon in the *Log* or the *Results* column. The icon can be either an error icon, a success icon, or an info icon. Selecting the icon, you'll navigate to the specific logs or the specific results of the selected job.
 
 -   Copy a job
 

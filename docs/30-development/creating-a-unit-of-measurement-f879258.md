@@ -335,6 +335,7 @@ ERROR
 
 > ### Sample Code:  
 > ```abap
+> 
 > CLASS zcl_uom_unit_create_test DEFINITION 
 >   PUBLIC 
 >   FINAL 
@@ -347,33 +348,28 @@ ERROR
 > ENDCLASS. 
 >  
 > CLASS zcl_uom_unit_create_test IMPLEMENTATION. 
+>  
 >   METHOD if_oo_adt_classrun~main. 
->     DATA: lo_uom  TYPE REF TO cl_uom_maintenance, 
->           ls_unit TYPE cl_uom_maintenance=>ty_uom_cre_ts. 
 >  
->     cl_uom_maintenance=>get_instance( 
->     RECEIVING 
->       ro_uom = lo_uom ). 
+>     DATA(lo_uom) = cl_uom_maintenance=>get_instance( ).
+>     DATA(ls_unit) = VALUE cl_uom_maintenance=>ty_uom_cre_ts( commercial  = 'ZYX' 
+>                                                              technical   = 'ZYX' 
+>                                                              denominator = '1' 
+>                                                              numerator   = '1' 
+>                                                              dec_disp    = '3' 
+>                                                              long_text   = 'Create Unit' ).
 >  
->     ls_unit-commercial = 'ZYX'. 
->     ls_unit-technical  = 'ZYX'. 
->     ls_unit-denominator = '1'. 
->     ls_unit-numerator = '1'. 
->     ls_unit-dec_disp = '3'. 
->     ls_unit-long_text = 'Create Unit'. 
->     TRY. 
->         lo_uom->create( EXPORTING unit_dimid  = 'AAAADL' 
->                                   unit_int    = 'ZYX' 
->                                   unit_cre_ts = ls_unit 
->                         IMPORTING error       = DATA(error) 
->                          ). 
->       CATCH cx_uom_error INTO DATA(lo_error). 
->         out->write( | Exception raised | ). 
->         out->write( lo_error->get_text( ) ). 
->     ENDTRY. 
->  
->   ENDMETHOD. 
+>     TRY.
+>         lo_uom->create( EXPORTING unit_dimid  = 'AAAADL'
+>                                   unit_int    = 'ZYX'
+>                                   unit_cre_ts = ls_unit
+>                         IMPORTING error       = DATA(lv_error) ).
+>                         
+>       CATCH cx_uom_error INTO DATA(lo_error).
+>         out->write( | Exception raised | ).
+>         out->write( lo_error->get_text( ) ).
+>     ENDTRY.
+>   ENDMETHOD.
 > ENDCLASS.
-> 
 > ```
 

@@ -128,7 +128,7 @@ For more information, see [SAP Malware Scanning Service](https://help.sap.com/do
 **Related Information**  
 
 
-[SAP Authorization and Trust Management Service in the Cloud Foundry Environment](sap-authorization-and-trust-management-service-in-the-cloud-foundry-environment-6373bb7.md "The global account and subaccounts get their users from identity providers. Administrators make sure that users can only access their dedicated subaccount by making sure that there is a dedicated trust relationship only between the identity providers and the respective subaccounts. Developers configure and deploy application-based security artifacts containing authorizations, and administrators assign these authorizations using the SAP BTP cockpit.")
+[SAP Authorization and Trust Management Service](sap-authorization-and-trust-management-service-6373bb7.md "The global account and subaccounts get their users from identity providers. Administrators make sure that users can only access their dedicated subaccount by making sure that there is a dedicated trust relationship only between the identity providers and the respective subaccounts. Developers configure and deploy application-based security artifacts containing authorizations, and administrators assign these authorizations using the SAP BTP cockpit.")
 
 [Audit Logging in the Cloud Foundry Environment](../50-administration-and-ops/audit-logging-in-the-cloud-foundry-environment-f92c86a.md "In this section, you can find information for audit log functionalities in the Cloud Foundry environment.")
 

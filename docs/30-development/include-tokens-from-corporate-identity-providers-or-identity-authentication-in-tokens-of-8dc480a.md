@@ -91,11 +91,11 @@ The following figure illustrates this scenario.
     
     For more information about the application security descriptor, see [Application Security Descriptor Configuration Syntax](application-security-descriptor-configuration-syntax-517895a.md).
 
-2.  In the Identity Authentication application that represents your SAP BTP application, add the default attribute `xsuaa-persist-corporate-idp-token` with the value `true`.
+2.  In the Identity Authentication application that represents your SAP BTP application, add the self-defined attribute `xsuaa-persist-corporate-idp-token` with the `Expression` source and `true` value.
 
     This attribute ensures that the service knows to embed the tokens.
 
-    For more information, see [Configure the Default Attributes Sent to the Application](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/a2f1e4692e7d4379ab82144ab309e7b3.html) in the Identity Authentication documentation.
+    For more information, see [Configuring Attributes Based on Flexible Expressions](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/a2f1e4692e7d4379ab82144ab309e7b3.html) in the Identity Authentication documentation.
 
 
 

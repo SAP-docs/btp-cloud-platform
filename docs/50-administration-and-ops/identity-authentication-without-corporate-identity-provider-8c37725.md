@@ -2,7 +2,7 @@
 
 # Identity Authentication Without Corporate Identity Provider
 
-You've only changed the protocol of the trust configuration between your SAP BTP subaccount and Identity Authentication.
+You've only changed the protocol of the trust configuration between your SAP Business Technology Platform subaccount and Identity Authentication.
 
 Copy the following configurations from the old SAML-based Identity Authentication application to your new OIDC-based Identity Authentication application:
 
@@ -10,9 +10,9 @@ Copy the following configurations from the old SAML-based Identity Authenticatio
 
     See [Configure the Subject Name Identifier Sent to the Application](http://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/1d020e3a3ba34c43a71fde70bfa6419a.html) in the documentation of Identity Authentication.
 
--   Assertion attributes
+-   Attributes
 
-    Change the names of the following assertion attributes as listed in the following table.
+    Change the names of the following attributes as listed in the following table.
 
 
     <table>
@@ -24,7 +24,7 @@ Copy the following configurations from the old SAML-based Identity Authenticatio
     </th>
     <th valign="top">
 
-    To Assertion Attribute
+    To User Attribute
     
     </th>
     </tr>
@@ -66,11 +66,7 @@ Copy the following configurations from the old SAML-based Identity Authenticatio
     </tr>
     </table>
     
-    See [Configure the User Attributes Sent to the Application](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/d361407d36c5443298a909acbbd96ec4.html) in the documentation of Identity Authentication.
-
--   Default attributes
-
-    See [Configure the Default Attributes Sent to the Application](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/a2f1e4692e7d4379ab82144ab309e7b3.html) in the documentation of Identity Authentication.
+    See [Configuring User Attributes from the Identity Directory](https://help.sap.com/docs/identity-authentication/identity-authentication/configure-user-attributes-sent-to-application?version=Cloud).
 
 
 **Related Information**  

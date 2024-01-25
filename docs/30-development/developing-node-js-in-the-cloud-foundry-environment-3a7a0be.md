@@ -67,10 +67,9 @@ The `nodejs_buildpack` running on SAP BTP, Cloud Foundry environment supports th
 
 ### Node.js 14 and 16 – end of life
 
--   Node.js 14 reached end of life on **April 30, 2023** and was removed from the Cloud Foundry community in [version 1.8.10](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.10).
+Node.js 14 reached end of life on **April 30, 2023** and was removed from the Cloud Foundry community in [version 1.8.10](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.10).
 
--   Also, Node.js 16 reached end of life on **September 11, 2023** and was removed from the Cloud Foundry community in [version 1.8.15](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.15).
-
+Node.js 16 reached end of life on **September 11, 2023** and was removed from the Cloud Foundry community in [version 1.8.15](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.15).
 
 This means that deployment and redeployment of applications with Node.js 14 and 16 will **fail**. For more information, see:
 

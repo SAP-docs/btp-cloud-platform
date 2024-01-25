@@ -10,7 +10,7 @@ You can check the following:
 
     In the log, you might find error messages saying that metric providers have been banned and the reasons for the bans.
 
-    Background: If the metric provider framework detects any kind of runtime violation such as, for example, too many consecutive dumps, an exceeded runtime limit, or too much memory consumption during the metric value collection, the relevant metric provider is banned for 24 hours. The ban protects the metric measurement of other metric providers. Fix the issues mentioned in the log. After 24 hours, if the issue has been fixed in the meantime, the ban is lifted.
+    Background: If the metric provider framework detects any kind of runtime violation such as, for example, too many consecutive dumps, an exceeded runtime limit, or too much memory consumption during the metric value collection, the relevant metric provider is banned for 24 hours. The ban protects the metric measurement of other metric providers. Fix the issues mentioned in the log. After 24 hours, the metric provider framework attempts to execute the provider once more in a tentative mode. If the execution passes without any issues, the ban is lifted, otherwise it's extended by 24 hours.
 
 -   If the metric provider is executed, but a metric is missing, you might need to retransport the metric provider to trigger an implicit metric model synchronization.
 

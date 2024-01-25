@@ -11,7 +11,14 @@
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
-Systems that are included in *Eventing Between SAP Cloud Systems* formations on the *System Landscape* page of the SAP BTP cockpit can publish and consume events. The process of publishing and consumption of events is in fact an exchange of event information across the customer system landscape and is driven by the system formations on the one hand side and the SAP Event Broker on the other.
+Systems that are included in *Eventing Between SAP Cloud Systems* formations on the *System Landscape* page of the SAP BTP cockpit can publish and consume events. The process of publishing and consuming events is in fact an exchange of event information across the customer system landscape and is driven by the system formations on the one hand side and the SAP Event Broker on the other.
+
+When creating *Eventing Between SAP Cloud Systems* formations, keep in mind the following rules:
+
+-   Every system, except SAP S/4HANA Cloud systems, can be included in at most one *Eventing Between SAP Cloud Systems* formation.
+
+-   If you register your SAP S/4HANA Cloud system using the *All Communication Scenarios* or *Eventing Between SAP Cloud Systems* communication scenario group when you get the registration token for this SAP S/4HANA Cloud system, the communication scenario `SAP_COM_0892` will be enabled automatically after this SAP S/4HANA Cloud system is added to the formation of type *Eventing Between SAP Cloud Systems* in the *Formations* page. See [Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](register-an-sap-s-4hana-cloud-system-in-a-global-account-in-sap-btp-28171b6.md).
+
 
 The following procedure outlines the steps you need to perform to enable the exchange of events across the systems within the system landscape.
 
@@ -32,7 +39,7 @@ The following procedure outlines the steps you need to perform to enable the exc
 
 ## Procedure
 
-1.  Browse the already added systems in your customer system landscape or manually add and register any missing systems.
+1.  In the *System Landscape* page of the SAP BTP cockpit, in the *Systems* list, browse the already added systems in your customer system landscape or manually add and register any missing systems.
 
     The customer landscape features systems that are added to the list in one of the following ways:
 

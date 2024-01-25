@@ -77,12 +77,16 @@ To set up the connection from the ABAP system in the ABAP environment to your on
     10. Confirm with *Save*.
 
 
-5.  Under *Outbound Services* \> *Retrieve Custom Code*, ensure that the *Service Status* is set to *Active*.
+5.  Under *Additional Properties*, fill out the fields *Object Provider* and *System Group*. An object provider defines the RFC connection to be used for analysis in a remote SAP system and must be assigned to a system group. This is the name you then select as your *Object Provider to Remote System* for your custom code migration project in the `Custom Code Migration` app.
 
-6.  Choose *Save* to save the communication arrangement. A message should now pop up at the bottom of the screen telling you that the activation was successful.
+    A system group subsumes multiple SAP systems \(typically, the productive system, the test system\(s\), and the development system\(s\)\), which all represent a part of a system landscape of one and the same SAP release.
+
+6.  Under *Outbound Services* \> *Retrieve Custom Code*, ensure that the *Service Status* is set to *Active*.
+
+7.  Choose *Save* to save the communication arrangement. A message should now pop up at the bottom of the screen informing you that the activation was successful.
 
 
-You can now select the communication arrangement in the *Connection to Remote System* field in the `Custom Code Migration` app to establish the connection to your on-premise system.
+You can now select the communication arrangement in the *Object Provider to Remote System* field in the `Custom Code Migration` app to establish the connection to your on-premise system.
 
 
 

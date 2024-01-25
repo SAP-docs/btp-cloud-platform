@@ -29,7 +29,7 @@ You have enabled the *Maintain Print Queues* app and created a print queue.
 1.  Download the *SAP Cloud Print Manager for Pull Integration* installation package from the *Install Additional Software* app and select *Run as Administrator*.
 
     > ### Note:  
-    > Keep in mind that you need to have administrator rights in order to proceed with the installation.
+    > Keep in mind that you need to have administrator rights in order to proceed with the installation. The installation should be performed on a Windows server.
 
 2.  Start the downloaded installer executable file. The *SAP Front-End Installer* opens. Select *SAP Cloud Print Manager for Pull Integration* and click *Next*. Wait until the installation has finished and confirm the final dialog. The print manager is now installed.
 
@@ -55,7 +55,7 @@ You have enabled the *Maintain Print Queues* app and created a print queue.
 
 [Creating Print Queues](creating-print-queues-ed3e22d.md "You want to set up print queues to manage the printing of documents.")
 
- <?sap-ot O2O class="- topic/link " href="c5018d7883d04429bb43baad408ee333.xml" text="" desc="" xtrc="link:3" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/c53c2020e51448ca8152e8a8c9c9bfff.xml" ?> 
+ <?sap-ot O2O class="- topic/link " href="c5018d7883d04429bb43baad408ee333.xml" text="" desc="" xtrc="link:3" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/c53c2020e51448ca8152e8a8c9c9bfff.xml" output-class="" current-file="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
- <?sap-ot O2O class="- topic/link " href="d07a4297e776446e898f2b27532f63c6.xml" text="" desc="" xtrc="link:4" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/c53c2020e51448ca8152e8a8c9c9bfff.xml" ?> 
+ <?sap-ot O2O class="- topic/link " href="d07a4297e776446e898f2b27532f63c6.xml" text="" desc="" xtrc="link:4" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/c53c2020e51448ca8152e8a8c9c9bfff.xml" output-class="" current-file="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 

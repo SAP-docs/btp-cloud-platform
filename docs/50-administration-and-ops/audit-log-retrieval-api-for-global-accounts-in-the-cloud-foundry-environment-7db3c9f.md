@@ -11,6 +11,9 @@ Your central region is the eu10 Europe \(Frankfurt\) region, unless your global 
 
 Audit Log Retrieval API is protected by OAuth, and to consume it, you need your system to generate and use a valid OAuth.
 
+> ### Note:  
+> After the audit logs are generated and sent to the Audit Log service, the logs are not immediately accessible for retrieval.
+
 Retrieving of audit logs via Audit Log Retrieval API is limited to the size of the audit logs written on behalf of the global account. The possible request rate is now limited to:
 
 -   4 requests per second per auth-token/tenant on CF-EU11, CF-EU30, CF-US20, CF-US21, CF-JP10, CF-JP20, CF-BR10. There is also a burst queue that can temporarily allow up to 20 requests per second.
@@ -216,7 +219,12 @@ You do this procedure through Cloud Foundry Environment, which is part of a suba
 
 ## Audit Log Retrieval
 
-Audit Log Retrieval API supports server-side paging. If a given query produces a result with significant size, the result is chunked. Then the response will contain an HTTP header with a handle, with which to retrieve the next chunks of the result. You can pass the handle via URL parameter in the subsequent retrieval request.
+The Audit Log Retrieval API incorporates server-side paging to address the efficient handling of queries producing substantial result sets.
+
+> ### Note:  
+> The logs are not immediately accessible for retrieval
+
+In instances where the query produces a result with significant size, the API systematically partitions the output into manageable chunks. The response includes an HTTP header featuring a handle, designed to facilitate the retrieval of subsequent result segments. To obtain additional portions of the result, pass the handle as a URL parameter in the subsequent retrieval request. The size of each chunk is predetermined, with a page size fixed at 500.
 
 Supported request parameters:
 

@@ -10,7 +10,7 @@
 
 -   You have created a communication scenario as described in [Defining a Communication Scenario Including Authorization Values](defining-a-communication-scenario-including-authorization-values-bba0fd2.md).
 -   You have a service meta data file \(WSDL file\) for the service you want to consume.
--   You have created and activated a service consumption model \(SRVC\) of type `Web Service`. See [Creating Service Consumption Model](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/96132822b3554016b653d3601bb9ff1a.html) for more information.
+-   You have created and activated a service consumption model \(SRVC\) of type `Web Service`. See [Generating Proxies for Remote Web Service](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/generating-proxies-for-remote-web-service?version=sap_btp) for more information.
 
 
 
@@ -82,6 +82,9 @@
     </tr>
     </table>
     
+    > ### Note:  
+    > You can't use the `create_by_comm_arrangement` method for SAP-delivered scenarios.
+
 3.  Call the SOAP service as described in the example. Copy the code snippet from the *Overview* tab in your SRVC and add the `comm_system_id` and `service_id` parameters if necessary. Note the difference between synchronous and asynchronous services.
 
 
@@ -98,7 +101,7 @@
 > ```abap
 > TRY.
 >     DATA(soap_destination) = cl_soap_destination_provider=>create_by_comm_arrangement(
->                                comm_scenario  = '<test scenario>'
+>                                comm_scenario  = '<demo scenario>'
 >                                service_id     = '<service id>'
 >                                comm_system_id    = '<comm system>' ).
 >  
@@ -122,6 +125,9 @@
 > ENDTRY.
 > ```
 
+> ### Note:  
+> We recommend to retrieve the correct destination reference based on the communication scenario and a customer-defined property as described in [Service Consumption via Communication Arrangements](service-consumption-via-communication-arrangements-86aece6.md).
+
 
 
 ### Asynchronous Services
@@ -136,8 +142,8 @@ For asynchronous services, follow the same procedure as for synchronous services
 >  TRY.
 >         DATA(destination) = cl_soap_destination_provider=>create_by_comm_arrangement(
 >                               comm_scenario  = '<demo scenario>'
-> *                             service_id     = '<Outbound Service>'
-> *                             comm_system_id = '<Communication System Identifier>'
+> *                             service_id     = '<service id>'
+> *                             comm_system_id = '<comm system>'
 >                             ).
 >         DATA(proxy) = NEW zco_appointment_activity_reque(
 >                         destination = destination
@@ -165,12 +171,14 @@ To test your outbound call, you have to provide a configuration for the outbound
 
 Create a communication system and communication arrangement for the communication scenario in the Communication Systems and Communication Arrangements apps and maintain the required data.
 
-To check if an asynchronous call was successfully sent to the provider system, see [How to Monitor Asynchronous SOAP Calls](how-to-monitor-asynchronous-soap-calls-3cd5085.md).
+To check if an asynchronous call was successfully sent to the provider system, see [SOAP Monitoring](soap-monitoring-3cd5085.md).
+
+These tasks are performed by the administrator. For more information, see [Set Up SOAP Communication](set-up-soap-communication-8b6723b.md) and [SOAP Monitoring](soap-monitoring-3cd5085.md).
 
 **Related Information**  
 
 
-[Enable SOAP Communication in Your ABAP Code](enable-soap-communication-in-your-abap-code-6ab460e.md "SOAP-based web service outbound communication within the ABAP environment is enabled by using SOAP destination objects.")
+[Enable SOAP Communication in Your ABAP Code](enable-soap-communication-in-your-abap-code-6ab460e.md "")
 
 [Communication Management](communication-management-5b8ff39.md#loio5b8ff39ddb6741a29ddfcf587939e8f4 "Learn more about the basic principles of communication management when integrating your system or solution with other systems to enable data exchange in your ABAP environment.")
 

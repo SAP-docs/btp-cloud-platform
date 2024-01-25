@@ -498,5 +498,5 @@ An `HTTP 429 Too Many Requests` response status code is sent.
 
 [Application Security Descriptor Configuration Syntax](../30-development/application-security-descriptor-configuration-syntax-517895a.md "The syntax required to set the properties and values defined in the xs-security.json application security descriptor file.")
 
-[Access Administration Using APIs of the SAP Authorization and Trust Management Service](../50-administration-and-ops/access-administration-using-apis-of-the-sap-authorization-and-trust-management-service-dcb3bfd.md "The REST services of the SAP Authorization and Trust Management service (XSUAA) provide APIs that enable you to manage entities, such as roles, shadow users, and access tokens in SAP BTP, subaccounts.")
+[Accessing Administration Using APIs of the SAP Authorization and Trust Management Service](../50-administration-and-ops/accessing-administration-using-apis-of-the-sap-authorization-and-trust-management-servi-dcb3bfd.md "The REST services of the SAP Authorization and Trust Management service (XSUAA) provide APIs that enable you to manage entities, such as roles, shadow users, and access tokens in global accounts, directories, and multi-environment subaccounts.")
 

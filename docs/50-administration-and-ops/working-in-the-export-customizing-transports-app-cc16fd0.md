@@ -5,7 +5,6 @@
 Find out how to create, release, or merge customizing requests using the *Export Customizing Transports* app.
 
 -   If a software component of the type `Business Configuration` is available in the system, the created request will target this software component. If no such software component is available, the request will be created without any target.
--   The target of a request can currently only be changed in the ADT editor.
 
 
 
@@ -54,7 +53,9 @@ If the automatic recording for the client is not allowed, you can save changed c
 
 2.  You may put a filter on *Status* for modifiable and checking status. Additionally you can sort the transports in ascending order to see the current status of those transports sequentially.
 
-3.  Click *Check All* to trigger consistency check for all open transports.
+3.  Select *Check All \> Start* to trigger consistency check for all open transports.
+
+4.  To check remaining open transports for which the consistency checks are yet to be performed, select *Check All \> Show Progress*.
 
     > ### Note:  
     > Consistency check gets triggered in thebackground and the UI shows the latest transport request status as soon as *Check All* is triggered. The UI gets refreshed everytime after certain interval showing the latest status. The transport with status *Checking* shows the request currently being processed.
@@ -118,16 +119,14 @@ It can happen that for technical reasons, it's necessary for you to create a cop
 
 <a name="loiocc16fd0c10ef4ed39a50ac718c71e5a8__section_j4k_bcb_55b"/>
 
-## Change Request Target
+## Repository Id
 
-You can change the target of a request.
+You can export the business configuration recorded in a request to a specific software component by assigning the *Repository Id* when creating a request.
 
-1.  Open the request where the target needs to be changed.
+1.  Select *Create* to create a new request.
 
-2.  Select *Edit*. The option *Target* is now enabled for editing.
+2.  Using the value help, check the allowed repository ids which can be assignet to the request.
 
-3.  To open the list of available targets, open the value help.
-
-4.  Select the suitable target with the relevant software component and save your changes.
+3.  Select the suitable repository id and save the changes.
 
 

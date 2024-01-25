@@ -13,7 +13,7 @@ You can choose to enable any modules as required. To learn how, see [Enable and 
 > 
 > -   On the day of the release in the fast channel, a release note is published with the *Preview* label.
 > 
-> -   When the module version becomes available in the regular channel \(after approximately two weeks\), the *Preview* label is removedl.
+> -   When the module version becomes available in the regular channel \(after approximately two weeks\), the *Preview* label is removed.
 
 
 

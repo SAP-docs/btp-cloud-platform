@@ -138,6 +138,26 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     
     </td>
     </tr>
+    <tr>
+    <td valign="top">
+    
+    **Copy Restrictions**
+    
+    </td>
+    <td valign="top">
+    
+    1.  Click *Add Restrictions* or *Remove Restrictions*.
+
+    2.  Copy the required restrictions using the*Copy Restriction Values From*and the *Copy Restriction Values To* value help.
+    3.  Select additional access categories if needed.
+
+    > ### Note:  
+    > You can use this option in case a restriction type is deprecated to copy restrictions from the deprecated restriction type to the successor restriction type\(s\). You can either add the copied restriction values in the fields to existing ones or remove all and replace them with the copied restrictions.
+
+
+    
+    </td>
+    </tr>
     </table>
     
 2.  Apply the required attributes to your business roles.
@@ -152,5 +172,5 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
 
 [Assigning Spaces to Several Business Roles at Once](https://help.sap.com/docs/SAP_S4HANA_CLOUD/4fc8d03390c342da8a60f8ee387bca1a/af2b6ad24bd94047bc5e0d84ecc7ebe3.html?version=latest)
 
- <?sap-ot O2O class="- topic/link " href="376bdf15d848467da5b2383454d53a24.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/5927b5ebd0944e399d90fdbb073cf939.xml" ?> 
+[How to Maintain Restrictions Using the Mass Change Wizard](how-to-maintain-restrictions-using-the-mass-change-wizard-376bdf1.md "")
 

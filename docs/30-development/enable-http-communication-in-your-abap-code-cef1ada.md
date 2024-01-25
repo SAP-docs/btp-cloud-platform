@@ -2,23 +2,32 @@
 
 # Enable HTTP Communication in Your ABAP Code
 
-Learn how to set up and enable HTTP outbound communication.
+The HTTP client allows to connect to HTTP endpoints.
 
 
 
-<a name="loiocef1ada754154d11b5701ab60e6ab412__section_j5p_3zl_hwb"/>
+<a name="loiocef1ada754154d11b5701ab60e6ab412__section_u14_kjc_gzb"/>
 
-## Context
+## Feature Scope
 
-To enable HTTP outbound communication in the ABAP environment, you have the following options:
+-   Communication arrangement
+    -   Provides APIs for receiver determination based on arbitrary properties \(see [Define Specific Properties for Communication Scenarios](define-specific-properties-for-communication-scenarios-fae8f0f.md).
+    -   Local configuration via communication management UIs or central configuration in SAP BTP cockpit via SAP BTP destination service reference in the communication system \(not relevant for Developer Extensibility, see [Developer Extensibility](https://help.sap.com/docs/PRODUCT_ID/6aa39f1ac05441e5a23f484f31e477e7/e1059ff581854a699f15734049f14293.html?state=PRODUCTION&version=latest&locale=en-US)\). See [Create HTTP Destinations](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/create-http-destinations?version=Cloud) and [Communication Systems](../50-administration-and-ops/communication-systems-15663c1.md).
+    -   Requires development of communication scenario artifacts.
 
--   Communication arrangement approach: By specifying a destination based on a communication arrangement. See [Communication Arrangement](communication-management-5b8ff39.md#loio201de48e2f57404e9222181b019eff14).
--   Destination service approach \(deprecated\): By using a destination that is maintained in a destination service that resides in the SAP BTP, Cloud Foundry environment \(not relevant for Developer Extensibility, see [Developer Extensibility](https://help.sap.com/docs/SAP_S4HANA_CLOUD/6aa39f1ac05441e5a23f484f31e477e7/e1059ff581854a699f15734049f14293.html?version=LATEST)\).
--   URL approach: By using a plain URL directly in the coding.
+-   Destination service \(not relevant for Developer Extensibility, see [Developer Extensibility](https://help.sap.com/docs/PRODUCT_ID/6aa39f1ac05441e5a23f484f31e477e7/e1059ff581854a699f15734049f14293.html?state=PRODUCTION&version=latest&locale=en-US)\).
+    -   Provides APIs to fetch connection information for a given destination name from the SAP BTP destination service.
+    -   No additional development artifacts required.
+    -   Central configuration in SAP BTP cockpit.
+    -   Comparable to `create_by_destination` in on-premise ABAP.
 
+-   Static configuration in code \(only recommended for public services and test purposes\).
 
+We recommend using the communication arrangement approach for the following reasons:
 
-<a name="loiocef1ada754154d11b5701ab60e6ab412__section_ehg_pfm_hwb"/>
+-   There are no hardcoded values/assumptions for a destination name in the destination service or destination service integration \(for example, only default integration\).
+-   The communication system can also refer to a destination service. The destination name and destination service instance are then configured instead of hardcoded.
 
-## Related Information
+> ### Note:  
+> When using on-premise connectivity, make sure the called ICF service is exposed in Cloud Connector.
 

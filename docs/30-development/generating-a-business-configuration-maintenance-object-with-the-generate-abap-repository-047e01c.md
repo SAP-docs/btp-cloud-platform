@@ -279,3 +279,9 @@ If you execute the wizard in the context of the table /DMO/STATUSCLASS, the text
 
 Due to the foreign key definition, you can also add the Status Code and Status Code Text table manually.
 
+![](images/CUBCO_Start_c254f49.png)
+
+The resulting table maintenance application then looks like this:
+
+![](images/CUBCO_Result_05ce5b0.png)
+

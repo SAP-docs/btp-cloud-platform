@@ -24,7 +24,7 @@ You've the following options to consume a destination service:
 
 ## Prerequisites
 
-If you want to call other systems via SRVC, you must have created an SRVC of type RFC as described in [Generating Proxies for Remote Function Call \(RFC\)](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/32812d950d3848359ce391dae477f201.html).
+If you want to call other systems via SRVC, you must have created an SRVC of type RFC as described in [Generating Proxies for Remote Function Call \(RFC\)](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/generating-proxies-for-remote-function-call-rfc?version=sap_btp).
 
 
 

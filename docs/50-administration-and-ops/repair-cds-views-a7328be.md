@@ -10,13 +10,13 @@ With this app you can view and repair the CDS views that are in inconsistent sta
 
 ## Key Features
 
-You can use this app to :
+You can use this app to:
 
 
 
--   **View** the details of the inconsistent CDS views such as the Application Component, Error Category, Person responsible and Package details.
+-   **View** the details of the inconsistent CDS views such as the application component, the error category, the person who is responsible, and the package details
 
--   **Search** for a specific view based on the view name or filter the views based on the error category.
+-   **Search** for a specific view based on the view name or filter the views based on the error category
 
 -   **Repair** the inconsistent views
 
@@ -39,9 +39,4 @@ In addition, the app allows you to export the CDS views to spreadsheets.
 ## Component for Customer Incidents
 
 If you need support or experience issues, please report an incident under component `BC-DWB-DIC`.
-
-**Related Information**  
-
-
-[SAP Fiori Apps in the ABAP Environment](sap-fiori-apps-in-the-abap-environment-dbfaac8.md "In the SAP Fiori launchpad for the ABAP environment, you can use apps to help you with your tasks as administrator and developer.")
 

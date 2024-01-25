@@ -8,7 +8,7 @@
 
 ## Context
 
-[Authorization control in RAP](https://help.sap.com/docs/BTP/923180ddb98240829d935862025004d6/375a8124b22948688ac1c55297868d06.html) protects your business configuration object against unauthorized access to customizing data.
+[Authorization control in RAP](https://help.sap.com/docs/abap-cloud/abap-rap/authorization-control?version=sap_btp) protects your business configuration object against unauthorized access to customizing data.
 
 It's recommend to use the authorization `S_TABU_NAM` together with the CDS root entity name of the business object as table name to perform the read and modify operation. However, you can also check against the physical table names or use a different authorization object instead.
 

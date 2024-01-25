@@ -1,6 +1,6 @@
 <!-- loio0c035010a9d64cc8a02d872829c7fa75 -->
 
-# Configure SAP BTP Connectivity in the Kyma environment
+# Configure SAP BTP Connectivity in the Kyma Environment
 
 Extend your Kyma environment with SAP BTP Connectivity.
 
@@ -28,6 +28,9 @@ To learn more, see [Extending SAP Customer Experience Products in the Kyma Envir
 ## Procedure
 
 1.  In Kyma dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *Service Instances*.
+
+    > ### Note:  
+    > If you cannot see the *Service Management* element in the Kyma dashboard menu, make sure you have enabled the SAP BTP Operator module.
 
 2.  Click *Create Service Instance +* and provide the following details:
 

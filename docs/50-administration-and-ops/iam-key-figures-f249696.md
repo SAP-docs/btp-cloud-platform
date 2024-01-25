@@ -4,8 +4,6 @@
 
 
 
-With this app you can get a quick overview of critical issues of your business users and business roles. You can, for example, check if business users are locked or have too many business roles assigned. The relevant information is displayed in detailed charts so you can view the required figures at a glance.
-
 
 
 You can use this app to display the following information:
@@ -26,6 +24,9 @@ You can use this app to display the following information:
 
 -   Business user price categories
 -   Business roles with default values from business catalogs
+
+    The default values are delivered automatically and can't be overwritten. This means either that an asterisk \(\*\) overwrites all defined values or that fixed values are added to the restrictions you have defined. Business roles affected by these non-changeable values are displayed in red in the overview chart.
+
 
 
 

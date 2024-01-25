@@ -22,7 +22,7 @@ The *Health Monitoring* app offers the following features:
 
 -   Multiple characteristics are visible in one chart if applicable.
 
--   From some cards, you can navigate to related apps for further analysis or issue fixing.
+-   From some cards, you can navigate to related apps for further analysis or issue fixing. For more information, see the in-app help for the individual cards.
 
 
 > ### Note:  
@@ -70,9 +70,11 @@ Description
 </td>
 <td valign="top">
 
-Used quota for ABAP system resources during the last 5 minutes
+Used quota for ABAP system resources and resources that were allocated during the last 5 minutes
 
 A quota represents the available system size and therefore the maximum allowed consumption of a resource. Each resource \(memory or CPU\) is measured against the quota independently. For ABAP system resources, the quota is measured in ABAP compute units \(ACUs\).
+
+The allocation of ABAP system resources \(memory and CPU\) is also measured in ABAP compute units \(ACUs\). In a static service plan, the allocation corresponds to the quota limit of the service plan. In an elastic service plan, the allocation of resources is handled in an adaptive way.
 
 The number of ACUs on this card refers to the resource \(memory or CPU\) with the highest quota usage.
 
@@ -252,6 +254,40 @@ The number of current unique users and sessions in the ABAP system
 <tr>
 <td valign="top">
 
+*E-Mail Transmissions \(Last Day\)*
+
+</td>
+<td valign="top">
+
+`abap_system_email_error_count_1d`
+
+</td>
+<td valign="top">
+
+The total number of e-mails and the number of e-mails with errors during the last day
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*E-Mail Transmissions \(Last 5 Minutes\)*
+
+</td>
+<td valign="top">
+
+`abap_system_email_error_count_5m`
+
+</td>
+<td valign="top">
+
+The total number of e-mails and the number of e-mails with errors during the last 5 minutes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 *Expiry of Client Certificates*
 
 </td>
@@ -398,6 +434,40 @@ The number of locked communication users
 <td valign="top">
 
 Maximum application job delay in seconds during the last 5 minutes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Table Change Deltas \(Last Day\)*
+
+</td>
+<td valign="top">
+
+`abap_system_bc_dbtablog_delta_count_1d`
+
+</td>
+<td valign="top">
+
+Table changes during the last day per database table for database tables with more than 10,000 changes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Table Changes \(Last Month\)*
+
+</td>
+<td valign="top">
+
+`abap_system_bc_dbtablog_count_1m`
+
+</td>
+<td valign="top">
+
+Total table changes per database table for database tables with more than 50,000 changes
 
 </td>
 </tr>

@@ -244,6 +244,30 @@ ABAP System
 </td>
 <td valign="top">
 
+ABAP Compute Units
+
+</td>
+<td valign="top">
+
+abap\_acu\_used\_count\_5m \(type: allocation\)
+
+</td>
+<td valign="top">
+
+Resources \(CPU and memory\) that were allocated to your ABAP system during the last five minutes
+
+For ABAP system resources, the allocation is measured in ABAP compute units \(ACUs\). In a static service plan, the allocation corresponds to the quota limit of the service plan. In an elastic service plan, the allocation of resources is handled in an adaptive way.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ABAP System
+
+</td>
+<td valign="top">
+
 Expiry of Client Certificates
 
 </td>
@@ -337,6 +361,50 @@ Fill ratio of number range intervals
 Only critical number range intervals are shown. When you create a number range interval, you can define the critical remaining fill ratio when a warning is generated.
 
 If a critical number range was reported and is extended, it's reported once again with its now uncritical, good fill ratio to report the fixed state. After that, this number range is dropped from reported number range intervals because it's not critical anymore.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ABAP System
+
+</td>
+<td valign="top">
+
+E-Mail Transmissions \(Last Day\)
+
+</td>
+<td valign="top">
+
+abap\_system\_email\_error\_count\_1d
+
+</td>
+<td valign="top">
+
+The total number of e-mails and the number of e-mails with errors during the last day
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ABAP System
+
+</td>
+<td valign="top">
+
+E-Mail Transmissions \(Last 5 Minutes\)
+
+</td>
+<td valign="top">
+
+abap\_system\_email\_error\_count\_5m
+
+</td>
+<td valign="top">
+
+The total number of e-mails and the number of e-mails with errors during the last 5 minutes
 
 </td>
 </tr>

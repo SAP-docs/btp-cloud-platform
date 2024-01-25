@@ -1,5 +1,7 @@
 <!-- loio548c8d0ba70c47bf871befe5b1322695 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Complexity Analysis
 
 In this topic, you will learn more about complexity analysis in the `Custom Code Migration` app.
@@ -10,7 +12,7 @@ In this topic, you will learn more about complexity analysis in the `Custom Code
 
 ## Purpose
 
-Sometimes, your ABAP code can contain complex objects that very often also experience the most frequent changes. With the `` app it is possible to identify the most complex objects via complexity analysis and help you decide whether you want to redesign and therefore simplify them.
+Sometimes, your ABAP code can contain complex objects that very often also experience the most frequent changes. With the `Custom Code Migration` app it is possible to identify the most complex objects via complexity analysis and help you decide whether you want to redesign and therefore simplify them.
 
 > ### Note:  
 > Please be aware that, in this topic, the focus is on reducing the complexity of packages only. Nevertheless, generally, what applies to packages also applies to request entry points.
@@ -36,6 +38,12 @@ The X axis indicates the complexity/difficulty of the custom code within a packa
 > SAP recommends you have a closer look at packages that appear in the top-right corner of this chart, as those are the packages that are very complex and have often been changed.
 > 
 > The size of the bubbles indicates the number of findings. Hence, the bigger the bubble, the higher the number of findings.
+
+You can change the default representation of the chart by choosing the chart preferences \(:gear:\).
+
+Your chart could now look as follows:
+
+![](images/Complexity_Analysis_1c4281c.jpg)
 
 Now that you are aware of the complexity of your code, it is time to take action and reduce said complexity. There is no standard solution for fixing complex code, however, SAP can provide you with suggestions as to how to start this process:
 

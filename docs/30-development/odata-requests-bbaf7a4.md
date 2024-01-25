@@ -11,7 +11,7 @@ OData is a standardized protocol built over existing HTTP and REST protocols sup
 
 [OData Request Terms](odata-request-terms-a3b0e95.md "An overview of some OData Request terminology.")
 
-[OData Services](odata-services-811b523.md "")
+[OData Outbound Communication](odata-outbound-communication-811b523.md "The OData Client Proxy is the interface between the client (consumer of a service) and the service implementation (data provisioning) in the OData service consumption in ABAP. This enables ABAP developers to create OData client coding to run OData requests in your ABAP coding.")
 
 [OData Request System Query Options](odata-request-system-query-options-a205104.md "Learn how to use OData system query options. System query options include:")
 

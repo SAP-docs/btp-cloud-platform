@@ -619,5 +619,7 @@ Get details about a specific service offering associated with your subaccount.
 
 [Managing Security Settings](managing-security-settings-168dd75.md "Use the SAP BTP command line interface (btp CLI) to display and update the security settings for the subaccount.")
 
+[Managing API Credentials for Calling REST APIs of SAP Authorization and Trust Management Service](managing-api-credentials-for-calling-rest-apis-of-sap-authorization-and-trust-managemen-ce43eb5.md "Use the SAP BTP command line interface (btp CLI) to manage API credentials, which enable you to access the REST APIs of the SAP Authorization and Trust Management service.")
+
 [btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

@@ -1,5 +1,7 @@
 <!-- loio1e1b7b60bb1b4764a2d4bb96bd73182d -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Add Members to Your Subaccount \[Feature Set B\]
 
 Add members to your subaccount to enable users to access resources available there. Platform users manage subaccounts with cloud management tools, while business users consume applications and services.
@@ -61,6 +63,13 @@ There are two types of users in subaccounts:
 <a name="loio1e1b7b60bb1b4764a2d4bb96bd73182d__steps_vqz_cjg_klb"/>
 
 ## Procedure
+
+> ### Tip:  
+> If you're a global account administrator, you can quickly assign yourself as an administrator of a subaccount by going to the *Account Explorer* page and then choosing the *Add Me as Admin* option in the *Actions* \(<span class="SAP-icons"></span>\) context menu of the subaccount. To assign other users, follow the instructions below.
+> 
+> This feature may not be available if it has been disabled for your global account.
+> 
+> To disable this feature, send an opt-out request using the component BC-NEO-CIS-OPS. See [Getting Support](../70-getting-support/getting-support-5dd7398.md) for information about opening a case and getting technical assistance.
 
 1.  Navigate to your subaccount.
 

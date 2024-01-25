@@ -10,7 +10,7 @@ Learn more about developing applications in the Kyma environment.
 
 ## Overview
 
-The [Kyma Environment](../10-concepts/kyma-environment-468c2f3.md) allows you to build simple Functions, develop, and deploy more complex microservices, or mixtures of those, depending on your use case complexity level. Both Functions and microservices can act as stand-alone applications or extensions of these SAP systems:
+The [Kyma Environment](../10-concepts/kyma-environment-468c2f3.md) enables you to build simple Functions, develop, and deploy more complex microservices, or mixtures of those, depending on your use case complexity level. Both, Functions and microservices, can act as stand-alone applications or extensions of these SAP systems:
 
 -   SAP S/4HANA
 
@@ -44,7 +44,7 @@ With the Kyma environment, you can create microservices in the language of your 
 
 <a name="loio606ec610ee4746c09d5d2bef5a85a124__section_q5j_fhb_g4b"/>
 
-## Kyma dashboard and kubectl
+## Kyma Dashboard and kubectl
 
 The Kyma environment comes with a central administration dashboard \(Kyma dashboard\), which allows you to deploy microservices, create Functions, and manage their configurations. You can also use it to connect SAP BTP services to your cluster and manage them using SAP BTP Service Operator, create instances of these services, and use them in your microservices or Functions.
 

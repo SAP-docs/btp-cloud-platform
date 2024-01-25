@@ -63,6 +63,11 @@ UNIT\_UPD\_TS
 
 Structure for updating a unit of measurement
 
+> ### Caution:  
+> Be aware that all the fields belonging to the structure will be updated.
+
+
+
 </td>
 </tr>
 <tr>
@@ -321,7 +326,7 @@ ERROR
 > CLASS zcl_uom_unit_update_test DEFINITION 
 >   PUBLIC 
 >   FINAL 
->   CREATE PUBLIC . 
+>   CREATE PUBLIC. 
 >  
 >   PUBLIC SECTION. 
 >     INTERFACES if_oo_adt_classrun. 
@@ -331,33 +336,30 @@ ERROR
 >  
 > CLASS zcl_uom_unit_update_test IMPLEMENTATION. 
 >   METHOD if_oo_adt_classrun~main. 
->  
->     DATA: lo_uom  TYPE REF TO cl_uom_maintenance, 
->           ls_unit TYPE cl_uom_maintenance=>ty_uom_upd_ts. 
->  
->     cl_uom_maintenance=>get_instance( 
->   RECEIVING 
->     ro_uom = lo_uom ). 
->  
->     ls_unit-commercial = 'ZYA'. 
->     ls_unit-technical  = 'ZYA'. 
->     ls_unit-denominator = '1'. 
->     ls_unit-numerator = '1'. 
->     ls_unit-dec_disp = '5'. 
->     ls_unit-long_text = 'Update Unit'. 
->     ls_unit-text = 'Upd Unit'. 
->  
->     TRY. 
->         lo_uom->update( EXPORTING unit = 'ZYX' 
->                                   unit_upd_ts = ls_unit 
->                         IMPORTING 
->                              error       = DATA(error) 
->                          ). 
->       CATCH cx_uom_error INTO DATA(lo_error). 
->         out->write( |Exception raised| ). 
->         out->write( lo_error->get_text( ) ). 
->     ENDTRY. 
->  
+>     DATA(lo_uom) = cl_uom_maintenance=>get_instance( ).
+> 
+> TRY.
+> lo_uom->read( EXPORTING  unit       = 'ZYX'
+>               IMPORTING unit_st = DATA(ls_unit) ).
+> 
+> DATA(ls_upd_unit) = VALUE cl_uom_maintenance=>ty_uom_upd_ts(
+>                     BASE CORRESPONDING #( ls_unit )
+>                                          commercial   = 'ZYA'
+>                                          technical    = 'ZYA'
+>                                          denominator  = '1'
+>                                          numerator    = '1'
+>                                          dec_disp     = '5'
+>                                          long_text    = 'Updates Unit'
+>                                          text         = 'Upd Unit' ).
+> 
+> lo_uom->update( EXPORTING unit        = 'ZYX'
+>                           unit_upd_ts = ls_upd_unit
+>                 IMPORTING error 	 = DATA(lv_error) ).    
+> 
+>       CATCH cx_uom_error INTO DATA(lo_error).
+>         out->write( |Exception raised| ).
+>         out->write( lo_error->get_text( ) ).
+>     ENDTRY.
 >   ENDMETHOD. 
 > ENDCLASS.
 > 

@@ -11,7 +11,7 @@ SAP BTP provides REST APIs that enable you to perform administrative tasks on th
 
 [Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](monitoring-usage-information-using-apis-of-the-sap-usage-data-management-service-featur-bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
 
-[Access Administration Using APIs of the SAP Authorization and Trust Management Service](access-administration-using-apis-of-the-sap-authorization-and-trust-management-service-dcb3bfd.md "The REST services of the SAP Authorization and Trust Management service (XSUAA) provide APIs that enable you to manage entities, such as roles, shadow users, and access tokens in SAP BTP, subaccounts.")
+[Accessing Administration Using APIs of the SAP Authorization and Trust Management Service](accessing-administration-using-apis-of-the-sap-authorization-and-trust-management-servi-dcb3bfd.md "The REST services of the SAP Authorization and Trust Management service (XSUAA) provide APIs that enable you to manage entities, such as roles, shadow users, and access tokens in global accounts, directories, and multi-environment subaccounts.")
 
 [Managing Service Resources Using the APIs of the SAP Service Manager](managing-service-resources-using-the-apis-of-the-sap-service-manager-ee4f871.md "Use the APIs of the SAP Service Manager to work with environments, service brokers, service instances, service bindings, service plans, and service offerings.")
 

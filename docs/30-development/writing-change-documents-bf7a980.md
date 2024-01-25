@@ -2,10 +2,9 @@
 
 # Writing Change Documents
 
-The `WRITE` method in the generated class `<name space>CL_<change document object name>_CHDO` creates change documents from the object-specific update for an object ID. The table data from before and after the change provided in the table specific parameters gets analyzed to determine which changes were made.
+Write change documents
 
-> ### Note:  
-> The `WRITE` method is generated automatically. Manual modifications to the code are not required. If custom code is added to this method, the `CREATE`, `UPDATE` and `DELETE` operations on the change document object will remove it.
+The `WRITE` method in the generated class `CL_<change document object name>_CHDO` creates change documents from the object-specific update for an object ID.
 
 **Import Parameters**
 
@@ -227,7 +226,7 @@ X<table name\>
 </td>
 <td valign="top">
 
-The table must contain the current version of the changed or created records. The structure is the same as Y<table name\> \(see above\). The following values for the processing flag exist:
+The table must contain the current version of the changed or created records. The structure is the same as Y<table name\> \(see above\). Is is not necessary to set the processing flag to values <\> space for standard behavior. The following values for the processing flag exist:
 
 -   "I" \(INSERT\)Records were created, or table records were deleted, then a record with the same key was created in the same transaction, and this is to be documented as "Delete" and "Create" \(special case\), not as "Change".
 
@@ -258,7 +257,9 @@ With this flag, you determine the processing logic. The following values exist:
 
     -   Record exists in X<table name\> but not in Y<table name\>: A change document item is to be created for the records in X<table name\> which are to be flagged as created.
 
-    -   Record exists in both Y<table name\> and X<table name\>: A change document item is created for each changed field which is defined as change document-relevant in the dictionary.
+    -   Record exists in both Y<table name\> and X<table name\> and processing flag in X<table name\> record is "U" or space: A change document item is created for each changed field which is defined as change document-relevant in the dictionary.
+
+    -   Record exists in both Y<table name\> and X<table name\> and processing flag in X<table name\> record is "I": Chage document item is to be created for the record in Y<table name\> which is to be deleted and change document item is to be created for the record in X<table name\> which is to be flagged as created.
 
     -   " " \(space, no processing\) X<table name\> and Y<table name\> are not processed by the `WRITE` method. \(If no changes have been made, the processing can be skipped to save time.\)
 
@@ -304,109 +305,108 @@ Change number of the document
 > ```abap
 > 
 > " example for change document object ZTEST_1
->   " with tables 
->   " ZTEST_1 single case and 
+>   " with tables
+>   " ZTEST_1 single case and
 >   " ZTEST_2 multiple case
->  
->   "  Start of default parameter part
->    DATA: objectid        TYPE if_chdo_object_tools_rel=>ty_cdobjectv,
->          utime           TYPE if_chdo_object_tools_rel=>ty_cduzeit,
->          udate           TYPE if_chdo_object_tools_rel=>ty_cddatum,
->          username        TYPE if_chdo_object_tools_rel=>ty_cdusername,
->          cdoc_upd_object TYPE if_chdo_object_tools_rel=>ty_cdchngindh VALUE 'U'.
->    DATA: cdchangenumber          TYPE if_chdo_object_tools_rel=>ty_cdchangenr.
->    "  End of default parameter part
->  
->    " Begin of dynamic DATA part for class ZCL_ZTEST_1_CHDO
->    "   declaration for the long text : ICDTXT_ZTEST_1
->    DATA icdtxt_ztest_1 TYPE if_chdo_object_tools_rel=>ty_cdtxt_tab.
->    "   update indicator for the long text
->    DATA upd_icdtxt_ztest_1 TYPE if_chdo_object_tools_rel=>ty_cdchngindh.
->  
->    "   workaera_old of ZTABLE_1
->    DATA os_ztable_1 TYPE ztable_1.
->    "   workaera_new of ZTABLE1
->    DATA ns_ztable_1 TYPE ztable_1.
->    "   change indicator for ZTABLE_1
->    DATA upd_ztable_1 TYPE if_chdo_object_tools_rel=>ty_cdchngindh.
->  
->    "   table with the NEW content of: ZTABLE_2
->    DATA xztable_2 TYPE zcl_ztest_1_chdo=>tt_ztable_2.
->    "   table with the OLD content of: ZTABLE_2
->    DATA yztable_2 TYPE zcl_ztest_1_chdo=>tt_ztable_2.
->    "   change indicator for table: ZTABLE_2
->    DATA upd_ztable_2 TYPE if_chdo_object_tools_rel=>ty_cdchngindh.
->  
->    "     Change Number of Document
->    DATA changenumber TYPE if_chdo_object_tools_rel=>ty_cdchangenr.
->  
-> *  save old values before change
->  
->  
-> *  do some application changes to ZTABLE_1 and ZTABLE_2.
->  
-> "   set the change indicator for tables ('U', 'D', 'I')
-> "   upd_ztable_1 = 'U'.   
-> "   upd_ztable_2 = 'U'.  
->  
-> "  set change document application object identifier (objectid, date, time and user)
-> "   objectid                = 'Testobject'.
-> "   utime                   = 'hhmmss'.
-> "   udate                   = 'ddmmyyyy'.
-> "   username                = 'Testusername'.
-> "  set change indicator for change document header
->    cdoc_upd_object         = 'U'.
->  
+> 
+>   " Start of default parameter part
+>   DATA: objectid        TYPE if_chdo_object_tools_rel=>ty_cdobjectv,
+>   	  utime           TYPE if_chdo_object_tools_rel=>ty_cduzeit,
+>         udate           TYPE if_chdo_object_tools_rel=>ty_cddatum,
+>         username        TYPE if_chdo_object_tools_rel=>ty_cdusername,
+>         cdoc_upd_object TYPE if_chdo_object_tools_rel=>ty_cdchngindh VALUE 'U'.
+>   DATA: cdchangenumber  TYPE if_chdo_object_tools_rel=>ty_cdchangenr.
+>   " End of default parameter part
+> 
+>   " Begin of dynamic DATA part for class ZCL_ZTEST_1_CHDO
+>   " declaration for the long text : ICDTXT_ZTEST_1
+>   DATA icdtxt_ztest_1 TYPE if_chdo_object_tools_rel=>ty_cdtxt_tab.
+>   " update indicator for the long text
+>   DATA upd_icdtxt_ztest_1 TYPE if_chdo_object_tools_rel=>ty_cdchngindh.
+> 
+>   " workaera_old of ZTABLE_1
+>   DATA os_ztable_1 TYPE ztable_1.
+>   " workaera_new of ZTABLE1
+>   DATA ns_ztable_1 TYPE ztable_1.
+>   " change indicator for ZTABLE_1
+>   DATA upd_ztable_1 TYPE if_chdo_object_tools_rel=>ty_cdchngindh.
+> 
+>   " table with the NEW content of: ZTABLE_2
+>   DATA xztable_2 TYPE zcl_ztest_1_chdo=>tt_ztable_2.
+>   " table with the OLD content of: ZTABLE_2
+>   DATA yztable_2 TYPE zcl_ztest_1_chdo=>tt_ztable_2.
+>   " change indicator for table: ZTABLE_2
+>   DATA upd_ztable_2 TYPE if_chdo_object_tools_rel=>ty_cdchngindh.
+> 
+>   " Change Number of Document
+>   DATA changenumber TYPE if_chdo_object_tools_rel=>ty_cdchangenr.
+> 
+> * save old values before change
+> 
+> 
+> * do some application changes to ZTABLE_1 and ZTABLE_2.
+> 
+> " set the change indicator for tables ('U', 'D', 'I')
+> " upd_ztable_1 = 'U'.
+> " upd_ztable_2 = 'U'.
+> 
+> " set change document application object identifier (objectid, date, time and user)
+> " objectid				 = 'Testobject'.
+> " utime				    = 'hhmmss'.
+> " udate	   			 = 'ddmmyyyy'.
+> " username				 = 'Testusername'.
+> " set change indicator for change document header
+>   cdoc_upd_object = 'U'.
+> 
 > " prepare old and new tables
-> "  SORT <old_table>.
-> "  DELETE ADJACENT DUPLICATES FROM <old_table>.
-> "  SORT <new_table>.
-> "  DELETE ADJACENT DUPLICATES FROM <new_table>.
->  
->   "  Begin of method call part
->   "  define needed DATA for error handling
+>   SORT yztable_2.
+>   DELETE ADJACENT DUPLICATES FROM yztable_2.
+>   SORT xztable_2.
+>   DELETE ADJACENT DUPLICATES FROM xztable_2.
+> 
+>   " Begin of method call part
+>   " define needed DATA for error handling
 >    DATA err_ref TYPE REF TO cx_chdo_write_error.
 >    DATA err_action TYPE string.
->  
->     TRY.
->         CALL METHOD zcl_ztest_1_chdo=>write
->           EXPORTING
-> "  Begin of default method call part
->             objectid                = objectid
->             utime                   = utime
->             udate                   = udate
->             username                = username
->             object_change_indicator = cdoc_upd_object
-> "  End of default method call part
->  
-> "  Begin of dynamic part for method call
->         "  declaration for the long text : ICDTXT_ZTEST_1
->            icdtxt_ztest_1 = icdtxt_ztest_1
->         "  update indicator for the long text
->            upd_icdtxt_ztest_1 = upd_icdtxt_ztest_1
->  
->         "  workaera_old of ZTABLE_1
->            o_ztable_1 = os_ztable_1
->         "   workaera_new of ZTABLE_1
->            n_ztable_1 = ns_ztable_1
->         "  change indicator for ZTABLE_1
->            upd_ztable_1 = upd_ztable_1
->  
->         "  table with the NEW content of: ZTABLE_2
->            xztable_2 = xztable_2
->         "  table with the OLD content of: ZTABLE_2
->            yztable_2 = yztable_2
->         "  change indicator for table: ZTABLE_2
->            upd_ztable_2 = upd_ztable_2
-> "  End of dynamic part for method call
->         "  Change Number of Document
->            IMPORTING
->              changenumber            = changenumber.
->       CATCH cx_chdo_write_error INTO err_ref.
->           out->write( |Exception occurred: { err_ref->get_text( ) }| ).
->     ENDTRY.
->  
-> ...
 > 
+>     TRY.
+>  	   CALL METHOD zcl_ztest_1_chdo=>write
+>  	     EXPORTING
+> "  Begin of default method call part
+> 		    objectid = objectid
+> 		    utime = utime
+> 		    udate = udate
+> 		    username = username
+> 		    object_change_indicator = cdoc_upd_object
+> "  End of default method call part
+> 
+> "  Begin of dynamic part for method call
+>  	   "  declaration for the long text : ICDTXT_ZTEST_1
+>  		  icdtxt_ztest_1 = icdtxt_ztest_1
+>  	   "  update indicator for the long text
+>  		  upd_icdtxt_ztest_1 = upd_icdtxt_ztest_1
+> 
+>  	   " workaera_old of ZTABLE_1
+>  		 o_ztable_1 = os_ztable_1
+>  	   " workaera_new of ZTABLE_1
+> 		  n_ztable_1 = ns_ztable_1
+> 	    " change indicator for ZTABLE_1
+> 		  upd_ztable_1 = upd_ztable_1
+> 
+>  	   " table with the NEW content of: ZTABLE_2
+>  		 xztable_2 = xztable_2
+>  	   " table with the OLD content of: ZTABLE_2
+> 		  yztable_2 = yztable_2
+> 	    " change indicator for table: ZTABLE_2
+> 		  upd_ztable_2 = upd_ztable_2
+> " End of dynamic part for method call
+> 	  " Change Number of Document
+> 	    IMPORTING
+> 		  changenumber = changenumber.
+> 	 CATCH cx_chdo_write_error INTO err_ref.
+> 		 out->write( |Exception occurred: { err_ref->get_text( ) }| ).
+>     ENDTRY.
+> 
+> ...
 > ```
 

@@ -15,6 +15,13 @@ SAP Ariba Buying offers procurement users a unique buying experience through a g
 
 To set up SAP Ariba Buying with SAP S/4HANA Cloud on SAP BTP you need to have all the necessary systems included in a formation of type *Integration with SAP Ariba Buying* in the *System Landscape* page of the SAP BTP cockpit.
 
+When creating *Integration with SAP Ariba Buying* formations, keep in mind the following rules:
+
+-   SAP S/4HANA Cloud systems can be included in at most one *Integration with SAP Ariba Buying* formation.
+
+-   Only SAP S/4HANA Cloud systems that are registered with *All Communication Scenarios* or *Integration with SAP Ariba Buying* communication scenario group can be part of a *Integration with SAP Ariba Buying* formation. See [Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](register-an-sap-s-4hana-cloud-system-in-a-global-account-in-sap-btp-28171b6.md).
+
+
 
 
 <a name="loio3c98c84c61784e2985854cede54dd105__section_znb_p1c_dwb"/>

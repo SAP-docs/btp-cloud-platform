@@ -29,6 +29,10 @@ You can use this app to:
 -   Adapt business role to changes
 
 -   Create a business role
+-   Display scope items: check which scope items the business role templates depend on. Business role templates that do not depend on any scope items are always visible in the system. For these business role templates, *Scope Items \(0\)* is displayed on the relevant tab and the following message appears in the table: *The business role template is not scope-dependent*.
+
+-   Display component: check under which component you can create an incident if required.
+
 
 
 

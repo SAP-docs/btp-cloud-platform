@@ -9,7 +9,9 @@ An extensible partner application contains fields which are marked as predefined
 **Related Information**  
 
 
-[Working with Predefined Field Enablings](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/a8db78050bce44efbdca6145e9524853.html)
+[Working with Predefined Field Enablings](https://help.sap.com/docs/btp/sap-abap-development-user-guide/cloud-working-with-predefined-field-enablings?version=Cloud)
 
 [Configure Predefined Custom Fields](../50-administration-and-ops/configure-predefined-custom-fields-0eaa01c.md)
+
+[Manage API Snapshots](../50-administration-and-ops/manage-api-snapshots-8dda6b6.md)
 

@@ -1975,36 +1975,6 @@ Technical Monitoring
 </td>
 <td valign="top">
 
-[Tenant Workload](tenant-workload-af6535c.md) 
-
-</td>
-<td valign="top">
-
-`SAP_BR_ADMINISTRATOR`
-
-*Administrator*
-
-`SAP_BR_DEVELOPER`
-
-*Developer*
-
-</td>
-<td valign="top">
-
-`SAP_CORE_BC_TMC`
-
-*Technical Monitoring*
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Technical Monitoring
-
-</td>
-<td valign="top">
-
 [Capture Request Statistics](capture-request-statistics-01e93f2.md) 
 
 </td>
@@ -2138,6 +2108,58 @@ Technical Monitoring
 <td valign="top">
 
 `SAP_CORE_BC_COT_PC`
+
+*Technical Monitoring*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Technical Monitoring
+
+</td>
+<td valign="top">
+
+[Schedule Metric Provider Collection](schedule-metric-provider-collection-bbcc7f7.md)
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_TMC`
+
+*Technical Monitoring*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Technical Monitoring
+
+</td>
+<td valign="top">
+
+[Displaying and Analyzing ABAP Runtime Errors](displaying-and-analyzing-abap-runtime-errors-a762c2a.md)
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_TMC`
 
 *Technical Monitoring*
 

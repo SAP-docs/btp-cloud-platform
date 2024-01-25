@@ -6,6 +6,8 @@ SAP BTP is a dynamic product, which has continuous production releases \(updates
 
 
 
+<a name="loio99070c7bfc0e4f41842bd7c648b7fca7__for_cf_and_neo"/>
+
 ## Reasons for Region Updates
 
 Regions are updated in the following cases:

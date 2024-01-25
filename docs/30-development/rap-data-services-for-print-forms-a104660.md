@@ -2,7 +2,7 @@
 
 # RAP Data Services for Print Forms
 
-The XML data for print form rendering can be obtained from the RAP Business Services. The data model can be defined just as well as the *RAP Service Definition*. For more information, see [Service Definition](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/b09e4d53bfca4544a9f8910bcc2cd9d6.html).
+The XML data for print form rendering can be obtained from the RAP Business Services. The data model can be defined just as well as the *RAP Service Definition*. For more information, see [Service Definition](https://help.sap.com/docs/btp/sap-abap-restful-application-programming-model/service-definition?version=Cloud).
 
 The `CL_FP_FDP_SERVICES` class provides the ABAP API to receive the following:
 

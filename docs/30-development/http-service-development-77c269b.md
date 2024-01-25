@@ -9,7 +9,7 @@ For the implementation of your HTTP service, we provide the interface `IF_HTTP_S
 **Related Information**  
 
 
-[ABAP Development User Guide](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/4b190c90ceba4d02a99e0a2286b89358.html)
+[ABAP Development User Guide](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/about-abap-development-tools-user-guide?version=sap_btp)
 
 [Protection Against CSRF Attacks](protection-against-csrf-attacks-c878936.md "Protect against cross-side request forgery (CSRF) attacks by enabling CSRF token handling in the HTTP service.")
 

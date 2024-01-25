@@ -61,6 +61,10 @@ You create the service instance in your subaccount with the respective environme
 
 -   OAuth 2.0 SAML Bearer Assertion \(inbound connections\)
 
+    To communicate with SAP S/4HANA Cloud the extension application can use Principal Propagation which is done using OAuth 2.0 SAML Bearer Assertion flows. Principal Propagation means you forward the identity of the logged-in cloud users when accessing or updating data in the SAP S/4HANA Cloud system.
+
+    This is useful in scenarios where you need to have restricted data access based on the logged-in user from your extension. Or, you want to ensure only users with the right permissions are able to update the system via extensions deployed in SAP BTP.
+
     To use this authentication scenario, you first need to configure single-sign on \(SSO\) with the Identity Authentication service and protect your application. See [Single Sign-On Configuration](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8d3c376e573946258dad098b54fba480.html).
 
 

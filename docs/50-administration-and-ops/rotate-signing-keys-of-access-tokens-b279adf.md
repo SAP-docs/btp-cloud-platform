@@ -12,7 +12,7 @@ Components of the Cloud Foundry environment use the digital signature of the acc
 
 -   You've enabled API access to the service.
 
-    For more information, see [Access SAP Authorization and Trust Management Service APIs](access-sap-authorization-and-trust-management-service-apis-ebc9113.md)
+    For more information, see [Get Access to the APIs Using the apiaccess Service Plan](get-access-to-the-apis-using-the-apiaccess-service-plan-ebc9113.md)
 
 -   Plan for waiting time in hours between the steps of this procedure.
 

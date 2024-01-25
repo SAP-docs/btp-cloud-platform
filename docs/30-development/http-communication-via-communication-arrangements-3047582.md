@@ -2,6 +2,8 @@
 
 # HTTP Communication via Communication Arrangements
 
+HTTP outbound communication can be established using so-called communication arrangements.
+
 
 
 <a name="loio3047582e5c744bd9839a98c99bd224fa__section_c5x_3vx_qsb"/>
@@ -134,6 +136,9 @@ You've created a communication scenario as described in [Defining a Communicatio
 >     ENDTRY.
 > ```
 
+> ### Note:  
+> We recommend to retrieve the correct destination reference based on the communication scenario and a customer-defined property as described in [Service Consumption via Communication Arrangements](service-consumption-via-communication-arrangements-86aece6.md).
+
 
 
 <a name="loio3047582e5c744bd9839a98c99bd224fa__section_tgg_1xx_qsb"/>
@@ -144,8 +149,10 @@ To test your outbound call, you have to provide a configuration for the outbound
 
 Create a communication system and communication arrangement for the communication scenario and maintain the required data, such as host name and credentials in the Communication Systems and Communication Arrangements apps. For more information, see [Communication Management](communication-management-5b8ff39.md#loio5b8ff39ddb6741a29ddfcf587939e8f4).
 
+These tasks are performed by the administrator. For more information, see [Set Up HTTP Communication](set-up-http-communication-3884bc3.md).
+
 **Related Information**  
 
 
-[Set Up HTTP Communication](set-up-http-communication-3884bc3.md "The HTTP client allows to connect to HTTP endpoints.")
+[Set Up HTTP Communication](set-up-http-communication-3884bc3.md "To set up HTTP communication, use the corresponding communication management apps.")
 

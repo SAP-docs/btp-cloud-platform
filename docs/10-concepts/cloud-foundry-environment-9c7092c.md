@@ -106,7 +106,11 @@ The following technical configurations are specific to SAP BTP and differ from t
 
 -   In the SAP BTP, Cloud Foundry environment, the total HTTP Request Header and HTTP Response Header size is limited to 64 KB to protect against misuse.
 
--   In the SAP BTP, Cloud Foundry environment, for both HTTP Request Headers and HTTP Response Headers the total amount of Headers is limited to 101 to protect against misuse.
+-   In the SAP BTP, Cloud Foundry environment, for both HTTP Request Headers and HTTP Response Headers the total amount of Headers is limited to 101.
+
+-   In the SAP BTP, Cloud Foundry environment, the HTTP `keep-alive` timeout towards the client is set to 60s to protect against misuse. 60s is the maximum time span allowed to wait for a new HTTP request to appear if `keep-alive` is enabled.
+
+-   In the SAP BTP, Cloud Foundry environment, an internal HTTP `keep-alive` is set to 90s. A higher value must be set on application-side to avoid intermittent disruptions. For more information, see step 4 of [3406978](https://me.sap.com/notes/3406978).
 
 -   In the Cloud Foundry environment, there’s a logging rate limit to guard against malicious applications. The limit is in the range of up to a few thousand logs per second per application instance. If this limit is exceeded, additional logs from the application instance are dropped and a warning message is injected into the application instance’s log stream every second. This message also contains the exact log rate limit.
 

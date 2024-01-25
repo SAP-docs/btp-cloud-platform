@@ -16,12 +16,12 @@ Business configuration changes are recorded in requests, depending on the catego
 
 The following business catalogs are available to manage the customizing requests:
 
--   Display/Edit/Delete: SAP\_CORE\_BC\_BCT\_TRN\_MNG\_PC - Business Configuration - Transport Management
+-   Display/Edit/Delete: `SAP_CORE_BC_BCT_TRN_MNG_PC` - Business Configuration - Transport Management
 
--   Display/Edit/Delete/Release: SAP\_CORE\_BC\_BCT\_TRN\_REL\_PC - Business Configuration - Transport Release Management
+-   Display/Edit/Delete/Release: `SAP_CORE_BC_BCT_TRN_REL_PC` - Business Configuration - Transport Release Management
 
 
-These business catalogs are contained in the business role template: SAP\_BR\_BPC\_EXPERT.
+These business catalogs are contained in the business role template: `SAP_BR_BPC_EXPERT`.
 
 
 
@@ -31,31 +31,31 @@ You can use this app to:
 
 
 
--   Display a list of customizing requests.
+-   Display a list of customizing requests
 
--   Create new customizing transport requests.
+-   Create new customizing transport requests
 
--   Display the customizing tasks, objects, attributes, notes and logs of a customizing transport request.
+-   Display the customizing tasks, objects, attributes, notes and logs of a customizing transport request
 
--   Display the objects recorded in a customizing task.
+-   Display the objects recorded in a customizing task
 
--   Display the table keys recorded for an object.
+-   Display the table keys recorded for an object
 
--   Add N´notes to a customizing request.
+-   Add notes to a customizing request
 
--   Check customizing transport requests.
+-   Check customizing transport requests
 
--   Release customizing transport requests.
+-   Release customizing transport requests
 
--   Assign a transport request to your user.
+-   Assign a transport request to your user
 
--   Create tasks for other users.
+-   Create tasks for other users
 
--   Change the transport category.
+-   Change the transport category
 
--   Take over tasks and transports from other users and assign them to your user.
+-   Take over tasks and transports from other users and assign them to your user
 
--   Ceck consistency of all open requests
+-   Check the consistency of all open requests
 
 
 

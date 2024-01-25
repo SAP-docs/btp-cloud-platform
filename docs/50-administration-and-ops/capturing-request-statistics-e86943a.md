@@ -12,7 +12,7 @@ With the activation of a capture profile, you can capture system activities. Req
 
 In the *Capture Request Statistics* app, you can also find predefined profiles for capturing expensive requests \(with names starting with `SAP_`\). These predefined capture profiles are active by default, and you can't edit or deactivate them.
 
-You can view the captured data from all profiles in the technical monitoring cockpit on the *Captured Request Statistics* and *Request Processing* screens. You can get to the*Request Processing* screens by choosing *System Workload* or *Tenant Workload* from the menu. In addition, the captured ABAP statistics records are the basis for ABAP system sizing in the *Perform System Sizing* app.
+You can view the captured data from all profiles in the technical monitoring cockpit on the *Captured Request Statistics* and *Request Processing* screens. You can get to the*Request Processing* screens by choosing *System Workload* from the menu. In addition, the captured ABAP statistics records are the basis for ABAP system sizing in the *Perform System Sizing* app.
 
 
 
@@ -199,7 +199,7 @@ You can view the captured data from all profiles in the technical monitoring coc
 
 ## Results
 
-Request statistics are captured and processed by a collector that runs every minute. Therefore, you must expect that captured request statistics are displayed with a delay of a minute in the technical monitoring cockpit or in the *Perform System Sizing* app. Capturing request statistics is finished when the status of relevant capture profile has changed to *Finished*.
+Request statistics are captured and processed by a collector that runs every minute. Therefore, you must expect that captured request statistics are displayed with a delay of a minute in the *System Workload* or in the *Perform System Sizing* app. Capturing request statistics is finished when the status of relevant capture profile has changed to *Finished*.
 
 > ### Note:  
 > If you have a long-running request, ABAP statistics records for this request will only show up in the technical monitoring cockpit after the request is done. The collector then captures the request and calculates its workload over its runtime.

@@ -72,6 +72,8 @@ Consumption bundles group logically APIs and events intended for communication w
 
 After you add your third-party systems, you can specify the set of APIs and events in consumption bundles. A consumption bundle organizes a set of related APIs and events into a single group for consumption purposes and expresses information about how the APIs and events that it contains can be accessed. All APIs and events that are part of the same consumption bundle need to be accessible through the same set of credentials. You add the consumption bundles in *System Details* of the respective third-party system.
 
+You can explore the consumption bundles, the APIs, and the events configured for your system in *System Details*. To do that, go to the respective tab: *Consumption Bundles*, *APIs*, or *Events*.
+
 **URL**
 
 You can use the URL as an entry point to the corresponding system. Optionally, you can use it to identify duplicate systems added to the list.
@@ -118,6 +120,14 @@ When registering a system, the required configuration on the system side has bee
 The registration of the newly added systems is based on a registration token. The token is used for the pairing of the system and the corresponding global account. After you add a system, you can get the token in the SAP BTP cockpit. Then, you can use it to configure the integration on the corresponding system side. By using the registration token on the system side and registering the system, the system administrator allows the integration of the system with SAP BTP.
 
 The system gets a *Registered* status, only when a token is issued and the registration is complete on the corresponding system side. In general, the *Registered* status means that the communication between the system and SAP BTP has been established. However, depending on the system and its requirements, additional configuration might be needed for the enablement of a fully functional extension scenario. The additional configuration, depending on the system type, is outlined in the corresponding documents listed in the *Related Information* section. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
+
+**Specifics When Registering SAP S/4HANA Cloud Systems**
+
+When you register an SAP S/4HANA Cloud system, you can automate some of the required configuration steps at a later point using communication scenario groups. The communication scenario groups are entities that are part of the registration token that you use to register your SAP S/4HANA Cloud systems and are associated with one or more communication scenarios in SAP S/4HANA Cloud.
+
+For example, you can use the Event Mesh communication scenario group when you get the registration token for the SAP S/4HANA Cloud system. This allows the automatic enablement of the communication scenario `SAP_COM_0892` after the corresponding system is added to the formation of type *Eventing Between SAP Cloud Systems*.
+
+You can configure the communication scenario groups when registering an SAP S/4HANA Cloud system in the SAP BTP cockpit, in *System Landscape* \> *Systems*. See [Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](register-an-sap-s-4hana-cloud-system-in-a-global-account-in-sap-btp-28171b6.md).
 
 **Merging**
 

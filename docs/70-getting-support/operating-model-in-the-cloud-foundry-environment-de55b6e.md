@@ -606,7 +606,5 @@ SAP
 
 [Operating Model in the Kyma Environment](operating-model-in-the-kyma-environment-862b96b.md "This operating model clearly defines the separation of tasks between SAP and the customer during all phases of a project.")
 
-[Comparison between the Operating Models of Kyma and Cloud Foundry Runtimes](comparison-between-the-operating-models-of-kyma-and-cloud-foundry-runtimes-3978f94.md "This operating model clearly defines the separation of tasks between SAP and the customer. It's relevant for all phases of a project for both environments.")
-
 [SLAs for Cloud Services](https://www.sap.com/about/trust-center/agreements/cloud/cloud-services.html?search=Service%20Level%20Agreement&sort=latest_desc)
 

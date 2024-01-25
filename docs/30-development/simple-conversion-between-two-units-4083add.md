@@ -310,44 +310,38 @@ UNIT\_OUT is not maintained
 > CLASS zcl_uom_conversion DEFINITION
 >   PUBLIC
 >   FINAL
->   CREATE PUBLIC .
-> 
+>   CREATE PUBLIC.
+>  
 >   PUBLIC SECTION.
 >      INTERFACES if_oo_adt_classrun.
 >   PROTECTED SECTION.
 >   PRIVATE SECTION.
 > ENDCLASS.
-> 
+>  
 > CLASS zcl_uom_conversion IMPLEMENTATION.
-> 
+>  
 >   METHOD if_oo_adt_classrun~main.
-> 
->    data: lo_unit type ref to cl_uom_conversion,
->          input  type p decimals 8,
->          result type p decimals 8.
-> 
->     input = '1.98678923'.
->     lo_unit = cl_uom_conversion=>create( ).
-> 
->     lo_unit->unit_conversion_simple( exporting input      = input
->                                                round_sign = 'X'
->                                                unit_in    = 'KG'
->                                                unit_out   = 'G'
->                                      importing
->                                                output = result
->                                        exceptions
->                                          conversion_not_found = 01
->                                          division_by_zero     = 02
->                                          input_invalid        = 03
->                                          output_invalid       = 04
->                                          overflow             = 05
->                                          units_missing        = 06
->                                          unit_in_not_found    = 07
->                                          unit_out_not_found   = 08 ).
->     IF SY-SUBRC = 0.
->        out->write( result ).
+>    DATA: lv_input  TYPE p DECIMALS 8 VALUE '1.98678923',
+>          lv_result TYPE p DECIMALS 8. 
+>     DATA(lo_unit) = cl_uom_conversion=>create( ).
+>  
+>     lo_unit->unit_conversion_simple( EXPORTING  input                = lv_input
+>                                                 round_sign           = 'X'
+>                                                 unit_in              = 'KG'
+>                                                 unit_out             = 'G'
+>                                      IMPORTING  output               = lv_result
+>                                      EXCEPTIONS conversion_not_found = 01
+>                                                 division_by_zero     = 02
+>                                                 input_invalid        = 03
+>                                                 output_invalid       = 04
+>                                                 overflow             = 05
+>                                                 units_missing        = 06
+>                                                 unit_in_not_found    = 07
+>                                                 unit_out_not_found   = 08 ).
+>     IF sy-subrc = 0.
+>       out->write( lv_result ).
 >     ENDIF.
-> 
 >   ENDMETHOD.
+> ENDCLASS.
 > ```
 

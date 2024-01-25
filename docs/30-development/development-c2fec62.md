@@ -208,7 +208,7 @@ We provide detailed information about developing, configuring, and deploying you
 
 [Developing with the SAP Cloud Application Programming Model](developing-with-the-sap-cloud-application-programming-model-00823f9.md "The SAP Cloud Application Programming Model (CAP) is a framework of languages, libraries, and tools for building enterprise-grade services and applications. It guides developers along a ‘golden path’ of proven best practices and a great wealth of out-of-the-box solutions to recurring tasks.")
 
- <?sap-ot O2O class="- topic/link " href="c4f0d850b6ba46089a76d53ab805c9e6.xml" text="" desc="" xtrc="link:3" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/c2fec62b49fa43b8bd945c85ecc2e5bd.xml" ?> 
+ <?sap-ot O2O class="- topic/link " href="c4f0d850b6ba46089a76d53ab805c9e6.xml" text="" desc="" xtrc="link:3" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/c2fec62b49fa43b8bd945c85ecc2e5bd.xml" output-class="" current-file="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 [Consuming Services in SAP BTP](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/f13b6c63eef341bc8b7d25b352401c92.html)
 

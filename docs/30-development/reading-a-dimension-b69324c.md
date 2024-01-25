@@ -278,6 +278,7 @@ Light exponent of the dimension
 
 > ### Sample Code:  
 > ```abap
+> 
 > CLASS zcl_uom_dimension_read_test DEFINITION 
 >   PUBLIC 
 >   FINAL 
@@ -293,20 +294,13 @@ Light exponent of the dimension
 >  
 >   METHOD if_oo_adt_classrun~main. 
 >  
->     DATA: lo_dim TYPE REF TO cl_uom_dim_maintenance, 
->           ls_dim type cl_uom_dim_maintenance=>ty_dim_ts. 
+>     DATA(lo_dim) = cl_uom_dim_maintenance=>get_instance( ).
 >  
->     "Get instance 
->     cl_uom_dim_maintenance=>get_instance( 
->     RECEIVING 
->       ro_dimension = lo_dim ). 
->  
->     try. 
->         lo_dim->read( exporting  dimid  = 'AAAADL' 
->                      importing   dim_st = ls_dim 
->                            ). 
->       catch cx_uom_error. 
->     endtry. 
+>     TRY. 
+>         lo_dim->read( EXPORTING  dimid  = 'AAAADL' 
+>                       IMPORTING  dim_st = DATA(ls_dim) ). 
+>       CATCH cx_uom_error. 
+>     ENDTRY. 
 >  
 >     out->write( ls_dim-DIMID ). 
 >     out->write( ls_dim-txdim ). 
@@ -314,6 +308,5 @@ Light exponent of the dimension
 >   ENDMETHOD. 
 >  
 > ENDCLASS.
-> 
 > ```
 

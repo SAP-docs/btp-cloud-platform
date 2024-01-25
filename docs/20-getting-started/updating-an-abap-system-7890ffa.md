@@ -15,20 +15,17 @@ Learn how to update your ABAP environment instance.
 > 
 > -   ABAP System Description
 > 
-> -   ABAP Runtime Size
+> -   ABAP Runtime Size \(size\_of\_runtime\)
 > 
-> -   HANA Memory Size
+> -   HANA Cloud Memory Size \(size\_of\_persistence\)
 > 
-> -   Size of Persistence Disk
+> -   HANA Cloud Disk Size \(size\_of\_persistence\_disk\)
 > 
 > 
 > To change the initial admin, you have to use the *Maintain Employees* SAP Fiori app. See [Maintain Employees](../50-administration-and-ops/maintain-employees-e882b0f.md).
 
 > ### Restriction:  
-> The HANA memory size can currently only be increased, and not yet decreased.
-
-> ### Note:  
-> Currently, you can increase, but not decrease the values of the size of persistence and size of persistence disk.
+> The HANA Cloud disk size can currently only be increased, and not decreased.
 
 
 

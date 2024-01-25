@@ -15,13 +15,22 @@ SAP Start is a predefined central entry point for accessing SAP cloud business s
 
 To set up SAP Start with SAP S/4HANA Cloud on SAP BTP you need to have all the necessary systems included in a formation of type *Integration with SAP Start* in the *System Landscape* page of the SAP BTP cockpit.
 
+When creating *Integration with SAP Start* formations, keep in mind the following rules:
+
+-   SAP Start systems can be included in at most one *Integration with SAP Start* formation.
+
+-   At most one SAP Start system can be included in an *Integration with SAP Start* formation.
+
+-   Only SAP S/4HANA Cloud systems that are registered with *All Communication Scenarios* or *Integration with SAP Start* communication scenario group can be part of a *Integration with SAP Start* formation. See [Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](register-an-sap-s-4hana-cloud-system-in-a-global-account-in-sap-btp-28171b6.md).
+
+
 
 
 <a name="loiof7d3f5ec8a0e4f9bb5b77d473be99e5a__section_znb_p1c_dwb"/>
 
 ## Prerequisites
 
--   You are a global account administrator, or you are a system landscape administrator. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
+-   Integration with SAPYou are a global account administrator, or you are a system landscape administrator. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
 
 -   You have an Identity Authentication tenant. See [Indentity Authentication: Initial Setup](https://help.sap.com/docs/identity-authentication/identity-authentication/initial-setup?version=Cloud).
 

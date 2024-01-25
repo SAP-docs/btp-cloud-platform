@@ -95,24 +95,20 @@ ERROR
 > ENDCLASS. 
 >  
 > CLASS zcl_uom_dimension_delete_test IMPLEMENTATION. 
->   METHOD if_oo_adt_classrun~main. 
+>   METHOD if_oo_adt_classrun~main.  
+>   
+>  DATA(lo_dim) = cl_uom_dim_maintenance=>get_instance( ).
 >  
->     DATA: lo_dim TYPE REF TO cl_uom_dim_maintenance. 
->  
->     cl_uom_dim_maintenance=>get_instance( 
->     RECEIVING 
->       ro_dimension = lo_dim ). 
->  
->     TRY. 
->         lo_dim->delete( EXPORTING dimid =  'ZNEWDI' 
->                         IMPORTING error = DATA(error) 
->                        ). 
->       CATCH cx_uom_error INTO DATA(lo_error). 
->         out->write( |Exception raised| ). 
->         out->write( lo_error->get_text( ) ). 
->     ENDTRY. 
+>     TRY.
+>         lo_dim->delete( EXPORTING dimid = 'ZNEWDI'
+>                         IMPORTING error = DATA(lv_error) ).
+>       CATCH cx_uom_error INTO DATA(lo_error).
+>         out->write( |Exception raised| ).
+>         out->write( lo_error->get_text( ) ).
+>     ENDTRY.
 >   ENDMETHOD. 
 > ENDCLASS.
+> 
 > 
 > ```
 

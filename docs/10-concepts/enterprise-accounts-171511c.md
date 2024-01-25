@@ -6,7 +6,7 @@ Enterprise accounts are usually associated with SAP customer or partner contract
 
 SAP BTP provides different types of global accounts, **enterprise** and **trial**. The type you choose determines pricing, conditions of use, resources, available services, and hosts.
 
-If you want to start out using services for free, you can create a personal enterprise account and only use free tier service plans: The major benefit of using such an account for exploration purposes is that you can upgrade your services to productive use without losing any of your data. Check out the [Free Tier Services](https://discovery-center.cloud.sap/#/viewServices?provider=all&regions=all&category=freetierservices) in SAP Discovery Center and learn the details about [Using Free Service Plans](using-free-service-plans-524e108.md) in your enterprise account.
+If you want to start out using services for free, you can create a trial account and only use free tier service plans: The major benefit of using such an account for exploration purposes is that you can upgrade your services to productive use without losing any of your data. Check out the [Free Tier Services](https://discovery-center.cloud.sap/#/viewServices?provider=all&regions=all&category=freetierservices) in SAP Discovery Center and learn the details about [Using Free Service Plans](using-free-service-plans-524e108.md) in your enterprise account.
 
 Another way to start out using services for free is to create a trial account. But keep in mind that when you want to use your global account productively, there’s no way to migrate your data from the trial account to a productive enterprise account. For more information, see [Trial Accounts and Free Tier](trial-accounts-and-free-tier-046f127.md).
 
@@ -130,7 +130,7 @@ For more information about SAP Integration Suite and SAP Extension Suite pricing
 
 Contact us on [SAP BTP](https://www.sap.com/products/business-technology-platform.html) or via an SAP sales representative.
 
-If you’re located in China and want to buy a global account onSAP BTP you need to contact an SAP sales representative: [https://www.sap.cn/registration/contact.html](https://www.sap.cn/registration/contact.html).
+If you’re located in China and want to buy a global account on SAP BTP you need to contact an SAP sales representative: [https://www.sap.cn/registration/contact.html](https://www.sap.cn/registration/contact.html).
 
 </td>
 <td valign="top">
@@ -164,7 +164,7 @@ See [Regions](regions-350356d.md).
 
 ## Cancelling a SAP BTP Enterprise Account
 
-As a business user, you can cancel your contract via your account executive. As an individual user with a SAP BTP Pay-As-You-Go contract, you can cancel your account in your [SAP for Me account](https://me.sap.com). You can also contact the SAP store via their "Contact Us" function.
+As a business user, you can cancel your contract via your account executive. As an individual user with a trial acoount, you can cancel your account in your [SAP for Me account](https://me.sap.com). You can also contact the SAP store via their "Contact Us" function.
 
 
 

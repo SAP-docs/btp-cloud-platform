@@ -79,6 +79,23 @@ Objects from AIF content
 <tr>
 <td valign="top">
 
+AOBJ
+
+</td>
+<td valign="top">
+
+Archiving Object
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 APCO
 
 </td>
@@ -141,6 +158,23 @@ InfoArea
 <td valign="top">
 
 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ATOM
+
+</td>
+<td valign="top">
+
+ATO Manifest
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -221,6 +255,23 @@ CDAT
 <td valign="top">
 
 View Cluster Maintenance: Data
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CDBO
+
+</td>
+<td valign="top">
+
+Customer Data Browser Object
 
 </td>
 <td valign="top">
@@ -521,6 +572,40 @@ Dictionary: CDS Type Definitions
 <tr>
 <td valign="top">
 
+DSFD
+
+</td>
+<td valign="top">
+
+CDS Scalar Function Definition
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DSFI
+
+</td>
+<td valign="top">
+
+CDS Scalar Function Implementation Reference
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 DTDC
 
 </td>
@@ -657,6 +742,23 @@ Lock Object
 <tr>
 <td valign="top">
 
+ESHA
+
+</td>
+<td valign="top">
+
+Enterprise Search: DDL Activation
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 EVTB
 
 </td>
@@ -731,6 +833,23 @@ G4BS
 <td valign="top">
 
 OData v4 – BEP - Service
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GCPM
+
+</td>
+<td valign="top">
+
+SAP Gateway OData Client Proxy - Proxy Model
 
 </td>
 <td valign="top">
@@ -1020,6 +1139,23 @@ NROB
 <td valign="top">
 
 Number Range Object
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+NTTY
+
+</td>
+<td valign="top">
+
+Note Type
 
 </td>
 <td valign="top">
@@ -1643,6 +1779,74 @@ Yes
 <tr>
 <td valign="top">
 
+SOD1
+
+</td>
+<td valign="top">
+
+API Package
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SOD2
+
+</td>
+<td valign="top">
+
+API Package Assigment
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SPRV
+
+</td>
+<td valign="top">
+
+SOAP Provider Model
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SUSI
+
+</td>
+<td valign="top">
+
+Assignemnt: Service -\> Auhtorization Objects \(with TADIR\)
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SPRX
 
 </td>
@@ -2023,6 +2227,40 @@ WAPA
 <td valign="top">
 
 BSP Page
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+WEBI
+
+</td>
+<td valign="top">
+
+Service definition - WEBI
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XINX
+
+</td>
+<td valign="top">
+
+Ext. Index
 
 </td>
 <td valign="top">

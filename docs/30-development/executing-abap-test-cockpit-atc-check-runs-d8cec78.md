@@ -34,7 +34,7 @@
 
 The ABAP Test Cockpit \(ATC\) is the standard tool for checking the quality of ABAP development objects using static checks and ABAP unit tests. In this help topic, you'll learn how to trigger an ATC Check Run via REST Service.
 
-For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP Code with ATC](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/checking-quality-of-abap-code-with-atc).
+For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP Code with ATC](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ec5711c6e391014adc9fffe4e204223.html).
 
 
 

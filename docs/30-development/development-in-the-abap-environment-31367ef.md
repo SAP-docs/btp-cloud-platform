@@ -12,7 +12,7 @@ The ABAP environment is a platform as a service that allows you to extend existi
 
 The ABAP environment enables you to **expose**:
 
--   OData services. See [ABAP RESTful Application Programming Model](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/289477a81eec4d4e84c0302fb6835035.html).
+-   OData services. See [ABAP RESTful Application Programming Model](https://help.sap.com/docs/abap-cloud/abap-rap/abap-restful-application-programming-model?version=sap_btp).
 
 -   HTTP services. See [Working with the HTTP Service Editor](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/494a02697388437aa71067dd95b2c561.html).
 -   SQL services. See [Consumption of the SQL Service and the ODBC Driver for ABAP](consumption-of-the-sql-service-and-the-odbc-driver-for-abap-6ac9ec8.md).
@@ -33,7 +33,7 @@ With your ABAP applications, you can **consume**:
 
 ## Development Resources
 
-[ABAP RESTful Application Programming Model](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/289477a81eec4d4e84c0302fb6835035.html)
+[ABAP RESTful Application Programming Model](https://help.sap.com/docs/abap-cloud/abap-rap/abap-restful-application-programming-model?version=sap_btp)
 
 [ABAP Development Tools for Eclipse: User Guide](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/about-abap-development-tools-user-guide?version=sap_btp)
 

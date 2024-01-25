@@ -17,5 +17,5 @@ You can configure the URL static in the code:
 **Related Information**  
 
 
-[Set Up HTTP Communication](set-up-http-communication-3884bc3.md "The HTTP client allows to connect to HTTP endpoints.")
+[Set Up HTTP Communication](set-up-http-communication-3884bc3.md "To set up HTTP communication, use the corresponding communication management apps.")
 

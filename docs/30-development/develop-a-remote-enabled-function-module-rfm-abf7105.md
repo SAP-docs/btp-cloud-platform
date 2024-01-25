@@ -4,7 +4,7 @@
 
 Develop RFMs in ABAP Development Tools \(ADT\).
 
-You can develop RFMs in ABAP Development Tools \(ADT\) for Eclipse. For more information, see [Creating an ABAP Function Module](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/4ec6a4ea6e391014adc9fffe4e204223.html?version=Cloud).
+You can develop RFMs in ABAP Development Tools \(ADT\) for Eclipse. For more information, see [Creating an ABAP Function Module](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/creating-abap-function-module?version=sap_btp).
 
 In this tool, you create the respective RFM as you are used to in an on-premise system. Objects that are required to consume the RFM remotely are created automatically, such as authorization default values and the respective inbound service.
 

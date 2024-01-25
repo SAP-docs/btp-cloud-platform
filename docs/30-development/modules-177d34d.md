@@ -203,7 +203,7 @@ None
 </td>
 <td valign="top">
 
-CF application with Tomcat runtime of sap\_java\_buildpack
+CF application with Tomcat runtime of `sap_java_buildpack`
 
 </td>
 </tr>
@@ -225,7 +225,7 @@ CF application with Tomcat runtime of sap\_java\_buildpack
 </td>
 <td valign="top">
 
-CF application with TomEE 7 runtime of sap\_java\_buildpack
+CF application with TomEE 7 runtime of `sap_java_buildpack`
 
 </td>
 </tr>
@@ -1805,7 +1805,7 @@ Depends on the command line option `--no-start`
 </td>
 <td valign="top">
 
-`no-stsart: true`
+`no-start: true`
 
 </td>
 </tr>

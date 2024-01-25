@@ -12,5 +12,5 @@ Creating an enhancement spot for your BAdIs allows you to group BAdI definitions
 
 ## Procedure
 
-Create a BAdI enhancement spot in ABAP Development Tools \(ADT\) using the creation wizard, as described in [Creating BAdI Enhancement Spots](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/2101737de99648dca92e692a2a4ec46e.html).
+Create a BAdI enhancement spot in ABAP Development Tools \(ADT\) using the creation wizard, as described in [Creating BAdI Enhancement Spots](https://help.sap.com/docs/btp/sap-abap-development-user-guide/creating-badi-enhancement-spots?version=Cloud).
 

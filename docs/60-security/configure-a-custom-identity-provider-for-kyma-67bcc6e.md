@@ -22,7 +22,7 @@ When you create a new instance in the SAP BTP cockpit from the Service Marketpla
 If you've already created your Kyma environment, you can also apply the custom IdP configuration and set up administrators during your Kyma instance update operation by providing the details as an array of strings in the respective fields.
 
 > ### Tip:  
-> You can use SAP Cloud Identity Services - Identity Authentication as a custom IdP. Additionally, you can configure Identity Authentication to use a third-party IdP such as Azure Active Directory or Auth0, among others. For an example with Auth0 as IdP, see [Configure Auth0 for SAP BTP, Kyma runtime](https://github.com/SAP-samples/kyma-runtime-extension-samples/tree/main/kyma-access-auth0-as-idp).
+> You can use SAP Cloud Identity Services - Identity Authentication as a custom IdP. Additionally, you can configure Identity Authentication to use a third-party IdP such as Azure Active Directory or Auth0, among others. For more information, see [Integrating the Service with Microsoft Azure AD](https://help.sap.com/docs/identity-authentication/identity-authentication/integrating-service-with-microsoft-azure-ad?version=Cloud) and [Configure Auth0 for SAP BTP, Kyma runtime](https://github.com/SAP-samples/kyma-runtime-extension-samples/tree/main/kyma-access-auth0-as-idp).
 
 
 

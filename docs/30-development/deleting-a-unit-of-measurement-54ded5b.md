@@ -83,10 +83,11 @@ ERROR
 
 > ### Sample Code:  
 > ```abap
+> 
 > CLASS zcl_uom_unit_delete_test DEFINITION 
 >   PUBLIC 
 >   FINAL 
->   CREATE PUBLIC . 
+>   CREATE PUBLIC.
 >  
 >   PUBLIC SECTION. 
 >     INTERFACES if_oo_adt_classrun. 
@@ -97,25 +98,17 @@ ERROR
 > CLASS zcl_uom_unit_delete_test IMPLEMENTATION. 
 >  
 >   METHOD if_oo_adt_classrun~main. 
->  
->     DATA: lo_uom  TYPE REF TO cl_uom_maintenance. 
->  
->     cl_uom_maintenance=>get_instance( 
->     RECEIVING 
->       ro_uom = lo_uom ). 
+>     DATA(lo_uom) = cl_uom_maintenance=>get_instance( ). 
 >  
 >     TRY. 
 >         lo_uom->delete( EXPORTING unit = 'ZYX' 
->                         IMPORTING error = DATA(error) 
->                        ). 
+>                         IMPORTING error = DATA(lv_error) ). 
+>                         
 >       CATCH cx_uom_error INTO DATA(lo_error). 
 >         out->write( | Exception raised | ). 
 >         out->write( lo_error->get_text( ) ). 
 >     ENDTRY. 
->  
 >   ENDMETHOD. 
->  
 > ENDCLASS.
-> 
 > ```
 

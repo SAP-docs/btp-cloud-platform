@@ -53,18 +53,13 @@
 
 ## ABAP Dictionary and ABAP Language
 
-*Group:*[Start Developing ABAP Tables](https://developers.sap.com/group.abap-dev-tables.html)
+*Group:* [Start Developing ABAP Tables](https://developers.sap.com/group.abap-dev-tables.html)
 
 
 
 ### 
 
 -   [Create an ABAP Database Table and Relevant ABAP Dictionary Objects](https://developers.sap.com/tutorials/abap-dev-create-table.html)
-
-
-
-
-### 
 
 -   [Create ABAPDoc Comments in Your Class in ABAP Environment](https://developers.sap.com/tutorials/abap-environment-create-abapdoc.html)
 
@@ -122,7 +117,9 @@
 
 ## Lifecycle Management and CI/CD
 
--   -   [Create Branches with SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-branch.html)
+-   [Transfer Your ABAP Source Code With SAP Cloud Platform ABAP Environment via abapGit](https://developers.sap.com/tutorials/abap-environment-abapgit-transfer.html)
+
+-   [Create Branches with SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-branch.html)
 
 -   [Use Checkout Functionality of Branches to Switch Between Different Versions of Code](https://developers.sap.com/tutorials/abap-environment-checkout.html)
 
@@ -203,7 +200,7 @@
 -   [Create Service Binding for Bonus Plan Scenario with SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-s4hanacloud-binding.html)
 
 
-wihtout group/mission
+wihtout group/mission:
 
 -   [Call an External API and Parse the Response in SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-external-api.html)
 
@@ -252,10 +249,14 @@ without group/mission:
 
 -   [Integrate List Report into ABAP FLP](https://developers.sap.com/tutorials/abap-environment-abap-flp.html)
 
--   [https://developers.sap.com/tutorials/abap-environment-portal-site-bas.html](https://developers.sap.com/tutorials/abap-environment-portal-site-bas.html)
+-   [Add SAP BTP ABAP environment App to Portal Site](https://developers.sap.com/tutorials/abap-environment-portal-site-bas.html)
+
+-   [Developing and extending SAP Fiori Elements Apps](https://open.sap.com/courses/fiori-ea1)
+
+-   [RAP Feature Showcase App](https://github.com/SAP-samples/abap-platform-fiori-feature-showcase)
 
 
-Group:
+*Group:*
 
 -   [Implement a Custom Shell-Plugin in the SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-shell-plugin.html)
 
@@ -279,7 +280,7 @@ without group/mission:
 
 <a name="loio5de837488d6e431da008ae374a405919__section_czq_yk4_hyb"/>
 
-## S/4HANA Cloud, ABAP Environment
+## SAP S/4HANA Cloud, ABAP Environment
 
 *Group:*[Develop an SAP Fiori App to Trigger Purchase Registrations API](https://developers.sap.com/group.sap-fiori-app-purchase-req.html)
 
@@ -320,12 +321,4 @@ Level 1: [Get to know the ABAP RESTfulApplication Programming Model](https://dev
 Level 2: [Level up with SAP BTP, ABAP Environment](https://developers.sap.com/mission.abap-env-level-up.html)
 
 Level 3: [SAP BTP, ABAP Environment: Intermediate Topics](https://developers.sap.com/mission.abap-env-intermediate.html)
-
-
-
-<a name="loio5de837488d6e431da008ae374a405919__section_wnt_kl4_hyb"/>
-
-## Wiki Page
-
-[Tutorials](https://wiki.one.int.sap/wiki/display/itapc/Tutorials)
 
