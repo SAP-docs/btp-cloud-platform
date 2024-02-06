@@ -62,7 +62,8 @@ This example shows how to use RFC communication with an SRVC.
 >  
 > " find Communication Arrangement by scenario ID
 > lr_cscn = VALUE #( ( sign = 'I' option = 'EQ' low = '<Scenario ID>' ) ).
-> DATA(lo_factory) = cl_com_arrangement_factory=>create_instance( ).lo_factory->query_ca(
+> DATA(lo_factory) = cl_com_arrangement_factory=>create_instance( ).
+> lo_factory->query_ca(
 >   EXPORTING
 >     is_query = VALUE #( cscn_id_range = lr_cscn )
 >   IMPORTING
@@ -115,52 +116,57 @@ To use the `CALL FUNCTION ... DESTINATION` statement, use the following code:
 > ### Sample Code:  
 > ```abap
 > DATA: lr_cscn TYPE if_com_scenario_factory=>ty_query-cscn_id_range.
->  
->  
-> " find Communication Arrangement by scenario ID
-> lr_cscn = VALUE #( ( sign = 'I' option = 'EQ' low = '<Scenario ID>' ) ).DATA(lo_factory) = cl_com_arrangement_factory=>create_instance( ).lo_factory->query_ca(
->   EXPORTING
->     is_query = VALUE #( cscn_id_range = lr_cscn )
->   IMPORTING
->     et_com_arrangement = DATA(lt_ca) ).
->  
-> IF lt_ca IS INITIAL.
->   EXIT.
-> ENDIF.
->  
-> " take the first one
-> READ TABLE lt_ca INTO DATA(lo_ca) INDEX 1.
->  
-> " get destination based on Communication Arrangement
-> TRY.
->   DATA(lo_dest) = cl_rfc_destination_provider=>create_by_comm_arrangement(
->     EXPORTING
->       comm_scenario = '<Scneario ID>'
->       service_id = '<Outbound Service ID>'
->       comm_system_id = lo_ca->get_comm_system_id( )
->       ).
->   CATCH cx_rfc_dest_provider_error.
->     " handle CX_RFC_DEST_PROVIDER_ERROR
-> ENDTRY.
->  
-> " CALL FUNCTION
->       DATA msg TYPE c LENGTH 255.
->       CALL FUNCTION 'BAPI_ACTIVITYTYPE_GETLIST' DESTINATION lo_dest->get_destination_name( )
->           IMPORTING
->             return            = lt_return
->           TABLES
->             activitytype_list = lt_acttype_list
+> 
+> 
+>     " find Communication Arrangement by scenario ID
+>     lr_cscn = VALUE #( ( sign = 'I' option = 'EQ' low = '<Scenario ID>' ) ).
+> 
+>     DATA(lo_factory) = cl_com_arrangement_factory=>create_instance( ).
+>     lo_factory->query_ca(
+>       EXPORTING
+>         is_query = VALUE #( cscn_id_range = lr_cscn )
+>       IMPORTING
+>         et_com_arrangement = DATA(lt_ca) ).
+> 
+>     IF lt_ca IS INITIAL.
+>       EXIT.
+>     ENDIF.
+> 
+>     " take the first one
+>     READ TABLE lt_ca INTO DATA(lo_ca) INDEX 1.
+> 
+>     " get destination based on Communication Arrangement
+>     TRY.
+>         DATA(lo_dest) = cl_rfc_destination_provider=>create_by_comm_arrangement(
+>           EXPORTING
+>             comm_scenario = '<Scneario ID>'
+>             service_id = '<Outbound Service ID>'
+>             comm_system_id = lo_ca->get_comm_system_id( )
+>             ).
+> 
+>         DATA(destination_name) = lo_dest->get_destination_name( ).
+>       CATCH cx_rfc_dest_provider_error.
+>         " handle CX_RFC_DEST_PROVIDER_ERROR
+>     ENDTRY.
+> 
+>     " CALL FUNCTION
+>     DATA msg TYPE c LENGTH 255.
+>     CALL FUNCTION 'BAPI_ACTIVITYTYPE_GETLIST' DESTINATION destination_name
+>       IMPORTING
+>         return                = lt_return
+>       TABLES
+>         activitytype_list     = lt_acttype_list
 >       EXCEPTIONS
->         system_failure        = 1  MESSAGE msg
->         communication_failure = 2  MESSAGE msg
+>         system_failure        = 1 MESSAGE msg
+>         communication_failure = 2 MESSAGE msg
 >         OTHERS                = 3.
 >     CASE sy-subrc.
 >       WHEN 1.
->       " handle system failure     
+>         " handle system failure
 >       WHEN 2.
->       " handle communication failure
+>         " handle communication failure
 >       WHEN 3.
->       " handle application failure
+>         " handle application failure
 >     ENDCASE.
 > ```
 

@@ -122,19 +122,19 @@ The following technical configurations are specific to SAP BTP and differ from t
 
     If applications running on the same virtual machine don't use their guaranteed CPU, other applications might get more CPU. This isn’t guaranteed and might be subject to change in the future. If you encounter performance problems, scale up your application or increase the application start timeout.
 
-    The number of running threads per application instance is limited to 10 420. Reaching this limit can cause performance issues.
+    The number of running threads per application instance is limited to 10,420. Reaching this limit can cause performance issues.
 
 -   When pushing or scaling your application, you can define a `disk_quota` that can be up to 10 GB. For more information, see [https://docs.cloudfoundry.org/devguide/deploy-apps/manifest-attributes.html\#disk-quota](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest-attributes.html#disk-quota).
 
--   When deploying applications on SAP BTP, the maximum application package size is 1.5 GB. If your application is larger than that, the deployment fails. For more information, see [https://docs.cloudfoundry.org/devguide/deploy-apps/large-app-deploy.html](https://docs.cloudfoundry.org/devguide/deploy-apps/large-app-deploy.html)
+-   When deploying applications on SAP BTP, the maximum application package size is 1.5 GB. If your application is larger than that, the deployment fails. For more information, see [https://docs.cloudfoundry.org/devguide/deploy-apps/large-app-deploy.html](https://docs.cloudfoundry.org/devguide/deploy-apps/large-app-deploy.html).
 
--   In the SAP BTP, Cloud Foundry environment, the hard limit for open file descriptors is 32768 (32K) per container.
+-   In the SAP BTP, Cloud Foundry environment, the hard limit for open file descriptors is 32,768 \(32K\) per container.
 
 -   In global accounts that support the consumption-based commercial model you might see a quota limit for certain services. This is a technical limit only, not a business limit. If you need to increase this limit, report an incident to [SAP support](https://support.sap.com/en/index.html) for component BC-NEO-CIS.
 
--   In the SAP BTP, Cloud Foundry environment, the SAP HANA database supports up to 1,000 simultaneous connections per database.
-  
--   In the SAP BTP, Cloud Foundry environment, each app can be mapped to approximately 1000 routes (128 KB). The total length of the routing information must not exceed this limit.
+-   In the SAP BTP, Cloud Foundry environment, the SAP HANA database supports up to 1000 simultaneous connections per database.
+
+-   In the SAP BTP, Cloud Foundry environment, each application can be mapped to approximately 1000 routes \(128 KB\). The total length of the routing information must not exceed this limit.
 
 -   Cloud Foundry Audit Events have a retention period of 14 days. For more information on Audit Events, see [https://docs.cloudfoundry.org/running/managing-cf/audit-events.html](https://docs.cloudfoundry.org/running/managing-cf/audit-events.html).
 

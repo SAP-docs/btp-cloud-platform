@@ -10,7 +10,7 @@ In ABAP Development Tools, you can define communication scenarios, which can be 
 
 In ABAP Development Tools, you define a communication scenario and add the required services to the scenario. An administrator can then use this communication scenario and create a communication arrangement based on it. This communication arrangement is the basis for accessing the business service using a communication user. If you don't include an authorization object to the communication scenario, the communication user will have unrestricted access to the business service.
 
-For more information, see [Consuming Services in the Context of API with Technical Users](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/54886e183a3a40cbae912cf3b09dc46a.html) in the ABAP Development User Guide.
+For more information, see the information about consuming services in the context of APIs in the [user guide for ABAP development tools](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide) \(ADT\).
 
 
 

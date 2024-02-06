@@ -1,7 +1,5 @@
 <!-- loioab089a9bb3c541e798dd4c9111417246 -->
 
-<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
-
 # Specify Attributes in a New Role
 
 As an administrator of the Cloud Foundry environment, you can specify attributes in a new role to refine authorizations of business users. Depending on these attributes, business users with this role have restricted access to data.
@@ -12,10 +10,10 @@ As an administrator of the Cloud Foundry environment, you can specify attributes
 
 ## Prerequisites
 
-You have maintained the attributes of the users in your identity provider if you want to use the identity provider as the source of the attributes.
+You have maintained the attributes of the users in your identity provider.
 
 > ### Note:  
-> In Identity Authentication or any SAML identity provider, you find the attributes in the SAML 2.0 configuration.
+> In Identity Authentication or any identity provider, you find the attributes in the configuration.
 
 
 
@@ -27,19 +25,19 @@ You have maintained the attributes of the users in your identity provider if you
 
 2.  Go to your global account \(China \(Shanghai\) region\) orsubaccount. For more information, see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md).
 
-3.  Choose your space in *Cloud Foundry* \> *Spaces* or, in the case of subscriptions, see [Configure Application Roles and Assign Roles to Users](configure-application-roles-and-assign-roles-to-users-56a7153.md).
+3.  Choose your space in *Cloud Foundry* \> *Spaces* or, for subscriptions, see [Configure Application Roles and Assign Roles to Users](configure-application-roles-and-assign-roles-to-users-56a7153.md).
 
 4.  Choose the application.
 
 5.  Choose *Security* \> *Roles*.
 
-6.  To create a new role, choose :heavy_plus_sign: \(Add\) in the first row.
+6.  To create a new role, choose *Create*.
 
     A wizard guides you through the role creation process.
 
 7.  Enter a name and a description of the new role.
 
-8.  Select the role template you want to use.
+8.  Select the role template that you want to use.
 
 9.  Choose *Next*.
 
@@ -57,7 +55,7 @@ You have maintained the attributes of the users in your identity provider if you
     </th>
     <th valign="top">
 
-    Value/SAML Attribute
+    Value/Attribute
     
     </th>
     </tr>
@@ -69,24 +67,24 @@ You have maintained the attributes of the users in your identity provider if you
     </td>
     <td valign="top">
     
-    Enter a static value, for example `USA` to refine the role depending on the country.
+    Enter a static value, for example `USA` to refine the role depending on the country/region.
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-    *Identity Provider \(SAML\)* 
+    *Identity Provider* 
     
     </td>
     <td valign="top">
     
-    Enter an assertion attribute as defined in your identity provider. Check in your identity provider for the exact syntax of the assertion attribute identifier.
+    Enter an attribute as defined in your identity provider. Check in your identity provider for the exact syntax of the attribute identifier.
 
-    In the case of an SAP Cloud Identity Services - Identity Authentication, you find the attribute identifier in the settings of the SAML assertion attributes of your SAML identity provider under *Applications & Resources* \> *Applications*.
+    For SAP Cloud Identity Services - Identity Authentication, you find the attribute identifier in the settings of the attributes under *Applications & Resources* \> *Applications* \> **<Application Name\>** \> *Trust* \> *Attributes*.
 
     > ### Example:  
-    > To use the assertion attribute for cost center, you must enter the value `cost_center`.
+    > To use the attribute for cost center, you must enter the value `cost_center`.
 
 
     
@@ -100,7 +98,7 @@ You have maintained the attributes of the users in your identity provider if you
     </td>
     <td valign="top">
     
-    In this case, you want to express that it is not necessary to set a specific value for this attribute. The behavior is the same as if the attribute would not exist for this role.
+    In this case, you want to express that it isn't necessary to set a specific value for this attribute. The behavior is the same as if the attribute wouldn't exist for this role.
     
     </td>
     </tr>

@@ -2,7 +2,7 @@
 
 # Defining MTA Extension Descriptors
 
-The Multitarget Application \(МТА\) extension descriptor is a YAML file that contains data complementary to the deployment descriptor. The data can be environment or deployment specific, for example, credentials depending on the user who performs the deployment. The MTA extension descriptor is a YAML file that has a similar structure to the deployment descriptor, following the Multitarget Application Model structure with several limitations and differences. Normally, the extension descriptor extends the deployment descriptor but it is possible to extend another extension descriptor, making an extension descriptors chain. It can add or overwrite existing data if necessary.
+The Multitarget Application \(МТА\) extension descriptor is a YAML file that contains data complementary to the deployment descriptor. The data can be environment or deployment specific, for example, credentials depending on the user who performs the deployment. The MTA extension descriptor is a YAML file that has a similar structure to the deployment decriptor. It follows the Multitarger Application Model structure with several limitations and differences. Normally, the extension descriptor extends the deployment descriptor but it is possible to build upon another extension descriptor, making an extension descriptors chain. It can add or overwrite existing data if necessary.
 
 Several extension descriptors can be additionally used after the initial deployment.
 
@@ -57,7 +57,7 @@ The above instructs SAP BTP to:
 -   Overwrite the data for the `existing-data` property
 -   Add a new data called `non-existing-data` to the `data-storage` properties
 
-The following is an example of another extension descriptor that extends the extension descriptor from the previous example:
+The following is an example of another extension descriptor that builds upon the extension descriptor from the previous example:
 
 > ### Example:  
 > ```

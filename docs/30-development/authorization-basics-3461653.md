@@ -4,7 +4,7 @@
 
 If you haven’t worked with an ABAP system before, you might find this introduction to the basic authorization concepts useful before you proceed.
 
-Let's assume that you create business services. During the service implementation, you create a service definition, which exposes a data definition. In the ABAP RESTful Application Programming Model \(RAP\), you use behaviors to specify the operations and field properties of an individual business object. You can later enhance the behavior definition and implementation to include an authorization control. For more information about the ABAP RESTful Application Programming Model \(RAP\), see the documentation [SAP - ABAP RESTful Application Programming Model](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/289477a81eec4d4e84c0302fb6835035.html). The documentation of the ABAP RESTful Application Programming Model also describes the service implementation, that is, the creation of all objects highlighted in medium blue in the following graphic.
+Let's assume that you create business services. During the service implementation, you create a service definition, which exposes a data definition. In the ABAP RESTful Application Programming Model \(RAP\), you use behaviors to specify the operations and field properties of an individual business object. You can later enhance the behavior definition and implementation to include an authorization control. For more information about the ABAP RESTful Application Programming Model \(RAP\), see the documentation for the [ABAP RESTful Application Programming Model](https://help.sap.com/docs/abap-cloud/abap-rap/abap-restful-application-programming-model?locale=en-US). The documentation of the ABAP RESTful Application Programming Model also describes the service implementation, that is, the creation of all objects highlighted in medium blue in the following graphic.
 
 ![](images/Authorization_Concept_Overview_e27b0b1.png)
 
@@ -62,7 +62,7 @@ Authorization control in the RESTful Application Programming Model protects your
 
 Authorization control is part of the behavior implementation of a business service.
 
-For more information about authorization control, see [Authorization Control](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/375a8124b22948688ac1c55297868d06.html) in the ABAP RESTful Application Programming Model documentation.
+For more information about authorization control, see the documentation for the [ABAP RESTful Application Programming Model](https://help.sap.com/docs/abap-cloud/abap-rap/abap-restful-application-programming-model?locale=en-US).
 
 
 

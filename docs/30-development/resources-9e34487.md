@@ -135,7 +135,7 @@ In the above example:
 
 -   `org.cloudfoundry.existing-service`
 
-    То аssume that the named service exists, but to not manage its lifecycle, you define the service name by using the `org.cloudfoundry.managed-service` resource type with the following parameters:
+    То indicate that the \(named\) service exists, without managing its lifecycle, you define the service name by using the `org.cloudfoundry.managed-service` resource type with the following parameters:
 
     -   \(Optional\) `service-name` - Service instance name. Default value is the resource name.
 

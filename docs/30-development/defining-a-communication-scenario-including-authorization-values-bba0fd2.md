@@ -13,7 +13,7 @@ In ABAP Development Tools, you define a communication scenario and add the requi
 > ### Note:  
 > Administrators can't change the authorization activities and values that you define as part of the communication scenario when they create their communication arrangements.
 
-For more information, see [Consuming Services in the Context of API with Technical Users](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/54886e183a3a40cbae912cf3b09dc46a.html) in the ABAP Development User Guide.
+For more information, see the information about consuming services in the context of APIs in the [user guide for ABAP development tools](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide) \(ADT\).
 
 
 

@@ -122,9 +122,16 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     
     *Step 3: Routing Information*
 
-    In this step you specify the routing information for your solution to determine the final URL for consumers to access.
+    In this step you specify the routing information for your solution. This defines the endpoints that consumers will use to access the solution.
 
-    Set the *Domain Type*: Select whether you want to use a shared or custom domain typ. A shared domain type is created by SAP, a custom domain type is created by you. If you choose a custom app domain, simply enter your app domain without the leading protocol. In this case, any URL containing this subdomain will be redirected to your SaaS solution. If you want to use a shared app domain provided by SAP, select a domain from the drop-down menu, define the route prefix and add at least one subdomain. The URL when then be built from these parts. You can preview the URL in the blue box at the bottom of the screen. Note that the URL must not be longer than 64 characters including hyphens.
+    You have the choice between using a*custom domain*, which is owned by yourself, or a *shared domain*, which is provided by SAP and shared by many users. Custom domains are managed using the [SAP Custom Domain](https://help.sap.com/docs/custom-domain/custom-domain-manager/what-is-custom-domain) service.
+
+    Each subscription to your solution will be assigned an endpoint, which will follow one of two patterns.
+
+    -   When using a custom domain: <subdomain\>.<custom domain\> | consumer-a.mycompany.com
+    -   When using a shared domain provided by SAP: <subdomain\>-<route prefix\>.<shared domain\> | consumer-a.cfapps.eu10.hana.ondemand.com
+
+    Here, <subdomain\> is the subdomain of the subscribing subaccount. In order to route these endpoints to your solution, corresponding Cloud Foundry routes must be created and mapped in the subaccount where the solution is deployed. This is done automatically by the Maintain Solution app during deployment. You can always add or modify routes manually using the SAP BTP Cockpit, see [About Routes in the Cockpit](https://help.sap.com/docs/custom-domain/custom-domain-manager/what-is-custom-domain). Please note that routes have a maximum length of 64 characters.
 
     ****
 
@@ -172,12 +179,12 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     </td>
     <td valign="top">
     
-    You can select an app domain from the list of the available SAP app domains.
+    You can select an app domain from the list of the available SAP domains.
     
     </td>
     <td valign="top">
     
-    You can enter a custom domain that is registered for your company.
+    You can enter a custom domain that is registered for your company. For example, company.com.
     
     </td>
     </tr>
@@ -189,12 +196,12 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     </td>
     <td valign="top">
     
-    The route prefix needs to be unique and is defaulted to your deployment configuration name.
+    The route prefix is used to ensure the uniqueness of your routes, as shared domains are used by many customers simultaneously. It needs to be unique and is defaulted to the solution ID.
     
     </td>
     <td valign="top">
     
-    The route prefix field is not visible.
+    The route prefix field is disabled. To provide multiple solutions within the same top-level custom domain, you need to define multiple private domains using the SAP Custom Domain service \(for example, “sales-solution.mycompany.com” and “tax-solution.mycompany.com”\).
     
     </td>
     </tr>
@@ -206,12 +213,12 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     </td>
     <td valign="top">
     
-    The wildcard route is unchecked and set to read-only.
+    A wildcard route cannot be used with a shared domain. The checkbox is unchecked and set to read-only.
     
     </td>
     <td valign="top">
     
-    The wildcard route is checked and set to read-only
+    A wildcard route can be used. This route maps all requests towards endpoints of the form “\*.mycompany.com” to your solution. In this case, it is not necessary to create a route for each consumer.
     
     </td>
     </tr>
@@ -223,12 +230,12 @@ You have created a solution \(see [Create Solution](create-solution-aca34fa.md)\
     </td>
     <td valign="top">
     
-    At least one subdomain needs to be maintained for the shared domain type.
+    At least one subdomain needs to be maintained. A route will be created for each subdomain that is maintained.
     
     </td>
     <td valign="top">
     
-    Subdomains are not visible.
+    If a wildcard route is not used, at least one subdomain needs to be maintained.
     
     </td>
     </tr>

@@ -20,7 +20,7 @@ Learn how to import content from your abapGit repository into your ABAP environm
 -   You have assigned a developer user in the ABAP environment to the developer role. See [Assigning the ABAP Developer User to the ABAP Developer Role](../20-getting-started/assigning-the-abap-developer-user-to-the-abap-developer-role-13b2cfb.md).
 
 > ### Restriction:  
-> Please note that abapGIT is an open-source project owned by the community. Therefore, we do not provide support for abapGIT. We only support the abapGIT integration in the ABAP environment.
+> Please note that abapGit is an open-source project owned by the community. Therefore, we do not provide support for abapGit. We only support the abapGit integration in the ABAP environment.
 
 
 

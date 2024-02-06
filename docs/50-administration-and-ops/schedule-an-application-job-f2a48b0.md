@@ -34,23 +34,6 @@ Comment
 <tr>
 <td valign="top">
 
-JobUser
-
-</td>
-<td valign="top">
-
-Optional
-
-</td>
-<td valign="top">
-
-This is the user performing the job.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 TestModeInd
 
 </td>

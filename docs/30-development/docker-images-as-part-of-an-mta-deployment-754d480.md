@@ -4,7 +4,7 @@
 
 Deploy Docker images as part of a Multitarget application.
 
-You can depoy your own or 3rd party Docker images in the Cloud Foundry environment by referencing them in an application module.
+You can deploy your own or 3rd party Docker images in the Cloud Foundry environment by referencing them in an application module.
 
 This type of application deployment is faster, as images are already built. Thus, staging is not required, and also all dependencies are statically included in the image.
 
@@ -35,9 +35,9 @@ To deploy a Docker image as a Cloud Foundry application, your deployment descrip
 
 Using the parameters above:
 
--   `image` - you reference the location of the image so that it can be scheduled for download by the patform. You have to provide the location of the image using the format `<registry.domain><:port>/repo/image:<tag>`. If you do not do so, images are referenced from Docker Hub. See more about deploying an application with Docker in the provided link at the end of the section.
+-   `image` - you reference the location of the image so that it can be scheduled for download by the platform. You have to provide the location of the image using the format `<registry.domain><:port>/repo/image:<tag>`. If you don't do so, images are referenced from Docker Hub. See more about deploying an application with Docker in the provided link at the end of the section.
 -   \(Optional\) `username` and `password` - you provide credentials in the descriptor only when the image repository requires them.
--   Only when you create an MTA development descriptor \(`mta.yaml`\) to build with the Cloud MTA Build Tool, you have to enter the parameter `no-source: true` in the `build-parameters` section.
+-   `no-source` - set this parameter to `true` only when creating an MTA development descriptor \(`mta.yaml`\) that is meant to be used with the Cloud MTA Build Tool.
 
 **Related Information**  
 

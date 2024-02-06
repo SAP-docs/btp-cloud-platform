@@ -2,6 +2,8 @@
 
 # Set Up Inbound RFC from On-Premise Systems Using WebSocket RFC
 
+Learn how to set up an inbound RFC connection from an on-premise system to the ABAP environment using WebSocket RFC. Get instructions on creating a communication scenario and arrangement, as well as the necessary settings in the on-premise system.
+
 
 
 <a name="loiob76751c2591d41a69727c0f39a9bf1bb__section_jg4_l3s_qtb"/>
@@ -115,7 +117,7 @@ The API-URL defined in the Communication Arrangement without the `https://` pref
 </table>
 
 > ### Note:  
-> These settings are available with S/4HANA 1909. For older releases, you need to transform from a CPIC-based RFC to WebSocket RFC via Business Connector. See [SAP Business Connector](https://support.sap.com/en/product/connectors/bc.html) for more information.
+> These settings are available with SAP S/4HANA 1909. For older releases, you need to transform from a CPIC-based RFC to WebSocket RFC via Business Connector. See [SAP Business Connector](https://support.sap.com/en/product/connectors/bc.html) for more information.
 
 **Related Information**  
 

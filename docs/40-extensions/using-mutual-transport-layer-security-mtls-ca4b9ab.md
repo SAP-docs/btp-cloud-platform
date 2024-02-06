@@ -62,7 +62,10 @@ Before creating the HTTP destination, you have to generate an X509 certificate f
 
     -   In the *Certificate File Name* field, enter a name for the certificate.
 
-    -   In the *File Name Extension* dropdown menu, select *PEM*.
+    -   In the *File Name Extension* dropdown menu, select the type of keystore you want to use, for example *PEM* or *p12*.
+
+        > ### Note:  
+        > If you use SAP Cloud SDK to develop a JavaScript application, check the supported keystore types at [SAP Cloud SDK: Keystore Configuration](https://sap.github.io/cloud-sdk/docs/js/guides/trust-and-keystores#keystore-configuration).
 
     -   In the *Certificate Common Name* field, enter the name of the technical user for consuming the SAP SuccessFactors HXM Suite OData API.
 
@@ -153,7 +156,7 @@ You have to create an HTTP destination to be able to make calls to the SAP Succe
     
     Enter the URL of the SAP SuccessFactors OData API you want to consume with *cert.* before *successfactors.com*. For a list of the API Endpoint URL for the SAP SuccessFactors environments, see [List of SAP SuccessFactors API Servers](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/28bc3c8e3f214ab487ec51b1b8709adc/af2b8d5437494b12be88fe374eba75b6.html?version=LATEST&locale=en-US).
 
-    For example, *https://apisalesdemo8.cert.successfactors.com*.
+    For example, *https://api8sales.cert.successfactors.com*.
     
     </td>
     </tr>
@@ -199,13 +202,26 @@ You have to create an HTTP destination to be able to make calls to the SAP Succe
 
 5.  Choose *Export* to download the certificate you have generated and assigned to this destination.
 
-6.  Save the ZIP file to your local system and extract the PEM file.
+6.  Save the ZIP file to your local system and extract the keystore file.
 
-7.  Open the PEM file in an editor of your choice and delete the section between the lines *\-----BEGIN PRIVATE KEY-----* and *\-----END PRIVATE KEY-----* including these lines. Save the file.
+7.  Open the keystore file in an editor of your choice and extract the certificate chain from the keystore. For example:
+
+    -   If you are using the *PEM* keystore type:
+        1.  Decode the *.pem* file from Base64 format and create a new decoded *cert.pem* file.
+
+        2.  Open the *cert.pem* file and delete the section between the lines *\-----BEGIN PRIVATE KEY-----* and *\-----END PRIVATE KEY-----* including these lines. Save the file.
+
+
+    -   If you are using the *p12* keystore type:
+        1.  Decode the *.p12* file from Base64 format and create a new decoded *keystore.p12* file. For example, for Unix operating systems, use the command: `cat <your-file>.p12 | base64 --decode > keystore.p12`.
+
+        2.  Extract the certificate chain from the *keystore.p12* file and copy the result in a new *cert.pem* file. For example, for Unix operating systems, use the command: `openssl pkcs12 -info -in keystore.p12 -nokeys -out cert.pem`.
+
+        3.  Open the *cert.pem* file and clean *bag* attributes.
+
+
 
     > ### Note:  
-    > When you open the PEM file, it may be Base64-encoded and you may need to decode it. It can later be uploaded decoded, without the private key.
-    > 
     > Using this modified PEM file, you will create the X509 certificate mapping in SAP SuccessFactors. See [Create the X509 Certificate Mapping in SAP SuccessFactors](using-mutual-transport-layer-security-mtls-ca4b9ab.md#loioe90cafcd92a54d1cba7d7fa049f674fa).
 
 

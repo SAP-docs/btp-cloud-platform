@@ -10,9 +10,9 @@ When you enable trust with a tenant of SAP Cloud Identity Services - Identity Au
 
 ## Finding the Application for Your Subaccount
 
-The name of the application in the administration console of Identity Authentication that represents you subaccount has the prefix ***XSUAA\_*** or ***SAP BTP subaccount*** and the display name of your subaccount.
+The name of the application in the administration console of Identity Authentication that represents you subaccount has the prefix ***SAP BTP subaccount*** or ***XSUAA\_*** and the display name of your subaccount.
 
-If your subaccount is named ***My Subaccount***, the resulting application in Identity Authentication is ***XSUAA\_My Subaccount*** or ***SAP BTP subaccount My Subaccount***.
+If your subaccount is named ***My Subaccount***, the resulting application in Identity Authentication is ***SAP BTP subaccount My Subaccount*** or ***XSUAA\_My Subaccount***.
 
 
 

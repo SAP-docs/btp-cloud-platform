@@ -29,39 +29,39 @@ This is an example of a JSON file for a communication arrangement with an inboun
         "outboundAuthentication": "BasicAuthentication",
         "outboundServices": [
             {
-                "name": "Replicate Customers from S/4 System to Client",
+                "id": "DEBMAS_IDOC",
                 "isServiceActive": false
             },
             {
-                "name": "Replicate Suppliers from S/4 System to Client",
+                "id": "CREMAS_IDOC",
                 "isServiceActive": false
             },
             {
-                "name": "Replicate Company Addresses from S/4 System to Client",
+                "id": "ADRMAS_IDOC",
                 "isServiceActive": false
             },
             {
-                "name": "Replicate Workplace Addresses from S/4 System to Client",
+                "id": "ADR3MAS_IDOC",
                 "isServiceActive": false
             },
             {
-                "name": "Replicate Personal Addresses from S/4 System to Client",
+                "id": "ADR2MAS_IDOC",
                 "isServiceActive": false
             },
             {
-                "name": "Business Partner - Replicate from SAP S/4HANA Cloud to Client",
+                "id": "CO_MDG_BP_RPLCTRQ_SPRX",
                 "isServiceActive": false
             },
             {
-                "name": "Business Partner Relationship - Replicate from SAP S/4HANA Cloud to Client",
+                "id": "CO_MDG_BP_RELATIONSHIP_OUT_SPRX",
                 "isServiceActive": false
             },
             {
-                "name": "Business Partner - Send Confirmation from SAP S/4HANA Cloud to Client",
+                "id": "CO_MDG_BP_RPLCTCO_SPRX",
                 "isServiceActive": false
             },
             {
-                "name": "BP Relationship - Send Confirmation from SAP S/4HANA Cloud to Client",
+                "id": "CO_MDG_BP_RELATIONSHIP_CNF_OUT_SPRX",
                 "isServiceActive": false
             }
         ],
@@ -117,21 +117,14 @@ To communicate with SAP S/4HANA Cloud the extension application can use Principa
 This is useful in scenarios where you need to have restricted data access based on the logged-in user from your extension. Or, you want to ensure only users with the right permissions are able to update the system via extensions deployed in SAP BTP, Cloud Foundry runtime.
 
 ```json
-{ 
-    "systemName":"DEMO",
-    "communicationArrangement":{ 
-        "communicationArrangementName":"0013_ARRANGEMENT",
-        "scenarioId":"SAP_COM_0013",
-        "inboundAuthentication":"OAuth2SAMLBearerAssertion",
-        "outboundAuthentication":"NoAuthentication",
-        "outboundServices":[ 
-            { 
-                "name":"Launch SAP Web IDE",
-                "isServiceActive":false
-            }
-        ],
-        "communicationSystem":{ 
-            "communicationSystemHostname":"default.com"
+{
+    "systemName": "DEMO",
+    "communicationArrangement": {
+        "scenarioId": "SAP_COM_0213",
+        "communicationArrangementName": "0213_ARRANGEMENT",
+        "inboundAuthentication": "OAuth2SAMLBearerAssertion",
+        "communicationSystem": {
+            "communicationSystemHostname": "default.com"
         }
     }
 }
@@ -146,20 +139,88 @@ This is useful in scenarios where you need to have restricted data access based 
 This is an example of a JSON file for a communication arrangement with an outbound connection with authentication type *NoAuthentication*.
 
 ```json
-{ 
-    "systemName":"DEMO",
-    "communicationArrangement":{ 
-        "outboundAuthentication":"NoAuthentication",
-        "communicationArrangementName":"0215_ARRANGEMENT",
-        "scenarioId":"SAP_COM_0215",
-        "outboundServices":[ 
-            { 
-                "name":"SAP Enterprise Architecture Designer Integration",
-                "isServiceActive":true
+{
+    "systemName": "DEMO",
+    "communicationArrangement": {
+        "outboundAuthentication": "NoAuthentication",
+        "communicationArrangementName": "0215_ARRANGEMENT",
+        "scenarioId": "SAP_COM_0215",
+        "outboundServices": [
+            {
+                "id": "SAP_COM_0215_0001_REST",
+                "isServiceActive": true
             }
         ],
-        "communicationSystem":{
-            "communicationSystemHostname":"default.com"
+        "communicationSystem": {
+            "communicationSystemHostname": "default.com"
+        }
+    }
+}
+```
+
+
+
+<a name="loio80a7613a0d2346b6ac93fcdbb2489de8__section_hnf_15p_f1c"/>
+
+## Example for Enabling Communication Scenario of Type Client Certificate Authentication with Inbound Connection
+
+This is an example of a JSON file for a communication arrangement with an inbound connection with authentication type *ClientCertificateAuthentication*.
+
+```
+{
+    "systemName": "DEMO",
+    "communicationArrangement": {
+        "scenarioId": "SAP_COM_0724",
+        "communicationArrangementName": "CommunicationArrangementName",
+        "inboundAuthentication": "ClientCertificateAuthentication"
+    }
+}
+```
+
+
+
+<a name="loio80a7613a0d2346b6ac93fcdbb2489de8__section_bvs_25p_f1c"/>
+
+## Example for Enabling Communication Scenario of Type Client Certificate Authentication with Outbound Connection
+
+This is an example of a JSON file for a communication arrangement with an outbound connection with authentication type *ClientCertificateAuthentication*.
+
+```
+{
+    "systemName": "DEMO",
+    "communicationArrangement": {
+        "communicationArrangementName": "CommunicationArrangementName",
+        "scenarioId": "SAP_COM_0047",
+        "outboundAuthentication": "ClientCertificateAuthentication",
+        "communicationSystem": {
+            "communicationSystemHostname": "default.com"
+        }
+    }
+}
+```
+
+
+
+<a name="loio80a7613a0d2346b6ac93fcdbb2489de8__section_i35_25p_f1c"/>
+
+## Example for Enabling Communication Scenario of Type OAuth2mTLS
+
+This is an example of a JSON file for a communication arrangement with an outbound connection with authentication type *OAuth2mTLS*.
+
+```
+{
+    "systemName": "DEMO",
+    "communicationArrangement": {
+        "outboundAuthentication": "OAuth2mTLS",
+        "communicationArrangementName": "CommunicationArrangementName",
+        "scenarioId": "SAP_COM_0080",
+        "communicationSystem": {
+            "communicationSystemHostname": "default.com",
+            "oAuthAuthEndpoint":"oauth.com/oauth/authorize",
+            "oAuthTokenEndpoint":"oauth.com/oauth/token",
+            "outboundCommunicationUser": {
+                "username": "DefaultUser"
+            }
         }
     }
 }

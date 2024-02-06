@@ -30,7 +30,8 @@ You've created a communication scenario as described in [Defining a Communicatio
     7.  Save the outbound service.
 
 2.  Add the newly created outbound service to your scenario.
-3.  Adapt the communication arrangement call according to your needs as described in the example. See [Service Consumption via Communication Arrangements](service-consumption-via-communication-arrangements-86aece6.md) for more information. According to your developed communication scenario, add the following:
+3.  Publish the communication scenario. The administrator can then create the required communication management objects as described in [Test Your Outbound Call](http-communication-via-communication-arrangements-3047582.md#loio3047582e5c744bd9839a98c99bd224fa__section_tgg_1xx_qsb).
+4.  Adapt the communication arrangement call according to your needs as described in the example. See [Service Consumption via Communication Arrangements](service-consumption-via-communication-arrangements-86aece6.md) for more information. According to your developed communication scenario, add the following:
 
 
     <table>

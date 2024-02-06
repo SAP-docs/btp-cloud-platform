@@ -20,6 +20,9 @@ For more information on generating an RFC proxy class based on an SRVC, see [Gen
 
 In ADT, you can find an example code snippet in the SRVC object of the corresponding RFM.
 
+> ### Note:  
+> We recommend to create a new package for the Service Consumption Model. Generated objects are then created within this package. This allows better organization and clarity.
+
 
 
 <a name="loioa69e99c457a54ff881adcff843eea950__section_mlp_xlz_qsb"/>

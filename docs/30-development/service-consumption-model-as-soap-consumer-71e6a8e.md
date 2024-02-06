@@ -4,8 +4,8 @@
 
 A Service Consumption Model is the main requirement for consuming a web service in the ABAP environment. To learn how to create a Service Consumption Model with ABAP development tools for Eclipse \(ADT\), see [Creating Service Consumption Model](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/creating-service-consumption-model?version=sap_btp).
 
-> ### Recommendation:  
-> We recommend creating a Service Consumption Model in an empty package. Dependent enterprise service objects are reused between different Service Consumption Models in the same package.
+> ### Note:  
+> We recommend to create a new package for the Service Consumption Model. Generated objects are then created within this package. This allows better organization and clarity.
 
 For the consumption type web service, you need to upload the WSDL of the service you want to consume. See [Generating Proxies for Remote Web Service](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/generating-proxies-for-remote-web-service?version=sap_btp). Upon successful activation, all the dependent objects are created and displayed in the ADT project explorer, such as:
 

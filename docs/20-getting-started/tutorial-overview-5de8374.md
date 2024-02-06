@@ -255,6 +255,8 @@ without group/mission:
 
 -   [RAP Feature Showcase App](https://github.com/SAP-samples/abap-platform-fiori-feature-showcase)
 
+-   [Create a Travel App with SAP Fiori Elements Based on OData V4 RAP Service](https://developers.sap.com/group.fiori-tools-odata-v4-travel.html)
+
 
 *Group:*
 

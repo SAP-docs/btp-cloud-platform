@@ -6,6 +6,9 @@
 
 ## Context
 
+> ### Note:  
+> The following procedure is for developers. If you have the role of an administrator, see [Tracing SQL Activities for Administrators](tracing-sql-activities-for-administrators-28c007c.md).
+
 During developing and operating applications on your ABAP environment, these situations are typical when you take an SQL trace of your ABAP application and turn to the SQL trace analysis:
 
 -   You want to analyze the performance of the SQL statements of your ABAP application in the sequence as they run.

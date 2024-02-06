@@ -10,7 +10,7 @@ If you want to use SAP Event Mesh as backend for Kyma Eventing, you must first s
 
 ## Prerequisites
 
--   You have enabled the Kyma Eventing module. See [Enable and Disable a Kyma Module](../50-administration-and-ops/enable-and-disable-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+-   You have enabled the Kyma Eventing module. See [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 
 
 

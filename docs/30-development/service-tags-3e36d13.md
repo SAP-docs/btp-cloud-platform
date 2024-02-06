@@ -4,7 +4,7 @@
 
 Some services provide a list of tags that are later added to the *<VCAP\_SERVICES\>* environment variable. These tags provide a more generic way for applications to parse *<VCAP\_SERVICES\>* for credentials.
 
-You can also provide custom tags when creating a service instance. To inform the SAP Cloud Deployment service about custom tags, you can use the special `service-tags` parameter, which must be located in the `resources` definition that represent the managed services, as illustrated in the following example:
+You can also provide custom tags when creating a service instance. To inform the SAP Cloud Deployment service about custom tags, you can use the special `service-tags` parameter. This parameter must be located in the `resources` definition that represent the managed services, as illustrated in the following example:
 
 > ### Sample Code:  
 > Defining Service Tags in the MTA Deployment Descriptor

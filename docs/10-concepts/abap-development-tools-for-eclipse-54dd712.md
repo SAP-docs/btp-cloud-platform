@@ -56,8 +56,6 @@ The [ABAP Development Tools: User Guide](https://help.sap.com/docs/abap-cloud/ab
 
 The [ABAP CDS Development Tools: User Guide](https://help.sap.com/docs/abap-cloud/abap-cds-tools-user-guide/about-abap-cds-development-tools-user-guide?version=sap_btp) describes the functionality and usage of tools for ABAP Core Data Services \(CDS\) in the ABAP environment. It focuses on use cases for creating, editing, testing, and analyzing ABAP CDS entities.
 
-The [ABAP for SAP HANA Development Tools: User Guide](https://help.sap.com/docs/abap-cloud/abap-hana-tools-user-guide/about-abap-for-sap-hana-development-tools-user-guide?version=sap_btp) describes the basic idea to manage SAP HANA procedures and their lifecycle inside the ABAP server. To allow native consumption of SAP HANA features from within the ABAP layer, the SAP HANA database procedure language SQLScript has been integrated into the ABAP stack.
-
 
 
 <a name="loio54dd7126d5b74efeb7a21f6b0bfe5f1a__section_u2q_wh3_hxb"/>

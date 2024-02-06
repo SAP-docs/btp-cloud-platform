@@ -2,7 +2,7 @@
 
 # Service Binding Parameters
 
-Some services support additional configuration parameters with the bind request. These parameters are passed in a valid JSON object containing service-specific configuration parameters, provided either in-line or in a file. For a list of supported configuration parameters, see documentation for the particular service offering.
+Some services support additional configuration parameters with the bind request. These parameters are passed in a valid JSON object containing service-specific configuration parameters, provided either in-line or in a file. For a list of supported configuration parameters, see the documentation for the particular service offering.
 
 > ### Note:  
 > At the time being user-provided services do not support arbitrary binding parameters.
@@ -137,7 +137,7 @@ Combination of the two methods
 
 Method 1 shows how to define the service-binding parameters in the MTA deployment descriptor \(`mtad.yaml`\). If you use this method, all parameters under the special `config` parameter are used for the service-bind request. This parameter is optional.
 
-Method 2 shows how to define the service-binding parameters for a service-bind request in a JSON file. Using this method, there are dependencies on entries in other configuration files. For example, if you use this JSON method, an additional entry must be included in the `MANIFEST.MF` file which defines the path to the JSON file containing the parameters as well as the name of the resource for which the parameters should be used.
+Method 2 shows how to define the service-binding parameters for a service-bind request in a JSON file. Using this method, there are dependencies on entries in other configuration files. For example, when using the JSON method, an additional entry must be included in the `MANIFEST.MF` file. This new entry has to define the path to the JSON file that contains the parameters and the name of the resource for which the parameters should be used.
 
 Note that when you use the combination of the two methods, the parameters defined in the descriptor have higher priority than the ones defined in the JSON file.
 

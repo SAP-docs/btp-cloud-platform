@@ -17,6 +17,8 @@ The ABAP environment enables you to **expose**:
 -   HTTP services. See [Working with the HTTP Service Editor](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/494a02697388437aa71067dd95b2c561.html).
 -   SQL services. See [Consumption of the SQL Service and the ODBC Driver for ABAP](consumption-of-the-sql-service-and-the-odbc-driver-for-abap-6ac9ec8.md).
 -   RFC function modules. See [Develop a Remote-Enabled Function Module \(RFM\)](develop-a-remote-enabled-function-module-rfm-abf7105.md).
+-   SOAP web services. See
+
 
 With your ABAP applications, you can **consume**:
 
@@ -38,8 +40,6 @@ With your ABAP applications, you can **consume**:
 [ABAP Development Tools for Eclipse: User Guide](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/about-abap-development-tools-user-guide?version=sap_btp)
 
 [ABAP CDS Development User Guide](https://help.sap.com/docs/abap-cloud/abap-cds-tools-user-guide/about-abap-cds-development-tools-user-guide?version=sap_btp)
-
-[ABAP for SAP HANA Development User Guide](https://help.sap.com/docs/abap-cloud/abap-hana-tools-user-guide/about-abap-for-sap-hana-development-tools-user-guide?version=sap_btp)
 
 [ABAP Keyword Documentation](abap-keyword-documentation-1632c79.md)
 

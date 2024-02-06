@@ -58,7 +58,7 @@ See also the sections below and [Managing Entitlements and Quotas Using the Cock
 
 Entitlements and quotas are purchased and managed at global account level, from where they’re distributed to subaccounts, which consume them.
 
-When you remove quotas or entitlements from a subaccount, they become available again at global account level and can be assigned to other subaccounts.
+When you remove quotas or assignments from a subaccount, they become available again at global account level and can be assigned to other subaccounts.
 
 For example, let's say you've purchased 10 units of service plan <x\> for your global account. If you have 3 subaccounts in your global account and you assign all 10 units to only one of them, the other 2 subaccounts won't be able to use that service plan at all. You would have to remove some quota from that one subaccount and then entitle that service plan to the other subaccount, distributing the globally available quota among them.
 
@@ -70,16 +70,16 @@ For more information, see [Configure Entitlements and Quotas for Subaccounts](..
 
 ## Distribution and Usage of Entitlements and Quotas \[Feature Set B\]
 
-Entitlements and quotas are purchased and managed at global account level, from where they’re distributed to directories and/or subaccounts, which consume them. Assigning entitlements to directories is optional.
+Entitlements and quotas are purchased and managed at global account level, from where they’re distributed to subaccounts, which consume them.
 
 > ### Tip:  
-> By default, directories are not enabled to manage entitlements. This feature needs to be enabled per directory by the global account administrator.
+> You can also distribute entitlements to directories, and then redistribute to the subaccounts under the directories; however, this is optional. By default, directories are not enabled to manage entitlements. This feature needs to be enabled per directory by the global account administrator.
 
 When assigning entitlements and quotas to directories, you also have the option to automatically assign a set amount of quota to each new subaccount added to the directory. This option doesn’t apply to subaccounts that are already in the directory when you select this option. The quota you assigned to the directory is then gradually distributed to all subaccounts that you add to that directory, until it runs out. Once the directory quota runs out, if you add a new subaccount to that directory it won't get any quota automatically anymore.
 
 Since directories are only a way of grouping subaccounts, you can't consume a service at directory level. However, when you assign entitlements and quotas from the global account to a directory, the quota you assigned is shown as used, even if there are no subaccounts in that directory to consume the quota. You can think of it as a way to "reserve" quota and make sure it's not assigned to other subaccounts or directories.
 
-When you remove quotas or entitlements from a directory or subaccount, they become available again at global account level and can be assigned to other directories or subaccounts; unless the quota is reserved for a given directory then the freed quota remains available only to that directory and its subaccounts.
+When you remove quotas or assignments from a directory or subaccount, they become available again at global account level and can be assigned to other directories or subaccounts; unless the quota is reserved for a given directory then the freed quota remains available only to that directory and its subaccounts.
 
 > ### Note:  
 > Before a subaccount admin can enable a quota-based environment, such as Kyma, the subaccount admin must first assign the environment as an entitlement to the subaccount. Other environments, such as Cloud Foundry, are available by default to all subaccounts, and therefore are not available as entitlements.

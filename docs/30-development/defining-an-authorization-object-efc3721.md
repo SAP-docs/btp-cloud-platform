@@ -10,7 +10,7 @@ As in the scenario for granting access based on activities, you define an author
 
 ## Procedure
 
-Follow the procedure in the ABAP development guide: [Defining an Authorization Object](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/6135edd0bf75427fa932875a6e3b0378.html).
+Follow the instructions for defining authorization objects in the [user guide for ABAP development tools](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide) \(ADT\).
 
  > ### Tip:  
 > In our example, in the newly created authorization object, under *Authorization Fields*, you need the following:

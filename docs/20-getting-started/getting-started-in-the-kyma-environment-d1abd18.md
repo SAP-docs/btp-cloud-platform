@@ -30,25 +30,27 @@ As an administrator, you must perform several steps to set up a fully operationa
 
 1.  Set up a Kubernetes cluster with the project "Kyma" to connect and extend SAP systems: [Create the Kyma Instance](../50-administration-and-ops/create-the-kyma-instance-09dd313.md)
 
-2.  Assign the roles to users to allow the administrators to manage Kyma and the developers to create Functions: [Assign Roles in the Kyma Environment](../50-administration-and-ops/assign-roles-in-the-kyma-environment-148ae38.md)
+2.  Add the modules you'd like to use: [Kyma Modules](../10-concepts/kyma-modules-0dda141.md).
+
+3.  Assign the roles to users to allow the administrators to manage Kyma and the developers to create Functions: [Assign Roles in the Kyma Environment](../50-administration-and-ops/assign-roles-in-the-kyma-environment-148ae38.md)
 
     > ### Caution:  
     > Assign the roles before the users start using the Kyma dashboard. Not granting the roles results in an error.
 
-3.  Use the Kyma environment to integrate external systems: [Register an SAP Customer Experience System](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/1582d723f3814d30beba5fc0daa0bb0d.html)
+4.  Use the Kyma environment to integrate external systems: [Register an SAP Customer Experience System](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/1582d723f3814d30beba5fc0daa0bb0d.html)
 
     You have the following options:
 
-    -   Integrate a CX system and the Kyma environment so that the Functions you develop can use the system's API and receive business events.
+    -   Integrate a CX system and the Kyma environment, so that the Functions you develop can use the system's API and receive business events.
 
     -   Integrate an SAP S/4 HANA Cloud system to use the services it provides to extend your applications.
 
 
     After you've integrated externals systems, the developers can start working on their Functions.
 
-4.  Extend SAP S/4HANA Cloud by developing event-driven extensions and applications: [Extending SAP S/4HANA Cloud in the Cloud Foundry and Kyma Environment](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/40b9e6c3cc43498b92472da13e88c7bf.html)
+5.  Extend SAP S/4HANA Cloud by developing event-driven extensions and applications: [Extending SAP S/4HANA Cloud in the Cloud Foundry and Kyma Environment](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/40b9e6c3cc43498b92472da13e88c7bf.html)
 
-5.  Group several solutions into one formation to meet the requirements of your business scenario: [Including SAP Systems in a Formation](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/68b04fa73aa740cb96ed380a85a4761a.html)
+6.  Group several solutions into one formation to meet the requirements of your business scenario: [Including SAP Systems in a Formation](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/68b04fa73aa740cb96ed380a85a4761a.html)
 
 
 

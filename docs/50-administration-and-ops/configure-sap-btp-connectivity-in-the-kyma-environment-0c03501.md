@@ -10,7 +10,7 @@ Extend your Kyma environment with SAP BTP Connectivity.
 
 -   The Connectivity service entitlement is present within your subaccount with the service plan `connectivity_proxy`. To learn how to configure your entitlements, see [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
 
--   You have enabled the BTP Operator module. To learn how to do it, see [Enable and Disable a Kyma Module](enable-and-disable-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+-   You have enabled the BTP Operator module. To learn how to do it, see [Add and Delete a Kyma Module](add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 
 
 

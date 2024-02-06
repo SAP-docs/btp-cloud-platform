@@ -14,7 +14,7 @@ In the following, we assume that the bonus calculation service has a bonus varia
 
 ## Procedure
 
-1.  Create an authorization field `ZBNS_VARN` for the bonus variant by following the procedure in the ABAP development guide: [Defining Authorization Fields](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/cd2bb3a279454b1eab7d28c371740a5c.html).
+1.  To create an authorization field `ZBNS_VARN` for the bonus variant, following the procedure for defining authorization fields in the [user guide for ABAP development tools](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide) \(ADT\).
 
 2.  In the *Data Element* field, enter the data element for the bonus variant.
 

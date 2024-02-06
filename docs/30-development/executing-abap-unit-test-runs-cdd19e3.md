@@ -25,7 +25,7 @@
 
 ABAP Unit is the standard tool for executing unit tests. In this help topic, you'll learn how to trigger an ABAP Unit Test Run via REST Service.
 
-For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/latest/en-US/4ec7641e6e391014adc9fffe4e204223.html).
+For more information about ABAP Unit, see [Ensuring Quality of ABAP Code](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/ensuring-quality-of-abap-code?version=sap_btp).
 
 
 

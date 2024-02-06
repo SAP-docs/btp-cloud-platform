@@ -40,7 +40,7 @@ Show the security settings of a subaccount
 </td>
 <td valign="top">
 
-[https://help.sap.com/docs/BTP/btp-cli/btp-list-security-settings.html](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-settings.html)
+[btp list security/settings](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-settings.html)
 
 </td>
 </tr>
@@ -57,7 +57,7 @@ Update the security settings of a subaccount
 </td>
 <td valign="top">
 
-[https://help.sap.com/docs/BTP/btp-cli/btp-update-security-settings.html](https://help.sap.com/docs/BTP/btp-cli/btp-update-security-settings.html)
+[btp update security/settings](https://help.sap.com/docs/BTP/btp-cli/btp-update-security-settings.html)
 
 </td>
 </tr>

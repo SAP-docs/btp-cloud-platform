@@ -16,20 +16,12 @@ AbapGit in Steampunk offers two folder logics, either “Prefix” or “Full”
 
 The folder logic PREFIX allows the installation of a repository into a different parent package \(in different systems\). This can even be a local package \(ZLOCAL\), in which case no transport request is required. A package name must contain its parent package name as a prefix. This means that the names of the subpackages will start with the name of the parent package, for example:
 
--   TEST\_MYTEST\_01
--   TESTMYTEST01\_RUN\_01
--   TESTMYTEST01\_RUN\_02
+-   TESTMYTEST01 \(parent\)
+-   TESTMYTEST01\_RUN\_01 \(child1\)
+-   TESTMYTEST01\_RUN\_02 \(child2\)
 
 > ### Note:  
 > The prefix folder logic will not work correctly if you do not follow the convention.
-
-When importing the content into a package **Z\_*****MYTEST*****\_01** you will get the following folder logic.
-
--   ZMYTEST01
--   ZMYTEST01\_RUN\_01
--   ZMYTEST01\_RUN\_02
-
-
 
 Other examples, including valid package prefix:
 

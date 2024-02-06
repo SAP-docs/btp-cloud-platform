@@ -56,5 +56,5 @@ For more information, see [Migrate from SAML Trust Configuration to OpenID Conne
 
 ## Results
 
-The original SAML trust configuration has been restored, with its original role collection assignments and origin key. The respective OIDC trust configuration no longer exists. In your Identity Authentication tenant, the application for the OIDC trust configuration, ***XSUAA\_*<subaccount\_display\_name\>**** has been deleted.
+The original SAML trust configuration has been restored, with its original role collection assignments and origin key. The respective OIDC trust configuration no longer exists. In your Identity Authentication tenant, the application for the OIDC trust configuration, ***SAP BTP subaccount *<subaccount\_display\_name\>**** has been deleted.
 

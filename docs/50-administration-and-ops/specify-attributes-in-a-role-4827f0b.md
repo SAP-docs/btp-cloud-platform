@@ -10,10 +10,10 @@ As an administrator of the Cloud Foundry environment, you can specify attributes
 
 ## Prerequisites
 
-You have maintained the attributes of the users in your identity provider if you want to use the identity provider as the source of the attributes.
+You have maintained the attributes of the users in your identity provider.
 
 > ### Note:  
-> In Identity Authentication or any SAML identity provider, you find the attributes in the SAML 2.0 configuration.
+> In Identity Authentication or any identity provider, you find the attributes in the configuration.
 
 
 
@@ -29,7 +29,7 @@ You have maintained the attributes of the users in your identity provider if you
 
 5.  Choose *Security* \> *Roles*.
 
-6.  Choose ![](images/Edit_Icon_abfe424.png) \(Edit\).
+6.  Select a role.
 
     The role overview pane displays the attribute name and fields where you can select the source and enter a value.
 
@@ -49,7 +49,7 @@ You have maintained the attributes of the users in your identity provider if you
     </th>
     <th valign="top">
 
-    Value/SAML Attribute
+    Value/Attribute
     
     </th>
     </tr>
@@ -73,17 +73,17 @@ You have maintained the attributes of the users in your identity provider if you
     <tr>
     <td valign="top">
     
-    *Identity Provider \(SAML\)* 
+    *Identity Provider* 
     
     </td>
     <td valign="top">
     
-    Enter an assertion attribute as defined in your identity provider. Check in your identity provider for the exact syntax of the assertion attribute identifier.
+    Enter an attribute as defined in your identity provider. Check in your identity provider for the exact syntax of the attribute identifier.
 
-    In the case of an SAP Cloud Identity Services - Identity Authentication, you find the attribute identifier in the settings of the SAML assertion attributes of your SAML identity provider under *Applications & Resources* \> *Applications*.
+    For Identity Authentication, you find the attribute identifier in the settings of the attributes of your identity provider under *Applications & Resources* \> *Applications* \> **<Application\_Name\>** \> *Trust* \> *Attributes*.
 
     > ### Example:  
-    > To use the assertion attribute for cost center, you must enter the value `cost_center`.
+    > To use the attribute for cost center, you must enter the value `cost_center`.
 
 
     

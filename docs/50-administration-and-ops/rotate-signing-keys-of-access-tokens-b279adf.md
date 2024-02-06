@@ -26,6 +26,8 @@ Components of the Cloud Foundry environment use the digital signature of the acc
 
 
 
+<a name="loiob279adf3ec134b2a8611a42bff1ee9d9__steps_l1y_bbl_31c"/>
+
 ## Procedure
 
 1.  Check that there's space for a new signing key.

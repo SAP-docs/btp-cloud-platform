@@ -184,7 +184,7 @@ SAP BTP ABAP Environment - Software Component Test Integration \(SAP\_COM\_0510\
 </td>
 <td valign="top">
 
-[\(Deprecated\) Test Integration \(SAP\_COM\_0510\)](../30-development/deprecated-test-integration-sap-com-0510-b04a9ae.md)
+[Test Integration \(SAP\_COM\_0510\)](../30-development/test-integration-sap-com-0510-b04a9ae.md)
 
 </td>
 </tr>

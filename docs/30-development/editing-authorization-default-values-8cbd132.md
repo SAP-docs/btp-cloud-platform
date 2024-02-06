@@ -10,7 +10,7 @@ Authorization default values are automatically created when you create a service
 
 The authorization default values are shown when you include an authorization object into a communication scenario. These values are assigned to communication user if you leave them unchanged. Note, however, you can overwrite the authorization default values by values set in the communication scenario.
 
-For more information about authorization default values, see [Maintaining Authorization Default Values](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/2ddcb89fced046f3a2392092c846a9de.html) in the ABAP development user guide.
+For more information about authorization default values, see the [user guide for ABAP development tools](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/about-abap-development-tools-user-guide).
 
 
 

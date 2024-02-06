@@ -21,7 +21,7 @@ In most of cases, an MTA module represents a Cloud Foundry application, but ther
 
 ## MTA Deployment Optimizations
 
-The MTA deployment is an incremental process. This means that the state of the artifacts in the Cloud Foundry environment is compared to the desired state described in the `mtad.yaml`, and then the set of operations to change the current state of the MTA to the desired state are computed. The following optimizations are possible during the MTA redeployment:
+The MTA deployment is an incremental process. This means that the state of the artifacts in the Cloud Foundry environment is compared to the desired state described in the `mtad.yaml`. If there's a difference, a set of operations are computed in order to make the MTA reach the desired state. The following optimizations are possible during the MTA redeployment:
 
 -   The application bits are reuploaded if:
     -   The application content is changed and there is no cache of the same content for a different application, even in a different space. The Cloud Foundry environment has global caching of application bits without organizational and space isolation.
@@ -33,7 +33,7 @@ The MTA deployment is an incremental process. This means that the state of the a
     -   There are services the application is bound to, which are discontinued \(not available\) in the new version of the MTA
 
         > ### Note:  
-        > Currently, Cloud Foundry environment applications are restaged if they are bound to any service with parameters, because it is not possible to get the current Cloud Foundry service parameters and compare them with the desired ones.
+        > Currently, Cloud Foundry environment applications are restaged if they are bound to any service with parameters. This is necessary, because it's not possible to get the current Cloud Foundry service parameters and compare them with the desired ones.
 
     -   The application is bound to service configuration parameters that have been changed. This requires an update of the service instance and rebind, restage, and restart of the application.
     -   The service binding parameters are changed. This requires an update of the service binding and restage of the application.

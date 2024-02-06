@@ -189,7 +189,7 @@ To deliver a new patch version, see the following steps:
 
     As an add-on admin, you can use the Build Product Version app in the Landscape Portal to create new patches:
 
--   Make sure that the pipeline template for Patch Delivery is configured. If you want to validate the add-on build beforehand, configure the template for Test Patch Delivery as well. See [Configure Pipeline Template](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud).
+-   Make sure that the pipeline template for Patch Delivery is configured. If you want to validate the add-on build beforehand, configure the template for Test Patch Delivery as well. See [Configure Pipeline Template](https://help.sap.com/docs/btp/sap-business-technology-platform/configure-pipeline-template?version=Cloud).
 
 -   Choose the parent version that shall be patched and create a new product version of type Patch Delivery. See [Create a New Product Version](https://help.sap.com/docs/btp/sap-business-technology-platform/create-new-product-version?version=Cloud).
 

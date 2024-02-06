@@ -32,6 +32,4 @@ To help you create concise and comprehensible models with CDS, we have put toget
 
 -   [Native SAP HANA](https://cap.cloud.sap/docs/guides/databases-hana) - How to use existing database objects with CDS.
 
--   [Continuous Integration and Delivery](continuous-integration-and-delivery-fdead30.md#loiofdead30953d24c0ca75768e2c3bcdd2c) - Use CI/CD to automatically test, build, and deploy your code changes.
-
 

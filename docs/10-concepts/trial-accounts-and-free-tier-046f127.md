@@ -86,7 +86,7 @@ In the [SAP Discovery Center service catalog overview](https://discovery-center.
 
 -   You can use productive and beta services. To consume beta services, you must enable the subaccount for beta features during the subaccount creation or when you edit the subaccount details.
 
--   You can manage security users in your subaccounts by assigning them role collections. For more information, see [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
+-   You can manage platform users by assigning them role collections. For more information, see [Working with Role Collections](https://help.sap.com/docs/btp/sap-business-technology-platform/working-with-role-collections?version=Cloud).
 
 -   A trial account includes 4 GB of memory for applications.
 
@@ -105,6 +105,7 @@ In the [SAP Discovery Center service catalog overview](https://discovery-center.
     > ### Note:  
     > Applications are stopped at midnight \(or some time later depending on server load\) relative to the region in which you created your trial account. If you're working in a time zone that is far from the region where your trial account was created, then your applications may stop during business hours.
 
+-   You can have a trial tenant of SAP Cloud identity Services, see [Get Your Tenant](https://help.sap.com/docs/cloud-identity/what-are-sap-cloud-identity-services/get-your-tenant?version=Cloud#get-trial-tenant).
 
 **Related Information**  
 

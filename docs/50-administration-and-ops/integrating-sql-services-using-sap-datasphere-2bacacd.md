@@ -2,13 +2,13 @@
 
 # Integrating SQL Services Using SAP Datasphere
 
-You need this integration scenario \(`SAP_COM_0532`\) if you want to create a replication flow in SAP Datasphere to subscribe to CDS views exposed by SQL Services.
+You need the integration scenario `SAP_COM_0532` if you want to create a replication flow in SAP Datasphere to subscribe to CDS view entities from an ABAP system and consume data from these views. With a communication arrangement based on`SAP_COM_0532` combined with a communication arrangement for exposing the SQL service, you can consume data from custom CDS view entities that are exposed using the SQL service.
 
 The connection that you establish for this scenario is shared by all SAP Datasphere users, and SAP Datasphere controls the usage of the connection and accessed data assets through its integrated policy management agent.
 
-SAP Datasphere connects to the CDC \(Change Data Capture\) functionality for CDS views that records changes of exposed CDS views. This component allows multiple consumers to subscribe to a CDS view to get the CDS data including the option for delta recording and delta consumption.
+SAP Datasphere connects to the CDC \(Change Data Capture\) functionality for CDS view entities that records changes of exposed CDS view entities. This component allows multiple consumers to subscribe to a CDS view entity to get the CDS data including the option for delta recording and delta consumption.
 
-SAP Datasphere either adds another subscription to an existing CDS extraction process \(if the CDS view is already processed by another subscriber\) or creates a new extraction process and adds a subscription \(if the CDS view is configured for extraction the first time\), followed by the consumption of the data.
+SAP Datasphere either adds another subscription to an existing CDS extraction process \(if the CDS view entity is already processed by another subscriber\) or creates a new extraction process and adds a subscription \(if the CDS view entity is configured for extraction the first time\), followed by the consumption of the data.
 
 
 
@@ -20,7 +20,7 @@ SAP Datasphere either adds another subscription to an existing CDS extraction pr
 
 -   The user in the SAP system that you use to complete the configuration steps should have administrator privileges or at least Business Catalog ID `SAP_CORE_BC_COM` for access to *Communication Management*.
 
--   You have exposed the relevant CDS views using SQL Services.
+-   You have already created a communication arrangement based on a communication scenario with object privileges so that the communication user in the ABAP system can access the service binding of the SQL service.
 
 
 
@@ -48,5 +48,5 @@ SAP Datasphere either adds another subscription to an existing CDS extraction pr
 8.  Test the connection by choosing the *Validate* button. Ensure that the status is *OK* before proceeding.
 
 
-You can now create a replication flow in SAP Datasphere to consume data from CDS views.
+You can now create a replication flow in SAP Datasphere to consume data from CDS view entities.
 

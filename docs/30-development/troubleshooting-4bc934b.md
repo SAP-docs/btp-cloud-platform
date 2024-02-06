@@ -26,7 +26,7 @@ There’s an app for troubleshooting available: With the *Display Authorization 
 
 ## Debugging
 
-You can use the ABAP Debugger in ABAP Development Tools to gain more insights about authorization checks. You can do so by activating a breakpoint next to the performed `AUTHORITY-CHECK` as well as by adjusting the breakpoint activation to be effective for the relevant developer user.
+You can use the ABAP Debugger in ABAP development tools to gain more insights about authorization checks. You can do so by activating a breakpoint next to the performed `AUTHORITY-CHECK` as well as by adjusting the breakpoint activation to be effective for the relevant developer user.
 
 
 
@@ -34,5 +34,5 @@ You can use the ABAP Debugger in ABAP Development Tools to gain more insights ab
 
 ## More Information
 
-[ABAP Debugger](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/4ec365a66e391014adc9fffe4e204223.html)
+For more information about the ABAP debugger, see the [user guide for ABAP development tools](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide) \(ADT\).
 

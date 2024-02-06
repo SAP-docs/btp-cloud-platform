@@ -109,7 +109,7 @@ Examples of configuration change events are creation/deletion of service instanc
 
 
 
-### Do the enablement and entitlements
+### Do the Enablement and Entitlements
 
 As a first step to use the Audit Log Write API, make sure that the service is enabled for your subaccount and that there is an entitlement for the premium plan of the service.
 
@@ -122,7 +122,7 @@ If the *Audit Log Service* of plan *premium* is not visible from the account coc
 
 
 
-### Create a service instance
+### Create a Service Instance
 
 The *premium* plan of the auditlog service uses mTLS authentication via X.509 certificates. To create a service instance via the account cockpit, do the following:
 
@@ -130,7 +130,7 @@ The *premium* plan of the auditlog service uses mTLS authentication via X.509 ce
 2.  Choose a runtime and a name for the service instance.
 3.  Specify a unique *xsappname* per subaccount for each instance and provide the x509 authentication parameters during service instance creation.
 
-    You can also create a service instance via the CF client with the following command:
+    You can also create a service instance via the CF client with the following sequence of commands:
 
     ```
     cf api <cf-domain>
@@ -153,7 +153,7 @@ The *premium* plan of the auditlog service uses mTLS authentication via X.509 ce
 
 
 
-### Create a service key
+### Create a Service Key
 
 The service keys provide credentials and URLs for interacting with your service instance. You can create a service key in one of the following ways: from the account cockpit or via CF command.
 
@@ -177,7 +177,7 @@ The service keys provide credentials and URLs for interacting with your service 
 
 
 
-### Create a service binding
+### Create a Service Binding
 
 Like service keys, the classical service bindings provide credentials and endpoints for using a service instance and are mainly intended to be used with Cloud Foundry applications. You can bind a CF application to one or more service instances. As a result, in the VCAP\_SERVICES application environment variable there is a dedicated JSON object for each service binding.
 
@@ -251,7 +251,7 @@ You can perform the binding operation directly from the account cockpit settings
 
 
 
-### Obtain credentials for authentication and authorization
+### Obtain Credentials for Authentication and Authorization
 
 This section describes the approach to obtain credentials for authentication and authorization towards the Audit Log Write API.
 
@@ -346,7 +346,7 @@ This section describes the approach to obtain credentials for authentication and
     ```
     curl --location --request POST 'https://api.auditlog.<url-host>:6081/audit-log/oauth2/v2/configuration-changes' \
     --header 'Content-Type: application/json' \
-    --header 'Authorization: Bearer <token> \
+    --header 'Authorization: Bearer <token>' \
     --data-raw ‘{message-content}’
     
     ```
@@ -388,7 +388,7 @@ The endpoints exposed for the *premium* service plan for the 4 types of audit lo
 
 
 
-### Response status codes
+### Response Status Codes
 
 The following response status codes can be returned from the Audit Log Write API:
 
@@ -529,7 +529,7 @@ Load balancer issue.
 
 
 
-### Audit log message format
+### Audit Log Message Format
 
 The audit log record contains the following two main parts - the first one is filled in by the user of the audit log service and the second one, mainly in the metadata part of the message, is filled in by the audit logging framework.
 
@@ -826,16 +826,16 @@ This section contain examples for writing audit log events using `curl` demo pur
 
 
 
-### Writing a security event
+### Writing a Security Event
 
 Mandatory fields: `uuid`, `user`, `tenant`, `time`, `data`, `tenant`.
 
 ```
 curl --location --request POST 'https://api.auditlog.cf.<host>:6081/audit-log/oauth2/v2/security-events' \
 --header 'Content-Type: application/json' \
---header 'Authorization: Bearer <JWT-token-value> \
+--header 'Authorization: Bearer <JWT-token-value>' \
 --data-raw '{
-  "uuid": "E2B74CFF-C7C2-4A78-BF6A-337E3431884E",
+  "uuid": "<uuid-value>",
   "user": "$USER",
   "time": "2023-06-30T00:00:00.000Z",
   "ip": "127.0.0.1",
@@ -847,19 +847,19 @@ curl --location --request POST 'https://api.auditlog.cf.<host>:6081/audit-log/oa
 
 
 
-### Writing a configuration change event
+### Writing a Configuration Change Event
 
 Mandatory fields: `object_id`, `uuid`, `user`, `tenant`, `time`, `attributes`.
 
 ```
 curl --location --request POST 'https://api.auditlog.cf.<host>:6081/audit-log/oauth2/v2/configuration-changes' \
 --header 'Content-Type: application/json' \
---header 'Authorization: Bearer <JWT-token-value>\
+--header 'Authorization: Bearer <JWT-token-value>'\
 --data-raw '{
-  "uuid": "57DF4DFB-2352-4330-8E3C-027ABB02037C",
+  "uuid": "<uuid-value>",
   "user": "test-als-user@sap.com",
   "time": "2023-06-30T00:00:00.000Z",
-  "id": "1A5511ED-4730-49C9-A5FC-83BB63CA4B88",
+  "id": "<id-value>",
   "tenant": "$PROVIDER",
   "object": {
     "type": "name of an attribute",
@@ -895,16 +895,16 @@ curl --location --request POST 'https://api.auditlog.cf.<host>:6081/audit-log/oa
 
 
 
-### Writing a data modification event
+### Writing a Data Modification Event
 
 Mandatory fields: `object_id`, `user`, `tenant`, `time`, `attributes`.
 
 ```
 curl --location --request POST 'https://api.auditlog.cf.<host>:6081/audit-log/oauth2/v2/data-accesses' \
 --header 'Content-Type: application/json' \
---header 'Authorization: Bearer <JWT-token-value>\
+--header 'Authorization: Bearer <JWT-token-value>'\
 --data-raw '{
-  "uuid": "48235F10-4F67-4621-8919-D0E2F7DBB81D",
+  "uuid": "<uuid-value>",
   "user": "some-user-id",
   "identityProvider" : "$IDP",
   "time": "2023-06-30T00:00:00.000Z",
@@ -955,22 +955,22 @@ curl --location --request POST 'https://api.auditlog.cf.<host>:6081/audit-log/oa
 
 
 
-### Writing a data access event
+### Writing a Data Access Event
 
 Mandatory fields: `object_id`, `user`, `tenant`, `time`, `attributes`.
 
 ```
 curl --location --request POST 'https://api.auditlog.cf.<host>:6081/audit-log/oauth2/v2/data-modifications' \
 --header 'Content-Type: application/json' \
---header 'Authorization: Bearer <JWT-token-value> \
+--header 'Authorization: Bearer <JWT-token-value>' \
 --data-raw '{
-  "uuid": "E5132C63-E5E6-4DF3-A59A-35861E1A145D",
+  "uuid": "<uuid-value>",
   "user": "$USER",
   "time": "2023-06-30T00:00:00.000Z",
   "object": {
     "type": "DEMO Instance",
     "id": {
-      "serviceInstanceId": "A2482034-B91D-4D0F-96BA-275C3255C983"
+      "serviceInstanceId": "<serviceInstanceId-value>"
     }
   },
   "data_subject": {
@@ -983,11 +983,11 @@ curl --location --request POST 'https://api.auditlog.cf.<host>:6081/audit-log/oa
   },
   "attributes": [
     {
-      "name": "old attribute",
-      "new": "new attribute"
+      "name": "some attribute",
+      "new": "new value"
     }
   ],
-  "id": "A0FD7483-A4B3-498D-83D7-2F5A518E53F2",
+  "id": "<id-value>",
   "category": "audit.data-modification",
   "tenant": "$PROVIDER",
   "customDetails": {}

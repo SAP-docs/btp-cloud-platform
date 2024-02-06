@@ -99,6 +99,9 @@ You do this procedure through Cloud Foundry Environment, which is part of a suba
         }'
         ```
 
+        > ### Note:  
+        > The `xsappname` attribute from the service parameters JSON needs to have unique instance for each service. The `xsappname` attribute can hold an arbitrary string as value, which is not required to be `auditlog`. The code block serves only as example.
+
     -   For non-mTLS authentication, use
 
 

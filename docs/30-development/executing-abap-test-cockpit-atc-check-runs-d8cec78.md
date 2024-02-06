@@ -24,6 +24,8 @@
 
     > ### Note:  
     > The assigned business user needs development authorization for ADT, which is contained in the business catalog `SAP_A4C_BC_DEV_ATC_RUN_PC`. In case the ATC is used to execute ABAP Unit Tests, further specific authorizations might be required.
+    > 
+    > When you assign the catalog to a dedicated role, do not forget to remove the restriction to read-only access before saving the role.
 
 
 

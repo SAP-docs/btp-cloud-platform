@@ -75,10 +75,12 @@ Consider the following restrictions and tips before you start.
 
 ## Results
 
-You've configured trust in your tenant of the Identity Authentication service, which is your identity provider. Identity Authentication creates an application with the prefix *XSUAA\_* and the display name of your subaccount in the administration console for Identity Authentication.
+You've configured trust in your tenant of the Identity Authentication service, which is your identity provider. Identity Authentication creates an application with the prefix *SAP BTP subaccount* and the display name of your subaccount in the administration console for Identity Authentication.
 
 > ### Example:  
-> If your subaccount was named *My Subaccount*, the resulting application in Identity Authentication would be *XSUAA\_My Subaccount*.
+> If your subaccount was named *My Subaccount*, the resulting application in Identity Authentication would be *SAP BTP subaccount My Subaccount*.
+> 
+> Older applications start with *XSUAA\_*.
 
 > ### Tip:  
 > To troubleshoot problems with tokens from Identity Authentication, see [Logging OpenID Connect Tokens](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/b6c42b53518b46de8b4dffd8c4c52ed7.html?version=Cloud) in the documentation for Identity Authentication.

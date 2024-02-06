@@ -338,7 +338,7 @@ Description
 </td>
 <td valign="top">
 
-Specifies the name of the Enterprise Messaging client. It is used by SAP Event Mesh to identify clients.
+Specifies the name of the SAP Event Mesh client. It is used by SAP Event Mesh to identify clients.
 
 **Rules/Guidelines:**
 
@@ -457,6 +457,52 @@ Defines if a client \(publisher/producer\) is allowed to send messages to the de
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+`resources` 
+
+</td>
+<td valign="top">
+
+A collection of messaging resources such as queues, connections, and so on, required for a message client.
+
+**Rules/Guidelines**
+
+-   Required: No
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`units` 
+
+</td>
+<td valign="top">
+
+A `resources` attribute.
+
+Specify this value in the service descriptor to allocate messaging resources based a specific business scenario. See [Syntax for Service Descriptor](https://help.sap.com/docs/event-mesh/event-mesh/syntax-for-service-descriptor?version=Cloud).
+
+**Guidelines/Rules:**
+
+-   Required: No
+
+-   Allowed values: `10-50`
+
+-   Type: attribute
+
+-   Default value: `10`
+
+
+
+
+</td>
+</tr>
 </table>
 
 
@@ -480,6 +526,7 @@ This descriptor is equivalent to:
 > All properties can be overriden explicitly.
 
 ```json
+
 {
   "systemName": "DEV",
   "emClientId": "s4hc",
@@ -523,6 +570,9 @@ This descriptor is equivalent to:
           ]
         }
       }
+	  "resources": {
+        "units": "10"
+      }
     }
   }
 }
@@ -551,8 +601,7 @@ This descriptor is equivalent to:
 > ### Note:  
 > All properties can be overriden explicitly.
 
-```json
-
+```
 spec:
   externalName: ''
   serviceOfferingName: s4-hana-cloud
@@ -583,6 +632,7 @@ spec:
           topicRules:
             inboundFilter:
             - "${namespace}/#"
-		
+        resources:
+          units: '10'
 ```
 

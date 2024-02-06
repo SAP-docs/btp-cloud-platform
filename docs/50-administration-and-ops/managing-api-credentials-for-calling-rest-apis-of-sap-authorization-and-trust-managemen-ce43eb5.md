@@ -42,7 +42,7 @@ Create API credentials
 </td>
 <td valign="top">
 
-[https://help.sap.com/docs/BTP/btp-cli/btp-create-api-credential.html](https://help.sap.com/docs/BTP/btp-cli/btp-create-api-credential.html)
+[btp create security/api-credential](https://help.sap.com/docs/BTP/btp-cli/btp-create-api-credential.html)
 
 </td>
 </tr>
@@ -59,7 +59,7 @@ Show all API credentials
 </td>
 <td valign="top">
 
-[https://help.sap.com/docs/BTP/btp-cli/btp-list-api-credential.html](https://help.sap.com/docs/BTP/btp-cli/btp-list-api-credential.html)
+[btp list security/api-credential](https://help.sap.com/docs/BTP/btp-cli/btp-list-api-credential.html)
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Show details about specific API credentials
 </td>
 <td valign="top">
 
-[https://help.sap.com/docs/BTP/btp-cli/btp-get-api-credential.html](https://help.sap.com/docs/BTP/btp-cli/btp-get-api-credential.html)
+[btp get security/api-credential](https://help.sap.com/docs/BTP/btp-cli/btp-get-api-credential.html)
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Delete API credentials
 </td>
 <td valign="top">
 
-[https://help.sap.com/docs/BTP/btp-cli/btp-delete-api-credential.html](https://help.sap.com/docs/BTP/btp-cli/btp-delete-api-credential.html)
+[btp delete security/api-credential](https://help.sap.com/docs/BTP/btp-cli/btp-delete-api-credential.html)
 
 </td>
 </tr>

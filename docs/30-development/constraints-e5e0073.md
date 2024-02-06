@@ -2,9 +2,9 @@
 
 # Constraints
 
+There are some constraints regarding functionality that can be exposed using an SQL service binding.
 
 
-The following constraints regarding functionality that can be exposed using an SQL service binding apply:
 
 Only CDS view entities can be exposed, for the following reasons:
 

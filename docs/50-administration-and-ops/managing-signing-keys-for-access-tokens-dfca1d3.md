@@ -45,7 +45,7 @@ Create a new signing key for access tokens
 </td>
 <td valign="top">
 
-[https://help.sap.com/docs/BTP/btp-cli/btp-create-security-token-key.html](https://help.sap.com/docs/BTP/btp-cli/btp-create-security-token-key.html)
+[btp create security/token-key](https://help.sap.com/docs/BTP/btp-cli/btp-create-security-token-key.html)
 
 </td>
 </tr>
@@ -62,7 +62,7 @@ Enable an existing key as signing key for access tokens
 </td>
 <td valign="top">
 
-[https://help.sap.com/docs/BTP/btp-cli/btp-enable-security-token-key.html](https://help.sap.com/docs/BTP/btp-cli/btp-enable-security-token-key.html)
+[btp enable security/token-key](https://help.sap.com/docs/BTP/btp-cli/btp-enable-security-token-key.html)
 
 </td>
 </tr>
@@ -79,7 +79,7 @@ Delete a disabled signing key for access tokens
 </td>
 <td valign="top">
 
-[https://help.sap.com/docs/BTP/btp-cli/btp-delete-security-token-key.html](https://help.sap.com/docs/BTP/btp-cli/btp-delete-security-token-key.html)
+[btp delete security/token-key](https://help.sap.com/docs/BTP/btp-cli/btp-delete-security-token-key.html)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ List the existing signing keys for access tokens and indicates which key is curr
 </td>
 <td valign="top">
 
-[https://help.sap.com/docs/BTP/btp-cli/btp-list-security-token-key.html](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-token-key.html)
+[btp list security/token-key](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-token-key.html)
 
 </td>
 </tr>

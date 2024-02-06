@@ -2,7 +2,7 @@
 
 # AIF Monitoring
 
-AIF \(Application Interface Framework\) enables you to monitor inbound and outbound messages in the ABAP environment.
+AIF \(Application Interface Framework\) enables you to monitor inbound and outbound messages in the ABAP environment and allows you to analyze communication issues.
 
 
 

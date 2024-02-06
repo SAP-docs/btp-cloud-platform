@@ -56,7 +56,7 @@ Chapter [Dismantle](dismantle-35a5882.md) provides information about consumer of
 For more information, see [Build ABAP Code into an Add-on Product and Make it Available as a Tenant-Aware SaaS Solution](https://developers.sap.com/mission.abap-environment-saas-solution.html).
 
 > ### Caution:  
-> The turorial group "Convert Your Add-on Product into a Tenant-aware SaaS Solution" is now replaced by the functionality of the [Maintain Solution app](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/maintain-solution?q=maintain%20solution).
+> The tutorial group "Convert Your Add-on Product into a Tenant-aware SaaS Solution" is now replaced by the functionality of the [Maintain Solution app](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/maintain-solution?q=maintain%20solution).
 
 **Related Information**  
 

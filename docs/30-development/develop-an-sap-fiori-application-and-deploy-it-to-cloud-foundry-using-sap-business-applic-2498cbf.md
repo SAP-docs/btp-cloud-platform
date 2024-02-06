@@ -14,7 +14,7 @@ Get an overview about how to create and deploy an SAP Fiori application to Cloud
 -   A subaccount administrator has created a destination to the ABAP system to integrate SAP Business Application Studio. See [Creating a Destination to the ABAP System for SAP Business Application Studio](../20-getting-started/creating-a-destination-to-the-abap-system-for-sap-business-application-studio-e597948.md).
 -   You have created a dev space of type SAP Fiori. See [SAP Business Application Studio](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/b0110400b44748d7b844bb5977a657fa.html).
 
--   You have access to a RAP business service that has been exposed as an OData service. See [Using Service Binding Editor for OData V2 Service](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/81dc788fbda74883bd775a4036fa4b67.html).
+-   You have access to a RAP business service that has been exposed as an OData service. See [Using Service Binding Editor for OData V2 Service](https://help.sap.com/docs/btp/sap-abap-cds-development-user-guide/using-service-binding-editor-for-odata-v2-service?version=Cloud).
 
 
 

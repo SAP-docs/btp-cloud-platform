@@ -65,7 +65,7 @@ If your subaccount uses the SAML protocol to connect to your custom identity pro
 
 In the cockpit, there's a new OIDC trust configuration for your Identity Authentication tenant. The original SAML trust configuration has been set to inactive and has received a new ***oidc-migration-backup*** origin key. If you need to roll back the change, the service uses this configuration to restore your original configuration.
 
-In your Identity Authentication tenant, there's a new application that represents the trust configuration. The name is ***XSUAA\_*<subaccount\_display\_name\>****.
+In your Identity Authentication tenant, there's a new application that represents the trust configuration. The name is ***SAP BTP subaccount *<subaccount\_display\_name\>****.
 
 
 

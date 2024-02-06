@@ -21,11 +21,11 @@ Find out what is new and what has changed in CAP since the last release.
 
 <!-- loio047c4a01f0b44d37be13231b183e8920 -->
 
-## Learning Journey
+## Learning Content
 
 Learn about the golden path that CAP gives users to create service-based applications. Get to know the principles that enable you to focus on your domain and avoid boilerplate code. With CAP you focus on what you can do best: Solving business problems.
 
-Try out the [Learning Journey](https://help.sap.com/doc/221f8f84afef43d29ad37ef2af0c4adf/latest/en-US/972e35035f404685ba6bb54b03f7c167.html).
+Try out the [Learning Sources](https://cap.cloud.sap/docs/get-started/learning-sources) we collected on this page.
 
 <a name="loio964cd11bc8fa44dcb21d4d21dcb9d030"/>
 

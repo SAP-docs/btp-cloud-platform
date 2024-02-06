@@ -2,7 +2,7 @@
 
 # Communication Arrangement JSON/YAML File - Properties
 
-Use the service JSON descriptor for the Cloud Foundry environment or the service YAML descriptor for the Kyma environment to define the communication arrangement and the authentication type for the SAP S/4HANA Cloud API access.
+Learn how to construct a JSON or YAML file for the SAP S/4HANA Cloud APIs, including parameters such as system name, communication arrangement, authentication type, communication system, outbound services, and additional properties. It also provides guidelines and rules for each property.
 
 
 
@@ -152,12 +152,14 @@ The authentication type for the SAP S/4HANA Cloud API access.
 > 
 >     > ### Note:  
 >     > The generated X.509 certificate that is used to configure the trust between the cloud platform and SAP S/4HANA Cloud system expires two years after you have created the instance.
+> 
+> -   Client Certificate Authentication
 
 **Rules/Guidelines**
 
 -   Required: Yes, if there is no `outboundAuthentication` defined
 
--   Allowed values: `OAuth2SAMLBearerAssertion`, `BasicAuthentication`
+-   Allowed values: `OAuth2SAMLBearerAssertion`, `BasicAuthentication`, and `ClientCertificateAuthentication`
 
 
 
@@ -184,12 +186,16 @@ The type of the authentication used by SAP S/4HANA Cloud to call SAP BTP APIs.
 > -   OAuth 2.0 Client Credentials
 > 
 > -   No Authentication
+> 
+> -   OAuth2mTLS
+> 
+> -   Client Certificate Authentication
 
 **Rules/Guidelines**
 
 -   Required: Yes, if there is no `inboundAuthentication` defined
 
--   Allowed values: `BasicAuthentication`, `OAuth2ClientCredentials`, `NoAuthentication`
+-   Allowed values: `BasicAuthentication`, `OAuth2ClientCredentials`, `NoAuthentication`, `OAuth2mTLS`, and `ClientCertificateAuthentication`
 
 
 
@@ -422,6 +428,30 @@ A specific outbound service object.
 <tr>
 <td valign="top">
 
+`id` 
+
+</td>
+<td valign="top">
+
+An `outboundService` property.
+
+The id of the outbound service. It must match the *Outbound Service ID* displayed in the SAP S/4HANA Cloud system.
+
+**Rules/Guidelines**
+
+-   Required: Yes, if the `outboundServices` property is specified.
+
+    > ### Note:  
+    > When you specify the `id` property of the outbound service, you can skip the `name` property.
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `name` 
 
 </td>
@@ -433,7 +463,10 @@ The name of the outbound service. It must be an exact match of the name displaye
 
 **Rules/Guidelines**
 
--   Required: Yes, if the `outboundServices` property is specified.
+-   Required: Yes, if the `outboundServices` property is specified, and the `id` property is not specified.
+
+    > ### Note:  
+    > If the `id` property is specified, the `name` property is not required.
 
 
 

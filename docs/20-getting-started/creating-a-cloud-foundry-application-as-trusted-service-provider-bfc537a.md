@@ -126,9 +126,9 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
 
 1.  Under *Applications*, choose the entry for the Cloud Foundry application.
 
-2.  Choose *Assertion Attributes*.
+2.  Choose *Attributes*.
 
-3.  Choose *\+Add* to enter the following user attributes and their corresponding assertion attributes \(if they don't already exist\):
+3.  Choose *Add* to enter the following self-defined attributes and their corresponding assertion attributes \(if they don't already exist\):
 
 
     <table>
@@ -195,7 +195,7 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
     </table>
     
     > ### Note:  
-    > Make sure that you enter `Groups` \(with upper case `G`\), not `groups`, as assertion attribute.
+    > Make sure that you enter `Groups` \(with upper case `G`\), not `groups`, as attribute.
 
 4.  Choose *Save*.
 

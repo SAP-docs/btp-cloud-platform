@@ -24,7 +24,7 @@ With the factory class *MBC\_CP\_API* you can instantiate a transport API to val
 
 In the behavior implementation define an [Additional Save Implementation](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/index.htm?file=abenbdl_saving.htm) in the header directly after the keyword managed. In the `save_modified` method you can record the changes on the transport request with the method `record_changes` of this API. Check the ABAP Doc of `record_changes` for more information and example implementation.
 
-For each entity of the RAP BO define a[Validation](https://help.sap.com/docs/BTP/923180ddb98240829d935862025004d6/171e26c36cca42699976887b4c8a83bf.html) on save for create, update and delete. In the validation implementation call the method `validate_changes` of the API. Check the ABAP Doc of validate\_changes for more information and example implementation.
+For each entity of the RAP BO define a [Validation](https://help.sap.com/docs/abap-cloud/abap-rap/validations?version=sap_btp) on save for create, update and delete. In the validation implementation call the method `validate_changes` of the API. Check the ABAP Doc of validate\_changes for more information and example implementation.
 
 
 

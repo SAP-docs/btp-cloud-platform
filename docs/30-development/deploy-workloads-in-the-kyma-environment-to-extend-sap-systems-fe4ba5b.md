@@ -10,11 +10,14 @@ Access the Kyma environment and start creating extensions for SAP systems.
 
 ## Prerequisites
 
+-   You have added the Serverless module. To learn how to do it, see [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+
+-   If you want to expose and secure your workload, the default Istio and API Gateway modules must be added.
+
+-   If you want your workload to react to events, the Eventing module must be added.
+
 -   If you want to use [CloudEvents](https://cloudevents.io/), make sure that your ecosystem supports it.
 
--   You have enabled the Serverless module. To learn how to do it, see [Enable and Disable a Kyma Module](../50-administration-and-ops/enable-and-disable-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
-
-If you want to use [CloudEvents](https://cloudevents.io/), make sure that your ecosystem supports it.
 
 
 

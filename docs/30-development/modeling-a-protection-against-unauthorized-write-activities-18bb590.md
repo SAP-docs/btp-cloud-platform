@@ -10,13 +10,13 @@ To protect your service from activities such as create, update or delete by unau
 
 ## Context
 
-In the example used here, the service is based on a managed business object *Bonus Calculation*. The use of a managed business object allows you to benefit from the global authorization for managed business objects, which is part of the ABAP RESTful Application Programming model. For more information about authorization control, see [Authorization Control](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/375a8124b22948688ac1c55297868d06.html) in the documentation for the ABAP RESTful Application Programming Model.
+In the example used here, the service is based on a managed business object *Bonus Calculation*. The use of a managed business object allows you to benefit from the global authorization for managed business objects, which is part of the ABAP RESTful Application Programming model. For more information about authorization control, see the documentation for the [ABAP RESTful Application Programming Model](https://help.sap.com/docs/abap-cloud/abap-rap/abap-restful-application-programming-model?locale=en-US).
 
 
 
 ## Procedure
 
-1.  In ABAP Development Tools, call up the behavior definition of your service.
+1.  In ABAP development tools, call up the behavior definition of your service.
 
 2.  In the behavior definition, define authorization controls for your service.
 

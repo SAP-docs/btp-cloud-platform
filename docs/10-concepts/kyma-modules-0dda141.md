@@ -6,7 +6,7 @@ With Kyma's modular approach, you can install just the modules you need, instead
 
 
 
-You can choose to enable any modules as required. To learn how, see [Enable and Disable a Kyma Module](../50-administration-and-ops/enable-and-disable-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c). To find out which module version is running on your cluster, go to Kyma dashboard.
+You can choose to add any modules as required. To learn how, see [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c). To find out which module version is running on your cluster, go to Kyma dashboard.
 
 > ### Tip:  
 > A release of a new module’s version is announced with a release note in [What’s New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&version=Cloud) for both, the fast and regular channels:
@@ -21,7 +21,7 @@ You can choose to enable any modules as required. To learn how, see [Enable and 
 
 ## Default Kyma Modules
 
-When you create Kyma runtime in SAP BTP cockpit, it is provisioned with the default modules enabled. The default modules are not mandatory. You can disable them in [Kyma dashboard](https://dashboard.kyma.cloud.sap/clusters) if you don't need them.
+When you create Kyma runtime in SAP BTP cockpit, it is provisioned with the default modules added. The default modules are not mandatory. If you don't need them, you can delete them in [Kyma dashboard](https://dashboard.kyma.cloud.sap/clusters).
 
 **Default Kyma Modules**
 
@@ -92,7 +92,7 @@ Istio is a service mesh with Kyma-specific configuration.
 
 ## Non-Default Kyma Modules
 
-When you create Kyma runtime in SAP BTP cockpit, the following modules are not enabled by default, but you can choose to enable \(and disable\) them anytime.
+When you create Kyma runtime in SAP BTP cockpit, the following modules are not added by default, but you can choose to add \(and delete\) them anytime.
 
 **Non-Default Kyma Modules**
 
@@ -201,6 +201,7 @@ With the Serverless module, you can define simple code snippets \(Functions\) wi
 
 -   [Deploy Workloads in the Kyma Environment to Extend SAP Systems](../30-development/deploy-workloads-in-the-kyma-environment-to-extend-sap-systems-fe4ba5b.md)
 -   [kyma-project.io: What is Serverless in Kyma?](https://kyma-project.io/#/serverless-manager/user/README)
+-   [kyma-project.io: Serverless Configuration](https://kyma-project.io/#/serverless-manager/user/00-20-configure-serverless)
 -   [GitHub repository: Serverless](https://github.com/kyma-project/serverless-manager)
 
 
@@ -264,7 +265,7 @@ NATS deploys a NATS cluster within the Kyma cluster. You can use it as a backend
 
 Eventing provides functionality to publish and subscribe to CloudEvents.
 
-At the moment, the SAP Event Mesh default plan and NATS are supported. If you choose NATS, enable the NATS module.
+At the moment, the SAP Event Mesh default plan and NATS are supported. If you choose NATS, add the NATS module.
 
 </td>
 <td valign="top">

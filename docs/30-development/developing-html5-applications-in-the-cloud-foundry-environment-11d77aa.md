@@ -29,13 +29,20 @@ Both options allow you to serve static content from HTML5 application repository
 
 -   Meet the changing demand for HTML5 applications by automatically adjusting the service to maintain consistent and predictable performance
 
+-   Monitor and run your HTML5 applications from the *HTML5 Applications* UI in the SAP BTP cockpit
+
 
 Therefore, we recommend running your own [application router](application-router-01c5f9b.md) only in advanced cases, for example when application router extensibility is required.
+
+> ### Note:  
+> When using the [managed application router](managed-application-router-589a239.md), you can monitor and run your HTML5 applications from the *HTML5 Applications* UI for your subaccount in the SAP BTP cockpit.
+> 
+> For monitoring and running HTML5 applications served by a standalone [application router](application-router-01c5f9b.md), you can use the [CF HTML5 applications repository CLI plugin](https://github.com/SAP/cf-html5-apps-repo-cli-plugin).
 
 **Related Information**  
 
 
-[HTML5 Application Repository](html5-application-repository-f8520f5.md "HTML5 application repository enables central storage of HTML5 applications' static content on the SAP BTP, Cloud Foundry environment. This service can be consumed from the SAP BTP, Cloud Foundry Runtime and the SAP BTP, Kyma runtime.")
+[HTML5 Application Repository](html5-application-repository-f8520f5.md "HTML5 application repository enables central storage of HTML5 applications' static content on the SAP BTP, Cloud Foundry environment. This service can be consumed from the SAP BTP, Cloud Foundry runtime, the SAP BTP, Kyma runtime, Kubernetes, or by creating a service instance on the subaccount level regardless of an environment.")
 
 [Application Router](application-router-01c5f9b.md "The application router is the single point-of-entry for an application running in the Cloud Foundry environment on SAP BTP. The application router is used to serve static content, authenticate users, rewrite URLs, and forward or proxy requests to other micro services while propagating user information.")
 

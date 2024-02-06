@@ -16,8 +16,6 @@ The following sections help you get started.
 
 -   [Starting a New Project](https://cap.cloud.sap/docs/java/getting-started#new-project)
 
--   [Using Eclipse](https://cap.cloud.sap/docs/java/getting-started#eclipse)
-
 -   [Stack Architecture](https://cap.cloud.sap/docs/java/architecture)
 
 -   [Services](https://cap.cloud.sap/docs/java/consumption-api)

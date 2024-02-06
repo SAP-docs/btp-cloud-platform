@@ -28,7 +28,7 @@ During and after activation, the following objects are generated:
 -   The service definition
 -   Application Interface Framework objects for monitoring
 -   The required inbound services for the communication scenario
--   The authorization default values for the communication scenario
+-   The authorization default values
 
 ![Generation of objects during the activation of a SOAP provider model](images/Generation_of_objects_during_the_activation_of_a_SOAP_provider_model_8d86036.png)
 

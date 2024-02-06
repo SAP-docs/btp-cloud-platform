@@ -10,7 +10,7 @@ Learn more about the different options to develop SAP Fiori applications for an 
 
 ## Overview
 
-You can develop SAP Fiori applications for OData services that are exposed as a UI service. See [OData Service Consumption](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/f2cbcacaf8b74540b0708fc143875bc3.html).
+You can develop SAP Fiori applications for OData services that are exposed as a UI service. See [OData Service Consumption](https://help.sap.com/docs/btp/sap-abap-restful-application-programming-model/odata-service-consumption?version=Cloud).
 
 > ### Note:  
 > SAP Fiori is a design system that enables you to create business apps with a consumer-grade user experience, turning casual users into SAP experts with simple screens that run on any device. You can build apps that follow the SAP Fiori design principle using a combination of SAPUI5 and SAP Fiori elements. See [SAP Fiori](https://help.sap.com/viewer/product/SAP_FIORI_OVERVIEW/5_OVERVIEW/en-US).
@@ -22,9 +22,9 @@ You can develop SAP Fiori applications for OData services that are exposed as a 
 To develop SAP Fiori applications, you can either use SAP Business Application Studio with SAP Fiori tools extensions or Microsoft Visual Studio Code \(VS Code\) with SAP Fiori tools extensions.
 
 > ### Note:  
-> SAP Business Application Studio is an SAP Business Technology Platform \(SAP BTP\) service that offers a modern development environment tailored for efficient development of business applications for the SAP Intelligent Enterprise. See [SAP Business Application Studio](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/c736960ff27c45a9b787bde2c1e48d3e.html?locale=en-US&version=Cloud).
+> [https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-application-studio?version=Cloud](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-application-studio?version=Cloud) is an SAP Business Technology Platform \(SAP BTP\) service that offers a modern development environment tailored for efficient development of business applications for the SAP Intelligent Enterprise. See [SAP Business Application Studio](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-application-studio?version=Cloud).
 > 
-> Visual Studio Code is a source-code editor provided by Microsoft for Windows, Linux, and macOS. See [Visual Studio Code](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/17efa217f7f34a9eba53d7b209ca4280.html).
+> Visual Studio Code is a source-code editor provided by Microsoft for Windows, Linux, and macOS. See .
 > 
 > SAP Fiori tools is a set of extensions for SAP Business Application Studio and Visual Studio Code that makes developing SAP Fiori applications faster and easier. See [SAP Fiori Tools](https://help.sap.com/viewer/product/SAP_FIORI_tools/Latest/en-US).
 
@@ -38,12 +38,12 @@ Once you have implemented the SAP Fiori application, you can deploy it to the AB
 You can launch the deployed apps standalone or embed them into the SAP Fiori launchpad.
 
 > ### Note:  
-> SAP Fiori launchpad is the entry point for business users to SAP Fiori apps on mobile and desktop devices. The launchpad comprises a home page where app tiles, which can display live status indicators, such as the number of open tasks, are clustered. Each tile represents a business application that the user can launch. See [SAP Fiori Launchpad - User Guide](https://help.sap.com/viewer/fd8f9fda63fa4c7a92bb1d4b4ac5582c/Cloud/en-US/2e034767ee0c4d43a5159ce4a4c014f5.html).
+> SAP Fiori launchpad is the entry point for business users to SAP Fiori apps on mobile and desktop devices. The launchpad comprises a home page where app tiles, which can display live status indicators, such as the number of open tasks, are clustered. Each tile represents a business application that the user can launch. See [SAP Fiori Launchpad - User Guide](https://help.sap.com/docs/btp/sap-fiori-launchpad-for-sap-btp-abap-environment/sap-fiori-launchpad-user-guide?version=Cloud).
 
 The ABAP environment comes with an embedded SAP Fiori launchpad and provides access to SAP Fiori apps that are deployed to the ABAP environment. Apps deployed to the Cloud Foundry environment can be added to a launchpad provided by theSAP Build Work Zone, standard edition. You can also add apps that are deployed to the ABAP environment to launchpads provided by the SAP Build Work Zone, standard edition. See [Integrating Content with SAP Build Work Zone, standard edition](../50-administration-and-ops/integrating-content-with-sap-build-work-zone-standard-edition-ac97434.md).
 
 > ### Note:  
-> The SAP Build Work Zone, standard edition is an SAP BTP service that enables you to build a portal-like central entry point and provides enterprise-wide, efficient, secure, and role-based access to SAP and non-SAP applications. See [https://help.sap.com/docs/WZ\_STD](https://help.sap.com/docs/WZ_STD).
+> The SAP Build Work Zone, standard edition is an SAP BTP service that enables you to build a portal-like central entry point and provides enterprise-wide, efficient, secure, and role-based access to SAP and non-SAP applications. See [SAP Build Work Zone, Standard Edition](https://help.sap.com/docs/build-work-zone-standard-edition).
 
 ![](images/UI_Development_Overview_e7e06e4.png)
 

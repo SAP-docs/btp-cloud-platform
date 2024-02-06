@@ -1,16 +1,16 @@
 <!-- loio1b548e9ad4744b978b8b595288b0cb5c -->
 
-# Enable and Disable a Kyma Module
+# Add and Delete a Kyma Module
 
-To use a Kyma module, you must enable it first. Use Kyma dashboard or Kyma CLI to do that. If you don't need the module anymore, disable it to save resources.
+To use a Kyma module, you must add it first. Use Kyma dashboard or Kyma CLI to do that. If you don't need the module anymore, delete it to save resources.
 
 <a name="loio83744213890d4efe979d72ce706e1115"/>
 
 <!-- loio83744213890d4efe979d72ce706e1115 -->
 
-## Enable and Disable a Kyma Module Using Kyma Dashboard
+## Add and Delete a Kyma Module Using Kyma Dashboard
 
-Use Kyma dashboard to enable and disable a Kyma module in the release channel of your choice.
+Use Kyma dashboard to add and delete a Kyma module in the release channel of your choice.
 
 
 
@@ -18,9 +18,9 @@ Use Kyma dashboard to enable and disable a Kyma module in the release channel of
 
 ## Context
 
-If there are no modules enabled on your cluster, you can easily enable one from the *Cluster Details* view. Select *Add Module* and follow the wizard steps.
+If there are no modules added on your cluster, you can easily add one from the *Cluster Details* view. Select *Add Module* and follow the wizard steps.
 
-If you want to enable additional modules, follow this procedure:
+If you want to add more modules, follow this procedure:
 
 
 
@@ -41,7 +41,7 @@ If you want to enable additional modules, follow this procedure:
     > ### Note:  
     > By default, Kyma modules are part of the regular channel. It allows for delivering the modules at a slower, predictable rate for production environments with minimal disturbance. You can change to the fast channel for a more fluid release process that offers the latest technical updates and features at a quicker pace. For more information about the release channels, see [Kyma Release Channels](https://help.sap.com/docs/btp/sap-business-technology-platform/kyma-s-modular-approach?locale=en-US&version=Cloud#kyma-release-channels).
 
-6.  In the *Modules* section, check the modules you want to enable.
+6.  In the *Modules* section, check the modules you want to add.
 
 7.  **Optional:** At the module level, you can overwrite the release channel for the current module by choosing the available channel.
 
@@ -64,16 +64,16 @@ This process may take a while, depending on the number of modules. The operation
 
 -   To configure your module, use the module CR that you can find in the module repository.
 
--   To disable a module, edit your Kyma instance, uncheck the modules you want to disable, and choose *Update*.
+-   To delete a module, edit your Kyma instance, uncheck the modules you want to delete, and choose *Update*.
 
 
 <a name="loio88a8e99e4be945398dae2baa69f8ad30"/>
 
 <!-- loio88a8e99e4be945398dae2baa69f8ad30 -->
 
-## Enable and Disable a Kyma Module Using Kyma CLI
+## Add and Delete a Kyma Module Using Kyma CLI
 
-Use Kyma CLI to enable or disable a Kyma module in the release channel of your choice.
+Use Kyma CLI to add or delete a Kyma module in the release channel of your choice.
 
 
 
@@ -81,9 +81,7 @@ Use Kyma CLI to enable or disable a Kyma module in the release channel of your c
 
 ## Context
 
-Enable or disable a module using [Kyma CLI](https://github.com/kyma-project/cli).
-
-To enable a module using Kyma CLI, perform the following steps:
+To add a module using [Kyma CLI](https://github.com/kyma-project/cli), perform the following steps:
 
 
 
@@ -104,10 +102,10 @@ To enable a module using Kyma CLI, perform the following steps:
             cluster-ip                   kyma-project.io/cluster-ip    fast       v0.0.24    kyma-system/moduletemplate-cluster-ip-fast   <no value>
     ```
 
-2.  Enable a module on your cluster in the release channel of your choice. Run:
+2.  Add a module on your cluster in the release channel of your choice. Run:
 
     ```
-    kyma alpha enable module {MODULE_NAME} --channel {CHANNEL_NAME} --kyma-name default --wait
+    kyma alpha add module {MODULE_NAME} --channel {CHANNEL_NAME} --kyma-name default --wait
     ```
 
     You should see the following message:
@@ -126,10 +124,10 @@ To enable a module using Kyma CLI, perform the following steps:
 
 -   To configure your module, use the module CR that you can find in the module repository.
 
--   To disable a module, run:
+-   To delete a module, run:
 
     ```
-    kyma alpha disable module {MODULE_NAME} --kyma-name default
+    kyma alpha delete module {MODULE_NAME} --kyma-name default
     ```
 
 

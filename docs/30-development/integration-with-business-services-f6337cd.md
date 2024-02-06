@@ -178,6 +178,40 @@ The grant type that should be used to trigger requests to the Business Service. 
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+forwardiastoken
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+This flag that indicates if, in addition to the exchanged JWT token created by the SAP Authorization and Trust Management Service \(xsuaa\), the OIDC access token created by Identity Authentication should be forwarded as well. The Identity Authentication token is forwarded in the request header `x-ias-token`.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+forwardiasauthentication
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+This flag indicates that if the login was performed using Identity Authentication, the application router will not exchange the JWT token created by the SAP Authorization and Trust Management Service \(XSUAA\). Instead, the OIDC access token created by Identity Authentication will be forwarded in the authorization header.
+
+</td>
+</tr>
 </table>
 
 The value of the `endpoints` is an object containing the following properties:

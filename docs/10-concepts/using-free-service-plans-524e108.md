@@ -15,7 +15,7 @@ The free tier model for SAP BTP is added automatically to new and existing contr
 > ### Note:  
 > The use of the consumption-based commercial model is subject to its availability in your country or region.
 
-The consumption-based commercial model is available in two flavors; the **CPEA** \(**Cloud Platform Enterprise Agreement**\) and **Pay-As-You-Go for SAP BTP**. For more information, see [What Is the Consumption-Based Commercial Model?](what-is-the-consumption-based-commercial-model-7047eb4.md).
+The consumption-based commercial model is available in the following flavors: ; the **CPEA** \(**Cloud Platform Enterprise Agreement**\) and **Pay-As-You-Go for SAP BTP**. For more information, see [What Is the Consumption-Based Commercial Model?](what-is-the-consumption-based-commercial-model-7047eb4.md).
 
 To try out services that participate in the free tier model for SAP BTP, create a service instance using the **Free** service plan offered by the service.
 
@@ -57,7 +57,10 @@ Free Tier services can be explored in the SAP Discovery Center's service catalog
 
 To try out the free tier model for SAP BTP, you must entitle your subaccount for the free plan and create a service instance using this plan.
 
-1.  Enter your CPEA or Pay-As-You-Go for SAP BTP global account.
+> ### Note:  
+> The free tier model for SAP BTP is available for accounts that use the consumption-based commercial model.
+
+1.  Enter your global account.
 
     For more information, see [Access the Cockpit](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/4e750660b72e4fd6b2485ffb0b3cbdca.html?version=Cloud).
 

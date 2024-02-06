@@ -304,7 +304,7 @@ Manage destination configurations, certificates and subaccount trust via the Des
 </tr>
 </table>
 
-If you assign the *Destination Administrator* role collection to a user, you grant the user administration permissions for theSAP Destination service in a subaccount.
+If you assign the *Destination Administrator* role collection to a user, you grant the user administration permissions for the SAP Destination service in a subaccount.
 
 **Destination Administrator Role Collection**
 

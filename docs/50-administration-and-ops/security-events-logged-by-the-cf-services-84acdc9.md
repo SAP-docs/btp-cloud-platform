@@ -136,7 +136,7 @@ Identity Authentication
 </td>
 <td valign="top">
 
-[Auditing and Logging Information](https://help.sap.com/viewer/DRAFT/6d6d63354d1242d185ab4830fc04feb1/Dev/en-US/ac5537b3bf9940459a6ec7354fcd1b69.html)
+[Auditing and Logging Information](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/ac5537b3bf9940459a6ec7354fcd1b69.html)
 
 </td>
 </tr>
@@ -533,18 +533,6 @@ SAP Variant Configuration and Pricing
 <td valign="top">
 
 [Audit Logging](https://help.sap.com/viewer/6ed26fbe2b5946978c8004f511b75125/Cloud/en-US/b09404e8c53b4b35aa7b0abb7d29c1b0.html)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Virtual Machine Service
-
-</td>
-<td valign="top">
-
-[Auditing and Logging Information](https://help.sap.com/viewer/c746ff81651e4b8fb6efc11146091016/Cloud/en-US/da0c1c3aa86e45b4ab8d67daf3b69130.html)
 
 </td>
 </tr>

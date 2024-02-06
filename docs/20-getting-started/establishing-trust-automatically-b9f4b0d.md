@@ -2,7 +2,7 @@
 
 # Establishing Trust Automatically
 
-If you want to use a custom identity provider, you must set up trust between the subaccount and the Identity Authentication service.
+If you want to use a custom identity provider, you must set up trust between the subaccount and the SAP Cloud Identity Services - Identity Authentication service.
 
 
 
@@ -37,7 +37,10 @@ If you have custom identity provider, you can use a function in SAP BTP cockpit 
 
 8.  Search for the application that has been created as part of the trust setup.
 
-    The name of the application has the format *XSUAA\_*<Subaccount Name\>**, but you can change it if needed.
+    The name of the application has the format *SAP BTP subaccount *<Subaccount Name\>**, but you can change it if needed.
+
+    > ### Note:  
+    > Older application names have the format *XSUAA\_*<Subaccount Name\>*.*
 
 9.  Verify that the subject name identifier matches the login\_attribute chosen during ABAP system provisioning.
 

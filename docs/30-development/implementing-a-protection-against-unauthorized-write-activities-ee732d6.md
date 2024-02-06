@@ -2,7 +2,7 @@
 
 # Implementing a Protection Against Unauthorized Write Activities
 
-To protect a service, such as the example of bonus calculation from unauthorized creations, updates, or deletions, enhance the behavior implementation of the service in ABAP Development Tools \(ADT\). The implementation is required by what has been defined as authorization control in the behavior definition.
+To protect a service, such as the example of bonus calculation from unauthorized creations, updates, or deletions, enhance the behavior implementation of the service in ABAP development tools \(ADT\). The implementation is required by what has been defined as authorization control in the behavior definition.
 
 
 
@@ -10,7 +10,7 @@ To protect a service, such as the example of bonus calculation from unauthorized
 
 Among the methods of the behavior implementation, you add methods that check the authorizations for creation and for update and delete.
 
-For more information about authorization control, see [Authorization Control](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/375a8124b22948688ac1c55297868d06.html) in the documentation for the ABAP RESTful Application Programming Model.
+For more information about authorization control, see see the documentation for the [ABAP RESTful Application Programming Model](https://help.sap.com/docs/abap-cloud/abap-rap/abap-restful-application-programming-model?locale=en-US).
 
 
 

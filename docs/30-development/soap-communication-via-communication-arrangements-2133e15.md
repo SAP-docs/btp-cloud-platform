@@ -25,7 +25,13 @@
     6.  In field *Service Interface*, enter the name of the relevant consumer proxy. You can choose the consumer proxy from the list of the value help.
     7.  Save the outbound service.
 
-2.  Add the newly created outbound service to a communication scenario. See [Service Consumption via Communication Arrangements](service-consumption-via-communication-arrangements-86aece6.md) for more information. According to your developed communication scenario, add the following:
+2.  Add the newly created outbound service to the communication scenario. See [Service Consumption via Communication Arrangements](service-consumption-via-communication-arrangements-86aece6.md) for more information.
+
+    > ### Note:  
+    > You can't use the `create_by_comm_arrangement` method for SAP-delivered scenarios.
+
+3.  Publish the communication scenario. The administrator can then create the required communication management objects as described in [Test Your Outbound Call](soap-communication-via-communication-arrangements-2133e15.md#loio2133e15cbf8747dbad81dff41a14e139__section_rbb_dl5_mtb).
+4.  Call the SOAP service as described in the example. Copy the code snippet from the *Overview* tab in your SRVC and add the `comm_system_id` and `service_id` parameters if necessary. Note the difference between synchronous and asynchronous services. According to your developed communication scenario, add the following:
 
 
     <table>
@@ -82,10 +88,6 @@
     </tr>
     </table>
     
-    > ### Note:  
-    > You can't use the `create_by_comm_arrangement` method for SAP-delivered scenarios.
-
-3.  Call the SOAP service as described in the example. Copy the code snippet from the *Overview* tab in your SRVC and add the `comm_system_id` and `service_id` parameters if necessary. Note the difference between synchronous and asynchronous services.
 
 
 

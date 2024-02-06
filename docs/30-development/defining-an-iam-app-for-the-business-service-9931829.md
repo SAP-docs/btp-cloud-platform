@@ -12,11 +12,13 @@ Since you want to make your service available to users with a certain business r
 
 Instead of creating a new IAM app, you can also use an existing IAM app for the service.
 
+For more information, see the information about IAM apps in the [user guide for ABAP development tools](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide) \(ADT\).
+
 
 
 ## Procedure
 
-Follow the procedure in the ABAP development user guide: [Creating an App](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/20e1cd934af24d1fb75a8315b24d2539.html).
+To create an IAM app, follow the instructions in the user guide for ABAP development tools.
 
 For the bonus calculation IAM app used as an example here, you have already specified before in the authorization default values what you want to authorize. If needed, you can overwrite these defaults again here.
 

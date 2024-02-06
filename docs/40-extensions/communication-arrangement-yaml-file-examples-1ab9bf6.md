@@ -20,7 +20,6 @@ The information that you need to create the YAML file is available in the *Displ
 This is an example of a YAML file for a communication arrangement with an inbound connection with *Basic Authentication* and an outbound connection with *Basic Authentication*.
 
 ```json
-
 spec:
   externalName: ''
   serviceOfferingName: s4-hana-cloud
@@ -33,30 +32,29 @@ spec:
       inboundAuthentication: BasicAuthentication
       outboundAuthentication: BasicAuthentication
       outboundServices:
-        - name: Replicate Customers from S/4 System to Client
+        - id: DEBMAS_IDOC
           isServiceActive: false
-        - name: Replicate Suppliers from S/4 System to Client
+        - id: CREMAS_IDOC
           isServiceActive: false
-        - name: Replicate Company Addresses from S/4 System to Client
+        - id: ADRMAS_IDOC
           isServiceActive: false
-        - name: Replicate Workplace Addresses from S/4 System to Client
+        - id: ADR3MAS_IDOC
           isServiceActive: false
-        - name: Replicate Personal Addresses from S/4 System to Client
+        - id: ADR2MAS_IDOC
           isServiceActive: false
-        - name: Business Partner - Replicate from SAP S/4HANA Cloud to Client
+        - id: CO_MDG_BP_RPLCTRQ_SPRX
           isServiceActive: false
-        - name: Business Partner Relationship - Replicate from SAP S/4HANA Cloud to Client
+        - id: CO_MDG_BP_RELATIONSHIP_OUT_SPRX
           isServiceActive: false
-        - name: Business Partner - Send Confirmation from SAP S/4HANA Cloud to Client
+        - id: CO_MDG_BP_RPLCTCO_SPRX
           isServiceActive: false
-        - name: BP Relationship - Send Confirmation from SAP S/4HANA Cloud to Client
+        - id: CO_MDG_BP_RELATIONSHIP_CNF_OUT_SPRX
           isServiceActive: false
       communicationSystem:
         communicationSystemHostname: default.com
         outboundCommunicationUser:
           username: DefaultUser
           password: DefaultPassword
-
 ```
 
 
@@ -101,7 +99,6 @@ To communicate with SAP S/4HANA Cloud the extension application can use Principa
 This is useful in scenarios where you need to have restricted data access based on the logged-in user from your extension. Or, you want to ensure only users with the right permissions are able to update the system via extensions deployed in SAP BTP, Kyma runtime.
 
 ```json
-
 spec:
   externalName: ''
   serviceOfferingName: s4-hana-cloud
@@ -109,16 +106,11 @@ spec:
   parameters:
     systemName: DEMO
     communicationArrangement:
-      communicationArrangementName: 0013_ARRANGEMENT
-      scenarioId: SAP_COM_0013
+      communicationArrangementName: 0213_ARRANGEMENT
+      scenarioId: SAP_COM_0213
       inboundAuthentication: OAuth2SAMLBearerAssertion
-      outboundAuthentication: NoAuthentication
-      outboundServices:
-        - name: Launch SAP Web IDE
-          isServiceActive: false
       communicationSystem:
         communicationSystemHostname: default.com
-
 ```
 
 
@@ -130,7 +122,6 @@ spec:
 This is an example of a YAML file for a communication arrangement with an outbound connection with authentication type *NoAuthentication*.
 
 ```json
-
 spec:
   externalName: ''
   serviceOfferingName: s4-hana-cloud
@@ -142,9 +133,90 @@ spec:
       scenarioId: SAP_COM_0215
       outboundAuthentication: NoAuthentication
       outboundServices:
-        - name: SAP Enterprise Architecture Designer Integration
+        - id: SAP_COM_0215_0001_REST
           isServiceActive: true
       communicationSystem:
         communicationSystemHostname: default.com 
+```
+
+
+
+<a name="loio1ab9bf68b2304855ab94d183ff0b90ba__section_wlt_mvp_f1c"/>
+
+## Example for Enabling Communication Scenario of Type Client Certificate Authentication with Inbound Connection
+
+This is an example of a YAML file for a communication arrangement with an inbound connection with authentication type *ClientCertificateAuthentication*.
+
+```
+spec:
+  externalName: ''
+  serviceOfferingName: s4-hana-cloud
+  servicePlanName: api-access
+  parameters:      
+    systemName: DEMO
+    communicationArrangement:
+      communicationArrangementName: CommunicationArrangementName
+      scenarioId: SAP_COM_0724
+      inboundAuthentication: ClientCertificateAuthentication
+```
+
+
+
+<a name="loio1ab9bf68b2304855ab94d183ff0b90ba__section_ufq_dwp_f1c"/>
+
+## Example for Enabling Communication Scenario of Type Client Certificate Authentication with Outbound Connection
+
+This is an example of a YAML file for a communication arrangement with an outbound connection with authentication type *ClientCertificateAuthentication*.
+
+```
+spec:
+  externalName: ''
+  serviceOfferingName: s4-hana-cloud
+  servicePlanName: api-access
+  parameters:      
+    systemName: DEMO
+    communicationArrangement:
+      communicationArrangementName: CommunicationArrangementName
+      scenarioId: SAP_COM_0018
+      outboundAuthentication: ClientCertificateAuthentication
+      outboundServices:
+        - id: CO_MSM_PROJECT_ERPCREATE_REQUE_SPRX
+          isServiceActive: true
+        - id: CO_MSM_PROJECT_ERPUPDATE_REQUE_SPRX
+          isServiceActive: false
+        - id: CO_MSM_PROJECT_ERPBY_IDQUERY_R_SPRX
+          isServiceActive: false
+      communicationSystem:
+        communicationSystemHostname: default.com 
+```
+
+
+
+<a name="loio1ab9bf68b2304855ab94d183ff0b90ba__section_ax4_mwp_f1c"/>
+
+## Example for Enabling Communication Scenario of Type OAuth2mTLS
+
+This is an example of a YAML file for a communication arrangement with an outbound connection with authentication type *OAuth2mTLS*.
+
+```
+spec:
+  externalName: ''
+  serviceOfferingName: s4-hana-cloud
+  servicePlanName: api-access
+  parameters:      
+    systemName: DEMO
+    communicationArrangement:
+      communicationArrangementName: CommunicationArrangementName
+      scenarioId: SAP_COM_0080
+      outboundAuthentication: OAuth2mTLS
+      outboundServices:
+        - id: SAP_COM_0080_0001_REST
+          isServiceActive: true
+      communicationSystem:
+        communicationSystemHostname: default.com 
+        oAuthAuthEndpoint: oauth.com/oauth/authorize
+        oAuthTokenEndpoint: oauth.com/oauth/token
+        outboundCommunicationUser: 
+            username: DefaultUser
 ```
 
