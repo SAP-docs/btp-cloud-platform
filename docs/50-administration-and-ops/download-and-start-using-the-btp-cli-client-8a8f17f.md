@@ -25,7 +25,7 @@ In the [What's New for SAP Business Technology Platform](https://help.sap.com/wh
 
 ## Procedure
 
-1.  Download the appropriate client for your operating system from [SAP Development Tools](https://tools.hana.ondemand.com/#cloud-btpcli) with the links in the able below. If you prefer using the the command line or a script, you can use the curl command from the table below, which downloads and saves the latest client version to your computer and accepts the SAP Developer Agreement \(EULA\).
+1.  Download the appropriate client for your operating system from [SAP Development Tools](https://tools.hana.ondemand.com/#cloud-btpcli) with the links in the table below. If you prefer using the the command line or a script, you can use the curl command from the table below, which downloads and saves the latest client version to your computer and accepts the SAP Developer Agreement \(EULA\).
 
 
     <table>
