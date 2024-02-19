@@ -219,7 +219,7 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
     > 
     > ```
 
-    See [Enable API Access to an XSUAA Configuration](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/ebc9113a520e495ea5fb759b9a7929f2.html).
+    See [Get Access to the APIs Using the apiaccess Service Plan](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/f7796baaef6a48e9867298827f5028ff.html)
 
 4.  Call the SAP Cloud Management service APIs using Swagger with the `access_token` that you received in the previous step:
     1.  Choose one of the endpoints of your instance. See step 2 and the sample code for a service instance in Cloud Foundry.
