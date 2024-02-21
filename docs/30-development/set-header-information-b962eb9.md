@@ -35,7 +35,7 @@ Interface `IF_BALI_HEADER_SETTER` contains the following methods to set or chang
 > If the header was already written to the log \(for example, using method `SET_HEADER` of interface `IF_BAL_LOG`\) and if the header object is changed afterwards \(for example, using method `SET_DESCRIPTOR`\), you must call method `SET_HEADER` to make these changes visible in the log.
 
 > ### Sample Code:  
-> ```
+> ```abap
 > 
 > ...
 >  TRY.

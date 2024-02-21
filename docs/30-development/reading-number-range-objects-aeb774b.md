@@ -357,7 +357,7 @@ Description of object, short text.
 </table>
 
 > ### Sample Code:  
-> ```
+> ```abap
 > 
 > …
 >  lv_object = 'Z_TEST_03'

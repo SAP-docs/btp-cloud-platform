@@ -1,6 +1,6 @@
 <!-- loioc08258b8f520401f85c5fabe29ee2e9b -->
 
-# Exposing the SQL Service for Business User Access
+# Exposing the SQL Service for Data Federation with Business User Access
 
 To enable data access for business users using ODBC-based clients, you must control access to data using IAM apps, restriction types, and business catalogs.
 

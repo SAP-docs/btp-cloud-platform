@@ -51,7 +51,7 @@ Learn how to navigate to your global accounts and subaccounts in the SAP BTP coc
 
     You can see the following path in the breadcrumbs:
 
-    :house: Home / <span class="SAP-icons"></span> <global\_account\>
+    :house: Home / <span class="SAP-icons-V5"></span> <global\_account\>
 
 2.  Navigate to a subaccount.
 
@@ -62,7 +62,7 @@ Learn how to navigate to your global accounts and subaccounts in the SAP BTP coc
 
     You can see the following path in the breadcrumbs:
 
-    :house: Home / <span class="SAP-icons"></span> <global\_account\> / <span class="SAP-icons"></span> <subaccount\>
+    :house: Home / <span class="SAP-icons-V5"></span> <global\_account\> / <span class="SAP-icons-V5"></span> <subaccount\>
 
 
 <a name="Navigate-FSB"/>
@@ -94,7 +94,7 @@ Learn how to navigate to your global accounts and subaccounts in the SAP BTP coc
         > 
         > To change it, choose the desired new default global account from the list, select *Save new selection as default global account* and choose *Continue*. Your new default is savedand you’re redirected to that global account.
         > 
-        > To delete the default global account and go back to seeing the selection dialog after each logon, simply choose the <span class="SAP-icons"></span> icon next to your default global account name in the dialog and choose *Close*.
+        > To delete the default global account and go back to seeing the selection dialog after each logon, simply choose the <span class="SAP-icons-V5"></span> icon next to your default global account name in the dialog and choose *Close*.
 
 
     You can see which global account you are in at any time by looking at the first item in the breadcrumbs. It looks like this: :globe_with_meridians: *<global account name\>*
@@ -119,7 +119,7 @@ Learn how to navigate to your global accounts and subaccounts in the SAP BTP coc
 
     1.  When you enter your global account, you are by default taken to the *Account Explorer* page of that global account. To navigate to a subaccount, choose the corresponding entry from one of the views.
 
-        Once you've entered a subaccount, the breadcrumbs look like this: :globe_with_meridians: *<global account name\> /* <span class="SAP-icons"></span> *<subaccount name\>*
+        Once you've entered a subaccount, the breadcrumbs look like this: :globe_with_meridians: *<global account name\> /* <span class="SAP-icons-V5"></span> *<subaccount name\>*
 
         > ### Note:  
         > To access a subaccount your user must either have authorizations in the subaccount tenant or, in the case of a subaccount that has the Cloud Foundry environment enabled, have authorizations in the Cloud Foundry org or space of the subaccount. See [About User Management in the Cloud Foundry Environment](about-user-management-in-the-cloud-foundry-environment-8e6ce96.md).

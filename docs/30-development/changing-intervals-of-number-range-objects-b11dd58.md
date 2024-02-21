@@ -7,7 +7,7 @@ Use the `UPDATE` method to change number range intervals.
 Import and export parameters are the same as in the `CREATE` method.
 
 > ### Sample Code:  
-> ```
+> ```abap
 > 
 > …
 >     lv_object = 'Z_TEST_03'.

@@ -16,11 +16,13 @@ During developing and operating applications on your ABAP environment, these sit
 -   When analyzing the performance of an ABAP application, you want to clarify whether the SQL activity of the application is a relevant contribution to the processing time.
 
 
+If you're familiar with on-premise products from SAP and know the SAP GUI transaction `ST05` \(performance trace\), you'll be happy to see that the SQL trace functions described in the following procedure are similar to what you know from the SQL trace in transaction `ST05`.
+
 
 
 ## Procedure
 
-1.  Take an SQL trace of your ABAP application using ABAP Development Tools:
+1.  Take an SQL trace of your ABAP application using ABAP development tools \(ADT\):
 
     1.  Right-click on your ABAP project on the project explorer and choose *SQL Trace* from the context menu.
 

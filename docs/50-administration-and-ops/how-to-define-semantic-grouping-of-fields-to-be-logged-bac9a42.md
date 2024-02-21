@@ -33,9 +33,9 @@ For a log domain, specify a name and a business area that the data element is re
 
     2.  From the search results, select a template from SAP.
 
-        Templates from SAP use the <span class="SAP-icons"></span> \(SAP\) icon under *Owner* or list ***SAP*** under *Created By* or *Changed By*.
+        Templates from SAP use the <span class="SAP-icons-V5"></span> \(SAP\) icon under *Owner* or list ***SAP*** under *Created By* or *Changed By*.
 
-    3.  Under *Actions*, choose <span class="SAP-icons"></span> \(Copy\).
+    3.  Under *Actions*, choose <span class="SAP-icons-V5"></span> \(Copy\).
 
 
 3.  Enter the required data.

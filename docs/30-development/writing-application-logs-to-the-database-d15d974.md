@@ -33,7 +33,7 @@ To change the logs in the database, interface `IF_BALI_LOG_DB` contains the foll
 > Save a log in the database:
 > 
 > > ### Sample Code:  
-> > ```
+> > ```abap
 > > 
 > > ...
 > >     TRY.
@@ -53,7 +53,7 @@ To change the logs in the database, interface `IF_BALI_LOG_DB` contains the foll
 > Save the same log using the second database connection:
 > 
 > > ### Sample Code:  
-> > ```
+> > ```abap
 > > 
 > > ...
 > >     TRY.
@@ -67,7 +67,7 @@ To change the logs in the database, interface `IF_BALI_LOG_DB` contains the foll
 > Delete the same log from the database:
 > 
 > > ### Sample Code:  
-> > ```
+> > ```abap
 > > 
 > > ...
 > >     TRY.
@@ -83,7 +83,7 @@ To change the logs in the database, interface `IF_BALI_LOG_DB` contains the foll
 > :
 > 
 > > ### Sample Code:  
-> > ```
+> > ```abap
 > > 
 > > ...
 > >     DATA l_handle TYPE if_bali_log=>ty_handle.

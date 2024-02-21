@@ -34,7 +34,7 @@ Delete spaces in your Cloud Foundry org using the SAP BTP cockpit.
 **Related Information**  
 
 
- <?sap-ot O2O class="- topic/link " href="366db183c5b9491da5f0243a057d2737.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/1eb6a099af3942fb99979f255218893b.xml" output-class="" current-file="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+ <?sap-ot O2O class="- topic/link " href="366db183c5b9491da5f0243a057d2737.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/1eb6a099af3942fb99979f255218893b.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 [Create Spaces](create-spaces-2f6ed22.md "Create spaces in your Cloud Foundry organization using the SAP BTP cockpit.")
 

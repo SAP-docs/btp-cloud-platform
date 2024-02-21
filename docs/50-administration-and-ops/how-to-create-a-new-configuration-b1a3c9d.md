@@ -30,9 +30,9 @@ You can define what to log by creating your own read access logging configuratio
 
     1.  From the search results, select a template from SAP.
 
-        Templates from SAP use the <span class="SAP-icons"></span> \(SAP\) icon under *Owner*.
+        Templates from SAP use the <span class="SAP-icons-V5"></span> \(SAP\) icon under *Owner*.
 
-    2.  Under *Actions*, choose <span class="SAP-icons"></span> \(Copy\).
+    2.  Under *Actions*, choose <span class="SAP-icons-V5"></span> \(Copy\).
 
         For channels that use recordings, copy the recording that comes with the template under the same name or enter a new name.
 
@@ -56,7 +56,7 @@ You can define what to log by creating your own read access logging configuratio
     > ### Note:  
     > For a logging purpose, only create one logging group.
 
-    1.  Under *Log Groups*, choose <span class="SAP-icons"></span> \(Create Log Group\).
+    1.  Under *Log Groups*, choose <span class="SAP-icons-V5"></span> \(Create Log Group\).
 
     2.  Specify a logging purpose and a description for the log group.
 
@@ -84,7 +84,7 @@ You can define what to log by creating your own read access logging configuratio
 
 7.  Create conditions.
 
-    1.  Under *Conditions* choose <span class="SAP-icons"></span> \(Create Condition\).
+    1.  Under *Conditions* choose <span class="SAP-icons-V5"></span> \(Create Condition\).
 
         If you do not assign any conditions, select the *Without Condition* checkbox in the log group attributes and continue with the next step.
 
@@ -109,7 +109,7 @@ You can define what to log by creating your own read access logging configuratio
         To assign a condition, select the Log Group, choose *Assign Condition* and select a condition. Activate the assignment if you want to apply the condition to the log group. The log groups and conditions do not need to be activated, however.
 
 
-8.  To check the configuration for consistency and function: choose <span class="SAP-icons"></span> \(Check Configuration\) *Check*.
+8.  To check the configuration for consistency and function: choose <span class="SAP-icons-V5"></span> \(Check Configuration\) *Check*.
 
 9.  Save your entries.
 

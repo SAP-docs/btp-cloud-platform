@@ -41,28 +41,28 @@ You can create a hierarchical structure that is up to 7 levels deep. The highest
 
         When creating the new directory, you choose its location in the account structure by selecting its parent directory or the global account directly in the creation dialog box.
 
-    -   You can also create a directory by selecting *Create Directory* from the <span class="SAP-icons"></span> Actions menu button for the global account or a specific parent directory.
+    -   You can also create a directory by selecting *Create Directory* from the <span class="SAP-icons-V5"></span> Actions menu button for the global account or a specific parent directory.
 
 
 -   Move subaccounts in the account structure.
 
-    -   Click <span class="SAP-icons"></span> Actions and select *Edit*. Then select a new parent.
+    -   Click <span class="SAP-icons-V5"></span> Actions and select *Edit*. Then select a new parent.
 
-    -   Click <span class="SAP-icons"></span> Actions and select *Move*. Then select a new parent.
+    -   Click <span class="SAP-icons-V5"></span> Actions and select *Move*. Then select a new parent.
 
-    -   Click <span class="SAP-icons"></span> Move to move subaccounts by drag and dropping.
+    -   Click <span class="SAP-icons-V5"></span> Move to move subaccounts by drag and dropping.
 
 
 -   Delete directories and subaccounts from the account structure.
 
-    -   Click <span class="SAP-icons"></span> Actions and select *Delete*.
+    -   Click <span class="SAP-icons-V5"></span> Actions and select *Delete*.
 
     -   To delete a subaccount, you can also navigate into the subaccount and click *Delete Subaccount*.
 
 
 -   Export the account structure to Microsoft Excel format.
 
-    -   Click <span class="SAP-icons"></span> Export.
+    -   Click <span class="SAP-icons-V5"></span> Export.
 
         The exported Microsoft Excel file contains a sheet \(tab\) called *Account Structure*, which lists all the subaccounts and directories in the account structure, and includes information about each entity. Each subaccount and directory displays its name, ID, description, path, creation/change dates, and the user that created it.
 

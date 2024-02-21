@@ -43,7 +43,7 @@ The MTA deployment descriptor shown in the example above contains a module that 
 
 The resource itself contains a `filter` parameter that is used to filter entries from the configuration registry based on their content. In the example shown above, the filter only matches entries that are provided by an MTA deployed in the current space, which have a `type` property in their content with a value of `com.acme.plugin`.
 
-If the `list` element is missing, the values matched by the resources filter are **single** configuration entries – not the usual list of multiple configuration entries. In addition, if either no value or multiple values are found during the deployment of the consuming \(subscribing\) MTA, the deployment operation fails. If a provider \(plug-in\) contributes additional configuration details after subscriber applications have been deployed, the subscriber applications do not receive the new information immediately; they are made aware of the new configuration details only when they are updated. Note, however, that the update operation will fail because multiple configuration entries are going to be available at that point.
+If the `list` element is missing, the values matched by the resources filter are **single** configuration entries – not the usual list of multiple configuration entries. In addition, if either no value or multiple values are found during the deployment of the consuming \(subscribing\) MTA, the deployment operation fails. If a provider \(plug-in\) adds more configuration details after the deployment of subscriber applications, these applications won't get the new information right away. They will only receive these details when they get updated. However, this update will not be successful because there will be several configuration entries available at that point.
 
 The XML document in the following example shows some sample configuration entries, which would be matched by the filter if they were present in the registry.
 
@@ -90,8 +90,8 @@ The JSON document in the following example shows the environment variable that i
 > ] 
 > ```
 
-`Requires` dependencies support a special parameter named “`managed`”, which registers as a “subscriber” the application created from the module containing the `requires` dependency. One consequence of this registration is that if any new configuration entries are published in the configuration registry during the deployment of another MTA, and those new entries match the filter specified in the subscription of an application, then that application's environment would be updated, and the application itself would be restarted in order for it to see its new environment's state.
+`Requires` dependencies support a special parameter named “`managed`”, which registers as a “subscriber” the application created from the module containing the `requires` dependency. This registration causes the application's environment to be updated if any new configuration entries are published in the configuration registry during the deployment of another MTA. Those new entries must also match the subscription filter of the application. This will cause the application to restart so it can recognize the updated environment state.
 
 > ### Tip:  
-> When starting the deployment of an MTA \(with the `xs deploy` command\), you can use the special option `--no-restart-subscribed-apps` to specify that, if the publishing of configuration entries created for that MTA result in the update of a subscribing application's environment, then that application should **not** be restarted.
+> When starting the deployment of an MTA \(with the `cf deploy` command\), you can use the special option `--no-restart-subscribed-apps` to specify that, if the publishing of configuration entries created for that MTA result in the update of a subscribing application's environment, then that application should **not** be restarted.
 

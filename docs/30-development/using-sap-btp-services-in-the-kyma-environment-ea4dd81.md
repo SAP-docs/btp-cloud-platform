@@ -10,7 +10,7 @@ With the Kyma environment, you can connect SAP BTP services to your cluster and 
 
 ## Prerequisites
 
--   The SAP BTP Operator module is enabled, see [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c). Otherwise, you get the following error message: `resource mapping not found for {...} ensure CRDs are installed first`.
+-   The SAP BTP Operator module is added, see [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c). Otherwise, you get the following error message: `resource mapping not found for {...} ensure CRDs are installed first`.
 
 -   For CLI interactions: [kubectl](https://kubernetes.io/docs/tasks/tools/) v1.17 or higher.
 

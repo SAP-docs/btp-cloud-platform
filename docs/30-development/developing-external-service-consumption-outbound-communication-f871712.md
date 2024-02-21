@@ -28,8 +28,8 @@ To establish outbound communication between two communication partners, you have
 
     If the scenario includes multiple communication arrangements, you have to determine the communication system. You can read the customer-specific properties using class `CL_COM_ARRANGEMENT_FACTORY` to determine the receiver communication system.
 
+    ![Development Objects for Outbound Communication](images/Developing_External_Service_Consumption_f7792d9.svg)
 
-![](images/ABAP_Environment_Outbound_Communication_Developer_a0adfaa.png)
 
 > ### Note:  
 > Alternatively, if you only want to call a remote Web service, use the following method

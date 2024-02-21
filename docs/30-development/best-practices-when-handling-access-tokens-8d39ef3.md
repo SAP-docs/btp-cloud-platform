@@ -215,7 +215,7 @@ Application Response
 
 -   The signing key of the token was rotated.
 
-    For more information, see [Rotate Signing Keys of Access Tokens](../50-administration-and-ops/rotate-signing-keys-of-access-tokens-b279adf.md).
+    For more information, see [Rotate Signing Keys of Access Tokens](../50-administration-and-ops/rotate-signing-keys-of-access-tokens-b279adf.md#loiob279adf3ec134b2a8611a42bff1ee9d9).
 
 -   Token expired and your application hasn't removed it from your cache yet.
 

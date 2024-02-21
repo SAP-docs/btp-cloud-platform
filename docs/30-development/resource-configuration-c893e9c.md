@@ -2,7 +2,7 @@
 
 # Resource Configuration
 
-Both application containers [Tomcat](tomcat-ddfc101.md) and [TomEE 7](tomee-7-79c039a.md) are configured through text configuration files. For example – `conf/server.xml`, `conf/tomee7.xml` or `conf/logging.properties` \(see [Apache Tomcat 9 Configuration Reference](https://tomcat.apache.org/tomcat-9.0-doc/config/)\).
+Both application containers [Tomcat 9](tomcat-9-ddfc101.md) and [TomEE 7](tomee-7-79c039a.md) are configured through text configuration files. For example – `conf/server.xml`, `conf/tomee7.xml` or `conf/logging.properties` \(see [Apache Tomcat 9 Configuration Reference](https://tomcat.apache.org/tomcat-9.0-doc/config/)\).
 
 Resource configuration feature of SAP Java Buildpack provides means for changing parameterized values in all text files \(part of the application container or part of the application files\) during staging.
 

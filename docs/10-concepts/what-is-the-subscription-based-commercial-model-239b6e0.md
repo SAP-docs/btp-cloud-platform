@@ -40,7 +40,7 @@ Note that you can use both consumption and subscription-based commercial models 
 
 [What Is the Consumption-Based Commercial Model?](what-is-the-consumption-based-commercial-model-7047eb4.md "With the consumption-based model, your organization purchases an entitlement to all current and future SAP BTP services that are eligible for this model. Throughout the duration of your contract, you have complete flexibility to turn services on and off and to switch between services as your business requires.")
 
-[Monitoring Usage and Consumption Costs in Your Global Account](../50-administration-and-ops/monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md "In a global account that uses the consumption-based commercial model, you can monitor the usage of billed services and your consumption costs in the SAP BTP cockpit.")
+[Monitoring Usage and Consumption Costs in Your Global Account](../50-administration-and-ops/monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill into subaccounts and service plans for detailed information.")
 
 [View Subaccount Usage Analytics](../50-administration-and-ops/view-subaccount-usage-analytics-8f4d9db.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your subaccount.")
 

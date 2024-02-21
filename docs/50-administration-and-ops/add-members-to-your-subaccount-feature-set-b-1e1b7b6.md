@@ -65,7 +65,7 @@ There are two types of users in subaccounts:
 ## Procedure
 
 > ### Tip:  
-> If you're a global account administrator, you can quickly assign yourself as an administrator of a subaccount by going to the *Account Explorer* page and then choosing the *Add Me as Admin* option in the *Actions* \(<span class="SAP-icons"></span>\) context menu of the subaccount. To assign other users, follow the instructions below.
+> If you're a global account administrator, you can quickly assign yourself as an administrator of a subaccount by going to the *Account Explorer* page and then choosing the *Add Me as Admin* option in the *Actions* \(<span class="SAP-icons-V5"></span>\) context menu of the subaccount. To assign other users, follow the instructions below.
 > 
 > This feature may not be available if it has been disabled for your global account.
 > 

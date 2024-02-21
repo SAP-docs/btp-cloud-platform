@@ -160,4 +160,11 @@ To establish trust from a tenant of Identity Authentication to a subaccount, ass
 
 8.  Choose *Attributes*, use *Add* to add an attribute named `Groups`with a source `Identity Provider` and the value `Groups` \(case-sensitive\). Save your changes.
 
+    > ### Note:  
+    > Be aware that the X.509 certificates exposed in the SAML 2.0 metadata have specific validities. This applies to both SAML service providers and SAML identity providers. Authentication may fail with an error once the X.509 certificates expire.
+    > 
+    > Ensure that the SAML 2.0 metadata is updated before the X.509 certificate expiry dates.
+    > 
+    > Sign the certificate with a new signing key. For more information, see [Rotate Signing Keys of SAML Token](rotate-signing-keys-of-saml-token-052e9b4.md).
+
 

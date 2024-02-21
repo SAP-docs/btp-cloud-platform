@@ -574,7 +574,7 @@ In the Cloud Foundry environment, a global account can have as many subaccounts 
 </td>
 <td valign="top">
 
-One of the SAP BTP commercial models \("subscription-based"\), where the customer subscribe to SAP BTP services for a certain amount of time and for a fixed price in order to get access to these services.
+One of the SAP BTP commercial models \("subscription-based"\), where the customer subscribes to SAP BTP services for a certain amount of time and for a fixed price in order to get access to these services.
 
 </td>
 </tr>

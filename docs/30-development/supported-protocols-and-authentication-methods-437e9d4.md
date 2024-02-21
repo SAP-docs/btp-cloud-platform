@@ -293,7 +293,7 @@ OpenID Connect Bearer Token
 </tr>
 </table>
 
--   For more information about the SQL service, see [Accessing ABAP-Managed Data from External ODBC-Based Clients](accessing-abap-managed-data-from-external-odbc-based-clients-4082fe1.md).
+-   For more information about the SQL service, see [Accessing ABAP-Managed Data Using SQL Services for Data Integration Scenarios](accessing-abap-managed-data-using-sql-services-for-data-integration-scenarios-4082fe1.md).
 
 -   For more information about SAML Assertion Authentication and OpenID Connect Bearer Token, see [How to Create Communication Systems](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-create-communication-systems?version=Cloud).
 

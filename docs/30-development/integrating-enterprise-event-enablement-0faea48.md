@@ -10,7 +10,7 @@ The enterprise event enablement framework enables the exchange of events across 
 
 
 
-You can publish events triggered from ABAP environment applications through [RAP Business Events](https://help.sap.com/docs/BTP/923180ddb98240829d935862025004d6/0b925bc556d4491aad395b21ec2566ff.html) and consume events delivered through the respective event exchange infrastructure from external applications.
+You can publish events triggered from ABAP environment applications through [RAP Business Events](https://help.sap.com/docs/abap-cloud/abap-rap/business-events?version=sap_btp) and consume events delivered through the respective event exchange infrastructure from external applications.
 
 The respective event exchange infrastructure service provided on the SAP Business Technology Platform is the message broker as a service, which provides real-time messaging capabilities. All events are exposed in a standard way with a well-defined hierarchy and metadata so they can easily be consumed on different platforms.
 

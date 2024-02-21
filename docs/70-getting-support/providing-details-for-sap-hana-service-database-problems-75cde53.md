@@ -83,7 +83,7 @@ The service instance ID
 
 1.  In the SAP BTP cockpit, navigate to the space the SAP HANA service instance is provisioned in.
 2.  In the navigation area, choose *Services* \> *Service Instances*.
-3.  In the list of available services, find your SAP HANA service instance and choose <span class="SAP-icons"></span> Open Dashboard from the *Actions* column.
+3.  In the list of available services, find your SAP HANA service instance and choose <span class="SAP-icons-V5"></span> Open Dashboard from the *Actions* column.
 4.  Copy the service instance GUID under *Details* \> *ID*.
 
     Example GUID: ad539b83-39bd-4ff4-8b41-1a5dfdfca7ea

@@ -12,7 +12,7 @@ As the SAP Build Process Automation processes don't integrate using SAP Event Me
 
 -   You've created the destination for the workflow capability integration. See [Create Destinations](create-destinations-eb1d0a3.md).
 
--   You've set the scopes. See  <?sap-ot O2O class="- topic/xref " href="4a9937a2fa3b40bcb766563396ece79f.xml" text="" desc="" xtrc="xref:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/479958c5439f4aa6a51335a75376f907.xml" output-class="" current-file="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+-   You've set the scopes. See  <?sap-ot O2O class="- topic/xref " href="4a9937a2fa3b40bcb766563396ece79f.xml" text="" desc="" xtrc="xref:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/479958c5439f4aa6a51335a75376f907.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 
 -   You have the necessary roles to develop and deploy SAP Build Process Automation projects. See [Managing Project Members](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/managing-project-members).
 

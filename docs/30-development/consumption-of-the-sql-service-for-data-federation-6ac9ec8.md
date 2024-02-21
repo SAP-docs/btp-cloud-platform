@@ -1,6 +1,6 @@
 <!-- loio6ac9ec8dd35a4ccc9dab42bfce6c21b6 -->
 
-# Consumption of the SQL Service and the ODBC Driver for ABAP
+# Consumption of the SQL Service for Data Federation
 
 Learn how you can use ODBC-based clients for loading and transforming data.
 

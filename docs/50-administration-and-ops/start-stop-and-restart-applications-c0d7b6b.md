@@ -54,9 +54,9 @@ The first start of the application occurs when you deploy the app, if enough quo
     
     For the application that you'd like to start or stop, choose the respective icon from the *Actions* column:
 
-    -   <span style="color:#346187;"><span class="SAP-icons"></span></span> \(*Start*\) - This starts the first instance of your application and makes it available to users.
+    -   <span style="color:#346187;"><span class="SAP-icons-V5"></span></span> \(*Start*\) - This starts the first instance of your application and makes it available to users.
 
-    -   <span style="color:#346187;"><span class="SAP-icons"></span></span> \(*Stop*\) - This stops all running instances of the application.
+    -   <span style="color:#346187;"><span class="SAP-icons-V5"></span></span> \(*Stop*\) - This stops all running instances of the application.
 
 
     You cannot directly restart an application from this page.

@@ -419,7 +419,7 @@ Number of returned numbers
 </table>
 
 > ### Sample Code:  
-> ```
+> ```abap
 > 
 > …
 >   lv_object = 'Z_TEST_03'.

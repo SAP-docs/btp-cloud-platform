@@ -86,7 +86,7 @@ Select a table row to display the usage information in the chart. You can also c
 
 In the charts, you can view the data as a column chart or as a line chart.
 
-To display a larger view of a chart, choose the <span style="font-size:16px;"><span class="SAP-icons"></span></span> \(Zoom\) button.
+To display a larger view of a chart, choose the <span style="font-size:16px;"><span class="SAP-icons-V5"></span></span> \(Zoom\) button.
 
 Some rounding or shortening is applied to large values. You can mouse over values in the table to view the exact values as tooltips.
 
@@ -97,7 +97,7 @@ Some rounding or shortening is applied to large values. You can mouse over value
 
 [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 
-[Monitoring Usage and Consumption Costs in Your Global Account](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md "In a global account that uses the consumption-based commercial model, you can monitor the usage of billed services and your consumption costs in the SAP BTP cockpit.")
+[Monitoring Usage and Consumption Costs in Your Global Account](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill into subaccounts and service plans for detailed information.")
 
 [What Is the Consumption-Based Commercial Model?](../10-concepts/what-is-the-consumption-based-commercial-model-7047eb4.md "With the consumption-based model, your organization purchases an entitlement to all current and future SAP BTP services that are eligible for this model. Throughout the duration of your contract, you have complete flexibility to turn services on and off and to switch between services as your business requires.")
 

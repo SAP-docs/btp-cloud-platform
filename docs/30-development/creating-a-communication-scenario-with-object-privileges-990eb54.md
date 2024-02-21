@@ -2,11 +2,13 @@
 
 # Creating a Communication Scenario with Object Privileges
 
+To be able to use a communication user in the ABAP system to access the service binding, you must create a communication scenario in ABAP Development Tools.
+
 
 
 ## Context
 
-To be able to use a communication user in the ABAP system to access the service binding, you must create a communication scenario in ABAP Development Tools. This communication scenario is the basis of a communication arrangement in the ABAP environment that you also need.
+This communication scenario is the basis of a communication arrangement in the ABAP environment that you also need.
 
 
 
@@ -20,7 +22,7 @@ To be able to use a communication user in the ABAP system to access the service 
 
 4.  In the communication scenario definition, choose the *Inbound* tab.
 
-5.  To use user/password authentication, select *Basic* as supported authentication method.
+5.  To use user/password authentication, choose *Basic* as supported authentication method. Alternatively, you can use authentication with X.509 client certificates by choosing *X.509*.
 
 6.  In the *Inbound Services* screen area, choose *Add…*, enter the `S_PRIVILEGED_SQL1` service, and choose *Finish*.
 
@@ -54,7 +56,7 @@ To be able to use a communication user in the ABAP system to access the service 
     </td>
     <td valign="top">
     
-    The name of the service binding that you want to grant access to
+    The name of the service binding \(exposed as a schema\) that you want to grant access to
     
     </td>
     </tr>
@@ -66,7 +68,7 @@ To be able to use a communication user in the ABAP system to access the service 
     </td>
     <td valign="top">
     
-    \* \(if you want to allow access to all views in the service definition\)
+    Comma-separated list of all views to which you want to grant access or `*` \(if you want to allow access to all views in the service definition\)
     
     </td>
     </tr>
@@ -78,10 +80,12 @@ To be able to use a communication user in the ABAP system to access the service 
     </td>
     <td valign="top">
     
-    SELECT
+    Choose at least one option: *SELECT* or *REPLICATE*. SELECT grants read access to and REPLICATE allows replication on the specified views.
 
     > ### Note:  
-    > Only read access is allowed, so SQL\_VIEWOP=SELECT is mandatory.
+    > You can allow replication on a view here, but the replication might still not be technically possible.
+    > 
+    > We recommend that you create separate communication scenarios for SELECT and REPLICATE to give administrators more fine-grained settings.
 
 
     
@@ -93,4 +97,9 @@ To be able to use a communication user in the ABAP system to access the service 
 
     After publication, you can create a communication arrangement based on the communication scenario.
 
+
+**Related Information**  
+
+
+[Communication Management](communication-management-5b8ff39.md#loio5b8ff39ddb6741a29ddfcf587939e8f4 "Learn more about the basic principles of communication management when integrating your system or solution with other systems to enable data exchange in your ABAP environment.")
 

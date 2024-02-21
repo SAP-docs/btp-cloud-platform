@@ -40,7 +40,7 @@ Interface `IF_BALI_LOG_FILTER` contains the following methods to set the filter 
 > Set a filter which selects up to 5 logs which were created in the last hour by the current user:
 > 
 > > ### Sample Code:  
-> > ```
+> > ```abap
 > > 
 > > ...
 > >     TRY.
@@ -63,7 +63,7 @@ Interface `IF_BALI_LOG_FILTER` contains the following methods to set the filter 
 > Set a filter which reads all logs of the current user with object `ZOBJECT`, subobject `ZSUBOBJECT` and an external identifier which starts with an 'E':
 > 
 > > ### Sample Code:  
-> > ```
+> > ```abap
 > > 
 > > ...
 > >     TRY.

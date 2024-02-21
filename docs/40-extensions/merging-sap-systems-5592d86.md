@@ -31,7 +31,7 @@ The logic of the SAP BTP cockpit enables it to discover SAP systems across your 
 
 2.  On the *Systems* page, find the auto-discovered SAP system you want to merge.
 
-3.  Under the *Actions* column, choose the <span class="SAP-icons"></span> \(Merge system\) button.
+3.  Under the *Actions* column, choose the <span class="SAP-icons-V5"></span> \(Merge system\) button.
 
     Alternatively, you can choose the system from the list to open the *System Details* view, and then, choose the *Merge System* button on the top-right corner.
 

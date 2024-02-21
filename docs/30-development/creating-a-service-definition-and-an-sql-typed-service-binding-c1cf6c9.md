@@ -2,7 +2,7 @@
 
 # Creating a Service Definition and an SQL-Typed Service Binding
 
-To expose the new CDS view entities using the ODBC driver for ABAP, create a service definition and a corresponding service binding of type SQL1.
+To expose CDS view entities using the SQL service, you must create a service definition and a corresponding service binding of type `SQL1`.
 
 
 
@@ -12,7 +12,9 @@ To expose the new CDS view entities using the ODBC driver for ABAP, create a ser
 
 2.  Enter a name for the new service definition.
 
-3.  Open the new service definition, add the second view, and add alias names for the CDS entities.
+3.  Open the new service definition, add the second view, and add alias names for the CDS view entities.
+
+    Adding an alias is not required but recommended because with an alias, you can exchange the CDS view entity behind the alias but keep the contract to the consuming application stable.
 
     The service definition can look as follows, for example:
 
@@ -33,10 +35,14 @@ To expose the new CDS view entities using the ODBC driver for ABAP, create a ser
 
 6.  In the following popup, enter a name and description, for example, `ZData`.
 
-    You can use a mixed-case name for the service binding. The service binding name acts as the schema name for external ODBC consumers.
+    You can use a mixed-case name for the service binding. The service binding name acts as the schema name for external consumers.
 
 7.  As binding type, select *SQL – Web API* and choose *Next* and *Finish*.
 
-8.  Activate the service binding.
+8.  In the *Enabled Operations* area, select all access types that you want to allow on the service.
+
+    *SELECT* is selected by default and enables federated access. *REPLICATE* enables replicated access.
+
+9.  Activate the service binding.
 
 

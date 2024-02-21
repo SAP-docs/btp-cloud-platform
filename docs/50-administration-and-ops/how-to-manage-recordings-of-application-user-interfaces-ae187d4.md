@@ -37,9 +37,9 @@ When read access to remote APIs is logged, their contents are already known at d
 
     2.  From the search results, select a template from SAP.
 
-        Templates from SAP use the <span class="SAP-icons"></span> \(SAP Template\) icon under *Owner*.
+        Templates from SAP use the <span class="SAP-icons-V5"></span> \(SAP Template\) icon under *Owner*.
 
-    3.  Under *Actions*, choose <span class="SAP-icons"></span> \(Copy\).
+    3.  Under *Actions*, choose <span class="SAP-icons-V5"></span> \(Copy\).
 
 
 3.  Enter the required data.

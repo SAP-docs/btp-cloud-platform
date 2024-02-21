@@ -50,7 +50,7 @@ Use this Client Proxy for the consumption of OData Version 4 services.
 > ### Note:  
 > These configurations \(the OData version and consumption type\) depend on each other. For example, there is a local OData Version 2 Client Proxy or a remote OData Version 4 Client Proxy, but not a local Client Proxy independent of the OData version. The asynchronous Client Proxy is only available for remote consumption of OData Version 4 services.
 
-![](images/OData_Client_Proxy_Overview_Cloud_and_SP_8aaca21.png)
+![OData Client Proxies](images/OData_Client_Proxies_8225bc6.svg)
 
 
 

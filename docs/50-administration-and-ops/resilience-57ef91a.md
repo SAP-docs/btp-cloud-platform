@@ -15,3 +15,6 @@ SAP BTP, ABAP environment provides the following set of features to increase the
 -   Enqueue locks are stored redundantly.
 
 
+> ### Note:  
+> SAP BTP ABAP Environment provides protection against denial-of-service attacks via various defense mechanisms. These are continuously improved to keep a decent protection level. However, a full protection against DoS attacks cannot be guaranteed.
+

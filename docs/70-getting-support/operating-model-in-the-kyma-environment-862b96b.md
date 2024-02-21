@@ -6,7 +6,10 @@ This operating model clearly defines the separation of tasks between SAP and the
 
 
 
-The responsibilities for operating the Kyma environment are listed in the following service catalog.
+The responsibilities for operating the SAP BTP, Kyma runtime are listed in the following service catalog.
+
+> ### Note:  
+> The following information is valid for the managed offering, SAP BTP, Kyma runtime, not for the open source project "Kyma".
 
 **Service Catalog**
 

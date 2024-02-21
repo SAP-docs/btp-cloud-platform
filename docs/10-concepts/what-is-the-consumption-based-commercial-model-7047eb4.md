@@ -54,7 +54,7 @@ If you want information about the **Pay-As-You-Go for SAP BTP for Partners** com
 </table>
 
 > ### Note:  
-> -   In global accounts that use the consumption-based commercial model, SAP BTP, Cloud Foundry Runtime is not listed in the *Entitlements* pages in the SAP BTP cockpit. A quota limit of 200 GB of Cloud Foundry Runtime memory is assigned by default to every subaccount.
+> -   In global accounts that use the consumption-based commercial model, SAP BTP, Cloud Foundry Runtime is not listed in the *Entitlements* pages in the SAP BTP cockpit. A technical limit of 200 GB of Cloud Foundry Runtime memory is assigned by default to every subaccount. The limit defines the maximum amount of runtime memory that can be used in the subaccount. Note that the “Standard” plan in the consumption-based commercial model is a paid plan and that you are billed based on the amount of Cloud Foundry Runtime you consume. For more information on consumption monitoring, see [Consumption Monitoring](https://help.sap.com/docs/cf-runtime/cloud-foundry-runtime/monitoring-and-troubleshooting#consumption-monitoring).
 > -   If you need to increase this limit, report an incident to [SAP support](https://support.sap.com) on the BC-NEO-CIS component. This also applies to other services that have a technical quota limit.
 
 > ### Tip:  
@@ -74,7 +74,7 @@ To find frequently asked questions about this licensing model, see the [Consumpt
 
 [What Is the Subscription-Based Commercial Model?](what-is-the-subscription-based-commercial-model-239b6e0.md "Your organization receives a fixed price and period (typically a 1 to 3-year period) for access to your subscribed SAP BTP services.")
 
-[Monitoring Usage and Consumption Costs in Your Global Account](../50-administration-and-ops/monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md "In a global account that uses the consumption-based commercial model, you can monitor the usage of billed services and your consumption costs in the SAP BTP cockpit.")
+[Monitoring Usage and Consumption Costs in Your Global Account](../50-administration-and-ops/monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill into subaccounts and service plans for detailed information.")
 
 [View Subaccount Usage Analytics](../50-administration-and-ops/view-subaccount-usage-analytics-8f4d9db.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your subaccount.")
 

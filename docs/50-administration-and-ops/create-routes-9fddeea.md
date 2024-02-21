@@ -99,7 +99,7 @@ The following steps guide you through the procedure of creating routes by using 
 
 ## Next Steps
 
-Once you’ve created a route, you must map it to your application. Additionally, you also have the option to bind it to a route service instance, by choosing <span class="SAP-icons"></span> \(Bind Route Service\) from the *Actions* column.
+Once you’ve created a route, you must map it to your application. Additionally, you also have the option to bind it to a route service instance, by choosing <span class="SAP-icons-V5"></span> \(Bind Route Service\) from the *Actions* column.
 
 **Related Information**  
 

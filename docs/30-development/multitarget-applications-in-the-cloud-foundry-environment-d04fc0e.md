@@ -2,9 +2,9 @@
 
 # Multitarget Applications in the Cloud Foundry Environment
 
-A Multitarget application \(MTA\) is logically a single application comprised of multiple parts created with different technologies, which share the same lifecycle.
+A Multitarget application \(MTA\) is essentially a single application that consists of multiple parts. These parts are created using various technologies and share the same lifecycle.
 
-The developers of the MTA describe the desired result using the MTA model, which contains MTA modules, MTA resources, and interdependencies between them. Afterward, the SAP Cloud Deployment service validates, orchestrates, and automates the deployment of the MTA, which results in Cloud Foundry applications, services and SAP specific contents. For more information about the Multitarget Application model, see the official [The Multitarget Application Model v.2](https://www.sap.com/documents/2016/06/e2f618e4-757c-0010-82c7-eda71af511fa.html) and the [The Multitarget Application Model v.3](https://www.sap.com/documents/2021/09/66d96898-fa7d-0010-bca6-c68f7e60039b.html) specification documents.
+The MTA developers outline the intended outcomes using the MTA model. This model consists of MTA modules, MTA resources, and the interdependencies between them. Afterward, the SAP Cloud Deployment service validates it, orchestrates the necessary actions, and automates the MTA deployment. The outcome is the formation of Cloud Foundry applications, services, and the generation of SAP specific content. For more information about the Multitarget Application model, see the official specification documents [The Multitarget Application Model v.2](https://www.sap.com/documents/2016/06/e2f618e4-757c-0010-82c7-eda71af511fa.html) and [The Multitarget Application Model v.3](https://www.sap.com/documents/2021/09/66d96898-fa7d-0010-bca6-c68f7e60039b.html).
 
 You can create and deploy a Multitarget Application in the Cloud Foundry environment as described below by following different approaches that can yield the same result:
 

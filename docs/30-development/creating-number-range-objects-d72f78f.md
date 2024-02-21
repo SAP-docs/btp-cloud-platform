@@ -555,7 +555,7 @@ W: warning
 </table>
 
 > ### Sample Code:  
-> ```
+> ```abap
 > 
 > CLASS zcl_nr_object_create DEFINITION
 >   PUBLIC

@@ -69,7 +69,7 @@ For more information about roles, see [Configure Application Roles and Assign Ro
 
     Details about the instance open to the right.
 
-3.  In the top-right corner, select <span class="SAP-icons"></span> and from the dropdown menu, choose *View Dashboard*.
+3.  In the top-right corner, select <span class="SAP-icons-V5"></span> and from the dropdown menu, choose *View Dashboard*.
 
     A new tab with the subscription management dashboard opens.
 

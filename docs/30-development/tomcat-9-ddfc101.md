@@ -1,6 +1,6 @@
 <!-- loioddfc10180fe844049cc71f6989942dc2 -->
 
-# Tomcat
+# Tomcat 9
 
 By default, web applications pushed with SAP Java Buildpack are running in an Apache Tomcat container.
 
@@ -35,7 +35,7 @@ Runtime
 </th>
 <th valign="top">
 
-Tomcat
+Full Name
 
 </th>
 <th valign="top">
@@ -52,10 +52,12 @@ tomcat
 </td>
 <td valign="top">
 
-Apache Tomcat 9
+**Apache Tomcat 9** 
 
 </td>
 <td valign="top">
+
+Java 8 and later
 
 Java Servlets 4.0
 

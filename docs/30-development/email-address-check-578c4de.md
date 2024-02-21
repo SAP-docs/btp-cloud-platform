@@ -59,7 +59,7 @@ Validates whether a string is a syntactic valid mail address \(according to RFC 
 ## Methods
 
 > ### Sample Code:  
-> ```
+> ```abap
 > Try.
 >         Data(lo_mail_address) = cl_mail_address=>create_instance( iv_address_string = ‘testmail@ok.com’ ).
 >     Catch cx_bcs_mail into data(lx_err).

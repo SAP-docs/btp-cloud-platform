@@ -17,7 +17,7 @@ To be able to use the reusable components, you need to adapt the code that can b
 1.  Adapt your `<manifest.json>` file and add the `sap.nw.core.changedocs.lib.reuse` library under the `sap.ui5` section:
 
     > ### Sample Code:  
-    > ```abap
+    > ```json
     > 
     > "sap.ui5": {
     >         "resources": {
@@ -58,7 +58,7 @@ To be able to use the reusable components, you need to adapt the code that can b
 2.  Adapt your `<manifest.json>` file and add the component as section on your page:
 
     > ### Sample Code:  
-    > ```abap
+    > ```
     > 
     > "pages": {
     >     "ObjectPage|TravelProcessor": {
@@ -92,7 +92,7 @@ To be able to use the reusable components, you need to adapt the code that can b
 3.  Adapt your `<i18n.properties>` file and add:
 
     > ### Sample Code:  
-    > ```abap
+    > ```
     > 
     > …
     > #XTIT: Reuse component title

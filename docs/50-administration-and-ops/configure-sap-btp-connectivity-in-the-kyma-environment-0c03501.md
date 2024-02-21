@@ -10,7 +10,7 @@ Extend your Kyma environment with SAP BTP Connectivity.
 
 -   The Connectivity service entitlement is present within your subaccount with the service plan `connectivity_proxy`. To learn how to configure your entitlements, see [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
 
--   You have enabled the BTP Operator module. To learn how to do it, see [Add and Delete a Kyma Module](add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+-   You have added the BTP Operator module. See [Add and Delete a Kyma Module](add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 
 
 
@@ -30,7 +30,7 @@ To learn more, see [Extending SAP Customer Experience Products in the Kyma Envir
 1.  In Kyma dashboard, go to *\{YOUR\_NAMESPACE\}* \> *Service Management* \> *Service Instances*.
 
     > ### Note:  
-    > If you cannot see the *Service Management* element in the Kyma dashboard menu, make sure you have enabled the SAP BTP Operator module.
+    > If you cannot see the *Service Management* element in the Kyma dashboard menu, make sure you have the SAP BTP Operator module running in your cluster.
 
 2.  Click *Create Service Instance +* and provide the following details:
 
@@ -63,7 +63,7 @@ To learn more, see [Extending SAP Customer Experience Products in the Kyma Envir
 ## Results
 
 -   It takes approximately 3 minutes for a service binding creation to be registered in the system. After that, the connectivity proxy is provisioned in the cluster.
--   The connectivity proxy is deployed in the `kyma-system` Namespace. By default, it is accessible within the cluster by invoking the following URL: `connectivity-proxy.kyma-system.svc.cluster.local`.
+-   The connectivity proxy is deployed in the `kyma-system` namespace. By default, it is accessible within the cluster by invoking the following URL: `connectivity-proxy.kyma-system.svc.cluster.local`.
 
     > ### Caution:  
     > Every workload using the connectivity proxy to call the on-premise system must have the Istio sidecar proxy injection enabled. Otherwise, the connectivity proxy does not work correctly.

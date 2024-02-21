@@ -18,7 +18,7 @@ See also [Supported Protocols and Authentication Methods](supported-protocols-an
 
 Inbound services can be protected with an authorization object and protection against unauthorized activities. For each inbound service, authorization default values are defined that can later be used in the authorizations defined in the communication scenario. See [Granting Access Based on Activities for Communication Users](granting-access-based-on-activities-for-communication-users-bc9c2c9.md).
 
-![](images/ABAP_Environment_Inbound_Communication_Developer_7d80c88.png)
+![Development Objects for Inbound Communication](images/Developing_APIs_for_Inbound_Communication_243837b.svg)
 
 **Related Information**  
 

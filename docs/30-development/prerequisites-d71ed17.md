@@ -29,5 +29,5 @@ To be able to run the ODBC driver for ABAP, the following prerequisites must be 
 **Related Information**  
 
 
-[Access Scenarios](access-scenarios-96368bd.md "When you set up access to ABAP-managed data from ODBC-based clients, you can set up privileged or business user-based data access.")
+[Data Integration Patterns](data-integration-patterns-96368bd.md "When you set up access to ABAP-managed data using SQL services, you can set up privileged or business user-based data access. As consumption scenarios, there's data federation and replication.")
 

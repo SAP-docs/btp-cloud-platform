@@ -96,7 +96,7 @@ The instructions provided here apply whether you are an SAP customer subscribing
 
     The *Go to Application* link becomes available once the subscription is activated. Choose the link to launch the application and obtain its URL.
 
-    To find the link, either click on the application's name or click on the <span class="SAP-icons"></span> \(Go to Application\) icon in the *Application* column.
+    To find the link, either click on the application's name or click on the <span class="SAP-icons-V5"></span> \(Go to Application\) icon in the *Application* column.
 
     > ### Tip:  
     > To update an existing subscription plan, select the three dots at the end of the subscription row, and from the menu, select *Update*.
@@ -113,7 +113,7 @@ The instructions provided here apply whether you are an SAP customer subscribing
 
     2.  Find the subscription to which you want to assign labels under the *Subscriptions* section of the page.
 
-    3.  Select the actions \(<span class="SAP-icons"></span>\) menu and from the dropdown list, choose *Add Labels*.
+    3.  Select the actions \(<span class="SAP-icons-V5"></span>\) menu and from the dropdown list, choose *Add Labels*.
 
         > ### Note:  
         > If there are already labels assigned to the subscription, the action becomes *Change Labels*.

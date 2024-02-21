@@ -2,6 +2,19 @@
 
 # Memory Calculator V1 \(SAP JVM Memory Calculator\)
 
+> ### Remember:  
+> This memory calculator is optional, and you can activate it by adding the following environment variable:
+> 
+> ```
+> ---
+> applications:
+> - name: <app-name>
+>   ...
+>   env:
+>     MEMORY_CALCULATOR_V1: true
+>   ...
+> ```
+
 
 
 <a name="loioc1059e056aad406297addcd177a4fb7c__section_sgj_4ky_13b"/>

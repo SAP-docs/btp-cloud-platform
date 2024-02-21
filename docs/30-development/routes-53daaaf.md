@@ -45,9 +45,9 @@ modules:
 
 
 
-## Deploy applications to hostless domains
+## Deploy applications to a route without a host name
 
-If you want an app to be to bound to a route that is a subdomain of an existing domain without having an attached host, you have to use the `routes` parameter in combination with `no-hostname`. Note that `no-hostname` is a boolean parameter, and must be included with every route it affects. For example, if you have 2 or more hostless routes in your MTA then you need to add that parameter under each of those routes. If the parameter is not present for a given route, the value for it defaults to `false`.
+To bind an app to a route without a host name you can use the `routes` and `no-hostname` parameters. Such a route is a subdomain of an existing domain with no host attached at the front. Note that `no-hostname` is a boolean parameter, and must follow every route definition. For example, if you have 2 or more routes without host names in your MTA then you need to add that parameter under each of those routes. If for a given route the `no-hostname` parameter is missing, its value defaults to `false`.
 
 > ### Sample Code:  
 > ```

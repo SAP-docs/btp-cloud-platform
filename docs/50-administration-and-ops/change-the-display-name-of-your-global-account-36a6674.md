@@ -85,7 +85,7 @@ You are an admin of the global account that you'd like to edit.
 
 2.  Navigate to the *Account Explorer* page.
 
-3.  In the *Directories & Subaccounts* view, locate the first entry in your account structure, which is your global account, and click <span class="SAP-icons"></span> Actions. Then select *Edit*.
+3.  In the *Directories & Subaccounts* view, locate the first entry in your account structure, which is your global account, and click <span class="SAP-icons-V5"></span> Actions. Then select *Edit*.
 
 4.  In the *Edit Global Account* dialog box, enter the new human-readable name for the global account.
 

@@ -62,7 +62,7 @@ Correction number for transport
 </table>
 
 > ### Sample Code:  
-> ```
+> ```abap
 > 
 > …
 > lv_object = 'Z_TEST_03'.

@@ -65,7 +65,7 @@ When using cloud management tools feature set B: The *Account Explorer* page for
 
     -   Use the filters to specify which usage information to display in the tables and monthly usage charts. The *Period* filter is applied to the chart display.
     -   Some rounding or shortening is applied to large values. Mouse over values in the table to view the exact values in the tooltips.
-    -   Choose a row in the table to view its historic information in the *Monthly Usage* chart. To display a larger view of a chart, choose the <span style="font-size:16px;"><span class="SAP-icons"></span></span> \(Zoom\) button.
+    -   Choose a row in the table to view its historic information in the *Monthly Usage* chart. To display a larger view of a chart, choose the <span style="font-size:16px;"><span class="SAP-icons-V5"></span></span> \(Zoom\) button.
     -   To download the information in the *Overview* page to a Microsoft Excel file, choose the *Export* button.
 
 -   Access your subaccounts and create new subaccounts.

@@ -16,7 +16,7 @@ The SAP Authorization and Trust Management service uses the following secrets in
 
 -   [Binding Parameters of SAP Authorization and Trust Management Service](binding-parameters-of-sap-authorization-and-trust-management-service-3240307.md)
 
--   [Rotate Signing Keys of Access Tokens](rotate-signing-keys-of-access-tokens-b279adf.md)
+-   [Rotate Signing Keys of Access Tokens](rotate-signing-keys-of-access-tokens-b279adf.md#loiob279adf3ec134b2a8611a42bff1ee9d9)
 
 -   [Rotate Signing Keys of SAML Token](rotate-signing-keys-of-saml-token-052e9b4.md)
 

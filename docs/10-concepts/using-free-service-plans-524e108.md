@@ -97,7 +97,7 @@ Once you've reached the limits of the free plan, you can upgrade the free servic
 
 1.  In your subaccount, navigate to the *Instances and Subscriptions* page.
 
-2.  Find the instance of the service and click <span class="SAP-icons"></span> \(Actions\) and *Update*.
+2.  Find the instance of the service and click <span class="SAP-icons-V5"></span> \(Actions\) and *Update*.
 
 3.  In the *Update Instance* dialog, change the plan to a paid service plan.
 

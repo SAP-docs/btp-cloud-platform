@@ -31,7 +31,7 @@ You can assign roles to a group of users only if you use a custom identity provi
 
 1.  Log in to Kyma dashboard. The URL is in the *Overview* section of your subaccount.
 
-2.  In Kyma dashboard, select or create the Namespace in which you want to assign roles.
+2.  In Kyma dashboard, select or create the namespace in which you want to assign roles.
 
 3.  To create a role binding, go to *Configuration* \> *Role Bindings* \> *\+ Create Role Binding*. Fill in the required fields:
 
@@ -55,7 +55,7 @@ You can assign roles to a group of users only if you use a custom identity provi
 
 ## Results
 
-The users have the required permissions within the specified Namespace. If the users don't have additional Cluster Role Binding to list the Namespaces, they can still access the Kyma dashboard overview but must enter the required Namespace name manually.
+The users have the required permissions within the specified namespace. If the users don't have additional Cluster Role Binding to list the namespaces, they can still access the Kyma dashboard overview but must enter the required namespace name manually.
 
 
 
@@ -70,5 +70,5 @@ If the permissions of the default role aren't sufficient, clone the role and add
 
 [Authorization in Kyma](https://kyma-project.io/#/04-operation-guides/security/sec-02-authorization-in-kyma)
 
- <?sap-ot O2O class="- topic/link " href="bb31080fd0474d38a050e32a7a7ed629.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/148ae38b7d6f4e61bbb696bbfb3996b2.xml" output-class="" current-file="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+ <?sap-ot O2O class="- topic/link " href="bb31080fd0474d38a050e32a7a7ed629.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/148ae38b7d6f4e61bbb696bbfb3996b2.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 

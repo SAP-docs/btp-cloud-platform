@@ -36,7 +36,7 @@ In addition to the allowed domains, you can define a default sender. This defaul
 To maintain the allowed domains and the default sender, further methods are provided to read or delete the current table data:
 
 > ### Sample Code:  
-> ```
+> ```abap
 > 
 > DATA(config_instance) = cl_bcs_mail_system_config=>create_instance( ).
 > 

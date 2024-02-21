@@ -31,7 +31,7 @@ Delete subaccounts using the SAP BTP cockpit to clean up your account hierarchy,
 
 2.  In the account hierarchy, locate the subaccount that you want to delete.
 
-3.  In the *Actions* \(<span class="SAP-icons"></span> \) context menu of the subaccount, choose *Delete*.
+3.  In the *Actions* \(<span class="SAP-icons-V5"></span> \) context menu of the subaccount, choose *Delete*.
 
     The cockpit first checks if the subaccount contains data, such as active subscriptions, service instances, brokers, or platforms.
 

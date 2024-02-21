@@ -10,9 +10,9 @@ The event service in Kyma runtime supports two backends: NATS and SAP Event Mesh
 
 ## Prerequisites
 
--   You have enabled the Kyma Eventing module. See [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+-   You have added the Kyma Eventing module. See [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 
--   If you want to use NATS, you have enabled the Kyma NATS module.
+-   If you want to use NATS, you have added the Kyma NATS module.
 
 -   If you want to use SAP Event Mesh, you have configured it for Kyma Eventing. See [Configure SAP Event Mesh for Kyma Eventing](configure-sap-event-mesh-for-kyma-eventing-407d126.md).
 

@@ -105,5 +105,5 @@ applications:
 
 [GitHub: Java Buildpack Memory Calculator](https://github.com/cloudfoundry/java-buildpack-memory-calculator)
 
-[SapMachine](sapmachine-785d6b3.md)
+[SapMachine](sapmachine-785d6b3.md "SapMachine is an alternative to SAP JVM. It provides a Java Runtime Environment (JRE) with Java 11 and 17, while SAP JVM provides a JRE with Java 8.")
 

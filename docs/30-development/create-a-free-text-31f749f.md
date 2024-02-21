@@ -23,7 +23,7 @@ To set or change the attributes of the free text, interface `IF_BALI_FREE_TEXT_S
 
 
 > ### Sample Code:  
-> ```
+> ```abap
 > 
 > ...
 >  DATA(l_ref) = cl_bali_free_text_setter=>create(

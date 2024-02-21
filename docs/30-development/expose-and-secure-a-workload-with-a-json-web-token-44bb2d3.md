@@ -12,7 +12,7 @@ Learn how to expose a workload and secure it with a JSON Web Token \(JWT\). To g
 
 -   You have an SAP Cloud Identity Services - Identity Authentication tenant.
 
--   You have the default Istio and API Gateway modules enabled.
+-   You have the default Istio and API Gateway modules in your cluster.
 
 -   You have a workload deployed.
 

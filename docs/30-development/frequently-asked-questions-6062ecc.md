@@ -22,7 +22,7 @@ Check the [Application Start-up Failed](https://gad5158842f.us2.hana.ondemand.co
 
 There are several ways to find the application logs:
 
--   `OPERATION.LOG` – contains the whole deployment log
+-   `OPERATION.LOG` – contains the whole deployment log.
 
 -   `<application-name>.log` – there is a separate file for each application. It holds the logs related to the application during staging and starting.
 
@@ -66,7 +66,7 @@ Use the `cf mtas` command and locate the ID of the desired MTA. After locating t
 
 ### What can I do with my deployment?
 
--   If the deployment fails, see [MTA Operation Failure](https://gad5158842f.us2.hana.ondemand.com/dtp/viewer/#/tree/2798/actions/40943:40911)
+-   If the deployment fails, see [MTA Operation Failure](https://gad5158842f.us2.hana.ondemand.com/dtp/viewer/#/tree/2798/actions/40943:40911).
 
 -   If the deployment finishes successfully, you can check the deployment logs.
 
@@ -92,25 +92,25 @@ You can abort the currently running deployment, using the command `cf <operation
 
 ### What are the size limits of an MTA?
 
-4GB for the whole MTA and 1GB for a single module. For more information, see [Multitarget Applications for the Cloud Foundry Environment](multitarget-applications-in-the-cloud-foundry-environment-d04fc0e.md#loiod04fc0e2ad894545aebfd7126384307c__section_ph2_r5h_1cb)
+4GB for the whole MTA and 1GB for a single module. For more information, see [Multitarget Applications for the Cloud Foundry Environment](multitarget-applications-in-the-cloud-foundry-environment-d04fc0e.md#loiod04fc0e2ad894545aebfd7126384307c__section_ph2_r5h_1cb).
 
 
 
 ### What to do in case of service creation failure?
 
-See [Service Create Failure](https://gad5158842f.us2.hana.ondemand.com/dtp/viewer/#/tree/2798/actions/40943:42021)
+See [Service Create Failure](https://gad5158842f.us2.hana.ondemand.com/dtp/viewer/#/tree/2798/actions/40943:42021).
 
 
 
 ### How to make my deployment faster?
 
-You can use a parallel deployment as described in section [Parallel Deployment](parallel-module-deployment-0384158.md#loio038415880116407d89765d26b36653e3__parallel_deployment)
+You can use a parallel deployment as described in section [Parallel Deployment](parallel-module-deployment-0384158.md#loio038415880116407d89765d26b36653e3__parallel_deployment).
 
 
 
 ### How can I resolve problems with the MTA descriptor modeling?
 
-For more information, see [Defining Multitarget Application Deployment Descriptors for Cloud Foundry](defining-multitarget-application-deployment-descriptors-for-cloud-foundry-f48880b.md)
+For more information, see [Defining Multitarget Application Deployment Descriptors for Cloud Foundry](defining-multitarget-application-deployment-descriptors-for-cloud-foundry-f48880b.md).
 
 
 

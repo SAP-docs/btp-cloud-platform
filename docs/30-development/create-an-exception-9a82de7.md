@@ -23,7 +23,7 @@ If you want to set or change the attributes of the exception, you can use interf
 
 
 > ### Sample Code:  
-> ```
+> ```abap
 > 
 > ...
 >  DATA: i TYPE i.

@@ -28,7 +28,7 @@ The *Application Log Design Time API* provides the following design time operati
 Once you have created an instance of the `CL_BALI_OBJECT_HANDLER` API class using method`CREATE_OBJECT`, a new application log object is created.
 
 > ### Sample Code:  
-> ```
+> ```abap
 > 
 > DATA(lo_log_object) = cl_bali_object_handler=>get_instance( ).
 > TRY.
@@ -44,7 +44,7 @@ Once you have created an instance of the `CL_BALI_OBJECT_HANDLER` API class usin
 In case the new application log object has subobjects, you can create these too, using the `CREATE_OBJECT` method.
 
 > ### Sample Code:  
-> ```
+> ```abap
 > 
 > DATA: ls_subobject TYPE LINE OF if_bali_object_handler=>ty_tab_subobject,
 >       lt_subobject TYPE if_bali_object_handler=>ty_tab_subobject.
@@ -73,7 +73,7 @@ In case the new application log object has subobjects, you can create these too,
 Use method `DELETE_OBJECT` to delete an application log object and all of its subobjects.
 
 > ### Sample Code:  
-> ```
+> ```abap
 > 
 > DATA(lo_log_object) = cl_bali_object_handler=>get_instance( ).
 > TRY.
@@ -93,7 +93,7 @@ Use method `DELETE_OBJECT` to delete an application log object and all of its su
 Use method `ADD_SUBOBJECT` if you want to add a new subobject to an existing application log object.
 
 > ### Sample Code:  
-> ```
+> ```abap
 > 
 > DATA(lo_log_object) = cl_bali_object_handler=>get_instance( ).
 > TRY.
@@ -115,7 +115,7 @@ Use method `ADD_SUBOBJECT` if you want to add a new subobject to an existing app
 You can delete a subobject using method `DELETE_SUBOBJECT`.
 
 > ### Sample Code:  
-> ```
+> ```abap
 > 
 > DATA(lo_log_object) = cl_bali_object_handler=>get_instance( ).
 > TRY.
@@ -136,7 +136,7 @@ You can delete a subobject using method `DELETE_SUBOBJECT`.
 Use method `READ_OBJECT` to read an application log object with its subobjects.
 
 > ### Sample Code:  
-> ```
+> ```abap
 > 
 > DATA(lo_log_object) = cl_bali_object_handler=>get_instance( ).
 > TRY.

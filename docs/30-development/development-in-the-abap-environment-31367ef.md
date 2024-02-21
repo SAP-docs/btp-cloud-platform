@@ -15,9 +15,9 @@ The ABAP environment enables you to **expose**:
 -   OData services. See [ABAP RESTful Application Programming Model](https://help.sap.com/docs/abap-cloud/abap-rap/abap-restful-application-programming-model?version=sap_btp).
 
 -   HTTP services. See [Working with the HTTP Service Editor](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/494a02697388437aa71067dd95b2c561.html).
--   SQL services. See [Consumption of the SQL Service and the ODBC Driver for ABAP](consumption-of-the-sql-service-and-the-odbc-driver-for-abap-6ac9ec8.md).
+-   SQL services. See [Consumption of the SQL Service for Data Federation](consumption-of-the-sql-service-for-data-federation-6ac9ec8.md).
 -   RFC function modules. See [Develop a Remote-Enabled Function Module \(RFM\)](develop-a-remote-enabled-function-module-rfm-abf7105.md).
--   SOAP web services. See
+-   SOAP provider model. See [Generate Provider Proxies From WSDL Files](https://help.sap.com/docs/btp/sap-business-technology-platform/generate-provider-proxies-from-wsdl-files?version=Cloud).
 
 
 With your ABAP applications, you can **consume**:
@@ -28,6 +28,14 @@ With your ABAP applications, you can **consume**:
 -   Remote Function Calls \(RFC\). See [Set Up RFC Communication](set-up-rfc-communication-b4eaa0a.md).
 -   On-premise systems via Cloud Connector. See [Integrating On-Premise Systems](integrating-on-premise-systems-c95327f.md).
 -   SOAP-based Web services. See [Set Up SOAP Communication](set-up-soap-communication-8b6723b.md).
+
+
+
+<a name="loio31367ef6c3e947059e0d7c1cbfcaae93__section_qml_szm_j1c"/>
+
+## Technical Limits and Boundary Conditions for ABAP Applications
+
+For elasticity, operability and protection reasons, the runtime of API or UI requests to ABAP applications is limited. After 10 minutes, running requests are automatically canceled. Tasks requiring longer runtimes have to be executed in [Application Jobs](https://help.sap.com/docs/btp/sap-business-technology-platform/application-jobs-2), as background processes via the background processing framework \(bgPF\), or need to be split into smaller work packages. For an optimal user experience, all ABAP applications, including application jobs, have to be prepared to be interrupted and restarted even earlier than the maximum runtime. This allows to provide a continuous application service, unimpacted from scaling operations, maintenance activities or even infrastructure failures.
 
 
 

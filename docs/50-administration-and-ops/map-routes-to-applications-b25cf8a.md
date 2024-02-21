@@ -33,7 +33,7 @@ Your application can now be accessed via the route mapped to it. You can launch 
 
 -   *Routes* page:
 
-    Choose <span class="SAP-icons"></span> \(Launch Route\) from the *Actions* column.
+    Choose <span class="SAP-icons-V5"></span> \(Launch Route\) from the *Actions* column.
 
 -   *Overview* page of the mapped applcation:
 

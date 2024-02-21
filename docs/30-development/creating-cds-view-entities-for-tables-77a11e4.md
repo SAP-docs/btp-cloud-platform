@@ -2,13 +2,13 @@
 
 # Creating CDS View Entities for Tables
 
-Create CDS view entities on top of the tables that you want to expose, using the ADT wizard.
+The example code gives you an idea how you create CDS view entities for data integration using an SQL service.
 
 
 
 ## Context
 
-Only CDS view entities can be exposed to ODBC consumers.
+In this example, you learn how you can create CDS view entities on top of the tables that you want to expose, using the ADT wizard. Only CDS view entities can be exposed to consumers using the SQL service.
 
 
 
@@ -42,6 +42,7 @@ The definitions can look as follows:
 >   sizeCategory: #S,
 >   dataClass: #MIXED
 > }
+> @DataIntegration.deltaReplication.intended: true
 > define view entity ZORDERSVIEW as select from zorders {
 >   key id as Id,
 >   creationdate as CreationDate,
@@ -61,6 +62,7 @@ The definitions can look as follows:
 >   sizeCategory: #S,
 >   dataClass: #MIXED
 > }
+> @DataIntegration.deltaReplication.intended: true
 > define view entity ZORDERITEMSVIEW as select from zorderitems
 >  association [1..1] to zorders as _order on $projection.Orderid = _order.id
 >  {
@@ -83,4 +85,6 @@ The definitions can look as follows:
 > For privileged access, no access control is needed, here you can replace `@AccessControl.authorizationCheck: #CHECK` by `@AccessControl.authorizationCheck: #NOT_REQUIRED`.
 > 
 > For business user access, there's a warning that no access control exists. You create this access control when you expose the SQL service for business user access.
+> 
+> The annotation `@DataIntegration.deltaReplication.intended: true` is only required for data replication scenarios \(delta replication\).
 

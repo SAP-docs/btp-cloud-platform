@@ -2,22 +2,20 @@
 
 # SapMachine
 
+SapMachine is an alternative to SAP JVM. It provides a Java Runtime Environment \(JRE\) with Java 11 and 17, while SAP JVM provides a JRE with Java 8.
 
 
-<a name="loio785d6b390b834bee818e242160f87df5__section_pt4_b32_vsb"/>
 
-## Context
+SapMachine works with the following application containers:
 
-[SapMachine](https://sap.github.io/SapMachine/) is an alternative to SAP JVM. It provides a Java Runtime Environment \(JRE\) with Java 11 and 17, while SAP JVM provides a JRE with Java 8. SapMachine works with the following application containers:
-
--   [Tomcat 9](tomcat-ddfc101.md)
+-   [Tomcat 9](tomcat-9-ddfc101.md)
 
 -   [Java Main](java-main-8a1786a.md)
 
--   [TomEE 7.1](tomee-7-79c039a.md)
+-   [TomEE 7](tomee-7-79c039a.md)
 
     > ### Note:  
-    > Bear in mind that TomEE 7.1 supports only Java 7 and 8. Thus, even if your TomEE 7 application runs successfully with SapMachine JRE 17, at some point it might crash. Also, TomEE 7.1 has already [reached end of life](https://tomee.apache.org/tomee-7.1-eol.html). See also: [Discontinued TomEE versions](https://tomee.apache.org/download-discontinued.html)
+    > Bear in mind that TomEE 7 supports only Java 7 and 8. Thus, even if your TomEE 7 application runs successfully with SapMachine JRE 17, at some point it might crash. Also, TomEE 7 has already [reached end of life](https://tomee.apache.org/tomee-7.1-eol.html). See also: [Discontinued TomEE versions](https://tomee.apache.org/download-discontinued.html)
 
 
 
@@ -182,11 +180,7 @@ applications:
 **Related Information**  
 
 
-[Tomcat](tomcat-ddfc101.md "By default, web applications pushed with SAP Java Buildpack are running in an Apache Tomcat container.")
-
-[TomEE 7](tomee-7-79c039a.md "By default, web applications deployed with SAP Java Buildpack are running in an Apache Tomcat container.")
-
-[Java Main](java-main-8a1786a.md "You can create a Java application that starts its own runtime. This allows the usage of frameworks and Java runtimes, such as Spring Boot, Jetty, Undertow, or Netty.")
-
 [https://sap.github.io/SapMachine/](https://sap.github.io/SapMachine/)
+
+[Runtimes and Containers](runtimes-and-containers-83d2416.md "Find out which application runtimes and containers you can use, depending on the Java buildpack your application is using.")
 

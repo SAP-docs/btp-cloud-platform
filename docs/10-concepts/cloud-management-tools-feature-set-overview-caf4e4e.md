@@ -14,7 +14,7 @@ We're currently renovating and adding core functionalities to SAP BTP. As part o
 
 ## How can I know which cloud management tools feature set I'm using?
 
-There’s an easy way to check if you're currently using cloud management tools feature set A or B. Access the SAP BTP cockpit and choose your username from the top right-hand corner of the screen. From the menu, select <span class="SAP-icons"></span> *About* to get information about the cloud management tools feature set you're using.
+There’s an easy way to check if you're currently using cloud management tools feature set A or B. Access the SAP BTP cockpit and choose your username from the top right-hand corner of the screen. From the menu, select <span class="SAP-icons-V5"></span> *About* to get information about the cloud management tools feature set you're using.
 
 ![The screenshot is explained in the accompanying text.](images/About_7be640f.png)
 

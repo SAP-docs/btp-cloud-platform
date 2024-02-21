@@ -4,11 +4,19 @@
 
 The memory calculator provides a mechanism to fine tune the Java Virtual Machine \(JVM\) memory for an application. Its goal is to ensure that applications perform well while not exceeding a container's memory limit.
 
-The SAP Java Buildpack provides two options for a memory calculator:
+Below you can find which memory calculators are used in the relevant Java buildpacks.
 
--   [Memory Calculator V2](memory-calculator-v2-8eef959.md) – this memory calculator is activated by default.
 
--   [Memory Calculator V1 \(SAP JVM Memory Calculator\)](memory-calculator-v1-sap-jvm-memory-calculator-c1059e0.md) – this is an optional memory calculator and could be activated with the following environment variable:
+
+<a name="loio505a71ae53e84c7a972bb6c34b4316fb__section_kyg_nz3_k1c"/>
+
+## SAP Java Buildpack
+
+This buildpack supports two memory calculator versions:
+
+-   [Memory Calculator V2](memory-calculator-v2-8eef959.md) – activated by default.
+
+-   [Memory Calculator V1 \(SAP JVM Memory Calculator\)](memory-calculator-v1-sap-jvm-memory-calculator-c1059e0.md) – this is an optional memory calculator and you can activate by adding the following environment variable:
 
     ```
     ---
@@ -20,4 +28,15 @@ The SAP Java Buildpack provides two options for a memory calculator:
       ...
     ```
 
+
+
+
+## Community Java Buildpack
+
+This buildpack uses its default and only memory calculator: [cloudfoundry/java-buildpack-memory-calculator](https://github.com/cloudfoundry/java-buildpack-memory-calculator) 
+
+**Related Information**  
+
+
+[Buildpacks](buildpacks-5e7fc02.md "")
 

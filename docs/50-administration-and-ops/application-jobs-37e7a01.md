@@ -11,7 +11,7 @@ You can use this app to monitor all application jobs from all specialized applic
 ## Key Features
 
 > ### Note:  
-> You can use the scheduling, copying and restarting features in the *Application Jobs* app only if you have been granted the necessary authorization via a business role. For more information on how to get the necessary authorizations for this app, see  <?sap-ot O2O class="- topic/xref " href="171039b7300345cb81392ba058db5dd4.xml" text="" desc="" xtrc="xref:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/37e7a011a524405882af49cce79f0fb4.xml" output-class="" current-file="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+> You can use the scheduling, copying and restarting features in the *Application Jobs* app only if you have been granted the necessary authorization via a business role. For more information on how to get the necessary authorizations for this app, see [Maintaining Authorizations](maintaining-authorizations-171039b.md).
 
 You can use this app to:
 

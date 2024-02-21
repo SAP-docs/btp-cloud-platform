@@ -92,9 +92,9 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
 
 1.  Under *Applications*, choose the entry for the Neo application.
 
-2.  Choose *Assertion Attributes*.
+2.  Choose *Attributes*.
 
-3.  Choose *\+Add* to enter the following user attributes and their corresponding assertion attributes \(if they don't already exist\):
+3.  Choose *Add* to enter the following user attributes and their corresponding assertion attributes \(if they don't already exist\):
 
 
     <table>

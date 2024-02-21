@@ -22,7 +22,7 @@ To learn more, see: [Developing Multitenant Applications in the Cloud Foundry En
 
 SAP Java Buildpack provides the possibility for multitenant applications running on Cloud Foundry to consume tenant-aware data sources out of the box. This is achieved by integrating the SAP Service Manager capabilities in the buildpack. The SAP Java buildpack provides out of the box tenant-aware data sources for:
 
--   All tenants that have already been onboarded to a SAP Service Manager service instance.
+-   All tenants that have already been onboarded to an SAP Service Manager service instance.
 -   Newly onboarded tenants at runtime. No restart of the Java application is needed.
 
 

@@ -10,7 +10,8 @@ Change logging records changes to personal data, while read-access logging recor
 
 Use the appropriate API to retrieve logs.
 
-For the Cloud Foundry environment, see [Audit Log Retrieval API Usage for Subaccounts in the Cloud Foundry Environment](../50-administration-and-ops/audit-log-retrieval-api-usage-for-subaccounts-in-the-cloud-foundry-environment-30ece35.md).
+-   For the Cloud Foundry, see [Audit Log Retrieval API Usage for the Cloud Foundry Environment](../50-administration-and-ops/audit-log-retrieval-api-usage-for-the-cloud-foundry-environment-30ece35.md).
+
 
 > ### Note:  
 > For any applications you develop, you must ensure they include logging functions. SAP BTP does not provide audit logging functions for custom developments.

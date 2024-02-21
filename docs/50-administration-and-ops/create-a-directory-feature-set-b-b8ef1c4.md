@@ -27,7 +27,7 @@ For more information about directories, see [Directories \[Feature Set B\]](../1
 2.  In the *Create* dropdown, choose *Directory*.
 
     > ### Tip:  
-    > You can also create a directory by selecting *Create Directory* from the <span class="SAP-icons"></span> Actions menu button of the global account or an existing directory.
+    > You can also create a directory by selecting *Create Directory* from the <span class="SAP-icons-V5"></span> Actions menu button of the global account or an existing directory.
 
 3.  In the *Create Directory* dialog box, enter a display name for your new directory and choose a parent. The parent can be the global account or another directory.
 
@@ -99,7 +99,7 @@ Once you've created a directory, you can perform the following actions:
 
 [Manage Users in Directories \[Feature Set B\]](manage-users-in-directories-feature-set-b-ff4d4a4.md "Manage members in your directory using the SAP BTP cockpit.")
 
-[Configure Entitlements and Quotas for Directories \[Feature Set B\]](configure-entitlements-and-quotas-for-directories-feature-set-b-37f8871.md "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using the SAP BTP cockpit.")
+[Configure Entitlements and Quotas for Directories \[Feature Set B\]](configure-entitlements-and-quotas-for-directories-feature-set-b-37f8871.md "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.")
 
 [View Directory Usage Analytics \[Feature Set B\]](view-directory-usage-analytics-feature-set-b-a287782.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your directory.")
 

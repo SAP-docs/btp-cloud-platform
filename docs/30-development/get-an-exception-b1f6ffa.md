@@ -17,7 +17,7 @@ Interface `IF_BALI_EXCEPTION_GETTER` contains the following additional attribute
 > Load a single log from the database which uses log handle l\_handle and output some attributes of the first item, if it is an exception:
 > 
 > > ### Sample Code:  
-> > ```
+> > ```abap
 > > 
 > > ...
 > >  DATA l_handle TYPE if_bali_log=>ty_handle.

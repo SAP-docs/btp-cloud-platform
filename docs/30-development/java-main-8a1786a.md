@@ -19,7 +19,7 @@ You can create a Java application that starts its own runtime. This allows the u
 
 ## Context
 
-In this section, applications like this are referred as *Java Main applications*. The application container provided by SAP Java Buildpack for running Java Main applications is referred as *Java Main container*.
+In this section, applications like this are referred as *Java Main applications*. The application container provided by SAP Java/Jakarta Buildpack for running Java Main applications is referred as *Java Main container*.
 
 
 
@@ -39,10 +39,10 @@ In this section, applications like this are referred as *Java Main applications*
         > ```
         > Manifest-Version: 1.0
         > Archiver-Version: Plexus Archiver
-        > Built-By: p123456
+        > Built-By: p1234567
         > Created-By: Apache Maven 3.3.3
         > Build-Jdk: 1.8.0_45
-        > Main-Class: com.companya.xs.java.main.Controller  
+        > Main-Class: com.company.xs.java.main.Controller  
         > ```
 
     3.  You have packaged all your dependent libraries in the JAR file, also known as creating an [uber JAR](https://maven.apache.org/plugins/maven-shade-plugin/examples/includes-excludes.html) or a *flat JAR*.

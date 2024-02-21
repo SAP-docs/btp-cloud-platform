@@ -47,7 +47,7 @@ Interface `IF_BALI_HEADER_GETTER` contains the following methods:
 > Load a single log from the database which uses log handle l\_handle, and output some fields of the log header:
 > 
 > > ### Sample Code:  
-> > ```
+> > ```abap
 > > 
 > > ...
 > >  DATA l_handle TYPE if_bali_log=>ty_handle.

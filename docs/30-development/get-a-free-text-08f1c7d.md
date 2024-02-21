@@ -12,7 +12,7 @@ Interface `IF_BALI_FREE_TEXT_GETTER` contains no additional attributes.
 > Load a single log from the database which uses log handle l\_handle and output the text of the first item:
 > 
 > > ### Sample Code:  
-> > ```
+> > ```abap
 > > 
 > > ... 
 > >  DATA l_handle TYPE if_bali_log=>ty_handle.

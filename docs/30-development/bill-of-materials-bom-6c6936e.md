@@ -8,7 +8,7 @@ For Maven projects, the versions of the SAP Java Buildpack dependencies and the 
 
 The BOM contains the dependencies you can rely on in a runtime environment provided by SAP Java Buildpack. It can also be used to control the versions of a project's dependencies without the need to manually maintain the version of each single artifact.
 
-The BOMs of SAP Java Buildpack are provided through [Maven Central](https://search.maven.org/search?q=com.sap.cloud.sjb.cf).
+The BOMs of SAP Java Buildpack are provided through [Maven Central](https://central.sonatype.com/search?q=com.sap.cloud.sjb.cf).
 
 
 
@@ -86,4 +86,9 @@ To add the dependencies that you want, use *groupId* and *artifactId*:
 ```
 
 If you simply want to have all dependencies in your project, you can also add the BOM to your project's section. By doing so, you don't need to enumerate single dependency artifacts.
+
+**Related Information**  
+
+
+[Maven Repository: SAP Java Buildpack BOM](https://mvnrepository.com/artifact/com.sap.cloud.sjb.cf/sap-java-buildpack-bom)
 

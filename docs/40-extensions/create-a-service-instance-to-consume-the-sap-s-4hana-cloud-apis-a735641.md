@@ -67,6 +67,10 @@ You create the service instance in your subaccount with the respective environme
 
     To use this authentication scenario, you first need to configure single-sign on \(SSO\) with the Identity Authentication service and protect your application. See [Single Sign-On Configuration](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8d3c376e573946258dad098b54fba480.html).
 
+-   Client Certificate Authentication \(inbound and outbound connections\)
+
+-   OAuth2mTLS \(outbound connections\)
+
 
 Depending on whether you are using Cloud Foundry or Kyma environment, you have to follow different steps to create an SAP S/4HANA Cloud Extensibility service instance:
 

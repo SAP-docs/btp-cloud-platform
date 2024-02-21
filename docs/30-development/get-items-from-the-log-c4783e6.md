@@ -80,7 +80,7 @@ The category of the item restricts which other attributes of the item are availa
 > Load a single log from the database which uses log handle l\_handle and output all items of the log:
 > 
 > > ### Sample Code:  
-> > ```
+> > ```abap
 > > 
 > > ...  
 > >  DATA l_handle TYPE if_bali_log=>ty_handle.

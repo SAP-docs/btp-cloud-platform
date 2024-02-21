@@ -510,7 +510,7 @@ Flag: Warning after check?
 </table>
 
 > ### Sample Code:  
-> ```
+> ```abap
 > 
 > …
 > CLASS zcl_nr_test_intervals_create DEFINITION

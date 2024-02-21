@@ -40,5 +40,5 @@ You can currently use the *Landscape Portal* to do the following:
 
 [Accessing the Landscape Portal](accessing-the-landscape-portal-2e1e393.md)
 
- <?sap-ot O2O class="- topic/link " href="f2c01360c49e43c09c1a4f15c9ba519c.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/5eb70fb003954619b09224167a0afaa4.xml" output-class="" current-file="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+ <?sap-ot O2O class="- topic/link " href="f2c01360c49e43c09c1a4f15c9ba519c.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/5eb70fb003954619b09224167a0afaa4.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 

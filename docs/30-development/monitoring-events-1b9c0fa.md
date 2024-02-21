@@ -163,7 +163,7 @@ The event has been successfully published or consumed according to the chosen qu
 <tr>
 <td valign="top">
 
-After 7 days
+No deletion
 
 </td>
 <td valign="top">
@@ -173,7 +173,7 @@ Failed
 </td>
 <td valign="top">
 
-The enterprise event enablement either failed to publish the event after 5 attempts or the event could not be consumed by the corresponding consumer.
+The enterprise event enablement either failed to publish the event after 5 attempts or the event could not be consumed by the corresponding consumer. Failed events are stored until you either delete or retry them again.
 
 </td>
 </tr>

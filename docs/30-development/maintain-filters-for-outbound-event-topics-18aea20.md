@@ -9,6 +9,9 @@ You can filter the events that should be sent via a channel by defining filters 
 ## Prerequisites
 
 -   You have created an outbound event topic as described here: [Maintain Outbound Event Topics](maintain-outbound-event-topics-4c3ad44.md)
+-   > ### Note:  
+    > Event filters for event topics containing wildcards are not supported.
+
 
 
 

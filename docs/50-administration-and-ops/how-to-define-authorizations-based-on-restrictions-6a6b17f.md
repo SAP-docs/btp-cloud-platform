@@ -104,7 +104,7 @@ Using the *Maintain Business Roles* app, you have the following options for main
 
 [Display Restriction Types](display-restriction-types-9203905.md "You can use this app to display restriction types and their validity.")
 
- <?sap-ot O2O class="- topic/link " href="03540a86736543c4b94070d08df40744.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/6a6b17f2d0464487a6c3f8a7cb61e812.xml" output-class="" current-file="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+ <?sap-ot O2O class="- topic/link " href="03540a86736543c4b94070d08df40744.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/6a6b17f2d0464487a6c3f8a7cb61e812.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 [Maintain Restrictions in Business Role](https://launchpad.support.sap.com/#/notes/2598733)
 

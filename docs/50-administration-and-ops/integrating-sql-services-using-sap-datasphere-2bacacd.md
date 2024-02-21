@@ -20,7 +20,7 @@ SAP Datasphere either adds another subscription to an existing CDS extraction pr
 
 -   The user in the SAP system that you use to complete the configuration steps should have administrator privileges or at least Business Catalog ID `SAP_CORE_BC_COM` for access to *Communication Management*.
 
--   You have already created a communication arrangement based on a communication scenario with object privileges so that the communication user in the ABAP system can access the service binding of the SQL service.
+-   You are familiar with steps required to expose CDS view entities. For more information, see [Data Consumption Using SAP Datasphere](../30-development/data-consumption-using-sap-datasphere-ec312dd.md).
 
 
 
@@ -43,9 +43,11 @@ SAP Datasphere either adds another subscription to an existing CDS extraction pr
 
 6.  In SAP Datasphere, choose *Connections*. On the *Local Connections* tab, choose the *Create* button.
 
-7.  Enter the necessary information. Choose the connection type *SAP ABAP*. In the *Protocol* field, select the value *RFC*. In the *SAP Logon Connection Type* field, select the value *Application Server*. In the *Use Cloud Connector* field, ensure the value *False* is selected. Use the inbound user data from step 4.
+7.  Enter the necessary information. Choose the connection type *SAP ABAP*. In the *Protocol* field, select the value *Web Socket RFC*. In the *SAP Logon Connection Type* field, select the value *Application Server*. In the *Use Cloud Connector* field, ensure the value *False* is selected. Use the inbound user data from step 4.
 
 8.  Test the connection by choosing the *Validate* button. Ensure that the status is *OK* before proceeding.
+
+9.  Create a communication arrangement based on a communication scenario with object privileges so that the communication user created in step 1 can access the exposed CDS view entities. For more information, see [Creating a Communication Arrangement for Exposing the SQL Service](../30-development/creating-a-communication-arrangement-for-exposing-the-sql-service-167b9ba.md).
 
 
 You can now create a replication flow in SAP Datasphere to consume data from CDS view entities.

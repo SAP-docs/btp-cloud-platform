@@ -52,7 +52,7 @@ You can export business roles from your quality system to your productive system
 **Related Information**  
 
 
- <?sap-ot O2O class="- topic/link " href="fa7366c3888848bd94566104ac52e627.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/ddc2ef27293044679f8c795aba859446.xml" output-class="" current-file="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+ <?sap-ot O2O class="- topic/link " href="fa7366c3888848bd94566104ac52e627.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/ddc2ef27293044679f8c795aba859446.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 [Working in the Export Customizing Transports App](working-in-the-export-customizing-transports-app-cc16fd0.md "Find out how to create, release, or merge customizing requests using the Export Customizing Transports app.")
 

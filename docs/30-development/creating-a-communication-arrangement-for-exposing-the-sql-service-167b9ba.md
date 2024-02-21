@@ -1,12 +1,14 @@
 <!-- loio167b9ba242cb4676afa4319104094f83 -->
 
-# Creating a Communication Arrangement
+# Creating a Communication Arrangement for Exposing the SQL Service
+
+As a last step of the back-end configuration for exposing an SQL service in the ABAP system, an administrator must create a communication arrangement.
 
 
 
 ## Context
 
-As a last step of the back-end configuration for exposing an SQL service in the ABAP system, an administrator must create a communication arrangement. The arrangement links the communication scenario that was created in ABAP Development Tools with the communication system and communication user.
+The arrangement links the communication scenario that was created in ABAP Development Tools with the communication system and communication user.
 
 
 

@@ -124,7 +124,7 @@ You create subaccounts in your global account. Once you create a new subaccount,
 2.  Select *Create* \> *Subaccount*.
 
     > ### Tip:  
-    > You can also create a subaccount by selecting *Create Subaccount* from the <span class="SAP-icons"></span> Actions menu button of the global account or a directory.
+    > You can also create a subaccount by selecting *Create Subaccount* from the <span class="SAP-icons-V5"></span> Actions menu button of the global account or a directory.
 
 3.  Specify a display name.
 

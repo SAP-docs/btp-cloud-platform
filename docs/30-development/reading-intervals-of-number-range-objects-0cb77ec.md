@@ -96,7 +96,7 @@ Sub-object
 </table>
 
 > ### Sample Code:  
-> ```
+> ```abap
 > 
 > …
 >   lv_object = 'Z_TEST_03'.

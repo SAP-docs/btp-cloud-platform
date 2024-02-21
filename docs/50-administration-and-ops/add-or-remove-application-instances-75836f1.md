@@ -24,8 +24,8 @@ You must have one application deployed in your Cloud Foundry space.
 
 3.  In the *Overview* page of your application choose:
 
-    -   <span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span> *Instance* to start an additional instance of your application
-    -   <span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span> *Instance* to remove one of the running instances of your application.
+    -   <span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span> *Instance* to start an additional instance of your application
+    -   <span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span> *Instance* to remove one of the running instances of your application.
 
 
 **Related Information**  

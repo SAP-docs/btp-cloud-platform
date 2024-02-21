@@ -75,7 +75,7 @@ You have the Org Manager role for the org in which you want to edit space quotas
 
 [Assign Quota Plans to Spaces Using the Cloud Foundry Command Line Interface](assign-quota-plans-to-spaces-using-the-cloud-foundry-command-line-interface-d1e4203.md "You use the Cloud Foundry Command Line Interface to assign the quotas available in your global account to your subaccounts.")
 
-[Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-5ba357b.md "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using the SAP BTP cockpit.")
+[Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-5ba357b.md "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using SAP BTP cockpit.")
 
 [Entitlements and Quotas](../10-concepts/entitlements-and-quotas-00aa2c2.md "When you purchase an enterprise account, you’re entitled to use a specific set of resources, such as the amount of memory that can be allocated to your applications.")
 

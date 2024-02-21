@@ -40,7 +40,7 @@ Authorization object: `S_APPL_LOG`, with
 > Load a log from the database, generic code example:
 > 
 > > ### Sample Code:  
-> > ```
+> > ```abap
 > > 
 > > CLASS zcl_test_read DEFINITION
 > >   PUBLIC

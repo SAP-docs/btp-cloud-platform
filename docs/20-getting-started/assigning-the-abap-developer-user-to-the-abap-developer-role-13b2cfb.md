@@ -12,7 +12,7 @@ Add the developer user as business user to the ABAP instance.
 
 You have created an employee record for the new developer user \(see [Creating an Employee Record for a New Developer](creating-an-employee-record-for-a-new-developer-a66fdc5.md)\).
 
-You have created an ABAP developer role based on the business role template `SAP_BR_DEVELOPER`, which provides developers with unrestricted read and write access in the ABAP environment.
+You have created an ABAP developer role based on the business role template `SAP_BR_DEVELOPER`, which provides developers with unrestricted read and write access in the ABAP environment. Alternatively, you have created a business role based on a development-related business catalog \(see [Business Catalogs for Development Tasks](../50-administration-and-ops/business-catalogs-for-development-tasks-a9f4278.md)\).
 
 
 
@@ -32,7 +32,7 @@ You have created an ABAP developer role based on the business role template `SAP
 
 6.  On the *Assigned Business Roles* tab, choose *Add*.
 
-7.  Select the checkbox for the ABAP developer role.
+7.  Select the checkbox for the ABAP developer role that you have created before \(see *Prerequisites*\).
 
 8.  Choose *OK* and save your entries.
 

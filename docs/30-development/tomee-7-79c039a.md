@@ -2,7 +2,7 @@
 
 # TomEE 7
 
-By default, web applications deployed with SAP Java Buildpack are running in an Apache Tomcat container.
+By default, web applications deployed with SAP Java Buildpack are running in an TomEE 7 container, which is based on Apache Tomcat 8.5.
 
 Applications can explicitly define the target application container by using the TARGET\_RUNTIME environment variable in the application's `manifest.yml` file
 
@@ -16,6 +16,9 @@ Applications can explicitly define the target application container by using the
 >   env:
 >     TARGET_RUNTIME: tomee7
 > ```
+> 
+> > ### Note:  
+> > Bear in mind that TomEE 7 supports only Java 7 and 8. Also, it has already reached [end of life](https://tomee.apache.org/tomee-7.1-eol.html). See also: [Discontinued TomEE versions](https://tomee.apache.org/download-discontinued.html)
 
 
 
@@ -35,12 +38,12 @@ Runtime
 </th>
 <th valign="top">
 
-TomEE 7
+Full Name
 
 </th>
 <th valign="top">
 
-Supported Specification Version
+Supported Specifications
 
 </th>
 </tr>
@@ -52,44 +55,51 @@ tomee7
 </td>
 <td valign="top">
 
-Apache TomEE 7 \(*Java EE 7 Web Profile*\)
+**Apache TomEE 7** \(*Java EE 7 Web Profile*\)
+
+> ### Note:  
+> It's only relevant for SAP Java Buildpack.
+
+
 
 </td>
 <td valign="top">
 
 Java Servlet 3.1
 
-JavaServer Pages \(JSP\) 2.3
+Java Server Pages \(JSP\) 2.3
 
-Expression Language \(EL\) 3.0
+Java Expression Language \(EL\) 3.0
 
-WebSocket 1.1
+Java WebSocket 1.1
 
-Standard Tag Library for JavaServer Pages \(JSTL\) 1.2
+Java Standard Tag Library \(JSTL\) 1.2
 
-Java API for RESTful Web Services \(JAX-RS\) 2.0
+Java RESTful Web Services \(JAX-RS\) 2.0
 
-JavaServer Faces \(JSF\) 2.2
+Java Server Faces \(JSF\) 2.2
 
-Debugging Support for Other Languages 1.0
+Java Debugging Support for Other Languages 1.0
 
-Enterprise JavaBeans \(EJB\) Lite 3.2
+Java Enterprise Beans \(EJB\) Lite 3.2
 
-Java Transaction API \(JTA\) 1.2
+Java Transactions API \(JTA\) 1.2
 
 Java Persistence API \(JPA\) 2.1
 
-Bean Validation 1.1
+Java Bean Validation 1.1
 
-Managed Beans 1.0
+Java Managed Beans 1.0
 
-Interceptors 1.2
+Java Interceptors 1.2
 
-Common Annotations for Java Platform 1.2
+Java Annotations 1.2
 
-Dependency Injection for Java 1.0
+Java Dependency Injection 1.0
 
-Contexts and Dependency Injection for Java EE platform 1.1
+Java Contexts and Dependency Injection 1.1
+
+For a full list of specification versions, see: [Apache TomEE 7](https://tomee.apache.org/tomee-7.0/docs/comparison.html#specifications)
 
 </td>
 </tr>

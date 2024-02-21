@@ -94,7 +94,7 @@ Keep in mind that you also delete the user's role collection assignments.
     </td>
     <td valign="top">
     
-    1.  Choose <span class="SAP-icons"></span> Select multiple users and select users \(see the related link\).
+    1.  Choose <span class="SAP-icons-V5"></span> Select multiple users and select users \(see the related link\).
 
     2.  Choose *Delete*.
 

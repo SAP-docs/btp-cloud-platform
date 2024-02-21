@@ -33,5 +33,5 @@ For accessing database tables using a business user, this documentation also sho
 **Related Information**  
 
 
-[Access Scenarios](access-scenarios-96368bd.md "When you set up access to ABAP-managed data from ODBC-based clients, you can set up privileged or business user-based data access.")
+[Data Integration Patterns](data-integration-patterns-96368bd.md "When you set up access to ABAP-managed data using SQL services, you can set up privileged or business user-based data access. As consumption scenarios, there's data federation and replication.")
 

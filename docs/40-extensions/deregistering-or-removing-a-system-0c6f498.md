@@ -63,7 +63,7 @@ The deregistration and the removal processes have the following states displayed
 
 2.  On the *Systems* page, select the SAP or third-party system you want to deregister or remove.
 
-    -   To deregister a system, choose <span class="SAP-icons"></span> \(Deregister system\) from the *Actions* column, or choose *Deregister System* from the *System Details* page that you access when selecting the system from the system landscape list.
+    -   To deregister a system, choose <span class="SAP-icons-V5"></span> \(Deregister system\) from the *Actions* column, or choose *Deregister System* from the *System Details* page that you access when selecting the system from the system landscape list.
 
         You can deregister only registered systems.
 

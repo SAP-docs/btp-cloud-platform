@@ -109,7 +109,7 @@ For more information, see [Configure Access Control \(RFC\)](https://help.sap.co
 
 8.  In the *Cloud To On-Premise* navigation pane, select the relevant system mapping in the *Mapping Virtual to Internal System* section.
 
-9.  To define which function modules are executable in the on-premise, choose <span class="SAP-icons"></span> *Import resources belonging to a scenario* from the section toolbar in the *Resources Of …* section.
+9.  To define which function modules are executable in the on-premise, choose <span class="SAP-icons-V5"></span> *Import resources belonging to a scenario* from the section toolbar in the *Resources Of …* section.
 
     > ### Note:  
     > To get the relevant import file for the Custom Code Migration scenario, see SAP Note [2861842](https://me.sap.com/notes/2861842) - Custom Code Migration in SAP BTP ABAP environment: Set up SAP Cloud Connector.

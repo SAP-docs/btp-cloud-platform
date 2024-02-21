@@ -16,7 +16,7 @@ SAP Java Buildpack integrates the [Cloud Foundry Java Logging Support](https://g
 
 1.  Bind the application to the SAP Application Logging service. In this way, you can produce application logs and forward them to a central application logging stack.
 
-2.  If you want to generate request metrics for applications using the Tomcat/TomEE 7 application containers, add *com.sap.hcp.cf.logging.servlet.filter.RequestLoggingFilter* to the `web.xml` file.
+2.  If you want to generate request metrics for applications using the Tomcat/TomEE 7 application containers, add **com.sap.hcp.cf.logging.servlet.filter.RequestLoggingFilter** to the `web.xml` file.
 
     ```
     <filter-name>request-logging</filter-name>

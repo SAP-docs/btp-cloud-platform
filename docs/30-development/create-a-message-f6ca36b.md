@@ -53,7 +53,7 @@ Interface `IF_BALI_MESSAGE_SETTER` contains the following methods to set or chan
 
 
 > ### Sample Code:  
-> ```
+> ```abap
 > 
 > ...
 >  DATA(l_ref) = cl_bali_message_setter=>create(
