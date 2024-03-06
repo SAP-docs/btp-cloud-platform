@@ -132,5 +132,5 @@ To profile with JMC, you need to start the Management Agent on a RMI port and th
 **Related Information**  
 
 
-[Debug an Application Running on SapMachine](debug-an-application-running-on-sapmachine-f7fa9f3.md "Debug a Java web application running on a Cloud Foundry container that is using SapMachine.")
+[Debug an Application Running on SapMachine](debug-an-application-running-on-sapmachine-f7fa9f3.md "Debug a Java web application running on a Cloud Foundry container that uses SapMachine.")
 

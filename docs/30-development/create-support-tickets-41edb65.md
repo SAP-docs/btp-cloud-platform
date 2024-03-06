@@ -16,13 +16,17 @@ In the *Landscape Portal*, you can create a support ticket containing meaningful
 
 ## Procedure
 
-1.  Open the request for which you want to create a ticket by clicking it in the *Requests* log.
+1.  Log in to the *Landscape Portal* and click the tile *Systems Overview*.
 
-2.  Click the *Create Ticket* button on the top right. The context information will be collected for the request.
+2.  Click on a system and navigate to the *Requests* tab.
 
-3.  Copy the context for the ticket. Open the displayed link and paste the context into the description field \(select the icon for "Paste as Text", then press Ctrl+V\).
+3.  Click on the request for which you want to create a ticket.
 
-4.  Fill in the remaining information and submit your ticket.
+4.  Click the *Create Ticket* button on the top right. The context information will be collected for the request.
+
+5.  Copy the context for the ticket. Open the displayed link and paste the context into the description field \(select the icon for "Paste as Text", then press Ctrl+V\).
+
+6.  Fill in the remaining information and submit your ticket.
 
 
 

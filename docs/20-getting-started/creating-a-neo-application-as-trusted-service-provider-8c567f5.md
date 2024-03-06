@@ -94,74 +94,74 @@ Include the attributes `first_name`, `last_name`, `mail`, and `Groups` for the S
 
 2.  Choose *Attributes*.
 
-3.  Choose *Add* to enter the following user attributes and their corresponding assertion attributes \(if they don't already exist\):
+3.  Choose *Add* to enter the following attributes \(if they don't already exist\):
 
 
     <table>
     <tr>
     <th valign="top">
 
-    User Attribute
+    Name
     
     </th>
     <th valign="top">
 
-    Assertion Attribute
+    Value
     
     </th>
     </tr>
     <tr>
-    <td valign="top">
-    
-    *First Name*
-    
-    </td>
     <td valign="top">
     
     `first_name`
     
     </td>
-    </tr>
-    <tr>
     <td valign="top">
     
-    *Last Name*
+    *First Name*
     
     </td>
+    </tr>
+    <tr>
     <td valign="top">
     
     `last_name`
     
     </td>
-    </tr>
-    <tr>
     <td valign="top">
     
-    *E-Mail*
+    *Last Name*
     
     </td>
+    </tr>
+    <tr>
     <td valign="top">
     
     `mail`
     
     </td>
+    <td valign="top">
+    
+    *E-Mail*
+    
+    </td>
     </tr>
     <tr>
     <td valign="top">
     
-    *Groups*
+    `Groups`
     
     </td>
     <td valign="top">
     
-    `Groups`
+    *Groups*
     
     </td>
     </tr>
     </table>
     
     > ### Note:  
-    > Make sure that you enter `Groups` \(with upper case `G`\), not `groups`, in the *Assertion Attribute* field, so that it matches the assertion attribute used for the Neo environment.
+    > Make sure that you enter `Groups` \(with upper case `G`\), not `groups`, in the *Name* field, so that it matches the assertation attribute used for the Neo environment.
 
 4.  Choose *Save*.
 

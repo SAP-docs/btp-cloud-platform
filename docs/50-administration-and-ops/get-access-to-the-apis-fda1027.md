@@ -2,13 +2,13 @@
 
 # Get Access to the APIs
 
-To enable programmatic access to the SAP Authorization and Trust Management service \(XSUAA\) in your multi-environment global account, subaccount, or directory, you need API credentials.
+To enable programmatic access to the SAP Authorization and Trust Management service \(XSUAA\) in your global account, directory, or multi-environment subaccount, you need API credentials.
 
 
 
 ## Context
 
-To get access to the APIs of SAP Authorization and Trust Management service, use the SAP BTP command line interface \(btp CLI\) to create API credentials. You can get API credentials that apply for the global account, directory, or subaccount.
+To get access to the APIs of the SAP Authorization and Trust Management service, use the SAP BTP command-line interface \(btp CLI\) to create API credentials. You can get API credentials that apply for the global account, directory, or subaccount.
 
 For more information, see [Managing API Credentials for Calling REST APIs of SAP Authorization and Trust Management Service](managing-api-credentials-for-calling-rest-apis-of-sap-authorization-and-trust-managemen-ce43eb5.md).
 

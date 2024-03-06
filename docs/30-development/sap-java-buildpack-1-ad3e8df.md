@@ -1,10 +1,10 @@
 <!-- loioad3e8dfdbaad423e96ca875a4cd36f61 -->
 
-# SAP Java Buildpack
+# SAP Java Buildpack 1
 
 SAP Java Buildpack is a Cloud Foundry buildpack for running JVM-based applications.
 
-The buildpack supports the following runtimes:
+This buildpack supports the following runtimes:
 
 -   [TomEE 7](tomee-7-79c039a.md)
 
@@ -165,11 +165,11 @@ modules:
 
 ## Supported Versions
 
-The SAP Java Buildpack \(`sap_java_buildpack`\) supports the following Java versions:
+SAP Java Buildpack 1 \(`sap_java_buildpack`\) supports the following Java versions:
 
--   Java **8** – default version when you use SAP JVM \(*it provides JRE and JDK with Java 8*\)
--   Java **11** – default version when you use SapMachine \(*it provides JRE and JDK with Java 11*\)
--   Java **17** – possible version when you use SapMachine \(*it provides JRE and JDK with Java 17*\)
+-   Java **8** – default version when you use SAP JVM \(*it provides a JRE and JDK with Java 8*\)
+-   Java **11** – default version when you use SapMachine \(*it provides a JRE with Java 11*\)
+-   Java **17** – possible version when you use SapMachine \(*it provides a JRE with Java 17*\)
 
 To learn how to configure your application to use SapMachine JRE and JDK, see: [SapMachine](sapmachine-785d6b3.md)
 
@@ -179,20 +179,20 @@ To learn how to configure your application to use SapMachine JRE and JDK, see: [
 
 ## Components
 
-SAP Java Buildpack provides the following components \(containers, JREs, frameworks\) in the application container \(`<APP_ROOT_DIR>/app/META-INF/.sap_java_buildpack`\):
+SAP Java Buildpack provides the following components in the application container \(`<APP_ROOT_DIR>/app/META-INF/.sap_java_buildpack`\):
 
--   Runtime – [Tomcat 9](tomcat-9-ddfc101.md), [TomEE 7](tomee-7-79c039a.md) and [Java Main](java-main-8a1786a.md)
-
--   Memory Calculator – [Memory Calculator V2](memory-calculator-v2-8eef959.md) \(default\) and [Memory Calculator V1](memory-calculator-v1-sap-jvm-memory-calculator-c1059e0.md) \(optional\)
+-   Runtime – [Tomcat 9](tomcat-9-ddfc101.md), [TomEE 7](tomee-7-79c039a.md), and [Java Main](java-main-8a1786a.md)
 
 -   [SapMachine](sapmachine-785d6b3.md)
 
--   SAP JVM
+-   [Memory Calculator V2](memory-calculator-v2-8eef959.md) - default
 
--   Log Level Client
+-   [Memory Calculator V1 \(SAP JVM Memory Calculator\)](memory-calculator-v1-sap-jvm-memory-calculator-c1059e0.md) - optional
 
--   JVMKill Agent
+-   [SAP BTP Security Services Integration Libraries](https://github.com/SAP/cloud-security-services-integration-library) – version 2.x
 
+
+To check all the components regularly updated in the SAP Java Buildpack 1.x releases, see: [SAP Java Buildpack BOM](https://mvnrepository.com/artifact/com.sap.cloud.sjb.cf/sap-java-buildpack-bom)
 
 
 
@@ -210,7 +210,7 @@ In the current version of the SAP Java Buildpack, the async servlets are *not su
 
 ## What's New
 
-To see the latest news and updates about SAP Java Buildpack, regularly check the release notes on the [What's New portal](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&Component=SAP%20Java%20Buildpack).
+To see the latest news and updates about SAP Java Buildpack 1, regularly check the release notes on the [What's New portal](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&Component=SAP%20Java%20Buildpack).
 
 
 
@@ -218,7 +218,7 @@ To see the latest news and updates about SAP Java Buildpack, regularly check the
 
 ## Troubleshooting
 
-If you encounter an issue while using SAP Java Buildpack, you can:
+If you encounter an issue while using SAP Java Buildpack 1, you can:
 
 -   Search for your problem in our Guided Answers: [SAP Java Buildpack](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51219/?version=current)
 

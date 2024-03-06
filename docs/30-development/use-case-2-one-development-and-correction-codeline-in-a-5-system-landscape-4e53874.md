@@ -8,7 +8,7 @@ General considerations:
 
 -   Systems COR and QAS have the same software state as production system PRD, unless a new change is tested and released. This means transport requests are released in the DEV system only if development is completed and if it is planned to import the changes to the production system.
 -   Releases are planned and communicated to development in advance:
-    -   Upon cutoff date, development is finished. All development that is released at this time must be tested and be of good quality. From then on, you have to fix defects in the COR system and maintain them in parallel in the DEV system.
+    -   Upon cut-off date, development is finished. All development that is released at this time must be tested and be of good quality. From then on, you have to fix defects in the COR system and maintain them in parallel in the DEV system.
     -   Upon release date, all defects must be fixed. If you make the decision during testing in the QAS system that a complete functionality is not delivered, developers must delete, revert, or disable the functionality in the COR system and release the corresponding transport requests. You cannot remove objects from the release branch, e.g. by deselecting transport requests. To revert objects to an older transported state, use the compare editor of the Eclipse *History* view. If the withdrawal of the functionality shall be performed in the DEV system as well it is considered as a correction and you have to perform double maintenance of corrections into the DEV system. The released software state from the COR system is imported into the production system\(s\) PRD.
 
 -   System COR is usually locked for development. First, this means developers cannot do changes by default and there are two approaches how to handle this:
@@ -236,7 +236,7 @@ Maintain business configuration. All changes are collected in customizing transp
 <tr>
 <td valign="top">
 
-2
+2 a
 
 </td>
 <td valign="top">
@@ -257,6 +257,35 @@ Once development is finished, release the transport request\(s\). The changes ar
 <td valign="top">
 
 ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing Transports* app
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+2 b
+
+</td>
+<td valign="top">
+
+DEV
+
+</td>
+<td valign="top">
+
+Release Manager
+
+</td>
+<td valign="top">
+
+The released API has to be part of development and the development has to be finished.
+
+Snaphots are pulled after development after the API objects are released. The snapshot has to be set to check-relevant. Then, the ATC compatibility check should run.
+
+</td>
+<td valign="top">
+
+*Manage API Snapshots* app
 
 </td>
 </tr>

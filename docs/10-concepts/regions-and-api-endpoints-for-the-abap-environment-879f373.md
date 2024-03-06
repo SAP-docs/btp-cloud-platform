@@ -863,6 +863,147 @@ jp20.hana.ondemand.com
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+eu30
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
+
+</td>
+<td valign="top">
+
+cf-eu30
+
+</td>
+<td valign="top">
+
+europe-west3
+
+</td>
+<td valign="top">
+
+34.141.88.79, 34.159.65.75, 34.141.107.207, 34.141.42.177, 34.141.126.80, 34.159.215.19
+
+</td>
+<td valign="top">
+
+api.cf.eu30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+eu30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Feature Set B](https://emea.cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+in30
+
+</td>
+<td valign="top">
+
+India \(Mumbai\)
+
+</td>
+<td valign="top">
+
+cf-in30
+
+</td>
+<td valign="top">
+
+asia-south1
+
+</td>
+<td valign="top">
+
+34.93.58.135, 35.200.177.49, 35.244.63.61, 34.93.41.126, 34.93.191.130, 35.200.168.232
+
+</td>
+<td valign="top">
+
+api.cf.in30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+in30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Feature Set B](https://apac.cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+us30
+
+</td>
+<td valign="top">
+
+US Central \(IA\)
+
+</td>
+<td valign="top">
+
+cf-us30
+
+</td>
+<td valign="top">
+
+us-central1
+
+</td>
+<td valign="top">
+
+34.121.78.84, 34.122.132.185, 104.154.245.19, 34.171.92.122, 35.224.140.73, 34.31.173.8
+
+</td>
+<td valign="top">
+
+api.cf.us30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+us30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Feature Set B](https://amer.cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
 </table>
 
 **Regions for Trial Accounts**
@@ -960,6 +1101,53 @@ us10.hana.ondemand.com
 <td valign="top">
 
 [Trial](https://cockpit.us10.hana.ondemand.com/trial)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+ap21
+
+</td>
+<td valign="top">
+
+Singapore
+
+</td>
+<td valign="top">
+
+cf-ap21
+
+</td>
+<td valign="top">
+
+southeastasia
+
+</td>
+<td valign="top">
+
+20.6.9.203, 20.198.169.36, 20.195.25.14
+
+</td>
+<td valign="top">
+
+api.cf.ap21.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+ap21.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Trial](https://cockpit.ap21.hana.ondemand.com/trial)
 
 </td>
 </tr>

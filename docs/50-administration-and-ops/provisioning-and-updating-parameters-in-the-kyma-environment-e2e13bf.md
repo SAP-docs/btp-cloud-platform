@@ -373,25 +373,109 @@ Virtual Machine Size
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="5">
+<td valign="top" rowspan="12">
 
 Amazon Web Services
 
 technical name: `aws`
 
 </td>
-<td valign="top" rowspan="5">
+<td valign="top" rowspan="12">
 
 Provisioning
 
 Updating
 
 </td>
-<td valign="top" rowspan="5">
+<td valign="top" rowspan="12">
 
-`m5.xlarge`
+`m6i.large`
 
 </td>
+<td valign="top">
+
+`m6i.large`
+
+</td>
+<td valign="top">
+
+2vCPU, 8GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`m6i.xlarge`
+
+</td>
+<td valign="top">
+
+4vCPU, 16GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`m6i.2xlarge`
+
+</td>
+<td valign="top">
+
+8vCPU, 32GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`m6i.4xlarge`
+
+</td>
+<td valign="top">
+
+16vCPU, 64GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`m6i.8xlarge`
+
+</td>
+<td valign="top">
+
+32vCPU, 128GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`m6i.12xlarge`
+
+</td>
+<td valign="top">
+
+48vCPU, 192GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`m5.large`
+
+</td>
+<td valign="top">
+
+2vCPU, 8GB RAM
+
+</td>
+</tr>
+<tr>
 <td valign="top">
 
 `m5.xlarge`
@@ -452,25 +536,37 @@ Updating
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="5">
+<td valign="top" rowspan="6">
 
 Google Cloud
 
 technical name: `gcp`
 
 </td>
-<td valign="top" rowspan="5">
+<td valign="top" rowspan="6">
 
 Provisioning
 
 Updating
 
 </td>
-<td valign="top" rowspan="5">
+<td valign="top" rowspan="6">
 
-`n2-standard-4`
+`n2-standard-2`
 
 </td>
+<td valign="top">
+
+`n2-standard-2`
+
+</td>
+<td valign="top">
+
+2vCPU, 8GB RAM
+
+</td>
+</tr>
+<tr>
 <td valign="top">
 
 `n2-standard-4`
@@ -531,25 +627,37 @@ Updating
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="12">
+<td valign="top" rowspan="13">
 
 Microsoft Azure
 
 technical name: `azure`
 
 </td>
-<td valign="top" rowspan="12">
+<td valign="top" rowspan="13">
 
 Provisioning
 
 Updating
 
 </td>
-<td valign="top" rowspan="12">
+<td valign="top" rowspan="13">
 
-`Standard_D4s_v5`
+`Standard_D2s_v5`
 
 </td>
+<td valign="top">
+
+`Standard_D2s_v5`
+
+</td>
+<td valign="top">
+
+2vCPU, 8GB RAM
+
+</td>
+</tr>
+<tr>
 <td valign="top">
 
 `Standard_D4s_v5`

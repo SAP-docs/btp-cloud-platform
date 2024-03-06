@@ -18,9 +18,9 @@ The development of a business configuration maintenance Fiori UI requires develo
 
 Based on the customizing tables you define a data model and business object structure. Check the prerequisites of the business configuration maintenance object to see which kind of business object is supported. Using model-driven development approach, you develop actions, validations, and determinations for the entities of the business object to change, maintain and validate configuration entries.
 
-You have the option to use the [Generate ABAP Repository Objects Wizard](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/047e01c3bcdd4303a60b61364bd5b31d.html) to generate all required development objects based on a customizng table. If required, you can then add further functions or enhance the generated business object structure.
+You have the option to use the [Generate ABAP Repository Objects Wizard](generating-a-business-configuration-maintenance-object-with-the-generate-abap-repository-047e01c.md) to generate all required development objects based on a customizng table. If required, you can then add further functions or enhance the generated business object structure.
 
-For more information, see [Developing a Ready-to-Run Business Object](https://help.sap.com/docs/BTP/923180ddb98240829d935862025004d6/87fae4292b1e4c88a863377fb3620b47.html) and [Developing Business Logic](https://help.sap.com/docs/BTP/923180ddb98240829d935862025004d6/b77bd60fff914841a9c55d7e7a9b4b27.html).
+For more information, see [Developing a Ready-to-Run Business Object](https://help.sap.com/docs/abap-cloud/abap-rap/developing-ready-to-run-business-object?version=sap_btp) and [Developing Business Logic](https://help.sap.com/docs/abap-cloud/abap-rap/developing-ready-to-run-business-object?version=sap_btp).
 
 
 
@@ -28,7 +28,7 @@ For more information, see [Developing a Ready-to-Run Business Object](https://he
 
 ## 2. Developing Business Service
 
-Define the scope by exposing the entities of the business object in a service definition and bind the service to OData V4 UI protocol with a service binding. For more information on this, see [Working with Business Services](https://help.sap.com/docs/BTP/f859579898c7494dbe2449bb7f278dcc/275ae38b770e4a15b8ea026d5185e1a3.html?version=Cloud).
+Define the scope by exposing the entities of the business object in a service definition and bind the service to OData V4 UI protocol with a service binding. For more information on this, see [Working with Business Services](https://help.sap.com/docs/abap-cloud/abap-rap/developing-ready-to-run-business-object?version=sap_btp).
 
 
 

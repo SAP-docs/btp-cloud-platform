@@ -2,7 +2,7 @@
 
 # Get Access to the APIs Using the `apiaccess` Service Plan
 
-To enable programmatic access to the SAP Authorization and Trust Management service \(XSUAA\) in your multi-environment global account, subaccount, or directory, create a service instance with the `apiaccess` plan.
+To enable programmatic access to the SAP Authorization and Trust Management service \(XSUAA\) in your multi-environment subaccount, create a service instance with the `apiaccess` plan.
 
 
 
@@ -17,7 +17,12 @@ To enable programmatic access to the SAP Authorization and Trust Management serv
 
 ## Context
 
-One use case for this scenario is to use your own identity management system to integrate it with SAP BTP. The API is a RESTful API that includes access to authorization, user, group, and identity provider interfaces. The user, group, and identity provider interfaces use System for Cross-domain Identity Management \(SCIM\) protocol.
+> ### Recommendation:  
+> Use the SAP BTP command-line interface \(btp CLI\) to create credentials. Using the btp CLI is easier and has fewer restrictions than using the `apiaccess` plan.
+> 
+> For more information, see [Get Access to the APIs](get-access-to-the-apis-fda1027.md).
+
+One use case for this scenario is to use your own identity management system to integrate it with SAP BTP. The API is a RESTful API that includes access to authorization, user, group, and identity provider interfaces. The user, group, and identity provider interfaces use the System for Cross-domain Identity Management \(SCIM\) protocol.
 
 For more information about the available APIs, see [https://api.sap.com/package/authtrustmgmnt](https://api.sap.com/package/authtrustmgmnt) on *SAP Business Accelerator Hub*.
 

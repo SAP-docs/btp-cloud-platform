@@ -234,6 +234,35 @@ ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing T
 <tr>
 <td valign="top">
 
+2 d
+
+</td>
+<td valign="top">
+
+DEV
+
+</td>
+<td valign="top">
+
+Release Manager
+
+</td>
+<td valign="top">
+
+The released API has to be part of development and the development has to be finished.
+
+Snaphots are pulled after development after the API objects are released. The snapshot has to be set to check-relevant. Then, the ATC compatibility check should run.
+
+</td>
+<td valign="top">
+
+*Manage API Snapshots* app
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 3
 
 </td>

@@ -52,7 +52,7 @@ In order to log into the *Landscape Portal*, a user first needs to be assigned t
 > ### Remember:  
 > You need to be a security administrator in your production subaccount in order to assign the role collections. 
 
-There are two different role collections with which you can access the *Landscape Portal*:
+There are four different role collections available for the *Landscape Portal*:
 
 -   Landscape Portal Admin \("LandscapePortalAdminRoleCollection"\): Full functionality of the *Landscape Portal*.
 

@@ -222,7 +222,7 @@ Subaccount members \(regardless of whether they are also global account administ
 > 
 > Similarly, if you're assigning plans to a subaccount that is under a directory that has the user management feature enabled, then you must be the directory administrator or a global account administrator.
 
-The *Entitlements* \> *Entity Assignments* contains these views \(tabs\):
+The *Entitlements* \> *Entity Assignments* is where you view and edit assignments and quota from the perspective of subaccounts and directories. This page contains these views \(tabs\):
 
 
 <table>
@@ -264,7 +264,12 @@ Allows global account admins and viewers to view the commercial source of their 
 </tr>
 </table>
 
-The *Entitlements* \> *Service Assignments* contains these views \(tabs\):
+For information about setting assignments and quota, see:
+
+-   [Configure Entitlements and Quotas for Directories \[Feature Set B\]](configure-entitlements-and-quotas-for-directories-feature-set-b-37f8871.md)
+-   [Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-5ba357b.md)
+
+The *Entitlements* \> *Service Assignments* is where you view assignments and quota from the perspective of services. This page contains these views \(tabs\):
 
 
 <table>

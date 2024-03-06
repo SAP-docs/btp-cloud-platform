@@ -13,6 +13,10 @@ Find selected information for Java development on SAP BTP, Cloud Foundry and ref
 To use a buildpack, specify its name when deploying a Java application to SAP BTP, Cloud Foundry. For example:
 
 ```
+cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack_jakarta
+```
+
+```
 cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack
 ```
 
@@ -27,7 +31,7 @@ You can also use the *buildpack* or *buildpacks* attribute to specify it in the 
 applications:
 - name: <APP_NAME>
   buildpacks:
-  - sap_java_buildpack
+  - sap_java_buildpack_jakarta
   ...
 ```
 
@@ -44,7 +48,7 @@ modules:
     parameters:
       ...
       memory: 512M
-      buildpack: sap_java_buildpack
+      buildpack: sap_java_buildpack_jakarta
 ...
 ```
 
@@ -68,8 +72,6 @@ If you encounter an issue while using SAP Java Buildpack, you can create an inci
 
 
 [Buildpacks](buildpacks-5e7fc02.md "")
-
-[Runtimes and Containers](runtimes-and-containers-83d2416.md "Find out which application runtimes and containers you can use, depending on the Java buildpack your application is using.")
 
 [Customizing the JVM Settings](customizing-the-java-virtual-machine-jvm-settings-b8cda61.md "")
 

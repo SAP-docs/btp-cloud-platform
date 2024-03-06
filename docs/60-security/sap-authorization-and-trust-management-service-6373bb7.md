@@ -306,7 +306,7 @@ Command line interface for SAP BTP
 
 Create a role collection and assign roles to it
 
-[Maintain Role Collections](../50-administration-and-ops/maintain-role-collections-d5f1612.md)
+[Define a Role Collection](../50-administration-and-ops/define-a-role-collection-4b20383.md)
 
 </td>
 <td valign="top">

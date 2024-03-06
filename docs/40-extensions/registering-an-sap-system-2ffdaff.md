@@ -53,7 +53,7 @@ The registration process has the following states displayed in the cockpit:
 -   *Error while Registering* - the registration has failed.
 
 > ### Note:  
-> You will not be able to deregister or remove a system if its status is *Error while Registering*.
+> If a system is in status *Error while Registering*, delete it and register it again.
 
 If the registration error persists, report an incident in one of the following components depending on the system type:
 

@@ -26,11 +26,16 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
 
 4.  Click the *Register System* button.
 
+    > ### Note:  
+    > The button is only active if the current date is within the registration period.
+
 5.  Refresh the page by clicking on the *Refresh* button. The status of your system has changed from “Not registered for pre-upgrade” to “Registered for pre-upgrade”.
 
 6.  If you change your mind and want to undo the registration of a system for pre-upgrade, simply select the system and click the *Un-Register System* button.
 
 
-> ### Note:  
-> Depending on the status of the selected system, the *register* or *unregister* button is active. In case the current date is within the calculated registration period, the actions to register and/or un-register are active. Otherwise the action buttons are inactive. For more information, see [SAP BTP ABAP Environment - Pre-Upgrade Option for Release 2302](https://blogs.sap.com/2023/01/11/sap-btp-abap-environment-pre-upgrade-option-for-release-2302/).
+> ### Caution:  
+> Make sure not to register your Add-on Build systems for pre-upgrade because product versions assembled on them cannot be installed into other systems until the target systems were updated as well. For production systems, this would be the regular update weeks later.
+
+For more information, see [Pre-Upgrade Option for Release 2402](https://community.sap.com/t5/technology-blogs-by-sap/sap-btp-abap-environment-pre-upgrade-option-for-release-2402/ba-p/13573197).
 

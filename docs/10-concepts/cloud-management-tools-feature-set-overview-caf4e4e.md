@@ -32,7 +32,7 @@ When using cloud management tools feature set B:
 
 Choose `https://cockpit.btp.cloud.sap` to access the cockpit. Depending on your own geo location this URL will redirect you to the closest regional Cockpit URL.
 
-For more information, see [Cloud Management Tools — Feature Set Overview](cloud-management-tools-feature-set-overview-caf4e4e.md).
+For more information, see [Access the Cockpit](../50-administration-and-ops/access-the-cockpit-4e75066.md).
 
 
 

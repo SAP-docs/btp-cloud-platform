@@ -124,9 +124,6 @@ Assign predefined or custom role collections to users who need to manage or view
 
 For more information about these role collections, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md).
 
-> ### Restriction:  
-> Adding members to global accounts is only possible in enterprise accounts, not in trial accounts.
-
 
 
 <a name="AddMembers-FSB__steps_vqz_cjg_klb"/>

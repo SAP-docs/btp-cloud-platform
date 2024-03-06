@@ -52,7 +52,7 @@ If your subaccount audit logs contain other log types or information, create a s
 **Related Information**  
 
 
-[Audit Log Retrieval API Usage for the Cloud Foundry Environment](audit-log-retrieval-api-usage-for-the-cloud-foundry-environment-30ece35.md "The audit log retrieval API allows you to retrieve the audit logs for your SAP BTP Cloud Foundry environment account. It provides the audit log results as a collection of JSON entities.")
+[Audit Log Retrieval API Usage for Subaccounts in the Cloud Foundry Environment](audit-log-retrieval-api-usage-for-subaccounts-in-the-cloud-foundry-environment-30ece35.md "The audit log retrieval API allows you to retrieve the audit logs for your SAP BTP Cloud Foundry environment subaccount.")
 
 [Audit Log Retention for the Cloud Foundry Environment](audit-log-retention-for-the-cloud-foundry-environment-adaefa6.md "The audit log data is stored on a subaccount level. The access to the stored audit log data is strictly restricted - only authorized stakeholders can preview, retrieve, and download their audit log data.")
 

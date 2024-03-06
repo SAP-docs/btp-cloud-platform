@@ -36,38 +36,46 @@ If your application calls an SAP SOAP API, the Application Interface Key must be
 
 ## Example
 
+> ### Note:  
+> After executing a service call, the field value is initialized by the SOAP runtime. Therefore, you have to set the HTTP field values for each service call with the `SET_FIELD` method.
+
 > ### Sample Code:  
 > ```abap
 > " Get destination object
 > 
 > TRY.
 > 
->         DATA(destination) = cl_soap_destination_provider=>create_by_comm_arrangement(
+>     DATA(destination) = cl_soap_destination_provider=>create_by_comm_arrangement(
+>     comm_scenario = 'HTTP_HEADER' ).
 > 
->         comm_scenario = 'HTTP_HEADER' ).
+>     DATA(proxy) = NEW zco_srt_test_provider( destination = destination ).
 > 
->         DATA(proxy) = NEW zco_srt_test_provider( destination = destination ).
+>   " Pass the proxy object to factory method to obtain an instance of the HTTP header protocol
+>     DATA(header) = cl_ws_protocol_factory=>get_http_header_protocol( io_proxy = proxy ).
 > 
-> " Pass the proxy object to factory method and add HTTP field to the SOAP request.
+>   " First service call
+>   " Add HTTP field to the SOAP request.
+>     header->set_field( iv_name = if_ws_http_header_facade=>co_field_appl_interface_key iv_value = '0123abcd' ).
 > 
->         DATA(header) = cl_ws_protocol_factory=>get_http_header_protocol( io_proxy = proxy ).
+>   " Call service
+>     DATA(request) = VALUE zrfc_system_info( ).
+>     proxy->rfc_system_info( EXPORTING input = request IMPORTING output = DATA(response) ).
 > 
->         header->set_field( iv_name = if_ws_http_header_facade=>co_field_appl_interface_key iv_value = '0123abcd' ).
+>   " Second service call
+>   " Add HTTP field to the SOAP request.
+>     header->set_field( iv_name = if_ws_http_header_facade=>co_field_appl_interface_key iv_value = '9876wxyz' ).
 > 
+>   " Call service
+>     DATA(request) = VALUE zrfc_system_info( ).
+>     proxy->rfc_system_info( EXPORTING input = request IMPORTING output = DATA(response) ).
 > 
+>   CATCH cx_ws_protocol_error INTO DATA(lx_protocol_error).
+>     " Handle protocol error
+>   CATCH cx_soap_destination_error INTO DATA(lx_error).
+>     " Handle destination error
+>   CATCH cx_ai_system_fault INTO DATA(lx_fault).
+>     " Handle system fault
 > 
-> " Call server
->         DATA(request) = VALUE zrfc_system_info( ).
-> 
->         proxy->rfc_system_info( EXPORTING input = request IMPORTING output = DATA(response) ).
-> 
->       CATCH cx_ws_protocol_error INTO DATA(lx_protocol_error).
-> 	" Handle protocol error
->       CATCH cx_soap_destination_error INTO DATA(lx_error).
-> 	" Handle destination error
->       CATCH cx_ai_system_fault INTO DATA(lx_fault).
-> 	" Handle system fault
-> 
->     ENDTRY.
+> ENDTRY.
 > ```
 

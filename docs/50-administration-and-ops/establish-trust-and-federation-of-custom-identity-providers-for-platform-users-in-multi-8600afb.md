@@ -18,10 +18,7 @@ By default, platform users in multi-environment subaccounts are users in SAP ID 
 
 ## Prerequisites
 
--   You've an Identity Authentication tenant.
-
-    > ### Restriction:  
-    > Trial accounts of SAP BTP don’t provide an Identity Authentication tenant. Without an Identity Authentication tenant, you can't configure a custom platform identity provider in a trial account.
+-   You have an Identity Authentication tenant.
 
     For more information, see the [documentation](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html) for SAP Cloud Identity Services - Identity Authentication.
 

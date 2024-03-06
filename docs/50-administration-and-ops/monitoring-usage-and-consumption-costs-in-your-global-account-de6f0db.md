@@ -19,6 +19,8 @@ The *Costs and Usage* page in the cockpit provides a central and flexible experi
 -   Help you to verify your monthly billing statement against actual resource consumption.
 -   Help you to verify periodic cross-charges between your various business units based on subaccount and directory allocation/distribution.
 
+Check out also the [Enhancing Costs, Usage and Contract Transparency](https://community.sap.com/t5/technology-blogs-by-sap/enhancing-costs-usage-and-contract-transparency/ba-p/13614671) blog for more information.
+
 
 
 <a name="loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_opc_4d3_m1c"/>
@@ -309,7 +311,7 @@ The parameters for charged usage can include the amount of data processed, the n
 > ### Tip:  
 > This view is available only if your global account uses a consumption-based commercial model.
 
-In the *Billing* view, you can switch between the <span class="SAP-icons-V5"></span> \(View by Service\) and <span class="SAP-icons-V5"></span> \(View by Directory or Subaccount\) perspectives:
+In the *Billing* view, you can switch between the *View by Service* and *View by Account* perspectives:
 
 
 <table>
@@ -328,7 +330,7 @@ Here are some useful tips for working in this perspective:
 -   To drill down and display more details about a particular service, click on an entry in the table or its <span class="SAP-icons-V5"></span> \(View Details\) button. When you drill down, a new pane opens and you can see, for example, exactly which subaccounts consume the selected service and the subtotal of charges and usage per subaccount.
 
     > ### Tip:  
-    > In this detailed view, you can use the <span class="SAP-icons-V5"></span> \(Switch\) button to quickly open the *View by Directory or Subaccount* perspective with the specific subaccount selected and displaying the plans it consumes.
+    > In this detailed view, you can use the <span class="SAP-icons-V5"></span> \(Switch\) button to quickly open the *View by Account* perspective with the specific subaccount selected and displaying the plans it consumes.
     > 
     > You can also click :gear: to display and hide columns.
 
@@ -351,7 +353,7 @@ See other useful tips, such as table sorting and searching, in the [Understandin
 <tr>
 <td valign="top">
 
-**View by Directory or Subaccount** 
+**View by Account** 
 
 </td>
 <td valign="top">
@@ -379,7 +381,7 @@ Here are some useful tips for working in this perspective:
     > The graph is useful for seeing in which months a subaccount or directory has usage and costs, which subaccounts or directories have increased or decreased usage/costs over time, or the months that have the highest and lowest usage/costs per subaccount or directory.
 
 
-See other useful tips, such as table sorting and using the search option, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
+See other useful tips, such as table sorting and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
 
 </td>
 </tr>
@@ -389,7 +391,7 @@ If your global account has subaccounts that have been deleted but have charges i
 
 If your global accounts uses both a subscription-based and a commercial-based model, the *Usage* column shows the combined total usage of services, both subscription-based and consumption-based. Note that:
 
--   The subscription-based consumption includes usage of services that falls within the prepaid quota that is specified in your subscription-based commercial model agreement. This part of the combined usage is shown in the *Usage Included in Quota* column. There will be no additional billing for consumption of the services that falls within this prepaid quota.
+-   The subscription-based consumption includes usage of services that falls within the prepaid quota that is specified in your subscription-based commercial model agreement. This part of the combined usage is shown in the *Prepaid Quota* column. There will be no additional billing for consumption of the services that falls within this prepaid quota.
 -   The consumption-based usage includes the usage of services that exceeds the prepaid subscription-based quota. This part of the combined usage is shown in the *Charged Usage* column. For this usage, you'll be charged based on the terms outlined in your consumption-based commercial model agreement.
 
 
@@ -485,7 +487,7 @@ This graph is useful for seeing changes in usage trends over time, including the
 </table>
 
 > ### Tip:  
-> See other useful tips, such as table sorting and using the search option, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
+> See other useful tips, such as table sorting and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
 
 
 

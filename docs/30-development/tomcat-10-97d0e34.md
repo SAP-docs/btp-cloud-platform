@@ -1,8 +1,8 @@
-<!-- loioddfc10180fe844049cc71f6989942dc2 -->
+<!-- loio97d0e34dcb8f42f4b8f96f7d5c476eb4 -->
 
-# Tomcat 9
+# Tomcat 10
 
-By default, web applications pushed with SAP Java Buildpack 1 are running in an Apache Tomcat 9 container.
+By default, web applications pushed with SAP Java Buildpack 2 are running in an Apache Tomcat 10 container.
 
 Applications can explicitly define the target application container by using the TARGET\_RUNTIME environment variable in the application's `manifest.yml` file.
 
@@ -19,7 +19,7 @@ Applications can explicitly define the target application container by using the
 
 
 
-<a name="loioddfc10180fe844049cc71f6989942dc2__section_lnr_2bv_42b"/>
+<a name="loio97d0e34dcb8f42f4b8f96f7d5c476eb4__section_lnr_2bv_42b"/>
 
 ## Provided APIs
 
@@ -52,29 +52,29 @@ tomcat
 </td>
 <td valign="top">
 
-**Apache Tomcat 9.0**
+**Apache Tomcat 10.1.x**
 
 > ### Note:  
-> Only relevant for SAP Java Buildpack 1
+> Only relevant for SAP Java Buildpack 2
 
 
 
 </td>
 <td valign="top">
 
-Java 8 and later
+Java 11 and later
 
-Java Servlets 4.0
+Java Servlets 6.0
 
-Java Server Pages \(JSP\) 2.3
+Java Server Pages \(JSP\) 3.1
 
-Expression Language \(EL\) 3.0
+Expression Language \(EL\) 5.0
 
-Debugging Support for Other Languages 1.0
+Debugging Support for Other Languages 2.0
 
-Java API for WebSocket 1.1
+Java API for WebSocket 2.1
 
-Java Authentication Service Provider Interface for Containers \(JASPIC\) 1.1
+Java Authentication Service Provider Interface for Containers \(JASPIC\) 3.0
 
 For more information, see [Apache Tomcat: Tomcat Versions](https://tomcat.apache.org/whichversion.html)
 
@@ -84,11 +84,11 @@ For more information, see [Apache Tomcat: Tomcat Versions](https://tomcat.apache
 
 
 
-<a name="loioddfc10180fe844049cc71f6989942dc2__section_cq3_nbv_42b"/>
+<a name="loio97d0e34dcb8f42f4b8f96f7d5c476eb4__section_cq3_nbv_42b"/>
 
 ## Customizing the SAP Java Buildpack Defaults
 
-SAP Java Buildpack 1 provides some default configurations for the Apache Tomcat application container. They can be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature.
+SAP Java Buildpack 2 provides some default configurations for the Apache Tomcat application container. They can be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature.
 
 Below is a list of all the placeholders than can be customized by the application, along with their default values:
 
@@ -187,11 +187,11 @@ env:
 
 
 
-<a name="loioddfc10180fe844049cc71f6989942dc2__section_w3t_zc4_2fb"/>
+<a name="loio97d0e34dcb8f42f4b8f96f7d5c476eb4__section_w3t_zc4_2fb"/>
 
 ## Configure the maximum number of active sessions
 
-SAP Java Buildpack 1 provides the default configurations for unlimited sessions for the Apache Tomcat application container. They can be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature. To limit the number of active sessions, set the *maxActiveSessions* attribute on a *Manager* element. For example:
+SAP Java Buildpack 2 provides the default configurations for unlimited sessions for the Apache Tomcat application container. They can be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature. To limit the number of active sessions, set the *maxActiveSessions* attribute on a *Manager* element. For example:
 
 > ### Example:  
 > ```
@@ -202,7 +202,7 @@ SAP Java Buildpack 1 provides the default configurations for unlimited sessions 
 
 
 
-<a name="loioddfc10180fe844049cc71f6989942dc2__section_i33_1d4_2fb"/>
+<a name="loio97d0e34dcb8f42f4b8f96f7d5c476eb4__section_i33_1d4_2fb"/>
 
 ## Configure the session timeout value
 
@@ -217,7 +217,7 @@ To set session timeout value of active sessions, set the *<session-config\>* tag
 
 
 
-<a name="loioddfc10180fe844049cc71f6989942dc2__section_lbp_bw5_sfb"/>
+<a name="loio97d0e34dcb8f42f4b8f96f7d5c476eb4__section_lbp_bw5_sfb"/>
 
 ## Configure the context path attribute
 
@@ -234,11 +234,11 @@ The default value of context path in `server.xml` is ***""*** \(Empty String\). 
 
 
 
-<a name="loioddfc10180fe844049cc71f6989942dc2__section_gz5_3ns_zxb"/>
+<a name="loio97d0e34dcb8f42f4b8f96f7d5c476eb4__section_gz5_3ns_zxb"/>
 
 ## Configure the cookie processor
 
-In Tomcat 8.5.84, a custom cookie processor has been created, based on the RFC 6265 Cookie Processor. If the PROCESS\_COOKIE environment variable is set to **true**, then this new cookie processor will override the default one.
+In Tomcat 8.5.84, a custom cookie processor was created, based on the RFC 6265 Cookie Processor. If the PROCESS\_COOKIE environment variable is set to **true**, then this new cookie processor will override the default one.
 
 **Reason**: In Tomcat Apache 8.5.84, the date format used with the *expires* attribute of HTTP cookies was corrected to be compliant with RFC 6265. A single space rather than a single dash is now used to separate the day, month, and year components. For more information, see [Apache Tomcat: Tomcat 8 Changelog](https://tomcat.apache.org/tomcat-8.5-doc/changelog.html)
 

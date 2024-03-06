@@ -48,7 +48,7 @@ The identity provider hosts the users and their attributes. When a user is authe
     > ### Tip:  
     > Provide the **exact** name of the attribute and its value as provided by the identity provider. These values are case-sensitive.
     > 
-    > For more information, see [Settings for Default SAML Federation Attributes of Any Identity Provider](settings-for-default-saml-federation-attributes-of-any-identity-provider-6d07333.md) and [Configure the User Attributes Sent to the Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d361407d36c5443298a909acbbd96ec4.html) in the documentation of the Identity Authentication service.
+    > For more information, see [Settings for Default SAML Federation Attributes of Identity Providers for Business Users](establish-trust-and-federation-with-uaa-using-any-saml-identity-provider-2ce3938.md#loio6d073332bc5743fdb7f7f06bde499ab7) and [Configure the User Attributes Sent to the Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d361407d36c5443298a909acbbd96ec4.html) in the documentation of the Identity Authentication service.
 
 6.  Save your entries.
 
@@ -58,7 +58,7 @@ The identity provider hosts the users and their attributes. When a user is authe
 
 [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md "When setting up accounts you need to assign users. While we provide you with your first users to get you started, your organization has identity providers that you want to integrate.")
 
-[Map Role Collections to User Groups](map-role-collections-to-user-groups-51acfc8.md "You want to assign a role collection to a user group provided by an identity provider that has a custom trust configuration in SAP BTP. In this case, the assignment is a mapping of a user group to a role collection. Your identity provider provides the user groups using the assertion attribute called Groups. Each value of the attribute is mapped to a role collection as described in this procedure.")
+[Map Role Collections to User Groups](map-role-collections-to-user-groups-51acfc8.md "You want to assign a role collection to a user group provided by an identity provider that has a custom trust configuration in SAP BTP. In this case, the assignment is a mapping of a user group to a role collection. Your identity provider provides the user groups using the attribute called Groups. Each value of the attribute is mapped to a role collection as described in this procedure.")
 
 [Create Role Collections with Predefined Roles](../30-development/create-role-collections-with-predefined-roles-fe75054.md "As an application developer, you want to create role collections for immediate use. You want to deliver role collections that administrators can use in the cockpit, and easily assign to users, for example in an onboarding process.")
 

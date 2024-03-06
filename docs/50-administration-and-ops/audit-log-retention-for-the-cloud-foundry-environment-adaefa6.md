@@ -4,7 +4,7 @@
 
 The audit log data is stored on a subaccount level. The access to the stored audit log data is strictly restricted - only authorized stakeholders can preview, retrieve, and download their audit log data.
 
-For more information, see [Audit Log Retrieval API Usage for the Cloud Foundry Environment](audit-log-retrieval-api-usage-for-the-cloud-foundry-environment-30ece35.md).
+For more information, see [Audit Log Retrieval API Usage for Subaccounts in the Cloud Foundry Environment](audit-log-retrieval-api-usage-for-subaccounts-in-the-cloud-foundry-environment-30ece35.md).
 
 
 

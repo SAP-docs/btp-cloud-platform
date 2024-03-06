@@ -2,7 +2,7 @@
 
 # Specify Attributes in a New Role
 
-As an administrator of the Cloud Foundry environment, you can specify attributes in a new role to refine authorizations of business users. Depending on these attributes, business users with this role have restricted access to data.
+As an administrator, you can specify attributes in a new role to refine authorizations of business users. Depending on these attributes, business users with this role have restricted access to data.
 
 
 
@@ -118,7 +118,7 @@ You have maintained the attributes of the users in your identity provider.
 
 [Subscribe to Multitenant Applications Using the Cockpit](subscribe-to-multitenant-applications-using-the-cockpit-7a3e396.md "Subscribe to multitenant applications from the Service Marketplace page in the SAP BTP cockpit.")
 
-[Maintain Role Collections](maintain-role-collections-d5f1612.md "Role collections group together different roles that can be applied to the application users.")
-
 [Attributes](attributes-713f52a.md "Attributes use information that is specific to the user, for example the user's country. If the application developer in the Cloud Foundry environment of SAP BTP has created a country attribute to a role, this restricts the data a business user can see based on this attribute.")
+
+[Specify Attributes in a New Role](specify-attributes-in-a-new-role-ab089a9.md "As an administrator, you can specify attributes in a new role to refine authorizations of business users. Depending on these attributes, business users with this role have restricted access to data.")
 

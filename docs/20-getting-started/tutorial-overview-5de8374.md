@@ -167,28 +167,30 @@
 -   [Maintain a Communication Arrangement for Inbound Communication](https://developers.sap.com/tutorials/abap-environment-communication-arrangement.html)
 
 
-*Mission:* [Connect Your On-Premise System with SAP BTP, ABAP Environment](https://developers.sap.com/mission.abap-env-connect-onpremise.html)
+*Mission:* [Get Data From an On-Premise System Using a Remote Function Call \(RFC\)](https://developers.sap.com/mission.abap-env-connect-onpremise.html)
 
--   [Call a Remote Function Module From SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-env-rfc.html)
+-   [Get Data from an On-Premise System Using a Remote Function Call \(RFC\) Scenario](https://developers.sap.com/tutorials/abap-env-rfc-scenario.html)
 
--   [Test the Connection to the Remote System](https://developers.sap.com/tutorials/abap-environment-test-rfc.html)
+-   [Remote Function Call \(RFC\) - Connect to Your On-Premise System from SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-env-rfc.html)
 
--   [Get Data from a Remote System Using a Custom Entity](https://developers.sap.com/tutorials/abap-environment-rfc-custom-entity.html)
+-   [Test the Business API \(BAPI\) with an ABAP Console App](https://developers.sap.com/tutorials/abap-environment-test-rfc.html)
 
--   [Inspect Your Class in the ABAP Debugger](https://developers.sap.com/tutorials/abap-environment-custom-entity-debug.html)
+-   [Get Data from an On-Premise System Using a Custom Entity](https://developers.sap.com/tutorials/abap-environment-rfc-custom-entity.html)
 
--   [Enhance the Handler Class With Filtering](https://developers.sap.com/tutorials/abap-environment-enhance-bapi-invoke.html)
+-   [RFC: Inspect Your Class in the ABAP Debugger](https://developers.sap.com/tutorials/abap-environment-custom-entity-debug.html)
+
+-   [RFC: Enhance the Handler Class With Filtering](https://developers.sap.com/tutorials/abap-environment-enhance-bapi-invoke.html)
 
 
-*Mission:* [Connect Two Instances of SAP BTP, ABAP Environment](https://developers.sap.com/mission.abap-env-connect-2-environments.html)
+*Mission:* [Get Data from a Remote System Using an OData Service](https://developers.sap.com/mission.abap-env-connect-2-environments.html)
 
--   [Create Communication Objects for a Remote OData Service](https://developers.sap.com/tutorials/abap-environment-a4c-inbound-communication.html)
+-   [Enable Connection From a Remote Instance of SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-a4c-inbound-communication.html)
 
--   [Create a Service Consumption Model](https://developers.sap.com/tutorials/abap-environment-create-service-consumption-model.html)
+-   [Prepare Consuming System and Create Service Consumption Model](https://developers.sap.com/tutorials/abap-environment-create-service-consumption-model.html)
 
--   [Create a Remote Client Proxy](https://developers.sap.com/tutorials/abap-environment-a4c-create-proxy.html)
+-   [Create Remote Client Proxy and ABAP Console App](https://developers.sap.com/tutorials/abap-environment-a4c-create-proxy.html)
 
--   [Implement a CDS Custom Entity and Query Implementation Class](https://developers.sap.com/tutorials/abap-environment-a4c-create-custom-entity.html)
+-   [Implement Custom Entity and Query Implementation Class](https://developers.sap.com/tutorials/abap-environment-a4c-create-custom-entity.html)
 
 
 *Mission:* [Connect to SAP S/4HANA Cloud with SAP BTP, ABAP Environment](https://developers.sap.com/mission.abap-env-connect-s4hana.html)

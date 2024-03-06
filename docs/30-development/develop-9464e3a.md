@@ -26,15 +26,21 @@ Once you’ve completed these development activities, the solution is ready to b
 
 ## ABAP Development
 
+
+
 As a developer user, implement your custom business services with the ABAP RESTful application programming model. See [ABAP RESTful Appliation Programming Model](https://help.sap.com/docs/btp/sap-abap-restful-application-programming-model/abap-restful-application-programming-model?version=Cloud). Maintain business catalogs \(see [Identity and Access Management \(IAM\)](identity-and-access-management-iam-5b62901.md)\) and communication scenarios \(see [Communication Management](communication-management-5b8ff39.md#loio5b8ff39ddb6741a29ddfcf587939e8f4)\) to expose services to business users and communication users. See [SAP Business Technology Platform](../sap-business-technology-platform-6a2c1ab.md), [ABAP Environment Learning Journey](https://learning.sap.com/products/business-technology-platform/development/abap?url_id=text-gl-lh), and [ABAP Environment Community](https://community.sap.com/topics/cloud-platform-abap-environment). Also consider starting out with a free tier option for the ABAP environment to get hands-on development experience. See [Trial Accounts and Free Tier](https://help.sap.com/docs/btp/sap-business-technology-platform/trial-accounts-and-free-tier?version=Cloud).
 
-**Identity and Access Management**
+
+
+### Identity and Access Management
 
 SAP Fiori applications and business services are represented by IAM apps and can be used to define the necessary authorizations. In an IAM business catalog, you bundle multiple IAM apps and their predefined authorizations, for example, for a specific business area.
 
 Additionally, you can define business role templates to make it easier for administrators to find the relevant business catalogs to create business roles. See [Identity and Access Management \(IAM\)](identity-and-access-management-iam-5b62901.md).
 
-**Communication Management**
+
+
+### Communication Management
 
 > ### Note:  
 > Use customer-managed communication scenarios as a design time description to store technical information, such as inbound and outbound services and their service type, for example OData or SOAP by using the `create_by_comm_arrangement` method. See [Service Consumption via Communication Arrangements](service-consumption-via-communication-arrangements-86aece6.md).
@@ -64,7 +70,9 @@ For **outbound communication**, the following protocols are supported:
 
 See [Supported Protocols and Authentication Methods](supported-protocols-and-authentication-methods-437e9d4.md).
 
-**Business Configuration**
+
+
+### **Business Configuration**
 
 Business configuration plays a major role in SaaS solutions. It refers to a predefined set of configuration options that affect its functionality and behavior. See [Business Configuration in SAP BTP ABAP Environment \(1\): Overview and BC Maintenance Apps](https://blogs.sap.com/2021/09/22/business-configuration-in-sap-btp-abap-environment-1-overview-and-bc-maintenance-apps/).
 
@@ -74,7 +82,7 @@ Using the business configurations API, you can register business configurations.
 
 
 
-**Key User Extensibility Enablement**
+### Key User Extensibility Enablement
 
 Using SaaS solutions, you can provide key user extensibility for system-internal use \(contract C1\) and use in key user apps. This allows customers who use the solution to extend it to their specific requirements.
 
@@ -84,16 +92,15 @@ See [Providing Business Add-Ins](providing-business-add-ins-6747acb.md) for guid
 
 See [Configuring Predefined Custom Fields](../50-administration-and-ops/configuring-predefined-custom-fields-0033cbc.md) for guidance on how to equip your SaaS solution with support for customer-specific extension fields.
 
-> ### Note:  
-> Released APIs, such as BAdIs or predefined custom fields, must only be changed compatibly. Otherwise, for example, runtime errors might occur or an upgrade might fail.
-> 
-> Using API snapshots to store the state of a released object locally can provide incompatibility warnings in ABAP Development Tools where the current state of the released object is compared to the last API snapshot.
-> 
-> The provider is responsible for preparing the solution to be lifecycle-stable for consumption by customers. Thus, as a developer user, you need to take these warnings into consideration before activating new changes in released objects.
+
+
+### Stability of Released APIs
+
+Released APIs, such as BAdIs or predefined custom fields, must only be changed compatibly. Otherwise, for example, runtime errors might occur or an upgrade might fail. To ensure that released APIs are not changed incompatibly, run an ATC compatibility check. This check uses snapshots that are created using the*Manage API Snapshots* app and which are set to check-relevant, to check whether incompatible changes have been made to the released API. For more information, see [Manage API Snapshots](../50-administration-and-ops/manage-api-snapshots-8dda6b6.md).
 
 
 
-**Multitenancy**
+### Multitenancy
 
 With the ABAP environment, you can build multitenancy-enabled SaaS solutions. To do so, the add-on implementation has to follow certain guidelines. See [Multitenancy Development Guideline](multitenancy-development-guideline-9d994c8.md).
 

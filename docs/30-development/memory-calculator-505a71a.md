@@ -10,7 +10,7 @@ Below you can find which memory calculators are used in the relevant Java buildp
 
 <a name="loio505a71ae53e84c7a972bb6c34b4316fb__section_kyg_nz3_k1c"/>
 
-## SAP Java Buildpack
+## SAP Java Buildpack 1
 
 This buildpack supports two memory calculator versions:
 
@@ -31,9 +31,20 @@ This buildpack supports two memory calculator versions:
 
 
 
+<a name="loio505a71ae53e84c7a972bb6c34b4316fb__section_qqb_4z3_k1c"/>
+
+## SAP Java Buildpack 2
+
+This buildpack supports only [Memory Calculator V2](memory-calculator-v2-8eef959.md), which is the same as the one provided by the community Java Buildpack. See: [\(GitHub\) Java Buildpack Memory Calculator](https://github.com/cloudfoundry/java-buildpack-memory-calculator)
+
+> ### Note:  
+> Memory Calculator V1 is deprecated \(not available\) for SAP Java Buildpack 2. If you try to activate it by setting the aforementioned environment variable, an error will be thrown.
+
+
+
 ## Community Java Buildpack
 
-This buildpack uses its default and only memory calculator: [cloudfoundry/java-buildpack-memory-calculator](https://github.com/cloudfoundry/java-buildpack-memory-calculator) 
+This buildpack uses its default and only memory calculator: [\(GitHub\) Java Buildpack Memory Calculator](https://github.com/cloudfoundry/java-buildpack-memory-calculator) 
 
 **Related Information**  
 

@@ -1103,13 +1103,13 @@ If you've enabled environments in your subaccount, manage the roles for those en
 
 [User and Member Management](user-and-member-management-cc1c676.md "On SAP BTP, member management happens at all levels from global account to environment, while user management is done for business applications.")
 
-[Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md "You can manage role collections by creating new ones from scratch or by copying an existing one and editing it. You can add or remove roles. You can also add or remove users or user groups to the role collections. This is the assignment or unassignment action. You can drill down all the way to the role definition or to the individual role, user, and user group, and make changes there.")
+[Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md "As an administrator, you group application roles in role collections. You then assign role collections to application users.")
 
-[Building Roles and Role Collections for Applications](../50-administration-and-ops/building-roles-and-role-collections-for-applications-eaa6a26.md "As an administrator of the Cloud Foundry environment of SAP BTP, you can maintain application roles and role collections which can be used in user management.")
+[Building Roles and Role Collections for Applications](../50-administration-and-ops/building-roles-and-role-collections-for-applications-eaa6a26.md "As an administrator, you can maintain application roles and role collections which can be used in user management.")
 
 [Mapping Role Collections in the Subaccount](../50-administration-and-ops/mapping-role-collections-in-the-subaccount-9e1bf57.md "You've arranged roles in role collections, and now want to assign or map these role collections to business users.")
 
-[Maintain Role Collections](../50-administration-and-ops/maintain-role-collections-d5f1612.md "Role collections group together different roles that can be applied to the application users.")
+[Maintain Role Collections](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/d5f1612d8230448bb6c02a7d9c8ac0d1.html "Role collections group together different roles that can be applied to the application users.") :arrow_upper_right:
 
 [Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md "User authorizations are managed by assigning role collections to users (for example, Subaccount Administrator). Use the SAP BTP command-line interface (btp CLI) to manage roles and role collections, and to assign role collections to users.")
 

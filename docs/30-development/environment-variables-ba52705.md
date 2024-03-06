@@ -54,7 +54,20 @@ Provides information about the available application \(microservice\) destinatio
 </td>
 <td valign="top">
 
-Provides cookies that the application router returns to the client in its responses.
+The application router generates the following third-party cookies and sends them to the client:
+
+-   `locationafterLogin` 
+
+-   `fragmentAfterLogin`
+
+-   `signature`
+
+-   `JSESSION ID`
+
+
+To control the behavior and usage of the third-party cookies, you can configure the attributes`SameSite` and `Partitioned`.
+
+For more information about third-party cookies, please see the KBA [3409306](https://me.sap.com/notes/3409306).
 
 </td>
 </tr>
@@ -633,9 +646,9 @@ It is also possible to include the destinations in the `manifest.yml` file, as i
 
 <a name="loioba527058dc4d423a9e0a69ecc67f4593__section_gbt_1nc_4kb"/>
 
-## Additional cookies
+## Additional Cookie Attributes
 
-If configured, the application router will send additional cookies in its responses to the client. Additional cookies can be set in the *<COOKIES\>* environment variable.
+If configured, the application router sends additional cookie attributes in its responses to the client. Additional cookies attributes can be set in the *<COOKIES\>* environment variable.
 
 Example of configuration for cookies in the `manifest.yml`:
 
@@ -643,13 +656,33 @@ Example of configuration for cookies in the `manifest.yml`:
 > ```
 > env:
 >    COOKIES: >
->         { "SameSite":"None" }
+>      {
+>        "SameSite":"None",
+>        "Partitioned":
+>             {
+>                "supportedPartitionAgents":"^Mozilla.*(Chrome|Chromium|)/((109)|(1[1-9][0-9])|([2-9][0-9][0-9]))",
+>                "unsupportedPartitionAgents":"PostmanRuntime/7.29.2"
+>             }
+>      }
+> 
 > ```
 
-In this example, the application router sets the `SameSite` cookie attribute to *None* for the `JSESSIONID` cookie in the responses to the client.
+In this example, the application router sets the `SameSite attribute` of the cookie to *None* and the specifies a `Partitioned` attribute that is sent in the responses to the client.
 
 > ### Note:  
-> Currently, only the `Same Site` cookie is supported.
+> Currently, only the values `None` and `Lax` are supported for the `SameSite` attribute. The value `Strict` is not supported.
+
+The `Partitioned` attribute contains two required regular expressions:
+
+-   `supportedPartitionAgents` for supported agents
+
+-   `unsupportedPartitionAgents` for unsupported agents
+
+
+You can use a wildcard '\(.\*\)' in supportedPartitionAgents to allow all agents to use the`Partitioned` attribute.
+
+> ### Note:  
+> `unsupportedPartionAgents` overwrites the configurations in `supportedPartitionAgents`. If an agent is allowed in`supportedPartitionAgents` but disallowed in `unsupportedPartitionAgents`, the`Partitioned` attribute will not be returned.
 
 
 

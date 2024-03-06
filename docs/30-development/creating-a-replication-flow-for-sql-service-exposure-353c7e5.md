@@ -10,6 +10,8 @@ In SAP Datasphere, define a replication flow for CDS view entities using the SQL
 
 With defining a source of the replication flow, you specify the connection, the folder, and the replication objects \(CDS view entities\).
 
+For more information about creating replication flows, see [Creating a Replication Flow](https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/749638060e8746e48b0f9bf0e50c6d0c.html) in the SAP Datasphere documentation.
+
 
 
 ## Procedure

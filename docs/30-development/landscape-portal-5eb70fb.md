@@ -28,7 +28,7 @@ You can currently use the *Landscape Portal* to do the following:
 -   create a new product and register your product for your global accounts
 -   build a product version via pipelines based on templates for different use cases \(e.g. new release deliveries, support packages, patches\)
 -   check a product version to see if it's ready for delivery
--   update a product version in specific systems
+-   deploy or update a product version in specific systems
 -   configure and deploy your solution
 -   monitor your operations in the Landscape Portal
 

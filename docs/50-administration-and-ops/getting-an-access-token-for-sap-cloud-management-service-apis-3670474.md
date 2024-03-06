@@ -254,5 +254,5 @@ To start working with SAP Cloud Management Service APIs in SAP Business Accelera
 **Related Information**  
 
 
-[Get Access to the APIs Using the apiaccess Service Plan](get-access-to-the-apis-using-the-apiaccess-service-plan-ebc9113.md "To enable programmatic access to the SAP Authorization and Trust Management service (XSUAA) in your multi-environment global account, subaccount, or directory, create a service instance with the apiaccess plan.")
+[Get Access to the APIs Using the apiaccess Service Plan](get-access-to-the-apis-using-the-apiaccess-service-plan-ebc9113.md "To enable programmatic access to the SAP Authorization and Trust Management service (XSUAA) in your multi-environment subaccount, create a service instance with the apiaccess plan.")
 

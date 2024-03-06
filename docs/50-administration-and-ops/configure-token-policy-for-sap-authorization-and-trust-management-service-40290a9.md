@@ -2,7 +2,7 @@
 
 # Configure Token Policy for SAP Authorization and Trust Management Service
 
-Set the token policy for SAP Authorization and Trust Management service \(XSUAA\) by configuring the validity of the OpenID Connect \(OIDC\) tokens the service issues.
+Set the token policy in the SAP BTP cockpit for SAP Authorization and Trust Management service by configuring the validity of the OpenID Connect \(OIDC\) tokens the service issues.
 
 
 
@@ -26,21 +26,38 @@ With a valid access token, you can access a protected resource. Once an access t
 > ### Recommendation:  
 > Relaxing the token policy means that users reauthenticate less. However, increasing the token validity also means that if a malicious user manages to steal a token, that malicious user has access until the token expires. Keep token validity as short as possible, but not less than 30 minutes.
 
--   To change token validity, access the Security Settings API.
+To change the token validity, access the security settings. The change applies to all service instances in the subaccount that haven't set a specific value in the application security descriptor \(`xs-security.json`\).
 
-    ```json
-    "tokenPolicySettings": {
-      …
-      "accessTokenValidity": 1800,
-      "refreshTokenValidity": 43200,
-      …
-    }
-    ```
+
+
+<a name="loio40290a93fb5c4603a65c48df71a38bf2__steps_rpv_4nw_k1c"/>
+
+## Procedure
+
+1.  Open the SAP BTP cockpit.
+
+2.  Go to your global account and subaccount \(see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md)\).
+
+3.  Choose *Security* \> *Settings*.
+
+4.  Choose the *Token Validity* tab.
+
+    You see the setting of the current access token validity and of the current refresh token validity.
+
+5.  Use the slider to set the validity for each token. The tooltip shows the selected value in seconds.
+
+    > ### Example:  
+    > -   Set the access token validity to 1800 seconds
+    > 
+    > -   Set the refresh token validity to 43200 seconds.
+
+
+6.  To save the value, choose *Set Token Validity*.
 
     > ### Note:  
-    > This change applies to all service instances in the subaccount that haven't set a specific value in the application security descriptor \(`xs-security.json`\).
-
-    For more information, see [Security Settings API](https://api.sap.com/api/SecuritySettingsAPI/resource) on [SAP Business Accelerator Hub](https://api.sap.com/package/authtrustmgmnt?section=Artifacts).
+    > It is also possible to change the token validity in the Security Settings API.
+    > 
+    > For more information, see [Security Settings API](https://api.sap.com/api/SecuritySettingsAPI/resource) on [SAP Business Accelerator Hub](https://api.sap.com/package/authtrustmgmnt?section=Artifacts).
 
 
 **Related Information**  

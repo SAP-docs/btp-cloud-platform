@@ -2,7 +2,18 @@
 
 # Working with Role Collections
 
-You can manage role collections by creating new ones from scratch or by copying an existing one and editing it. You can add or remove roles. You can also add or remove users or user groups to the role collections. This is the assignment or unassignment action. You can drill down all the way to the role definition or to the individual role, user, and user group, and make changes there.
+As an administrator, you group application roles in role collections. You then assign role collections to application users.
+
+Application developers have defined application-specific role templates in the security descriptor file. The role templates contain the role definitions. You can assign the role to a role collection.
+
+> ### Tip:  
+> Application developers can even directly define role collections with default roles. For more information, see [Create Role Collections with Predefined Roles](../30-development/create-role-collections-with-predefined-roles-fe75054.md).
+
+Typically, these role collections provide authorizations for certain types of users, for example, sales representatives.
+
+Once you have created a role collection, you can pick the roles that apply to the typical job of a sales representative. Since the roles are application-based, you must reference the application to see which roles come with the role template of this application. You are free to add roles from multiple applications to your role collection.
+
+Finally, you assign the role collection directly to users or indirectly to attributes such as groups. For more information, see the related link.
 
 
 

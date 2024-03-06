@@ -13,9 +13,12 @@
 
 Systems that are included in *Eventing Between SAP Cloud Systems* formations on the *System Landscape* page of the SAP BTP cockpit can publish and consume events. The process of publishing and consuming events is in fact an exchange of event information across the customer system landscape and is driven by the system formations on the one hand side and the SAP Event Broker on the other.
 
+> ### Note:  
+> By creating a formation of type *Eventing Between SAP Cloud Systems*, you understand that there may be event distribution charges incurred if you exceed the free quota limit when using SAP Event Broker. To learn more about usage and consumption costs, see [Usage and Consumption Costs](https://help.sap.com/docs/event-broker/event-broker-service-guide/usage-and-consumption-costs?version=Cloud).
+
 When creating *Eventing Between SAP Cloud Systems* formations, keep in mind the following rules:
 
--   Every system, except SAP S/4HANA Cloud systems, can be included in at most one *Eventing Between SAP Cloud Systems* formation.
+-   Every system can be included in at most one *Eventing Between SAP Cloud Systems* formation.
 
 -   If you register your SAP S/4HANA Cloud system using the *All Communication Scenarios* or *Eventing Between SAP Cloud Systems* communication scenario group when you get the registration token for this SAP S/4HANA Cloud system, the communication scenario `SAP_COM_0892` will be enabled automatically after this SAP S/4HANA Cloud system is added to the formation of type *Eventing Between SAP Cloud Systems* in the *Formations* page. See [Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](register-an-sap-s-4hana-cloud-system-in-a-global-account-in-sap-btp-28171b6.md).
 

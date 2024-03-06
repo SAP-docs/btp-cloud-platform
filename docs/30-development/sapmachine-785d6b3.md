@@ -2,20 +2,26 @@
 
 # SapMachine
 
-SapMachine is an alternative to SAP JVM. It provides a Java Runtime Environment \(JRE\) with Java 11 and 17, while SAP JVM provides a JRE with Java 8.
+SapMachine is an alternative to SAP JVM, and provides a Java Runtime Environment \(JRE\) with Java 11 and 17.
 
 
 
 SapMachine works with the following application containers:
 
+-   [TomEE 7](tomee-7-79c039a.md)
+
 -   [Tomcat 9](tomcat-9-ddfc101.md)
+
+-   [Tomcat 10](tomcat-10-97d0e34.md)
 
 -   [Java Main](java-main-8a1786a.md)
 
--   [TomEE 7](tomee-7-79c039a.md)
-
-    > ### Note:  
-    > Bear in mind that TomEE 7 supports only Java 7 and 8. Thus, even if your TomEE 7 application runs successfully with SapMachine JRE 17, at some point it might crash. Also, TomEE 7 has already [reached end of life](https://tomee.apache.org/tomee-7.1-eol.html). See also: [Discontinued TomEE versions](https://tomee.apache.org/download-discontinued.html)
+-   > ### Caution:  
+    > \(Only relevant to [SAP Java Buildpack 1](sap-java-buildpack-1-ad3e8df.md)\):
+    > 
+    > Bear in mind that TomEE 7 supports only Java 7 and 8. Thus, even if your TomEE 7 application runs successfully with SapMachine JRE 17, at some point it might crash.
+    > 
+    > Also, TomEE 7 has already [reached end of life](https://tomee.apache.org/tomee-7.1-eol.html). See also: [Discontinued TomEE versions](https://tomee.apache.org/download-discontinued.html)
 
 
 
@@ -28,7 +34,7 @@ SapMachine works with the following application containers:
 
 ### SapMachine 11
 
-To activate SapMachine **JRE** \(instead of the default SAP JVM JRE\) in SAP Java Buildpack, you have to add the following environment variable:
+To activate SapMachine **JRE** in SAP Java Buildpack, you have to add the following environment variable:
 
 ```
 ---

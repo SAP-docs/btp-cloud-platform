@@ -68,7 +68,7 @@ Custom trust configuration \(for example: a tenant of the Identity Authenticatio
 **Related Information**  
 
 
-[Working with Role Collections](working-with-role-collections-393ea0b.md "You can manage role collections by creating new ones from scratch or by copying an existing one and editing it. You can add or remove roles. You can also add or remove users or user groups to the role collections. This is the assignment or unassignment action. You can drill down all the way to the role definition or to the individual role, user, and user group, and make changes there.")
+[Working with Role Collections](working-with-role-collections-393ea0b.md "As an administrator, you group application roles in role collections. You then assign role collections to application users.")
 
 [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md "When setting up accounts you need to assign users. While we provide you with your first users to get you started, your organization has identity providers that you want to integrate.")
 

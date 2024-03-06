@@ -2,7 +2,7 @@
 
 # Integrating Factory Calendar
 
-Learn how to integrate an ABAP Platform on-premise system with the factory calendar.
+Learn how to integrate an ABAP Platform system with the factory calendar.
 
 
 
@@ -29,6 +29,10 @@ You have to connect your ABAP system via RFC. To do this, follow the steps descr
 <a name="loio2a41550e1999405b8b64a41ac7f8cf4d__section_gd1_zjz_zxb"/>
 
 ## Procedure
+
+1.  Create a communication user in the*Maintain Communication Users* app. For more information, see [How to Create Communication Users](how-to-create-communication-users-0377ade.md).
+2.  Create a communication system in the *Communication Systems* app. For more information, see [How to Create Communication Systems](how-to-create-communication-systems-c2234ac.md).
+3.  Create a communication arrangement in the*Communication Arrangements* app. For more information, see [How to Create a Communication Arrangement](how-to-create-a-communication-arrangement-a0771f6.md).
 
 After creating the communication arrangement, assign the business catalog `SAP_CA_BC_IC_LND_CAL_CA0_PC` or `SAP_CA_BC_IC_LND_CAL_CA1_PC` to schedule an application job. The application job is required to pull the data of the three related IMG activities via the connection. The check logic of the application job and the transaction prevent the scheduling and execution in clients where the selected customizing objects are not editable.
 

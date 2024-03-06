@@ -2,7 +2,7 @@
 
 # Map Role Collections to User Groups
 
-You want to assign a role collection to a user group provided by an identity provider that has a custom trust configuration in SAP BTP. In this case, the assignment is a mapping of a user group to a role collection. Your identity provider provides the user groups using the assertion attribute called `Groups`. Each value of the attribute is mapped to a role collection as described in this procedure.
+You want to assign a role collection to a user group provided by an identity provider that has a custom trust configuration in SAP BTP. In this case, the assignment is a mapping of a user group to a role collection. Your identity provider provides the user groups using the attribute called `Groups`. Each value of the attribute is mapped to a role collection as described in this procedure.
 
 
 
@@ -17,7 +17,7 @@ You want to assign a role collection to a user group provided by an identity pro
     > 
     > <code>https://<i class="varname">&lt;tenant_id&gt;</i>.accounts.ondemand.com</code>
 
--   You've configured the identity provider so that it conveys the user's group memberships in the *groups* assertion attribute.
+-   You've configured the identity provider so that it conveys the user's group memberships in the *groups* attribute.
 
     -   For business users, see [Map User Attributes from a Corporate Identity Provider for Business Users](map-user-attributes-from-a-corporate-identity-provider-for-business-users-bbb4a8a.md).
 

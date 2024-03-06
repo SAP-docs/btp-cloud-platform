@@ -30,5 +30,5 @@ For platform users: [Platform Users](platform-users-9e5e635.md)
 **Related Information**  
 
 
-[Settings for Default SAML Federation Attributes of Any Identity Provider](settings-for-default-saml-federation-attributes-of-any-identity-provider-6d07333.md "This table is supposed to display the attribute settings of the identity provider and the values administrators use to establish trust between the SAML 2.0 identity provider and a new subaccount.")
+[Settings for Default SAML Federation Attributes of Identity Providers for Business Users](establish-trust-and-federation-with-uaa-using-any-saml-identity-provider-2ce3938.md#loio6d073332bc5743fdb7f7f06bde499ab7 "This table shows the attribute settings of the identity provider and the values administrators use to establish trust between the SAML 2.0 identity provider and a subaccount.")
 

@@ -2,7 +2,7 @@
 
 # Debug an Application Running on Java SE
 
-You can debug an application running on a Cloud Foundry container that is using the standard Java community buildpack.
+You can debug an application running on a Cloud Foundry container that uses the community Java buildpack.
 
 
 
@@ -19,7 +19,7 @@ You can debug an application running on a Cloud Foundry container that is using 
 
 ## Context
 
-To debug an application, you need to open a debugging port on your Cloud Foundry container and open an SSH tunnel that will connect to that port.
+To debug an application using the [community Java buildpack](https://github.com/cloudfoundry/java-buildpack), you need to open a debugging port on your Cloud Foundry container and open an SSH tunnel that will connect to that port.
 
 
 
@@ -49,14 +49,11 @@ To debug an application, you need to open a debugging port on your Cloud Foundry
     cf ssh <app name> -N -T -L 8000:127.0.0.1:8000
     ```
 
-    Your local port 8000 is connected to the debugging port 8000 of the JVM running in the Cloud Foundry container.
+    Your local port 8000 is connected to the debugging port 8000 of the JVM running in the Cloud Foundry container. Also, 8000 is the default port.
 
     > ### Note:  
-    > The default port is 8000.
-
-    > ### Caution:  
     > The connection is active until you close the SSH tunnel. When you finish debugging, close the SSH tunnel by pressing [Ctrl\] + [C\] .
 
-5.  Connect a Java debugger to your application. For example, use the standard Java debugger provided by Eclipse IDE and connect to `localhost:8000`
+5.  Connect a Java debugger to your application. For example, use the standard Java debugger provided by Eclipse IDE and connect to `localhost:8000`.
 
 

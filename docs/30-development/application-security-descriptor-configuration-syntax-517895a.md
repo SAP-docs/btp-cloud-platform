@@ -294,9 +294,9 @@ The `attributes` element is only relevant for a user scenario. Each element of t
 
     Use the SAP BTP cockpit to assign the value of the attributes. You can use the static value.
 
--   Attributes from an SAML identity provider
+-   Attributes from an identity provider
 
-    If a SAML identity provider provides the users, you can reference a SAML assertion attribute. The SAML assertion is issued by the configured identity provider during authentication. You find the SAML attribute value in the SAML configuration of your identity provider. The attributes provided by the SAML identity provider, appear as a SAML assertion attribute in the JSON web token if the user has assigned the corresponding roles. You can use the assertion attributes to achieve instance-based authorization checks when using an SAP HANA database.
+    You can reference the attributes provided by an identity provider. The token is issued by the configured identity provider during authentication. You find the attribute value in the configuration of your identity provider. The attributes provided by the identity provider, appear as an attribute in the JSON web token, if the user has assigned the corresponding roles. You can use the attributes to achieve instance-based authorization checks.
 
 -   Unrestricted attributes
 
@@ -926,7 +926,7 @@ The default value is `instance-secret`. With `instance-secret` all bindings of a
 </td>
 <td valign="top">
 
-Includes the system attributes in the JWT. If you don't define a value, the system includes the attributes for SAML groups and role collections by default. If the size of the JWT becomes an issue for you, you can explicitly remove them. For example: `"system-attributes": [],`
+Includes the system attributes in the JWT. If you don't define a value, the system includes the attributes for groups and role collections by default. If the size of the JWT becomes an issue for you, you can explicitly remove them. For example: `"system-attributes": [],`
 
 You can also have the service include a refresh token of a trusted identity provider.
 

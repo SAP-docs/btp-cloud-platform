@@ -36,5 +36,5 @@ For each attribute, administrators have multiple options to specify the value wh
 
 [Specify Attributes in a Role](specify-attributes-in-a-role-4827f0b.md "As an administrator of the Cloud Foundry environment, you can specify attributes in roles to refine authorizations of the business users. Depending on these attributes, business users with this role have restricted access to data.")
 
-[Specify Attributes in a New Role](specify-attributes-in-a-new-role-ab089a9.md "As an administrator of the Cloud Foundry environment, you can specify attributes in a new role to refine authorizations of business users. Depending on these attributes, business users with this role have restricted access to data.")
+[Specify Attributes in a New Role](specify-attributes-in-a-new-role-ab089a9.md "As an administrator, you can specify attributes in a new role to refine authorizations of business users. Depending on these attributes, business users with this role have restricted access to data.")
 

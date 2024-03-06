@@ -46,7 +46,10 @@ Depending on which Java version you use \(8 or 11\), you can customize these thr
 
 ## Java 8
 
-If you need JRE with Java 8, you have to use SAPJVM. Customize your memory options as follows:
+> ### Note:  
+> Only relevant for SAP Java Buildpack 1
+
+If you need JRE with Java 8, you have to use SAP JVM. Customize your memory options as follows:
 
 ```
 ---
@@ -64,7 +67,10 @@ applications:
 
 ## Java 11
 
-If you need JRE with Java 11, you have to use SapMachine. Customize your memory options as follows:
+> ### Note:  
+> Only relevant for SAP Java Buildpack 1
+
+If you need JRE with Java 11, you have to use SapMachine 11. Customize your memory options as follows:
 
 ```
 ---
@@ -73,7 +79,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
-    JBP_CONFIG_SAP_MACHINE_JRE: "[memory_calculator_v2: {stack_threads: 266, class_count: 1001, headroom: 5}]"
+    JBP_CONFIG_SAP_MACHINE_JRE: "[version: 11.+, memory_calculator_v2: {stack_threads: 266, class_count: 1001, headroom: 5}]"
 ```
 
 If you want to point to the SapMachine JDK component, you need to provide a specific version as follows:
@@ -100,10 +106,56 @@ applications:
     JBP_CONFIG_SAP_MACHINE_JDK: "[ version: 11.+, memory_calculator_v2: {stack_threads: 266, class_count: 1001, headroom: 5}]"
 ```
 
+
+
+<a name="loio8eef9590a1d24e87af239d7c7e15fffe__section_pqx_vmp_q1c"/>
+
+## Java 17
+
+> ### Note:  
+> Relevant for all Java buildpacks
+
+If you need JRE with Java 17, you use SapMachine 17. Customize your memory options as follows:
+
+```
+---
+applications:
+- name: <app-name>
+  ...
+  env:
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
+    JBP_CONFIG_SAP_MACHINE_JRE: "[version: 17.+, memory_calculator_v2: {stack_threads: 266, class_count: 1001, headroom: 5}]"
+
+```
+
+If you want to point to the SapMachine JDK component, you need to provide a specific version as follows:
+
+```
+---
+applications:
+- name: <app-name>
+  ...
+  env:
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
+    JBP_CONFIG_SAP_MACHINE_JDK: "[ version: 17.0.15, memory_calculator_v2: {stack_threads: 266, class_count: 1001, headroom: 5}]"
+```
+
+You can also point to the major version of the SapMachine JDK, in order to always get the latest patch versions. In this case, specify it the following way:
+
+```
+---
+applications:
+- name: <app-name>
+  ...
+  env:
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
+    JBP_CONFIG_SAP_MACHINE_JDK: "[ version: 17.+, memory_calculator_v2: {stack_threads: 266, class_count: 1001, headroom: 5}]"
+```
+
 **Related Information**  
 
 
 [GitHub: Java Buildpack Memory Calculator](https://github.com/cloudfoundry/java-buildpack-memory-calculator)
 
-[SapMachine](sapmachine-785d6b3.md "SapMachine is an alternative to SAP JVM. It provides a Java Runtime Environment (JRE) with Java 11 and 17, while SAP JVM provides a JRE with Java 8.")
+[SapMachine](sapmachine-785d6b3.md "SapMachine is an alternative to SAP JVM, and provides a Java Runtime Environment (JRE) with Java 11 and 17.")
 

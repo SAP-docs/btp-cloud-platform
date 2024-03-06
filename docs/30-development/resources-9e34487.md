@@ -1034,7 +1034,12 @@ Yes
 </td>
 <td valign="top">
 
-Default value for the container-name parameter that is used during HDI creation. It is based on the organization, space and service name, which are combined in a way that conforms to the container-name restrictions for length and legal characters.
+Default value for the `container-name` parameter that is used during HDI creation. It is based on the organization, space and resource name, which are combined in a way that conforms to the container-name restrictions for length and legal characters. All dash \(-\) symbols are replaced with an underscore \(\_\).
+
+> ### Note:  
+> It is highly recommended to avoid using this parameter with HANA services because in some cases the generated name cannot comply with the HANA naming limitations' requirements. Forward compatability is not guaranteed.
+
+
 
 </td>
 <td valign="top">
@@ -1044,7 +1049,7 @@ Generated as described in the description.
 </td>
 <td valign="top">
 
-`INITIAL_INITIAL_SERVICE_NAME` 
+`<org_name>_<space_name>_<resource_name>` 
 
 </td>
 </tr>

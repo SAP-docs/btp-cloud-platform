@@ -232,7 +232,7 @@ Administrators are any SAP BTP cockpit users with the *User and Role Administrat
 
 [About Roles in the Cloud Foundry Environment](../50-administration-and-ops/about-roles-in-the-cloud-foundry-environment-0907638.md "Roles determine which features users can view and access, and which actions they can initiate.")
 
-[Get Access to the APIs Using the apiaccess Service Plan](../50-administration-and-ops/get-access-to-the-apis-using-the-apiaccess-service-plan-ebc9113.md "To enable programmatic access to the SAP Authorization and Trust Management service (XSUAA) in your multi-environment global account, subaccount, or directory, create a service instance with the apiaccess plan.")
+[Get Access to the APIs Using the apiaccess Service Plan](../50-administration-and-ops/get-access-to-the-apis-using-the-apiaccess-service-plan-ebc9113.md "To enable programmatic access to the SAP Authorization and Trust Management service (XSUAA) in your multi-environment subaccount, create a service instance with the apiaccess plan.")
 
 [Default Role Collections of SAP BTP Cloud Foundry Environment \[Feature Set B\]](default-role-collections-of-sap-btp-cloud-foundry-environment-feature-set-b-a6a0072.md "The following table displays the default role collections available with cloud management tools feature set B after initially deploying your accounts. For more information, see the related links.")
 
