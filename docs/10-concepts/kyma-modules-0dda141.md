@@ -84,6 +84,30 @@ Istio is a service mesh with Kyma-specific configuration.
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+*SAP BTP Operator*
+
+`btp-operator`
+
+</td>
+<td valign="top">
+
+Within the SAP BTP Operator module, BTP Manager installs the SAP BTP service operator that allows you to consume SAP BTP services from your Kubernetes cluster using Kubernetes-native tools.
+
+</td>
+<td valign="top">
+
+-   [Using SAP BTP Services in the Kyma Environment](../30-development/using-sap-btp-services-in-the-kyma-environment-ea4dd81.md#loioea4dd81e49254dd482d32e3c20f4477a)
+-   [kyma-project.io: SAP BTP Operator module](https://kyma-project.io/#/btp-manager/user/README)
+-   [GitHub: BTP Manager releases](https://github.com/kyma-project/btp-manager/releases)
+-   [GitHub: SAP BTP service operator releases](https://github.com/SAP/sap-btp-service-operator/releases)
+
+
+
+</td>
+</tr>
 </table>
 
 
@@ -134,30 +158,6 @@ Application Connector allows you to connect with external solutions. No matter i
 
 -   [kyma-project.io: What is Application Connectivity in Kyma?](https://kyma-project.io/#/application-connector-manager/user/README)
 -   [GitHub repository: Application Connector Manager](https://github.com/kyma-project/application-connector-manager) 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*SAP BTP Operator*
-
-`btp-operator`
-
-</td>
-<td valign="top">
-
-Within the SAP BTP Operator module, BTP Manager installs SAP BTP Service Operator that allows you to consume SAP BTP services from your Kubernetes cluster using Kubernetes-native tools.
-
-</td>
-<td valign="top">
-
--   [Using SAP BTP Services in the Kyma Environment](../30-development/using-sap-btp-services-in-the-kyma-environment-ea4dd81.md#loioea4dd81e49254dd482d32e3c20f4477a)
--   [kyma-project.io: SAP BTP Operator module](https://kyma-project.io/#/btp-manager/user/README)
--   [GitHub: BTP Manager releases](https://github.com/kyma-project/btp-manager/releases)
--   [GitHub: SAP BTP Service Operator releases](https://github.com/SAP/sap-btp-service-operator/releases)
 
 
 

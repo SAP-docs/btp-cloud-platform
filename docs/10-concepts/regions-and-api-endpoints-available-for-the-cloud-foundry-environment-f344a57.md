@@ -1065,7 +1065,7 @@ cf-us30
 </td>
 <td valign="top">
 
-us-central-1
+us-central1
 
 </td>
 <td valign="top">

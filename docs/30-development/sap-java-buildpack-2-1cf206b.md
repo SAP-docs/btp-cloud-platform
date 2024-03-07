@@ -165,7 +165,7 @@ modules:
 
 SAP Java Buildpack 2 \(`sap_java_buildpack_jakarta`\) supports the following Java version:
 
--   Java **17** – you use SapMachine with it, which provides JRE and JDK with Java 17.
+-   Java **17** – you use it via SapMachine JRE 17
 
 To learn how to configure your application to use SapMachine JRE and JDK, see: [SapMachine](sapmachine-785d6b3.md)
 
