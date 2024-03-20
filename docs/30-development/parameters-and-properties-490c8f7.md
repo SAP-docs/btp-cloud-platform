@@ -786,7 +786,7 @@ To enable resource properties to resolve values from a property in another resou
 > ### Code Syntax:  
 > Cross-References between Properties in the MTA Deployment Descriptor
 > 
-> ```
+> ```YAML
 > 
 > modules: 
 >   - name: java 
@@ -984,4 +984,3 @@ The following example shows the dependency declaration in the deployment descrip
 > ```
 
 For more information about cross-MTA configurations see [Cross-MTA Dependencies](cross-mta-dependencies-b8e1953.md).
-

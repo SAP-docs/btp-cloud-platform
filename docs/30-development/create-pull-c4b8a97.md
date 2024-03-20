@@ -203,7 +203,7 @@ Request body
 > Accept: application/json
 > 
 > {
-> 	“sc_name” : “/DMO/GIT_REPOSITORY”
+> 	"sc_name" : "/DMO/GIT_REPOSITORY"
 > }
 > 
 > ```
@@ -311,4 +311,3 @@ Could not read the pull job. Please check the parameters.
 > }
 > 
 > ```
-

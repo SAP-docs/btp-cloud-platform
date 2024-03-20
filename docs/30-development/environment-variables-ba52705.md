@@ -1053,12 +1053,12 @@ Yes
 </td>
 <td valign="top">
 
-A comma-separated list of objects each of which contains a host name, port and protocol that are allowed by the server, for example: `[{“host”: "www.acme.com"}]` or `[{“host”: “.acme.com”}]`.
+A comma-separated list of objects each of which contains a host name, port and protocol that are allowed by the server, for example: `[{"host": "www.acme.com"}]` or `[{"host": ".acme.com"}]`.
 
 > ### Note:  
-> Matching is case-sensitive. In addition, if no port or protocol is specified, the default is `“*”`.
+> Matching is case-sensitive. In addition, if no port or protocol is specified, the default is `"*"`.
 
-The default configuration is: `[{“host”: "*"}]`, which means that the server allows **any** origin to access the resource.
+The default configuration is: `[{"host": "*"}]`, which means that the server allows **any** origin to access the resource.
 
 </td>
 </tr>
@@ -1262,4 +1262,3 @@ Here is a sample content for the `CF_NODEJS_LOGGING_LEVEL` environment variable:
 [Application Router](application-router-01c5f9b.md "The application router is the single point-of-entry for an application running in the Cloud Foundry environment on SAP BTP. The application router is used to serve static content, authenticate users, rewrite URLs, and forward or proxy requests to other micro services while propagating user information.")
 
 [Routing Configuration File](routing-configuration-file-c103fb4.md "The routing configuration defined in the xs-app.json file contains the properties used by the application router.")
-

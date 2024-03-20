@@ -9,12 +9,13 @@ Business Service UI's must be stored in HTML5 Application Repository and defined
 The following is an example `manifest.json` file of a Business Service:
 
 > ### Sample Code:  
-> ```
+> ```JSON
 > {
->   “sap.app”: {
->     “id”:“com.sap.appbasic.country.list”,
->     “applicationVersion: {
->     “version”: “1.0.0”
+>   "sap.app": {
+>     "id":"com.sap.appbasic.country.list",
+>     "applicationVersion": {
+>       "version": "1.0.0"
+>     }
 >   },
 >   "dataSources": {
 >     "mainService":{
@@ -22,9 +23,9 @@ The following is an example `manifest.json` file of a Business Service:
 >       "type": "OData"
 >     }
 >   },
->   “sap.cloud”: {
+>   "sap.cloud": {
 >     "public": true,
->     “service”: “com.sap.appbasic.country“
+>     "service": "com.sap.appbasic.country"
 >   }
 > }
 > ```
@@ -46,4 +47,3 @@ In this example, `comsapappbasiccountry` is the business service prefix which ma
 [Integration with Business Services](integration-with-business-services-f6337cd.md "Application router supports integration with Business Services, which are a flavor of reuse-services.")
 
 [Accessing Business Service Data](accessing-business-service-data-783809d.md "This section describes how the application router accesses the Business Service data.")
-

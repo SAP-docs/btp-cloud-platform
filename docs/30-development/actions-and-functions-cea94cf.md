@@ -85,10 +85,9 @@ POST /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0001/EMPLOYEES('2')/SAP__s
 
 Request body:
 
-```
-
+```JSON
 { 
-"TeamID" : "TEAM_02" 
+  "TeamID" : "TEAM_02" 
 }
 ```
 
@@ -130,5 +129,3 @@ For examples and steps for Import and Bound operations, see:
 -   System query options are **not** supported for Version 4 functions.
 
 -   If the return type of a Version 2 function is an entity type and this entity type is used by more than one entity set, the Version 2 request context only contains the \(EDM\) name of the first entity set with the underlying entity type. A precise mapping is currently not possible. For remote consumption, this can be handled in the proxy model by setting the correct entity set via method .`/iwbep/if_v4_med_func_imp->set_entity_set_name`
-
-

@@ -96,7 +96,7 @@ You can configure the application router to send additional HTTP headers, for ex
 > ### Sample Code:  
 > `local-http.headers.json`
 > 
-> ```
+> ```JSON
 > [
 >   {
 >     "X-Frame-Options": "ALLOW-FROM http://localhost"
@@ -194,7 +194,7 @@ The application-router process should run with at least 256MB memory. The amount
 You can use the start-up parameter `max-old-space-size` to restrict the amount of memory used by the JavaScript heap. The default value for `max-old-space-size` is less than 2GB. To enable the application to use all available resources, the value of `max-old-space-size` should be set to a number equal to the memory limit for the whole application. For example, if the application memory is limited to 2GB, set the heap limit as follows, in the application's `package.json` file:
 
 > ### Sample Code:  
-> ```
+> ```JSON
 > "scripts": {
 >   "start": "node --max-old-space-size=2048 node_modules/@sap/approuter/approuter.js"
 > }
@@ -203,7 +203,7 @@ You can use the start-up parameter `max-old-space-size` to restrict the amount o
 If the application router is running in an environment with limited memory, set the heap limit to about 75% of available memory. For example, if the application router memory is limited to 256MB, add the following command to your `package.json`:
 
 > ### Sample Code:  
-> ```
+> ```JSON
 > "scripts": {
 >   "start": "node --max-old-space-size=192 node_modules/@sap/approuter/approuter.js"
 > }
@@ -260,4 +260,3 @@ The `@sap/logging` package sets the header `x-request-id` in the application rou
 [Application Router](application-router-01c5f9b.md "The application router is the single point-of-entry for an application running in the Cloud Foundry environment on SAP BTP. The application router is used to serve static content, authenticate users, rewrite URLs, and forward or proxy requests to other micro services while propagating user information.")
 
 [Resource Files](resource-files-e179c0c.md "The routing configuration for an application is defined in one or more destinations.")
-

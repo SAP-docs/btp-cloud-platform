@@ -366,7 +366,7 @@ Typical flow of the archiving delete process:
 > DATA:   ls_index TYPE my_index_table.
 >              
 > 
->  “ get newest undeleted file
+>  " get newest undeleted file
 >       DATA(lt_files) = cl_arch_delete_api=>get_files_to_delete( iv_archiving_object =     lc_object ).
 >               SORT lt_files BY creation_date DESCENDING creation_time DESCENDING.
 >               READ TABLE lt_files ASSIGNING FIELD-SYMBOL(<ls_file>) INDEX 1.	
@@ -374,7 +374,7 @@ Typical flow of the archiving delete process:
 >             DATA(lo_delete) = cl_arch_delete_api=>get_instance
 > ( iv_archiving_object = lc_object                                                                                 iv_archive_key = lv_arkey
 >                                                      iv_testmode = lv_test ).
->             “ read next data object from archive file into internal memory
+>             " read next data object from archive file into internal memory
 >             DO.
 >               lo_delete->get_next_data_object( IMPORTING ev_end_of_file = DATA(lv_end_of_file)
 >                                                          ev_archive_key = DATA(lv_archive_key)
@@ -382,11 +382,11 @@ Typical flow of the archiving delete process:
 >               IF lv_end_of_file = abap_true.
 >                 EXIT.
 >               ENDIF.
->               “ optional: Create customer owned index for single document access during read
->               “ read archived data for table MY_HEADER_TABLE
+>               " optional: Create customer owned index for single document access during read
+>               " read archived data for table MY_HEADER_TABLE
 >               lo_delete->get_data_records( EXPORTING iv_record_structure = ‘MY_HEADER_TABLE’
 >                                            IMPORTING et_data_records = lt_data ).
->               “ map flight data to your index table MY_INDEX_TABLE
+>               " map flight data to your index table MY_INDEX_TABLE
 >               IF lv_test <> abap_true.
 >                 LOOP AT lt_data ASSIGNING FIELD-SYMBOL(<ls_data>).
 >                   MOVE-CORRESPONDING <ls_data> TO ls_index.
@@ -395,7 +395,7 @@ Typical flow of the archiving delete process:
 >                   INSERT my_index_table FROM @ls_Index.
 >                 ENDLOOP.
 >               ENDIF.
->               “ delete the data from the data base
+>               " delete the data from the data base
 >               lo_delete->delete_data_for_object( ).
 >             ENDDO.
 >             COMMIT WORK.  
@@ -425,4 +425,3 @@ Example of a customer-owned index table for archived flights:
 > archive_offset : sarch_offset;
 > 
 > ```
-

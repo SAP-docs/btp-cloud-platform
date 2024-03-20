@@ -96,7 +96,7 @@ The following example shows how to adjust the SOAP request header followed by th
 
 The resulting SOAP request looks like this:
 
-```
+```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
    <env:Header>
@@ -118,4 +118,3 @@ The resulting SOAP request looks like this:
 
 
 [Set Up SOAP Communication](set-up-soap-communication-8b6723b.md "To set up SOAP communication, use the corresponding communication management apps.")
-

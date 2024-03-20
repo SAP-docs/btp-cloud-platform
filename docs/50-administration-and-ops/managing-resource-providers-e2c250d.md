@@ -110,12 +110,12 @@ To consume the resources provisioned by your provider account, you need to first
     > ### Sample Code:  
     > Sample JSON for configuring Amazon Web Services \(AWS\) as a resource provider:
     > 
-    > ```
+    > ```JSON
     > {
-    > “access_key_id”: “AWSACCESSKEY”,
-    > “secret_access_key”: “SECRETKEY”,
-    > “vpc_id”: “vpc-test”,
-    > “region”: “eu-central-1”
+    >   "access_key_id": "AWSACCESSKEY",
+    >   "secret_access_key": "SECRETKEY",
+    >   "vpc_id": "vpc-test",
+    >   "region": "eu-central-1"
     > }
     > 
     > ```
@@ -243,4 +243,3 @@ Follow these steps to manage the resource providers that you have already config
 
 
 [Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-5ba357b.md "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using SAP BTP cockpit.")
-

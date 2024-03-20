@@ -35,7 +35,7 @@ You declare your application security descriptor with JSON syntax and store it i
     Scopes represent the API endpoints - or functions - for which access should be restricted. They’re required if you want to define the functions a user is authorized to process. A scope has an arbitrary name and must be prefixed with the runtime application name to distinguish the user scopes between tenants \(subaccounts\) which have subscribed to the application and equally named scopes between different applications. The `$XSAPPNAME` dummy value is a wildcard for the application runtime name and is used to prefix the arbitrary scope names. The XSUAA service substitutes the `$XSAPPNAME` dummy value with the application runtime name for each of the subscribed tenants \(see also step 1\).
 
     > ### Sample Code:  
-    > ```
+    > ```JSON
     > {
     >   ... 
     >   "scopes"    : [
@@ -60,7 +60,7 @@ You declare your application security descriptor with JSON syntax and store it i
     Attributes provide instance-based, fine-granular authorization checks. See [Setting Up Instance-Based Authorizations](setting-up-instance-based-authorizations-519965c.md).
 
     > ### Sample Code:  
-    > ```
+    > ```JSON
     > {
     >   ...
     >   "attributes" : [
@@ -82,7 +82,7 @@ You declare your application security descriptor with JSON syntax and store it i
     Role templates combine scopes with attributes and serve as templates from which roles are created later by the administrator.
 
     > ### Sample Code:  
-    > ```
+    > ```JSON
     > {
     >   ...
     >   "role-templates" : [
@@ -112,7 +112,7 @@ You declare your application security descriptor with JSON syntax and store it i
 6.  Check the scopes in the application.
 
     > ### Sample Code:  
-    > ```
+    > ```JavaScript
     > app.get('/books', checkReadScope, getBooks);
     > 
     > // Scope check
@@ -156,7 +156,7 @@ You declare your application security descriptor with JSON syntax and store it i
 You’ve declared and deployed your application security descriptor \(`xs-security.json`\) with scopes \(functional authorizations\), attributes \(data authorizations\), and role templates \(to combine scopes with attributes\). The `xsappname` element is mandatory. The `scopes`, `attributes`, and `role-templates` elements are optional. You've also bound your service instance to your application, and then deployed it.
 
 > ### Sample Code:  
-> ```
+> ```JSON
 > {
 >   "xsappname" : "hello-world", 
 >   "scopes"    : [
@@ -213,4 +213,3 @@ To implement web access using a browser or a browser-based user interface, you c
 [Limits for Technical Artifacts of the SAP Authorization and Trust Management Service](../60-security/limits-for-technical-artifacts-of-the-sap-authorization-and-trust-management-service-6d3ef52.md "To improve the resiliency of the SAP Authorization and Trust Management service, we have introduced limitations on technical artifacts of the service.")
 
 [Application Security Descriptor Configuration Syntax](application-security-descriptor-configuration-syntax-517895a.md "The syntax required to set the properties and values defined in the xs-security.json application security descriptor file.")
-
