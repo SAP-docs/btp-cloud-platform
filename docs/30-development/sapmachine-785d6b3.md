@@ -16,13 +16,13 @@ SapMachine works with the following application containers:
 
 -   [Java Main](java-main-8a1786a.md)
 
--   > ### Caution:  
-    > \(Only relevant to [SAP Java Buildpack 1](sap-java-buildpack-1-ad3e8df.md)\):
-    > 
-    > Bear in mind that TomEE 7 supports only Java 7 and 8. Thus, even if your TomEE 7 application runs successfully with SapMachine JRE 17, at some point it might crash.
-    > 
-    > Also, TomEE 7 has already [reached end of life](https://tomee.apache.org/tomee-7.1-eol.html). See also: [Discontinued TomEE versions](https://tomee.apache.org/download-discontinued.html)
 
+> ### Caution:  
+> **Only relevant to SAP Java Buildpack 1:** 
+> 
+> Bear in mind that TomEE 7 supports only Java 7 and 8. Thus, even if your TomEE 7 application runs successfully with SapMachine JRE 17, at some point it might crash.
+> 
+> Also, TomEE 7 has already [reached end of life](https://tomee.apache.org/tomee-7.1-eol.html). See: [Discontinued TomEE versions](https://tomee.apache.org/download-discontinued.html)
 
 
 

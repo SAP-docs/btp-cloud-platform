@@ -14,6 +14,9 @@ One software component is comparable to a repository in Git. These "repositories
 
 Once you have pulled a new software component to a service instance, a new structure package is created. The structure package name corresponds to the software component name. A software component itself is developed in ABAP packages in ABAP Developments Tools \(ADT\). The development objects are then uploaded to the structure package, and the software component is made available for the import to other service instances.
 
+> ### Note:  
+> In your system you will see all software components linked to the same global account. Region or infrastructure provider do not matter. You only have to ensure that all systems are created within the same global account.
+
 > ### Caution:  
 > It is strongly discouraged to perform ABAP cloud development on a software component across multiple development systems. The reason for this is the potential for critical merge conflicts. When multiple developers work on the same software component simultaneously, edit it in different development systems, and release the transport requests afterward, inconsistencies and conflicts can arise in the target system.
 > 

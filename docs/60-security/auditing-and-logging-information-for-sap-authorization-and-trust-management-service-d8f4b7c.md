@@ -24,6 +24,9 @@ In cloud management tools feature set B, SAP Authorization and Trust Management 
 
 SAP Authorization and Trust Management service records all its changes in its database tables and summarizes these changes in the audit log. The following table summarizes the audit log entries.
 
+> ### Note:  
+> ***UNKNOWN\_USER*** in an audit log message is a placeholder, which usually appears when logs are written for flows that don't involve users, for example, client credential flows.
+
 **Security Events Written in Audit Logs**
 
 

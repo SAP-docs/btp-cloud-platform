@@ -61,7 +61,7 @@ Standard network DDoS protection
 </table>
 
 > ### Remember:  
-> Because these are cloud provides' default offerings, they are subject to change as per the cloud providers' terms and conditions.
+> Because these are cloud providers' default offerings, they are subject to change as per the cloud providers' terms and conditions.
 
 
 

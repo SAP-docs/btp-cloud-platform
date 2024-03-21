@@ -8,19 +8,19 @@ The free tier model for SAP BTP lets you try out services in global accounts wit
 
 
 
-We offer Free service plans for many services within SAP BTP. Free service plans are limited in scope and capacity. They are designed to allow you and your team to explore new SAP BTP capabilities before committing to subscribing to a full capacity paid service.
+We offer free service plans for many services within SAP BTP. Free service plans are limited in scope and capacity. They are designed to allow you and your team to explore new SAP BTP capabilities before committing to subscribing to a full capacity paid service.
 
-The free tier model for SAP BTP is added automatically to new and existing contracts using the consumption-based commercial model. There, the Free service plans are visible.
+The free tier model for SAP BTP is added automatically to new and existing contracts using the consumption-based commercial model. There, the free service plans are visible.
 
 > ### Note:  
 > The use of the consumption-based commercial model is subject to its availability in your country or region.
 
-The consumption-based commercial model is available in the following flavors: ; the **CPEA** \(**Cloud Platform Enterprise Agreement**\) and **Pay-As-You-Go for SAP BTP**. For more information, see [What Is the Consumption-Based Commercial Model?](what-is-the-consumption-based-commercial-model-7047eb4.md).
+The consumption-based commercial model is available in the following flavors: the **CPEA** \(**Cloud Platform Enterprise Agreement**\) and **Pay-As-You-Go for SAP BTP**. For more information, see [What Is the Consumption-Based Commercial Model?](what-is-the-consumption-based-commercial-model-7047eb4.md).
 
 To try out services that participate in the free tier model for SAP BTP, create a service instance using the **Free** service plan offered by the service.
 
 > ### Tip:  
-> To find out which services offer the Free plans, see [Discover Free Services](using-free-service-plans-524e108.md#loio524e1081d8dc4b0f9d055a6bec383ec3__Find-FreeServices). Here, you also find information on how to identify the technical limitations of the Free plan of each service. [Access Free Services](using-free-service-plans-524e108.md#loio524e1081d8dc4b0f9d055a6bec383ec3__Access-FreeServices) by assigning entitlements to subaccounts and creating service instances.
+> To find out which services offer the free plans, see [Discover Free Services](using-free-service-plans-524e108.md#loio524e1081d8dc4b0f9d055a6bec383ec3__Find-FreeServices). Here, you also find information on how to identify the technical limitations of the free plan of each service. [Access Free Services](using-free-service-plans-524e108.md#loio524e1081d8dc4b0f9d055a6bec383ec3__Access-FreeServices) by assigning entitlements to subaccounts and creating service instances.
 
 Once you reach the technical limits of a service and want to continue using it, you must move to a paid service plan. Upgrading an existing service instance from free tier to paid usually doesn't require creating a new service instance. Find out how to upgrade a service plan at [Upgrade to a Paid Service Plan](using-free-service-plans-524e108.md#loio524e1081d8dc4b0f9d055a6bec383ec3__Upgrade-FreeServices).
 
@@ -34,7 +34,7 @@ Use of free tier service plans is subject to additional terms and conditions as 
 
 Find out which services offer Free plans and what the limitations are.
 
-Free Tier services can be explored in the SAP Discovery Center's service catalog. A free tier service appears as a "Free" plan offering for a service.
+Free Tier services can be explored in the service catalog of SAP Discovery Center. A free tier service appears as a "Free" plan offering for a service.
 
 1.  Access the *Service Catalog* in the [SAP Discovery Center](https://discovery-center.cloud.sap/#/viewServices).
 

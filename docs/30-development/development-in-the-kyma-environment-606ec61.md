@@ -64,15 +64,15 @@ The SAP Cloud Application Programming Model \(CAP\) is the recommended framework
 
 ## Using API
 
-The external and Kyma components API may vary from the least stable alpha version through a more stable beta and the most stable **vX** version \(**X** being an integer\). While using the alpha version, you can face issues with component upgrades, as there is no guarantee that the API will not change or won’t be removed in the future. Always use the components' most stable API version. For more information, check the [Kubernetes API versioning](https://kubernetes.io/docs/reference/using-api/#api-versioning).
+The Kyma and third-party modules' APIs may vary from the least stable alpha version through a more stable beta and the most stable **vX** version \(**X** being an integer\). While using the alpha version, you can face issues with module upgrades, as there is no guarantee that the API will not change or won’t be removed in the future. For more information, check the [Kubernetes API versioning](https://kubernetes.io/docs/reference/using-api/#api-versioning).
 
-Use this command to get the list of the APIs in the alpha version, their kind, and version:
+Run this command to get the list of the APIs, their kind, and version:
 
 ```
-kubectl get crd -o custom-columns="KIND:.spec.names.kind,GROUP:.spec.group,VERSION:.spec.versions[*].name" | grep alpha
+kubectl get crd -o custom-columns="KIND:.spec.names.kind,GROUP:.spec.group,VERSION:.spec.versions[*].name
 ```
 
-For example, the APIRule kind that belongs to the `gateway.kyma-project.io` group is available in the alpha and beta and versions. In such a case, use the more stable beta version.
+If an API is available in two versions, always use the version that is more stable.
 
 
 
@@ -87,8 +87,6 @@ To help you get started with the development process, go through the set of tuto
 -   [Deploy a Go MSSQL API Endpoint in the Kyma Environment](https://developers.sap.com/tutorials/cp-kyma-api-mssql-golang.html)
 
 -   [Deploy the SAPUI5 Frontend in the Kyma Environment](https://developers.sap.com/tutorials/cp-kyma-frontend-ui5-mssql.html)
-
--   [Deploy Commerce Mock Application in the Kyma Environment](https://developers.sap.com/tutorials/cp-kyma-mocks.html)
 
 -   [Trigger a Microservice with an Event](https://developers.sap.com/tutorials/cp-kyma-microservice-trigger.html)
 

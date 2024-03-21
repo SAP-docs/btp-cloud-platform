@@ -5,7 +5,7 @@
 Describes the plans available for the SAP Usage Data Management service for SAP BTP.
 
 > ### Note:  
-> The SAP Usage Data Management service APIs can be found in thebe found in the [SAP Business Accelerator Hub](https://api.sap.com/api/APIUasReportingService/overview).
+> The SAP Usage Data Management service APIs can be found in the [SAP Business Accelerator Hub](https://api.sap.com/api/APIUasReportingService/overview).
 
 
 <table>

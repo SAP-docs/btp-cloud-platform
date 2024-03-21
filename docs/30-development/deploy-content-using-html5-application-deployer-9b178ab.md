@@ -24,6 +24,8 @@ Use the HTML5 application deployer module to deploy the content of the HTML5 app
 
 ## Context
 
+The HTML5 application deployer is available on npmjs.com \(NPM\), see [@sap/html5-app-deployer](https://www.npmjs.com/package/@sap/html5-app-deployer).
+
 You can deploy your content to the HTML5 Application Repository using the HTML5 application deployer npm module.
 
 

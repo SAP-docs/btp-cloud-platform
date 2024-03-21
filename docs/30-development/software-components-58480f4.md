@@ -47,3 +47,6 @@ You create your software components in the development system:
     See [Transport of Business Configuration](transport-of-business-configuration-7d7c344.md).
 
 
+> ### Note:  
+> In your system you will see all software components linked to the same global account. Region or infrastructure provider do not matter. You only have to ensure that all systems are created within the same global account.
+

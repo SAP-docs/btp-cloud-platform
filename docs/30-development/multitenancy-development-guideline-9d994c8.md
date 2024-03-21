@@ -63,8 +63,6 @@ The ABAP environment is a Platform as a Service \(PaaS\) offering for ABAP. In a
 
 -   Any multitenancy-specific certifications from SAP in addition to the already existing ABAP environment product certifications are out of scope.
 
--   A dedicated support for Key User extensibility of the SaaS application is on our roadmap.
-
 
 
 

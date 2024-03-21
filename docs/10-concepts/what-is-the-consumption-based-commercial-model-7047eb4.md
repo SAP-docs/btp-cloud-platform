@@ -58,7 +58,7 @@ If you want information about the **Pay-As-You-Go for SAP BTP for Partners** com
 > -   If you need to increase this limit, report an incident to [SAP support](https://support.sap.com) on the BC-NEO-CIS component. This also applies to other services that have a technical quota limit.
 
 > ### Tip:  
-> You can monitor costs and service usage throughout the contract period. See [Monitoring Usage and Consumption Costs in Your Global Account](../50-administration-and-ops/monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md) and [View Subaccount Usage Analytics](../50-administration-and-ops/view-subaccount-usage-analytics-8f4d9db.md).
+> You can monitor costs and service usage throughout the contract period. See [Monitoring Usage and Consumption Costs in Your Global Account](../50-administration-and-ops/monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md).
 
 For information about eligible services and pricing, see [https://www.sap.com/products/technology-platform/pricing.html](https://www.sap.com/products/technology-platform/pricing.html), or access the SAP BTP service catalog via the [SAP Discovery Center](https://discovery-center.cloud.sap). The SAP BTP service catalog allows you to identify service availability per data center and to determine licensing model compatibility per available service plan.
 
@@ -67,7 +67,7 @@ As part of the free tier model for SAP BTP, some services offer free service pla
 To find frequently asked questions about this licensing model, see the [Consumption-based commercial model CPEA and Cloud Credits - FAQ Document](https://www.sap.com/products/extension-suite/pricing.html?pdf-asset=668ae6f5-cd7d-0010-87a3-c30de2ffd8ff).
 
 > ### Note:  
-> Depending on your business needs, you can combine the consumption-based commercial model with the subscription-based commercial model in the same global account, or you can use both commercial models in the same global acccount. Contact your SAP account executive or sales representative for more information. Note however that you cannot mix Cloud Platform Enterprise Agreement \(CPEA\) and Pay-As-You-Go for SAP BTP in the same global account.
+> Depending on your business needs, you can combine the consumption-based commercial model with the subscription-based commercial model in the same global account, or you can use both commercial models in the same global account. Contact your SAP account executive or sales representative for more information. Note however that you cannot mix more than one flavor of the consumption-based commercial model in the same global account.
 
 **Related Information**  
 

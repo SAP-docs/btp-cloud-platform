@@ -39,14 +39,14 @@ Additional Configuration Parameters
 Cloud Management Service
 
 </td>
-<td valign="top" rowspan="2">
+<td valign="top" rowspan="4">
 
 `cis`
 
 </td>
 <td valign="top">
 
-**`central`:** Service plan for using SAP Cloud Management service APIs to manage your global accounts, subaccounts, directories, and entitlements.
+**`central`:**Service plan for using SAP Cloud Management service APIs to manage your global accounts, subaccounts, directories, and entitlements.
 
 </td>
 <td valign="top">
@@ -70,7 +70,7 @@ Cloud Management Service
 -   directory.entitlement.read
 -   job.read
 -   cis-central.event.read
-
+-   account-automation-request.read
 
 
 
@@ -92,7 +92,7 @@ Cloud Management Service
 </td>
 <td valign="top">
 
-**`local`:** Service plan for using SAP Cloud Management service APIs to manage your environments and subscriptions to multitenant applications.
+**`local`:**Service plan for using SAP Cloud Management service APIs to manage your environments and subscriptions to multitenant applications.
 
 </td>
 <td valign="top">
@@ -108,11 +108,75 @@ Cloud Management Service
 
 
 
-
 </td>
 <td valign="top">
 
 `grantType`: Choose whether to get a Client Credentials or Password grant type token when using the SAP Service Manager API, CLI, or the SAP BTP cockpit to create the service instance of the SAP Cloud Management service \(`cis`\). If you don't specify this parameter, the Password grant type is chosen by default. For more information, see [Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Management Service
+
+</td>
+<td valign="top">
+
+**`central-viewer`:**Service plan for using SAP Cloud Management service APIs to read your global accounts, subaccounts, directories, and service entitlements and assignments.
+
+</td>
+<td valign="top">
+
+-   global-account.read
+-   global-account.subaccount.read
+-   global-account.account-directory.read
+-   global-account.entitlement.read
+-   global-account.region.read
+-   directory.entitlement.read
+-   job.read
+-   automation-module.read
+-   automation-solution.read
+-   automation-request.read
+-   account-automation-request.read
+-   account-automation-solution.read
+
+
+
+</td>
+<td valign="top">
+
+`grantType`: The Client Credentials grant type is available when using the SAP Cloud Management service APIs to read the SAP BTP entities specified for this plan. For more information, see [Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Management Service
+
+</td>
+<td valign="top">
+
+**`local-viewer`:**Service plan for using SAP Cloud Management service APIs to read your environments and subscriptions to SaaS multitenant applications.
+
+</td>
+<td valign="top">
+
+-   subaccount.entitlement.read
+-   subaccount.environment.read
+-   subaccount.application.subscription.read
+-   event.read
+-   job.read
+
+
+
+</td>
+<td valign="top">
+
+`grantType`: The Client Credentials grant type is available when using the SAP Cloud Management service APIs to read the SAP BTP entities specified for this plan. For more information, see [Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md).
 
 </td>
 </tr>

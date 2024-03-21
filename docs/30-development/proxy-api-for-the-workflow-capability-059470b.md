@@ -217,3 +217,25 @@ Note also that if you have multiple workflows per instance of your business obje
 > 
 > ```
 
+
+
+**Cancel Workflow Capability Instances**
+
+To register a running workflow capability instance for cancelation, use the `registerWorkflowCancel` action using the command:
+
+> ### Sample Code:  
+> Example: EML Cancel
+> 
+> ```
+> 
+> MODIFY ENTITIES OF i_cpwf_inst
+>       ENTITY CPWFInstance
+>       EXECUTE registerWorkflowCancel
+>       FROM VALUE #( ( %key = '<a UUID which is mandatory for mass enabled callers>' ) ).
+> 
+> ```
+
+Note, that this action should be part of the interaction phase.
+
+During the save sequence, the workflow instance is canceled in a background unit..
+

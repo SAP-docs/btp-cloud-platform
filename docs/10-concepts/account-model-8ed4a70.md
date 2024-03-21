@@ -46,13 +46,18 @@ The entitlements and quotas that have been purchased for a global account have t
 
 Global accounts and subaccounts are completely independent of user accounts. For more information, see [User and Member Management](user-and-member-management-cc1c676.md).
 
-**Relationship between Subaccounts, Orgs, and Spaces**
+**Subaccounts, Cloud Foundry Orgs and Kyma Clusters**
 
-When you enable the Cloud Foundry environment in one of your subaccounts, the system automatically creates a Cloud Foundry org for you. The subaccount and the org have a 1:1 relationship and the same navigation level in the cockpit \(even though they may have different names\). You can create spaces within that Cloud Foundry org. Spaces let you further break down your account model and use services and functions in the Cloud Foundry environment.
+-   When you enable the Cloud Foundry environment in one of your subaccounts, the system automatically creates a Cloud Foundry org for you. The subaccount and the org have a 1:1 relationship and the same navigation level in the cockpit \(even though they may have different names\). You can create spaces within that Cloud Foundry org. Spaces let you further break down your account model and use services and functions in the Cloud Foundry environment.
 
-![Relationship between Subaccounts, Orgs, and Spaces](images/Relationship_between_subaccounts_orgs_and_spaces_4d462fc.png)
+    ![Relationship between Subaccounts, Orgs, and Spaces](images/Relationship_between_subaccounts_orgs_and_spaces_4d462fc.png)
 
-For more information about Cloud Foundry orgs and spaces, see the Cloud Foundry documentation at [https://docs.cloudfoundry.org/concepts/roles.html](https://docs.cloudfoundry.org/concepts/roles.html).
+    For more information about Cloud Foundry orgs and spaces, see the Cloud Foundry documentation at [https://docs.cloudfoundry.org/concepts/roles.html](https://docs.cloudfoundry.org/concepts/roles.html).
+
+-   When you enable the Kyma environment in one of your subaccounts, the system automatically creates a Kubernetes cluster equipped with the latest version of the open-source project "Kyma" for you. The subaccount and the Kyma cluster have a 1:1 relationship. You can create namespaces within that Kyma cluster. Namespaces let you further break down your account model and use services and functions in the Kyma environment. For more information, see the Kubernetes documentation at [https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/).
+
+    ![Relationship between Subaccounts, Clusters, and Namespaces](images/Relationship_between_subaccounts_clusters_and_namespaces_03b2ce5.png)
+
 
 <a name="loioa92721fc75524ec09a7a7255997dbd94"/>
 
@@ -60,7 +65,7 @@ For more information about Cloud Foundry orgs and spaces, see the Cloud Foundry 
 
 ## Directories \[Feature Set B\]
 
-**Directories** allow you to organize and manage your subaccounts according to your technical and business needs.
+With **directories**, you can organize and manage your subaccounts according to your technical and business needs.
 
 A directory can contain directories and subaccounts to create a hierarchy. Using directories to group other directories and subaccounts is optional - you can still create subaccounts directly under your global account.
 
@@ -68,7 +73,7 @@ You can create a hierarchical structure that is up to 7 levels deep. The highest
 
 ![Directories and Subaccounts](images/Relationship_Between_Directories_and_Subaccounts_d60105c.png)
 
-Directories allow you to:
+Directories enable you to:
 
 -   Group and filter directories and subaccounts
 

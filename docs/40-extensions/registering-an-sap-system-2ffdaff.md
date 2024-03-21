@@ -49,13 +49,13 @@ The registration process has the following states displayed in the cockpit:
 
 -   No status displayed in the *Status* column - the registration token for an SAP system has been created but the registration on the respective SAP system side has not been performed or completed yet.
 
--   *Registered* - the registration token has been used and the automated registration process has been successfully completed. The system can be assigned to a formation on the *Formations* page in the cockpit.
+-   *Registered* - the registration token for systems of type SAP S/4HANA Cloud, SAP Marketing Cloud, and SAP SuccessFactors has been used and the automated registration process has been successfully completed. The systems of these types can be assigned to a formation on the *Formations* page in the cockpit. All other system types are registered without a registration token and can be assigned to a formation.
 -   *Error while Registering* - the registration has failed.
 
 > ### Note:  
 > If a system is in status *Error while Registering*, delete it and register it again.
 
-If the registration error persists, report an incident in one of the following components depending on the system type:
+If the registration error persists, report a case in one of the following components depending on the system type:
 
 -   SAP SuccessFactors - `BC-NEO-EXT-SF`
 

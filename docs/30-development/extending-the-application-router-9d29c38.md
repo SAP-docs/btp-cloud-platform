@@ -10,7 +10,7 @@ Instead of starting the application router directly, you can configure your XS a
 
 > ### Sample Code:  
 > ```
-> var approuter = require('approuter');
+> var approuter = require('@sap/approuter');
 > 
 > var ar = approuter();
 > ar.start();
@@ -24,7 +24,7 @@ The application router uses the connect framework, for more information, see *Co
 
 > ### Sample Code:  
 > ```
-> var approuter = require('approuter');
+> var approuter = require('@sap/approuter');
 > 
 > var ar = approuter();
 > 
@@ -41,7 +41,7 @@ The `path` argument is optional. You can also chain `use` calls.
 
 > ### Sample Code:  
 > ```
-> var approuter = require('approuter');
+> var approuter = require('@sap/approuter');
 > var morgan = require('morgan');
 > 
 > var ar = approuter();
@@ -137,7 +137,7 @@ The extension configuration can be referenced in the corresponding application's
 
 > ### Sample Code:  
 > ```
-> var approuter = require('approuter');
+> var approuter = require('@sap/approuter');
 > 
 > var ar = approuter();
 > ar.start({
@@ -157,7 +157,7 @@ An *<approuter\>* instance provides the property `cmdParser` that is a commander
 
 > ### Sample Code:  
 > ```
-> var approuter = require('approuter');
+> var approuter = require('@sap/approuter');
 > 
 > var ar = approuter();
 > 

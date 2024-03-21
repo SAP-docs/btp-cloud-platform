@@ -242,7 +242,7 @@ Effect
 </td>
 <td valign="top">
 
-Up to 30 requests per second
+Up to 45 requests per second
 
 </td>
 <td valign="top">
@@ -261,7 +261,7 @@ The requests are executed at once.
 </td>
 <td valign="top">
 
-Exceeding 30 requests per second
+Exceeding 45 requests per second
 
 </td>
 <td valign="top">
@@ -280,7 +280,7 @@ The requests are queued and then executed.
 </td>
 <td valign="top">
 
-Significantly exceeding 30 requests per second
+Significantly exceeding 45 requests per second
 
 </td>
 <td valign="top">

@@ -10,7 +10,7 @@
 
 To configure the connectivity between the SAP S/4HANA Cloud tenant and SAP Event Mesh and to enable the exchange of credentials between the two systems, you first need to create an *SAP S/4HANA Cloud Extensibility* service instance with service plan `messaging`. For more information about the `messaging` service plan, see [Supported Service Plans for SAP S/4HANA Cloud](supported-service-plans-for-sap-s-4hana-cloud-925c00a.md).
 
-When creating this service instance, you create the required configurations in both the SAP S/4HANA Cloud tenant and theEvent Mesh system associated with the subaccount in SAP BTP, so that events can flow. Depending on the SAP BTP environment, to create an `SAP S/4HANA Cloud Extensibility` service instance, you have to choose one of the following options:
+When creating this service instance, you create the required configurations in both the SAP S/4HANA Cloud tenant and the Event Mesh system associated with the subaccount in SAP BTP, so that events can flow. Depending on the SAP BTP environment, to create an `SAP S/4HANA Cloud Extensibility` service instance, you have to choose one of the following options:
 
 -   [Create an SAP S/4HANA Extensibility Service Instance in the Cloud Foundry Environment](create-an-sap-s-4hana-extensibility-service-instance-in-the-cloud-foundry-environment-531a909.md)
 

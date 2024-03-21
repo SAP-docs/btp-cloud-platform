@@ -63,14 +63,27 @@ To enable the ATC Developer Scenario, you've to define communication arrangement
 
 11. Choose *ATC Administration* \> *Setup* \> *Basic Settings*.
 
-12. In the *Code Inspector* section, enter the *Reference Check System*. This is the RFC connection to your cloud system. If not yet available or defined, create a new RFC destination in transaction `SM59`. For more information, see [Maintaining Remote Destinations](https://help.sap.com/docs/ABAP_PLATFORM_NEW/8f3819b0c24149b5959ab31070b64058/488965b484b84e6fe10000000a421937.html).
+12. In the *Code Inspector* section, enter the *Reference Check System*. This is the RFC connection to your cloud system. If not yet available or defined, create a new RFC destination in transaction `SM59`. To do this, follow these steps \(see also [Maintaining Remote Destinations](https://help.sap.com/docs/ABAP_PLATFORM_NEW/8f3819b0c24149b5959ab31070b64058/488965b484b84e6fe10000000a421937.html)\):
 
     > ### Note:  
-    > Choose connection type "3" \(ABAP Connection\) to connect to your cloud system via [Cloud Connector](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/cloud-connector?version=Cloud). Connection type "W" \(WebSocket RFC\) isn't yet supported for the developer scenario.
+    > In order to setup your RFC connection, you first need to open a **service channel** \(on-premise to cloud connection\) in your respective Cloud Connector. See [Configure a Service Channel for RFC](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/configure-service-channel-for-rfc?version=Cloud) to learn how to create one.
+
+    1.  Choose connection type "3" \(ABAP Connection\) to connect to your cloud system via [Cloud Connector](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/cloud-connector?version=Cloud). Connection type "W" \(WebSocket RFC\) isn't yet supported for the developer scenario
+
+    2.  In the *Technical Settings* tab, enter the host of your Cloud Connector as *Target Host*. As instance number, choose the instance number that you have defined for your service channel.
+
+    3.  In the *Logon & Security* tab, enter the correct client of your cloud system. The user to be entered here is the inbound communication user that you have assigned to communication scenario `SAP_COM_0936`. Here you need to enter the **alias name** of this user. However, be aware that it cannot exceed 12 characters.
+
+    4.  As an optional step, you can run a connection test, which should be successful.
+
+    5.  Save your destination.
+
+    6.  You can now proceed and maintain your destination in *ATC* \> *Basic Settings* as *Reference Check System*.
+
 
 13. Go to transaction `SCI` and create a proxy variant \(as described in step 2 in [Configuring the Checked System](https://help.sap.com/docs/ABAP_PLATFORM_NEW/ba879a6e2ea04d9bb94c7ccd7cdac446/17eb1a1d504442b3ad438451197b937b.html)\).
 
-    You can reference one of the SAP delivered ATC variants in your Cloud system, for example `SLIN_SEC`, or one of your own variants that you've created in the Cloud system.
+    You can reference one of the SAP delivered ATC variants in your cloud system, for example`SLIN_SEC`, or one of your own variants that you've created in the cloud system.
 
 14. Go back to transaction `ATC` in the *Basic Settings* and enter the name of this proxy variant as *Global Check Variant*.
 
@@ -83,5 +96,5 @@ To enable the ATC Developer Scenario, you've to define communication arrangement
 
 ## Results
 
-You've enabled a cloud system as central check system for remote ATC checks from an on-premise system against the cloud system. In SAP GUI or ABAP Development Tools for Eclipse, you can now run ATC checks in your checked system. In ABAP Development Tools for Eclipse in the *ATC Problems* view, you can create exemptions that you can then manage in the [Approve ATC Exemptions](https://help.sap.com/docs/btp/sap-business-technology-platform/approve-atc-exemptions) app.
+You've enabled a cloud system as central check system for remote ATC checks from an on-premise system against the cloud system. In SAP GUI or ABAP Development Tools for Eclipse, you can now run ATC checks in your checked system. In ABAP Development Tools for Eclipse in the*ATC Problems* view, you can create exemptions that you can then manage in the [Approve ATC Exemptions](https://help.sap.com/docs/btp/sap-business-technology-platform/approve-atc-exemptions) app.
 

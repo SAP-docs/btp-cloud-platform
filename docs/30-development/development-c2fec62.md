@@ -52,16 +52,18 @@ ABAP
 </td>
 <td valign="top">
 
+-   Take full advantage of the advanced features and rich ecosystem of Kubernetes
 -   Free choice of programming languages and models \(containerized deployments\)
 -   Combines microservices and serverless functions
--   Built-in, managed, service mesh, and other cloud-native open-source modules to reduce the development effort
+-   Built-in, managed service mesh based on Istio, and other cloud-native open-source modules to reduce the development effort
+-   Built-in, managed event mesh
 -   Managed infrastructure: day-2 operations, security patches, and updates
+-   Full administrator access
 -   Refined horizontal and vertical automatic scalability
--   More flexible with Kubernetes
 -   Dedicated application runtime
 -   Zero downtime infrastructure setup by default
 -   Support for CAP – an opinionated business app development framework
--   More flexible with Kubernetes
+-   Support for on-premise connectivity
 
 
 

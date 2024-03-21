@@ -50,11 +50,9 @@ Learn how to update your ABAP environment instance.
 
 3.  Select your *ABAP environment* instance and choose *Update* by clicking on <span class="SAP-icons-V5"></span> at the end of the row. If you'd like to check the values that are currently configured first, please select *View Parameters* instead.
 
-4.  In the *Update Instance* wizard, you can update the parameters listed above. See [Increasing the Quota for the ABAP Environment](increasing-the-quota-for-the-abap-environment-c40cb18.md).
+4.  In the *Update Instance* wizard, you can update the parameters listed above. See [Increasing the Quota for the ABAP Environment](increasing-the-quota-for-the-abap-environment-c40cb18.md). The currently configured values are prefilled in the *Update Wizard*, so you can keep the values that you don’t want to change as they are.
 
-5.  In the *Update Instance* wizard, you can keep values that you don't want to change on '-1' or 'auto'.
-
-6.  Choose *Update Instance* to save your changes.
+5.  Choose *Update Instance* to save your changes.
 
 
 

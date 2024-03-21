@@ -36,38 +36,18 @@ To debug an application using [SapMachine](https://github.com/SAP/SapMachine), y
     You could also disable the default configuration by specifying it manually. Set the following option in the application manifest file:
 
     ```
-    JBP_CONFIG_JAVA_OPTS: "[java_opts: '-agentlib:jdwp=transport=dt_socket,address=8000,server=y,suspend=n,onjcmd=y']"
+    JBP_CONFIG_JAVA_OPTS: "[java_opts: '-agentlib:jdwp=transport=dt_socket,address=8000,server=y,suspend=n]"
     ```
 
     You can change the default port 8000 in the command.
 
-2.  To enable debugging or to check the debugging state of your SapMachine, run *jcmd* in your Cloud Foundry container. Execute:
-
-    ```
-    cf ssh <app name> -c "export JAVA_PID=`ps -C java -o pid=` && app/META-INF/.sap_java_buildpack/sap_machine_jdk/bin/jcmd $JAVA_PID VM.start_java_debugging"
-    ```
-
-    > ### Note:  
-    > Depending on what your SapMachine is using \(JRE or JDK\), specify the path accordingly \(**sap\_machine\_jre** or **sap\_machine\_jdk**\). To learn more, see: [SapMachine](sapmachine-785d6b3.md)
-
-    The following is an example of the information displayed by `jcmd`:
-
-    ```
-    <pid>:
-    Debugging has been started.
-    Transport : dt_socket
-    Address : 8000
-    ```
-
-    The default port is 8000.
-
-3.  To enable SSH tunneling in your application, execute:
+2.  To enable SSH tunneling in your application, execute:
 
     ```
     cf enable-ssh
     ```
 
-4.  To open the SSH tunnel, execute:
+3.  To open the SSH tunnel, execute:
 
     ```
     cf ssh <app name> -N -T -L 8000:127.0.0.1:8000
@@ -78,6 +58,6 @@ To debug an application using [SapMachine](https://github.com/SAP/SapMachine), y
     > ### Note:  
     > The connection is active until you close the SSH tunnel. When you finish debugging, close the SSH tunnel by pressing [Ctrl\] + [C\] .
 
-5.  Connect a Java debugger to your application. For example, use the standard Java debugger provided by Eclipse IDE and connect to `localhost:8000`.
+4.  Connect a Java debugger to your application. For example, use the standard Java debugger provided by Eclipse IDE and connect to `localhost:8000`.
 
 

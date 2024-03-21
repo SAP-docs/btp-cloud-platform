@@ -2,7 +2,7 @@
 
 # Deploy Resilient Applications in the Kyma Runtime
 
-All SAP BTP, Kyma runtime production plans ensure high availability. To benefit from the high-availability setup, make sure the architecture and deployment of your application comply with resiliency best practices. Use the following guidelines for Kubernetes and microservice-based applications to develop a stable application. Read further to find some Istio-related resiliency tips.
+Kyma runtime is the SAP cloud-native Kubernetes application runtime, managed service. All SAP BTP, Kyma runtime production plans ensure high availability. To benefit from the high-availability setup, make sure the architecture and deployment of your application comply with resiliency best practices. Use the following guidelines for Kubernetes and microservice-based applications to develop a stable application. Read further to find some Istio-related resiliency tips.
 
 
 
@@ -12,83 +12,58 @@ All SAP BTP, Kyma runtime production plans ensure high availability. To benefit 
 
 To develop resilient applications deployed on Kubernetes, use:
 
--   A container registry to store images
+-   Kubernetes built-in health checks. For more information, read how to [Configure Liveness, Readiness and Startup Probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/).
 
--   Kubernetes built-in health checks
+-   Deployment across multiple availability zones for high availability. For more details, see the[blog post](https://community.sap.com/t5/technology-blogs-by-sap/improve-resiliency-of-your-applications-deployed-on-kyma-runtime-by-using/ba-p/13557649).
 
--   Deployment across multiple Kubernetes nodes for redundancy
+-   The [Keda module](https://kyma-project.io/#/keda-manager/user/README) or [Kubernetes autoscaling](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/) to automatically adjust the number of replicas based on resource usage.
 
--   A Kubernetes load balancer to distribute traffic across multiple replicas of your application
+-   [Rolling updates](https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/) to minimize downtime during application updates. If you don't provide any configuration, rolling updates are by default enabled in your SAP BTP, Kyma runtime.
 
--   Autoscaling to automatically adjust the number of replicas based on resource usage
+-   BTP backing services, such as [PostgreSQL](https://help.sap.com/docs/postgresql-hyperscaler-option/postgresql-on-sap-btp-hyperscaler-option/what-is-postgresql-hyperscaler-option) or [Object Store](https://help.sap.com/docs/object-store/object-store-service-on-sap-btp/what-is-object-store) on SAP BTP. If you have to store some application data on SAP BTP, Kyma runtime, use persistent storage to ensure data is not lost in the event of a pod failure.
 
--   Rolling updates to minimize downtime during application updates
+-   [Resource quotas](https://kubernetes.io/docs/concepts/policy/resource-quotas/) to prevent resource starvation and ensure fair resource allocation.
 
--   Persistent storage to ensure data is not lost in the event of a pod failure
-
--   A configuration management tool, such as Kubernetes ConfigMaps, to manage application configuration
-
--   Resource quotas to prevent resource starvation and ensure fair resource allocation
-
--   A logging and monitoring solution to identify and troubleshoot issues in real-time
+-   The [Telemetry module](https://kyma-project.io/#/telemetry-manager/user/README) to configure a logging and monitoring solution to identify and troubleshoot issues in real time.
 
 
 
 
 <a name="loio7c9496c88a294b7f9ccc69a7e0998817__section_tqz_njv_hzb"/>
 
-## Resilient Microservice-based Applications
+## Resilient Microservice-Based Applications
 
-To develop resilient microservice-based applications, use:
+The [Istio module](https://kyma-project.io/#/istio/user/README) and Istio traffic management features help you achieve inbuilt microservices resiliency. Moreover, to develop resilient microservice-based applications, use:
 
--   At the service level, fault tolerance and self-healing mechanisms, such as retry and circuit breaker patterns
+-   Istio's circuit breaker and retry features to prevent service overloads and recover from service failures.
 
--   An API gateway to manage traffic and enforce access control policies
+-   [Distributed tracing](https://kyma-project.io/#/telemetry-manager/user/03-traces) with [Istio's observability features](https://kyma-project.io/#/telemetry-manager/user/03-traces?id=istio) to monitor the flow of requests across microservices and identify performance and error issues by [shipping logs to SAP Cloud Logging](https://kyma-project.io/#/telemetry-manager/user/integration/sap-cloud-logging/README?id=ship-distributed-traces-to-sap-cloud-logging).
 
--   Distributed tracing to monitor and diagnose performance and error issues
+-   The [Eventing module](https://kyma-project.io/#/eventing-manager/user/README) for asynchronous communication patterns, such as messaging queues, to decouple services and reduce dependencies. See how to [Configure SAP Event Mesh for Kyma Eventing](configure-sap-event-mesh-for-kyma-eventing-407d126.md).
 
--   Service discovery mechanisms so that services can find each other dynamicall
+-   Health check endpoints as a part of your microservice. For more details, read [Kubernetes API health endpoints](https://kubernetes.io/docs/reference/using-api/health-checks/).
 
--   A distributed caching mechanism to improve performance and reduce service calls
+-   A centralized logging and monitoring solution to identify issues across multiple microservices and quickly troubleshoot them.
 
--   Asynchronous communication patterns, such as messaging queues, to decouple services and reduce dependencies
+-   A clear and well-defined boundary in your microservice\`s design to minimize the impact of failures and enable easy replacement or scaling of individual services.
 
--   Health checks for each microservice to monitor their health and detect issues before they affect users
+-   Istio's service mesh to implement mutual TLS and authorization policies to secure communication between microservices. For more details, read the [blog post](https://community.sap.com/t5/technology-blogs-by-sap/developing-enterprise-grade-applications-with-mutual-tls-easy-with-sap-btp/ba-p/13580304).
 
--   A centralized logging and monitoring solution to identify issues across multiple microservices and quickly troubleshoot them
+-   Network resiliency using Istio's [traffic management](https://istio.io/latest/docs/concepts/traffic-management/) features to test how your microservices respond to various failure scenarios, such as slow or failing services.
 
--   A container orchestration system, such as Kubernetes, to manage and scale the deployment of microservices
-
--   A clear and well-defined boundary in your microservice\`s design to minimize the impact of failures and enable easy replacement or scaling of individual services
-
-
-
-
-<a name="loio7c9496c88a294b7f9ccc69a7e0998817__section_amt_lkv_hzb"/>
-
-## Resiliency and Istio
-
-Using Istio, benefit from its built-in features and solutions. Take a closer look at the following tips and consider implementing them:
-
--   Istio's circuit breaker and retry features to prevent service overloads and recover from service failures
-
--   Distributed tracing using Istio's observability features to monitor the flow of requests across microservices and identify performance and error issues
-
--   Istio's traffic management features to implement canary deployments, A/B testing, and blue-green deployments to safely roll out new features or services
-
--   Istio's service mesh to implement mutual TLS and authorization policies to secure communication between microservices
-
--   Istio's fault injection feature to test how your microservices respond to various failure scenarios, such as slow or failing services
-
--   Istio's rate limiting and quota features to prevent resource exhaustion and ensure fair resource allocation across microservices
-
--   Istio's health checks and service discovery features to proactively monitor the health of microservices and allow services to discover each other dynamically
-
--   Istio's access logs and metrics to monitor traffic patterns and quickly troubleshoot issues
+-   The [Telemetry module](https://kyma-project.io/#/telemetry-manager/user/README) to ship your Istio's access logs and metrics to your logging backend to monitor traffic patterns and quickly troubleshoot issues.
 
 
 **Related Information**  
 
 
 [Improve resiliency of your applications deployed on Kyma runtime by using multiple availability zones](https://blogs.sap.com/2022/11/02/improve-resiliency-of-your-applications-deployed-on-kyma-runtime-by-using-multiple-availability-zones/)
+
+[Developing enterprise-grade applications with mutual TLS easy with SAP BTP, Kyma runtime and BTP destinations](https://community.sap.com/t5/technology-blogs-by-sap/developing-enterprise-grade-applications-with-mutual-tls-easy-with-sap-btp/ba-p/13580304)
+
+[SAP BTP Kyma API Rules with destinations and a managed approuter](https://community.sap.com/t5/technology-blogs-by-sap/sap-btp-kyma-api-rules-with-destinations-and-a-managed-approuter/ba-p/13581367)
+
+[Protect your Kyma workloads from eavesdropping with JWT access strategy and BTP destinations](https://community.sap.com/t5/technology-blogs-by-sap/protect-your-kyma-workloads-from-eavesdropping-with-jwt-access-strategy-and/ba-p/13575281)
+
+[Protect your Kyma workloads from eavesdropping with introspection and BTP destinations](https://community.sap.com/t5/technology-blogs-by-sap/protect-your-kyma-workloads-from-eavesdropping-with-introspection-and-btp/ba-p/13575289)
 

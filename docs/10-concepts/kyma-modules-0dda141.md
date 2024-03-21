@@ -330,6 +330,25 @@ Use the transparent proxy for Kubernetes to connect workloads on a Kubernetes cl
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+*Connectivity Proxy*
+
+`connectivity-proxy`
+
+</td>
+<td valign="top">
+
+Use the connectivity proxy for Kubernetes to connect workloads on a Kubernetes cluster to on-premise systems, exposed via the Cloud Connector.
+
+</td>
+<td valign="top">
+
+[On-Premise Connectivity in the Kyma Environment](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/on-premise-connectivity-in-kyma-environment?version=Cloud)
+
+</td>
+</tr>
 </table>
 
 

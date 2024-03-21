@@ -2,7 +2,7 @@
 
 # Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP
 
-To connect an SAP S/4HANA Cloud, public edition system with a global account in SAP BTP, you need to register the system in the corresponding global account.
+To connect an SAP S/4HANA Cloud Public Edition system with a global account in SAP BTP, you need to register the system in the corresponding global account.
 
 
 
@@ -22,7 +22,7 @@ To connect an SAP S/4HANA Cloud, public edition system with a global account in 
 ## Context
 
 > ### Note:  
-> This documentation refers to SAP S/4HANA Cloud, public edition. See [Introduction to the Universe of SAP S/4HANA Cloud, public edition](https://help.sap.com/docs/SAP_S4HANA_CLOUD/f77dde055ecb4541b57787d362c46a36/2962fce53eef47b4b3a8e6c945adafbe.html).
+> This documentation refers to SAP S/4HANA Cloud Public Edition. See [Introduction to the Universe of SAP S/4HANA Cloud Public Edition](https://help.sap.com/docs/SAP_S4HANA_CLOUD/f77dde055ecb4541b57787d362c46a36/2962fce53eef47b4b3a8e6c945adafbe.html).
 
 The registration process is based on a registration token that is used for the pairing of the SAP S/4HANA Cloud system and the corresponding global account. You create the token in the global account, and then the tenant administrator of the respective SAP S/4HANA Cloud system uses the token to start the automated registration process on the SAP S/4HANA Cloud system side.
 
@@ -41,7 +41,7 @@ The registration process has the following states displayed in the cockpit:
 -   No status displayed in the *Status* column - the registration token for an SAP system has been created but the registration on the respective SAP solution system side has not been performed or completed.
 
 -   *Registered* - the registration token has been used and the automated registration process has been successfully completed. The system can be assigned to a formation on the *Formations* page in the cockpit.
--   *Error while Registering* - the registration has failed.
+-   *Error while Registering* - the registration has failed. Remove the system and then add it to the *Systems* list and try to register it again
 -   *Deregistering* - а deregistration process has started in the SAP BTP cockpit. As a result, the connection between the SAP solution system and the global account in SAP BTP is removed. The system remains in the list and you can register it again later on.
 
     Once a system is registered, you can deregister it only after removing it from all entitlement configurations and formations it takes part in.
@@ -52,10 +52,8 @@ The registration process has the following states displayed in the cockpit:
     > -   *Error while Registering*
     > 
     > -   *Deregistering*
-    > 
-    > -   *Error while Deregistering*
 
--   *Error while Deregistering* - the deregistration has failed. If the problem persists, you have to report an incident.
+-   *Error while Deregistering* - the deregistration has failed. Try to deregister the system again. If the problem persists, you have to report a case in the `BC-NEO-EXT-S4C` component.
 -   *Removing* - a system removal process has started in the SAP BTP cockpit. As a result, the link between the SAP solution and SAP BTP is destroyed and the system is removed from the list. To register the system again, first you must add it to the list anew, and then initiate the registration procedure.
 
     Once a system is registered, you can only remove it if you first deregister it.
@@ -69,13 +67,11 @@ The registration process has the following states displayed in the cockpit:
     > 
     > -   *Deregistering*
     > 
-    > -   *Error while Removing*
-    > 
-    > -   *Error while Registering*
-    > 
     > -   *Error while Deregistering*
+    > 
+    >     Try to deregister the system again.
 
--   *Error while Removing* - the system removal has failed. If the problem persists, you have to report an incident.
+-   *Error while Removing* - the system removal has failed. Try to deregister the system again. If the problem persists, you have to report a case in the `BC-NEO-EXT-S4C` component.
 
 > ### Note:  
 > When registering a system or creating a formation, the data you provide in the given input fields is not encrypted with your customer managed key. The data you enter is only encrypted at rest.

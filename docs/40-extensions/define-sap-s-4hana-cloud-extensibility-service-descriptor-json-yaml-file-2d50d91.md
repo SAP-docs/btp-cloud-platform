@@ -2,7 +2,7 @@
 
 # Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON/YAML File
 
-The SAP S/4HANA Cloud Extensibility service descriptor defines details of a messagе client and needs to be provided when provisioning new SAP S/4HANA Cloud Extensibility service instances with service plan `messaging`.
+The SAP S/4HANA Cloud Extensibility service descriptor defines details of a message client and needs to be provided when provisioning new SAP S/4HANA Cloud Extensibility service instances with service plan `messaging`.
 
 
 
@@ -523,7 +523,7 @@ In this example, only the required properties are provided.
 This descriptor is equivalent to:
 
 > ### Note:  
-> All properties can be overriden explicitly.
+> All properties can be overridden explicitly.
 
 ```json
 
@@ -569,7 +569,7 @@ This descriptor is equivalent to:
             "${namespace}/#"
           ]
         }
-      }
+      },
 	  "resources": {
         "units": "10"
       }
@@ -599,7 +599,7 @@ parameters:
 This descriptor is equivalent to:
 
 > ### Note:  
-> All properties can be overriden explicitly.
+> All properties can be overridden explicitly.
 
 ```
 spec:

@@ -32,22 +32,15 @@ The deregistration and the removal processes have the following states displayed
 
     Once a system is registered, you can deregister it only after removing it from all entitlement configurations and formations it takes part in.
 
--   *Error while Deregistering* - the deregistration has failed. If the problem persists, you have to report an incident.
+-   *Error while Deregistering* - the deregistration has failed. Try to deregister the system again. If the problem persists, you have to report a case in one of the components mentioned below.
 -   *Removing* - a system removal process has started in the SAP BTP cockpit. As a result, the SAP or third-party system is deregistered, and then, it is removed from the system landscape list completely. To register the system again, first, you must add it to the list anew, and then, initiate the registration procedure.
 
     Once a system is registered, you can only remove it if you first deregister it.
 
--   *Error while Removing* - the system removal has failed.
+-   *Error while Removing* - the system removal has failed. Try to deregister the system again. If the problem persists, you have to report a case in one of the components mentioned below.
 
 > ### Note:  
-> You will not be able to deregister or remove a system if its status is one of the following:
-> 
-> -   *Error while Removing*
-> 
-> -   *Error while Deregistering*
-> 
-> 
-> If the deregistration, or removal errors persist, report an incident in one of the following components depending on the system type:
+> If the deregistration, or removal errors persist, report a case in one of the following components depending on the system type:
 > 
 > -   SAP SuccessFactors - `BC-NEO-EXT-SF`
 > 

@@ -65,7 +65,7 @@ To do so, you pair the integration token with your SAP Customer Experience syste
 </td>
 <td valign="top">
 
--   For an SAP Commerce Cloud system, see **steps 2-7** in [Retrieving Client Certificate](https://help.sap.com/viewer/bad9b0b66bac476f8a4a5c4a08e4ab6b/v2011/en-US/becb28f8b8ee45d496ba968a4e3a6f28.html).
+-   For an SAP Commerce Cloud system, see **steps 2-7** in [Retrieving Client Certificate](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/bad9b0b66bac476f8a4a5c4a08e4ab6b/becb28f8b8ee45d496ba968a4e3a6f28.html?locale=en-US).
 
 -   For an SAP Field Service Management system, see [SAP BTP Extensions](https://help.sap.com/viewer/fsm_extensions/LATEST/en-US/kyma-connector.html).
 -   For an SAP Cloud for Customer system, see *SAP BTP Extensions* \> *Step 2 Configuration in SAP Cloud for Customer Event Notifications* in [Configure an Event Notification](https://help.sap.com/viewer/d5fec61c279741048109d851d4d3d1ad/latest/en-US/a84a5e9266264af8ac32fe627de10bd7.html).
