@@ -557,6 +557,7 @@ Develop, debug, test, and deploy SAP business applications.
 <td valign="top">
 
 -   US Central \(IA\)
+-   India \(Mumbai\)
 
 
 
@@ -4252,6 +4253,7 @@ Build API and UI based document management capabilities for your business apps.
 -   US East \(VA\)
 -   Japan \(Tokyo\)
 -   Singapore
+-   Australia \(Sydney\)
 
 
 
@@ -4307,6 +4309,60 @@ Build API and UI based document management capabilities for your business apps.
 
 -   Europe \(Frankfurt\)
 -   US Central \(IA\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Document Management Service, Integration Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
+
+</td>
+<td valign="top">
+
+Build API and UI based document management capabilities for your business apps.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-SDM
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Alibaba
+
+
+
+</td>
+<td valign="top">
+
+-   China \(Shanghai\)\*\*
 
 
 

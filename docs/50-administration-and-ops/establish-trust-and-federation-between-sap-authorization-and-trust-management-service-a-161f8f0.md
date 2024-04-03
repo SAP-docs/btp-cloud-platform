@@ -64,7 +64,7 @@ Consider the following restrictions and tips before you start.
 
 4.  Choose the domain configured with the Identity Authentication tenant and continue with *Next*.
 
-5.  You can change the name and the description of the tenant, display the resulting origin key, and enter a link text for user logon \(see [Using Multiple Identity Providers from the Same Subaccount](using-multiple-identity-providers-from-the-same-subaccount-b8c0aac.md)\). Continue with *Next*.
+5.  You can change the name and the description of the tenant, display and change the origin key, and provide a link text for user logon \(see [Using Multiple Identity Providers from the Same Subaccount](using-multiple-identity-providers-from-the-same-subaccount-b8c0aac.md)\). Continue with *Next*.
 
 6.  Review your configuration and confirm using *Finish*.
 

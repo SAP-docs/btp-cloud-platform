@@ -4,7 +4,7 @@
 
 # Find Users and Their Role Collection Assignments
 
-You want to find the authorizations granted to specific users in your subaccount. You can search or sort the list of users, and view their role collection assignments.
+You want to find the authorizations granted to specific users in your global account and subaccount. You can search or sort the list of users, and view their role collection assignments.
 
 
 

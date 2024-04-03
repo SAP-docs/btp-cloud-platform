@@ -20,8 +20,6 @@ When creating *Eventing Between SAP Cloud Systems* formations, keep in mind the 
 
 -   Every system can be included in at most one *Eventing Between SAP Cloud Systems* formation.
 
--   If you register your SAP S/4HANA Cloud system using the *All Communication Scenarios* or *Eventing Between SAP Cloud Systems* communication scenario group when you get the registration token for this SAP S/4HANA Cloud system, the communication scenario `SAP_COM_0892` will be enabled automatically after this SAP S/4HANA Cloud system is added to the formation of type *Eventing Between SAP Cloud Systems* in the *Formations* page. See [Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](register-an-sap-s-4hana-cloud-system-in-a-global-account-in-sap-btp-28171b6.md).
-
 
 The following procedure outlines the steps you need to perform to enable the exchange of events across the systems within the system landscape.
 
@@ -62,9 +60,6 @@ The following procedure outlines the steps you need to perform to enable the exc
     > ### Note:  
     > If a given SAP system is missing on the *System Landscape* page, it may be associated with a different customer ID on the SAP BTP global account you are working in. In this case, you need to add the system manually, and then, register it.
 
-    > ### Tip:  
-    > When you register an SAP S/4HANA Cloud system, you can automate some of the required configuration steps at a later point. To do this, you can use the *Eventing Between SAP Cloud Systems* communication scenario group when you get the registration token for the SAP S/4HANA Cloud system. This allows the automatic enablement of the communication scenario `SAP_COM_0892` after the corresponding system is added to the formation of type *Eventing Between SAP Cloud Systems*.
-
     See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
 
 2.  Create a formation of type *Eventing Between SAP Cloud Systems* and include the relevant systems in it.
@@ -84,21 +79,6 @@ The following procedure outlines the steps you need to perform to enable the exc
 
     5.  Review your selections and create the formation.
 
-
-3.  If your use case features an SAP S/4HANA Cloud system and you have not allowed the automatic enablement of communication scenario `SAP_COM_0892`, you need to configure it manually.
-
-    To do this, proceed as follows:
-
-    1.  Find the SAP S/4HANA Cloud system in the formation, and then, open its details.
-
-    2.  Go to the *Configurations* section.
-
-    3.  Display the configuration provided by the SAP Event Broker for the concrete SAP S/4HANA Cloud system.
-
-    4.  Use the corresponding URL to enable the communication scenario `SAP_COM_0892`.
-
-
-    To allow the automatic enablement of communication scenario `SAP_COM_0892`, see [Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](register-an-sap-s-4hana-cloud-system-in-a-global-account-in-sap-btp-28171b6.md).
 
 
 

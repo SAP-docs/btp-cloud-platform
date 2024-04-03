@@ -40,7 +40,7 @@ You can change the name of a space by going to the *Cloud Foundry* \> *Spaces* p
 **Related Information**  
 
 
-[Create Orgs](create-orgs-a9b1f54.md "Once a subaccount is created in the Cloud Foundry environment, you must create an org in order to use it.")
+[Create Orgs](create-orgs-a9b1f54.md "To enable Cloud Foundry in your subaccount, you must create an org in order to use it.")
 
 [Create Spaces Using the Cloud Foundry Command Line Interface](create-spaces-using-the-cloud-foundry-command-line-interface-a2e5e29.md "Use the cf create-space command to create spaces in your Cloud Foundry organization using the Cloud Foundry Command Line Interface (cf CLI).")
 

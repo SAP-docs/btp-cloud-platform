@@ -784,7 +784,7 @@ To enable resource properties to resolve values from a property in another resou
 > It is not possible to reference **list** configuration entries either from resources or “subscription” functionalities \(deployment features that are available to subscriber applications\).
 
 > ### Code Syntax:  
-> Cross-References between Properties in the MTA Deployment Descriptor
+> Cross-References between Properties in the MTA Deployment Descriptor in a YAML file
 > 
 > ```
 > 

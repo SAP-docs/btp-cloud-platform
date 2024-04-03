@@ -627,6 +627,70 @@ gcp
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
+jp30
+
+</td>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+cf-jp30
+
+</td>
+<td valign="top">
+
+Japan \(Osaka\)
+
+</td>
+<td valign="top">
+
+gcp
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
+sa30
+
+</td>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+cf-sa30
+
+</td>
+<td valign="top">
+
+KSA \(Dammam\)
+
+</td>
+<td valign="top">
+
+gcp
+
+</td>
+</tr>
 </table>
 
 > ### Note:  
@@ -1026,12 +1090,12 @@ US East \(VA\)
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="3">
+<td valign="top" rowspan="5">
 
 Google Cloud
 
 </td>
-<td valign="top" rowspan="3">
+<td valign="top" rowspan="5">
 
 gcp
 
@@ -1068,6 +1132,30 @@ US Central \(IA\)
 <td valign="top">
 
 India \(Mumbai\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`asia-northeast2`
+
+</td>
+<td valign="top">
+
+Japan \(Osaka\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`me-central2`
+
+</td>
+<td valign="top">
+
+KSA \(Dammam\)
 
 </td>
 </tr>

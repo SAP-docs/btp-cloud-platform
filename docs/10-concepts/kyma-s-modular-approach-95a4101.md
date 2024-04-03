@@ -38,7 +38,7 @@ You can use one or both release channels in your Kyma cluster, but you can defin
 > ### Note:  
 > You can upgrade module versions, but you cannot downgrade them. To test the upstream versions, you can switch a module or an entire cluster from the regular channel to the fast one. To return to the regular channel, switch back to it, and wait until the upgrade is automatically applied in your cluster. Alternatively, you can delete and add your module from the regular channel.
 
-To find out which module version is running on your cluster, go to [Kyma dashboard](https://dashboard.kyma.cloud.sap/clusters).
+To find out which module version is running in your cluster, go to [Kyma dashboard](https://dashboard.kyma.cloud.sap/clusters).
 
 
 

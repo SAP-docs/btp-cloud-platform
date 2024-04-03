@@ -22,7 +22,7 @@ When you create a new instance in the SAP BTP cockpit from the Service Marketpla
 If you've already created your Kyma environment, you can also apply the custom IdP configuration and set up administrators during your Kyma instance update operation by providing the details as an array of strings in the respective fields.
 
 > ### Tip:  
-> You can use SAP Cloud Identity Services - Identity Authentication as a custom IdP. Additionally, you can configure Identity Authentication to use a third-party IdP such as Azure Active Directory or Auth0, among others. For more information, see [Integrating the Service with Microsoft Azure AD](https://help.sap.com/docs/identity-authentication/identity-authentication/integrating-service-with-microsoft-azure-ad?version=Cloud) and [Configure Auth0 for SAP BTP, Kyma runtime](https://github.com/SAP-samples/kyma-runtime-extension-samples/tree/main/kyma-access-auth0-as-idp).
+> We recommend using SAP Cloud Identity Services - Identity Authentication as a custom IdP. It allows you to use Identity Authentication as a proxy to integrate your corporate identity provider. Additionally, you can configure Identity Authentication to use a third-party IdP such as Azure Active Directory or Auth0, among others. For more information, see [Integrating the Service with Microsoft Entra ID](https://help.sap.com/docs/identity-authentication/identity-authentication/integrating-service-with-microsoft-azure-ad?version=Cloud) and [Configure Auth0 for SAP BTP, Kyma runtime](https://github.com/SAP-samples/kyma-runtime-extension-samples/tree/main/kyma-access-auth0-as-idp).
 
 
 
@@ -54,7 +54,10 @@ If you've already created your Kyma environment, you can also apply the custom I
     >     "signingAlgs": ["RS256"],
     >     "usernamePrefix": "-"
     >   },
-    >   "administrators": ["user-admin1", ... ]
+    >   "administrators": [
+    >     "example_1@mail.com",
+    >     "example_2@mail.com"
+    >   ]
     > ```
     > 
     > If you want to revert to the default settings, use the following configuration:
@@ -67,9 +70,14 @@ If you've already created your Kyma environment, you can also apply the custom I
     >     "signingAlgs": ["RS256"],
     >     "usernamePrefix": "-",
     >     "usernameClaim": "sub"
-    >   },
-    >   "administrators": ["{put usernames (emails) recognised by 'https://kyma.accounts.ondemand.com'}"]
+    >   },	
+    >   "administrators": [
+    >     "example_3@mail.com",
+    >     "example_4@mail.com"
+    >   ]
     > ```
+    > 
+    > The email adresses must be recognised by `https://kyma.accounts.ondemand.com`.
 
 4.  Select *Create*.
 

@@ -50,6 +50,8 @@ For more information, see [Managing Signing Keys for Access Tokens](managing-sig
 
 1.  Log on to the SAP BTP CLI.
 
+    For more information, see [Log in](log-in-e241b30.md).
+
 2.  Check that there's space for a new signing key.
 
     You can store two signing keys per subaccount.

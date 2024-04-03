@@ -14,7 +14,7 @@ Add members to your subaccount to enable users to access resources available the
 
 -   You’re managing a multi-environment subaccount.
 
-    For more information about adding members to Neo subaccounts, see[Add Members to Your Neo Subaccount](https://help.sap.com/docs/btp/sap-btp-neo-environment/add-members-to-your-neo-subaccount?version=Cloud).
+    For more information about adding members to Neo subaccounts, see [Add Members to Your Neo Subaccount](https://help.sap.com/docs/btp/sap-btp-neo-environment/add-members-to-your-neo-subaccount?version=Cloud).
 
 -   You must be a subaccount administrator to add other subaccount members.
 
@@ -49,9 +49,9 @@ There are two types of users in subaccounts:
 
     For more information about the available role collections, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md).
 
-    To work in the Cloud Foundry environment add users and authorizations at the org and space level.
+    To work in the Cloud Foundry, ABAP, Kyma, and Neo environments, your team members need additional authorizations.
 
-    For more information, see [About User Management in the Cloud Foundry Environment](about-user-management-in-the-cloud-foundry-environment-8e6ce96.md).
+    For more information, see [Giving Access Rights to Platform Users](https://help.sap.com/docs/btp/best-practices/giving-access-rights-to-platform-users) in the *SAP BTP Best Practices Guide*.
 
 -   Business users
 

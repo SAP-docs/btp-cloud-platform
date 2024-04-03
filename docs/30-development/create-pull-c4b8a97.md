@@ -203,7 +203,7 @@ Request body
 > Accept: application/json
 > 
 > {
-> 	“sc_name” : “/DMO/GIT_REPOSITORY”
+> 	"sc_name" : "/DMO/GIT_REPOSITORY"
 > }
 > 
 > ```

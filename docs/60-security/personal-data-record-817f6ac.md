@@ -26,7 +26,7 @@ For more information, see [Information Report](https://help.sap.com/viewer/6d6d6
 
 For SAP BTP Cloud Foundry environment, the User Account and Authentication service creates shadow users to issue tokens for their corresponding users.
 
-For more information about viewing shadow users, see the [User Management \(SCIM\) API](https://api.sap.com/package/authtrustmgmnt) on [SAP Business Accelerator Hub](https://api.sap.com/package/authtrustmgmnt?section=Artifacts).
+For more information about viewing shadow users and their attributes, see the [User Management \(SCIM\) API](https://api.sap.com/package/authtrustmgmnt) on [SAP Business Accelerator Hub](https://api.sap.com/package/authtrustmgmnt?section=Artifacts).
 
 For all other services, which persist data, such as databases or document services, retrieve the data you stored with the same APIs, protocols, or languages you used to store the data.
 

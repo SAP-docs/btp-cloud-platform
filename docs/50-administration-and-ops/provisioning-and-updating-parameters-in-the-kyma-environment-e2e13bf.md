@@ -1621,21 +1621,21 @@ Australia \(Sydney\)
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="3">
+<td valign="top" rowspan="5">
 
 Google Cloud
 
 technical name: `gcp`
 
 </td>
-<td valign="top" rowspan="3">
+<td valign="top" rowspan="5">
 
 Provisioning
 
 </td>
 <td valign="top">
 
-`europe-west3` 
+`europe-west3`
 
 </td>
 <td valign="top">
@@ -1665,6 +1665,30 @@ India \(Mumbai\)
 <td valign="top">
 
 US Central \(IA\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`asia-northeast2`
+
+</td>
+<td valign="top">
+
+Japan \(Osaka\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`me-central2`
+
+</td>
+<td valign="top">
+
+KSA \(Dammam\)
 
 </td>
 </tr>

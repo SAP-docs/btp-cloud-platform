@@ -1053,12 +1053,12 @@ Yes
 </td>
 <td valign="top">
 
-A comma-separated list of objects each of which contains a host name, port and protocol that are allowed by the server, for example: `[{“host”: "www.acme.com"}]` or `[{“host”: “.acme.com”}]`.
+A comma-separated list of objects each of which contains a host name, port and protocol that are allowed by the server, for example: `[{"host": "www.acme.com"}]` or `[{"host": ".acme.com"}]`.
 
 > ### Note:  
-> Matching is case-sensitive. In addition, if no port or protocol is specified, the default is `“*”`.
+> Matching is case-sensitive. In addition, if no port or protocol is specified, the default is `"*"`.
 
-The default configuration is: `[{“host”: "*"}]`, which means that the server allows **any** origin to access the resource.
+The default configuration is: `[{"host": "*"}]`, which means that the server allows **any** origin to access the resource.
 
 </td>
 </tr>
@@ -1080,10 +1080,10 @@ No
 </td>
 <td valign="top">
 
-A comma-separated list of HTTP methods that are allowed by the server, for example, <code>“GET”, “POST”</code>. If `allowMethods` is defined but no method is specified, the default <code>“GET”, “POST”, “HEAD”, “OPTIONS”</code> \(all\) applies.
+A comma-separated list of HTTP methods that are allowed by the server, for example, `"GET", "POST"`. If `allowMethods` is defined but no method is specified, the default `"GET", "POST", "HEAD", "OPTIONS"` \(all\) applies.
 
 > ### Tip:  
-> The specified methods must be upper-case, for example,`GET`. Matching of the method type is case-sensitive.
+> The specified methods must be upper-case, for example, `GET`. Matching of the method type is case-sensitive.
 
 
 
@@ -1107,7 +1107,7 @@ No
 </td>
 <td valign="top">
 
-A comma-separated list of request headers that are allowed by the server. the default values are as follows: `[“Origin”, “Accept”, “X-Requested-With”, “Content-Type”, “Access-Control-Request-Method”, “Access-Control-Request-Headers”]`.
+A comma-separated list of request headers that are allowed by the server. the default values are as follows: `["Origin", "Accept", "X-Requested-With", "Content-Type", "Access-Control-Request-Method", "Access-Control-Request-Headers"]`.
 
 </td>
 </tr>

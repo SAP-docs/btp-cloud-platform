@@ -2,11 +2,7 @@
 
 # Tips and Tricks for Node.js Applications
 
-
-
-<a name="loio3a5fe887f6e64abb827494baac352059__section_emv_pf1_m1b"/>
-
-## Get to Know the Node.js Buildpack for the Cloud Foundry Environment
+Get to know the Node.js buildpack for the SAP BTP, Cloud Foundry environment.
 
 Check the following Cloud Foundry documentation:
 
@@ -19,7 +15,7 @@ Check the following Cloud Foundry documentation:
 
 ## NPM Version
 
-When deploying an application in Cloud Foundry environment without specifying the *npm* version in the **package.json** file, it will install the default *npm* version \(depending on the Node.js version\) during the build step. A version mismatch can cause the build step to fail.
+When deploying an application in the SAP BTP, Cloud Foundry environment without specifying the *npm* version in the **package.json** file, it will install the default *npm* version \(depending on the Node.js version\) during the build step. A version mismatch can cause the build step to fail.
 
 To check your Node.js version, run:
 
@@ -34,9 +30,9 @@ npm --version
 ```
 
 > ### Tip:  
-> We recommend that you use the same *npm* version as the one on the Cloud Foundry environment.
+> We recommend that you use the same *npm* version as the one on the SAP BTP, Cloud Foundry environment.
 
-Alternatively, you can specify the *npm* version in the **package.json** file. For example, if you use Node.js 16, you can set:
+Alternatively, you can specify the *npm* version in the **package.json** file. For example, if you use Node.js 20, you can set:
 
 ```
 
@@ -70,7 +66,7 @@ There are various reasons to use vendoring. For example, productive applications
 > ### Note:  
 > Bear in mind when using dependencies containing native code that you need to reinstall in the same environment as the Cloud Foundry container, or make sure that the package has built-in support for it.
 
-To ensure that prepackaged dependencies are pushed to the Cloud Foundry environment and on-premise runtime, make sure that the **`node_modules`** directory isn’t listed in the `.cfignore` file. It’s also preferable that development dependencies are not deployed for productive deployments. To ensure that, run:
+To ensure that prepackaged dependencies are pushed to the SAP BTP, Cloud Foundry environment and on-premise runtime, make sure that the **`node_modules`** directory isn’t listed in the `.cfignore` file. It’s also preferable that development dependencies are not deployed for productive deployments. To ensure that, run:
 
 ```
 npm prune --production
@@ -105,7 +101,7 @@ node --v8-options
 
 ## Specify a buildpack version in `manifest.yml`
 
-At some point, you might need \(or decide\) to deploy your application with a particular buildpack version from the community [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack) repository. For example, if this buildpack contains a Node.js version that is no longer supported by SAP BTP, Cloud Foundry.
+At some point, you might need \(or decide\) to deploy your application with a particular buildpack version from the community [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack) repository. For example, if this buildpack contains a Node.js version that is no longer supported by the SAP BTP, Cloud Foundry environment.
 
 Let's say, you want to pin version [1.8.9](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.9). To do that, proceed as follows:
 
@@ -140,7 +136,7 @@ If you don't want to make changes in your **manifest.yml** file, you can include
     cf push myapp -b https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.9
     ```
 
--   To pin this buildpack version for **all** applications running in your SAP BTP, Cloud Foundry subaccount, run:
+-   To pin this buildpack version for **all** applications running in your SAP BTP, Cloud Foundry environment subaccount, run:
 
     ```
     cf push -b https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.9

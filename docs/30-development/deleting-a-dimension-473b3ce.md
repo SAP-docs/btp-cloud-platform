@@ -106,6 +106,9 @@ ERROR
 >         out->write( |Exception raised| ).
 >         out->write( lo_error->get_text( ) ).
 >     ENDTRY.
+>     IF lv_error = abap_true.
+>       out->write( |Error occurred while deleting the data from the database| ).
+>     ENDIF.
 >   ENDMETHOD. 
 > ENDCLASS.
 > 

@@ -20,9 +20,7 @@ SapMachine works with the following application containers:
 > ### Caution:  
 > **Only relevant to SAP Java Buildpack 1:** 
 > 
-> Bear in mind that TomEE 7 supports only Java 7 and 8. Thus, even if your TomEE 7 application runs successfully with SapMachine JRE 17, at some point it might crash.
-> 
-> Also, TomEE 7 has already [reached end of life](https://tomee.apache.org/tomee-7.1-eol.html). See: [Discontinued TomEE versions](https://tomee.apache.org/download-discontinued.html)
+> Bear in mind that TomEE 7 supports only Java 7 and 8. Thus, even if your TomEE 7 application runs successfully with SapMachine JRE 17, at some point it might crash. Also, TomEE 7 has already [reached end of life](https://tomee.apache.org/tomee-7.1-eol.html). See: [Discontinued TomEE versions](https://tomee.apache.org/download-discontinued.html)
 
 
 
@@ -88,7 +86,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
-    JBP_CONFIG_SAP_MACHINE_JRE: '{ version: 17.0.8 }'
+    JBP_CONFIG_SAP_MACHINE_JRE: '{ version: 17.0.10 }'
   ...
 ```
 
@@ -102,6 +100,35 @@ applications:
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
     JBP_CONFIG_SAP_MACHINE_JRE: "{ version: 17.+ }"
+```
+
+
+
+### SapMachine 21
+
+Use environment variable JBP\_CONFIG\_SAP\_MACHINE\_JRE in analogical way. For example:
+
+```
+---
+applications:
+- name: <app-name>
+  ...
+  env:
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
+    JBP_CONFIG_SAP_MACHINE_JRE: '{ version: 21.0.2 }'
+  ...
+```
+
+To point to the major version of the SapMachine JRE 21, specify it the following way:
+
+```
+---
+applications:
+- name: <app-name>
+  ...
+  env:
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
+    JBP_CONFIG_SAP_MACHINE_JRE: "{ version: 21.+ }"
 ```
 
 
@@ -135,7 +162,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
-    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 11.0.15 }'
+    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 11.0.22 }'
   ...
 ```
 
@@ -164,7 +191,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
-    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 17.0.8 }'
+    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 17.0.10 }'
   ...
 ```
 
@@ -180,8 +207,37 @@ applications:
     JBP_CONFIG_SAP_MACHINE_JDK: "{ version: 17.+ }"
 ```
 
+
+
+### SapMachine 21
+
+Use environment variable JBP\_CONFIG\_SAP\_MACHINE\_JDK in analogical way. For example:
+
+```
+---
+applications:
+- name: <app-name>
+  ...
+  env:
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
+    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 21.0.2 }'
+  ...
+```
+
+To point to the major version of the SapMachine JDK 21, specify it the following way:
+
+```
+---
+applications:
+- name: <app-name>
+  ...
+  env:
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
+    JBP_CONFIG_SAP_MACHINE_JDK: "{ version: 21.+ }"
+```
+
 > ### Restriction:  
-> As the SapMachine JDK is not bundled into the SAP Java Buildpack, if you want to use SapMachine JDK 11 or 17, you have to download them from the [GitHub project](https://sap.github.io/SapMachine/) as an online component.
+> As the SapMachine JDK is not bundled into the SAP Java Buildpack, if you want to use SapMachine JDK 11, 17 or 21, you have to download them from the [GitHub project](https://sap.github.io/SapMachine/) as an online component.
 
 **Related Information**  
 

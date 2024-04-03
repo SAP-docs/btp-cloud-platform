@@ -96,7 +96,7 @@ You can configure the application router to send additional HTTP headers, for ex
 > ### Sample Code:  
 > `local-http.headers.json`
 > 
-> ```
+> ```json
 > [
 >   {
 >     "X-Frame-Options": "ALLOW-FROM http://localhost"
@@ -194,7 +194,7 @@ The application-router process should run with at least 256MB memory. The amount
 You can use the start-up parameter `max-old-space-size` to restrict the amount of memory used by the JavaScript heap. The default value for `max-old-space-size` is less than 2GB. To enable the application to use all available resources, the value of `max-old-space-size` should be set to a number equal to the memory limit for the whole application. For example, if the application memory is limited to 2GB, set the heap limit as follows, in the application's `package.json` file:
 
 > ### Sample Code:  
-> ```
+> ```json
 > "scripts": {
 >   "start": "node --max-old-space-size=2048 node_modules/@sap/approuter/approuter.js"
 > }
@@ -203,7 +203,7 @@ You can use the start-up parameter `max-old-space-size` to restrict the amount o
 If the application router is running in an environment with limited memory, set the heap limit to about 75% of available memory. For example, if the application router memory is limited to 256MB, add the following command to your `package.json`:
 
 > ### Sample Code:  
-> ```
+> ```json
 > "scripts": {
 >   "start": "node --max-old-space-size=192 node_modules/@sap/approuter/approuter.js"
 > }

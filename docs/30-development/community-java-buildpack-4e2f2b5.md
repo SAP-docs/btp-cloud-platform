@@ -6,6 +6,29 @@ Find SAP-managed Cloud Foundry Java components and updates that belong to the co
 
 
 
+<a name="loio4e2f2b506c2d4ea49f808fee70bc2fe6__section_kfn_ldv_f5b"/>
+
+## Buildpack Versioning
+
+The SAP BTP, Cloud Foundry environment provides one recent version of **`java_buildpack`** as part of its system buildpacks. To check this version, proceed as follows:
+
+1.  Log in to a particular SAP BTP region and subaccount. For example, if your region is **eu10**, run:
+
+    ```
+    cf api https://api.cf.eu10.hana.ondemand.com
+    ```
+
+2.  Then run:
+
+    ```
+    cf buildpacks
+    ```
+
+
+To learn about changes in Node.js versions and features, regularly check the latest [buildpack releases](https://github.com/cloudfoundry/nodejs-buildpack/releases) in the GitHub community page.
+
+
+
 <a name="loio4e2f2b506c2d4ea49f808fee70bc2fe6__section_drm_2w2_31c"/>
 
 ## Updates

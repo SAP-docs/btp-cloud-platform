@@ -65,131 +65,6 @@ When you include systems in a formation, these systems are synchronized in the b
 
 If you want to reconfigure the systems in a formation from scratch without excluding them, you have to choose *Reset and Resynchronize*. You will have this action available only for formations that have no status in SAP BTP cockpit and their formation type is Side-by-Side Extensibility with Kyma.
 
-The table below outlines the system types that you can include in a formation, as well as, the supported SAP BTP environment:
-
-
-<table>
-<tr>
-<th valign="top">
-
-System Type
-
-</th>
-<th valign="top">
-
-Cloud Foundry Environment
-
-</th>
-<th valign="top">
-
-Kyma Environment
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-SAP S/4HANA Cloud
-
-</td>
-<td valign="top">
-
-Supported
-
-</td>
-<td valign="top">
-
-Supported
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Marketing Cloud
-
-</td>
-<td valign="top">
-
-Supported
-
-</td>
-<td valign="top">
-
-Supported
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP SuccessFactors
-
-</td>
-<td valign="top">
-
-Supported
-
-</td>
-<td valign="top">
-
-Supported
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Commerce Cloud
-
-</td>
-<td valign="top">
-
-\-
-
-</td>
-<td valign="top">
-
-Supported
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Cloud for Customer
-
-</td>
-<td valign="top">
-
-\-
-
-</td>
-<td valign="top">
-
-Supported
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Field Service Management
-
-</td>
-<td valign="top">
-
-\-
-
-</td>
-<td valign="top">
-
-Supported
-
-</td>
-</tr>
-</table>
-
 > ### Note:  
 > When registering a system or creating a formation, the data you provide in the given input fields is not encrypted with your customer managed key. The data you enter is only encrypted at rest.
 
@@ -248,20 +123,6 @@ Supported
         <tr>
         <td valign="top">
         
-        *Eventing Between SAP Cloud Systems* 
-        
-        </td>
-        <td valign="top">
-        
-        Formations of type *Eventing Between SAP Cloud Systems* enable end-to-end communication flow of events between the SAP systems that are included in the given formation. As the name of the formation suggests, the systems transmit information about events using SAP Event Broker. To be able to exchange such events information, the SAP systems must be also visible and configurable in the SAP Event Broker user interface. The formation makes the systems visible in SAP Event Broker, however, it requires a subscription to SAP Event Broker in the corresponding SAP BTP subaccount first.
-
-        See [Enabling Events Exchange Between SAP Cloud Systems](enabling-events-exchange-between-sap-cloud-systems-1592246.md).
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
         *Developing with SAP Business Application Studio* 
         
         </td>
@@ -270,6 +131,34 @@ Supported
         Formations of type *Developing with SAP Business Application Studio* enable connectivity between given SAP systems of type *SAP S/4HANA Cloud* from the *System Landscape* page of SAP BTP cockpit and the SAP Business Application Studio, you must create a formation of the corresponding type and include the SAP S/4HANA Cloud systems in it.
 
         See [Enabling System Landscape for SAP Business Application Studio](enabling-system-landscape-for-sap-business-application-studio-272ca23.md).
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        *Integration with SAP Build* 
+        
+        </td>
+        <td valign="top">
+        
+        Formations of type *Integration with SAP Build* enable connectivity between given SAP systems of type *SAP S/4HANA Cloud* from the *System Landscape* page of SAP BTP cockpit and SAP Build, you must create a formation of the corresponding type and include the SAP S/4HANA Cloud systems in it.
+
+        See [Enabling System Landscape for SAP Build](enabling-system-landscape-for-sap-build-6424311.md).
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        *Eventing Between SAP Cloud Systems* 
+        
+        </td>
+        <td valign="top">
+        
+        Formations of type *Eventing Between SAP Cloud Systems* enable end-to-end communication flow of events between the SAP systems that are included in the given formation. As the name of the formation suggests, the systems transmit information about events using SAP Event Broker. To be able to exchange such events information, the SAP systems must be also visible and configurable in the SAP Event Broker user interface. The formation makes the systems visible in SAP Event Broker, however, it requires a subscription to SAP Event Broker in the corresponding SAP BTP subaccount first.
+
+        See [Enabling Events Exchange Between SAP Cloud Systems](enabling-events-exchange-between-sap-cloud-systems-1592246.md).
         
         </td>
         </tr>
@@ -298,6 +187,20 @@ Supported
         Formations of type *Integration with SAP Start* set up SAP Start with SAP S/4HANA Cloud on SAP BTP.
 
         See [Enabling SAP Start](enabling-sap-start-f7d3f5e.md).
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        *Data Ingestion for Industry Cloud Solutions* 
+        
+        </td>
+        <td valign="top">
+        
+        Formations of type *Data Ingestion for Industry Cloud Solutions* set systems that support data ingestion and are part of the industry cloud solutions published by SAP and SAP BTP.
+
+        See [Enabling Data Ingestion for Industry Cloud Solutions](enabling-data-ingestion-for-industry-cloud-solutions-0b23a32.md).
         
         </td>
         </tr>

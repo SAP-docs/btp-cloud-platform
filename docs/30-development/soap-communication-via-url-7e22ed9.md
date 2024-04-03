@@ -13,19 +13,24 @@ Instead of setting the *Additional Properties* as in the destination service app
 -   `use_client_certificate( )`: Sets the authentication method to client certificate authentication. The default client certificate is used.
 
 > ### Note:  
-> An existing consumption model is required.
+> An existing service consumption model \(SRVC\) is required.
 
 > ### Note:  
 > Use the URL approach mainly for testing purposes.
 
+Call the SOAP service as described in the example. As described in [SOAP Communication via Communication Arrangements](soap-communication-via-communication-arrangements-2133e15.md), copy the code snippet from the *Overview* tab in your SRVC. Replace the `CREATE_BY_COMM_ARRANGEMENT` method with the `CREATE_BY_URL` method and pass the required URL to the method.
+
 > ### Sample Code:  
 > ```abap
 > TRY.
+> 
+> "replace create_by_comm_arrangement with create_by_url
 >     DATA(soap_destination) = cl_soap_destination_provider=>create_by_url( 
 > 						'https://<host>/sap/bc/srt/xip/sap/<provider>/000/<service>/<binding>').
 >  
 >     soap_destination->use_client_certificate( ).
->  
+> 
+> "generated code snippet 
 >     DATA(proxy) = NEW zsc_co_service( destination = soap_destination ).
 >  
 >     DATA(request) = VALUE zsc_req_msg_type( req_msg_type-product = '<product name>' ).

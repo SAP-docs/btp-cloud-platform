@@ -50,6 +50,12 @@ Make sure that you've the latest versions of the tools you're using \(recommende
 
 When using SAP BTP cockpit as an S-user, try Built-In Support to get customer help within the cockpit. See [Built-In Support](https://help.sap.com/docs/built-in-support).
 
+
+
+### Learn the Best Practices and Offerings
+
+Familiarize with the guidelines how to engage with support. See [Support from SAP Best Practices & Offerings](https://d.dam.sap.com/a/ewzMPHk/Support%20Best%20Practices%20Offerings.pdf?rc=10).
+
 <a name="concept_tbg_yzt_mqb"/>
 
 <!-- concept\_tbg\_yzt\_mqb -->

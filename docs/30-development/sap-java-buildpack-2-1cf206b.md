@@ -17,7 +17,7 @@ This buildpack supports the following runtimes:
 
 ## Usage
 
-To use this buildpack, specify its name when deploying a Java \(Jakarta\) application to SAP BTP, Cloud Foundry:
+To use this buildpack, specify its name when deploying a Java \(Jakarta\) application to the SAP BTP, Cloud Foundry environment:
 
 ```
 cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack_jakarta
@@ -59,31 +59,41 @@ modules:
 
 The SAP BTP, Cloud Foundry environment provides four versions of SAP Java Buildpack 2 as part of its system buildpacks:
 
--   *sap\_java\_buildpack\_jakarta* - Holds the latest available version of SAP Java Buildpack 2. All new features and fixes are provided with this version.
+-   *sap\_java\_buildpack\_jakarta* – Holds the latest available version of SAP Java Buildpack 2. All new features and fixes are provided with this version.
 
--   *sap\_java\_buildpack\_jakarta\_<version\_latest\>* - Holds the latest available version of SAP Java Buildpack 2; available for a limited timeframe \(4 to 6 weeks\).
+-   *sap\_java\_buildpack\_jakarta\_<version\_latest\>* – Holds the latest available version of SAP Java Buildpack 2. It's available for a limited timeframe \(4 to 6 weeks\).
 
--   *sap\_java\_buildpack\_jakarta\_<version\_previous\>* - This version used to be latest in the previous update of the SAP BTP, Cloud Foundry environment; available for a limited timeframe \(4 to 6 weeks\).
+-   *sap\_java\_buildpack\_jakarta\_<version\_previous\>* – This version used to be latest in the previous update of the SAP BTP, Cloud Foundry environment. It's available for a limited timeframe \(4 to 6 weeks\).
 
--   *sap\_java\_buildpack\_jakarta\_<version\_before\_previous\>* - This version used to be latest before two updates of the SAP BTP, Cloud Foundry; available for a limited timeframe \(4 to 6 weeks\).
-
-
-To check these versions:
-
-1.  Log in to a particular SAP BTP region and subaccount. Run: **`cf api <SAP BTP region>`**
-
-    For example: **`cf api https://api.cf.eu10.hana.ondemand.com`**
-
-2.  Then run: **`cf buildpacks`**
+-   *sap\_java\_buildpack\_jakarta\_<version\_before\_previous\>* – This version used to be latest before two updates of the SAP BTP, Cloud Foundry environment. It's available for a limited timeframe \(4 to 6 weeks\).
 
 
+To check these versions, proceed as follows:
+
+1.  Log in to a particular SAP BTP region and subaccount. For example, if your region is **eu10**, run:
+
+    ```
+    cf api https://api.cf.eu10.hana.ondemand.com
+    ```
+
+2.  Then run:
+
+    ```
+    cf buildpacks
+    ```
 
 
-### How to use the SAP Java Buildpack 2 versions?
 
--   Use the default **sap\_java\_buildpack\_jakarta** – You take advantage of all latest features and fixes in SAP Java Buildpack 2. This way, it's guaranteed that the buildpack is always available. The drawback in this case is the limited time for any adoption which might be needed. In such a scenario, applications can fall back to an older version temporarily to avoid any downtime.
 
--   Set a particular version of the buildpack - Bear in mind that this version will exist for a limited amount of time. This may lead to the situation where application restage is failing because the used version of the buildpack is no longer available. To avoid this, we recommend that you follow the updates of the buildpack and test your applications with the latest buildpack version. Developers should never allow their applications to run on an outdated buildpack version.
+### How to use versions of SAP Java Buildpack 2?
+
+-   **Option 1:** Use the default one – *sap\_java\_buildpack\_jakarta* 
+
+    You take advantage of all latest features and fixes in SAP Java Buildpack 2. This way, it's guaranteed that the buildpack is always available. The drawback in this case is the limited time for adoption, if it's needed. In such a scenario, applications can fall back to an older version temporarily to avoid any downtime.
+
+-   **Option 2:** Set a particular version – *sap\_java\_buildpack\_jakarta\_<version\_suffix\>*
+
+    Bear in mind that this version will only exist for a limited amount of time. This may lead to the situation where application restage is failing because the used version of the buildpack is no longer available. To avoid this, we recommend that you follow the updates of the buildpack and test your applications with its latest version. Developers should never allow their applications to run on an outdated buildpack version.
 
 
 **Example:**
@@ -99,7 +109,7 @@ sap_java_buildpack_jakarta_2_9       3         true      false    sap_java_build
 sap_java_buildpack_jakarta_2_8       4         true      false    sap_java_buildpack_jakarta-2.8.0.zip
 ```
 
-When SAP Java Buildpack 2 is updated on the SAP BTP, Cloud Foundry from version **2.10.0** to **2.11.0**, the list will change to:
+When SAP Java Buildpack 2 is updated on the SAP BTP, Cloud Foundry environment from version **2.10.0** to **2.11.0**, the list will change to:
 
 ```
 buildpack           position   enabled   locked   filename
@@ -117,9 +127,9 @@ This means that *sap\_java\_buildpack\_jakarta\_2\_8* will no longer be availabl
 
 
 
-### Switching to a different version of the buildpack
+### How to switch to a specific buildpack version?
 
-To use *sap\_java\_buildpack\_jakarta\_<version\_suffix\>*, specify its name when pushing an application to SAP BTP, Cloud Foundry:
+To use *sap\_java\_buildpack\_jakarta\_<version\_suffix\>*, specify its name when pushing an application to the SAP BTP, Cloud Foundry environment:
 
 ```
 cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack_jakarta_<version_suffix>
@@ -161,11 +171,12 @@ modules:
 
 <a name="loio1cf206b5ef7043b282ba87380fcfbfc1__section_dvg_kcz_vtb"/>
 
-## Supported Versions
+## Supported Java Versions
 
-SAP Java Buildpack 2 \(`sap_java_buildpack_jakarta`\) supports the following Java version:
+SAP Java Buildpack 2 \(`sap_java_buildpack_jakarta`\) supports the following Java versions:
 
--   Java **17** – you use it via SapMachine JRE 17
+-   Java **17** – default version. You can obtain it by using SapMachine 17 \(*it provides a JRE with Java 17*\)
+-   Java **21** – you can obtain it by using SapMachine 21 \(*it provides a JRE with Java 21*\)
 
 To learn how to configure your application to use SapMachine JRE and JDK, see: [SapMachine](sapmachine-785d6b3.md)
 
@@ -177,7 +188,7 @@ To learn how to configure your application to use SapMachine JRE and JDK, see: [
 
 SAP Java Buildpack 2 provides the following components in the application container \(`<APP_ROOT_DIR>/app/META-INF/.sap_java_buildpack_jakarta`\):
 
--   Runtime – [Tomcat 10](tomcat-10-97d0e34.md) and [Java Main](java-main-8a1786a.md)
+-   Runtimes – [Tomcat 10](tomcat-10-97d0e34.md) and [Java Main](java-main-8a1786a.md)
 
 -   [SapMachine](sapmachine-785d6b3.md)
 
@@ -208,12 +219,4 @@ If you encounter an issue while using SAP Java Buildpack 2, you can:
 
 -   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51220/?version=current) 
 
-
-
-
-<a name="loio1cf206b5ef7043b282ba87380fcfbfc1__section_ugc_sbl_15b"/>
-
-## Java Tutorial
-
-The following tutorial will guide you through creating a Java application in Cloud Foundry Command Line Interface \(cf CLI\), consuming Cloud Foundry services, and setting up authentication and authorization checks. See: [Create an Application with SAP Java Buildpack](https://developers.sap.com/tutorials/btp-cf-buildpacks-java-create.html)
 

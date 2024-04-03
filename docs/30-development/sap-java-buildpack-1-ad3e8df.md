@@ -19,7 +19,7 @@ This buildpack supports the following runtimes:
 
 ## Usage
 
-To use this buildpack, specify its name when deploying a Java application to SAP BTP, Cloud Foundry:
+To use this buildpack, specify its name when deploying a Java application to the SAP BTP, Cloud Foundry environment:
 
 ```
 cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack
@@ -59,38 +59,48 @@ modules:
 
 ## Buildpack Versioning
 
-The SAP BTP, Cloud Foundry environment provides four versions of SAP Java Buildpack as part of its system buildpacks:
+The SAP BTP, Cloud Foundry environment provides four versions of SAP Java Buildpack 1 as part of its system buildpacks:
 
--   *sap\_java\_buildpack* - Holds the latest available version of SAP Java Buildpack. All new features and fixes are provided with this version.
+-   *sap\_java\_buildpack* – Holds the latest available version of SAP Java Buildpack 1. All new features and fixes are provided with this version.
 
--   *sap\_java\_buildpack\_<version\_latest\>* - Holds the latest available version of SAP Java Buildpack; available for a limited timeframe \(4 to 6 weeks\).
+-   *sap\_java\_buildpack\_<version\_latest\>* – Holds the latest available version of SAP Java Buildpack 1. It's available for a limited timeframe \(4 to 6 weeks\).
 
--   *sap\_java\_buildpack\_<version\_previous\>* - This version used to be latest in the previous update of the SAP BTP, Cloud Foundry environment; available for a limited timeframe \(4 to 6 weeks\).
+-   *sap\_java\_buildpack\_<version\_previous\>* – This version used to be latest in the previous update of the SAP BTP, Cloud Foundry environment. It's available for a limited timeframe \(4 to 6 weeks\).
 
--   *sap\_java\_buildpack\_<version\_before\_previous\>* - This version used to be latest before two updates of the SAP BTP, Cloud Foundry; available for a limited timeframe \(4 to 6 weeks\).
-
-
-To check these versions:
-
-1.  Log in to a particular SAP BTP region and subaccount. Run: **`cf api <SAP BTP region>`**
-
-    For example: **`cf api https://api.cf.eu10.hana.ondemand.com`**
-
-2.  Then run: **`cf buildpacks`**
+-   *sap\_java\_buildpack\_<version\_before\_previous\>* – This version used to be latest before two updates of the SAP BTP, Cloud Foundry environment. It's available for a limited timeframe \(4 to 6 weeks\).
 
 
+To check these versions, proceed as follows:
+
+1.  Log in to a particular SAP BTP region and subaccount. For example, if your region is **eu10**, run:
+
+    ```
+    cf api https://api.cf.eu10.hana.ondemand.com
+    ```
+
+2.  Then run:
+
+    ```
+    cf buildpacks
+    ```
 
 
-### How to use the SAP Java Buildpack versions?
 
--   Use the default **sap\_java\_buildpack**
 
--   Set a particular version of the buildpack - Bear in mind that this version will exist for a limited amount of time. This may lead to the situation where application restage is failing because the used version of the buildpack is no longer available. To avoid this, we recommend that you follow the updates of the buildpack and test your applications with the latest buildpack version. Developers should never allow their applications to run on an outdated buildpack version. – You take advantage of all latest features and fixes in SAP Java Buildpack. This way, it's guaranteed that the buildpack is always available. The drawback in this case is the limited time for any adoption which might be needed. In such a scenario, applications can fall back to an older version temporarily to avoid any downtime.
+### How to use versions of SAP Java Buildpack 1?
+
+-   **Option 1:** Use the default one – *sap\_java\_buildpack* 
+
+    You take advantage of all latest features and fixes in SAP Java Buildpack 1. This way, it's guaranteed that the buildpack is always available. The drawback in this case is the limited time for adoption, if it's needed. In such a scenario, applications can fall back to an older version temporarily to avoid any downtime.
+
+-   **Option 2:** Set a particular version – *sap\_java\_buildpack\_<version\_suffix\>*
+
+    Bear in mind that this version will only exist for a limited amount of time. This may lead to the situation where application restage is failing because the used version of the buildpack is no longer available. To avoid this, we recommend that you follow the updates of the buildpack and test your applications with its latest version. Developers should never allow their applications to run on an outdated buildpack version.
 
 
 **Example:**
 
-Let's say that the latest version of SAP Java Buildpack is **1.80.0**. Then, the output of the `cf buildpacks` command would be:
+Let's say that the latest version of SAP Java Buildpack 1 is **1.80.0**. Then, the output of the `cf buildpacks` command would be:
 
 ```
 buildpack           position   enabled   locked   filename
@@ -101,7 +111,7 @@ sap_java_buildpack_1_79      3         true      false    sap_java_buildpack-1.7
 sap_java_buildpack_1_78      4         true      false    sap_java_buildpack-1.78.0.zip
 ```
 
-When SAP Java Buildpack is updated on the SAP BTP, Cloud Foundry from version **1.80.0** to **1.81.0**, the list will change to:
+When SAP Java Buildpack 1 is updated on the SAP BTP, Cloud Foundry environment from version **1.80.0** to **1.81.0**, the list will change to:
 
 ```
  – You take advantage of all latest features and fixes in SAP Javabuildpack           position   enabled   locked   filename
@@ -119,9 +129,9 @@ This means that *sap\_java\_buildpack\_1\_78* will no longer be available for ap
 
 
 
-### Switching to a different version of the buildpack
+### How to switch to a specific buildpack version?
 
-To use *sap\_java\_buildpack\_<version\_suffix\>*, specify its name when pushing an application to SAP BTP, Cloud Foundry:
+To use *sap\_java\_buildpack\_<version\_suffix\>*, specify its name when pushing an application to SAP BTP, Cloud Foundry environment:
 
 ```
 cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack_<version_suffix>
@@ -163,7 +173,7 @@ modules:
 
 <a name="loioad3e8dfdbaad423e96ca875a4cd36f61__section_dvg_kcz_vtb"/>
 
-## Supported Versions
+## Supported Java Versions
 
 SAP Java Buildpack 1 \(`sap_java_buildpack`\) supports the following Java versions:
 
@@ -179,9 +189,9 @@ To learn how to configure your application to use SapMachine JRE and JDK, see: [
 
 ## Components
 
-SAP Java Buildpack provides the following components in the application container \(`<APP_ROOT_DIR>/app/META-INF/.sap_java_buildpack`\):
+SAP Java Buildpack 1 provides the following components in the application container \(`<APP_ROOT_DIR>/app/META-INF/.sap_java_buildpack`\):
 
--   Runtime – [Tomcat 9](tomcat-9-ddfc101.md), [TomEE 7](tomee-7-79c039a.md), and [Java Main](java-main-8a1786a.md)
+-   Runtimes – [Tomcat 9](tomcat-9-ddfc101.md), [TomEE 7](tomee-7-79c039a.md), and [Java Main](java-main-8a1786a.md)
 
 -   [SapMachine](sapmachine-785d6b3.md)
 
@@ -200,9 +210,9 @@ To check all the components regularly updated in the SAP Java Buildpack 1.x rele
 
 ## Async Servlets
 
-In the current version of the SAP Java Buildpack, the async servlets are *not supported*.
+In the current version of the SAP Java Buildpack 1, the async servlets are *not supported*.
 
-**Reason:** Some of the [valves](https://tomcat.apache.org/tomcat-8.0-doc/config/valve.html) that SAP Java Buildpack brings to Tomcat and TomEE 7 are not "async enabled".
+**Reason:** Some of the [valves](https://tomcat.apache.org/tomcat-8.0-doc/config/valve.html) that SAP Java Buildpack 1 brings to Tomcat and TomEE 7 are not "async enabled".
 
 
 

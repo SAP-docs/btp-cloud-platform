@@ -234,6 +234,8 @@ SAML Assertion Authentication
 
 OpenID Connect Bearer Token
 
+OAuth 2.0 Authorization Code with Proof Key for Code Exchange \(PKCE\)
+
 </td>
 </tr>
 <tr>

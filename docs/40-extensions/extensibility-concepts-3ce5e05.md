@@ -12,21 +12,13 @@ When implementing your extensibility scenario, there are a couple of concepts yo
 
 A system is a specific instance of an SAP or third-party solution that is manually added or auto discovered and is listed in the SAP BTP cockpit.
 
-When you want to add functionality to your SAP or third-party solution, you start by developing an extension application and deploying it in SAP BTP. Then, to allow the application to access the SAP or third-party solution, you add the system of this solution to the *System Landscape* page of the SAP BTP cockpit and you register it. The following system types are supported:
+When you want to add functionality to your SAP or third-party solution, you start by developing an extension application and deploying it in SAP BTP. Then, to allow the application to access the SAP or third-party solution, you add the system of this solution to the *System Landscape* page of the SAP BTP cockpit. If the system is one of the following types, you also have to register it using a registration token:
 
 -   SAP S/4HANA Cloud
 
 -   SAP Marketing Cloud
 
 -   SAP SuccessFactors
-
--   SAP Cloud for Customer
-
--   SAP Commerce Cloud
-
--   SAP Field Service Management
-
--   Other System Type
 
 
 
@@ -183,19 +175,7 @@ A consumption bundle can group logically a set of events for communication with 
 
 ### Types
 
-The formation type defines the use case. Therefore, depending on the use case, you can specify one of the following formation types:
-
-**Side-by-Side Extensibility with Kyma**
-
-Formations of type *Side-by-Side Extensibility with Kyma* enable business scenarios that involve extending the functionality of several systems at a time with SAP BTP Kyma environment instance. See [Enabling Side-by-Side Extensibility with Kyma](enabling-side-by-side-extensibility-with-kyma-9154051.md).
-
-**Eventing Between SAP Cloud Systems**
-
-Systems that are included in *Eventing Between SAP Cloud Systems* formations on the *System Landscape* page of the SAP BTP cockpit can publish and consume events. The process of publishing and consumption of events is in fact an exchange of event information across the customer system landscape and is driven by the system formations on the one hand side and the SAP Event Broker on the other.
-
-**Developing with SAP Business Application Studio**
-
-Formations of type *Developing with SAP Business Application Studio* enable connectivity between given SAP systems of type *SAP S/4HANA Cloud* from the *System Landscape* page of SAP BTP cockpit and the SAP Business Application Studio, you must create a formation of the corresponding type and include the SAP S/4HANA Cloud systems in it. See [Enabling System Landscape for SAP Business Application Studio](enabling-system-landscape-for-sap-business-application-studio-272ca23.md).
+The formation type defines the use case. Therefore, depending on the use case, you have different formation types. To a get a list of the available formation types, see [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
 
 
 

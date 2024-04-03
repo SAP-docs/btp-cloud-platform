@@ -42,6 +42,10 @@ To monitor and track costs and usage in your global account, open the global acc
 
 ## Understanding the Cost and Usage Views
 
+
+
+### Global Account and Contract Information
+
 The upper area of the *Costs and Usage* page contains two side-by-side cards.
 
   
@@ -117,7 +121,66 @@ For example, if your subscription contract is entitled to consume a given servic
 > ### Note:  
 > To extract all cost and usage data to a spreadsheet document for the last 12, 24, or 36 months, click the *Export* button. The default is 12 months. To choose a different period, click the button's menu. See [Exporting Usage and Cost Data Information](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_vt2_dg4_2jb).
 
-Below these two cards, are the *Billing* and *Usage* views, represented by tabs:
+
+
+### Filters and Search
+
+Below the two cards, is the filter and search area:
+
+
+<table>
+<tr>
+<th valign="top">
+
+To Do This...
+
+</th>
+<th valign="top">
+
+Do This...
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Filter the data you want to view
+
+</td>
+<td valign="top">
+
+Above the *Billing* and *Usage* tabs, apply the filters to choose which services, subaccounts, directories, or billing month you want to view.
+
+You can also use the *Search* option. When you start typing, the search offers results that apply to service names, plan names, subaccount names, directory names, labels assigned to subaccounts and directories, product IDs \(SKU\), and metrics. The search offers suggestions only for items that are currently listed.
+
+> ### Tip:  
+> If you've set up labels in your subaccounts and directories that reflect the distribution of these entities to your company structure or projects, you can easily track and manage cross charges by entering the labels of your subaccount and directory labels in the search.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Share or save the filtered view
+
+</td>
+<td valign="top">
+
+You can use the <span class="SAP-icons-V5"></span> \(Bookmarks\) option to copy the URL of the displayed view and the currently set filters.
+
+You can then save this URL as a bookmark in your browser, or you can share it with a colleague so they can quickly open the same view and filter settings.
+
+</td>
+</tr>
+</table>
+
+
+
+### Billing and Usage Views
+
+Below the filter and search area, are the *Billing* and *Usage* views, represented by tabs:
 
 
 <table>
@@ -162,7 +225,8 @@ For more information about this view, see [Using the Usage View](monitoring-usag
   
 **Simplified graphic of the Billing view of the Costs and Usage page**
 
-![](images/Costs_and_Usage_-_Billing_View_8ab0cc8.png "Simplified graphic of the Billing view of the Costs and Usage page")
+![](images/Costs_and_Usage_-_Billing_View_8ab0cc8.png "Simplified graphic of the Billing view of the Costs and Usage
+						page")
 
 The *Costs and Usage* page uses the same terminology that is used in your monthly balance statement, which facilitates better contract-to-billing traceability and verification for cost controllers. Get your latest balance statement from [SAP for Me](https://me.sap.com/).
 
@@ -202,39 +266,6 @@ Find out what the table columns mean
 <td valign="top">
 
 Click the <span class="SAP-icons-V5"></span> \(More Info\) buttons in the column headings, where available.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Filter the data you want to view
-
-</td>
-<td valign="top">
-
-Above the tables, apply the filters to choose which services, subaccounts, directories, or billing month you want to view.
-
-You can also use the *Search* option. When you start typing, the search offers results that apply to service names, plan names, subaccount names, directory names, labels assigned to subaccounts and directories, product IDs \(SKU\), and metrics. The search offers suggestions only for items that are currently listed.
-
-> ### Tip:  
-> If you've set up labels in your subaccounts and directories that reflect the distribution of these entities to your company structure or projects, you can easily track and manage cross charges by entering the labels of your subaccount and directory labels in the search.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Share or save the filtered view
-
-</td>
-<td valign="top">
-
-You can use the <span class="SAP-icons-V5"></span> \(Bookmarks\) option to copy the URL of the displayed view and its currently set filters.
-
-You can then save this URL as a bookmark in your browser, or you can share it with a colleague so they can quickly open the same view and filter settings.
 
 </td>
 </tr>
@@ -346,7 +377,7 @@ Here are some useful tips for working in this perspective:
     > This graph is useful for seeing in which months a service plan has usage and costs, which service plans have increased or decreased usage/costs over time, or the months that have the highest and lowest usage/costs per service plan.
 
 
-See other useful tips, such as table sorting and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
+See other useful tips, such as table sorting, filtering, and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
 
 </td>
 </tr>
@@ -487,7 +518,7 @@ This graph is useful for seeing changes in usage trends over time, including the
 </table>
 
 > ### Tip:  
-> See other useful tips, such as table sorting and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
+> See other useful tips, such as table sorting, filtering, and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
 
 
 

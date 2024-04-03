@@ -33,7 +33,7 @@ A booster is a set of guided interactive steps that enable you to select, config
 
     -   For the *ABAP environment* service, the service plan *standard* enables you to size ABAP server and persistence independently from each other in 16 GB units. These units are represented in the quota plans *abap\_compute\_unit* and *hana\_compute\_unit*.
 
-        As part of the default quota assignment, you get at least 1 compute unit in the *abap\_compute\_unit* service plan and at least 4 compute units in the *hana\_compute\_unit* service plan. This corresponds to the minimum configuration for an instance of the ABAP Environment service. You can also choose higher quotas in the dialog of the booster.
+        As part of the default quota assignment, you get at least 1 compute unit in the *abap\_compute\_unit* service plan and at least 2 compute units in the *hana\_compute\_unit* service plan. This corresponds to the minimum configuration for an instance of the ABAP Environment service. You can also choose higher quotas in the dialog of the booster.
 
     -   For the *Web Access to ABAP* service, a default plan is chosen that you cannot change. You need the service and the quota for direct browser access to your instances in the ABAP environment, including access to the administration launchpad for ABAP.
     -   Depending on what you have ordered for your account, additional entitlements for the services *Cloud Foundry Runtime*, *Launchpad*, and *SAP Business Application Studio* might be shown. They are optional; you can remove the entitlements if you don't need them right now and want to add them later:

@@ -11,10 +11,10 @@ The following is an example `manifest.json` file of a Business Service:
 > ### Sample Code:  
 > ```
 > {
->   “sap.app”: {
->     “id”:“com.sap.appbasic.country.list”,
->     “applicationVersion: {
->     “version”: “1.0.0”
+>   "sap.app": {
+>     "id":"com.sap.appbasic.country.list",
+>     "applicationVersion: {
+>     "version": "1.0.0"
 >   },
 >   "dataSources": {
 >     "mainService":{
@@ -22,9 +22,9 @@ The following is an example `manifest.json` file of a Business Service:
 >       "type": "OData"
 >     }
 >   },
->   “sap.cloud”: {
+>   "sap.cloud": {
 >     "public": true,
->     “service”: “com.sap.appbasic.country“
+>     "service": "com.sap.appbasic.country"
 >   }
 > }
 > ```

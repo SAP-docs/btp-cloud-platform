@@ -26,8 +26,6 @@ SAP includes a selection of Python packages, which are available for download an
 
 The following table lists the SAP Python packages that are currently available. For more details about the contents of each Python package, as well as any configuration tips, see the README file in the corresponding package.
 
-**Python packages**
-
 
 <table>
 <tr>
@@ -115,13 +113,19 @@ The SAP HANA Database Client provides means for database connectivity.
 
 ## Buildpack Versioning
 
-The SAP BTP, Cloud Foundry environment provides one recent version of the Python buildpack as part of its system buildpacks. To check this version:
+The SAP BTP, Cloud Foundry environment provides one recent version of **`python_buildpack`** as part of its system buildpacks. To check this version, proceed as follows:
 
-1.  Log in to a particular SAP BTP region and subaccount. Run: **`cf api <SAP BTP region>`**
+1.  Log in to a particular SAP BTP region and subaccount. For example, if your region is **eu10**, run:
 
-    For example: **`cf api https://api.cf.eu10.hana.ondemand.com`**
+    ```
+    cf api https://api.cf.eu10.hana.ondemand.com
+    ```
 
-2.  Then run: **`cf buildpacks`**
+2.  Then run:
+
+    ```
+    cf buildpacks
+    ```
 
 
 To learn about changes in Python versions and features, regularly check the latest [buildpack releases](https://github.com/cloudfoundry/python-buildpack/releases) in the GitHub community page.

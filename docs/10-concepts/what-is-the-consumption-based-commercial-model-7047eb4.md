@@ -9,14 +9,39 @@ With the consumption-based model, your organization purchases an entitlement to 
 
 
 
-The consumption-based commercial model is available in the following flavors: the **CPEA** \(**Cloud Platform Enterprise Agreement**\) and **Pay-As-You-Go for SAP BTP**. Each option is suited to different business situations and levels of financial commitment, as described in the table below. For additional information and clarifications, please contact your account executive.
+The consumption-based commercial model is available in the following flavors: the **SAP BTPEA** **\(SAP BTP Enterprise Agreement\)**, the **CPEA** \(**Cloud Platform Enterprise Agreement**\), and **Pay-As-You-Go for SAP BTP**. Each option is suited to different business situations and levels of financial commitment, as described in the table below. For additional information and clarifications, please contact your account executive.
 
 
 <table>
 <tr>
 <td valign="top">
 
+**SAP BTPEA**
+
+</td>
+<td valign="top">
+
+-   Your organization makes a prepaid investment in cloud credits for the contract duration with an annual commitment to consume SAP BTP services.
+-   This model is suitable for customers that have well-established and planned use cases, and who want the flexibility of turning services on and off, and switching between services, without the commitment of being tied to a single service throughout the duration of the contract.
+-   You receive a monthly balance statement that provides information about the usage consumption of each service and the corresponding costs. The total monthly cost is deducted from your cloud credits balance.
+-   This model has a minimum investment entry, and volume-based discounts are available.
+-   You are billed annually in advance. Any overages are billed in arrears at list price.
+-   You can top up your cloud credits at any time to prevent overages.
+-   You get access to new SAP BTP services that are added to the consumption-based service catalog.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 **CPEA**
+
+> ### Note:  
+> The service scope of CPEA will no longer be extended. All new services will be available with SAP BTPEA instead.
+
+
 
 </td>
 <td valign="top">
@@ -62,7 +87,7 @@ If you want information about the **Pay-As-You-Go for SAP BTP for Partners** com
 
 For information about eligible services and pricing, see [https://www.sap.com/products/technology-platform/pricing.html](https://www.sap.com/products/technology-platform/pricing.html), or access the SAP BTP service catalog via the [SAP Discovery Center](https://discovery-center.cloud.sap). The SAP BTP service catalog allows you to identify service availability per data center and to determine licensing model compatibility per available service plan.
 
-As part of the free tier model for SAP BTP, some services offer free service plans that allow you to try out these services without any additional charge within your CPEA or Pay-As-You-Go for SAP BTP global account. For more information, see [Using Free Service Plans](using-free-service-plans-524e108.md).
+As part of the free tier model for SAP BTP, some services offer free service plans that allow you to try out these services without any additional charge within your SAP BTPEA,CPEA, or Pay-As-You-Go for SAP BTP global account. For more information, see [Using Free Service Plans](using-free-service-plans-524e108.md).
 
 To find frequently asked questions about this licensing model, see the [Consumption-based commercial model CPEA and Cloud Credits - FAQ Document](https://www.sap.com/products/extension-suite/pricing.html?pdf-asset=668ae6f5-cd7d-0010-87a3-c30de2ffd8ff).
 

@@ -620,7 +620,7 @@ Updating
 
 ## Azure Lite
 
-The technical name of the plan is `azure_lite`. The Asure Lite plan is offered to Partners, who can use it for testing, development and demo purposes.
+The technical name of the plan is `azure_lite`. The Azure Lite plan is offered to Partners, who can use it for testing, development, and demo purposes.
 
 > ### Remember:  
 > The parameters marked with an asterisk "\*" are mandatory.

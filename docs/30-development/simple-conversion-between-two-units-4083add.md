@@ -5,7 +5,7 @@
 Use method `UNIT_CONVERSION_SIMPLE` to convert values from one measurement unit to another and round the result to the number of decimal places maintained in the measurement unit table `T006`, if necessary. Depending on the parameter `ROUND_SIGN`, the rounding is up \(`'+'`\), down \(`'-'`\), commercial \(`'X'`'\), or no rounding \(SPACE\).
 
 > ### Note:  
-> Make sure that both units are maintained in the measurement unit table and have the same dimension.
+> Make sure that both units are maintained in the measurement unit table and are not dimensionless, but have both the **same** dimension.
 
 
 

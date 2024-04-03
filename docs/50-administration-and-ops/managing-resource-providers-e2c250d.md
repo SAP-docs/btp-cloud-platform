@@ -112,10 +112,10 @@ To consume the resources provisioned by your provider account, you need to first
     > 
     > ```
     > {
-    > “access_key_id”: “AWSACCESSKEY”,
-    > “secret_access_key”: “SECRETKEY”,
-    > “vpc_id”: “vpc-test”,
-    > “region”: “eu-central-1”
+    >    "access_key_id": "AWSACCESSKEY",
+    >    "secret_access_key": "SECRETKEY",
+    >    "vpc_id": "vpc-test",
+    >    "region": "eu-central-1"
     > }
     > 
     > ```

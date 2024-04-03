@@ -41,13 +41,19 @@ You can download and consume SAP developed Node.js packages via the SAP NPM Regi
 
 ## Buildpack Versioning
 
-The SAP BTP, Cloud Foundry environment provides one recent version of the Node.js buildpack as part of its system buildpacks. To check this version:
+The SAP BTP, Cloud Foundry environment provides one recent version of **`nodejs_buildpack`** as part of its system buildpacks. To check this version, proceed as follows:
 
-1.  Log in to a particular SAP BTP region and subaccount. Run: **`cf api <SAP BTP region>`**
+1.  Log in to a particular SAP BTP region and subaccount. For example, if your region is **eu10**, run:
 
-    For example: **`cf api https://api.cf.eu10.hana.ondemand.com`**
+    ```
+    cf api https://api.cf.eu10.hana.ondemand.com
+    ```
 
-2.  Then run: **`cf buildpacks`**
+2.  Then run:
+
+    ```
+    cf buildpacks
+    ```
 
 
 To learn about changes in Node.js versions and features, regularly check the latest [buildpack releases](https://github.com/cloudfoundry/nodejs-buildpack/releases) in the GitHub community page.

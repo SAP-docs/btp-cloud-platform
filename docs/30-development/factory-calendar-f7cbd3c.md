@@ -274,18 +274,6 @@ Provides the ID of the factory calendar
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-date\_compute\_day
-
-</td>
-<td valign="top">
-
-Provides the name and the number of the weeday for a specified date
-
-</td>
-</tr>
 </table>
 
 > ### Sample Code:  

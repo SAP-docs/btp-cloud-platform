@@ -60,7 +60,7 @@ The syntax required to set the properties and values defined in the `xs-security
  "oauth2-configuration": {
                     "token-validity": 900, 
                     "redirect-uris": ["https://myapp.cfapps.eu10.hana.ondemand.com","https://myapp.mydomain.com/my/logout"], 
-                    "credential-types": ["binding-secret","x509"]
+                    "credential-type": ["binding-secret","x509"]
  },
  "xsenableasyncservice":"true"
 }
@@ -222,7 +222,7 @@ In the `xs-security.json` file, “local”scopes must be prefixed with the vari
 
 ### Foreign Scopes
 
-Usually, “foreign” scopes include the service plan and the name of the application to which the scope belongs. For more information, see [Referencing the Application](application-security-descriptor-configuration-syntax-517895a.md#loio517895a9612241259d6941dbf9ad81cb__section_fm2_wsk_pdb)An OAuth client always gets the same client secret. It’s valid in all subaccounts. The. Use the following syntax:
+Usually, “foreign” scopes include the service plan and the name of the application to which the scope belongs. For more information, see [Referencing the Application](application-security-descriptor-configuration-syntax-517895a.md#loio517895a9612241259d6941dbf9ad81cb__section_fm2_wsk_pdb) Use the following syntax:
 
 <code>$XSAPPNAME(<i class="varname">&lt;service_plan&gt;</i>,<i class="varname">&lt;xsappname&gt;</i>).<i class="varname">&lt;local_scope_name&gt;</i></code>
 
@@ -257,7 +257,7 @@ Here is the syntax in the security descriptor of the application that grants the
 
 Bear in mind the following restrictions regarding the length and content of a scope name:
 
--   The following characters can be used in a scope name: `aA`–`zZ`, `0`–`9`, `-` \(hyphen\), `_` \(underscore\), `/` \(forward slash\), `\` \(backslash\), `:` \(colon\), and the element is only relevant for user scenarios where roles aren’t defined in their own service instance. Example: an admin application integrates different components, each having its own `.` \(period\)
+-   The following characters can be used in a scope name: `aA`–`zZ`, `0`–`9`, `-` \(hyphen\), `_` \(underscore\), `/` \(forward slash\), `\` \(backslash\), and `:` \(colon\).
 
 -   Scope names can't start with a leading `.` \(period\). For example, `.myScopeName1`.
 
@@ -303,7 +303,7 @@ The `attributes` element is only relevant for a user scenario. Each element of t
     In this case, you want to express that it's not necessary to set a specific value for this attribute. The behavior is the same as if the attribute would not exist for this role.
 
 
-For more information, see the related link.
+For more information, see the related link about attributes.
 
 The `attributes` definition can take the following properties:
 
@@ -789,7 +789,7 @@ The `xsuaa` service broker registers and uses these values for the configuration
 > 	     "https://myapp.cfapps.eu10-004.hana.ondemand.com",
 >           "https://myapp.mydomain.com/my/content"],
 >      "refresh-token-validity": 1800,
->      "credential-types": ["binding-secret","x509"],
+>      "credential-type": ["binding-secret","x509"],
 >      "system-attributes": ["groups","rolecollections"],
 >      "allowedproviders ": ["orgin_key1","origin_key2"]
 >      }
@@ -893,7 +893,7 @@ For more information, see [Listing Allowed Redirect URIs](../60-security/securit
 <tr>
 <td valign="top">
 
-`credential-types` 
+`credential-type` 
 
 </td>
 <td valign="top">
