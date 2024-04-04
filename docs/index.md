@@ -1859,6 +1859,7 @@
         -   [Auditing and Logging Information in Kyma](60-security/auditing-and-logging-information-in-kyma-935e241.md)
         -   [Configure a Custom Identity Provider for Kyma](60-security/configure-a-custom-identity-provider-for-kyma-67bcc6e.md)
         -   [Distributed Denial-of-Service Protection in Kyma](60-security/distributed-denial-of-service-protection-in-kyma-5e13d59.md)
+        -   [Security Vulnerability Management in the Kyma Environment](60-security/security-vulnerability-management-in-the-kyma-environment-b1b0a64.md)
 -   [Getting Support](70-getting-support/getting-support-5dd7398.md)
     -   [Providing Details for SAP HANA Service Database Problems](70-getting-support/providing-details-for-sap-hana-service-database-problems-75cde53.md)
     -   [Gather Support Information](70-getting-support/gather-support-information-6daa475.md)
