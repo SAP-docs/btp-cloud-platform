@@ -60,7 +60,7 @@ In the [What's New for SAP Business Technology Platform](https://help.sap.com/wh
     <td valign="top">
     
     ```
-    curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-windows-amd64-latest.tar.gz --cookie "eula_3_1_agreed=tools.hana.ondemand.com/developer-license-3_1.txt"
+    curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-windows-amd64-latest.tar.gz --cookie "eula_3_2_agreed=tools.hana.ondemand.com/developer-license-3_2.txt"
     ```
 
 
@@ -81,11 +81,11 @@ In the [What's New for SAP Business Technology Platform](https://help.sap.com/wh
     <td valign="top">
     
     ```
-    curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-darwin-amd64-latest.tar.gz --cookie "eula_3_1_agreed=tools.hana.ondemand.com/developer-license-3_1.txt"
+    curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-darwin-amd64-latest.tar.gz --cookie "eula_3_2_agreed=tools.hana.ondemand.com/developer-license-3_2.txt"
     ```
 
     ```
-    curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-darwin-arm64-latest.tar.gz --cookie "eula_3_1_agreed=tools.hana.ondemand.com/developer-license-3_1.txt"
+    curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-darwin-arm64-latest.tar.gz --cookie "eula_3_2_agreed=tools.hana.ondemand.com/developer-license-3_2.txt"
     ```
 
 
@@ -106,11 +106,11 @@ In the [What's New for SAP Business Technology Platform](https://help.sap.com/wh
     <td valign="top">
     
     ```
-    curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-linux-amd64-latest.tar.gz --cookie "eula_3_1_agreed=tools.hana.ondemand.com/developer-license-3_1.txt"
+    curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-linux-amd64-latest.tar.gz --cookie "eula_3_2_agreed=tools.hana.ondemand.com/developer-license-3_2.txt"
     ```
 
     ```
-    curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-linux-arm64-latest.tar.gz --cookie "eula_3_1_agreed=tools.hana.ondemand.com/developer-license-3_1.txt"
+    curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-linux-arm64-latest.tar.gz --cookie "eula_3_2_agreed=tools.hana.ondemand.com/developer-license-3_2.txt"
     ```
 
 
