@@ -203,18 +203,6 @@ SAP Build enables everyone, no matter the skill level, to create and augment ent
 <tr>
 <td valign="top">
 
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Service-Specific Tools
 
 </td>
