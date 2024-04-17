@@ -54,7 +54,7 @@ Development Support - Data Preview - Business Data \(`SAP_A4C_BC_DAT_PRV_DFT_PC`
 </td>
 <td valign="top">
 
-This business catalog enables you to use the data preview in ABAP Development Tools for objects that are considered to contain business data, such as:
+This business catalog enables you to use the data preview in ABAP development tools for Eclipse for objects that are considered to contain business data, such as:
 
 -   CDS views in language version 5
 -   Client-dependent tables in language version 5 with delivery class A and L
@@ -72,7 +72,7 @@ Development Support - Data Preview - Cross-Client and Customizing Data \(`SAP_A4
 </td>
 <td valign="top">
 
-This business catalog enables you to use the data preview in ABAP Development Tools for objects that are considered to contain customizing and cross-client data, such as:
+This business catalog enables you to use the data preview in ABAP development tools for Eclipse for objects that are considered to contain customizing and cross-client data, such as:
 
 -   Client-independent tables in language version 5 with delivery class A and L
 -   Tables in language version 5 with delivery class S, E, and W \(metadata\)
@@ -90,7 +90,7 @@ Development - Class Runner Execution \(`SAP_A4C_BC_DEV_CLA_RUN_PC`\)
 </td>
 <td valign="top">
 
-This business catalog enables you to execute class runners in ABAP Development Tools.
+This business catalog enables you to execute class runners in ABAP development tools for Eclipse.
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ Development - Data Preview - Released Objects \(`SAP_A4C_BC_DEV_DAT_PRV_PC`\)
 </td>
 <td valign="top">
 
-This business catalog enables you to use the data preview in ABAP Development Tools for objects that are released for language version 5:
+This business catalog enables you to use the data preview in ABAP development tools for Eclipse for objects that are released for language version 5:
 
 -   SAP-delivered CDS views
 -   CDS Views that are released for usage outside of their own software component
@@ -120,7 +120,7 @@ Development - Development Objects Display \(`SAP_A4C_BC_DEV_OBJ_DIS_PC`\)
 </td>
 <td valign="top">
 
-This business catalog enables you to sign in to ABAP Development Tools and view development objects with read-only authorization.
+This business catalog enables you to sign in to ABAP development tools for Eclipse and view development objects with read-only authorization.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ Business user assigned to the business role `Development` or any kind of source 
 
 ## Connect to the System
 
-As the Application Support Engineer, you have to connect to the ABAP system using ABAP Development Tools. This allows you to use the troubleshooting functionality and tools.
+As the Application Support Engineer, you have to connect to the ABAP system using ABAP development tools for Eclipse. This allows you to use the troubleshooting functionality and tools.
 
 > ### Note:  
 > Certain analysis tools, such as the SQL Trace Analysis and SQL Explain SAP Fiori app are only accessible in SAP Fiori launchpad.
@@ -168,7 +168,7 @@ The most common use case for troubleshooting to analyze the implemented business
 See [ABAP Debugger](https://help.sap.com/docs/btp/sap-abap-development-user-guide/abap-debugger?version=Cloud).
 
 > ### Note:  
-> To find the business user and communication user ID for debugging, navigate to the *Debug Properties View* in ABAP Development Tools and search for business users \(`CB*`\) and communication users \(`CC*`\).
+> To find the business user and communication user ID for debugging, navigate to the *Debug Properties View* in ABAP development tools for Eclipse and search for business users \(`CB*`\) and communication users \(`CC*`\).
 
 
 
@@ -180,16 +180,16 @@ To debug the application with your own Application Support Engineer user, make s
 
 ### Debug Another Business User
 
-To debug the application of another business user, you need to change the breakpoint settings in the debug properties view in ABAP Development Tools to the business user \(`CB*`\).
+To debug the application of another business user, you need to change the breakpoint settings in the debug properties view in ABAP development tools for Eclipse to the business user \(`CB*`\).
 
 
 
 ### Debug a Communication User
 
-To debug the application of the communication user, you need to change the breakpoint settings in the debug properties view in ABAP Development Tools to the communication user \(`CC*`\).
+To debug the application of the communication user, you need to change the breakpoint settings in the debug properties view in ABAP development tools for Eclipse to the communication user \(`CC*`\).
 
 **Related Information**  
 
 
-[Troubleshooting Tools](troubleshooting-tools-911438b.md "Apart from debugging, you can also use other troubleshooting tools, such as the Feed Reader view in ABAP Development Tools, ABAP Profiler as well as the SQL Explain and SQL Trace Analysis SAP Fiori apps.")
+[Troubleshooting Tools](troubleshooting-tools-911438b.md "Apart from debugging, you can also use other troubleshooting tools, such as the Feed Reader view in ABAP development tools for Eclipse, ABAP Profiler as well as the SQL Explain and SQL Trace Analysis SAP Fiori apps.")
 

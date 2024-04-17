@@ -286,11 +286,11 @@ without group/mission:
 
 ## SAP S/4HANA Cloud, ABAP Environment
 
-*Group:*[Develop an SAP Fiori App to Trigger Purchase Registrations API](https://developers.sap.com/group.sap-fiori-app-purchase-req.html)
+*Group:*[Develop an SAP Fiori App to Trigger Purchase Requisitions API](https://developers.sap.com/group.sap-fiori-app-purchase-req.html)
 
--   [Create an Online Shop Business Object](https://developers.sap.com/tutorials/abap-s4hanacloud-procurement-purchasereq-bo.html)
+-   [Create a Shopping Cart Business Object](https://developers.sap.com/tutorials/abap-s4hanacloud-procurement-purchasereq-shop.html)
 
--   [Adapt the metadata model of the Online Shop Business Object](https://developers.sap.com/tutorials/abap-s4hanacloud-procurement-purchasereq-metadata.html)
+-   [Create Value Help, Enhance the Behaviour Definition and Behaviour Implementation of the Shopping Cart Business Object](https://developers.sap.com/tutorials/abap-s4hanacloud-purchasereq-enhance-shop.html)
 
 -   [Integrate released Purchase Requisition API into Online Shop Business Object](https://developers.sap.com/mission.abap-env-intermediate.html)
 

@@ -96,42 +96,6 @@ trial
 
 Enterprise account
 
-Trial account
-
-</td>
-<td valign="top">
-
-us10
-
-</td>
-<td valign="top">
-
-Amazon Web Services
-
-</td>
-<td valign="top">
-
-cf-us10
-
-</td>
-<td valign="top">
-
-US East \(VA\)
-
-</td>
-<td valign="top">
-
-aws
-
-trial
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Enterprise account
-
 Partner Test, Demo, and Development account
 
 </td>
@@ -268,6 +232,42 @@ Europe \(Netherlands\)
 azure
 
 azure\_lite
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+Trial account
+
+</td>
+<td valign="top">
+
+us10
+
+</td>
+<td valign="top">
+
+Amazon Web Services
+
+</td>
+<td valign="top">
+
+cf-us10
+
+</td>
+<td valign="top">
+
+US East \(VA\)
+
+</td>
+<td valign="top">
+
+aws
+
+trial
 
 </td>
 </tr>

@@ -223,11 +223,11 @@ SAP BTP supports identity federation, a concept of linking and reusing digital i
 
 ![](images/CF_Trust_for_Identity_Providers_3663b18.png "Identity Provider and XSUAA in SAP BTP Architecture")
 
-Identity Authentication is a multitenancy enabled identity provider and authentication service for all applications powered by SAP BTP and optionally on-premise applications. The service provides capabilities for authentication, single sign-on, and on-premise integration as well as self-services like self-registration or password reset — for both the employees and the partners and customers of your organization. For administrators, the service offers features for user management and reporting capabilities in the administration console.
+Identity Authentication is a multitenancy-enabled identity provider and authentication service for all applications powered by SAP BTP and optionally on-premise applications. The service provides capabilities for authentication, single sign-on, and on-premise integration as well as self-services like self-registration or password reset — for both the employees and the partners and customers of your organization. For administrators, the service offers features for user management and reporting capabilities in the administration console.
 
 SAP has its own Identity Authentication tenant, SAP ID service. SAP ID service is the default identity provider of SAP BTP and where you register to get initial access to SAP BTP. Trust to SAP ID service is preconfigured by default.
 
-We recommend that you request your own Identity Authentication tenant \(see [Getting a Tenant](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html#getting-a-tenant)\), but you can also use any other identity provider, which supports the SAML 2.0 protocol. To establish trust with your identity provider, perform one of the following procedures.
+We recommend that you request your own Identity Authentication tenant \(see [Getting a Tenant](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html#getting-a-tenant)\), but you can also use any other identity provider. To establish trust with your identity provider, perform one of the following procedures.
 
 For business users:
 

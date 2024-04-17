@@ -1,6 +1,6 @@
 <!-- loio3943c74328df43ad9a1fd22c39882aae -->
 
-# Optional: Configuring the ATC Developer Scenario
+# Configuring the ATC Developer Scenario
 
 You can use a system in SAP BTP ABAP environment as a central check system to run ATC checks from an on-premise system against this system \(ATC Developer Scenario\).
 
@@ -44,6 +44,8 @@ To enable the ATC Developer Scenario, you've to define communication arrangement
 
     4.  In the *Technical Data* tab under *General*, select the *Inbound Only* check box.
 
+        Be aware that you should only select the *Inbound Only* check box if you are using a new communication system. Please do not check this box when you are re-using a communication scenario.
+
     5.  In the *Users for Inbound Communication* tab, choose *\+* to add a new inbound communication user.
 
     6.  Choose *User Name and Password* as *Authentication Method*, and enter a user name, description, and password for the user.
@@ -57,13 +59,7 @@ To enable the ATC Developer Scenario, you've to define communication arrangement
 
 9.  Choose *Save*.
 
-10. In your checked system, run transaction `ATC`.
-
-    The *ABAP Test Cockpit* is opened.
-
-11. Choose *ATC Administration* \> *Setup* \> *Basic Settings*.
-
-12. In the *Code Inspector* section, enter the *Reference Check System*. This is the RFC connection to your cloud system. If not yet available or defined, create a new RFC destination in transaction `SM59`. To do this, follow these steps \(see also [Maintaining Remote Destinations](https://help.sap.com/docs/ABAP_PLATFORM_NEW/8f3819b0c24149b5959ab31070b64058/488965b484b84e6fe10000000a421937.html)\):
+10. In the *Code Inspector* section, enter the *Reference Check System*. This is the RFC connection to your cloud system. If not yet available or defined, create a new RFC destination in transaction `SM59`. To do this, follow these steps \(see also [Maintaining Remote Destinations](https://help.sap.com/docs/ABAP_PLATFORM_NEW/8f3819b0c24149b5959ab31070b64058/488965b484b84e6fe10000000a421937.html)\):
 
     > ### Note:  
     > In order to setup your RFC connection, you first need to open a **service channel** \(on-premise to cloud connection\) in your respective Cloud Connector. See [Configure a Service Channel for RFC](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/configure-service-channel-for-rfc?version=Cloud) to learn how to create one.
@@ -78,16 +74,22 @@ To enable the ATC Developer Scenario, you've to define communication arrangement
 
     5.  Save your destination.
 
-    6.  You can now proceed and maintain your destination in *ATC* \> *Basic Settings* as *Reference Check System*.
 
+11. In your checked system, run transaction `ATC`.
 
-13. Go to transaction `SCI` and create a proxy variant \(as described in step 2 in [Configuring the Checked System](https://help.sap.com/docs/ABAP_PLATFORM_NEW/ba879a6e2ea04d9bb94c7ccd7cdac446/17eb1a1d504442b3ad438451197b937b.html)\).
+    The *ABAP Test Cockpit* is opened.
 
-    You can reference one of the SAP delivered ATC variants in your cloud system, for example`SLIN_SEC`, or one of your own variants that you've created in the cloud system.
+12. You can now proceed and maintain your destination in *ATC* \> *Basic Settings* as *Reference Check System*.
 
-14. Go back to transaction `ATC` in the *Basic Settings* and enter the name of this proxy variant as *Global Check Variant*.
+13. Choose *ATC Administration* \> *Setup* \> *Basic Settings*.
 
-15. Confirm.
+14. Go to transaction `SCI` and create a proxy variant \(as described in step 2 in [Configuring the Checked System](https://help.sap.com/docs/ABAP_PLATFORM_NEW/ba879a6e2ea04d9bb94c7ccd7cdac446/17eb1a1d504442b3ad438451197b937b.html)\).
+
+    You can reference one of the SAP delivered ATC variants in your cloud system, for example`SLIN_SEC`, or one of your own variants that you've created in the cloud system. Go to [Creating ATC Check Variants](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/creating-atc-check-variants) for guidance on how to create ATC check variants.
+
+15. Go back to transaction `ATC`. In the *Basic Settings*, enter the name of this proxy variant as *Global Check Variant*.
+
+16. Confirm.
 
 
 
@@ -96,5 +98,5 @@ To enable the ATC Developer Scenario, you've to define communication arrangement
 
 ## Results
 
-You've enabled a cloud system as central check system for remote ATC checks from an on-premise system against the cloud system. In SAP GUI or ABAP Development Tools for Eclipse, you can now run ATC checks in your checked system. In ABAP Development Tools for Eclipse in the*ATC Problems* view, you can create exemptions that you can then manage in the [Approve ATC Exemptions](https://help.sap.com/docs/btp/sap-business-technology-platform/approve-atc-exemptions) app.
+You've enabled a cloud system as central check system for remote ATC checks from an on-premise system against the cloud system. In SAP GUI or ABAP Development Tools for Eclipse, you can now run ATC checks in your checked system. In ABAP Development Tools for Eclipse in the *ATC Problems* view, you can create exemptions that you can then manage in the [Approve ATC Exemptions](https://help.sap.com/docs/btp/sap-business-technology-platform/approve-atc-exemptions) app.
 

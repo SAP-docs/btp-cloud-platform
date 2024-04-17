@@ -149,7 +149,7 @@ Updating
 
 ## Free
 
-The technical name of the plan is `free`. Using the free service plans for Kyma allows you to try out services in global accounts without any additional cost. However, the free model account has certain limitations.
+The technical name of the plan is `free`. Using the free service plans for Kyma allows you to try out services in global accounts without any additional cost for 30 days. However, the free model account has certain limitations.
 
 -   The free plan offers you a one-node cluster and is only available on AWS.
 
@@ -157,7 +157,7 @@ The technical name of the plan is `free`. Using the free service plans for Kyma 
 
 -   Before you enable the Kyma environment, you must first assign it as an entitlement to your subaccount.
 
--   You have only one free service plan quota available per global account.
+-   You have only one 30-day free service plan quota available per global account.
 
 -   The services you plan to use must be available in the same region as the subaccount for the Kyma runtime. If necessary, change the default subaccount region.
 
@@ -351,7 +351,7 @@ Updating
 
 ## Amazon Web Services, Google Cloud, and Microsoft Azure
 
-The technical names of the enterprise plans are `aws`, `gcp`, and `azure`. They offer highly available Kubernetes clusters, where the Kubernetes and Kyma configurations are optimized for production use cases. The Kubernetes worker nodes are deployed in three availability zones of the respective [cloud region](../10-concepts/regions-for-the-kyma-environment-557ec3a.md), and thus can provide zone level failure tolerance for Kyma and applications deployed on the Kyma runtime.
+The technical names of the enterprise plans are `aws`, `gcp`, and `azure`. They offer highly available Kubernetes clusters, where the Kubernetes and Kyma configurations are optimized for production use cases. The Kubernetes worker nodes are deployed in three availability zones of the respective [cloud region](../10-concepts/regions-for-the-kyma-environment-557ec3a.md), and thus can provide zone level failure tolerance for Kyma and applications deployed on Kyma runtime.
 
 The [Kubernetes control plane](https://kubernetes.io/docs/reference/glossary/?all=true#term-control-plane) is also hosted in three availability zones of the respective region.
 

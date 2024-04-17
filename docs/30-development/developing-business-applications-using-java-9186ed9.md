@@ -16,47 +16,47 @@ The following sections help you get started.
 
 -   [Starting a New Project](https://cap.cloud.sap/docs/java/getting-started#new-project)
 
--   [Stack Architecture](https://cap.cloud.sap/docs/java/architecture)
+-   [Stack Architecture](https://cap.cloud.sap/docs/java/developing-applications/building)
 
--   [Services](https://cap.cloud.sap/docs/java/consumption-api)
+-   [Services](https://cap.cloud.sap/docs/java/services)
 
--   [Event Handlers](https://cap.cloud.sap/docs/java/provisioning-api)
+-   [Event Handlers](https://cap.cloud.sap/docs/java/event-handlers/)
 
--   [Working with Data](https://cap.cloud.sap/docs/java/data)
+-   [Working with Data](https://cap.cloud.sap/docs/java/cds-data)
 
--   [Building CDS QL Statements](https://cap.cloud.sap/docs/java/query-api)
+-   [Building CQL Statements](https://cap.cloud.sap/docs/java/working-with-cql/query-api)
 
--   [Executing CDS QL Statements](https://cap.cloud.sap/docs/java/query-execution)
+-   [Executing CDS QL Statements](https://cap.cloud.sap/docs/java/working-with-cql/query-execution)
 
--   [Introspecting CDS QL Statements](https://cap.cloud.sap/docs/java/query-introspection)
+-   [Introspecting CQL Statements](https://cap.cloud.sap/docs/java/working-with-cql/query-introspection)
 
 -   [Working with CDS Models](https://cap.cloud.sap/docs/java/reflection-api)
 
--   [Application Services](https://cap.cloud.sap/docs/java/application-services)
+-   [Application Services](https://cap.cloud.sap/docs/java/cqn-services/application-services)
 
 -   [Fiori Drafts](https://cap.cloud.sap/docs/java/fiori-drafts)
 
--   [Indicating Errors](https://cap.cloud.sap/docs/java/indicating-errors)
+-   [Indicating Errors](https://cap.cloud.sap/docs/java/event-handlers/indicating-errors)
 
--   [Request Contexts](https://cap.cloud.sap/docs/java/request-contexts)
+-   [Request Contexts](https://cap.cloud.sap/docs/java/event-handlers/request-contexts)
 
--   [ChangeSet Contexts](https://cap.cloud.sap/docs/java/changeset-contexts)
+-   [ChangeSet Contexts](https://cap.cloud.sap/docs/java/event-handlers/changeset-contexts)
 
 -   [Security](https://cap.cloud.sap/docs/java/security)
 
--   [Remote Services](https://cap.cloud.sap/docs/java/remote-services)
+-   [Remote Services](https://cap.cloud.sap/docs/java/cqn-services/remote-services)
 
--   [Messaging](https://cap.cloud.sap/docs/java/messaging-foundation)
+-   [Messaging](https://cap.cloud.sap/docs/java/messaging)
 
 -   [Multitenancy](https://cap.cloud.sap/docs/java/multitenancy)
 
--   [Advanced Concepts](https://cap.cloud.sap/docs/java/advanced)
+-   [Persistence Services](https://cap.cloud.sap/docs/java/cqn-services/persistence-services)
 
--   [Audit Logging](https://cap.cloud.sap/docs/java/auditlog/)
+-   [Audit Logging](https://cap.cloud.sap/docs/java/auditlog)
 
--   [Development](https://cap.cloud.sap/docs/java/development)
+-   [Development](https://cap.cloud.sap/docs/java/developing-applications/)
 
--   [Observability](https://cap.cloud.sap/docs/java/observability/)
+-   [Observability](https://cap.cloud.sap/docs/java/operating-applications/observability)
 
 -   [Migration](https://cap.cloud.sap/docs/java/migration)
 

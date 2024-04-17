@@ -23,7 +23,7 @@ You declare your application security descriptor with JSON syntax and store it i
     The element xsappname defines a prefix for the runtime name of the application. For each tenant \(subaccount\), which has subscribed to the application, the XSUAA service supplies a unique tenant index for the application subscription and internally concatenates the tenant index with `xsappname` at runtime \(see also next step\).
 
     > ### Sample Code:  
-    > ```
+    > ```json
     > {
     >   "xsappname" : "hello-world",
     >   ...
@@ -35,7 +35,7 @@ You declare your application security descriptor with JSON syntax and store it i
     Scopes represent the API endpoints - or functions - for which access should be restricted. They’re required if you want to define the functions a user is authorized to process. A scope has an arbitrary name and must be prefixed with the runtime application name to distinguish the user scopes between tenants \(subaccounts\) which have subscribed to the application and equally named scopes between different applications. The `$XSAPPNAME` dummy value is a wildcard for the application runtime name and is used to prefix the arbitrary scope names. The XSUAA service substitutes the `$XSAPPNAME` dummy value with the application runtime name for each of the subscribed tenants \(see also step 1\).
 
     > ### Sample Code:  
-    > ```
+    > ```json
     > {
     >   ... 
     >   "scopes"    : [
@@ -60,7 +60,7 @@ You declare your application security descriptor with JSON syntax and store it i
     Attributes provide instance-based, fine-granular authorization checks. See [Setting Up Instance-Based Authorizations](setting-up-instance-based-authorizations-519965c.md).
 
     > ### Sample Code:  
-    > ```
+    > ```json
     > {
     >   ...
     >   "attributes" : [
@@ -82,7 +82,7 @@ You declare your application security descriptor with JSON syntax and store it i
     Role templates combine scopes with attributes and serve as templates from which roles are created later by the administrator.
 
     > ### Sample Code:  
-    > ```
+    > ```json
     > {
     >   ...
     >   "role-templates" : [
@@ -112,7 +112,7 @@ You declare your application security descriptor with JSON syntax and store it i
 6.  Check the scopes in the application.
 
     > ### Sample Code:  
-    > ```
+    > ```js
     > app.get('/books', checkReadScope, getBooks);
     > 
     > // Scope check
@@ -156,7 +156,7 @@ You declare your application security descriptor with JSON syntax and store it i
 You’ve declared and deployed your application security descriptor \(`xs-security.json`\) with scopes \(functional authorizations\), attributes \(data authorizations\), and role templates \(to combine scopes with attributes\). The `xsappname` element is mandatory. The `scopes`, `attributes`, and `role-templates` elements are optional. You've also bound your service instance to your application, and then deployed it.
 
 > ### Sample Code:  
-> ```
+> ```json
 > {
 >   "xsappname" : "hello-world", 
 >   "scopes"    : [

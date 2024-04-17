@@ -68,7 +68,5 @@ If the permissions of the default role aren't sufficient, clone the role and add
 **Related Information**  
 
 
-[Authorization in Kyma](https://kyma-project.io/#/04-operation-guides/security/sec-02-authorization-in-kyma)
-
 [Role-Based Access Control (RBAC) in Kyma](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/bb31080fd0474d38a050e32a7a7ed629.html "Assigning permissions in Kyma is based on the Kubernetes role-based access control (RBAC). It’s recommended that you start with separating the developers and operators of a cluster. Later, you can refine the role concept as required.") :arrow_upper_right:
 

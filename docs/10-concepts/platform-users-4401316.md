@@ -2,16 +2,16 @@
 
 # Platform Users
 
-**Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot applications and services on SAP BTP. They’re the users that you give certain permissions for instance at global account or subaccount level, either by adding them as members.
+**Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot applications and services on SAP BTP. They’re the users that have full access and give certain permissions for instance at global account, directory, or subaccount level. Members only have basic access.
 
-Platform users who were added as members and who have administrative permissions can view or manage the list of global accounts, subaccounts, and environments, such as Cloud Foundry orgs and spaces. Members access them using the SAP BTP Cockpit or the SAP BTP command-line interface \(btp CLI\) or environment-specific CLI, such as the Cloud Foundry \(CF\) CLI.
+Platform users who have administrative permissions can view or manage the list of global accounts, subaccounts, and environments, such as Cloud Foundry orgs and spaces. Members have basic access to them using the SAP BTP cockpit, the SAP BTP command-line interface \(btp CLI\), or environment-specific CLI, such as the Cloud Foundry \(CF\) CLI.
 
 For platform users, there's a [default identity provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md). We expect that you have your own identity provider. We recommend that you configure your custom tenant of Identity Authentication as the identity provider and connect Identity Authentication to your own corporate identity provider.
 
 > ### Note:  
-> For China \(Shanghai\) region, a different default identity provider is used.
+> For China \(Shanghai\) and Government Cloud \(US\) regions, a different default identity provider is used. You can't use Identity Authentication as identity provider in the global account.
 > 
-> For more information, see this [blog article](https://blogs.sap.com/2021/02/22/activate-totp-two-factor-authentication-on-sap-business-technology-platform-formerly-known-as-cloud-platform-at-alibaba-cloud/) on *SAP Community*.
+> For more information on the China \(Shanghai\) region, see this [blog article](https://blogs.sap.com/2021/02/22/activate-totp-two-factor-authentication-on-sap-business-technology-platform-formerly-known-as-cloud-platform-at-alibaba-cloud/) on *SAP Community*.
 
 
 
@@ -19,7 +19,7 @@ For platform users, there's a [default identity provider](../50-administration-a
 
 ## Member Management
 
-**Member management** refers to managing permissions for platform users. You can think about it as managing the members of your team.
+**Member management** refers to managing permissions for platform users. Members have only basic access to SAP BTP.
 
 Member management happens at global account, directory, subaccount, and environment level. Members' permissions apply to all operations that are associated with the global account, the organization, or the space, irrespective of the tool used. Depending on the scope and the cloud management tools feature set you're using, you manage members in different ways:
 
@@ -55,11 +55,11 @@ Feature Set A
 </td>
 <td valign="top">
 
-You add global account administrators on the *Members* page at global account level in the cockpit. All members/administrators of the lower levels \(e.g subaccounts or spaces\) are automatically global account members.
+You add global account administrators on the *Members* page at global account level in the SAP BTP cockpit. All members/administrators of the lower levels \(for example, subaccounts or spaces\) are automatically global account members.
 
-On the *Members* page at the global account level in the cockpit, all global account members can view the global account administrators.
+On the *Members* page at the global account level in the SAP BTP cockpit, all global account members can view the global account administrators.
 
-You can only manage global account administrators using the cockpit.
+You can only manage global account administrators using the SAP BTP cockpit.
 
 See [Add Members to Your Global Account](../50-administration-and-ops/add-members-to-your-global-account-4a04913.md).
 
@@ -73,11 +73,11 @@ Not available
 
 You don't have member management at subaccount level directly.
 
-The person who created the subaccount is automatically a security administrator of that subaccount. That person can assign additional subaccount security administrators on the *Security* \> *Administrators* page at subaccount level in the cockpit.
+The person who created the subaccount is automatically a security administrator of that subaccount. That person can assign additional subaccount security administrators on the *Security* \> *Administrators* page at subaccount level in the SAP BTP cockpit.
 
 As a security administrator, you can manage authentication and authorization in the subaccount for business users, such as configuring trust to application identity providers, and assigning role collections to business users.
 
-You can only manage subaccount security administrators using the cockpit.
+You can only manage subaccount security administrators using the SAP BTP cockpit.
 
 See [Managing Security Administrators in Your Subaccount \[Feature Set A\]](../50-administration-and-ops/managing-security-administrators-in-your-subaccount-feature-set-a-6752c4b.md)
 
@@ -96,7 +96,7 @@ You manage global account members by assigning role collections to platform user
 -   Global Account Administrator
 -   Global Account Viewer
 
-Assign these role collections from the cockpit or the btp CLI.
+Assign these role collections from the SAP BTP cockpit or the btp CLI.
 
 See:
 
@@ -153,7 +153,7 @@ See:
 </tr>
 </table>
 
-Member management in the Cloud Foundry environment is independent of the feature set you use.
+Member management in the Cloud Foundry or Kyma environment environment is independent of the feature set you use.For more information on the Kyma environment, see [Getting Started in the Kyma Environment](../20-getting-started/getting-started-in-the-kyma-environment-d1abd18.md).
 
 **Member Management in the Cloud Foundry Environment**
 
@@ -174,7 +174,7 @@ Spaces
 <tr>
 <td valign="top">
 
-Manage org members on the *Members* page at environment level in the cockpit or with the Cloud Foundry CLI.
+Manage org members on the *Members* page at environment level in the SAP BTP cockpit or with the Cloud Foundry CLI.
 
 A platform user added as an org member can be either an **Org Manager** or an **Org Auditor** or implicitly as an **Org User**.
 
@@ -189,7 +189,7 @@ See:
 </td>
 <td valign="top">
 
-Manage space members on the *Members* page at space level in the cockpit or with the Cloud Foundry CLI.
+Manage space members on the *Members* page at space level in the SAP BTP cockpit or with the Cloud Foundry CLI.
 
 A platform user added as a space member can be either a **Space Manager**, **Space Developer**, **Space Auditor**, or **Space Supporter**.
 

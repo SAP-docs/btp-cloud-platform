@@ -79,7 +79,7 @@ Description
 <tr>
 <td valign="top">
 
-sap.cloud.service
+`sap.cloud.service`
 
 </td>
 <td valign="top">
@@ -96,7 +96,7 @@ Service name as referenced from `xs-app.json` route and business service prefix,
 <tr>
 <td valign="top">
 
-sap.cloud.service.alias
+`sap.cloud.service.alias`
 
 </td>
 <td valign="top">
@@ -113,7 +113,7 @@ Short service name alias for user friendly URL business service prefix. Make sur
 <tr>
 <td valign="top">
 
-endpoints
+`endpoints`
 
 </td>
 <td valign="top">
@@ -130,7 +130,7 @@ One or more endpoints that can be used to access Business Service data.
 <tr>
 <td valign="top">
 
-html5-apps-repo
+`html5-apps-repo`
 
 </td>
 <td valign="top">
@@ -147,7 +147,7 @@ The `html5-apps-repo.app_host_id` contains one or more `html5-apps-repo` service
 <tr>
 <td valign="top">
 
-saasregistryenabled
+`saasregistryenabled`
 
 </td>
 <td valign="top">
@@ -164,7 +164,7 @@ Indicates that this Business Service supports SaaS Registry subscription. If pro
 <tr>
 <td valign="top">
 
-grant\_type
+`grant_type`
 
 </td>
 <td valign="top">
@@ -181,7 +181,7 @@ The grant type that should be used to trigger requests to the Business Service. 
 <tr>
 <td valign="top">
 
-forwardiastoken
+`forwardiastoken`
 
 </td>
 <td valign="top">
@@ -198,7 +198,7 @@ This flag that indicates if, in addition to the exchanged JWT token created by t
 <tr>
 <td valign="top">
 
-forwardiasauthentication
+`forwardiasauthentication`
 
 </td>
 <td valign="top">
@@ -209,6 +209,23 @@ No
 <td valign="top">
 
 This flag indicates that if the login was performed using Identity Authentication, the application router will not exchange the JWT token created by the SAP Authorization and Trust Management Service \(XSUAA\). Instead, the OIDC access token created by Identity Authentication will be forwarded in the authorization header.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`URL.headers.<header-name>:header-value`
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+If you provide this information, the application router propagates this attribute as the header to the business service backend. Existing request headers will not be overwritten.
 
 </td>
 </tr>

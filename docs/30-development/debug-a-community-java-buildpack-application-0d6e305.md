@@ -1,6 +1,6 @@
 <!-- loio0d6e305f08574bca811d42b55c3c0b47 -->
 
-# Debug an Application Running on Java SE
+# Debug a Community Java Buildpack Application
 
 You can debug an application running on a Cloud Foundry container that uses the community Java buildpack.
 

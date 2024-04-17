@@ -4,7 +4,7 @@
 
 
 
-You want put a system into hibernation at a specific time, choosing at what time it will be stopped, and when it will be started again. This planned hibernation can be scheduled to happen once, or it can be set up to recur regularly, e.g. on a daily or weekly basis. Here’s how to schedule a planned or recurring stop \(= recurrence\).
+You want to put a system into hibernation at a specific time, choosing at what time it will be stopped, and when it will be started again. This planned hibernation can be scheduled to happen once, or it can be set up to recur regularly, e.g. on a daily or weekly basis. Here’s how to schedule a planned or recurring stop \(= recurrence\).
 
 > ### Note:  
 > Note that it is not possible to schedule recurrences for free-tier systems.
@@ -41,7 +41,7 @@ Starting today, the system will stop over night from Mondays to Fridays until th
 
 With this recurrence, the system will stop every Friday night until Monday morning.
 
-The two recurrences \(R1: daily overnight stop in purple; R2: weekend stop in green\) will make sure your system is only live from Mondays through Fridays from 06:00 to 20:00.
+The two recurrences \(R1: daily overnight stop in yellow; R2: weekend stop in blue\) will make sure your system is only live from Mondays through Fridays from 06:00 to 20:00.
 
 ![](images/Recurrences_ExampleSchedule_c66e288.png)
 

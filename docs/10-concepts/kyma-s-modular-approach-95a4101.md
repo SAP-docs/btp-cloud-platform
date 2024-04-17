@@ -33,6 +33,11 @@ Sets of Kyma modules are deployed in two release channels:
 -   *Fast channel* provides more frequent releases. It offers early previews of all new features and changes before they are promoted to the regular channel. It also allows you to test and provide feedback on the new features sooner.
 
 
+According to the Kyma modules\` release cycle, we first release a new module's major or minor version in the fast channel. After approximately two weeks, we promote the release to the regular channel.
+
+> ### Note:  
+> In case of important functionality fixes or critical vulnerabilities identified by our security organization, the timeline doesn't apply, as we provide hotfixes between regular releases.
+
 You can use one or both release channels in your Kyma cluster, but you can define only one release channel per module. For example, you can mix different modules from the regular and fast channels in your development cluster, but you cannot deploy the same module in the regular and fast versions in one cluster.
 
 > ### Note:  

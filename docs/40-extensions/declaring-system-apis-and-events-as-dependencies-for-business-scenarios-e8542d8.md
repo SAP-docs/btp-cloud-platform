@@ -8,13 +8,13 @@
 
 ## Prerequisites
 
-You have a system of type *Other System Type* listed in the *System Landscape* page of your global account in SAP BTP. See [Registering Third-Party Systems](registering-third-party-systems-5481d59.md).
+You have a system of type *Other System Type* or *CAP Application* listed in the *System Landscape* page of your global account in SAP BTP. See [Registering Third-Party Systems](registering-third-party-systems-5481d59.md).
 
 
 
 ## Context
 
-For certain formation types, systems of type *Other System Type* that are part of the *System Landscape* page may need to describe their runtime dependencies so other systems can comply with these dependencies to be able to interact with these systems in a common scenario. See [Enabling Events Exchange Between SAP Cloud Systems](enabling-events-exchange-between-sap-cloud-systems-1592246.md).
+For certain formation types, systems of type *Other System Type* or *CAP Application* that are part of the *System Landscape* page may need to describe their runtime dependencies so other systems can comply with these dependencies to be able to interact with these systems in a common scenario. See [Enabling Events Exchange Between SAP Cloud Systems](enabling-events-exchange-between-sap-cloud-systems-1592246.md).
 
 The integration dependency includes a list of requirements, which point out which API and event resources are involved. Each requirement describes one aspect and can be used to express alternatives using OR conditions for achieving the same outcome.
 
@@ -24,7 +24,7 @@ Every integration dependency has the following properties:
 
 -   Name: a human-readable name that does not exceed 255 characters. For example, `Integration Dependency to realize Customer Order data product`.
 
--   Description: a plain text that does not exceed 255 characters. For example, `SAP S/4HANA Cloud, our next generation cloud ERP suite designed for in-memory computing.`.
+-   Description: a plain text that does not exceed 255 characters. For example, `SAP S/4HANA Cloud, our next generation cloud ERP suite designed for in-memory computing.`
 
 -   Version: the version is assigned automatically when adding a new integration dependency.
 

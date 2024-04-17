@@ -243,19 +243,19 @@ Typical flow of the archiving write process:
 > ### Sample Code:  
 > ```abap
 > CONSTANTS: lc_object TYPE sarch_object VALUE ‘MY_OBJECT’. 
-> “ Replace with the name of your ADT archiving object
-> “ select flight data (leading table) from the database (replace table names with your names of your own tables)
+> " Replace with the name of your ADT archiving object
+> " select flight data (leading table) from the database (replace table names with your names of your own tables)
 >         SELECT * FROM my_header_table
 >                  WHERE carrid     IN @lt_range_carrid
 >                    AND connid     IN @lt_range_connid
 >                    AND fldate     IN @lt_range_fldate
 >           INTO TABLE @DATA(lt_flights).
->         “ open a new archiving session to archive data
+>         " open a new archiving session to archive data
 >         TRY.
 >             DATA(lo_write) = cl_arch_write_api=>get_instance( iv_archiving_object = lc_object 								  iv_testmode = lv_test ).
 > 
 >             LOOP AT lt_flights ASSIGNING FIELD-SYMBOL(<ls_flight>).
->  “ select data of dependent tables (replace table names with your names of your own tables)
+>  " select data of dependent tables (replace table names with your names of your own tables)
 >               INSERT <ls_flight> INTO lt_flights.
 >               SELECT * FROM my_item_table1
 >                  WHERE carrid     = @<ls_flight>-carrid
@@ -273,27 +273,27 @@ Typical flow of the archiving write process:
 >                    AND fldate     = @<ls_flight>-fldate
 >                INTO TABLE @DATA(lt_invoices).
 > 
->               “ open new ADK data object
+>               " open new ADK data object
 >               lo_write->open_data_object( ).
 > 
->               “ write data of header table
+>               " write data of header table
 >               lo_write->put_data_records( iv_table_name = ‘<MY_HEADER_TALBE>’ it_records = lt_sflight_arch ).
 >               CLEAR lt_sflight_arch.
 > 
->               “ write data of depending tables
->               lo_write->put_data_records( iv_table_name = ‘<MY_ITEM_TABLE1>’ it_records = lt_bookings ). “ bookings
+>               " write data of depending tables
+>               lo_write->put_data_records( iv_table_name = ‘<MY_ITEM_TABLE1>’ it_records = lt_bookings ). " bookings
 >               CLEAR lt_sflight_arch.
->               Lo_write->put_data_records( iv_table_name = ‘<MY_ITEM_TABLE2>’ it_records = lt_tickets ). “ tickets
+>               Lo_write->put_data_records( iv_table_name = ‘<MY_ITEM_TABLE2>’ it_records = lt_tickets ). " tickets
 >               CLEAR lt_sflight_arch.
->               Lo_write->put_data_records( iv_table_name = ‘<MY_ITEM_TABLE3>’ it_records = lt_invoices ). “ invoices
+>               Lo_write->put_data_records( iv_table_name = ‘<MY_ITEM_TABLE3>’ it_records = lt_invoices ). " invoices
 >               CLEAR lt_sflight_arch.
 > 
->               “ write data object into the archive file
+>               " write data object into the archive file
 >               lo_write->close_data_object( ).
 > 
 >             ENDLOOP.
 > 
->             “ finalize and end writing
+>             " finalize and end writing
 >             lo_write->finalize( ).
 > 
 > ```

@@ -17,7 +17,7 @@ To use this SAP Fiori app, your SAP administrator must enable the app provide ac
 
 [Maintaining Communication Arrangements](maintaining-communication-arrangements-7849aa4.md "A communication arrangement describes a communication scenario with a remote system during configuration time. It provides the required metadata for the service configuration.")
 
-[Optional: Configuring the ATC Developer Scenario](optional-configuring-the-atc-developer-scenario-3943c74.md "You can use a system in SAP BTP ABAP environment as a central check system to run ATC checks from an on-premise system against this system (ATC Developer Scenario).")
+[Configuring the ATC Developer Scenario](configuring-the-atc-developer-scenario-3943c74.md "You can use a system in SAP BTP ABAP environment as a central check system to run ATC checks from an on-premise system against this system (ATC Developer Scenario).")
 
 [Custom Code Migration App](https://help.sap.com/docs/btp/sap-business-technology-platform/custom-code-migration)
 

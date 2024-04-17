@@ -83,7 +83,7 @@ GET /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0001/GetEmployeeByManagerID
 POST /sap/opu/odata4/iwbep/tea/default/iwbep/tea_busi/0001/EMPLOYEES('2')/SAP__self.AcChangeTeamOfEmployee
 ```
 
-Request body:
+Request body JSON:
 
 ```
 

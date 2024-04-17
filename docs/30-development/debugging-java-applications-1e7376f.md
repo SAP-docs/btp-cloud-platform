@@ -10,6 +10,6 @@ Debugging an application helps you detect and diagnose errors in your code. You 
 
 -   [Debug an Application Running on SapMachine](debug-an-application-running-on-sapmachine-f7fa9f3.md)
 
--   [Debug an Application Running on Java SE](debug-an-application-running-on-java-se-0d6e305.md)
+-   [Debug a Community Java Buildpack Application](debug-a-community-java-buildpack-application-0d6e305.md)
 
 

@@ -45,7 +45,6 @@ Get started with samples and reusable packages created based on CAP for [Node.js
 
 -   Learn how to create a business service using CAP for Java and deploy it to SAP BTP: [Build a Business Application Using CAP for Java](https://developers.sap.com/mission.cap-java-app.html).
 -   Learn how to create a business service with CDS using Node.js and deploy it to SAP BTP: [Create a Business Service with Node.js using Visual Studio Code](https://developers.sap.com/mission.cp-starter-extensions-cap.html).
--   Learn how to use CAP and SAP Cloud SDK to extend SAP S/4HANA: [Use CAP and SAP Cloud SDK to Extend S/4HANA](https://developers.sap.com/mission.cap-s4hana-cloud-extension.html)
 -   Find more tutorials using the SAP Cloud Application Programming Model \(CAP\) in the [Tutorial Navigator](https://developers.sap.com/tutorial-navigator.html?tag=software-product-function:sap-cloud-application-programming-model).
 
 

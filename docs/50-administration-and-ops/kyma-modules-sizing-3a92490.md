@@ -6,7 +6,7 @@ The following tables show the resource consumption, such as memory, CPU, and sto
 
 
 
-<a name="loio3a924906857b4f01969cb684ccd25309__section_zc2_4xg_vzb"/>
+<a name="loio3a924906857b4f01969cb684ccd25309__section_api_gateway"/>
 
 ## API Gateway
 
@@ -69,7 +69,7 @@ Large cluster minimum
 
 
 
-<a name="loio3a924906857b4f01969cb684ccd25309__section_bkk_mxg_vzb"/>
+<a name="loio3a924906857b4f01969cb684ccd25309__section_istio"/>
 
 ## Istio
 
@@ -132,7 +132,7 @@ Large cluster minimum
 
 
 
-<a name="loio3a924906857b4f01969cb684ccd25309__section_svr_kxg_vzb"/>
+<a name="loio3a924906857b4f01969cb684ccd25309__section_application_connector"/>
 
 ## Application Connector
 
@@ -178,7 +178,7 @@ Minimum
 
 
 
-<a name="loio3a924906857b4f01969cb684ccd25309__section_hy5_3xg_vzb"/>
+<a name="loio3a924906857b4f01969cb684ccd25309__section_sap_btp_operator"/>
 
 ## SAP BTP Operator
 
@@ -241,7 +241,7 @@ Maximum
 
 
 
-<a name="loio3a924906857b4f01969cb684ccd25309__section_e1q_gxg_vzb"/>
+<a name="loio3a924906857b4f01969cb684ccd25309__section_keda"/>
 
 ## Keda
 
@@ -304,7 +304,7 @@ Maximum
 
 
 
-<a name="loio3a924906857b4f01969cb684ccd25309__section_q31_dxg_vzb"/>
+<a name="loio3a924906857b4f01969cb684ccd25309__section_serverless"/>
 
 ## Serverless
 
@@ -382,7 +382,7 @@ Up to 20000Mi \(for PVC for internal Docker registry\)
 
 
 
-<a name="loio3a924906857b4f01969cb684ccd25309__section_wff_4pg_vzb"/>
+<a name="loio3a924906857b4f01969cb684ccd25309__section_telemetry"/>
 
 ## Telemetry
 
@@ -624,7 +624,7 @@ Maximum
 
 
 
-<a name="loio3a924906857b4f01969cb684ccd25309__section_orn_vxg_vzb"/>
+<a name="loio3a924906857b4f01969cb684ccd25309__section_nats"/>
 
 ## NATS
 
@@ -704,7 +704,7 @@ Maximum
 
 
 
-<a name="loio3a924906857b4f01969cb684ccd25309__section_q5x_myg_vzb"/>
+<a name="loio3a924906857b4f01969cb684ccd25309__section_eventing"/>
 
 ## Eventing
 

@@ -56,7 +56,7 @@ The upper area of the *Costs and Usage* page contains two side-by-side cards.
 
 The card on the left displays general info about your global account.
 
-The card on the right displays information relating to the total consumption of your contract in relation to the consumption-based commercial model, such as Cloud Platform Enterprise Agreement \(CPEA\) and Pay-As-You-Go for SAP BTP, which is used by your global account. In this card, you'll see different information depending on the flavor of consumption-based commercial model that your global account uses:
+The card on the right displays information relating to the total consumption of your contract in relation to the consumption-based commercial model, such as SAP BTP Enterprise Agreement \(SAP BTPEA\),Cloud Platform Enterprise Agreement \(CPEA\), and Pay-As-You-Go for SAP BTP, which is used by your global account. In this card, you'll see different information depending on the flavor of consumption-based commercial model that your global account uses:
 
 
 <table>
@@ -74,6 +74,8 @@ What Information is Displayed
 </tr>
 <tr>
 <td valign="top">
+
+SAP BTP Enterprise Agreement \(SAP BTPEA\)
 
 Cloud Platform Enterprise Agreement \(CPEA\)
 
@@ -156,7 +158,7 @@ You can also use the *Search* option. When you start typing, the search offers r
 > ### Tip:  
 > If you've set up labels in your subaccounts and directories that reflect the distribution of these entities to your company structure or projects, you can easily track and manage cross charges by entering the labels of your subaccount and directory labels in the search.
 
-
+Your filter and search criteria are applied to both *Billing* and *Usage* views.
 
 </td>
 </tr>
@@ -358,10 +360,12 @@ This perspective provides an overview of your charged usage across different ser
 
 Here are some useful tips for working in this perspective:
 
--   To drill down and display more details about a particular service, click on an entry in the table or its <span class="SAP-icons-V5"></span> \(View Details\) button. When you drill down, a new pane opens and you can see, for example, exactly which subaccounts consume the selected service and the subtotal of charges and usage per subaccount.
+-   To drill down and display more details about a particular service, click on an entry in the table or its <span class="SAP-icons-V5"></span> \(View Details\) button. When you drill down, a new pane opens and you can see, for example, exactly which subaccounts consume the selected service and the subtotal of charges and usage per directory and subaccount.
+
+    In this detailed view, subaccounts are displayed in the context of their account hierarchy. If you want to hide their directories and display the subaccounts as a flat list, choose the *Show subaccounts only* checkbox.
 
     > ### Tip:  
-    > In this detailed view, you can use the <span class="SAP-icons-V5"></span> \(Switch\) button to quickly open the *View by Account* perspective with the specific subaccount selected and displaying the plans it consumes.
+    > In this detailed view, you can use the <span class="SAP-icons-V5"></span> \(Switch\) button for any subaccount to quickly open the *View by Account* perspective with the specific subaccount selected and displaying the plans it consumes.
     > 
     > You can also click :gear: to display and hide columns.
 
@@ -404,6 +408,7 @@ Here are some useful tips for working in this perspective:
 
 -   If your account hierarchy includes directories, you can hide them and display your subaccounts as a flat list by choosing the *Show only subaccounts* checkbox.
 
+-   You can quickly expand or collapse the entire account hierarchy by clicking the <span class="SAP-icons-V5"></span> \(Expand All\) and <span class="SAP-icons-V5"></span> \(Collapse All\) buttons.
 -   To filter the main table for specific services, use the *Services* dropdown list.
 
 -   To view the monthly trend of a selected subaccount or directory over the last 12 months, scroll past the main table until you reach a graph.
@@ -438,7 +443,7 @@ Use the *Usage* view to display, monitor, and analyze the distribution of the ac
 
 Pay attention also to the following:
 
--   If your global account uses only a consumption-based commercial model, such as Cloud Platform Enterprise Agreement \(CPEA\) and Pay-As-You-Go for SAP BTP, this view includes all usage data, including non-rated services, such as free service plans.
+-   If your global account uses only a consumption-based commercial model, such as SAP BTP Enterprise Agreement \(SAP BTPEA\),Cloud Platform Enterprise Agreement \(CPEA\), and Pay-As-You-Go for SAP BTP, this view includes all usage data, including non-rated services, such as free service plans.
 -   If your global account uses both the consumption-based and subscription-based commercial models, this view combines all usage data, which falls under your consumption-based plans, prepaid subscription quota, and non-rated data sets, such as free service plans. You can see the distribution of charged and prepaid usage and costs in the *Billing* view.
 
 
@@ -463,7 +468,9 @@ Drill down and display more details about a particular service
 </td>
 <td valign="top">
 
-Click on an entry in the table or its <span class="SAP-icons-V5"></span> \(View Details\) button. When you drill down, a new pane opens and you can see, for example, which subaccounts are consuming the selected service and the subtotal of usage per subaccount.
+Click on an entry in the table or its <span class="SAP-icons-V5"></span> \(View Details\) button. When you drill down, a new pane opens and you can see, for example, which subaccounts are consuming the selected service and the subtotal of usage per directory and subaccount.
+
+In this detailed view, subaccounts are displayed in the context of their account hierarchy. If you want to hide their directories and display the subaccounts as a flat list, choose the *Show subaccounts only* checkbox.
 
 > ### Tip:  
 > In this detailed view, you can click :gear: to display and hide columns.

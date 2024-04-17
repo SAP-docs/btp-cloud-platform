@@ -10,7 +10,7 @@ To authenticate in the Kyma environment, you can either use the default identity
 
 ## Default Identity Provider for Kubernetes Access
 
-With Kyma version 2.0, every managed Kyma runtime is configured to use a default Identity Provider \(IdP\). The default IdP configuration uses a specific SAP Cloud Identity Services - Identity Authentication on-demand tenant that is shared across all managed Kyma runtimes.
+Every managed Kyma runtime is configured to use a default Identity Provider \(IdP\). The default IdP configuration uses a specific SAP Cloud Identity Services - Identity Authentication on-demand tenant that is shared across all managed Kyma runtimes.
 
 In managed Kyma, customers can’t manage the tenant themselves, for example, make changes in user groups. In this setup, admins can assign roles only targeting users.
 
@@ -45,8 +45,6 @@ You can choose any OpenID Connect compliant service. For example, you can use yo
 
 
 [Assign Roles in the Kyma Environment](../50-administration-and-ops/assign-roles-in-the-kyma-environment-148ae38.md "Kyma uses roles to manage access within the cluster, which give the assigned users the permissions suitable for their purposes.")
-
-[Authorization in Kyma](https://kyma-project.io/#/04-operation-guides/security/sec-02-authorization-in-kyma)
 
 [Initial Setup](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/LATEST/en-US/31af7da133874e199a7df1d42905241b.html)
 

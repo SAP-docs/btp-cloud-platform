@@ -2,7 +2,7 @@
 
 # Maintaining Number Range Objects
 
-To maintain a number range object during design time, the `ABAP Development Tools` UI editor for number range objects can be used. For more information, see [Working with Number Range Objects](https://help.sap.com/docs/btp/sap-abap-development-user-guide/working-with-number-range-objects?version=Cloud).
+To maintain a number range object during design time, the ABAP development tools for Eclipse UI editor for number range objects can be used. For more information, see [Working with Number Range Objects](https://help.sap.com/docs/btp/sap-abap-development-user-guide/working-with-number-range-objects?version=Cloud).
 
 Class `CL_NUMBERRANGE_OBJECTS` provides methods for maintaining number range objects.
 

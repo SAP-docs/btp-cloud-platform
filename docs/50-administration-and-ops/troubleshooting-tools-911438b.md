@@ -2,7 +2,7 @@
 
 # Troubleshooting Tools
 
-Apart from debugging, you can also use other troubleshooting tools, such as the Feed Reader view in ABAP Development Tools, ABAP Profiler as well as the SQL Explain and SQL Trace Analysis SAP Fiori apps.
+Apart from debugging, you can also use other troubleshooting tools, such as the Feed Reader view in ABAP development tools for Eclipse, ABAP Profiler as well as the SQL Explain and SQL Trace Analysis SAP Fiori apps.
 
 
 
@@ -36,5 +36,5 @@ If you develop OData services or other ABAP functionality related to the ABAP RE
 
 ## SQL Trace Analysis SAP Fiori App
 
-With the SQL Trace Analysis app, you can access and analyze SQL trace records after you have used the SQL trace function of the ABAP performance trace in ABAP Development Tools. See [SQL Trace Analysis](sql-trace-analysis-ed7805c.md).
+With the SQL Trace Analysis app, you can access and analyze SQL trace records after you have used the SQL trace function of the ABAP performance trace in ABAP development tools for Eclipse. See [SQL Trace Analysis](sql-trace-analysis-ed7805c.md).
 

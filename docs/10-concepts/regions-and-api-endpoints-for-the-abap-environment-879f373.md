@@ -276,7 +276,7 @@ eu11
 </td>
 <td valign="top">
 
-Europe \(Frankfurt\)EU Access
+Europe \(Frankfurt\) EU Access
 
 </td>
 <td valign="top">
@@ -1152,7 +1152,4 @@ ap21.hana.ondemand.com
 </td>
 </tr>
 </table>
-
-> ### Caution:  
-> Some customer contracts include EU access, which means that we only use European subprocessors to access personal data in cloud services, such as when we provide support. We currently cannot guarantee EU access in the ABAP environment. If your contract includes EU access, we cannot move services to the ABAP environment, without changing your contract.
 

@@ -20,7 +20,7 @@ To enable the automatic creation of destination configurations, add the environm
 
 
 > ### Note:  
-> To enable app-to-app navigation, you also have to add the environment variable IAS\_DEPENDENCY\_NAME and provide the name of the dependency that has been configured for the Identity Authentication token exchange that is required for app-to-app navigation. For more information about how to configure the dependency for app-to-app navigation, see  <?sap-ot O2O class="- topic/xref " href="9675b64bc8014f4282e49d0cd8ce60fa.xml" text="" desc="" xtrc="xref:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/be0acbfdd48d4678b8b4d81f708c373b.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+> To enable app-to-app navigation, you also have to add the environment variable IAS\_DEPENDENCY\_NAME and provide the name of the dependency that has been configured for the Identity Authentication token exchange that is required for app-to-app navigation. For more information about how to configure the dependency for app-to-app navigation, see [Consume an API from Another Application](https://help.sap.com/docs/identity-authentication/identity-authentication-restricted/consume-api-from-another-application).
 
 You would typically use the automatic creation of destination configurations in Kubernetes if the HTML5 application deployer application has been previously uploaded as a docker image to Artifactory or Docker Hub. See, for example, this Kubernetes deployment:
 

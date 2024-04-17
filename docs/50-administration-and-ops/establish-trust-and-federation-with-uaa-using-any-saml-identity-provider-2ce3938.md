@@ -126,8 +126,6 @@ To establish trust from a tenant of your identity provider to a subaccount, assi
 
 [Settings for Default SAML Federation Attributes of Identity Providers for Business Users](establish-trust-and-federation-with-uaa-using-any-saml-identity-provider-2ce3938.md#loio6d073332bc5743fdb7f7f06bde499ab7 "This table shows the attribute settings of the identity provider and the values administrators use to establish trust between the SAML 2.0 identity provider and a subaccount.")
 
-[SAP Developers](https://developers.sap.com/tutorials/cp-azure-ad-saml.html)
-
 <a name="loio6d073332bc5743fdb7f7f06bde499ab7"/>
 
 <!-- loio6d073332bc5743fdb7f7f06bde499ab7 -->
