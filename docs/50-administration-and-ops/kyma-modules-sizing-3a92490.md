@@ -535,7 +535,7 @@ Minimum
 </td>
 <td valign="top">
 
-2\*250Mi
+2\*32Mi
 
 </td>
 <td valign="top">
