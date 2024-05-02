@@ -44,7 +44,7 @@ Related Documentation
 <tr>
 <td valign="top">
 
-1. Connect the SAP Customer Experience system you want to extend with the corresponding global account in SAP BTP.
+1. [Add the Application Connector module](https://help.sap.com/docs/btp/sap-business-technology-platform/enable-and-disable-kyma-module?version=Cloud), and connect the SAP Customer Experience system you want to extend with the corresponding global account in SAP BTP.
 
 During the registration process you create an integration token which is then used in the SAP Customer Experience system for configuring the integration on the SAP Customer Experience side.
 

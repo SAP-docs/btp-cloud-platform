@@ -23,7 +23,7 @@
 
 ### Maintain Business Role
 
-To enable business users to access the `Custom Code Migration` app, create the `Project Manager – IT` business role and assign one or more business user\(s\) to it. To do this, proceed as follows:
+To enable business users to access the `Custom Code Migration` app, create the `Project Manager – IT` business role and assign one or more business user\(s\) to it. To create this role, proceed as follows:
 
 1.  From the SAP Fiori launchpad of your ABAP environment, open the *Maintain Business Role* tile.
 

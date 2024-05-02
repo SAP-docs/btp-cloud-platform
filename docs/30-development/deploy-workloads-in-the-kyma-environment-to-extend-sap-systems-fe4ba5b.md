@@ -10,7 +10,7 @@ Access the Kyma environment and start creating extensions for SAP systems.
 
 ## Prerequisites
 
--   You have added the Serverless module. To learn how to do it, see [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+-   You have added the Application Connector and Serverless modules. To learn how to do it, see [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 
 -   If you want to expose and secure your workload, the default Istio and API Gateway modules must be added.
 

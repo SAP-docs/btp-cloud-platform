@@ -31,6 +31,9 @@ The following colour scheme of the assigned restriction types helps you to organ
 
 -   Orange: at least one field is still empty
 
+    Please note that there is one exception to this colour scheme. If a restriction is not directly maintained for a specific access category but filled via inheritance from a higher access category it is shown as green even if it was not processed manually.
+
+
 The restriction type you're currently working on is displayed under focus.
 
 **Detail Area**
@@ -76,6 +79,8 @@ You can carry out the following activities in the detail view:
 -   Add other instances of this restriction type of the highest access category \(which is automatically selected\) by pressing the the *Add* button in the header of the restrictions list.
 
 -   Define a restriction of the *General type* as leading by selecting the *Leading Restriction* checkbox.
+
+    If required, you can define several general restrictions as leading. You can do this by selecting the required restrictions and then clicking *Leading*.
 
 -   Remove restrictions if required by selecting the restrictions and clicking the the*Remove button* in the header of the restrictions list.
 

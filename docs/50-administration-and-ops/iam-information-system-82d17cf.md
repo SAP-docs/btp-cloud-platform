@@ -22,7 +22,7 @@ You can use this app to:
 
 
 
--   Check the usage of the following entities and how they are related: Business role, derived business role, business role template, application, business user, business catalog, restriction
+-   Check the usage of the following entities and how they are related: Business role, derived business role, business role template, application, business user, business catalog, restriction, launchpad space, launchpad page.
 
 -   Check, for example, which business roles are assigned to a business user, which business catalogs and restrictions are therefore assigned to the business user and to which applications a user has access. You can also download a list of business users and business catalogs.
 
@@ -30,6 +30,8 @@ You can use this app to:
 
     > ### Note:  
     > You can also display the scope items the business catalogs depend on. Business catalogs that do not depend on any scope items are always visible in the system. For these business catalogs, **Scope Items \(0\)** is displayed on the relevant tab and following message appears in the table: *The business catalog is not scope-dependent*.
+
+-   Display assigned apps: You can display apps that have their own tile access \(classified as*Standard Application*\) as well as ones that can be started indirectly via app-to-app navigation \(classified as *Standard Navigation Target*\).
 
 
 

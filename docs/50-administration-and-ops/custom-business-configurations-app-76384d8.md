@@ -10,7 +10,7 @@ Find out how to use the *Custom Business Configurations* app.
 
 ## Purpose
 
-The *Custom Business Configurations* app serves as an entry point to the [Business Configuration Maintenance Object](../30-development/business-configuration-maintenance-object-61159c4.md) provided by the custom applications or partners. You can use the app to adjust these configuration objects to change and influence the system behavior. For more information, see also [Creating Business Configuration Apps with ABAP RESTful Application Programming Model and Custom Business Configurations App](../30-development/creating-business-configuration-apps-with-abap-restful-application-programming-model-and-fa420dd.md).
+The *Custom Business Configurations* app serves as an entry point to the [Business Configuration Maintenance Object](../30-development/business-configuration-maintenance-object-61159c4.md)provided by the custom applications or partners. You can use the app to adjust these configuration objects to change and influence the system behavior. For more information, see also [Creating Business Configuration Apps with ABAP RESTful Application Programming Model and Custom Business Configurations App](../30-development/creating-business-configuration-apps-with-abap-restful-application-programming-model-and-fa420dd.md).
 
 
 
@@ -59,7 +59,7 @@ For a selected business configuration, the action *Display Change Logs* is avail
 -   the *Business Configuration Change Logs* app is configured as a valid navigation target for the user for the given device
 
 
-With this action, you can navigate to the [Business Configuration Change Logs](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/5c6cf20499894f1083e80dba7c5963d4.html?version=Cloud) app.
+With this action, you can navigate to the [Business Configuration Change Logs](https://help.sap.com/docs/abap-cloud/abap-rap/developing-ready-to-run-business-object?version=sap_btp) app.
 
 
 
@@ -67,7 +67,7 @@ With this action, you can navigate to the [Business Configuration Change Logs](h
 
 ## Show Documentation
 
-For a selected business configuration, the action *Show Documentation* is available in the header section if a knowledge transfer document exists for the business configuration maintenance object. With this action the content of the knowledge transfer document is displayed. For more information, see [Documentation of Business Configuration Maintenance Objects](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/f4005c7b4fe0498bab2d7f5f6bd96d4e.html).
+For a selected business configuration, the action *Show Documentation* is available in the header section if a knowledge transfer document exists for the business configuration maintenance object. With this action the content of the knowledge transfer document is displayed. For more information, see [Documentation of Business Configuration Maintenance Objects](https://help.sap.com/docs/abap-cloud/abap-rap/developing-ready-to-run-business-object?version=sap_btp).
 
 To provide context-sensitive in-app help you can use [SAP Companion](https://experience.sap.com/fiori-design-web/web-assistant/).
 

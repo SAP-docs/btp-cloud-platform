@@ -411,10 +411,10 @@ Here are some useful tips for working in this perspective:
 -   You can quickly expand or collapse the entire account hierarchy by clicking the <span class="SAP-icons-V5"></span> \(Expand All\) and <span class="SAP-icons-V5"></span> \(Collapse All\) buttons.
 -   To filter the main table for specific services, use the *Services* dropdown list.
 
--   To view the monthly trend of a selected subaccount or directory over the last 12 months, scroll past the main table until you reach a graph.
+-   To view the monthly trend of a selected subaccount or directory over the last 12 months, scroll past the main table until you reach a graph. Choose the graph type in the *View By* dropdown list.
 
     > ### Tip:  
-    > The graph is useful for seeing in which months a subaccount or directory has usage and costs, which subaccounts or directories have increased or decreased usage/costs over time, or the months that have the highest and lowest usage/costs per subaccount or directory.
+    > The graph is useful for seeing in which months a subaccount or directory has usage and costs, which subaccounts or directories have increased or decreased usage/costs over time, or the months that have the highest and lowest usage/costs per subaccount or directory. You can also switch to a graph that shows the cumulative costs of a selected service over time.
 
 
 See other useful tips, such as table sorting and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.

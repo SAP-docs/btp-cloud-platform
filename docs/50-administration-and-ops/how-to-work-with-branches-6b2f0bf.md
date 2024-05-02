@@ -58,6 +58,3 @@ Find out how to create, check out and switch between different branches:
 > ### Note:  
 > The merging of branches is currently not supported.
 
-> ### Note:  
-> Note that a maximum of 25 branches can be created per software component.
-

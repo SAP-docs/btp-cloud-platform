@@ -92,13 +92,14 @@ Using the *Maintain Business Roles* app, you have the following options for main
 
     You want to, for example, define that the values for the country templates for Austria and Switzerland are applied in all restriction types the *Company Code* field is used in. So you select the values `AU01` \(for Austria\) and `CH01` \(for Switzerland\) and switch *Leading Restriction* on. Then these values are automatically inherited to all occurrences of the *Company Code* field.
 
-    *Default Values from Business Catalogs*
 
-    Business catalogs can contain default values. In rare cases, these might overwrite the values defined by you in the Restrictions and Values section. The system then displays a message listing the default values that are added from the business catalog. To avoid this, you then need to remove the respective business catalog from the business role. The respective symbol that is visible in the *Restrictions Overview* looks like this:
+*Default Values from Business Catalogs*
 
-    ![](images/icon_8050056.gif)
+Business catalogs can contain default values. In rare cases, these might overwrite the values defined by you in the Restrictions and Values section. The system then displays a message listing the default values that are added from the business catalog. To avoid this, you then need to remove the respective business catalog from the business role. The respective symbol that is visible in the *Restrictions Overview* looks like this:
 
+![](images/icon_8050056.gif)
 
+-   
 **Related Information**  
 
 
@@ -107,4 +108,10 @@ Using the *Maintain Business Roles* app, you have the following options for main
  <?sap-ot O2O class="- topic/link " href="03540a86736543c4b94070d08df40744.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/6a6b17f2d0464487a6c3f8a7cb61e812.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 [Maintain Restrictions in Business Role](https://launchpad.support.sap.com/#/notes/2598733)
+
+[Maintain Restrictions UI](maintain-restrictions-ui-28f133f.md "")
+
+[Restrictions Overview](restrictions-overview-0d2fb05.md "")
+
+ <?sap-ot O2O class="- topic/link " href="dbd0d00ab9674847a66e2164bca1ad1a.xml" text="" desc="" xtrc="link:6" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/6a6b17f2d0464487a6c3f8a7cb61e812.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 

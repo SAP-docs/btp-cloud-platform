@@ -4,7 +4,7 @@
 
 
 
-You can use this app to schedule and monitor application-related jobs. If you have manual activities that you often need to do at a specific time, the *Application Jobs* app can reduce your workload by running these tasks smoothly in the background. You can plan regular jobs which keeps you free to concentrate on other tasks.
+You can use this app to schedule and monitor application-related jobs. If you have manual activities that you often need to do at a specific time, the `Application Jobs` app can reduce your workload by running these tasks smoothly in the background. You can plan regular jobs which keeps you free to concentrate on other tasks.
 
 
 
@@ -21,7 +21,7 @@ You can use this app to:
     > ### Note:  
     > The parameters under *Scheduling Information* can't be saved as part of a template.
 
--   Schedule jobs with a custom factory calendar: In the *Application Jobs* app, define the scheduling information, change an existing calendar, create a new one, and define execution days
+-   Schedule jobs with a custom factory calendar: In the `Application Jobs` app, define the scheduling information, change an existing calendar, create a new one, and define execution days
 
 -   Arrange job series that take different time zones into account
 

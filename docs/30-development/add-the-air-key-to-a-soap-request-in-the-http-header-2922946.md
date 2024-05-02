@@ -12,7 +12,7 @@ If your application calls an SAP SOAP API, the Application Interface Key must be
 
 > ### Note:  
 > -   It isn't possible to add a field other than the Application Interface Key field.
-> -   Only synchronous web service calls are supported.
+> -   Once a web service call is performed, the custom HTTP header is reset. If you want to use the same value again, you must set the value again.
 
 
 

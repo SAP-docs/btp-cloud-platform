@@ -100,7 +100,7 @@ Business User Change Document Integration \(SAP\_COM\_0327\)
 </td>
 <td valign="top">
 
-[Integrating Business User Change Documents](integrating-business-user-change-documents-624988e.md)
+[Integrating Business User Change Documents](../30-development/integrating-business-user-change-documents-624988e.md)
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ Business Role Change Document Integration \(SAP\_COM\_0366\)
 </td>
 <td valign="top">
 
-[Integrating Business Role Change Documents](integrating-business-role-change-documents-6426828.md)
+[Integrating Business Role Change Documents](../30-development/integrating-business-role-change-documents-6426828.md)
 
 </td>
 </tr>
@@ -304,7 +304,7 @@ ABAP Test Cockpit - Test Integration \(SAP\_COM\_0901\)
 </td>
 <td valign="top">
 
-[Executing ABAP Test Cockpit \(ATC\) Check Runs](../30-development/executing-abap-test-cockpit-atc-check-runs-d8cec78.md)
+[Running ABAP Test Cockpit \(ATC\) Check Runs](../30-development/running-abap-test-cockpit-atc-check-runs-d8cec78.md)
 
 </td>
 </tr>

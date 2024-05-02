@@ -61,6 +61,8 @@ For elasticity, operability and protection reasons, the runtime of API or UI req
 
 [Developing External Service Consumption \(Outbound Communication\)](developing-external-service-consumption-outbound-communication-f871712.md)
 
+[Developing APIs for Inbound Communication](developing-apis-for-inbound-communication-94ebfa0.md)
+
 [Working with abapGit](working-with-abapgit-d62ed9d.md)
 
 **Related Information**  

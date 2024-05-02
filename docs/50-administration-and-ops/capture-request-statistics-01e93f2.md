@@ -2,6 +2,8 @@
 
 # Capture Request Statistics
 
+**App ID:** F5699
+
 
 
 With this app you can capture request statistics to find out which activities are running in your ABAP system. With the activation of a capture profile, you can capture system activities. Requests are recorded with technical information, such as response time, program name, or CPU time. Using the request statistics, you can investigate the performance of a system or of a tenant in more detail.
@@ -20,7 +22,7 @@ This app provides the following key features:
 
 -   Activation and deactivation of profiles for capturing request statistics
 
--   Navigation to the analysis of request statistics and to system sizing
+-   Navigation to the analysis of request statistics
 
 -   Activation and deactivation of SQL traces
 

@@ -8,7 +8,7 @@ In this topic, a communication arrangement is created.
 
 ## Prerequisites
 
--   You have a subaccount in SAP BTP, Cloud Foundry environment. Refer to [Getting Started with a Trial Account in the Cloud Foundry Environment](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/e50ab7b423f04a8db301d7678946626e.html).
+-   You have a subaccount in the SAP BTP. Refer to [Getting Started](https://help.sap.com/docs/btp/sap-business-technology-platform/btp-getting-started).
 
 -   You have created a service instance for SAP Event Mesh. If you haven't created a service instance before, refer to [Creating an Enterprise Messaging Service Instance](https://help.sap.com/viewer/bf82e6b26456494cbdd197057c09979f/Cloud/en-US/d0483a9e38434f23a4579d6fcc72654b.html).
 

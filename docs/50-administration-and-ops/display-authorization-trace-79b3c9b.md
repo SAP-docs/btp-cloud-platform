@@ -19,7 +19,7 @@ You can use this app to:
 -   Display authorization check results including already assigned authorizations and failed checks
 -   Display all business roles granting access to selected fields and values
 
-A maximim of 10.000 data sets is possible, therefore we recommend to consider this when defining the selection criteria, especially the date range.
+A maximum of 10.000 data sets is possible, therefore we recommend to consider this when defining the selection criteria, especially the date range.
 
 The following authorization check statuses are possible:
 
@@ -77,7 +77,7 @@ When reading an object, an authorization check is taking place and certain data 
 </tr>
 </table>
 
-If an authorization check resulted in a *Filtered* status, you can check which business roles expose the affected restriction type. One potential solution is that the business user that has been checked is not assigned to the required business role or that the required value has not been maintained yet.
+If an authorization check resulted in a *Filtered* status, you can check which business roles expose the affected restriction type. The root cause could be that the business user that has been checked is not assigned to the required business role or that the required value has not been maintained yet.
 
 > ### Note:  
 > The trace entries are deleted automatically within a certain time frame.

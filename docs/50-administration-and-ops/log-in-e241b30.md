@@ -173,7 +173,7 @@ btp login
 If you've logged in before, the server URL, the subdomain, and the user from the last login are suggested. You can then press [Enter\] to confirm, or type in different values.
 
 ```
-CLI server URL [https://cpcli.cf.eu10.hana.ondemand.com]>
+CLI server URL [https://cli.btp.cloud.sap/]>
 Subdomain [my-global-account]>
 User [name@example.com]>
 ```

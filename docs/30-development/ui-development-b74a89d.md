@@ -12,40 +12,58 @@ Learn more about the different options to develop SAP Fiori applications for an 
 
 You can develop SAP Fiori applications for OData services that are exposed as a UI service. See [OData Service Consumption](https://help.sap.com/docs/btp/sap-abap-restful-application-programming-model/odata-service-consumption?version=Cloud).
 
-> ### Note:  
-> SAP Fiori is a design system that enables you to create business apps with a consumer-grade user experience, turning casual users into SAP experts with simple screens that run on any device. You can build apps that follow the SAP Fiori design principle using a combination of SAPUI5 and SAP Fiori elements. See [SAP Fiori](https://help.sap.com/viewer/product/SAP_FIORI_OVERVIEW/5_OVERVIEW/en-US).
-> 
-> SAPUI5 is a development framework that allows you to build a front-end application that follows the SAP Fiori design guidelines. SAPUI5 apps are built using HTML5, JS, XML, OData, and JSON, and are based on the Model, View, Controller \(or MVC\) design pattern. See [SAPUI5](https://help.sap.com/viewer/product/SAPUI5/External/en-US).
-> 
-> SAP Fiori elements is a framework that comprises the most commonly used floorplan templates. It is designed to speed up development by reducing the amount of frontend code needed to build SAP Fiori apps and to ensure UX consistency and compliance with the latest SAP Fiori design guidelines. See [SAP Fiori Elements](https://sapui5.hana.ondemand.com/#/topic/03265b0408e2432c9571d6b3feb6b1fd).
+-   SAP Fiori is a design system that enables you to create business apps with a consumer-grade user experience, turning casual users into SAP experts with simple screens that run on any device. You can build apps that follow the SAP Fiori design principle using a combination of SAPUI5 and SAP Fiori elements. See [SAP Fiori](https://help.sap.com/docs/SAP_FIORI_OVERVIEW).
+
+    SAPUI5 is a development framework that allows you to build a front-end application that follows the SAP Fiori design guidelines. SAPUI5 apps are built using HTML5, JS, XML, OData, and JSON, and are based on the Model, View, Controller \(or MVC\) design pattern. See [SAPUI5](https://help.sap.com/docs/SAPUI5?version=External).
+
+    SAP Fiori elements is a framework that comprises the most commonly used floorplan templates. It is designed to speed up development by reducing the amount of frontend code needed to build SAP Fiori apps and to ensure UX consistency and compliance with the latest SAP Fiori design guidelines. See [SAP Fiori Elements](https://sapui5.hana.ondemand.com/#/topic/03265b0408e2432c9571d6b3feb6b1fd).
+
 
 To develop SAP Fiori applications, you can either use SAP Business Application Studio with SAP Fiori tools extensions or Microsoft Visual Studio Code \(VS Code\) with SAP Fiori tools extensions.
 
-> ### Note:  
-> [https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-application-studio?version=Cloud](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-application-studio?version=Cloud) is an SAP Business Technology Platform \(SAP BTP\) service that offers a modern development environment tailored for efficient development of business applications for the SAP Intelligent Enterprise. See [SAP Business Application Studio](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-application-studio?version=Cloud).
-> 
-> Visual Studio Code is a source-code editor provided by Microsoft for Windows, Linux, and macOS. See .
-> 
-> SAP Fiori tools is a set of extensions for SAP Business Application Studio and Visual Studio Code that makes developing SAP Fiori applications faster and easier. See [SAP Fiori Tools](https://help.sap.com/viewer/product/SAP_FIORI_tools/Latest/en-US).
+-   [SAP Business Application Studio](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-application-studio?version=Cloud) is an SAP Business Technology Platform \(SAP BTP\) service that offers a modern development environment tailored for efficient development of business applications for the SAP Intelligent Enterprise. See [SAP Business Application Studio](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-application-studio?version=Cloud).
+
+    Visual Studio Code is a source-code editor provided by Microsoft for Windows, Linux, and macOS. See .
+
+    SAP Fiori tools is a set of extensions for SAP Business Application Studio and Visual Studio Code that makes developing SAP Fiori applications faster and easier. See [SAP Fiori Tools](https://help.sap.com/viewer/product/SAP_FIORI_tools/Latest/en-US).
+
 
 SAP Business Application Studio and VS Code support integration with Git so that you can use Git as source control system and store the code of SAP Fiori applications in remote git repositories.
 
-> ### Note:  
-> Git is a free and open source distributed version control system designed to handle everything from small to very large projects fast and efficiently.
+-   Git is a free and open source distributed version control system designed to handle everything from small to very large projects fast and efficiently.
+
 
 Once you have implemented the SAP Fiori application, you can deploy it to the ABAP or Cloud Foundry environment.
 
 You can launch the deployed apps standalone or embed them into the SAP Fiori launchpad.
 
-> ### Note:  
-> SAP Fiori launchpad is the entry point for business users to SAP Fiori apps on mobile and desktop devices. The launchpad comprises a home page where app tiles, which can display live status indicators, such as the number of open tasks, are clustered. Each tile represents a business application that the user can launch. See [SAP Fiori Launchpad - User Guide](https://help.sap.com/docs/btp/sap-fiori-launchpad-for-sap-btp-abap-environment/sap-fiori-launchpad-user-guide?version=Cloud).
+-   SAP Fiori launchpad is the entry point for business users to SAP Fiori apps on mobile and desktop devices. The launchpad comprises a home page where app tiles, which can display live status indicators, such as the number of open tasks, are clustered. Each tile represents a business application that the user can launch. See [SAP Fiori Launchpad - User Guide](https://help.sap.com/docs/btp/sap-fiori-launchpad-for-sap-btp-abap-environment/sap-fiori-launchpad-user-guide?version=Cloud).
+
 
 The ABAP environment comes with an embedded SAP Fiori launchpad and provides access to SAP Fiori apps that are deployed to the ABAP environment. Apps deployed to the Cloud Foundry environment can be added to a launchpad provided by theSAP Build Work Zone, standard edition. You can also add apps that are deployed to the ABAP environment to launchpads provided by the SAP Build Work Zone, standard edition. See [Integrating Content with SAP Build Work Zone, standard edition](../50-administration-and-ops/integrating-content-with-sap-build-work-zone-standard-edition-ac97434.md).
 
-> ### Note:  
-> The SAP Build Work Zone, standard edition is an SAP BTP service that enables you to build a portal-like central entry point and provides enterprise-wide, efficient, secure, and role-based access to SAP and non-SAP applications. See [SAP Build Work Zone, Standard Edition](https://help.sap.com/docs/build-work-zone-standard-edition).
+-   The SAP Build Work Zone, standard edition is an SAP BTP service that enables you to build a portal-like central entry point and provides enterprise-wide, efficient, secure, and role-based access to SAP and non-SAP applications. See [SAP Build Work Zone, Standard Edition](https://help.sap.com/docs/build-work-zone-standard-edition).
+
 
 ![](images/UI_Development_Overview_e7e06e4.png)
+
+
+
+<a name="loiob74a89d3565b4abeb88efb581a081c8d__section_n5h_lcp_1bc"/>
+
+## Spaces and Pages
+
+Spaces and pages structure the way apps and other content appears in the SAP Fiori launchpad. They offer more flexibility to influence the launchpad layout for different user groups. Each user can see one or more spaces that contain one or more pages. The pages show apps clustered in different sections.
+
+A *Space* is assigned to a business role and offers a structured layout of the business role content. Each space must consist of at least one page.
+
+A *Page* holds the actual layout information for the corresponding space. It groups the apps visualized by tiles into different sections from the work perspective of the end user.
+
+The following graphic illustrates the concept of spaces and pages.
+
+![](images/SpaceandPageillustration_044d249.png)
+
+Read [Managing Launchpad Spaces and Pages](https://help.sap.com/docs/btp/user-interface-configurations/managing-launchpad-spaces-and-pages?version=Cloud) for an in-depth description of the concept in the SAP Business Technology Platform. For more information on how to use spaces and pages in SAP Build Work Zone, please refer to [Manual Configuration of Spaces and Pages](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/manual-configuration-of-spaces-and-pages?q=Space).
 
 
 

@@ -10,7 +10,7 @@ SAP BTP, Kyma runtime provides a fully managed cloud-native Kubernetes applicati
 
 ## Kyma as a Managed Service
 
-Kyma environment permits a native consumption of the Multi-Cloud Foundation Services \([What Is the Multi-Cloud Foundation](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/06b6fb3d45d040429e36f0359d2fe1f2.html "Get to know the multi-cloud foundation and its environments.") :arrow_upper_right:\) and smooth consumption of SAP and non-SAP applications. It also supports out-of-the-box CAP, SAP Cloud SDK, application router, and HTML5 deployer.
+Kyma environment permits a native consumption of the Multi-Cloud Foundation Services \([What Is the Multi-Cloud Foundation?](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/06b6fb3d45d040429e36f0359d2fe1f2.html "Get to know the multi-cloud foundation and its environments.") :arrow_upper_right:\) and smooth consumption of SAP and non-SAP applications. It also supports out-of-the-box CAP, SAP Cloud SDK, application router, and HTML5 deployer.
 
 Kyma implements a dedicated application runtime to deploy highly scalable, robust, and secure containerized microservices.
 

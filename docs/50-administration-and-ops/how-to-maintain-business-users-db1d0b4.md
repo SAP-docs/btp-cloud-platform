@@ -88,6 +88,16 @@ Business users are replicated from your central HR system. You can change user d
     > </td>
     > <td valign="top">
     > 
+    > E-Mail \(Optional\)
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > Global User ID \(Optional\)
+    > 
+    > </td>
+    > <td valign="top">
+    > 
     > `Role ID`
     > 
     > </td>
@@ -101,6 +111,16 @@ Business users are replicated from your central HR system. You can change user d
     > <td valign="top">
     > 
     > *<Business user ID 1\>* 
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > *<Business user's mail address 1\>*
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > *<Global user ID 1\>*
     > 
     > </td>
     > <td valign="top">
@@ -122,6 +142,16 @@ Business users are replicated from your central HR system. You can change user d
     > </td>
     > <td valign="top">
     > 
+    > *<Business user's mail address 2\>*
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > *<Global user ID 2\>*
+    > 
+    > </td>
+    > <td valign="top">
+    > 
     > *<Business role ID 2\>*
     > 
     > </td>
@@ -139,6 +169,16 @@ Business users are replicated from your central HR system. You can change user d
     > </td>
     > <td valign="top">
     > 
+    > *<Business user's mail address 3\>*
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > *<Global user ID 3\>*
+    > 
+    > </td>
+    > <td valign="top">
+    > 
     > *<Business role ID 3\>*
     > 
     > </td>
@@ -152,6 +192,16 @@ Business users are replicated from your central HR system. You can change user d
     > <td valign="top">
     > 
     > *<Business user ID n\>* 
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > *<Business user's mail address n\>*
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > *<Global user ID n\>*
     > 
     > </td>
     > <td valign="top">

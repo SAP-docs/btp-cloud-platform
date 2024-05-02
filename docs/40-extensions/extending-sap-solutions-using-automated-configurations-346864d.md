@@ -28,26 +28,18 @@ With the automated configuration you have the following key benefits:
 
 ## Process Flow
 
-You can use the extension capabilities of SAP BTP to implement additional workflows or modules on top of your existing SAP solutions. You can extend one or more SAP solutions grouped together in a common business case. The following SAP system types are supported:
-
--   SAP S/4HANA Cloud, public edition
-
--   SAP Marketing Cloud
-
--   SAP SuccessFactors
-
--   SAP Commerce Cloud
-
--   SAP Cloud for Customer
-
--   SAP Field Service Management
-
+You can use the extension capabilities of SAP BTP to implement additional workflows or modules on top of your existing SAP solutions. You can extend one or more SAP solutions grouped together in a common business case.
 
 To enable the integration, you need to:
 
 1.  Connect the corresponding SAP system with the global account.
 
-    During the pairing process you create an integration token which is then used by the SAP system administrator to configure the integration on the SAP system side. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
+    -   For systems of type SAP S/4HANA Cloud, SAP Marketing Cloud, SAP SuccessFactors and SAP systems from the SAP Customer Experience portfolio, during the pairing process you create an registration token which is then used by the SAP system administrator to configure the registration on the SAP system side. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
+
+    -   For systems of type different than SAP S/4HANA Cloud, SAP Marketing Cloud, SAP SuccessFactors and SAP systems from the SAP Customer Experience portfolio, the SAP system is already registered when it's part of the *Systems* list. However, in the *Status* column, there is no status shown. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
+
+    -   For third-party systems, the system is already registered when it's part of the *Systems* list. However, in the *Status* column, there is no status shown. See [Registering Third-Party Systems](registering-third-party-systems-5481d59.md).
+
 
     > ### Note:  
     > You cannot migrate the registered SAP systems between global accounts.
@@ -67,7 +59,7 @@ To enable the integration, you need to:
     -   [Configure the Entitlements for the SAP SuccessFactors Extensibility Service](configure-the-entitlements-for-the-sap-successfactors-extensibility-service-b01e625.md)
 
 
-    For the systems of type SAP Commerce Cloud, SAP Cloud for Customer, and SAP Field Service Management, you can continue with developing your extension application.
+    For the systems of type different than SAP S/4HANA Cloud, SAP Marketing Cloud, and SAP SuccessFactors, you can continue with developing your extension application.
 
 4.  For systems of type SAP S/4HANA Cloud, SAP Marketing Cloud, and SAP SuccessFactors, configure the communication flow for the extension application.
 
@@ -89,4 +81,6 @@ To enable the integration, you need to:
 [Extending SAP SuccessFactors in the Cloud Foundry and Kyma Environment](extending-sap-successfactors-in-the-cloud-foundry-and-kyma-environment-9e33934.md "Use SAP BTP to extend SAP SuccessFactors with extension applications running on the cloud platform.")
 
 [Extending SAP Customer Experience Products in the Kyma Environment](extending-sap-customer-experience-products-in-the-kyma-environment-83df31a.md "You can configure the integration between SAP BTP and SAP Customer Experience automatically to extend SAP Customer Experience products with applications running on the cloud platform.")
+
+[Extending SAP Marketing Cloud in the Cloud Foundry and Kyma Environment](extending-sap-marketing-cloud-in-the-cloud-foundry-and-kyma-environment-18bb3d9.md "")
 

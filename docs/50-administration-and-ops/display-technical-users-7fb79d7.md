@@ -21,6 +21,8 @@ In the *Technical User* tab, you can display technical users that can be service
 
 In the *SAP Support User Request Log* tab, you can display more information about when and why SAP support users accessed your customer system in the past 12 months. For each support user, the relevant incident ID, access level, access category, customer user, request date and validity date is displayed when you click on the required entry in the *Users* list. SAP support user IDs are pseudonymized to respect the data subject rights of SAP employees according to GDPR.
 
+For more information about access levels and access categories, see the *Related Information* section.
+
 
 
 <a name="loio7fb79d7a811146679646ebfb5844b858__section_m3x_rzg_jfb"/>

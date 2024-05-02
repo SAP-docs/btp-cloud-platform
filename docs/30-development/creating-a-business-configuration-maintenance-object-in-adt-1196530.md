@@ -20,5 +20,5 @@ Find out how to create a business configuration maintenance object using the ABA
 **Related Information**  
 
 
-[Working with Business Configuration Maintenance Objects](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/e570fee3db344358926ad11ba3b3a531.html)
+[Working with Business Configuration Maintenance Objects](https://help.sap.com/docs/abap-cloud/abap-rap/developing-ready-to-run-business-object?version=sap_btp)
 

@@ -9,9 +9,9 @@ Platform users who have administrative permissions can view or manage the list o
 For platform users, there's a [default identity provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md). We expect that you have your own identity provider. We recommend that you configure your custom tenant of Identity Authentication as the identity provider and connect Identity Authentication to your own corporate identity provider.
 
 > ### Note:  
-> For China \(Shanghai\) and Government Cloud \(US\) regions, a different default identity provider is used. You can't use Identity Authentication as identity provider in the global account.
+> For China \(Shanghai\) and Government Cloud \(US\) regions, a different default identity provider is used, and you can't use Identity Authentication as identity provider in the global account.
 > 
-> For more information on the China \(Shanghai\) region, see this [blog article](https://blogs.sap.com/2021/02/22/activate-totp-two-factor-authentication-on-sap-business-technology-platform-formerly-known-as-cloud-platform-at-alibaba-cloud/) on *SAP Community*.
+> If you want to use two-factor authentication in the China \(Shanghai\) region, see this [blog article](https://blogs.sap.com/2021/02/22/activate-totp-two-factor-authentication-on-sap-business-technology-platform-formerly-known-as-cloud-platform-at-alibaba-cloud/) on *SAP Community*.
 
 
 
@@ -153,7 +153,7 @@ See:
 </tr>
 </table>
 
-Member management in the Cloud Foundry or Kyma environment environment is independent of the feature set you use.For more information on the Kyma environment, see [Getting Started in the Kyma Environment](../20-getting-started/getting-started-in-the-kyma-environment-d1abd18.md).
+Member management in the Cloud Foundry or Kyma environment environment is independent of the feature set you use. For more information on the Kyma environment, see [Assign Roles in the Kyma Environment](../50-administration-and-ops/assign-roles-in-the-kyma-environment-148ae38.md).
 
 **Member Management in the Cloud Foundry Environment**
 

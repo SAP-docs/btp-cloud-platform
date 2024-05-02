@@ -24,10 +24,8 @@ You can use this app to:
 
 -   Display detailed information
 
--   Check for updates of certificate trusts and adopt the changes if required
-
-    > ### Note:  
-    > SAP delivers its systems with pre-defined trusted certificates. If the trusted certificates change at a later point in time, there are no automatic updates. We therefore recommend that you use the *Check for Updates* function on a regular basis and adopt any changes to certificate trusts that you require.
+-   Check for updates of certificate trusts and adopt the changes if required.
+-   Automatically apply all changes to the SAP trust list in your trust list after an upgrade. You can either just add new certificates or add new certificates and simultaneously remove deleted certificates.
 
 -   Delete trusted certificates from the list. This feature is enabled only for the certificate type *Managed By Customer*. Certificates of the type *Managed By SAP* cannot be deleted and therefore the *Delete* button is disabled.
 

@@ -7,7 +7,7 @@
 
 You want to extend the functionality on top of your existing SAP solution because your specific business needs require it. You also want to use the SAP BTP Kyma environment. You can build an extension application that contains your business logic and UI changes and deploy it in SAP BTP Kyma runtime. For the users of your SAP solution, this change will be seamless, it will look as if it's part of the original functionality. At the same time, you can use the extension capabilities of SAP BTP to implement the additional workflows or modules. This is called side-by-side extensibility wth Kyma.
 
-To enable the side-by-side extensibility with Kyma for your SAP solution, you have to create an SAP BTP Kyma environment instance in your subaccount in SAP BTP. Then, you have to connect the corresponding SAP system with the global account in SAP BTP. Use the automated configurations for the following SAP solutions:
+To enable the side-by-side extensibility with Kyma for your SAP solution, you must create an SAP BTP Kyma environment instance in your SAP BTP subaccount. Then, you must add the Application Connector module on your Kyma runtime and connect the corresponding SAP system with the global account in SAP BTP. Use the automated configurations for the following SAP solutions:
 
 -   [Extending SAP S/4HANA Cloud in the Cloud Foundry and Kyma Environment](extending-sap-s-4hana-cloud-in-the-cloud-foundry-and-kyma-environment-40b9e6c.md)
 

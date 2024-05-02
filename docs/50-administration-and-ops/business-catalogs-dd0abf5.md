@@ -22,6 +22,8 @@ You can use this app to:
 
 -   Display business catalog changes: Check if the business catalogs or apps in your area have changed \(for example, a transaction has been replaced with an SAP Fiori app\), and which business roles are affected by these changes.
 
+-   Display assigned apps: You can display apps that have their own tile access \(classified as*Standard Application*\) as well as ones that can be started indirectly via app-to-app navigation \(classified as *Standard Navigation Target*\).
+
 -   Display deprecations: Check if any of the business catalogs in your area are deprecated and which successors they will be replaced with. Select the affected business role and transfer the changes.
 
 -   Display dependencies: Check if a business catalog depends on other business catalogs or if other business catalogs depend on a business catalog in order to be fully operational.
