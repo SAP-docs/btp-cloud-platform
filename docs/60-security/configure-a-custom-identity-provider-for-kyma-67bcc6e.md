@@ -10,7 +10,7 @@ Enable the Kyma environment with a custom identity provider \(IdP\).
 
 ## Prerequisites
 
--   Install [kubectl oidc-login](https://github.com/int128/kubelogin).
+-   Install [kubectl oidc-login](https://github.com/int128/kubelogin) This is also needed when you log in to Kyma dashboard, as the dashboard uses the kubeconfig file, and it requires the kubectl oidc-login tool to work.
 
 
 
@@ -23,6 +23,8 @@ If you've already created your Kyma environment, you can also apply the custom I
 
 > ### Tip:  
 > We recommend using SAP Cloud Identity Services - Identity Authentication as a custom IdP. It allows you to use Identity Authentication as a proxy to integrate your corporate identity provider. Additionally, you can configure Identity Authentication to use a third-party IdP such as Azure Active Directory or Auth0, among others. For more information, see [Integrating the Service with Microsoft Entra ID](https://help.sap.com/docs/identity-authentication/identity-authentication/integrating-service-with-microsoft-azure-ad?version=Cloud) and [Configure Auth0 for SAP BTP, Kyma runtime](https://github.com/SAP-samples/kyma-runtime-extension-samples/tree/main/kyma-access-auth0-as-idp).
+> 
+> To learn how to configure SAP Cloud Identity Services - Identity Authentication with Kyma, read [Configure Custom SAP IAS tenant with SAP BTP Kyma runtime environment](https://community.sap.com/t5/technology-blogs-by-sap/configure-custom-sap-ias-tenant-with-sap-btp-kyma-runtime-environment/ba-p/13676954).
 
 
 
@@ -38,28 +40,43 @@ If you've already created your Kyma environment, you can also apply the custom I
     -   *clientID* - the client ID for the OpenID client
     -   *usernameClaim* - the name of a custom OpenID Connect claim for specifying a username
     -   *groupsClaim* - the name of a custom OpenID Connect claim for specifying user groups
+
+        > ### Note:  
+        > An identity provider token consists of fields \(claims\) that are included in it. For example:
+        > 
+        > ```
+        > {
+        > sub: "john.doe@sap.com"
+        > groups: ["SAP fans", "Identity Provider", "OpenID"]
+        > }
+        > ```
+        > 
+        > When you configure `usernameClaim`, Kubernetes knows which field \(claim\) includes the user represented by a given token.
+        > 
+        > Similarly, when you configure `groupsClaim`, Kubernetes knows to which groups the user is assigned.
+
     -   *signingAlgs* - the list of allowed cryptographic algorithms used for token signing. The allowed values are defined by [RFC 7518](https://tools.ietf.org/html/rfc7518#section-3.1).
     -   *usernamePrefix* - the prefix for all usernames. If you don't provide it, username claims other than “email” are prefixed by the *issuerURL* to avoid clashes. To skip any prefixing, provide the value as `-`.
     -   *administrators* - the list of usernames meant to be administrators. Users identified with those usernames get the role *cluster-admin* during provisioning of your Kyma runtime.
 
+    You can also provide the configuration as a JSON object:
+
+    ```
+     "oidc": {
+        "issuerURL": "{issuerURL}",
+        "clientID": "{clientID}",
+        "usernameClaim": "sub",
+        "groupsClaim": "groups",
+        "signingAlgs": ["RS256"],
+        "usernamePrefix": "-"
+      },
+      "administrators": [
+        "example_1@mail.com",
+        "example_2@mail.com"
+      ]
+    ```
+
     > ### Note:  
-    > You can also provide the configuration as a JSON object:
-    > 
-    > ```
-    >  "oidc": {
-    >     "issuerURL": "{issuerURL}",
-    >     "clientID": "{clientID}",
-    >     "usernameClaim": "sub",
-    >     "groupsClaim": "groups",
-    >     "signingAlgs": ["RS256"],
-    >     "usernamePrefix": "-"
-    >   },
-    >   "administrators": [
-    >     "example_1@mail.com",
-    >     "example_2@mail.com"
-    >   ]
-    > ```
-    > 
     > If you want to revert to the default settings, use the following configuration:
     > 
     > ```

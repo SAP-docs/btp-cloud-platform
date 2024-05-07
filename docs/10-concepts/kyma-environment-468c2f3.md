@@ -39,11 +39,11 @@ SAP systems connected to a Kyma environment expose APIs and events. To extend th
 
 [Getting Started in the Kyma Environment](../20-getting-started/getting-started-in-the-kyma-environment-d1abd18.md "As an administrator, you must perform several steps to set up a fully operational Kyma environment to which you can connect the chosen SAP solutions.")
 
-[Development in the Kyma Environment](../30-development/development-in-the-kyma-environment-606ec61.md "Learn more about developing applications in the Kyma environment.")
+[Development in the Kyma Environment](../30-development/development-in-the-kyma-environment-606ec61.md "Learn more about developing applications in SAP BTP, Kyma runtime.")
 
 [Administration and Operations in the Kyma Environment](../50-administration-and-ops/administration-and-operations-in-the-kyma-environment-b8e1686.md "This is the managed offering of SAP BTP, Kyma runtime (based on the open-source project &quot;Kyma&quot;). The administrators of the Kyma environment take care of setting it up and make sure it is ready for developers to work with. Create your Kyma instance to build applications and extensions to SAP and third-party solutions, manage roles, have your Kubernetes objects backed up, and view metrics and logs.")
 
-[Security in the Kyma Environment](../60-security/security-in-the-kyma-environment-ee08fdf.md "The Kyma environment-specific security aspects include guidelines on personal data protection and details on processing and storing logs.")
+[Security in the Kyma Environment](../60-security/security-in-the-kyma-environment-ee08fdf.md "The Kyma environment-specific security aspects include a list of applied security measures, guidelines on authentication and authorization, custom identity provider configuration, and details on processing and storing logs.")
 
 [Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/kyma-runtime)
 

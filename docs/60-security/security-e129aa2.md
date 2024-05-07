@@ -136,5 +136,5 @@ For more information, see [SAP Malware Scanning Service](https://help.sap.com/do
 
 [Data Protection and Privacy](data-protection-and-privacy-7e513d3.md "Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries.")
 
-[Security in the Kyma Environment](security-in-the-kyma-environment-ee08fdf.md "The Kyma environment-specific security aspects include guidelines on personal data protection and details on processing and storing logs.")
+[Security in the Kyma Environment](security-in-the-kyma-environment-ee08fdf.md "The Kyma environment-specific security aspects include a list of applied security measures, guidelines on authentication and authorization, custom identity provider configuration, and details on processing and storing logs.")
 

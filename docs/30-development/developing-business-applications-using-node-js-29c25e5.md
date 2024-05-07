@@ -22,7 +22,7 @@ The following sections describe how to set up a development environment to get y
 
 -   [Deploying to Cloud](https://cap.cloud.sap/docs/guides/deployment/)
 
--   [Model Processing in Node.js](https://cap.cloud.sap/docs/cds/compiler)
+-   [Model Processing in Node.js](https://cap.cloud.sap/docs/node.js/cds-compile)
 
 -   [The `cds` Facade Object](https://cap.cloud.sap/docs/node.js/cds-facade)
 
@@ -32,17 +32,13 @@ The following sections describe how to set up a development environment to get y
 
 -   [Application Service Providers](https://cap.cloud.sap/docs/node.js/app-services)
 
--   [Protocol Adapters](https://cap.cloud.sap/docs/node.js/protocols)
-
 -   [Remote Services](https://cap.cloud.sap/docs/node.js/remote-services)
 
--   [Transaction Management](https://cap.cloud.sap/docs/node.js/transactions)
+-   [Transaction Management](https://cap.cloud.sap/docs/node.js/cds-tx)
 
 -   [Databases](https://cap.cloud.sap/docs/node.js/databases)
 
 -   [Messaging](https://cap.cloud.sap/docs/node.js/messaging)
-
--   [Platform Services](https://cap.cloud.sap/docs/node.js/platform-services)
 
 -   [Best Practices](https://cap.cloud.sap/docs/node.js/best-practices)
 
