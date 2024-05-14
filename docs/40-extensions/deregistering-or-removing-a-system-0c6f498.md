@@ -60,6 +60,9 @@ The deregistration and the removal processes have the following states displayed
 
         You can deregister only registered systems.
 
+        > ### Note:  
+        > If your system is of type SAP S/4HANA Cloud, SAP SuccessFactors, or part of the SAP Customer Experience portfolio and you deregister this system, you can register back the same system's tenant and not a different one.
+
     -   To remove a system, choose :wastebasket: from the *Actions* column, or choose *Remove System* from the *System Details* page that you access when selecting the system from the system landscape list.
 
         Before removing a system from the list, first you have to check all configurations that this system is part of, such as entitlements and formations. Then, you have to deregister it and after that you will be able to remove it from the *Systems* page. If you try to remove a system before deregistering it, a dialog will appear and will ask you to deregister the system first.

@@ -43,6 +43,31 @@ Learn how to quickly create a communication user and communication arrangement f
     > 
     > `basic` is the type of service key that is needed to generate a communication user and communication arrangement for an inbound communication scenario.
 
+6.  **\(Optional to step 5\)** If your communication scenario has additional custom properties, you can automatically assign values to them by using the optional parameter `additional_properties`.
+
+    ```
+    {
+       "scenario_id":"SAP_COM_XYZ",
+       "type":"basic",
+       "additional_properties": [
+                {
+                      "technical_name": "CUSTOM_PROPERTY_1",
+                      "value": "VALUE_1",
+                },
+                {
+                      "technical_name": "CUSTOM_PROPERTY_2",
+                      "value": "VALUE_2",
+                }
+        ]     
+    }
+    
+    ```
+
+    > ### Note:  
+    > `CUSTOM_PROPERTY_1` and `CUSTOM_PROPERTY_2` are the technical names of the properties as specified in your communication scenario. You can add any number of additional properties to the array`additional_properties` \(`CUSTOM_PROPERTY_3`, `CUSTOM_PROPERTY_4`, and so on\).
+    > 
+    > `VALUE_1`, `VALUE_2`, and so on are the values that should be assigned to the properties.
+
 
 
 

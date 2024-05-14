@@ -240,6 +240,42 @@ azure\_lite
 
 Enterprise account
 
+Partner Test, Demo, and Development account
+
+</td>
+<td valign="top">
+
+ap20
+
+</td>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+cf-ap20
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
+
+</td>
+<td valign="top">
+
+azure
+
+azure\_lite
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
 Trial account
 
 </td>
@@ -731,12 +767,12 @@ Region Name
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="14">
+<td valign="top" rowspan="16">
 
 Microsoft Azure
 
 </td>
-<td valign="top" rowspan="8">
+<td valign="top" rowspan="9">
 
 azure
 
@@ -837,7 +873,19 @@ Europe \(Netherlands\)
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="5">
+<td valign="top">
+
+`australiaeast`
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="6">
 
 azure\_lite
 
@@ -898,6 +946,18 @@ North EU \(Ireland\)
 <td valign="top">
 
 UK South \(London\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`australiaeast`
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
 
 </td>
 </tr>
@@ -1231,4 +1291,6 @@ For more details on the Load Balancers and their features, check out the officia
 [Create the Kyma Instance](../50-administration-and-ops/create-the-kyma-instance-09dd313.md "Set up a Kubernetes cluster with project &quot;Kyma&quot; and use it to build applications and extensions to your SAP and third-party solutions.")
 
 [Available Plans in the Kyma Environment](../50-administration-and-ops/available-plans-in-the-kyma-environment-befe01d.md "Depending on your global account type, you have access to a different plan that specifies the cluster parameters for the Kyma environment.")
+
+[Provisioning and Updating Parameters in the Kyma Environment](../50-administration-and-ops/provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md "You can configure the cluster parameters in the Kyma environment.")
 

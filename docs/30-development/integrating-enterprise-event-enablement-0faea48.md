@@ -20,7 +20,7 @@ The respective event exchange infrastructure service provided on the SAP Busines
 
 The following prerequisites must be met to integrate the enterprise event enablement:
 
--   You have a subaccount in SAP BTP, Cloud Foundry environment. Refer to [Getting Started with a Trial Account in the Cloud Foundry Environment](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/e50ab7b423f04a8db301d7678946626e.html).
+-   You have a subaccount in the SAP BTP. Refer to [Getting Started](https://help.sap.com/docs/btp/sap-business-technology-platform/btp-getting-started).
 
 -   You have created a service instance for SAP Event Mesh or SAP Advanced Mesh Service Plan.
 -   The key user must have the business role `SAP_BR_ADMINISTRATOR` \(Administrator\) that contains the business catalog `SAP_CORE_BC_COM` \(Communication Management\).

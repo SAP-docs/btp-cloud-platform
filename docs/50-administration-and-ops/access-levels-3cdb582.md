@@ -68,7 +68,7 @@ The *SUPPORT\_EXTENDED* access level inherits all the authorizations from the *S
 </td>
 <td valign="top">
 
-The *SUPPORT\_CUSTOMIZING* access level inherits all the authorizations from the *SUPPORT\_DEFAULT* access level. Additionally, it grants authorization to maintain selected ABAP Platform Customizing as well as unrestricted business application Customizing.
+The *SUPPORT\_CUSTOMIZING* access level inherits all the authorizations from the *SUPPORT\_DEFAULT\_APP* access level. Additionally, it grants authorization to maintain selected ABAP Platform Customizing as well as unrestricted business application Customizing.
 
 </td>
 </tr>

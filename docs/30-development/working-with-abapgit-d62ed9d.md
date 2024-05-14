@@ -13,6 +13,28 @@ With the official SAP distribution of abapGit, you can use ABAP Development Tool
 
 
 
+<a name="loiod62ed9d54a764c53990f25f0ab6c27f9__section_n3y_mbv_cbc"/>
+
+## Use Cases
+
+*Side-by-Side-Development*
+
+abapGit can assist you in side-by-side development by enabling the transfer of source code between on-premise systems and SAP BTP, ABAP Environment.
+
+*Account Transfer*
+
+abapGit can support you in transferring your development code assets from one Steampunk system to another, particularly across different BTP global accounts.
+
+*Partner Code Transfer*
+
+As a partner, you can utilize abapGit to export your development code assets from your development landscape and import them into your customers' development system.
+
+*Demo Samples and Open Source Offerings*
+
+You can use abapGit to distribute code as open source, e.g., Code Pal for ABAP - Cloud Edition or demo samples, such as the ABAP Flight Reference Scenario for the ABAP RESTful Application Programming Model.
+
+
+
 <a name="loiod62ed9d54a764c53990f25f0ab6c27f9__section_emb_dgj_5tb"/>
 
 ## Restrictions and Errors
@@ -33,10 +55,6 @@ The only work-around for this is to manually copy the missing ABAP objects to th
 
 Some objects are deliberately not exported because they are considered as compiled or generated so that they can be regenerated when activating their originating objects in the target system. For example, certain service definitions \(SRVD\) are generated from service consumption models \(SRVC\) so that they are not exported to git.
 
-**UI Artifacts**
-
-The same reasoning regarding compiled/generated objects currently also applies to UI/SAP Fiori artifacts \(SMIM, UIAD, WAPA\). Originating UI objects have their own lifecycle in SAP Business Application Studio and therefore have to be deployed separately to the target ABAP system via SAP Business Application Studio using SAP Fiori Tools, see [Generate Deployment Configuration ABAP](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/c06b9cbb3f3641aabfe3a5d199e855a0.html). If the deployment target is in a different global account, you have to push the UI project to a Git repository using SAP Business Application Studio as described in [Git Source Control](https://help.sap.com/docs/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/9689c07b64364bbea43725dad9f27320.html). After the initial deployment of the UI to the target ABAP development system, the generated artifacts follow the same transport lifecycle from development to test and production systems as all the other artifacts.
-
 
 
 ### Import Errors
@@ -46,6 +64,8 @@ When importing objects with abapGit for ADT, you may get error messages in the i
 -   You are importing object types \(for example from an on-premise system\) that are not supported in the ABAP environment and the programming model of the ABAP environment. You may have to change your application in the cloud environment to work without these objects.
 -   You are importing objects with missing dependencies. These dependent objects can't be exported because they are not on the list of Released ABAP Object Types. You must copy/recreate these missing dependent objects and restart the import.
 -   You are importing objects using ABAP namespaces. Make sure these namespaces have been imported into the target system before importing your application with abapGit.
+-   You are importing a software component relations object. Make sure that a software component with the same name has been created in the target system already. Please note that this object can be imported into the top-level structure package of the corresponding software component only.
+
 
 > ### Note:  
 > Local changes to ABAP objects that have not been saved are overwritten by the import. Open transport requests for any of the imported ABAP objects must be released before they can be changed. Otherwise, they get locked.
@@ -72,6 +92,55 @@ If activation issues occur, repeatedly try to activate objects in the right sequ
 
 > ### Note:  
 > It is possible to define the external systems, the ABAP system is allowed to communicate with, by maintaining a list of trusted certificate authorities. Please use the Maintain Certificate Trust List app to do so. This app can be used by administrators, users with the SAP\_BR\_ADMINISTRATOR role. For further information, please go to [Maintain Certificate Trust List](../50-administration-and-ops/maintain-certificate-trust-list-2b3c3f1.md)
+
+
+
+<a name="loiod62ed9d54a764c53990f25f0ab6c27f9__section_dsc_pgd_dbc"/>
+
+## Working with UI Artifacts
+
+As described in [Restrictions and Errors](https://help.sap.com/docs/btp/sap-business-technology-platform/working-with-abapgit?version=Cloud#restrictions-and-errors), the originating objects of the UI/SAP Fiori artifacts \(SMIM, UIAD, WAPA\) have their own lifecycle in a separate Git repository. The deployment to the target ABAP system will be done via SAP Business Application Studio / Visual Studio Code using SAP Fiori Tools.
+
+For the case that one of the above-described use cases applies and you must transfer your application, remember that the UI artifacts have their own Git repository. This is important because abapGit does not take the UI objects into account.
+
+Nevertheless, you have two different Git repositories. The Git repository with ABAP artefacts and the Git repository with the UI artefacts.
+
+
+
+### Important to Know
+
+Understanding the unique usage of the UI Git repository compared to the abapGit repository is crucial. The main difference lies in the fact that the user interface \(UI\) maintains its own lifecycle. This means any modifications or updates to the UI must be made within the Business Application Studio or Visual Studio Code and then pushed to the dedicated UI repository.
+
+The abapGit repository is usually only used once to \(additionally\) save and share your code. The lifecycle happens in your ABAP system.
+
+
+
+### Procedure
+
+Depending on your needs, you might have to duplicate the repositories, create branches, or fork branches. For example, to transfer an application from a partner development system to a customer development system, you can use the export and import functionality of your Git provider. Alternatively, you can utilize Git functionality like branching or forking to "duplicate" the repository.
+
+For additional information on how to duplicate the Git repositories, it may be helpful to consult the documentation provided by your Git provider.
+
+*Import Steps*
+
+-   You have read access to both Git repositories \(abapGit and UI\)
+
+-   Link and pull the abapGit repository into your ABAP system.
+
+-   Click onto the button *Activate All* to activate all objects.
+
+    > ### Note:  
+    > The activation might fail due to missing dependencies, e.g., missing UI artifacts.
+
+-   Clone your UI repositories to Business Application StudioAS/Visual Studio and deploy the UI to your ABAP system.
+
+-   Pull the abapGit repository again because some abapGit objects rely on the UI objects.
+
+-   Click onto the button *Activate All* to activate all objects.
+
+-   > ### Note:  
+    > Please be aware that it might be necessary to repeat the last two steps.
+
 
 **Related Information**  
 

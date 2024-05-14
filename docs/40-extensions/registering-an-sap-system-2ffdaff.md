@@ -2,7 +2,7 @@
 
 # Registering an SAP System
 
-To connect an SAP system with a global account in SAP BTP, you first need to register the system.
+To connect an SAP system with a global account in SAP BTP, you need to register the system.
 
 
 
@@ -24,9 +24,9 @@ To connect an SAP system with a global account in SAP BTP, you first need to reg
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
-Adding a system to the list in the *System Landscape* page is just the first step of the system registration process. When you have only added a system, the system is not yet registered in the SAP BTP global account. That is, the required configuration on the system side has not been performed, and therefore, the newly added system cannot exchange or expose its technical details, metadata, APIs, or events. Only when the registration process is complete and the system is registered with SAP BTP, it can exchange the relevant information and enable the extension scenario.
+For some system types, such as SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio, adding a system to the list in the *System Landscape* page is just the first step of the system registration process. When you have only added a system, the system is not yet registered in the SAP BTP global account. That is, the required configuration on the system side has not been performed, and therefore, the newly added system cannot exchange or expose its technical details, metadata, APIs, or events. Only when the registration process is complete and the system is registered with SAP BTP, it can exchange the relevant information and enable the extension scenario.
 
-If your system is associated with the given global account, this system is discovered and added automatically to the *Systems* list based on information of the existing system landscape. Any SAP system of the supported system types that is associated with the same customer ID, with which your global account in SAP BTP is associated, will be auto-discovered.
+If your system is associated with the given global account, this system is discovered and added automatically to the *Systems* list based on information of the existing system landscape. Any SAP system that is associated with the same customer ID, with which your global account in SAP BTP is associated, will be auto-discovered.
 
 > ### Note:  
 > If a given SAP system is missing on the *System Landscape* page, it may be associated with a different customer ID on the SAP BTP global account you are working in. In this case, you need to add the system manually, and then, register it.
@@ -36,20 +36,22 @@ If your system is associated with the given global account, this system is disco
 > 
 > If you want to start using another global account, you will have to register your SAP systems again.
 
-The registration of the newly added systems is based on a registration token. The token is used for the pairing of the system and the corresponding global account. After you add a system, you can get the token in the SAP BTP cockpit. Then, you can use it to configure the integration on the corresponding system side. By using the registration token on the system side and registering the system, the system administrator allows the integration of the system with SAP BTP.
+For systems of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio, the registration of the newly added systems is based on a registration token. The registration token is used for the pairing of the system and the corresponding global account. After you add a system, you can get the token in the SAP BTP cockpit. Then, you can use it to configure the integration on the corresponding system side. By using the registration token on the system side and registering the system, the system administrator allows the integration of the system with SAP BTP.
 
-When you add a system, it appears in the system landscape list as a record with empty \(or initialized\) status. The system gets a *Registered* status, only when a token is issued and the registration is complete on the corresponding system side. In general, the *Registered* status means that the communication between the system and SAP BTP has been established. However, depending on the system and its requirements, additional configuration might be needed for the enablement of a fully functional extension scenario. The additional configuration, depending on the system type, is outlined in the corresponding documents listed in the *Related Information* section.
+When you add an SAP system of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio, it appears in the system landscape list as a record with empty \(or initialized\) status. The system gets a *Registered* status, only when a token is issued and the registration is complete on the corresponding system side. In general, the *Registered* status means that the communication between the system and SAP BTP has been established. However, depending on the system and its requirements, additional configuration might be needed for the enablement of a fully functional extension scenario. The additional configuration, depending on the system type, is outlined in the corresponding documents listed in the *Related Information* section.
 
 > ### Note:  
 > When registering SAP systems of the same type, you can have up to 1000 tokens per global account ready to be used. Tokens that are already used to register an SAP system are not included in this number.
 > 
 > This means that you cannot have more than 1000 systems in the Systems list of the same type with an empty status and generated token that is not used yet.
 
+For system types different than SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio, when adding a system in the *Systems* list, this system is registered directly but no status is displayed.
+
 The registration process has the following states displayed in the cockpit:
 
--   No status displayed in the *Status* column - the registration token for an SAP system has been created but the registration on the respective SAP system side has not been performed or completed yet.
+-   No status displayed in the *Status* column - the registration token for an SAP system of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud or SAP systems from the SAP Customer Experience portfolio has been created but the registration on the respective SAP system side has not been performed or completed yet. For systems with type other than SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio are registered when added to the *Systems* list but no status has been displayed. Only systems that require a registration token to be registered have the status *Registered* when this token has been used.
 
--   *Registered* - the registration token for systems of type SAP S/4HANA Cloud, SAP Marketing Cloud, and SAP SuccessFactors has been used and the automated registration process has been successfully completed. The systems of these types can be assigned to a formation on the *Formations* page in the cockpit. All other system types are registered without a registration token and can be assigned to a formation.
+-   *Registered* - the registration token for systems of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio has been used and the automated registration process has been successfully completed. The systems of these types can be assigned to a formation on the *Formations* page in the cockpit. All other system types are registered without a registration token and can be assigned to a formation.
 -   *Error while Registering* - the registration has failed.
 
 > ### Note:  
@@ -100,9 +102,11 @@ If the registration error persists, report a case in one of the following compon
 
     3.  Choose *Add*.
 
-    4.  Choose *Get Token*.
+    4.  For systems of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio, choose *Get Token*.
 
         The system generates the registration token.
+
+        Systems of type different than SAP SuccessFactors, SAP S/4HANA Cloud and SAP systems from the SAP Customer Experience portfolio don't need a registration token, they are automatically registered when added to the *Systems* list. Their status is empty but you can consider them as registered.
 
     5.  Copy the registration token. You need the token to complete the integration on the respective SAP solution system side.
 
@@ -116,7 +120,7 @@ If the registration error persists, report a case in one of the following compon
 
 ## Results
 
-The system has been added as a record to the list on the *Systems* page in the SAP BTP cockpit and a token for connecting the corresponding SAP solution with the global account in SAP BTP has been generated.
+The system has been added as a record to the list on the *Systems* page in the SAP BTP cockpit. For systems of type SAP SuccessFactors, SAP S/4HANA Cloud and SAP systems from the SAP Customer Experience portfolio, a registration token for connecting the corresponding SAP solution with the global account in SAP BTP has been generated. Systems of type other than SAP SuccessFactors, SAP S/4HANA Cloud and SAP systems from the SAP Customer Experience portfolio, are automatically registrated, no additional configurations are required.
 
 > ### Note:  
 > Registration tokens have different validity periods that depend on the system type. For more information about token expiry, see the corresponding documentation at the *Related Links* section.
@@ -127,21 +131,24 @@ The system has been added as a record to the list on the *Systems* page in the S
 
 ## Next Steps
 
--   Use the registration token to complete the registration on the respective SAP system side. See:
+-   For SAP systems of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio, use the registration token to complete the registration on the respective SAP system side. See:
 
     -   [Trigger the Registration in the SAP S/4HANA Cloud Tenant](trigger-the-registration-in-the-sap-s-4hana-cloud-tenant-cadf8f6.md)
 
     -   [Trigger the Registration in the SAP Marketing Cloud Tenant](trigger-the-registration-in-the-sap-marketing-cloud-tenant-d7416c3.md)
     -   [Register an SAP SuccessFactors System in a Global Account in SAP BTP](register-an-sap-successfactors-system-in-a-global-account-in-sap-btp-e956ba2.md)
+    -   [Register an SAP Customer Experience System](register-an-sap-customer-experience-system-1582d72.md)
 
--   You can optionally assign the system to a formation on the *Formations* page, as follows:
+-   You can assign the system to a formation on the *Formations* page, as follows:
 
-    -   Systems of type *SAP Commerce Cloud*, *SAP Cloud for Customer*, and *SAP Field Service Management* can be assigned to a formation directly before the integration is complete on the respective SAP Customer Experience \(SAP CX\) system side. However, to enable the API access, you first need to complete the integration.
+    -   SAP systems of type *SAP Commerce Cloud*, *SAP Cloud for Customer*, and *SAP Field Service Management* can be assigned to a formation directly before the integration is complete on the respective SAP Customer Experience system side. However, to enable the API access, you first need to complete the integration.
 
-    -   For systems of type *SAP S/4HANA Cloud* and *SAP SuccessFactors*, you first need to configure the integration on the respective SAP system side.
+    -   For systems of type *SAP S/4HANA Cloud*, *SAP Marketing Cloud* and *SAP SuccessFactors*, you first need to configure the integration on the respective SAP system side.
 
-        See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
+    -   For systems of type other than *SAP S/4HANA Cloud*, *SAP Marketing Cloud* and *SAP SuccessFactors* and SAP systems from the SAP Customer Experience portfolio, after adding these systems in the *Systems* list, you can directly include them in a formation.
 
+
+    See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
 
 -   If you no longer need it, you can deregister or remove the system depending on its status. See [Deregistering or Removing a System](deregistering-or-removing-a-system-0c6f498.md).
 

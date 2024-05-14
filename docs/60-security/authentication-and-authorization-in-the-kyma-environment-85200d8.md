@@ -26,7 +26,7 @@ It doesn't mean that anybody with an account at `accounts.sap.com` has access to
 
 ## Custom Identity Provider for Kubernetes Access
 
-The default setup is sufficient for most users. However, in some cases, you may need the flexibility of using your own IdP. You can configure a custom identity provider during Kyma provisioning or updating an existing instance of your Kyma runtime.
+To benefit from more flexibility, we recommend that you use your own IdP. You can configure a custom identity provider during Kyma provisioning or updating an existing instance of your Kyma runtime.
 
 You can choose any OpenID Connect compliant service. For example, you can use your own tenant of SAP Cloud Identity Services - Identity Authentication, which provides the following features:
 

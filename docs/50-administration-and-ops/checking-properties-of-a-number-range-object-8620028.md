@@ -13,7 +13,7 @@ To check the properties of a number range object, proceed as follows:
 
     The following parameters are displayed:
 
-    -   Subobject exists: The number range object distinguishes between further subobjects. For more information, see [https://help.sap.com/viewer/5db4c2a406234b6995553939c79da063/7.5.18/en-US/996c7a939f5c488aaebc91665e673d95.html](https://help.sap.com/viewer/5db4c2a406234b6995553939c79da063/7.5.18/en-US/996c7a939f5c488aaebc91665e673d95.html)
+    -   Subobject exists: The number range object distinguishes between further subobjects.
 
     -   Year-Dependent: This parameter is set to *Yes* if the number range intervals are distinguished according to to-fiscals.
 

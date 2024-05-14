@@ -31,7 +31,7 @@ The Security Audit Log records the following information:
 -   Information that provides a higher level of transparency \(for example, successful and unsuccessful logon attempts\)
 -   Information that enables the reconstruction of a series of events \(for example, successful or unsuccessful transaction starts\)
 
-SAP Note [2903873](https://me.sap.com/notes/2903873) provides a list of currently recorded Security Audit Log events.
+The app *Display Static System Audit* \(available for the external auditor role\) displays a detailed list of the Security Audit Log events, which are visible in the Security Audit Log app. SAP Note [2903873](https://me.sap.com/notes/2903873) provides a list of currently recorded Security Audit Log events.
 
 
 
@@ -51,4 +51,9 @@ SAP Note [2903873](https://me.sap.com/notes/2903873) provides a list of currentl
 ## Component for Customer Incidents
 
 If you need support or experience issues, report an incident under component `BC-SEC-SAL`.
+
+**Related Information**  
+
+
+ <?sap-ot O2O class="- topic/link " href="236eeb2ae7544d31bf3b672d26dc0452.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/7eed4aba8bcb4d7091e289cf0dc00cf4.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 

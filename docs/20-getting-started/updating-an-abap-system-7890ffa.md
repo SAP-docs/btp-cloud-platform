@@ -10,24 +10,25 @@ Learn how to update your ABAP environment instance.
 
 ## Context
 
+After you have created an ABAP environment instance, you can change the following properties:
+
+-   ABAP System Description
+
+-   ABAP Runtime Size \(size\_of\_runtime\)
+
+-   Elastic Scaling of the ABAP Application Server
+
+-   HANA Cloud Memory Size \(size\_of\_persistence\)
+
+-   HANA Cloud Disk Size \(size\_of\_persistence\_disk\)
+
+
 > ### Note:  
-> After you have created an ABAP environment instance, you can change the following properties:
-> 
-> -   ABAP System Description
-> 
-> -   ABAP Runtime Size \(size\_of\_runtime\)
-> 
-> -   Elastic Scaling of the ABAP Application Server
-> 
-> -   HANA Cloud Memory Size \(size\_of\_persistence\)
-> 
-> -   HANA Cloud Disk Size \(size\_of\_persistence\_disk\)
-> 
-> 
-> > ### Note:  
-> > The updates of these properties are done without any downtime, or - in case of updating the HANA memory or disk size - with near zero downtime \(meaning that the database is not accessible for a few seconds only\).
-> 
-> To change the initial admin, you have to use the *Maintain Employees* SAP Fiori app. See [Maintain Employees](../50-administration-and-ops/maintain-employees-e882b0f.md).
+> The updates of these properties are done without any downtime, or - in case of updating the HANA memory or disk size - with near zero downtime \(meaning that the database is not accessible for a few seconds only\).
+
+To **change the initial admin**, you have to use the *Maintain Employees* SAP Fiori app. See [Maintain Employees](../50-administration-and-ops/maintain-employees-e882b0f.md).
+
+To **update your system from a free to a standard plan**, see [Update to a Paid Service Plan](https://help.sap.com/docs/btp/sap-business-technology-platform/using-free-service-plans?version=Cloud#update-to-a-paid-service-plan). Make sure you have enough hana\_compute\_units and abap\_compute\_units available as quota in your subaccount before updating to a paid plan. For more information, see [Increasing the Quota for the ABAP Environment](increasing-the-quota-for-the-abap-environment-c40cb18.md).
 
 > ### Restriction:  
 > A downsizing of the HANA Cloud memory size is only possible down to the minimum amount of memory required for a stable performance of the HANA Cloud database. Before the memory size is decreased, an SQL query \(as described on [SAP HANA Database Downsizing](https://help.sap.com/docs/hana-cloud/sap-hana-cloud-administration-guide/sap-hana-database-downsizing)\) is automatically run on the database to make sure the downsizing is possible based on the already consumed memory.

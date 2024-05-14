@@ -2,9 +2,11 @@
 
 # Table Analysis
 
+**App ID:** F4031
 
 
-With this app you can get an in-depth view on the characteristics, resource consumption, and workload of a table.
+
+With this app you can get in-depth information about tables, for example, about their characteristics and resource consumption.
 
 
 
@@ -16,9 +18,11 @@ This app provides the following key features:
 
 
 
--   View the total memory consumption of the biggest tables
+-   View of the total memory consumption of the biggest tables
 
--   For a selected table, detail views for partitions, indexes, memory, and load
+-   Identification where you should optimize the tables and indexes in your system, for example, to save disk space
+
+-   For a selected table, detailed information about partitions, indexes, memory, and load
 
 
 

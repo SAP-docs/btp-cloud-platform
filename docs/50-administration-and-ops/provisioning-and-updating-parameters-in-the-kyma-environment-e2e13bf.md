@@ -1693,7 +1693,7 @@ KSA \(Dammam\)
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="8">
+<td valign="top" rowspan="9">
 
 Microsoft Azure
 
@@ -1704,7 +1704,7 @@ Azure Lite
 technical name: `azure_lite`
 
 </td>
-<td valign="top" rowspan="8">
+<td valign="top" rowspan="9">
 
 Provisioning
 
@@ -1801,6 +1801,18 @@ Japan \(Tokyo\)
 <td valign="top">
 
 Singapore
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`australiaeast`
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
 
 </td>
 </tr>

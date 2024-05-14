@@ -121,9 +121,15 @@ SAP Fiori applications are developed in SAP Business Application Studio on top o
 As a developer user, once business services are implemented as UI services, you can create SAP Fiori elements apps using SAP Business Application Studio. See [Develop an SAP Fiori Application UI and Deploy it to ABAP Using SAP Business Application Studio](develop-an-sap-fiori-application-ui-and-deploy-it-to-abap-using-sap-business-application-eaaeba4.md).
 
 > ### Note:  
-> Launchpad spaces and pages offer more flexibility to influence the launchpad layout for specific user groups. As of now, there is no possibility to create templates for a specific spaces/pages setup and to deliver this as part of an add-on. Therefore, for every consumer, this needs to be configured manually.
-> 
-> To simplify this process, we recommend structuring the IAM business catalogs that include IAM apps for the UI according to business roles by using business role templates. See [Providing Access to the SAP Fiori Application](providing-access-to-the-sap-fiori-application-b569abb.md).
+> Launchpad spaces and pages offer more flexibility to influence the launchpad layout for specific user groups. It is recommended to use space and page templates, which allows the creation of predefined content and delivering them as a part of an add-on. This simplifies the process and speeds up the configuration of the Fiori Launchpad for each consumer.
+
+Please remember that an additional scoping action is needed to use space and page templates.
+
+The recommended way to scope your space and page templates is to provide an application job. The implementation of the application job must call scoping API “CL\_APS\_BC\_SCOPE\_CHANGE\_API”. For a comprehensive understanding of scoping, refer to the section [Scoping Space and Page Templates](scoping-space-and-page-templates-74d5b1a.md).
+
+For an SAP Fiori application to appear in the SAP Fiori launchpad, read [Providing Access to the SAP Fiori Application](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/providing-access-to-sap-fiori-application?version=Cloud).
+
+To simplify this process, it is recommended to structure the IAM business catalogs that include IAM apps for the UI according to business roles by using business role templates.
 
 <a name="loiof438645cb5664399a6b21f8d9bd3d004"/>
 

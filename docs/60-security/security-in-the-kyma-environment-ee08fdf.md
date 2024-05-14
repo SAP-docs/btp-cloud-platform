@@ -2,7 +2,7 @@
 
 # Security in the Kyma Environment
 
-The Kyma environment-specific security aspects include guidelines on personal data protection and details on processing and storing logs.
+The Kyma environment-specific security aspects include a list of applied security measures, guidelines on authentication and authorization, custom identity provider configuration, and details on processing and storing logs.
 
 
 

@@ -29,14 +29,16 @@ The API returns a HTTP 429 response code when the limit is exceeded.
 
 ## Prerequisites
 
-You do this procedure through Cloud Foundry Environment, which is part of a subaccount. To enable Audit Log Retrieval API for Global Account \(Feature Set B\), you must perform the following steps as a global account administrator:
+You do the following procedure through Cloud Foundry Environment, which is part of a subaccount. To enable Audit Log Retrieval API for Global Account \(Feature Set B\), you must perform the following prerequisite steps as a global account administrator:
 
 1.  You need to have one or more subaccounts in the Central region<sup>\(1\)</sup>. Create one if needed.
 
     > ### Note:  
     > ALL space developer users can access the service instance in the subaccount where it's entitled. To restrict access to your global account audit logs we recommend, you create a new subaccount in the Central regions<sup>\(1\)</sup> and add only users eligible to read global account audit logs to it.
 
-2.  Follow the steps to entitle one or more of your subaccounts with the *central plan* of service Auditlog Management:
+
+2.  Follow the steps to entitle one or more of your subaccounts with the **Central plan** of service Auditlog Management:
+
     1.  Navigate to your global account.
 
     2.  Choose *Entitlements* \> *Entity Assignments* from the left-hand side menu.
@@ -52,7 +54,7 @@ You do this procedure through Cloud Foundry Environment, which is part of a suba
 
     6.  Choose *Add Service Plans*.
     7.  Select *Auditlog Management* from the list on the left-hand side.
-    8.  Choose the checkbox of *central plan* on the right-hand side.
+    8.  Choose the checkbox of *Central plan* on the right-hand side.
     9.  Choose *Add 1 Service Plan*.
     10. Choose *Save* and exit edit mode for that subaccount.
 
@@ -84,7 +86,7 @@ You do this procedure through Cloud Foundry Environment, which is part of a suba
     -   \(Recommended\) For mTLS authentication using X.509 certificates, use:
 
         ```
-        cf create-service auditlog-management default <SERVICE_INSTANCE> -c '{
+        cf create-service auditlog-management central <SERVICE_INSTANCE> -c '{
             "xs-security": {
                 "xsappname": "auditlog",
                 "oauth2-configuration": {

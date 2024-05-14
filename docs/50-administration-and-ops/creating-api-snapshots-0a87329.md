@@ -46,7 +46,7 @@ The *Manage API Snapshots* app is part of the business process that helps you to
 
     6.  Regenerate your API snapshot by selecting *Regenerate* in the top right corner of your screen.
 
-    7.  Set your API snapshot to check relevant or not check relevant by selecting *Set Check Relevance*.
+    7.  Set your API snapshot to check or uncheck the relevance by selecting *Set Check Relevance*.
 
         > ### Note:  
         > Only one snapshot per software component can be set as check-relevant.

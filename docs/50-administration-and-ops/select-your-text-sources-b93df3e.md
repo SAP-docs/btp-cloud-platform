@@ -48,7 +48,7 @@ Select the text sources that you want to have translated.
 4.  Select *Add* to open the *Add Text Source* dialog which displays all text sources that can be added to the translation project. By filtering the type and name, you can choose the text sources you want to add. Select *Add* to add the text sources you selected to your translation project.
 
     > ### Note:  
-    > Text sources that can be translated by a translation project need to reside in the same software component as the translation project.
+    > Text sources that can be translated by a translation project need to reside in the same software component as the translation project. The total amount of texts in a translation project must not exceed 1000. Be aware that a text source like a data definition might contain more than one text.
 
     > ### Note:  
     > -   If you want to test the translated texts of IAM business catalogs directly in the Fiori launchpad of the development system, you have to publish the IAM business catalog once again locally in ADT.
@@ -61,11 +61,11 @@ Select the text sources that you want to have translated.
 > ### Note:  
 > **Text Tables**
 > 
-> Text tables are database tables that were created as part of a business object and in which language-dependent texts are stored.
+> Text tables are database tables that were created as part of a business object and in which language-dependent texts are stored. The translation of text table entries is only available in environments that support transporting client-specific data.
 > 
 > A database table needs to fulfill the following requirements to be considered a text table by the *Maintain Translations* app:
 > 
-> -   The database table has exactly one key field of ABAP Dictionary built-in type LANG.
+> -   The database table has exactly one key field of ABAP Dictionary Built-in Type LANG.
 > 
 > -   The database table is of delivery class C or S.
 > 
@@ -76,15 +76,12 @@ Select the text sources that you want to have translated.
 > 
 > If these requirements are fulfilled, the database table can be added to a translation project as a text table. Additionally, the following rules apply:
 > 
-> -   Every non-key field of the text table that is of an ABAP Dictionary Build-in type that is character-like and has a minimum length of 1 will be interpreted as a text attribute for which translations can be maintained.
+> -   Every non-key field of the text table that is of an ABAP Dictionary built-in type that is character-like and has a minimum length of 1 will be interpreted as a text attribute for which translations can be maintained.
 > 
 > -   When the translations are published, the rows containing the texts in the target language will be added to the selected transport via R3TR TABU.
 > 
 > 
 > In this tutorial \([Create an SAP Fiori-based Table Maintenance App with SAP BTP, ABAP Environment](https://developers.sap.com/group.abap-env-factory.html)\) on how to create a business configuration application to maintain error code definitions, for instance, the language-dependent texts for the respective error code definitions are stored as entries in the database table `ZERROR_CODE_T###` with `###` being replaced by a number chosen by the developer, such as `000`. The non-key field for which translations can be maintained is field `DESCRIPTION`.
-
-> ### Note:  
-> Please note that the translation of text table entries is only available in environments that support transporting client-specific data.
 
 **Related Information**  
 

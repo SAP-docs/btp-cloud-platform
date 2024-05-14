@@ -16,6 +16,8 @@ A user account corresponds to a particular user in an identity provider, such as
 
 Before diving into the different user and member management concepts, it's important to understand the difference between the different types of users we’re referring to: **Platform users** and **business users**.
 
+![]()
+
 ![Platform Users and Business Users](images/user-accounts_27c8463.png)
 
 **Related Information**  

@@ -2,6 +2,8 @@
 
 # Partition HANA Tables
 
+**App ID:** F5466
+
 
 
 With this app you can break down large columnar tables into partitions. By default, database tables on SAP HANA are not partitioned. The SAP HANA database allows for a maximum number of approximately two billion records per table. If this threshold is exceeded, your application stops working. To avoid this, you need to partition your tables in time.

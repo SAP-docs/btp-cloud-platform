@@ -142,6 +142,8 @@ If the option *Add Copy Action* is selected, an abstract entity for the user inp
 
 Select *Manual* to include the action *Select Transport* in the generated app. With this action, you can select an existing customizing transport request before saving the configuration changes.
 
+Select *Manual with preselection* to include the action *Select Transport* in the generated app. With this action, you can select an existing customizing transport request before saving the configuration changes. When the *Edit* action is performed, a customizing transport request is determined automatically. You can find the determination logic in the ABAP documentation of method `get_transport_request` of interface `if_mbc_cp_rap_tdat_cts`.
+
 
 
 <a name="loio047e01c3bcdd4303a60b61364bd5b31d__section_h5s_qf1_rxb"/>
