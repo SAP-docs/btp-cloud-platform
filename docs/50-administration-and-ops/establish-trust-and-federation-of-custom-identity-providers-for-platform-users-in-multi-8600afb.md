@@ -162,7 +162,7 @@ For more information, see [Supported Tools and Services When Using Custom Identi
 **Related Information**  
 
 
-[User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, member management happens at all levels from global account to environment, while user management is done for business applications.")
+[User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, member management takes place at all levels from global account to environment, while user management is relevant for business applications.")
 
 [Bringing Your Corporate Identity Provider for Platform Users \[Feature Set A\]](../10-concepts/bringing-your-corporate-identity-provider-for-platform-users-feature-set-a-783ff50.md "SAP BTP supports the use of your own identity provider for platform users.")
 

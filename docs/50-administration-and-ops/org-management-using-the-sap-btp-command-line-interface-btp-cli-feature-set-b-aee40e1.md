@@ -403,7 +403,7 @@ To learn how to remove a user from the Cloud Foundry org and the subaccount, see
 
 [Add Org Members Using the Cockpit](add-org-members-using-the-cockpit-a4eeaf1.md "Add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.")
 
-[Managing Spaces](managing-spaces-5209d55.md "Learn how to create and delete Cloud Foundry spaces, as well as how to add members to a space.")
+[Managing Spaces](managing-spaces-5209d55.md "Learn what a Cloud Foundry space is, what type of information you will find on the Spaces page in the cockpit, and what you can do with or within a space.")
 
 [About User Management in the Cloud Foundry Environment](about-user-management-in-the-cloud-foundry-environment-8e6ce96.md "The Cloud Foundry environment has its own store for user data within SAP BTP. Understanding the relationship between SAP BTP and the Cloud Foundry environment is useful.")
 

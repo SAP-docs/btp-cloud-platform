@@ -2,14 +2,79 @@
 
 # Managing Spaces
 
-Learn how to create and delete Cloud Foundry spaces, as well as how to add members to a space.
+Learn what a Cloud Foundry space is, what type of information you will find on the *Spaces* page in the cockpit, and what you can do with or within a space.
+
+
+
+<a name="loio5209d55d8dd84228897112b0655d999b__section_ib5_prc_1bc"/>
+
+## What Is a Space?
+
+A space is a shared location on the platform in which you can deploy and maintain applications, and connect them to services. You can create multiple spaces within one org. There is no limit to how many spaces you can have in a single org.
+
+By default, a space inherits the org quota. If you don't want your space to consume the entire org quota, you can use space quota instead. See [Managing Space Quotas](managing-space-quotas-4e5f0ee.md).
+
+
+
+<a name="loio5209d55d8dd84228897112b0655d999b__section_sm3_bsx_dbc"/>
+
+## Prerequisites
+
+If you want to see any spaces on the *Spaces* page in the cockpit, you must have either the Org Manager role or any one of the space roles.
+
+The Org Manager role gives you access to all spaces in an org. A space role gives you access to a specific space.
+
+See [About Roles in the Cloud Foundry Environment](about-roles-in-the-cloud-foundry-environment-0907638.md).
+
+
+
+<a name="loio5209d55d8dd84228897112b0655d999b__section_wm2_5tr_bbc"/>
+
+## What Can You Find on the Spaces Page?
+
+To visit this page in the cockpit:
+
+1.  Navigate to a subaccount of your choice.
+
+2.  Navigate to the *Cloud Foundry* \> *Spaces* page.
+
+
+On this page, you can see:
+
+-   A list of all spaces you have access to.
+
+-   Each space tile contains the following information:
+
+    -   Number of started and stopped applications in a space
+
+    -   Name of the space quota if space quota is assigned to the space, or *Org Quota* if the space is currently using org quota
+
+        To manage these settings, navigate to *Cloud Foundry* \> *Space Quotas* \> *Quota Assignments*. See [Assign Space Quotas to Spaces](assign-space-quotas-to-spaces-13028c4.md) and [Edit Space Quotas](edit-space-quotas-2a58364.md).
+
+    -   Available resources such as memory and services with their upper consumption limit and current usage statuses
+
+
+
+
+
+<a name="loio5209d55d8dd84228897112b0655d999b__section_bpz_nrc_1bc"/>
+
+## What Can You Do With or Within a Space?
+
+Here are some of the space-related actions you can do:
 
 -   [Create Spaces](create-spaces-2f6ed22.md)
 -   [Add Space Members Using the Cockpit](add-space-members-using-the-cockpit-81d0b4d.md)
+-   Edit Spaces
+
+    To edit a space, choose ![](images/Edit_Icon_abfe424.png) on the space tile. This option lets you change the name of the space.
+
+    Org Managers and Space Managers are allowed to rename spaces.
+
 -   [Delete Spaces](delete-spaces-1eb6a09.md)
 
 **Related Information**  
 
 
-[Managing Space Quotas](managing-space-quotas-4e5f0ee.md "Learn how to create, assign, and edit space quotas in the Cloud Foundry environment.")
+[Org Administration Using the Cockpit](org-administration-using-the-cockpit-c4c25cc.md "In the Cloud Foundry enviroment, manage orgs, spaces and space quota plans using the SAP BTP cockpit.")
 

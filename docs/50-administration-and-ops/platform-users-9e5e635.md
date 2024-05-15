@@ -2,7 +2,7 @@
 
 # Platform Users
 
-**User accounts** enable users to log on to SAP BTP and access subaccounts and use services according to the permissions given to them. In this context, it's important to understand the difference between the two types of users that we refer to: Platform users and business users.
+**User accounts** enable users to log on to SAP BTP, access subaccounts, and to use services according to the permissions granted to them. In this context, it's important to understand the difference between the two types of users that we refer to: Platform users and business users.
 
 **Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot applications and services on SAP BTP. 
 
@@ -16,7 +16,7 @@ For platform users, there's a [default identity provider](default-identity-provi
 **Related Information**  
 
 
-[Business Users](business-users-3a3f0e1.md "User accounts enable users to log on to SAP BTP and access subaccounts and use services according to the permissions given to them. In this context, it's important to understand the difference between the two types of users that we refer to: business users and platform users.")
+[Business Users](business-users-3a3f0e1.md "User accounts enable users to log on to SAP BTP, access subaccounts, and to use services according to the permissions granted to them. In this context, it's important to understand the difference between the two types of users that we refer to: business users and platform users.")
 
 [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-8600afb.md "By default, platform users in multi-environment subaccounts are users in SAP ID service. The use of your own identity provider requires integration between the user bases of multi-environment and Neo subaccounts.")
 

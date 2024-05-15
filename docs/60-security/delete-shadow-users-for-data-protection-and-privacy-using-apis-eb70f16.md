@@ -35,7 +35,7 @@ The User Account and Authentication service stores user-related data records in 
 
 1.  Enable API access to your subaccount.
 
-    For more information, see [Get Access to the APIs Using the apiaccess Service Plan](../50-administration-and-ops/get-access-to-the-apis-using-the-apiaccess-service-plan-ebc9113.md).
+    For more information, see [Get Access to the APIs](../50-administration-and-ops/get-access-to-the-apis-fda1027.md).
 
 2.  Use the *GET* method for the User Management \(SCIM\) API of the SAP Authorization and Trust Management service to get a list of users.
 

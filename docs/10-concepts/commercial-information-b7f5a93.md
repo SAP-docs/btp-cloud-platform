@@ -12,7 +12,7 @@
 
 ### Description
 
-SAP BTP ABAP environment is SAP’s Platform-as-a-Service offering to create innovative ABAP applications and extensions in the cloud. It provides the modern ABAP RESTful Application Programming Model, leveraging SAP HANA, SAP Fiori, and a cloud-optimized ABAP language with a clear set of released standard APIs. Developers can utilize a development toolset that enables tight integration with Git-enabled lifecycle management.
+SAP BTP ABAP environment is SAP’s Platform-as-a-Service offering to create innovative ABAP applications and extensions in the cloud. It provides the modern ABAP RESTful Application Programming Model, leveraging SAP HANA Cloud, SAP Fiori, and a cloud-optimized ABAP language with a clear set of released standard APIs. Developers can utilize a development toolset that enables tight integration with Git-enabled lifecycle management.
 
 
 

@@ -31,27 +31,27 @@ Depending on your use case, you can choose between different CI/CD pipelines to 
 
 SAP Continuous Integration and Delivery lets you configure and run predefined pipelines for the development of the following applications:
 
--   [SAP Cloud Application Programming Model](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/sap-cloud-application-programming-model?version=Cloud) 
+-   [SAP Cloud Application Programming Model](https://help.sap.com/docs/btp/sap-business-technology-platform/cloud-application-programming-model?locale=en-US&version=Cloud)
 
     Configure a CI/CD pipeline for the development of applications that follow the SAP Cloud Application Programming Model in the Cloud Foundry runtime.
 
--   [SAP Fiori in the Cloud Foundry Environment](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/sap-fiori-in-cloud-foundry-environment?version=Cloud)
+-   [Configure an SAP Fiori in the Cloud Foundry Environment](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-fiori-in-cloud-foundry-environment-job-in-job-editor?version=Cloud&language=en-US&q=SAP%20Fiori%20in%20the%20Cloud%20Foundry%20Environment)
 
     Configure a CI/CD pipeline for the development of SAPUI5/SAP Fiori applications in the Cloud Foundry runtime.
 
--   [SAP Fiori in the Neo environment](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/sap-fiori-in-neo-environment?version=Cloud)
+-   [Configure an SAP Fiori in the Neo Environment](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-fiori-in-neo-environment-job-in-job-editor?version=Cloud&language=en-US&q=SAP%20Fiori%20in%20the%20Cloud%20Foundry%20Environment)
 
     Configure a CI/CD pipeline for the development of SAPUI5/SAP Fiori applications in the Neo environment.
 
--   [SAP Fiori for the ABAP Platform](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/sap-fiori-for-abap-platform?version=Cloud&language=en-US)
+-   [Configure an SAP Fiori for the ABAP Platform](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-fiori-for-abap-platform-job-in-job-editor?version=Cloud&language=en-US&q=SAP%20Fiori%20in%20the%20Cloud%20Foundry%20Environment)
 
     Configure a CI/CD pipeline for the development of SAPUI5/SAP Fiori applications for the ABAP platform.
 
--   [SAP Integration Suite Artifacts](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/sap-integration-suite-artifacts?version=Cloud)
+-   [Configure an SAP Integration Suite Artifacts](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-integration-suite-artifacts-job-in-job-editor?version=Cloud&language=en-US&q=SAP%20Fiori%20in%20the%20Cloud%20Foundry%20Environment)SAP Integration Suite Artifacts
 
     Configure a CI/CD pipeline for the development of SAP Cloud Integration artifacts in the Cloud Foundry runtime.
 
--   [Container-Based Applications](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/container-based-applications?version=Cloud)
+-   [Configure a Container-Based Applications](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-container-based-applications-job-in-job-editor?version=Cloud&language=en-US&q=SAP%20Fiori%20in%20the%20Cloud%20Foundry%20Environment)
 
     Configure a CI/CD pipeline for the development of container-based applications.
 

@@ -43,7 +43,7 @@ You can change the default representation of the chart by choosing the chart pre
 
 Your chart could now look as follows:
 
-![](images/1c4281c1526f409080a4026479b23590.image)
+![](images/Complexity_Analysis_1c4281c.jpg)
 
 Now that you are aware of the complexity of your code, it is time to take action and reduce said complexity. There is no standard solution for fixing complex code, however, SAP can provide you with suggestions as to how to start this process:
 

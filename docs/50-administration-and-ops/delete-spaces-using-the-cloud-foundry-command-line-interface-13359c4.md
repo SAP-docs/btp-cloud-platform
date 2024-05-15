@@ -42,3 +42,5 @@ Use the `cf delete-space` command to delete spaces in your Cloud Foundry organiz
 
 [Create Spaces Using the Cloud Foundry Command Line Interface](create-spaces-using-the-cloud-foundry-command-line-interface-a2e5e29.md "Use the cf create-space command to create spaces in your Cloud Foundry organization using the Cloud Foundry Command Line Interface (cf CLI).")
 
+[Delete Spaces Using the Cockpit](delete-spaces-1eb6a09.md "Delete spaces in your Cloud Foundry org using the SAP BTP cockpit.")
+

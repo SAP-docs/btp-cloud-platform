@@ -142,7 +142,7 @@ You can use the Security Setting API of the SAP Authorization and Trust Manageme
 
 -   You've enabled API access to the service.
 
-    For more information, see [Get Access to the APIs Using the apiaccess Service Plan](get-access-to-the-apis-using-the-apiaccess-service-plan-ebc9113.md)
+    For more information, see [Get Access to the APIs](get-access-to-the-apis-fda1027.md).
 
 -   Plan for waiting time in hours between the steps of this procedure.
 

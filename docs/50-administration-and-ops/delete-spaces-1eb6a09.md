@@ -12,7 +12,7 @@ Delete spaces in your Cloud Foundry org using the SAP BTP cockpit.
 
 ## Prerequisites
 
--   You have the Org Manager role in the org from which you want to delete a space. For more information about roles and permissions, see [https://docs.cloudfoundry.org/concepts/roles.html](https://docs.cloudfoundry.org/concepts/roles.html).
+-   You have the Org Manager role in the org from which you want to delete a space. For more information about roles and permissions, see [About Roles in the Cloud Foundry Environment](about-roles-in-the-cloud-foundry-environment-0907638.md).
 
 -   You’ve ensured that the data in the space you’re going to delete is no longer needed.
 
@@ -34,7 +34,7 @@ Delete spaces in your Cloud Foundry org using the SAP BTP cockpit.
 **Related Information**  
 
 
- <?sap-ot O2O class="- topic/link " href="366db183c5b9491da5f0243a057d2737.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/1eb6a099af3942fb99979f255218893b.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+[Create Spaces Using the Cockpit](create-spaces-2f6ed22.md "Create spaces in your Cloud Foundry organization using the SAP BTP cockpit.")
 
-[Create Spaces](create-spaces-2f6ed22.md "Create spaces in your Cloud Foundry organization using the SAP BTP cockpit.")
+[Delete Spaces Using the Cloud Foundry Command Line Interface](delete-spaces-using-the-cloud-foundry-command-line-interface-13359c4.md "Use the cf delete-space command to delete spaces in your Cloud Foundry organization using the Cloud Foundry Command Line Interface (cf CLI).")
 

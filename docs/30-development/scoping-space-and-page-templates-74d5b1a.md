@@ -33,3 +33,18 @@ To use the space and page templates you must implement your own scoping. When te
 > 
 > ```
 
+> ### Restriction:  
+> Creation of Space Templates and Page Templates
+> 
+> -   There is no ABAP Git integration for space and page templates.
+> 
+> -   The development process is described in detail in the [UI Development guide](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/ui-development-overview).
+> 
+>     -   Space templates can be assigned to business roles in the Maintain Business Roles app. The assignment to business role templates in ADT is not possible.
+> 
+>     -   Space templates can’t be merged with other space templates directly. To merge a space template with another space template, one of the templates must be copied to create a space first.
+> 
+>         When you want to merge one or more customer-created spaces with a predefined space \(e.g. delivered by SAP\) or a template, open the general details for the customer-created space, then enter the space ID of the predefined space or template in the field *Merge ID*. The same is true for the merging of page templates.
+> 
+>     -   To be able to access space and templates in the Manage Launchpad Spaces and Manage Launchpad Pages apps, these need to be set in scope programmatically.
+

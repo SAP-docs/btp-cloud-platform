@@ -4,7 +4,7 @@
 
 # Configure Trusted Domains for SAP Authorization and Trust Management Service \[Feature Set B\]
 
-By default, login pages of the SAP Authorization and Trust Management service \(XSUAA\) can’t be framed by other applications in different domains for security reasons.
+By default, applications of the subaccount, including login pages of the SAP Authorization and Trust Management service \(XSUAA\), can’t be framed by other applications in different domains for security reasons.
 
 
 
@@ -54,7 +54,7 @@ To prevent clickjacking or overlay attacks, web browsers follow a same origin po
 
 ## Next Steps
 
-Ensure that other component framed by the host application also trust the framing domain. Typical components include the application router and the identity provider.
+Ensure that other components framed by the host application also trust the framing domain. Typical components include the application router and the identity provider.
 
 **Related Information**  
 

@@ -758,6 +758,47 @@ visibility:
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+`use-live-routes`
+
+</td>
+<td valign="top">
+
+provided dependency
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+Valid for blue-green deployment. Specify this parameter if you want to provide the routes specified in the descriptor.
+
+</td>
+<td valign="top">
+
+false
+
+</td>
+<td valign="top">
+
+```
+provides:
+  - name: example-name
+    properties:
+      provided-route: ${routes/0/route}
+    parameters:
+      use-live-routes: true
+```
+
+
+
+</td>
+</tr>
 </table>
 
 As an alternative, you can also externalize such configurations in a file. See [Service Creation Parameters](service-creation-parameters-a36df26.md).

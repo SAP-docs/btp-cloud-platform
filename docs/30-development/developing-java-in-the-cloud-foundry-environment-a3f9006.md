@@ -77,7 +77,7 @@ If you encounter an issue while using SAP Java Buildpack, you can create an inci
 
 [Logging and Tracing](logging-and-tracing-7eb922a.md)
 
-[Debugging Java Applications](debugging-java-applications-1e7376f.md)
+[Debugging Java Applications](debugging-java-applications-1e7376f.md "Debugging an application helps you detect and diagnose errors in your code.")
 
 [Bill of Materials \(BOM\)](bill-of-materials-bom-6c6936e.md "For Maven projects, the versions of the SAP Java Buildpack dependencies and the APIs provided by supported runtime containers can be consumed through a Bill of Materials (BOM).")
 

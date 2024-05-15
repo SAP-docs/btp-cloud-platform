@@ -2,7 +2,7 @@
 
 # User and Member Management
 
-On SAP BTP, member management happens at all levels from global account to environment, while user management is done for business applications.
+On SAP BTP, member management takes place at all levels from global account to environment, while user management is relevant for business applications.
 
 
 
@@ -12,9 +12,9 @@ On SAP BTP, member management happens at all levels from global account to envir
 
 A user account corresponds to a particular user in an identity provider, such as the default identity provider or a custom tenant of the Identity Authentication service.
 
-**User accounts** enable users to log on to SAP BTP and access subaccounts and use services according to the permissions given to them.
+**User accounts** enable users to log on to SAP BTP, access subaccounts, and to use services according to the permissions granted to them.
 
-Before diving into the different user and member management concepts, it's important to understand the difference between the different types of users we’re referring to: **Platform users** and **business users**.
+Before diving into the different user and member management concepts, it's important to understand the difference between the two types of users we’re referring to: **platform users** and **business users**.
 
 ![]()
 

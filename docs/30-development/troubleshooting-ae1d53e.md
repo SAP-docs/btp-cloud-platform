@@ -1087,3 +1087,12 @@ If you do not have a custom domain before subscribing to the application router,
 </tr>
 </table>
 
+
+
+If the lists don't not contain a solution for your issue, you can create an incident in the SAP Support Portal. For more information, see [Getting Support](getting-support-9220a2f.md).
+
+**Related Information**  
+
+
+[Getting Support](getting-support-9220a2f.md "If you have questions or encounter an issue while working with HTML5 Application Repository, there are various ways to address them.")
+

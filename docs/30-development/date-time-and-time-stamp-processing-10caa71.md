@@ -4,7 +4,7 @@
 
 To handle and convert time stamps, use the following classes:
 
--   `CL_ABAP_DTFM`
+-   `CL_ABAP_DATFM`
 
 -   `CL_ABAP_TIMEFM`
 

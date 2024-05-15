@@ -163,8 +163,3 @@ The **Resource Consumption** APIs of the SAP Usage Data Management service for S
 
 To learn more about the SAP Business Accelerator Hub, see [What Is the SAP API Business Hub?](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/54871d308811444d8d84fbb3fb82cf4c.html)
 
-**Related Information**  
-
-
-[Get Access to the APIs Using the apiaccess Service Plan](get-access-to-the-apis-using-the-apiaccess-service-plan-ebc9113.md "To enable programmatic access to the SAP Authorization and Trust Management service (XSUAA) in your multi-environment subaccount, create a service instance with the apiaccess plan.")
-

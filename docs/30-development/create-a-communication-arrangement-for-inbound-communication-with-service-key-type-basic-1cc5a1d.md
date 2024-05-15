@@ -52,11 +52,11 @@ Learn how to quickly create a communication user and communication arrangement f
        "additional_properties": [
                 {
                       "technical_name": "CUSTOM_PROPERTY_1",
-                      "value": "VALUE_1",
+                      "value": "VALUE_1"
                 },
                 {
                       "technical_name": "CUSTOM_PROPERTY_2",
-                      "value": "VALUE_2",
+                      "value": "VALUE_2"
                 }
         ]     
     }

@@ -2,9 +2,11 @@
 
 # Debugging Java Applications
 
+Debugging an application helps you detect and diagnose errors in your code.
 
 
-Debugging an application helps you detect and diagnose errors in your code. You can control the execution of your program by setting breakpoints, suspending threads, stepping through the code, and examining the contents of the variables.
+
+You can control the execution of your program by setting breakpoints, suspending threads, stepping through the code, and examining the contents of the variables. See:
 
 -   [Debug an Application Running on SAP JVM](debug-an-application-running-on-sap-jvm-ef7fbdb.md)
 

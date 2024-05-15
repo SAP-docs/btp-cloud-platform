@@ -865,6 +865,9 @@ The default host name, which is composed based on the module name to ensure uniq
 > -   Any characters that are not within the allowed `a-z` and `0-9` ranges are replaced by dashes \(-\) to prevent deployment issues.
 > -   If the host name length exceeds 63 symbols, the name is shortened and its end is replaced with a hash code.
 
+> ### Note:  
+> When used in blue-green deployment the value is resolved depending on the phase. During the testing phase the "idle" suffix will be appended to the host. If you want to use the live version only, refer to `${default-live-host}`.
+
 
 
 </td>
@@ -909,6 +912,141 @@ The number of application instances that are started during the deployment
 <tr>
 <td valign="top">
 
+`default-live-app-name`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+Valid for blue-green deployment. Specify this parameter if you want the name of the Cloud Foundry application that is to be deployed with this module to be based on the name of the module. For standard deployment the parameter will be the same as `default-app-name` regardless the phase.
+
+</td>
+<td valign="top">
+
+The module name with or without a name-space prefix
+
+</td>
+<td valign="top">
+
+`node-hello-world`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`default-live-domain`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+Valid for blue-green deployment. The value of this parameter is the default domain for the current organization.
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`default-live-host`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+Valid for blue-green deployment. Specify this parameter if you want to use `${default-host}` without the “idle” suffix during the testing phase of the blue-green deployment.
+
+</td>
+<td valign="top">
+
+Generated as described in the description
+
+</td>
+<td valign="top">
+
+`trial-a007007-node-hello-world`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`default-live-uri`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+Valid for blue-green deployment. Specify this parameter if you want to use `${default-uri}` without the “idle” suffix during the testing phase of the blue-green deployment.
+
+</td>
+<td valign="top">
+
+Generated as described in the description
+
+</td>
+<td valign="top">
+
+`trial-a007007-node-hello-world.cfapps.acme.ondemand.com`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`default-live-url`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+Valid for blue-green deployment. Specify this parameter if you want to use `${default-url}` without the “idle” suffix during the testing phase of the blue-green deployment.
+
+</td>
+<td valign="top">
+
+Generated as described in the description
+
+</td>
+<td valign="top">
+
+`${protocol}://${default-live-uri}`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `default-uri`
 
 </td>
@@ -920,6 +1058,11 @@ Yes
 <td valign="top">
 
 The default URI, composed as `${host}.${domain}` \(host-based routing\). Note that `${host}` will be the same as `${default-host}`, unless specified explicitly as a parameter. Similarly, `${domain}` would be the same as `${default-domain}`, unless specified explicitly.
+
+> ### Note:  
+> When used in blue-green deployment the value is resolved depending on the phase. During the testing phase the "idle" suffix will be appended to the host of the URI. If you want to use the live version only, refer to `${default-live-uri}`.
+
+
 
 </td>
 <td valign="top">
@@ -947,6 +1090,11 @@ Yes
 <td valign="top">
 
 The default URL, composed as `${protocol}://${default-uri}`. Note that the `${default-uri}` placeholder is resolved as `${host}.${domain}` \(host-based routing\)
+
+> ### Note:  
+> When used in blue-green deployment the value is resolved depending on the phase. During the testing phase the "idle" suffix will be appended to the host of the URL. If you want to use the live version only, refer to `${default-live-url}`.
+
+
 
 </td>
 <td valign="top">

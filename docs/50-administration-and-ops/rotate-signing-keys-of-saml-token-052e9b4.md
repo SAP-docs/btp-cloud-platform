@@ -12,7 +12,7 @@ The SAP Authorization and Trust Management service uses an X.509 certificate to 
 
 -   You've enabled API access to the SAP Authorization and Trust Management service.
 
-    For more information, see [Get Access to the APIs Using the apiaccess Service Plan](get-access-to-the-apis-using-the-apiaccess-service-plan-ebc9113.md)
+    For more information, see  <?sap-ot O2O class="- topic/xref " href="ebc9113a520e495ea5fb759b9a7929f2.xml" text="" desc="" xtrc="xref:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/052e9b4b54ce4c268422b1f2c736e47e.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 -   Optionally, to use your own signing key for SAML tokens, you've obtained an X.509 certificate for the SAP Authorization and Trust Management service.
 
@@ -121,7 +121,7 @@ The signed SAML tokens are used to validate and authenticate the protocol messag
 **Related Information**  
 
 
-[Get Access to the APIs Using the apiaccess Service Plan](get-access-to-the-apis-using-the-apiaccess-service-plan-ebc9113.md "To enable programmatic access to the SAP Authorization and Trust Management service (XSUAA) in your multi-environment subaccount, create a service instance with the apiaccess plan.")
+ <?sap-ot O2O class="- topic/link " href="ebc9113a520e495ea5fb759b9a7929f2.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/052e9b4b54ce4c268422b1f2c736e47e.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 [Managing Secrets of the SAP Authorization and Trust Management Service](managing-secrets-of-the-sap-authorization-and-trust-management-service-22f4a5c.md "The SAP Authorization and Trust Management service maintains a number of secrets to ensure secure operation of the service. Your organization can have policies that require you change secrets or you may need to respond to the loss of a secret.")
 

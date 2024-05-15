@@ -2,7 +2,7 @@
 
 # Platform Users
 
-**Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot applications and services on SAP BTP. They’re the users that have full access and give certain permissions for instance at global account, directory, or subaccount level. Members only have basic access.
+**Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot applications and services on SAP BTP. They’re the users that have full access and give certain permissions, for instance, at global account, directory, or subaccount level. Members only have basic access.
 
 Platform users who have administrative permissions can view or manage the list of global accounts, subaccounts, and environments, such as Cloud Foundry orgs and spaces. Members have basic access to them using the SAP BTP cockpit, the SAP BTP command-line interface \(btp CLI\), or environment-specific CLI, such as the Cloud Foundry \(CF\) CLI.
 
@@ -73,7 +73,7 @@ Not available
 
 You don't have member management at subaccount level directly.
 
-The person who created the subaccount is automatically a security administrator of that subaccount. That person can assign additional subaccount security administrators on the *Security* \> *Administrators* page at subaccount level in the SAP BTP cockpit.
+The person who created the subaccount is automatically a security administrator of that subaccount. That person can add subaccount security administrators on the *Security* \> *Administrators* page at subaccount level in the SAP BTP cockpit.
 
 As a security administrator, you can manage authentication and authorization in the subaccount for business users, such as configuring trust to application identity providers, and assigning role collections to business users.
 
@@ -153,7 +153,7 @@ See:
 </tr>
 </table>
 
-Member management in the Cloud Foundry or Kyma environment environment is independent of the feature set you use. For more information on the Kyma environment, see [Assign Roles in the Kyma Environment](../50-administration-and-ops/assign-roles-in-the-kyma-environment-148ae38.md).
+Member management in the Cloud Foundry or Kyma environment is independent of the feature set you use. For more information on the Kyma environment, see [Assign Roles in the Kyma Environment](../50-administration-and-ops/assign-roles-in-the-kyma-environment-148ae38.md).
 
 **Member Management in the Cloud Foundry Environment**
 
@@ -176,7 +176,7 @@ Spaces
 
 Manage org members on the *Members* page at environment level in the SAP BTP cockpit or with the Cloud Foundry CLI.
 
-A platform user added as an org member can be either an **Org Manager** or an **Org Auditor** or implicitly as an **Org User**.
+A platform user added as an org member can be either an **Org Manager** or an **Org Auditor** or implicitly an **Org User**.
 
 See:
 

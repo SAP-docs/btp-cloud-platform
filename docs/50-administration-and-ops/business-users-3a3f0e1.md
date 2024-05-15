@@ -2,7 +2,7 @@
 
 # Business Users
 
-**User accounts** enable users to log on to SAP BTP and access subaccounts and use services according to the permissions given to them. In this context, it's important to understand the difference between the two types of users that we refer to: business users and platform users.
+**User accounts** enable users to log on to SAP BTP, access subaccounts, and to use services according to the permissions granted to them. In this context, it's important to understand the difference between the two types of users that we refer to: business users and platform users.
 
 **Business users** use the applications that are deployed to SAP BTP. For example, the end users of SaaS apps or services, such as SAP Workflow service or SAP Cloud Integration, or end users of your custom applications are business users.
 
@@ -13,7 +13,7 @@ For business users, there's a [default identity provider](default-identity-provi
 **Related Information**  
 
 
-[Platform Users](platform-users-9e5e635.md "User accounts enable users to log on to SAP BTP and access subaccounts and use services according to the permissions given to them. In this context, it's important to understand the difference between the two types of users that we refer to: Platform users and business users.")
+[Platform Users](platform-users-9e5e635.md "User accounts enable users to log on to SAP BTP, access subaccounts, and to use services according to the permissions granted to them. In this context, it's important to understand the difference between the two types of users that we refer to: Platform users and business users.")
 
 [Establish Trust and Federation Between SAP Authorization and Trust Management Service and Identity Authentication](establish-trust-and-federation-between-sap-authorization-and-trust-management-service-a-161f8f0.md "Use your SAP Cloud Identity Services - Identity Authentication tenant as an identity provider or a proxy to your own identity provider hosting your business users. This method avoids the upload and download of SAML meta data by using Open ID Connect (OIDC) to establish trust.")
 

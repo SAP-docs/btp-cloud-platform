@@ -11,5 +11,5 @@ Learn how to create, assign, and edit space quotas in the Cloud Foundry environm
 **Related Information**  
 
 
-[Managing Spaces](managing-spaces-5209d55.md "Learn how to create and delete Cloud Foundry spaces, as well as how to add members to a space.")
+[Managing Spaces](managing-spaces-5209d55.md "Learn what a Cloud Foundry space is, what type of information you will find on the Spaces page in the cockpit, and what you can do with or within a space.")
 

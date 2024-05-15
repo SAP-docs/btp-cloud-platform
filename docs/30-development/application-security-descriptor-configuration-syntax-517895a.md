@@ -60,7 +60,7 @@ The syntax required to set the properties and values defined in the `xs-security
  "oauth2-configuration": {
                     "token-validity": 900, 
                     "redirect-uris": ["https://myapp.cfapps.eu10.hana.ondemand.com","https://myapp.mydomain.com/my/logout"], 
-                    "credential-type": ["binding-secret","x509"]
+                    "credential-types": ["binding-secret","x509"]
  },
  "xsenableasyncservice":"true"
 }
@@ -789,7 +789,7 @@ The `xsuaa` service broker registers and uses these values for the configuration
 > 	     "https://myapp.cfapps.eu10-004.hana.ondemand.com",
 >           "https://myapp.mydomain.com/my/content"],
 >      "refresh-token-validity": 1800,
->      "credential-type": ["binding-secret","x509"],
+>      "credential-types": ["binding-secret","x509"],
 >      "system-attributes": ["groups","rolecollections"],
 >      "allowedproviders ": ["orgin_key1","origin_key2"]
 >      }
@@ -893,7 +893,7 @@ For more information, see [Listing Allowed Redirect URIs](../60-security/securit
 <tr>
 <td valign="top">
 
-`credential-type` 
+`credential-types` 
 
 </td>
 <td valign="top">

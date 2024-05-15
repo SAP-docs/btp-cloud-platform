@@ -12,7 +12,7 @@ The following sections contain the process of adding authentication and authoriz
 
 <a name="loio419ae2ef1ddd49dca9eb65af2d67c6ec__section_j5s_ntw_bzb"/>
 
-## Using the SAP Authorization and Trust Management service or the SAP Cloud Identity Services - Authorization Management Service
+## Using the SAP Authorization and Trust Management service or the SAP Cloud Identity Services
 
 SAP BTP is currently replacing the authorization management done by the SAP Authorization and Trust Management service, with an integrated solution with the SAP Cloud Identity Services - Authorization Management service. This service is integrated into the SAP Cloud Identity Services, which will offer authentication, authorization, user provisioning and management in one place.
 
@@ -22,7 +22,7 @@ For decision considerations on when to use the SAP Authorization and Trust Manag
 
 ![](images/Decision_tree_for_XSUAA_and_AMS_086803d.png)
 
-For more information, see [Authorization and Access Control](https://cap.cloud.sap/docs/guides/authorization).
+Developers use the Cloud Application Programming model for authorization policies. For more information, see [Authorization and Access Control](https://cap.cloud.sap/docs/guides/authorization).
 
 
 

@@ -53,7 +53,7 @@ If you’re the Org Manager, you don’t need to first add the users as org memb
 
 5.  Enter one or more e-mail addresses.
 
-    Use commas \(`,`\), spaces \(``\), semicolons \(. The changes you make to the roles of a member take effect immediately.`;`\), or line breaks to separate members.
+    Use commas \(`,`\), spaces \(``\), semicolons \(`;`\), or line breaks to separate members. The changes you make to the roles of a member take effect immediately.
 
 6.  Enter the *Origin* for the identity provider, which hosts the members you just added.
 
@@ -94,4 +94,6 @@ You also have the following options:
 [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 
 [Add Org Members Using the Cockpit](add-org-members-using-the-cockpit-a4eeaf1.md "Add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.")
+
+[Add Space Members Using the Cloud Foundry Command Line Interface](add-space-members-using-the-cloud-foundry-command-line-interface-d23ea8b.md "You can use the Cloud Foundry Command Line Interface (cf CLI) to add space members and assign roles to them.")
 

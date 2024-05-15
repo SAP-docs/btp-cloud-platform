@@ -1,6 +1,6 @@
 <!-- loio4a0dd09368ce40bfa3c99cae46de49e1 -->
 
-# Basic Concepts
+# Kyma Runtime: Basic Concepts
 
 
 
