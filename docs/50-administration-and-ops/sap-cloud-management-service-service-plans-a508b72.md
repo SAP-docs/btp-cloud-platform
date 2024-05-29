@@ -146,7 +146,7 @@ Cloud Management Service
 </td>
 <td valign="top">
 
-`grantType`: The Client Credentials grant type is available when using the SAP Cloud Management service APIs to read the SAP BTP entities included with this plan. For more information, see [Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md).
+`grantType`: Only the Client Credentials grant type is available when using the SAP Cloud Management service APIs to read the SAP BTP entities included with this plan. For more information, see [Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md).
 
 </td>
 </tr>
@@ -174,7 +174,7 @@ Cloud Management Service
 </td>
 <td valign="top">
 
-`grantType`: The Client Credentials grant type is available when using the SAP Cloud Management service APIs to read the SAP BTP entities included with this plan. For more information, see [Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md).
+`grantType`: Only the Client Credentials grant type is available when using the SAP Cloud Management service APIs to read the SAP BTP entities included with this plan. For more information, see [Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md).
 
 </td>
 </tr>

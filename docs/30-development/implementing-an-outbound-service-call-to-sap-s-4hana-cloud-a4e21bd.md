@@ -23,8 +23,3 @@ The next steps of the developers would be the following:
 5.  The business user opens the HTTP service in the ABAP environment.
 
 
-**Related Information**  
-
-
-[Tutorial: Create Business Partner in SAP S/4HANA Cloud using ABAP Environment Data](https://developers.sap.com/tutorials/abap-environment-business-partner.html)
-

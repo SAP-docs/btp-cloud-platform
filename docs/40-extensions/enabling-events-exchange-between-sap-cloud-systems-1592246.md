@@ -31,7 +31,7 @@ The following procedure outlines the steps you need to perform to enable the exc
 
 -   You are a global account administrator, or you are a system landscape administrator. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
 
--   You have subscribed to SAP Event Broker application. See [Subscribing to SAP Event Broker Application](https://help.sap.com/docs/SAP_EMKS/19cb7423096b476d940924799c9e8f5a/53f34cca6bf74610836585e6af9b3745.html).
+-   You have subscribed to the SAP Event Broker application. See [Subscribing to SAP Event Broker Application](https://help.sap.com/docs/SAP_EMKS/19cb7423096b476d940924799c9e8f5a/53f34cca6bf74610836585e6af9b3745.html).
 
 
 
@@ -68,16 +68,14 @@ The following procedure outlines the steps you need to perform to enable the exc
 
     2.  In the *Formation Type* dropdown menu, select *Eventing Between SAP Cloud Systems*.
 
-    3.  In the *Subaccount* dropdown menu, select the subaccount where SAP Event Broker is subscribed.
+    3.  Select the systems that you want to include in the formation. One of these systems must be of type *SAP Event Broker*.
 
         > ### Note:  
-        > The subaccount where SAP Event Broker is subscribed can only be part of one formation in a global account.
+        > Systems can only be added to one formation of type *Eventing Between SAP Cloud Systems* in a global account.
         > 
-        > SAP systems can only be added to one formation of type *Eventing Between SAP Cloud Systems* in a global account.
+        > Also, a formation of type *Eventing Between SAP Cloud Systems* can contain only one system of type *SAP Event Broker*.
 
-    4.  Select the systems that you want to include in the formation.
-
-    5.  Review your selections and create the formation.
+    4.  Review your selections and create the formation.
 
 
 

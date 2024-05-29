@@ -100,7 +100,7 @@ In exceptional cases \(if you haven’t completed the migration to Node.js 18\),
 
 ## What's New
 
-To see the latest news and updates about the Node.js system buildpack, regularly check the release notes on the [What's New portal](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&Component=Node.js%20System%20Buildpack).
+To check the latest news and updates about the Node.js buildpack, go to its release notes: [What's New for Node.js Buildpack](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&amp%3BComponent=Node.js%20System%20Buildpack&Valid_as_Of=2022-01-01%3A2050-12-31&Component=Node.js%20System%20Buildpack) 
 
 > ### Note:  
 > In May 2023, SAP migrated the root file system used in the Cloud Foundry environment in SAP BTP from the deprecated `cflinuxfs3` stack to **`cflinuxfs4`**. If you are running Node.js applications on SAP BTP, Cloud Foundry using the Node.js buildpack, we recommend that you update and migrate your applications, as well as the Node.js buildpack. For more information about migration timelines, risks, and consequences, see:

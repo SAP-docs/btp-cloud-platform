@@ -10,11 +10,11 @@ To authenticate in the Kyma environment, you can either use the default identity
 
 ## Default Identity Provider for Kubernetes Access
 
-Every managed Kyma runtime is configured to use a default Identity Provider \(IdP\). The default IdP configuration uses a specific SAP Cloud Identity Services - Identity Authentication on-demand tenant that is shared across all managed Kyma runtimes.
+Every managed Kyma runtime is configured to use a default Identity Provider \(IdP\). The default IdP configuration uses a specific SAP Cloud Identity Services on-demand tenant that is shared across all managed Kyma runtimes.
 
 In managed Kyma, customers can’t manage the tenant themselves, for example, make changes in user groups. In this setup, admins can assign roles only targeting users.
 
-The Identity Authentication on-demand tenant uses SAP Corporate IdP as an upstream source of identities. Therefore, it recognizes everyone with an account at `accounts.sap.com` and issues a valid OIDC access token to any SAP customer or employee.
+The SAP Cloud Identity Services on-demand tenant uses SAP Corporate IdP as an upstream source of identities. Therefore, it recognizes everyone with an account at `accounts.sap.com` and issues a valid OIDC access token to any SAP customer or employee.
 
 It doesn't mean that anybody with an account at `accounts.sap.com` has access to your Kyma runtime. The shared IdP validates identities, but permissions \(roles and role bindings\) are configured in your Kyma runtime, and not in the IdP or SAP BTP cockpit. Kyma uses Kubernetes Role Based Access Control \(RBAC\) and has the provisioning process that assures that a user who creates and owns a particular runtime is given the `cluster-admin` role. The `cluster-admin` can define any additional cluster roles or use those defined in Kyma and bind them to other users \(by username\) from Kyma dashboard or with the kubectl CLI tool.
 
@@ -28,7 +28,7 @@ It doesn't mean that anybody with an account at `accounts.sap.com` has access to
 
 To benefit from more flexibility, we recommend that you use your own IdP. You can configure a custom identity provider during Kyma provisioning or updating an existing instance of your Kyma runtime.
 
-You can choose any OpenID Connect compliant service. For example, you can use your own tenant of SAP Cloud Identity Services - Identity Authentication, which provides the following features:
+You can choose any OpenID Connect compliant service. For example, you can use your own tenant of SAP Cloud Identity Services, which provides the following features:
 
 -   manage users
 

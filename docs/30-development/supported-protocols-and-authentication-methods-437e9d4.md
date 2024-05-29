@@ -26,12 +26,12 @@ Protocol
 </th>
 <th valign="top">
 
-Available Authentication Methods via Destination Service
+Available Authentication via Outbound Communication User
 
 </th>
 <th valign="top">
 
-Available Authentication via Outbound Communication User
+Available Authenticaiton via Business Users \(Principal Propagation\)
 
 </th>
 </tr>
@@ -43,28 +43,16 @@ HTTP \(Internet\)
 </td>
 <td valign="top">
 
-No Authentication
+No authentication
 
-Basic Authentication
+Basic authentication
 
-Client Certificate Authentication
+Client certificate authentication
 
-OAuth 2.0 Client Credentials Grant
-
-OAuth 2.0 SAML Bearer Assertion
-
-OAuth 2.0 User Token Exchange
+OAuth 2.0 Client Credentials grant
 
 </td>
 <td valign="top">
-
-No Authentication
-
-Basic Authentication
-
-Client Certificate Authentication
-
-OAuth 2.0 Client Credentials Grant
 
 OAuth 2.0 SAML Bearer Assertion
 
@@ -78,18 +66,16 @@ HTTP \(Cloud Connector\)
 </td>
 <td valign="top">
 
-No Authentication
+No authentication
 
-Basic Authentication
+Basic authentication
 
-Principal Propagation
+Technical user propagation
 
 </td>
 <td valign="top">
 
-No Authentication
-
-Basic Authentication
+Not supported. Use the destination service instead. For more information, see [Authentication Methods via Destination Service](authentication-methods-via-destination-service-2da17aa.md).
 
 </td>
 </tr>
@@ -101,24 +87,18 @@ SOAP \(Internet\)
 </td>
 <td valign="top">
 
-No Authentication
+No authentication
 
-Basic Authentication
+Basic authentication
 
-Client Certificate Authentication
+Client certificate authentication
 
-OAuth 2.0 Client Credentials Grant
+OAuth 2.0 Client Credentials grant
 
 </td>
 <td valign="top">
 
-No Authentication
-
-Basic Authentication
-
-Client Certificate Authentication
-
-OAuth 2.0 Client Credentials Grant
+Not supported
 
 </td>
 </tr>
@@ -130,18 +110,16 @@ SOAP \(Cloud Connector\)
 </td>
 <td valign="top">
 
-No Authentication
+No authentication
 
-Basic Authentication
+Basic authentication
 
-Principal Propagation
+Technical user propagation
 
 </td>
 <td valign="top">
 
-No Authentication
-
-Basic Authentication
+Not supported. Use the destination service instead. For more information, see [Authentication Methods via Destination Service](authentication-methods-via-destination-service-2da17aa.md).
 
 </td>
 </tr>
@@ -153,16 +131,14 @@ RFC \(Internet\)
 </td>
 <td valign="top">
 
-Basic Authentication
+Basic authentication
 
-Client Certificate Authentication
+Client certificate authentication
 
 </td>
 <td valign="top">
 
-Basic Authentication
-
-Client Certificate Authentication
+Not supported
 
 </td>
 </tr>
@@ -174,21 +150,16 @@ RFC \(Cloud Connector\)
 </td>
 <td valign="top">
 
-Basic Authentication
-
-Principal Propagation
+Basic authentication
 
 </td>
 <td valign="top">
 
-Basic Authentication
+Not supported. Use the destination service instead. For more information, see [Authentication Methods via Destination Service](authentication-methods-via-destination-service-2da17aa.md).
 
 </td>
 </tr>
 </table>
-
-> ### Note:  
-> The use of Principal Propagation, OAuth 2.0 SAML Bearer Assertion, and OAuth 2.0 User Token Exchange isn't supported in the ADT class runner \(`if_oo_adt_classrun`\) and application jobs. It can only be used during processing of an OData or HTTP service, and only if you execute the service as a business user.
 
 
 
@@ -211,7 +182,7 @@ Available Authentication via Inbound Communication User
 </th>
 <th valign="top">
 
-Available Authentication via Business User
+Available Authentication via Business User \(Principal Propagation\)
 
 </th>
 </tr>
@@ -223,18 +194,20 @@ HTTP
 </td>
 <td valign="top">
 
-Basic Authentication
+Basic authentication
 
-Client Certificate Authentication
+Client certificate authentication
 
 </td>
 <td valign="top">
 
-SAML Assertion Authentication
+SAML assertion authentication
 
-OpenID Connect Bearer Token
+OpenID Connect bearer token
 
 OAuth 2.0 Authorization Code with Proof Key for Code Exchange \(PKCE\)
+
+OAuth 2.0 SAML Bearer Assertion
 
 </td>
 </tr>
@@ -253,7 +226,7 @@ Client Certificate Authentication
 </td>
 <td valign="top">
 
- 
+Not supported
 
 </td>
 </tr>
@@ -270,7 +243,7 @@ Basic Authentication
 </td>
 <td valign="top">
 
- 
+Not supported
 
 </td>
 </tr>
@@ -289,7 +262,7 @@ Client Certificate Authentication
 </td>
 <td valign="top">
 
-OpenID Connect Bearer Token
+OpenID Connect Bearer token
 
 </td>
 </tr>
@@ -297,5 +270,5 @@ OpenID Connect Bearer Token
 
 -   For more information about the SQL service, see [Accessing ABAP-Managed Data Using SQL Services for Data Integration Scenarios](accessing-abap-managed-data-using-sql-services-for-data-integration-scenarios-4082fe1.md).
 
--   For more information about SAML Assertion Authentication and OpenID Connect Bearer Token, see [How to Create Communication Systems](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-create-communication-systems?version=Cloud).
+-   For more information about SAML Assertion Authentication and OpenID Connect bearer token, see [How to Create Communication Systems](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-create-communication-systems?version=Cloud).
 

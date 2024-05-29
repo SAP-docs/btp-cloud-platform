@@ -136,6 +136,9 @@ For more information about these role collections, see [Role Collections and Rol
 
     For more information, see [Create Users](create-users-a3bc7e8.md).
 
+    > ### Note:  
+    > If the user is already a user in a subaccount and has logged on to SAP BTP cockpit, SAP BTP adds the user at the global account level automatically, but without any role collections.
+
 3.  Assign a role collection to the user.
 
     For more information, see [Assign Users to Role Collections](assign-users-to-role-collections-c576676.md).

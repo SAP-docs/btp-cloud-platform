@@ -20,11 +20,11 @@ As an alternative to the manual procedure, you can use a deployment descriptor t
 
 ### 
 
-You can set SAP Alert Notification service for SAP BTP to dispatch alerts to a communication channel of your choice, so that you are informed about the status of MTA deployment and undeployment operations. For example, if setup to do so, upon a successful deployment t can send you an e-mail or a Slack message. You can also get notified for problems in MTA operations, as you can also receive alerts if the deployment has encountered issues.
+You can set SAP Alert Notification service for SAP BTP to dispatch alerts to a communication channel of your choice, so that you are informed about the status of MTA deployment and undeployment operations. For example, if setup to do so, upon a successful deployment it can send you an e-mail or a Slack message. You can also get notified for problems in MTA operations, as you can also receive alerts if the deployment has encountered issues.
 
 The integration between the services is out-of-the-box, that is, no special steps are required for its activation. If you have a service instance in the space where the MTA deployment takes place, it would automatically receive alerts from the MTA deployments in that space.
 
-See how you can match events using about multitarget operations as described in [Multitarget Application Events](https://help.sap.com/viewer/5967a369d4b74f7a9c2b91f5df8e6ab6/Cloud/en-US/b512e2d7ae174291baded5ce5ffa601a.html).
+See how you can match events using multitarget operations as described in [Multitarget Application Events](https://help.sap.com/viewer/5967a369d4b74f7a9c2b91f5df8e6ab6/Cloud/en-US/b512e2d7ae174291baded5ce5ffa601a.html).
 
 To see additional details, see [Receive instant notifications...with the SAP Cloud Deployment service](https://blogs.sap.com/2020/02/24/receive-instant-notifications-for-your-sap-cloud-platform-cloud-foundry-deployments-and-dynamically-change-your-alerting-policy-with-mta-deployment-service/).
 

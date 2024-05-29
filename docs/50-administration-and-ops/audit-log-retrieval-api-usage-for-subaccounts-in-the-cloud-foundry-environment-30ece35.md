@@ -199,7 +199,9 @@ Supported request parameters:
 
 -   `time_from and time_to`– if no time filter is specified the default timeframe of 30 days back is returned. Use the following format: YYYY-MM-DDTHH:MM:SS, for example 2018-05-11T10:42:00. The time is in UTC.
 
--   `handle` – in case the result set is too large, it's chunked, and a handle is returned for reading the next chunk. The handle is returned as a Response Header in the form: Paging: `handle=<value>`. Then you can provide `handle=<value>` as a request parameter in the subsequent retrieval request.
+-   `handle` - in case the result set is too large, it's chunked, and a handle is returned for reading the next chunk. The handle is returned as a Response Header in the form: Paging: `handle=<value>`. Then you can provide `handle=<value>` as a request parameter in the subsequent retrieval request.
+
+-   `filter_message_type` - this parameter allows you to filter the audit logs by predefined message categories. If no category is specified, all categories are returned. The available categories are `audit.security-events`, `audit.configuration`, `audit.data-access`, and `audit.data-modification`. To filter by a specific category, provide the category name as the value for this parameter, for example `filter_message_type=audit.data-access`.
 
 
 
@@ -221,6 +223,19 @@ The response is in JSON format, containing the audit log entries, split on pages
 Execute the following HTTP GET request:
 
 `<url_from_service_key>/auditlog/v2/auditlogrecords?time_from=2018-05-10T10:42:00&time_to=2018-05-11T10:46:00`
+
+
+
+### Example: Get audit logs filtered by category
+
+You can qeury for one of the predefined audit log message categories for the `filter_message_type` parameter..
+
+Execute the following HTTP GET request:
+
+`<url_from_service_key>/auditlog/v2/auditlogrecords?time_from=2018-05-10T10:42:00&time_to=2018-05-11T10:46:00&filter_message_type=audit.data-access&edp=true`
+
+> ### Note:  
+> Filterning only works on EDP storage, hence you must pass the additional request parameter `edp` as well.
 
 
 
@@ -247,16 +262,6 @@ Response codes:
 `HTTP 403 FORBIDDEN`
 
 `HTTP 429 Too Many Requests`
-
-Predefined audit log message categories:
-
-`'audit.security-events'`
-
-`'audit.configuration'`
-
-`'audit.data-access'`
-
-`'audit.data-modification'`
 
 
 

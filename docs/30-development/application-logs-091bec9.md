@@ -20,6 +20,7 @@ You can use this reuse library to:
 -   filter the logs by severity
 -   search for message texts
 -   display the message details
+-   display archived application logs
 
 
 

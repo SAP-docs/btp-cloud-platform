@@ -15,7 +15,7 @@ Learn how to install and set up abapGit.
 
 
 
-Part 1: Create a Git repository
+*Part 1: Create a Git repository*
 
 1.  Log on to your github.com account.
 
@@ -25,7 +25,7 @@ Part 1: Create a Git repository
 
 
 
-Section 2: Install zabapGit for the on-premise use case
+*Part 2: Install zabapGit for the on-premise use case*
 
 1.  Copy the content of the latest build from program `zabapgit` to your clipboard. You can find the content in the abapGit repository [https://github.com/abapGit/abapGit](https://github.com/abapGit/abapGit).
 
@@ -39,12 +39,12 @@ Section 2: Install zabapGit for the on-premise use case
 
 3.  Activate and execute the program.
 
-    abapGit is installed and launched. See also [Video Tutorial: abapGit Installation](https://www.youtube.com/watch?time_continue=28&v=5TCBcJCafP4).
+    abapGit is installed and launched.
 
 
 
 
-Part 3: Install an ADT plugin for abapGit
+*Part 3: Install an ADT plugin for abapGit*
 
 1.  Log on to ABAP Development Tools in Eclipse.
 
@@ -57,7 +57,8 @@ Part 3: Install an ADT plugin for abapGit
 5.  Select *Next*to finish the installation.
 
 
+**Related Information**  
 
 
-[Create Content in an On-Premise System and Push it to abapGit Repository](create-content-in-an-on-premise-system-and-push-it-to-abapgit-repository-2af08ee.md)
+[https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/create-content-in-on-premise-system-and-push-it-to-abapgit-repository?version=Cloud](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/create-content-in-on-premise-system-and-push-it-to-abapgit-repository?version=Cloud)
 

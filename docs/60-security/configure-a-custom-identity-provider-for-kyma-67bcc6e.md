@@ -22,9 +22,9 @@ When you create a new instance in the SAP BTP cockpit from the Service Marketpla
 If you've already created your Kyma environment, you can also apply the custom IdP configuration and set up administrators during your Kyma instance update operation by providing the details as an array of strings in the respective fields.
 
 > ### Tip:  
-> We recommend using SAP Cloud Identity Services - Identity Authentication as a custom IdP. It allows you to use Identity Authentication as a proxy to integrate your corporate identity provider. Additionally, you can configure Identity Authentication to use a third-party IdP such as Azure Active Directory or Auth0, among others. For more information, see [Integrating the Service with Microsoft Entra ID](https://help.sap.com/docs/identity-authentication/identity-authentication/integrating-service-with-microsoft-azure-ad?version=Cloud) and [Configure Auth0 for SAP BTP, Kyma runtime](https://github.com/SAP-samples/kyma-runtime-extension-samples/tree/main/kyma-access-auth0-as-idp).
+> We recommend using SAP Cloud Identity Services as a custom IdP. It allows you to use SAP Cloud Identity Services as a proxy to integrate your corporate identity provider. Additionally, you can configure SAP Cloud Identity Services to use a third-party IdP such as Azure Active Directory or Auth0, among others. For more information, see [Integrating the Service with Microsoft Entra ID](https://help.sap.com/docs/identity-authentication/identity-authentication/integrating-service-with-microsoft-azure-ad?version=Cloud) and [Configure Auth0 for SAP BTP, Kyma runtime](https://github.com/SAP-samples/kyma-runtime-extension-samples/tree/main/kyma-access-auth0-as-idp).
 > 
-> To learn how to configure SAP Cloud Identity Services - Identity Authentication with Kyma, read [Configure Custom SAP IAS tenant with SAP BTP Kyma runtime environment](https://community.sap.com/t5/technology-blogs-by-sap/configure-custom-sap-ias-tenant-with-sap-btp-kyma-runtime-environment/ba-p/13676954).
+> To learn how to configure SAP Cloud Identity Services with Kyma, read [Configure Custom SAP IAS tenant with SAP BTP Kyma runtime environment](https://community.sap.com/t5/technology-blogs-by-sap/configure-custom-sap-ias-tenant-with-sap-btp-kyma-runtime-environment/ba-p/13676954).
 
 
 
@@ -116,7 +116,7 @@ Your Kyma environment is instantiated with a custom IdP.
 > ### Caution:  
 > According to Oauth2 flows, IdPs have lists of allowed callback URLs. Configure the Kyma dashboard URL \(`https://dashboard.kyma.cloud.sap`\) and the localhost for kubectl authentication \(`http://localhost:8000`\) as allowed callback URLs at your IdP provider, so that authenticated users can be redirected back to the Kyma application.
 
-Access to Kyma is realized using the authorization code flow with PKCE. Therefore, make sure that *Allow Public Client Flows* is enabled in your Identity Authentication tenant. For more information, see [Configure OpenID Connect Application for Authorization Code Flow](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/4a9425465cbb4a7aa7c3d86c9cabca51.html?locale=en-US&version=Cloud#next-steps), section *Next Steps*.
+Access to Kyma is realized using the authorization code flow with PKCE. Therefore, make sure that *Allow Public Client Flows* is enabled in your SAP Cloud Identity Services tenant. For more information, see [Configure OpenID Connect Application for Authorization Code Flow](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/4a9425465cbb4a7aa7c3d86c9cabca51.html?locale=en-US&version=Cloud#next-steps), section *Next Steps*.
 
 **Related Information**  
 

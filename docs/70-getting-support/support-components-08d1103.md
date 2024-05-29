@@ -6007,7 +6007,7 @@ Create role based, multi-channel sites to access business apps and content.
 </td>
 <td valign="top">
 
--   EP-WZ-LND
+-   EP-WZ-SRB
 
 
 
@@ -6069,7 +6069,7 @@ Create role based, multi-channel sites to access business apps and content.
 </td>
 <td valign="top">
 
--   EP-WZ-LND
+-   EP-WZ-SRB
 
 
 
@@ -6129,7 +6129,7 @@ Create role based, multi-channel sites to access business apps and content.
 </td>
 <td valign="top">
 
--   EP-WZ-LND
+-   EP-WZ-SRB
 
 
 
@@ -6185,7 +6185,7 @@ Create role based, multi-channel sites to access business apps and content.
 </td>
 <td valign="top">
 
--   EP-WZ-LND
+-   EP-WZ-SRB
 
 
 
@@ -9872,7 +9872,7 @@ Simplify access to applications by establishing a central entry point.
 </td>
 <td valign="top">
 
--   EP-WZ-LND
+-   EP-WZ-SRB
 
 
 
@@ -9934,7 +9934,7 @@ Simplify access to applications by establishing a central entry point.
 </td>
 <td valign="top">
 
--   EP-WZ-LND
+-   EP-WZ-SRB
 
 
 
@@ -9994,7 +9994,7 @@ Simplify access to applications by establishing a central entry point.
 </td>
 <td valign="top">
 
--   EP-WZ-LND
+-   EP-WZ-SRB
 
 
 
@@ -10050,7 +10050,7 @@ Simplify access to applications by establishing a central entry point.
 </td>
 <td valign="top">
 
--   EP-WZ-LND
+-   EP-WZ-SRB
 
 
 
@@ -14337,66 +14337,6 @@ Develop and run Agentry metadata-driven mobile applications.
 <td valign="top">
 
 -   
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Remote Data Sync](https://help.hana.ondemand.com/help/frameset.htm?ee09ac72de1b46128c7ae9ebda69afc1.html) 
-
-</td>
-<td valign="top">
-
-Synchronize data between remote databases and a cloud SAP HANA database.
-
-</td>
-<td valign="top">
-
--   BC-NEO-CON
-
-
-
-</td>
-<td valign="top">
-
--   Neo
-
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Rot\)\*
--   Europe \(Frankfurt\)
--   US East \(Ashburn\)
--   US West \(Chandler\)
--   US East \(Sterling\)
--   Australia \(Sydney\)
--   Japan \(Tokyo\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
 
 
 </td>

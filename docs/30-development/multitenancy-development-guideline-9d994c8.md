@@ -149,6 +149,9 @@ Store data that is defined by the service provider and not specific for any tena
 
     Consumers must never be able to modify the client parameter or any other part of the AMDP using the application or by tampering requests.
 
+    > ### Note:  
+    > In the future, it is highly recommended to use the AMDP option CDS SESSION CLIENT DEPENDENT or CLIENT INDEPENDENT.
+
 
 
 

@@ -13,7 +13,7 @@ Add users as org members and assign roles to grant the users access to informati
 -   You have the Org Manager role for the org in question.
 
     > ### Note:  
-    > When you create an org, you have the Org Manager role in that org.
+    > When you enable Cloud Foundry and the org is created, the Org Manager role is assigned automatically to you.
 
     For more information, see [About Roles in the Cloud Foundry Environment](about-roles-in-the-cloud-foundry-environment-0907638.md).
 
@@ -42,9 +42,7 @@ Add users as org members and assign roles to grant the users access to informati
 
 5.  Enter the *Origin* for the identity provider, which hosts the members you just added.
 
-    The default identity provider is ***sap.ids***.
-
-    For more information, see [Default Identity Provider](default-identity-provider-d6a8db7.md).
+    The default identity provider is ***sap.ids***. For more information, see [Default Identity Provider](default-identity-provider-d6a8db7.md).
 
     If the new members are platform users from a custom identity provider, enter the origin.
 
@@ -53,6 +51,9 @@ Add users as org members and assign roles to grant the users access to informati
         For more information about finding the origin, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-8600afb.md).
 
     -   Feature Set B: Select the corresponding origin of the Identity Authentication tenant.
+
+        > ### Note:  
+        > The option to select an origin appears only if you have two or more identity providers.
 
         For more information about finding the origin, see [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md).
 
@@ -80,7 +81,5 @@ Add users as org members and assign roles to grant the users access to informati
 
 [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 
-[Log On to Your Global Account](log-on-to-your-global-account-77be288.md "Use the SAP BTP cockpit to log on to your global account and start working in SAP BTP.")
-
-[Navigate to Orgs and Spaces](navigate-to-orgs-and-spaces-5bf8735.md "To administer your Cloud Foundry environment, navigate to orgs, and spaces in the SAP BTP cockpit.")
+[Add Organization Members Using the Cloud Foundry Command Line Interface](add-organization-members-using-the-cloud-foundry-command-line-interface-1422a5d.md "You can use the Cloud Foundry Command Line Interface (cf CLI) to add organization members and assign roles to them.")
 

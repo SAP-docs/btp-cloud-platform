@@ -58,7 +58,7 @@ modules:
 
 ## What's New
 
-To see the latest news and updates about SAP Java Buildpack, regularly check the release notes on the [What's New portal](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&Component=SAP%20Java%20Buildpack).
+To check the latest news and updates about SAP Java Buildpack, go to its release notes: [What's New for SAP Java Buildpack](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&amp%3BComponent=SAP%20Java%20Buildpack&Valid_as_Of=2022-01-01%3A2050-12-31&Component=SAP%20Java%20Buildpack) 
 
 
 

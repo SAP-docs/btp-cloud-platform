@@ -15,7 +15,7 @@ This approach provides a mechanism for direct content deployment from SAP Cloud 
 > ### Note:  
 > The examples below are partial and they intend to show the different capabilities of content deployment. For specific application content, see the dedicated documentation linked below.
 
-The mechanism utilizes the Generic Application Content Deployment protocol \(GACD\). It allows you to deploy content represented by an MTA module oftype `com.sap.application.content` to a certain listof supported services.
+The mechanism utilizes the Generic Application Content Deployment protocol \(GACD\). It allows you to deploy content represented by an MTA module of type `com.sap.application.content` to a certain list of supported services.
 
 
 
@@ -220,7 +220,7 @@ This option extends the customization of service keys explained above. Based on 
 
 The option is particularly useful if you want to rotate and renew the credentials used for content deployment, like when they are based on user/password credentials or certificates.
 
-You can set the service keys to automatically rotate for each new deployment by using the existing deployment parameter `${timestamp}` as a part of the name of the defined custom service key. Doing so ensures that the key will have a new name for each deployment, resulting in Deploy Service creating and using a new key for the related content deployment. The previously used service key will be deleted after the new one is in place.
+You can set the service keys to automatically rotate for each new deployment by using the existing deployment parameter `${timestamp}` as part of the name of the defined custom service key. Doing so ensures that the key will have a new name for each deployment, resulting in Deploy Service creating and using a new key for the related content deployment. The previously used service key will be deleted after the new one is in place.
 
 > ### Sample Code:  
 > ```

@@ -21,7 +21,7 @@ You are a global account administrator, or you are a system landscape administra
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
-You add a third-party system to the list in the *System Landscape* page. At this point you provide all the required details for this system: its type, provider, URL, and system ID. For third-party systems, this also completes the registration process and you have your third-party system registered with SAP BTP.
+You add a third-party system to the list in the *System Landscape* page. At this point you provide all the required details for this system: its type, provider, URL, and system ID. For third-party systems, this also completes the registration process and you have your third-party system registered with SAP BTP. Even though the third-party system is registered directly, no status is displayed.
 
 When you have this system added in the *Systems* list, you can select it and open its system details. There, you specify in the consumption bundles the APIs, and the events. A consumption bundle organizes a set of related APIs and events into a single group for consumption purposes and expresses information about how the APIs and events that it contains can be accessed. All APIs and events that are part of the same consumption bundle need to be accessible through the same set of credentials.
 

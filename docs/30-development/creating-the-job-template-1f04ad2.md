@@ -4,7 +4,7 @@
 
 An *Application Job Template* refers to an application job catalog entry and contains values for some or all selection fields. It can be thought of as a variant of an application job catalog. In the simplest case, a job template doesn't contain any values for the selection fields. In this case, the selection fields are prefilled with their initial values \(such as 0 if the selection field is of type integer\). An application job catalog entry can have more than one application job template. The job template is the entity that can be scheduled in the *Application Jobs* app. In the scheduling dialog, the selection fields appear and are prefilled with the values defined in the template. They can be overwritten by the user. Scheduling an application job template then results in an application job.
 
-The creation of a job template follows the same technical rules as a *Job Catalog Entry* as described in [Creating the Job Catalog Entry](creating-the-job-catalog-entry-1cff59e.md).
+You can create a job template in the ABAP development tools for Eclipse. For more information, see [Creating Application Job Templates](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/creating-application-job-templates?version=sap_btp). The creation of a job template follows the same technical rules as a *Job Catalog Entry* as described in [Creating the Job Catalog Entry](creating-the-job-catalog-entry-1cff59e.md).
 
 The following code example shows a console application that generates the minimal number of required development objects: One *Job Catalog* entry and one related *Job Template*.
 

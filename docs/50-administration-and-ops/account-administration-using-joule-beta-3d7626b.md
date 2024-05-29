@@ -2,7 +2,7 @@
 
 # Account Administration Using Joule \(Beta\)
 
-Learn about the administrative tasks that SAP's generative AI assistant, Joule, can perform for you in the SAP BTP cockpit.
+Learn about the administrative tasks that SAP's generative AI copilot, Joule, can perform for you in the SAP BTP cockpit.
 
 > ### Note:  
 > This offering is a beta feature. Beta features aren't part of the officially delivered scope that SAP guarantees for future releases. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).

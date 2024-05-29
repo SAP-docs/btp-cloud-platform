@@ -10,7 +10,7 @@ A list of additional commands to deploy multitarget applications \(MTA\) to the 
 > The expiration time for all MTA operations in Cloud Foundry is 3 days. If an operation is still active when time limit is reached, it is automatically aborted.
 
 > ### Caution:  
-> Due to the missing shared domains in certain regions, as China \(Shanghai\), the URL of the SAP Cloud Deployment service should be specified by each multitarget application developer who uses MultiApps CF CLI plugin older that 3.0.0. If you are using MultiApps CF CLI plugin newer than 3.0.0, you don't need additional settings. You can do this by using the environment variable `MULTIAPPS_CONTROLLER_URL`, or the `-u` option specified in the commands listed below.
+> Due to the missing shared domains in certain regions, as China \(Shanghai\), the URL of the SAP Cloud Deployment service should be specified by each multitarget application developer who uses MultiApps CF CLI plugin older that 3.0.0. If you are using MultiApps CF CLI plugin newer than 3.0.0, you do not need additional settings. You can do this by using the environment variable `MULTIAPPS_CONTROLLER_URL`, or the `-u` option specified in the commands listed below.
 > 
 > The URL of the deploy-service that needs to be set is in the following format: `deploy-service.cf.<domain>` The domain is derived from the Cloud Foundry API endpoint that you can find in the SAP BTP Cockpit in the Overview of your subaccount. For more information, see Deploying Applications in[Regions](../10-concepts/regions-350356d.md) and [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md).
 > 
@@ -409,11 +409,6 @@ Specify the action to perform on the deploy operation, for example, “abort”,
 <td valign="top">
 
 Force deployment without requiring any confirmation about aborting any conflicting processes
-
-> ### Note:  
-> This option is not functional when deploying using a URL to an MTA archive.
-
-
 
 </td>
 </tr>

@@ -42,6 +42,8 @@ Org Manager
 
 Manages the organization.
 
+When you create an org, you get the Org Manager role in that org by default.
+
 </td>
 </tr>
 <tr>
@@ -67,13 +69,16 @@ Org User
 Provides read-only access to the list of other organization users and their roles.
 
 > ### Note:  
-> When creating a space member, the Org User role is always one of the assigned organization roles. When creating an organization member, you can choose one or more of the following roles:
+> When creating an org member, you can choose one or more of the following roles:
 > 
 > -   Org Manager
 > 
 > -   Org User
 > 
 > -   Org Auditor
+> 
+> 
+> When creating a space member, they get the Org User role by default.
 
 
 

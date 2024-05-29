@@ -60,7 +60,7 @@ A customer account is an enterprise account that allows you to host productive, 
 
 
 
-When you want to purchase a customer account, you can select from a set of predefined packages. For information about service availability, prices, and estimators, see [https://www.sap.com/products/extension-suite/pricing.html](https://www.sap.com/products/extension-suite/pricing.html) and [https://www.sap.com/products/integration-suite/pricing.html](https://www.sap.com/products/integration-suite/pricing.html). You can also view the service catalog via the [SAP Discovery Center](https://discovery-center.cloud.sap). Contact us on [SAP BTP](https://www.sap.com/products/business-technology-platform.html) or via an SAP sales representative.
+When you want to purchase a customer account, you can select from a set of predefined packages. For information about service availability, prices, and estimators, see[https://www.sap.com/products/technology-platform/pricing.html](https://www.sap.com/products/technology-platform/pricing.html) . You can also view the service catalog via the [SAP Discovery Center](https://discovery-center.cloud.sap). Contact us on [SAP BTP](https://www.sap.com/products/business-technology-platform.html) or via an SAP sales representative.
 
 
 
@@ -114,7 +114,7 @@ A partner account is an enterprise account that enables you to build application
 
 To become a partner, you need to fill in an application form and then sign your partner contract. You will be assigned to a partner account with the respective resources. To apply for the partner program, visit [https://partneredge.sap.com/content/partnerregistration/en\_us/registration.html?partnertype=BLD&engagement=0002&build=1](https://partneredge.sap.com/content/partnerregistration/en_us/registration.html?partnertype=BLD&engagement=0002&build=1). You will receive a welcome mail with further information afterwards.
 
-General information about the partner program is available on [https://www.sap.com/partner/become/partneredge-build/plan-design.html](https://www.sap.com/partner/become/partneredge-build/plan-design.html).
+General information about the partner program is available on[https://www.sap.com/partners/partner-program.html](https://www.sap.com/partners/partner-program.html) .
 
 
 

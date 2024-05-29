@@ -53,9 +53,14 @@ There are two types of users in subaccounts:
 
     For more information, see [Giving Access Rights to Platform Users](https://help.sap.com/docs/btp/best-practices/giving-access-rights-to-platform-users) in the *SAP BTP Best Practices Guide*.
 
+    > ### Note:  
+    > If the subaccount has a Cloud Foundry environment, SAP BTP checks Cloud Foundry users with org or space roles. If there's no corresponding user at the subaccount level, SAP BTP creates one automatically.
+    > 
+    > For more information, see [About User Management in the Cloud Foundry Environment](about-user-management-in-the-cloud-foundry-environment-8e6ce96.md).
+
 -   Business users
 
-    These users consume applications and services. Business users don't access cloud management tools like the SAP BTP cockpit. Assign role collections required by the applications and services the business users consume.
+    These users consume applications and services. Business users don't access cloud management tools like the SAP BTP cockpit. Assign role collections required by the applications and services that the business users consume.
 
 
 
@@ -65,9 +70,9 @@ There are two types of users in subaccounts:
 ## Procedure
 
 > ### Tip:  
-> If you're a global account administrator, you can quickly assign yourself as an administrator of a subaccount by going to the *Account Explorer* page and then choosing the *Add Me as Admin* option in the *Actions* \(<span class="SAP-icons-V5"></span>\) context menu of the subaccount. To assign other users, follow the instructions below.
+> If you're a global account administrator, you can quickly assign yourself as an administrator of a subaccount by going to the *Account Explorer* page and then choosing the *Add Me as Admin* option in the *Actions* \(<span class="SAP-icons-V5"></span>\) context menu of the subaccount. To assign other users, use the following instructions.
 > 
-> This feature may not be available if it has been disabled for your global account.
+> This feature isn't available if it has been disabled for your global account.
 > 
 > To disable this feature, send an opt-out request using the component BC-NEO-CIS-OPS. See [Getting Support](../70-getting-support/getting-support-5dd7398.md) for information about opening a case and getting technical assistance.
 
@@ -89,6 +94,9 @@ There are two types of users in subaccounts:
 ## Results
 
 The user can log on to SAP BTP and access resources according to the role collections you've assigned to the user.
+
+> ### Note:  
+> If the new subaccount platform user logs on to SAP BTP cockpit and there's no corresponding platform user at the global account level, SAP BTP creates one automatically.
 
 **Related Information**  
 

@@ -179,9 +179,6 @@ To create a communication system, proceed as follows:
 
     4.  Choose the *Propose Password* button.
 
-        > ### Note:  
-        > The password is optional. You can leave the field empty.
-
     5.  Choose *Create*.
 
     6.  Choose *OK*.

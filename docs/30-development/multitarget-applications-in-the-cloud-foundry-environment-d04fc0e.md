@@ -197,7 +197,7 @@ Module
 </td>
 <td valign="top">
 
-A self-contained application of a certain type, which is developed, packaged, and deployed.
+A self-contained application of a certain type, which is developed, packaged and deployed.
 
 </td>
 </tr>
@@ -302,5 +302,5 @@ You have to consider the following limits for the MTA artifacts, which can be ha
 
 [Cloud MTA Build Tool](https://sap.github.io/cloud-mta-build-tool/)
 
-[Release Notes for Multitarget Applications for Cloud Foundry](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Multitarget%20Applications%20for%20Cloud%20Foundry&Valid_as_Of=2022-01-01%3A2023-12-31&locale=en-US)
+[Release Notes for Multitarget Applications for Cloud Foundry](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Multitarget%20Applications%20for%20Cloud%20Foundry&Valid_as_Of=2022-01-01%3A2050-12-31&locale=en-US)
 

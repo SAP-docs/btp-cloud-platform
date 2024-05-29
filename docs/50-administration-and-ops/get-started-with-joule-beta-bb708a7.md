@@ -10,7 +10,7 @@ Find out how to request access to the beta and start using Joule.
 If the use cases covered in this beta release seem intriguing to you and align with your needs, you can register with our beta program. Participating in this program lets you:
 
 -   Give feedback to directly influence how Joule simplifies administrator tasks in the SAP BTP cockpit.
--   Get a first glimpse of SAP's generative AI assistant in the SAP BTP cockpit and try it out.
+-   Get a first glimpse of SAP's generative AI copilot in the SAP BTP cockpit and try it out.
 
 
 

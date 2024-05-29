@@ -65,6 +65,23 @@ These are the parameter values of the application job. For more information, see
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+JobUser
+
+</td>
+<td valign="top">
+
+Optional
+
+</td>
+<td valign="top">
+
+This is the user under whom the application job is supposed to run. This field is kept optional for compatibility reasons only. It's recommended to always provide the job user when making the call.
+
+</td>
+</tr>
 </table>
 
 
@@ -97,7 +114,7 @@ The operation returns:
 ### Request
 
 ```
-GET <host>/sap/opu/odata/SAP/BC_EXT_APPJOB_MANAGEMENT;v=0002/JobScheduleCheck?JobTemplateName='TemplateName'&JobParameterValues='ParameterValueString'
+POST <host>/sap/opu/odata/SAP/BC_EXT_APPJOB_MANAGEMENT;v=0002/JobScheduleCheck?JobTemplateName='TemplateName'&JobParameterValues='ParameterValueString'&JobUser='UserName'
 ```
 
 

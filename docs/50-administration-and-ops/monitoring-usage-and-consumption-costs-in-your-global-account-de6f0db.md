@@ -375,10 +375,12 @@ Here are some useful tips for working in this perspective:
 
 -   To filter the main table for specific subaccounts or directories, use the *Subaccounts/Directories* dropdown list.
 
--   To view the monthly trend of a selected service plan over the last 12 months, scroll past the main table until you reach a graph.
+-   To view the monthly trend of a selected service plan over the last 12 months, scroll past the main table until you reach a graph. Choose the graph type in the *View By* dropdown list.
 
     > ### Tip:  
-    > This graph is useful for seeing in which months a service plan has usage and costs, which service plans have increased or decreased usage/costs over time, or the months that have the highest and lowest usage/costs per service plan.
+    > The graphs are useful for seeing in which months a service plan has usage and costs, which service plans have increased or decreased usage/costs over time, or the months that have the highest and lowest usage/costs per service plan.
+    > 
+    > You can also switch to a graph that shows the cumulative costs of the selected service over time.
 
 
 See other useful tips, such as table sorting, filtering, and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
@@ -414,7 +416,9 @@ Here are some useful tips for working in this perspective:
 -   To view the monthly trend of a selected subaccount or directory over the last 12 months, scroll past the main table until you reach a graph. Choose the graph type in the *View By* dropdown list.
 
     > ### Tip:  
-    > The graph is useful for seeing in which months a subaccount or directory has usage and costs, which subaccounts or directories have increased or decreased usage/costs over time, or the months that have the highest and lowest usage/costs per subaccount or directory. You can also switch to a graph that shows the cumulative costs of a selected service over time.
+    > The graphs are useful for seeing in which months a subaccount or directory has usage and costs, which subaccounts or directories have increased or decreased usage/costs over time, or the months that have the highest and lowest usage/costs per subaccount or directory.
+    > 
+    > You can also switch to a graph that shows the cumulative costs of the selected subaccount or directory over time.
 
 
 See other useful tips, such as table sorting and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.

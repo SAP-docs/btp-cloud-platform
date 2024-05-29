@@ -4,14 +4,14 @@
 
 The Cloud Foundry environment has its own store for user data within SAP BTP. Understanding the relationship between SAP BTP and the Cloud Foundry environment is useful.
 
-All users of Cloud Foundry and SAP BTP are stored in identity providers. Both require a local copy of the users so that you can assign authorizations to those users. When a user tries to log on, the user is forwarded to the identity provider to authenticate. When you add a user as a member to an org or space, there's no check, whether or not this user actually exists in the identity provider you specified.
+All users of Cloud Foundry and SAP BTP are stored in identity providers. Both require a local copy of the users so that you can assign authorizations to those users. When a user tries to log on, the user is forwarded to the identity provider to authenticate. When you add a user as a member to an org or space, there's no check whether or not this user actually exists in the identity provider you specified.
 
 Org members can only be added by an `Org Manager`. If you only have the `Space Manager` role, you can only add space members that are known to the org. To do that, you must first ask your `Org Manager` to add the users as org members with no roles.
 
 > ### Note:  
 > All org members implicitly have the `Org User` role.
 
-If you’re the `Org Manager`, you don’t need to first add the users as org members with no roles. You already have the authorizations to add users to the org. When you add a new user as a space member, that user is added automatically as part of the org as well.
+If you’re the `Org Manager`, you already have the authorizations to add users to the org. When you add a new user as a space member, that user is added automatically as part of the org as well.
 
 
 
@@ -19,14 +19,12 @@ If you’re the `Org Manager`, you don’t need to first add the users as org me
 
 ## Cloud Foundry and Shadow Users
 
-Whenever you add a user at the org or space level, SAP BTP creates the user at the global account and subaccount levels, also known as a shadow user. This is the case only when you use the SAP BTP cockpit, not on using the Cloud Foundry CLI or Cloud Foundry APIs.
+Whenever you add a user at the org or space level with the SAP BTP cockpit, SAP BTP also creates the user at the subaccount level, also known as a shadow user. When you use the SAP BTP cockpit to add a user, SAP BTPassigns at least one Cloud Foundry role to the user, namely *Org User* if you don't add any other role. SAP BTPchecks for Cloud Foundry users with a role and creates corresponding shadow users at the subaccount level if no such user exists. Creating users with the Cloud Foundry CLI or Cloud Foundry APIs doesn't add any Cloud Foundry roles by default. Once you add a role to the user, the system ensures that there's a corresponding user at the subaccount level.
 
 > ### Remember:  
 > When you delete a user at the Cloud Foundry level, SAP BTP doesn’t delete the corresponding shadow user at the subaccount level.
 > 
-> When you delete a user at the subaccount level, ensure that you delete the user at the Cloud Foundry level too. Otherwise, if the Cloud Foundry user logs on again, the system automatically creates the corresponding user at the subaccount level.
-> 
-> So ensure that you delete the shadow users on all levels.
+> When you delete a user at the subaccount level, delete the user at the Cloud Foundry org and space levels, too. Otherwise, the system automatically creates the corresponding user at the subaccount level if the user has a Cloud Foundryrole.
 
 For more information about shadow users, see [Working with Users](working-with-users-2c91f88.md).
 

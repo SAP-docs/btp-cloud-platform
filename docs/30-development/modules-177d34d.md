@@ -12,7 +12,7 @@ The following elements are mandatory:
 
 Optional module attributes include:
 
--   `path` -the file-system path relative to the root of the MTA directory. The content of the file is used to create or update the CF app or content, depending on the module target. The `path` is used only during MTA build. In already built MTA archive \(MTAR\), path is ignored and only corresponding entry in `MANIFEST.MF` for the module is processed.
+-   `path` - the file-system path relative to the root of the MTA directory. The content of the file is used to create or update the CF app or content, depending on the module target. The `path` is used only during MTA build. In an already built MTA archive \(MTAR\), path is ignored and only corresponding entry in `MANIFEST.MF` for the module is processed.
 
     The path is applicable only when MTA is assembled based on deployment descriptor \(mtad.yaml\), and not on development descriptor \(mta.yaml\)
 

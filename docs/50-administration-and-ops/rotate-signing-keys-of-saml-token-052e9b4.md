@@ -12,7 +12,7 @@ The SAP Authorization and Trust Management service uses an X.509 certificate to 
 
 -   You've enabled API access to the SAP Authorization and Trust Management service.
 
-    For more information, see  <?sap-ot O2O class="- topic/xref " href="ebc9113a520e495ea5fb759b9a7929f2.xml" text="" desc="" xtrc="xref:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/052e9b4b54ce4c268422b1f2c736e47e.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+    For more information, see [Get Access to the APIs](get-access-to-the-apis-fda1027.md).
 
 -   Optionally, to use your own signing key for SAML tokens, you've obtained an X.509 certificate for the SAP Authorization and Trust Management service.
 

@@ -1345,12 +1345,12 @@ Note that these 3 key-value pairs can be in any order.
 
 
 > ### Tip:  
-> For a better understanding of the interactions among the service, service broker, and service instances, see [section "Architecture and Terminology"](https://docs.cloudfoundry.org/devguide/services/).
+> For a better understanding of the interactions among the service, service broker, and service instances, see [Provisioning and integrating service instances](https://docs.cloudfoundry.org/devguide/services/).
 
 **Related Information**  
 
 
 [Services Overview](https://docs.cloudfoundry.org/services/overview.html)
 
-[Managing Services](https://docs.cloudfoundry.org/devguide/services/)
+[Provisioning and integrating service instances](https://docs.cloudfoundry.org/devguide/services/)
 

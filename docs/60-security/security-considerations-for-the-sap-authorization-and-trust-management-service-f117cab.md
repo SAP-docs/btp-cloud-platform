@@ -15,15 +15,15 @@ Decisions you make when using or administrating the SAP Authorization and Trust 
 
 ## Implications of Using IFrames
 
-By default, login pages of the SAP Authorization and Trust Management service can’t be framed by other applications for security reasons.
+By default, applications of the subaccount, including login pages of the SAP Authorization and Trust Management service can’t be framed by other applications for security reasons.
 
-As the security administrator of a subaccount, you can allow the embedding of the login page of the SAP Authorization and Trust Management service in an iFrame.
+As the security administrator of a subaccount, you can allow the embedding applications of the subaccount in an iFrame.
 
 To configure the trusted domains, use one of the following methods:
 
--   Enter trusted domains in SAP BTP cockpit.
+-   Enter trusted domains in the SAP BTP cockpit.
 
-    For more information, see [Configure Trusted Domains for SAP Authorization and Trust Management Service \[Feature Set B\]](../50-administration-and-ops/configure-trusted-domains-for-sap-authorization-and-trust-management-service-feature-se-c5e9972.md).
+    For more information, see [Configure Trusted Domains for Multi-environment Subaccounts \[Feature Set B\]](../50-administration-and-ops/configure-trusted-domains-for-multi-environment-subaccounts-feature-set-b-c5e9972.md).
 
 -   Access the Security Settings API.
 
@@ -37,22 +37,24 @@ To configure the trusted domains, use one of the following methods:
 > ### Remember:  
 > To use iFrames with SAP Authorization and Trust Management service, configure the embedding of the login page of your identity provider. Not all identity providers support framing. This function only works if the identity provider supports framing and is configured, too.
 > 
+> To use iFrames with other applications of the subaccount, which support this feature, configure the domains used by these applications.
+> 
 > To configure iFrames for SAP Cloud Identity Services - Identity Authentication, see [Configure Trusted Domains](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/08fa1fe816704d99a6bcab245158ebca.html) in the Identity Authentication documentation.
 
-When configured, the SAP Authorization and Trust Management service sends a content security policy header allowing framing of the login page of the service for the domains you specified.
+When configured, the SAP Authorization and Trust Management service sends a content security policy header allowing framing of the application for the domains you specified.
 
 For more information about content security policies, see the World Wide Web Consortium \(W3C\) recommendation [Content Security Policy](https://www.w3.org/TR/CSP2/).
 
 This configuration has several security implications like:
 
--   Clickjacking attacks on the login page as the URL of the login page isn’t visible.
+-   Clickjacking attacks on the application as the URL of the application isn’t visible.
 
--   JavaScript based cross site scripting vulnerabilities of older browser versions.
+-   JavaScript-based cross-site scripting vulnerabilities of older browser versions.
 
--   3rd party cookies are required when using different domains for authentication with the SAP Authorization and Trust Management service, the identity provider, and the application.
+-   3rd-party cookies are required when using different domains for authentication with the SAP Authorization and Trust Management service, the identity provider, and the application.
 
 
-Ensure that no attacker can add malicious web pages or Javascript to any of the hosts allowed to frame the login page. This recommendation also includes hosts that act as reverse proxies, where an attacker can put their content on a different host behind the reverse proxy. Ensure that everything exposed by those framing hosts is safe.
+Ensure that no attacker can add malicious web pages or Javascript to any of the hosts allowed to frame the applications. This recommendation also includes hosts that act as reverse proxies, where an attacker can put their content on a different host behind the reverse proxy. Ensure that everything exposed by those framing hosts is safe.
 
 <a name="loio88b7d9d4c6ff4498b48dbc0b7be8a294"/>
 

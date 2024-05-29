@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Configure Trusted Domains for SAP Authorization and Trust Management Service \[Feature Set B\]
+# Configure Trusted Domains for Multi-environment Subaccounts \[Feature Set B\]
 
 By default, applications of the subaccount, including login pages of the SAP Authorization and Trust Management service \(XSUAA\), can’t be framed by other applications in different domains for security reasons.
 
@@ -12,10 +12,17 @@ By default, applications of the subaccount, including login pages of the SAP Aut
 
 ## Prerequisites
 
-> ### Recommendation:  
-> Review the security implications of using inline frames \(IFrames\) with SAP Authorization and Trust Management service.
-> 
-> For more information, see [Implications of Using IFrames](../60-security/security-considerations-for-the-sap-authorization-and-trust-management-service-f117cab.md#loioea351dd76f8946c995145bc6a4b235f3).
+-   > ### Recommendation:  
+    > Review the security implications of using inline frames \(IFrames\) with the SAP Authorization and Trust Management service.
+    > 
+    > For more information, see [Implications of Using IFrames](../60-security/security-considerations-for-the-sap-authorization-and-trust-management-service-f117cab.md#loioea351dd76f8946c995145bc6a4b235f3).
+
+-   Check that your application supports the trusted domains of multi-environment subaccounts.
+
+    The documentation of your application indicates whether you need to make this configuration or not.
+
+    The login pages of the SAP Authorization and Trust Management service \(XSUAA\), supports this feature.
+
 
 
 
@@ -26,7 +33,7 @@ To prevent clickjacking or overlay attacks, web browsers follow a same origin po
 > ### Recommendation:  
 > Instead of configuring lists of trusted domains, ensure that your application runs under the same domain as the framing application.
 > 
-> For more information about SAP Custom Domain service, see the documentation of the [SAP Custom Domain Service](https://help.sap.com/viewer/product/CUSTOM_DOMAINS/Cloud/en-US).
+> For more information about the SAP Custom Domain service, see the documentation of the [SAP Custom Domain Service](https://help.sap.com/viewer/product/CUSTOM_DOMAINS/Cloud/en-US).
 > 
 > If your custom identity provider runs under a different domain as the framing application, you must configure the identity provider to trust the domain of the framing application, too.
 
@@ -41,6 +48,10 @@ To prevent clickjacking or overlay attacks, web browsers follow a same origin po
 3.  Enter the host name for the trusted domain.
 
     For example: `https://store.example.com`
+
+    Wildcards are allowed for the subdomain.
+
+    For example: `https://*.example.com`
 
     > ### Note:  
     > All the trusted domains together, including their space separators, can't exceed 2048 characters.

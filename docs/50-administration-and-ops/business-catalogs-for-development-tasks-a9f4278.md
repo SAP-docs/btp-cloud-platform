@@ -8,7 +8,7 @@ Get an overview of available business catalogs for development tasks and their r
 
 You assign business catalogs to business roles that are assigned to business users. Business catalogs contain authorizations that define what a business user with a certain business role is allowed to do.
 
-Certain business catalogs are only available in development systems \(see [Creating an ABAP System](../20-getting-started/creating-an-abap-system-50b32f1.md).
+Certain business catalogs are only available in development systems \(see [Creating an ABAP System](../20-getting-started/creating-an-abap-system-50b32f1.md)\).
 
 **Business Catalogs for Development Tasks**
 
