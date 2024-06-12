@@ -12,7 +12,7 @@ You use one or multiple custom identity providers for business users as well as 
 
 ## Prerequisites
 
--   You have configured a custom trust configuration for a custom identity provider, for example Identity Authentication, and set it to active.
+-   You have configured a custom trust configuration for a custom identity provider, for example SAP Cloud Identity Services, and set it to active.
 
 -   You've checked the *Available for User Logon* checkbox in your custom trust configuration.
 

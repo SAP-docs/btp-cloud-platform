@@ -122,13 +122,13 @@ For more information, see [Prepare for Migration from SAML Trust to OpenID Conne
     > ### Note:  
     > In the new OIDC application, uppercase or lower case G in the `groups` attribute name doesn't matter.
 
-3.  If there are any remaining differences, adjust the configuration of the Identity Authentication tenant or applications or of the corporate identity provider until you get the same attributes.
+3.  If there are any remaining differences, adjust the configuration of the SAP Cloud Identity Services tenant or applications or of the corporate identity provider until you get the same attributes.
 
-    For more information, see [Configuration of Identity Authentication After Migration from SAML to OIDC](configuration-of-identity-authentication-after-migration-from-saml-to-oidc-1fa7273.md).
+    For more information, see [Configuration of SAP Cloud Identity Services After Migration from SAML to OIDC](configuration-of-sap-cloud-identity-services-after-migration-from-saml-to-oidc-1fa7273.md).
 
-    Use the OIDC token logging in Identity Authentication to help troubleshoot any problems.
+    Use the OIDC token logging in SAP Cloud Identity Services to help troubleshoot any problems.
 
-    For more information, see [Logging OpenID Connect Tokens](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/b6c42b53518b46de8b4dffd8c4c52ed7.html) in the documentation of Identity Authentication.
+    For more information, see [Logging OpenID Connect Tokens](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/b6c42b53518b46de8b4dffd8c4c52ed7.html) in the documentation of SAP Cloud Identity Services.
 
     If you can't get the configuration to work, restore the SAML trust configuration.
 
@@ -149,5 +149,5 @@ Once everything is working as you expected and are certain you don't need it any
 **Related Information**  
 
 
-[Restore SAML Trust Configuration](restore-saml-trust-configuration-21d86cf.md "You replaced a SAML trust configuration to your custom identity provider with an OpenID Connect (OIDC) trust configuration to Identity Authentication, and the authentication of application users in the subaccount isn't working as you expected. Restore your SAML configuration to get your applications working again.")
+[Restore SAML Trust Configuration](restore-saml-trust-configuration-21d86cf.md "You replaced a SAML trust configuration to your custom identity provider with an OpenID Connect (OIDC) trust configuration to SAP Cloud Identity Services, and the authentication of application users in the subaccount isn't working as you expected. Restore your SAML configuration to get your applications working again.")
 

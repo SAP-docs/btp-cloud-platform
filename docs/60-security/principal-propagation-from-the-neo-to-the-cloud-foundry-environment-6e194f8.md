@@ -2,7 +2,7 @@
 
 # Principal Propagation from the Neo to the Cloud Foundry Environment
 
-Enable an application in your subaccount in the Neo environment to access another application in a subaccount in the Cloud Foundry environment without user login \(and user interaction\) in the second application. For this scenario to work, the two subaccounts need to be in mutual trust, and in trust with the same Identity Authentication tenant. The second application will propagate its logged-in user to the first application using an OAuth2SAMLBearer destination.
+Enable an application in your subaccount in the Neo environment to access another application in a subaccount in the Cloud Foundry environment without user login \(and user interaction\) in the second application. For this scenario to work, the two subaccounts need to be in mutual trust, and in trust with the same SAP Cloud Identity Services tenant. The second application will propagate its logged-in user to the first application using an OAuth2SAMLBearer destination.
 
 
 
@@ -19,9 +19,9 @@ The graphic below illustrates the overall setup of the scenario.
 -   You have a user account with *Administrator* role in both SAP BTP subaccounts. See [Managing Member Authorizations in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/a1ab5c4cc117455392cd0a512c7f890d.html "SAP BTP includes predefined platform roles that support the typical tasks performed by users when interacting with the platform. In addition, subaccount administrators can combine various scopes into a custom platform role that addresses their individual requirements.") :arrow_upper_right:.
 
 -   You have a custom local service provider configuration \(signing keys and certificates, etc.\) in your subaccount in the Neo environment. See [Configure the Local Service Provider](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/dc618538d97610148155d97dcd123c24.html#loiodcdfe339f94947bc96508daa686cc56d "Your SAP BTP subaccount is the local service provider in the SAML communication. Configure signing keys, certificates, and other trust settings.") :arrow_upper_right:.
--   Both accounts have a trust configuration to the same Identity Authentication tenant. See:
+-   Both accounts have a trust configuration to the same SAP Cloud Identity Services tenant. See:
     -   [Identity Authentication Tenant as an Application Identity Provider](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/d3df5b457d0c43fca117da0dc14e2f0d.html "You can register a tenant for Identity Authentication service as an identity provider for your subaccount.") :arrow_upper_right: \(for the Neo environment\)
-    -   [Manually Establish Trust and Federation Between SAP Authorization and Trust Management Service and Identity Authentication](../50-administration-and-ops/manually-establish-trust-and-federation-between-sap-authorization-and-trust-management-7c6aa87.md#loio7c6aa87459764b179aeccadccd4f91f3) \(for the Cloud Foundry environment\)
+    -   [Manually Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services](../50-administration-and-ops/manually-establish-trust-and-federation-between-sap-authorization-and-trust-management-7c6aa87.md#loio7c6aa87459764b179aeccadccd4f91f3) \(for the Cloud Foundry environment\)
 
 -   You have developed and deployed both applications, each in the corresponding subaccount.
 

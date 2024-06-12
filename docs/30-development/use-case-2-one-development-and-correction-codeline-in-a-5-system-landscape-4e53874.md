@@ -2,9 +2,7 @@
 
 # Use Case 2: One Development and Correction Codeline in a 5-System Landscape
 
-You can apply this setup if you have permanent/infinite development activities for large applications with many developers, where development cannot be paused to implement an urgent correction. Corrections need to run in parallel to development and on a released state. You need to separate testing from development to ensure the solutions also runs in a non-development system before being delivered to production.
-
-![](images/globalcustomeraccount_3946225.png)
+You can apply this setup if you have permanent/infinite development activities for large applications with many developers, where development cannot be paused to implement an urgent correction. Corrections need to run in parallel to development and on a released state. You need to separate testing from development to ensure the solutions also runs in a non-development system before being delivered to production. ![](images/One_Development_and_Correction_Codeline_in_a_5-ABAP-System_Landscape_cabc7ee.png)
 
 General considerations:
 

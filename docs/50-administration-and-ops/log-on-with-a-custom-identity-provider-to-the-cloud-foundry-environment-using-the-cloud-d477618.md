@@ -71,7 +71,7 @@ You can open a browser during the logon process.
 The logon process is automated, for example with a script or there’s no possibility to open a browser during logon.
 
 > ### Restriction:  
-> This scenario is only supported if the users exist directly in your tenant of the SAP Cloud Identity Services - Identity Authentication and not in a corporate identity provider.
+> This scenario is only supported if the users exist directly in your tenant of SAP Cloud Identity Services and not in a corporate identity provider.
 
 
 

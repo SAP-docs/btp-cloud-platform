@@ -13,7 +13,7 @@ As an administrator of the Cloud Foundry environment, you can specify attributes
 You have maintained the attributes of the users in your identity provider.
 
 > ### Note:  
-> In Identity Authentication or any identity provider, you find the attributes in the configuration.
+> In SAP Cloud Identity Services or any identity provider, you find the attributes in the configuration.
 
 
 
@@ -80,7 +80,7 @@ You have maintained the attributes of the users in your identity provider.
     
     Enter an attribute as defined in your identity provider. Check in your identity provider for the exact syntax of the attribute identifier.
 
-    For Identity Authentication, you find the attribute identifier in the settings of the attributes of your identity provider under *Applications & Resources* \> *Applications* \> **<Application\_Name\>** \> *Trust* \> *Attributes*.
+    For SAP Cloud Identity Services, you find the attribute identifier in the settings of the attributes of your identity provider under *Applications & Resources* \> *Applications* \> **<Application\_Name\>** \> *Trust* \> *Attributes*.
 
     > ### Example:  
     > To use the attribute for cost center, you must enter the value `cost_center`.

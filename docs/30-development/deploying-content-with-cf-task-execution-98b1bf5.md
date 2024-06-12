@@ -50,16 +50,16 @@ The following steps describe the process of content deployment with CF Task exec
 
 4.  SAP Cloud Deployment service runs CF tasks, including the one responsible for actual content deployment
 
-5.  The dedicated CF task of content application triggers the content deployer, which in turn performs the actual content deployment. During this step:
+5.  The dedicated CF task of the content application triggers the content deployer, which in turn performs the actual content deployment. During this step:
 
-    1.  CF task reads content details from the bound service instance and identifies the content endpoint as well as the required authentication
+    1.  The CF task reads content details from the bound service instance and identifies the content endpoint and the required authentication
 
-    2.  CF task executes the content deployment to the content endpoint
+    2.  The CF task executes the content deployment to the content endpoint
 
 
-6.  CF task completed successfully
+6.  The CF task completed successfully
 
-7.  MTA deployment completes and SAP Cloud Deployment service reports the status to the developer/operator
+7.  The MTA deployment completes and SAP Cloud Deployment service reports the status to the developer/operator
 
 
 
@@ -76,7 +76,7 @@ The Content Deployer and Service Instance follow the same rules as the ones from
 
 ## CF Tasks
 
-Tasks are native to Cloud Foundry and are valuable in various scenarios, which demand one-off jobs. For more information see[https://help.sap.com/docs/btp/sap-business-technology-platform/tasks?version=Cloud](https://help.sap.com/docs/btp/sap-business-technology-platform/tasks?version=Cloud) from the official documentation.
+Tasks are native to Cloud Foundry and are valuable in various scenarios, which demand one-off jobs. For more information, see[https://help.sap.com/docs/btp/sap-business-technology-platform/tasks?version=Cloud](https://help.sap.com/docs/btp/sap-business-technology-platform/tasks?version=Cloud) from the official documentation.
 
 CF tasks, dedicated for content deployment, are predefined from the SAP Cloud Deployment service and must not be changed by the end customer. They are represented by the module level parameter `tasks`.
 

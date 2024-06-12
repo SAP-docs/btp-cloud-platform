@@ -43,9 +43,9 @@ This documentation is written with the data protection officer of a company in m
 
 Users are stored in the platform identity provider.
 
--   Global account users are stored in platform identity provider or a tenant of SAP Cloud Identity Services - Identity Authentication.
--   Platform users are stored in platform identity provider, a tenant of SAP Cloud Identity Services - Identity Authentication, or your own identity provider.
--   Business users are stored in a tenant of SAP Cloud Identity Services - Identity Authentication or your own identity provider.
+-   Global account users are stored in platform identity provider or a tenant of SAP Cloud Identity Services.
+-   Platform users are stored in platform identity provider, a tenant of SAP Cloud Identity Services, or your own identity provider.
+-   Business users are stored in a tenant of SAP Cloud Identity Services or your own identity provider.
 
 **Related Information**  
 

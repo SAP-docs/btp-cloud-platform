@@ -47,7 +47,7 @@ Communication Management
 </td>
 <td valign="top">
 
-Appoint an English-speaking contact person and communicate the name to SAP. This is required to ensure timely processing of configuration change requests affecting the customer system, interacting with SAP for efficient incident processing, and other interaction between SAP and the customer.
+Appoint an English-speaking contact person and communicate the name to SAP. This is required to ensure timely processing of configuration change requests affecting the customer system, interacting with SAP for efficient case processing, and other interaction between SAP and the customer.
 
 </td>
 <td valign="top">
@@ -238,7 +238,7 @@ Change Management
 </td>
 <td valign="top">
 
-Apply regular product increments, as well as corrections to the infrastructure, systems, and services to avoid incidents with minimal possible disruption of normal operations. Ensure that all platform changes \(such as updates of the runtime or operating system patches, but not of the customer applications\) are evaluated, authorized, prioritized, planned, tested, implemented, documented, and reviewed prior to implementation.
+Apply regular product increments, as well as corrections to the infrastructure, systems, and services to avoid cases with minimal possible disruption of normal operations. Ensure that all platform changes \(such as updates of the runtime or operating system patches, but not of the customer applications\) are evaluated, authorized, prioritized, planned, tested, implemented, documented, and reviewed prior to implementation.
 
 </td>
 <td valign="top">
@@ -265,7 +265,7 @@ Change Management
 </td>
 <td valign="top">
 
-Perform updates of the infrastructure, systems, and services if required. Respectively, for selected services, offer self-services for applying controlled updates of new versions. Emergency changes, for example, triggered by Incident Management processes, have accelerated testing, approval, and implementation.
+Perform updates of the infrastructure, systems, and services if required. Respectively, for selected services, offer self-services for applying controlled updates of new versions. Emergency changes, for example, triggered by Case Management processes, have accelerated testing, approval, and implementation.
 
 The updates for the Cloud Foundry runtime are performed in biweekly cycles.
 
@@ -359,12 +359,12 @@ Yes
 <tr>
 <td valign="top">
 
-Incident Management
+Case Management
 
 </td>
 <td valign="top">
 
-Process incidents reported by the customer according to the Service Level Agreement. The incident is recorded and prioritized in the incident tracking system. Monitor the status and progress of the incident throughout its whole lifecycle and give regular status updates to the customer.
+Process cases reported by the customer according to the Service Level Agreement. The case is recorded and prioritized in the case tracking system. Monitor the status and progress of the case throughout its whole lifecycle and give regular status updates to the customer.
 
 </td>
 <td valign="top">
@@ -386,12 +386,12 @@ No
 <tr>
 <td valign="top">
 
-Incident Management
+Case Management
 
 </td>
 <td valign="top">
 
-In the event of incidents, make reasonable effort to support end users and manage their incidents, to explore self-help tools to find already documented solutions, and to liaise with SAP support in the event of new problems to ensure timely processing of incidents affecting the resources in the customer account.
+In the event of cases, make reasonable effort to support end users and manage their cases, to explore self-help tools to find already documented solutions, and to liaise with SAP support in the event of new problems to ensure timely processing of cases affecting the resources in the customer account.
 
 </td>
 <td valign="top">
@@ -413,12 +413,12 @@ No
 <tr>
 <td valign="top">
 
-Incident Management
+Case Management
 
 </td>
 <td valign="top">
 
-Confirm incident resolution in the incident tracking system.
+Confirm case resolution in the case tracking system.
 
 </td>
 <td valign="top">
@@ -680,7 +680,7 @@ System Monitoring
 </td>
 <td valign="top">
 
-Ensure availability of the customer system according to the Service Level Agreements as agreed in the contractual agreement between SAP and the customer, by active monitoring, prompt issue detection, and incident prevention.
+Ensure availability of the customer system according to the Service Level Agreements as agreed in the contractual agreement between SAP and the customer, by active monitoring, prompt issue detection, and case prevention.
 
 </td>
 <td valign="top">

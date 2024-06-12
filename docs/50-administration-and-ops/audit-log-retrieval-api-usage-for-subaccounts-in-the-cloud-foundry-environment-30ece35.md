@@ -201,7 +201,10 @@ Supported request parameters:
 
 -   `handle` - in case the result set is too large, it's chunked, and a handle is returned for reading the next chunk. The handle is returned as a Response Header in the form: Paging: `handle=<value>`. Then you can provide `handle=<value>` as a request parameter in the subsequent retrieval request.
 
--   `filter_message_type` - this parameter allows you to filter the audit logs by predefined message categories. If no category is specified, all categories are returned. The available categories are `audit.security-events`, `audit.configuration`, `audit.data-access`, and `audit.data-modification`. To filter by a specific category, provide the category name as the value for this parameter, for example `filter_message_type=audit.data-access`.
+-   `filter_message_type` - this parameter allows you to filter the audit logs by predefined event types. If no event type is specified, all event types are returned. The available event types are `audit.security-events`, `audit.configuration`, `audit.data-access`, and `audit.data-modification`. To filter by a specific event type, provide the event type name as the value for this parameter, for example `filter_message_type=audit.data-access`.
+
+    > ### Note:  
+    > To use this feature, you must have the `edp=true` parameter present as well, otherwise this filter is ignored.
 
 
 
@@ -210,7 +213,9 @@ Supported request parameters:
 
 Execute the following HTTP GET request:
 
-`<url_from_service_key>/auditlog/v2/auditlogrecords`
+```
+<url_from_service_key>/auditlog/v2/auditlogrecords
+```
 
 Provide the OAuth access token as an `"Authorization"` header: `"Authorization: Bearer <access_token>"` 
 
@@ -222,20 +227,24 @@ The response is in JSON format, containing the audit log entries, split on pages
 
 Execute the following HTTP GET request:
 
-`<url_from_service_key>/auditlog/v2/auditlogrecords?time_from=2018-05-10T10:42:00&time_to=2018-05-11T10:46:00`
+```
+<url_from_service_key>/auditlog/v2/auditlogrecords?time_from=2018-05-10T10:42:00&time_to=2018-05-11T10:46:00
+```
 
 
 
-### Example: Get audit logs filtered by category
+### Example: Get audit logs filtered by event type
 
-You can qeury for one of the predefined audit log message categories for the `filter_message_type` parameter..
+You can query for one of the predefined audit log event types for the `filter_message_type` parameter.
 
 Execute the following HTTP GET request:
 
-`<url_from_service_key>/auditlog/v2/auditlogrecords?time_from=2018-05-10T10:42:00&time_to=2018-05-11T10:46:00&filter_message_type=audit.data-access&edp=true`
+```
+<url_from_service_key>/auditlog/v2/auditlogrecords?time_from=2018-05-10T10:42:00&time_to=2018-05-11T10:46:00&filter_message_type=audit.data-access&edp=true
+```
 
 > ### Note:  
-> Filterning only works on EDP storage, hence you must pass the additional request parameter `edp` as well.
+> Filterning only works on EDP storage, hence you must pass the additional request parameter `edp` as well. To enable the *EDP* field, make sure to select its checkbox.
 
 
 
@@ -243,9 +252,9 @@ Execute the following HTTP GET request:
 
 Execute the following HTTP GET request:
 
-`<url_from_service_key>/auditlog/v2/auditlogrecords?handle=2018-06-14T10:11:18.968<4f932695-8616-4e1f-ac9a-1cdfb758f01d<2018-06-14T10:11:00.000`
-
-`<url_from_service_key>/auditlog/v2/auditlogrecords?handle=<handle value>`
+```
+<url_from_service_key>/auditlog/v2/auditlogrecords?handle=2018-06-14T10:11:18.968<4f932695-8616-4e1f-ac9a-1cdfb758f01d<2018-06-14T10:11:00.000
+```
 
 Response codes:
 

@@ -2,7 +2,7 @@
 
 # Map User Attributes from a Corporate Identity Provider for Platform Users
 
-When you enable trust with a tenant of SAP Cloud Identity Services - Identity Authentication, you get an OpenID Connect \(OIDC\) application in Identity Authentication to represent SAP BTP, in the context of platform users. When you authenticate users using a corporate identity provider, map the user attributes provided by the corporate identity provider to the attributes required by SAP BTP. The following information explains which attributes SAP BTP needs for which purpose, and how you can map those attributes.
+When you enable trust with a tenant of SAP Cloud Identity Services, you get an OpenID Connect \(OIDC\) application in SAP Cloud Identity Services to represent SAP BTP, in the context of platform users. When you authenticate users using a corporate identity provider, map the user attributes provided by the corporate identity provider to the attributes required by SAP BTP. The following information explains which attributes SAP BTP needs for which purpose, and how you can map those attributes.
 
 
 
@@ -10,9 +10,9 @@ When you enable trust with a tenant of SAP Cloud Identity Services - Identity Au
 
 ## Finding the Application for Your Platform Users
 
-The name of the application in the administration console of Identity Authentication that represents SAP BTP in the context of platform users has the name, *SAP Business Technology Platform*.
+The name of the application in the administration console of SAP Cloud Identity Services that represents SAP BTP in the context of platform users has the name, *SAP Business Technology Platform*.
 
-For more information, see [OpenID Connect](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/a789c9c8c0f5439da8c30b5d9e43bece.html) in the documentation of Identity Authentication.
+For more information, see [OpenID Connect](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/a789c9c8c0f5439da8c30b5d9e43bece.html) in the documentation of SAP Cloud Identity Services.
 
 
 
@@ -20,9 +20,9 @@ For more information, see [OpenID Connect](https://help.sap.com/viewer/6d6d63354
 
 ## Customizing Attribute Mappings
 
-There are several options to customize attribute mappings in Identity Authentication, depending on whether identity federation is enabled or disabled. For more information about identity federation, see [Configure Identity Federation](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/c029bbbaefbf4350af15115396ba14e2.html?version=Cloud).
+There are several options to customize attribute mappings in SAP Cloud Identity Services, depending on whether identity federation is enabled or disabled. For more information about identity federation, see [Configure Identity Federation](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/c029bbbaefbf4350af15115396ba14e2.html?version=Cloud).
 
--   When identity federation is disabled, Identity Authentication always propagates all the attributes received from the corporate identity provider to all the applications, on a 1:1 basis. You have the following options:
+-   When identity federation is disabled, SAP Cloud Identity Services always propagates all the attributes received from the corporate identity provider to all the applications, on a 1:1 basis. You have the following options:
     -   Configure the corporate identity provider to directly send the attributes.
 
     -   If needed, use **enriched token claims** or **enriched assertion attributes** \(depending on whether the corporate identity provider is connected with SAML or OIDC\) to map the attributes sent by the corporate identity provider, to the attribute names needed by BTP.
@@ -30,39 +30,38 @@ There are several options to customize attribute mappings in Identity Authentica
         **[Enriched token claims](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/f19e580088e74aaa96087f1def8972cd.html?version=Cloud)** or **[enriched assertion attributes](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/7124201682434efb946e1046fde06afe.html?version=Cloud&q=Enriched%20assertion%20attributes)** add additional attributes, either based on the corporate identity provider attributes \(for example, by renaming them\) or on static values.
 
 
--   When identity federation is enabled, Identity Authentication doesn't automatically propagate any attributes from the corporate identity provider to the application. This option requires mappings in the Identity Authentication application, for each attribute that is needed by the application.
+-   When identity federation is enabled, SAP Cloud Identity Services doesn't automatically propagate any attributes from the corporate identity provider to the application. This option requires mappings in the SAP Cloud Identity Services application, for each attribute that is needed by the application.
 
-    Use the attributes in the Identity Authentication application representing SAP BTP.
+    Use the attributes in the SAP Cloud Identity Services application representing SAP BTP.
 
     > ### Note:  
     > You can add attribute sources or disable the default application attributes. You can also add self-defined attributes for mapping to role collections.
     > 
     > For example, you have so many groups being added to your token and you're running into size limits. You can disable the standard groups configuration and add a regular expression to include only those groups, which begin with BTP. So, to the *groups* attribute, you add a source of type `Expression` with the value `${companyGroups:regex[BTP.*]}`.
     > 
-    > To check which groups Identity Authentication actually sends, use the troubleshooting logs for OpenID Connect. For more information, see [Logging OpenID Connect Tokens](https://help.sap.com/docs/identity-authentication/identity-authentication/logging-openid-connect-tokens?version=Cloud) in the documentation for Identity Authentication.
+    > To check which groups SAP Cloud Identity Services actually sends, use the troubleshooting logs for OpenID Connect. For more information, see [Logging OpenID Connect Tokens](https://help.sap.com/docs/identity-authentication/identity-authentication/logging-openid-connect-tokens?version=Cloud) in the documentation for SAP Cloud Identity Services.
 
       
       
     **Default Configuration of Application Attributes for the Platform Identity Provider**
 
-    ![](images/default_attributes_platform_1fcf046.png "Default Configuration of Application Attributes for the Platform
-    								Identity Provider")
+    ![](images/default_attributes_platform_1fcf046.png "Default Configuration of Application Attributes for the Platform Identity Provider")
 
     If the corporate identity provider sends user attributes for email address, first and last name with other names than *mail*, *first\_name*, or *last\_name*, set the right attribute name by replacing those values.
 
     > ### Example:  
     > If your corporate identity provider sends users' last names as the `sn` attribute, add the corporate identity provider as source to the *last\_name* attribute with the value `sn`.
 
-    For more information, see [User Attributes](https://help.sap.com/docs/identity-authentication/identity-authentication/user-attributes?version=Cloud) in the documentation of Identity Authentication.
+    For more information, see [User Attributes](https://help.sap.com/docs/identity-authentication/identity-authentication/user-attributes?version=Cloud) in the documentation of SAP Cloud Identity Services.
 
 
 The following table provides the information needed for mapping the attributes.
 
 The subject name identifier attribute is used by SAP BTP to uniquely identify the user in Neo subaccounts. The e-mail address is used as the user identifier in the Cloud Foundry environment \(global account, directory, multi-environment subaccount\).
 
-For more information, see [Configure the Subject Name Identifier Sent to the Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/1d020e3a3ba34c43a71fde70bfa6419a.html) in the documentation of Identity Authentication.
+For more information, see [Configure the Subject Name Identifier Sent to the Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/1d020e3a3ba34c43a71fde70bfa6419a.html) in the documentation of SAP Cloud Identity Services.
 
-**Attribute Mapping in Identity Authentication Tokens**
+**Attribute Mapping in SAP Cloud Identity Services Tokens**
 
 
 <table>
@@ -105,7 +104,7 @@ E-mail address of the user.
 > ### Note:  
 > User identifier for all the account levels \(global account, directory, multi-environment subaccount\), and for the Cloud Foundry environment.
 
-The e-mail addresses of all the users in the Identity Authentication tenant must be unique.
+The e-mail addresses of all the users in the SAP Cloud Identity Services tenant must be unique.
 
 For more information, see the [prerequisites](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md#loioc36898473d704e07a33268c9f9d29515__prereq_avv_mp1_5tb) for establishing trust and federation of custom identity providers for platform users \[feature set B\].
 
@@ -152,9 +151,9 @@ Any groups the subject is assigned to in the identity provider.
 **Related Information**  
 
 
-[Establish Trust and Federation Between SAP Authorization and Trust Management Service and Identity Authentication](establish-trust-and-federation-between-sap-authorization-and-trust-management-service-a-161f8f0.md "Use your SAP Cloud Identity Services - Identity Authentication tenant as an identity provider or a proxy to your own identity provider hosting your business users. This method avoids the upload and download of SAML meta data by using Open ID Connect (OIDC) to establish trust.")
+[Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services](establish-trust-and-federation-between-sap-authorization-and-trust-management-service-a-161f8f0.md "Use your SAP Cloud Identity Services tenant as an identity provider or a proxy to your own identity provider hosting your business users. This method avoids the upload and download of SAML meta data by using Open ID Connect (OIDC) to establish trust.")
 
 [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-8600afb.md "By default, platform users in multi-environment subaccounts are users in SAP ID service. The use of your own identity provider requires integration between the user bases of multi-environment and Neo subaccounts.")
 
-[Map User Attributes from a Corporate Identity Provider for Business Users](map-user-attributes-from-a-corporate-identity-provider-for-business-users-bbb4a8a.md "When you enable trust with a tenant of SAP Cloud Identity Services - Identity Authentication, you get an OpenID Connect (OIDC) application in Identity Authentication to represent your subaccount, in the context of business users. When Identity Authentication authenticates users using a corporate identity provider, map the user attributes provided by the corporate identity provider to the attributes required by your applications.")
+[Map User Attributes from a Corporate Identity Provider for Business Users](map-user-attributes-from-a-corporate-identity-provider-for-business-users-bbb4a8a.md "When you enable trust with a tenant of SAP Cloud Identity Services, you get an OpenID Connect (OIDC) application in SAP Cloud Identity Services to represent your subaccount, in the context of business users. When SAP Cloud Identity Services authenticates users using a corporate identity provider, map the user attributes provided by the corporate identity provider to the attributes required by your applications.")
 

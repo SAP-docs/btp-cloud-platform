@@ -10,16 +10,16 @@ To log on to Cloud Foundry, using a custom identity provider, use the `--origin`
 
 The users exist:
 
--   Directly in your tenant of the SAP Cloud Identity Services - Identity Authentication.
+-   Directly in your tenant of the SAP Cloud Identity Services.
 
--   In a corporate identity provider with Identity Authentication working as a proxy.
+-   In a corporate identity provider with SAP Cloud Identity Services working as a proxy.
 
-    -   Trust to your Identity Authentication tenant must be configured with OIDC and not SAML.
+    -   Trust to your SAP Cloud Identity Services tenant must be configured with OIDC and not SAML.
 
     -   Your corporate identity provider must support the password grant flow.
 
 
-    For more information, see [Configure Trust with OpenID Connect Corporate Identity Provider](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/8ff83a12bbb8491c9558d635d6bbb287.html?version=Cloud) in the documentation for Identity Authentication.
+    For more information, see [Configure Trust with OpenID Connect Corporate Identity Provider](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/8ff83a12bbb8491c9558d635d6bbb287.html?version=Cloud) in the documentation for SAP Cloud Identity Services.
 
 
 

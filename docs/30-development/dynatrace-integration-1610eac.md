@@ -2,13 +2,15 @@
 
 # Dynatrace Integration
 
+Dynatrace OneAgent is a Java agent that sends all captured monitoring data to your Dynatrace monitoring environment for analysis.
+
 
 
 <a name="loio1610eac123c04d07babaf89c47d82c91__context_p1l_rrd_p2b"/>
 
 ## Context
 
-Dynatrace OneAgent is a Java agent that sends all captured monitoring data to your Dynatrace monitoring environment for analysis. Dynatrace supports full-stack monitoring for Cloud Foundry, from the application down to the infrastructure layer. See: [Cloud Foundry monitoring](https://www.dynatrace.com/support/help/how-to-use-dynatrace/infrastructure-monitoring/container-platform-monitoring/cloud-foundry-monitoring)
+Dynatrace supports full-stack monitoring for Cloud Foundry – from the application to the infrastructure layer. To integrate it with your Java application, follow the steps below.
 
 
 
@@ -16,11 +18,11 @@ Dynatrace OneAgent is a Java agent that sends all captured monitoring data to yo
 
 ## Procedure
 
-1.  Obtain an environment ID and an IP token. To do that, follow the steps described on page: [Deploy OneAgent on SAP BTP Cloud Foundry Runtime](https://www.dynatrace.com/support/help/setup-and-configuration/setup-on-container-platforms/cloud-foundry/deploy-oneagent-on-sap-cloud-platform-for-application-only-monitoring#deploy-oneagent-on-sap-btp-cloud-foundry-runtime)
+1.  Obtain an [environment ID](https://docs.dynatrace.com/docs/get-started/monitoring-environment#environment-id) and an [IP access token](https://docs.dynatrace.com/docs/manage/access-control/access-tokens#create-api-token).
 
 2.  Create a user-provided service.
 
-    The service name should contain the string "dynatrace" \(for example, **dynatraceservice**\). The `environmentid` and `apitoken` parameters have been generated in the previous step. You also need to set up the API URL, which depends on the Dynatrace type you want to integrate:
+    The service name should contain the string "dynatrace" \(for example, **dynatraceservice**\). The `environmentid` and `apitoken` parameters have been generated in the previous step. You also need to set up the `apiurl`, which depends on the Dynatrace type you want to integrate.
 
     -   **SaaS Dynatrace**
 
@@ -35,7 +37,7 @@ Dynatrace OneAgent is a Java agent that sends all captured monitoring data to yo
         ```
 
 
-    Then, in cf CLI, execute:
+    Then, in cf CLI, run the following command:
 
     ```
     cf cups dynatraceservice -p "environmentid, apitoken, apiurl"
@@ -62,7 +64,9 @@ Dynatrace OneAgent is a Java agent that sends all captured monitoring data to yo
     >   - dynatraceservice
     > ```
 
-4.  Deploy the application to Cloud Foundry with the updated *manifest.yml* file. Execute:
+    **NOTE:** If there are more than one Dynatrace services bound to the application, the service that's going to be used is the one that was chronologically bound first.
+
+4.  Deploy the application to Cloud Foundry with the updated *manifest.yml* file. Run:
 
     ```
     cf push myapp
@@ -70,4 +74,11 @@ Dynatrace OneAgent is a Java agent that sends all captured monitoring data to yo
 
     Once the application receives web traffic, monitoring data will show up in Dynatrace.
 
+
+**Related Information**  
+
+
+[Dynatrace Docs: Access tokens API](https://docs.dynatrace.com/docs/dynatrace-api/environment-api/tokens-v2/api-tokens/get-all)
+
+[Dynatrace Docs: Cloud Foundry Monitoring](https://docs.dynatrace.com/docs/platform-modules/infrastructure-monitoring/container-platform-monitoring/cloud-foundry-monitoring)
 

@@ -3520,6 +3520,236 @@ Manage transports of development artifacts and application-specific content.
 <tr>
 <td valign="top">
 
+[SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Develop, debug, test, and deploy SAP business applications.
+
+</td>
+<td valign="top">
+
+-   CA-BAS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US East \(VA\)
+-   Australia \(Sydney\)
+-   Canada \(Montreal\)
+-   Japan \(Tokyo\)
+-   Brazil \(São Paulo\)
+-   Singapore
+-   Europe \(Frankfurt\) EU Access
+-   South Korea \(Seoul\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Develop, debug, test, and deploy SAP business applications.
+
+</td>
+<td valign="top">
+
+-   CA-BAS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
+-   US West \(WA\)
+-   US East \(VA\)
+-   Japan \(Tokyo\)
+-   Singapore
+-   Switzerland \(Zurich\) EU Access
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Develop, debug, test, and deploy SAP business applications.
+
+</td>
+<td valign="top">
+
+-   CA-BAS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   US Central \(IA\)
+-   India \(Mumbai\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Develop, debug, test, and deploy SAP business applications.
+
+</td>
+<td valign="top">
+
+-   CA-BAS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Alibaba
+
+
+
+</td>
+<td valign="top">
+
+-   China \(Shanghai\)\*\*
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [Service Ticket Intelligence](https://help.sap.com/stint) 
 
 </td>
@@ -3955,6 +4185,114 @@ Generate print and interactive forms using Adobe Document Services.
 -   KSA \(Riyadh\)
 -   Europe \(Frankfurt\)
 -   US West \(Colorado Springs\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP Intelligent Product Design](https://help.sap.com/viewer/p/PLM_CP) 
+
+</td>
+<td valign="top">
+
+Generate, analyze and validate product requirements using intelligent tools.
+
+</td>
+<td valign="top">
+
+-   PLM-DC
+
+
+
+</td>
+<td valign="top">
+
+-   Neo
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+-   Europe \(Frankfurt\)
+
+
+
+</td>
+<td valign="top">
+
+-   
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP Intelligent Product Design](https://help.sap.com/viewer/p/PLM_CP) 
+
+</td>
+<td valign="top">
+
+Generate, analyze and validate product requirements using intelligent tools.
+
+</td>
+<td valign="top">
+
+-   PLM-DC
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
 
 
 
@@ -11042,236 +11380,6 @@ Monitor Java, SAP HANA XS and HTML5 applications, and databases.
 <tr>
 <td valign="top">
 
-[SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Develop, debug, test, and deploy SAP business applications.
-
-</td>
-<td valign="top">
-
--   CA-BAS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   US East \(VA\)
--   Australia \(Sydney\)
--   Canada \(Montreal\)
--   Japan \(Tokyo\)
--   Brazil \(São Paulo\)
--   Singapore
--   Europe \(Frankfurt\) EU Access
--   South Korea \(Seoul\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Develop, debug, test, and deploy SAP business applications.
-
-</td>
-<td valign="top">
-
--   CA-BAS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Netherlands\)
--   US West \(WA\)
--   US East \(VA\)
--   Japan \(Tokyo\)
--   Singapore
--   Switzerland \(Zurich\) EU Access
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Develop, debug, test, and deploy SAP business applications.
-
-</td>
-<td valign="top">
-
--   CA-BAS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   GCP
-
-
-
-</td>
-<td valign="top">
-
--   US Central \(IA\)
--   India \(Mumbai\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Develop, debug, test, and deploy SAP business applications.
-
-</td>
-<td valign="top">
-
--   CA-BAS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Alibaba
-
-
-
-</td>
-<td valign="top">
-
--   China \(Shanghai\)\*\*
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 [Continuous Integration and Delivery](https://help.sap.com/docs/CONTINUOUS_DELIVERY?version=Cloud) 
 
 </td>
@@ -12413,114 +12521,6 @@ Develop and run containerized applications and extensions on Kubernetes.
 -   Canada \(Montreal\)
 -   Singapore
 -   South Korea \(Seoul\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Intelligent Product Design](https://help.sap.com/viewer/p/PLM_CP) 
-
-</td>
-<td valign="top">
-
-Accelerate product innovation with instant collaboration and live product intelligence.
-
-</td>
-<td valign="top">
-
--   PLM-DC
-
-
-
-</td>
-<td valign="top">
-
--   Neo
-
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Rot\)\*
--   Europe \(Frankfurt\)
-
-
-
-</td>
-<td valign="top">
-
--   
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Intelligent Product Design](https://help.sap.com/viewer/p/PLM_CP) 
-
-</td>
-<td valign="top">
-
-Accelerate product innovation with instant collaboration and live product intelligence.
-
-</td>
-<td valign="top">
-
--   PLM-DC
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
 
 
 

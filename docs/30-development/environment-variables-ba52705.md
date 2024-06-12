@@ -308,18 +308,6 @@ Enables the application router to send the entire chain of certificates provided
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-OWN\_SAP\_CLOUD\_SERVICE
-
-</td>
-<td valign="top">
-
-An array that contains the business solutions \("SAP cloud services"\) that your HTML5 applications are associated with as values. This configuration enables the standalone application router to use the same standardized format for runtime URLs \(`/<sap.cloud.service>.<appId>-<versionId>/`\) that is also used by the managed application router. If a runtime URL contains one of the defined values in the `<sap.cloud.service>` section, the application router will recognize the value during the processing of a request.
-
-</td>
-</tr>
 </table>
 
 

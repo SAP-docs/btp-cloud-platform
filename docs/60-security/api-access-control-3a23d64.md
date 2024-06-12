@@ -12,7 +12,7 @@ The following diagram shows the architecture with the components that are respon
 
 The User Account and Authentication \(UAA\) component is the central infrastructure component of the runtime platform for authentication and authorization management. The users can be stored in the following identity providers:
 
--   Identity Authentication
+-   SAP Cloud Identity Services
 
 -   Any identity provider
 

@@ -14,7 +14,7 @@ How you assign users to their authorizations depends on the type of trust config
 > ### Note:  
 > If you’re using the default trust configuration with the default identity provider, you directly assign users to role collections. For more information, see [Default Identity Provider](default-identity-provider-d6a8db7.md).
 > 
-> However, if you’re using a custom trust configuration, for example, with SAP Cloud Identity Services - Identity Authentication, you can use both options. For more information about configuring the trust between your subaccount and a custom identity provider, see [Establish Trust and Federation Between SAP Authorization and Trust Management Service and Identity Authentication](establish-trust-and-federation-between-sap-authorization-and-trust-management-service-a-161f8f0.md).
+> However, if you’re using a custom trust configuration, for example, with SAP Cloud Identity Services, you can use both options. For more information about configuring the trust between your subaccount and a custom identity provider, see [Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services](establish-trust-and-federation-between-sap-authorization-and-trust-management-service-a-161f8f0.md).
 
 **Options for Assignment of Role Collections**
 
@@ -47,7 +47,7 @@ Default trust configuration \(SAP ID service\)
 <tr>
 <td valign="top">
 
-Custom trust configuration \(for example: a tenant of the Identity Authentication service\)
+Custom trust configuration \(for example: a tenant of SAP Cloud Identity Services\)
 
 </td>
 <td valign="top">

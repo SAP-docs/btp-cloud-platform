@@ -1,8 +1,8 @@
 <!-- loio7c6aa87459764b179aeccadccd4f91f3 -->
 
-# Manually Establish Trust and Federation Between SAP Authorization and Trust Management Service and Identity Authentication
+# Manually Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services
 
-Use your SAP Cloud Identity Services - Identity Authentication tenant as an identity provider or a proxy to your own identity provider hosting your business users. Exchange SAML metadata to establish trust with the Identity Authentication tenant and then register your subaccount with the tenant. To complete federation, maintain the federation attributes of the user groups.
+Use your SAP Cloud Identity Services tenant as an identity provider or a proxy to your own identity provider hosting your business users. Exchange SAML metadata to establish trust with the SAP Cloud Identity Services tenant and then register your subaccount with the tenant. To complete federation, maintain the federation attributes of the user groups.
 
 
 
@@ -13,7 +13,7 @@ Use your SAP Cloud Identity Services - Identity Authentication tenant as an iden
 > ### Note:  
 > Instead of manually exchanging SAML metadata, we recommend that you use the automatic method based on the OpenID Connect \(OIDC\) protocol.
 > 
-> For more information, see [Establish Trust and Federation Between SAP Authorization and Trust Management Service and Identity Authentication](establish-trust-and-federation-between-sap-authorization-and-trust-management-service-a-161f8f0.md).
+> For more information, see [Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services](establish-trust-and-federation-between-sap-authorization-and-trust-management-service-a-161f8f0.md).
 
 <a name="loioaedb8eed952b41c4b87c50b92bf651e4"/>
 
@@ -21,7 +21,7 @@ Use your SAP Cloud Identity Services - Identity Authentication tenant as an iden
 
 ## Establish Trust with an SAML 2.0 Identity Provider in a Subaccount
 
-You want to use an SAML 2.0 identity provider, for example, SAP Cloud Identity Services - Identity Authentication. The identity provider authenticates business users for SAP BTP.
+You want to use an SAML 2.0 identity provider, for example, SAP Cloud Identity Services. The identity provider authenticates business users for SAP BTP.
 
 
 
@@ -31,22 +31,22 @@ You want to use an SAML 2.0 identity provider, for example, SAP Cloud Identity S
 
 -   You have subaccount administrator permissionsor you are a security administrator \(cloud management tools feature set A\) of this account. For more information, see the related link.
 
--   You have downloaded the SAML 2.0 metadata file from the Identity Authentication tenant using the URL <code>https://<i class="varname">&lt;Identity_Authentication_tenant&gt;</i>.accounts.ondemand.com/saml2/metadata</code>.
+-   You have downloaded the SAML 2.0 metadata file from the SAP Cloud Identity Services tenant using the URL <code>https://<i class="varname">&lt;sap_cloud_identity_services_tenant&gt;</i>.accounts.ondemand.com/saml2/metadata</code>.
 
     > ### Example:  
     > `https://my-ias-tenant.accounts.ondemand.com/saml2/metadata`
 
-    For more information, see [Tenant SAML 2.0 Configuration in the SAP Cloud Identity Services - Identity Authentication](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/e81a19b0067f4646982d7200a8dab3ca.html).
+    For more information, see [Tenant SAML 2.0 Configuration in the SAP Cloud Identity Services](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/e81a19b0067f4646982d7200a8dab3ca.html).
 
 
 
 
 ## Context
 
-The following procedure describes how to establish trust with an SAP Cloud Identity Services - Identity Authentication tenant.
+The following procedure describes how to establish trust with an SAP Cloud Identity Services tenant.
 
 > ### Restriction:  
-> You've already created a trust configuration with a custom identity provider for applications. In this case, you can't add a trust configuration with the same Identity Authentication tenant using another protocol.
+> You've already created a trust configuration with a custom identity provider for applications. In this case, you can't add a trust configuration with the same SAP Cloud Identity Services tenant using another protocol.
 > 
 > > ### Example:  
 > > If there's already a trust configuration with Open ID Connect, you can't create one using the SAML protocol.
@@ -71,9 +71,9 @@ The following procedure describes how to establish trust with an SAP Cloud Ident
 
 5.  Choose the *Upload* button to insert the SAML 2.0 metadata.
 
-6.  To validate the metadata, choose *Parse*. The system fills the *Subject* and *Issuer* fields with the relevant data from the Identity Authentication - your SAML 2.0 identity provider. You see the fields when you choose *Show Details*.
+6.  To validate the metadata, choose *Parse*. The system fills the *Subject* and *Issuer* fields with the relevant data from the SAP Cloud Identity Services - your SAML 2.0 identity provider. You see the fields when you choose *Show Details*.
 
-    The name of the new trust configuration now shows the value <code><i class="varname">&lt;Identity_Authentication_tenant&gt;</i>.accounts.ondemand.com</code>. It represents the custom identity provider Identity Authentication.
+    The name of the new trust configuration now shows the value <code><i class="varname">&lt;sap_cloud_identity_services_tenant&gt;</i>.accounts.ondemand.com</code>. It represents the custom identity provider SAP Cloud Identity Services.
 
     This action also fills the fields for the single sign-on URLs and the single logout URLs.
 
@@ -105,13 +105,13 @@ Register your SAP BTP subaccount in the SAML 2.0 Identity Provider
 
 ## Register SAP BTP Subaccount in the SAML 2.0 Identity Provider
 
-An SAML service provider interacts with an SAML 2.0 identity provider to authenticate users signing in by means of a single sign-on \(SSO\) mechanism. In this scenario, the SAP Authorization and Trust Management service \(XSUAA\) acts as a service provider representing a single subaccount. To establish trust between an identity provider and a subaccount, you must register your subaccount by providing the SAML metadata to the identity provider. The identity provider is SAP Cloud Identity Services - Identity Authentication.
+An SAML service provider interacts with an SAML 2.0 identity provider to authenticate users signing in by means of a single sign-on \(SSO\) mechanism. In this scenario, the SAP Authorization and Trust Management service \(XSUAA\) acts as a service provider representing a single subaccount. To establish trust between an identity provider and a subaccount, you must register your subaccount by providing the SAML metadata to the identity provider. The identity provider is SAP Cloud Identity Services.
 
 
 
 ## Context
 
-Administrators must configure trust on both sides, in the service provider and in the identity provider. This description covers the side of the identity provider \(Identity Authentication\). The trust configuration on the side of the Identity Authentication must contain the following items:
+Administrators must configure trust on both sides, in the service provider and in the identity provider. This description covers the side of the identity provider \(SAP Cloud Identity Services\). The trust configuration on the side of the SAP Cloud Identity Services must contain the following items:
 
 -   Metadata for web-based authentication or the relevant configuration information
 
@@ -120,9 +120,9 @@ Administrators must configure trust on both sides, in the service provider and i
 -   Use e-mail as the unique name ID attribute, and map the user attribute `Groups` to the assertion attribute `Groups` \(case-sensitive\). This assertion attribute is required for the assignment of roles.
 
 
-We illustrate the process of configuring trust in the service provider by describing how administrators use the administration console of Identity Authentication to register the subaccount.
+We illustrate the process of configuring trust in the service provider by describing how administrators use the administration console of SAP Cloud Identity Services to register the subaccount.
 
-To establish trust from a tenant of Identity Authentication to a subaccount, assign a metadata file and define attribute details. The SAML 2.0 assertion includes these attributes. With the SAP Authorization and Trust Management service as SAML 2.0 service provider, they're used for automatic assignment of SAP Authorization and Trust Management service authorizations based on information maintained in the identity provider.
+To establish trust from a tenant of SAP Cloud Identity Services to a subaccount, assign a metadata file and define attribute details. The SAML 2.0 assertion includes these attributes. With the SAP Authorization and Trust Management service as SAML 2.0 service provider, they're used for automatic assignment of SAP Authorization and Trust Management service authorizations based on information maintained in the identity provider.
 
 
 
@@ -130,9 +130,9 @@ To establish trust from a tenant of Identity Authentication to a subaccount, ass
 
 ## Procedure
 
-1.  Open the administration console of Identity Authentication.
+1.  Open the administration console of SAP Cloud Identity Services.
 
-    <code>https://<i class="varname">&lt;Identity_Authentication_tenant&gt;</i>.accounts.ondemand.com/admin</code>
+    <code>https://<i class="varname">&lt;sap_cloud_identity_services_tenant&gt;</i>.accounts.ondemand.com/admin</code>
 
 2.  Choose *Applications & Resources* \> *Applications* in the menu or the *Applications* tile.
 

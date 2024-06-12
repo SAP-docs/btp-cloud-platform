@@ -39,7 +39,7 @@ To configure the trusted domains, use one of the following methods:
 > 
 > To use iFrames with other applications of the subaccount, which support this feature, configure the domains used by these applications.
 > 
-> To configure iFrames for SAP Cloud Identity Services - Identity Authentication, see [Configure Trusted Domains](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/08fa1fe816704d99a6bcab245158ebca.html) in the Identity Authentication documentation.
+> To configure iFrames for SAP Cloud Identity Services, see [Configure Trusted Domains](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/08fa1fe816704d99a6bcab245158ebca.html) in the documentation of SAP Cloud Identity Services.
 
 When configured, the SAP Authorization and Trust Management service sends a content security policy header allowing framing of the application for the domains you specified.
 

@@ -41,7 +41,7 @@ SAP JCo is only available for the Tomcat-based application containers that are i
 **Related Information**  
 
 
-[Invoking ABAP Function Modules via RFC](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/fa4adc9bd40e45dbac573fd616695446.html "Call a remote-enabled function module in an on-premise or cloud ABAP server from your Cloud Foundry application, using the RFC protocol.") :arrow_upper_right:
+[Invoking ABAP Function Modules via RFC](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/fa4adc9bd40e45dbac573fd616695446.html "Call a remote-enabled function module in an on-premise or cloud ABAP server from your application, using the RFC protocol.") :arrow_upper_right:
 
-[Invoke ABAP Function Modules in On-Premise ABAP Systems](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/bfcb54ca058f4b1dafd26e438ff1e2f4.html "Call a function module in an on-premise ABAP system via RFC, using a sample Web application (Cloud Foundry environment).") :arrow_upper_right:
+[Invoke ABAP Function Modules in On-Premise ABAP Systems](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/bfcb54ca058f4b1dafd26e438ff1e2f4.html "Call a function module in an on-premise ABAP system via RFC, using a sample Web application.") :arrow_upper_right:
 

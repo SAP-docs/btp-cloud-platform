@@ -40,6 +40,32 @@ SAP Java Buildpack 2
 <tr>
 <td valign="top">
 
+`(29 May 2024)`
+
+**Version 1.53.0**
+
+-   A new *findServices* functionality is introduced. It provides a list with Cloud Foundry services that match certain required conditions.
+
+
+
+
+</td>
+<td valign="top">
+
+`(29 May 2024)`
+
+**Version 2.6.0**
+
+-   A new *findServices* functionality is introduced. It provides a list with Cloud Foundry services that match certain required conditions.
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `(14 May 2024)`
 
 **Version 1.52.0**
@@ -304,6 +330,32 @@ SAP Java Buildpack 1
 SAP Java Buildpack 2
 
 </th>
+</tr>
+<tr>
+<td valign="top">
+
+`(29 May 2024)`
+
+**Version 1.53.0**
+
+-   *com.sap.cloud.sjb.xs-env.version* is updated from 1.52.0 to 1.53.0
+
+
+
+
+</td>
+<td valign="top">
+
+`(29 May 2024)`
+
+**Version 2.7.0**
+
+-   *com.sap.cloud.sjb.xs-env.version* is updated from 2.5.0 to 2.6.0
+
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">

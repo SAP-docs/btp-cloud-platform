@@ -21,26 +21,8 @@ To use the app, you need the following:
 
 To get the key information, including all the technical data you need for the installation and configuration, go to the [SAP Fiori apps reference library](https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/).
 
+**Related Information**  
 
 
-<a name="loio3f4fc648f164483c8c97b742a9fe299e__section_eb1_ljs_ctb"/>
-
-## Exposure Log Level
-
-In your communication arrangement, you can define which log messages should be displayed. This can be useful if, for example, you want to only see the log messages from entities that couldn't be exposed.
-
-This setting considers the overall exposure status of an entity. This means that if you, for example, select **2 - Show entities with errors and warnings**, messages from successfully exposed entities will not be stored in the log. This is the default value to prevent your log file from growing too big. If you increase the log level, logs for successfully exposed entities or even requests to the API will be logged.
-
-In the *Exposure Log Level* field, you have the following options:
-
--   1 - Show entities with errors
-
--   2 - Show entities with errors and warnings \(default\)
-
--   3 - Show entities with errors, warnings and success messages
-
--   9 - Show all entities including API calls
-
-
-See [Create Communication Arrangement](https://help.sap.com/viewer/10fd1742ea914256abedb34bf15bd069/Cloud/en-US/4efaa144b2864db3b49db54242581620.html "You create a communication arrangement to enable the communication between your system and SAP BTP.") :arrow_upper_right:.
+[Create Communication Arrangement](https://help.sap.com/viewer/10fd1742ea914256abedb34bf15bd069/Cloud/en-US/4efaa144b2864db3b49db54242581620.html "You create a communication arrangement to enable the communication between your system and SAP BTP.") :arrow_upper_right:
 

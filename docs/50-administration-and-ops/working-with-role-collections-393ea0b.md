@@ -29,7 +29,7 @@ Finally, you assign the role collection directly to users or indirectly to attri
 
     -   Default identity provider \(`SAP ID service`\). For more information, see [Default Identity Provider](default-identity-provider-d6a8db7.md).
 
-    -   Custom identity provider. For more information, see [User Management](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/228428f9f476449cafd841a68d75b234.html) in SAP Cloud Identity Services - Identity Authentication.
+    -   Custom identity provider. For more information, see [User Management](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/228428f9f476449cafd841a68d75b234.html) in SAP Cloud Identity Services.
 
 
 

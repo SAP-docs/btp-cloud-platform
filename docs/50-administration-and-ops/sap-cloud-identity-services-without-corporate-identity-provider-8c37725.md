@@ -1,14 +1,14 @@
 <!-- loio8c37725a2b964d87987c385d125c5bdd -->
 
-# Identity Authentication Without Corporate Identity Provider
+# SAP Cloud Identity Services Without Corporate Identity Provider
 
-You've only changed the protocol of the trust configuration between your SAP Business Technology Platform subaccount and Identity Authentication.
+You've only changed the protocol of the trust configuration between your SAP Business Technology Platform subaccount and SAP Cloud Identity Services.
 
-Copy the following configurations from the old SAML-based Identity Authentication application to your new OIDC-based Identity Authentication application:
+Copy the following configurations from the old SAML-based SAP Cloud Identity Services application to your new OIDC-based SAP Cloud Identity Services application:
 
 -   Subject name identifier
 
-    See [Configure the Subject Name Identifier Sent to the Application](http://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/1d020e3a3ba34c43a71fde70bfa6419a.html) in the documentation of Identity Authentication.
+    See [Configure the Subject Name Identifier Sent to the Application](http://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/1d020e3a3ba34c43a71fde70bfa6419a.html) in the documentation of SAP Cloud Identity Services.
 
 -   Attributes
 
@@ -72,7 +72,7 @@ Copy the following configurations from the old SAML-based Identity Authenticatio
 **Related Information**  
 
 
-[Configuration of Identity Authentication After Migration from SAML to OIDC](configuration-of-identity-authentication-after-migration-from-saml-to-oidc-1fa7273.md "You replaced an SAML trust configuration to your custom identity provider with an OIDC trust configuration to Identity Authentication. Now, you need to make sure that the subaccount gets the same user attributes (names and values) as before.")
+[Configuration of SAP Cloud Identity Services After Migration from SAML to OIDC](configuration-of-sap-cloud-identity-services-after-migration-from-saml-to-oidc-1fa7273.md "You replaced an SAML trust configuration to your custom identity provider with an OIDC trust configuration to SAP Cloud Identity Services. Now, you need to make sure that the subaccount gets the same user attributes (names and values) as before.")
 
 [Test the Trust Configuration After the Migration](test-the-trust-configuration-after-the-migration-edc7c42.md "Check that your users can still access their applications and have all the attributes they require. Use these steps to validate your new configuration.")
 

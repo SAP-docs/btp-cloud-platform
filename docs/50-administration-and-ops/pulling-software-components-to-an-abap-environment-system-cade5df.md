@@ -24,14 +24,14 @@ You can use the communication scenario SAP\_COM\_0948 to pull software component
     > ### Sample Code:  
     > ```
     > Request
-    > GET /sap/opu/odata4/sap/a4c_mswc_api/srvd_a2x/sap/manage_software_components/0001 HTTP/1.1
-    > Accept: application/json
-    > X-Csrf-Token: fetch
-    > Host: host.sap
+    > 	GET /sap/opu/odata4/sap/a4c_mswc_api/srvd_a2x/sap/manage_software_components/0001 HTTP/1.1
+    > 	Accept: application/json
+    > 	X-Csrf-Token: fetch
+    > 	Host: host.sap
     > 
     > Response
-    > HTTP/1.1 200 OK
-    > X-csrf-token: xCsrfToken
+    > 	HTTP/1.1 200 OK
+    > 	X-csrf-token: xCsrfToken
     > ```
 
 2.  *Pull a Software Component*
@@ -48,33 +48,33 @@ You can use the communication scenario SAP\_COM\_0948 to pull software component
     >     Content-Length: 39
     > 
     >     {
-    >     "commit_id": "",
-    >     "tag_name": ""
+    >     	"commit_id": "",
+    >     	"tag_name": ""
     >     }
     > 
     > Response
     >  HTTP/1.1 200 OK
     >  Content-Type: application/json
     >     {
-    >     "@odata.context": "../$metadata#Actions/$entity",
-    >     "@odata.metadataEtag": "W/\"20240111143934\"",
-    >     "uuid": "763eca2a-340b-1eee-ad8e-c864d7a77c38",
-    >     "sc_name": "/DMO/COMPONENT",
-    >     "import_type": "Pull",
-    >     "branch_name": "master",
-    >     "namespace": "",
-    >     "status": "Q",
-    >     "status_descr": "Scheduled",
-    >     "criticality": 0,
-    >     "user_name": "WebAPI - CC0000000009",
-    >     "commit_id": "",
-    >     "tag_name": "",
-    >     "relative_date_change_time": "",
-    >     "change_time": "2024-01-16T13:50:54Z",
-    >     "start_time": "2024-01-16T13:50:54Z",
-    >     "execution_mode": "",
-    >     "import_mode": "",
-    >     "SAP__Messages": []
+    >     	"@odata.context": "../$metadata#Actions/$entity",
+    >     	"@odata.metadataEtag": "W/\"20240111143934\"",
+    >     	"uuid": "763eca2a-340b-1eee-ad8e-c864d7a77c38",
+    >     	"sc_name": "/DMO/COMPONENT",
+    >     	"import_type": "Pull",
+    >     	"branch_name": "master",
+    >     	"namespace": "",
+    >     	"status": "Q",
+    >     	"status_descr": "Scheduled",
+    >     	"criticality": 0,
+    >     	"user_name": "WebAPI - CC0000000009",
+    >     	"commit_id": "",
+    >     	"tag_name": "",
+    >     	"relative_date_change_time": "",
+    >     	"change_time": "2024-01-16T13:50:54Z",
+    >     	"start_time": "2024-01-16T13:50:54Z",
+    >     	"execution_mode": "",
+    >     	"import_mode": "",
+    >     	"SAP__Messages": []
     >     }
     > 
     > ```

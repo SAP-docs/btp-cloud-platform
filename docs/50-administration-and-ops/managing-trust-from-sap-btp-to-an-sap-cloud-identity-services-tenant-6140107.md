@@ -1,11 +1,11 @@
 <!-- loio6140107ac5da428a930cfefd73468628 -->
 
-# Managing Trust from SAP BTP to an Identity Authentication Tenant
+# Managing Trust from SAP BTP to an SAP Cloud Identity Services Tenant
 
 SAP BTP supports identity federation. Its concept is to reuse the user bases of identity providers. To use a custom identity provider, your global account or subaccount in SAP BTP must have a trust relationship to the identity provider you want to use.
 
 > ### Note:  
-> We recommend that you always use SAP Cloud Identity Services - Identity Authentication as a single identity provider for SAP BTP. If you use corporate identity providers, connect them to your Identity Authentication tenant, which then acts as a hub.
+> We recommend that you always use SAP Cloud Identity Services as a single identity provider for SAP BTP. If you use corporate identity providers, connect them to your SAP Cloud Identity Services tenant, which then acts as a hub.
 
 
 
@@ -13,19 +13,19 @@ SAP BTP supports identity federation. Its concept is to reuse the user bases of 
 
 ## Prerequisites
 
--   You have a tenant of SAP Cloud Identity Services - Identity Authentication.
+-   You have a tenant of SAP Cloud Identity Services.
 
-    For more information, see [Tenant Model and Licensing](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html?version=Cloud) in the documentation for Identity Authentication.
+    For more information, see [Tenant Model and Licensing](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html?version=Cloud) in the documentation for SAP Cloud Identity Services.
 
--   The Identity Authentication tenant is associated with the customer IDs of the relevant global account of SAP BTP.
+-   The SAP Cloud Identity Services tenant is associated with the customer IDs of the relevant global account of SAP BTP.
 
-    For more information, see [**Reuse SAP Cloud Identity Services Tenants for Different Customer IDs**](https://help.sap.com/docs/identity-authentication/identity-authentication/reuse-sap-cloud-identity-services-tenants-for-different-customer-ids) in the documentation for Identity Authentication.
+    For more information, see [**Reuse SAP Cloud Identity Services Tenants for Different Customer IDs**](https://help.sap.com/docs/identity-authentication/identity-authentication/reuse-sap-cloud-identity-services-tenants-for-different-customer-ids) in the documentation for SAP Cloud Identity Services.
 
 -   Make sure that the email addresses of all users in your identity provider are unique and correct.
 
 
 > ### Note:  
-> We recommend that you request your own Identity Authentication tenant \(see [Getting a Tenant](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html#getting-a-tenant)\).
+> We recommend that you request your own SAP Cloud Identity Services tenant \(see [Getting a Tenant](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html#getting-a-tenant)\).
 
 
 
@@ -100,7 +100,7 @@ Get details about a trust configuration
 <tr>
 <td valign="top">
 
-Establish trust from a global account or subaccount to an Identity Authentication tenant to which you can connect this global account or subaccount
+Establish trust from a global account or subaccount to an SAP Cloud Identity Services tenant to which you can connect this global account or subaccount
 
 </td>
 <td valign="top">
@@ -168,7 +168,7 @@ Migrate from SAML trust to OpenID Connect trust
 <tr>
 <td valign="top">
 
-Roll back the migration of an existing SAML trust with any identity provider to OpenID Connect trust with an Identity Authentication tenant
+Roll back the migration of an existing SAML trust with any identity provider to OpenID Connect trust with an SAP Cloud Identity Services tenant
 
 </td>
 <td valign="top">
@@ -188,7 +188,7 @@ Roll back the migration of an existing SAML trust with any identity provider to 
 
 <a name="loio6140107ac5da428a930cfefd73468628__section_vmj_cjj_rhb"/>
 
-## Finding Available Identity Authentication Tenants
+## Finding Available SAP Cloud Identity Services Tenants
 
 
 <table>
@@ -212,7 +212,7 @@ Command help
 <tr>
 <td valign="top">
 
-List all Identity Authentication
+List all SAP Cloud Identity Services
 
 </td>
 <td valign="top">
@@ -229,7 +229,7 @@ List all Identity Authentication
 <tr>
 <td valign="top">
 
-Get details about an Identity Authentication tenant that is available for a global account or a subaccount
+Get details about an SAP Cloud Identity Services tenant that is available for a global account or a subaccount
 
 </td>
 <td valign="top">

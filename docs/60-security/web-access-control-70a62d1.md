@@ -12,7 +12,7 @@ The User Account and Authentication \(UAA\) component provides a programming mod
 
 -   SAP ID service
 
--   SAP Cloud Identity Services - Identity Authentication
+-   SAP Cloud Identity Services
 
 -   Any SAML 2.0 identity provider
 

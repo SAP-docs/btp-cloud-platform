@@ -489,6 +489,52 @@ Other attributes:
 <tr>
 <td valign="top">
 
+Emergency administrator assignment
+
+</td>
+<td valign="top">
+
+Assign global account or subaccount administrator in case of an emergency
+
+> ### Example:  
+> -   Assignment of a subaccount administrator by a global account administrator
+
+
+
+</td>
+<td valign="top">
+
+`"crudType":"CREATE","type":"Global Account Administrator assignment"`
+
+or
+
+`"crudType":"CREATE","type":"Subaccount Administrator assignment"`
+
+audit.security-events
+
+</td>
+<td valign="top">
+
+The user who assigned the permission is identified by the user name and by the origin key \(such as `sap.default` for the default identity provider\).
+
+Further information included in the log:
+
+-   Initiating user name
+
+-   Initiating user origin
+
+-   New administrator's user name
+
+-   New administrator's origin
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Token Embedding
 
 </td>
@@ -506,9 +552,9 @@ audit.security-events
 </td>
 <td valign="top">
 
-Occurs when an error occurs when attempting to exchange a token for a token with an embedded token from Identity Authentication or a corporate identity provider. Check the configuration of the application.
+Occurs when an error occurs when attempting to exchange a token for a token with an embedded token from SAP Cloud Identity Services or a corporate identity provider. Check the configuration of the application.
 
-For more information, see [Include Tokens from Corporate Identity Providers or Identity Authentication in Tokens of the SAP Authorization and Trust Management Service](../30-development/include-tokens-from-corporate-identity-providers-or-identity-authentication-in-tokens-of-8dc480a.md).
+For more information, see [Include Tokens from Corporate Identity Providers or SAP Cloud Identity Services in Tokens of the SAP Authorization and Trust Management Service](../30-development/include-tokens-from-corporate-identity-providers-or-sap-cloud-identity-services-in-tokens-8dc480a.md).
 
 </td>
 </tr>

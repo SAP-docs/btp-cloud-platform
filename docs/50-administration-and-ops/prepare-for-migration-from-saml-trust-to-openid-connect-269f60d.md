@@ -2,7 +2,7 @@
 
 # Prepare for Migration from SAML Trust to OpenID Connect
 
-Before migrating your trust configuration, check which user data are sent today, so you can validate the new configuration after the migration. If you use a corporate identity provider, prepare the trust between your Identity Authentication tenant and your corporate identity provider ahead of time.
+Before migrating your trust configuration, check which user data are sent today, so you can validate the new configuration after the migration. If you use a corporate identity provider, prepare the trust between your SAP Cloud Identity Services tenant and your corporate identity provider ahead of time.
 
 
 
@@ -27,19 +27,18 @@ Before migrating your trust configuration, check which user data are sent today,
     > 
     > For an example, see [Test the Trust Configuration After the Migration](test-the-trust-configuration-after-the-migration-edc7c42.md).
 
-2.  Determine if you need to establish trust between your corporate identity provider and your Identity Authentication tenant.
+2.  Determine if you need to establish trust between your corporate identity provider and your SAP Cloud Identity Services tenant.
 
-    If you previously had configured your subaccount trust to your corporate identity provider directly, configure your Identity Authentication tenant to trust your corporate identity provider.
+    If you previously had configured your subaccount trust to your corporate identity provider directly, configure your SAP Cloud Identity Services tenant to trust your corporate identity provider.
 
       
       
-    **Insertion of Identity Authentication in Trust Chain of Identity Providers**
+    **Insertion of SAP Cloud Identity Services in Trust Chain of Identity Providers**
 
-    ![](images/Injection_of_IAS_Between_Corp_IDP_db96a95.png "Insertion of Identity
-                                    Authentication in Trust Chain of Identity
+    ![](images/Injection_of_IAS_Between_Corp_IDP_db96a95.png "Insertion of SAP Cloud Identity Services in Trust Chain of Identity
     							Providers")
 
-    In the preceding figure, we're configuring the SAML or OIDC trust between the Identity Authentication tenant and the corporate identity provider. Configure the corporate identity provider to send the same value for subject name identifier and the attributes. Keep the attribute names the same, too, except for the attribute names listed in the following table.
+    In the preceding figure, we're configuring the SAML or OIDC trust between the SAP Cloud Identity Services tenant and the corporate identity provider. Configure the corporate identity provider to send the same value for subject name identifier and the attributes. Keep the attribute names the same, too, except for the attribute names listed in the following table.
 
 
     <table>
@@ -93,6 +92,6 @@ Before migrating your trust configuration, check which user data are sent today,
     </tr>
     </table>
     
-    For more information, see [Corporate Identity Providers](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/19f3eca47db643b6aad448b5dc1075ad.html) in the documentation of Identity Authentication.
+    For more information, see [Corporate Identity Providers](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/19f3eca47db643b6aad448b5dc1075ad.html) in the documentation of SAP Cloud Identity Services.
 
 

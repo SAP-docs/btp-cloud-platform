@@ -10,13 +10,13 @@ You want to use a custom identity provider for the platform users of SAP BTP in 
 
 ## Prerequisites
 
--   You've a tenant of SAP Cloud Identity Services - Identity Authentication.
+-   You've a tenant of SAP Cloud Identity Services.
 
-    For more information, see [Tenant Model and Licensing](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html?version=Cloud) in the documentation for Identity Authentication.
+    For more information, see [Tenant Model and Licensing](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html?version=Cloud) in the documentation for SAP Cloud Identity Services.
 
--   The Identity Authentication tenant is associated with the customer IDs of the relevant global account of SAP BTP.
+-   The SAP Cloud Identity Services tenant is associated with the customer IDs of the relevant global account of SAP BTP.
 
-    For more information, see [Reuse SAP Cloud Identity Services Tenants for Different Customer IDs](https://help.sap.com/docs/identity-authentication/identity-authentication/reuse-sap-cloud-identity-services-tenants-for-different-customer-ids) in the documentation for Identity Authentication.
+    For more information, see [Reuse SAP Cloud Identity Services Tenants for Different Customer IDs](https://help.sap.com/docs/identity-authentication/identity-authentication/reuse-sap-cloud-identity-services-tenants-for-different-customer-ids) in the documentation for SAP Cloud Identity Services.
 
 -   Make sure that the email addresses of all users in your identity provider are unique and correct.
 
@@ -43,7 +43,7 @@ Platform users perform technical development, deployment, and administration tas
 > ### Note:  
 > The content in this section is only relevant for **platform users** and **not** business users.
 > 
-> For more information about establishing trust for business users, see [Establish Trust and Federation Between SAP Authorization and Trust Management Service and Identity Authentication](establish-trust-and-federation-between-sap-authorization-and-trust-management-service-a-161f8f0.md).
+> For more information about establishing trust for business users, see [Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services](establish-trust-and-federation-between-sap-authorization-and-trust-management-service-a-161f8f0.md).
 
 You must establish a trust relationship with a custom identity provider in your global account in SAP BTP. The following procedure guides you through the trust configuration in your custom identity provider.
 
@@ -57,7 +57,7 @@ You must establish a trust relationship with a custom identity provider in your 
 
 2.  Choose *Establish Trust*.
 
-    The identity providers listed are the Identity Authentication tenants associated with your customer ID.
+    The identity providers listed are the SAP Cloud Identity Services tenants associated with your customer ID.
 
 3.  Select an identity provider from the list of available tenants and choose *Next*.
 
@@ -75,7 +75,7 @@ You must establish a trust relationship with a custom identity provider in your 
     > ### Remember:  
     > If the OIDC issuer was changed in the trust configuration, the trust breaks, but the global account automatically repairs the trust after 24 hours.
     > 
-    > To adapt the trust configuration on SAP BTP side, use the `btp update security/trust` command of the SAP BTP command line interface together with the `--refresh` parameter. This parameter immediately refreshes the trust configuration to reflect changes in the Identity Authentication tenant, for example the issuer value. For more information, see [Managing Trust from SAP BTP to an Identity Authentication Tenant](managing-trust-from-sap-btp-to-an-identity-authentication-tenant-6140107.md).
+    > To adapt the trust configuration on SAP BTP side, use the `btp update security/trust` command of the SAP BTP command line interface together with the `--refresh` parameter. This parameter immediately refreshes the trust configuration to reflect changes in the SAP Cloud Identity Services tenant, for example the issuer value. For more information, see [Managing Trust from SAP BTP to an SAP Cloud Identity Services Tenant](managing-trust-from-sap-btp-to-an-sap-cloud-identity-services-tenant-6140107.md).
 
 
 
@@ -84,10 +84,10 @@ You must establish a trust relationship with a custom identity provider in your 
 
 ## Results
 
-You've configured trust in your tenant of the Identity Authentication service, which is your identity provider. Identity Authentication creates an application with the name *SAP Business Technology Platform*.
+You've configured trust in your tenant of SAP Cloud Identity Services, which is your identity provider. SAP Cloud Identity Services creates an application with the name *SAP Business Technology Platform*.
 
 > ### Tip:  
-> To troubleshoot problems with tokens from Identity Authentication, see [Logging OpenID Connect Tokens](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/b6c42b53518b46de8b4dffd8c4c52ed7.html?version=Cloud) in the documentation for Identity Authentication.
+> To troubleshoot problems with tokens from SAP Cloud Identity Services, see [Logging OpenID Connect Tokens](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/b6c42b53518b46de8b4dffd8c4c52ed7.html?version=Cloud) in the documentation for SAP Cloud Identity Services.
 
 
 
@@ -108,7 +108,7 @@ You've configured trust in your tenant of the Identity Authentication service, w
     > ### Note:  
     > -   For subaccounts in the Neo environment, the identity provider will be offered in the value help only if a user in that identity provider has created at least one Neo subaccount in the corresponding global account and Neo region.
     > 
-    > -   For global accounts upgraded from feature set A, in addition to at least one Neo subaccount being in the corresponding global account, you also need to ensure that the Neo region has a platform identity provider trust to the Identity Authentication tenant in feature set A.
+    > -   For global accounts upgraded from feature set A, in addition to at least one Neo subaccount being in the corresponding global account, you also need to ensure that the Neo region has a platform identity provider trust to the SAP Cloud Identity Services tenant in feature set A.
     > 
     >     > ### Tip:  
     >     > If the identity provider isn't available in the value help for Neo subaccount members, log on to the global account with a user from that identity provider and create a new Neo subaccount. If it's not needed otherwise, you can delete it.
@@ -120,19 +120,19 @@ You've configured trust in your tenant of the Identity Authentication service, w
 
     For more information, see [Log On with a Custom Identity Provider to the SAP BTP Cockpit](log-on-with-a-custom-identity-provider-to-the-sap-btp-cockpit-0bef982.md).
 
--   If you want to impose, for example, two-factor authentication for platform users, you must configure [two-factor authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/596e7f8b3f0441aaa8736be6bb368d5f.html) in **all** the Identity Authentication applications involved. Multifactor authentication is just used as an example.
+-   If you want to impose, for example, two-factor authentication for platform users, you must configure [two-factor authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/596e7f8b3f0441aaa8736be6bb368d5f.html) in **all** the SAP Cloud Identity Services applications involved. Multifactor authentication is just used as an example.
 
-    For more information, see [Multi-Factor Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/596e7f8b3f0441aaa8736be6bb368d5f.html) in the documentation for the Identity Authentication service. Keep all settings for Identity Authentication applications the same.
+    For more information, see [Multi-Factor Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/596e7f8b3f0441aaa8736be6bb368d5f.html) in the documentation for the SAP Cloud Identity Services service. Keep all settings for SAP Cloud Identity Services applications the same.
 
     > ### Tip:  
-    > Instead of configuring two-factor authentication in all the Identity Authentication applications, you could also configure it once in your corporate identity provider.
+    > Instead of configuring two-factor authentication in all the SAP Cloud Identity Services applications, you could also configure it once in your corporate identity provider.
 
     > ### Note:  
-    > For all the Neo datacenters where you have subaccounts, you might have to configure a separate SAML application \(for example, *SAP Cloud Platform hhw9g3jrxa*\) in the Identity Authentication service.
+    > For all the Neo datacenters where you have subaccounts, you might have to configure a separate SAML application \(for example, *SAP Cloud Platform hhw9g3jrxa*\) in SAP Cloud Identity Services.
 
--   Integrate your Identity Authentication tenant with your identity authentication management solution.
+-   Integrate your SAP Cloud Identity Services tenant with your identity authentication management solution.
 
-    For more information, see [Corporate Identity Provider](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/19f3eca47db643b6aad448b5dc1075ad.html) in the documentation for the Identity Authentication service.
+    For more information, see [Corporate Identity Provider](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/19f3eca47db643b6aad448b5dc1075ad.html) in the documentation for SAP Cloud Identity Services.
 
 -   Work in the SAP BTP command line interface \(btp CLI\).
 
@@ -142,13 +142,13 @@ You've configured trust in your tenant of the Identity Authentication service, w
 
     Both values can be found in the cockpit under *Security* → *Trust Configuration* → *Custom Platform Identity Providers*.
 
-    As an administrator, you want to determine which of the Identity Authentication tenants' domains SAP BTP should use for platform user logon. For this reason, you specify a custom domain for an Identity Authentication tenant. You can use the `btp update security/trust` command and specify the domain in the `--domain` parameter.
+    As an administrator, you want to determine which of the SAP Cloud Identity Services tenants' domains SAP BTP should use for platform user logon. For this reason, you specify a custom domain for an SAP Cloud Identity Services tenant. You can use the `btp update security/trust` command and specify the domain in the `--domain` parameter.
 
 -   Work in the Cloud Foundry command line interface \(CF CLI\).
 
     For more information, see [Log On with a Custom Identity Provider to the Cloud Foundry Environment Using the Cloud Foundry Command-Line Interface](log-on-with-a-custom-identity-provider-to-the-cloud-foundry-environment-using-the-cloud-d477618.md).
 
--   The Kyma environment has a separate configuration for the identity provider. We recommend that you also configure your Kyma environment to use Identity Authentication as your custom identity provider.
+-   The Kyma environment has a separate configuration for the identity provider. We recommend that you also configure your Kyma environment to use SAP Cloud Identity Services as your custom identity provider.
 
     For more information, see [Configure a Custom Identity Provider for Kyma](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/67bcc6e2d4d749659faf3ede1853f19e.html).
 

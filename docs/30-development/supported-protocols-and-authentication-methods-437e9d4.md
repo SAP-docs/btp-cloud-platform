@@ -205,9 +205,9 @@ SAML assertion authentication
 
 OpenID Connect bearer token
 
-OAuth 2.0 Authorization Code with Proof Key for Code Exchange \(PKCE\)
+OAuth 2.0 Authorization Code with Proof Key for Code Exchange \(PKCE\) \(only available for OData\)
 
-OAuth 2.0 SAML Bearer Assertion
+OAuth 2.0 SAML Bearer Assertion \(only available for OData\)
 
 </td>
 </tr>

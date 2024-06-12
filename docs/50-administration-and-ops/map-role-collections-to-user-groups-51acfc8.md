@@ -13,7 +13,7 @@ You want to assign a role collection to a user group provided by an identity pro
 -   You've configured your custom identity provider and established trust with your subaccount.
 
     > ### Remember:  
-    > The name of the trust configuration is different from SAP ID service. The name of a custom trust configuration to SAP Cloud Identity Services - Identity Authentication could be as follows:
+    > The name of the trust configuration is different from SAP ID service. The name of a custom trust configuration to SAP Cloud Identity Services could be as follows:
     > 
     > <code>https://<i class="varname">&lt;tenant_id&gt;</i>.accounts.ondemand.com</code>
 

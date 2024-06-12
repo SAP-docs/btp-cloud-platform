@@ -172,8 +172,3 @@ To scope one of these objects, you have to provide the object type, object name,
 
 For further information, see the long text documentation of the API `IF_APS_BC_SCOPE_CHANGE_API`.
 
-**Related Information**  
-
-
-[Scoping Space and Page Templates](scoping-space-and-page-templates-74d5b1a.md "The scoping of space and page templates refers to the process of defining the visibility or accessibility of these objects.")
-

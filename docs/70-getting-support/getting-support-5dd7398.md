@@ -28,8 +28,6 @@ Before you report a case, ensure the following:
     -   availability by region on the *Data Center* tab page.
 
 
-    For more information about selected platform incidents, see [Root Cause Analyses](https://help.sap.com/viewer/product/SCP_RCA/Latest/en-US).
-
 -   **Running on the China \(Shanghai\) region:** check [https://status.cn40.platform.sapcloud.cn/](https://status.cn40.platform.sapcloud.cn/).
 
 -   **Running on the Government Cloud \(US\) region:** planned downtimes and outage communication are sent through e-mail to the initial administrator of your global account.
@@ -99,7 +97,7 @@ To report a case in SAP for Me, proceed as follows:
 
 [Platform Updates and Notifications](platform-updates-and-notifications-99070c7.md "")
 
-[Root Cause Analyses](https://help.sap.com/viewer/product/SCP_RCA/Latest/en-US)
+[Cloud Availability Center](https://support.sap.com/en/my-support/systems-installations/cac.html)
 
 [Road Map for Cloud Foundry Environment](https://roadmaps.sap.com/board?range=CURRENT-LAST&PRODUCT=73555000100800000287)
 

@@ -22,6 +22,8 @@ Up until this point, the ABAP repositories in SAP BTP, ABAP Environment were man
 
 -   Production, development and/or test system instances are in the same global account.
 
+-   The Git provider must trust a \(root\) certificate that is available in the SAP standard certificate trust list. Please check the current trust list [here](https://me.sap.com/notes/2801396) and compare it with your Git provider certificate.
+
 
 
 
@@ -58,7 +60,12 @@ Next, copy the HTTPS link \(must end with `.git`\) to clone the repository in th
 
 ### Create a Software Component and link the remote repository
 
-In the MSC app, create a new software component and enter the URL from the previous step in the *Repository URL* field. Add a name for your software component and choose the component type as development. Afterwards, click on *Create*. The software component is linked to the remote repository and is now ready to be cloned into the system.
+In the Manage Software Components app, create a new software component and enter the URL from the previous step in the *Repository URL* field.
+
+> ### Note:  
+> When specifying the repository URL, please note that it must be case-insensitive and unique. This prevents multiple software components from being linked to a single or identical Git repository.
+
+Add a name for your software component and choose the component type as development. Afterwards, click on *Create*. The software component is linked to the remote repository and is now ready to be cloned into the system.
 
 
 

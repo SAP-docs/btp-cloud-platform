@@ -34,9 +34,9 @@ Try to avoid multiple trust configurations at all.
 </td>
 <td valign="top">
 
-Hide the default identity provider and connect a single Identity Authentication tenant.
+Hide the default identity provider and connect a single SAP Cloud Identity Services tenant.
 
-Connect further identity providers as corporate identity providers in the Identity Authentication tenant and use conditional authentication rules in Identity Authentication.
+Connect further identity providers as corporate identity providers in the SAP Cloud Identity Services tenant and use conditional authentication rules in SAP Cloud Identity Services.
 
 </td>
 </tr>

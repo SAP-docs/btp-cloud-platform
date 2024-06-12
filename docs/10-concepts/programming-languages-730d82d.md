@@ -23,18 +23,11 @@ Programming Language
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="6">
+<td valign="top" rowspan="3">
 
 Cloud Foundry environment
 
 </td>
-<td valign="top">
-
-[SAP HANA](../30-development/developing-sap-hana-in-the-cloud-foundry-environment-14224d7.md#loio14224d75f6c64b499d189e3ebd131ec2) 
-
-</td>
-</tr>
-<tr>
 <td valign="top">
 
 [Java](../30-development/developing-java-in-the-cloud-foundry-environment-a3f9006.md) 
@@ -52,20 +45,6 @@ Cloud Foundry environment
 <td valign="top">
 
 [Python](../30-development/developing-python-in-the-cloud-foundry-environment-acf8f49.md) 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[SAPUI5](../30-development/developing-sapui5-839cb81.md) 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[HTML5](../30-development/development-c2fec62.md) 
 
 </td>
 </tr>

@@ -17,7 +17,7 @@ The two most important quality tools for your custom ABAP code are:
 
 Writing ABAP Unit tests is the way to provide high-quality software, which can be easily evolved over time without introducing regressions. In methodologies, like extreme programming and test-driven development, the role of unit testing is even more important.
 
-ABAP unit is the state-of-the-art unit testing framework for ABAP. It's embedded into the ABAP programming language, which supports you in writing unit tests. In the ABAP Development Tools \(ADT\), you have various possibilities to execute the unit tests and to evaluate the results concerning functional correctness and code coverage.
+ABAP unit is the state-of-the-art unit testing framework for ABAP. It's embedded into the ABAP programming language, which supports you in writing unit tests. In the ABAP Development Tools for Eclipse \(ADT\), you have various possibilities to execute the unit tests and to evaluate the results concerning functional correctness and code coverage.
 
 We recommend measuring the test coverage of all objects in a transport before releasing the transport. A high coverage \(above 80%, for example\) and a wide variety of test methods help to identify issues and make the code more robust.
 
@@ -29,7 +29,7 @@ For more information, see [Unit Testing with ABAP Unit](https://help.sap.com/doc
 
 ## ABAP Test Cockpit \(ATC\)
 
-ATC is the tool of choice for all kinds of static code analysis in ABAP. As an ABAP developer, you can use ATC in the ABAP Development Tools \(ADT\) to find potential bugs already during the development phase.
+ATC is the tool of choice for all kinds of static code analysis in ABAP. As an ABAP developer, you can use ATC in the ABAP Development Tools for Eclipse to find potential bugs already during the development phase.
 
 In particular, you can check ABAP development objects for many types of problems, including syntax errors, potential problems in performance, suboptimal or potentially faulty programming, adherence to standards, errors in ABAP Unit testing, among others.
 
@@ -71,7 +71,7 @@ Sometimes ATC findings can't be corrected. For example, it’s possible that a c
 
 In this case, you can still process the issue by requesting an exemption. Once approved, it masks an ATC error or warning message. The finding then isn’t displayed as an open issue in the ATC results anymore.
 
-In the ABAP environment, exemptions are transportable objects of the type CHKE. The full workflow for the request and approval of exemption is integrated in ABAP Development Tools \(ADT\).
+In the ABAP environment, exemptions are transportable objects of the type CHKE. The full workflow for the request and approval of exemption is integrated in ADT.
 
 For more information, see: [Working with ATC Exemptions](https://help.sap.com/docs/BTP/5371047f1273405bb46725a417f95433/b317b37b06304f99a8cf36e0ebf30861.html).
 

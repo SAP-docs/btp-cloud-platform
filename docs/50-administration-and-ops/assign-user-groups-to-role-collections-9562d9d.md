@@ -40,7 +40,7 @@ You can assign user groups from custom identity providers to a role collection. 
 7.  Enter the name of the user group.
 
     > ### Note:  
-    > If you're using SAP Cloud Identity Services - Identity Authentication, you can find the name of the user group in the administration console under *Users & Authorizations* \> *User Groups*. For more information, see the related link.
+    > If you're using SAP Cloud Identity Services, you can find the name of the user group in the administration console under *Users & Authorizations* \> *User Groups*. For more information, see the related link.
 
 8.  \(Optional\) To add other user groups, choose :heavy_plus_sign: \(Add a user group\).
 
@@ -50,5 +50,5 @@ You can assign user groups from custom identity providers to a role collection. 
 **Related Information**  
 
 
-[User groups in the SAP Cloud Identity Services - Identity Authentication](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/ddd067c899f94e2f9006cc4dd417be80.html)
+[User groups in the SAP Cloud Identity Services](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/ddd067c899f94e2f9006cc4dd417be80.html)
 

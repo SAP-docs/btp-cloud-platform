@@ -39,7 +39,7 @@ During and after activation, the following objects are generated:
 
 ## Procedure
 
-1.  Based on the WSDL file of the service you want to provide, create an SPRV as described in [Creating SOAP Service Providers](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/creating-soap-service-providers?version=sap_btp).
+1.  Based on the WSDL file of the service you want to provide, create an SPRV as described in [Creating SOAP Service Providers](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/creating-soap-service-providers?locale=en-US).
 
 2.  Activate the SPRV.
 

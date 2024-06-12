@@ -39,7 +39,7 @@ The consumption-based commercial model is available in the following flavors: th
 **CPEA**
 
 > ### Note:  
-> The service scope of CPEA will no longer be extended. All new services will be available with SAP BTPEA instead.
+> Certain restrictions apply. See the *Frequently Asked Questions* section in [https://www.sap.com/products/technology-platform/pricing.html](https://www.sap.com/products/technology-platform/pricing.html).
 
 
 

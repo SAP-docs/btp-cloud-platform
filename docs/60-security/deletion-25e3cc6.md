@@ -15,7 +15,7 @@ When accounts expire, we delete your data barring legal requirements that SAP re
 -   For trial accounts in the Cloud Foundry environment, your account expires after 365 days.
 -   Productive accounts expire based on the terms of your contract.
 
-To deactivate or delete users, see [Erasure](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/5ccec0b19422406fac24b9323294b980.html) in the SAP Cloud Identity Services - Identity Authentication documentation.
+To deactivate or delete users, see [Erasure](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/5ccec0b19422406fac24b9323294b980.html) in the SAP Cloud Identity Services documentation.
 
 For SAP BTP Cloud Foundry environment, the User Account and Authentication service creates shadow users to issue tokens for their corresponding users. Data privacy regulations or policies may require you to delete this data, for example, when the user has left your organization.
 

@@ -67,13 +67,13 @@ For more information, see [Add Users from SAP ID Service for Multi-Environment S
 For SAP ID service, you can ask users hosted by this identity provider to enable multifactor authentication as a self-service. There's **no** mechanism to enforce users in SAP ID service to use this function.
 
 > ### Recommendation:  
-> To enforce multifactor authentication, we recommend that you trust SAP Cloud Identity Services - Identity Authentication and configure enforcement. Optionally, integrate Identity Authentication with your corporate identity provider and enforce the policy there.
+> To enforce multifactor authentication, we recommend that you trust SAP Cloud Identity Services - Identity Authentication and configure enforcement. Optionally, integrate SAP Cloud Identity Services with your corporate identity provider and enforce the policy there.
 > 
 > For more information, see:
 > 
 > -   [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md)
 > 
-> -   [Establish Trust and Federation Between SAP Authorization and Trust Management Service and Identity Authentication](establish-trust-and-federation-between-sap-authorization-and-trust-management-service-a-161f8f0.md)
+> -   [Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services](establish-trust-and-federation-between-sap-authorization-and-trust-management-service-a-161f8f0.md)
 
 For more information about your users of SAP ID service can enable multifactor authentication themselves, see [How to Enable Multi-Factor Authentication \(MFA\)](https://support.sap.com/en/my-support/mfa.html) on the *SAP Support Portal*.
 
@@ -121,7 +121,7 @@ In cloud management tools feature set B, you can hide the default trust.
 
 For more information, see [Hide Logon Link for Default Identity Provider](hide-logon-link-for-default-identity-provider-9e3d457.md).
 
-To use a custom identity provider, establish trust to your custom identity provider. We describe a custom trust configuration using the example of Identity Authentication.
+To use a custom identity provider, establish trust to your custom identity provider. We describe a custom trust configuration using the example of SAP Cloud Identity Services.
 
 For more information, see [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md).
 

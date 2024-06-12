@@ -95,7 +95,7 @@ The signed SAML tokens are used to validate and authenticate the protocol messag
 
     For more information, see the related documentation:
 
-    -   [Manually Establish Trust and Federation Between SAP Authorization and Trust Management Service and Identity Authentication](manually-establish-trust-and-federation-between-sap-authorization-and-trust-management-7c6aa87.md#loio7c6aa87459764b179aeccadccd4f91f3)
+    -   [Manually Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services](manually-establish-trust-and-federation-between-sap-authorization-and-trust-management-7c6aa87.md#loio7c6aa87459764b179aeccadccd4f91f3)
 
     -   [Establish Trust and Federation with UAA Using Any SAML Identity Provider](establish-trust-and-federation-with-uaa-using-any-saml-identity-provider-2ce3938.md#loio2ce3938c66d94479848bff3090999027)
 

@@ -147,14 +147,14 @@ Description
 </td>
 <td valign="top">
 
-An OAuth client gets a separate client secret for each subaccount.
+Default value. An OAuth client gets a separate client secret for each subaccount.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-`shared` \(default\)
+`shared` 
 
 </td>
 <td valign="top">
@@ -176,9 +176,6 @@ A tenant has multiple subscriptions to applications. For each subscription to an
 </td>
 </tr>
 </table>
-
-> ### Note:  
-> If you don't specify `tenant-mode` in the `xs-security.json`, the UAA uses the `dedicated` tenant mode.
 
 
 
@@ -930,7 +927,7 @@ Includes the system attributes in the JWT. If you don't define a value, the syst
 
 You can also have the service include a refresh token of a trusted identity provider.
 
-For more information, see [Include Tokens from Corporate Identity Providers or Identity Authentication in Tokens of the SAP Authorization and Trust Management Service](include-tokens-from-corporate-identity-providers-or-identity-authentication-in-tokens-of-8dc480a.md).
+For more information, see [Include Tokens from Corporate Identity Providers or SAP Cloud Identity Services in Tokens of the SAP Authorization and Trust Management Service](include-tokens-from-corporate-identity-providers-or-sap-cloud-identity-services-in-tokens-8dc480a.md).
 
 **Values:**
 
@@ -938,9 +935,9 @@ For more information, see [Include Tokens from Corporate Identity Providers or I
 
 -   `"rolecollections"` includes the `xs-rolecollections` attribute.
 
--   `"ias-corporate-idp-token"` includes the token of the corporate identity provider trusted by your Identity Authentication tenant.
+-   `"ias-corporate-idp-token"` includes the token of the corporate identity provider trusted by your SAP Cloud Identity Services tenant.
 
--   `"ias-token"` includes the token of the trusted Identity Authentication tenant.
+-   `"ias-token"` includes the token of the trusted SAP Cloud Identity Services tenant.
 
 
 

@@ -242,6 +242,8 @@ The *Costs and Usage* page uses the same terminology that is used in your monthl
 > -   In the cost and usage charts, estimated values are used for the period between the last balance statement and the current date. These are displayed as striped bars.
 > 
 >     These estimates are based on resource usage values before computation for billing and might change after the next balance statement is issued. The estimated values are not projected or forecast values.
+> 
+> -   Some SAP BTP services report their billing and usage at the global account level, and not at the subaccount level. Such services will be listed in the *Costs and Usage* page under a reserved account entity named `REPORTED-AT-GLOBAL-ACCOUNT-LEVEL` with the ID `DEFAULT_SA`.
 
 Here are some useful tips that are common to both the *Billing* and *Usage* views:
 
@@ -541,6 +543,8 @@ To export your usage and cost data to a Microsoft Excel spreadsheet document, us
 
 > ### Note:  
 > All of the information for the selected period is extracted to the Microsoft Excel document. It does not consider any of the filters you may have applied to the tables.
+> 
+> Cost information is exported only if your global account uses the consumption-based commercial information.
 
 The exported document contains several sheets \(tabs\). The sheets that are included depend on the commercial model that is used by your global account as shown in the following table:
 
@@ -707,7 +711,7 @@ Yes
 **Related Information**  
 
 
- <?sap-ot O2O class="- topic/link " href="a5573d7cfaf645c4ae19dafba85888b4.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/de6f0db8919f4e6f97e54bc4ddaf2ab8.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+[Commercial Models](../10-concepts/commercial-models-263d400.md "SAP BTP offers two different commercial models for enterprise accounts.")
 
 [Trial Accounts and Free Tier](../10-concepts/trial-accounts-and-free-tier-046f127.md "Explore the different options for trying out SAP BTP.")
 

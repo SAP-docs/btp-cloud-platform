@@ -1966,6 +1966,23 @@ Authorization Object
 <tr>
 <td valign="top">
 
+SWCR
+
+</td>
+<td valign="top">
+
+Software Component Relations
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 TABL
 
 </td>
@@ -2170,6 +2187,23 @@ Fiori Launchpad Page - Customizing
 <tr>
 <td valign="top">
 
+UIPG
+
+</td>
+<td valign="top">
+
+Fiori Launchpad Page Template
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 UISC
 
 </td>
@@ -2181,6 +2215,23 @@ Fiori Launchpad Space - Customizing
 <td valign="top">
 
 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+UIST
+
+</td>
+<td valign="top">
+
+Fiori Launchpad Space Template
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>

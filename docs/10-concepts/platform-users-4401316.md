@@ -6,10 +6,10 @@
 
 Platform users who have administrative permissions can view or manage the list of global accounts, subaccounts, and environments, such as Cloud Foundry orgs and spaces. Members have basic access to them using the SAP BTP cockpit, the SAP BTP command-line interface \(btp CLI\), or environment-specific CLI, such as the Cloud Foundry \(CF\) CLI.
 
-For platform users, there's a [default identity provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md). We expect that you have your own identity provider. We recommend that you configure your custom tenant of Identity Authentication as the identity provider and connect Identity Authentication to your own corporate identity provider.
+For platform users, there's a [default identity provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md). We expect that you have your own identity provider. We recommend that you configure your custom tenant of SAP Cloud Identity Services as the identity provider and connect SAP Cloud Identity Services to your own corporate identity provider.
 
 > ### Note:  
-> For China \(Shanghai\) and Government Cloud \(US\) regions, a different default identity provider is used, and you can't use Identity Authentication as identity provider in the global account.
+> For China \(Shanghai\) and Government Cloud \(US\) regions, a different default identity provider is used, and you can't use SAP Cloud Identity Services as identity provider in the global account.
 > 
 > If you want to use two-factor authentication in the China \(Shanghai\) region, see this [blog article](https://blogs.sap.com/2021/02/22/activate-totp-two-factor-authentication-on-sap-business-technology-platform-formerly-known-as-cloud-platform-at-alibaba-cloud/) on *SAP Community*.
 
