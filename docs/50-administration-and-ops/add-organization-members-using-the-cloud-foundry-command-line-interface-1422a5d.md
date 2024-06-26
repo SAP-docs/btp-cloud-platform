@@ -25,7 +25,7 @@ You can use the Cloud Foundry Command Line Interface \(cf CLI\) to add organizat
 
     -   The user has been added from the cockpit.
 
-        For more information, see [Add Org Members Using the Cockpit](add-org-members-using-the-cockpit-a4eeaf1.md).
+        For more information, see [Add Org Members](add-org-members-a4eeaf1.md).
 
     -   The user has already logged on to the Cloud Foundry environment.
 
@@ -82,4 +82,6 @@ cf unset-org-role <USERNAME> <ORG> <ROLE>
 [Supported Tools and Services When Using Custom Identity Providers for Platform Users](supported-tools-and-services-when-using-custom-identity-providers-for-platform-users-94ef515.md "Not all tools and services of SAP BTP support the use of custom identity providers with platform users. We provide a list of tools and services, which support this feature and any restrictions that apply.")
 
 [About Roles in the Cloud Foundry Environment](about-roles-in-the-cloud-foundry-environment-0907638.md "Roles determine which features users can view and access, and which actions they can initiate.")
+
+[Managing Org Members Using the Cockpit](managing-org-members-b792066.md "Learn how to add, edit, and delete org members in the cockpit.")
 

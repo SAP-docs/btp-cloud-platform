@@ -28,7 +28,7 @@ To establish outbound communication between two communication partners, you have
 
     If the scenario includes multiple communication arrangements, you have to determine the communication system. You can read the customer-specific properties using class `CL_COM_ARRANGEMENT_FACTORY` to determine the receiver communication system.
 
-    ![Development Objects for Outbound Communication](images/Developing_External_Service_Consumption_f7792d9.svg)
+    ![Development Objects for Outbound Communication](images/Development_Objects_for_Outbound_Communication_11351eb.svg)
 
 
 > ### Note:  
@@ -51,7 +51,7 @@ To establish outbound communication between two communication partners, you have
 
 SAP supports various protocols and provides the corresponding clients and functions to handle requests and responses.
 
-HTTP: `CL_WEB_HTTP_CLIENT`
+HTTP: `CL_WEB_HTTP_CLIENT_MANAGER`
 
 RFC: `CALL FUNCTION`
 

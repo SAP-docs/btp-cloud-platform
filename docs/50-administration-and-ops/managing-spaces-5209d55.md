@@ -39,7 +39,9 @@ To visit this page in the cockpit:
 2.  Navigate to the *Cloud Foundry* \> *Spaces* page.
 
 
-On this page, you can see:
+![Here's what a sample Spaces page might contain.](images/Managing_Spaces_SUI_Graphic_ce58eb0.png)
+
+On this page, you can find:
 
 -   A list of all spaces you have access to.
 
@@ -64,7 +66,7 @@ On this page, you can see:
 Here are some of the space-related actions you can do:
 
 -   [Create Spaces](create-spaces-2f6ed22.md)
--   [Add Space Members Using the Cockpit](add-space-members-using-the-cockpit-81d0b4d.md)
+-   [Add Space Members](add-space-members-81d0b4d.md)
 -   Edit Spaces
 
     To edit a space, choose ![](images/Edit_Icon_abfe424.png) on the space tile. This option lets you change the name of the space.

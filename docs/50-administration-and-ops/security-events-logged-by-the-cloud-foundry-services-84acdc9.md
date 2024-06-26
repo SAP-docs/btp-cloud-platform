@@ -1,8 +1,8 @@
 <!-- loio84acdc91c60c4f32b7c06cdbc442fdef -->
 
-# Security Events Logged by the CF Services
+# Security Events Logged by the Cloud Foundry Services
 
-This document contains a list of the CF services that log security events. The logged events are service specific and determined by the service itself. The Audit Log service does not know what security events the services log, it only provides the infrastructure for services to write the logs, and for customers to read them by using the Audit Log Retrieval API and the Audit Log Viewer. For more information about the security events logged by a service, follow the corresponding link in the table.
+This document contains a list of the Cloud Foundry services that log security events. The logged events are service specific and determined by the service itself. The Audit Log service does not know what security events the services log, it only provides the infrastructure for services to write the logs, and for customers to read them by using the Audit Log Retrieval API and the Audit Log Viewer. For more information about the security events logged by a service, follow the corresponding link in the table.
 
 **Audit Log Events by Service**
 
@@ -71,7 +71,7 @@ Business Rules
 <tr>
 <td valign="top">
 
-Custom Domain \(CF\)
+Custom Domain \(Cloud Foundry\)
 
 </td>
 <td valign="top">
@@ -251,7 +251,7 @@ SAP Business Application Studio
 <tr>
 <td valign="top">
 
-SAP Cloud Integration \(CF\)
+SAP Cloud Integration \(Cloud Foundry\)
 
 </td>
 <td valign="top">
@@ -431,7 +431,7 @@ SAP Market Rates Management, Refinitiv data option
 <tr>
 <td valign="top">
 
-SAP Mobile Services \(CF\)
+SAP Mobile Services \(Cloud Foundry\)
 
 </td>
 <td valign="top">

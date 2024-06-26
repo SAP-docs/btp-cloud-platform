@@ -204,18 +204,6 @@ Dictionary: CDS Type Definitions
 <tr>
 <td valign="top">
 
-DTEB
-
-</td>
-<td valign="top">
-
-Dictionary Tuning: Entities Buffer
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 DTEL
 
 </td>
@@ -618,18 +606,6 @@ SUSO
 <td valign="top">
 
 Authorization Object
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SWCR
-
-</td>
-<td valign="top">
-
-Software Component Relations
 
 </td>
 </tr>

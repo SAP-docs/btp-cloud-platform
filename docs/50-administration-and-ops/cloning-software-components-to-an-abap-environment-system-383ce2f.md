@@ -22,14 +22,14 @@ If a software component is not in your system yet, you will first need to clone 
     > ### Sample Code:  
     > ```
     > Request
-    > 	GET /sap/opu/odata4/sap/a4c_mswc_api/srvd_a2x/sap/manage_software_components/0001 HTTP/1.1
-    > 	Accept: application/json
-    > 	X-Csrf-Token: fetch
-    > 	Host: host.sap
-    > 	
+    > GET /sap/opu/odata4/sap/a4c_mswc_api/srvd_a2x/sap/manage_software_components/0001 HTTP/1.1
+    > Accept: application/json
+    > X-Csrf-Token: fetch
+    > Host: host.sap
+    > 
     > Response
-    > 	HTTP/1.1 200 OK
-    > 	X-csrf-token: xCsrfToken
+    > HTTP/1.1 200 OK
+    > X-csrf-token: xCsrfToken
     > ```
 
 2.  *Cloning a Software Component*
@@ -39,14 +39,15 @@ If a software component is not in your system yet, you will first need to clone 
     > ### Sample Code:  
     > ```
     > Request
-    >      POST /sap/opu/odata4/sap/a4c_mswc_api/srvd_a2x/sap/manage_software_components/0001/SoftwareComponents/%2FDMO%2FCOMPONENT/SAP__self.clone HTTP/1.1
-    > 	Accept: application/json
-    > 	X-Csrf-Token: {{xcsrfToken}}
-    > 	Host: host.abapcp.int.sap
+    >     POST /sap/opu/odata4/sap/a4c_mswc_api/srvd_a2x/sap/manage_software_components/0001/SoftwareComponents/%2FDMO%2FCOMPONENT/SAP__self.clone HTTP/1.1
+    > Accept: application/json
+    > X-Csrf-Token: {{xcsrfToken}}
+    > Host: host.abapcp.int.sap
+    > Content-Length: 122
     >     {
-    >     	"commit_id": "",
-    >     	"branch_name": "main",
-    >     	"tag_name": ""
+    >     "commit_id": "",
+    >     "branch_name": "main",
+    >     "tag_name": "",
     >     }
     > 
     > Response

@@ -9,11 +9,11 @@ A registered SAP S/4HANA Cloud system in the SAP BTP cockpit can expose consumpt
 
 The following procedure outlines the steps you need to perform to consume the APIs of registered SAP S/4HANA Cloud systems within the SAP Business Application Studio.
 
-1.  Add and then register an SAP system of type *SAP S/4HANA Cloud* in the *System Landscape* page of SAP BTP cockpit.
+1.  In the *System Landscape* page of SAP BTP cockpit, in the *Systems* tab, add and then register an SAP system of type *SAP S/4HANA Cloud*.
 
     To expose information about its APIs and events and show this information on the *System Landscape* page, an SAP system of type *SAP S/4HANA Cloud* must be registered in the SAP BTP cockpit. Only when registered, the system communicates information about its APIs and other technical details across the landscape. See [Extending SAP S/4HANA Cloud in the Cloud Foundry and Kyma Environment](extending-sap-s-4hana-cloud-in-the-cloud-foundry-and-kyma-environment-40b9e6c.md).
 
-2.  Create a formation of type *Developing with SAP Business Application Studio* and include the SAP S/4HANA Cloud systems you want to expose in SAP Business Application Studio.
+2.  In the *Formations* tab, create a formation of type *Developing with SAP Business Application Studio* and include the SAP S/4HANA Cloud systems you want to expose in SAP Business Application Studio.
 
     > ### Note:  
     > In the formation type *Developing with SAP Business Application Studio*, you can include only SAP systems of type *SAP S/4HANA Cloud*.

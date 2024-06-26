@@ -332,7 +332,7 @@ Additional Info
 </td>
 <td valign="top">
 
-<code>btp update accounts/environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i> --parameters "{\"usersToAdd\":[{\"id\":\"myUserID\",\"email\":\name@example.com\}]}"</code> 
+<code>btp update accounts/environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i> --parameters "{\"usersToAdd\":[{\"id\":\"myUserID\",\"email\":\"name@example.com\"}]}"</code> 
 
 </td>
 <td valign="top">
@@ -365,7 +365,7 @@ For examples that show how to pass JSON parameters in the command line with diff
 </td>
 <td valign="top">
 
-<code>btp update accounts/environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i> --parameters "{\"usersToRemove\":[{\"id\":\"myUserID\",\"email\":\name@example.com\}]}"</code> 
+<code>btp update accounts/environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i> --parameters "{\"usersToRemove\":[{\"id\":\"myUserID\",\"email\":\"name@example.com\"}]}"</code> 
 
 </td>
 <td valign="top">
@@ -401,7 +401,7 @@ To learn how to remove a user from the Cloud Foundry org and the subaccount, see
 
 [Org Administration Using the Cockpit](org-administration-using-the-cockpit-c4c25cc.md "In the Cloud Foundry enviroment, manage orgs, spaces and space quota plans using the SAP BTP cockpit.")
 
-[Add Org Members Using the Cockpit](add-org-members-using-the-cockpit-a4eeaf1.md "Add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.")
+[Add Org Members](add-org-members-a4eeaf1.md "In the cockpit, add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.")
 
 [Managing Spaces](managing-spaces-5209d55.md "Learn what a Cloud Foundry space is, what type of information you will find on the Spaces page in the cockpit, and what you can do with or within a space.")
 

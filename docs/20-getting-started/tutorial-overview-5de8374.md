@@ -208,8 +208,6 @@ wihtout group/mission:
 
 -   [Create RFC Proxy Class](https://developers.sap.com/tutorials/abap-environment-generation-rfc-proxy.html)
 
--   [Create Business Partner in S/4HANA Cloud Using ABAP Environment Data](https://developers.sap.com/tutorials/abap-environment-business-partner.html)
-
 -   [Connect ABAP On-Premise to a Central Check System for Custom Code Migration Using ABAP Test Cockpit \(ATC\)](https://developers.sap.com/tutorials/abap-environment-atc-run.html)
 
 -   [Using ODBC driver for SQL Service](https://developers.sap.com/tutorials/abap-environment-abap-sql.html)

@@ -4,7 +4,7 @@
 
 
 
-You can use this app to schedule and monitor application-related jobs. If you have manual activities that you often need to do at a specific time, the `Application Jobs` app can reduce your workload by running these tasks smoothly in the background. You can plan regular jobs which keeps you free to concentrate on other tasks.
+You can use this app to schedule and monitor application-related jobs. If you have manual activities that you often need to do at a specific time, the `Application Jobs` app can reduce your workload by running these tasks smoothly in the background. Planning regular jobs will keep you free to concentrate on other tasks.
 
 
 
@@ -27,7 +27,7 @@ You can use this app to:
 
 -   Monitor jobs
 
--   Display logs and results: You can navigate to job logs and job results by clicking on the icon in the *Log* or the *Results* column
+-   Display logs and results: You can navigate to job logs and job results by selecting the icon in the *Log* or the *Results* column
 
 -   Copy a job
 

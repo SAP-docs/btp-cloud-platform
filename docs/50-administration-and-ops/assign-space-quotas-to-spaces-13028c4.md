@@ -62,5 +62,7 @@ You can use the SAP BTP cockpit to assign space quotas to spaces.
 
 [Entitlements and Quotas](../10-concepts/entitlements-and-quotas-00aa2c2.md "When you purchase an enterprise account, you’re entitled to use a specific set of resources, such as the amount of memory that can be allocated to your applications.")
 
-[Create Space Quotas](create-space-quotas-b13c4a2.md "You can use the cockpit to create space quotas.")
+[Create Space Quotas Using the Cockpit](create-space-quotas-b13c4a2.md "You can use the cockpit to create space quotas.")
+
+[Assign Quota Plans to Spaces Using the Cloud Foundry Command Line Interface](assign-quota-plans-to-spaces-using-the-cloud-foundry-command-line-interface-d1e4203.md "You use the Cloud Foundry Command Line Interface to assign the quotas available in your global account to your subaccounts.")
 

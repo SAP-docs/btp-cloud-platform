@@ -49,10 +49,6 @@ The ABAP environment comes with an embedded SAP Fiori launchpad and provides acc
 
 
 
-<a name="loiob74a89d3565b4abeb88efb581a081c8d__section_n5h_lcp_1bc"/>
-
-## Spaces and Pages
-
 Spaces and pages structure the way apps and other content appears in the SAP Fiori launchpad. They offer more flexibility to influence the launchpad layout for different user groups. Each user can see one or more spaces that contain one or more pages. The pages show apps clustered in different sections.
 
 A *Space* is assigned to a business role and offers a structured layout of the business role content. Each space must consist of at least one page.

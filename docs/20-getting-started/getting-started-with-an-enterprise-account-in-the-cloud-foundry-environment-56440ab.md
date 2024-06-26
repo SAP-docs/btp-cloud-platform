@@ -31,8 +31,8 @@ This topic focuses on how to get started with a customer or partner account usin
 
 -   [User and Member Management](../10-concepts/user-and-member-management-cc1c676.md)
 -   [Navigate to Orgs and Spaces](../50-administration-and-ops/navigate-to-orgs-and-spaces-5bf8735.md)
--   [Add Org Members Using the Cockpit](../50-administration-and-ops/add-org-members-using-the-cockpit-a4eeaf1.md)
--   [Add Space Members Using the Cockpit](../50-administration-and-ops/add-space-members-using-the-cockpit-81d0b4d.md)
+-   [Add Org Members](../50-administration-and-ops/add-org-members-a4eeaf1.md)
+-   [Add Space Members](../50-administration-and-ops/add-space-members-81d0b4d.md)
 -   [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md)
 -   [Create Space Quotas](../50-administration-and-ops/create-space-quotas-b13c4a2.md)
 -   [Assign Space Quotas to Spaces](../50-administration-and-ops/assign-space-quotas-to-spaces-13028c4.md)
@@ -40,9 +40,9 @@ This topic focuses on how to get started with a customer or partner account usin
 
 1.  You can either use the cockpit or the cf CLI to configure your environment. If you'd like to use the cockpit, it's important you understand how you can navigate to your accounts and spaces. See [Navigate to Orgs and Spaces](../50-administration-and-ops/navigate-to-orgs-and-spaces-5bf8735.md).
 
-2.  It's time to think about member management. You can add members at different levels. For example, you can add members at an org level. See [Add Org Members Using the Cockpit](../50-administration-and-ops/add-org-members-using-the-cockpit-a4eeaf1.md). For more information about roles, see [User and Member Management](../10-concepts/user-and-member-management-cc1c676.md).
+2.  It's time to think about member management. You can add members at different levels. For example, you can add members at an org level. See [Add Org Members](../50-administration-and-ops/add-org-members-a4eeaf1.md). For more information about roles, see [User and Member Management](../10-concepts/user-and-member-management-cc1c676.md).
 
-3.  You can also add members at a space level. See [Add Space Members Using the Cockpit](../50-administration-and-ops/add-space-members-using-the-cockpit-81d0b4d.md).
+3.  You can also add members at a space level. See [Add Space Members](../50-administration-and-ops/add-space-members-81d0b4d.md).
 
 4.  Before you can start using resources such as services or application runtimes, you need to manage your entitlements and add quotas to your subaccounts. See [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md). To learn more about entitlements and quotas, see [Managing Entitlements and Quotas Using the Cockpit](../50-administration-and-ops/managing-entitlements-and-quotas-using-the-cockpit-c824874.md). Note that if you want to try out services for free, you need to select free tier service plans if available. For a list of free services, check the [SAP Discovery Center](https://discovery-center.cloud.sap/viewServices/?category=freetierservices&provider=all&regions=all).
 5.  You can also assign quotas to different spaces within a subaccount. To do so, first create a space quota plan. See [Create Space Quotas](../50-administration-and-ops/create-space-quotas-b13c4a2.md) or [Create Space Quota Plans Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/create-space-quota-plans-using-the-cloud-foundry-command-line-interface-504fde9.md).

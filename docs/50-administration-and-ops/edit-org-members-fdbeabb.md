@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Edit Org Members Using the Cockpit
+# Edit Org Members
 
 Remove existing roles or assign new roles to an org member in the cockpit.
 
@@ -30,7 +30,7 @@ Remove existing roles or assign new roles to an org member in the cockpit.
 
 ## Procedure
 
-1.  Navigate to your subaccount. Make sure that Cloud Foundry is enabled. For more information, see [Navigate to Orgs and Spaces](navigate-to-orgs-and-spaces-5bf8735.md).
+1.  Navigate to your subaccount in the cockpit. Make sure that Cloud Foundry is enabled. For more information, see [Navigate to Orgs and Spaces](navigate-to-orgs-and-spaces-5bf8735.md).
 
 2.  In the navigation area, choose *Cloud Foundry* \> *Org Members*.
 
@@ -50,7 +50,7 @@ Remove existing roles or assign new roles to an org member in the cockpit.
 **Related Information**  
 
 
-[Add Org Members Using the Cockpit](add-org-members-using-the-cockpit-a4eeaf1.md "Add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.")
+[Add Org Members Using the Cockpit](add-org-members-a4eeaf1.md "In the cockpit, add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.")
 
-[Delete Org Members Using the Cockpit](delete-org-members-using-the-cockpit-35a720c.md "Delete all roles of an org member in the cockpit. As a consequence, the member is removed from the org and any spaces in that org.")
+[Delete Org Members Using the Cockpit](delete-org-members-35a720c.md "Delete all roles of an org member in the cockpit. As a consequence, the member is removed from the org and any spaces in that org.")
 

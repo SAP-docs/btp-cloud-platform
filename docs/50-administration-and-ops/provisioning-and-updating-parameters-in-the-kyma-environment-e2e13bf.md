@@ -802,25 +802,37 @@ Updating
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top" rowspan="3">
 
 Azure Lite
 
 technical name: `azure_lite`
 
 </td>
-<td valign="top" rowspan="2">
+<td valign="top" rowspan="3">
 
 Provisioning
 
 Updating
 
 </td>
-<td valign="top" rowspan="2">
+<td valign="top" rowspan="3">
 
-`Standard_D4s_v5`
+`Standard_D2s_v5`
 
 </td>
+<td valign="top">
+
+`Standard_D2s_v5`
+
+</td>
+<td valign="top">
+
+2vCPU, 8GB RAM
+
+</td>
+</tr>
+<tr>
 <td valign="top">
 
 `Standard_D4s_v5`
@@ -1144,7 +1156,7 @@ Allowed Input
 <tr>
 <td valign="top">
 
-*CIDR range for nodes\**
+*CIDR range for Nodes\**
 
 btp CLI parameter: `nodes`
 
@@ -1153,7 +1165,7 @@ type: string
 </td>
 <td valign="top">
 
-Defines a custom IP range for worker nodes.
+Defines a custom IP range for worker Nodes.
 
 </td>
 <td valign="top">
@@ -1168,17 +1180,81 @@ Provisioning
 </td>
 <td valign="top">
 
-CIDR range for nodes must not overlap with the following CIDRs: 10.96.0.0/13, 10.104.0.0/13, 10.243.128.0/17, 10.242.0.0/16, 10.243.0.0/17, 10.64.0.0/11, 10.254.0.0/16, 10.243.0.0/16
+CIDR range for Nodes must not overlap with the following CIDRs: 10.96.0.0/13, 10.104.0.0/13, 10.243.128.0/17, 10.242.0.0/16, 10.243.0.0/17, 10.64.0.0/11, 10.254.0.0/16, 10.243.0.0/16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*CIDR range for Pods*
+
+btp CLI parameter: `pods`
+
+type: string
+
+</td>
+<td valign="top">
+
+Defines a custom IP range for Pods.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+10.96.0.0/13
+
+</td>
+<td valign="top">
+
+CIDR range for Pods must not overlap with the following CIDRs: 10.96.0.0/13, 10.104.0.0/13, 10.243.128.0/17, 10.242.0.0/16, 10.243.0.0/17, 10.64.0.0/11, 10.254.0.0/16, 10.243.0.0/16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*CIDR range for Services*
+
+btp CLI parameter: `services`
+
+type: string
+
+</td>
+<td valign="top">
+
+Defines a custom IP range for Services.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+10.104.0.0/13
+
+</td>
+<td valign="top">
+
+CIDR range for Services must not overlap with the following CIDRs: 10.96.0.0/13, 10.104.0.0/13, 10.243.128.0/17, 10.242.0.0/16, 10.243.0.0/17, 10.64.0.0/11, 10.254.0.0/16, 10.243.0.0/16
 
 </td>
 </tr>
 </table>
 
-Here is the default JSON input for *CIDR range for nodes*:
+Here is the default JSON input for the *Networking* object:
 
 ```
 "networking": {
         "nodes": "10.250.0.0/22"
+        "pods": "10.96.0.0/13"
+        "services": "10.104.0.0/13"
     }
 
 ```
@@ -1621,14 +1697,14 @@ Australia \(Sydney\)
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="5">
+<td valign="top" rowspan="6">
 
 Google Cloud
 
 technical name: `gcp`
 
 </td>
-<td valign="top" rowspan="5">
+<td valign="top" rowspan="6">
 
 Provisioning
 
@@ -1689,6 +1765,18 @@ Japan \(Osaka\)
 <td valign="top">
 
 KSA \(Dammam\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`me-west1`
+
+</td>
+<td valign="top">
+
+Israel \(Tel Aviv\)
 
 </td>
 </tr>

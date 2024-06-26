@@ -22,7 +22,7 @@ OData outbound communication can be established using so-called communication ar
 
     1.  In your ABAP project, select the relevant package node in the Project Explorer.
 
-        Open the context menu and choose *File* \> *New* \> *Other* \> *ABAP Repository Object* \> *Cloud Communication Managemengt* \> *Outbound Service* \> *Next* to launch the creation wizard.
+        Open the context menu and choose *File* \> *New* \> *Other* \> *ABAP Repository Object* \> *Cloud Communication Management* \> *Outbound Service* \> *Next* to launch the creation wizard.
 
     2.  Select *HTTP Service* in the *Service Type* dropdown list.
 

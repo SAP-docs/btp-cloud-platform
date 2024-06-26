@@ -25,9 +25,9 @@ If you want to use SAP Event Mesh as backend for Kyma Eventing, you must first s
 
 1.  Log in to Kyma dashboard. The URL is in the *Overview* section of your subaccount.
 
-2.  To generate an SAP Event Mesh Secret, select a namespace and go to *Service Management* \> *BTP Service Instance*.
+2.  To generate an SAP Event Mesh Secret, select a namespace and go to *Service Management* \> *Service Instances*.
 
-3.  Choose *Create Service Instance +*, and enter the following information:
+3.  Choose *Create*, and enter the following information:
 
     -   *Name* - enter or generate the name of your instance.
 
@@ -36,7 +36,7 @@ If you want to use SAP Event Mesh as backend for Kyma Eventing, you must first s
     -   *Plan Name* - type: `default`.
 
 
-4.  Go to the *YAML* tab, and paste the following sample `config.json` file under the `parameters` key.
+4.  In *Parameters*, paste the following sample `config.json`:
 
     ```
     {
@@ -66,17 +66,17 @@ If you want to use SAP Event Mesh as backend for Kyma Eventing, you must first s
         "units": "10"
       },
       "version": "1.1.0",
-      "emname": "{EVENT_MESH_NAME}",
-      "namespace": "{EVENT_MESH_NAMESPACE}"
+      "emname": "<{EVENT_MESH_NAME}>",
+      "namespace": "<{EVENT_MESH_NAMESPACE}>"
     }
     ```
 
-5.  Replace *<\{EVENT\_MESH\_NAME\}\>* and *<\{EVENT\_MESH\_NAMESPACE\}\>* with your own values.
+5.  Replace *<\{EVENT\_MESH\_NAME\}\>* and *<\{EVENT\_MESH\_NAMESPACE\}\>* with the values you want your SAP Event Mesh instance to have.
 
     > ### Note:  
-    > The *<\{EVENT\_MESH\_NAMESPACE\}\>* field cannot exceed 64 characters, or begin or end with a dot or hyphen: It must follow the [SAP Event Specification](https://help.sap.com/viewer/bf82e6b26456494cbdd197057c09979f/Cloud/en-US/00d56d697c7549408cfacc8cb6a46b11.html).
+    > The *<\{EVENT\_MESH\_NAMESPACE\}\>* must follow the [SAP Event Specification](https://help.sap.com/viewer/bf82e6b26456494cbdd197057c09979f/Cloud/en-US/00d56d697c7549408cfacc8cb6a46b11.html); for example, it cannot exceed 64 characters, or begin or end with a dot or hyphen.
 
-6.  Go to *Service Management* \> *BTP Service Bindings* and choose *Create Service Binding +*.
+6.  Go to *Service Management* \> *Service Bindings* and choose *Create*.
 
 7.  Provide the name of your binding, select the name of your instance from the list, and choose *Create*.
 

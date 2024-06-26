@@ -727,6 +727,38 @@ gcp
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
+il30
+
+</td>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+cf-il30
+
+</td>
+<td valign="top">
+
+Israel \(Tel Aviv\)
+
+</td>
+<td valign="top">
+
+gcp
+
+</td>
+</tr>
 </table>
 
 > ### Note:  
@@ -1150,12 +1182,12 @@ US East \(VA\)
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="5">
+<td valign="top" rowspan="6">
 
 Google Cloud
 
 </td>
-<td valign="top" rowspan="5">
+<td valign="top" rowspan="6">
 
 gcp
 
@@ -1216,6 +1248,18 @@ Japan \(Osaka\)
 <td valign="top">
 
 KSA \(Dammam\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`me-west1`
+
+</td>
+<td valign="top">
+
+Israel \(Tel Aviv\)
 
 </td>
 </tr>

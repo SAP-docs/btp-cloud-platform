@@ -4,10 +4,10 @@
 
 Learn how to add, edit, and delete org members in the cockpit.
 
--   [Add Org Members Using the Cockpit](add-org-members-using-the-cockpit-a4eeaf1.md)
+-   [Add Org Members](add-org-members-a4eeaf1.md)
 
--   [Edit Org Members Using the Cockpit](edit-org-members-using-the-cockpit-fdbeabb.md)
+-   [Edit Org Members](edit-org-members-fdbeabb.md)
 
--   [Delete Org Members Using the Cockpit](delete-org-members-using-the-cockpit-35a720c.md)
+-   [Delete Org Members](delete-org-members-35a720c.md)
 
 

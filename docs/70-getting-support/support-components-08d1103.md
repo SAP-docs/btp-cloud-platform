@@ -5845,6 +5845,7 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 <td valign="top">
 
 -   US Central \(IA\)
+-   India \(Mumbai\)
 
 
 
@@ -8432,6 +8433,7 @@ Cloud Offering with End-to-End visibility on Business Processes
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
+-   India \(Mumbai\)
 
 
 
@@ -12008,7 +12010,7 @@ Determine and calculate indirect taxes to support tax compliance.
 <tr>
 <td valign="top">
 
-[Platform Identity Provider](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/80edbe70b8f3478d8a59c21a91a47aa6.html) 
+[Platform Identity Provider Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/80edbe70b8f3478d8a59c21a91a47aa6.html) 
 
 </td>
 <td valign="top">
@@ -12405,6 +12407,7 @@ Enrich cloud offerings with decision modeling, management, and execution service
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
+-   India \(Mumbai\)
 
 
 

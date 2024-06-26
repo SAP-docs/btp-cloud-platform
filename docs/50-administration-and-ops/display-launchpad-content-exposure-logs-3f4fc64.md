@@ -6,6 +6,9 @@
 
 With this app, you can check the application log created when publishing launchpad content to SAP BTP. You can check, for example, when the publishing run started, if the publishing was successful or if there were any issues.
 
+> ### Note:  
+> Log entries about apps that are not exposed and have a severity level of *Information* do not indicate an error. Applications may not be exposed for various reasons. For example, inactive applications may not be exposed in either version of exposure, or apps without a tile may not be displayed in exposure version 2.
+
 
 
 <a name="loio3f4fc648f164483c8c97b742a9fe299e__section_dbw_bjd_djb"/>

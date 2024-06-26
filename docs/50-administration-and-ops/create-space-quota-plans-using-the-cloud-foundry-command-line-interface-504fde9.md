@@ -34,3 +34,8 @@ Specify the following parameters:
 -   `--allow-paid-service-plans`: Can provision instances of paid service plans
 -   `--disallow-paid-service-plans`: Can not provision instances of paid service plans
 
+**Related Information**  
+
+
+[Create Space Quotas](create-space-quotas-b13c4a2.md "You can use the cockpit to create space quotas.")
+

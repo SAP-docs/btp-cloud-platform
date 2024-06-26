@@ -31,7 +31,7 @@ Available Authentication via Outbound Communication User
 </th>
 <th valign="top">
 
-Available Authenticaiton via Business Users \(Principal Propagation\)
+Available Authentication via Business Users \(Principal Propagation\)
 
 </th>
 </tr>
@@ -205,9 +205,9 @@ SAML assertion authentication
 
 OpenID Connect bearer token
 
-OAuth 2.0 Authorization Code with Proof Key for Code Exchange \(PKCE\) \(only available for OData\)
+OAuth 2.0 Authorization Code with Proof Key for Code Exchange \(PKCE\)
 
-OAuth 2.0 SAML Bearer Assertion \(only available for OData\)
+OAuth 2.0 SAML Bearer Assertion
 
 </td>
 </tr>

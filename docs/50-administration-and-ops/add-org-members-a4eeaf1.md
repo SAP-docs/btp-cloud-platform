@@ -1,8 +1,8 @@
 <!-- loioa4eeaf179ee646b99558f27c0bae7b3e -->
 
-# Add Org Members Using the Cockpit
+# Add Org Members
 
-Add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.
+In the cockpit, add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.
 
 
 
@@ -26,7 +26,7 @@ Add users as org members and assign roles to grant the users access to informati
 
 ## Procedure
 
-1.  Navigate to your subaccount. Make sure that Cloud Foundry is enabled. For more information, see [Navigate to Orgs and Spaces](navigate-to-orgs-and-spaces-5bf8735.md).
+1.  Navigate to your subaccount in the cockpit. Make sure that Cloud Foundry is enabled. For more information, see [Navigate to Orgs and Spaces](navigate-to-orgs-and-spaces-5bf8735.md).
 
 2.  In the navigation area, choose *Cloud Foundry* \> *Org Members*.
 
@@ -67,15 +67,15 @@ Add users as org members and assign roles to grant the users access to informati
 
 ## Next Steps
 
--   To select or unselect roles for a member, see [Edit Org Members Using the Cockpit](edit-org-members-using-the-cockpit-fdbeabb.md).
+-   To select or unselect roles for a member, see [Edit Org Members](edit-org-members-fdbeabb.md).
 
--   To remove all the roles of a member, see [Delete Org Members Using the Cockpit](delete-org-members-using-the-cockpit-35a720c.md).
+-   To remove all the roles of a member, see [Delete Org Members](delete-org-members-35a720c.md).
 
     This action removes the member from the organization and any spaces in the org.
 
 -   If the users need to view or manage applications in spaces, add the users to the relevant spaces, too.
 
-    For more information, see [Add Space Members Using the Cockpit](add-space-members-using-the-cockpit-81d0b4d.md).
+    For more information, see [Add Space Members](add-space-members-81d0b4d.md).
 
 
 **Related Information**  

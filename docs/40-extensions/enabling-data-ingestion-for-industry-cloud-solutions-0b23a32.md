@@ -2,6 +2,9 @@
 
 # Enabling Data Ingestion for Industry Cloud Solutions
 
+> ### Note:  
+> The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
+
 SAP’s industry cloud provides specialized industry-focused solutions to help you optimize, extend, and transform your core business processes. Developed by SAP and SAP partners and based on SAP Business Technology Platform \(SAP BTP\), industry cloud solutions integrate with SAP S/4HANA Cloud and SAP Business Network. They help you take advantage of the latest industry-relevant innovations and extend existing capabilities in an efficient way. For a list of all industry cloud solutions published by SAP, see [SAP Store](https://store.sap.com/dcp/en/search?sortCode=name-asc&query=:name-asc:useCases:Industry%20Cloud:publisher:SAP).
 
 Data ingestion for industry cloud solutions allows supported industry cloud solutions to consume data from a shared data foundation instead of integrating with the source systems individually. This helps to simplify solution implementation, increase operational visibility, and improve data quality. For a list of all industry cloud solutions published by SAP that support data ingestion, see [Data Integration Overview](https://help.sap.com/docs/DI_ICS/925366f331c54ee88e2b61ddae0be9fc/88da41cc955e49f1b7080e882bae36d4.html).

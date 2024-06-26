@@ -20,7 +20,7 @@ You have the Org Manager role for the org in which you want to create a space qu
 
 
 
-<a name="task_igz_xgy_dzb__steps_l1r_b3w_4bb"/>
+<a name="task_igz_xgy_dzb__steps_ycr_pz5_qbc"/>
 
 ## Procedure
 
@@ -93,4 +93,6 @@ You have the Org Manager role for the org in which you want to create a space qu
 
 
 [Entitlements and Quotas](../10-concepts/entitlements-and-quotas-00aa2c2.md "When you purchase an enterprise account, you’re entitled to use a specific set of resources, such as the amount of memory that can be allocated to your applications.")
+
+[Create Space Quota Plans Using the Cloud Foundry Command Line Interface](create-space-quota-plans-using-the-cloud-foundry-command-line-interface-504fde9.md "You can use the Cloud Foundry Command Line Interface to create space quota plans.")
 

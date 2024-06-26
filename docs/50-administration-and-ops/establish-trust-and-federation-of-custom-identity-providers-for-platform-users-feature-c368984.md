@@ -97,7 +97,7 @@ You've configured trust in your tenant of SAP Cloud Identity Services, which is 
 
 -   Add platform users to your orgs and spaces.
 
-    For more information about adding members with the SAP BTP cockpit, see [Add Org Members Using the Cockpit](add-org-members-using-the-cockpit-a4eeaf1.md) and [Add Space Members Using the Cockpit](add-space-members-using-the-cockpit-81d0b4d.md).
+    For more information about adding members with the SAP BTP cockpit, see [Add Org Members](add-org-members-a4eeaf1.md) and [Add Space Members](add-space-members-81d0b4d.md).
 
     For more information about adding members with the command-line interface, see [Add Organization Members Using the Cloud Foundry Command Line Interface](add-organization-members-using-the-cloud-foundry-command-line-interface-1422a5d.md) and [Add Space Members Using the Cloud Foundry Command Line Interface](add-space-members-using-the-cloud-foundry-command-line-interface-d23ea8b.md).
 

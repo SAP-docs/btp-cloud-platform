@@ -184,7 +184,7 @@ See:
 
 [https://docs.cloudfoundry.org/concepts/roles.html\#roles](https://docs.cloudfoundry.org/concepts/roles.html#roles)
 
-[Add Org Members Using the Cockpit](../50-administration-and-ops/add-org-members-using-the-cockpit-a4eeaf1.md)
+[Add Org Members](../50-administration-and-ops/add-org-members-a4eeaf1.md)
 
 </td>
 <td valign="top">
@@ -199,7 +199,7 @@ See:
 
 [https://docs.cloudfoundry.org/concepts/roles.html\#roles](https://docs.cloudfoundry.org/concepts/roles.html#roles)
 
-[Add Space Members Using the Cockpit](../50-administration-and-ops/add-space-members-using-the-cockpit-81d0b4d.md)
+[Add Space Members](../50-administration-and-ops/add-space-members-81d0b4d.md)
 
 </td>
 </tr>

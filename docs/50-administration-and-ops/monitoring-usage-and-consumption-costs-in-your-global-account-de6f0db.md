@@ -82,16 +82,18 @@ Cloud Platform Enterprise Agreement \(CPEA\)
 </td>
 <td valign="top">
 
-Provides information relating to your cloud-credit usage per month as a percentage of your total cloud credits for the current contract phase and shows your monthly cloud credit usage trend.
+Provides information relating to your cloud-credit usage and costs per month relative to your total cloud credits for the current contract phase. It also shows your monthly trend of cloud-credit usage and costs.
+
+Use the *Usage* and *Costs* buttons to switch the view between usage and cost information.
 
 You'll see warnings if you're approaching or exceeded your cloud credit limit for the current contract phase. Any overages will be billed at list price, so make sure to contact SAP if you need more cloud credits.
 
 Pay attention to the following:
 
--   Cloud-credit usage information is displayed for the current contract phase only. The total contract duration is split into contract phases \(usually one year each\) and the total cloud credits are divided between these phases.
+-   Cloud-credit usage and cost information is displayed for the current contract phase only. The total contract duration is split into contract phases \(usually one year each\) and the total cloud credits are divided between these phases.
 -   Your cloud credit balance is calculated each month by deducting the corresponding costs of all SAP BTP services for the previous month.
 
-If your global account has received a cloud-credit refund at any time during the current contract phase, you may see a difference between your total usage and monthly usage in the chart.
+If your global account has received a cloud-credit refund at any time during the current contract phase, you may see a difference between your total usage/costs and the monthly usage/costs in the chart.
 
 </td>
 </tr>
@@ -118,10 +120,10 @@ If your global account uses a combination of the consumption-based commercial mo
 For example, if your subscription contract is entitled to consume a given service at a fixed cost for up to 100 unique site visits, and 151 unique site visits are registered, this card shows data relating only to the 51 visits that have exceeded the prepaid 100 visits.
 
 > ### Tip:  
-> To see more details about your contract, cloud credit or cost details, and a different perspective of usage versus costs, click <span class="SAP-icons-V5"></span> \(Expand\).
+> To see more details about your contract, cloud credit or cost details, click <span class="SAP-icons-V5"></span> \(Expand\).
 
 > ### Note:  
-> To extract all cost and usage data to a spreadsheet document for the last 12, 24, or 36 months, click the *Export* button. The default is 12 months. To choose a different period, click the button's menu. See [Exporting Usage and Cost Data Information](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_vt2_dg4_2jb).
+> To extract your cost and usage data to a spreadsheet document, use the *Export* option. For more information, see [Exporting Usage and Cost Data Information](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_vt2_dg4_2jb)..
 
 
 
@@ -397,7 +399,7 @@ See other useful tips, such as table sorting, filtering, and searching, in the [
 </td>
 <td valign="top">
 
-This perspective provides an overview of your charged usage across different subaccounts and directories within your account hierarchy. It is particularly useful for verifying cross charges within your company or organization.
+This perspective provides an overview of your charged usage across different subaccounts and directories within your account hierarchy. It is useful for verifying cross charges within your company or organization.
 
 Here are some useful tips for working in this perspective:
 
@@ -539,12 +541,22 @@ This graph is useful for seeing changes in usage trends over time, including the
 
 ## Exporting Usage and Cost Data Information
 
-To export your usage and cost data to a Microsoft Excel spreadsheet document, use the *Export* button menu in the upper area of the page, and choose the period; either the last 12, 24, or 36 months. If you click the *Export* button without choosing a period in the menu, the default is 12 months.
+To export your usage and cost data to a Microsoft Excel spreadsheet document, use the *Export* button menu in the upper area of the page.
 
 > ### Note:  
-> All of the information for the selected period is extracted to the Microsoft Excel document. It does not consider any of the filters you may have applied to the tables.
-> 
 > Cost information is exported only if your global account uses the consumption-based commercial information.
+
+The *Export* button menu has various options depending on the period and type of data that you want to export:
+
+-   If you want to export all data for the last 12 months, click the main *Export* button.
+-   If you want to export all data for the last 12, 24, or 36 months, click the button's dropdown menu and choose the relevant period.
+-   If you want to export only the data that you've currently filtered in the main table for the current month or last 12, 24, or 36 months, choose *Export* \> *Custom*.
+
+    > ### Tip:  
+    > Use this option also if you want to export all your cost and usage data for the current month without considering any currently set filters. To do this, deselect the *Export only filtered data* checkbox in the *Custom Export*dialog box.
+    > 
+    > In the *Custom Export* dialog box, you can also choose any label names \(keys\) that you want to add as dedicated columns to the `Subaccount Costs by Service` and `Actual Usage` sheets \(tabs\) in the exported Microsoft Excel file. Start typing to list the available label names for your existing subaccounts and directories. In the exported spreadsheet, the values for each selected label name will be displayed in the in the data rows under their respective label column.
+
 
 The exported document contains several sheets \(tabs\). The sheets that are included depend on the commercial model that is used by your global account as shown in the following table:
 

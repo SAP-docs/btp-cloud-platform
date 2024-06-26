@@ -2,7 +2,7 @@
 
 # Develop an SAP Fiori Application and Deploy it to Cloud Foundry Using SAP Business Application Studio
 
-Get an overview about how to create and deploy an SAP Fiori application to Cloud Foundry \(CF\) using SAP Business Application Studio.
+Get an overview about how to create and deploy an SAP Fiori application to Cloud Foundry using SAP Business Application Studio.
 
 
 
@@ -24,9 +24,9 @@ Get an overview about how to create and deploy an SAP Fiori application to Cloud
 
 ![](images/BAS_Deploy_to_CF_db62e69.png)
 
-1.  Create a multitarget application \(MTA\) project with approuter configuration.
+1.  Create an MTA project with approuter configuration.
 
-    To do so, choose *Fiori: Open CF Application Router Generator*. See [Generate an MTA Deployment File](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/9c41152c5b8d4a658d7ef9f318b28917.html).
+    To do so, use the *Fiori CF Application Router Generator*. See [Generate an MTA Deployment File](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/9c41152c5b8d4a658d7ef9f318b28917.html).
 
     This generates an MTA project and the corresponding application router configuration.
 

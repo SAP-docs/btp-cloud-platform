@@ -63,3 +63,5 @@ cf unset-space-role USERNAME ORG SPACE ROLE
 
 [Supported Tools and Services When Using Custom Identity Providers for Platform Users](supported-tools-and-services-when-using-custom-identity-providers-for-platform-users-94ef515.md "Not all tools and services of SAP BTP support the use of custom identity providers with platform users. We provide a list of tools and services, which support this feature and any restrictions that apply.")
 
+[Add Space Members Using the Cockpit](add-space-members-81d0b4d.md "You can add space members and assign roles to them at the space level in the cockpit.")
+

@@ -37,14 +37,14 @@ You can send and receive events in Kyma with the built-in eventing infrastructur
 
 3.  Go to *Kyma* \> *Eventing*, open the `eventing` resource, and choose *Edit*.
 
-4.  Under *Backend Type* section, select your preferred backend.
+4.  Under *Backend Type*, select your preferred backend.
 
-5.  If you selected *EventMesh*, go to *Event Mesh Secret*, and select the namespace and name of your binding.
+5.  If you selected *EventMesh*, go to *Event Mesh Secret*, and select the namespace and name of your SAP Event Mesh service binding.
 
     > ### Remember:  
     > If you selected *NATS*, make sure the Kyma NATS module is enabled.
 
-6.  Choose *Update*.
+6.  Choose *Save*.
 
 
 
@@ -55,7 +55,7 @@ You can send and receive events in Kyma with the built-in eventing infrastructur
 
 You have set up your eventing backend for Kyma.
 
-If you want to choose another backend, edit the `eventing` resource again, select the preferred backend, and update the resource.
+If you want to choose another backend, edit the `eventing` resource again, select the preferred backend, and save your changes.
 
 You can no longer return to an empty eventing backend.
 
