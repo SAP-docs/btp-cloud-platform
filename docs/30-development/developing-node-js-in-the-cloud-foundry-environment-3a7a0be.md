@@ -56,7 +56,7 @@ The SAP BTP, Cloud Foundry environment provides one recent version of **`nodejs_
     ```
 
 
-To learn about changes in Node.js versions and features, regularly check the latest [buildpack releases](https://github.com/cloudfoundry/nodejs-buildpack/releases) in the GitHub community page.
+To learn about changes in the Node.js buildpack's versions and features, regularly check the latest [buildpack releases](https://github.com/cloudfoundry/nodejs-buildpack/releases) in the GitHub community page.
 
 
 
@@ -107,7 +107,7 @@ To check the latest news and updates about the Node.js buildpack, go to its rele
 > 
 > -   [Deprecation of Cloud Foundry Stack cflinuxfs3 and Migration to cflinuxfs4](https://blogs.sap.com/2023/02/16/deprecation-of-cloud-foundry-stack-cflinuxfs3-and-migration-to-cflinuxfs4/)
 > 
-> -   [What's New for SAP BTP, Cloud Foundry Runtime \(cflinuxfs\)](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%20BTP,%20Cloud%20Foundry%20Runtime&q=cflinuxfs&locale=en-US&version=Cloud)
+> -   What's New for SAP BTP, Cloud Foundry Runtime \(cflinuxfs\)
 
 
 

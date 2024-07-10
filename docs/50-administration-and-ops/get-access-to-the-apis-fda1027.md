@@ -10,7 +10,7 @@ To enable programmatic access to the SAP Authorization and Trust Management serv
 
 To get access to the APIs of the SAP Authorization and Trust Management service, use the SAP BTP command-line interface \(btp CLI\) to create API credentials. You can get API credentials that apply for the global account, directory, or subaccount.
 
-For more information, see [Managing API Credentials for Calling REST APIs of SAP Authorization and Trust Management Service](managing-api-credentials-for-calling-rest-apis-of-sap-authorization-and-trust-managemen-ce43eb5.md).
+For more information, see [security/api-credential](https://help.sap.com/docs/btp/btp-cli-command-reference/security-api-credential).
 
 
 
@@ -38,4 +38,11 @@ For more information, see [Managing API Credentials for Calling REST APIs of SAP
 
     With the client ID and client secret, or certificate, you can request an access token for the APIs in the targeted global account, directory, or subaccount.
 
+
+**Related Information**  
+
+
+[Managing API Credentials for Calling REST APIs of SAP Authorization and Trust Management Service](managing-api-credentials-for-calling-rest-apis-of-sap-authorization-and-trust-managemen-ce43eb5.md "Use the SAP BTP command line interface (btp CLI) to manage API credentials, which enable you to access the REST APIs of the SAP Authorization and Trust Management service.")
+
+[btp CLI Command Reference](https://help.sap.com/docs/btp/btp-cli-command-reference/btp-cli-command-reference)
 

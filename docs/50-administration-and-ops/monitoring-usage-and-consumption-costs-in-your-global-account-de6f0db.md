@@ -54,16 +54,12 @@ The upper area of the *Costs and Usage* page contains two side-by-side cards.
 
 ![](images/Costs_and_Usage_UI_-_Upper_Area_b057c4a.png "Simplified graphic of the upper area of the Costs and Usage page")
 
-The card on the left displays general info about your global account.
-
-The card on the right displays information relating to the total consumption of your contract in relation to the consumption-based commercial model, such as SAP BTP Enterprise Agreement \(SAP BTPEA\),Cloud Platform Enterprise Agreement \(CPEA\), and Pay-As-You-Go for SAP BTP, which is used by your global account. In this card, you'll see different information depending on the flavor of consumption-based commercial model that your global account uses:
-
 
 <table>
 <tr>
 <th valign="top">
 
-Consumption-Based Model Flavor
+Card
 
 </th>
 <th valign="top">
@@ -75,47 +71,48 @@ What Information is Displayed
 <tr>
 <td valign="top">
 
-SAP BTP Enterprise Agreement \(SAP BTPEA\)
-
-Cloud Platform Enterprise Agreement \(CPEA\)
+**Global Account Info** 
 
 </td>
 <td valign="top">
 
-Provides information relating to your cloud-credit usage and costs per month relative to your total cloud credits for the current contract phase. It also shows your monthly trend of cloud-credit usage and costs.
-
-Use the *Usage* and *Costs* buttons to switch the view between usage and cost information.
-
-You'll see warnings if you're approaching or exceeded your cloud credit limit for the current contract phase. Any overages will be billed at list price, so make sure to contact SAP if you need more cloud credits.
-
-Pay attention to the following:
-
--   Cloud-credit usage and cost information is displayed for the current contract phase only. The total contract duration is split into contract phases \(usually one year each\) and the total cloud credits are divided between these phases.
--   Your cloud credit balance is calculated each month by deducting the corresponding costs of all SAP BTP services for the previous month.
-
-If your global account has received a cloud-credit refund at any time during the current contract phase, you may see a difference between your total usage/costs and the monthly usage/costs in the chart.
+The *Global Account Info* card on the left displays general info about your global account.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Pay-As-You-Go for SAP BTP
+**SAP BTP Enterprise Agreement**
+
+or
+
+**Cloud Platform Enterprise Agreement**
 
 </td>
 <td valign="top">
 
-Provides information relating to your monthly charges.
+This is the card on the right; it provides information relating to your cloud-credit usage and costs per month relative to your total cloud credits for the current contract phase. It also shows your monthly trend of cloud-credit usage and costs.
 
-You pay only for the SAP BTP services that you use, and you are billed monthly in arrears.
+This card is displayed only if your global account uses either the SAP BTPEA or CPEA flavor of the consumption-based commercial model.
 
-If your global account has received a refund at any time during the current contract phase, you may see a difference between the displayed monthly costs and your billing document.
+Use the *Usage* and *Costs* buttons in this card to switch the view between usage and cost information.
+
+In this card, you'll see warnings if you're approaching or exceeded your cloud credit limit for the current contract phase. Any overages will be billed at list price, so make sure to contact SAP if you need more cloud credits.
+
+Note the following:
+
+-   Cloud-credit usage and cost information is displayed for the current contract phase only. The total contract duration is split into contract phases \(usually one year each\) and the total cloud credits are divided between these phases.
+-   Your cloud credit balance is calculated each month by deducting the corresponding costs of all SAP BTP services for the previous month.
+-   If your global account has received a cloud-credit refund at any time during the current contract phase, you may see a difference between your total usage/costs and the monthly usage/costs in the chart.
+
+
 
 </td>
 </tr>
 </table>
 
-If your global account uses a combination of the consumption-based commercial model and the subscription-based commercial model, this card shows billing and usage data that is charged solely according to the consumption-based commercial model. In other words, for services that are part of your subscription-based commercial agreement, the billing and usage data in this card apples only to consumption that exceeds your prepaid \(subscription\) quota. For this excess service usage, you are charged according to your contract for the consumption-based commercial model.
+Pay attention that if your global account uses a combination of the consumption-based commercial model and the subscription-based commercial model, the card on the right shows billing and usage data that is charged solely according to the consumption-based commercial model. In other words, for services that are part of your subscription-based commercial agreement, the billing and usage data in this card apples only to consumption that exceeds your prepaid \(subscription\) quota. For this excess service usage, you are charged according to your contract for the consumption-based commercial model.
 
 For example, if your subscription contract is entitled to consume a given service at a fixed cost for up to 100 unique site visits, and 151 unique site visits are registered, this card shows data relating only to the 51 visits that have exceeded the prepaid 100 visits.
 
@@ -229,15 +226,17 @@ For more information about this view, see [Using the Usage View](monitoring-usag
   
 **Simplified graphic of the Billing view of the Costs and Usage page**
 
-![](images/Costs_and_Usage_-_Billing_View_8ab0cc8.png "Simplified graphic of the Billing view of the Costs and Usage
-						page")
+![](images/Costs_and_Usage_-_Billing_View_8ab0cc8.png "Simplified graphic of the Billing view of the Costs and Usage						page")
 
 The *Costs and Usage* page uses the same terminology that is used in your monthly balance statement, which facilitates better contract-to-billing traceability and verification for cost controllers. Get your latest balance statement from [SAP for Me](https://me.sap.com/).
 
 > ### Remember:  
 > -   The monthly balance statement, which is provided separately, contains legally binding information regarding your monthly costs. Details about costs on the *Costs and Usage* page in the cockpit are provided for informational purposes only. Any discrepancy between the information displayed in the cockpit and the information in your balance statement will be resolved in favor of the balance statement.
 > -   Costs are displayed according to your contract currency.
-> -   Global accounts are the only contractual billable entity for SAP BTP. Directories and subaccounts are used as structural entities in global accounts, and their usage and cost data should only be used for your internal cost estimations. The relative calculation per billable usage within each subaccount is an estimation only as it is based on certain measures, which in some cases can either be different from the metrics that are presented on the global account level, or that use different formulas than the ones used for billing.
+> -   Global accounts are the only contractual billable entity for SAP BTP. Directories and subaccounts are used as structural entities in global accounts. The usage and cost data displayed for directories and subaccounts are estimations and may differ from the actual global account metrics. Hence, you should use their data only for internal cost estimations.
+> 
+>     The relative calculation per billable usage within each subaccount is an estimation only as it is based on certain measures, which in some cases can either be different from the metrics that are presented on the global account level, or that use different formulas than the ones used for billing.
+> 
 > -   Cloud credit information and monthly costs apply to all regions used by the subaccounts in your global account. Usage and cost data is updated after your monthly balance statement has been generated.
 > -   Usage data is updated after your monthly balance statement has been generated. For new global accounts, data is updated with the first billing cycle.
 > -   Prices are listed as estimates if a consumable item has not yet been billed.
@@ -245,7 +244,7 @@ The *Costs and Usage* page uses the same terminology that is used in your monthl
 > 
 >     These estimates are based on resource usage values before computation for billing and might change after the next balance statement is issued. The estimated values are not projected or forecast values.
 > 
-> -   Some SAP BTP services report their billing and usage at the global account level, and not at the subaccount level. Such services will be listed in the *Costs and Usage* page under a reserved account entity named `REPORTED-AT-GLOBAL-ACCOUNT-LEVEL` with the ID `DEFAULT_SA`.
+> -   Some SAP BTP services report their billing and usage at the global account level, and not at the subaccount level. Such services will be listed in the *Costs and Usage* page under a reserved technical entity named `REPORTED-AT-GLOBAL-ACCOUNT-LEVEL` with the ID `DEFAULT_SA`.
 
 Here are some useful tips that are common to both the *Billing* and *Usage* views:
 
@@ -379,12 +378,12 @@ Here are some useful tips for working in this perspective:
 
 -   To filter the main table for specific subaccounts or directories, use the *Subaccounts/Directories* dropdown list.
 
--   To view the monthly trend of a selected service plan over the last 12 months, scroll past the main table until you reach a graph. Choose the graph type in the *View By* dropdown list.
+-   To view the monthly trend of a specific service plan over the last 12 months, select the plan in the main table and then scroll down past the main table until you reach a chart. Choose the chart type in the *View By* dropdown list.
 
     > ### Tip:  
-    > The graphs are useful for seeing in which months a service plan has usage and costs, which service plans have increased or decreased usage/costs over time, or the months that have the highest and lowest usage/costs per service plan.
+    > The charts are useful for seeing in which months a service plan has usage and costs, which service plans have increased or decreased usage/costs over time, or the months that have the highest and lowest usage/costs per service plan.
     > 
-    > You can also switch to a graph that shows the cumulative costs of the selected service over time.
+    > You can also switch to a chart that shows the cumulative costs of the selected service over time.
 
 
 See other useful tips, such as table sorting, filtering, and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
@@ -417,12 +416,12 @@ Here are some useful tips for working in this perspective:
 -   You can quickly expand or collapse the entire account hierarchy by clicking the <span class="SAP-icons-V5"></span> \(Expand All\) and <span class="SAP-icons-V5"></span> \(Collapse All\) buttons.
 -   To filter the main table for specific services, use the *Services* dropdown list.
 
--   To view the monthly trend of a selected subaccount or directory over the last 12 months, scroll past the main table until you reach a graph. Choose the graph type in the *View By* dropdown list.
+-   To view the monthly trend of a specific subaccount or directory over the last 12 months, select the subaccount or directory in the main table and then scroll down past the main table until you reach a chart. Choose the chart type in the *View By* dropdown list.
 
     > ### Tip:  
-    > The graphs are useful for seeing in which months a subaccount or directory has usage and costs, which subaccounts or directories have increased or decreased usage/costs over time, or the months that have the highest and lowest usage/costs per subaccount or directory.
+    > The charts are useful for seeing in which months a subaccount or directory has usage and costs, which subaccounts or directories have increased or decreased usage/costs over time, or the months that have the highest and lowest usage/costs per subaccount or directory.
     > 
-    > You can also switch to a graph that shows the cumulative costs of the selected subaccount or directory over time.
+    > You can also switch to a chart that shows the cumulative costs of the selected subaccount or directory over time.
 
 
 See other useful tips, such as table sorting and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
@@ -519,14 +518,14 @@ Choose one or more subaccounts or directories in the *Subaccounts/Directories* d
 <tr>
 <td valign="top">
 
-View the monthly trend of a selected service plan over the last 12 months
+View the monthly trend of a specific service plan over the last 12 months
 
 </td>
 <td valign="top">
 
-Scroll down and view the graph below the main table.
+Select the service plan in the main table and the scroll down past the table to view the chart.
 
-This graph is useful for seeing changes in usage trends over time, including the months with the highest and lowest usage per service.
+This chart is useful for seeing changes in usage trends over time, including the months with the highest and lowest usage per service.
 
 </td>
 </tr>

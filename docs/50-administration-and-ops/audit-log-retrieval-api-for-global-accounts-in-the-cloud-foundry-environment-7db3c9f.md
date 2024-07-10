@@ -23,6 +23,9 @@ Retrieving of audit logs via Audit Log Retrieval API is limited to the size of t
 
 The API returns a HTTP 429 response code when the limit is exceeded.
 
+> ### Note:  
+> Custom managed key \(CMK\) is not supported for audit logs generated on Global Account level.
+
 
 
 <a name="loio7db3c9f8eba74d9f90c9d07a3c0d7762__section_xyx_ym3_t5b"/>

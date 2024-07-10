@@ -234,8 +234,6 @@ Administrators are any SAP BTP cockpit users with the *User and Role Administrat
 
 [About Roles in the Cloud Foundry Environment](../50-administration-and-ops/about-roles-in-the-cloud-foundry-environment-0907638.md "Roles determine which features users can view and access, and which actions they can initiate.")
 
- <?sap-ot O2O class="- topic/link " href="ebc9113a520e495ea5fb759b9a7929f2.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/0b406a94f4604a4f98bbe606ef92d50d.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
-
 [Default Role Collections of SAP BTP Cloud Foundry Environment \[Feature Set B\]](default-role-collections-of-sap-btp-cloud-foundry-environment-feature-set-b-a6a0072.md "The following table displays the default role collections available with cloud management tools feature set B after initially deploying your accounts. For more information, see the related links.")
 
 <a name="loio24c226d64f994d80879d5f2518c0d0ab"/>

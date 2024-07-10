@@ -1109,7 +1109,7 @@ eu30
 </td>
 <td valign="top">
 
-Europe \(Frankfurt\) GCP
+Europe \(Frankfurt\)
 
 </td>
 <td valign="top">
@@ -1161,7 +1161,7 @@ in30
 </td>
 <td valign="top">
 
-India \(Mumbai\) GCP
+India \(Mumbai\)
 
 </td>
 <td valign="top">
@@ -1197,6 +1197,58 @@ in30.hana.ondemand.com
 <td valign="top">
 
 [Feature Set B](https://cockpit.btp.cloud.sap/) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+il30
+
+</td>
+<td valign="top">
+
+Israel \(Tel Aviv\)
+
+</td>
+<td valign="top">
+
+cf-il30
+
+</td>
+<td valign="top">
+
+me-west1
+
+</td>
+<td valign="top">
+
+34.165.0.14, 34.165.0.115, 34.165.5.181, 34.165.5.246, 34.165.7.73, 34.165.12.173, 34.165.16.177, 34.165.16.210, 34.165.17.27, 34.165.18.240, 34.165.21.242, 34.165.24.112, 34.165.26.162, 34.165.37.171, 34.165.38.114, 34.165.40.240, 34.165.41.254, 34.165.80.207, 34.165.81.54, 34.165.110.15, 34.165.136.9, 34.165.150.108, 34.165.168.74, 34.165.171.197, 34.165.172.4, 34.165.194.20, 34.165.222.104, 34.165.223.90, 34.165.228.95, 34.165.231.165
+
+</td>
+<td valign="top">
+
+34.165.59.26
+
+</td>
+<td valign="top">
+
+api.cf.il30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+il30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Feature Set B](https://cockpit.btp.cloud.sap/)
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ Learn how to install and set up abapGit.
 
 
 -   You have signed up for a Git account of your choice, for example GitHub.
--   You have downloaded and installed the front-end components of [ABAP Development Tools \(ADT\)](https://tools.hana.ondemand.com/#abap). See [Video Tutorial: Configure Developer Tools](https://www.youtube.com/watch?v=iDcAPYjwTV0&list=PLkzo92owKnVxWqJSoFLGe1VRkzOs4Ucdr&index=3&t=0s).
+-   You have downloaded and installed the front-end components of [ABAP Development Tools \(ADT\)](https://tools.hana.ondemand.com/#abap).
 
 
 > ### Restriction:  

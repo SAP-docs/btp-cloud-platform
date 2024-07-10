@@ -99,7 +99,7 @@ btp CLI parameter: `oidc`
 </td>
 <td valign="top">
 
-Provides a custom Open ID Connect \(OIDC\) configuration.
+Provides a custom OpenID Connect \(OIDC\) configuration.
 
 </td>
 <td valign="top">
@@ -349,9 +349,9 @@ Updating
 
 <a name="loiobefe01d5d8864e59bf847fa5a5f3d669__section_y4g_qld_hpb"/>
 
-## Amazon Web Services, Google Cloud, and Microsoft Azure
+## Standard: Amazon Web Services, Google Cloud, and Microsoft Azure
 
-The technical names of the enterprise plans are `aws`, `gcp`, and `azure`. They offer highly available Kubernetes clusters, where the Kubernetes and Kyma configurations are optimized for production use cases. The Kubernetes worker nodes are deployed in three availability zones of the respective [cloud region](../10-concepts/regions-for-the-kyma-environment-557ec3a.md), and thus can provide zone level failure tolerance for Kyma and applications deployed on Kyma runtime.
+The technical names of the standard enterprise plans are `aws`, `gcp`, and `azure`. They offer highly available Kubernetes clusters, where the Kubernetes and Kyma configurations are optimized for production use cases. The Kubernetes worker nodes are deployed in three availability zones of the respective [cloud region](../10-concepts/regions-for-the-kyma-environment-557ec3a.md), and thus can provide zone level failure tolerance for Kyma and applications deployed on Kyma runtime.
 
 The [Kubernetes control plane](https://kubernetes.io/docs/reference/glossary/?all=true#term-control-plane) is also hosted in three availability zones of the respective region.
 
@@ -360,7 +360,7 @@ While the high availability is guaranteed for Kubernetes and native Kyma compone
 > ### Remember:  
 > The parameters marked with an asterisk "\*" are mandatory.
 
-**Amazon Web Services, Google Cloud, and Microsoft Azure Plans Specification**
+**Standard Plan Specification**
 
 
 <table>
@@ -618,14 +618,14 @@ Updating
 
 <a name="loiobefe01d5d8864e59bf847fa5a5f3d669__section_vbl_4w4_wsb"/>
 
-## Azure Lite
+## Kyma Test Demo and Development \(Azure Lite\)
 
-The technical name of the plan is `azure_lite`. The Azure Lite plan is offered to Partners, who can use it for testing, development, and demo purposes.
+The technical name of the plan is `azure_lite`. The Kyma Test Demo and Development plan is offered to Partners, who can use it for testing, development, and demo purposes.
 
 > ### Remember:  
 > The parameters marked with an asterisk "\*" are mandatory.
 
-**Azure Lite Plan Specification**
+**Kyma Test Demo and Development Plan Specification**
 
 
 <table>
@@ -889,4 +889,8 @@ Updating
 [Kyma Modules](../10-concepts/kyma-modules-0dda141.md "With Kyma's modular approach, you can install just the modules you need, instead of a predefined set of components.")
 
 [Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md "Use the SAP BTP command line interface (btp CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the SAP BTP cockpit for users who like to work in a terminal or want to automate operations using scripts.")
+
+[Commercial Information for Kyma Runtime](../10-concepts/commercial-information-for-kyma-runtime-c33bb11.md)
+
+[What Is the Consumption-Based Commercial Model?](../10-concepts/what-is-the-consumption-based-commercial-model-7047eb4.md "With the consumption-based model, your organization purchases an entitlement to all current and future SAP BTP services that are eligible for this model. Throughout the duration of your contract, you have complete flexibility to turn services on and off and to switch between services as your business requires.")
 

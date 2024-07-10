@@ -60,7 +60,7 @@ Free
 </td>
 <td valign="top">
 
-Subscribe to the 30-day free plan provided on Amazon Web Services. This plan uses Kyma on a limited size cluster \(2CPU - 8GB RAM\). The upgrade to the paid plan is not yet supported. Only best-effort support is available for free tier service plans and these are not subject to SLAs. The services you plan to use must be available in the same region as the subaccount for the Kyma runtime.
+Subscribe to the 30-day free plan provided on Amazon Web Services. This plan uses Kyma on a limited size cluster \(4 CPU - 16 GB RAM\). The upgrade to the paid plan is not yet supported. Only best-effort support is available for free tier service plans and these are not subject to SLAs. The services you plan to use must be available in the same region as the subaccount for the Kyma runtime.
 
 </td>
 </tr>

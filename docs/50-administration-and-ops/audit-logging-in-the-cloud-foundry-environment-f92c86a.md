@@ -24,11 +24,11 @@ SAP Audit Log is a core, security, and compliance-based SAP BTP service to provi
 
 The advanced features enable you to comply with the SAP Product Standards and Business Industry regulations you're subject to. To enable the advanced features, you need to enable the premium edition service plan, where additional costs are applied based on the consumed volumes.
 
-Audit logs are a special type of logs. They represent security-relevant chronological records that provide documentary evidence for an event or activity. The following table gives you a better understanding what is the difference between audit logs, activity logs, and application logs. The SAP Audit Log service only stores audit logs written by SAP BTP services, when you take action over your account data.
+Audit logs are a special type of logs. They represent security-relevant chronological records that provide documentary evidence for an event or activity. The following table gives you a better understanding what is the difference between audit logs, activity logs, and application logs. The SAP Audit Log only stores audit logs written by SAP BTP services, when you take action over your account data.
 
 ![](images/Log_type_differences_325f42d.png)
 
-The SAP Audit Log service stores audit logs representing different actions taken over your account and/or data. There are predefined audit categories, which represent such kinds of actions:
+The SAP Audit Log stores audit logs representing different actions taken over your account and/or data. There are predefined audit categories, which represent such kinds of actions:
 
 -   Data protection and privacy related
 

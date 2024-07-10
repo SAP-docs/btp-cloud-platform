@@ -197,7 +197,7 @@ The SaaS solution operator is responsible for creating the account model on the 
 
 -   Monitoring of system/tenant provisioning and user onboarding. See [Operations Dashboard](operations-dashboard-0a3a735.md).
 
--   > ### gCTS Delivery:  
+-   > ### Note:  
     > If you use gCTS for delivery to customer production systems instead of using add-ons, you are responsible for cloning software components and pulling the latest changes into the system using the *Manage Software Components* app.
     > 
     > See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).

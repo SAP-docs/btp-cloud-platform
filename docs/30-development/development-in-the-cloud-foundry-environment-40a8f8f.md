@@ -43,7 +43,7 @@ Optimize development and operations
 </b></dt>
 <dd>
 
-Use the rich set of SAP BTP services including messaging, persistence, and many other capabilities.
+Use the rich set of SAP BTP services including messaging, persistence, and many other capabilities, such as built-in security, compliance, elastic scale, and high-availability setup.
 
 
 
@@ -55,6 +55,28 @@ Use the application programming model
 <dd>
 
 Use programming languages, libraries, and APIs tailored for full-stack application development.
+
+
+
+</dd><dt><b>
+
+Manage Cloud Foundry orgs and spaces 
+
+</b></dt>
+<dd>
+
+Create and delete Cloud Foundry orgs and spaces and add members. Create, assign, and change space quota plans.
+
+
+
+</dd><dt><b>
+
+Use built-in cloud-native capabilities 
+
+</b></dt>
+<dd>
+
+Utilize cloud-native principles built into the platform, such as containerization and multitenancy, to create resilient, portable, and efficient applications.
 
 
 

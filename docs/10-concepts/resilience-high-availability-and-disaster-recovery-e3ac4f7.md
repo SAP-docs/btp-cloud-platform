@@ -46,24 +46,24 @@ To achieve better fault-tolerance in the Cloud Foundry environment, we deploy ou
 </td>
 <td valign="top">
 
-All regions that support the Cloud Foundry environment. See [Regions and API Endpoints Available for the Cloud Foundry Environment](regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md).
+All regions that support the Cloud Foundry runtime. See [Regions and API Endpoints Available for the Cloud Foundry Environment](regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md).
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-**Backups in the Kyma environment** 
+**Backups in Kyma runtime** 
 
 </td>
 <td valign="top">
 
-The Kyma environment relies on managed Kubernetes clusters for periodic backups of Kubernetes objects. For more information, see [Kyma Environment Backup](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/ab959cfbd07b46af97aecfd6577bfb10.html).
+Kyma runtime relies on managed Kubernetes clusters for periodic backups of Kubernetes objects. For more information, see [Kyma Environment Backup](../50-administration-and-ops/kyma-environment-backup-ab959cf.md).
 
 </td>
 <td valign="top">
 
-All regions that support the Kyma environment. See [Regions for the Kyma Environment](regions-for-the-kyma-environment-557ec3a.md).
+All regions that support the Kyma runtime. See [Regions for the Kyma Environment](regions-for-the-kyma-environment-557ec3a.md).
 
 </td>
 </tr>

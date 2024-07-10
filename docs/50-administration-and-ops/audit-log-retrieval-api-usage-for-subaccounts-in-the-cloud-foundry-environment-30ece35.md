@@ -201,7 +201,15 @@ Supported request parameters:
 
 -   `handle` - in case the result set is too large, it's chunked, and a handle is returned for reading the next chunk. The handle is returned as a Response Header in the form: Paging: `handle=<value>`. Then you can provide `handle=<value>` as a request parameter in the subsequent retrieval request.
 
--   `filter_message_type` - this parameter allows you to filter the audit logs by predefined event types. If no event type is specified, all event types are returned. The available event types are `audit.security-events`, `audit.configuration`, `audit.data-access`, and `audit.data-modification`. To filter by a specific event type, provide the event type name as the value for this parameter, for example `filter_message_type=audit.data-access`.
+-   `category` - this parameter allows you to filter the audit logs by predefined event types. If no event type is specified, all event types are returned. The available event types are:
+
+    -   `audit.security-events`
+
+    -   `audit.configuration`
+    -   `audit.data-access`
+    -   `audit.data-modification`
+
+    To filter by a specific event type, provide the event type name as the value for this parameter, for example `category=audit.data-access`. Multiple event types can be specified separated by commas, for example `category=audit.data-access,audit.configuration`.
 
     > ### Note:  
     > To use this feature, you must have the `edp=true` parameter present as well, otherwise this filter is ignored.
@@ -235,12 +243,12 @@ Execute the following HTTP GET request:
 
 ### Example: Get audit logs filtered by event type
 
-You can query for one of the predefined audit log event types for the `filter_message_type` parameter.
+You can query for one of the predefined audit log event types for the `category` parameter.
 
 Execute the following HTTP GET request:
 
 ```
-<url_from_service_key>/auditlog/v2/auditlogrecords?time_from=2018-05-10T10:42:00&time_to=2018-05-11T10:46:00&filter_message_type=audit.data-access&edp=true
+<url_from_service_key>/auditlog/v2/auditlogrecords?time_from=2018-05-10T10:42:00&time_to=2018-05-11T10:46:00&category=audit.data-access&edp=true
 ```
 
 > ### Note:  

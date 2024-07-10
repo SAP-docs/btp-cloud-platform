@@ -9,7 +9,7 @@ Once you have configured and implemented the customer project, the SaaS solution
 > ### Tip:  
 > We recommend providing documentation for your solution that includes specific configuration steps, for example to describe which business roles users have to create. In the following, we only describe the generic configuration steps.
 
-> ### gCTS Delivery:  
+> ### Note:  
 > If you use gCTS for delivery to a customer production system AMT instead of add-ons, the system is initially created without application content. Therefore, you have to clone the required software components manually.
 > 
 > For the initial import of a software component, as a SaaS solution operator on the provider side, you have to clone the software component in the customer production system AMT. The system can be accessed via the*Landscape Portal* application. In the *Landscape Portal*, the *Systems Overview* app provides an overview about the provisioned systems. Open the system that has been created during subscription to the multitenant application. In the *Tenants Overview*, the production tenant \(client 100\) can then be opened for provider access.

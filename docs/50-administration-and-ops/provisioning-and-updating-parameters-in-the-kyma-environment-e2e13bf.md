@@ -88,11 +88,11 @@ Allowed Input
 <tr>
 <td valign="top">
 
-Amazon Web Services \(technical name: `aws`\)
+Standard: Amazon Web Services \(technical name: `aws`\)
 
-Google Cloud \(technical name: `gcp`\)
+Standard: Google Cloud \(technical name: `gcp`\)
 
-Microsoft Azure \(technical name: `azure`\)
+Standard: Microsoft Azure \(technical name: `azure`\)
 
 </td>
 <td valign="top">
@@ -109,19 +109,19 @@ Updating
 </td>
 <td valign="top">
 
-80
+300
 
 </td>
 <td valign="top">
 
-Number between 3 and 80, but greater than or equal to *Auto Scaler Min*.
+Number between 3 and 300, but greater than or equal to *Auto Scaler Min*.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Azure Lite
+Kyma Test Demo and Development \(Azure Lite\)
 
 \(technical name: `azure_lite`\)
 
@@ -199,11 +199,11 @@ Allowed Input
 <tr>
 <td valign="top">
 
-Amazon Web Services \(technical name: `aws`\)
+Standard: Amazon Web Services \(technical name: `aws`\)
 
-Google Cloud \(technical name: `gcp`\)
+Standard: Google Cloud \(technical name: `gcp`\)
 
-Microsoft Azure \(technical name: `azure`\)
+Standard: Microsoft Azure \(technical name: `azure`\)
 
 </td>
 <td valign="top">
@@ -232,7 +232,7 @@ Number between 3 and the current value set in *Auto Scaler Max*.
 <tr>
 <td valign="top">
 
-Azure Lite
+Kyma Test Demo and Development \(Azure Lite\)
 
 \(technical name: `azure_lite`\)
 
@@ -375,7 +375,7 @@ Virtual Machine Size
 <tr>
 <td valign="top" rowspan="12">
 
-Amazon Web Services
+Standard: Amazon Web Services
 
 technical name: `aws`
 
@@ -538,7 +538,7 @@ Updating
 <tr>
 <td valign="top" rowspan="6">
 
-Google Cloud
+Standard: Google Cloud
 
 technical name: `gcp`
 
@@ -629,7 +629,7 @@ Updating
 <tr>
 <td valign="top" rowspan="13">
 
-Microsoft Azure
+Standard: Microsoft Azure
 
 technical name: `azure`
 
@@ -802,37 +802,25 @@ Updating
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="3">
+<td valign="top" rowspan="2">
 
-Azure Lite
+Kyma Test Demo and Development \(Azure Lite\)
 
 technical name: `azure_lite`
 
 </td>
-<td valign="top" rowspan="3">
+<td valign="top" rowspan="2">
 
 Provisioning
 
 Updating
 
 </td>
-<td valign="top" rowspan="3">
+<td valign="top" rowspan="2">
 
-`Standard_D2s_v5`
-
-</td>
-<td valign="top">
-
-`Standard_D2s_v5`
+`Standard_D4s_v5`
 
 </td>
-<td valign="top">
-
-2vCPU, 8GB RAM
-
-</td>
-</tr>
-<tr>
 <td valign="top">
 
 `Standard_D4s_v5`
@@ -1551,7 +1539,7 @@ Region Name
 <tr>
 <td valign="top" rowspan="11">
 
-Amazon Web Services
+Standard: Amazon Web Services
 
 technical name: `aws`
 
@@ -1699,7 +1687,7 @@ Australia \(Sydney\)
 <tr>
 <td valign="top" rowspan="6">
 
-Google Cloud
+Standard: Google Cloud
 
 technical name: `gcp`
 
@@ -1781,18 +1769,18 @@ Israel \(Tel Aviv\)
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="9">
+<td valign="top" rowspan="10">
 
-Microsoft Azure
+Standard: Microsoft Azure
 
 technical name: `azure`
 
-Azure Lite
+Kyma Test Demo and Development \(Azure Lite\)
 
 technical name: `azure_lite`
 
 </td>
-<td valign="top" rowspan="9">
+<td valign="top" rowspan="10">
 
 Provisioning
 
@@ -1901,6 +1889,18 @@ Singapore
 <td valign="top">
 
 Australia \(Sydney\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`switzerlandnorth`
+
+</td>
+<td valign="top">
+
+Switzerland \(Zurich\)
 
 </td>
 </tr>

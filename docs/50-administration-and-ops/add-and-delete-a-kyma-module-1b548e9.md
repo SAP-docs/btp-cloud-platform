@@ -32,6 +32,8 @@ Follow this procedure to easily add a module from the dashboard's *Cluster Detai
 
 3.  In the *Add Modules* section, check the modules you want to add, and select *Add*.
 
+4.  **Optional:** At the module level, you can overwrite the default release channel for the modules you are adding: Under the *Advanced* options, choose your preferred release channel.
+
 
 
 

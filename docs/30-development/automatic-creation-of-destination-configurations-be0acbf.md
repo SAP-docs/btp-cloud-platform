@@ -85,8 +85,3 @@ You would typically use the automatic creation of destination configurations in 
 >             secretName: myapp-destination-binding
 > ```
 
-**Related Information**  
-
-
- <?sap-ot O2O class="- topic/link " href="9675b64bc8014f4282e49d0cd8ce60fa.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/be0acbfdd48d4678b8b4d81f708c373b.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
-

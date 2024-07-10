@@ -50,9 +50,9 @@ While the IAM business catalog defines the access to the apps, the space and pag
 
 ### Scoping
 
-Fiori space and page templates are not visible in the development system by default and therefore cannot be used. To use them in the development system, you need to programmatically scope them. See [Scoping Space and Page Templates](scoping-space-and-page-templates-74d5b1a.md) for more details about scoping.
+Fiori space and page templates are not visible in the development system by default and therefore cannot be used. To use them, you need to programmatically scope them. See [Scoping Space and Page Templates](scoping-space-and-page-templates-74d5b1a.md) for more details about scoping.
 
-After you have scoped the page and space template , they are visible as predefined spaces and pages in the [Manage Launchpad Spaces](https://help.sap.com/docs/btp/user-interface-configurations/manage-launchpad-spaces?version=Cloud) and [Manage Launchpad Pages](https://help.sap.com/docs/btp/user-interface-configurations/manage-launchpad-pages?version=Cloud) apps.
+After you have scoped the page and space template, they are visible as predefined spaces and pages in the [Manage Launchpad Spaces](https://help.sap.com/docs/btp/user-interface-configurations/manage-launchpad-spaces?version=Cloud) and [Manage Launchpad Pages](https://help.sap.com/docs/btp/user-interface-configurations/manage-launchpad-pages?version=Cloud) apps.
 
 > ### Restriction:  
 > Creation of Space Templates and Page Templates
@@ -83,25 +83,6 @@ For non-ABAP based texts, such as those found in the SAP Fiori application, a di
 
 
 
-<a name="loio1d9deef79d7d4936850b2d6343206ec8__section_krv_33n_ktb"/>
-
-## Integrating the SAP Fiori App into SAP Fiori launchpad
-
-To make an SAP Fiori application accessible on the SAP Fiori launchpad home page of business users, you have to log on to the system as an administrator and perform the following step:
-
--   Create a launchpad space and page, and add the app. See [Adding Apps to a Page](https://help.sap.com/docs/BTP/fd8f9fda63fa4c7a92bb1d4b4ac5582c/57cbbebee44e4f019e807c208ec6ea2e.html?version=Cloud).
-
-    > ### Note:  
-    > The space and page need to be recorded on a customizing request.
-
--   Assign the launchpad space to the business role you have created earlier. For users that are assigned to the business role and catalog, the space, page, and tile are displayed on the home page so that they can launch the application.
-
-
-> ### Restriction:  
-> You can't assign the tile to a group in SAP Fiori launchpad.
-
-
-
 <a name="loio1d9deef79d7d4936850b2d6343206ec8__section_qn2_2gd_bbc"/>
 
 ## Providing Access to Business Users
@@ -116,7 +97,7 @@ To make an SAP Fiori application accessible on the SAP Fiori launchpad home page
 
     -   ![](images/businessrole_1192b2a.png)
 
-        -   The space and page need to be recorded on a customizing request . See [Export Customizing Transports](https://help.sap.com/docs/btp/sap-business-technology-platform/export-customizing-transports?version=Cloud)for more details on how to use it.
+        -   The space and page need to be recorded on a customizing request. See [Export Customizing Transports](https://help.sap.com/docs/btp/sap-business-technology-platform/export-customizing-transports?version=Cloud)for more details on how to use it.
 
 
 
@@ -125,7 +106,7 @@ To make an SAP Fiori application accessible on the SAP Fiori launchpad home page
     -   As recommended, use an application job that has specifically been created for scoping purposes. For a comprehensive understanding of scoping, refer to section [Scoping Space and Page Templates](https://help.sap.com/docs/btp/sap-business-technology-platform/scoping-space-and-page-templates?version=Cloud).
 
 
--   -   If you are using a group-based layout in the SAP Fiori launchpad, you must enable SAP Fiori launchpad spaces in the Manage Launchpad Settings app.
+-   If you are using a group-based layout in the SAP Fiori launchpad, you must enable SAP Fiori launchpad spaces in the Manage Launchpad Settings app.
 
     -   Enable spaces in the [Manage Launchpad Settings app](https://help.sap.com/docs/btp/user-interface-configurations/manage-launchpad-settings?version=Cloud).
 

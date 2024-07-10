@@ -58,8 +58,3 @@ For more information, see [Build ABAP Code into an Add-on Product and Make it Av
 > ### Caution:  
 > The tutorial group "Convert Your Add-on Product into a Tenant-aware SaaS Solution" is now replaced by the functionality of the [Maintain Solution app](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/maintain-solution?q=maintain%20solution).
 
-**Related Information**  
-
-
- <?sap-ot O2O class="- topic/link " href="72b0b1130ee243179b0905ea2cd5adb1.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/e3c38ebaefc44523b679e7a0c375bc86.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
-

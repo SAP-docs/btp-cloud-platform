@@ -25,7 +25,7 @@ The SAP BTP, Cloud Foundry environment provides one recent version of **`java_bu
     ```
 
 
-To learn about changes in Node.js versions and features, regularly check the latest [buildpack releases](https://github.com/cloudfoundry/nodejs-buildpack/releases) in the GitHub community page.
+To learn about changes in the Java buildpack's versions and features, regularly check the latest [buildpack releases](https://github.com/cloudfoundry/java-buildpack/releases) in the GitHub community page.
 
 
 

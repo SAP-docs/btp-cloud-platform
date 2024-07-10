@@ -254,8 +254,3 @@ To start working with SAP Cloud Management Service APIs in SAP Business Accelera
 > 
 > Refer to steps 2 and 3 of this topic to see how to get the values for Client ID, Client Secret, and Token URL fields.
 
-**Related Information**  
-
-
- <?sap-ot O2O class="- topic/link " href="ebc9113a520e495ea5fb759b9a7929f2.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/3670474a58c24ac2b082e76cbbd9dc19.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
-

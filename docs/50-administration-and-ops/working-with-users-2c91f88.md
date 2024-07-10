@@ -14,10 +14,15 @@ All users in the global account, subaccount, directories, and environments are s
 
 SAP BTP creates a copy of the user in the global account or in the subaccount when a user-related action happens. This copy of the user is called a shadow user. Global account or subaccount administrators of SAP BTP assign role collections to shadow users. To comply with data protection and privacy regulations, administrators can be obliged to delete shadow users who belonged to employees who left the company.
 
-> ### Note:  
+> ### Remember:  
 > For access tokens of subaccounts created after September 23, 2020, user IDs preserve the case that they are created in. This means that both uppercase and lowercase letters can be used. However, this does not qualify as a means to differentiate between them; for example, denise.smith@example.com and Denise.Smith@example.com are considered to be the same.
 > 
 > Subaccounts before this date convert the user IDs to lowercase.
+
+> ### Note:  
+> User data of shadow users is regularly updated after authentication at the identity provider.
+> 
+> When a user authenticates against SAP BTP, an authentication request is forwarded to the trusted identity provider \(for example, SAP Cloud Identity Services\). After succcessful authentication, the identity provider creates a user token based on its configuration and sends it back to SAP BTP. In SAP BTP, the user data is updated according to the token.
 
 
 

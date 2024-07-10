@@ -173,7 +173,7 @@ Release the development transport request\(s\).
 </td>
 <td valign="top">
 
-ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing Transports* app
+ABAP Development Tools for Eclipse: Transport Organizer
 
 </td>
 </tr>
@@ -200,7 +200,7 @@ Release only export customizing transports.
 </td>
 <td valign="top">
 
-ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing Transports* app
+*Export Customizing Transports* app
 
 </td>
 </tr>
@@ -464,7 +464,7 @@ Check out the new release branch YYYY-<nn+1\> for each software component \(at G
 -   Development system DEV is based on the main branch
 -   Quality assurance system QAS and production system PRD are based on the latest release branch YYYY-<nn\>. In case of a correction after the Go Live before the second release, YYYY-<nn\> is YYYY-01
 
-This process differs from the previous one in the branch it is developed in. As the correction is too urgent to release it with the next development release only, it is done in the release branch. To achieve this separation, all current development activities need to be paused because the DEV system needs to check out the latest release branch instead of the main branch.
+This process differs from the previous one in the branch it is developed in. As the correction is too urgent to release it with the next development release only, it is done in the release branch. To achieve this separation, all current development activities need to be paused because the DEV system needs to check out the latest release branch instead of the main branch. That means all open transports in DEV need to be released first to save the work in progress to the main branch, so that feature development can be resumed later after the correction.
 
 
 <table>

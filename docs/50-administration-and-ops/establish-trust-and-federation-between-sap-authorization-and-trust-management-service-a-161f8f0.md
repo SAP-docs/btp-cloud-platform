@@ -2,7 +2,7 @@
 
 # Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services
 
-Use your SAP Cloud Identity Services tenant as an identity provider or a proxy to your own identity provider hosting your business users. This method avoids the upload and download of SAML meta data by using Open ID Connect \(OIDC\) to establish trust.
+Use your SAP Cloud Identity Services tenant as an identity provider or a proxy to your own identity provider hosting your business users. This method avoids the upload and download of SAML meta data by using OpenID Connect \(OIDC\) to establish trust.
 
 
 

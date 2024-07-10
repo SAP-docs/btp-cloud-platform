@@ -2,7 +2,7 @@
 
 # Audit Log Write API for Customers
 
-The SAP Audit Log service provides an Audit Log Write API for customers, which enables the recording of audit relevant events.
+The SAP Audit Log provides an Audit Log Write API for customers, which enables the recording of audit relevant events.
 
 
 
@@ -111,7 +111,7 @@ Examples of configuration change events are creation/deletion of service instanc
 
 ### Do the Enablement and Entitlements
 
-As a first step to use the Audit Log Write API, make sure that the service is enabled for your subaccount and that there is an entitlement for the premium plan of the service.
+As a first step to use the Audit Log Write API, make sure that the service is enabled for your subaccount and that there is an entitlement for **Audit Log service, premium edition** service plan.
 
 If the *Audit Log Service* of plan *premium* is not visible from the account cockpit service marketplace for your subaccount, do the following to entitle the service:
 

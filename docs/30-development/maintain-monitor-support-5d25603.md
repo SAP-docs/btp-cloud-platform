@@ -319,7 +319,7 @@ As a SaaS solution operator, you can apply add-on updates to existing systems vi
 
 You can select the target add-on product and version for the update. Afterwards, you can select the systems where the update should be applied and schedule the update.
 
-> ### gCTS Delivery:  
+> ### Note:  
 > If you are using gCTS instead of add-ons for delivering software components into production systems, you need to pull the changes of all relevant software components into all productive systems using the *Manage Software Components* app. An update deployment via the Landscape Portal is not required.
 
 <a name="loio00de26798389472f989601306d2207e1"/>

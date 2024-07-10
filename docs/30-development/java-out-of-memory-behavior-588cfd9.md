@@ -33,12 +33,41 @@ SAP Java Buildpack prints a histogram of the heap to the logs when the JVM encou
 
 This functionality is **activated** by default.
 
-If you want to deactivate it, add property `-XX:+ExitVMOnOutOfMemoryError` through the `JBP_CONFIG_JAVA_OPTS` property in the application's *manifest.yml* file:
+If you want to deactivate it, add property `-XX:+ExitVMOnOutOfMemoryError` through the `JBP_CONFIG_JAVA_OPTS` property in the application's *manifest.yml* file.
 
-> ### Sample Code:  
-> ```
-> JBP_CONFIG_JAVA_OPTS: 'false, java_opts: ''-XX:+ExitVMOnOutOfMemoryError'''
-> ```
+-   For SAP Java Buildpack 1:
+
+    ```
+    
+    ---
+    applications:
+    - name: <APP_NAME>
+      buildpacks:
+      - sap_java_buildpack
+      env:
+        JBP_CONFIG_JAVA_OPTS: 'false, java_opts: ''-XX:+ExitVMOnOutOfMemoryError'''
+      ...
+    ```
+
+-   For SAP Java Buildpack 2:
+
+    ```
+    
+    ---
+    applications:
+    - name: <APP_NAME>
+      buildpacks:
+      - sap_jakarta_buildpack
+      env:
+        JBP_CONFIG_JAVA_OPTS: 'false, java_opts: ''-XX:+ExitVMOnOutOfMemoryError'''
+      ...
+    ```
+
 
 See also: [Cloud Foundry jvmkill](https://github.com/cloudfoundry/jvmkill)
+
+**Related Information**  
+
+
+[ActiveProcessorCount](activeprocessorcount-9013611.md "This JVM option overrides the number of CPUs which the virtual machine uses to calculate the size of thread pools for operations (such as garbage collection).")
 

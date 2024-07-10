@@ -29,7 +29,7 @@ If you want to use SAP Event Mesh as backend for Kyma Eventing, you must first s
 
 3.  Choose *Create*, and enter the following information:
 
-    -   *Name* - enter or generate the name of your instance.
+    -   *Name* - enter the name of your instance.
 
     -   *Offering Name* - type: `enterprise-messaging`.
 

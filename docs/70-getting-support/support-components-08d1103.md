@@ -456,6 +456,7 @@ Build and run mobile apps for B2C use cases.
 -   Japan \(Tokyo\)
 -   US East \(VA\)
 -   Singapore
+-   Switzerland \(Zurich\) EU Access
 
 
 
@@ -512,6 +513,7 @@ Build and run mobile apps for B2C use cases.
 -   Europe \(Frankfurt\)
 -   US Central \(IA\)
 -   India \(Mumbai\)
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -1331,6 +1333,7 @@ Consume an object-relational database with PostgreSQL.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -1507,6 +1510,7 @@ Get robust asynchronous messaging between applications.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -3212,6 +3216,7 @@ Operate polyglot cloud applications in Cloud Foundry.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -3498,6 +3503,7 @@ Manage transports of development artifacts and application-specific content.
 -   Europe \(Frankfurt\)
 -   US Central \(IA\)
 -   India \(Mumbai\)
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -4013,6 +4019,7 @@ Implement an in-memory caching layer with Redis.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -4519,6 +4526,7 @@ Connect applications, services and systems across different landscapes.
 <td valign="top">
 
 -   Europe \(Frankfurt\)
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -4866,6 +4874,7 @@ Create, store, access, and analyze application logs.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -5211,236 +5220,6 @@ Create and extend SAP full-stack applications for browsers and mobile devices.
 -   Canada \(Toronto\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Define and manage your jobs or Cloud Foundry tasks that run on one-time or recurring schedules.
-
-</td>
-<td valign="top">
-
--   BC-XS-SRV-JBS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   Europe \(Frankfurt\) EU Access
--   US East \(VA\)
--   Brazil \(São Paulo\)
--   Japan \(Tokyo\)
--   Australia \(Sydney\)
--   Singapore
--   South Korea \(Seoul\)
--   Canada \(Montreal\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Define and manage your jobs or Cloud Foundry tasks that run on one-time or recurring schedules.
-
-</td>
-<td valign="top">
-
--   BC-XS-SRV-JBS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Japan \(Tokyo\)
--   Europe \(Netherlands\)
--   US West \(WA\)
--   US East \(VA\)
--   Australia \(Sydney\)
--   Singapore
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Define and manage your jobs or Cloud Foundry tasks that run on one-time or recurring schedules.
-
-</td>
-<td valign="top">
-
--   BC-XS-SRV-JBS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   GCP
-
-
-
-</td>
-<td valign="top">
-
--   US Central \(IA\)
--   Europe \(Frankfurt\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Define and manage your jobs or Cloud Foundry tasks that run on one-time or recurring schedules.
-
-</td>
-<td valign="top">
-
--   BC-XS-SRV-JBS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Alibaba
-
-
-
-</td>
-<td valign="top">
-
--   China \(Shanghai\)\*\*
 
 
 
@@ -6722,6 +6501,7 @@ Store and manage the blobs/objects on SAP BTP.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -7092,6 +6872,237 @@ Apply your corporate branding to applications based on SAPUI5 technology.
 <tr>
 <td valign="top">
 
+[Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Define and manage your jobs or Cloud Foundry tasks that run on one-time or recurring schedules.
+
+</td>
+<td valign="top">
+
+-   BC-XS-SRV-JBS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   Europe \(Frankfurt\) EU Access
+-   US East \(VA\)
+-   Brazil \(São Paulo\)
+-   Japan \(Tokyo\)
+-   Australia \(Sydney\)
+-   Singapore
+-   South Korea \(Seoul\)
+-   Canada \(Montreal\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Define and manage your jobs or Cloud Foundry tasks that run on one-time or recurring schedules.
+
+</td>
+<td valign="top">
+
+-   BC-XS-SRV-JBS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Japan \(Tokyo\)
+-   Europe \(Netherlands\)
+-   US West \(WA\)
+-   US East \(VA\)
+-   Australia \(Sydney\)
+-   Singapore
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Define and manage your jobs or Cloud Foundry tasks that run on one-time or recurring schedules.
+
+</td>
+<td valign="top">
+
+-   BC-XS-SRV-JBS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   US Central \(IA\)
+-   Europe \(Frankfurt\)
+-   Israel \(Tel Aviv\) GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Job Scheduling Service](https://help.sap.com/viewer/product/JOB_SCHEDULER/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Define and manage your jobs or Cloud Foundry tasks that run on one-time or recurring schedules.
+
+</td>
+<td valign="top">
+
+-   BC-XS-SRV-JBS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Alibaba
+
+
+
+</td>
+<td valign="top">
+
+-   China \(Shanghai\)\*\*
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [Credential Store](https://help.sap.com/viewer/product/CREDENTIAL_STORE/Cloud/en-US) 
 
 </td>
@@ -7242,6 +7253,7 @@ Store and retrieve credentials such as cryptographic keys and passwords.
 <td valign="top">
 
 -   Europe \(Frankfurt\)
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -7414,6 +7426,60 @@ Integrate applications, services, and systems across landscapes.
 -   US East \(VA\)
 -   Singapore
 -   Japan \(Tokyo\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Integration Suite](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_INTEGRATION_SUITE) 
+
+</td>
+<td valign="top">
+
+Integrate applications, services, and systems across landscapes.
+
+</td>
+<td valign="top">
+
+-   LOD-HCI-PI
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -7588,6 +7654,60 @@ Create and consume relational databases with PostgreSQL based on hyperscalers.
 -   Japan \(Tokyo\)
 -   US West \(WA\)
 -   US East \(VA\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[PostgreSQL, Hyperscaler Option](https://help.sap.com/viewer/c92112ee69784c3383a0fb8361156a6f/Cloud/en-US/b045b64925a544689dd839266a23c89b.html) 
+
+</td>
+<td valign="top">
+
+Create and consume relational databases with PostgreSQL based on hyperscalers.
+
+</td>
+<td valign="top">
+
+-   BC-CP-BSB-POSTGRESQL
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -7878,6 +7998,7 @@ Develop and run HTML5 applications in a cloud environment.
 <td valign="top">
 
 -   US Central \(IA\)
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -8697,6 +8818,60 @@ Create and consume in-memory cache with Redis based on hyperscalers.
 <tr>
 <td valign="top">
 
+[Redis, Hyperscaler Option](https://help.sap.com/viewer/ad8f6ea81b714bbb9bf995dd2c2b424e/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Create and consume in-memory cache with Redis based on hyperscalers.
+
+</td>
+<td valign="top">
+
+-   BC-CP-BSB-REDIS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Israel \(Tel Aviv\) GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [UI5 flexibility for key users](https://help.sap.com/viewer/product/UI5_FLEXIBILITY_KEY_USER/Cloud/en-US) 
 
 </td>
@@ -8853,6 +9028,7 @@ Add UI adaptation to your UI5 applications.
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
 -   India \(Mumbai\)
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -9555,6 +9731,7 @@ Establish connections between cloud applications and on-premise systems.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -10126,6 +10303,7 @@ Automatically increase or decrease the number of application instances.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -10953,6 +11131,7 @@ Create and receive real-time alerts about your services
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
 -   India \(Mumbai\)
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -12546,6 +12725,60 @@ Develop and run containerized applications and extensions on Kubernetes.
 <tr>
 <td valign="top">
 
+[Kyma Runtime](https://help.sap.com/viewer/3504ec5ef16548778610c7e89cc0eac3/Cloud/en-US/468c2f3c3ca24c2c8497ef9f83154c44.html) 
+
+</td>
+<td valign="top">
+
+Develop and run containerized applications and extensions on Kubernetes.
+
+</td>
+<td valign="top">
+
+-   BC-CP-XF-KYMA
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Israel \(Tel Aviv\) GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [Audit Log Service](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/f92c86ab11f6474ea5579d839051c334.html) 
 
 </td>
@@ -12578,6 +12811,60 @@ A core, security and compliance based SAP BTP service to provide means for audit
 <td valign="top">
 
 -   Europe \(Frankfurt\) EU Access
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Audit Log Service](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/f92c86ab11f6474ea5579d839051c334.html) 
+
+</td>
+<td valign="top">
+
+A core, security and compliance based SAP BTP service to provide means for audit purposes.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-SEC-AUDITLG
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -12817,6 +13104,117 @@ The central registry for service brokers and platforms in SAP BTP.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
+-   Israel \(Tel Aviv\) GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Administration Service](https://help.sap.com/docs/variant-configuration-and-pricing/administration-guide-for-sap-variant-configuration-and-pricing) 
+
+</td>
+<td valign="top">
+
+Administer the configuration and pricing services
+
+</td>
+<td valign="top">
+
+-   LOD-CPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US East \(VA\)
+-   Singapore
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Administration Service](https://help.sap.com/docs/variant-configuration-and-pricing/administration-guide-for-sap-variant-configuration-and-pricing) 
+
+</td>
+<td valign="top">
+
+Administer the configuration and pricing services
+
+</td>
+<td valign="top">
+
+-   LOD-CPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
 
 
 
@@ -13458,6 +13856,7 @@ Manage application authorizations and trusted connections to identity providers.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -14104,6 +14503,7 @@ Retrieve information about destinations in the Cloud Foundry environment.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -14634,6 +15034,7 @@ Build and run mobile apps for B2E and B2B use cases.
 -   Japan \(Tokyo\)
 -   US East \(VA\)
 -   Singapore
+-   Switzerland \(Zurich\) EU Access
 
 
 
@@ -14690,6 +15091,7 @@ Build and run mobile apps for B2E and B2B use cases.
 -   Europe \(Frankfurt\)
 -   US Central \(IA\)
 -   India \(Mumbai\)
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -14968,7 +15370,7 @@ BC-NEO-MET-REP
 <tr>
 <td valign="top">
 
-SAP Audit Log service
+SAP Audit Log
 
 </td>
 <td valign="top">

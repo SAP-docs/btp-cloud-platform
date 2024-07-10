@@ -52,10 +52,7 @@ In the [SAP Discovery Center service catalog overview](https://discovery-center.
 
     -   Your 90-day trial period is divided in intervals. If you sign in to your trial account regularly, the intervals are extended automatically for you by up to 30 days or until your overall 90-day trial is finished.
 
-    -   Extend your trial account interval by clicking *Extend Trial Account* in the pop-up window that appears once 30 days have passed.
-
-    -   If you don't sign in to your trial account for 30 days or more, your account will be suspended. You won't be able to use applications or services. However, your account will not be deleted yet. To unsuspend your trial account, click *Extend Trial Account* in the pop-up window that appears when you try to sign in. You'll then be able to use your account again, provided that there are still days left in your overall 90-day trial period.
-
+    -   If you don't sign in to your trial account for 30 days or more, your account will be suspended. All suspended accounts will be deleted and you won't be able to use applications or services.
     -   **Delete your SAP BTP trial account:**
 
         After 90 days, your trial account is automatically deleted. But if you want to proactively delete your SAP BTP trial account, you can navigate to the global accounts scope and select the Account Explorer page, then click the *Delete Trial Account* button.
@@ -111,8 +108,6 @@ In the [SAP Discovery Center service catalog overview](https://discovery-center.
 
 
 [Getting Started with a Trial Account in the Cloud Foundry Environment](../20-getting-started/getting-started-with-a-trial-account-in-the-cloud-foundry-environment-e50ab7b.md "Quickly get started with a trial account.")
-
- <?sap-ot O2O class="- topic/link " href="720c423ef1a8498ab690cf0e5512ba50.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/046f127f2a614438b616ccfc575fdb16.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 [Getting Started with a Trial Account in the Kyma Environment](../20-getting-started/getting-started-with-a-trial-account-in-the-kyma-environment-ccb83c7.md "Quickly get started with a trial account in the Kyma environment.")
 

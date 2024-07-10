@@ -49,7 +49,7 @@ The following procedure describes how to establish trust with an SAP Cloud Ident
 > You've already created a trust configuration with a custom identity provider for applications. In this case, you can't add a trust configuration with the same SAP Cloud Identity Services tenant using another protocol.
 > 
 > > ### Example:  
-> > If there's already a trust configuration with Open ID Connect, you can't create one using the SAML protocol.
+> > If there's already a trust configuration with OpenID Connect, you can't create one using the SAML protocol.
 
 > ### Restriction:  
 > Consider the upper limits for trust configurations in the subaccount. See [Limits for the Subaccount](../60-security/limits-for-technical-artifacts-of-the-sap-authorization-and-trust-management-service-6d3ef52.md#loio6d3ef5260f4a4232ad43542ab1441694__section_ddk_bhf_fzb).

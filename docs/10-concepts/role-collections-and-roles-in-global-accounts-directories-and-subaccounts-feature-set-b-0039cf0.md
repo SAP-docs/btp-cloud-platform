@@ -1109,7 +1109,5 @@ If you've enabled environments in your subaccount, manage the roles for those en
 
 [Mapping Role Collections in the Subaccount](../50-administration-and-ops/mapping-role-collections-in-the-subaccount-9e1bf57.md "You've arranged roles in role collections, and now want to assign or map these role collections to business users.")
 
- <?sap-ot O2O class="- topic/link " href="d5f1612d8230448bb6c02a7d9c8ac0d1.xml" text="" desc="" xtrc="link:5" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/0039cf082d3d43eba9200fe15647922a.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
-
 [Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md "User authorizations are managed by assigning role collections to users (for example, Subaccount Administrator). Use the SAP BTP command-line interface (btp CLI) to manage roles and role collections, and to assign role collections to users.")
 

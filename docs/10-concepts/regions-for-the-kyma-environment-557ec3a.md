@@ -83,11 +83,11 @@ Singapore
 </td>
 <td valign="top">
 
-azure
+`azure`
 
-azure\_lite
+`azure_lite`
 
-trial
+`trial`
 
 </td>
 </tr>
@@ -121,9 +121,9 @@ US West \(WA\)
 </td>
 <td valign="top">
 
-azure
+`azure`
 
-azure\_lite
+`azure_lite`
 
 </td>
 </tr>
@@ -157,9 +157,9 @@ Japan \(Tokyo\)
 </td>
 <td valign="top">
 
-azure
+`azure`
 
-azure\_lite
+`azure_lite`
 
 </td>
 </tr>
@@ -193,9 +193,9 @@ US East \(VA\)
 </td>
 <td valign="top">
 
-azure
+`azure`
 
-azure\_lite
+`azure_lite`
 
 </td>
 </tr>
@@ -229,9 +229,9 @@ Europe \(Netherlands\)
 </td>
 <td valign="top">
 
-azure
+`azure`
 
-azure\_lite
+`azure_lite`
 
 </td>
 </tr>
@@ -265,9 +265,41 @@ Australia \(Sydney\)
 </td>
 <td valign="top">
 
-azure
+`azure`
 
-azure\_lite
+`azure_lite`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
+ch20
+
+</td>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+cf-ch20
+
+</td>
+<td valign="top">
+
+Switzerland \(Zurich\) EU Access
+
+</td>
+<td valign="top">
+
+`azure` 
 
 </td>
 </tr>
@@ -301,9 +333,9 @@ US East \(VA\)
 </td>
 <td valign="top">
 
-aws
+`aws`
 
-trial
+`trial`
 
 </td>
 </tr>
@@ -337,9 +369,9 @@ Europe \(Frankfurt\)
 </td>
 <td valign="top">
 
-aws
+`aws`
 
-trial
+`trial`
 
 </td>
 </tr>
@@ -361,7 +393,7 @@ Amazon Web Services
 </td>
 <td valign="top">
 
-cf-eu11<sup>[1](regions-for-the-kyma-environment-557ec3a.md#loio557ec3adc3174ed4914ec9d6d13487cf__ol_f2t_byv_3wb)</sup> 
+cf-eu11
 
 </td>
 <td valign="top">
@@ -371,7 +403,7 @@ Europe \(Frankfurt\) EU Access
 </td>
 <td valign="top">
 
-aws
+`aws` 
 
 </td>
 </tr>
@@ -403,7 +435,7 @@ Brazil \(São Paulo\)
 </td>
 <td valign="top">
 
-aws
+`aws` 
 
 </td>
 </tr>
@@ -435,7 +467,7 @@ Japan \(Tokyo\)
 </td>
 <td valign="top">
 
-aws
+`aws` 
 
 </td>
 </tr>
@@ -467,7 +499,7 @@ Canada \(Montreal\)
 </td>
 <td valign="top">
 
-aws
+`aws` 
 
 </td>
 </tr>
@@ -499,7 +531,7 @@ South Korea \(Seoul\)
 </td>
 <td valign="top">
 
-aws
+`aws` 
 
 </td>
 </tr>
@@ -531,7 +563,7 @@ Australia \(Sydney\)
 </td>
 <td valign="top">
 
-aws
+`aws` 
 
 </td>
 </tr>
@@ -563,7 +595,7 @@ Singapore
 </td>
 <td valign="top">
 
-aws
+`aws` 
 
 </td>
 </tr>
@@ -595,7 +627,7 @@ US Central \(IA\)
 </td>
 <td valign="top">
 
-gcp
+`gcp` 
 
 </td>
 </tr>
@@ -627,7 +659,7 @@ Europe \(Frankfurt\)
 </td>
 <td valign="top">
 
-gcp
+`gcp` 
 
 </td>
 </tr>
@@ -659,7 +691,7 @@ India \(Mumbai\)
 </td>
 <td valign="top">
 
-gcp
+`gcp` 
 
 </td>
 </tr>
@@ -691,7 +723,7 @@ Japan \(Osaka\)
 </td>
 <td valign="top">
 
-gcp
+`gcp` 
 
 </td>
 </tr>
@@ -723,7 +755,7 @@ KSA \(Dammam\)
 </td>
 <td valign="top">
 
-gcp
+`gcp` 
 
 </td>
 </tr>
@@ -755,14 +787,11 @@ Israel \(Tel Aviv\)
 </td>
 <td valign="top">
 
-gcp
+`gcp` 
 
 </td>
 </tr>
 </table>
-
-> ### Note:  
-> 1.  This is an EU-Access-only region. Due to limited availability, you must open a support ticket before attempting to provision Kyma clusters in the EU-Access-only regions. To create the ticket, use the appropriate link for[internal](https://workzone.one.int.sap/site#workzone-viewAll?sap-app-origin-hint=&/groups/QrsMLb8Me6YjlNkgcm5Ku4/overview_page/VRnBlvxxyXuFny67khRFmB) or[external](https://launchpad.support.sap.com/#incident/create) customers.
 
 
 
@@ -799,14 +828,16 @@ Region Name
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="16">
+<td valign="top" rowspan="11">
 
 Microsoft Azure
 
 </td>
-<td valign="top" rowspan="9">
+<td valign="top" rowspan="10">
 
-azure
+`azure`
+
+`azure_lite`
 
 </td>
 <td valign="top">
@@ -917,86 +948,21 @@ Australia \(Sydney\)
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="6">
+<td valign="top">
 
-azure\_lite
+`switzerlandnorth`
 
 </td>
 <td valign="top">
 
-`centralus`
-
-</td>
-<td valign="top">
-
-US Central \(IA\)
+Switzerland \(Zurich\)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-`eastus`
-
-</td>
-<td valign="top">
-
-US East \(VA\)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`westus2`
-
-</td>
-<td valign="top">
-
-US West \(WA\)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`northeurope`
-
-</td>
-<td valign="top">
-
-North EU \(Ireland\)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`uksouth`
-
-</td>
-<td valign="top">
-
-UK South \(London\)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`australiaeast`
-
-</td>
-<td valign="top">
-
-Australia \(Sydney\)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-trial
+`trial`
 
 </td>
 <td valign="top">
@@ -1018,7 +984,7 @@ Amazon Web Services
 </td>
 <td valign="top" rowspan="11">
 
-aws
+`aws`
 
 </td>
 <td valign="top">
@@ -1155,7 +1121,7 @@ Australia \(Sydney\)
 <tr>
 <td valign="top" rowspan="2">
 
-trial
+`trial`
 
 </td>
 <td valign="top">
@@ -1189,7 +1155,7 @@ Google Cloud
 </td>
 <td valign="top" rowspan="6">
 
-gcp
+`gcp`
 
 </td>
 <td valign="top">

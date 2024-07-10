@@ -128,7 +128,7 @@ The SAP BTP, Cloud Foundry environment provides one recent version of **`python_
     ```
 
 
-To learn about changes in Python versions and features, regularly check the latest [buildpack releases](https://github.com/cloudfoundry/python-buildpack/releases) in the GitHub community page.
+To learn about changes in the Python buildpack's versions and features, regularly check the latest [buildpack releases](https://github.com/cloudfoundry/python-buildpack/releases) in the GitHub community page.
 
 
 

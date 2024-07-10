@@ -121,7 +121,5 @@ The signed SAML tokens are used to validate and authenticate the protocol messag
 **Related Information**  
 
 
- <?sap-ot O2O class="- topic/link " href="ebc9113a520e495ea5fb759b9a7929f2.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/052e9b4b54ce4c268422b1f2c736e47e.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
-
 [Managing Secrets of the SAP Authorization and Trust Management Service](managing-secrets-of-the-sap-authorization-and-trust-management-service-22f4a5c.md "The SAP Authorization and Trust Management service maintains a number of secrets to ensure secure operation of the service. Your organization can have policies that require you change secrets or you may need to respond to the loss of a secret.")
 

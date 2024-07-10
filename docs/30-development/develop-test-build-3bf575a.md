@@ -15,7 +15,7 @@ For the initial add-on delivery, you should create a development and test landsc
 
 Once the add-on build/assembly is finished, you can release the add-on for installation/update. First, the add-on build is installed in a test system in the global account for development to verify that it works correctly. If successful, you can provide the add-on to customers.
 
-> ### gCTS Delivery:  
+> ### Note:  
 > Besides using add-ons for delivering software components to production systems, gCTS transports can be used as an alternative approach. It is used for transporting software components between different ABAP systems.
 > 
 > See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
