@@ -14,7 +14,7 @@ We provide a list with our recommendations for the configuration of our services
 
 See [SAP BTP Security Recommendations](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?version=Cloud).
 
-Our customer success organization, uses these recommendations as a base to create a security baseline template.
+Our customer success organization uses these recommendations as a base to create a security baseline template.
 
 For more information, go to [https://support.sap.com/sos](https://support.sap.com/sos) and choose *Media Library* \> *SAP CoE Security Services - Security Baseline Template*.
 
@@ -49,7 +49,7 @@ All users of SAP BTP are stored in identity providers, either in the default or 
 For more information, see [Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md).
 
 > ### Note:  
-> For China \(Shanghai\) region, a different default identity provider is used.
+> For the China \(Shanghai\) region, a different default identity provider is used.
 > 
 > For more information, see this [blog article](https://blogs.sap.com/2021/02/22/activate-totp-two-factor-authentication-on-sap-business-technology-platform-formerly-known-as-cloud-platform-at-alibaba-cloud/) on *SAP Community*.
 
@@ -95,7 +95,7 @@ Make sure you use HTTP clients \(such as web browsers\) that support TLS version
 > ### Note:  
 > You can optionally use TLS 1.3 in the Custom Domain Manager. This option allows the use of TLS 1.3 with applications running on SAP BTP. It's not allowed to use TLS 1.3, for example for the SAP BTP cockpit or SAP Cloud Identity Services. These services are still using TLS 1.2.
 > 
-> See [What Is Custom Domain?](https://help.sap.com/viewer/6f35a23466ee4df0b19085c9c52f9c29/Cloud/en-US/4f4c3ff62fd2413089dce8a973620167.html "Configure and expose your application under your own domain.") :arrow_upper_right:.
+> See [What Is Custom Domain](https://help.sap.com/docs/custom-domain/custom-domain-manager/what-is-custom-domain).
 
 
 
@@ -121,7 +121,7 @@ See [SAP Credential Store](https://help.sap.com/viewer/product/CREDENTIAL_STORE/
 
 ## Malware Scanning
 
-Use SAP Malware Scanning service to scan business documents for malware. Integrate this service with your custom-developed apps running on the Cloud Foundry runtime. When your apps upload business documents, your apps can call the SAP Malware Scanning service to check for viruses or other malware.
+Use the SAP Malware Scanning service to scan business documents for malware. Integrate this service with your custom-developed apps running on the Cloud Foundry runtime. When your apps upload business documents, your apps can call the SAP Malware Scanning service to check for viruses or other malware.
 
 For more information, see [SAP Malware Scanning Service](https://help.sap.com/docs/MALWARE_SCANNING?version=Cloud).
 

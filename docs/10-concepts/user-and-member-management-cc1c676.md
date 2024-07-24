@@ -10,7 +10,7 @@ On SAP BTP, member management takes place at all levels from global account to e
 
 ## User Accounts
 
-A user account corresponds to a particular user in an identity provider, such as the default identity provider or a custom tenant of the Identity Authentication service.
+A user account corresponds to a particular user in an identity provider, such as the default identity provider or a custom tenant of the SAP Cloud Identity Services - Identity Authentication.
 
 **User accounts** enable users to log on to SAP BTP, access subaccounts, and to use services according to the permissions granted to them.
 
@@ -22,6 +22,10 @@ Before diving into the different user and member management concepts, it's impor
 
 **Related Information**  
 
+
+[Platform Users](platform-users-4401316.md "Platform users are usually developers, administrators or operators who deploy, administer, and troubleshoot applications and services on SAP BTP. They’re the users that have full access and give certain permissions, for instance, at global account, directory, or subaccount level. Members only have basic access.")
+
+[Business Users](business-users-2e68494.md "Business users use the applications that are deployed to SAP BTP. For example, the end users of SaaS apps or services, such as SAP Workflow service or SAP Cloud Integration, or end users of your custom applications are business users.")
 
 [Working with Users](../50-administration-and-ops/working-with-users-2c91f88.md "In the SAP BTP cockpit, you can see the users of your global account or subaccount, user-related identity provider information, and their authorizations. In a user's overview, you can create and delete users, and assign role collections. You can also display an overview of the role collections, where you can drill down all the way to the role, and see the application that the role is belongs to.")
 

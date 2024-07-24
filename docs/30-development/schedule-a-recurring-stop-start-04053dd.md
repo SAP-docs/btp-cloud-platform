@@ -31,19 +31,19 @@ Create two recurrences. Recurrence 1 stops the system on weekdays over night \(f
 
 *Settings for Reccurence 1*:
 
-![](images/Recurrence_ScSht_1_ff2c1cd.png)
+![](images/Daily_Overnight_Stop_0eacc54.png)
 
 Starting today, the system will stop over night from Mondays to Fridays until the end of the year. Now let’s set the recurrence for the weekend stops.
 
 *Settings for Reccurence 2*:
 
-![](images/recurrence_scrshot2_45105cb.png)
+![](images/Weekend_Stop_e1abbfa.png)
 
 With this recurrence, the system will stop every Friday night until Monday morning.
 
 The two recurrences \(R1: daily overnight stop in yellow; R2: weekend stop in blue\) will make sure your system is only live from Mondays through Fridays from 06:00 to 20:00.
 
-![](images/Recurrences_ExampleSchedule_c66e288.png)
+![](images/R1_and_R2_7ca289b.png)
 
 > ### Note:  
 > Note that the end time you select \(06:00 in our example\) specifies when the system \(re\)start will be triggered. It might take a few minutes for the system to be available again.
@@ -58,7 +58,21 @@ Keep in mind that the date you specify in the *From* field is the start date of 
 
 Let's look at an example.
 
-If you enter the following settings, the system stop will not be triggered on August 22nd \(a Tuesday\) , but on the first Friday after this date \(August 25th\) and every following Friday. The stop will be triggered on Fridays at 14:00 and the start will be triggered two hours later, at 16:00.
+If you enter the following settings, the system stop will not be triggered on July 9th \(a Tuesday\) , but on the first Friday after this date \(July 12th\) and every following Friday. The stop will be triggered on Fridays at 14:00 and the start will be triggered two hours later, at 16:00.
 
-![](images/example2_recurrence_24b8174.png)
+![](images/Fridays_Recurrence_49b09e5.png)
+
+
+
+<a name="loio04053ddc096f4becb1be45355da2f70f__section_opp_5pm_zbc"/>
+
+## Example 3
+
+Let's assume you want a system to stop automatically at 18:00 every day, but you don't want the system to start automatically. Instead, you wish to start it manually Monday through Friday.
+
+In this case, you can create a daily recurrence with a system start date in the indefinite future \(e.g. in the year 2999\). This recurrence gives you the option to start your system manually at your desired time and day. The automatic stop that occurs on a Friday at 18:00, for example, puts your system in hibernation throughout the weekend until you start it manually on Monday.
+
+In the app, this scenario would look like the following:
+
+![](images/Manual_Restart_dd6c54e.png)
 

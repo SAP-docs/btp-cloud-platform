@@ -1,6 +1,6 @@
 <!-- loio9cf4217c7a8042968694a345b4b95708 -->
 
-# Retention of Audit Data written from Customer’s SAP BTP Applications
+# Retention of Audit Data written from Customer’s BTP Applications
 
 
 

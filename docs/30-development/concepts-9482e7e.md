@@ -10,7 +10,7 @@ Learn more about the system landscape/account model, ABAP environment pipeline, 
 
 ## System Landscape/Account Model
 
-> ### gCTS Delivery:  
+> ### Note:  
 > If you use gCTS transport delivery instead of add-on delivery, no discounted development licenses are available: ABAP systems created for development purposes \(development, test, demo\) cost the same as ABAP systems created for production purposes. For creation on system AMT instead of `saas_oem`, the standard service plan is used since no add-on is installed.
 > 
 > Additionally, the same global account is used for development/production purposes because gCTS repositories are only available across the same global account.

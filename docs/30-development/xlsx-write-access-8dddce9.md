@@ -2,20 +2,20 @@
 
 # XLSX Write Access
 
-The starting point for programmatically writing the content of an XLSX document is to obtain a write access for the document. This document shows how this is done.
+The starting point for programmatically writing the content of an XLSX document is to get a write access for the document. Find out how this is done.
 
 
 
 ## Context
 
-Creating a new, empty XLSX document and obtaining write access for it can be accomplished like this:
+You can create a new, empty XLSX document and get write access for it like this:
 
 > ### Sample Code:  
 > ```abap
 > DATA(lo_write_access) = xco_cp_xlsx=>document->empty( )->write_access( ).
 > ```
 
-An empty XLSX document consists of one worksheet named `Sheet1` which is accessible via
+An empty XLSX document consists of one worksheet named `Sheet1` which you can access via
 
 > ### Sample Code:  
 > ```abap
@@ -24,7 +24,7 @@ An empty XLSX document consists of one worksheet named `Sheet1` which is accessi
 >   )->worksheet->at_position( 1 ).
 > ```
 
-It can be populated with data using the means described below. Once the worksheet has been filled as desired, the corresponding file content of the document can be obtained as an XSTRING via
+You can populate it with data using the means described below. Once the worksheet has been filled as desired, you can get the corresponding file content of the document as an XSTRING via
 
 > ### Sample Code:  
 > ```abap
@@ -56,11 +56,11 @@ The first way how you can write data into a worksheet is by selecting a collecti
 
 ### Row streams
 
-Row streams are best used when the structure of the data that should be written is statically known. The primary use case is to write the rows of an internal table into a corresponding portion of the worksheet \(as identified by a selection\). As such, the following operations are offered for row streams:
+Row streams are best used when the structure of the data that should be written is statically known. The primary use case is to write the rows of an internal table into a corresponding portion of the worksheet \(as identified by a selection\). The following operations are offered for row streams:
 
--   Write From: The write from operation takes a reference to an internal table as the input whose rows shall be written to the selected rows in the worksheet \(upon execution of the operation\)
+-   Write From: The write from operation takes a reference to an internal table as the input whose rows will be written to the selected rows in the worksheet \(upon running the operation\)
 
-Consider the following example of how a write from operation can be obtained and executed:
+Consider the following example of how a write from operation can be obtained and run:
 
 > ### Sample Code:  
 > ```abap
@@ -97,10 +97,10 @@ Consider the following example of how a write from operation can be obtained and
 
 ## Writing Data via a Cursor
 
-An alternative to writing data into a worksheet via selections and streams is to obtain a cursor for a worksheet write access via method `CURSOR` on `IF_XCO_XLSX_WA_WORKSHEET`. Just as with desktop office suites, a cursor can first be positioned on any given cell \(identified by coordinate values for both the column and row of the cell\). Afterwards, it can be moved around the worksheet freely via the methods on `IF_XCO_XLSX_WA_CURSOR`:
+An alternative to writing data into a worksheet via selections and streams is to get a cursor for a worksheet write access using the method `CURSOR` on `IF_XCO_XLSX_WA_WORKSHEET`. Just as with desktop office suites, you can position a cursor on any given cell \(identified by coordinate values for both the column and row of the cell\). Afterwards, you can move it around the worksheet freely via the methods on `IF_XCO_XLSX_WA_CURSOR`:
 
--   Methods `MOVE_UP`, `MOVE_RIGHT`, `MOVE_DOWN` and `MOVE_LEFT` can be used to move the cursor relative to its current position by the given number of steps
--   Methods `SET_COLUMN` and `SET_ROW` can be used to set the new column or row for the cursor
+-   You can use the methods `MOVE_UP`, `MOVE_RIGHT`, `MOVE_DOWN` and `MOVE_LEFT` to move the cursor relative to its current position by the given number of steps
+-   You can use the methods `SET_COLUMN` and `SET_ROW` to set the new column or row for the cursor
 -   Method `GET_CELL` provides access to the cell at the current position of the cursor
 
 The following example illustrates how the current date and time \(stored in ABAP variables `LV_DATE` and `LV_TIME`\) can be written into a worksheet:
@@ -232,7 +232,7 @@ where $LV\_DATE$ is the current date and $LV\_TIME$ is the current time.
 
 ## Value Transformations
 
-When writing the value of an individual cell \(via `IF_XCO_XLSX_WA_CELL_VALUE`\) or of a complete row \(as part of a row stream operation\) it's possible to apply transformations to the value, which will affect what XLSX value is written to the cell in the worksheet. Technically, a value transformation \(obtainable via `XCO_CP_XLSX_WRITE_ACCESS=>VALUE_TRANSFORMATION`\) contains a transformation routine that can be applied to
+When writing the value of an individual cell \(via `IF_XCO_XLSX_WA_CELL_VALUE`\) or of a complete row \(as part of a row stream operation\) it's possible to apply transformations to the value, which will affect what XLSX value is written to the cell in the worksheet. Technically, a value transformation that you can get using the method `XCO_CP_XLSX_WRITE_ACCESS=>VALUE_TRANSFORMATION` contains a transformation routine that can be applied to
 
 -   Values of individual cells \(in case the value transformation implements the interface `IF_XCO_XLSX_WA_VT_CELL_VALUE`\)
 -   Values of rows \(in case the value transformation implements the interface `IF_XCO_XLSX_WA_VT_ROW_VALUE`\)
@@ -255,10 +255,10 @@ The **best effort** value transformation is based on an inspection \(based on AB
 -   Type `ABAP_BOOL`: When an ABAP field of type `ABAP_BOOL` is written to a cell, a boolean value will be written to the worksheet
 -   D: When an ABAP field of type D is written to a cell, a date value will be written to the worksheet
 -   T: When an ABAP field of type T is written to a cell, a time value will be written to the worksheet
--   Data element `MSEHI`: When an ABAP field typed against data element `MSEHI` is written to a cell, the external value of the corresponding unit of measurement as determined by conversion routine CUNIT will be written to the worksheet
--   Data element `SPRAS`: When an ABAP field typed against data element`SPRAS` is written to a cell, the external value of the corresponding language as determined by conversion routine ISOLA will be written to the worksheet
+-   Data element `MSEHI`: When an ABAP field typed against data element `MSEHI` is written to a cell, the external value of the corresponding unit of measurement as determined by conversion routine `CUNIT` will be written to the worksheet
+-   Data element `SPRAS`: When an ABAP field typed against data element`SPRAS` is written to a cell, the external value of the corresponding language as determined by conversion routine `ISOLA` will be written to the worksheet
 -   C, N and `STRING`: When an ABAP field of type C, N or `STRING` is written to a cell, a string value will be written to the worksheet
 -   I, INT8 and P: When an ABAP field of type I, INT8 or P is written to a cell, a numeric value will be written to the worksheet
 
-If an attempt is made to write an ABAP field of any other type to a cell of a worksheet using the best effort value transformation, a runtime error is to be expected.
+If an attempt is made to write an ABAP field of any other type to a cell of a worksheet using the best effort value transformation, you can expect a runtime error.
 

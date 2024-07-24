@@ -38,7 +38,7 @@ Service instances per subaccount
 </td>
 <td valign="top">
 
-1000
+2500
 
 </td>
 </tr>

@@ -3679,6 +3679,7 @@ Develop, debug, test, and deploy SAP business applications.
 <td valign="top">
 
 -   US Central \(IA\)
+-   Israel \(Tel Aviv\) GCP
 -   India \(Mumbai\)
 
 
@@ -9336,116 +9337,6 @@ Manage your SAP systems in infrastructure as a service \(IaaS\) environments.
 <tr>
 <td valign="top">
 
-[SAP Omnichannel Promotion Pricing](https://help.sap.com/viewer/p/OPP) 
-
-</td>
-<td valign="top">
-
-Calculate effective sales prices by applying promotional rules.
-
-</td>
-<td valign="top">
-
--   LOD-CID-OPP
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[SAP Omnichannel Promotion Pricing](https://help.sap.com/viewer/p/OPP) 
-
-</td>
-<td valign="top">
-
-Calculate effective sales prices by applying promotional rules.
-
-</td>
-<td valign="top">
-
--   LOD-CID-OPP
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Netherlands\)
--   US East \(VA\)
--   Australia \(Sydney\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 [Virtual Machine Service](https://help.sap.com/viewer/product/VIRTUAL_MACHINES/Cloud/en-US) 
 
 </td>
@@ -10844,7 +10735,7 @@ Design, configure, and execute automation projects.
 <tr>
 <td valign="top">
 
-[Process Integration](https://help.sap.com/viewer/product/CLOUD_INTEGRATION/Cloud/en-US) 
+[SAP Process Integration](https://help.sap.com/viewer/product/CLOUD_INTEGRATION/Cloud/en-US) 
 
 </td>
 <td valign="top">
@@ -11596,6 +11487,60 @@ Configure and run predefined pipelines for continuous integration and delivery.
 -   Europe \(Frankfurt\) EU Access
 -   US East \(VA\)
 -   Japan \(Tokyo\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Continuous Integration and Delivery](https://help.sap.com/docs/CONTINUOUS_DELIVERY?version=Cloud) 
+
+</td>
+<td valign="top">
+
+Configure and run predefined pipelines for continuous integration and delivery.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-CICD
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
 
 
 

@@ -679,6 +679,48 @@ Example
 <tr>
 <td valign="top">
 
+`binding-name`
+
+</td>
+<td valign="top">
+
+required dependency
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+Provide a binding name for the association between an application and a service instance
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+```
+modules:
+ - name: java
+ .........
+ requires:
+  - name:test
+    parameters:
+     binding-name: java-test
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `env-var-name`
 
 </td>

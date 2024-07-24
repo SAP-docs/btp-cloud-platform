@@ -6,7 +6,7 @@
 
 Application developers \(platform users\) create and deploy application-specific security artifacts for business users, such as scopes. Administrators use these artifacts to assign roles, build role collections, and assign these role collections to business users or user groups. In this way, they control the users' permissions in the application.
 
-For business users, there's a [default identity provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md), too. We expect that you have your own identity provider. We recommend that you configure your custom tenant of Identity Authentication as the identity provider and connect Identity Authentication to your own corporate identity provider.
+For business users, there's a [default identity provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md), too. We expect that you have your own identity provider. We recommend that you configure your custom tenant of SAP Cloud Identity Services as the identity provider and connect SAP Cloud Identity Services to your own corporate identity provider.
 
 
 

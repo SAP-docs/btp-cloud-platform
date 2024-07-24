@@ -10,7 +10,7 @@ With `SAP_COM_0467`, the SAP BTP, ABAP environment system sends a notification t
 
 Item retrieval and status update is the same for both methods. The only difference is the determination of new items to print.
 
-Please check the documentation of your OMS first to see which method is supported before creating a communication arrangement of any type. An example of an implementation of these communication scenarios is the solution of Microsoft, see [this blog](https://community.sap.com/t5/technology-blogs-by-members/it-has-never-been-easier-to-print-from-sap-with-microsoft-universal-print/ba-p/13672206).
+Please check the documentation of your OMS first to see which method is supported before creating a communication arrangement of any type. An example of an implementation of these communication scenarios is Microsoft Universal Print. See [this blog](https://community.sap.com/t5/technology-blogs-by-members/it-has-never-been-easier-to-print-from-sap-with-microsoft-universal-print/ba-p/13672206) for more details.
 
 **Related Information**  
 

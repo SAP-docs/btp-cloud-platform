@@ -167,18 +167,6 @@ The Eclipse plug-in for the Cloud Foundry environment is a Java-based toolkit fo
 <tr>
 <td valign="top">
 
-[SAP Web IDE](https://help.sap.com/viewer/product/SAP_Web_IDE/CF/en-US)
-
-</td>
-<td valign="top">
-
-With SAP Web IDE Full-Stack, you can easily develop, test, build, deploy, and extend role-based, consumer-grade apps for business users. Create applications rapidly and deliver an outstanding user experience. You can extend or build SAP Fiori apps, create SaaS solutions, extend SAP S/4HANA cloud services, develop hybrid mobile apps, and build IoT apps for SAP Leonardo, using the UI development toolkit for HTML5, the SAP HANA toolset, and Java programming language and technologies.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 [SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US)
 
 </td>

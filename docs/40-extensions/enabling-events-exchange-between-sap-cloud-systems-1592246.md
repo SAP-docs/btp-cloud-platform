@@ -85,7 +85,7 @@ The following procedure outlines the steps you need to perform to enable the exc
 
 ## Next Steps
 
-When the formation is created, navigate to the SAP Event Broker application and enable the event subscriptions. See [Enabling SAP Event Subscriptions](https://help.sap.com/docs/SAP_EMKS/19cb7423096b476d940924799c9e8f5a/e0b4046096524301ba1d738909368b9f.html).
+When the formation is created, navigate to the SAP Event Broker application and enable the event subscriptions. See [Enabling SAP Event Subscriptions](https://help.sap.com/docs/event-broker/event-broker-service-guide/enable-subscriptions?version=Cloud).
 
 
 

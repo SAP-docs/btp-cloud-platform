@@ -240,17 +240,39 @@ In addition, the relevant destination configurations in the *<destinations\>* en
 
 ## Troubleshooting
 
-The application router uses the `@sap/logging` package, which means that all of the typical logging features are available to control application logging. For example, to set all logging and tracing to the most detailed level, set the *<XS\_APP\_LOG\_LEVEL\>* environment variable to “`debug`”.
+The application router uses the `cf-nodejs-logging-support` package, giving you access to all its logging control features. For example, you can set all logging and tracing to the finest level by setting the `CF_NODEJS_LOGGING_LEVEL` environment variable to `debug`.
+
+If you've deployed the application on Cloud Foundry, you can change the log level and restart the application using the following command:
+
+> ### Sample Code:  
+> ```
+> cf set-env <application-name> CF_NODEJS_LOGGING_LEVEL debug
+> ```
+
+You can enable additional traces of incoming and outgoing requests by setting the *<REQUEST\_TRACE\>* environment variable to `true`. When enabled, basic information will be logged for every incoming and outgoing request of the application router. Note that this could impact performance.
+
+Some libraries used by the `cf-nodejs-logging-support` package use other tracing mechanisms. For example, you can use the `debug` package. By setting the \`DEBUG\` environment variable, you can enable additional traces.
 
 > ### Note:  
-> Enabling debug log level could lead to a very large amount of data being written to the application logs and trace files. The asterisk wild card \(\*\) enables options that trace sensitive data that is then written to the logs and traces.
+> Enabling the debug log level could lead to a very large amount of data being written to the application logs and trace files. The asterisk wild card \(\*\) enables options that trace sensitive data that is then written to the logs and traces.
+
+In addition, you can enable internal Node.js traces via the \`NODE\_DEBUG\` environment variable.
+
+> ### Note:  
+> Be cautious when enabling some of these options as they may trace security-sensitive data.
+
+The `cf-nodejs-logging-support` package sets the `x-request-id` header in the application router's responses. This is useful if you want to search entries related to a particular request execution in the logs and traces of the application router. Note that the application router doesn't change the headers it receives from the backend and forwards to the client. If the backend is a `Node.js` application using the `cf-nodejs-logging-support`package \(and also sets the `x-request-id` header\), the header value that the client receives will be the one from the backend, not the one from the application router.
+
+> ### Note:  
+> You can also use the \`XS\_APP\_LOG\_LEVEL\` environment variable for backward compatibility in SAP HANA extended application services, advanced model \(XS advanced\). If you've deployed the application on the XS advanced runtime for SAP HANA Platform 2.0, you can change the log level and restart the application using the following command:
+> 
+> > ### Sample Code:  
+> > ```
+> > xs set-env <application-name> XS_APP_LOG_LEVEL debug
+> > ```
 
 > ### Tip:  
 > Logging levels are application-specific and case-sensitive; they can be defined with lower-case characters \(for example, “debug”\) or upper-case characters \(for example, “DEBUG”\). An error occurs if you set a logging level incorrectly, for example, using lower-case characters “debug” where the application defines the logging level as “DEBUG”.
-
-You can enable additional traces of the incoming and outgoing requests by setting the environment variable *<REQUEST\_TRACE\>* to true. When enabled basic information will be logged for every incoming and outgoing request of the application router.
-
-The `@sap/logging` package sets the header `x-request-id` in the application router's responses. This is useful if you want to search the application router's logs and traces for entries that belong to a particular request execution. Note that the application router does not change the headers received from the back end and forwarded to the client. If the back end is a `Node.js` application which uses the `@sap/logging` package \(and also sets the `x-request-id` header\), then the value of the header that the client receives is the one coming from the back end and not the one from the application router itself.
 
 **Related Information**  
 

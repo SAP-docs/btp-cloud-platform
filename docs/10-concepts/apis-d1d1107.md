@@ -6,7 +6,7 @@ Discover and consume APIs to manage, build, and extend the core capabilities of 
 
 
 
-An Application Programming Interface or API is an **interface provided by an application for interacting with other applications**. APIs specify how software programs are able to exchange information with each other, even if designed and run by different organizations. They facilitate interaction by selectively exposing certain functionality, allowing different apps, websites, and devices to communicate effectively with each other. More importantly, APIs allow businesses to reach beyond regular business channels and share data, content, and services directly to both B2B \(business to business\) and B2C \(business to consumer\) clients, making UI development easy.
+An Application Programming Interface or API is an **interface provided by an application for interacting with other applications**. APIs specify how software programs are able to exchange information with each other, even if designed and run by different organizations. They facilitate interaction by selectively exposing certain functionality, allowing different apps, websites, and devices to communicate effectively with each other. More importantly, APIs enable businesses to reach beyond regular business channels and share data, content, and services directly to both B2B \(business to business\) and B2C \(business to consumer\) clients, making UI development easy.
 
 
 
@@ -33,7 +33,7 @@ Description
 <tr>
 <td valign="top">
 
-**[SAP BTP on SAP Business Accelerator Hub](https://api.sap.com/products/SAPCloudPlatform/overview)**
+[SAP BTP on SAP Business Accelerator Hub](https://api.sap.com/products/SAPCloudPlatform/overview) 
 
 </td>
 <td valign="top">
@@ -47,26 +47,26 @@ It is also the official place where REST and OData REST API references are publi
 <tr>
 <td valign="top">
 
-**[SAP BTP API Management](https://help.sap.com/viewer/p/SAP_CLOUD_PLATFORM_API_MANAGEMENT)**
+[API Management Capability within SAP Integration Suite](https://help.sap.com/viewer/p/SAP_CLOUD_PLATFORM_API_MANAGEMENT) 
 
 </td>
 <td valign="top">
 
-API Management allows you to build, manage, publish, and monetize your own APIs within one secure and scalable environment.
+With the API Management capability, you can build, manage, publish, and monetize your own APIs within one secure and scalable environment.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-**SDKs**
+**Software Development Kits \(SDKs\)**
+
+For an overview on the available SDKs, see [Tools](tools-abcae5b.md).
 
 </td>
 <td valign="top">
 
-The software development kits \(SDKs\) available for SAP BTP offer APIs to, for example, accelerate enterprise app development.
-
-For an overview on the available SDKs, see [Tools](tools-abcae5b.md).
+The SDKs available for SAP BTP offer APIs to, for example, accelerate enterprise app development.
 
 </td>
 </tr>

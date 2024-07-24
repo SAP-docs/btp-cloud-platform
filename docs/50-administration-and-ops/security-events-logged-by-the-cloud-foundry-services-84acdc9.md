@@ -311,6 +311,18 @@ SAP Conversational AI
 <tr>
 <td valign="top">
 
+SAP Data Privacy Integration
+
+</td>
+<td valign="top">
+
+[Access to Audit Logs](https://help.sap.com/docs/data-privacy-integration/security/audit-and-logging-information-data-privacy-integration)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Datasphere Cloud
 
 </td>

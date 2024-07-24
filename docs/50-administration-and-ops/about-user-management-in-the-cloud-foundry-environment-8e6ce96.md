@@ -24,7 +24,7 @@ Whenever you add a user at the org or space level with the SAP BTP cockpit, SAP 
 > ### Remember:  
 > When you delete a user at the Cloud Foundry level, SAP BTP doesn’t delete the corresponding shadow user at the subaccount level.
 > 
-> When you delete a user at the subaccount level, delete the user at the Cloud Foundry org and space levels, too. Otherwise, the system automatically creates the corresponding user at the subaccount level if the user has a Cloud Foundryrole.
+> When you delete a user at the subaccount level, delete the user at the Cloud Foundry org and space levels, too. Otherwise, the system automatically creates the corresponding user at the subaccount level if the user has a Cloud Foundry role.
 
 For more information about shadow users, see [Working with Users](working-with-users-2c91f88.md).
 

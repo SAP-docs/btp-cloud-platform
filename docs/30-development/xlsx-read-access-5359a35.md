@@ -2,7 +2,7 @@
 
 # XLSX Read Access
 
-The starting point for programmatically reading the content of an XLSX document is to obtain a read access for the document. This document shows how this is done.
+The starting point for programmatically reading the content of an XLSX document is to get a read access for the document. Find out how this is done.
 
 > ### Caution:  
 > Note that when data is read from a given XLSX document via the XCO XLSX module, the data is provided in exactly the way it's stored within the XLSX document. This implies that no security or any other kind of additional validations are performed against the data contained in the worksheets of the XLSX workbook when it's accessed by the means described below. Please ensure that when the read data is further processed by application logic \(for example, stored in a database table or shown in a Fiori app\), dedicated checks are in place to guard your application against potentially malicious content \(such as string values in an XLSX worksheet containing JavaScript code\).
@@ -14,17 +14,17 @@ Consider the following:
 > DATA lv_file_content TYPE xstring.
 >  
 > " LV_FILE_CONTENT must be populated with the complete file content of the .XLSX file
-> " whose content shall be processed programmatically.
+> " whose content will be processed programmatically.
 >  
 > DATA(lo_read_access) = xco_cp_xlsx=>document->for_file_content( lv_file_content
 >   )->read_access( ).
 > ```
 
-Once obtained, the next step is to obtain the read access for the worksheet which contains the data that shall be read. It's possible to identify a worksheet based on its name or position:
+Once obtained, the next step is to get the read access for the worksheet which contains the data that will be read. It's possible to identify a worksheet based on its name or position:
 
 > ### Sample Code:  
 > ```abap
-> " Read access for the worksheet at position 1, i.e. the first worksheet in the workbook.
+> " Read access for the worksheet at position 1, such as the first worksheet in the workbook.
 > DATA(lo_first_worksheet) = lo_read_access->get_workbook(
 >   )->worksheet->at_position( 1 ).
 >  
@@ -37,9 +37,9 @@ Once obtained, the next step is to obtain the read access for the worksheet whic
 
 <a name="loio5359a35b78334d5fb94a69dbd710d52a__section_xjb_djh_wtb"/>
 
-## Accessing data via a stream
+## Accessing Data via a Stream
 
-The first way to gain access to the data stored in a worksheet is by selecting a collection of cells based on a selection pattern \(see [XLSX](xlsx-9b7a0d1.md)=\> *Selection patterns*. This is done via method SELECT on IF\_XCO\_XLSX\_RA\_WORKSHEET. Accessing the cells contained in the selection is done following a stream-based approach, meaning a dedicated stream is obtained for the selection which will provide sequential access to the individual blocks of the selection. Two kinds of streams are offered:
+The first way to gain access to the data stored in a worksheet is by selecting a collection of cells based on a selection pattern \(see [XLSX](xlsx-9b7a0d1.md)=\> *Selection patterns*. You can do this using the method `SELECT` on `IF_XCO_XLSX_RA_WORKSHEET`. You can access the cells contained in the selection following a stream-based approach, meaning that you'll get a dedicated stream for the selection which will provide sequential access to the individual blocks of the selection. Two kinds of streams are offered:
 
 -   Cell stream: A cell stream provides access to the selection one cell at a time, traversing the selection from left to right and top to bottom
 
@@ -50,12 +50,12 @@ The first way to gain access to the data stored in a worksheet is by selecting a
 
 ### Cell streams
 
-Cell streams are intended for dynamic reading scenarios where it's required to process each cell individually. As such, the following operations are offered for cell streams:
+Cell streams are intended for dynamic reading scenarios where it's required to process each cell individually. The following operations are offered for cell streams:
 
--   Visit: The visit operation takes a visitor implementation as the input \(an object of type IF\_XCO\_XLSX\_RA\_CS\_VISITOR\) which defines the logic that shall be performed for each cell. This construction follows the `Visitor` design pattern.
+-   Visit: The visit operation takes a visitor implementation as the input \(an object of type `IF_XCO_XLSX_RA_CS_VISITOR`\) which defines the logic that should be performed for each cell. This construction follows the `Visitor` design pattern.
 
 
-Consider the following example of how a visit operation can be obtained and executed:
+Consider the following example of how a visit operation can be obtained and run:
 
 > ### Sample Code:  
 > ```abap
@@ -65,8 +65,8 @@ Consider the following example of how a visit operation can be obtained and exec
 > " The read access to the worksheet.
 > DATA lo_worksheet TYPE REF TO if_xco_xlsx_ra_worksheet.
 >  
-> " The implementation of the visitor, e.g. a dedicated local class containing the
-> " logic that shall be performed for each visited cell.
+> " The implementation of the visitor, such as a dedicated local class containing the
+> " logic that will be performed for each visited cell.
 > DATA lo_visitor TYPE REF TO if_xco_xlsx_ra_cs_visitor.
 >  
 > lo_worksheet->select( lo_selection_pattern
@@ -79,12 +79,12 @@ Consider the following example of how a visit operation can be obtained and exec
 
 ### Row streams
 
-Row streams are best used when the structure of the data that shall be read is statically known. The primary use case is to read a portion of a worksheet \(as identified by a selection\) into an internal table. As such, the following operations are offered for row streams:
+Use row streams when the structure of the data that should be read is statically known. The primary use case is to read a portion of a worksheet \(as identified by a selection\) into an internal table. The following operations are offered for row streams:
 
--   Write To: The write to operation takes a reference to an internal table as the input to which the selected data shall be written \(upon execution of the operation\)
+-   Write To: The write to operation takes a reference to an internal table as the input to which the selected data will be written \(when running the operation\)
 
 
-Consider the following example of how a write to operation can be obtained and executed:
+Consider the following example of how a write to operation can be obtained and run:
 
 > ### Sample Code:  
 > ```abap
@@ -119,15 +119,15 @@ Consider the following example of how a write to operation can be obtained and e
 
 <a name="loio5359a35b78334d5fb94a69dbd710d52a__section_htf_hkh_wtb"/>
 
-## Accessing data via a cursor
+## Accessing Data via a Cursor
 
-An alternative to accessing the data in a worksheet via selections and streams is to obtain a cursor for a worksheet read access via method CURSOR on IF\_XCO\_XLSX\_RA\_WORKSHEET. Just as with desktop office suites, a cursor can first be positioned on any given cell \(identified by coordinate values for both the column and row of the cell\). Afterwards, it can be moved around the worksheet freely via the methods on IF\_XCO\_XLSX\_RA\_CURSOR:
+An alternative to accessing the data in a worksheet via selections and streams is to get a cursor for a worksheet read access using the method `CURSOR` on `IF_XCO_XLSX_RA_WORKSHEET`. Just as with desktop office suites, you can first position a cursor on any given cell \(identified by coordinate values for both the column and row of the cell\). Afterwards, you can move it around the worksheet freely via the methods on `IF_XCO_XLSX_RA_CURSOR`:
 
--   Methods MOVE\_UP, MOVE\_RIGHT, MOVE\_DOWN and MOVE\_LEFT can be used to move the cursor relative to its current position by the given number of steps
+-   You can use the methods `MOVE_UP`, `MOVE_RIGHT`, `MOVE_DOWN` and `MOVE_LEFT` to move the cursor relative to its current position by the given number of steps
 
--   Methods SET\_COLUMN and SET\_ROW can be used to set the new column or row for the cursor
+-   You can use the methods `SET_COLUMN` and `SET_ROW` to set the new column or row for the cursor
 
--   Method HAS\_CELL can be used to determine if the underlying worksheet contains a cell for the current position of the cursor. If so, it can be accessed via method GET\_CELL
+-   You can use the method `HAS_CELL` to determine if the underlying worksheet contains a cell for the current position of the cursor. If so, you can access it using the method `GET_CELL`
 
 
 The following example illustrates how the string values of the cells in column A starting at row 5 can be read out until the first row is encountered for which the worksheet has no cell or the cell has no value:
@@ -163,26 +163,26 @@ The following example illustrates how the string values of the cells in column A
 
 <a name="loio5359a35b78334d5fb94a69dbd710d52a__section_gdj_qbv_4xb"/>
 
-## Reading out hyperlinks
+## Reading Out Hyperlinks
 
-When data is accessed via a cursor, it's also possible to read out the hyperlink associated with a given cell. To this extent, once a handle for a cell has been obtained in the form of an object of type `IF_XCO_XLSX_RA_CELL`, it's possible to
+When you access data using a cursor, it's also possible to read out the hyperlink associated with a given cell. Once you get a handle for a cell in the form of an object of type `IF_XCO_XLSX_RA_CELL`, it's possible to
 
--   Check if a hyperlink is associated to the given cell via method `HAS_HYPERLINK` on `IF_XCO_XLSX_RA_CELL`
--   Obtain the handle for the hyperlink of the given cell via method `GET_HYPERLINK` on `IF_XCO_XLSX_RA_CELL`
+-   Check if a hyperlink is associated to the given cell via the method `HAS_HYPERLINK` on `IF_XCO_XLSX_RA_CELL`
+-   Get the handle for the hyperlink of the given cell via the method `GET_HYPERLINK` on `IF_XCO_XLSX_RA_CELL`
 
-The handle for a hyperlink, `IF_XCO_XLSX_RA_HYPERLINK`, can then be used to obtain both the target and the location of the hyperlink via methods `GET_TARGET` and `GET_LOCATION`. Both target and location are returned exactly as they are stored within the XLSX document.
+The handle for a hyperlink, `IF_XCO_XLSX_RA_HYPERLINK`, can then be used to get both the target and the location of the hyperlink via the methods `GET_TARGET` and `GET_LOCATION`. Both target and location are returned exactly as they are stored within the XLSX document.
 
 
 
 <a name="loio5359a35b78334d5fb94a69dbd710d52a__section_vrx_qkh_wtb"/>
 
-## Value transformations
+## Value Transformations
 
-When accessing the value of an individual cell \(via IF\_XCO\_XLSX\_RA\_CELL\_VALUE\) or of a complete row \(as part of a row stream operation\), it's possible to apply transformations to the value, which will affect how the cell value is written to an ABAP data field. Technically, a value transformation \(obtainable via XCO\_CP\_XLSX\_READ\_ACCESS=\>VALUE\_TRANSFORMATION\) encapsulates a transformation routine that can be applied to
+When accessing the value of an individual cell \(via `IF_XCO_XLSX_RA_CELL_VALUE`\) or of a complete row \(as part of a row stream operation\), it's possible to apply transformations to the value, which will affect how the cell value is written to an ABAP data field. Technically, a value transformation that you can get using the method `XCO_CP_XLSX_READ_ACCESS=>VALUE_TRANSFORMATION` contains a transformation routine that can be applied to
 
--   Values of individual cells \(in case the value transformation implements the interface IF\_XCO\_XLSX\_RA\_VT\_CELL\_VALUE\)
+-   Values of individual cells \(in case the value transformation implements the interface `IF_XCO_XLSX_RA_VT_CELL_VALUE`\)
 
--   Values of rows \(in case the value transformation implements the interface IF\_XCO\_XLSX\_RA\_VT\_ROW\_VALUE\)
+-   Values of rows \(in case the value transformation implements the interface `IF_XCO_XLSX_RA_VT_ROW_VALUE`\)
 
 
 The following value transformations are currently offered:
@@ -194,37 +194,40 @@ The following value transformations are currently offered:
 -   Best effort
 
 
-The default value transformation is the best effort value transformation. It can be overwritten using
+The default value transformation is the best effort value transformation. You can overwrite it using
 
--   Method SET\_VALUE\_TRANSFORMATION of IF\_XCO\_XLSX\_RA\_CELL\_VALUE when the value of an individual cell is read
+-   The method `SET_VALUE_TRANSFORMATION` of `IF_XCO_XLSX_RA_CELL_VALUE` when the value of an individual cell is read
 
--   Method SET\_VALUE\_TRANSFORMATION of IF\_XCO\_XLSX\_RA\_RS\_OP\_WRITE\_TO when row values are read and written to an internal table as part of the write to row stream operation
+-   The method `SET_VALUE_TRANSFORMATION` of `IF_XCO_XLSX_RA_RS_OP_WRITE_TO` when row values are read and written to an internal table as part of the write to row stream operation
 
 
 
 
 ### 'Identity' value transformation
 
-The 'identity' value transformation doesn't apply any modification to the XLSX type or value of a cell. As such, the ABAP field that the cell value shall be written to must be fully compliant with the type and value of the cell as it's stored in the XLSX file. Technically, the value as ist's stored in the XLSX file is first written to a string data object, which is then written to the provided ABAP field without changes and as such, if this write can't be performed successfully, a runtime error is to be expected.
+The 'identity' value transformation doesn't apply any modification to the XLSX type or value of a cell. The ABAP field that the cell value will be written to must be fully compliant with the type and value of the cell as it's stored in the XLSX file. The value is first written to a string data object, which is then written to the provided ABAP field without changes. If this write can't be performed successfully, a runtime error appears.
+
+> ### Note:  
+> For floating point numbers, please use one of the `decfloat` built-in types. Don't use packed numbers \(type P\) since it might lead to wrong conversions.
 
 
 
 ### 'String value' value transformation
 
-The 'string value' value transformation gets the stringified value of any cell such that it can always be safely written to an ABAP field of type STRING.
+The 'string value' value transformation gets the stringified value of any cell so that it can always be safely written to an ABAP field of type `STRING`.
 
 
 
 ### 'Best effort' value transformation
 
-The 'best effort' value transformation is based on an inspection \(based on ABAP runtime type services\) of the ABAP field that a given cell value shall be written to. Based on the type determined for the target ABAP field a transformation is applied to the cell value. The 'best effort' value transformation behaves just as the 'identity' value transformation except for the following types of ABAP fields:
+The 'best effort' value transformation is based on an inspection of the ABAP field that a given cell value will be written to. Based on the type determined for the target ABAP field, a transformation is applied to the cell value. The 'best effort' value transformation behaves just as the 'identity' value transformation except for the following types of ABAP fields:
 
--   D: When a cell value is written to an ABAP date field the value of the cell is interpreted as a date and it is converted to the ABAP date format
+-   D: When a cell value is written to an ABAP date field, the value of the cell is interpreted as a date, and it's converted to the ABAP date format
 
--   T: When a cell value is written to an ABAP time field the value of the cell is interpreted as a time and it is converted to the ABAP time format
+-   T: When a cell value is written to an ABAP time field, the value of the cell is interpreted as a time, and it's converted to the ABAP time format
 
--   Data element MSEHI: When a cell value is written to an ABAP field typed against data element MSEHI the cell value is interpreted as the external value for a unit of measurement which is converted to the internal ABAP format using conversion routine CUNIT
+-   Data element `MSEHI`: When a cell value is written to an ABAP field typed against data element `MSEHI`, the cell value is interpreted as the external value for a unit of measurement, which is converted to the internal ABAP format using conversion routine `CUNIT`
 
--   Data element SPRAS: When a cell value is written to an ABAP field typed against data element SPRAS the cell value is interpreted as the external value for a language which is converted to the internal ABAP format using conversion routine ISOLA
+-   Data element `SPRAS`: When a cell value is written to an ABAP field typed against data element `SPRAS`, the cell value is interpreted as the external value for a language, which is converted to the internal ABAP format using conversion routine `ISOLA`
 
 

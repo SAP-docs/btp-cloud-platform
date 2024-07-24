@@ -98,5 +98,5 @@ To enable the ATC Developer Scenario, you've to define communication arrangement
 
 ## Results
 
-You've enabled a cloud system as central check system for remote ATC checks from an on-premise system against the cloud system. In SAP GUI or ABAP Development Tools for Eclipse, you can now run ATC checks in your checked system. In ABAP Development Tools for Eclipse in the *ATC Problems* view, you can create exemptions that you can then manage in the [Approve ATC Exemptions](https://help.sap.com/docs/btp/sap-business-technology-platform/approve-atc-exemptions) app.
+You've enabled a cloud system as the central check system for remote ATC checks from an on-premise system against the cloud system. In SAP GUI or ABAP development tools for Eclipse, you can now run ATC checks in your checked system. In ABAP development tools for Eclipse in the *ATC Problems* view, you can create exemptions that you can then manage in the [Approve ATC Exemptions](https://help.sap.com/docs/btp/sap-business-technology-platform/approve-atc-exemptions) app.
 

@@ -2,7 +2,7 @@
 
 # Deploy Product
 
-As a provider, you can use the *Deploy Product* app to update the version of your product on specific systems.
+As a provider, you can use the *Deploy Product* app to deploy or update your product version in specific systems.
 
 
 
@@ -26,16 +26,14 @@ You need to have the “LandscapePortalAdmin” user role assigned to your user 
 
     The planning calendar gives an overview of planned and unplanned downtimes of service-relevant infrastructure as well as already scheduled product version updates.
 
-    Calendar legend:
-
-    ![](images/Downtimes_b54de52.jpg)
-
     You can use the calendar to help you find a fitting time slot for your product version update so as to make sure that it doesn’t conflict with other downtimes.
 
 4.  On the left side, under *Product and Product Version Selection*, select which product and version you want to update from the drop-down menu.
 
     > ### Note:  
-    > The product version can only be updated to a higher version. It is not possible to update the product version to a lower version.
+    > -   The product version can only be updated to a higher version. It is not possible to update the product version to a lower version.
+    > 
+    > -   Only one product can be installed per system.
 
 5.  In the *Available Systems* section, select at least one system in which you want to update the product version. You can also select multiple systems at once.
 

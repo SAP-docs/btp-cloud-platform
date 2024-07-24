@@ -11,7 +11,7 @@ Learn how to install and set up abapGit.
 
 
 > ### Restriction:  
-> Please be aware that abapGit is an open-source project owned by the community. Therefore, we do not provide support for abapGit. We only support the Git integration in the ABAP environment.
+> Please be aware that abapGit is an open-source project maintained by the open source community and is not owned by SAP. Therefore, SAP does not provide support for the open source abapGit version \(ZABAPGIT\). Consequently, we ask you to refrain from creating incidents related to the use of the ZABAPGIT report. However, for the SAP BTP, ABAP environment, a separate SAP-owned version \(fork\) of abapGit has been established. SAP does provide standard support for this version.
 
 
 
@@ -60,5 +60,5 @@ Learn how to install and set up abapGit.
 **Related Information**  
 
 
-[https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/create-content-in-on-premise-system-and-push-it-to-abapgit-repository?version=Cloud](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/create-content-in-on-premise-system-and-push-it-to-abapgit-repository?version=Cloud)
+[Create Content in an On-Premise System and Push it to abapGit Repository](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/create-content-in-on-premise-system-and-push-it-to-abapgit-repository?version=Cloud)
 

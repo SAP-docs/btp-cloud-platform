@@ -385,6 +385,7 @@ Here are some useful tips for working in this perspective:
     > 
     > You can also switch to a chart that shows the cumulative costs of the selected service over time.
 
+-   When you haven't selected a row in the main table, the *Global Account - Cost Summary* chart is displayed below the main table. It shows a summary of the costs by month in your global account over the last 12 months. To get back to this chart when a chart with the costs for a specific subaccount, directory, or service is displayed, unselect the selected row in the main table.
 
 See other useful tips, such as table sorting, filtering, and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
 
@@ -423,6 +424,7 @@ Here are some useful tips for working in this perspective:
     > 
     > You can also switch to a chart that shows the cumulative costs of the selected subaccount or directory over time.
 
+-   When you haven't selected a row in the main table, the *Global Account - Cost Summary* chart is displayed below the main table. It shows a summary of the costs by month in your global account over the last 12 months. To get back to this chart when a chart with the costs for a specific subaccount, directory, or service is displayed, unselect the selected row in the main table.
 
 See other useful tips, such as table sorting and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
 

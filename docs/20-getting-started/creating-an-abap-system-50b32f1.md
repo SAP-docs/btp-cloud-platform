@@ -213,6 +213,11 @@ For more information about creating service instances, see [Create Service Insta
     <td valign="top">
     
     Using an email address as subject name identifier might not be possible if the e-mail address is ambiguous across users or if the trusted identity provider configured for authentication in the ABAP Environment instance’s subaccount already is configured with the subject name identifier `Login Name`. In this case, you can change the **login attribute** to `user_name` and in addition also provide the user name for the initial user in the **admin user name** \(see above\).
+
+    > ### Caution:  
+    > Currently, it's only possible to change the login attribute **when creating a new ABAP system**. To change the settings **afterwards**, please create a service ticket.
+
+
     
     </td>
     </tr>

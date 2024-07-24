@@ -51,7 +51,9 @@ This configuration has several security implications like:
 
 -   JavaScript-based cross-site scripting vulnerabilities of older browser versions.
 
--   3rd-party cookies are required when using different domains for authentication with the SAP Authorization and Trust Management service, the identity provider, and the application.
+-   Third-party cookies are required when using different domains for authentication with the SAP Authorization and Trust Management service, the identity provider, and the application.
+
+    See also [Third-Party Cookies and SAP Authorization and Trust Management Service](third-party-cookies-and-sap-authorization-and-trust-management-service-5ab1e0b.md).
 
 
 Ensure that no attacker can add malicious web pages or Javascript to any of the hosts allowed to frame the applications. This recommendation also includes hosts that act as reverse proxies, where an attacker can put their content on a different host behind the reverse proxy. Ensure that everything exposed by those framing hosts is safe.

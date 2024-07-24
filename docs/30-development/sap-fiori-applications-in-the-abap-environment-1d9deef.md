@@ -52,7 +52,7 @@ While the IAM business catalog defines the access to the apps, the space and pag
 
 Fiori space and page templates are not visible in the development system by default and therefore cannot be used. To use them, you need to programmatically scope them. See [Scoping Space and Page Templates](scoping-space-and-page-templates-74d5b1a.md) for more details about scoping.
 
-After you have scoped the page and space template, they are visible as predefined spaces and pages in the [Manage Launchpad Spaces](https://help.sap.com/docs/btp/user-interface-configurations/manage-launchpad-spaces?version=Cloud) and [Manage Launchpad Pages](https://help.sap.com/docs/btp/user-interface-configurations/manage-launchpad-pages?version=Cloud) apps.
+After the page and space template are scoped, they are visible as predefined spaces and pages in the [Manage Launchpad Spaces](https://help.sap.com/docs/btp/user-interface-configurations/manage-launchpad-spaces?version=Cloud) and [Manage Launchpad Pages](https://help.sap.com/docs/btp/user-interface-configurations/manage-launchpad-pages?version=Cloud) apps.
 
 > ### Restriction:  
 > Creation of Space Templates and Page Templates

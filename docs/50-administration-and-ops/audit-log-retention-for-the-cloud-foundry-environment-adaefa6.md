@@ -8,6 +8,6 @@ Currently, there are two main categories of retention of audit data, divided by 
 
 -   [Retention of Audit Data written from SAP BTP Applications and Services](retention-of-audit-data-written-from-sap-btp-applications-and-services-3ea497f.md) \(SAP-generated\)
 
--   [Retention of Audit Data written from Customer’s SAP BTP Applications](retention-of-audit-data-written-from-customer-s-sap-btp-applications-9cf4217.md) \(Customer-generated\)
+-   [Retention of Audit Data written from Customer’s BTP Applications](retention-of-audit-data-written-from-customer-s-btp-applications-9cf4217.md) \(Customer-generated\)
 
 

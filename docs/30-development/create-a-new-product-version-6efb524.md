@@ -25,10 +25,15 @@ Find out how to create a new product version:
     > ### Note:  
     > Note that if you begin configuring a new product version but cancel before finishing the process, the new product version will still be displayed in the overview list in status “not yet triggered”. To continue working on it, simply select it from the list.
 
-4.  Select software components to be included in your new product version. To add additional software components, click the *Add* button on the right. For each software component, define a component version, enter the desired branch and commit ID as seen in the Manage Software Components app, and select in which languages your product version should be built. You can change the order of how the software components are imported via drag and drop in the table or by selecting a component and moving it using the arrows on the right. For more information, see [Manage Software Components.](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/3dcf76a072c9450eb46b99db947dab46.html?version=Cloud)
+4.  Select software components to be included in your new product version. To add additional software components, click the *Add* button on the right. For each software component, define a component version, enter the desired branch and commit ID as seen in the *Manage Software Components* app, and select in which languages your product version should be built.
 
     > ### Note:  
-    > The leading software component is the software component that is, as opposed to a reuse software component, exclusively used as part of one add-on product. The reuse software component should be the first, whereas a leading software component would be the last in order. This is to make sure that that the software components are imported in the correct order, making sure to adhere to dependencies.
+    > Note that the software components you use for the product version build have to be SAP-managed. [Bring Your Own Git \(BYOG\)](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-configure-your-git-repository?locale=en-US&version=Cloud) software components are currently not supported in the *Build Product Version* app.
+
+    You can change the order of how the software components are imported via drag and drop in the table or by selecting a component and moving it using the arrows on the right.
+
+    > ### Remember:  
+    > The reuse software component should be the first, whereas a leading software component would be the last in order. This is to make sure that the software components are imported in the correct order, making sure to adhere to dependencies. The leading software component is the software component that is, as opposed to a reuse software component, exclusively used as part of one add-on product.
 
 5.  Click the *Build Product Version* button to trigger the build of the pipeline for your new product version.
 
