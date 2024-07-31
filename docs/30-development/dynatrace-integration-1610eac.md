@@ -18,7 +18,7 @@ Dynatrace supports full-stack monitoring for Cloud Foundry – from the applicat
 
 ## Procedure
 
-1.  Obtain an [environment ID](https://docs.dynatrace.com/docs/get-started/monitoring-environment#environment-id) and an [IP access token](https://docs.dynatrace.com/docs/manage/access-control/access-tokens#create-api-token).
+1.  Obtain an [environment ID](https://docs.dynatrace.com/docs/get-started/monitoring-environment#environment-id) and an [API access token](https://docs.dynatrace.com/docs/manage/access-control/access-tokens#create-api-token).
 
 2.  Create a user-provided service.
 
