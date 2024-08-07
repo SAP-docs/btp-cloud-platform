@@ -45,7 +45,7 @@ If you want to use this functionality in another region, contact the Service own
 
 ### Revoke Custom retention of an Existing Subaccount
 
-To revoke custom retention, create a [support ticket](https://itsm.services.sap/sp?id=sc_cat_item&sys_id=703f22d51b3b441020c8fddacd4bcbe2&sysparm_category=e15706fc0a0a0aa7007fc21e1ab70c2f) with component BC-CP-CF-SEC-AUDITLG to the Audit Log service to configure a flexible retention period for storing your audit data. In the support ticket provide the following data:
+To revoke custom retention, create a [support ticket](https://me.sap.com/getsupport) with component BC-CP-CF-SEC-AUDITLG to the Audit Log service to configure a flexible retention period for storing your audit data. In the support ticket provide the following data:
 
 -   Subaccount ID\(s\) and Tenant ID\(s\) whose custom retention you want to revoke.
 
@@ -54,7 +54,7 @@ To revoke custom retention, create a [support ticket](https://itsm.services.sap/
 
 When you revoke custom retention all stored audit data which is older than 90 days is removed and charging for extra storage stops.
 
-> ### Note:  
+> ### Note:
 > Audit log data written from Customer's SAP BTP Applications is still charged per GB at the price in [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/audit-log-service?commercialModel=cpea&tab=service_plan&region=all) no matter the retention period in days.
 
 
@@ -63,9 +63,9 @@ When you revoke custom retention all stored audit data which is older than 90 da
 
 Audit log data written by Customer’s SAP BTP Applications is removed immediately in case of a subaccount termination, as noted in [Delete a Subaccount](delete-a-subaccount-419dc3d.md).
 
-> ### Note:  
+> ### Note:
 > When you delete a subaccount, all audit log data written from your Customer’s SAP BTP Applications is automatically deleted.
 
-> ### Note:  
-> When you delete an auditlog premium service instance, the charging for storage doesn't stop automatically. To avoid accumulating further costs, you must either create a [support ticket](https://itsm.services.sap/sp?id=sc_cat_item&sys_id=703f22d51b3b441020c8fddacd4bcbe2&sysparm_category=e15706fc0a0a0aa7007fc21e1ab70c2f) to revoke the custom retention period, or delete the subaccount.
+> ### Note:
+> When you delete an auditlog premium service instance, the charging for storage doesn't stop automatically. To avoid accumulating further costs, you must either create a [support ticket](https://me.sap.com/getsupport) to revoke the custom retention period, or delete the subaccount.
 
