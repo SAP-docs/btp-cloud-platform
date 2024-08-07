@@ -4,8 +4,6 @@
 
 
 
-Service name: `Certificates`
-
 This service enables you to:
 
 -   Read client certificates
@@ -30,7 +28,7 @@ This is an OData version 4 service. This version aims to improve processing time
 <tr>
 <th valign="top">
 
-Service Group \(incl. Namespace if It Exists\)
+Service Group \(incl. Namespace If It Exists\)
 
 </th>
 <th valign="top">
@@ -40,7 +38,7 @@ Repository ID
 </th>
 <th valign="top">
 
-Service Name \(incl. Namespace if It Exists\)
+Service Name \(incl. Namespace If It Exists\)
 
 </th>
 <th valign="top">

@@ -4,8 +4,6 @@
 
 
 
-Service name: `CommunicationArrangement`
-
 This service enables you to:
 
 -   Read communication arrangements

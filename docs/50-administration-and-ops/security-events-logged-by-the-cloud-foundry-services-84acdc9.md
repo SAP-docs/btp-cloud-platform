@@ -167,6 +167,30 @@ Process Visibility
 <tr>
 <td valign="top">
 
+SAP AI Core
+
+</td>
+<td valign="top">
+
+[Auditing and Logging Information](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/e19844a7724f4ec2b6bcc4002f3fd95c.html?locale=en-US&state=PRODUCTION&version=CLOUD)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad
+
+</td>
+<td valign="top">
+
+[Auditing and Logging Information](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/security?version=CLOUD#loiob41f83775fa44cea906961e8124986c5)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Alert Notification Service
 
 </td>

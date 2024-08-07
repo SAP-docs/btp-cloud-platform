@@ -6,9 +6,11 @@
 
 Technical name: `APS_IAM_API_BUSER_CDOC_0001_IWSG`
 
-This service enables you to to read the change documents of business users.
+This service enables you to read the change documents of business users.
 
-This service is published on the SAP Business Accelerator Hub. For more information about APIs, see the **Related Information** section.
+This service is published on the SAP Business Accelerator Hub. For more information about APIs, see the *Related Information* section.
+
+
 
 
 
@@ -88,6 +90,17 @@ Optional
 <td valign="top">
 
 Category of change
+
+The following values are available
+
+-   *GE* = General changes to the business user attributes, such as the description
+
+
+
+    • *BR* = Business role assignments
+
+
+
 
 </td>
 <td valign="top">
@@ -310,14 +323,6 @@ Forbidden
 </td>
 </tr>
 </table>
-
-
-
-<a name="loio1c042caa1d7142da8de5260bee663864__section_xwc_t4f_zkb"/>
-
-## Additional Information
-
-For more information about Communication Management, see the **Related Information** section.
 
 **Related Information**  
 

@@ -16,11 +16,7 @@ There are three different ways to add the deprecation trial token - you can eith
 
 ## Technical Details
 
-In SAP scenarios, the first request to the origin in a session typically requires cross-site cookies. Sending the `Critical-Origin-Trial` header in the HTTP response with the trial name causes the browser to retry the request with third-party cookies enabled.
-
-```
-Critical-Origin-Trial: Tpcd
-```
+In SAP scenarios, the first request to the origin in a session typically requires cross-site cookies. Sending the `Critical-Origin-Trial` header in the HTTP response with the trial name *Tcpd* causes the browser to retry the request with third-party cookies enabled.
 
 For SAP BTP, Kyma runtime, it is not possible to identify the initial request, so the `Critical-Origin-Trial` header is included in every response. This approach has been accepted by Google.
 

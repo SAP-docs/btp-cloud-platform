@@ -10,7 +10,7 @@ Common activities in this context include the following:
 
 -   Find business users with unnecessarily high privileges \(for example, too many admin users\)
 
--   Find users with unnecessary or critical authorization combinations \(the result of privilege creep\)
+-   Find business users with unnecessary or critical authorization combinations \(the result of privilege creep\)
 
 -   Find business roles granting access to data too generously \(that is, having unmaintained restrictions\)
 

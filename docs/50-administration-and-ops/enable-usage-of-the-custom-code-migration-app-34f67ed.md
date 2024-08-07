@@ -23,11 +23,11 @@
 
 ### Maintain Business Role
 
-To enable business users to access the `Custom Code Migration` app, create the `Project Manager – IT` business role and assign one or more business user\(s\) to it. To create this role, proceed as follows:
+To enable business users to access the `Custom Code Migration` app, create the `Project Manager – IT` business role and assign one or more business user\(s\) to it. Please note that, in order to use the feature of adding findings to the baseline, you'll also need the `Quality Manager – Software Development` business role. To create these roles, proceed as follow \(taking `Project Manager – IT` as an example\):
 
 1.  From the SAP Fiori launchpad of your ABAP environment, open the *Maintain Business Role* tile.
 
-2.  Create the `Project Manager - IT` business role using the `SAP_BR_IT_PROJECT_MANAGER` template.
+2.  Create the `Project Manager – IT` business role using the `SAP_BR_IT_PROJECT_MANAGER` template.
 
     For more information see, [How to Create a Business Role from a Template](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/ec310a8b669a45ca898dc4dd91d97de2.html).
 

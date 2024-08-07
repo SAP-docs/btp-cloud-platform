@@ -2,7 +2,10 @@
 
 # Creating a Dimension
 
-Use method `CREATE` to create a new dimension. For customer dimensions, the name of the dimension ID must start with a ‘Z’.
+Use method `CREATE` to create a new dimension.
+
+> ### Caution:  
+> Changing the initial set of configurations has implications. Before proceeding with any change, familiarize yourself with the warnings in [Units of Measurement](units-of-measurement-8961c2c.md).
 
 
 

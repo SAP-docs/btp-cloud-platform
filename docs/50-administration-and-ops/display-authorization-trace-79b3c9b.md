@@ -73,11 +73,16 @@ Filtered
 
 When reading an object, an authorization check is taking place and certain data is filtered out defined by a DCL \(Data Control Language\).
 
+> ### Note:  
+> When the *Authorization Check Status* is set to *Filtered*, no authorization check is carried out for any value. Instead, access filtering occurs. In this case, *No Value* is displayed for the corresponding restriction fields. Filtering means that the authorizations of the user for the specified restriction type/authorization object and for the specified field values are read and these authorization values are used as additional filter conditions during the selection of the business data. This way, the user only has access to the data for which he or she has appropriate authorizations.
+
+
+
 </td>
 </tr>
 </table>
 
-If an authorization check resulted in a *Filtered* status, you can check which business roles expose the affected restriction type. The root cause could be that the business user that has been checked is not assigned to the required business role or that the required value has not been maintained yet.
+If an authorization check resulted in a *Failed* and *Filtered* status, you can check which business roles expose the affected restriction type. The root cause could be that the business user that has been checked is not assigned to the required business role or that the required value has not been maintained yet.
 
 > ### Note:  
 > The trace entries are deleted automatically within a certain time frame.

@@ -106,7 +106,7 @@ For more information about creating service instances, see [Create Service Insta
     </td>
     <td valign="top">
     
-    The **development system** checkbox is checked by default. By using this setting, you can control the changeability of development objects in the system. If you want to protect all your customer-related software components and ABAP namespaces against manual changes via ABAP Development Tools, uncheck the box. This setting is used for test and productive systems, where changes must be imported only. For information about which business catalogs are available in development systems only, see [Business Catalogs for Development Tasks](../50-administration-and-ops/business-catalogs-for-development-tasks-a9f4278.md).
+    The **development system** checkbox is checked by default. By using this setting, you can control the changeability of development objects in the system. If you want to protect all your customer-related software components and ABAP namespaces against manual changes via ABAP development tools for Eclipse, uncheck the box. This setting is used for test and productive systems, where changes must be imported only. For information about which business catalogs are available in development systems only, see [Business Catalogs for Development Tasks](../50-administration-and-ops/business-catalogs-for-development-tasks-a9f4278.md).
     
     </td>
     </tr>
@@ -127,14 +127,43 @@ For more information about creating service instances, see [Create Service Insta
     <tr>
     <td valign="top">
     
-    ABAP Runtime Size
+    Total ABAP Runtime Size
 
     \(`size_of_runtime`\)
     
     </td>
     <td valign="top">
     
-    The **ABAP runtime size** refers to the runtime size of the ABAP environment service instance. The size is specified in number of ABAP compute units that should be used from the quota plan *abap\_compute\_unit*, with one ABAP compute unit representing 16 GB. The supported number of abap\_compute\_unit is 1, 2, 4, 6, 8, 16, 24, or 32. For more information, see [ABAP Compute Units](../50-administration-and-ops/abap-compute-units-7d1caa8.md).
+    The **Total ABAP runtime size** refers to the runtime size of the ABAP environment service instance. This is the sum of the runtime size of all ABAP application servers of an ABAP environment service instance. The size is specified in number of ABAP compute units that should be used from the quota plan *abap\_compute\_unit*, with one ABAP compute unit representing 16 GB. The supported number of abap\_compute\_unit is 1, 2, 4, 6, 8, 16, 24, or 32. For more information, see [ABAP Compute Units](../50-administration-and-ops/abap-compute-units-7d1caa8.md).
+
+    The total ABAP runtime size should be a whole-number multiple, ranging from 2 to 16 times the size of the ABAP runtime size per application server. This is because each ABAP environment instance contains between 2 and 16 application servers, all of the same size. For example, if the `application_server_size` is 2, the `size_of_runtime` should be at least 4 ACUs. Conversely, if the `application_server_size` is 0.5, the `size_of_runtime` shouldn't exceed 8 ACUs. Another example: if the `application_server_size` is 2, setting the `size_of_runtime` to 5 won't work. This is because a total runtime size of 5 ACUs can't be split into three application servers with 2 ACUs each.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    ABAP Runtime Size per Application Server
+
+    \(`application_server_size`\)
+    
+    </td>
+    <td valign="top">
+    
+    The *ABAP Runtime Size per Application Server* refers to the size of a single ABAP application server in an ABAP environment service instance. It's specified in ABAP compute units \(ACUs\), with one ACU representing 16 GB. This parameter doesn't consume additional `abap_compute_unit` quota. Instead, it determines the distribution of the quota defined via the total ABAP runtime size among the application servers. Possible values are 0.5, 2, or 'auto', which is the default.
+
+    A higher value results in fewer, but larger, application servers. Conversely, a lower number results in more, but smaller, application servers for the same total ABAP runtime size. If 'auto' is chosen, then 0.5 ACU is assigned per application server if `size_of_runtime` is < 4 for systems without elastic scaling, or `size_of_runtime` < 8 for systems with elastic scaling. Otherwise, 2 ACUs are assigned per application server.
+
+    Every ABAP environment instance has between 2 and 16 application servers of the same size each. Therefore, the possible value for the ABAP runtime size per application server depends on the total ABAP runtime size. For instance,`application_server_size` = 2 can only be set if the `size_of_runtime` is at least 4 ACUs. On the other hand, `application_server_size` = 0.5 can only be set if the `size_of_runtime` isn't higher than 8 ACUs.
+
+    To decide what value to choose, consider the following:
+
+    -   Servers of size 0.5 ACUs allow more fine-granular scaling and are suitable for most use cases.
+
+    -   Larger servers allow slightly more user sessions per ACU. This might be more efficient in systems with very high ACU consumption. They're also a precondition for some exceptional use cases, such as ATC checks for very large ABAP programs.
+
+
+
     
     </td>
     </tr>
@@ -150,11 +179,11 @@ For more information about creating service instances, see [Create Service Insta
     
     The **elastic scaling of the ABAP application server** parameter defines whether or not to adapt the number of ABAP application servers dynamically, depending on the system load.
 
-    By default, the checkbox is not checked \(`elastic = false`\), and the service instance will have a fixed number of ABAP application servers with a total ABAP runtime size as defined by the parameter **ABAP Runtime Size** \(see above\).
+    By default, the checkbox is not checked \(`elastic = false`\), and the service instance will have a fixed number of ABAP application servers with a total ABAP runtime size as defined by the parameter **Total ABAP Runtime Size** \(see above\).
 
-    If you enable elastic scaling by checking the checkbox \(`elastic = true`\), application servers will be automatically added to the service instance when the load increases and removed when the load decreases. More specifically, the number of application servers will scale between 1 ACU \(ABAP Compute Unit\), using two application servers, as a minimum and the number of ACUs configured in the **ABAP Runtime Size** parameter \(see above\) as a maximum.
+    If you enable elastic scaling by checking the checkbox \(`elastic = true`\), application servers will be automatically added to the service instance when the load increases and removed when the load decreases. More specifically, the number of application servers will scale between the number of ACUs \(ABAP compute units\) needed for two application servers as a minimum \(1 ACU if application\_server\_size = 0.5 or 4 ACU if application\_server\_size = 2\), and the number of ACUs configured in the **Total ABAP Runtime Size** parameter \(see above\) as a maximum.
 
-    This feature considerably helps in cost-saving as charges are only levied based on the actually allocated ACUs, and not on the configured maximum. Still, to ensure that defined quotas are not exceeded, the maximum number of ACUs that is set in the **ABAP Runtime Size** parameter is allocated from the available ACU quota for the entire duration that the service instance is provisioned.
+    This feature considerably helps in cost-saving as charges are only levied based on the actually allocated ACUs, and not on the configured maximum. Still, to ensure that defined quotas are not exceeded, the maximum number of ACUs that is set in the **Total ABAP Runtime Size** parameter is allocated from the available ACU quota for the entire duration that the service instance is provisioned.
 
     The scaling typically occurs within a couple of minutes. Especially when a service instance is scaled down, there is a grace period of a few minutes to allow the completion of short-lived requests. Before enabling elastic scaling in production, we advise to test your typical workload patterns and monitor the embededed *Health Monitoring* app to verify the suitability of this cost-saving measure. Maintaining a higher number of statically configured ACUs might be better for handling sudden large spikes in the system load.
     
@@ -212,7 +241,7 @@ For more information about creating service instances, see [Create Service Insta
     </td>
     <td valign="top">
     
-    Using an email address as subject name identifier might not be possible if the e-mail address is ambiguous across users or if the trusted identity provider configured for authentication in the ABAP Environment instance’s subaccount already is configured with the subject name identifier `Login Name`. In this case, you can change the **login attribute** to `user_name` and in addition also provide the user name for the initial user in the **admin user name** \(see above\).
+    Using an email address as subject name identifier might not be possible if the e-mail address is ambiguous across users, or if the trusted identity provider configured for authentication in the subaccount of the ABAP environment instance is already configured with the subject name identifier `Login Name`. In this case, you can change the **login attribute** to `user_name`. In addition, provide the user name for the initial user in the **admin user name** \(see above\).
 
     > ### Caution:  
     > Currently, it's only possible to change the login attribute **when creating a new ABAP system**. To change the settings **afterwards**, please create a service ticket.

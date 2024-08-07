@@ -138,11 +138,28 @@ If the option *Add Copy Action* is selected, an abstract entity for the user inp
 
 
 
+### Enable Transport Selection Strip
+
+Select to enable a transport selection strip in the header toolbar with the following properties:
+
+-   The transport request selection action is only displayed in edit mode.
+
+-   The transport request information is displayed in the header toolbar.
+
+-   If the save action is executed without a selected transport request and the transport is mandatory, the action to select a transport request is triggered automatically. After selecting a transport request, the save action continues.
+
+
+If this option is not selected, a transport selection is made possible using a action button. This option is selected by default.
+
+
+
 ### Transport Selection
 
 Select *Manual* to include the action *Select Transport* in the generated app. With this action, you can select an existing customizing transport request before saving the configuration changes.
 
 Select *Manual with preselection* to include the action *Select Transport* in the generated app. With this action, you can select an existing customizing transport request before saving the configuration changes. When the *Edit* action is performed, a customizing transport request is determined automatically. You can find the determination logic in the ABAP documentation of method `get_transport_request` of interface `if_mbc_cp_rap_tdat_cts`.
+
+Select *No Transport* for an app without a transport option. Suitable for configurations that are to be adjusted in the productive client.
 
 
 

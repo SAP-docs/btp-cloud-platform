@@ -2,18 +2,32 @@
 
 # Using an Agent
 
-You can use any agent with the SAP Java Build pack. The agent must be included in the `.jar` or `.war` archive of your application. The SAP Java Build pack extracts the agent when the application is deployed. You can check if the agent is extracted to the expected location by using the `cf ssh` command.
+SAP Java Buildpack can work with any Java agent as long as it's included in the `.jar` or `.war` archive of your application.
 
-To use an agent with the SAP Java Build pack, set the *<JBP\_CONFIG\_JAVA\_OPTS\>* environment variable as shown in the following example:
+The buildpack extracts the agent when the application is deployed. To check if the agent is extracted to the expected location, run:
+
+```
+cf ssh
+```
+
+To use an agent with SAP Java Buildpack, set the *<JBP\_CONFIG\_JAVA\_OPTS\>* environment variable as follows:
 
 ```
 env:
     JBP_CONFIG_JAVA_OPTS: 'java_opts: "-javaagent:<PathToYourAgent>"'
 ```
 
-The Java agent is platform-agnostic, but must be compatible to the version of the JVM you are using.
+The Java agent is platform-agnostic, but must be compatible with the version of the JVM you are using \(SAP JVM or SapMachine\).
 
-You can also use a native agent. Since a native agent is a dynamic library, it must be compatible with the architecture of the platform. For Cloud Foundry, this is Linux x86\_64. As the application developer you must make sure that the correct agent is used and apply updates whenever they are needed. To use a native agent, set the *<JBP\_CONFIG\_JAVA\_OPTS\>* as follows:
+
+
+<a name="loio156fa7509e76454db330e8e874d7acb7__section_gg5_jfg_hcc"/>
+
+## Native Agents
+
+A native agent is a dynamic library. If you want to use one, it must be compatible with the architecture of the platform. For Cloud Foundry, this is Linux x86\_64. As an application developer, make sure that the correct agent is used, and regularly apply updates whenever they're needed.
+
+To use a native agent, set the *<JBP\_CONFIG\_JAVA\_OPTS\>* environment variable as follows:
 
 ```
  env:

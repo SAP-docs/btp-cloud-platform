@@ -160,5 +160,5 @@ The cloud or business application has a trust relationship with the authorizatio
 
 [Cloud Foundry API Reference for User Account and Authentication Server API](https://docs.cloudfoundry.org/)
 
-[Security in the Kyma Environment](security-in-the-kyma-environment-ee08fdf.md "The Kyma environment-specific security aspects include a list of applied security measures, guidelines on authentication and authorization, custom identity provider configuration, and details on processing and storing logs.")
+[Security in the Kyma Environment](security-in-the-kyma-environment-ee08fdf.md)
 

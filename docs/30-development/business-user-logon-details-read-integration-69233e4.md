@@ -4,8 +4,6 @@
 
 
 
-Service name: `BusinessUser`
-
 This service enables you to
 
 -   Read business users

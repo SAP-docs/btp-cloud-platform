@@ -10,7 +10,9 @@ Learn more about the different options to develop SAP Fiori applications for an 
 
 ## Overview
 
-You can develop SAP Fiori applications for OData services that are exposed as a UI service. See [OData Service Consumption](https://help.sap.com/docs/btp/sap-abap-restful-application-programming-model/odata-service-consumption?version=Cloud).![](images/UI_Development_Overview_e7e06e4.png)
+You can develop SAP Fiori applications for OData services that are exposed as a UI service. See [OData Service Consumption](https://help.sap.com/docs/btp/sap-abap-restful-application-programming-model/odata-service-consumption?version=Cloud).
+
+![](images/Image_Map_UIDevOverview_eacde77.png)
 
 
 
@@ -22,7 +24,7 @@ Once you have implemented the custom SAP Fiori application, you can deploy it to
 
 You can launch the deployed apps standalone or embed them into the SAP Fiori launchpad.
 
-SAP S/4HANA Cloud comes with an embedded SAP Fiori launchpad and provides access to SAP Fiori apps that are deployed to the ABAP environment. You can also add apps that are deployed to the ABAP environment to launchpads provided by the SAP Build Work Zone, standard edition.
+SAP S/4HANA Cloud comes with an embedded SAP Fiori launchpad and provides access to SAP Fiori apps that are deployed to the ABAP environment. You can also add apps that are deployed to the ABAP environment to launchpads provided by the [SAP Build Work Zone, standard edition](https://help.sap.com/docs/build-work-zone-standard-edition).
 
 
 
@@ -54,7 +56,7 @@ If you want to deploy an SAP Fiori application to the ABAP environment, the foll
 -   An administrator in the ABAP environment provides access to the OData service and the tile via a business role.
 -   A business user that is assigned to the business role can access the tile from SAP Fiori launchpad and launch the application.
 
-![](images/UI_Development_in_the_ABAP_Environment_f758148.png)
+![](images/FioriAppsinABAP_830ec12.png)
 
 
 
@@ -75,7 +77,7 @@ If you want to deploy an SAP Fiori application to the Cloud Foundry environment,
 -   An administrator in the ABAP environment provides access to the OData service via a business role. A launchpad administrator enables access to the tile via a role collection.
 -   A business user that is assigned to the business role and role collection can access the tile from SAP Fiori launchpad and launch the application.
 
-![](images/UI_Development_in_the_Cloud_Foundry_Environment_6f98219.png)
+![](images/FioriAppsinCF_0086ea3.png)
 
 **Related Information**  
 

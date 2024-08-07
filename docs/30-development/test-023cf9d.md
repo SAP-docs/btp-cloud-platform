@@ -34,7 +34,7 @@ Before testing new developments in a software component in the test system, as a
 
 Before creating and assigning business roles, you have to make sure that business users are already available. They can be created manually or automatically. See [User Provisioning](user-provisioning-ef52a68.md).
 
-To test the developed business services, as a test user, create business roles from the role templates in the test system and assign them to your user. See [Maintain Business Roles \(Deprecated\)](../50-administration-and-ops/maintain-business-roles-deprecated-8980ad0.md).
+To test the developed business services, as a test user, create business roles from the role templates in the test system and assign them to your user. See [Maintain Business Roles](../50-administration-and-ops/maintain-business-roles-8980ad0.md).
 
 **Create Launchpad Space and Pages for Business Roles**
 

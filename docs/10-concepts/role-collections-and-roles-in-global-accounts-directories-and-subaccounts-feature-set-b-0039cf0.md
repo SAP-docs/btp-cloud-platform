@@ -1092,7 +1092,7 @@ If you've enabled environments in your subaccount, manage the roles for those en
 
 -   [About Roles in the Cloud Foundry Environment](../50-administration-and-ops/about-roles-in-the-cloud-foundry-environment-0907638.md)
 
--   [Assign Roles in the Kyma Environment](../50-administration-and-ops/assign-roles-in-the-kyma-environment-148ae38.md)
+-   [Assign Roles in the Kyma Environment](../60-security/assign-roles-in-the-kyma-environment-148ae38.md)
 
 
 > ### Note:  

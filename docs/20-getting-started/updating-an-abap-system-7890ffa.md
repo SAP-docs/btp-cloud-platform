@@ -14,7 +14,9 @@ After you have created an ABAP environment instance, you can change the followin
 
 -   ABAP System Description
 
--   ABAP Runtime Size \(size\_of\_runtime\)
+-   Total ABAP Runtime Size \(size\_of\_runtime\)
+
+-   ABAP Runtime Size per Application Server \(application\_server\_size\)
 
 -   Elastic Scaling of the ABAP Application Server
 

@@ -35,17 +35,6 @@ Here you can find a list of the security events that are logged by SAP BTP, Kyma
 
 
 
-The table describes the following information:
-
--   Event grouping - Events that are logged with a similar format or are related to the same entities.
-
--   What events are logged - Description of the security or data protection and privacy-related event that is logged.
-
--   Additional information - Any related information that can be helpful.
-
-
-
-
 **Events Written in Audit Logs**
 
 
@@ -231,7 +220,7 @@ Resource groups:
 
 ## Application Logs of System Components
 
-Kyma runtime collects application logs provided by the Kyma system components. Those logs reflect regular events that occurred in Kyma runtime and should not include any personal or sensitive data. These are typically system-related activities and operations you can analyze to get more information about performance or inspect potential problems.
+Kyma runtime collects application logs provided by the Kyma system components. Those logs reflect regular events that occurred in Kyma runtime and must not include any personal or sensitive data. These are typically system-related activities and operations you can analyze to get more information about performance or to inspect potential problems.
 
 **Related Information**  
 

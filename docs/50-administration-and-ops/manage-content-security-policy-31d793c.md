@@ -33,6 +33,9 @@ You can use this app to:
     -   Browser extensions sometimes insert non-policy conform code into an HTML page. This results in violation log entries that are not caused by the applications themselves.
 
 
+    > ### Note:  
+    > You can switch the reporting endpoint delivered by SAP on and off. To do this, activate or deactivate the *Reporting Endpoint Status* switch on the *Settings* tab.
+
 
 
 

@@ -66,7 +66,7 @@ Dynatrace supports full-stack monitoring for Cloud Foundry – from the applicat
 
     **NOTE:** If there are more than one Dynatrace services bound to the application, the service that's going to be used is the one that was chronologically bound first.
 
-4.  Deploy the application to Cloud Foundry with the updated *manifest.yml* file. Run:
+4.  Deploy the application to the SAP BTP, Cloud Foundry environment with the updated *manifest.yml* file. Run:
 
     ```
     cf push myapp

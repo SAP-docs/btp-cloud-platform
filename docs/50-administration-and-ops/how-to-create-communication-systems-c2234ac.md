@@ -64,6 +64,14 @@ To create a communication system perform the following steps:
         > ### Note:  
         > The propagation of technical users from the cloud application towards on-premise systems can be enabled in the *Communication Systems* app. To propagate the technical user, you have to select the *Cloud Conn. Technical User Propagation* checkbox in the *OAuth 2.0 Settings* area \(the checkbox is only active if the *Cloud Connector*switch is on\). This is similar to principal propagation, but in this case, a technical user is propagated instead of a business user.
 
+    -   *Remote SQL Access* switch
+
+        Define additional settings needed to access remote databases via SQL:
+
+        Select the required *Adapter Name*. This specifies the corresponding HANA Smart Data Access adapter and the type of access method to be used by the SAP HANA database to access the data. Use the field input help for the list of adapter names you can specify.
+
+        Enter the required *Adapter Configuration*. This specifies the connection parameters for a given adapter.
+
     -   *OAuth 2.0 Identity Provider* switch
 
         Before you can authenticate and get an access token to access resources using an OAuth 2.0 client, you have to configure a trusted relationship to the required *SAML Identity Provider* \(token issuer\).

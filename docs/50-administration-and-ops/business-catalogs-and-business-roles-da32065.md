@@ -631,7 +631,7 @@ Health Monitoring
 </td>
 <td valign="top">
 
-`SAP_CA_BC_OP_MON`
+`SAP_CORE_BC_TMC`
 
 *Technical Monitoring Cockpit Infrastructure* 
 
@@ -817,7 +817,7 @@ Identity and Access Management
 </td>
 <td valign="top">
 
-[Maintain Business Roles \(Deprecated\)](maintain-business-roles-deprecated-8980ad0.md) 
+[Maintain Business Roles](maintain-business-roles-8980ad0.md) 
 
 </td>
 <td valign="top">
@@ -999,7 +999,7 @@ Identity and Access Management
 </td>
 <td valign="top">
 
-[Maintain Business Roles](maintain-business-roles-365b0d6.md)
+ <?sap-ot O2O class="- topic/xref " href="365b0d6fe67d4cecbfe11cc8344264cc.xml" text="" desc="" xtrc="xref:36" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/da320654ed6e4e1e804a1a882cd461ea.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 </td>
 <td valign="top">
@@ -2065,6 +2065,36 @@ Technical Monitoring
 `SAP_BR_ADMINISTRATOR`
 
 *Administrator*
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_TMC`
+
+*Technical Monitoring*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Technical Monitoring
+
+</td>
+<td valign="top">
+
+[HANA Thread Samples](hana-thread-samples-f581339.md)
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+`SAP_BR_DEVELOPER`
+
+*Developer*
 
 </td>
 <td valign="top">

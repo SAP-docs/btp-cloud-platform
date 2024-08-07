@@ -49,7 +49,7 @@ Scoping:
 
 ## Access Information
 
-For more information how to provide access to users and how to implement this app, see [Enable Usage of the Custom Code Migration App](enable-usage-of-the-custom-code-migration-app-34f67ed.md)
+For more information how to provide access to users and how to implement this app, see [Enable Usage of the Custom Code Migration App](enable-usage-of-the-custom-code-migration-app-34f67ed.md).
 
 
 

@@ -2,7 +2,7 @@
 
 # Distributed Denial-of-Service Protection in Kyma
 
-A distributed denial-of-service \(DDoS\) attack is a malicious attempt to disrupt the normal traffic of a targeted server, service or network by overwhelming the target or its surrounding infrastructure with a flood of Internet traffic.
+A distributed denial-of-service \(DDoS\) attack is a malicious attempt to disrupt the normal traffic of a targeted server, service or network by overwhelming the target or its surrounding infrastructure with a flood of traffic.
 
 With Kyma comes the default DDoS protection offered by the IaaS provider.
 

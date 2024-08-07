@@ -142,8 +142,6 @@ The *SUPPORT\_SYSTEM\_CONFIG* access level inherits all the authorizations from 
 
 The *SUPPORT\_SYSTEM\_ADMIN* access level grants unrestricted administrative access. It includes authorization profile SAP\_ALL. Cloud operations may need to use it for system lifecycle management. Support teams may need to request it as the final escalation of privileges for support cases that cannot be resolved with other access levels. Root case analysis is mandated for such support cases. The root cause must be resolved.
 
-/
-
 </td>
 </tr>
 </table>

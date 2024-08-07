@@ -10,7 +10,7 @@ Learn how to use EnvoyFilter or Istio VirtualService to add a third-party cookie
 
 ## Prerequisites
 
--   You have the default Istio module added.
+-   You have the Istio module added.
 -   You have a workload deployed.
 
 <a name="task_mxj_wdj_kbc"/>
@@ -33,7 +33,7 @@ To modify the responses for a particular workload within the Istio service mesh,
 
 ## Procedure
 
-1.  Replace the placeholders in the following EnvoyFilter's configuration.
+1.  In the following EnvoyFilter's configuration, replace the placeholders.
 
 
     <table>
@@ -178,7 +178,7 @@ If you use Istio VirtualServices rather than APIRules to expose Kyma workloads, 
 
 ## Procedure
 
-1.  Replace the placeholders in the following configuration of Istio VirtualService.
+1.  In the following configuration of Istio VirtualService, replace the placeholders.
 
 
     <table>

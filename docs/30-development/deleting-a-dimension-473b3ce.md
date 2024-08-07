@@ -2,7 +2,10 @@
 
 # Deleting a Dimension
 
-Use method `DELETE` to delete a dimension. For customer dimensions, the name of the dimension ID must start with a ‘Z’ to allow for deletion.
+Use method `DELETE` to delete a dimension.
+
+> ### Caution:  
+> Changing the initial set of configurations has implications. Before proceeding with any change, familiarize yourself with the warnings in [Units of Measurement](units-of-measurement-8961c2c.md).
 
 
 

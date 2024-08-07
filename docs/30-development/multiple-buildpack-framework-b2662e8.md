@@ -2,12 +2,12 @@
 
 # Multiple Buildpack Framework
 
-The Multiple Buildpack Framework enables the SAP Java Buildpack to act as the final buildpack in a multiple buildpack deployment. It reads the contributions of other, earlier buildpacks and incorporates them into its standard staging.
+The Multiple Buildpack Framework enables SAP Java Buildpack to act as the final buildpack in a multiple buildpack deployment. It reads the contributions of other, earlier buildpacks and incorporates them into its standard staging.
 
 > ### Note:  
-> If you try to use the SAP Java Buildpack as a non-final buildpack, an error will be thrown.
+> If you try to use SAP Java Buildpack as a non-final buildpack, an error will be thrown.
 
-When the Java Buildpack acts as the final buildpack in a multiple buildpack deployment it honors the following core contract integration points with non-final buildpacks.
+When SAP Java Buildpack acts as the final buildpack in a multiple buildpack deployment, it honors the following core contract integration points with non-final buildpacks:
 
 
 <table>

@@ -2,21 +2,36 @@
 
 # Troubleshooting
 
-Below you can find infromation about where you can get interactive support to troubleshoot issues and how you can create an incident.
+This topic contains information that is essential for troubleshooting issues.
 
 
 
-<a name="loio3530af7ff2b449fbbc591dd3e2c0d151__section_yc3_w2n_fsb"/>
+Before you start investigating the problem, download the logs for the current deployment. The logs contain the following structure of files:
 
-## Troubleshooting
+-   `OPERATION.LOG` - contains the whole deployment log
 
-To get interactive support to help troubleshoot issues and navigate processes. See [Guided Answers](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2798/actions/40943).
+-   `<application-name>.log` – there is a separate file for each application. It holds the logs related to the application during staging and starting
+
+
+> ### Note:  
+> Note that the operation logs are kept for 3 days. Make sure that you download them before the retention period expires
+
+To download the logs, execute the following command:
+
+`cf dmol -i <process-id>`
+
+> ### Example:  
+> `cf dmol -i cbe58aeb-0c40-4a3e-972d-82a499815745`
 
 
 
-<a name="loio3530af7ff2b449fbbc591dd3e2c0d151__section_ynq_hfn_fsb"/>
+### Troubleshooting an MTA Operation Failure
 
-## Creating an Incident
+To troubleshoot issues, see the list of problems that may occur during the Multitarget Application deployment that is available in [MTA Operation Failure](mta-operation-failure-f3e97ff.md).
+
+
+
+### Creating an Incident
 
 If the list does not contain a solution for your issue, you can contact the service support team by reporting an incident through the [SAP Support Portal](https://support.sap.com/en/index.html). Here is a list of what to provide in an incident:
 

@@ -8,5 +8,5 @@ In general, the number of ABAP systems in your landscape is the result of the pr
 
 The number of ABAP systems = \(number of branches x DEV systems\) + \(number of branches x QAS systems\) + \(number of PRD systems\)
 
-An ABAP system allows only one active branch of a software component per system at any given point in time. Yet, several software components represented by one branch can run in one ABAP system in parallel. That means, unless your administrator checks out a different branch in the Manage Software Component app, all released transports will be committed to this active branch.
+This is due to the fact that an ABAP system always checks out only one branch of a software component. Yet, several software components represented by one branch can run in one ABAP system in parallel.
 

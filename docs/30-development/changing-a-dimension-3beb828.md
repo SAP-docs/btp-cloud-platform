@@ -2,7 +2,10 @@
 
 # Changing a Dimension
 
-Use method `UPDATE` to change an existing dimension. For customer dimensions, the name of the dimension ID must start with a ‘Z’ for any changes.
+Use method `UPDATE` to change an existing dimension.
+
+> ### Caution:  
+> Changing the initial set of configurations has implications. Before proceeding with any change, familiarize yourself with the warnings in [Units of Measurement](units-of-measurement-8961c2c.md).
 
 
 

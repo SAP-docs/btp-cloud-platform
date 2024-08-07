@@ -4,8 +4,6 @@
 
 
 
-Service name: `ProtectionAllowlist`
-
 This service enables you to:
 
 -   Read clickjacking protection data

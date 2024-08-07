@@ -159,6 +159,23 @@ Not supported. Use the destination service instead. For more information, see [A
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+SQL service \(Internet\)
+
+</td>
+<td valign="top">
+
+Basic authentication
+
+</td>
+<td valign="top">
+
+Not supported
+
+</td>
+</tr>
 </table>
 
 

@@ -73,13 +73,13 @@ To separate development and production purposes, you have to create different gl
     > ### Note:  
     > The ABAP environment platform version of the assembly system is used to determine the minimum platform version for the add-on product version that is created.
     > 
-    > Such a system should not be nominated for the pre-upgrade option of the ABAP environment because this would lead to the add-on product only being able to installed in systems with the pre-upgrade release.
+    > Such a system should not be nominated for the pre-upgrade option of the ABAP environment because this would lead to the add-on product only being able to installed in systems with the pre-upgrade release. When using BPV \(recommended\), the add-on definition is configured directly in the app.
 
-    For the add-on build process, an assembly system BLD is provisioned in this subaccount by the CI/CD server. See [Software Assembly Integration \(SAP\_COM\_0582\)](software-assembly-integration-sap-com-0582-26b8df5.md). After the add-on has been successfully built, the system is deleted. In this case, the CI/CD server reads the add-on definition from a Git repository \(add-on descriptor\).
+    For the add-on build process, an assembly system BLD is provisioned in this subaccount by the CI/CD server. See [Software Assembly Integration \(SAP\_COM\_0582\)](software-assembly-integration-sap-com-0582-26b8df5.md) When using the Build Product Version app \(recommended\), the add-on definition is configured directly in the app.
 
 5.  **04 Build/Test: Subaccount for add-on installation test including build/test space**
 
-    After the add-on has been assembled during the build of an add-on version, an installation test is required to verify that the add-on can be installed without errors into a system. As part of the add-on build pipeline, an `abap/saas_oem` system ATI is provisioned in this subaccount and the add-on is installed. In this case, the CI/CD server reads the add-on definition \(add-on descriptor\) and the provisioning parameters for the add-on installation test system from a Git repository.
+    After the add-on has been assembled during the build of an add-on version, an installation test is required to verify that the add-on can be installed without errors into a system. As part of the add-on build pipeline, an `abap/saas_oem` system ATI is provisioned in this subaccount and the add-on is installed. When using the Build Product Version app \(recommended\), the add-on definition is configured directly in the app.
 
 6.  **05 Provide: Provider subaccount including provider space**
 
@@ -97,6 +97,9 @@ To separate development and production purposes, you have to create different gl
     -   Connectivity via SAP Cloud Connector. See [Connectivity in the Cloud Foundry Environment](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html).
     -   Destinations. See [Managing Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/84e45e071c7646c88027fffc6a7bb787.html).
     -   Subscriptions
+
+    > ### Note:  
+    > You can use a booster \(see [Booster for Landscape Portal](prepare-4338854.md#loio8d34e0f80489468088a99202a7fb4a60)\) to automatically perform the setup of subaccounts 00 Landscape Portal, 03 Build/Assemble and 04 Build/Test.
 
 
 
@@ -282,15 +285,6 @@ For the consumption of the add-on as a SaaS solution, software components are in
 ## Multitenancy
 
 The ABAP environment provides capabilities for multitenancy, meaning to host different customers on a single ABAP system. See [Multitenancy in the ABAP Environment](multitenancy-in-the-abap-environment-633cc61.md).
-
-The way ABAP service instances and tenants are used for consumer subscriptions application can be configured via parameter `tenant_mode` of the ABAP Solution service. See [ABAP Solution Service](order-and-provide-975bd3e.md#loio1697387c02e74e66a55cf21a05678167):
-
--   **Single**: With each new consumer, a new ABAP service instance is created.
-
--   **Multi**: For multiple consumers, the same ABAP service instance is used.
-
-    In case of a multitenancy-enabled solution, with another parameter `consumer_tenant_limit`, you can define the maximum number of tenants per system until a new ABAP system is created.
-
 
 > ### Tip:  
 > You should align your decision whether to enable multitenancy mode for your solution based on whether the [Multitenancy Development Guideline](multitenancy-development-guideline-9d994c8.md) can be followed during ABAP development.

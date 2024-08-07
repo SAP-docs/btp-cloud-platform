@@ -86,7 +86,7 @@ If a custom tenant provider is used, define the class in the `Resource` configur
 </Context>
 ```
 
-**Tip:** If you want a non-JPA application to consume `jdbc/Outsource`, use the following:
+**Tip:** If you want a **non-JPA** application to consume `jdbc/DatasourceOne`, use the following code:
 
 ```
 

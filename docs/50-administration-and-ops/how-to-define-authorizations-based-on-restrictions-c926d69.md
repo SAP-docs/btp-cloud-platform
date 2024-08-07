@@ -4,7 +4,7 @@
 
 
 
-<a name="loioc926d691d7144f7dba16f8e12ad81d28__HowToMaintainAccessResctrictions_context"/>
+<a name="loioc926d691d7144f7dba16f8e12ad81d28__HowToMaintainAccessRestrictionsNew_context"/>
 
 ## Context
 
@@ -21,11 +21,11 @@ Using the *Maintain Business Roles* app, you have the following options for main
 
 
 
-<a name="loioc926d691d7144f7dba16f8e12ad81d28__HowToMaintainAccessResctrictions_steps"/>
+<a name="loioc926d691d7144f7dba16f8e12ad81d28__HowToMaintainAccessRestrictionsNew_steps"/>
 
 ## Procedure
 
--   On the *Maintain Restrictions* tab, you can maintain restrictions for business roles. These restrictions are the basis of authorizations that are granted to the business users who are assigned to this business role. The business catalog defines which access categories are available for maintaining and for which fields restriction values can be maintained.
+-   In the *Maintain Restrictions* UI, you can maintain restrictions for business roles. These restrictions are the basis of authorizations that are granted to the business users who are assigned to this business role. The business catalog defines which access categories are available for maintaining and for which fields restriction values can be maintained.
 
     The following access categories are available:
 
@@ -51,7 +51,7 @@ Using the *Maintain Business Roles* app, you have the following options for main
 
     Switching the write access to *Restricted* allows you to define which data can be edited by the users assigned to this business role.
 
--   In the *Restrictions and Values* section, you can define the authorization values for the desired restriction fields.
+-   In the *Values* area, you can define the authorization values for the desired restriction fields.
 
     If you don’t want to grant access to a restriction field on purpose, you can choose the status *Not maintained*.
 
@@ -64,9 +64,9 @@ Using the *Maintain Business Roles* app, you have the following options for main
 
     Switching the read access to *Restricted* allows you to define which data can be seen by the users assigned to this business role.
 
-    In the *Restrictions and Values* section, you can define the instance-based restrictions for the desired restriction fields used for value helps.
+    In the *Values* section, you can define the instance-based restrictions for the desired restriction fields used for value helps.
 
-    For more information about the *Restriction and Values* area, please refer to the *Write* section above.
+    For more information about the *Values* area, please refer to the *Write* section above.
 
 -   Every authorization you define in the *Read* access category is inherited to the *Value Help* access category.
 
@@ -84,7 +84,7 @@ Using the *Maintain Business Roles* app, you have the following options for main
 
 -   Restriction types that contain general organizational restriction fields can be found in the top section called *General*. These restriction types contain only one restriction field.
 
-    The status of the restriction fields that belong to this section can be changed to*Leading Restriction*. You can do this by selecting the required field under *Restrictions and Values* \> *General*, clicking the pencil icon, activating the*Leading Restriction* switch, and then clicking *OK*. This status is visible through the*Leading Restriction* symbol in front of the restriction field. The respective symbol looks like this:
+    The status of the restriction fields that belong to this section can be changed to*Leading Restriction*. You can do this by selecting the *Leading Restriction* checkbox. This status is visible through the*Leading Restriction* symbol in the *Restrictions Overview*. The respective symbol looks like this:
 
     ![](images/icon_8274923.gif)
 
@@ -92,13 +92,14 @@ Using the *Maintain Business Roles* app, you have the following options for main
 
     You want to, for example, define that the values for the country templates for Austria and Switzerland are applied in all restriction types the *Company Code* field is used in. So you select the values `AU01` \(for Austria\) and `CH01` \(for Switzerland\) and switch *Leading Restriction* on. Then these values are automatically inherited to all occurrences of the *Company Code* field.
 
-    *Default Values from Business Catalogs*
 
-    Business catalogs can contain default values. In rare cases, these might overwrite the values defined by you in the Restrictions and Values section. The system then displays a message listing the default values that are added from the business catalog. To avoid this, you then need to remove the respective business catalog from the business role. The respective symbol looks like this:
+*Default Values from Business Catalogs*
 
-    ![](images/Icon_48b51cb.gif)
+Business catalogs can contain default values. In rare cases, these might overwrite the values defined by you in the Restrictions and Values section. The system then displays a message listing the default values that are added from the business catalog. To avoid this, you then need to remove the respective business catalog from the business role. The respective symbol that is visible in the *Restrictions Overview* looks like this:
 
+![](images/icon_8050056.gif)
 
+-   
 **Related Information**  
 
 
@@ -107,4 +108,10 @@ Using the *Maintain Business Roles* app, you have the following options for main
  <?sap-ot O2O class="- topic/link " href="03540a86736543c4b94070d08df40744.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/c926d691d7144f7dba16f8e12ad81d28.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 [Maintain Restrictions in Business Role](https://launchpad.support.sap.com/#/notes/2598733)
+
+[Maintain Restrictions UI](maintain-restrictions-ui-28f133f.md "")
+
+[Restrictions Overview](restrictions-overview-0d2fb05.md "")
+
+ <?sap-ot O2O class="- topic/link " href="dbd0d00ab9674847a66e2164bca1ad1a.xml" text="" desc="" xtrc="link:6" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/c926d691d7144f7dba16f8e12ad81d28.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 

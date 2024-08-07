@@ -42,6 +42,9 @@ The standard user flow is described in the following diagram. Hover over the dif
 -   Users need an active subscription for the SAP Continuous Integration and Delivery service in the BTP subacccount of the Landscape Portal subscription to be able to use the *Build Product Version* app. If this subscription is not maintained, the following error will occur: 'No subscription to CI/CD service found for this subaccount. Please see the note below for more information on how to add the CI/CD service as entitlement and how to subscribe to it.
 
 > ### Note:  
+> You can use the [Booster for Landscape Portal](prepare-4338854.md#loio8d34e0f80489468088a99202a7fb4a60) to set up three new BTP subaccount for use with the Build Product Version app. One subaccount will contain Landscape Portal and CI/CD subscriptions, while the other two can be used during the assembly and test installation stages of the product build process. Upon execution, the booster will perform all required configuration, including the points above.
+
+> ### Note:  
 > Follow these steps to add the CI/CD service as entitlement and to subscibe to it.
 > 
 > Adding the CI/CD Service as Entitlement

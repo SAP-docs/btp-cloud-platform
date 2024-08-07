@@ -715,7 +715,7 @@ Build and deploy innovative chatbots using this comprehensive end-to-end platfor
 </td>
 <td valign="top">
 
-Simplify integration via APIs
+Simplify integration via APIs.
 
 </td>
 <td valign="top">
@@ -773,7 +773,7 @@ Simplify integration via APIs
 </td>
 <td valign="top">
 
-Simplify integration via APIs
+Simplify integration via APIs.
 
 </td>
 <td valign="top">
@@ -833,7 +833,7 @@ Simplify integration via APIs
 </td>
 <td valign="top">
 
-Simplify integration via APIs
+Simplify integration via APIs.
 
 </td>
 <td valign="top">
@@ -892,7 +892,7 @@ Simplify integration via APIs
 </td>
 <td valign="top">
 
-Simplify integration via APIs
+Simplify integration via APIs.
 
 </td>
 <td valign="top">
@@ -1834,125 +1834,6 @@ Manage your mobile devices.
 <tr>
 <td valign="top">
 
-[Extension Factory, serverless runtime](https://help.sap.com/viewer/product/XF_SERVERLESS_RUNTIME/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Allows you to create, manage, configure extensions on SAP Cloud Platform
-
-</td>
-<td valign="top">
-
--   BC-CP-XF-SRT
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   US East \(VA\)
--   Japan \(Tokyo\)
--   Australia \(Sydney\)
--   Singapore
--   South Korea \(Seoul\)
--   Brazil \(São Paulo\)
--   Canada \(Montreal\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Extension Factory, serverless runtime](https://help.sap.com/viewer/product/XF_SERVERLESS_RUNTIME/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Allows you to create, manage, configure extensions on SAP Cloud Platform
-
-</td>
-<td valign="top">
-
--   BC-CP-XF-SRT
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Netherlands\)
--   US West \(WA\)
--   US East \(VA\)
--   Japan \(Tokyo\)
--   Singapore
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 [Java Server](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7613c8c7711e1014839a8273b0e91070.html) 
 
 </td>
@@ -2646,60 +2527,6 @@ Get client certificates via Secure Login Client \(SLC\) to log-on with SAP GUI.
 <td valign="top">
 
 -   
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[SAP Process Mining by Celonis, cloud edition](https://help.sap.com/viewer/product/SAP_PROCESS_MINING_BY_CELONIS/latest/en-US) 
-
-</td>
-<td valign="top">
-
-Mine data from your operational systems, visualize processes, and transform your business with AI.
-
-</td>
-<td valign="top">
-
--   XX-PART-CEL
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
 
 
 </td>
@@ -5006,6 +4833,125 @@ Recommendation of the G/L accounts using machine learning.
 <tr>
 <td valign="top">
 
+[Serverless Runtime](https://help.sap.com/viewer/product/XF_SERVERLESS_RUNTIME/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Allows you to create, manage, configure extensions on SAP Cloud Platform.
+
+</td>
+<td valign="top">
+
+-   BC-CP-XF-SRT
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US East \(VA\)
+-   Japan \(Tokyo\)
+-   Australia \(Sydney\)
+-   Singapore
+-   South Korea \(Seoul\)
+-   Brazil \(São Paulo\)
+-   Canada \(Montreal\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Serverless Runtime](https://help.sap.com/viewer/product/XF_SERVERLESS_RUNTIME/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Allows you to create, manage, configure extensions on SAP Cloud Platform.
+
+</td>
+<td valign="top">
+
+-   BC-CP-XF-SRT
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
+-   US West \(WA\)
+-   US East \(VA\)
+-   Japan \(Tokyo\)
+-   Singapore
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [SAP SuccessFactors Extensibility](https://help.sap.com/viewer/7b98ddc13f8d4a3ba08a74042a0baa7f/Cloud/en-US/346864df64f24011b49abee07bbd79af.html) 
 
 </td>
@@ -6007,304 +5953,6 @@ Create and consume SAP HANA databases.
 <td valign="top">
 
 -   HAN-CLS-DB
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Alibaba
-
-
-
-</td>
-<td valign="top">
-
--   China \(Shanghai\)\*\*
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/1.0/en-US) 
-
-</td>
-<td valign="top">
-
-Create role based, multi-channel sites to access business apps and content.
-
-</td>
-<td valign="top">
-
--   EP-CPP-NEO-LS
-
-
-
-</td>
-<td valign="top">
-
--   Neo
-
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Rot\)\*
--   Europe \(Frankfurt\)
--   US East \(Ashburn\)
--   US West \(Chandler\)
--   US East \(Sterling\)
--   US West \(Colorado Springs\)
--   Australia \(Sydney\)
--   Japan \(Tokyo\)
--   Canada \(Toronto\)
--   Brazil \(São Paulo\)
--   Europe \(Amsterdam\)
--   UAE \(Dubai\)
--   KSA \(Riyadh\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/1.0/en-US) 
-
-</td>
-<td valign="top">
-
-Create role based, multi-channel sites to access business apps and content.
-
-</td>
-<td valign="top">
-
--   EP-WZ-SRB
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   US East \(VA\)
--   Brazil \(São Paulo\)
--   Japan \(Tokyo\)
--   Australia \(Sydney\)
--   Singapore
--   Canada \(Montreal\)
--   Europe \(Frankfurt\) EU Access
--   South Korea \(Seoul\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/1.0/en-US) 
-
-</td>
-<td valign="top">
-
-Create role based, multi-channel sites to access business apps and content.
-
-</td>
-<td valign="top">
-
--   EP-WZ-SRB
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Singapore
--   US West \(WA\)
--   US East \(VA\)
--   Europe \(Netherlands\)
--   Japan \(Tokyo\)
--   Australia \(Sydney\)
--   Switzerland \(Zurich\) EU Access
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/1.0/en-US) 
-
-</td>
-<td valign="top">
-
-Create role based, multi-channel sites to access business apps and content.
-
-</td>
-<td valign="top">
-
--   EP-WZ-SRB
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   GCP
-
-
-
-</td>
-<td valign="top">
-
--   US Central \(IA\)
--   Europe \(Frankfurt\)
--   India \(Mumbai\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/1.0/en-US) 
-
-</td>
-<td valign="top">
-
-Create role based, multi-channel sites to access business apps and content.
-
-</td>
-<td valign="top">
-
--   EP-WZ-SRB
 
 
 
@@ -8142,7 +7790,7 @@ Profile and analyze your Java applications.
 <tr>
 <td valign="top">
 
-[OAuth 2.0](https://help.hana.ondemand.com/help/frameset.htm?7e658b3e4cea4a79b035d0f1d2798c1f.html) 
+[OAuth 2.0](https://help.sap.com/docs/btp/sap-btp-neo-environment/oauth-2-0-service) 
 
 </td>
 <td valign="top">
@@ -8378,6 +8026,305 @@ Use uniform standard-based file access and mobilize your business content.
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/1.0/en-US) 
+
+</td>
+<td valign="top">
+
+Create role based, multi-channel sites to access business apps and content.
+
+</td>
+<td valign="top">
+
+-   EP-CPP-NEO-LS
+
+
+
+</td>
+<td valign="top">
+
+-   Neo
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+-   Europe \(Frankfurt\)
+-   US East \(Ashburn\)
+-   US West \(Chandler\)
+-   US East \(Sterling\)
+-   US West \(Colorado Springs\)
+-   Australia \(Sydney\)
+-   Japan \(Tokyo\)
+-   Canada \(Toronto\)
+-   Brazil \(São Paulo\)
+-   Europe \(Amsterdam\)
+-   UAE \(Dubai\)
+-   KSA \(Riyadh\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/1.0/en-US) 
+
+</td>
+<td valign="top">
+
+Create role based, multi-channel sites to access business apps and content.
+
+</td>
+<td valign="top">
+
+-   EP-WZ-SRB
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US East \(VA\)
+-   Brazil \(São Paulo\)
+-   Japan \(Tokyo\)
+-   Australia \(Sydney\)
+-   Singapore
+-   Canada \(Montreal\)
+-   Europe \(Frankfurt\) EU Access
+-   South Korea \(Seoul\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/1.0/en-US) 
+
+</td>
+<td valign="top">
+
+Create role based, multi-channel sites to access business apps and content.
+
+</td>
+<td valign="top">
+
+-   EP-WZ-SRB
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Singapore
+-   US West \(WA\)
+-   US East \(VA\)
+-   Europe \(Netherlands\)
+-   Japan \(Tokyo\)
+-   Australia \(Sydney\)
+-   Switzerland \(Zurich\) EU Access
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/1.0/en-US) 
+
+</td>
+<td valign="top">
+
+Create role based, multi-channel sites to access business apps and content.
+
+</td>
+<td valign="top">
+
+-   EP-WZ-SRB
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   US Central \(IA\)
+-   Europe \(Frankfurt\)
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\) GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/1.0/en-US) 
+
+</td>
+<td valign="top">
+
+Create role based, multi-channel sites to access business apps and content.
+
+</td>
+<td valign="top">
+
+-   EP-WZ-SRB
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Alibaba
+
+
+
+</td>
+<td valign="top">
+
+-   China \(Shanghai\)\*\*
 
 
 
@@ -9323,6 +9270,71 @@ Manage your SAP systems in infrastructure as a service \(IaaS\) environments.
 
 -   Yes
 
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP Process Integration](https://help.sap.com/viewer/product/CLOUD_INTEGRATION/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Seamlessly orchestrate business processes and integrate data in real time.
+
+</td>
+<td valign="top">
+
+-   LOD-HCI-PI-OPS-PROV
+
+
+
+</td>
+<td valign="top">
+
+-   Neo
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+-   Europe \(Frankfurt\)
+-   Europe \(Amsterdam\)
+-   US East \(Ashburn\)
+-   US West \(Chandler\)
+-   US East \(Sterling\)
+-   US West \(Colorado Springs\)
+-   Australia \(Sydney\)
+-   Japan \(Tokyo\)
+-   Canada \(Toronto\)
+-   Brazil \(São Paulo\)
+-   KSA \(Riyadh\)
+-   UAE \(Dubai\)
+
+
+
+</td>
+<td valign="top">
+
+-   
 
 
 </td>
@@ -10426,6 +10438,7 @@ Simplify access to applications by establishing a central entry point.
 
 -   US Central \(IA\)
 -   India \(Mumbai\)
+-   Israel \(Tel Aviv\) GCP
 -   Europe \(Frankfurt\)
 
 
@@ -10721,71 +10734,6 @@ Design, configure, and execute automation projects.
 
 -   Yes
 
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[SAP Process Integration](https://help.sap.com/viewer/product/CLOUD_INTEGRATION/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Seamlessly orchestrate business processes and integrate data in real time.
-
-</td>
-<td valign="top">
-
--   LOD-HCI-PI-OPS-PROV
-
-
-
-</td>
-<td valign="top">
-
--   Neo
-
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Rot\)\*
--   Europe \(Frankfurt\)
--   Europe \(Amsterdam\)
--   US East \(Ashburn\)
--   US West \(Chandler\)
--   US East \(Sterling\)
--   US West \(Colorado Springs\)
--   Australia \(Sydney\)
--   Japan \(Tokyo\)
--   Canada \(Toronto\)
--   Brazil \(São Paulo\)
--   KSA \(Riyadh\)
--   UAE \(Dubai\)
-
-
-
-</td>
-<td valign="top">
-
--   
 
 
 </td>

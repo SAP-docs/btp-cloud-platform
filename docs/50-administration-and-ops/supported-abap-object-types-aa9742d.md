@@ -1036,7 +1036,7 @@ IWVB
 </td>
 <td valign="top">
 
-SAP Gateway Business Suite Enablement -Vocabulary Annotation
+SAP Gateway Business Suite Enablement - Vocabulary Annotation
 
 </td>
 <td valign="top">

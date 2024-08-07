@@ -10,6 +10,7 @@ To establish outbound communication between two communication partners, you have
 
     These outbound services can be HTTP \(see [Enable HTTP Communication in Your ABAP Code](enable-http-communication-in-your-abap-code-cef1ada.md)\), RFC \(see [Enable RFC Communication in Your ABAP Code](enable-rfc-communication-in-your-abap-code-bbbd142.md)\), or SOAP services \(see [Enable SOAP Communication in Your ABAP Code](enable-soap-communication-in-your-abap-code-6ab460e.md)\).
 
+-   For HTTP communication, we recommend to create and use communication targets as described in [HTTP Communication via Communication Targets](http-communication-via-communication-targets-71c2617.md).
 -   Create a communication scenario and assign it to the outbound service
 
     If you enable multiple arrangements, you can add customer-specific properties to the scenario to enable a simple receiver determination.
@@ -28,11 +29,11 @@ To establish outbound communication between two communication partners, you have
 
     If the scenario includes multiple communication arrangements, you have to determine the communication system. You can read the customer-specific properties using class `CL_COM_ARRANGEMENT_FACTORY` to determine the receiver communication system.
 
-    ![Development Objects for Outbound Communication](images/Development_Objects_for_Outbound_Communication_11351eb.svg)
+    ![Development Objects for Outbound Communication](images/Development_Objects_for_Outbound_Communication_2c37189.svg)
 
 
 > ### Note:  
-> Alternatively, if you only want to call a remote Web service, use the following method
+> Alternatively, you can call an HTTP or SOAP service by specifying a URL directly in your code:
 > 
 > ```
 > DATA(lv_dest) = cl_http_destination_provider=>create_by_url( i_url = 'https://www.example.com' ).

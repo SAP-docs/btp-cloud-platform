@@ -39,7 +39,7 @@ In order to grant access and authorizations to the *Application Job Templates* a
 
 [Maintain Business Users](maintain-business-users-e40e710.md "You use this app to provide business users with access rights and to maintain business user settings.")
 
-[Maintain Business Roles](maintain-business-roles-365b0d6.md)
+[Maintain Business Roles](maintain-business-roles-8980ad0.md)
 
 [Application Job Templates](application-job-templates-9c930d5.md)
 

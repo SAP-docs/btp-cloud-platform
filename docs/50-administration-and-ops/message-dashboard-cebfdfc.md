@@ -18,6 +18,10 @@ You can use this app to:
 
 -   See the general status of your interfaces over time and restrict the time range.
 
+-   Check for active alerts and confirm them in the column *Alert*.
+
+-   Configure what notifications you want to receive for a specific interface in the column *Notification*. You can choose between *E-Mail for the Next Alert* \(default\), *E-Mail for Every Single Error*, and *No Mail*.
+
 -   See the message numbers and statuses \(error, warning, success\) by namespace and interface.
 
 -   Navigate to the message summary for an overview of how often a certain log message was written to the application log and how many data messages used a certain log message.

@@ -147,19 +147,19 @@ Business Role Template
 </td>
 <td valign="top">
 
-Fiori Launchpad Page Template
+Fiori Launchpad Space Template
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-UIPG
+`UIPG`
 
 </td>
 <td valign="top">
 
-Fiori Launchpad Space Template
+Fiori Launchpad Page Template
 
 </td>
 </tr>

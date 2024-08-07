@@ -153,7 +153,7 @@ See:
 </tr>
 </table>
 
-Member management in the Cloud Foundry or Kyma environment is independent of the feature set you use. For more information on the Kyma environment, see [Assign Roles in the Kyma Environment](../50-administration-and-ops/assign-roles-in-the-kyma-environment-148ae38.md).
+Member management in the Cloud Foundry or Kyma environment is independent of the feature set you use. For more information on the Kyma environment, see [Assign Roles in the Kyma Environment](../60-security/assign-roles-in-the-kyma-environment-148ae38.md).
 
 **Member Management in the Cloud Foundry Environment**
 

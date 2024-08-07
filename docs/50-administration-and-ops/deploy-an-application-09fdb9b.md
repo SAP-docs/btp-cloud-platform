@@ -19,7 +19,7 @@ You can use the cockpit to deploy a new application in the Cloud Foundry environ
     > ### Note:  
     > To avoid any unexpected behavior, specify the attributes of your choice and their respective values in the `manifest.yml` file. For reference, see [https://docs.cloudfoundry.org/devguide/deploy-apps/manifest-attributes.html](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest-attributes.html).
 
-5.  \(Optional\) If you don't want to use a manifest, untick the *Use Manifest* box and enter the application details.
+5.  \(Optional\) If you don't want to use a manifest, deselect the *Use Manifest* box and enter the application details.
 
     1.  Enter a name for your application.
 
@@ -30,9 +30,9 @@ You can use the cockpit to deploy a new application in the Cloud Foundry environ
         > ### Note:  
         > By default, each instance of a new app is assigned 1024 MB of memory and 512 MB of disk space, and each app starts with 1 instance. If you require more or less resources, edit the prefilled fields in the form to suit your needs.
 
-    3.  \(Optional\) If you don't need a route for your app, tick the *No Route* box.
+    3.  \(Optional\) If you don't need a route for your app, select the *No Route* box.
 
-    4.  \(Optional\) If you would like to create a route for your app, leave the *No Route* box unticked and choose a host name \(if different than your app name\) and a domain for your app.
+    4.  \(Optional\) If you would like to create a route for your app, leave the *No Route* box deselected and choose a host name \(if different than your app name\) and a domain for your app.
 
         > ### Note:  
         > When you enter an app name, the *Host* field is automatically filled with the same name. You can make changes to it or leave it as is. After deciding on a host and domain, you can see a preview of your final application route at the bottom of the form.

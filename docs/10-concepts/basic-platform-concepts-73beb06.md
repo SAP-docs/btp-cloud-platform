@@ -123,28 +123,9 @@ SAP BTP offers two different commercial models:
 
 
 
-<a name="loio73beb06e127f4e47b849aa95344aabe1__section_bl5_hmk_1qb"/>
-
-## Account Model Feature Set A
-
-The SAP BTP cockpit is structured according to global accounts and subaccounts:
-
-![Global Accounts and Subaccounts](images/Global_Accounts_Subaccounts_Small_e06a85d.png)
-
--   A **global account** is the realization of a contract you or your company has made with SAP. A global account is used to manage subaccounts, members, entitlements and quotas. You receive entitlements and quotas to use platform resources per global account and then distribute the entitlements and quotas to the subaccount for actual consumption. There are two types of commercial models for global accounts: consumption-based model and subscription-based model. See [Commercial Models](commercial-models-263d400.md)
-
--   **Subaccounts** let you structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements.
-
-    In the SAP BTP, Cloud Foundry environment, the subaccount is divided into one or more spaces, which is where application development, deployment, and maintenance take place.
-
-
-For more information, see [Account Model](account-model-8ed4a70.md#loio8ed4a705efa0431b910056c0acdbf377).
-
-
-
 <a name="loio73beb06e127f4e47b849aa95344aabe1__section_trt_ny5_smb"/>
 
-## Account Model Feature Set B
+## Account Model
 
 The SAP BTP cockpit is structured according to global accounts, directories, and subaccounts:
 

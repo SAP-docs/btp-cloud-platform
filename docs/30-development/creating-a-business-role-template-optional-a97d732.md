@@ -14,14 +14,10 @@ Creating a business role template especially makes sense if you have more than o
 
 ## Procedure
 
-1.  In the project explorer, right-click the package *Cloud Identity and Access Management*.
+1.  Create a business role template as described in [Creating a Business Role Template](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/creating-business-role-template?locale=en-US).
 
-2.  In the context menu, choose *New* \> *Business Role Template*.
+2.  After the business role template has been created, add the business catalog to it.
 
-3.  Follow the steps of the creation wizard.
-
-4.  After the business role template has been created, add the business catalog to it.
-
-5.  Choose *Publish Locally* to make the business role template available for use in the development system.
+3.  Choose *Publish Locally* to make the business role template available for use in the development system.
 
 

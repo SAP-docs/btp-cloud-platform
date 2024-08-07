@@ -4,8 +4,6 @@
 
 
 
-Service name: `BusinessRole`
-
 This service enables you to to do the following:
 
 -   Read business roles

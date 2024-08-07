@@ -10,7 +10,7 @@ On SAP BTP, member management takes place at all levels from global account to e
 
 ## User Accounts
 
-A user account corresponds to a particular user in an identity provider, such as the default identity provider or a custom tenant of the SAP Cloud Identity Services - Identity Authentication.
+A user account corresponds to a particular user in an identity provider, such as the default identity provider or a custom tenant of SAP Cloud Identity Services - Identity Authentication.
 
 **User accounts** enable users to log on to SAP BTP, access subaccounts, and to use services according to the permissions granted to them.
 

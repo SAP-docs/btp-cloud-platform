@@ -13,7 +13,7 @@ SAP BTP supports identity federation, a concept of linking and reusing digital i
 
   
   
-**Identity Provider and XSUAA in SAP BTP Architecture**
+**Identity Provider and the SAP Authorization and Trust Management Service in SAP BTP Architecture**
 
 
 

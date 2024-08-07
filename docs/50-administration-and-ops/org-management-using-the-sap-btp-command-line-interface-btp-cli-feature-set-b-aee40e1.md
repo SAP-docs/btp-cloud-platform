@@ -332,7 +332,13 @@ Additional Info
 </td>
 <td valign="top">
 
-<code>btp update accounts/environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i> --parameters "{\"usersToAdd\":[{\"id\":\"myUserID\",\"email\":\"name@example.com\"}]}"</code> 
+For the default identity provider:
+
+<code>btp update accounts/environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i> --parameters "{\"usersToAdd\":[{\"id\":\"myUserID\",\"email\":\"name@example.com\"}]}"</code>
+
+For a custom identity provider:
+
+<code>btp update accounts/environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i> --parameters "{\"usersToAdd\":[{\"id\":\"myUserID\",\"email\":\"name@example.com\",\"origin\":\"&lt;your custom IDP&gt;\"}]}"</code>
 
 </td>
 <td valign="top">
@@ -365,7 +371,13 @@ For examples that show how to pass JSON parameters in the command line with diff
 </td>
 <td valign="top">
 
-<code>btp update accounts/environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i> --parameters "{\"usersToRemove\":[{\"id\":\"myUserID\",\"email\":\"name@example.com\"}]}"</code> 
+For the default identity provider:
+
+<code>btp update accounts/environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i> --parameters "{\"usersToRemove\":[{\"id\":\"myUserID\",\"email\":\"name@example.com\"}]}"</code>
+
+For a custom identity provider:
+
+<code>btp update accounts/environment-instance <i class="varname">&lt;ID&gt;</i> --subaccount <i class="varname">&lt;SUBACCOUNT_ID&gt;</i> --plan <i class="varname">&lt;PLAN&gt;</i> --parameters "{\"usersToRemove\":[{\"id\":\"myUserID\",\"email\":\"name@example.com\",\"origin\":\"&lt;your custom IDP&gt;\"}]}"</code>
 
 </td>
 <td valign="top">
@@ -403,7 +415,7 @@ To learn how to remove a user from the Cloud Foundry org and the subaccount, see
 
 [Add Org Members](add-org-members-a4eeaf1.md "In the cockpit, add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.")
 
-[Managing Spaces](managing-spaces-5209d55.md "Learn what a Cloud Foundry space is, what type of information you will find on the Spaces page in the cockpit, and what you can do with or within a space.")
+[Managing Spaces](managing-spaces-5209d55.md "Learn what a Cloud Foundry space is, what type of information you will find on the Spaces page in the SAP BTP cockpit, and what you can do with or within a space.")
 
 [About User Management in the Cloud Foundry Environment](about-user-management-in-the-cloud-foundry-environment-8e6ce96.md "The Cloud Foundry environment has its own store for user data within SAP BTP. Understanding the relationship between SAP BTP and the Cloud Foundry environment is useful.")
 

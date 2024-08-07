@@ -4,8 +4,6 @@
 
 
 
-Service name: `CommunicationUser`
-
 This service enables you to:
 
 -   Read communication users

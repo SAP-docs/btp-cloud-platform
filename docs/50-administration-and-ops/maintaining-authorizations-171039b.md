@@ -18,7 +18,7 @@ To change access to the objects of other users used in the *Application Jobs* ap
 
 ## Procedure
 
-1.  Create a new business role assigning the business catalog `SAP_CORE_BC_APJ_JCE` to it. The restriction type `Job Catalog Entry/Application Job Part` contains the two fields `Application Job Catalog Entry` and `Application Job Part`. For more information, see [Maintain Business Roles](maintain-business-roles-365b0d6.md).
+1.  Create a new business role assigning the business catalog `SAP_CORE_BC_APJ_JCE` to it. The restriction type `Job Catalog Entry/Application Job Part` contains the two fields `Application Job Catalog Entry` and `Application Job Part`. For more information, see [Maintain Business Roles](maintain-business-roles-8980ad0.md).
 
     > ### Note:  
     > With this restriction type, you'll be able to provide the necessary authorizations for certain actions on the application jobs of other users that are based on a specified job catalog entry. You can display the result lists of these application jobs.
@@ -40,5 +40,5 @@ To change access to the objects of other users used in the *Application Jobs* ap
 
 [Maintain Business Users](maintain-business-users-e40e710.md "You use this app to provide business users with access rights and to maintain business user settings.")
 
-[Maintain Business Roles](maintain-business-roles-365b0d6.md)
+[Maintain Business Roles](maintain-business-roles-8980ad0.md)
 

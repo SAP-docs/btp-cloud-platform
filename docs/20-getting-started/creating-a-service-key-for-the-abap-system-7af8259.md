@@ -42,3 +42,8 @@ You can use service keys to generate credentials to communicate directly with a 
     -   The URL from the `url` element in the `uaa` section
 
 
+**Related Information**  
+
+
+[SAP BTP Cockpit](https://help.sap.com/docs/btp/sap-btp-neo-environment/sap-btp-cockpit?version=Cloud)
+

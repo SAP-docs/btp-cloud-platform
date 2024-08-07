@@ -2,7 +2,10 @@
 
 # Deleting a Unit of Measurement
 
-Use method `DELETE` to delete a unit of measurement. For customer units, the name of the internal unit must start with a ‘Z’ to allow for deletion.
+Use method `DELETE` to delete a unit of measurement.
+
+> ### Caution:  
+> Changing the initial set of configurations has implications. Before proceeding with any change, familiarize yourself with the warnings in [Units of Measurement](units-of-measurement-8961c2c.md).
 
 
 

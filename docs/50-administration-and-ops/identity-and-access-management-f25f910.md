@@ -8,9 +8,9 @@ Identity and Access Management \(IAM\) enables you to control user access to app
 
 The main elements of IAM are business catalogs, business roles, and business users. The IAM apps secure the access to your solution based on these elements. Please see *Business Roles, Business Catalogs, and Restrictions* in the *Related Information* section for a more detailed description of how these elements interrelate.
 
-Access to business apps is controlled by a role-based authorization management. That means you assign roles to users and these roles provide access to certain business tasks.
+Access to business apps is controlled by a role-based authorization management. That means you assign business roles to users and these business roles provide access to certain business tasks.
 
-You can also assign users to roles in the **Maintain Business Roles** app. The main purpose of the app though is to create and adapt business roles. You create business roles by combining pre-defined business catalogs that contain the actual authorizations that allow users to access apps for a specific business area. If necessary, you can change the restrictions for the access categories value help, read, and write on field level. Once you have created a business role, you can assign it to multiple business users who perform similar business tasks in the **Maintain Business Users** app. Business users are all persons that need access to your solution, such as employees or contractors.
+You can also assign business users to business roles in the **Maintain Business Roles** app. The main purpose of the app though is to create and adapt business roles. You create business roles by combining pre-defined business catalogs that contain the actual authorizations that allow users to access apps for a specific business area. If necessary, you can change the restrictions for the access categories value help, read, and write on field level. Once you have created a business role, you can assign it to multiple business users who perform similar business tasks in the **Maintain Business Users** app. Business users are all persons that need access to your solution, such as employees or contractors.
 
 As opposed to business users, technical users aren't persons, but rather services that are used to automate technical tasks in the system, for example, a communication user. The **Display Technical Users** app shows you what technical users are available in your solution.
 
@@ -20,7 +20,7 @@ As opposed to business users, technical users aren't persons, but rather service
 > ### Note:  
 > To find out which business roles grant access to which apps, you can use the*IAM Information System* app. On the *Business Role - Application* tab, you can display all apps per business role as well as the corresponding business catalog IDs. If you select *Application* in the *Main Entity* dropdown list, you can search for apps and see which business roles and business catalogs provide access to them. For more information, see *IAM Information System* in the *Related Information* section.
 > 
-> If you don’t have access to the *IAM Information System* app, you can still find out which business catalogs grant access to which apps using the SAP Fiori Apps Reference Library. For more information, see SAP Note [2832524](https://me.sap.com/notes/2832524).
+> If you don’t have access to the *IAM Information System* app, you can still find out which business catalogs grant access to which apps using the SAP Fiori Apps Reference Library. For more information, see the *Related Information*section.
 
 
 
@@ -38,10 +38,10 @@ If you need support or experience issues, please report an incident under compon
 
 To have access to these apps, your user needs to be assigned to a business role which contains one of the following business catalogs:
 
--   *Identity and Access Management*
--   *User Management*
--   *Role Management*
--   *Role Assignment*
+-   *Identity and Access Management* \(SAP\_CORE\_BC\_IAM\)
+-   *User Management* \(SAP\_CORE\_BC\_IAM\_UM\)
+-   *Role Management* \(SAP\_CORE\_BC\_IAM\_RM\)
+-   *Role Assignment* \(SAP\_CORE\_BC\_IAM\_RA\)
 
 For more information, see sections *Maintain Business Users* and *Business Catalogs for Identity and Access Management Apps* linked below or ask your administrator.
 
@@ -70,7 +70,9 @@ For more information, see sections *Maintain Business Users* and *Business Catal
 
 [Display Restriction Types](display-restriction-types-9203905.md "You can use this app to display restriction types and their validity.")
 
-[Maintain Business Roles](maintain-business-roles-365b0d6.md)
+[Maintain Business Roles](maintain-business-roles-8980ad0.md)
 
 [Business Roles, Business Catalogs and Restrictions](business-roles-business-catalogs-and-restrictions-d45c96e.md "")
+
+[SAP Fiori Apps Reference Library - User Guide](https://help.sap.com/docs/SAP%20Fiori%20Apps%20Reference%20Library/187a50cf8191418ab7b52505fcef1789/5a8c8240cd43410ea3e3ea6cb901dab7.html)
 

@@ -2,31 +2,28 @@
 
 # Commercial Information for Kyma Runtime
 
-
-
-<a name="loioc33bb114a86e474a95db29cfd53f15e6__section_rkn_4pz_5zb"/>
-
-## Service Description
-
-SAP BTP, Kyma runtime is a fully managed Kubernetes runtime based on the open-source project "Kyma". This cloud-native solution allows the developers to extend SAP solutions with serverless Functions and combine them with containerized microservices. The offered functionality ensures smooth consumption of SAP and non-SAP applications, running workloads in a highly scalable environment, and building event- and API-based extensions.
+This page explains the relationship between the service plans of the SAP Discovery Center and the service plans of the SAP BTP cockpit and provides information to help you understand how the service is billed.
 
 
 
 <a name="loioc33bb114a86e474a95db29cfd53f15e6__section_gwp_yyy_5zb"/>
 
-## Service Plans
+## Service
 
 
 
-### Service Overview
+### Overview
 
-![](images/Service_Plans_Kyma_3b88103.png)
+![Service Plans for Kyma Runtime: Free (SKU 8011146) and Standard (8008456), with Standard available for aws, gcp, and azure.](images/Service_Plans_Kyma_fa903de.png)
+
+[**SAP Discovery Center: Kyma Runtime**](https://discovery-center.cloud.sap/serviceCatalog/kyma-runtime?tab=service_plan)
+
+> ### Note:  
+> For more information, see [What is the Consumption-Based Commercial Model?](https://help.sap.com/docs/btp/sap-business-technology-platform/what-is-consumption-based-commercial-model?version=Cloud)
 
 
 
-### SAP BTP Cockpit Service Plan Descriptions
-
-**SAP BTP Cockpit Service Plan Descriptions**
+### SAP BTP Cockpit: Service Plans
 
 
 <table>
@@ -351,7 +348,7 @@ Note that the result is an estimate, and the monthly bill may vary depending on 
 
 ## Supplemental Terms And Conditions
 
-For additional information, please refer to the [SAP Business Technology Platform Service Description Guide](https://www.sap.com/about/trust-center/agreements/cloud/cloud-services.html?sort=latest_desc&search=SAP%20Business%20Technology%20Platform%20Service%20Description%20Guide&tag=language:english), section “SAP BUSINESS TECHNOLOGY PLATFORM, KYMA RUNTIME”.
+For more information, see [SAP Business Technology Platform Service Description Guide](https://www.sap.com/about/trust-center/agreements/cloud/cloud-services.html?%3Bpage=1&%3Bpdf-asset=82ce6fed-917e-0010-bca6-c68f7e60039b&%3Btag=language%3Aenglish&search=SAP%20Business%20Technology%20Platform%20Service%20Description%20Guide&sort=latest_desc&pdf-asset=9a48fd54-c97e-0010-bca6-c68f7e60039b&page=7), section “SAP BTP, KYMA RUNTIME”.
 
 
 

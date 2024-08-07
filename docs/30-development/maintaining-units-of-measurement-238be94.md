@@ -4,6 +4,9 @@
 
 Class `CL_UOM_MAINTENANCE` provides methods for maintaining units of measurement.
 
+> ### Caution:  
+> Changing the initial set of configurations has implications. Before proceeding with any change, familiarize yourself with the warnings in [Units of Measurement](units-of-measurement-8961c2c.md).
+
 For more information, see the following:
 
 -   [Creating a Unit of Measurement](creating-a-unit-of-measurement-f879258.md)

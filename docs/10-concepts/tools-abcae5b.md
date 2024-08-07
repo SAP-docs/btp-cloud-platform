@@ -59,7 +59,7 @@ The Cloud Foundry command line interface enables you to work with the Cloud Foun
 <tr>
 <td valign="top">
 
-[SAP BTP Command Line Interface \[Feature Set B\]](../50-administration-and-ops/account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md)
+[SAP BTP Command Line Interface](../50-administration-and-ops/account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md)
 
 </td>
 <td valign="top">

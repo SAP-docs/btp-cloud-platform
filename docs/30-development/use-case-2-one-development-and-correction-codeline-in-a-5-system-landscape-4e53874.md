@@ -92,9 +92,6 @@ Additional role needed
 
 Second, developers are also not allowed to create transport requests and tasks on their own, but it’s the release manager who creates them for all developers. This separation is achieved by giving business catalog `SAP_A4C_BC_TRN_MNG_PC` \(Development - Transport Management\) to the release manager instead of the developer role in correction system COR.
 
-> ### Note:  
-> Note that any systems that are not permanently needed can be temporarily stopped and started later using Manage System Hibernation in Landscape Portal. This applies to TST, COR, and QAS, or even DEV, thus reducing the operating costs and making a 5-system landscape much more affordable.
-
 
 
 <a name="loio4e53874043e544ce8f41fea26f674134__section_rhr_jv5_wlb"/>
@@ -903,6 +900,9 @@ Pull the software component\(s\) to get the correction into the already checked 
 ## Skipping a Release
 
 If issues during the test phase of YYYY-<nn+1\> cannot be fixed in a reasonable time frame until the next release date, you can skip that release, especially if you have a tight release schedule \(“continuous delivery” model\). In that case, you have to perform double maintenance for the unfinished corrections from YYYY-<nn+1\> in the main branch of the development ABAP system, release them, and create the new release branch YYYY-<nn+2\> derived from that main branch. That way, branch YYYY-<nn+2\> contains finished new development as well as the unfinished corrections from branch YYYY-<nn+1\>. Afterwards, you can bring system COR and QAS to branch YYYY-<nn+2\> and continue with that.
+
+> ### Note:  
+> Branches cannot be deleted or marked as obsolete. Therefore, it’s important to use other tools to inform consumers about not using branch YYYY-<nn+1\>.
 
 
 

@@ -47,6 +47,15 @@ To create a communication arrangement, proceed as follows:
 
 6.  If the communication scenario provides outbound services, you have to select the desired outbound user and authentication method from the assigned communication system. In the *Outbound Services* section, the URL path and port need to be defined. Depending on the underlying scenario, maintain the required outbound parameters and job execution details.
 
+    > ### Note:  
+    > If the required outbound service is of the type *Outbound SQL Access*, you need to make the following additional settings:
+    > 
+    > -   *Remote Database Schema Name*: Here you enter the schema in the remote system containing the objects to be accessed.
+    > 
+    > -   If required click *Use Default*. This reads the*Remote Database Schema Name* from the Outbound SQL access service.
+    > 
+    > -   *Remote Database Name*: The database in the remote system containing the objects to be accessed. Usually you can leave the field empty unless the remote system hosts multiple databases.
+
 7.  Save the arrangement.
 
 

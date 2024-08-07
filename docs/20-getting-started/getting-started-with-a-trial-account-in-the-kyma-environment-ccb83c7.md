@@ -30,7 +30,7 @@ Quickly get started with a trial account in the Kyma environment.
 
     Now that you've set up your account model, it's time to think about member management. You can add members at different levels:
 
-    -   For Kyma-specific role assignment, see [Assign Roles in the Kyma Environment](../50-administration-and-ops/assign-roles-in-the-kyma-environment-148ae38.md).
+    -   For Kyma-specific role assignment, see [Assign Roles in the Kyma Environment](../60-security/assign-roles-in-the-kyma-environment-148ae38.md).
 
     -   To learn more about how user roles are assigned in SAP BTP, have a look at [User and Member Management](../10-concepts/user-and-member-management-cc1c676.md).
 

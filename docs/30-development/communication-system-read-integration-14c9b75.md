@@ -4,8 +4,6 @@
 
 
 
-Service name: `CommunicationSystem`
-
 This service enables you to:
 
 -   Read communication systems

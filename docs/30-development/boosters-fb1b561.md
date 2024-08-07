@@ -40,5 +40,5 @@ When you start a booster, a wizard opens up which guides you through a set of st
 
 [Navigate in the Cockpit](../50-administration-and-ops/navigate-in-the-cockpit-0874895.md "Learn how to navigate to your global accounts and subaccounts in the SAP BTP cockpit.")
 
-[Create Spaces](../50-administration-and-ops/create-spaces-2f6ed22.md "Create spaces in your Cloud Foundry organization using the SAP BTP cockpit.")
+[Create Spaces](../50-administration-and-ops/create-spaces-2f6ed22.md "Create spaces in your Cloud Foundry organization using the SAP BTP cockpit. In a space, you can deploy and maintain applications, and connect them to services.")
 

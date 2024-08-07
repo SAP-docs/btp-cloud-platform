@@ -2,12 +2,9 @@
 
 # Security Administration: Managing Authentication and Authorization
 
-This section describes the tasks of administrators in the Cloud Foundry environment of SAP BTP. Administrators ensure user authentication and assign authorization information to users and user groups.
+This section describes the tasks of administrators of SAP BTP. Administrators ensure user authentication and assign authorization information to users and user groups.
 
-Since identity providers provide the users or user groups, you make then sure that there is a trust relationship between your subaccount and the identity provider. This is a prerequisite for authentication. Now you can manage the authorizations of the business users.
-
-> ### Note:  
-> Running on the cloud management tools feature set A: Only the administrator who created the current subaccount can use the SAP BTP cockpit to add other administrators as members. The added administrators can use all the security administration functions. This enables the administrators to manage authentication and authorization in this subaccount.
+Since identity providers provide the users or user groups, you make then sure that there is a trust relationship between your subaccount and the identity provider. This is a prerequisite for authentication. You can manage the authorizations of the business users.
 
 
 

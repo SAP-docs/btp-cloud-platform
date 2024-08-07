@@ -440,7 +440,7 @@ Maximum application job delay in seconds during the last 5 minutes
 <tr>
 <td valign="top">
 
-*Table Change Deltas \(Last Day\)*
+*Table Change Deltas*
 
 </td>
 <td valign="top">
@@ -457,17 +457,17 @@ Table changes during the last day per database table for database tables with mo
 <tr>
 <td valign="top">
 
-*Table Changes \(Last Month\)*
+*Table Changes*
 
 </td>
 <td valign="top">
 
-`abap_system_bc_dbtablog_count_1m`
+`abap_system_bc_dbtablog_count_1d`
 
 </td>
 <td valign="top">
 
-Total table changes per database table for database tables with more than 50,000 changes
+Total table changes during the last day per database table for database tables with more than 50,000 changes
 
 </td>
 </tr>

@@ -24,7 +24,7 @@ You can extend SAP SuccessFactors systems without disrupting the performance and
 
 
 
-The following graphic provides a high-level overview of the integration between SAP BTP, Cloud Foundry environment and SAP SuccessFactors:
+The following graphic provides a high-level overview of the integration between SAP BTP and SAP SuccessFactors:
 
 ![](images/Extending_SAP_SuccessFactors_with_SAP_Business_Technology_Platform_1c03fef.png)
 

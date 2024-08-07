@@ -91,6 +91,25 @@ Optional
 
 Category of change
 
+The following values are available:
+
+-   *GE* = General changes to the business role attributes, such as the description
+
+-   *BU* = Assigned business users
+
+-   *BC* = Assigned business catalogs
+
+-   *FS* = Assigned launchpad spaces
+
+-   *RA*= Access restrictions
+
+-   *RV* = Restriction values
+
+-   *RS* = Restrictions
+
+
+
+
 </td>
 <td valign="top">
 

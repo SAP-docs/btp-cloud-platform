@@ -411,6 +411,50 @@ The total number of e-mails and the number of e-mails with errors during the las
 <tr>
 <td valign="top">
 
+ABAP System
+
+</td>
+<td valign="top">
+
+Table Change Deltas
+
+</td>
+<td valign="top">
+
+abap\_system\_bc\_dbtablog\_delta\_count\_1d
+
+</td>
+<td valign="top">
+
+Table changes during the last day per database table for database tables with more than 10,000 changes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ABAP System
+
+</td>
+<td valign="top">
+
+Table Changes
+
+</td>
+<td valign="top">
+
+abap\_system\_bc\_dbtablog\_count\_1d
+
+</td>
+<td valign="top">
+
+Total table changes during the last day per database table for database tables with more than 50,000 changes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 HANA
 
 </td>

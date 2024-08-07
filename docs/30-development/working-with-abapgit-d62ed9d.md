@@ -138,7 +138,7 @@ For additional information on how to duplicate the Git repositories, it may be h
 
 -   Click onto the button *Activate All* to activate all objects.
 
--   > ### Note:  
+    > ### Note:  
     > Please be aware that it might be necessary to repeat the last two steps.
 
 

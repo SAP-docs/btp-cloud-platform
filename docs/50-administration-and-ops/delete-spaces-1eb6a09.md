@@ -34,7 +34,7 @@ Delete spaces in your Cloud Foundry org using the SAP BTP cockpit.
 **Related Information**  
 
 
-[Create Spaces Using the Cockpit](create-spaces-2f6ed22.md "Create spaces in your Cloud Foundry organization using the SAP BTP cockpit.")
+[Create Spaces Using the Cockpit](create-spaces-2f6ed22.md "Create spaces in your Cloud Foundry organization using the SAP BTP cockpit. In a space, you can deploy and maintain applications, and connect them to services.")
 
 [Delete Spaces Using the Cloud Foundry Command Line Interface](delete-spaces-using-the-cloud-foundry-command-line-interface-13359c4.md "Use the cf delete-space command to delete spaces in your Cloud Foundry organization using the Cloud Foundry Command Line Interface (cf CLI).")
 

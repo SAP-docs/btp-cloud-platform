@@ -32,7 +32,7 @@ As an administrator, you must perform several steps to set up a fully operationa
 
 2.  Add the modules you'd like to use: [Kyma Modules](../10-concepts/kyma-modules-0dda141.md).
 
-3.  Assign the roles to users to allow the administrators to manage Kyma and the developers to create Functions: [Assign Roles in the Kyma Environment](../50-administration-and-ops/assign-roles-in-the-kyma-environment-148ae38.md)
+3.  Assign the roles to users to allow the administrators to manage Kyma and the developers to create Functions: [Assign Roles in the Kyma Environment](../60-security/assign-roles-in-the-kyma-environment-148ae38.md)
 
     > ### Caution:  
     > Assign the roles before the users start using the Kyma dashboard. Not granting the roles results in an error.

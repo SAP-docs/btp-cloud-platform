@@ -12,7 +12,7 @@
 
 -   Have the Kyma environment enabled for the subaccount you are using. See [Create the Kyma Instance](../50-administration-and-ops/create-the-kyma-instance-09dd313.md).
 
--   Configure the roles in the Kyma environment. See [Assign Roles in the Kyma Environment](../50-administration-and-ops/assign-roles-in-the-kyma-environment-148ae38.md).
+-   Configure the roles in the Kyma environment. See [Assign Roles in the Kyma Environment](../60-security/assign-roles-in-the-kyma-environment-148ae38.md).
 
 -   The SAP BTP Operator module is enabled. See [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c)
 

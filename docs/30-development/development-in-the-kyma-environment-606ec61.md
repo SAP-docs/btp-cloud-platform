@@ -10,7 +10,7 @@ Learn more about developing applications in SAP BTP, Kyma runtime.
 
 ## Overview
 
-With SAP BTP, Kyma runtime, you can build simple Functions, develop, and deploy more complex microservices, or mixtures of those, depending on your use case complexity level. Both, Functions and microservices, can act as stand-alone applications or extensions of these SAP systems:
+With SAP BTP, Kyma runtime, you can build simple Functions, develop, and deploy more complex microservices, or mixtures of those, depending on your use case complexity level. Functions and microservices can act as stand-alone applications or extensions of these SAP systems:
 
 -   SAP S/4HANA
 

@@ -2,7 +2,7 @@
 
 # Glossary for Identity and Access Management
 
-Overview of terminology used for identity and access management
+Get an overview of the terminology used for identity and access management.
 
 
 
@@ -129,6 +129,30 @@ Technical user
 <td valign="top">
 
 A technical user corresponds to a local or remote process which is typically part of the cloud management process \(e.g. system provisioning, support\) or intrinsic system processes \(e.g. periodic clean-up of logs\). There are technical users that belong to the software or service provider and there are technical users that belong to the customer.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+IAM app
+
+</td>
+<td valign="top">
+
+A unit that grants access to a set of services and authorizations. An IAM app can be grouped in business catalogs and assigned to business roles.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+External app
+
+</td>
+<td valign="top">
+
+An IAM app based on services, for example derived from SAP Fiori launchpad app descriptor items. It contains services and authorizations.
 
 </td>
 </tr>

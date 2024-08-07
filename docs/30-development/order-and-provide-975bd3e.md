@@ -10,20 +10,29 @@ After the initial add-on version has been built, you must deploy and provide it 
 
 ## Deploy
 
-A SaaS solution refers to a multitenant application that is deployed to the Cloud Foundry environment on SAP BTP and enabled for subscription. When consumers subscribe, multitenant-enabled SAP BTP ABAP environment instances which have an add-on installed are provisioned automatically and tenants are assigned to the consumers.
+In order to offer a multitenant application based on an ABAP add-on product, a multi-target application \(MTA\) is developed and deployed to the Cloud Foundry environment on SAP BTP. The MTA integrates the different services required for this scenario, such as the ABAP Solution service, responsible for provisioning ABAP systems, tenants, and users on demand. For more in-depth information, see [Multitenant Applications](https://help.sap.com/docs/btp/sap-business-technology-platform/entitlements-and-quotas?version=Cloud&q=entitlements%20and%20quotas).
 
-The configuration and deployment of such a project can be done in a few simple steps using the [Maintain Solution](maintain-solution-4985d3c.md) app in the Landscape Portal. However, the app does not support some advanced scenarios, such as:
+Once you’ve configured your multitenant application, you can deploy it once for testing purposes in the global account for development. After testing the subscription process during this development phase, the multitenant application can be deployed to the global account for production. See [System Landscape/Account Model](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts?state=DRAFT&version=Cloud#system-landscape%2Faccount-model).
 
--   customizing the application router
+After the multitenant application has been deployed for production purposes, the SaaS solution is ready for commercialization.
 
--   the gCTS use case \(see [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e)\)
+You have two options for implementing and deploying the application. The recommended approach is to use the Maintain Solution app in the Landscape Portal. See [Maintain Solution](https://help.sap.com/docs/btp/sap-business-technology-platform/maintain-solution?version=Cloud).
+
+Alternatively, you can create your own multitenant application. This allows you to modify parameters that are not exposed in the Maintain Solution app; however, the app should cover all common use cases. See Developing Multitenant Applications in the Abap Environment.
 
 
-In such a case, you can configure and deploy the multitenant application manually, which allows you to modify parameters that are not exposed in the *Maintain Solution* app. See [Multitenant Applications](order-and-provide-975bd3e.md#loio195031ff8f484b51af16fe392ec2ae6e). This approach is not recommended unless it is strictly necessary for your scenario.
 
-Once you’ve configured your multitenant application, you can deploy it once for testing purposes in the global account for development. After testing the subscription process in this provider subaccount, the multitenant application can be deployed to the global account for production. At that point, the SaaS solution is ready for commercialization.
 
-Please note that you need certain entitlements to deploy your multitenant application to SAP BTP. These are assigned to the relevant subaccounts in the [Prepare](prepare-4338854.md#loio4338854e3133407abb47d3a281dbd1e1) section of this guide.
+
+### gCTS Delivery
+
+If you use gCTS instead of add-ons for delivering software components to production systems, you have to configure the multitenant application manually. In the configuration of the ABAP solution service the value for the add-on product name must be left empty. This is currently not supported by the Maintain Solution app. See [Delivery via Add-On or gCTS](https://help.sap.com/docs/btp/sap-business-technology-platform/delivery-via-add-on-or-gcts?version=Cloud).
+
+Prerequisites
+
+• To configure the sizing of a SaaS solution, you have to determine the expected load per region by using the Technical Monitoring Cockpit. See Technical Monitoring Cockpit \(Cloud Version\).
+
+• To implement and deploy a multitenant application for a SaaS solution, you have to assign the necessary entitlements in the provider subaccount, for example for the ABAP Solution service. See [Multitenant Applications](https://help.sap.com/docs/btp/sap-business-technology-platform/entitlements-and-quotas?version=Cloud&q=entitlements%20and%20quotas) and [Entitlements and Quotas](https://help.sap.com/docs/btp/sap-business-technology-platform/entitlements-and-quotas?version=Cloud&q=entitlements%20and%20quotas).
 
 <a name="loio1782f253e102484dac378887b3d6d769"/>
 

@@ -4,8 +4,6 @@
 
 
 
-Service name: `ContentSecurityPolicy`
-
 This service enables you to
 
 -   Read Content Security Policy statuses

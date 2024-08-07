@@ -4,15 +4,15 @@
 
 The scoping of space and page templates refers to the process of defining the visibility or accessibility of these objects.
 
-Space and page templates are not visible in the [Manage Launchpad Spaces](https://help.sap.com/docs/btp/user-interface-configurations/manage-launchpad-spaces?version=Cloud) and [Manage Launchpad Pages](https://help.sap.com/docs/btp/user-interface-configurations/manage-launchpad-pages?version=Cloud) apps by default. Meaning, they cannot be assigned or used within a business role. The space and page templates need to be scoped.
+Space and page templates are not visible in the [Manage Launchpad Spaces](https://help.sap.com/docs/btp/user-interface-configurations/manage-launchpad-spaces?version=Cloud) and [Manage Launchpad Pages](https://help.sap.com/docs/btp/user-interface-configurations/manage-launchpad-pages?version=Cloud) apps in the development system by default. Meaning, they cannot be assigned or used within a business role. The space and page templates need to be scoped.
 
-To use the space and page templates you must implement your own scoping. When testing locally, e.g., in a development system, it is recommended to use a console application to set the space and page template in scope. To set the space and page templates in scope in a test or production system, it is recommended to use [Application Jobs](https://help.sap.com/docs/btp/sap-business-technology-platform/application-jobs-3?version=Cloud). In both implementations, the class must call the scoping API \(application programming interface\) `CL_APS_BC_SCOPE_CHANGE_API`.
+To use the space and page templates in the development system you must implement your own scoping using the scoping API \(Application Programming Interface\) `DL APS BC SCOPE CHANGE API`. It's recommended to use a console application to set the space and page template in scope.
 
 > ### Sample Code:  
 > ```
 > 
->     CONSTANTS obj_name_page  TYPE c LENGTH 40 VALUE 'PAGE' ##NO_TEXT.
->     CONSTANTS obj_name_space TYPE c LENGTH 40 VALUE 'SPACE' ##NO_TEXT.
+>     CONSTANTS obj_name_page  TYPE c LENGTH 40 VALUE 'PAGE_NAME' ##NO_TEXT.
+>     CONSTANTS obj_name_space TYPE c LENGTH 40 VALUE 'SPACE_NAME' ##NO_TEXT.
 > 
 >     DATA(lo_scope_api) = cl_aps_bc_scope_change_api=>create_instance( ).
 > 
@@ -32,6 +32,8 @@ To use the space and page templates you must implement your own scoping. When te
 >     ENDLOOP.
 > 
 > ```
+
+In non-development systems, space and page templates are scoped automatically during import into the system.
 
 **Related Information**  
 

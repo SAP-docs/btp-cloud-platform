@@ -57,7 +57,7 @@ Role
 </td>
 <td valign="top">
 
-Access to every cluster is managed by the roles assigned. Roles give the assigned users a different level of permissions suitable for different purposes. For more information, read [Assign Roles in the Kyma Environment](../50-administration-and-ops/assign-roles-in-the-kyma-environment-148ae38.md).
+Access to every cluster is managed by the roles assigned. Roles give the assigned users a different level of permissions suitable for different purposes. For more information, read [Assign Roles in the Kyma Environment](../60-security/assign-roles-in-the-kyma-environment-148ae38.md).
 
 </td>
 </tr>

@@ -62,7 +62,7 @@ The application operations are specific to the ABAP environment. For more inform
 
 The administrators of the Kyma environment take care of setting it up and make sure it's ready for developers to work with.
 
--   [Assign Roles in the Kyma Environment](assign-roles-in-the-kyma-environment-148ae38.md)
+-   [Assign Roles in the Kyma Environment](../60-security/assign-roles-in-the-kyma-environment-148ae38.md)
 
 -   [Create the Kyma Instance](create-the-kyma-instance-09dd313.md)
 

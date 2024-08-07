@@ -73,6 +73,8 @@ SAP\_CORE\_BC\_IAM\_UM
 
 *Business User*\(CLASS\)
 
+*Business Role* \(S\_BRL\)
+
 </td>
 </tr>
 <tr>
@@ -84,6 +86,8 @@ SAP\_CORE\_BC\_IAM\_RA
 <td valign="top">
 
 *Business Role* \(S\_BRL\)
+
+*Business Role User Assignment* \(S\_BRL\_ASG\)
 
 *Business User* \(CLASS\)
 
@@ -97,7 +101,7 @@ SAP\_CORE\_BC\_IAM\_RM\_DISP\_PC
 </td>
 <td valign="top">
 
-*Business Role* \(ROLE\_GROUP\)
+*Business Role* \(S\_BRL\)
 
 </td>
 </tr>
